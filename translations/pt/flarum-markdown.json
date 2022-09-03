@@ -1,5 +1,20 @@
 {
     "flarum-markdown": {
+        "lib": {
+            "composer": {
+                "bold_tooltip": "",
+                "code_tooltip": "",
+                "header_tooltip": "",
+                "image_tooltip": "",
+                "italic_tooltip": "",
+                "link_tooltip": "",
+                "ordered_list_tooltip": "",
+                "quote_tooltip": "",
+                "spoiler_tooltip": "",
+                "strikethrough_tooltip": "",
+                "unordered_list_tooltip": ""
+            }
+        },
         "forum": {
             "composer": {
                 "bold_tooltip": "Adicionar texto em negrito",
@@ -10,6 +25,8 @@
                 "link_tooltip": "Adicione um link",
                 "ordered_list_tooltip": "Adicionar uma lista numerada",
                 "quote_tooltip": "Inserir uma cotação",
+                "spoiler_tooltip": "",
+                "strikethrough_tooltip": "",
                 "unordered_list_tooltip": "Adicionar uma lista com marcadores"
             }
         }

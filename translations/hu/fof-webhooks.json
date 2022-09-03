@@ -2,117 +2,117 @@
     "fof-webhooks": {
         "actions": {
             "discussion": {
-                "started": "",
+                "started": "Téma elkezdve: „{1}”",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Téma átnevezve: „{1}”",
+                    "description": "Új cím: {1}"
                 },
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "hidden": "Téma elrejtve: „{1}”",
+                "restored": "Téma elrejtve: „{1}”",
+                "deleted": "Téma törölve: „{1}”"
             },
             "group": {
-                "created": "",
-                "renamed": "",
-                "deleted": ""
+                "created": "Csoport létrehozva: „{1}”",
+                "renamed": "Csoport átnevezve erre: „{1}”",
+                "deleted": "Csoport törölve: „{1}”"
             },
             "post": {
-                "posted": "",
-                "revised": "",
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "posted": "Új bejegyzés itt: „{1}”",
+                "revised": "Bejegyzés szerkesztve itt: „{1}”",
+                "hidden": "Bejegyzés elrejtve itt: „{1}”",
+                "restored": "Bejegyzés helyreállítva itt: „{1}”",
+                "deleted": "Bejegyzés törölve itt: „{1}”"
             },
             "user": {
-                "registered": "",
+                "registered": "Új felhasználó regisztrált",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "„{1}” felhasználóneve megváltozott",
+                    "description": "Új felhasználónév: „{1}”"
                 },
-                "deleted": ""
+                "deleted": "Felhasználó törölve: „{1}”"
             }
         },
         "adapters": {
             "errors": {
-                "404": ""
+                "404": "Nem található webhook"
             }
         },
         "admin": {
             "errors": {
-                "service_not_found": "",
-                "url_invalid": "",
-                "tag_invalid": ""
+                "service_not_found": "A(z) „{service}” szolgáltatás nem található.",
+                "url_invalid": "A webcím nem érvényes a kiválasztott szolgáltatáshoz.",
+                "tag_invalid": "Ez a webhook egy érvénytelen címkére van korlátozva. A korlátozás nem lesz alkalmazva. Győződjön meg róla, hogy ez a szándékolt működés."
             },
             "nav": {
-                "desc": ""
+                "desc": "A kimenő webhookok fórumhoz szabása."
             },
             "settings": {
-                "debug_label": "",
-                "debug_help": "",
+                "debug_label": "Hibakeresés",
+                "debug_help": "További naplók hozzáadása a Flarum naplófájljához a webhookok és az események helytelen működésének hibakeresése érdekében.",
                 "item": {
-                    "tag_any_label": ""
+                    "tag_any_label": "Bármely"
                 },
                 "help": {
-                    "disabled": "",
-                    "general": "",
-                    "url": ""
+                    "disabled": "Ez a webhook le van tiltva, mert egyetlen eseménye sincs engedélyezve.",
+                    "general": "Itt adhatja hozzá, szerkesztheti és távolíthatja el a fórumja webhookjait.",
+                    "url": "A webhook végrehajtandó végpontja"
                 },
                 "modal": {
-                    "title": "",
-                    "description": "",
-                    "use_plain_text_label": "",
-                    "max_post_content_length_label": "",
-                    "max_post_content_length_help": "",
-                    "extra_text_label": "",
-                    "extra_text_help": "",
-                    "group_label": "",
-                    "group_help": "",
-                    "events_label": ""
+                    "title": "Webhookbeállítások",
+                    "description": "Itt módosíthatja, hogy mely eseményekre aktiválódik a webhook.",
+                    "use_plain_text_label": "A formázás mennyiségének csökkentése a bejegyzéstartalomban",
+                    "max_post_content_length_label": "Bejegyzéstartalom legnagyobb hossza",
+                    "max_post_content_length_help": "Adjon meg egy számot, amely korlátozza a bejegyzéstartalmat az összes bejegyzéssel kapcsolatos eseménynél. Módosítsa 0-ra vagy üresre, hogy eltávolítsa a korlátot.",
+                    "extra_text_label": "További szöveg",
+                    "extra_text_help": "A webhook elküldésekor megadandó további szöveg.",
+                    "group_label": "Csoport",
+                    "group_help": "A csoport által látható erőforrások elküldése",
+                    "events_label": "Események"
                 },
                 "services": {
-                    "discord": "",
-                    "slack": "",
-                    "microsoft-teams": ""
+                    "discord": "Discord",
+                    "slack": "Slack",
+                    "microsoft-teams": "Microsoft Teams"
                 },
                 "actions": {
                     "flarum": {
                         "discussion": {
-                            "title": "",
-                            "started": "",
-                            "renamed": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "title": "Flarum-téma",
+                            "started": "Elindítva",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "group": {
-                            "title": "",
-                            "created": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "title": "Flarum-csoport",
+                            "created": "Létrehozva",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "post": {
-                            "title": "",
-                            "posted": "",
-                            "revised": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "title": "Flarum-bejegyzés",
+                            "posted": "Közzétéve",
+                            "revised": "Szerkesztve",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "user": {
-                            "title": "",
-                            "registered": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "title": "Flarum-felhasználó",
+                            "registered": "Regisztrált",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         }
                     }
                 }
             }
         },
         "ref": {
-            "deleted": "",
-            "hidden": "",
-            "renamed": "",
-            "restored": ""
+            "deleted": "Törölve",
+            "hidden": "Elrejtve",
+            "renamed": "Átnevezve",
+            "restored": "Helyreállítva"
         }
     }
 }

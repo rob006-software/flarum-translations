@@ -1,0 +1,22 @@
+{
+    "fof-amazon-affiliation": {
+        "admin": {
+            "settings": {
+                "title": {
+                    "modal": "Amazon Affiliate asetukset",
+                    "tags": "Affiliate avainsanat",
+                    "tags-mediaembed": "Seuraavat Amazonin sivustot eivät tue MediaEmbediä joten ne näytetään aina tavallisina linkkeinä (ylläolevien asetusten mukaan): CN, BR, MX, AU"
+                },
+                "field": {
+                    "keep-existing-tag": "Pidä Amazon Affiliate avainsanat alkueräisissä linkeissä korvaamisen sijaan",
+                    "keep-existing-tag-help": "Oletuksena jokainen olemassa oleva avainsana alkuperäisessä osoitteessa korvataan alla olevalla.",
+                    "help-mediaembed": "Käytettäessa fof/formatting lisäosan kanssa rikastetut upotukset poistaa aina olemassa olevan avainsanan",
+                    "remove-tag-if-unhandled": "Poista Amazon Affiliate avainsanat Amazonin linkeistä joita ei ole huomioitu",
+                    "remove-tag-if-unhandled-help": "Oletuksena linkit joita ei ole huomioitu näytetään kuten ne olivat pitäen avainsanan jos siinä oli sellainen.",
+                    "tag": "{name} (amazon.{domain})",
+                    "tag-placeholder": "Jätä tyhjäksi jotta näitä linkkejä ei huomioida"
+                }
+            }
+        }
+    }
+}

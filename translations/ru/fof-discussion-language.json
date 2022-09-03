@@ -1,0 +1,46 @@
+{
+    "fof-discussion-language": {
+        "forum": {
+            "change_language": {
+                "edit_title": "Редактировать язык для {title}",
+                "title": "Редактировать язык",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "composer_discussion": {
+                "choose_language_link": "Язык"
+            },
+            "discussion_controls": {
+                "change_language_button": "Установить язык"
+            },
+            "index_language": {
+                "any": "Любой"
+            }
+        },
+        "admin": {
+            "settings": {
+                "native_label": "Собственные названия языков",
+                "show_flag_label": "Флаги стран рядом с названиями языков",
+                "composer_default_label": "Язык по умолчанию",
+                "locale_sort_label": "Использовать обнаруженный язык для фильтрации дискуссий по умолчанию",
+                "show_any_lang_opt_label": "Показать пункт выбора \"Любой язык\".",
+                "tags_page_discussion_locale_label": "Показывать только дискуссии на текущем языке пользователя на странице тегов",
+                "errors": {
+                    "missing_assets": "Не получается загрузить наборы, необходимые для этого расширения. Попробуйте запустить <code>php flarum assets:publish</code> и проверить, не решит ли это проблему.",
+                    "loading_data": "При определении языка и страны возникла ошибка. Попробуйте отключить и вновь включить это расширение."
+                },
+                "config": {
+                    "language_label": "",
+                    "country_label": ""
+                }
+            },
+            "permissions": {
+                "allow_change_language_label": "Разрешить изменять язык"
+            }
+        },
+        "api": {
+            "discussion": {
+                "validation_error": "Вы должны выбрать язык дискуссии."
+            }
+        }
+    }
+}

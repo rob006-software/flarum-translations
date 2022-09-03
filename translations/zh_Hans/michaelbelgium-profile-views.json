@@ -2,14 +2,18 @@
     "michaelbelgium-flarum-profile-views": {
         "forum": {
             "user": {
-                "last_viewers_heading": "最近访客",
-                "view_count_text": "访问量 {viewcount, plural, one {{viewcount}} other {{viewcount}}}"
+                "viewlist": {
+                    "title": "足迹",
+                    "guest": "访客"
+                },
+                "view_count_text": "访问量 {viewcount, plural, one {{viewcount}} other {{viewcount}}}",
+                "last_viewers_heading": "最近访客"
             }
         },
         "admin": {
             "settings": {
-                "track_guests_label": "追踪未登录访客",
-                "max_viewcount_label": "访客列表的最多展示人数"
+                "track_guests_label": "记录未登录访客",
+                "max_viewcount_label": "足迹列表的最多展示人数"
             }
         }
     }

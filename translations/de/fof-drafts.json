@@ -16,7 +16,7 @@
             "scheduled_drafts_disabled": "Geplante Entwürfe sind derzeit in den Einstellungen deaktiviert."
         },
         "ref": {
-            "schedule_draft": ""
+            "schedule_draft": "Entwurf planen"
         },
         "forum": {
             "composer": {
@@ -29,27 +29,27 @@
             "dropdown": {
                 "empty_text": "Du hast keine Entwürfe gespeichert",
                 "title": "Entwürfe",
-                "delete_all_button": "",
+                "delete_all_button": "Alle Entwürfe löschen",
                 "delete_button": "Entwurf löschen",
                 "schedule_button": "Entwurf planen",
-                "scheduled_icon_tooltip": "",
-                "scheduled_icon_tooltip_formatter": "",
+                "scheduled_icon_tooltip": "Geplant für {datetime}",
+                "scheduled_icon_tooltip_formatter": "L [at] LT",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "Bist du sicher, dass du den Entwurf löschen möchtest?",
                 "delete_all_alert": "Bist du sicher, dass du alle deine Entwürfe löschen willst?"
             },
             "schedule_draft_modal": {
                 "title": "Entwurf planen",
-                "text": "Plane die automatische Veröffentlichung deines Entwurfs.",
+                "text": "Plane die automatische Veröffentlichung deines Entwurfs!",
                 "scheduled_text": "Beitrag wird am {datetime} veröffentlicht.",
                 "scheduled_error": "Konnte Beitrag nicht veröffentlichen wegen: {error}.",
                 "unschedule_button": "Plan entfernen",
-                "unschedule_warning": "",
+                "unschedule_warning": "Bist du sicher, dass du die Planung dieses Entwurfes aufheben willst?",
                 "reschedule_button": "Plan aktualisieren",
                 "schedule_button": "Planen",
-                "schedule_time_preview": "",
-                "schedule_time_preview_formatter": "",
-                "schedule_time_preview_invalid": ""
+                "schedule_time_preview": "Dieser Entwurf wird automatisch am <b>{datetime}</b> veröffentlicht.",
+                "schedule_time_preview_formatter": "LLLL",
+                "schedule_time_preview_invalid": "Ungültiges Datum und/oder ungültige Zeit"
             },
             "user": {
                 "settings": {

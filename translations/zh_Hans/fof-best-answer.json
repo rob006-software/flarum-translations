@@ -10,15 +10,30 @@
                     "general": "常规",
                     "reminders": "提醒事项",
                     "advanced": "高级",
-                    "reminders_notice": "为了使提醒功能正常运行，您必须正确设置 Flarum 调度器。"
+                    "reminders_notice": "要运行提醒功能，你必须正确配置 Flarum 调度器。"
                 },
-                "allow_select_own_post": "允许用户将自己的帖子设为最佳回复",
-                "select_best_answer_reminder_days": "于 n 天后提醒用户选择最佳回复",
-                "schedule_on_one_server": "在任务调度器中使用「onOneServer()」（需要 PHP 扩展：Redis / Memcache）",
-                "schedule_stop_overnight": "夜间免打扰（服务器时间晚上 9 点至早上 8 点，禁用提醒服务）",
+                "allow_select_own_post": "允许自选",
+                "allow_select_own_post_help": "允许提问者将自己的帖子设为最佳回复",
+                "enable_all_tags_button": "为所有标签启用最佳回复",
+                "enable_all_tags_reminder_button": "为所有标签启用提醒功能",
+                "select_best_answer_reminder_days": "提醒计时",
+                "select_best_answer_reminder_days_help": "于 n 天后提问者选择最佳回复。",
+                "schedule_on_one_server": "使用 onOneServer() 方法建立计划任务",
+                "schedule_on_one_server_help": "需要 Redis/Memcache",
+                "schedule_stop_overnight": "非工作时间禁用提醒",
+                "schedule_stop_overnight_help": "服务器时间 20:00 至 9:00",
                 "schedule_log_output": "将调度程序的输出添加到日志存储中",
-                "remind_tag_ids": "若要将提醒功能仅用于特定标签，请在此输入标签 ID （英文逗号分隔）",
-                "use_alt_ui": "将「最佳回复」按钮显示在帖子页脚"
+                "show_filter_label": "显示已解决过滤项",
+                "show_filter_help": "在启用最佳回复的标签页面显示「已解决/未解决」过滤项",
+                "use_alt_ui": "按钮布局",
+                "use_alt_ui_help": "在帖子底部显示最佳回复选择按钮",
+                "documentation": "文档",
+                "introduction": "你需要前往 <code><a>flarum/tags</a></code> 为特定标签开启最佳回复和提醒功能。你可以在「权限」页面为全局或特定标签设置最佳回复的操作权限。\n",
+                "remind_tag_ids": "若要将提醒功能仅用于特定标签，请在此输入标签 ID （英文逗号分隔）"
+            },
+            "edit_tag": {
+                "qna_label": "启用最佳回复",
+                "reminders": "提醒选择最佳回复"
             }
         },
         "forum": {
@@ -36,8 +51,27 @@
                 "awarded": "您的帖子被 {username} 设为最佳回复",
                 "preferences": {
                     "awarded_best_answer": "有人将我的帖子设为最佳回复",
-                    "best_answer_in_discussion": "我互动的主题有了最佳回复"
+                    "best_answer_in_discussion": "我互动的主题有了最佳回复",
+                    "select_best_answer": "提醒我选择自己主题的最佳回复"
                 }
+            },
+            "index": {
+                "ask_question": "提问",
+                "cannot_ask_question": "提问已关闭",
+                "solved_link": "已解决",
+                "unsolved_link": "等待解决"
+            },
+            "filter": {
+                "all_label": "全部问题",
+                "solved_label": "已解决",
+                "unsolved_label": "等待解决",
+                "accessible_label": "已解决/未解决"
+            },
+            "composer": {
+                "titlePlaceholder": "标题"
+            },
+            "user": {
+                "best-answer-count": "{count, plural, { {count} 次助人} other {{count} 次助人}}"
             }
         },
         "email": {

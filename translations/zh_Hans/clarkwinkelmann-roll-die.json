@@ -1,0 +1,18 @@
+{
+    "clarkwinkelmann-roll-die": {
+        "admin": {
+            "settings": {
+                "clearOnEdit": "编辑帖子时刷新骰子"
+            }
+        },
+        "forum": {
+            "tooltip": {
+                "render": "骰子：{number}",
+                "preview": "保存时刷新骰子"
+            },
+            "composer": {
+                "rollDie": "随机骰子"
+            }
+        }
+    }
+}

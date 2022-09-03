@@ -2,19 +2,20 @@
     "fof-upload": {
         "admin": {
             "pane": {
-                "title": "",
-                "description": ""
+                "title": "อัพโหลด",
+                "description": "ตั้งค่าบริการสำหรับอัพโหลด"
             },
             "help_texts": {
-                "disable-download-logging": "",
-                "disable-hotlink-protection": "",
-                "download_templates": "",
-                "mime_types": "",
-                "resize": "",
-                "client_extension": "",
-                "watermark": "",
+                "disable-download-logging": "ปิดการใช้งานบันทึกการดาวโหลดโดยผู้ใช้ในฟอรั่มของคุณ หากคุณเปิดเอาไว้คุณจะสามารุชถตรวจสอบจำนวนการดาวน์โหลดเเละค่าต่างๆ ได้\n",
+                "disable-hotlink-protection": "ป้องกันฮอตลิ้ง ป้องกันการดาวน์โหลดจากเว็บไซต์อื่นในขณะนี้ยังต้องการโทเคน csrf เเละไอดีของโพสต์ในการดาวน์โหลด\n",
+                "download_templates": "เทมเพลตที่โชว์ในฟอรั่มของคุณเช่น การพรีวิว ปุ่มขณะนี้สามารถใช้ได้ตามนี้:\n",
+                "mime_types": "โปรดกำหนดค่าการทำเเม็บปิ้งของคุณที่นี่ นิพจน์ทั่วไปของเเต่ละประเภทแต่ละรายการจะได้รับการจัดการโดยอแด็ปเตอร์อัปโหลดและเทมเพลตดาวน์โหลด\n",
+                "resize": "เลือกว่าคุณต้องการปรับขนาดภาพก่อนที่จะอัปโหลดหรือไม่ คุณสามารถเลือกความกว้างและความสูงสูงสุดเป็นพิกเซล กระบวนการปรับขนาดจะรักษาอัตราส่วนของภาพ\n",
+                "client_extension": "โดยค่าเริ่มต้น การอัปโหลดจะเลือกนามสกุลไฟล์ที่ปลอดภัยตามประเภท MIME \nสำหรับไฟล์บางประเภทที่อิงตามข้อมูล ZIP หรือไบนารี อาจส่งผลให้มีการใช้ส่วนขยายทั่วไปแทนนามสกุลที่คาดไว้ ที่นี่ \nคุณสามารถป้อนรายการนามสกุลไฟล์ที่คั่นด้วยเครื่องหมายจุลภาคซึ่งจะถูกเก็บไว้ตามคำต่อคำ\n",
+                "watermark": "เลือกว่ารูปภาพจะมีลายน้ำเพิ่มระหว่างการอัปโหลดหรือไม่ ลายน้ำจะถูกเพิ่มไปยังที่ไม่ใช่ gif ตามการตั้งค่าของคุณด้านล่าง\n",
                 "s3_compatible_storage": "",
                 "s3_acl": "",
+                "s3_instance_profile": "",
                 "composer_buttons": ""
             },
             "labels": {
@@ -39,7 +40,8 @@
                 },
                 "imgur": {
                     "client_id": "",
-                    "title": ""
+                    "title": "",
+                    "tos": ""
                 },
                 "local": {
                     "cdn_url": "",
@@ -54,7 +56,8 @@
                 "preferences": {
                     "max_file_size": "",
                     "mime_types": "",
-                    "title": ""
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "",
@@ -77,7 +80,8 @@
                         "upload-btn": "",
                         "media-btn": ""
                     }
-                }
+                },
+                "inspect-mime": ""
             },
             "permissions": {
                 "download_label": "",
@@ -89,11 +93,17 @@
                 "file": "",
                 "file_description": "",
                 "image": "",
+                "image_description": "",
                 "image-preview": "",
                 "image-preview_description": "",
-                "image_description": "",
+                "markdown-image": "",
+                "markdown-image_description": "",
+                "bbcode-image": "",
+                "bbcode-image_description": "",
                 "just-url": "",
-                "just-url_description": ""
+                "just-url_description": "",
+                "text-preview": "",
+                "text-preview_description": ""
             },
             "upload_methods": {
                 "aws-s3": "",
@@ -101,6 +111,19 @@
                 "local": "",
                 "ovh-svfs": "",
                 "qiniu": ""
+            },
+            "inspect-mime": {
+                "title": "",
+                "description": "",
+                "select": "",
+                "laravel-validation": "",
+                "no-file-selected": "",
+                "validation-passed": "",
+                "validation-failed": "",
+                "mime-detector": "",
+                "mime-fileinfo": "",
+                "guessed-extension": "",
+                "not-available": ""
             }
         },
         "forum": {
@@ -133,6 +156,16 @@
                 "error": "",
                 "loading": "",
                 "unauthorized": ""
+            },
+            "validation": {
+                "max_size": ""
+            },
+            "text_preview": {
+                "expand": "",
+                "collapse": "",
+                "error": "",
+                "no_snippet_preview": "",
+                "no_snippet": ""
             }
         },
         "api": {

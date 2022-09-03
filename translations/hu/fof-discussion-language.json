@@ -2,35 +2,44 @@
     "fof-discussion-language": {
         "forum": {
             "change_language": {
-                "edit_title": "",
-                "title": "",
-                "submit_button": ""
+                "edit_title": "Nyelv szerkesztése a következőnél: {title}",
+                "title": "Nyelv szerkesztése",
+                "submit_button": "=> core.ref.save_changes"
             },
             "composer_discussion": {
-                "choose_language_link": ""
+                "choose_language_link": "Nyelv"
             },
             "discussion_controls": {
-                "change_language_button": ""
+                "change_language_button": "Nyelv beállítása"
             },
             "index_language": {
-                "any": ""
+                "any": "Bármely nyelv"
             }
         },
         "admin": {
             "settings": {
-                "native_label": "",
-                "show_flag_label": "",
-                "composer_default_label": "",
-                "locale_sort_label": "",
-                "show_any_lang_opt_label": ""
+                "native_label": "Anyanyelvi nyelvnevek használata",
+                "show_flag_label": "Országzászlók megjelenítése a nyelvnevek mellett",
+                "composer_default_label": "A jelenlegi területi beállítás előzetes kiválasztása a témaszerkesztőben",
+                "locale_sort_label": "Észlelt nyelv használata az alapértelmezett témaszűrőhöz",
+                "show_any_lang_opt_label": "A „Bármely nyelv” lehetőség megjelenítése",
+                "tags_page_discussion_locale_label": "Csak a felhasználó jelenlegi területi beállításából származó témák megjelenítése a Címkék lapon",
+                "errors": {
+                    "missing_assets": "A bővítmény számára szükséges erőforrások nem tölthetők be. Próbálja futtatni a <code>php flarum assets:publish</code> parancsot, és nézze meg, hogy megoldotta-e a problémát.",
+                    "loading_data": ""
+                },
+                "config": {
+                    "language_label": "Nyelv",
+                    "country_label": "Ország (a zászló megjelenítéséhez)"
+                }
             },
             "permissions": {
-                "allow_change_language_label": ""
+                "allow_change_language_label": "Nyelv szerkesztésének engedélyezése"
             }
         },
         "api": {
             "discussion": {
-                "validation_error": ""
+                "validation_error": "Ki kell választani a téma nyelvét."
             }
         }
     }

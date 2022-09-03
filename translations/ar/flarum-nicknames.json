@@ -2,15 +2,18 @@
     "flarum-nicknames": {
         "admin": {
             "permissions": {
-                "edit_own_nickname_label": ""
+                "edit_own_nickname_label": "تعديل اسم المستخدم"
             },
             "settings": {
-                "max_label": "",
-                "min_label": "",
-                "regex_label": "",
-                "unique_label": ""
+                "max_label": "عدد الرموز المسموح بها",
+                "min_label": "الحد الادنى للرموز المسموح بها",
+                "random_username_label": "اختيار اسم مستخدم عشوائي",
+                "random_username_help": "سيؤدي هذا إلى إخفاء إدخال `username` عند التسجيل ، واستخدام رقم عشوائي بدلاً من ذلك. سيجعل حقل`nickname` إلزاميًا أيضًا. لن يسري هذا إلا إذا تم تمكين \"السماح بإعداد الألقاب عند التسجيل\".",
+                "regex_label": "المعادلة التنسيق Regular expression",
+                "set_on_registration_label": "تفعيل تعديل الاسم المستعار أثناء التسجيل",
+                "unique_label": "اجبارية اسم مستعار وحيد"
             },
-            "wrong_driver": ""
+            "wrong_driver": "You must select \"nickname\" as the display name driver on the <a><strong>Basics Page</strong></a> for this extension to take effect."
         },
         "api": {
             "invalid_nickname_message": ""
@@ -26,10 +29,14 @@
             },
             "settings": {
                 "change_nickname_button": ""
+            },
+            "sign_up": {
+                "nickname_placeholder": ""
             }
         },
         "ref": {
-            "change_nickname": ""
+            "change_nickname": "",
+            "nickname": ""
         }
     }
 }

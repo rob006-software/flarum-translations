@@ -1,0 +1,25 @@
+{
+    "flarum-approval": {
+        "admin": {
+            "permissions": {
+                "approve_posts_label": "게시물 승인",
+                "reply_without_approval_label": "승인 없이 게시물에 답장",
+                "start_discussions_without_approval_label": "승인 없이 토의 시작"
+            }
+        },
+        "forum": {
+            "badge": {
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post": {
+                "awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post_controls": {
+                "approve_button": "승인"
+            }
+        },
+        "ref": {
+            "awaiting_approval": "승인 대기 중"
+        }
+    }
+}

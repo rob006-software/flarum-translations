@@ -2,87 +2,87 @@
     "askvortsov-auto-moderator": {
         "admin": {
             "action_drivers": {
-                "activate_email": "",
-                "add_to_group": "",
-                "remove_from_group": "",
-                "suspend": "",
-                "unsuspend": ""
+                "activate_email": "Activar el correo electrónico",
+                "add_to_group": "Añadir al grupo",
+                "remove_from_group": "Eliminar del grupo",
+                "suspend": "Suspender",
+                "unsuspend": "Anular la suspensión"
             },
             "metric_drivers": {
-                "discussions_entered": "",
-                "discussions_participated": "",
-                "discussions_started": "",
-                "posts_made": "",
-                "likes_given": "",
-                "likes_received": "",
-                "best_answers": "",
-                "moderator_strikes": ""
+                "discussions_entered": "Discusiones introducidas",
+                "discussions_participated": "Discusiones Participadas",
+                "discussions_started": "Discusiones iniciadas",
+                "posts_made": "Mensajes realizados",
+                "likes_given": "Me gusta dados",
+                "likes_received": "Me gusta recibidos",
+                "best_answers": "Mejores respuestas",
+                "moderator_strikes": "Advertencias de los moderadores"
             },
             "requirement_drivers": {
-                "email_confirmed": "",
-                "in_group": "",
-                "suspended": "",
-                "email_matches_regex": ""
+                "email_confirmed": "Correo electrónico confirmado",
+                "in_group": "En Grupo",
+                "suspended": "Suspendido",
+                "email_matches_regex": "Regex de coincidencias de correo electrónico"
             },
             "in_group_settings": {
-                "regex": ""
+                "regex": "Regex para correos electrónicos válidos (sin barras)"
             },
             "group_selector": {
-                "placeholder": ""
+                "placeholder": "Seleccione un grupo"
             },
             "suspend_selector": {
-                "days": "",
-                "indefinitely": ""
+                "days": "Días de suspensión por",
+                "indefinitely": "¿Suspender indefinidamente?"
             },
             "criterion_status": {
-                "heading": "",
-                "invalid": "",
-                "no_actions": "",
-                "no_metrics_or_reqs": "",
-                "valid": "",
-                "action_validation_errors": "",
-                "requirement_validation_errors": ""
+                "heading": "Comprobación de estado",
+                "invalid": "El criterio es actualmente inválido. Por favor, compruebe los controladores de abajo para ver si hay errores.",
+                "no_actions": "No se han definido acciones para este criterio. No ocurrirá nada cuando los usuarios ganen o pierdan este criterio.",
+                "no_metrics_or_reqs": "No se han definido métricas ni requisitos para este criterio. Esto significa que TODOS los usuarios cumplirán con este criterio.",
+                "valid": "¡Este criterio es válido!",
+                "action_validation_errors": "Se han encontrado los siguientes errores de validación del controlador de acción:",
+                "requirement_validation_errors": "Se han encontrado los siguientes errores de validación del controlador de requisitos:"
             },
             "criterion_page": {
-                "driver_missing_ext": "",
-                "back": "",
-                "name_label": "",
-                "icon_label": "",
-                "description_label": "",
-                "new_criterion": "",
-                "negated": "",
-                "loading": "",
-                "delete_button": "",
-                "metrics_and_requirements_label": "",
-                "metrics_and_requirements_help": "",
-                "metrics_heading": "",
-                "requirements_heading": "",
-                "add_metric": "",
-                "actions_label": "",
-                "actions_help": "",
-                "actions_on_gain_heading": "",
-                "actions_on_loss_heading": "",
-                "add_action": ""
+                "driver_missing_ext": "Este controlador depende de extensiones que no están habilitadas.",
+                "back": "Volver a la lista de criterios",
+                "name_label": "Nombre",
+                "icon_label": "Icono",
+                "description_label": "Descripción",
+                "new_criterion": "Crear criterio",
+                "negated": "¿Negado?",
+                "loading": "=> core.ref.loading",
+                "delete_button": "=> core.ref.delete",
+                "metrics_and_requirements_label": "Métricas y requisitos",
+                "metrics_and_requirements_help": "Definen si los usuarios cumplen con este criterio. Las métricas representan rangos de valores, los requisitos son condiciones booleanas.",
+                "metrics_heading": "Métricas",
+                "requirements_heading": "Requisitos",
+                "add_metric": "Añadir métrica",
+                "actions_label": "Acciones",
+                "actions_help": "Las acciones de ganancia se ejecutan cuando un usuario se califica para un nuevo criterio. Las acciones de pérdida se ejecutan cuando un usuario deja de cumplir un criterio.",
+                "actions_on_gain_heading": "Acciones sobre la ganancia",
+                "actions_on_loss_heading": "Acciones sobre la pérdida",
+                "add_action": "Añadir acción"
             },
             "undefined_driver_item": {
-                "text": ""
+                "text": "¡ERROR! El controlador <strong>{driverName}</strong> no está definido. Lo más probable es que haya sido añadido por una extensión que no está instalada actualmente. Tendrá que volver a habilitar la extensión o eliminar este controlador para que el criterio vuelva a ser válido."
             },
             "automoderator_page": {
-                "criterion_invalid": "",
-                "list_heading": "",
-                "create_criterion_button": ""
+                "criterion_invalid": "El criterio no es válido actualmente. Por favor, compruebe su configuración para obtener más información",
+                "list_heading": "Criterios",
+                "create_criterion_button": "Crear un nuevo criterio"
             },
             "automoderator_instructions": {
-                "header": "",
-                "text": ""
+                "header": "Instrucciones de extensión",
+                "text": "<li>Tl;dr: Cuando un usuario cumple los criterios X, haz Y. Cuando un usuario ya no cumple los criterios X, haz Z.</li>\n<li><strong>Criterios:</strong> Los criterios son el núcleo de esta extensión. Son conjuntos arbitrarios de métricas y requisitos. Cuando un usuario cumple un criterio, se ejecuta cualquier acción \"de ganancia\" para el criterio. Cuando un usuario pierde un criterio, cualquier acción \"de pérdida\" para el criterio se ejecutará.</li>\n<ul>\n  <li><strong>Métrica:</strong> Una condición numérica. Por ejemplo, recuento de posts o número de likes recibidos. Un criterio podría requerir un rango/mínimo/máximo de métricas.</li>\n  <li><strong>Requisito:</strong> Una condición booleana abstracta. Por ejemplo, no haber sido suspendido, o tener un correo electrónico que coincida con una determinada regex.</li>\n</ul>\n<li><strong>Acciones:</strong> Algo que sucede automáticamente cuando se cumple o se pierde un criterio. Esto podría incluir cualquier cosa, desde la adición/eliminación de un grupo hasta el envío de un correo electrónico o la suspensión de un usuario.</li>\n<li><strong>Disparador:</strong> Un conjunto de eventos que harían que los grupos de criterios de un usuario fueran reevaluados. Forman parte de las definiciones de métricas y requisitos. Todos los criterios se evaluarán al iniciar la sesión: ese es el \"disparador universal\".</li>\n<li>Las acciones \"al perder\" se ejecutarán siempre antes que las acciones \"al ganar\". De esta forma, las acciones se llevarán a cabo siempre que un usuario cumpla al menos uno de los criterios que hacen esa acción en la ganancia.</li>\n<li>Tenga en cuenta que las acciones sólo se ejecutan \"al perder\" y \"al ganar\". Las ediciones manuales mientras un usuario cumple con un criterio no harán que se vuelvan a aplicar las acciones \"al ganar\" del criterio.</li>\n<li>Si elimina un criterio, las acciones \"al perder\" NO se ejecutarán para los usuarios que actualmente califican para el criterio.</li>\n<li>Si utiliza criterios para gestionar grupos, le recomendamos que mantenga un conjunto separado de grupos que se gestionen por criterios. No podrá añadir/eliminar usuarios a/de estos grupos de forma manual.</li>\n"
             }
         },
         "lib": {
-            "group_id": "",
+            "group_id": "ID de grupo",
             "managed_groups": {
-                "header": "",
-                "group_item": "",
-                "groups_not_editable": ""
+                "header": "Grupos gestionados:",
+                "group_item": "<badge></badge> {groupName}",
+                "groups_not_editable": "Los grupos gestionados por criterios del automoderador no pueden añadirse/quitarse a los usuarios manualmente para evitar incoherencias."
             }
         }
     }

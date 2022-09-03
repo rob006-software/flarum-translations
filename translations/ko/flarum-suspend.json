@@ -1,0 +1,51 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "사용자 일시 정지"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "{username}님이 {timeReadable} 동안 귀하를 일시 정지했습니다",
+                "user_suspended_indefinite_text": "",
+                "user_unsuspended_text": "{username}님이 귀하의 정지를 해제했습니다"
+            },
+            "suspension_info": {
+                "dismiss_button": "",
+                "indefinite": "",
+                "limited": "",
+                "title": ""
+            },
+            "suspend_user": {
+                "display_message": "",
+                "indefinitely_label": "무기한 정지",
+                "limited_time_days_text": " 일간",
+                "limited_time_label": "일정 기간 정지...",
+                "not_suspended_label": "일시 정지되지 않음",
+                "placeholder_optional": "",
+                "reason": "",
+                "status_heading": "정지 상태",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "{username}님을 정지"
+            },
+            "user_badge": {
+                "suspended_tooltip": "일시 정지됨"
+            },
+            "user_controls": {
+                "suspend_button": "정지"
+            }
+        },
+        "email": {
+            "no_reason_given": "",
+            "suspended": {
+                "subject": "",
+                "body": ""
+            },
+            "unsuspended": {
+                "subject": "",
+                "body": ""
+            }
+        }
+    }
+}

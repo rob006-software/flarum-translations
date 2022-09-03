@@ -1,0 +1,29 @@
+{
+    "sycho-private-facade": {
+        "admin": {
+            "settings": {
+                "force_redirect": "Forza Redirect degli ospiti all'interfaccia di accesso/registrazione",
+                "header_layout": {
+                    "options": {
+                        "show_header": "Mostra Header",
+                        "show_only_logo": "Mostra solo Logo",
+                        "hide_secondary_items": "Nascondi elementi secondari (Cerca, Login e link registrazione)"
+                    },
+                    "title": "Layout Header"
+                },
+                "illustration_path": "Immagine illustrativa",
+                "primary_color_bg": "Utilizza il colore primario come sfondo",
+                "route_exclusions": "",
+                "screen_banner_description": "Messaggio di Benvenuto",
+                "screen_banner_heading": "Banner Schermo",
+                "screen_banner_title": "Titolo",
+                "use_welcome_hero_text": "Utilizza Testo di benvenuto di Flarum"
+            }
+        },
+        "forum": {
+            "log_in_label": "=> core.ref.log_in",
+            "or_label": "o",
+            "sign_up_label": "=> core.ref.sign_up"
+        }
+    }
+}

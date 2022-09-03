@@ -2,7 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "Popularne"
+                "hot_button": "Popularne",
+                "votes_button": "Lubiane"
             }
         }
     },
@@ -20,23 +21,42 @@
             },
             "notification": {
                 "upvote": "{username} pozytywnie ocenił Twój post",
-                "downvote": "{username} negatywnie ocenił Twój post"
+                "downvote": "{username} negatywnie ocenił Twój post",
+                "prefrences": {
+                    "vote": "Ktoś zagłosował na mój post"
+                }
             },
             "user": {
-                "points": "Punkty: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": "{count, plural, one {{count} punkt} few {{count} punkty} other {{count} punktów}}"
+                },
+                "rank": "{rank}",
+                "votes_link": "Głosy"
             },
             "modal": {
+                "downvotes_label": "Głosujący negatywnie:",
                 "title": "Głosujący",
                 "upvotes_label": "Głosujący pozytywnie:"
             },
-            "mod_item": "Zobacz głosujących"
+            "mod_item": "Zobacz głosujących",
+            "voters": {
+                "none": "Jeszcze nikt nie zagłosował",
+                "label": "Głosujący",
+                "label_none": "Brak głosujących"
+            },
+            "post": {
+                "upvote_button": "Oceń pozytywnie",
+                "downvote_button": "Oceń negatywnie"
+            }
         },
         "admin": {
             "permissions": {
                 "vote_label": "Oddawanie głosów na posty",
-                "see_votes_label": "Przeglądanie głosów na posty",
-                "see_ranking_page": "Przeglądanie rankingu"
+                "see_votes_label": "Przeglądanie licznika głosów",
+                "see_voters_label": "Przeglądanie kto zagłosował",
+                "see_ranking_page": "Przeglądanie rankingu",
+                "upvote_notifications": "Otrzymywanie powiadomień o głosach pozytywnych",
+                "downvote_notifications": "Otrzymywanie powiadomień o głosach negatywnych"
             },
             "page": {
                 "rankings": {
@@ -51,6 +71,9 @@
                     "custom_image_2": "Ikona drugiego miejsca",
                     "custom_image_3": "Ikona trzeciego miejsca"
                 },
+                "alt_votes": {
+                    "icon_name": "Alternatywne ikonki głosowania"
+                },
                 "votes": {
                     "points_title": "Placeholder dla punktów",
                     "points_placeholder": "Punkty: ",
@@ -58,11 +81,14 @@
                     "auto_upvote": "Automatycznie oceń pozytywnie posty po ich opublikowaniu",
                     "rate_limit": "Wymuś ograniczenie szybkości głosowania (10 sekund)",
                     "discussion_page": "Wyświetl sumę głosów pierwszego posta na liście dyskusji",
-                    "alternate_layout": "Użyj alternatywnego układu do wyświetlania oraz dodawania głosów",
+                    "alternate_layout": "Użyj alternatywnego układu do głosowania na liście dyskusji",
+                    "alternate_post_layout": "Użyj alternatywnego układu do głosowania na post",
                     "title": "Głosy",
                     "vote_color": "Kolor po zagłosowaniu",
                     "icon_name": "Ikonki głosowania",
-                    "icon_help": "Wprowadź dowolną ikonę Font Awesome, która ma końcówkę -up lub -down. Przykłady: arrow, thumbs, chevron"
+                    "icon_help": "Wprowadź dowolną ikonę Font Awesome, która ma końcówkę -up lub -down. Przykłady: arrow, thumbs, chevron",
+                    "upvotes_only": "Pozwól jedynie na głosy pozytywne",
+                    "first_post_only": "Pozwól głosować jedynie na pierwszy post w dyskusji"
                 },
                 "save_settings": "Zapisz ustawienia",
                 "convert": {
@@ -82,6 +108,14 @@
                         "name": "Nazwa"
                     }
                 }
+            }
+        },
+        "email": {
+            "body": {
+                "postVoted": "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie zagłosował na Twój post w \"{discussion_title}\".\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n"
+            },
+            "subject": {
+                "postVoted": "{display_name} zagłosował na Twój post"
             }
         }
     }

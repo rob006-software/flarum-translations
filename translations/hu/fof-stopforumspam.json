@@ -2,26 +2,37 @@
     "fof-stopforumspam": {
         "admin": {
             "settings": {
+                "introduction": "Összenézi az új felhasználóregisztrációkat a <a>StopForumSpam</a> adatbázisával. Ha eléri a <code>bizalom</code> vagy a <code>gyakoriság</code> korlátokat, akkor a felhasználó fórumregisztrációja meg lesz akadályozva.\n\nA <code>fof/oauth</code> és a <code>fof/passport</code> bővítményekkel történő SSO-s regisztráció is támogatott. Más SSO-szolgáltatóknak is működniük kellene, de ezek nem lettek tesztelve.\n",
+                "username_label": "Felhasználónév-alapú spamszűrés",
+                "ip_label": "IP-cím-alapú spamszűrés",
+                "email_label": "Levélszemétszűrés",
+                "frequency_label": "Küszöbérték",
+                "frequency_help": "A különböző spamjelentések összesített száma, amely aktiválja a spamszűrőt.\nEx: Ha az e-mail 1-szer akad fenn, az IP-cím kétszer, akkor összesen 3 pont lesz. Ha a küszöbérték 3-ra vagy kevesebbre van állítva, akkor ez megakadályozza a regisztrációt.\n",
+                "api_key_label": "API-kulcs",
+                "api_key_text": "Engedélyezte a fof/spamblock bővítményt, most már bejelentheti a spamelőket a StopForumSpambe, hogy a nagyobb közösséget is kéretlen tartalmaktól mentesen tarthassa.",
+                "api_key_instructions_text": "<register>Regisztráljon a StopForumSpamen</register>. Ezután <key>be kell szereznie egy API-kulcsot</key>.",
+                "regional_endpoint_label": "Földrajzi hozzáférés",
+                "regional_endpoint_help": "Alapértelmezetten a kérés a legközelebbi regionális kiszolgálóhoz kerül, hogy a lehető leggyorsabb választ nyújtsa. Ha egy adott régióra akarja korlátozni a forgalmat, például egy vállalati vagy egy országfüggő szabályozás miatt, akkor kikényszerítheti, hogy egy adott régióhoz kapcsolódjon.",
+                "region_closest_label": "Legközelebbi",
+                "region_europe_label": "Európa",
+                "region_us_label": "Egyesült Államok",
+                "confidence_label": "Bizalom",
+                "confidence_help": "A bizalmi pontszám egy megfelelően jó jelzője annak, hogy a tesztelt mező kéretlen tevékenységet eredményezne-e. A megbízhatósági szintet százalékban adja meg. Ha a mező értéke nagyobb vagy megegyezik ezzel az adattal, akkor a regisztráció blokkolva lesz, függetlenül a fenti „gyakorisági” vizsgálattól.",
+                "email_hash_label": "Kódolt e-mail-cím használata",
+                "email_hash_help": "Az e-mail-cím MD5-tel kódolt megfelelőjét adja át, arra az esetre, ha nem akarja magát az e-mail-címet átadni. Ez a módszer megkerül minden feketelistát, normalizáció- és obfuszkáció-ellenes ellenőrzést.",
                 "title": "",
-                "username_label": "",
-                "ip_label": "",
-                "email_label": "",
-                "frequency_label": "",
                 "frequency_text": "",
-                "frequency_example_text": "",
-                "api_key_label": "",
-                "api_key_text": "",
-                "api_key_instructions_text": ""
+                "frequency_example_text": ""
             }
         },
         "forum": {
             "message": {
-                "spam": ""
+                "spam": "Az információja kéretlen tartalomként lett megjelölve."
             }
         },
         "api": {
             "error": {
-                "unknown": ""
+                "unknown": "A felhasználó jelentése a StopForumSpambe sikertelen."
             }
         }
     }

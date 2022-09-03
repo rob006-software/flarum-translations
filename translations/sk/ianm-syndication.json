@@ -2,7 +2,7 @@
     "ianm-syndication": {
         "forum": {
             "autodiscovery": {
-                "forum_activity": "",
+                "forum_activity": "Aktivita fóra",
                 "forum_new_discussions": "",
                 "tag_activity": "",
                 "tag_new_discussions": "",
@@ -21,6 +21,9 @@
                     "discussion_title": "",
                     "discussion_subtitle": ""
                 }
+            },
+            "discussion": {
+                "feed_link": ""
             }
         },
         "admin": {
@@ -34,7 +37,15 @@
                     "label": "",
                     "help": ""
                 },
-                "entries-count": ""
+                "entries-count": "",
+                "forum-icons": {
+                    "label": "",
+                    "help": ""
+                },
+                "forum-link-format": {
+                    "label": "",
+                    "help": ""
+                }
             }
         }
     }

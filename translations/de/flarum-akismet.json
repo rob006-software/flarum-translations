@@ -2,8 +2,13 @@
     "flarum-akismet": {
         "admin": {
             "akismet_settings": {
-                "api_key_label": "API Key",
-                "title": "Akismet-Einstellungen"
+                "api_key_label": "API Schlüssel",
+                "title": "Akismet-Einstellungen",
+                "delete_blatant_spam_label": "Offensichtlichen Spam automatisch löschen",
+                "delete_blatant_spam_help": "Wenn Akismet festgestellt hat, dass es sich bei dem Kommentar um offensichtlichen Spam handelt, löscht es den Beitrag automatisch, anstatt ihn zu markieren"
+            },
+            "permissions": {
+                "bypass_akismet": "Akismet umgehen"
             }
         },
         "forum": {

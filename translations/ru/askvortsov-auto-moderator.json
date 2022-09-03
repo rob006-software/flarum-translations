@@ -1,0 +1,89 @@
+{
+    "askvortsov-auto-moderator": {
+        "admin": {
+            "action_drivers": {
+                "activate_email": "Активировать эл.почту",
+                "add_to_group": "Добавить в группу",
+                "remove_from_group": "Удалить из группы",
+                "suspend": "Деактивировать",
+                "unsuspend": "Активировать"
+            },
+            "metric_drivers": {
+                "discussions_entered": "Прочитано дискуссий",
+                "discussions_participated": "Участие в дискуссиях",
+                "discussions_started": "Открыто дискуссий",
+                "posts_made": "Отправлено сообщений",
+                "likes_given": "Оставлено одобрений",
+                "likes_received": "Получено одобрений",
+                "best_answers": "Лучшие ответы",
+                "moderator_strikes": "Получено предупреждений модератора"
+            },
+            "requirement_drivers": {
+                "email_confirmed": "Эл.почта подтверждена",
+                "in_group": "В группе",
+                "suspended": "Деактивирован",
+                "email_matches_regex": "Шаблон совпадения эл.почты"
+            },
+            "in_group_settings": {
+                "regex": "Шаблон для корректных эл.почт (без слэшей)"
+            },
+            "group_selector": {
+                "placeholder": "Выберите группу"
+            },
+            "suspend_selector": {
+                "days": "Деактивировать на... (дней)",
+                "indefinitely": "Деактивировать навсегда?"
+            },
+            "criterion_status": {
+                "heading": "Проверка статуса",
+                "invalid": "Этот критерий сейчас недействителен. Проверьте драверы ниже на ошибки.",
+                "no_actions": "Для этого критерия не определены действия. Если пользователь достигнет критерия или перестанет ему соответствовать, ничего не произойдёт.",
+                "no_metrics_or_reqs": "Для этого критерия не определены показатели/требования. Это означает, что ВСЕ пользователи удовлетворяют этому критерию.",
+                "valid": "Этот критерий действителен!",
+                "action_validation_errors": "",
+                "requirement_validation_errors": ""
+            },
+            "criterion_page": {
+                "driver_missing_ext": "Этот драйвер зависит от расширений, которые не активированы.",
+                "back": "Вернуться к списку критериев",
+                "name_label": "Имя",
+                "icon_label": "Иконка",
+                "description_label": "Описание",
+                "new_criterion": "Создать критерий",
+                "negated": "",
+                "loading": "=> core.ref.loading",
+                "delete_button": "=> core.ref.delete",
+                "metrics_and_requirements_label": "Показатели и требования",
+                "metrics_and_requirements_help": "",
+                "metrics_heading": "Показатели",
+                "requirements_heading": "Требования",
+                "add_metric": "Добавить показатель",
+                "actions_label": "Действия",
+                "actions_help": "Действия \"по достижению\" выполняются, когда пользователь достигает нового критерия. Действия \"по снижению\" выполняются, когда пользователь перестает соответствовать критерию.",
+                "actions_on_gain_heading": "Действия по достижению",
+                "actions_on_loss_heading": "Действия по снижению",
+                "add_action": "Добавить действие"
+            },
+            "undefined_driver_item": {
+                "text": ""
+            },
+            "automoderator_page": {
+                "criterion_invalid": "Этот критерий в настоящее время неприменим. Пожалуйста, проверьте его настройки",
+                "list_heading": "Критерии",
+                "create_criterion_button": "Создать новый критерий"
+            },
+            "automoderator_instructions": {
+                "header": "Инструкции к расширению",
+                "text": ""
+            }
+        },
+        "lib": {
+            "group_id": "ID группы",
+            "managed_groups": {
+                "header": "Управляемые группы:",
+                "group_item": "<badge></badge> {groupName}",
+                "groups_not_editable": ""
+            }
+        }
+    }
+}

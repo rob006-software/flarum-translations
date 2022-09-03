@@ -2,20 +2,20 @@
     "fof-recaptcha": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "secret_key_label": "",
-                "site_key_label": "",
-                "type_label": ""
+                "help_text": "สามารถดูวิธีการรับหรัสรับลองโดยการกด<a>ที่นี่</a>",
+                "secret_key_label": "Secret Key",
+                "site_key_label": "Site Key",
+                "type_label": "ประเภทของ reCAPTCHA"
             },
             "permissions": {
-                "post_without_captcha": ""
+                "post_without_captcha": "สร้างโพสต์หรือกระทู้โดยไม่ต้องเช็คโดย Captcha"
             }
         },
         "forum": {
-            "error": ""
+            "error": "มีบางอย่างผิดพลาดขณะที่กำลังส่ง reCAPTCHA โปรดลองอีกครั้ง"
         }
     },
     "validation": {
-        "recaptcha": ""
+        "recaptcha": "การยืนยัน reCAPTCHA ล้มเหลว"
     }
 }

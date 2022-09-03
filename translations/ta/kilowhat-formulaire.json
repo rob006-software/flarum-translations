@@ -16,6 +16,7 @@
                 "create": "",
                 "moderate": "",
                 "export": "",
+                "exportUserDetails": "",
                 "listForms": "",
                 "listSubmissions": ""
             },
@@ -23,7 +24,17 @@
                 "title": "",
                 "max-file-size": "",
                 "history-controls": "",
-                "side-nav-on-submission": ""
+                "side-nav-on-submission": "",
+                "checkbox-style": "",
+                "radio-style": "",
+                "style-options": {
+                    "far-square": "",
+                    "fas-square": "",
+                    "far-circle": "",
+                    "fas-circle": "",
+                    "switch": "",
+                    "native": ""
+                }
             }
         },
         "forum": {
@@ -51,6 +62,7 @@
                     "title": "",
                     "accept-submissions": "",
                     "allow-modification": "",
+                    "enabled": "",
                     "submissions": "",
                     "actions": ""
                 }
@@ -97,7 +109,9 @@
                     "closed": "",
                     "create": "",
                     "edit": "",
-                    "both": ""
+                    "both": "",
+                    "enabled": "",
+                    "disabled": ""
                 },
                 "controls": "",
                 "template-export": "",
@@ -135,6 +149,7 @@
                     "automatic-discussion-help": "",
                     "accept-submissions": "",
                     "allow-modification": "",
+                    "enable": "",
                     "max-submissions": "",
                     "send-confirmation-to-participants": "",
                     "notify-emails": "",
@@ -205,6 +220,7 @@
                 "email": "",
                 "regex": "",
                 "mime": "",
+                "other": "",
                 "duplicate": "",
                 "delete": "",
                 "missing-title": "",
@@ -214,10 +230,21 @@
                     "long": "",
                     "number": "",
                     "date": "",
+                    "checkbox": "",
+                    "radio": "",
+                    "select": "",
                     "upload": "",
                     "content": "",
                     "items": ""
                 }
+            },
+            "options-editor": {
+                "columns": {
+                    "title": "",
+                    "key": ""
+                },
+                "remove": "",
+                "new-placeholder": ""
             },
             "items-editor": {
                 "add": "",
@@ -229,6 +256,13 @@
             },
             "rich-text": {
                 "preview-placeholder": ""
+            },
+            "select": {
+                "choose": ""
+            },
+            "choice": {
+                "other-label": "",
+                "other-placeholder": ""
             },
             "submission": {
                 "form-closed": "",
@@ -283,6 +317,7 @@
                 "fields": "",
                 "meta": "",
                 "more-meta": "",
+                "option-keys": "",
                 "submit": "",
                 "preview": "",
                 "format-options": {
@@ -302,12 +337,23 @@
                     "user_id": "",
                     "user_username": "",
                     "user_displayname": "",
+                    "user_email": "",
+                    "user_activated": "",
                     "link_id": "",
                     "locked_at": "",
                     "created_at": "",
                     "updated_at": "",
                     "hidden_at": ""
+                },
+                "preview-primitives": {
+                    "excel-date": "",
+                    "boolean-true": "",
+                    "boolean-false": ""
                 }
+            },
+            "discussion-submission": {
+                "empty": "",
+                "edit": ""
             }
         },
         "api": {
@@ -325,6 +371,8 @@
                     "user_id": "",
                     "user_username": "",
                     "user_displayname": "",
+                    "user_email": "",
+                    "user_activated": "",
                     "link_id": "",
                     "locked_at": "",
                     "created_at": "",
@@ -363,6 +411,8 @@
                 "user_id": "",
                 "user_username": "",
                 "user_displayname": "",
+                "user_email": "",
+                "user_activated": "",
                 "link_id": "",
                 "locked_at": "",
                 "created_at": "",

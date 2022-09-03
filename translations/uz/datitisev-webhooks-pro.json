@@ -1,0 +1,72 @@
+{
+    "fof-webhooks": {
+        "actions": {
+            "poll": {
+                "voted": "`{1}` soʻroviga ovoz berdi",
+                "created": "`{1}` soʻrovnomasi yaratildi"
+            },
+            "post": {
+                "reacted": "`{1}` bilan postga munosabat bildirildi",
+                "unreacted": "Ularning munosabati postdan olib tashlandi",
+                "upvoted": "Postga ijobiy ovoz berildi",
+                "downvoted": "Postga salbiy ovoz berdi"
+            },
+            "user": {
+                "enabled2fa": "2FA yoqildi"
+            },
+            "extension": {
+                "installed": "`{1}` kengaytmasi oʻrnatildi",
+                "updated": "`{1}` kengaytmasi yangilandi"
+            },
+            "ip": {
+                "banned": "IP taqiqlangan `{1}`",
+                "unbanned": "`{1}` IP blokdan chiqarildi"
+            }
+        },
+        "admin": {
+            "settings": {
+                "services": {
+                    "custom": "Maxsus"
+                },
+                "actions": {
+                    "extiverse": {
+                        "bazaar": {
+                            "title": "Tashqi Bazaar",
+                            "extensionwasinstalled": "Kengaytma o'rnatilgan",
+                            "extensionwasupdated": "Kengaytma yangilandi"
+                        }
+                    },
+                    "fof": {
+                        "banips": {
+                            "title": "FriendsOfFlarum IP-larni taqiqlaydi",
+                            "ipwasbanned": "Taqiqlangan",
+                            "ipwasunbanned": "Taqiq olib tashlangan"
+                        },
+                        "byobu": {
+                            "title": "FriendsOfFlarum Byobu",
+                            "discussionmadepublic": "Muhokama ommaviy e'lon qilindi"
+                        },
+                        "gamification": {
+                            "title": "FriendsOfFlarum Gamification",
+                            "postwasvoted": "postga ijobiy/salbiy ovoz berildi"
+                        },
+                        "polls": {
+                            "title": "FriendsOfFlarum Polls",
+                            "pollwasvoted": "Ovoz berildi",
+                            "pollwascreated": "Yaratildi"
+                        },
+                        "reactions": {
+                            "title": "FriendsOfFlarum munosabatlar",
+                            "postwasreacted": "Postga munosabat bildirildi",
+                            "postwasunreacted": "Postga munosabat olib tashlandi"
+                        },
+                        "twofactor": {
+                            "title": "FriendsOfFlarum Ikki faktor",
+                            "userenabledtwofactor": "Foydalanuvchi yoqilgan 2FA"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

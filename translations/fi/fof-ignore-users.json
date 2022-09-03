@@ -1,0 +1,22 @@
+{
+    "fof-ignore-users": {
+        "admin": {
+            "permissions": {
+                "can_not_be_ignored_label": "Ei voi olla huomioimatta"
+            }
+        },
+        "forum": {
+            "profile_link": "Älä huomioi käyttäjiä",
+            "user_controls": {
+                "ignore_button": "Älä huomioi",
+                "ignore_confirmation": "Haluatko varmasti olla huomioimatta tätä käyttäjää?",
+                "unignore_button": "Huomioi",
+                "unignore_confirmation": "Haluatko varmasti huomioida tämän käyttäjän?"
+            },
+            "badge": {
+                "user_label": "Huomioimaton käyttäjä",
+                "discussion_label": "Aloitti huomioimaton käyttäjä"
+            }
+        }
+    }
+}

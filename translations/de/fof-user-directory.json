@@ -2,12 +2,16 @@
     "fof-user-directory": {
         "forum": {
             "header": {
-                "back_to_user_directory_tooltip": ""
+                "back_to_user_directory_tooltip": "Zurück zum Benutzerverzeichnis"
             },
             "search": {
                 "users_heading": "Durchsuche alle Benutzer nach \"{query}\"",
                 "field": {
                     "placeholder": "Alle Nutzer durchsuchen"
+                },
+                "kinds": {
+                    "group": "Gruppe",
+                    "text": "Freier Text"
                 }
             },
             "page": {
@@ -15,7 +19,11 @@
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "Wir konnten keinen Benutzer finden, der deiner Suche entspricht.",
-                "filter_button": "Gruppen Filtern"
+                "filter_button": "Gruppen Filtern",
+                "usercard": {
+                    "discussion-count": "{count, plural, one { {count} Diskussion} other {{count} Diskussionen}}",
+                    "post-count": "{count, plural, one { {count} Beitrag} other {{count} Beiträge}}"
+                }
             }
         },
         "admin": {
@@ -25,7 +33,8 @@
             "settings": {
                 "link": "Link auf der Homepage hinzufügen, damit Benutzer das Verzeichnis sehen können",
                 "default-sort": "Standard-Sortierung",
-                "use-small-cards": "Verwende kleine Nutzer-Karten"
+                "use-small-cards": "Verwende kleine Nutzer-Karten",
+                "disable-global-search-source": "Benutzerverzeichnis nicht zum globalen Suchfeld von Flarum hinzufügen"
             }
         },
         "lib": {

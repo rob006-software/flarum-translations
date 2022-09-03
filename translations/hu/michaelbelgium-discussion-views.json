@@ -11,14 +11,21 @@
         "forum": {
             "modal_resetviews": {
                 "title": "Nézettség nullázása",
-                "submit_button": "Igen, mindent eltávolít",
-                "label": "Eltávolítunk {count} nézettséget a beszélgetésből. Folytatod?"
+                "submit_button": "Igen, az összes eltávolítása",
+                "label": "Ez eltávolít {count, plural, one {#} other {#}} megtekintést a témáról. Folytatja?"
             },
             "discussion_controls": {
                 "resetviews_button": "Nézettség visszaállítása"
             },
             "viewlist": {
-                "title": "Legfrissebb nézők"
+                "title": "Legfrissebb nézők",
+                "guest": "Vendég"
+            },
+            "post": {
+                "viewed_by": "{users} látta ezt.",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "Felhasználók, akik utoljára látták a beszélgetést"
             }
         },
         "admin": {
@@ -27,12 +34,15 @@
                 "view_number_label": "Nézettség megtekintése"
             },
             "settings": {
-                "title": "Nézettség beállítások",
-                "track_unique_label": "Egyedi nézetek követése",
-                "abbr_numbers_label": "Rövidítse a nézetek számát",
-                "show_filter_label": "A népszerű rendezés bekapcsolása",
+                "title": "Nézettség beállításai",
+                "track_unique_label": "Egyedi megtekintések követése",
+                "track_guests": "Vendégek követése",
+                "abbr_numbers_label": "Megtekintések számának rövidítése",
+                "show_filter_label": "Népszerűség szerinti rendezés engedélyezése",
                 "max_viewcount_label": "Maximális megtekintési lista elemek",
-                "show_viewlist_label": "Nézettségi lista bekapcsolása"
+                "max_viewcount_text": "Ez a lábléc-nézetlistára és az oldalsáv-nézetlistára vonatkozik",
+                "show_viewlist_label": "Nézettségi lista bekapcsolása",
+                "show_footer_viewlist_label": "Lábléc nézet bekapcsolása"
             }
         }
     }

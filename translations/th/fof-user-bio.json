@@ -2,17 +2,17 @@
     "fof-user-bio": {
         "admin": {
             "permission": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "ดูประวัติ",
+                "editOwn": "เเก้ไขประวัติของตน",
+                "editAny": "เเก้ไขประวัติไหนก็ได้"
             },
             "setting": {
-                "bioLimit": ""
+                "bioLimit": "จำนวนตัวอักษรสูงสุดในประวัติ"
             }
         },
         "forum": {
-            "userbioPlaceholder": "",
-            "userbioPlaceholderOtherUser": ""
+            "userbioPlaceholder": "เขียนอธิบายตัวคุณหน่อยสิ",
+            "userbioPlaceholderOtherUser": "เขียนอธิบายให้ {username}"
         }
     }
 }

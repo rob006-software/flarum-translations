@@ -1,16 +1,28 @@
 {
     "fof-socialprofile": {
+        "admin": {
+            "permissions": {
+                "view": "Sosyal profili göster",
+                "editOwn": "Kendi sosyal profilini düzenle",
+                "editAny": "Herhangi bir sosyal profili düzenle"
+            },
+            "settings": {
+                "allow_external_favicons_label": "Harici sitelerin simgelerini düzenlemeye izin ver (DuckDuckGo'nun API'ını kullanır)"
+            }
+        },
         "forum": {
             "edit": {
-                "edit": "Düzenle",
-                "add": "Ekle",
+                "edit": "Sosyal medya düğmelerini düzenle",
+                "add": "Sosyal medyana düğme ekle",
                 "headtitle": "Düğmeleri Düzenle",
                 "title": "Başlık",
                 "url": "Bağlantı",
                 "submit": "Kaydet",
                 "delete": "Sil",
                 "deletetitle": "Düğmeyi Sil",
-                "save_disabled_fetching_favicons": "Bir veya daha fazla simge getiriliyor. Lütfen bekle."
+                "save_disabled_fetching_favicons": "Bir veya daha fazla simge getiriliyor. Lütfen bekle.",
+                "favicon": "Site simgesi",
+                "grey_favicon": "Gri Site Simgesi"
             }
         }
     }

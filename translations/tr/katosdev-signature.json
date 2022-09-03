@@ -1,4 +1,49 @@
 {
+    "signature": {
+        "forum": {
+            "buttons": {
+                "signature": "İmza",
+                "save": "İmzayı Kaydet"
+            },
+            "modal": {
+                "loading": {
+                    "title": "Kaydediliyor",
+                    "content": "Lütfen bekleyin..."
+                },
+                "error": {
+                    "title": "Opps! Kaydedilirken beklenmeyen bir hata meydana geldi...",
+                    "content": "Hatalar listesi:"
+                }
+            },
+            "errors": {
+                "max_char_limit_exceed": "Karakter sınırı aşıldı.",
+                "max_image_width_exceed": "Görsel genişliği sınırı aşıldı.",
+                "max_image_height_exceed": "Görsel yükseklik sınırı aşıldı.",
+                "max_image_count_exceed": "Görsel sayı sınırı aşıldı."
+            }
+        },
+        "admin": {
+            "title": "İmza",
+            "settings": {
+                "maximum_image_width": {
+                    "description": "Editöre eklenecek resmin maksimum genişliği.",
+                    "placeholder": "350 (varsayılan)"
+                },
+                "maximum_image_height": {
+                    "description": "Editöre eklenecek görsellerin toplam yükseklik sınırı.",
+                    "placeholder": "500 (varsayılan)"
+                },
+                "maximum_image_count": {
+                    "description": "Eklenecek maksimum görsel sayısı.",
+                    "placeholder": "5 (varsayılan)"
+                },
+                "maximum_char_limit": {
+                    "description": "İmzadaki maksimum karakter limiti (karakterler sayılır, HTML etiketleri geçerli sayılmaz)",
+                    "placeholder": "1000 (varsayılan)"
+                }
+            }
+        }
+    },
     "Xengine-signature": {
         "forum": {
             "buttons": {

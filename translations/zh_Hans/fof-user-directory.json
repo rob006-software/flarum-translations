@@ -8,6 +8,10 @@
                 "users_heading": "搜索用户「{query}」",
                 "field": {
                     "placeholder": "搜索用户"
+                },
+                "kinds": {
+                    "group": "用户组",
+                    "text": "关键词"
                 }
             },
             "page": {
@@ -15,7 +19,11 @@
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "抱歉，没有找到匹配的用户。",
-                "filter_button": "筛选用户组"
+                "filter_button": "筛选用户组",
+                "usercard": {
+                    "discussion-count": "{count, plural, one {主题 {count}} other {主题 {count}}}",
+                    "post-count": "{count, plural, one {回复 {count}} other {回复 {count}}}"
+                }
             }
         },
         "admin": {
@@ -25,7 +33,8 @@
             "settings": {
                 "link": "在论坛首页侧边栏添加「会员名录」选项卡",
                 "default-sort": "默认排序",
-                "use-small-cards": "使用小尺寸卡片"
+                "use-small-cards": "使用小尺寸卡片",
+                "disable-global-search-source": "不要将会员名录添加到论坛搜索建议中"
             }
         },
         "lib": {

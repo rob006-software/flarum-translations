@@ -2,34 +2,41 @@
     "flarum-nicknames": {
         "admin": {
             "permissions": {
-                "edit_own_nickname_label": ""
+                "edit_own_nickname_label": "Editar o próprio apelido"
             },
             "settings": {
-                "max_label": "",
-                "min_label": "",
-                "regex_label": "",
-                "unique_label": ""
+                "max_label": "Comprimento máximo do apelido",
+                "min_label": "Comprimento mínimo do apelido",
+                "random_username_label": "Nomes de Usuário aleatórios",
+                "random_username_help": "Isso ocultará a entrada `username` no registro e usará um número aleatório. Também tornará o campo `nickname` obrigatório. Isso só terá efeito se \"Permitir configuração de apelidos no registro\" estiver ativado.",
+                "regex_label": "Expressão regular para validação",
+                "set_on_registration_label": "Permitir apelidos no registro",
+                "unique_label": "Exigir apelidos exclusivos"
             },
-            "wrong_driver": ""
+            "wrong_driver": "Você deve selecionar \"nickname\" como o driver do nome de exibição na <a><strong>Página Básica</strong></a> para que esta extensão tenha efeito."
         },
         "api": {
-            "invalid_nickname_message": ""
+            "invalid_nickname_message": "Este apelido é inválido. Entre em contato com o administrador do fórum para obter mais informações sobre as regras de apelidos."
         },
         "forum": {
             "change_nickname": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
             },
             "edit_user": {
-                "nicknames_heading": "",
-                "nicknames_text": ""
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "=> flarum-nicknames.ref.nickname"
             },
             "settings": {
-                "change_nickname_button": ""
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": "=> flarum-nicknames.ref.nickname"
             }
         },
         "ref": {
-            "change_nickname": ""
+            "change_nickname": "Alterar Apelido",
+            "nickname": "Apelido"
         }
     }
 }

@@ -1,0 +1,14 @@
+{
+    "blomstra-search": {
+        "admin": {
+            "elastic-endpoint": "Elastic végpont",
+            "elastic-username": "=> core.ref.username",
+            "elastic-password": "=> core.ref.password",
+            "elastic-index": "Index",
+            "analyzer": {
+                "label": "Elemző nyelve",
+                "help": "Az elemző lehetővé teszi, hogy a kereső megértse a stopszavakat, és nyelvfüggő\nfejlesztéseket biztosít az indexeléshez.\n"
+            }
+        }
+    }
+}

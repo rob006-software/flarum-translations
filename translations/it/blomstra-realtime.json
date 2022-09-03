@@ -2,16 +2,21 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "Mostra {count} discussione aggiornata|Mostra {count} discussioni aggiornate"
+                "discussion-list-new-activity": "{count, plural, one {Mostra # discussione aggiornata} other {Mostra # discussioni aggiornate}}",
+                "discussion-list-new-activity-with-auto-release": "{count, plural, one {# discussione ha} other {# discussioni hanno}} aggiornamenti alle attività che verranno rilasciate in {releaseTimeout} secondi. Clicc a per mostrarle ora."
             },
             "typing-indicator": {
-                "people-are-typing": "{number} persona sta scrivendo|{number} persone stanno scrivendo",
+                "people-are-typing": "{number, plural, one {# utente stà scrivendo} other {# utenti stanno scrivendo}}",
                 "no-activity": "Nessuno sta scrivendo"
             }
         },
         "admin": {
             "permission": {
                 "view-who-types": "Mostra chi sta scrivendo"
+            },
+            "settings": {
+                "release-discussion-updates-interval": "Intervallo per inviare automaticamente una nuova attività nella discussione",
+                "release-discussion-updates-interval-help": "In secondi. 0 significa nessun push automatico."
             }
         }
     }

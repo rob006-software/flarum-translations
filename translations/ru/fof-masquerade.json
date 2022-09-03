@@ -1,0 +1,67 @@
+{
+    "fof-masquerade": {
+        "forum": {
+            "alerts": {
+                "profile-completion-required": "",
+                "profile-completed": ""
+            },
+            "buttons": {
+                "view-profile": "",
+                "edit-profile": "",
+                "save-profile": "Сохранить"
+            },
+            "fields": {
+                "select": {
+                    "none-optional": "",
+                    "none-required": ""
+                },
+                "boolean": {
+                    "yes": "Да",
+                    "no": "Нет"
+                }
+            }
+        },
+        "admin": {
+            "general-options": "Общие опции",
+            "buttons": {
+                "add-field": "Создать поле",
+                "edit-field": "Сохранить изменения",
+                "delete-field": "Удалить поле"
+            },
+            "permissions": {
+                "edit-others-profile": "",
+                "have-profile": "",
+                "view-profile": ""
+            },
+            "fields": {
+                "title": "Поля",
+                "add": "Добавить поле {field}",
+                "edit": "Редактировать поле {field}",
+                "name": "Название поля",
+                "name-help": "",
+                "description": "Описание поля",
+                "description-help": "Необязательное описание использования/необходимости этого поля.\n",
+                "required": "Пометить поле как необходимое",
+                "on_bio": "",
+                "type": "",
+                "validation": "",
+                "validation-help": "",
+                "prefix": "",
+                "prefix-help": "",
+                "icon": "",
+                "icon-help": "",
+                "force-user-to-completion": "Требовать от пользователя заполнить профиль",
+                "options": "Опции",
+                "option-new": "Новая опция",
+                "option-comma-warning": "Метка опции не может содержать запятых (\",\")."
+            },
+            "types": {
+                "advanced": "Расширенные",
+                "boolean": "Поле выбора",
+                "email": "Эл.почта",
+                "select": "Выпадающее",
+                "url": "URL"
+            }
+        }
+    }
+}

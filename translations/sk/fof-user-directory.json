@@ -8,6 +8,10 @@
                 "users_heading": "Vyhľadať všetkých používateľov pre dopyt \"{query}\"",
                 "field": {
                     "placeholder": "Vyhľadať všetkých používateľov"
+                },
+                "kinds": {
+                    "group": "",
+                    "text": ""
                 }
             },
             "page": {
@@ -15,7 +19,11 @@
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "Nedokázali sme nájsť žiadneho používateľa ktorý by spĺňal Vaše kritériá.",
-                "filter_button": "Filtrovať Skupiny"
+                "filter_button": "Filtrovať Skupiny",
+                "usercard": {
+                    "discussion-count": "",
+                    "post-count": ""
+                }
             }
         },
         "admin": {
@@ -25,7 +33,8 @@
             "settings": {
                 "link": "Pridať odkaz na hlavnú stránku pre používateľov ktorí môžu vidieť zoznam",
                 "default-sort": "Predvolené triedenie",
-                "use-small-cards": "Použiť malé karty používateľov"
+                "use-small-cards": "Použiť malé karty používateľov",
+                "disable-global-search-source": ""
             }
         },
         "lib": {

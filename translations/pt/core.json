@@ -104,7 +104,7 @@
             },
             "extension": {
                 "configure_scopes": "Configurações",
-                "confirm_uninstall": "A desinstalação removerá todas as entradas e ativos do banco de dados relacionados à extensão. Você tem certeza que quer continuar?",
+                "confirm_purge": "",
                 "disabled": "Disabilitar",
                 "enable_to_see": "Ative a extensão para visualizar e alterar as configurações.",
                 "enabled": "Habilitar",
@@ -120,6 +120,13 @@
                 "no_settings": "Esta extensão não tem configurações.",
                 "open_modal": "Abrir configurações",
                 "permissions_title": "Permissões",
+                "purge_button": "",
+                "readme": {
+                    "button_label": "",
+                    "no_readme": "",
+                    "title": ""
+                },
+                "confirm_uninstall": "A desinstalação removerá todas as entradas e ativos do banco de dados relacionados à extensão. Você tem certeza que quer continuar?",
                 "uninstall_button": "Desinstalar"
             },
             "header": {
@@ -305,9 +312,11 @@
             "discussion_list": {
                 "empty_text": "Parece que não há discussões aqui.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Marcar como Lido",
                 "replied_text": "{username} respondeu {ago}",
-                "started_text": "{username} iniciado {ago}"
+                "started_text": "{username} iniciado {ago}",
+                "total_replies_a11y_label": "",
+                "unread_replies_a11y_label": "",
+                "mark_as_read_tooltip": "Marcar como Lido"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -325,7 +334,9 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Perfil",
+                "search_clear_button_accessible_label": "",
                 "search_placeholder": "Pesquisar",
+                "search_role_label": "",
                 "session_dropdown_accessible_label": "Abrir o menu de opções das sessões",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -451,9 +462,16 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Reenviar e-mail de confirmação",
                 "sent_message": "Enviar"
+            },
+            "welcome_hero": {
+                "hide": ""
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "Escondido"
             },
@@ -471,18 +489,32 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "username_label": "=> core.ref.username",
+                "nothing_available": ""
             },
             "error": {
                 "dependent_extensions_message": "Não é possível desativar {extension} até que as seguintes extensões dependentes sejam desativadas: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "Opa! Algo deu errado. Por favor, recarregue a página e tente novamente.",
                 "missing_dependencies_message": "Não é possível ativar {extension} até que as seguintes dependências sejam ativadas: {extensions}",
                 "not_found_message": "O recurso solicitado não foi encontrado.",
+                "payload_too_large_message": "",
                 "permission_denied_message": "Você não tem permissão para fazer isso.",
-                "rate_limit_exceeded_message": "Você está indo um pouco rápido demais. Tente novamente em alguns segundos."
+                "rate_limit_exceeded_message": "Você está indo um pouco rápido demais. Tente novamente em alguns segundos.",
+                "render_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -498,6 +530,26 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
+            "confirm_email": {
+                "submit_button": "",
+                "text": "",
+                "title": ""
+            },
             "content": {
                 "javascript_disabled_message": "Este site é melhor visualizado em um navegador moderno com JavaScript ativado.",
                 "load_error_message": "Ocorreu um erro ao tentar carregar a versão completa deste site. Tente atualizar essa página para corrigir o erro.",
@@ -532,6 +584,10 @@
                 "new_password_label": "Nova senha",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {
@@ -561,6 +617,7 @@
             "change_password": "Mudar Senha",
             "color": "Cor",
             "confirm_password": "Confirme a Senha",
+            "confirm_email": "",
             "confirmation_email_sent": "Enviámos um e-mail de confirmação para {email}. Se não chegar logo, verifique sua pasta de spam.",
             "custom_footer_text": "Adicione HTML a ser exibido na parte inferior da página.",
             "custom_footer_title": "Editar rodapé personalizado",
@@ -572,6 +629,7 @@
             "edit": "Editar",
             "edit_user": "Editar usuário",
             "email": "E-mail",
+            "extensions": "",
             "icon": "Ícone",
             "icon_text": "Digite o nome de qualquer classe de ícone <a>FontAwesome</a> , <em>incluindo</em> o prefixo <code>fas fa-</code> .",
             "load_more": "Carregue mais",

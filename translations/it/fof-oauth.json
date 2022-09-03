@@ -1,6 +1,8 @@
 {
     "fof-oauth": {
         "admin": {
+            "configure_button_label": "Configura con FoF OAuth",
+            "settings_accessibility_label": "{name} impostazioni",
             "settings": {
                 "only_icons_label": "Mostra solo le icone dei bottoni (layout alternativo)",
                 "providers": {
@@ -63,6 +65,9 @@
                 "google": "=> fof-oauth.lib.providers.google",
                 "linkedin": "=> fof-oauth.lib.providers.linkedin",
                 "twitter": "=> fof-oauth.lib.providers.twitter"
+            },
+            "signup": {
+                "username_help": "Per favore scegli un nome utente"
             },
             "error": {
                 "bad_verification_code": "Token di verifica scaduto o non valido. Riprova.",

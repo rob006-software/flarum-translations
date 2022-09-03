@@ -1,0 +1,17 @@
+{
+    "acpl-lscache": {
+        "admin": {
+            "public_cache_ttl_label": "Bộ nhớ đệm TTL mặc định",
+            "public_cache_ttl_help": "Chỉ định thời gian, tính bằng giây, các trang công khai được lưu vào bộ nhớ cache. Mặc định là 300 giây.",
+            "clearing_cache_listener_label": "Xoá LSCache khi xoá bộ nhớ đệm Flarum",
+            "serve_stale_label": "Máy chủ Stale",
+            "serve_stale_help": "Nếu BẬT, bản sao cũ của trang đã lưu trong bộ nhớ cache sẽ được hiển thị cho khách truy cập cho đến khi có bản sao bộ nhớ cache mới. Giảm tải cho máy chủ cho những lần truy cập sau. Nếu TẮT, trang sẽ được tạo động trong khi khách đợi. Theo thiết kế, tùy chọn này có thể phục vụ nội dung cũ. Không bật tùy chọn này, nếu điều đó không phù hợp với bạn.",
+            "purge_on_discussion_update_label": "Xóa các URL hoặc Thẻ khi một cuộc thảo luận hoặc bài viết được cập nhật",
+            "purge_on_discussion_update_help": "Chỉ định một URL hoặc Thẻ trên mỗi dòng. URL phải bắt đầu bằng <code>/</code>, ví dụ: <code>/rankings</code> và bộ nhớ đệm phải bắt đầu bằng <code>tag=</code>, ví dụ: <code>tag=rankings</code>. Tiện ích mở rộng này gắn thẻ cho mọi tuyến đường và ví dụ: nếu bạn có nhiều tuyến đường mà bạn muốn xóa, tốt hơn nên thêm một quy tắc trong .htaccess với một biểu thức chính quy sẽ gắn thẻ các tuyến đường và tại đây trong cài đặt chỉ nhập thẻ này. Phương pháp này sẽ nhanh hơn nhiều. <a>Tìm hiểu thêm</a>. Theo mặc định, bộ nhớ đệm cho trang chủ bị xóa, cũng như bộ nhớ đệm cho các cuộc thảo luận cập nhật.",
+            "cache_exclude_label": "Không lưu đường dẫn vào bộ nhớ cache",
+            "cache_exclude_help": "Các đường dẫn chứa các chuỗi này sẽ không được lưu vào bộ nhớ đệm. Ví dụ, <code>/mypath/mypage?aa=bb</code>, <code>mypage?aa=</code> có thể sử dụng ở đây. Để khớp với phần đầu, hãy thêm <code>^</code> vào phần đầu của mục. Để đối sánh chính xác, hãy thêm <code>$</code> vào cuối URL. Một trên mỗi dòng.",
+            "purge_all": "Xoá toàn bộ LSCache",
+            "purge_all_success": "Đã xoá toàn bộ LSCache trên máy chủ Web LiteSpeed"
+        }
+    }
+}

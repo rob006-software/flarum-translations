@@ -1,0 +1,40 @@
+{
+    "clarkwinkelmann-jwt-cookie-login": {
+        "admin": {
+            "settings": {
+                "cookieName": "Názov Cookie",
+                "actorId": "",
+                "actorIdHelp": "",
+                "audience": "",
+                "audienceHelp": "",
+                "publicKey": "",
+                "publicKeyHelp": "",
+                "publicKeyAlgorithm": "",
+                "publicKeyAlgorithmHelp": "",
+                "expirationLeeway": "",
+                "expirationLeewayHelp": "",
+                "usernameTemplate": "",
+                "usernameTemplateHelp": "",
+                "emailTemplate": "",
+                "emailTemplateHelp": "",
+                "registrationHook": "",
+                "registrationHookHelp": "",
+                "authorizationHeader": "",
+                "authorizationHeaderHelp": "",
+                "hiddenIframe": "",
+                "hiddenIframeHelp": "",
+                "autoLoginDelay": "",
+                "autoLoginDelayHelp": "",
+                "logoutRedirect": "",
+                "logoutRedirectHelp": ""
+            }
+        },
+        "forum": {
+            "alert": {
+                "refresh": "",
+                "login": "",
+                "logout": ""
+            }
+        }
+    }
+}

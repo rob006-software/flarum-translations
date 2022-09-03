@@ -1,13 +1,13 @@
 {
     "username-blacklist": {
         "forum": {
-            "modal-title": "",
-            "modal-body-first-line": "",
-            "modal-body-second-line": ""
+            "modal-title": "Attenzione!",
+            "modal-body-first-line": "Attenzione - Questo nome utente è  <strong>stato bloccato dagli amministratori </strong>",
+            "modal-body-second-line": "Per favore scegli un altro nome utente che rispetti le norme del forum e riprova nuovamente."
         },
         "admin": {
-            "blackList": "",
-            "blackList-help": ""
+            "blackList": "Blacklist dei nomi utente",
+            "blackList-help": "Scrivi qui i nomi da bloccare durante la registrazione (separati da una virgola)"
         }
     }
 }

@@ -3,9 +3,15 @@
         "admin": {
             "permissions": {
                 "be_followed_label": "Kullanıcıların takip etmesine izin ver"
+            },
+            "settings": {
+                "button-on-profile-label": "Takip et düğmesini doğrudan kullanıcı profili başlığında göster",
+                "stats-on-profile-label": ""
             }
         },
         "forum": {
+            "followed": "",
+            "followers": "",
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
                 "no_following": "Görünüşe göre kimseyi takip etmiyorsunuz."

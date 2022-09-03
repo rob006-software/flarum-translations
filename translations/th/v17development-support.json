@@ -1,271 +1,318 @@
 {
     "v17development-flarum-support": {
         "forum": {
-            "knowledge_base": "",
-            "ask_a_question_on_forums": "",
-            "return_to_home": "",
-            "ask_your_question_on_forum": "",
-            "or": "",
-            "settings": "",
-            "send": "",
-            "create": "",
-            "discard": "",
-            "reopen": "",
-            "support_tickets": "",
-            "admin_overview": "",
+            "knowledge_base": "ฐานความรู้",
+            "ask_a_question_on_forums": "ถามคำถามในฟอรั่ม",
+            "return_to_home": "กลับไปยังหน้าหลักของฐานความรู้",
+            "ask_your_question_on_forum": "ภามคำถามในฟอรั่ม",
+            "or": "หรือ",
+            "settings": "=> core.ref.settings",
+            "send": "ส่ง",
+            "create": "สร้าง",
+            "discard": "ละทิ้ง",
+            "reopen": "เปิดใหม่อีกครั้ง",
+            "support_tickets": "ตั๋วสนับสนุน",
+            "admin_overview": "เปิดหน้าภาพรวมของเเอดมิน",
             "hero": {
-                "help_question": "",
-                "check_forum": ""
+                "help_question": "เราจะช่วยคุณอย่างไรดี?",
+                "check_forum": "ถ้าคุณไม่พบสิ่งที่คุณกำลังมองหา <a>ลองเช็คในฟอรั่มของเราดูสิ</a>"
             },
             "overview": {
-                "knowledge_base_overview": "",
-                "back_to": "",
-                "back_to_overview": "",
-                "back_to_main_categories": "",
-                "loading_articles": "",
-                "no_categories_found": "",
-                "category_not_found": "",
-                "no_articles_found": "",
+                "knowledge_base_overview": "ภาพรวมฐานความรู้",
+                "back_to": "กลับไปยัง {category}",
+                "back_to_overview": "กลับไปยังภาพรวมของฐานความรู้",
+                "back_to_main_categories": "กลับไปยังหมวดหมู่หลัก",
+                "loading_articles": "กำลังโหลดบทความ",
+                "no_categories_found": "ขออภัยด้วย, ไม่พบหมวดหมู่ที่นี่…",
+                "category_not_found": "ไม่พบหมวดหมู่",
+                "no_articles_found": "ไม่มีบทความในหมวดหมู่นี้",
                 "tools": {
-                    "new_article": "",
-                    "rename_category": "",
-                    "edit_description": "",
-                    "change_icon": ""
+                    "new_article": "บทความใหม่",
+                    "rename_category": "เปลี่ยนชื่อบทความ",
+                    "edit_description": "เเก้ไขคำอธิบาย",
+                    "change_icon": "เปลี่ยนไอคอน"
                 }
             },
             "article_events": {
-                "article_hidden": "",
-                "article_public": "",
-                "article_modified": ""
+                "article_hidden": "บทความถูกซ่อนโดย {username}",
+                "article_public": "บทความเผยเเพร่โดย {username}",
+                "article_modified": "{username} ได้เเก้ไขบทความนี้"
             },
             "search": {
-                "title": "",
-                "back_to_search_results": "",
-                "search_knowledge_base": "",
-                "searching": "",
-                "searching_for": "",
-                "searched_for": "",
-                "use_searchbox_below": "",
-                "no_results": ""
+                "title": "ค้นหา",
+                "back_to_search_results": "กลับไปยังผลการค้นหา",
+                "search_knowledge_base": "ค้นหาในฐานความรู้",
+                "searching": "กำลังค้นหา",
+                "searching_for": "กำลังค้นหาสำหรับ {searchterm}",
+                "searched_for": "คุณได้ค้นหาสำหรับ {searchterm} เเละพบทั้งหมด {results} ผลการค้นหา",
+                "use_searchbox_below": "ใช้กล่องค้นหาข้างล่างนี้เพื่อค้นหาบทความในฐานความรู้ของเรา",
+                "no_results": "เราไม่พบอะไรเลยสำหรับ {searchterm}"
             },
             "not_found": {
-                "title": "",
-                "description": "",
-                "solution": ""
+                "title": "ไม่พบอะไร",
+                "description": "ขออภัย, บทความนี้ไม่มีอีกเเล้วที่นี่",
+                "solution": "คุณอาจต้องใช้กล่องค้นหาข้างบนเพื่อหาสิ่งที่คุณกำลังมองหา"
             },
             "article": {
-                "article": "",
-                "articles": "",
-                "hidden": "",
-                "created_at": "",
-                "author": "",
-                "authors": "",
-                "last_modified": "",
-                "not_found": "",
+                "article": "บทความ",
+                "articles": "บทความ",
+                "hidden": "ซ่อน",
+                "created_at": "สร้างเมื่อ {date}",
+                "author": "ผู้เขียน",
+                "authors": "ผู้เขียน",
+                "last_modified": "เเก้ไขเมื่อ {date}",
+                "not_found": "ไม่พบบทความ",
                 "share_article": {
-                    "title": "",
-                    "perma_link": ""
+                    "title": "เเชร์บทความนี้",
+                    "perma_link": "ลิ้งมาที่บทความนี้:"
                 },
                 "tools": {
-                    "rename_article": "",
-                    "edit_article": "",
-                    "edit_tags": "",
-                    "audit_log": "",
-                    "hide_article": "",
-                    "recover_article": "",
-                    "delete_forever": "",
-                    "view_ratings": ""
+                    "rename_article": "เปลี่ยนชื่อบทความ",
+                    "edit_article": "เเก้ไขบทความ",
+                    "edit_tags": "เเก้ไขเเท็กของบทความ",
+                    "audit_log": "ดูประวัติการใช้งาน",
+                    "hide_article": "ซ่อนบทความ",
+                    "recover_article": "กู้คืนบทความ",
+                    "delete_forever": "ลบถาวร",
+                    "view_ratings": "ดูเรทติ่ง"
                 }
             },
             "support_ratings": {
-                "score": "",
-                "helful_article": "",
-                "helful_support": "",
-                "feedback": "",
-                "feedback_not_helpful": "",
-                "enter_feedback": "",
-                "finished": "",
+                "score": "คะเเนน",
+                "helful_article": "บทความนี้มีประโยชน์หรือไม่?",
+                "helful_support": "คุณคิดว่าเรารับมือหรือบริการตั๋วสนับสนุนของคุณได้ดีเเค่ไหน?",
+                "feedback": "ขอบคุณสำหรับการส่งรีวิว, คุณมีข้อคิดเห็นอะไรไหม?",
+                "feedback_not_helpful": "ขออภัยที่บทความนี้ไม่มีประโยชน์สำหรัยคุณ, คุณกำลังมองหาอะไร?",
+                "enter_feedback": "กรุณาใส่ข้อคิดเห็นที่นี่",
+                "finished": "ขอบคุณ! ความคิดเห็นของคุณได้ถูกบันทึกเเล้วนะ",
                 "validation": {
-                    "invalid_discussion": "",
-                    "guest": "",
-                    "invalid_points": "",
-                    "cannot_rate_article": "",
-                    "neutral_emoji_disabled": "",
-                    "missing_article_id": ""
+                    "invalid_discussion": "อุ้ย! มีบางอย่างปลผิดปกติ คุณไม่สามารถให้คะเเนนบทความหรือตั๋วสนับสนุนนี้ได้ ขออภัยในความไม่สะดวก",
+                    "guest": "กรุณาล็อคอินก่อนรีวิวบทความนี้",
+                    "invalid_points": "การให้คะเเนนรีวิวไม่ถูกต้อง กรุณาลองใหม่",
+                    "cannot_rate_article": "คุณไม่สามารถรีวิวบทความนี้ได้",
+                    "neutral_emoji_disabled": "อีโมจิเเบบปกติถูกปิด",
+                    "missing_article_id": "ไอดีของบทความหายไปหรือไม่ถูกต้อง"
                 },
                 "switch_sort_score": {
-                    "label": "",
-                    "description": ""
+                    "label": "เเสดงคะเเนนบทความจากต่ำไปสูง",
+                    "description": "เเสดงเเค่บทความที่ได้รับการเเสดงความคิดเห็น โดยเรียงจากบทความที่มีคะเเนนต่ำสุด"
                 }
             },
             "modals": {
                 "audit_log": {
-                    "title": "",
-                    "article_created": "",
-                    "no_more_events": "",
-                    "loading_auditlog": ""
+                    "title": "บันทึกการตรวจสอบของบทความ",
+                    "article_created": "บทความได้ถูกสร้าง",
+                    "no_more_events": "ไม่มีเหตุการณ์อีกเเล้ว",
+                    "loading_auditlog": "กำลังโหลดบันทึกการคลตรวจสอบ"
                 },
                 "article_ratings": {
-                    "title": "",
-                    "loading_ratings": "",
-                    "no_ratings_found": "",
-                    "article_not_rated": "",
-                    "confirm_delete_rating": "",
-                    "feedback": "",
-                    "rating": "",
-                    "username": "",
-                    "rated_on": ""
+                    "title": "คะเเนนบทความ",
+                    "loading_ratings": "กำลังโหลดคะเเนน",
+                    "no_ratings_found": "ไม่มีคะเเนนที่พบตรงกับสิ่งที่คุณค้นหา",
+                    "article_not_rated": "บทความนี้ยังไม่ได้รับการให้คะเเนน",
+                    "confirm_delete_rating": "คุณเเน่ใจหรือไม่ที่จะลบคะเเนนนี้?",
+                    "feedback": "ข้อคิดเห็น",
+                    "rating": "คะเเนน",
+                    "username": "=> core.ref.username",
+                    "rated_on": "ให้คะเเนน"
                 }
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "กำลังย้ายคุณไปที่บทความในฐานความรู้ของเรา",
+                    "link": "<a>กดตรงนี้</a> ถ้าหน้านี้ยังไม่เปลี่ยน"
                 }
             },
             "composer": {
-                "compose_article": "",
-                "compose_ticket": "",
-                "new_article_title": "",
-                "enter_message_here": "",
-                "publish_article": "",
-                "publish_article_hint": "",
-                "manage_tags": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "warning_save_changes": "",
-                "article_saved": ""
+                "compose_article": "เขียนบทความ",
+                "compose_ticket": "เขียนตั๋วสนับสนุน",
+                "new_article_title": "ชื่อบทความใหม่",
+                "enter_message_here": "กรุณาใส่ข้อความของคุณที่นี่",
+                "publish_article": "เผยเเพร่บทความ",
+                "publish_article_hint": "เผยเเพร่บทความหลังจากโพสต์",
+                "manage_tags": "จัดการเเท็ก",
+                "write": "เขียน",
+                "view": "ดู",
+                "nothing_to_preview": "ไม่มีอะไรจะเเสดงก่อน",
+                "warning_save_changes": "คำเตือน: คุณกำลังจะออกหน้านี้โดยทียังไม่บันทึก คุณต้องการบันทึกก่อนออกจากหน้านี้ไหม?\n\n[OK] = ใช่บันทึกด้วย [CANCEL] = ไม่ต้องบันทึก\n",
+                "article_saved": "บทความได้รับการบันทึกเเล้ว"
             },
             "tickets": {
-                "ticket": "",
-                "subject": "",
-                "ticket_does_not_exist": "",
-                "return_to_overview": "",
-                "ticket_overview": "",
-                "opened_on": "",
-                "ticket_activity": "",
-                "reminders_sent": "",
+                "ticket": "ตั๋ว",
+                "subject": "เรื่อง",
+                "ticket_does_not_exist": "ไม่มีตั๋วสนับสนุนที่ร้องขอ",
+                "return_to_overview": "กลับไปยังหน้าภาพรวมของตั๋วสนับสนุน",
+                "ticket_overview": "ภาพรวมของตั๋วสนับสนุน",
+                "opened_on": "เปิดเมื่อ",
+                "ticket_activity": "โดย {username} ใช้งานครั้งสุดท้ายเมื่อ {date}",
+                "reminders_sent": "{count, plural, one {ส่งการเเจ้งเตือน} อื่นๆ อีก {# ได้ส่งการแจ้งเตือนแล้ว}}",
                 "convert_to_ticket": {
+                    "button": "เปลี่ยนเป็นตั๋ว",
+                    "confirm": "คุณต้องการเปลี่ยนกระทู้นี้เป็นตั๋วไหม?",
+                    "event": "กระทู้ {ticket_title} ได้ถูกเปลี่ยนเป็นตั๋วสนับสนุนเเล้ว"
+                },
+                "convert_to_discussion": {
                     "button": "",
                     "confirm": "",
                     "event": ""
                 },
                 "status": {
                     "new": {
-                        "title": "",
-                        "description": ""
+                        "title": "ใหม่",
+                        "description": "ตั๋วใหม่ยังไม่ได้รับการตอบกลับ"
                     },
                     "open": {
-                        "title": "",
-                        "description": ""
+                        "title": "เปิด",
+                        "description": "ตั๋วนี้ได้รับการตอบกลับเเล้วกำลังรอคุณตอบกลับในขณะนี้"
                     },
                     "pending": {
-                        "title": "",
-                        "description": "",
-                        "description_user": ""
+                        "title": "กำลังรอ",
+                        "description": "ตั๋วนี้กำลังรอการตอบกลับจากผู้ใช้",
+                        "description_user": "เรากำลังรอการตอบกลับของคุณหรือทำเครื่องหมายว่าได้รับการเเก้ไขเเล้ว"
                     },
                     "closed": {
-                        "title": "",
-                        "description": "",
-                        "is_closed": "",
-                        "close_after_posting": "",
-                        "is_auto_closed": ""
+                        "title": "ปิด",
+                        "description": "ตั๋วนี้ได้ถูกปิดลงเเล้ว",
+                        "is_closed": "ตั๋วนี้ได้ถูกปิดเเล้ว หากคุณตอบกลับระบบจะทำการเปิดตั๋วขึ้นใหม่อีกครั้ง เราขอเเนะนำให้ทำการเปิดตั๋วเดิมนี้อีกครั้งหากปัญหาเดิมยังไม่ได้รับการเเก้ไข หากเป็นปัญหาใหม่โปรดเปิดตั๋วใหม่เพื่อทำการเเก้ไข",
+                        "close_after_posting": "ปิดตั๋วหลังจากส่ง",
+                        "is_auto_closed": "ตั๋วนี้ได้ถูกปิดเนื่องจากไม่มีการเคลื่อนไหวใดๆ"
                     },
                     "on_hold": {
-                        "title": "",
-                        "description": ""
+                        "title": "พักไว้ชั่วคราว",
+                        "description": "ตั๋วได้รับการเปลี่ยนสถานะเป็นพักชั่วคราว"
                     },
                     "duplicate": {
-                        "title": "",
-                        "description": ""
+                        "title": "ซ้ำกัน",
+                        "description": "ตั๋วนี้ถูกทำเครื่องหมายว่าซ้ำกัน"
                     },
                     "solved": {
-                        "title": "",
-                        "description": "",
-                        "mark_as_solved": ""
+                        "title": "เเก้ไขเเล้ว",
+                        "description": "ตั๋วนี้ถูกทำเครื่องหมายว่าเเก้ไขเเล้ว",
+                        "mark_as_solved": "ทำเครื่องหมายว่าเเก้ไขเเล้ว"
                     }
                 },
                 "tools": {
-                    "view_ticket": "",
-                    "update_subject": "",
-                    "assign_me": "",
-                    "remove_me": "",
-                    "update_status": "",
-                    "close_ticket": ""
+                    "view_ticket": "ดูตั๋ว",
+                    "update_subject": "อัพเดทเรื่อง",
+                    "assign_me": "กำหนดมาให้ฉัน",
+                    "remove_me": "เอาฉันออก",
+                    "update_status": "อัพเดทสถานะของตั๋ว",
+                    "close_ticket": "ปิดตั๋ว",
+                    "update_note": ""
                 },
                 "new_tickets_dropdown": {
-                    "title": "",
-                    "no_tickets": "",
-                    "ticket_new": "",
-                    "ticket_updated": ""
+                    "title": "การเเจ้งเตือนของตั๋วสนับสนุน",
+                    "no_tickets": "ไม่มีการเเจ้งเตือน",
+                    "ticket_new": "{username} ได้สร้างตั๋ว {ticket}",
+                    "ticket_updated": "{username} ได้ส่งข้อความใหม่ใน {ticket}"
                 },
                 "fields": {
                     "language": {
-                        "title": "",
-                        "placeholder": "",
-                        "empty": "",
-                        "description": ""
+                        "title": "ภาษา",
+                        "placeholder": "เลือกภาษา",
+                        "empty": "ไม่มีภาษาที่เลือก",
+                        "description": "ตั๋วสนับสนุนของคุณจะได้รับการจัดการใน {language}"
                     },
                     "subject": {
-                        "title": "",
-                        "placeholder": "",
-                        "description": ""
+                        "title": "เรื่อง",
+                        "placeholder": "ตั๋วสนับสนุน",
+                        "description": "พยายามอธิบายคำถามของคุณในประโยคสั้นๆ"
                     },
                     "information": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "ข้อมูลของตั๋ว",
+                        "placeholder": "บอกเราว่าเราสามารถช่วยอะไรคุณได้บ้าง"
                     },
                     "status": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "สถานะ",
+                        "placeholder": "สถานะของตั๋ว"
                     },
                     "assignees": {
+                        "title": "ผู้ได้รับมอบหมาย",
+                        "placeholder": "สถานะของตั๋ว"
+                    },
+                    "private_note": {
                         "title": "",
-                        "placeholder": ""
+                        "info": "",
+                        "tip": "",
+                        "placeholder": "",
+                        "edit_button": ""
                     }
                 },
                 "compose_ticket": {
-                    "title": "",
-                    "private_support": "",
-                    "not_allowed": ""
+                    "title": "เขียนตั๋วใหม่",
+                    "private_support": "สำหรับการสนับสนุนส่วนตัว คุณสามารถใช้แบบฟอร์มนี้เพื่อสร้างตั๋วใหม่ในแพลตฟอร์มการสนับสนุนของเรา สำหรับกรณีการสนับสนุนที่ไม่ใช่ส่วนตัว โปรดดู<a>ฟอรัมสาธารณะของเรา</a>",
+                    "not_allowed": "คุณไม่สามารถเปิดตั๋วใหม่ได้ในขณะนี้"
                 },
                 "load_more": {
-                    "title": ""
+                    "title": "โหลดตั๋วเพิ่มเติม"
                 },
                 "my_tickets": {
-                    "title": "",
-                    "description": "",
-                    "no_tickets": ""
+                    "title": "ตั๋วของฉัน",
+                    "description": "ในหน้านี้ คุณจะสามารถค้นหาตั๋วส่วนตัวทั้งหมดของคุณได้",
+                    "no_tickets": "คุณไม่มีตั๋วในขณะนี้"
                 },
                 "overview": {
-                    "title": "",
-                    "description": "",
-                    "no_tickets": "",
-                    "all_tickets": ""
+                    "title": "ภาพรวมของตั๋วสนับสนุน",
+                    "description": "ยิ้มไว้ คุณเป็นฮีโร่ที่ช่วยคนอื่นในวันของพวกเค้า",
+                    "no_tickets": "ไม่มีตั๋วที่ตรงกับเกณฑ์ของคุณ เป็นไปได้ว่าคุณทำได้ดีมาก!",
+                    "all_tickets": "ตั๋วทั้งหมด",
+                    "selection_unfiltered": "ไม่ได้คัดกรอง",
+                    "selection_open": "ตั๋วที่เปิดอยู่",
+                    "selection_closed": "ตั๋วที่ปิดเเล้ว",
+                    "refresh": "รีเฟรช",
+                    "filter": {
+                        "status": {
+                            "title": "สถานะตั๋ว",
+                            "filter_count": "{count, plural, one {# ตัวกรอง} อื่นๆ อีก {# ตัวกรอง}}"
+                        },
+                        "language": {
+                            "any": "ทุกภาษา"
+                        },
+                        "assignees": {
+                            "title": "กรองจากผู้ที่ได้รับมอบหมาย",
+                            "search": "ค้นหาผู้ที่ได้รับมอบหมาย",
+                            "unassigned": "ยังไม่ได้มอบหมาย"
+                        }
+                    },
+                    "sort": {
+                        "newest": "ใหม่สุดก่อน",
+                        "oldest": "เก่าสุดก่อน",
+                        "recent_activity": "กิจกรรมล่าสุด",
+                        "least_recent": "กิจกรรมล่าสุด"
+                    }
+                }
+            },
+            "notifications": {
+                "replied_to_ticket": {
+                    "name": "",
+                    "content": ""
+                },
+                "ticket_resolved": {
+                    "name": "",
+                    "content": ""
                 }
             }
         },
         "emails": {
             "replied_to_ticket": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name} ตอบกลับตั๋วของคุณ #{ticket_id}",
+                "body": "เรียน {recipient_display_name} \n\n{replier_display_name} ตอบกลับตั๋วของคุณ #{ticket_id} (เรื่อง \"{ subject}\") \n\nโปรดใช้ลิงก์ด้านล่างเพื่อตรวจสอบคำตอบ: \n{url} \n\nเรากำลังรอการตอบกลับของคุณหรือจนกว่าคุณจะทำเครื่องหมายตั๋วนี้ว่าได้รับการแก้ไขแล้ว\n"
             },
             "ticket_status_update": {
-                "subject": "",
-                "body": ""
+                "subject": "ตั๋ว #{ticket_id} ถูกทำเครื่องหมายเป็น {new_status}",
+                "body": "เรียน {recipient_display_name} \n\nสถานะของตั๋ว #{ticket_id} ของคุณเปลี่ยนเป็น {new_status} \n\nURL ของตั๋วของคุณคือ: \n{url}\n"
             },
             "ticket_resolved": {
-                "subject": "",
-                "body": ""
+                "subject": "ตั๋ว #{ticket_id} ถูกทำเครื่องหมายว่าแก้ไขแล้ว",
+                "body": "เรียน {recipient_display_name} \n\nตั๋ว #{ticket_id} ของคุณถูกทำเครื่องหมายว่าได้รับการแก้ไขแล้ว ซึ่งหมายความว่าตั๋วของคุณถูกปิด \n\nURL ของตั๋วของคุณคือ: \n{url} \n\nหากคุณไม่เห็นด้วยกับการทำเครื่องหมายตั๋วของคุณว่าได้รับการแก้ไขแล้ว โปรดตอบกลับตั๋วของคุณเพื่อเปิดใหม่อีกครั้ง\n"
             },
             "ticket_pending_reply": {
-                "subject": "",
-                "body": ""
+                "subject": "ตั๋ว #{ticket_id} กำลังรอการตอบกลับของคุณ",
+                "body": "เรียน {recipient_display_name} \n\nเมื่อเร็วๆ นี้ {replier_display_name} ตอบกลับตั๋ว #{ticket_id} ของคุณเมื่อ {replied_date} และเรากำลังรอการตอบกลับจากคุณ \n\nURL ของตั๋วของคุณคือ:\n {url} \n\nหากปัญหาได้รับการแก้ไขแล้ว โปรดทำเครื่องหมายตั๋วว่าได้รับการแก้ไขแล้ว\n"
             },
             "ticket_pending_reply_closed": {
-                "subject": "",
-                "body": ""
+                "subject": "ตั๋ว #{ticket_id} ถูกปิดเนื่องจากไม่มีการใช้งาน",
+                "body": "เรียน {recipient_display_name} \n\nเมื่อเร็วๆ นี้ {replier_display_name} ตอบกลับตั๋ว #{ticket_id} ของคุณ ขออภัย เราไม่ได้รับการตอบกลับจากคุณ ตั๋วของคุณถูกปิดโดยอัตโนมัติเนื่องจากไม่มีการใช้งาน หากคุณยังคงต้องการตอบกลับ \n\nURL ของตั๋วของคุณคือ: \n{url}\n"
             }
         }
     }

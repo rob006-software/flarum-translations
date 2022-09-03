@@ -3,23 +3,23 @@
         "admin": {
             "settings": {
                 "step": {
-                    "how_to": "",
-                    "check_config_url": "",
-                    "admin_on_canonical": "",
-                    "enable_temporary": "",
-                    "enable_permanent": "",
-                    "suggestions": "",
-                    "use_https": "",
-                    "use_hsts": ""
+                    "how_to": "So aktivierst Du die kanonische Weiterleitung",
+                    "check_config_url": "Überprüfe , ob die in config.php definierte URL Ihre bevorzugte kanonische URL ist (derzeit: {url})",
+                    "admin_on_canonical": "Greife über die kanonische URL auf das Admin-Panel zu",
+                    "enable_temporary": "Aktiviere die temporäre Weiterleitung und überprüfe, ob alles funktioniert",
+                    "enable_permanent": "Permanente Weiterleitung aktivieren",
+                    "suggestions": "Andere Vorschläge, die diese Erweiterung nicht erzwingt oder abdeckt",
+                    "use_https": "Verwende eine kanonische HTTPS-URL",
+                    "use_hsts": "Verwende HSTS, um Downgrade-Angriffe zu verhindern"
                 },
                 "field": {
-                    "status": "",
-                    "wrong_url": ""
+                    "status": "Weiterleitungstyp",
+                    "wrong_url": "Die Erweiterungseinstellungen werden angezeigt, sobald Du über die kanonische URL auf Ihr Forum zugreifst"
                 },
                 "option": {
-                    "disabled": "",
-                    "302": "",
-                    "301": ""
+                    "disabled": "Deaktiviert (die Erweiterung tut nichts)",
+                    "302": "302 (Temporäre Weiterleitung, zum Testen)",
+                    "301": "301 (Permanente Weiterleitung, für die Produktion)"
                 }
             }
         }

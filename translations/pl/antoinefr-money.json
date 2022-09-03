@@ -3,16 +3,20 @@
         "admin": {
             "settings": {
                 "title": "Ustawienia",
-                "moneyforpost": "Pieniądze otrzymane za nowy post",
-                "moneyfordiscussion": "Pieniądze otrzymane za nową dyskusję",
+                "moneyforpost": "Pieniądze przyznane za nowy post",
+                "moneyfordiscussion": "Pieniądze przyznane za nową dyskusję",
                 "moneyname": "Nazwa dla pieniędzy (np. [money] punktów)",
                 "postminimumlength": "Minimalna długość posta kwalifikując go do otrzymania pieniędzy (ustaw 0 dla braku limitu)",
                 "noshowzero": "Nie pokazuj, jeśli wartość to zero",
-                "moneyforlike": "Pieniądze otrzymane, gdy post zostanie polubiony",
+                "moneyforlike": "Pieniądze przyznane, gdy post zostanie polubiony",
                 "helpextensionlikes": "Wymaga rozszerzenia <code>flarum/likes</code>"
             },
             "permissions": {
                 "edit_money_label": "Edytuj pieniądze"
+            },
+            "automoderator": {
+                "metric_name": "Pieniądze",
+                "action_name": "Przyznaj pieniądze"
             }
         },
         "forum": {

@@ -24,12 +24,14 @@
         "different": ":attribute ve :other farklı olmalıdır.",
         "digits": ":attribute :digits olmalıdır.",
         "digits_between": ":attribute şu değerler arasında olmaldır; :min ve :max.",
-        "dimensions": ":attribute geçersiz resim boyutlarına sahip.",
+        "dimensions": ":attribute geçersiz görsel boyutlarına sahip.",
         "distinct": ":attribute alanı yinelenen bir değere sahip.",
         "email": ":attribute geçerli bir e-posta adresi olmalıdır.",
         "ends_with": ":attribute şunlardan biriyle bitmelidir: :values.",
         "exists": "Seçilen :attribute geçersiz.",
         "file": ":attribute bir dosya olmalıdır.",
+        "file_too_large": ":attribute çok büyük.",
+        "file_upload_failed": ":attribute yüklenemedi.",
         "filled": ":attribute dosya olmalıdır.",
         "gt": {
             "numeric": ":attribute, :value değerinden büyük olmalıdır.",
@@ -43,7 +45,7 @@
             "string": ":attribute, :value karakterden büyük ya da eşit olmalıdır.",
             "array": ":attribute, :value ya da daha fazla öğe içermelidir."
         },
-        "image": ":attribute bir fotoğraf olmalıdır.",
+        "image": ":attribute bir görsel olmalıdır.",
         "in": "Seçilen :attribute geçersiz.",
         "in_array": ":attribute alanı :other içinde bulunmuyor.",
         "integer": ":attribute bir sayı olmalıdır.",
@@ -93,7 +95,7 @@
         "required_without_all": ":attribute alanı :values değerlerinden hiçbiri olmadığında zorunludur.",
         "prohibited": ":attribute alanı yasaktır.",
         "prohibited_if": ":other, :value olduğunda :attribute alanı yasaklanmıştır.",
-        "prohibited_unless": ":attribute alanı,  :other :values içinde olmadığı sürece yasaklanmıştır.",
+        "prohibited_unless": ":attribute alanı, :other :values içinde olmadığı sürece yasaklanmıştır.",
         "same": ":attribute ve :other eşleşmelidir.",
         "size": {
             "numeric": ":attribute :size olmalıdır.",

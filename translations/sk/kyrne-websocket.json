@@ -2,10 +2,15 @@
     "kyrne-websocket": {
         "forum": {
             "discussion_list": {
-                "show_updates_text": ""
+                "show_updates_text": "{count, plural, one {Zobraziť # aktualizovanú diskusiu} few {Zobraziť # aktualizované diskusie} other {Zobraziť # aktualizovaných diskusií}}"
             },
             "discussion_page": {
                 "viewing_title": ""
+            },
+            "widget": {
+                "title": "",
+                "empty": "",
+                "guests": ""
             }
         },
         "admin": {

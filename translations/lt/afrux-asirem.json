@@ -1,0 +1,43 @@
+{
+    "afrux-theme-base": {
+        "admin": {
+            "extensions": {
+                "title": "Plėtiniai",
+                "description": "Visų įdiegtų plėtinių sąrašas."
+            },
+            "extension": {
+                "sections": {
+                    "content": "Pagrindiniai nustatymai",
+                    "permissions": "Leidimai"
+                }
+            },
+            "header": {
+                "go_back": "Atgal į forumą"
+            },
+            "users": {
+                "grid": {
+                    "columns": {
+                        "avatar": {
+                            "title": "Avataras"
+                        }
+                    }
+                }
+            },
+            "settings": {
+                "edit_footer_links": "Redaguoti Footer nuorodas",
+                "footer_description": "Footer aprašymas",
+                "footer_bottom_line": "Footer apatinė linija",
+                "hero_banner": "Sveiki atvykę į herojaus atvaizdas",
+                "hero_banner_position": "Herojaus atvaizdo CSS pozicija (pvz.: 'center top' or 'center 20%')",
+                "links_modal": {
+                    "add_group": "Nauja nuorodų grupė",
+                    "group_name": "Grupė {number} Vardas",
+                    "group_title": "Nuorodų grupės pavadinimas",
+                    "add_link": "Pridėti nuorodą",
+                    "link_url": "Nuorodos URL",
+                    "link_label": "Nuorodos etiketė"
+                }
+            }
+        }
+    }
+}

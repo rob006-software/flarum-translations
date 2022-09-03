@@ -1,0 +1,65 @@
+{
+    "fof-drafts": {
+        "admin": {
+            "permissions": {
+                "start": "Tạo bản nháp",
+                "schedule": "Lên lịch bản nháp"
+            },
+            "settings": {
+                "title": "Bản nháp FoF",
+                "enable_scheduled_drafts": "Kích hoạt lên lịch bản nháp",
+                "schedule_on_one_server": "Sử dụng 'onOneServer()' cho bộ lập lịch tác vụ (yêu cầu Redis/Memcache)",
+                "schedule_log_output": "Nối đầu ra của bộ lập lịch vào bộ nhớ nhật ký"
+            }
+        },
+        "console": {
+            "scheduled_drafts_disabled": "Lên lịch bản nháp hiện bị vô hiệu hóa trong cài đặt."
+        },
+        "ref": {
+            "schedule_draft": "Lên lịch bản nháp"
+        },
+        "forum": {
+            "composer": {
+                "title": "Lưu bản nháp",
+                "saving": "Đang lưu...",
+                "saved": "Đã lưu!",
+                "exit_alert": "Hủy thay đổi bản nháp?",
+                "discard_empty_draft_alert": "Hủy bản nháp trống?"
+            },
+            "dropdown": {
+                "empty_text": "Bạn chưa lưu bất kỳ bản nháp nào",
+                "title": "Bản nháp",
+                "delete_all_button": "Xóa tất cả bản nháp",
+                "delete_button": "Xóa bản nháp",
+                "schedule_button": "=> fof-drafts.ref.schedule_draft",
+                "scheduled_icon_tooltip": "Lên lịch cho {datetime}",
+                "scheduled_icon_tooltip_formatter": "L [lúc] LT",
+                "tooltip": "=> fof-drafts.forum.dropdown.title",
+                "alert": "Bạn có chắc chắn muốn xóa bản nháp của mình không?",
+                "delete_all_alert": "Bạn có chắc chắn muốn xóa tất cả các bản nháp của mình không?"
+            },
+            "schedule_draft_modal": {
+                "title": "=> fof-drafts.ref.schedule_draft",
+                "text": "Lên lịch cho bản nháp của bạn để tự động đăng vào thời gian sau!",
+                "scheduled_text": "Hiện đã lên lịch để đăng vào lúc {datetime}.",
+                "scheduled_error": "Không thể lên lịch bản nháp: {error}.",
+                "unschedule_button": "Hủy lên lịch",
+                "unschedule_warning": "Bạn có chắc chắn muốn hủy lên lịch cho bản nháp này không?",
+                "reschedule_button": "Lên lịch lại",
+                "schedule_button": "Lên lịch",
+                "schedule_time_preview": "Bản nháp này sẽ được tự động đăng vào lúc <b>{datetime}</b>.",
+                "schedule_time_preview_formatter": "LLLL",
+                "schedule_time_preview_invalid": "Ngày giờ không hợp lệ"
+            },
+            "user": {
+                "settings": {
+                    "drafts_heading": "Bản nháp",
+                    "draft_autosave_enable": "Bật tự động lưu bản nháp?",
+                    "draft_autosave_interval_label": "Khoảng thời gian tự động lưu (giây)",
+                    "draft_autosave_interval_button": "Cập nhật",
+                    "draft_autosave_interval_invalid": "Khoảng phải là một số nguyên lớn hơn 4."
+                }
+            }
+        }
+    }
+}

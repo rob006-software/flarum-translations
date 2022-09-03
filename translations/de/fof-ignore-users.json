@@ -2,20 +2,20 @@
     "fof-ignore-users": {
         "admin": {
             "permissions": {
-                "can_not_be_ignored_label": ""
+                "can_not_be_ignored_label": "Kann nicht ignoriert werden"
             }
         },
         "forum": {
-            "profile_link": "",
+            "profile_link": "Ignorierte Benutzer",
             "user_controls": {
-                "ignore_button": "",
-                "ignore_confirmation": "",
-                "unignore_button": "",
-                "unignore_confirmation": ""
+                "ignore_button": "Ignorieren",
+                "ignore_confirmation": "Möchtest Du diesen Benutzer wirklich ignorieren?",
+                "unignore_button": "Ignorierung aufheben",
+                "unignore_confirmation": "Möchtest Du die Ignorierung dieses Benutzers wirklich aufheben?"
             },
             "badge": {
-                "user_label": "",
-                "discussion_label": ""
+                "user_label": "Ignorierter Benutzer",
+                "discussion_label": "Gestartet von einem ignorierten Benutzer"
             }
         }
     }

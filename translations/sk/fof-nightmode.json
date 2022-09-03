@@ -1,13 +1,14 @@
 {
     "fof-nightmode": {
         "ref": {
-            "auto": "",
+            "auto": "Automaticky (záleží na prehliadači alebo nastavení zariadenia)",
             "light": "",
             "dark": ""
         },
         "admin": {
             "settings": {
                 "modal": {
+                    "always_show_theme_toggle_on_header": "",
                     "default_theme": "",
                     "default_theme_helper": "",
                     "theme_auto": "",
@@ -19,6 +20,9 @@
         "forum": {
             "day": "",
             "night": "",
+            "header": {
+                "nightmode_button": ""
+            },
             "user": {
                 "settings": {
                     "heading": "",
@@ -26,6 +30,7 @@
                     "description2": "",
                     "device_specific_setting_checkbox": "",
                     "device_specific_setting_checkbox_tooltip": "",
+                    "auto_unsupported": "",
                     "options": {
                         "auto": "",
                         "day": "",
@@ -37,6 +42,16 @@
                         "night": ""
                     }
                 }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "fofNightMode": "",
+                "fofNightMode-help": "",
+                "fofNightMode_perDevice": "",
+                "fofNightMode_perDevice-help": ""
             }
         }
     }

@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Konfiguruj zakresy uprawnień",
-                "confirm_uninstall": "Odinstalowanie usunie wszystkie wpisy w bazie i zasoby powiązane z tym rozszerzeniem. Czy jesteś pewien, że chcesz kontynuować?",
+                "confirm_purge": "Wszystkie wpisy w bazie oraz zasoby powiązane z tym rozszerzeniem zostaną usunięte. Samo rozszerzenie nie zostanie odinstalowane, to musi być dokonane za pomocą Composera. Czy chcesz kontynuować?",
                 "disabled": "Wyłączone",
                 "enable_to_see": "Włącz to rozszerzenie aby uzyskać dostęp do jego ustawień.",
                 "enabled": "Włączone",
@@ -116,7 +116,12 @@
                 "no_settings": "To rozszerzenie nie posiada żadnych ustawień.",
                 "open_modal": "Otwórz ustawienia",
                 "permissions_title": "Uprawnienia",
-                "uninstall_button": "Odinstaluj"
+                "purge_button": "Wyczyść",
+                "readme": {
+                    "button_label": "README",
+                    "no_readme": "Wygląda na to, że to rozszerzenie nie posiada pliku README",
+                    "title": "Dokumentacja {extName}"
+                }
             },
             "header": {
                 "get_help": "Uzyskaj pomoc",
@@ -296,9 +301,10 @@
             "discussion_list": {
                 "empty_text": "Wygląda na to, że nie ma tutaj żadnych dyskusji.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Oznacz jako przeczytane",
                 "replied_text": "{username} odpowiedział {ago}",
-                "started_text": "{username} rozpoczął {ago}"
+                "started_text": "{username} rozpoczął {ago}",
+                "total_replies_a11y_label": "{count, plural, one {# odpowiedź} other {# odpowiedzi}}",
+                "unread_replies_a11y_label": "{count, plural, one {# nieodczytana odpowiedź} other {# nieodczytane odpowiedzi}}. Oznacz {count, plural, one {nieodczytaną odpowiedź jako odczytaną} other {nieodczytane odpowiedzi jako odczytane}}."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -316,7 +322,9 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
+                "search_clear_button_accessible_label": "Wyczyść wyszukiwaną frazę",
                 "search_placeholder": "Przeszukaj forum",
+                "search_role_label": "Przeszukaj forum",
                 "session_dropdown_accessible_label": "Przełącz menu rozwijane z opcjami dla aktualnej sesji",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -324,7 +332,7 @@
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
                 "cannot_start_discussion_button": "Nie można rozpocząć dyskusji",
-                "mark_all_as_read_confirmation": "Czy jesteś pewien, że chcesz oznaczyć wszystkie dyskusje jako przeczytane?",
+                "mark_all_as_read_confirmation": "Czy jesteś pewien, że chcesz oznaczyć wszystkie dyskusje jako odczytane?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Odśwież",
@@ -353,7 +361,7 @@
                 "discussion_renamed_text": "{username} zmienił tytuł dyskusji",
                 "empty_text": "Brak powiadomień",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
-                "mark_as_read_tooltip": "Oznacz jako przeczytane",
+                "mark_as_read_tooltip": "Oznacz jako odczytane",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Zobacz powiadomienia",
                 "tooltip": "=> core.ref.notifications"
@@ -375,7 +383,7 @@
             "post_scrubber": {
                 "now_link": "Teraz",
                 "original_post_link": "Początek dyskusji",
-                "unread_text": "{count} nieprzeczytanych",
+                "unread_text": "{count} nieodczytanych",
                 "viewing_text": "Post {index} z {formattedCount}"
             },
             "post_stream": {
@@ -442,9 +450,16 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Wyślij ponownie e-mail aktywacyjny",
                 "sent_message": "Wysłano"
+            },
+            "welcome_hero": {
+                "hide": "Ukryj baner powitalny"
             }
         },
         "lib": {
+            "debug_button": "Debug",
+            "alert": {
+                "dismiss_a11y_label": "Ukryj alert"
+            },
             "badge": {
                 "hidden_tooltip": "Ukryte"
             },
@@ -462,18 +477,32 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "username_label": "=> core.ref.username",
+                "nothing_available": "Nie jesteś upoważniony, aby edytować tego użytkownika."
             },
             "error": {
                 "dependent_extensions_message": "Nie można wyłączyć {extension}, jeśli następujące zależne rozszerzenia są włączone: {extensions}",
+                "extension_initialiation_failed_message": "Nie udało się zainicjować rozszerzenia {extension}. Aby uzyskać więcej informacji, sprawdź konsolę przeglądarki.",
                 "generic_message": "Ups! Coś poszło nie tak. Odśwież stronę i spróbuj ponownie.",
                 "missing_dependencies_message": "Nie można włączyć {extension}, jeśli następujące zależności są wyłączone: {extensions}",
                 "not_found_message": "Żądany zasób nie został znaleziony.",
+                "payload_too_large_message": "Żądanie jest za długie.",
                 "permission_denied_message": "Nie masz uprawnień, aby to zrobić.",
-                "rate_limit_exceeded_message": "Nie bądź taki hop do przodu! Spróbuj ponownie za kilka sekund."
+                "rate_limit_exceeded_message": "Nie bądź taki hop do przodu! Spróbuj ponownie za kilka sekund.",
+                "render_failed_message": "Wystąpił błąd podczas wyświetlania tej treści. Jeśli jesteś użytkownikiem, spróbuj ponownie później. Jeśli jesteś administratorem, sprawdź logi Flarum, aby uzyskać więcej informacji."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Strona # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Strona # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Zamknij"
+            },
+            "nav": {
+                "drawer_button": "Otwórz nawigację"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -489,6 +518,26 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "=> core.ref.extensions",
+                    "disable": "Wyłącz",
+                    "empty": "Brak zainstalowanych rozszerzeń",
+                    "enable": "Włącz",
+                    "name": "Nazwa rozszerzenia",
+                    "package_name": "Nazwa pakietu",
+                    "version": "Wersja"
+                },
+                "info": {
+                    "caption": "Informacje o aplikacji"
+                },
+                "title": "Administracja"
+            },
+            "confirm_email": {
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "Kliknij poniższy przycisk, aby potwierdzić adres e-mail swojego konta.",
+                "title": "=> core.ref.confirm_email"
+            },
             "content": {
                 "javascript_disabled_message": "Ta strona najlepiej działa w nowoczesnych przeglądarkach z włączonym JavaScriptem.",
                 "load_error_message": "Coś poszło nie tak podczas ładowania pełnej wersji strony. Jeśli problem będzie się powtarzał, wyczyść pamięć przeglądarki (cache) i spróbuj ponownie.",
@@ -552,6 +601,7 @@
             "change_password": "Zmień hasło",
             "color": "Kolor",
             "confirm_password": "Potwierdź hasło",
+            "confirm_email": "Potwierdź e-mail",
             "confirmation_email_sent": "Wysłaliśmy e-mail aktywacyjny na {email}. Jeśli nie dotrze wkrótce, sprawdź folder ze spamem.",
             "custom_footer_text": "Dodaj własny kod HTML, który będzie wyświetlany na samym dole forum.",
             "custom_footer_title": "Edytuj stopkę",
@@ -563,13 +613,14 @@
             "edit": "Edytuj",
             "edit_user": "Edytuj użytkownika",
             "email": "E-mail",
+            "extensions": "Rozszerzenia",
             "icon": "Ikona",
             "icon_text": "Wpisz nazwę dowolnej klasy z <a>Font Awesome</a>, <em>włącznie</em> z prefiksem <code>fas fa-</code>.",
             "load_more": "Wczytaj więcej",
             "loading": "Ładowanie...",
             "log_in": "Zaloguj się",
             "log_out": "Wyloguj się",
-            "mark_all_as_read": "Oznacz wszystko jako przeczytane",
+            "mark_all_as_read": "Oznacz wszystko jako odczytane",
             "next_page": "Następna strona",
             "notifications": "Powiadomienia",
             "okay": "OK",

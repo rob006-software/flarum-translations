@@ -1,0 +1,70 @@
+{
+    "askvortsov-moderator-warnings": {
+        "admin": {
+            "permissions": {
+                "manage_warnings": "Napravite i uklonite upozorenja moderatora",
+                "view_warnings": "Prikaži upozorenja moderatora",
+                "delete_warnings": "Trajno izbrišite upozorenja moderatora"
+            }
+        },
+        "emails": {
+            "post_warned": {
+                "subject": "{warner_display_name} te je upozorio/la sa {strikes, plural, one {# strike} other {# upozorenjem}} u diskusiji {discussion_title}",
+                "body": "Hey {warnee_display_name}!\n\n{warner_display_name} te je upozorio/la sa {strikes, plural, one {# upozorenjem} other {# upozerenjem}} u diskusiji {discussion_title}\n\nDat je sledeći razlog:\n\n---\n\n{public_comment}\n"
+            },
+            "user_warned": {
+                "subject": "{warner_display_name} te je upozorio/la {strikes, plural, one {# upozorenjem} other {# upozorenja}}",
+                "body": "Hey {warnee_display_name}!\n\n{warner_display_name} te je upozorio/la sa {strikes, plural, one {# upozorenjem} other {# upozorenja}}\n\n>Dat je sledeći razlog:\n\n---\n\n{public_comment}\n"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "warning_text": "{strikes, plural, one {Upozoren/a si sa # upozorenja od strane {mod_username}} other {Upozoren/a si sa # upozorenja od strane {mod_username}}}",
+                "warning_no_strikes_text": "Upozoren/a si od strane {mod_username} (no strikes)"
+            },
+            "post": {
+                "warning": "{strikes, plural, one {Upozoren/a sa # upozorenja od strane {mod_username}} other {Upozoren/a sa # upozorenja od strane {mod_username}}}",
+                "warning_no_strikes": "Upozoren/a od strane {mod_username}"
+            },
+            "post_controls": {
+                "warning_button": "Upozori člana"
+            },
+            "user": {
+                "warnings": "Upozorenja moderatora"
+            },
+            "settings": {
+                "warning_notification_label": "Upozorava me moderator"
+            },
+            "validation": {
+                "public_comment_required": "Morate dati javni komentar.",
+                "invalid_strike_count": "Broj upozorenja mora biti ceo broj (između 0 i 5)."
+            },
+            "warning_controls": {
+                "delete_button": "Ukloni",
+                "restore_button": "Povrati",
+                "delete_forever_button": "Trajno ukloni"
+            },
+            "warning_list": {
+                "add_button": "Novo upozorenje",
+                "no_warnings": "Izgleda da ovde nema upozorenja.",
+                "warnings": "{strikes, plural, one {Upozorenja moderatora: # upozorenje dobijeno} other {Upozorenja moderatora: # upozorenja dobijeno}}",
+                "warnings_no_strikes": "Upozorenja moderatora: Nema dobijenih upozorenja"
+            },
+            "warning_list_item": {
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> upozorenje, {time}} other {<strong>#</strong> upozorenja, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> upozorenje, {time} <strong>(removed)</strong>} other {<strong>#</strong> upozorenja, {time} <strong>(uklonjeno)</strong>}}",
+                "public_comment": "Upozorenje",
+                "private_comment": "Komentari vidljivi samo moderatorima",
+                "linked_post": "Povezana diskusija"
+            },
+            "warning_modal": {
+                "confirmation_message": "Vaše upozorenje je sačuvano. Možda ćete morati da osvežite stranicu da biste ga videli.",
+                "heading": "Upozori <strong>{username}</strong>",
+                "strikes_heading": "Koliko upozorenja treba poslati?",
+                "public_comment_heading": "Zašto je <strong>{username}</strong> dobio/la ova upozorenja? Ovi komentari će biti vidljivi članu i drugim moderatorima.",
+                "private_comment_heading": "Zašto je <strong>{username}</strong> dobio/la ova upozorenja? Ovi komentari će biti vidljivi samo drugim moderatorima.",
+                "submit_button": "Sačuvaj upozorenje"
+            }
+        }
+    }
+}

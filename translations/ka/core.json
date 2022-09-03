@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "",
-                "confirm_uninstall": "ინსტალაციით წაიშლება მონაცემთა ბაზის ყველა ჩანაწერი და აქტივები, რომლებიც დაკავშირებულია გაფართოებასთან. დარწმუნებული ხართ, რომ გსურთ გაგრძელება?",
+                "confirm_purge": "",
                 "disabled": "გამორთული",
                 "enable_to_see": "ჩართეთ გაფართოება, რომ ნახოთ და შეცვალოთ პარამეტრები.",
                 "enabled": "ჩართული",
@@ -116,6 +116,13 @@
                 "no_settings": "ამ გაფართოებას არ აქვს პარამეტრები.",
                 "open_modal": "პარამეტრების გახსნა",
                 "permissions_title": "უფლებები",
+                "purge_button": "",
+                "readme": {
+                    "button_label": "",
+                    "no_readme": "",
+                    "title": ""
+                },
+                "confirm_uninstall": "ინსტალაციით წაიშლება მონაცემთა ბაზის ყველა ჩანაწერი და აქტივები, რომლებიც დაკავშირებულია გაფართოებასთან. დარწმუნებული ხართ, რომ გსურთ გაგრძელება?",
                 "uninstall_button": "წაშლა"
             },
             "header": {
@@ -296,9 +303,11 @@
             "discussion_list": {
                 "empty_text": "როგორც ჩანს, აქ არანაირი დისკუსია არ არის.",
                 "load_more_button": "",
-                "mark_as_read_tooltip": "წაკითხულად მონიშვნა",
                 "replied_text": "{username} უპასუხა {ago}",
-                "started_text": "{username} დაიწყო {ago}"
+                "started_text": "{username} დაიწყო {ago}",
+                "total_replies_a11y_label": "",
+                "unread_replies_a11y_label": "",
+                "mark_as_read_tooltip": "წაკითხულად მონიშვნა"
             },
             "forgot_password": {
                 "dismiss_button": "",
@@ -316,7 +325,9 @@
                 "log_in_link": "",
                 "log_out_button": "",
                 "profile_button": "პროფილი",
+                "search_clear_button_accessible_label": "",
                 "search_placeholder": "ფორუმის ძებნა",
+                "search_role_label": "",
                 "session_dropdown_accessible_label": "",
                 "settings_button": "",
                 "sign_up_link": ""
@@ -442,9 +453,16 @@
                 "alert_message": "",
                 "resend_button": "ხელახლა გაგზავნეთ დამადასტურებელი ელ.ფოსტა",
                 "sent_message": "გაგზავნილი"
+            },
+            "welcome_hero": {
+                "hide": ""
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "დამალული"
             },
@@ -462,18 +480,32 @@
                 "submit_button": "",
                 "title": "",
                 "username_heading": "",
-                "username_label": ""
+                "username_label": "",
+                "nothing_available": ""
             },
             "error": {
                 "dependent_extensions_message": "შეუძლებელია {extension} გამორთვა სანამ არ მოხდება შემდეგი დამოკიდებული გაფართოებების გამორთვა: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "უი! Რაღაც არასწორად წავიდა. გთხოვთ, გადატვირთოთ გვერდი და ისევ სცადოთ.",
                 "missing_dependencies_message": "შეუძელებლია {extension} გაფართოების ჩართვა, სანამ შემდეგი გაფართოებები ჩართულია: {extensions}",
                 "not_found_message": "მოთხოვნილი რესურსი ვერ მოიძებნა.",
+                "payload_too_large_message": "",
                 "permission_denied_message": "თქვენ არ გაქვთ ამის ნებართვა.",
-                "rate_limit_exceeded_message": "ცოტა სწრაფად მიდიხარ. გთხოვთ, სცადოთ ხელახლა რამდენიმე წამში."
+                "rate_limit_exceeded_message": "ცოტა სწრაფად მიდიხარ. გთხოვთ, სცადოთ ხელახლა რამდენიმე წამში.",
+                "render_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "კ",
@@ -489,6 +521,26 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
+            "confirm_email": {
+                "submit_button": "",
+                "text": "",
+                "title": ""
+            },
             "content": {
                 "javascript_disabled_message": "ეს საიტი საუკეთესოდ ჩანს თანამედროვე ბრაუზერში, რომელშიც ჩართულია JavaScript.",
                 "load_error_message": "ამ საიტის სრული ვერსიის ჩატვირთვისას მოხდა რაღაც შეცდომა. ცადეთ შეცვალოთ ეს გვერდი შეცდომის გამოსასწორებლად.",
@@ -523,6 +575,10 @@
                 "new_password_label": "ახალი პაროლი",
                 "submit_button": "",
                 "title": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {
@@ -552,6 +608,7 @@
             "change_password": "პაროლის შეცვლა",
             "color": "ფერი",
             "confirm_password": "დაადასტურეთ პაროლი",
+            "confirm_email": "",
             "confirmation_email_sent": "ჩვენ გამოგიგზავნეთ დამადასტურებელი ელ.წერილი {email} -ზე. თუ ის მალე არ მოვა, შეამოწმეთ თქვენი სპამის საქაღალდე.",
             "custom_footer_text": "დაამატეთ HTML, რომელიც გამოჩნდება გვერდის ბოლოში.",
             "custom_footer_title": "დაარედაქტირეთ სასურველი ქვედაკლონტიტული",
@@ -563,6 +620,7 @@
             "edit": "რედაქტირება",
             "edit_user": "",
             "email": "ელ.ფოსტა",
+            "extensions": "",
             "icon": "აიქონი",
             "icon_text": "შეიყვანეთ სახელი ნებისმიერი <a>FontAwesome</a> აიქონის კლასის <em>მათ შორის</em> <code>fas fa-</code> პრეფიქსით.",
             "load_more": "მეტის ჩატვირთვა",

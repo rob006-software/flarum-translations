@@ -1,0 +1,29 @@
+{
+    "fof-socialprofile": {
+        "admin": {
+            "permissions": {
+                "view": "Xem các liên kết mạng xã hội",
+                "editOwn": "Chỉnh sửa liên kết mạng xã hội của riêng mình",
+                "editAny": "Chỉnh sửa bất kỳ liên kết mạng xã hội nào"
+            },
+            "settings": {
+                "allow_external_favicons_label": "Cho phép icon bên ngoài trang web (sử dụng API favicon của DuckDuckGo)"
+            }
+        },
+        "forum": {
+            "edit": {
+                "edit": "Chỉnh sửa liên kết mạng xã hội",
+                "add": "Thêm liên kết mạng xã hội",
+                "headtitle": "Chỉnh sửa liên kết mạng xã hội",
+                "title": "Tiêu đề",
+                "url": "URL",
+                "submit": "Lưu lại",
+                "delete": "Xóa",
+                "deletetitle": "Xóa liên kết",
+                "save_disabled_fetching_favicons": "Đang tìm kiếm các biểu tượng. Vui lòng chờ...",
+                "favicon": "Favicon",
+                "grey_favicon": "Favicon xám"
+            }
+        }
+    }
+}

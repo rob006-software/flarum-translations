@@ -1,0 +1,117 @@
+{
+    "fof-linguist": {
+        "admin": {
+            "tabs": {
+                "strings": "Käännökset",
+                "coverage": "Kattavuus",
+                "export": "Vienti",
+                "import": "Tuonti"
+            },
+            "buttons": {
+                "apply": "Käytä",
+                "reset": "Palauta alkuperäinen",
+                "copy-original": "Kopioi alkuperäinen teksti",
+                "load-more": "Lataa lisää",
+                "delete-redundant": "Poista tarpeettomat käännökset",
+                "delete-redundant-confirm": "Tämä poistaa {count} käännöstä, joissa on identtinen arvo alkuperäisen kanssa. Tämä voi olla hyödyllinen siivous kielipaketin päivityksen jälkeen.\n",
+                "delete-all": "Poista kaikki käännökset",
+                "delete-all-confirm": "Tämä poistaa KAIKKI sinun {count} kappaletta räätälöityjä käännöksiä. Olethan varma, että olet vienyt tai varmuuskopioinut kaikki mitä haluat säilyttää.\n"
+            },
+            "locales": {
+                "all": "Kaikki"
+            },
+            "placeholder": {
+                "not-translated": "Kääntämätön",
+                "all-locales": "Tässä määritetty teksti näkyy kaikilla kielillä",
+                "hint": "Alkuperäinen arvo:"
+            },
+            "filters": {
+                "search": "Hae käännettyjä sanoja...",
+                "with-own-translations": "Omat käännökset",
+                "missing": "Etsi puuttuvia käännöksiä",
+                "missing-middle-label": "käännökset",
+                "negation-options": {
+                    "with": "Kanssa",
+                    "without": "Ilman"
+                },
+                "type-options": {
+                    "any": "Alkuperäinen tai muokattu",
+                    "original": "Alkuperäinen",
+                    "own": "Muokattu"
+                },
+                "operation-options": {
+                    "or": "Joko tai",
+                    "and": "Kaikki"
+                },
+                "for-extension": "Lisäosalle",
+                "frontend": "Käyttöliittymälle",
+                "frontend-all-except-admin": "Kaikki paitsi hallinta",
+                "mass-edit": "Massa muokkaus",
+                "results": "Näytetään {shown} / {total} vastaavaa käännöstä"
+            },
+            "clear-cache": {
+                "text": "Uusia käännöksiä ei ole vielä asetettu. Huomio: välimuistin tyhjennys hidastaa foorumiasi hetkeksi.\n",
+                "button": "Tyhjennä välimuisti nyt"
+            },
+            "coverage": {
+                "column-options": {
+                    "locale": "Kielen mukaan",
+                    "namespace": "Käyttöliittymän mukaan"
+                },
+                "total-options": {
+                    "percent": "Prosentti",
+                    "count": "Määrä"
+                },
+                "columns": {
+                    "namespace": "Nimiavaruus",
+                    "total": "Yhteensä",
+                    "all-except-admin": "Foorumi ja muut käyttöliittymät",
+                    "all-frontends": "Näytä kaikki käyttöliittymät"
+                },
+                "count": {
+                    "percent": "{percent} %",
+                    "total": "{translated} / {total}",
+                    "details": "{total} yhteensä / {original} alkuperäistä / {custom} muokattua"
+                },
+                "all-namespaces": "Kaikki",
+                "apply-missing-filter": "Näytä vastaavat puuttuvat käännökset"
+            },
+            "export": {
+                "title": "Vienti",
+                "warning": "Viennin formaatti käyttää Flarumin Yaml pohjaista käännöstiedostoa ja on tarkoitettu käännösten jakoon foorumin kanssa ja kielipakettien ylläpitäjien kanssa. Formaattia ei ole suunniteltu käännösten siirtämiseen uudelle foorumille. Tarkoituksesta riippuen tietokannan kopiointi voi olla parempi ajatus.\n",
+                "locale": "Lokaali",
+                "locale-all": "Pseudo lokaali \"Kaikki\"",
+                "namespace": "Nimiavaruus",
+                "namespace-all": "Kaikki",
+                "include-originals": "Sisällytä alkuperäiset käännökset",
+                "include-all": "Sisällytä alkuperäiset käännökset jotka on määritetty \"Kaikki\" kielille",
+                "output": "Ulostulo",
+                "output-loading": "Ladataan ulostuloa...",
+                "output-empty": "Tyhjennä ulostulo",
+                "download": "Lataa"
+            },
+            "import": {
+                "title": "Tuonti",
+                "input": "Sisääntulo",
+                "input-placeholder": "Raahaa ja tiputa tai liitä Yaml tiedosto tähän",
+                "locale": "Lokaali",
+                "locale-all": "Pseudo lokaali \"Kaikki\"",
+                "override-existing": "Yliaja minun olemassa olevat muokatut käännökset",
+                "submit": "Tuonti",
+                "results": "Tuonti on valmistunut. {imported} kpl on tuotu ja {identical} kpl identtisiä on ohitettu. Sivu päivittyy nyt ja näyttää uudet käännökset.\n",
+                "results-with-ignore": "Tuonti on valmistunut. {imported} kpl on tuotu, {ignored} kpl on jätetty huomioimatta ja {identical} kpl identtisiä on ohitettu. Sivu päivittyy nyt ja näyttää uudet käännökset.\n"
+            },
+            "known-namespace": {
+                "core": "Flarum Core",
+                "validation": "Validaatio virheet"
+            },
+            "known-frontend": {
+                "forum": "Foorumi",
+                "admin": "Hallinta",
+                "lib": "Kirjasto (käytetty foorumilla ja hallinnassa)",
+                "ref": "Ref (uudelleen käytetty muissa avaimissa)",
+                "api": "API"
+            }
+        }
+    }
+}

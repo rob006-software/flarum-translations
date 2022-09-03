@@ -2,81 +2,91 @@
     "askvortsov-pwa": {
         "admin": {
             "nav": {
-                "pwa_button": "",
-                "pwa_text": ""
+                "pwa_button": "Progresszív webalkalmazás",
+                "pwa_text": "A Flarum beállítása, hogy progresszív webalkalmazásként fusson, mely mobileszközökre telepíthető."
             },
             "pwa": {
                 "about": {
-                    "description_text": "",
-                    "long_name_text": "",
-                    "heading": "",
-                    "short_name_text": ""
+                    "description_label": "Leírás",
+                    "description_text": "A leírást a rendszergazdai vezérlőpult „Alapok” oldalán állíthatja be.",
+                    "long_name_label": "Teljes név",
+                    "long_name_text": "A webalkalmazás neve, amely megjelenik a felhasználók számára.",
+                    "heading": "Névjegy",
+                    "short_name_label": "Rövid név",
+                    "short_name_text": "Rövid név, amely megjelenik a felhasználók számára, ha az eredeti nem fér ki."
                 },
                 "colors": {
-                    "heading": "",
-                    "background_color_text": "",
-                    "theme_color_text": ""
+                    "heading": "Színek",
+                    "background_color_label": "Háttérszín",
+                    "background_color_text": "Ez a felugró képernyő kitöltőszíne, amely a PWA betöltése során jelenik meg. Az alkalmazás betöltése után már nincs használva.",
+                    "theme_color_label": "Téma színe",
+                    "theme_color_text": "Ezt a színt néha használják az eszközök az alkalmazás megjelenítésekor, például az Android a feladatváltójában a webhelyet körülvevő színként használja."
                 },
                 "maintenance": {
-                    "heading": "",
-                    "debug_label": ""
+                    "heading": "Karbantartás",
+                    "debug_label": "Hibakeresési mód?",
+                    "debug_text": "Ez naplózza az értesítésekről szóló információkat a `storage/logs` mappába. Általában le kell tiltani, hogy elkerülje a naplók szükségtelen feltöltését.",
+                    "reset_vapid_text": "Ez újra előállítja a VAPID-kulcsokat, és töröl minden olyan feliratkozást, amely a jelenlegi VAPID-kulcsokkal történt.",
+                    "reset_vapid_confirm": "A VAPID-kulcsok visszaállítása eltávolítja a meglévő kulcsokat használó feliratkozásokat, így a felhasználók nem kapnak értesítést a webhely következő látogatásáig. Ezt csak a leküldéses értesítések első beállításakor szabad megtenni, vagy ha a leküldéses értesítések egyáltalán nem működnek, és fent figyelmeztetés jelenik meg a hiányzó VAPID-kulcsokról.",
+                    "reset_vapid_success": "Sikeresen visszaállította a VAPID-kulcsokat. {count} feliratkozás visszaállítva. Töltse be újra az oldalt a frissített állapotellenőrzési jelentés megtekintéséhez."
                 },
                 "other": {
-                    "heading": "",
-                    "force_portrait_text": ""
+                    "heading": "Egyéb",
+                    "force_portrait_text": "Fekvő elrendezés kényszerítése?"
                 },
-                "heading": "",
-                "text": "",
-                "status_check_heading": "",
-                "logo_heading": "",
-                "logo_text": "",
-                "logo_size_text": "",
-                "submit_button": "",
-                "refreshed_message": ""
+                "heading": "Progresszív webalkalmazás beállításai",
+                "text": "Állítsa be a Flarum webhelyét, hogy progresszív webalkalmazásként fusson! Vegye figyelembe, hogy ez nem teszi automatikusan webhelyét az alkalmazásboltba. Ehelyett ez azt jelenti, hogy a felhasználóknál megjelenik a „Hozzáadás a kezdőképernyőhöz” lehetőség az Ön webhelyénél. Néhány állapotellenőrzést biztosítunk, azonban a tesztelés legjobb módja az, hogy megpróbálja telepíteni (keressen rá a progresszív webes alkalmazások telepítési módjára). Ezenkívül ne feledje, hogy a a PWA telepítési felugró ablakokat a böngészők vezérlik, a fejlesztők/rendszergazdák/programok nem indíthatják el őket. Javaslom, hogy a webhely dokumentációjában szerepeltesse a PWA telepítésével kapcsolatos utasításokat.",
+                "status_check_heading": "Állapotellenőrzés",
+                "logo_heading": "Logók és ikonok",
+                "logo_text": "A progresszív webalkalmazás telepítéséhez legalább egy logót fel kell töltenie. Vegye figyelembe, hogy minden logónak négyzet alakúnak kell lennie; ha nem, akkor át lesznek méretve vagy szét lesznek húzva.\n\nAz alábbiakban számos méretbeállítás közül választhat. Azt javaslom, hogy próbáljon meg minél több logót feltölteni: ez több eszközt támogat.\n\nVegye figyelembe, hogy feltölthet 1 nagy logót a kisebb logók bemeneteként. Például feltölthet egy 1000×1000 képpontos logót az ÖSSZES fájlbevitelhez. Ha azonban megpróbál feltölteni egy 50×50 képpontos logót az 512×512-es bemenethez, akkor az nagyon szét lesz húzva.\n",
+                "logo_size_text": "Töltsön fel egy logót, amely {size}×{size} képpontosra lesz méretezve.",
+                "submit_button": "Beállítások mentése",
+                "refreshed_message": "PWA beállítások sikeresen frissítve."
             },
             "status": {
-                "config_no_https": "",
-                "possible_https_disabled": "",
-                "no_logo": "",
-                "no_name": "",
-                "key_gen_failed": "",
-                "suggest_gmp": "",
-                "success": ""
+                "config_no_https": "A config.php fájlban szereplő webcím nem használ HTTPS-t. A progresszív webalkalmazások működéséhez a HTTPS használata kötelező.",
+                "possible_https_disabled": "Az oldal nem HTTPS-sel működik. A gyorsítótár törlése (rendszergazdai vezérlőpult => eszközök gomb) segíthet. Ha segített, akkor ezt vegye figyelmen kívül. Ha nem, akkor ne feledje, hogy a progresszív webalkalmazások működéséhez a HTTPS használata kötelező.",
+                "no_logo": "Legalább egy 196 képpontos logó feltöltése kötelező ahhoz, hogy az alkalmazás működjön.",
+                "no_name": "Meg kell adnia egy teljes nevet, hogy az alkalmazás működjön.",
+                "no_vapid_keys": "Nem találhatók VAPID-kulcsok. Ezek szükségesek a leküldéses értesítések küldéséhez. A VAPID-kulcsokat alább állíthatja vissza.",
+                "key_gen_failed": "A leküldéses értesítésekhez szükséges kulcsok előállítása sikertelen. A teljes hibaüzenet a következő volt: {error}",
+                "suggest_gmp": "Úgy tűnik, hogy a gmp PHP bővítmény nincs engedélyezve a kiszolgálón. Nem feltétlenül szükséges, de javíthatja a teljesítményt, és ajánlott. Előfordulhat azonban, hogy egyes megosztott kiszolgálású rendszerek nem támogatják.",
+                "success": "Nem találhatók potenciális problémák."
             }
         },
         "forum": {
             "alerts": {
-                "optin": "",
-                "optin_button": ""
+                "optin": "A leküldéses üzenetek be vannak kapcsolva, de nincsenek beállítva ezen az eszközön.",
+                "optin_button": "Beállítás"
             },
             "discussion_controls": {
-                "share_button": ""
+                "share_button": "Megosztás"
             },
             "post_controls": {
-                "share_button": "",
+                "share_button": "Megosztás",
                 "share_api": {
-                    "title": ""
+                    "title": "{username} válaszolt erre: {title}"
                 }
             },
             "user_controls": {
-                "share_button": ""
+                "share_button": "Megosztás"
             },
             "settings": {
-                "push_header": "",
+                "push_header": "Leküldés",
                 "pwa_notifications": {
-                    "access_default": "",
-                    "access_default_button": "",
-                    "access_denied": "",
-                    "access_denied_button": "",
-                    "no_browser_support": "",
-                    "no_browser_support_button": ""
+                    "access_default": "A böngésző korlátozásai miatt, engedélyeznie kell a leküldéses üzenetek fogadását ezen az eszközön.",
+                    "access_default_button": "Engedélyezés",
+                    "access_denied": "Be kell állítani a böngészőt, hogy fogadja a leküldéses értesítéseket ezen az eszközön.",
+                    "access_denied_button": "Tudja meg hogyan",
+                    "no_browser_support": "Ez a böngésző nem támogatja a leküldéses értesítéseket a progresszív webalkalmazásoknál.",
+                    "no_browser_support_button": "Tudjon meg többet"
                 }
             }
         },
         "views": {
             "offline": {
-                "header": "",
-                "text": ""
+                "header": "Hálózati kapcsolati hiba",
+                "text": "Ez az alkalmazás hálózati kapcsolatot igényel; offline nem használható. Ellenőrizze a kapcsolatot."
             }
         }
     }

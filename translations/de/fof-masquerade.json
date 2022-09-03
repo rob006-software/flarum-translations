@@ -7,6 +7,7 @@
             },
             "buttons": {
                 "view-profile": "Profil ansehen",
+                "edit-profile": "Profil bearbeiten",
                 "save-profile": "Speichern"
             },
             "fields": {
@@ -28,6 +29,7 @@
                 "delete-field": "Feld löschen"
             },
             "permissions": {
+                "edit-others-profile": "Profil anderer Benutzer bearbeiten",
                 "have-profile": "Masquerade-Profil anlegen",
                 "view-profile": "Masquerade-Profile ansehen"
             },
@@ -43,7 +45,7 @@
                 "on_bio": "Inhalt dieses Feldes in der Nutzerbio anzeigen",
                 "type": "Typ",
                 "validation": "Validierung",
-                "validation-help": "Überprüfe die Gültigkeit der Eingabe mithilfe der unterstützten <a>Laravel-Validierungsregeln</a>.  Beispiel: \"string|min:5\" oder \"url\".\n",
+                "validation-help": "Überprüfe die unterstützten <a>Laravel-Validierungsregeln</a>. ZB: \"string|min:5\" oder \"url\".\n",
                 "prefix": "Feld-Prefix",
                 "prefix-help": "Zeigt dein Präfix vor den Werten, die der Nutzer für dieses Feld eingegeben hat.\n",
                 "icon": "Symbol",

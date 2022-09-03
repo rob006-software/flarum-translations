@@ -1,0 +1,36 @@
+{
+    "clarkwinkelmann-colorful-borders": {
+        "forum": {
+            "edit": "Modifier le style",
+            "default": "Par défaut",
+            "apply": "Appliquer",
+            "reset": "Supprimer le style personnalisé",
+            "borderColor": "Couleur de la bordure",
+            "backgroundColor": "Couleur de l'arrière plan",
+            "textColor": "Couleur du texte",
+            "borderWidth": "Largeur de la bordure",
+            "borderRadius": "Rayon de bordure"
+        },
+        "admin": {
+            "permissions": {
+                "editOwnPost": "Modifier son propre style de publication",
+                "editAnyPost": "Modifier n'importe quel style de publication"
+            },
+            "settings": {
+                "enableBorderColor": "Couleur de bordure personnalisable",
+                "enableBackgroundColor": "Couleur de fond personnalisable",
+                "enableTextColor": "Couleur du texte personnalisable",
+                "enableBorderWidth": "Largeur de bordure personnalisable",
+                "enableBorderRadius": "Rayon de bordure personnalisable",
+                "min": "Min",
+                "max": "Max",
+                "colors": {
+                    "simple": "Ensemble de couleurs simples",
+                    "all": "N'importe quelle couleur",
+                    "custom": "Liste de couleurs personnalisée",
+                    "custom-help": "Liste séparée par des virgules de valeurs #hex ou rgb()"
+                }
+            }
+        }
+    }
+}

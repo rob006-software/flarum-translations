@@ -1,0 +1,25 @@
+{
+    "flarum-approval": {
+        "admin": {
+            "permissions": {
+                "approve_posts_label": "Hyväksy viestejä",
+                "reply_without_approval_label": "Vastaa keskusteluun ilman hyväksyntää",
+                "start_discussions_without_approval_label": "Aloita keskusteluita ilman hyväksyntää"
+            }
+        },
+        "forum": {
+            "badge": {
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post": {
+                "awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post_controls": {
+                "approve_button": "Hyväksy"
+            }
+        },
+        "ref": {
+            "awaiting_approval": "Odottaa hyväksyntää"
+        }
+    }
+}

@@ -3,13 +3,13 @@
         "admin": {
             "settings": {
                 "error": {
-                    "403": "",
-                    "404": "",
-                    "500": "",
-                    "503": ""
+                    "403": "403 Zugriff verweigert",
+                    "404": "404 Nicht gefunden",
+                    "500": "500 Interner Serverfehler",
+                    "503": "503 Dienst nicht verfügbar (Wegen Wartung außer Betrieb)"
                 },
                 "placeholder": {
-                    "empty_for_default": ""
+                    "empty_for_default": "Für die standardmäßige Flarum-Fehlerseite leer lassen"
                 }
             }
         }

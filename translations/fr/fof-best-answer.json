@@ -10,15 +10,29 @@
                     "general": "Général",
                     "reminders": "Rappels",
                     "advanced": "Avancé",
-                    "reminders_notice": "Pour que les rappels fonctionnent correctement, vous devez configurer correctement le planificateur de Flarum."
+                    "reminders_notice": "Pour que les rappels puissent fonctionner, vous devez configurer correctement le planificateur de Flarum."
                 },
-                "allow_select_own_post": "Autoriser les utilisateurs à sélectionner leurs propres publications",
-                "select_best_answer_reminder_days": "Rappelez aux utilisateurs de sélectionner une meilleure réponse après X jours",
-                "schedule_on_one_server": "Utilisez la directive 'onOneServer ()' pour le planificateur de tâches (nécessite Redis/Memcache)",
-                "schedule_stop_overnight": "Empêcher le planificateur de rappels de s'exécuter pendant les heures non sociales (21h - 8h, heures du serveur)",
+                "allow_select_own_post": "Sélectionner ses propres publications",
+                "allow_select_own_post_help": "Autoriser l'auteur original à sélectionner l'un de ses propres messages de la discussion comme meilleure réponse",
+                "enable_all_tags_button": "Activer toutes les étiquettes pour les meilleures réponses",
+                "enable_all_tags_reminder_button": "Activer toutes les étiquettes pour les rappels d'une meilleure réponse",
+                "select_best_answer_reminder_days": "Fréquence des rappels",
+                "select_best_answer_reminder_days_help": "Envoyer un rappel à l'auteur original après le nombre de jours configurable pour sélectionner une meilleure réponse, 0 = désactive les rappels.",
+                "schedule_on_one_server": "Utilisez la directive 'onOneServer ()' pour le planificateur de tâches",
+                "schedule_on_one_server_help": "Nécessite Redis/Memcache",
+                "schedule_stop_overnight": "Empêcher l'envoi de notifications de rappel pendant les heures creuses",
+                "schedule_stop_overnight_help": "9h00 - 8h00 (heure du serveur)",
                 "schedule_log_output": "Ajouter la sortie du planificateur au stockage des journaux",
-                "remind_tag_ids": "Pour restreindre les rappels à des étiquettes particulières, entrez les identifiants des étiquettes ici (séparés par des virgules)",
-                "use_alt_ui": "Utiliser une mise en page alternative (boutons de meilleure réponse dans le pied de page des messages)"
+                "show_filter_label": "Afficher la liste déroulante du filtre de meilleure réponse",
+                "show_filter_help": "Pour les étiquettes avec lesquelles l'extension « Best Answers » est activée, choisissez d'afficher l'option de filtre résolu/non résolu dans la liste de discussions",
+                "use_alt_ui": "Mise en page alternative",
+                "use_alt_ui_help": "Contrôles de la meilleure réponse dans le pied de page du message",
+                "documentation": "Documentation",
+                "introduction": "Active quelles étiquettes doivent supporter les meilleures réponses dans l'extension <code><a>flarum/tags</a></code>, et, optionnellement, la ou les étiquettes qui doivent prendre en charge les rappels. Lorsqu'une étiquette est activée avec l'extension « Best Answer », cela attribue des autorisations à chaque groupe d'utilisateurs qui peut définir des réponses (dans sa propre discussion ou dans toute discussion). Les autorisations peuvent être attribuées globalement (pour toute étiquette activée avec l'extension « Best Answer »), ou sur une base par étiquette.\n"
+            },
+            "edit_tag": {
+                "qna_label": "Permettre à l'extension « Best Answers » d'être paramétrée dans cette étiquette",
+                "reminders": "Envoyer des rappels pour définir une meilleure réponse pour les discussions avec cette étiquette"
             }
         },
         "forum": {
@@ -35,9 +49,28 @@
                 "content": "Veuillez sélectionner la meilleure réponse si une réponse a été apportée à votre question",
                 "awarded": "Votre message a été défini comme la meilleure réponse par {username}",
                 "preferences": {
-                    "awarded_best_answer": "Lorsque quelqu'un définit mon message comme meilleure réponse",
-                    "best_answer_in_discussion": "Lorsqu'une meilleure réponse est définie dans une discussion à laquelle j'ai participé"
+                    "awarded_best_answer": "Quelqu'un a indiqué mon message comme meilleure réponse",
+                    "best_answer_in_discussion": "Une meilleure réponse a été indiquée dans une discussion à laquelle j'ai participé",
+                    "select_best_answer": "Un rappel automatique pour sélectionner la meilleure réponse dans une discussion que j'ai démarrée"
                 }
+            },
+            "index": {
+                "ask_question": "Poser une question",
+                "cannot_ask_question": "Ne peut pas poser de question",
+                "solved_link": "Discussions résolues",
+                "unsolved_link": "Discussions non résolues"
+            },
+            "filter": {
+                "all_label": "Toutes les questions",
+                "solved_label": "Questions résolues",
+                "unsolved_label": "Questions non résolues",
+                "accessible_label": "Sélection résolue/non résolue"
+            },
+            "composer": {
+                "titlePlaceholder": "Titre de la question"
+            },
+            "user": {
+                "best-answer-count": "{count, plural, one { {count} meilleure réponse} other {{count} meilleures réponses}}"
             }
         },
         "email": {
@@ -48,7 +81,7 @@
             },
             "body": {
                 "awarded": "Bonjour {recipient_display_name},\n\nBravo, {actor_display_name} vient de définir votre message comme la meilleure réponse pour la discussion : {discussion_title}. Merci pour votre aide.\n\nConsultez-le ici : {discussion_url}\n",
-                "ba-set": "Bonjour {recipient_display_name},\n\n{actor_display_name} vient de définir une meilleure réponse pour la discussion : {titre_discussion}, à laquelle tu as participé.\n\nConsultez-la : {discussion_url}\n",
+                "ba-set": "Bonjour {recipient_display_name},\n\n{actor_display_name} vient de définir une meilleure réponse pour la discussion : {discussion_title}, à laquelle vous avez participé.\n\nConsultez-la : {discussion_url}\n",
                 "select": "Bonjour {recipient_display_name},\n\nNous venons juste vérifier ; vous devriez avoir déjà reçu de nombreuses réponses à votre question : {discussion_title}. Nous espérons que l'une d'entre elles vous a aidé à résoudre votre problème.\n\nSi tel était le cas, il serait appréciable pour les futurs membres de définir une meilleure réponse à votre question. Cela aidera les personnes ayant le même problème à trouver la réponse dont elles ont besoin, et c'est aussi une forme de remerciement aux membres qui vous ont aidé. Ils donnent leur temps bénévolement, il est donc encouragé de les inciter à continuer.\n\nVisitez la discussion ici : {discussion_url}, et sélectionnez le message le plus approprié comme meilleure réponse.\n\nMerci !\n"
             }
         }

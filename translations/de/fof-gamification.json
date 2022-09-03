@@ -2,7 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "Trends"
+                "hot_button": "Trends",
+                "votes_button": "Positive Stimmen"
             }
         }
     },
@@ -20,23 +21,43 @@
             },
             "notification": {
                 "upvote": "{username} hat deinen Beitrag Upgevoted",
-                "downvote": "{username} hat deinen Beitrag Downgevoted"
+                "downvote": "{username} hat deinen Beitrag Downgevoted",
+                "prefrences": {
+                    "vote": "Wenn einer meiner Beiträge mit Up/Down bewertet wird"
+                }
             },
             "user": {
-                "points": "Punkte: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": "{count, plural, one { {count} Punkt} other {{count} Punkte}}"
+                },
+                "rank": "{rank}",
+                "votes_link": "",
+                "points": "Punkte: {points}"
             },
             "modal": {
+                "downvotes_label": "Downvoter:",
                 "title": "Wähler",
                 "upvotes_label": "Upvoter:"
             },
-            "mod_item": "Wähler anzeigen"
+            "mod_item": "Wähler anzeigen",
+            "voters": {
+                "none": "Noch keine Wähler",
+                "label": "Noch keine Wähler",
+                "label_none": "Keine Wähler"
+            },
+            "post": {
+                "upvote_button": "Beitrag positiv bewerten",
+                "downvote_button": "Beitrag negativ bewerten"
+            }
         },
         "admin": {
             "permissions": {
                 "vote_label": "Upvote/Downvote Beiträge",
-                "see_votes_label": "Upvote/Downvotes von Beiträgen sehen",
-                "see_ranking_page": "Ranglisten Platz sehen"
+                "see_votes_label": "Siehe Up/Down-Stimmenzählung",
+                "see_voters_label": "Sehe, wer abgestimmt hat",
+                "see_ranking_page": "Ranglisten Platz sehen",
+                "upvote_notifications": "Benachrichtigungen über Upvote erhalten",
+                "downvote_notifications": "Benachrichtigungen über Downvote erhalten"
             },
             "page": {
                 "rankings": {
@@ -51,6 +72,9 @@
                     "custom_image_2": "Bild für Platz 2",
                     "custom_image_3": "Bild für Platz 3"
                 },
+                "alt_votes": {
+                    "icon_name": "Name des Alt-Layout-Symbols"
+                },
                 "votes": {
                     "points_title": "Punkte Platzhalter",
                     "points_placeholder": "Punkte: ",
@@ -58,17 +82,20 @@
                     "auto_upvote": "Beiträge automatisch upvoten, wenn sie veröffentlicht werden",
                     "rate_limit": "Erzwinge ein Abstimmungs-Limit (10 Sekunden)",
                     "discussion_page": "Gesamtzahl der Stimmen des ursprünglichen Beitrags in der Diskussionsliste anzeigen",
-                    "alternate_layout": "Alternatives Layout verwenden, um Upvotes/Downvotes anzuzeigen und/oder durchzuführen",
+                    "alternate_layout": "Alternatives Abstimmungslayout in der Diskussionsliste verwenden",
+                    "alternate_post_layout": "Alternatives Abstimmungslayout für Beiträge verwenden",
                     "title": "Stimmen",
                     "vote_color": "Abgestimmt Farbe",
                     "icon_name": "Upvote/Downvote Symbol",
-                    "icon_help": "Gebe ein beliebiges Font-Awesome-Icon mit den Endungen -up und -down ein. Beispiele: arrow, thumbs, chevron"
+                    "icon_help": "Gebe ein beliebiges Font-Awesome-Icon mit den Endungen -up und -down ein. Beispiele: arrow, thumbs, chevron",
+                    "upvotes_only": "Nur Upvoting zulassen",
+                    "first_post_only": "Stimmen nach oben/unten nur im ersten Beitrag einer Diskussion zulassen"
                 },
                 "save_settings": "Einstellungen speichern",
                 "convert": {
                     "button": "Gefällt-mirs in Upvotes konvertieren",
                     "help": "Konvertiere deine vorherigen flarum-ext-likes Gefällt-mirs in Upvotes und berechne wie sehr im Trend alle aktuellen Diskussionen liegen.",
-                    "converting": "Deine Gefällt-mirs werden nun konvertiert. Aktualisiere die Seite nach ein paar Minuten, um zu sehen, ob der Prozess abgeschlossen ist. (Die Konvertierung kann eine Weile dauern, je nachdem wie viele Gefällt-mirs es gibt)",
+                    "converting": "Deine Gefällt-mirs werden nun konvertiert. Aktualisiere die Seite nach ein paar Minuten, um zu sehen, ob der Prozess abgeschlossen ist. (Die Konvertierung kann eine Weile dauern, je nachdem wie viele Gefällt-mirs existieren)",
                     "converted": "Erfolgreich alle {number} Gefällt-mirs konvertiert"
                 },
                 "ranks": {
@@ -82,6 +109,14 @@
                         "name": "Name"
                     }
                 }
+            }
+        },
+        "email": {
+            "body": {
+                "postVoted": "Hallo {recipient_display_name},\n\n{actor_display_name} hat gerade über Deinen Beitrag in {discussion_title} abgestimmt.\n\nHier ansehen: {discussion_url}\n"
+            },
+            "subject": {
+                "postVoted": "Dein Beitrag wurde von {display_name} bewertet"
             }
         }
     }

@@ -1,0 +1,54 @@
+{
+    "clarkwinkelmann-who-read": {
+        "forum": {
+            "tooltip": {
+                "last-read-at": "{username} прочитал(а) {ago} дней назад",
+                "last-read-at-behind": "{username} последним(ей) прочитал(а) {ago} дней назад",
+                "last-read-at-up-to-date": "{username} прочитал(а) последнее сообщение {ago} дней назад"
+            },
+            "more": {
+                "show": "Показать следующие {count}",
+                "info": "И {count} еще"
+            },
+            "footer": {
+                "read-this-post": "{count, plural, =0 {Сообщение не прочитано} one {Один пользователь прочитал сообщение} other {# пользователей прочитали сообщение}}",
+                "read-no-further": "{count, plural, =0 {Все читали далее} one {Один пользователь не читал далее} other {# не читали далее}}",
+                "read-to-end": "{count, plural, =0 {Никто не прочитал до конца} one {Один пользователь прочитал до конца} other {# пользователей прочитало до конца}}"
+            },
+            "controls": {
+                "set-unread": "Пометить как непрочтенное",
+                "remove-unread": "Удалить непрочтенные"
+            },
+            "badges": {
+                "following": "=> flarum-subscriptions.forum.badge.following_tooltip",
+                "ignoring": "=> flarum-subscriptions.forum.badge.ignoring_tooltip",
+                "unread": "Помечено как непрочтенное"
+            },
+            "modal": {
+                "title": "Прочитавшие",
+                "up-to-this-post": "Пользователи, дочитавшие до этого сообщения",
+                "past-this-post": "Пользователи, прочитавшие далее этого сообщения",
+                "to-the-end": "Пользователи, прочитавшие до конца",
+                "behind": "Пользователи, не дочитавшие до конца"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "see-read": "Смотреть статус прочтения",
+                "see-subscription": "Смотреть статус подписки",
+                "see-unread": "Смотреть статус непрочтения других пользователей",
+                "mark-unread": ""
+            },
+            "settings": {
+                "show-in-discussion-list": "Показать читающих в списке дискуссий",
+                "show-in-hero": "Показать читающих на главной странице дискуссии",
+                "show-between-posts": "Показать статус прочтения между строк",
+                "show-count-of-readers-who-stopped": "Показать число пользователей, прекративших чтение, вместо общего числа прочтений, между сообщениями",
+                "hide-when-behind": "",
+                "max-visible": "",
+                "unread-icon": "Иконка жетона \"непрочтенное\"",
+                "only-groups": "Показать статус прочтения только для пользователей из указанных групп"
+            }
+        }
+    }
+}

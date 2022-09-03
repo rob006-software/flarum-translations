@@ -1,0 +1,34 @@
+{
+    "askvortsov-discussion-templates": {
+        "admin": {
+            "permissions": {
+                "manage_own_discussion_reply_templates": "Hallita vastauspohjia keskusteluihin",
+                "manage_all_reply_templates": "Hallita vastauspohjia kaikkiin keskusteluihin"
+            },
+            "settings": {
+                "no_tag_template": "Oletus pohja (käytetään kun aloitetaan keskustelu ilman avainsanoja):",
+                "append_template_on_tag_change": "Lisää pohja loppuun avainsanan vaihdossa?",
+                "append_template_on_tag_change_help": "Kun avainsanaa vaihdetaan, pitäisikö uuden avainsanan pohja lisätä loppuun vaikka käyttäjä on aloittanut kirjoittamisen? Asetuksesta huolimatta, jos avainsana vaihdetaan ja käyttäjä ei ole tehnyt muutoksia, pohja vaihtuu."
+            },
+            "tags": {
+                "tag_template_heading": "Keskustelupohja",
+                "tag_template_text": "Hallitse pohjia tämän avainsanan keskusteluille.",
+                "tag_template_button": "Muokkaa pohjaa"
+            },
+            "tag_template_modal": {
+                "title": "Keskustelupohja",
+                "customize_text": "Hallitse pohjia tämän avainsanan keskusteluille.",
+                "submit_button": "Tallenna pohja"
+            }
+        },
+        "forum": {
+            "discussion_controls": {
+                "reply_template_button": "Muokkaa vastauspohjaa"
+            },
+            "reply_template": {
+                "title": "Muokkaa vastauspohjaa",
+                "submit_button": "Tallenna vastauspohja"
+            }
+        }
+    }
+}

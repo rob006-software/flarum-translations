@@ -151,6 +151,11 @@
                     "confirm": "",
                     "event": ""
                 },
+                "convert_to_discussion": {
+                    "button": "",
+                    "confirm": "",
+                    "event": ""
+                },
                 "status": {
                     "new": {
                         "title": "",
@@ -192,7 +197,8 @@
                     "assign_me": "",
                     "remove_me": "",
                     "update_status": "",
-                    "close_ticket": ""
+                    "close_ticket": "",
+                    "update_note": ""
                 },
                 "new_tickets_dropdown": {
                     "title": "",
@@ -223,6 +229,13 @@
                     "assignees": {
                         "title": "",
                         "placeholder": ""
+                    },
+                    "private_note": {
+                        "title": "",
+                        "info": "",
+                        "tip": "",
+                        "placeholder": "",
+                        "edit_button": ""
                     }
                 },
                 "compose_ticket": {
@@ -242,7 +255,41 @@
                     "title": "",
                     "description": "",
                     "no_tickets": "",
-                    "all_tickets": ""
+                    "all_tickets": "",
+                    "selection_unfiltered": "",
+                    "selection_open": "",
+                    "selection_closed": "",
+                    "refresh": "",
+                    "filter": {
+                        "status": {
+                            "title": "",
+                            "filter_count": ""
+                        },
+                        "language": {
+                            "any": ""
+                        },
+                        "assignees": {
+                            "title": "",
+                            "search": "",
+                            "unassigned": ""
+                        }
+                    },
+                    "sort": {
+                        "newest": "",
+                        "oldest": "",
+                        "recent_activity": "",
+                        "least_recent": ""
+                    }
+                }
+            },
+            "notifications": {
+                "replied_to_ticket": {
+                    "name": "",
+                    "content": ""
+                },
+                "ticket_resolved": {
+                    "name": "",
+                    "content": ""
                 }
             }
         },

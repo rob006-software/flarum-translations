@@ -1,0 +1,47 @@
+{
+    "clarkwinkelmann-group-invitation": {
+        "forum": {
+            "title": "Siz {group} guruhiga qo'shilishga taklif qilindingiz!",
+            "generic-title": "Guruh taklifi",
+            "user": {
+                "already-connected": "Biz {group} guruhini {username} guruhiga qoʻshamiz. Boshqa foydalanuvchimi? <a>Boshqa akkountga kirish</a>.\n",
+                "not-connected": "Taklifni qabul qilish uchun <a>tizimga kiring</a>.",
+                "not-authorized": "Sizning joriy foydalanuvchi {username} guruhlarga qo‘shilish uchun ruxsatga ega emas. <a>Boshqa hisobga kiring</a>.",
+                "already-member": "Ajoyib yangilik, foydalanuvchi {username} allaqachon {group} guruhi a'zosi! Guruhga boshqa foydalanuvchi bilan qo'shilishni xohlaysizmi? <a>Boshqa hisobga kiring</a>.\n"
+            },
+            "invitation": {
+                "not-found": "Kechirasiz, bu guruh taklifnomasi topilmadi.",
+                "no-usages-left": "Bu guruh taklifnomasidan endi foydalanib bo‘lmaydi."
+            },
+            "apply": "Guruhga qo'shilish",
+            "success-alert": "Siz guruhga muvaffaqiyatli qo'shildingiz!"
+        },
+        "admin": {
+            "permissions": {
+                "use": "Guruh taklifnomasini ishlatish"
+            },
+            "settings": {
+                "head": {
+                    "code": "Kod",
+                    "group": "Guruh",
+                    "usage": "Ishlatish"
+                },
+                "placeholder": {
+                    "code": "Avtomatik tanlash",
+                    "group": "Tanlash...",
+                    "usage": "Cheksiz uchun bo'sh"
+                },
+                "empty": "Hozirgacha taklifnoma yaratilmadi.",
+                "unlimited": "Cheksiz",
+                "create": "Yaratish",
+                "delete": "O'chirish"
+            }
+        },
+        "api": {
+            "error": {
+                "not-found": "Taklifnoma kodi topilmadi",
+                "no-usages-left": "Taklifnomani endi ishlatib bo'lmaydi"
+            }
+        }
+    }
+}

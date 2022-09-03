@@ -18,7 +18,14 @@
                 "resetviews_button": "Zresetuj wyświetlenia"
             },
             "viewlist": {
-                "title": "Ostatnio oglądający"
+                "title": "Ostatnio oglądający",
+                "guest": "Gość"
+            },
+            "post": {
+                "viewed_by": "Wyświetlone przez: {users}.",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "Użytkownicy, którzy ostatnio przeglądali tę dyskusję"
             }
         },
         "admin": {
@@ -29,10 +36,13 @@
             "settings": {
                 "title": "Ustawienia liczby wyświetleń dyskusji",
                 "track_unique_label": "Zliczaj unikalne wyświetlania",
+                "track_guests": "Zliczaj gości",
                 "abbr_numbers_label": "Skróć liczbę wyświetleń (\"1k\" zamiast \"1000\")",
                 "show_filter_label": "Włącz sortowanie dyskusji na podstawie liczby wyświetleń",
                 "max_viewcount_label": "Liczba ostatnio oglądających wyświetlanych na liście",
-                "show_viewlist_label": "Włącz listę ostatnio oglądających"
+                "max_viewcount_text": "Ustawienie dotyczy zarówno listy w sidebarze jak i stopce",
+                "show_viewlist_label": "Włącz listę ostatnio oglądających",
+                "show_footer_viewlist_label": "Włącz listę ostatnio oglądających w stopce"
             }
         }
     }

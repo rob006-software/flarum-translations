@@ -1,0 +1,31 @@
+{
+    "flarum-flags": {
+        "forum": {
+            "flag_post": {
+                "reason_duplicate_label": "Duplicato"
+            }
+        }
+    },
+    "blomstra-flag-duplicates": {
+        "admin": {
+            "settings": {
+                "event_post_help": "Crea un post dell'evento nella discussione in cui è stato sollevato un flag \"duplicato\". Questo può informare gli utenti che la discussione è potenzialmente un duplicato di un'altra, senza dare loro accesso ai flag complessivi che sono stati sollevati.",
+                "event_post_label": "Evento Post"
+            }
+        },
+        "forum": {
+            "flags": {
+                "duplicate_discussion": "Discussione Doppia",
+                "reason_duplicate_label": "Discussione Doppia",
+                "reason_duplicate_text": "Questa discussione è la copia di un altra.",
+                "reason_discussion_deleted": "[discussione cancellata]",
+                "deselect_discussion_a11y_label": "Deseleziona discussione"
+            },
+            "post_stream": {
+                "flagged_duplicate_text": "{username} ha contrassegnato questa discussione come un potenziale duplicato di {duplicate}. Un moderatore indagherà a breve.",
+                "deleted_discussion": "[discussione cancellata]",
+                "not_found": "Non trovato"
+            }
+        }
+    }
+}
