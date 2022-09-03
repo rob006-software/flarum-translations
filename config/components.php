@@ -52,6 +52,9 @@ return [
 	'akr-chevereto' => [
 		'tag' => 'https://raw.githubusercontent.com/AKR-Developers/flarum-chevereto/1.0.1/resources/locale/en.yml',
 	],
+	'andreybrigunet-auth-easy4live' => [
+		'tag' => 'https://raw.githubusercontent.com/AndreyBrigunet/flarum-ext-auth-easy4live/v0.1.8/locale/en.yml',
+	],
 	'antoinefr-money' => [
 		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/v1.2.0/locale/en.yml',
 	],
