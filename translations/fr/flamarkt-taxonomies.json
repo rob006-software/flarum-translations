@@ -36,9 +36,9 @@
                     "countRequired": "Nombre de termes requis",
                     "countRequiredDescription": "Saisissez le nombre minimum et maximum de termes de cette taxonomie qui peuvent être appliqués à une discussion.\n",
                     "rangeSeparatorText": "à",
-                    "tagScope": "",
-                    "tagScopeDescription": "",
-                    "tagScopePlaceholder": ""
+                    "tagScope": "Uniquement dans les étiquettes spécifiées",
+                    "tagScopeDescription": "La taxonomie ne sera disponible que dans les étiquettes sélectionnées. Si vous ne sélectionnez qu'une seule étiquette, le filtre de la page d'accueil ne sera visible que sur cette étiquette spécifique.\n",
+                    "tagScopePlaceholder": "Saisissez du texte pour rechercher une étiquette…"
                 },
                 "delete": "=> flamarkt-taxonomies.ref.delete",
                 "deleteConfirmation": "Souhaitez-vous vraiment supprimer la taxonomie {name} ? Tous les termes de cette taxonomie seront supprimés. Les discussions utilisant cette taxonomie ne seront PAS supprimées.\n",
@@ -86,7 +86,7 @@
             "permissions": {
                 "heading": "Taxonomies",
                 "moderate": "Configurer les taxonomies disponibles",
-                "bypassTermCounts": "",
+                "bypassTermCounts": "Contourner les exigences du nombre de termes",
                 "seeOwnDiscussion": "Voir les taxonomies sur ses propres discussions",
                 "seeAnyDiscussion": "Voir les taxonomies sur toutes les discussions",
                 "editOwnDiscussion": "Modifier les taxonomies sur ses propres discussions",
@@ -115,7 +115,7 @@
             },
             "blog": {
                 "widget": {
-                    "title": ""
+                    "title": "Taxonomies"
                 }
             }
         },
@@ -128,15 +128,15 @@
                 "placeholder": "{count, plural, one {Choisir un terme…} other {Choisir # termes…}}",
                 "placeholderOptional": "Choisir…",
                 "custom": "Utiliser {value}",
-                "bypassTermCounts": "",
+                "bypassTermCounts": "Contourner les comptes de terme",
                 "submit": "Valider"
             }
         },
         "api": {
             "error": {
                 "invalid_filter_taxonomy": "Clé de filtre taxonomique « {type} » invalide pour « {slug} »",
-                "discussion_taxonomy_not_in_scope": "",
-                "cannot_use_taxonomies_on_model": ""
+                "discussion_taxonomy_not_in_scope": "La taxonomie « {slug} » n'est pas disponible dans la combinaison d'étiquettes actuelle",
+                "cannot_use_taxonomies_on_model": "Vous n'êtes pas autorisé à utiliser des taxonomies dans ce contexte"
             }
         },
         "ref": {
