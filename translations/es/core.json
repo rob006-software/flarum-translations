@@ -460,6 +460,9 @@
         },
         "lib": {
             "debug_button": "Depurar",
+            "alert": {
+                "dismiss_a11y_label": "Descartar la alerta"
+            },
             "badge": {
                 "hidden_tooltip": "Oculto"
             },
@@ -482,6 +485,7 @@
             },
             "error": {
                 "dependent_extensions_message": "No se puede desactivar {extension} hasta que se desactiven las siguientes extensiones dependientes: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "¡Caramba! Algo salió mal. Por favor, carga de nuevo la página y vuelve a intentarlo.",
                 "missing_dependencies_message": "No se puede activar {extension} hasta que se activen las siguientes extensiones dependientes: {extensions}",
                 "not_found_message": "¡Recórcholis! El recurso solicitado no fue encontrado.",
@@ -492,6 +496,10 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             },
             "modal": {
                 "close": "Cerrar"
@@ -567,6 +575,10 @@
                 "new_password_label": "Nueva contraseña",
                 "submit_button": "Restablecer la contraseña",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {

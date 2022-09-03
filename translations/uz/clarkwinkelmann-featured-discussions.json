@@ -2,53 +2,53 @@
     "clarkwinkelmann-featured-discussions": {
         "admin": {
             "settings": {
-                "schedule": "",
-                "duration": "",
-                "eventPost": ""
+                "schedule": "Taqvim (CRON sintaksida)",
+                "duration": "Davomiylik (sekundda)",
+                "eventPost": "Jadval o'zgartirilganda voqea postini yarating"
             },
             "permissions": {
-                "feature": ""
+                "feature": "Tanlangan muhokamalarni boshqaring"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
+                "title": "Xususiyat muhokamasi",
                 "fields": {
-                    "from": "",
-                    "until": ""
+                    "from": "Dan",
+                    "until": "Gacha"
                 },
                 "from": {
-                    "not": "",
-                    "next": "",
-                    "manual": ""
+                    "not": "Ko'rsatilmagan",
+                    "next": "Keyingi slot",
+                    "manual": "Sanani qo'lda kiritish"
                 },
                 "until": {
-                    "auto": "",
-                    "manual": ""
+                    "auto": "Avto",
+                    "manual": "Sanani qo'lda kiritish"
                 },
                 "action": {
-                    "cancel": "",
-                    "submit": ""
+                    "cancel": "Bekor qilish",
+                    "submit": "Yuborish"
                 }
             },
             "controls": {
-                "feature": ""
+                "feature": "Xususiyat muhokamasi"
             },
-            "badge": "",
+            "badge": "Tavsiya etilgan",
             "nav": {
-                "schedule": ""
+                "schedule": "Xususiyatlar jadvali"
             },
             "schedule": {
-                "help": "",
-                "drop-here": "",
-                "drop-error": "",
-                "empty": "",
-                "custom": ""
+                "help": "Jadvalni o'zgartirish uchun muhokamalarni sahifaga yoki boshqa oynadan sudrab olib tashlang. Jadvalni olib tashlash uchun 3 nuqtali menyudan foydalaning.\n",
+                "drop-here": "Rejalashtirish uchun shu yerga tushing",
+                "drop-error": "Muhokama havolasi yaroqsiz",
+                "empty": "Muhokamalar yo'q",
+                "custom": "Maxsus"
             },
             "post": {
-                "scheduled": "",
-                "unscheduled": "",
-                "auto": ""
+                "scheduled": "{from} dan {util} gacha ko‘rsatilishi rejalashtirilgan",
+                "unscheduled": "Endi namoyish qilish rejalashtirilmagan",
+                "auto": "(avto)"
             }
         }
     }

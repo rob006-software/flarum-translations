@@ -1,6 +1,17 @@
 {
     "justoverclock-auto-post-count-badge": {
         "admin": {
+            "settings": {
+                "tier": "Katman {tier} : Şuradan {from} şuraya {to} gönderiler",
+                "icon-manager": {
+                    "title": "Simge Yönetimi",
+                    "help_text": "=> core.ref.icon_text"
+                },
+                "label-manager": {
+                    "title": "Metin Etiket Yöneticisi",
+                    "help": "Katman adlarını özelleştirin"
+                }
+            },
             "levelOne": "Seviye 1 - \"Bebek\" için simgeyi değiştir",
             "levelOne-help": "1. seviye için göstermek istediğiniz fontawesome simgesini buraya yapıştırın (ör. \"fas fa-square\")",
             "levelTwo": "2. seviye - \"Buralarda Yeni\" için simgeyi değiştir",
@@ -20,7 +31,9 @@
             "less100post": "Konuşkan",
             "less300post": "Öğretmen",
             "less600post": "Canavar!",
-            "less1000post": "İş Bilen!"
+            "less1000post": "İş Bilen!",
+            "hasWritten": "{count, plural, one {# gönderi yazıldı} other {# gönderi yazıldı}}",
+            "posts": "gönderiler"
         }
     }
 }

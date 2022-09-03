@@ -2,31 +2,35 @@
     "fof-sitemap": {
         "admin": {
             "settings": {
-                "title": "",
-                "mode_label": "",
-                "mode_help": "",
-                "mode_help_runtime_label": "",
-                "mode_help_runtime": "",
-                "mode_help_schedule": "",
-                "mode_help_schedule_setup": "",
-                "mode_help_cache_disk_label": "",
-                "mode_help_cache_disk": "",
-                "mode_help_large": "",
-                "mode_help_multi_label": "",
-                "mode_help_multi": "",
-                "advanced_options_label": "",
-                "frequency_label": "",
+                "exclude_users": "Az összes felhasználói profil eltávolítása az oldaltérképből",
+                "exclude_users_help": "Alapértelmezetten minden vendégek számára látható felhasználó indexelve lesz",
+                "mode_label": "Működési mód",
+                "mode_help": "A fóruma számára helyes működési mód kiválasztása alapvető fontosságú.",
+                "mode_help_runtime_label": "Futásidejű mód",
+                "mode_help_runtime": "Kisebb fórumokhoz, melyek a legnagyobb valószínűség szerint közös kiszolgálású környezeteken futnak, és ahol a témák, felhasználók, címkék és lapok darabszáma 10 000 elemnél kevesebb. Az oldal minden egyes kérésre elő lesz állítva.",
+                "mode_help_schedule": "A következő módok a Flarum ütemezőjéhez adják a feladatukat.",
+                "mode_help_schedule_setup": "A Flarum ütemezőjének helyes beállítása nélkül a következő módok nem fognak futni. <a>További információkat itt talál</a>.",
+                "mode_help_large": "Az 50 000 az oldaltérképfájlok műszaki korlátja. Ha ennél több tárolandó eleme van, használja a következő beállítást!",
+                "mode_help_multi_label": "Több fájlos mód",
+                "mode_help_multi": "Nagyobb fórumokhoz, 10 000 elemtől kezdődően. Több elemből álló, tömörített oldaltérképfájlok lesznek előállítva, és a /public mappában lesznek tárolva.",
+                "advanced_options_label": "Speciális beállítások",
+                "frequency_label": "Milyen gyakran építse újra az ütemező a gyorsítótárazott oldaltérképet?",
+                "risky_performance_improvements": "Kockázatos teljesítménybeli fejlesztések engedélyezése",
+                "risky_performance_improvements_help": "Ezek a fejlesztések gyorsabbá teszik a CRON feladat futtatását a millió soros adatkészletek esetén, de elronthatják a kompatibilitást bizonyos bővítményekkel.",
                 "modes": {
-                    "runtime": "",
-                    "cache": "",
-                    "cache_disk": "",
-                    "multi_file": ""
+                    "runtime": "Futásidejű",
+                    "multi_file": "Több fájlos",
+                    "cache": "Gyorsítótár-alapú",
+                    "cache_disk": "Lemezalapú"
                 },
                 "frequency": {
-                    "hourly": "",
-                    "twice_daily": "",
-                    "daily": ""
-                }
+                    "hourly": "Óránként",
+                    "twice_daily": "Naponta kétszer",
+                    "daily": "Naponta"
+                },
+                "mode_help_cache_disk_label": "Gyorsítótár- vagy lemezalapú mód",
+                "mode_help_cache_disk": "Kis vagy közepes fórumokhoz, melyek a legnagyobb valószínűség szerint cronjobok és a Flarum ütemezőjének (lásd lent) futtatását engedélyező környezeteken futnak, és ahol a bejegyzések, felhasználók, címkék és lapok darabszáma 50 000 elemnél kevesebb.",
+                "title": "FoF Oldaltérkép"
             }
         }
     }

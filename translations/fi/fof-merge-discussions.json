@@ -3,12 +3,24 @@
         "forum": {
             "modal": {
                 "title": "Yhdistä keskustelut",
+                "ordering_heading": "Yhdistyksen järjestys",
+                "ordering_date_label": "Yhdistä viestit luontipäivämäärän mukaan",
+                "ordering_date_help": "Viestit keskustelussa on järjestetty yksittäisen viestin luontipäivän mukaan",
+                "ordering_suffix_label": "Lisää yhdistetyt viestit keskustelun loppuun",
+                "ordering_suffix_help": "Viestit jotka yhdistetään keskusteluun lisätään keskustelun loppuun",
+                "type_heading": "Yhdistämisen tyyppi",
                 "type_target_label": "Yhdistä keskusteluun",
                 "type_target_help_text": "Valitse keskustelu(t) jotka yhdistetään <b>{title}</b>.",
                 "type_from_label": "Yhdistä tämä keskustelu toiseen",
                 "type_from_help_text": "Yhdistä kohde keskustelu joka yhdistetään <b>{title}</b>.",
                 "load_preview_button": "Esikatselu",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
+            },
+            "notification": {
+                "discussion_merged": "Sinun keskustelu <b>{oldTitle}</b> yhdistettiin tähän keskusteluun {username} toimesta.",
+                "preferences": {
+                    "discussion_merged": "Joku yhdisti keskusteluni toiseen"
+                }
             },
             "discussion": {
                 "merge": "=> fof-merge-discussions.ref.merge"
@@ -20,17 +32,29 @@
         "admin": {
             "permissions": {
                 "merge_discussions_label": "Yhdistä keskustelut"
+            },
+            "settings": {
+                "search_result_help": "Kuinka monta keskustelua pitäisi palauttaa haettaessa `Yhdistä keskustelut` modaalissa.",
+                "search_result_label": "Yhdistä keskustelujen hakumäärä"
             }
         },
         "api": {
             "error": {
                 "merging_failed": "Keskusteluiden yhdistys epäonnistui.",
                 "updating_failed": "Keskustelujen tietojen päivitys epäonnistui.",
-                "deleting_failed": "Tyhjien keskusteluiden poisto epäonnistui."
+                "deleting_failed": "Tyhjien keskusteluiden poisto epäonnistui.",
+                "fixing_posts_number_failed": "Viestien numerointi epäonnistui.",
+                "fixing_posts_number_meta_failed": "Viestien määrien korjaus epäonnistui."
             }
         },
         "ref": {
             "merge": "Yhdistä"
+        },
+        "email": {
+            "merged": {
+                "body": "Hei {recipient_display_name},\n\nKeskustelusi {merged_discussion_title} yhdistettiin keskusteluun {discussion_title} käyttäjän {actor_display_name} toimesta.\n\nKatso täällä {discussion_url} .\n",
+                "subject": "Sinun keskustelu \"{merged_discussion_title}\" yhdistettiin"
+            }
         }
     }
 }

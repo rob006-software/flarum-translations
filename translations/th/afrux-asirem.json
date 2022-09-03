@@ -2,40 +2,40 @@
     "afrux-theme-base": {
         "admin": {
             "extensions": {
-                "title": "",
-                "description": ""
+                "title": "ส่วนขยาย",
+                "description": "รายการส่วนขยายที่ติดตั้งทั้งหมด"
             },
             "extension": {
                 "sections": {
-                    "content": "",
-                    "permissions": ""
+                    "content": "ตลการตั้งค่าหลัก",
+                    "permissions": "การอนุญาติ"
                 }
             },
             "header": {
-                "go_back": ""
+                "go_back": "กลับไปยังฟอรั่ม"
             },
             "users": {
                 "grid": {
                     "columns": {
                         "avatar": {
-                            "title": ""
+                            "title": "อวาตาร์"
                         }
                     }
                 }
             },
             "settings": {
-                "edit_footer_links": "",
-                "footer_description": "",
-                "footer_bottom_line": "",
-                "hero_banner": "",
-                "hero_banner_position": "",
+                "edit_footer_links": "เเก้ไขลิ้งส่วนท้าย",
+                "footer_description": "คำอธิบายส่วนท้าย",
+                "footer_bottom_line": "เส้นใต้ส่วนท้าย",
+                "hero_banner": "ภาพแบรนเนอร์ยินดีต้อนรับ",
+                "hero_banner_position": "ตำแหน่ง CSS Image Hero (ตัวอย่าง: 'center top' หรือ 'center 20%')",
                 "links_modal": {
-                    "add_group": "",
-                    "group_name": "",
-                    "group_title": "",
-                    "add_link": "",
-                    "link_url": "",
-                    "link_label": ""
+                    "add_group": "ลิ้งกลุ่มใหม่",
+                    "group_name": "ชื่อกลุ่มที่ {number}",
+                    "group_title": "หัวข้อกลุ่มลิ้ง",
+                    "add_link": "เพิ่มลิ้ง",
+                    "link_url": "ลิ้ง URL",
+                    "link_label": "ป้ายลิงค์"
                 }
             }
         }

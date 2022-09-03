@@ -94,7 +94,7 @@
                 "name": "名字",
                 "user-name": "最后命名人：",
                 "user-place": "最后放置人：",
-                "placement": "",
+                "placement": "当前位置",
                 "actions": "动作",
                 "edit": "编辑",
                 "no-user-name": "不重命名",
@@ -121,35 +121,35 @@
         },
         "admin": {
             "settings": {
-                "user": "",
+                "user": "用户",
                 "user-age": "用户必须活跃多久才能放置鱼（天）",
-                "user-probability": "",
-                "discussion": "",
+                "user-probability": "出现在用户个人主页的概率（%）",
+                "discussion": "主题帖",
                 "discussion-age": "一条鱼能放置在主题帖中几天",
-                "discussion-tags": "",
-                "discussion-tags-unavailable": "",
-                "discussion-tags-help": "",
+                "discussion-tags": "标签白名单",
+                "discussion-tags-unavailable": "当前设置不可用：标签扩展已禁用。",
+                "discussion-tags-help": "如不指定标签，即可选择符合时间范围内的任意主题帖。若指定了标签，则仅可选择此标签下的主题帖。概率用于设置其他选择都用了之后的被选中几率。白名单中最后一个标签将作为备用标签，请确保此标签下至少有一个有效的主题帖。\n",
                 "tags-header": {
-                    "tag": "",
-                    "probability": ""
+                    "tag": "标签",
+                    "probability": "概率"
                 },
                 "tags-control": {
-                    "choose": "",
-                    "add": "",
-                    "down": "",
-                    "up": "",
-                    "delete": ""
+                    "choose": "选择一个标签",
+                    "add": "添加到白名单",
+                    "down": "向下移动",
+                    "up": "向上移动",
+                    "delete": "移出白名单"
                 },
                 "tags-fallback": {
-                    "last-line": "",
-                    "single-line": ""
+                    "last-line": "撤销",
+                    "single-line": "至少需要两个标签"
                 },
-                "post": "",
+                "post": "帖子",
                 "post-age": "一条鱼能放在回复帖中几天",
-                "post-probability": "",
-                "general": "",
+                "post-probability": "出现在回复帖而非主题的概率（%）",
+                "general": "常规",
                 "time-to-place": "随机放置鱼之前允许放置的时间（分钟）",
-                "alert-round": "在首页上显示回合和持续时间的提醒",
+                "alert-round": "在首页上显示回合和持续时间提醒",
                 "animate-flip": "根据方向翻转鱼的图像",
                 "title": "捕鱼达人 - 设置"
             },
@@ -171,7 +171,7 @@
             "invalid-user-id": "用户似乎不存在，可能最近被删除了",
             "model-deleted": "无法将鱼放在已删除的主题贴或回复帖上",
             "model-private": "不能在私密主题中放置鱼",
-            "tag-not-allowed": "",
+            "tag-not-allowed": "您不可以把鱼放到这个标签中",
             "inactive-discussion": "不能将鱼放置在闲置了 {days} 天的帖子中",
             "inactive-post": "不能将鱼放置在 {days} 前创建的主题中",
             "inactive-user": "不能将鱼放在超过 {days} 天没上线的用户这里",

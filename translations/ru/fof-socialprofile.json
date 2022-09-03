@@ -2,12 +2,12 @@
     "fof-socialprofile": {
         "admin": {
             "permissions": {
-                "view": "Просмотр профиля в соцсетях",
-                "editOwn": "Править свой профиль соцсетей",
-                "editAny": "Править любой профиль соцсетей"
+                "view": "Смотреть социальный профиль",
+                "editOwn": "Редактировать свой социальный профиль",
+                "editAny": "Редактировать любой социальный профиль"
             },
             "settings": {
-                "allow_external_favicons_label": "Разрешить иконки с внешних сайтов"
+                "allow_external_favicons_label": "Разрешить значки внешних сайтов"
             }
         },
         "forum": {
@@ -21,8 +21,8 @@
                 "delete": "Удалить",
                 "deletetitle": "Удаление кнопки",
                 "save_disabled_fetching_favicons": "Идёт процесс извлечения иконок. Пожалуйста, подождите.",
-                "favicon": "Иконка-заголовок",
-                "grey_favicon": "Затемнить иконку"
+                "favicon": "Favicon",
+                "grey_favicon": "Серый Favicon"
             }
         }
     }

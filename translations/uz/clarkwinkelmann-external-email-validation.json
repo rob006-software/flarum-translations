@@ -2,25 +2,25 @@
     "clarkwinkelmann-external-email-validation": {
         "admin": {
             "settings": {
-                "method": "",
-                "uri": "",
-                "uri-help": "",
-                "body": "",
-                "body-help": "",
-                "headers": "",
-                "headers-help": "",
-                "use-response-status": "",
-                "use-response-status-help": "",
-                "response-success-key": "",
-                "response-success-key-help": "",
-                "default-error-message": "",
-                "default-error-message-help": "",
-                "response-error-key": "",
-                "response-error-key-help": ""
+                "method": "So'rov metodi",
+                "uri": "So'rov URI",
+                "uri-help": "Siz elektron pochta qiymati bilan almashtiriladigan qisqa kodlarni kiritishingiz mumkin, README-ga qarang.",
+                "body": "So'rov tanasi",
+                "body-help": "Siz elektron pochta qiymati bilan almashtiriladigan qisqa kodlarni kiritishingiz mumkin, README-ga qarang.",
+                "headers": "Sarlavhalarni so'rovi",
+                "headers-help": "Bir qatorga bitta sarlavha",
+                "use-response-status": "To'g'rilikni tekshirish uchun HTTP javobni ishlatish",
+                "use-response-status-help": "2xx javoblar haqiqiy deb hisoblanadi. 4xx javoblar haqiqiy emas deb hisoblanadi.",
+                "response-success-key": "Yaroqli holatga ega JSON atributiga yo'l",
+                "response-success-key-help": "<code>key1.key2.key3</code> formatidagi yo'l. Laravel <code>Arr::get</code> yordamchisi yordamida chiqariladi. Qiymat mantiqiy qiymatga o'tkaziladi. Faqat HTTP holatidan foydalanilmaydi. Javob noto'g'ri JSON bo'lsa, istisno chiqariladi.\n",
+                "default-error-message": "Standart xatolik xabari",
+                "default-error-message-help": "Agar boshqa xabar topilmasa, elektron pochta tekshiruvi muvaffaqiyatsiz tugagach, bu xabar foydalanuvchiga ko'rsatiladi. Agar sizga ushbu xabarni tarjima qilish kerak bo'lsa, maydonni bo'sh qoldiring va o'rnatilgan standart xato xabarini Lingvist bilan sozlang.\n",
+                "response-error-key": "Xato xabari bilan JSON atributiga yoʻl",
+                "response-error-key-help": "<code>key1.key2.key3</code> formatidagi yo'l. Laravel <code>Arr::get</code> yordamchisi yordamida chiqariladi. Agar ushbu kalit topilmasa, standart xato xabari ko'rsatiladi.\n"
             }
         },
         "api": {
-            "email-validation-error": ""
+            "email-validation-error": "Elektron pochta tashqi tekshiruvdan o'tmadi."
         }
     }
 }

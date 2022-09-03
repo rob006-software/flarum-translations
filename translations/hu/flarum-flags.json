@@ -2,39 +2,39 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "Hozzászólás jelentése",
-                "view_flags_label": "Jelentett hozzászólások megtekintése"
+                "flag_posts_label": "Bejegyzések jelentése",
+                "view_flags_label": "Jelentett bejegyzések megtekintése"
             },
             "settings": {
-                "flag_own_posts_label": "Engedélyezed a felhasználók számára, hogy megjelölhessék a saját hozzászólásukat",
-                "guidelines_url_label": "Közösségi Irányelvek URL",
-                "title": "Jelentés-beállítás"
+                "flag_own_posts_label": "Engedélyezés a felhasználók számára, hogy jelentsék a saját hozzászólásukat",
+                "guidelines_url_label": "Közösségi irányelvek URL-je",
+                "title": "Jelentések beállításai"
             }
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "Köszönjük, hogy jelentetted ezt a posztot! A moderátoraink hamarosan megvizsgálják az ügyet.",
+                "confirmation_message": "Köszönjük, hogy jelentette ezt a bejegyzést. A moderátoraink hamarosan megnézik.",
                 "dismiss_button": "=> core.ref.okay",
-                "reason_details_placeholder": "Részletek (opcionális)",
+                "reason_details_placeholder": "További részletek (nem kötelező)",
                 "reason_inappropriate_label": "Illetlen",
-                "reason_inappropriate_text": "Ez a poszt sértő, durva vagy sérti a <a>közösségi irányelveinket</a>.",
-                "reason_missing_message": "Kérünk, adj részletesebb leírást a jelentés okáról a moderátoraink számára.",
-                "reason_off_topic_label": "Témán kívüli",
-                "reason_off_topic_text": "Ez a poszt nem releváns ebben a témában.",
-                "reason_other_label": "Egyéb (kérlek részletezd)",
-                "reason_spam_label": "Ez a poszt spam.",
-                "reason_spam_text": "Ez a poszt reklám.",
+                "reason_inappropriate_text": "Ez a bejegyzés sértő, durva vagy sérti a <a>közösségi irányelveinket</a>.",
+                "reason_missing_message": "Adjon meg részletesebb leírást a moderátoraink számára.",
+                "reason_off_topic_label": "Nem témába vágó",
+                "reason_off_topic_text": "Ez a bejegyzés nem releváns a jelenlegi témában, és máshová kellene helyezni.",
+                "reason_other_label": "Egyéb (részletezze)",
+                "reason_spam_label": "Kéretlen tartalom",
+                "reason_spam_text": "Ez a bejegyzés egy reklám.",
                 "submit_button": "=> flarum-flags.ref.flag_post",
                 "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
                 "empty_text": "Nincs új jelentés",
-                "item_text": "{username} felhasználó a <em>{discussion}</em> témában",
+                "item_text": "{username} felhasználó a(z) <em>{discussion}</em> témában",
                 "title": "=> flarum-flags.ref.flagged_posts",
                 "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
-                "dismiss_flag_button": "Jelentés elutasítása",
+                "dismiss_flag_button": "Jelentés elvetése",
                 "flagged_by_text": "Jelentette: {username}",
                 "flagged_by_with_reason_text": "Jelentette: {username}, oka: {reason}"
             },
@@ -43,8 +43,8 @@
             }
         },
         "ref": {
-            "flag_post": "Poszt jelentése",
-            "flagged_posts": "Jelentett posztok"
+            "flag_post": "Bejegyzés jelentése",
+            "flagged_posts": "Jelentett bejegyzések"
         }
     }
 }

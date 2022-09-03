@@ -4,71 +4,71 @@
             "admin": {
                 "settings_page": {
                     "display_options": {
-                        "heading": "",
+                        "heading": "Ko'rinish sozlamalari",
                         "options": {
                             "position": {
-                                "above-tags-link": "",
-                                "below-tags-link": ""
+                                "above-tags-link": "\"Taglar\" tepasidagi tugma",
+                                "below-tags-link": "\"Taglar\" tagidagi tugma"
                             }
                         },
                         "labels": {
-                            "position": "",
-                            "top_spacer": "",
-                            "bottom_spacer": ""
+                            "position": "Havola manzili",
+                            "top_spacer": "Tepani ajratuvchini ko'rsatish",
+                            "bottom_spacer": "Pastni ajratuvchini ko'rsatish"
                         }
                     },
                     "link_table": {
-                        "heading": "",
-                        "add_link_btn": "",
-                        "confirm_delete": "",
+                        "heading": "Havolalarni moslashtirish",
+                        "add_link_btn": "Yangi havola qo'shish",
+                        "confirm_delete": "“{link}” havolasini oʻchirishni tasdiqlang",
                         "alert": {
-                            "fix_errors": ""
+                            "fix_errors": "O'zgarishlarni saqlashdan oldin yuqoridagi muammolarni hal qilishingiz kerak."
                         },
                         "table": {
                             "header": {
-                                "position": "",
-                                "icon": "",
-                                "text": "",
-                                "url": "",
-                                "internal": "",
-                                "delete": ""
+                                "position": "Joylashuv",
+                                "icon": "Havola belgisi",
+                                "text": "Havola teksti",
+                                "url": "Havola manzili",
+                                "internal": "URL Flarumga tegishlmi?",
+                                "delete": "O'chirish"
                             },
                             "placeholders": {
-                                "icon": "",
-                                "text": "",
-                                "url": ""
+                                "icon": "fas fa-link",
+                                "text": "Mening zo'r saytim",
+                                "url": "https://flarum.org"
                             },
                             "tooltips": {
-                                "move_up": "",
-                                "move_down": "",
-                                "icon_preview": ""
+                                "move_up": "Tepaga chiqish",
+                                "move_down": "Pastga tushish",
+                                "icon_preview": "Ikonkani ko'rish"
                             }
                         },
                         "save_btn": {
-                            "dirty": "",
-                            "saving": "",
-                            "saved": "",
-                            "fix_errors": ""
+                            "dirty": "Sozlamalarni saqlash",
+                            "saving": "O'zgarishlar saqlanmoqda...",
+                            "saved": "O'zgarishlar yoq",
+                            "fix_errors": "Saqlashdan oldin xatoliklarni to'g'irlash"
                         }
                     },
                     "new_link_modal": {
-                        "title": "",
+                        "title": "Yangi havola qo'shish",
                         "submit_btn": {
-                            "add": "",
-                            "loading": "",
-                            "fix_url": "",
-                            "invalid_form": ""
+                            "add": "Havolani qo'shish",
+                            "loading": "Havola qo'shilmoqda",
+                            "fix_url": "Xato URL",
+                            "invalid_form": "Barcha maydonlarni to'ldirish"
                         },
                         "labels": {
-                            "icon": "",
-                            "text": "",
-                            "url": "",
-                            "internal": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url",
+                            "internal": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.internal"
                         },
                         "placeholders": {
-                            "icon": "",
-                            "text": "",
-                            "url": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url"
                         }
                     }
                 }

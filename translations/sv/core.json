@@ -480,6 +480,9 @@
         },
         "lib": {
             "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "Hidden"
             },
@@ -502,6 +505,7 @@
             },
             "error": {
                 "dependent_extensions_message": "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "Hoppsan! Något gick fel. Vänligen ladda om sidan och försök igen.",
                 "missing_dependencies_message": "Cannot enable {extension} until the following dependencies are enabled: {extensions}",
                 "not_found_message": "Den begärda resursen hittades inte.",
@@ -512,6 +516,10 @@
             },
             "loading_indicator": {
                 "accessible_label": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             },
             "modal": {
                 "close": "Stäng"
@@ -587,6 +595,10 @@
                 "new_password_label": "Nytt lösenord",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {

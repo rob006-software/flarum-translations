@@ -13,7 +13,7 @@
                 "custom_styles_text": "Tùy chỉnh giao diện diễn đàn của bạn bằng cách thêm mã LESS/CSS để sử dụng trên style mặc định của Flarum.",
                 "dark_mode_label": "Chế độ tối",
                 "description": "Tùy chỉnh màu sắc, logo và các thiết lập khác của diễn đàn.",
-                "edit_css_button": "Sửa CSS",
+                "edit_css_button": "Chỉnh sửa CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Vui lòng nhập mã màu thập lục phân.",
@@ -429,8 +429,8 @@
             },
             "user": {
                 "avatar_remove_button": "=> core.ref.remove",
-                "avatar_upload_button": "Tải lên",
-                "avatar_upload_tooltip": "Tải lên ảnh đại diện",
+                "avatar_upload_button": "Tải ảnh lên",
+                "avatar_upload_tooltip": "Cập nhật ảnh đại diện",
                 "discussions_link": "=> core.ref.discussions",
                 "in_discussion_text": "Trong {discussion}",
                 "joined_date_text": "Đã tham gia {ago}",
@@ -460,6 +460,9 @@
         },
         "lib": {
             "debug_button": "Gỡ lỗi",
+            "alert": {
+                "dismiss_a11y_label": "Ẩn cảnh báo"
+            },
             "badge": {
                 "hidden_tooltip": "Bị ẩn"
             },
@@ -482,6 +485,7 @@
             },
             "error": {
                 "dependent_extensions_message": "Không thể vô hiệu hóa {extension} cho đến khi các tiện ích mở rộng phụ thuộc sau bị vô hiệu hóa: {extensions}",
+                "extension_initialiation_failed_message": "Không thể khởi chạy {extension}, hãy kiểm tra console của trình duyệt để biết thêm thông tin.",
                 "generic_message": "Úi! Đã xảy ra lỗi. Hãy tải lại trang và thử lại.",
                 "missing_dependencies_message": "Không thể kích hoạt {extension} cho đến khi các tiện ích mở rộng phụ thuộc sau được kích hoạt: {extensions}",
                 "not_found_message": "Không tìm thấy tài nguyên được yêu cầu.",
@@ -492,6 +496,10 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Trang # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Trang # - {forumName}}}"
             },
             "modal": {
                 "close": "Đóng"
@@ -567,6 +575,10 @@
                 "new_password_label": "Mật khẩu mới",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Trang # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Trang # - {forumName}}}"
             }
         },
         "api": {
@@ -596,7 +608,7 @@
             "change_password": "Đổi mật khẩu",
             "color": "Màu sắc",
             "confirm_password": "Xác nhận mật khẩu",
-            "confirm_email": "Enail xác thực",
+            "confirm_email": "Xác nhận email",
             "confirmation_email_sent": "Chúng tôi đã gửi email xác nhận đến {email}. Nếu không có, hãy kiểm tra trong mục Thư rác.",
             "custom_footer_text": "Thêm HTML để hiển thị bên dưới trang.",
             "custom_footer_title": "Chỉnh sửa Chân trang",

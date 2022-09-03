@@ -51,6 +51,7 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
+                "bypass_requirements": "",
                 "choose_primary_placeholder": "{count, plural, one {Elige una etiqueta principal} other {Elige # etiquetas primarias}}",
                 "choose_secondary_placeholder": "{count, plural, one {Elige 1 etiqueta más} other {Elige # más etiquetas}}",
                 "edit_title": "Editar las etiquetas para '{title}'",
@@ -72,10 +73,10 @@
                 "untagged_link": "Sin etiqueta"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} puso {tagsAdded} y quitó {tagsRemoved}.",
-                "added_tags_text": "{username} puso {tagsAdded}.",
+                "added_and_removed_tags_text": "{username} puso {tagsAdded} y quitó {tagsRemoved}",
+                "added_tags_text": "{username} puso {tagsAdded}",
                 "removed_tags_text": "{username} quitó {tagsRemoved}.",
-                "tags_text": "{count, plural, one {Etiqueta {tags}} other {Etiquetas {tags}}}"
+                "tags_text": "{count, plural, one {la etiqueta {tags}} other {las etiquetas {tags}}}"
             },
             "tag": {
                 "meta_description_text": "Todas las discusiones con la etiqueta {tag}"

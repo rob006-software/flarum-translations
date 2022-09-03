@@ -469,6 +469,9 @@
         },
         "lib": {
             "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "Escondido"
             },
@@ -491,6 +494,7 @@
             },
             "error": {
                 "dependent_extensions_message": "Não é possível desativar {extension} até que as seguintes extensões dependentes sejam desativadas: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "Opa! Algo deu errado. Por favor, recarregue a página e tente novamente.",
                 "missing_dependencies_message": "Não é possível ativar {extension} até que as seguintes dependências sejam ativadas: {extensions}",
                 "not_found_message": "O recurso solicitado não foi encontrado.",
@@ -501,6 +505,10 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             },
             "modal": {
                 "close": ""
@@ -576,6 +584,10 @@
                 "new_password_label": "Nova senha",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {

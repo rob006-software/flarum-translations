@@ -2,22 +2,34 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": ""
+                "view": "",
+                "viewLimited": ""
             },
             "header": {
                 "title": "විගණනය",
                 "free": "නොමිලේ",
                 "pro": "",
                 "upgrade": ""
+            },
+            "limitedSettings": {
+                "configure": "",
+                "title": "",
+                "introduction": "",
+                "requiresExtension": ""
+            },
+            "settings": {
+                "limitedIpAddress": ""
             }
         },
         "forum": {
             "link": {
+                "all-audit": "",
                 "discussion-audit": "",
                 "user-audit": "",
                 "actor-audit": ""
             },
             "modal": {
+                "all-title": "",
                 "discussion-title": "",
                 "user-title": "",
                 "actor-title": ""

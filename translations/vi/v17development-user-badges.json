@@ -8,10 +8,15 @@
             "update_category": "Cập nhật danh mục",
             "edit_category": "Chỉnh sửa danh mục",
             "nothing_here_yet": "Bạn chưa tạo bất kỳ huy hiệu hoặc danh mục nào.",
+            "show_badges_on_user_card": "Hiển thị huy hiệu trên thẻ người dùng",
+            "number_of_badges_on_user_card": "Số lượng huy hiệu",
+            "number_of_badges_on_user_card_help": "Số lượng huy hiệu hiển thị trên thẻ người dùng",
             "permissions": {
                 "badge_detail_users": "Có thể xem người dùng trên trang chi tiết huy hiệu",
                 "give_badge": "Gán huy hiệu cho người dùng",
-                "take_badge": "Gỡ huy hiệu khỏi người dùng"
+                "take_badge": "Gỡ huy hiệu khỏi người dùng",
+                "edit_own_card_badges": "Chỉnh sửa thẻ huy hiệu người dùng của chính mình",
+                "edit_card_badges": "Chỉnh sửa huy hiệu thẻ người dùng"
             },
             "confirm_dialog": {
                 "title": "Xác nhận",
@@ -27,7 +32,14 @@
                 "icon": "Icon huy hiệu",
                 "description": "Mô tả huy hiệu",
                 "visible": "Hiển thị",
-                "visible_description": "Bật huy hiệu này. Khi bị vô hiệu hóa, huy hiệu sẽ không hiển thị."
+                "visible_description": "Bật huy hiệu này. Khi bị vô hiệu hóa, huy hiệu sẽ không hiển thị.",
+                "is_image": "Huy hiệu là hình ảnh",
+                "is_image_description": "Sử dụng hình ảnh thay vì huy hiệu mặc định",
+                "image": "URL ảnh huy hiệu",
+                "image_placeholder": "Nhập URL ảnh huy hiệu",
+                "icon_color": "Màu icon",
+                "background_color": "Màu nền",
+                "label_color": "Màu chữ"
             },
             "badge_category": {
                 "name": "Tên danh mục",
@@ -72,6 +84,7 @@
             "user_no_badges": "Người dùng này chưa có bất kỳ huy hiệu nào.",
             "no_received": "Không có người dùng nào có huy hiệu này.",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "Lưu thay đổi",
             "badge": {
                 "badge": "Huy hiệu",
                 "badges": "Huy hiệu",
@@ -85,7 +98,15 @@
                 "received_on": "Nhận được lúc {date}",
                 "badge_details": "Chi tiết huy hiệu",
                 "earned_count": "{count, plural, one {<b># người dùng</b> có huy hiệu này} other {<b># người dùng</b> có huy hiệu này}}",
-                "earned_by_count": "{count, plural, one {<b># người dùng</b> có huy hiệu này} other {<b># người dùng</b> có huy hiệu này}}"
+                "earned_by_count": "{count, plural, one {<b># người dùng</b> có huy hiệu này} other {<b># người dùng</b> có huy hiệu này}}",
+                "others_link": "+{count} nữa"
+            },
+            "badges_in_card": {
+                "title": "Huy hiệu trên thẻ người dùng",
+                "manage_badges": "Quản lý huy hiệu",
+                "description": "Bạn có thể thay đổi các huy hiệu hiển thị trong thẻ người dùng của mình bằng một trong các huy hiệu khác của bạn. Nếu bạn không chọn bất kỳ, chúng sẽ được chọn tự động.",
+                "select_limit": "Bạn có thể chọn {limit, plural, one {<b>một huy hiệu</b>} other {<b># huy hiệu</b>}} để hiển thị trên thẻ người dùng của bạn.",
+                "hit_limit": "Chỉ có thể đặt <b> {limit, plural, one {<b>một huy hiệu</b>} other {<b># huy hiệu</b>}}</b> vào thẻ của bạn. Bỏ chọn một huy hiệu để nhường chỗ cho huy hiệu này."
             },
             "moderation": {
                 "remove_badge": "Gỡ huy hiệu",

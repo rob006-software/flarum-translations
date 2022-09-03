@@ -1,0 +1,34 @@
+{
+    "guest-posting": {
+        "forum": {
+            "alert": {
+                "create-account": "Tạo một tài khoản ngay bây giờ và đăng {count} bài viết của bạn!",
+                "create-account-votes-only": "Tạo một tài khoản ngay bây giờ và đăng {count} phiếu bầu của bạn!",
+                "create-account-posts-and-votes": "Tạo tài khoản ngay bây giờ và nhập {postCount} bài viết và {voteCount} phiếu bầu của bạn!",
+                "signup": "Đăng ký"
+            },
+            "modal": {
+                "import": "Nhập {count} bài viết của tôi",
+                "import-votes": "Nhập {postCount} bài viết của khách và {voteCount} phiếu bầu của tôi"
+            },
+            "badge": {
+                "guest": "Khách"
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "Thiết lập khách đăng bài",
+                "enableImport": "Cho phép nhập các bài viết hiện có trong quá trình đăng ký",
+                "sessionLifetime": "Thời gian tồn tại của phiên khách tính bằng giờ",
+                "usernames": "Tên người dùng ngẫu nhiên được sử dụng cho khách"
+            }
+        }
+    },
+    "core": {
+        "lib": {
+            "username": {
+                "deleted_text": "Khách"
+            }
+        }
+    }
+}

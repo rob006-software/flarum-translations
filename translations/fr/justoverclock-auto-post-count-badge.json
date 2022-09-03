@@ -1,26 +1,38 @@
 {
     "justoverclock-auto-post-count-badge": {
         "admin": {
-            "levelOne": "",
-            "levelOne-help": "",
-            "levelTwo": "",
-            "levelTwo-help": "",
-            "levelTree": "",
-            "levelTree-help": "",
-            "levelFour": "",
-            "levelFour-help": "",
-            "levelFive": "",
-            "levelFive-help": "",
-            "levelSix": "",
-            "levelSix-help": ""
+            "settings": {
+                "tier": "Échelon {tier} : de {from} à {to} messages",
+                "icon-manager": {
+                    "title": "Gestionnaire d'icônes",
+                    "help_text": "=> core.ref.icon_text"
+                },
+                "label-manager": {
+                    "title": "Gestionnaire de libellé de texte",
+                    "help": "Personnaliser les noms d'échelon"
+                }
+            },
+            "levelOne": "Changer l'icône pour l'échelon 1 - « Le bébé »",
+            "levelOne-help": "collez ici l'icône de fontawesome que vous souhaitez afficher pour l'échelon 1 (par exemple, « fas fa-square »)",
+            "levelTwo": "Changer l'icône pour l'échelon 2 - « Le débutant »",
+            "levelTwo-help": "collez ici l'icône de fontawesome que vous souhaitez afficher pour l'échelon 2 (par exemple, « fas fa-square »)",
+            "levelTree": "Changer l'icône pour l'échelon 3 - « Le bavard »",
+            "levelTree-help": "collez ici l'icône de fontawesome que vous souhaitez afficher pour l'échelon 3 (par exemple, « fas fa-square »)",
+            "levelFour": "Changer l'icône pour l'échelon 4 - « Le professeur »",
+            "levelFour-help": "collez ici l'icône de fontawesome que vous souhaitez afficher pour l'échelon 4 (par exemple, « fas fa-square »)",
+            "levelFive": "Changer l'icône pour l'échelon 5 - « Le monstre ! »",
+            "levelFive-help": "collez ici l'icône de fontawesome que vous souhaitez afficher pour l'échelon 5 (par exemple, « fas fa-square »)",
+            "levelSix": "Changer l'icône pour l'échelon 6 - « Le gourou ! »",
+            "levelSix-help": "collez ici l'icône de fontawesome que vous souhaitez afficher pour l'échelon 6 (par exemple, « fas fa-square »)"
         },
         "forum": {
-            "less10post": "",
-            "less50post": "",
-            "less100post": "",
-            "less300post": "",
-            "less600post": "",
-            "less1000post": ""
+            "less10post": "Le bébé",
+            "less50post": "Le débutant",
+            "less100post": "Le bavard",
+            "less300post": "Le professeur",
+            "less600post": "Le monstre !",
+            "less1000post": "Le gourou !",
+            "hasWritten": "{count, plural, one {# message écrit} other {# messages écrits}}"
         }
     }
 }

@@ -1,0 +1,18 @@
+{
+    "flarum-pusher": {
+        "admin": {
+            "pusher_settings": {
+                "app_cluster_label": "Cluster",
+                "app_id_label": "앱 ID",
+                "app_key_label": "앱 키",
+                "app_secret_label": "앱 시크릿",
+                "title": "Pusher 설정"
+            }
+        },
+        "forum": {
+            "discussion_list": {
+                "show_updates_text": "{count}개의 업데이트 된 게시물 표시|{count}개의 업데이트 된 게시물 표시"
+            }
+        }
+    }
+}

@@ -2,20 +2,20 @@
     "fof-recaptcha": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "secret_key_label": "",
-                "site_key_label": "",
-                "type_label": ""
+                "help_text": "Google reCAPTCHA hisob ma'lumotlarini <a> bu yerda </a> oling.",
+                "secret_key_label": "Yashirin kalit",
+                "site_key_label": "Sayt kaliti",
+                "type_label": "reCAPTCHA turi"
             },
             "permissions": {
-                "post_without_captcha": ""
+                "post_without_captcha": "Captchasiz postlar va muhokamalar yarating"
             }
         },
         "forum": {
-            "error": ""
+            "error": "reCAPTCHA-ni yuborishda xatolik yuz berdi. Qayta urinib ko'ring."
         }
     },
     "validation": {
-        "recaptcha": ""
+        "recaptcha": "reCAPTCHA tekshiruvi amalga oshmadi."
     }
 }

@@ -8,8 +8,9 @@
         "admin": {
             "settings": {
                 "modal": {
+                    "always_show_theme_toggle_on_header": "Luôn hiển thị nút chuyển đổi chủ đề trên đầu trang diễn đàn",
                     "default_theme": "Chủ đề mặc định",
-                    "default_theme_helper": "Chủ đề mặc định được đặt tự động cho người dùng và khách.",
+                    "default_theme_helper": "Chủ đề mặc định tự động được đặt cho người dùng mới, khách và những ai chưa đặt.",
                     "theme_auto": "=> fof-nightmode.ref.auto",
                     "theme_light": "=> fof-nightmode.ref.light",
                     "theme_dark": "=> fof-nightmode.ref.dark"
@@ -19,6 +20,9 @@
         "forum": {
             "day": "=> fof-nightmode.ref.light",
             "night": "=> fof-nightmode.ref.dark",
+            "header": {
+                "nightmode_button": "Đổi chủ đề"
+            },
             "user": {
                 "settings": {
                     "heading": "Chủ đề",
@@ -26,6 +30,7 @@
                     "description2": "Chế độ này liên kết với tài khoản và áp dụng cho tất cả các thiết bị của bạn trừ khi bạn bật nút bên dưới cài cho mỗi thiết bị.",
                     "device_specific_setting_checkbox": "Sử dụng cho mỗi thiết bị",
                     "device_specific_setting_checkbox_tooltip": "Lựa chọn chế độ bạn muốn để lưu cho mỗi thiết bị.",
+                    "auto_unsupported": "Trình duyệt của bạn không hỗ trợ chế độ tối tự động.",
                     "options": {
                         "auto": "=> fof-nightmode.ref.auto",
                         "day": "=> fof-nightmode.ref.light",
@@ -37,6 +42,16 @@
                         "night": "Bạn là một con cú đêm. Bạn thích lướt trên diễn đàn vào buổi tối, trong khi những con chim đang ngủ và con cáo đang đi săn. Hoặc bạn chỉ yêu thích chế độ tối hơn!"
                     }
                 }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "fofNightMode": "FoF Nightmode: Chủ đề màu để sử dụng theo mặc định",
+                "fofNightMode-help": "- tự động, 1 - chế độ sáng, 2 - chế độ tối",
+                "fofNightMode_perDevice": "FoF Nightmode: Sử dụng cho mỗi cài đặt thiết bị",
+                "fofNightMode_perDevice-help": "Sử dụng tùy chọn trên từng thiết bị để cài đặt chế độ tối"
             }
         }
     }

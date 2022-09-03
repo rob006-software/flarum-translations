@@ -10,8 +10,8 @@
                 "random_username_label": "Rastgele Kullanıcı Adları",
                 "random_username_help": "Bu, kayıt sırasında \"kullanıcı adı\" girişini gizler ve bunun yerine rastgele bir sayı kullanır. Ayrıca 'takma ad' alanını zorunlu hale getirecektir. Bu, yalnızca \"Kayıt sırasında takma adların ayarlanmasına izin ver\" etkinleştirildiğinde geçerli olacaktır.",
                 "regex_label": "Doğrulama için normal ifade",
-                "set_on_registration_label": "Kayıt sırasında takma adların ayarlanmasına izin ver",
-                "unique_label": "Eşsiz kullanıcı adları gerekli mi?"
+                "set_on_registration_label": "Kayıt sırasında kullanıcı adlarının ayarlanmasına izin ver",
+                "unique_label": "Benzersiz kullanıcı adları gerektir"
             },
             "wrong_driver": "Bu uzantının çalışabilmesi için <a><strong>Temel Öğeler</strong></a> sayfasındaki görünen ad sürücüsünü \"kullanıcı adı\" olarak seçmelisiniz."
         },
@@ -25,7 +25,7 @@
             },
             "edit_user": {
                 "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
-                "nicknames_text": "Kullanıcı adı"
+                "nicknames_text": "=> flarum-nicknames.ref.nickname"
             },
             "settings": {
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
@@ -36,7 +36,7 @@
         },
         "ref": {
             "change_nickname": "Görünür Adı Değiştir",
-            "nickname": "Takma ad"
+            "nickname": "Takma Ad"
         }
     }
 }

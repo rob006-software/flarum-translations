@@ -11,7 +11,7 @@
                 "random_username_help": "This will hide the `username` input on registration, and use a random number instead. It will also make the `nickname` field mandatory. This will only take effect if \"Allow setting nicknames on registration\" is enabled.",
                 "regex_label": "Regular expression for validation",
                 "set_on_registration_label": "Allow setting nicknames on registration",
-                "unique_label": "Require unique nicknames?"
+                "unique_label": "Require unique nicknames"
             },
             "wrong_driver": "You must select \"nickname\" as the display name driver on the <a><strong>Basics Page</strong></a> for this extension to take effect."
         },
@@ -25,7 +25,7 @@
             },
             "edit_user": {
                 "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
-                "nicknames_text": "Nickname"
+                "nicknames_text": "=> flarum-nicknames.ref.nickname"
             },
             "settings": {
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"

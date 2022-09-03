@@ -121,9 +121,7 @@
                     "button_label": "",
                     "no_readme": "",
                     "title": ""
-                },
-                "confirm_uninstall": "",
-                "uninstall_button": ""
+                }
             },
             "header": {
                 "get_help": "",
@@ -306,8 +304,7 @@
                 "replied_text": "{username} atbildēja {ago}",
                 "started_text": "{username} izveidoja {ago}",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
-                "mark_as_read_tooltip": "Atzīmēt kā izlasītu"
+                "unread_replies_a11y_label": ""
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -460,6 +457,9 @@
         },
         "lib": {
             "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "Noslēpts"
             },
@@ -482,6 +482,7 @@
             },
             "error": {
                 "dependent_extensions_message": "Nevar atspējot {extension} kamēr sekojošie paplašinājumi ir deaktivizēti: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "Ups! Kaut kas nogāja greizi. Lūdzu, atkārtoti ielādējiet lapu un mēģiniet vēlreiz.",
                 "missing_dependencies_message": "Nevar iespējot {extension}, kamēr nav iespējoti šie paplašinājumi: {extensions}",
                 "not_found_message": "Pieprasītais resurss netika atrasts.",
@@ -492,6 +493,10 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             },
             "modal": {
                 "close": ""

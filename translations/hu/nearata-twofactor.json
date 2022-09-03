@@ -2,38 +2,41 @@
     "nearata-twofactor": {
         "admin": {
             "settings": {
-                "generate_backups": ""
+                "generate_backups": "Biztonsági tartalékkódok előállítása."
+            },
+            "permissions": {
+                "can_enable_twofactor": ""
             }
         },
         "forum": {
-            "invalid_twofa_code": "",
-            "invalid_twofa_setup": "",
+            "invalid_twofa_code": "Érvénytelen kétlépcsős kód.",
+            "invalid_twofa_setup": "A jelszó vagy a jelkód érvénytelen.",
             "log_in_modal": {
-                "submit_button": "",
-                "otp_placeholder": "",
-                "title": ""
+                "submit_button": "Bejelentkezés",
+                "otp_placeholder": "Kétlépcsős jelkód",
+                "title": "Kétlépcsős hitelesítés"
             },
-            "setup_button": "",
+            "setup_button": "Kétlépcsős hitelesítés",
             "setup_modal": {
                 "backups": {
-                    "copy_button": "",
-                    "download_button": "",
-                    "download_file_format": "",
-                    "modal_message": ""
+                    "copy_button": "Másolás",
+                    "download_button": "Letöltés",
+                    "download_file_format": "{website_title} | {website_url}\n\nTartsa ezeket a biztonsági tartalékkódokat valami biztonságos, de elérhető helyen.\n\nKÓDOK LISTÁJA\n\n{codes}\n\n* Minden biztonsági tartalékkódot csak egyszer használhat.\n* Ezeket a kódokat a felsorolás sorrendjében KELL használni.\n* Ezek a kódok ekkor lettek előállítva: {date}.\n",
+                    "modal_message": "Tartsa ezeket a helyreállítási kódokat biztonságos helyen. Ha elveszíti a kétlépcsős hitelesítéshez engedélyezett eszközét, akkor ezek az egyszer használatos kódok a felsorolás sorrendjében használhatók a fiókjába történő bejelentkezéshez.\n"
                 },
-                "close_button": "",
-                "disabled": "",
-                "enabled": "",
-                "enter_code_disable": "",
-                "enter_code_manually": "",
-                "passcode_placeholder": "",
-                "password_placeholder": "",
-                "scan_qr": "",
+                "close_button": "Bezárás",
+                "disabled": "A kétlépcsős hitelesítés le van tiltva.",
+                "enabled": "A kétlépcsős hitelesítés engedélyezve van.",
+                "enter_code_disable": "Adja meg a kódot a kétlépcsős hitelesítés letiltásához.",
+                "enter_code_manually": "Adja meg inkább a kulcsot kézzel",
+                "passcode_placeholder": "Kétlépcsős jelkód",
+                "password_placeholder": "Jelszó",
+                "scan_qr": "Olvassa be ezt a QR-kódot a kétlépcsős hitelesítő eszközével a fiókja beállításához.",
                 "submit_button": {
-                    "enable": "",
-                    "disable": ""
+                    "enable": "Engedélyezés",
+                    "disable": "Letiltás"
                 },
-                "title": ""
+                "title": "Kétlépcsős hitelesítés"
             }
         }
     }

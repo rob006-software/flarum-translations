@@ -8,13 +8,23 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "{username} keelas sinu kasutaja {timeReadable}",
+                "user_suspended_indefinite_text": "",
                 "user_unsuspended_text": "{username} lubas sinu kasutaja"
             },
+            "suspension_info": {
+                "dismiss_button": "",
+                "indefinite": "",
+                "limited": "",
+                "title": ""
+            },
             "suspend_user": {
+                "display_message": "",
                 "indefinitely_label": "Keelatud määramata ajaks",
                 "limited_time_days_text": " päevaks",
                 "limited_time_label": "Keelatud määratud ajaks...",
                 "not_suspended_label": "Pole keelatud",
+                "placeholder_optional": "",
+                "reason": "",
                 "status_heading": "Keelamise staatus",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Keela {username}"
@@ -24,6 +34,17 @@
             },
             "user_controls": {
                 "suspend_button": "Keela"
+            }
+        },
+        "email": {
+            "no_reason_given": "",
+            "suspended": {
+                "subject": "",
+                "body": ""
+            },
+            "unsuspended": {
+                "subject": "",
+                "body": ""
             }
         }
     }

@@ -13,18 +13,18 @@
                     "title": "",
                     "help_text": "",
                     "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "approval_label": "Goedkeuren",
+                    "rejected_label": "Afwijzen",
+                    "submit_button": "Verstuur",
+                    "reason_title": "Reden voor afwijzing",
+                    "success": "Beslissing verstuurd.",
+                    "name": "{name} heeft een verzoek ingediend om zijn/haar bijnaam te veranderen in \"{requestedName}\""
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
-                    "dismiss_button": "",
-                    "new_name": "",
+                    "title": "Bijnaam Wijziging Verzoek",
+                    "approved": "Jouw bijnaam wijzigingsverzoek is geaccepteerd",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Jouw bijnaam is succesvol veranderd naar: {name}",
                     "rejected": "",
                     "reason": "",
                     "resubmit": ""

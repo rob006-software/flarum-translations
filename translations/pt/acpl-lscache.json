@@ -1,10 +1,15 @@
 {
     "acpl-lscache": {
         "admin": {
-            "public_cache_ttl_label": "",
+            "public_cache_ttl_label": "TTL por defeito do cache público",
             "public_cache_ttl_help": "",
+            "clearing_cache_listener_label": "",
+            "serve_stale_label": "",
+            "serve_stale_help": "",
             "purge_on_discussion_update_label": "",
             "purge_on_discussion_update_help": "",
+            "cache_exclude_label": "",
+            "cache_exclude_help": "",
             "purge_all": "",
             "purge_all_success": ""
         }

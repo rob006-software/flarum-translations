@@ -10,60 +10,60 @@
         "emails": {
             "post_warned": {
                 "subject": "{warner_display_name} waarschuwde je met {strikes, plural, one {# strike} other {# strikes}} in {discussion_title}",
-                "body": ""
+                "body": "Hoi {warnee_display_name}!\n\n{warner_display_name} heeft je gewaarschuwd met {strikes, plural, one {# strike} other {# strikes}} in {discussion_title}\n\nDe volgende reden was opgegeven:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} heeft je gewaarschuwd met {strikes, plural, one {# strike} other {# strikes}}",
+                "body": "Hey {warnee_display_name}!\n\n{warner_display_name} heeft je gewaarschuwd met {strikes, plural, one {# strike} other {# strikes}}\n\nDe volgende reden was opgegeven:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "",
-                "warning_no_strikes_text": ""
+                "warning_text": "{strikes, plural, one {Je bent gewaarschuwd met # strike door {mod_username}} other {Je bent gewaarschuwd met # strikes door {mod_username}}}",
+                "warning_no_strikes_text": "Je bent gewaarschuwd door {mod_username} (geen strikes)"
             },
             "post": {
-                "warning": "",
-                "warning_no_strikes": ""
+                "warning": "{strikes, plural, one {Gewaarschuwd met # strike door {mod_username}} other {Gewaarschuwd met # strikes door {mod_username}}}",
+                "warning_no_strikes": "Zonder strikes gewaarschuwd door {mod_username}"
             },
             "post_controls": {
-                "warning_button": ""
+                "warning_button": "Waarschuw gebruiker"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Moderator Waarschuwingen"
             },
             "settings": {
-                "warning_notification_label": ""
+                "warning_notification_label": "Een moderator geeft mij een waarschuwing"
             },
             "validation": {
-                "public_comment_required": "",
-                "invalid_strike_count": ""
+                "public_comment_required": "Geef een openbare opmerking op.",
+                "invalid_strike_count": "Het aantal strikes moet een geheel getal zijn tussen 0 en 5."
             },
             "warning_controls": {
-                "delete_button": "",
-                "restore_button": "",
-                "delete_forever_button": ""
+                "delete_button": "Verwijderen",
+                "restore_button": "Herstellen",
+                "delete_forever_button": "Permanent verwijderen"
             },
             "warning_list": {
-                "add_button": "",
-                "no_warnings": "",
-                "warnings": "",
-                "warnings_no_strikes": ""
+                "add_button": "Nieuwe waarschuwing",
+                "no_warnings": "Het lijkt er op dat hier geen waarschuwingen zijn.",
+                "warnings": "{strikes, plural, one {Moderator Waarschuwingen: # Strike Ontvangen} other {Moderator Waarschuwingen: # Strikes Ontvangen}}",
+                "warnings_no_strikes": "Moderator Waarschuwingen: Geen Strikes Ontvangen"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
-                "public_comment": "",
-                "private_comment": "",
-                "linked_post": ""
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> strike, {time}} other {<strong>#</strong> strikes, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> strike, {time} <strong>(verwijderd)</strong>} other {<strong>#</strong> strikes, {time} <strong>(verwijderd)</strong>}}",
+                "public_comment": "Waarschuwing",
+                "private_comment": "Zichtbare opmerkingen voor moderators",
+                "linked_post": "Gelinkt bericht"
             },
             "warning_modal": {
-                "confirmation_message": "",
-                "heading": "",
-                "strikes_heading": "",
-                "public_comment_heading": "",
-                "private_comment_heading": "",
-                "submit_button": ""
+                "confirmation_message": "Je waarschuwing is opgeslagen. Mogelijk moet u de pagina vernieuwen om deze te zien.",
+                "heading": "Waarschuw <strong>{username}</strong>",
+                "strikes_heading": "Hoeveel strikes moeten er worden toegepast?",
+                "public_comment_heading": "Why is <strong>{username}</strong> receiving these warnings? Deze opmerkingen zijn zichtbaar voor zowel de gebruikers als andere moderators.",
+                "private_comment_heading": "Waarom ontvangt <strong>{username}</strong> deze waarschuwingen? Deze opmerkingen zijn ALLEEN zichtbaar voor andere moderators.",
+                "submit_button": "Waarschuwing opslaan"
             }
         }
     }

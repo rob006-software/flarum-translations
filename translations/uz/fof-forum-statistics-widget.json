@@ -2,24 +2,24 @@
     "fof-forum-statistics-widget": {
         "forum": {
             "navbar": {
-                "widget_title": "",
-                "discussions_count": "",
-                "posts_count": "",
-                "users_count": "",
-                "latest_member": ""
+                "widget_title": "Forum statistikasi",
+                "discussions_count": "Muhokamalar: {Muhoakamalar soni}",
+                "posts_count": "Postlar: {postlar soni}",
+                "users_count": "A'zolar: {foydalanuvchilar soni}",
+                "latest_member": "Eng so'nggi a'zo "
             }
         },
         "admin": {
             "settings": {
-                "widget_ignore_private_discussions_label": "",
-                "widget_order_label": "",
-                "widget_helper_text": ""
+                "widget_ignore_private_discussions_label": "Shaxsiy muhokamalarga e'tibor bermang",
+                "widget_order_label": "Vidjet tartibi",
+                "widget_helper_text": "Flarum forumingizning sidenav bo'limida ushbu vidjet o'rnini sozlash uchun ushbu sozlamani tahrirlang. Bu raqam qanchalik baland bo'lsa, bu vidjet sidenav elementlari ro'yxatida shunchalik yuqori bo'ladi (bu qiymat ijobiy yoki salbiy bo'lishi mumkin)."
             },
             "permissions": {
-                "view_discussions_count_label": "",
-                "view_posts_count_label": "",
-                "view_users_count_label": "",
-                "view_lastest_member_label": ""
+                "view_discussions_count_label": "Forum statistikasi vidjet muhokamalari sonini koʻring",
+                "view_posts_count_label": "Forum statistikasi vidjeti xabarlari sonini koʻring",
+                "view_users_count_label": "Forum statistikasi vidjeti foydalanuvchilari sonini koʻring",
+                "view_lastest_member_label": "Forum statistikasi vidjetining soʻnggi aʼzosini koʻring"
             }
         }
     }

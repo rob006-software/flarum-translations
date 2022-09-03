@@ -12,20 +12,20 @@
             "modal_resetviews": {
                 "title": "Aufrufzähler zurücksetzen",
                 "submit_button": "Ja, alle entfernen",
-                "label": "{count, plural, one {Dies wird # Diskussionsaufruf entfernen.} other {Dies wird # Diskussionsaufrufe entfernen.}} Fortfahren?"
+                "label": "{count, plural, one {Dies wird {count} Ansicht dieser Diskussion entfernen. Fortfahren?} other {Dadurch werden {count} Aufrufe dieser Diskussion entfernt. Fortsetzen?}}"
             },
             "discussion_controls": {
                 "resetviews_button": "Aufrufzähler zurücksetzen"
             },
             "viewlist": {
                 "title": "Letzte Aufrufe",
-                "guest": ""
+                "guest": "Gast"
             },
             "post": {
-                "viewed_by": "",
-                "you": "",
-                "others_link": "",
-                "modal_title_text": ""
+                "viewed_by": "{users} haben sich das angesehen.",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "Benutzer, die diese Diskussion zuletzt angesehen haben"
             }
         },
         "admin": {
@@ -36,13 +36,13 @@
             "settings": {
                 "title": "Diskussionsaufrufzähler Einstellungen",
                 "track_unique_label": "Einzelne Aufrufe mitzählen",
-                "track_guests": "",
+                "track_guests": "Gäste verfolgen",
                 "abbr_numbers_label": "Aufrufzahlen abkürzen",
                 "show_filter_label": "Beliebt/Unbeliebt Sortierung anzeigen",
                 "max_viewcount_label": "Maximale Einträge in Aufrufliste",
-                "max_viewcount_text": "",
+                "max_viewcount_text": "Dies gilt für die Fußzeilenansichtsliste und die Seitenleistenansichtsliste",
                 "show_viewlist_label": "Aufrufliste aktivieren",
-                "show_footer_viewlist_label": ""
+                "show_footer_viewlist_label": "Ansichtsliste für die Fußzeile aktivieren"
             }
         }
     }

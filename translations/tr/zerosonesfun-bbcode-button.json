@@ -2,15 +2,29 @@
     "flarum-bbcode-button": {
         "admin": {
             "settings": {
-                "codelabel": "Özel BBCode",
-                "codedesc": "Aşağıdaki BBCode açılış ve kapanış etiketlerini yazın ve kaydedin.",
-                "poslabel": "İmleç Yerleşimi",
-                "posdesc": "İmlecin varsayılan olarak açılış ve kapanış etiketleri arasında olmasını istersiniz. Bunu gerçekleştirmek için bu sayıyı ayarlayın. Sayı ne kadar büyükse, imleç o kadar sağda görünecektir."
+                "codelabel": "BBC Kodu Etiketleri",
+                "codedesc": "Açılış ve kapanış BBCode etiketlerini yazın.",
+                "iconlabel": "Düğme Simgesi",
+                "icondesc": "Font Awesome sınıf adını girin.",
+                "codelabel2": "",
+                "codedesc2": "",
+                "iconlabel2": "",
+                "icondesc2": "",
+                "codelabel3": "",
+                "codedesc3": "",
+                "iconlabel3": "",
+                "icondesc3": "",
+                "introlabel": "Özel BBCode Düğmesi [ ]",
+                "introdesc": "Kullanmaya çalışmadan önce bu ayarları kurun ve kaydedin. Bu uzantı, düzenleyici araç çubuğuna yeni bir düğme ekler. Birinin özel bir BBCode eklemesine izin vermek için yapılmıştır. Ancak, hayal gücünüzü kullanmaktan çekinmeyin. Özel Markdown veya ortak bir ifade eklemek için kullanın.",
+                "poslabel": "Düğmeye Bastıktan Sonra İmleç Yerleşimi",
+                "posdesc": "Sayı ne kadar büyükse, imleç o kadar sağda görünecektir."
             }
         },
         "forum": {
             "composer": {
-                "bbcode_tooltip": "BBCode ekle"
+                "bbcode_tooltip": "BBCode ekle",
+                "bbcode_tooltip2": "",
+                "bbcode_tooltip3": ""
             }
         }
     }

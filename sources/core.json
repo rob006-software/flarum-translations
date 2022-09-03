@@ -121,9 +121,7 @@
                     "button_label": "README",
                     "no_readme": "This extension does not appear to have a README file",
                     "title": "{extName} documentation"
-                },
-                "confirm_uninstall": "Uninstalling will remove all database entries and assets related to the extension. Are you sure you want to continue?",
-                "uninstall_button": "Uninstall"
+                }
             },
             "header": {
                 "get_help": "Get Help",
@@ -306,8 +304,7 @@
                 "replied_text": "{username} replied {ago}",
                 "started_text": "{username} started {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# reply} other {# replies}}",
-                "unread_replies_a11y_label": "{count, plural, one {# unread reply} other {# unread replies}}. Mark unread {count, plural, one {reply} other {replies}} as read.",
-                "mark_as_read_tooltip": "Mark as Read"
+                "unread_replies_a11y_label": "{count, plural, one {# unread reply} other {# unread replies}}. Mark unread {count, plural, one {reply} other {replies}} as read."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -460,6 +457,9 @@
         },
         "lib": {
             "debug_button": "Debug",
+            "alert": {
+                "dismiss_a11y_label": "Dismiss alert"
+            },
             "badge": {
                 "hidden_tooltip": "Hidden"
             },
@@ -482,6 +482,7 @@
             },
             "error": {
                 "dependent_extensions_message": "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}",
+                "extension_initialiation_failed_message": "{extension} failed to initialize, check the browser console for further information.",
                 "generic_message": "Oops! Something went wrong. Please reload the page and try again.",
                 "missing_dependencies_message": "Cannot enable {extension} until the following dependencies are enabled: {extensions}",
                 "not_found_message": "The requested resource was not found.",
@@ -492,6 +493,10 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Page # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
             },
             "modal": {
                 "close": "Close"

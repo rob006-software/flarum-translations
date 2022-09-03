@@ -7,11 +7,11 @@
             "settings": {
                 "max_label": "Maximale Länge für Nicknamen",
                 "min_label": "Minimale Länge für Nicknamen",
-                "random_username_label": "",
-                "random_username_help": "",
+                "random_username_label": "Zufällige Benutzernamen",
+                "random_username_help": "Dadurch wird die Eingabe von 'Benutzername' bei der Registrierung ausgeblendet und stattdessen eine Zufallszahl verwendet. Außerdem wird das Feld 'Nickname' obligatorisch. Dies wird nur wirksam, wenn 'Einstellung von Spitznamen bei der Registrierung zulassen' aktiviert ist.",
                 "regex_label": "Regulärer Ausdruck zur Validierung",
-                "set_on_registration_label": "",
-                "unique_label": "Nicknamen müssen einzigartig sein"
+                "set_on_registration_label": "Erlaube das Einstellen von Spitznamen bei der Registrierung",
+                "unique_label": "Eindeutige Spitznamen benötigt"
             },
             "wrong_driver": "Du musst \"nickname\" als den Anzeigenamen-Treiber in den <a><strong>Grundeinstellungen</strong></a> auswählen, damit diese Erweiterung einen Effekt hat."
         },
@@ -25,18 +25,18 @@
             },
             "edit_user": {
                 "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
-                "nicknames_text": "Nickname"
+                "nicknames_text": "=> flarum-nicknames.ref.nickname"
             },
             "settings": {
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
             },
             "sign_up": {
-                "nickname_placeholder": ""
+                "nickname_placeholder": "=> flarum-nicknames.ref.nickname"
             }
         },
         "ref": {
             "change_nickname": "Nickname ändern",
-            "nickname": ""
+            "nickname": "Nickname"
         }
     }
 }

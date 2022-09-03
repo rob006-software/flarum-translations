@@ -28,8 +28,7 @@
                 "use_alt_ui": "Alternatywny układ",
                 "use_alt_ui_help": "Wyświetl opcje do ustawiania najlepszej odpowiedzi w stopce posta",
                 "documentation": "Dokumentacja",
-                "introduction": "W ustawieniach <code><a>flarum/tags</a></code> wybierz, które tagi mają obsługiwać najlepsze odpowiedzi i, opcjonalnie, które tagi powinny obsługiwać przypomnienia. Gdy tag ma włączoną funkcję najlepszych odpowiedzi, przydziel uprawnienia dla każdej grupy użytkowników, którzy mogą wybierać odpowiedzi (własne dyskusje, cudze dyskusje). Uprawnienia mogą być przypisane globalnie (dla każdego tagu z włączoną opcją najlepszej odpowiedzi), lub dla każdego tagu osobno.\n",
-                "remind_tag_ids": "Aby wysyłać przypomnienia tylko dla dyskusji w konkretnych tagach, wpisz tutaj ich ID (ID tagów rozdzielone przecinkami)"
+                "introduction": "W ustawieniach <code><a>flarum/tags</a></code> wybierz, które tagi mają obsługiwać najlepsze odpowiedzi i, opcjonalnie, które tagi powinny obsługiwać przypomnienia. Gdy tag ma włączoną funkcję najlepszych odpowiedzi, przydziel uprawnienia dla każdej grupy użytkowników, którzy mogą wybierać odpowiedzi (własne dyskusje, cudze dyskusje). Uprawnienia mogą być przypisane globalnie (dla każdego tagu z włączoną opcją najlepszej odpowiedzi), lub dla każdego tagu osobno.\n"
             },
             "edit_tag": {
                 "qna_label": "Włącz możliwość ustawiania najlepszej odpowiedzi w tym tagu",
@@ -51,7 +50,8 @@
                 "awarded": "Twój post został wybrany jako najlepsza odpowiedź przez {username}",
                 "preferences": {
                     "awarded_best_answer": "Ktoś oznaczył mój post jako najlepsza odpowiedź",
-                    "best_answer_in_discussion": "Ktoś wybrał najlepszą odpowiedź w dyskusji, w której uczestniczyłem"
+                    "best_answer_in_discussion": "Ktoś wybrał najlepszą odpowiedź w dyskusji, w której uczestniczyłem",
+                    "select_best_answer": "Automatyczne przypomnienie o wybraniu najlepszej odpowiedzi w dyskusji, którą rozpocząłem"
                 }
             },
             "index": {
@@ -68,6 +68,9 @@
             },
             "composer": {
                 "titlePlaceholder": "Tytuł pytania"
+            },
+            "user": {
+                "best-answer-count": "{count, plural, one {{count} najlepsza odpowiedź} few {{count} najlepsze odpowiedzi} other {{count} najlepszych odpowiedzi}}"
             }
         },
         "email": {
@@ -77,8 +80,8 @@
                 "select": "Czy uzyskałeś odpowiedź na swoje pytanie?"
             },
             "body": {
-                "awarded": "Witaj {recipient_display_name},\n\nŚwietna robota, {actor_display_name} właśnie wybrał Twój post jako najlepsza odpowiedź w \"{discussion_title}\". Dzięki za pomoc!\n\nAby zobaczyć dyskusję, kliknij poniższy link:\n{discussion_url}\n",
-                "ba-set": "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie wybrał najlepszą odpowiedź w dyskusji \"{discussion_title}\", w której uczestniczyłeś.\n\nAby zobaczyć dyskusję, kliknij poniższy link:\n{discussion_url}\n",
+                "awarded": "Witaj {recipient_display_name},\n\nŚwietna robota, {actor_display_name} właśnie wybrał Twój post jako najlepsza odpowiedź w \"{discussion_title}\". Dzięki za pomoc!\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n",
+                "ba-set": "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie wybrał najlepszą odpowiedź w dyskusji \"{discussion_title}\", w której uczestniczyłeś.\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n",
                 "select": "Witaj {recipient_display_name},\n\nTylko sprawdzamy. Powinieneś mieć już mnóstwo odpowiedzi na swoje pytanie \"{discussion_title}\". Mamy nadzieję, że jedna z nich pomogła Ci rozwiązać Twój problem.\n\nJeśli tak, wybranie najlepszej odpowiedzi bardzo pomogłoby innym użytkownikom mającym podobny problem - dzięki temu łatwiej będzie im znaleźć odpowiedź, której poszukują. Jest to też forma podziękowania użytkownikom, którzy Ci pomogli - poświęcają swój czas charytatywnie, dobrze byłoby dać im znać, że ich wysiłek nie poszedł na marne.\n\nAby przejść do dyskusji i wybrać najbardziej odpowiedni post jako najlepszą odpowiedź, kliknij poniższy link:\n{discussion_url}\n\nDzięki!\n"
             }
         }

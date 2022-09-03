@@ -2,10 +2,20 @@
     "davwheat": {
         "ads": {
             "admin": {
+                "permissions": {
+                    "bypassAds": "Ẩn quảng cáo khỏi diễn đàn"
+                },
                 "settings": {
+                    "admin_bypass_warning": "Do bản chất của hệ thống quyền của Flarum, các thành viên của nhóm Quản trị viên sẽ\nkhông thấy bất kỳ quảng cáo nào trên diễn đàn. Nếu bạn muốn kiểm tra quảng cáo của mình, vui lòng truy cập diễn đàn\ntrong cửa sổ Ẩn danh hoặc Riêng tư.\n",
                     "enabled_locations": "Vị trí quảng cáo",
-                    "code_input": "Mã quảng cáo cho \"{for}\"",
+                    "script_urls": "Tuỳ chỉnh URL script",
+                    "add_script": "Mới",
+                    "script_deletion": "Để xoá script, để trống và nhấn 'Lưu thay đổi'.",
+                    "code_input": "Mã HTML",
                     "code_input_disabled": "Kích hoạt vị trí này để chỉnh sửa mã HTML.",
+                    "js_input": "Mã Javascript",
+                    "js_input_disabled": "Bật vị trí này để chỉnh sửa mã JS.",
+                    "use_adsense": "Sử dụng AdSense",
                     "pub_id": "ID nhà xuất bản AdSense",
                     "between_posts_gap": "Giữa các bài viết: khoảng cách giữa các quảng cáo",
                     "allow_after_placeholder": "Giữa các bài viết: hiển thị quảng cáo sau khi trả lời",
@@ -19,7 +29,7 @@
                         "fix_errors": "Vui lòng khắc phục các lỗi phía trên trước khi lưu các thay đổi",
                         "code_has_script": "Một hoặc nhiều quảng cáo của bạn chứa thẻ script, không được phép. Hãy xóa những thứ này và thử lại."
                     },
-                    "warning": "Mã quảng cáo <b>CHỈ</b> được chứa thẻ <code>ins</code> chứ không được chứa các thẻ script nào khác. Script sẽ tự động chạy bởi tiện ích này.\n"
+                    "warning": "<b>Hướng dẫn:</b>\n<br></br>\n<b>HTML</b> - Chèn nội dung HTML cho quảng cáo vào hộp này. Không chèn bất kỳ thẻ {script} vào hộp này. Chúng sẽ không hoạt động.\n<br></br>\n<b>JS</b> - Chèn mã Javascript tùy chỉnh để chèn vào thẻ script. Cái này <b>KHÔNG</b> bao gồm thẻ {script}.\n"
                 }
             },
             "lib": {

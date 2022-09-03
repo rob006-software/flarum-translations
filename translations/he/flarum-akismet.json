@@ -2,8 +2,13 @@
     "flarum-akismet": {
         "admin": {
             "akismet_settings": {
-                "api_key_label": "API Key",
-                "title": "הגדרות Akismet"
+                "api_key_label": "מפתח API",
+                "title": "הגדרות Akismet",
+                "delete_blatant_spam_label": "הסרה אוטומטית של ספאם בוטה",
+                "delete_blatant_spam_help": "אם Akismet מזהה הודעה כספאם בוטה, במקום דיווח הודעה, ההודעה תוסר אוטומטית"
+            },
+            "permissions": {
+                "bypass_akismet": "עקיפת Akismet"
             }
         },
         "forum": {

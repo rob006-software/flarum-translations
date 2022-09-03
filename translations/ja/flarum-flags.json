@@ -2,48 +2,48 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "報告投稿",
-                "view_flags_label": "報告のリストを表示"
+                "flag_posts_label": "投稿の報告",
+                "view_flags_label": "報告された投稿の確認"
             },
             "settings": {
-                "flag_own_posts_label": "ユーザーが自分の投稿を報告できるようにする",
-                "guidelines_url_label": "コミュニティのガイドラインの URL",
+                "flag_own_posts_label": "ユーザーが自身の投稿を報告することを許可する",
+                "guidelines_url_label": "コミュニティガイドラインURL",
                 "title": "報告設定"
             }
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "報告をありがとう、管理者はすぐにそれを処理します。",
+                "confirmation_message": "報告ありがとうございます。モデレーターが確認します。",
                 "dismiss_button": "=> core.ref.okay",
-                "reason_details_placeholder": "詳細な説明（オプション）",
-                "reason_inappropriate_label": "わいせつな",
-                "reason_inappropriate_text": "この投稿には攻撃的、虐待的な言葉が含まれているか、<a>フォーラムコード</a>に違反しています",
-                "reason_missing_message": "いくつかの詳細をお知らせください。",
-                "reason_off_topic_label": "オフトピック",
-                "reason_off_topic_text": "この投稿は、現在のディスカッショントピックとは無関係であり、別の場所に移動する必要があります。",
-                "reason_other_label": "その他（具体）",
+                "reason_details_placeholder": "詳細情報 (任意)",
+                "reason_inappropriate_label": "不適切な内容",
+                "reason_inappropriate_text": "この投稿は悪意のある表現や暴力的表現、あるいは<a>ガイドライン</a>に違反した内容を含んでいる",
+                "reason_missing_message": "モデレーターに詳細な情報を提供してください。",
+                "reason_off_topic_label": "関係がない内容",
+                "reason_off_topic_text": "この投稿は現在のスレッドに関係性がなく、別の場所に移動する必要がある",
+                "reason_other_label": "その他 (具体的に記入してください)",
                 "reason_spam_label": "スパム",
-                "reason_spam_text": "この投稿は広告です。",
+                "reason_spam_text": "この投稿は荒らし、宣伝目的に該当する内容を含んでいる",
                 "submit_button": "=> flarum-flags.ref.flag_post",
                 "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
-                "empty_text": "報告なし",
-                "item_text": "<em>{discussion}</em> 内の {username} による投稿",
+                "empty_text": "報告された投稿はありません",
+                "item_text": "{username} in <em>{discussion}</em>",
                 "title": "=> flarum-flags.ref.flagged_posts",
                 "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
-                "dismiss_flag_button": "レポートフラグを元に戻す",
-                "flagged_by_text": "{username} による報告：",
-                "flagged_by_with_reason_text": "{username} による報告：{reason}"
+                "dismiss_flag_button": "報告を却下する",
+                "flagged_by_text": "{username} が報告しました",
+                "flagged_by_with_reason_text": "{username} が {reason} であると報告しました"
             },
             "post_controls": {
                 "flag_button": "報告"
             }
         },
         "ref": {
-            "flag_post": "報告投稿",
+            "flag_post": "投稿を報告",
             "flagged_posts": "報告された投稿"
         }
     }

@@ -2,32 +2,32 @@
     "clarkwinkelmann-predefined-avatars": {
         "admin": {
             "settings": {
-                "predefinedAvatarsOnly": "",
-                "predefinedAvatarsOnlyHelp": "",
-                "predefinedAvatarsNoRemove": "",
-                "predefinedAvatarsNoRemoveHelp": "",
-                "predefinedAvatarsDefault": "",
-                "predefinedAvatarsDefaultHelp": "",
-                "predefinedAvatars": "",
-                "predefinedAvatarsHelp": "",
+                "predefinedAvatarsOnly": "Csak előre meghatározott profilképek engedélyezése",
+                "predefinedAvatarsOnlyHelp": "Eltávolítja az egyéni profilkép feltöltésének lehetőségét, hacsak nincs meg az alábbi engedélye.",
+                "predefinedAvatarsNoRemove": "Profilkép nélküli fiókok megakadályozása",
+                "predefinedAvatarsNoRemoveHelp": "Azon felhasználók, akik egyéni vagy előre beállított profilképet használnak, nem fognak tudni visszatérni az eredeti „monogramos” profilképhez, hacsak nem rendelkeznek az alábbi engedéllyel.",
+                "predefinedAvatarsDefault": "Alapértelmezett profilkép",
+                "predefinedAvatarsDefaultHelp": "Az új felhasználókra vonatkozik regisztrációkor.",
+                "predefinedAvatars": "Elérhető profilképek",
+                "predefinedAvatarsHelp": "A fájlok nem kerülnek átméretezésre vagy átalakításra. Feltöltés előtt méretezze át, tömörítse és exportálja a megfelelő formátumba. A Flarum 100×100-as PNG vagy JGP-képekkel működik a legjobban, de egyéni CSS használatával más felbontásokat is kihasználhat.\n",
                 "defaultOptions": {
-                    "none": "",
-                    "first": "",
-                    "random": ""
+                    "none": "Nincs profilkép",
+                    "first": "Első profilkép a listáról",
+                    "random": "Véletlenszerű profilkép a listából"
                 }
             },
             "permissions": {
-                "setPredefinedAvatar": "",
-                "setCustomAvatarAlways": ""
+                "setPredefinedAvatar": "Profilkép választása az előre megadott listából",
+                "setCustomAvatarAlways": "Egyéni profilkép beállítása bármikor"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "imageAlt": ""
+                "title": "Válasszon profilképet",
+                "imageAlt": "Profilkép"
             },
             "editor": {
-                "setPredefinedAvatar": ""
+                "setPredefinedAvatar": "Válasszon egy előre meghatározott profilképet"
             }
         }
     }

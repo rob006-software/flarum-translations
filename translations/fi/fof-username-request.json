@@ -2,98 +2,98 @@
     "fof-username-request": {
         "admin": {
             "permissions": {
-                "moderate_requests": "",
-                "request_nickname": "",
-                "request_username": ""
+                "moderate_requests": "Hyväksy käyttäjätunnus/nimimerkki vaihtopyyntöjä",
+                "request_nickname": "Pyydä nimimerkin vaihtoa",
+                "request_username": "Pyydä käyttäjätunnuksen vaihtoa"
             }
         },
         "forum": {
             "nickname_modals": {
                 "action": {
-                    "title": "",
-                    "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "title": "=> fof-username-request.ref.nickname_change_request",
+                    "help_text": "Ota huomioon, että pyydetty nimimerkki noudattaa keskustelualueen sääntöjä.",
+                    "decision_title": "Päätös",
+                    "approval_label": "Hyväksy",
+                    "rejected_label": "Hylkää",
+                    "submit_button": "Lähetä",
+                    "reason_title": "Hylkäyksen syy",
+                    "success": "Päätös lähetetty.",
+                    "name": "{name} on pyytänyt nimimerkin vaihtoa seuraavaksi \"{requestedName}\""
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
-                    "dismiss_button": "",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
-                    "resubmit": ""
+                    "title": "Nimimerkin vaihtopyyntö",
+                    "approved": "Nimimerkkisi vaihtopyyntö on hyväksytty",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Nimimerkkisi on onnistuneesti vaihdettu. Uusi nimimerkki: {name}",
+                    "rejected": "Nimimerkkisi vaihtopyyntö on hylätty",
+                    "reason": "Syy hylkäykselle: <i>\"{reason}\"</i>.",
+                    "resubmit": "Tällä hetkellä voit tehdä uuden nimimerkin vaihtopyynnön tilisi asetuksista mikäli näin haluat."
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
-                    "submit_button": "",
-                    "delete_button": "",
-                    "confirmation_message": "",
-                    "dismiss_button": "",
-                    "deleted": ""
+                    "title": "Pyydä nimimerkin vaihtoa",
+                    "current_request": "Olet jo pyytänyt nimimerkin vaihtoa seuraavaksi: \"{name}\". Voit joko päivittää sitä tai poistaa sen.",
+                    "submit_button": "Lähetä pyyntö",
+                    "delete_button": "Poista pyyntö",
+                    "confirmation_message": "Nimimerkkisi vaihtopyyntö on lähetetty ja se odottaa hyväksyntää.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Nimimerkin vaihtopyyntö poistettu."
                 }
             },
             "username_modals": {
                 "action": {
-                    "title": "",
-                    "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "title": "=> fof-username-request.ref.username_change_request",
+                    "help_text": "Ota huomioon, että pyydetty käyttäjätunnus noudattaa keskustelualueen sääntöjä.",
+                    "decision_title": "Päätös",
+                    "approval_label": "Hyväksy",
+                    "rejected_label": "Hylkää",
+                    "submit_button": "Lähetä",
+                    "reason_title": "Syy hylkäykselle",
+                    "success": "Päätös lähetetty.",
+                    "name": "{name} on pyytänyt käyttäjätunnuksen vaihtoa. Uusi käyttäjätunnus: \"{requestedName}\""
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
-                    "dismiss_button": "",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
-                    "resubmit": ""
+                    "title": "Käyttäjätunnuksen vaihtopyyntö",
+                    "approved": "Teidän käyttäjätunnuksen vaihtopyyntö on hyväksytty",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Käyttäjätunnuksesi on onnistuneesti vaihdettu. Uusi käyttäjätunnus: {name}",
+                    "rejected": "Käyttäjätunnuksesi vaihtopyyntö hylättiin",
+                    "reason": "Syy hylkäykselle: <i>\"{reason}\"</i>.",
+                    "resubmit": "Tällä hetkellä voitte tehdä uuden käyttäjätunnuksen vaihtopyynnön profiilisi asetuksista mikäli näin haluatte."
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
-                    "submit_button": "",
-                    "delete_button": "",
-                    "confirmation_message": "",
-                    "dismiss_button": "",
-                    "deleted": ""
+                    "title": "Pyydä käyttäjätunnuksen vaihtoa",
+                    "current_request": "Olette jo pyytäneet käyttäjätunnuksen vaihtoa seuraavaksi: \"{name}\". Voitte päivittää sitä tai poistaa sen.",
+                    "submit_button": "Lähetä pyyntö",
+                    "delete_button": "Poista pyyntö",
+                    "confirmation_message": "Teidän käyttäjätunnuksen vaihtopyyntö on lähetetty ja odottaa hyväksyntää.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Käyttäjätunnuksen vaihtopyyntö poistettu."
                 }
             },
             "pending_requests": {
-                "empty_text": "",
-                "nickname_item_text": "",
-                "nickname_exerpt": "",
-                "tooltip": "",
-                "title": "",
-                "username_item_text": "",
-                "username_exerpt": ""
+                "empty_text": "Nimen vaihtopyyntöjä ei löytynyt.",
+                "nickname_item_text": "{name} pyysi nimimerkin vaihtoa",
+                "nickname_exerpt": "Pyydetty nimimerkki: {requestedName}",
+                "tooltip": "=> fof-username-request.ref.name_change_requests",
+                "title": "=> fof-username-request.ref.name_change_requests",
+                "username_item_text": "{name} pyysi käyttäjätunnuksen vaihtoa",
+                "username_exerpt": "Pyydetty käyttäjätunnus: {requestedName}"
             },
             "settings": {
-                "nickname_request_button": "",
-                "username_request_button": ""
+                "nickname_request_button": "Vaihda nimimerkki",
+                "username_request_button": "Vaihda käyttäjätunnus"
             },
             "user": {
-                "name_history_link": ""
+                "name_history_link": "Nimien historia"
             }
         },
         "ref": {
-            "name_change_request": "",
-            "name_change_requests": "",
-            "nickname_change_request": "",
-            "nickname_change_requests": "",
-            "username_change_request": "",
-            "username_change_requests": ""
+            "name_change_request": "Nimen vaihtopyyntö",
+            "name_change_requests": "Nimen vaihtopyynnöt",
+            "nickname_change_request": "Nimimerkin vaihtopyyntö",
+            "nickname_change_requests": "Nimimerkkien vaihtopyynnöt",
+            "username_change_request": "Käyttäjätunnuksen vaihtopyyntö",
+            "username_change_requests": "Käyttäjätunnuksien vaihtopyynnöt"
         }
     }
 }

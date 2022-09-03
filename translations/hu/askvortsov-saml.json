@@ -2,42 +2,42 @@
     "askvortsov-saml": {
         "admin": {
             "header": {
-                "text": ""
+                "text": "Győződjön meg róla, hogy a metaadatok webcíme vagy a metaadatok kitöltésre kerülnek-e."
             },
-            "title": "",
+            "title": "SAML2 SSO beállítása",
             "labels": {
-                "idp_metadata_url": "",
-                "idp_metadata": "",
-                "only_option": "",
-                "nameid_format": "",
-                "slo": "",
-                "authn_requests_signed": "",
-                "logout_request_signed": "",
-                "logout_response_signed": "",
-                "sign_metadata": "",
-                "want_assertions_encrypted": "",
-                "want_assertions_signed": "",
-                "want_messages_signed": "",
-                "x509_cert": "",
-                "x509_key": "",
+                "idp_metadata_url": "Személyazonosság-szolgáltató metaadatainak webcíme (XML helyett)",
+                "idp_metadata": "Személyazonosság-szolgáltató metaadatainak XML-je (webcím helyett)",
+                "only_option": "SAML2 SSO használata az egyetlen bejelentkezési lehetőségként?",
+                "nameid_format": "NameID formátum",
+                "slo": "Engedélyezi az SLO-t? Ha az IDP ezt nem támogatja, akkor ennek nincs hatása.",
+                "authn_requests_signed": "Hitelesítési kérések aláírása?",
+                "logout_request_signed": "Kijelentkezési kérések aláírása?",
+                "logout_response_signed": "Kijelentkezési válaszok aláírása?",
+                "sign_metadata": "Metaadatok aláírása?",
+                "want_assertions_encrypted": "Állítások titkosítása?",
+                "want_assertions_signed": "Állítások aláírása?",
+                "want_messages_signed": "Üzenetek aláírása?",
+                "x509_cert": "x509 tanúsítvány (az aláíráshoz szükséges, ha be van kapcsolva)",
+                "x509_key": "x509 privát kulcs (az aláíráshoz szükséges, ha be van kapcsolva)",
                 "sync_attributes": ""
             },
             "options": {
                 "nameid_format": {
-                    "persistent": "",
-                    "emailAddress": "",
-                    "unspecified": ""
+                    "persistent": "Állandó (javasolt, ha támogatott)",
+                    "emailAddress": "E-mail (alapértelmezett, akkor használja, ha az állandó nem támogatott)",
+                    "unspecified": "Nincs megadva"
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_saml_button": "",
-                "open_popup": "",
-                "enable_popups": ""
+                "with_saml_button": "SAML2 SSO",
+                "open_popup": "Kattintson ide a bejelentkezéshez",
+                "enable_popups": "Felugró ablakok engedélyezése a bejelentkezéshez/regisztrációhoz"
             },
             "sign_up": {
-                "post_saml_title": ""
+                "post_saml_title": "Egy utolsó lépés…"
             }
         }
     }

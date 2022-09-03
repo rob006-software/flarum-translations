@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Configure Scopes",
-                "confirm_purge": "Очистка удалит все записи базы данных и структуры, связанные с этим расширением. Это действие не приведет к деинсталляции самого расширения (это делается через Composer). Вы уверены, что хотите продолжить?",
+                "confirm_purge": "Это действие удалит записи в базе данных и ресурсы, связанные с расширением; расширение полностью не удаляется. Полное удаление расширения должно быть выполнено при помощи Composer. Вы уверены, что хотите продолжить?",
                 "disabled": "Отключено",
                 "enable_to_see": "Включите расширение для отображения и изменения его настроек.",
                 "enabled": "Включено",
@@ -116,11 +116,11 @@
                 "no_settings": "Расширение не имеет настроек.",
                 "open_modal": "Открыть настройки",
                 "permissions_title": "Разрешения",
-                "purge_button": "Очистка",
+                "purge_button": "Удалить",
                 "readme": {
                     "button_label": "README",
-                    "no_readme": "У этого расширения нет файла README",
-                    "title": "Документация на {extName}"
+                    "no_readme": "Расширение не имеет файл README",
+                    "title": "Документация {extName}"
                 },
                 "confirm_uninstall": "При удалении будут удалены все записи базы данных и ресурсы, связанные с расширением. Вы уверены, что хотите продолжить?",
                 "uninstall_button": "Удалить"
@@ -186,7 +186,7 @@
                 "view_forum_label": "Смотреть форум (дискуссий и пользователей)",
                 "view_hidden_groups_label": "Смотреть скрытые группы",
                 "view_last_seen_at_label": "Смотреть время последнего посещения",
-                "view_post_ips_label": "Смотреть IP"
+                "view_post_ips_label": "Смотреть IP адреса"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Неограниченно",
@@ -305,8 +305,8 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} ответил(а) {ago}",
                 "started_text": "{username} создал(а) {ago}",
-                "total_replies_a11y_label": "{count, plural, one {# reply} other {# replies}}",
-                "unread_replies_a11y_label": "{count, plural, one {# непрочтенный ответ} other {# непрочтенных ответов}}. Отметить непрочтенные {count, plural, one {ответ} other {ответов}} как прочтенные.",
+                "total_replies_a11y_label": "{count, plural, one {# ответ} other {# ответов}}",
+                "unread_replies_a11y_label": "{count, plural, one {# непрочитанный ответ} other {# непрочитанных ответов}}. Отметить {count, plural, one {ответ} other {ответов}} как прочитано.",
                 "mark_as_read_tooltip": "Отметить как прочитанное"
             },
             "forgot_password": {
@@ -325,9 +325,9 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Профиль",
-                "search_clear_button_accessible_label": "Очистить поисковый запрос",
+                "search_clear_button_accessible_label": "Clear search query",
                 "search_placeholder": "Поиск...",
-                "search_role_label": "Поиск по форуму",
+                "search_role_label": "Search Forum",
                 "session_dropdown_accessible_label": "Меню опций сессии",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -432,7 +432,7 @@
                 "avatar_upload_button": "Изменить",
                 "avatar_upload_tooltip": "Загрузить аватар",
                 "discussions_link": "=> core.ref.discussions",
-                "in_discussion_text": "В \"{discussion}\"",
+                "in_discussion_text": "В {discussion}",
                 "joined_date_text": "Регистрация: {ago}",
                 "online_text": "В сети",
                 "posts_empty_text": "Кажется, здесь нет сообщений.",
@@ -455,11 +455,14 @@
                 "sent_message": "Отправлено"
             },
             "welcome_hero": {
-                "hide": "Скрыть приветственное сообщение"
+                "hide": "Скрыть сообщение приветствия"
             }
         },
         "lib": {
             "debug_button": "Отладка",
+            "alert": {
+                "dismiss_a11y_label": "Закрыть"
+            },
             "badge": {
                 "hidden_tooltip": "Скрыто"
             },
@@ -478,26 +481,31 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": "Вы не можете править этого пользователя."
+                "nothing_available": "Вам не разрешено редактировать этого пользователя."
             },
             "error": {
                 "dependent_extensions_message": "Невозможно отключить {extension}, пока не будут отключены следующие зависимые расширения: {extensions}",
+                "extension_initialiation_failed_message": "{extension} не удалось инициализировать. Проверьте консоль браузера для получения дополнительной информации.",
                 "generic_message": "Упс! Что-то пошло не так. Пожалуйста, обновите страницу и попробуйте ещё раз.",
                 "missing_dependencies_message": "Невозможно включить {extension}, пока не будут включены следующие зависимые расширения: {extensions}",
                 "not_found_message": "Запрашиваемый ресурс не найден.",
-                "payload_too_large_message": "Длина запроса слишком велика.",
+                "payload_too_large_message": "The request payload was too large.",
                 "permission_denied_message": "У Вас нет прав доступа для выполнения этого действия.",
                 "rate_limit_exceeded_message": "Вы размещаете сообщения слишком часто. Пожалуйста, попробуйте ещё раз через несколько секунд.",
-                "render_failed_message": "Извините, при отображении этого контента возникли ошибки. Если вы простой пользователь, повторите попытку позднее. Если вы администратор, посмотрите детали в лог-файлах Фларума."
+                "render_failed_message": "К сожалению, при отображении страницы произошла ошибка. Если Вы пользователь, повторите попытку позже. Если Вы администратор, посмотрите журналы Flarum для получения дополнительной информации."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Страница # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Страница # - {forumName}}}"
             },
             "modal": {
                 "close": "Закрыть"
             },
             "nav": {
-                "drawer_button": "Открыть Навигационную секцию"
+                "drawer_button": "Открыть панель навигации"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -516,27 +524,27 @@
             "admin": {
                 "extensions": {
                     "caption": "=> core.ref.extensions",
-                    "disable": "Запретить",
+                    "disable": "Отключить",
                     "empty": "Нет установленных расширений",
-                    "enable": "Разрешить",
+                    "enable": "Включить",
                     "name": "Название расширения",
-                    "package_name": "Имя пакета",
+                    "package_name": "Название пакета",
                     "version": "Версия"
                 },
                 "info": {
-                    "caption": "Сведения о приложении"
+                    "caption": "Информация приложения"
                 },
-                "title": "Администрирование"
+                "title": "Управление"
             },
             "confirm_email": {
                 "submit_button": "=> core.ref.confirm_email",
-                "text": "Щелкните по кнопке ниже для подтверждения своей электронной почты.",
+                "text": "Для подтверждения адреса e-mail, нажмите на кнопку ниже.",
                 "title": "=> core.ref.confirm_email"
             },
             "content": {
                 "javascript_disabled_message": "Этот сайт лучше всего просматривать в современном браузере с включённым JavaScript.",
                 "load_error_message": "Что-то пошло не так при попытке загрузить полную версию этого сайта. Попробуйте обновить страницу с удалением кэша браузера (CTRL+F5) для решения этой проблемы.",
-                "loading_text": "Загрузка..."
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
                 "next_page_button": "=> core.ref.next_page",
@@ -567,27 +575,31 @@
                 "new_password_label": "Новый пароль",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Страница # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Страница # - {forumName}}}"
             }
         },
         "api": {
-            "invalid_username_message": "Имя пользователя может содержать только буквы, цифры и тире."
+            "invalid_username_message": "Имя пользователя может содержать только латинские буквы, цифры и тире."
         },
         "email": {
             "activate_account": {
                 "subject": "Активация Вашего аккаунта",
-                "body": "Привет, {username}!\n\nВы зарегистрировались на форуме {forum} с этим адресом электронной почты.\n\nНажмите на ссылку и Ваш аккаунт будет активирован:\n{url}\n\nЕсли Вы не регистрировались, пожалуйста, проигнорируйте это сообщение.\n"
+                "body": "Здравствуйте, {username}!\n\nВы зарегистрировались на форуме {forum} с этим адресом электронной почты.\n\nНажмите на ссылку и Ваш аккаунт будет активирован:\n{url}\n\nЕсли Вы не регистрировались, пожалуйста, проигнорируйте это сообщение.\n"
             },
             "confirm_email": {
                 "subject": "Подтверждение нового адреса e-mail",
-                "body": "Привет, {username}!\n\nВы изменили адрес электронной почты на форуме {forum}.\n\nНажмите на ссылку и Ваш адрес электронной почты будет подтверждён:\n{url}\n\nЕсли это не Вы, пожалуйста, проигнорируйте это сообщение.\n"
+                "body": "Здравствуйте, {username}!\n\nВы изменили адрес электронной почты на форуме {forum}.\n\nНажмите на ссылку и Ваш адрес электронной почты будет подтверждён:\n{url}\n\nЕсли это не Вы, пожалуйста, проигнорируйте это сообщение.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Привет, {username}!\n\nВы подали запрос на сброс пароля для аккаунта на форуме {forum}.\n\nНажмите на ссылку для сброса пароля:\n{url}\n\nЕсли Вы не хотите менять свой пароль, просто проигнорируйте это сообщение и ничего не произойдёт.\n"
+                "body": "Здравствуйте, {username}!\n\nВы подали запрос на сброс пароля для аккаунта на форуме {forum}.\n\nНажмите на ссылку для сброса пароля:\n{url}\n\nЕсли Вы не хотите менять свой пароль, просто проигнорируйте это сообщение и ничего не произойдёт.\n"
             },
             "send_test": {
                 "subject": "Проверка электронной почты Flarum",
-                "body": "Привет, {username}!\n\nЭто проверочное письмо означает, что Ваши параметры электронной почты настроены корректно.\n\nЕсли Вы инициализировали данную проверку, то Вы корректно настроили отправку электронной почты с форума.\n\nЕсли Вы НЕ инициализировали данную проверку, проигнорируйте это сообщение.\n"
+                "body": "Здравствуйте, {username}!\n\nЭто проверочное письмо означает, что Ваши параметры электронной почты настроены корректно.\n\nЕсли Вы инициализировали данную проверку, то Вы корректно настроили отправку электронной почты с форума.\n\nЕсли Вы НЕ инициализировали данную проверку, проигнорируйте это сообщение.\n"
             }
         },
         "ref": {
@@ -596,7 +608,7 @@
             "change_password": "Изменить пароль",
             "color": "Цвет",
             "confirm_password": "Подтвердить пароль",
-            "confirm_email": "Подтвердить адрес электронной почты",
+            "confirm_email": "Подтвердить e-mail",
             "confirmation_email_sent": "Мы отправили письмо с подтверждением на адрес {email}. Если Вы не получите письмо в ближайшее время, проверьте папку со спамом.",
             "custom_footer_text": "HTML, который будет отображаться в самой нижней части страницы.",
             "custom_footer_title": "Редактирование нижнего колонтитула",
@@ -611,7 +623,7 @@
             "extensions": "Расширения",
             "icon": "Иконка",
             "icon_text": "Введите название любого класса иконки <a>Font Awesome</a>, <em>включая</em> префикс <code>fas fa-</code>.",
-            "load_more": "Загрузить ещё",
+            "load_more": "Показать ещё",
             "loading": "Загрузка...",
             "log_in": "Войти",
             "log_out": "Выйти",
@@ -630,7 +642,7 @@
             "save_changes": "Сохранить",
             "settings": "Настройки",
             "sign_up": "Регистрация",
-            "some_others": "{count} другому|{count} другим",
+            "some_others": "{count, plural, one {# другому} other {# другим}}",
             "start_a_discussion": "Создать дискуссию",
             "username": "Имя пользователя",
             "users": "Пользователи",

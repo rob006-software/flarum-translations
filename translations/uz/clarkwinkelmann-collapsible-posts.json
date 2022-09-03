@@ -2,36 +2,36 @@
     "clarkwinkelmann-collapsible-posts": {
         "admin": {
             "settings": {
-                "reasons": "",
+                "reasons": "Sabablar",
                 "header": {
-                    "key": "",
-                    "label": "",
-                    "explanation": ""
+                    "key": "Yagona databaza kaliti",
+                    "label": "Yorliq",
+                    "explanation": "Tushuntirish xabari"
                 },
-                "add": "",
-                "explanationUrl": "",
-                "explanationUrlHelp": ""
+                "add": "Yangi sabab",
+                "explanationUrl": "Tushuntirish URL",
+                "explanationUrlHelp": "Majburiy emas. Yigʻilgan postlar ostida koʻrsatiladi"
             },
             "permission": {
-                "collapse": ""
+                "collapse": "Xabarlarni yig‘ish"
             }
         },
         "forum": {
             "postControl": {
-                "collapse": "",
-                "uncollapse": ""
+                "collapse": "Yig'ish",
+                "uncollapse": "Yoyish"
             },
             "modal": {
-                "title": "",
-                "uncollapse": ""
+                "title": "Postni yig'ish",
+                "uncollapse": "Yoyish"
             },
             "badge": {
-                "post": ""
+                "post": "Yig'ilgan"
             },
             "stream": {
-                "hidden": "",
-                "load": "",
-                "explanation": ""
+                "hidden": "{count, plural, one {# {reason} ga ko'ra yashiringan} other {# {reason} ga ko'ra yashiringan}}",
+                "load": "Ko'proq yuklash",
+                "explanation": "Nega buni ko'ryapman?"
             }
         }
     }

@@ -8,13 +8,23 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "Zostałeś zbanowany na {timeReadable}",
+                "user_suspended_indefinite_text": "Zostałeś zbanowany na czas nieokreślony",
                 "user_unsuspended_text": "Zostałeś odbanowany"
             },
+            "suspension_info": {
+                "dismiss_button": "Anuluj",
+                "indefinite": "To jest ban na czas nieokreślony",
+                "limited": "Ten ban będzie ważny do {date}",
+                "title": "To konto jest zbanowane"
+            },
             "suspend_user": {
+                "display_message": "Wiadomość wyświetlana użytkownikowi",
                 "indefinitely_label": "Zbanowany na zawsze",
                 "limited_time_days_text": " dni",
                 "limited_time_label": "Zbanowany na określony czas...",
                 "not_suspended_label": "Nie jest zbanowany",
+                "placeholder_optional": "Opcjonalne",
+                "reason": "Powód bana",
                 "status_heading": "Status bana",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Zbanuj {username}"
@@ -24,6 +34,17 @@
             },
             "user_controls": {
                 "suspend_button": "Zbanuj"
+            }
+        },
+        "email": {
+            "no_reason_given": "Nie podano powodu tego bana.",
+            "suspended": {
+                "subject": "Twoje konto zostało zbanowane",
+                "body": "Witaj {recipient_display_name},\n\nTwoje konto zostało zbanowane z następującego powodu:\n\n---\n{suspension_message}\n---\n"
+            },
+            "unsuspended": {
+                "subject": "Twoje konto zostało odbanowane",
+                "body": "Witaj {recipient_display_name},\n\nTwoje konto zostało odbanowane. Aby wrócić na forum, kliknij poniższy link:\n{forum_url}\n"
             }
         }
     }

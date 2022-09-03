@@ -8,13 +8,23 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "Teidät on jäädytetty {timeReadable}",
+                "user_suspended_indefinite_text": "Sinut on jäädytetty toistaiseksi",
                 "user_unsuspended_text": "Teidän jäädytys on poistettu"
             },
+            "suspension_info": {
+                "dismiss_button": "Ohita",
+                "indefinite": "Tämä on toistaiseksi voimassa oleva jäädytys",
+                "limited": "Tämä jäädytys on voimassa {date} asti",
+                "title": "Tämä tili on jäädytetty"
+            },
             "suspend_user": {
+                "display_message": "Näytä viesti käyttäjälle",
                 "indefinitely_label": "Jäädytetty pysyvästi",
                 "limited_time_days_text": " päivää",
                 "limited_time_label": "Jäädytetty rajoitetuksi ajaksi...",
                 "not_suspended_label": "Ei jäädytetty",
+                "placeholder_optional": "Valinnainen",
+                "reason": "Syy jäädyttämiselle",
                 "status_heading": "Jäädytyksen tila",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Jäädytä {username}"
@@ -24,6 +34,17 @@
             },
             "user_controls": {
                 "suspend_button": "Jäädytä"
+            }
+        },
+        "email": {
+            "no_reason_given": "Jäädyttämiselle ei annettu syytä.",
+            "suspended": {
+                "subject": "Tilisi on jäädytetty",
+                "body": "Hei {recipient_display_name},\n\nTeidän tili on jäädytetty seuraavasta syystä:\n\n---\n{suspension_message}\n---\n"
+            },
+            "unsuspended": {
+                "subject": "Tilisi jäädytys on poistettu",
+                "body": "Hei {recipient_display_name},\n\nTilisi jäädytys on poistettu. Voitte palata foorumille seuraavan linkin kautta:\n\n{forum_url}\n"
             }
         }
     }

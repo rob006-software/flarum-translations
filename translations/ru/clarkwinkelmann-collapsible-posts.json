@@ -2,36 +2,36 @@
     "clarkwinkelmann-collapsible-posts": {
         "admin": {
             "settings": {
-                "reasons": "",
+                "reasons": "Причины",
                 "header": {
-                    "key": "",
-                    "label": "",
-                    "explanation": ""
+                    "key": "Уникальный ключ базы данных",
+                    "label": "Этикетка",
+                    "explanation": "Пользовательское объяснительное сообщение"
                 },
-                "add": "",
-                "explanationUrl": "",
-                "explanationUrlHelp": ""
+                "add": "Новая причина",
+                "explanationUrl": "URL Объяснения",
+                "explanationUrlHelp": "По желанию. Отображается под свернутыми сообщениями"
             },
             "permission": {
-                "collapse": ""
+                "collapse": "Свернуть сообщения"
             }
         },
         "forum": {
             "postControl": {
-                "collapse": "",
-                "uncollapse": ""
+                "collapse": "Свернуть",
+                "uncollapse": "Развернуть"
             },
             "modal": {
-                "title": "",
-                "uncollapse": ""
+                "title": "Свернуть сообщение",
+                "uncollapse": "Развернуть"
             },
             "badge": {
-                "post": ""
+                "post": "Свернутый"
             },
             "stream": {
-                "hidden": "",
-                "load": "",
-                "explanation": ""
+                "hidden": "{count, plural, one {# пост скрыт как {reason}} other {# постов скрыто как {reason}}}",
+                "load": "Загрузить больше",
+                "explanation": "Почему я это вижу?"
             }
         }
     }

@@ -22,10 +22,10 @@
                 "guest": "Гость"
             },
             "post": {
-                "viewed_by": "",
-                "you": "",
-                "others_link": "",
-                "modal_title_text": ""
+                "viewed_by": "{users} это посмотрели.",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "Пользователи, последними посмотревшие эту дискуссию"
             }
         },
         "admin": {
@@ -36,13 +36,13 @@
             "settings": {
                 "title": "Настройка просмотров обсуждения",
                 "track_unique_label": "Отслеживать уникальные просмотры",
-                "track_guests": "",
+                "track_guests": "Отслеживать гостей",
                 "abbr_numbers_label": "Компактное отображение числа просмотров",
                 "show_filter_label": "Включить поле сортировки по популярности",
                 "max_viewcount_label": "Максимум элементов списка просмотров",
-                "max_viewcount_text": "",
+                "max_viewcount_text": "Применимо к спискам просмотров в нижнем колонтитуле и в боковом меню",
                 "show_viewlist_label": "Включить список просмотров",
-                "show_footer_viewlist_label": ""
+                "show_footer_viewlist_label": "Включить список просмотров в нижнем колонтитуле"
             }
         }
     }

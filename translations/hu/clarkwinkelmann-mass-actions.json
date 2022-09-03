@@ -1,0 +1,35 @@
+{
+    "clarkwinkelmann-mass-actions": {
+        "forum": {
+            "select": {
+                "all": "Összes",
+                "none": "Egyik sem",
+                "read": "Olvasott",
+                "unread": "Nem olvasott",
+                "visible": "Nem törölt",
+                "hidden": "Logikailag törölt",
+                "locked": "Zárolt",
+                "unlocked": "Feloldott"
+            },
+            "actions": {
+                "markAsRead": "Kijelöltek megjelölése olvasottként",
+                "hide": "Kijelöltek törlése",
+                "restore": "Kijelöltek helyreállítása",
+                "delete": "Kijelöltek végleges törlése",
+                "deleteConfirmation": "{count, plural, one {Biztos, hogy végleg törli a kiválasztott témát?} other {Biztos, hogy végleg törli a(z) # kiválasztott témát?}}",
+                "lock": "Kijelöltek zárolása",
+                "unlock": "Kijelöltek feloldása",
+                "sticky": "Kijelöltek kitűzése",
+                "unsticky": "Kijelöltek kitűzésének megszüntetése",
+                "tags": "Címkék",
+                "tags-edit": "Címkék szerkesztése",
+                "tags-add": "<em>{tag}</em> hozzáadása"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "controls": "Tömeges kiválasztási vezérlők"
+            }
+        }
+    }
+}

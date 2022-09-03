@@ -3,19 +3,19 @@
         "lib": {
             "composer": {
                 "table_menu": {
-                    "num_cols": "Число столбцов",
-                    "num_rows": "",
-                    "label_cells": "",
-                    "column": "",
-                    "remove_column": "",
-                    "insert_column_before": "",
-                    "insert_column_after": "",
-                    "row": "",
-                    "remove_row": "",
-                    "insert_row_before": "",
-                    "insert_row_after": ""
+                    "num_cols": "# Столбцов",
+                    "num_rows": "# Строк (включая заголовок)",
+                    "label_cells": "# Обозначить ячейки?",
+                    "column": "Столбец",
+                    "remove_column": "Удалить столбец",
+                    "insert_column_before": "Вставить столбец перед",
+                    "insert_column_after": "Вставить столбец после",
+                    "row": "Строка",
+                    "remove_row": "Удалить строку",
+                    "insert_row_before": "Вставить строку выше",
+                    "insert_row_after": "Вставить строку ниже"
                 },
-                "table_tooltip": ""
+                "table_tooltip": "Таблица"
             }
         }
     }

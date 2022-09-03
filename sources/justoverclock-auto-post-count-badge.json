@@ -1,6 +1,17 @@
 {
     "justoverclock-auto-post-count-badge": {
         "admin": {
+            "settings": {
+                "tier": "Tier {tier} : from {from} to {to} posts",
+                "icon-manager": {
+                    "title": "Icon Manager",
+                    "help_text": "=> core.ref.icon_text"
+                },
+                "label-manager": {
+                    "title": "Text Label Manager",
+                    "help": "Customize tier names"
+                }
+            },
             "levelOne": "Change icon for tier 1 - \"The Baby\"",
             "levelOne-help": "paste here the fontawesome icon that u want to show for tier 1 (e.g. \"fas fa-square\")",
             "levelTwo": "Change icon for tier 2 - \"The Newbie\"",
@@ -20,7 +31,8 @@
             "less100post": "The Talker",
             "less300post": "The Teacher",
             "less600post": "The Monster!",
-            "less1000post": "The Guru!"
+            "less1000post": "The Guru!",
+            "hasWritten": "{count, plural, one {# post written} other {# posts written}}"
         }
     }
 }

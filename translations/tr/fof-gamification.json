@@ -27,21 +27,37 @@
                 }
             },
             "user": {
-                "points": "Puan: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": "{count, plural, one { {count} puan} other {{count} puan}}"
+                },
+                "rank": "{rank}",
+                "votes_link": "Oylar",
+                "points": "Puan: {points}"
             },
             "modal": {
+                "downvotes_label": "Olumsuz oy verenler:",
                 "title": "Oy Verenler",
                 "upvotes_label": "Yukarı oyverenler:"
             },
-            "mod_item": "Oy Verenleri Göster"
+            "mod_item": "Oy Verenleri Göster",
+            "voters": {
+                "none": "Henüz oylayan yok",
+                "label": "Oylayanlar",
+                "label_none": "Oylayan yok"
+            },
+            "post": {
+                "upvote_button": "Yukarı oyla",
+                "downvote_button": "Aşağı oyla"
+            }
         },
         "admin": {
             "permissions": {
                 "vote_label": "Yukarı/Aşağı oylanan paylaşımlar",
                 "see_votes_label": "Yukarı oyların/aşağı oyların sayılarını göster",
                 "see_voters_label": "Kimin oy verdiğini göster",
-                "see_ranking_page": "Sıralama sayfasına bak"
+                "see_ranking_page": "Sıralama sayfasına bak",
+                "upvote_notifications": "Olumlu oy ile ilgili bildirimler alın",
+                "downvote_notifications": "Olumsuz oy hakkında bildirimler alın"
             },
             "page": {
                 "rankings": {
@@ -72,7 +88,8 @@
                     "vote_color": "Oylandığındaki renk",
                     "icon_name": "Yukarı oy/aşağı oy simgesi",
                     "icon_help": "İstediğiniz -up ve -down arka eki olan FontAwesome simgesini ekleyin. Örn: arrow, thumbs, chevron",
-                    "upvotes_only": "Yalnızca yukarı oya izin ver"
+                    "upvotes_only": "Yalnızca yukarı oya izin ver",
+                    "first_post_only": "Bir tartışmada yalnızca ilk gönderinin yukarı/aşağı oylanmasına izin verin"
                 },
                 "save_settings": "Ayarları Kaydet",
                 "convert": {

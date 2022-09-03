@@ -1,17 +1,32 @@
 {
     "flarum-markdown": {
+        "lib": {
+            "composer": {
+                "bold_tooltip": "",
+                "code_tooltip": "",
+                "header_tooltip": "",
+                "image_tooltip": "",
+                "italic_tooltip": "",
+                "link_tooltip": "",
+                "ordered_list_tooltip": "",
+                "quote_tooltip": "",
+                "spoiler_tooltip": "",
+                "strikethrough_tooltip": "",
+                "unordered_list_tooltip": ""
+            }
+        },
         "forum": {
             "composer": {
                 "bold_tooltip": "افزودن متن ضخیم",
                 "code_tooltip": "درج کد",
                 "header_tooltip": "افزودن سرآیند",
-                "image_tooltip": "",
+                "image_tooltip": "یک تصویر اضافه کنید",
                 "italic_tooltip": "افزودن متن ایتالیک",
                 "link_tooltip": "افزودن پیوند",
                 "ordered_list_tooltip": "افزودن لیست عددی",
                 "quote_tooltip": "درج نقل‌قول",
-                "spoiler_tooltip": "",
-                "strikethrough_tooltip": "",
+                "spoiler_tooltip": "یک اسپویلر اضافه کنید",
+                "strikethrough_tooltip": "متن خط خطی را اضافه کنید",
                 "unordered_list_tooltip": "افزودن لیست"
             }
         }

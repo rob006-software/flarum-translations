@@ -1,6 +1,17 @@
 {
     "justoverclock-auto-post-count-badge": {
         "admin": {
+            "settings": {
+                "tier": "Livello {tier} : da {from} a {to} post",
+                "icon-manager": {
+                    "title": "Gestione Icone",
+                    "help_text": "=> core.ref.icon_text"
+                },
+                "label-manager": {
+                    "title": "Gestione Testo Badge",
+                    "help": "Personalizza nomi livelli"
+                }
+            },
             "levelOne": "Cambia icona per il livello 1 - \"Il Poppante\"",
             "levelOne-help": "incolla qui il codice dell'icona fontawesome per il livello 1 (e.g. \"fas fa-square\")",
             "levelTwo": "Cambia icona per il livello 2 - \"Il Viandante\"",
@@ -20,7 +31,9 @@
             "less100post": "Il Parlatore",
             "less300post": "Il Maestro",
             "less600post": "Il Mostro!",
-            "less1000post": "Il Guru!"
+            "less1000post": "Il Guru!",
+            "hasWritten": "{count, plural, one {# post scritto} other {# post scritti}}",
+            "posts": "post"
         }
     }
 }

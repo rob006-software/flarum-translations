@@ -8,13 +8,23 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "{username} sizi {timeReadable} müddətinə dondurdu",
+                "user_suspended_indefinite_text": "",
                 "user_unsuspended_text": "{username} sizi dondurdu"
             },
+            "suspension_info": {
+                "dismiss_button": "",
+                "indefinite": "",
+                "limited": "",
+                "title": ""
+            },
             "suspend_user": {
+                "display_message": "",
                 "indefinitely_label": "Müəyyən olmayan müddətə donduruldu",
                 "limited_time_days_text": " günlər",
                 "limited_time_label": "Keçici müddətə donduruldu...",
                 "not_suspended_label": "Dondurulmayıb",
+                "placeholder_optional": "",
+                "reason": "",
                 "status_heading": "Vəziyyət",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Dondur {username}"
@@ -24,6 +34,17 @@
             },
             "user_controls": {
                 "suspend_button": "Dondur"
+            }
+        },
+        "email": {
+            "no_reason_given": "",
+            "suspended": {
+                "subject": "",
+                "body": ""
+            },
+            "unsuspended": {
+                "subject": "",
+                "body": ""
             }
         }
     }

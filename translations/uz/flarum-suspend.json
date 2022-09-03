@@ -2,28 +2,49 @@
     "flarum-suspend": {
         "admin": {
             "permissions": {
-                "suspend_users_label": ""
+                "suspend_users_label": "Foydalanuvchilarni bloklash"
             }
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "",
-                "user_unsuspended_text": ""
+                "user_suspended_text": "Siz {timeReadable} muddatga bloklandingiz",
+                "user_suspended_indefinite_text": "",
+                "user_unsuspended_text": "Siz blokdan chiqarildingiz"
             },
-            "suspend_user": {
-                "indefinitely_label": "",
-                "limited_time_days_text": "",
-                "limited_time_label": "",
-                "not_suspended_label": "",
-                "status_heading": "",
-                "submit_button": "",
+            "suspension_info": {
+                "dismiss_button": "",
+                "indefinite": "",
+                "limited": "",
                 "title": ""
             },
+            "suspend_user": {
+                "display_message": "",
+                "indefinitely_label": "Butunlay bloklandi",
+                "limited_time_days_text": " kunlar",
+                "limited_time_label": "Muddatga bloklandi...",
+                "not_suspended_label": "Bloklanmadi",
+                "placeholder_optional": "",
+                "reason": "",
+                "status_heading": "Bloklanish holati",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Bloklash {username}"
+            },
             "user_badge": {
-                "suspended_tooltip": ""
+                "suspended_tooltip": "Bloklandi"
             },
             "user_controls": {
-                "suspend_button": ""
+                "suspend_button": "Bloklash"
+            }
+        },
+        "email": {
+            "no_reason_given": "",
+            "suspended": {
+                "subject": "",
+                "body": ""
+            },
+            "unsuspended": {
+                "subject": "",
+                "body": ""
             }
         }
     }

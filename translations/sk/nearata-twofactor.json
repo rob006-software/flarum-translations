@@ -2,7 +2,10 @@
     "nearata-twofactor": {
         "admin": {
             "settings": {
-                "generate_backups": ""
+                "generate_backups": "Generovať záložné kódy."
+            },
+            "permissions": {
+                "can_enable_twofactor": ""
             }
         },
         "forum": {

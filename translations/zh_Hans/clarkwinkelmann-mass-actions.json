@@ -1,0 +1,35 @@
+{
+    "clarkwinkelmann-mass-actions": {
+        "forum": {
+            "select": {
+                "all": "全选",
+                "none": "取消全选",
+                "read": "",
+                "unread": "",
+                "visible": "",
+                "hidden": "",
+                "locked": "",
+                "unlocked": ""
+            },
+            "actions": {
+                "markAsRead": "标记为已读",
+                "hide": "删除所选",
+                "restore": "恢复已选",
+                "delete": "",
+                "deleteConfirmation": "",
+                "lock": "锁定所选",
+                "unlock": "解锁所选",
+                "sticky": "",
+                "unsticky": "",
+                "tags": "标签",
+                "tags-edit": "编辑标签",
+                "tags-add": "添加 <em>{tag}</em>"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "controls": "显示多选选择器"
+            }
+        }
+    }
+}

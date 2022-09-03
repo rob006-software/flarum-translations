@@ -13,6 +13,10 @@
             },
             "permissions": {
                 "edit_money_label": "Pulni tahrirlash"
+            },
+            "automoderator": {
+                "metric_name": "",
+                "action_name": ""
             }
         },
         "forum": {
@@ -22,7 +26,7 @@
             "modal": {
                 "title": "{username} ning puli",
                 "current": "Hozirgi:",
-                "submit_button": ""
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }

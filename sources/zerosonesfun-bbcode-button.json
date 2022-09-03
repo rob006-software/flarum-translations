@@ -2,15 +2,27 @@
     "flarum-bbcode-button": {
         "admin": {
             "settings": {
-                "codelabel": "Custom BBCode",
-                "codedesc": "Type in the opening and closing BBCode tags below and save.",
-                "poslabel": "Cursor Placement",
-                "posdesc": "You will want the cursor to default to being in between the opening and closing tags. Adjust this number to accomplish this. The greater the number, the more to the right the cursor will appear."
+                "codelabel": "1. BBCode Tags",
+                "codedesc": "Type in the opening and closing BBCode tags.",
+                "iconlabel": "1. Button Icon",
+                "icondesc": "Enter the Font Awesome class name.",
+                "codelabel2": "2. BBCode Tags",
+                "codedesc2": "Type in the opening and closing BBCode tags.",
+                "iconlabel2": "2. Button Icon",
+                "icondesc2": "Enter the Font Awesome class name.",
+                "codelabel3": "3. BBCode Tags",
+                "codedesc3": "Type in the opening and closing BBCode tags.",
+                "iconlabel3": "3. Button Icon",
+                "icondesc3": "Enter the Font Awesome class name.",
+                "introlabel": "Custom BBCode Button [ ]",
+                "introdesc": "Set up and save these settings before attempting to use. This extension adds a new button to the editor toolbar. It was built to allow one to insert a custom BBCode. However, feel free to use your imagination. Use it to insert custom Markdown or a common phrase."
             }
         },
         "forum": {
             "composer": {
-                "bbcode_tooltip": "Insert BBCode"
+                "bbcode_tooltip": "Insert BBCode",
+                "bbcode_tooltip2": "Insert BBCode",
+                "bbcode_tooltip3": "Insert BBCode"
             }
         }
     }

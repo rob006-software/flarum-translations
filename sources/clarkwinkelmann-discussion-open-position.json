@@ -1,0 +1,41 @@
+{
+    "clarkwinkelmann-discussion-open-position": {
+        "admin": {
+            "settings": {
+                "defaultOpenLastRead": "Open discussion at last read post default",
+                "suggestFirstTime": "Show a prompt to the user to change the setting the first time they open a discussion",
+                "openLastOptions": {
+                    "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
+                    "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
+                    "never": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never"
+                }
+            }
+        },
+        "forum": {
+            "firstTimePrompt": {
+                "fromAlways": "Discussions links lead to your last read post",
+                "fromNever": "Discussions links open the first post",
+                "openLastOptions": {
+                    "always": "Always open at the last post I read instead",
+                    "never": "Always open at the first post instead"
+                },
+                "more": "More options"
+            },
+            "preferences": {
+                "discussionOpenLastRead": "Discussion List",
+                "openLastOptions": {
+                    "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
+                    "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
+                    "never": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never"
+                }
+            }
+        },
+        "ref": {
+            "openLastOptions": {
+                "always": "Always open discussions at the last read post",
+                "unread": "Only open discussions at the last read post if there are new replies",
+                "never": "Always open discussions at the first post"
+            }
+        }
+    }
+}

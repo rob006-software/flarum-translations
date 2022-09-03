@@ -2,9 +2,14 @@
     "acpl-lscache": {
         "admin": {
             "public_cache_ttl_label": "Varsayılan genel önbellek TTL",
-            "public_cache_ttl_help": "Sayfaların ne kadar süreyle önbelleğe alınacağını saniye cinsinden belirtin. Varsayılan değer 300 saniyedir",
+            "public_cache_ttl_help": "Sayfaların ne kadar süreyle önbelleğe alınacağını saniye cinsinden belirtin. Varsayılan değer 300 saniyedir.",
+            "clearing_cache_listener_label": "Flarum önbelleği temizlendiğinde LSCache'yi temizle",
+            "serve_stale_label": "Bayat Servis",
+            "serve_stale_help": "AÇIK ise, önbelleğe alınmış bir sayfanın eski kopyası, yeni bir önbellek kopyası bulunana kadar ziyaretçilere gösterilecektir. Sonraki ziyaretler için sunucu yükünü azaltır. KAPALI ise, ziyaretçiler beklerken sayfa dinamik olarak oluşturulur. Tasarım gereği, bu seçenek eski içeriğe hizmet edebilir. Sizin için uygun değilse, bu seçeneği etkinleştirmeyin.",
             "purge_on_discussion_update_label": "Bir tartışma veya gönderi güncellendiğinde URL'leri veya Etiketleri temizle",
-            "purge_on_discussion_update_help": "Satır başına bir URL veya Etiket belirtin. URL, <code>/</code> ile başlamalıdır, ör. <code>/rankings4</code> ve önbellek Etiketi <code>tag=</code> ile başlamalıdır, ör. <code>etiket=sıralamalar</code>. Bu uzantı her rotayı etiketler ve örneğin, temizlemek istediğiniz çok sayıda rotanız varsa, .htaccess'e rotaları etiketleyecek normal bir ifadeyle bir kural eklemek daha iyidir ve burada ayarlara yalnızca bu etiketi girin . Bu yöntem çok daha hızlı olacaktır. <a>Daha fazla bilgi edinin</a>. Varsayılan olarak, ana sayfanın önbelleği ve güncellenmiş tartışmaların önbelleği temizlenir",
+            "purge_on_discussion_update_help": "Satır başına bir URL veya Etiket belirtin. URL, <code>/</code> ile başlamalıdır, ör. <code>/rankings4</code> ve önbellek Etiketi <code>tag=</code> ile başlamalıdır, ör. <code>etiket=sıralamalar</code>. Bu uzantı her rotayı etiketler ve örneğin, temizlemek istediğiniz çok sayıda rotanız varsa, .htaccess'e rotaları etiketleyecek normal bir ifadeyle bir kural eklemek daha iyidir ve burada ayarlara yalnızca bu etiketi girin . Bu yöntem çok daha hızlı olacaktır. <a>Daha fazla bilgi edinin</a>. Varsayılan olarak, ana sayfanın önbelleği ve güncellenmiş tartışmaların önbelleği temizlenir.",
+            "cache_exclude_label": "Yolları önbelleğe almayın",
+            "cache_exclude_help": "Bu dizeleri içeren yollar önbelleğe alınmayacaktır. Örneğin, <code>/mypath/mypage?aa=bb</code> için burada <code>mypage?aa=</code> kullanılabilir. Başlangıcı eşleştirmek için öğenin başına <code>^</code> ekleyin. Tam bir eşleşme yapmak için URL'nin sonuna <code>$</code> ekleyin. Her satıra bir tane.",
             "purge_all": "Tüm LSCache'i temizle",
             "purge_all_success": "Tüm LSCache girdilerini temizlemek için LiteSpeed Web Sunucusunu bilgilendir"
         }

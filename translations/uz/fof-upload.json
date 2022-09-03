@@ -2,152 +2,177 @@
     "fof-upload": {
         "admin": {
             "pane": {
-                "title": "",
-                "description": ""
+                "title": "Yuklash",
+                "description": "Yuklash xizmatlari va afzalliklarini sozlang."
             },
             "help_texts": {
-                "disable-download-logging": "",
-                "disable-hotlink-protection": "",
-                "download_templates": "",
-                "mime_types": "",
-                "resize": "",
-                "client_extension": "",
-                "watermark": "",
-                "s3_compatible_storage": "",
-                "s3_acl": "",
-                "composer_buttons": ""
+                "disable-download-logging": "Forumingiz foydalanuvchilari tomonidan yuklab olingan har bir yuklama jurnalini o'chirib qo'ying. Uni yoqilgan holda saqlash sizga yaqin kelajakda yuklab olinganlar soni va boshqa koʻrsatkichlarni koʻrish imkonini beradi.\n",
+                "disable-hotlink-protection": "Hotlink himoyasi boshqa saytlardan yuklamalarni ochishning oldini oladi. Joriy usul csrf tokeni va post identifikatorini talab qiladi.\n",
+                "download_templates": "Yuklab olish shablonlari - yuklamalar forumingizda qanday ko'rsatiladi, masalan, oldindan ko'rishlar, tugmalar. Hozirda mavjud:\n",
+                "mime_types": "Iltimos, xaritangizni shu yerda sozlang. Har bir mim tipidagi muntazam ifoda ma'lum bir yuklash adapteri va yuklab olish shablonlari tomonidan boshqariladi.\n",
+                "resize": "Tasvirlar yuklanishidan oldin ularning oʻlchamini oʻzgartirishni xohlaysizmi yoki yoʻqligini tanlang. Maksimal kenglik va balandlikni piksellarda tanlashingiz mumkin. O'lchamni o'zgartirish jarayoni tasvirlarning nisbatlarini saqlab qoladi.\n",
+                "client_extension": "Odatda Yuklash MIME turiga qarab xavfsiz fayl kengaytmasini tanlaydi.\nZIP yoki ikkilik ma'lumotlarga asoslangan ba'zi fayl turlari uchun bu kutilgan kengaytma o'rniga umumiy kengaytmalardan foydalanishga olib kelishi mumkin.\nBu yerda siz so'zma-so'z saqlanadigan fayl kengaytmalarining vergul bilan ajratilgan ro'yxatini kiritishingiz mumkin.\n",
+                "watermark": "Yuklash paytida rasmlarga suv belgisi qo'shiladimi yoki yo'qligini tanlang. Quyidagi afzalliklaringiz asosida gif bo'lmagan rasmlarga suv bo'yoqlari qo'shiladi.\n",
+                "s3_compatible_storage": "Quyidagi sozlamalar faqat S3 mos xotirasidan foydalanilganda talab qilinadi. Agar siz AWS dan foydalansangiz, ularni bo'sh qoldirishingiz mumkin.\n",
+                "s3_acl": "Yuklangan ob'ektga qo'llanilishi kerak bo'lgan ACL (standart: shaxsiy). Mumkin qiymatlar uchun qarang: https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_instance_profile": "",
+                "composer_buttons": "Odatiy bo'lib media menejeri tugmasi ham, yuklash tugmasi ham ko'rinadi. Siz faqat bitta tugmani ko'rsatishni tanlashingiz mumkin.\n"
             },
             "labels": {
                 "aws-s3": {
-                    "bucket": "",
-                    "key": "",
-                    "region": "",
-                    "secret": "",
-                    "title": "",
-                    "advanced_title": "",
-                    "endpoint": "",
-                    "use_path_style_endpoint": "",
-                    "acl": ""
+                    "bucket": "Chelak",
+                    "key": "Kalit",
+                    "region": "Mintaqa",
+                    "secret": "Sir",
+                    "title": "AWS S3 saqlash sozlamalari",
+                    "advanced_title": "Kengaytirilgan S3 saqlash sozlamalari",
+                    "endpoint": "Yakuniy nuqta",
+                    "use_path_style_endpoint": "Yo'l uslubining so'nggi nuqtasidan foydalaning",
+                    "acl": "Kirish nazorati roʻyxati (ACL)"
                 },
                 "disable-download-logging": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Yuklab olish jurnalini o'chirib qo'ying",
+                    "toggle": "Oʻchirish"
                 },
                 "disable-hotlink-protection": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Hotlink himoyasini o'chirib qo'ying",
+                    "toggle": "Oʻchirish"
                 },
                 "imgur": {
-                    "client_id": "",
-                    "title": ""
+                    "client_id": "Imgur mijoz identifikatori",
+                    "title": "Imgur tasvirni saqlash sozlamalari",
+                    "tos": ""
                 },
                 "local": {
-                    "cdn_url": "",
-                    "title": ""
+                    "cdn_url": "Kontentni yetkazib berish URL manzili (prefiks fayllari)",
+                    "title": "Mahalliy saqlash sozlamalari"
                 },
                 "qiniu": {
-                    "title": "",
-                    "key": "",
-                    "secret": "",
-                    "bucket": ""
+                    "title": "Qiniu saqlash sozlamalari",
+                    "key": "Kalit",
+                    "secret": "Sir",
+                    "bucket": "Chelak"
                 },
                 "preferences": {
-                    "max_file_size": "",
-                    "mime_types": "",
-                    "title": "",
-                    "php_ini_values": ""
+                    "max_file_size": "Maksimal fayl hajmi (kilobaytlarda)",
+                    "mime_types": "Mim turini sozlang, adapter xaritasini yuklang",
+                    "title": "Umumiy imtiyozlar",
+                    "php_ini_values": "Sizning <code>php.ini</code> qiymatlaringiz <code>post_max_size={post}</code> va <code>upload_max_filesize={upload}</code>. Bu yerda oʻrnatilgan qiymat ushbu chegaralardan past ekanligiga ishonch hosil qiling yoki ularni mos ravishda sozlang. Agar <code>Nginx</code> dan foydalansangiz, <code>client_max_body_size</code> siz tanlagan maksimal chegara uchun yetarli hajmda boʻlishini ham tekshiring."
                 },
                 "resize": {
-                    "max_width": "",
-                    "title": "",
-                    "toggle": ""
+                    "max_width": "Tasvirning maksimal kengligi/balandligi",
+                    "title": "Rasm hajmini oʻzgartirish",
+                    "toggle": "Rasm hajmini oʻzgartirish"
                 },
                 "client_extension": {
-                    "title": ""
+                    "title": "Foydalanuvchi tomonidan taqdim etilgan fayl kengaytmalari"
                 },
                 "watermark": {
-                    "file": "",
-                    "position": "",
-                    "title": "",
-                    "toggle": ""
+                    "file": "Suv belgisi rasmingizni yuklang",
+                    "position": "Suv belgisi holati",
+                    "title": "Suv belgisi rasmlari",
+                    "toggle": "Suv belgisi rasmlari"
                 },
                 "composer_buttons": {
-                    "title": "",
+                    "title": "Kompozitor tugmalari",
                     "options": {
-                        "both": "",
-                        "upload-btn": "",
-                        "media-btn": ""
+                        "both": "Ikkalasi",
+                        "upload-btn": "Faqat yuklash tugmasi",
+                        "media-btn": "Faqat media menejeri tugmasi"
                     }
-                }
+                },
+                "inspect-mime": ""
             },
             "permissions": {
-                "download_label": "",
-                "upload_label": "",
-                "view_user_uploads_label": "",
-                "delete_uploads_of_others_label": ""
+                "download_label": "Fayllarni yuklab oling",
+                "upload_label": "Fayllarni yuklash",
+                "view_user_uploads_label": "Foydalanuvchi yuklashlarini ko'rish",
+                "delete_uploads_of_others_label": "Foydalanuvchi yuklamalarini o'chirish"
             },
             "templates": {
-                "file": "",
-                "file_description": "",
-                "image": "",
-                "image_description": "",
-                "image-preview": "",
-                "image-preview_description": "",
-                "markdown-image": "",
-                "markdown-image_description": "",
-                "bbcode-image": "",
-                "bbcode-image_description": "",
-                "just-url": "",
-                "just-url_description": ""
+                "file": "Standart fayl yuklab olish shablonini",
+                "file_description": "Fayl nomi va ba'zi umumiy ma'lumotlarni ko'rsatadi. PHP orqali proksi-serverlar yuklab olinadi, bu statistikani yig'ish va hotlinkni himoya qilish imkonini beradi.\n",
+                "image": "Standart rasm yuklab olish shablonini",
+                "image_description": "Tasvirning eskizini va proksi-serverlarni PHP orqali yuklab olishni ko'rsatadi. Statistikani to'plash va hotlink himoyasiga ruxsat berish.\n",
+                "image-preview": "Toʻliq tasvirni oldindan koʻrish shablonini",
+                "image-preview_description": "To'liq rasmni qatorda ko'rsatadi. Yuklab olish funksiyasi yo'q, statistika yig'ilmaydi va hotlink himoyasi e'tiborga olinmaydi.\n",
+                "markdown-image": "Markdown tasvir shabloni",
+                "markdown-image_description": "Markdown yordamida to'liq rasmni qatorda ko'rsatadi. <strong>Buning ishlashi uchun sizda flarum/markdown oʻrnatilgan va yoqilgan boʻlishi kerak.</strong> Yuklab olish funksiyasi yoʻq, statistika yigʻilmaydi va hotlink himoyasi eʼtiborga olinmaydi.\n",
+                "bbcode-image": "BBCode rasm shabloni",
+                "bbcode-image_description": "BBCode yordamida toʻliq tasvirni in-line koʻrsatadi. <strong>Buning ishlashi uchun sizda flarum/bbcode oʻrnatilgan va yoqilgan boʻlishi kerak.</strong> Yuklab olish funksiyasi yoʻq, statistika yigʻilmaydi va hotlink himoyasi eʼtiborga olinmaydi.\n",
+                "just-url": "Faqat URL",
+                "just-url_description": "Faqat URLni kiritadi. Renderlash avtomatik ulanish imkoniyatiga ega bo'lgan boshqa kengaytmalar tomonidan amalga oshirilishi mumkin. Yuklab olish funksiyasi yo'q, statistika yig'ilmaydi va hotlink himoyasi e'tiborga olinmaydi.\n",
+                "text-preview": "",
+                "text-preview_description": ""
             },
             "upload_methods": {
-                "aws-s3": "",
-                "imgur": "",
-                "local": "",
-                "ovh-svfs": "",
-                "qiniu": ""
+                "aws-s3": "S3/mos keladi",
+                "imgur": "Imgur",
+                "local": "Lokal",
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": "QiNiu"
+            },
+            "inspect-mime": {
+                "title": "",
+                "description": "",
+                "select": "",
+                "laravel-validation": "",
+                "no-file-selected": "",
+                "validation-passed": "",
+                "validation-failed": "",
+                "mime-detector": "",
+                "mime-fileinfo": "",
+                "guessed-extension": "",
+                "not-available": ""
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "Media menejeri",
             "buttons": {
-                "attach": "",
-                "upload": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": ""
+                "attach": "Biriktiring",
+                "upload": "Yuklash",
+                "user_uploads": "Foydalanuvchi yuklashlari",
+                "cancel": "Bekor qilish",
+                "media": "Mening ommaviy axborot vositalarim"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
+                "loading": "Fayllar yuklanmoqda...",
+                "empty": "Ko'rsatiladigan fayllar yo'q.",
+                "release_to_upload": "Yuklash uchun qo'yib yuboring",
+                "modal_empty_desktop": "Fayllar roʻyxati boʻsh. Yuklash uchun tugmani bosing yoki faylni shu yerga torting.",
+                "modal_empty_phone": "Fayllar roʻyxati boʻsh. Faylni yuklash uchun yuqoridagi tugmani bosing.",
+                "select_file_a11y_label": "“{fayl nomi}” faylini tanlang",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Hech biri tanlanmagan} bitta {Faylni tanlang} boshqa {Fayllarni tanlang}}",
+                "load_more_files_btn": "Ko'proq fayllarni yuklang",
                 "hide_file": {
-                    "btn_a11y_label": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "hide_fail": "",
-                    "loading": ""
+                    "btn_a11y_label": "“{fileName}” faylini media menejeridan yashirish",
+                    "hide_confirmation": "Haqiqatan ham “{fayl nomi}” faylini berkitmoqchimisiz? Faylni yashirish uni faqat media menejeringizdan olib tashlaydi va mavjud postlarga ta'sir qilmaydi.",
+                    "hide_success": "Fayl yashirin",
+                    "hide_fail": "“{fayl nomi}” faylini yashirib bo‘lmadi",
+                    "loading": "Fayl berkitilmoqda..."
                 }
             },
             "states": {
-                "error": "",
-                "loading": "",
-                "unauthorized": ""
+                "error": "Xatolik",
+                "loading": "Yuklanmoqda",
+                "unauthorized": "Fayllarni yuklab olishingizga ruxsat berilmagan"
             },
             "validation": {
-                "max_size": ""
+                "max_size": "{maksimal} kb dan ortiq yuklamalar qabul qilinmaydi."
+            },
+            "text_preview": {
+                "expand": "",
+                "collapse": "",
+                "error": "",
+                "no_snippet_preview": "",
+                "no_snippet": ""
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
-                "unsupported_type": "",
-                "could_not_detect_mime": ""
+                "forbidden_type": "Bunday turdagi fayllarni yuklashga ruxsat berilmagan.",
+                "unsupported_type": "Yuklash adapteri taqdim etilgan mim turini qo'llab-quvvatlamaydi: {mime}.",
+                "could_not_detect_mime": "Ushbu faylning MIME turini aniqlab boʻlmadi, qaytadan urinib koʻring."
             }
         }
     }

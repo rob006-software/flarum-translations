@@ -8,10 +8,15 @@
             "update_category": "Aggiorna categoria",
             "edit_category": "Modifica categoria",
             "nothing_here_yet": "Non hai ancora creato badge o categorie.",
+            "show_badges_on_user_card": "",
+            "number_of_badges_on_user_card": "",
+            "number_of_badges_on_user_card_help": "",
             "permissions": {
                 "badge_detail_users": "Può vedere gli utenti nella pagina dei badge",
                 "give_badge": "Assegna badge a utente",
-                "take_badge": "Prendi badge da utente"
+                "take_badge": "Prendi badge da utente",
+                "edit_own_card_badges": "",
+                "edit_card_badges": ""
             },
             "confirm_dialog": {
                 "title": "Conferma",
@@ -27,7 +32,14 @@
                 "icon": "Icona Badge",
                 "description": "Descrizione Badge",
                 "visible": "Visibile",
-                "visible_description": "Abilita questo badge. Quando disabilitato, il badge non sarà visibile."
+                "visible_description": "Abilita questo badge. Quando disabilitato, il badge non sarà visibile.",
+                "is_image": "Il badge è un immagine",
+                "is_image_description": "Usa un immagine invece del badge di default",
+                "image": "URL immagine badge",
+                "image_placeholder": "Immetti l'URL dell'immagine del badge",
+                "icon_color": "Colore Icona",
+                "background_color": "Colore di Sfondo",
+                "label_color": "Colore Testo"
             },
             "badge_category": {
                 "name": "Nome Categoria",
@@ -72,6 +84,7 @@
             "user_no_badges": "Questo utente non ha ancora alcun badge.",
             "no_received": "Nessun utente ha ottenuto questo badge.",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "",
             "badge": {
                 "badge": "Badge",
                 "badges": "Badge",
@@ -85,7 +98,15 @@
                 "received_on": "Ricevuto il {date}",
                 "badge_details": "Dettagli Badge",
                 "earned_count": "{count, plural, one {<b># utente</b> ha guadagnato questo badge} other {<b># utenti</b> hanno guadagnato questo badge}}",
-                "earned_by_count": "{count, plural, one {Guadagnato da <b># utente</b>} other {Guadagnato da <b># utenti</b>}}"
+                "earned_by_count": "{count, plural, one {Guadagnato da <b># utente</b>} other {Guadagnato da <b># utenti</b>}}",
+                "others_link": ""
+            },
+            "badges_in_card": {
+                "title": "",
+                "manage_badges": "",
+                "description": "",
+                "select_limit": "",
+                "hit_limit": ""
             },
             "moderation": {
                 "remove_badge": "Rimuovi badge da utente",

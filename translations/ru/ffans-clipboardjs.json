@@ -2,27 +2,27 @@
     "ffans-clipboardjs": {
         "admin": {
             "settings": {
-                "codeLang_label": "",
-                "copy_enable_label": "",
-                "themes_label": "",
+                "codeLang_label": "Показать код языка",
+                "copy_enable_label": "Разрешить копирование кода",
+                "themes_label": "Стиль иконки копирования",
                 "themes": {
-                    "cnblog": "",
-                    "csdn": "",
-                    "default": "",
-                    "github": "",
-                    "jianshu": "",
-                    "lingcoder": "",
-                    "segmentfault": ""
+                    "cnblog": "cnBlogs",
+                    "csdn": "CSDN",
+                    "default": "Clipboardjs по умолчанию",
+                    "github": "GitHub",
+                    "jianshu": "Джиан Шу",
+                    "lingcoder": "LingCoder",
+                    "segmentfault": "SegmentFault"
                 }
             }
         },
         "forum": {
-            "action_copy": "",
-            "action_cut": "",
-            "ok_btn": "",
-            "error_btn": "",
-            "no_support": "",
-            "msg": ""
+            "action_copy": "Копировать",
+            "action_cut": "Вырезать",
+            "ok_btn": "Скопировано",
+            "error_btn": "Ошибка",
+            "no_support": "Не поддерживается",
+            "msg": "Нажмите {actionKey} для {action}"
         }
     }
 }

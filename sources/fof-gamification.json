@@ -27,21 +27,36 @@
                 }
             },
             "user": {
-                "points": "Points: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": "{count, plural, one { {count} point} other {{count} points}}"
+                },
+                "rank": "{rank}",
+                "votes_link": "Votes"
             },
             "modal": {
+                "downvotes_label": "Downvoters:",
                 "title": "Voters",
                 "upvotes_label": "Upvoters:"
             },
-            "mod_item": "View Voters"
+            "mod_item": "View Voters",
+            "voters": {
+                "none": "No voters yet",
+                "label": "Voters",
+                "label_none": "No voters"
+            },
+            "post": {
+                "upvote_button": "Upvote post",
+                "downvote_button": "Downvote post"
+            }
         },
         "admin": {
             "permissions": {
                 "vote_label": "Upvote/Downvote posts",
                 "see_votes_label": "See up/down vote count",
                 "see_voters_label": "See who voted",
-                "see_ranking_page": "See ranking page"
+                "see_ranking_page": "See ranking page",
+                "upvote_notifications": "Receive notifications on upvote",
+                "downvote_notifications": "Receive notifications on downvote"
             },
             "page": {
                 "rankings": {
@@ -72,7 +87,8 @@
                     "vote_color": "Voted color",
                     "icon_name": "Upvote/downvote icon",
                     "icon_help": "Input any Font-Awesome icon that is suffixed with -up and -down. Examples: arrow, thumbs, chevron",
-                    "upvotes_only": "Only allow upvoting"
+                    "upvotes_only": "Only allow upvoting",
+                    "first_post_only": "Only allow up/down votes in the first post in a discussion"
                 },
                 "save_settings": "Save settings",
                 "convert": {

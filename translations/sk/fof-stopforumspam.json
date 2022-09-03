@@ -2,7 +2,7 @@
     "fof-stopforumspam": {
         "admin": {
             "settings": {
-                "introduction": "",
+                "introduction": "Kontroluje registrácie nových používateľov s databázou <a>StopForumSpam</a>. Ak sa dosiahne hranica <code>dôveryhodnosti</code> alebo <code>frekvencie</code>, používateľovi bude zabránené dokončiť registráciu na Vašom fóre.\n\nPodporená je aj registrácia SSO cez <code>fof/oauth</code> a <code>fof/passport</code>. Ostatní poskytovatelia SSO by mali fungovať, no nie sú otestovaní.\n",
                 "username_label": "",
                 "ip_label": "",
                 "email_label": "",

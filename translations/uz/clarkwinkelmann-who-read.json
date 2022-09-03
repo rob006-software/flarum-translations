@@ -2,52 +2,52 @@
     "clarkwinkelmann-who-read": {
         "forum": {
             "tooltip": {
-                "last-read-at": "",
-                "last-read-at-behind": "",
-                "last-read-at-up-to-date": ""
+                "last-read-at": "{username} {ago} avval o'qidi",
+                "last-read-at-behind": "{username} oxirgi marta {avval} oʻqigan va ortda qolgan",
+                "last-read-at-up-to-date": "{username} oxirgi postni {avval} oʻqigan"
             },
             "more": {
-                "show": "",
-                "info": ""
+                "show": "Yana {count} tasini koʻrsatish",
+                "info": "Yana {count} ta"
             },
             "footer": {
-                "read-this-post": "",
-                "read-no-further": "",
-                "read-to-end": ""
+                "read-this-post": "{count, plural, =0 {Hech kim bu xabarni oʻqimagan} one{Bitta foydalanuvchi ushbu xabarni oʻqigan} other {# ta foydalanuvchi ushbu xabarni oʻqigan}}",
+                "read-no-further": "{hisoblash, ko'plik, =0 {Hamma keyingi o'qidi} one {Bitta foydalanuvchi keyingi o'qimagan} other {# ta o'qimagan}}",
+                "read-to-end": "{hisoblash, koʻplik, =0 {Hech kim oxirigacha oʻqimaydi} one {Bir foydalanuvchi oxirigacha oʻqidi} other {# ta foydalanuvchi oxirigacha oʻqidi}}"
             },
             "controls": {
-                "set-unread": "",
-                "remove-unread": ""
+                "set-unread": "O'qildi deb belgilash",
+                "remove-unread": "O'qilmadini o'chirish"
             },
             "badges": {
-                "following": "",
-                "ignoring": "",
-                "unread": ""
+                "following": "=> flarum-subscriptions.forum.badge.following_tooltip",
+                "ignoring": "=> flarum-subscriptions.forum.badge.ignoring_tooltip",
+                "unread": "O'qilmadi deb belgilash"
             },
             "modal": {
-                "title": "",
-                "up-to-this-post": "",
-                "past-this-post": "",
-                "to-the-end": "",
-                "behind": ""
+                "title": "O'quvchilar",
+                "up-to-this-post": "Bu postgacha o'qiganlar",
+                "past-this-post": "Shu postni o'qigan foydalanuvchilar",
+                "to-the-end": "Oxirigacha o'qigan foydalanuvchilar",
+                "behind": "Oxirigacha o'qimagan foydalanuvchilar"
             }
         },
         "admin": {
             "permissions": {
-                "see-read": "",
-                "see-subscription": "",
-                "see-unread": "",
-                "mark-unread": ""
+                "see-read": "Holatini ko'rish",
+                "see-subscription": "Obuna holatini ko'rish",
+                "see-unread": "Boshqa foydalanuvchilarning o'qilmaganlik holatini ko'rish",
+                "mark-unread": "Muhokamalarni shaxsiy foydalanuvchi uchun o'qilmagan deb belgilang"
             },
             "settings": {
-                "show-in-discussion-list": "",
-                "show-in-hero": "",
-                "show-between-posts": "",
-                "show-count-of-readers-who-stopped": "",
-                "hide-when-behind": "",
-                "max-visible": "",
-                "unread-icon": "",
-                "only-groups": ""
+                "show-in-discussion-list": "O'quvchilarni muhokama ro'yxatida ko'rsatish",
+                "show-in-hero": "O'quvchilarga munozara qahramonini ko'rsatish",
+                "show-between-posts": "Xabarlar orasida o'qish holatini ko'rsatish",
+                "show-count-of-readers-who-stopped": "Xabarlar orasidagi jami oʻqish oʻrniga oʻqishni toʻxtatgan foydalanuvchilar sonini ko'rsatish",
+                "hide-when-behind": "Agar foydalanuvchi shunchalik ko'p postlar ortida bo'lsa, uni butunlay yashirish",
+                "max-visible": "\"Batafsil o'qish\" dan oldin ko'rsatiladigan maksimal foydalanuvchilar soni",
+                "unread-icon": "Oʻqilmaganlar uchun ikonka",
+                "only-groups": "Faqat o'sha guruhlarga tegishli foydalanuvchilarning o'qish holatini ko'rsatish"
             }
         }
     }

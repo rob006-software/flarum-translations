@@ -480,6 +480,9 @@
         },
         "lib": {
             "debug_button": "Debugovat",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "Skryté"
             },
@@ -502,6 +505,7 @@
             },
             "error": {
                 "dependent_extensions_message": "Není možné deaktivovat {extension} dokud nejsou deaktivována tato závislá rozšíření: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "Jejda, něco se pokazilo. Obnov prosím stránku a zkus to znovu.",
                 "missing_dependencies_message": "Není možné povolit {extension} dokud nejsou povolena tato rozšíření: {extensions}",
                 "not_found_message": "Požadovaný zdroj nebyl nalezen.",
@@ -512,6 +516,10 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             },
             "modal": {
                 "close": "Zavřít"
@@ -587,6 +595,10 @@
                 "new_password_label": "Nové heslo",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {

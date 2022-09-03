@@ -8,13 +8,23 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "Bạn đã bị cấm trong {timeReadable}",
+                "user_suspended_indefinite_text": "Bạn đã bị cấm vĩnh viễn",
                 "user_unsuspended_text": "Bạn đã được mở cấm"
             },
+            "suspension_info": {
+                "dismiss_button": "Bỏ qua",
+                "indefinite": "Đây là cấm vĩnh viễn",
+                "limited": "Thời hạn cấm sẽ có hiệu lực cho đến {date}",
+                "title": "Tài khoản này đã bị cấm"
+            },
             "suspend_user": {
+                "display_message": "Hiển thị thông báo cho người dùng",
                 "indefinitely_label": "Cấm vô thời hạn",
                 "limited_time_days_text": " ngày",
                 "limited_time_label": "Cấm trong một thời gian nhất định...",
                 "not_suspended_label": "Không cấm",
+                "placeholder_optional": "Tuỳ chọn",
+                "reason": "Lý do cấm",
                 "status_heading": "Tình trạng cấm",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Cấm {username}"
@@ -24,6 +34,17 @@
             },
             "user_controls": {
                 "suspend_button": "Cấm"
+            }
+        },
+        "email": {
+            "no_reason_given": "Không có lý do nào đưa ra cho việc đình chỉ.",
+            "suspended": {
+                "subject": "Tài khoản của bạn đã bị cấm",
+                "body": "Chào {recipient_display_name},\n\nBạn đã bị cấm vì lý do:\n\n---\n{suspension_message}\n---\n"
+            },
+            "unsuspended": {
+                "subject": "Tài khoản của bạn đã được bỏ cấm",
+                "body": "Chào {recipient_display_name},\n\nBạn đã được bỏ cấm. Bạn có thể trở lại diễn đàn bằng cách nhấp vào liên kết sau:\n\n{forum_url}\n"
             }
         }
     }
