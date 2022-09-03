@@ -2,20 +2,20 @@
     "migratetoflarum-fake-data": {
         "lib": {
             "generator": {
-                "bulk-mode": "",
-                "bulk-mode-description": "",
-                "user-count": "",
-                "discussion-count": "",
-                "discussion-tags": "",
-                "discussion-tags-none": "",
-                "discussion-tags-random": "",
-                "post-count": "",
-                "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
-                "send": "",
-                "reset": "",
-                "refresh": ""
+                "bulk-mode": "Chế độ hàng loạt",
+                "bulk-mode-description": "Tạo một giá trị ngẫu nhiên duy nhất và sử dụng lại nó cho mọi mục nhập",
+                "user-count": "Số lượng người dùng muốn tạo",
+                "discussion-count": "Số lượng cuộc thảo luận muốn tạo",
+                "discussion-tags": "Các thẻ cho các cuộc thảo luận",
+                "discussion-tags-none": "Không",
+                "discussion-tags-random": "Ngẫu nhiên",
+                "post-count": "Số lượng bài viết muốn tạo",
+                "date": "Seed ngày tháng",
+                "date-start-placeholder": "Ngày bắt đầu (mặc định: bây giờ)",
+                "date-interval-placeholder": "Khoảng thời gian (mặc định: 1 giây)",
+                "send": "Tạo dữ liệu",
+                "reset": "Tạo thành công! Nhấn để tải lại",
+                "refresh": "Đóng và tải lại trang"
             }
         },
         "forum": {

@@ -15,7 +15,7 @@
                 "watermark": "Chọn xem hình ảnh có được thêm hình mờ trong quá trình tải lên hay không. Hình mờ được thêm vào không phải gif dựa trên tùy chọn của bạn bên dưới.\n",
                 "s3_compatible_storage": "Các cài đặt sau chỉ được yêu cầu khi sử dụng bộ lưu trữ tương thích S3. Nếu bạn sử dụng AWS, bạn có thể để trống chúng.\n",
                 "s3_acl": "ACL sẽ được áp dụng cho đối tượng được tải lên (mặc định: private). Để biết các giá trị có thể, hãy xem https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
-                "s3_instance_profile": "",
+                "s3_instance_profile": "Để trống khóa và bí mật để sử dụng thông tin đăng nhập trong hồ sơ cá thể.\n",
                 "composer_buttons": "Theo mặc định, cả nút quản lý và nút tải lên đều hiển thị. Bạn cũng có thể chọn chỉ hiển thị một nút.\n"
             },
             "labels": {
@@ -40,7 +40,8 @@
                 },
                 "imgur": {
                     "client_id": "ID khách hàng Imgur",
-                    "title": "Thiết lập lưu trữ Imgur"
+                    "title": "Thiết lập lưu trữ Imgur",
+                    "tos": "Bạn có trách nhiệm đảm bảo người dùng diễn đàn của mình tuân thủ <a>Điều khoản dịch vụ</a> của Imgur"
                 },
                 "local": {
                     "cdn_url": "URL phân phối nội dung (tiền tố tệp)",
@@ -80,7 +81,7 @@
                         "media-btn": "Chỉ nút quản lý phương tiện"
                     }
                 },
-                "inspect-mime": ""
+                "inspect-mime": "Test kiểu tệp MIME"
             },
             "permissions": {
                 "download_label": "Tải xuống tập tin",
@@ -112,17 +113,17 @@
                 "qiniu": "QiNiu"
             },
             "inspect-mime": {
-                "title": "",
-                "description": "",
-                "select": "",
-                "laravel-validation": "",
-                "no-file-selected": "",
-                "validation-passed": "",
-                "validation-failed": "",
-                "mime-detector": "",
-                "mime-fileinfo": "",
-                "guessed-extension": "",
-                "not-available": ""
+                "title": "Kiểm tra MIME",
+                "description": "FoF Upload sử dụng thư viện <a>PHP Mime Detector</a> cho các loại MIME phổ biến và PHP Fileinfo làm dự phòng.\nGiá trị MIME do Fileinfo trả về có thể khác nhau giữa các máy chủ!\n",
+                "select": "Chọn một tệp bên dưới để kiểm tra các giá trị sẽ được sử dụng. Tệp sẽ không được lưu.",
+                "laravel-validation": "Xác thực tệp Laravel",
+                "no-file-selected": "Không có tệp",
+                "validation-passed": "Đã vượt qua",
+                "validation-failed": "Thất bại: {error}",
+                "mime-detector": "Trình phát hiện Mime (chính)",
+                "mime-fileinfo": "PHP Fileinfo (dự phòng)",
+                "guessed-extension": "Phần mở rộng tệp mặc định (nếu tệp gốc không có trong danh sách cho phép)",
+                "not-available": "Không có kết quả"
             }
         },
         "forum": {

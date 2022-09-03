@@ -2,14 +2,15 @@
     "blomstra-user-filter": {
         "admin": {
             "settings": {
-                "min_length": "",
-                "result_count": ""
+                "intro": "",
+                "min_length": "Mažiausias simbolių skaičius norint pradėti paiešką",
+                "result_count": "Maksimaliai išskleidžiamojo automatinio užbaigimo rezultatai"
             }
         },
         "forum": {
             "index_page": {
                 "filter_user": {
-                    "accessible_label": "",
+                    "accessible_label": "Filtruoti pagal autorių",
                     "all": "",
                     "label": "",
                     "search_label": "",

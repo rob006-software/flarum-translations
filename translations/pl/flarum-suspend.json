@@ -37,6 +37,7 @@
             }
         },
         "email": {
+            "no_reason_given": "Nie podano powodu tego bana.",
             "suspended": {
                 "subject": "Twoje konto zostało zbanowane",
                 "body": "Witaj {recipient_display_name},\n\nTwoje konto zostało zbanowane z następującego powodu:\n\n---\n{suspension_message}\n---\n"

@@ -40,7 +40,8 @@
                 },
                 "imgur": {
                     "client_id": "Imgur 客户ID",
-                    "title": "Imgur 图片存储设置"
+                    "title": "Imgur 图片存储设置",
+                    "tos": "你有义务确保你的用户遵守 Imgur 的 <a>服务条款</a>"
                 },
                 "local": {
                     "cdn_url": "文件链接前缀 / 对象存储 CDN 或访问域名（含 http/https）",
@@ -69,8 +70,8 @@
                 "watermark": {
                     "file": "上传水印图片",
                     "position": "水印位置",
-                    "title": "图片水印功能",
-                    "toggle": "开启水印"
+                    "title": "图片水印",
+                    "toggle": "开启"
                 },
                 "composer_buttons": {
                     "title": "编辑器按钮",

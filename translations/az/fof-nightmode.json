@@ -8,6 +8,7 @@
         "admin": {
             "settings": {
                 "modal": {
+                    "always_show_theme_toggle_on_header": "",
                     "default_theme": "Defolt forum teması",
                     "default_theme_helper": "Varsayılan tema avtomatik olaraq yeni istifadəçilər, qonaqlar və heç bir üstünlük təyin etməyənlər üçün təyin olunur.",
                     "theme_auto": "=> fof-nightmode.ref.auto",
@@ -41,6 +42,16 @@
                         "night": "Bir az bayquşsan. Gecələr, quşlar yatarkən və tülkülər ov edərkən forumu izləyirsiniz. Yoxsa daha qaranlıq rənglərə üstünlük verirsiniz!"
                     }
                 }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "fofNightMode": "",
+                "fofNightMode-help": "",
+                "fofNightMode_perDevice": "",
+                "fofNightMode_perDevice-help": ""
             }
         }
     }

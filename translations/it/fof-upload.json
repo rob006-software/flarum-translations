@@ -15,7 +15,7 @@
                 "watermark": "Qui puoi decidere se aggiungere un Watermark alle tue immagini. Il Watermark sarà aggiunto a tutte le immagini non GIF seguendo le impostazioni che inserirai qui sotto\n",
                 "s3_compatible_storage": "Le seguenti impostazioni sono necessarie solo quando si utilizza l'archiviazione compatibile S3. Se utilizzi AWS, puoi lasciarli vuoti.\n",
                 "s3_acl": "L'ACL da applicare all'oggetto caricato (predefinito: privato). Per i valori possibili, vedere https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
-                "s3_instance_profile": "",
+                "s3_instance_profile": "Lascia la chiave e il segreto vuoti per utilizzare le credenziali nel profilo dell'istanza.\n",
                 "composer_buttons": "Per impostazione predefinita, sono visibili sia il pulsante del gestore multimediale che il pulsante di caricamento. Puoi anche scegliere di visualizzare un solo pulsante.\n"
             },
             "labels": {
@@ -40,7 +40,8 @@
                 },
                 "imgur": {
                     "client_id": "Imgur client ID",
-                    "title": "Impostazioni storage Imgur"
+                    "title": "Impostazioni storage Imgur",
+                    "tos": "È tua responsabilità assicurarti che gli utenti del tuo forum aderiscano ai <a>Termini di servizio</a> di Imgur"
                 },
                 "local": {
                     "cdn_url": "URL CDN (prefisso file)",
@@ -80,7 +81,7 @@
                         "media-btn": "Solo pulsante Media manager"
                     }
                 },
-                "inspect-mime": ""
+                "inspect-mime": "Test file MIME type"
             },
             "permissions": {
                 "download_label": "Scarica file",
@@ -112,17 +113,17 @@
                 "qiniu": "QiNiu"
             },
             "inspect-mime": {
-                "title": "",
-                "description": "",
-                "select": "",
-                "laravel-validation": "",
-                "no-file-selected": "",
-                "validation-passed": "",
-                "validation-failed": "",
-                "mime-detector": "",
-                "mime-fileinfo": "",
-                "guessed-extension": "",
-                "not-available": ""
+                "title": "Ispeziona MIME",
+                "description": "FoF Upload utilizza la libreria <a>PHP Mime Detector</a> per i tipi MIME comuni e PHP Fileinfo come fallback.\nIl valore MIME restituito da Fileinfo può essere diverso da server a server!\n",
+                "select": "Selezionare un file di seguito per controllare i valori che verranno utilizzati. Il file non verrà salvato.",
+                "laravel-validation": "Validazione File Laravel",
+                "no-file-selected": "Nessun file",
+                "validation-passed": "Passato",
+                "validation-failed": "Fallito: {error}",
+                "mime-detector": "Mime Detector (primario)",
+                "mime-fileinfo": "PHP Fileinfo (fallback)",
+                "guessed-extension": "Estensione file predefinita (se l'originale non è nella whitelist)",
+                "not-available": "Nessun risultato"
             },
             "buttons": {
                 "save": "Salva impostazioni"

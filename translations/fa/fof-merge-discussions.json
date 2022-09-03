@@ -2,58 +2,58 @@
     "fof-merge-discussions": {
         "forum": {
             "modal": {
-                "title": "",
-                "ordering_heading": "",
-                "ordering_date_label": "",
-                "ordering_date_help": "",
-                "ordering_suffix_label": "",
-                "ordering_suffix_help": "",
-                "type_heading": "",
-                "type_target_label": "",
-                "type_target_help_text": "",
-                "type_from_label": "",
-                "type_from_help_text": "",
-                "load_preview_button": "",
+                "title": "ادغام بحث ها",
+                "ordering_heading": "سفارش ادغام",
+                "ordering_date_label": "ادغام پست ها بر اساس تاریخ ایجاد",
+                "ordering_date_help": "پست‌ها در نتابج بحث بر اساس تاریخ ایجاد جداگانه مرتب می‌شوند",
+                "ordering_suffix_label": "پست های ادغام شده را به انتهای بحث اضافه کنید",
+                "ordering_suffix_help": "پست هایی که در بحث باقی مانده ادغام شده اند در پایان بحث ضمیمه خواهند شد",
+                "type_heading": "نوع ادغام",
+                "type_target_label": "در من ادغام شو",
+                "type_target_help_text": "بحث(ها) را برای ادغام در <b>{title}</b> انتخاب کنید.",
+                "type_from_label": "این بحث را در بحث دیگری ادغام کنید",
+                "type_from_help_text": "بحث هدف را برای ادغام <b>{title}</b> در آن انتخاب کنید.",
+                "load_preview_button": "پیش نمایش",
                 "submit_button": ""
             },
             "notification": {
-                "discussion_merged": "",
+                "discussion_merged": "بحث شما <b>{oldTitle}</b> توسط {username} در این بحث ادغام شد.",
                 "preferences": {
-                    "discussion_merged": ""
+                    "discussion_merged": "شخصی یکی از بحث های من را با دیگری ادغام می کند"
                 }
             },
             "discussion": {
                 "merge": ""
             },
             "post": {
-                "merged": ""
+                "merged": "{count, plural, one {پست <b>#</b> ادغام شد از {titles}.} other {پست های <b>#</b> ادغام شدند از {titles}.}}"
             }
         },
         "admin": {
             "permissions": {
-                "merge_discussions_label": ""
+                "merge_discussions_label": "ادغام بحث ها"
             },
             "settings": {
-                "search_result_help": "",
-                "search_result_label": ""
+                "search_result_help": "هنگام جستجو در حالت \"ادغام بحث ها\" چه تعداد بحث باید برگردانده شود. پیش فرض 4 است",
+                "search_result_label": "ادغام محدودیت جستجوی بحث"
             }
         },
         "api": {
             "error": {
-                "merging_failed": "",
-                "updating_failed": "",
-                "deleting_failed": "",
-                "fixing_posts_number_failed": "",
-                "fixing_posts_number_meta_failed": ""
+                "merging_failed": "ادغام بحث ها انجام نشد.",
+                "updating_failed": "جزئیات بحث به روز نشد.",
+                "deleting_failed": "بحث های خالی حذف نشد.",
+                "fixing_posts_number_failed": "شماره پست‌ها اصلاح نشد.",
+                "fixing_posts_number_meta_failed": "شماره پست‌ها اصلاح نشد."
             }
         },
         "ref": {
-            "merge": ""
+            "merge": "ادغام"
         },
         "email": {
             "merged": {
-                "body": "",
-                "subject": ""
+                "body": "سلام {recipient_display_name}،\n\nبحث شما، {merged_discussion_title}، توسط {actor_display_name} در {discussion_title} ادغام شد.\n\nاینجا {discussion_url} را مشاهده کنید.\n",
+                "subject": "بحث شما \"{merged_discussion_title}\" ادغام شد"
             }
         }
     }

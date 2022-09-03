@@ -19,7 +19,11 @@
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "Nous n'avons trouvé aucun utilisateur correspondant à votre recherche.",
-                "filter_button": "Groupes de filtres"
+                "filter_button": "Groupes de filtres",
+                "usercard": {
+                    "discussion-count": "{count, plural, one { {count} discussion} other {{count} discussions}}",
+                    "post-count": "{count, plural, one { {count} message} other {{count} messages}}"
+                }
             }
         },
         "admin": {

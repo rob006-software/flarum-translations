@@ -23,7 +23,7 @@
                 "make_public": "Valóban eltávolítja a résztvevőket és mindenki számára láthatóvá teszi a témát, akik láthatják a hozzárendelt címkét?"
             },
             "labels": {
-                "recipients": "{count} címzett"
+                "recipients": "{count, plural, one {{count} címzett} other {{count} címzett}}"
             },
             "nav": {
                 "start_button": "Privát beszélgetés",

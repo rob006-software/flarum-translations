@@ -3,12 +3,12 @@
         "forum": {
             "modal": {
                 "title": "Unisci Discussioni",
-                "ordering_heading": "",
-                "ordering_date_label": "",
-                "ordering_date_help": "",
-                "ordering_suffix_label": "",
-                "ordering_suffix_help": "",
-                "type_heading": "",
+                "ordering_heading": "Ordine di unione",
+                "ordering_date_label": "Unisci i post per data di creazione",
+                "ordering_date_help": "I post nella discussione risultante vengono riordinati in base alla data di creazione individuale",
+                "ordering_suffix_label": "Aggiungi i post uniti alla fine della discussione",
+                "ordering_suffix_help": "I post che vengono uniti alla discussione di destinazione verranno aggiunti alla fine della discussione",
+                "type_heading": "Tipo di unione",
                 "type_target_label": "Unisci qui",
                 "type_target_help_text": "Scegli discussione(i) da unire dentro <b>{title}</b>.",
                 "type_from_label": "Unisci questa discussione in un'altra",
@@ -34,7 +34,7 @@
                 "merge_discussions_label": "Unisci discussioni"
             },
             "settings": {
-                "search_result_help": "Quante discussioni devono essere restituite durante la ricerca all'interno del modale `Unisci discussioni`. Il valore predefinito è 4",
+                "search_result_help": "Quante discussioni devono essere restituite durante la ricerca all'interno del modale `Unisci discussioni`.",
                 "search_result_label": "Limite ricerca di Unisci Discussioni"
             }
         },
@@ -44,7 +44,7 @@
                 "updating_failed": "Impossibile aggiornare i dettagli della discussione.",
                 "deleting_failed": "Impossibile eliminare discussioni vuote.",
                 "fixing_posts_number_failed": "Riordinamento numero post fallito.",
-                "fixing_posts_number_meta_failed": ""
+                "fixing_posts_number_meta_failed": "Impossibile correggere i numeri dei post."
             }
         },
         "ref": {

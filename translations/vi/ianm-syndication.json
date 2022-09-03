@@ -21,20 +21,31 @@
                     "discussion_title": "{discussion_name}",
                     "discussion_subtitle": "Các bài viết mới nhất trong cuộc thảo luận này"
                 }
+            },
+            "discussion": {
+                "feed_link": "Nguồn tin"
             }
         },
         "admin": {
             "settings": {
                 "full-text": {
                     "label": "Nguồn cấp dữ liệu hiện tất cả văn bản",
-                    "help": "Nếu bị tắt, nguồn cấp dữ liệu sẽ chỉ chứa đoạn trích của các bài đăng, và người dùng sẽ phải vào diễn đàn để đọc mọi thứ.",
+                    "help": "Nếu bị tắt, nguồn cấp dữ liệu sẽ chỉ chứa đoạn trích của các bài đăng, và người dùng sẽ phải vào diễn đàn để đọc mọi thứ. Tôi khuyên bạn nên để tùy chọn này hoạt động để tôn trọng những người theo dõi diễn đàn từ một trình tổng hợp RSS — nếu có.",
                     "recommendation": "Tôi khuyên bạn nên để tùy chọn này hoạt động để tôn trọng những người theo dõi diễn đàn từ một trình tổng hợp RSS — nếu có."
                 },
                 "html": {
                     "label": "Định dạng nguồn cấp dữ liệu được",
                     "help": "Chọn tùy chọn này để giữ HTML trong các nguồn cấp dữ liệu đã tạo. Nếu bị tắt, nguồn cấp dữ liệu sẽ ở dạng văn bản thuần túy."
                 },
-                "entries-count": "Có bao nhiêu mục trên mỗi nguồn cấp dữ liệu?"
+                "entries-count": "Có bao nhiêu mục trên mỗi nguồn cấp dữ liệu?",
+                "forum-icons": {
+                    "label": "Hiển thị liên kết nguồn cấp dữ liệu Atom/RSS trên diễn đàn",
+                    "help": "Hiển thị các biểu tượng trong Tất cả các cuộc thảo luận, thẻ và cuộc thảo luận để cho phép dễ dàng truy cập vào (các) nguồn cấp dữ liệu."
+                },
+                "forum-link-format": {
+                    "label": "Định dạng nguồn cấp dữ liệu diễn đàn",
+                    "help": "Chọn định dạng (Atom hoặc RSS) sẽ được sử dụng khi các liên kết được hiển thị trên diễn đàn."
+                }
             }
         }
     }

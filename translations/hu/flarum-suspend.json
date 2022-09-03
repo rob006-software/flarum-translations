@@ -7,9 +7,9 @@
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "Fel vagy függesztve {timeReadable}",
+                "user_suspended_text": "Felfüggesztették {timeReadable}",
                 "user_suspended_indefinite_text": "Határozatlan ideig felfüggesztették",
-                "user_unsuspended_text": "A felfüggesztésed fel lett oldva"
+                "user_unsuspended_text": "A felfüggesztését feloldották"
             },
             "suspension_info": {
                 "dismiss_button": "Eltüntetés",
@@ -37,6 +37,7 @@
             }
         },
         "email": {
+            "no_reason_given": "Nem lett megadva a felfüggesztés oka.",
             "suspended": {
                 "subject": "A fiókját felfüggesztették",
                 "body": "Kedves {recipient_display_name}!\n\nA fiókját a következő okból felfüggesztették:\n\n---\n{suspension_message}\n---\n"

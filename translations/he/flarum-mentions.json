@@ -2,13 +2,13 @@
     "flarum-mentions": {
         "admin": {
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "אפשר פורמט לתיוג משתמש (@שם_משתמש)",
+                "allow_username_format_text": "פורמט נוכחי הוא @\"שם_משתמש\"#ID.\nההגדרה מאפשרת להשתמש בפורמט ישן של @שם_משתמש, בכל מקרה, זה ישונה באופן אוטומטי לפורמט החדש לאחר שמירה.\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "",
+                "mention_tooltip": "תיוג משתמש או הודעה",
                 "reply_to_post_text": "תגובה ל #{number}"
             },
             "notifications": {
@@ -32,17 +32,17 @@
                 "mentions_link": "אזכורים"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[לא ידוע]"
             }
         },
         "email": {
             "post_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "המשתמש {replier_display_name} הגיב לך בהודעה {title}",
+                "body": "שלום {recipient_display_name}!\n\nהמשתמש {replier_display_name} הגיב לך בהודעה (#{post_number}) בנושא {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} תייג אותך בנושא {title}",
+                "body": "שלום {recipient_display_name}!\n\nהמשתמש {mentioner_display_name} תייג אותך בהודעה בנושא {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }

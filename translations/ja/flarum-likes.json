@@ -2,27 +2,27 @@
     "flarum-likes": {
         "admin": {
             "permissions": {
-                "like_posts_label": "いいね！する"
+                "like_posts_label": "投稿にいいね！を付ける"
             }
         },
         "forum": {
             "notifications": {
                 "others_text": "=> core.ref.some_others",
-                "post_liked_text": "{username} があなたの投稿にいいねしました"
+                "post_liked_text": "{username} がいいね！しました"
             },
             "post": {
                 "like_link": "いいね！",
-                "liked_by_self_text": "{users} がいいねしました",
-                "liked_by_text": "{users}がいいねしました|{users}がいいねしました",
+                "liked_by_self_text": "{users} がいいね！しました",
+                "liked_by_text": "{count, plural, one {{users} がいいね！しました} other {{users} がいいね！しました}}",
                 "others_link": "=> core.ref.some_others",
-                "unlike_link": "いいねを取り消す",
+                "unlike_link": "いいね！を取り消す",
                 "you_text": "=> core.ref.you"
             },
             "post_likes": {
-                "title": "いいね！したユーザー"
+                "title": "いいね！を付けたユーザー"
             },
             "settings": {
-                "notify_post_liked_label": "誰かがあなたの投稿をいいねした時"
+                "notify_post_liked_label": "あなたの投稿にいいね！が付いた時"
             }
         }
     }

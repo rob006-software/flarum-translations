@@ -62,6 +62,7 @@
                     "title": "Başlık",
                     "accept-submissions": "Açık",
                     "allow-modification": "Değişiklik",
+                    "enabled": "Etkinleştirildi",
                     "submissions": "Başvurumlar",
                     "actions": "Eylemler"
                 }
@@ -108,7 +109,9 @@
                     "closed": "Kapalı",
                     "create": "Sadece oluştur",
                     "edit": "Yalnızca düzenle",
-                    "both": "Oluştur ve düzenle"
+                    "both": "Oluştur ve düzenle",
+                    "enabled": "Etkinleştirildi",
+                    "disabled": "Taslak"
                 },
                 "controls": "Kontroller",
                 "template-export": "Şablon içe aktar/dışa aktar",
@@ -127,7 +130,7 @@
                 "warnings": {
                     "show-on-signup-invalid-permissions": "\"Kayıt sırasında göster\" özelliğini kullanmak için onaylanmamış üyelere \"kendini gör\" ve \"kendini düzenle\" iznini ayarlamanız gerekir.\n",
                     "show-on-composer-invalid-permissions": "\"Composer'de göster\"i kullanmak için seçilen etiket(ler)le tartışma başlatabilecek \"kendini gör\" ve \"kendini düzenle\" izinlerinin eşleşmesini sağlayın. Emin değilseniz \"üyeler\" olarak ayarlayın. Ayarlarınız doğru olsa bile bu mesaj görünebilir.\n",
-                    "linked-form-is-draft": "Bu form şu anda taslak modunda. Alanların forumda görünmesi için \"yeni gönderileri kabul et\" seçeneğini etkinleştirin.\n",
+                    "linked-form-is-draft": "Bu form şu anda taslak modunda. Alanların forumda görünmesi için \"Erişim\" altında etkinleştirin.\n",
                     "auto-link-permission-warning": "\"Tartışmayı otomatik olarak oluştur\" seçeneğine sahip formlar, bağımsız olarak erişildiğinde genel doldurma iznini kullanır.\n"
                 },
                 "expert-mode-warning": "Uzman modu etkinleştirildi. Bu, alan tanımlayıcılarını ve alan başına izinleri özelleştirmenize olanak tanır. Bir şeyleri bozabileceğiniz için bu özellikle ilgili belgeleri okuduğunuzdan emin olun!\n",
@@ -146,6 +149,7 @@
                     "automatic-discussion-help": "Etkinleştirildiğinde, form bağımsız bir form gibi erişilebilir olmaya devam eder. Gönderiler otomatik olarak yeni tartışmalar oluşturacak ve bunlara bağlanacaktır.\n",
                     "accept-submissions": "Yeni gönderimleri kabul et",
                     "allow-modification": "Kullanıcıların mevcut gönderilerini düzenlemesine izin ver",
+                    "enable": "Etkinleştirildi",
                     "max-submissions": "Maksimum gönderim (sınırsız için boş bırakın)",
                     "send-confirmation-to-participants": "Katılımcılara onay e-postası gönder",
                     "notify-emails": "Bu virgülle ayrılmış e-postalara verilerin bir kopyasını gönderin",
@@ -346,6 +350,10 @@
                     "boolean-true": "Doğru",
                     "boolean-false": "Yanlış"
                 }
+            },
+            "discussion-submission": {
+                "empty": "Henüz veri yok",
+                "edit": "Düzenle"
             }
         },
         "api": {

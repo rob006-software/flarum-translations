@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Konfiguruj zakresy uprawnień",
-                "confirm_uninstall": "Odinstalowanie usunie wszystkie wpisy w bazie i zasoby powiązane z tym rozszerzeniem. Czy jesteś pewien, że chcesz kontynuować?",
+                "confirm_purge": "Wszystkie wpisy w bazie oraz zasoby powiązane z tym rozszerzeniem zostaną usunięte. Samo rozszerzenie nie zostanie odinstalowane, to musi być dokonane za pomocą Composera. Czy chcesz kontynuować?",
                 "disabled": "Wyłączone",
                 "enable_to_see": "Włącz to rozszerzenie aby uzyskać dostęp do jego ustawień.",
                 "enabled": "Włączone",
@@ -116,8 +116,6 @@
                 "no_settings": "To rozszerzenie nie posiada żadnych ustawień.",
                 "open_modal": "Otwórz ustawienia",
                 "permissions_title": "Uprawnienia",
-                "uninstall_button": "Odinstaluj",
-                "confirm_purge": "Wszystkie wpisy w bazie oraz zasoby powiązane z tym rozszerzeniem zostaną usunięte. Samo rozszerzenie nie zostanie odinstalowane, to musi być dokonane za pomocą Composera. Czy chcesz kontynuować?",
                 "purge_button": "Wyczyść",
                 "readme": {
                     "button_label": "README",
@@ -303,7 +301,6 @@
             "discussion_list": {
                 "empty_text": "Wygląda na to, że nie ma tutaj żadnych dyskusji.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Oznacz jako odczytane",
                 "replied_text": "{username} odpowiedział {ago}",
                 "started_text": "{username} rozpoczął {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# odpowiedź} other {# odpowiedzi}}",
@@ -459,6 +456,10 @@
             }
         },
         "lib": {
+            "debug_button": "Debug",
+            "alert": {
+                "dismiss_a11y_label": "Ukryj alert"
+            },
             "badge": {
                 "hidden_tooltip": "Ukryte"
             },
@@ -481,6 +482,7 @@
             },
             "error": {
                 "dependent_extensions_message": "Nie można wyłączyć {extension}, jeśli następujące zależne rozszerzenia są włączone: {extensions}",
+                "extension_initialiation_failed_message": "Nie udało się zainicjować rozszerzenia {extension}. Aby uzyskać więcej informacji, sprawdź konsolę przeglądarki.",
                 "generic_message": "Ups! Coś poszło nie tak. Odśwież stronę i spróbuj ponownie.",
                 "missing_dependencies_message": "Nie można włączyć {extension}, jeśli następujące zależności są wyłączone: {extensions}",
                 "not_found_message": "Żądany zasób nie został znaleziony.",
@@ -491,6 +493,16 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Strona # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Strona # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Zamknij"
+            },
+            "nav": {
+                "drawer_button": "Otwórz nawigację"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -503,20 +515,6 @@
             },
             "username": {
                 "deleted_text": "[usunięty]"
-            },
-            "debug_button": "Debug",
-            "alert": {
-                "dismiss_a11y_label": "Ukryj alert"
-            },
-            "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Strona # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Strona # - {forumName}}}"
-            },
-            "modal": {
-                "close": "Zamknij"
-            },
-            "nav": {
-                "drawer_button": "Otwórz nawigację"
             }
         },
         "views": {
@@ -574,10 +572,6 @@
                 "new_password_label": "Nowe hasło",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
             }
         },
         "api": {

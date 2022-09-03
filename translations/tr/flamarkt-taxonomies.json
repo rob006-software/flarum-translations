@@ -35,7 +35,10 @@
                     "customValueSluggerDescription": "Slug'un nasıl oluşturulmasını istediğinizi seçin. Bir bilgi zaten varsa, sayısal bir önek otomatik olarak eklenir. Transliterator seçeneği için, diğer uzantıyı önceden yüklemeniz ve yapılandırmanız gerekir.\n",
                     "countRequired": "Gerekli terim sayısı",
                     "countRequiredDescription": "Bu sınıflandırmalardan bir tartışmaya uygulanabilecek minimum ve maksimum terim sayısını girin.\n",
-                    "rangeSeparatorText": "ile"
+                    "rangeSeparatorText": "ile",
+                    "tagScope": "",
+                    "tagScopeDescription": "",
+                    "tagScopePlaceholder": ""
                 },
                 "delete": "=> flamarkt-taxonomies.ref.delete",
                 "deleteConfirmation": "{name} sınıflandırmasını gerçekten silmek istiyor musunuz? Bu sınıflandırma altındaki tüm terimler silinecektir. Sınıflandırmayı kullanan tartışmalar SİLİNMEZ.\n",
@@ -83,6 +86,7 @@
             "permissions": {
                 "heading": "Taksonomiler",
                 "moderate": "Kullanılabilir taksonomileri yapılandırın",
+                "bypassTermCounts": "",
                 "seeOwnDiscussion": "Taksonomileri kendi tartışmalarında görün",
                 "seeAnyDiscussion": "Bütün tartışmalarda taksonomileri gör",
                 "editOwnDiscussion": "Taksonomileri kendi tartışmalarında düzenleyin",
@@ -108,6 +112,11 @@
             "user": {
                 "nav": "Taksonomiler",
                 "edit": "{taxonomy} düzenle"
+            },
+            "blog": {
+                "widget": {
+                    "title": ""
+                }
             }
         },
         "lib": {
@@ -116,15 +125,18 @@
                     "new": "Tartışmanız için {taxonomy}'yi seçin",
                     "edit": "{title} için {taxonomy} düzenle"
                 },
-                "placeholder": "{count, plural, one {Choose a term...} other {Choose # terms...}}",
+                "placeholder": "{count, plural, one {Bir terim seçin...} other {# terim seçin...}}",
                 "placeholderOptional": "Seçin...",
                 "custom": "{value} kullanın",
+                "bypassTermCounts": "",
                 "submit": "Tamam"
             }
         },
         "api": {
             "error": {
-                "invalid_filter_taxonomy": "Geçersiz \"{type}\" sınıflandırma filtre anahtarı \"{slug}\""
+                "invalid_filter_taxonomy": "Geçersiz \"{type}\" sınıflandırma filtre anahtarı \"{slug}\"",
+                "discussion_taxonomy_not_in_scope": "",
+                "cannot_use_taxonomies_on_model": ""
             }
         },
         "ref": {

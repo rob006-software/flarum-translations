@@ -2,117 +2,121 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "",
-                "votes_button": ""
+                "hot_button": "Suositut",
+                "votes_button": "Plusäänet"
             }
         }
     },
     "fof-gamification": {
         "forum": {
-            "votes": "",
-            "vote_title": "",
+            "votes": "Äänet",
+            "vote_title": "Näytä äänestäneet",
             "nav": {
-                "name": ""
+                "name": "Sijoitukset"
             },
             "ranking": {
-                "rank": "",
-                "name": "",
-                "amount": ""
+                "rank": "Sija",
+                "name": "Käyttäjä",
+                "amount": "Pisteet"
             },
             "notification": {
-                "upvote": "",
-                "downvote": "",
+                "upvote": "{username} äänesti plussaa viestiisi",
+                "downvote": "{username} äänesti miinusta viestiisi",
                 "prefrences": {
-                    "vote": ""
+                    "vote": "Kun joku viesteistäni on plus/miinus äänestetty"
                 }
             },
             "user": {
-                "points": "",
-                "rank": ""
+                "card": {
+                    "points": "{count, plural, one { {count} piste} other {{count} pistettä}}"
+                },
+                "rank": "{rank}",
+                "votes_link": "Äänet",
+                "points": ""
             },
             "modal": {
-                "downvotes_label": "",
-                "title": "",
-                "upvotes_label": ""
+                "downvotes_label": "Miinus äänestäjät:",
+                "title": "Äänestäjät",
+                "upvotes_label": "Plus äänestäjät:"
             },
-            "mod_item": "",
+            "mod_item": "Näytä äänestäjät",
             "voters": {
-                "none": "",
-                "label": "",
-                "label_none": ""
+                "none": "Ei äänestäjiä",
+                "label": "Äänestäjät",
+                "label_none": "Ei äänestäjiä"
             },
             "post": {
-                "upvote_button": "",
-                "downvote_button": ""
+                "upvote_button": "Plus äänestä viestiä",
+                "downvote_button": "Miinus äänestä viestiä"
             }
         },
         "admin": {
             "permissions": {
-                "vote_label": "",
-                "see_votes_label": "",
-                "see_voters_label": "",
-                "see_ranking_page": "",
-                "upvote_notifications": "",
-                "downvote_notifications": ""
+                "vote_label": "Plus/miinus äänestä viestiä",
+                "see_votes_label": "Näe plus/miinus äänten määrä",
+                "see_voters_label": "Näe äänestäjät",
+                "see_ranking_page": "Näe sijoitus sivu",
+                "upvote_notifications": "Saa ilmoitus plus äänestä",
+                "downvote_notifications": "Saa ilmoitus miinus äänestä"
             },
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "",
-                        "title": "",
-                        "help": ""
+                        "placeholder": "CDK2020, Ralkage, AngelAvila",
+                        "title": "Huomiotta jätetyt käyttäjät",
+                        "help": "Näytä käyttäjiä ei näytetä sijoitukset sivulla. Käyttäjätunnukset tulee erotella pilkulla jonka jälkeen tulee väli."
                     },
-                    "title": "",
-                    "enable": "",
-                    "custom_image_1": "",
-                    "custom_image_2": "",
-                    "custom_image_3": ""
+                    "title": "Sijoitukset sivu",
+                    "enable": "Ota käyttöön omat kuvat",
+                    "custom_image_1": "1 sijan kuva",
+                    "custom_image_2": "2 sijan kuva",
+                    "custom_image_3": "3 sijan kuva"
                 },
                 "alt_votes": {
-                    "icon_name": ""
+                    "icon_name": "Alt nimi ikonille"
                 },
                 "votes": {
-                    "points_title": "",
-                    "points_placeholder": "",
-                    "color_holder": "",
-                    "auto_upvote": "",
-                    "rate_limit": "",
-                    "discussion_page": "",
-                    "alternate_layout": "",
-                    "alternate_post_layout": "",
-                    "title": "",
-                    "vote_color": "",
-                    "icon_name": "",
-                    "icon_help": "",
-                    "upvotes_only": "",
-                    "first_post_only": ""
+                    "points_title": "Pisteiden placeholder",
+                    "points_placeholder": "Pisteet: ",
+                    "color_holder": "#ffffff",
+                    "auto_upvote": "Automaattisesti annan plus ääni kirjoittaessa viestiä",
+                    "rate_limit": "Ota käyttöön äänestys aikaraja (10 sekuntia)",
+                    "discussion_page": "Näytä äänten yhteenlaskettu määrä alkuperäisessä viestissä keskustelussa",
+                    "alternate_layout": "Käytä vaihtoehtoista äänestys ulkoasua keskustelulistassa",
+                    "alternate_post_layout": "Käytä vaihtoehtoista äänestys ulkoasua viesteissä",
+                    "title": "Äänet",
+                    "vote_color": "Äänten väri",
+                    "icon_name": "Plus/miinus äänen ikoni",
+                    "icon_help": "Syötä mikä tahansa Font-Awesome ikoni mikä loppuu -up ja down. Esimerkiksi: arrow, thumbs, chevron",
+                    "upvotes_only": "Salli vain plus äänet",
+                    "first_post_only": "Salli vain plus/miinus äänet keskustelun ensimmäisessä viestissä"
                 },
-                "save_settings": "",
+                "save_settings": "Tallenna asetukset",
                 "convert": {
-                    "button": "",
-                    "help": "",
-                    "converting": "",
-                    "converted": ""
+                    "button": "Muunna tykkäykset plus ääniksi",
+                    "help": "Muunna entiset tykkäykset flarumin omasta tykkäykset lisäosasta plus ääniksi sekä laske nykyisen keskustelujen suosio.",
+                    "converting": "Tykkäyksiä muunnetaan. Päivitä sivu muutaman minuutin päästä nähdäksesi prosessin loppuneen. (Muunnos voi kestää jonkin aikaa riippuen foorumisi. tykkäyksien määrästä)",
+                    "converted": "Onnistuneesti muunnettiin kaikki {number} tykkäystä"
                 },
                 "ranks": {
-                    "title": "",
-                    "ranks": "",
-                    "number_title": "",
+                    "title": "Sijat",
+                    "ranks": "Muunnetut sijat",
+                    "number_title": "Kuinka monta sija merkkiä näytetään?",
                     "help": {
-                        "color": "",
-                        "help": "",
-                        "points": "",
-                        "name": ""
+                        "color": "#ffffff",
+                        "help": "Syötä vaadittujen plus määrien määrä, sijan nimi sekä sijan hex väri",
+                        "points": "Pisteet",
+                        "name": "Nimi"
                     }
                 }
             }
         },
         "email": {
             "body": {
-                "postVoted": ""
+                "postVoted": "Hei {recipient_display_name},\n\n{actor_display_name} äänesti viestäsi keskustelussa: {discussion_title}.\n\nKatse se täältä: {discussion_url}\n"
             },
             "subject": {
-                "postVoted": ""
+                "postVoted": "Viestiäsi äänesti {display_name}"
             }
         }
     }

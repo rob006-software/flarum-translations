@@ -50,9 +50,9 @@
                 "content": "Seleziona una risposta migliore se la tua domanda ha ricevuto una risposta",
                 "awarded": "Il tuo post è stato scelto come migliore risposta da {nome utente}",
                 "preferences": {
-                    "awarded_best_answer": "Quando qualcuno imposta il mio post come una risposta migliore",
-                    "best_answer_in_discussion": "Quando una risposta migliore è stata scelta in una discussione a cui ho partecipato",
-                    "select_best_answer": ""
+                    "awarded_best_answer": "Qualcuno imposta il mio post come risposta migliore",
+                    "best_answer_in_discussion": "Una risposta migliore è stata scelta in una discussione a cui ho partecipato",
+                    "select_best_answer": "Un promemoria automatico per selezionare una risposta migliore nel thread che ho aperto"
                 }
             },
             "index": {
@@ -69,6 +69,9 @@
             },
             "composer": {
                 "titlePlaceholder": "Titolo Domanda"
+            },
+            "user": {
+                "best-answer-count": "{count, plural, one { {count} risposta migliore} other {{count} risposte migliori}}"
             }
         },
         "email": {

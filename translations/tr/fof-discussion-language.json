@@ -27,6 +27,10 @@
                 "errors": {
                     "missing_assets": "Bu uzantının ihtiyaç duyduğu gereklilikleri yükleyemedik. <code>php flarum assets:publish</code> çalıştırmayı deneyin ve bunun sorunu çözüp çözmediğine bakın.",
                     "loading_data": "Dil ve ülke verileri alınırken bir hata oluştu. Uzantıyı devre dışı bırakıp yeniden etkinleştirmeyi deneyin."
+                },
+                "config": {
+                    "language_label": "",
+                    "country_label": ""
                 }
             },
             "permissions": {

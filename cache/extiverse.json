@@ -1,12 +1,21 @@
 {
+    "blomstra/meta": {
+        "name": "blomstra/meta",
+        "title": "Meta",
+        "description": "Adds document meta: open graph, twitter, schema.org & other seo information",
+        "version": "0.1.0-beta.1",
+        "requiredFlarum": "^1.0.2",
+        "subscriptionPlans": []
+    },
     "blomstra/payments": {
         "name": "blomstra/payments",
         "title": "Payments",
-        "description": "Monetize your Flarum community; pay to post/view/access",
-        "version": "0.3.0",
-        "requiredFlarum": "^1.0.0",
+        "description": "Monetize your Flarum community with different, flexible monetization strategies",
+        "version": "0.5.7",
+        "requiredFlarum": "^1.2.0",
         "subscriptionPlans": [
-            "$16.90 per month"
+            "$17.90 per month",
+            "$185.90 per year"
         ]
     },
     "blomstra/readme": {
@@ -21,9 +30,19 @@
         "name": "blomstra/realtime",
         "title": "Realtime",
         "description": "Step up to make your Flarum forum realtime.",
-        "version": "0.2.8-beta.7",
-        "requiredFlarum": "^1.2.0",
+        "version": "0.2.9",
+        "requiredFlarum": "^1.3.1",
         "subscriptionPlans": []
+    },
+    "blomstra/s3-assets": {
+        "name": "blomstra/s3-assets",
+        "title": "S3 Assets",
+        "description": "Relocate Flarum disks onto S3 or compatible bucket",
+        "version": "0.1.0-beta.8",
+        "requiredFlarum": "^1.3.1",
+        "subscriptionPlans": [
+            "$14.90 once"
+        ]
     },
     "convo-extensions/flarum-ext-guest-posting": {
         "name": "convo-extensions/flarum-ext-guest-posting",
@@ -31,7 +50,11 @@
         "description": "Anonymous, permission-based guest posting extension for Flarum",
         "version": "1.1.0",
         "requiredFlarum": "^1.0",
-        "subscriptionPlans": []
+        "subscriptionPlans": [
+            "$12.00 per month",
+            "$120.00 per year",
+            "$200.00 once"
+        ]
     },
     "convo-extensions/flarum-ext-quick-reply": {
         "name": "convo-extensions/flarum-ext-quick-reply",
@@ -39,7 +62,11 @@
         "description": "Automatically open reply composer when visiting a discussion",
         "version": "1.0.1",
         "requiredFlarum": "^1.1.0",
-        "subscriptionPlans": []
+        "subscriptionPlans": [
+            "$12.00 per month",
+            "$20.00 per year",
+            "$200.00 once"
+        ]
     },
     "datitisev/flarum-backup": {
         "name": "datitisev/flarum-backup",
@@ -57,8 +84,8 @@
         "name": "datitisev/flarum-maintenance",
         "title": "Maintenance Mode",
         "description": "A customizable maintenance mode for your forum!",
-        "version": "1.0.2",
-        "requiredFlarum": "^1.0.0",
+        "version": "1.1.0",
+        "requiredFlarum": "^1.3.0",
         "subscriptionPlans": [
             "$2.50 per month",
             "$25.00 per year",
@@ -83,24 +110,9 @@
         "version": "0.3.8",
         "requiredFlarum": "^1.2.0",
         "subscriptionPlans": [
-            "$2.99 per month",
-            "$5.99 per month",
-            "$9.99 per month"
+            "$14.99 once",
+            "$24.99 once"
         ]
-    },
-    "glowingblue/anti-spam": {
-        "name": "glowingblue/anti-spam",
-        "title": "GB Anti Spam",
-        "description": "Attempts to work against spammers with various strategies",
-        "version": "0.3.0",
-        "requiredFlarum": ">=0.1.0-beta.15 <0.1.0-beta.16"
-    },
-    "glowingblue/core": {
-        "name": "glowingblue/core",
-        "title": "GB Core",
-        "description": "Core stuff for Flarum",
-        "version": "0.2.0",
-        "requiredFlarum": ">=0.1.0-beta.15 <0.1.0-beta.16"
     },
     "glowingblue/engage": {
         "name": "glowingblue/engage",
@@ -109,13 +121,6 @@
         "version": "1.0.0",
         "requiredFlarum": "^1.0.0",
         "subscriptionPlans": []
-    },
-    "glowingblue/fontawesome": {
-        "name": "glowingblue/fontawesome",
-        "title": "GB Fontawesome",
-        "description": "Extension to allow usage of non-standard fontawesome assets",
-        "version": "0.1.1",
-        "requiredFlarum": "^0.1.0-beta.13"
     },
     "glowingblue/inline-hints": {
         "name": "glowingblue/inline-hints",
@@ -129,19 +134,12 @@
         "name": "glowingblue/localizd",
         "title": "GB Localizd",
         "description": "Makes Flarum a truly multi-lingual forum platform",
-        "version": "1.2.0",
-        "requiredFlarum": ">= 1.2.0 < 1.3.0",
+        "version": "1.3.1",
+        "requiredFlarum": "^1.3.0",
         "subscriptionPlans": [
             "$25.00 per month",
             "$250.00 per year"
         ]
-    },
-    "glowingblue/modern-theme": {
-        "name": "glowingblue/modern-theme",
-        "title": "GB Modern Theme",
-        "description": "A modern theme for Flarum",
-        "version": "0.2.0",
-        "requiredFlarum": ">=0.1.0-beta.15 <0.1.0-beta.16"
     },
     "glowingblue/modmsg": {
         "name": "glowingblue/modmsg",
@@ -163,8 +161,8 @@
         "name": "glowingblue/scheduled-posts",
         "title": "GB Scheduled Posts",
         "description": "Adds the ability the schedule posts (new discussions)",
-        "version": "1.2.0",
-        "requiredFlarum": "^1.2.0",
+        "version": "1.4.0",
+        "requiredFlarum": "^1.4.1",
         "subscriptionPlans": []
     },
     "glowingblue/solution-views": {
@@ -187,8 +185,8 @@
         "name": "glowingblue/typeform",
         "title": "GB Typeform",
         "description": "Call to action button that opens a Typeform survey",
-        "version": "1.0.3",
-        "requiredFlarum": "^1.0.0",
+        "version": "1.2.0",
+        "requiredFlarum": "^1.2.0",
         "subscriptionPlans": []
     },
     "glowingblue/welcome-page": {
@@ -197,14 +195,6 @@
         "description": "Welcome page (from FoF Pages) displayed after registration",
         "version": "1.2.0",
         "requiredFlarum": "^1.2.1",
-        "subscriptionPlans": []
-    },
-    "glowingblue/welcome-popup": {
-        "name": "glowingblue/welcome-popup",
-        "title": "GB Welcome Popup",
-        "description": "welcome popup",
-        "version": "0.3.3",
-        "requiredFlarum": ">=0.1.0-beta.12 <0.1.0-beta.14",
         "subscriptionPlans": []
     },
     "justoverclock/auto-post-badge-pro": {
@@ -216,14 +206,6 @@
         "subscriptionPlans": [
             "$15.00 once"
         ]
-    },
-    "justoverclock/bicycle-ext": {
-        "name": "justoverclock/bicycle-ext",
-        "title": "Bicycle",
-        "description": "Bicycle Extension",
-        "version": "0.1.1",
-        "requiredFlarum": "^1.0.0",
-        "subscriptionPlans": []
     },
     "justoverclock/check-duplicate-discussions": {
         "name": "justoverclock/check-duplicate-discussions",
@@ -279,7 +261,7 @@
         "name": "justoverclock/related-discussions",
         "title": "Related Discussions",
         "description": "Add related discussions after first post",
-        "version": "1.3.1",
+        "version": "1.3.3",
         "requiredFlarum": "^1.2.0",
         "subscriptionPlans": [
             "$15.00 per year",
@@ -290,11 +272,9 @@
         "name": "justoverclock/steam-api",
         "title": "Steam Api",
         "description": "Retrieve and show Steam user profile information",
-        "version": "0.1.4",
+        "version": "0.1.5",
         "requiredFlarum": "^1.2.0",
-        "subscriptionPlans": [
-            "$35.00 once"
-        ]
+        "subscriptionPlans": []
     },
     "justoverclock/theaudiodb-api": {
         "name": "justoverclock/theaudiodb-api",
@@ -330,7 +310,7 @@
         "name": "kilowhat/flarum-ext-custom-paths",
         "title": "Custom Paths",
         "description": "Customize Flarum default frontend URL paths",
-        "version": "1.6.0",
+        "version": "1.7.0",
         "requiredFlarum": "^1.0",
         "subscriptionPlans": [
             "$10.00 once"
@@ -340,26 +320,18 @@
         "name": "kilowhat/flarum-ext-formulaire",
         "title": "Formulaire",
         "description": "Create standalone forms, user profiles and discussion fields in Flarum",
-        "version": "1.6.0",
-        "requiredFlarum": "^1.0",
+        "version": "1.6.2",
+        "requiredFlarum": "^1.3",
         "subscriptionPlans": [
             "$5.00 per month",
             "$50.00 per year"
         ]
     },
-    "kilowhat/flarum-ext-guest-posting": {
-        "name": "kilowhat/flarum-ext-guest-posting",
-        "title": "Guest Posting",
-        "description": "Enable guest posting",
-        "version": "1.0.0",
-        "requiredFlarum": "^1.0",
-        "subscriptionPlans": []
-    },
     "kilowhat/flarum-ext-rich-embeds": {
         "name": "kilowhat/flarum-ext-rich-embeds",
         "title": "Rich Embeds",
         "description": "Rich Embeds in Flarum posts",
-        "version": "1.0.2",
+        "version": "1.2.2",
         "requiredFlarum": "^1.2",
         "subscriptionPlans": [
             "$20.00 once"
@@ -407,27 +379,11 @@
             "$37.50 per year"
         ]
     },
-    "reflar/recache": {
-        "name": "reflar/recache",
-        "title": "ReCache",
-        "description": "Cache requests and database queries.",
-        "version": "3.0.1",
-        "requiredFlarum": "^1.0.2",
-        "subscriptionPlans": []
-    },
-    "reflar/webhooks-pro": {
-        "name": "reflar/webhooks-pro",
-        "title": "ReFlar Webhooks PRO",
-        "description": "Webhooks PRO by ReFlar",
-        "version": "0.3.0",
-        "requiredFlarum": "^0.1.0-beta.11",
-        "subscriptionPlans": []
-    },
     "sycho/flarum-private-facade": {
         "name": "sycho/flarum-private-facade",
         "title": "Private Forum Facade",
         "description": "Force guests to an interface with only login and signup forms.",
-        "version": "v0.1.6",
+        "version": "v0.1.8",
         "requiredFlarum": "^1.2.0",
         "subscriptionPlans": [
             "$12.00 per year"
@@ -437,7 +393,7 @@
         "name": "v17development/flarum-support",
         "title": "Support",
         "description": "Make from your forum a support platform",
-        "version": "v2.5.0",
+        "version": "v2.6.0",
         "requiredFlarum": "^1.0.0",
         "subscriptionPlans": [
             "$7.50 per month",

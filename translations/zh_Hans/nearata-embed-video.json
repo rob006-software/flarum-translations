@@ -8,10 +8,13 @@
                     "lang": "播放器语言",
                     "logo": "标志 URL",
                     "quality_switching": "允许切换视频质量",
-                    "theme": "主题色"
+                    "theme": "主题色",
+                    "modal_enabled": "",
+                    "modal_enabled_help": ""
                 },
                 "permissions": {
-                    "can_create_video_player": "允许创建视频播放器"
+                    "can_create_video_player": "允许创建视频播放器",
+                    "can_view_video_player": ""
                 },
                 "video_types": {
                     "dash": "DASH（自适应流媒体传输）",
@@ -38,8 +41,18 @@
                     "webtorrent": "WebTorrent"
                 },
                 "video_url_label": "视频地址",
-                "video_url_placeholder": "例：https://example.com/filename.mp4"
-            }
+                "video_url_placeholder": "例：https://example.com/filename.mp4",
+                "quality_switching_tutorial": "",
+                "pointer_label": "",
+                "pointer_option_new": "",
+                "quality_option_new": "",
+                "add_quality": "",
+                "remove_quality": "",
+                "add_pointer": "",
+                "remove_pointer": "",
+                "qualities_label": ""
+            },
+            "cannot_view": ""
         }
     }
 }

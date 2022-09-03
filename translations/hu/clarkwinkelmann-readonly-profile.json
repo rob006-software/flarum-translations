@@ -2,20 +2,20 @@
     "clarkwinkelmann-readonly-profile": {
         "admin": {
             "settings": {
-                "disableLogin": "",
-                "disableAccessTokens": "",
-                "disableEmailChange": "",
-                "disablePasswordChange": "",
-                "disableAvatarEdit": ""
+                "disableLogin": "Bejelentkezés letiltása",
+                "disableAccessTokens": "Hozzáférési token létrehozásának letiltása",
+                "disableEmailChange": "E-mail-cím módosításának letiltása",
+                "disablePasswordChange": "Jelszó módosításának és visszaállításának letiltása",
+                "disableAvatarEdit": "Profilkép módosításának letiltása"
             }
         },
         "api": {
             "blocked_actions": {
-                "login": "",
-                "accessToken": "",
-                "email": "",
-                "password": "",
-                "avatar": ""
+                "login": "A bejelentkezési végpont le van tiltva",
+                "accessToken": "A hozzáférési token létrehozása le van tiltva",
+                "email": "Az e-mail-cím nem módosítható ezen az oldalon",
+                "password": "A jelszó nem módosítható ezen az oldalon",
+                "avatar": "A profilkép nem módosítható ezen az oldalon"
             }
         }
     }

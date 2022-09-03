@@ -1,0 +1,57 @@
+{
+    "clarkwinkelmann-anonymous-posting": {
+        "admin": {
+            "settings": {
+                "composerHelpTextPosition": "Szerkesztő súgószövegének pozíciója",
+                "composerHelpTextPositionVisible": "Látható (címke alatt)",
+                "composerHelpTextPositionTooltip": "Buboréksúgó (címke után)",
+                "composerHelpTextPositionHidden": "Rejtett",
+                "avatars": "Névtelen profilképek",
+                "avatarsHelp": "Ehhez a funkcióhoz a prémium <a>Formulaire bővítmény</a> szükséges. A funkció használata némi teljesítménycsökkenéssel jár, mivel további adatbázis-lekérdezések szükségesek a témák és bejegyzések lekéréséhez. A bemenetek formátumának további részleteihez lásd a README fájlt.\n",
+                "avatarFormId": "Űrlapazonosító",
+                "avatarFieldKey": "Mező kulcsa",
+                "avatarFieldValue": "Mező értéke",
+                "avatarAvatarUrl": "Profilkép webcíme",
+                "avatarAdd": "Profilképszabály hozzáadása"
+            },
+            "permissions": {
+                "use": "Közzététel névtelenül",
+                "reveal": "Névtelenül közzétett témák és bejegyzések valódi szerzőinek felfedése",
+                "moderate": "Tetszőleges téma vagy bejegyzés anonimizálásának megszüntetése"
+            }
+        },
+        "forum": {
+            "composerControls": {
+                "anonymize": "Közzététel névtelenül",
+                "anonymizeHelp": "A moderátorok továbbra is tudni fogják, hogy Ön hozta létre ezt a tartalmat"
+            },
+            "discussionControls": {
+                "anonymize": "Anonimizálás",
+                "anonymizeConfirmation": "Ez névtelenné teszi a téma szerzőjét. Az első bejegyzést külön kell anonimizálni. Folytatja?",
+                "deanonymize": "Anonimizálás megszüntetése",
+                "deanonymizeConfirmation": "Ez újra nyilvánossá teszi a téma eredeti szerzőjét. Folytatja?"
+            },
+            "postControls": {
+                "anonymize": "Anonimizálás",
+                "firstPostConfirmation": "Ez névtelenné teszi az első bejegyzés szerzőjét. A témát külön kell anonimizálni. Folytatja?",
+                "deanonymize": "Anonimizálás megszüntetése",
+                "deanonymizeConfirmation": "Ez újra nyilvánossá teszi a bejegyzés eredeti szerzőjét. Folytatja?"
+            },
+            "discussionList": {
+                "genericReplyText": "Utolsó válasz: {ago}"
+            },
+            "postPrivacy": {
+                "mine": "Én",
+                "mineHelp": "Csak én láthatom ezt az információt",
+                "profile": "Csak az Ön számára látható",
+                "profileHelp": "Csak Ön láthatja a névtelen bejegyzéseit a profilján"
+            }
+        },
+        "lib": {
+            "userMeta": {
+                "initials": "?",
+                "username": "Névtelen"
+            }
+        }
+    }
+}

@@ -1,46 +1,46 @@
 {
     "clarkwinkelmann-group-invitation": {
         "forum": {
-            "title": "",
-            "generic-title": "",
+            "title": "Meghívták a(z) {group} csoportba.",
+            "generic-title": "Csoportmeghívás",
             "user": {
-                "already-connected": "",
-                "not-connected": "",
-                "not-authorized": "",
-                "already-member": ""
+                "already-connected": "A(z) {group} csoport hozzá lesz adva {username} felhasználóhoz. Nem ez a helyes felhasználó? <a>Jelentkezzen be egy másik fiókba</a>.\n",
+                "not-connected": "<a>Jelentkezzen be</a>, hogy elfogadja a meghívást.",
+                "not-authorized": "{username} nem rendelkezik a jogosultsággal, hogy csoportokhoz csatlakozzon. <a>Jelentkezzen be egy másik fiókba</a>.",
+                "already-member": "Jó hír, a(z) {username} felhasználója már tagja a(z) {group} csoportnak. Egy másik felhasználóval csatlakozna a csoporthoz? <a>Jelentkezzen be egy másik fiókba</a>.\n"
             },
             "invitation": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "Sajnáljuk, ez a csoportmeghívó nem található.",
+                "no-usages-left": "Ez a csoportmeghívó már nem használható."
             },
-            "apply": "",
-            "success-alert": ""
+            "apply": "Csatlakozás a csoporthoz",
+            "success-alert": "Sikeresen csatlakozott a csoporthoz."
         },
         "admin": {
             "permissions": {
-                "use": ""
+                "use": "Csoportmeghívó hivatkozások használata"
             },
             "settings": {
                 "head": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "Kód",
+                    "group": "Csoport",
+                    "usage": "Használat"
                 },
                 "placeholder": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "Automatikusan létrehozott",
+                    "group": "Kiválasztás…",
+                    "usage": "Üres a korlátlanhoz"
                 },
-                "empty": "",
-                "unlimited": "",
-                "create": "",
-                "delete": ""
+                "empty": "Még nincsenek meghívók létrehozva.",
+                "unlimited": "korlátlan",
+                "create": "Létrehozás",
+                "delete": "Törlés"
             }
         },
         "api": {
             "error": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "Meghívókód nem található",
+                "no-usages-left": "A meghívó már nem használható"
             }
         }
     }

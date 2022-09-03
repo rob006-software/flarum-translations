@@ -2,21 +2,21 @@
     "clarkwinkelmann-typewriter": {
         "admin": {
             "settings": {
-                "muteByDefault": "",
-                "showIntroductionPopup": "",
-                "defaultFile": "",
-                "sounds": "",
+                "muteByDefault": "Muet par défaut",
+                "showIntroductionPopup": "Afficher la fenêtre intruse d'introduction la première fois",
+                "defaultFile": "Fichier son par défaut",
+                "sounds": "Sons supplémentaires",
                 "head": {
-                    "keys": "",
-                    "file": ""
+                    "keys": "Clés",
+                    "file": "Fichier"
                 },
-                "add": ""
+                "add": "Ajouter un son"
             }
         },
         "forum": {
-            "enable": "",
-            "mute": "",
-            "introductionMessage": ""
+            "enable": "Activer les sons de frappe",
+            "mute": "Couper les sons de frappe",
+            "introductionMessage": "Cliquez ici pour activer ou désactiver les sons de frappe"
         }
     }
 }

@@ -112,7 +112,7 @@
             },
             "extension": {
                 "configure_scopes": "범주 설정",
-                "confirm_uninstall": "제거하는것은 이 확장에 관련된 모든 데이터베이스 항목과 파일들을 모두 삭제합니다. 정말 계속하시겠습니까?",
+                "confirm_purge": "완전한 제거는 이 확장에 관련된 모든 데이터베이스 항목과 파일들을 모두 삭제합니다. 정말 계속하시겠습니까?",
                 "disabled": "비활성화됨",
                 "enable_to_see": "설정을 보고 변경하려면 이 확장을 켜주세요.",
                 "enabled": "활성화됨",
@@ -128,14 +128,14 @@
                 "no_settings": "이 확장은 설정이 없습니다.",
                 "open_modal": "설정 열기",
                 "permissions_title": "권한",
-                "uninstall_button": "제거",
-                "confirm_purge": "완전한 제거는 이 확장에 관련된 모든 데이터베이스 항목과 파일들을 모두 삭제합니다. 정말 계속하시겠습니까?",
                 "purge_button": "완전한 제거",
                 "readme": {
                     "button_label": "README",
                     "no_readme": "이 확장은 README 파일이 없는것으로 보입니다",
                     "title": "{extName} 설명 문서"
-                }
+                },
+                "confirm_uninstall": "제거하는것은 이 확장에 관련된 모든 데이터베이스 항목과 파일들을 모두 삭제합니다. 정말 계속하시겠습니까?",
+                "uninstall_button": "제거"
             },
             "header": {
                 "get_help": "도움받기",
@@ -335,11 +335,11 @@
             "discussion_list": {
                 "empty_text": "여기엔 게시물이 없는것 같습니다.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "읽음으로 표시",
                 "replied_text": "{username}님이 {ago}에 답장했습니다",
                 "started_text": "{username}님이 {ago}에 게시했습니다",
                 "total_replies_a11y_label": "{count, plural, one {# 답장} other {# 답장들}}",
-                "unread_replies_a11y_label": "{count, plural, one {# 읽지 않은 답장} other {# 읽지 않은 답장들}}. 읽지 않은 {count, plural, one {답장} other {답장들}}을 읽음으로 표시하기."
+                "unread_replies_a11y_label": "{count, plural, one {# 읽지 않은 답장} other {# 읽지 않은 답장들}}. 읽지 않은 {count, plural, one {답장} other {답장들}}을 읽음으로 표시하기.",
+                "mark_as_read_tooltip": "읽음으로 표시"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -504,6 +504,10 @@
             }
         },
         "lib": {
+            "debug_button": "디버그",
+            "alert": {
+                "dismiss_a11y_label": "알림 닫"
+            },
             "badge": {
                 "hidden_tooltip": "숨김"
             },
@@ -526,6 +530,7 @@
             },
             "error": {
                 "dependent_extensions_message": "{extension}을 다음 종속 확장들이 모두 비활성화 되기 전까지 비활성화 할 수 없습니다. 종속 확장들: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "이런! 뭔가 잘못되었습니다. 페이지를 다시 로드하고 다시 시도하십시오.",
                 "missing_dependencies_message": "{extension}을 다음 상속 확장들이 모두 활성화 되기 전까지 활성화 할 수 없습니다. 상속 확장들: {extensions}",
                 "not_found_message": "요청한 리소스를 찾을 수 없습니다.",
@@ -536,6 +541,16 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: 페이지 # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {페이지 # - {forumName}}}"
+            },
+            "modal": {
+                "close": "닫기"
+            },
+            "nav": {
+                "drawer_button": "탐색 서랍 열기"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -548,20 +563,6 @@
             },
             "username": {
                 "deleted_text": "[삭제됨]"
-            },
-            "debug_button": "디버그",
-            "alert": {
-                "dismiss_a11y_label": "알림 닫"
-            },
-            "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: 페이지 # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {페이지 # - {forumName}}}"
-            },
-            "modal": {
-                "close": "닫기"
-            },
-            "nav": {
-                "drawer_button": "탐색 서랍 열기"
             }
         },
         "views": {

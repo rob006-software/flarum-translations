@@ -2,16 +2,16 @@
     "clarkwinkelmann-email-as-display-name": {
         "admin": {
             "permissions": {
-                "view-own": "",
-                "view-all": ""
+                "view-own": "Näytä sähköposti omassa profiilissa",
+                "view-all": "Näytä sähköposti kaikissa profiileissa"
             },
             "settings": {
-                "remove-username-registration": ""
+                "remove-username-registration": "Poista käyttäjätunnus rekisteröinnistä"
             }
         },
         "forum": {
             "log_in": {
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "=> core.ref.email"
             }
         }
     }

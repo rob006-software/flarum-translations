@@ -2,38 +2,38 @@
     "clarkwinkelmann-jwt-cookie-login": {
         "admin": {
             "settings": {
-                "cookieName": "",
-                "actorId": "",
-                "actorIdHelp": "",
-                "audience": "",
-                "audienceHelp": "",
-                "publicKey": "",
-                "publicKeyHelp": "",
-                "publicKeyAlgorithm": "",
-                "publicKeyAlgorithmHelp": "",
-                "expirationLeeway": "",
-                "expirationLeewayHelp": "",
-                "usernameTemplate": "",
-                "usernameTemplateHelp": "",
-                "emailTemplate": "",
-                "emailTemplateHelp": "",
-                "registrationHook": "",
-                "registrationHookHelp": "",
-                "authorizationHeader": "",
-                "authorizationHeaderHelp": "",
-                "hiddenIframe": "",
-                "hiddenIframeHelp": "",
-                "autoLoginDelay": "",
-                "autoLoginDelayHelp": "",
-                "logoutRedirect": "",
-                "logoutRedirectHelp": ""
+                "cookieName": "Nom du cookie",
+                "actorId": "Identifiant de l'utilisateur Flarum pour les actions administratives",
+                "actorIdHelp": "Cet utilisateur de Flarum sera utilisé comme acteur pour la requête interne REST API qui crée de nouveaux utilisateurs. Il doit s'agir d'un administrateur.\n",
+                "audience": "Identifiant du projet JWT Audience/Firebase",
+                "audienceHelp": "Valide l'attribut <code>aud</code> du jeton. Cette option est facultative lorsque vous n'utilisez pas Firebase",
+                "publicKey": "Clé publique",
+                "publicKeyHelp": "Laissez le champ vide pour utiliser les clés de Google Firebase",
+                "publicKeyAlgorithm": "Algorithme de clé publique",
+                "publicKeyAlgorithmHelp": "Uniquement requis avec la clé publique. Exemple : RS256",
+                "expirationLeeway": "Délai d'expiration (en secondes)",
+                "expirationLeewayHelp": "Pendant combien de secondes supplémentaires après l'expiration de JWT la session doit-elle encore démarrer. Cette valeur n'est censée être que de quelques minutes dans le pire des cas pour tenir compte des décalages d'horloge entre les serveurs. Cependant, elle peut également être définie sur une valeur beaucoup plus importante s'il s'agit du seul moyen de contourner les durées de vie courtes et fixes des JWT d'une bibliothèque externe.\n",
+                "usernameTemplate": "Modèle de nom d'utilisateur",
+                "usernameTemplateHelp": "Utilisez la syntaxe <code>{sub}</code> pour utiliser un attribut de JWT",
+                "emailTemplate": "Modèle de courriel",
+                "emailTemplateHelp": "Utilisez la syntaxe <code>{sub}</code> pour utiliser un attribut de JWT",
+                "registrationHook": "Point d'accès du connecteur d'enregistrement",
+                "registrationHookHelp": "Une URL entièrement définie qui sera atteinte par une requête POST lorsqu'un utilisateur visitera le forum pour la première fois. La requête doit renvoyer une charge utile JSON:API qui sera utilisée pour créer le nouvel utilisateur dans Flarum. Utilisez la syntaxe <code>{sub} </code> pour utiliser un attribut du JWT dans l'URL. Le JWT complet sera transmis dans l'en-tête <code>Authorization </code>. Le nom d'utilisateur et le courriel sont optionnels si une valeur de modèle est configurée.\n",
+                "authorizationHeader": "Valeur de l'en-tête d'autorisation personnalisée",
+                "authorizationHeaderHelp": "Si ce champ est laissé vide, l'en-tête d'autorisation contiendra <code>Token <JWT token></code>.",
+                "hiddenIframe": "URL cachée de l'Iframe",
+                "hiddenIframeHelp": "Cette iframe sera chargée hors écran sur toutes les pages de l'application monopage de Flarum. Elle peut être utilisée pour actualiser périodiquement le cookie et peut utiliser la messagerie du navigateur pour déclencher une actualisation de la page pour la connexion ou la déconnexion automatique. Pour plus d'informations, veuillez consulter le fichier README.\n",
+                "autoLoginDelay": "Délai de connexion automatique de l'Iframe cachée (en millisecondes)",
+                "autoLoginDelayHelp": "Pendant combien de secondes la page est autorisée à s'actualiser sans interaction de l'utilisateur si l'iframe cachée renvoie un statut de connexion. Passé ce délai, l'utilisateur recevra une alerte lui demandant s'il souhaite actualiser la page.\n",
+                "logoutRedirect": "URL de redirection de déconnexion",
+                "logoutRedirectHelp": "Pendant une session JWT sans état, le lien de déconnexion de Flarum sera remplacé par un lien pointant vers cette URL. Si aucune valeur n'est définie, le bouton de déconnexion sera masqué.\n"
             }
         },
         "forum": {
             "alert": {
-                "refresh": "",
-                "login": "",
-                "logout": ""
+                "refresh": "Actualiser la page",
+                "login": "Vous avez été connecté automatiquement.",
+                "logout": "Votre session a expiré."
             }
         }
     }
