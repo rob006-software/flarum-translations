@@ -12,7 +12,7 @@
                 "title": "Reaktionen"
             },
             "mod_item": "Reaktionen ansehen",
-            "react_button_label": ""
+            "react_button_label": "Reagieren"
         },
         "admin": {
             "permissions": {
@@ -36,12 +36,14 @@
                     "converted": "Erfolgreich alle {number} Gefällt-mirs konvertiert"
                 },
                 "settings": {
+                    "react_own_posts_help": "Wenn diese Option aktiviert ist, können Benutzer auf ihre eigenen Beiträge im Forum reagieren, sofern sie dazu berechtigt sind. Um zu verhindern, dass Benutzer auf ihre eigenen Beiträge reagieren, deaktiviere diese Einstellung.",
+                    "react_own_posts_label": "Benutzer können auf eigene Beiträge reagieren",
                     "save_settings": "Einstellungen speichern",
                     "integrations": {
                         "legend": "Integrationen",
                         "warning": "Die gleiche Reaktion <strong>kann nicht</strong> in ein Gefällt-mir <strong>und</strong> ein Upvote umgewandelt werden",
                         "gamification": {
-                            "legend": "Gamification",
+                            "legend": "Gamifizierung",
                             "upvoteLabel": "Konvertiere Reaktionen in Upvotes",
                             "upvoteHelptext": "Gebe den Bezeichner der Reaktion ein, die du automatisch in ein Upvote umwandeln möchtest",
                             "downvoteLabel": "Reaktionen in Downvotes umwandeln",

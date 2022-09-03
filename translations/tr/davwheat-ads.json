@@ -2,10 +2,20 @@
     "davwheat": {
         "ads": {
             "admin": {
+                "permissions": {
+                    "bypassAds": "Forumdaki reklamları gizle"
+                },
                 "settings": {
+                    "admin_bypass_warning": "Flarum'un izin sisteminin doğası gereği, Admin grubunun üyeleri forumda herhangi bir reklam görmeyecektir. \nReklamlarınızı test etmek istiyorsanız, \nlütfen forumu Gizli veya Gizli pencerede ziyaret edin.\n",
                     "enabled_locations": "Reklam bölgelerini etkinleştir",
-                    "code_input": "\"{for}\" için reklam bölgesi kodu",
+                    "script_urls": "Özel script URL'leri",
+                    "add_script": "Yeni",
+                    "script_deletion": "Bir komut dosyasını kaldırmak için metin kutusunu boş bırakın ve 'Değişiklikleri Kaydet'e basın.",
+                    "code_input": "HTML Reklam Bölgesi Kodu",
                     "code_input_disabled": "HTML kodunu düzenlemek için bu konumu etkinleştirin.",
+                    "js_input": "JavaScript Kodu",
+                    "js_input_disabled": "JS kodunu düzenlemek için bu konumu etkinleştirin.",
+                    "use_adsense": "AdSense Kullan",
                     "pub_id": "AdSense Yayıncı Kimliği",
                     "between_posts_gap": "Gönderiler arasında: reklamlar arasındaki boşluk",
                     "allow_after_placeholder": "Gönderiler arasında: yanıtlayıcı sonra reklam göster",
@@ -19,7 +29,7 @@
                         "fix_errors": "Değişiklikleri kaydetmeden önce aşağıdaki hataları giderin",
                         "code_has_script": "Reklam kodlarınızdan biri veya daha fazlası, izin verilmeyen komut dosyası etiketleri içeriyor. Bunları kaldırıp tekrar deneyin."
                     },
-                    "warning": "Reklam kodu <b>YALNIZCA</b> <code>ins</code> etiketini/etiketlerini içermeli ve herhangi bir komut dosyası etiketi içermemelidir. Komut dosyaları \notomatik olarak uzantı tarafından çalıştırılır.\n"
+                    "warning": "<b>Talimatlar:</b>\n<br></br>\n<b>HTML</b> - Bu kutuya reklam için HTML içeriği ekleyin. Bu kutuya herhangi bir {script} etiketi eklemeyin. Script kodları çalışmaz.\n<br></br>\n<b>JS</b> - Bir komut dosyası etiketine eklemek için özel Javascript kodu ekleyin. Bu, {script} etiketinin kendisini <b>İÇERMEMELİ</b>.\n"
                 }
             },
             "lib": {

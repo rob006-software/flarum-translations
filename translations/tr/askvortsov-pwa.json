@@ -7,19 +7,28 @@
             },
             "pwa": {
                 "about": {
+                    "description_label": "Açıklama",
                     "description_text": "Açıklamayı Yönetim sayfasında yer alan 'Temel Öğeler' sekmesinden ayarlayabilirsniz.",
+                    "long_name_label": "Uzun isim",
                     "long_name_text": "Kullanıcı tarafından görüntülenen web uygulaması adı.",
                     "heading": "Hakkında",
+                    "short_name_label": "Kısa isim",
                     "short_name_text": "Uzun ad için yeterli alan yoksa, kullanıcıya gösterilen uygulama adı."
                 },
                 "colors": {
                     "heading": "Renkler",
+                    "background_color_label": "Arkaplan rengi",
                     "background_color_text": "Bu renk PWA uygulamanız açılırken açılış ekranı için arkaplan rengi olakcaktır. Uygulama açıldığında herhangi bir fonksiyonu olmaz.",
+                    "theme_color_label": "Tema rengi",
                     "theme_color_text": "Bu renk uygulamanızın Görev Yöneticindeki rengini belirler."
                 },
                 "maintenance": {
                     "heading": "Bakım",
-                    "debug_label": "Hata ayıklama modu? Buna dair kayıtlar `storage/logs` içerisinde tutuluyor."
+                    "debug_label": "Hata ayıklama modu?",
+                    "debug_text": "Bu, bildirimlerle ilgili bilgileri \"storage/logs\" içine kaydeder. Günlükleri gereksiz yere doldurmamak için genellikle devre dışı bırakılmalıdır.",
+                    "reset_vapid_text": "Bu, VAPID anahtarlarını yeniden oluşturacak ve mevcut VAPID anahtarlarını kullanan mevcut abonelikleri silecektir.",
+                    "reset_vapid_confirm": "VAPID anahtarlarının sıfırlanması, mevcut anahtarları kullanan tüm abonelikleri kaldıracak ve böylece kullanıcılar sitenizi bir sonraki ziyaretlerine kadar herhangi bir bildirim almayacaklar. Bu, yalnızca anlık bildirimlerini ilk kez ayarlarken veya anlık bildirimleri hiç çalışmıyorsa ve yukarıda eksik VAPID anahtarları hakkında bir uyarı varsa yapılmalıdır.",
+                    "reset_vapid_success": "VAPID anahtarlarını başarıyla sıfırlayın. {count} abonelik sıfırlandı. Güncellenmiş bir durum kontrolü raporu görmek için sayfayı yeniden yükleyin."
                 },
                 "other": {
                     "heading": "Diğer",
@@ -29,16 +38,17 @@
                 "text": "Flarum web sitenizi İleri Web Uygulamasına dönüştürün! Bu sitenizi otomatik olarak uygulama mağazasında listelendirmez, kullanıcılar sitenizi ziyaret ettiğinde 'Ana ekrana ekle' hatırlatmasında bulunur.",
                 "status_check_heading": "Durum Kontrolü",
                 "logo_heading": "Logolar ve Simgeler",
-                "logo_text": "You must upload at least one logo for your progressive web app to be installable. Please note that all logos must be square; if they are not, they will be resized and possibly stretched.\nThere are a number of size options available below. I would recommend trying to upload a logo to as many as you can: this supports more devices.\nPlease note that you can upload 1 large logo to inputs for smaller logos. For instance, you can upload a 1000px x 1000px logo to ALL the file inputs below. However, if you try to upload a 50px x 50px logo to the 512x512 input, it will be stretched a lot.\n",
-                "logo_size_text": "Upload a logo which will be scaled to {size} pixels by {size} pixels size.",
+                "logo_text": "PWA'nın yüklenebilmesi için en az bir logo yüklemelisiniz. Lütfen tüm logoların kare olması gerektiğini unutmayın; değilse, yeniden boyutlandırılacak ve muhtemelen uzatılacaktır.\n\nAşağıda bir dizi boyut seçeneği mevcuttur. Mümkün olduğu kadar çok kişiye logo yüklemeyi denemenizi tavsiye ederim: bu, daha fazla cihazı destekler.\n\nDaha küçük logolar için girişlere 1 büyük logo yükleyebileceğinizi lütfen unutmayın. Örneğin, aşağıdaki TÜM dosya girişlerine 1000px x 1000px'lik bir logo yükleyebilirsiniz. Ancak, 512x512 girişine 50px x 50px'lik bir logo yüklemeye çalışırsanız, çok fazla esneyecektir.\n",
+                "logo_size_text": "{size} piksele {size} piksel boyutuna ölçeklendirilecek bir logo yükleyin.",
                 "submit_button": "Ayarları Kaydet",
-                "refreshed_message": "PWA config refreshed successfully."
+                "refreshed_message": "PWA yapılandırması başarıyla yenilendi."
             },
             "status": {
                 "config_no_https": "Config.php dosyanızdaki bağlantı HTTPS kullanmıyor. Progressive Web Uygulamalarının çalışması için HTTPS gereklidir.",
                 "possible_https_disabled": "Siteniz HTTPS üzerinde çalışmıyor olabilir.. Önbelleği temizlemek (Yönetim > Araçlar butonu) yardımcı olacaktır. Eğer HTTPS üzerinde çalışıyorsa bu uyarıyı görmezden gelin. İleri Web Uygulamasının çalışması için HTTPS kullanmanız gerektiğini unutmayın.",
                 "no_logo": "You must upload at least one logo for your app to work.",
-                "no_name": "You must provide a full name for your app to work.",
+                "no_name": "Uygulamanızın çalışması için tam bir ad sağlamalısınız.",
+                "no_vapid_keys": "VAPID anahtarı bulunamadı. Bunlar, anlık bildirimlerinin gönderilmesi için gereklidir. VAPID anahtarlarını aşağıda sıfırlayabilirsiniz.",
                 "key_gen_failed": "Anlık bildirimler için gerekli anahtarların oluşturulması başarısız oldu. Tam hata mesajı: {error}",
                 "suggest_gmp": "Gmp PHP uzantısı sunucunuzda etkin görünmüyor. Kesinlikle gerekli değil, ancak performansı artırabilir ve önerilir. Paylaşılan sunucu kullanıyorsanız desteklemeyebilir.",
                 "success": "Potansiyel hata mevcut değil!"

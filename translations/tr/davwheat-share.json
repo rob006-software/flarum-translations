@@ -1,25 +1,25 @@
 {
     "davwheat-share": {
         "admin": {
-            "browser_support_notice": "",
+            "browser_support_notice": "\"Paylaş\" seçeneği yalnızca Web Paylaşım API'sini destekleyen cihazlarda görünecektir. <a>Farklı tarayıcılar için desteği kontrol edin.</a>",
             "display_options": {
-                "icon": "",
-                "text": "",
-                "menu": ""
+                "icon": "Yalnızca simge",
+                "text": "Yalnızca metin",
+                "menu": "Eylem menüsü içinde"
             },
-            "display_options_label": "",
-            "button_preview_header": "",
+            "display_options_label": "Paylaş düğmesi gösterimi",
+            "button_preview_header": "Önizleme",
             "preview": {
-                "reply": "",
+                "reply": "Yanıtla",
                 "dropdown": {
-                    "edit": "",
-                    "delete": ""
+                    "edit": "Düzenle",
+                    "delete": "Sil"
                 }
             }
         },
         "lib": {
-            "share": "",
-            "share_a11y_label": ""
+            "share": "Paylaş",
+            "share_a11y_label": "Gönderiyi paylaş"
         }
     }
 }

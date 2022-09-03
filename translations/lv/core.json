@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "",
-                "confirm_uninstall": "",
+                "confirm_purge": "",
                 "disabled": "",
                 "enable_to_see": "",
                 "enabled": "",
@@ -116,7 +116,12 @@
                 "no_settings": "",
                 "open_modal": "",
                 "permissions_title": "",
-                "uninstall_button": ""
+                "purge_button": "",
+                "readme": {
+                    "button_label": "",
+                    "no_readme": "",
+                    "title": ""
+                }
             },
             "header": {
                 "get_help": "",
@@ -296,9 +301,10 @@
             "discussion_list": {
                 "empty_text": "Izskatās, ka šeit nav diskusiju.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Atzīmēt kā izlasītu",
                 "replied_text": "{username} atbildēja {ago}",
-                "started_text": "{username} izveidoja {ago}"
+                "started_text": "{username} izveidoja {ago}",
+                "total_replies_a11y_label": "",
+                "unread_replies_a11y_label": ""
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -444,9 +450,16 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Vēlreiz nosūtīt apstiprinājuma e-pastu",
                 "sent_message": "Nosūtīts"
+            },
+            "welcome_hero": {
+                "hide": ""
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "Noslēpts"
             },
@@ -464,19 +477,32 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "username_label": "=> core.ref.username",
+                "nothing_available": ""
             },
             "error": {
                 "dependent_extensions_message": "Nevar atspējot {extension} kamēr sekojošie paplašinājumi ir deaktivizēti: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "Ups! Kaut kas nogāja greizi. Lūdzu, atkārtoti ielādējiet lapu un mēģiniet vēlreiz.",
                 "missing_dependencies_message": "Nevar iespējot {extension}, kamēr nav iespējoti šie paplašinājumi: {extensions}",
                 "not_found_message": "Pieprasītais resurss netika atrasts.",
                 "payload_too_large_message": "",
                 "permission_denied_message": "Jums nav atļaujas to darīt.",
-                "rate_limit_exceeded_message": "Tu esi mazliet par ātri. Pēc dažām sekundēm mēģini vēlreiz."
+                "rate_limit_exceeded_message": "Tu esi mazliet par ātri. Pēc dažām sekundēm mēģini vēlreiz.",
+                "render_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "K",

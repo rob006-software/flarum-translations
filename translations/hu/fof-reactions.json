@@ -1,56 +1,58 @@
 {
     "fof-reactions": {
         "forum": {
-            "disabled-reaction": "",
-            "warning": "",
-            "notification": "",
+            "disabled-reaction": "Jelenleg nem használhatja ezt a reakciót, frissítse az oldalt",
+            "warning": "A reakciója át lett alakítva",
+            "notification": "{username} a következővel reagált a bejegyzésére: {reaction}",
             "settings": {
-                "notify_post_reacted_label": ""
+                "notify_post_reacted_label": "Valaki reagált az egyik bejegyzésére"
             },
-            "reacting-own-post": "",
+            "reacting-own-post": "Nem reagálhat a saját bejegyzésére",
             "modal": {
-                "title": ""
+                "title": "Reakciók"
             },
-            "mod_item": "",
-            "react_button_label": ""
+            "mod_item": "Reakciók megtekintése",
+            "react_button_label": "Reagálás"
         },
         "admin": {
             "permissions": {
-                "react_posts_label": "",
-                "see_reactions_label": ""
+                "react_posts_label": "Reagálás a bejegyzésekre",
+                "see_reactions_label": "Reagálók megjelenítése"
             },
             "page": {
                 "reactions": {
-                    "title": "",
-                    "reactions": "",
-                    "Helptext": "",
+                    "title": "Egyéni reakciók",
+                    "reactions": "Jelenlegi reakciók",
+                    "Helptext": "Adja meg az emodzsi vagy a font-awesome ikon nevét (azonosítóját), és válasszon hogy melyiket szeretné.",
                     "help": {
-                        "display": "",
-                        "identifier": ""
+                        "display": "Megjelenítés",
+                        "identifier": "Azonosító"
                     }
                 },
                 "convert": {
-                    "help": "",
-                    "button": "",
-                    "converting": "",
-                    "converted": ""
+                    "help": "Ha most frissítette a bővítményt, akkor a át kell alakítani a reakcióit. Ha most telepítette a bővítményt, akkor biztonságosan figyelmen kívül hagyhatja ezt az üzenetet.",
+                    "button": "Régi reakciók átalakítása",
+                    "converting": "A reakciói átalakítás alatt vannak. Frissítse az oldalt néhány perc múlva, és nézze meg, hogy a folyamat véget ért-e. (Az átalakítás a reakciók számától függően némi időt vehet igénybe)",
+                    "converted": "A(z) {number} kedvelés sikeresen át lett alakítva"
                 },
                 "settings": {
-                    "save_settings": "",
+                    "react_own_posts_help": "Ha be van kapcsolva, akkor jogosultság alapján, a felhasználók reagálhatnak a saját bejegyzéseikre a fórumban. Ha ezt meg akarja akadályozni, akkor kapcsolja ki ezt a beállítást.",
+                    "react_own_posts_label": "A felhasználók reagálhatnak a saját bejegyzésükre",
+                    "save_settings": "Beállítások mentése",
                     "integrations": {
-                        "legend": "",
-                        "warning": "",
+                        "legend": "Integrációk",
+                        "warning": "Ugyanazon reakció <strong>nem</strong> alakítható át kedveléssé <strong>és</strong> felszavazássá",
                         "gamification": {
-                            "legend": "",
-                            "upvoteLabel": "",
-                            "upvoteHelptext": "",
-                            "downvoteLabel": "",
-                            "downvoteHelptext": ""
+                            "legend": "Játékosítás",
+                            "upvoteLabel": "Reakciók átalakítása felpontozássá",
+                            "upvoteHelptext": "Adja meg annak a reakciónak az azonosítóját, melyet felpontozássá akar átalakítani",
+                            "downvoteLabel": "Reakciók átalakítása lepontozássá",
+                            "downvoteHelptext": "Adja meg annak a reakciónak az azonosítóját, melyet lepontozássá akar átalakítani"
                         },
                         "likes": {
-                            "legend": "",
-                            "Label": "",
-                            "Helptext": ""
+                            "legend": "Kedvelések",
+                            "Label": "Reakciók átalakítása kedveléssé",
+                            "Helptext": "Adja meg annak a reakciónak az azonosítóját, melyet kedveléssé akar átalakítani"
                         }
                     }
                 }

@@ -2,54 +2,54 @@
     "datitisev-backup": {
         "admin": {
             "adapters": {
-                "local": "",
-                "aliyun": "",
-                "azure": "",
-                "aws": "",
-                "dospaces": "",
-                "dropbox": "",
-                "gdrive": "",
-                "ftp": "",
-                "gridfs": "",
-                "rackspace": "",
-                "sftp": "",
-                "webdav": "",
-                "zip": ""
+                "local": "Локальное хранилище",
+                "aliyun": "Alibaba Cloud (Aliyun)",
+                "azure": "Microsoft Azure",
+                "aws": "Amazon AWS S3",
+                "dospaces": "Digital Ocean Spaces",
+                "dropbox": "Dropbox",
+                "gdrive": "Google Drive",
+                "ftp": "FTP",
+                "gridfs": "GridFS",
+                "rackspace": "Rackspace",
+                "sftp": "SFTP",
+                "webdav": "WebDAV",
+                "zip": "Zip архив"
             },
-            "settings_button": "",
-            "required_package_button": "",
+            "settings_button": "Конфигурировать",
+            "required_package_button": "Установить",
             "you-need-for": {
-                "aliyun": "",
-                "azure": "",
-                "aws": "",
-                "copy": "",
-                "dospaces": "",
-                "dropbox": "",
-                "gdrive": "",
-                "gridfs": "",
-                "rackspace": "",
-                "sftp": "",
-                "webdav": ""
+                "aliyun": "aliyuncs/aliyun-oss-flysystem",
+                "azure": "league/flysystem-azure",
+                "aws": "league/flysystem-aws-s3-v3",
+                "copy": "league/flysystem-copy",
+                "dospaces": "league/flysystem-aws-s3-v3",
+                "dropbox": "spatie/flysystem-dropbox",
+                "gdrive": "nao-pon/flysystem-google-drive",
+                "gridfs": "league/flysystem-gridfs",
+                "rackspace": "league/flysystem-rackspace",
+                "sftp": "league/flysystem-sftp",
+                "webdav": "league/flysystem-webdav"
             },
             "required-package-modal": {
-                "title": "",
-                "content": ""
+                "title": "Для {adapter} необходим соответствующий пакет",
+                "content": "Чтобы использовать этот драйвер, вы должны установить соответствующий пакет. Это можно сделать из командной строки Composer: <code>composer require {package}</code>, находясь в установочном каталоге Flarum.\n"
             },
             "adapter-settings-modal": {
-                "title": "",
+                "title": "Конфигурировать {adapter}",
                 "local": {
                     "target": {
-                        "label": "",
-                        "description": ""
+                        "label": "Путь назначения",
+                        "description": "Укажите локальный каталог для сохранения резервных копий."
                     }
                 },
                 "aliyun": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Конечная точка",
+                        "description": "URL конечной точки вашего хранилища."
                     },
                     "access-id": {
-                        "label": "",
+                        "label": "ID доступа",
                         "description": ""
                     },
                     "access-key": {
@@ -68,18 +68,18 @@
                 "azure": {
                     "endpoint": {
                         "label": "",
-                        "description": ""
+                        "description": "URL конечной точки вашего хранилища."
                     },
                     "container": {
-                        "label": "",
-                        "description": ""
+                        "label": "Контейнер",
+                        "description": "Контейнер Azure"
                     }
                 },
                 "aws": {
                     "credentials": {
                         "key": {
-                            "label": "",
-                            "description": ""
+                            "label": "Ключ",
+                            "description": "Ключ доступа AWS"
                         },
                         "secret": {
                             "label": "",
@@ -91,8 +91,8 @@
                         "description": ""
                     },
                     "version": {
-                        "label": "",
-                        "description": ""
+                        "label": "Версия",
+                        "description": "Укажите версию или оставьте пустой для использования самой последней."
                     },
                     "bucket": {
                         "label": "",

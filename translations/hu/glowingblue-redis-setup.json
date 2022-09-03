@@ -2,9 +2,11 @@
     "glowingblue-redis-setup": {
         "admin": {
             "settings": {
-                "enable_cache": "",
-                "enable_redis_sessions": "",
-                "enable_queue": ""
+                "enable_cache": "Redis-gyorsítótár engedélyezése",
+                "enable_redis_sessions": "Redis-munkamenetek engedélyezése (a beállítás módosítása után az összes felhasználó ki lesz jelentkeztetve)",
+                "enable_queue": "Redis-üzenetsor engedélyezése",
+                "horizon_config": "Horizon beállítások (formátum: JSON).",
+                "horizon_help_text": "Ez lesz átadva a <code>(new \\Blomstra\\Horizon\\Extend\\Horizon)->config(...))</code> számára"
             }
         }
     }

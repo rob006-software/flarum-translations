@@ -2,24 +2,24 @@
     "clarkwinkelmann-status": {
         "admin": {
             "settings": {
-                "only-countries": "",
-                "enable-text": ""
+                "only-countries": "Только флаги стран",
+                "enable-text": "Разрешить текстовый статус"
             },
             "permissions": {
-                "see": "",
-                "set": "",
-                "mod": ""
+                "see": "Посмотреть статус",
+                "set": "Определить статус",
+                "mod": "Модерировать статус пользователя"
             }
         },
         "forum": {
             "menu": {
-                "set-status": ""
+                "set-status": "Установить статус"
             },
             "modal": {
-                "title": "",
-                "text-placeholder": "",
-                "submit": "",
-                "clear": ""
+                "title": "Установить статус",
+                "text-placeholder": "Что происходит?",
+                "submit": "Отправить",
+                "clear": "Очистить"
             }
         }
     }

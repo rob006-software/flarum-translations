@@ -2,7 +2,7 @@
     "the-turk-miserable-users": {
         "admin": {
             "permissions": {
-                "miserable_user_label": ""
+                "miserable_user_label": "=> the-turk-miserable-users.ref.miserable_user"
             },
             "settings": {
                 "range_separator_text": "",
@@ -13,11 +13,11 @@
                 "broken_page_chance_text": "",
                 "flood_time_multiplier_label": "",
                 "flood_time_multiplier_text": "",
-                "redirection_chance_label": "",
+                "redirection_chance_label": "Варианты перенаправления",
                 "redirection_chance_text": "",
-                "redirection_page_url_label": "",
-                "redirection_page_url_text": "",
-                "log_out_chance_label": "",
+                "redirection_page_url_label": "URL страницы перенаправления",
+                "redirection_page_url_text": "Вы можете случайным образом перенаправить \"пользователей-изгоев\" на другую вэб-страницу. Оставьте это поле пустым, если хотите перенаправить их на главную страницу форума.",
+                "log_out_chance_label": "Вариант выхода",
                 "log_out_chance_text": "",
                 "shuffle_post_chance_label": "",
                 "shuffle_post_chance_text": ""
@@ -25,23 +25,23 @@
         },
         "forum": {
             "user_badge": {
-                "miserable_user_tooltip": ""
+                "miserable_user_tooltip": "=> the-turk-miserable-users.ref.miserable_user"
             },
             "user_controls": {
-                "miserable_user_button": ""
+                "miserable_user_button": "=> the-turk-miserable-users.ref.miserable_user"
             },
             "miserable_user": {
-                "title": "",
-                "status_heading": "",
-                "not_miserable_label": "",
-                "indefinitely_label": "",
-                "limited_time_label": "",
-                "limited_time_days_text": "",
-                "submit_button": ""
+                "title": "Пользователь-изгой {username}",
+                "status_heading": "Статус \"изгнанности\"",
+                "not_miserable_label": "Не изгой",
+                "indefinitely_label": "Изгой навсегда",
+                "limited_time_label": "Изгой на определенное время...",
+                "limited_time_days_text": " дней",
+                "submit_button": "=> core.ref.save_changes"
             }
         },
         "ref": {
-            "miserable_user": ""
+            "miserable_user": "Пользователь-изгой"
         }
     }
 }

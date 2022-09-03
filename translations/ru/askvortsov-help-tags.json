@@ -2,16 +2,16 @@
     "askvortsov-help-tags": {
         "admin": {
             "permissions": {
-                "view_tag_label": ""
+                "view_tag_label": "Смотреть тег поддержки"
             }
         },
         "forum": {
             "discussion_controls": {
-                "show_to_all_button": "",
-                "unshow_to_all_button": ""
+                "show_to_all_button": "Показывать пользователям, у которых есть разрешение на публикацию сообщений.",
+                "unshow_to_all_button": "Показывать пользователям, у которых есть разрешение на просмотр форума."
             },
             "badge": {
-                "show_to_all_tooltip": ""
+                "show_to_all_tooltip": "Дискуссию могут смотреть только пользователи, которые имеют право на публикацию сообщений в её тегах."
             }
         }
     }

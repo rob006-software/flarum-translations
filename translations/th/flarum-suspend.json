@@ -8,13 +8,23 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "{username} ได้ระงับการใช้งานคุณเป็นเวลา {timeReadable}",
+                "user_suspended_indefinite_text": "",
                 "user_unsuspended_text": "{username} ได้เลิกระงับการใช้งานคุณ"
             },
+            "suspension_info": {
+                "dismiss_button": "",
+                "indefinite": "",
+                "limited": "",
+                "title": ""
+            },
             "suspend_user": {
+                "display_message": "",
                 "indefinitely_label": "ระงับการใช้งานถาวร",
                 "limited_time_days_text": " วัน",
                 "limited_time_label": "ระงับการใช้งานเเบบจำกัดเวลา",
                 "not_suspended_label": "ไม่ได้ถูกระงับการใช้งาน",
+                "placeholder_optional": "",
+                "reason": "",
                 "status_heading": "สถานะการระงับการใช้งาน",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "ระงับการใช้งาน {username}"
@@ -24,6 +34,17 @@
             },
             "user_controls": {
                 "suspend_button": "ระงับกาใช้งาน"
+            }
+        },
+        "email": {
+            "no_reason_given": "",
+            "suspended": {
+                "subject": "",
+                "body": ""
+            },
+            "unsuspended": {
+                "subject": "",
+                "body": ""
             }
         }
     }

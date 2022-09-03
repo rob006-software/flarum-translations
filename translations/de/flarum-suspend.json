@@ -7,14 +7,24 @@
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "{username} hat dich für {timeReadable} gesperrt",
-                "user_unsuspended_text": "{username} hat dich entsperrt"
+                "user_suspended_text": "Du wurdest für {timeReadable} gesperrt",
+                "user_suspended_indefinite_text": "Du wurdest auf unbestimmte Zeit suspendiert",
+                "user_unsuspended_text": "Du wurdest entsperrt"
+            },
+            "suspension_info": {
+                "dismiss_button": "Schließen",
+                "indefinite": "Dies ist eine unbefristete Sperre",
+                "limited": "Diese Aussetzung gilt bis zum {date}",
+                "title": "Dieses Konto ist gesperrt"
             },
             "suspend_user": {
+                "display_message": "Nachricht für den Benutzer anzeigen",
                 "indefinitely_label": "Dauerhaft ausschließen",
                 "limited_time_days_text": " Tage",
                 "limited_time_label": "Temporär ausschließen …",
                 "not_suspended_label": "Nicht ausschließen",
+                "placeholder_optional": "Optional",
+                "reason": "Grund für die Sperrung",
                 "status_heading": "Ausschluss-Status",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "{username} ausschließen"
@@ -24,6 +34,17 @@
             },
             "user_controls": {
                 "suspend_button": "Ausschließen"
+            }
+        },
+        "email": {
+            "no_reason_given": "Ein Grund für diese Suspendierung wurde nicht angegeben.",
+            "suspended": {
+                "subject": "Dein Konto wurde gesperrt",
+                "body": "Hallo {recipient_display_name},\n\nDu wurdest aus folgendem Grund gesperrt:\n\n---\n{suspension_message}\n---\n"
+            },
+            "unsuspended": {
+                "subject": "Die Sperrung Deines Kontos wurde aufgehoben",
+                "body": "Hallo {recipient_display_name},\n\nDeine Suspendierung wurde aufgehoben. Du kannst zum Forum zurückkehren, indem Du auf den folgenden Link klickst:\n\n{forum_url}\n"
             }
         }
     }

@@ -151,6 +151,11 @@
                     "confirm": "Bạn có chắc chắn muốn chuyển cuộc thảo luận này thành phiếu hỗ trợ không?",
                     "event": "Thảo luận {ticket_title} đã được chuyển đổi thành phiếu hỗ trợ"
                 },
+                "convert_to_discussion": {
+                    "button": "",
+                    "confirm": "",
+                    "event": ""
+                },
                 "status": {
                     "new": {
                         "title": "Mới",
@@ -192,7 +197,8 @@
                     "assign_me": "Gán cho tôi",
                     "remove_me": "Gỡ tôi",
                     "update_status": "Cập nhật trạng thái phiếu",
-                    "close_ticket": "Đóng phiếu"
+                    "close_ticket": "Đóng phiếu",
+                    "update_note": "Cập nhật ghi chú riêng tư"
                 },
                 "new_tickets_dropdown": {
                     "title": "Thông báo phiếu",
@@ -223,6 +229,13 @@
                     "assignees": {
                         "title": "Người được giao",
                         "placeholder": "Trạng thái của phiếu"
+                    },
+                    "private_note": {
+                        "title": "Ghi chú riêng tư",
+                        "info": "Các ghi chú riêng tư không hiển thị dành cho các nhân viên hỗ trợ và không hiển thị cho khách hàng.",
+                        "tip": "MẸO: Nếu bạn đang làm việc với nhiều đại lý trên một vé, hãy thêm tên và ngày tháng của bạn vào ghi chú.",
+                        "placeholder": "Ví dụ: Ngày 1 tháng 1 năm 2022 - Tên đại lý: Đã xóa khách hàng khỏi cơ sở dữ liệu",
+                        "edit_button": "Chỉnh sửa ghi chú"
                     }
                 },
                 "compose_ticket": {
@@ -242,30 +255,64 @@
                     "title": "Tổng quan phiếu",
                     "description": "Hãy mỉm cười, bạn là người hùng cứu người khác trong ngày của họ.",
                     "no_tickets": "Không có vé nào phù hợp với tiêu chí của bạn, có lẽ bạn đang làm rất tốt!",
-                    "all_tickets": "Tất cả phiếu"
+                    "all_tickets": "Tất cả phiếu",
+                    "selection_unfiltered": "Huỷ bộ lọc",
+                    "selection_open": "Tạo phiếu hỗ trợ",
+                    "selection_closed": "Phiếu hỗ trợ đã đóng",
+                    "refresh": "Làm mới",
+                    "filter": {
+                        "status": {
+                            "title": "Trạng thái phiếu",
+                            "filter_count": "{count, plural, one {# bộ lọc} other {# bộ lọc}}"
+                        },
+                        "language": {
+                            "any": "Mọi ngôn ngữ"
+                        },
+                        "assignees": {
+                            "title": "Lọc những người được giao",
+                            "search": "Tìm kiếm người được giao",
+                            "unassigned": "Chưa giao"
+                        }
+                    },
+                    "sort": {
+                        "newest": "Mới nhất đầu tiên",
+                        "oldest": "Cũ nhất đầu tiên",
+                        "recent_activity": "Hoạt động gần đây",
+                        "least_recent": "Hoạt động cũ nhất"
+                    }
+                }
+            },
+            "notifications": {
+                "replied_to_ticket": {
+                    "name": "Ai đó trả lời vé hỗ trợ của tôi",
+                    "content": "=> v17development-flarum-support.emails.replied_to_ticket.subject"
+                },
+                "ticket_resolved": {
+                    "name": "Vé hỗ trợ của tôi đã được giải quyết",
+                    "content": "=> v17development-flarum-support.emails.ticket_resolved.subject"
                 }
             }
         },
         "emails": {
             "replied_to_ticket": {
-                "subject": "{replier_display_name} đã trả lời phiếu #{ticket_id}",
-                "body": "Kính gửi {accept_display_name}!\n\n{replier_display_name} đã trả lời vé #{ticket_id} (chủ đề \"{subject}\") của bạn.\n\nVui lòng sử dụng liên kết dưới đây để xem lại câu trả lời:\n{url}\n\nChúng tôi đang đợi câu trả lời của bạn hoặc cho đến khi bạn đánh dấu rằng vé này đã được giải quyết.\n"
+                "subject": "{replier_display_name} đã trả lời phiếu #{ticket_id} của bạn",
+                "body": "Kính gửi {recipient_display_name},\n\n{replier_display_name} đã trả lời vé #{ticket_id} (chủ đề \"{subject}\") của bạn.\n\nVui lòng sử dụng liên kết dưới đây để xem lại câu trả lời:\n{url}\n\nChúng tôi đang đợi câu trả lời của bạn hoặc cho đến khi bạn đánh dấu rằng vé này đã được giải quyết.\n"
             },
             "ticket_status_update": {
                 "subject": "Phiếu #{ticket_id} được đánh dấu là {new_status}",
-                "body": "Kính gửi {accept_display_name}!\n\nTrạng thái phiếu #{ticket_id} của bạn đã thay đổi thành {new_status}.\n\nURL của phiếu của bạn là:\n{url}\n"
+                "body": "Kính gửi {recipient_display_name},\n\nTrạng thái phiếu #{ticket_id} của bạn đã thay đổi thành {new_status}.\n\nURL của phiếu của bạn là:\n{url}\n"
             },
             "ticket_resolved": {
                 "subject": "Phiếu #{ticket_id} được đánh dấu là đã giải quyết",
-                "body": "Kính gửi {accept_display_name}!\n\nPhiếu #{ticket_id} của bạn đã được đánh dấu là đã giải quyết. Điều này có nghĩa là phiếu của bạn đã bị đóng.\n\nURL của phiếu của bạn là:\n{url}\n\nNếu bạn không đồng ý đánh dấu phiếu của mình là đã giải quyết, vui lòng trả lời phiếu của bạn để mở lại.\n"
+                "body": "Kính gửi {recipient_display_name},\n\nPhiếu #{ticket_id} của bạn đã được đánh dấu là đã giải quyết. Điều này có nghĩa là phiếu của bạn đã bị đóng.\n\nURL của phiếu của bạn là:\n{url}\n\nNếu bạn không đồng ý đánh dấu phiếu của mình là đã giải quyết, vui lòng trả lời phiếu của bạn để mở lại.\n"
             },
             "ticket_pending_reply": {
                 "subject": "Phiếu #{ticket_id} đang chờ bạn trả lời",
-                "body": "Kính gửi {accept_display_name}!\n\nGần đây, {replier_display_name} đã trả lời phiếu #{ticket_id} của bạn vào {reply_date} và chúng tôi đang chờ câu trả lời của bạn.\n\nURL của phiếu của bạn là:\n{url}\n\nNếu vấn đề đã được giải quyết, vui lòng đánh dấu phiếu là đã được giải quyết.\n"
+                "body": "Kính gửi {recipient_display_name},\n\nGần đây, {replier_display_name} đã trả lời phiếu #{ticket_id} của bạn vào {replied_date} và chúng tôi đang chờ câu trả lời của bạn.\n\nURL của phiếu của bạn là:\n{url}\n\nNếu vấn đề đã được giải quyết, vui lòng đánh dấu phiếu là đã được giải quyết.\n"
             },
             "ticket_pending_reply_closed": {
                 "subject": "Phiếu #{ticket_id} đã bị đóng do không hoạt động",
-                "body": "Kính gửi {accept_display_name}!\n\nGần đây, {replier_display_name} đã trả lời phiếu #{ticket_id} của bạn. Rất tiếc, chúng tôi không nhận được trả lời từ bạn. Phiếu của bạn đã tự động bị đóng do không hoạt động.\n\nNếu bạn vẫn muốn trả lời, URL của phiếu của bạn là:\n{url}\n"
+                "body": "Kính gửi {recipient_display_name},\n\nGần đây, {replier_display_name} đã trả lời phiếu #{ticket_id} của bạn. Rất tiếc, chúng tôi không nhận được trả lời từ bạn. Phiếu của bạn đã tự động bị đóng do không hoạt động.\n\nNếu bạn vẫn muốn trả lời, URL của phiếu của bạn là:\n{url}\n"
             }
         }
     }

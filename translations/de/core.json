@@ -28,9 +28,9 @@
                 "default_language_heading": "Sprache",
                 "description": "Lege den Forentitel, die Sprache und weitere Grundeinstellungen fest.",
                 "display_name_heading": "Anzeigenamen",
-                "display_name_text": "Wähle den Treiber, der verwendet wird um den Anzeigename der Nutzer*innen zu bestimmen. Standardmäßig wird der Nutzername angezeigt.",
+                "display_name_text": "Wähle den Treiber, der verwendet wird um den Anzeigename der Benutzer zu bestimmen. Standardmäßig wird der Nutzername angezeigt.",
                 "forum_description_heading": "Beschreibung des Forums",
-                "forum_description_text": "Kurze Beschreibung des Forums. Diese wird in in den meta-Tags für Suchmaschinen erscheinen.",
+                "forum_description_text": "Kurze Beschreibung des Forums. Diese wird in den meta-Tags für Suchmaschinen erscheinen.",
                 "forum_title_heading": "Titel des Forums",
                 "home_page_heading": "Startseite",
                 "home_page_text": "Seite auswählen, die Benutzer beim Besuch des Forums zuerst sehen.",
@@ -39,7 +39,7 @@
                 "slug_driver_text": "Wähle den Treiber, welcher die Foren-URL's mit einem \"Slug\" ausstattet.",
                 "title": "Grundeinstellungen",
                 "welcome_banner_heading": "Willkommensnachricht",
-                "welcome_banner_text": "Text festlegen, der auf der Seite \"Alle Diskussionen\" erscheint, um Besucher*innen zu begrüßen."
+                "welcome_banner_text": "Text festlegen, der auf der Seite \"Alle Diskussionen\" erscheint, um Besucher zu begrüßen."
             },
             "dashboard": {
                 "clear_cache_button": "Cache leeren",
@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Bereiche konfigurieren",
-                "confirm_uninstall": "Bei der Deinstallation werden alle Datenbankeinträge und Assets, die mit der Erweiterung in Verbindung stehen, entfernt. Bist du sicher, dass du fortfahren möchtest?",
+                "confirm_purge": "Beim Bereinigen werden alle Datenbankeinträge und Assets entfernt, die sich auf die Erweiterung beziehen. Die Erweiterung wird nicht deinstalliert; das muss über Composer getan werden. Bist Du sicher, dass Du fortfahren willst?",
                 "disabled": "Deaktiviert",
                 "enable_to_see": "Aktiviere die Erweiterung um Einstellungen zu sehen und zu ändern.",
                 "enabled": "Aktiviert",
@@ -116,6 +116,13 @@
                 "no_settings": "Diese Erweiterung hat keine Einstellungen.",
                 "open_modal": "Einstellungen öffnen",
                 "permissions_title": "Berechtigungen",
+                "purge_button": "Bereinigen",
+                "readme": {
+                    "button_label": "LIESMICH",
+                    "no_readme": "Diese Erweiterung scheint keine README-Datei zu haben",
+                    "title": "Dokumentation von {extName}"
+                },
+                "confirm_uninstall": "Bei der Deinstallation werden alle Datenbankeinträge und Assets, die mit der Erweiterung in Verbindung stehen, entfernt. Bist du sicher, dass du fortfahren möchtest?",
                 "uninstall_button": "Deinstallieren"
             },
             "header": {
@@ -186,7 +193,7 @@
                 "allow_some_minutes_button": "{count, plural, one {Für # Minute} other {Für # Minuten}}",
                 "allow_ten_minutes_button": "Für 10 Minuten",
                 "allow_until_reply_button": "Bis zur nächsten Antwort",
-                "everyone_button": "Jede*r",
+                "everyone_button": "Jeder",
                 "members_button": "=> core.group.members",
                 "signup_closed_button": "Geschlossen",
                 "signup_open_button": "Offen"
@@ -296,9 +303,11 @@
             "discussion_list": {
                 "empty_text": "Noch keine Diskussionen in diesem Forum.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Als gelesen markieren",
                 "replied_text": "{username} {ago}",
-                "started_text": "{username} {ago}"
+                "started_text": "{username} {ago}",
+                "total_replies_a11y_label": "{count, plural, one {# Antwort} other {# Antworten}}",
+                "unread_replies_a11y_label": "{count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. Markiere ungelesene {count, plural, one {Antwort} other {Antworten}} als gelesen.",
+                "mark_as_read_tooltip": "Als gelesen markieren"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -316,9 +325,9 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
-                "search_clear_button_accessible_label": "",
+                "search_clear_button_accessible_label": "Suchabfrage löschen",
                 "search_placeholder": "Suche",
-                "search_role_label": "",
+                "search_role_label": "Suche in Forum",
                 "session_dropdown_accessible_label": "Dropdown-Menü der Sitzungsoptionen umschalten",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -352,7 +361,7 @@
                 "username_or_email_placeholder": "Nutzername oder E-Mail"
             },
             "notifications": {
-                "discussion_renamed_text": "{username} hat den Titel geändert zu {new}",
+                "discussion_renamed_text": "{username} hat den Titel geändert",
                 "empty_text": "Keine neuen Benachrichtigungen",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Als gelesen markieren",
@@ -382,7 +391,7 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Der alte Titel war: \"{old}\"",
-                "discussion_renamed_text": "{username} änderte den Titel von {old} zu {new}.",
+                "discussion_renamed_text": "{username} hat den Titel von {old} zu {new} geändert.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} später"
@@ -434,7 +443,7 @@
             "user_controls": {
                 "button": "Bearbeiten",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Soll diese*r Nutzer*in wirklich gelöscht werden? Die Beiträge werden NICHT gelöscht.",
+                "delete_confirmation": "Soll dieser Benutzer wirklich gelöscht werden? Die Beiträge werden NICHT gelöscht.",
                 "delete_error_message": "Löschen des Nutzers <i>{username} ({email})</i> fehlgeschlagen",
                 "delete_success_message": "Nutzer <i>{username} ({email})</i> wurde gelöscht",
                 "edit_button": "=> core.ref.edit",
@@ -444,9 +453,16 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Bestätigungsmail erneut senden",
                 "sent_message": "Versendet"
+            },
+            "welcome_hero": {
+                "hide": "Willkommensnachricht ausblenden"
             }
         },
         "lib": {
+            "debug_button": "Debug",
+            "alert": {
+                "dismiss_a11y_label": "Warnung schließen"
+            },
             "badge": {
                 "hidden_tooltip": "Versteckt"
             },
@@ -454,7 +470,7 @@
                 "toggle_dropdown_accessible_label": "Dropdown-Menü umschalten"
             },
             "edit_user": {
-                "activate_button": "Nutzer*in aktivieren",
+                "activate_button": "Benutzer aktivieren",
                 "email_heading": "=> core.ref.email",
                 "email_label": "=> core.ref.email",
                 "groups_heading": "Gruppen",
@@ -462,21 +478,34 @@
                 "password_label": "=> core.ref.password",
                 "set_password_label": "Neues Passwort festlegen",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Nutzer*in bearbeiten",
+                "title": "Benutzer bearbeiten",
                 "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "username_label": "=> core.ref.username",
+                "nothing_available": "Du darfst diesen Benutzer nicht bearbeiten."
             },
             "error": {
                 "dependent_extensions_message": "Die Erweiterung {extension} kann nicht deaktiviert werden, bis folgende abhängige Erweiterungen deaktiviert wurden: {extensions}",
+                "extension_initialiation_failed_message": "{extension} konnte nicht initialisiert werden, überprüfe die Browser-Konsole für weitere Informationen.",
                 "generic_message": "Oops! Da ist was schief gelaufen. Bitte die Seite neu laden oder noch mal versuchen.",
                 "missing_dependencies_message": "Die Erweiterung {extension} kann nicht aktiviert werden, bis folgende abhängige Erweiterungen aktiviert wurden: {extensions}",
                 "not_found_message": "Leider nichts gefunden.",
-                "payload_too_large_message": "Die Anforderungsnutzlast war zu groß.",
+                "payload_too_large_message": "Die Nutzlast der Anfrage war zu groß.",
                 "permission_denied_message": "Du hast keine Berechtigung dies zu tun.",
-                "rate_limit_exceeded_message": "Nicht so schnell. Bitte versuche es gleich erneut."
+                "rate_limit_exceeded_message": "Nicht so schnell. Bitte versuche es gleich erneut.",
+                "render_failed_message": "Beim Anzeigen dieses Inhalts ist ein Fehler aufgetreten. Wenn Du ein Benutzer bist, versuche es später erneut. Wenn Du ein Administrator bist, sehe in Deinen Flarum-Protokolldateien nach, um weitere Informationen zu erhalten."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Seite # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Seite # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Schließen"
+            },
+            "nav": {
+                "drawer_button": "Navigationsschublade öffnen"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -503,7 +532,7 @@
                     "version": "Version"
                 },
                 "info": {
-                    "caption": "Application Info"
+                    "caption": "Anwendungs-Info"
                 },
                 "title": "Administration"
             },
@@ -546,6 +575,10 @@
                 "new_password_label": "Neues Passwort",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Seite # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Seite # - {forumName}}}"
             }
         },
         "api": {
@@ -585,7 +618,7 @@
             "delete_forever": "Endgültig löschen",
             "discussions": "Diskussionen",
             "edit": "Ändern",
-            "edit_user": "Benutzer*in ändern",
+            "edit_user": "Benutzer ändern",
             "email": "E-Mail",
             "extensions": "Erweiterungen",
             "icon": "Symbol",
@@ -612,20 +645,20 @@
             "some_others": "{count, plural, one {# weiterem} other {# weiteren}}",
             "start_a_discussion": "Diskussion starten",
             "username": "Nutzername",
-            "users": "Benutzer*innen",
+            "users": "Benutzer",
             "view": "Anzeigen",
             "write_a_reply": "Eine Antwort schreiben…",
             "you": "Du"
         },
         "group": {
             "admin": "Admin",
-            "admins": "Admins",
+            "admins": "Administratoren",
             "guest": "Gast",
             "guests": "Gäste",
             "member": "Mitglied",
             "members": "Mitglieder",
             "mod": "Mod",
-            "mods": "Mods"
+            "mods": "Moderatoren"
         }
     }
 }

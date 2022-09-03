@@ -1,0 +1,22 @@
+{
+    "clarkwinkelmann-readonly-profile": {
+        "admin": {
+            "settings": {
+                "disableLogin": "Tắt đăng nhập",
+                "disableAccessTokens": "Tắt tạo mã token truy cập",
+                "disableEmailChange": "Tắt đổi email",
+                "disablePasswordChange": "Tắt Khôi phục và Đổi mật khẩu",
+                "disableAvatarEdit": "Tắt sửa ảnh đại diện"
+            }
+        },
+        "api": {
+            "blocked_actions": {
+                "login": "Đăng nhập đã bị tắt",
+                "accessToken": "Tạo mã token truy cập đã bị tắt",
+                "email": "Không thể đổi email từ trang này",
+                "password": "Không thể đổi mật khẩu từ trang này",
+                "avatar": "Không thể chỉnh sửa ảnh đại diện từ trang này"
+            }
+        }
+    }
+}

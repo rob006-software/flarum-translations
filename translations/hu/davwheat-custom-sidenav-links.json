@@ -4,71 +4,71 @@
             "admin": {
                 "settings_page": {
                     "display_options": {
-                        "heading": "",
+                        "heading": "Megjelenítési beállítások",
                         "options": {
                             "position": {
-                                "above-tags-link": "",
-                                "below-tags-link": ""
+                                "above-tags-link": "A „Címkék” gomb felett",
+                                "below-tags-link": "A „Címkék” gomb alatt"
                             }
                         },
                         "labels": {
-                            "position": "",
-                            "top_spacer": "",
-                            "bottom_spacer": ""
+                            "position": "Hivatkozás helye",
+                            "top_spacer": "Felső helykitöltő megjelenítése",
+                            "bottom_spacer": "Alsó helykitöltő megjelenítése"
                         }
                     },
                     "link_table": {
-                        "heading": "",
-                        "add_link_btn": "",
-                        "confirm_delete": "",
+                        "heading": "Hivatkozások testreszabása",
+                        "add_link_btn": "Új hivatkozás hozzáadása",
+                        "confirm_delete": "A(z) „{link}” hivatkozás törlésének megerősítése",
                         "alert": {
-                            "fix_errors": ""
+                            "fix_errors": "A változtatások mentése előtt javítania kell a fenti problémákat."
                         },
                         "table": {
                             "header": {
-                                "position": "",
-                                "icon": "",
-                                "text": "",
-                                "url": "",
-                                "internal": "",
-                                "delete": ""
+                                "position": "Pozíció",
+                                "icon": "Hivatkozásikon",
+                                "text": "Hivatkozás szövege",
+                                "url": "Hivatkozás webcíme",
+                                "internal": "Flarumos webcím?",
+                                "delete": "Eltávolítás"
                             },
                             "placeholders": {
-                                "icon": "",
-                                "text": "",
-                                "url": ""
+                                "icon": "fas fa-link",
+                                "text": "Az én weboldalam",
+                                "url": "https://flarum.org"
                             },
                             "tooltips": {
-                                "move_up": "",
-                                "move_down": "",
-                                "icon_preview": ""
+                                "move_up": "Fentebb helyezés",
+                                "move_down": "Lentebb helyezés",
+                                "icon_preview": "Ikon előnézete"
                             }
                         },
                         "save_btn": {
-                            "dirty": "",
-                            "saving": "",
-                            "saved": "",
-                            "fix_errors": ""
+                            "dirty": "Beállítások mentése",
+                            "saving": "Változtatások mentése…",
+                            "saved": "Nincsenek mentendő változtatások",
+                            "fix_errors": "A mentés előtt javítsa a hibákat"
                         }
                     },
                     "new_link_modal": {
-                        "title": "",
+                        "title": "Új hivatkozás hozzáadása",
                         "submit_btn": {
-                            "add": "",
-                            "loading": "",
-                            "fix_url": "",
-                            "invalid_form": ""
+                            "add": "Hivatkozás hozzáadása",
+                            "loading": "Hivatkozás hozzáadása",
+                            "fix_url": "Érvénytelen webcím",
+                            "invalid_form": "Töltse ki az összes mezőt"
                         },
                         "labels": {
-                            "icon": "",
-                            "text": "",
-                            "url": "",
-                            "internal": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url",
+                            "internal": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.internal"
                         },
                         "placeholders": {
-                            "icon": "",
-                            "text": "",
-                            "url": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url"
                         }
                     }
                 }

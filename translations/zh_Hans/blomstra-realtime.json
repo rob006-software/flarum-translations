@@ -2,7 +2,8 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "{count, plural, one {有 # 条内容更新} other {有 # 条内容更新}}"
+                "discussion-list-new-activity": "{count, plural, one {有 # 条内容更新} other {有 # 条内容更新}}",
+                "discussion-list-new-activity-with-auto-release": ""
             },
             "typing-indicator": {
                 "people-are-typing": "{number, plural, one {# 人正在输入} other {# 人正在输入}}",
@@ -12,6 +13,10 @@
         "admin": {
             "permission": {
                 "view-who-types": "查看输入状态"
+            },
+            "settings": {
+                "release-discussion-updates-interval": "",
+                "release-discussion-updates-interval-help": ""
             }
         }
     }

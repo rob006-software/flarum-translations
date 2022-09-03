@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Kõik õigused",
-                "confirm_uninstall": "Laienduse eemaldamine kustutab kõik selle laienduse andmebaasi kirjed. Oled kindel, et soovid jätkata?",
+                "confirm_purge": "",
                 "disabled": "Keelatud",
                 "enable_to_see": "Luba laiendusel näha ja muuta seadeid.",
                 "enabled": "Lubatud",
@@ -116,6 +116,13 @@
                 "no_settings": "Sellel laiendusel pole seadeid.",
                 "open_modal": "Ava seaded",
                 "permissions_title": "Õigused",
+                "purge_button": "",
+                "readme": {
+                    "button_label": "",
+                    "no_readme": "",
+                    "title": ""
+                },
+                "confirm_uninstall": "Laienduse eemaldamine kustutab kõik selle laienduse andmebaasi kirjed. Oled kindel, et soovid jätkata?",
                 "uninstall_button": "Eemalda"
             },
             "header": {
@@ -296,9 +303,11 @@
             "discussion_list": {
                 "empty_text": "Siin ei ole veel ühtegi teemat.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Märgi loetuks",
                 "replied_text": "{username} vastas {ago}",
-                "started_text": "{username} alustas {ago}"
+                "started_text": "{username} alustas {ago}",
+                "total_replies_a11y_label": "",
+                "unread_replies_a11y_label": "",
+                "mark_as_read_tooltip": "Märgi loetuks"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -444,9 +453,16 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Saada kinnitusmeil uuesti",
                 "sent_message": "Saadetud"
+            },
+            "welcome_hero": {
+                "hide": ""
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "Peidetud"
             },
@@ -464,19 +480,32 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "username_label": "=> core.ref.username",
+                "nothing_available": ""
             },
             "error": {
                 "dependent_extensions_message": "{extension} laiendust ei saa keelata enne nende laienduste keelamist: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "Oih! Juhtus ootamatu viga. Palun laadi leht uuesti ja proovi veel kord.",
                 "missing_dependencies_message": "{extension} laiendust ei saa lubada enne nende laienduste lubamist: {extensions}",
                 "not_found_message": "Nõutud ressurssi ei leitud.",
                 "payload_too_large_message": "",
                 "permission_denied_message": "Sul ei ole selle jaoks õigust.",
-                "rate_limit_exceeded_message": "Postitad liiga kiiresti. Proovi mõne sekundi pärast uuest."
+                "rate_limit_exceeded_message": "Postitad liiga kiiresti. Proovi mõne sekundi pärast uuest.",
+                "render_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "k",
@@ -546,6 +575,10 @@
                 "new_password_label": "Uus parool",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {

@@ -8,6 +8,10 @@
                 "users_heading": "Vyhledat všechny uživatele  pro \"{query}\"",
                 "field": {
                     "placeholder": "Vyhledat všechny uživatele"
+                },
+                "kinds": {
+                    "group": "",
+                    "text": ""
                 }
             },
             "page": {
@@ -15,7 +19,11 @@
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "Nenašli jsme žádného uživatele, který by odpovídal vašemu hledání.",
-                "filter_button": "Skupiny filtrů"
+                "filter_button": "Skupiny filtrů",
+                "usercard": {
+                    "discussion-count": "",
+                    "post-count": ""
+                }
             }
         },
         "admin": {
@@ -25,7 +33,8 @@
             "settings": {
                 "link": "Přidání odkazu na domovskou stránku, aby uživatelé mohli vidět adresář",
                 "default-sort": "Výchozí třídění",
-                "use-small-cards": "Použít malé uživatelské karty"
+                "use-small-cards": "Použít malé uživatelské karty",
+                "disable-global-search-source": ""
             }
         },
         "lib": {

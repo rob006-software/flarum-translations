@@ -1,0 +1,22 @@
+{
+    "clarkwinkelmann-readonly-profile": {
+        "admin": {
+            "settings": {
+                "disableLogin": "Girişi Devre Dışı Bırak",
+                "disableAccessTokens": "Erişim Anahtarı Oluşturmayı Devre Dışı Bırak",
+                "disableEmailChange": "E-posta Değişikliğini Devre Dışı Bırak",
+                "disablePasswordChange": "Parola Değiştirmeyi ve Sıfırlamayı Devre Dışı Bırak",
+                "disableAvatarEdit": "Avatar Düzenlemeyi Devre Dışı Bırak"
+            }
+        },
+        "api": {
+            "blocked_actions": {
+                "login": "Oturum açma uç noktası devre dışı",
+                "accessToken": "Erişim anahtarı oluşturma devre dışı bırakıldı",
+                "email": "E-posta bu sayfadan değiştirilemez",
+                "password": "Bu sayfadan şifre değiştirilemez",
+                "avatar": "Avatar düzenleme bu sayfadan devre dışı bırakıldı"
+            }
+        }
+    }
+}

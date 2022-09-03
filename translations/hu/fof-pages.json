@@ -2,33 +2,33 @@
     "fof-pages": {
         "admin": {
             "edit_page": {
-                "content_label": "Szöveg",
-                "content_placeholder": "Szöveg",
+                "content_label": "=> fof-pages.ref.content",
+                "content_placeholder": "=> fof-pages.ref.content",
                 "delete_page_button": "Oldal törlése",
-                "delete_page_confirmation": "Tényleg törlöd az oldalt?",
+                "delete_page_confirmation": "Valóban törli ezt az oldalt?",
                 "hidden_label": "Mentés vázlatként",
-                "restricted_label": "Hozzáférés korlátozása (állítsd be ki férjen hozzá a Hozzáférések fülben)",
+                "restricted_label": "Hozzáférés korlátozása (az Engedélyek lapon állítsa be, hogy ki férjen hozzá)",
                 "html_label": "HTML engedélyezése",
-                "set_as_home_page_confirmation": "Biztosan be szeretnéd állítani ezt az oldalt főoldalnak?",
+                "set_as_home_page_confirmation": "Valóban beállítja ezt az oldalt főoldalnak?",
                 "set_as_home_page_done": "Főoldal frissítve",
                 "slug_label": "=> fof-pages.ref.slug",
                 "slug_placeholder": "=> fof-pages.ref.slug",
-                "submit_button": "Mentés",
+                "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-pages.ref.create_page",
-                "title_label": "Cím",
-                "title_placeholder": "Cím",
-                "url_label": "Url",
-                "url_placeholder": "Url"
+                "title_label": "=> fof-pages.ref.title",
+                "title_placeholder": "=> fof-pages.ref.title",
+                "url_label": "=> fof-pages.ref.url",
+                "url_placeholder": "=> fof-pages.ref.url"
             },
             "pages": {
                 "create_button": "=> fof-pages.ref.create_page"
             },
             "pages_list": {
                 "empty_text": "Úgy látszik nincs egy oldal sem.",
-                "title": "Cím"
+                "title": "=> fof-pages.ref.title"
             },
             "permissions": {
-                "restricted": "Korlátozott oldalak megtekintése"
+                "restricted": "Korlátozott lapok megtekintése"
             },
             "badges": {
                 "hidden": "Vázlat",
@@ -37,9 +37,9 @@
         },
         "ref": {
             "content": "Tartalom",
-            "create_page": "Oldal készítése",
-            "pages": "Oldalak",
-            "slug": "Slug",
+            "create_page": "Oldal létrehozása",
+            "pages": "Lapok",
+            "slug": "Keresőbarát URL",
             "title": "Cím",
             "url": "URL"
         }

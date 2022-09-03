@@ -1,100 +1,121 @@
 {
     "v17development-flarum-badges": {
         "admin": {
-            "uncategorized": "",
-            "new_badge": "",
-            "create_category": "",
-            "update_badge": "",
-            "update_category": "",
-            "edit_category": "",
-            "nothing_here_yet": "",
+            "uncategorized": "Без категории",
+            "new_badge": "Новый жетон",
+            "create_category": "Создать категорию",
+            "update_badge": "Обновить жетон",
+            "update_category": "Обновить категорию",
+            "edit_category": "Править категорию",
+            "nothing_here_yet": "Вы еще не создали ни одной категории или жетона.",
+            "show_badges_on_user_card": "",
+            "number_of_badges_on_user_card": "",
+            "number_of_badges_on_user_card_help": "",
             "permissions": {
-                "badge_detail_users": "",
-                "give_badge": "",
-                "take_badge": ""
+                "badge_detail_users": "Можно видеть пользователей на странице деталей о жетонах",
+                "give_badge": "Присвоить жетон пользователю",
+                "take_badge": "Снять жетон у пользователя",
+                "edit_own_card_badges": "",
+                "edit_card_badges": ""
             },
             "confirm_dialog": {
-                "title": "",
-                "no": "",
-                "yes": ""
+                "title": "Подтвердить",
+                "no": "Нет",
+                "yes": "Да"
             },
             "confirm_messages": {
-                "delete_badge": "",
-                "delete_category": ""
+                "delete_badge": "Вы уверены, что хотите удалить этот жетон? Это действие удалит его у всех пользователей, и это действие нельзя отменить.",
+                "delete_category": "Вы уверены, что хотите удалить эту категорию? Если в категории есть жетоны, они будут помечены как \"Без категории\"."
             },
             "badge": {
-                "name": "",
-                "icon": "",
-                "description": "",
-                "visible": "",
-                "visible_description": ""
+                "name": "Название жетона",
+                "icon": "Иконка жетона",
+                "description": "Описание жетона",
+                "visible": "Видимый",
+                "visible_description": "Разрешить этот жетон. Если запретить, жетон не будет видимым.",
+                "is_image": "Жетон в виде изображения",
+                "is_image_description": "Использовать изображение вместо символьного жетона по умолчанию",
+                "image": "URL изображения жетона",
+                "image_placeholder": "Введите URL изображения жетона",
+                "icon_color": "Цвет иконки",
+                "background_color": "Цвет фона",
+                "label_color": "Цвет текста"
             },
             "badge_category": {
-                "name": "",
-                "description": "",
-                "blockview": "",
-                "blockview_description": "",
-                "enabled": "",
-                "enabled_description": ""
+                "name": "Название категории",
+                "description": "Описание категории",
+                "blockview": "Блочный вид",
+                "blockview_description": "Показать жетоны категорий в блочном виде на сводке жетонов. Если запрещено, все жетоны будут отображаться в виде таблицы.",
+                "enabled": "Разрешить",
+                "enabled_description": "Разрешить эту категорию. Если запретить, все её жетоны будут запрещены и категория будет скрыта."
             },
             "auto_moderator": {
                 "not_installed": {
-                    "title": "",
-                    "content": "",
-                    "install": "",
-                    "dismiss": ""
+                    "title": "Автоматически присваивать жетоны пользователям",
+                    "content": "Это расширение предлагает больше функциональности при установленном и активированном <a>Auto Moderator</a>. Когда вы установите это расширение, пользователи могут получать жетоны в автоматическом режиме, без вмешательства модераторов и администрации форума!",
+                    "install": "Установить",
+                    "dismiss": "Не показывать вновь"
                 },
                 "action_drivers": {
-                    "badge_id": "",
-                    "give_badge": "",
-                    "remove_badge": ""
+                    "badge_id": "ID жетона",
+                    "give_badge": "Присвоить жетон",
+                    "remove_badge": "Снять жетон"
                 },
                 "requirement_drivers": {
-                    "has_badge": ""
+                    "has_badge": "имеет жетон"
                 },
                 "metric_drivers": {
-                    "badges_received": ""
+                    "badges_received": "получено жетонов"
                 },
                 "badge_selector": {
-                    "placeholder": "",
-                    "loading_badges": ""
+                    "placeholder": "Выбрать жетон",
+                    "loading_badges": "Загружаем жетоны"
                 }
             }
         },
         "forum": {
-            "badge_information": "",
-            "all_badges": "",
-            "all_users": "",
-            "give_badge": "",
-            "update_badge": "",
-            "select_badge": "",
-            "user_has_badge": "",
-            "user_no_badges": "",
-            "no_received": "",
-            "uncategorized": "",
+            "badge_information": "Сведения о жетоне",
+            "all_badges": "Посмотреть все жетоны",
+            "all_users": "Посмотреть всех пользователей",
+            "give_badge": "Присвоить жетон",
+            "update_badge": "Обновить жетон",
+            "select_badge": "Выбрать жетон",
+            "user_has_badge": "У пользователя уже есть этот жетон.",
+            "user_no_badges": "У этого пользователя пока нет ни одного жетона.",
+            "no_received": "Этот жетон пока не присвоен ни одному пользователю.",
+            "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "",
             "badge": {
-                "badge": "",
-                "badges": "",
-                "name": "",
+                "badge": "Жетон",
+                "badges": "Жетоны",
+                "name": "Наименование жетона",
+                "description": "Описание жетона",
+                "earning_reason": "Причина присвоения жетона",
+                "update_earning_reason": "Причина присвоения жетона",
+                "no_earning_reason": "Причина присвоения жетона не установлена",
+                "earned_on": "Жетон присвоен",
+                "category": "Категория жетона",
+                "received_on": "Получено в {date}",
+                "badge_details": "Сведения о жетоне",
+                "earned_count": "{count, plural, one {<b># user</b> присвоен это жетон} other {<b># users</b> присвоен это жетон}}",
+                "earned_by_count": "{count, plural, one {награжден <b># user</b>} other {награждены <b># users</b>}}",
+                "others_link": ""
+            },
+            "badges_in_card": {
+                "title": "",
+                "manage_badges": "",
                 "description": "",
-                "earning_reason": "",
-                "update_earning_reason": "",
-                "no_earning_reason": "",
-                "earned_on": "",
-                "category": "",
-                "received_on": "",
-                "badge_details": "",
-                "earned_count": "",
-                "earned_by_count": ""
+                "select_limit": "",
+                "hit_limit": ""
             },
             "moderation": {
-                "remove_badge": "",
-                "remove_badge_confirm": "",
-                "give_badge": ""
+                "remove_badge": "Снять жетон с пользователя",
+                "remove_badge_confirm": "Вы уверены, что хотите снять этот жетон у этого пользователя?",
+                "give_badge": "Присвоить жетон"
             },
             "notification": {
-                "title": "",
-                "settings": ""
+                "title": "Вам присвоен новый жетон",
+                "settings": "Мне присвоен жетон"
             }
         }
     }

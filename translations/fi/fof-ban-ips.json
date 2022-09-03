@@ -1,73 +1,73 @@
 {
     "fof-ban-ips": {
         "forum": {
-            "ban_ip_button": "",
-            "unban_ip_button": "",
+            "ban_ip_button": "=> fof-ban-ips.ref.ban_ip_button",
+            "unban_ip_button": "=> fof-ban-ips.ref.unban_ip_button",
             "modal": {
-                "ban_options_only_ip": "",
-                "ban_options_all_ip": "",
-                "ban_ip_no_users": ""
+                "ban_options_only_ip": "Estä vain nykyinen IP (<code>{ip}</code>)",
+                "ban_options_all_ip": "Estä kaikki käyttäjän <i>{username}</i> IP-osoitteet",
+                "ban_ip_no_users": "Ketään muuta ei estetä"
             },
             "user_badge": {
-                "banned_tooltip": ""
+                "banned_tooltip": "Estetty"
             },
             "user_controls": {
-                "ban_button": "",
-                "unban_button": ""
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
         },
         "admin": {
             "permissions": {
-                "ban_ip_label": "",
-                "view_banned_ip_list_label": ""
+                "ban_ip_label": "=> fof-ban-ips.ref.ban_ip_addresses",
+                "view_banned_ip_list_label": "Näytä estettyjen IP-osoitteiden lista"
             },
             "page": {
-                "create_button": "",
-                "creator_label": "",
-                "user_label": "",
-                "address_label": "",
-                "reason_label": "",
-                "date_label": ""
+                "create_button": "=> fof-ban-ips.ref.ban_ip_button",
+                "creator_label": "Luoja",
+                "user_label": "Käyttäjä",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
+                "date_label": "Päivämäärä"
             },
             "modal": {
-                "update_title": "",
-                "ban_ip_no_users": ""
+                "update_title": "Päivätä estetty IP",
+                "ban_ip_no_users": "Ketään ei estetä"
             },
-            "empty_text": ""
+            "empty_text": "Estettyjä IP-osoitteita ei löytynyt."
         },
         "error": {
-            "banned_ip_message": "",
-            "no_ips_found_message": ""
+            "banned_ip_message": "Valtuutus epäonnistui.",
+            "no_ips_found_message": "IP-osoitteita ei löytynyt käyttäjälle."
         },
         "lib": {
             "modal": {
-                "title": "",
-                "unban_title": "",
-                "address_label": "",
-                "reason_label": "",
-                "check_button": "",
-                "save_button": "",
-                "ban_ip_confirmation": "",
-                "ban_ip_users": "",
-                "unban_ip_confirmation": "",
-                "unban_options_only_ip": "",
-                "unban_options_all_ip": "",
-                "unban_ip_no_users": "",
-                "unban_ip_users": "",
-                "unbanned_ips": "",
-                "ban_button": "",
-                "unban_button": ""
+                "title": "=> fof-ban-ips.ref.ban_ip_addresses",
+                "unban_title": "=> fof-ban-ips.ref.unban_ip_addresses",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
+                "check_button": "Tarkista",
+                "save_button": "Tallenna",
+                "ban_ip_confirmation": "Haluatko varmasti estää tämän IP-osoitteen käytön foorumilla. Tämä estää käyttäjät, jotka käyttää tätä IP-osoitetta kirjautumasta ja rekisteröitymästä.",
+                "ban_ip_users": "{count, plural, one {Käyttäjä {users} estetään}, other {Käyttäjät {users} estetään}}",
+                "unban_ip_confirmation": "Haluatko varmasti poistaa tämän käyttäjän eston ja muut käyttäjät joita ei estetty muiden IP-osoitteiden kautta?",
+                "unban_options_only_ip": "Poista vain nykyisen IP-osoitteen esto (<code>{ip}</code>)",
+                "unban_options_all_ip": "Poista kaikkien IP-osoitteiden esto joita käytti <i>{username}</i>",
+                "unban_ip_no_users": "Kenenkään muun estoa ei poisteta",
+                "unban_ip_users": "{count, plural, one {Käyttäjän {users} esto poistetaan}, other {Käyttäjien {users} estot poistetaan}}",
+                "unbanned_ips": "Estot poistettu <code>{ips}</code>.",
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
         },
         "ref": {
-            "ban_label": "",
-            "ban_ip_addresses": "",
-            "ban_ip_button": "",
-            "unban_label": "",
-            "unban_ip_addresses": "",
-            "unban_ip_button": "",
-            "address_label": "",
-            "reason_label": ""
+            "ban_label": "Estä",
+            "ban_ip_addresses": "Estä IP",
+            "ban_ip_button": "Estä IP",
+            "unban_label": "Poista esto",
+            "unban_ip_addresses": "Poista IP-osoitteen esto",
+            "unban_ip_button": "Poista IP esto",
+            "address_label": "IP-osoite",
+            "reason_label": "Syy"
         }
     }
 }

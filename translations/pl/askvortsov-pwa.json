@@ -7,19 +7,28 @@
             },
             "pwa": {
                 "about": {
+                    "description_label": "Opis",
                     "description_text": "Możesz ustawić opis w podstawowych ustawieniach forum w panelu admina.",
+                    "long_name_label": "Długa nazwa",
                     "long_name_text": "Nazwa aplikacji wyświetlana użytkownikowi.",
                     "heading": "O forum",
+                    "short_name_label": "Krótka nazwa",
                     "short_name_text": "Nazwa aplikacji wyświetlana użytkownikowi, jeśli nie ma wystarczająco miejsca na wyświetlenie pełnej nazwy."
                 },
                 "colors": {
                     "heading": "Kolory",
-                    "background_color_text": "Jest używany jako kolor wypełnienia na ekranie powitalnym, który jest wyświetlany podczas ładowania PWA. Nie jest wykorzystywany gdy aplikacja zostanie załadowana.",
+                    "background_color_label": "Kolor tła",
+                    "background_color_text": "Jest używany jako kolor wypełnienia na ekranie powitalnym, który jest wyświetlany podczas ładowania PWA. Nie jest wykorzystywany, gdy aplikacja zostanie załadowana.",
+                    "theme_color_label": "Kolor motywu",
                     "theme_color_text": "Ten kolor jest wykorzystywany w niektórych sytuacjach podczas wyświetlania Twojej aplikacji. Na przykład przełącznik aplikacji w Androidzie użyje go jako kolor wokół strony."
                 },
                 "maintenance": {
                     "heading": "Konserwacja",
-                    "debug_label": "Włączyć tryb debug? Informacje o powiadomieniach będą zapisywane w `storage/logs`."
+                    "debug_label": "Włączyć tryb debug?",
+                    "debug_text": "Informacje o powiadomieniach będą zapisywane w `storage/logs`. Ta opcja z reguły powinna być wyłączona, aby uniknąć niepotrzebnego zapełniania katalogu z logami.",
+                    "reset_vapid_text": "To wygeneruje nowe klucze VAPID i anuluje wszystkie istniejące subskrypcje korzystające z obecnych kluczy VAPID.",
+                    "reset_vapid_confirm": "Zresetowanie kluczy VAPID usunie wszystkie subskrypcje korzystające z obecnych kluczy, więc użytkownicy nie dostaną żadnych powiadomień do czasu ponownego odwiedzenia strony. Ta operacja powinna być wykonana tylko podczas konfigurowania powiadomień push po raz pierwszy, lub gdy powiadomienia push w ogóle nie działają i powyżej wyświetla się powiadomienie o brakujących kluczach VAPID.",
+                    "reset_vapid_success": "Klucze VAPID zostały pomyślnie zresetowane. {count, plural, one {{count} subskrypcja została zresetowana} few {{count} subskrypcje zostały zresetowane} other {{count} subskrypcji zostało zresetowanych}}. Odśwież stronę, aby zobaczyć zaktualizowany status."
                 },
                 "other": {
                     "heading": "Inne",
@@ -39,6 +48,7 @@
                 "possible_https_disabled": "Twoja strona może nie korzystać z HTTPS. Wyczyszczenie cache (przycisk \"Narzędzia\" w kokpicie panelu admina) może pomóc. Jeśli Twoja strona korzysta z HTTPS, zignoruj to ostrzeżenie. Jeśli nie, miej na uwadze, że HTTPS jest wymagany do działania Progressive Web App.",
                 "no_logo": "Aby Twoja aplikacja działała, musisz wysłać co najmniej jedno logo o minimalnych wymiarach 196px na 196px.",
                 "no_name": "Aby Twoja aplikacja działała, musisz podać jej pełną nazwę.",
+                "no_vapid_keys": "Nie znaleziono kluczy VAPID. Są one wymagane do wysyłania powiadomień push. Możesz zresetować klucze VAPID poniżej.",
                 "key_gen_failed": "Nie udało się wygenerować kluczy potrzebnych do działania powiadomień push. Pełna treść błędu: {error}",
                 "suggest_gmp": "Wygląda na to, że rozszerzenie gmp dla PHP nie jest włączone na Twoim serwerze. Nie jest ono wymagane, ale może poprawić wydajność i jego włączenie jest zalecane. Niektóre hostingi współdzielone nie wspierają tego rozszerzenia.",
                 "success": "Nie wyryto żadnych potencjalnych problemów!"

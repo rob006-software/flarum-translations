@@ -2,53 +2,53 @@
     "clarkwinkelmann-featured-discussions": {
         "admin": {
             "settings": {
-                "schedule": "",
-                "duration": "",
-                "eventPost": ""
+                "schedule": "Planen (CRON-Syntax)",
+                "duration": "Standarddauer (Sekunden)",
+                "eventPost": "Event-Beitrag generieren, wenn der Zeitplan geändert wird"
             },
             "permissions": {
-                "feature": ""
+                "feature": "Angesagte Diskussionen verwalten"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
+                "title": "Angesagte Diskussionen",
                 "fields": {
-                    "from": "",
-                    "until": ""
+                    "from": "Von",
+                    "until": "Bis"
                 },
                 "from": {
-                    "not": "",
-                    "next": "",
-                    "manual": ""
+                    "not": "Nicht vorgestellt",
+                    "next": "Nächster Slot",
+                    "manual": "Manuelles Datum"
                 },
                 "until": {
-                    "auto": "",
-                    "manual": ""
+                    "auto": "Auto",
+                    "manual": "Manuelles Datum"
                 },
                 "action": {
-                    "cancel": "",
-                    "submit": ""
+                    "cancel": "Abbrechen",
+                    "submit": "Senden"
                 }
             },
             "controls": {
-                "feature": ""
+                "feature": "Vorgestellte Disskusionen"
             },
-            "badge": "",
+            "badge": "Vorgestellt",
             "nav": {
-                "schedule": ""
+                "schedule": "Funktion planen"
             },
             "schedule": {
-                "help": "",
-                "drop-here": "",
-                "drop-error": "",
-                "empty": "",
-                "custom": ""
+                "help": "Ziehe Diskussionen per Drag & Drop auf die Seite oder aus einem anderen Fenster, um deinen Zeitplan zu ändern. Um den Zeitplan zu entfernen, verwende das 3-Punkte-Menü.\n",
+                "drop-here": "Hier ablegen, um zu planen",
+                "drop-error": "Ungültiger Diskussionslink",
+                "empty": "Keine Diskussionen",
+                "custom": "benutzerdefiniert"
             },
             "post": {
-                "scheduled": "",
-                "unscheduled": "",
-                "auto": ""
+                "scheduled": "Geplante Veröffentlichung von {from} bis {until}",
+                "unscheduled": "Nicht mehr geplant, vorgestellt zu werden",
+                "auto": "(auto)"
             }
         }
     }

@@ -2,11 +2,21 @@
     "ianm-synopsis": {
         "admin": {
             "settings": {
-                "excerpt-label": "Limit długości wyświetlanego fragmentu",
-                "rich-excerpts": "Wyświetlaj fragmenty zachowując formatowanie (zachowaj ostrożność)",
-                "excerpt-type": "Fragment którego posta powinien zostać wyświetlony?",
+                "excerpt-length": {
+                    "label": "",
+                    "help": ""
+                },
+                "rich-excerpts": {
+                    "label": "",
+                    "help": ""
+                },
+                "excerpt-type": {
+                    "label": "",
+                    "help": ""
+                },
                 "first-label": "Pierwszy post",
-                "last-label": "Ostatni post"
+                "last-label": "Ostatni post",
+                "tags-enabled": ""
             }
         },
         "forum": {

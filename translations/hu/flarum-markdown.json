@@ -1,18 +1,33 @@
 {
     "flarum-markdown": {
+        "lib": {
+            "composer": {
+                "bold_tooltip": "Félkövér szöveg hozzáadása",
+                "code_tooltip": "Kód beillesztése",
+                "header_tooltip": "Fejlécszöveg hozzáadása",
+                "image_tooltip": "Kép hozzáadása",
+                "italic_tooltip": "Dőlt szöveg hozzáadása",
+                "link_tooltip": "Hivatkozás hozzáadása",
+                "ordered_list_tooltip": "Számozott lista hozzáadása",
+                "quote_tooltip": "Idézet beillesztése",
+                "spoiler_tooltip": "Rejtett szöveg beillesztése",
+                "strikethrough_tooltip": "Áthúzott szöveg hozzáadása",
+                "unordered_list_tooltip": "Felsorolás hozzáadása"
+            }
+        },
         "forum": {
             "composer": {
-                "bold_tooltip": "Félkövér szöveg beszúrása",
-                "code_tooltip": "Kód beágyazása",
-                "header_tooltip": "Fejléc-szöveg beszúrása",
-                "image_tooltip": "Kép beszúrása",
-                "italic_tooltip": "Dőlt szöveg beszúrása",
-                "link_tooltip": "Link (hivatkozás) hozzáadása",
-                "ordered_list_tooltip": "Számozott lista beszúrása",
+                "bold_tooltip": "Félkövér szöveg hozzáadása",
+                "code_tooltip": "Kód beszúrása",
+                "header_tooltip": "Fejlécszöveg hozzáadása",
+                "image_tooltip": "Kép hozzáadása",
+                "italic_tooltip": "Dőlt szöveg hozzáadása",
+                "link_tooltip": "Hivatkozás hozzáadása",
+                "ordered_list_tooltip": "Számozott lista hozzáadása",
                 "quote_tooltip": "Idézet beszúrása",
-                "spoiler_tooltip": "",
-                "strikethrough_tooltip": "",
-                "unordered_list_tooltip": "Lista beszúrása"
+                "spoiler_tooltip": "Rejtett szöveg beszúrása",
+                "strikethrough_tooltip": "Áthúzott szöveg hozzáadása",
+                "unordered_list_tooltip": "Felsorolásos lista hozzáadása"
             }
         }
     }

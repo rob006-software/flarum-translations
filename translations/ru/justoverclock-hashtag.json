@@ -1,8 +1,15 @@
 {
     "justoverclock-hashtag": {
+        "admin": {
+            "settings": {
+                "regexlabel": "Регулярное выражение",
+                "regexdesc": "Ниже приведено регулярное выражение в качестве примера. Редактируйте только в том случае, если Вы понимаете регулярные выражения.",
+                "oldregexdesc": ""
+            }
+        },
         "forum": {
             "post": {
-                "hashtag_link_tooltip": ""
+                "hashtag_link_tooltip": "Найти сообщения, помеченные этим хэштегом"
             }
         }
     }

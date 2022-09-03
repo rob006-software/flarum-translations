@@ -2,13 +2,14 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "Thịnh hành"
+                "hot_button": "Thịnh hành",
+                "votes_button": "Lượt ủng hộ"
             }
         }
     },
     "fof-gamification": {
         "forum": {
-            "votes": "bình chọn",
+            "votes": "Bình chọn",
             "vote_title": "Hiển thị ai đã bình chọn",
             "nav": {
                 "name": "Xếp hạng"
@@ -20,23 +21,43 @@
             },
             "notification": {
                 "upvote": "{username} tán thành bài đăng của bạn",
-                "downvote": "{username} phản đối bài đăng của bạn"
+                "downvote": "{username} phản đối bài đăng của bạn",
+                "prefrences": {
+                    "vote": "Khi 1 trong các bài viết của tôi được bình chọn ủng hộ/phản đối"
+                }
             },
             "user": {
-                "points": "Điểm: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": "{count, plural, one { {count} điểm} other {{count} điểm}}"
+                },
+                "rank": "{rank}",
+                "votes_link": "Bình chọn",
+                "points": "Điểm: {points}"
             },
             "modal": {
+                "downvotes_label": "Lượt phản đối:",
                 "title": "Người bình chọn",
                 "upvotes_label": "Người tán thành:"
             },
-            "mod_item": "Xem người bình chọn"
+            "mod_item": "Xem người bình chọn",
+            "voters": {
+                "none": "Chưa có người bình chọn nào",
+                "label": "Người bình chọn",
+                "label_none": "Không có người bình chọn"
+            },
+            "post": {
+                "upvote_button": "Ủng hộ bài viết",
+                "downvote_button": "Phản đối bài viết"
+            }
         },
         "admin": {
             "permissions": {
                 "vote_label": "tán thành/Phản đối bài đăng",
-                "see_votes_label": "Xem bài đăng tán thành/phản đối",
-                "see_ranking_page": "Xem trang xếp hạng"
+                "see_votes_label": "Số số phiếu bầu tán thành/phản đối",
+                "see_voters_label": "Xem ai đã bình chọn",
+                "see_ranking_page": "Xem trang xếp hạng",
+                "upvote_notifications": "Nhận thông báo khi ủng hộ",
+                "downvote_notifications": "Nhận thông báo khi phản đối"
             },
             "page": {
                 "rankings": {
@@ -51,6 +72,9 @@
                     "custom_image_2": "Hình ảnh vị trí thứ 2",
                     "custom_image_3": "Hình ảnh vị trí thứ 3"
                 },
+                "alt_votes": {
+                    "icon_name": "Tên icon bố cục alt"
+                },
                 "votes": {
                     "points_title": "Tiêu đề điểm",
                     "points_placeholder": "Điểm: ",
@@ -58,11 +82,14 @@
                     "auto_upvote": "Tự động tán thành bài đăng khi được đăng",
                     "rate_limit": "Thực thi giới hạn tỷ lệ bình chọn (10 giây)",
                     "discussion_page": "Hiển thị tổng số phiếu bầu của bài đăng gốc trên danh sách thảo luận",
-                    "alternate_layout": "Sử dụng bố cục thay thế để hiển thị và/hoặc tán thành/phản đối",
+                    "alternate_layout": "Sử dụng bố cục bình chọn trên danh sách thảo luận",
+                    "alternate_post_layout": "Sử dụng bố cục bình chọn trên các bài viết",
                     "title": "Bình chọn",
                     "vote_color": "Màu bình chọn",
                     "icon_name": "Biểu tượng tán thành/phản đối",
-                    "icon_help": "Nhập bất kỳ biểu tượng Font-Awesome nào đi kèm với -up và -down. Ví dụ: mũi tên, ngón tay cái"
+                    "icon_help": "Nhập bất kỳ biểu tượng Font-Awesome nào đi kèm với -up và -down. Ví dụ: mũi tên, ngón tay cái",
+                    "upvotes_only": "Chỉ cho phép ủng hộ",
+                    "first_post_only": "Chỉ cho phép bình chọn cho bài viết đầu tiên trong cuộc thảo luận"
                 },
                 "save_settings": "Lưu thiết lập",
                 "convert": {
@@ -82,6 +109,14 @@
                         "name": "Tên"
                     }
                 }
+            }
+        },
+        "email": {
+            "body": {
+                "postVoted": "Chào {recipient_display_name},\n\n{actor_display_name} vừa mới bình chọn bài viết của bạn trong {discussion_title}.\n\nXem tại đây: {discussion_url}\n"
+            },
+            "subject": {
+                "postVoted": "Bài viết của bạn được bình chọn bởi {display_name}"
             }
         }
     }

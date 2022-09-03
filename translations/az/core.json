@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Əhatə dairələrini konfiqurasiya edin",
-                "confirm_uninstall": "Silinmə, uzantı ilə əlaqəli bütün verilənlər bazası girişlərini və aktivlərini siləcək. Davam etmək istədiyinizə əminsiniz?",
+                "confirm_purge": "",
                 "disabled": "Deaktiv edildi",
                 "enable_to_see": "Parametrləri görmək və dəyişdirmək üçün uzantını aktiv edin.",
                 "enabled": "Aktiv edildi",
@@ -116,6 +116,13 @@
                 "no_settings": "Bu uzantının heç bir ayarı yoxdur.",
                 "open_modal": "Ayarları açın",
                 "permissions_title": "İcazələr",
+                "purge_button": "",
+                "readme": {
+                    "button_label": "",
+                    "no_readme": "",
+                    "title": ""
+                },
+                "confirm_uninstall": "Silinmə, uzantı ilə əlaqəli bütün verilənlər bazası girişlərini və aktivlərini siləcək. Davam etmək istədiyinizə əminsiniz?",
                 "uninstall_button": "Silin"
             },
             "header": {
@@ -296,9 +303,11 @@
             "discussion_list": {
                 "empty_text": "Görünür burada heç bir mövzu yoxdur.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Oxudum",
                 "replied_text": "{username} cavabladı {ago}",
-                "started_text": "{username} başlatdı {ago}"
+                "started_text": "{username} başlatdı {ago}",
+                "total_replies_a11y_label": "",
+                "unread_replies_a11y_label": "",
+                "mark_as_read_tooltip": "Oxudum"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -444,9 +453,16 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Təsdiq məktubunu yenidən Göndər",
                 "sent_message": "Göndər"
+            },
+            "welcome_hero": {
+                "hide": ""
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "Gizli"
             },
@@ -464,19 +480,32 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "username_label": "=> core.ref.username",
+                "nothing_available": ""
             },
             "error": {
                 "dependent_extensions_message": "Aşağıdakı asılı uzantılar deaktiv olunana qədər {extension} ləğv edilə bilməz: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "Vay! Nəsə səhv oldu. Zəhmət olmasa səhifəni yenidən yükləyin və yenidən cəhd edin.",
                 "missing_dependencies_message": "Aşağıdakı asılılıqlar aktiv olana qədər {extension} aktiv edilə bilməz: {extension}",
                 "not_found_message": "Tələb olunan resurs tapılmadı.",
                 "payload_too_large_message": "İstək yükü çox böyük idi.",
                 "permission_denied_message": "Bunu etməyə icazəniz yoxdur.",
-                "rate_limit_exceeded_message": "Bir az tez gedirsən. Zəhmət olmasa bir neçə saniyə sonra yenidən cəhd edin."
+                "rate_limit_exceeded_message": "Bir az tez gedirsən. Zəhmət olmasa bir neçə saniyə sonra yenidən cəhd edin.",
+                "render_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -546,6 +575,10 @@
                 "new_password_label": "Yeni şifrə",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {
@@ -562,7 +595,7 @@
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Salam {username}!\n\nKimsə {Forum} saytında hesabınız üçün unudulmuş parol sorğusu göndərdi..\n\nBu siz idinizsə, parolunuzu sıfırlamaq üçün aşağıdakı linkə daxil olun:\n{url}\n\nŞifrənizi dəyişdirmək istəmirsinizsə, bu e -poçtu gözardı edin və heç nə olmayacaq.\n"
+                "body": "Salam {username}!\n\nKimsə {forum} saytında hesabınız üçün unudulmuş parol sorğusu göndərdi..\n\nBu siz idinizsə, parolunuzu sıfırlamaq üçün aşağıdakı linkə daxil olun:\n{url}\n\nŞifrənizi dəyişdirmək istəmirsinizsə, bu e -poçtu gözardı edin və heç nə olmayacaq.\n"
             },
             "send_test": {
                 "subject": "Flarum E -poçt Testi",

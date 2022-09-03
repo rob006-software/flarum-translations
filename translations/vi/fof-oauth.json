@@ -1,6 +1,8 @@
 {
     "fof-oauth": {
         "admin": {
+            "configure_button_label": "Cấu hình với FoF OAuth",
+            "settings_accessibility_label": "cài đặt {name}",
             "settings": {
                 "only_icons_label": "Chỉ hiển thị các biểu tượng Nút đăng nhập (bố cục thay thế)",
                 "providers": {
@@ -63,6 +65,9 @@
                 "google": "=> fof-oauth.lib.providers.google",
                 "linkedin": "=> fof-oauth.lib.providers.linkedin",
                 "twitter": "=> fof-oauth.lib.providers.twitter"
+            },
+            "signup": {
+                "username_help": "Vui lòng chọn một tên người dùng tại đây"
             },
             "error": {
                 "bad_verification_code": "Mã thông báo xác minh không hợp lệ hoặc đã hết hạn. Vui lòng thử lại.",

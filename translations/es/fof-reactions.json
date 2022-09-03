@@ -1,56 +1,58 @@
 {
     "fof-reactions": {
         "forum": {
-            "disabled-reaction": "",
-            "warning": "",
-            "notification": "",
+            "disabled-reaction": "No es posible ocupar esta reacción ahora, por favor refresca la página",
+            "warning": "La reacción fue convertida",
+            "notification": "{username} reaccionó a tu mensaje con {reaction}",
             "settings": {
-                "notify_post_reacted_label": ""
+                "notify_post_reacted_label": "Cuando alguien reaccione a uno de mis mensajes"
             },
-            "reacting-own-post": "",
+            "reacting-own-post": "No puedes reaccionar a tu propio mensaje",
             "modal": {
-                "title": ""
+                "title": "Reacciones"
             },
-            "mod_item": "",
-            "react_button_label": ""
+            "mod_item": "Ver Reacciones",
+            "react_button_label": "Reaccionar"
         },
         "admin": {
             "permissions": {
-                "react_posts_label": "",
-                "see_reactions_label": ""
+                "react_posts_label": "Reaccionar a mensajes",
+                "see_reactions_label": "Ver quién ha reaccionado a los mensajes"
             },
             "page": {
                 "reactions": {
-                    "title": "",
-                    "reactions": "",
-                    "Helptext": "",
+                    "title": "Reacciones Personalizadas",
+                    "reactions": "Reacciones Actuales",
+                    "Helptext": "Escribe el nombre (identificador) del emoji o ícono de font-awesome y selecciona uno de los dos tipos.",
                     "help": {
-                        "display": "",
-                        "identifier": ""
+                        "display": "Texto a mostrar",
+                        "identifier": "Identificador"
                     }
                 },
                 "convert": {
-                    "help": "",
-                    "button": "",
-                    "converting": "",
-                    "converted": ""
+                    "help": "Si actualizaste la extensión, tus reacciones deberán ser convertidas. Si instalaste esta extensión por primera vez, puedes ignorar este mensaje.",
+                    "button": "Convertir reacciones antiguas",
+                    "converting": "Tus reacciones se están convirtiendo. Refresca la página tras unos minutos para revisar el proceso. (El tiempo estimado de conversión puede variar dependiendo de la cantidad de reacciones)",
+                    "converted": "Se han convertido {number} me gusta de manera exitosa"
                 },
                 "settings": {
-                    "save_settings": "",
+                    "react_own_posts_help": "",
+                    "react_own_posts_label": "",
+                    "save_settings": "Guardar cambios",
                     "integrations": {
-                        "legend": "",
-                        "warning": "",
+                        "legend": "Integraciones",
+                        "warning": "La misma reacción <strong>no puede</strong> ser convertida a un Me gusta <strong>y a un</strong> voto a favor",
                         "gamification": {
-                            "legend": "",
-                            "upvoteLabel": "",
-                            "upvoteHelptext": "",
-                            "downvoteLabel": "",
-                            "downvoteHelptext": ""
+                            "legend": "Gamificación",
+                            "upvoteLabel": "Convertir reacciones en votos a favor",
+                            "upvoteHelptext": "Escribe el identificador de la reacción que quieres convertir de manera automática en un voto a favor",
+                            "downvoteLabel": "Convertir reacciones a votos en contra",
+                            "downvoteHelptext": "Escribe el identificador de la reacción que te gustaría convertir automáticamente en un voto en contra"
                         },
                         "likes": {
-                            "legend": "",
-                            "Label": "",
-                            "Helptext": ""
+                            "legend": "Me gusta",
+                            "Label": "Convertir reacciones a Me gusta",
+                            "Helptext": "Escribe el identificador de la reacción que te gustaría convertir automáticamente en un Me gusta"
                         }
                     }
                 }

@@ -22,11 +22,15 @@
                 "show_flag_label": "Länderflaggen mit Sprachnamen anzeigen",
                 "composer_default_label": "Aktuelle Sprache im Diskussions-Verfasser vorauswählen",
                 "locale_sort_label": "Erkannte Sprache als Standard-Diskussionsfilter verwenden",
-                "show_any_lang_opt_label": "",
-                "tags_page_discussion_locale_label": "",
+                "show_any_lang_opt_label": "Zeige die Option an, um 'Beliebige Sprache' auszuwählen",
+                "tags_page_discussion_locale_label": "Nur Diskussionen aus dem aktuellen Gebietsschema des Benutzers auf der Tags-Seite anzeigen",
                 "errors": {
-                    "missing_assets": "",
+                    "missing_assets": "Die von dieser Erweiterung benötigten Assets konnten nicht geladen werden. Versuche, <code>php flarum assets:publish</code> auszuführen und prüfe, ob das Problem damit behoben ist.",
                     "loading_data": ""
+                },
+                "config": {
+                    "language_label": "",
+                    "country_label": ""
                 }
             },
             "permissions": {

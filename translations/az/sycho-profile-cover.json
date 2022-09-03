@@ -1,23 +1,23 @@
 {
     "sycho-profile-cover": {
         "admin": {
-            "thumbnails": "",
-            "max_size": "",
+            "thumbnails": "Avtomatik thumbnails yaradılsın?",
+            "max_size": "Şəkilin maksimum ölçüsü (KB)",
             "permission": {
-                "set_cover": ""
+                "set_cover": "Kimlər yükləyə bilər?"
             }
         },
         "forum": {
-            "cover": "",
-            "edit_cover": "",
-            "notice": "",
+            "cover": "Qapağ",
+            "edit_cover": "Qapağ şəklini dəyiş",
+            "notice": "Şəklin Maksimum ölçüsü: {size}",
             "added": {
-                "success": "",
-                "error": ""
+                "success": "Cover şəkliniz yükləndi.",
+                "error": "Şəkil yüklənirkən xəta oldu təkrar cəhd edin."
             },
             "removed": {
-                "success": "",
-                "error": ""
+                "success": "Cover çəkliniz uğurla silindi.",
+                "error": "Silinmə uğursuz oldu zəhmət olmasa biraz sonra yenidən cəhd edin."
             }
         }
     }

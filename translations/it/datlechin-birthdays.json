@@ -1,0 +1,53 @@
+{
+    "datlechin-birthdays": {
+        "admin": {
+            "permissions": {
+                "edit_own_birthday_label": "Modificare il proprio compleanno",
+                "view_birthday_label": "Vedere data di nascita"
+            },
+            "settings": {
+                "set_on_registration_label": "Consenti impostazione compleanno durante registrazione",
+                "required_label": "Imposta campo Data di nascita come richiesto",
+                "required_help": "Per abilitare questa opzione devi impostare anche il campo nel form di registrazione",
+                "min_age_label": "Età Minima",
+                "min_age_help": "Età minima per registrarsi",
+                "date_format_label": "Formato Data",
+                "date_format_help": "Usa il formato <a>day.js</a> . Lascia vuoto per quello di default.",
+                "date_none_year_label": "Formato data senza anno"
+            }
+        },
+        "forum": {
+            "user": {
+                "birthday_text": "Compleanno: {date}",
+                "age_text": "Età: {age}"
+            },
+            "header": {
+                "edit_dob_button": "Modifica Data di Nascita"
+            },
+            "change_dob": {
+                "title": "Modifica Data di Nascita",
+                "date_of_birth_text": "Data di Nascita",
+                "submit_button": "=> core.ref.save_changes",
+                "show_dob_date": "",
+                "show_dob_year": "",
+                "show_dob_year_help": ""
+            },
+            "settings": {
+                "change_dob_label": "Cambia Data di Nascita",
+                "dob_heading": "Data di nascita",
+                "show_dob_date_label": "Mostra giorno e mese di nascita",
+                "show_dob_year_label": "Mostra anno di nascita",
+                "show_dob_year_help": "Questo consentirà agli utenti di conoscere la tua età.",
+                "birthday_heading": ""
+            },
+            "edit_user": {
+                "dob_heading": "Data di Nascita",
+                "birthdays_heading": ""
+            }
+        },
+        "api": {
+            "invalid_dob_message": "La tua data di nascita deve essere inferiore a 100 anni fa.",
+            "invalid_age_message": "La tua età deve essere minimo di: {minAge}."
+        }
+    }
+}

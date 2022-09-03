@@ -94,6 +94,7 @@
                 "name": "Name",
                 "user-name": "Zuletzt benannt von",
                 "user-place": "Zuletzt platziert von",
+                "placement": "Aktueller Standort",
                 "actions": "Aktionen",
                 "edit": "Bearbeiten",
                 "no-user-name": "Nicht benannt",
@@ -120,11 +121,35 @@
         },
         "admin": {
             "settings": {
-                "discussion-age": "Wie alt Diskussionen sein können, damit ein Fisch darauf platziert wird (Tage)",
-                "post-age": "Wie alt können Pfosten sein, damit ein Fisch darauf platziert wird (Tage)",
+                "user": "Benutzer",
                 "user-age": "Wie lange muss ein Benutzer aktiv gewesen sein, damit ein Fisch darauf platziert wird (Tage)",
+                "user-probability": "Wahrscheinlichkeit, in ein Benutzerprofil aufgenommen zu werden (%)",
+                "discussion": "Diskussionen",
+                "discussion-age": "Wie alt Diskussionen sein können, damit ein Fisch darauf platziert wird (Tage)",
+                "discussion-tags": "Tag whitelist",
+                "discussion-tags-unavailable": "Einstellung nicht verfügbar, da die Tags-Erweiterung deaktiviert ist.",
+                "discussion-tags-help": "Wenn Du keinen Tag auswählst, kann jede Diskussion ausgewählt werden, die den obigen Zeiteinstellungen entspricht. Wenn eine beliebige Anzahl von Tags ausgewählt wird, muss in einer Diskussion mindestens eines der ausgewählten Tags ausgewählt werden. Die Wahrscheinlichkeit ist die Chance, ausgewählt zu werden, nachdem alle vorherigen Auswahlmöglichkeiten ausprobiert wurden. Das letzte Tag in der Liste fungiert immer als Fallback, also stelle sicher, dass das Tag mindestens eine gültige Diskussion enthält.\n",
+                "tags-header": {
+                    "tag": "Tag",
+                    "probability": "Warscheinlichkeit"
+                },
+                "tags-control": {
+                    "choose": "Wähle ein Tag",
+                    "add": "Zur Whitelist hinzufügen",
+                    "down": "Abwärts bewegen",
+                    "up": "Aufwärts bewegen",
+                    "delete": "Von Whitelist entfernen"
+                },
+                "tags-fallback": {
+                    "last-line": "Zurückfallen",
+                    "single-line": "Mindestens 2 Tags für Wahrscheinlichkeit erforderlich"
+                },
+                "post": "Beiträge",
+                "post-age": "Wie alt können Pfosten sein, damit ein Fisch darauf platziert wird (Tage)",
+                "post-probability": "Wahrscheinlichkeit, in einem Beitrag statt in der Diskussion platziert zu werden (%)",
+                "general": "Generell",
                 "time-to-place": "Zeit, um Fische zu platzieren, bevor sie zufällig platziert werden (Minuten)",
-                "alert-round": "Zeige einen Altert mit dem runden Namen und der Dauer auf der Homepage an",
+                "alert-round": "Benachrichtigung mit Rundennamen und Dauer auf der Startseite anzeigen",
                 "animate-flip": "Spiegel Fischbilder basierend auf der Richtung"
             },
             "permissions": {
@@ -145,6 +170,7 @@
             "invalid-user-id": "Benutzer scheint nicht zu existieren, vielleicht wurde er kürzlich gelöscht",
             "model-deleted": "Fisch kann nicht in einer gelöschten Diskussion oder einem gelöschten Beitrag platziert werden",
             "model-private": "Fische können nicht in eine private Diskussion oder einen privaten Beitrag eingefügt werden",
+            "tag-not-allowed": "Du kannst keine Fische unter diesem Tag platzieren",
             "inactive-discussion": "Fische können nicht länger als {days}Tage in einer Diskussion inaktiv platziert werden",
             "inactive-post": "Fisch kann nicht in Beitrag platziert werden, der vor mehr als {days} Tagen erstellt wurde",
             "inactive-user": "Fische können nicht auf Nutzer platziert werden, die länger als {days} Tage inaktiv sind",

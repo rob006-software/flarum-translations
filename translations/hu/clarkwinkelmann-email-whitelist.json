@@ -2,17 +2,17 @@
     "clarkwinkelmann-email-whitelist": {
         "admin": {
             "settings": {
-                "regex": "",
-                "regexHelp": "",
-                "message": "",
-                "whitelist": "",
-                "whitelistHelp": "",
-                "blacklist": "",
-                "blacklistHelp": ""
+                "regex": "Reguláris kifejezés",
+                "regexHelp": "Domainlista helyett reguláris kifejezéssel történő ellenőrzés. Minden sornak elválasztókkal megadott érvényes reguláris kifejezésnek kell lennie.\n",
+                "message": "Egyéni hibaüzenet",
+                "whitelist": "Fehérlista",
+                "whitelistHelp": "Soronként egy kifejezés. Elsőbbséget élvez a feketelistával szemben.\n",
+                "blacklist": "Feketelista",
+                "blacklistHelp": "Soronként egy kifejezés. Ha van megadva feketelista, akkor minden itt fel nem sorolt elem fehérlistára kerül.\n"
             }
         },
         "api": {
-            "fallbackMessage": ""
+            "fallbackMessage": "Az e-mail-cím nem szerepel a fehérlistán."
         }
     }
 }

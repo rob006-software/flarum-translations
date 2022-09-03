@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "വ്യാപ്തി ക്രമീകരിക്കുക",
-                "confirm_uninstall": "അൺഇൻസ്റ്റാൾ ചെയ്യുന്നത് വിപുലീകരണവുമായി ബന്ധപ്പെട്ട എല്ലാ ഡാറ്റാബേസ് എൻട്രികളും അസറ്റുകളും നീക്കം ചെയ്യും. നിങ്ങൾക്ക് തുടരണമെന്ന് ഉറപ്പാണോ?",
+                "confirm_purge": "",
                 "disabled": "അപ്രാപ്തമാക്കി",
                 "enable_to_see": "ക്രമീകരണങ്ങൾ കാണാനും മാറ്റാനും വിപുലീകരണം പ്രവർത്തനക്ഷമമാക്കുക.",
                 "enabled": "പ്രവർത്തനക്ഷമമാക്കി",
@@ -116,6 +116,13 @@
                 "no_settings": "ഈ വിപുലീകരണത്തിന് ക്രമീകരണങ്ങളൊന്നുമില്ല.",
                 "open_modal": "ക്രമീകരണങ്ങൾ തുറക്കുക",
                 "permissions_title": "അനുമതികൾ",
+                "purge_button": "",
+                "readme": {
+                    "button_label": "",
+                    "no_readme": "",
+                    "title": ""
+                },
+                "confirm_uninstall": "അൺഇൻസ്റ്റാൾ ചെയ്യുന്നത് വിപുലീകരണവുമായി ബന്ധപ്പെട്ട എല്ലാ ഡാറ്റാബേസ് എൻട്രികളും അസറ്റുകളും നീക്കം ചെയ്യും. നിങ്ങൾക്ക് തുടരണമെന്ന് ഉറപ്പാണോ?",
                 "uninstall_button": "അൺഇൻസ്റ്റാൾ ചെയ്യുക"
             },
             "header": {
@@ -296,66 +303,68 @@
             "discussion_list": {
                 "empty_text": "ഇവിടെ ചർച്ചകളൊന്നുമില്ലെന്ന് തോന്നുന്നു.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "വായിച്ചതായി അടയാളപ്പെടുത്തുക",
-                "replied_text": "",
-                "started_text": ""
+                "replied_text": "{username} മറുപടി നൽകി {ago}",
+                "started_text": "{username} ആരംഭിച്ചു {ago}",
+                "total_replies_a11y_label": "",
+                "unread_replies_a11y_label": "",
+                "mark_as_read_tooltip": "വായിച്ചതായി അടയാളപ്പെടുത്തുക"
             },
             "forgot_password": {
-                "dismiss_button": "",
-                "email_placeholder": "",
-                "email_sent_message": "",
-                "not_found_message": "",
-                "submit_button": "",
-                "text": "",
-                "title": ""
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "email_sent_message": "നിങ്ങളുടെ പാസ്‌വേഡ് പുനസജ്ജമാക്കുന്നതിനുള്ള ഒരു ലിങ്ക് അടങ്ങിയ ഒരു ഇമെയിൽ ഞങ്ങൾ നിങ്ങൾക്ക് അയച്ചിട്ടുണ്ട്. അടുത്ത ഒന്നോ രണ്ടോ മിനിറ്റിനുള്ളിൽ നിങ്ങൾക്ക് അത് ലഭിക്കുന്നില്ലെങ്കിൽ നിങ്ങളുടെ സ്പാം ഫോൾഡർ പരിശോധിക്കുക.",
+                "not_found_message": "ആ ഇമെയിൽ വിലാസത്തിൽ ഒരു ഉപയോക്താവും രജിസ്റ്റർ ചെയ്തിട്ടില്ല.",
+                "submit_button": "പാസ്സ്വേർഡ് വീണ്ടെടുക്കുക",
+                "text": "നിങ്ങളുടെ ഇമെയിൽ വിലാസം നൽകുക, നിങ്ങളുടെ പാസ്‌വേഡ് പുന:സജ്ജമാക്കുന്നതിനുള്ള ഒരു ലിങ്ക് ഞങ്ങൾ നിങ്ങൾക്ക് അയയ്ക്കും.",
+                "title": "പാസ്വേഡ് മറന്നോ"
             },
             "header": {
-                "admin_button": "",
-                "back_to_index_tooltip": "",
-                "locale_dropdown_accessible_label": "",
-                "log_in_link": "",
-                "log_out_button": "",
-                "profile_button": "",
-                "search_clear_button_accessible_label": "",
-                "search_placeholder": "",
-                "search_role_label": "",
-                "session_dropdown_accessible_label": "",
-                "settings_button": "",
-                "sign_up_link": ""
+                "admin_button": "ഭരണം",
+                "back_to_index_tooltip": "ചർച്ചാ പട്ടികയിലേക്ക് മടങ്ങുക",
+                "locale_dropdown_accessible_label": "ഫോറം ഭാഷ മാറ്റുക",
+                "log_in_link": "=> core.ref.log_in",
+                "log_out_button": "=> core.ref.log_out",
+                "profile_button": "പ്രൊഫൈൽ",
+                "search_clear_button_accessible_label": "തിരയൽ ചോദ്യം മായ്ക്കുക",
+                "search_placeholder": "ഫോറത്തിൽ തിരയുക",
+                "search_role_label": "ഫോറത്തിൽ തിരയുക",
+                "session_dropdown_accessible_label": "സെഷൻ ഓപ്ഷനുകൾ ഡ്രോപ്പ്ഡൗൺ മെനു ടോഗിൾ ചെയ്യുക",
+                "settings_button": "=> core.ref.settings",
+                "sign_up_link": "=> core.ref.sign_up"
             },
             "index": {
-                "all_discussions_link": "",
-                "cannot_start_discussion_button": "",
-                "mark_all_as_read_confirmation": "",
-                "mark_all_as_read_tooltip": "",
-                "meta_title_text": "",
-                "refresh_tooltip": "",
-                "start_discussion_button": "",
-                "toggle_sidenav_dropdown_accessible_label": ""
+                "all_discussions_link": "=> core.ref.all_discussions",
+                "cannot_start_discussion_button": "ചർച്ച ആരംഭിക്കാൻ കഴിയില്ല",
+                "mark_all_as_read_confirmation": "എല്ലാ ചർച്ചകളും വായിച്ചതായി അടയാളപ്പെടുത്തണമെന്ന് നിങ്ങൾക്ക് തീർച്ചയാണോ?",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "meta_title_text": "=> core.ref.all_discussions",
+                "refresh_tooltip": "പുതുക്കുക",
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": "നാവിഗേഷൻ ഡ്രോപ്പ്ഡൗൺ മെനു ടോഗിൾ ചെയ്യുക"
             },
             "index_sort": {
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
-                "toggle_dropdown_accessible_label": "",
-                "top_button": ""
+                "latest_button": "ഏറ്റവും പുതിയ",
+                "newest_button": "പുതിയത്",
+                "oldest_button": "ഏറ്റവും പഴയത്",
+                "relevance_button": "പ്രസക്തി",
+                "toggle_dropdown_accessible_label": "ചർച്ച ലിസ്റ്റ് അടുക്കൽ മാറ്റുക",
+                "top_button": "മുകളിൽ"
             },
             "log_in": {
-                "forgot_password_link": "",
-                "invalid_login_message": "",
-                "password_placeholder": "",
-                "remember_me_label": "",
-                "sign_up_text": "",
-                "submit_button": "",
-                "title": "",
-                "username_or_email_placeholder": ""
+                "forgot_password_link": "പാസ്വേഡ് മറന്നോ?",
+                "invalid_login_message": "നിങ്ങളുടെ ലോഗിൻ വിശദാംശങ്ങൾ തെറ്റായിരുന്നു.",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "ഓർത്തുവയ്ക്കുക",
+                "sign_up_text": "ഒരു അക്കൗണ്ട് ഇല്ലേ? <a> ചേരുക</a>",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in",
+                "username_or_email_placeholder": "ഉപയോക്തൃനാമം അല്ലെങ്കിൽ ഇമെയിൽ"
             },
             "notifications": {
-                "discussion_renamed_text": "",
-                "empty_text": "",
-                "mark_all_as_read_tooltip": "",
-                "mark_as_read_tooltip": "",
+                "discussion_renamed_text": "{username} ശീർഷകം മാറ്റി",
+                "empty_text": "അറിയിപ്പുകളൊന്നുമില്ല",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "mark_as_read_tooltip": "വായിച്ചതായി അടയാളപ്പെടുത്തുക",
                 "title": "",
                 "toggle_dropdown_accessible_label": "",
                 "tooltip": ""
@@ -444,9 +453,16 @@
                 "alert_message": "",
                 "resend_button": "",
                 "sent_message": ""
+            },
+            "welcome_hero": {
+                "hide": ""
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": ""
             },
@@ -464,19 +480,32 @@
                 "submit_button": "",
                 "title": "",
                 "username_heading": "",
-                "username_label": ""
+                "username_label": "",
+                "nothing_available": ""
             },
             "error": {
                 "dependent_extensions_message": "",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "",
                 "missing_dependencies_message": "",
                 "not_found_message": "",
                 "payload_too_large_message": "",
                 "permission_denied_message": "",
-                "rate_limit_exceeded_message": ""
+                "rate_limit_exceeded_message": "",
+                "render_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "",
@@ -546,6 +575,10 @@
                 "new_password_label": "",
                 "submit_button": "",
                 "title": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {

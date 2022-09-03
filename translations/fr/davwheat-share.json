@@ -1,25 +1,25 @@
 {
     "davwheat-share": {
         "admin": {
-            "browser_support_notice": "",
+            "browser_support_notice": "L'option « partager » n'apparaîtra que sur les appareils qui prennent en charge l'API de partage web. <a>Vérifiez la prise en charge des différents navigateurs.</a>",
             "display_options": {
-                "icon": "",
-                "text": "",
-                "menu": ""
+                "icon": "Icône seulement",
+                "text": "Texte seulement",
+                "menu": "Dans le menu d'actions"
             },
-            "display_options_label": "",
-            "button_preview_header": "",
+            "display_options_label": "Type d'affichage du bouton de partage",
+            "button_preview_header": "Prévisualiser",
             "preview": {
-                "reply": "",
+                "reply": "Répondre",
                 "dropdown": {
-                    "edit": "",
-                    "delete": ""
+                    "edit": "Modifier",
+                    "delete": "Supprimer"
                 }
             }
         },
         "lib": {
-            "share": "",
-            "share_a11y_label": ""
+            "share": "Partager",
+            "share_a11y_label": "Partager le message"
         }
     }
 }

@@ -2,24 +2,24 @@
     "extiverse-mercury": {
         "admin": {
             "extension-updates-page": {
-                "extension-name": "",
-                "extension-is-up-to-date": "",
-                "highest-version": "",
-                "installed-version": ""
+                "extension-name": "Расширение",
+                "extension-is-up-to-date": "Соответствует текущему состоянию",
+                "highest-version": "Последняя версия",
+                "installed-version": "Установленная версия"
             },
             "settings": {
-                "token": "",
-                "token-description": ""
+                "token": "Токен Extiverse (<a>запросить</a>)",
+                "token-description": "Получите API токен на <a>Extiverse</a> чтобы Mercury мог безопасно работать с вашим Фларум-сообществом.\n"
             },
             "header-secondary": {
-                "no-token": "",
-                "updates": ""
+                "no-token": "Необходим токен",
+                "updates": "{count, plural, =0 {Нет обновлений} one {Одно обновление} other {# обновлений}}"
             }
         },
         "email": {
             "new-extension-update": {
-                "subject": "",
-                "body": ""
+                "subject": "{count, plural, one {Одно обновление доступно для вашего форума} other {# updates обновлений доступно для вашего форума}}",
+                "body": "Привет {recipient_display_name}!\n\n{count} обновлений обнаружено для вашего Фларум-сообщества. Настоятельно рекомендуем\nпровести обновление в ближайшее время.\n\nОбновления затронули следующие расширения {extensions}.\n\nПожалуйста перейдите на сайт своего сообщества: {url}.\n"
             }
         }
     }

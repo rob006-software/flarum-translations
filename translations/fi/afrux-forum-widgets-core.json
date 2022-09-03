@@ -1,9 +1,10 @@
 {
     "afrux-forum-widgets-core": {
         "admin": {
+            "cache_not_writable_warning": "Välimuistiin ei voi juuri nyt kirjoittaa, tämä estää tiettyjen vimpainten toiminnan. Ole hyvä ja korjaa tiedosto (storage) kansioiden oikeudet.",
             "settings": {
-                "prefer_data_with_initial_load": "",
-                "prefer_data_with_initial_load_help": ""
+                "prefer_data_with_initial_load": "Suosi vimpaimen datan latausta ensimmäisen sivun latauksen yhteydessä.",
+                "prefer_data_with_initial_load_help": "Sen sijaan, että joka sivun latauksella ladattaisiin rajapinnan yli vimpaimen data, ladataan se sen sijaan (jos mahdollista) ensimmäisen latauksen yhteydessä."
             }
         }
     }

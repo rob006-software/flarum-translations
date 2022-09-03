@@ -1,0 +1,51 @@
+{
+    "askvortsov-rich-text": {
+        "admin": {
+            "settings": {
+                "toggle_on_editor": "Tahrirlovchida toʻliq matn rejimini almashtirish koʻrsatilsinmi?"
+            }
+        },
+        "lib": {
+            "composer": {
+                "toggle_button": "Rich Text rejimini oʻzgartirish",
+                "insert_button": "Kiritmoq",
+                "insert_image": {
+                    "src_placeholder": "Havola",
+                    "title_placeholder": "Sarlavha"
+                },
+                "insert_link": {
+                    "text_placeholder": "Matn",
+                    "href_placeholder": "URL",
+                    "title_placeholder": "Sarlavha (sichqonchani ko‘tarib turganda ko‘rsatiladi)",
+                    "remove_button": "O'chirish"
+                },
+                "additional_items_tooltip": "Qo'shimcha boshqaruv elementlari",
+                "bold_tooltip": "Qalin matn <{modifierKey}-b>",
+                "code_tooltip": "Inline kod <{modifierKey}-`>",
+                "code_block_tooltip": "Kod blokini kiriting",
+                "header_tooltip": "{level} <shift-{modifierKey}-{level}> sarlavhasiga oʻzgartiring",
+                "horizontal_rule_tooltip": "Gorizontal qoidani kiriting",
+                "image_tooltip": "Rasm qo'shing",
+                "italic_tooltip": "Kursiv matn <{modifierKey}-i>",
+                "link_tooltip": "Havolani qo'shing",
+                "ordered_list_tooltip": "Raqamlangan ro'yxat <shift-{modifierKey}-9>",
+                "paragraph_tooltip": "<shift-{modifierKey}-0> paragrafiga o'zgartiring",
+                "quote_tooltip": "Iqtibos qo'ying <{modifierKey}-q>",
+                "spoiler_block_tooltip": "Bloklash spoyler/ochiladigan",
+                "spoiler_inline_tooltip": "Spoyler <{modifierKey}-;>",
+                "strike_tooltip": "Chizilgan <alt-shift-5>",
+                "sub_tooltip": "Qator ostida <{modifierKey}-,>",
+                "sup_tooltip": "Yuqori belgi <{modifierKey}-.>",
+                "text_type_tooltip": "Matn turini tanlang",
+                "unordered_list_tooltip": "Belgilangan roʻyxat <shift-{modifierKey}-8>"
+            }
+        },
+        "forum": {
+            "settings": {
+                "composer_heading": "Bastakor",
+                "use_rich_text_editor_label": "Boy matn muharriridan foydalanasizmi?",
+                "rich_text_compact_paragraphs_label": "Paragraflarni yangi qator bilan ajratmang."
+            }
+        }
+    }
+}

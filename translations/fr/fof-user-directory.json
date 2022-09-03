@@ -8,6 +8,10 @@
                 "users_heading": "Rechercher tous les utilisateurs pour « {query} »",
                 "field": {
                     "placeholder": "Rechercher tous les utilisateurs"
+                },
+                "kinds": {
+                    "group": "Groupe",
+                    "text": "Texte libre"
                 }
             },
             "page": {
@@ -15,7 +19,11 @@
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "Nous n'avons trouvé aucun utilisateur correspondant à votre recherche.",
-                "filter_button": "Groupes de filtres"
+                "filter_button": "Groupes de filtres",
+                "usercard": {
+                    "discussion-count": "{count, plural, one { {count} discussion} other {{count} discussions}}",
+                    "post-count": "{count, plural, one { {count} message} other {{count} messages}}"
+                }
             }
         },
         "admin": {
@@ -25,7 +33,8 @@
             "settings": {
                 "link": "Ajouter un lien sur la page d'accueil pour que les utilisateurs puissent voir le répertoire",
                 "default-sort": "Tri par défaut",
-                "use-small-cards": "Utiliser de petites cartes d'utilisateur"
+                "use-small-cards": "Utiliser de petites cartes d'utilisateur",
+                "disable-global-search-source": "Ne pas ajouter l'annuaire des utilisateurs au champ de recherche globale de Flarum"
             }
         },
         "lib": {

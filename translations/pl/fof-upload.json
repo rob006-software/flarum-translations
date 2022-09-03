@@ -7,14 +7,15 @@
             },
             "help_texts": {
                 "disable-download-logging": "Wyłącz rejestrowanie każdego pobrania przez użytkowników Twojego forum. Pozostawienie tej opcji włączonej pozwoli Ci na zobaczenie ilości pobrań i innych statystyk w niedalekiej przyszłości.\n",
-                "disable-hotlink-protection": "Ochrona przed hotlinkowaniem zapobiega otwieraniu tutejszych plików z poziomu innych stron. Obecna metoda wymaga tokenu CSRF i identyfikatora postu.\n",
+                "disable-hotlink-protection": "Ochrona przed hotlinkowaniem zapobiega otwieraniu tutejszych plików z poziomu innych stron. Obecna metoda wymaga tokenu CSRF i identyfikatora posta.\n",
                 "download_templates": "Szablony pobierania decydują o tym jak przesłane pliki są wyświetlane na Twoim forum, np. podgląd miniatury, przyciski. Obecnie dostępne:\n",
                 "mime_types": "Skonfiguruj poniżej mapowanie. Każde wyrażenie regularne dla typu MIME będzie obsłużone przez odpowiedni adapter przesyłania i szablon pobierania.\n",
                 "resize": "Wybierz czy chcesz przeskalować obrazki zanim zostaną przesłane. Możesz wybrać maksymalną szerokość i wysokość w pikselach. Proces zmiany rozmiaru zachowa proporcje obrazka.\n",
                 "client_extension": "Domyślnie wtyczka wybierze bezpieczne rozszerzenie dla wysłanego pliku na podstawie typu MIME.\nDla niektórych typów bazujących na ZIP lub plików binarnych, może to skutkować zastąpieniem oryginalnego rozszerzenia na bardziej ogólne.\nTutaj możesz podać listę rozszerzeń (rozdzielonych przecinkami), które mają zostać pozostawione bez zmian.\n",
                 "watermark": "Wybierz, czy obrazki będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na Twoich preferencjach poniżej.\n",
-                "s3_compatible_storage": "Poniższe ustawienia są wymagane jedynie gdy korzystasz z usługi kompatybilnej z S3. Jeśli korzystasz z AWS, możesz pozostawić je puste.\n",
+                "s3_compatible_storage": "Poniższe ustawienia są wymagane jedynie, gdy korzystasz z usługi kompatybilnej z S3. Jeśli korzystasz z AWS, możesz pozostawić je puste.\n",
                 "s3_acl": "ACL, które powinno być zastosowane do wysłanego obiektu (domyślnie: private). Obsługiwane wartości można znaleźć na https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_instance_profile": "",
                 "composer_buttons": "Domyślnie przycisk dla managera plików oraz przycisk do wysyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n"
             },
             "labels": {
@@ -39,7 +40,8 @@
                 },
                 "imgur": {
                     "client_id": "ID użytkownika Imgura",
-                    "title": "Ustawienia Imgura"
+                    "title": "Ustawienia Imgura",
+                    "tos": ""
                 },
                 "local": {
                     "cdn_url": "URL usługi CDN (poprzedza ścieżki plików)",
@@ -54,7 +56,8 @@
                 "preferences": {
                     "max_file_size": "Maksymalna wielkość pliku (w kilobajtach)",
                     "mime_types": "Skonfiguruj mapowanie typu MIME i adaptera przesyłania",
-                    "title": "Preferencje ogólne"
+                    "title": "Preferencje ogólne",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "Maksymalna wysokość/szerokość obrazka",
@@ -77,7 +80,8 @@
                         "upload-btn": "Jedynie przycisk do wysyłania plików",
                         "media-btn": "Jedynie przycisk managera plików"
                     }
-                }
+                },
+                "inspect-mime": ""
             },
             "permissions": {
                 "download_label": "Pobieranie plików",
@@ -97,7 +101,9 @@
                 "bbcode-image": "",
                 "bbcode-image_description": "",
                 "just-url": "Jedynie URL",
-                "just-url_description": "Wstawia jedynie URL. Renderowanie może być obsłużone przez inne rozszerzenie umożliwiające automatycznie formatowanie. Brak obsługi pobierania, zliczania statystyk oraz ochrony przed hotlinkowaniem.\n"
+                "just-url_description": "Wstawia jedynie URL. Renderowanie może być obsłużone przez inne rozszerzenie umożliwiające automatycznie formatowanie. Brak obsługi pobierania, zliczania statystyk oraz ochrony przed hotlinkowaniem.\n",
+                "text-preview": "",
+                "text-preview_description": ""
             },
             "upload_methods": {
                 "aws-s3": "Kompatybilne z S3",
@@ -106,8 +112,18 @@
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "QiNiu"
             },
-            "buttons": {
-                "save": "Zapisz ustawienia"
+            "inspect-mime": {
+                "title": "",
+                "description": "",
+                "select": "",
+                "laravel-validation": "",
+                "no-file-selected": "",
+                "validation-passed": "",
+                "validation-failed": "",
+                "mime-detector": "",
+                "mime-fileinfo": "",
+                "guessed-extension": "",
+                "not-available": ""
             }
         },
         "forum": {
@@ -140,6 +156,16 @@
                 "error": "Błąd",
                 "loading": "Wysyłanie",
                 "unauthorized": "Nie masz uprawnień, aby pobierać pliki"
+            },
+            "validation": {
+                "max_size": "Wysyłanie plików większych niż {max} kb nie jest obsługiwane."
+            },
+            "text_preview": {
+                "expand": "Rozwiń podgląd",
+                "collapse": "Zwiń podgląd",
+                "error": "Wystąpił błąd podczas generowania podglądu pliku. Plik mógł zostać usunięty lub podane ID pliku jest nieprawidłowe.\n",
+                "no_snippet_preview": "<podgląd pojawi się tutaj po opublikowaniu posta>",
+                "no_snippet": "<podgląd nie jest dostępny>"
             }
         },
         "api": {

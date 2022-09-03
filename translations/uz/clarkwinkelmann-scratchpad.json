@@ -1,0 +1,54 @@
+{
+    "clarkwinkelmann-scratchpad": {
+        "admin": {
+            "settings": {
+                "title": "Scratchpad sozlamalari",
+                "single-column": "Muharrirlarni 3 ta emas, bitta ustunda guruhlash",
+                "theme": "CodeMirror mavzusi (kuchga kirishi uchun yangilanishi kerak)",
+                "theme-auto": "Avto (ochiq mavzuda birlamchi, qorong'u mavzuda darkula)",
+                "indent": "Chekish uchun bo'shliqlar soni",
+                "npm-install-command": "NPM o'rnatish buyrug'i",
+                "webpack-command": "Webpack buyrug'i",
+                "empty-for-default": "Standart buyruq uchun bo'sh qoldiring",
+                "validate-live": "Saqlashdan oldin Less va PHP ni tekshirish uchun bosh sahifaga soʻrov yuboring",
+                "compile-automatically": "Saqlashda JSni avtomatik ravishda kompilyatsiya qilish"
+            },
+            "controls": {
+                "refresh": "Yangilash",
+                "save": "Saqlash",
+                "compile": "JS ga kompilyatsiya",
+                "settings": "Muharrir sozlamalari",
+                "new": "Yangi",
+                "new-confirmation": "Joriy skretch-pad saqlanmaydi. Uni tashlab, yangisini yaratasizmi?",
+                "delete": "O'chirish",
+                "delete-confirmation": "“{title}” oʻchirilsinmi?",
+                "enable": "Yoqish uchun bosing",
+                "disable": "O'chirish uchun bosing"
+            },
+            "fields": {
+                "title": "Scratchpad nomi",
+                "admin_js": "Admin JS",
+                "forum_js": "Forum JS",
+                "admin_less": "Admin Less",
+                "forum_less": "Forum Less",
+                "php": "PHP"
+            },
+            "placeholders": {
+                "untitled": "Sarlavhasiz",
+                "php-comment": "Bu yerda kengaytiruvchilarni ro'yxatdan o'tkazing",
+                "js-log": "Salom, {frontend}!"
+            },
+            "compilation-alert": {
+                "success": "Kompilyatsiyalandi!",
+                "failure": "Kompilyatsiya bo'lmadi!",
+                "view-output": "Natijani ko'rish"
+            },
+            "compilation-modal": {
+                "title": "Kompilyatsiya natijasi",
+                "webpack": "Webpack natijasi",
+                "npm": "NPM natijasi",
+                "npm-not-run": "NPM ishlamadi"
+            }
+        }
+    }
+}

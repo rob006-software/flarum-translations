@@ -15,6 +15,7 @@
                 "watermark": "Chọn xem hình ảnh có được thêm hình mờ trong quá trình tải lên hay không. Hình mờ được thêm vào không phải gif dựa trên tùy chọn của bạn bên dưới.\n",
                 "s3_compatible_storage": "Các cài đặt sau chỉ được yêu cầu khi sử dụng bộ lưu trữ tương thích S3. Nếu bạn sử dụng AWS, bạn có thể để trống chúng.\n",
                 "s3_acl": "ACL sẽ được áp dụng cho đối tượng được tải lên (mặc định: private). Để biết các giá trị có thể, hãy xem https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_instance_profile": "Để trống khóa và bí mật để sử dụng thông tin đăng nhập trong hồ sơ cá thể.\n",
                 "composer_buttons": "Theo mặc định, cả nút quản lý và nút tải lên đều hiển thị. Bạn cũng có thể chọn chỉ hiển thị một nút.\n"
             },
             "labels": {
@@ -39,7 +40,8 @@
                 },
                 "imgur": {
                     "client_id": "ID khách hàng Imgur",
-                    "title": "Thiết lập lưu trữ Imgur"
+                    "title": "Thiết lập lưu trữ Imgur",
+                    "tos": "Bạn có trách nhiệm đảm bảo người dùng diễn đàn của mình tuân thủ <a>Điều khoản dịch vụ</a> của Imgur"
                 },
                 "local": {
                     "cdn_url": "URL phân phối nội dung (tiền tố tệp)",
@@ -54,7 +56,8 @@
                 "preferences": {
                     "max_file_size": "Kích thước tối đa (kilobyte)",
                     "mime_types": "Cấu hình mine",
-                    "title": "Cài đặt chung"
+                    "title": "Cài đặt chung",
+                    "php_ini_values": "Các giá trị trong <code>php.ini</code> của bạn là <code>post_max_size={post}</code> và <code>upload_max_filesize={upload}</code>. Đảm bảo giá trị được đặt ở đây thấp hơn các ngưỡng này hoặc điều chỉnh chúng cho phù hợp. Nếu sử dụng <code>Nginx</code>, thì cũng đảm bảo <code>client_max_body_size</code> có đủ kích thước cho giới hạn tối đa bạn đã nhập."
                 },
                 "resize": {
                     "max_width": "Chiều rộng/chiều cao hình ảnh tối đa",
@@ -77,7 +80,8 @@
                         "upload-btn": "Chỉ nút tải lên",
                         "media-btn": "Chỉ nút quản lý phương tiện"
                     }
-                }
+                },
+                "inspect-mime": "Test kiểu tệp MIME"
             },
             "permissions": {
                 "download_label": "Tải xuống tập tin",
@@ -97,7 +101,9 @@
                 "bbcode-image": "Mẫu hình ảnh BBCode",
                 "bbcode-image_description": "Hiển thị hình ảnh hoàn chỉnh bằng cách sử dụng BBCode. <strong>Bạn phải cài đặt và kích hoạt tiện ích flarum/bbcode để nó hoạt động.</strong> Không có chức năng tải xuống, không có thống kê và bảo vệ hotlink bị tắt.\n",
                 "just-url": "Chỉ hiện URL",
-                "just-url_description": "Chỉ chèn URL. Việc hiển thị có thể được xử lý bởi các tiện ích mở rộng khác với khả năng liên kết tự động. Không có chức năng tải xuống, không có thống kê và bảo vệ hotlink bị tắt.\n"
+                "just-url_description": "Chỉ chèn URL. Việc hiển thị có thể được xử lý bởi các tiện ích mở rộng khác với khả năng liên kết tự động. Không có chức năng tải xuống, không có thống kê và bảo vệ hotlink bị tắt.\n",
+                "text-preview": "Xem văn bản trước",
+                "text-preview_description": "Chèn xem trước (5 dòng đầu) của tệp văn bản, với tùy chọn mở rộng để hiển thị toàn bộ nội dung của tệp.\n"
             },
             "upload_methods": {
                 "aws-s3": "S3/Compatible",
@@ -105,6 +111,19 @@
                 "local": "Cục bộ",
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "QiNiu"
+            },
+            "inspect-mime": {
+                "title": "Kiểm tra MIME",
+                "description": "FoF Upload sử dụng thư viện <a>PHP Mime Detector</a> cho các loại MIME phổ biến và PHP Fileinfo làm dự phòng.\nGiá trị MIME do Fileinfo trả về có thể khác nhau giữa các máy chủ!\n",
+                "select": "Chọn một tệp bên dưới để kiểm tra các giá trị sẽ được sử dụng. Tệp sẽ không được lưu.",
+                "laravel-validation": "Xác thực tệp Laravel",
+                "no-file-selected": "Không có tệp",
+                "validation-passed": "Đã vượt qua",
+                "validation-failed": "Thất bại: {error}",
+                "mime-detector": "Trình phát hiện Mime (chính)",
+                "mime-fileinfo": "PHP Fileinfo (dự phòng)",
+                "guessed-extension": "Phần mở rộng tệp mặc định (nếu tệp gốc không có trong danh sách cho phép)",
+                "not-available": "Không có kết quả"
             }
         },
         "forum": {
@@ -137,6 +156,16 @@
                 "error": "Lỗi",
                 "loading": "Đang tải lên",
                 "unauthorized": "Bạn không được phép tải tập tin"
+            },
+            "validation": {
+                "max_size": "Kích thước tệp trên {max} kb không được chấp nhận."
+            },
+            "text_preview": {
+                "expand": "Mở rộng bản xem trước",
+                "collapse": "Thu gọn bản xem trước",
+                "error": "Lỗi khi xem trước tệp. Nó có thể đã bị xóa hoặc ID tệp được cung cấp không hợp lệ.\n",
+                "no_snippet_preview": "<bản xem trước sẽ xuất hiện ở đây sau khi đăng>",
+                "no_snippet": "<không có sẵn đoạn mã xem trước>"
             }
         },
         "api": {

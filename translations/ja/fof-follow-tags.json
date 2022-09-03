@@ -2,77 +2,77 @@
     "fof-follow-tags": {
         "forum": {
             "settings": {
-                "notify_new_discussion_label": "フォローしているタグに新しいスレッドがあります",
-                "notify_new_post_label": "フォローしているタグに新しい返信があります",
-                "notify_new_discussion_tag_label": ""
+                "notify_new_discussion_label": "フォローしているタグに新しいスレッドが作成された時",
+                "notify_new_post_label": "フォローしているタグに投稿があった時",
+                "notify_new_discussion_tag_label": "フォローしているタグに既存のスレッドが移動された時"
             },
             "index": {
                 "follow_tag_button": "フォロー",
-                "unfollow_tag_button": "フォローをやめる",
+                "unfollow_tag_button": "フォロー解除",
                 "following": {
-                    "following_none_label": "",
-                    "following_tags_label": ""
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
                 }
             },
             "badge": {
-                "following_tag_tooltip": "",
-                "lurking_tag_tooltip": ""
+                "following_tag_tooltip": "フォロー中",
+                "lurking_tag_tooltip": "フォロー中(返信を含む)"
             },
             "sub_controls": {
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
-                "following_text": "全てのディスカッションを通知する。",
+                "following_text": "新しいスレッドの作成を通知する",
                 "hiding_button": "=> fof-follow-tags.ref.hiding",
-                "hiding_text": "すべてのポストでディスカッションを隠す",
+                "hiding_text": "スレッド一覧に表示しない",
                 "ignoring_button": "=> fof-follow-tags.ref.ignoring",
-                "ignoring_text": "通知しない",
+                "ignoring_text": "通知を停止する",
                 "lurking_button": "=> fof-follow-tags.ref.lurking",
-                "lurking_text": "全てのディスカッションとリプライを通知する。",
-                "not_following_button": "未フォロー",
-                "not_following_text": "@メンションされたときのみ通知する",
-                "notify_alert_tooltip": "新しいディスカッションと投稿をフォーラムで通知する",
-                "notify_email_tooltip": "新しいディスカッションと投稿をメールで通知する"
+                "lurking_text": "新しいスレッドの作成と全ての返信を通知する",
+                "not_following_button": "フォローしない",
+                "not_following_text": "@メンション された時のみ通知する",
+                "notify_alert_tooltip": "新しいスレッドの作成や投稿があった場合にフォーラム内で通知する",
+                "notify_email_tooltip": "新しいスレッドの作成や投稿があった場合にメールで通知する"
             },
             "notifications": {
-                "new_discussion_text": "{username} がディスカッションを開始しました",
-                "new_post_text": "{username} が投稿しました",
-                "new_discussion_tag_text": ""
+                "new_discussion_text": "{username}さんがスレッドを作成しました",
+                "new_post_text": "{username}さんが登録しました",
+                "new_discussion_tag_text": "{username}さんがタグを変更しました"
             },
             "user": {
                 "settings": {
-                    "heading": "",
-                    "filter_label": ""
+                    "heading": "タグのフォロー",
+                    "filter_label": "フォロー中ページに標準で表示する項目"
                 }
             }
         },
         "admin": {
             "settings": {
-                "following_page_default_label": "",
-                "following_none_label": "",
-                "following_tags_label": ""
+                "following_page_default_label": "フォロー中ページに標準で表示する項目",
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
             }
         },
         "email": {
             "subject": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "[タグ | 新しいスレッド] {title}",
+                "newPostInTag": "[タグ | 新しい投稿] {title}",
+                "newDiscussionTag": "[タグ | タグの変更] {title}"
             },
             "body": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "{recipient_display_name}さん、こんにちは!\n{actor_display_name} さんが、あなたのフォローしているタグでスレッドを作成しました: {discussion_title}\n新しいスレッドを閲覧する場合は、以下のリンクをご確認ください:\n{discussion_url}\n---\n{post_content}\n",
+                "newPostInTag": "{recipient_display_name}さん、こんにちは!\n{actor_display_name} さんが、あなたのフォローしているタグのスレッドで投稿しました: {discussion_title}\n内容を閲覧にするには、以下のリンクを確認してください:\n{post_url}\n---\n{post_content}\n---\nあなたが内容を確認するまで、このスレッドに関する通知は今後送信されません。\n",
+                "newDiscussionTag": "{recipient_display_name}さん、こんにちは!\n{actor_display_name} さんが、{author_display_name} さんのスレッドのタグを、あなたがフォローしているタグに変更しました {discussion_title}\n新しいスレッドを閲覧する場合は、以下のリンクをご確認ください:\n{discussion_url}\n"
             }
         },
         "ref": {
             "follow": "フォロー",
             "following": "フォロー中",
-            "hiding": "隠す",
-            "ignoring": "無視中",
-            "lurking": "ラークする",
+            "hiding": "非表示中",
+            "ignoring": "ミュート中",
+            "lurking": "フォロー中(返信を含む)",
             "filtering_options": {
-                "none": "",
-                "tags": ""
+                "none": "フォローしているスレッド",
+                "tags": "フォローしているタグ"
             }
         }
     }

@@ -2,20 +2,20 @@
     "ralkage-hcaptcha": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "secret_key_label": "",
-                "site_key_label": "",
-                "type_label": ""
+                "help_text": "Получите учетные данные для использования hCaptcha <a>здесь</a>.",
+                "secret_key_label": "Секретный ключ",
+                "site_key_label": "Ключ для сайта",
+                "type_label": "Тип hCaptcha"
             },
             "permissions": {
-                "post_without_hcaptcha": ""
+                "post_without_hcaptcha": "Создавать сообщения и дискуссии без использования hCaptcha"
             }
         },
         "forum": {
-            "error": ""
+            "error": "При отправке hCaptcha произошла ошибка. Попробуйте еще раз."
         }
     },
     "validation": {
-        "hcaptcha": ""
+        "hcaptcha": "Проверка через hCaptcha не прошла."
     }
 }

@@ -4,17 +4,18 @@
             "edit_link": {
                 "delete_link_button": "Удалить ссылку",
                 "delete_link_confirmation": "Вы уверены, что хотите удалить ссылку?",
-                "everyone-label": "Любые",
+                "everyone-label": "Все",
                 "guests-label": "Гости",
                 "internal_link": "Это внутренняя ссылка?",
-                "members-label": "Зарегистрированные участники",
-                "open_newtab": "Открыть ссылку в новой вкладке",
+                "members-label": "Пользователи",
+                "open_newtab": "Открывать в новом окне",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
                 "title_label": "=> fof-links.ref.title",
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
+                "url_description": "Оставьте пустым для отображения в качестве метки.",
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "visibility": "Видимость ссылки"
@@ -27,7 +28,7 @@
         "ref": {
             "create_link": "Создать ссылку",
             "links": "Ссылки",
-            "title": "Заголовок",
+            "title": "Название",
             "url": "URL"
         }
     }

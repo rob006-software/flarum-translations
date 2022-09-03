@@ -3,8 +3,8 @@
         "admin": {
             "settings": {
                 "title": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
+                "moneyforpost": "नई पोस्ट के लिए दिया गया पैसा",
+                "moneyfordiscussion": "नई चर्चा के लिए दिया पैसा",
                 "moneyname": "",
                 "postminimumlength": "",
                 "noshowzero": "",
@@ -12,7 +12,11 @@
                 "helpextensionlikes": ""
             },
             "permissions": {
-                "edit_money_label": ""
+                "edit_money_label": "पैसे संपादित करें"
+            },
+            "automoderator": {
+                "metric_name": "",
+                "action_name": ""
             }
         },
         "forum": {

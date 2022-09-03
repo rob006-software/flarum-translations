@@ -8,6 +8,10 @@
                 "users_heading": "Поиск всех пользователей: \"{query}\"",
                 "field": {
                     "placeholder": "Найти всех пользователей..."
+                },
+                "kinds": {
+                    "group": "Группа",
+                    "text": "Произвольный текст"
                 }
             },
             "page": {
@@ -15,7 +19,11 @@
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "Пользователи, соответствующие Вашему запросу, не найдены.",
-                "filter_button": "Фильтр групп"
+                "filter_button": "Фильтр групп",
+                "usercard": {
+                    "discussion-count": "",
+                    "post-count": ""
+                }
             }
         },
         "admin": {
@@ -23,9 +31,10 @@
                 "view_user_directory": "Смотреть список участников"
             },
             "settings": {
-                "link": "Ссылка на главной странице форума",
+                "link": "Ссылка на странице форума",
                 "default-sort": "Сортировка по умолчанию",
-                "use-small-cards": "Использовать небольшие карточки участников"
+                "use-small-cards": "Маленькие карточки участников",
+                "disable-global-search-source": "Не добавлять каталог участников в поле глобального поиска"
             }
         },
         "lib": {

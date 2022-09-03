@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Määritä laajuudet (scopes)",
-                "confirm_uninstall": "Poistaminen poistaa kaikki tietokantamerkinnät ja tiedostot tähän lisäosaan liittyen. Haluatko varmasti jatkaa?",
+                "confirm_purge": "Puhdistus poistaa kaikki tietokantamerkinnät ja liittyvät tiedostot tähän lisäosaan liittyen. Se ei poista lisäosan asennusta; se pitää tehdä Composerin kautta. Haluatko varmasti jatkaa?",
                 "disabled": "Poistettu käytöstä",
                 "enable_to_see": "Ota tämä lisäosa käyttää nähdäksesi ja muuttaaksesi asetuksia.",
                 "enabled": "Käytössä",
@@ -116,6 +116,13 @@
                 "no_settings": "Tällä lisäosalla ei ole asetuksia.",
                 "open_modal": "Avaa asetukset",
                 "permissions_title": "Oikeudet",
+                "purge_button": "Puhdista",
+                "readme": {
+                    "button_label": "LUE MINUT",
+                    "no_readme": "Tällä lisäosalla ei näytä olevan README tiedostoa",
+                    "title": "{extName} dokumentaatio"
+                },
+                "confirm_uninstall": "Poistaminen poistaa kaikki tietokantamerkinnät ja tiedostot tähän lisäosaan liittyen. Haluatko varmasti jatkaa?",
                 "uninstall_button": "Poista asennus"
             },
             "header": {
@@ -165,7 +172,7 @@
                 "edit_users_credentials_label": "Muokkaa käyttäjän tunnuksia",
                 "edit_users_groups_label": "Muokkaa käyttäjän ryhmiä",
                 "global_heading": "Yleinen",
-                "moderate_heading": "Moredointi",
+                "moderate_heading": "Moderointi",
                 "new_group_button": "Uusi ryhmä",
                 "participate_heading": "Osallistuminen",
                 "post_without_throttle_label": "Vastata useasti ilman odottamista",
@@ -261,7 +268,7 @@
                 "preview_tooltip": "Esikatselu"
             },
             "composer_discussion": {
-                "body_placeholder": "Kirjoita vastaus...",
+                "body_placeholder": "Kirjoita viesti...",
                 "discard_confirmation": "Et ole kirjoittanut vastaustasi. Haluatko peruuttaa sen?",
                 "submit_button": "Lähetä",
                 "title": "=> core.ref.start_a_discussion",
@@ -296,9 +303,11 @@
             "discussion_list": {
                 "empty_text": "Näyttää siltä, että täällä ei ole keskustelua.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Merkitse luetuksi",
                 "replied_text": "{username} vastasi {ago}",
-                "started_text": "{username} aloitti {ago}"
+                "started_text": "{username} aloitti {ago}",
+                "total_replies_a11y_label": "{count, plural, one {# vastaus} other {# vastausta}}",
+                "unread_replies_a11y_label": "{count, plural, one {# lukematon vastaus} other {# Lukematonta vastausta}}. Merkitse {count, plural, one {lukematon vastaus} other {lukemattomat vastaukset}} luetuksi.",
+                "mark_as_read_tooltip": "Merkitse luetuksi"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -444,9 +453,16 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Lähetä vahvistussähköposti uudelleen",
                 "sent_message": "Lähetetty"
+            },
+            "welcome_hero": {
+                "hide": "Piilota tervetuloviesti"
             }
         },
         "lib": {
+            "debug_button": "Vianetsintä",
+            "alert": {
+                "dismiss_a11y_label": "Poista ilmoitus"
+            },
             "badge": {
                 "hidden_tooltip": "Piilotettu"
             },
@@ -464,19 +480,32 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "username_label": "=> core.ref.username",
+                "nothing_available": "Teillä ei ole oikeutta muokata tätä käyttäjää."
             },
             "error": {
                 "dependent_extensions_message": "{extension} lisäosaa ei voida ottaa pois käytöstä ennen kuin seuraavat lisäosat on poistettu käytöstä: {extensions}",
+                "extension_initialiation_failed_message": "{extension} alustus epäonnistui. Tarkista selaimen konsolista lisätietoja.",
                 "generic_message": "Hups! Jotain meni pieleen. Päivitä sivu ja yritä uudelleen.",
                 "missing_dependencies_message": "Lisäosaa {extension} ei voida ottaa käyttöön ennen kuin seuraavat lisäosat on otettu käyttöön: {extensions}",
                 "not_found_message": "Pyydettyä resurssia ei löytynyt.",
                 "payload_too_large_message": "Pyydetty kuorma (payload) oli liian iso.",
                 "permission_denied_message": "Sinulla ei ole oikeuksia tehdä sitä.",
-                "rate_limit_exceeded_message": "Toimit hieman liian nopeasti. Yritä uudelleen muutaman sekunnin kuluttua."
+                "rate_limit_exceeded_message": "Toimit hieman liian nopeasti. Yritä uudelleen muutaman sekunnin kuluttua.",
+                "render_failed_message": "Pahoittelut, koimme virheen kun näytimmä tätä sisältöä. Mikäli olette käyttäjä, yritä uudelleen. Mikäli oletta ylläpitäjä niin tutki Flarumin lokitiedostoja."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Sivu # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Sivu # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Sulje"
+            },
+            "nav": {
+                "drawer_button": "Avaa navigointi lokero"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -546,6 +575,10 @@
                 "new_password_label": "Uusi salasana",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {
@@ -562,7 +595,7 @@
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Hei {username}!\n\nJoku (toivottavasti sinä!) pyysi salasanan nollausta  {forum}.\n\nJos se olit sinä niin nollaa salasana alla olevan linkin kautta:\n{url}\n\nJos et halua vaihtaa salasanaa niin poista tämä sähköposti niin mitään ei tapahdu.\n"
+                "body": "Hei {username}!\n\nJoku (toivottavasti sinä!) pyysi salasanan nollausta {forum}.\n\nJos se olit sinä niin nollaa salasana alla olevan linkin kautta:\n{url}\n\nJos et halua vaihtaa salasanaa niin poista tämä sähköposti niin mitään ei tapahdu.\n"
             },
             "send_test": {
                 "subject": "Flarum foorumin sähköpostitesti",
@@ -609,7 +642,7 @@
             "save_changes": "Tallenna muutokset",
             "settings": "Asetukset",
             "sign_up": "Rekisteröidy",
-            "some_others": "{count, plural, yksi {# other} other {# others}}",
+            "some_others": "{count, plural, one {# muu} other {# muuta}}",
             "start_a_discussion": "Aloita keskustelu",
             "username": "Käyttäjätunnus",
             "users": "Käyttäjät",

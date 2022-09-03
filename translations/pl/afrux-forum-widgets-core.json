@@ -1,9 +1,10 @@
 {
     "afrux-forum-widgets-core": {
         "admin": {
+            "cache_not_writable_warning": "Nie można zapisać danych w cache. Niektóre widgety mogą nie działać z tego powodu. Napraw uprawnienia dla katalogu `storage`.",
             "settings": {
-                "prefer_data_with_initial_load": "",
-                "prefer_data_with_initial_load_help": ""
+                "prefer_data_with_initial_load": "Preferuj wczytywanie danych wszystkich widgetów w odpowiedzi na wstępne żądanie.",
+                "prefer_data_with_initial_load_help": "Zamiast wczytywać dane widgetów w osobnym żądaniu do API, dane będą przesłane (o ile to możliwe) w odpowiedzi na wstępne żądanie."
             }
         }
     }

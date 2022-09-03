@@ -1,0 +1,50 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "בטל מעקב",
+                "unignore_button": "בטל התעלמות"
+            },
+            "following": {
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
+            },
+            "index": {
+                "following_link": "=> flarum-subscriptions.ref.following"
+            },
+            "notifications": {
+                "new_post_text": "{username} פרסם הודעה"
+            },
+            "settings": {
+                "follow_after_reply_label": "מעקב אוטומטי אחרי דיונים שהגבתי להם",
+                "notify_new_post_label": "מישהו פרסם הודעה בדיון שאני עוקב אחריו"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "קבל התראות לכל התגובות.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "אל תקבל התראות לעולם. הסתר מרשימת הדיונים.",
+                "not_following_button": "לא עוקב",
+                "not_following_text": "קבל התראות אך ורק כשאני @מוזכר",
+                "notify_alert_tooltip": "קבלת התראות פורום כשיש פוסטים חדשים",
+                "notify_email_tooltip": "קבל מייל כשיש פוסטים חדשים"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "[הודעה חדשה] {title}",
+                "body": "שלום {recipient_display_name}!\n\nנכתבה הודעה חדשה על ידי {poster_display_name} בנושא: {title}.\n\nלצפיה בפעילות החדשה, בקרו בקישור הבא:\n{url}\n\n---\n\n{content}\n\n---\n\nלא תקבלו עוד התראות בנושא עד שלא תהיו מעודכנים.\n"
+            }
+        },
+        "ref": {
+            "follow": "עקוב",
+            "following": "עוקב",
+            "ignoring": "מתעלם"
+        }
+    }
+}

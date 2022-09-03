@@ -1,0 +1,16 @@
+{
+    "flamarkt-matomo": {
+        "admin": {
+            "settings": {
+                "url": "Matomo server domain or URL",
+                "siteId": "Site ID",
+                "trackAccounts": "Track individual user accounts",
+                "trackAccountsOptions": {
+                    "none": "Do not track",
+                    "username": "Track by username",
+                    "email": "Track by email"
+                }
+            }
+        }
+    }
+}

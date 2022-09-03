@@ -2,27 +2,41 @@
     "the-turk-stickiest": {
         "admin": {
             "permissions": {
-                "super_sticky_discussions_label": "",
-                "tag_sticky_discussions_label": ""
+                "super_sticky_discussions_label": "Super Sabitlənmiş müzakirələr",
+                "tag_sticky_discussions_label": "Sabitlənmiş müzakirələri etiketləyin"
             },
             "settings": {
-                "badge_icon_label": "",
-                "badge_icon_text": ""
+                "badge_icon_label": "Super Sabit nişanı",
+                "badge_icon_text": "=> core.ref.icon_text",
+                "display_tag_sticky_label": "",
+                "display_tag_sticky_text": ""
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "",
-                "super_sticky_tooltip": "",
-                "tag_sticky_tooltip": ""
+                "sticky_tooltip": "=> the-turk-stickiest.ref.sticky",
+                "super_sticky_tooltip": "=> the-turk-stickiest.ref.super_sticky",
+                "tag_sticky_tooltip": "",
+                "super_tag_sticky_tooltip": ""
+            },
+            "stickiest_modal": {
+                "title": "",
+                "sticky_label": "",
+                "sticky_text": "",
+                "super_sticky_label": "",
+                "super_sticky_text": "",
+                "tag_sticky_label": "",
+                "tag_sticky_text": "",
+                "tags_label": "",
+                "submit_button": ""
             },
             "discussion_controls": {
                 "sticky_button": "",
                 "unsticky_button": "",
                 "super_sticky_button": "",
-                "common_sticky_button": "",
+                "common_sticky_button": "Ümumi Sabit",
                 "tag_sticky_button": "",
-                "all_sticky_button": ""
+                "all_sticky_button": "Bütün sabitlənmişlər"
             },
             "post_stream": {
                 "discussion_stickied_text": "",
@@ -33,8 +47,9 @@
         },
         "ref": {
             "sticky": "",
-            "super_sticky": "",
-            "tag_sticky": ""
+            "super_sticky": "Sabitlənmiş",
+            "tag_sticky": "Etiket sabit",
+            "super_tag_sticky": ""
         }
     }
 }

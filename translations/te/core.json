@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "",
-                "confirm_uninstall": "",
+                "confirm_purge": "",
                 "disabled": "",
                 "enable_to_see": "",
                 "enabled": "",
@@ -116,6 +116,13 @@
                 "no_settings": "",
                 "open_modal": "",
                 "permissions_title": "",
+                "purge_button": "",
+                "readme": {
+                    "button_label": "",
+                    "no_readme": "",
+                    "title": ""
+                },
+                "confirm_uninstall": "",
                 "uninstall_button": ""
             },
             "header": {
@@ -255,7 +262,7 @@
             },
             "composer": {
                 "close_tooltip": "మూసివేయి",
-                "exit_full_screen_tooltip": "",
+                "exit_full_screen_tooltip": "‎ఫుల్ స్క్రీన్ నుంచి నిష్క్రమించు‎",
                 "full_screen_tooltip": "",
                 "minimize_tooltip": "",
                 "preview_tooltip": ""
@@ -296,9 +303,11 @@
             "discussion_list": {
                 "empty_text": "",
                 "load_more_button": "",
-                "mark_as_read_tooltip": "",
                 "replied_text": "",
-                "started_text": ""
+                "started_text": "",
+                "total_replies_a11y_label": "",
+                "unread_replies_a11y_label": "",
+                "mark_as_read_tooltip": ""
             },
             "forgot_password": {
                 "dismiss_button": "",
@@ -444,9 +453,16 @@
                 "alert_message": "",
                 "resend_button": "",
                 "sent_message": ""
+            },
+            "welcome_hero": {
+                "hide": ""
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": ""
             },
@@ -464,19 +480,32 @@
                 "submit_button": "",
                 "title": "",
                 "username_heading": "",
-                "username_label": ""
+                "username_label": "",
+                "nothing_available": ""
             },
             "error": {
                 "dependent_extensions_message": "",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "",
                 "missing_dependencies_message": "",
                 "not_found_message": "",
                 "payload_too_large_message": "",
                 "permission_denied_message": "",
-                "rate_limit_exceeded_message": ""
+                "rate_limit_exceeded_message": "",
+                "render_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "",
@@ -546,6 +575,10 @@
                 "new_password_label": "",
                 "submit_button": "",
                 "title": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {

@@ -3,105 +3,112 @@
         "forum": {
             "badges": {
                 "is_private": {
-                    "tooltip": "私的な雑谈"
+                    "tooltip": "プライベートスレッド"
                 }
             },
             "buttons": {
-                "add_recipients": "公開",
+                "add_recipients": "参加者",
                 "submit": "OK",
-                "edit_recipients": "メンバーを編集",
-                "send_pd": "{username} と私的なチャット",
-                "cancel": "取り消し",
-                "remove_from_discussion": "雑谈を退出させる"
+                "edit_recipients": "参加者の編集",
+                "send_pd": "{username} へメッセージを送信",
+                "cancel": "キャンセル",
+                "make_public": "",
+                "remove_from_discussion": "このプライベートスレッドから退出"
             },
             "composer_private_discussion": {
-                "submit_button": "私的な雑谈を投稿する",
-                "title_placeholder": "私的な雑谈のタイトル"
+                "submit_button": "プライベートスレッドを投稿",
+                "title_placeholder": "プライベートスレッドのタイトル"
+            },
+            "confirm": {
+                "make_public": ""
             },
             "labels": {
-                "recipients": "{count} 人のみが閲覧可能|{count} 人のみが閲覧可能",
-                "user_deleted": "--削除済み--"
+                "recipients": "{count, plural, one {{count} 人の参加者} other {{count} 人の参加者}}"
             },
             "nav": {
-                "start_button": "私的な雑谈を開始",
-                "nav_item": ""
+                "start_button": "プライベートスレッドの作成",
+                "nav_item": "プライベートスレッド"
             },
             "input": {
-                "search_recipients": "ユーザー名の最初の3文字を入力して検索します..."
+                "search_recipients": "最初の3文字を入力して参加者を検索..."
             },
             "search": {
                 "headings": {
-                    "groups": "ユーザーグループ"
+                    "groups": "権限グループ"
                 }
             },
             "modal": {
                 "titles": {
-                    "update_recipients": "私的な雑谈「{title}」のメンバーを変更",
-                    "add_recipients": "この雑谈に参加するようにユーザーを招待する"
+                    "update_recipients": "{title}の参加者を変更",
+                    "add_recipients": "スレッドに参加者を追加"
                 },
                 "labels": {
                     "selected_users": "",
                     "search_field": ""
                 },
                 "help": {
-                    "add_recipients": "選択したユーザーのみが表示されます。 少なくとも1人のユーザー（あなたを除く）を追加して、私的な雑谈を開始します。",
-                    "update_recipients": "この雑谈は、選択したユーザーにのみ表示されます。",
+                    "add_recipients": "このスレッドはあなたがここで選択したユーザーにのみ表示されます。あなた以外の参加者が少なくとも1人必要です。",
+                    "update_recipients": "このスレッドはあなたがここで選択したユーザーにのみ表示されます。",
                     "selected_users": "",
                     "click_user_to_remove_tooltip": ""
                 }
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "{username} は {added} を雑谈に招待し、{removed} を雑谈から削除しました。",
-                    "added": "{username} が雑谈に {added} を招待しました。",
-                    "removed": "{username} は雑谈から {removed} を削除しました。",
-                    "removed_self": "{username} は雑谈に離れました。"
+                    "added_and_removed": "{username} が参加者に {added} を追加し、 {removed}を削除しました。",
+                    "added": "{username} が参加者に {added} を追加しました。",
+                    "made_public": "",
+                    "removed": "{username} が参加者から {removed} を削除しました。",
+                    "removed_self": "{username} がプライベートスレッドから退出しました。"
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": "私的な雑谈をブロックする"
+                    "block_pd": "プライベートスレッドへの参加を拒否する"
                 },
-                "byobu_link": "私的な雑谈",
-                "dropdown_label": "私的な雑谈"
+                "byobu_link": "プライベートスレッド",
+                "dropdown_label": "プライベートスレッド"
             },
             "notifications": {
-                "pd_label": "誰かが私を私的な雑谈を作成に招待しました",
-                "pd_reply_label": "私が参加した私的な雑谈に誰かが投稿しました",
-                "pd_reply_text": "{username} は私が参加した私的な雑谈に投稿しました",
-                "pd_text": "{username} ジャックは私的な雑谈を作成し、あなたが参加するよう招待します",
-                "pd_user_left_label": "誰かが私が参加した私的な雑谈に離れました",
-                "pd_user_left_text": "{username} は私的な雑谈に離れました",
-                "pd_added_text": "{username} が私を私的な雑谈を参加に招待しました",
-                "pd_added_label": "誰かが私を私的な雑谈を参加に招待しました"
+                "pd_label": "プライベートスレッドに開始された時",
+                "pd_reply_label": "参加しているプライベートスレッドに投稿があった時",
+                "pd_reply_text": "{username} があなたの参加しているプライベートスレッドに投稿しました",
+                "pd_text": "{username} があなたとのプライベートスレッドを開始しました",
+                "pd_user_left_label": "参加しているプライベートスレッドからユーザーが退出した時",
+                "pd_user_left_text": "{username} がプライベートスレッドから退出しました",
+                "pd_added_text": "{username} があなたをプライベートスレッドに追加しました",
+                "pd_added_label": "プライベートスレッドに追加された時"
             }
         },
         "admin": {
             "permission": {
-                "create_private_discussions_with_users": "ユーザーを私的な雑谈に招待する",
-                "create_private_discussions_with_groups": "ユーザーグループを私的な雑谈に招待する",
-                "create_private_discussions_with_blocking_users": "私的なチャットをブロックしたユーザーに私的な雑谈への参加を強制する",
-                "edit_user_recipients": "私的な雑谈のメンバーを編集する",
-                "edit_group_recipients": "私的なディスカッ雑谈に参加しているユーザーグループを編集する",
-                "view_private_discussions-when-flagged": "他のユーザーの私的な雑谈を表示する（報告されている場合）"
+                "create_private_discussions_with_users": "ユーザー間のプライベートスレッドの作成",
+                "create_private_discussions_with_groups": "グループ間のプライベートスレッドの作成",
+                "create_private_discussions_with_blocking_users": "拒否しているユーザーに対するプライベートスレッドの作成",
+                "edit_user_recipients": "プライベートスレッドの参加ユーザーの編集",
+                "edit_group_recipients": "プライベートスレッドの参加グループの編集",
+                "make_private_into_public": "",
+                "view_private_discussions-when-flagged": "通報があった場合にプライベートスレッドの内容を表示する"
             },
             "settings": {
-                "badge-icon": "",
-                "post-event-icon": ""
+                "badge-icon": "プライベートスレッドアイコン",
+                "enable-make-public-option": "",
+                "enable-make-public-option-help": "",
+                "post-event-icon": "プライベート投稿通知アイコン"
             }
         },
         "email": {
             "subject": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "[プライベートスレッド] {display_name}があなたとのプライベートスレッドを開始しました",
+                "private_discussion_replied": "[プライベートスレッド] {display_name}がプライベートスレッドに投稿しました",
+                "recipient_removed": "[プライベートスレッド] {display_name}がプライベートスレッドから退出しました",
+                "private_discussion_added": "[プライベートスレッド] {display_name}があなたをプライベートスレッドに追加しました"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "{recipient_display_name}さん、こんにちは。\n{actor_display_name}さんがあなたとのプライベートスレッド '{discussion_title}' を開始しました。\n以下のリンクから確認してください。\n{discussion_url}\nこのリンクにアクセスするにはログインが必要です。\n",
+                "private_discussion_replied": "{recipient_display_name}さん、こんにちは。\n{actor_display_name}さんが、あなたの参加しているプライベートスレッド '{discussion_title}' に投稿しました。\n以下のリンクから確認してください。\n{discussion_url}\nこのリンクにアクセスするにはログインが必要です。\n",
+                "recipient_removed": "{recipient_display_name}さん、こんにちは。\n{actor_display_name}さんが、プライベートスレッド '{discussion_title}' から退出しました。退出したユーザーはプライベートスレッドの内容を確認できなくなります。\n以下のリンクから確認してください。\n{discussion_url}\nこのリンクにアクセスするにはログインが必要です。\n",
+                "private_discussion_added": "{recipient_display_name}さん、こんにちは。\n{actor_display_name}さんが、あなたを既存のプライベートスレッド '{discussion_title}' に追加しました。\n以下のリンクから確認してください。\n{discussion_url}\nこのリンクにアクセスするにはログインが必要です。\n"
             }
         }
     }

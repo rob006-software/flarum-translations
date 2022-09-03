@@ -1,0 +1,43 @@
+{
+    "afrux-theme-base": {
+        "admin": {
+            "extensions": {
+                "title": "Rozšírenia",
+                "description": "Zoznam všetkých nainštalovaných rozšírení."
+            },
+            "extension": {
+                "sections": {
+                    "content": "Hlavné nastavenia",
+                    "permissions": "Povolenia"
+                }
+            },
+            "header": {
+                "go_back": "Späť na fórum"
+            },
+            "users": {
+                "grid": {
+                    "columns": {
+                        "avatar": {
+                            "title": "Avatar"
+                        }
+                    }
+                }
+            },
+            "settings": {
+                "edit_footer_links": "Upraviť odkazy v päte",
+                "footer_description": "Popis päty",
+                "footer_bottom_line": "Spodná čiara päty",
+                "hero_banner": "",
+                "hero_banner_position": "CSS pozícia hlavného obrázka (príklad: 'center top' alebo 'center 20%')",
+                "links_modal": {
+                    "add_group": "Nová skupina odkazov",
+                    "group_name": "Názov skupiny č. {number}",
+                    "group_title": "Názov skupiny odkazov",
+                    "add_link": "Pridať odkaz",
+                    "link_url": "URL odkazu",
+                    "link_label": "Označenie odkazu"
+                }
+            }
+        }
+    }
+}

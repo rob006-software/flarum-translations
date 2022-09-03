@@ -1,14 +1,14 @@
 {
     "antoinefr-online": {
         "forum": {
-            "title": "",
-            "andmore": "",
-            "online_users": ""
+            "title": "Кто онлайн?",
+            "andmore": "и {more} еще...",
+            "online_users": "{more, plural, one {# user сейчас в сети} other {# users пользователей сейчас в сети}}"
         },
         "admin": {
             "settings": {
-                "displaymax": "",
-                "titleoflist": ""
+                "displaymax": "Число отображаемых пользователей",
+                "titleoflist": "Заголовок, отображаемый над списком"
             }
         }
     }

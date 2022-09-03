@@ -8,6 +8,10 @@
                 "users_heading": "ค้าหาผู้ใช้ทั้งหมดสำหรับ \"{query}\"",
                 "field": {
                     "placeholder": "ค้าหาผู้ใช้ทั้งหมด"
+                },
+                "kinds": {
+                    "group": "",
+                    "text": ""
                 }
             },
             "page": {
@@ -15,7 +19,11 @@
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "เราไม่พบผู้ใช้คนไหนที่ตรงกับการค้นหาของคุณ",
-                "filter_button": "กรอกจากกลุ่ม"
+                "filter_button": "กรอกจากกลุ่ม",
+                "usercard": {
+                    "discussion-count": "",
+                    "post-count": ""
+                }
             }
         },
         "admin": {
@@ -25,7 +33,8 @@
             "settings": {
                 "link": "เพิ่มลิ้งที่หน้าหลักสำหรับให้ผู้ใช้ทั่วไปเห็นรายชื่อได้",
                 "default-sort": "เรียบตรมค่าเริ่มต้น",
-                "use-small-cards": "ใช้การ์ดผู้ใช้เเบบเล็ก"
+                "use-small-cards": "ใช้การ์ดผู้ใช้เเบบเล็ก",
+                "disable-global-search-source": ""
             }
         },
         "lib": {

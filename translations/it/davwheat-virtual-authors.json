@@ -1,0 +1,89 @@
+{
+    "davwheat-virtual-authors": {
+        "admin": {
+            "permissions": {
+                "set_virtual_authors": "Imposta autori virtuali nella discussione",
+                "view_virtual_authors_page": ""
+            },
+            "settings": {
+                "errored": "Impossibile caricare gli autori virtuali dal server.",
+                "create_new": "Crea nuovo autore virtuale",
+                "auto_save_message": "La creazione o la modifica degli autori virtuali viene salvata automaticamente.",
+                "search_placeholder": "Cerca per nome",
+                "link_to_va_from_discussion": "Mostra il collegamento a tutte le discussioni di un autore virtuale nel riquadro \"Autori\"",
+                "authors_in_sidebar": "Mostra gli autori nella barra laterale anziché sopra il primo post",
+                "authors_in_sidebar_help": "Non ha alcun effetto per l'estensione Blog.",
+                "virtual_authors_page_disabled": "",
+                "virtual_authors_page_disabled_help": "",
+                "discussion_badge": "Mostra badge sulle discussioni con gli autori virtuali",
+                "prev": "Pagina Precedente",
+                "next": "Pagina Successiva"
+            },
+            "virtual_author_item": {
+                "id": "ID",
+                "name": "Mostra nome",
+                "description": "Descrizione",
+                "no_description": "=> davwheat-virtual-authors.ref.no_description",
+                "edit": "Modifica autore virtuale",
+                "delete_confirmation": "Cancella autore virtuale?",
+                "delete_a11y_tooltip": "Cancella"
+            }
+        },
+        "lib": {
+            "edit_modal": {
+                "title_edit": "Modifica autore virtuale",
+                "title_new": "Nuovo autore virtuale",
+                "submit_edit": "Salva cambiamenti",
+                "submit_new": "Crea autore virtuale",
+                "fields": {
+                    "name": "Mostra nome",
+                    "description": "Descrizione (dell'autore)"
+                }
+            },
+            "discussion-badge": "{count, plural, one {Ha un autore virtuale}, other {Ha autori virtuali}}"
+        },
+        "forum": {
+            "virtual_author_page": {
+                "meta_title": "{displayName} - Autori",
+                "credited_discussions": "Discussioni accreditate a {displayName}",
+                "discussion_count": "{count, plural, one {# discussione}, other {# discussioni}}"
+            },
+            "virtual_authors_list": {
+                "sidebar_link": "",
+                "empty_text": "",
+                "title": "",
+                "meta_title": "",
+                "filter_name_placeholder": "",
+                "discussion_count": "",
+                "no_description": ""
+            },
+            "virtual_authors_panel": {
+                "heading": "Autori",
+                "error": "Impossibile caricare gli autori.",
+                "item_link_tooltip": "Visualizza tutte le discussioni di {displayName}"
+            },
+            "discussion_controls": {
+                "set_virtual_authors": "Imposta autori virtuali"
+            },
+            "set_modal": {
+                "title": "Imposta autori virtuali",
+                "existing": "Autori virtuali attuali",
+                "add_new": "Scegli nuovi autori virtuali",
+                "none_existing": "Nessun autore virtuale selezionato.",
+                "search": "Cerca autore virtuale",
+                "credit_placeholder": "Crediti (opzionale)",
+                "delete_confirmation": "Rimuovere l'autore virtuale dalla discussione?",
+                "delete_button": "Rimuovi",
+                "add_button": "Aggiungi",
+                "added_button": "Aggiunto",
+                "no_description": "=> davwheat-virtual-authors.ref.no_description",
+                "virtual_author_exists": "Gia selezionato!",
+                "save": "Salva modifiche"
+            }
+        },
+        "ref": {
+            "no_description": "(descrizione non impostata)",
+            "discussion_count": ""
+        }
+    }
+}

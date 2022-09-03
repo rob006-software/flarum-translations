@@ -1,25 +1,25 @@
 {
     "davwheat-share": {
         "admin": {
-            "browser_support_notice": "",
+            "browser_support_notice": "Опция \"Поделиться\" доступна только на устройствах, поддерживающих Web Share API. <a>Проверить поддержку для различных браузерах.</a>",
             "display_options": {
-                "icon": "",
-                "text": "",
+                "icon": "Только иконка",
+                "text": "Только текст",
                 "menu": ""
             },
-            "display_options_label": "",
-            "button_preview_header": "",
+            "display_options_label": "Тип отображения кнопки \"Поделиться\"",
+            "button_preview_header": "Предпросмотр",
             "preview": {
-                "reply": "",
+                "reply": "Ответить",
                 "dropdown": {
-                    "edit": "",
-                    "delete": ""
+                    "edit": "Править",
+                    "delete": "Удалить"
                 }
             }
         },
         "lib": {
-            "share": "",
-            "share_a11y_label": ""
+            "share": "Поделиться",
+            "share_a11y_label": "Поделиться сообщением"
         }
     }
 }

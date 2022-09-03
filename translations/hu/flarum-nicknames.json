@@ -5,15 +5,18 @@
                 "edit_own_nickname_label": "Saját becenév szerkesztése"
             },
             "settings": {
-                "max_label": "A becenév maximum hossza",
-                "min_label": "A becenév minimum hossza",
-                "regex_label": "Regular expression for validation",
-                "unique_label": "A becenévnek egyedinek kell lennie?"
+                "max_label": "A becenév maximális hossza",
+                "min_label": "A becenév minimális hossza",
+                "random_username_label": "Véletlenszerű felhasználónevek",
+                "random_username_help": "Ez elrejti a „felhasználónév” beviteli mezőt a regisztráció során, és véletlenszerű számot használ helyette. Emellett kötelezővé teszi a „becenév” mezőt. Ez csak akkor lép életbe, ha a „Becenevek beállításának engedélyezése regisztrációkor” engedélyezve van.",
+                "regex_label": "Reguláris kifejezés az ellenőrzéshez",
+                "set_on_registration_label": "Becenevek beállításának engedélyezése a regisztráció során",
+                "unique_label": "Egyedi becenevek megkövetése"
             },
-            "wrong_driver": ""
+            "wrong_driver": "A bővítmény életbe léptetéséhez a „becenevet” kell választania a megjelenítendő név meghajtójaként az <a><strong>Alapok oldalon</strong></a>."
         },
         "api": {
-            "invalid_nickname_message": "A becenév nem érvényes. Lépj kapcsolatban a fórum adminisztrátorával, hogy megtudd melyek a becenév szabályai."
+            "invalid_nickname_message": "A becenév érvénytelen. Lépjen kapcsolatban a fórum rendszergazdájával, hogy megtudja a becenevek szabályait."
         },
         "forum": {
             "change_nickname": {
@@ -22,14 +25,18 @@
             },
             "edit_user": {
                 "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
-                "nicknames_text": "Becenév"
+                "nicknames_text": "=> flarum-nicknames.ref.nickname"
             },
             "settings": {
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": "=> flarum-nicknames.ref.nickname"
             }
         },
         "ref": {
-            "change_nickname": "Becenév megváltoztatása"
+            "change_nickname": "Becenév módosítása",
+            "nickname": "Becenév"
         }
     }
 }

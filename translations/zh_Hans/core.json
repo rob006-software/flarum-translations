@@ -48,7 +48,7 @@
                 "tools_button": "工具"
             },
             "edit_css": {
-                "customize_text": "添加 Less/CSS 代码以自定义论坛外观，此设置将覆盖 Flarum  <a>默认样式</a>。",
+                "customize_text": "添加 Less/CSS 代码以自定义论坛外观，此设置将覆盖 Flarum <a>默认样式</a>。",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "编辑自定义 CSS"
             },
@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "设置范围",
-                "confirm_uninstall": "此扩展的的数据库条目和文件资源都将被永久性删除，确定要继续吗？",
+                "confirm_purge": "重置操作会清除数据库中所有该扩展相关的记录和资源。如要卸载扩展，请通过 Composer 操作。确定要重置扩展吗？",
                 "disabled": "关闭",
                 "enable_to_see": "开启扩展程序以查看或修改设置。",
                 "enabled": "开启",
@@ -116,6 +116,13 @@
                 "no_settings": "此扩展无设置项。",
                 "open_modal": "打开设置",
                 "permissions_title": "权限",
+                "purge_button": "重置",
+                "readme": {
+                    "button_label": "自述文件",
+                    "no_readme": "此扩展未提供自述文件",
+                    "title": "{extName} 文档"
+                },
+                "confirm_uninstall": "此扩展的的数据库条目和文件资源都将被永久性删除，确定要继续吗？",
                 "uninstall_button": "卸载"
             },
             "header": {
@@ -200,7 +207,7 @@
                 "upload_button": "选择图片..."
             },
             "users": {
-                "description": "论坛用户分页列表。",
+                "description": "论坛用户分页列表",
                 "grid": {
                     "columns": {
                         "edit_user": {
@@ -296,9 +303,11 @@
             "discussion_list": {
                 "empty_text": "这里空空如也...",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "标记为已读",
                 "replied_text": "{username} 回复于 {ago}",
-                "started_text": "{username} 发布于 {ago}"
+                "started_text": "{username} 发布于 {ago}",
+                "total_replies_a11y_label": "{count, plural, one {# 条回复} other {# 条回复}}",
+                "unread_replies_a11y_label": "{count, plural, one {# 条未读} other {# 条未读}}，全部标记为已读。",
+                "mark_as_read_tooltip": "标记为已读"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -426,7 +435,7 @@
                 "in_discussion_text": "于 {discussion}",
                 "joined_date_text": "注册于 {ago}",
                 "online_text": "在线",
-                "posts_empty_text": "暂无回复",
+                "posts_empty_text": "暂无内容",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
                 "settings_link": "=> core.ref.settings"
@@ -444,9 +453,16 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "重新发送验证邮件",
                 "sent_message": "发送"
+            },
+            "welcome_hero": {
+                "hide": "隐藏欢迎横幅内容"
             }
         },
         "lib": {
+            "debug_button": "调试",
+            "alert": {
+                "dismiss_a11y_label": "忽略警告"
+            },
             "badge": {
                 "hidden_tooltip": "隐藏"
             },
@@ -464,19 +480,32 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "username_label": "=> core.ref.username",
+                "nothing_available": "您无权编辑此用户。"
             },
             "error": {
                 "dependent_extensions_message": "无法停用「{extension}」，请先停用依赖扩展「{extensions}」",
+                "extension_initialiation_failed_message": "初始化「{extension}」失败，详情信息请查看控制台。",
                 "generic_message": "糟糕，出错啦！请刷新页面重试。",
                 "missing_dependencies_message": "无法启用「{extension}」，请先启用依赖扩展「{extensions}」",
                 "not_found_message": "您请求的资源不存在。",
                 "payload_too_large_message": "请求负载过大。",
                 "permission_denied_message": "您没有权限进行此操作。",
-                "rate_limit_exceeded_message": "您的操作太频繁，请稍后再试。"
+                "rate_limit_exceeded_message": "您的操作太频繁，请稍后再试。",
+                "render_failed_message": "抱歉，加载此内容时出错，请刷新页面重试。如果您是管理员，请查看论坛日志文件查看详情。"
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle} - 第 # 页 - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {第 # 页 - {forumName}}}"
+            },
+            "modal": {
+                "close": "关闭"
+            },
+            "nav": {
+                "drawer_button": "打开导航抽屉"
             },
             "number_suffix": {
                 "kilo_text": "千",
@@ -546,6 +575,10 @@
                 "new_password_label": "新密码",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle} - 第 # 页 - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {第 # 页 - {forumName}}}"
             }
         },
         "api": {
@@ -554,15 +587,15 @@
         "email": {
             "activate_account": {
                 "subject": "账号激活",
-                "body": "{username}，您好！\n\n您使用这个邮箱在 {forum} 进行了注册，若是您本人所为，请点击下面的链接激活您的账号：\n\n{url}\n\n若非您本人注册，请忽略此邮件。\n"
+                "body": "{username}，您好！\n\n您刚刚注册了 {forum}。\n\n若是您本人所为，请点击下方链接激活账号：\n{url}\n\n若非您本人注册，请忽略此邮件。\n"
             },
             "confirm_email": {
                 "subject": "确认邮箱地址",
-                "body": "{username}，您好!\n\n您在 {forum} 的账号邮箱被更改为此邮箱，若是您本人所为，请点击下面的链接完成邮箱确认：\n\n{url}\n\n若非您本人所为，请立即检查账号安全并修改密码。\n"
+                "body": "{username}，您好!\n\n您更改了 {forum} 的账号邮箱。\n\n若是您本人所为，请点击下方链接确认更改：\n{url}\n\n若非您本人操作，请忽略这封邮件。\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "{username}，您好！\n\n您在 {forum} 请求重置密码，若是您本人所为，请点击下面的链接重置密码：\n\n{url}\n\n如非您本人行为，请忽略此邮件，我们不会受理这个操作。\n"
+                "body": "{username}，您好！\n\n您请求重置 {forum} 的密码。\n\n若是您本人所为，请点击下方链接重置密码：\n{url}\n\n如非您本人操作，请忽略这封邮件，我们不会受理重置操作。\n"
             },
             "send_test": {
                 "subject": "Flarum 邮件测试",

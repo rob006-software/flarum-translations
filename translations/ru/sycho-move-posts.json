@@ -2,61 +2,61 @@
     "sycho-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content": "Перемещено содержимое дискуссии (первого сообщения)",
+                "moved_first_post_content_help": "Если ваша дискуссия состоит только из одного сообщения, его перемещение приведет к тому, что правка первого сообщения изначальной дискуссии станет основой новой дискуссии. Вы можете править это сообщение здесь.\n",
+                "group_sequential_posts": "Группировать последовательные сообщения в одно при перемещении ."
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Перемещено"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": ""
+                "move_old_post_to_newer_discussion": "=> sycho-move-posts.ref.status.old_to_new_move"
             },
             "modal": {
-                "check": "",
-                "destination": "",
-                "discussion_help": "",
-                "discussion_name": "",
-                "new_discussion": "",
-                "selected_posts": "",
+                "check": "Проверить тип операции",
+                "destination": "Дискуссия, в которую перемещаем",
+                "discussion_help": "Теги исходной дискуссии сохранятся, и могут быть изменены после создания.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Новая дискуссия",
+                "selected_posts": "{count, plural, one {Одно сообщение выбрано} other {{count} Сообщений выбрано}}",
                 "status": {
-                    "complex_move": "",
-                    "old_to_new_move": "",
-                    "simple_move": ""
+                    "complex_move": "Сложное перемещение, сообщения будут вставлены между другими сообщениями, старые URL ссылки на сообщения в \"целевой\" дискуссии будут также изменены.",
+                    "old_to_new_move": "=> sycho-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Простое перемещение - сообщения будут добавлены в конец дискуссии."
                 },
-                "submit": "",
-                "title": ""
+                "submit": "Продолжить",
+                "title": "=> sycho-move-posts.ref.move_posts"
             },
             "notifications": {
-                "post_moved_text": ""
+                "post_moved_text": "Одно или более ваши сообщения были перемещены в {targetDiscussionTitle}."
             },
             "post": {
-                "unmove": "",
-                "move": "",
-                "moving": ""
+                "unmove": "Снимите выбор для перемещения",
+                "move": "Выберите для перемещения",
+                "moving": "Переместить сообщение"
             },
             "post_stream": {
-                "post_moved": ""
+                "post_moved": "{count, plural, one {{username} переместил сообщение в дискуссию {target_discussion}.} other {{username} переместил {count} сообщений в дискуссию {target_discussion}.}}"
             }
         },
         "ref": {
-            "move_posts": "",
+            "move_posts": "Переместить сообщения",
             "status": {
-                "old_to_new_move": ""
+                "old_to_new_move": "Нельзя переместить старое сообщение в более новое обсуждение."
             }
         },
         "lib": {
             "discussion": {
                 "first_post": {
-                    "default_content": ""
+                    "default_content": "*Это сообщение было перемещено в **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
                 }
             }
         }

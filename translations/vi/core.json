@@ -13,7 +13,7 @@
                 "custom_styles_text": "Tùy chỉnh giao diện diễn đàn của bạn bằng cách thêm mã LESS/CSS để sử dụng trên style mặc định của Flarum.",
                 "dark_mode_label": "Chế độ tối",
                 "description": "Tùy chỉnh màu sắc, logo và các thiết lập khác của diễn đàn.",
-                "edit_css_button": "Sửa CSS",
+                "edit_css_button": "Chỉnh sửa CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Vui lòng nhập mã màu thập lục phân.",
@@ -50,7 +50,7 @@
             "edit_css": {
                 "customize_text": "Tùy chỉnh giao diện diễn đàn của bạn bằng cách thêm mã LESS/CSS của riêng bạn để được áp dụng trên <a>kiểu mặc định của Flarum</a>.",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Chỉnh sửa CSS"
+                "title": "Tuỳ chỉnh CSS"
             },
             "edit_footer": {
                 "customize_text": "=> core.ref.custom_footer_text",
@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Cấu hình Phạm vi",
-                "confirm_uninstall": "Gỡ cài đặt sẽ xóa tất cả các mục nhập trong cơ sở dữ liệu và nội dung liên quan đến tiện ích mở rộng. Bạn có chắc chắn muốn tiếp tục không?",
+                "confirm_purge": "Dọn dẹp sẽ xóa tất cả các mục nhập trong cơ sở dữ liệu và nội dung liên quan đến tiện ích mở rộng. Nó sẽ không gỡ tiện ích mở rộng; điều đó phải được thực hiện thông qua Composer. Bạn có chắc chắn muốn tiếp tục không?",
                 "disabled": "Đã tắt",
                 "enable_to_see": "Kích hoạt tiện ích mở rộng để xem và thay đổi cài đặt.",
                 "enabled": "Đã bật",
@@ -116,6 +116,13 @@
                 "no_settings": "Tiện ích mở rộng này không có thiết lập nào.",
                 "open_modal": "Mở thiết lập",
                 "permissions_title": "Quyền",
+                "purge_button": "Dọn dẹp",
+                "readme": {
+                    "button_label": "README",
+                    "no_readme": "Tiện ích mở rộng này không có tệp README",
+                    "title": "Tài liệu {extName}"
+                },
+                "confirm_uninstall": "Gỡ cài đặt sẽ xóa tất cả các mục nhập trong cơ sở dữ liệu và nội dung liên quan đến tiện ích mở rộng. Bạn có chắc chắn muốn tiếp tục không?",
                 "uninstall_button": "Gỡ cài đặt"
             },
             "header": {
@@ -263,7 +270,7 @@
             "composer_discussion": {
                 "body_placeholder": "Nhập nội dung cho bài viết...",
                 "discard_confirmation": "Bạn chưa đăng cuộc thảo luận này. Bạn có muốn huỷ không?",
-                "submit_button": "Đăng",
+                "submit_button": "Đăng cuộc thảo luận",
                 "title": "=> core.ref.start_a_discussion",
                 "title_placeholder": "Tiêu đề cuộc thảo luận"
             },
@@ -296,9 +303,11 @@
             "discussion_list": {
                 "empty_text": "Hiện không có cuộc thảo luận nào ở đây.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Đánh dấu đã đọc",
                 "replied_text": "{username} đã trả lời {ago}",
-                "started_text": "{username} đã đăng bài {ago}"
+                "started_text": "{username} đã đăng bài {ago}",
+                "total_replies_a11y_label": "{count, plural, one {# câu trả lời} other {# câu trả lời}}",
+                "unread_replies_a11y_label": "{count, plural, one {# câu trả lời chưa đọc} other {# câu trả lời chưa đọc}}. Đánh dấu chưa đọc {count, plural, one {reply} other {replies}} thành đã đọc.",
+                "mark_as_read_tooltip": "Đánh dấu đã đọc"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -310,7 +319,7 @@
                 "title": "Quên mật khẩu"
             },
             "header": {
-                "admin_button": "Quản trị viên",
+                "admin_button": "Trang quản trị",
                 "back_to_index_tooltip": "Trở lại danh sách thảo luận",
                 "locale_dropdown_accessible_label": "Thay đổi ngôn ngữ diễn đàn",
                 "log_in_link": "=> core.ref.log_in",
@@ -420,8 +429,8 @@
             },
             "user": {
                 "avatar_remove_button": "=> core.ref.remove",
-                "avatar_upload_button": "Tải lên",
-                "avatar_upload_tooltip": "Tải lên ảnh đại diện",
+                "avatar_upload_button": "Tải ảnh lên",
+                "avatar_upload_tooltip": "Cập nhật ảnh đại diện",
                 "discussions_link": "=> core.ref.discussions",
                 "in_discussion_text": "Trong {discussion}",
                 "joined_date_text": "Đã tham gia {ago}",
@@ -444,9 +453,16 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Gửi lại email xác nhận",
                 "sent_message": "Gửi"
+            },
+            "welcome_hero": {
+                "hide": "Ẩn thông báo chào mừng"
             }
         },
         "lib": {
+            "debug_button": "Gỡ lỗi",
+            "alert": {
+                "dismiss_a11y_label": "Ẩn cảnh báo"
+            },
             "badge": {
                 "hidden_tooltip": "Bị ẩn"
             },
@@ -464,19 +480,32 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "username_label": "=> core.ref.username",
+                "nothing_available": "Bạn không được phép chỉnh sửa người dùng này."
             },
             "error": {
                 "dependent_extensions_message": "Không thể vô hiệu hóa {extension} cho đến khi các tiện ích mở rộng phụ thuộc sau bị vô hiệu hóa: {extensions}",
+                "extension_initialiation_failed_message": "Không thể khởi chạy {extension}, hãy kiểm tra console của trình duyệt để biết thêm thông tin.",
                 "generic_message": "Úi! Đã xảy ra lỗi. Hãy tải lại trang và thử lại.",
                 "missing_dependencies_message": "Không thể kích hoạt {extension} cho đến khi các tiện ích mở rộng phụ thuộc sau được kích hoạt: {extensions}",
                 "not_found_message": "Không tìm thấy tài nguyên được yêu cầu.",
                 "payload_too_large_message": "Yêu cầu tải trọng quá lớn.",
                 "permission_denied_message": "Bạn không có quyền để làm điều này.",
-                "rate_limit_exceeded_message": "Bạn thao tác hơi nhanh quá. Vui lòng thử lại sau vài giây."
+                "rate_limit_exceeded_message": "Bạn thao tác hơi nhanh quá. Vui lòng thử lại sau vài giây.",
+                "render_failed_message": "Xin lỗi, chúng tôi đã gặp lỗi khi hiển thị nội dung này. Nếu bạn là người dùng, vui lòng thử lại sau. Nếu bạn là quản trị viên, hãy xem các tệp nhật ký Flarum của bạn để biết thêm thông tin."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Trang # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Trang # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Đóng"
+            },
+            "nav": {
+                "drawer_button": "Mở ngăn điều hướng"
             },
             "number_suffix": {
                 "kilo_text": "N",
@@ -546,6 +575,10 @@
                 "new_password_label": "Mật khẩu mới",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Trang # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Trang # - {forumName}}}"
             }
         },
         "api": {
@@ -575,7 +608,7 @@
             "change_password": "Đổi mật khẩu",
             "color": "Màu sắc",
             "confirm_password": "Xác nhận mật khẩu",
-            "confirm_email": "Enail xác thực",
+            "confirm_email": "Xác nhận email",
             "confirmation_email_sent": "Chúng tôi đã gửi email xác nhận đến {email}. Nếu không có, hãy kiểm tra trong mục Thư rác.",
             "custom_footer_text": "Thêm HTML để hiển thị bên dưới trang.",
             "custom_footer_title": "Chỉnh sửa Chân trang",
@@ -607,7 +640,7 @@
             "reset_your_password": "Đặt lại mật khẩu của bạn",
             "restore": "Khôi phục",
             "save_changes": "Lưu thay đổi",
-            "settings": "Cài đặt",
+            "settings": "Thiết lập",
             "sign_up": "Đăng ký",
             "some_others": "{count, plural, one {# người khác} other {# người khác}}",
             "start_a_discussion": "Tạo cuộc thảo luận",

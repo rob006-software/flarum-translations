@@ -5,14 +5,18 @@
                 "title": "Thiết lập",
                 "moneyforpost": "Số tiền cho một bài viết mới",
                 "moneyfordiscussion": "Số tiền cho một cuộc thảo luận mới",
-                "moneyname": "Tên tiền (ví dụ: [money] điểm)",
-                "postminimumlength": "Độ dài tối thiểu của bài viết để nhận tiền (0 để vô hiệu hóa)",
-                "noshowzero": "Không hiển thị nếu số tiền bằng 0",
-                "moneyforlike": "Tiền được cộng khi có bài viết được thích",
+                "moneyname": "Tên của tiền (ví dụ: [money] điểm)",
+                "postminimumlength": "Độ dài bài viết tối thiểu để nhận tiền (0 để tắt)",
+                "noshowzero": "Không hiển thị nếu giá trị bằng 0",
+                "moneyforlike": "Cộng tiền khi có bài viết được thích",
                 "helpextensionlikes": "Yêu cầu bật tiện ích <code>flarum/likes</code>"
             },
             "permissions": {
                 "edit_money_label": "Chỉnh sửa tiền"
+            },
+            "automoderator": {
+                "metric_name": "Tiền",
+                "action_name": "Tặng tiền"
             }
         },
         "forum": {

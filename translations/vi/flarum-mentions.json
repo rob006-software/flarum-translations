@@ -3,18 +3,18 @@
         "admin": {
             "settings": {
                 "allow_username_format_label": "Cho phép định dạng đề cập tên người dùng (@Username)",
-                "allow_username_format_text": "Định dạng hiện tại của đề cập của người dùng là @\"Tên hiển thị\"#ID.\nCài đặt này cho phép sử dụng định dạng cũ của @Username, tuy nhiên nó vẫn sẽ được chuyển đổi sang định dạng mới khi lưu.\n"
+                "allow_username_format_text": "Định dạng đề cập hiện tại của người dùng là @\"DisplayName\"#ID.\nCài đặt này cho phép sử dụng định dạng cũ của @Username, tuy nhiên nó vẫn sẽ được chuyển đổi sang định dạng mới khi lưu.\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "Đề cập đến người dùng hoặc bài viết",
+                "mention_tooltip": "Nhắc đến người dùng hoặc bài viết",
                 "reply_to_post_text": "Trả lời #{number}"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} đã trả lời bài viết của bạn",
-                "user_mentioned_text": "{username} đã đề cập đến bạn"
+                "user_mentioned_text": "{username} đã nhắc đến bạn"
             },
             "post": {
                 "mentioned_by_self_text": "{users} đã trả lời bài viết này.",
@@ -41,8 +41,8 @@
                 "body": "Chào {recipient_display_name}!\n\n{replier_display_name} đã trả lời bài viết của bạn (#{post_number}) trong {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "{mentioner_display_name} đã đề cập đến bạn trong {title}",
-                "body": "Hey {recipient_display_name}!\n\n{mentioner_display_name} đã đề cập đến bạn trong một bài viết trong {title}.\n\n{url}\n\n---\n\n{content}"
+                "subject": "{mentioner_display_name} đã nhắc đến bạn trong {title}",
+                "body": "Hey {recipient_display_name}!\n\n{mentioner_display_name} đã nhắc đến bạn trong một bài viết trong {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }

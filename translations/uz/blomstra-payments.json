@@ -1,0 +1,111 @@
+{
+    "blomstra-payments": {
+        "forum": {
+            "stripe": {
+                "interval_once": ""
+            },
+            "subscription-card": {
+                "ptv": "",
+                "pta": "",
+                "ptb": "",
+                "ptp": "",
+                "cancel-control": "",
+                "none": "",
+                "bounty": ""
+            },
+            "pay-to-view": {
+                "purchase-control": "Koʻrish uchun toʻlash",
+                "purchase-log-in": "Tizimga kiring va koʻrish uchun toʻlang",
+                "purchase-completed": "Qulfdan chiqarilgan",
+                "description": "Bu nuqtadan keyingi postlar toʻlov devori orqasida qulflangan, siz ularni toʻlovni Stripe provayderimiz orqali amalga oshirish orqali ochishingiz mumkin.\n"
+            },
+            "pay-to-post": {
+                "purchase-control": "Nashr qilish uchun toʻlash",
+                "purchase": "Nashr qilish uchun sotib oling",
+                "purchase_required": "Stripe toʻlov provayderimiz orqali toʻlovni tugatganingizdan soʻng, bu muhokama eʼlon qilinadi. Narx va toʻlov imkoniyatlarini koʻrish uchun “Xarid” tugmasini bosing.\n"
+            },
+            "pay-to-bump": {
+                "description": "",
+                "purchase-control": "",
+                "purchase-log-in": ""
+            },
+            "bounties": {
+                "purchase-control": "",
+                "enable-control": ""
+            },
+            "choose-bounty-amount-modal": {
+                "title": "",
+                "checkout-control": "",
+                "description": ""
+            },
+            "backers-widget": {
+                "label": "",
+                "none": ""
+            },
+            "tag": {
+                "require-payment-label": "To'lov talab qilinadi"
+            },
+            "payment-options-modal": {
+                "title": "{group} guruhiga kirish uchun toʻlov imkoniyatlari",
+                "description": "Guruhga kirishni boshlash uchun quyidagi variantlardan birini tanlang. Toʻlovni qayta ishlash uchun Stripe toʻlov provayderimizga yoʻnaltirilasiz.\n"
+            },
+            "access-portal": {
+                "options": "variantlar",
+                "purchase": "sotib olish",
+                "subscribed": ""
+            },
+            "nav": {
+                "access_portal": "Portalga kirish",
+                "user_subscriptions": ""
+            },
+            "exceptions": {
+                "out-of-bounds-amount": {
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "accept-terms-modal": {
+                "accept_label": "",
+                "continue_button": "",
+                "title": ""
+            }
+        },
+        "admin": {
+            "edit-tag": {
+                "select-ptp-product": "(PTP) Kerakli mahsulot",
+                "select-ptp-product-description": "Mahsulotni tanlash uchun ushbu tegdagi har bir muhokama uchun ushbu mahsulot uchun to'lov talab qilinadi. Har bir post uchun to'lov, masalan, reklama uchun juda yaxshi. Stripe boshqaruv panelida yagona “bir martalik” narxga ega mahsulot yarating va <code>prod_</code> bilan boshlangan identifikatorni ushbu maydonga nusxalang.\n",
+                "select-ptv-product": "(PTV) Kerakli mahsulot",
+                "select-ptv-product-description": "Mahsulotni tanlash chegaradan tashqaridagi barcha postlarga doimiy kirish huquqiga ega bo‘lish uchun ushbu mahsulot uchun to‘lovni talab qiladi.. Stripe asboblar panelida mahsulot yarating va <code>prod_</code> bilan boshlangan identifikatorni ushbu maydonga nusxalang.\n",
+                "visible-from": "Ushbu chegaradagi postlarni yashirish",
+                "visible-from-description": "Bu yerda siz koʻrsatgan raqam kontentga kirish uchun pul toʻlamagan foydalanuvchilar uchun postlar qaysi vaqtda yashirilishini belgilaydi. Ularning barchasini yashirish uchun 0 dan, OPdan keyingisi uchun 1 dan foydalaning.\n",
+                "select-ptb-product": "",
+                "select-ptb-product-description": "",
+                "bump-others": "",
+                "bump-others-description": "",
+                "select-bounty-product": "",
+                "select-bounty-description": ""
+            },
+            "edit-group": {
+                "select-pta-product": "(PTA) Kerakli mahsulot",
+                "select-pta-product-description": "Mahsulotni tanlash to'lovdan keyin guruhga kirish imkonini beradi. Obuna bo'lgan taqdirda, obuna bekor qilingandan keyin kirish avtomatik ravishda bekor qilinadi. Stripe asboblar panelida mahsulot yarating va <code>prod_</code> bilan boshlangan identifikatorni ushbu maydonga nusxalang.\n"
+            },
+            "settings": {
+                "pk": "Nashr qilinadigan (api) kalit",
+                "sk": "Maxfiy (api) kaliti",
+                "webhook-secret": "Webhook imzolash siri",
+                "link-access-portal": "Foydalanuvchi sessiyasi ochiladigan ro'yxati ostidagi kirish portaliga havola",
+                "link-to-terms": ""
+            },
+            "permission": {
+                "enable-bounties": ""
+            }
+        }
+    },
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": ""
+            }
+        }
+    }
+}

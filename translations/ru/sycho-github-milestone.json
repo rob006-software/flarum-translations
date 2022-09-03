@@ -1,28 +1,28 @@
 {
     "sycho-github-milestone": {
         "admin": {
-            "repository": "",
-            "repository_example": "",
-            "milestone": "",
-            "default_filter": "",
-            "closed": "",
-            "open": "",
-            "all": ""
+            "repository": "Репозиторий GitHub",
+            "repository_example": "пример: flarum/core",
+            "milestone": "ID Отметки",
+            "default_filter": "Фильтр по умолчанию",
+            "closed": "=> sycho-github-milestone.ref.closed",
+            "open": "=> sycho-github-milestone.ref.open",
+            "all": "=> sycho-github-milestone.ref.all"
         },
         "forum": {
-            "title": "",
-            "last_updated": "",
-            "closed": "",
-            "open": "",
-            "all": "",
-            "complete": "",
-            "load_more": "",
-            "tasks_done": ""
+            "title": "Отметка",
+            "last_updated": "Последнее обновление {time}",
+            "closed": "=> sycho-github-milestone.ref.closed",
+            "open": "=> sycho-github-milestone.ref.open",
+            "all": "=> sycho-github-milestone.ref.all",
+            "complete": "{progress} завершено",
+            "load_more": "=> core.forum.discussion_list.load_more_button",
+            "tasks_done": "{number} из {total}"
         },
         "ref": {
-            "closed": "",
-            "open": "",
-            "all": ""
+            "closed": "Закрыто",
+            "open": "Открыть",
+            "all": "Все"
         }
     }
 }

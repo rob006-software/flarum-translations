@@ -1,13 +1,13 @@
 {
     "username-blacklist": {
         "forum": {
-            "modal-title": "",
-            "modal-body-first-line": "",
-            "modal-body-second-line": ""
+            "modal-title": "Внимание!",
+            "modal-body-first-line": "Внимание - Этот аккаунт <strong>заблокирован Администратором</strong>",
+            "modal-body-second-line": "Пожалуйста выберите другое имя пользователя, не нарушающее правил нашего сообщества и попробуйте еще раз."
         },
         "admin": {
-            "blackList": "",
-            "blackList-help": ""
+            "blackList": "Заблокированное имя пользователя",
+            "blackList-help": "Внесите сюда имена пользователей, которые вы хотите блокировать при регистрации (разделяя запятыми)"
         }
     }
 }

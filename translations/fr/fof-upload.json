@@ -15,6 +15,7 @@
                 "watermark": "Choisissez si un filigrane sera ajouté aux images lors du téléchargement. Les filigranes sont ajoutés aux images qui ne sont pas des GIFS en fonction de vos préférences définies ci-dessous.\n",
                 "s3_compatible_storage": "Les paramètres suivants ne sont obligatoires que si vous utilisez un stockage compatible S3. Si vous utilisez AWS, vous pouvez les laisser vides.\n",
                 "s3_acl": "L'ACL qui doit être appliquée à l'objet téléchargé (par défaut : privé). Pour les valeurs possibles, veuillez consulter https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_instance_profile": "Laissez la clé et le secret vides pour utiliser les informations d'identification dans le profil de l'instance.\n",
                 "composer_buttons": "Par défaut, le bouton du gestionnaire de médias et le bouton de téléchargement sont tous deux visibles. Vous pouvez également décider de n'afficher qu'un seul bouton.\n"
             },
             "labels": {
@@ -39,7 +40,8 @@
                 },
                 "imgur": {
                     "client_id": "Identifiant client d'Imgur",
-                    "title": "Paramètres de stockage des images d'Imgur"
+                    "title": "Paramètres de stockage des images d'Imgur",
+                    "tos": "Il est de votre responsabilité de vous assurer que les utilisateurs de votre forum adhèrent aux <a>conditions d'utilisation</a> d'Imgur"
                 },
                 "local": {
                     "cdn_url": "URL de diffusion du contenu (préfixe des fichiers)",
@@ -54,7 +56,8 @@
                 "preferences": {
                     "max_file_size": "Taille maximale du fichier (en kilo-octets)",
                     "mime_types": "Configurez votre type MIME (téléversez la cartographie de téléchargement)",
-                    "title": "Préférences générales"
+                    "title": "Préférences générales",
+                    "php_ini_values": "Vos valeurs <code>php.ini</code> sont <code>post_max_size={post}</code> et <code>upload_max_filesize={upload}</code>. Assurez-vous que la valeur définie ici est inférieure à ces seuils ou ajustez-les en conséquence. Si vous utilisez <code>Nginx</code>, assurez-vous également que <code>client_max_body_size</code> est d'une taille suffisante pour la limite maximale choisie."
                 },
                 "resize": {
                     "max_width": "Largeur/hauteur maximale de l'image",
@@ -77,7 +80,8 @@
                         "upload-btn": "Bouton de transfert uniquement",
                         "media-btn": "Bouton du gestionnaire de médias uniquement"
                     }
-                }
+                },
+                "inspect-mime": "Type MIME du fichier de test"
             },
             "permissions": {
                 "download_label": "Télécharger les fichiers",
@@ -97,7 +101,9 @@
                 "bbcode-image": "Modèle d'image BBCode",
                 "bbcode-image_description": "Affiche l'image en ligne complète en utilisant BBCode. <strong>L'extension flarum/bbcode doit être installée et activée pour que cette option fonctionne.</strong> Aucune fonctionnalité de téléchargement ni aucune statistique n'est collectée, et la protection des liens chauds est ignorée.\n",
                 "just-url": "Juste l'URL",
-                "just-url_description": "Insère uniquement l'URL. Le rendu peut être géré par d'autres extensions ayant la capacité de créer des liens automatiques. Il n'y a pas de fonctionnalité de téléchargement, aucune statistique n'est collectée et la protection contre les liens hypertextes automatiques est ignorée.\n"
+                "just-url_description": "Insère uniquement l'URL. Le rendu peut être géré par d'autres extensions ayant la capacité de créer des liens automatiques. Il n'y a pas de fonctionnalité de téléchargement, aucune statistique n'est collectée et la protection contre les liens hypertextes automatiques est ignorée.\n",
+                "text-preview": "Aperçu du texte",
+                "text-preview_description": "Insère un aperçu (5 premières lignes) du fichier texte, avec une option de développement pour révéler le contenu complet du fichier.\n"
             },
             "upload_methods": {
                 "aws-s3": "Compatible avec Amazon S3",
@@ -106,8 +112,18 @@
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "QiNiu"
             },
-            "buttons": {
-                "save": "Enregistrer les paramètres"
+            "inspect-mime": {
+                "title": "Inspecter le MIME",
+                "description": "FoF Upload utilise la bibliothèque <a>PHP Mime Detector</a> pour les types MIME courants et PHP Fileinfo comme solution de repli.\nLa valeur MIME renvoyée par Fileinfo peut être différente d'un serveur à l'autre !\n",
+                "select": "Sélectionnez un fichier ci-dessous pour inspecter les valeurs qui seront utilisées. Le fichier ne sera pas sauvegardé.",
+                "laravel-validation": "Validation des fichiers Laravel",
+                "no-file-selected": "Aucun fichier",
+                "validation-passed": "Succès",
+                "validation-failed": "Échec : {error}",
+                "mime-detector": "Détecteur de MIME (primaire)",
+                "mime-fileinfo": "PHP Fileinfo (solution de repli)",
+                "guessed-extension": "Extension de fichier par défaut (si l'original ne figure pas sur la liste blanche)",
+                "not-available": "Aucun résultat"
             }
         },
         "forum": {
@@ -140,6 +156,16 @@
                 "error": "Erreur",
                 "loading": "Transfert",
                 "unauthorized": "Vous n'êtes pas autorisé à télécharger des fichiers"
+            },
+            "validation": {
+                "max_size": "Les téléchargements de plus de {max} kb ne sont pas acceptés."
+            },
+            "text_preview": {
+                "expand": "Développer l'aperçu",
+                "collapse": "Réduire l'aperçu",
+                "error": "Erreur lors de la prévisualisation du fichier. Il a peut-être été supprimé ou l'ID de fichier fourni n'est pas valide.\n",
+                "no_snippet_preview": "<l'aperçu apparaîtra ici après la publication>",
+                "no_snippet": "<aucun extrait d'aperçu disponible>"
             }
         },
         "api": {

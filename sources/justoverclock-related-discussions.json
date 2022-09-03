@@ -3,12 +3,21 @@
         "admin": {
             "relatedLimit": "Related Discussions to show (default 4)",
             "relatedLimit-help": "write here the number of discussion that you want to see (e.g. \"4\")",
-            "DiscussionPageLayout": "Show Related Discussions at the bottom of the discussion pages"
+            "DiscussionPageLayout": "Show Related Discussions at the bottom of the discussion pages",
+            "relatedTitle": "Title for \"Related Discussions\"",
+            "relatedTitle-help": "Replace the default title for related discussion with your own",
+            "showExcerpt": "Show Summary Excerpt",
+            "showTooltip": "Show Tooltip with Excerpt"
         },
         "forum": {
-            "reldiscussion": "Suggested Discussions",
+            "reldiscussion": "Suggested Discussions:",
             "participants": "Participants",
-            "postnumber": "Number of posts"
+            "postnumber": "Number of posts",
+            "postedOn": "on:",
+            "repliedOn": "replied",
+            "hasBestAnswer": "Solved",
+            "hasBestAnswer-title": "This discussion is marked as solved",
+            "deleted": "Deleted"
         }
     }
 }

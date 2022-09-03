@@ -1,0 +1,40 @@
+{
+    "clarkwinkelmann-jwt-cookie-login": {
+        "admin": {
+            "settings": {
+                "cookieName": "Tên Cookie",
+                "actorId": "ID người dùng Flarum cho các thao tác quản trị",
+                "actorIdHelp": "Người dùng Flarum này sẽ được sử dụng làm tác nhân cho yêu cầu API REST nội bộ tạo người dùng mới. Đó phải là người dùng quản trị.\n",
+                "audience": "Đối tượng JWT / ID dự án Firebase",
+                "audienceHelp": "Xác thực thuộc tính <code>aud</code> của mã token. Tùy chọn khi không sử dụng Firebase",
+                "publicKey": "Mã công khai",
+                "publicKeyHelp": "Để trống để sử dụng mã khoá Google Firebase",
+                "publicKeyAlgorithm": "Khoá công khoá Algorithm",
+                "publicKeyAlgorithmHelp": "Chỉ yêu cầu mã khoá công khai. Ví dụL RS256",
+                "expirationLeeway": "Thời gian hết hạn (giây)",
+                "expirationLeewayHelp": "Còn bao nhiêu giây nữa sau khi hết hạn JWT thì phiên vẫn bắt đầu. Giá trị này chỉ nhằm mục đích tồi tệ nhất là vài phút để tính cho thời gian lệch đồng hồ giữa các máy chủ. Tuy nhiên, nó cũng có thể được đặt thành giá trị dài hơn nhiều nếu đây là cách duy nhất để giải quyết các vòng đời ngắn cố định của JWT từ thư viện bên ngoài.\n",
+                "usernameTemplate": "Mẫu tên người dùng",
+                "usernameTemplateHelp": "Sử dụng cú pháp <code>{sub}</code> để sử dụng thuộc tính từ JWT",
+                "emailTemplate": "Mẫu email",
+                "emailTemplateHelp": "Sử dụng cú pháp <code>{sub}</code> để sử dụng thuộc tính từ JWT",
+                "registrationHook": "Điểm cuối Hook đăng ký",
+                "registrationHookHelp": "Một URL đủ điều kiện sẽ được truy cập với yêu cầu ĐĂNG khi người dùng truy cập diễn đàn lần đầu tiên. Yêu cầu phải trả về tải trọng JSON: API sẽ được sử dụng để tạo người dùng mới trong Flarum. Sử dụng cú pháp <code>{sub}</code> để sử dụng thuộc tính từ JWT trong URL. JWT hoàn chỉnh sẽ được chuyển vào tiêu đề <code>Authorization</code>. Tên người dùng và Email là tùy chọn nếu giá trị mẫu được định cấu hình.\n",
+                "authorizationHeader": "Giá trị header Authorization tùy chỉnh",
+                "authorizationHeaderHelp": "Nếu trường này để trống, tiêu đề <code>Authorization</code> sẽ chứa <code>Token<JWT token></code>.",
+                "hiddenIframe": "URL iframe ẩn",
+                "hiddenIframeHelp": "Khung nội tuyến này sẽ được tải ngoài màn hình trên tất cả các trang của ứng dụng trang đơn Flarum. Nó có thể được sử dụng để làm mới cookie theo định kỳ và có thể sử dụng tính năng nhắn tin của trình duyệt để kích hoạt làm mới trang để tự động đăng nhập hoặc tự động đăng xuất. Xem README để biết tài liệu.\n",
+                "autoLoginDelay": "Độ trễ đăng nhập tự động iframe ẩn (mili giây)",
+                "autoLoginDelayHelp": "Trong bao nhiêu giây, trang được phép làm mới mà không cần người dùng tương tác nếu iframe ẩn trả về trạng thái đã đăng nhập. Quá thời gian trì hoãn đó, người dùng sẽ nhận được cảnh báo hỏi họ có muốn làm mới trang hay không.\n",
+                "logoutRedirect": "URL chuyển hướng đăng xuất",
+                "logoutRedirectHelp": "Trong một phiên không trạng thái JWT, liên kết đăng xuất Flarum sẽ được thay thế bằng liên kết trỏ đến URL này. Nếu không có giá trị nào được đặt, nút đăng xuất sẽ bị ẩn.\n"
+            }
+        },
+        "forum": {
+            "alert": {
+                "refresh": "Làm mới trang",
+                "login": "Bạn đã được kết nối tự động.",
+                "logout": "Phiên của bạn đã hết hạn."
+            }
+        }
+    }
+}

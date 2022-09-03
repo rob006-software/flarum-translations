@@ -2,25 +2,37 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": "Xem nhật ký kiểm tra"
+                "view": "Xem nhật ký kiểm tra",
+                "viewLimited": "Xem nhật ký bị giới hạn"
             },
             "header": {
                 "title": "Kiểm tra",
                 "free": "Miễn phí",
                 "pro": "Cao cấp",
                 "upgrade": "Nâng cấp lên Cao cấp"
+            },
+            "limitedSettings": {
+                "configure": "Cấu hình",
+                "title": "Thiết lập giới hạn truy cập",
+                "introduction": "Cấu hình người dùng có quyền truy cập hạn chế có thể thấy",
+                "requiresExtension": "Yêu cầu tiện ích mở rộng {extension}"
+            },
+            "settings": {
+                "limitedIpAddress": "Xem địa chỉ IP"
             }
         },
         "forum": {
             "link": {
+                "all-audit": "Nhật ký kiểm tra",
                 "discussion-audit": "Nhật ký kiểm tra",
                 "user-audit": "Nhật ký kiểm tra (chỉnh sửa tài khoản)",
                 "actor-audit": "Nhật ký kiểm tra (người dùng với tư cách là tác nhân)"
             },
             "modal": {
+                "all-title": "Nhật ký kiểm tra",
                 "discussion-title": "Nhật ký kiểm tra cuộc thảo luận",
                 "user-title": "Nhật ký kiểm tra người dùng",
-                "actor-title": ""
+                "actor-title": "Nhật ký kiểm tra tác nhân"
             }
         },
         "lib": {
@@ -73,71 +85,71 @@
                     "locked": "Đã khoá cuộc thảo luận {discussion}",
                     "renamed": "Đã đổi tên cuộc thảo luận từ {old_title} thành {new_title}",
                     "restored": "Đã khôi phục cuộc thảo luận {discussion}",
-                    "split_away": "",
-                    "split_into": "",
-                    "stickied": "",
-                    "tagged": "",
-                    "unlocked": "",
-                    "unstickied": "",
-                    "user_changed": ""
+                    "split_away": "Tách {post_count} bài viết khỏi cuộc thảo luận {discussion}",
+                    "split_into": "Tách {post_count} bài viết vào cuộc thảo luận mới {discussion}",
+                    "stickied": "Đã ghim cuộc thảo luận {discussion}",
+                    "tagged": "Đã cập nhật thẻ của {discussion} từ {old_tags} thành {new_tags}",
+                    "unlocked": "Đã mở khoá cuộc thảo luận {discussion}",
+                    "unstickied": "Đã bỏ gắn thẻ cuộc thảo luận {discussion}",
+                    "user_changed": "Đã đổi tác giả cuộc thảo luận {discussion} từ {old_user} thành {new_user}"
                 },
                 "extension": {
-                    "disabled": "",
-                    "enabled": ""
+                    "disabled": "Đã tắt tiện ích mở rộng {package}",
+                    "enabled": "Đã bật tiện ích mở rộng {package}"
                 },
                 "fof_ban_ips": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "Đã cấm ip {ip}",
+                    "unbanned": "Đã mở cấm ip {ip}"
                 },
-                "permission_changed": "",
+                "permission_changed": "Đã chỉnh sửa quyền {permission} từ {old_groups} thành {new_groups}",
                 "post": {
-                    "approved": "",
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "dismissed_flags": "",
-                    "edit_date_changed": "",
-                    "flagged": "",
-                    "hidden": "",
-                    "restored": "",
-                    "revised": "",
-                    "user_changed": ""
+                    "approved": "Đã chấp nhận bài viết {post} của {postuser} trong {discussion}",
+                    "created": "Đã đăng {post} trong {discussion}",
+                    "create_date_changed": "Đã đổi ngày đăng {post} của {postuser} từ {old_date} thành {new_date}",
+                    "deleted": "Đã xoá {post} của {postuser} trong {discussion}",
+                    "dismissed_flags": "Đã bỏ gắn cờ trên {post} của {postuser} trong {discussion}",
+                    "edit_date_changed": "Đã đổi ngày sửa {post} của {postuser} từ {old_date} thành {new_date}",
+                    "flagged": "Đã gắn cờ {post} của {postuser} vì {reason} trong {discussion}",
+                    "hidden": "Đã ẩn {post} của {postuser} trong {discussion}",
+                    "restored": "Đã khôi phục {post} của {postuser} trong {discussion}",
+                    "revised": "Đã sửa đổi {post} của {postuser} trong {discussion}",
+                    "user_changed": "Đã đổi người đăng {post} từ {old_user} thành {new_user}"
                 },
-                "setting_changed": "",
-                "setting_changed_with_values": "",
+                "setting_changed": "Đã sửa cài đặt {key}",
+                "setting_changed_with_values": "Đã chỉnh sửa cài đặt {key} từ {old_value} thành {new_value}",
                 "tag": {
-                    "created": "",
-                    "deleted": "",
-                    "updated": ""
+                    "created": "Đã tạo thẻ {tag}",
+                    "deleted": "Đã xoá thẻ {tag}",
+                    "updated": "Đã cập nhật thẻ {tag}"
                 },
                 "user": {
-                    "activated": "",
-                    "activated_with_email": "",
-                    "avatar_changed": "",
-                    "avatar_removed": "",
-                    "bio_changed": "",
-                    "created": "",
-                    "deleted": "",
-                    "email_changed": "",
-                    "email_change_requested": "",
-                    "groups_changed": "",
-                    "impersonated": "",
-                    "logged_in": "",
-                    "logged_in_with_provider": "",
-                    "logged_out": "",
-                    "nickname_changed": "",
-                    "nickname_requested": "",
-                    "nickname_request_approved": "",
-                    "nickname_request_rejected": "",
-                    "password_changed": "",
-                    "password_change_requested": "",
-                    "provider_connected": "",
-                    "suspended": "",
-                    "unsuspended": "",
-                    "username_changed": "",
-                    "username_requested": "",
-                    "username_request_approved": "",
-                    "username_request_rejected": ""
+                    "activated": "Đã kích hoạt thủ công tài khoản của {username}",
+                    "activated_with_email": "{username} đã kích hoạt tài khoản thông qua liên kết xác thực",
+                    "avatar_changed": "{username} đã đổi ảnh đại diện",
+                    "avatar_removed": "{username} đã gỡ ảnh đại diện",
+                    "bio_changed": "{username} đã chỉnh sửa tiểu sử",
+                    "created": "Đã tạo tài khoản {username}",
+                    "deleted": "Đã xoá {username}",
+                    "email_changed": "Đã đổi email của {username} từ {old_email} thành {new_email}",
+                    "email_change_requested": "{username} đã yêu cầu đổi email thành {new_email}",
+                    "groups_changed": "Đã đổi nhóm của {username} từ {old_groups} thành {new_groups}",
+                    "impersonated": "Đã mạo danh {username}",
+                    "logged_in": "Đã đăng nhập vào tài khoản {username}",
+                    "logged_in_with_provider": "Đã đăng nhập vào tài khoản {username} bằng {provider}",
+                    "logged_out": "Đã đăng xuất tài khoản {username}",
+                    "nickname_changed": "Đã đổi biệt hiệu của {username} từ {old_nickname} thành {new_nickname}",
+                    "nickname_requested": "Đã yêu cầu biệt hiệu mới {new_nickname} cho người dùng {username}",
+                    "nickname_request_approved": "Đã chấp nhận thay đổi biệt hiệu của {username} từ {old_nickname} thành {new_nickname}",
+                    "nickname_request_rejected": "Đã từ chối thay đổi biệt hiệu của {username}",
+                    "password_changed": "Đã thay đổi mật khẩu của {username}",
+                    "password_change_requested": "Đã yêu cầu thay đổi mật khẩu của {username}",
+                    "provider_connected": "Đã kết nối nhà cung cấp {provider} với tài khoản {username}",
+                    "suspended": "Đã cấm {username} cho đến {until}",
+                    "unsuspended": "Đã bỏ cấm {username}",
+                    "username_changed": "Đã thay đổi tên người dùng của {username} từ {old_username} thành {new_username}",
+                    "username_requested": "Đã yêu cầu tên người dùng mới {new_username} cho người dùng {username}",
+                    "username_request_approved": "Đã chấp thuận thay đổi tên người dùng của {username} từ {old_username} thành {new_username}",
+                    "username_request_rejected": "Đã từ chối thay đổi tên người dùng của {username}"
                 }
             }
         }
