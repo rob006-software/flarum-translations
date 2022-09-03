@@ -38,6 +38,7 @@ return [
 	'subasteve/flarum-ext-hljs',
 	'subasteve/flarum-ext-mailing',
 	'swaggymacro/websocket',
+	'whydesd/reply-to-see',
 	'william0wang/flarum-imgur-upload',
 	'zouyonghao/flarum-es',
 	/*
