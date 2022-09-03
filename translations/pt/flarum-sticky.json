@@ -1,0 +1,25 @@
+{
+    "flarum-sticky": {
+        "admin": {
+            "permissions": {
+                "sticky_discussions_label": "Discussões fixadas"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "=> flarum-sticky.ref.sticky"
+            },
+            "discussion_controls": {
+                "sticky_button": "Fixar",
+                "unsticky_button": "Desafixar"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "{username} fixou a discussão.",
+                "discussion_unstickied_text": "{username} desafixou a discussão."
+            }
+        },
+        "ref": {
+            "sticky": "Fixada"
+        }
+    }
+}

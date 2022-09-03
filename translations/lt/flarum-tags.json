@@ -6,54 +6,55 @@
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
-                "delete_tag_button": "Delete Tag",
-                "delete_tag_confirmation": "Are you sure you want to delete this tag? The tag's discussions will NOT be deleted.",
-                "description_label": "Description",
-                "hide_label": "Hide from All Discussions",
+                "delete_tag_button": "Pašalinti žymą",
+                "delete_tag_confirmation": "Ar tikrai norite ištrinti šią žymą? Žymos diskusijos NEBUS ištrintos.",
+                "description_label": "Aprašymas",
+                "hide_label": "Slėpti nuo visų diskusijų",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "=> flarum-tags.ref.name",
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Slug",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Create Tag"
+                "title": "Sukurti žymą"
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
-                "tags_text": "Manage the list of tags available to organise discussions with."
+                "tags_text": "Tvarkykite žymų, su kuriomis galite organizuoti diskusijas, sąrašą."
             },
             "permissions": {
-                "allow_edit_tags_label": "Allow tag editing",
-                "bypass_tag_counts_label": "",
-                "restrict_by_tag_heading": "Restrict by Tag",
-                "tag_discussions_label": "Tag discussions"
+                "allow_edit_tags_label": "Leisti redaguoti žymą",
+                "bypass_tag_counts_label": "Apeiti žymos reikalavimus",
+                "restrict_by_tag_heading": "Apriboti pagal žymą",
+                "tag_discussions_label": "Pažymėkite diskusijas"
             },
             "tag_settings": {
-                "range_separator_text": " to ",
-                "required_primary_heading": "Required Number of Primary Tags",
-                "required_primary_text": "Enter the minimum and maximum number of primary tags that may be applied to a discussion.",
-                "required_secondary_heading": "Required Number of Secondary Tags",
-                "required_secondary_text": "Enter the minimum and maximum number of secondary tags that may be applied to a discussion.",
-                "title": "Tag Settings"
+                "range_separator_text": " į ",
+                "required_primary_heading": "Būtinas pirminių žymų skaičius",
+                "required_primary_text": "Įveskite mažiausią ir didžiausią pagrindinių žymų, kurios gali būti pritaikytos diskusijai, skaičių.",
+                "required_secondary_heading": "Reikalingas antrinių žymų skaičius",
+                "required_secondary_text": "Įveskite mažiausią ir didžiausią antrinių žymų, kurios gali būti pritaikytos diskusijai, skaičių.",
+                "title": "Žymės nustatymai"
             },
             "tags": {
-                "about_tags_text": "Tags are used to categorize discussions. Primary tags are like traditional forum categories: they can be arranged in a two-level hierarchy. Secondary tags do not have hierarchy or order, and are useful for micro-categorization.",
-                "create_primary_tag_button": "Create Primary Tag",
-                "create_secondary_tag_button": "Create Secondary Tag",
-                "primary_heading": "Primary Tags",
-                "secondary_heading": "Secondary Tags",
-                "settings_heading": "Settings"
+                "about_tags_text": "Žymos naudojamos diskusijoms skirstyti į kategorijas. Pirminės žymos yra kaip tradicinės forumo kategorijos: jas galima suskirstyti į dviejų lygių hierarchiją. Antrinės žymos neturi hierarchijos ar tvarkos ir yra naudingos mikrokategorijoms.",
+                "create_primary_tag_button": "Sukurkite pirminę žymą",
+                "create_secondary_tag_button": "Sukurkite antrinę žymą",
+                "primary_heading": "Pirminės žymos",
+                "secondary_heading": "Antrinės žymos",
+                "settings_heading": "Nustatymai"
             }
         },
         "forum": {
             "all_tags": {
-                "meta_description_text": "Visos etiketės",
+                "meta_description_text": "Visos žymės",
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "choose_primary_placeholder": "Pasirinkite pagrindinę etiketę|Pasirinkite {count} pagrindines etiketes",
-                "choose_secondary_placeholder": "Pasirinkite dar 1 etiketę|Pasirinkite dar {count} etiketes",
-                "edit_title": "Redaguoti etiketes {title} temai",
+                "bypass_requirements": "Apeiti žymos reikalavimus",
+                "choose_primary_placeholder": "{count, plural, one {Choose a primary tag} other {Choose # primary tags}}",
+                "choose_secondary_placeholder": "{count, plural, one {Pasirinkite dar 1 žymą} other {Pasirinkite dar # žymas}}",
+                "edit_title": "Redaguoti žymes {title} temai",
                 "submit_button": "=> core.ref.okay",
                 "title": "Pasirinkite etiketes jūsų temai"
             },
@@ -75,7 +76,7 @@
                 "added_and_removed_tags_text": "{username} pridėjo {tagsAdded} šias ir pašalino {tagsRemoved} šias etiketes.",
                 "added_tags_text": "{username} pridėjo {tagsAdded} šias etiketes.",
                 "removed_tags_text": "{username} pašalino {tagsRemoved} šias etiketes.",
-                "tags_text": "Etiketė {tags}|Etiketės {tags}"
+                "tags_text": "{count, plural, one {{tags} žyma} other {{tags} žymės}}"
             },
             "tag": {
                 "meta_description_text": "Visos temos su {tag} etikete"
@@ -86,7 +87,7 @@
         },
         "ref": {
             "name": "Pavadinimas",
-            "tags": "Etiketės"
+            "tags": "Žymės"
         }
     }
 }

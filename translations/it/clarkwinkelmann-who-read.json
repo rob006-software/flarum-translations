@@ -11,9 +11,9 @@
                 "info": "E altri {count}"
             },
             "footer": {
-                "read-this-post": "{0} Nessuno ha letto questo post|{1} Un utente ha letto questo post|]1,Inf] {count} utenti hanno letto questo post",
-                "read-no-further": "{0} Tutti hanno letto oltre | {1} Un utente non ha letto oltre |] 1, Inf] {count} non hanno letto oltre",
-                "read-to-end": "{0} Nessuno ha letto fino alla fine | {1} Un utente ha letto fino alla fine |] 1, Inf] {count} utenti hanno letto fino alla fine"
+                "read-this-post": "{count, plural, =0 {Nessuno ha letto questo post} one {Un utente ha letto questo post} other {# utenti hanno letto questo post}}",
+                "read-no-further": "{count, plural, =0 {Tutti hanno letto oltre} one {Un utente non ha letto oltre} other {# non hanno letto oltre}}",
+                "read-to-end": "{count, plural, =0 {Nessuno ha letto fino alla fine} one {Un utente ha letto fino alla fine} other {#utenti non hanno letto fino alla fine}}"
             },
             "controls": {
                 "set-unread": "Segna come non letto",

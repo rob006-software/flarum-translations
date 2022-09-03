@@ -1,0 +1,16 @@
+{
+    "blomstra-s3-assets": {
+        "admin": {
+            "settings": {
+                "configured_by_environment": "Your bucket settings have been pre-configured, nothing to see here.",
+                "aws-section": "These settings are required for both AWS S3 and S3-compatible buckets",
+                "s3-compatible-section": "These settings are only required for S3-compatible buckets",
+                "s3-compatible-section-help": "Leave these settings blank if using AWS S3",
+                "s3key": {
+                    "label": "Key",
+                    "help": "help"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "flarum-akismet": {
+        "admin": {
+            "akismet_settings": {
+                "api_key_label": "API avain",
+                "title": "Akismet asetukset",
+                "delete_blatant_spam_label": "Poista automaattisesti julkea roskaposti",
+                "delete_blatant_spam_help": "Jos Akismet huomaa viestin roskapostiksi, merkitsemisen sijasta automaattisesti poista viesti"
+            },
+            "permissions": {
+                "bypass_akismet": "Ohita Akismet"
+            }
+        },
+        "forum": {
+            "post": {
+                "akismet_flagged_text": "Akismet merkitsi roskapostiksi",
+                "not_spam_button": "Ei roskapostia"
+            }
+        }
+    }
+}

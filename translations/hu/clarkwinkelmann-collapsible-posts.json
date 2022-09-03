@@ -1,0 +1,38 @@
+{
+    "clarkwinkelmann-collapsible-posts": {
+        "admin": {
+            "settings": {
+                "reasons": "Okok",
+                "header": {
+                    "key": "Egyéni adatbáziskulcs",
+                    "label": "Címke",
+                    "explanation": "Egyéni magyarázószöveg"
+                },
+                "add": "Új ok",
+                "explanationUrl": "Magyarázat webcíme",
+                "explanationUrlHelp": "Nem kötelező. Az összecsukott bejegyzések alatt jelenik meg."
+            },
+            "permission": {
+                "collapse": "Bejegyzések összecsukása"
+            }
+        },
+        "forum": {
+            "postControl": {
+                "collapse": "Összecsukás",
+                "uncollapse": "Kibontás"
+            },
+            "modal": {
+                "title": "Bejegyzés összecsukása",
+                "uncollapse": "Kibontás"
+            },
+            "badge": {
+                "post": "Összecsukott"
+            },
+            "stream": {
+                "hidden": "{count, plural, one {#} other {#}} bejegyzés elrejtve a következő ok miatt: {reason}",
+                "load": "Továbbiak betöltése",
+                "explanation": "Miért látja ezt?"
+            }
+        }
+    }
+}

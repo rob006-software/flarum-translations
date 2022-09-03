@@ -2,7 +2,7 @@
     "flarum-likes": {
         "admin": {
             "permissions": {
-                "like_posts_label": "Like posts"
+                "like_posts_label": "پست ها را لایک کنید"
             }
         },
         "forum": {
@@ -13,7 +13,7 @@
             "post": {
                 "like_link": "پسندیدم",
                 "liked_by_self_text": "{users} این پست را پسندیدند.",
-                "liked_by_text": "{users} این پست را پسندید.|{users} این پست را پسندیدند.",
+                "liked_by_text": "{count, plural, one {{users} این پست را پسندید} other {{users} این پست را پسندیدند}}.",
                 "others_link": "=> core.ref.some_others",
                 "unlike_link": "نپسندیدم",
                 "you_text": "=> core.ref.you"

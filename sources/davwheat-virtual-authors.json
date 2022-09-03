@@ -1,0 +1,89 @@
+{
+    "davwheat-virtual-authors": {
+        "admin": {
+            "permissions": {
+                "set_virtual_authors": "Set virtual authors on discussions",
+                "view_virtual_authors_page": "View page detailing all virtual authors"
+            },
+            "settings": {
+                "errored": "Failed to load virtual authors from the server.",
+                "create_new": "Create new virtual author",
+                "auto_save_message": "Creating new and editing existing virtual authors are saved automatically.",
+                "search_placeholder": "Search by name",
+                "link_to_va_from_discussion": "Show link to all discussions by a virtual author in the 'Authors' box",
+                "authors_in_sidebar": "Show authors in sidebar instead of above first post",
+                "authors_in_sidebar_help": "This has no effect for the Blog extension.",
+                "virtual_authors_page_disabled": "Disable the virtual authors list for all users.",
+                "virtual_authors_page_disabled_help": "This overrides any permissions set for this feature.",
+                "discussion_badge": "Show badge on discussions with Virtual Authors",
+                "prev": "Previous page",
+                "next": "Next page"
+            },
+            "virtual_author_item": {
+                "id": "ID",
+                "name": "Display name",
+                "description": "Description",
+                "no_description": "=> davwheat-virtual-authors.ref.no_description",
+                "edit": "Edit virtual author",
+                "delete_confirmation": "Delete virtual author?",
+                "delete_a11y_tooltip": "Delete"
+            }
+        },
+        "lib": {
+            "edit_modal": {
+                "title_edit": "Edit virtual author",
+                "title_new": "New virtual author",
+                "submit_edit": "Save changes",
+                "submit_new": "Create virtual author",
+                "fields": {
+                    "name": "Display name",
+                    "description": "Description (about author)"
+                }
+            },
+            "discussion-badge": "{count, plural, one {Has virtual author}, other {Has virtual authors}}"
+        },
+        "forum": {
+            "virtual_author_page": {
+                "meta_title": "{displayName} - Authors",
+                "credited_discussions": "Discussions credited to {displayName}",
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count"
+            },
+            "virtual_authors_list": {
+                "sidebar_link": "Authors",
+                "empty_text": "It seems that there are no authors here.",
+                "title": "All authors",
+                "meta_title": "All authors",
+                "filter_name_placeholder": "Filter by name",
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count",
+                "no_description": "This author keeps an air of mystery about them."
+            },
+            "virtual_authors_panel": {
+                "heading": "Authors",
+                "error": "Failed to load authors.",
+                "item_link_tooltip": "View all discussions by {displayName}"
+            },
+            "discussion_controls": {
+                "set_virtual_authors": "Set virtual authors"
+            },
+            "set_modal": {
+                "title": "Set virtual authors",
+                "existing": "Current virtual authors",
+                "add_new": "Choose new virtual authors",
+                "none_existing": "No virtual authors selected.",
+                "search": "Search for virtual author",
+                "credit_placeholder": "Credit (optional)",
+                "delete_confirmation": "Remove virtual author from discussion?",
+                "delete_button": "Remove",
+                "add_button": "Add",
+                "added_button": "Added",
+                "no_description": "=> davwheat-virtual-authors.ref.no_description",
+                "virtual_author_exists": "Already selected!",
+                "save": "Save changes"
+            }
+        },
+        "ref": {
+            "no_description": "(no description set)",
+            "discussion_count": "{count, plural, one {# discussion}, other {# discussions}}"
+        }
+    }
+}

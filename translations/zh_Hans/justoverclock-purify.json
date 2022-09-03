@@ -1,15 +1,15 @@
 {
     "flarum-ext-purify": {
         "forum": {
-            "obscure": ""
+            "obscure": "[敏感词]"
         },
         "admin": {
-            "additem": "",
-            "additemdesc": "",
-            "hidemail": "",
-            "customreg": "",
-            "customregexp": "",
-            "customregexpdesc": ""
+            "additem": "敏感词表",
+            "additemdesc": "多个敏感词用英文逗号分隔，暂不支持中文（如：Tom,Dick,Harry）",
+            "hidemail": "自动隐藏邮箱地址",
+            "customreg": "启用正则匹配",
+            "customregexp": "正则表达式",
+            "customregexpdesc": "输入正则表达式，支持中文。如 「(flarum|best|extension)」匹配三个单词"
         }
     }
 }

@@ -1,0 +1,93 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Tegni o'chirish",
+                "delete_tag_confirmation": "Haqiqatan ham bu tegni oʻchirib tashlamoqchimisiz? Teg muhokamalari o'chirilmaydi.",
+                "description_label": "Tavsif",
+                "hide_label": "Barcha muhokamalardan bekitish",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Yo'l",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Teg yaratish"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Muhokamalarni tashkil qilish uchun mavjud teglar roʻyxatini boshqaring."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "Teglarni tahrirlashga ruxsat bering",
+                "bypass_tag_counts_label": "Teg talablarini chetlab o'tish",
+                "restrict_by_tag_heading": "Teg bilan cheklash",
+                "tag_discussions_label": "Teg muhokamalari"
+            },
+            "tag_settings": {
+                "range_separator_text": " ga ",
+                "required_primary_heading": "Birlamchi teglarning talab qilinadigan soni",
+                "required_primary_text": "Muhokama uchun qo'llanilishi mumkin bo'lgan asosiy teglarning minimal va maksimal sonini kiriting.",
+                "required_secondary_heading": "Ikkilamchi teglarning talab qilinadigan soni",
+                "required_secondary_text": "Muhokama uchun qo'llanilishi mumkin bo'lgan ikkilamchi teglarning minimal va maksimal sonini kiriting.",
+                "title": "Teg sozlamalari"
+            },
+            "tags": {
+                "about_tags_text": "Teglar muhokamalarni turkumlashtirish uchun ishlatiladi. Birlamchi teglar an'anaviy forum toifalariga o'xshaydi: ular ikki darajali ierarxiyada tartibga solinishi mumkin. Ikkilamchi teglar ierarxiya yoki tartibga ega emas va mikro-toifalash uchun foydalidir.",
+                "create_primary_tag_button": "Asosiy teg yaratish",
+                "create_secondary_tag_button": "Ikkilamchi teg yarating",
+                "primary_heading": "Asosiy teglar",
+                "secondary_heading": "Ikkilamchi teglar",
+                "settings_heading": "Sozlamalar"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "Barcha teglar",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "{hisoblash, koʻplik, bitta {Asosiy tegni tanlang} other {# ta asosiy tegni tanlang}}",
+                "choose_secondary_placeholder": "{hisoblash, koʻplik, bitta {Yana 1 ta tegni tanlang} other {Yana # tegni tanlang}}",
+                "edit_title": "{title} uchun teglarni tahrirlash",
+                "submit_button": "=> core.ref.okay",
+                "title": "Muhokamangiz uchun teglarni tanlang"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "Teglarni tanlang"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "Teglarni tahrirlash"
+            },
+            "header": {
+                "back_to_tags_tooltip": "Teglar roʻyxatiga qaytish"
+            },
+            "index": {
+                "more_link": "Yana...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Tagda emas"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username} {tagsAdded} ni qo‘shdi va {tagsRemoved} ni olib tashladi.",
+                "added_tags_text": "{username} {tagsAdded} ni qo‘shdi.",
+                "removed_tags_text": "{username} {tagsRemoved} faylini olib tashladi.",
+                "tags_text": "{hisob, koʻplik, bitta {{tags} teg} other {{tags} teg}}"
+            },
+            "tag": {
+                "meta_description_text": "{tag} tegi bilan barcha muhokamalar"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "O'chirilgan"
+        },
+        "ref": {
+            "name": "Nomi",
+            "tags": "Teglar"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "blomstra-user-filter": {
+        "admin": {
+            "settings": {
+                "intro": "没有<code>搜索用户</code>权限的用户将无法看到搜索框。",
+                "min_length": "最小搜索关键词字符数",
+                "result_count": "最大搜索建议数"
+            }
+        },
+        "forum": {
+            "index_page": {
+                "filter_user": {
+                    "accessible_label": "筛选作者",
+                    "all": "全部",
+                    "label": "筛选作者：{text}",
+                    "search_label": "搜索中……",
+                    "no_results": "未找到任何内容",
+                    "start_typing": "搜索……",
+                    "keep_typing": "请继续……",
+                    "remove_filter": "清除作者筛选"
+                }
+            }
+        }
+    }
+}

@@ -4,48 +4,48 @@
             "appearance": {
                 "colored_header_label": "ترويسة ملونة",
                 "colors_heading": "الألوان",
-                "colors_text": "",
-                "custom_footer_heading": "",
-                "custom_footer_text": "",
-                "custom_header_heading": "",
-                "custom_header_text": "",
-                "custom_styles_heading": "",
-                "custom_styles_text": "",
+                "colors_text": "اختر لونين أساسيين لاستايل منتداك ، الأول سيكون لون النصوص والثانى لون الخلفي.",
+                "custom_footer_heading": "تذييل مخصص",
+                "custom_footer_text": "=> core.ref.custom_footer_text",
+                "custom_header_heading": "رأس مخصص",
+                "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_heading": "استايلات مخصصة",
+                "custom_styles_text": "قم بتخصيص منتداك عن طريق اضافة ملفات CSS/LESS خاصة ليتم تطبيقها على استايل فلارم الافتراضى.",
                 "dark_mode_label": "الوضع المظلم",
-                "description": "",
-                "edit_css_button": "",
-                "edit_footer_button": "",
-                "edit_header_button": "",
-                "enter_hex_message": "",
-                "favicon_heading": "",
-                "favicon_text": "",
-                "logo_heading": "",
-                "logo_text": "",
-                "title": ""
+                "description": "قم بتخصيص ألوان المنتدى والشعارات والمتغيرات الأخرى الخاصة بالمنتدى.",
+                "edit_css_button": "تعديل css مخصص",
+                "edit_footer_button": "=> core.ref.custom_footer_title",
+                "edit_header_button": "=> core.ref.custom_header_title",
+                "enter_hex_message": "الرجاء إدخال رمز الون.",
+                "favicon_heading": "فافيكون",
+                "favicon_text": "قم بتحميل صورة لعرضها كأيقونة اختصار للمنتدى.",
+                "logo_heading": "شعار",
+                "logo_text": "قم بتحميل صورة لعرضها مكان عنوان المنتدى.",
+                "title": "المظهر"
             },
             "basics": {
-                "all_discussions_label": "",
-                "default_language_heading": "",
-                "description": "",
-                "display_name_heading": "",
-                "display_name_text": "",
-                "forum_description_heading": "",
+                "all_discussions_label": "=> core.ref.all_discussions",
+                "default_language_heading": "اللغة الافتراضية",
+                "description": "قم بتعيين عنوان المنتدى واللغة والإعدادات الأساسية الأخرى.",
+                "display_name_heading": "‏‏اسم العرض للمستخدم",
+                "display_name_text": "حدد برنامج التشغيل الذي يجب استخدامه لأسماء عرض المستخدمين. يتم عرض اسم المستخدم بشكل افتراضي.",
+                "forum_description_heading": "وصف المنتدى",
                 "forum_description_text": "",
-                "forum_title_heading": "",
-                "home_page_heading": "",
+                "forum_title_heading": "عنوان المنتدى",
+                "home_page_heading": "الصفحة الرئيسية",
                 "home_page_text": "",
                 "show_language_selector_label": "",
                 "slug_driver_heading": "",
                 "slug_driver_text": "",
                 "title": "",
-                "welcome_banner_heading": "",
+                "welcome_banner_heading": "بانر ترحيبى",
                 "welcome_banner_text": ""
             },
             "dashboard": {
                 "clear_cache_button": "",
                 "description": "",
-                "title": "",
-                "tools_button": ""
+                "title": "لوحة المعلومات",
+                "tools_button": "أدوات"
             },
             "edit_css": {
                 "customize_text": "",
@@ -59,97 +59,102 @@
             },
             "edit_group": {
                 "color_label": "",
-                "delete_button": "",
-                "delete_confirmation": "",
+                "delete_button": "حذف مجموعة",
+                "delete_confirmation": "هل أنت متأكد من حذف هذه المجموعة ؟ اعضاء المجموعة لن يتم حذفهم.",
                 "hide_label": "",
                 "icon_label": "",
                 "icon_text": "",
                 "name_label": "",
-                "plural_placeholder": "",
+                "plural_placeholder": "الجمع (مثال مشرفين)",
                 "singular_placeholder": "",
                 "submit_button": "",
-                "title": ""
+                "title": "إنشاء مجموعة"
             },
             "edit_header": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
             },
             "email": {
-                "addresses_heading": "",
+                "addresses_heading": "العناوين",
                 "description": "",
                 "driver_heading": "",
                 "driver_label": "",
-                "from_label": "",
-                "mail_encryption_label": "",
-                "mail_host_label": "",
-                "mail_mailgun_domain_label": "",
-                "mail_mailgun_region_label": "",
-                "mail_mailgun_secret_label": "",
-                "mail_password_label": "",
-                "mail_port_label": "",
-                "mail_username_label": "",
+                "from_label": "‏‏المرسل",
+                "mail_encryption_label": "التشفير",
+                "mail_host_label": "مضيف",
+                "mail_mailgun_domain_label": "‏‏مجال",
+                "mail_mailgun_region_label": "المنطقة",
+                "mail_mailgun_secret_label": "المفتاح السري",
+                "mail_password_label": "=> core.ref.password",
+                "mail_port_label": "المنفذ",
+                "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "",
                 "not_sending_message": "",
-                "send_test_mail_button": "",
-                "send_test_mail_heading": "",
+                "send_test_mail_button": "إرسال",
+                "send_test_mail_heading": "إرسال بريد إلكتروني كاختبار",
                 "send_test_mail_success": "",
                 "send_test_mail_text": "",
-                "smtp_heading": "",
-                "title": ""
+                "smtp_heading": "SMTP إعدادات",
+                "title": "=> core.ref.email"
             },
             "extension": {
                 "configure_scopes": "",
-                "confirm_uninstall": "",
-                "disabled": "",
+                "confirm_purge": "",
+                "disabled": "مُعطل",
                 "enable_to_see": "",
                 "enabled": "",
                 "info_links": {
                     "discuss": "",
-                    "documentation": "",
-                    "donate": "",
-                    "source": "",
-                    "support": "",
-                    "website": ""
+                    "documentation": "توثيق",
+                    "donate": "يتبرع",
+                    "source": "مصدر",
+                    "support": "الدعم",
+                    "website": "موقع الكتروني"
                 },
-                "no_permissions": "",
-                "no_settings": "",
+                "no_permissions": "هذا الامتداد ليس لديه أذونات.",
+                "no_settings": "هذا الامتداد ليس له إعدادات.",
                 "open_modal": "",
-                "permissions_title": "",
-                "uninstall_button": ""
+                "permissions_title": "أذونات",
+                "purge_button": "",
+                "readme": {
+                    "button_label": "",
+                    "no_readme": "",
+                    "title": ""
+                }
             },
             "header": {
                 "get_help": "",
                 "log_out_button": ""
             },
             "loading": {
-                "title": ""
+                "title": "أرجو الإنتظار..."
             },
             "nav": {
-                "appearance_button": "",
-                "appearance_title": "",
-                "basics_button": "",
-                "basics_title": "",
+                "appearance_button": "=> core.admin.appearance.title",
+                "appearance_title": "=> core.admin.appearance.description",
+                "basics_button": "=> core.admin.basics.title",
+                "basics_title": "=> core.admin.basics.description",
                 "categories": {
-                    "authentication": "",
-                    "core": "",
-                    "discussion": "",
-                    "feature": "",
-                    "formatting": "",
-                    "language": "",
-                    "moderation": "",
-                    "other": "",
-                    "theme": ""
+                    "authentication": "المصادقة",
+                    "core": "التكوين الأساسي",
+                    "discussion": "مناقشة",
+                    "feature": "سمات",
+                    "formatting": "تنسيق",
+                    "language": "اللغات",
+                    "moderation": "الاعتدال",
+                    "other": "ملحقات أخرى",
+                    "theme": "ثيمات"
                 },
-                "dashboard_button": "",
-                "dashboard_title": "",
-                "email_button": "",
-                "email_title": "",
-                "permissions_button": "",
-                "permissions_title": "",
-                "userlist_button": "",
-                "userlist_title": "",
-                "search_placeholder": ""
+                "dashboard_button": "=> core.admin.dashboard.title",
+                "dashboard_title": "=> core.admin.dashboard.description",
+                "email_button": "=> core.ref.email",
+                "email_title": "=> core.admin.email.description",
+                "permissions_button": "=> core.admin.permissions.title",
+                "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
+                "search_placeholder": "امتدادات البحث"
             },
             "permissions": {
                 "allow_post_editing_label": "",
@@ -173,8 +178,8 @@
                 "rename_discussions_label": "",
                 "reply_to_discussions_label": "",
                 "search_users_label": "",
-                "sign_up_label": "",
-                "start_discussions_label": "",
+                "sign_up_label": "تسجيل حساب",
+                "start_discussions_label": "موضوع جديد",
                 "title": "",
                 "view_forum_label": "",
                 "view_hidden_groups_label": "",
@@ -189,7 +194,7 @@
                 "everyone_button": "",
                 "members_button": "",
                 "signup_closed_button": "",
-                "signup_open_button": ""
+                "signup_open_button": "فتح"
             },
             "settings": {
                 "saved_message": "",
@@ -296,9 +301,10 @@
             "discussion_list": {
                 "empty_text": "",
                 "load_more_button": "",
-                "mark_as_read_tooltip": "",
                 "replied_text": "",
-                "started_text": ""
+                "started_text": "",
+                "total_replies_a11y_label": "",
+                "unread_replies_a11y_label": ""
             },
             "forgot_password": {
                 "dismiss_button": "",
@@ -316,7 +322,9 @@
                 "log_in_link": "",
                 "log_out_button": "",
                 "profile_button": "",
+                "search_clear_button_accessible_label": "",
                 "search_placeholder": "",
+                "search_role_label": "",
                 "session_dropdown_accessible_label": "",
                 "settings_button": "",
                 "sign_up_link": ""
@@ -332,34 +340,34 @@
                 "toggle_sidenav_dropdown_accessible_label": ""
             },
             "index_sort": {
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
+                "latest_button": "الاخير",
+                "newest_button": "الاحدث",
+                "oldest_button": "الاقدم",
+                "relevance_button": "ذات صلة",
                 "toggle_dropdown_accessible_label": "",
-                "top_button": ""
+                "top_button": "اعلى"
             },
             "log_in": {
-                "forgot_password_link": "",
-                "invalid_login_message": "",
-                "password_placeholder": "",
-                "remember_me_label": "",
+                "forgot_password_link": "نسيت كلمة السر ؟",
+                "invalid_login_message": "معلومات تسجيل دخولك غير صحيحة.",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "تذكر بياناتي",
                 "sign_up_text": "",
-                "submit_button": "",
-                "title": "",
-                "username_or_email_placeholder": ""
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in",
+                "username_or_email_placeholder": "اسم المتخدم او البريد الالكترونى"
             },
             "notifications": {
                 "discussion_renamed_text": "",
-                "empty_text": "",
-                "mark_all_as_read_tooltip": "",
-                "mark_as_read_tooltip": "",
-                "title": "",
-                "toggle_dropdown_accessible_label": "",
-                "tooltip": ""
+                "empty_text": "لا توجد إعلامات",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "mark_as_read_tooltip": "وضع علامة كمقروء",
+                "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "عرض الإخطارات",
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
-                "edited_text": "",
+                "edited_text": "تم التحرير",
                 "edited_tooltip": "",
                 "number_tooltip": ""
             },
@@ -441,10 +449,17 @@
             "user_email_confirmation": {
                 "alert_message": "",
                 "resend_button": "",
-                "sent_message": ""
+                "sent_message": "إرسال"
+            },
+            "welcome_hero": {
+                "hide": ""
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": ""
             },
@@ -462,18 +477,32 @@
                 "submit_button": "",
                 "title": "",
                 "username_heading": "",
-                "username_label": ""
+                "username_label": "",
+                "nothing_available": ""
             },
             "error": {
                 "dependent_extensions_message": "",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "",
                 "missing_dependencies_message": "",
                 "not_found_message": "",
+                "payload_too_large_message": "",
                 "permission_denied_message": "",
-                "rate_limit_exceeded_message": ""
+                "rate_limit_exceeded_message": "",
+                "render_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "",
@@ -489,6 +518,26 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
+            "confirm_email": {
+                "submit_button": "",
+                "text": "",
+                "title": ""
+            },
             "content": {
                 "javascript_disabled_message": "",
                 "load_error_message": "",
@@ -552,6 +601,7 @@
             "change_password": "",
             "color": "",
             "confirm_password": "",
+            "confirm_email": "",
             "confirmation_email_sent": "",
             "custom_footer_text": "",
             "custom_footer_title": "",
@@ -563,6 +613,7 @@
             "edit": "",
             "edit_user": "",
             "email": "",
+            "extensions": "",
             "icon": "",
             "icon_text": "",
             "load_more": "",

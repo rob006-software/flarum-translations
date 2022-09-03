@@ -1,0 +1,57 @@
+{
+    "fof-user-directory": {
+        "forum": {
+            "header": {
+                "back_to_user_directory_tooltip": "Zurück zum Benutzerverzeichnis"
+            },
+            "search": {
+                "users_heading": "Durchsuche alle Benutzer nach \"{query}\"",
+                "field": {
+                    "placeholder": "Alle Nutzer durchsuchen"
+                },
+                "kinds": {
+                    "group": "Gruppe",
+                    "text": "Freier Text"
+                }
+            },
+            "page": {
+                "nav": "Benutzerverzeichnis",
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "Wir konnten keinen Benutzer finden, der deiner Suche entspricht.",
+                "filter_button": "Gruppen Filtern",
+                "usercard": {
+                    "discussion-count": "{count, plural, one { {count} Diskussion} other {{count} Diskussionen}}",
+                    "post-count": "{count, plural, one { {count} Beitrag} other {{count} Beiträge}}"
+                }
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view_user_directory": "Benutzerverzeichnis anzeigen"
+            },
+            "settings": {
+                "link": "Link auf der Homepage hinzufügen, damit Benutzer das Verzeichnis sehen können",
+                "default-sort": "Standard-Sortierung",
+                "use-small-cards": "Verwende kleine Nutzer-Karten",
+                "disable-global-search-source": "Benutzerverzeichnis nicht zum globalen Suchfeld von Flarum hinzufügen"
+            }
+        },
+        "lib": {
+            "sort": {
+                "not_specified": "Flarum Standard verwenden",
+                "default": "Standard",
+                "username_az": "Nutzername (a-z)",
+                "username_za": "Nutzername (z-a)",
+                "newest": "Neueste",
+                "oldest": "Älteste",
+                "most_posts": "Meiste Beiträge",
+                "least_posts": "Wenigste Beiträge",
+                "most_discussions": "Meiste Diskussionen",
+                "least_discussions": "Wenigste Diskussionen",
+                "seen_recent": "Zuletzt online",
+                "seen_oldest": "Am längsten weg"
+            }
+        }
+    }
+}

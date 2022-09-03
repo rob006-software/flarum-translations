@@ -1,0 +1,96 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "Färg",
+                "delete_tag_button": "Radera tagg",
+                "delete_tag_confirmation": "Är du säker på att du vill radera denna tagg? Trådar med den här taggen kommer INTE att raderas.",
+                "description_label": "Beskrivning",
+                "hide_label": "Göm från Alla Diskussioner",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Kortlänk",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-tags.ref.create_tag"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Justera listan över vilka taggar som är möjliga att organisera trådar med."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "Tillåt redigering av taggar",
+                "bypass_tag_counts_label": "Undantag från tagg-begränsningar",
+                "restrict_by_tag_heading": "Begränsa efter tagg",
+                "tag_discussions_label": "Tagga diskussioner"
+            },
+            "tag_settings": {
+                "range_separator_text": " till ",
+                "required_primary_heading": "Antal primära taggar som krävs",
+                "required_primary_text": "Ange lägsta och högsta antalet primära taggar som måste kopplas till en tråd.",
+                "required_secondary_heading": "Antal sekundära taggar som krävs",
+                "required_secondary_text": "Ange lägsta och högsta antalet sekundära taggar som måste kopplas till en tråd.",
+                "title": "Inställningar för taggar"
+            },
+            "tags": {
+                "about_tags_text": "Taggar används för att kategorisera trådar. Primära taggar är som traditionella forumkategorier: De de kan placeras i en tvåstegshierarki. Sekundära taggar har ingen hierarki eller ordning och är användbara för mikrokategorisering.",
+                "create_primary_tag_button": "",
+                "create_secondary_tag_button": "",
+                "primary_heading": "Primära taggar",
+                "secondary_heading": "Sekundära taggar",
+                "settings_heading": "",
+                "create_tag_button": "=> flarum-tags.ref.create_tag",
+                "settings_button": "Inställningar"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "Alla Taggar",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "Välj en primär tagg|Välj {count} primära taggar",
+                "choose_secondary_placeholder": "Välj 1 tagg till|Välj {count} taggar till",
+                "edit_title": "Redigera taggar för {title}",
+                "submit_button": "=> core.ref.okay",
+                "title": "Välj taggar för din tråd"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "Välj taggar"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "Redigera taggar"
+            },
+            "header": {
+                "back_to_tags_tooltip": "Tillbaka till Taggar"
+            },
+            "index": {
+                "more_link": "Mer...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Omärkta"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username} lade till {tagsAdded} och tog bort {tagsRemoved}.",
+                "added_tags_text": "{username} lade till {tagsAdded}.",
+                "removed_tags_text": "{username} tog bort {tagsRemoved}.",
+                "tags_text": "{tags} tagg|{tags} taggar"
+            },
+            "tag": {
+                "meta_description_text": "Alla trådar med taggen {tag}"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "Raderad"
+        },
+        "ref": {
+            "name": "Namn",
+            "tags": "Taggar",
+            "create_tag": "Skapa tagg"
+        }
+    }
+}

@@ -11,7 +11,8 @@
             "modal": {
                 "title": "Reazioni"
             },
-            "mod_item": "Mostra Reazioni"
+            "mod_item": "Mostra Reazioni",
+            "react_button_label": "Reazione"
         },
         "admin": {
             "permissions": {
@@ -35,6 +36,8 @@
                     "converted": "{number} like sono stati convertiti con successo"
                 },
                 "settings": {
+                    "react_own_posts_help": "Se abilitato, previa autorizzazione, gli utenti possono reagire ai propri post sul forum. Per impedire agli utenti di reagire ai propri post, disabilitare questa impostazione.",
+                    "react_own_posts_label": "Gli utenti possono reagire ai propri post",
                     "save_settings": "Salva Impostazioni",
                     "integrations": {
                         "legend": "Integrazioni",

@@ -1,0 +1,18 @@
+{
+    "clarkwinkelmann-username-blacklist": {
+        "admin": {
+            "settings": {
+                "regex": "Regulären Ausdruck",
+                "regexHelp": "Wechsel von der Domänenliste zur Prüfung auf reguläre Ausdrücke. Jede Zeile der Liste muss ein gültiger regulärer Ausdruck mit Trennzeichen sein.\n",
+                "message": "Benutzerdefinierte Fehlermeldung",
+                "blacklist": "Blacklist",
+                "blacklistHelp": "Ein Ausdruck pro Zeile. Wenn keine Blacklist bereitgestellt wird, wird alles, was nicht auf der Whitelist steht, abgelehnt.\n",
+                "whitelist": "Whitelist",
+                "whitelistHelp": "Ein Ausdruck pro Zeile. Hat Vorrang vor der Blacklist.\n"
+            }
+        },
+        "api": {
+            "fallbackMessage": "Der Benutzername steht nicht auf der Whitelist."
+        }
+    }
+}

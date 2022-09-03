@@ -1,0 +1,23 @@
+{
+    "blomstra-realtime": {
+        "forum": {
+            "push": {
+                "discussion-list-new-activity": "{count, plural, one {נושא מעודכן # להציגה} other {להציג # נושאים מעודכנים}}",
+                "discussion-list-new-activity-with-auto-release": ""
+            },
+            "typing-indicator": {
+                "people-are-typing": "{number, plural, one {משתמש # מקליד} other {# משתמשים מקלידים}}",
+                "no-activity": "אין משתמשים מקלידים כרגע"
+            }
+        },
+        "admin": {
+            "permission": {
+                "view-who-types": "צפיה במי שמקליד עכשיו"
+            },
+            "settings": {
+                "release-discussion-updates-interval": "",
+                "release-discussion-updates-interval-help": ""
+            }
+        }
+    }
+}

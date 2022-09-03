@@ -1,0 +1,11 @@
+{
+    "afrux-forum-widgets-core": {
+        "admin": {
+            "cache_not_writable_warning": "",
+            "settings": {
+                "prefer_data_with_initial_load": "Preferir cargar todos los datos de los widgets con la respuesta inicial de la página.",
+                "prefer_data_with_initial_load_help": "En lugar de cargar los datos del widget después de la carga inicial de la página enviando peticiones a la API, los datos se cargarán (cuando sea posible) con la carga inicial."
+            }
+        }
+    }
+}

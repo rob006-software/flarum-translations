@@ -1,0 +1,51 @@
+{
+    "askvortsov-rich-text": {
+        "admin": {
+            "settings": {
+                "toggle_on_editor": "Megjelenjen a formázott szöveges mód kapcsolója a szerkesztőben?"
+            }
+        },
+        "lib": {
+            "composer": {
+                "toggle_button": "Formázott szöveges mód be/ki",
+                "insert_button": "Beszúrás",
+                "insert_image": {
+                    "src_placeholder": "Hivatkozás",
+                    "title_placeholder": "Cím"
+                },
+                "insert_link": {
+                    "text_placeholder": "Szöveg",
+                    "href_placeholder": "Webcím",
+                    "title_placeholder": "Cím (rámutatásra jelenik meg)",
+                    "remove_button": "Törlés"
+                },
+                "additional_items_tooltip": "További vezérlők",
+                "bold_tooltip": "Félkövér szöveg <{modifierKey}+B>",
+                "code_tooltip": "Soron belüli kód <{modifierKey}+`>",
+                "code_block_tooltip": "Kódblokk beszúrása",
+                "header_tooltip": "Módosítás {level}. szintű címsorra <Shift+{modifierKey}+{level}>",
+                "horizontal_rule_tooltip": "Vízszintes elválasztó beszúrása",
+                "image_tooltip": "Kép beszúrása",
+                "italic_tooltip": "Dőlt szöveg <{modifierKey}+I>",
+                "link_tooltip": "Hivatkozás hozzáadása",
+                "ordered_list_tooltip": "Számozott lista <Shift+{modifierKey}+9>",
+                "paragraph_tooltip": "Módosítás bekezdésre <Shift+{modifierKey}+0>",
+                "quote_tooltip": "Idézet beszúrása <{modifierKey}+Q>",
+                "spoiler_block_tooltip": "Rejtett szöveg vagy legördülő blokk",
+                "spoiler_inline_tooltip": "Rejtett szöveg <{modifierKey}+;>",
+                "strike_tooltip": "Áthúzott <Alt+Shift+5>",
+                "sub_tooltip": "Alsó index <{modifierKey}+,>",
+                "sup_tooltip": "Felső index <{modifierKey}+.>",
+                "text_type_tooltip": "Válasszon szövegtípust",
+                "unordered_list_tooltip": "Felsorolás <Shift+{modifierKey}+8>"
+            }
+        },
+        "forum": {
+            "settings": {
+                "composer_heading": "Szerkesztő",
+                "use_rich_text_editor_label": "Formázott szövegszerkesztő használata?",
+                "rich_text_compact_paragraphs_label": "Ne válassza el a bekezdéseket újsorokkal."
+            }
+        }
+    }
+}

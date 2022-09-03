@@ -1,0 +1,35 @@
+{
+    "clarkwinkelmann-mass-actions": {
+        "forum": {
+            "select": {
+                "all": "Tous",
+                "none": "Aucun",
+                "read": "Lu",
+                "unread": "Non lu",
+                "visible": "Non supprimé",
+                "hidden": "Supprimé sans destruction",
+                "locked": "Verrouillé",
+                "unlocked": "Déverrouillé"
+            },
+            "actions": {
+                "markAsRead": "Marquer comme lu la sélection",
+                "hide": "Supprimer la sélection",
+                "restore": "Restaurer la sélection",
+                "delete": "Supprimer définitivement sélectionné",
+                "deleteConfirmation": "{count, plural, one {Êtes-vous sûr de vouloir supprimer définitivement la discussion sélectionnée ?} other {Êtes-vous sûr de vouloir supprimer définitivement les # discussions sélectionnées ?}}",
+                "lock": "Verrouiller la sélection",
+                "unlock": "Déverrouiller la sélection",
+                "sticky": "Épingler sélectionné",
+                "unsticky": "Non épingler sélectionné",
+                "tags": "Étiquettes",
+                "tags-edit": "Modifier les étiquettes",
+                "tags-add": "Ajouter <em>{tag}</em>"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "controls": "Afficher les commandes de sélection en masse"
+            }
+        }
+    }
+}

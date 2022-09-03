@@ -1,0 +1,158 @@
+{
+    "flamarkt-taxonomies": {
+        "admin": {
+            "menu": {
+                "title": "Taxonómiák",
+                "description": "Egyéni taxonómiák és kifejezések létrehozása."
+            },
+            "page": {
+                "title": "Taxonómiák",
+                "create": {
+                    "taxonomy": "Taxonómia létrehozása",
+                    "term": "Kifejezés létrehozása"
+                },
+                "reset-term-order": "Kifejezéslista visszaállítása betűrendbe"
+            },
+            "edit-taxonomy": {
+                "title": {
+                    "new": "Taxonómia létrehozása",
+                    "edit": "Taxonómia szerkesztése"
+                },
+                "field": {
+                    "type": "Típus",
+                    "typeDescription": "A taxonómiák többféle Flarum erőforrásban használhatók. Létrehozás után a típus nem módosítható. A különböző típusoknál használhat azonos neveket és keresőbarát webcímeket.\n",
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription",
+                    "showLabel": "Taxonómia címkéjének megjelenítése a kifejezéssel együtt",
+                    "showFilter": "Szűrő megjelenítése a kezdőlapon",
+                    "allowCustomValues": "Egyéni értékek engedélyezése",
+                    "customValueValidation": "Egyéni értékek ellenőrzése",
+                    "customValueSlugger": "Keresőbarát webcímkészítő az egyéni értékekhez",
+                    "customValueSluggerDescription": "Válasszon hogyan legyenek a keresőbarát webcímek előállítva. Ha egy webcím már létezik, akkor automatikusan kap egy számszerű előtagot. A Transliterator lehetőség használatához előre fel kell telepítenie és be kell állítania azt a bővítményt.\n",
+                    "countRequired": "Szükséges kifejezések száma",
+                    "countRequiredDescription": "Adja meg, hogy legalább és legfeljebb hány feltételt kell megadni a témákra alkalmazható taxonómiákból.\n",
+                    "rangeSeparatorText": "–",
+                    "tagScope": "",
+                    "tagScopeDescription": "",
+                    "tagScopePlaceholder": ""
+                },
+                "delete": "=> flamarkt-taxonomies.ref.delete",
+                "deleteConfirmation": "Biztos, hogy törli a(z) {name} taxonómiát? A taxonómia alatt lévő összes kifejezés törlésre kerül. A taxonómiát használó témák NEM lesznek törölve.\n",
+                "submit": {
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
+                },
+                "type-options": {
+                    "products": "Termékek",
+                    "discussions": "Témák",
+                    "users": "Felhasználók"
+                },
+                "validation-options": {
+                    "default": "Tetszőleges szöveges érték",
+                    "alpha_num": "Alfanumerikus értékek",
+                    "alpha_dash": "Alfanumerikus értékek és kötőjelek/aláhúzások",
+                    "regex": "Reguláris kifejezés"
+                },
+                "slugger-options": {
+                    "random": "Véletlenszerű azonosító",
+                    "alpha_dash": "ASCII alfanumerikus keresőbarát webcímkészítő",
+                    "transliterator": "A FOF Transliterator bővítmény használata"
+                }
+            },
+            "edit-term": {
+                "title": {
+                    "new": "Kifejezés létrehozása",
+                    "edit": "Kifejezés szerkesztése"
+                },
+                "field": {
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription"
+                },
+                "delete": "=> flamarkt-taxonomies.ref.delete",
+                "deleteConfirmation": "Biztos, hogy törli a(z) {name} kifejezést? A kifejezést használó témák NEM lesznek törölve.\n",
+                "submit": {
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
+                }
+            },
+            "permissions": {
+                "heading": "Taxonómiák",
+                "moderate": "Elérhető taxonómiák beállítása",
+                "bypassTermCounts": "",
+                "seeOwnDiscussion": "Saját témák taxonómiáinak megtekintése",
+                "seeAnyDiscussion": "Összes téma taxonómiáinak megtekintése",
+                "editOwnDiscussion": "Saját témák taxonómiáinak szerkesztése",
+                "editAnyDiscussion": "Összes téma taxonómiáinak szerkesztése",
+                "seeOwnUser": "Saját felhasználó taxonómiáinak megtekintése",
+                "seeAnyUser": "Összes felhasználó taxonómiáinak megtekintése",
+                "editOwnUser": "Saját felhasználó taxonómiáinak szerkesztése",
+                "editAnyUser": "Összes felhasználó taxonómiáinak szerkesztése",
+                "ownDisabledEveryone": "Nem aktivált és felfüggesztett tagok",
+                "ownDisabledMembers": "Aktivált tagok"
+            },
+            "settings": {
+                "goToPage": "Ugrás a beállítóoldalra"
+            }
+        },
+        "forum": {
+            "composer": {
+                "choose": "{taxonomy} választása"
+            },
+            "discussion": {
+                "edit": "{taxonomy} szerkesztése"
+            },
+            "user": {
+                "nav": "Taxonómiák",
+                "edit": "{taxonomy} szerkesztése"
+            },
+            "blog": {
+                "widget": {
+                    "title": ""
+                }
+            }
+        },
+        "lib": {
+            "modal": {
+                "title": {
+                    "new": "{taxonomy} választása a témájához",
+                    "edit": "{taxonomy} szerkesztése a következőhöz: {title}"
+                },
+                "placeholder": "{count, plural, one {Válasszon egy feltételt…} other {Válasszon # feltételt…}}",
+                "placeholderOptional": "Válasszon…",
+                "custom": "{value} használata",
+                "bypassTermCounts": "",
+                "submit": "OK"
+            }
+        },
+        "api": {
+            "error": {
+                "invalid_filter_taxonomy": "Érvénytelen „{type}” taxonómiaszűrő-kulcs: „{slug}”",
+                "discussion_taxonomy_not_in_scope": "",
+                "cannot_use_taxonomies_on_model": ""
+            }
+        },
+        "ref": {
+            "field": {
+                "name": "Név",
+                "slug": "Keresőbarát webcím",
+                "description": "Leírás",
+                "color": "Szín",
+                "icon": "Ikon",
+                "iconDescription": "Adja meg egy tetszőleges <a>FontAwesome</a> ikonosztály nevét, <em>beleértve</em> a <code>fas fa-</code> előtagot is."
+            },
+            "delete": "Törlés",
+            "submit": {
+                "new": "Létrehozás",
+                "edit": "Mentés"
+            }
+        }
+    }
+}

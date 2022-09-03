@@ -1,106 +1,106 @@
 {
     "v17development-flarum-support": {
         "forum": {
-            "knowledge_base": "",
-            "ask_a_question_on_forums": "",
-            "return_to_home": "",
-            "ask_your_question_on_forum": "",
-            "or": "",
-            "settings": "",
-            "send": "",
-            "create": "",
-            "discard": "",
-            "reopen": "",
-            "support_tickets": "",
-            "admin_overview": "",
+            "knowledge_base": "Base de Conhecimento",
+            "ask_a_question_on_forums": "Faça uma pergunta no fórum",
+            "return_to_home": "Voltar para a página inicial da base de conhecimento",
+            "ask_your_question_on_forum": "Faça sua pergunta no fórum",
+            "or": "ou",
+            "settings": "=> core.ref.settings",
+            "send": "Enviar",
+            "create": "Criar",
+            "discard": "Descartar",
+            "reopen": "reabrir",
+            "support_tickets": "Ticket de Suporte",
+            "admin_overview": "Abrir visão geral do administrador",
             "hero": {
-                "help_question": "",
-                "check_forum": ""
+                "help_question": "Em que podemos ajudá-lo?",
+                "check_forum": "Se você não encontrar o que estava procurando, <a>confira nosso fórum</a>"
             },
             "overview": {
-                "knowledge_base_overview": "",
-                "back_to": "",
-                "back_to_overview": "",
-                "back_to_main_categories": "",
-                "loading_articles": "",
-                "no_categories_found": "",
-                "category_not_found": "",
-                "no_articles_found": "",
+                "knowledge_base_overview": "Visão geral da base de conhecimento",
+                "back_to": "Voltar para {category}",
+                "back_to_overview": "Voltar para a visão geral da base de conhecimento",
+                "back_to_main_categories": "Voltar às categorias principais",
+                "loading_articles": "Carregando artigos",
+                "no_categories_found": "Desculpe, nenhuma categoria foi encontrada aqui...",
+                "category_not_found": "Categoria não encontrada",
+                "no_articles_found": "Sem artigos encontrados nesta categoria",
                 "tools": {
-                    "new_article": "",
-                    "rename_category": "",
-                    "edit_description": "",
-                    "change_icon": ""
+                    "new_article": "Novo artigo",
+                    "rename_category": "Renomear categoria",
+                    "edit_description": "Editar descrição",
+                    "change_icon": "Alterar ícone"
                 }
             },
             "article_events": {
-                "article_hidden": "",
-                "article_public": "",
-                "article_modified": ""
+                "article_hidden": "{username} ocultou o artigo",
+                "article_public": "{username} alterou a permissão do artigo para público",
+                "article_modified": "{username} editou este artigo."
             },
             "search": {
-                "title": "",
-                "back_to_search_results": "",
-                "search_knowledge_base": "",
-                "searching": "",
-                "searching_for": "",
-                "searched_for": "",
-                "use_searchbox_below": "",
-                "no_results": ""
+                "title": "Pesquisar",
+                "back_to_search_results": "Voltar para os resultados de busca",
+                "search_knowledge_base": "Pesquisar na base de conhecimento",
+                "searching": "Pesquisando",
+                "searching_for": "Pesquisando por {searchterm}",
+                "searched_for": "Você pesquisou por {searchterm}, houve {results} resultados.",
+                "use_searchbox_below": "Use a caixa de pesquisa abaixo para pesquisar em nossa base de conhecimento.",
+                "no_results": "Não foi possível encontrar nada com o termo '{searchterm}'."
             },
             "not_found": {
-                "title": "",
-                "description": "",
-                "solution": ""
+                "title": "Item não encontrado",
+                "description": "Desculpe, este artigo ou categoria não existe aqui.",
+                "solution": "Você pode usar a caixa de pesquisa acima para encontrar oque estava procurando."
             },
             "article": {
-                "article": "",
-                "articles": "",
-                "hidden": "",
-                "created_at": "",
-                "author": "",
-                "authors": "",
-                "last_modified": "",
-                "not_found": "",
+                "article": "Artigo",
+                "articles": "Artigos",
+                "hidden": "Oculto",
+                "created_at": "Criado em {date}",
+                "author": "Autor",
+                "authors": "Autores",
+                "last_modified": "Última modificação em {date}",
+                "not_found": "Artigo não encontrado",
                 "share_article": {
-                    "title": "",
-                    "perma_link": ""
+                    "title": "Compartilhar Artigo",
+                    "perma_link": "Link permanente:"
                 },
                 "tools": {
-                    "rename_article": "",
-                    "edit_article": "",
-                    "edit_tags": "",
-                    "audit_log": "",
-                    "hide_article": "",
-                    "recover_article": "",
-                    "delete_forever": "",
-                    "view_ratings": ""
+                    "rename_article": "Renomear artigo",
+                    "edit_article": "Editar Artigo",
+                    "edit_tags": "Editar tags do artigo",
+                    "audit_log": "Ver registros de auditoria",
+                    "hide_article": "Ocultar artigo",
+                    "recover_article": "Recuperar artigo",
+                    "delete_forever": "Deletar para sempre",
+                    "view_ratings": "Ver classificações"
                 }
             },
             "support_ratings": {
-                "score": "",
-                "helful_article": "",
-                "helful_support": "",
-                "feedback": "",
-                "feedback_not_helpful": "",
-                "enter_feedback": "",
-                "finished": "",
+                "score": "Classificação",
+                "helful_article": "Esse artigo foi útil?",
+                "helful_support": "Você está satisfeito com a forma como lidamos com seu ticket?",
+                "feedback": "Obrigado por sua avaliação, você tem algum feedback?",
+                "feedback_not_helpful": "Desculpe se este artigo não lhe ajudou. O que você estava procurando?",
+                "enter_feedback": "Insira seu feedback aqui",
+                "finished": "Obrigado! Seu feedback foi salvo.",
                 "validation": {
-                    "invalid_discussion": "",
-                    "guest": "",
-                    "invalid_points": "",
-                    "cannot_rate_article": "",
-                    "neutral_emoji_disabled": "",
-                    "missing_article_id": ""
+                    "invalid_discussion": "Ops, algo deu errado. Você não pode avaliar este artigo/ticket.",
+                    "guest": "Faça login antes de avaliar este artigo.",
+                    "invalid_points": "Avaliação inválida. Por favor, tente novamente.",
+                    "cannot_rate_article": "Você não pode avaliar este artigo.",
+                    "neutral_emoji_disabled": "O emoji neutro foi desativado.",
+                    "missing_article_id": "ID do artigo ausente ou inválido"
                 },
                 "switch_sort_score": {
-                    "label": "",
-                    "description": ""
+                    "label": "Mostrar artigos com pontuação baixa a alta",
+                    "description": "Mostrar apenas os artigos que receberam feedback, classificando o artigo com a pontuação mais baixa."
                 }
             },
             "modals": {
                 "audit_log": {
-                    "title": "",
+                    "title": "Registro de auditoria do artigo",
                     "article_created": "",
                     "no_more_events": "",
                     "loading_auditlog": ""
@@ -151,6 +151,11 @@
                     "confirm": "",
                     "event": ""
                 },
+                "convert_to_discussion": {
+                    "button": "",
+                    "confirm": "",
+                    "event": ""
+                },
                 "status": {
                     "new": {
                         "title": "",
@@ -192,7 +197,8 @@
                     "assign_me": "",
                     "remove_me": "",
                     "update_status": "",
-                    "close_ticket": ""
+                    "close_ticket": "",
+                    "update_note": ""
                 },
                 "new_tickets_dropdown": {
                     "title": "",
@@ -223,6 +229,13 @@
                     "assignees": {
                         "title": "",
                         "placeholder": ""
+                    },
+                    "private_note": {
+                        "title": "",
+                        "info": "",
+                        "tip": "",
+                        "placeholder": "",
+                        "edit_button": ""
                     }
                 },
                 "compose_ticket": {
@@ -242,7 +255,41 @@
                     "title": "",
                     "description": "",
                     "no_tickets": "",
-                    "all_tickets": ""
+                    "all_tickets": "",
+                    "selection_unfiltered": "",
+                    "selection_open": "",
+                    "selection_closed": "",
+                    "refresh": "",
+                    "filter": {
+                        "status": {
+                            "title": "",
+                            "filter_count": ""
+                        },
+                        "language": {
+                            "any": ""
+                        },
+                        "assignees": {
+                            "title": "",
+                            "search": "",
+                            "unassigned": ""
+                        }
+                    },
+                    "sort": {
+                        "newest": "",
+                        "oldest": "",
+                        "recent_activity": "",
+                        "least_recent": ""
+                    }
+                }
+            },
+            "notifications": {
+                "replied_to_ticket": {
+                    "name": "",
+                    "content": ""
+                },
+                "ticket_resolved": {
+                    "name": "",
+                    "content": ""
                 }
             }
         },

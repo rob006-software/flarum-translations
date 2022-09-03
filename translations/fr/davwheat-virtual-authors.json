@@ -1,0 +1,89 @@
+{
+    "davwheat-virtual-authors": {
+        "admin": {
+            "permissions": {
+                "set_virtual_authors": "Définir des auteurs virtuels sur les discussions",
+                "view_virtual_authors_page": "Voir la page détaillant tous les auteurs virtuels"
+            },
+            "settings": {
+                "errored": "Échec du chargement des auteurs virtuels à partir du serveur.",
+                "create_new": "Créer un nouvel auteur virtuel",
+                "auto_save_message": "La création de nouveaux auteurs virtuels et la modification d'auteurs existants sont enregistrées automatiquement.",
+                "search_placeholder": "Recherche par nom",
+                "link_to_va_from_discussion": "Afficher le lien vers toutes les discussions d'un auteur virtuel dans la case « Auteurs »",
+                "authors_in_sidebar": "Afficher les auteurs dans la barre latérale au lieu du premier message ci-dessus",
+                "authors_in_sidebar_help": "Cela n'a aucun effet sur l'extension Blog.",
+                "virtual_authors_page_disabled": "Désactivez la liste des auteurs virtuels pour tous les utilisateurs.",
+                "virtual_authors_page_disabled_help": "Cela remplace toutes les autorisations définies pour cette fonctionnalité.",
+                "discussion_badge": "Afficher le badge sur les discussions avec les auteurs virtuels",
+                "prev": "Page précédente",
+                "next": "Page suivante"
+            },
+            "virtual_author_item": {
+                "id": "Identifiant",
+                "name": "Nom d’affichage",
+                "description": "Description",
+                "no_description": "=> davwheat-virtual-authors.ref.no_description",
+                "edit": "Modifier l'auteur virtuel",
+                "delete_confirmation": "Supprimer l'auteur virtuel ?",
+                "delete_a11y_tooltip": "Supprimer"
+            }
+        },
+        "lib": {
+            "edit_modal": {
+                "title_edit": "Modifier l'auteur virtuel",
+                "title_new": "Nouvel auteur virtuel",
+                "submit_edit": "Enregistrer les modifications",
+                "submit_new": "Créer un auteur virtuel",
+                "fields": {
+                    "name": "Nom d’affichage",
+                    "description": "Description (à propos de l'auteur)"
+                }
+            },
+            "discussion-badge": "{count, plural, one {A un auteur virtuel}, other {A des auteurs virtuels}}"
+        },
+        "forum": {
+            "virtual_author_page": {
+                "meta_title": "{displayName} - Auteurs",
+                "credited_discussions": "Discussions créditées à {displayName}",
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count"
+            },
+            "virtual_authors_list": {
+                "sidebar_link": "Auteurs",
+                "empty_text": "Il semble qu'il n'y ait pas d'auteurs ici.",
+                "title": "Tous les auteurs",
+                "meta_title": "Tous les auteurs",
+                "filter_name_placeholder": "Filtrer par nom",
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count",
+                "no_description": "Cet auteur garde un air de mystère à son sujet."
+            },
+            "virtual_authors_panel": {
+                "heading": "Auteurs",
+                "error": "Échec du chargement des auteurs.",
+                "item_link_tooltip": "Afficher toutes les discussions par {displayName}"
+            },
+            "discussion_controls": {
+                "set_virtual_authors": "Définir des auteurs virtuels"
+            },
+            "set_modal": {
+                "title": "Définir des auteurs virtuels",
+                "existing": "Auteurs virtuels actuels",
+                "add_new": "Choisissez de nouveaux auteurs virtuels",
+                "none_existing": "Aucun auteur virtuel sélectionné.",
+                "search": "Recherche d'auteur virtuel",
+                "credit_placeholder": "Crédit (facultatif)",
+                "delete_confirmation": "Supprimer l'auteur virtuel de la discussion ?",
+                "delete_button": "Supprimer",
+                "add_button": "Ajouter",
+                "added_button": "Ajouté",
+                "no_description": "=> davwheat-virtual-authors.ref.no_description",
+                "virtual_author_exists": "Déjà sélectionné !",
+                "save": "Enregistrer les modifications"
+            }
+        },
+        "ref": {
+            "no_description": "(aucune description définie)",
+            "discussion_count": "{count, plural, one {# discussion}, other {# discussions}}"
+        }
+    }
+}

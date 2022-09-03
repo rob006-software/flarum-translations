@@ -2,44 +2,53 @@
     "fof-user-directory": {
         "forum": {
             "header": {
-                "back_to_user_directory_tooltip": ""
+                "back_to_user_directory_tooltip": "Volver al directorio de usuarios"
             },
             "search": {
-                "users_heading": "",
+                "users_heading": "Buscar usuarios por \"{query}\"",
                 "field": {
-                    "placeholder": ""
+                    "placeholder": "Buscar todos los usuarios"
+                },
+                "kinds": {
+                    "group": "Grupo",
+                    "text": "Texto libre"
                 }
             },
             "page": {
-                "nav": "",
-                "refresh_tooltip": "",
-                "load_more_button": "",
-                "empty_text": "",
-                "filter_button": ""
+                "nav": "Directorio de usuarios",
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "No hemos podido encontrar ningún usuario que coincida con su búsqueda.",
+                "filter_button": "Filtrar grupos",
+                "usercard": {
+                    "discussion-count": "",
+                    "post-count": ""
+                }
             }
         },
         "admin": {
             "permissions": {
-                "view_user_directory": ""
+                "view_user_directory": "Ver directorio de usuarios"
             },
             "settings": {
-                "link": "",
-                "default-sort": "",
-                "use-small-cards": ""
+                "link": "Añadir enlace en la página de inicio para que los usuarios puedan ver el directorio",
+                "default-sort": "Ordenar por defecto",
+                "use-small-cards": "Utilizar tarjetas de usuario pequeñas",
+                "disable-global-search-source": "No añadir el Directorio de Usuarios al campo de búsqueda global de Flarum"
             }
         },
         "lib": {
             "sort": {
-                "not_specified": "",
-                "default": "",
-                "username_az": "",
-                "username_za": "",
-                "newest": "",
-                "oldest": "",
-                "most_posts": "",
-                "least_posts": "",
-                "most_discussions": "",
-                "least_discussions": ""
+                "not_specified": "Utilizar Flarum por defecto",
+                "default": "Predeterminado",
+                "username_az": "Nombre de usuario (a-z)",
+                "username_za": "Nombre de usuario (z-a)",
+                "newest": "Más reciente",
+                "oldest": "Más antiguo",
+                "most_posts": "Más publicaciones",
+                "least_posts": "Menos publicaciones",
+                "most_discussions": "Más discusiones",
+                "least_discussions": "Menos discusiones"
             }
         }
     }

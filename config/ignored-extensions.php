@@ -12,6 +12,37 @@
 declare(strict_types=1);
 
 return [
-	'kilowhat/flarum-ext-guest-posting', // private premium extensions, not available for purchase
 	'zaptech/cookie-consent', // migrated to `fof/cookie-consent`
+	/*
+	 * dead/private forks
+	 */
+	'akamajoris/fof-upload',
+	'arthurydalgo/ads',
+	'arthurydalgo/online-users',
+	'arthurydalgo/users-list',
+	'flarum-extensions/mason',
+	'flarum-extensions/taxonomies',
+	'flarum-extensions/transliterator',
+	'gitzaai/flarum-ext-hljs2',
+	'hamzone/flarum-ext-auth-wechat',
+	'hamzone/flarum-ext-emojionearea',
+	'insegreto/flarum-ads',
+	'kindyear/reply-to-see',
+	'lawaxi/level-ranks',
+	'lazyeo/flarum-ext-hljs',
+	'littlecxm/fof-doorman',
+	'littlecxm/fof-passport',
+	'lonelyclick/flarum-ext-embed-video',
+	'reazzon/flarum-seo',
+	'reazzon/pages',
+	'subasteve/flarum-ext-hljs',
+	'subasteve/flarum-ext-mailing',
+	'swaggymacro/websocket',
+	'whydesd/reply-to-see',
+	'william0wang/flarum-imgur-upload',
+	'zouyonghao/flarum-es',
+	/*
+	 * trash
+	 */
+	'lawaxi/harmony',
 ];

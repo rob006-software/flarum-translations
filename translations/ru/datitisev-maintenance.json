@@ -1,0 +1,48 @@
+{
+    "datitisev-maintenance": {
+        "admin": {
+            "dashboard": {
+                "enable_maintenance_mode_button": "Включить режим обслуживания",
+                "disable_maintenance_mode_button": "Выключить режим обслуживания"
+            },
+            "settings": {
+                "title": "Режим обслуживания",
+                "settings_notice": "Эти настройки могут не соответствовать текущим. Убедитесь, что они не будут перезаписаны в <code>config.php</code>.",
+                "allow_bypass_label": "Разрешить обход обслуживания форума и API с использованием разрешений",
+                "allow_bypass_hint": "Не осуществлять обход, если БД недоступна. Применимо к форуму и API (если только API не отключена полностью через файл <code>config.php</code>). Если запрещено, администраторы продолжат иметь доступ к (см. примечание выше), чтобы не заблокировать самих себя.",
+                "prefer_db_label": "Предпочитать настройки базы данных перед настройками в файле <code>config.php</code>",
+                "prefer_db_hint": "Обычно значения из файла <code>config.php</code> заменяют установленные здесь. Разрешите эту опцию чтобы выполненные здесь настройки имели приоритет над настройками конфигурационного файла - предназначено только для случая, когда БД недоступна.",
+                "active_label": "Состояние режима обслуживания",
+                "disable_admin_label": "Запретить доступ администратора",
+                "disable_api_label": "Запретить любой API доступ",
+                "title_label": "Заголовок страницы ошибки",
+                "message_label": "Сообщение страницы ошибки",
+                "error_page_file_label": "Путь к файлу страницы ошибки",
+                "error_page_file_hint": "Путь относительно корня Фларума - где находятся <code>vendor</code> и <code>storage</code>.",
+                "error_page_label": "Код HTML/Blade страницы ошибки",
+                "error_page_hint": "Вы можете использовать $app, $translator, $settings, $title, и $message из Blade."
+            },
+            "permissions": {
+                "allow_bypass_maintenance_label": "Обход режима обслуживания (эта установка должна быть разрешена)"
+            }
+        },
+        "lib": {
+            "maintenance_active_message": "В настоящее время форум находится в режиме обслуживания.",
+            "maintenance_active_not_db_message": "Режим обслуживания включен через файл <code>config.php</code>.",
+            "maintenance_active_disabled_api_message": "Сейчас API запрещен для всех."
+        },
+        "views": {
+            "error": {
+                "title": "Обслуживание",
+                "message": "В настоящее время мы проводим обслуживание форума. Мы вернемся в онлайн очень скоро!"
+            }
+        }
+    },
+    "core": {
+        "lib": {
+            "error": {
+                "maintenance_message": "В настоящее время форум находится в режиме обслуживания."
+            }
+        }
+    }
+}

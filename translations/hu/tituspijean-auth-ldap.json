@@ -1,0 +1,29 @@
+{
+    "tituspijean-auth-ldap": {
+        "forum": {
+            "log_in_with": "Bejelentkezés a következővel: {server}",
+            "log_out": "=> core.ref.log_out"
+        },
+        "admin": {
+            "settings": {
+                "title": "LDAP-beállítások",
+                "method_name": "LDAP-kiszolgáló neve (a „Bejelentkezés a következővel:” után jelenik meg)",
+                "hosts": "LDAP-domainek vagy kiszolgáló IP-címek (vesszővel elválasztva)",
+                "base_dn": "Bázis DN-ek (pontosvesszővel elválasztva)",
+                "filter": "Használandó szűrő (nem kötelező)",
+                "port": "port",
+                "account_prefix": "Fiókelőtag",
+                "account_suffix": "Fiókutótag",
+                "admin_dn": "LDAP rendszergazda megkülönböztető neve (hagyja üresen a névtelen kötéshez)",
+                "admin_password": "LDAP rendszergazda jelszava (hagyja üresen a névtelen kötéshez)",
+                "search_user_fields": "LDAP felhasználókeresési mezők (vesszővel elválasztva)",
+                "user_mail": "LDAP felhasználói e-mail-cím mezője",
+                "user_username": "LDAP felhasználónév mezője",
+                "follow_referrals": "Hivatkozások követése az LDAP-kiszolgálóhoz való kötéshez",
+                "use_ssl": "SSL használata",
+                "use_tls": "TLS használata",
+                "onlyUse": "A Flarum szokásos bejelentkezési módjának elrejtése"
+            }
+        }
+    }
+}

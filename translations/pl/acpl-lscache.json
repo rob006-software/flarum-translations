@@ -1,0 +1,17 @@
+{
+    "acpl-lscache": {
+        "admin": {
+            "public_cache_ttl_label": "Domyślny TTL publicznego cache",
+            "public_cache_ttl_help": "Określ jak długo, w sekundach, publiczne strony będą przechowywane w pamięci podręcznej. Wartość domyślna to 300 sekund.",
+            "clearing_cache_listener_label": "Wyczyść LSCache, gdy cache Flarum jest czyszczony",
+            "serve_stale_label": "Serwuj wygasły cache",
+            "serve_stale_help": "Jeśli opcja jest włączona, wygasła kopia cache strony będzie pokazywana odwiedzającym do czasu, aż nowa kopia zostanie wygenerowana. Zmniejsza to obciążenie serwera przy wielu równoległych wizytach. Jeśli opcja jest wyłączona, strona będzie generowana dynamicznie, co może wydłużyć czas oczekiwania na wyświetlenie strony. Z założenia opcja ta może powodować wyświetlanie nieaktualnych treści. Nie włączaj tej opcji, jeśli nie jest to akceptowalne w Twoim przypadku.",
+            "purge_on_discussion_update_label": "Wyczyść cache dla URLi lub tagów, gdy dyskusja lub post są aktualizowane",
+            "purge_on_discussion_update_help": "Podaj jeden URL lub tag na wiersz. URL powinien zaczynać się od <code>/</code>, np. <code>/rankings</code>, a tag cache powinien zaczynać się od <code>tag=</code>, np. <code>tag=rankings</code>. To rozszerzenie taguje każdą ścieżkę i np. jeśli masz dużo ścieżek, których cache chciałbyś opróżnić, to lepiej jest dodać regułę z wyrażeniem regularnym w .htaccess, która otaguje ścieżki, a tutaj w ustawieniach podać tylko ten tag - ta metoda będzie znacznie szybsza. <a>Dowiedz się więcej</a>. Domyślnie czyszczony jest cache strony głównej oraz zaktualizowanej dyskusji.",
+            "cache_exclude_label": "Nie zapisuj w pamięci podręcznej ścieżek",
+            "cache_exclude_help": "Ścieżki zawierające te ciągi znaków (po jednym na wiersz) nie będą zapisywane w cache. Na przykład, dla ścieżki <code>/mypath/mypage?aa=bb</code> można użyć <code>mypage?aa=</code>. Aby dopasować od początku, dodaj <code>^</code> na początku ciągu znaków. Aby dopasować dokładnie, dodaj symbol <code>$</code> na końcu ciągu znaków.",
+            "purge_all": "Wyczyść cały LSCache",
+            "purge_all_success": "Powiadomiono serwer LiteSpeed, aby wyczyścił wszystkie wpisy LSCache"
+        }
+    }
+}

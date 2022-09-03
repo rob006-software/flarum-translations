@@ -4,13 +4,13 @@
             "appearance": {
                 "colored_header_label": "Cabeçalho colorido",
                 "colors_heading": "Cores",
-                "colors_text": "Escolha duas cores para o tema do seu fórum. O primeiro será usado como uma cor de destaque, enquanto o segundo será usado para estilizar elementos de fundo.",
+                "colors_text": "Escolha duas cores para o tema do seu fórum. O primeiro será usado como uma cor de destaque, enquanto a segunda será usado para estilizar elementos de fundo.",
                 "custom_footer_heading": "Rodapé personalizado",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Cabeçalho personalizado",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_heading": "Estilos personalizados",
-                "custom_styles_text": "Personalize a aparência do seu fórum adicionando seu próprio código Less / CSS a ser aplicado sobre os estilos padrão do Flarum.",
+                "custom_styles_heading": "CSS personalizado",
+                "custom_styles_text": "Personalize a aparência do seu fórum adicionando seu próprio código Less / CSS para ser aplicado sobre os estilos padrão do Flarum.",
                 "dark_mode_label": "Modo escuro",
                 "description": "Personalize as cores, logotipos e outras variáveis do seu fórum.",
                 "edit_css_button": "Editar CSS personalizado",
@@ -18,7 +18,7 @@
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Digite um código de cor hexadecimal.",
                 "favicon_heading": "Favicon",
-                "favicon_text": "Carregue uma imagem para ser exibida como ícone de atalho do fórum.",
+                "favicon_text": "Carregue uma imagem para ser exibida como ícone do fórum.",
                 "logo_heading": "Logotipo",
                 "logo_text": "Carregue uma imagem para ser exibida no lugar do título do fórum.",
                 "title": "Aparência"
@@ -27,10 +27,10 @@
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Idioma padrão",
                 "description": "Defina o título, idioma e outras configurações básicas do fórum.",
-                "display_name_heading": "Nome de exibição do usuário",
+                "display_name_heading": "Nome de Exibição do Usuário",
                 "display_name_text": "Selecione o driver que deve ser usado para os nomes de exibição dos usuários. Por padrão, o nome de usuário é mostrado.",
                 "forum_description_heading": "Descrição do Fórum",
-                "forum_description_text": "Digite uma ou duas frases curtas que descrevam sua comunidade. Isso aparecerá na metatag e aparecerá nos mecanismos de pesquisa.",
+                "forum_description_text": "Digite uma ou duas frases curtas que descrevam sua comunidade. Isso aparecerá na meta tag e aparecerá nos mecanismos de busca.",
                 "forum_title_heading": "Título do Fórum",
                 "home_page_heading": "Página Inicial",
                 "home_page_text": "Escolha a página que os usuários verão pela primeira vez quando visitarem seu fórum.",
@@ -48,7 +48,7 @@
                 "tools_button": "Ferramentas"
             },
             "edit_css": {
-                "customize_text": "Personalize a aparência do seu fórum adicionando seu próprio código Less / CSS a ser aplicado sobre os <a>estilos padrão</a>do Flarum.",
+                "customize_text": "Personalize a aparência do seu fórum adicionando seu próprio código Less / CSS para ser aplicado sobre o <a>estilo padrão</a> do Flarum.",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Editar CSS personalizado"
             },
@@ -59,14 +59,14 @@
             },
             "edit_group": {
                 "color_label": "=> core.ref.color",
-                "delete_button": "Excluir grupo",
+                "delete_button": "Excluir Grupo",
                 "delete_confirmation": "Tem certeza de que deseja excluir este grupo? Os membros do grupo NÃO serão excluídos.",
                 "hide_label": "Ocultar no fórum",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "Nome",
-                "plural_placeholder": "Plural (por exemplo, Mods)",
-                "singular_placeholder": "Singular (por exemplo, Mod)",
+                "plural_placeholder": "Plural (ex: Mods)",
+                "singular_placeholder": "Singular (ex: Mod)",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Criar Grupo"
             },
@@ -79,17 +79,17 @@
                 "addresses_heading": "Endereços",
                 "description": "Configure o driver, as configurações e os endereços que seu fórum usará para enviar e-mail.",
                 "driver_heading": "Escolha um driver",
-                "driver_label": "Criptografia",
+                "driver_label": "Driver",
                 "from_label": "Remetente",
                 "mail_encryption_label": "Criptografia",
                 "mail_host_label": "Host",
-                "mail_mailgun_domain_label": "Dominio",
+                "mail_mailgun_domain_label": "Domínio",
                 "mail_mailgun_region_label": "Região",
-                "mail_mailgun_secret_label": "Secret key",
+                "mail_mailgun_secret_label": "Chave Secreta",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Porta",
                 "mail_username_label": "=> core.ref.username",
-                "mailgun_heading": "Configurações de Mailgun",
+                "mailgun_heading": "Configurações do Mailgun",
                 "not_sending_message": "Flarum atualmente não envia e-mails. Isso pode ocorrer devido ao driver selecionado ou a erros de configuração.",
                 "send_test_mail_button": "Enviar",
                 "send_test_mail_heading": "Enviar teste de e-mail",
@@ -103,23 +103,30 @@
                 "mail_ses_key_label": "Chave"
             },
             "extension": {
-                "configure_scopes": "",
-                "confirm_uninstall": "A desinstalação removerá todas as entradas e ativos do banco de dados relacionados à extensão. Você tem certeza que quer continuar?",
-                "disabled": "Disabilitar",
+                "configure_scopes": "Configurações",
+                "confirm_purge": "A limpeza removerá todas as entradas do banco de dados e ativos relacionados à extensão. Isso não vai desinstalar a extensão; que deve ser feito via Composer. Tem certeza que quer continuar?",
+                "disabled": "Desabilitar",
                 "enable_to_see": "Ative a extensão para visualizar e alterar as configurações.",
                 "enabled": "Habilitar",
                 "info_links": {
                     "discuss": "Discussão",
                     "documentation": "Documentação",
                     "donate": "Doar",
-                    "source": "Fonte",
+                    "source": "Source",
                     "support": "Suporte",
                     "website": "Website"
                 },
                 "no_permissions": "Esta extensão não tem permissões.",
                 "no_settings": "Esta extensão não tem configurações.",
-                "open_modal": "Abrir configurações",
+                "open_modal": "Abrir Configurações",
                 "permissions_title": "Permissões",
+                "purge_button": "Limpar",
+                "readme": {
+                    "button_label": "README",
+                    "no_readme": "Esta extensão não parece ter um arquivo README",
+                    "title": "Documentação da extensão {extName}"
+                },
+                "confirm_uninstall": "A desinstalação removerá todas as entradas e ativos do banco de dados relacionados à extensão. Você tem certeza que quer continuar?",
                 "uninstall_button": "Desinstalar"
             },
             "header": {
@@ -153,7 +160,7 @@
                 "permissions_title": "=> core.admin.permissions.description",
                 "userlist_button": "=> core.admin.users.title",
                 "userlist_title": "=> core.admin.users.description",
-                "search_placeholder": "Buscar extensão"
+                "search_placeholder": "Buscar Extensão"
             },
             "permissions": {
                 "allow_post_editing_label": "Permitir edição de postagem",
@@ -305,9 +312,11 @@
             "discussion_list": {
                 "empty_text": "Parece que não há discussões aqui.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Marcar como Lido",
                 "replied_text": "{username} respondeu {ago}",
-                "started_text": "{username} iniciado {ago}"
+                "started_text": "{username} iniciado {ago}",
+                "total_replies_a11y_label": "{count, plural, one {# resposta} other {# respostas}}",
+                "unread_replies_a11y_label": "{count, plural, one {# resposta não lida} other {# respostas não lidas}}. Marcar como não lindo {count, plural, one {resposta} other {respostas}} as read.",
+                "mark_as_read_tooltip": "Marcar como Lido"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -321,11 +330,13 @@
             "header": {
                 "admin_button": "Administração",
                 "back_to_index_tooltip": "Voltar à lista de discussão",
-                "locale_dropdown_accessible_label": "",
+                "locale_dropdown_accessible_label": "Alterar idioma do fórum",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Perfil",
+                "search_clear_button_accessible_label": "Limpar histórico de pesquisa",
                 "search_placeholder": "Pesquisar",
+                "search_role_label": "Pesquisar",
                 "session_dropdown_accessible_label": "Abrir o menu de opções das sessões",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -345,7 +356,7 @@
                 "newest_button": "Mais novas",
                 "oldest_button": "Mais antigas",
                 "relevance_button": "Relevância",
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Alterar a classificação da lista de discussão",
                 "top_button": "Topo"
             },
             "log_in": {
@@ -364,7 +375,7 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Marcar como Lido",
                 "title": "=> core.ref.notifications",
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Ver Notificações",
                 "tooltip": "=> core.ref.notifications"
             },
             "post": {
@@ -451,9 +462,16 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Reenviar e-mail de confirmação",
                 "sent_message": "Enviar"
+            },
+            "welcome_hero": {
+                "hide": "Ocultar mensagem de boas-vindas"
             }
         },
         "lib": {
+            "debug_button": "Debug",
+            "alert": {
+                "dismiss_a11y_label": "Fechar alerta"
+            },
             "badge": {
                 "hidden_tooltip": "Escondido"
             },
@@ -471,18 +489,32 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "username_label": "=> core.ref.username",
+                "nothing_available": "Você não tem permissão para editar este usuário."
             },
             "error": {
                 "dependent_extensions_message": "Não é possível desativar {extension} até que as seguintes extensões dependentes sejam desativadas: {extensions}",
+                "extension_initialiation_failed_message": "{extension} não inicializou, verifique o console do navegador para obter mais informações.",
                 "generic_message": "Opa! Algo deu errado. Por favor, recarregue a página e tente novamente.",
                 "missing_dependencies_message": "Não é possível ativar {extension} até que as seguintes dependências sejam ativadas: {extensions}",
                 "not_found_message": "O recurso solicitado não foi encontrado.",
+                "payload_too_large_message": "A solicitação era muito grande.",
                 "permission_denied_message": "Você não tem permissão para fazer isso.",
-                "rate_limit_exceeded_message": "Você está indo um pouco rápido demais. Tente novamente em alguns segundos."
+                "rate_limit_exceeded_message": "Você está indo um pouco rápido demais. Tente novamente em alguns segundos.",
+                "render_failed_message": "Desculpe, encontramos um erro ao exibir este conteúdo. Se você é um usuário, por favor tente novamente mais tarde. Se você é um administrador, dê uma olhada em seus arquivos de log Flarum para obter mais informações."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Página # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Página # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Fechar"
+            },
+            "nav": {
+                "drawer_button": "Abrir Gaveta de Navegação"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -498,6 +530,26 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "=> core.ref.extensions",
+                    "disable": "Desativar",
+                    "empty": "Sem extensões instaladas",
+                    "enable": "Habilitar",
+                    "name": "Nome da extensão",
+                    "package_name": "Nome do Pacote",
+                    "version": "Versão"
+                },
+                "info": {
+                    "caption": "Informações do Aplicativo"
+                },
+                "title": "Administração"
+            },
+            "confirm_email": {
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "Clique no botão abaixo para confirmar o e-mail da sua conta.",
+                "title": "=> core.ref.confirm_email"
+            },
             "content": {
                 "javascript_disabled_message": "Este site é melhor visualizado em um navegador moderno com JavaScript ativado.",
                 "load_error_message": "Ocorreu um erro ao tentar carregar a versão completa deste site. Tente atualizar essa página para corrigir o erro.",
@@ -532,6 +584,10 @@
                 "new_password_label": "Nova senha",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {
@@ -540,15 +596,15 @@
         "email": {
             "activate_account": {
                 "subject": "Ative sua nova conta",
-                "body": "Olá {username}!\nAlguém (esperamos que você!) se cadastrou em {forum} com este endereço de e-mail.\nSe foi você mesmo, basta clicar no link abaixo e sua conta será ativada:\n{url}\nSe você não se cadastrou, por favor ignore este e-mail.\n"
+                "body": "Olá {username}!\n\nAlguém (esperamos que você!) se cadastrou em {forum} com este endereço de e-mail.\n\nSe foi você mesmo, basta clicar no link abaixo e sua conta será ativada:\n{url}\n\nSe você não se cadastrou, por favor ignore este e-mail.\n"
             },
             "confirm_email": {
                 "subject": "Confirme seu novo endereço de e-mail",
-                "body": "Olá {username}!\nAlguém (esperamos que você!) alterou o endereço de e-mail em {forum} para este aqui.\nSe foi você mesmo, basta clicar no link abaixo e seu e-mail será confirmado:\n{url}\nSe você não solicitou isso, por favor ignore este e-mail.\n"
+                "body": "Olá {username}!\n\nAlguém (esperamos que você!) alterou o endereço de e-mail em {forum} para este aqui.\n\nSe foi você mesmo, basta clicar no link abaixo e seu e-mail será confirmado:\n{url}\n\nSe você não solicitou isso, por favor ignore este e-mail.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Olá {username}!\nAlguém (esperamos que você!) enviou uma solicitação de redefinição de senha para sua conta em {forum}.\nSe foi você mesmo, clique no link abaixo para redefinir sua senha:\n{url}\nSe você não quiser alterar sua senha, basta ignorar este e-mail e nada irá acontecer.\n"
+                "body": "Olá {username}!\n\nAlguém (esperamos que você!) enviou uma solicitação de redefinição de senha para sua conta em {forum}.\n\nSe foi você mesmo, clique no link abaixo para redefinir sua senha:\n{url}\n\nSe você não quiser alterar sua senha, basta ignorar este e-mail e nada irá acontecer.\n"
             },
             "send_test": {
                 "subject": "Teste de e-mail Flarum",
@@ -561,6 +617,7 @@
             "change_password": "Mudar Senha",
             "color": "Cor",
             "confirm_password": "Confirme a Senha",
+            "confirm_email": "Confirmar E-mail",
             "confirmation_email_sent": "Enviámos um e-mail de confirmação para {email}. Se não chegar logo, verifique sua pasta de spam.",
             "custom_footer_text": "Adicione HTML a ser exibido na parte inferior da página.",
             "custom_footer_title": "Editar rodapé personalizado",
@@ -572,6 +629,7 @@
             "edit": "Editar",
             "edit_user": "Editar usuário",
             "email": "E-mail",
+            "extensions": "Extensões",
             "icon": "Ícone",
             "icon_text": "Digite o nome de qualquer classe de ícone <a>FontAwesome</a> , <em>incluindo</em> o prefixo <code>fas fa-</code> .",
             "load_more": "Carregue mais",

@@ -40,12 +40,15 @@
         "admin": {
             "errors": {
                 "service_not_found": "サービス '{service}' が見つかりませんでした。",
-                "url_invalid": "選択したサービスの URL が無効です。"
+                "url_invalid": "選択したサービスの URL が無効です。",
+                "tag_invalid": ""
             },
             "nav": {
                 "desc": "フォーラムにカスタム webhook を設定します。"
             },
             "settings": {
+                "debug_label": "",
+                "debug_help": "",
                 "item": {
                     "tag_any_label": ""
                 },

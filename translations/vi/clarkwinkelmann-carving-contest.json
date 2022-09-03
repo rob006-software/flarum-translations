@@ -1,0 +1,63 @@
+{
+    "clarkwinkelmann-carving-contest": {
+        "forum": {
+            "nav": {
+                "contest": "Cuộc thi chạm khắc"
+            },
+            "page": {
+                "title": "Cuộc thi chạm khắc bí ngô",
+                "loading": "Đang tải dữ liệu...",
+                "participate": "Tham gia",
+                "already-participated": "Đã tham gia rồi",
+                "delete-confirmation": "Bạn có muốn xoá \"{name}\" theo {username} không?",
+                "like": "Thích",
+                "already-liked": "Tôi thích nó",
+                "unlike": "Bỏ thích",
+                "refresh": "Làm mới",
+                "load-more": "Tải thêm dữ liệu",
+                "sort": {
+                    "mostLikes": "Nhiều lượt thích nhất",
+                    "fewerLikes": "Ít lượt thích nhất",
+                    "mostRecent": "Đăng gần đây",
+                    "leastRecent": "Gần đây"
+                },
+                "likes": {
+                    "you_text": "=> core.ref.you",
+                    "others_link": "=> core.ref.some_others",
+                    "liked_by_self_text": "{users} đã thích.",
+                    "liked_by_text": "{count, plural, one {{users} đã thích.} other {{users} đã thích.}}"
+                }
+            },
+            "modal": {
+                "title": "Tham gia",
+                "name": "Đặt tên",
+                "submit": "Đồng ý",
+                "tools": {
+                    "circle": "Hình tròn",
+                    "square": "Hình vuông"
+                }
+            },
+            "likes_modal": {
+                "title": "Người dùng thích mục này"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view": "Xem các mục nhập",
+                "like": "Thích các mục nhập",
+                "participate": "Tham gia",
+                "moderate": "Kiểm duyệt"
+            },
+            "settings": {
+                "maxEntriesPerUser": "Số lần gửi tối đa mỗi người dùng",
+                "colorMode": "Sử dụng màu thay vì khắc chạm"
+            },
+            "colors": {
+                "simple": "Màu đơn giản",
+                "all": "Màu bất kỳ",
+                "custom": "Danh sách màu tùy chỉnh",
+                "custom-help": "Danh sách giá trị #hex hoặc rgb() được phân tách bằng dấu phẩy"
+            }
+        }
+    }
+}

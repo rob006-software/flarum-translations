@@ -1,0 +1,42 @@
+{
+    "cccyun-clogin-oauth": {
+        "admin": {
+            "appurl_label": "API URL",
+            "appurl_help": "Must start with http:// or https:// and end with /",
+            "appid_label": "APPID",
+            "appkey_label": "APPKEY",
+            "openqq_label": "Open QQ Login",
+            "openwx_label": "Open WeChat Login",
+            "opensina_label": "Open Weibo Login"
+        },
+        "forum": {
+            "with_qq_button": "QQ Login",
+            "with_wx_button": "WeChat Login",
+            "with_sina_button": "Weibo Login",
+            "alerts": {
+                "already_linked": "Third Account is already linked!",
+                "already_used": "Third Account is already linked to another user!",
+                "link_success": "Third Account link successful.",
+                "unlink_success": "Third Account unlink successful.",
+                "error": "Something went wrong, please try again later!",
+                "unlinked": "The Third Account is not bound to the account of this site, please register first and then bind."
+            },
+            "modals": {
+                "link_qq": "Link QQ Account",
+                "unlink_qq": "Unlink QQ Account",
+                "confirm_qq": "Are you sure, you want unlink your QQ account?",
+                "link_wx": "Link WeChat Account",
+                "unlink_wx": "Unlink WeChat Account",
+                "confirm_wx": "Are you sure, you want unlink your WeChat account?",
+                "link_sina": "Link Weibo Account",
+                "unlink_sina": "Unlink Weibo Account",
+                "confirm_sina": "Are you sure, you want unlink your Weibo account?",
+                "no_providers": "You don't have any others login providers! You'll probably have to reset your password.",
+                "buttons": {
+                    "confirm": "Yes, unlink account",
+                    "cancel": "No!"
+                }
+            }
+        }
+    }
+}

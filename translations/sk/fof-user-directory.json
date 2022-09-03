@@ -2,12 +2,16 @@
     "fof-user-directory": {
         "forum": {
             "header": {
-                "back_to_user_directory_tooltip": "Späť na Zoznam Používateľov"
+                "back_to_user_directory_tooltip": "Späť na Zoznam používateľov"
             },
             "search": {
                 "users_heading": "Vyhľadať všetkých používateľov pre dopyt \"{query}\"",
                 "field": {
                     "placeholder": "Vyhľadať všetkých používateľov"
+                },
+                "kinds": {
+                    "group": "",
+                    "text": ""
                 }
             },
             "page": {
@@ -15,22 +19,27 @@
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "Nedokázali sme nájsť žiadneho používateľa ktorý by spĺňal Vaše kritériá.",
-                "filter_button": "Filtrovať Skupiny"
+                "filter_button": "Filtrovať Skupiny",
+                "usercard": {
+                    "discussion-count": "",
+                    "post-count": ""
+                }
             }
         },
         "admin": {
             "permissions": {
-                "view_user_directory": "Zobraziť používateľský zoznam"
+                "view_user_directory": "Zobraziť zoznam používateľov"
             },
             "settings": {
                 "link": "Pridať odkaz na hlavnú stránku pre používateľov ktorí môžu vidieť zoznam",
                 "default-sort": "Predvolené triedenie",
-                "use-small-cards": "Použiť malé karty používateľov"
+                "use-small-cards": "Použiť malé karty používateľov",
+                "disable-global-search-source": ""
             }
         },
         "lib": {
             "sort": {
-                "not_specified": "Použiť predvolené Flarum nastavenie",
+                "not_specified": "Použiť predvolené Flarum nastavenia",
                 "default": "Predvolené",
                 "username_az": "Používateľské meno (a-z)",
                 "username_za": "Používateľské meno (z-a)",

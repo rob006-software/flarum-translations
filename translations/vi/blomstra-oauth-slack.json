@@ -1,0 +1,28 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "slack": {
+                        "description": "Đăng ký diễn đàn của bạn với Slack {link}",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_slack_button": "Đăng nhập bằng Slack"
+            },
+            "providers": {
+                "slack": "=> fof-oauth.lib.providers.slack"
+            }
+        },
+        "lib": {
+            "providers": {
+                "slack": "Slack"
+            }
+        }
+    }
+}

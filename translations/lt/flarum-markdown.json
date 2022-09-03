@@ -1,5 +1,20 @@
 {
     "flarum-markdown": {
+        "lib": {
+            "composer": {
+                "bold_tooltip": "",
+                "code_tooltip": "",
+                "header_tooltip": "",
+                "image_tooltip": "",
+                "italic_tooltip": "",
+                "link_tooltip": "",
+                "ordered_list_tooltip": "",
+                "quote_tooltip": "",
+                "spoiler_tooltip": "",
+                "strikethrough_tooltip": "",
+                "unordered_list_tooltip": ""
+            }
+        },
         "forum": {
             "composer": {
                 "bold_tooltip": "Pridėti paryškintą tekstą",
@@ -10,6 +25,8 @@
                 "link_tooltip": "Pridėti nuorodą",
                 "ordered_list_tooltip": "Pridėti sunumeruotą sąrašą",
                 "quote_tooltip": "Įterpti citatą",
+                "spoiler_tooltip": "Įdėkite spoilerį",
+                "strikethrough_tooltip": "Pridėti perbrauktą tekstą",
                 "unordered_list_tooltip": "Pridėti sąrašą su ženkleliais"
             }
         },

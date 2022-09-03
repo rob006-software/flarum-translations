@@ -1,0 +1,657 @@
+{
+    "core": {
+        "admin": {
+            "appearance": {
+                "colored_header_label": "রঙিন Header",
+                "colors_heading": "রঙ সমূহ",
+                "colors_text": "আপনার ফোরাম এর theme এর জন্য দুটি রঙ পছন্দ করুন ।প্রথমটি হাইলাইট কালার হিসেবে ব্যবহৃত হবে, আর অপর টি Background Elements স্টাইল করার জন্য ব্যবহৃত হবে।",
+                "custom_footer_heading": "কাস্টম Footer",
+                "custom_footer_text": "=> core.ref.custom_footer_text",
+                "custom_header_heading": "কাস্টম Header",
+                "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_heading": "কাস্টম Styles",
+                "custom_styles_text": "আপনার নিজস্ব CSS Code ব্যবহার করে ফোরাম এর স্টাইল Customize করুন।",
+                "dark_mode_label": "ডার্ক মোড",
+                "description": "আপনার ফোরাম এর কালার, লোগো এবং অন্যান্য Variables Customize করুন।",
+                "edit_css_button": "Custom CSS সম্পাদনা করুন",
+                "edit_footer_button": "=> core.ref.custom_footer_title",
+                "edit_header_button": "=> core.ref.custom_header_title",
+                "enter_hex_message": "একটি Hexadecimal কালার Code Enter করুন।",
+                "favicon_heading": "ফেভিকন",
+                "favicon_text": "ফোরাম এর Shortcut আইকন হিসেবে ব্যবহার করার জন্য একটি ইমেজ আপলোড করুন ।",
+                "logo_heading": "লোগো",
+                "logo_text": "ফোরাম title এর জায়গায় প্রদর্শিত হওয়ার জন্য একটি ইমেজ আপলোড করুন ।",
+                "title": "অ্যাপিয়ারেন্স"
+            },
+            "basics": {
+                "all_discussions_label": "=> core.ref.all_discussions",
+                "default_language_heading": "ডিফল্ট ভাষা",
+                "description": "আপনার ফোরাম টাইটেল, ভাষা এবং অন্যান্য ব্যাসিক সেটিংস সেট করুন।",
+                "display_name_heading": "ইউজার ডিসপ্লে নেম",
+                "display_name_text": "ইউজারদের প্রদর্শিত নাম হিসেবে ব্যবহারের জন্য যে মেথড টি ব্যবহার করা উচিত সেটি সিলেক্ট করুন। সাধারণভাবে ইউজারনেম দেখানো হয়।",
+                "forum_description_heading": "ফোরাম ডিসক্রিপশন",
+                "forum_description_text": "আপনার ফোরামকে ব্যাখ্যা করার জন্য একটি বা দুটি বাক্যে কিছু কথা লিখুন। এটা আপনার মেটা ট্যাগ হিসেবে দেখানো হবে এবং সার্চ ইঞ্জিনে শো করবে।",
+                "forum_title_heading": "ফোরাম টাইটেল",
+                "home_page_heading": "হোমপেজ",
+                "home_page_text": "আপনার ফোরাম ভিজিট করার পর ইউজাররা প্রথমে যে পেজটি দেখবে সেটি সিলেক্ট করুন।",
+                "show_language_selector_label": "ল্যাঙ্গুয়েজ সেলেক্টর শো করুন",
+                "slug_driver_heading": "Slug Driver: {model}",
+                "slug_driver_text": "এই Model টি Slugging এর জন্য একটি Driver নির্বাচন করুন।",
+                "title": "বেসিক",
+                "welcome_banner_heading": "স্বাগতম ব্যানার",
+                "welcome_banner_text": "আপনার Home এ থাকা ব্যানার টির লেখা কনফিগার করুন ।আপনার অতিথিদের স্বাগতম জানাতে এটি ব্যবহার করুন ।"
+            },
+            "dashboard": {
+                "clear_cache_button": "Cache ক্লিয়ার করুন",
+                "description": "একনজরে আপনার ফোরাম।",
+                "title": "ড্যাশবোর্ড",
+                "tools_button": "টুলস"
+            },
+            "edit_css": {
+                "customize_text": "আপনার নিজস্ব সিএসএস কোড অ্যাড করে ফোরামের অ্যাপিয়ারেন্স কাস্টমাইজ করুন। এই কোড গুলো ফ্লারাম এর <a>ডিফল্ট স্টাইল কোড</a>এর উপর প্রয়োগ হবে।",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "কাস্টম সিএসএস সম্পাদনা করুন"
+            },
+            "edit_footer": {
+                "customize_text": "=> core.ref.custom_footer_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
+            },
+            "edit_group": {
+                "color_label": "=> core.ref.color",
+                "delete_button": "ডিলিট গ্রুপ",
+                "delete_confirmation": "আপনি কি এই গ্রুপটি ডিলিট করতে নিশ্চিত ? এই গ্রুপের মেম্বাররা ডিলিট হবে না।",
+                "hide_label": "ফোরামে হাইড করে রাখুন",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "নাম",
+                "plural_placeholder": "বহুবচন (যেমন: Mods)",
+                "singular_placeholder": "এক বচন (যেমন: Mod)",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "গ্রুপ তৈরি করুন"
+            },
+            "edit_header": {
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
+            },
+            "email": {
+                "addresses_heading": "ঠিকানা সমূহ",
+                "description": "আপনার ফোরামের ড্রাইভার ,সেটিংস এবং এড্রেস গুলো কনফিগার করুন যেগুলো মেইল পাঠাতে ব্যবহৃত হবে।",
+                "driver_heading": "একটি ড্রাইভার নির্বাচন করুন",
+                "driver_label": "ড্রাইভার",
+                "from_label": "সেন্টার",
+                "mail_encryption_label": "এনক্রিপশন",
+                "mail_host_label": "হোস্ট",
+                "mail_mailgun_domain_label": "ডোমেইন",
+                "mail_mailgun_region_label": "অঞ্চল",
+                "mail_mailgun_secret_label": "সিক্রেট কি",
+                "mail_password_label": "=> core.ref.password",
+                "mail_port_label": "পোর্ট",
+                "mail_username_label": "=> core.ref.username",
+                "mailgun_heading": "Mailgun সেটিংস",
+                "not_sending_message": "ফ্লারাম এখন ইমেইল সেন্ড করছে না। এটা নির্বাচিত ড্রাইভার অথবা এর কনফিগারেশন ভুলের জন্য হতে পারে।",
+                "send_test_mail_button": "পাঠান",
+                "send_test_mail_heading": "টেস্ট মেল পাঠান",
+                "send_test_mail_success": "সফলভাবে টেস্ট মেইল পাঠানো হয়েছে!",
+                "send_test_mail_text": "এটা আপনার উপরোক্ত কনফিগারেশন ব্যবহার করে একটি ইমেইল পাঠাবে, {email} ।",
+                "smtp_heading": "SMTP সেটিংস",
+                "title": "=> core.ref.email"
+            },
+            "extension": {
+                "configure_scopes": "Scopes কনফিগার করুন",
+                "confirm_purge": "Purging এই এক্সটেনশন এর সাথে সম্পর্কিত সকল ডাটাবেজ এন্ট্রি এবং অ্যাসেট রিমুভ করে ফেলবে । এটা এক্সটেনশন টিকে আনইন্সটল করবে না । আপনি কি চালিয়ে যেতে চান?",
+                "disabled": "ডিজেবল করা",
+                "enable_to_see": "সেটিংস দেখতে এবং পরিবর্তন করতে এক্সটেনশনটি এনাবল করুন।",
+                "enabled": "চালু আছে",
+                "info_links": {
+                    "discuss": "আলোচনা করুন",
+                    "documentation": "ডকুমেন্টেশন",
+                    "donate": "দান করুন",
+                    "source": "সোর্স",
+                    "support": "সাপোর্ট",
+                    "website": "ওয়েবসাইট"
+                },
+                "no_permissions": "এই এক্সটেনশনের কোন পারমিশন নেই।",
+                "no_settings": "এই এক্সটেনশনের কোন সেটিংস নেই।",
+                "open_modal": "সেটিংস ওপেন করুন",
+                "permissions_title": "পারমিশন সমূহ",
+                "purge_button": "Purge করুন",
+                "readme": {
+                    "button_label": "Readme",
+                    "no_readme": "এই এক্সটেনশনের কোন README ফাইল আছে বলে মনে হয় না",
+                    "title": "{extName} ডকুমেন্টেশন"
+                }
+            },
+            "header": {
+                "get_help": "সাহায্য পান",
+                "log_out_button": "=> core.ref.log_out"
+            },
+            "loading": {
+                "title": "দয়া করে অপেক্ষা করুন....."
+            },
+            "nav": {
+                "appearance_button": "=> core.admin.appearance.title",
+                "appearance_title": "=> core.admin.appearance.description",
+                "basics_button": "=> core.admin.basics.title",
+                "basics_title": "=> core.admin.basics.description",
+                "categories": {
+                    "authentication": "অথেন্টিকেশন",
+                    "core": "কোর কনফিগারেশন",
+                    "discussion": "আলোচনা",
+                    "feature": "সুবিধাসমূহ",
+                    "formatting": "ফরমেটিং",
+                    "language": "ভাষাসমূহ",
+                    "moderation": "মডারেশন",
+                    "other": "অন্যান্য এক্সটেনশন সমূহ",
+                    "theme": "থিম সমূহ"
+                },
+                "dashboard_button": "=> core.admin.dashboard.title",
+                "dashboard_title": "=> core.admin.dashboard.description",
+                "email_button": "=> core.ref.email",
+                "email_title": "=> core.admin.email.description",
+                "permissions_button": "=> core.admin.permissions.title",
+                "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
+                "search_placeholder": "এক্সটেনশন সমূহ খুঁজুন"
+            },
+            "permissions": {
+                "allow_post_editing_label": "পোস্ট সম্পাদনার অনুমতি দিন",
+                "allow_renaming_label": "নাম পরিবর্তনের অনুমতি দিন",
+                "create_heading": "তৈরি করুন",
+                "delete_discussions_forever_label": "চিরতরে আলোচনা গুলো ডিলিট করে দেন",
+                "delete_discussions_label": "আলোচনা গুলো ডিলিট করুন",
+                "delete_posts_forever_label": "পোস্ট গুলো ডিলিট করুন",
+                "delete_posts_label": "পোস্ট গুলো ডিলিট করুন",
+                "description": "কে কি দেখবে এবং করতে পারবে তা কনফিগার করুন।",
+                "edit_posts_label": "পোস্টগুলো সম্পাদনা করুন",
+                "edit_users_label": "User Attributes সম্পাদনা করুন",
+                "edit_users_credentials_label": "User এর Credentials সম্পাদনা করুন",
+                "edit_users_groups_label": "User এর Group সম্পাদনা করুন",
+                "global_heading": "গ্লোবাল",
+                "moderate_heading": "মডারেট করুন",
+                "new_group_button": "নতুন Group",
+                "participate_heading": "অংশ নিন",
+                "post_without_throttle_label": "অপেক্ষা ছাড়াই একাধিকবার Reply দিন",
+                "read_heading": "পড়ুন",
+                "rename_discussions_label": "Discussion এর নাম পরিবর্তন করুন",
+                "reply_to_discussions_label": "Discussions এর Reply দিন",
+                "search_users_label": "User সার্চ করুণ",
+                "sign_up_label": "সাইন আপ",
+                "start_discussions_label": "আলোচনা শুরু করুন",
+                "title": "অনুমতি",
+                "view_forum_label": "",
+                "view_hidden_groups_label": "",
+                "view_last_seen_at_label": "",
+                "view_post_ips_label": ""
+            },
+            "permissions_controls": {
+                "allow_indefinitely_button": "",
+                "allow_some_minutes_button": "",
+                "allow_ten_minutes_button": "",
+                "allow_until_reply_button": "",
+                "everyone_button": "",
+                "members_button": "",
+                "signup_closed_button": "",
+                "signup_open_button": ""
+            },
+            "settings": {
+                "saved_message": "",
+                "submit_button": ""
+            },
+            "upload_image": {
+                "remove_button": "",
+                "upload_button": ""
+            },
+            "users": {
+                "description": "",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "",
+                            "title": "",
+                            "tooltip": ""
+                        },
+                        "email": {
+                            "title": "",
+                            "visibility_hide": "",
+                            "visibility_show": ""
+                        },
+                        "group_badges": {
+                            "no_badges": "",
+                            "title": ""
+                        },
+                        "join_time": {
+                            "title": ""
+                        },
+                        "user_id": {
+                            "title": ""
+                        },
+                        "username": {
+                            "profile_link_tooltip": "",
+                            "title": ""
+                        }
+                    },
+                    "invalid_column_content": ""
+                },
+                "pagination": {
+                    "back_button": "",
+                    "next_button": "",
+                    "page_counter": ""
+                },
+                "title": "",
+                "total_users": ""
+            }
+        },
+        "forum": {
+            "change_email": {
+                "confirm_password_placeholder": "",
+                "confirmation_message": "",
+                "dismiss_button": "",
+                "incorrect_password_message": "",
+                "submit_button": "",
+                "title": ""
+            },
+            "change_password": {
+                "send_button": "",
+                "text": "",
+                "title": ""
+            },
+            "composer": {
+                "close_tooltip": "",
+                "exit_full_screen_tooltip": "",
+                "full_screen_tooltip": "",
+                "minimize_tooltip": "",
+                "preview_tooltip": ""
+            },
+            "composer_discussion": {
+                "body_placeholder": "",
+                "discard_confirmation": "",
+                "submit_button": "",
+                "title": "",
+                "title_placeholder": ""
+            },
+            "composer_edit": {
+                "discard_confirmation": "",
+                "edited_message": "",
+                "post_link": "",
+                "submit_button": "",
+                "view_button": ""
+            },
+            "composer_reply": {
+                "body_placeholder": "",
+                "discard_confirmation": "",
+                "posted_message": "",
+                "submit_button": "",
+                "view_button": ""
+            },
+            "discussion_controls": {
+                "cannot_reply_button": "",
+                "cannot_reply_text": "",
+                "delete_button": "",
+                "delete_confirmation": "",
+                "delete_forever_button": "",
+                "log_in_to_reply_button": "",
+                "rename_button": "",
+                "reply_button": "",
+                "restore_button": "",
+                "toggle_dropdown_accessible_label": ""
+            },
+            "discussion_list": {
+                "empty_text": "",
+                "load_more_button": "",
+                "replied_text": "",
+                "started_text": "",
+                "total_replies_a11y_label": "",
+                "unread_replies_a11y_label": ""
+            },
+            "forgot_password": {
+                "dismiss_button": "",
+                "email_placeholder": "",
+                "email_sent_message": "",
+                "not_found_message": "",
+                "submit_button": "",
+                "text": "",
+                "title": ""
+            },
+            "header": {
+                "admin_button": "",
+                "back_to_index_tooltip": "",
+                "locale_dropdown_accessible_label": "",
+                "log_in_link": "",
+                "log_out_button": "",
+                "profile_button": "",
+                "search_clear_button_accessible_label": "",
+                "search_placeholder": "",
+                "search_role_label": "",
+                "session_dropdown_accessible_label": "",
+                "settings_button": "",
+                "sign_up_link": ""
+            },
+            "index": {
+                "all_discussions_link": "",
+                "cannot_start_discussion_button": "",
+                "mark_all_as_read_confirmation": "",
+                "mark_all_as_read_tooltip": "",
+                "meta_title_text": "",
+                "refresh_tooltip": "",
+                "start_discussion_button": "",
+                "toggle_sidenav_dropdown_accessible_label": ""
+            },
+            "index_sort": {
+                "latest_button": "",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
+                "toggle_dropdown_accessible_label": "",
+                "top_button": ""
+            },
+            "log_in": {
+                "forgot_password_link": "",
+                "invalid_login_message": "",
+                "password_placeholder": "",
+                "remember_me_label": "",
+                "sign_up_text": "",
+                "submit_button": "",
+                "title": "",
+                "username_or_email_placeholder": ""
+            },
+            "notifications": {
+                "discussion_renamed_text": "",
+                "empty_text": "",
+                "mark_all_as_read_tooltip": "",
+                "mark_as_read_tooltip": "",
+                "title": "",
+                "toggle_dropdown_accessible_label": "",
+                "tooltip": ""
+            },
+            "post": {
+                "edited_text": "",
+                "edited_tooltip": "",
+                "number_tooltip": ""
+            },
+            "post_controls": {
+                "delete_button": "",
+                "delete_confirmation": "",
+                "delete_forever_button": "",
+                "edit_button": "",
+                "hide_confirmation": "",
+                "restore_button": "",
+                "toggle_dropdown_accessible_label": ""
+            },
+            "post_scrubber": {
+                "now_link": "",
+                "original_post_link": "",
+                "unread_text": "",
+                "viewing_text": ""
+            },
+            "post_stream": {
+                "discussion_renamed_old_tooltip": "",
+                "discussion_renamed_text": "",
+                "load_more_button": "",
+                "reply_placeholder": "",
+                "time_lapsed_text": ""
+            },
+            "rename_discussion": {
+                "submit_button": "",
+                "title": ""
+            },
+            "search": {
+                "all_discussions_button": "",
+                "discussions_heading": "",
+                "users_heading": ""
+            },
+            "settings": {
+                "account_heading": "",
+                "change_email_button": "",
+                "change_password_button": "",
+                "notifications_heading": "",
+                "notify_by_email_heading": "",
+                "notify_by_web_heading": "",
+                "notify_discussion_renamed_label": "",
+                "privacy_disclose_online_label": "",
+                "privacy_heading": "",
+                "title": ""
+            },
+            "sign_up": {
+                "dismiss_button": "",
+                "email_placeholder": "",
+                "log_in_text": "",
+                "password_placeholder": "",
+                "submit_button": "",
+                "title": "",
+                "username_placeholder": "",
+                "welcome_text": ""
+            },
+            "user": {
+                "avatar_remove_button": "",
+                "avatar_upload_button": "",
+                "avatar_upload_tooltip": "",
+                "discussions_link": "",
+                "in_discussion_text": "",
+                "joined_date_text": "",
+                "online_text": "",
+                "posts_empty_text": "",
+                "posts_link": "",
+                "posts_load_more_button": "",
+                "settings_link": ""
+            },
+            "user_controls": {
+                "button": "",
+                "delete_button": "",
+                "delete_confirmation": "",
+                "delete_error_message": "",
+                "delete_success_message": "",
+                "edit_button": "",
+                "toggle_dropdown_accessible_label": ""
+            },
+            "user_email_confirmation": {
+                "alert_message": "",
+                "resend_button": "",
+                "sent_message": ""
+            },
+            "welcome_hero": {
+                "hide": ""
+            }
+        },
+        "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
+            "badge": {
+                "hidden_tooltip": ""
+            },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": ""
+            },
+            "edit_user": {
+                "activate_button": "",
+                "email_heading": "",
+                "email_label": "",
+                "groups_heading": "",
+                "password_heading": "",
+                "password_label": "",
+                "set_password_label": "",
+                "submit_button": "",
+                "title": "",
+                "username_heading": "",
+                "username_label": "",
+                "nothing_available": ""
+            },
+            "error": {
+                "dependent_extensions_message": "",
+                "extension_initialiation_failed_message": "",
+                "generic_message": "",
+                "missing_dependencies_message": "",
+                "not_found_message": "",
+                "payload_too_large_message": "",
+                "permission_denied_message": "",
+                "rate_limit_exceeded_message": "",
+                "render_failed_message": ""
+            },
+            "loading_indicator": {
+                "accessible_label": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
+            },
+            "number_suffix": {
+                "kilo_text": "",
+                "mega_text": ""
+            },
+            "series": {
+                "glue_text": "",
+                "three_text": "",
+                "two_text": ""
+            },
+            "username": {
+                "deleted_text": ""
+            }
+        },
+        "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
+            "confirm_email": {
+                "submit_button": "",
+                "text": "",
+                "title": ""
+            },
+            "content": {
+                "javascript_disabled_message": "",
+                "load_error_message": "",
+                "loading_text": ""
+            },
+            "discussion": {
+                "next_page_button": "",
+                "previous_page_button": ""
+            },
+            "error": {
+                "csrf_token_mismatch": "",
+                "csrf_token_mismatch_return_link": "",
+                "invalid_confirmation_token": "",
+                "not_authenticated": "",
+                "not_found": "",
+                "not_found_return_link": "",
+                "permission_denied": "",
+                "unknown": ""
+            },
+            "index": {
+                "all_discussions_heading": "",
+                "next_page_button": "",
+                "previous_page_button": ""
+            },
+            "log_out": {
+                "log_out_button": "",
+                "log_out_confirmation": "",
+                "title": ""
+            },
+            "reset_password": {
+                "confirm_password_label": "",
+                "new_password_label": "",
+                "submit_button": "",
+                "title": ""
+            }
+        },
+        "api": {
+            "invalid_username_message": ""
+        },
+        "email": {
+            "activate_account": {
+                "subject": "",
+                "body": ""
+            },
+            "confirm_email": {
+                "subject": "",
+                "body": ""
+            },
+            "reset_password": {
+                "subject": "",
+                "body": ""
+            },
+            "send_test": {
+                "subject": "",
+                "body": ""
+            }
+        },
+        "ref": {
+            "all_discussions": "",
+            "change_email": "",
+            "change_password": "",
+            "color": "",
+            "confirm_password": "",
+            "confirm_email": "",
+            "confirmation_email_sent": "",
+            "custom_footer_text": "",
+            "custom_footer_title": "",
+            "custom_header_text": "",
+            "custom_header_title": "",
+            "delete": "",
+            "delete_forever": "",
+            "discussions": "",
+            "edit": "",
+            "edit_user": "",
+            "email": "",
+            "extensions": "",
+            "icon": "",
+            "icon_text": "",
+            "load_more": "",
+            "loading": "",
+            "log_in": "",
+            "log_out": "",
+            "mark_all_as_read": "",
+            "next_page": "",
+            "notifications": "",
+            "okay": "",
+            "password": "",
+            "posts": "",
+            "previous_page": "",
+            "remove": "",
+            "rename": "",
+            "reply": "",
+            "reset_your_password": "",
+            "restore": "",
+            "save_changes": "",
+            "settings": "",
+            "sign_up": "",
+            "some_others": "",
+            "start_a_discussion": "",
+            "username": "",
+            "users": "",
+            "view": "",
+            "write_a_reply": "",
+            "you": ""
+        },
+        "group": {
+            "admin": "",
+            "admins": "",
+            "guest": "",
+            "guests": "",
+            "member": "",
+            "members": "",
+            "mod": "",
+            "mods": ""
+        }
+    }
+}

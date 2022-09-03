@@ -22,7 +22,15 @@
                 "show_flag_label": "Wyświetl flagę kraju obok nazwy języka",
                 "composer_default_label": "Wstępnie wybierz aktualny język w formularzu tworzenia dyskusji",
                 "locale_sort_label": "Użyj wykrytego języka jako domyślnego filtru dyskusji",
-                "show_any_lang_opt_label": "Pozwól na wybranie opcji \"Dowolny język\"."
+                "show_any_lang_opt_label": "Pozwól na wybranie opcji \"Dowolny język\"",
+                "tags_page_discussion_locale_label": "Na podstronie tagów wyświetl jedynie dyskusje pasujące do języka użytkownika",
+                "errors": {
+                    "missing_assets": "Nie udało się wczytać zasobów wymaganych przez to rozszerzenie. Spróbuj uruchomić <code>php flarum assets:publish</code> i sprawdzić czy rozwiązało to ten problem."
+                },
+                "config": {
+                    "language_label": "Język",
+                    "country_label": "Kraj (do wyświetlania flagi)"
+                }
             },
             "permissions": {
                 "allow_change_language_label": "Edytowanie języka dyskusji"

@@ -1,0 +1,74 @@
+{
+    "fof-terms": {
+        "admin": {
+            "settings": {
+                "title": "Einstellungen für Bedingungen",
+                "field": {
+                    "signup-legal-text": "Zusätzlicher Text für das Registrierungs-Formualr",
+                    "hide-updated-at": "Aktualisierungsdatum der Bedingungen nicht anzeigen, wenn eine Aktualisierung verfügbar ist",
+                    "date-format": "Datumsformat",
+                    "date-format-help": "Du kannst jedes gültige <a>Day.js</a> Format verwenden. Leer lassen für Standardformat."
+                }
+            },
+            "titles": {
+                "policies": "Richtlinien"
+            },
+            "buttons": {
+                "new-policy": "Neue Richtlinie",
+                "edit-policy": "Richtlinie bearbeiten",
+                "add-policy": "Richtlinie hinzufügen",
+                "save-policy": "Richtlinie speichern",
+                "delete-policy": "Richtlinie löschen",
+                "set-to-now": "Auf aktuelles Datum stellen"
+            },
+            "messages": {
+                "delete-policy-confirmation": "Dies löscht die Richtlinie {name} und die zugehörigen Akzeptanzdaten aus der Datenbank. Wenn du die Daten aus rechtlichen Gründen benötigst mache bitte eine Sicherung davon. Bist du sicher, dass du diese Richtlinie löschen möchtest?\n"
+            },
+            "policies": {
+                "name": "Namen",
+                "name-help": "Dieser Name wird sowohl neben der Checkbox wie auch im Titel des Update-Overlays angezeigt.",
+                "url": "URL",
+                "url-help": "URL auf die Seite wo die Bedingungen gelesen werden können. Wird bei Anklicken in einem neuen Fenster geöffnet.",
+                "update-message": "Aktualisierungsnachricht",
+                "update-message-help": "Eine Nachricht, die Nutzer:innen angezeigt wird, die den aktuellsten Bedingungen noch nicht zugestimmt haben.",
+                "terms-updated-at": "Aktualisiert am",
+                "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
+                "terms-updated-at-help": "Das Datum der letzten Aktualisierung der Bedingungen. Wird dieser Wert gesetzt, werden alle Nutzer:innen die den Bedingungen vor dem Datum bereits zugestimmt haben zur erneuten Zustimmung aufgefordert. Muss in der Vergangenheit liegen - andernfalls können Nutzer:innen nicht zustimmen und kommen nie über das Overlay hinaus.\n",
+                "export-url": "Download/Export URL",
+                "export-url-help": "Jede:r Nutzer:in mit der Berechtigung \"Download/Export alle Richtlinien Daten\" kann auf diese URL zum Download der Nutzer:innen die dieser Richtlinie zugestimmt haben zugreifen. Du kannst weitere Details über verfügbare Optionen im <a>Extension Wiki</a> finden.\n"
+            },
+            "permissions": {
+                "see-user-policies-state": "Richtlinienstatus des/der Nutzer:in anzeigen",
+                "postpone-policies-accept": "Kann die Akzeptanz der neuen Bedingungen aufschieben",
+                "export-policies": "Download/Export aller Nutzer:innen & Richtlinien Daten"
+            }
+        },
+        "forum": {
+            "signup": {
+                "i-accept": "Ich akzeptiere die <a>{policy}</a>",
+                "must-accept": "Die {policy} müssen akzeptiert werden."
+            },
+            "accept-modal": {
+                "title": "geänderte Bedingungen",
+                "updated-at": "Die Bedingungen wurden am {date} aktualisiert",
+                "updated-recently": "Die Bedingungen wurden seit Deinem letzten Besuch aktualisiert",
+                "i-accept": "Ich akzeptiere die neuen <a>{policy}</a>",
+                "accept": "Bestätigen",
+                "close": "Vielen Dank für deine Zustimmung, du kannst nun zum Forum zurückkehren"
+            },
+            "state-modal": {
+                "title": "Akzeptanz-Status der Bedingungen für Benutzer:in {username}",
+                "accepted-at": "Akzeptiert am {date}",
+                "not-accepted": "Nicht akzeptiert"
+            },
+            "update-alert": {
+                "must-accept-message": "Während Du dir die neuen Bedingungen ansiehst, haben wir den Zugang zum Forum vorübergehend eingeschränkt.",
+                "can-accept-message": "Wir haben unsere Bedingungen kürzlich aktualisiert. Um die Seite weiter zu benutzen, musst du diesen zustimmen.",
+                "review": "Klicke hier, um die neuen Bedingungen zu lesen und zu akzeptieren"
+            },
+            "user_controls": {
+                "state_button": "Akzeptanz-Status der Bedingungen"
+            }
+        }
+    }
+}

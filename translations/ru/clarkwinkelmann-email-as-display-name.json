@@ -1,0 +1,18 @@
+{
+    "clarkwinkelmann-email-as-display-name": {
+        "admin": {
+            "permissions": {
+                "view-own": "Видеть email в своём профиле",
+                "view-all": "Видеть email во всех профилях"
+            },
+            "settings": {
+                "remove-username-registration": "Удалить поле \"Имя пользователя\" из формы регистрации"
+            }
+        },
+        "forum": {
+            "log_in": {
+                "username_or_email_placeholder": "=> core.ref.email"
+            }
+        }
+    }
+}

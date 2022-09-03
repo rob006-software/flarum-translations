@@ -1,0 +1,64 @@
+{
+    "sycho-move-posts": {
+        "admin": {
+            "settings": {
+                "moved_first_post_content": "Moved Discussion (First Post) Content",
+                "moved_first_post_content_help": "When you have a discussion with only one single post, moving that post will result in the initial discussion's first post to be edited to point to the new discussion. You can edit the contents of that post here.\n",
+                "group_sequential_posts": "Group sequential post moved event posts into one."
+            },
+            "permissions": {
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
+            }
+        },
+        "forum": {
+            "badge": {
+                "first_moved_tooltip": "Moved"
+            },
+            "discussion": {
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
+            },
+            "error": {
+                "move_old_post_to_newer_discussion": "=> sycho-move-posts.ref.status.old_to_new_move"
+            },
+            "modal": {
+                "check": "Check Operation Type",
+                "destination": "Destination Discussion",
+                "discussion_help": "The tags of the source discussion will be used, and can be changed after creation.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "New Discussion",
+                "selected_posts": "{count, plural, one {One Post Selected} other {{count} Posts Selected}}",
+                "status": {
+                    "complex_move": "Will be a complex move, posts will be pushed between posts, leading to old URL references of the target discussion's posts to change as well.",
+                    "old_to_new_move": "=> sycho-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Will be a simple move, posts will all be added at the end of the discussion."
+                },
+                "submit": "Proceed",
+                "title": "=> sycho-move-posts.ref.move_posts"
+            },
+            "notifications": {
+                "post_moved_text": "One or more of your posts were moved to {targetDiscussionTitle}."
+            },
+            "post": {
+                "unmove": "Unselect to move",
+                "move": "Select to move",
+                "moving": "Moving Post"
+            },
+            "post_stream": {
+                "post_moved": "{count, plural, one {{username} moved a post to {target_discussion}.} other {{username} moved {count} posts to {target_discussion}.}}"
+            }
+        },
+        "ref": {
+            "move_posts": "Move Posts",
+            "status": {
+                "old_to_new_move": "Cannot move an old post to a newer discussion."
+            }
+        },
+        "lib": {
+            "discussion": {
+                "first_post": {
+                    "default_content": "*This post has been moved to **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
+                }
+            }
+        }
+    }
+}

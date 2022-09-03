@@ -104,7 +104,7 @@
             },
             "extension": {
                 "configure_scopes": "Konfigurace rozsahu",
-                "confirm_uninstall": "Odinstalováním se smažou všechny záznamy v databázi a soubory související s rozšířením. Opravdu chceš pokračovat?",
+                "confirm_purge": "",
                 "disabled": "Deaktivováno",
                 "enable_to_see": "Povolit tomuto rozšíření zobrazovat a měnit nastavení.",
                 "enabled": "Povoleno",
@@ -120,6 +120,13 @@
                 "no_settings": "Toto rozšíření nemá žádné nastavení.",
                 "open_modal": "Otevřít nastavení",
                 "permissions_title": "Oprávnění",
+                "purge_button": "Vyčistit",
+                "readme": {
+                    "button_label": "README",
+                    "no_readme": "Vypadá to, že toto rozšíření nemá soubor README",
+                    "title": "{extName} dokumentace"
+                },
+                "confirm_uninstall": "Odinstalováním se smažou všechny záznamy v databázi a soubory související s rozšířením. Opravdu chceš pokračovat?",
                 "uninstall_button": "Odinstalovat",
                 "saved_message": "Změny byly uloženy."
             },
@@ -303,9 +310,11 @@
             "discussion_list": {
                 "empty_text": "Nebyla nalezena žádná vlákna.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Označit jako přečtené",
                 "replied_text": "Uživatel {username} odpověděl {ago}",
-                "started_text": "Uživatel {username} začal {ago}"
+                "started_text": "Uživatel {username} začal {ago}",
+                "total_replies_a11y_label": "",
+                "unread_replies_a11y_label": "",
+                "mark_as_read_tooltip": "Označit jako přečtené"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -323,7 +332,9 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
+                "search_clear_button_accessible_label": "Vymazat vyhledávání",
                 "search_placeholder": "Prohledat fórum",
+                "search_role_label": "Prohledat forum",
                 "session_dropdown_accessible_label": "Přepnutí rozevírací nabídky možností relace",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -450,6 +461,9 @@
                 "resend_button": "Znovu odeslat potvrzovací zprávu",
                 "sent_message": "Odesláno"
             },
+            "welcome_hero": {
+                "hide": "Skrýt uvítací zprávu"
+            },
             "edit_user": {
                 "activate_button": "Aktivovat účet",
                 "email_heading": "=> core.ref.email",
@@ -465,6 +479,10 @@
             }
         },
         "lib": {
+            "debug_button": "Debugovat",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "Skryté"
             },
@@ -482,18 +500,32 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "username_label": "=> core.ref.username",
+                "nothing_available": "Nemáte práva na úpravu tohoto uživatele."
             },
             "error": {
                 "dependent_extensions_message": "Není možné deaktivovat {extension} dokud nejsou deaktivována tato závislá rozšíření: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "Jejda, něco se pokazilo. Obnov prosím stránku a zkus to znovu.",
                 "missing_dependencies_message": "Není možné povolit {extension} dokud nejsou povolena tato rozšíření: {extensions}",
                 "not_found_message": "Požadovaný zdroj nebyl nalezen.",
+                "payload_too_large_message": "",
                 "permission_denied_message": "Na tuto operaci nemáte dostatečná práva.",
-                "rate_limit_exceeded_message": "Jsi moc rychlý, zkus to prosím za několik sekund znovu."
+                "rate_limit_exceeded_message": "Jsi moc rychlý, zkus to prosím za několik sekund znovu.",
+                "render_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": "Zavřít"
+            },
+            "nav": {
+                "drawer_button": "Otevřít navigační panel"
             },
             "number_suffix": {
                 "kilo_text": "tisíc",
@@ -509,6 +541,26 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "Zakázat",
+                    "empty": "Žádné nainstalované rozšíření",
+                    "enable": "Povolit",
+                    "name": "Název rozšíření",
+                    "package_name": "Název balíčku",
+                    "version": "Verze"
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": "Administrace"
+            },
+            "confirm_email": {
+                "submit_button": "",
+                "text": "Pro potvrzení emailu u vašeho účtu klikněte na tlačítko níže.",
+                "title": ""
+            },
             "content": {
                 "javascript_disabled_message": "Tento web funguje nejlépe v moderním prohlížeči se zapnutým JavaScriptem.",
                 "load_error_message": "Něco se pokazilo, když jsi se pokusil načíst plnou verzi tohoto webu. Zkus stránku natvrdo obnovit.",
@@ -543,6 +595,10 @@
                 "new_password_label": "Nové heslo",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {
@@ -572,6 +628,7 @@
             "change_password": "Změnit heslo",
             "color": "Barva",
             "confirm_password": "Potvrdit heslo",
+            "confirm_email": "Potvrdit email",
             "confirmation_email_sent": "Poslali jsme potvrzovací zprávu na adresu {email}. Pokud brzy nedorazí, zkus se kouknout do složky s nevyžádanou poštou.",
             "custom_footer_text": "Přidej HTML, která se zobrazí na samém konci stránky.",
             "custom_footer_title": "Upravit vlastní zápatí",
@@ -583,6 +640,7 @@
             "edit": "Upravit",
             "edit_user": "Upravit uživatele",
             "email": "E-Mail",
+            "extensions": "Rozšíření",
             "icon": "Ikona",
             "icon_text": "Vložte název <a>FontAwesome</a> ikony, <em>i s</em> <code>fas fa-</code> prefixem.",
             "load_more": "Načíst další",

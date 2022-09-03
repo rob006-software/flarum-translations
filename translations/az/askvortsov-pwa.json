@@ -1,0 +1,93 @@
+{
+    "askvortsov-pwa": {
+        "admin": {
+            "nav": {
+                "pwa_button": "Progressive Web App",
+                "pwa_text": "Flarum -u mobil cihazlarda quraşdırıla bilən Proqressiv Veb Tətbiqi olaraq işə salın."
+            },
+            "pwa": {
+                "about": {
+                    "description_label": "",
+                    "description_text": "Təsviri idarəetmə panelinizdəki 'Əsaslar' səhifəsində təyin edə bilərsiniz.",
+                    "long_name_label": "",
+                    "long_name_text": "İstifadəçiyə göstərilən veb tətbiqinin adı.",
+                    "heading": "Haqqında",
+                    "short_name_label": "",
+                    "short_name_text": "Uzun ad üçün kifayət qədər yer yoxdursa tətbiqin adı istifadəçiyə göstərilir."
+                },
+                "colors": {
+                    "heading": "Rənglər",
+                    "background_color_label": "",
+                    "background_color_text": "Bu, PWA yüklənərkən görünən sıçrayış ekranı üçün yer tutucu rəng olaraq istifadə olunur. Tətbiq həqiqətən yükləndikdə istifadə edilmir.",
+                    "theme_color_label": "",
+                    "theme_color_text": "Bu rəng bəzən cihazlar tərəfindən tətbiqinizi göstərərkən istifadə olunur, məsələn, Android tapşırıq dəyişdiricisində saytı əhatə edən rəng olaraq."
+                },
+                "maintenance": {
+                    "heading": "Baxım",
+                    "debug_label": "Debug rejimi? Bildirişlər haqqında məlumatı `storage/logs` ə daxil edəcək.",
+                    "debug_text": "",
+                    "reset_vapid_text": "",
+                    "reset_vapid_confirm": "",
+                    "reset_vapid_success": ""
+                },
+                "other": {
+                    "heading": "Digər",
+                    "force_portrait_text": "Portret görünüşü məcbur edilsin?"
+                },
+                "heading": "Proqressiv Veb Tətbiq Konfiqurasiyası",
+                "text": "Flarum saytınızı mütərəqqi bir veb tətbiqi olaraq işə salın! Unutmayın ki, bu, saytınızı avtomatik olaraq tətbiqlər mağazasına qoymur. Bunun əvəzinə, istifadəçilərin saytınız üçün 'Ana ekrana əlavə et' seçiminin olması deməkdir. Bəzi status yoxlamaları təqdim edirik, lakin bunu sınamağın ən yaxşı yolu onu sınamaq və quraşdırmaqdır (mütərəqqi veb tətbiqlərinin necə qurulacağına dair təlimatları google -da axtarın). Unutmayın ki, 'bu PWA -nı quraşdırın' popupları brauzerlər tərəfindən idarə olunur və inkişaf etdiricilər/adminlər/proqramlar tərəfindən tetiklenemez. PWA -nın saytınızın sənədlərinə necə qurulacağına dair təlimatları daxil etməyi məsləhət görürəm.",
+                "status_check_heading": "Vəziyyət yoxlanışı",
+                "logo_heading": "Loqotiplər və nişanlar",
+                "logo_text": "",
+                "logo_size_text": "{size} piksel {size} piksel ölçüsündə ölçülən bir logo yükləyin.",
+                "submit_button": "Yadda Saxla",
+                "refreshed_message": "PWA konfiqurasiyası uğurla yeniləndi."
+            },
+            "status": {
+                "config_no_https": "Config.php faylınızdakı url HTTPS istifadə etmir. Proqressiv Veb Tətbiqlərinin işləməsi üçün HTTPS tələb olunur.",
+                "possible_https_disabled": "",
+                "no_logo": "",
+                "no_name": "",
+                "no_vapid_keys": "",
+                "key_gen_failed": "",
+                "suggest_gmp": "",
+                "success": ""
+            }
+        },
+        "forum": {
+            "alerts": {
+                "optin": "Push bildirişləriniz aktivdir, lakin bu cihazı konfiqurasiya etməmisiniz.",
+                "optin_button": "Konfiqurasiya edin"
+            },
+            "discussion_controls": {
+                "share_button": "Paylaş"
+            },
+            "post_controls": {
+                "share_button": "Paylaş",
+                "share_api": {
+                    "title": "{username} 'nın {title}' cavabı"
+                }
+            },
+            "user_controls": {
+                "share_button": "Paylaş"
+            },
+            "settings": {
+                "push_header": "Puşh",
+                "pwa_notifications": {
+                    "access_default": "Brauzer məhdudiyyətləri səbəbindən bu cihazda push bildirişləri almaq üçün qeydiyyatdan keçməlisiniz.",
+                    "access_default_button": "Seçin",
+                    "access_denied": "Bu cihazda push bildirişləri almaq üçün brauzerinizin parametrlərini tənzimləməlisiniz.",
+                    "access_denied_button": "Necə öyrən",
+                    "no_browser_support": "Bu brauzer mütərəqqi veb tətbiqləri üçün push bildirişlərini dəstəkləmir.",
+                    "no_browser_support_button": "Daha ətraflı"
+                }
+            }
+        },
+        "views": {
+            "offline": {
+                "header": "Şəbəkə bağlantısı xətası",
+                "text": "Bu tətbiq şəbəkə bağlantısı tələb edir; oflayn istifadə edilə bilməz. Zəhmət olmasa əlaqənizi yoxlayın."
+            }
+        }
+    }
+}

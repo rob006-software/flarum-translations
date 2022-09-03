@@ -1,0 +1,28 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "amazon": {
+                        "description": "Đăng ký diễn đàn của bạn với cổng Nhà phát triển Amazon {link}",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_amazon_button": "=> fof-oauth.forum.log_in.with_button"
+            },
+            "providers": {
+                "amazon": "=> fof-oauth.lib.providers.amazon"
+            }
+        },
+        "lib": {
+            "providers": {
+                "amazon": "Amazon"
+            }
+        }
+    }
+}

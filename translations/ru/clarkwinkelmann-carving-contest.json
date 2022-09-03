@@ -1,0 +1,63 @@
+{
+    "clarkwinkelmann-carving-contest": {
+        "forum": {
+            "nav": {
+                "contest": "Конкурс по вырезанию тыквы"
+            },
+            "page": {
+                "title": "Конкурс по вырезанию тыквы",
+                "loading": "Загрузка элементов...",
+                "participate": "Участвовать",
+                "already-participated": "Уже участвует",
+                "delete-confirmation": "Вы уверены, что хотите удалить \"{name}\" от {username}?",
+                "like": "Нравится",
+                "already-liked": "Мне нравится это",
+                "unlike": "Не нравится",
+                "refresh": "Обновить",
+                "load-more": "Загрузить больше элементов",
+                "sort": {
+                    "mostLikes": "Самый популярный",
+                    "fewerLikes": "Наименее популярный",
+                    "mostRecent": "Только что размещенные",
+                    "leastRecent": "Давно размещенные"
+                },
+                "likes": {
+                    "you_text": "=> core.ref.you",
+                    "others_link": "=> core.ref.some_others",
+                    "liked_by_self_text": "{users} это нравится.",
+                    "liked_by_text": "{count, plural, one {{users} нравится это.} другим {{users} нравится это.}}"
+                }
+            },
+            "modal": {
+                "title": "Участвовать",
+                "name": "Название вашего экспоната",
+                "submit": "Отправить",
+                "tools": {
+                    "circle": "Круг",
+                    "square": "Квадрат"
+                }
+            },
+            "likes_modal": {
+                "title": "Пользователи, которым нравится этот экспонат"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view": "Смотреть экспонаты",
+                "like": "Отметить понравившиеся экспонаты",
+                "participate": "Участвовать",
+                "moderate": "Модерировать"
+            },
+            "settings": {
+                "maxEntriesPerUser": "Максимум экспонатов от пользователя",
+                "colorMode": "Использовать режим раскраски вместо вырезания"
+            },
+            "colors": {
+                "simple": "Простой цветовой набор",
+                "all": "Любой цвет",
+                "custom": "Пользовательский набор цветов",
+                "custom-help": "Список #hex или rgb() значений, разделенный запятыми"
+            }
+        }
+    }
+}

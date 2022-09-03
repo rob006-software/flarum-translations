@@ -1,0 +1,37 @@
+{
+    "nearata-tags-color-generator": {
+        "admin": {
+            "color_luminosity_label": "Rangning yorqinligi",
+            "color_luminosity_options": {
+                "random": "Tasodifiy",
+                "light": "Nur",
+                "bright": "Yorug'lik",
+                "dark": "Qorong'ulik"
+            },
+            "color_hue_label": "Rang tusi",
+            "color_hue_options": {
+                "random": "Tasodifiy",
+                "red": "Qizil",
+                "orange": "Olovrang",
+                "yellow": "Sariq",
+                "green": "Yashil",
+                "blue": "Ko'k",
+                "purple": "Binafsha",
+                "pink": "Pushti",
+                "monochrome": "Monoxrom"
+            },
+            "generate_color_button": "Tasodifiy rang yaratish",
+            "text_color": {
+                "label": "Matn rangi",
+                "options": {
+                    "default": "Standart",
+                    "theme_primary_color": "Asosiy rang",
+                    "theme_secondary_color": "Ikkilamchi rang",
+                    "custom": "Maxsus rang"
+                },
+                "custom_label": "Maxsus matn rangi",
+                "custom_helptext": "Hex ( \"#\" bilan), rgb(a) yoki hls(a) bo'lishi kerak."
+            }
+        }
+    }
+}

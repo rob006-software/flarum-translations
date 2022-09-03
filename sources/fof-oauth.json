@@ -1,6 +1,8 @@
 {
     "fof-oauth": {
         "admin": {
+            "configure_button_label": "Configure with FoF OAuth",
+            "settings_accessibility_label": "{name} settings",
             "settings": {
                 "only_icons_label": "Only show the Log In Button icons (alternative layout)",
                 "providers": {
@@ -63,6 +65,9 @@
                 "google": "=> fof-oauth.lib.providers.google",
                 "linkedin": "=> fof-oauth.lib.providers.linkedin",
                 "twitter": "=> fof-oauth.lib.providers.twitter"
+            },
+            "signup": {
+                "username_help": "Please choose a username to be known by here"
             },
             "error": {
                 "bad_verification_code": "Invalid or expired verification token. Please try again.",

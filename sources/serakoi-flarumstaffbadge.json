@@ -1,0 +1,28 @@
+{
+    "serakoi-flarumstaffbadge": {
+        "admin": {
+            "staffBadge": {
+                "label": "Staff Badge Text",
+                "help": "The Staff Badge Text (Defaults to 'STAFF')"
+            },
+            "staffBadgeTextColor": {
+                "label": "Staff Badge Color",
+                "help": "Badge Color (Defaults to '#fff')"
+            },
+            "staffBadgeTextBg": {
+                "label": "Staff Badge Background Color",
+                "help": "Badge Color (Defaults to 'rgb(70, 209, 96)')"
+            }
+        },
+        "forum": {
+            "edit_user": {
+                "heading": "Staff Badge Enabled",
+                "placeholder": "Set input to 'true' to activate the badge",
+                "tagList": {
+                    "heading": "User tag list",
+                    "placeholder": "Seperate with ,"
+                }
+            }
+        }
+    }
+}

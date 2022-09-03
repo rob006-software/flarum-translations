@@ -1,0 +1,33 @@
+{
+    "antoinefr-money": {
+        "admin": {
+            "settings": {
+                "title": "Sozlamalar",
+                "moneyforpost": "Yangi xabarnoma uchun berilgan pul",
+                "moneyfordiscussion": "Yangi muhokama uchun berilgan pul",
+                "moneyname": "Pulning nomi (masalan: [pul] ball)",
+                "postminimumlength": "Pul olish uchun postning minimal uzunligi (o'chirish uchun 0)",
+                "noshowzero": "Qiymat nolga teng bo'lsa ko'rsatmang",
+                "moneyforlike": "Postga yoqqanda beriladigan pul",
+                "helpextensionlikes": "<code>flarum/likes</code> kengaytmasini talab qiladi"
+            },
+            "permissions": {
+                "edit_money_label": "Pulni tahrirlash"
+            },
+            "automoderator": {
+                "metric_name": "",
+                "action_name": ""
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "money_button": "Pulni tahrirlash"
+            },
+            "modal": {
+                "title": "{username} ning puli",
+                "current": "Hozirgi:",
+                "submit_button": "=> core.ref.save_changes"
+            }
+        }
+    }
+}

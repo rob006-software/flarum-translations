@@ -1,0 +1,55 @@
+{
+    "fof-user-directory": {
+        "forum": {
+            "header": {
+                "back_to_user_directory_tooltip": "Vissza a felhasználói címtárhoz"
+            },
+            "search": {
+                "users_heading": "Összes felhasználó keresése: „{query}”",
+                "field": {
+                    "placeholder": "Összes felhasználó keresése"
+                },
+                "kinds": {
+                    "group": "Csoport",
+                    "text": "Szabad szöveg"
+                }
+            },
+            "page": {
+                "nav": "Felhasználói címtár",
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "Nem található egyetlen felhasználó sem a keresése alapján.",
+                "filter_button": "Csoportok szűrése",
+                "usercard": {
+                    "discussion-count": "{count, plural, one {#} other {#}} téma",
+                    "post-count": "{count, plural, one {#} other {#}} bejegyzés"
+                }
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view_user_directory": "Felhasználók"
+            },
+            "settings": {
+                "link": "Hivatkozás hozzáadása a főoldalhoz, hogy a felhasználók lássak a címtárat",
+                "default-sort": "Alapértelmezett rendezés",
+                "use-small-cards": "Kisebb felhasználói kártyák használata",
+                "disable-global-search-source": "Ne adja hozzá a felhasználói címtárat a Flarum globális keresési mezőjéhez"
+            }
+        },
+        "lib": {
+            "sort": {
+                "not_specified": "Flarum alapértelmezésének használata",
+                "default": "Alapértelmezett",
+                "username_az": "Felhasználónév (a-z)",
+                "username_za": "Felhasználónév (z-a)",
+                "newest": "Újabbak",
+                "oldest": "Régebbiek",
+                "most_posts": "Legtöbb bejegyzés",
+                "least_posts": "Legkevesebb bejegyzés",
+                "most_discussions": "Legtöbb téma",
+                "least_discussions": "Legkevesebb téma"
+            }
+        }
+    }
+}

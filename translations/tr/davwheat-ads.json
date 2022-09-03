@@ -1,0 +1,47 @@
+{
+    "davwheat": {
+        "ads": {
+            "admin": {
+                "permissions": {
+                    "bypassAds": "Forumdaki reklamları gizle"
+                },
+                "settings": {
+                    "admin_bypass_warning": "Flarum'un izin sisteminin doğası gereği, Admin grubunun üyeleri forumda herhangi bir reklam görmeyecektir. \nReklamlarınızı test etmek istiyorsanız, \nlütfen forumu Gizli veya Gizli pencerede ziyaret edin.\n",
+                    "enabled_locations": "Reklam bölgelerini etkinleştir",
+                    "script_urls": "Özel script URL'leri",
+                    "add_script": "Yeni",
+                    "script_deletion": "Bir komut dosyasını kaldırmak için metin kutusunu boş bırakın ve 'Değişiklikleri Kaydet'e basın.",
+                    "code_input": "HTML Reklam Bölgesi Kodu",
+                    "code_input_disabled": "HTML kodunu düzenlemek için bu konumu etkinleştirin.",
+                    "js_input": "JavaScript Kodu",
+                    "js_input_disabled": "JS kodunu düzenlemek için bu konumu etkinleştirin.",
+                    "use_adsense": "AdSense Kullan",
+                    "pub_id": "AdSense Yayıncı Kimliği",
+                    "between_posts_gap": "Gönderiler arasında: reklamlar arasındaki boşluk",
+                    "allow_after_placeholder": "Gönderiler arasında: yanıtlayıcı sonra reklam göster",
+                    "save_btn": {
+                        "dirty": "Değişiklikleri kaydet",
+                        "saving": "Kaydediliyor...",
+                        "saved": "Tüm değişiklikler kaydedildi",
+                        "fix_errors": "Kaydetmeden önce hataları giderin"
+                    },
+                    "alert": {
+                        "fix_errors": "Değişiklikleri kaydetmeden önce aşağıdaki hataları giderin",
+                        "code_has_script": "Reklam kodlarınızdan biri veya daha fazlası, izin verilmeyen komut dosyası etiketleri içeriyor. Bunları kaldırıp tekrar deneyin."
+                    },
+                    "warning": "<b>Talimatlar:</b>\n<br></br>\n<b>HTML</b> - Bu kutuya reklam için HTML içeriği ekleyin. Bu kutuya herhangi bir {script} etiketi eklemeyin. Script kodları çalışmaz.\n<br></br>\n<b>JS</b> - Bir komut dosyası etiketine eklemek için özel Javascript kodu ekleyin. Bu, {script} etiketinin kendisini <b>İÇERMEMELİ</b>.\n"
+                }
+            },
+            "lib": {
+                "locations": {
+                    "discussion_header": "Tartışma sayfası (üst başlık altında)",
+                    "discussion_sidebar": "Tartışma gezinti çubuğu (yalnızca masaüstü)",
+                    "header": "Üst Başlık",
+                    "sidebar": "Yan menü (yalnızca masaüstü)",
+                    "footer": "Alt bilgi",
+                    "between_posts": "Gönderiler arasında"
+                }
+            }
+        }
+    }
+}

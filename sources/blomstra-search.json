@@ -1,0 +1,14 @@
+{
+    "blomstra-search": {
+        "admin": {
+            "elastic-endpoint": "Elastic Endpoint",
+            "elastic-username": "=> core.ref.username",
+            "elastic-password": "=> core.ref.password",
+            "elastic-index": "Index",
+            "analyzer": {
+                "label": "Analyzer language",
+                "help": "The analyzer makes search understand stop words and undertakes language\nspecific improvements for indexing.\n"
+            }
+        }
+    }
+}

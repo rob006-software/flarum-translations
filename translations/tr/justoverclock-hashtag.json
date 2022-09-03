@@ -1,8 +1,15 @@
 {
     "justoverclock-hashtag": {
+        "admin": {
+            "settings": {
+                "regexlabel": "Etiket Normal İfadesi",
+                "regexdesc": "Aşağıda yer tutucu olarak bir örnek gösterilmiştir. Yalnızca Normal İfadeleri anlıyorsanız düzenleyin.",
+                "oldregexdesc": "İşte eski hashtag normal ifadeniz: <code>{regex}</code>"
+            }
+        },
         "forum": {
             "post": {
-                "hashtag_link_tooltip": "Bu tabelayı Flarum'da ara"
+                "hashtag_link_tooltip": "Bu etiket ile ilgili gönderileri bulun"
             }
         }
     }

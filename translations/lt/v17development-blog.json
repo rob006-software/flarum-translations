@@ -1,25 +1,27 @@
 {
     "v17development-flarum-blog": {
         "admin": {
-            "blog": "",
+            "blog": "Tinklaraštis",
             "permissions": {
-                "write_articles": "",
-                "auto_approve_posts": "",
-                "approve_posts": ""
+                "write_articles": "Rašykite ir redaguokite tinklaraščio straipsnius",
+                "auto_approve_posts": "Skelbti straipsnius be patvirtinimo",
+                "approve_posts": "Gali patvirtinti tinklaraščio straipsnius"
             },
             "settings": {
-                "no_categories_selected": "",
-                "selected_category_count": "",
-                "select_categories_button": "",
-                "blog_heading": "",
-                "allow_comments_label": "",
-                "allow_comments_text": "",
-                "require_review_label": "",
-                "require_review_text": "",
-                "hide_on_discussion_list_label": "",
-                "hide_on_discussion_list_text": "",
-                "add_sidebar_nav_label": "",
-                "add_sidebar_nav_text": "",
+                "no_categories_selected": "Nepasirinkta jokių kategorijų",
+                "selected_category_count": "{count, plural, one {You have # pasirinktą kategoriją} other {You have # pasirinktas kategorijas}}",
+                "select_categories_button": "Pasirinkite tinklaraščio kategorijas",
+                "blog_heading": "Tinklaraštis",
+                "featured_count_label": "Daugiausia geriausių pranešimų",
+                "featured_count_text": "Kiek įrašų turėtų būti rodoma dideliame tinklelyje tinklaraščio puslapio viršuje?",
+                "allow_comments_label": "Leisti komentuoti",
+                "allow_comments_text": "Pagal numatytuosius nustatymus leisti komentuoti tinklaraščio įrašus. Kai išjungta, jį galima įjungti atskirai kiekvienam tinklaraščio įrašui. <b>Pastaba:</b> šio nustatymo pakeitimas neturės įtakos esamiems tinklaraščio įrašams.",
+                "require_review_label": "Tinklaraščio įrašus reikia peržiūrėti",
+                "require_review_text": "Skelbiant straipsnį jis nebus matomas tiesiogiai ir jį turi peržiūrėti moderatorius.",
+                "hide_on_discussion_list_label": "Nerodyti diskusijų sąraše",
+                "hide_on_discussion_list_text": "Slėpti tinklaraščio įrašus iš diskusijų sąrašo.",
+                "add_sidebar_nav_label": "Pridėti prie šoninės juostos naršymo",
+                "add_sidebar_nav_text": "Įtraukite nuorodą į tinklaraštį šoninės juostos naršymo meniu.",
                 "categories_heading": "",
                 "hide_tags_in_taglist_label": "",
                 "hide_tags_in_taglist_text": "",
@@ -31,7 +33,9 @@
                 "redirect_tags_label": "",
                 "redirect_tags_text": "",
                 "default_article_image_label": "",
-                "default_article_image_text": ""
+                "default_article_image_text": "",
+                "add_hero_label": "",
+                "add_hero_text": ""
             }
         },
         "forum": {
@@ -96,6 +100,24 @@
                 "comment_section": "",
                 "no_blog_tags_selected": "",
                 "post_without_blog_info": ""
+            },
+            "article_settings": {
+                "title": "",
+                "fields": {
+                    "summary": {
+                        "title": "",
+                        "placeholder": "",
+                        "helper_text": ""
+                    },
+                    "image": {
+                        "title": "",
+                        "helper_text": ""
+                    },
+                    "highlight": {
+                        "title": "",
+                        "helper_text": ""
+                    }
+                }
             }
         }
     }

@@ -5,32 +5,32 @@
                 "colored_header_label": "වර්ණික ශීර්ෂය",
                 "colors_heading": "වර්ණ",
                 "colors_text": "ඔබගේ සංසදය තේමා කිරීමට වර්ණ දෙකක් තෝරන්න. පළමුවැන්න ඉස්මතු කිරීමේ වර්ණයක් ලෙස භාවිතා කරන අතර දෙවැන්න පසුබිම් අංග අලංකාර කිරීමට යොදා ගනී.",
-                "custom_footer_heading": "",
+                "custom_footer_heading": "අභිරුචි පාදතලය",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "අභිරුචි ශීර්ෂය",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_heading": "",
-                "custom_styles_text": "",
+                "custom_styles_heading": "අභිරුචි මෝස්තර",
+                "custom_styles_text": "ෆ්ලාරම් පෙරනිමි විලාස මතින් ඔබගේම Less/සීඑස්එස් කේතයක් එක් කිරීමෙන් ඔබගේ සංසදය අභිරුචිකරණය කරන්න.",
                 "dark_mode_label": "අඳුරු ආකාරය",
-                "description": "",
+                "description": "ඔබගේ සංසදයේ වර්ණ, ලාංඡන, සහ වෙනත් විචල්‍ය අභිරුචිකරණය.",
                 "edit_css_button": "අභිරුචි සීඑස්එස් සංස්කරණය",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
-                "enter_hex_message": "",
-                "favicon_heading": "",
-                "favicon_text": "",
+                "enter_hex_message": "ෂඩ්දශමය වර්ණ කේතයක් ඇතුල් කරන්න.",
+                "favicon_heading": "කෙටි නිරූපකය",
+                "favicon_text": "සංසදයේ කෙටිමං නිරූපකය ලෙස දිස්වීමට අනුරුවක් උඩුගත කරන්න.",
                 "logo_heading": "ලාංඡනය",
-                "logo_text": "",
-                "title": ""
+                "logo_text": "සංසදයෙහි සිරැසිය පිහිටුමේ දිස්වීමට අනුරුවක් උඩුගත කරන්න.",
+                "title": "පෙනුම"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "පොදු භාෂාව",
                 "description": "ඔබගේ සංසදයේ මාතෘකාව, භාෂාව සහ වෙනත් මූලික සැකසුම් සකසන්න.",
-                "display_name_heading": "",
+                "display_name_heading": "පරිශීලකගේ දර්ශන නාමය",
                 "display_name_text": "",
-                "forum_description_heading": "සංසදයේ විස්තරය",
-                "forum_description_text": "",
+                "forum_description_heading": "සංසදයේ සවිස්තරය",
+                "forum_description_text": "ඔබගේ ප්‍රජාව විස්තර කෙරෙන වාක්‍යයක් හො දෙකක් යොදන්න. මෙය පාර අනන්‍යයෙහි හා සෙවුම් යන්ත්‍ර වල පෙනෙනු ඇත.",
                 "forum_title_heading": "සංසදයේ මාතෘකාව",
                 "home_page_heading": "මුල් පිටුව",
                 "home_page_text": "",
@@ -48,7 +48,7 @@
                 "tools_button": "මෙවලම්"
             },
             "edit_css": {
-                "customize_text": "",
+                "customize_text": "ෆ්ලාරම් <a>පෙරනිමි විලාස</a> මතින් ඔබගේම Less/සීඑස්එස් කේතයක් එක් කිරීමෙන් සංසදය අභිරුචිකරණය කරන්න.",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "අභිරුචි සීඑස්එස් සංස්කරණය"
             },
@@ -61,12 +61,12 @@
                 "color_label": "=> core.ref.color",
                 "delete_button": "",
                 "delete_confirmation": "",
-                "hide_label": "",
+                "hide_label": "සංසදයෙහි සඟවන්න",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "නම",
-                "plural_placeholder": "",
-                "singular_placeholder": "",
+                "plural_placeholder": "බහු (උදා. මැදිහත්කරුවන්)",
+                "singular_placeholder": "ඒක (උදා. මැදිහත්කරු)",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "සමූහයක් සාදන්න"
             },
@@ -82,7 +82,7 @@
                 "driver_label": "",
                 "from_label": "යවන්නා",
                 "mail_encryption_label": "සංකේතාංකනය",
-                "mail_host_label": "",
+                "mail_host_label": "සත්කාරකය",
                 "mail_mailgun_domain_label": "වසම",
                 "mail_mailgun_region_label": "කලාපය",
                 "mail_mailgun_secret_label": "රහස්‍ය යතුර",
@@ -100,15 +100,15 @@
             },
             "extension": {
                 "configure_scopes": "",
-                "confirm_uninstall": "",
+                "confirm_purge": "",
                 "disabled": "අබල කර ඇත",
                 "enable_to_see": "",
                 "enabled": "සබල කර ඇත",
                 "info_links": {
                     "discuss": "සාකච්ඡා කරන්න",
-                    "documentation": "",
+                    "documentation": "ප්‍රලේඛනය",
                     "donate": "පරිත්‍යාග",
-                    "source": "",
+                    "source": "මූලාශ්‍රය",
                     "support": "සහාය",
                     "website": "වියමන අඩවිය"
                 },
@@ -116,6 +116,13 @@
                 "no_settings": "",
                 "open_modal": "සැකසුම් විවෘත කරන්න",
                 "permissions_title": "අවසර",
+                "purge_button": "පවිත්‍ර කරන්න",
+                "readme": {
+                    "button_label": "මෙය කියවන්න",
+                    "no_readme": "",
+                    "title": "{extName} ප්‍රලේඛනය"
+                },
+                "confirm_uninstall": "",
                 "uninstall_button": "අස්ථාපනය"
             },
             "header": {
@@ -132,12 +139,12 @@
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
                     "authentication": "සත්‍යාපනය",
-                    "core": "",
+                    "core": "මධ්‍යය වින්‍යාසය",
                     "discussion": "සාකච්ඡාව",
                     "feature": "විශේෂාංග",
-                    "formatting": "",
+                    "formatting": "ආකෘතිකරණය",
                     "language": "භාෂා",
-                    "moderation": "",
+                    "moderation": "මැදිහත්කරණය",
                     "other": "",
                     "theme": "තේමා"
                 },
@@ -152,7 +159,7 @@
                 "search_placeholder": ""
             },
             "permissions": {
-                "allow_post_editing_label": "",
+                "allow_post_editing_label": "පළ කිරීම් සංස්කරණයට ඉඩදෙන්න",
                 "allow_renaming_label": "නැවත නම් කිරීමට ඉඩ දෙන්න",
                 "create_heading": "සාදන්න",
                 "delete_discussions_forever_label": "",
@@ -160,12 +167,12 @@
                 "delete_posts_forever_label": "",
                 "delete_posts_label": "",
                 "description": "දැකිය හැකිවන්නේ කාටද සහ කළ හැකි දේ වින්‍යාසගත කරන්න.",
-                "edit_posts_label": "",
+                "edit_posts_label": "පළ කිරීම් සංස්කරණය",
                 "edit_users_label": "",
                 "edit_users_credentials_label": "",
                 "edit_users_groups_label": "පරිශීලක සමූහ සංස්කරණය",
-                "global_heading": "",
-                "moderate_heading": "",
+                "global_heading": "ගෝලීය",
+                "moderate_heading": "මැදිහත්කරණය",
                 "new_group_button": "නව සමූහය",
                 "participate_heading": "සහභාගී වන්න",
                 "post_without_throttle_label": "රැඳී නොසිට කිහිප වතාවක් පිළිතුරු දෙන්න",
@@ -173,12 +180,12 @@
                 "rename_discussions_label": "සාකච්ඡාව නැවත නම් කරන්න",
                 "reply_to_discussions_label": "සාකච්ඡාවලට පිළිතුරු  දෙන්න",
                 "search_users_label": "පරිශීලකයින් සොයන්න",
-                "sign_up_label": "",
+                "sign_up_label": "ලියාපදිංචිය",
                 "start_discussions_label": "සාකච්ඡා අරඹන්න",
                 "title": "අවසර",
-                "view_forum_label": "",
+                "view_forum_label": "සංසදය දකින්න (සාකච්ඡා හා පරිශීලකයින්)",
                 "view_hidden_groups_label": "",
-                "view_last_seen_at_label": "",
+                "view_last_seen_at_label": "සැමවිටම පරිශීලක අවසන දුටු වේලාව දකින්න",
                 "view_post_ips_label": ""
             },
             "permissions_controls": {
@@ -224,7 +231,7 @@
                             "title": "හැඳුනුම"
                         },
                         "username": {
-                            "profile_link_tooltip": "",
+                            "profile_link_tooltip": "{username} ගේ පැතිකඩට පිවිසෙන්න",
                             "title": "=> core.ref.username"
                         }
                     },
@@ -233,7 +240,7 @@
                 "pagination": {
                     "back_button": "පෙර පිටුව",
                     "next_button": "ඊලඟ පිටුව",
-                    "page_counter": ""
+                    "page_counter": "පිටුව {current} / {total}"
                 },
                 "title": "=> core.ref.users",
                 "total_users": "මුළු පරිශීලකයින්: {count}"
@@ -244,12 +251,12 @@
                 "confirm_password_placeholder": "=> core.ref.confirm_password",
                 "confirmation_message": "=> core.ref.confirmation_email_sent",
                 "dismiss_button": "=> core.ref.okay",
-                "incorrect_password_message": "ඔබ ඇතුළත් කළ මුරපදය වැරදිය.",
+                "incorrect_password_message": "ඔබ ඇතුල් කළ මුරපදය වැරදිය.",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.change_email"
             },
             "change_password": {
-                "send_button": "",
+                "send_button": "මුරපදය යළි සැකසීමේ වි-තැපෑල යවන්න",
                 "text": "ඔබගේ මුරපදය වෙනස් කිරීම සඳහා පහත බොත්තම එබීමෙන් පසු සබැඳියක් සඳහා ඔබගේ වි-තැපෑල පරීක්ෂා කරන්න.",
                 "title": "=> core.ref.change_password"
             },
@@ -262,13 +269,13 @@
             },
             "composer_discussion": {
                 "body_placeholder": "",
-                "discard_confirmation": "",
-                "submit_button": "",
+                "discard_confirmation": "ඔබගේ සාකච්ඡාව පළ කර නැත. එය ඉවත ලනවා ද?",
+                "submit_button": "සාකච්ඡාව පළකරන්න",
                 "title": "=> core.ref.start_a_discussion",
                 "title_placeholder": "සාකච්ඡාවෙහි මාතෘකාව"
             },
             "composer_edit": {
-                "discard_confirmation": "",
+                "discard_confirmation": "ඔබගේ වෙනස්කම් සුරැකී නැත. එය ඉවත ලනවා ද?",
                 "edited_message": "ඔබගේ සංස්කරණය සිදු කරන ලදි.",
                 "post_link": "",
                 "submit_button": "=> core.ref.save_changes",
@@ -276,9 +283,9 @@
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
-                "discard_confirmation": "",
-                "posted_message": "",
-                "submit_button": "",
+                "discard_confirmation": "ඔබගේ පිළිතුර පළ කර නැත. එය ඉවත ලනවා ද?",
+                "posted_message": "ඔබගේ පිළිතුර පළ කර ඇත.",
+                "submit_button": "පිළිතුර පළ කරන්න",
                 "view_button": "=> core.ref.view"
             },
             "discussion_controls": {
@@ -296,17 +303,19 @@
             "discussion_list": {
                 "empty_text": "මෙහි කිසිදු සාකච්ඡාවක් නොමැති බව පෙනේ.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "කියවූ ලෙස සලකුණු කරන්න",
                 "replied_text": "{username} {ago} ට පෙර පිළිතුරු දී ඇත",
-                "started_text": "{username} {ago} ට පෙර ආරම්භ කර ඇත"
+                "started_text": "{username} {ago} ට පෙර ආරම්භ කර ඇත",
+                "total_replies_a11y_label": "",
+                "unread_replies_a11y_label": "",
+                "mark_as_read_tooltip": "කියවූ ලෙස සලකුණු කරන්න"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "",
+                "email_sent_message": "මුරපදය යළි සැකසීමට සබැඳියක් අන්තර්ගත වි-තැපෑලක් එවා ඇත. ඊළඟ විනාඩිය හෝ දෙක තුළ එය නොලැබුනේ නම් අයාචිත බහාලුම පරීක්‍ෂා කරන්න.",
                 "not_found_message": "මෙම වි-තැපැල් ලිපිනය සමඟ කිසිම පරිශීලකයෙකු ලියාපදිංචි වී නැත.",
-                "submit_button": "",
-                "text": "",
+                "submit_button": "මුරපදය ප්‍රතිසාධනය",
+                "text": "ඔබගේ වි-තැපෑල ඇතුල් කිරීමෙන් පසු මුරපදය යළි සැකසීමේ සබැඳියක් ලැබෙනු ඇත.",
                 "title": "මුරපදය අමතක වුණා"
             },
             "header": {
@@ -316,7 +325,9 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "පැතිකඩ",
+                "search_clear_button_accessible_label": "විමසුම හිස්කරන්න",
                 "search_placeholder": "සංසදයෙහි සොයන්න",
+                "search_role_label": "සංසදයෙහි සොයන්න",
                 "session_dropdown_accessible_label": "",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -332,19 +343,19 @@
                 "toggle_sidenav_dropdown_accessible_label": ""
             },
             "index_sort": {
-                "latest_button": "",
-                "newest_button": "",
+                "latest_button": "අන්තිම",
+                "newest_button": "නවතම",
                 "oldest_button": "පැරණිතම",
                 "relevance_button": "අදාළත්වය",
                 "toggle_dropdown_accessible_label": "",
-                "top_button": ""
+                "top_button": "මුදුන"
             },
             "log_in": {
                 "forgot_password_link": "මුරපදය අමතක වුණා ද?",
                 "invalid_login_message": "ඔබගේ පිවිසුම් තොරතුරු වැරදිය.",
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "මාව මතක තබාගන්න",
-                "sign_up_text": "",
+                "sign_up_text": "ගිණුමක් නැති ද? <a>ලියාපදිංචිය</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
                 "username_or_email_placeholder": "පරිශීලක නාමය හෝ වි-තැපෑල"
@@ -374,7 +385,7 @@
             },
             "post_scrubber": {
                 "now_link": "දැන්",
-                "original_post_link": "",
+                "original_post_link": "මුල් පළ කිරීම",
                 "unread_text": "නොකියවූ {count}",
                 "viewing_text": ""
             },
@@ -421,16 +432,16 @@
                 "avatar_upload_button": "උඩුගත කරන්න",
                 "avatar_upload_tooltip": "",
                 "discussions_link": "=> core.ref.discussions",
-                "in_discussion_text": "",
+                "in_discussion_text": "{discussion} හි",
                 "joined_date_text": "{ago} එක් විය",
                 "online_text": "",
-                "posts_empty_text": "",
+                "posts_empty_text": "මෙතැන කිසිම පළ කිරීමක් නැති බව පෙනේ.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
-                "button": "",
+                "button": "පාලක",
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "",
                 "delete_error_message": "",
@@ -441,39 +452,60 @@
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "තහවුරුකිරීමේ වි-තැපෑල නැවත යවන්න",
-                "sent_message": ""
+                "sent_message": "යැවිණි"
+            },
+            "welcome_hero": {
+                "hide": "පිළිගැනීමේ පණිවිඩය සඟවන්න"
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": "ඇඟවීම අස්කරන්න"
+            },
             "badge": {
-                "hidden_tooltip": ""
+                "hidden_tooltip": "සැඟවුනු"
             },
             "dropdown": {
                 "toggle_dropdown_accessible_label": ""
             },
             "edit_user": {
-                "activate_button": "",
+                "activate_button": "පරිශීලක ක්‍රියාත්මක කරන්න",
                 "email_heading": "=> core.ref.email",
                 "email_label": "=> core.ref.email",
                 "groups_heading": "සමූහ",
                 "password_heading": "=> core.ref.password",
                 "password_label": "=> core.ref.password",
-                "set_password_label": "",
+                "set_password_label": "නව මුරපදයක් සකසන්න",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "username_label": "=> core.ref.username",
+                "nothing_available": "ඔබට මෙම පරිශීලක සංස්කරණයට ඉඩ නැත."
             },
             "error": {
                 "dependent_extensions_message": "",
-                "generic_message": "",
+                "extension_initialiation_failed_message": "",
+                "generic_message": "අපොයි! යම් වරදක් සිදුවිණි. පිටුව නැවත පූරණය කරන්න.",
                 "missing_dependencies_message": "",
-                "not_found_message": "",
+                "not_found_message": "ඉල්ලූ සම්පත හමු නොවිණි.",
+                "payload_too_large_message": "",
                 "permission_denied_message": "ඔබට එය කිරීමට අවසර නැත.",
-                "rate_limit_exceeded_message": "ඔබ ටිකක් ඉක්මණින් යනවා. කරුණාකර තත්පර කිහිපයකින් නැවත උත්සාහ කරන්න."
+                "rate_limit_exceeded_message": "ඔබ ටිකක් ඉක්මණින් යනවා. කරුණාකර තත්පර කිහිපයකින් නැවත උත්සාහ කරන්න.",
+                "render_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": "වසන්න"
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "",
@@ -489,9 +521,29 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "=> core.ref.extensions",
+                    "disable": "අබල කරන්න",
+                    "empty": "",
+                    "enable": "සබල කරන්න",
+                    "name": "",
+                    "package_name": "ඇසුරුමේ නම",
+                    "version": "අනුවාදය"
+                },
+                "info": {
+                    "caption": "යෙදුමේ තොරතුරු"
+                },
+                "title": "පරිපාලනය"
+            },
+            "confirm_email": {
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "",
+                "title": "=> core.ref.confirm_email"
+            },
             "content": {
-                "javascript_disabled_message": "",
-                "load_error_message": "",
+                "javascript_disabled_message": "ජාවාස්ක්‍රිප්ට් සබල කර ඇති නවීන අතිරික්සුවකින් මෙම අඩවිය හොඳින් දැකීමට හැකිය.",
+                "load_error_message": "මෙම අඩවියේ පූර්ණ අනුවාදය පූරණය කිරීමේදී යම් වරදක් සිදුවිණි. දෝෂය නිවරදි වීමට පිටුව නැවුම් කර බලන්න.",
                 "loading_text": "=> core.ref.loading"
             },
             "discussion": {
@@ -504,7 +556,7 @@
                 "invalid_confirmation_token": "මෙම තහවුරු කිරීමේ සබැඳිය දැනටමත් භාවිතා කර හෝ වලංගු නොවේ.",
                 "not_authenticated": "ඔබට මෙම පිටුවට ප්‍රවේශ වීමට අවසර නැත. පිවිසීමෙන් පසු නැවත උත්සාහ කරන්න.",
                 "not_found": "ඔබ ඉල්ලූ පිටුව සොයාගත නොහැකි විය.",
-                "not_found_return_link": "",
+                "not_found_return_link": "{forum} වෙත ආපසු",
                 "permission_denied": "මෙම පිටුවට ප්‍රවේශ වීමට ඔබට අවසර නැත.",
                 "unknown": "මෙම පිටුව පූරණය කිරීමට උත්සාහ කිරීමේදී දෝෂයක් ඇතිවිය."
             },
@@ -523,6 +575,10 @@
                 "new_password_label": "නව මුරපදය",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {
@@ -530,19 +586,19 @@
         },
         "email": {
             "activate_account": {
-                "subject": "ඔබගේ නව ගිණුම සක්‍රිය කරන්න",
-                "body": ""
+                "subject": "ඔබගේ නව ගිණුම ක්‍රියාත්මක කරන්න",
+                "body": "ආයුබෝ {username}!\n\nමෙම වි-තැපෑල සමඟ {forum} ට යමෙකු (බොහෝ විට ඔබ!) ලියාපදිංචි වී ඇත.\n\nඒ ඔබ නම්, පහත සබැඳිය එබීමෙන් පසු ඔබගේ ගිණුම ක්‍රියාත්මක වනු ඇත:\n{url}\n\nඔබ ලියාපදිංචි නොවූ යේ නම් මෙම වි-තැපෑල නොසලකන්න.\n"
             },
             "confirm_email": {
                 "subject": "",
                 "body": ""
             },
             "reset_password": {
-                "subject": "",
-                "body": ""
+                "subject": "=> core.ref.reset_your_password",
+                "body": "ආයුබෝ {username}!\n\n{forum} හි ගිණුම සඳහා යමෙකු (බොහෝ විට ඔබ!) අමතක වූ මුරපදය ගැන ඉල්ලීමක් යොමු කර ඇත.\n\nඒ ඔබ නම්, මුරපදය නැවත සැකසීමට පහත සබැඳිය ඔබන්න:\n{url}\n\nමුරපදය වෙනස් කිරීමට බලාපොරොත්තු නොවන්නේ නම් මෙම වි-තැපෑල නොසලකන්න.\n"
             },
             "send_test": {
-                "subject": "",
+                "subject": "ෆ්ලාරම් වි-තැපැල් අත්හදා බැලීම",
                 "body": ""
             }
         },
@@ -552,18 +608,20 @@
             "change_password": "මුරපදය වෙනස් කරන්න",
             "color": "වර්ණය",
             "confirm_password": "මුරපදය තහවුරු කරන්න",
+            "confirm_email": "",
             "confirmation_email_sent": "",
-            "custom_footer_text": "",
-            "custom_footer_title": "",
-            "custom_header_text": "",
-            "custom_header_title": "",
+            "custom_footer_text": "පිටුවේ පහළින්ම දර්ශනය වීමට HTML එක් කරන්න.",
+            "custom_footer_title": "අභිරුචි පාදතලය සංස්කරණය",
+            "custom_header_text": "ෆ්ලාරම් හි ශීර්ෂයට ඉහළින් පිටුවේ මුදුනින් ම දර්ශනය වීමට HTML එක් කරන්න.",
+            "custom_header_title": "අභිරුචි ශීර්ෂය සංස්කරණය",
             "delete": "",
             "delete_forever": "",
             "discussions": "සාකච්ඡා",
             "edit": "සංස්කරණය",
             "edit_user": "පරිශීලක සංස්කරණය",
             "email": "වි-තැපෑල",
-            "icon": "",
+            "extensions": "",
+            "icon": "නිරූපකය",
             "icon_text": "",
             "load_more": "තව පූරනය කරන්න",
             "loading": "පූරණය වෙමින්...",
@@ -574,21 +632,21 @@
             "notifications": "දැනුම්දීම්",
             "okay": "හරි",
             "password": "මුරපදය",
-            "posts": "",
+            "posts": "පළ කිරීම්",
             "previous_page": "පෙර පිටුව",
             "remove": "ඉවත් කරන්න",
             "rename": "නැවත නම් කරන්න",
             "reply": "පිළිතුර",
-            "reset_your_password": "",
-            "restore": "",
+            "reset_your_password": "ඔබගේ මුරපදය යළි සකසන්න",
+            "restore": "ප්‍රත්‍යර්පණය",
             "save_changes": "වෙනස්කම් සුරකින්න",
             "settings": "සැකසුම්",
-            "sign_up": "",
+            "sign_up": "ලියාපදිංචිය",
             "some_others": "",
             "start_a_discussion": "සාකච්ඡාවක් අරඹන්න",
             "username": "පරිශීලක නාමය",
             "users": "පරිශීලකයින්",
-            "view": "",
+            "view": "දකින්න",
             "write_a_reply": "පිළිතුරක් ලියන්න ...",
             "you": "ඔබ"
         },
@@ -599,8 +657,8 @@
             "guests": "අමුත්තන්",
             "member": "සාමාජිකයා",
             "members": "සාමාජිකයින්",
-            "mod": "",
-            "mods": ""
+            "mod": "මැදිහත්කරු",
+            "mods": "මැදිහත්කරුවන්"
         }
     }
 }

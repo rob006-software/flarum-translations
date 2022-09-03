@@ -1,0 +1,43 @@
+{
+    "nearata-twofactor": {
+        "admin": {
+            "settings": {
+                "generate_backups": "生成恢复代码"
+            },
+            "permissions": {
+                "can_enable_twofactor": ""
+            }
+        },
+        "forum": {
+            "invalid_twofa_code": "两步验证码错误",
+            "invalid_twofa_setup": "密码或验证码错误",
+            "log_in_modal": {
+                "submit_button": "登录",
+                "otp_placeholder": "两步验证码",
+                "title": "两步验证"
+            },
+            "setup_button": "两步验证",
+            "setup_modal": {
+                "backups": {
+                    "copy_button": "复制",
+                    "download_button": "下载",
+                    "download_file_format": "{website_title} | {website_url}\n\n请妥善保存您的恢复代码。\n\n恢复代码：\n\n{codes}\n\n* 每个恢复代码仅限使用一次。\n* 恢复代码必须按照上方所列顺序依次使用。\n* 当期恢复代码生成时间 {date}。\n",
+                    "modal_message": "请妥善保存恢复代码。验证设备遗失或不可用时，恢复代码是登录账号的唯一方式。\n"
+                },
+                "close_button": "关闭",
+                "disabled": "两步验证已关闭。",
+                "enabled": "两步验证已开启。",
+                "enter_code_disable": "输入验证码以关闭两步验证。",
+                "enter_code_manually": "无法扫描二维码？手动输入验证器秘钥",
+                "passcode_placeholder": "两步验证码",
+                "password_placeholder": "账号密码",
+                "scan_qr": "使用验证设备扫描二维码以添加账号。",
+                "submit_button": {
+                    "enable": "启用",
+                    "disable": "禁用"
+                },
+                "title": "两步验证"
+            }
+        }
+    }
+}

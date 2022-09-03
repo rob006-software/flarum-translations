@@ -1,0 +1,32 @@
+{
+    "clarkwinkelmann-follow-tags-prompt": {
+        "forum": {
+            "controls": {
+                "choose": "Válassza ki a követendő címkéket"
+            },
+            "modal": {
+                "title": "Válassza ki a követendő címkéket",
+                "later": "Emlékeztessen később",
+                "continue": "Tovább a fórumhoz"
+            }
+        },
+        "admin": {
+            "settings": {
+                "buttonOnFollowingPage": "Gomb megjelenítése a Követés oldalon",
+                "allDiscussionsOnFollowingPageForGuests": "Az összes téma megjelenítése a vendégek számára a Követés oldalon",
+                "availableTagStrategy": "A párbeszédablakon felkínálandó címkék",
+                "tagStrategy": {
+                    "primary": "Elsőszintű elsődleges címkék",
+                    "primaryAndChildren": "Összes elsődleges címke, szinttől függetlenül",
+                    "primaryAndSecondary": "Elsőszintű elsődleges címkék és másodlagos címkék",
+                    "secondary": "Csak a másodlagos címkék",
+                    "all": "Összes címke",
+                    "list": "Alább kiválasztott címkék"
+                }
+            },
+            "homepage": {
+                "following": "Követés"
+            }
+        }
+    }
+}

@@ -12,15 +12,18 @@
                 "edit_recipients": "",
                 "send_pd": "",
                 "cancel": "",
+                "make_public": "",
                 "remove_from_discussion": ""
             },
             "composer_private_discussion": {
                 "submit_button": "",
                 "title_placeholder": ""
             },
+            "confirm": {
+                "make_public": ""
+            },
             "labels": {
-                "recipients": "",
-                "user_deleted": ""
+                "recipients": ""
             },
             "nav": {
                 "start_button": "",
@@ -54,6 +57,7 @@
                 "recipients_modified": {
                     "added_and_removed": "",
                     "added": "",
+                    "made_public": "",
                     "removed": "",
                     "removed_self": ""
                 }
@@ -83,10 +87,13 @@
                 "create_private_discussions_with_blocking_users": "",
                 "edit_user_recipients": "",
                 "edit_group_recipients": "",
+                "make_private_into_public": "",
                 "view_private_discussions-when-flagged": ""
             },
             "settings": {
                 "badge-icon": "",
+                "enable-make-public-option": "",
+                "enable-make-public-option-help": "",
                 "post-event-icon": ""
             }
         },

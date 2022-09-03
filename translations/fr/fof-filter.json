@@ -2,17 +2,17 @@
     "fof-filter": {
         "forum": {
             "flagger_name": "Modérateur automatique",
-            "flag_message": "Chaînes bloquées contenues",
-            "flaged_text": "Chaînes de contenu  bloqué"
+            "flag_message": "Chaînes bloquées contenues"
         },
         "admin": {
             "title": "Filtre",
-            "help": "Saisissez du texte ou des mots à filtrer, séparés par une virgule et un espace. Si le contenu du message d'un utilisateur contient une chaîne que vous souhaitez filtrer, il sera marqué pour approbation. Résistant au 133t.",
+            "bad_words_help": "Saisissez du texte ou des mots à filtrer, un par ligne. Si le contenu de la publication d'un utilisateur contient une chaîne que vous souhaitez filtrer, elle sera signalée pour approbation. Résistant contre le 133t.",
             "help2": "Intervalle en minutes dans lequel les messages du même utilisateur dans la même discussion seront automatiquement fusionnés.",
             "email_help": "Corps du courriel signalé. Accepte le HTML ou le texte en clair.",
             "filter_label": "Chaînes à filtrer",
             "countLabel": "Tolérance de la censure",
             "cooldownLabel": "Délai de fusion de message",
+            "auto_merge_title": "Fusion automatique",
             "input": {
                 "placeholder": "Chaînes à filtrer",
                 "filter_title": "Chaînes à filtrer",
@@ -27,6 +27,9 @@
             "nav": {
                 "text": "Filtre",
                 "desc": "Filtrer les messages par mots"
+            },
+            "permission": {
+                "bypass_filter_label": "Ignorer le(s) filtre(s) de mots"
             },
             "email": {
                 "default_subject": "Concernant votre message récent",

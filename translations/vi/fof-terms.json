@@ -1,0 +1,74 @@
+{
+    "fof-terms": {
+        "admin": {
+            "settings": {
+                "title": "Thiết lập điều khoản",
+                "field": {
+                    "signup-legal-text": "Văn bản bổ sung trên form đăng ký",
+                    "hide-updated-at": "Không hiển thị ngày cập nhật các điều khoản khi có bản cập nhật",
+                    "date-format": "Định dạng ngày",
+                    "date-format-help": "Bạn có thể sử dụng bất kỳ định dạng <a>Day.js</a> hợp lệ nào. Để trống trường mặc định."
+                }
+            },
+            "titles": {
+                "policies": "Chính sách"
+            },
+            "buttons": {
+                "new-policy": "Chính sách mới",
+                "edit-policy": "Sửa chính sách",
+                "add-policy": "Thêm chính sách",
+                "save-policy": "Lưu chính sách",
+                "delete-policy": "Xóa chính sách",
+                "set-to-now": "Đặt thành bây giờ"
+            },
+            "messages": {
+                "delete-policy-confirmation": "Thao tác này sẽ xóa vĩnh viễn chính sách {name} và các ngày chấp nhận liên quan khỏi cơ sở dữ liệu. Hãy đảm bảo rằng bạn đã sao lưu những ngày đó nếu bạn cần vì lý do pháp lý. Bạn có chắc chắn muốn xóa chính sách này không?\n"
+            },
+            "policies": {
+                "name": "Tên",
+                "name-help": "Tên này sẽ được hiển thị bên cạnh hộp kiểm và là tiêu đề của modal cập nhật.",
+                "url": "URL",
+                "url-help": "URL của trang nơi bạn có thể đọc các điều khoản. Sẽ mở trong một tab mới khi được nhấp vào.",
+                "update-message": "Cập nhật tin nhắn",
+                "update-message-help": "Một thông báo để hiển thị cho những người dùng hiện tại chưa chấp nhận các điều khoản mới nhất.",
+                "terms-updated-at": "Cập nhật lúc",
+                "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
+                "terms-updated-at-help": "Ngày cập nhật điều khoản cuối cùng. Việc đặt giá trị này sẽ yêu cầu tất cả người dùng đã chấp nhận trước ngày đó phải chấp nhận lại. Phải trong quá khứ (nếu không người dùng sẽ không bao giờ có thể chấp nhận sau ngày và vượt qua phương thức).\n",
+                "export-url": "Xuất URL",
+                "export-url-help": "Bất kỳ người dùng nào có quyền \"Xuất tất cả dữ liệu chính sách\" đều có thể truy cập vào các URL đó để tải xuống danh sách người dùng đã chấp nhận chính sách này. Bạn có thể tìm thêm chi tiết về các tùy chọn có sẵn trên <a>wiki tiện ích mở rộng</a>.\n"
+            },
+            "permissions": {
+                "see-user-policies-state": "Xem trạng thái chính sách người dùng",
+                "postpone-policies-accept": "Có thể hoãn chấp nhận các điều khoản mới",
+                "export-policies": "Xuất tất cả dữ liệu người dùng và dữ liệu chính sách"
+            }
+        },
+        "forum": {
+            "signup": {
+                "i-accept": "Tôi chấp nhận <a>{policy}</a>",
+                "must-accept": "{policy} phải được chấp nhận."
+            },
+            "accept-modal": {
+                "title": "Cập nhật điều khoản",
+                "updated-at": "Các điều khoản đã được cập nhật vào {date}",
+                "updated-recently": "Các điều khoản đã được cập nhật kể từ lần truy cập cuối cùng của bạn",
+                "i-accept": "Tôi chấp nhận <a>{policy}</a> mới",
+                "accept": "Xác nhận",
+                "close": "Cảm ơn bạn đã chấp nhận, bây giờ bạn có thể quay lại diễn đàn"
+            },
+            "state-modal": {
+                "title": "Điều khoản chấp nhận trạng thái cho người dùng {username}",
+                "accepted-at": "Chấp nhận lúc {date}",
+                "not-accepted": "Không chấp nhận"
+            },
+            "update-alert": {
+                "must-accept-message": "Chúng tôi đã tạm thời hạn chế quyền truy cập vào tài khoản của bạn trong khi bạn kiểm tra các điều khoản mới.",
+                "can-accept-message": "Gần đây chúng tôi đã cập nhật các điều khoản. Bạn phải chấp nhận chúng để tiếp tục sử dụng trang web này.",
+                "review": "Nhấn vào đây để xem xét và chấp nhận các điều khoản mới"
+            },
+            "user_controls": {
+                "state_button": "Điều khoản chấp nhận trạng thái"
+            }
+        }
+    }
+}

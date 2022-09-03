@@ -18,7 +18,14 @@
                 "resetviews_button": "Reset aantal keer bekeken"
             },
             "viewlist": {
-                "title": "Laatste bezoekers"
+                "title": "Laatste bezoekers",
+                "guest": "Gast"
+            },
+            "post": {
+                "viewed_by": "{users} bekeken dit.",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "Gebruikers die deze discussie het laatst bekeken hebben"
             }
         },
         "admin": {
@@ -29,10 +36,13 @@
             "settings": {
                 "title": "Discussie \"view\" instellingen",
                 "track_unique_label": "Unieke bezoeken bijhouden",
+                "track_guests": "Gasten bijhouden",
                 "abbr_numbers_label": "Het aantal keer bekeken nummer afkorten",
                 "show_filter_label": "Sorteerveld (on)populair tonen",
                 "max_viewcount_label": "Maximum items bezoekerlijst",
-                "show_viewlist_label": "Bezoekerlijst inschakelen"
+                "max_viewcount_text": "Van toepassing op de lijst in de sidebar en op de footerlijst",
+                "show_viewlist_label": "Bezoekerlijst inschakelen",
+                "show_footer_viewlist_label": "Footerlijst inschakelen"
             }
         }
     }

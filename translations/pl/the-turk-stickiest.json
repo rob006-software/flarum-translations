@@ -1,24 +1,37 @@
 {
     "the-turk-stickiest": {
         "admin": {
+            "permissions": {
+                "super_sticky_discussions_label": "",
+                "tag_sticky_discussions_label": ""
+            },
             "settings": {
                 "badge_icon_label": "",
-                "badge_icon_text": ""
+                "badge_icon_text": "",
+                "display_tag_sticky_label": "",
+                "display_tag_sticky_text": ""
             }
         },
         "forum": {
             "badge": {
                 "sticky_tooltip": "",
                 "super_sticky_tooltip": "",
-                "tag_sticky_tooltip": ""
+                "tag_sticky_tooltip": "",
+                "super_tag_sticky_tooltip": ""
+            },
+            "stickiest_modal": {
+                "title": "",
+                "sticky_label": "",
+                "sticky_text": "",
+                "super_sticky_label": "",
+                "super_sticky_text": "",
+                "tag_sticky_label": "",
+                "tag_sticky_text": "",
+                "tags_label": "",
+                "submit_button": ""
             },
             "discussion_controls": {
-                "sticky_button": "",
-                "unsticky_button": "",
-                "super_sticky_button": "",
-                "common_sticky_button": "",
-                "tag_sticky_button": "",
-                "all_sticky_button": ""
+                "sticky_button": ""
             },
             "post_stream": {
                 "discussion_stickied_text": "",
@@ -30,7 +43,8 @@
         "ref": {
             "sticky": "",
             "super_sticky": "",
-            "tag_sticky": ""
+            "tag_sticky": "",
+            "super_tag_sticky": ""
         }
     }
 }

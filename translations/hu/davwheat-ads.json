@@ -1,0 +1,47 @@
+{
+    "davwheat": {
+        "ads": {
+            "admin": {
+                "permissions": {
+                    "bypassAds": "Reklámok elrejtése a fórumból"
+                },
+                "settings": {
+                    "admin_bypass_warning": "A Flarum jogosultsági rendszerének köszönhetően az Admin csoport felhasználói nem\nfognak reklámokat látni a fórumban. Ha reklámokkal szeretne tesztelni, akkor\nkeresse fel a fórumot inkognitó vagy privát ablakból.\n",
+                    "enabled_locations": "Reklámegységhelyek engedélyezve",
+                    "script_urls": "Egyéni parancsfájlok webcímei",
+                    "add_script": "Új",
+                    "script_deletion": "A parancsfájl eltávolításához hagyja üresen a szövegmezőt, és kattintson a „Módosítások mentése” gombra.",
+                    "code_input": "HTML-kód",
+                    "code_input_disabled": "Engedélyezze ezt a helyet, hogy szerkeszthesse a HTML-kódját.",
+                    "js_input": "JavaScript-kód",
+                    "js_input_disabled": "Engedélyezze ezt a helyet, hogy szerkeszthesse a JS-kódját.",
+                    "use_adsense": "AdSense használata",
+                    "pub_id": "AdSense kiadóazonosító",
+                    "between_posts_gap": "Bejegyzések között: hézag a reklámok között",
+                    "allow_after_placeholder": "Bejegyzések között: reklám megjelenítése a válasz helykitöltő után",
+                    "save_btn": {
+                        "dirty": "Módosítások mentése",
+                        "saving": "Mentés…",
+                        "saved": "Összes módosítás mentve",
+                        "fix_errors": "Mentés előtt javítsa a hibákat"
+                    },
+                    "alert": {
+                        "fix_errors": "A módosítások mentése előtt javítsa a hibákat",
+                        "code_has_script": "Egy vagy több reklámegység script címkéket tartalmaz, melyek nem engedélyezettek. Távolítsa el ezeket, és próbálja újra."
+                    },
+                    "warning": "<b>Utasítások:</b>\n<br></br>\n<b>HTML</b> – Szúrja be a reklám HTML-tartalmát ebbe a mezőbe. Ne használjon {script} címkéket. Nem fognak futni.\n<br></br>\n<b>JS</b> – Szúrjon be egyéni JavaScript-kódot egy script címkébe. <b>NE</b> tartalmazza magát a {script} címkét.\n"
+                }
+            },
+            "lib": {
+                "locations": {
+                    "discussion_header": "Témaoldal (fejléc alatt)",
+                    "discussion_sidebar": "Témaoldalsáv [CSAK ASZTALI NÉZETBEN]",
+                    "header": "Fejléc",
+                    "sidebar": "Navigációs oldalsáv [CSAK ASZTALI NÉZETBEN]",
+                    "footer": "Lábléc",
+                    "between_posts": "Bejegyzések között"
+                }
+            }
+        }
+    }
+}

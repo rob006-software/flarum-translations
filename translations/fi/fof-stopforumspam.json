@@ -1,0 +1,39 @@
+{
+    "fof-stopforumspam": {
+        "admin": {
+            "settings": {
+                "introduction": "Tarkistaa uudet rekisteröinnit <a>StopForumSpam</a> tietokannasta. Jos <code>luottamus</code> tai <code>taajuus</code> arvot on saavutettu niin käyttäjän rekisteröinti estetään.\n\nSSO rekisteröinti käyttäen <code>fof/oauth</code> ja <code>fof/passport</code> on myös tuettu. Muut SSO tarjoajat voi toimia, mutta niitä ei ole testattu.\n",
+                "username_label": "Käyttäjätunnuksen roskaposti tarkistus",
+                "ip_label": "IP-osoitteen roskaposti tarkastus",
+                "email_label": "Sähköpostin roskaposti tarkastus",
+                "frequency_label": "Kynnys",
+                "frequency_help": "Roskaposti raporttien määrä kaikkien tarkistusten välillä joka laukaisee roskapostisuodattimen.\nEsim. Jos sähköpostissa on 1 osuma, IP-osoitteessa on kaksi osumaa, silloin on 3 osumaa yhteensä. Jos kynnys on 3 osumaa niin estämme rekisteröinnin.\n",
+                "api_key_label": "API avain",
+                "api_key_text": "Jos sinulla on fof/spamblock käytössä voit raportoida roskapostittajat StopForumSpam rajapintaan auttaaksesi pitämään muitakin yhteisöjä roskapostivapaina.",
+                "api_key_instructions_text": "<register>Rekisteröidy StopForumSpam sivustolla</register>. Sieltä tarvitset <key>API avaimen</key>.",
+                "regional_endpoint_label": "Maantieteellinen pääsy",
+                "regional_endpoint_help": "Oletuksena käytämme maantieteellisesti lähintä palvelinta saadaksemme nopean vastauksen. Jos haluat rajoittaa liikennettä tiettyyn alueeseen (esim. yrityksen tai maan yksityisyys rajoitusten vuoksi) voit silloin pakottaa yhteyden tietylle alueelle.",
+                "region_closest_label": "Lähin",
+                "region_europe_label": "Eurooppa",
+                "region_us_label": "USA",
+                "confidence_label": "Luottamus",
+                "confidence_help": "Luottamuspisteet ovat suhteellisen hyvä indikaattori epähalutun aktiteetin huomaamiseen. Aseta luottamustaso prosentteina. Jos kenttä on sama tai enemmän, kuin tämä arvo niin rekisteröinti evätään riippumatta 'taajuus' testistä.",
+                "email_hash_label": "Käytä sekoitettua sähköpostiosoitetta",
+                "email_hash_help": "Käytä MD5 sekoitettua sähköpostia jos et halua lähettää varsinaista sähköpostia rajapinnan yli. Tämä metodi ohittaa kaikki estolistat, normalisaation ja hämärät ohitus tarkistukset.",
+                "title": "",
+                "frequency_text": "",
+                "frequency_example_text": ""
+            }
+        },
+        "forum": {
+            "message": {
+                "spam": "Tietosi on merkitty roskapostiksi."
+            }
+        },
+        "api": {
+            "error": {
+                "unknown": "Käyttäjän raportointi StopForumSpam tietokantaan epäonnistui."
+            }
+        }
+    }
+}
