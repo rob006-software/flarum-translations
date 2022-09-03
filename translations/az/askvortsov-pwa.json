@@ -7,19 +7,28 @@
             },
             "pwa": {
                 "about": {
+                    "description_label": "",
                     "description_text": "Təsviri idarəetmə panelinizdəki 'Əsaslar' səhifəsində təyin edə bilərsiniz.",
+                    "long_name_label": "",
                     "long_name_text": "İstifadəçiyə göstərilən veb tətbiqinin adı.",
                     "heading": "Haqqında",
+                    "short_name_label": "",
                     "short_name_text": "Uzun ad üçün kifayət qədər yer yoxdursa tətbiqin adı istifadəçiyə göstərilir."
                 },
                 "colors": {
                     "heading": "Rənglər",
+                    "background_color_label": "",
                     "background_color_text": "Bu, PWA yüklənərkən görünən sıçrayış ekranı üçün yer tutucu rəng olaraq istifadə olunur. Tətbiq həqiqətən yükləndikdə istifadə edilmir.",
+                    "theme_color_label": "",
                     "theme_color_text": "Bu rəng bəzən cihazlar tərəfindən tətbiqinizi göstərərkən istifadə olunur, məsələn, Android tapşırıq dəyişdiricisində saytı əhatə edən rəng olaraq."
                 },
                 "maintenance": {
                     "heading": "Baxım",
-                    "debug_label": "Debug rejimi? Bildirişlər haqqında məlumatı `storage/logs` ə daxil edəcək."
+                    "debug_label": "Debug rejimi? Bildirişlər haqqında məlumatı `storage/logs` ə daxil edəcək.",
+                    "debug_text": "",
+                    "reset_vapid_text": "",
+                    "reset_vapid_confirm": "",
+                    "reset_vapid_success": ""
                 },
                 "other": {
                     "heading": "Digər",
@@ -39,6 +48,7 @@
                 "possible_https_disabled": "",
                 "no_logo": "",
                 "no_name": "",
+                "no_vapid_keys": "",
                 "key_gen_failed": "",
                 "suggest_gmp": "",
                 "success": ""

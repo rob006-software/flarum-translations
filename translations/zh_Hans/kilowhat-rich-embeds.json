@@ -1,0 +1,181 @@
+{
+    "kilowhat-rich-embeds": {
+        "admin": {
+            "settings": {
+                "layout": "布局",
+                "layoutOptions": {
+                    "inline": "行内",
+                    "block": "段落",
+                    "separated": "分离"
+                },
+                "position": "位置",
+                "positionOptions": {
+                    "replace": "替换超链接",
+                    "above": "超链接上方",
+                    "below": "超链接下方"
+                },
+                "style": "样式",
+                "styleOptions": {
+                    "vertical": "垂直",
+                    "horizontal": "水平"
+                },
+                "imageProxy": "图片代理",
+                "imageProxyHelp": "拦截所有图片请求至代理服务器",
+                "cacheProxy": "缓存代理图片",
+                "cacheProxyHelp": "客户端将缓存图片到本地",
+                "withoutOpengraph": "为无 OpenGraph 数据的页面生成富文本容器",
+                "withoutOpengraphHelp": "",
+                "blacklist": "URL 黑名单",
+                "blacklistHelp": "",
+                "whitelist": "",
+                "whitelistHelp": "",
+                "imageEmbeds": "",
+                "imageEmbedsHelp": "",
+                "flarumApiPreviews": "",
+                "flarumApiPreviewsHelp": "",
+                "githubApiKey": "",
+                "githubApiKeyHelp": "",
+                "githubOrgWhitelist": "",
+                "githubOrgWhitelistHelp": "",
+                "googleApiAuthConfig": "",
+                "googleApiAuthConfigHelp": "",
+                "googleApiKey": "",
+                "googleApiKeyHelp": "",
+                "youtubePlayer": "",
+                "youtubePlayerHelp": "",
+                "youtubeNoCookie": "",
+                "youtubeNoCookieHelp": "",
+                "youtubeApiPreviews": "",
+                "youtubeApiPreviewsHelp": "",
+                "googledriveApiPreviews": "",
+                "googledriveApiPreviewsHelp": ""
+            },
+            "section": {
+                "siteSpecificHelp": "",
+                "flarum": "",
+                "github": "",
+                "google": "",
+                "youtube": "",
+                "googledrive": ""
+            },
+            "permissions": {
+                "viewGoogleDriveThumbnails": "",
+                "useOnOwnPost": "",
+                "disableOnOwnPost": "",
+                "refreshOnOwnPost": "",
+                "disableOnAnyPost": "",
+                "refreshOnAnyPost": ""
+            },
+            "preview": {
+                "title": "",
+                "refresh": "",
+                "loading": ""
+            }
+        },
+        "lib": {
+            "embed": {
+                "altFavicon": "",
+                "altImageFallback": "",
+                "altAvatar": "",
+                "missing": {
+                    "retrieving": "",
+                    "other": ""
+                }
+            },
+            "controls": {
+                "refresh": "",
+                "disable": "",
+                "disableConfirmation": "",
+                "imgCopy": "",
+                "imgCopied": "",
+                "imgOpen": "",
+                "play": "",
+                "expandDescription": ""
+            }
+        },
+        "api": {
+            "error": {
+                "blacklistedUrl": "",
+                "invalidUrl": ""
+            },
+            "embed": {
+                "flarum": {
+                    "discussion": {
+                        "type": "",
+                        "stats": {
+                            "commentCount": "",
+                            "participantCount": "",
+                            "createdAt": ""
+                        }
+                    },
+                    "user": {
+                        "type": "",
+                        "avatarAlt": "",
+                        "stats": {
+                            "discussionCount": "",
+                            "commentCount": "",
+                            "joinTime": ""
+                        }
+                    }
+                },
+                "github": {
+                    "siteName": "",
+                    "privateRepoSuffix": "",
+                    "issue": {
+                        "type": "",
+                        "stats": {
+                            "commentCount": "",
+                            "createdAt": ""
+                        }
+                    },
+                    "pull": {
+                        "type": "",
+                        "stats": {
+                            "commentCount": "",
+                            "reviewCount": "",
+                            "commitCount": "",
+                            "createdAt": ""
+                        }
+                    },
+                    "repo": {
+                        "type": {
+                            "public": "",
+                            "private": ""
+                        },
+                        "stats": {
+                            "openIssueCount": "",
+                            "subscriberCount": "",
+                            "stargazerCount": "",
+                            "forkCount": ""
+                        }
+                    }
+                },
+                "youtube": {
+                    "siteName": "",
+                    "video": {
+                        "type": "",
+                        "thumbnailAlt": "",
+                        "stats": {
+                            "viewCount": "",
+                            "likeCount": "",
+                            "commentCount": "",
+                            "publishedAt": ""
+                        }
+                    }
+                },
+                "googledrive": {
+                    "siteName": "",
+                    "file": {
+                        "type": "",
+                        "thumbnailAlt": "",
+                        "stats": {
+                            "size": "",
+                            "createdTime": "",
+                            "modifiedTime": ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

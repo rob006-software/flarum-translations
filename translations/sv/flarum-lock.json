@@ -1,0 +1,28 @@
+{
+    "flarum-lock": {
+        "admin": {
+            "permissions": {
+                "lock_discussions_label": "Lås tråd"
+            }
+        },
+        "forum": {
+            "badge": {
+                "locked_tooltip": "Låst"
+            },
+            "discussion_controls": {
+                "lock_button": "Lås",
+                "unlock_button": "Lås upp"
+            },
+            "notifications": {
+                "discussion_locked_text": "{username} låste"
+            },
+            "post_stream": {
+                "discussion_locked_text": "{username} låste tråden.",
+                "discussion_unlocked_text": "{username} låste upp tråden."
+            },
+            "settings": {
+                "notify_discussion_locked_label": "Någon låste en tråd som jag startade"
+            }
+        }
+    }
+}

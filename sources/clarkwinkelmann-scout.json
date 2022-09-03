@@ -1,0 +1,28 @@
+{
+    "clarkwinkelmann-scout": {
+        "admin": {
+            "setting": {
+                "driver": "Driver",
+                "driverOption": {
+                    "null": "Null",
+                    "algolia": "Algolia",
+                    "meilisearch": "Meilisearch",
+                    "tntsearch": "TNTSearch"
+                },
+                "prefix": "Index name prefix (optional)",
+                "algoliaId": "Algolia ID",
+                "algoliaSecret": "Algolia Secret",
+                "algoliaConnectTimeout": "Algolia Connect Timeout (optional)",
+                "algoliaReadTimeout": "Algolia Read Timeout (optional)",
+                "algoliaWriteTimeout": "Algolia Write Timeout (optional)",
+                "meilisearchHost": "Meilisearch Host",
+                "meilisearchKey": "Meilisearch Key",
+                "tntsearchMaxDocs": "TNT Search Max Docs (optional, maximum number of results)",
+                "tntsearchFuzziness": "TNT Search Fuzziness (typos/variation matching)",
+                "tntsearchFuzzyDistance": "TNT Search Fuzziness Levenshtein Distance (optional)",
+                "tntsearchFuzzyPrefixLength": "TNT Search Fuzziness Prefix Length (optional)",
+                "tntsearchFuzzyMaxExpansions": "TNT Search Fuzziness Max Expansions (optional)"
+            }
+        }
+    }
+}

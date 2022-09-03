@@ -2,30 +2,30 @@
     "clarkwinkelmann-follow-tags-prompt": {
         "forum": {
             "controls": {
-                "choose": ""
+                "choose": "Wybierz tagi do obserwowania"
             },
             "modal": {
-                "title": "",
-                "later": "",
-                "continue": ""
+                "title": "Wybierz tagi do obserwowania",
+                "later": "Przypomnij mi później",
+                "continue": "Przejdź do forum"
             }
         },
         "admin": {
             "settings": {
-                "buttonOnFollowingPage": "",
-                "allDiscussionsOnFollowingPageForGuests": "",
-                "availableTagStrategy": "",
+                "buttonOnFollowingPage": "Pokaż przycisk na podstronie \"Obserwowane\"",
+                "allDiscussionsOnFollowingPageForGuests": "Dla gości pokaż wszystkie dyskusje na podstronie \"Obserwowane\"",
+                "availableTagStrategy": "Tagi do zaproponowania w okienku",
                 "tagStrategy": {
-                    "primary": "",
-                    "primaryAndChildren": "",
-                    "primaryAndSecondary": "",
-                    "secondary": "",
-                    "all": "",
-                    "list": ""
+                    "primary": "Główne tagi pierwszego poziomu",
+                    "primaryAndChildren": "Wszystkie główne tagi bez względu na poziom",
+                    "primaryAndSecondary": "Główne tagi pierwszego poziomu oraz tagi podrzędne",
+                    "secondary": "Tylko tagi podrzędne",
+                    "all": "Wszystkie tagi",
+                    "list": "Tagi wybrane poniżej"
                 }
             },
             "homepage": {
-                "following": ""
+                "following": "Obserwowane"
             }
         }
     }

@@ -12,11 +12,15 @@
                 "edit_recipients": "ලබන්නන් සංස්කරණය",
                 "send_pd": "{username} ට පණිවිඩයක් යවන්න",
                 "cancel": "අවලංගු කරන්න",
+                "make_public": "",
                 "remove_from_discussion": "මෙම පෞද්ගලික සාකච්ඡාව හැරයන්න"
             },
             "composer_private_discussion": {
                 "submit_button": "",
                 "title_placeholder": "පෞද්ගලික සාකච්ඡාවේ මාතෘකාව"
+            },
+            "confirm": {
+                "make_public": ""
             },
             "labels": {
                 "recipients": "",
@@ -54,6 +58,7 @@
                 "recipients_modified": {
                     "added_and_removed": "",
                     "added": "",
+                    "made_public": "",
                     "removed": "",
                     "removed_self": "{username} පෞද්ගලික සාකච්ඡාව හැරගියා."
                 }
@@ -83,10 +88,13 @@
                 "create_private_discussions_with_blocking_users": "",
                 "edit_user_recipients": "",
                 "edit_group_recipients": "",
+                "make_private_into_public": "",
                 "view_private_discussions-when-flagged": ""
             },
             "settings": {
                 "badge-icon": "",
+                "enable-make-public-option": "",
+                "enable-make-public-option-help": "",
                 "post-event-icon": ""
             }
         },

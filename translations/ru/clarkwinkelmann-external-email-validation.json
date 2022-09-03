@@ -2,25 +2,25 @@
     "clarkwinkelmann-external-email-validation": {
         "admin": {
             "settings": {
-                "method": "",
-                "uri": "",
-                "uri-help": "",
-                "body": "",
-                "body-help": "",
-                "headers": "",
-                "headers-help": "",
-                "use-response-status": "",
-                "use-response-status-help": "",
-                "response-success-key": "",
-                "response-success-key-help": "",
-                "default-error-message": "",
-                "default-error-message-help": "",
-                "response-error-key": "",
-                "response-error-key-help": ""
+                "method": "Метод запроса",
+                "uri": "Запросить URI",
+                "uri-help": "Вы можете вставить короткие коды, которые будут заменены значением электронной почты, см. README.",
+                "body": "Тело запроса",
+                "body-help": "Вы можете вставить короткие коды, которые будут заменены значением электронной почты, см. README.",
+                "headers": "Заголовки запроса",
+                "headers-help": "Один заголовок в строке",
+                "use-response-status": "Использовать статус ответа HTTP для статуса действительности",
+                "use-response-status-help": "2xx ответа будут считаться действительными. Ответы 4xx будут считаться недействительными.",
+                "response-success-key": "Путь к атрибуту JSON с допустимым статусом",
+                "response-success-key-help": "Путь в формате <code>key1.key2.key3</code>. Будет извлечен с помощью помощника Laravel <code>Arr::get</code>. Значение будет преобразовано в логическое. Действует только в том случае, если статус HTTP не используется. Исключение будет выдано, если ответ JSON недействителен.\n",
+                "default-error-message": "Сообщение об ошибке по умолчанию",
+                "default-error-message-help": "Это сообщение будет показано пользователю, когда проверка адреса электронной почты завершится неудачно, если не удается найти другое сообщение. Если вам нужно перевести это сообщение, оставьте поле пустым и настройте встроенное сообщение об ошибке по умолчанию с помощью Linguist.\n",
+                "response-error-key": "Путь к атрибуту JSON с сообщением об ошибке",
+                "response-error-key-help": "Путь в формате <code>key1.key2.key3</code>. Будет извлечен с помощью помощника Laravel <code>Arr::get</code>. Если этот ключ не найден, будет показано сообщение об ошибке по умолчанию.\n"
             }
         },
         "api": {
-            "email-validation-error": ""
+            "email-validation-error": "Электронная почта не прошла внешнюю проверку."
         }
     }
 }

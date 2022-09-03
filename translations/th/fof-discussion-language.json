@@ -2,40 +2,44 @@
     "fof-discussion-language": {
         "forum": {
             "change_language": {
-                "edit_title": "",
-                "title": "",
-                "submit_button": ""
+                "edit_title": "เเก้ไขภาษาสำหรับ {title}",
+                "title": "เเก้ไขภาษา",
+                "submit_button": "=> core.ref.save_changes"
             },
             "composer_discussion": {
-                "choose_language_link": ""
+                "choose_language_link": "ภาษา"
             },
             "discussion_controls": {
-                "change_language_button": ""
+                "change_language_button": "ตั้งภาษา"
             },
             "index_language": {
-                "any": ""
+                "any": "ทุกภาษา"
             }
         },
         "admin": {
             "settings": {
-                "native_label": "",
-                "show_flag_label": "",
-                "composer_default_label": "",
-                "locale_sort_label": "",
-                "show_any_lang_opt_label": "",
-                "tags_page_discussion_locale_label": "",
+                "native_label": "ใช้ชื่อภาษาแม่",
+                "show_flag_label": "แสดงธงประเทศพร้อมชื่อภาษา",
+                "composer_default_label": "เลือกสถานที่ปัจจุบันล่วงหน้าในผู้เขียนกระทู้",
+                "locale_sort_label": "ใช้ภาษาที่ตรวจพบสำหรับตัวกรองกระทู้เริ่มต้น",
+                "show_any_lang_opt_label": "แสดงตัวเลือกเพื่อเลือก \"ภาษาใดก็ได้\"",
+                "tags_page_discussion_locale_label": "แสดงเฉพาะกระทู้จากสถานที่ปัจจุบันของผู้ใช้ในหน้าแท็ก",
                 "errors": {
-                    "missing_assets": "",
+                    "missing_assets": "เราไม่สามารถโหลดเนื้อหาที่ส่วนขยายนี้ต้องการได้ ลองเรียกใช้ <code>php flarum asset:publish</code> และดูว่าสามารถแก้ไขปัญหาได้หรือไม่",
                     "loading_data": ""
+                },
+                "config": {
+                    "language_label": "",
+                    "country_label": ""
                 }
             },
             "permissions": {
-                "allow_change_language_label": ""
+                "allow_change_language_label": "อนุญาตให้แก้ไขภาษา"
             }
         },
         "api": {
             "discussion": {
-                "validation_error": ""
+                "validation_error": "คุณต้องเลือกภาษาของกระทู้"
             }
         }
     }

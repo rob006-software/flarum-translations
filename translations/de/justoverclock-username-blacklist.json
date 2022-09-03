@@ -1,13 +1,13 @@
 {
     "username-blacklist": {
         "forum": {
-            "modal-title": "",
-            "modal-body-first-line": "",
-            "modal-body-second-line": ""
+            "modal-title": "Warnung!",
+            "modal-body-first-line": "Warnung - Dieser Benutzername ist vom <strong>Administrator</strong> blockiert",
+            "modal-body-second-line": "Bitte wähle einen anderen Benutzernamen, der nicht gegen unsere Community-Richtlinien verstößt, und versuche es erneut."
         },
         "admin": {
-            "blackList": "",
-            "blackList-help": ""
+            "blackList": "Benutzername auf der schwarzen Liste",
+            "blackList-help": "Gebe hier den Benutzernamen ein, den Du bei der Registrierung sperren möchtest (durch Komma getrennt)"
         }
     }
 }

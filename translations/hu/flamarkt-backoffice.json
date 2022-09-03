@@ -1,0 +1,36 @@
+{
+    "flamarkt-backoffice": {
+        "admin": {
+            "settingsInBackoffice": "Beállítások a backoffice-ban"
+        },
+        "backoffice": {
+            "settingsNotAvailableForNonAdmin": "A bővítménynek vannak beállításai, de csak az adminisztrátori fiókok láthatják és szerkeszthetik azokat.",
+            "nav": {
+                "dashboard": "Vezérlőpult",
+                "users": "Felhasználók",
+                "searchPlaceholder": "=> core.admin.nav.search_placeholder"
+            },
+            "users": {
+                "title": "Felhasználók",
+                "new": "Felhasználó létrehozása",
+                "head": {
+                    "email": "E-mail"
+                },
+                "field": {
+                    "username": "Felhasználónév",
+                    "email": "E-mail",
+                    "password": "Jelszó"
+                }
+            },
+            "permissions": {
+                "backoffice": "Backoffice használata"
+            }
+        },
+        "lib": {
+            "header": {
+                "admin_button": "=> core.forum.header.admin_button",
+                "backoffice_button": "Backoffice"
+            }
+        }
+    }
+}

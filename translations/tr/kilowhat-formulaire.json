@@ -16,7 +16,7 @@
                 "create": "Form oluştur (beta)",
                 "moderate": "Tüm formları yönet",
                 "export": "Gönderim verilerini dışa aktar",
-                "exportUserDetails": "",
+                "exportUserDetails": "Dışa aktarmalarda kullanıcı özel verilerine erişin",
                 "listForms": "Silinmeyen formların listesini görüntüle",
                 "listSubmissions": "Gönderimlerin listesini görüntüle"
             },
@@ -28,12 +28,12 @@
                 "checkbox-style": "Onay kutusu stili",
                 "radio-style": "Tek seçenek stili",
                 "style-options": {
-                    "far-square": "",
-                    "fas-square": "",
-                    "far-circle": "",
-                    "fas-circle": "",
-                    "switch": "",
-                    "native": ""
+                    "far-square": "FontAwesome Normal Kare Simgesi",
+                    "fas-square": "FontAwesome Solid Kare Simgesi",
+                    "far-circle": "FontAwesome Normal Daire Simgesi",
+                    "fas-circle": "FontAwesome Solid Daire Simgesi",
+                    "switch": "Flarum anahtarı",
+                    "native": "Yerel tarayıcı kontrolü"
                 }
             }
         },
@@ -62,6 +62,7 @@
                     "title": "Başlık",
                     "accept-submissions": "Açık",
                     "allow-modification": "Değişiklik",
+                    "enabled": "Etkinleştirildi",
                     "submissions": "Başvurumlar",
                     "actions": "Eylemler"
                 }
@@ -75,7 +76,7 @@
                     "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
                     "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
                     "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
-                    "seeOwnDiscussion": "",
+                    "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
                     "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
                     "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
                     "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion"
@@ -108,7 +109,9 @@
                     "closed": "Kapalı",
                     "create": "Sadece oluştur",
                     "edit": "Yalnızca düzenle",
-                    "both": "Oluştur ve düzenle"
+                    "both": "Oluştur ve düzenle",
+                    "enabled": "Etkinleştirildi",
+                    "disabled": "Taslak"
                 },
                 "controls": "Kontroller",
                 "template-export": "Şablon içe aktar/dışa aktar",
@@ -125,291 +128,296 @@
             },
             "form-edit": {
                 "warnings": {
-                    "show-on-signup-invalid-permissions": "",
-                    "show-on-composer-invalid-permissions": "",
-                    "linked-form-is-draft": "",
-                    "auto-link-permission-warning": ""
+                    "show-on-signup-invalid-permissions": "\"Kayıt sırasında göster\" özelliğini kullanmak için onaylanmamış üyelere \"kendini gör\" ve \"kendini düzenle\" iznini ayarlamanız gerekir.\n",
+                    "show-on-composer-invalid-permissions": "\"Composer'de göster\"i kullanmak için seçilen etiket(ler)le tartışma başlatabilecek \"kendini gör\" ve \"kendini düzenle\" izinlerinin eşleşmesini sağlayın. Emin değilseniz \"üyeler\" olarak ayarlayın. Ayarlarınız doğru olsa bile bu mesaj görünebilir.\n",
+                    "linked-form-is-draft": "Bu form şu anda taslak modunda. Alanların forumda görünmesi için \"Erişim\" altında etkinleştirin.\n",
+                    "auto-link-permission-warning": "\"Tartışmayı otomatik olarak oluştur\" seçeneğine sahip formlar, bağımsız olarak erişildiğinde genel doldurma iznini kullanır.\n"
                 },
-                "expert-mode-warning": "",
+                "expert-mode-warning": "Uzman modu etkinleştirildi. Bu, alan tanımlayıcılarını ve alan başına izinleri özelleştirmenize olanak tanır. Bir şeyleri bozabileceğiniz için bu özellikle ilgili belgeleri okuduğunuzdan emin olun!\n",
                 "section": {
-                    "template": "",
-                    "permissions": ""
+                    "template": "Şablon",
+                    "permissions": "İzinler"
                 },
                 "field": {
-                    "link": "",
-                    "title": "",
+                    "link": "Özel form türleri",
+                    "title": "Genel başlık",
                     "show-on-creation": {
                         "discussion": "Düzenleyicide göster",
                         "user": "Kayıt esnasında göster"
                     },
-                    "automatic-discussion": "",
-                    "automatic-discussion-help": "",
-                    "accept-submissions": "",
-                    "allow-modification": "",
-                    "max-submissions": "",
-                    "send-confirmation-to-participants": "",
-                    "notify-emails": "",
-                    "web-confirmation-message": "",
-                    "permission-see-own": "",
-                    "permission-see-any": "",
-                    "permission-edit-own": "",
-                    "permission-edit-any": ""
+                    "automatic-discussion": "Form gönderiminden otomatik olarak tartışmalar oluşturun",
+                    "automatic-discussion-help": "Etkinleştirildiğinde, form bağımsız bir form gibi erişilebilir olmaya devam eder. Gönderiler otomatik olarak yeni tartışmalar oluşturacak ve bunlara bağlanacaktır.\n",
+                    "accept-submissions": "Yeni gönderimleri kabul et",
+                    "allow-modification": "Kullanıcıların mevcut gönderilerini düzenlemesine izin ver",
+                    "enable": "Etkinleştirildi",
+                    "max-submissions": "Maksimum gönderim (sınırsız için boş bırakın)",
+                    "send-confirmation-to-participants": "Katılımcılara onay e-postası gönder",
+                    "notify-emails": "Bu virgülle ayrılmış e-postalara verilerin bir kopyasını gönderin",
+                    "web-confirmation-message": "Web'de onay mesajı (biçimlendirme etkin)",
+                    "permission-see-own": "Kendi gönderimini gör",
+                    "permission-see-any": "Herhangi bir gönderiyi görün",
+                    "permission-edit-own": "Kendi gönderimini düzenle",
+                    "permission-edit-any": "Herhangi bir gönderiyi düzenleyin"
                 },
                 "link-options": {
-                    "standalone": "",
-                    "groups": "",
-                    "all-groups": "",
-                    "tags": "",
-                    "all-tags": ""
+                    "standalone": "Bağımsız",
+                    "groups": "Kullanıcı profili",
+                    "all-groups": "Herhangi bir grup için",
+                    "tags": "Tartışma alanları",
+                    "all-tags": "Herhangi bir etiket için"
                 },
-                "auto-discussion-options": "",
-                "email-confirmation-options": "",
-                "email-notification-options": "",
-                "exiting-with-unsaved-data": "",
-                "preview": "",
-                "save-for-preview": ""
+                "auto-discussion-options": "Yeni tartışmalar için seçenekler",
+                "email-confirmation-options": "Onay e-postası şablonu",
+                "email-notification-options": "Bildirim e-posta şablonu",
+                "exiting-with-unsaved-data": "Kaydedilmemiş değişiklikleriniz mevcut. Sayfayı gerçekten bırakmak istiyor musun?",
+                "preview": "Yeni sekmede önizleme",
+                "save-for-preview": "Önizleme için kaydet"
             },
             "auto-discussion-options-modal": {
-                "title": "",
-                "introduction": "",
-                "submit": "",
+                "title": "Otomatik tartışma seçenekleri",
+                "introduction": "Bu ayarlar, etikete bağlı bir form gönderilerek otomatik olarak oluşturulan yeni tartışmalara uygulanacaktır. Alan bilgisiyle bir kaşlı ayraç sözdizimi kullanarak form gönderimindeki değerleri kullanabilirsiniz. Varsayılan olarak { title } ve { content } sırasıyla kullanılacaktır.\n",
+                "submit": "Değişiklikleri doğrula",
                 "field": {
-                    "title": "",
-                    "tags": "",
-                    "tags-help": "",
-                    "content": ""
+                    "title": "Tartışma başlığı",
+                    "tags": "Tartışma etiketleri",
+                    "tags-help": "Etiket slugların virgülle ayrılmış listesi. Seçilen etiketler, bu formun bağlı olduğu etikete ek olarak eklenecektir.\n",
+                    "content": "Mesaj İçeriği"
                 }
             },
             "confirmation-email-options-modal": {
-                "title": "",
-                "submit": "",
+                "title": "E-posta şablonu",
+                "submit": "Değişiklikleri doğrula",
                 "field": {
-                    "title": "",
-                    "message": ""
+                    "title": "Başlık",
+                    "message": "Gövde"
                 }
             },
             "save-controls": {
-                "validation-errors": "",
-                "unsaved-changes": "",
-                "saved-at": "",
-                "undo": "",
-                "redo": "",
-                "save": ""
+                "validation-errors": "Gönderinizde bazı hatalar bulduk",
+                "unsaved-changes": "Kaydedilmemiş değişiklikleriniz mevcut",
+                "saved-at": "{ago} kaydedildi",
+                "undo": "Geri alma",
+                "redo": "Yinele",
+                "save": "Kaydet"
             },
             "permission-controls": {
-                "inherit": "",
-                "everyone_button": "",
-                "disabled_members_button": "",
-                "members_button": ""
+                "inherit": "Varsayılanları kullan",
+                "everyone_button": "=> core.admin.permissions_controls.everyone_button",
+                "disabled_members_button": "Aktif olmayan ve askıya alınan üyeler",
+                "members_button": "Aktif üyeler"
             },
             "template-editor": {
-                "add-field": "",
-                "title": "",
-                "description": "",
-                "key": "",
-                "fill-permission": "",
-                "required": "",
-                "rich": "",
-                "min": "",
-                "max": "",
-                "integer": "",
-                "email": "",
-                "regex": "",
-                "mime": "",
-                "other": "",
-                "duplicate": "",
-                "delete": "",
-                "missing-title": "",
-                "no-answer": "",
+                "add-field": "Alan ekle",
+                "title": "Başlık",
+                "description": "Açıklama",
+                "key": "(Uzman) Gönderim yükündeki JSON anahtarı",
+                "fill-permission": "(Uzman) Doldurma izinleri",
+                "required": "Gerekli",
+                "rich": "Zengin metin (TextFormatter)",
+                "min": "Minimum",
+                "max": "Maximum",
+                "integer": "Tamsayı",
+                "email": "E-posta",
+                "regex": "Düzenli ifade",
+                "mime": "MIME türü (virgülle ayrılmış, joker karakteri ikinci bölüm olarak kabul eder)",
+                "other": "\"Diğer\" kullanıcı değerine izin ver",
+                "duplicate": "Yinelenen alan",
+                "delete": "Alanı sil",
+                "missing-title": "Başlıksız alan",
+                "no-answer": "Cevapsız",
                 "type": {
-                    "short": "",
-                    "long": "",
-                    "number": "",
-                    "date": "",
-                    "checkbox": "",
-                    "radio": "",
-                    "select": "",
-                    "upload": "",
-                    "content": "",
-                    "items": ""
+                    "short": "Kısa metin",
+                    "long": "Uzun metin",
+                    "number": "Numara",
+                    "date": "Tarih",
+                    "checkbox": "Onay kutuları",
+                    "radio": "Radio",
+                    "select": "Aşağı Açılır Menü",
+                    "upload": "Yüklemek",
+                    "content": "İçerik",
+                    "items": "Çoklu giriş"
                 }
             },
             "options-editor": {
                 "columns": {
-                    "title": "",
-                    "key": ""
+                    "title": "Başlık",
+                    "key": "(Uzman) Benzersiz Anahtar"
                 },
-                "remove": "",
-                "new-placeholder": ""
+                "remove": "Kaldır seçeneği",
+                "new-placeholder": "Yeni seçenek..."
             },
             "items-editor": {
-                "add": "",
-                "remove": ""
+                "add": "Satır ekle",
+                "remove": "Satırı kaldır"
             },
             "upload-editor": {
-                "uploading": "",
-                "remove": ""
+                "uploading": "Yükleniyor...",
+                "remove": "Dosyayı kaldır"
             },
             "rich-text": {
-                "preview-placeholder": ""
+                "preview-placeholder": "Önizleme için yazmaya başlayın"
             },
             "select": {
-                "choose": ""
+                "choose": "Bir seçenek belirleyin"
             },
             "choice": {
-                "other-label": "",
-                "other-placeholder": ""
+                "other-label": "Diğer:",
+                "other-placeholder": "Tip..."
             },
             "submission": {
-                "form-closed": "",
-                "form-full": "",
-                "edit-forbidden": "",
-                "submitted-successfully": "",
-                "edit-submission": "",
-                "submit-other": "",
-                "unlock": "",
-                "lock": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "form-closed": "Bu form kapalı.",
+                "form-full": "Bu form maksimum gönderim sayısına ulaştı.",
+                "edit-forbidden": "Artık bu gönderiyi düzenleyemezsiniz.",
+                "submitted-successfully": "Gönderiniz başarıyla gönderildi.",
+                "edit-submission": "Gönderimi düzenle",
+                "submit-other": "Başka gönder",
+                "unlock": "Kilidini aç",
+                "lock": "Kilit",
+                "restore": "Restore Et",
+                "hide": "Sil",
+                "delete": "Kalıcı olarak sil",
+                "delete-confirmation": "{date} tarihindeki gönderim kalıcı olarak silinecek"
             },
             "submission-index": {
-                "form-edit": "",
-                "form-show": "",
-                "show": "",
-                "guest": "",
-                "load-more": "",
-                "empty": "",
-                "export": "",
+                "form-edit": "Formu düzenle",
+                "form-show": "Yeni gönderim",
+                "show": "Göster",
+                "guest": "Misafir",
+                "load-more": "Daha fazla yükle",
+                "empty": "Henüz gönderim yok",
+                "export": "Dışa Aktar",
                 "columns": {
-                    "date": "",
-                    "user": "",
-                    "actions": ""
+                    "date": "Tarih",
+                    "user": "Kullanıcı",
+                    "actions": "Eylemler"
                 }
             },
             "badge": {
-                "locked": "",
-                "hidden": ""
+                "locked": "Kilitlendi",
+                "hidden": "Gizlendi"
             },
             "error-page": {
-                "denied-title": "",
-                "denied-description": "",
-                "notfound-title": "",
-                "notfound-description": ""
+                "denied-title": "İzin reddedildi",
+                "denied-description": "Bu içeriğe erişiminiz yok gibi görünüyor. Giriş yapmayı deneyin.",
+                "notfound-title": "Bulunamadı",
+                "notfound-description": "Bu içerik ya mevcut değil ya da buna erişiminiz olmayabilir."
             },
             "submission-sort": {
-                "latest": "",
-                "oldest": ""
+                "latest": "En son gönderimler",
+                "oldest": "En eski gönderiler"
             },
             "form-sort": {
-                "latest": "",
-                "oldest": ""
+                "latest": "Yeni formlar",
+                "oldest": "En eski formlar"
             },
             "export": {
-                "title": "",
-                "format": "",
-                "heading": "",
-                "fields": "",
-                "meta": "",
-                "more-meta": "",
-                "option-keys": "",
-                "submit": "",
-                "preview": "",
+                "title": "Gönderimleri dışa aktar",
+                "format": "Biçim",
+                "heading": "Başlık / tuşlar",
+                "fields": "Alanlar",
+                "meta": "Metadata",
+                "more-meta": "Daha fazla meta seçeneği",
+                "option-keys": "Onay kutuları, radio ve seçim için başlıklar yerine seçenek tuşlarını dışa aktarın",
+                "submit": "İndir",
+                "preview": "Ön izleme",
                 "format-options": {
-                    "xlsx": "",
-                    "xls": "",
-                    "ods": "",
-                    "csv": "",
-                    "json": ""
+                    "xlsx": "XLSX",
+                    "xls": "XLS",
+                    "ods": "ODS",
+                    "csv": "CSV",
+                    "json": "JSON"
                 },
                 "heading-options": {
-                    "title": "",
-                    "key": "",
-                    "none": ""
+                    "title": "Alan başlıkları",
+                    "key": "Alan tuşları",
+                    "none": "Başlık satırı yok"
                 },
                 "meta-options": {
-                    "uid": "",
-                    "user_id": "",
-                    "user_username": "",
-                    "user_displayname": "",
-                    "user_email": "",
-                    "user_activated": "",
-                    "link_id": "",
-                    "locked_at": "",
-                    "created_at": "",
-                    "updated_at": "",
-                    "hidden_at": ""
+                    "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
+                    "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
+                    "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
+                    "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
+                    "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
+                    "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
+                    "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
+                    "updated_at": "=> kilowhat-formulaire.ref.submission-meta.updated_at",
+                    "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
                 },
                 "preview-primitives": {
-                    "excel-date": "",
-                    "boolean-true": "",
-                    "boolean-false": ""
+                    "excel-date": "(EXCEL TARİH)",
+                    "boolean-true": "Doğru",
+                    "boolean-false": "Yanlış"
                 }
+            },
+            "discussion-submission": {
+                "empty": "Henüz veri yok",
+                "edit": "Düzenle"
             }
         },
         "api": {
-            "formatter-parsing-error": "",
-            "not-allowed-to-fill-field": "",
-            "duplicate-field-key": "",
-            "cannot-change-form-type": "",
-            "unknown-form": "",
-            "unauthorized-form": "",
-            "file-already-belongs-form": "",
-            "file-already-belongs-submission": "",
+            "formatter-parsing-error": "İçerik ayrıştırılamadı: {message}",
+            "not-allowed-to-fill-field": "Bu alanın değerini değiştirmenize izin verilmiyor",
+            "duplicate-field-key": "Anahtar benzersiz olmalıdır",
+            "cannot-change-form-type": "Mevcut gönderimleri olan bir formun türünü değiştiremezsiniz",
+            "unknown-form": "Tanınmayan form kimliği {id}",
+            "unauthorized-form": "{id} form kimliğini doldurmak için gerekli izinlere sahip değilsiniz",
+            "file-already-belongs-form": "{id} dosyası başka bir forma ait",
+            "file-already-belongs-submission": "{id} dosyası başka bir gönderiye ait",
             "export": {
                 "meta": {
-                    "uid": "",
-                    "user_id": "",
-                    "user_username": "",
-                    "user_displayname": "",
-                    "user_email": "",
-                    "user_activated": "",
-                    "link_id": "",
-                    "locked_at": "",
-                    "created_at": "",
-                    "updated_at": "",
-                    "hidden_at": ""
+                    "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
+                    "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
+                    "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
+                    "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
+                    "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
+                    "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
+                    "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
+                    "updated_at": "=> kilowhat-formulaire.ref.submission-meta.updated_at",
+                    "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
                 }
             }
         },
         "mail": {
-            "title-your-submission": "",
-            "title-new-submission": "",
-            "edit": "",
-            "footer": "",
-            "sub-entries": ""
+            "title-your-submission": "{title} için gönderiminiz",
+            "title-new-submission": "{title} için yeni gönderim",
+            "edit": "Düzenle",
+            "footer": "{title} tarafından gönderildi",
+            "sub-entries": "{count} giriş"
         },
         "ref": {
-            "manager": "",
+            "manager": "Form yöneticisi",
             "type": {
-                "standalone": "",
-                "discussion": "",
-                "user": ""
+                "standalone": "Bağımsız formlar",
+                "discussion": "Tartışma alanları",
+                "user": "Kullanıcı profili"
             },
             "permissions": {
-                "fill": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": ""
+                "fill": "Bağımsız formları doldurun",
+                "seeOwnUser": "Kendi profil alanlarını görüntüle",
+                "seeAnyUser": "Herhangi bir profil alanını görüntüleyin",
+                "editOwnUser": "Kendi profil alanlarını düzenle",
+                "editAnyUser": "Herhangi bir profil alanını düzenleyin",
+                "seeOwnDiscussion": "Kendi tartışma alanlarını görün",
+                "seeAnyDiscussion": "Herhangi bir tartışma alanını görün",
+                "editOwnDiscussion": "Kendi tartışma alanlarını düzenle",
+                "editAnyDiscussion": "Herhangi bir tartışma alanını düzenleyin"
             },
             "submission-meta": {
-                "uid": "",
-                "user_id": "",
-                "user_username": "",
-                "user_displayname": "",
-                "user_email": "",
-                "user_activated": "",
-                "link_id": "",
-                "locked_at": "",
-                "created_at": "",
-                "updated_at": "",
-                "hidden_at": ""
+                "uid": "Gönderim Kimliği (ID)",
+                "user_id": "Kullanıcı Kimliği (ID)",
+                "user_username": "Kullanıcı adı",
+                "user_displayname": "Kullanıcı Görünen Adı",
+                "user_email": "Kullanıcı e-postası",
+                "user_activated": "Aktif Hesap",
+                "link_id": "Bağlantılı kaynak kimliği (ID)",
+                "locked_at": "Kilit Tarihi",
+                "created_at": "Oluşturulma tarihi",
+                "updated_at": "Güncelleme Tarihi",
+                "hidden_at": "Geçici Silme Tarihi"
             }
         }
     }

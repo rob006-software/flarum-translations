@@ -21,24 +21,42 @@
             },
             "notification": {
                 "upvote": "",
-                "downvote": ""
+                "downvote": "",
+                "prefrences": {
+                    "vote": ""
+                }
             },
             "user": {
-                "points": "",
-                "rank": ""
+                "card": {
+                    "points": ""
+                },
+                "rank": "",
+                "votes_link": ""
             },
             "modal": {
+                "downvotes_label": "",
                 "title": "",
                 "upvotes_label": ""
             },
-            "mod_item": ""
+            "mod_item": "",
+            "voters": {
+                "none": "",
+                "label": "",
+                "label_none": ""
+            },
+            "post": {
+                "upvote_button": "",
+                "downvote_button": ""
+            }
         },
         "admin": {
             "permissions": {
                 "vote_label": "",
                 "see_votes_label": "",
                 "see_voters_label": "",
-                "see_ranking_page": ""
+                "see_ranking_page": "",
+                "upvote_notifications": "",
+                "downvote_notifications": ""
             },
             "page": {
                 "rankings": {
@@ -69,7 +87,8 @@
                     "vote_color": "",
                     "icon_name": "",
                     "icon_help": "",
-                    "upvotes_only": ""
+                    "upvotes_only": "",
+                    "first_post_only": ""
                 },
                 "save_settings": "",
                 "convert": {
@@ -89,6 +108,14 @@
                         "name": ""
                     }
                 }
+            }
+        },
+        "email": {
+            "body": {
+                "postVoted": ""
+            },
+            "subject": {
+                "postVoted": ""
             }
         }
     }

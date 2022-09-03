@@ -5,12 +5,12 @@
                 "content_label": "=> fof-pages.ref.content",
                 "content_placeholder": "=> fof-pages.ref.content",
                 "delete_page_button": "Удалить страницу",
-                "delete_page_confirmation": "Вы уверены, что хотите удалить эту страницу?",
-                "hidden_label": "Сохранить как черновик",
-                "restricted_label": "Ограниченный доступ (выберите, кому предоставить доступ, во вкладке Разрешения)",
-                "html_label": "Разрешить HTML",
-                "set_as_home_page_confirmation": "Вы уверены, что хотите установить эту страницу как Главную?",
-                "set_as_home_page_done": "Главная страница обновлена",
+                "delete_page_confirmation": "Вы уверены, что хотите удалить страницу?",
+                "hidden_label": "Сохранить черновик",
+                "restricted_label": "Ограничить доступ (укажите, кто может получить доступ на вкладке \"Разрешения\")",
+                "html_label": "Включить HTML",
+                "set_as_home_page_confirmation": "Вы уверены, что хотите установить страницу в качестве домашней (главной) страницы?",
+                "set_as_home_page_done": "Домашняя (главная) страница обновлена",
                 "slug_label": "=> fof-pages.ref.slug",
                 "slug_placeholder": "=> fof-pages.ref.slug",
                 "submit_button": "=> core.ref.save_changes",
@@ -24,7 +24,7 @@
                 "create_button": "=> fof-pages.ref.create_page"
             },
             "pages_list": {
-                "empty_text": "Похоже здесь нет страниц.",
+                "empty_text": "Похоже, здесь нет страниц.",
                 "title": "=> fof-pages.ref.title"
             },
             "permissions": {
@@ -32,14 +32,14 @@
             },
             "badges": {
                 "hidden": "Черновик",
-                "restricted": "Нет доступа"
+                "restricted": "Ограниченный доступ"
             }
         },
         "ref": {
-            "content": "Содержание",
+            "content": "Содержимое",
             "create_page": "Создать страницу",
             "pages": "Страницы",
-            "slug": "Адрес страницы в читаемых словах (slug)",
+            "slug": "Путь",
             "title": "Заголовок",
             "url": "URL"
         }

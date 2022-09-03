@@ -2,30 +2,30 @@
     "clarkwinkelmann-author-change": {
         "forum": {
             "controls": {
-                "edit": ""
+                "edit": "Szerző és dátum szerkesztése"
             },
             "modal": {
-                "title-post": "",
-                "title-discussion": "",
-                "user": "",
-                "created_at": "",
-                "edited_at": "",
-                "sync-with-discussion": "",
-                "sync-with-post": "",
-                "sync-impossible": "",
-                "submit": "",
-                "cancel": ""
+                "title-post": "Bejegyzés szerzőjének és dátumának szerkesztése",
+                "title-discussion": "Téma szerzőjének és dátumának szerkesztése",
+                "user": "Szerző",
+                "created_at": "Létrehozás ideje",
+                "edited_at": "Szerkesztés ideje",
+                "sync-with-discussion": "Szinkronizálás a témával",
+                "sync-with-post": "Szinkronizálás az első bejegyzéssel",
+                "sync-impossible": "Az első bejegyzés nem található. Próbáljon a téma elejére görgetni.",
+                "submit": "Mentés",
+                "cancel": "Mégse"
             },
             "search": {
-                "placeholder": "",
-                "type-more": "",
-                "no-results": ""
+                "placeholder": "Felhasználók keresése",
+                "type-more": "Gépeljen be 3 karaktert az adatbázisban kereséshez",
+                "no-results": "Nincs találat"
             }
         },
         "admin": {
             "permissions": {
-                "edit-user": "",
-                "edit-date": ""
+                "edit-user": "Téma és bejegyzés szerzőjének szerkesztése",
+                "edit-date": "Téma és bejegyzés dátumának szerkesztése"
             }
         }
     }

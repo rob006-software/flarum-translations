@@ -15,6 +15,7 @@
                 "watermark": "Yükləmə zamanı şəkillərin su nişanının əlavə edilib -edilməyəcəyini seçin. Su nişanları aşağıdakı seçimlərinizə əsasən gif olmayanlara əlavə olunur.\n",
                 "s3_compatible_storage": "Aşağıdakı parametrlər yalnız S3 uyğun saxlama istifadə edərkən tələb olunur. AWS istifadə edirsinizsə, onları boş buraxa bilərsiniz.\n",
                 "s3_acl": "",
+                "s3_instance_profile": "",
                 "composer_buttons": ""
             },
             "labels": {
@@ -39,7 +40,8 @@
                 },
                 "imgur": {
                     "client_id": "",
-                    "title": ""
+                    "title": "",
+                    "tos": ""
                 },
                 "local": {
                     "cdn_url": "",
@@ -54,7 +56,8 @@
                 "preferences": {
                     "max_file_size": "",
                     "mime_types": "",
-                    "title": ""
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "",
@@ -77,7 +80,8 @@
                         "upload-btn": "",
                         "media-btn": ""
                     }
-                }
+                },
+                "inspect-mime": ""
             },
             "permissions": {
                 "download_label": "",
@@ -97,7 +101,9 @@
                 "bbcode-image": "",
                 "bbcode-image_description": "",
                 "just-url": "",
-                "just-url_description": ""
+                "just-url_description": "",
+                "text-preview": "",
+                "text-preview_description": ""
             },
             "upload_methods": {
                 "aws-s3": "",
@@ -105,6 +111,19 @@
                 "local": "",
                 "ovh-svfs": "",
                 "qiniu": ""
+            },
+            "inspect-mime": {
+                "title": "",
+                "description": "",
+                "select": "",
+                "laravel-validation": "",
+                "no-file-selected": "",
+                "validation-passed": "",
+                "validation-failed": "",
+                "mime-detector": "",
+                "mime-fileinfo": "",
+                "guessed-extension": "",
+                "not-available": ""
             }
         },
         "forum": {
@@ -137,6 +156,16 @@
                 "error": "Xəta",
                 "loading": "Yüklənir",
                 "unauthorized": "Faylları yükləməyinizə icazə verilmir"
+            },
+            "validation": {
+                "max_size": ""
+            },
+            "text_preview": {
+                "expand": "",
+                "collapse": "",
+                "error": "",
+                "no_snippet_preview": "",
+                "no_snippet": ""
             }
         },
         "api": {

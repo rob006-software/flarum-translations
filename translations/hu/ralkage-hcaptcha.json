@@ -2,20 +2,20 @@
     "ralkage-hcaptcha": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "secret_key_label": "",
-                "site_key_label": "",
-                "type_label": ""
+                "help_text": "Szerezze be a hCaptcha hitelesítő adatait <a>itt</a>.",
+                "secret_key_label": "Titkos kulcs",
+                "site_key_label": "Oldalkulcs",
+                "type_label": "hCaptcha típusa"
             },
             "permissions": {
-                "post_without_hcaptcha": ""
+                "post_without_hcaptcha": "Bejegyzések és témák létrehozása hCaptcha nélkül"
             }
         },
         "forum": {
-            "error": ""
+            "error": "Hiba történt a h-captcha beküldése során. Próbálja újra."
         }
     },
     "validation": {
-        "hcaptcha": ""
+        "hcaptcha": "A hCaptcha ellenőrzése sikertelen."
     }
 }

@@ -2,40 +2,40 @@
     "afrux-theme-base": {
         "admin": {
             "extensions": {
-                "title": "",
-                "description": ""
+                "title": "Bővítmények",
+                "description": "Az összes telepített bővítmény."
             },
             "extension": {
                 "sections": {
-                    "content": "",
-                    "permissions": ""
+                    "content": "Fő beállítások",
+                    "permissions": "Engedélyek"
                 }
             },
             "header": {
-                "go_back": ""
+                "go_back": "Vissza a fórumhoz"
             },
             "users": {
                 "grid": {
                     "columns": {
                         "avatar": {
-                            "title": ""
+                            "title": "Profilkép"
                         }
                     }
                 }
             },
             "settings": {
-                "edit_footer_links": "",
-                "footer_description": "",
-                "footer_bottom_line": "",
-                "hero_banner": "",
-                "hero_banner_position": "",
+                "edit_footer_links": "Lábléc-hivatkozások szerkesztése",
+                "footer_description": "Lábléc leírása",
+                "footer_bottom_line": "Lábléc alsó sora",
+                "hero_banner": "Üdvözlőkép",
+                "hero_banner_position": "Üdvözlőkép CSS pozíciója (például „center top” vagy „center 20%”)",
                 "links_modal": {
-                    "add_group": "",
-                    "group_name": "",
-                    "group_title": "",
-                    "add_link": "",
-                    "link_url": "",
-                    "link_label": ""
+                    "add_group": "Új hivatkozáscsoport",
+                    "group_name": "{number}. csoport neve",
+                    "group_title": "Hivatkozáscsoport címe",
+                    "add_link": "Hivatkozás hozzáadása",
+                    "link_url": "Hivatkozás webcíme",
+                    "link_label": "Hivatkozáscímke"
                 }
             }
         }

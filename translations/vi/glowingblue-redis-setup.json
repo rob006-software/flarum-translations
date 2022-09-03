@@ -4,7 +4,9 @@
             "settings": {
                 "enable_cache": "Bật bộ nhớ cache của Redis",
                 "enable_redis_sessions": "Kích hoạt session của Redis (tất cả người dùng sẽ đăng xuất sau khi thay đổi cài đặt này)",
-                "enable_queue": "Bật hàng đợi của Redis"
+                "enable_queue": "Bật hàng đợi của Redis",
+                "horizon_config": "Cấu hình Horizon (định dạng: JSON).",
+                "horizon_help_text": "Điều này sẽ được truyền vào <code>(new \\Blomstra\\Horizon\\Extend\\Horizon)->config(...))</code>"
             }
         }
     }

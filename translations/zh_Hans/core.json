@@ -453,10 +453,16 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "重新发送验证邮件",
                 "sent_message": "发送"
+            },
+            "welcome_hero": {
+                "hide": "隐藏欢迎横幅内容"
             }
         },
         "lib": {
             "debug_button": "调试",
+            "alert": {
+                "dismiss_a11y_label": "忽略警告"
+            },
             "badge": {
                 "hidden_tooltip": "隐藏"
             },
@@ -479,6 +485,7 @@
             },
             "error": {
                 "dependent_extensions_message": "无法停用「{extension}」，请先停用依赖扩展「{extensions}」",
+                "extension_initialiation_failed_message": "初始化「{extension}」失败，详情信息请查看控制台。",
                 "generic_message": "糟糕，出错啦！请刷新页面重试。",
                 "missing_dependencies_message": "无法启用「{extension}」，请先启用依赖扩展「{extensions}」",
                 "not_found_message": "您请求的资源不存在。",
@@ -489,6 +496,16 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle} - 第 # 页 - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {第 # 页 - {forumName}}}"
+            },
+            "modal": {
+                "close": "关闭"
+            },
+            "nav": {
+                "drawer_button": "打开导航抽屉"
             },
             "number_suffix": {
                 "kilo_text": "千",
@@ -558,6 +575,10 @@
                 "new_password_label": "新密码",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle} - 第 # 页 - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {第 # 页 - {forumName}}}"
             }
         },
         "api": {

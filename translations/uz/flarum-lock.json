@@ -1,0 +1,28 @@
+{
+    "flarum-lock": {
+        "admin": {
+            "permissions": {
+                "lock_discussions_label": "Muhokamalarni bloklash"
+            }
+        },
+        "forum": {
+            "badge": {
+                "locked_tooltip": "Yopiq"
+            },
+            "discussion_controls": {
+                "lock_button": "Blok",
+                "unlock_button": "Ochish"
+            },
+            "notifications": {
+                "discussion_locked_text": "{username} bloklagan"
+            },
+            "post_stream": {
+                "discussion_locked_text": "{username} muhokamani yopdi.",
+                "discussion_unlocked_text": "{username} muhokamani ochdi."
+            },
+            "settings": {
+                "notify_discussion_locked_label": "Kimdir men ochgan muhokamani yopdi"
+            }
+        }
+    }
+}

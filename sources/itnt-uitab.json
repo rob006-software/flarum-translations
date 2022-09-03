@@ -3,7 +3,13 @@
         "admin": {
             "settings": {
                 "help_text": "If your Flarum is installed in a subdirectory, please specify the subdirectory below (end with a slash), otherwise please leave the default value. e.g. <code>/sub/</code>",
-                "home_page_label": "Subdirectory"
+                "home_page_label": "Subdirectory",
+                "discussions_icon_label": "Discussions Icon",
+                "tags_icon_label": "Tags Icon",
+                "composer_icon_label": "Composer Icon",
+                "settings_icon_label": "Settings Icon",
+                "notifications_icon_label": "Notifications Icon",
+                "icon_help": "Leave blank to use the default icon."
             }
         }
     }

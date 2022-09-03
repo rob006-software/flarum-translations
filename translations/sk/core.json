@@ -17,7 +17,7 @@
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Prosím, uveďte farbu v hexadecimálnom tvare.",
-                "favicon_heading": "Favicon",
+                "favicon_heading": "Favikona",
                 "favicon_text": "Nahrajte obrázok ktorý bude použitý ako favicon Vášho fóra.",
                 "logo_heading": "Logo",
                 "logo_text": "Nahrajte obrázok ktorý bude zobrazený namiesto názvu Vášho fóra.",
@@ -104,7 +104,7 @@
             },
             "extension": {
                 "configure_scopes": "Nastaviť Rozsahy",
-                "confirm_purge": "",
+                "confirm_purge": "Vyčistením sa odstránia všetky položky databázy a súbory súvisiace s doplnkom. Toto neodinštaluje rozšírenie; to treba urobiť cez Composer. Ste si istý, že chcete pokračovať?",
                 "disabled": "Deaktivovaný",
                 "enable_to_see": "Aktivujte tento doplnok pre zobrazenie a zmenu jeho nastavení.",
                 "enabled": "Aktivovaný",
@@ -120,11 +120,11 @@
                 "no_settings": "Tento doplnok neobsahuje žiadne nastavenia.",
                 "open_modal": "Otvoriť Nastavenia",
                 "permissions_title": "Oprávnenia",
-                "purge_button": "",
+                "purge_button": "Vyčistiť",
                 "readme": {
-                    "button_label": "",
-                    "no_readme": "",
-                    "title": ""
+                    "button_label": "README",
+                    "no_readme": "Zdá sa, že toto rozšírenie nemá súbor README",
+                    "title": "{extName} dokumentácia"
                 },
                 "confirm_uninstall": "Odinštalovanie vymaže všetky údaje o tomto doplnku v databáze a jeho súbory. Ste si istý že chcete pokračovať?",
                 "uninstall_button": "Odinštalovať",
@@ -197,7 +197,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Na neurčito",
-                "allow_some_minutes_button": "{count, plural, one {Na # minútu} count, plural, few {Na # minúty} other {Na # minút}}",
+                "allow_some_minutes_button": "{count, plural, one {Na # minútu} few {Na # minúty} other {Na # minút}}",
                 "allow_ten_minutes_button": "Na 10 minút",
                 "allow_until_reply_button": "Do ďalšej odpovede",
                 "everyone_button": "Všetci",
@@ -312,8 +312,8 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "Používateľ {username} odpovedal {ago}",
                 "started_text": "Používateľ {username} začal {ago}",
-                "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
+                "total_replies_a11y_label": "{count, plural, one {# odpoveď} few {# odpovede} other {# odpovedí}}",
+                "unread_replies_a11y_label": "{count, plural, one {# neprečítaná odpoveď} few {# neprečítané odpovede} other {# neprečítaných odpovedí}}. Označiť {count, plural, one {neprečítanú odpoveď ako prečítanú} other {neprečítané odpovede ako prečítané}}.",
                 "mark_as_read_tooltip": "Označiť Ako Prečítané"
             },
             "forgot_password": {
@@ -332,9 +332,9 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
-                "search_clear_button_accessible_label": "",
+                "search_clear_button_accessible_label": "Vymazať vyhľadávanie",
                 "search_placeholder": "Prehľadať Fórum",
-                "search_role_label": "",
+                "search_role_label": "Prehľadávať fórum",
                 "session_dropdown_accessible_label": "Prepnúť rozbaľovacie menu nastavení relácie",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -394,7 +394,7 @@
                 "now_link": "Súčasnosť",
                 "original_post_link": "Originálny Príspevok",
                 "unread_text": "{count} neprečítaných",
-                "viewing_text": "{index} z {count} príspevku|{index} z {count} príspevkov"
+                "viewing_text": "{count, plural, one {{index} z {formattedCount} príspevku} other {{index} z {formattedCount} príspevkov}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Starý názov bol: \"{old}\"",
@@ -461,6 +461,9 @@
                 "resend_button": "Znovu Odoslať Potvrdzovací Mail",
                 "sent_message": "Poslané"
             },
+            "welcome_hero": {
+                "hide": "Skryť uvítaciu správu"
+            },
             "edit_user": {
                 "activate_button": "Aktivovať Používateľa",
                 "email_heading": "=> core.ref.email",
@@ -476,7 +479,10 @@
             }
         },
         "lib": {
-            "debug_button": "",
+            "debug_button": "Debugovať",
+            "alert": {
+                "dismiss_a11y_label": "Zrušiť upozornenie"
+            },
             "badge": {
                 "hidden_tooltip": "Skrytá"
             },
@@ -495,20 +501,31 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": ""
+                "nothing_available": "Nemáte povolenia na úpravu tohto používateľa."
             },
             "error": {
                 "dependent_extensions_message": "Nemožno deaktivovať {extension} pokiaľ nie sú deaktivované aj nasledujúce doplnky: {extensions}",
+                "extension_initialiation_failed_message": "{extension} sa nepodarilo načítať, skontrolujte konzolu v prehliadači pre viac informácií.",
                 "generic_message": "Hups! Vyskytla sa chyba. Prosím, opätovne načítajte stránku a skúste to znovu.",
                 "missing_dependencies_message": "Nemožno aktivovať {extension} pokiaľ nie sú aktivované aj nasledujúce doplnky: {extensions}",
                 "not_found_message": "Požadovaný obsah sa nenašiel.",
-                "payload_too_large_message": "",
+                "payload_too_large_message": "Požiadavka bola príliš veľká.",
                 "permission_denied_message": "Na toto nemáš oprávnenie.",
                 "rate_limit_exceeded_message": "Ideš trošku prirýchlo. Skús to znova neskôr.",
-                "render_failed_message": ""
+                "render_failed_message": "Ľutujeme, pri zobrazovaní tohto obsahu sa vyskytla chyba. Ak ste používateľom, skúste to prosím neskôr. Ak ste správcom fóra, pozrite sa do záznamov Flarum, kde nájdete ďalšie informácie."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Strana # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Strana # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Zavrieť"
+            },
+            "nav": {
+                "drawer_button": "Otvoriť navigačný panel"
             },
             "number_suffix": {
                 "kilo_text": "tis.",
@@ -526,23 +543,23 @@
         "views": {
             "admin": {
                 "extensions": {
-                    "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "caption": "=> core.ref.extensions",
+                    "disable": "Zakázať",
+                    "empty": "Žiadne nainštalované rozšírenia",
+                    "enable": "Povoliť",
+                    "name": "Názov rozšírenia",
+                    "package_name": "Názov balíka",
+                    "version": "Verzia"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "Informácie o aplikácii"
                 },
-                "title": ""
+                "title": "Administrácia"
             },
             "confirm_email": {
-                "submit_button": "",
-                "text": "",
-                "title": ""
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "Kliknite na tlačidlo nižšie pre potvrdenie Vášho emailového účtu.",
+                "title": "=> core.ref.confirm_email"
             },
             "content": {
                 "javascript_disabled_message": "Táto stránka sa najlepšie zobrazí v modernom prehliadači so zapnutým JavaScriptom.",
@@ -578,6 +595,10 @@
                 "new_password_label": "Nové Heslo",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {
@@ -607,7 +628,7 @@
             "change_password": "Zmeniť Heslo",
             "color": "Farba",
             "confirm_password": "Potvrdiť Heslo",
-            "confirm_email": "",
+            "confirm_email": "Potvrdiť Email",
             "confirmation_email_sent": "Odoslali sme potvrdzovací mail na adresu {email}. Ak nedorazí, prosím skontrolujte Váš spamový kôš.",
             "custom_footer_text": "Pridaj HTML kód ktorý sa zobrazí na úplnom dne každej stránky.",
             "custom_footer_title": "Upraviť Vlastnú Pätu",
@@ -619,7 +640,7 @@
             "edit": "Upraviť",
             "edit_user": "Upraviť používateľa",
             "email": "Email",
-            "extensions": "",
+            "extensions": "Rozšírenia",
             "icon": "Ikona",
             "icon_text": "Uveď názov akejkoľvek <a>FontAwesome</a> ikonovej triedy, <em>zároveň s</em> predponou <code>fas fa-</code>.",
             "load_more": "Načítať Viac",
@@ -641,7 +662,7 @@
             "save_changes": "Uložiť Zmeny",
             "settings": "Nastavenia",
             "sign_up": "Registrovať Sa",
-            "some_others": "{count} ostatný|{count} ostatní",
+            "some_others": "{count, plural, one {# ďalší} few {# ďalší} other {# ďalších}}",
             "start_a_discussion": "Začat Diskusiu",
             "username": "Používateľské Meno",
             "users": "Používatelia",

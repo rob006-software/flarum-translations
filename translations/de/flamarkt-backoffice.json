@@ -1,0 +1,36 @@
+{
+    "flamarkt-backoffice": {
+        "admin": {
+            "settingsInBackoffice": "Einstellungen im Backoffice"
+        },
+        "backoffice": {
+            "settingsNotAvailableForNonAdmin": "Diese Erweiterung verfügt über Einstellungen, die jedoch nur von Administratorkonten angezeigt und bearbeitet werden können.",
+            "nav": {
+                "dashboard": "Dashboard",
+                "users": "Benutzer",
+                "searchPlaceholder": "=> core.admin.nav.search_placeholder"
+            },
+            "users": {
+                "title": "Benutzer",
+                "new": "Benutzer erstellen",
+                "head": {
+                    "email": "E-Mail"
+                },
+                "field": {
+                    "username": "Benutzername",
+                    "email": "E-Mail",
+                    "password": "Passwort"
+                }
+            },
+            "permissions": {
+                "backoffice": "Backoffice verwenden"
+            }
+        },
+        "lib": {
+            "header": {
+                "admin_button": "=> core.forum.header.admin_button",
+                "backoffice_button": "Backoffice"
+            }
+        }
+    }
+}

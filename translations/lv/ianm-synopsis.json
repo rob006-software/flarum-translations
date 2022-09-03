@@ -2,11 +2,21 @@
     "ianm-synopsis": {
         "admin": {
             "settings": {
-                "excerpt-label": "",
-                "rich-excerpts": "",
-                "excerpt-type": "",
+                "excerpt-length": {
+                    "label": "",
+                    "help": ""
+                },
+                "rich-excerpts": {
+                    "label": "",
+                    "help": ""
+                },
+                "excerpt-type": {
+                    "label": "",
+                    "help": ""
+                },
                 "first-label": "",
-                "last-label": ""
+                "last-label": "",
+                "tags-enabled": ""
             }
         },
         "forum": {

@@ -8,6 +8,7 @@
         "admin": {
             "settings": {
                 "modal": {
+                    "always_show_theme_toggle_on_header": "",
                     "default_theme": "",
                     "default_theme_helper": "",
                     "theme_auto": "=> fof-nightmode.ref.auto",
@@ -19,6 +20,9 @@
         "forum": {
             "day": "=> fof-nightmode.ref.light",
             "night": "=> fof-nightmode.ref.dark",
+            "header": {
+                "nightmode_button": ""
+            },
             "user": {
                 "settings": {
                     "heading": "තේමාව",
@@ -26,6 +30,7 @@
                     "description2": "",
                     "device_specific_setting_checkbox": "",
                     "device_specific_setting_checkbox_tooltip": "",
+                    "auto_unsupported": "",
                     "options": {
                         "auto": "=> fof-nightmode.ref.auto",
                         "day": "=> fof-nightmode.ref.light",
@@ -37,6 +42,16 @@
                         "night": ""
                     }
                 }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "fofNightMode": "",
+                "fofNightMode-help": "",
+                "fofNightMode_perDevice": "",
+                "fofNightMode_perDevice-help": ""
             }
         }
     }

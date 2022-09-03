@@ -453,10 +453,16 @@
                 "alert_message": "",
                 "resend_button": "ხელახლა გაგზავნეთ დამადასტურებელი ელ.ფოსტა",
                 "sent_message": "გაგზავნილი"
+            },
+            "welcome_hero": {
+                "hide": ""
             }
         },
         "lib": {
             "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "დამალული"
             },
@@ -479,6 +485,7 @@
             },
             "error": {
                 "dependent_extensions_message": "შეუძლებელია {extension} გამორთვა სანამ არ მოხდება შემდეგი დამოკიდებული გაფართოებების გამორთვა: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "უი! Რაღაც არასწორად წავიდა. გთხოვთ, გადატვირთოთ გვერდი და ისევ სცადოთ.",
                 "missing_dependencies_message": "შეუძელებლია {extension} გაფართოების ჩართვა, სანამ შემდეგი გაფართოებები ჩართულია: {extensions}",
                 "not_found_message": "მოთხოვნილი რესურსი ვერ მოიძებნა.",
@@ -489,6 +496,16 @@
             },
             "loading_indicator": {
                 "accessible_label": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "კ",
@@ -558,6 +575,10 @@
                 "new_password_label": "ახალი პაროლი",
                 "submit_button": "",
                 "title": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {

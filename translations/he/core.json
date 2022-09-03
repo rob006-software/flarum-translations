@@ -28,7 +28,7 @@
                 "default_language_heading": "שפת ברירת מחדל",
                 "description": "קביעת כותרת לפורום, שפות ושאר ההגדרות הבסיסיות.",
                 "display_name_heading": "שם תצוגה של משתמש",
-                "display_name_text": "בחירת driver שישומש להצגת שמות להצגה. ברירת המחדל, יוצג שם משתמש",
+                "display_name_text": "בחירת driver שישומש להצגת שמות להצגה. ברירת המחדל, יוצג שם משתמש.",
                 "forum_description_heading": "תיאור הפורום",
                 "forum_description_text": "הכנס משפט או שניים שמתארים את הקהילה. זה יופיע בתג הMeta ובמנועי חיפוש.",
                 "forum_title_heading": "כותרת פורום",
@@ -118,12 +118,10 @@
                 "permissions_title": "הרשאות",
                 "purge_button": "טיהור",
                 "readme": {
-                    "button_label": "README",
+                    "button_label": "קרא אותי",
                     "no_readme": "הרחבה זו אינה כוללת קובץ README",
                     "title": "מסמכי ההרחבה {extName}"
-                },
-                "confirm_uninstall": "בהסרת ההרחבה יוסרו את כל הערכים והנכסים של מסד הנתונים. האם ברצונך להמשיך?",
-                "uninstall_button": "הסרה"
+                }
             },
             "header": {
                 "get_help": "השגת עזרה",
@@ -242,7 +240,7 @@
                     "next_button": "עמוד הבא",
                     "page_counter": "עמוד {current} מתוך {total}"
                 },
-                "title": "‌",
+                "title": "=> core.ref.users",
                 "total_users": "סך הכל משתמשים: {count}"
             }
         },
@@ -265,7 +263,7 @@
                 "exit_full_screen_tooltip": "צא ממסך מלא",
                 "full_screen_tooltip": "מסך מלא",
                 "minimize_tooltip": "מזער",
-                "preview_tooltip": "Preview"
+                "preview_tooltip": "צפיה מקדימה"
             },
             "composer_discussion": {
                 "body_placeholder": "כתוב פוסט...",
@@ -276,7 +274,7 @@
             },
             "composer_edit": {
                 "discard_confirmation": "לא שמרת את השינויים. האם ברצונך לוותר עליהם?",
-                "edited_message": "Your edit was made.",
+                "edited_message": "עריכה נשמרה.",
                 "post_link": "פוסט #{number} ב-{discussion}",
                 "submit_button": "=> core.ref.save_changes",
                 "view_button": "=> core.ref.view"
@@ -298,7 +296,7 @@
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": "Toggle discussion actions dropdown menu"
+                "toggle_dropdown_accessible_label": "תפריט נפתח לפעולות בדיון"
             },
             "discussion_list": {
                 "empty_text": "נראה שאין פה דיונים.",
@@ -306,15 +304,14 @@
                 "replied_text": "{username} הגיב {ago}",
                 "started_text": "{username} יצר {ago}",
                 "total_replies_a11y_label": "{count, plural, one {תגובה #} other {# תגובות}}",
-                "unread_replies_a11y_label": "{count, plural, one {הודעה שלא נקראה #} other {# הודעות שלא נקראו}}. סימון {count, plural, one {reply} other {replies}} כנקרא.",
-                "mark_as_read_tooltip": "סמן כנקרא"
+                "unread_replies_a11y_label": "{count, plural, one {הודעה שלא נקראה #} other {# הודעות שלא נקראו}}. סימון {count, plural, one {reply} other {replies}} כנקרא."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "שלחנו לך מייל עם קישור לאיפוס הסיסמא. אם המייל לא הגיע בדקה-שתיים הקרובות, בדוק את תיקיית הספאם שלך.",
+                "email_sent_message": "מייל עם קישור לאיפוס הסיסמא נשלח. אם המייל לא הגיע בדקות הקרובות, בדקו את תיקיית הספאם.",
                 "not_found_message": "אין משתמש תחת כתובת המייל הזו.",
-                "submit_button": "שחזור סיסמא.",
+                "submit_button": "שחזור סיסמא",
                 "text": "הכנס את המייל שלך ונשלח לך קישור לאיפוס הסיסמא.",
                 "title": "שכחתי סיסמא"
             },
@@ -355,7 +352,7 @@
                 "invalid_login_message": "פרטי ההתחברות שלך שגויים.",
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "זכור אותי",
-                "sign_up_text": "אין לך חשבון? <a>הירשם</a>",
+                "sign_up_text": "אין לכם חשבון? <a>הירשמו</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
                 "username_or_email_placeholder": "שם משתמש או כתובת מייל"
@@ -453,10 +450,16 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "שלח מחדש את מייל האישור",
                 "sent_message": "נשלח"
+            },
+            "welcome_hero": {
+                "hide": "הסתרת הודעה ברוכים הבאים"
             }
         },
         "lib": {
             "debug_button": "Debug",
+            "alert": {
+                "dismiss_a11y_label": "הסתרת התראה"
+            },
             "badge": {
                 "hidden_tooltip": "מוסתר"
             },
@@ -479,6 +482,7 @@
             },
             "error": {
                 "dependent_extensions_message": "אין אפשרות לבטל את ההרחבה {extension} עד שלא יבוטלו ההרחבות הבאות: {extensions}",
+                "extension_initialiation_failed_message": "התוסף {extension} נכשל באתחול, אנא בדקו את קונסול הדפדפן למידע נוסף.",
                 "generic_message": "אופס! משהו השתמש. רענן את הדף ונסה שוב.",
                 "missing_dependencies_message": "אין אפשרות להפעיל את ההרחבה {extension} עד שלא יופעלו ההרחבות הבאות: {extensions}",
                 "not_found_message": "המקור המבוקש לא נמצא.",
@@ -490,14 +494,24 @@
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
             },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: עמוד # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {עמוד # - {forumName}}}"
+            },
+            "modal": {
+                "close": "סגירה"
+            },
+            "nav": {
+                "drawer_button": "פתיחת עורך תפריט ניווט"
+            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
             "series": {
                 "glue_text": ", ",
-                "three_text": "{first}, {second} ו{third}",
-                "two_text": "{first} ו{second}"
+                "three_text": "{first}, {second} ו-{third}",
+                "two_text": "{first} ו-{second}"
             },
             "username": {
                 "deleted_text": "[הוסר]"
@@ -527,7 +541,7 @@
             "content": {
                 "javascript_disabled_message": "האתר נראה הכי טוב באמצעות דפדפן מודרני שמאפשר ג'אווהסקריפט.",
                 "load_error_message": "משהו השתבש בניסיון לטעון את הגירסא המלאה של האתר.",
-                "loading_text": "טוען..."
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
                 "next_page_button": "=> core.ref.next_page",
@@ -566,19 +580,19 @@
         "email": {
             "activate_account": {
                 "subject": "הפעל את החשבון החדש שלך",
-                "body": "היי {username}!\nאנו שמחים שבחרת להירשם לפורום {forum}.\nאם ההרשמה בוצעה על ידיך, הנה הקישור עליו ניתן ללחוץ כדי לאשר את חשבונך החדש בקהילה:\n{url}\n\nאם ההרשמה לא בוצעה על ידיך, התעלם ממייל זה.\n"
+                "body": "שלום {username}!\n\nאנו שמחים שבחרת להירשם לפורום {forum}.\n\nאם ההרשמה בוצעה על ידך, הנה הקישור עליו ניתן ללחוץ בכדי לאשר את חשבונך:\n{url}\n\nאם ההרשמה לא בוצעה על ידיך, התעלם מהודעה זו.\n"
             },
             "confirm_email": {
                 "subject": "אשר את כתובת המייל החדשה שלך",
-                "body": "היי {username}!\nשינית את כתובת המייל שלך בפורום {forum} לכתובת המייל הזו.\nכל שנשאר לך לעשות הוא ללחוץ על הקישור הבא כדי לאמת את השינוי:\n{url}\n\nאם השינוי לא בוצע על ידיך, ניתן להתעלם ממייל זה.\n"
+                "body": "היי {username}!\n\nשינית את כתובת המייל שלך בפורום {forum} לכתובת המייל הזו.\n\nכל שנשאר לך לעשות הוא ללחוץ על הקישור הבא כדי לאמת את השינוי:\n{url}\n\nאם השינוי לא בוצע על ידיך, ניתן להתעלם ממייל זה.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "היי {username}!\nביקשת לשחזר את סיסמתך בפורום {forum}.\nאם ברצונך לאפס את הסיסמא, ניתן ללחוץ על הקישור הבא כדי לעשות זאת:\n{url}\n\nאם ברצונך להישאר עם הסיסמא הנוכחית, התעלם ממייל זה וכלום לא ישתנה.\n"
+                "body": "שלום {username}!\n\nביקשת לשחזר את סיסמתך בפורום {forum}.\n\nאם ברצונך לאפס את הסיסמא, ניתן ללחוץ על הקישור הבא כדי לעשות זאת:\n{url}\n\nאם ברצונך להישאר עם הסיסמא הנוכחית, התעלם ממייל זה וכלום לא ישתנה.\n"
             },
             "send_test": {
                 "subject": "בדיקת מייל Flarum",
-                "body": "היי {username}!\n\nזה הוא מייל בדיקה ונראה שהכל עובד כמו שצריך.\n\nאם שליחת ההודעה לא בוצעה על ידיך, התעלם ממייל זה.\n"
+                "body": "שלום {username}!\n\nזה הוא מייל בדיקה ונראה שהכל עובד כמו שצריך.\n\nאם שליחת ההודעה בוצעה על ידך, ההגדרות עובדות כמצופה!\n\nאם שליחת ההודעה לא בוצעה על ידיך, התעלם ממייל זה.\n"
             }
         },
         "ref": {
@@ -616,7 +630,7 @@
             "remove": "הסרה",
             "rename": "שינוי שם",
             "reply": "תגובה",
-            "reset_your_password": "איפוס את סיסמתך",
+            "reset_your_password": "איפוס סיסמה",
             "restore": "שחזר",
             "save_changes": "שמירת שינויים",
             "settings": "הגדרות",
@@ -626,7 +640,7 @@
             "username": "שם משתמש",
             "users": "משתמשים",
             "view": "צפיה",
-            "write_a_reply": "כתוב תגובה...",
+            "write_a_reply": "כתיבת תגובה...",
             "you": "את/ה"
         },
         "group": {

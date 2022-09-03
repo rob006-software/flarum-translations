@@ -1,0 +1,122 @@
+{
+    "v17development-flarum-badges": {
+        "admin": {
+            "uncategorized": "Nekategorizovano",
+            "new_badge": "Novi bedž",
+            "create_category": "Napravi kategoriju",
+            "update_badge": "Ažuriraj bedž",
+            "update_category": "Ažuriraj kategoriju",
+            "edit_category": "Uredi kategoriju",
+            "nothing_here_yet": "Još niste napravili nijedan bedž ili kategoriju.",
+            "show_badges_on_user_card": "",
+            "number_of_badges_on_user_card": "",
+            "number_of_badges_on_user_card_help": "",
+            "permissions": {
+                "badge_detail_users": "Može da vidi članove na stranici sa detaljima o bedževima",
+                "give_badge": "Daje bedž članu",
+                "take_badge": "Oduzima bedž članu",
+                "edit_own_card_badges": "",
+                "edit_card_badges": ""
+            },
+            "confirm_dialog": {
+                "title": "Potvrdi",
+                "no": "Ne",
+                "yes": "Da"
+            },
+            "confirm_messages": {
+                "delete_badge": "Da li ste sigurni da želite da uklonite ovaj bedž. Uklanja se svim članovima i nepovratljivo je.",
+                "delete_category": "Da li ste sigurni da želite da uklonite ovu kategoriju? Ukoliko postoje bedževi u ovoj kategoriji, oni će biti označeni kao 'nekategorizovano'."
+            },
+            "badge": {
+                "name": "Ime bedža",
+                "icon": "Ikonica bedža",
+                "description": "Opis bedža",
+                "visible": "Vidljivo",
+                "visible_description": "Omogući ovaj bedž. Kada je onemogućen, bedž neće biti vidljiv.",
+                "is_image": "Bedž je slika",
+                "is_image_description": "Koristite sliku umesto podrazumevanog bedža",
+                "image": "Veza do slike bedža",
+                "image_placeholder": "Unesite vezu do slike bedža",
+                "icon_color": "Boja ikonice",
+                "background_color": "Boja pozadine",
+                "label_color": "Boja teksta"
+            },
+            "badge_category": {
+                "name": "Naziv kategorije",
+                "description": "Opis kategorije",
+                "blockview": "Pregled po blokovima",
+                "blockview_description": "Prikaži kategorije bedževa po blokovima prikazanu na pregledu bedževa. Ukoliko je opcija onemogućena, svi bedževi će biti prikazani u tabeli.",
+                "enabled": "Omogućeno",
+                "enabled_description": "Omogući ovu kategoriju. Ukoliko je onemogućena, svi bedževi će biti onemogućeni i kategorija će biti skrivena."
+            },
+            "auto_moderator": {
+                "not_installed": {
+                    "title": "Automatski nagradi članove bedževima",
+                    "content": "Ovaj dodatak nudi više funkcionalnosti kada je <a>Auto Moderator</a> instaliran i aktiviran. Kada instalirate ovaj dodatak, članovi mogu biti automatski nagrađeni bedževima bez intervencije moderatora ili administratora!",
+                    "install": "Instaliraj",
+                    "dismiss": "Ne prikazuj ponovo"
+                },
+                "action_drivers": {
+                    "badge_id": "ID bedža",
+                    "give_badge": "Daj bedž",
+                    "remove_badge": "Ukloni bedž"
+                },
+                "requirement_drivers": {
+                    "has_badge": "Ima bedž"
+                },
+                "metric_drivers": {
+                    "badges_received": "Dobijeni bedževi"
+                },
+                "badge_selector": {
+                    "placeholder": "Odaberi bedž",
+                    "loading_badges": "Učitavanje bedževa"
+                }
+            }
+        },
+        "forum": {
+            "badge_information": "Informacije o bedžu",
+            "all_badges": "Prikaži sve bedževe",
+            "all_users": "Prikaži sve članove",
+            "give_badge": "Daj bedž",
+            "update_badge": "Ažuriraj bedž",
+            "select_badge": "Odaberi bedž",
+            "user_has_badge": "Član već ima ovaj bedž.",
+            "user_no_badges": "Ovaj član još nema nijedan bedž.",
+            "no_received": "Nijedan korisnik nije zaslužio ovaj bedž.",
+            "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "",
+            "badge": {
+                "badge": "Bedž",
+                "badges": "Bedževi",
+                "name": "Ime bedža",
+                "description": "Opis bedža",
+                "earning_reason": "Razlog za sticanje bedža",
+                "update_earning_reason": "Ažuriraj razlog zarade",
+                "no_earning_reason": "Nije dat razlog za zaradu",
+                "earned_on": "Bedž stečen na",
+                "category": "Kategorija bedža",
+                "received_on": "Dobijen datuma {date}",
+                "badge_details": "Detalji bedža",
+                "earned_count": "{count, plural, one {<b># član</b> je zaradio ovaj bedž} other {<b># člana(ova)</b> su zaradili ovaj bedž}}",
+                "earned_by_count": "{count, plural, one {Zarađeno <b># user</b>} other {Zarađeno od <b># člana(ova)</b>}}",
+                "others_link": ""
+            },
+            "badges_in_card": {
+                "title": "",
+                "manage_badges": "",
+                "description": "",
+                "select_limit": "",
+                "hit_limit": ""
+            },
+            "moderation": {
+                "remove_badge": "Ukloni bedž članu",
+                "remove_badge_confirm": "Da li ste sigurni da želite da uklonite ovaj bedž ovaj članu?",
+                "give_badge": "Daj bedž"
+            },
+            "notification": {
+                "title": "Dobio si novi bedž",
+                "settings": "Dobio sam bedž"
+            }
+        }
+    }
+}

@@ -94,6 +94,7 @@
                 "name": "Nom",
                 "user-name": "Dernière nomination par",
                 "user-place": "Dernier placement par",
+                "placement": "Localisation actuelle",
                 "actions": "Actions",
                 "edit": "Modifier",
                 "no-user-name": "Pas renommé",
@@ -120,13 +121,36 @@
         },
         "admin": {
             "settings": {
-                "discussion-age": "Quelle ancienneté doivent avoir les discussions pour qu'un poisson puisse y être placé (en jours)",
-                "post-age": "Quelle ancienneté doivent avoir les messages pour qu'un poisson puisse y être placé (en jours)",
+                "user": "Utilisateurs",
                 "user-age": "Depuis combien de temps un utilisateur doit être actif pour qu'un poisson puisse y être placé (jours)",
+                "user-probability": "Probabilité d'être placé sur un profil utilisateur (%)",
+                "discussion": "Discussions",
+                "discussion-age": "Quelle ancienneté doivent avoir les discussions pour qu'un poisson puisse y être placé (en jours)",
+                "discussion-tags": "Liste blanche d'étiquette",
+                "discussion-tags-unavailable": "Paramètre non disponible car l'extension Tags est désactivée.",
+                "discussion-tags-help": "Si vous ne sélectionnez aucune étiquette, toute discussion correspondant aux paramètres de temps ci-dessus peut être choisie. Si un nombre quelconque d'étiquettes est sélectionné, une discussion doit avoir au moins une des étiquettes sélectionnées pour être choisie. La probabilité est la chance d'être choisi après que tous les choix précédents ont été essayés. La dernière étiquette de la liste servira toujours de solution de secours, alors assurez-vous que cette étiquette contient au moins une discussion valide.\n",
+                "tags-header": {
+                    "tag": "Étiquette",
+                    "probability": "Probabilité"
+                },
+                "tags-control": {
+                    "choose": "Choisir une étiquette",
+                    "add": "Ajouter à la liste blanche",
+                    "down": "Descendre",
+                    "up": "Monter",
+                    "delete": "Supprimer de la liste blanche"
+                },
+                "tags-fallback": {
+                    "last-line": "Solution de secours",
+                    "single-line": "Au moins 2 étiquettes requises pour la probabilité"
+                },
+                "post": "Messages",
+                "post-age": "Quelle ancienneté doivent avoir les messages pour qu'un poisson puisse y être placé (en jours)",
+                "post-probability": "Probabilité d'être placé sur un message plutôt que sur la discussion (%)",
+                "general": "Général",
                 "time-to-place": "Temps alloué pour placer le poisson avant qu'il ne soit placé au hasard (en minutes)",
                 "alert-round": "Afficher une alerte avec le nom et la durée du round sur la page d'accueil",
-                "animate-flip": "Retourner les images de poissons en fonction de la direction",
-                "title": ""
+                "animate-flip": "Retourner les images de poissons en fonction de la direction"
             },
             "permissions": {
                 "visible": "Voir les poissons",
@@ -146,6 +170,7 @@
             "invalid-user-id": "L'utilisateur ne semble pas exister, il a peut-être été récemment supprimé",
             "model-deleted": "Impossible de placer un poisson dans une discussion ou un message supprimé",
             "model-private": "Impossible de placer un poisson dans une discussion ou un message privé",
+            "tag-not-allowed": "Vous ne pouvez pas placer de poisson sous cette étiquette",
             "inactive-discussion": "Impossible de placer un poisson dans une discussion inactive depuis plus de {days} jours",
             "inactive-post": "Impossible de placer un poisson dans un message créé il y a plus de {days} jours",
             "inactive-user": "Impossible de placer un poisson sur un utilisateur inactif depuis plus de {days} jours",

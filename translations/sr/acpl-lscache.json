@@ -1,0 +1,17 @@
+{
+    "acpl-lscache": {
+        "admin": {
+            "public_cache_ttl_label": "Podrazumevani TTL javne keš memorije",
+            "public_cache_ttl_help": "Odredite koliko dugo, u sekundama, se javne stranice keširaju. Podrazumevana vrednost je 300 sekundi.",
+            "clearing_cache_listener_label": "Očistite LSCache kada se očisti Flarum keš memorija",
+            "serve_stale_label": "Posluži zastarelu",
+            "serve_stale_help": "Ukoliko je omogućeno, zastarela kopija keširane stranice će se prikazivati posetiocima dok nova kopija keš memorije ne bude dostupna. Smanjuje opterećenje servera za buduće posete. Ukoliko je onemogućeno, stranica će se dinamički generisati dok posetioci čekaju. Po dizajnu, ova opcija može poslužiti zastareli sadržaj. Ne omogućujte ovu opciju ukoliko vam to ne odgovara.",
+            "purge_on_discussion_update_label": "Očistite URLove ili kategorije kada je diskusija ili odgovor ažuriran",
+            "purge_on_discussion_update_help": "Navedite po jedan URL ili kategoriju u liniji. URL treba da počinje sa <code></code>, npr. <code>/rankings</code> i keš oznaka treba da počinje sa <code>tag=</code>, npr. <code>tag=rankings</code>. Ova ekstenzija označava svaku rutu i na primer ukoliko imate mnogo ruta koje želite da očistite, bolje je da dodate pravilo u .htaccess fajlu sa regularnim izrazom koji će označiti rute i ovde, u postavkama, unesite samo ovu oznaku. Ovaj metod će biti mnogo brži. <a>Pročitajte više</a>. Po podrazumevanim postavkama, keš memorija za početnu stranicu se čisti, kao i keš memorija za ažurirane diskusije.",
+            "cache_exclude_label": "Ne keširaj putanje",
+            "cache_exclude_help": "Putanje koje sadrže ove nizove neće biti keširane. Na primer, za <code>/mypath/mypage?aa=bb</code>,<code>mypage?aa=</code> se mogu ovde koristiti. Da biste podudarili početak, dodajte <code>^</code> na početak stavke. Da biste izvršili potpuno podudaranje, dodajte <code>$</code> na kraju URLa. Po jedan u redu.",
+            "purge_all": "Očistite sav LSCache",
+            "purge_all_success": "Obavešten je LiteSpeed veb server da očisti sve LSCache unose"
+        }
+    }
+}

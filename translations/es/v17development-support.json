@@ -151,6 +151,11 @@
                     "confirm": "¿Estás seguro de que quieres convertir esta discusión en un ticket?",
                     "event": "La discusión {ticket_title} se ha convertido en un ticket"
                 },
+                "convert_to_discussion": {
+                    "button": "",
+                    "confirm": "",
+                    "event": ""
+                },
                 "status": {
                     "new": {
                         "title": "Nuevo",
@@ -192,7 +197,8 @@
                     "assign_me": "Asignar a sí mismo",
                     "remove_me": "Quitarme",
                     "update_status": "Actualizar el estado del ticket",
-                    "close_ticket": "Cerrar ticket"
+                    "close_ticket": "Cerrar ticket",
+                    "update_note": ""
                 },
                 "new_tickets_dropdown": {
                     "title": "Notificaciones de tickets",
@@ -223,6 +229,13 @@
                     "assignees": {
                         "title": "Asignatarios",
                         "placeholder": "El estado del ticket"
+                    },
+                    "private_note": {
+                        "title": "",
+                        "info": "",
+                        "tip": "",
+                        "placeholder": "",
+                        "edit_button": ""
                     }
                 },
                 "compose_ticket": {
@@ -242,7 +255,41 @@
                     "title": "Resumen de los tickets",
                     "description": "Sonríe, eres el héroe que salva el día a los demás.",
                     "no_tickets": "No hay tickets que coincidan con tus criterios, ¡probablemente estás haciendo un buen trabajo!",
-                    "all_tickets": "Todos los tickets"
+                    "all_tickets": "Todos los tickets",
+                    "selection_unfiltered": "",
+                    "selection_open": "",
+                    "selection_closed": "",
+                    "refresh": "",
+                    "filter": {
+                        "status": {
+                            "title": "",
+                            "filter_count": ""
+                        },
+                        "language": {
+                            "any": ""
+                        },
+                        "assignees": {
+                            "title": "",
+                            "search": "",
+                            "unassigned": ""
+                        }
+                    },
+                    "sort": {
+                        "newest": "",
+                        "oldest": "",
+                        "recent_activity": "",
+                        "least_recent": ""
+                    }
+                }
+            },
+            "notifications": {
+                "replied_to_ticket": {
+                    "name": "",
+                    "content": ""
+                },
+                "ticket_resolved": {
+                    "name": "",
+                    "content": ""
                 }
             }
         },

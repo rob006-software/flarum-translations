@@ -151,6 +151,11 @@
                     "confirm": "确定要将此主题帖转为工单吗？",
                     "event": "主题帖 {ticket_title} 已转为工单"
                 },
+                "convert_to_discussion": {
+                    "button": "",
+                    "confirm": "",
+                    "event": ""
+                },
                 "status": {
                     "new": {
                         "title": "新建",
@@ -192,7 +197,8 @@
                     "assign_me": "分配给我",
                     "remove_me": "移除我",
                     "update_status": "更新工单状态",
-                    "close_ticket": "关闭工单"
+                    "close_ticket": "关闭工单",
+                    "update_note": "更新私密备注"
                 },
                 "new_tickets_dropdown": {
                     "title": "工单通知",
@@ -223,6 +229,13 @@
                     "assignees": {
                         "title": "专员",
                         "placeholder": "工单状态"
+                    },
+                    "private_note": {
+                        "title": "个人备注",
+                        "info": "个人备注对客服和客户不可见。",
+                        "tip": "提示：如果一个工单有多个客服处理，请在备注时加上你的姓名和日期。",
+                        "placeholder": "例如：2022.1.1 - 处理：删除数据库",
+                        "edit_button": "编辑备注"
                     }
                 },
                 "compose_ticket": {
@@ -242,7 +255,41 @@
                     "title": "工单概览",
                     "description": "真棒，今天又是帮助他人的一天。",
                     "no_tickets": "暂无工单分配给您。",
-                    "all_tickets": "所有工单"
+                    "all_tickets": "所有工单",
+                    "selection_unfiltered": "清除过滤条件",
+                    "selection_open": "进行中",
+                    "selection_closed": "已结单",
+                    "refresh": "刷新",
+                    "filter": {
+                        "status": {
+                            "title": "工单状态",
+                            "filter_count": "{count, plural, one {# 过滤条件} other {# 过滤条件}}"
+                        },
+                        "language": {
+                            "any": "全部语言"
+                        },
+                        "assignees": {
+                            "title": "负责人",
+                            "search": "搜索负责人",
+                            "unassigned": "未指派"
+                        }
+                    },
+                    "sort": {
+                        "newest": "最新",
+                        "oldest": "最早",
+                        "recent_activity": "新动态",
+                        "least_recent": "非新动态"
+                    }
+                }
+            },
+            "notifications": {
+                "replied_to_ticket": {
+                    "name": "有人回复我的工单",
+                    "content": "=> v17development-flarum-support.emails.replied_to_ticket.subject"
+                },
+                "ticket_resolved": {
+                    "name": "工单已解决",
+                    "content": "=> v17development-flarum-support.emails.ticket_resolved.subject"
                 }
             }
         },

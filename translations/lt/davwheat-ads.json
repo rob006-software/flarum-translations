@@ -2,10 +2,20 @@
     "davwheat": {
         "ads": {
             "admin": {
+                "permissions": {
+                    "bypassAds": "Slėpti skelbimus forume"
+                },
                 "settings": {
-                    "enabled_locations": "",
+                    "admin_bypass_warning": "",
+                    "enabled_locations": "Įgalintos skelbimų rinkinių vietos",
+                    "script_urls": "Priskirto scenarijaus URL",
+                    "add_script": "Nauja",
+                    "script_deletion": "",
                     "code_input": "",
                     "code_input_disabled": "",
+                    "js_input": "",
+                    "js_input_disabled": "",
+                    "use_adsense": "",
                     "pub_id": "",
                     "between_posts_gap": "",
                     "allow_after_placeholder": "",

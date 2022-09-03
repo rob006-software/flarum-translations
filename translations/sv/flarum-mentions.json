@@ -1,0 +1,49 @@
+{
+    "flarum-mentions": {
+        "admin": {
+            "settings": {
+                "allow_username_format_label": "",
+                "allow_username_format_text": ""
+            }
+        },
+        "forum": {
+            "composer": {
+                "mention_tooltip": "Nämn en användare eller ett inlägg",
+                "reply_to_post_text": "Svara på #{number}"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} svarade på ditt inlägg",
+                "user_mentioned_text": "{username} nämnde dig"
+            },
+            "post": {
+                "mentioned_by_self_text": "",
+                "mentioned_by_text": "{users} svarade på detta.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "Någon svarar på ett av mina inlägg",
+                "notify_user_mentioned_label": "Någon nämner mig i ett inlägg"
+            },
+            "user": {
+                "mentions_link": "Omnämnanden"
+            },
+            "post_mention": {
+                "deleted_text": ""
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "{replier_display_name} svarade på ditt inlägg i {title}",
+                "body": ""
+            },
+            "user_mentioned": {
+                "subject": "{mentioner_display_name} nämnde dig i {title}",
+                "body": ""
+            }
+        }
+    }
+}

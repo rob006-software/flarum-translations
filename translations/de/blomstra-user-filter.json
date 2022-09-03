@@ -1,0 +1,25 @@
+{
+    "blomstra-user-filter": {
+        "admin": {
+            "settings": {
+                "intro": "Benutzer ohne den Berechtigung <code>Benutzer suchen</code> sehen das Suchfeld nicht. Setze auf <code>Everyone</code> für alle Benutzer oder was auch immer Ihre Präferenzebene ist.",
+                "min_length": "Minimum an Zeichen, um mit der Suche zu beginnen",
+                "result_count": "Maximum führt zur automatischen Vervollständigung des Dropdown-Menüs"
+            }
+        },
+        "forum": {
+            "index_page": {
+                "filter_user": {
+                    "accessible_label": "Nach Autor filtern",
+                    "all": "Alle",
+                    "label": "Nach Autor filtern: {text}",
+                    "search_label": "Benutzer suchen...",
+                    "no_results": "Keine Ergebnisse",
+                    "start_typing": "Anfangen zu tippen...",
+                    "keep_typing": "Tippe weiter...",
+                    "remove_filter": "Autorenfilter entfernen"
+                }
+            }
+        }
+    }
+}

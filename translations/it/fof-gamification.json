@@ -21,24 +21,43 @@
             },
             "notification": {
                 "upvote": "{username} ha dato un voto positivo al tuo messaggio",
-                "downvote": "{username} ha dato un voto negativo al tuo messaggio"
+                "downvote": "{username} ha dato un voto negativo al tuo messaggio",
+                "prefrences": {
+                    "vote": "Quando uno dei miei post viene votato su/giù"
+                }
             },
             "user": {
-                "points": "Punti: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": "{count, plural, one { {count} punto} other {{count} punti}}"
+                },
+                "rank": "{rank}",
+                "votes_link": "Voti",
+                "points": "Punti: {points}"
             },
             "modal": {
+                "downvotes_label": "Votanti contro:",
                 "title": "Votanti",
                 "upvotes_label": "Voti positivi:"
             },
-            "mod_item": "Mostra votanti"
+            "mod_item": "Mostra votanti",
+            "voters": {
+                "none": "Nessun Voto",
+                "label": "Votanti",
+                "label_none": "Nessun votante"
+            },
+            "post": {
+                "upvote_button": "Vota post",
+                "downvote_button": "Vota a sfavore"
+            }
         },
         "admin": {
             "permissions": {
                 "vote_label": "Dare voti positivi/negativi ai messaggi",
                 "see_votes_label": "Visualizzare i voti positivi/negativi",
                 "see_voters_label": "Vedere chi ha votato",
-                "see_ranking_page": "Visualizzare la pagina della classifica"
+                "see_ranking_page": "Visualizzare la pagina della classifica",
+                "upvote_notifications": "Ricevi notifiche su upvote",
+                "downvote_notifications": "Ricevi notifiche su downvote"
             },
             "page": {
                 "rankings": {
@@ -69,7 +88,8 @@
                     "vote_color": "Colore del voto",
                     "icon_name": "Icona voto positivo/negativo",
                     "icon_help": "Inserisci una qualsiasi icona di FontAwesome che è seguita con il suffisso -up e -down. Esempio: arrow, thumbs, chevron",
-                    "upvotes_only": "Permetti solo voti positivi"
+                    "upvotes_only": "Permetti solo voti positivi",
+                    "first_post_only": "Consenti solo voti su/giù nel primo post di una discussione"
                 },
                 "save_settings": "Salva impostazioni",
                 "convert": {
@@ -89,6 +109,14 @@
                         "name": "Nome"
                     }
                 }
+            }
+        },
+        "email": {
+            "body": {
+                "postVoted": "Hey {recipient_display_name},\n\n{actor_display_name} ho appena votato il tuo post in {discussion_title}.\n\nGuardalo qui: {discussion_url}\n"
+            },
+            "subject": {
+                "postVoted": "Il tuo post è stato votato da {display_name}"
             }
         }
     }

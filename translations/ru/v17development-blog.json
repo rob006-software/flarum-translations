@@ -1,24 +1,26 @@
 {
     "v17development-flarum-blog": {
         "admin": {
-            "blog": "",
+            "blog": "Блог",
             "permissions": {
-                "write_articles": "",
-                "auto_approve_posts": "",
-                "approve_posts": ""
+                "write_articles": "Написать и/или исправить статьи блога",
+                "auto_approve_posts": "Размещать статьи без одобрения",
+                "approve_posts": "Может одобрять статьи блога"
             },
             "settings": {
-                "no_categories_selected": "",
-                "selected_category_count": "",
-                "select_categories_button": "",
-                "blog_heading": "",
-                "allow_comments_label": "",
-                "allow_comments_text": "",
-                "require_review_label": "",
-                "require_review_text": "",
-                "hide_on_discussion_list_label": "",
-                "hide_on_discussion_list_text": "",
-                "add_sidebar_nav_label": "",
+                "no_categories_selected": "Категории не выбраны",
+                "selected_category_count": "{count, plural, one {Вы выбрали категорию# category} other {Вы выбрали # categories категорий}}",
+                "select_categories_button": "Выбрать категории блога",
+                "blog_heading": "Блог",
+                "featured_count_label": "",
+                "featured_count_text": "",
+                "allow_comments_label": "Разрешить комментарии",
+                "allow_comments_text": "По умолчанию, разрешить комментарии к статьям блога. Если установлен запрет, можно индивидуально разрешать комментарии для отдельных статей блога. <b>Замечание:</b> Изменение этой настройки не повлияет на существующие сообщения в блоге.",
+                "require_review_label": "Сообщения блога требуют просмотра",
+                "require_review_text": "При отправке статьи она не будет видимой сразу, а потребует разрешения модератора.",
+                "hide_on_discussion_list_label": "Не показывать в списке дискуссий",
+                "hide_on_discussion_list_text": "Скрыть сообщения блога из списка дискуссий.",
+                "add_sidebar_nav_label": "Добавить на боковую панель навигации",
                 "add_sidebar_nav_text": "",
                 "categories_heading": "",
                 "hide_tags_in_taglist_label": "",
@@ -31,7 +33,9 @@
                 "redirect_tags_label": "",
                 "redirect_tags_text": "",
                 "default_article_image_label": "",
-                "default_article_image_text": ""
+                "default_article_image_text": "",
+                "add_hero_label": "",
+                "add_hero_text": ""
             }
         },
         "forum": {
@@ -96,6 +100,24 @@
                 "comment_section": "",
                 "no_blog_tags_selected": "",
                 "post_without_blog_info": ""
+            },
+            "article_settings": {
+                "title": "",
+                "fields": {
+                    "summary": {
+                        "title": "",
+                        "placeholder": "",
+                        "helper_text": ""
+                    },
+                    "image": {
+                        "title": "",
+                        "helper_text": ""
+                    },
+                    "highlight": {
+                        "title": "",
+                        "helper_text": ""
+                    }
+                }
             }
         }
     }

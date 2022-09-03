@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Configureer bereiken",
-                "confirm_purge": "",
+                "confirm_purge": "Bij het opschonen zullen alle database-items en assets gerelateerd aan deze extensie verwijderd worden. Het zal de extensie niet verwijderen, dat moet via Composer. Weet je zeker dat je door wilt gaan?",
                 "disabled": "Uitgeschakeld",
                 "enable_to_see": "Schakel de extensie in om instellingen te bekijken en te wijzigen.",
                 "enabled": "Ingeschakeld",
@@ -116,11 +116,11 @@
                 "no_settings": "Deze extensie heeft geen instellingen.",
                 "open_modal": "Open instellingen",
                 "permissions_title": "Rechten",
-                "purge_button": "",
+                "purge_button": "Opschonen",
                 "readme": {
-                    "button_label": "",
-                    "no_readme": "",
-                    "title": ""
+                    "button_label": "LEESMIJ",
+                    "no_readme": "Deze extensie lijkt geen README-bestand te hebben",
+                    "title": "{extName} documentatie"
                 },
                 "confirm_uninstall": "Als u de installatie ongedaan maakt, worden alle database-items en assets die betrekking hebben op de extensie verwijderd. Weet je zeker dat je door wilt gaan?",
                 "uninstall_button": "Deïnstalleren"
@@ -305,8 +305,8 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} heeft {ago} gereageerd",
                 "started_text": "{username} heeft {ago} gereageerd",
-                "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
+                "total_replies_a11y_label": "{count, plural, one {# antwoord} other {# antwoorden}}",
+                "unread_replies_a11y_label": "{count, plural, one {# ongelezen antwoord} other {# ongelezen antwoorden}}. Markeer ongelezen {count, plural, one {bericht} other {berichten}} als gelezen.",
                 "mark_as_read_tooltip": "Markeren als gelezen"
             },
             "forgot_password": {
@@ -453,10 +453,16 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Bevestigings e-mail opnieuw sturen",
                 "sent_message": "Verstuurd"
+            },
+            "welcome_hero": {
+                "hide": "Welkomstbericht verbergen"
             }
         },
         "lib": {
-            "debug_button": "",
+            "debug_button": "Debug",
+            "alert": {
+                "dismiss_a11y_label": "Melding negeren"
+            },
             "badge": {
                 "hidden_tooltip": "Verborgen"
             },
@@ -475,20 +481,31 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": ""
+                "nothing_available": "Je hebt geen rechten om deze gebruiker te bewerken."
             },
             "error": {
                 "dependent_extensions_message": "Kan {extension} pas uitschakelen als de volgende afhankelijke extensies zijn uitgeschakeld: {extensions}",
+                "extension_initialiation_failed_message": "{extension} kan niet worden geïnitialiseerd, controleer de browserconsole voor meer informatie.",
                 "generic_message": "Oeps! Er is iets misgegaan. Herlaad de pagina en probeer het opnieuw.",
                 "missing_dependencies_message": "Kan {extension} pas inschakelen als de volgende afhankelijke extensies zijn ingeschakeld: {extensions}",
                 "not_found_message": "Het opgevraagde kon niet worden gevonden.",
-                "payload_too_large_message": "",
+                "payload_too_large_message": "De payload van het verzoek was te groot.",
                 "permission_denied_message": "Je hebt geen permissie om dat te doen.",
                 "rate_limit_exceeded_message": "Je gaat een beetje te snel. Probeer het over een paar seconden nog eens.",
-                "render_failed_message": ""
+                "render_failed_message": "Sorry, er is een fout opgetreden bij het weergeven van deze inhoud. Wanneer je een gebruiker bent, probeer het dan later opnieuw. Als je een beheerder bent, kijk dan in je Flarum-logbestanden voor meer informatie."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Pagina # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Pagina # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Sluiten"
+            },
+            "nav": {
+                "drawer_button": "Open navigatie"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -558,6 +575,10 @@
                 "new_password_label": "Nieuw wachtwoord",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Pagina # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Pagina # - {forumName}}}"
             }
         },
         "api": {
@@ -566,15 +587,15 @@
         "email": {
             "activate_account": {
                 "subject": "Activeer je nieuwe account",
-                "body": "Hoi {username}!\n\nIemand (hopelijk jij!) heeft zich aangemeld op {forum} met dit e-mailadres.\nAls jij dit was, klik dan op deze link om je account te activeren:\n{url}\n\nAls jij je niet hebt aangemeld, kan je deze e-mail negeren.\n"
+                "body": "Hoi {username}!\n\nIemand (hopelijk jij!) heeft zich aangemeld op {forum} met dit e-mailadres.\n\nAls jij dit was, klik dan op deze link om je account te activeren:\n{url}\n\nAls jij je niet hebt aangemeld, kan je deze e-mail negeren.\n"
             },
             "confirm_email": {
                 "subject": "Bevestig je nieuwe e-mailadres",
-                "body": "Hoi {username}!\n\nIemand (hopelijk jij!) heeft zijn e-mailadres op {forum} naar deze veranderd.\nAls jij dit was, klik dan op deze link om je e-mailadres te bevestigen:\n{url}\n\nAls jij dit niet was, kan je deze e-mail negeren.\n"
+                "body": "Hoi {username}!\n\nIemand (hopelijk jij!) heeft zijn e-mailadres op {forum} naar deze veranderd.\n\nAls jij dit was, klik dan op deze link om je e-mailadres te bevestigen:\n{url}\n\nAls jij dit niet was, kan je deze e-mail negeren.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Hoi {username}!\n\nIemand (hopelijk jij!) heeft aangegeven zijn wachtwoord te zijn vergeten op {forum}.\nAls jij dit was, klik dan op deze link om je wachtwoord opnieuw in te stellen:\n{url}\n\nAls jij dit niet was, kan je deze e-mail negeren. Dan gebeurt er niets.\n"
+                "body": "Hoi {username}!\n\nIemand (hopelijk jij!) heeft aangegeven zijn wachtwoord te zijn vergeten op {forum}.\n\nAls jij dit was, klik dan op deze link om je wachtwoord opnieuw in te stellen:\n{url}\n\nAls jij dit niet was, kan je deze e-mail negeren. Dan gebeurt er niets.\n"
             },
             "send_test": {
                 "subject": "Flarum Email Test",

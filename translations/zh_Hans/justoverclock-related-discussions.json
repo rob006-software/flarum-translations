@@ -4,13 +4,20 @@
             "relatedLimit": "展示数量（默认 4）",
             "relatedLimit-help": "设置要显示的相关讨论帖条数",
             "DiscussionPageLayout": "在主题页面底部显示相关讨论",
-            "relatedTitle": "",
-            "relatedTitle-help": ""
+            "relatedTitle": "「相关主题」标题",
+            "relatedTitle-help": "自定义「相关主题」的标题",
+            "showExcerpt": "显示摘要",
+            "showTooltip": ""
         },
         "forum": {
-            "reldiscussion": "相关主题",
+            "reldiscussion": "相关主题：",
             "participants": "参与者",
-            "postnumber": "回复数"
+            "postnumber": "回复数",
+            "postedOn": "于",
+            "repliedOn": "已回复",
+            "hasBestAnswer": "已解决",
+            "hasBestAnswer-title": "",
+            "deleted": ""
         }
     }
 }

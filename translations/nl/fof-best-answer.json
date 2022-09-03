@@ -17,69 +17,73 @@
                 "enable_all_tags_button": "Beste antwoorden op alle tags inschakelen",
                 "enable_all_tags_reminder_button": "Herinneringen voor beste antwoorden op alle tags inschakelen",
                 "select_best_answer_reminder_days": "Herinneringsfrequentie",
-                "select_best_answer_reminder_days_help": "",
-                "schedule_on_one_server": "",
-                "schedule_on_one_server_help": "",
-                "schedule_stop_overnight": "",
-                "schedule_stop_overnight_help": "",
-                "schedule_log_output": "",
-                "show_filter_label": "",
-                "show_filter_help": "",
-                "use_alt_ui": "",
-                "use_alt_ui_help": "",
-                "documentation": "",
-                "introduction": "",
+                "select_best_answer_reminder_days_help": "Stuur een herinnering na een configureerbare hoeveelheid dagen naar de discussie starter om een Beste Antwoord te selecteren, 0 = herinneringen uitschakelen.",
+                "schedule_on_one_server": "Gebruik de 'onOneServer()' richtlijn voor de taakplanner",
+                "schedule_on_one_server_help": "Vereist Redis/Memcache",
+                "schedule_stop_overnight": "Voorkom dat herinneringsmeldingen worden verzonden tijdens niet actieve uren",
+                "schedule_stop_overnight_help": "21:00 - 8:00 servertijd",
+                "schedule_log_output": "Uitvoer van de planner plaatsen in het logboek",
+                "show_filter_label": "Beste antwoord-filter keuzelijst weergeven",
+                "show_filter_help": "Voor tags waarvoor Beste antwoorden is ingeschakeld, kiest u ervoor om de filteroptie (on)opgelost weer te geven in de discussielijst",
+                "use_alt_ui": "Alternatieve weergave",
+                "use_alt_ui_help": "Beste Antwoord knoppen toevoegen onderaan de post",
+                "documentation": "Documentatie",
+                "introduction": "Schakel in welke tags de beste antwoorden in <code><a>flarum/tags</a></code> moeten ondersteunen, en optioneel welke tag(s) herinneringen moeten ondersteunen. Wanneer een tag is ingeschakeld voor Beste antwoord, wijst u machtigingen toe aan elke gebruikersgroep die antwoorden mag instellen (eigen discussie, elke discussie). Machtigingen kunnen globaal worden toegewezen (voor elke tag die voor het beste antwoord is ingeschakeld), of per tag.\n",
                 "remind_tag_ids": ""
             },
             "edit_tag": {
-                "qna_label": "",
-                "reminders": ""
+                "qna_label": "Sta het toe om een Beste Antwoord te selecteren in deze tag",
+                "reminders": "Verstuur herinneringen om een beste antwoord te selecteren voor discussies binnen in tag"
             }
         },
         "forum": {
-            "answered_badge": "",
-            "this_best_answer": "",
-            "remove_best_answer": "",
-            "best_answer_button": "",
-            "best_answer_label": "",
+            "answered_badge": "Beantwoord",
+            "this_best_answer": "Selecteer als beste antwoord",
+            "remove_best_answer": "Beste antwoord ongedaan maken",
+            "best_answer_button": "Beste antwoord",
+            "best_answer_label": "ingesteld door <a>{username}</a> {time_set}",
             "errors": {
-                "mismatch": ""
+                "mismatch": "Het geselecteerde bericht bestaat niet in deze discussie."
             },
             "notification": {
-                "best_answer_in_discussion": "",
-                "content": "",
-                "awarded": "",
+                "best_answer_in_discussion": "{username} heeft een beste antwoord geselecteerd in deze discussie",
+                "content": "Selecteer een Beste Antwoord zodra je vraag is beantwoord",
+                "awarded": "Je bericht is als beste antwoord gemarkeerd door {username}",
                 "preferences": {
-                    "awarded_best_answer": "",
-                    "best_answer_in_discussion": ""
+                    "awarded_best_answer": "Iemand stelt mijn bericht in als beste antwoord",
+                    "best_answer_in_discussion": "Een beste antwoord wordt gegeven in een discussie waaraan ik heb deelgenomen",
+                    "select_best_answer": "Een automatische herinnering om het beste antwoord te selecteren in een discussie die ik ben begonnen"
                 }
             },
             "index": {
-                "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "ask_question": "Stel een vraag",
+                "cannot_ask_question": "Kan geen vraag stellen",
+                "solved_link": "Opgeloste discussies",
+                "unsolved_link": "Onopgeloste discussies"
             },
             "filter": {
-                "all_label": "",
-                "solved_label": "",
-                "unsolved_label": "",
-                "accessible_label": ""
+                "all_label": "Alle vragen",
+                "solved_label": "Beantwoorde vragen",
+                "unsolved_label": "Onbeantwoorde vragen",
+                "accessible_label": "Opgelost/Onopgelost selectie"
             },
             "composer": {
-                "titlePlaceholder": ""
+                "titlePlaceholder": "Vraag titel"
+            },
+            "user": {
+                "best-answer-count": "{count, plural, one { {count} best antwoord} other {{count} beste antwoorden}}"
             }
         },
         "email": {
             "subject": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "Je bericht was als beste antwoord gemarkeerd door {display_name}",
+                "ba-set": "Een beste antwoord werd gemarkeerd door {display_name}",
+                "select": "Is het gelukt om je vraag beantwoord te krijgen?"
             },
             "body": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "Hoi {recipient_display_name},\n\nGoed gedaan, {actor_display_name} heeft je bericht als beste antwoord gemarkeerd in de discussie: {discussion_title}. Bedankt voor het helpen.\n\nBekijk het hier: {discussion_url}\n",
+                "ba-set": "Hoi {recipient_display_name},\n\n{actor_display_name} heeft zojuist een bericht als beste antwoord gemarkeerd in een discussie waaraan je hebt deelgenomen: {discussion_title}.\n\nBekijk het hier: {discussion_url}\n",
+                "select": "Hoi {recipient_display_name},\n\nEven checken; nu zou je genoeg antwoorden moeten hebben gekregen op je vraag: {discussion_title}. Hopelijk heeft een van hen je geholpen om je probleem op te lossen.\n\nMocht dat zo zijn, dan zou het voor toekomstige leden erg handig zijn om een beste antwoord te selecteren. Het zal mensen met hetzelfde probleem helpen om sneller het juiste antwoord te vinden die ze nodig hebben, daarnaast is het ook een bedankje voor de gebruikers die je hebben geholpen. Zij reageren vrijwillig in hun eigen tijd, dus het is leuk om hen te laten weten dat ze het goed doen.\n\nBezoek de discussie hier: {discussion_url}, en selecteer geschikte bericht als het beste antwoord.\n\nBedankt!\n"
             }
         }
     }

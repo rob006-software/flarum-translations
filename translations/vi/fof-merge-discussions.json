@@ -3,12 +3,24 @@
         "forum": {
             "modal": {
                 "title": "Hợp nhất cuộc thảo luận",
+                "ordering_heading": "Hợp nhất thứ tự",
+                "ordering_date_label": "Hợp nhất các bài viết theo ngày",
+                "ordering_date_help": "Các bài viêtw trong cuộc thảo luận kết quả được sắp xếp lại theo ngày tạo cá nhân của họ",
+                "ordering_suffix_label": "Thêm các bài viết đã hợp nhất vào cuối cuộc thảo luận",
+                "ordering_suffix_help": "Các bài viết được hợp nhất vào cuộc thảo luận còn tồn tại sẽ được thêm vào cuối cuộc thảo luận",
+                "type_heading": "Kiểu hợp nhất",
                 "type_target_label": "Hợp nhất với tôi",
                 "type_target_help_text": "Chọn cuộc thảo luận để hợp nhất thành <b>{title}</b>.",
                 "type_from_label": "Hợp nhất cuộc thảo luận này thành cuộc thảo luận khác",
                 "type_from_help_text": "Chọn cuộc thảo luận mục tiêu để hợp nhất <b>{title}</b> vào.",
                 "load_preview_button": "Xem trước",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
+            },
+            "notification": {
+                "discussion_merged": "Cuộc thảo luận <b>{oldTitle}</b> của bạn đã được gộp vào cuộc thảo luận này bởi {username}.",
+                "preferences": {
+                    "discussion_merged": "Ai đó gộp cuộc thảo luận của với cuộc thảo luận khác"
+                }
             },
             "discussion": {
                 "merge": "=> fof-merge-discussions.ref.merge"
@@ -20,17 +32,29 @@
         "admin": {
             "permissions": {
                 "merge_discussions_label": "Hợp nhất cuộc thảo luận"
+            },
+            "settings": {
+                "search_result_help": "Số lượng cuộc thảo luận trả về khi tìm kiếm trong modal `Hợp nhất cuộc thảo luận`.",
+                "search_result_label": "Giới hạn tìm kiếm hợp nhất cuộc thảo luận"
             }
         },
         "api": {
             "error": {
                 "merging_failed": "Không thể hợp nhất các cuộc thảo luận.",
                 "updating_failed": "Không cập nhật được chi tiết cuộc thảo luận.",
-                "deleting_failed": "Không thể xóa các cuộc thảo luận trống."
+                "deleting_failed": "Không thể xóa các cuộc thảo luận trống.",
+                "fixing_posts_number_failed": "Không thể sửa số bài viết.",
+                "fixing_posts_number_meta_failed": "Không thể sửa số bài viết."
             }
         },
         "ref": {
             "merge": "Hợp nhất"
+        },
+        "email": {
+            "merged": {
+                "body": "Chào {recipient_display_name},\n\nCuộc thảo luận {merged_discussion_title} của bạn đã được hợp nhất vào {discussion_title} bởi {actor_display_name}.\n\nXem tại đây {discussion_url} .\n",
+                "subject": "Cuộc thảo luận \"{merged_discussion_title}\" của bạn đã được hợp nhất"
+            }
         }
     }
 }

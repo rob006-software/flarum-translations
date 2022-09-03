@@ -2,8 +2,8 @@
     "clarkwinkelmann-catch-the-fish": {
         "forum": {
             "moderate": {
-                "add": "",
-                "edit": "",
+                "add": "Pridėti",
+                "edit": "Redaguoti",
                 "delete": "",
                 "fishes": "",
                 "rounds": ""
@@ -94,6 +94,7 @@
                 "name": "",
                 "user-name": "",
                 "user-place": "",
+                "placement": "",
                 "actions": "",
                 "edit": "",
                 "no-user-name": "",
@@ -120,9 +121,33 @@
         },
         "admin": {
             "settings": {
-                "discussion-age": "",
-                "post-age": "",
+                "user": "",
                 "user-age": "",
+                "user-probability": "",
+                "discussion": "",
+                "discussion-age": "",
+                "discussion-tags": "",
+                "discussion-tags-unavailable": "",
+                "discussion-tags-help": "",
+                "tags-header": {
+                    "tag": "",
+                    "probability": ""
+                },
+                "tags-control": {
+                    "choose": "",
+                    "add": "",
+                    "down": "",
+                    "up": "",
+                    "delete": ""
+                },
+                "tags-fallback": {
+                    "last-line": "",
+                    "single-line": ""
+                },
+                "post": "",
+                "post-age": "",
+                "post-probability": "",
+                "general": "",
                 "time-to-place": "",
                 "alert-round": "",
                 "animate-flip": ""
@@ -145,6 +170,7 @@
             "invalid-user-id": "",
             "model-deleted": "",
             "model-private": "",
+            "tag-not-allowed": "",
             "inactive-discussion": "",
             "inactive-post": "",
             "inactive-user": "",

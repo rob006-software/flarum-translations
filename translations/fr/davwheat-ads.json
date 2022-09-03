@@ -2,10 +2,20 @@
     "davwheat": {
         "ads": {
             "admin": {
+                "permissions": {
+                    "bypassAds": "Masquer les publicités du forum"
+                },
                 "settings": {
+                    "admin_bypass_warning": "En raison de la nature du système de permissions de Flarum, les membres du groupe\ndes administrateurs ne verront pas de publicité sur le forum. Si vous souhaitez tester\nvos publicités, veuillez visiter le forum dans une fenêtre de navigation privée.\n",
                     "enabled_locations": "Emplacements des unités publicitaires activées",
-                    "code_input": "Code pour l'unité publicitaire « {for} »",
+                    "script_urls": "URL de script personnalisé(s)",
+                    "add_script": "Nouveau",
+                    "script_deletion": "Pour supprimer un script, laissez la zone de texte vide et appuyez sur « Enregistrer les modifications ».",
+                    "code_input": "Code HTML",
                     "code_input_disabled": "Activez cet emplacement pour modifier son code HTML.",
+                    "js_input": "Code Javascript",
+                    "js_input_disabled": "Activez cet emplacement pour modifier son code JS.",
+                    "use_adsense": "Utiliser AdSense",
                     "pub_id": "Référence éditeur d'AdSense",
                     "between_posts_gap": "Entre les messages : espace entre les publicités",
                     "allow_after_placeholder": "Entre les messages : afficher la publicité après l'espace réservé aux réponses",
@@ -19,7 +29,7 @@
                         "fix_errors": "Veuillez corriger les erreurs ci-dessus avant d'enregistrer les modifications",
                         "code_has_script": "Une ou plusieurs de vos unités publicitaires contiennent des balises de script, qui ne sont pas autorisées. Veuillez les supprimer puis réessayer."
                     },
-                    "warning": "Le code de l'annonce doit <b>SEULEMENT</b> inclure la ou les balises <code>ins</code>, et non les balises de script. Les scripts sont\nautomatiquement exécutés par cette extension.\n"
+                    "warning": "<b>Instructions :</b>\n<br></br>\n<b>HTML</b> : insérez le contenu HTML de l'annonce dans cette zone. N'insérez aucune balise {script} dans cette zone. Ils ne seront pas exécutés.\n<br></br>\n<b>JS</b> - Insérez du code Javascript personnalisé à insérer dans une balise de script. Cela ne devrait <b>PAS</b> inclure la balise {script} elle-même.\n"
                 }
             },
             "lib": {

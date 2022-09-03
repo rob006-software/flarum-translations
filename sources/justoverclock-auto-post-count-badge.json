@@ -1,0 +1,38 @@
+{
+    "justoverclock-auto-post-count-badge": {
+        "admin": {
+            "settings": {
+                "tier": "Tier {tier} : from {from} to {to} posts",
+                "icon-manager": {
+                    "title": "Icon Manager",
+                    "help_text": "=> core.ref.icon_text"
+                },
+                "label-manager": {
+                    "title": "Text Label Manager",
+                    "help": "Customize tier names"
+                }
+            },
+            "levelOne": "Change icon for tier 1 - \"The Baby\"",
+            "levelOne-help": "paste here the fontawesome icon that u want to show for tier 1 (e.g. \"fas fa-square\")",
+            "levelTwo": "Change icon for tier 2 - \"The Newbie\"",
+            "levelTwo-help": "paste here the fontawesome icon that u want to show for tier 2 (e.g. \"fas fa-square\")",
+            "levelTree": "Change icon for tier 3 - \"The Talker\"",
+            "levelTree-help": "paste here the fontawesome icon that u want to show for tier 3 (e.g. \"fas fa-square\")",
+            "levelFour": "Change icon for tier 4 - \"The Teacher\"",
+            "levelFour-help": "paste here the fontawesome icon that u want to show for tier 4 (e.g. \"fas fa-square\")",
+            "levelFive": "Change icon for tier 5 - \"The Monster!\"",
+            "levelFive-help": "paste here the fontawesome icon that u want to show for tier 5 (e.g. \"fas fa-square\")",
+            "levelSix": "Change icon for tier 6 - \"The Guru!\"",
+            "levelSix-help": "paste here the fontawesome icon that u want to show for tier 6 (e.g. \"fas fa-square\")"
+        },
+        "forum": {
+            "less10post": "The Baby",
+            "less50post": "The Newbie",
+            "less100post": "The Talker",
+            "less300post": "The Teacher",
+            "less600post": "The Monster!",
+            "less1000post": "The Guru!",
+            "hasWritten": "{count, plural, one {# post written} other {# posts written}}"
+        }
+    }
+}

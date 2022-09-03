@@ -1,0 +1,43 @@
+{
+    "clarkwinkelmann-mailing": {
+        "admin": {
+            "permissions": {
+                "mail_individual": "Alohida foydalanuvchilarga email jo'natish",
+                "mail_all": "Emaillarni guruhlarga yoki barcha foydalanuvchilarga jo'natish"
+            }
+        },
+        "forum": {
+            "links": {
+                "mail_individual": "Bu foydalanuvchiga email jo'natish",
+                "mail_all": "Email jo'natish"
+            },
+            "modal_mail": {
+                "title_text": "Email yaratish",
+                "recipients_label": "Qabul qiluvchilar",
+                "recipients_placeholder": "Qabul qiluvchilarni qo'shish...",
+                "subject_label": "Mavzu",
+                "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject",
+                "message_label": "Xabar",
+                "submit_button": "Jo'natish"
+            },
+            "modal_sent": {
+                "title_text": "Jo'natildi!",
+                "on_its_way": "Besh tashla! Sizning xabaringiz {recipientsCount} ta qabul qiluvchilarga ketdi!"
+            },
+            "recipient_kinds": {
+                "user": "Foydalanuvchi",
+                "group": "Guruh",
+                "email": "Email"
+            }
+        },
+        "api": {
+            "no_recipients": "Qabul qiluvchilar mos tushmadi"
+        },
+        "email": {
+            "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject"
+        },
+        "ref": {
+            "default_subject": "Forum administartoridan xabar"
+        }
+    }
+}

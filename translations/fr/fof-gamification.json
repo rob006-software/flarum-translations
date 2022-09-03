@@ -21,24 +21,42 @@
             },
             "notification": {
                 "upvote": "{username} a voté positivement votre message",
-                "downvote": "{username} a voté négativement votre message"
+                "downvote": "{username} a voté négativement votre message",
+                "prefrences": {
+                    "vote": "Lorsqu'un de mes messages est voté"
+                }
             },
             "user": {
-                "points": "Points : {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": "{count, plural, one { {count} point} other {{count} points}}"
+                },
+                "rank": "{rank}",
+                "votes_link": "Votes"
             },
             "modal": {
+                "downvotes_label": "Votants négatifs :",
                 "title": "Votants",
-                "upvotes_label": "Votants positifs :"
+                "upvotes_label": "Votants positifs :"
             },
-            "mod_item": "Voir les votants"
+            "mod_item": "Voir les votants",
+            "voters": {
+                "none": "Pas encore de votants",
+                "label": "Votants",
+                "label_none": "Pas de votants"
+            },
+            "post": {
+                "upvote_button": "Voter pour le message",
+                "downvote_button": "Voter contre le message"
+            }
         },
         "admin": {
             "permissions": {
                 "vote_label": "Votes positifs/négatifs des messages",
                 "see_votes_label": "Voir le nombre de votes positifs/négatifs",
                 "see_voters_label": "Voir qui a voté",
-                "see_ranking_page": "Voir la page de classement"
+                "see_ranking_page": "Voir la page de classement",
+                "upvote_notifications": "Recevoir des notifications sur les votes positifs",
+                "downvote_notifications": "Recevoir des notifications sur les votes négatifs"
             },
             "page": {
                 "rankings": {
@@ -69,7 +87,8 @@
                     "vote_color": "Couleur votée",
                     "icon_name": "Icône de vote positif/négatif",
                     "icon_help": "Entrez n'importe quelle icône Font Awesome ayant le suffixe -up et -down. Exemples : flèche, pouce, chevron",
-                    "upvotes_only": "Autoriser uniquement le vote positif"
+                    "upvotes_only": "Autoriser uniquement le vote positif",
+                    "first_post_only": "Autoriser uniquement les votes positifs/négatifs dans le premier message d'une discussion"
                 },
                 "save_settings": "Enregistrer les paramètres",
                 "convert": {
@@ -89,6 +108,14 @@
                         "name": "Nom"
                     }
                 }
+            }
+        },
+        "email": {
+            "body": {
+                "postVoted": "Salut {recipient_display_name},\n\n{actor_display_name} vient de voter pour votre message dans {discussion_title}.\n\nVoir ici : {discussion_url}\n"
+            },
+            "subject": {
+                "postVoted": "Votre message a été voté par {display_name}"
             }
         }
     }

@@ -8,13 +8,23 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "{timeReadable} kadar askıya alındınız",
+                "user_suspended_indefinite_text": "Süresiz olarak askıya alındınız",
                 "user_unsuspended_text": "Askıya alınmanız sona erdi"
             },
+            "suspension_info": {
+                "dismiss_button": "Görmezden gel",
+                "indefinite": "Bu bir süresiz uzaklaştırmatır",
+                "limited": "Bu askıya alma {date} tarihine kadar yürürlükte kalacak",
+                "title": "Bu hesap askıya alındı"
+            },
             "suspend_user": {
+                "display_message": "Kullanıcı için gösterilecek mesajı",
                 "indefinitely_label": "Süresiz askıya alındı",
                 "limited_time_days_text": " gün",
                 "limited_time_label": "Sınırlı bir süre için askıya alındı...",
                 "not_suspended_label": "Askıya alınmadı",
+                "placeholder_optional": "Tercihe bağlı",
+                "reason": "Askıya alma nedeni",
                 "status_heading": "Askıya Alma Durumu",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "{username} askıya alındı"
@@ -24,6 +34,17 @@
             },
             "user_controls": {
                 "suspend_button": "Askıda"
+            }
+        },
+        "email": {
+            "no_reason_given": "Bu askıya alma için herhangi bir sebep gösterilmedi.",
+            "suspended": {
+                "subject": "Hesabınız askıya alındı",
+                "body": "Merhaba {recipient_display_name},\n\nAşağıdaki nedenden dolayı askıya alındınız:\n\n---\n{suspension_message}\n---\n"
+            },
+            "unsuspended": {
+                "subject": "Hesabınızın askıya alınma durumu kaldırıldı",
+                "body": "Merhaba {recipient_display_name},\n\nAskıya alınma durumunuz kaldırıldı. Aşağıdaki bağlantıya tıklayarak foruma geri dönebilirsiniz:\n\n{forum_url}\n"
             }
         }
     }

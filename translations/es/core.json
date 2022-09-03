@@ -354,7 +354,7 @@
                 "forgot_password_link": "¿Olvidaste tu contraseña?",
                 "invalid_login_message": "Tus credenciales son incorrectas.",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "Recordarte",
+                "remember_me_label": "Recordarme",
                 "sign_up_text": "¿Aún no tienes una cuenta? <a>¡Regístrate!</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
@@ -453,10 +453,16 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Re-enviar correo electrónico de confirmación",
                 "sent_message": "Enviado"
+            },
+            "welcome_hero": {
+                "hide": "Ocultar el mensaje de bienvenida"
             }
         },
         "lib": {
             "debug_button": "Depurar",
+            "alert": {
+                "dismiss_a11y_label": "Descartar la alerta"
+            },
             "badge": {
                 "hidden_tooltip": "Oculto"
             },
@@ -479,6 +485,7 @@
             },
             "error": {
                 "dependent_extensions_message": "No se puede desactivar {extension} hasta que se desactiven las siguientes extensiones dependientes: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "¡Caramba! Algo salió mal. Por favor, carga de nuevo la página y vuelve a intentarlo.",
                 "missing_dependencies_message": "No se puede activar {extension} hasta que se activen las siguientes extensiones dependientes: {extensions}",
                 "not_found_message": "¡Recórcholis! El recurso solicitado no fue encontrado.",
@@ -489,6 +496,16 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": "Cerrar"
+            },
+            "nav": {
+                "drawer_button": "Abrir el cuadro de navegación"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -558,6 +575,10 @@
                 "new_password_label": "Nueva contraseña",
                 "submit_button": "Restablecer la contraseña",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {
@@ -566,15 +587,15 @@
         "email": {
             "activate_account": {
                 "subject": "Activa tu cuenta de usuario",
-                "body": "¡Hola, {username}!\n\nAlguien se ha registrado como usuario en {forum} con esta dirección de correo electrónico.\n\nSi efectivamente has sido tú, por favor, haz click en el siguiente enlace y tu cuenta de usuario será activada:\n{url}\n\nSi por el contrario no has sido tú, por favor, ignora este correo electrónico.\n\nRecibe un cordial saludo,\n\nEl Equipo de {forum}\n"
+                "body": "¡Hola {username}!\n\nAlguien (¡espero que tú!) se ha registrado en {forum} con esta dirección de correo electrónico.\n\nSi has sido tú, simplemente haz clic en el siguiente enlace y tu cuenta se activará:\n{url}\n\nSi no te has registrado, ignora este correo electrónico.\n"
             },
             "confirm_email": {
                 "subject": "Confirma tu correo electrónico",
-                "body": "¡Hola, {username}!\n\nAlguien se ha registrado como usuario en {forum} con tu dirección de correo electrónico.\n\nSi efectivamente has sido tú, por favor, haz click en el siguiente enlace para confirmar tu dirección de correo electrónico:\n{url}\n\nSi por el contrario no has sido tú, por favor, ignora este correo electrónico.\n\nRecibe un cordial saludo,\n\nEl Equipo de {forum}\n"
+                "body": "¡Hola {username}!\n\nAlguien (¡espero que tú!) ha cambiado su dirección de correo electrónico en {forum} por esta.\n\nSi has sido tú, simplemente haz clic en el siguiente enlace y tu correo electrónico será confirmado:\n{url}\n\nSi no has sido tú, por favor ignora este email.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "¡Hola, {username}!\n\nAlguien ha enviado una solicitud para restablecer la contraseña de su cuenta de usuario en {forum}.\n\nSi efectivamente has sido tú, por favor, haz click en el siguiente enlace para restablecer tu contraseña:\n{url}\n\nSi por el contrario no has sido tú, por favor, ignora este correo electrónico.\n\nRecibe un cordial saludo,\n\nEl Equipo de {forum}\n"
+                "body": "¡Hola {username}!\n\nAlguien (¡espero que tú!) ha enviado una solicitud de contraseña olvidada para tu cuenta en {forum}.\n\nSi has sido tú, haz clic en el siguiente enlace para restablecer tu contraseña:\n{url}\n\nSi no deseas cambiar tu contraseña, simplemente ignora este correo electrónico y no pasará nada.\n"
             },
             "send_test": {
                 "subject": "Prueba de correo electrónico de Flarum",

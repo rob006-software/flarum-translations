@@ -2,55 +2,55 @@
     "fof-doorman": {
         "forum": {
             "email": {
-                "subject": "",
-                "body": ""
+                "subject": "Kutsu liittymään",
+                "body": "Hei,\n\nTeidät on kutsuttu liittymään {forum}.\n\nKun olette valmiita luomaan tilin voitte klikata seuraava linkkiä ja syöttää alla olevan koodin rekisteröityessänne:\n\nOsoite: {url}\nKutsukoodi: {code}\n\nJos sait tämän sähköpostin virheellisesti, voitte poistaa ja unohtaa tämän sähköpostin.\n"
             },
             "sign_up": {
-                "invalid_doorkey": "",
-                "doorkey_required": "",
-                "doorman_placeholder": "",
-                "doorman_placeholder_optional": ""
+                "invalid_doorkey": "Kutsukoodi, jonka syötitte on virheellinen.",
+                "doorkey_required": "Syötä kutsukoodi.",
+                "doorman_placeholder": "Kutsukoodi",
+                "doorman_placeholder_optional": "Kutsukoodi (valinnainen)"
             }
         },
         "admin": {
             "modal": {
-                "title": "",
-                "group": "",
-                "help": "",
-                "placeholder": "",
-                "invalid_emails": "",
-                "max_use_conflict": "",
-                "send": "",
-                "success": ""
+                "title": "Lähetä kutsukoodeja",
+                "group": "Lähetä kutsut ryhmään {group}",
+                "help": "Hyväksyy pilkut, välilyönnit tai pilkulla/välilyönnillä erotetut listat. Syötä yksittäinen sähköpostiosoite tai liitä lista sähköposteja ja klikkaa space lisätäksesi.",
+                "placeholder": "Syötä sähköpostit tähän",
+                "invalid_emails": "Seuraava(t) sähköposti(t) ovat virheellisiä: {emails}",
+                "max_use_conflict": "Sähköpostien määrä ylittää koodin enimmäismäärän.",
+                "send": "Lähetä sähköpostit",
+                "success": "Sähköpostit lähetetty onnistuneesti"
             },
-            "invalid_doorkey": "",
-            "doorkey_required": "",
+            "invalid_doorkey": "Syöttämäsi kutsukoodi on virheellinen.",
+            "doorkey_required": "Teidän täytyy syöttää kutsukoodi",
             "nav": {
-                "desc": ""
+                "desc": "Luo kutsukoodeja rekisteröitymiseen ja ryhmään liittymiseen"
             },
             "page": {
-                "title": "",
+                "title": "Doorman",
                 "doorkey": {
-                    "used_times": "",
-                    "title": "",
+                    "used_times": "{remaining, plural, one {{remaining} käyttö jäljellä} other {{remaining} käyttöä jäljellä}}",
+                    "title": "Kutsukoodit",
                     "help": {
-                        "key": "",
-                        "group": "",
-                        "max": "",
-                        "activates": ""
+                        "key": "Avain: Koodi jonka käyttäjä syöttää rekisteröityessään.",
+                        "group": "Ryhmä: Käyttäjä lisätään tähän ryhmään, kun hän rekisteröityy.",
+                        "max": "Maksimikäyttö: Maksimi numero määriä monestiko koodin voi käyttää, aseta 0 jos haluat pysyvästi käyttöön",
+                        "activates": "Aktivoi käyttäjän: Automaattisesti aktivoi käyttäjän, kun he rekisteröityy."
                     },
-                    "warning": "",
-                    "key": "",
-                    "max_uses": "",
+                    "warning": "Tätä kutsukoodia on jo käytetty enimmäismäärä.",
+                    "key": "Avain",
+                    "max_uses": "Maksimikäyttö",
                     "heading": {
-                        "key": "",
-                        "group": "",
-                        "activate": "",
-                        "max_uses": ""
+                        "key": "Avain",
+                        "group": "Ryhmä",
+                        "activate": "Aktivoi käyttäjä",
+                        "max_uses": "Maksimikäyttö"
                     },
                     "allow-public": {
-                        "title": "",
-                        "switch-label": ""
+                        "title": "Salli julkinen rekisteröinti",
+                        "switch-label": "Aseta kutsukoodi valinnaiseksi rekisteröitymisessä"
                     }
                 }
             }

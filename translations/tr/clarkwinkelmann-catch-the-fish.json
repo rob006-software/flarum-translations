@@ -53,7 +53,7 @@
             },
             "edit-fish": {
                 "name": "Adı",
-                "name-help": "Balıkların şu andaki adı budur. Balıkları yeniden adlandırma iznine sahip kullanıcılar adlarını düzenleyebilir.",
+                "name-help": "Balıkların şu andaki adı budur. Balıkları yeniden adlandırma iznine sahip kullanıcılar adlarını düzenleyebilir",
                 "create": "Balık oluştur",
                 "save": "Balığı kaydet",
                 "delete": "Balığı sil",
@@ -90,15 +90,16 @@
                 "loading": "Yükleniyor...",
                 "title": "Turdaki balıklar {name}",
                 "new": "Yeni balık",
-                "image": "Resim",
+                "image": "Görsel",
                 "name": "Ad",
                 "user-name": "En son adlandıran",
                 "user-place": "En son yerleştiren",
+                "placement": "Mevcut konum",
                 "actions": "Eylemler",
                 "edit": "Düzenle",
                 "no-user-name": "Yeniden adlandırılmadı",
                 "no-user-place": "Rastgele",
-                "upload": "Yeni resim yükle",
+                "upload": "Yeni görsel yükle",
                 "new-from-image": "Toplu görüntü içe aktararak yeni balıklar oluşturun"
             },
             "table-ranking": {
@@ -120,44 +121,69 @@
         },
         "admin": {
             "settings": {
+                "user": "Kullanıcılar",
+                "user-age": "Üzerine balık yerleştirilebilmesi için kullanıcının ne kadar süredir aktif olması gerekir (gün)",
+                "user-probability": "Bir kullanıcı profiline yerleştirilme olasılığı (%)",
+                "discussion": "Tartışmalar",
                 "discussion-age": "Üzerine balık konulabilmesi için tartışma ne kadar eski olmalıdır (gün cinsinden)",
+                "discussion-tags": "Beyaz listeyi etiketle",
+                "discussion-tags-unavailable": "Etiketler uzantısı devre dışı bırakıldığından ayar kullanılamıyor.",
+                "discussion-tags-help": "Herhangi bir etiket seçmezseniz, yukarıdaki zaman ayarlarına uyan herhangi bir tartışma seçilebilir. Herhangi bir sayıda etiket seçilirse, bir tartışmanın seçilecek seçili etiketlerden en az birine sahip olması gerekir. Olasılık, önceki tüm seçenekler denendikten sonra seçilme şansıdır. Listedeki son etiket her zaman yedek görevi görecektir, bu nedenle etiketin içinde en az bir geçerli tartışma olduğundan emin olun.\n",
+                "tags-header": {
+                    "tag": "Etiket",
+                    "probability": "Olasılık"
+                },
+                "tags-control": {
+                    "choose": "Bir etiket seçin",
+                    "add": "Beyaz listeye ekle",
+                    "down": "Aşağı inmek",
+                    "up": "Yukarı çıkmak",
+                    "delete": "Beyaz listeden kaldır"
+                },
+                "tags-fallback": {
+                    "last-line": "Geri çekil",
+                    "single-line": "Olasılık için en az 2 etiket gerekli"
+                },
+                "post": "Gönderiler",
                 "post-age": "Üzerine balık konulabilmesi için gönderi ne kadar eski olmalıdır (gün cinsinden)",
-                "user-age": "How long since a user must have been active for a fish to be placed on it (days)",
-                "time-to-place": "Time allowed to place fish before it is randomly placed (minutes)",
-                "alert-round": "Show an altert with the round name and duration on the homepage",
-                "animate-flip": "Flip fish images based on direction",
+                "post-probability": "Tartışma yerine bir gönderiye yerleştirilme olasılığı (%)",
+                "general": "Genel",
+                "time-to-place": "Balığın rastgele yerleştirilmeden önce yerleştirilmesine izin verilen süre (dakika)",
+                "alert-round": "Ana sayfada yuvarlak ismi (round name) ve süresi olan bir uyarı göster",
+                "animate-flip": "Balık görüntülerini yöne göre çevirin",
                 "title": "Catch The Fish Settings"
             },
             "permissions": {
-                "visible": "See the fishes",
-                "list-rankings": "Access the rankings page",
-                "participate": "Participate in the rounds and catch fishes",
-                "choose-place": "Choose fish placement after catching",
-                "choose-name": "Choose fish name after catching",
-                "moderate": "Moderate rounds and fishes"
+                "visible": "Balıkları gör",
+                "list-rankings": "Sıralama sayfasına erişin",
+                "participate": "Turlara katılın ve balıkları yakalayın",
+                "choose-place": "Yakaladıktan sonra balık yerleşimini seçin",
+                "choose-name": "Yakaladıktan sonra balık adını seçin",
+                "moderate": "Turları ve balıkları yönet"
             }
         },
         "api": {
-            "default-fish-name": "Fish #{number}",
-            "wrong-catch-placement": "There is no fish here. Maybe you weren't quick enough and someone else got it first",
-            "too-many-placement-models": "Only one placement is possible at a time",
-            "invalid-discussion-id": "Discussion doesn't seem to exist, maybe it was recently deleted",
-            "invalid-post-id": "Post doesn't seem to exist, maybe it was recently deleted",
-            "invalid-user-id": "User doesn't seem to exist, maybe it was recently deleted",
-            "model-deleted": "Can't place fish on a deleted discussion or post",
-            "model-private": "Can't place fish on a private discussion or post",
-            "inactive-discussion": "Can't place fish on discussion inactive for more than {days} days",
-            "inactive-post": "Can't place fish on post created more than {days} days ago",
-            "inactive-user": "Can't place fish on user inactive for more than {days} days",
-            "non-comment-post": "Can only place fishes on comment posts",
-            "user-suspended": "Can't place fish on a suspended user",
-            "random-error": "Could not generate a random fish placement",
-            "cannot-catch-own-fish": "You cannot catch a fish you placed yourself",
-            "cannot-catch-hold-fish": "The previous catcher needs to release the fish before you can catch it",
-            "fish-update-wrong-user": "You can no longer edit this fish. Somebody else has probably caught it",
-            "fish-update-expired": "Too late, you can no longer edit this fish. It has automatically been placed somewhere in the meantime",
-            "round-not-started": "This round has not started",
-            "round-finished": "This round is finished"
+            "default-fish-name": "Balık #{number}",
+            "wrong-catch-placement": "Burada balık yok. Belki yeterince hızlı değildin ve önce başkası aldı",
+            "too-many-placement-models": "Bir seferde yalnızca bir yerleşim mümkündür",
+            "invalid-discussion-id": "Tartışma yok gibi görünüyor, belki yakın zamanda silinmiştir",
+            "invalid-post-id": "Gönderi görünmüyor, belki yakın zamanda silinmiştir",
+            "invalid-user-id": "Kullanıcı görünmüyor, yakın zamanda silinmiş olabilir",
+            "model-deleted": "Silinen bir tartışmaya veya gönderiye balık yerleştirilemez",
+            "model-private": "Balıkları özel bir tartışmaya veya gönderiye koyamazsınız",
+            "tag-not-allowed": "Bu etiketin altına balık koyamazsınız",
+            "inactive-discussion": "{days} günden uzun süredir etkin olmayan balıklar tartışmaya konulamaz",
+            "inactive-post": "{days} günden daha önce oluşturulan gönderiye balık yerleştirilemez",
+            "inactive-user": "{days} günden fazla bir süredir etkin olmayan kullanıcıya balık yerleştirilemez",
+            "non-comment-post": "Balıkları yalnızca yorum gönderilerine yerleştirebilir",
+            "user-suspended": "Askıya alınmış bir kullanıcının üzerine balık yerleştirilemez",
+            "random-error": "Rastgele bir balık yerleşimi oluşturulamadı",
+            "cannot-catch-own-fish": "Kendi koyduğunuz balığı yakalayamazsınız",
+            "cannot-catch-hold-fish": "Bir önceki yakalayıcının, siz onu yakalamadan önce balığı bırakması gerekir",
+            "fish-update-wrong-user": "Bu balığı artık düzenleyemezsiniz. Muhtemelen başkası yakalamıştır",
+            "fish-update-expired": "Çok geç, artık bu balığı düzenleyemezsiniz. Bu arada otomatik olarak bir yere yerleştirildi",
+            "round-not-started": "Bu tur başlamadı",
+            "round-finished": "Bu tur bitti"
         }
     }
 }

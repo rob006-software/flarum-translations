@@ -7,19 +7,28 @@
             },
             "pwa": {
                 "about": {
+                    "description_label": "Açıklama",
                     "description_text": "Açıklamayı Yönetim sayfasında yer alan 'Temel Öğeler' sekmesinden ayarlayabilirsniz.",
+                    "long_name_label": "Uzun isim",
                     "long_name_text": "Kullanıcı tarafından görüntülenen web uygulaması adı.",
                     "heading": "Hakkında",
+                    "short_name_label": "Kısa isim",
                     "short_name_text": "Uzun ad için yeterli alan yoksa, kullanıcıya gösterilen uygulama adı."
                 },
                 "colors": {
                     "heading": "Renkler",
+                    "background_color_label": "Arkaplan rengi",
                     "background_color_text": "Bu renk PWA uygulamanız açılırken açılış ekranı için arkaplan rengi olakcaktır. Uygulama açıldığında herhangi bir fonksiyonu olmaz.",
+                    "theme_color_label": "Tema rengi",
                     "theme_color_text": "Bu renk uygulamanızın Görev Yöneticindeki rengini belirler."
                 },
                 "maintenance": {
                     "heading": "Bakım",
-                    "debug_label": "Hata ayıklama modu? Buna dair kayıtlar `storage/logs` içerisinde tutuluyor."
+                    "debug_label": "Hata ayıklama modu?",
+                    "debug_text": "Bu, bildirimlerle ilgili bilgileri \"storage/logs\" içine kaydeder. Günlükleri gereksiz yere doldurmamak için genellikle devre dışı bırakılmalıdır.",
+                    "reset_vapid_text": "Bu, VAPID anahtarlarını yeniden oluşturacak ve mevcut VAPID anahtarlarını kullanan mevcut abonelikleri silecektir.",
+                    "reset_vapid_confirm": "VAPID anahtarlarının sıfırlanması, mevcut anahtarları kullanan tüm abonelikleri kaldıracak ve böylece kullanıcılar sitenizi bir sonraki ziyaretlerine kadar herhangi bir bildirim almayacaklar. Bu, yalnızca anlık bildirimlerini ilk kez ayarlarken veya anlık bildirimleri hiç çalışmıyorsa ve yukarıda eksik VAPID anahtarları hakkında bir uyarı varsa yapılmalıdır.",
+                    "reset_vapid_success": "VAPID anahtarlarını başarıyla sıfırlayın. {count} abonelik sıfırlandı. Güncellenmiş bir durum kontrolü raporu görmek için sayfayı yeniden yükleyin."
                 },
                 "other": {
                     "heading": "Diğer",
@@ -39,6 +48,7 @@
                 "possible_https_disabled": "Siteniz HTTPS üzerinde çalışmıyor olabilir.. Önbelleği temizlemek (Yönetim > Araçlar butonu) yardımcı olacaktır. Eğer HTTPS üzerinde çalışıyorsa bu uyarıyı görmezden gelin. İleri Web Uygulamasının çalışması için HTTPS kullanmanız gerektiğini unutmayın.",
                 "no_logo": "You must upload at least one logo for your app to work.",
                 "no_name": "Uygulamanızın çalışması için tam bir ad sağlamalısınız.",
+                "no_vapid_keys": "VAPID anahtarı bulunamadı. Bunlar, anlık bildirimlerinin gönderilmesi için gereklidir. VAPID anahtarlarını aşağıda sıfırlayabilirsiniz.",
                 "key_gen_failed": "Anlık bildirimler için gerekli anahtarların oluşturulması başarısız oldu. Tam hata mesajı: {error}",
                 "suggest_gmp": "Gmp PHP uzantısı sunucunuzda etkin görünmüyor. Kesinlikle gerekli değil, ancak performansı artırabilir ve önerilir. Paylaşılan sunucu kullanıyorsanız desteklemeyebilir.",
                 "success": "Potansiyel hata mevcut değil!"

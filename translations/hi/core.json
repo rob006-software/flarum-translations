@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "कार्यक्षेत्र कॉन्फ़िगर करें",
-                "confirm_purge": "",
+                "confirm_purge": "पर्जिंग से सभी डेटाबेस प्रविष्टियां और एक्सटेंशन से संबंधित संपत्तियां निकल जाएंगी। यह एक्सटेंशन को अनइंस्टॉल नहीं करेगा; जो कम्पोसर के माध्यम से किया जाना चाहिए। क्या आप वाकई जारी रखना चाहते हो?",
                 "disabled": "अक्षम",
                 "enable_to_see": "सेटिंग देखने और बदलने के लिए एक्सटेंशन सक्षम करें।",
                 "enabled": "सक्रिय",
@@ -116,11 +116,11 @@
                 "no_settings": "इस एक्सटेंशन की कोई सेटिंग नहीं है।",
                 "open_modal": "सेटिंग्स खोलें",
                 "permissions_title": "अनुमतियां",
-                "purge_button": "",
+                "purge_button": "निकले",
                 "readme": {
-                    "button_label": "",
-                    "no_readme": "",
-                    "title": ""
+                    "button_label": "README",
+                    "no_readme": "ऐसा लगता है कि इस एक्सटेंशन में कोई README फ़ाइल नहीं है",
+                    "title": "{extName} प्रलेखन"
                 },
                 "confirm_uninstall": "अनइंस्टॉल करने से एक्सटेंशन से संबंधित सभी डेटाबेस प्रविष्टियां और संपत्तियां निकल जाएंगी। क्या आप वाकई जारी रखना चाहते हो?",
                 "uninstall_button": "स्थापना रद्द करें"
@@ -305,8 +305,8 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} ने उत्तर दिया {ago}",
                 "started_text": "{username} शुरू हुआ {ago}",
-                "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
+                "total_replies_a11y_label": "{count, plural, one {# उत्तर} other {# उत्तर}}",
+                "unread_replies_a11y_label": "{count, plural, one {# अपठित उत्तर} other {# unread replies}}. Mark unread {count, plural, one {reply} other {अपठित उत्तर}} as read.",
                 "mark_as_read_tooltip": "पढ़े हुए का चिह्न"
             },
             "forgot_password": {
@@ -453,10 +453,16 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "पुष्टिकरण ईमेल पुन: भेजें",
                 "sent_message": "भेज दिया"
+            },
+            "welcome_hero": {
+                "hide": "स्वागत संदेश छुपाएं"
             }
         },
         "lib": {
-            "debug_button": "",
+            "debug_button": "डिबग",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "छिपा हुआ"
             },
@@ -479,16 +485,27 @@
             },
             "error": {
                 "dependent_extensions_message": "निम्न आश्रित एक्सटेंशन अक्षम होने तक {extension} को अक्षम नहीं किया जा सकता: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "उफ़! कुछ गलत हो गया। कृपया पेज लोड करें और पुन: प्रयास करें।",
                 "missing_dependencies_message": "निम्न निर्भरताएँ सक्षम होने तक {extension} को सक्षम नहीं किया जा सकता: {extensions}",
                 "not_found_message": "अनुरोधित संसाधन नहीं मिला।",
                 "payload_too_large_message": "अनुरोध पेलोड बहुत बड़ा था।",
                 "permission_denied_message": "आपको ऐसा करने की अनुमति नहीं है।",
                 "rate_limit_exceeded_message": "आप थोड़ी जल्दी कर रहे हो। कृपया कुछ क्षणों में पुन: प्रयास करें।",
-                "render_failed_message": ""
+                "render_failed_message": "क्षमा करें, इस सामग्री को प्रदर्शित करते समय हमें एक त्रुटि का सामना करना पड़ा। यदि आप एक उपयोगकर्ता हैं, तो कृपया बाद में पुन: प्रयास करें। यदि आप एक व्यवस्थापक हैं, तो अधिक जानकारी के लिए अपनी फ्लारम लॉग फ़ाइलों पर एक नज़र डालें।"
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": "बंद करे"
+            },
+            "nav": {
+                "drawer_button": "नेविगेशन दराज खोलें"
             },
             "number_suffix": {
                 "kilo_text": "की",
@@ -558,6 +575,10 @@
                 "new_password_label": "नए पासवर्ड",
                 "submit_button": "अपना पासवर्ड रीसेट करें",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Page # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
             }
         },
         "api": {

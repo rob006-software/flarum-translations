@@ -2,40 +2,40 @@
     "afrux-theme-base": {
         "admin": {
             "extensions": {
-                "title": "",
-                "description": ""
+                "title": "Extensiones",
+                "description": "Lista de todas las extensiones instaladas."
             },
             "extension": {
                 "sections": {
-                    "content": "",
-                    "permissions": ""
+                    "content": "Ajustes principales",
+                    "permissions": "Permisos"
                 }
             },
             "header": {
-                "go_back": ""
+                "go_back": "Volver al foro"
             },
             "users": {
                 "grid": {
                     "columns": {
                         "avatar": {
-                            "title": ""
+                            "title": "Avatar"
                         }
                     }
                 }
             },
             "settings": {
-                "edit_footer_links": "",
-                "footer_description": "",
-                "footer_bottom_line": "",
-                "hero_banner": "",
-                "hero_banner_position": "",
+                "edit_footer_links": "Editar los enlaces del pie de página",
+                "footer_description": "Descripción del pie de página",
+                "footer_bottom_line": "Línea de pie de página",
+                "hero_banner": "Imagen del hero de bienvenida",
+                "hero_banner_position": "Posición CSS de la Imagen Hero (ejemplo: 'center top' o 'center 20%')",
                 "links_modal": {
-                    "add_group": "",
-                    "group_name": "",
-                    "group_title": "",
-                    "add_link": "",
-                    "link_url": "",
-                    "link_label": ""
+                    "add_group": "Nuevo grupo de enlaces",
+                    "group_name": "Nombre del grupo {número}",
+                    "group_title": "Enlace Título del grupo",
+                    "add_link": "Añadir un enlace",
+                    "link_url": "Enlace URL",
+                    "link_label": "Etiqueta de enlace"
                 }
             }
         }

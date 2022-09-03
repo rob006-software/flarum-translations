@@ -1,0 +1,31 @@
+{
+    "flarum-flags": {
+        "forum": {
+            "flag_post": {
+                "reason_duplicate_label": "Ismétlődő"
+            }
+        }
+    },
+    "blomstra-flag-duplicates": {
+        "admin": {
+            "settings": {
+                "event_post_help": "Létrehoz egy eseménybejegyzést egy olyan témában, ahol használták az „ismétlődő” jelzést. Ez anélkül tájékoztathatja a felhasználókat, hogy a téma egy másik ismétlődése lehet, hogy hozzáférnének az összes elküldött jelzéshez.",
+                "event_post_label": "Eseménybejegyzés"
+            }
+        },
+        "forum": {
+            "flags": {
+                "duplicate_discussion": "Ismétlődő témák",
+                "reason_duplicate_label": "Ismétlődő témák",
+                "reason_duplicate_text": "Ez a téma egy másik ismétlődése.",
+                "reason_discussion_deleted": "[törölt téma]",
+                "deselect_discussion_a11y_label": "Téma kiválasztásának megszüntetése"
+            },
+            "post_stream": {
+                "flagged_duplicate_text": "{username} ezt a témát a következő ismétlődéseként jelölte: {duplicate}. Egy moderátor hamarosan kivizsgálja.",
+                "deleted_discussion": "[törölt téma]",
+                "not_found": ""
+            }
+        }
+    }
+}

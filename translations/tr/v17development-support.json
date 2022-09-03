@@ -151,6 +151,11 @@
                     "confirm": "Bu tartışmayı bir bilete dönüştürmek istediğinizden emin misiniz?",
                     "event": "{ticket_title} tartışması bilete dönüştürüldü"
                 },
+                "convert_to_discussion": {
+                    "button": "",
+                    "confirm": "",
+                    "event": ""
+                },
                 "status": {
                     "new": {
                         "title": "Yeni",
@@ -192,7 +197,8 @@
                     "assign_me": "Bana ata",
                     "remove_me": "Beni sil",
                     "update_status": "Bilet durumunu güncelle",
-                    "close_ticket": "Bileti kapat"
+                    "close_ticket": "Bileti kapat",
+                    "update_note": "Özel notu güncelle"
                 },
                 "new_tickets_dropdown": {
                     "title": "Bilet Bildirimleri",
@@ -223,6 +229,13 @@
                     "assignees": {
                         "title": "Atananlar",
                         "placeholder": "Biletin durumu"
+                    },
+                    "private_note": {
+                        "title": "Özel notlar",
+                        "info": "Özel notlar, destek temsilcileri içindir ve müşteri tarafından görülmez.",
+                        "tip": "İPUCU: Tek bir bilet üzerinde birden fazla temsilci ile çalışıyorsanız, bir nota adınızı ve tarihinizi ekleyin.",
+                        "placeholder": "Örnek: 1 Ocak 2022 - Temsilci Adı: Müşteri veritabanından temizlendi",
+                        "edit_button": "Notu düzenle"
                     }
                 },
                 "compose_ticket": {
@@ -242,7 +255,41 @@
                     "title": "Biletlere genel bakış",
                     "description": "Gülümse, sen diğer insanların günlerini kurtaran kahramansın.",
                     "no_tickets": "Kriterlerinize uyan bilet yok, muhtemelen iyi bir iş çıkarıyorsunuz!",
-                    "all_tickets": "Tüm biletler"
+                    "all_tickets": "Tüm biletler",
+                    "selection_unfiltered": "Filtrelenmedi",
+                    "selection_open": "Açık biletler",
+                    "selection_closed": "Kapalı biletler",
+                    "refresh": "Yenile",
+                    "filter": {
+                        "status": {
+                            "title": "Bilet durumu",
+                            "filter_count": "{count, plural, one {# filtre} other {# filtre}}"
+                        },
+                        "language": {
+                            "any": "Herhangi bir dil"
+                        },
+                        "assignees": {
+                            "title": "Atananlara göre filtrele",
+                            "search": "Görevli ara",
+                            "unassigned": "Atanmamış"
+                        }
+                    },
+                    "sort": {
+                        "newest": "Önce yeniler",
+                        "oldest": "Önce eskiler",
+                        "recent_activity": "Son aktiviteler",
+                        "least_recent": "En son etkinlik"
+                    }
+                }
+            },
+            "notifications": {
+                "replied_to_ticket": {
+                    "name": "Birisi biletimi yanıtladığında",
+                    "content": "=> v17development-flarum-support.emails.replied_to_ticket.subject"
+                },
+                "ticket_resolved": {
+                    "name": "Biletim çözüldü",
+                    "content": "=> v17development-flarum-support.emails.ticket_resolved.subject"
                 }
             }
         },

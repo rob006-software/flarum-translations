@@ -1,0 +1,28 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "slack": {
+                        "description": "Registrujte Vaše fórum pomocou Slack {link}",
+                        "client_id_label": "",
+                        "client_secret_label": ""
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_slack_button": ""
+            },
+            "providers": {
+                "slack": ""
+            }
+        },
+        "lib": {
+            "providers": {
+                "slack": ""
+            }
+        }
+    }
+}
