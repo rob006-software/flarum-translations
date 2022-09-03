@@ -1,40 +1,40 @@
 {
     "cccyun-clogin-oauth": {
         "admin": {
-            "appurl_label": "",
-            "appurl_help": "",
-            "appid_label": "",
-            "appkey_label": "",
-            "openqq_label": "",
-            "openwx_label": "",
-            "opensina_label": ""
+            "appurl_label": "URL de l'API",
+            "appurl_help": "Doit commencer par http:// ou https:// et se terminer par /",
+            "appid_label": "Identifiant de l'application",
+            "appkey_label": "Clé de l'application",
+            "openqq_label": "Ouvrir une session QQ",
+            "openwx_label": "Ouvrir une session WeChat",
+            "opensina_label": "Ouvrir une session Weibo"
         },
         "forum": {
-            "with_qq_button": "",
-            "with_wx_button": "",
-            "with_sina_button": "",
+            "with_qq_button": "Session QQ",
+            "with_wx_button": "Session WeChat",
+            "with_sina_button": "Session Weibo",
             "alerts": {
-                "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
-                "error": "",
-                "unlinked": ""
+                "already_linked": "Le compte Third est déjà lié !",
+                "already_used": "Le compte Third est déjà lié à un autre utilisateur !",
+                "link_success": "Le compte Third est à présent lié.",
+                "unlink_success": "Le compte Third est à présent délié.",
+                "error": "Quelque chose s'est mal passé, veuillez réessayer plus tard !",
+                "unlinked": "Le compte Third n'est pas lié au compte de ce site, veuillez vous inscrire d'abord et lier ensuite."
             },
             "modals": {
-                "link_qq": "",
-                "unlink_qq": "",
-                "confirm_qq": "",
-                "link_wx": "",
-                "unlink_wx": "",
-                "confirm_wx": "",
-                "link_sina": "",
-                "unlink_sina": "",
-                "confirm_sina": "",
-                "no_providers": "",
+                "link_qq": "Lier le compte QQ",
+                "unlink_qq": "Délier le compte QQ",
+                "confirm_qq": "Êtes-vous sûr de vouloir délier votre compte QQ ?",
+                "link_wx": "Lier le compte WeChat",
+                "unlink_wx": "Délier le compte WeChat",
+                "confirm_wx": "Êtes-vous sûr de vouloir délier votre compte WeChat ?",
+                "link_sina": "Lier le compte Weibo",
+                "unlink_sina": "Délier le compte Weibo",
+                "confirm_sina": "Êtes-vous sûr de vouloir délier votre compte Weibo ?",
+                "no_providers": "Vous n'avez pas d'autres identifiants ! Vous devrez probablement réinitialiser votre mot de passe.",
                 "buttons": {
-                    "confirm": "",
-                    "cancel": ""
+                    "confirm": "Oui, délier le compte",
+                    "cancel": "Non !"
                 }
             }
         }
