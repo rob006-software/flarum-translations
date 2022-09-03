@@ -2,52 +2,52 @@
     "clarkwinkelmann-scratchpad": {
         "admin": {
             "settings": {
-                "title": "",
-                "single-column": "",
-                "theme": "",
-                "theme-auto": "",
-                "indent": "",
-                "npm-install-command": "",
-                "webpack-command": "",
-                "empty-for-default": "",
-                "validate-live": "",
-                "compile-automatically": ""
+                "title": "Paramètres du bloc-notes",
+                "single-column": "Regrouper les éditeurs dans une seule colonne au lieu de 3",
+                "theme": "Thème de CodeMirror (doit être actualisé pour prendre effet)",
+                "theme-auto": "Automatique (par défaut sur le thème clair, darcula sur le thème sombre)",
+                "indent": "Nombre d'espaces pour le retrait",
+                "npm-install-command": "Commande d'installation de NPM",
+                "webpack-command": "Commande de Webpack",
+                "empty-for-default": "Laissez vide pour la commande par défaut",
+                "validate-live": "Effectuer une requête sur la page d'accueil pour valider Less et PHP avant d'enregistrer",
+                "compile-automatically": "Compiler JS automatiquement lors de l'enregistrement"
             },
             "controls": {
-                "refresh": "",
-                "save": "",
-                "compile": "",
-                "settings": "",
-                "new": "",
-                "new-confirmation": "",
-                "delete": "",
-                "delete-confirmation": "",
-                "enable": "",
-                "disable": ""
+                "refresh": "Actualiser",
+                "save": "Enregistrer",
+                "compile": "Compiler le JS",
+                "settings": "Paramètres de l'éditeur",
+                "new": "Nouveau",
+                "new-confirmation": "Le bloc-notes actuel n'est pas enregistré. L'abandonner et en créer un nouveau ?",
+                "delete": "Supprimer",
+                "delete-confirmation": "Supprimer « {title} » ?",
+                "enable": "Cliquez pour activer",
+                "disable": "Cliquez pour désactiver"
             },
             "fields": {
-                "title": "",
-                "admin_js": "",
-                "forum_js": "",
-                "admin_less": "",
-                "forum_less": "",
-                "php": ""
+                "title": "Nom du bloc-notes",
+                "admin_js": "Administrer le JS",
+                "forum_js": "JS du forum",
+                "admin_less": "Administrer le Less",
+                "forum_less": "Less du forum",
+                "php": "PHP"
             },
             "placeholders": {
-                "untitled": "",
-                "php-comment": "",
-                "js-log": ""
+                "untitled": "Sans titre",
+                "php-comment": "Enregistrez les prolongateurs ici",
+                "js-log": "Bonjour {frontend} !"
             },
             "compilation-alert": {
-                "success": "",
-                "failure": "",
-                "view-output": ""
+                "success": "Compilé !",
+                "failure": "La compilation a échoué !",
+                "view-output": "Afficher la sortie"
             },
             "compilation-modal": {
-                "title": "",
-                "webpack": "",
-                "npm": "",
-                "npm-not-run": ""
+                "title": "Résultat de la compilation",
+                "webpack": "Sortie de Webpack",
+                "npm": "Sortie de NPM",
+                "npm-not-run": "NPM n'a pas fonctionné"
             }
         }
     }

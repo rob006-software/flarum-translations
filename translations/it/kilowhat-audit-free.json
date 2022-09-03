@@ -2,142 +2,142 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": ""
+                "view": "Visualizza registro di controllo"
             },
             "header": {
-                "title": "",
-                "free": "",
-                "pro": "",
-                "upgrade": ""
+                "title": "Verifica",
+                "free": "Gratuito",
+                "pro": "Pro",
+                "upgrade": "Aggiorna alla versione Pro"
             }
         },
         "forum": {
             "link": {
-                "discussion-audit": "",
-                "user-audit": "",
-                "actor-audit": ""
+                "discussion-audit": "Registro di Controllo",
+                "user-audit": "Registro di Controllo (modifica account)",
+                "actor-audit": "Registro di controllo (utente come attore)"
             },
             "modal": {
-                "discussion-title": "",
-                "user-title": "",
-                "actor-title": ""
+                "discussion-title": "Registro di controllo Discussioni",
+                "user-title": "Registro di controllo Utenti",
+                "actor-title": "Registro di controllo dell'attore"
             }
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "",
-                "filterApply": "",
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "filterPlaceholder": "Filtra registri",
+                "filterApply": "Applica",
+                "empty": "Nessun Risultato",
+                "loadMore": "Carica altro",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "discussion": "Discussione #{id}",
+                    "group": "Gruppo #{id}",
+                    "post": "Post #{id}",
+                    "tag": "Tag #{id}",
+                    "user": "Utente #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "Commento",
+                    "post": "Post"
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "(nessun valore)",
+                "noReason": "(nessuna motivazione)",
                 "client": {
-                    "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "session": "Sessione Web",
+                    "api_key": "Chiave API",
+                    "access_token": "Token di Accesso",
+                    "cli": "Riga di Comando",
+                    "unknown": "Client Sconosciuto"
                 },
                 "controls": {
-                    "hideRaw": "",
-                    "showRaw": "",
-                    "filterActor": "",
-                    "filterIp": "",
-                    "filterClient": "",
-                    "filterAction": "",
-                    "filterUser": "",
-                    "filterDiscussion": ""
+                    "hideRaw": "Nascondi registro grezzo",
+                    "showRaw": "Mostra registro grezzo",
+                    "filterActor": "Mostra i log di questo attore",
+                    "filterIp": "Mostra i log in base a questo IP",
+                    "filterClient": "Mostra i log per questo tipo di client",
+                    "filterAction": "Mostra i log della stessa azione",
+                    "filterUser": "Mostra i log che interessano lo stesso utente",
+                    "filterDiscussion": "Mostra i log che interessano la stessa discussione"
                 },
-                "cache_cleared": "",
+                "cache_cleared": "Svuotato manualmente la cache",
                 "discussion": {
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "hidden": "",
-                    "locked": "",
-                    "renamed": "",
-                    "restored": "",
-                    "split_away": "",
-                    "split_into": "",
-                    "stickied": "",
-                    "tagged": "",
-                    "unlocked": "",
-                    "unstickied": "",
-                    "user_changed": ""
+                    "created": "Discussione iniziata {discussione}",
+                    "create_date_changed": "Cambiata data di {discussion} modificata da {old_date} a {new_date}",
+                    "deleted": "Discussione cancellata {discussion}",
+                    "hidden": "Discussione nascosta {discussion}",
+                    "locked": "Discussione chiusa {discussion}",
+                    "renamed": "Discussione rinomonata da {old_title} a {new_title}",
+                    "restored": "Discussione ripristinata {discussion}",
+                    "split_away": "Divisi {post_count} post da discussione {discussion}",
+                    "split_into": "Divisi {post_count} post e messi nella nuova discussione {discussion}",
+                    "stickied": "Discussione {discussion} messa in rilievo",
+                    "tagged": "Aggiornati tag di {discussion} da {old_tags} a {new_tags}",
+                    "unlocked": "Discussione riaperta {discussion}",
+                    "unstickied": "Discussione non più in rilievo {discussion}",
+                    "user_changed": "Cambiato autore di {discussion} da {old_user} a {new_user}"
                 },
                 "extension": {
-                    "disabled": "",
-                    "enabled": ""
+                    "disabled": "Estensione disabilitata {package}",
+                    "enabled": "Estensione abilitata {package}"
                 },
                 "fof_ban_ips": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "Ip bannato {ip}",
+                    "unbanned": "Ip non più bannato {ip}"
                 },
-                "permission_changed": "",
+                "permission_changed": "Modificato permesso {permission} da {old_groups} a {new_groups}",
                 "post": {
-                    "approved": "",
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "dismissed_flags": "",
-                    "edit_date_changed": "",
-                    "flagged": "",
-                    "hidden": "",
-                    "restored": "",
-                    "revised": "",
-                    "user_changed": ""
+                    "approved": "Approvato post {post} di {postuser} in {discussion}",
+                    "created": "Post {post} creato in {discussion}",
+                    "create_date_changed": "Modificata data di inizio del {post} di {postuser} da {old_date} a {new_date}",
+                    "deleted": "Cancellato {post} di {postuser} in {discussion}",
+                    "dismissed_flags": "Segnalazione ignorata nel {post} di {postuser} in {discussion}",
+                    "edit_date_changed": "Modificata data del {post} di {postuser} da {old_date} a {new_date}",
+                    "flagged": "Segnalato {post} di {postuser} per {reason} in {discussion}",
+                    "hidden": "Nascosto {post} di {postuser} in {discussion}",
+                    "restored": "Ripristinato {post} di {postuser} in {discussion}",
+                    "revised": "Rivisto {post} di {postuser} in {discussion}",
+                    "user_changed": "Modificato autore di {post} da {old_user} a {new_user}"
                 },
-                "setting_changed": "",
-                "setting_changed_with_values": "",
+                "setting_changed": "Modificata impostazione {key}",
+                "setting_changed_with_values": "Impostazione {key} modificata da {old_value} a {new_value}",
                 "tag": {
-                    "created": "",
-                    "deleted": "",
-                    "updated": ""
+                    "created": "Creato Tag {tag}",
+                    "deleted": "Cancellato tag {tag}",
+                    "updated": "Aggiornato tag {tag}"
                 },
                 "user": {
-                    "activated": "",
-                    "activated_with_email": "",
-                    "avatar_changed": "",
-                    "avatar_removed": "",
-                    "bio_changed": "",
-                    "created": "",
-                    "deleted": "",
-                    "email_changed": "",
-                    "email_change_requested": "",
-                    "groups_changed": "",
-                    "impersonated": "",
-                    "logged_in": "",
-                    "logged_in_with_provider": "",
-                    "logged_out": "",
-                    "nickname_changed": "",
-                    "nickname_requested": "",
-                    "nickname_request_approved": "",
-                    "nickname_request_rejected": "",
-                    "password_changed": "",
-                    "password_change_requested": "",
-                    "provider_connected": "",
-                    "suspended": "",
-                    "unsuspended": "",
-                    "username_changed": "",
-                    "username_requested": "",
-                    "username_request_approved": "",
-                    "username_request_rejected": ""
+                    "activated": "Attivato account di {username} manualmente",
+                    "activated_with_email": "Attivato account di {username} tramite link di conferma",
+                    "avatar_changed": "Cambiato Avatar di {username}",
+                    "avatar_removed": "Rimosso avatar di {username}",
+                    "bio_changed": "Modificata bio di {username}",
+                    "created": "Creato account {username}",
+                    "deleted": "Cancellato {username}",
+                    "email_changed": "Modificata email di {username} da {old_email} a {new_email}",
+                    "email_change_requested": "Richiesta modifica della mail di {username} in {new_email}",
+                    "groups_changed": "Modificato gruppo di {username} da {old_groups} a {new_groups}",
+                    "impersonated": "Impersonato {username}",
+                    "logged_in": "Loggato account {username}",
+                    "logged_in_with_provider": "Loggato account {username} utilizzando {provider}",
+                    "logged_out": "Logout dell'account {username}",
+                    "nickname_changed": "Modificato nome utente {username} da {old_nickname} a {new_nickname}",
+                    "nickname_requested": "Richiesto nuovo nickname {new_nickname} per utente {username}",
+                    "nickname_request_approved": "Approvato cambio di nickname di {username} da {old_nickname} a {new_nickname}",
+                    "nickname_request_rejected": "Respinto cambio nickname di {username}",
+                    "password_changed": "Modificata password di {username}",
+                    "password_change_requested": "Richiesto cambio password di {username}",
+                    "provider_connected": "Connesso {provider} all'account di {username}",
+                    "suspended": "Sospeso {username} fino a {until}",
+                    "unsuspended": "Rimossa sospensione {username}",
+                    "username_changed": "Modificato nome utente di {username} da {old_username} a {new_username}",
+                    "username_requested": "Richiesto nuovo nome utente {new_username} per l'utente {username}",
+                    "username_request_approved": "Approvato cambio nome utente di {username} da {old_username} a {new_username}",
+                    "username_request_rejected": "Respinto cambio nome utente di {username}"
                 }
             }
         }

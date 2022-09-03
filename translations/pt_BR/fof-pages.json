@@ -1,0 +1,47 @@
+{
+    "fof-pages": {
+        "admin": {
+            "edit_page": {
+                "content_label": "=> fof-pages.ref.content",
+                "content_placeholder": "=> fof-pages.ref.content",
+                "delete_page_button": "Apagar página",
+                "delete_page_confirmation": "Tem certeza que deseja apagar essa página?",
+                "hidden_label": "Salvar como rascunho",
+                "restricted_label": "Restringir o acesso (configure quem pode acessar na guia Permissões)",
+                "html_label": "Habilitar HTML",
+                "set_as_home_page_confirmation": "Tem certeza de que deseja definir esta página como sua página inicial?",
+                "set_as_home_page_done": "Página inicial atualizada",
+                "slug_label": "=> fof-pages.ref.slug",
+                "slug_placeholder": "=> fof-pages.ref.slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-pages.ref.create_page",
+                "title_label": "=> fof-pages.ref.title",
+                "title_placeholder": "=> fof-pages.ref.title",
+                "url_label": "=> fof-pages.ref.url",
+                "url_placeholder": "=> fof-pages.ref.url"
+            },
+            "pages": {
+                "create_button": "=> fof-pages.ref.create_page"
+            },
+            "pages_list": {
+                "empty_text": "Parece que não há páginas aqui.",
+                "title": "=> fof-pages.ref.title"
+            },
+            "permissions": {
+                "restricted": "Ver páginas restritas"
+            },
+            "badges": {
+                "hidden": "Rascunho",
+                "restricted": "Restrito"
+            }
+        },
+        "ref": {
+            "content": "Contente",
+            "create_page": "Criar página",
+            "pages": "Páginas",
+            "slug": "Lesma",
+            "title": "Título",
+            "url": "URL"
+        }
+    }
+}

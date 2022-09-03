@@ -1,0 +1,39 @@
+{
+    "clarkwinkelmann-shadow-ban": {
+        "admin": {
+            "setting": {
+                "hideUsers": "Profile von gesperrten Benutzern ausblenden"
+            },
+            "permission": {
+                "ban": "Benutzer schattenbannen",
+                "hide": "Diskussionen und Beiträge ausblenden"
+            }
+        },
+        "forum": {
+            "discussionControl": {
+                "hide": "Schatten verstecken",
+                "restore": "Schatten wiederherstellen"
+            },
+            "postControl": {
+                "hide": "Schatten verstecken",
+                "restore": "Schatten wiederherstellen"
+            },
+            "userControl": {
+                "ban": "Schattenbannen"
+            },
+            "banUser": {
+                "title": "{username} sperren",
+                "until": "Bis (UTC)",
+                "quick": "Schnelle Auswahl",
+                "quickChoiceReset": "Nicht gebannt",
+                "quickChoiceDays": "{count, plural, one {# Tag} other {# Tage}}",
+                "submit": "Speichern"
+            },
+            "badge": {
+                "user": "Schatten gebannt",
+                "discussion": "Schatten versteckt",
+                "post": "Schatten versteckt"
+            }
+        }
+    }
+}

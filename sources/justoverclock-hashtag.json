@@ -1,8 +1,15 @@
 {
     "justoverclock-hashtag": {
+        "admin": {
+            "settings": {
+                "regexlabel": "Hashtag Regular Expression",
+                "regexdesc": "An example is shown below as the placeholder. Only edit if you understand Regular Expressions.",
+                "oldregexdesc": "Here is your old hashtag regular expression: <code>{regex}</code>"
+            }
+        },
         "forum": {
             "post": {
-                "hashtag_link_tooltip": "Search this hashtag into Flarum"
+                "hashtag_link_tooltip": "Find posts related to this hashtag"
             }
         }
     }

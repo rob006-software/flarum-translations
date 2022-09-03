@@ -1,0 +1,47 @@
+{
+    "the-turk-miserable-users": {
+        "admin": {
+            "permissions": {
+                "miserable_user_label": "=> the-turk-miserable-users.ref.miserable_user"
+            },
+            "settings": {
+                "range_separator_text": " to ",
+                "range_seconds_text": " Seconds",
+                "loading_delay_label": "Loading delay",
+                "loading_delay_text": "Miserable users will be subjected to a page loading delay of a random period between the two values provided here.",
+                "broken_page_chance_label": "Broken page chance",
+                "broken_page_chance_text": "You may present miserable users with a broken page from time to time. Enter the percentage chance of this happening.",
+                "flood_time_multiplier_label": "Flood time multiplier",
+                "flood_time_multiplier_text": "The standard minimum time (which is 10 seconds) between messages can be multiplied to make miserable users wait longer between posting.",
+                "redirection_chance_label": "Redirection chance",
+                "redirection_chance_text": "Enter the percentage chance that a miserable user will be redirected to the redirection page URL.",
+                "redirection_page_url_label": "Redirection page URL",
+                "redirection_page_url_text": "You may randomly redirect miserable users to a different page. Leave this blank to redirect to the forum home page.",
+                "log_out_chance_label": "Log out chance",
+                "log_out_chance_text": "Enter the percentage chance that a miserable user will be logged out and redirected back to the home page. <b>Remember!</b> Once logged out, they're not miserable anymore.",
+                "shuffle_post_chance_label": "Shuffle post chance",
+                "shuffle_post_chance_text": "You may randomly shuffle a miserable user's post. Enter the percentage chance of this happening."
+            }
+        },
+        "forum": {
+            "user_badge": {
+                "miserable_user_tooltip": "=> the-turk-miserable-users.ref.miserable_user"
+            },
+            "user_controls": {
+                "miserable_user_button": "=> the-turk-miserable-users.ref.miserable_user"
+            },
+            "miserable_user": {
+                "title": "Miserable {username}",
+                "status_heading": "Miserable Status",
+                "not_miserable_label": "Not miserable",
+                "indefinitely_label": "Miserable indefinitely",
+                "limited_time_label": "Miserable for a limited time...",
+                "limited_time_days_text": " days",
+                "submit_button": "=> core.ref.save_changes"
+            }
+        },
+        "ref": {
+            "miserable_user": "Miserable User"
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Suspender usuários"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "Você foi suspenso por {timeReadable}",
+                "user_suspended_indefinite_text": "Você foi suspenso indefinidamente",
+                "user_unsuspended_text": "Você não está mais suspenso"
+            },
+            "suspension_info": {
+                "dismiss_button": "Dispensar",
+                "indefinite": "Esta é uma suspensão indefinida",
+                "limited": "Esta suspensão estará em vigor até {date}",
+                "title": "Esta conta está suspensa"
+            },
+            "suspend_user": {
+                "display_message": "Exibir mensagem para o usuário",
+                "indefinitely_label": "Suspenso indefinidamente",
+                "limited_time_days_text": " dias",
+                "limited_time_label": "Suspenso por tempo limitado...",
+                "not_suspended_label": "Não suspenso",
+                "placeholder_optional": "Opcional",
+                "reason": "Motivo da suspensão",
+                "status_heading": "Situação da Suspensão",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Suspender {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Suspenso"
+            },
+            "user_controls": {
+                "suspend_button": "Suspender"
+            }
+        },
+        "email": {
+            "no_reason_given": "Nenhuma razão foi dada para esta suspensão.",
+            "suspended": {
+                "subject": "A sua conta foi suspensa",
+                "body": "Olá, {recipient_display_name},\n\nVocê foi suspenso pelo seguinte motivo:\n\n---\n{suspension_message}\n---\n"
+            },
+            "unsuspended": {
+                "subject": "Sua conta não está mais suspensa",
+                "body": "Obter {nome de exibição do destinatário},\n\nVocê não está mais suspenso. Você pode voltar ao fórum clicando no link a seguir:\n\n{url do fórum}\n"
+            }
+        }
+    }
+}

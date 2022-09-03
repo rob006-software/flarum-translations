@@ -3,19 +3,19 @@
         "admin": {
             "permissions": {
                 "approve_posts_label": "",
-                "reply_without_approval_label": "",
-                "start_discussions_without_approval_label": ""
+                "reply_without_approval_label": "අනුමැතියකින් තොරව සාකච්ඡාවලට පිළිතුරු දෙන්න",
+                "start_discussions_without_approval_label": "අනුමැතියකින් තොරව සාකච්ඡා අරඹන්න"
             }
         },
         "forum": {
             "badge": {
-                "awaiting_approval_tooltip": ""
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval"
             },
             "post": {
-                "awaiting_approval_text": ""
+                "awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval"
             },
             "post_controls": {
-                "approve_button": ""
+                "approve_button": "අනුමත කරන්න"
             }
         },
         "ref": {

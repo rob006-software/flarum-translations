@@ -1,0 +1,26 @@
+{
+    "fof-prevent-necrobumping": {
+        "forum": {
+            "composer": {
+                "warning": {
+                    "title": "Ez a téma több mint <b>{time}os</b>.",
+                    "description": "Nagyon valószínű, hogy nincs szükség a további beszélgetésre, így a téma kiemelésének nincs értelme.",
+                    "checkbox_label": "Tisztában vagyok vele, hogy ez a téma elég régi, de továbbra is szeretnék hozzászólni.",
+                    "error": "Ez a téma túl régi ahhoz, hogy válaszoljon."
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "days_label": "Napok",
+                "days_help": "A témák régiként lesznek megjelölve, ha a megadott számú nap eltelt a téma legutóbbi bejegyzése óta. Használja a <code>0</code>-t az alapértelmezés szerinti letiltáshoz.",
+                "message_title_label": "Egyéni üzenetcím",
+                "message_title_help": "Használja a <code>[time]</code> kódot az idő szövegéhez, például „14 nap”.",
+                "message_description_label": "Egyéni üzenetleírás",
+                "message_agreement_label": "Egyéni beleegyezési üzenet (jelölőmező)",
+                "tags_title": "Címkék",
+                "tags_help": "A globális napok felülírása egy adott címkénél. Az üres érték az alapértelmezést jelenti. Ha egy témának több címkéje is van, akkor a legkisebb beállított napérték lesz használva."
+            }
+        }
+    }
+}

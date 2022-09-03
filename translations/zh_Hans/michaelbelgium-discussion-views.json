@@ -2,8 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "最多人看",
-                "unpopular_button": "最少人看"
+                "popular_button": "最多翻阅",
+                "unpopular_button": "最少翻阅"
             }
         }
     },
@@ -12,13 +12,20 @@
             "modal_resetviews": {
                 "title": "重置主题浏览量",
                 "submit_button": "确定清除",
-                "label": "这将会清除这个主题的 {count} 浏览量，确定要继续吗？|这将会清除这个主题的 {count} 浏览量，确定要继续吗？"
+                "label": "这将清除这个主题的 {count, plural, one {{count}} other {{count}}} 浏览量，确定继续吗？"
             },
             "discussion_controls": {
                 "resetviews_button": "重置浏览量"
             },
             "viewlist": {
-                "title": "最近浏览的人"
+                "title": "足迹",
+                "guest": "访客"
+            },
+            "post": {
+                "viewed_by": "{users} 来过。",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "足迹"
             }
         },
         "admin": {
@@ -28,11 +35,14 @@
             },
             "settings": {
                 "title": "主题浏览量设置",
-                "track_unique_label": "仅追踪 UV（独立访客）",
+                "track_unique_label": "记录首次查阅（UV）",
+                "track_guests": "记录未登录访客",
                 "abbr_numbers_label": "缩写浏览量",
-                "show_filter_label": "添加「最多人看/最少人看」排序选项",
-                "max_viewcount_label": "「最近浏览的人」列表最多展示人数",
-                "show_viewlist_label": "在主题页面展示「最近浏览的人」列表"
+                "show_filter_label": "添加「最多翻阅/最少翻阅」排序项",
+                "max_viewcount_label": "「足迹」列表最多展示人数",
+                "max_viewcount_text": "侧边栏和页脚足迹列表的展示条目上限",
+                "show_viewlist_label": "在主题帖展示「足迹」",
+                "show_footer_viewlist_label": "在帖子页脚展示「足迹」"
             }
         }
     }

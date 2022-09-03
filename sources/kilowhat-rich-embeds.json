@@ -1,0 +1,181 @@
+{
+    "kilowhat-rich-embeds": {
+        "admin": {
+            "settings": {
+                "layout": "Layout",
+                "layoutOptions": {
+                    "inline": "Inline",
+                    "block": "Block",
+                    "separated": "Separated"
+                },
+                "position": "Position",
+                "positionOptions": {
+                    "replace": "Replace link",
+                    "above": "Above link",
+                    "below": "Below link"
+                },
+                "style": "Style",
+                "styleOptions": {
+                    "vertical": "Vertical",
+                    "horizontal": "Horizontal"
+                },
+                "imageProxy": "OpenGraph Image Proxy",
+                "imageProxyHelp": "All OpenGraph and favicon images will be proxied through Flarum instead of being retrieved by the visitor browser",
+                "cacheProxy": "Cache proxied images",
+                "cacheProxyHelp": "The images will be cached to disk according to their HTTP headers",
+                "withoutOpengraph": "Generate rich embeds for pages without OpenGraph data",
+                "withoutOpengraphHelp": "Title, description and image will be scaped from the page HTML",
+                "blacklist": "URL Blacklist",
+                "blacklistHelp": "Check documentation for format. These URLs will never have rich embeds, and cannot be proxied through the image proxy",
+                "whitelist": "URL Whitelist",
+                "whitelistHelp": "Check documentation for format. If a value is set, all other URLs will be considered blacklisted",
+                "imageEmbeds": "Rich Embeds for Images",
+                "imageEmbedsHelp": "This feature retrieves and displays additional information on external images inserted in posts with bbcode or markdown. At this time it re-uses the same blacklist/whitelist and permissions as rich links. These images are not proxied through the OpenGraph image proxy. You must clear the Flarum cache after changing this setting.\n",
+                "flarumApiPreviews": "Enable advanced Flarum previews",
+                "flarumApiPreviewsHelp": "This feature parses additional JSON data already included in the HTML by all Flarum-powered forums. It will work with any forum that runs Flarum 1.4+ and advertises the <code>X-Powered-By</code> Flarum header.\n",
+                "githubApiKey": "GitHub API Key",
+                "githubApiKeyHelp": "Fill in to enable API-powered rich GitHub previews for repos, issues and PRs, including private repositories.",
+                "githubOrgWhitelist": "Organisation whitelist",
+                "githubOrgWhitelistHelp": "Comma-separated list of GitHub organisations that will use the API-powered preview. Use this field to prevent every private repo accessible by the API key to be exposed, to reduce API usage or to only change the embed style of your own org. If left empty, any repo that the API key can access can be previewed.\n",
+                "googleApiAuthConfig": "Google SDK Auth Config Path or JSON",
+                "googleApiAuthConfigHelp": "This setting is used in combination with YouTube and Google Drive settings below. It should contain an absolute path to the JSON authentication file on the local file system, or the content of that file. If left empty, an API key or service account will automatically be discovered via environment variables by the Google API SDK.\n",
+                "googleApiKey": "Google SDK API key",
+                "googleApiKeyHelp": "This setting is used in combination with YouTube and Google Drive settings below. If left empty, an API key or service account will automatically be discovered via environment variables by the Google API SDK.\n",
+                "youtubePlayer": "Allow playing YouTube videos from the preview",
+                "youtubePlayerHelp": "An iframe player will be loaded on demand when the user clicks the play button in the preview. You must configure your CSP and frame headers to allow frames from YouTube domain name. This feature can be used without API access.\n",
+                "youtubeNoCookie": "Use YouTube no-cookie iframe domain",
+                "youtubeNoCookieHelp": "Switches to the alternate no-cookie domain offered by YouTube. Some videos might not be able to play in the iframe with this option enabled. This feature can be used without API access.\n",
+                "youtubeApiPreviews": "Enable advanced API-powered rich YouTube previews",
+                "youtubeApiPreviewsHelp": "The Google API SDK must be configured above. This feature will show more statistics about videos and can show private videos the SDK user has access to.\n",
+                "googledriveApiPreviews": "Enable advanced API-powered rich Google Drive previews",
+                "googledriveApiPreviewsHelp": "The Google API SDK must be configured above. This feature will show the title and preview of Google Drive files. Use a service account with access to a private Drive to enable preview of private files.\n"
+            },
+            "section": {
+                "siteSpecificHelp": "Below are site-specific settings that improve embeds using data not available through OpenGraph and HTML scraping. All options are optional. Some of the options require third-party API access which might come with rate limits or fees.\n",
+                "flarum": "Flarum",
+                "github": "GitHub",
+                "google": "Google",
+                "youtube": "YouTube",
+                "googledrive": "Google Drive"
+            },
+            "permissions": {
+                "viewGoogleDriveThumbnails": "View API-powered Google Drive thumbnails",
+                "useOnOwnPost": "Use embeds in own post",
+                "disableOnOwnPost": "Disable embeds on own post",
+                "refreshOnOwnPost": "Refresh embeds on own post",
+                "disableOnAnyPost": "Disable embeds on any post",
+                "refreshOnAnyPost": "Refresh embeds on any post"
+            },
+            "preview": {
+                "title": "Preview",
+                "refresh": "Refresh",
+                "loading": "Loading..."
+            }
+        },
+        "lib": {
+            "embed": {
+                "altFavicon": "{website} Icon",
+                "altImageFallback": "{website} Opengraph Image",
+                "altAvatar": "Author avatar image",
+                "missing": {
+                    "retrieving": "Retrieving...",
+                    "other": "No preview could be generated for this link"
+                }
+            },
+            "controls": {
+                "refresh": "Refresh data",
+                "disable": "Disable embeds on this post",
+                "disableConfirmation": "All embeds will be removed from this post. Continue?",
+                "imgCopy": "Copy image URL",
+                "imgCopied": "Copied!",
+                "imgOpen": "Open image in new tab",
+                "play": "Click to play media using an embedded player",
+                "expandDescription": "Expand description"
+            }
+        },
+        "api": {
+            "error": {
+                "blacklistedUrl": "URL {url} has not been whitelisted for embedding.",
+                "invalidUrl": "URL {url} is not valid."
+            },
+            "embed": {
+                "flarum": {
+                    "discussion": {
+                        "type": "Discussion",
+                        "stats": {
+                            "commentCount": "Replies",
+                            "participantCount": "Participants",
+                            "createdAt": "Start date"
+                        }
+                    },
+                    "user": {
+                        "type": "Profile",
+                        "avatarAlt": "Avatar",
+                        "stats": {
+                            "discussionCount": "Discussions",
+                            "commentCount": "Comments",
+                            "joinTime": "Join date"
+                        }
+                    }
+                },
+                "github": {
+                    "siteName": "GitHub",
+                    "privateRepoSuffix": "[private]",
+                    "issue": {
+                        "type": "Issue",
+                        "stats": {
+                            "commentCount": "Comments",
+                            "createdAt": "Created at"
+                        }
+                    },
+                    "pull": {
+                        "type": "Pull request",
+                        "stats": {
+                            "commentCount": "Comments",
+                            "reviewCount": "Reviews",
+                            "commitCount": "Commits",
+                            "createdAt": "Created at"
+                        }
+                    },
+                    "repo": {
+                        "type": {
+                            "public": "Public repository",
+                            "private": "Private repository"
+                        },
+                        "stats": {
+                            "openIssueCount": "Open issues",
+                            "subscriberCount": "Watchers",
+                            "stargazerCount": "Stars",
+                            "forkCount": "Forks"
+                        }
+                    }
+                },
+                "youtube": {
+                    "siteName": "YouTube",
+                    "video": {
+                        "type": "Video",
+                        "thumbnailAlt": "Video thumbnail",
+                        "stats": {
+                            "viewCount": "Views",
+                            "likeCount": "Likes",
+                            "commentCount": "Comments",
+                            "publishedAt": "Published at"
+                        }
+                    }
+                },
+                "googledrive": {
+                    "siteName": "Google Drive",
+                    "file": {
+                        "type": "File",
+                        "thumbnailAlt": "Google Drive file preview",
+                        "stats": {
+                            "size": "Filesize",
+                            "createdTime": "Created at",
+                            "modifiedTime": "Modified at"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

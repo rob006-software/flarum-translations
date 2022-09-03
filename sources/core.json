@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Configure Scopes",
-                "confirm_uninstall": "Uninstalling will remove all database entries and assets related to the extension. Are you sure you want to continue?",
+                "confirm_purge": "Purging will remove all database entries and assets related to the extension. It will not uninstall the extension; that must be done via Composer. Are you sure you want to continue?",
                 "disabled": "Disabled",
                 "enable_to_see": "Enable the extension to view and change settings.",
                 "enabled": "Enabled",
@@ -116,7 +116,12 @@
                 "no_settings": "This extension has no settings.",
                 "open_modal": "Open Settings",
                 "permissions_title": "Permissions",
-                "uninstall_button": "Uninstall"
+                "purge_button": "Purge",
+                "readme": {
+                    "button_label": "README",
+                    "no_readme": "This extension does not appear to have a README file",
+                    "title": "{extName} documentation"
+                }
             },
             "header": {
                 "get_help": "Get Help",
@@ -296,9 +301,10 @@
             "discussion_list": {
                 "empty_text": "It looks as though there are no discussions here.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Mark as Read",
                 "replied_text": "{username} replied {ago}",
-                "started_text": "{username} started {ago}"
+                "started_text": "{username} started {ago}",
+                "total_replies_a11y_label": "{count, plural, one {# reply} other {# replies}}",
+                "unread_replies_a11y_label": "{count, plural, one {# unread reply} other {# unread replies}}. Mark unread {count, plural, one {reply} other {replies}} as read."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -316,7 +322,9 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profile",
+                "search_clear_button_accessible_label": "Clear search query",
                 "search_placeholder": "Search Forum",
+                "search_role_label": "Search Forum",
                 "session_dropdown_accessible_label": "Toggle session options dropdown menu",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -442,9 +450,16 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Resend Confirmation Email",
                 "sent_message": "Sent"
+            },
+            "welcome_hero": {
+                "hide": "Hide welcome message"
             }
         },
         "lib": {
+            "debug_button": "Debug",
+            "alert": {
+                "dismiss_a11y_label": "Dismiss alert"
+            },
             "badge": {
                 "hidden_tooltip": "Hidden"
             },
@@ -462,18 +477,32 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "username_label": "=> core.ref.username",
+                "nothing_available": "You are not allowed to edit this user."
             },
             "error": {
                 "dependent_extensions_message": "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}",
+                "extension_initialiation_failed_message": "{extension} failed to initialize, check the browser console for further information.",
                 "generic_message": "Oops! Something went wrong. Please reload the page and try again.",
                 "missing_dependencies_message": "Cannot enable {extension} until the following dependencies are enabled: {extensions}",
                 "not_found_message": "The requested resource was not found.",
+                "payload_too_large_message": "The request payload was too large.",
                 "permission_denied_message": "You do not have permission to do that.",
-                "rate_limit_exceeded_message": "You're going a little too quickly. Please try again in a few seconds."
+                "rate_limit_exceeded_message": "You're going a little too quickly. Please try again in a few seconds.",
+                "render_failed_message": "Sorry, we encountered an error while displaying this content. If you're a user, please try again later. If you're an administrator, take a look in your Flarum log files for more information."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Page # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Close"
+            },
+            "nav": {
+                "drawer_button": "Open Navigation Drawer"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -489,6 +518,26 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "=> core.ref.extensions",
+                    "disable": "Disable",
+                    "empty": "No installed extensions",
+                    "enable": "Enable",
+                    "name": "Extension Name",
+                    "package_name": "Package Name",
+                    "version": "Version"
+                },
+                "info": {
+                    "caption": "Application Info"
+                },
+                "title": "Administration"
+            },
+            "confirm_email": {
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "Click the button below to confirm your account's email.",
+                "title": "=> core.ref.confirm_email"
+            },
             "content": {
                 "javascript_disabled_message": "This site is best viewed in a modern browser with JavaScript enabled.",
                 "load_error_message": "Something went wrong while trying to load the full version of this site. Try hard-refreshing this page to fix the error.",
@@ -552,6 +601,7 @@
             "change_password": "Change Password",
             "color": "Color",
             "confirm_password": "Confirm Password",
+            "confirm_email": "Confirm Email",
             "confirmation_email_sent": "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder.",
             "custom_footer_text": "Add HTML to be displayed at the very bottom of the page.",
             "custom_footer_title": "Edit Custom Footer",
@@ -563,6 +613,7 @@
             "edit": "Edit",
             "edit_user": "Edit User",
             "email": "Email",
+            "extensions": "Extensions",
             "icon": "Icon",
             "icon_text": "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix.",
             "load_more": "Load More",

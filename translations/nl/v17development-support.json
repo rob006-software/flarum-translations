@@ -1,271 +1,318 @@
 {
     "v17development-flarum-support": {
         "forum": {
-            "knowledge_base": "",
-            "ask_a_question_on_forums": "",
-            "return_to_home": "",
-            "ask_your_question_on_forum": "",
-            "or": "",
-            "settings": "",
-            "send": "",
-            "create": "",
-            "discard": "",
-            "reopen": "",
-            "support_tickets": "",
-            "admin_overview": "",
+            "knowledge_base": "Kennisbank",
+            "ask_a_question_on_forums": "Stel een vraag op het forum",
+            "return_to_home": "Terug naar de kennisbank startpagina",
+            "ask_your_question_on_forum": "Stel uw vraag op het forum",
+            "or": "of",
+            "settings": "=> core.ref.settings",
+            "send": "Verstuur",
+            "create": "Aanmaken",
+            "discard": "Weggooien",
+            "reopen": "Opnieuw openen",
+            "support_tickets": "Support tickets",
+            "admin_overview": "Beheerdersoverzicht openen",
             "hero": {
-                "help_question": "",
-                "check_forum": ""
+                "help_question": "Waar kunnen we u mee helpen?",
+                "check_forum": "Wanneer u niet kunt vinden waar u naar op zoek bent, <a>bezoek dan ons forum</a>"
             },
             "overview": {
-                "knowledge_base_overview": "",
-                "back_to": "",
-                "back_to_overview": "",
-                "back_to_main_categories": "",
-                "loading_articles": "",
-                "no_categories_found": "",
-                "category_not_found": "",
-                "no_articles_found": "",
+                "knowledge_base_overview": "Kennisbank overzicht",
+                "back_to": "Terug naar {category}",
+                "back_to_overview": "Terug naar het overzicht",
+                "back_to_main_categories": "Terug naar de hoofdcategorieën",
+                "loading_articles": "Artikelen laden",
+                "no_categories_found": "Sorry, we konden hier geen artikelen vinden...",
+                "category_not_found": "Categorie niet gevonden",
+                "no_articles_found": "Er zijn geen artikelen gevonden in deze categorie",
                 "tools": {
-                    "new_article": "",
-                    "rename_category": "",
-                    "edit_description": "",
-                    "change_icon": ""
+                    "new_article": "Nieuw artikel",
+                    "rename_category": "Hernoem categorie",
+                    "edit_description": "Bewerk beschrijving",
+                    "change_icon": "Bewerk icoon"
                 }
             },
             "article_events": {
-                "article_hidden": "",
-                "article_public": "",
-                "article_modified": ""
+                "article_hidden": "Artikel is onzichtbaar gemaakt door {username}",
+                "article_public": "Artikel is zichtbaar gemaakt door {username}",
+                "article_modified": "{username} heeft dit artikel bewerkt."
             },
             "search": {
-                "title": "",
-                "back_to_search_results": "",
-                "search_knowledge_base": "",
-                "searching": "",
-                "searching_for": "",
-                "searched_for": "",
-                "use_searchbox_below": "",
-                "no_results": ""
+                "title": "Zoeken",
+                "back_to_search_results": "Terug naar de zoekresultaten",
+                "search_knowledge_base": "Zoek in onze kennisbank",
+                "searching": "Zoeken",
+                "searching_for": "U zoekt naar {searchterm}",
+                "searched_for": "Er zijn {results} resultaten gevonden voor uw zoekopdracht naar {searchterm}.",
+                "use_searchbox_below": "Gebruik het zoekvak hieronder om te zoeken in onze kennisbank.",
+                "no_results": "We konden niets vinden voor {searchterm}."
             },
             "not_found": {
-                "title": "",
-                "description": "",
-                "solution": ""
+                "title": "Item niet gevonden",
+                "description": "Sorry, dit artikel of deze categorie bestaat niet meer op deze plaats.",
+                "solution": "U kunt het bovenstaande zoekvak gebruiken om te vinden waar u naar op zoek was."
             },
             "article": {
-                "article": "",
-                "articles": "",
-                "hidden": "",
-                "created_at": "",
-                "author": "",
-                "authors": "",
-                "last_modified": "",
-                "not_found": "",
+                "article": "Artikel",
+                "articles": "Artikelen",
+                "hidden": "Verborgen",
+                "created_at": "{date} aangemaakt",
+                "author": "Auteur",
+                "authors": "Auteurs",
+                "last_modified": "{date} voor het laatst bewerkt",
+                "not_found": "Artikel niet gevonden",
                 "share_article": {
-                    "title": "",
-                    "perma_link": ""
+                    "title": "Artikel delen",
+                    "perma_link": "Permalink naar dit artikel:"
                 },
                 "tools": {
-                    "rename_article": "",
-                    "edit_article": "",
-                    "edit_tags": "",
-                    "audit_log": "",
-                    "hide_article": "",
-                    "recover_article": "",
-                    "delete_forever": "",
-                    "view_ratings": ""
+                    "rename_article": "Artikel hernoemen",
+                    "edit_article": "Bewerk artikel",
+                    "edit_tags": "Bewerk tags",
+                    "audit_log": "Auditlogboek",
+                    "hide_article": "Artikel verbergen",
+                    "recover_article": "Artikel herstellen",
+                    "delete_forever": "Permanent verwijderen",
+                    "view_ratings": "Bekijk beoordelingen"
                 }
             },
             "support_ratings": {
-                "score": "",
-                "helful_article": "",
-                "helful_support": "",
-                "feedback": "",
-                "feedback_not_helpful": "",
-                "enter_feedback": "",
-                "finished": "",
+                "score": "Beoordelingen",
+                "helful_article": "Was dit artikel nuttig?",
+                "helful_support": "Bent u tevreden over hoe wij uw supportticket hebben afgehandeld?",
+                "feedback": "Bedankt voor uw beoordeling, heeft u feedback?",
+                "feedback_not_helpful": "Vervelend om te horen dat dit artikel niet nuttig was, waar was u naar op zoek?",
+                "enter_feedback": "Voer hier uw feedback in",
+                "finished": "Bedankt! Uw feedback is opgeslagen.",
                 "validation": {
-                    "invalid_discussion": "",
-                    "guest": "",
-                    "invalid_points": "",
-                    "cannot_rate_article": "",
-                    "neutral_emoji_disabled": "",
-                    "missing_article_id": ""
+                    "invalid_discussion": "Oeps, er ging iets mis. U kunt dit artikel/supportticket niet beoordelen.",
+                    "guest": "Log in voordat u dit artikel beoordeeld.",
+                    "invalid_points": "Ongeldige beoordeling. Probeer het opnieuw.",
+                    "cannot_rate_article": "U kan dit artikel niet beoordelen.",
+                    "neutral_emoji_disabled": "De neutrale emoji is uitgeschakeld.",
+                    "missing_article_id": "Ontbrekend of ongeldig artikel ID"
                 },
                 "switch_sort_score": {
-                    "label": "",
-                    "description": ""
+                    "label": "Sorteer artikelen op beoordeling van laag naar hoog",
+                    "description": "Alleen artikelen weergeven die feedback hebben ontvangen, sorteren op laagst scorende artikel."
                 }
             },
             "modals": {
                 "audit_log": {
-                    "title": "",
-                    "article_created": "",
-                    "no_more_events": "",
-                    "loading_auditlog": ""
+                    "title": "Artikel auditlogboek",
+                    "article_created": "Artikel is aangemaakt",
+                    "no_more_events": "Er zijn geen events gevonden",
+                    "loading_auditlog": "Auditlogboek laden"
                 },
                 "article_ratings": {
-                    "title": "",
-                    "loading_ratings": "",
-                    "no_ratings_found": "",
-                    "article_not_rated": "",
-                    "confirm_delete_rating": "",
-                    "feedback": "",
-                    "rating": "",
-                    "username": "",
-                    "rated_on": ""
+                    "title": "Artikel beoordelingen",
+                    "loading_ratings": "Beoordelingen laden",
+                    "no_ratings_found": "Geen beoordelingen gevonden die voldoen aan uw zoekcriteria",
+                    "article_not_rated": "Dit artikel is nog niet beoordeeld.",
+                    "confirm_delete_rating": "Weet u zeker dat u deze beoordeling wilt verwijderen?",
+                    "feedback": "Feedback",
+                    "rating": "Beoordeling",
+                    "username": "=> core.ref.username",
+                    "rated_on": "Beoordeeld op"
                 }
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "We sturen u door naar ons kennisbank artikel...",
+                    "link": "<a>Klik hier</a> wanneer u niet automatisch wordt doorgestuurd"
                 }
             },
             "composer": {
-                "compose_article": "",
-                "compose_ticket": "",
-                "new_article_title": "",
-                "enter_message_here": "",
-                "publish_article": "",
-                "publish_article_hint": "",
-                "manage_tags": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "warning_save_changes": "",
-                "article_saved": ""
+                "compose_article": "Artikel samenstellen",
+                "compose_ticket": "Ticket aanmaken",
+                "new_article_title": "Artikel titel",
+                "enter_message_here": "Vul hier uw bericht in",
+                "publish_article": "Publiceer artikel",
+                "publish_article_hint": "Publiceer artikel direct na plaatsing.",
+                "manage_tags": "Tags beheren",
+                "write": "Schrijf",
+                "view": "Voorbeeld",
+                "nothing_to_preview": "Niets om weer te geven",
+                "warning_save_changes": "WAARSCHUWING: U staat op het punt om deze pagina te verlaten en u heeft uw wijzigingen nog niet opgeslagen. Wilt u uw wijzigingen opslaan?\n\n[OK] = Ja, sla het op. [CANCEL] = Nee, niet opslaan\n",
+                "article_saved": "Artikel is opgeslagen"
             },
             "tickets": {
-                "ticket": "",
-                "subject": "",
-                "ticket_does_not_exist": "",
-                "return_to_overview": "",
-                "ticket_overview": "",
-                "opened_on": "",
-                "ticket_activity": "",
-                "reminders_sent": "",
+                "ticket": "Ticket",
+                "subject": "Onderwerp",
+                "ticket_does_not_exist": "Deze ticket bestaat niet.",
+                "return_to_overview": "Terug naar ticket overzicht",
+                "ticket_overview": "Ticket overzicht",
+                "opened_on": "Geopend op",
+                "ticket_activity": "Door {username}, laatste activiteit op {date}",
+                "reminders_sent": "{count, plural, one {Een herinnering gestuurd} other {# herinneringen gestuurd}}",
                 "convert_to_ticket": {
+                    "button": "Omzetten naar ticket",
+                    "confirm": "Weet je zeker dat je deze discussie wilt omzetten naar een ticket?",
+                    "event": "De discussie {ticket_title} is omgezet naar een ticket"
+                },
+                "convert_to_discussion": {
                     "button": "",
                     "confirm": "",
                     "event": ""
                 },
                 "status": {
                     "new": {
-                        "title": "",
-                        "description": ""
+                        "title": "Nieuw",
+                        "description": "Dit is een onbeantwoorde ticket"
                     },
                     "open": {
-                        "title": "",
-                        "description": ""
+                        "title": "Open",
+                        "description": "Dit ticket heeft een nieuwe reactie en wacht op uw antwoord."
                     },
                     "pending": {
-                        "title": "",
-                        "description": "",
-                        "description_user": ""
+                        "title": "In afwachting",
+                        "description": "Dit ticket wacht op antwoord van de gebruiker.",
+                        "description_user": "We wachten op jou om te antwoorden of om dit ticket als opgelost te markeren."
                     },
                     "closed": {
-                        "title": "",
-                        "description": "",
-                        "is_closed": "",
-                        "close_after_posting": "",
-                        "is_auto_closed": ""
+                        "title": "Gesloten",
+                        "description": "Dit ticket is gesloten.",
+                        "is_closed": "Dit ticket is gesloten, wanneer je reageert zal deze opnieuw openen. We raden aan om een ticket alleen opnieuw te openen als het probleem niet is opgelost. Als het een nieuw probleem is, open dan een nieuw ticket.",
+                        "close_after_posting": "Ticket sluiten na plaatsing",
+                        "is_auto_closed": "Dit ticket is gesloten wegens inactiviteit."
                     },
                     "on_hold": {
-                        "title": "",
-                        "description": ""
+                        "title": "In de wacht",
+                        "description": "Dit ticket is in de wacht gezet."
                     },
                     "duplicate": {
-                        "title": "",
-                        "description": ""
+                        "title": "Duplicaat",
+                        "description": "Dit ticket is gemarkeerd als duplicaat."
                     },
                     "solved": {
-                        "title": "",
-                        "description": "",
-                        "mark_as_solved": ""
+                        "title": "Opgelost",
+                        "description": "Dit ticket is gemarkeerd als opgelost",
+                        "mark_as_solved": "Markeer dit ticket als opgelost"
                     }
                 },
                 "tools": {
-                    "view_ticket": "",
-                    "update_subject": "",
-                    "assign_me": "",
-                    "remove_me": "",
-                    "update_status": "",
-                    "close_ticket": ""
+                    "view_ticket": "Bekijk ticket",
+                    "update_subject": "Onderwerp aanpassen",
+                    "assign_me": "Aan mij toewijzen",
+                    "remove_me": "Mij verwijderen",
+                    "update_status": "Ticketstatus updaten",
+                    "close_ticket": "Ticket sluiten",
+                    "update_note": ""
                 },
                 "new_tickets_dropdown": {
-                    "title": "",
-                    "no_tickets": "",
-                    "ticket_new": "",
-                    "ticket_updated": ""
+                    "title": "Ticket notificaties",
+                    "no_tickets": "Er zijn geen ticket notificaties",
+                    "ticket_new": "{username} heeft het ticket {ticket} aangemaakt",
+                    "ticket_updated": "{username} heeft gereageerd in {ticket}"
                 },
                 "fields": {
                     "language": {
-                        "title": "",
-                        "placeholder": "",
-                        "empty": "",
-                        "description": ""
+                        "title": "Taal",
+                        "placeholder": "Selecteer een taal",
+                        "empty": "Geen taal geselecteerd",
+                        "description": "Uw supportticket wordt in het {language} afgehandeld."
                     },
                     "subject": {
-                        "title": "",
-                        "placeholder": "",
-                        "description": ""
+                        "title": "Onderwerp",
+                        "placeholder": "Ticket onderwerp",
+                        "description": "Probeer uw vraag in één korte zin te omschrijven."
                     },
                     "information": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Ticket informatie",
+                        "placeholder": "Vertel ons waar we u mee kunnen helpen"
                     },
                     "status": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Status",
+                        "placeholder": "De status van dit ticket"
                     },
                     "assignees": {
+                        "title": "Toegekend aan",
+                        "placeholder": "De status van dit ticket"
+                    },
+                    "private_note": {
                         "title": "",
-                        "placeholder": ""
+                        "info": "",
+                        "tip": "",
+                        "placeholder": "",
+                        "edit_button": ""
                     }
                 },
                 "compose_ticket": {
-                    "title": "",
-                    "private_support": "",
-                    "not_allowed": ""
+                    "title": "Schrijf een nieuw ticket",
+                    "private_support": "Voor privéondersteuning kunt u dit formulier gebruiken om een nieuw ticket aan te maken op ons ondersteuningsplatform. Raadpleeg <a>onze openbare forums</a> voor kwesties die niet privé zijn.",
+                    "not_allowed": "U kunt nu geen nieuw supportticket openen"
                 },
                 "load_more": {
-                    "title": ""
+                    "title": "Meer tickets inladen"
                 },
                 "my_tickets": {
-                    "title": "",
-                    "description": "",
-                    "no_tickets": ""
+                    "title": "Mijn tickets",
+                    "description": "Op deze pagina vind je een overzicht van je tickets.",
+                    "no_tickets": "Je hebt nog geen tickets."
                 },
                 "overview": {
-                    "title": "",
-                    "description": "",
-                    "no_tickets": "",
-                    "all_tickets": ""
+                    "title": "Tickets overzicht",
+                    "description": "Glimlach, jij bent de held die andere mensen hun dag redt.",
+                    "no_tickets": "Er zijn geen tickets die aan uw criteria voldoen, waarschijnlijk doet u het goed!",
+                    "all_tickets": "Alle tickets",
+                    "selection_unfiltered": "Ongefilterd",
+                    "selection_open": "Open tickets",
+                    "selection_closed": "Gesloten tickets",
+                    "refresh": "Verversen",
+                    "filter": {
+                        "status": {
+                            "title": "Ticket status",
+                            "filter_count": "{count, plural, one {# filter} other {# filters}}"
+                        },
+                        "language": {
+                            "any": "Elke taal"
+                        },
+                        "assignees": {
+                            "title": "Filter op toegewezen persoon",
+                            "search": "Zoek persoon",
+                            "unassigned": "Niet toegewezen"
+                        }
+                    },
+                    "sort": {
+                        "newest": "Nieuwste eerst",
+                        "oldest": "Oudste eerst",
+                        "recent_activity": "Recentste activiteit",
+                        "least_recent": "Minst recente activiteit"
+                    }
+                }
+            },
+            "notifications": {
+                "replied_to_ticket": {
+                    "name": "",
+                    "content": ""
+                },
+                "ticket_resolved": {
+                    "name": "",
+                    "content": ""
                 }
             }
         },
         "emails": {
             "replied_to_ticket": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name} heeft gereageerd op je ticket #{ticket_id}",
+                "body": "Beste {recipient_display_name},\n\n{replier_display_name} heeft gereageerd op je ticket #{ticket_id} (onderwerp \"{subject}\").\n\nGebruik de onderstaande link om het antwoord te bekijken:\n{url}\n\nWe wachten op uw antwoord of totdat u dit ticket markeert als opgelost.\n"
             },
             "ticket_status_update": {
-                "subject": "",
-                "body": ""
+                "subject": "Ticket #{ticket_id} is gemarkeerd als {new_status}",
+                "body": "Beste {recipient_display_name},\n\nThe status of your ticket #{ticket_id} has changed to {new_status}.\n\nDe URL van uw ticket is:\n{url}\n"
             },
             "ticket_resolved": {
-                "subject": "",
-                "body": ""
+                "subject": "Ticket #{ticket_id} is gemarkeerd als opgelost",
+                "body": "Beste {recipient_display_name},\n\nUw ticket #{ticket_id} is gemarkeerd als opgelost. Dit betekent dat uw ticket is gesloten.\n\nDe URL van uw ticket is:\n{url}\n\nAls u het niet eens bent met het markeren van uw ticket als opgelost, beantwoord dan uw ticket om het opnieuw te openen.\n"
             },
             "ticket_pending_reply": {
-                "subject": "",
-                "body": ""
+                "subject": "Ticket #{ticket_id} wacht op uw antwoord",
+                "body": "Beste {recipient_display_name},\n\nRecently {replier_display_name} replied to your ticket #{ticket_id} on {replied_date} and we are waiting for your reply.\n\nDe URL van uw ticket is:\n{url}\n\nAls het probleem is opgelost, markeer het ticket dan als opgelost.\n"
             },
             "ticket_pending_reply_closed": {
-                "subject": "",
-                "body": ""
+                "subject": "Ticket #{ticket_id} is gesloten wegens inactiviteit",
+                "body": "Beste {recipient_display_name},\n\nOnlangs heeft {replier_display_name} gereageerd op uw ticket #{ticket_id}. Helaas hebben we geen antwoord van u ontvangen. Uw ticket is daardom automatisch gesloten wegens inactiviteit.\n\nMocht u toch willen reageren, dan is de URL van uw ticket:\n{url}\n"
             }
         }
     }

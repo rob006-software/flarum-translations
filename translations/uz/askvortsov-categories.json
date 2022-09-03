@@ -1,0 +1,55 @@
+{
+    "askvortsov-categories": {
+        "admin": {
+            "basics": {
+                "categories_label": "Kategoriyalar"
+            },
+            "labels": {
+                "keep_tags_nav": "Teglar sahifasi havolasi navigatsiya yon panelida saqlansinmi?",
+                "child_bare_icon": "Yalang'och bolalar ikonkalari?",
+                "compact_mobile_mode": "Ixcham mobil rejim",
+                "full_page_desktop": "To'liq sahifa ish stoli?",
+                "parent_remove_icon": "Yuqori darajadagi teglar uchun ikonkalari yashirilsinmi?",
+                "parent_remove_description": "Yuqori darajadagi teglar tavsiflari yashirilsinmi?",
+                "parent_remove_stats": "Yuqori darajadagi teglar uchun statistika yashirilsinmi?",
+                "parent_remove_last_discussion": "Yuqori darajadagi teglar uchun eng oxirgi muhokamalar yashirilsinmi?",
+                "small_forum_optimized": "Kichik forumlar uchun optimallashtirasizmi?"
+            },
+            "help": {
+                "child_bare_icon": "Bolalar toifalaridagi ikonkalar dumaloq fonsiz ko'rsatilishi kerakmi?",
+                "full_page_desktop": "Yon paneldagi nav menyusi bir qatorga yopilishi kerakmi (an'anaviy teglar sahifasidagi kabi)? Bu shuningdek, vidjetlarni (masalan, Flarum forumining Friends of Statistics) toifalar sahifasining navbar panelidan yashiradi.",
+                "small_forum_optimized": "Bu aniqroq munozaralar/xabarlar sonini beradi, lekin o'rta va katta forumlarni keskin sekinlashtiradi."
+            },
+            "headings": {
+                "nav": "Navigatsiya",
+                "layout": "Maket",
+                "parent_display": "Ota-onalar kategoriyasi ko'rinishi",
+                "child_display": "Bolalar kategoriyasi ko'rsatilishi",
+                "performance": "Ijro"
+            },
+            "title": "Kategoriyalar sozlamalari"
+        },
+        "forum": {
+            "all_categories": {
+                "meta_description_text": "Hamma kategoriyalar",
+                "meta_title_text": "=> askvortsov-categories.ref.categories"
+            },
+            "header": {
+                "back_to_categories_tooltip": "Kategoriyalar sahifasiga qaytish"
+            },
+            "index": {
+                "categories_link": "=> askvortsov-categories.ref.categories"
+            },
+            "stat-widgets": {
+                "discussion_label": "Muhokamalar",
+                "post_label": "Xabarlar"
+            },
+            "last_discussion_widget": {
+                "no_discussions": "Muhokama yo'q (hali!)"
+            }
+        },
+        "ref": {
+            "categories": "Kategoriyalar"
+        }
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "v17development-flarum-badges": {
+        "admin": {
+            "uncategorized": "Neįtraukta į kategorijas",
+            "new_badge": "Naujas ženklelis",
+            "create_category": "Sukurti kategoriją",
+            "update_badge": "Atnaujinti ženklelį",
+            "update_category": "Atnaujinti kategoriją",
+            "edit_category": "Redaguoti kategoriją",
+            "nothing_here_yet": "Dar nesukūrėte jokių ženklelių ar kategorijų.",
+            "show_badges_on_user_card": "",
+            "number_of_badges_on_user_card": "",
+            "number_of_badges_on_user_card_help": "",
+            "permissions": {
+                "badge_detail_users": "Gali matyti naudotojus išsamios ženklelio informacijos puslapyje",
+                "give_badge": "Suteikite ženklelį vartotojui",
+                "take_badge": "Paimkite ženklelį iš vartotojo",
+                "edit_own_card_badges": "",
+                "edit_card_badges": ""
+            },
+            "confirm_dialog": {
+                "title": "Patvirtinti",
+                "no": "Ne",
+                "yes": "Taip"
+            },
+            "confirm_messages": {
+                "delete_badge": "",
+                "delete_category": ""
+            },
+            "badge": {
+                "name": "",
+                "icon": "",
+                "description": "",
+                "visible": "",
+                "visible_description": "",
+                "is_image": "",
+                "is_image_description": "",
+                "image": "",
+                "image_placeholder": "",
+                "icon_color": "",
+                "background_color": "",
+                "label_color": ""
+            },
+            "badge_category": {
+                "name": "",
+                "description": "",
+                "blockview": "",
+                "blockview_description": "",
+                "enabled": "",
+                "enabled_description": ""
+            },
+            "auto_moderator": {
+                "not_installed": {
+                    "title": "",
+                    "content": "",
+                    "install": "",
+                    "dismiss": ""
+                },
+                "action_drivers": {
+                    "badge_id": "",
+                    "give_badge": "Suteikti ženklelį",
+                    "remove_badge": ""
+                },
+                "requirement_drivers": {
+                    "has_badge": ""
+                },
+                "metric_drivers": {
+                    "badges_received": ""
+                },
+                "badge_selector": {
+                    "placeholder": "",
+                    "loading_badges": ""
+                }
+            }
+        },
+        "forum": {
+            "badge_information": "",
+            "all_badges": "",
+            "all_users": "",
+            "give_badge": "Suteikti ženklelį",
+            "update_badge": "",
+            "select_badge": "",
+            "user_has_badge": "",
+            "user_no_badges": "",
+            "no_received": "",
+            "uncategorized": "",
+            "save_changes": "",
+            "badge": {
+                "badge": "Ženkliukas",
+                "badges": "Ženkliukai",
+                "name": "Ženklelio pavadinimas",
+                "description": "",
+                "earning_reason": "",
+                "update_earning_reason": "",
+                "no_earning_reason": "",
+                "earned_on": "",
+                "category": "",
+                "received_on": "",
+                "badge_details": "",
+                "earned_count": "",
+                "earned_by_count": "",
+                "others_link": ""
+            },
+            "badges_in_card": {
+                "title": "",
+                "manage_badges": "",
+                "description": "",
+                "select_limit": "",
+                "hit_limit": ""
+            },
+            "moderation": {
+                "remove_badge": "",
+                "remove_badge_confirm": "",
+                "give_badge": "Suteikti ženklelį"
+            },
+            "notification": {
+                "title": "",
+                "settings": "Gavau ženklelį"
+            }
+        }
+    }
+}

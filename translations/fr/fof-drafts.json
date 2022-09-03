@@ -2,62 +2,62 @@
     "fof-drafts": {
         "admin": {
             "permissions": {
-                "start": "Créer des brouillons de discussion",
-                "schedule": "Planifier les brouillons"
+                "start": "Créer des brouillons",
+                "schedule": "Planifier des brouillons"
             },
             "settings": {
-                "title": "FoF Drafts",
-                "enable_scheduled_drafts": "Enable Scheduled Drafts",
-                "schedule_on_one_server": "Use 'onOneServer()' directive for the task scheduler (requires Redis/Memcache)",
-                "schedule_log_output": "Append scheduler output to log storage"
+                "title": "Drafts de FoF",
+                "enable_scheduled_drafts": "Activer les brouillons planifiés",
+                "schedule_on_one_server": "Utiliser la directive 'onOneServer()' pour le planificateur de tâches (nécessite Redis/Memcache)",
+                "schedule_log_output": "Ajouter la sortie du planificateur au stockage des journaux d'évènements"
             }
         },
         "console": {
             "scheduled_drafts_disabled": "Les brouillons planifiés sont actuellement désactivés dans les paramètres."
         },
         "ref": {
-            "schedule_draft": ""
+            "schedule_draft": "Planifier le brouillon"
         },
         "forum": {
             "composer": {
                 "title": "Enregistrer le brouillon",
-                "saving": "Sauvegarde...",
-                "saved": "Sauvegardé !",
-                "exit_alert": "Ignorer les modifications apportées au brouillon?",
-                "discard_empty_draft_alert": "Supprimer le brouillon vide?"
+                "saving": "Enregistrement...",
+                "saved": "Enregistré !",
+                "exit_alert": "Ignorer les modifications apportées au brouillon ?",
+                "discard_empty_draft_alert": "Abandonner le brouillon vide ?"
             },
             "dropdown": {
-                "empty_text": "Vous n’avez enregistré aucun brouillon",
+                "empty_text": "Vous n'avez pas enregistré de brouillons",
                 "title": "Brouillons",
-                "delete_all_button": "",
+                "delete_all_button": "Supprimer tous les brouillons",
                 "delete_button": "Supprimer le brouillon",
-                "schedule_button": "Planifier le brouillon",
-                "scheduled_icon_tooltip": "",
-                "scheduled_icon_tooltip_formatter": "",
+                "schedule_button": "=> fof-drafts.ref.schedule_draft",
+                "scheduled_icon_tooltip": "Planifié pour {datetime}",
+                "scheduled_icon_tooltip_formatter": "L [à] LT",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
-                "alert": "Êtes-vous sûr de vouloir supprimer votre brouillon?",
-                "delete_all_alert": "Voulez-vous vraiment supprimer tous vos brouillons?"
+                "alert": "Êtes-vous sûr de vouloir supprimer votre brouillon ?",
+                "delete_all_alert": "Êtes-vous sûr de vouloir supprimer tous vos brouillons ?"
             },
             "schedule_draft_modal": {
-                "title": "Planifier le brouillon",
-                "text": "Planifiez votre brouillon pour qu’il soit automatiquement publier plus tard!",
-                "scheduled_text": "Publication prévue le {datetime}.",
-                "scheduled_error": "Impossible de publier car: {error}.",
-                "unschedule_button": "Déplanifier",
-                "unschedule_warning": "",
-                "reschedule_button": "Replanifier",
+                "title": "=> fof-drafts.ref.schedule_draft",
+                "text": "Planifiez votre brouillon pour qu'il soit automatiquement publié à une date ultérieure !",
+                "scheduled_text": "Actuellement planifié pour être publié le {datetime}.",
+                "scheduled_error": "Impossible de programmer le brouillon : {error}.",
+                "unschedule_button": "Dé-planifier",
+                "unschedule_warning": "Êtes-vous sûr de vouloir dé-planifier ce brouillon ?",
+                "reschedule_button": "Re-planifier",
                 "schedule_button": "Planifier",
-                "schedule_time_preview": "",
-                "schedule_time_preview_formatter": "",
-                "schedule_time_preview_invalid": ""
+                "schedule_time_preview": "Ce brouillon sera automatiquement publié le <b>{datetime}</b>.",
+                "schedule_time_preview_formatter": "LLLL",
+                "schedule_time_preview_invalid": "Date et/ou heure non valides"
             },
             "user": {
                 "settings": {
                     "drafts_heading": "Brouillons",
-                    "draft_autosave_enable": "Activer la sauvegarde automatique des brouillons?",
-                    "draft_autosave_interval_label": "Intervalle de sauvegarde automatique (secondes)",
+                    "draft_autosave_enable": "Activer l'enregistrement automatique des brouillons ?",
+                    "draft_autosave_interval_label": "Intervalle de l'enregistrement automatique (en secondes)",
                     "draft_autosave_interval_button": "Intervalle de mise à jour",
-                    "draft_autosave_interval_invalid": "L’intervalle doit être un entier supérieur à 4."
+                    "draft_autosave_interval_invalid": "L'intervalle doit être un nombre entier supérieur à 4."
                 }
             }
         }

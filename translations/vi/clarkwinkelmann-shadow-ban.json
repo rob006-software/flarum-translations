@@ -1,0 +1,39 @@
+{
+    "clarkwinkelmann-shadow-ban": {
+        "admin": {
+            "setting": {
+                "hideUsers": "Ẩn hồ sơ người dùng bị cấm ẩn"
+            },
+            "permission": {
+                "ban": "Cấm ẩn người dùng",
+                "hide": "Ẩn shadow cuộc thảo luận và bài viết"
+            }
+        },
+        "forum": {
+            "discussionControl": {
+                "hide": "Ẩn shadow",
+                "restore": "Bỏ ẩn"
+            },
+            "postControl": {
+                "hide": "Ẩn shadow",
+                "restore": "Bỏ ẩn"
+            },
+            "userControl": {
+                "ban": "Cấm ẩn"
+            },
+            "banUser": {
+                "title": "Đình chỉ {username}",
+                "until": "Cho đến ngày (UTC)",
+                "quick": "Chọn nhanh",
+                "quickChoiceReset": "Không cấm",
+                "quickChoiceDays": "{count, plural, one {# ngày} other {# ngày}}",
+                "submit": "Lưu lại"
+            },
+            "badge": {
+                "user": "Đã cấm ẩn",
+                "discussion": "Bị ẩn",
+                "post": "Bị ẩn"
+            }
+        }
+    }
+}

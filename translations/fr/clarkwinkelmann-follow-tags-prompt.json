@@ -2,30 +2,30 @@
     "clarkwinkelmann-follow-tags-prompt": {
         "forum": {
             "controls": {
-                "choose": ""
+                "choose": "Sélectionnez les étiquettes à suivre"
             },
             "modal": {
-                "title": "",
-                "later": "",
-                "continue": ""
+                "title": "Sélectionnez les étiquettes à suivre",
+                "later": "Me le rappeler plus tard",
+                "continue": "Continuer vers le forum"
             }
         },
         "admin": {
             "settings": {
-                "buttonOnFollowingPage": "",
-                "allDiscussionsOnFollowingPageForGuests": "",
-                "availableTagStrategy": "",
+                "buttonOnFollowingPage": "Afficher le bouton sur la page des abonnements",
+                "allDiscussionsOnFollowingPageForGuests": "Afficher pour les invités toutes les discussions sur la page des abonnements",
+                "availableTagStrategy": "Étiquettes à présenter dans la fenêtre de dialogue",
                 "tagStrategy": {
-                    "primary": "",
-                    "primaryAndChildren": "",
-                    "primaryAndSecondary": "",
-                    "secondary": "",
-                    "all": "",
-                    "list": ""
+                    "primary": "Étiquettes primaires de premier niveau",
+                    "primaryAndChildren": "Toutes les étiquettes primaires quel que soit leur niveau",
+                    "primaryAndSecondary": "Étiquettes primaires de premier niveau et étiquettes secondaires",
+                    "secondary": "Uniquement les étiquettes secondaires",
+                    "all": "Toutes les étiquettes",
+                    "list": "Étiquettes sélectionnées ci-dessous"
                 }
             },
             "homepage": {
-                "following": ""
+                "following": "Abonné"
             }
         }
     }

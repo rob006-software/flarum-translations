@@ -1,0 +1,11 @@
+{
+    "afrux-forum-widgets-core": {
+        "admin": {
+            "cache_not_writable_warning": "Do vyrovnávacej pamäte sa momentálne nedá zapisovať, to zabráni fungovaniu určitých miniaplikácií. Opravte povolenia adresára úložiska.",
+            "settings": {
+                "prefer_data_with_initial_load": "Uprednostňuj načítanie všetkých údajov miniaplikácií spolu s prvotnou odozvou stránky.",
+                "prefer_data_with_initial_load_help": "Namiesto načítania údajov miniaplikácie po prvotnom načítaní stránky odoslaním požiadaviek API, sa údaje (ak je to možné) načítajú hneď pri prvom načítaní stránky."
+            }
+        }
+    }
+}

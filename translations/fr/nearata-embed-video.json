@@ -3,43 +3,56 @@
         "admin": {
             "settings": {
                 "options": {
-                    "airplay": "",
-                    "hotkey": "",
-                    "lang": "",
-                    "logo": "",
-                    "quality_switching": "",
-                    "theme": ""
+                    "airplay": "Temps d'antenne",
+                    "hotkey": "Touche de raccourci",
+                    "lang": "Langue du lecteur",
+                    "logo": "URL du logo",
+                    "quality_switching": "Changement de qualité",
+                    "theme": "Couleur du thème",
+                    "modal_enabled": "Fenêtre activée",
+                    "modal_enabled_help": "Activez la fenêtre ou insérez simplement le BBCode dans le compositeur."
                 },
                 "permissions": {
-                    "can_create_video_player": ""
+                    "can_create_video_player": "Peut créer un lecteur vidéo",
+                    "can_view_video_player": "Peut voir le lecteur vidéo"
                 },
                 "video_types": {
-                    "dash": "",
-                    "flv": "",
-                    "hls": "",
-                    "shaka": "",
-                    "webtorrent": ""
+                    "dash": "Tableau de bord",
+                    "flv": "FLV",
+                    "hls": "HLS",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
                 }
             }
         },
         "forum": {
-            "button_tooltip_title": "",
+            "button_tooltip_title": "Intégrer la vidéo",
             "modal": {
-                "live_mode": "",
-                "submit_button": "",
-                "title": "",
-                "video_type_label": "",
+                "live_mode": "Mode en direct",
+                "submit_button": "Enregistrer les modifications",
+                "title": "Intégrer la vidéo",
+                "video_type_label": "Type de vidéo",
                 "video_types": {
-                    "normal": "",
-                    "dash": "",
-                    "flv": "",
-                    "hls": "",
-                    "shaka": "",
-                    "webtorrent": ""
+                    "normal": "Normal",
+                    "dash": "Tableau de bord",
+                    "flv": "FLV",
+                    "hls": "HLS",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
                 },
-                "video_url_label": "",
-                "video_url_placeholder": ""
-            }
+                "video_url_label": "URL de la vidéo",
+                "video_url_placeholder": "Exemple : https://exemple.com/nomdufichier.mp4",
+                "quality_switching_tutorial": "Tutoriel sur le changement de qualité",
+                "pointer_label": "Pointeur",
+                "pointer_option_new": "Nouveau",
+                "quality_option_new": "Nouveau",
+                "add_quality": "Ajouter la qualité",
+                "remove_quality": "Supprimer la qualité",
+                "add_pointer": "Ajouter un pointeur",
+                "remove_pointer": "Supprimer le pointeur",
+                "qualities_label": "Qualités (facultatif)"
+            },
+            "cannot_view": "Erreur : vous n'êtes pas autorisé à voir ce contenu"
         }
     }
 }

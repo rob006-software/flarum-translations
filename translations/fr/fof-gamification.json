@@ -2,7 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "Tendances"
+                "hot_button": "Tendances",
+                "votes_button": "Votes positifs"
             }
         }
     },
@@ -15,66 +16,91 @@
             },
             "ranking": {
                 "rank": "Rang",
-                "name": "Utilisateurs",
+                "name": "Utilisateur",
                 "amount": "Points"
             },
             "notification": {
                 "upvote": "{username} a voté positivement votre message",
-                "downvote": "{username} a voté négativement votre message"
+                "downvote": "{username} a voté négativement votre message",
+                "prefrences": {
+                    "vote": "Lorsqu'un de mes messages est voté"
+                }
             },
             "user": {
-                "points": "Points: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": "{count, plural, one { {count} point} other {{count} points}}"
+                },
+                "rank": "{rank}",
+                "votes_link": "Votes"
             },
             "modal": {
+                "downvotes_label": "Votants négatifs :",
                 "title": "Votants",
-                "upvotes_label": "Votants positifs:"
+                "upvotes_label": "Votants positifs :"
             },
-            "mod_item": "Voir les votants"
+            "mod_item": "Voir les votants",
+            "voters": {
+                "none": "Pas encore de votants",
+                "label": "Votants",
+                "label_none": "Pas de votants"
+            },
+            "post": {
+                "upvote_button": "Voter pour le message",
+                "downvote_button": "Voter contre le message"
+            }
         },
         "admin": {
             "permissions": {
                 "vote_label": "Votes positifs/négatifs des messages",
-                "see_votes_label": "Voir les votes positifs/négatifs des messages",
-                "see_ranking_page": "Voir la page de classement"
+                "see_votes_label": "Voir le nombre de votes positifs/négatifs",
+                "see_voters_label": "Voir qui a voté",
+                "see_ranking_page": "Voir la page de classement",
+                "upvote_notifications": "Recevoir des notifications sur les votes positifs",
+                "downvote_notifications": "Recevoir des notifications sur les votes négatifs"
             },
             "page": {
                 "rankings": {
                     "blocked": {
                         "placeholder": "CDK2020, Ralkage, AngelAvila",
                         "title": "Utilisateurs ignorés",
-                        "help": "Ces utilisateurs ne seront pas affichés sur la page de classement. Les noms d’utilisateur doivent être séparés par une virgule suivie d’un espace."
+                        "help": "Ces utilisateurs ne seront pas affichés sur la page de classement. Les noms d'utilisateur doivent être séparés par une virgule suivie d'un espace."
                     },
-                    "title": "Page de classement",
+                    "title": "Page des classements",
                     "enable": "Activer les images personnalisées",
                     "custom_image_1": "Image de la 1ère place",
                     "custom_image_2": "Image de la 2ème place",
                     "custom_image_3": "Image de la 3ème place"
                 },
+                "alt_votes": {
+                    "icon_name": "Nom de l'icône de mise en page Alt"
+                },
                 "votes": {
-                    "points_title": "Points d’espace réservé",
-                    "points_placeholder": "Points: ",
+                    "points_title": "Espace réservé aux points",
+                    "points_placeholder": "Points : ",
                     "color_holder": "#ffffff",
-                    "auto_upvote": "Attribuer automatiquement un vote positif lorsqu’un message est publié",
+                    "auto_upvote": "Attribuer automatiquement un vote positif lorsqu'un message est publié",
                     "rate_limit": "Appliquer une limite de taux de vote (10 secondes)",
-                    "discussion_page": "Afficher le nombre total de votes du message original sur la liste de discussion",
-                    "alternate_layout": "Utiliser une autre mise en page pour afficher et / ou faire des votes positifs / négatifs",
+                    "discussion_page": "Afficher le nombre total de votes du message original sur la liste de discussions",
+                    "alternate_layout": "Utiliser une disposition de vote alternative sur la liste de discussions",
+                    "alternate_post_layout": "Utiliser une disposition de vote alternative sur les messages",
                     "title": "Votes",
                     "vote_color": "Couleur votée",
                     "icon_name": "Icône de vote positif/négatif",
-                    "icon_help": "Entrez n’importe quelle icône Font-Awesome ayant le suffixe -up et -down. Exemples: flèche, pouce, chevron"
+                    "icon_help": "Entrez n'importe quelle icône Font Awesome ayant le suffixe -up et -down. Exemples : flèche, pouce, chevron",
+                    "upvotes_only": "Autoriser uniquement le vote positif",
+                    "first_post_only": "Autoriser uniquement les votes positifs/négatifs dans le premier message d'une discussion"
                 },
                 "save_settings": "Enregistrer les paramètres",
                 "convert": {
-                    "button": "Convertir les \"j’aime\" en votes positifs",
-                    "help": "Converti vos \"j’aime\" précédents en votes positifs et calcule la popularité de toutes les discussions en cours.",
-                    "converting": "Vos \"j’aime\" sont en cours de conversion. Actualisez votre site après quelques minutes pour voir le processus terminé. (Le temps de conversion peut prendre un certain temps en fonction du nombre total de \"j’aime\" sur le forum)",
-                    "converted": "Les {number} \"j’aime\" ont été convertis avec succès"
+                    "button": "Convertir les « j'aime » en votes positifs",
+                    "help": "Converti vos anciens « j'aime » de l'extension flarum-ext-likes en votes positifs et calcule la popularité de toutes les discussions en cours.",
+                    "converting": "Vos « j'aime » sont en cours de conversion. Actualisez votre site après quelques minutes pour voir le résultat. (Le temps de conversion peut prendre un certain temps en fonction du nombre total de « j'aime » sur votre forum)",
+                    "converted": "Les {number} « j'aime » ont été convertis"
                 },
                 "ranks": {
                     "title": "Rangs",
                     "ranks": "Rangs personnalisés",
-                    "number_title": "Combien de badges de grade doivent être affichés?",
+                    "number_title": "Combien de badges de rang doivent être affichés ?",
                     "help": {
                         "color": "#ffffff",
                         "help": "Entrez le nombre requis de votes positifs, le nom du rang et la couleur hexadécimale du rang",
@@ -82,6 +108,14 @@
                         "name": "Nom"
                     }
                 }
+            }
+        },
+        "email": {
+            "body": {
+                "postVoted": "Salut {recipient_display_name},\n\n{actor_display_name} vient de voter pour votre message dans {discussion_title}.\n\nVoir ici : {discussion_url}\n"
+            },
+            "subject": {
+                "postVoted": "Votre message a été voté par {display_name}"
             }
         }
     }

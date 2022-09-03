@@ -2,8 +2,8 @@
     "clarkwinkelmann-email-as-display-name": {
         "admin": {
             "permissions": {
-                "view-own": "",
-                "view-all": ""
+                "view-own": "තම පැතිකඩෙහි විද්‍යුත් තැපෑල බලන්න",
+                "view-all": "සියලුම පැතිකඩයන්හි විද්‍යුත් තැපෑල බලන්න"
             },
             "settings": {
                 "remove-username-registration": ""
@@ -11,7 +11,7 @@
         },
         "forum": {
             "log_in": {
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "=> core.ref.email"
             }
         }
     }

@@ -31,9 +31,9 @@
             "tag_settings": {
                 "range_separator_text": " a ",
                 "required_primary_heading": "Numero richiesto di etichette primarie",
-                "required_primary_text": "Inserisci il numero minimo e massimo di etichette principali che possono essere applicate ad una discussione",
+                "required_primary_text": "Inserisci il numero minimo e massimo di etichette principali che possono essere applicate ad una discussione.",
                 "required_secondary_heading": "Numero richiesto di etichette secondarie",
-                "required_secondary_text": "Inserisci il numero minimo e massimo di etichette secondarie che possono essere applicate ad una discussione",
+                "required_secondary_text": "Inserisci il numero minimo e massimo di etichette secondarie che possono essere applicate ad una discussione.",
                 "title": "Impostazioni Etichetta"
             },
             "tags": {
@@ -51,6 +51,7 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
+                "bypass_requirements": "Ignora requisiti tag",
                 "choose_primary_placeholder": "{count, plural, one {Scegli una categoria primaria} other {Scegli # categorie primarie}}",
                 "choose_secondary_placeholder": "{count, plural, one {Scegli ancora un Tag} other {Scegli # più tag}}",
                 "edit_title": "Modifica etichette per {title}",

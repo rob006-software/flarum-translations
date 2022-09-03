@@ -1,0 +1,30 @@
+{
+    "core": {
+        "forum": {
+            "index_sort": {
+                "popular_button": "Популярное",
+                "unpopular_button": "Непопулярное"
+            }
+        }
+    },
+    "flarumite-simple-discussion-views": {
+        "forum": {
+            "modal_resetviews": {
+                "title": "Сбросить счетчик просмотров дискуссии",
+                "submit": "Отправить",
+                "label": "Установить на счетчик просмотров"
+            },
+            "discussion_controls": {
+                "resetviews_button": "Установить счетчик просмотров"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "reset_views_label": "Установить число просмотров дискуссии"
+            },
+            "settings": {
+                "ignore_crawlers": "Игнорировать посещения роботов"
+            }
+        }
+    }
+}

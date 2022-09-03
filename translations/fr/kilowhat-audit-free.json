@@ -2,142 +2,142 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": ""
+                "view": "Afficher le journal d'audit"
             },
             "header": {
-                "title": "",
-                "free": "",
-                "pro": "",
-                "upgrade": ""
+                "title": "Audit",
+                "free": "Gratuit",
+                "pro": "Professionnel",
+                "upgrade": "Mise à niveau vers la version professionnelle"
             }
         },
         "forum": {
             "link": {
-                "discussion-audit": "",
-                "user-audit": "",
-                "actor-audit": ""
+                "discussion-audit": "Journal d'Audit",
+                "user-audit": "Journal d'Audit (modifications du compte)",
+                "actor-audit": "Journal d'Audit (utilisateur en tant qu'acteur)"
             },
             "modal": {
-                "discussion-title": "",
-                "user-title": "",
-                "actor-title": ""
+                "discussion-title": "Journal d'Audit de discussion",
+                "user-title": "Journal d'Audit d'utilisateur",
+                "actor-title": "Journal d'Audit d'acteur"
             }
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "",
-                "filterApply": "",
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "filterPlaceholder": "Filtrer les journaux",
+                "filterApply": "Appliquer",
+                "empty": "Aucun résultat",
+                "loadMore": "Charger davantage",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "discussion": "Discussion #{id}",
+                    "group": "Groupe #{id}",
+                    "post": "Message #{id}",
+                    "tag": "Étiquette #{id}",
+                    "user": "Utilisateur #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "Commentaire",
+                    "post": "Message"
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "(aucune valeur)",
+                "noReason": "(aucun motif)",
                 "client": {
-                    "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "session": "Session en ligne",
+                    "api_key": "Clé API",
+                    "access_token": "Jeton d'accès",
+                    "cli": "Ligne de commande",
+                    "unknown": "Client inconnu"
                 },
                 "controls": {
-                    "hideRaw": "",
-                    "showRaw": "",
-                    "filterActor": "",
-                    "filterIp": "",
-                    "filterClient": "",
-                    "filterAction": "",
-                    "filterUser": "",
-                    "filterDiscussion": ""
+                    "hideRaw": "Masquer le journal brut",
+                    "showRaw": "Afficher le journal brut",
+                    "filterActor": "Afficher les journaux de cet acteur",
+                    "filterIp": "Afficher les journaux de cette IP",
+                    "filterClient": "Afficher les journaux de ce type de client",
+                    "filterAction": "Afficher les journaux de la même action",
+                    "filterUser": "Afficher les journaux affectant le même utilisateur",
+                    "filterDiscussion": "Afficher les journaux affectant la même discussion"
                 },
-                "cache_cleared": "",
+                "cache_cleared": "Nettoyage manuel du cache",
                 "discussion": {
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "hidden": "",
-                    "locked": "",
-                    "renamed": "",
-                    "restored": "",
-                    "split_away": "",
-                    "split_into": "",
-                    "stickied": "",
-                    "tagged": "",
-                    "unlocked": "",
-                    "unstickied": "",
-                    "user_changed": ""
+                    "created": "Démarrage de la discussion {discussion}",
+                    "create_date_changed": "Modification de la date de démarrage de {discussion} de {old_date} à {new_date}",
+                    "deleted": "Suppression de la discussion {discussion}",
+                    "hidden": "Masquage de la discussion {discussion}",
+                    "locked": "Verrouillage de la discussion {discussion}",
+                    "renamed": "Renommage de la discussion de {old_title} par {new_title}",
+                    "restored": "Restauration de la discussion {discussion}",
+                    "split_away": "Séparation de {post_count} messages de la discussion {discussion}",
+                    "split_into": "Séparation de {post_count} messages vers la discussion {discussion}",
+                    "stickied": "Épinglage de la discussion {discussion}",
+                    "tagged": "Mise à jour des étiquettes de {discussion} de {old_tags} à {new_tags}",
+                    "unlocked": "Déverrouillage de la discussion {discussion}",
+                    "unstickied": "Désépinglage de la discussion {discussion}",
+                    "user_changed": "Modification de l'auteur de {discussion} de {old_user} par {new_user}"
                 },
                 "extension": {
-                    "disabled": "",
-                    "enabled": ""
+                    "disabled": "Désactivation de l'extension {package}",
+                    "enabled": "Activation de l'extension {package}"
                 },
                 "fof_ban_ips": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "Bannissement de l'adresse IP {ip}",
+                    "unbanned": "Débannissement de l'adresse IP {ip}"
                 },
-                "permission_changed": "",
+                "permission_changed": "Modification de la permission {permission} de {old_groups} par {new_groups}",
                 "post": {
-                    "approved": "",
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "dismissed_flags": "",
-                    "edit_date_changed": "",
-                    "flagged": "",
-                    "hidden": "",
-                    "restored": "",
-                    "revised": "",
-                    "user_changed": ""
+                    "approved": "Approbation de {post} par {postuser} dans {discussion}",
+                    "created": "Création de {post} dans {discussion}",
+                    "create_date_changed": "Modification de la date de démarrage de {post} par {postuser} de {old_date} à {new_date}",
+                    "deleted": "Suppression de {post} par {postuser} dans {discussion}",
+                    "dismissed_flags": "Suppression des signalements sur {post} de {postuser} dans {discussion}",
+                    "edit_date_changed": "Modification de la date de modification de {post} par {postuser} de {old_date} à {new_date}",
+                    "flagged": "Signalement de {post} par {postuser} au motif de {reason} dans {discussion}",
+                    "hidden": "Masquage de {post} par {postuser} dans {discussion}",
+                    "restored": "Restauration de {post} par {postuser} dans {discussion}",
+                    "revised": "Révision de {post} par {postuser} dans {discussion}",
+                    "user_changed": "Modification de l'auteur de {post} de {old_user} par {new_user}"
                 },
-                "setting_changed": "",
-                "setting_changed_with_values": "",
+                "setting_changed": "Modification du paramètre {key}",
+                "setting_changed_with_values": "Modification du paramètre {key} de {old_value} à {new_value}",
                 "tag": {
-                    "created": "",
-                    "deleted": "",
-                    "updated": ""
+                    "created": "Création de l'étiquette {tag}",
+                    "deleted": "Suppression de l'étiquette {tag}",
+                    "updated": "Mise à jour de l'étiquette {tag}"
                 },
                 "user": {
-                    "activated": "",
-                    "activated_with_email": "",
-                    "avatar_changed": "",
-                    "avatar_removed": "",
-                    "bio_changed": "",
-                    "created": "",
-                    "deleted": "",
-                    "email_changed": "",
-                    "email_change_requested": "",
-                    "groups_changed": "",
-                    "impersonated": "",
-                    "logged_in": "",
-                    "logged_in_with_provider": "",
-                    "logged_out": "",
-                    "nickname_changed": "",
-                    "nickname_requested": "",
-                    "nickname_request_approved": "",
-                    "nickname_request_rejected": "",
-                    "password_changed": "",
-                    "password_change_requested": "",
-                    "provider_connected": "",
-                    "suspended": "",
-                    "unsuspended": "",
-                    "username_changed": "",
-                    "username_requested": "",
-                    "username_request_approved": "",
-                    "username_request_rejected": ""
+                    "activated": "Activation manuelle du compte de {username}",
+                    "activated_with_email": "Activation par lien de confirmation du compte de {username}",
+                    "avatar_changed": "Modification de l'avatar de {username}",
+                    "avatar_removed": "Suppression de l'avatar de {username}",
+                    "bio_changed": "Modification de la biographie de {username}",
+                    "created": "Création du compte de {username}",
+                    "deleted": "Suppression de {username}",
+                    "email_changed": "Modification de l'adresse de courriel de {username} de {old_email} par {new_email}",
+                    "email_change_requested": "Demande de modification de l'adresse de courriel de {username} en {new_email}",
+                    "groups_changed": "Modification des groupes de {username} de {old_groups} par {new_groups}",
+                    "impersonated": "Prise de contrôle de {username}",
+                    "logged_in": "Connexion au compte de {username}",
+                    "logged_in_with_provider": "Connexion au compte de {username} en utilisant {provider}",
+                    "logged_out": "Déconnexion au compte de {username}",
+                    "nickname_changed": "Modification du pseudonyme de {username} de {old_nickname} en {new_nickname}",
+                    "nickname_requested": "Demande de modification de pseudonyme de {username} en {new_nickname}",
+                    "nickname_request_approved": "Approbation de la demande de modification de pseudonyme de {username} de {old_nickname} en {new_nickname}",
+                    "nickname_request_rejected": "Refus de la demande de modification de pseudonyme de {username}",
+                    "password_changed": "Modification du mot de passe de {username}",
+                    "password_change_requested": "Demande de modification de passe de passe de {username}",
+                    "provider_connected": "Connexion du fournisseur {provider} au compte de {username}",
+                    "suspended": "Suspension de {username} jusqu'à {until}",
+                    "unsuspended": "Désuspension de {username}",
+                    "username_changed": "Modification du nom d'utilisateur de {username} de {old_username} en {new_username}",
+                    "username_requested": "Demande de modification de nom d'utilisateur de {username} en {new_username}",
+                    "username_request_approved": "Approbation de la demande de modification de nom d'utilisateur de {username} de {old_username} en {new_username}",
+                    "username_request_rejected": "Refus de la demande de modification de nom d'utilisateur de {username}"
                 }
             }
         }

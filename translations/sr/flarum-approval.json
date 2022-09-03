@@ -1,0 +1,25 @@
+{
+    "flarum-approval": {
+        "admin": {
+            "permissions": {
+                "approve_posts_label": "Odobravanje odgovora",
+                "reply_without_approval_label": "Odgovaranje na diskusije bez odobrenja",
+                "start_discussions_without_approval_label": "Kreiranje diskusija bez odobrenja"
+            }
+        },
+        "forum": {
+            "badge": {
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post": {
+                "awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post_controls": {
+                "approve_button": "Odobri"
+            }
+        },
+        "ref": {
+            "awaiting_approval": "Čeka odobrenje"
+        }
+    }
+}

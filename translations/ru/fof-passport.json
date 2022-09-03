@@ -1,0 +1,22 @@
+{
+    "fof-passport": {
+        "admin": {
+            "popup": {
+                "field": {
+                    "app-auth-url": "URL OAuth-авторизации",
+                    "app-token-url": "URL ключа OAuth",
+                    "app-user-url": "Api URL, выдающий сведения о пользователе после его аутентификации",
+                    "app-id": "Идентификатор приложения OAuth",
+                    "app-secret": "Шифрованные данные (secret) OAuth-приложения",
+                    "app-scopes": "OAuth сведения для запроса",
+                    "button-title": "Метка кнопки авторизации",
+                    "button-title-placeholder": "=> fof-passport.api.default-login-button-title",
+                    "button-icon": "Иконка кнопки авторизации"
+                }
+            }
+        },
+        "api": {
+            "default-login-button-title": "=> core.ref.log_in"
+        }
+    }
+}

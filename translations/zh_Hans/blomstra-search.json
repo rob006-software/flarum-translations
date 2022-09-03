@@ -1,0 +1,14 @@
+{
+    "blomstra-search": {
+        "admin": {
+            "elastic-endpoint": "Elastic Endpoint 访问域名",
+            "elastic-username": "=> core.ref.username",
+            "elastic-password": "=> core.ref.password",
+            "elastic-index": "Index 索引",
+            "analyzer": {
+                "label": "Analyzer language 分析语言",
+                "help": "分析器用于理解语义和分词，并对索引进行优化。\n"
+            }
+        }
+    }
+}

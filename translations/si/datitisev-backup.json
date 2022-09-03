@@ -78,7 +78,7 @@
                 "aws": {
                     "credentials": {
                         "key": {
-                            "label": "",
+                            "label": "යතුර",
                             "description": ""
                         },
                         "secret": {
@@ -91,7 +91,7 @@
                         "description": ""
                     },
                     "version": {
-                        "label": "",
+                        "label": "අනුවාදය",
                         "description": ""
                     },
                     "bucket": {
@@ -112,7 +112,7 @@
                 "gdrive": {
                     "client": {
                         "id": {
-                            "label": "",
+                            "label": "අනුග්‍රාහකයේ හැඳුනුම",
                             "description": ""
                         },
                         "secret": {
@@ -125,8 +125,8 @@
                         "description": ""
                     },
                     "folder": {
-                        "label": "",
-                        "description": ""
+                        "label": "බහාලුමේ හැඳුනුම",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
                     }
                 },
                 "ftp": {
@@ -143,7 +143,7 @@
                         "description": ""
                     },
                     "private-key": {
-                        "label": "",
+                        "label": "පුද්ගලික යතුර",
                         "description": ""
                     },
                     "port": {

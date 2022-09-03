@@ -1,8 +1,15 @@
 {
     "justoverclock-hashtag": {
+        "admin": {
+            "settings": {
+                "regexlabel": "Expression régulière de mot-dièse",
+                "regexdesc": "Un exemple est montré ci-dessous comme espace réservé. Ne modifiez que si vous comprenez les expressions régulières.",
+                "oldregexdesc": "Voici votre ancienne expression régulière de mot-dièse : <code>{regex}</code>"
+            }
+        },
         "forum": {
             "post": {
-                "hashtag_link_tooltip": "Chercher ce mot-dièse dans Flarum"
+                "hashtag_link_tooltip": "Trouvez les messages liés à ce mot-dièse"
             }
         }
     }

@@ -1,0 +1,25 @@
+{
+    "blomstra-user-filter": {
+        "admin": {
+            "settings": {
+                "intro": "Những người dùng không có quyền <code>Tìm kiếm người dùng</code> sẽ không thấy hộp tìm kiếm. Sửa thành <code>Mọi người</code> cho tất cả mọi người hoặc bất kỳ cấp độ nào.",
+                "min_length": "Các ký tự tối thiểu để bắt đầu tìm kiếm",
+                "result_count": "Kết quả tối đa trong tự động hoàn thành thả xuống"
+            }
+        },
+        "forum": {
+            "index_page": {
+                "filter_user": {
+                    "accessible_label": "Lọc theo tác giả",
+                    "all": "Tất cả",
+                    "label": "Lọc theo tác giả: {text}",
+                    "search_label": "Tìm kiếm người dùng...",
+                    "no_results": "Không có kết quả nào",
+                    "start_typing": "Bắt đầu nhập...",
+                    "keep_typing": "Tiếp tục nhập...",
+                    "remove_filter": "Xóa bộ lọc tác giả"
+                }
+            }
+        }
+    }
+}

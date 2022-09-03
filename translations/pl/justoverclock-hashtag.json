@@ -1,8 +1,15 @@
 {
     "justoverclock-hashtag": {
+        "admin": {
+            "settings": {
+                "regexlabel": "Wyrażenie regularne dla hasztagów",
+                "regexdesc": "Edytuj poniższe ustawienie tylko jeśli rozumiesz wyrażenia regularne.",
+                "oldregexdesc": "Poprzednie wyrażenie regularne dla hashtagów: <code>{regex}</code>"
+            }
+        },
         "forum": {
             "post": {
-                "hashtag_link_tooltip": ""
+                "hashtag_link_tooltip": "Wyszukaj posty oznaczone tym hasztagiem"
             }
         }
     }

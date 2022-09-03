@@ -1,0 +1,15 @@
+{
+    "flarum-ext-purify": {
+        "forum": {
+            "obscure": "[Purified]"
+        },
+        "admin": {
+            "additem": "Add Bad Word to the Array",
+            "additemdesc": "separate each word by comma (e.g. word1,word2,word3,)",
+            "hidemail": "Auto Hide Email Address",
+            "customreg": "Use custom Regular Expression",
+            "customregexp": "Use Custom Regexp",
+            "customregexpdesc": "Put here your regular expression that match your needs (e.g. (flarum|best|extension) to hide these 3 words)"
+        }
+    }
+}

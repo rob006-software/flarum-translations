@@ -1,0 +1,84 @@
+{
+    "the-turk-diff": {
+        "forum": {
+            "revisions": "{revisionCount, plural, one {{revisionCount} revízió} other {{revisionCount} revízió}}",
+            "emptyText": "Nincsenek revíziók",
+            "editedText": "=> core.forum.post.edited_text",
+            "deletedText": "(törölve)",
+            "tooltips": {
+                "mostRecent": "legfrissebb",
+                "originalContent": "=> the-turk-diff.ref.originalContent",
+                "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
+                "sideBySide": "Egymás mellett",
+                "inline": "Soronként",
+                "combined": "Összevont",
+                "preview": "=> core.forum.composer.preview_tooltip"
+            },
+            "optionsButton": "Beállítások",
+            "deleteButton": "=> core.forum.post_controls.delete_button",
+            "rollbackButton": "Visszaállás a(z) {number}. revízióra",
+            "rollbackToOriginalButton": "Visszaállás az eredetire",
+            "revertChangesButton": "Módosítások visszavonása",
+            "confirmRollback": "Biztos, hogy módosítja a jelenlegi bejegyzését?",
+            "confirmDelete": "Biztos, hogy törli a szerkesztés tartalmát az előzményekből?",
+            "rollbackErrorMessage": "A módosítások visszavonása sikertelen.",
+            "deleteErrorMessage": "A szerkesztés tartalmának törlése sikertelen.",
+            "rollbackSuccessMessage": "A módosítások vissza lettek vonva.",
+            "deleteSuccessMessage": "A szerkesztés tartalma törölve lett.",
+            "editedInfo": "=> core.forum.post.edited_tooltip",
+            "deletedInfo": "{username} törölte ezt a tartalmat {ago}",
+            "createdInfo": "{username} létrehozta {ago}",
+            "revisionInfo": "{revisionCount, plural, one {{revisionCount} alkalommal} other {{revisionCount} alkalommal}} szerkesztve, a legújabb a tetején",
+            "noDiff": "Nincs különbség a két tartalom között.",
+            "differences": {
+                "originalContent": "=> the-turk-diff.ref.originalContent",
+                "currentContent": "=> the-turk-diff.ref.currentContent",
+                "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
+                "sentence": "A következők közti különbséget nézi: {old} és {new}"
+            },
+            "previewMode": {
+                "originalContent": "=> the-turk-diff.ref.originalContent",
+                "currentContent": "=> the-turk-diff.ref.currentContent",
+                "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
+                "sentence": "A következő előnézetét nézi: {content}"
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "Eltérések beállításai",
+                "onlyUnsigned": "Csak az <strong>előjel nélküli egészek</strong> engedélyezettek.",
+                "usePoint": "Használjon <strong>tizedespontot</strong> a lebegőpontos értékekhez.",
+                "separateBlock": "Elválasztó megjelenítése a különböző különbségdarabok között a HTML-megjelenítőkben",
+                "mainPostOnly": "Csak a fő bejegyzés revízióinak tárolása",
+                "textFormatting": "Szövegformázás engedélyezése az előnézeteknél",
+                "detailLevel": "Részletesség szintje",
+                "noneLevel": "Nincs",
+                "lineLevel": "Sorszintű",
+                "wordLevel": "Szószintű",
+                "charLevel": "Karakterszintű",
+                "neighborLines": "Szomszédos sorok",
+                "neighborLinesHelp": "Adja meg a megjelenítendő szomszédos sorok számát.",
+                "mergeThreshold": "Összevonási küszöb az összevont megjelenítőnél",
+                "mergeThresholdHelp": "Ez meghatározza, hogy a csere típusú blokkok össze legyenek-e vonva a változott tartalom arányától függően, amely 0 és 1 között lehet.",
+                "dbOptimisation": "Adatbázis-optimalizáció",
+                "archiveOlds": "Régi revíziók archiválása",
+                "archiveOldsInfo": "Ha <strong>x ≥ A</strong>, akkor a bejegyzés első <strong>y=mx+b</strong> revíziója lesz összevonva és tömörítetve tárolva. Az <strong>x</strong> a bejegyzés revízióinak számára utal. Lebegőpontos értékű <strong>y</strong> esetén a legközelebbi egészértékre lesz kerekítve.",
+                "useCrons": "Cron használata a régi revíziók archiválásához",
+                "useCronsHelp": "Hozzá kell adnia egy Cron-bejegyzést a kiszolgálóhoz, hogy ez a lehetőség működjön. Hetente fog működni, vasárnap hajnali 2 órakor. Ha letiltja ezt a lehetőséget, és engedélyezi a fentit, akkor a bejegyzés revíziói akkor lesznek archiválás szempontjából vizsgálva, amikor a kapcsolódó bejegyzés megváltozik.",
+                "archiveInfo": "Tartsa észben, hogy mindkét lehetőséget letilthatja, és kézzel is futtathatja a <code>php flarum diff:archive</code> parancsot a régi revíziók archiválásához."
+            },
+            "permissions": {
+                "viewEditHistory": "Szerkesztési napló megtekintése",
+                "deleteEditHistory": "Mások szerkesztési naplójának törlése",
+                "selfDeleteEditHistory": "Saját szerkesztési naplójának törlése",
+                "rollbackEditHistory": "Mások szerkesztési naplójának visszagörgetése",
+                "selfRollbackEditHistory": "Saját szerkesztési naplójának visszagörgetése"
+            }
+        },
+        "ref": {
+            "originalContent": "eredeti tartalom",
+            "currentContent": "jelenlegi tartalom",
+            "revisionWithNumber": "{number}. revízió"
+        }
+    }
+}

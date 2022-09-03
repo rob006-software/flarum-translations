@@ -1,0 +1,22 @@
+{
+    "the-turk-nodp": {
+        "admin": {
+            "permissions": {
+                "double_posting_label": "Double Posting"
+            },
+            "settings": {
+                "time_limit_label": "Time Limit",
+                "time_limit_text": "If more than <b>xxx</b> minutes have passed since the last post in a discussion, the last poster will be forced to edit their post. Set this to <b>0</b> to disable the time limit."
+            }
+        },
+        "forum": {
+            "composer_edit": {
+                "double_posting_warning_title": "You are the last poster of this discussion.",
+                "double_posting_warning_description": "As you've already replied to this discussion short while ago, please revise your last post instead of creating a new one."
+            },
+            "discussion": {
+                "cannot_reply_alert_message": "You can't reply to this discussion until someone else replies."
+            }
+        }
+    }
+}

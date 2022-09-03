@@ -1,0 +1,39 @@
+{
+    "clarkwinkelmann-shadow-ban": {
+        "admin": {
+            "setting": {
+                "hideUsers": "Soya taqiqlangan foydalanuvchi profillarini yashirish"
+            },
+            "permission": {
+                "ban": "Taqiqlanga foydalanuvchilarni xiralashtirish",
+                "hide": "Yashirin muhokama va postlarni xiralashtirish"
+            }
+        },
+        "forum": {
+            "discussionControl": {
+                "hide": "Soya yashirish",
+                "restore": "Tiklashni xiralashtirish"
+            },
+            "postControl": {
+                "hide": "Yashirishni xiralashtirish",
+                "restore": "Tiklashni xiralashtirish"
+            },
+            "userControl": {
+                "ban": "Taqiqni xiralashtirish"
+            },
+            "banUser": {
+                "title": "{username} ni kechiktirish",
+                "until": "(UTC) sanasigacha",
+                "quick": "Tez tanlovlar",
+                "quickChoiceReset": "Taqiqlanmagan",
+                "quickChoiceDays": "{count, plural, one {# kun} other {# kunlar}}",
+                "submit": "Saqlash"
+            },
+            "badge": {
+                "user": "Taqiqlanganlarni xiralashtirish",
+                "discussion": "Yashiringanlarni xiralashtirish",
+                "post": "Yashiringanlarni xiralashtirish"
+            }
+        }
+    }
+}

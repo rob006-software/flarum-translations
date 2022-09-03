@@ -1,7 +1,6 @@
 {
     "nearata-auth-minecraft": {
         "api": {
-            "error_403": "Invalid or expired token.",
             "invalid_token_format": "The token must be numeric."
         },
         "forum": {
@@ -12,6 +11,7 @@
                 "title": "Change Email",
                 "token_placeholder": "Token"
             },
+            "error_403": "Invalid or expired token.",
             "log_in_modal": {
                 "submit_button": "Validate",
                 "title": "Log In with Minecraft"

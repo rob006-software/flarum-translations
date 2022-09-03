@@ -1,50 +1,34 @@
 {
     "migratetoflarum-fake-data": {
-        "admin": {
+        "lib": {
             "generator": {
-                "bulk-mode": "",
-                "bulk-mode-description": "",
-                "user-count": "",
-                "discussion-count": "",
-                "discussion-tags": "",
-                "discussion-tags-none": "",
-                "discussion-tags-random": "",
-                "post-count": "",
-                "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
-                "send": ""
+                "bulk-mode": "Mode « bulk » (en vrac)",
+                "bulk-mode-description": "Génère une seule valeur aléatoire et la réutilise pour chaque entrée",
+                "user-count": "Nombre d'utilisateurs à créer",
+                "discussion-count": "Nombre de discussions à créer",
+                "discussion-tags": "Étiquettes pour les nouvelles discussions",
+                "discussion-tags-none": "Aucune",
+                "discussion-tags-random": "Aléatoire",
+                "post-count": "Nombre de messages à créer",
+                "date": "Injection de date",
+                "date-start-placeholder": "Date de début (par défaut : maintenant)",
+                "date-interval-placeholder": "Intervalle (par défaut : 1 seconde)",
+                "send": "Générer des données",
+                "reset": "Génération terminée ! Cliquez ici pour réinitialiser",
+                "refresh": "Fermer et actualiser la page"
             }
         },
         "forum": {
             "link": {
-                "generate-replies": ""
+                "generate-replies": "Générer de fausses réponses"
             },
             "generator": {
-                "title": "",
-                "bulk-mode": "",
-                "bulk-mode-description": "",
-                "user-count": "",
-                "post-count": "",
-                "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
-                "send": ""
+                "title": "Générer de fausses réponses"
             }
         },
         "api": {
-            "no-users-matched": "",
-            "no-discussions-matched": ""
-        },
-        "ref": {
-            "bulk-mode": "",
-            "bulk-mode-description": "",
-            "user-count": "",
-            "post-count": "",
-            "date": "",
-            "date-start-placeholder": "",
-            "date-interval-placeholder": "",
-            "send": ""
+            "no-users-matched": "Aucun utilisateur ne correspond",
+            "no-discussions-matched": "Aucune discussion ne correspond"
         }
     }
 }

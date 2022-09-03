@@ -21,8 +21,8 @@
         "forum": {
             "composer": {
                 "title": "",
-                "saving": "",
-                "saved": "",
+                "saving": "සුරකිමින්...",
+                "saved": "සුරකින ලදි!",
                 "exit_alert": "",
                 "discard_empty_draft_alert": ""
             },
@@ -31,15 +31,15 @@
                 "title": "",
                 "delete_all_button": "",
                 "delete_button": "",
-                "schedule_button": "",
+                "schedule_button": "=> fof-drafts.ref.schedule_draft",
                 "scheduled_icon_tooltip": "",
                 "scheduled_icon_tooltip_formatter": "",
-                "tooltip": "",
+                "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "",
                 "delete_all_alert": ""
             },
             "schedule_draft_modal": {
-                "title": "",
+                "title": "=> fof-drafts.ref.schedule_draft",
                 "text": "",
                 "scheduled_text": "",
                 "scheduled_error": "",
@@ -49,15 +49,15 @@
                 "schedule_button": "",
                 "schedule_time_preview": "",
                 "schedule_time_preview_formatter": "",
-                "schedule_time_preview_invalid": ""
+                "schedule_time_preview_invalid": "වලංගු නොවන දිනයක් හෝ වේලාවකි"
             },
             "user": {
                 "settings": {
                     "drafts_heading": "",
                     "draft_autosave_enable": "",
-                    "draft_autosave_interval_label": "",
-                    "draft_autosave_interval_button": "",
-                    "draft_autosave_interval_invalid": ""
+                    "draft_autosave_interval_label": "ස්වයං සුරැකුම් අන්තරය (තත්.)",
+                    "draft_autosave_interval_button": "කාල අන්තරය යොදන්න",
+                    "draft_autosave_interval_invalid": "අන්තරය 4 ට වඩා වැඩි පූර්ණ සංඛ්‍යාවක් විය යුතුය."
                 }
             }
         }

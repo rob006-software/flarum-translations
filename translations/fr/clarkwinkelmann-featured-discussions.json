@@ -1,0 +1,55 @@
+{
+    "clarkwinkelmann-featured-discussions": {
+        "admin": {
+            "settings": {
+                "schedule": "Planifier (syntaxe CRON)",
+                "duration": "Durée par défaut (en secondes)",
+                "eventPost": "Générer la publication de l'événement lorsque l'horaire est modifié"
+            },
+            "permissions": {
+                "feature": "Gérer les discussions mises en avant"
+            }
+        },
+        "forum": {
+            "modal": {
+                "title": "Discussion mise en avant",
+                "fields": {
+                    "from": "De",
+                    "until": "Jusqu'à"
+                },
+                "from": {
+                    "not": "Non présenté",
+                    "next": "Emplacement suivant",
+                    "manual": "Date manuelle"
+                },
+                "until": {
+                    "auto": "Automatique",
+                    "manual": "Date manuelle"
+                },
+                "action": {
+                    "cancel": "Annuler",
+                    "submit": "Envoyer"
+                }
+            },
+            "controls": {
+                "feature": "Discussion mise en avant"
+            },
+            "badge": "Mis en avant",
+            "nav": {
+                "schedule": "Planifier les mises en avant"
+            },
+            "schedule": {
+                "help": "Glissez et déposez les discussions dans la page ou depuis une autre fenêtre pour modifier leur horaire. Pour supprimer l'horaire, utilisez le menu à 3 points.\n",
+                "drop-here": "Déposez ici pour planifier",
+                "drop-error": "Lien de discussion invalide",
+                "empty": "Aucune discussion",
+                "custom": "Personnalisé"
+            },
+            "post": {
+                "scheduled": "Prévu pour être présenté du {from} au {until}",
+                "unscheduled": "N'est plus programmé pour être mis en avant",
+                "auto": "(automatique)"
+            }
+        }
+    }
+}

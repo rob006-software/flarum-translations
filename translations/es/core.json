@@ -37,14 +37,14 @@
                 "show_language_selector_label": "Mostrar el selector de idioma",
                 "slug_driver_heading": "Slug Driver: {model}",
                 "slug_driver_text": "Seleccione el driver que se utilizará para el slugging de este modelo.",
-                "title": "Lo esencial",
+                "title": "Básicos",
                 "welcome_banner_heading": "Mensaje de bienvenida",
                 "welcome_banner_text": "Introduce el texto que se mostrará en la lista de discusiones. Utilízalo para dar la bienvenida a los invitados en tu foro."
             },
             "dashboard": {
                 "clear_cache_button": "Limpiar caché",
                 "description": "Tu foro de un vistazo.",
-                "title": "Tablero",
+                "title": "Panel",
                 "tools_button": "Herramientas"
             },
             "edit_css": {
@@ -59,7 +59,7 @@
             },
             "edit_group": {
                 "color_label": "=> core.ref.color",
-                "delete_button": "Borrar grupo",
+                "delete_button": "Eliminar grupo",
                 "delete_confirmation": "¿Estás seguro de que deseas eliminar este grupo? Los usuarios que pertenecen al grupo NO serán eliminados.",
                 "hide_label": "Ocultar en el foro",
                 "icon_label": "=> core.ref.icon",
@@ -79,7 +79,7 @@
                 "addresses_heading": "Direcciones",
                 "description": "Configura el controlador, la configuración y las direcciones que usará tu foro para enviar correo electrónico.",
                 "driver_heading": "Elige un controlador",
-                "driver_label": "Driver",
+                "driver_label": "Controlador",
                 "from_label": "Remitente",
                 "mail_encryption_label": "Cifrado",
                 "mail_host_label": "Servidor",
@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Configurar ámbitos",
-                "confirm_uninstall": "La desinstalación eliminará todas las entradas de la base de datos y los ficheros relacionados con la extensión. ¿Estás seguro de que quieres continuar?",
+                "confirm_purge": "Al purgar, se eliminarán todas las entradas en la base de datos y datos asociados a la extensión. Este proceso no desinstalará la extensión, pues esto debe completarse mediante Composer ¿Realmente deseas continuar?",
                 "disabled": "Desactivada",
                 "enable_to_see": "Habilita la extensión para ver y cambiar la configuración.",
                 "enabled": "Activada",
@@ -116,6 +116,13 @@
                 "no_settings": "Esta extensión no tiene configuración.",
                 "open_modal": "Configuración abierta",
                 "permissions_title": "Permisos",
+                "purge_button": "Purgar",
+                "readme": {
+                    "button_label": "LÉEME",
+                    "no_readme": "Esta extensión no incluye un archivo LÉEME",
+                    "title": "Documentación de {extName}"
+                },
+                "confirm_uninstall": "La desinstalación eliminará todas las entradas de la base de datos y los ficheros relacionados con la extensión. ¿Estás seguro de que quieres continuar?",
                 "uninstall_button": "Desinstalar"
             },
             "header": {
@@ -296,9 +303,11 @@
             "discussion_list": {
                 "empty_text": "Parece que no hay discusiones aquí.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Marcar como leído",
                 "replied_text": "{username} respondió {ago}",
-                "started_text": "{username} creó {ago}"
+                "started_text": "{username} creó {ago}",
+                "total_replies_a11y_label": "{count, plural, one {# respuesta} other {# respuestas}}",
+                "unread_replies_a11y_label": "{count, plural, one {# respuesta sin leer} other {# respuestas sin leer}}. Marcar {count, plural, one {respuesta} other {respuestas}} como leída(s).",
+                "mark_as_read_tooltip": "Marcar como leído"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -316,7 +325,9 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Perfil",
+                "search_clear_button_accessible_label": "Limpiar consulta de búsqueda",
                 "search_placeholder": "Buscar en el foro",
+                "search_role_label": "Buscar en los foros",
                 "session_dropdown_accessible_label": "Alternar el menú desplegable de opciones de sesión",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -343,7 +354,7 @@
                 "forgot_password_link": "¿Olvidaste tu contraseña?",
                 "invalid_login_message": "Tus credenciales son incorrectas.",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "Recordarte",
+                "remember_me_label": "Recordarme",
                 "sign_up_text": "¿Aún no tienes una cuenta? <a>¡Regístrate!</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
@@ -442,9 +453,16 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Re-enviar correo electrónico de confirmación",
                 "sent_message": "Enviado"
+            },
+            "welcome_hero": {
+                "hide": "Ocultar el mensaje de bienvenida"
             }
         },
         "lib": {
+            "debug_button": "Depurar",
+            "alert": {
+                "dismiss_a11y_label": "Descartar la alerta"
+            },
             "badge": {
                 "hidden_tooltip": "Oculto"
             },
@@ -462,18 +480,32 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "username_label": "=> core.ref.username",
+                "nothing_available": "No tienes autorización para editar este usuario."
             },
             "error": {
                 "dependent_extensions_message": "No se puede desactivar {extension} hasta que se desactiven las siguientes extensiones dependientes: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "¡Caramba! Algo salió mal. Por favor, carga de nuevo la página y vuelve a intentarlo.",
                 "missing_dependencies_message": "No se puede activar {extension} hasta que se activen las siguientes extensiones dependientes: {extensions}",
                 "not_found_message": "¡Recórcholis! El recurso solicitado no fue encontrado.",
+                "payload_too_large_message": "La solicitud de carga era demasiado grande.",
                 "permission_denied_message": "¡Nanay de la China! No tienes permiso para hacer eso.",
-                "rate_limit_exceeded_message": "¡Para el carro! Vas tú muy rápido. Por favor, vuelve a intentarlo en unos segundos."
+                "rate_limit_exceeded_message": "¡Para el carro! Vas tú muy rápido. Por favor, vuelve a intentarlo en unos segundos.",
+                "render_failed_message": "Lo sentimos, ocurrió un problema al intentar mostrar este contenido. Si eres un usuario, por favor inténtalo más tarde. Si eres administrador, revisa los registros de Flarum para obtener mayor información."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": "Cerrar"
+            },
+            "nav": {
+                "drawer_button": "Abrir el cuadro de navegación"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -489,6 +521,26 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "=> core.ref.extensions",
+                    "disable": "Desactivar",
+                    "empty": "No hay extensiones instaladas",
+                    "enable": "Activar",
+                    "name": "Nombre de la Extensión",
+                    "package_name": "Nombre del Paquete",
+                    "version": "Versión"
+                },
+                "info": {
+                    "caption": "Información de la Aplicación"
+                },
+                "title": "Administración"
+            },
+            "confirm_email": {
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "Presiona el botón a continuación para confirmar el correo de tu cuenta.",
+                "title": "=> core.ref.confirm_email"
+            },
             "content": {
                 "javascript_disabled_message": "Este sitio web se vé mejor en un navegador moderno con JavaScript activado.",
                 "load_error_message": "Algo salió mal cuando se intentó cargar la versión completa de este sitio web.",
@@ -523,6 +575,10 @@
                 "new_password_label": "Nueva contraseña",
                 "submit_button": "Restablecer la contraseña",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {
@@ -531,15 +587,15 @@
         "email": {
             "activate_account": {
                 "subject": "Activa tu cuenta de usuario",
-                "body": "¡Hola, {username}!\n\nAlguien se ha registrado como usuario en {forum} con esta dirección de correo electrónico.\n\nSi efectivamente has sido tú, por favor, haz click en el siguiente enlace y tu cuenta de usuario será activada:\n{url}\n\nSi por el contrario no has sido tú, por favor, ignora este correo electrónico.\n\nRecibe un cordial saludo,\n\nEl Equipo de {forum}\n"
+                "body": "¡Hola {username}!\n\nAlguien (¡espero que tú!) se ha registrado en {forum} con esta dirección de correo electrónico.\n\nSi has sido tú, simplemente haz clic en el siguiente enlace y tu cuenta se activará:\n{url}\n\nSi no te has registrado, ignora este correo electrónico.\n"
             },
             "confirm_email": {
                 "subject": "Confirma tu correo electrónico",
-                "body": "¡Hola, {username}!\n\nAlguien se ha registrado como usuario en {forum} con tu dirección de correo electrónico.\n\nSi efectivamente has sido tú, por favor, haz click en el siguiente enlace para confirmar tu dirección de correo electrónico:\n{url}\n\nSi por el contrario no has sido tú, por favor, ignora este correo electrónico.\n\nRecibe un cordial saludo,\n\nEl Equipo de {forum}\n"
+                "body": "¡Hola {username}!\n\nAlguien (¡espero que tú!) ha cambiado su dirección de correo electrónico en {forum} por esta.\n\nSi has sido tú, simplemente haz clic en el siguiente enlace y tu correo electrónico será confirmado:\n{url}\n\nSi no has sido tú, por favor ignora este email.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "¡Hola, {username}!\n\nAlguien ha enviado una solicitud para restablecer la contraseña de su cuenta de usuario en {forum}.\n\nSi efectivamente has sido tú, por favor, haz click en el siguiente enlace para restablecer tu contraseña:\n{url}\n\nSi por el contrario no has sido tú, por favor, ignora este correo electrónico.\n\nRecibe un cordial saludo,\n\nEl Equipo de {forum}\n"
+                "body": "¡Hola {username}!\n\nAlguien (¡espero que tú!) ha enviado una solicitud de contraseña olvidada para tu cuenta en {forum}.\n\nSi has sido tú, haz clic en el siguiente enlace para restablecer tu contraseña:\n{url}\n\nSi no deseas cambiar tu contraseña, simplemente ignora este correo electrónico y no pasará nada.\n"
             },
             "send_test": {
                 "subject": "Prueba de correo electrónico de Flarum",
@@ -552,6 +608,7 @@
             "change_password": "Cambiar la contraseña",
             "color": "Color",
             "confirm_password": "Confirmar la contraseña",
+            "confirm_email": "Confirmar correo",
             "confirmation_email_sent": "Te hemos enviado un correo electrónico de confirmación a {email}. Si no aparece pronto, por favor, comprueba la carpeta de correo no deseado (spam).",
             "custom_footer_text": "Añade código HTML para que este sea mostrado en la parte más baja de la página.",
             "custom_footer_title": "Editar el pié de página personalizado",
@@ -563,6 +620,7 @@
             "edit": "Editar",
             "edit_user": "Editar usuario",
             "email": "Correo electrónico",
+            "extensions": "Extensiones",
             "icon": "Icono",
             "icon_text": "Introduce el nombre de alguna clase de <a>FontAwesome</a>, <em>incluyendo</em> el prefijo <code>fas fa-</code>.",
             "load_more": "Cargar más",

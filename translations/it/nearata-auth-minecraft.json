@@ -1,27 +1,28 @@
 {
     "nearata-auth-minecraft": {
         "api": {
-            "error_403": "",
-            "invalid_token_format": ""
+            "invalid_token_format": "Il token deve essere numerico.",
+            "error_403": "Token scaduto o non valido."
         },
         "forum": {
             "change_email_modal": {
-                "confirmation_message": "",
-                "dismiss_button": "",
-                "submit_button": "",
-                "title": "",
-                "token_placeholder": ""
+                "confirmation_message": "Abbiamo inviato un'email di conferma a {email}. Se non dovessi riceverla, controlla la cartella spam.",
+                "dismiss_button": "OK",
+                "submit_button": "Cambia Email",
+                "title": "Cambia Email",
+                "token_placeholder": "Token"
             },
+            "error_403": "Token non valido o scaduto.",
             "log_in_modal": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "Valida",
+                "title": "Login con Minecraft"
             },
-            "log_in_button_title": "",
+            "log_in_button_title": "Login con Minecraft",
             "settings": {
-                "change_email_button": ""
+                "change_email_button": "Cambia Email"
             },
-            "token_help": "",
-            "token_placeholder": ""
+            "token_help": "Unisciti al server <strong>srv.mc-oauth.net:25565</strong> per ottenere un token di accesso.",
+            "token_placeholder": "Token"
         }
     }
 }

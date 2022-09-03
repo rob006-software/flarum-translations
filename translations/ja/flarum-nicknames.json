@@ -2,34 +2,41 @@
     "flarum-nicknames": {
         "admin": {
             "permissions": {
-                "edit_own_nickname_label": ""
+                "edit_own_nickname_label": "自分のニックネームの編集"
             },
             "settings": {
-                "max_label": "",
-                "min_label": "",
-                "regex_label": "",
-                "unique_label": ""
+                "max_label": "ニックネームの最大文字数",
+                "min_label": "ニックネームの最小文字数",
+                "random_username_label": "",
+                "random_username_help": "",
+                "regex_label": "検証用の正規表現",
+                "set_on_registration_label": "",
+                "unique_label": "他人と重複したニックネームを拒否しますか？"
             },
-            "wrong_driver": ""
+            "wrong_driver": "この拡張機能が動作するためには、<a><strong>基本設定</strong></a>の\"ユーザーの表示名\"において、\"ニックネーム\"を選択する必要があります。"
         },
         "api": {
-            "invalid_nickname_message": ""
+            "invalid_nickname_message": "ニックネームの形式が正しくありません。ニックネームのルールに関する詳しい情報は管理者へお問い合わせください。"
         },
         "forum": {
             "change_nickname": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
             },
             "edit_user": {
-                "nicknames_heading": "",
-                "nicknames_text": ""
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "ニックネーム"
             },
             "settings": {
-                "change_nickname_button": ""
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": ""
             }
         },
         "ref": {
-            "change_nickname": ""
+            "change_nickname": "ニックネームの変更",
+            "nickname": ""
         }
     }
 }

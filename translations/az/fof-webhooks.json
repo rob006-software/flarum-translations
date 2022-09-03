@@ -1,0 +1,118 @@
+{
+    "fof-webhooks": {
+        "actions": {
+            "discussion": {
+                "started": "Mövzu başladı `{1}`",
+                "renamed": {
+                    "title": "Mövzunun adı dəyişdirildi \"{1}\"",
+                    "description": "Yeni başlıq: {1}"
+                },
+                "hidden": "Gizli mövzu `{1}`",
+                "restored": "`{1}` Mövzu bərpa edildi",
+                "deleted": "Silinən mövzu `{1}`"
+            },
+            "group": {
+                "created": "`{1}` qrup yaradıldı",
+                "renamed": "Qrupun adı `{1}` olaraq dəyişdirildi",
+                "deleted": "`{1}` qrup silindi"
+            },
+            "post": {
+                "posted": "",
+                "revised": "",
+                "hidden": "",
+                "restored": "",
+                "deleted": ""
+            },
+            "user": {
+                "registered": "",
+                "renamed": {
+                    "title": "",
+                    "description": ""
+                },
+                "deleted": ""
+            }
+        },
+        "adapters": {
+            "errors": {
+                "404": ""
+            }
+        },
+        "admin": {
+            "errors": {
+                "service_not_found": "",
+                "url_invalid": "",
+                "tag_invalid": ""
+            },
+            "nav": {
+                "desc": ""
+            },
+            "settings": {
+                "debug_label": "",
+                "debug_help": "",
+                "item": {
+                    "tag_any_label": ""
+                },
+                "help": {
+                    "disabled": "",
+                    "general": "",
+                    "url": ""
+                },
+                "modal": {
+                    "title": "",
+                    "description": "",
+                    "use_plain_text_label": "",
+                    "max_post_content_length_label": "",
+                    "max_post_content_length_help": "",
+                    "extra_text_label": "",
+                    "extra_text_help": "",
+                    "group_label": "",
+                    "group_help": "",
+                    "events_label": ""
+                },
+                "services": {
+                    "discord": "",
+                    "slack": "",
+                    "microsoft-teams": ""
+                },
+                "actions": {
+                    "flarum": {
+                        "discussion": {
+                            "title": "",
+                            "started": "",
+                            "renamed": "",
+                            "hidden": "",
+                            "restored": "",
+                            "deleted": ""
+                        },
+                        "group": {
+                            "title": "",
+                            "created": "",
+                            "renamed": "",
+                            "deleted": ""
+                        },
+                        "post": {
+                            "title": "",
+                            "posted": "",
+                            "revised": "",
+                            "hidden": "",
+                            "restored": "",
+                            "deleted": ""
+                        },
+                        "user": {
+                            "title": "",
+                            "registered": "",
+                            "renamed": "",
+                            "deleted": ""
+                        }
+                    }
+                }
+            }
+        },
+        "ref": {
+            "deleted": "",
+            "hidden": "",
+            "renamed": "",
+            "restored": ""
+        }
+    }
+}

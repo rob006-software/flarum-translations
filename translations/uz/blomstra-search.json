@@ -1,0 +1,14 @@
+{
+    "blomstra-search": {
+        "admin": {
+            "elastic-endpoint": "Elastik so'nggi nuqta",
+            "elastic-username": "=> core.ref.username",
+            "elastic-password": "=> core.ref.password",
+            "elastic-index": "Indeks",
+            "analyzer": {
+                "label": "Analiz tili",
+                "help": "Analizator qidiruvni to'xtatuvchi so'zlarni tushunishga va tilni amalga oshirishga imkon beradi\nindekslash uchun maxsus yaxshilanishlar.\n"
+            }
+        }
+    }
+}

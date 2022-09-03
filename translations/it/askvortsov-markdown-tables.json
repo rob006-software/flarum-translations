@@ -3,19 +3,19 @@
         "lib": {
             "composer": {
                 "table_menu": {
-                    "num_cols": "",
-                    "num_rows": "",
-                    "label_cells": "",
-                    "column": "",
-                    "remove_column": "",
-                    "insert_column_before": "",
-                    "insert_column_after": "",
-                    "row": "",
-                    "remove_row": "",
-                    "insert_row_before": "",
-                    "insert_row_after": ""
+                    "num_cols": "# Colonne",
+                    "num_rows": "# Righe ( compreso header)",
+                    "label_cells": "# Etichetta le celle?",
+                    "column": "Colonna",
+                    "remove_column": "Rimuovi colonna",
+                    "insert_column_before": "Inserire prima la colonna",
+                    "insert_column_after": "Inserire la colonna dopo",
+                    "row": "Riga",
+                    "remove_row": "Rimuovi la riga",
+                    "insert_row_before": "Inserire prima una riga",
+                    "insert_row_after": "Inserire dope una riga"
                 },
-                "table_tooltip": ""
+                "table_tooltip": "Tabella"
             }
         }
     }

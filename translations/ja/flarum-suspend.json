@@ -2,28 +2,49 @@
     "flarum-suspend": {
         "admin": {
             "permissions": {
-                "suspend_users_label": "アカウント停止"
+                "suspend_users_label": "アカウントの停止"
             }
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "{username} があなたのアカウントを {timeReadable} の間停止しました",
-                "user_unsuspended_text": "{username} があなたのアカウント停止を解除しました"
+                "user_suspended_text": "{username} があなたのアカウントを {timeReadable} 停止しました",
+                "user_suspended_indefinite_text": "",
+                "user_unsuspended_text": "{username} がアカウント停止を解除しました"
+            },
+            "suspension_info": {
+                "dismiss_button": "",
+                "indefinite": "",
+                "limited": "",
+                "title": ""
             },
             "suspend_user": {
-                "indefinitely_label": "無期限の停止",
+                "display_message": "",
+                "indefinitely_label": "無期限停止",
                 "limited_time_days_text": " 日",
-                "limited_time_label": "期限付き停...",
-                "not_suspended_label": "停止を解除",
-                "status_heading": "停止状況",
+                "limited_time_label": "一定期間停止...",
+                "not_suspended_label": "停止解除",
+                "placeholder_optional": "",
+                "reason": "",
+                "status_heading": "アカウント状態",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "{username} のアカウントを停止する"
+                "title": "アカウント {username} の停止"
             },
             "user_badge": {
-                "suspended_tooltip": "停止されました"
+                "suspended_tooltip": "アカウント停止"
             },
             "user_controls": {
                 "suspend_button": "アカウント停止"
+            }
+        },
+        "email": {
+            "no_reason_given": "",
+            "suspended": {
+                "subject": "",
+                "body": ""
+            },
+            "unsuspended": {
+                "subject": "",
+                "body": ""
             }
         }
     }

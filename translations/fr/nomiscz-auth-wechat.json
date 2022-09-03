@@ -2,39 +2,39 @@
     "nomiscz-auth-wechat": {
         "forum": {
             "buttons": {
-                "login": "",
-                "link": "",
-                "unlink": ""
+                "login": "Se connecter avec WeChat",
+                "link": "Associer un compte WeChat",
+                "unlink": "Dissocier un compte WeChat"
             },
             "alerts": {
-                "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
-                "error": ""
+                "already_linked": "Le compte WeChat est déjà associé !",
+                "already_used": "Le compte WeChat est déjà associé à un autre utilisateur !",
+                "link_success": "Le compte WeChat a été associé.",
+                "unlink_success": "Le compte WeChat a été dissocié.",
+                "error": "Quelque chose s'est mal passé, veuillez réessayer plus tard !"
             },
             "modals": {
                 "link": {
-                    "title": ""
+                    "title": "Associer un compte WeChat"
                 },
                 "unlink": {
-                    "title": "",
+                    "title": "Dissocier un compte WeChat",
                     "info": {
-                        "confirm": "",
-                        "no_providers": ""
+                        "confirm": "Êtes-vous sûr de vouloir dissocier votre compte WeChat ?",
+                        "no_providers": "Vous n'avez pas d'autres fournisseurs de connexion ! Vous devrez probablement réinitialiser votre mot de passe."
                     },
                     "buttons": {
-                        "confirm": "",
-                        "cancel": ""
+                        "confirm": "Oui, dissocier le compte",
+                        "cancel": "Non !"
                     }
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "api_app_id": "",
-                "api_app_secret": ""
+                "title": "Paramètres d'authentification de WeChat",
+                "api_app_id": "Identifiant API de l'application",
+                "api_app_secret": "Secret API de l'application"
             }
         }
     }

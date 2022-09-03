@@ -94,6 +94,7 @@
                 "name": "Nazwa",
                 "user-name": "Ostatnio nazwana przez",
                 "user-place": "Ostatnio umieszczona przez",
+                "placement": "Obecna pozycja",
                 "actions": "Akcje",
                 "edit": "Edytuj",
                 "no-user-name": "Nie zmieniono nazwy",
@@ -120,10 +121,33 @@
         },
         "admin": {
             "settings": {
-                "title": "Ustawienia łowienia ryb",
-                "discussion-age": "Jak stare mogą być dyskusje, aby móc umieścić na nich rybę (dni)",
-                "post-age": "Jak stare mogą być posty, aby móc umieścić na nich rybę (dni)",
+                "user": "Użytkownicy",
                 "user-age": "Jak długo użytkownik może być nieaktywny, aby móc umieścić na nim rybę (dni)",
+                "user-probability": "Prawdopodobieństwo umieszczenia na profilu użytkownika (%)",
+                "discussion": "Dyskusje",
+                "discussion-age": "Jak stare mogą być dyskusje, aby móc umieścić na nich rybę (dni)",
+                "discussion-tags": "Biała lista tagów",
+                "discussion-tags-unavailable": "Ustawienie nie jest dostępne, ponieważ rozszerzenie obsługujące tagi nie jest włączone.",
+                "discussion-tags-help": "",
+                "tags-header": {
+                    "tag": "Tag",
+                    "probability": "Prawdopodobieństwo"
+                },
+                "tags-control": {
+                    "choose": "Wybierz tag",
+                    "add": "Dodaj do białej listy",
+                    "down": "Przenieś niżej",
+                    "up": "Przenieś wyżej",
+                    "delete": "Usuń z białej listy"
+                },
+                "tags-fallback": {
+                    "last-line": "",
+                    "single-line": ""
+                },
+                "post": "Posty",
+                "post-age": "Jak stare mogą być posty, aby móc umieścić na nich rybę (dni)",
+                "post-probability": "",
+                "general": "Ogólne",
                 "time-to-place": "Czas na umieszczenie ryby, zanim zostanie rozmieszczona losowo (minuty)",
                 "alert-round": "Pokaż na stronie głównej alert z nazwą rundy i czasem trwania",
                 "animate-flip": "Odwróć obrazki ryb na podstawie kierunku"
@@ -146,6 +170,7 @@
             "invalid-user-id": "Ten użytkownik nie istnieje, być może został niedawno usunięty",
             "model-deleted": "Nie można umieścić ryby na usuniętej dyskusji lub poście",
             "model-private": "Nie można umieścić ryby na prywatnej dyskusji lub poście",
+            "tag-not-allowed": "Nie możesz umieścić ryby w tym tagu",
             "inactive-discussion": "Nie można umieścić ryby na dyskusji nieaktywnej dłużej niż {days} dni",
             "inactive-post": "Nie można umieścić ryby na poście utworzonym wcześniej niż {days} dni temu",
             "inactive-user": "Nie można umieścić ryby na użytkowniku nieaktywnym dłużej niż {days} dni",

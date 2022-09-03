@@ -9,9 +9,11 @@
             },
             "settings": {
                 "no_categories_selected": "Nessuna categoria selezionata",
-                "selected_category_count": "Hai {count} categoria selezionata|Hai {count} categorie selezionate",
+                "selected_category_count": "{count, plural, one {Hai # categoria selezionata} other {Hai # categorie selezionate}}",
                 "select_categories_button": "Seleziona le categorie del blog",
                 "blog_heading": "Blog",
+                "featured_count_label": "Post in rilievo massimi",
+                "featured_count_text": "Quanti post dovrebbero essere visualizzati in una grande griglia nella parte superiore di una pagina del blog?",
                 "allow_comments_label": "Permetti commenti",
                 "allow_comments_text": "Per impostazione predefinita, consenti commenti sui post del blog. Quando disabilitato, può essere abilitato individualmente per i post sul blog. <b>Nota:</b> La modifica di questa impostazione non influirà sui post del blog preesistenti.",
                 "require_review_label": "I post del blog richiedono una revisione",
@@ -31,7 +33,9 @@
                 "redirect_tags_label": "Reindirizza i tag del blog",
                 "redirect_tags_text": "Quando è abilitata, questa estensione reindirizza gli URL dei tag del blog all'URL della categoria del blog.",
                 "default_article_image_label": "Immagine articolo predefinita",
-                "default_article_image_text": "Seleziona un'immagine di articolo predefinita da visualizzare quando non è impostata alcuna immagine."
+                "default_article_image_text": "Seleziona un'immagine di articolo predefinita da visualizzare quando non è impostata alcuna immagine.",
+                "add_hero_label": "",
+                "add_hero_text": ""
             }
         },
         "forum": {
@@ -41,8 +45,8 @@
             "recent_posts": "Post recenti del Blog",
             "categories": "Categorie",
             "forum_nav": "Forum Nav",
-            "return_to_overview": "Torna alla panoramica del blog",
-            "no_more_posts": "No more blog posts.",
+            "return_to_overview": "Torna alla panoramica del blog ",
+            "no_more_posts": "Niente post del blog.",
             "category_empty": "Non ci sono post del blog in questa categoria.",
             "compose": {
                 "write_article": "Scrivi articolo"
@@ -89,13 +93,31 @@
                 "post_article": "Pubblica articolo",
                 "select_category": "Scegli una categoria",
                 "edit_categories": "Modifica categorie",
-                "update_settings": "",
+                "update_settings": "Aggiorna impostazioni Blog",
                 "write": "Scrivi",
                 "view": "Vedi",
                 "nothing_to_preview": "Niente da visualizzare in anteprima",
                 "comment_section": "La sezione commenti non è disponibile durante la composizione di un articolo.",
                 "no_blog_tags_selected": "Nessuno dei tag che hai selezionato è un tag del blog. Selezionane almeno uno.",
                 "post_without_blog_info": "Sei sicuro di voler pubblicare questo post sul blog? Non hai ancora inserito un riepilogo o un'immagine."
+            },
+            "article_settings": {
+                "title": "",
+                "fields": {
+                    "summary": {
+                        "title": "",
+                        "placeholder": "",
+                        "helper_text": ""
+                    },
+                    "image": {
+                        "title": "",
+                        "helper_text": ""
+                    },
+                    "highlight": {
+                        "title": "",
+                        "helper_text": ""
+                    }
+                }
             }
         }
     }

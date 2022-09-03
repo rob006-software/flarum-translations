@@ -1,0 +1,43 @@
+{
+    "afrux-theme-base": {
+        "admin": {
+            "extensions": {
+                "title": "Tiện ích mở rộng",
+                "description": "Danh sách tiện ích mở rộng đã cài đặt."
+            },
+            "extension": {
+                "sections": {
+                    "content": "Cài đặt chung",
+                    "permissions": "Quyền"
+                }
+            },
+            "header": {
+                "go_back": "Quay lại diễn đàn"
+            },
+            "users": {
+                "grid": {
+                    "columns": {
+                        "avatar": {
+                            "title": "Ảnh đại diện"
+                        }
+                    }
+                }
+            },
+            "settings": {
+                "edit_footer_links": "Chỉnh sửa liên kết dưới chân trang",
+                "footer_description": "Mô tả dưới chân trang",
+                "footer_bottom_line": "Dòng dưới cùng chân trang",
+                "hero_banner": "Ảnh chào mừng chính",
+                "hero_banner_position": "Vị trí ảnh chính CSS (ví dụ: 'center top' hoặc 'center 20%')",
+                "links_modal": {
+                    "add_group": "Nhóm liên kết mới",
+                    "group_name": "Tên nhóm {number}",
+                    "group_title": "Tiêu đề liên kết nhóm",
+                    "add_link": "Thêm liên kết",
+                    "link_url": "URL liên kết",
+                    "link_label": "Nhãn liên kết"
+                }
+            }
+        }
+    }
+}

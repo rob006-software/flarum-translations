@@ -1,0 +1,29 @@
+{
+    "flarum-likes": {
+        "admin": {
+            "permissions": {
+                "like_posts_label": "Postlar kabi"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} postingizni yoqtirdi"
+            },
+            "post": {
+                "like_link": "Yoqdi",
+                "liked_by_self_text": "{users}ga bu yoqdi.",
+                "liked_by_text": "{count, plural, one {{users} like this} other {{users} like this}}.",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Yoqmadi",
+                "you_text": "=> core.ref.you"
+            },
+            "post_likes": {
+                "title": "Buni yoqtirgan foydalanuvchilar"
+            },
+            "settings": {
+                "notify_post_liked_label": "Kimgadir mening postlarim yoqadi"
+            }
+        }
+    }
+}

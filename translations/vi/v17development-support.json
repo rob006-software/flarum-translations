@@ -1,0 +1,319 @@
+{
+    "v17development-flarum-support": {
+        "forum": {
+            "knowledge_base": "Kiến thức cơ bản",
+            "ask_a_question_on_forums": "Hỏi một câu trên diễn đàn",
+            "return_to_home": "Quay lại trang kiến thức cơ bản",
+            "ask_your_question_on_forum": "Đặt câu hỏi trên diễn đàn",
+            "or": "hoặc",
+            "settings": "=> core.ref.settings",
+            "send": "Gửi",
+            "create": "Tạo",
+            "discard": "Huỷ bỏ",
+            "reopen": "mở lại",
+            "support_tickets": "Vé hỗ trợ",
+            "admin_overview": "Mở tổng quan về quản trị viên",
+            "hero": {
+                "help_question": "Chúng tôi có thể giúp gì cho bạn?",
+                "check_forum": "Nếu bạn không thể tìm thấy nơi mình đang tìm kiếm, hãy <a>xem diễn đàn</a>"
+            },
+            "overview": {
+                "knowledge_base_overview": "Tổng quan về kiến thức cơ bản",
+                "back_to": "Quay lại {category}",
+                "back_to_overview": "Quay lại trang tổng quan về kiến thức cơ bản",
+                "back_to_main_categories": "Quay lại danh mục chính",
+                "loading_articles": "Đang tải bài viết",
+                "no_categories_found": "Xin lỗi, không có danh mục nào được tìm thấy...",
+                "category_not_found": "Không tìm thấy danh mục",
+                "no_articles_found": "Không có bài viết nào trong danh mục này",
+                "tools": {
+                    "new_article": "Bài viết mới",
+                    "rename_category": "Đổi tên danh mục",
+                    "edit_description": "Chỉnh sửa mô tả",
+                    "change_icon": "Đổi biểu tượng"
+                }
+            },
+            "article_events": {
+                "article_hidden": "Bài viết đã được ẩn bởi {username}",
+                "article_public": "Bài viết đã được công khai bởi {username}",
+                "article_modified": "{username} đã chỉnh sửa bài viết này."
+            },
+            "search": {
+                "title": "Tìm kiếm",
+                "back_to_search_results": "Quay lại kết quả tìm kiếm",
+                "search_knowledge_base": "Tìm kiếm trong cơ sở kiến thức",
+                "searching": "Đang tìm kiếm",
+                "searching_for": "Đang tìm kiếm {searchterm}",
+                "searched_for": "Bạn đang tìm kiếm {searchterm}, có {results} kết quả.",
+                "use_searchbox_below": "Sử dụng hộp tìm kiếm bên dưới để tìm kiếm trong cơ sở kiến thức của chúng tôi.",
+                "no_results": "Chúng tôi không tìm thấy gì cho {searchterm}."
+            },
+            "not_found": {
+                "title": "Không tìm thấy mục nào",
+                "description": "Xin lỗi, bài viết hoặc danh mục này không còn tồn tại.",
+                "solution": "Bạn có thể sử dụng hộp tìm kiếm ở trên để tìm nơi bạn đang tìm kiếm."
+            },
+            "article": {
+                "article": "Bài viết",
+                "articles": "Bài viết",
+                "hidden": "Đã ẩn",
+                "created_at": "Tạo lúc {date}",
+                "author": "Tác giả",
+                "authors": "Tác giả",
+                "last_modified": "Sửa đổi lần cuối lúc {date}",
+                "not_found": "Không tìm thấy bài viết",
+                "share_article": {
+                    "title": "Chia sẻ bài viết",
+                    "perma_link": "Liên kết đến bài viết này:"
+                },
+                "tools": {
+                    "rename_article": "Đổi tên bài viết",
+                    "edit_article": "Chỉnh sửa bài viết",
+                    "edit_tags": "Chỉnh sửa thẻ bài viết",
+                    "audit_log": "Xem nhật ký kiểm tra",
+                    "hide_article": "Ẩn bài viết",
+                    "recover_article": "Khôi phục bài viết",
+                    "delete_forever": "Xoá vĩnh viễn",
+                    "view_ratings": "Xem xếp hạng"
+                }
+            },
+            "support_ratings": {
+                "score": "Điểm",
+                "helful_article": "Bài viết này có hữu ích không?",
+                "helful_support": "Bạn có hài lòng với cách chúng tôi xử lý phiếu hỗ trợ của bạn không?",
+                "feedback": "Cảm ơn bạn đã xem xét, bạn có bất kỳ phản hồi?",
+                "feedback_not_helpful": "Xin lỗi bài viết này không hữu ích, bạn đang tìm gì?",
+                "enter_feedback": "Nhập phản hồi vào đây",
+                "finished": "Cảm ơn! Phản hồi của bạn đã được lưu lại.",
+                "validation": {
+                    "invalid_discussion": "Rất tiếc, đã xảy ra lỗi. Bạn không thể đánh giá bài viết này/vé hỗ trợ.",
+                    "guest": "Vui lòng đăng nhập trước khi đánh giá bài viết này.",
+                    "invalid_points": "Xếp hạng không hợp lệ. Vui lòng thử lại.",
+                    "cannot_rate_article": "Bạn không thể xếp hạng bài viết này.",
+                    "neutral_emoji_disabled": "Biểu tượng cảm xúc trung tính đã bị tắt.",
+                    "missing_article_id": "ID bài viết bị thiếu hoặc không hợp lệ"
+                },
+                "switch_sort_score": {
+                    "label": "Hiển thị các bài viết đạt điểm từ thấp đến cao",
+                    "description": "Chỉ hiển thị các bài viết đã nhận được phản hồi, sắp xếp theo bài viết có điểm thấp nhất."
+                }
+            },
+            "modals": {
+                "audit_log": {
+                    "title": "Nhật ký kiểm tra bài viết",
+                    "article_created": "Bài viết đã được tạo",
+                    "no_more_events": "Không tìm thấy sự kiện nào",
+                    "loading_auditlog": "Đang tải nhật ký kiểm tra"
+                },
+                "article_ratings": {
+                    "title": "Xếp hạng bài viết",
+                    "loading_ratings": "Đang tải xếp hạng",
+                    "no_ratings_found": "Không tìm thấy xếp hạng nào phù hợp với tiêu chí tìm kiếm của bạn",
+                    "article_not_rated": "Bài viết này chưa được xếp hạng.",
+                    "confirm_delete_rating": "Bạn có chắc chắn muốn xoá xếp hạng này?",
+                    "feedback": "Phản hồi",
+                    "rating": "Xếp hạng",
+                    "username": "=> core.ref.username",
+                    "rated_on": "Đã đánh giá trên"
+                }
+            },
+            "utils": {
+                "redirect": {
+                    "title": "Bạn đang chuyển hướng tới bài viết Kiến thức cơ bản...",
+                    "link": "<a>Nhấn vào đây</a> nếu trang không chuyển hướng bạn"
+                }
+            },
+            "composer": {
+                "compose_article": "Viết bài viết",
+                "compose_ticket": "Tạo vé",
+                "new_article_title": "Tiêu đề bài viết",
+                "enter_message_here": "Nhập tin nhắn của bạn vào đây",
+                "publish_article": "Xuất bản bài viết",
+                "publish_article_hint": "Xuất bản bài viết sau khi đăng.",
+                "manage_tags": "Quàn lý thẻ",
+                "write": "Viết",
+                "view": "Xem",
+                "nothing_to_preview": "Không có gì để xem trước",
+                "warning_save_changes": "CẢNH BÁO: Bạn sắp rời khỏi trang này và chưa lưu các thay đổi của mình. Bạn có muốn lưu các thay đổi của mình trước khi rời đi không?\n\n[OK] = Có, lưu. [CANCEL] = Không, đừng lưu\n",
+                "article_saved": "Bài viết đã được lưu lại"
+            },
+            "tickets": {
+                "ticket": "Phiếu",
+                "subject": "Tiêu đề",
+                "ticket_does_not_exist": "Phiếu hỗ trợ được yêu cầu không tồn tại.",
+                "return_to_overview": "Quay lại trang tổng quan phiếu",
+                "ticket_overview": "Tổng quan phiếu",
+                "opened_on": "Đã mở lúc",
+                "ticket_activity": "Bởi {username}, hoạt động lần cuối {date}",
+                "reminders_sent": "{count, plural, one {Đã gửi một lời nhắc} other {Đã gửi # lời nhắc}}",
+                "convert_to_ticket": {
+                    "button": "Đổi thành phiếu",
+                    "confirm": "Bạn có chắc chắn muốn chuyển cuộc thảo luận này thành phiếu hỗ trợ không?",
+                    "event": "Thảo luận {ticket_title} đã được chuyển đổi thành phiếu hỗ trợ"
+                },
+                "convert_to_discussion": {
+                    "button": "",
+                    "confirm": "",
+                    "event": ""
+                },
+                "status": {
+                    "new": {
+                        "title": "Mới",
+                        "description": "Đây là một phiếu mới chưa được trả lời"
+                    },
+                    "open": {
+                        "title": "Mở",
+                        "description": "Phiếu này có phản hồi mới và đang đợi bạn trả lời."
+                    },
+                    "pending": {
+                        "title": "Chờ xử lý",
+                        "description": "Phiếu này đang chờ phản hồi từ người dùng.",
+                        "description_user": "Chúng tôi đang chờ phản hồi từ bản hoặc đánh dấu phiếu này đã được giải quyết."
+                    },
+                    "closed": {
+                        "title": "Đã đóng",
+                        "description": "Phiếu này đã được đóng.",
+                        "is_closed": "Phiếu này đã được đóng, khi bạn trả lời thì nó sẽ mở lại. Chúng tôi khuyên chỉ nên mở lại phiếu khi vấn đề chưa được giải quyết. Nếu có vấn đề mới, vui lòng tạo một phiếu mới.",
+                        "close_after_posting": "Đóng phiếu sau khi đăng",
+                        "is_auto_closed": "Phiếu này đã đóng do không có hoạt động nào."
+                    },
+                    "on_hold": {
+                        "title": "Đang chờ",
+                        "description": "Phiếu này đã được đặt thành đang chờ."
+                    },
+                    "duplicate": {
+                        "title": "Trùng lặp",
+                        "description": "Phiếu này được đánh dấu là trùng lặp."
+                    },
+                    "solved": {
+                        "title": "Đã giải quyết",
+                        "description": "Phiếu này đã được đánh dấu thành đã giải quyết",
+                        "mark_as_solved": "Đánh dấu phiếu này là đã giải quyết"
+                    }
+                },
+                "tools": {
+                    "view_ticket": "Xem phiếu",
+                    "update_subject": "Cập nhật tiêu đề",
+                    "assign_me": "Gán cho tôi",
+                    "remove_me": "Gỡ tôi",
+                    "update_status": "Cập nhật trạng thái phiếu",
+                    "close_ticket": "Đóng phiếu",
+                    "update_note": "Cập nhật ghi chú riêng tư"
+                },
+                "new_tickets_dropdown": {
+                    "title": "Thông báo phiếu",
+                    "no_tickets": "Không có thông báo phiếu",
+                    "ticket_new": "{username} đã tạo phiếu {ticket}",
+                    "ticket_updated": "{username} đã đăng trong {ticket}"
+                },
+                "fields": {
+                    "language": {
+                        "title": "Ngôn ngữ",
+                        "placeholder": "Chọn ngôn ngữ",
+                        "empty": "Chưa chọn ngôn ngữ",
+                        "description": "Phiếu hỗ trợ của bạn sẽ được xử lý trong {language}."
+                    },
+                    "subject": {
+                        "title": "Vấn đề",
+                        "placeholder": "Tiêu đề phiếu",
+                        "description": "Cố gắng mô tả câu hỏi của bạn trong một câu ngắn gọn."
+                    },
+                    "information": {
+                        "title": "Thông tin phiếu",
+                        "placeholder": "Hãy cho chúng tôi biết chúng tôi có thể giúp gì cho bạn"
+                    },
+                    "status": {
+                        "title": "Trạng thái",
+                        "placeholder": "Trạng thái của phiếu"
+                    },
+                    "assignees": {
+                        "title": "Người được giao",
+                        "placeholder": "Trạng thái của phiếu"
+                    },
+                    "private_note": {
+                        "title": "Ghi chú riêng tư",
+                        "info": "Các ghi chú riêng tư không hiển thị dành cho các nhân viên hỗ trợ và không hiển thị cho khách hàng.",
+                        "tip": "MẸO: Nếu bạn đang làm việc với nhiều đại lý trên một vé, hãy thêm tên và ngày tháng của bạn vào ghi chú.",
+                        "placeholder": "Ví dụ: Ngày 1 tháng 1 năm 2022 - Tên đại lý: Đã xóa khách hàng khỏi cơ sở dữ liệu",
+                        "edit_button": "Chỉnh sửa ghi chú"
+                    }
+                },
+                "compose_ticket": {
+                    "title": "Viết phiếu mới",
+                    "private_support": "Để được hỗ trợ riêng, bạn có thể sử dụng biểu mẫu này để tạo một vé mới trong nền tảng hỗ trợ của chúng tôi. Đối với các vấn đề hỗ trợ không riêng tư, vui lòng xem <a>diễn đàn của chúng tôi</a>.",
+                    "not_allowed": "Hiện tại bạn không thể mở phiếu hỗ trợ mới"
+                },
+                "load_more": {
+                    "title": "Tải thêm phiếu"
+                },
+                "my_tickets": {
+                    "title": "Phiếu của tôi",
+                    "description": "Trên trang này, bạn sẽ có thể tìm thấy tất cả phiếu của mình.",
+                    "no_tickets": "Bạn không có phiếu nào."
+                },
+                "overview": {
+                    "title": "Tổng quan phiếu",
+                    "description": "Hãy mỉm cười, bạn là người hùng cứu người khác trong ngày của họ.",
+                    "no_tickets": "Không có vé nào phù hợp với tiêu chí của bạn, có lẽ bạn đang làm rất tốt!",
+                    "all_tickets": "Tất cả phiếu",
+                    "selection_unfiltered": "Huỷ bộ lọc",
+                    "selection_open": "Tạo phiếu hỗ trợ",
+                    "selection_closed": "Phiếu hỗ trợ đã đóng",
+                    "refresh": "Làm mới",
+                    "filter": {
+                        "status": {
+                            "title": "Trạng thái phiếu",
+                            "filter_count": "{count, plural, one {# bộ lọc} other {# bộ lọc}}"
+                        },
+                        "language": {
+                            "any": "Mọi ngôn ngữ"
+                        },
+                        "assignees": {
+                            "title": "Lọc những người được giao",
+                            "search": "Tìm kiếm người được giao",
+                            "unassigned": "Chưa giao"
+                        }
+                    },
+                    "sort": {
+                        "newest": "Mới nhất đầu tiên",
+                        "oldest": "Cũ nhất đầu tiên",
+                        "recent_activity": "Hoạt động gần đây",
+                        "least_recent": "Hoạt động cũ nhất"
+                    }
+                }
+            },
+            "notifications": {
+                "replied_to_ticket": {
+                    "name": "Ai đó trả lời vé hỗ trợ của tôi",
+                    "content": "=> v17development-flarum-support.emails.replied_to_ticket.subject"
+                },
+                "ticket_resolved": {
+                    "name": "Vé hỗ trợ của tôi đã được giải quyết",
+                    "content": "=> v17development-flarum-support.emails.ticket_resolved.subject"
+                }
+            }
+        },
+        "emails": {
+            "replied_to_ticket": {
+                "subject": "{replier_display_name} đã trả lời phiếu #{ticket_id} của bạn",
+                "body": "Kính gửi {recipient_display_name},\n\n{replier_display_name} đã trả lời vé #{ticket_id} (chủ đề \"{subject}\") của bạn.\n\nVui lòng sử dụng liên kết dưới đây để xem lại câu trả lời:\n{url}\n\nChúng tôi đang đợi câu trả lời của bạn hoặc cho đến khi bạn đánh dấu rằng vé này đã được giải quyết.\n"
+            },
+            "ticket_status_update": {
+                "subject": "Phiếu #{ticket_id} được đánh dấu là {new_status}",
+                "body": "Kính gửi {recipient_display_name},\n\nTrạng thái phiếu #{ticket_id} của bạn đã thay đổi thành {new_status}.\n\nURL của phiếu của bạn là:\n{url}\n"
+            },
+            "ticket_resolved": {
+                "subject": "Phiếu #{ticket_id} được đánh dấu là đã giải quyết",
+                "body": "Kính gửi {recipient_display_name},\n\nPhiếu #{ticket_id} của bạn đã được đánh dấu là đã giải quyết. Điều này có nghĩa là phiếu của bạn đã bị đóng.\n\nURL của phiếu của bạn là:\n{url}\n\nNếu bạn không đồng ý đánh dấu phiếu của mình là đã giải quyết, vui lòng trả lời phiếu của bạn để mở lại.\n"
+            },
+            "ticket_pending_reply": {
+                "subject": "Phiếu #{ticket_id} đang chờ bạn trả lời",
+                "body": "Kính gửi {recipient_display_name},\n\nGần đây, {replier_display_name} đã trả lời phiếu #{ticket_id} của bạn vào {replied_date} và chúng tôi đang chờ câu trả lời của bạn.\n\nURL của phiếu của bạn là:\n{url}\n\nNếu vấn đề đã được giải quyết, vui lòng đánh dấu phiếu là đã được giải quyết.\n"
+            },
+            "ticket_pending_reply_closed": {
+                "subject": "Phiếu #{ticket_id} đã bị đóng do không hoạt động",
+                "body": "Kính gửi {recipient_display_name},\n\nGần đây, {replier_display_name} đã trả lời phiếu #{ticket_id} của bạn. Rất tiếc, chúng tôi không nhận được trả lời từ bạn. Phiếu của bạn đã tự động bị đóng do không hoạt động.\n\nNếu bạn vẫn muốn trả lời, URL của phiếu của bạn là:\n{url}\n"
+            }
+        }
+    }
+}

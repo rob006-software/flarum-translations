@@ -3,7 +3,7 @@
         "admin": {
             "settings": {
                 "allow_username_format_label": "Autoriser le format de mention du nom d'utilisateur (@utilisateur)",
-                "allow_username_format_text": "Le format actuel des mentions d'utilisateur est @\"Nom d'affichage\"#Identifiant.\nCe paramètre permet d'utiliser l'ancien format @\"Nom d'utilisateur\" qui sera néanmoins converti au nouveau format lors de la sauvegarde.\n"
+                "allow_username_format_text": "Le format actuel des mentions d'utilisateur est @\"Nom d'affichage\"#Identifiant.\nCe paramètre permet d'utiliser l'ancien format @\"Nom d'utilisateur\" qui sera néanmoins converti au nouveau format lors de l'enregistrement.\n"
             }
         },
         "forum": {
@@ -18,7 +18,7 @@
             },
             "post": {
                 "mentioned_by_self_text": "{users} avez répondu à ça.",
-                "mentioned_by_text": "{count, plural, one {{users} a répondu à ça} other {{users} ont répondu à ça}}",
+                "mentioned_by_text": "{users} a répondu à ça.",
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Citer",
                 "reply_link": "=> core.ref.reply",

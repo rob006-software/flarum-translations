@@ -8,7 +8,7 @@
                 "mode": "Modalità di operazione",
                 "mode_help": "La modalità Frontend è una soluzione efficiente che non utilizza il database. La modalità Programmata richiede una configurazione CRON e consente di impostare intervalli di tempo come condizioni.\n",
                 "mode_options": {
-                    "frontend": "",
+                    "frontend": "Frontend",
                     "scheduler": "Programmata (CRON)"
                 },
                 "scheduler_frequency": "Frequenza per la modalità programmata",
@@ -24,14 +24,14 @@
                 "conditions_help": "Commenti è il numero totale di risposte, incluso il primo post. Le visualizzazioni vengono ottenute dalle estensioni MichaelBelgium o Flarumite. Il periodo di tempo impostato verrà utilizzato per contare i commenti o le visualizzazioni nelle ultime n ore. Solo l'estensione MichaelBelgium è supportata per le visualizzazioni a intervalli di tempo. Lascia vuoto il periodo di tempo o imposta 0 ore per contare tutti i commenti e le visualizzazioni complessive.\n",
                 "add": "Aggiungi un'altra condizione",
                 "comments": "Commenti",
-                "comments_placeholder": "",
+                "comments_placeholder": "0",
                 "views": "Visite",
-                "views_placeholder": "",
+                "views_placeholder": "0",
                 "within": "entro",
                 "within_placeholder": "sempre",
-                "hours": "",
-                "and": "",
-                "or": ""
+                "hours": "h",
+                "and": "e",
+                "or": "o"
             }
         }
     }

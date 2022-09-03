@@ -8,9 +8,15 @@
             "update_category": "Update category",
             "edit_category": "Edit category",
             "nothing_here_yet": "You did not create any badges or categories yet.",
+            "show_badges_on_user_card": "Show badges on user card",
+            "number_of_badges_on_user_card": "Number of badges",
+            "number_of_badges_on_user_card_help": "Number of badges to show on user card",
             "permissions": {
+                "badge_detail_users": "Can see users on badge details page",
                 "give_badge": "Give badge to user",
-                "take_badge": "Take badge from user"
+                "take_badge": "Take badge from user",
+                "edit_own_card_badges": "Edit own user card badges",
+                "edit_card_badges": "Edit user card badges"
             },
             "confirm_dialog": {
                 "title": "Confirm",
@@ -26,11 +32,20 @@
                 "icon": "Badge icon",
                 "description": "Badge description",
                 "visible": "Visible",
-                "visible_description": "Enable this badge. When disabled, the badge will not be visible."
+                "visible_description": "Enable this badge. When disabled, the badge will not be visible.",
+                "is_image": "Badge is an image",
+                "is_image_description": "Use an image instead of the default badge",
+                "image": "Badge image URL",
+                "image_placeholder": "Enter URL to badge image",
+                "icon_color": "Icon color",
+                "background_color": "Background color",
+                "label_color": "Text color"
             },
             "badge_category": {
                 "name": "Category name",
                 "description": "Category description",
+                "blockview": "Block-view",
+                "blockview_description": "Show category-badges in blockview on badge overview. When disabled, all badges will be displayed in a table.",
                 "enabled": "Enabled",
                 "enabled_description": "Enable this category. When disabled, all badges will be disabled and the category will be hidden."
             },
@@ -67,7 +82,9 @@
             "select_badge": "Select badge",
             "user_has_badge": "The user already has this badge.",
             "user_no_badges": "This user does not have any badges yet.",
+            "no_received": "No user have earned this badge.",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "Save changes",
             "badge": {
                 "badge": "Badge",
                 "badges": "Badges",
@@ -78,12 +95,27 @@
                 "no_earning_reason": "No earning reason set",
                 "earned_on": "Badge earned on",
                 "category": "Badge category",
-                "earned_count": "{count, plural, one {<b># user</b> has earned this badge} other {<b># users</b> have earned this badge}}"
+                "received_on": "Received on {date}",
+                "badge_details": "Badge details",
+                "earned_count": "{count, plural, one {<b># user</b> has earned this badge} other {<b># users</b> have earned this badge}}",
+                "earned_by_count": "{count, plural, one {Earned by <b># user</b>} other {Earned by <b># users</b>}}",
+                "others_link": "+ {count} More"
+            },
+            "badges_in_card": {
+                "title": "Badges in user card",
+                "manage_badges": "Manage badges",
+                "description": "You can change the visible badges in your user card with one of your other badges. If you don't select any, they'll be selected automatically.",
+                "select_limit": "You can select {limit, plural, one {<b>one badge</b>} other {<b># badges</b>}} to be visible in your user card.",
+                "hit_limit": "There's only place for <b> {limit, plural, one {<b>one badge</b>} other {<b># badges</b>}}</b> in your card. Unselect a badge to make room for this badge."
             },
             "moderation": {
                 "remove_badge": "Remove badge from user",
                 "remove_badge_confirm": "Are you sure you want to remove this badge from this user?",
                 "give_badge": "Give badge"
+            },
+            "notification": {
+                "title": "You have received a new badge",
+                "settings": "I have received a badge"
             }
         }
     }

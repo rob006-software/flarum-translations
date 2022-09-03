@@ -1,0 +1,51 @@
+{
+    "fof-polls": {
+        "admin": {
+            "permissions": {
+                "view_results_without_voting": "Ver resultados sem votar",
+                "start": "Iniciar uma enquete",
+                "self_edit": "Permitir que os usuários editem suas próprias enquetes",
+                "vote": "Vote nas enquetes",
+                "change_vote": "Mudar voto",
+                "moderate": "Editar e remover enquetes"
+            }
+        },
+        "forum": {
+            "days_remaining": "Enquete termina em {time}.",
+            "no_permission": "Você não tem permissão para votar",
+            "poll_ended": "Esta enquete terminou.",
+            "public_poll": "Veja quem votou",
+            "composer_discussion": {
+                "add_poll": "Adicionar enquete",
+                "edit_poll": "=> fof-polls.forum.moderation.edit"
+            },
+            "modal": {
+                "add_title": "Adicionar enquete",
+                "add_option_label": "Adicionar uma opção",
+                "date_placeholder": "Data de término da enquete (opcional)",
+                "edit_title": "Editar enquete",
+                "include_question": "Você deve incluir uma pergunta",
+                "max": "Você pode ter no máximo 10 respostas",
+                "min": "Você deve incluir um mínimo de 2 respostas",
+                "no_voters": "Sem votos",
+                "option_placeholder": "Resposta",
+                "options_label": "Respostas",
+                "public_poll_label": "Permitir que as pessoas vejam quem votou",
+                "question_placeholder": "Pergunta",
+                "submit": "Enviar"
+            },
+            "moderation": {
+                "delete": "Remover enquete",
+                "delete_confirm": "Tem certeza de que deseja excluir esta enquete?",
+                "edit": "Editar enquete"
+            },
+            "tooltip": {
+                "badge": "Enquete",
+                "votes": "{count, plural, one {# vote} other {# votes} }"
+            },
+            "votes_modal": {
+                "title": "Veja quem votou"
+            }
+        }
+    }
+}

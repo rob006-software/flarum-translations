@@ -1,0 +1,34 @@
+{
+    "guest-posting": {
+        "forum": {
+            "alert": {
+                "create-account": "Create an account now and import your {count} posts!",
+                "create-account-votes-only": "Create an account now and import your {count} votes!",
+                "create-account-posts-and-votes": "Create an account now and import your {postCount} posts and {voteCount} votes!",
+                "signup": "Sign Up"
+            },
+            "modal": {
+                "import": "Import my {count} guest posts",
+                "import-votes": "Import my {postCount} guest posts and {voteCount} votes"
+            },
+            "badge": {
+                "guest": "Guest"
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "Guest Posting settings",
+                "enableImport": "Enable importation of existing posts during registration",
+                "sessionLifetime": "Guest session lifetime in hours",
+                "usernames": "Random usernames used for guests"
+            }
+        }
+    },
+    "core": {
+        "lib": {
+            "username": {
+                "deleted_text": "Guest"
+            }
+        }
+    }
+}

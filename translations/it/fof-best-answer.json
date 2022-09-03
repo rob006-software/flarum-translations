@@ -13,12 +13,27 @@
                     "reminders_notice": "Affinché i promemoria funzionino correttamente, è necessario aver impostato correttamente lo scheduler di Flarum."
                 },
                 "allow_select_own_post": "Consenti agli utenti di selezionare i propri post",
-                "select_best_answer_reminder_days": "Ricorda agli utenti di selezionare una risposta migliore dopo X giorni",
-                "schedule_on_one_server": "Usa la direttiva 'onOneServer()' per le pianificazioni (richiede Redis/Memcache)",
-                "schedule_stop_overnight": "Impedire l'esecuzione dell'utilità di pianificazione dei promemoria durante le ore non social (9pm - 8am server time)",
+                "allow_select_own_post_help": "Permetti di selezionere il proprio post come risposta migliore",
+                "enable_all_tags_button": "Abilita tutti i tag per Risposta Migliore",
+                "enable_all_tags_reminder_button": "Abilita tutti i tag per i promemoria di Risposta Migliore",
+                "select_best_answer_reminder_days": "Frequenza promemoria",
+                "select_best_answer_reminder_days_help": "Invia un promemoria dopo un numero di giorni configurabile per invitare a scegliere la risposta migliore, 0 = disabilita promemoria.",
+                "schedule_on_one_server": "Usa la direttiva 'onOneServer()' per le pianificazioni",
+                "schedule_on_one_server_help": "Richiede Redis/Memcache",
+                "schedule_stop_overnight": "Impedisci l'invio di notifiche promemoria  durante determinate ore",
+                "schedule_stop_overnight_help": "9pm - 8am orario server",
                 "schedule_log_output": "Aggiungi l'output dello scheduler alla memoria del registro",
-                "remind_tag_ids": "Per limitare i promemoria a tag particolari, inserisci qui l'ID del tag (separato da virgole)",
-                "use_alt_ui": "Usa layout alternativo (pulsante di risposta migliore nel footer del post)"
+                "show_filter_label": "Mostra filtro Risposta Migliore nel menu a comparsa",
+                "show_filter_help": "Per i tag che hanno abilitazione a Risposta migliore, scegli ri mostrare filtro risolto/non risolto nella lista discussioni",
+                "use_alt_ui": "Layout Alternativo",
+                "use_alt_ui_help": "Controlli Risposta Migliore nel footer dei post",
+                "documentation": "Documentazione",
+                "introduction": "Abilita quali tag devono supportare le risposte migliore in <code><a>flarum/tags</a></code> e, facoltativamente, quali tag devono supportare i promemoria. Quando un tag è abilitato per la risposta migliore, assegna le autorizzazioni a ciascun gruppo di utenti che può impostare le risposte (discussione personale, qualsiasi discussione). Le autorizzazioni possono essere assegnate globalmente (per qualsiasi tag abilitato Best Answer) o in base al tag.\n",
+                "remind_tag_ids": "Per limitare i promemoria a tag particolari, inserisci qui l'ID del tag (separato da virgole)"
+            },
+            "edit_tag": {
+                "qna_label": "Abilita Risposta Migliore in questo tag",
+                "reminders": "Invia promemoria per scegliere la Risposta Migliore per le discussioni in questo tag"
             }
         },
         "forum": {
@@ -35,9 +50,28 @@
                 "content": "Seleziona una risposta migliore se la tua domanda ha ricevuto una risposta",
                 "awarded": "Il tuo post è stato scelto come migliore risposta da {nome utente}",
                 "preferences": {
-                    "awarded_best_answer": "Quando qualcuno imposta il mio post come una risposta migliore",
-                    "best_answer_in_discussion": "Quando una risposta migliore è stata scelta in una discussione a cui ho partecipato"
+                    "awarded_best_answer": "Qualcuno imposta il mio post come risposta migliore",
+                    "best_answer_in_discussion": "Una risposta migliore è stata scelta in una discussione a cui ho partecipato",
+                    "select_best_answer": "Un promemoria automatico per selezionare una risposta migliore nel thread che ho aperto"
                 }
+            },
+            "index": {
+                "ask_question": "Fai una domanda",
+                "cannot_ask_question": "Non può fare una domanda",
+                "solved_link": "Discussioni Risolte",
+                "unsolved_link": "Discussioni non risolte"
+            },
+            "filter": {
+                "all_label": "Tutte le domande",
+                "solved_label": "Domande Risolte",
+                "unsolved_label": "Domande non risolte",
+                "accessible_label": "Selezione risolta/non risolta"
+            },
+            "composer": {
+                "titlePlaceholder": "Titolo Domanda"
+            },
+            "user": {
+                "best-answer-count": "{count, plural, one { {count} risposta migliore} other {{count} risposte migliori}}"
             }
         },
         "email": {

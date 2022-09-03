@@ -1,0 +1,47 @@
+{
+    "the-turk-miserable-users": {
+        "admin": {
+            "permissions": {
+                "miserable_user_label": "=> the-turk-miserable-users.ref.miserable_user"
+            },
+            "settings": {
+                "range_separator_text": " a ",
+                "range_seconds_text": " Secondi",
+                "loading_delay_label": "Ritardo di caricamento",
+                "loading_delay_text": "Gli utenti miserabili saranno soggetti a un ritardo di caricamento della pagina di un periodo casuale tra i due valori forniti qui.",
+                "broken_page_chance_label": "Possibilità di pagina iraggiungibile",
+                "broken_page_chance_text": "Di tanto in tanto potresti presentare agli utenti miserabili una pagina interrotta. Inserisci la percentuale di probabilità che ciò accada.",
+                "flood_time_multiplier_label": "Moltiplicatore del tempo per postare",
+                "flood_time_multiplier_text": "Il tempo minimo standard (che è di 10 secondi) tra i messaggi può essere moltiplicato per far aspettare più a lungo gli utenti miserabili durante il post di un messaggio.",
+                "redirection_chance_label": "Possibilità di redirect",
+                "redirection_chance_text": "Inserisci la percentuale di possibilità che un utente miserabile venga reindirizzato all'URL della pagina di reindirizzamento.",
+                "redirection_page_url_label": "URL pagina redirect",
+                "redirection_page_url_text": "Puoi reindirizzare casualmente gli utenti miserabili a una pagina diversa. Lascia vuoto questo campo per reindirizzare alla home page del forum.",
+                "log_out_chance_label": "Possibilità di Log out",
+                "log_out_chance_text": "Inserisci la percentuale di possibilità che un utente infelice venga disconnesso e reindirizzato alla home page. <b>Ricorda!</b> Una volta disconnessi, non sono più miserabili.",
+                "shuffle_post_chance_label": "Possibilità di mischiare le parole nei post",
+                "shuffle_post_chance_text": "Puoi mescolare casualmente le parole del post di un utente miserabile. Inserisci la percentuale di probabilità che ciò accada."
+            }
+        },
+        "forum": {
+            "user_badge": {
+                "miserable_user_tooltip": "=> the-turk-miserable-users.ref.miserable_user"
+            },
+            "user_controls": {
+                "miserable_user_button": "=> the-turk-miserable-users.ref.miserable_user"
+            },
+            "miserable_user": {
+                "title": "Miserabile {username}",
+                "status_heading": "Stato Miserabile",
+                "not_miserable_label": "Non miserabile",
+                "indefinitely_label": "Miserabile indefinitamente",
+                "limited_time_label": "Miserabile per un tempo limitato...",
+                "limited_time_days_text": " giorni",
+                "submit_button": "=> core.ref.save_changes"
+            }
+        },
+        "ref": {
+            "miserable_user": "Utente Miserabile"
+        }
+    }
+}

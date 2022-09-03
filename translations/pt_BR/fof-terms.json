@@ -1,0 +1,74 @@
+{
+    "fof-terms": {
+        "admin": {
+            "settings": {
+                "title": "Configurações dos Termos",
+                "field": {
+                    "signup-legal-text": "Texto adicional no formulário de inscrição",
+                    "hide-updated-at": "Não mostrar a data de atualização dos termos quando uma atualização estiver disponível",
+                    "date-format": "Formato da data",
+                    "date-format-help": "Você pode usar qualquer formato <a>Day.js</a> válido. Deixe o campo vazio por padrão."
+                }
+            },
+            "titles": {
+                "policies": "Políticas"
+            },
+            "buttons": {
+                "new-policy": "Nova Política",
+                "edit-policy": "Editar Política",
+                "add-policy": "Adicionar Política",
+                "save-policy": "Salvar Política",
+                "delete-policy": "Deletar Política",
+                "set-to-now": "Definir para agora"
+            },
+            "messages": {
+                "delete-policy-confirmation": "Isso excluirá permanentemente a política {name} e as datas de aceitação associadas do banco de dados. Certifique-se de fazer um backup dessas datas se precisar delas por motivos legais. Tem certeza de que deseja excluir esta política?\n"
+            },
+            "policies": {
+                "name": "Nome",
+                "name-help": "Este nome será mostrado ao lado da caixa de seleção e como o título do modal de atualização.",
+                "url": "URL",
+                "url-help": "O URL para a página onde você pode ler os termos. Abrirá em uma nova aba quando clicado.",
+                "update-message": "Atualizar Mensagem",
+                "update-message-help": "Uma mensagem para mostrar aos usuários existentes que ainda não aceitaram os termos mais recentes.",
+                "terms-updated-at": "Atualizado em",
+                "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
+                "terms-updated-at-help": "A data da última atualização de termos. Definir esse valor exigirá que todos os usuários que aceitaram antes dessa data aceitem novamente. Deve estar no passado (caso contrário, os usuários nunca conseguiriam aceitar após a data e passar do modal).\n",
+                "export-url": "Exportar URL",
+                "export-url-help": "Qualquer usuário com permissão \"Exportar todos os dados de políticas\" pode acessar esses URLs para baixar a lista de usuários que aceitaram esta política. Você pode encontrar mais detalhes sobre as opções disponíveis no <a>wiki da extensão</a>.\n"
+            },
+            "permissions": {
+                "see-user-policies-state": "Veja o estado das políticas do usuário",
+                "postpone-policies-accept": "Pode adiar a aceitação dos novos termos",
+                "export-policies": "Exporte todos os dados de usuários e políticas"
+            }
+        },
+        "forum": {
+            "signup": {
+                "i-accept": "Aceito a <a>{policy}</a>",
+                "must-accept": "A {policy} deve ser aceita."
+            },
+            "accept-modal": {
+                "title": "Atualização de Termos",
+                "updated-at": "Os termos foram atualizados em {date}",
+                "updated-recently": "Os termos foram atualizados desde sua última visita",
+                "i-accept": "Aceito a nova <a>{policy}</a>",
+                "accept": "Confirme",
+                "close": "Obrigado por aceitar, agora você pode voltar ao fórum"
+            },
+            "state-modal": {
+                "title": "O estado de aceite dos termos do usuário {username}",
+                "accepted-at": "Aceito {data}",
+                "not-accepted": "Não aceito"
+            },
+            "update-alert": {
+                "must-accept-message": "Restringimos temporariamente o acesso à sua conta enquanto você verifica os novos termos.",
+                "can-accept-message": "Recentemente, atualizamos os termos. Você deve aceitá-los para continuar usando este site.",
+                "review": "Clique aqui para revisar e aceitar os novos termos"
+            },
+            "user_controls": {
+                "state_button": "Estado de aceite dos termos"
+            }
+        }
+    }
+}

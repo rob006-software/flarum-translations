@@ -1,0 +1,22 @@
+{
+    "fof-passport": {
+        "admin": {
+            "popup": {
+                "field": {
+                    "app-auth-url": "URL ủy quyền OAuth",
+                    "app-token-url": "URL mã token OAuth",
+                    "app-user-url": "URL Api cung cấp thông tin chi tiết về người dùng khi được xác thực",
+                    "app-id": "ID ứng dụng OAuth",
+                    "app-secret": "Mã bí mật ứng dụng OAuth",
+                    "app-scopes": "Scope OAuth yêu cầu",
+                    "button-title": "Nhãn cho nút đăng nhập",
+                    "button-title-placeholder": "=> fof-passport.api.default-login-button-title",
+                    "button-icon": "Biểu tượng cho nút đăng nhập"
+                }
+            }
+        },
+        "api": {
+            "default-login-button-title": "=> core.ref.log_in"
+        }
+    }
+}

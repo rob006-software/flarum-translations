@@ -3,32 +3,32 @@
         "admin": {
             "action_drivers": {
                 "activate_email": "",
-                "add_to_group": "",
-                "remove_from_group": "",
-                "suspend": "",
+                "add_to_group": "සමූහයකට එකතු කරන්න",
+                "remove_from_group": "සමූහයෙන් ඉවත් කරන්න",
+                "suspend": "අත්හිටුවන්න",
                 "unsuspend": ""
             },
             "metric_drivers": {
                 "discussions_entered": "",
                 "discussions_participated": "",
-                "discussions_started": "",
+                "discussions_started": "සාකච්ඡා ආරම්භ විය",
                 "posts_made": "",
                 "likes_given": "",
                 "likes_received": "",
-                "best_answers": "",
+                "best_answers": "හොඳම උත්තර",
                 "moderator_strikes": ""
             },
             "requirement_drivers": {
                 "email_confirmed": "",
                 "in_group": "",
-                "suspended": "",
+                "suspended": "අත්හිටුවා ඇත",
                 "email_matches_regex": ""
             },
             "in_group_settings": {
                 "regex": ""
             },
             "group_selector": {
-                "placeholder": ""
+                "placeholder": "සමූහයක් තෝරන්න"
             },
             "suspend_selector": {
                 "days": "",
@@ -46,23 +46,23 @@
             "criterion_page": {
                 "driver_missing_ext": "",
                 "back": "",
-                "name_label": "",
+                "name_label": "නම",
                 "icon_label": "",
-                "description_label": "",
+                "description_label": "සවිස්තරය",
                 "new_criterion": "",
                 "negated": "",
-                "loading": "",
-                "delete_button": "",
+                "loading": "=> core.ref.loading",
+                "delete_button": "=> core.ref.delete",
                 "metrics_and_requirements_label": "",
                 "metrics_and_requirements_help": "",
                 "metrics_heading": "",
-                "requirements_heading": "",
+                "requirements_heading": "අවශ්‍යතා",
                 "add_metric": "",
-                "actions_label": "",
+                "actions_label": "ක්‍රියාමාර්ග",
                 "actions_help": "",
                 "actions_on_gain_heading": "",
                 "actions_on_loss_heading": "",
-                "add_action": ""
+                "add_action": "ක්‍රියාමාර්ගයක් එකතු කරන්න"
             },
             "undefined_driver_item": {
                 "text": ""
@@ -78,7 +78,7 @@
             }
         },
         "lib": {
-            "group_id": "",
+            "group_id": "සමූහයේ හැඳුනුම",
             "managed_groups": {
                 "header": "",
                 "group_item": "",

@@ -1,8 +1,15 @@
 {
     "justoverclock-hashtag": {
+        "admin": {
+            "settings": {
+                "regexlabel": "Hashtag Regex",
+                "regexdesc": "Un esempio di espressione regolare è visibile qui sotto come placeholder. Modificalo solo se conosci le espressioni regolari.",
+                "oldregexdesc": "Ecco la tua vecchia espressione regolare hashtag: <code>{regex}</code>"
+            }
+        },
         "forum": {
             "post": {
-                "hashtag_link_tooltip": ""
+                "hashtag_link_tooltip": "Cerca post relativi a questo hashtag"
             }
         }
     }

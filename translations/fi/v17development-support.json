@@ -1,0 +1,319 @@
+{
+    "v17development-flarum-support": {
+        "forum": {
+            "knowledge_base": "Tietopankki",
+            "ask_a_question_on_forums": "Kysy kysymys foorumilla",
+            "return_to_home": "Palaa tietopankin etusivulle",
+            "ask_your_question_on_forum": "Kysy kysymyksesi foorumilla",
+            "or": "tai",
+            "settings": "=> core.ref.settings",
+            "send": "Lähetä",
+            "create": "Luo",
+            "discard": "Hylkää",
+            "reopen": "avaa uudelleen",
+            "support_tickets": "Tukipyynnöt",
+            "admin_overview": "Avaa ylläpitonäkymä",
+            "hero": {
+                "help_question": "MIten voimme auttaa?",
+                "check_forum": "Jos et löydä mitä etsit niin voit <a>tutkia foorumiamme</a>"
+            },
+            "overview": {
+                "knowledge_base_overview": "Tietopankin yleiskatsaus",
+                "back_to": "Takaisin {category}",
+                "back_to_overview": "Takaisin tietopankin yleiskatsaukseen",
+                "back_to_main_categories": "Takaisin pääkategorioihin",
+                "loading_articles": "Ladataan artikkeleita",
+                "no_categories_found": "Pahoittelut! Kategorioita ei löytynyt täältä...",
+                "category_not_found": "Kategoriaa ei löytynyt",
+                "no_articles_found": "Artikkeleita ei löytynyt tästä kategoriasta",
+                "tools": {
+                    "new_article": "Uusi artikkeli",
+                    "rename_category": "Nimeä kategoria uudelleen",
+                    "edit_description": "Muokkaa kuvausta",
+                    "change_icon": "Vaihda ikoni"
+                }
+            },
+            "article_events": {
+                "article_hidden": "Artikkelin piilotti {username}",
+                "article_public": "Artikkelin julkaisi {username}",
+                "article_modified": "{username} muokkasi tätä artikkelia."
+            },
+            "search": {
+                "title": "Haku",
+                "back_to_search_results": "Takaisin hakutuloksiin",
+                "search_knowledge_base": "Hae tietopankkiamme",
+                "searching": "Haetaan",
+                "searching_for": "Haetaan {searchterm}",
+                "searched_for": "Hait hakusanalla {searchterm}, löytyi {results} tulosta.",
+                "use_searchbox_below": "Käytä alapuolella olevaa hakukenttää hakeaksesi tietopankista.",
+                "no_results": "Emme löytäneet mitään hakusanalla {searchterm}."
+            },
+            "not_found": {
+                "title": "Ei löytynyt",
+                "description": "Pahoittelut. Tämä artikkeli tai kategoria ei enää sijaitse täällä.",
+                "solution": "Voit käyttää hakukenttää löytääksesi etsimäsi."
+            },
+            "article": {
+                "article": "Artikkeli",
+                "articles": "Artikkelit",
+                "hidden": "Piilotettu",
+                "created_at": "Luotu {date}",
+                "author": "Kirjoittaja",
+                "authors": "Kirjoittajat",
+                "last_modified": "Viimeksi muokattu {date}",
+                "not_found": "Artikkelia ei löytynyt",
+                "share_article": {
+                    "title": "Jaa artikkeli",
+                    "perma_link": "Artikkelin pysyvä linkki:"
+                },
+                "tools": {
+                    "rename_article": "Nimeä artikkeli uudelleen",
+                    "edit_article": "Muokkaa artikkelia",
+                    "edit_tags": "Muokkaa artikkelin avainsanoja",
+                    "audit_log": "Näe valvontaloki",
+                    "hide_article": "Piilota artikkeli",
+                    "recover_article": "Palauta artikkeli",
+                    "delete_forever": "Poista pysyvästi",
+                    "view_ratings": "Näytä arvostelut"
+                }
+            },
+            "support_ratings": {
+                "score": "Pisteet",
+                "helful_article": "Oliko tästä artikkelista apua?",
+                "helful_support": "Oletko tyytyväinen siihen miten käsittelimme tukipyyntösi?",
+                "feedback": "Kiitos arviostasi, oliko teillä vielä palautetta?",
+                "feedback_not_helpful": "Pahoittelut ettei tästä artikkelista ollut apua. Mitähän olit etsimässä?",
+                "enter_feedback": "Syötä palautteesi tähän",
+                "finished": "Kiitos! Palautteesi on tallennettu.",
+                "validation": {
+                    "invalid_discussion": "Hups, jotain meni pieleen. Et voi arvioida tätä artikkelia/tukipyyntöä.",
+                    "guest": "Kirjaudu sisään ennen artikkelin arviointia.",
+                    "invalid_points": "Virheellinen arvio. Yritä uudelleen.",
+                    "cannot_rate_article": "Et voi arvioida tätä artikkelia.",
+                    "neutral_emoji_disabled": "Neutraali hymiö on otettu pois käytöstä.",
+                    "missing_article_id": "Puuttuva tai virheellinen artikkelin ID"
+                },
+                "switch_sort_score": {
+                    "label": "Näytä artikkelit huonoimmasta parhaimpaan",
+                    "description": "Näytä vain artikkelit mitkä ovat saaneet palautetta, huonoimmasta alkaen."
+                }
+            },
+            "modals": {
+                "audit_log": {
+                    "title": "Artikkelin valvontaloki",
+                    "article_created": "Artikkeli luotiin",
+                    "no_more_events": "Lisää tapahtumia ei löytynyt",
+                    "loading_auditlog": "Ladataan valvontalokia"
+                },
+                "article_ratings": {
+                    "title": "Artikkelin arviot",
+                    "loading_ratings": "Ladataan arvioita",
+                    "no_ratings_found": "Hakumääreitä vastaavia artikkeleita ei löytynyt",
+                    "article_not_rated": "Artikkelia ei ole vielä arvioitu.",
+                    "confirm_delete_rating": "Haluatko varmasti poistaa tämän arvion?",
+                    "feedback": "Palaute",
+                    "rating": "Arvio",
+                    "username": "=> core.ref.username",
+                    "rated_on": "Arvioitu"
+                }
+            },
+            "utils": {
+                "redirect": {
+                    "title": "Ohjataan teidät tietopankin artikkeliin...",
+                    "link": "<a>Klikkaa tästä</a> jos sivu ei ohjaa sinua"
+                }
+            },
+            "composer": {
+                "compose_article": "Luo artikkeli",
+                "compose_ticket": "Luo tukipyyntö",
+                "new_article_title": "Uuden artikkelin otsikko",
+                "enter_message_here": "Syötä viestisi tähän",
+                "publish_article": "Julkaise artikkeli",
+                "publish_article_hint": "Julkaise artikkeli kirjoittamisen jälkeen.",
+                "manage_tags": "Hallitse avainsanoja",
+                "write": "Kirjoita",
+                "view": "Näytä",
+                "nothing_to_preview": "Ei mitään esikatseltavaa",
+                "warning_save_changes": "Varoitus: Olet poistumassa tältä sivulta tallentamatta muutoksia. Haluatko tallentaa muutoksesi ennen poistumista?\n\n[OK] = Kyllä, tallenna. [CANCEL] = Ei, älä tallenna\n",
+                "article_saved": "Artikkeli on tallennettu"
+            },
+            "tickets": {
+                "ticket": "Tukipyyntö",
+                "subject": "Aihe",
+                "ticket_does_not_exist": "Pyydetty tukipyyntö ei ole olemassa.",
+                "return_to_overview": "Palaa tukipyynnön yleiskatsaukseen",
+                "ticket_overview": "Tukipyynnön yleiskatsaus",
+                "opened_on": "Avattu",
+                "ticket_activity": "{username}, viimeisin toiminta {date}",
+                "reminders_sent": "{count, plural, one {Yksi muistutus lähetetty} other {# muistutusta lähetetty}}",
+                "convert_to_ticket": {
+                    "button": "Muunna tukipyynnöksi",
+                    "confirm": "Haluatko varmasti muuntaa tämän keskustelun tukipyynnöksi?",
+                    "event": "Keskustelu {ticket_title} on muunnettu tukipyynnöksi"
+                },
+                "convert_to_discussion": {
+                    "button": "",
+                    "confirm": "",
+                    "event": ""
+                },
+                "status": {
+                    "new": {
+                        "title": "Uusi",
+                        "description": "Tämä on vastaamaton tukipyyntö"
+                    },
+                    "open": {
+                        "title": "Avoin",
+                        "description": "Tässä tukipyynnössä on uusi vastaus ja odottaa sinun vastaustasi."
+                    },
+                    "pending": {
+                        "title": "Odottaa",
+                        "description": "Tämä tukipyyntö odottaa vastausta käyttäjältä.",
+                        "description_user": "Odotamme, että sinä vastaat tai merkitset tukipyynnön ratkaistuksi."
+                    },
+                    "closed": {
+                        "title": "Suljettu",
+                        "description": "Tämä tukipyyntö on suljettu.",
+                        "is_closed": "Tämä tukipyyntö on suljettu, kun vastaat tähän niin se avataan uudelleen. Suosittelemme teitä avaamaan tukipyynnön mikäli asia/ongelma ei ole ratkennut. Mikäli tämä on uusi asia/ongelma niin avaa uusi tukipyyntö.",
+                        "close_after_posting": "Sulje tukipyyntö julkaisun jälkeen",
+                        "is_auto_closed": "Tämä tukipyyntö on suljettu toimettomuuden vuoksi."
+                    },
+                    "on_hold": {
+                        "title": "Pidossa",
+                        "description": "Tämä tukipyyntö on asetettu pitoon."
+                    },
+                    "duplicate": {
+                        "title": "Duplikaatti",
+                        "description": "Tämä tukipyyntö on merkitty duplikaatiks."
+                    },
+                    "solved": {
+                        "title": "Ratkaistu",
+                        "description": "Tämä tukipyyntö on merkitty ratkaistuksi",
+                        "mark_as_solved": "Merkitse tukipyyntö ratkaistuksi"
+                    }
+                },
+                "tools": {
+                    "view_ticket": "Näytä tukipyyntö",
+                    "update_subject": "Päivitä aihe",
+                    "assign_me": "Määritä minulle",
+                    "remove_me": "Poista minut",
+                    "update_status": "Päivitä tukipyynnön tila",
+                    "close_ticket": "Sulje tukipyyntö",
+                    "update_note": "Päivitä yksityinen huomio"
+                },
+                "new_tickets_dropdown": {
+                    "title": "Tukipyynnön ilmoitukset",
+                    "no_tickets": "Ei tukipyynnön ilmoituksia",
+                    "ticket_new": "{username} loi tukipyynnön {ticket}",
+                    "ticket_updated": "{username} kirjoitti tukipyyntöön {ticket}"
+                },
+                "fields": {
+                    "language": {
+                        "title": "Kieli",
+                        "placeholder": "Valitse kieli",
+                        "empty": "Kieltä ei ole valittu",
+                        "description": "Tukipyyntösi käsitellään kielellä {language}."
+                    },
+                    "subject": {
+                        "title": "Aihe",
+                        "placeholder": "Tukipyynnön aihe",
+                        "description": "Yritä kuvata kysymyksesi yhdellä lyhyellä lauseella."
+                    },
+                    "information": {
+                        "title": "Tukipyynnön tiedot",
+                        "placeholder": "Kerro meille miten voimme auttaa sinua"
+                    },
+                    "status": {
+                        "title": "Tila",
+                        "placeholder": "Tukipyynnön tila"
+                    },
+                    "assignees": {
+                        "title": "Käsittelijät",
+                        "placeholder": "Tukipyynnön tila"
+                    },
+                    "private_note": {
+                        "title": "Yksityiset huomiot",
+                        "info": "Yksityiset huomiot eivät ole näkyviä. Ne ovat vain käsittelijöille ja eivät näy asiakkaalle.",
+                        "tip": "VINKKI: Jos työskentelet useamman käsittelijän kanssa yhdessä tukipyynnössä, lisää nimi ja päivämäärä huomioon.",
+                        "placeholder": "Esimerkki: 2.4.2022 - Matti Meikäläinen: Poistin asiakkaan tietokannasta",
+                        "edit_button": "Muokkaa huomiota"
+                    }
+                },
+                "compose_ticket": {
+                    "title": "Kirjoita uusi tukipyyntö",
+                    "private_support": "Yksityistä tukea varten voitte luoda uuden tukipyynnön meidän tukialustalle. Julksita tukea varten katsokaa meidän <a>julkisia foorumeita</a>.",
+                    "not_allowed": "Et voi avata uutta tukipyyntöä juuri nyt"
+                },
+                "load_more": {
+                    "title": "Lataa lisää tukipyyntöjä"
+                },
+                "my_tickets": {
+                    "title": "Tukipyyntöni",
+                    "description": "Tältä sivulta löydät kaikki yksityiset tukipyyntösi.",
+                    "no_tickets": "Sinulla ei ole vielä tukipyyntöjä."
+                },
+                "overview": {
+                    "title": "Tukipyynnön yleiskatsaus",
+                    "description": "Hymyile, olet sankari joka pelastaa muiden päivän.",
+                    "no_tickets": "Hakukriteereitäsi vastaavia tukipyyntöjä ei ole, teet todennäköisesti hyvää työtä!",
+                    "all_tickets": "Kaikki tukipyynnöt",
+                    "selection_unfiltered": "Suodattamaton",
+                    "selection_open": "Avoimet tukipyynnöt",
+                    "selection_closed": "Suljetut tukipyynnöt",
+                    "refresh": "Päivitä",
+                    "filter": {
+                        "status": {
+                            "title": "Tukipyynnön tila",
+                            "filter_count": "{count, plural, one {# suodatin} other {# suodatinta}}"
+                        },
+                        "language": {
+                            "any": "Mikä tahansa kieli"
+                        },
+                        "assignees": {
+                            "title": "Suodata käsittelijän perusteella",
+                            "search": "Hae käsittelijää",
+                            "unassigned": "Määräämätön"
+                        }
+                    },
+                    "sort": {
+                        "newest": "Uusin ensin",
+                        "oldest": "Vanhin ensin",
+                        "recent_activity": "Viimeisin toiminta",
+                        "least_recent": "Vanhin toiminta"
+                    }
+                }
+            },
+            "notifications": {
+                "replied_to_ticket": {
+                    "name": "Joku vastasi tukipyyntööni",
+                    "content": "=> v17development-flarum-support.emails.replied_to_ticket.subject"
+                },
+                "ticket_resolved": {
+                    "name": "Tukipyyntöni ratkaistiin",
+                    "content": "=> v17development-flarum-support.emails.ticket_resolved.subject"
+                }
+            }
+        },
+        "emails": {
+            "replied_to_ticket": {
+                "subject": "{replier_display_name} vastasi tukipyyntöösi #{ticket_id}",
+                "body": "Hyvä {recipient_display_name},\n\n{replier_display_name} vastasi tukipyyntöösi #{ticket_id} (subject \"{subject}\").\n\nKäytä alla olevaa linkkiä nähdäksesi vastauksen:\n{url}\n\nOdotamme, että vastaat tai merkitset tämän tukipyynnön ratkaistuksi.\n"
+            },
+            "ticket_status_update": {
+                "subject": "Tukipyynnön #{ticket_id} uusi tila on {new_status}",
+                "body": "Hyvä {recipient_display_name},\n\nTukipyyntösi #{ticket_id} uusi tila on {new_status}.\n\nTukipyyntösi osoite on:\n{url}\n"
+            },
+            "ticket_resolved": {
+                "subject": "Tukipyyntö #{ticket_id} on merkitty ratkaistuksi",
+                "body": "Hyvä {recipient_display_name},\n\nTukipyyntösi #{ticket_id} on merkitty ratkaistuksi. Tämä tarkoittaa sitä, että tukipyyntö on suljettu.\n\nTukipyyntösi osoite on:\n{url}\n\nJos olette eri mieltä tämän tukipyynnön ratkaisusta, voitte vastata tähän tukipyyntöön avataksenne sen uudelleen.\n"
+            },
+            "ticket_pending_reply": {
+                "subject": "Tukipyyntö #{ticket_id} odottaa vastaustasi",
+                "body": "Hyvä {recipient_display_name},\n\n{replier_display_name} vastasi tukipyyntöösi #{ticket_id} ({replied_date}) ja me odotamme teidän vastaustanne.\n\nTukipyyntösi osoite on:\n{url}\n\nJos asia/ongelma on ratkaistu, ole hyvä ja merkitse tukipyyntö ratkaistuksi.\n"
+            },
+            "ticket_pending_reply_closed": {
+                "subject": "Tukipyyntö #{ticket_id} on suljettu toimettomuuden vuoksi",
+                "body": "Hyvä {recipient_display_name},\n\n{replier_display_name} vastasi tukipyyntöösi #{ticket_id}. Emme kuitenkaan saaneet teiltä vastausta. Tukipyyntö on suljettu toimettomuuden vuoksi automaattisesti.\n\nJos haluatte vielä vastata niin tukipyyntönne osoite on:\n{url}\n"
+            }
+        }
+    }
+}

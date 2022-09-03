@@ -2,12 +2,12 @@
     "fof-secure-https": {
         "admin": {
             "settings": {
-                "replace": ""
+                "replace": "Proxy immagini attraverso HTTPS"
             }
         },
         "forum": {
-            "removed": "",
-            "show": ""
+            "removed": "Immagine rimossa a causa della mancanza di supporto per HTTPS.",
+            "show": "Mostra Comunque"
         }
     }
 }

@@ -1,0 +1,15 @@
+{
+    "flarum-ext-purify": {
+        "forum": {
+            "obscure": "[Rimosso]"
+        },
+        "admin": {
+            "additem": "Aggiungi parole da censurare all'array",
+            "additemdesc": "separa ogni parola da una virgola (es. parola1,parola2,parola3,)",
+            "hidemail": "Nascondi indirizzi Email",
+            "customreg": "Usa Regex personalizzato",
+            "customregexp": "Usa Regexp personalizzato",
+            "customregexpdesc": "Scrivi qui il tuo regexp in base alle tue esigenze (ad es. (flarum|best|extension) per censurare queste 3 parole)"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "tpokorra-post-notification": {
+        "admin": {
+            "settings": {
+                "title": "Konfigurácia upozornení príspevku",
+                "recipients": {
+                    "post_approval": {
+                        "to": "Zoznam E-mailových adries oddelených čiarkou príjemcovi \"Komu\" pre schválenie nových príspevkov"
+                    },
+                    "new_discussion": {
+                        "to": "Zoznam E-mailových adries oddelených čiarkou príjemcovi \"Komu\" pre nové diskusie",
+                        "bcc": "Zoznam E-mailových adries oddelených čiarkou príjemcovi \"BCC\" pre nové diskusie"
+                    },
+                    "new_post": {
+                        "to": "Zoznam E-mailových adries oddelených čiarkou príjemcovi \"Komu\" pre nové príspevky",
+                        "bcc": "Zoznam E-mailových adries oddelených čiarkou príjemcovi \"BCC\" pre nové príspevky"
+                    },
+                    "revised_post": {
+                        "to": "Zoznam E-mailových adries oddelených čiarkou príjemcovi \"Komu\" pre revizované príspevky",
+                        "bcc": "Zoznam E-mailových adries oddelených čiarkou príjemcovi \"BCC\" pre revizované príspevky"
+                    }
+                },
+                "new_discussion": "Menovka popisujúca novú diskusiu",
+                "new_post": "Menovka popisujúca nový príspevok",
+                "revised_post": "Menovka popisujúca revizovaný príspevok",
+                "post_approval": "Menovka popisujúca nový príspevok ktorý potrebuje schválenie"
+            }
+        }
+    }
+}

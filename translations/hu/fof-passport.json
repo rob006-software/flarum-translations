@@ -1,0 +1,22 @@
+{
+    "fof-passport": {
+        "admin": {
+            "popup": {
+                "field": {
+                    "app-auth-url": "OAuth hitelesítési webcím",
+                    "app-token-url": "OAuth token webcíme",
+                    "app-user-url": "API webcím, amely a felhasználó adatait biztosítja hitelesítés után",
+                    "app-id": "OAuth alkalmazásazonosító",
+                    "app-secret": "OAuth alkalmazástitok",
+                    "app-scopes": "Kérendő OAuth-hatókörök",
+                    "button-title": "A bejelentkezési gomb címkéje",
+                    "button-title-placeholder": "=> fof-passport.api.default-login-button-title",
+                    "button-icon": "A bejelentkezési gomb ikonja"
+                }
+            }
+        },
+        "api": {
+            "default-login-button-title": "=> core.ref.log_in"
+        }
+    }
+}

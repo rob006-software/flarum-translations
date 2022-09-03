@@ -1,0 +1,79 @@
+{
+    "fof-follow-tags": {
+        "forum": {
+            "settings": {
+                "notify_new_discussion_label": "Публикация дискуссии в теге, на который я подписан",
+                "notify_new_post_label": "Публикация сообщения в теге, на который я подписан",
+                "notify_new_discussion_tag_label": "Перемещение дискуссии в тег, на который я подписан"
+            },
+            "index": {
+                "follow_tag_button": "Подписка",
+                "unfollow_tag_button": "Отписка",
+                "following": {
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
+                }
+            },
+            "badge": {
+                "following_tag_tooltip": "Подписка",
+                "lurking_tag_tooltip": "Наблюдение"
+            },
+            "sub_controls": {
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
+                "following_text": "Получать уведомления обо всех новых дискуссиях.",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
+                "hiding_text": "Скрыть дискуссию со страницы \"Все дискуссии\".",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
+                "ignoring_text": "Никогда не уведомлять.",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
+                "lurking_text": "Получать уведомления обо всех новых дискуссиях и сообщениях.",
+                "not_following_button": "Не подписан",
+                "not_following_text": "Уведомить при @упоминании.",
+                "notify_alert_tooltip": "Получать уведомления на форуме, когда появляются новые дискуссии или сообщения",
+                "notify_email_tooltip": "Получать e-mail, когда появляются новые дискуссии или сообщения"
+            },
+            "notifications": {
+                "new_discussion_text": "{username} создал(а)",
+                "new_post_text": "{username} ответил(а)",
+                "new_discussion_tag_text": "{username} изменил(а) тег"
+            },
+            "user": {
+                "settings": {
+                    "heading": "Подписка на теги",
+                    "filter_label": "Показывать по умолчанию на странице подписок"
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "following_page_default_label": "Фильтр страницы подписок по умолчанию",
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
+            }
+        },
+        "email": {
+            "subject": {
+                "newDiscussionInTag": "[Тег | Новая дискуссия] {title}",
+                "newPostInTag": "[Тег | Новое сообщение] {title}",
+                "newDiscussionTag": "[Тег | Изменение тега] {title}"
+            },
+            "body": {
+                "newDiscussionInTag": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} создал(а) новую дискуссию: {discussion_title}\n\nЧтобы посмотреть новую дискуссию, перейдите по следующей ссылке:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newPostInTag": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} ответил(а) в дискуссии: {discussion_title}\n\nЧтобы посмотреть новое сообщение, перейдите по следующей ссылке:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nВы не будете получать уведомления об этой дискуссии, пока не ознакомитесь с текущей информацией.\n",
+                "newDiscussionTag": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} изменил тег дискуссии, автором которой является {author_display_name} на тег, на который Вы подписаны {discussion_title}\n\nЧтобы посмотреть новую дискуссию, перейдите по следующей ссылке:\n{discussion_url}\n"
+            }
+        },
+        "ref": {
+            "follow": "Подписка",
+            "following": "Подписка",
+            "hiding": "Скрыть",
+            "ignoring": "Игнорировать",
+            "lurking": "Следить",
+            "filtering_options": {
+                "none": "Наблюдаемые обсуждения",
+                "tags": "Наблюдаемые теги"
+            }
+        }
+    }
+}

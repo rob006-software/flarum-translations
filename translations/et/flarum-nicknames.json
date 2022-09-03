@@ -7,7 +7,10 @@
             "settings": {
                 "max_label": "Hüüdnime suurim pikkus",
                 "min_label": "Hüüdnime väikseim pikkus",
+                "random_username_label": "",
+                "random_username_help": "",
                 "regex_label": "Valideerimise regulaaravaldis",
+                "set_on_registration_label": "",
                 "unique_label": "Nõua unikaalseid hüüdnimesid?"
             },
             "wrong_driver": "Selleks, et see laiendus rakenduks, pead <a><strong>Põhiseadete lehel</strong></a> valima kuvatavaks nimeks hüüdnime."
@@ -26,10 +29,14 @@
             },
             "settings": {
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": ""
             }
         },
         "ref": {
-            "change_nickname": "Muuda hüüdnime"
+            "change_nickname": "Muuda hüüdnime",
+            "nickname": ""
         }
     }
 }

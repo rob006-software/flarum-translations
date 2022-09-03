@@ -5,6 +5,14 @@
                 "desc": "Customize your HTML email templates."
             },
             "settings": {
+                "attributes": {
+                    "body": "Contains the actual content of the email",
+                    "forumStyle": "Contains the <strong>entire forum CSS</strong>",
+                    "url": "Flarum's <code>UrlGenerator</code>",
+                    "settings": "Allows you to interact with the SettingsRepositoryInterface",
+                    "link": "Contains the link within the email"
+                },
+                "attributes_label": "Available attributes",
                 "label": "Email Templates",
                 "reset": "Revert to Default",
                 "confirm": "Are you sure you want to revert to the stock email template for",
@@ -14,7 +22,7 @@
                 "postMentioned": "Flarum/mentions Post Mentioned Email",
                 "notifications": "Notification templates",
                 "notificationHelp": "It is recommended to use \"$forumStyle\" for these emails as they may contain BBCODE. These emails also have \"$user\" available which contains the entire user model of the user being emailed.",
-                "help": "\"$body\" will contain the actual content of the email, \"$forumStyle\" contains the <strong>entire forum CSS</strong>, \"$url\" is Flarums UrlGenerator, \"$settings\" allows you to interact with the SettingsRepositoryInterface, and \"$link\" contains the link within the email. See each template for how to use each variable."
+                "template_help": "See each template for how to use each attribute."
             },
             "css_settings": {
                 "label": "CSS settings",

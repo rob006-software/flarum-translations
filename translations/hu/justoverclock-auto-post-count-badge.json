@@ -1,0 +1,39 @@
+{
+    "justoverclock-auto-post-count-badge": {
+        "admin": {
+            "settings": {
+                "tier": "{tier}. szint: {from} és {to} bejegyzés között",
+                "icon-manager": {
+                    "title": "Ikonkezelő",
+                    "help_text": "=> core.ref.icon_text"
+                },
+                "label-manager": {
+                    "title": "Címkeszöveg-kezelő",
+                    "help": "Szintnevek testreszabása"
+                }
+            },
+            "levelOne": "1. szint ikonjának módosítása – „A csecsemő”",
+            "levelOne-help": "illessze be a fontawesome-ikont, amelyet az 1. szinthez szeretne (például „fas fa-square”)",
+            "levelTwo": "2. szint ikonjának módosítása – „Az újonc”",
+            "levelTwo-help": "illessze be a fontawesome-ikont, amelyet a 2. szinthez szeretne (például „fas fa-square”)",
+            "levelTree": "3. szint ikonjának módosítása – „A beszélő”",
+            "levelTree-help": "illessze be a fontawesome-ikont, amelyet a 3. szinthez szeretne (például „fas fa-square”)",
+            "levelFour": "4. szint ikonjának módosítása – „A tanító”",
+            "levelFour-help": "illessze be a fontawesome-ikont, amelyet a 4. szinthez szeretne (például „fas fa-square”)",
+            "levelFive": "5. szint ikonjának módosítása – „A szörny!”",
+            "levelFive-help": "illessze be a fontawesome-ikont, amelyet az 5. szinthez szeretne (például „fas fa-square”)",
+            "levelSix": "6. szint ikonjának módosítása – „A guru!”",
+            "levelSix-help": "illessze be a fontawesome-ikont, amelyet a 6. szinthez szeretne (például „fas fa-square”)"
+        },
+        "forum": {
+            "less10post": "A csecsemő",
+            "less50post": "Az újonc",
+            "less100post": "A beszélő",
+            "less300post": "A tanító",
+            "less600post": "A szörny!",
+            "less1000post": "A guru!",
+            "hasWritten": "{count, plural, one {# bejegyzés írva} other {# bejegyzés írva}}",
+            "posts": ""
+        }
+    }
+}

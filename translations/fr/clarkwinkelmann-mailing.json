@@ -2,32 +2,32 @@
     "clarkwinkelmann-mailing": {
         "admin": {
             "permissions": {
-                "mail_individual": "Envoyer des e-mails à des utilisateurs individuellement",
-                "mail_all": "Envoyer des e-mails aux groupes ou à tous les utilisateurs"
+                "mail_individual": "Envoyer des courriels à des utilisateurs individuels",
+                "mail_all": "Envoyer des courriels aux groupes ou à tous les utilisateurs"
             }
         },
         "forum": {
             "links": {
-                "mail_individual": "Envoyer un e-mail à cet utilisateur",
-                "mail_all": "Envoyer un e-mail"
+                "mail_individual": "Envoyer un courriel à cet utilisateur",
+                "mail_all": "Envoyer un courriel"
             },
             "modal_mail": {
-                "title_text": "Écrire un e-mail",
+                "title_text": "Rédiger un courriel",
                 "recipients_label": "Destinataires",
-                "recipients_placeholder": "Ajouter d’autres destinataires ...",
+                "recipients_placeholder": "Ajouter d'autres destinataires...",
                 "subject_label": "Sujet",
                 "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject",
                 "message_label": "Message",
                 "submit_button": "Envoyer"
             },
             "modal_sent": {
-                "title_text": "E-mail envoyé !",
-                "on_its_way": "Tape m’en cinq ! Votre e-mail est en route vers {recipientsCount} destinataires !"
+                "title_text": "Courriel envoyé !",
+                "on_its_way": "Tope là ! Votre courriel est en route vers {recipientsCount} destinataires !"
             },
             "recipient_kinds": {
                 "user": "Utilisateur",
                 "group": "Groupe",
-                "email": "E-mail"
+                "email": "Courriel"
             }
         },
         "api": {
@@ -37,7 +37,7 @@
             "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject"
         },
         "ref": {
-            "default_subject": "Message de l’administration du forum"
+            "default_subject": "Message de l'administration du forum"
         }
     }
 }

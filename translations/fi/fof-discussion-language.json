@@ -1,0 +1,46 @@
+{
+    "fof-discussion-language": {
+        "forum": {
+            "change_language": {
+                "edit_title": "Muokataan kieltä {title}",
+                "title": "Muokataan kieltä",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "composer_discussion": {
+                "choose_language_link": "Kieli"
+            },
+            "discussion_controls": {
+                "change_language_button": "Aseta kieli"
+            },
+            "index_language": {
+                "any": "Mikä tahansa kieli"
+            }
+        },
+        "admin": {
+            "settings": {
+                "native_label": "Käytä natiiveja kielten nimiä",
+                "show_flag_label": "Näytä maan lippu kielen nimen kanssa",
+                "composer_default_label": "Valitse automaattisesti nykyinen kieli viestin luonnissa",
+                "locale_sort_label": "Käytä havaittua kieltä oletuksena keskustelun suodattimessa",
+                "show_any_lang_opt_label": "Näytä valinta \"Mikä tahansa kieli\"",
+                "tags_page_discussion_locale_label": "Näytä käyttäjän nykyisen kielen keskustelut Avainsanat sivulla",
+                "errors": {
+                    "missing_assets": "Emme voineet ladata tämän lisäosan resursseja. Yritä ajaa komento <code>php flarum assets:publish</code> ja katso jos se ratkaisisi ongelman.",
+                    "loading_data": ""
+                },
+                "config": {
+                    "language_label": "",
+                    "country_label": ""
+                }
+            },
+            "permissions": {
+                "allow_change_language_label": "Salli kielen muuttaminen"
+            }
+        },
+        "api": {
+            "discussion": {
+                "validation_error": "Sinun täytyy valita keskustelun kieli."
+            }
+        }
+    }
+}

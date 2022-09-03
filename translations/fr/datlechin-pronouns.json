@@ -1,0 +1,22 @@
+{
+    "datlechin-pronouns": {
+        "admin": {
+            "settings": {
+                "prefix_label": "Préfixe des pronoms",
+                "prefix_help": "Ce texte s'affichera avant les pronoms de l'utilisateur. Laissez vide pour ne rien afficher.",
+                "icon_label": "Icône de pronoms",
+                "icon_help": "Activez cette option pour afficher une icône au lieu du texte avant les pronoms de l'utilisateur."
+            }
+        },
+        "forum": {
+            "change_pronouns": {
+                "title": "Changer les pronoms",
+                "help": "Vos pronoms apparaîtront sur votre profil et votre carte d'utilisateur. <a>Que sont les pronoms personnels et pourquoi sont-ils importants ?</a>",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "settings": {
+                "change_pronouns_button": "Changer les pronoms"
+            }
+        }
+    }
+}

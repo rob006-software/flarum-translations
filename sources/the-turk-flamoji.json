@@ -1,0 +1,98 @@
+{
+    "the-turk-flamoji": {
+        "admin": {
+            "settings": {
+                "emoji_settings_heading": "Emoji Settings",
+                "category_settings_heading": "Category Settings",
+                "general_ui_settings_heading": "General UI Settings",
+                "show_variants_label": "Show variants",
+                "show_variants_text": "Some emojis have skin tone variants. When an emoji is selected in the picker that has variants, a variant popup will appear so the user can select the desired variant.",
+                "auto_hide_label": "Auto hide",
+                "auto_hide_text": "Hide the picker when an emoji is selected.",
+                "show_preview_label": "Show preview section",
+                "show_category_buttons_label": "Show category buttons",
+                "show_search_label": "Show search input",
+                "show_recents_label": "Show (and save) most recently used emojis",
+                "recents_count_label": "Recently used emoji count",
+                "recents_count_text": "The number of recent emojis to save.",
+                "emoji_style_label": "Emoji style",
+                "emoji_version_label": "Emoji version",
+                "emoji_version_text": "The version of the Emoji specification to use.",
+                "initial_category_label": "Initial category",
+                "initial_category_text": "By default, the picker starts out showing the Smileys & Emotion category.",
+                "specify_categories_label": "Specify categories",
+                "specify_categories_text": "You can specify a list of categories here, and the picker will only show those categories.",
+                "emoji_data_label": "Emoji data",
+                "emoji_data_text": "This is typically used for providing translated emoji names.",
+                "emoji_style_native_option": "Native",
+                "emoji_categories": {
+                    "smileys": "=> the-turk-flamoji.ref.emoji_categories.smileys",
+                    "people": "=> the-turk-flamoji.ref.emoji_categories.people",
+                    "animals": "=> the-turk-flamoji.ref.emoji_categories.animals",
+                    "food": "=> the-turk-flamoji.ref.emoji_categories.food",
+                    "travel": "=> the-turk-flamoji.ref.emoji_categories.travel",
+                    "activities": "=> the-turk-flamoji.ref.emoji_categories.activities",
+                    "objects": "=> the-turk-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> the-turk-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> the-turk-flamoji.ref.emoji_categories.flags"
+                }
+            },
+            "custom_emojis_section": {
+                "heading_title": "Custom Emojis",
+                "import_json_button": "Import JSON",
+                "export_json_button": "Export JSON",
+                "import_emojis_message": "This will import emoji configurations only. You need to upload emoji images manually.",
+                "edit_emoji": {
+                    "modal_title": "Add Emoji",
+                    "emoji_title_label": "Emoji Title",
+                    "delete_emoji_confirmation": "Are you sure you want to delete this emoji?",
+                    "text_to_replace_label": "Text to Replace",
+                    "path_or_url_label": "Path or URL",
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_emoji_button": "Delete emoji",
+                    "saved_message": "=> core.admin.settings.saved_message"
+                },
+                "emoji_list": {
+                    "load_more_button": "=> core.forum.post_stream.load_more_button"
+                }
+            }
+        },
+        "forum": {
+            "composer": {
+                "emoji_tooltip": "Insert emoji"
+            },
+            "emoji-button": {
+                "search_placeholder": "Search Emojis",
+                "no_emojis_found_message": "No emojis found",
+                "categories": {
+                    "recents": "=> the-turk-flamoji.ref.emoji_categories.recents",
+                    "smileys": "=> the-turk-flamoji.ref.emoji_categories.smileys",
+                    "people": "=> the-turk-flamoji.ref.emoji_categories.people",
+                    "animals": "=> the-turk-flamoji.ref.emoji_categories.animals",
+                    "food": "=> the-turk-flamoji.ref.emoji_categories.food",
+                    "travel": "=> the-turk-flamoji.ref.emoji_categories.travel",
+                    "activities": "=> the-turk-flamoji.ref.emoji_categories.activities",
+                    "objects": "=> the-turk-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> the-turk-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> the-turk-flamoji.ref.emoji_categories.flags",
+                    "custom": "=> the-turk-flamoji.ref.emoji_categories.custom"
+                }
+            }
+        },
+        "ref": {
+            "emoji_categories": {
+                "recents": "Recent Emojis",
+                "smileys": "Smileys & Emotion",
+                "people": "People & Body",
+                "animals": "Animals & Nature",
+                "food": "Food & Drink",
+                "travel": "Travel & Places",
+                "activities": "Activities",
+                "objects": "Objects",
+                "symbols": "Symbols",
+                "flags": "Flags",
+                "custom": "Custom"
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "flarum-ext-auth-keycloak": {
+        "admin": {
+            "keycloak_settings": {
+                "title": "Tuş Perdesi Ayarları",
+                "server_url_label": "Sunucu URL'si",
+                "realm_label": "Realm",
+                "client_id_label": "Client ID",
+                "client_secret_label": "Client secret",
+                "encryption_algorithm_label": "Şifreleme algoritması",
+                "encryption_key_label": "Şifreleme anahtarı (veya sertifika)",
+                "role_mapping_label": "Rolden gruba eşleme",
+                "attribute_mapping_label": "Özel nitelik eşlemesi",
+                "delegate_avatars_label": "Temsilci avatarları"
+            }
+        }
+    }
+}

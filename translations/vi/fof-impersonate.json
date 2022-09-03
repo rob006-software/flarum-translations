@@ -1,0 +1,26 @@
+{
+    "fof-impersonate": {
+        "admin": {
+            "permissions": {
+                "login": "Đăng nhập với tư cách người dùng khác"
+            },
+            "settings": {
+                "title": "FoF Impersonate",
+                "require_reason": "Yêu cầu nhập lý do trước khi tiếp tục mạo danh người dùng khác.",
+                "no_settings_available": "Hiện không có cài đặt nào khả dụng. Thử cài đặt fof/moderator-notes"
+            }
+        },
+        "forum": {
+            "modal": {
+                "title": "Đăng nhập với tư cách người dùng khác",
+                "label": "Bằng cách tiếp tục, bạn sẽ trở thành {username} cho đến khi bạn đăng xuất.",
+                "placeholder_optional": "(Tùy chọn) Cung cấp lý do của bạn để chuyển sang người dùng này",
+                "placeholder_required": "Bạn phải cung cấp lý do chuyển sang người dùng này trước khi tiếp tục",
+                "impersonate_username": "Đăng nhập với tư cách {username}"
+            },
+            "user_controls": {
+                "impersonate_button": "Đăng nhập với tư cách người dùng"
+            }
+        }
+    }
+}

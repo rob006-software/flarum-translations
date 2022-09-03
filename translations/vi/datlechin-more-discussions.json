@@ -1,0 +1,25 @@
+{
+    "datlechin-more-discussions": {
+        "admin": {
+            "settings": {
+                "block_name_label": "Tên khối",
+                "block_name_help": "Tên khối (mặc định <code>Cuộc thảo luận mới nhất</code>)",
+                "discussion_limit_label": "Giới hạn cuộc thảo luận",
+                "discussion_limit_help": "Số lượng cuộc thảo luận hiển thị (mặc định <code>5</code>)",
+                "filter_by_label": "Lọc theo",
+                "filter_by_help": "Lọc cuộc thảo luận (mặc định <code>gần đây</code>)",
+                "filter_dropdown": {
+                    "latest": "Gần đây",
+                    "top": "Hàng đầu",
+                    "newest": "Mới nhất",
+                    "oldest": "Cũ nhất",
+                    "hot": "Xu hướng (yêu cầu fof/gamification)",
+                    "votes": "Lượt bình chọn (yêu cầu fof/gamification)"
+                }
+            }
+        },
+        "forum": {
+            "block_default_name": "Cuộc thảo luận mới nhất"
+        }
+    }
+}

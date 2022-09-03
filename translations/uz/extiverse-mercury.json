@@ -1,0 +1,26 @@
+{
+    "extiverse-mercury": {
+        "admin": {
+            "extension-updates-page": {
+                "extension-name": "Kengaytma",
+                "extension-is-up-to-date": "Yangilangan",
+                "highest-version": "Oxirgi reliz",
+                "installed-version": "O'rnatilgan reliz"
+            },
+            "settings": {
+                "token": "Extiverse token (<a>so'rov</a>)",
+                "token-description": "Mercury Flarum hamjamiyatingiz bilan xavfsiz aloqa o'rnatishi uchun <a>Extiverse</a> dan API tokenini oling.\n"
+            },
+            "header-secondary": {
+                "no-token": "Token talab qilinadi",
+                "updates": "{hisoblash, koʻplik, =0 {Yangilanish yoʻq} one {Bitta yangilanish} other {# ta yangilanish}}"
+            }
+        },
+        "email": {
+            "new-extension-update": {
+                "subject": "{hisob, koʻplik, bitta {Hamjamiyatingiz uchun bitta yangilanish mavjud} other {# ta yangilanish hamjamiyatingiz uchun mavjud}}",
+                "body": "Salom {recipient_display_name}!\n\nFlarum hamjamiyatingizda {count} ta yangilanish topildi.\nIloji boricha tezroq yangilash tavsiya etiladi.\n\nYangilanishlar quyidagi kengaytmalarni o'z ichiga oladi {kengaytmalar}.\n\nQoʻshimcha maʼlumot uchun hamjamiyatingizga tashrif buyuring: {url}.\n"
+            }
+        }
+    }
+}

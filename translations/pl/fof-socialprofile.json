@@ -1,16 +1,28 @@
 {
     "fof-socialprofile": {
+        "admin": {
+            "permissions": {
+                "view": "Przeglądanie linków do mediów społecznościowych",
+                "editOwn": "Edytowanie własnych linków do mediów społecznościowych",
+                "editAny": "Edytowanie cudzych linków do mediów społecznościowych"
+            },
+            "settings": {
+                "allow_external_favicons_label": "Zezwalaj na używanie zewnętrznych ikon (wykorzystuje Favicon API od DuckDuckGo)"
+            }
+        },
         "forum": {
             "edit": {
-                "edit": "Edytuj",
-                "add": "Dodaj",
-                "headtitle": "Edytuj przyciski",
+                "edit": "Edytuj linki do mediów społecznościowych",
+                "add": "Dodaj linki do mediów społecznościowych",
+                "headtitle": "Edytuj linki",
                 "title": "Tytuł",
                 "url": "URL",
                 "submit": "Zapisz",
                 "delete": "Usuń",
-                "deletetitle": "Usuń przycisk",
-                "save_disabled_fetching_favicons": "Ikony są pobierane, proszę czekać."
+                "deletetitle": "Usuń link",
+                "save_disabled_fetching_favicons": "Ikony są pobierane, proszę czekać.",
+                "favicon": "Favikona",
+                "grey_favicon": "Szara favikona"
             }
         }
     }

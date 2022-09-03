@@ -1,0 +1,58 @@
+{
+    "nearata-embed-video": {
+        "admin": {
+            "settings": {
+                "options": {
+                    "airplay": "Airplay",
+                    "hotkey": "Gyorsbillentyű",
+                    "lang": "Lejátszó nyelve",
+                    "logo": "Logó webcíme",
+                    "quality_switching": "Minőségváltó",
+                    "theme": "Témaszín",
+                    "modal_enabled": "Párbeszédablak engedélyezve",
+                    "modal_enabled_help": "Engedélyezze a párbeszédablakot vagy csak szúrja be BBCode-ot a szerkesztőbe."
+                },
+                "permissions": {
+                    "can_create_video_player": "Létrehozhat videólejátszót",
+                    "can_view_video_player": "Megtekintheti a videólejátszót"
+                },
+                "video_types": {
+                    "dash": "Dash",
+                    "flv": "Flv",
+                    "hls": "Hls",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
+                }
+            }
+        },
+        "forum": {
+            "button_tooltip_title": "Videó beágyazása",
+            "modal": {
+                "live_mode": "Élő mód",
+                "submit_button": "Változtatások mentése",
+                "title": "Videó beágyazása",
+                "video_type_label": "Videótípus",
+                "video_types": {
+                    "normal": "Normál",
+                    "dash": "Dash",
+                    "flv": "Flv",
+                    "hls": "Hls",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
+                },
+                "video_url_label": "Videó webcíme",
+                "video_url_placeholder": "Például https://example.com/fájlnév.mp4",
+                "quality_switching_tutorial": "Minőségváltási bemutató",
+                "pointer_label": "Mutató",
+                "pointer_option_new": "Új",
+                "quality_option_new": "Új",
+                "add_quality": "Minőség hozzáadása",
+                "remove_quality": "Minőség eltávolítása",
+                "add_pointer": "Mutató hozzáadása",
+                "remove_pointer": "Mutató eltávolítása",
+                "qualities_label": "Minőségek (nem kötelező)"
+            },
+            "cannot_view": "Hiba: Nem tekintheti meg ezt a tartalmat"
+        }
+    }
+}

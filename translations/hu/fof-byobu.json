@@ -1,0 +1,115 @@
+{
+    "fof-byobu": {
+        "forum": {
+            "badges": {
+                "is_private": {
+                    "tooltip": "Privát téma"
+                }
+            },
+            "buttons": {
+                "add_recipients": "Címzettek",
+                "submit": "OK",
+                "edit_recipients": "Címzettek szerkesztése",
+                "send_pd": "Üzenet küldése neki: {username}",
+                "cancel": "Mégse",
+                "make_public": "Téma nyilvánossá tétele",
+                "remove_from_discussion": "A privát téma elhagyása"
+            },
+            "composer_private_discussion": {
+                "submit_button": "Privát téma beküldése",
+                "title_placeholder": "Privát téma címe"
+            },
+            "confirm": {
+                "make_public": "Valóban eltávolítja a résztvevőket és mindenki számára láthatóvá teszi a témát, akik láthatják a hozzárendelt címkét?"
+            },
+            "labels": {
+                "recipients": "{count, plural, one {{count} címzett} other {{count} címzett}}"
+            },
+            "nav": {
+                "start_button": "Privát beszélgetés",
+                "nav_item": "Privát témák"
+            },
+            "input": {
+                "search_recipients": "Keressen címzettet az első három karakter beírásával…"
+            },
+            "search": {
+                "headings": {
+                    "groups": "Engedélycsoportok"
+                }
+            },
+            "modal": {
+                "titles": {
+                    "update_recipients": "A címzettek frissítése itt: {title}",
+                    "add_recipients": "Adjon címzetteket a beszélgetéshez"
+                },
+                "labels": {
+                    "selected_users": "Kiválasztott felhasználók",
+                    "search_field": "Felhasználó keresése"
+                },
+                "help": {
+                    "add_recipients": "Ezt a beszélgetést csak az itt kiválasztott felhasználók láthatják. Legalább 1 címzett (Önön kívül) szükséges.",
+                    "update_recipients": "Ez a beszélgetés csak a kiválasztott felhasználók számára lesz látható.",
+                    "selected_users": "Kattintson a felhasználó nevére az eltávolításához.",
+                    "click_user_to_remove_tooltip": "Kattintson az eltávolításhoz"
+                }
+            },
+            "post": {
+                "recipients_modified": {
+                    "added_and_removed": "{username} hozzáadta címzettként: {added}, és eltávolította: {removed}.",
+                    "added": "{username} hozzáadta címzettként: {added}.",
+                    "made_public": "{username} eltávolította az összes résztvevőt, és nyilvánossá tette a témát",
+                    "removed": "{username} eltávolította a címzettek közül {removed}.",
+                    "removed_self": "{username} elhagyta a privát témát."
+                }
+            },
+            "user": {
+                "settings": {
+                    "block_pd": "Privát témák blokkolása"
+                },
+                "byobu_link": "Privát témák",
+                "dropdown_label": "Privát témák"
+            },
+            "notifications": {
+                "pd_label": "Valaki betett egy privát témába",
+                "pd_reply_label": "Valaki üzenetet küldött egy privát témában, ahol címzett vagyok",
+                "pd_reply_text": "{username} üzenetet küldött egy privát témában, amelynek résztvevője",
+                "pd_text": "{username} egy új privát témát kezdeményezett Önnel",
+                "pd_user_left_label": "Egy címzett elhagyott egy témát, amelynek résztvevője vagyok",
+                "pd_user_left_text": "{username} elhagyta a privát beszélgetést",
+                "pd_added_text": "{username} hozzáadta egy privát témához",
+                "pd_added_label": "Valaki hozzáadott engem egy létező privát témához"
+            }
+        },
+        "admin": {
+            "permission": {
+                "create_private_discussions_with_users": "Új privát témák kezdeményezése felhasználókkal",
+                "create_private_discussions_with_groups": "Új privát témák kezdeményezése csoportokkal",
+                "create_private_discussions_with_blocking_users": "Privát téma kezdeményezése olyan felhasználókkal, akik blokkolják",
+                "edit_user_recipients": "A privát témákban résztvevő felhasználók szerkesztése",
+                "edit_group_recipients": "A privát témákban résztvevő csoportok szerkesztése",
+                "make_private_into_public": "Privát téma átalakítása nyilvános témává",
+                "view_private_discussions-when-flagged": "Más felhasználók privát témáinak megjelenítése, ha jelentették"
+            },
+            "settings": {
+                "badge-icon": "Byobu témajelvény",
+                "enable-make-public-option": "Engedélyezi a „nyilvánossá tétel” lehetőséget",
+                "enable-make-public-option-help": "Lehetőséget ad az összes résztvevő eltávolítására, új címke hozzárendelésére, és arra, hogy nyilvánosan láthatóvá váljon a téma (a kiválasztott címke beállításai alapján).",
+                "post-event-icon": "Byobu bejegyzésesemények"
+            }
+        },
+        "email": {
+            "subject": {
+                "private_discussion_created": "[Privát téma] {display_name} új privát témát indított Önnel",
+                "private_discussion_replied": "[Privát téma] {display_name} üzenetet küldött egy privát témában",
+                "recipient_removed": "[Privát téma] {display_name} elhagyta a témát",
+                "private_discussion_added": "[Privát téma] {display_name} hozzáadta egy privát témához"
+            },
+            "body": {
+                "private_discussion_created": "Kedves {recipient_display_name}!\n\n{actor_display_name} privát témát indított Önnel: {discussion_title}.\n\nItt megtekintheti:\n{discussion_url}\n\nValószínűleg be kell jelentkeznie a hivatkozás eléréséhez.\n",
+                "private_discussion_replied": "Kedves {recipient_display_name}!\n\n{actor_display_name} bejegyzést tett közzé egy privát témában, ahol Ön címzett: {discussion_title}.\n\nItt megtekintheti:\n{post_url}\n\nValószínűleg be kell jelentkeznie a hivatkozás eléréséhez.\n",
+                "recipient_removed": "Kedves {recipient_display_name}!\n\n{actor_display_name} elhagyta a privát témát: {discussion_title}. Többé nem fogja látni a tartalmát.\n\nItt megtekintheti:\n{discussion_url}\n\nValószínűleg be kell jelentkeznie a hivatkozás eléréséhez.\n",
+                "private_discussion_added": "Kedves {recipient_display_name}!\n\n{actor_display_name} hozzáadta egy meglévő privát témához: {discussion_title}.\n\nItt megtekintheti:\n{discussion_url}\n\nValószínűleg be kell jelentkeznie a hivatkozás eléréséhez.\n"
+            }
+        }
+    }
+}
