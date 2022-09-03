@@ -23,8 +23,7 @@
                 "make_public": "Czy jesteś pewien, że chcesz usunąć uczestników i uczynić tę dyskusję widoczną dla każdego, kto może zobaczyć przypisany tag?"
             },
             "labels": {
-                "recipients": "{count, plural, one {{count} uczestnik} other {{count} uczestników}}",
-                "user_deleted": "-usunięty-"
+                "recipients": "{count, plural, one {{count} uczestnik} other {{count} uczestników}}"
             },
             "nav": {
                 "start_button": "Prywatna dyskusja",
@@ -106,10 +105,10 @@
                 "private_discussion_added": "[Prywatna dyskusja] {display_name} dodał Cię do prywatnej dyskusji"
             },
             "body": {
-                "private_discussion_created": "Witaj {recipient_display_name},\n\n{actor_display_name} rozpoczął prywatną dyskusję, której jesteś uczestnikiem: \"{discussion_title}\".\n\nAby zobaczyć dyskusję, kliknij poniższy link:\n{discussion_url}\n\nMusisz być zalogowany, aby zobaczyć tę dyskusję.\n",
+                "private_discussion_created": "Witaj {recipient_display_name},\n\n{actor_display_name} rozpoczął prywatną dyskusję, której jesteś uczestnikiem: \"{discussion_title}\".\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n\nMusisz być zalogowany, aby zobaczyć tę dyskusję.\n",
                 "private_discussion_replied": "Witaj {recipient_display_name},\n\n{actor_display_name} odpowiedział w prywatnej dyskusji, której jesteś uczestnikiem: \"{discussion_title}\".\n\nAby zobaczyć nową zawartość, kliknij poniższy link:\n{post_url}\n\nMusisz być zalogowany, aby zobaczyć tę dyskusję.\n",
-                "recipient_removed": "Witaj {recipient_display_name},\n\n{actor_display_name} opuścił prywatną dyskusję \"{discussion_title}\" i nie ma już dostępu do jej treści.\n\nAby zobaczyć dyskusję, kliknij poniższy link:\n{discussion_url}\n\nMusisz być zalogowany, aby zobaczyć tę dyskusję.\n",
-                "private_discussion_added": "Witaj {recipient_display_name},\n\n{actor_display_name} dodał Cię jako uczestnika do istniejącej prywatnej dyskusji: \"{discussion_title}\".\n\nAby zobaczyć dyskusję, kliknij poniższy link:\n{discussion_url}\n\nMusisz być zalogowany, aby zobaczyć tę dyskusję.\n"
+                "recipient_removed": "Witaj {recipient_display_name},\n\n{actor_display_name} opuścił prywatną dyskusję \"{discussion_title}\" i nie ma już dostępu do jej treści.\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n\nMusisz być zalogowany, aby zobaczyć tę dyskusję.\n",
+                "private_discussion_added": "Witaj {recipient_display_name},\n\n{actor_display_name} dodał Cię jako uczestnika do istniejącej prywatnej dyskusji: \"{discussion_title}\".\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n\nMusisz być zalogowany, aby zobaczyć tę dyskusję.\n"
             }
         }
     }

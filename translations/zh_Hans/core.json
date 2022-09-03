@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "设置范围",
-                "confirm_uninstall": "此扩展的的数据库条目和文件资源都将被永久性删除，确定要继续吗？",
+                "confirm_purge": "重置操作会清除数据库中所有该扩展相关的记录和资源。如要卸载扩展，请通过 Composer 操作。确定要重置扩展吗？",
                 "disabled": "关闭",
                 "enable_to_see": "开启扩展程序以查看或修改设置。",
                 "enabled": "开启",
@@ -116,14 +116,14 @@
                 "no_settings": "此扩展无设置项。",
                 "open_modal": "打开设置",
                 "permissions_title": "权限",
-                "uninstall_button": "卸载",
-                "confirm_purge": "重置操作会清除数据库中所有该扩展相关的记录和资源。如要卸载扩展，请通过 Composer 操作。确定要重置扩展吗？",
                 "purge_button": "重置",
                 "readme": {
                     "button_label": "自述文件",
                     "no_readme": "此扩展未提供自述文件",
                     "title": "{extName} 文档"
-                }
+                },
+                "confirm_uninstall": "此扩展的的数据库条目和文件资源都将被永久性删除，确定要继续吗？",
+                "uninstall_button": "卸载"
             },
             "header": {
                 "get_help": "帮助",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "这里空空如也...",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "标记为已读",
                 "replied_text": "{username} 回复于 {ago}",
                 "started_text": "{username} 发布于 {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# 条回复} other {# 条回复}}",
-                "unread_replies_a11y_label": "{count, plural, one {# 条未读} other {# 条未读}}，全部标记为已读。"
+                "unread_replies_a11y_label": "{count, plural, one {# 条未读} other {# 条未读}}，全部标记为已读。",
+                "mark_as_read_tooltip": "标记为已读"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -459,6 +459,10 @@
             }
         },
         "lib": {
+            "debug_button": "调试",
+            "alert": {
+                "dismiss_a11y_label": "忽略警告"
+            },
             "badge": {
                 "hidden_tooltip": "隐藏"
             },
@@ -481,6 +485,7 @@
             },
             "error": {
                 "dependent_extensions_message": "无法停用「{extension}」，请先停用依赖扩展「{extensions}」",
+                "extension_initialiation_failed_message": "初始化「{extension}」失败，详情信息请查看控制台。",
                 "generic_message": "糟糕，出错啦！请刷新页面重试。",
                 "missing_dependencies_message": "无法启用「{extension}」，请先启用依赖扩展「{extensions}」",
                 "not_found_message": "您请求的资源不存在。",
@@ -491,6 +496,16 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle} - 第 # 页 - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {第 # 页 - {forumName}}}"
+            },
+            "modal": {
+                "close": "关闭"
+            },
+            "nav": {
+                "drawer_button": "打开导航抽屉"
             },
             "number_suffix": {
                 "kilo_text": "千",
@@ -503,20 +518,6 @@
             },
             "username": {
                 "deleted_text": "[已注销]"
-            },
-            "debug_button": "调试",
-            "alert": {
-                "dismiss_a11y_label": "忽略警告"
-            },
-            "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle} - 第 # 页 - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {第 # 页 - {forumName}}}"
-            },
-            "modal": {
-                "close": "关闭"
-            },
-            "nav": {
-                "drawer_button": "打开导航抽屉"
             }
         },
         "views": {

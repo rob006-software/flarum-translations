@@ -3,9 +3,15 @@
         "admin": {
             "permissions": {
                 "be_followed_label": "Darf Benutzern folgen"
+            },
+            "settings": {
+                "button-on-profile-label": "Schaltfläche „Folgen“ direkt in der Kopfzeile des Benutzerprofils anzeigen",
+                "stats-on-profile-label": ""
             }
         },
         "forum": {
+            "followed": "",
+            "followers": "",
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
                 "no_following": "Anscheinend folgst du niemandem."

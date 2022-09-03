@@ -1,0 +1,25 @@
+{
+    "datlechin-more-discussions": {
+        "admin": {
+            "settings": {
+                "block_name_label": "Nom du bloc",
+                "block_name_help": "Le nom du bloc (<code>Dernières discussions</code> par défaut)",
+                "discussion_limit_label": "Limite de discussions",
+                "discussion_limit_help": "Le nombre de discussions à afficher (<code>5</code> par défaut)",
+                "filter_by_label": "Filtrer par",
+                "filter_by_help": "Filtrer les discussions (<code>Activité</code> par défaut)",
+                "filter_dropdown": {
+                    "latest": "Activité",
+                    "top": "Popularité",
+                    "newest": "Nouveauté",
+                    "oldest": "Ancienneté",
+                    "hot": "Tendance (nécessaire pour fof/gamification)",
+                    "votes": "Votes (nécessaire pour fof/gamification)"
+                }
+            }
+        },
+        "forum": {
+            "block_default_name": "Dernières discussions"
+        }
+    }
+}

@@ -2,38 +2,48 @@
     "fof-subscribed": {
         "forum": {
             "settings": {
-                "defaults_label": "",
-                "forced_label": "",
-                "notify_discussion_created_label": "",
-                "notify_post_unapproved_label": "",
-                "notify_user_created_label": ""
+                "defaults_label": "Aseta \"{setting}\" päälle oletuksena",
+                "forced_label": "Pakota \"{setting}\" päälle kaikilta",
+                "notify_discussion_created_label": "Joku luo keskustelun",
+                "notify_post_created_label": "Joku luo uuden viestin tai vastauksen",
+                "notify_post_unapproved_label": "Luotu viesti tarvitsee hyväksyntää",
+                "notify_user_created_label": "Kun joku rekisteröityy",
+                "notify_post_flagged_label": "Joku luo uuden liputuksen viestistä"
             },
             "notifications": {
-                "discussion_created_text": "",
-                "post_unapproved_text": "",
-                "user_created_text": ""
+                "discussion_created_text": "{username} loi uuden keskustelun",
+                "post_created_text": "{username} kirjoitti uuden viestin",
+                "post_unapproved_text": "{username} loi uuden hyväksyntää vaativan viestin",
+                "user_created_text": "{username} rekisteröityi",
+                "post_flagged_text": "{username} liputti viestin"
             }
         },
         "admin": {
+            "permission": {
+                "subscribe_to_discussion_created": "Saa vastaanottaa ilmoituksen uudesta keskustelusta",
+                "subscribe_to_post_created": "Saa vastaanottaa ilmoituksen uudesta viestistä tai vastauksesta",
+                "subscribe_to_post_unapproved": "Saa vastaanottaa ilmoituksen uudesta hyväksymättömästä viestistä",
+                "subscribe_to_user_created": "Saa vastaanottaa ilmoituksen uudesta jäsenestä",
+                "subscribe_to_post_flagged": "Saa vastaanottaa ilmoituksen uudesta liputuksesta"
+            },
             "menu": {
                 "description": ""
-            },
-            "permission": {
-                "subscribe_to_discussion_created": "",
-                "subscribe_to_post_unapproved": "",
-                "subscribe_to_user_created": ""
             }
         },
         "email": {
             "subject": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": ""
+                "newDiscussion": "[Uusi keskustelu] {title}",
+                "newUser": "[Uusi käyttäjä] {username}",
+                "postUnapproved": "[Hyväksyntä] {username} kirjoitti {title}",
+                "postCreated": "[Uusi viesti] {username} kirjoitti viestin {title}",
+                "postFlagged": "[Uusi lippu] {username} liputti viestin {title}"
             },
             "body": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": ""
+                "newDiscussion": "Hei {recipient_display_name},\n\n{actor_display_name} aloitti uuden keskustelun: {discussion_title}\n\nNähdäksesi keskustelun klikkaa seuraavaa linkkiä:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "Hei {recipient_display_name},\n\n{actor_display_name} liittyi foorumille {forum_url}.\n\nNähdäksesi käyttäjän profiilin klikkaa seuraavaa linkkiä:\n{user_url}\n",
+                "postUnapproved": "Hei {recipient_display_name},\n\n{actor_display_name} loi viestin jota ei automaattisesti hyväksytty keskustelussa {discussion_title}\n\nNähdäksesi viestin klikkaa seuraavaa linkkiä:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postCreated": "Hei {recipient_display_name},\n\n{actor_display_name} loi uuden viestin keskustelussa {discussion_title}\n\nNähdäksesi viestin klikkaa seuraavaa linkkiä:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postFlagged": "Hei {recipient_display_name},\n\n{actor_display_name} liputti viestin keskustelussa {discussion_title}\n\nNähdäksesi viestin klikkaa seuraavaa linkkiä:\n{post_url}\n"
             }
         }
     }

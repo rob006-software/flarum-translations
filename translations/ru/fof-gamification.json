@@ -27,8 +27,12 @@
                 }
             },
             "user": {
-                "points": "Очков: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": ""
+                },
+                "rank": "{rank}",
+                "votes_link": "",
+                "points": "Очков: {points}"
             },
             "modal": {
                 "downvotes_label": "Голосовавшие против:",
@@ -52,8 +56,8 @@
                 "see_votes_label": "Посмотреть одобрения/неодобрения сообщения",
                 "see_voters_label": "Посмотреть кто голосовал",
                 "see_ranking_page": "Посмотреть страницу рангов",
-                "upvote_notifications": "",
-                "downvote_notifications": ""
+                "upvote_notifications": "Получать уведомления об одобрениях",
+                "downvote_notifications": "Получать уведомления о неодобрениях"
             },
             "page": {
                 "rankings": {

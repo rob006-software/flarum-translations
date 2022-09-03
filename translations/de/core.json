@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Bereiche konfigurieren",
-                "confirm_uninstall": "Bei der Deinstallation werden alle Datenbankeinträge und Assets, die mit der Erweiterung in Verbindung stehen, entfernt. Bist du sicher, dass du fortfahren möchtest?",
+                "confirm_purge": "Beim Bereinigen werden alle Datenbankeinträge und Assets entfernt, die sich auf die Erweiterung beziehen. Die Erweiterung wird nicht deinstalliert; das muss über Composer getan werden. Bist Du sicher, dass Du fortfahren willst?",
                 "disabled": "Deaktiviert",
                 "enable_to_see": "Aktiviere die Erweiterung um Einstellungen zu sehen und zu ändern.",
                 "enabled": "Aktiviert",
@@ -116,14 +116,14 @@
                 "no_settings": "Diese Erweiterung hat keine Einstellungen.",
                 "open_modal": "Einstellungen öffnen",
                 "permissions_title": "Berechtigungen",
-                "uninstall_button": "Deinstallieren",
-                "confirm_purge": "Beim Bereinigen werden alle Datenbankeinträge und Assets entfernt, die sich auf die Erweiterung beziehen. Die Erweiterung wird nicht deinstalliert; das muss über Composer getan werden. Bist Du sicher, dass Du fortfahren willst?",
                 "purge_button": "Bereinigen",
                 "readme": {
                     "button_label": "LIESMICH",
                     "no_readme": "Diese Erweiterung scheint keine README-Datei zu haben",
                     "title": "Dokumentation von {extName}"
-                }
+                },
+                "confirm_uninstall": "Bei der Deinstallation werden alle Datenbankeinträge und Assets, die mit der Erweiterung in Verbindung stehen, entfernt. Bist du sicher, dass du fortfahren möchtest?",
+                "uninstall_button": "Deinstallieren"
             },
             "header": {
                 "get_help": "Hilfe erhalten",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "Noch keine Diskussionen in diesem Forum.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Als gelesen markieren",
                 "replied_text": "{username} {ago}",
                 "started_text": "{username} {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# Antwort} other {# Antworten}}",
-                "unread_replies_a11y_label": "{count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. Markiere ungelesene {count, plural, one {Antwort} other {Antworten}} als gelesen."
+                "unread_replies_a11y_label": "{count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. Markiere ungelesene {count, plural, one {Antwort} other {Antworten}} als gelesen.",
+                "mark_as_read_tooltip": "Als gelesen markieren"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -459,6 +459,10 @@
             }
         },
         "lib": {
+            "debug_button": "Debug",
+            "alert": {
+                "dismiss_a11y_label": "Warnung schließen"
+            },
             "badge": {
                 "hidden_tooltip": "Versteckt"
             },
@@ -481,6 +485,7 @@
             },
             "error": {
                 "dependent_extensions_message": "Die Erweiterung {extension} kann nicht deaktiviert werden, bis folgende abhängige Erweiterungen deaktiviert wurden: {extensions}",
+                "extension_initialiation_failed_message": "{extension} konnte nicht initialisiert werden, überprüfe die Browser-Konsole für weitere Informationen.",
                 "generic_message": "Oops! Da ist was schief gelaufen. Bitte die Seite neu laden oder noch mal versuchen.",
                 "missing_dependencies_message": "Die Erweiterung {extension} kann nicht aktiviert werden, bis folgende abhängige Erweiterungen aktiviert wurden: {extensions}",
                 "not_found_message": "Leider nichts gefunden.",
@@ -491,6 +496,16 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Seite # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Seite # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Schließen"
+            },
+            "nav": {
+                "drawer_button": "Navigationsschublade öffnen"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -503,20 +518,6 @@
             },
             "username": {
                 "deleted_text": "[gelöscht]"
-            },
-            "debug_button": "Debug",
-            "alert": {
-                "dismiss_a11y_label": "Warnung schließen"
-            },
-            "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Seite # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Seite # - {forumName}}}"
-            },
-            "modal": {
-                "close": "Schließen"
-            },
-            "nav": {
-                "drawer_button": "Navigationsschublade öffnen"
             }
         },
         "views": {

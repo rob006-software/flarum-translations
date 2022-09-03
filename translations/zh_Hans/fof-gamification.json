@@ -27,8 +27,12 @@
                 }
             },
             "user": {
-                "points": "👍: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": "{count, plural, one {{count} 👍} other {{count} 👍}}"
+                },
+                "rank": "{rank}",
+                "votes_link": "投票",
+                "points": "👍: {points}"
             },
             "modal": {
                 "downvotes_label": "TA 们反对：",

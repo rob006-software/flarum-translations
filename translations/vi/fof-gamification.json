@@ -27,8 +27,12 @@
                 }
             },
             "user": {
-                "points": "Điểm: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": "{count, plural, one { {count} điểm} other {{count} điểm}}"
+                },
+                "rank": "{rank}",
+                "votes_link": "Bình chọn",
+                "points": "Điểm: {points}"
             },
             "modal": {
                 "downvotes_label": "Lượt phản đối:",

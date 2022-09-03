@@ -7,8 +7,8 @@
         },
         "forum": {
             "post": {
-                "was_split_to": "{count} bejegyzés leválasztásra került ettől: {target}",
-                "was_split_from": "{count} bejegyzés leválasztásra került ettől: {target}"
+                "was_split_to": "{count, plural, one {{count} bejegyzés át lett rendelve ehhez: {target}.} other {{count} bejegyzés át lett rendelve ehhez: {target}.}}",
+                "was_split_from": "{count, plural, one {{count} bejegyzés leválasztásra került ettől: {target}.} other {{count} bejegyzés leválasztásra került ettől: {target}.}}"
             },
             "split": {
                 "from": "Leválasztás innen",

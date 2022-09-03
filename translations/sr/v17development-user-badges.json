@@ -8,10 +8,15 @@
             "update_category": "Ažuriraj kategoriju",
             "edit_category": "Uredi kategoriju",
             "nothing_here_yet": "Još niste napravili nijedan bedž ili kategoriju.",
+            "show_badges_on_user_card": "",
+            "number_of_badges_on_user_card": "",
+            "number_of_badges_on_user_card_help": "",
             "permissions": {
                 "badge_detail_users": "Može da vidi članove na stranici sa detaljima o bedževima",
                 "give_badge": "Daje bedž članu",
-                "take_badge": "Oduzima bedž članu"
+                "take_badge": "Oduzima bedž članu",
+                "edit_own_card_badges": "",
+                "edit_card_badges": ""
             },
             "confirm_dialog": {
                 "title": "Potvrdi",
@@ -79,6 +84,7 @@
             "user_no_badges": "Ovaj član još nema nijedan bedž.",
             "no_received": "Nijedan korisnik nije zaslužio ovaj bedž.",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "",
             "badge": {
                 "badge": "Bedž",
                 "badges": "Bedževi",
@@ -92,7 +98,15 @@
                 "received_on": "Dobijen datuma {date}",
                 "badge_details": "Detalji bedža",
                 "earned_count": "{count, plural, one {<b># član</b> je zaradio ovaj bedž} other {<b># člana(ova)</b> su zaradili ovaj bedž}}",
-                "earned_by_count": "{count, plural, one {Zarađeno <b># user</b>} other {Zarađeno od <b># člana(ova)</b>}}"
+                "earned_by_count": "{count, plural, one {Zarađeno <b># user</b>} other {Zarađeno od <b># člana(ova)</b>}}",
+                "others_link": ""
+            },
+            "badges_in_card": {
+                "title": "",
+                "manage_badges": "",
+                "description": "",
+                "select_limit": "",
+                "hit_limit": ""
             },
             "moderation": {
                 "remove_badge": "Ukloni bedž članu",

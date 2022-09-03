@@ -18,9 +18,9 @@
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Lütfen onaltılık bir renk kodu gir.",
                 "favicon_heading": "Kısayol Simgesi",
-                "favicon_text": "Forumun kısayol simgesi olarak görüntülenecek bir resim yükleyin.",
+                "favicon_text": "Forumun kısayol simgesi olarak görüntülenecek bir görsel yükleyin.",
                 "logo_heading": "Logo",
-                "logo_text": "Forum başlığının yerine görüntülenecek bir resim yükle.",
+                "logo_text": "Forum başlığının yerine görüntülenecek bir görsel yükle.",
                 "title": "Görünüm"
             },
             "basics": {
@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Kapsamları Yapılandır",
-                "confirm_uninstall": "Kaldırma işlemi, uzantı ile ilgili tüm veritabanı girişlerini kaldıracaktır. Devam etmek istediğine emin misin?",
+                "confirm_purge": "Temizleme, uzantıyla ilgili tüm veritabanı girdilerini ve varlıkları kaldıracaktır. Uzantıyı kaldırmaz; kaldırma işlemi Composer aracılığıyla yapılmalıdır. Devam etmek istediğine emin misin?",
                 "disabled": "Etkisizleştirildi",
                 "enable_to_see": "Ayarları görüntülemek ve değiştirmek için uzantıyı etkinleştirin.",
                 "enabled": "Etkin",
@@ -116,14 +116,14 @@
                 "no_settings": "Bu uzantının ayarları yok.",
                 "open_modal": "Ayarları aç",
                 "permissions_title": "İzinler",
-                "uninstall_button": "Kaldır",
-                "confirm_purge": "Temizleme, uzantıyla ilgili tüm veritabanı girdilerini ve varlıkları kaldıracaktır. Uzantıyı kaldırmaz; kaldırma işlemi Composer aracılığıyla yapılmalıdır. Devam etmek istediğine emin misin?",
                 "purge_button": "Temizle",
                 "readme": {
                     "button_label": "BENİ OKU",
                     "no_readme": "Bu uzantı bir BENİ OKU dosyasına sahip değil",
                     "title": "{extName} belgeleri"
-                }
+                },
+                "confirm_uninstall": "Kaldırma işlemi, uzantı ile ilgili tüm veritabanı girişlerini kaldıracaktır. Devam etmek istediğine emin misin?",
+                "uninstall_button": "Kaldır"
             },
             "header": {
                 "get_help": "Yardım Al",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "Burada hiç tartışma yok gibi görünüyor.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Okundu olarak işaretle",
                 "replied_text": "{username}, {ago} yanıtladı",
                 "started_text": "{username} {ago} başlattı",
                 "total_replies_a11y_label": "{count, plural, one {# yanıt} other {# yanıt}}",
-                "unread_replies_a11y_label": "{count, plural, one {# okunmamış yanıt} other {# okunmamış yanıt}}. {count, plural, one {yanıtı} other {yanıtı}} okunmadı olarak işaretle."
+                "unread_replies_a11y_label": "{count, plural, one {# okunmamış yanıt} other {# okunmamış yanıt}}. {count, plural, one {yanıtı} other {yanıtı}} okunmadı olarak işaretle.",
+                "mark_as_read_tooltip": "Okundu olarak işaretle"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -459,6 +459,10 @@
             }
         },
         "lib": {
+            "debug_button": "Hata Ayıklama",
+            "alert": {
+                "dismiss_a11y_label": "Uyarıyı kapat"
+            },
             "badge": {
                 "hidden_tooltip": "Gizli"
             },
@@ -481,6 +485,7 @@
             },
             "error": {
                 "dependent_extensions_message": "{extension} uzantısı şu uzantı etkisizleştirilmeden önce etkisizleştirilemez: {extensions}",
+                "extension_initialiation_failed_message": "{extension} başlatılamadı, daha fazla bilgi için tarayıcı konsolunu kontrol edin.",
                 "generic_message": "Oops! Bir şeyler yanlış gitti. Lütfen sayfayı yenileyin ve tekrar deneyin.",
                 "missing_dependencies_message": "{extension} şu uzantı aktif edilmeden önce aktif edilemez: {extensions}",
                 "not_found_message": "İstenen kaynak bulunamadı.",
@@ -491,6 +496,16 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Page # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Kapat"
+            },
+            "nav": {
+                "drawer_button": "Gezinme Çekmecesini Aç"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -503,20 +518,6 @@
             },
             "username": {
                 "deleted_text": "[silindi]"
-            },
-            "debug_button": "Hata Ayıklama",
-            "alert": {
-                "dismiss_a11y_label": "Uyarıyı kapat"
-            },
-            "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Page # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
-            },
-            "modal": {
-                "close": "Kapat"
-            },
-            "nav": {
-                "drawer_button": "Gezinme Çekmecesini Aç"
             }
         },
         "views": {

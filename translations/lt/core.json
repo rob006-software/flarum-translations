@@ -104,7 +104,7 @@
             },
             "extension": {
                 "configure_scopes": "Konfigūravimo sritys",
-                "confirm_uninstall": "Pašalinus bus pašalinti visi su plėtiniu susiję duomenų bazės įrašai ir įkėlimai. Ar tikrai norite tęsti?",
+                "confirm_purge": "Išvalius bus pašalinti visi su plėtiniu susiję duomenų bazės įrašai ir įkėlimai. Tai nepašalins plėtinio; tai turi būti padaryta naudojant „Composer“. Ar tikrai norite tęsti?",
                 "disabled": "Išjungta",
                 "enable_to_see": "Įgalinkite plėtinį, kad galėtumėte peržiūrėti ir keisti nustatymus.",
                 "enabled": "Įjungtas",
@@ -120,14 +120,14 @@
                 "no_settings": "Šis plėtinys neturi nustatymų.",
                 "open_modal": "Atidarykite Nustatymus",
                 "permissions_title": "Leidimai",
-                "uninstall_button": "Pašalinkite",
-                "confirm_purge": "Išvalius bus pašalinti visi su plėtiniu susiję duomenų bazės įrašai ir įkėlimai. Tai nepašalins plėtinio; tai turi būti padaryta naudojant „Composer“. Ar tikrai norite tęsti?",
                 "purge_button": "Valymas",
                 "readme": {
                     "button_label": "PERSKAITYTI MANE",
                     "no_readme": "Atrodo, kad šiame plėtinyje nėra PERSKAITYTI MANE failo",
                     "title": "{extName} dokumentacija"
                 },
+                "confirm_uninstall": "Pašalinus bus pašalinti visi su plėtiniu susiję duomenų bazės įrašai ir įkėlimai. Ar tikrai norite tęsti?",
+                "uninstall_button": "Pašalinkite",
                 "saved_message": "Your changes were saved."
             },
             "header": {
@@ -310,11 +310,11 @@
             "discussion_list": {
                 "empty_text": "Panašu, kad šiame forume diskusijų nėra.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Pažymėti kaip perskaitytą",
                 "replied_text": "{username} atsakė {ago}",
                 "started_text": "{username} sukūrė diskusiją {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# atsakymas} other {# atsakymai}}",
-                "unread_replies_a11y_label": "{count, plural, one {# unread reply} other {# unread replies}}. Žymėti kaip neskaitytus {count, plural, one {reply} other {replies}} kaip skaitytus."
+                "unread_replies_a11y_label": "{count, plural, one {# unread reply} other {# unread replies}}. Žymėti kaip neskaitytus {count, plural, one {reply} other {replies}} kaip skaitytus.",
+                "mark_as_read_tooltip": "Pažymėti kaip perskaitytą"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -417,7 +417,7 @@
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
                 "notifications_heading": "=> core.ref.notifications",
-                "notify_by_email_heading": "core.ref.email",
+                "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Žiniatinklis",
                 "notify_discussion_renamed_label": "Kažkas pervadino mano pradėtą diskusiją",
                 "privacy_disclose_online_label": "Rodyti kitiems kada esu prisijungęs(-usi)",
@@ -479,6 +479,10 @@
             }
         },
         "lib": {
+            "debug_button": "Derinimas",
+            "alert": {
+                "dismiss_a11y_label": "Atmesti įspėjimą"
+            },
             "badge": {
                 "hidden_tooltip": "Paslėpta"
             },
@@ -501,6 +505,7 @@
             },
             "error": {
                 "dependent_extensions_message": "Įskiepio {extension} išjungimas yra negalimas kol įskiepiai yra išjungti: {extensions}",
+                "extension_initialiation_failed_message": "Nepavyko inicijuoti {extension}. Daugiau informacijos ieškokite naršyklės konsolėje.",
                 "generic_message": "Oops! Kažkas įvyko ne taip. Perkraukite puslapį iš naujo ir bandykite dar kartą.",
                 "missing_dependencies_message": "Įskiepio {extension} įjungimas yra negalimas kol įskiepiai yra įjungti: {extensions}",
                 "not_found_message": "Prašomas šaltinis nerastas.",
@@ -511,6 +516,16 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Puslapis # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Puslapis # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Uždaryti"
+            },
+            "nav": {
+                "drawer_button": "Atidarykite naršymo stalčių"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -523,20 +538,6 @@
             },
             "username": {
                 "deleted_text": "[ištrintas]"
-            },
-            "debug_button": "Derinimas",
-            "alert": {
-                "dismiss_a11y_label": "Atmesti įspėjimą"
-            },
-            "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Puslapis # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Puslapis # - {forumName}}}"
-            },
-            "modal": {
-                "close": "Uždaryti"
-            },
-            "nav": {
-                "drawer_button": "Atidarykite naršymo stalčių"
             }
         },
         "views": {
@@ -648,7 +649,7 @@
             "log_out": "Atsijungti",
             "mark_all_as_read": "Pažymėti visus kaip skaitytus",
             "next_page": "Kitas puslapis",
-            "notifications": "Notifikacijos",
+            "notifications": "Pranešimai",
             "okay": "Gerai",
             "password": "Slaptažodis",
             "posts": "Žinutės",

@@ -2,16 +2,20 @@
     "davwheat": {
         "ads": {
             "admin": {
+                "permissions": {
+                    "bypassAds": "Nascondi pubblicità dal forum"
+                },
                 "settings": {
+                    "admin_bypass_warning": "A causa della natura del sistema di autorizzazioni di Flarum, i membri del gruppo Admin lo faranno\nnon vedo annunci sul forum. Se desideri testare i tuoi annunci, visita il forum\nin una finestra di navigazione in incognito o privata.\n",
                     "enabled_locations": "Abilita posizioni Pubblicità",
-                    "script_urls": "",
-                    "add_script": "",
-                    "script_deletion": "",
-                    "code_input": "Codice  per \"{for}\"",
+                    "script_urls": "URL personalizzati script",
+                    "add_script": "Nuovo",
+                    "script_deletion": "Per rimuovere uno script, lascia vuota la casella di testo e premi \"Salva modifiche\".",
+                    "code_input": "Codice HTML",
                     "code_input_disabled": "Abilita questa posizione per modificare il codice HTML.",
-                    "js_input": "",
-                    "js_input_disabled": "",
-                    "use_adsense": "",
+                    "js_input": "Codice Javascript",
+                    "js_input_disabled": "Abilita questa posizione per modificare il suo codice JS.",
+                    "use_adsense": "Usa Adsense",
                     "pub_id": "Publisher ID Adsense",
                     "between_posts_gap": "Fra i post: imposta gap tra ogni annuncio",
                     "allow_after_placeholder": "Fra i post: mostra annuncio dopo  la risposta",
@@ -25,7 +29,7 @@
                         "fix_errors": "Per favore correggi gli errori qui in alto prima di salvare",
                         "code_has_script": "Una o più unità pubblicitarie contengono tag \"script\", che non sono consentiti. Rimuovile e riprova."
                     },
-                    "warning": "Il codice dell'annuncio deve contenere  <b>SOLO</b> i tag <code>ins</code> e non i tag script. Gli script vengono eseguiti automaticamente da\nquesta estensione.\n"
+                    "warning": "<b>Istruzioni:</b>\n<br></br>\n<b>HTML</b>: inserisci il contenuto HTML per l'annuncio in questa casella. Non inserire alcun tag {script} in questa casella. Non verranno eseguiti.\n<br></br>\n<b>JS</b> - Inserisci codice Javascript personalizzato da inserire in un tag di script. Questo <b>NON</b> dovrebbe includere il tag {script} stesso.\n"
                 }
             },
             "lib": {

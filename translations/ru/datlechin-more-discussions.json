@@ -1,0 +1,25 @@
+{
+    "datlechin-more-discussions": {
+        "admin": {
+            "settings": {
+                "block_name_label": "Название блока",
+                "block_name_help": "Название блока (по умолчанию <code>Новые дискуссии</code>)",
+                "discussion_limit_label": "Ограничение числа дискуссий",
+                "discussion_limit_help": "Число отображаемых дискуссий (по умолчанию <code>5</code>)",
+                "filter_by_label": "Фильтр по",
+                "filter_by_help": "Фильтровать дискуссии (по умолчанию: <code>По обновлению</code>)",
+                "filter_dropdown": {
+                    "latest": "По обновлению",
+                    "top": "Популярное",
+                    "newest": "Новое",
+                    "oldest": "Старое",
+                    "hot": "Набирающее популярность (требует fof/gamification)",
+                    "votes": "Одобрения (требует fof/gamification)"
+                }
+            }
+        },
+        "forum": {
+            "block_default_name": "Последние обсуждения"
+        }
+    }
+}

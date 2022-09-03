@@ -12,8 +12,8 @@
                 "selected_category_count": "{count, plural, one {Je hebt # categorie geselecteerd} other {Je hebt # categorieën geselecteerd}}",
                 "select_categories_button": "Selecteer blog categorieën",
                 "blog_heading": "Blog",
-                "featured_count_label": "",
-                "featured_count_text": "",
+                "featured_count_label": "Max uitgelichte berichten",
+                "featured_count_text": "Hoeveel berichten moeten in een groot raster bovenaan een blogpagina worden weergegeven?",
                 "allow_comments_label": "Reacties toestaan",
                 "allow_comments_text": "Reacties zijn standaard toegestaan. Wanneer deze instelling uitgeschakeld is kan het afzonderlijk per artikel worden ingeschakeld. <b>Opmerking:</b> Het wijzigen van deze instelling heeft geen invloed op al bestaande artikelen.",
                 "require_review_label": "Blogartikelen moeten worden beoordeeld",
@@ -33,7 +33,9 @@
                 "redirect_tags_label": "Leid blogtags om",
                 "redirect_tags_text": "Indien ingesteld zal deze extensie blogtags omleiden naar de blogcategorie URL.",
                 "default_article_image_label": "Standaard artikelafbeelding",
-                "default_article_image_text": "Selecteer een standaard artikelafbeelding die zal worden weergeven wanneer er geen afbeelding is ingesteld."
+                "default_article_image_text": "Selecteer een standaard artikelafbeelding die zal worden weergeven wanneer er geen afbeelding is ingesteld.",
+                "add_hero_label": "Welkomstbanner weergeven",
+                "add_hero_text": "Toon welkomstbanner op blogpagina's als deze nog niet gesloten was."
             }
         },
         "forum": {
@@ -98,6 +100,24 @@
                 "comment_section": "Reacties zijn uitgeschakeld tijdens het schrijven van een artikel.",
                 "no_blog_tags_selected": "Geen van de categorieën die je hebt geselecteerd is een blogcategorie. Selecteer er in ieder geval één.",
                 "post_without_blog_info": "Weet je zeker dat je dit artikel wilt plaatsen? Je hebt deze nog geen samenvatting of afbeelding gegeven."
+            },
+            "article_settings": {
+                "title": "",
+                "fields": {
+                    "summary": {
+                        "title": "",
+                        "placeholder": "",
+                        "helper_text": ""
+                    },
+                    "image": {
+                        "title": "",
+                        "helper_text": ""
+                    },
+                    "highlight": {
+                        "title": "",
+                        "helper_text": ""
+                    }
+                }
             }
         }
     }

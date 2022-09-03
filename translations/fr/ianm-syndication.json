@@ -21,21 +21,30 @@
                     "discussion_title": "{discussion_name}",
                     "discussion_subtitle": "Derniers messages de cette discussion"
                 }
+            },
+            "discussion": {
+                "feed_link": "Flux"
             }
         },
         "admin": {
             "settings": {
                 "full-text": {
                     "label": "Flux de texte intégral",
-                    "help": "Si cette option est désactivée, les flux ne contiendront que des extraits de messages et les utilisateurs devront se rendre sur le forum lire leur intégralité.",
-                    "recommendation": "Nous recommandons de laisser cette option active pour respecter les personnes qui suivent le forum depuis un agrégateur RSS — si tel est le cas."
+                    "help": "Si cette option est désactivée, les flux ne contiendront que des extraits de messages et les utilisateurs devront se rendre sur le forum lire leur intégralité. Il est recommandé de laisser cette option active afin de respecter les personnes qui suivent le forum à partir d'un agrégateur RSS - s'il y en a un."
                 },
                 "html": {
                     "label": "Flux formatés",
                     "help": "Cochez cette case pour conserver le HTML dans les flux générés. Si désactivée, les flux seront en texte brut."
                 },
                 "entries-count": "Combien d'entrées par flux ?",
-                "title": "Paramètres de syndication"
+                "forum-icons": {
+                    "label": "Afficher les liens vers les flux Atom/RSS sur le forum",
+                    "help": "Affiche des icônes dans « Toutes les discussions », « Balises » et « Discussions » pour permettre un accès facile aux flux."
+                },
+                "forum-link-format": {
+                    "label": "Format du flux du forum",
+                    "help": "Sélectionnez le format (Atom ou RSS) à utiliser lorsque les liens sont affichés sur le forum."
+                }
             }
         }
     }

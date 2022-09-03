@@ -5,9 +5,9 @@
                 "limit_label": "Titellänge begrenzen aktivieren",
                 "limit_help": "Aktiviere diese Option, um eine benutzerdefinierte Längenbegrenzung für Titel zu verwenden. Wenn deaktiviert, wird die Standard-Titellängenbegrenzung von Flarum verwendet.",
                 "min_label": "Minimale Länge",
-                "min_help": "Die Mindestlänge eines Titels. Dieser Wert muss größer als 0 sein.",
+                "min_help": "Die Mindestlänge des Titels, der Mindestwert ist 1.",
                 "max_label": "Maximale Länge",
-                "max_help": "Die maximale Länge eines Titels. Dieser Wert muss größer als die Mindestlänge sein."
+                "max_help": "Die maximale Länge des Titels, der maximale Wert ist 1000."
             }
         }
     }

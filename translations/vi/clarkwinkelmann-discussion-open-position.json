@@ -1,0 +1,41 @@
+{
+    "clarkwinkelmann-discussion-open-position": {
+        "admin": {
+            "settings": {
+                "defaultOpenLastRead": "Mở cuộc thảo luận ở bài đọc cuối cùng mặc định",
+                "suggestFirstTime": "Hiển thị lời nhắc cho người dùng thay đổi cài đặt lần đầu tiên họ mở cuộc thảo luận",
+                "openLastOptions": {
+                    "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
+                    "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
+                    "never": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never"
+                }
+            }
+        },
+        "forum": {
+            "firstTimePrompt": {
+                "fromAlways": "Các liên kết thảo luận dẫn đến bài viết đã đọc cuối cùng của bạn",
+                "fromNever": "Các liên kết thảo luận mở bài viết đầu tiên",
+                "openLastOptions": {
+                    "always": "Luôn mở ở bài viết cuối cùng tôi đọc để thay thế",
+                    "never": "Luôn mở ở bài viết đầu tiên"
+                },
+                "more": "Lựa chọn khác"
+            },
+            "preferences": {
+                "discussionOpenLastRead": "Danh sách cuộc thảo luận",
+                "openLastOptions": {
+                    "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
+                    "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
+                    "never": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never"
+                }
+            }
+        },
+        "ref": {
+            "openLastOptions": {
+                "always": "Luôn mở các cuộc thảo luận ở bài đọc cuối cùng",
+                "unread": "Chỉ mở các cuộc thảo luận ở bài đã đọc cuối cùng nếu có câu trả lời mới",
+                "never": "Luôn mở các cuộc thảo luận ở bài viết đầu tiên"
+            }
+        }
+    }
+}

@@ -2,24 +2,24 @@
     "fof-impersonate": {
         "admin": {
             "permissions": {
-                "login": ""
+                "login": "Bejelentkezés más felhasználókként"
             },
             "settings": {
-                "title": "",
-                "require_reason": "",
-                "no_settings_available": ""
+                "title": "FoF Megszemélyesítés",
+                "require_reason": "Indok megkövetelése mielőtt elkezd megszemélyesíteni egy másik felhasználót.",
+                "no_settings_available": "Jelenleg nem érhetők el beállítások. Próbálja telepíteni a fof/moderator-notes bővítményt."
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "title": "Bejelentkezés másik felhasználóként",
+                "label": "A nagy hatalom nagy felelősséggel jár. A folytatással Ön lesz {username}, amíg ki nem jelentkezik.",
+                "placeholder_optional": "(Nem kötelező) Adja meg az indokot, hogy miért vált erre a felhasználóra",
+                "placeholder_required": "A folytatás előtt meg kell adnia az erre a felhasználóra történő átváltás okát",
+                "impersonate_username": "Bejelentkezés mint {username}"
             },
             "user_controls": {
-                "impersonate_button": ""
+                "impersonate_button": "Bejelentkezés felhasználóként"
             }
         }
     }

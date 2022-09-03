@@ -27,6 +27,10 @@
                 "errors": {
                     "missing_assets": "无法载入此扩展的资源。请运行 <code>php flarum assets:publish</code> 尝试修复此问题。",
                     "loading_data": "检取国家和地区数据时发生错误，请尝试重启本扩展。"
+                },
+                "config": {
+                    "language_label": "",
+                    "country_label": ""
                 }
             },
             "permissions": {

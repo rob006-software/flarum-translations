@@ -2,72 +2,72 @@
     "fof-terms": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Ehtojen asetukset",
                 "field": {
-                    "signup-legal-text": "",
-                    "hide-updated-at": "",
-                    "date-format": "",
-                    "date-format-help": ""
+                    "signup-legal-text": "Lisäteksti rekisteröitymislomakkeessa",
+                    "hide-updated-at": "Älä näytä ehtojen päivityspäivämäärää, kun päivitys on saatavilla",
+                    "date-format": "Päivän muoto",
+                    "date-format-help": "Voit käyttää mitä tahansa <a>Day.js</a> päivä formaattia. Jätä tyhjäksi käyttääksesi oletusta."
                 }
             },
             "titles": {
-                "policies": ""
+                "policies": "Ehdot"
             },
             "buttons": {
-                "new-policy": "",
-                "edit-policy": "",
-                "add-policy": "",
-                "save-policy": "",
-                "delete-policy": "",
-                "set-to-now": ""
+                "new-policy": "Uusi ehto",
+                "edit-policy": "Muokkaa ehtoa",
+                "add-policy": "Lisää ehto",
+                "save-policy": "Tallenna ehto",
+                "delete-policy": "Poista ehto",
+                "set-to-now": "Aseta täksi hetkeksi"
             },
             "messages": {
-                "delete-policy-confirmation": ""
+                "delete-policy-confirmation": "Tämä poistaa pysyvästi ehdon {name} ja liitetyt hyväksymispäivät tietokannasta. Otathan näistä päivistä varmuuskopion mikäli tarvitset niitä (esim. oikeudelliset syyt). Haluatko varmasti poistaa tämän ehdon?\n"
             },
             "policies": {
-                "name": "",
-                "name-help": "",
-                "url": "",
-                "url-help": "",
-                "update-message": "",
-                "update-message-help": "",
-                "terms-updated-at": "",
-                "terms-updated-at-placeholder": "",
-                "terms-updated-at-help": "",
-                "export-url": "",
-                "export-url-help": ""
+                "name": "Nimi",
+                "name-help": "Tämä nimi näytetään valintalaatikon vieressä päivitys modaalin otsikkona.",
+                "url": "URL",
+                "url-help": "Sivun URL mistä ehdot voi lukea. Aukeaa uuteen välilehteen.",
+                "update-message": "Päivitä viesti",
+                "update-message-help": "Viesti olemassaoleville käyttäjille, jotka eivät ole hyväksyneet uusimpia ehtoja.",
+                "terms-updated-at": "Päivitetty",
+                "terms-updated-at-placeholder": "DD.MM.YYYY (hh:mm:ss)",
+                "terms-updated-at-help": "Ehtojen viimeisimmän muutoksen päivämäärä. Tämän määritys pakottaa käyttäjien hyväksymään ehdot uudelleen mikäli he ovat hyväksyneet jo ne ennen tätä päivämäärää. Pitää olla menneisyydessä (muuten käyttäjät eivät voi hyväksyä ehtoja ja päästä modaalista eteenpäin).\n",
+                "export-url": "Viennin URL",
+                "export-url-help": "Kaikki käyttäjät joilla on oikeus \"Viedä ehtojen data\" voi mennä haluttuun osoitteeseen ja ladata käyttäjien lista niistä, jotka ovat hyväksyneet ehdot. Voit löytää tietoja asetuksista <a>lisäosan wikistä</a>.\n"
             },
             "permissions": {
-                "see-user-policies-state": "",
-                "postpone-policies-accept": "",
-                "export-policies": ""
+                "see-user-policies-state": "Näe käyttäjän ehtojen tila",
+                "postpone-policies-accept": "Voi ohittaa ehtojen hyväksymisen",
+                "export-policies": "Viedä kaikkien käyttäjien ja ehtojen data"
             }
         },
         "forum": {
             "signup": {
-                "i-accept": "",
-                "must-accept": ""
+                "i-accept": "Hyväksyn <a>{policy}</a>",
+                "must-accept": "{policy} pitää hyväksyä."
             },
             "accept-modal": {
-                "title": "",
-                "updated-at": "",
-                "updated-recently": "",
-                "i-accept": "",
-                "accept": "",
-                "close": ""
+                "title": "Ehtojen päivitys",
+                "updated-at": "Ehdot päivitettiin {date}",
+                "updated-recently": "Ehtoja on päivitetty viimeisimmän käyntisi jälkeen",
+                "i-accept": "Hyväksyn uudet <a>{policy}</a>",
+                "accept": "Vahvista",
+                "close": "Kiitos hyväksymisestä, voit nyt jatkaa takaisin foorumille"
             },
             "state-modal": {
-                "title": "",
-                "accepted-at": "",
-                "not-accepted": ""
+                "title": "Ehtojen tila käyttäjällä {username}",
+                "accepted-at": "Hyväksytty {date}",
+                "not-accepted": "Ei hyväksytty"
             },
             "update-alert": {
-                "must-accept-message": "",
-                "can-accept-message": "",
-                "review": ""
+                "must-accept-message": "Olemme väliaikaisesti estäneet pääsyn tilillesi, kunnes tutkit uudet ehdot.",
+                "can-accept-message": "Olemme päivittäneet ehtoja. Sinun täytyy hyväksyä ne käyttääksesi sivustoa.",
+                "review": "Klikkaa tästä tarkistaaksesi ja hyväksyäksesi uudet ehdot"
             },
             "user_controls": {
-                "state_button": ""
+                "state_button": "Ehtojen hyväksynnän tila"
             }
         }
     }

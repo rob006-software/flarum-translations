@@ -1,39 +1,39 @@
 {
     "fof-filter": {
         "forum": {
-            "flagger_name": "",
-            "flag_message": ""
+            "flagger_name": "Auto moderaattori",
+            "flag_message": "Sisältyneet estetyt tekstit"
         },
         "admin": {
-            "title": "",
-            "bad_words_help": "",
-            "help2": "",
-            "email_help": "",
-            "filter_label": "",
-            "countLabel": "",
-            "cooldownLabel": "",
-            "auto_merge_title": "",
+            "title": "Suodatin",
+            "bad_words_help": "Syötä teksti tai sana suodattaaksesi sen. Yksi per rivi. Jos käyttäjän viesti sisältää sanan tai tekstin jonka haluat suodattaa se liputetaan hyväksyntää varten.",
+            "help2": "Aika väli minuutteina jona viestit samalta käyttäjältä samaan keskusteluun yhdistetään.",
+            "email_help": "Liputetun sähköpostin sisältö. Hyväksyy HTML koodia tai tavallista tekstiä.",
+            "filter_label": "Suodatettavat merkit",
+            "countLabel": "Sensuurin toleranssi",
+            "cooldownLabel": "Viestien yhdistyksen viilennysaika",
+            "auto_merge_title": "Automaattinen yhdistys",
             "input": {
-                "placeholder": "",
-                "filter_title": "",
-                "email_label": "",
+                "placeholder": "Suodatettavat merkit",
+                "filter_title": "Suodatettavat merkit",
+                "email_label": "Sähköpostiasetukset",
                 "switch": {
-                    "email": "",
-                    "merge": ""
+                    "email": "Lähetä sähköposti käyttäjälle, kun viesti on suodatettu",
+                    "merge": "Automaattisesti yhdistä duplikaatti viestit"
                 },
-                "email_subject": "",
-                "email_body": ""
+                "email_subject": "Aihe",
+                "email_body": "Sisältö"
             },
             "nav": {
-                "text": "",
-                "desc": ""
+                "text": "Suodatin",
+                "desc": "Suodata viestejä sanojen perusteella"
             },
             "permission": {
-                "bypass_filter_label": ""
+                "bypass_filter_label": "Ohita sanojen suodatus"
             },
             "email": {
-                "default_subject": "",
-                "default_text": ""
+                "default_subject": "Liittyen viimeisimpään viestiisi",
+                "default_text": "Kiitos viestistäsi! Jouduimme kuitenkin poistamaan viestisi, koska se sisälsi jotain mitä emme halua nähdä foorumeillamme.\n\nJos uskot, että tämä oli virhe niin olet onnekas. Jokainen poistettu viesti tarkistetaan moderaattorien toimesta. Jos he toteavat, että tämä oli virhe niin he palauttavat sen.                \n\nKiitos ymmärryksestä."
             },
             "help": ""
         }

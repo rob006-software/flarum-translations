@@ -7,10 +7,10 @@
             },
             "settings": {
                 "set_on_registration_label": "Autoriser le paramétrage des anniversaires lors de l'inscription",
-                "required_label": "",
-                "required_help": "",
-                "min_age_label": "",
-                "min_age_help": "",
+                "required_label": "Saisie obligatoire des anniversaires",
+                "required_help": "Vous devez activer l'option Saisir à l'inscription pour que cette option fonctionne",
+                "min_age_label": "Âge minimum",
+                "min_age_help": "Âge minimum pour s'inscrire",
                 "date_format_label": "Format de date",
                 "date_format_help": "Utilisez le format de date de <a>dayjs</a>. Laissez vide pour utiliser le format par défaut.",
                 "date_none_year_label": "Format de date sans année"
@@ -27,27 +27,22 @@
             "change_dob": {
                 "title": "Modifier la date de naissance",
                 "date_of_birth_text": "Date de naissance",
-                "submit_button": "=> core.ref.save_changes",
-                "show_dob_date": "Afficher le jour et le mois de naissance",
-                "show_dob_year": "Afficher l'année de naissance",
-                "show_dob_year_help": "Cela permettra aux gens de voir votre âge."
+                "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
                 "change_dob_label": "Modifier la date de naissance",
                 "dob_heading": "Date de naissance",
                 "show_dob_date_label": "Afficher le jour et le mois de naissance",
                 "show_dob_year_label": "Afficher l'année de naissance",
-                "show_dob_year_help": "Cela permettra aux gens de voir votre âge.",
-                "birthday_heading": ""
+                "show_dob_year_help": "Cela permettra de voir votre âge."
             },
             "edit_user": {
-                "dob_heading": "Date de naissance",
-                "birthdays_heading": ""
+                "dob_heading": "Date de naissance"
             }
         },
         "api": {
-            "invalid_dob_message": "Votre date de naissance doit être inférieure à 100 ans.",
-            "invalid_age_message": ""
+            "invalid_dob_message": "Date de naissance invalide",
+            "invalid_age_message": "Votre âge doit être d'au moins {minAge} ans."
         }
     }
 }

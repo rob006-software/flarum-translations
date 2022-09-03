@@ -33,7 +33,9 @@
                 "redirect_tags_label": "Przekieruj tagi bloga",
                 "redirect_tags_text": "Przekierowuje oryginalny URL tagu wykorzystywanego przez blog na URL kategorii na blogu.",
                 "default_article_image_label": "Domyślny obrazek wpisu",
-                "default_article_image_text": "Wybierz domyślny obrazek wyświetlany dla wpisów, które nie mają ustawionego obrazka."
+                "default_article_image_text": "Wybierz domyślny obrazek wyświetlany dla wpisów, które nie mają ustawionego obrazka.",
+                "add_hero_label": "Wyświetl baner powitalny",
+                "add_hero_text": "Wyświetl baner powitalny na podstronach bloga (jeśli nie został jeszcze zamknięty)."
             }
         },
         "forum": {
@@ -98,6 +100,24 @@
                 "comment_section": "Sekcja z komentarzami nie jest dostępna w trakcie tworzenia wpisu.",
                 "no_blog_tags_selected": "Żaden z tagów, które wybrałeś, nie jest tagiem wykorzystywanym przez blog. Musisz wybrać przynajmniej jeden taki tag.",
                 "post_without_blog_info": "Czy jesteś pewien, że chcesz opublikować ten wpis? Nie uzupełniłeś podsumowania lub obrazka wpisu."
+            },
+            "article_settings": {
+                "title": "Ustawienia posta na blogu",
+                "fields": {
+                    "summary": {
+                        "title": "Podsumowanie artykułu",
+                        "placeholder": "Proszę wpisać podsumowanie",
+                        "helper_text": "To podsumowanie będzie widoczne na podstronie przeglądu bloga oraz będzie wykorzystywane do celów związanych z SEO."
+                    },
+                    "image": {
+                        "title": "Obrazek artykułu",
+                        "helper_text": "Najlepsza rozdzielczość dla mediów społecznościowych to 1200x630."
+                    },
+                    "highlight": {
+                        "title": "Wyróżniony post",
+                        "helper_text": "Wyświetl duży obrazek dla tego posta na podstronie przeglądu bloga."
+                    }
+                }
             }
         }
     }

@@ -8,10 +8,15 @@
             "update_category": "Kategória frissítése",
             "edit_category": "Kategória szerkesztése",
             "nothing_here_yet": "Még nem hozott létre kategóriát vagy jelvényt.",
+            "show_badges_on_user_card": "Jelvények megjelenítése a felhasználói kártyán",
+            "number_of_badges_on_user_card": "Jelvények száma",
+            "number_of_badges_on_user_card_help": "A felhasználói kártyán megjelenítendő jelvények száma",
             "permissions": {
                 "badge_detail_users": "A felhasználók megjelenítése a jelvény részleteinek oldalán",
                 "give_badge": "Jelvény adása a felhasználónak",
-                "take_badge": "Jelvény elvétele a felhasználótól"
+                "take_badge": "Jelvény elvétele a felhasználótól",
+                "edit_own_card_badges": "Saját felhasználói jelvények szerkesztése",
+                "edit_card_badges": "Felhasználói jelvények szerkesztése"
             },
             "confirm_dialog": {
                 "title": "Megerősítés",
@@ -79,6 +84,7 @@
             "user_no_badges": "A felhasználónak még nincs jelvénye.",
             "no_received": "Egyetlen felhasználó sem érdemelte ki ezt a jelvényt.",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "Módosítások mentése",
             "badge": {
                 "badge": "Jelvény",
                 "badges": "Jelvények",
@@ -91,8 +97,16 @@
                 "category": "Jelvény kategóriája",
                 "received_on": "Megszerezve: {date}",
                 "badge_details": "Jelvény részletei",
-                "earned_count": "<b>{count} felhasználó</b> érdemelte ki ezt a jelvényt",
-                "earned_by_count": "<b>{count} felhasználó</b> érdemelte ki"
+                "earned_count": "<b>{count, plural, one {#} other {#}} felhasználó</b> érdemelte ki ezt a jelvényt",
+                "earned_by_count": "<b>{count, plural, one {#} other {#}} felhasználó</b> érdemelte ki",
+                "others_link": "+ {count} további"
+            },
+            "badges_in_card": {
+                "title": "Felhasználói kártyán lévő jelvények",
+                "manage_badges": "Jelvények kezelése",
+                "description": "Lecserélheti a felhasználói kártyáján látható jelvényeket más jelvényekre. Ha nem választ ki egyet sem, akkor automatikusan ki lesznek választva.",
+                "select_limit": "{limit, plural, one {<b>Egy jelvényt</b>} other {<b># jelvényt</b>}} választhat ki, hogy látható legyen a felhasználói kártyáján.",
+                "hit_limit": "Csak <b> {limit, plural, one {<b>egy jelvénynek</b>} other {<b># jelvénynek</b>}}</b> van hely az Ön kártyáján. Távolítson el egyet, hogy helyet csináljon ennek a jelvénynek."
             },
             "moderation": {
                 "remove_badge": "Jelvény eltávolítása a felhasználótól",

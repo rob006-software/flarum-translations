@@ -3,12 +3,12 @@
         "forum": {
             "modal": {
                 "title": "合并主题",
-                "ordering_heading": "",
-                "ordering_date_label": "",
-                "ordering_date_help": "",
-                "ordering_suffix_label": "",
-                "ordering_suffix_help": "",
-                "type_heading": "",
+                "ordering_heading": "合并与排序",
+                "ordering_date_label": "按创建时间合并帖子",
+                "ordering_date_help": "合并后的帖子会根据原始的创建时间排序",
+                "ordering_suffix_label": "将合并的帖子添加到讨论的末尾",
+                "ordering_suffix_help": "将帖子合并到讨论的末尾",
+                "type_heading": "合并类型",
                 "type_target_label": "合并至此主题",
                 "type_target_help_text": "选择一个主题合并至「<b>{title}</b>」。",
                 "type_from_label": "合并至其他主题",
@@ -43,7 +43,8 @@
                 "merging_failed": "合并主题失败。",
                 "updating_failed": "更新主题内容失败。",
                 "deleting_failed": "删除空主题失败。",
-                "fixing_posts_number_failed": "修复帖子编号失败。"
+                "fixing_posts_number_failed": "修复帖子编号失败。",
+                "fixing_posts_number_meta_failed": "帖子编号修正失败。"
             }
         },
         "ref": {
