@@ -1,0 +1,22 @@
+{
+    "fof-passport": {
+        "admin": {
+            "popup": {
+                "field": {
+                    "app-auth-url": "OAuth valtuutuksen URL",
+                    "app-token-url": "OAuth tokenin URL",
+                    "app-user-url": "API URL josta saa käyttäjän tietoja kun on autentikoitu",
+                    "app-id": "OAuth sovellus (application) ID",
+                    "app-secret": "OAuth sovellus salaisuus (application secret)",
+                    "app-scopes": "OAuth pyydettävät laajuudet (scopes)",
+                    "button-title": "Kirjaudu napin teksti",
+                    "button-title-placeholder": "=> fof-passport.api.default-login-button-title",
+                    "button-icon": "Kirjaudu napin ikoni"
+                }
+            }
+        },
+        "api": {
+            "default-login-button-title": "=> core.ref.log_in"
+        }
+    }
+}

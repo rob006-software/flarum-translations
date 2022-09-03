@@ -4,18 +4,19 @@
             "permissions": {
                 "heading": "",
                 "heading-advanced": "",
-                "fill": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": "",
+                "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion",
                 "create": "",
                 "moderate": "",
                 "export": "",
+                "exportUserDetails": "",
                 "listForms": "",
                 "listSubmissions": ""
             },
@@ -23,51 +24,62 @@
                 "title": "",
                 "max-file-size": "",
                 "history-controls": "",
-                "side-nav-on-submission": ""
+                "side-nav-on-submission": "",
+                "checkbox-style": "",
+                "radio-style": "",
+                "style-options": {
+                    "far-square": "",
+                    "fas-square": "",
+                    "far-circle": "",
+                    "fas-circle": "",
+                    "switch": "",
+                    "native": ""
+                }
             }
         },
         "forum": {
             "nav": {
-                "forms": ""
+                "forms": "=> kilowhat-formulaire.ref.manager"
             },
             "form-index": {
                 "header": {
-                    "title": "",
+                    "title": "=> kilowhat-formulaire.ref.manager",
                     "documentation": "",
                     "discuss": ""
                 },
                 "tabs": {
-                    "standalone": "",
-                    "discussion": "",
-                    "user": ""
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
                 "empty": "",
-                "load-more": "",
+                "load-more": "තව පූරණය කරන්න",
                 "new": "",
-                "edit": "",
-                "show": "",
+                "edit": "සංස්කරණය",
+                "show": "පෙන්වන්න",
                 "submissions": "",
                 "columns": {
                     "title": "",
-                    "accept-submissions": "",
+                    "accept-submissions": "විවෘත කරන්න",
                     "allow-modification": "",
+                    "enabled": "",
                     "submissions": "",
-                    "actions": ""
+                    "actions": "ක්‍රියාමාර්ග"
                 }
             },
             "global-settings": {
-                "title": "",
+                "title": "ගෝලීය අවසර",
                 "admin-only": "",
                 "permissions": {
-                    "fill": "",
-                    "seeOwnUser": "",
-                    "seeAnyUser": "",
-                    "editOwnUser": "",
-                    "editAnyUser": "",
-                    "seeOwnDiscussion": "",
-                    "seeAnyDiscussion": "",
-                    "editOwnDiscussion": "",
-                    "editAnyDiscussion": ""
+                    "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                    "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                    "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                    "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                    "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                    "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                    "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                    "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                    "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion"
                 }
             },
             "form-create": {
@@ -80,30 +92,32 @@
                 }
             },
             "form-edit-header": {
-                "back": "",
+                "back": "ආපසු",
                 "category": {
-                    "standalone": "",
-                    "discussion": "",
-                    "user": ""
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
                 "tabs": {
                     "template": "",
                     "placement": "",
-                    "access": "",
-                    "notifications": "",
+                    "access": "ප්‍රවේශය",
+                    "notifications": "දැනුම්දීම්",
                     "submissions": ""
                 },
                 "access-status": {
-                    "closed": "",
+                    "closed": "වසා ඇත",
                     "create": "",
                     "edit": "",
-                    "both": ""
+                    "both": "",
+                    "enabled": "",
+                    "disabled": ""
                 },
                 "controls": "",
                 "template-export": "",
                 "enable-expert-mode": "",
                 "disable-expert-mode": "",
-                "restore": "",
+                "restore": "ප්‍රත්‍යර්පණය කරන්න",
                 "hide": "",
                 "delete": "",
                 "delete-confirmation": "",
@@ -135,6 +149,7 @@
                     "automatic-discussion-help": "",
                     "accept-submissions": "",
                     "allow-modification": "",
+                    "enable": "",
                     "max-submissions": "",
                     "send-confirmation-to-participants": "",
                     "notify-emails": "",
@@ -181,30 +196,31 @@
                 "validation-errors": "",
                 "unsaved-changes": "",
                 "saved-at": "",
-                "undo": "",
-                "redo": "",
-                "save": ""
+                "undo": "පෙරසේ",
+                "redo": "පසුසේ",
+                "save": "සුරකින්න"
             },
             "permission-controls": {
                 "inherit": "",
-                "everyone_button": "",
+                "everyone_button": "=> core.admin.permissions_controls.everyone_button",
                 "disabled_members_button": "",
                 "members_button": ""
             },
             "template-editor": {
                 "add-field": "",
                 "title": "",
-                "description": "",
+                "description": "සවිස්තරය",
                 "key": "",
                 "fill-permission": "",
-                "required": "",
+                "required": "අවශ්‍යයයි",
                 "rich": "",
                 "min": "",
                 "max": "",
                 "integer": "",
-                "email": "",
+                "email": "වි-තැපෑල",
                 "regex": "",
                 "mime": "",
+                "other": "",
                 "duplicate": "",
                 "delete": "",
                 "missing-title": "",
@@ -212,23 +228,41 @@
                 "type": {
                     "short": "",
                     "long": "",
-                    "number": "",
-                    "date": "",
-                    "upload": "",
-                    "content": "",
+                    "number": "අංකය",
+                    "date": "දිනය",
+                    "checkbox": "",
+                    "radio": "",
+                    "select": "",
+                    "upload": "උඩුගත කරන්න",
+                    "content": "අන්තර්ගතය",
                     "items": ""
                 }
             },
+            "options-editor": {
+                "columns": {
+                    "title": "",
+                    "key": ""
+                },
+                "remove": "",
+                "new-placeholder": ""
+            },
             "items-editor": {
-                "add": "",
-                "remove": ""
+                "add": "පේළියක් එකතු කරන්න",
+                "remove": "පේළිය ඉවත් කරන්න"
             },
             "upload-editor": {
-                "uploading": "",
-                "remove": ""
+                "uploading": "උඩුගත වෙමින්...",
+                "remove": "ගොනුව ඉවත් කරන්න"
             },
             "rich-text": {
                 "preview-placeholder": ""
+            },
+            "select": {
+                "choose": ""
+            },
+            "choice": {
+                "other-label": "",
+                "other-placeholder": ""
             },
             "submission": {
                 "form-closed": "",
@@ -239,7 +273,7 @@
                 "submit-other": "",
                 "unlock": "",
                 "lock": "",
-                "restore": "",
+                "restore": "ප්‍රත්‍යර්පණය කරන්න",
                 "hide": "",
                 "delete": "",
                 "delete-confirmation": ""
@@ -247,15 +281,15 @@
             "submission-index": {
                 "form-edit": "",
                 "form-show": "",
-                "show": "",
+                "show": "පෙන්වන්න",
                 "guest": "",
-                "load-more": "",
+                "load-more": "තව පූරනය කරන්න",
                 "empty": "",
-                "export": "",
+                "export": "නිර්යාත කරන්න",
                 "columns": {
-                    "date": "",
-                    "user": "",
-                    "actions": ""
+                    "date": "දිනය",
+                    "user": "පරිශීලක",
+                    "actions": "ක්‍රියාමාර්ග"
                 }
             },
             "badge": {
@@ -283,8 +317,9 @@
                 "fields": "",
                 "meta": "",
                 "more-meta": "",
-                "submit": "",
-                "preview": "",
+                "option-keys": "",
+                "submit": "බාගන්න",
+                "preview": "පෙරදසුන",
                 "format-options": {
                     "xlsx": "",
                     "xls": "",
@@ -298,16 +333,27 @@
                     "none": ""
                 },
                 "meta-options": {
-                    "uid": "",
-                    "user_id": "",
-                    "user_username": "",
-                    "user_displayname": "",
-                    "link_id": "",
-                    "locked_at": "",
-                    "created_at": "",
-                    "updated_at": "",
-                    "hidden_at": ""
+                    "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
+                    "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
+                    "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
+                    "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "user_email": "",
+                    "user_activated": "",
+                    "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
+                    "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
+                    "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
+                    "updated_at": "=> kilowhat-formulaire.ref.submission-meta.updated_at",
+                    "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
+                },
+                "preview-primitives": {
+                    "excel-date": "",
+                    "boolean-true": "",
+                    "boolean-false": ""
                 }
+            },
+            "discussion-submission": {
+                "empty": "",
+                "edit": ""
             }
         },
         "api": {
@@ -321,22 +367,24 @@
             "file-already-belongs-submission": "",
             "export": {
                 "meta": {
-                    "uid": "",
-                    "user_id": "",
-                    "user_username": "",
-                    "user_displayname": "",
-                    "link_id": "",
-                    "locked_at": "",
-                    "created_at": "",
-                    "updated_at": "",
-                    "hidden_at": ""
+                    "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
+                    "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
+                    "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
+                    "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "user_email": "",
+                    "user_activated": "",
+                    "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
+                    "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
+                    "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
+                    "updated_at": "=> kilowhat-formulaire.ref.submission-meta.updated_at",
+                    "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
                 }
             }
         },
         "mail": {
             "title-your-submission": "",
             "title-new-submission": "",
-            "edit": "",
+            "edit": "සංස්කරණය",
             "footer": "",
             "sub-entries": ""
         },
@@ -345,7 +393,7 @@
             "type": {
                 "standalone": "",
                 "discussion": "",
-                "user": ""
+                "user": "පරිශීලක පැතිකඩ"
             },
             "permissions": {
                 "fill": "",
@@ -360,9 +408,11 @@
             },
             "submission-meta": {
                 "uid": "",
-                "user_id": "",
-                "user_username": "",
+                "user_id": "පරිශීලක හැඳුනුම",
+                "user_username": "පරිශීලක නාමය",
                 "user_displayname": "",
+                "user_email": "",
+                "user_activated": "",
                 "link_id": "",
                 "locked_at": "",
                 "created_at": "",

@@ -7,7 +7,10 @@
             "settings": {
                 "max_label": "",
                 "min_label": "",
+                "random_username_label": "",
+                "random_username_help": "",
                 "regex_label": "",
+                "set_on_registration_label": "",
                 "unique_label": ""
             },
             "wrong_driver": ""
@@ -17,7 +20,7 @@
         },
         "forum": {
             "change_nickname": {
-                "submit_button": "",
+                "submit_button": "=> core.ref.save_changes",
                 "title": "=> flarum-nicknames.ref.change_nickname"
             },
             "edit_user": {
@@ -26,10 +29,14 @@
             },
             "settings": {
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": ""
             }
         },
         "ref": {
-            "change_nickname": ""
+            "change_nickname": "",
+            "nickname": ""
         }
     }
 }

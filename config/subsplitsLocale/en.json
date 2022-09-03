@@ -1,0 +1,29 @@
+{
+	"changelog": {
+		"general-changes": "General changes",
+		"cleaned-core": "Removed outdated Flarum core translations (version `{version}` or higher is supported)",
+		"updated-core": "Updated Flarum core translations",
+		"cleaned-validation": "Removed outdated validation translations (version `{version}` or higher is supported)",
+		"updated-validation": "Updated validation translations",
+		"updated-config-js": "Updated Day.js translations",
+		"updated-config-css": "Updated CSS",
+		"updated-file": "Updated `{file}`",
+		"extensions-added": "Added support for new extensions",
+		"extensions-cleaned": "Updated and/or removed outdated translations for extensions",
+		"extensions-updated": "Updated translations for extensions",
+		"extensions-removed": "Removed support for outdated extensions",
+		"all-changes": "All changes: {link}."
+	},
+	"announcement": {
+		"version": "Version {version}",
+		"to-update": "In order to update run these commands:",
+		"major-warning": "This version removes support for older versions of Flarum and some outdated extensions. Before updating make sure you're using the most recent versions of Flarum and extensions."
+	},
+	"readme": {
+		"status-table": {
+			"header-extension": "Extension",
+			"header-status": "Status",
+			"label-translation-status": "Translation status"
+		}
+	}
+}

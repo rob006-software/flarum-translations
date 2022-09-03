@@ -1,0 +1,21 @@
+{
+    "ralkage-hcaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "Erhalte Deine hCaptcha-Anmeldeinformationen <a>hier</a>.",
+                "secret_key_label": "Secret-Schlüssel",
+                "site_key_label": "Seiten-Schlüssel",
+                "type_label": "hCaptcha-Typ"
+            },
+            "permissions": {
+                "post_without_hcaptcha": "Beiträge und Diskussionen ohne hCaptcha erstellen"
+            }
+        },
+        "forum": {
+            "error": "Beim Absenden des H-Captchas ist ein Fehler aufgetreten. Versuche es nochmal."
+        }
+    },
+    "validation": {
+        "hcaptcha": "hCaptcha-Validierung fehlgeschlagen."
+    }
+}

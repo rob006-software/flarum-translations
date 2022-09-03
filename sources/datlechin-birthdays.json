@@ -1,0 +1,48 @@
+{
+    "datlechin-birthdays": {
+        "admin": {
+            "permissions": {
+                "edit_own_birthday_label": "Edit own birthday",
+                "view_birthday_label": "View birthday"
+            },
+            "settings": {
+                "set_on_registration_label": "Allow setting birthdays on registration",
+                "required_label": "Required entering birthdays",
+                "required_help": "You need enable Set on registration option to make this option work",
+                "min_age_label": "Minimum age",
+                "min_age_help": "Minimum age for registration",
+                "date_format_label": "Date format",
+                "date_format_help": "Use the <a>dayjs</a> date format. Leave blank to use the default format.",
+                "date_none_year_label": "Date format without year"
+            }
+        },
+        "forum": {
+            "user": {
+                "birthday_text": "Birthday: {date}",
+                "age_text": "Age: {age}"
+            },
+            "header": {
+                "edit_dob_button": "Edit Date of Birth"
+            },
+            "change_dob": {
+                "title": "Edit Date of Birth",
+                "date_of_birth_text": "Date of Birth",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "settings": {
+                "change_dob_label": "Change Date of Birth",
+                "dob_heading": "Date of Birth",
+                "show_dob_date_label": "Show day and month of birth",
+                "show_dob_year_label": "Show year of birth",
+                "show_dob_year_help": "This will allow people to see your age."
+            },
+            "edit_user": {
+                "dob_heading": "Date of Birth"
+            }
+        },
+        "api": {
+            "invalid_dob_message": "Invalid date of birth",
+            "invalid_age_message": "Your age must be at least {minAge} years old."
+        }
+    }
+}

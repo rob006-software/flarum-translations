@@ -1,0 +1,70 @@
+{
+    "askvortsov-moderator-warnings": {
+        "admin": {
+            "permissions": {
+                "manage_warnings": "Создавать и удалять предупреждения от модератора",
+                "view_warnings": "Смотреть предупреждения от модератора",
+                "delete_warnings": "Удалять предупреждения от модератора (навсегда)"
+            }
+        },
+        "emails": {
+            "post_warned": {
+                "subject": "{warner_display_name} предупредил Вас на {strikes, plural, one {# балл} other {# баллов}} в {discussion_title}",
+                "body": "Здравствуйте, {warnee_display_name}!\n\n{warner_display_name} предупредил Вас на {strikes, plural, one {# балл} other {# баллов}} в {discussion_title}\n\nПричина:\n\n---\n\n{public_comment}\n"
+            },
+            "user_warned": {
+                "subject": "{warner_display_name} предупредил Вас на {strikes, plural, one {# балл} other {# баллов}}",
+                "body": "Здравствуйте, {warnee_display_name}!\n\n{warner_display_name} предупредил Вас на {strikes, plural, one {# балл} other {# баллов}}\n\nПричина:\n\n---\n\n{public_comment}\n"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "warning_text": "{strikes, plural, one {{mod_username} Вас предупредил на # балл} other {{mod_username} Вас предупредил на # баллов}}",
+                "warning_no_strikes_text": "{mod_username} Вас предупредил (нет баллов)"
+            },
+            "post": {
+                "warning": "{strikes, plural, one {Получено предупреждение на # балл от {mod_username}} other {Получено предупреждение на # баллов от {mod_username}}}",
+                "warning_no_strikes": "Получено предупреждение на 0 баллов от {mod_username}"
+            },
+            "post_controls": {
+                "warning_button": "Предупредить"
+            },
+            "user": {
+                "warnings": "Предупреждения от модератора"
+            },
+            "settings": {
+                "warning_notification_label": "Предупреждение от модератора"
+            },
+            "validation": {
+                "public_comment_required": "Вы должны дать публичный комментарий.",
+                "invalid_strike_count": "Количество баллов должно представлять собой целое число от 0 до 5."
+            },
+            "warning_controls": {
+                "delete_button": "Удалить",
+                "restore_button": "Восстановить",
+                "delete_forever_button": "Удалить (навсегда)"
+            },
+            "warning_list": {
+                "add_button": "Новое предупреждение",
+                "no_warnings": "Кажется, здесь нет предупреждений.",
+                "warnings": "{strikes, plural, one {Предупреждения: # балл получен} other {Предупреждения: # баллов получено}}",
+                "warnings_no_strikes": "Предупреждения: Баллы отсутствуют"
+            },
+            "warning_list_item": {
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> балл, {time}} other {<strong>#</strong> баллов, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> балл, {time} <strong>(удалено)</strong>} other {<strong>#</strong> баллов, {time} <strong>(удалено)</strong>}}",
+                "public_comment": "Предупреждение",
+                "private_comment": "Приватный комментарий",
+                "linked_post": "Связанное сообщение"
+            },
+            "warning_modal": {
+                "confirmation_message": "Предупреждение сохранено. Возможно, Вам потребуется обновить страницу, чтобы увидеть предупреждение.",
+                "heading": "Предупреждение для <strong>{username}</strong>",
+                "strikes_heading": "Количество баллов",
+                "public_comment_heading": "За что <strong>{username}</strong> получает предупреждение? Это публичный комментарий, он будет видел пользователю и модераторам.",
+                "private_comment_heading": "За что <strong>{username}</strong> получает предупреждение? Это приватный комментарий, он будет виден ТОЛЬКО модераторам.",
+                "submit_button": "Сохранить"
+            }
+        }
+    }
+}

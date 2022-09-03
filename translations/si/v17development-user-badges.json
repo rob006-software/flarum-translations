@@ -8,10 +8,15 @@
             "update_category": "",
             "edit_category": "",
             "nothing_here_yet": "",
+            "show_badges_on_user_card": "",
+            "number_of_badges_on_user_card": "",
+            "number_of_badges_on_user_card_help": "",
             "permissions": {
                 "badge_detail_users": "",
                 "give_badge": "",
-                "take_badge": ""
+                "take_badge": "",
+                "edit_own_card_badges": "",
+                "edit_card_badges": ""
             },
             "confirm_dialog": {
                 "title": "",
@@ -27,7 +32,14 @@
                 "icon": "",
                 "description": "",
                 "visible": "",
-                "visible_description": ""
+                "visible_description": "",
+                "is_image": "",
+                "is_image_description": "",
+                "image": "",
+                "image_placeholder": "",
+                "icon_color": "",
+                "background_color": "",
+                "label_color": ""
             },
             "badge_category": {
                 "name": "",
@@ -71,7 +83,8 @@
             "user_has_badge": "",
             "user_no_badges": "",
             "no_received": "",
-            "uncategorized": "",
+            "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "",
             "badge": {
                 "badge": "",
                 "badges": "",
@@ -85,7 +98,15 @@
                 "received_on": "",
                 "badge_details": "",
                 "earned_count": "",
-                "earned_by_count": ""
+                "earned_by_count": "",
+                "others_link": ""
+            },
+            "badges_in_card": {
+                "title": "",
+                "manage_badges": "",
+                "description": "",
+                "select_limit": "",
+                "hit_limit": ""
             },
             "moderation": {
                 "remove_badge": "",

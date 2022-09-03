@@ -1,0 +1,28 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "slack": {
+                        "description": "Register your forum with Slack {link}",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_slack_button": "Sign in with Slack"
+            },
+            "providers": {
+                "slack": "=> fof-oauth.lib.providers.slack"
+            }
+        },
+        "lib": {
+            "providers": {
+                "slack": "Slack"
+            }
+        }
+    }
+}

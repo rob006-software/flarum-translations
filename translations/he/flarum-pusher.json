@@ -1,0 +1,18 @@
+{
+    "flarum-pusher": {
+        "admin": {
+            "pusher_settings": {
+                "app_cluster_label": "Cluster",
+                "app_id_label": "App ID",
+                "app_key_label": "App Key",
+                "app_secret_label": "App Secret",
+                "title": "הגדרות Pusher"
+            }
+        },
+        "forum": {
+            "discussion_list": {
+                "show_updates_text": "הצגת {count} דיון שעודכן|הצגת {count} דיונים שעודכנו"
+            }
+        }
+    }
+}

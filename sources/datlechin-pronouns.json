@@ -1,0 +1,22 @@
+{
+    "datlechin-pronouns": {
+        "admin": {
+            "settings": {
+                "prefix_label": "Pronouns prefix",
+                "prefix_help": "This text will show before the user's pronouns. Leave blank to not show anything.",
+                "icon_label": "Pronouns icon",
+                "icon_help": "Enable this option to show an icon instead of text before the user's pronouns."
+            }
+        },
+        "forum": {
+            "change_pronouns": {
+                "title": "Change Pronouns",
+                "help": "Your pronouns will show up on your profile and user card. <a>What are personal pronouns and why do they matter?</a>",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "settings": {
+                "change_pronouns_button": "Change Pronouns"
+            }
+        }
+    }
+}

@@ -1,6 +1,8 @@
 {
     "fof-oauth": {
         "admin": {
+            "configure_button_label": "Skonfiguruj z FoF OAuth",
+            "settings_accessibility_label": "Ustawienia {name}",
             "settings": {
                 "only_icons_label": "Pokaż tylko ikony w przyciskach do logowania (alternatywny układ)",
                 "providers": {
@@ -63,6 +65,9 @@
                 "google": "=> fof-oauth.lib.providers.google",
                 "linkedin": "=> fof-oauth.lib.providers.linkedin",
                 "twitter": "Twittera"
+            },
+            "signup": {
+                "username_help": "Wybierz nazwę użytkownika wykorzystywaną na forum"
             },
             "error": {
                 "bad_verification_code": "Nieprawidłowy lub wygasły token weryfikacyjny. Spróbuj ponownie.",

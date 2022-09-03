@@ -2,24 +2,24 @@
     "fof-forum-statistics-widget": {
         "forum": {
             "navbar": {
-                "widget_title": "",
-                "discussions_count": "",
-                "posts_count": "",
-                "users_count": "",
-                "latest_member": ""
+                "widget_title": "Fórumstatisztika",
+                "discussions_count": "Témák: {discussionsCount}",
+                "posts_count": "Bejegyzések: {postsCount}",
+                "users_count": "Tagok: {usersCount}",
+                "latest_member": "Legújabb tag: "
             }
         },
         "admin": {
             "settings": {
-                "widget_ignore_private_discussions_label": "",
-                "widget_order_label": "",
-                "widget_helper_text": ""
+                "widget_ignore_private_discussions_label": "Privát témák mellőzése",
+                "widget_order_label": "Felületi elemek sorrendje",
+                "widget_helper_text": "Szerkessze ezt a beállítást, hogy módosítsa a modul pozícióját a Flarum fórum oldalsávjában. Minél magasabb ez a szám, annál magasabban lesz ez a modul az oldalsávelemek között (ez az érték lehet pozitív vagy negatív)."
             },
             "permissions": {
-                "view_discussions_count_label": "",
-                "view_posts_count_label": "",
-                "view_users_count_label": "",
-                "view_lastest_member_label": ""
+                "view_discussions_count_label": "Témák számának megjelenítése",
+                "view_posts_count_label": "Bejegyzések számának megjelenítése",
+                "view_users_count_label": "Felhasználók számának megjelenítése",
+                "view_lastest_member_label": "Legújabb tag megjelenítése"
             }
         }
     }

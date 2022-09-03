@@ -1,7 +1,7 @@
 {
     "xelson-chat": {
         "forum": {
-            "pusher_not_found": "Pusher ou WebSockets est nécessaire pour que le chat soit mis à jour en temps réel.",
+            "pusher_not_found": "Pusher ou Websockets est nécessaire pour que le chat se mette à jour en temps réel.",
             "index": {
                 "chat_link": "Chat"
             },
@@ -29,7 +29,7 @@
                 "edit_modal": {
                     "title": "Paramètres de chat",
                     "moderator": {
-                        "got": "Vous venez de recevoir les droits de modérateur dans le chat {chatname} !",
+                        "got": "Vous venez d'obtenir les droits de modérateur sur le chat {chatname} !",
                         "lost": "Vous venez de perdre vos droits de modérateur dans le chat {chatname}."
                     },
                     "form": {
@@ -101,7 +101,8 @@
                         "search": {
                             "placeholder": "Rechercher des utilisateurs",
                             "failed": "Aucun utilisateur correspondant n'a été trouvé",
-                            "invited": "Invité"
+                            "invited": "Invité",
+                            "more_results": "Et {more_results} plus..."
                         }
                     }
                 },
@@ -182,7 +183,7 @@
                 },
                 "display": {
                     "title": "Affichage",
-                    "minimize": "Minimiser au début",
+                    "minimize": "Minimiser initialement",
                     "censor": "Censure des messages pour les utilisateurs non autorisés"
                 }
             }

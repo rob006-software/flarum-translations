@@ -1,0 +1,90 @@
+{
+    "ianm-follow-users": {
+        "admin": {
+            "permissions": {
+                "be_followed_label": "Разрешать пользователям подписываться друг на друга"
+            },
+            "settings": {
+                "button-on-profile-label": "",
+                "stats-on-profile-label": ""
+            }
+        },
+        "forum": {
+            "followed": "",
+            "followers": "",
+            "profile_link": "=> ianm-follow-users.lib.following_link",
+            "profile_page": {
+                "no_following": "Похоже, вы ни на кого не подписаны."
+            },
+            "user_controls": {
+                "follow_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type"
+            },
+            "settings": {
+                "notify_new_follower_label": "Кто-то подписался на меня",
+                "notify_new_unfollower_label": "Кто-то отменил подписку на меня",
+                "notify_new_discussion_label": "Кто-то из тех, на кого я подписан, начал новую дискуссию",
+                "notify_new_post_label": "Кто-то из тех, на кого я подписан, отправил сообщение в дискуссию",
+                "block_follow": "Не разрешать пользователям подписываться на меня"
+            },
+            "index": {
+                "follow_tag_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_tag_button": "=> ianm-follow-users.lib.change_follow_type"
+            },
+            "notifications": {
+                "new_discussion_text": "{username} начал",
+                "new_post_text": "{username} отправил сообщение в дискуссию",
+                "new_follower_text": "{username} подписался на вас",
+                "new_unfollower_text": "{username} отменил подписку на вас"
+            },
+            "badge": {
+                "label": {
+                    "follow": "Отслеживаемые дискуссии",
+                    "lurk": "Подписаться на всех"
+                }
+            },
+            "filter": {
+                "following": "Пользователи, на которых я подписан"
+            },
+            "modals": {
+                "select_follow_level": {
+                    "title": "Выбрать уровень подписки на {username}",
+                    "description": "",
+                    "follow_levels_heading": "",
+                    "follow_select_label": "",
+                    "no_user_attr_provided_err": "",
+                    "no_user_attr_provided_err_debug": "",
+                    "save_btn": "Сохранить",
+                    "cancel_btn": "Отмена"
+                }
+            }
+        },
+        "email": {
+            "new_discussion_by_user_subject": "",
+            "new_follower_subject": "",
+            "new_post_subject": "",
+            "new_discussion_by_user_body": "",
+            "new_follower_body": "",
+            "new_post_body": ""
+        },
+        "lib": {
+            "following_link": "",
+            "follow": "",
+            "change_follow_type": "",
+            "follow_levels": {
+                "unfollow": {
+                    "name": "",
+                    "description": ""
+                },
+                "follow": {
+                    "name": "",
+                    "description": ""
+                },
+                "lurk": {
+                    "name": "",
+                    "description": ""
+                }
+            }
+        }
+    }
+}

@@ -7,10 +7,16 @@
                 "moneyfordiscussion": "Geld gegeben für eine neue Diskussion",
                 "moneyname": "Name des Geldes (zB: [money] Punkte)",
                 "postminimumlength": "Mindestlänge des Beitrags, um das Geld zu erhalten (0 zum deaktivieren)",
-                "noshowzero": "Nicht zeigen, wenn der Betrag Null ist"
+                "noshowzero": "Nicht zeigen, wenn der Betrag Null ist",
+                "moneyforlike": "Gegebenes Geld, wenn ein Beitrag geliked wird",
+                "helpextensionlikes": "Erfordert die <code>flarum/likes</code> Erweiterung"
             },
             "permissions": {
                 "edit_money_label": "Geld bearbeiten"
+            },
+            "automoderator": {
+                "metric_name": "Geld",
+                "action_name": "Geld geben"
             }
         },
         "forum": {

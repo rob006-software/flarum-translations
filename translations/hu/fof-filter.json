@@ -1,36 +1,41 @@
 {
     "fof-filter": {
         "forum": {
-            "flagger_name": "",
-            "flag_message": ""
+            "flagger_name": "Automatikus moderátor",
+            "flag_message": "Tiltott szövegeket tartalmazott"
         },
         "admin": {
-            "title": "",
-            "help": "",
-            "help2": "",
-            "email_help": "",
-            "filter_label": "",
-            "countLabel": "",
-            "cooldownLabel": "",
+            "title": "Szűrő",
+            "bad_words_help": "Adja meg a kiszűrendő szöveget vagy szavakat. Ha egy felhasználó bejegyzése szűrendő szöveget tartalmaz, akkor jóváhagyásra lesz jelölve. Ellenálló a leetspeak szövegekkel szemben.",
+            "help2": "A percben megadott időköz, mialatt az egy felhasználó által egy témában közzétett bejegyzések automatikusan összevonásra kerülnek.",
+            "email_help": "A megjelölésről szóló e-mail törzse. HTML-t és egyszerű szöveget fogad el.",
+            "filter_label": "Szűrendő szövegek",
+            "countLabel": "Cenzor küszöbszintje",
+            "cooldownLabel": "Bejegyzésösszevonás elévülési ideje",
+            "auto_merge_title": "Automatikus összevonás",
             "input": {
-                "placeholder": "",
-                "filter_title": "",
-                "email_label": "",
+                "placeholder": "Szűrendő szövegek",
+                "filter_title": "Szűrendő szövegek",
+                "email_label": "E-mail-beállítások",
                 "switch": {
-                    "email": "",
-                    "merge": ""
+                    "email": "E-mail küldése a felhasználónak, ha a bejegyzése szűrésre kerül",
+                    "merge": "Ismételt bejegyzések automatikus összevonása"
                 },
-                "email_subject": "",
-                "email_body": ""
+                "email_subject": "Tárgy",
+                "email_body": "Törzs"
             },
             "nav": {
-                "text": "",
-                "desc": ""
+                "text": "Szűrő",
+                "desc": "Bejegyzések szűrése szavak alapján"
+            },
+            "permission": {
+                "bypass_filter_label": "Szószűrők kikerülése"
             },
             "email": {
-                "default_subject": "",
-                "default_text": ""
-            }
+                "default_subject": "A friss bejegyzésével kapcsolatosan",
+                "default_text": "Köszönjük a bejegyzést! Sajnos a bejegyzése eltávolításra került, mert olyasmit tartalmaz, amit nem szeretnénk a fórumunkon látni.\n\nHa azt gondolja, hogy ez tévedés, akkor szerencséje van, a moderátorok az összes eltávolított bejegyzést átnézik. Ha úgy találják, hogy hibásan lett eltávolítva, akkor vissza fogják állítani.                \n\nKöszönjük a megértését."
+            },
+            "help": ""
         }
     }
 }

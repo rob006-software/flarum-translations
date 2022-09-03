@@ -1,0 +1,55 @@
+{
+    "clarkwinkelmann-featured-discussions": {
+        "admin": {
+            "settings": {
+                "schedule": "Planen (CRON-Syntax)",
+                "duration": "Standarddauer (Sekunden)",
+                "eventPost": "Event-Beitrag generieren, wenn der Zeitplan geändert wird"
+            },
+            "permissions": {
+                "feature": "Angesagte Diskussionen verwalten"
+            }
+        },
+        "forum": {
+            "modal": {
+                "title": "Angesagte Diskussionen",
+                "fields": {
+                    "from": "Von",
+                    "until": "Bis"
+                },
+                "from": {
+                    "not": "Nicht vorgestellt",
+                    "next": "Nächster Slot",
+                    "manual": "Manuelles Datum"
+                },
+                "until": {
+                    "auto": "Auto",
+                    "manual": "Manuelles Datum"
+                },
+                "action": {
+                    "cancel": "Abbrechen",
+                    "submit": "Senden"
+                }
+            },
+            "controls": {
+                "feature": "Vorgestellte Disskusionen"
+            },
+            "badge": "Vorgestellt",
+            "nav": {
+                "schedule": "Funktion planen"
+            },
+            "schedule": {
+                "help": "Ziehe Diskussionen per Drag & Drop auf die Seite oder aus einem anderen Fenster, um deinen Zeitplan zu ändern. Um den Zeitplan zu entfernen, verwende das 3-Punkte-Menü.\n",
+                "drop-here": "Hier ablegen, um zu planen",
+                "drop-error": "Ungültiger Diskussionslink",
+                "empty": "Keine Diskussionen",
+                "custom": "benutzerdefiniert"
+            },
+            "post": {
+                "scheduled": "Geplante Veröffentlichung von {from} bis {until}",
+                "unscheduled": "Nicht mehr geplant, vorgestellt zu werden",
+                "auto": "(auto)"
+            }
+        }
+    }
+}

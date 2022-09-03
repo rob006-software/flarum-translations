@@ -2,47 +2,47 @@
     "flarum-mentions": {
         "admin": {
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "ユーザー名でのメンションを許可する (@Username)",
+                "allow_username_format_text": "現在、ユーザーをメンションする時の構文は @\"表示名\"#ID です。\nこの設定は、古い構文である @ユーザー名 を許可しますが、保存時に上記の新しい構文に変換されます。\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "投稿もしくはユーザーに返信する",
-                "reply_to_post_text": "#{number} 番目に返信"
+                "mention_tooltip": "ユーザーもしくは投稿を指定します",
+                "reply_to_post_text": "#{number}へ返信"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
-                "post_mentioned_text": "{username} が投稿に返信しました",
-                "user_mentioned_text": "{username} があなたにメンションしました"
+                "post_mentioned_text": "{username} があなたの投稿に返信しました",
+                "user_mentioned_text": "{username} があなたをメンションしました"
             },
             "post": {
-                "mentioned_by_self_text": "{users} が返信しました。",
-                "mentioned_by_text": "{users} が返信しました。",
+                "mentioned_by_self_text": "{users} がこの投稿に返信しました",
+                "mentioned_by_text": "{users} がこの投稿に返信しました",
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "引用",
                 "reply_link": "=> core.ref.reply",
                 "you_text": "=> core.ref.you"
             },
             "settings": {
-                "notify_post_mentioned_label": "あなたの投稿へ返信されたとき",
-                "notify_user_mentioned_label": "メンションされたとき"
+                "notify_post_mentioned_label": "誰かがあなたの投稿に返信した時",
+                "notify_user_mentioned_label": "誰かがあなたについての投稿をした時"
             },
             "user": {
                 "mentions_link": "メンション"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[不明]"
             }
         },
         "email": {
             "post_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name} さんが {title} において、あなたの投稿に返信しました",
+                "body": "{recipient_display_name}さん、こんにちは!\n{replier_display_name} さんが {title} において、あなたの投稿 (#{post_number}) に対して返信しました。\n{url}\n---\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} さんが {title} において、あなたにメンションしました。",
+                "body": "{recipient_display_name}さん、こんにちは!\n{mentioner_display_name} さんが {title} において、あなたにメンションしました。\n{url}\n---\n{content}\n"
             }
         }
     }

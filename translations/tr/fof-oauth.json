@@ -1,6 +1,8 @@
 {
     "fof-oauth": {
         "admin": {
+            "configure_button_label": "FoF OAuth ile Ayarlayın",
+            "settings_accessibility_label": "{name} ayarları",
             "settings": {
                 "only_icons_label": "Yalnızca Oturum Aç Düğmesi simgelerini göster (alternatif düzen)",
                 "providers": {
@@ -63,6 +65,9 @@
                 "google": "=> fof-oauth.lib.providers.google",
                 "linkedin": "=> fof-oauth.lib.providers.linkedin",
                 "twitter": "=> fof-oauth.lib.providers.twitter"
+            },
+            "signup": {
+                "username_help": "Lütfen buradan bilinecek bir kullanıcı adı seçin"
             },
             "error": {
                 "bad_verification_code": "Geçersiz veya süresi dolmuş doğrulama jetonu. Lütfen tekrar deneyin.",

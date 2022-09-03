@@ -1,0 +1,93 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "ลบแท็ก",
+                "delete_tag_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบแท็กนี้ ? กระทู้ภายในแท็กนี้จะไม่ถูกลบตามไปด้วย",
+                "description_label": "คำอธิบาย",
+                "hide_label": "ซ่อนจากรายการกระทู้ทั้งหมด",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "ลิงก์",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "สร้างแท็ก"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "จัดการรายชื่อแท็กที่พร้อมใช้งานเพื่อจัดมวดหมู่ของกระทู้"
+            },
+            "permissions": {
+                "allow_edit_tags_label": "อนุญาตการแก้ไขแท็ก",
+                "bypass_tag_counts_label": "บายพาสที่จำเป็นต้องใส่แท็ก",
+                "restrict_by_tag_heading": "แบ่งตามแท็ก",
+                "tag_discussions_label": "ติดแท็กกระทู้"
+            },
+            "tag_settings": {
+                "range_separator_text": " ถึง ",
+                "required_primary_heading": "จำนวนแท็กหลักที่จำเป็นต้องใส่ในกระทู้",
+                "required_primary_text": "กรุณาระบุจำนวนขั้นต่ำเเละสูงสุดของเเท็กหลักที่สามารถใส่ในกระทู้ได้",
+                "required_secondary_heading": "จำนวนเเท็กรองที่จำเป็นต้องใส่ในกระทู้",
+                "required_secondary_text": "กรุณาระบุจำนวนขั้นต่ำเเละสูงสุดที่สามารถใช้เเท็กรองในกระทู้",
+                "title": "การตั้งค่าเเท็ก"
+            },
+            "tags": {
+                "about_tags_text": "แท็กใช้เพื่อจัดหมวดหมู่ของกระทู้ แท็กหลักก็เหมือนกับหมวดหมู่ฟอรัมทั่วไป โดยสามารถจัดเรียงเป็นลำดับชั้นสองระดับได้ แท็กรองไม่มีลำดับชั้นหรือลำดับ และมีประโยชน์สำหรับการจัดหมวดหมู่ย่อย",
+                "create_primary_tag_button": "สร้างเเท็กหลัก",
+                "create_secondary_tag_button": "สร้างเเท็กรอง",
+                "primary_heading": "เเท็กหลัก",
+                "secondary_heading": "เเท็กรอง",
+                "settings_heading": "การตั้งค่า"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "แท็กทั้งหมด",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "{count, plural, one {Choose a primary tag} other {Choose # primary tags}}",
+                "choose_secondary_placeholder": "{count, plural, one {Choose 1 more tag} other {Choose # more tags}}",
+                "edit_title": "แก้ไขแท็กสำหรับ {title}",
+                "submit_button": "=> core.ref.okay",
+                "title": "เลือกแท็กสำหรับกระทู้ของคุณ"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "เลือกแท็ก"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "แก้ไขแท็ก"
+            },
+            "header": {
+                "back_to_tags_tooltip": "กลับไปที่รายการแท็ก"
+            },
+            "index": {
+                "more_link": "แสดงแท็กเพิ่มเติม...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "ไม่ได้ติดแท็ก"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username} ได้เพิ่มเเท็ก {tagsAdded} เเละลบเเท็ก {tagsRemoved}.",
+                "added_tags_text": "{username} ได้เพิ่มเเท็ก {tagsAdded}.",
+                "removed_tags_text": "{username} ได้ลบเเท็ก {tagsRemoved}.",
+                "tags_text": "{count, plural, one {{tags} tag} other {{tags} tags}}"
+            },
+            "tag": {
+                "meta_description_text": "กระทู้ทั้งหมดในเเท็ก {tag}"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "ถูกลบแล้ว"
+        },
+        "ref": {
+            "name": "ชื่อแท็ก",
+            "tags": "แท็ก"
+        }
+    }
+}

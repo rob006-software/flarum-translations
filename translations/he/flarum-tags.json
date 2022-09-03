@@ -1,0 +1,93 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "צבע",
+                "delete_tag_button": "הסרת תגית",
+                "delete_tag_confirmation": "האם ברצונך להסיר תגית זו? תגיות הדיונים לא יוסרו.",
+                "description_label": "תיאור",
+                "hide_label": "הסתרה מכל הדיונים",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "מזהה",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-tags.ref.create_tag"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "ניהול רשימת תגיות לסידור הדיונים איתן."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "עריכת תגיות",
+                "bypass_tag_counts_label": "עקיפת דרישות תגית",
+                "restrict_by_tag_heading": "הגבלה לפי תגית",
+                "tag_discussions_label": "תגיות הדיונים"
+            },
+            "tag_settings": {
+                "range_separator_text": " עד ",
+                "required_primary_heading": "מספר תגיות ראשיות",
+                "required_primary_text": "הכנס את הכמות המינימלית והמקסימלית של תגיות ראשיות שיכולות להיות לדיון.",
+                "required_secondary_heading": "מספר תגיות משניות",
+                "required_secondary_text": "הכנס את הכמות המינימלית והמקסימלית של תגיות משניות שיכולות להיות לדיון.",
+                "title": "הגדרת תגיות"
+            },
+            "tags": {
+                "about_tags_text": "תגיות משמשות לסיווג דיונים. תגיות ראשיות הן כמו קטגוריות בפורומים: הן יכולות להיות מסודרות בהיררכיה דו שלבית. תגיות משניות הן חסרות היררכיה או סדר, ושימושיות לסידור משני בקטגוריות.",
+                "create_primary_tag_button": "יצירת תגית ראשית",
+                "create_secondary_tag_button": "יצירת תגית משנית",
+                "primary_heading": "תגיות ראשיות",
+                "secondary_heading": "תגיות משניות",
+                "settings_heading": "הגדרות"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "כל התגיות",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "bypass_requirements": "עקיפת דרישת תגיות",
+                "choose_primary_placeholder": "בחירת תגית משנית|בחירת {count} תגיות משניות",
+                "choose_secondary_placeholder": "בחירת 1 או יותר תגיות|בחירת {count} תגיות נוספות",
+                "edit_title": "כתיבת תגיות ל{title}",
+                "submit_button": "=> core.ref.okay",
+                "title": "בחירת תגיות לדיון שלך"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "בחירת תגיות"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "ערוך תגיות"
+            },
+            "header": {
+                "back_to_tags_tooltip": "חזרה לרשימת התגיות"
+            },
+            "index": {
+                "more_link": "עוד...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "ללא תגיות"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "נוספו {tagsAdded} והוסרו {tagsRemoved} תגיות על ידי משתמש {username}.",
+                "added_tags_text": "{username} הוסיף את התגיות {tagsAdded}.",
+                "removed_tags_text": "{username} הסיר את התגיות {tagsRemoved}.",
+                "tags_text": "{tags} תגית|{tags} תגיות"
+            },
+            "tag": {
+                "meta_description_text": "כל הנושאים עם התגית {tag}"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "הוסרו"
+        },
+        "ref": {
+            "name": "שם",
+            "tags": "תגיות"
+        }
+    }
+}

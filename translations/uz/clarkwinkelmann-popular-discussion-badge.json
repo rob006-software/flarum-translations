@@ -1,0 +1,38 @@
+{
+    "clarkwinkelmann-popular-discussion-badge": {
+        "forum": {
+            "badge_label": "Mashxur"
+        },
+        "admin": {
+            "settings": {
+                "mode": "Ishlash tartibi",
+                "mode_help": "Frontend rejimi ma'lumotlar bazasidan foydalanmaydigan samarali yechimdir. Rejalashtiruvchi rejimi CRON-ni sozlashni talab qiladi va sharoitlarda vaqt oralig'iga ruxsat beradi.\n",
+                "mode_options": {
+                    "frontend": "Front end",
+                    "scheduler": "Reja (CRON)"
+                },
+                "scheduler_frequency": "Rejalashtirilgan rejim uchun chastota",
+                "scheduler_frequency_help": "Rejalashtiruvchi (CRON) rejimida mashhur holat qanchalik tez-tez yangilanadi. (Frontend rejimida holat har doim darhol yangilanadi)\n",
+                "scheduler_frequency_options": {
+                    "everyFiveMinutes": "Har 5 minutda",
+                    "everyTenMinutes": "Har 10 minutda",
+                    "everyFifteenMinutes": "Har 15 minutda",
+                    "everyThirtyMinutes": "Har 30 minutda",
+                    "hourly": "Har soatda bir marta"
+                },
+                "conditions": "Mashhur nishon uchun shartlar",
+                "conditions_help": "Izohlar - bu birinchi postni o'z ichiga olgan sharh postlarining umumiy soni. Ko'rishlar MichaelBelgium yoki Flarumite kengaytmalaridan olinadi. Berilgan vaqt oralig'i so'nggi n soat ichida sharhlar yoki ko'rishlarni hisoblash uchun ishlatiladi. Vaqtli ko'rishlar uchun faqat MichaelBelgium kengaytmasi qo'llab-quvvatlanadi. Vaqt oralig'ini bo'sh qoldiring yoki barcha sharhlar yoki ko'rishlarni hisoblash uchun 0 soatni belgilang.\n",
+                "add": "Boshqa shart qo'shing",
+                "comments": "Izohlar",
+                "comments_placeholder": "0",
+                "views": "Ko'rishlar",
+                "views_placeholder": "0",
+                "within": "ichida",
+                "within_placeholder": "barcha",
+                "hours": "h",
+                "and": "VA",
+                "or": "YOKI"
+            }
+        }
+    }
+}

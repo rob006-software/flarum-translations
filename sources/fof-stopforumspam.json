@@ -2,16 +2,24 @@
     "fof-stopforumspam": {
         "admin": {
             "settings": {
-                "title": "FriendsOfFlarum Stop Forum Spam",
+                "introduction": "Checks new user registrations against the <a>StopForumSpam</a> database. If either the <code>confidence</code> or <code>frequency</code> thresholds are reached, the user is prevented from completing their registration on your forum.\n\nSSO register via <code>fof/oauth</code> and <code>fof/passport</code> is also supported. Other SSO providers should work, but are untested.\n",
                 "username_label": "Username Spam Check",
                 "ip_label": "IP Address Spam Check",
                 "email_label": "Email Spam Check",
                 "frequency_label": "Threshold",
-                "frequency_text": "The number of spam reports between all enabled checks that will trip the spam filter.",
-                "frequency_example_text": "Ex: If the email has 1 hit, and the ip has 2 hits, there will be 3 hits in total. If the threshold is set to 3 or less it will prevent the registration.",
+                "frequency_help": "The number of spam reports between all enabled checks that will trip the spam filter.\nEx: If the email has 1 hit, and the ip has 2 hits, there will be 3 hits in total. If the threshold is set to 3 or less we will prevent the registration.\n",
                 "api_key_label": "API Key",
                 "api_key_text": "You have fof/spamblock enabled, you now have the option to report spammers to StopForumSpam in order to keep the greater forum community spam free.",
-                "api_key_instructions_text": "<register>Sign up for StopForumSpam</register>. Then you will need to <key>obtain an API key</key>."
+                "api_key_instructions_text": "<register>Sign up for StopForumSpam</register>. Then you will need to <key>obtain an API key</key>.",
+                "regional_endpoint_label": "Geographic Access",
+                "regional_endpoint_help": "By default we will direct the lookup to the closest regional server in order to provide the fastest response. Should you wish to restrict traffic to a specific region, such as for compliance with company or country privacy regulations, then you can force a connection to a specific region.",
+                "region_closest_label": "Closest",
+                "region_europe_label": "Europe",
+                "region_us_label": "United States",
+                "confidence_label": "Confidence",
+                "confidence_help": "The confidence score is a reasonably good indicator that the field under test would result in unwanted activity. Set your confidence level as a percentage. If the field is equal or above this figure, the registration will be blocked, regardless on the 'frequency' test above.",
+                "email_hash_label": "Use hashed email address",
+                "email_hash_help": "Pass a MD5 hash of the email address should you wish to not pass the email address itself. This method bypasses all blacklists, normalisation and obfuscation bypass checks."
             }
         },
         "forum": {

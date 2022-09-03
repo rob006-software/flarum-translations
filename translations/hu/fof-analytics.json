@@ -3,35 +3,35 @@
         "admin": {
             "popup": {
                 "section": {
-                    "googleAnalytics": "",
-                    "piwik": ""
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "Matomo"
                 },
                 "field": {
-                    "statusGoogle": "",
-                    "optTrackingCode": "",
-                    "googleTrackingCode": "",
-                    "googleGTMCode": "",
-                    "statusPiwik": "",
-                    "piwikUrl": "",
-                    "piwikSiteId": "",
-                    "piwikTrackSubdomain": "",
-                    "piwikPrependDomain": "",
-                    "piwikHideAliasUrl": "",
-                    "piwikAliasUrl": "",
-                    "piwikTrackAccounts": "",
-                    "piwikAuthToken": ""
+                    "statusGoogle": "Google Analytics (UA/GA4) bekapcsolása",
+                    "optTrackingCode": "Követő kód optimizálása (nem kötelező)",
+                    "googleTrackingCode": "Követő kód azonosítója",
+                    "googleGTMCode": "GTM kód azonosítója (nem kötelező)",
+                    "statusPiwik": "Matomo bekapcsolása",
+                    "piwikUrl": "Matomo domén vagy URL",
+                    "piwikSiteId": "Oldalazonosító",
+                    "piwikTrackSubdomain": "Látogatók követése az összes aldoménen",
+                    "piwikPrependDomain": "Az oldal domén megjelenik az oldal címe előtt",
+                    "piwikHideAliasUrl": "A „Kimenő hivatkozások” jelentésben rejtse el az ismert alias URL-ek kattintásait",
+                    "piwikAliasUrl": "Alias URL",
+                    "piwikTrackAccounts": "Egyéni felhasználó fiók követése",
+                    "piwikAuthToken": "Hitelesítési token"
                 },
                 "placeholder": {
-                    "piwikAuthToken": ""
+                    "piwikAuthToken": "Írja be a tokent a Matomo statisztikai felületi elem engedélyezéséhez az adminisztrációs panelen.\nA Beállítások > Személyes > API hitelesítési token menüpontban találja.\n"
                 },
                 "trackAccounts": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "Ne legyen követve",
+                    "username": "Követés felhasználónév alapján",
+                    "email": "Követés e-mail alapján"
                 }
             },
             "matomo-widget": {
-                "title": ""
+                "title": "Matomo"
             }
         }
     }

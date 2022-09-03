@@ -151,6 +151,11 @@
                     "confirm": "Êtes-vous sûr de vouloir convertir cette discussion en ticket ?",
                     "event": "La discussion {ticket_title} a été convertie en ticket"
                 },
+                "convert_to_discussion": {
+                    "button": "",
+                    "confirm": "",
+                    "event": ""
+                },
                 "status": {
                     "new": {
                         "title": "Nouveau",
@@ -192,7 +197,8 @@
                     "assign_me": "Me l'attribuer",
                     "remove_me": "Me retirer",
                     "update_status": "Mettre à jour le statut du ticket",
-                    "close_ticket": "Clôturer le ticket"
+                    "close_ticket": "Clôturer le ticket",
+                    "update_note": "Mettre à jour la note privée"
                 },
                 "new_tickets_dropdown": {
                     "title": "Notifications de tickets",
@@ -223,6 +229,13 @@
                     "assignees": {
                         "title": "Assignés",
                         "placeholder": "Le statut du ticket"
+                    },
+                    "private_note": {
+                        "title": "Notes privées",
+                        "info": "Les notes privées ne sont pas visibles pour le client et sont destinées aux agents d'assistance.",
+                        "tip": "CONSEIL : si vous travaillez avec plusieurs agents sur un même ticket, ajoutez votre nom et une date à la note.",
+                        "placeholder": "Exemple : 1er janvier 2022 - Nom de l'agent : client supprimé de la base de données",
+                        "edit_button": "Modifier la note"
                     }
                 },
                 "compose_ticket": {
@@ -242,7 +255,41 @@
                     "title": "Vue d'ensemble des tickets",
                     "description": "Souriez, vous êtes le héros qui sauve la journée d'autres personnes.",
                     "no_tickets": "Il n'y a pas de billets qui correspondent à vos critères, vous faites probablement du bon travail !",
-                    "all_tickets": "Tous les tickets"
+                    "all_tickets": "Tous les tickets",
+                    "selection_unfiltered": "Non filtré",
+                    "selection_open": "Tickets ouverts",
+                    "selection_closed": "Tickets fermés",
+                    "refresh": "Actualiser",
+                    "filter": {
+                        "status": {
+                            "title": "Statut du ticket",
+                            "filter_count": "{count, plural, one {# filtre} other {# filtres}}"
+                        },
+                        "language": {
+                            "any": "N'importe quel langage"
+                        },
+                        "assignees": {
+                            "title": "Filtrer les assignés",
+                            "search": "Rechercher un assigné",
+                            "unassigned": "Non attribué"
+                        }
+                    },
+                    "sort": {
+                        "newest": "Le plus récent d'abord",
+                        "oldest": "Le plus âgé en premier",
+                        "recent_activity": "Activité récente",
+                        "least_recent": "Activité la moins récente"
+                    }
+                }
+            },
+            "notifications": {
+                "replied_to_ticket": {
+                    "name": "Quelqu'un a répondu à mon ticket",
+                    "content": "=> v17development-flarum-support.emails.replied_to_ticket.subject"
+                },
+                "ticket_resolved": {
+                    "name": "Mon ticket a été résolu",
+                    "content": "=> v17development-flarum-support.emails.ticket_resolved.subject"
                 }
             }
         },

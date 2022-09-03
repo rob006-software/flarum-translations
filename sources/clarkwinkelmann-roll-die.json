@@ -1,0 +1,18 @@
+{
+    "clarkwinkelmann-roll-die": {
+        "admin": {
+            "settings": {
+                "clearOnEdit": "Generate new numbers on post edit"
+            }
+        },
+        "forum": {
+            "tooltip": {
+                "render": "Random roll: {number}",
+                "preview": "Random roll on save"
+            },
+            "composer": {
+                "rollDie": "Roll a Die"
+            }
+        }
+    }
+}

@@ -2,24 +2,24 @@
     "fof-forum-statistics-widget": {
         "forum": {
             "navbar": {
-                "widget_title": "",
-                "discussions_count": "",
-                "posts_count": "",
-                "users_count": "",
-                "latest_member": ""
+                "widget_title": "Forum-Statistiken",
+                "discussions_count": "Diskussionen: {discussionsCount}",
+                "posts_count": "Beiträge: {postsCount}",
+                "users_count": "Mitglieder: {usersCount}",
+                "latest_member": "Neuestes Mitglied: "
             }
         },
         "admin": {
             "settings": {
-                "widget_ignore_private_discussions_label": "",
-                "widget_order_label": "",
-                "widget_helper_text": ""
+                "widget_ignore_private_discussions_label": "Private Diskussionen ignorieren",
+                "widget_order_label": "Widget-Reihenfolge",
+                "widget_helper_text": "Bearbeite diese Einstellung, um die Position dieses Widgets im Sidenav-Bereich Ihres Flarum-Forums anzupassen. Je höher die Zahl, desto höher wird dieses Widget in der Liste der Sidenav-Elemente angezeigt (dieser Wert kann entweder positiv oder negativ sein)."
             },
             "permissions": {
-                "view_discussions_count_label": "",
-                "view_posts_count_label": "",
-                "view_users_count_label": "",
-                "view_lastest_member_label": ""
+                "view_discussions_count_label": "Anzahl der Diskussionen im Forumsstatistik-Widget anzeigen",
+                "view_posts_count_label": "Anzahl der Beiträge des Forumsstatistik-Widgets anzeigen",
+                "view_users_count_label": "Anzahl der Benutzer des Forumsstatistik-Widgets anzeigen",
+                "view_lastest_member_label": "Forenstatistik-Widget neuestes Mitglied anzeigen"
             }
         }
     }

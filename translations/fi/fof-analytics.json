@@ -1,0 +1,38 @@
+{
+    "fof-analytics": {
+        "admin": {
+            "popup": {
+                "section": {
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "Matomo"
+                },
+                "field": {
+                    "statusGoogle": "Ota käyttöön Google Analytics (UA/GA4)",
+                    "optTrackingCode": "Optimoi seuranta koodi (valinnainen)",
+                    "googleTrackingCode": "Seuranta koodin ID",
+                    "googleGTMCode": "GTM koodin ID (valinnainen)",
+                    "statusPiwik": "Ota käyttöön Matomo",
+                    "piwikUrl": "Matomon domain tai URL",
+                    "piwikSiteId": "Sivun ID",
+                    "piwikTrackSubdomain": "Seuraa käyttäjiä kaikkien Flarumin alidomainien kanssa",
+                    "piwikPrependDomain": "Lisää alkuun sivuston domain sivuston otsikkoon, kun seurataan",
+                    "piwikHideAliasUrl": "\"Outlink\" raportin kohdassa piilota klikkaukset tunnettuihin URL aliaksiin",
+                    "piwikAliasUrl": "URL alias",
+                    "piwikTrackAccounts": "Seuraa yksittäisiä käyttäjätilejä",
+                    "piwikAuthToken": "Kirjautumis tunniste (authentication token)"
+                },
+                "placeholder": {
+                    "piwikAuthToken": "Syötä tämä ottaaksesi käyttöön Matomon tilasto vimpaimen hallintapaneelissa.\nLöydät sen: Settings > Personal > API Authentication Token.\n"
+                },
+                "trackAccounts": {
+                    "none": "Älä seuraa",
+                    "username": "Seuraa käyttäjänimen perusteella",
+                    "email": "Seuraa sähköpostin perusteella"
+                }
+            },
+            "matomo-widget": {
+                "title": "Matomo"
+            }
+        }
+    }
+}

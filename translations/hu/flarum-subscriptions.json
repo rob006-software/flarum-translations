@@ -7,38 +7,38 @@
             },
             "discussion_controls": {
                 "follow_button": "=> flarum-subscriptions.ref.follow",
-                "unfollow_button": "Leiratkozás",
+                "unfollow_button": "Követés leállítása",
                 "unignore_button": "Mellőzés feloldása"
             },
             "following": {
-                "meta_title_text": "Követem"
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
             },
             "index": {
                 "following_link": "=> flarum-subscriptions.ref.following"
             },
             "notifications": {
-                "new_post_text": "{username} posztolta"
+                "new_post_text": "{username} bejegyzést tett közzé"
             },
             "settings": {
-                "follow_after_reply_label": "Automatikusan kövesse azon témákat, amelyekhez hozzászóltam.",
-                "notify_new_post_label": "Új hozzászólás érkezése követett témában"
+                "follow_after_reply_label": "Azon témák automatikusan követése, amelyekhez hozzászóltam",
+                "notify_new_post_label": "Valaki bejegyzést tesz közzé az általam követett témában"
             },
             "sub_controls": {
                 "follow_button": "=> flarum-subscriptions.ref.follow",
-                "following_button": "Követem",
-                "following_text": "Értesítés minden válasznál.",
-                "ignoring_button": "Mellőzöm",
-                "ignoring_text": "Nincs értesítés. Téma elrejtése.",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Értesítés minden válaszról.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "Nincs értesítés. Elrejtés a témalistából.",
                 "not_following_button": "Nem követem",
-                "not_following_text": "Értesítés csak említésnél. @felhasznalonev.",
-                "notify_alert_tooltip": "Új hozzászólás esetén fórum-értesítést kapsz.",
-                "notify_email_tooltip": "Új hozzászólás esetén értesítést kapsz emailben."
+                "not_following_text": "Értesítés, csak ha megemlítik.",
+                "notify_alert_tooltip": "Fórumértesítés, ha új bejegyzések vannak",
+                "notify_email_tooltip": "E-mail fogadása, ha új bejegyzések vannak"
             }
         },
         "email": {
             "new_post": {
-                "subject": "[Új hozzászólás] {title}",
-                "body": ""
+                "subject": "[Új bejegyzés] {title}",
+                "body": "Kedves {recipient_display_name}!\n\n{poster_display_name} hozzászólt egy követett témájához: {title}.\n\nAz új tevékenység megtekintéséhez kövesse a következő hivatkozást:\n{url}\n\n---\n\n{content}\n\n---\n\nAddig nem fog újabb értesítéseket kapni erről a beszélgetésről, amíg naprakész nem lesz.\n"
             }
         },
         "ref": {

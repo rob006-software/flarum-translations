@@ -1,0 +1,29 @@
+{
+    "flarum-likes": {
+        "admin": {
+            "permissions": {
+                "like_posts_label": "Gilla inlägg"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} gillade ditt inlägg"
+            },
+            "post": {
+                "like_link": "Gilla",
+                "liked_by_self_text": "{users} gillar detta.",
+                "liked_by_text": "{count, plural, one {{users} gillar detta} other {{users} gillar detta}}",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Ogilla",
+                "you_text": "=> core.ref.you"
+            },
+            "post_likes": {
+                "title": "Användare som gillar detta"
+            },
+            "settings": {
+                "notify_post_liked_label": "Någon gillar ett av mina inlägg"
+            }
+        }
+    }
+}

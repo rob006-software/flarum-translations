@@ -2,68 +2,68 @@
     "askvortsov-moderator-warnings": {
         "admin": {
             "permissions": {
-                "manage_warnings": "",
-                "view_warnings": "",
-                "delete_warnings": ""
+                "manage_warnings": "Moderatorwarnungen erstellen und entfernen",
+                "view_warnings": "Moderatorwarnungen anzeigen",
+                "delete_warnings": "Moderatorwarnungen endgültig löschen"
             }
         },
         "emails": {
             "post_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} hat Sie mit {strikes, plural, one {# Strike} other {# Strikes}} in {discussion_title} gewarnt",
+                "body": "Hallo {warnee_display_name}!\n\n{warner_display_name} hat Dich mit {strikes, plural, one {# Strike} other {# Strikes}} in {discussion_title} gewarnt\n\nEs wurde folgender Grund angegeben:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} hat Dich mit {strikes, plural, one {# Strike} other {# Strikes}} gewarnt",
+                "body": "Hallo {warnee_display_name}!\n\n{warner_display_name} hat Dich mit {strikes, plural, one {# Strike} other {# Strikes}} gewarnt\n\nEs wurde folgender Grund angegeben wurde angegeben:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "",
-                "warning_no_strikes_text": ""
+                "warning_text": "{strikes, plural, one {Du wurdest mit # Strike von {mod_username} gewarnt} other {Du wurdest mit # Strikes von {mod_username}} gewarnt",
+                "warning_no_strikes_text": "Du wurdest von {mod_username} gewarnt (keine Strikes)"
             },
             "post": {
-                "warning": "",
-                "warning_no_strikes": ""
+                "warning": "{Strikes, plural, one {Verwarnt mit # Strike by {mod_username}} other {Verwarnt mit # Strikes by {mod_username}}}",
+                "warning_no_strikes": "Ohne Strikes von {mod_username} gewarnt"
             },
             "post_controls": {
-                "warning_button": ""
+                "warning_button": "Benutzer verwarnen"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Moderator Warnungen"
             },
             "settings": {
-                "warning_notification_label": ""
+                "warning_notification_label": "Ein Moderator warnt mich"
             },
             "validation": {
-                "public_comment_required": "",
-                "invalid_strike_count": ""
+                "public_comment_required": "Du gibst meistens einen öffentlichen Kommentar ab.",
+                "invalid_strike_count": "Die Anzahl der Strikes muss eine ganze Zahl zwischen 0 und 5 sein."
             },
             "warning_controls": {
-                "delete_button": "",
-                "restore_button": "",
-                "delete_forever_button": ""
+                "delete_button": "Entfernen",
+                "restore_button": "Wiederherstellen",
+                "delete_forever_button": "Entgültig löschen"
             },
             "warning_list": {
-                "add_button": "",
-                "no_warnings": "",
-                "warnings": "",
-                "warnings_no_strikes": ""
+                "add_button": "Neue Verwarnung",
+                "no_warnings": "Anscheindend befinden sich hier keine Verwarnungen.",
+                "warnings": "{Strikes, plural, one {Moderator Verwarnungen: # Strike erhalten} other {Moderator Verwarnugen: # Strikes erhalten}}",
+                "warnings_no_strikes": "Moderator Warnungen: Keine Strikes erhalten"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
-                "public_comment": "",
-                "private_comment": "",
-                "linked_post": ""
+                "list_item_heading": "{Strikes, Plural, ein {<strong>#</strong> Strike, {time}} other {<strong>#</strong> Strikes, {time}}}",
+                "list_item_heading_hidden": "{Strikes, Plural, eine {<strong>#</strong> Verwarnung, {time} <strong>(entfernt)</strong>} andere {<strong>#</strong> Verwarnungen, {time} <strong>( entfernt)</strong>}}",
+                "public_comment": "Verwarnung",
+                "private_comment": "Moderator-sichtbare Kommentare",
+                "linked_post": "Verlinkter Beitrag"
             },
             "warning_modal": {
-                "confirmation_message": "",
-                "heading": "",
-                "strikes_heading": "",
-                "public_comment_heading": "",
-                "private_comment_heading": "",
-                "submit_button": ""
+                "confirmation_message": "Deine Warnung wurde hinterlegt. Möglicherweise musst Du die Seite aktualisieren, um sie anzuzeigen.",
+                "heading": "<strong>{username}</strong> verwarnen",
+                "strikes_heading": "Wie viele Strikes sollen angewendet werden?",
+                "public_comment_heading": "Wieso erhält <strong>{username}</strong> diese Warnungen? Diese Kommentare sind für den Benutzer und andere Moderatoren sichtbar.",
+                "private_comment_heading": "Wieso erhält <strong>{username}</strong> diese Warnungen? Diese Kommentare sind NUR für andere Moderatoren sichtbar.",
+                "submit_button": "Warnung sichern"
             }
         }
     }

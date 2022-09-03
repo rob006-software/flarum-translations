@@ -8,10 +8,15 @@
             "update_category": "Kategorie aktualisieren",
             "edit_category": "Kategorie bearbeiten",
             "nothing_here_yet": "Du hast noch keine Kategorien oder Abzeichen erstellt.",
+            "show_badges_on_user_card": "",
+            "number_of_badges_on_user_card": "",
+            "number_of_badges_on_user_card_help": "",
             "permissions": {
-                "badge_detail_users": "",
+                "badge_detail_users": "Kann Benutzer auf der Badge-Detailseite sehen",
                 "give_badge": "Abzeichen für Benutzer hinzufügen",
-                "take_badge": "Abzeichen von Benutzer entfernen"
+                "take_badge": "Abzeichen von Benutzer entfernen",
+                "edit_own_card_badges": "",
+                "edit_card_badges": ""
             },
             "confirm_dialog": {
                 "title": "Bestätigen",
@@ -27,13 +32,20 @@
                 "icon": "Abzeichen Icon",
                 "description": "Abzeichen Beschreibung",
                 "visible": "Sichtbar",
-                "visible_description": "Aktiviere dieses Abzeichen. Wenn es deaktiviert ist, wird das Abzeichen nicht sichtbar sein."
+                "visible_description": "Aktiviere dieses Abzeichen. Wenn es deaktiviert ist, wird das Abzeichen nicht sichtbar sein.",
+                "is_image": "Abzeichen ist ein Bild",
+                "is_image_description": "Ein Bild anstelle des Standard-Badges verwenden",
+                "image": "Badge-Bild-URL",
+                "image_placeholder": "URL zum Abzeichenbild eingeben",
+                "icon_color": "Symbolfarbe",
+                "background_color": "Hintergrundfarbe",
+                "label_color": "Textfarbe"
             },
             "badge_category": {
                 "name": "Kategorie Name",
                 "description": "Kategorie Beschreibung",
-                "blockview": "",
-                "blockview_description": "",
+                "blockview": "Blockansicht",
+                "blockview_description": "Kategorie-Badges in der Blockansicht auf der Badge-Übersicht anzeigen. Wenn deaktiviert, werden alle Abzeichen in einer Tabelle angezeigt.",
                 "enabled": "Aktiviert",
                 "enabled_description": "Aktiviere diese Kategorie. Wenn sie deaktiviert ist, werden alle Abzeichen deaktiviert und die Kategorie wird ausgeblendet."
             },
@@ -70,8 +82,9 @@
             "select_badge": "Abzeichen auswählen",
             "user_has_badge": "Der Benutzer hat dieses Abzeichen bereits.",
             "user_no_badges": "Der Benutzer hat noch keine Abzeichen erhalten.",
-            "no_received": "",
+            "no_received": "Kein Benutzer hat dieses Abzeichen verdient.",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "",
             "badge": {
                 "badge": "Abzeichen",
                 "badges": "Abzeichen",
@@ -82,10 +95,18 @@
                 "no_earning_reason": "Kein Grund angegeben",
                 "earned_on": "Abzeichen erhalten am",
                 "category": "Abzeichen Kategorie",
-                "received_on": "",
-                "badge_details": "",
+                "received_on": "Erhalten am {date}",
+                "badge_details": "Abzeichendetails",
                 "earned_count": "{count, plural, one {<b># Benutzer</b> hat dieses Abzeichen erhalten} other {<b># Benutzer</b> haben dieses Abzeichen erhalten}}",
-                "earned_by_count": ""
+                "earned_by_count": "{count, plural, one {Erworben von <b>#-Benutzer</b>} other {Erworben von <b>#-Benutzern</b>}}",
+                "others_link": ""
+            },
+            "badges_in_card": {
+                "title": "",
+                "manage_badges": "",
+                "description": "",
+                "select_limit": "",
+                "hit_limit": ""
             },
             "moderation": {
                 "remove_badge": "Abzeichen vom Benutzer entfernen",
@@ -93,8 +114,8 @@
                 "give_badge": "Abzeichen vergeben"
             },
             "notification": {
-                "title": "",
-                "settings": ""
+                "title": "Du hast ein neues Abzeichen erhalten",
+                "settings": "Ich habe ein Abzeichen erhalten"
             }
         }
     }

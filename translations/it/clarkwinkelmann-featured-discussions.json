@@ -1,0 +1,55 @@
+{
+    "clarkwinkelmann-featured-discussions": {
+        "admin": {
+            "settings": {
+                "schedule": "Programma (sintassi CRON)",
+                "duration": "Durata di default (secondi)",
+                "eventPost": "Genera post dell'evento quando il programma viene modificato"
+            },
+            "permissions": {
+                "feature": "Gestisci le discussioni in primo piano"
+            }
+        },
+        "forum": {
+            "modal": {
+                "title": "In primo Piano",
+                "fields": {
+                    "from": "Da",
+                    "until": "Fino a"
+                },
+                "from": {
+                    "not": "Non in primo piano",
+                    "next": "Slot successivo",
+                    "manual": "Data Manuale"
+                },
+                "until": {
+                    "auto": "Auto",
+                    "manual": "Data Manuale"
+                },
+                "action": {
+                    "cancel": "Cancella",
+                    "submit": "Invia"
+                }
+            },
+            "controls": {
+                "feature": "In primo Piano"
+            },
+            "badge": "In primo piano",
+            "nav": {
+                "schedule": "Programma \"in primo piano\""
+            },
+            "schedule": {
+                "help": "Trascina e rilascia le discussioni nella pagina o da un'altra finestra per modificarne la pianificazione. Per rimuovere la pianificazione, utilizzare il menu a 3 punti.\n",
+                "drop-here": "Rilascia qui per programmare",
+                "drop-error": "Link discussione non valido",
+                "empty": "Nessuna discussione",
+                "custom": "Personalizzato"
+            },
+            "post": {
+                "scheduled": "In programma per essere in primo piano dal {from} al {until}",
+                "unscheduled": "Nessun programma \"in primo piano\"",
+                "auto": "(auto)"
+            }
+        }
+    }
+}

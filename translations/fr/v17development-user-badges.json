@@ -8,10 +8,15 @@
             "update_category": "Mettre à jour la catégorie",
             "edit_category": "Modifier la catégorie",
             "nothing_here_yet": "Vous n'avez pas encore créé de badges ou de catégories.",
+            "show_badges_on_user_card": "Afficher les badges sur la carte utilisateur",
+            "number_of_badges_on_user_card": "Nombre de badges",
+            "number_of_badges_on_user_card_help": "Nombre de badges à afficher sur la carte utilisateur",
             "permissions": {
                 "badge_detail_users": "Peut voir les utilisateurs sur la page d'informations des badges",
                 "give_badge": "Distribuer un badge à l'utilisateur",
-                "take_badge": "Retirer le badge de l'utilisateur"
+                "take_badge": "Retirer le badge de l'utilisateur",
+                "edit_own_card_badges": "Modifier ses propres badges de carte d'utilisateur",
+                "edit_card_badges": "Modifier les badges de carte d'utilisateur"
             },
             "confirm_dialog": {
                 "title": "Confirmer",
@@ -27,7 +32,14 @@
                 "icon": "Icône du badge",
                 "description": "Description du badge",
                 "visible": "Visible",
-                "visible_description": "Activer ce badge. Lorsque cette option est désactivée, le badge n'est pas visible."
+                "visible_description": "Activer ce badge. Lorsque cette option est désactivée, le badge n'est pas visible.",
+                "is_image": "Le badge est une image",
+                "is_image_description": "Utiliser une image au lieu du badge par défaut",
+                "image": "URL de l'image du badge",
+                "image_placeholder": "Saisissez l'URL vers l'image du badge",
+                "icon_color": "Couleur de l'icône",
+                "background_color": "Couleur d'arrière-plan",
+                "label_color": "Couleur du texte"
             },
             "badge_category": {
                 "name": "Nom de la catégorie",
@@ -72,6 +84,7 @@
             "user_no_badges": "Cet utilisateur n'a pas encore obtenu de badge.",
             "no_received": "Aucun utilisateur n'a obtenu ce badge.",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "Enregistrer les modifications",
             "badge": {
                 "badge": "Badge",
                 "badges": "Badges",
@@ -85,7 +98,15 @@
                 "received_on": "Obtenu le {date}",
                 "badge_details": "Informations sur le badge",
                 "earned_count": "{count, plural, one {<b># utilisateur</b> a obtenu ce badge} other {<b># utilisateurs</b> ont obtenu ce badge}}",
-                "earned_by_count": "{count, plural, one {Obtenu par <b># utilisateur</b>} other {Obtenu par <b># utilisateurs</b>}}"
+                "earned_by_count": "{count, plural, one {Obtenu par <b># utilisateur</b>} other {Obtenu par <b># utilisateurs</b>}}",
+                "others_link": "+ {count} de plus"
+            },
+            "badges_in_card": {
+                "title": "Badges dans la carte utilisateur",
+                "manage_badges": "Gérer les badges",
+                "description": "Vous pouvez remplacer les badges visibles de votre carte utilisateur par l'un de vos autres badges. Si vous n'en sélectionnez aucun, ils seront sélectionnés automatiquement.",
+                "select_limit": "Vous pouvez sélectionner {limit, plural, one {<b>one badge</b>} other {<b># badges</b>}} pour être visible dans votre carte d'utilisateur.",
+                "hit_limit": "Il n'y a de place que pour <b> {limit, plural, one {<b>un badge</b>} other {<b># badges</b>}}</b> sur votre carte. Désélectionnez un badge pour faire de la place pour ce badge."
             },
             "moderation": {
                 "remove_badge": "Retirer le badge de l'utilisateur",

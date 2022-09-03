@@ -10,15 +10,30 @@
                     "general": "Allgemein",
                     "reminders": "Erinnerungen",
                     "advanced": "Erweitert",
-                    "reminders_notice": "Damit die Erinnerungen korrekt funktionieren, musst du den Flarum-Scheduler korrekt eingerichtet haben."
+                    "reminders_notice": "Damit Erinnerungen funktionieren, müssen Sie den Flarum-Planer richtig eingerichtet haben."
                 },
-                "allow_select_own_post": "Erlaube den Nutzern, ihre eigenen Beiträge auszuwählen",
-                "select_best_answer_reminder_days": "Erinnere Nutzer daran, nach X Tagen eine beste Antwort auszuwählen",
-                "schedule_on_one_server": "Verwende 'onOneServer()' Anweisung für den Task-Scheduler (setzt Redis/Memcache vorraus)",
-                "schedule_stop_overnight": "Verhindern, dass der Erinnerungsplaner zu ungünstigen Zeiten läuft (21 - 8 Uhr Serverzeit)",
+                "allow_select_own_post": "Eigenen Beitrag auswählen",
+                "allow_select_own_post_help": "Erlaube dem OP, einen seiner eigenen Beiträge in der Diskussion als beste Antwort auszuwählen",
+                "enable_all_tags_button": "Alle Tags für beste Antworten aktivieren",
+                "enable_all_tags_reminder_button": "Alle Tags für Erinnerungen für die beste Antwort aktivieren",
+                "select_best_answer_reminder_days": "Erinnerungshäufigkeit",
+                "select_best_answer_reminder_days_help": "Sende nach der konfigurierbaren Anzahl von Tagen eine Erinnerung an das OP, um eine beste Antwort auszuwählen, 0 = Erinnerungen deaktivieren.",
+                "schedule_on_one_server": "Verwende die Direktive 'onOneServer()' für den Taskplaner",
+                "schedule_on_one_server_help": "Erfordert Redis/Memcache",
+                "schedule_stop_overnight": "Verhindern, dass Erinnerungsbenachrichtigungen während unsozialer Zeiten gesendet werden",
+                "schedule_stop_overnight_help": "21:00 - 08:00 Uhr Serverzeit",
                 "schedule_log_output": "Scheduler-Output an den Log anhängen",
-                "remind_tag_ids": "Um Erinnerungen auf bestimmte Themen zu beschränken, gebe die ID's der Themen hier ein (kommagetrennt)",
-                "use_alt_ui": "Verwende alternatives Layout (beste Antwort-Schaltflächen in Fußzeile des Beitrags)"
+                "show_filter_label": "Dropdown-Liste für Filter für beste Antwort anzeigen",
+                "show_filter_help": "Wähle für Tags, bei denen die besten Antworten aktiviert sind, die Filteroption gelöst/ungelöst in der Diskussionsliste anzeigen",
+                "use_alt_ui": "Alternatives Layout",
+                "use_alt_ui_help": "Beste Antwortsteuerelemente in der Fußzeile des Beitrags",
+                "documentation": "Dokumentation",
+                "introduction": "Aktiviere in <code><a>flarum/tags</a></code>, welche Tags Beste Antworten unterstützen sollen, und optional welche Tags Erinnerungen unterstützen sollen. Wenn für ein Tag Beste Antwort aktiviert ist, weise jeder Benutzergruppe, die Antworten festlegen kann (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für alle Best-Antwort-anabled-Tags) oder pro Tag zugewiesen werden.\n",
+                "remind_tag_ids": "Um Erinnerungen auf bestimmte Themen zu beschränken, gebe die ID's der Themen hier ein (kommagetrennt)"
+            },
+            "edit_tag": {
+                "qna_label": "Die Option Beste Antworten aktivieren, um in diesem Tag festgelegt zu werden",
+                "reminders": "Sende Erinnerungen, um eine beste Antwort für Diskussionen in diesem Tag festzulegen"
             }
         },
         "forum": {
@@ -35,9 +50,28 @@
                 "content": "Bitte wähle eine Beste Antwort, wenn deine Frage bereits beantwortet wurde",
                 "awarded": "Dein Beitrag wurde von {username} als beste Antwort ausgewählt",
                 "preferences": {
-                    "awarded_best_answer": "Wenn jemand meinen Beitrag als beste Antwort auswählt",
-                    "best_answer_in_discussion": "Wenn in einer Diskussion, an der ich teilgenommen habe, eine beste Antwort ausgewählt wird"
+                    "awarded_best_answer": "Jemand legt meinen Beitrag als beste Antwort fest",
+                    "best_answer_in_discussion": "Die beste Antwort findet sich in einer Diskussion, an der ich teilgenommen habe",
+                    "select_best_answer": "Eine automatische Erinnerung, um in einer von mir begonnenen Diskussion die beste Antwort auszuwählen"
                 }
+            },
+            "index": {
+                "ask_question": "Eine Frage stellen",
+                "cannot_ask_question": "Kann keine Frage stellen",
+                "solved_link": "Gelöste Diskussionen",
+                "unsolved_link": "Ungelöste Diskussionen"
+            },
+            "filter": {
+                "all_label": "Alle Fragen",
+                "solved_label": "Gelöste Fragen",
+                "unsolved_label": "Ungelöste Fragen",
+                "accessible_label": "Gelöste/Ungelöste Auswahl"
+            },
+            "composer": {
+                "titlePlaceholder": "Titel der Frage"
+            },
+            "user": {
+                "best-answer-count": "{count, plural, one { {count} beste Antwort} other {{count} beste Antworten}}"
             }
         },
         "email": {
@@ -49,7 +83,7 @@
             "body": {
                 "awarded": "Hallo {recipient_display_name},\n\nGute Arbeit, {actor_display_name} hat soeben deinen Beitrag als die beste Antwort in der Diskussion '{discussion_title}' ausgewählt. Danke fürs Mithelfen.\n\nSchau es dir an: {discussion_url}\n",
                 "ba-set": "Hallo {recipient_display_name},\n\n{actor_display_name} hat soeben eine beste Antwort in der Diskussion '{discussion_title}' gewählt, an der du teilgenommen hast.\n\nSchau es dir an: {discussion_url}\n",
-                "select": "Hallo {recipient_display_name},\n\nNur um sicherzugehen; mittlerweile solltest du jede Menge Antworten auf deine Frage '{discussion_title}' erhalten haben. Hoffentlich hat dir einer von ihnen geholfen, dein Problem zu lösen.\n\nWenn das so ist wäre es sehr hilfreich für zukünftige Mitglieder wenn du eine beste Antwort auf deine Frage auswählen könntest.\nIf so, it would be really helpful for future members if you could set a best answer to your question. Es wird Leuten mit dem gleichen Problem helfen, die Antwort zu finden, die sie brauchen, und es ist auch ein großes Dankeschön an die Mitglieder, die dir ausgeholfen haben. Sie geben ihre Zeit freiwillig, also ist es schön sie wissen zu lassen, dass sie hilfreich sind.\n\nÖffne die Diskussion: {discussion_url}, und wähle den passendsten Beitrag als beste Antwort.\n\nVielen Dank!\n"
+                "select": "Hallo {recipient_display_name},\n\nNur um sicherzugehen; mittlerweile solltest du jede Menge Antworten auf deine Frage '{discussion_title}' erhalten haben. Hoffentlich hat dir einer von ihnen geholfen, dein Problem zu lösen.\n\nWenn das so ist wäre es sehr hilfreich für zukünftige Mitglieder wenn du eine beste Antwort auf deine Frage auswählen könntest. Es wird Leuten mit dem gleichen Problem helfen, die Antwort zu finden, die sie brauchen, und es ist auch ein großes Dankeschön an die Mitglieder, die dir ausgeholfen haben. Sie geben ihre Zeit freiwillig, also ist es schön sie wissen zu lassen, dass sie hilfreich sind.\n\nÖffne die Diskussion: {discussion_url}, und wähle den passendsten Beitrag als beste Antwort.\n\nVielen Dank!\n"
             }
         }
     }

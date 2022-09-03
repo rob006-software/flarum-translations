@@ -1,0 +1,38 @@
+{
+    "clarkwinkelmann-collapsible-posts": {
+        "admin": {
+            "settings": {
+                "reasons": "Ragioni",
+                "header": {
+                    "key": "Chiave Unica Database",
+                    "label": "Etichetta",
+                    "explanation": "Messaggio Personalizzato"
+                },
+                "add": "Nuovo motivo",
+                "explanationUrl": "URL spiegazione",
+                "explanationUrlHelp": "Opzionale. Viene visualizzato sotto i post compressi"
+            },
+            "permission": {
+                "collapse": "Comprimi post"
+            }
+        },
+        "forum": {
+            "postControl": {
+                "collapse": "Comprimi",
+                "uncollapse": "Espandi"
+            },
+            "modal": {
+                "title": "Comprimi post",
+                "uncollapse": "Espandi"
+            },
+            "badge": {
+                "post": "Compressi"
+            },
+            "stream": {
+                "hidden": "{count, plural, one {# post nascosto per {reason}} other {# post nascosti per {reason}}}",
+                "load": "Carica altro",
+                "explanation": "Perchè vedo questo?"
+            }
+        }
+    }
+}

@@ -2,37 +2,47 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "",
-                "unpopular_button": ""
+                "popular_button": "Népszerű",
+                "unpopular_button": "Nem népszerű"
             }
         }
     },
     "michaelbelgium-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
-                "submit_button": "",
-                "label": ""
+                "title": "Nézettség nullázása",
+                "submit_button": "Igen, az összes eltávolítása",
+                "label": "Ez eltávolít {count, plural, one {#} other {#}} megtekintést a témáról. Folytatja?"
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "Nézettség visszaállítása"
             },
             "viewlist": {
-                "title": ""
+                "title": "Legfrissebb nézők",
+                "guest": "Vendég"
+            },
+            "post": {
+                "viewed_by": "{users} látta ezt.",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "Felhasználók, akik utoljára látták a beszélgetést"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": "",
-                "view_number_label": ""
+                "reset_views_label": "A beszélgetés nézettségének visszaállítása",
+                "view_number_label": "Nézettség megtekintése"
             },
             "settings": {
-                "title": "",
-                "track_unique_label": "",
-                "abbr_numbers_label": "",
-                "show_filter_label": "",
-                "max_viewcount_label": "",
-                "show_viewlist_label": ""
+                "title": "Nézettség beállításai",
+                "track_unique_label": "Egyedi megtekintések követése",
+                "track_guests": "Vendégek követése",
+                "abbr_numbers_label": "Megtekintések számának rövidítése",
+                "show_filter_label": "Népszerűség szerinti rendezés engedélyezése",
+                "max_viewcount_label": "Maximális megtekintési lista elemek",
+                "max_viewcount_text": "Ez a lábléc-nézetlistára és az oldalsáv-nézetlistára vonatkozik",
+                "show_viewlist_label": "Nézettségi lista bekapcsolása",
+                "show_footer_viewlist_label": "Lábléc nézet bekapcsolása"
             }
         }
     }

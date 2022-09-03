@@ -1,0 +1,158 @@
+{
+    "flamarkt-taxonomies": {
+        "admin": {
+            "menu": {
+                "title": "",
+                "description": ""
+            },
+            "page": {
+                "title": "",
+                "create": {
+                    "taxonomy": "",
+                    "term": ""
+                },
+                "reset-term-order": ""
+            },
+            "edit-taxonomy": {
+                "title": {
+                    "new": "创建分类",
+                    "edit": "编辑分类"
+                },
+                "field": {
+                    "type": "类别",
+                    "typeDescription": "分类信息可以被用在论坛的多个方面。创建分类信息的后类别则无法改变。同样命名的分类信息可以应用于不同类别。\n",
+                    "name": "",
+                    "slug": "",
+                    "description": "",
+                    "color": "",
+                    "icon": "",
+                    "iconDescription": "",
+                    "showLabel": "分类信息标签与词条一起显示",
+                    "showFilter": "在首页显示分类筛选按钮",
+                    "allowCustomValues": "允许随机变量名",
+                    "customValueValidation": "随机变量命名方式确认",
+                    "customValueSlugger": "",
+                    "customValueSluggerDescription": "",
+                    "countRequired": "字段数量限制",
+                    "countRequiredDescription": "设置每个主题帖需添加的字段数量\n",
+                    "rangeSeparatorText": "",
+                    "tagScope": "",
+                    "tagScopeDescription": "",
+                    "tagScopePlaceholder": ""
+                },
+                "delete": "",
+                "deleteConfirmation": "",
+                "submit": {
+                    "new": "",
+                    "edit": ""
+                },
+                "type-options": {
+                    "products": "",
+                    "discussions": "",
+                    "users": ""
+                },
+                "validation-options": {
+                    "default": "",
+                    "alpha_num": "",
+                    "alpha_dash": "",
+                    "regex": ""
+                },
+                "slugger-options": {
+                    "random": "",
+                    "alpha_dash": "",
+                    "transliterator": ""
+                }
+            },
+            "edit-term": {
+                "title": {
+                    "new": "创建分类信息的字段",
+                    "edit": "编辑字段"
+                },
+                "field": {
+                    "name": "",
+                    "slug": "",
+                    "description": "",
+                    "color": "",
+                    "icon": "",
+                    "iconDescription": ""
+                },
+                "delete": "",
+                "deleteConfirmation": "",
+                "submit": {
+                    "new": "",
+                    "edit": ""
+                }
+            },
+            "permissions": {
+                "heading": "",
+                "moderate": "",
+                "bypassTermCounts": "",
+                "seeOwnDiscussion": "",
+                "seeAnyDiscussion": "",
+                "editOwnDiscussion": "",
+                "editAnyDiscussion": "",
+                "seeOwnUser": "",
+                "seeAnyUser": "",
+                "editOwnUser": "",
+                "editAnyUser": "",
+                "ownDisabledEveryone": "",
+                "ownDisabledMembers": ""
+            },
+            "settings": {
+                "goToPage": ""
+            }
+        },
+        "forum": {
+            "composer": {
+                "choose": ""
+            },
+            "discussion": {
+                "edit": ""
+            },
+            "user": {
+                "nav": "",
+                "edit": ""
+            },
+            "blog": {
+                "widget": {
+                    "title": ""
+                }
+            }
+        },
+        "lib": {
+            "modal": {
+                "title": {
+                    "new": "为你的帖子选择 {taxonomy}",
+                    "edit": "为 {title}编辑 {taxonomy}"
+                },
+                "placeholder": "",
+                "placeholderOptional": "选择……",
+                "custom": "选择 {value}",
+                "bypassTermCounts": "",
+                "submit": ""
+            }
+        },
+        "api": {
+            "error": {
+                "invalid_filter_taxonomy": "",
+                "discussion_taxonomy_not_in_scope": "",
+                "cannot_use_taxonomies_on_model": ""
+            }
+        },
+        "ref": {
+            "field": {
+                "name": "",
+                "slug": "",
+                "description": "",
+                "color": "",
+                "icon": "",
+                "iconDescription": ""
+            },
+            "delete": "",
+            "submit": {
+                "new": "",
+                "edit": ""
+            }
+        }
+    }
+}

@@ -12,11 +12,11 @@
                 "use-response-status": "Doğrulama durumu için HTTP yanıt durumunu kullan",
                 "use-response-status-help": "2xx yanıtlar geçerli sayılacaktır. 4xx yanıtları geçersiz sayılacaktır.",
                 "response-success-key": "Geçerli duruma sahip JSON özniteliğine giden yol",
-                "response-success-key-help": "",
+                "response-success-key-help": "<code>key1.key2.key32</code> biçiminde yol olmalıdır. Laravel <code>Arr::get</code> helper ile ayıklanır. Değer, boolean olarak kullanılacaktır. Tek etkisi, HTTP durumunun kullanılmamasıdır. Yanıt geçerli JSON değilse istisna sayılacaktır.\n",
                 "default-error-message": "Varsayılan hata mesajı",
-                "default-error-message-help": "",
-                "response-error-key": "",
-                "response-error-key-help": ""
+                "default-error-message-help": "Bu mesaj, başka bir mesaj bulunamazsa e-posta doğrulaması başarısız olduğunda kullanıcıya gösterilecektir. Bu mesajın çevrilmesine ihtiyacınız varsa, alanı boş bırakın ve Linguist ile yerleşik varsayılan hata mesajını özelleştirin.\n",
+                "response-error-key": "Hata mesajıyla birlikte JSON özniteliğine giden yol",
+                "response-error-key-help": "<code>key1.key2.key3</code> biçiminde yol olmalıdır. Laravel <code>Arr::get</code> helper ile ayıklanır. Bu anahtar bulunamazsa varsayılan hata mesajı gösterilecektir.\n"
             }
         },
         "api": {

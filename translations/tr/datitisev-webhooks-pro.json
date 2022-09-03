@@ -8,15 +8,15 @@
             "post": {
                 "reacted": "Bir gönderiye tepki verdi `{1}`",
                 "unreacted": "Bir gönderiden tepkisini kaldırdı",
-                "upvoted": "",
-                "downvoted": ""
+                "upvoted": "Gönderi beğenildi",
+                "downvoted": "Gönderi beğenilmedi"
             },
             "user": {
-                "enabled2fa": ""
+                "enabled2fa": "2FA Etkinleştirildi"
             },
             "extension": {
-                "installed": "",
-                "updated": ""
+                "installed": "Uzantı yüklendi `{1}`",
+                "updated": "Uzantı güncellendi `{1}`"
             },
             "ip": {
                 "banned": "IP yasaklandı `{1}`",
@@ -38,30 +38,30 @@
                     },
                     "fof": {
                         "banips": {
-                            "title": "",
-                            "ipwasbanned": "",
-                            "ipwasunbanned": ""
+                            "title": "FriendsOfFlarum Ban IPs",
+                            "ipwasbanned": "Askıda",
+                            "ipwasunbanned": "Askıda değil"
                         },
                         "byobu": {
-                            "title": "",
-                            "discussionmadepublic": ""
+                            "title": "FriendsOfFlarum Byobu",
+                            "discussionmadepublic": "Tartışma Herkese Açıldı"
                         },
                         "gamification": {
-                            "title": "",
-                            "postwasvoted": ""
+                            "title": "FriendsOfFlarum Gamification",
+                            "postwasvoted": "Gönderi Beğenildi/Beğenilmedi"
                         },
                         "polls": {
                             "title": "FriendsOfFlarum Polls",
-                            "pollwasvoted": "",
-                            "pollwascreated": ""
+                            "pollwasvoted": "Oy verildi",
+                            "pollwascreated": "Oluşturuldu"
                         },
                         "reactions": {
-                            "title": "",
-                            "postwasreacted": "",
-                            "postwasunreacted": ""
+                            "title": "FriendsOfFlarum Reactions",
+                            "postwasreacted": "Gönderiye Tepki Verildi",
+                            "postwasunreacted": "Gönderiden Tepki Alındı"
                         },
                         "twofactor": {
-                            "title": "",
+                            "title": "FriendsOfFlarum Two Factor",
                             "userenabledtwofactor": "Kullanıcı 2FA Etkinleştirdi"
                         }
                     },

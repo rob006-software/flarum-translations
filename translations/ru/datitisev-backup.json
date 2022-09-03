@@ -1,0 +1,177 @@
+{
+    "datitisev-backup": {
+        "admin": {
+            "adapters": {
+                "local": "Локальное хранилище",
+                "aliyun": "Alibaba Cloud (Aliyun)",
+                "azure": "Microsoft Azure",
+                "aws": "Amazon AWS S3",
+                "dospaces": "Digital Ocean Spaces",
+                "dropbox": "Dropbox",
+                "gdrive": "Google Drive",
+                "ftp": "FTP",
+                "gridfs": "GridFS",
+                "rackspace": "Rackspace",
+                "sftp": "SFTP",
+                "webdav": "WebDAV",
+                "zip": "Zip архив"
+            },
+            "settings_button": "Конфигурировать",
+            "required_package_button": "Установить",
+            "you-need-for": {
+                "aliyun": "aliyuncs/aliyun-oss-flysystem",
+                "azure": "league/flysystem-azure",
+                "aws": "league/flysystem-aws-s3-v3",
+                "copy": "league/flysystem-copy",
+                "dospaces": "league/flysystem-aws-s3-v3",
+                "dropbox": "spatie/flysystem-dropbox",
+                "gdrive": "nao-pon/flysystem-google-drive",
+                "gridfs": "league/flysystem-gridfs",
+                "rackspace": "league/flysystem-rackspace",
+                "sftp": "league/flysystem-sftp",
+                "webdav": "league/flysystem-webdav"
+            },
+            "required-package-modal": {
+                "title": "Для {adapter} необходим соответствующий пакет",
+                "content": "Чтобы использовать этот драйвер, вы должны установить соответствующий пакет. Это можно сделать из командной строки Composer: <code>composer require {package}</code>, находясь в установочном каталоге Flarum.\n"
+            },
+            "adapter-settings-modal": {
+                "title": "Конфигурировать {adapter}",
+                "local": {
+                    "target": {
+                        "label": "Путь назначения",
+                        "description": "Укажите локальный каталог для сохранения резервных копий."
+                    }
+                },
+                "aliyun": {
+                    "endpoint": {
+                        "label": "Конечная точка",
+                        "description": "URL конечной точки вашего хранилища."
+                    },
+                    "access-id": {
+                        "label": "ID доступа",
+                        "description": ""
+                    },
+                    "access-key": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "bucket": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "path-prefix": {
+                        "label": "",
+                        "description": ""
+                    }
+                },
+                "azure": {
+                    "endpoint": {
+                        "label": "",
+                        "description": "URL конечной точки вашего хранилища."
+                    },
+                    "container": {
+                        "label": "Контейнер",
+                        "description": "Контейнер Azure"
+                    }
+                },
+                "aws": {
+                    "credentials": {
+                        "key": {
+                            "label": "Ключ",
+                            "description": "Ключ доступа AWS"
+                        },
+                        "secret": {
+                            "label": "",
+                            "description": ""
+                        }
+                    },
+                    "region": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "version": {
+                        "label": "Версия",
+                        "description": "Укажите версию или оставьте пустой для использования самой последней."
+                    },
+                    "bucket": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "path-prefix": {
+                        "label": "",
+                        "description": ""
+                    }
+                },
+                "dropbox": {
+                    "access-token": {
+                        "label": "",
+                        "description": ""
+                    }
+                },
+                "gdrive": {
+                    "client": {
+                        "id": {
+                            "label": "",
+                            "description": ""
+                        },
+                        "secret": {
+                            "label": "",
+                            "description": ""
+                        }
+                    },
+                    "refresh-token": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "folder": {
+                        "label": "",
+                        "description": ""
+                    }
+                },
+                "ftp": {
+                    "host": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "username": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "password": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "private-key": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "port": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "root": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "passive": {
+                        "toggle": "",
+                        "description": ""
+                    },
+                    "ssl": {
+                        "toggle": "",
+                        "description": ""
+                    },
+                    "timeout": {
+                        "label": "",
+                        "description": ""
+                    }
+                }
+            },
+            "nav": {
+                "label": "",
+                "description": ""
+            }
+        }
+    }
+}

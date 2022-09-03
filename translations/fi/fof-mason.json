@@ -1,0 +1,96 @@
+{
+    "fof-mason": {
+        "forum": {
+            "discussion-controls": {
+                "edit-answers": "Muokkaa kenttiä"
+            },
+            "answers-modal": {
+                "edit-title": "Muokkaa kenttiä {title}",
+                "save": "Tallenna kentät"
+            },
+            "post-answers": {
+                "no-answer": "Ei vastausta"
+            },
+            "answers": {
+                "choose-option": "Valitse vaihtoehto",
+                "no-option-selected": "Ei vaihtoehtoa valittuna"
+            },
+            "tags": {
+                "inadequate-settings": "Avainsanan asetukset ei ole oikein asetettu. Salli yhden pää tai toissijaisen avainsanan tai ota pois käytöstä \"Avainsanat kenttinä\" ominaisuus.\n",
+                "tags-label": "Avainsanat"
+            }
+        },
+        "admin": {
+            "buttons": {
+                "new-field": "Uusi kenttä",
+                "add-field": "Lisää kenttä",
+                "save-field": "Tallenna kentän muutokset",
+                "delete-field": "Poista kenttä",
+                "edit-field": "Klikkaa muokataksesi kenttää",
+                "add-answer": "Lisää vastaus",
+                "save-answer": "Tallenna vastauksen muutokset",
+                "delete-answer": "Poista vastaus",
+                "edit-answer": "Muokkaa vastausta",
+                "edit-answer-prompt": "Muokkaa sisältöä kaikkialla missä sitä on käytetty",
+                "show-user-answers": "Näytä ei ehdotetut vastaukset ({count})"
+            },
+            "fields": {
+                "add": "Lisää kenttä {field}",
+                "edit": "Muokkaa kenttää {field}",
+                "required": "Pakollinen",
+                "name": "Kentän nimi",
+                "name-help": "Julkisesti näkyvä (ei käännettävä) kentän tunniste.\n",
+                "description": "Kentän kuvaus",
+                "description-help": "Vaihtoehtoinen kuvaus kentälle joka kertoo sen tarpeen/käytön.\n",
+                "show_when_empty": "Näytä kun tyhjä",
+                "show_when_empty-help": "Näytetäänkö kenttä keskustelussa, kun siihen ei ole vastattu",
+                "validation": "Käyttäjän arvojen validointi",
+                "user_values_allowed": "Käyttäjän syöte sallittu",
+                "user_values_allowed-help": "Jos käytössä käyttäjät voivat omia arvojaan ylläpitäjän määrittämien arvojen lisäksi. Nämä arvot tarkistetaan validaatio asetusta vasten. Jos otettu pois käytöstä käytetään vain \"ehdotettuja\" vastauksia.\n",
+                "validation-help": "Tarkista tuetut <a>Laravelin validointi sännöt</a>. Esim. \"string|min:5\" or \"url\".\n",
+                "enable-user-values-for-validation": "Ota käyttöön \"käyttäjän arvot\" määrittääksesi validaatio säännöt",
+                "icon": "Ikoni",
+                "icon-help": "Näyttää ikonin käyttäjän syöttämän arvon edessä. Saatavilla olevat ikonit näkee <a>FontAwesomen sivustolta</a>. Käytä ikonin koko nimeä etuliitteinen, esimerkiksi \"fas fa-bolt\".\n",
+                "icon-preview": "esikatselu: {preview}",
+                "save-field-for-answers": "Tallenna kenttä lisätäksesi vastauksia",
+                "is_suggested": "Ehdota vastausta käyttäjille",
+                "new-answer": "Uusi vastaus",
+                "new-answer-placeholder": "Jotain tekstiä"
+            },
+            "messages": {
+                "delete-answer-confirmation": "Haluatko varmasti poistaa vastauksen \"{content}\"? Se poistetaan kaikista keskusteluista joissa sitä on käytetty. Jos haluat pitää olemassa olevat vastaukset, ota pois käytöstä vastauksen ehdotus sen sijaan. Poista vastaus?\n",
+                "delete-field-confirmation": "Haluatko varmasti poistaa kentän \"{name}\"? Kentän vastaukset poistetaan kaikista keskusteluista, jotka käyttää sitä. Poista kenttä?\n"
+            },
+            "settings": {
+                "fields-section-title": "Mukautettujen kenttien osion otsikko",
+                "fields-section-title-placeholder": "Oletuksena otsikkoa ei näytetä",
+                "fields-section-title-help": "Käyttäjät näkevät tämän tekstin mukautettujen kenttien yläpuolella editorissa ja keskustelussa.\n",
+                "column-count": "Sarakkeiden määrä kun kenttiä näytetään",
+                "n-columns": "{count} saraketta",
+                "labels-as-placeholders": "Näytä tunnisteet placeholdereina lomakkeella",
+                "labels-as-placeholders-help": "Kentät käyttävät vähemmän vertikaalista tilaa ja ikonit eivät näy enää. Ota huomioon, että tämä vaikuttaa käytettävyyteen, varsinkin kun muokataan olemassa olevia kenttiä.\n",
+                "fields-in-hero": "Näytä kentät keskustelun bannerissa ensimmäisen viestin sijaan",
+                "hide-empty-fields-section": "Piilota otsikko ja säätimet, kun kaikki kentät ovat tyhjiä ja piilotettu",
+                "hide-empty-fields-section-help": "Oletuksena jos käyttäjä voi muokata kenttää tai otsikko on asetettu, osio näytetään aina vaikka kentät olisivat piilossa. Tämän asetuksen kanssa osio näytetään ja \"muokkaa kenttiä\" painike on vain näkyvillä \"vastaa\" alasvetovalikossa kun kaikki kentät ovat tyhjiä.\n",
+                "tags-as-field": "Näytä avainsana valitsin kenttänä",
+                "tags-as-field-help": "Tämä piilottaa oletuksena käytettävän avainsana valitsimen ja käyttää mukautettua alasvetovalikkoa sen sijaan. Tämä toimii vain jos sallit yhden pää ja yhden toissijaisen avainsanan!\n",
+                "tags-field-name": "Avainsana kentän tunniste",
+                "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
+            },
+            "titles": {
+                "settings": "Asetukset",
+                "fields": "Kentät",
+                "field-settings": "Kentän asetukset",
+                "field-answers": "Kentän vastaukset"
+            },
+            "permissions": {
+                "see-own-fields": "Näe kentät omissa olemassa olevissa keskusteluissa",
+                "see-other-fields": "Näe kentät kaikissa olemassa olevissa keskusteluissa",
+                "fill-fields": "Täytä kentät uusissa keskusteluissa",
+                "update-own-fields": "Päivitä kenttiä omissa keskusteluissa",
+                "update-other-fields": "Päivitä kenttiä missä tahansa keskusteluissa",
+                "skip-required-fields": "Saa ohittaa pakolliset kentät"
+            }
+        }
+    }
+}

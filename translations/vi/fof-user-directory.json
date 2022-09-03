@@ -1,0 +1,55 @@
+{
+    "fof-user-directory": {
+        "forum": {
+            "header": {
+                "back_to_user_directory_tooltip": "Quay lại Danh sách người dùng"
+            },
+            "search": {
+                "users_heading": "Tìm kiếm tất cả người dùng theo \"{query}\"",
+                "field": {
+                    "placeholder": "Tìm kiếm tất cả người dùng"
+                },
+                "kinds": {
+                    "group": "Nhóm",
+                    "text": "Văn bản tự do"
+                }
+            },
+            "page": {
+                "nav": "Danh sách người dùng",
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "Chúng tôi không thể tìm thấy bất kỳ người dùng nào phù hợp với tìm kiếm của bạn.",
+                "filter_button": "Lọc nhóm",
+                "usercard": {
+                    "discussion-count": "{count, plural, one { {count} cuộc thảo luận} other {{count} cuộc thảo luận}}",
+                    "post-count": "{count, plural, one { {count} bài viết} other {{count} bài viết}}"
+                }
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view_user_directory": "Xem danh sách người dùng"
+            },
+            "settings": {
+                "link": "Thêm đường dẫn vào thanh bên diễn đàn",
+                "default-sort": "Sắp xếp mặc định",
+                "use-small-cards": "Sử dụng thẻ người dùng nhỏ",
+                "disable-global-search-source": "Không thêm Danh sách người dùng vào trường tìm kiếm toàn cục của Flarum"
+            }
+        },
+        "lib": {
+            "sort": {
+                "not_specified": "Sử dụng mặc định của Flarum",
+                "default": "Mặc định",
+                "username_az": "Tên người dùng (a-z)",
+                "username_za": "Tên người dùng (z-a)",
+                "newest": "Mới nhất",
+                "oldest": "Cũ nhất",
+                "most_posts": "Bài viết nhiều nhất",
+                "least_posts": "Bài viết ít nhất",
+                "most_discussions": "Thảo luận nhiều nhất",
+                "least_discussions": "Thảo luận ít nhất"
+            }
+        }
+    }
+}

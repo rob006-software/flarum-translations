@@ -1,0 +1,25 @@
+{
+    "davwheat-share": {
+        "admin": {
+            "browser_support_notice": "The \"Share\" option will only appear on devices which support the Web Share API. <a>Check support for different browsers.</a>",
+            "display_options": {
+                "icon": "Icon only",
+                "text": "Text only",
+                "menu": "Inside actions menu"
+            },
+            "display_options_label": "Share button display type",
+            "button_preview_header": "Preview",
+            "preview": {
+                "reply": "Reply",
+                "dropdown": {
+                    "edit": "Edit",
+                    "delete": "Delete"
+                }
+            }
+        },
+        "lib": {
+            "share": "Share",
+            "share_a11y_label": "Share post"
+        }
+    }
+}

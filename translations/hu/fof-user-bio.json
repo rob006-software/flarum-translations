@@ -2,17 +2,17 @@
     "fof-user-bio": {
         "admin": {
             "permission": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "Bemutatkozás megtekintése",
+                "editOwn": "Saját bemutatkozás szerkesztése",
+                "editAny": "Bármelyik bemutatkozás szerkesztése"
             },
             "setting": {
-                "bioLimit": ""
+                "bioLimit": "Bemutatkozás karakterkorlátja"
             }
         },
         "forum": {
-            "userbioPlaceholder": "",
-            "userbioPlaceholderOtherUser": ""
+            "userbioPlaceholder": "Írjon valamit magáról",
+            "userbioPlaceholderOtherUser": "Írjon bemutatkozást {username} számára"
         }
     }
 }

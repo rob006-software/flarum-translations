@@ -2,73 +2,76 @@
     "fof-upload": {
         "admin": {
             "pane": {
-                "title": "",
-                "description": ""
+                "title": "アップロード",
+                "description": "アップロード機能のセットアップと設定を行います。"
             },
             "help_texts": {
-                "disable-download-logging": "スイッチをオンにすると、フォーラムユーザーのすべてのダウンロード動作のバックグラウンドレコードが無効になります。 ログ保持機能が有効になっている場合、ファイルのダウンロード数およびその他の関連データを表示できます。 （デフォルトで有効）\n",
-                "disable-hotlink-protection": "盗難防止保護は、 csrf token と post id を検証して、サイト外からのダウンロード要求を防ぐことができます。 （デフォルトで有効）\n",
-                "download_templates": "ダウンロードテンプレートは、プレビュー、ボタンなど、アップロードがフォーラムに表示される方法です。 現在利用可能：\n",
-                "mime_types": "MIME メディアタイプを（詳細：http://t.cn/RIVXXlX）設定する。 各タイプは、設定されたアップロード方法を使用して処理されます。",
-                "resize": "アップロードする前に画像のサイズを変更するかどうかを選択できます。 ピクセル単位で、画像の最大の長さと幅を選択できます。 画像のサイズを変更すると、画像の縦横比が維持されます。\n",
-                "client_extension": "",
-                "watermark": "写真をアップロードするときに透かしを添付するかどうかを選択します。 次の設定に従って、非GIF画像に透かしが追加されます。\n",
-                "s3_compatible_storage": "",
-                "s3_acl": "",
+                "disable-download-logging": "フォーラムのユーザーが行った全てのダウンロードのログを無効化します。有効にしておくと、近い将来ダウンロード数の確認やその他の統計を確認できるようになります。\n",
+                "disable-hotlink-protection": "他のサイトからのダウンロードを防止します。現在の方法では、csrfトークンと投稿IDが必要です。\n",
+                "download_templates": "表示方法は、アップロードされたファイルがフォーラムでどのように表示されるかを指定します（プレビューやボタンなど）。現在利用できる表示方法は以下のとおりです。\n",
+                "mime_types": "ここで振り分けの設定を行ってください。アップロードされたファイルのMIMEタイプに対して、正規表現による振り分けが行われ、対応するアップロード先と表示方法が使用されます。\n",
+                "resize": "アップロードされる前に画像サイズを変更するかどうかを選択します。最大の幅と高さをピクセル単位で指定できます。画像サイズを変更しても、アスペクト比は維持されます。\n",
+                "client_extension": "標準の設定では、MINEタイプに応じて安全な拡張子を判別しています。\nそのため、ZIPやバイナリデータといった一部のファイルタイプでは、本来と異なる汎用拡張子として認識される場合があります。\nここでは、コンマ区切りで拡張子を入力することで、拡張子をそのまま解釈するファイルを選択します。\n",
+                "watermark": "アップロード時に電子透かしを追加するかどうかを選択します。電子透かしは以下の設定に基づいてGIF以外に追加されます。\n",
+                "s3_compatible_storage": "S3互換ストレージを使用する場合は、以下の設定が必要です。AWSを使用する場合は、空欄にしてください。\n",
+                "s3_acl": "アップロードされたオブジェクトに適用するACLを選択します(標準：private)。利用可能な値は、以下のURLを確認してください。 https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_instance_profile": "",
                 "composer_buttons": ""
             },
             "labels": {
                 "aws-s3": {
                     "bucket": "Bucket",
                     "key": "Key",
-                    "region": "地域",
+                    "region": "Region",
                     "secret": "Secret",
-                    "title": "AWS S3 ストア設定（http://t.cn/A6zX0V3N）",
-                    "advanced_title": "",
-                    "endpoint": "",
-                    "use_path_style_endpoint": "",
-                    "acl": ""
+                    "title": "AWS S3 ストレージ設定",
+                    "advanced_title": "S3 ストレージ詳細設定",
+                    "endpoint": "エンドポイント",
+                    "use_path_style_endpoint": "Use path style endpoint",
+                    "acl": "アクセスコントロールリスト (ACL)"
                 },
                 "disable-download-logging": {
-                    "title": "ダウンロード履歴統計を無効にする",
+                    "title": "ダウンロードログの無効化",
                     "toggle": "無効にする"
                 },
                 "disable-hotlink-protection": {
-                    "title": "盗難防止チェーン保護を無効にする",
+                    "title": "直リンク防止の無効化",
                     "toggle": "無効にする"
                 },
                 "imgur": {
-                    "client_id": "Imgur 顧客ID",
-                    "title": "Imgur 画像を保存した設定"
+                    "client_id": "Imgur client ID",
+                    "title": "Imgur 画像ストレージ設定",
+                    "tos": ""
                 },
                 "local": {
-                    "cdn_url": "OSS/CDN ドメイン名（http/https プレフィックス）",
-                    "title": "ローカル、OSS ストレージ設定"
+                    "cdn_url": "コンテンツ配信URL (ファイルの接頭辞)",
+                    "title": "ローカルストレージ設定"
                 },
                 "qiniu": {
-                    "title": "七牛 ストア設定（需要 composer require overtrue/flysystem-qiniu）",
+                    "title": "Qiniu ストレージ設定",
                     "key": "Key",
                     "secret": "Secret",
                     "bucket": "Bucket"
                 },
                 "preferences": {
-                    "max_file_size": "最大ファイルサイズ（KB）",
-                    "mime_types": "MIME タイプに対応するアップロード方法を設定します",
-                    "title": "プリファレンス"
+                    "max_file_size": "最大ファイルサイズ (キロバイト)",
+                    "mime_types": "MIMEタイプの指定と、アップロード方法の振り分けを行います",
+                    "title": "一般設定",
+                    "php_ini_values": ""
                 },
                 "resize": {
-                    "max_width": "最大画像幅",
-                    "title": "画像のサイズを変更する",
-                    "toggle": "開く"
+                    "max_width": "画像の最大幅/高さ",
+                    "title": "画像サイズの変更",
+                    "toggle": "画像サイズ変更の有効化"
                 },
                 "client_extension": {
-                    "title": ""
+                    "title": "ユーザーが提供するファイル拡張子"
                 },
                 "watermark": {
-                    "file": "透かし画像をアップロードする",
+                    "file": "電子透かしのアップロード　",
                     "position": "透かしの位置",
-                    "title": "透かし画像",
-                    "toggle": "開く"
+                    "title": "電子透かし",
+                    "toggle": "電子透かしの有効化"
                 },
                 "composer_buttons": {
                     "title": "",
@@ -77,39 +80,56 @@
                         "upload-btn": "",
                         "media-btn": ""
                     }
-                }
+                },
+                "inspect-mime": ""
             },
             "permissions": {
-                "download_label": "アップロードファイルを許可します",
-                "upload_label": "ダウンロードファイルを許可する",
+                "download_label": "ファイルのダウンロード",
+                "upload_label": "ファイルのアップロード",
                 "view_user_uploads_label": "",
                 "delete_uploads_of_others_label": ""
             },
             "templates": {
-                "file": "デフォルトのファイルダウンロードテンプレート",
-                "file_description": "ファイル名といくつかの一般情報を表示します。 プロキシは php を介してダウンロードし、統計の収集とホットリンク保護を可能にします。\n",
-                "image": "デフォルトの画像ダウンロードテンプレート",
-                "image-preview": "完全な画像プレビューテンプレート",
-                "image-preview_description": "完全な画像をインラインで表示します。 ダウンロード機能も統計情報も収集されず、ホットリンク保護は無視されます。\n",
-                "image_description": "画像のサムネイルを表示し、PHP を介してプロキシをダウンロードします。 統計の収集とホットリンク保護を許可します。\n",
-                "just-url": "",
-                "just-url_description": ""
+                "file": "標準",
+                "file_description": "ファイル名といくつかの情報を表示します。PHPを介したプロキシでダウンロードするため、統計データの収集と直リンク保護が可能です。\n",
+                "image": "画像",
+                "image_description": "画像のサムネイルを表示し、PHPを介したプロキシでダウンロードを行います。統計データの収集と直リンク保護が可能です。\n",
+                "image-preview": "画像プレビュー",
+                "image-preview_description": "本文内に完全な画像を表示します。統計データは収集されず、直リンク保護は無視されます。\n",
+                "markdown-image": "",
+                "markdown-image_description": "",
+                "bbcode-image": "",
+                "bbcode-image_description": "",
+                "just-url": "URL",
+                "just-url_description": "URLを表示します。他の拡張機能によってリンクを機能させることができます。ダウンロード機能、統計機能、直リンク防止機能は利用できません。\n",
+                "text-preview": "",
+                "text-preview_description": ""
             },
             "upload_methods": {
-                "aws-s3": "AWS S3",
+                "aws-s3": "S3互換",
                 "imgur": "Imgur",
                 "local": "ローカル",
                 "ovh-svfs": "OVH SVFS",
-                "qiniu": "七牛"
+                "qiniu": "QiNiu"
             },
-            "buttons": {
-                "save": "設定を保存する"
+            "inspect-mime": {
+                "title": "",
+                "description": "",
+                "select": "",
+                "laravel-validation": "",
+                "no-file-selected": "",
+                "validation-passed": "",
+                "validation-failed": "",
+                "mime-detector": "",
+                "mime-fileinfo": "",
+                "guessed-extension": "",
+                "not-available": ""
             }
         },
         "forum": {
             "media_manager": "",
             "buttons": {
-                "attach": "添付ファイルを追加",
+                "attach": "添付",
                 "upload": "",
                 "user_uploads": "",
                 "cancel": "",
@@ -133,16 +153,26 @@
                 }
             },
             "states": {
-                "error": "間違った",
-                "loading": "読み込み中",
+                "error": "エラー",
+                "loading": "アップロード中",
                 "unauthorized": "ダウンロードする権限がありません"
+            },
+            "validation": {
+                "max_size": ""
+            },
+            "text_preview": {
+                "expand": "",
+                "collapse": "",
+                "error": "",
+                "no_snippet_preview": "",
+                "no_snippet": ""
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
-                "unsupported_type": "",
-                "could_not_detect_mime": ""
+                "forbidden_type": "このタイプのファイルはアップロードできません",
+                "unsupported_type": "アップロード先のサービスがこのファイルのMINEタイプをサポートしていません: {mime}.",
+                "could_not_detect_mime": "このファイルのMIMEタイプを検出できませんでした。再度お試しください。"
             }
         }
     }

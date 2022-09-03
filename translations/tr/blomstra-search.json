@@ -1,0 +1,14 @@
+{
+    "blomstra-search": {
+        "admin": {
+            "elastic-endpoint": "Elastic Endpoint",
+            "elastic-username": "=> core.ref.username",
+            "elastic-password": "=> core.ref.password",
+            "elastic-index": "Index",
+            "analyzer": {
+                "label": "Çözümleyici dili",
+                "help": "Çözümleyici, aramanın durma sözcüklerini anlamasını sağlar ve dizin\noluşturma için dile özgü iyileştirmeler gerçekleştirir.\n"
+            }
+        }
+    }
+}

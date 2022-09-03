@@ -1,0 +1,18 @@
+{
+    "flarum-pusher": {
+        "admin": {
+            "pusher_settings": {
+                "app_cluster_label": "Кластер",
+                "app_id_label": "ID приложения",
+                "app_key_label": "Ключ",
+                "app_secret_label": "Секретный ключ",
+                "title": "Настройки Pusher"
+            }
+        },
+        "forum": {
+            "discussion_list": {
+                "show_updates_text": "{count, plural, one {Показать # обновлённую дискуссию} other {Показать # обновлённых дискуссий}}"
+            }
+        }
+    }
+}

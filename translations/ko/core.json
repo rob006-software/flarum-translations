@@ -1,0 +1,705 @@
+{
+    "core": {
+        "admin": {
+            "appearance": {
+                "colored_header_label": "색상이 있는 머리글",
+                "colors_heading": "색상들",
+                "colors_text": "포럼의 테마에 사용할 두 가지 색상을 선택하세요. 첫번째 색상은 하이라이트 색상으로 사용되고 두번째 색상은 배경 요소 색상으로 사용됩니다.",
+                "custom_footer_heading": "사용자 지정 바닥글",
+                "custom_footer_text": "=> core.ref.custom_footer_text",
+                "custom_header_heading": "사용자 지정 머리글",
+                "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_heading": "사용자 지정 스타일",
+                "custom_styles_text": "Flarum 기본 스타일 위에 적용될 LESS/CSS 코드를 추가하세요.",
+                "dark_mode_label": "다크 모드",
+                "description": "포럼의 색상, 로고, 그리고 다른 값들을 개인화하세요.",
+                "edit_css_button": "커스텀 CSS 편집",
+                "edit_footer_button": "=> core.ref.custom_footer_title",
+                "edit_header_button": "=> core.ref.custom_header_title",
+                "enter_hex_message": "16 진수 색상 코드를 입력하세요.",
+                "favicon_heading": "사이트 아이콘",
+                "favicon_text": "포럼의 바로가기에 보여질 이미지를 업로드하세요.",
+                "logo_heading": "로고",
+                "logo_text": "포럼 제목에 보여질 이미지를 업로드하세요.",
+                "title": "외관",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "basics": {
+                "all_discussions_label": "=> core.ref.all_discussions",
+                "default_language_heading": "기본 언어",
+                "description": "포럼의 제목, 언어, 그리고 다른 기본적인 설정을 하세요.",
+                "display_name_heading": "사용자 표시 이름",
+                "display_name_text": "사용자 표시 이름에 사용되는 드라이버를 선택하십시오. 기본적으로 사용자명이 표시됩니다.",
+                "forum_description_heading": "포럼 설명",
+                "forum_description_text": "커뮤니티를 설명하는 두개의 짧은 문장을 입력합니다. 이 문장은 메타 태그에 나타나고 검색 엔진에 표시됩니다.",
+                "forum_title_heading": "포럼 타이틀",
+                "home_page_heading": "홈페이지",
+                "home_page_text": "사용자가 포럼을 방문했을 때 처음 보여지는 페이지를 선택합니다.",
+                "show_language_selector_label": "언어 선택기 표시",
+                "slug_driver_heading": "슬러그 드라이버: {model}",
+                "slug_driver_text": "이 모델을 슬러깅할 드라이버를 선택하세요.",
+                "title": "기본",
+                "welcome_banner_heading": "환영 배너",
+                "welcome_banner_text": "모든 토의 페이지의 배너에 표시되는 본문을 구성합니다. 포럼 방문자에 대한 환영 메시지로 사용됩니다.",
+                "saved_message": "변경 사항이 저장되었습니다.",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "dashboard": {
+                "clear_cache_button": "캐시 삭제",
+                "description": "한눈에 보이는 당신의 포럼.",
+                "title": "대시보드",
+                "tools_button": "도구"
+            },
+            "edit_css": {
+                "customize_text": "Flarum <a>기본 스타일</a> 위에 적용될 LESS/CSS 코드를 추가하세요.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "편집"
+            },
+            "edit_footer": {
+                "customize_text": "=> core.ref.custom_footer_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
+            },
+            "edit_group": {
+                "color_label": "=> core.ref.color",
+                "delete_button": "그룹 삭제",
+                "delete_confirmation": "이 그룹을 제거하시겠습니까? 그룹 안의 사용자들은 삭제되지 않습니다.",
+                "hide_label": "포럼 숨기기",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "이름",
+                "plural_placeholder": "복수",
+                "singular_placeholder": "단수",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "그룹 생성"
+            },
+            "edit_header": {
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
+            },
+            "email": {
+                "addresses_heading": "주소",
+                "description": "포럼이 이메일을 보내는데 사용될 드라이버, 설정, 그리고 주소를 설정하세요.",
+                "driver_heading": "드라이버 선택",
+                "driver_label": "드라이버",
+                "from_label": "발신자",
+                "mail_encryption_label": "암호화",
+                "mail_host_label": "호스트",
+                "mail_mailgun_domain_label": "도메인",
+                "mail_mailgun_region_label": "지역",
+                "mail_mailgun_secret_label": "시크릿 키",
+                "mail_password_label": "=> core.ref.password",
+                "mail_port_label": "포트",
+                "mail_username_label": "=> core.ref.username",
+                "mailgun_heading": "Mailgun 설정",
+                "not_sending_message": "Flarum에서 현재 이메일을 보낼 수 없습니다. 이 문제는 선택한 드라이버 또는 해당 구성의 오류 때문일 수 있습니다.",
+                "send_test_mail_button": "전송",
+                "send_test_mail_heading": "테스트 이메일 전송",
+                "send_test_mail_success": "테스트 이메일이 성공적으로 전송되었습니다!",
+                "send_test_mail_text": "위의 설정을 이용하여, {email} 주소로 이메일을 전송합니다.",
+                "smtp_heading": "SMTP 설정",
+                "title": "=> core.ref.email",
+                "heading": "=> core.ref.email",
+                "mail_mandrill_secret_label": "시크릿 키",
+                "mail_ses_key_label": "키",
+                "mail_ses_region_label": "지역",
+                "mail_ses_secret_label": "시크릿",
+                "mandrill_heading": "Mandrill 설정",
+                "ses_heading": "SES 설정",
+                "submit_button": "=> core.ref.save_changes",
+                "text": "포럼에서 이메일을 보내는 데 사용할 드라이버, 설정 및 주소를 구성합니다."
+            },
+            "extension": {
+                "configure_scopes": "범주 설정",
+                "confirm_purge": "완전한 제거는 이 확장에 관련된 모든 데이터베이스 항목과 파일들을 모두 삭제합니다. 정말 계속하시겠습니까?",
+                "disabled": "비활성화됨",
+                "enable_to_see": "설정을 보고 변경하려면 이 확장을 켜주세요.",
+                "enabled": "활성화됨",
+                "info_links": {
+                    "discuss": "토의",
+                    "documentation": "설명 문서",
+                    "donate": "기부하기",
+                    "source": "소스",
+                    "support": "지원",
+                    "website": "웹사이트"
+                },
+                "no_permissions": "이 확장은 권한이 없습니다.",
+                "no_settings": "이 확장은 설정이 없습니다.",
+                "open_modal": "설정 열기",
+                "permissions_title": "권한",
+                "purge_button": "완전한 제거",
+                "readme": {
+                    "button_label": "README",
+                    "no_readme": "이 확장은 README 파일이 없는것으로 보입니다",
+                    "title": "{extName} 설명 문서"
+                },
+                "confirm_uninstall": "제거하는것은 이 확장에 관련된 모든 데이터베이스 항목과 파일들을 모두 삭제합니다. 정말 계속하시겠습니까?",
+                "uninstall_button": "제거"
+            },
+            "header": {
+                "get_help": "도움받기",
+                "log_out_button": "=> core.ref.log_out"
+            },
+            "loading": {
+                "title": "기다려 주십시오..."
+            },
+            "nav": {
+                "appearance_button": "모양",
+                "appearance_title": "=> core.admin.appearance.description",
+                "basics_button": "기본",
+                "basics_title": "=> core.admin.basics.description",
+                "categories": {
+                    "authentication": "인증",
+                    "core": "코어 설정",
+                    "discussion": "토의",
+                    "feature": "기능",
+                    "formatting": "형식",
+                    "language": "언어",
+                    "moderation": "중재",
+                    "other": "다른 확장",
+                    "theme": "테마"
+                },
+                "dashboard_button": "대시보드",
+                "dashboard_title": "=> core.admin.dashboard.description",
+                "email_button": "=> core.ref.email",
+                "email_title": "=> core.admin.email.description",
+                "permissions_button": "권한",
+                "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
+                "search_placeholder": "확장 검색",
+                "appearance_text": "포럼의 색상, 로고 및 기타 변수를 사용자 정의합니다.",
+                "basics_text": "포럼 제목, 언어 및 기타 기본 설정을 설정합니다.",
+                "dashboard_text": "포럼 개요",
+                "email_text": "포럼의 이메일 설정을 구성합니다.",
+                "extensions_button": "확장 기능",
+                "extensions_text": "포럼에 확장 기능을 추가합니다.",
+                "permissions_text": "포럼을 보고 작업할 수 있는 사용자를 구성합니다."
+            },
+            "permissions": {
+                "allow_post_editing_label": "게시물 편집 허용",
+                "allow_renaming_label": "게시물 이름 변경 허용",
+                "create_heading": "생성",
+                "delete_discussions_forever_label": "토의 영구 삭제",
+                "delete_discussions_label": "토의 삭제",
+                "delete_posts_forever_label": "게시물 영구 삭제",
+                "delete_posts_label": "게시물 삭제",
+                "description": "누가 보고 무엇을 할 수 있는지 설정하세요.",
+                "edit_posts_label": "게시물 수정",
+                "edit_users_label": "사용자 편집",
+                "edit_users_credentials_label": "사용자 로그인 편집",
+                "edit_users_groups_label": "사용자 그룹 편집",
+                "global_heading": "글로벌",
+                "moderate_heading": "중재",
+                "new_group_button": "새 그룹",
+                "participate_heading": "참여",
+                "post_without_throttle_label": "기다림 없이 여러 번 답장 허용",
+                "read_heading": "읽기",
+                "rename_discussions_label": "이름 변경",
+                "reply_to_discussions_label": "답장 쓰기",
+                "search_users_label": "사용자 검색",
+                "sign_up_label": "가입",
+                "start_discussions_label": "글쓰기",
+                "title": "권한",
+                "view_forum_label": "포럼 보기 (토의와 사용자들)",
+                "view_hidden_groups_label": "숨긴 그룹 배지 표시",
+                "view_last_seen_at_label": "마지막으로 본 사용자 항상 표시",
+                "view_post_ips_label": "글 작성 IP 주소 보기",
+                "view_discussions_label": "게시글 보기",
+                "view_user_list_label": "사용자 목록 보기"
+            },
+            "permissions_controls": {
+                "allow_indefinitely_button": "제한 없음",
+                "allow_some_minutes_button": "{count, plural, one {# 분 동안} other {# 분 동안}}",
+                "allow_ten_minutes_button": "10 분 동안",
+                "allow_until_reply_button": "다음 답장까지",
+                "everyone_button": "모든 사람",
+                "members_button": "=> core.group.members",
+                "signup_closed_button": "닫기",
+                "signup_open_button": "열기"
+            },
+            "settings": {
+                "saved_message": "변경사항이 저장되었습니다.",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "upload_image": {
+                "remove_button": "=> core.ref.remove",
+                "upload_button": "이미지 선택..."
+            },
+            "users": {
+                "description": "포럼의 모든 유저들의 리스트.",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
+                            "tooltip": "{username} 편집"
+                        },
+                        "email": {
+                            "title": "=> core.ref.email",
+                            "visibility_hide": "이메일 숨기기",
+                            "visibility_show": "이메일 보이기"
+                        },
+                        "group_badges": {
+                            "no_badges": "없음",
+                            "title": "그룸들"
+                        },
+                        "join_time": {
+                            "title": "가입일"
+                        },
+                        "user_id": {
+                            "title": "아이디"
+                        },
+                        "username": {
+                            "profile_link_tooltip": "{username}의 프로필 방문",
+                            "title": "=> core.ref.username"
+                        }
+                    },
+                    "invalid_column_content": "유효하지 않음"
+                },
+                "pagination": {
+                    "back_button": "이전 페이지",
+                    "next_button": "다음 페이지",
+                    "page_counter": "총 {total} 페이지 중 {current} 페이지"
+                },
+                "title": "=> core.ref.users",
+                "total_users": "총 유저: {count}"
+            },
+            "add_extension": {
+                "developer_text": "개발자라면 <a>문서를 읽고</a> 자신 만의 확장 기능을 구축 할 수 있습니다.",
+                "install_text": "지금은 Flarum 커뮤니티 사이트에서 확장 기능을 찾아 Composer를 사용하여 수동으로 설치할 수 있습니다.",
+                "temporary_text": "머지 않아 이 대화상자를 통해 포럼에 확장 기능을 쉽게 추가할 수 있습니다. 우리는 그런 생태계를 구축하고 있습니다!",
+                "title": "확장 기능 추가"
+            },
+            "extensions": {
+                "add_button": "확장 기능 추가",
+                "settings_button": "=> core.ref.settings",
+                "uninstall_button": "제거"
+            }
+        },
+        "forum": {
+            "change_email": {
+                "confirm_password_placeholder": "=> core.ref.confirm_password",
+                "confirmation_message": "=> core.ref.confirmation_email_sent",
+                "dismiss_button": "=> core.ref.okay",
+                "incorrect_password_message": "입력한 비밀번호가 올바르지 않습니다.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.change_email"
+            },
+            "change_password": {
+                "send_button": "비밀번호 재설정 이메일 보내기",
+                "text": "아래 버튼을 클릭하면 이메일에서 비밀번호를 변경할 수 있는 링크를 보내드립니다.",
+                "title": "=> core.ref.change_password"
+            },
+            "composer": {
+                "close_tooltip": "닫기",
+                "exit_full_screen_tooltip": "전체 화면 종료",
+                "full_screen_tooltip": "전체 화면",
+                "minimize_tooltip": "화면 최소",
+                "preview_tooltip": "미리 보기"
+            },
+            "composer_discussion": {
+                "body_placeholder": "게시물을 작성하십시오...",
+                "discard_confirmation": "토의 내용을 게시하지 않았습니다. 게시를 취소하시겠습니까?",
+                "submit_button": "토의 게시",
+                "title": "=> core.ref.start_a_discussion",
+                "title_placeholder": "토의 제목"
+            },
+            "composer_edit": {
+                "discard_confirmation": "변경 내용을 저장하지 않았습니다. 변경 내용을 취소하시겠습니까?",
+                "edited_message": "수정사항이 제출되었습니다.",
+                "post_link": "{discussion}에 #{number} 게시",
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": "=> core.ref.view"
+            },
+            "composer_reply": {
+                "body_placeholder": "=> core.ref.write_a_reply",
+                "discard_confirmation": "변경 내용을 저장하지 않았습니다. 변경 내용을 취소하시겠습니까?",
+                "posted_message": "답장이 게시되었습니다.",
+                "submit_button": "글쓰기",
+                "view_button": "보기"
+            },
+            "discussion_controls": {
+                "cannot_reply_button": "답장할 수 없음",
+                "cannot_reply_text": "이 글에 답장할 수 있는 권한이 없습니다.",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "정말로 이 글을 삭제하시겠습니까?",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "log_in_to_reply_button": "로그인한 후 답장",
+                "rename_button": "=> core.ref.rename",
+                "reply_button": "=> core.ref.reply",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "토의 작업 드롭다운 메뉴를 토글하기"
+            },
+            "discussion_list": {
+                "empty_text": "여기엔 게시물이 없는것 같습니다.",
+                "load_more_button": "=> core.ref.load_more",
+                "replied_text": "{username}님이 {ago}에 답장했습니다",
+                "started_text": "{username}님이 {ago}에 게시했습니다",
+                "total_replies_a11y_label": "{count, plural, one {# 답장} other {# 답장들}}",
+                "unread_replies_a11y_label": "{count, plural, one {# 읽지 않은 답장} other {# 읽지 않은 답장들}}. 읽지 않은 {count, plural, one {답장} other {답장들}}을 읽음으로 표시하기.",
+                "mark_as_read_tooltip": "읽음으로 표시"
+            },
+            "forgot_password": {
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "email_sent_message": "비밀번호를 재설정하기 위한 링크를 포함한 이메일을 전송했습니다. 1~2분 내에 이메일을 받지 못한 경우 스팸 폴더를 확인해주세요.",
+                "not_found_message": "해당 이메일 주소로 등록된 사용자가 없습니다.",
+                "submit_button": "비밀번호 재설정",
+                "text": "이메일 주소를 입력하면 비밀번호를 재설정할 수 있는 링크를 보내드립니다.",
+                "title": "비밀번호 재설정"
+            },
+            "header": {
+                "admin_button": "관리",
+                "back_to_index_tooltip": "토의 목록으로 돌아가기",
+                "locale_dropdown_accessible_label": "포럼 언어 변경",
+                "log_in_link": "=> core.ref.log_in",
+                "log_out_button": "=> core.ref.log_out",
+                "profile_button": "프로필",
+                "search_clear_button_accessible_label": "검색 비우기",
+                "search_placeholder": "검색",
+                "search_role_label": "포럼 검색",
+                "session_dropdown_accessible_label": "세션 설정 드롭다운 메뉴 토글하기",
+                "settings_button": "=> core.ref.settings",
+                "sign_up_link": "=> core.ref.sign_up"
+            },
+            "index": {
+                "all_discussions_link": "=> core.ref.all_discussions",
+                "cannot_start_discussion_button": "토의을 시작할 수 없음",
+                "mark_all_as_read_confirmation": "모든 토의을 읽은 것으로 표시하시겠습니까?",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "meta_title_text": "=> core.ref.all_discussions",
+                "refresh_tooltip": "새로 고침",
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": "탐색 드롭다운 메뉴 토글하기"
+            },
+            "index_sort": {
+                "latest_button": "최근",
+                "newest_button": "최신",
+                "oldest_button": "가장 오래된",
+                "relevance_button": "관련",
+                "toggle_dropdown_accessible_label": "토의 정렬 방식 변경",
+                "top_button": "맨 위로"
+            },
+            "log_in": {
+                "forgot_password_link": "암호를 잊으셨습니까?",
+                "invalid_login_message": "로그인 정보가 잘못되었습니다.",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "로그인 기억하기",
+                "sign_up_text": "계정이 없습니까? <a>가입하기</a>",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in",
+                "username_or_email_placeholder": "사용자명 또는 이메일"
+            },
+            "notifications": {
+                "discussion_renamed_text": "{username}님이 제목을 변경했습니다",
+                "empty_text": "알림 없음",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "mark_as_read_tooltip": "읽음으로 표시",
+                "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "알림 보기",
+                "tooltip": "=> core.ref.notifications"
+            },
+            "post": {
+                "edited_text": "수정됨",
+                "edited_tooltip": "{username}님이 {ago}에 수정했습니다",
+                "number_tooltip": "#{number}개 게시"
+            },
+            "post_controls": {
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "이 게시물을 영구히 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "edit_button": "=> core.ref.edit",
+                "hide_confirmation": "이 게시물을 삭제하시겠습니까?",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "포스트 제어 드롭다운 메뉴 토글하기"
+            },
+            "post_scrubber": {
+                "now_link": "최신 게시물",
+                "original_post_link": "원본 게시물",
+                "unread_text": "{count}개 읽지 않음",
+                "viewing_text": "{count, plural, one {{formattedCount} 게시물 중 {index}} other {{formattedCount} 게시들물 중 {index}}}"
+            },
+            "post_stream": {
+                "discussion_renamed_old_tooltip": "이전 제목은 \"{old}\"였습니다",
+                "discussion_renamed_text": "{username}님이 제목을 {new}(으)로 변경했습니다.",
+                "load_more_button": "=> core.ref.load_more",
+                "reply_placeholder": "=> core.ref.write_a_reply",
+                "time_lapsed_text": "{period} 후"
+            },
+            "rename_discussion": {
+                "submit_button": "=> core.ref.rename",
+                "title": "토의 이름 변경"
+            },
+            "search": {
+                "all_discussions_button": "\"{query}\"에 대한 모든 토의 검색",
+                "discussions_heading": "=> core.ref.discussions",
+                "users_heading": "=> core.ref.users"
+            },
+            "settings": {
+                "account_heading": "계정",
+                "change_email_button": "=> core.ref.change_email",
+                "change_password_button": "=> core.ref.change_password",
+                "notifications_heading": "=> core.ref.notifications",
+                "notify_by_email_heading": "=> core.ref.email",
+                "notify_by_web_heading": "웹",
+                "notify_discussion_renamed_label": "누군가 내가 시작한 게시물의 이름을 바꿨을 때",
+                "privacy_disclose_online_label": "온라인 상태를 다른 사용자가 볼 수 있도록 허용",
+                "privacy_heading": "프라이버시",
+                "title": "=> core.ref.settings"
+            },
+            "sign_up": {
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "log_in_text": "이미 계정이 있습니까? <a>로그인</a>",
+                "password_placeholder": "=> core.ref.password",
+                "submit_button": "=> core.ref.sign_up",
+                "title": "=> core.ref.sign_up",
+                "username_placeholder": "=> core.ref.username",
+                "welcome_text": "환영합니다, {username}님!"
+            },
+            "user": {
+                "avatar_remove_button": "=> core.ref.remove",
+                "avatar_upload_button": "업로드",
+                "avatar_upload_tooltip": "새 프로필 사진 업로드",
+                "discussions_link": "=> core.ref.discussions",
+                "in_discussion_text": "{discussion}에서",
+                "joined_date_text": "{ago}에 가입함",
+                "online_text": "온라인",
+                "posts_empty_text": "여기엔 게시물이 없는것 같습니다.",
+                "posts_link": "=> core.ref.posts",
+                "posts_load_more_button": "=> core.ref.load_more",
+                "settings_link": "=> core.ref.settings"
+            },
+            "user_controls": {
+                "button": "설정",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "이 사용자를 삭제하시겠습니까? 이 경우 사용자의 게시물은 삭제되지 않습니다.",
+                "delete_error_message": "사용자 <i>{username} ({email})</i>님의 삭제가 실패했습니다",
+                "delete_success_message": "사용자 <i>{username} ({email})</i>님이 삭제되었습니다",
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": "사용자 제어 드롭다운 메뉴 토글하기"
+            },
+            "user_email_confirmation": {
+                "alert_message": "=> core.ref.confirmation_email_sent",
+                "resend_button": "확인 이메일 다시 보내기",
+                "sent_message": "발송함"
+            },
+            "welcome_hero": {
+                "hide": "환영 메세지 숨기기"
+            },
+            "edit_user": {
+                "activate_button": "사용자 활성화",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "그룹",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Set new password",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "사용자 편집",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
+            }
+        },
+        "lib": {
+            "debug_button": "디버그",
+            "alert": {
+                "dismiss_a11y_label": "알림 닫"
+            },
+            "badge": {
+                "hidden_tooltip": "숨김"
+            },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": "드롭다운 메뉴 토글하기"
+            },
+            "edit_user": {
+                "activate_button": "사용자 활성화",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "그룹",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "새로운 비밀번호 설정",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username",
+                "nothing_available": "이 사용자를 편집할 권한이 없습니다."
+            },
+            "error": {
+                "dependent_extensions_message": "{extension}을 다음 종속 확장들이 모두 비활성화 되기 전까지 비활성화 할 수 없습니다. 종속 확장들: {extensions}",
+                "extension_initialiation_failed_message": "",
+                "generic_message": "이런! 뭔가 잘못되었습니다. 페이지를 다시 로드하고 다시 시도하십시오.",
+                "missing_dependencies_message": "{extension}을 다음 상속 확장들이 모두 활성화 되기 전까지 활성화 할 수 없습니다. 상속 확장들: {extensions}",
+                "not_found_message": "요청한 리소스를 찾을 수 없습니다.",
+                "payload_too_large_message": "요청의 크기가 너무 컸습니다.",
+                "permission_denied_message": "이에 대한 권한이 없습니다.",
+                "rate_limit_exceeded_message": "요청이 너무 빠릅니다. 잠시 후에 다시 시도하십시오.",
+                "render_failed_message": "죄송합니다, 이 컨텐츠를 표시하는중 오류가 발생하였습니다. 사용자라면 나중에 다시 시도해주세요. 관리자라면, 더 많은 정보를 위해 Flarum 로그를 참조하세요."
+            },
+            "loading_indicator": {
+                "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: 페이지 # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {페이지 # - {forumName}}}"
+            },
+            "modal": {
+                "close": "닫기"
+            },
+            "nav": {
+                "drawer_button": "탐색 서랍 열기"
+            },
+            "number_suffix": {
+                "kilo_text": "K",
+                "mega_text": "M"
+            },
+            "series": {
+                "glue_text": ", ",
+                "three_text": "{first}, {second}, 및 {third}",
+                "two_text": "{first} 및 {second}"
+            },
+            "username": {
+                "deleted_text": "[삭제됨]"
+            }
+        },
+        "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "=> core.ref.extensions",
+                    "disable": "비활성화",
+                    "empty": "설치된 확장이 없습니다",
+                    "enable": "활성화",
+                    "name": "확장 이름",
+                    "package_name": "패키지 이름",
+                    "version": "버전"
+                },
+                "info": {
+                    "caption": "애플리케이션 정보"
+                },
+                "title": "관리"
+            },
+            "confirm_email": {
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "계정의 이메일을 확인하려면 아래 버튼을 눌러주세요.",
+                "title": "=> core.ref.confirm_email"
+            },
+            "content": {
+                "javascript_disabled_message": "이 사이트는 JavaScript를 사용하는 최신 브라우저에서 가장 잘 표시됩니다.",
+                "load_error_message": "이 사이트의 완전한 버전을 불러오는 중 오류가 발생했습니다. 페이지를 완전히 새로고침 해보세요.",
+                "loading_text": "=> core.ref.loading"
+            },
+            "discussion": {
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "error": {
+                "csrf_token_mismatch": "너무 오랫동안 활동이 없었습니다.",
+                "csrf_token_mismatch_return_link": "돌아간 후 다시 시도해 주세요",
+                "invalid_confirmation_token": "이 확인 링크는 이미 사용되었거나 잘못된 것입니다.",
+                "not_authenticated": "이 페이지에 접속할 수 있는 권한이 없습니다. 로그인 한 후 다시 시도하십시오.",
+                "not_found": "요청한 페이지를 찾을 수 없습니다.",
+                "not_found_return_link": "{forum}으로 돌아가기",
+                "permission_denied": "이 페이지에 접속할 수 있는 권한이 없습니다.",
+                "unknown": "이 페이지를 로드하는 동안 오류가 발생했습니다."
+            },
+            "index": {
+                "all_discussions_heading": "=> core.ref.all_discussions",
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "log_out": {
+                "log_out_button": "=> core.ref.log_out",
+                "log_out_confirmation": "{forum}에서 로그아웃하시겠습니까?",
+                "title": "=> core.ref.log_out"
+            },
+            "reset_password": {
+                "confirm_password_label": "새 비밀번호 확인",
+                "new_password_label": "새 비밀번호",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.reset_your_password"
+            }
+        },
+        "api": {
+            "invalid_username_message": "사용자명에는 문자, 숫자 및 대시만 포함될 수 있습니다."
+        },
+        "email": {
+            "activate_account": {
+                "subject": "새 계정 활성화",
+                "body": "안녕하세요 {username}님!\n\n누군가가 이 이메일 주소로 {forum}에 가입했습니다.\n\n귀하인 경우 다음 링크를 클릭하면 계정이 활성화됩니다:\n{url}\n\n가입하지 않으셨다면 이 이메일을 무시해주세요.\n"
+            },
+            "confirm_email": {
+                "subject": "새 이메일 주소 확인",
+                "body": "안녕하세요 {username}님!\n\n누군가가 {forum}의 이메일 주소를 이 주소로 변경했습니다.\n\n귀하인 경우 다음 링크를 클릭하면 이메일이 활성화됩니다:\n{url}\n\n귀하가 아닌 경우 이 이메일을 무시해주세요.\n"
+            },
+            "reset_password": {
+                "subject": "=> core.ref.reset_your_password",
+                "body": "안녕하세요 {username}님!\n\n누군가가 {forum}의 사용자 계정에 대해 비밀번호 재설정 요청을 제출했습니다.\n\n귀하인 경우 다음 링크를 클릭하여 암호를 재설정하십시오:\n{url}\n\n암호를 변경하지 않으려면 이 이메일을 무시하십시오. 아무 것도 변경되지 않습니다.\n"
+            },
+            "send_test": {
+                "subject": "Flarum 이메일 테스트",
+                "body": "안녕하세요 {username}님!\n\nFlarum 이메일 구성이 제대로 작동하는지 확인하기 위하여 이 이메일을 전송하였습니다.\n\n귀하인 경우 설정된 이메일 구성이 제대로 작동한다는 것을 의미합니다!\n\n귀하가 아닌 경우 이 이메일을 무시해주세요.\n"
+            }
+        },
+        "ref": {
+            "all_discussions": "모든 토의",
+            "change_email": "이메일 변경",
+            "change_password": "비밀번호 변경",
+            "color": "색상",
+            "confirm_password": "비밀번호 확인",
+            "confirm_email": "이메일 확인",
+            "confirmation_email_sent": "{email}로 확인 이메일을 보냈습니다. 메일을 받지 못한 경우 스팸 폴더를 확인하십시오.",
+            "custom_footer_text": "페이지 맨 아래에 표시될 HTML 코드를 추가하세요.",
+            "custom_footer_title": "편집",
+            "custom_header_text": "페이지 맨 위쪽에 표시될 HTML 코드를 추가하세요.",
+            "custom_header_title": "편집",
+            "delete": "삭제",
+            "delete_forever": "영구 삭제",
+            "discussions": "토의",
+            "edit": "편집",
+            "edit_user": "사용자 편집",
+            "email": "이메일",
+            "extensions": "확장",
+            "icon": "아이콘",
+            "icon_text": "아무 <a>FontAwesome</a> 아이콘 클래스를 입력해주세요. <em>접두사 </em> <code>fas fa-</code>를 포함해야합니다.",
+            "load_more": "더 보기",
+            "loading": "로딩중...",
+            "log_in": "로그인",
+            "log_out": "로그아웃",
+            "mark_all_as_read": "모두 읽음으로 표시",
+            "next_page": "다음 페이지",
+            "notifications": "알림",
+            "okay": "확인",
+            "password": "비밀번호",
+            "posts": "게시물",
+            "previous_page": "이전 페이지",
+            "remove": "삭제",
+            "rename": "이름 변경",
+            "reply": "답장",
+            "reset_your_password": "비밀번호 재설정",
+            "restore": "복구",
+            "save_changes": "변경사항 저장",
+            "settings": "설정",
+            "sign_up": "가입",
+            "some_others": "{count, plural, one {# 개의 기타} other {# 개의 기타들}}",
+            "start_a_discussion": "토의 시작",
+            "username": "사용자명",
+            "users": "사용자",
+            "view": "보기",
+            "write_a_reply": "답장 쓰기...",
+            "you": "당신"
+        },
+        "group": {
+            "admin": "관리자",
+            "admins": "관리자",
+            "guest": "손님",
+            "guests": "손님",
+            "member": "회원",
+            "members": "회원",
+            "mod": "중재자",
+            "mods": "중재자"
+        }
+    }
+}

@@ -1,36 +1,55 @@
 {
     "the-turk-stickiest": {
         "admin": {
+            "permissions": {
+                "super_sticky_discussions_label": "Discussioni in Super Evidenza",
+                "tag_sticky_discussions_label": "Tag discussioni in Evidenza"
+            },
             "settings": {
-                "badge_icon_label": "",
-                "badge_icon_text": ""
+                "badge_icon_label": "Icona badge per Super Evidenza",
+                "badge_icon_text": "=> core.ref.icon_text",
+                "display_tag_sticky_label": "Mostra i tag in evidenza nell'elenco \"Tutte le discussioni\".",
+                "display_tag_sticky_text": "Saranno trattate come discussioni regolari e non rimarranno in cima."
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "",
-                "super_sticky_tooltip": "",
-                "tag_sticky_tooltip": ""
+                "sticky_tooltip": "=> the-turk-stickiest.ref.sticky",
+                "super_sticky_tooltip": "=> the-turk-stickiest.ref.super_sticky",
+                "tag_sticky_tooltip": "=> the-turk-stickiest.ref.tag_sticky",
+                "super_tag_sticky_tooltip": "=> the-turk-stickiest.ref.super_tag_sticky"
+            },
+            "stickiest_modal": {
+                "title": "Evidenza {title}",
+                "sticky_label": "=> flarum-sticky.ref.sticky",
+                "sticky_text": "Le discussioni persistenti rimarranno in cima all'elenco \"Tutte le discussioni\" se non sono lette. Quando si visualizza un tag specifico che appartiene alla discussione, rimarranno sempre in alto.",
+                "super_sticky_label": "=> the-turk-stickiest.ref.super_sticky",
+                "super_sticky_text": "Le discussioni sempre in evidenza rimarranno in primo piano, qualunque cosa accada.",
+                "tag_sticky_label": "=> the-turk-stickiest.ref.tag_sticky",
+                "tag_sticky_text": "I tag in evidenza sono nascosti nell'elenco \"Tutte le discussioni\" per impostazione predefinita. Verranno mostrati e resteranno in alto solo quando visualizzerai un tag specifico, ovvero uno dei tag che sceglierai qui. Questa opzione può essere combinata con \"Super in evidenza\".",
+                "tags_label": "=> flarum-tags.ref.tags",
+                "submit_button": "=> core.ref.save_changes"
             },
             "discussion_controls": {
-                "sticky_button": "",
-                "unsticky_button": "",
-                "super_sticky_button": "",
-                "common_sticky_button": "",
-                "tag_sticky_button": "",
-                "all_sticky_button": ""
+                "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button",
+                "unsticky_button": "=> flarum-sticky.forum.discussion_controls.unsticky_button",
+                "super_sticky_button": "=> the-turk-stickiest.ref.super_sticky",
+                "common_sticky_button": "Evidenza normale",
+                "tag_sticky_button": "=> the-turk-stickiest.ref.tag_sticky",
+                "all_sticky_button": "Tutto in Evidenza"
             },
             "post_stream": {
-                "discussion_stickied_text": "",
-                "discussion_unstickied_text": "",
-                "discussion_super_stickied_text": "",
-                "discussion_common_stickied_text": ""
+                "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
+                "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
+                "discussion_super_stickied_text": "{username} ha segnato la discussione come Super Evidenza",
+                "discussion_common_stickied_text": "{username} ha rimosso la discussione da Super Evidenza."
             }
         },
         "ref": {
-            "sticky": "",
-            "super_sticky": "",
-            "tag_sticky": ""
+            "sticky": "=> flarum-sticky.ref.sticky",
+            "super_sticky": "Super Evidenza",
+            "tag_sticky": "Tag Evidenza",
+            "super_tag_sticky": "Tag super in evidenza"
         }
     }
 }

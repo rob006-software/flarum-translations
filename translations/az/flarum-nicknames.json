@@ -1,0 +1,42 @@
+{
+    "flarum-nicknames": {
+        "admin": {
+            "permissions": {
+                "edit_own_nickname_label": "loqini redaktə edin"
+            },
+            "settings": {
+                "max_label": "Maksimum loqin uzunluğu",
+                "min_label": "Minimum loqin uzunluğu",
+                "random_username_label": "",
+                "random_username_help": "",
+                "regex_label": "Doğrulama üçün müntəzəm ifadə",
+                "set_on_registration_label": "",
+                "unique_label": "Unikal ləqəblər tələb olunur?"
+            },
+            "wrong_driver": "Bu uzantının qüvvəyə minməsi üçün <a> <strong> Əsas səhifə </strong> </a> də görünən ad sürücüsü olaraq \"loqin\" seçməlisiniz."
+        },
+        "api": {
+            "invalid_nickname_message": "Bu ləqəb etibarsızdır. Ləqəb qaydaları haqqında daha ətraflı məlumat üçün forum idarəçinizlə əlaqə saxlayın."
+        },
+        "forum": {
+            "change_nickname": {
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "edit_user": {
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "Loqin"
+            },
+            "settings": {
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": ""
+            }
+        },
+        "ref": {
+            "change_nickname": "Loqini dəyişdirin",
+            "nickname": ""
+        }
+    }
+}

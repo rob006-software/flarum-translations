@@ -1,0 +1,39 @@
+{
+    "justoverclock-auto-post-count-badge": {
+        "admin": {
+            "settings": {
+                "tier": "Cấp 2 {tier}: từ {from} đến {to} bài viết",
+                "icon-manager": {
+                    "title": "Trình quản lý icon",
+                    "help_text": "=> core.ref.icon_text"
+                },
+                "label-manager": {
+                    "title": "Trình quản lý văn bản nhãn",
+                    "help": "Tùy chỉnh tên cấp độ"
+                }
+            },
+            "levelOne": "Đổi icon cấp 1 - \"Sơ sinh\"",
+            "levelOne-help": "Dán icon fontawesome mà bạn muốn cấp 1 hiện (ví dụ \"fas fa-square\")",
+            "levelTwo": "Đổi icon cấp 2 - \"Người mới\"",
+            "levelTwo-help": "Dán icon fontawesome mà bạn muốn cấp 2 hiện (ví dụ \"fas fa-square\")",
+            "levelTree": "Đổi icon cấp 3 - \"Người kể chuyện\"",
+            "levelTree-help": "Dán icon fontawesome mà bạn muốn cấp 3 hiện (ví dụ \"fas fa-square\")",
+            "levelFour": "Đổi icon cấp 4 - \"Giáo sư\"",
+            "levelFour-help": "Dán icon fontawesome mà bạn muốn cấp 4 hiện (ví dụ \"fas fa-square\")",
+            "levelFive": "Đổi icon cấp 5 - \"Bậc thầy\"",
+            "levelFive-help": "Dán icon fontawesome mà bạn muốn cấp 5 hiện (ví dụ \"fas fa-square\")",
+            "levelSix": "Đổi icon cấp 6 - \"Huyền thoại\"",
+            "levelSix-help": "Dán icon fontawesome mà bạn muốn cấp 6 hiện (ví dụ \"fas fa-square\")"
+        },
+        "forum": {
+            "less10post": "Sơ sinh",
+            "less50post": "Người mới",
+            "less100post": "Người kể chuyện",
+            "less300post": "Giáo sư",
+            "less600post": "Bậc thầy!",
+            "less1000post": "Huyền thoại!",
+            "hasWritten": "{count, plural, one {đã viết # bài viết} other {đã viết # bài viết}}",
+            "posts": "bài viết"
+        }
+    }
+}

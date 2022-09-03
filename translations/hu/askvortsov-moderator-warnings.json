@@ -2,68 +2,68 @@
     "askvortsov-moderator-warnings": {
         "admin": {
             "permissions": {
-                "manage_warnings": "",
-                "view_warnings": "",
-                "delete_warnings": ""
+                "manage_warnings": "Moderátori figyelmeztetések létrehozása és eltávolítása",
+                "view_warnings": "Moderátori figyelmeztetések megtekintése",
+                "delete_warnings": "Moderátori figyelmeztetések végleges törlése"
             }
         },
         "emails": {
             "post_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} {strikes, plural, one {# büntetőponttal} other {# büntetőponttal}} figyelmeztette itt: {discussion_title}",
+                "body": "Kedves {warnee_display_name}!\n\n{warner_display_name} {strikes, plural, one {# büntetőponttal} other {# büntetőponttal}} figyelmeztette itt: {discussion_title}\n\nA következő okokat adta meg:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} {strikes, plural, one {# büntetőponttal} other {# büntetőponttal}} figyelmeztette",
+                "body": "Kedves {warnee_display_name}!\n\n{warner_display_name} {strikes, plural, one {# büntetőponttal} other {# büntetőponttal}} figyelmeztette.\n\nA következő okokat adta meg:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "",
-                "warning_no_strikes_text": ""
+                "warning_text": "{mod_username} {strikes, plural, one {# büntetőponttal} other {# büntetőponttal}} figyelmeztette",
+                "warning_no_strikes_text": "{mod_username} figyelmeztette (nincsenek büntetőpontok)"
             },
             "post": {
-                "warning": "",
-                "warning_no_strikes": ""
+                "warning": "{mod_username} {strikes, plural, one {# büntetőponttal} other {# büntetőponttal}} figyelmeztetve",
+                "warning_no_strikes": "{mod_username} büntetőpontok nélkül figyelmeztette"
             },
             "post_controls": {
-                "warning_button": ""
+                "warning_button": "Felhasználó figyelmeztetése"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Moderátori figyelmeztetések"
             },
             "settings": {
-                "warning_notification_label": ""
+                "warning_notification_label": "Egy moderátor figyelmeztetett"
             },
             "validation": {
-                "public_comment_required": "",
-                "invalid_strike_count": ""
+                "public_comment_required": "Nyilvános megjegyzést kell tennie.",
+                "invalid_strike_count": "A büntetőpontok számának 0 és 5 között kell lennie."
             },
             "warning_controls": {
-                "delete_button": "",
-                "restore_button": "",
-                "delete_forever_button": ""
+                "delete_button": "Eltávolítás",
+                "restore_button": "Helyreállítás",
+                "delete_forever_button": "Végleges törlés"
             },
             "warning_list": {
-                "add_button": "",
-                "no_warnings": "",
-                "warnings": "",
-                "warnings_no_strikes": ""
+                "add_button": "Új figyelmeztetés",
+                "no_warnings": "Úgy tűnik, hogy itt nincsenek figyelmeztetések.",
+                "warnings": "Moderátori figyelmeztetések: {strikes, plural, one {# büntetőpontot} other {# büntetőpontot}} kapott",
+                "warnings_no_strikes": "Moderátori figyelmeztetések: nincsenek büntetőpontok"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
-                "public_comment": "",
-                "private_comment": "",
-                "linked_post": ""
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> büntetőpont, {time}} other {<strong>#</strong> büntetőpont, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> büntetőpont, {time} <strong>(eltávolítva)</strong>} other {<strong>#</strong> büntetőpont, {time} <strong>(eltávolítva)</strong>}}",
+                "public_comment": "Figyelmeztetés",
+                "private_comment": "Moderátorok számára látható megjegyzések",
+                "linked_post": "Hozzákapcsolt bejegyzés"
             },
             "warning_modal": {
-                "confirmation_message": "",
-                "heading": "",
-                "strikes_heading": "",
-                "public_comment_heading": "",
-                "private_comment_heading": "",
-                "submit_button": ""
+                "confirmation_message": "A figyelmeztetés mentve. Lehet, hogy újra kell töltenie a lapot, hogy lássa.",
+                "heading": "<strong>{username}</strong> figyelmeztetése",
+                "strikes_heading": "Hány büntetőpontot kapjon?",
+                "public_comment_heading": "<strong>{username}</strong> miért kapja ezeket a figyelmeztetéseket? Ezek a megjegyzések láthatók lesznek a felhasználó, és a többi moderátor számára.",
+                "private_comment_heading": "<strong>{username}</strong> miért kapja ezeket a figyelmeztetéseket? Ezek a megjegyzések CSAK a többi moderátor számára lesznek láthatók.",
+                "submit_button": "Figyelmeztetés mentése"
             }
         }
     }

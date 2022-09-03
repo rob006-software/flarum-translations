@@ -94,6 +94,7 @@
                 "name": "Name",
                 "user-name": "Last named by",
                 "user-place": "Last placed by",
+                "placement": "Current location",
                 "actions": "Actions",
                 "edit": "Edit",
                 "no-user-name": "Not renamed",
@@ -120,11 +121,35 @@
         },
         "admin": {
             "settings": {
-                "discussion-age": "How old discussions can be for a fish to be placed on it (days)",
-                "post-age": "How old posts can be for a fish to be placed on it (days)",
+                "user": "Users",
                 "user-age": "How long since a user must have been active for a fish to be placed on it (days)",
+                "user-probability": "Probability to be placed on a user profile (%)",
+                "discussion": "Discussions",
+                "discussion-age": "How old discussions can be for a fish to be placed on it (days)",
+                "discussion-tags": "Tag whitelist",
+                "discussion-tags-unavailable": "Setting not available because the Tags extension is disabled.",
+                "discussion-tags-help": "If you don't select any tag, any discussion that matches the time settings above can be chosen. If any number of tags are selected, a discussion needs to have at least one of the selected tags to be chosen. The probability is the chance to be chosen after all previous choices have been tried. The last tag in the list will always act as fallback, so make sure that tag has at least one valid discussion inside.\n",
+                "tags-header": {
+                    "tag": "Tag",
+                    "probability": "Probability"
+                },
+                "tags-control": {
+                    "choose": "Choose a tag",
+                    "add": "Add to whitelist",
+                    "down": "Move down",
+                    "up": "Move up",
+                    "delete": "Remove from whitelist"
+                },
+                "tags-fallback": {
+                    "last-line": "Fallback",
+                    "single-line": "At least 2 tags required for probability"
+                },
+                "post": "Posts",
+                "post-age": "How old posts can be for a fish to be placed on it (days)",
+                "post-probability": "Probability to be placed on a post rather than the discussion (%)",
+                "general": "General",
                 "time-to-place": "Time allowed to place fish before it is randomly placed (minutes)",
-                "alert-round": "Show an altert with the round name and duration on the homepage",
+                "alert-round": "Show an alert with the round name and duration on the homepage",
                 "animate-flip": "Flip fish images based on direction"
             },
             "permissions": {
@@ -145,6 +170,7 @@
             "invalid-user-id": "User doesn't seem to exist, maybe it was recently deleted",
             "model-deleted": "Can't place fish on a deleted discussion or post",
             "model-private": "Can't place fish on a private discussion or post",
+            "tag-not-allowed": "You can't place fish under this tag",
             "inactive-discussion": "Can't place fish on discussion inactive for more than {days} days",
             "inactive-post": "Can't place fish on post created more than {days} days ago",
             "inactive-user": "Can't place fish on user inactive for more than {days} days",

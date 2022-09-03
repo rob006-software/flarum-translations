@@ -2,14 +2,19 @@
     "michaelbelgium-mybb-to-flarum": {
         "admin": {
             "content": {
-                "description_text": "",
+                "description_text": "Migrujte fórum MyBB do tejto inštancie Flarum. Vyplňte požadované údaje, potom kliknite na „migrovať“.",
                 "convert_button": "",
                 "form": {
-                    "general": {
+                    "options": {
                         "title": "",
                         "migrate_avatars_label": "",
                         "migrate_soft_threads_label": "",
-                        "migrate_soft_posts_label": ""
+                        "migrate_soft_posts_label": "",
+                        "migrate_attachments_label": "",
+                        "migrate_users_label": "",
+                        "migrate_threadsPosts_label": "",
+                        "migrate_userGroups_label": "",
+                        "migrate_categories_label": ""
                     },
                     "mybb": {
                         "title": "",
@@ -20,12 +25,15 @@
                         "prefix_label": "",
                         "path_label": ""
                     },
-                    "options": {
+                    "general": {
                         "title": "",
                         "migrate_users_label": "",
                         "migrate_threadsPosts_label": "",
                         "migrate_userGroups_label": "",
-                        "migrate_categories_label": ""
+                        "migrate_categories_label": "",
+                        "migrate_avatars_label": "",
+                        "migrate_soft_threads_label": "",
+                        "migrate_soft_posts_label": ""
                     }
                 }
             }

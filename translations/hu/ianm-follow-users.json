@@ -2,51 +2,90 @@
     "ianm-follow-users": {
         "admin": {
             "permissions": {
-                "be_followed_label": ""
+                "be_followed_label": "Követés engedélyezése a felhasználók számára"
+            },
+            "settings": {
+                "button-on-profile-label": "A Követés gomb megjelenítése közvetlenül a felhasználó profiljának fejlécében",
+                "stats-on-profile-label": "Követők és követések számának megjelenítése a felhasználói profilokon"
             }
         },
         "forum": {
-            "profile_link": "",
+            "followed": "Követett",
+            "followers": "Követő",
+            "profile_link": "=> ianm-follow-users.lib.following_link",
+            "profile_page": {
+                "no_following": "Úgy tűnik, hogy nem követ senkit."
+            },
             "user_controls": {
-                "follow_button": "",
+                "follow_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
                 "follow_confirmation": "",
-                "unfollow_button": "",
                 "unfollow_confirmation": ""
             },
             "settings": {
-                "notify_new_follower_label": "",
-                "notify_new_unfollower_label": "",
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": "",
-                "block_follow": ""
+                "notify_new_follower_label": "Valaki követ engem",
+                "notify_new_unfollower_label": "Valaki megszüntette a követésemet",
+                "notify_new_discussion_label": "Valaki, akit követek új témát indított",
+                "notify_new_post_label": "Valaki, akit követek hozzászólt egy témához",
+                "block_follow": "A felhasználók nem követhetnek"
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": ""
+                "follow_tag_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_tag_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": "",
-                "new_follower_text": "",
-                "new_unfollower_text": ""
+                "new_discussion_text": "{username} új témát kezdett",
+                "new_post_text": "{username} válaszolt egy témában",
+                "new_follower_text": "{username} követi Önt",
+                "new_unfollower_text": "{username} megszüntette az Ön követését"
             },
             "badge": {
-                "label": ""
+                "label": "",
+                "label.follow": "Témák követése",
+                "label.lurk": "Minden követése"
             },
             "filter": {
-                "following": ""
+                "following": "Követett felhasználók"
+            },
+            "modals": {
+                "select_follow_level": {
+                    "title": "Válassza ki {username} követési szintjét",
+                    "description": "Válassza ki, hogy mit szeretne követni tőle: <em>{username}</em>.",
+                    "follow_levels_heading": "Követési szintek",
+                    "follow_select_label": "Követés típusa",
+                    "no_user_attr_provided_err": "Hoppá, valami hiba történt a felugró ablak megnyitása során.",
+                    "no_user_attr_provided_err_debug": "Létrehozáskor nem adtak át „user” attribútumot a SelectFollowUserLevel felugró ablaknak. Nem jeleníthető meg.",
+                    "save_btn": "Mentés",
+                    "cancel_btn": "Mégse"
+                }
             }
         },
         "email": {
-            "new_discussion_by_user_subject": "",
-            "new_follower_subject": "",
-            "new_post_subject": "",
-            "new_discussion_by_user_body": "",
-            "new_follower_body": "",
-            "new_post_body": ""
+            "new_discussion_by_user_subject": "[Felhasználó követése] {title}",
+            "new_follower_subject": "[Felhasználó követése] Új követője van!",
+            "new_post_subject": "[Felhasználó követése] Új bejegyzés itt: {title}",
+            "new_discussion_by_user_body": "Kedves {recipient_display_name}!\n\n{user_display_name} új témát nyitott: {discussion_title}\n\nA téma megtekintéséhez kattintson a következő hivatkozásra:\n\n{discussion_url}\n\n---\n\n{post_content}\n",
+            "new_follower_body": "Kedves {recipient_display_name}!\n\n{follower_display_name} követni kezdte Önt, így értesülni fog, ha új témát indít.\n\nA profilja megtekintéséhez kattintson a következő hivatkozásra:\n\n{profile_url}\n",
+            "new_post_body": "Kedves {recipient_display_name}!\n\n{user_display_name} bejegyzést tett közzé a témában: {discussion_title}\n\nAz új tevékenysége megtekintéséhez nézze meg a következő hivatkozást:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNem fog több értesítést kapni erről a témáról, amíg naprakész nem lesz.\n"
         },
         "lib": {
-            "following_link": ""
+            "following_link": "Követett felhasználók",
+            "follow": "Követés",
+            "change_follow_type": "Követés típusának megváltoztatása",
+            "follow_levels": {
+                "unfollow": {
+                    "name": "Nem követem",
+                    "description": "Ne értesítsen <em>{username}</em> tevékenységéről.\n"
+                },
+                "follow": {
+                    "name": "Téma követése",
+                    "description": "Értesítések fogadása, ha <em>{username}</em> új témát indít.\n"
+                },
+                "lurk": {
+                    "name": "Minden követése",
+                    "description": "Értesítések fogadása, ha <em>{username}</em> új témát indít, vagy bejegyzést tesz közzé bármely témában.\n"
+                }
+            }
         }
     }
 }

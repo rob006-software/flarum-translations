@@ -1,0 +1,22 @@
+{
+    "clarkwinkelmann-readonly-profile": {
+        "admin": {
+            "settings": {
+                "disableLogin": "Anmeldung deaktivieren",
+                "disableAccessTokens": "Erstellung von Zugriffstoken deaktivieren",
+                "disableEmailChange": "E-Mail-Änderung deaktivieren",
+                "disablePasswordChange": "Kennwortänderung und -zurücksetzung deaktivieren",
+                "disableAvatarEdit": "Avatar-Bearbeitung deaktivieren"
+            }
+        },
+        "api": {
+            "blocked_actions": {
+                "login": "Anmeldeendpunkt ist deaktiviert",
+                "accessToken": "Erstellung von Zugriffstoken ist deaktiviert",
+                "email": "E-Mail kann auf dieser Seite nicht geändert werden",
+                "password": "Das Passwort kann auf dieser Seite nicht geändert werden",
+                "avatar": "Avatar-Bearbeitung ist auf dieser Seite deaktiviert"
+            }
+        }
+    }
+}
