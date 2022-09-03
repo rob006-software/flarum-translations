@@ -2,15 +2,20 @@
     "flarum-statistics": {
         "admin": {
             "statistics": {
-                "active_users_text": "{count}명 온라인",
                 "discussions_heading": "=> core.ref.discussions",
                 "last_12_months_label": "지난 12개월",
                 "last_28_days_label": "지난 28일",
                 "last_7_days_label": "지난 7일",
+                "mini_heading": "",
+                "previous_28_days_label": "",
+                "previous_7_days_label": "",
+                "loading": "",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "오늘",
                 "total_label": "합계",
-                "users_heading": "=> core.ref.users"
+                "users_heading": "=> core.ref.users",
+                "view_full": "",
+                "active_users_text": "{count}명 온라인"
             }
         }
     }

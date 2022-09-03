@@ -1,10 +1,10 @@
 {
     "acpl-lscache": {
         "admin": {
-            "public_cache_ttl_label": "",
-            "public_cache_ttl_help": "",
-            "clearing_cache_listener_label": "",
-            "serve_stale_label": "",
+            "public_cache_ttl_label": "ברירת מחדל לcache TTL",
+            "public_cache_ttl_help": "ציינו כמה זמן, בשניות, עמודים ציבוריים יישמרו במטמון. ערך ברירת מחדל הוא 300 שניות.",
+            "clearing_cache_listener_label": "ניקוי LSCache כאשר מטמון Flarum מנוקה",
+            "serve_stale_label": "טיפול במיושן",
             "serve_stale_help": "",
             "purge_on_discussion_update_label": "",
             "purge_on_discussion_update_help": "",

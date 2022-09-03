@@ -2,77 +2,77 @@
     "fof-follow-tags": {
         "forum": {
             "settings": {
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": "",
-                "notify_new_discussion_tag_label": ""
+                "notify_new_discussion_label": "Joku luo keskustelun avainsanaan jota seuraan",
+                "notify_new_post_label": "Joku kirjoittaa viestin avainsanaan jota seuraan",
+                "notify_new_discussion_tag_label": "Joku laittaa avainsanan uudelleen keskusteluun jonka avainsanaa seuraan"
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": "",
+                "follow_tag_button": "Seuraa",
+                "unfollow_tag_button": "Lopeta seuraaminen",
                 "following": {
-                    "following_none_label": "",
-                    "following_tags_label": ""
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
                 }
             },
             "badge": {
-                "following_tag_tooltip": "",
-                "lurking_tag_tooltip": ""
+                "following_tag_tooltip": "Seurataan",
+                "lurking_tag_tooltip": "Väijytään"
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "hiding_button": "",
-                "hiding_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "lurking_button": "",
-                "lurking_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": ""
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
+                "following_text": "Ilmoita kaikista uusista keskusteluista.",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
+                "hiding_text": "Piilota keskustelut kaikki keskustelut sivulla.",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
+                "ignoring_text": "Älä koskaan ilmoita.",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
+                "lurking_text": "Ilmoita kaikista uusista keskusteluista ja vastauksista.",
+                "not_following_button": "Ei seurata",
+                "not_following_text": "Ilmoita vain kun sinut @mainitaan.",
+                "notify_alert_tooltip": "Saa foorumin ilmoitus, kun on uusia keskusteluita tai viestejä",
+                "notify_email_tooltip": "Saa sähköposti , kun on uusia keskusteluita tai viestejä"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": "",
-                "new_discussion_tag_text": ""
+                "new_discussion_text": "{username} aloitti",
+                "new_post_text": "{username} kirjoitti",
+                "new_discussion_tag_text": "{username} vaihtoi avainsanan"
             },
             "user": {
                 "settings": {
-                    "heading": "",
-                    "filter_label": ""
+                    "heading": "Seuratut avainsanat",
+                    "filter_label": "Mitä näytetään oletuksena Seurataan sivulla"
                 }
             }
         },
         "admin": {
             "settings": {
-                "following_page_default_label": "",
-                "following_none_label": "",
-                "following_tags_label": ""
+                "following_page_default_label": "Oletus suodatus Seurataan sivulle",
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
             }
         },
         "email": {
             "subject": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "[Avainsana | Uusi keskustelu] {title}",
+                "newPostInTag": "[Avainsana | Uusi viesti] {title}",
+                "newDiscussionTag": "[Avainsana | Vaihdettu avainsana] {title}"
             },
             "body": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "Hei {recipient_display_name},\n\n{actor_display_name} aloitti keskustelun avainsanalla jota seuraat: {discussion_title}\n\nNähdäksesi keskustelun klikkaa seuraavaa linkkiä:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newPostInTag": "Hei {recipient_display_name},\n\n{actor_display_name} kirjoitti viestin keskusteluun avainsanassa jota seuraat: {discussion_title}\n\nNähdäksesi uuden toiminnan klikkaa seuraavaa linkkiä:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nEt saa uutta ilmoitusta tästä keskustelusta ennen kuin olet ajan tasalla.\n",
+                "newDiscussionTag": "Hei {recipient_display_name},\n\n{actor_display_name} vaihtoi avainsanan keskustelussa jonka aloitti {author_display_name} avainsanaksi jota seuraat:{discussion_title}\n\nKatso uusi keskustelu klikkaamalla seuraavaa linkkiä:\n{discussion_url}\n"
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "hiding": "",
-            "ignoring": "",
-            "lurking": "",
+            "follow": "Seuraa",
+            "following": "Seurataan",
+            "hiding": "Piilotetaan",
+            "ignoring": "Ei huomioida",
+            "lurking": "Väijytään",
             "filtering_options": {
-                "none": "",
-                "tags": ""
+                "none": "Seuratut keskustelut",
+                "tags": "Seuratut avainsanat"
             }
         }
     }

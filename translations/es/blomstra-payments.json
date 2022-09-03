@@ -1,6 +1,18 @@
 {
     "blomstra-payments": {
         "forum": {
+            "stripe": {
+                "interval_once": ""
+            },
+            "subscription-card": {
+                "ptv": "",
+                "pta": "",
+                "ptb": "",
+                "ptp": "",
+                "cancel-control": "",
+                "none": "",
+                "bounty": ""
+            },
             "pay-to-view": {
                 "purchase-control": "Pagar para ver",
                 "purchase-log-in": "Iniciar Sesión y Pagar para Ver",
@@ -12,6 +24,24 @@
                 "purchase": "Comprar para publicar",
                 "purchase_required": "Esta discusión se publicará una vez completado el pago a través de nuestro proveedor de pago Stripe. Haga clic en comprar para ver el coste y las opciones de pago.\n"
             },
+            "pay-to-bump": {
+                "description": "",
+                "purchase-control": "",
+                "purchase-log-in": ""
+            },
+            "bounties": {
+                "purchase-control": "",
+                "enable-control": ""
+            },
+            "choose-bounty-amount-modal": {
+                "title": "",
+                "checkout-control": "",
+                "description": ""
+            },
+            "backers-widget": {
+                "label": "",
+                "none": ""
+            },
             "tag": {
                 "require-payment-label": "Pago requerido"
             },
@@ -21,10 +51,23 @@
             },
             "access-portal": {
                 "options": "Opciones",
-                "purchase": "Comprar"
+                "purchase": "Comprar",
+                "subscribed": ""
             },
             "nav": {
-                "access_portal": "Portal de acceso"
+                "access_portal": "Portal de acceso",
+                "user_subscriptions": ""
+            },
+            "exceptions": {
+                "out-of-bounds-amount": {
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "accept-terms-modal": {
+                "accept_label": "",
+                "continue_button": "",
+                "title": ""
             }
         },
         "admin": {
@@ -34,7 +77,13 @@
                 "select-ptv-product": "(PPV) Producto requerido",
                 "select-ptv-product-description": "La selección de un producto requerirá el pago de ese producto para obtener permanentemente el acceso a todos los puestos más allá del umbral... Cree un producto en su panel de control de Stripe y copie el ID que comienza con <code>prod_</code> en este campo.\n",
                 "visible-from": "Ocultar los posts en este punto",
-                "visible-from-description": "El número que especifique aquí define en qué momento se ocultarán los mensajes a los usuarios que no hayan pagado para acceder al contenido. Utiliza 0 para ocultar todos, 1 para el que está después del OP.\n"
+                "visible-from-description": "El número que especifique aquí define en qué momento se ocultarán los mensajes a los usuarios que no hayan pagado para acceder al contenido. Utiliza 0 para ocultar todos, 1 para el que está después del OP.\n",
+                "select-ptb-product": "",
+                "select-ptb-product-description": "",
+                "bump-others": "",
+                "bump-others-description": "",
+                "select-bounty-product": "",
+                "select-bounty-description": ""
             },
             "edit-group": {
                 "select-pta-product": "(PPA) Producto requerido",
@@ -44,7 +93,18 @@
                 "pk": "Clave publicable (api)",
                 "sk": "Clave secreta (api)",
                 "webhook-secret": "Secreto de firma del webhook",
-                "link-access-portal": "Enlace del portal de acceso en el menú desplegable de la sesión de usuario"
+                "link-access-portal": "Enlace del portal de acceso en el menú desplegable de la sesión de usuario",
+                "link-to-terms": ""
+            },
+            "permission": {
+                "enable-bounties": ""
+            }
+        }
+    },
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": ""
             }
         }
     }

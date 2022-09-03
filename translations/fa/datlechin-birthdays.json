@@ -2,47 +2,52 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": "",
-                "view_birthday_label": ""
+                "edit_own_birthday_label": "ویرایش تاریخ تولد خود",
+                "view_birthday_label": "مشاهده تاریخ تولد"
             },
             "settings": {
-                "set_on_registration_label": "",
-                "date_format_label": "",
-                "date_format_help": "",
-                "date_none_year_label": ""
+                "set_on_registration_label": "اجازه تنظیم تاریخ تولد در ثبت نام",
+                "required_label": "اجباری کردن ورود تاریخ تولد",
+                "required_help": "برای اینکه این گزینه کار کند باید گزینه Set on register را فعال کنید",
+                "min_age_label": "حداقل سن",
+                "min_age_help": "حداقل سن برای ثبت نام",
+                "date_format_label": "فرمت تاریخ",
+                "date_format_help": "از قالب تاریخ <a>dayjs</a> استفاده کنید. برای استفاده از قالب پیش فرض خالی بگذارید.",
+                "date_none_year_label": "فرمت تاریخ بدون سال"
             }
         },
         "forum": {
             "user": {
-                "birthday_text": "",
-                "age_text": ""
+                "birthday_text": "تولد: {date}",
+                "age_text": "سن:‌ {age}"
             },
             "header": {
-                "edit_dob_button": ""
+                "edit_dob_button": "ویرایش تاریخ تولد"
             },
             "change_dob": {
-                "title": "",
-                "date_of_birth_text": "",
+                "title": "ویرایش تاریخ تولد",
+                "date_of_birth_text": "تاریخ تولد",
                 "submit_button": "",
                 "show_dob_date": "",
                 "show_dob_year": "",
                 "show_dob_year_help": ""
             },
             "settings": {
-                "change_dob_label": "",
-                "dob_heading": "",
-                "show_dob_date_label": "",
-                "show_dob_year_label": "",
-                "show_dob_year_help": "",
+                "change_dob_label": "تغییر تاریخ تولد",
+                "dob_heading": "تاریخ تولد",
+                "show_dob_date_label": "نمایش روز و ماه تولد",
+                "show_dob_year_label": "نمایش سال تولد",
+                "show_dob_year_help": "این به افراد امکان می دهد سن شما را ببینند.",
                 "birthday_heading": ""
             },
             "edit_user": {
-                "dob_heading": "",
+                "dob_heading": "تاریخ تولد",
                 "birthdays_heading": ""
             }
         },
         "api": {
-            "invalid_dob_message": ""
+            "invalid_dob_message": "تاریخ تولد نامعتبر است",
+            "invalid_age_message": "سن شما باید حداقل {minAge} سال باشد."
         }
     }
 }

@@ -1,50 +1,110 @@
 {
     "blomstra-payments": {
         "forum": {
+            "stripe": {
+                "interval_once": "egyszer"
+            },
+            "subscription-card": {
+                "ptv": "Fizetett a megtekintésért",
+                "pta": "Fizetett a hozzéférésért",
+                "ptb": "Fizetett a kiemelésért",
+                "ptp": "Fizetett a közzétételért",
+                "cancel-control": "Mégse",
+                "none": "Nincsenek fizetések vagy aktív előfizetések",
+                "bounty": "Jutalom"
+            },
             "pay-to-view": {
-                "purchase-control": "",
-                "purchase-log-in": "",
-                "purchase-completed": "",
-                "description": ""
+                "purchase-control": "Fizetés a megtekintéshez",
+                "purchase-log-in": "Bejelentkezés és fizetés a megtekintéshez",
+                "purchase-completed": "Feloldva",
+                "description": "A bejegyzések ettől a ponttól kezdve fizetősek, feloldhatja őket, ha befejezi a fizetést a szolgáltatónknál, a Stripe-nál.\n"
             },
             "pay-to-post": {
-                "purchase-control": "",
-                "purchase": "",
-                "purchase_required": ""
+                "purchase-control": "Fizetés a közzétételhez",
+                "purchase": "Vásárlás a közzétételhez",
+                "purchase_required": "Ez a téma akkor lesz közzétéve, ha befejezi a fizetést a szolgáltatónknál, a Stripe-nál. Kattintson, hogy megtekintse az árakat és a fizetési lehetőségeket.\n"
+            },
+            "pay-to-bump": {
+                "description": "{count, plural, one {Ez a téma ki lett emelve} other {{count} ember emelte ki ezt a témát}}.",
+                "purchase-control": "Fizetés a kiemeléshez",
+                "purchase-log-in": "Bejelentkezés és fizetés a kiemeléshez"
+            },
+            "bounties": {
+                "purchase-control": "Jutalom hozzáadása",
+                "enable-control": "Jutalmak engedélyezése"
+            },
+            "choose-bounty-amount-modal": {
+                "title": "Válassza ki a jutalom összegét",
+                "checkout-control": "Fizetés",
+                "description": "Válassza ki a(z) „{subject}” támogatásra szánt összegét vagy adjon meg egyéni összeget."
+            },
+            "backers-widget": {
+                "label": "{sum} fő támogatta",
+                "none": "Még nincsenek támogatók."
             },
             "tag": {
-                "require-payment-label": ""
+                "require-payment-label": "Fizetés szükséges"
             },
             "payment-options-modal": {
-                "title": "",
-                "description": ""
+                "title": "Fizetési lehetőségek, hogy hozzáférjen a(z) {group} csoporthoz",
+                "description": "Válasszon a következő lehetőségek közül, hogy hozzáférjen a csoporthoz. Át lesz irányítva a szolgáltatónkhoz, a Stripe-hoz, a fizetésének feldolgozásához.\n"
             },
             "access-portal": {
-                "options": "",
-                "purchase": ""
+                "options": "lehetőségek",
+                "purchase": "vásárlás",
+                "subscribed": "előfizetve"
             },
             "nav": {
-                "access_portal": ""
+                "access_portal": "Hozzáférési portál",
+                "user_subscriptions": "Előfizetések"
+            },
+            "exceptions": {
+                "out-of-bounds-amount": {
+                    "min": "A(z) {amount} összeg nem engedélyezett, {min} a legalacsonyabb összeg.",
+                    "max": "A(z) {amount} összeg nem engedélyezett, {max} a legmagasabb összeg."
+                }
+            },
+            "accept-terms-modal": {
+                "accept_label": "Elolvastam és elfogadom a <link>fizetési feltételeket</link>.",
+                "continue_button": "Fizetés folytatása",
+                "title": "Feltételek elfogadása"
             }
         },
         "admin": {
             "edit-tag": {
-                "select-ptp-product": "",
-                "select-ptp-product-description": "",
-                "select-ptv-product": "",
-                "select-ptv-product-description": "",
-                "visible-from": "",
-                "visible-from-description": ""
+                "select-ptp-product": "(PTP) Kötelező termék",
+                "select-ptp-product-description": "A termék kiválasztása fizetést kér a címkében szereplő összes téma esetén. A bejegyzésenkénti fizetés például a reklámcikkek esetén a legmegfelelőbb. Hozzon létre egy „egyszeri” díjjal rendelkező terméket a Stripe vezérlőpulton és másolja a <code>prod_</code> szöveggel kezdődő azonosítót ebbe a mezőben.\n",
+                "select-ptv-product": "(PTV) Kötelező termék",
+                "select-ptv-product-description": "A termék kiválasztása a fizetés után lehetővé teszi a küszöb után összes bejegyzés elérését. Hozzon létre egy terméket a Stripe vezérlőpulton és másolja a <code>prod_</code> szöveggel kezdődő azonosítót ebbe a mezőben.\n",
+                "visible-from": "Bejegyzések elrejtése ennél a küszöbnél",
+                "visible-from-description": "Az itt megadott szám meghatározza, hogy hány pontnál lesznek elrejtve a bejegyzések azon felhasználók számára, akik nem fizettek a tartalom eléréséért. Használjon 0-t az összes, 1-et az eredeti bejegyzés utáni bejegyzések elrejtéséhez.\n",
+                "select-ptb-product": "(PTB) Kötelező termék",
+                "select-ptb-product-description": "A termék kiválasztása a fizetés után lehetővé teszi egy téma kiemelését.\n",
+                "bump-others": "(PTB) Mások is kiemelhetik a témát",
+                "bump-others-description": "Ha be van kapcsolva, akkor nem csak a téma szerzője emelheti ki a témát fizetés ellenében.\n",
+                "select-bounty-product": "(Jutalom) Kötelező termék",
+                "select-bounty-description": "A termék kiválasztása engedélyezi a jutalom beállítását. A terméknek csak egy ára lehet a modellel: „Egyéni ár választása”. Másolja a <code>prod_</code> szöveggel kezdődő azonosítót ebbe a mezőben.\n"
             },
             "edit-group": {
-                "select-pta-product": "",
-                "select-pta-product-description": ""
+                "select-pta-product": "(PTA) Kötelező termék",
+                "select-pta-product-description": "A termék kiválasztása a fizetés után lehetővé teszi a csoport elérését. Az előfizetés lemondásakor a hozzáférés automatikusan vissza lesz vonva. Hozzon létre egy terméket a Stripe vezérlőpulton és másolja a <code>prod_</code> szöveggel kezdődő azonosítót ebbe a mezőben.\n"
             },
             "settings": {
-                "pk": "",
-                "sk": "",
-                "webhook-secret": "",
-                "link-access-portal": ""
+                "pk": "Közzétehető (API) kulcs",
+                "sk": "Titkos (API) kulcs",
+                "webhook-secret": "Webhook aláírási titka",
+                "link-access-portal": "Hozzáférési portál hivatkozása a felhasználói legördülő menüben",
+                "link-to-terms": "Fizetési feltételek webcíme"
+            },
+            "permission": {
+                "enable-bounties": "Jutalmak engedélyezése"
+            }
+        }
+    },
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": "Legtöbbet támogatott"
             }
         }
     }

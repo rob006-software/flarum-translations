@@ -1,0 +1,16 @@
+{
+    "flamarkt-matomo": {
+        "admin": {
+            "settings": {
+                "url": "Domaine ou URL du serveur Matomo",
+                "siteId": "Identifiant du site",
+                "trackAccounts": "Suivre les comptes d'utilisateurs individuels",
+                "trackAccountsOptions": {
+                    "none": "Ne pas suivre",
+                    "username": "Suivre par nom d'utilisateur",
+                    "email": "Suivre par adresse de courriel"
+                }
+            }
+        }
+    }
+}

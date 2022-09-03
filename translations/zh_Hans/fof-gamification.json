@@ -27,8 +27,12 @@
                 }
             },
             "user": {
-                "points": "👍: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": "{count, plural, one {{count} 👍} other {{count} 👍}}"
+                },
+                "rank": "{rank}",
+                "votes_link": "投票",
+                "points": "👍: {points}"
             },
             "modal": {
                 "downvotes_label": "TA 们反对：",
@@ -52,8 +56,8 @@
                 "see_votes_label": "查看赞同/踩数量",
                 "see_voters_label": "查看投票详情",
                 "see_ranking_page": "查看排名",
-                "upvote_notifications": "",
-                "downvote_notifications": ""
+                "upvote_notifications": "接收赞同票通知",
+                "downvote_notifications": "接收反对票通知"
             },
             "page": {
                 "rankings": {

@@ -2,23 +2,33 @@
     "clarkwinkelmann-mass-actions": {
         "forum": {
             "select": {
-                "all": "",
-                "none": ""
+                "all": "Выбрать всё",
+                "none": "Снять выделение со всего",
+                "read": "",
+                "unread": "",
+                "visible": "",
+                "hidden": "",
+                "locked": "",
+                "unlocked": ""
             },
             "actions": {
-                "markAsRead": "",
-                "hide": "",
-                "restore": "",
-                "lock": "",
-                "unlock": "",
-                "tags": "",
-                "tags-edit": "",
-                "tags-add": ""
+                "markAsRead": "Пометить выделенное как прочтенное",
+                "hide": "Удалить выбранное",
+                "restore": "Восстановить выбранное",
+                "delete": "",
+                "deleteConfirmation": "",
+                "lock": "Заблокировать выбранное",
+                "unlock": "Разблокировать выделенное",
+                "sticky": "",
+                "unsticky": "",
+                "tags": "Теги",
+                "tags-edit": "Править теги",
+                "tags-add": "Добавить <em>{tag}</em>"
             }
         },
         "admin": {
             "permissions": {
-                "controls": ""
+                "controls": "Показать элементы управления групповым выбором"
             }
         }
     }

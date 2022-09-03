@@ -2,16 +2,21 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": ""
+                "discussion-list-new-activity": "{count, plural, one {#} other {#}} frissített téma megjelenítése",
+                "discussion-list-new-activity-with-auto-release": "{count, plural, one {# témánál volt friss tevékenység, és {releaseTimeout} másodperc múlva lesz} other {# témánál volt friss tevékenység, és {releaseTimeout} másodperc múlva lesznek}} elengedve. Kattintson ide az azonnali megjelenítéshez."
             },
             "typing-indicator": {
-                "people-are-typing": "",
-                "no-activity": ""
+                "people-are-typing": "{number, plural, one {#} other {#}} ember gépel",
+                "no-activity": "Senki sem gépel"
             }
         },
         "admin": {
             "permission": {
-                "view-who-types": ""
+                "view-who-types": "Megtekintés, hogy ki gépel"
+            },
+            "settings": {
+                "release-discussion-updates-interval": "Az új tématevékenységek automatikus leküldési időköze",
+                "release-discussion-updates-interval-help": "Másodpercben. A 0 azt jelenti, hogy nincs automatikus leküldés."
             }
         }
     }

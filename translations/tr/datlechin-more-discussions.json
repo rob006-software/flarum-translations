@@ -1,0 +1,25 @@
+{
+    "datlechin-more-discussions": {
+        "admin": {
+            "settings": {
+                "block_name_label": "Blok adı",
+                "block_name_help": "Bloğun adı (varsayılan <code>Son Tartışmalar</code>)",
+                "discussion_limit_label": "Tartışma sınırı",
+                "discussion_limit_help": "Görüntülenecek tartışma sayısı (varsayılan <code>5</code>)",
+                "filter_by_label": "Tarafından filtre",
+                "filter_by_help": "Tartışmaları filtrele (varsayılan: <code>en son</code>)",
+                "filter_dropdown": {
+                    "latest": "En sonuncu",
+                    "top": "Zirve",
+                    "newest": "En yeni",
+                    "oldest": "En eski",
+                    "hot": "Trend (fof/gamification gerekli)",
+                    "votes": "Olumlu oylar (fof/gamification gerekli)"
+                }
+            }
+        },
+        "forum": {
+            "block_default_name": "Son Tartışmalar"
+        }
+    }
+}

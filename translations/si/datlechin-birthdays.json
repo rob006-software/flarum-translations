@@ -7,6 +7,10 @@
             },
             "settings": {
                 "set_on_registration_label": "",
+                "required_label": "",
+                "required_help": "",
+                "min_age_label": "",
+                "min_age_help": "",
                 "date_format_label": "",
                 "date_format_help": "",
                 "date_none_year_label": ""
@@ -42,7 +46,8 @@
             }
         },
         "api": {
-            "invalid_dob_message": ""
+            "invalid_dob_message": "",
+            "invalid_age_message": ""
         }
     }
 }

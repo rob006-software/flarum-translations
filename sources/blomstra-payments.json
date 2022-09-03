@@ -1,6 +1,17 @@
 {
     "blomstra-payments": {
         "forum": {
+            "stripe": {
+                "interval_once": "once"
+            },
+            "subscription-card": {
+                "ptv": "Paid to view",
+                "pta": "Paid to access",
+                "ptb": "Paid to bump",
+                "ptp": "Paid to publish",
+                "cancel-control": "Cancel",
+                "none": "No payments or active subscriptions"
+            },
             "pay-to-view": {
                 "purchase-control": "Pay to View",
                 "purchase-log-in": "Log In & Pay to View",
@@ -12,6 +23,24 @@
                 "purchase": "Purchase to Publish",
                 "purchase_required": "This discussion will be published once you complete the payment through our payment provider Stripe. Click purchase to view cost and payment options.\n"
             },
+            "pay-to-bump": {
+                "description": "{count, plural, one {This discussion was bumped} other {{count} people bumped this discussion}}.",
+                "purchase-control": "Pay to Bump",
+                "purchase-log-in": "Log In & Pay to Bump"
+            },
+            "bounties": {
+                "purchase-control": "Add Bounty",
+                "enable-control": "Enable Bounties"
+            },
+            "choose-bounty-amount-modal": {
+                "title": "Choose bounty amount",
+                "checkout-control": "Checkout",
+                "description": "Select your amount for supporting \"{subject}\" or choose a custom amount."
+            },
+            "backers-widget": {
+                "label": "{sum} pledged",
+                "none": "No backers yet."
+            },
             "tag": {
                 "require-payment-label": "Payment Required"
             },
@@ -21,10 +50,18 @@
             },
             "access-portal": {
                 "options": "options",
-                "purchase": "purchase"
+                "purchase": "purchase",
+                "subscribed": "subscribed"
             },
             "nav": {
-                "access_portal": "Access portal"
+                "access_portal": "Access portal",
+                "user_subscriptions": "Subscriptions"
+            },
+            "exceptions": {
+                "out-of-bounds-amount": {
+                    "min": "A payment of {amount} is not allowed, {min} is the lowest amount.",
+                    "max": "A payment of {amount} is not allowed, {max} is the highest amount."
+                }
             }
         },
         "admin": {
@@ -34,7 +71,13 @@
                 "select-ptv-product": "(PTV) Required product",
                 "select-ptv-product-description": "Selecting a product will require payment of that product to permanently gain access to all posts beyond the threshold.. Create a product in your Stripe dashboard and copy the ID starting with <code>prod_</code> into this field.\n",
                 "visible-from": "Hide posts at this threshold",
-                "visible-from-description": "The number you specify here defines at which point posts will be hidden to users that haven't paid to access the content. Use 0 to hide all of them, 1 for the one after the OP.\n"
+                "visible-from-description": "The number you specify here defines at which point posts will be hidden to users that haven't paid to access the content. Use 0 to hide all of them, 1 for the one after the OP.\n",
+                "select-ptb-product": "(PTB) Required product",
+                "select-ptb-product-description": "Selecting a product will require payment of that product before being able to bump a discussion.\n",
+                "bump-others": "(PTB) Allow others to bump discussions",
+                "bump-others-description": "If enabled, not just the discussion author can bump discussions with a payment.\n",
+                "select-bounty-product": "(Bounty) Required product",
+                "select-bounty-description": "Select a product will set it up for bounties. The product can only have one Price with model: \"Custom chooses price\". Copy the ID of the product starting with <code>prod_</code> into this field.\n"
             },
             "edit-group": {
                 "select-pta-product": "(PTA) Required product",
@@ -45,6 +88,9 @@
                 "sk": "Secret (api) key",
                 "webhook-secret": "Webhook signing secret",
                 "link-access-portal": "Link access portal under user session dropdown"
+            },
+            "permission": {
+                "enable-bounties": "Enable bounties"
             }
         }
     }

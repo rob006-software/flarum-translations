@@ -1,190 +1,190 @@
 {
     "xelson-chat": {
         "forum": {
-            "pusher_not_found": "",
+            "pusher_not_found": "A Pusher vagy a Websockets bővítmény szükséges a csevegés valós idejű frissítéséhez.",
             "index": {
-                "chat_link": ""
+                "chat_link": "Csevegés"
             },
             "toolbar": {
-                "title": "",
-                "enable_sounds": "",
-                "disable_sounds": "",
-                "enable_notifications": "",
-                "disable_notifications": "",
-                "minimize": "",
-                "maximize": "",
+                "title": "Csevegés",
+                "enable_sounds": "Hangok engedélyezése",
+                "disable_sounds": "Hangok letiltása",
+                "enable_notifications": "Értesítések engedélyezése",
+                "disable_notifications": "Értesítések letiltása",
+                "minimize": "Minimalizálás",
+                "maximize": "Maximalizálás",
                 "chat": {
-                    "settings": ""
+                    "settings": "Csevegés beállításai"
                 }
             },
             "chat": {
                 "welcome": {
-                    "header": "",
-                    "subheader": ""
+                    "header": "Üdvözli a Neon csevegő.",
+                    "subheader": "A beszélgetéshez válasszon egy csevegést a bal oldalon"
                 },
-                "moder": "",
-                "kick": "",
-                "leave": "",
-                "rejoin": "",
+                "moder": "Moderátor",
+                "kick": "Kirúgás",
+                "leave": "Távozás",
+                "rejoin": "Újracsatlakozás",
                 "edit_modal": {
-                    "title": "",
+                    "title": "Csevegés beállításai",
                     "moderator": {
-                        "got": "",
-                        "lost": ""
+                        "got": "Moderátori jogokat kapott a(z) {chatname} csevegésben.",
+                        "lost": "Elvesztette a moderátori jogait a(z) {chatname} csevegésben."
                     },
                     "form": {
                         "title": {
-                            "label": "",
-                            "validator": ""
+                            "label": "Csevegés neve",
+                            "validator": "Legalább 1 szimbólum"
                         },
                         "color": {
-                            "label": "",
-                            "validator": ""
+                            "label": "Szín",
+                            "validator": "Hexa formátumban"
                         },
                         "icon": {
-                            "label": "",
-                            "validator": ""
+                            "label": "=> core.ref.icon",
+                            "validator": "=> core.ref.icon_text"
                         },
                         "users": {
-                            "edit": ""
+                            "edit": "Felhasználók kiválasztása és szerkesztése"
                         },
-                        "leave": "",
-                        "return": "",
+                        "leave": "Csevegés elhagyása",
+                        "return": "Belépés a csevegésbe",
                         "delete": {
-                            "title": "",
-                            "desc": "",
-                            "placeholder": "",
-                            "button": ""
+                            "title": "Biztos, hogy törli ezt a csevegést?",
+                            "desc": "A folytatáshoz másolja vagy illessze be a csevegés nevét",
+                            "placeholder": "Csevegés neve",
+                            "button": "Csevegés törlése"
                         }
                     },
                     "search": {
-                        "placeholder": "",
-                        "failed": "",
-                        "invited": ""
+                        "placeholder": "Felhasználók keresése",
+                        "failed": "Nem találhatók megfelelő felhasználók",
+                        "invited": "Meghívva"
                     },
-                    "save_button": ""
+                    "save_button": "=> core.ref.save_changes"
                 },
                 "list": {
-                    "pin": "",
-                    "unpin": "",
-                    "placeholder": "",
+                    "pin": "Panel rögzítése",
+                    "unpin": "Panel rögzítésének megszüntetése",
+                    "placeholder": "Csevegések szűrése",
                     "preview": {
-                        "empty": ""
+                        "empty": "Nincsenek üzenetek"
                     },
                     "add_modal": {
-                        "title": "",
-                        "chat": "",
-                        "channel": "",
+                        "title": "Felhasználók kiválasztása",
+                        "chat": "Csevegés",
+                        "channel": "Csatorna",
                         "create": {
-                            "chat": "",
-                            "channel": ""
+                            "chat": "Új csevegés létrehozása",
+                            "channel": "Új csatorna létrehozása"
                         },
                         "alerts": {
-                            "exists": ""
+                            "exists": "Nem hozhat létre még egy PÜ-t ezzel a felhasználóval."
                         },
                         "form": {
                             "title": {
-                                "chat": "",
-                                "channel": "",
-                                "validator": ""
+                                "chat": "Csevegés neve",
+                                "channel": "Csatorna neve",
+                                "validator": "Legalább 1 szimbólum"
                             },
                             "icon": {
-                                "label": "",
-                                "validator": ""
+                                "label": "=> core.ref.icon",
+                                "validator": "=> core.ref.icon_text"
                             },
                             "color": {
-                                "label": "",
-                                "validator": ""
+                                "label": "=> xelson-chat.forum.chat.edit_modal.form.color.label",
+                                "validator": "=> xelson-chat.forum.chat.edit_modal.form.color.validator"
                             },
-                            "users": ""
+                            "users": "Kiválasztott felhasználók"
                         },
                         "search": {
-                            "placeholder": "",
-                            "failed": "",
-                            "invited": "",
-                            "more_results": ""
+                            "placeholder": "Felhasználók keresése",
+                            "failed": "Nem találhatók megfelelő felhasználók",
+                            "invited": "Meghívva",
+                            "more_results": "Még {more_results} hozzáadása…"
                         }
                     }
                 },
-                "placeholder": "",
+                "placeholder": "Írja be az üzenetét…",
                 "message": {
                     "actions": {
-                        "hide": "",
-                        "resend": ""
+                        "hide": "Elrejtés",
+                        "resend": "Újraküdés"
                     },
-                    "censored": "",
-                    "deleted": "",
-                    "deleted_forever": "",
-                    "you": "",
+                    "censored": "Jelentkezzen be, hogy lássa ezt az üzenetet.",
+                    "deleted": "törölte:",
+                    "deleted_forever": "végleg törölte:",
+                    "you": "Ön",
                     "type": {
-                        "url": "",
-                        "event": "",
-                        "code": ""
+                        "url": "Webcím",
+                        "event": "Esemény",
+                        "code": "<Code />"
                     },
                     "events": {
                         "chat": {
-                            "created": ""
+                            "created": "{creatorname} létrehozta a csatornát: {chatname}, és meghívta a következőt: {usernames}"
                         },
                         "pm": {
-                            "created": ""
+                            "created": "{creatorname} csevegés indított a következővel: {username}"
                         },
                         "channel": {
-                            "created": ""
+                            "created": "{creatorname} létrehozta a csatornát: {chatname}"
                         },
                         "title": {
-                            "edited": ""
+                            "edited": "{editorname} módosította a csevegés címét erről: {old}, erre: {new}"
                         },
                         "icon": {
-                            "edited": ""
+                            "edited": "{editorname} módosította a csevegés ikonját erről: {old}, erre: {new}"
                         },
                         "color": {
-                            "edited": ""
+                            "edited": "{editorname} módosította a csevegés színét erről: {old}, error: {new}"
                         },
                         "users": {
-                            "invited": "",
-                            "kicked": "",
-                            "invited_kicked": ""
+                            "invited": "{editorname} meghívta a következőt: {usernames}",
+                            "kicked": "{editorname} kirúgta a következőt: {usernames}",
+                            "invited_kicked": "{editorname} meghívta a következőt: {invitednames} és kirúgta a következőt: {kickednames}"
                         },
                         "self": {
-                            "leaved": "",
-                            "entered": ""
+                            "leaved": "{username} elhagyta a csevegést",
+                            "entered": "{username} belépett a csevegésbe"
                         }
                     }
                 }
             },
             "errors": {
-                "unauthenticated": "",
-                "chatdenied": "",
-                "removed": ""
+                "unauthenticated": "Csak a regisztrált felhasználók használhatják a csevegést",
+                "chatdenied": "A felhasználói csoportja nem írhat üzeneteket",
+                "removed": "Eltávolították a csevegésből"
             }
         },
         "admin": {
             "permissions": {
-                "post": "",
-                "edit": "",
-                "delete": "",
-                "enabled": "",
+                "post": "Csevegőüzenetek küldése",
+                "edit": "Csevegőüzenetek szerkesztése",
+                "delete": "Csevegőüzenetek törlése",
+                "enabled": "Csevegés engedélyezése",
                 "create": {
-                    "chat": "",
-                    "channel": ""
+                    "chat": "Csevegések indítása",
+                    "channel": "Csatornák indítása"
                 },
                 "moderate": {
-                    "delete": "",
-                    "vision": ""
+                    "delete": "Csevegőüzenetek törlése",
+                    "vision": "Törölt üzenetek megtekintése"
                 }
             },
             "settings": {
-                "title": "",
-                "charlimit": "",
+                "title": "Csevegés beállításai",
+                "charlimit": "Karakterek maximális száma az üzenetben",
                 "floodgate": {
-                    "title": "",
-                    "number": "",
-                    "time": ""
+                    "title": "Elárasztás elleni védelem",
+                    "number": "Egymást követő üzenetek száma",
+                    "time": "Egy adott időszakban"
                 },
                 "display": {
-                    "title": "",
-                    "minimize": "",
-                    "censor": ""
+                    "title": "Megjelenés",
+                    "minimize": "Kezdeti minimalizálás",
+                    "censor": "Üzenetek cenzúrázása a nem jogosult felhasználók esetén"
                 }
             }
         }

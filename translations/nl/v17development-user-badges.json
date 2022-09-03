@@ -8,10 +8,15 @@
             "update_category": "Categorie aanpassen",
             "edit_category": "Bewerk categorie",
             "nothing_here_yet": "Je hebt nog geen badges of categorieën aangemaakt.",
+            "show_badges_on_user_card": "",
+            "number_of_badges_on_user_card": "",
+            "number_of_badges_on_user_card_help": "",
             "permissions": {
                 "badge_detail_users": "",
                 "give_badge": "Geef badge aan gebruiker",
-                "take_badge": "Badge van gebruiker afnemen"
+                "take_badge": "Badge van gebruiker afnemen",
+                "edit_own_card_badges": "",
+                "edit_card_badges": ""
             },
             "confirm_dialog": {
                 "title": "Bevestigen",
@@ -79,6 +84,7 @@
             "user_no_badges": "Deze gebruiker heeft nog geen badges.",
             "no_received": "",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "",
             "badge": {
                 "badge": "Badge",
                 "badges": "Badges",
@@ -92,7 +98,15 @@
                 "received_on": "",
                 "badge_details": "",
                 "earned_count": "<b>{count} gebruiker</b> heeft deze badge ontvangen|<b>{count} gebruikers</b> hebben deze badge ontvangen",
-                "earned_by_count": ""
+                "earned_by_count": "",
+                "others_link": ""
+            },
+            "badges_in_card": {
+                "title": "",
+                "manage_badges": "",
+                "description": "",
+                "select_limit": "",
+                "hit_limit": ""
             },
             "moderation": {
                 "remove_badge": "Badge verwijderen van deze gebruiker",

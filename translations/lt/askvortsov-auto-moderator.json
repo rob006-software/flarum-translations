@@ -2,87 +2,87 @@
     "askvortsov-auto-moderator": {
         "admin": {
             "action_drivers": {
-                "activate_email": "",
-                "add_to_group": "",
-                "remove_from_group": "",
-                "suspend": "",
-                "unsuspend": ""
+                "activate_email": "Suaktyvinkite el",
+                "add_to_group": "Pridėti prie grupės",
+                "remove_from_group": "Pašalinti iš grupės",
+                "suspend": "Sustabdyti",
+                "unsuspend": "Atšaukti sustabdymą"
             },
             "metric_drivers": {
-                "discussions_entered": "",
-                "discussions_participated": "",
-                "discussions_started": "",
-                "posts_made": "",
-                "likes_given": "",
-                "likes_received": "",
-                "best_answers": "",
-                "moderator_strikes": ""
+                "discussions_entered": "Įstojo diskusijos",
+                "discussions_participated": "Diskusijose dalyvavo",
+                "discussions_started": "Diskusijos prasidėjo",
+                "posts_made": "Padaryti pranešimai",
+                "likes_given": "Patinka duota",
+                "likes_received": "Patinka gauti",
+                "best_answers": "Geriausi atsakymai",
+                "moderator_strikes": "Moderatoriaus įspėjimai"
             },
             "requirement_drivers": {
-                "email_confirmed": "",
-                "in_group": "",
-                "suspended": "",
-                "email_matches_regex": ""
+                "email_confirmed": "El. paštas patvirtintas",
+                "in_group": "Grupėje",
+                "suspended": "Sustabdytas",
+                "email_matches_regex": "El. paštas atitinka Regex"
             },
             "in_group_settings": {
-                "regex": ""
+                "regex": "Galiojančių el. laiškų reguliarioji išraiška (be pasvirųjų brūkšnių)"
             },
             "group_selector": {
-                "placeholder": ""
+                "placeholder": "Pasirinkite grupę"
             },
             "suspend_selector": {
-                "days": "",
-                "indefinitely": ""
+                "days": "Dienos, kurias reikia sustabdyti",
+                "indefinitely": "Sustabdyti neribotam laikui?"
             },
             "criterion_status": {
-                "heading": "",
-                "invalid": "",
-                "no_actions": "",
-                "no_metrics_or_reqs": "",
-                "valid": "",
-                "action_validation_errors": "",
-                "requirement_validation_errors": ""
+                "heading": "Būsenos patikrinimas",
+                "invalid": "Šiuo metu kriterijus negalioja. Patikrinkite toliau pateiktas tvarkykles, ar nėra klaidų.",
+                "no_actions": "Jokie veiksmai pagal šį kriterijų nenustatyti. Nieko neatsitiks, kai vartotojai įgis arba praras šį kriterijų.",
+                "no_metrics_or_reqs": "Šiam kriterijui nėra nustatyta jokių metrikų ar reikalavimų. Tai reiškia, kad VISI vartotojai atitiks šį kriterijų.",
+                "valid": "Šis kriterijus galioja!",
+                "action_validation_errors": "Įvyko šių veiksmų tvarkyklės patvirtinimo klaidos:",
+                "requirement_validation_errors": "Įvyko šių reikalavimų tvarkyklės patvirtinimo klaidos:"
             },
             "criterion_page": {
-                "driver_missing_ext": "",
-                "back": "",
-                "name_label": "",
-                "icon_label": "",
-                "description_label": "",
-                "new_criterion": "",
-                "negated": "",
-                "loading": "",
-                "delete_button": "",
-                "metrics_and_requirements_label": "",
-                "metrics_and_requirements_help": "",
-                "metrics_heading": "",
-                "requirements_heading": "",
-                "add_metric": "",
-                "actions_label": "",
-                "actions_help": "",
-                "actions_on_gain_heading": "",
-                "actions_on_loss_heading": "",
-                "add_action": ""
+                "driver_missing_ext": "Ši tvarkyklė priklauso nuo plėtinių, kurie neįjungti.",
+                "back": "Grįžti į kriterijų sąrašą",
+                "name_label": "Vardas",
+                "icon_label": "Piktograma",
+                "description_label": "Apibūdinimas",
+                "new_criterion": "Sukurti kriterijų",
+                "negated": "Neigiamas?",
+                "loading": "=> core.ref.loading",
+                "delete_button": "=> core.ref.delete",
+                "metrics_and_requirements_label": "Metrika ir reikalavimai",
+                "metrics_and_requirements_help": "Jie nustato, ar vartotojai atitinka šį kriterijų. Metrika reiškia reikšmių diapazonus, reikalavimai yra loginės sąlygos.",
+                "metrics_heading": "Metrika",
+                "requirements_heading": "Reikalavimai",
+                "add_metric": "Pridėti metriką",
+                "actions_label": "Veiksmai",
+                "actions_help": "Veiksmai dėl padidėjimo vykdomi, kai vartotojas atitinka naujo kriterijaus reikalavimus. Veiksmai dėl praradimo vykdomi, kai vartotojas nustoja atitikti kriterijų.",
+                "actions_on_gain_heading": "Veiksmai dėl pelno",
+                "actions_on_loss_heading": "Veiksmai dėl nuostolių",
+                "add_action": "Pridėti veiksmą"
             },
             "undefined_driver_item": {
-                "text": ""
+                "text": "KLAIDA! Vairuotojas <strong>{driverName}</strong> neapibrėžtas. Greičiausiai jį pridėjo plėtinys, kuris šiuo metu neįdiegtas. Kad kriterijus vėl galiotų, turėsite iš naujo įgalinti plėtinį arba pašalinti šią tvarkyklę."
             },
             "automoderator_page": {
-                "criterion_invalid": "",
-                "list_heading": "",
-                "create_criterion_button": ""
+                "criterion_invalid": "Šiuo metu kriterijus negalioja. Norėdami gauti daugiau informacijos, patikrinkite jo nustatymus",
+                "list_heading": "Kriterijai",
+                "create_criterion_button": "Sukurti naują kriterijų"
             },
             "automoderator_instructions": {
-                "header": "",
-                "text": ""
+                "header": "Pratęsimo instrukcijos",
+                "text": "<li>Tl;dr: kai naudotojas atitinka X kriterijų, atlikite Y. Kai naudotojas nebeatitinka X kriterijaus, atlikite Z.</li>\n<li><strong>Kriterijai:</strong> kriterijai yra šio plėtinio pagrindas. Tai yra savavališki metrikų ir reikalavimų rinkiniai. Kai vartotojas atitinka kriterijų, bus vykdomi bet kokie kriterijaus didinimo veiksmai. Kai vartotojas praranda kriterijų, bus atliekami visi kriterijaus praradimo veiksmai.</li>\n<ul>\n<li><strong>Metrika:</strong> skaitinė sąlyga. Pavyzdžiui, įrašų skaičius arba gautų „patinka“ paspaudimų skaičius. Pagal kriterijų gali reikėti metrikos diapazono / mažiausio / didžiausio skaičiaus.</li>\n<li><strong>Reikalavimas:</strong> abstrakti loginė sąlyga. Pavyzdžiui, nesate laikinai sustabdytas arba turite el. laišką, kuris atitinka tam tikrą reguliariąją išraišką.</li>\n</ul>\n<li><strong>Veiksmai:</strong> kažkas, kas vyksta automatiškai, kai įvykdomas arba prarandamas kriterijus. Tai gali apimti bet ką – nuo grupės pridėjimo / pašalinimo iki el. laiško išsiuntimo ir naudotojo sustabdymo.</li>\n<li><strong>Aktyviklis:</strong> įvykių, dėl kurių naudotojo kriterijų grupės būtų įvertintos iš naujo, rinkinys. Tai yra metrikų ir reikalavimų apibrėžimų dalis. Visi kriterijai bus įvertinti prisijungus: tai yra „universalus trigeris“.</li>\n<li>Veiksmai „Dėl nuostolių“ visada bus vykdomi prieš veiksmus „gaunant“. Tokiu būdu veiksmų bus imamasi tol, kol naudotojas atitiks bent vieną kriterijų, pagal kurį šie veiksmai atliekami siekdami naudos.</li>\n<li>Atminkite, kad veiksmai atliekami tik „prarandant“ ir „gaunant“. Neautomatinis redagavimas, kai vartotojas atitinka kriterijaus reikalavimus, nesuaktyvins kriterijaus veiksmų „ant stiprinimo“, kurie bus taikomi iš naujo.</li>\n<li>Jei ištrinsite kriterijų, „praradus“ veiksmai NEBUS vykdomi naudotojams, kurie šiuo metu atitinka šio kriterijaus reikalavimus.</li>\n<li>Jei grupėms tvarkyti naudojate kriterijus, rekomenduojame išlaikyti atskirą grupių rinkinį, kuris bus tvarkomas pagal kriterijus. Negalėsite rankiniu būdu pridėti / pašalinti vartotojų prie šių grupių / iš jų.</li>\n"
             }
         },
         "lib": {
-            "group_id": "",
+            "group_id": "Grupės ID",
             "managed_groups": {
-                "header": "",
-                "group_item": "",
-                "groups_not_editable": ""
+                "header": "Valdomos grupės:",
+                "group_item": "<badge></badge> {groupName}",
+                "groups_not_editable": "Grupių, valdomų pagal automatinio moderatoriaus kriterijus, negalima rankiniu būdu pridėti / pašalinti iš naudotojų, kad būtų išvengta neatitikimų."
             }
         }
     }

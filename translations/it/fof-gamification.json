@@ -27,8 +27,12 @@
                 }
             },
             "user": {
-                "points": "Punti: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": "{count, plural, one { {count} punto} other {{count} punti}}"
+                },
+                "rank": "{rank}",
+                "votes_link": "Voti",
+                "points": "Punti: {points}"
             },
             "modal": {
                 "downvotes_label": "Votanti contro:",
@@ -52,8 +56,8 @@
                 "see_votes_label": "Visualizzare i voti positivi/negativi",
                 "see_voters_label": "Vedere chi ha votato",
                 "see_ranking_page": "Visualizzare la pagina della classifica",
-                "upvote_notifications": "",
-                "downvote_notifications": ""
+                "upvote_notifications": "Ricevi notifiche su upvote",
+                "downvote_notifications": "Ricevi notifiche su downvote"
             },
             "page": {
                 "rankings": {

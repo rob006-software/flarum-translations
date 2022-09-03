@@ -2,7 +2,11 @@
     "davwheat": {
         "ads": {
             "admin": {
+                "permissions": {
+                    "bypassAds": ""
+                },
                 "settings": {
+                    "admin_bypass_warning": "",
                     "enabled_locations": "",
                     "script_urls": "",
                     "add_script": "",

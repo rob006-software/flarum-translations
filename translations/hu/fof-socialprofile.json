@@ -2,27 +2,27 @@
     "fof-socialprofile": {
         "admin": {
             "permissions": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "Közösségi profil megtekintése",
+                "editOwn": "Saját közösségi profil szerkesztése",
+                "editAny": "Bármely közösségi profil szerkesztése"
             },
             "settings": {
-                "allow_external_favicons_label": ""
+                "allow_external_favicons_label": "Külső webhelyikonok engedélyezése (a DuckDuckGo favikon API-ját használja)"
             }
         },
         "forum": {
             "edit": {
-                "edit": "Szerkeszt",
-                "add": "Hozzáad",
-                "headtitle": "Szerkeszt gombok",
+                "edit": "Saját közösségimédia-gombok szerkesztése",
+                "add": "Gombok hozzáadása a közösségi médiáihoz",
+                "headtitle": "Szerkesztés gombok",
                 "title": "Cím",
-                "url": "URL",
+                "url": "Webcím",
                 "submit": "Mentés",
                 "delete": "Törlés",
                 "deletetitle": "Törlés gomb",
-                "save_disabled_fetching_favicons": "Egy vagy több ikon beolvasása folyamatban van. Kérlek várj.",
-                "favicon": "",
-                "grey_favicon": ""
+                "save_disabled_fetching_favicons": "Egy vagy több ikon beolvasása folyamatban van. Kis türelmet.",
+                "favicon": "Favikon",
+                "grey_favicon": "Szürke favikon"
             }
         }
     }

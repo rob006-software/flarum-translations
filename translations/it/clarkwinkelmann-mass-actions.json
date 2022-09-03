@@ -2,15 +2,25 @@
     "clarkwinkelmann-mass-actions": {
         "forum": {
             "select": {
-                "all": "Seleziona tutto",
-                "none": "Deseleziona tutto"
+                "all": "Tutto",
+                "none": "Nessuno",
+                "read": "Letti",
+                "unread": "Non Letti",
+                "visible": "Non eliminati",
+                "hidden": "Eliminati (soft)",
+                "locked": "Chiusi",
+                "unlocked": "Aperti"
             },
             "actions": {
                 "markAsRead": "Segna selezionati come letti",
                 "hide": "Cancella selezionati",
                 "restore": "Ripristina selezionati",
+                "delete": "Selezione Elimina per sempre",
+                "deleteConfirmation": "{count, plural, one {Sei sicuro di voler eliminare definitivamente la discussione?} other {Sei sicuro di voler eliminare definitivamente # discussioni selezionate?}}",
                 "lock": "Chiudi selezionati",
                 "unlock": "Riapri selezionati",
+                "sticky": "Selezionate in evidenza",
+                "unsticky": "Non in evidenza selezionate",
                 "tags": "Tag",
                 "tags-edit": "Modifica tag",
                 "tags-add": "Aggiungi <em>{tag}</em>"

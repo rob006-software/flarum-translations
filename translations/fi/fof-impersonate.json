@@ -2,24 +2,24 @@
     "fof-impersonate": {
         "admin": {
             "permissions": {
-                "login": ""
+                "login": "Kirjaudu toisena käyttäjänä"
             },
             "settings": {
-                "title": "",
-                "require_reason": "",
-                "no_settings_available": ""
+                "title": "FoF Impersonate",
+                "require_reason": "Pakota valitsemaan syy ennen kuin voidaan esiintyä toisena käyttäjänä.",
+                "no_settings_available": "Ei asetusta saatavilla. Yritä asentaa fof/moderator-notes"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "title": "Kirjaudu toisena käyttäjänä",
+                "label": "Suurella voimalla tulee suuri vastuu. Jatkamalla sinusta tulee {username} kunnes kirjaudut ulos.",
+                "placeholder_optional": "(Valinnainen) Kirjoita syy miksi esiinnyt tänä käyttäjänä",
+                "placeholder_required": "Sinun täytyy ilmoittaa syy miksi haluat esiintyä tänä käyttäjänä ennen jatkamista",
+                "impersonate_username": "Kirjaudu {username}"
             },
             "user_controls": {
-                "impersonate_button": ""
+                "impersonate_button": "Kirjaudu käyttäjänä"
             }
         }
     }

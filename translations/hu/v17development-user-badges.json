@@ -7,11 +7,16 @@
             "update_badge": "Jelvény frissítése",
             "update_category": "Kategória frissítése",
             "edit_category": "Kategória szerkesztése",
-            "nothing_here_yet": "Még nem hoztál létre kategóriát vagy jelvényt.",
+            "nothing_here_yet": "Még nem hozott létre kategóriát vagy jelvényt.",
+            "show_badges_on_user_card": "Jelvények megjelenítése a felhasználói kártyán",
+            "number_of_badges_on_user_card": "Jelvények száma",
+            "number_of_badges_on_user_card_help": "A felhasználói kártyán megjelenítendő jelvények száma",
             "permissions": {
                 "badge_detail_users": "A felhasználók megjelenítése a jelvény részleteinek oldalán",
-                "give_badge": "Adj jelvényt a felhasználónak",
-                "take_badge": "Vegyél el jelvényt a felhasználótól"
+                "give_badge": "Jelvény adása a felhasználónak",
+                "take_badge": "Jelvény elvétele a felhasználótól",
+                "edit_own_card_badges": "Saját felhasználói jelvények szerkesztése",
+                "edit_card_badges": "Felhasználói jelvények szerkesztése"
             },
             "confirm_dialog": {
                 "title": "Megerősítés",
@@ -19,40 +24,40 @@
                 "yes": "Igen"
             },
             "confirm_messages": {
-                "delete_badge": "Biztosan eltávolítod ezt a jelvényt? Az összes felhasználótól eltávolítódik, és visszafordíthatatlan.",
-                "delete_category": "Biztosan eltávolítod ezt a kategóriát? Ha vannak jelvények ebben a kategóriában, azokat „kategória nélküli”-nek jelöljük meg."
+                "delete_badge": "Valóban eltávolítja ezt a jelvényt? Az összes felhasználótól el lesz véve, és ez nem fordítható vissza.",
+                "delete_category": "Valóban eltávolítja ezt a kategóriát? Ha vannak jelvények ebben a kategóriában, akkor azok „kategória nélküliként” lesznek jelölve."
             },
             "badge": {
                 "name": "Jelvény neve",
-                "icon": "Jelvény ikon",
-                "description": "Jelvény leírás",
+                "icon": "Jelvény ikonja",
+                "description": "Jelvény leírása",
                 "visible": "Látható",
-                "visible_description": "Engedélyezd ezt a jelvényt. Ha letiltod, a jelvény nem lesz látható.",
-                "is_image": "",
-                "is_image_description": "",
-                "image": "",
-                "image_placeholder": "",
-                "icon_color": "",
-                "background_color": "",
-                "label_color": ""
+                "visible_description": "A jelvény engedélyezése. Ha letiltja, akkor a jelvény nem lesz látható.",
+                "is_image": "A jelvény egy kép",
+                "is_image_description": "Kép használata az alapértelmezett jelvény helyett",
+                "image": "Jelvény kép URL-je",
+                "image_placeholder": "Adja meg a jelvény képének URL-jét",
+                "icon_color": "Ikon színe",
+                "background_color": "Háttérszín",
+                "label_color": "Szövegszín"
             },
             "badge_category": {
                 "name": "Kategória neve",
                 "description": "Kategória leírása",
                 "blockview": "Blokknézet",
-                "blockview_description": "Kategória-jelvények megjelenítése blokknézetben a jelvény áttekintésében. Ha le van tiltva, az összes jelvény egy táblázatban jelenik meg.",
+                "blockview_description": "Kategóriajelvények megjelenítése blokknézetben a jelvény áttekintésében. Ha le van tiltva, az összes jelvény egy táblázatban jelenik meg.",
                 "enabled": "Bekapcsolva",
-                "enabled_description": "Engedélyezd ezt a kategóriát. Ha le van tiltva, az összes jelvény le lesz tiltva, és a kategória el lesz rejtve."
+                "enabled_description": "A kategória engedélyezése. Ha le van tiltva, az összes jelvény le lesz tiltva, és a kategória el lesz rejtve."
             },
             "auto_moderator": {
                 "not_installed": {
-                    "title": "Automatikusan jutalmazza a felhasználókat jelvényekkel",
-                    "content": "Ez a bővítmény több funkciót kínál, ha az <a>Automatikus moderátor</a> telepítve van és aktiválva van. A bővítmény telepítésekor a felhasználók automatikusan jelvényeket kaphatnak, a közösségi alkalmazottak beavatkozása nélkül!",
+                    "title": "A felhasználók automatikus jutalmazása jelvényekkel",
+                    "content": "Ez a bővítmény több funkciót kínál, ha az <a>Automatikus moderátor</a> telepítve és aktiválva van. A bővítmény telepítésekor a felhasználók automatikusan jelvényeket kaphatnak, a közösségi alkalmazottak beavatkozása nélkül.",
                     "install": "Telepítés",
-                    "dismiss": "Ne mutassa ismét"
+                    "dismiss": "Ne jelenítse meg többet"
                 },
                 "action_drivers": {
-                    "badge_id": "Jelvény ID",
+                    "badge_id": "Jelvényazonosító",
                     "give_badge": "Jelvény adása",
                     "remove_badge": "Jelvény eltávolítása"
                 },
@@ -60,47 +65,56 @@
                     "has_badge": "Jelvénye van"
                 },
                 "metric_drivers": {
-                    "badges_received": "Jelvények érkeztek"
+                    "badges_received": "Jelvényeket kapott"
                 },
                 "badge_selector": {
-                    "placeholder": "Válassz egy jelvényt",
+                    "placeholder": "Válasszon egy jelvényt",
                     "loading_badges": "Jelvények betöltése"
                 }
             }
         },
         "forum": {
-            "badge_information": "Jelvény információk",
-            "all_badges": "Összes jelvény",
-            "all_users": "Összes felhasználó",
-            "give_badge": "Adj jelvényt",
+            "badge_information": "Jelvényinformációk",
+            "all_badges": "Összes jelvény megtekintése",
+            "all_users": "Összes felhasználó megtekintése",
+            "give_badge": "Jelvény adása",
             "update_badge": "Jelvény frissítése",
             "select_badge": "Jelvény kiválasztása",
             "user_has_badge": "A felhasználónak már van ilyen jelvénye.",
             "user_no_badges": "A felhasználónak még nincs jelvénye.",
             "no_received": "Egyetlen felhasználó sem érdemelte ki ezt a jelvényt.",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "Módosítások mentése",
             "badge": {
                 "badge": "Jelvény",
                 "badges": "Jelvények",
                 "name": "Jelvény neve",
                 "description": "Jelvény leírása",
                 "earning_reason": "A jelvény megszerzésének oka",
-                "update_earning_reason": "Jelvény frissítés oka",
-                "no_earning_reason": "Nincs beállítva ok",
-                "earned_on": "A jelvény megszerzése",
-                "category": "Jelvény kategória",
-                "received_on": "Megszerezve {date}",
-                "badge_details": "Jelvény részletek",
-                "earned_count": "{count, plural, one {<b># felhasználó</b> kapta meg ezt a jelvényt} other {<b># felhasználó</b> kapta meg ezt a jelvényt}}",
-                "earned_by_count": "{count, plural, one {Megszerezve <b># felhasználó</b> által} other {Megszerezve <b># felhasználó</b> által}}"
+                "update_earning_reason": "Megszerzés okának frissítése",
+                "no_earning_reason": "Nincs beállítva megszerzési ok",
+                "earned_on": "Jelvény megszerzési ideje",
+                "category": "Jelvény kategóriája",
+                "received_on": "Megszerezve: {date}",
+                "badge_details": "Jelvény részletei",
+                "earned_count": "<b>{count, plural, one {#} other {#}} felhasználó</b> érdemelte ki ezt a jelvényt",
+                "earned_by_count": "<b>{count, plural, one {#} other {#}} felhasználó</b> érdemelte ki",
+                "others_link": "+ {count} további"
+            },
+            "badges_in_card": {
+                "title": "Felhasználói kártyán lévő jelvények",
+                "manage_badges": "Jelvények kezelése",
+                "description": "Lecserélheti a felhasználói kártyáján látható jelvényeket más jelvényekre. Ha nem választ ki egyet sem, akkor automatikusan ki lesznek választva.",
+                "select_limit": "{limit, plural, one {<b>Egy jelvényt</b>} other {<b># jelvényt</b>}} választhat ki, hogy látható legyen a felhasználói kártyáján.",
+                "hit_limit": "Csak <b> {limit, plural, one {<b>egy jelvénynek</b>} other {<b># jelvénynek</b>}}</b> van hely az Ön kártyáján. Távolítson el egyet, hogy helyet csináljon ennek a jelvénynek."
             },
             "moderation": {
-                "remove_badge": "Jelvény eltávolítása",
-                "remove_badge_confirm": "Tényleg eltávolítod a jelvényt?",
-                "give_badge": "Adj jelvényt"
+                "remove_badge": "Jelvény eltávolítása a felhasználótól",
+                "remove_badge_confirm": "Valóban eltávolítja a jelvényt a felhasználótól?",
+                "give_badge": "Jelvény megadása"
             },
             "notification": {
-                "title": "Új jelvényt kaptál",
+                "title": "Új jelvényt kapott",
                 "settings": "Jelvényt kaptam"
             }
         }

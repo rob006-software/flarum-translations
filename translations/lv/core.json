@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "",
-                "confirm_uninstall": "",
+                "confirm_purge": "",
                 "disabled": "",
                 "enable_to_see": "",
                 "enabled": "",
@@ -116,8 +116,6 @@
                 "no_settings": "",
                 "open_modal": "",
                 "permissions_title": "",
-                "uninstall_button": "",
-                "confirm_purge": "",
                 "purge_button": "",
                 "readme": {
                     "button_label": "",
@@ -303,7 +301,6 @@
             "discussion_list": {
                 "empty_text": "Izskatās, ka šeit nav diskusiju.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Atzīmēt kā izlasītu",
                 "replied_text": "{username} atbildēja {ago}",
                 "started_text": "{username} izveidoja {ago}",
                 "total_replies_a11y_label": "",
@@ -459,6 +456,10 @@
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "Noslēpts"
             },
@@ -481,6 +482,7 @@
             },
             "error": {
                 "dependent_extensions_message": "Nevar atspējot {extension} kamēr sekojošie paplašinājumi ir deaktivizēti: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "Ups! Kaut kas nogāja greizi. Lūdzu, atkārtoti ielādējiet lapu un mēģiniet vēlreiz.",
                 "missing_dependencies_message": "Nevar iespējot {extension}, kamēr nav iespējoti šie paplašinājumi: {extensions}",
                 "not_found_message": "Pieprasītais resurss netika atrasts.",
@@ -491,6 +493,16 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -503,20 +515,6 @@
             },
             "username": {
                 "deleted_text": "[deleted]"
-            },
-            "debug_button": "",
-            "alert": {
-                "dismiss_a11y_label": ""
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
-            },
-            "modal": {
-                "close": ""
-            },
-            "nav": {
-                "drawer_button": ""
             }
         },
         "views": {
@@ -574,10 +572,6 @@
                 "new_password_label": "Jaunā parole",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
             }
         },
         "api": {

@@ -27,8 +27,11 @@
                 }
             },
             "user": {
-                "points": "Punkty: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": "{count, plural, one {{count} punkt} few {{count} punkty} other {{count} punktów}}"
+                },
+                "rank": "{rank}",
+                "votes_link": "Głosy"
             },
             "modal": {
                 "downvotes_label": "Głosujący negatywnie:",
@@ -109,7 +112,7 @@
         },
         "email": {
             "body": {
-                "postVoted": "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie zagłosował na Twój post w {discussion_title}.\n\nKliknij poniższy link, aby przejść do dyskusji:\n{discussion_url}\n"
+                "postVoted": "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie zagłosował na Twój post w \"{discussion_title}\".\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n"
             },
             "subject": {
                 "postVoted": "{display_name} zagłosował na Twój post"
