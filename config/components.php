@@ -251,7 +251,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-prominent-post-numbers/1.0.0/locale/en.yml',
 	],
 	'clarkwinkelmann-readonly-profile' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-readonly-profile/1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-readonly-profile/1.0.1/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-reset-preferences' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-reset-preferences/1.0.0/locale/en.yml',
