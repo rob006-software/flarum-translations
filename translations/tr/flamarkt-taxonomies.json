@@ -8,14 +8,14 @@
             "page": {
                 "title": "Taksonomiler",
                 "create": {
-                    "taxonomy": "Taksonomi oluştur",
+                    "taxonomy": "Sınıflandırma oluştur",
                     "term": "Terim oluştur"
                 },
                 "reset-term-order": "Terimler listesini alfabetik sıraya göre sıfırla"
             },
             "edit-taxonomy": {
                 "title": {
-                    "new": "Taksonomi Oluştur",
+                    "new": "Sınıflandırma Oluştur",
                     "edit": "Taksonomiyi Düzenle"
                 },
                 "field": {
@@ -27,7 +27,7 @@
                     "color": "=> flamarkt-taxonomies.ref.field.color",
                     "icon": "=> flamarkt-taxonomies.ref.field.icon",
                     "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription",
-                    "showLabel": "Taksonomi etiketini terimle birlikte göster",
+                    "showLabel": "Sınıflandırma etiketini terimle birlikte göster",
                     "showFilter": "Filtreyi ana sayfada göster",
                     "allowCustomValues": "Özel değerlere izin ver",
                     "customValueValidation": "Özel değerler için doğrulama",
@@ -36,9 +36,9 @@
                     "countRequired": "Gerekli terim sayısı",
                     "countRequiredDescription": "Bu sınıflandırmalardan bir tartışmaya uygulanabilecek minimum ve maksimum terim sayısını girin.\n",
                     "rangeSeparatorText": "ile",
-                    "tagScope": "",
-                    "tagScopeDescription": "",
-                    "tagScopePlaceholder": ""
+                    "tagScope": "Yalnızca belirtilen etiketlerde",
+                    "tagScopeDescription": "Sınıflandırma yalnızca seçilen etiketlerde kullanılabilir. Tek bir etiket seçerseniz, ana sayfa filtresi yalnızca o belirli etikette görünür.\n",
+                    "tagScopePlaceholder": "Etiket aramak için yazın..."
                 },
                 "delete": "=> flamarkt-taxonomies.ref.delete",
                 "deleteConfirmation": "{name} sınıflandırmasını gerçekten silmek istiyor musunuz? Bu sınıflandırma altındaki tüm terimler silinecektir. Sınıflandırmayı kullanan tartışmalar SİLİNMEZ.\n",
@@ -86,7 +86,7 @@
             "permissions": {
                 "heading": "Taksonomiler",
                 "moderate": "Kullanılabilir taksonomileri yapılandırın",
-                "bypassTermCounts": "",
+                "bypassTermCounts": "Terim sayısı gereksimini geçersiz kıl",
                 "seeOwnDiscussion": "Taksonomileri kendi tartışmalarında görün",
                 "seeAnyDiscussion": "Bütün tartışmalarda taksonomileri gör",
                 "editOwnDiscussion": "Taksonomileri kendi tartışmalarında düzenleyin",
@@ -115,7 +115,7 @@
             },
             "blog": {
                 "widget": {
-                    "title": ""
+                    "title": "Sınıflandırmalar"
                 }
             }
         },
@@ -128,15 +128,15 @@
                 "placeholder": "{count, plural, one {Bir terim seçin...} other {# terim seçin...}}",
                 "placeholderOptional": "Seçin...",
                 "custom": "{value} kullanın",
-                "bypassTermCounts": "",
+                "bypassTermCounts": "Terim sayılarını geçersiz kıl",
                 "submit": "Tamam"
             }
         },
         "api": {
             "error": {
                 "invalid_filter_taxonomy": "Geçersiz \"{type}\" sınıflandırma filtre anahtarı \"{slug}\"",
-                "discussion_taxonomy_not_in_scope": "",
-                "cannot_use_taxonomies_on_model": ""
+                "discussion_taxonomy_not_in_scope": "\"{slug}\" sınıflandırması, mevcut etiket kombinasyonunda mevcut değil",
+                "cannot_use_taxonomies_on_model": "Bu bağlamda sınıflandırmaları kullanmanıza izin verilmiyor"
             }
         },
         "ref": {
