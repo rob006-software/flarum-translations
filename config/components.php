@@ -889,6 +889,9 @@ return [
 	'matteocontrini-imgur-upload' => [
 		'tag' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/v3.9.1/locale/en.yml',
 	],
+	'maxzhang666-search' => [
+		'tag' => 'https://raw.githubusercontent.com/Wandhi-Team/flarum-ext-search/0.1.13/resources/locale/en.yml',
+	],
 	'michaelbelgium-discussion-views' => [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/v7.1.3/locale/en.yml',
 	],
