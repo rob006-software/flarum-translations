@@ -1,1 +1,29 @@
-{}
+{
+    "announcement": {
+        "to-update": "Güncellemek için şu komutları çalıştırın:",
+        "major-warning": "Bu sürüm, Flarum'un eski sürümlerine ve bazı güncel olmayan uzantılara yönelik desteği kaldırır. Güncellemeden önce Flarum'un ve uzantılarının en son sürümlerini kullandığınızdan emin olun.",
+        "version": "Sürüm {version}"
+    },
+    "readme": {
+        "status-table": {
+            "header-status": "Durum",
+            "label-translation-status": "Çeviri durumu",
+            "header-extension": "Uzantı"
+        }
+    },
+    "changelog": {
+        "updated-file": "`{file}` güncellendi",
+        "updated-config-css": "CSS güncellendi",
+        "cleaned-validation": "Güncel olmayan doğrulama çevirileri kaldırıldı (sürüm `{version}` veya üzeri desteklenir)",
+        "extensions-added": "Yeni uzantılar için destek eklendi",
+        "updated-validation": "Doğrulama çevirileri güncellendi",
+        "extensions-removed": "Kullanımdan kalkmış uzantılar kaldırıldı",
+        "updated-core": "Flarum çekirdek çevirileri güncellendi",
+        "cleaned-core": "Güncel olmayan Flarum çekirdek çevirileri kaldırıldı (\"{version}\" veya üstü sürümler desteklenir)",
+        "general-changes": "Genel değişiklikler",
+        "updated-config-js": "Day.js çevirileri güncellendi",
+        "extensions-cleaned": "Kullanımdan kalkmış uzantılar ve/veya güncel olmayan çeviriler kaldırıldı",
+        "all-changes": "Tüm değişiklikler: {link}.",
+        "extensions-updated": "Uzantılar için çeviriler güncellendi"
+    }
+}
