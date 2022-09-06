@@ -34,8 +34,8 @@
                 "redirect_tags_text": "Quando è abilitata, questa estensione reindirizza gli URL dei tag del blog all'URL della categoria del blog.",
                 "default_article_image_label": "Immagine articolo predefinita",
                 "default_article_image_text": "Seleziona un'immagine di articolo predefinita da visualizzare quando non è impostata alcuna immagine.",
-                "add_hero_label": "",
-                "add_hero_text": ""
+                "add_hero_label": "Mostra banner di benvenuto",
+                "add_hero_text": "Mostra banner di benvenuto sulle pagine del blog se non è stato ancora chiuso."
             }
         },
         "forum": {
@@ -102,20 +102,20 @@
                 "post_without_blog_info": "Sei sicuro di voler pubblicare questo post sul blog? Non hai ancora inserito un riepilogo o un'immagine."
             },
             "article_settings": {
-                "title": "",
+                "title": "Impostazioni dei post del blog",
                 "fields": {
                     "summary": {
-                        "title": "",
-                        "placeholder": "",
-                        "helper_text": ""
+                        "title": "Riepilogo articolo",
+                        "placeholder": "Si prega di inserire un riepilogo",
+                        "helper_text": "Questo riepilogo sarà visibile nella pagina di panoramica del blog e verrà utilizzato per scopi SEO."
                     },
                     "image": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "Immagine articolo",
+                        "helper_text": "Migliore risoluzione dell'immagine per i social media: 1200x630"
                     },
                     "highlight": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "Post in evidenza",
+                        "helper_text": "Dai a questo post una grande immagine nella pagina di panoramica del blog."
                     }
                 }
             }
