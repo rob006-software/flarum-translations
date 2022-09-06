@@ -152,9 +152,9 @@
                     "event": "Keskustelu {ticket_title} on muunnettu tukipyynnöksi"
                 },
                 "convert_to_discussion": {
-                    "button": "",
-                    "confirm": "",
-                    "event": ""
+                    "button": "Muunna keskusteluksi",
+                    "confirm": "Haluatko varmasti muuttaa tämän tukipyynnön julkiseksi keskusteluksi? Jos joku jakoi yksityistä tietoa niin tämä tulee myös julkiseksi.",
+                    "event": "Tukipyyntö {ticket_title} muutettiin julkiseksi keskusteluksi\n\nHaluatko mennä tähän keskusteluun?\n"
                 },
                 "status": {
                     "new": {
