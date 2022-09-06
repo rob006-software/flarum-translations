@@ -1,1 +1,29 @@
-{}
+{
+    "announcement": {
+        "to-update": "Päivittääksesi suorita nämä komennot:",
+        "major-warning": "Tämä versio poistaa tuen vanhemmille Flarumin versioille ja joillekin vanhentuneille lisäosille. Ennen päivitystä olethan varma, että käytät uusinta Flarumin ja lisäosien versiota.",
+        "version": "Versio {version}"
+    },
+    "readme": {
+        "status-table": {
+            "header-status": "Tila",
+            "label-translation-status": "Käännöksen tila",
+            "header-extension": "Lisäosa"
+        }
+    },
+    "changelog": {
+        "updated-file": "Päivitetty `{file}`",
+        "updated-config-css": "Päivitetty CSS",
+        "cleaned-validation": "Poistettu vanhentuneita validointi käännöksiä (versio `{version}` tai suurempi on tuettu)",
+        "extensions-added": "Lisätty tuki uusille lisäosille",
+        "updated-validation": "Päivitetty validointi käännöksiä",
+        "extensions-removed": "Poistettu tuki vanhentuneille lisäosille",
+        "updated-core": "Päivitetty Flarumin ytimen käännöksiä",
+        "cleaned-core": "Poistettu vanhentuneita Flarumin ytimen käännöksiä (versio `{version}` tai suurempi on tuettu)",
+        "general-changes": "Yleiset muutokset",
+        "updated-config-js": "Päivitetty Day.js käännöksiä",
+        "extensions-cleaned": "Päivitetty ja/tai poistettu vanhentuneita käännöksiä lisäosista",
+        "all-changes": "Kaikki muutokset: {link}.",
+        "extensions-updated": "Päivitetty käännöksiä lisäosille"
+    }
+}
