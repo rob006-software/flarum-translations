@@ -2,55 +2,55 @@
     "clarkwinkelmann-anonymous-posting": {
         "admin": {
             "settings": {
-                "composerHelpTextPosition": "",
-                "composerHelpTextPositionVisible": "",
-                "composerHelpTextPositionTooltip": "",
-                "composerHelpTextPositionHidden": "",
-                "avatars": "",
-                "avatarsHelp": "",
-                "avatarFormId": "",
-                "avatarFieldKey": "",
-                "avatarFieldValue": "",
-                "avatarAvatarUrl": "",
-                "avatarAdd": ""
+                "composerHelpTextPosition": "Posizione testo della guida del compositore",
+                "composerHelpTextPositionVisible": "Visibile (sotto la label)",
+                "composerHelpTextPositionTooltip": "Tooltip (dopo la label)",
+                "composerHelpTextPositionHidden": "Nascosto",
+                "avatars": "Avatar anonimi",
+                "avatarsHelp": "Questa funzione richiede l'<a>estensione Formulaire</a> premium. L'utilizzo di questa funzione comporta un piccolo impatto sulle prestazioni poiché sono necessarie richieste di database aggiuntive per recuperare discussioni e post. Vedi README per maggiori dettagli sul formato per ogni input.\n",
+                "avatarFormId": "ID Form",
+                "avatarFieldKey": "Chiave Campo",
+                "avatarFieldValue": "Valore Campo",
+                "avatarAvatarUrl": "URL Avatar",
+                "avatarAdd": "Aggiungi regola avatar"
             },
             "permissions": {
-                "use": "",
-                "reveal": "",
-                "moderate": ""
+                "use": "Pubblica in modo anonimo",
+                "reveal": "Vedi veri autori di discussioni e post anonimi",
+                "moderate": "Anonimizza o de-anonimizza qualsiasi discussione o post"
             }
         },
         "forum": {
             "composerControls": {
-                "anonymize": "",
-                "anonymizeHelp": ""
+                "anonymize": "Pubblica in modo anonimo",
+                "anonymizeHelp": "I moderatori sapranno comunque che hai creato questo contenuto"
             },
             "discussionControls": {
-                "anonymize": "",
-                "anonymizeConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "anonymize": "Anonimizza",
+                "anonymizeConfirmation": "Ciò renderà anonimo l'autore della discussione. Il primo post deve essere anonimo separatamente. Continua?",
+                "deanonymize": "De-anonimizza",
+                "deanonymizeConfirmation": "Ciò renderà nuovamente pubblico l'autore originale della discussione. Continua?"
             },
             "postControls": {
-                "anonymize": "",
-                "firstPostConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "anonymize": "Anonimizza",
+                "firstPostConfirmation": "Questo renderà anonimo il primo autore del post. La discussione deve essere anonimizzata separatamente. Continua?",
+                "deanonymize": "De-anonimizza",
+                "deanonymizeConfirmation": "Ciò renderà nuovamente pubblico l'autore originale del post. Continua?"
             },
             "discussionList": {
-                "genericReplyText": ""
+                "genericReplyText": "Ultima risposta {ago}"
             },
             "postPrivacy": {
-                "mine": "",
-                "mineHelp": "",
-                "profile": "",
-                "profileHelp": ""
+                "mine": "Io",
+                "mineHelp": "Solo tu puoi vedere questa informazione",
+                "profile": "Visibile solo a te",
+                "profileHelp": "Solo tu puoi vedere i tuoi post anonimi sul tuo profilo"
             }
         },
         "lib": {
             "userMeta": {
-                "initials": "",
-                "username": ""
+                "initials": "?",
+                "username": "Anonimo"
             }
         }
     }
