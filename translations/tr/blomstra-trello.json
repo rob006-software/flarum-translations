@@ -3,15 +3,15 @@
         "admin": {
             "modals": {
                 "fields": {
-                    "board": "",
-                    "trello_label": "",
-                    "forum_tags": ""
+                    "board": "Bir Trello panosu seçin",
+                    "trello_label": "Bir Trello etiketi seçin",
+                    "forum_tags": "Eşlemek için bir Forum etiketi seçin"
                 },
-                "no_available_labels_label": "",
-                "no_available_tags_label": ""
+                "no_available_labels_label": "Kullanılabilir etiket yok",
+                "no_available_tags_label": "Kullanılabilir forum etiketi yok"
             },
             "permissions": {
-                "add_to_trello": ""
+                "add_to_trello": "Bir tartışmayı Trello'ya bağlayabilir"
             },
             "settings": {
                 "api_key_help": "",
