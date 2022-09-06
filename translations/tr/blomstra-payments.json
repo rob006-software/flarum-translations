@@ -30,17 +30,17 @@
                 "purchase-log-in": "Giriş Yap ve Hortlatmak için Öde"
             },
             "bounties": {
-                "purchase-control": "",
-                "enable-control": ""
+                "purchase-control": "Ödül Ekle",
+                "enable-control": "Ödülleri Etkinleştir"
             },
             "choose-bounty-amount-modal": {
-                "title": "",
-                "checkout-control": "",
-                "description": ""
+                "title": "Ödül miktarı seçin",
+                "checkout-control": "Ödeme",
+                "description": "\"{subject}\" konusunu desteklemek için tutarınızı seçin veya özel bir miktar seçin."
             },
             "backers-widget": {
-                "label": "",
-                "none": ""
+                "label": "{sum} taahhüt etti",
+                "none": "Henüz destekçi yok."
             },
             "tag": {
                 "require-payment-label": "Ödeme Gerekiyor"
@@ -60,8 +60,8 @@
             },
             "exceptions": {
                 "out-of-bounds-amount": {
-                    "min": "",
-                    "max": ""
+                    "min": "{amount} tutarında bir ödemeye izin verilmez, {min} en düşük tutardır.",
+                    "max": "{amount} tutarında bir ödemeye izin verilmez, {max} en yüksek tutardır."
                 }
             },
             "accept-terms-modal": {
@@ -82,8 +82,8 @@
                 "select-ptb-product-description": "Bir ürün seçmek, bir tartışmaya girmeden önce o ürünün ödenmesini gerektirir.\n",
                 "bump-others": "(PTB) Başkalarının tartışmaları hortlatmasına izin ver",
                 "bump-others-description": "Etkinleştirilirse, yalnızca tartışma yazarı değil, tartışmaları bir ödeme ile hortlatabilir.\n",
-                "select-bounty-product": "",
-                "select-bounty-description": ""
+                "select-bounty-product": "(Ödül) Gerekli ürün",
+                "select-bounty-description": "Ödüller için ayarlayacak bir ürün seçin. Ürün, modelle birlikte yalnızca bir Fiyata sahip olabilir: \"Özel fiyat seçer\". <code>prod_</code> ile başlayan ürünün kimliğini bu alana kopyalayın.\n"
             },
             "edit-group": {
                 "select-pta-product": "(PTA) Gerekli ürün",
@@ -97,7 +97,7 @@
                 "link-to-terms": ""
             },
             "permission": {
-                "enable-bounties": ""
+                "enable-bounties": "Ödülleri etkinleştir"
             }
         }
     },
