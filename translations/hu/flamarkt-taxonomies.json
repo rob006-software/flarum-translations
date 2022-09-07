@@ -36,9 +36,9 @@
                     "countRequired": "Szükséges kifejezések száma",
                     "countRequiredDescription": "Adja meg, hogy legalább és legfeljebb hány feltételt kell megadni a témákra alkalmazható taxonómiákból.\n",
                     "rangeSeparatorText": "–",
-                    "tagScope": "",
-                    "tagScopeDescription": "",
-                    "tagScopePlaceholder": ""
+                    "tagScope": "Csak a megadott címkékben",
+                    "tagScopeDescription": "A taxonómia csak a kiválasztott címkékben lesz elérhető. Ha egyetlen címkét választ ki, akkor a kezdőoldalon lévő szűrő csak abban a címkében lesz látható.\n",
+                    "tagScopePlaceholder": "Gépeljen egy címke kereséséhez…"
                 },
                 "delete": "=> flamarkt-taxonomies.ref.delete",
                 "deleteConfirmation": "Biztos, hogy törli a(z) {name} taxonómiát? A taxonómia alatt lévő összes kifejezés törlésre kerül. A taxonómiát használó témák NEM lesznek törölve.\n",
@@ -86,7 +86,7 @@
             "permissions": {
                 "heading": "Taxonómiák",
                 "moderate": "Elérhető taxonómiák beállítása",
-                "bypassTermCounts": "",
+                "bypassTermCounts": "Kifejezésszám követelményeinek megkerülése",
                 "seeOwnDiscussion": "Saját témák taxonómiáinak megtekintése",
                 "seeAnyDiscussion": "Összes téma taxonómiáinak megtekintése",
                 "editOwnDiscussion": "Saját témák taxonómiáinak szerkesztése",
@@ -115,7 +115,7 @@
             },
             "blog": {
                 "widget": {
-                    "title": ""
+                    "title": "Taxonómiák"
                 }
             }
         },
@@ -128,15 +128,15 @@
                 "placeholder": "{count, plural, one {Válasszon egy feltételt…} other {Válasszon # feltételt…}}",
                 "placeholderOptional": "Válasszon…",
                 "custom": "{value} használata",
-                "bypassTermCounts": "",
+                "bypassTermCounts": "Kifejezésszám megkerülése",
                 "submit": "OK"
             }
         },
         "api": {
             "error": {
                 "invalid_filter_taxonomy": "Érvénytelen „{type}” taxonómiaszűrő-kulcs: „{slug}”",
-                "discussion_taxonomy_not_in_scope": "",
-                "cannot_use_taxonomies_on_model": ""
+                "discussion_taxonomy_not_in_scope": "A(z) „{slug}” taxonómia nem érhető el a jelenlegi címkekombinációban",
+                "cannot_use_taxonomies_on_model": "Nem használhat taxonómiákat ebben a környezetben"
             }
         },
         "ref": {
