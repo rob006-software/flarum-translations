@@ -2,35 +2,35 @@
     "nearata-cakeday": {
         "admin": {
             "permissions": {
-                "can_view_anniversaries_page": ""
+                "can_view_anniversaries_page": "Évfordulók oldal megtekintése"
             },
             "settings": {
-                "anniversaries_page_label": "",
-                "cake_bg_color_label": "",
-                "cake_bg_color_help": "",
-                "cake_txt_color_label": "",
-                "cake_txt_color_help": "",
-                "new_members": "",
-                "new_members_howlong": "",
-                "new_members_howlong_help": "",
-                "new_members_changelabel": ""
+                "anniversaries_page_label": "Évfordulók oldal engedélyezése",
+                "cake_bg_color_label": "Háttérszín",
+                "cake_bg_color_help": "Súgó: Ez a beállítás megváltoztatja a torta háttérszínét. Hagyja üresen az alapértelmezéshez.",
+                "cake_txt_color_label": "Ikonszín",
+                "cake_txt_color_help": "Súgó: Ez a beállítás megváltoztatja a torta szövegszínét. Hagyja üresen az alapértelmezéshez.",
+                "new_members": "Torta ikon megjelenítése az új tagoknál",
+                "new_members_howlong": "(Új tagok) Meddig",
+                "new_members_howlong_help": "Napokban megadva.",
+                "new_members_changelabel": "(Új tagok) A címke módosítása erre: Új tag"
             }
         },
         "forum": {
-            "anniversary": "",
-            "new_member_label": "",
+            "anniversary": "Évforduló",
+            "new_member_label": "Új tag",
             "page": {
-                "anniversaries_between_label": "",
-                "anniversaries_for_label": "",
-                "empty": "",
+                "anniversaries_between_label": "Évfordulók {date1} és {date2} között",
+                "anniversaries_for_label": "Évfordulók ekkor: {date}",
+                "empty": "Nincs évforduló.",
                 "filter_options": {
-                    "today": "",
-                    "tomorrow": "",
-                    "upcoming": "",
-                    "all": ""
+                    "today": "Ma",
+                    "tomorrow": "Holnap",
+                    "upcoming": "Közelgő",
+                    "all": "Összes"
                 },
-                "load_more_button": "",
-                "title": ""
+                "load_more_button": "Továbbiak betöltése",
+                "title": "Évfordulók"
             }
         }
     }
