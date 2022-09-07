@@ -1,15 +1,15 @@
 {
     "flarum-ext-purify": {
         "forum": {
-            "obscure": ""
+            "obscure": "[Megtisztított]"
         },
         "admin": {
-            "additem": "",
-            "additemdesc": "",
-            "hidemail": "",
-            "customreg": "",
-            "customregexp": "",
-            "customregexpdesc": ""
+            "additem": "Csúnya szó hozzáadása a tömbhöz",
+            "additemdesc": "vesszőkkel válassza el az egyes szavakat (például szó1, szó2, szó3,)",
+            "hidemail": "E-mail-címek automatikus elrejtése",
+            "customreg": "Egyéni reguláris kifejezés használata",
+            "customregexp": "Egyéni regexp használata",
+            "customregexpdesc": "Itt adja meg az igényeinek megfelelő reguláris kifejezést (például (flarum|legjobb|bővítmény) hogy elrejtse ezt a három szót)"
         }
     }
 }

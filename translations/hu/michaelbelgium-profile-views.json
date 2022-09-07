@@ -3,17 +3,17 @@
         "forum": {
             "user": {
                 "viewlist": {
-                    "title": "",
-                    "guest": ""
+                    "title": "Legutóbbi látogatók",
+                    "guest": "Vendég"
                 },
-                "view_count_text": "",
+                "view_count_text": "{viewcount, plural, one {megtekintve {viewcount} alkalommal} other {megtekintve {viewcount} alkalommal}}",
                 "last_viewers_heading": ""
             }
         },
         "admin": {
             "settings": {
-                "track_guests_label": "",
-                "max_viewcount_label": ""
+                "track_guests_label": "Vendégek követése",
+                "max_viewcount_label": "Látogatólista elemeinek legnagyobb száma"
             }
         }
     }
