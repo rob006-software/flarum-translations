@@ -7,15 +7,31 @@
                 "can_bypass_login": ""
             },
             "settings": {
+                "hide_only_first_post": "",
+                "hide_only_first_post_help": "",
                 "require_like": "Benötigt like",
                 "require_like_help": "Hinweis: Flarum Likes-Erweiterung erforderlich.",
-                "require_reply": "Antwort erforderlich"
+                "require_reply": "Antwort erforderlich",
+                "hide_only_files": "",
+                "hide_only_files_help": "",
+                "fof_upload": {
+                    "section_title": "",
+                    "require_like": "",
+                    "require_like_help": "",
+                    "require_reply": ""
+                }
             }
         },
         "forum": {
             "like": "Du musst den Beitrag liken, um den Inhalt zu sehen.",
             "login": "Du musst dich anmelden, um den Inhalt zu sehen.",
-            "reply": "Du musst auf die Diskussion antworten, um den Inhalt anzuzeigen."
+            "reply": "Du musst auf die Diskussion antworten, um den Inhalt anzuzeigen.",
+            "fof_upload": {
+                "like": "",
+                "login": "",
+                "reply": ""
+            },
+            "button": ""
         }
     }
 }

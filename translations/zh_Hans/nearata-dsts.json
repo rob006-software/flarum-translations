@@ -7,15 +7,31 @@
                 "can_bypass_login": ""
             },
             "settings": {
+                "hide_only_first_post": "",
+                "hide_only_first_post_help": "",
                 "require_like": "需要点赞",
                 "require_like_help": "注意：需要 Flarum Likes 扩展程序。",
-                "require_reply": "需要回复"
+                "require_reply": "需要回复",
+                "hide_only_files": "",
+                "hide_only_files_help": "",
+                "fof_upload": {
+                    "section_title": "",
+                    "require_like": "",
+                    "require_like_help": "",
+                    "require_reply": ""
+                }
             }
         },
         "forum": {
             "like": "点赞以解锁内容",
             "login": "登录以查看内容",
-            "reply": "回复以解锁内容"
+            "reply": "回复以解锁内容",
+            "fof_upload": {
+                "like": "",
+                "login": "",
+                "reply": ""
+            },
+            "button": ""
         }
     }
 }

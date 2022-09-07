@@ -7,15 +7,31 @@
                 "can_bypass_login": "Can bypass login"
             },
             "settings": {
+                "hide_only_first_post": "Hide only first post",
+                "hide_only_first_post_help": "This option is overriden by BBCode.",
                 "require_like": "Require like",
-                "require_like_help": "Note: Requires Flarum Likes extension.",
-                "require_reply": "Require reply"
+                "require_like_help": "Requires <strong>flarum/likes</strong> extension.",
+                "require_reply": "Require reply",
+                "hide_only_files": "Hide only files",
+                "hide_only_files_help": "Requires <strong>fof/upload</strong> extension.",
+                "fof_upload": {
+                    "section_title": "FoF Upload",
+                    "require_like": "Require like",
+                    "require_like_help": "Requires <strong>flarum/likes</strong> extension.",
+                    "require_reply": "Require reply"
+                }
             }
         },
         "forum": {
             "like": "You must like the post to see the content.",
             "login": "You must login to see the content.",
-            "reply": "You must reply to the discussion to see the content."
+            "reply": "You must reply to the discussion to see the content.",
+            "fof_upload": {
+                "like": "You must like to see the file.",
+                "login": "You must login to see the file.",
+                "reply": "You must reply to see the file."
+            },
+            "button": "DSTS"
         }
     }
 }
