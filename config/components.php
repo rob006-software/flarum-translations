@@ -926,7 +926,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-copy-code-to-clipboard/v2.1.0/resources/locale/en.yml',
 	],
 	'nearata-dsts' => [
-		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-dsts/v2.2.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-dsts/v2.3.0/locale/en.yml',
 	],
 	'nearata-embed-twitch' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-embed-twitch/v2.0.1/resources/locale/en.yml',
