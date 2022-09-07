@@ -1,0 +1,69 @@
+{
+    "clarkwinkelmann-discussion-lists": {
+        "admin": {
+            "settings": {
+                "collapseSeries": "Collapse series index by default"
+            },
+            "permissions": {
+                "viewPublic": "View public discussion lists",
+                "createPrivate": "Create private discussion lists",
+                "createPublic": "Create public discussion lists",
+                "createSeriesFromOwn": "Create discussion series with own content",
+                "createSeriesFromAny": "Create discussion series with content from any user",
+                "moderate": "Modify and delete any discussion list",
+                "viewPrivate": "View all private discussion lists"
+            }
+        },
+        "forum": {
+            "edit": {
+                "title": "Edit list",
+                "name": "Name",
+                "visibility": "Visibility",
+                "visibilityOptions": {
+                    "private": "Private list",
+                    "public": "Public list",
+                    "series": "Public series"
+                },
+                "ordering": "Ordering",
+                "orderingOptions": {
+                    "manual": "Manual",
+                    "createdAsc": "Discussion creation (oldest to most recent)",
+                    "createdDesc": "Discussion creation (most recent to oldest)",
+                    "addedAsc": "Addition to the list (least to most recent)",
+                    "addedDesc": "Addition to the list (most recent to least)"
+                },
+                "save": "Save",
+                "delete": "Delete",
+                "deleteConfirmation": "Do you really want to delete this list permanently?"
+            },
+            "discussion": {
+                "add": "Add to list",
+                "new": "New list"
+            },
+            "profile": {
+                "link": "Lists"
+            },
+            "badge": {
+                "private": "Private list",
+                "series": "Public series"
+            },
+            "series": {
+                "kind": "Series",
+                "expand": "Expand",
+                "visit": "Show everything"
+            }
+        },
+        "api": {
+            "manualLimit": "Manually sorted lists cannot contain more than 50 discussions",
+            "seriesAnyAddNotAllowed": "You can only add your own discussions to a series list",
+            "seriesAnyConversionNotAllowed": "Cannot convert list to a series because it contains discussions that are not your own"
+        }
+    },
+    "core": {
+        "forum": {
+            "index_sort": {
+                "discussionListDefault_button": "Order in list"
+            }
+        }
+    }
+}
