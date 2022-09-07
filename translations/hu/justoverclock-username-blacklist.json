@@ -1,13 +1,13 @@
 {
     "username-blacklist": {
         "forum": {
-            "modal-title": "",
-            "modal-body-first-line": "",
-            "modal-body-second-line": ""
+            "modal-title": "Figyelem!",
+            "modal-body-first-line": "Figyelem – Ezt a felhasználónevet <strong>egy rendszergazda letiltotta</strong>",
+            "modal-body-second-line": "Válasszon egy másik felhasználónevet, amely nem sérti a közösségi irányelveket, és próbálja újra."
         },
         "admin": {
-            "blackList": "",
-            "blackList-help": ""
+            "blackList": "Tiltott felhasználónév",
+            "blackList-help": "Írja be a regisztrációkor tiltandó felhasználóneveket (vesszőkkel elválasztva)"
         }
     }
 }
