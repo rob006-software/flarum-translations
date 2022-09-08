@@ -2,61 +2,61 @@
     "sycho-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content": "Siirrä keskustelun (ensimmäinen viesti) sisältö",
+                "moved_first_post_content_help": "Kun sinulla on keskustelu, jossa on vain yksi viesti, sen viestin siirtäminen muokkaa alkuperäisen keskustelun ensimmäisen viestin osoittamaan uuteen keskusteluun. Voit muokata viestin sisältöä sieltä.\n",
+                "group_sequential_posts": "Ryhmitä peräkkäiset viestin siirto tapahtumat yhdeksi."
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Siirretty"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": ""
+                "move_old_post_to_newer_discussion": "=> sycho-move-posts.ref.status.old_to_new_move"
             },
             "modal": {
-                "check": "",
-                "destination": "",
-                "discussion_help": "",
-                "discussion_name": "",
-                "new_discussion": "",
-                "selected_posts": "",
+                "check": "Tarkista toiminnon tyyppi",
+                "destination": "Kohde keskustelu",
+                "discussion_help": "Lähde keskustelun avainsanoja käytetään ja niitä voi muokata luonnin jälkeen.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Uusi keskustelu",
+                "selected_posts": "{count, plural, one {Yksi viesti valittuna} other {{count} viestiä valittuna}}",
                 "status": {
-                    "complex_move": "",
-                    "old_to_new_move": "",
-                    "simple_move": ""
+                    "complex_move": "Tämä tulee olemaan monimutkainen siirto. Viestejä siirretään toisten viestien väliin, tämä johtaa siihen että vanhat URL viittaukset keskustelun viesteihin muuttuvat.",
+                    "old_to_new_move": "=> sycho-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Tämä on yksinkertainen siirto, viestit lisätään keskustelun loppuun."
                 },
-                "submit": "",
-                "title": ""
+                "submit": "Jatka",
+                "title": "=> sycho-move-posts.ref.move_posts"
             },
             "notifications": {
-                "post_moved_text": ""
+                "post_moved_text": "Yksi tai useampi viesti siirrettiin keskusteluun {targetDiscussionTitle}."
             },
             "post": {
-                "unmove": "",
-                "move": "",
-                "moving": ""
+                "unmove": "Poista valinta siirtääksesi",
+                "move": "Valitse siirtääksesi",
+                "moving": "Siirretään viestiä"
             },
             "post_stream": {
-                "post_moved": ""
+                "post_moved": "{count, plural, one {{username} siirsi viestin keskusteluun {target_discussion}.} other {{username} siirsi {count} viestiä keskusteluun {target_discussion}.}}"
             }
         },
         "ref": {
-            "move_posts": "",
+            "move_posts": "Siirrä viestit",
             "status": {
-                "old_to_new_move": ""
+                "old_to_new_move": "Ei voitu siirtää vanhoja viestejä uudempaan keskusteluun."
             }
         },
         "lib": {
             "discussion": {
                 "first_post": {
-                    "default_content": ""
+                    "default_content": "*Tämä viesti siirrettiin keskusteluun **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
                 }
             }
         }
