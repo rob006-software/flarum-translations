@@ -34,7 +34,20 @@
                     "fas-circle": "",
                     "switch": "",
                     "native": ""
-                }
+                },
+                "horizontal-layout": "",
+                "horizontal-layout-locations": {
+                    "standaloneEdit": "",
+                    "standaloneView": "",
+                    "profileEdit": "",
+                    "profileView": "",
+                    "signUp": "",
+                    "discussionEdit": "",
+                    "discussionView": "",
+                    "discussionComposer": ""
+                },
+                "uniformComposerLayout": "",
+                "uniformComposerLayoutHelp": ""
             }
         },
         "forum": {
@@ -143,6 +156,7 @@
                     "title": "公开标题",
                     "show-on-creation": {
                         "discussion": "在 discussion composer 展示",
+                        "discussionHelp": "",
                         "user": "在注册页面展示"
                     },
                     "automatic-discussion": "根据提交内容自动创建主题帖",
@@ -354,6 +368,14 @@
             "discussion-submission": {
                 "empty": "",
                 "edit": ""
+            },
+            "discussion-composer": {
+                "field": {
+                    "tags": "",
+                    "poll": "",
+                    "title": "",
+                    "content": ""
+                }
             }
         },
         "api": {
@@ -363,6 +385,7 @@
             "cannot-change-form-type": "您不能更改已收到提交内容的表格类型",
             "unknown-form": "",
             "unauthorized-form": "",
+            "unauthorized-scoped-form": "",
             "file-already-belongs-form": "",
             "file-already-belongs-submission": "",
             "export": {

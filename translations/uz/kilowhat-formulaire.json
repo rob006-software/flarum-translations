@@ -34,7 +34,20 @@
                     "fas-circle": "FontAwesome Solid Circle Icon",
                     "switch": "Flarum switch",
                     "native": "Brauzer boshqaruvi"
-                }
+                },
+                "horizontal-layout": "",
+                "horizontal-layout-locations": {
+                    "standaloneEdit": "",
+                    "standaloneView": "",
+                    "profileEdit": "",
+                    "profileView": "",
+                    "signUp": "",
+                    "discussionEdit": "",
+                    "discussionView": "",
+                    "discussionComposer": ""
+                },
+                "uniformComposerLayout": "",
+                "uniformComposerLayoutHelp": ""
             }
         },
         "forum": {
@@ -143,6 +156,7 @@
                     "title": "Ochiq sarlavha",
                     "show-on-creation": {
                         "discussion": "Muhokamada ko'rsatish",
+                        "discussionHelp": "",
                         "user": "Ro'yxatdan o'tishda ko'rsatish"
                     },
                     "automatic-discussion": "Shaklni yuborishdan avtomatik ravishda muhokamalar yarating",
@@ -354,6 +368,14 @@
             "discussion-submission": {
                 "empty": "",
                 "edit": ""
+            },
+            "discussion-composer": {
+                "field": {
+                    "tags": "",
+                    "poll": "",
+                    "title": "",
+                    "content": ""
+                }
             }
         },
         "api": {
@@ -363,6 +385,7 @@
             "cannot-change-form-type": "Mavjud yuborilgan shakl turini o'zgartira olmaysiz",
             "unknown-form": "Noma'lum shakl identifikatori {id}",
             "unauthorized-form": "Shakl identifikatorini (id}) to‘ldirish uchun sizda zarur ruxsatlar yo‘q",
+            "unauthorized-scoped-form": "",
             "file-already-belongs-form": "{id} fayli boshqa shaklga tegishli",
             "file-already-belongs-submission": "{id} fayli boshqa yuborilgan faylga tegishli",
             "export": {

@@ -34,7 +34,20 @@
                     "fas-circle": "Icon FontAwesome Solid Circle",
                     "switch": "Công tắc Flarum",
                     "native": "Kiểm soát trình duyệt gốc"
-                }
+                },
+                "horizontal-layout": "",
+                "horizontal-layout-locations": {
+                    "standaloneEdit": "",
+                    "standaloneView": "",
+                    "profileEdit": "",
+                    "profileView": "",
+                    "signUp": "",
+                    "discussionEdit": "",
+                    "discussionView": "",
+                    "discussionComposer": ""
+                },
+                "uniformComposerLayout": "",
+                "uniformComposerLayoutHelp": ""
             }
         },
         "forum": {
@@ -143,6 +156,7 @@
                     "title": "Tiêu đề công khai",
                     "show-on-creation": {
                         "discussion": "Hiển thị trong trình soạn thảo",
+                        "discussionHelp": "",
                         "user": "Hiển thị trong đăng ký"
                     },
                     "automatic-discussion": "Tự động tạo các cuộc thảo luận từ việc gửi biểu mẫu",
@@ -354,6 +368,14 @@
             "discussion-submission": {
                 "empty": "Hiện không có dữ liệu",
                 "edit": "Chỉnh sửa"
+            },
+            "discussion-composer": {
+                "field": {
+                    "tags": "",
+                    "poll": "",
+                    "title": "",
+                    "content": ""
+                }
             }
         },
         "api": {
@@ -363,6 +385,7 @@
             "cannot-change-form-type": "Bạn không thể thay đổi loại biểu mẫu đã gửi hiện có",
             "unknown-form": "ID biểu mẫu không được công nhận {id}",
             "unauthorized-form": "Bạn không có quyền cần thiết để điền ID biểu mẫu {id}",
+            "unauthorized-scoped-form": "",
             "file-already-belongs-form": "Tệp {id} thuộc biểu mẫu khác",
             "file-already-belongs-submission": "Tệp {id} thuộc về một bài gửi khác",
             "export": {

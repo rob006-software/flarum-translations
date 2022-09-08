@@ -34,7 +34,20 @@
                     "fas-circle": "FontAwesome Solid Circle Ikona",
                     "switch": "Flarum prepínač",
                     "native": "Vstavané ovládanie internetového prehliadača"
-                }
+                },
+                "horizontal-layout": "",
+                "horizontal-layout-locations": {
+                    "standaloneEdit": "",
+                    "standaloneView": "",
+                    "profileEdit": "",
+                    "profileView": "",
+                    "signUp": "",
+                    "discussionEdit": "",
+                    "discussionView": "",
+                    "discussionComposer": ""
+                },
+                "uniformComposerLayout": "",
+                "uniformComposerLayoutHelp": ""
             }
         },
         "forum": {
@@ -143,6 +156,7 @@
                     "title": "",
                     "show-on-creation": {
                         "discussion": "",
+                        "discussionHelp": "",
                         "user": ""
                     },
                     "automatic-discussion": "",
@@ -354,6 +368,14 @@
             "discussion-submission": {
                 "empty": "",
                 "edit": ""
+            },
+            "discussion-composer": {
+                "field": {
+                    "tags": "",
+                    "poll": "",
+                    "title": "",
+                    "content": ""
+                }
             }
         },
         "api": {
@@ -363,6 +385,7 @@
             "cannot-change-form-type": "",
             "unknown-form": "",
             "unauthorized-form": "",
+            "unauthorized-scoped-form": "",
             "file-already-belongs-form": "",
             "file-already-belongs-submission": "",
             "export": {

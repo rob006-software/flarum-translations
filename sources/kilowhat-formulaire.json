@@ -34,7 +34,20 @@
                     "fas-circle": "FontAwesome Solid Circle Icon",
                     "switch": "Flarum switch",
                     "native": "Native browser control"
-                }
+                },
+                "horizontal-layout": "Use horizontal form layout",
+                "horizontal-layout-locations": {
+                    "standaloneEdit": "Standalone Fill/Edit Page",
+                    "standaloneView": "Standalone View Page",
+                    "profileEdit": "Profile Edit Page",
+                    "profileView": "Profile View Page",
+                    "signUp": "Sign Up Modal (only Formulaire fields)",
+                    "discussionEdit": "Discussion Edit Modal",
+                    "discussionView": "Discussion View Container",
+                    "discussionComposer": "Discussion Composer"
+                },
+                "uniformComposerLayout": "Uniform discussion composer layout",
+                "uniformComposerLayoutHelp": "Changes the styling of the tags, title and content fields to match with Formulaire. This layout will take even more space so it's recommended you install and enable the <a>Composer Page</a> extension.\n"
             }
         },
         "forum": {
@@ -143,6 +156,7 @@
                     "title": "Public title",
                     "show-on-creation": {
                         "discussion": "Show in discussion composer",
+                        "discussionHelp": "The Flarum discussion composer is not suited to contain many fields. You should install and enable the <a>Composer Page</a> extension to ensure all fields remain accessible on all devices.\n",
                         "user": "Show in sign up"
                     },
                     "automatic-discussion": "Automatically create discussions from form submission",
@@ -354,6 +368,14 @@
             "discussion-submission": {
                 "empty": "No data yet",
                 "edit": "Edit"
+            },
+            "discussion-composer": {
+                "field": {
+                    "tags": "Tags",
+                    "poll": "Poll",
+                    "title": "Title",
+                    "content": "Message"
+                }
             }
         },
         "api": {
@@ -363,6 +385,7 @@
             "cannot-change-form-type": "You cannot change the type of a form that has existing submissions",
             "unknown-form": "Unrecognized form ID {id}",
             "unauthorized-form": "You don't have the necessary permissions to fill form ID {id}",
+            "unauthorized-scoped-form": "You cannot fill form ID {id} with current tag combination",
             "file-already-belongs-form": "File {id} belongs to another form",
             "file-already-belongs-submission": "File {id} belongs to another submission",
             "export": {

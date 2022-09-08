@@ -34,7 +34,20 @@
                     "fas-circle": "FontAwesome Solid Daire Simgesi",
                     "switch": "Flarum anahtarı",
                     "native": "Yerel tarayıcı kontrolü"
-                }
+                },
+                "horizontal-layout": "",
+                "horizontal-layout-locations": {
+                    "standaloneEdit": "",
+                    "standaloneView": "",
+                    "profileEdit": "",
+                    "profileView": "",
+                    "signUp": "",
+                    "discussionEdit": "",
+                    "discussionView": "",
+                    "discussionComposer": ""
+                },
+                "uniformComposerLayout": "",
+                "uniformComposerLayoutHelp": ""
             }
         },
         "forum": {
@@ -143,6 +156,7 @@
                     "title": "Genel başlık",
                     "show-on-creation": {
                         "discussion": "Düzenleyicide göster",
+                        "discussionHelp": "",
                         "user": "Kayıt esnasında göster"
                     },
                     "automatic-discussion": "Form gönderiminden otomatik olarak tartışmalar oluşturun",
@@ -354,6 +368,14 @@
             "discussion-submission": {
                 "empty": "Henüz veri yok",
                 "edit": "Düzenle"
+            },
+            "discussion-composer": {
+                "field": {
+                    "tags": "",
+                    "poll": "",
+                    "title": "",
+                    "content": ""
+                }
             }
         },
         "api": {
@@ -363,6 +385,7 @@
             "cannot-change-form-type": "Mevcut gönderimleri olan bir formun türünü değiştiremezsiniz",
             "unknown-form": "Tanınmayan form kimliği {id}",
             "unauthorized-form": "{id} form kimliğini doldurmak için gerekli izinlere sahip değilsiniz",
+            "unauthorized-scoped-form": "",
             "file-already-belongs-form": "{id} dosyası başka bir forma ait",
             "file-already-belongs-submission": "{id} dosyası başka bir gönderiye ait",
             "export": {
