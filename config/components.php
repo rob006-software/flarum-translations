@@ -172,6 +172,9 @@ return [
 	'clarkwinkelmann-colorful-borders' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-colorful-borders/1.0.0/resources/locale/en.yml',
 	],
+	'clarkwinkelmann-composer-page' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-composer-page/1.0.0/locale/en.yml',
+	],
 	'clarkwinkelmann-create-user-modal' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-create-user-modal/1.3.1/resources/locale/en.yml',
 	],
