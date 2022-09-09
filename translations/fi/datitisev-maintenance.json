@@ -2,46 +2,46 @@
     "datitisev-maintenance": {
         "admin": {
             "dashboard": {
-                "enable_maintenance_mode_button": "",
-                "disable_maintenance_mode_button": ""
+                "enable_maintenance_mode_button": "Ota käyttöön huoltotila",
+                "disable_maintenance_mode_button": "Poista huoltotila käytöstä"
             },
             "settings": {
-                "title": "",
-                "settings_notice": "",
-                "allow_bypass_label": "",
-                "allow_bypass_hint": "",
-                "prefer_db_label": "",
-                "prefer_db_hint": "",
-                "active_label": "",
-                "disable_admin_label": "",
-                "disable_api_label": "",
-                "title_label": "",
-                "message_label": "",
-                "error_page_file_label": "",
-                "error_page_file_hint": "",
-                "error_page_label": "",
-                "error_page_hint": ""
+                "title": "Huoltotila",
+                "settings_notice": "Nämä asetukset eivät ole välttämättä ajantasalla. Tarkistathan ettei niitä ylikirjoiteta <code>config.php</code> tiedostossa.",
+                "allow_bypass_label": "Salli foorumin ja APIn ohitus käyttäen oikeuksia",
+                "allow_bypass_hint": "Tämä ei ohita tietokantaa jos ei ole saavutettavissa. Koskee foorumia ja APIa (paitsi jos API on kokonaan otettu pois käytöstä <code>config.php</code> kautta). Jos pois käytöstä niin ylläpitäjät pääsevät APIin käsiksi (paitsi jos API on kokonaan pois käytöstä) jotta et lukitse itseäsi ulos.",
+                "prefer_db_label": "Suosi tietokannan asetuksia <code>config.php</code> asetusten sijaan",
+                "prefer_db_hint": "Normaalisti <code>config.php</code> tiedoston arvot ohittavat nämä. Ota tämä käyttöön jos haluat, että nämä arvot ohittavat asetus tiedoston - jolloin asetus tiedoston arvoja käytetään jos tietokanta ei ole saavutettavissa.",
+                "active_label": "Huoltotilan tila",
+                "disable_admin_label": "Poista ylläpitäjän pääsy käytöstä",
+                "disable_api_label": "Poista API pääsy käytöstä",
+                "title_label": "Virhe sivun otsikko",
+                "message_label": "Virhe sivun viesti",
+                "error_page_file_label": "Virhe sivun tiedostopolku",
+                "error_page_file_hint": "Polku Flarumin juuresta - missä <code>vendor</code> ja <code>storage</code> kansiot sijaitsevat.",
+                "error_page_label": "Virhe sivun HTML/Blade",
+                "error_page_hint": "Voit käyttää $app, $translator, $settings, $title ja $message muuttujia bladen kanssa."
             },
             "permissions": {
-                "allow_bypass_maintenance_label": ""
+                "allow_bypass_maintenance_label": "Ohita huoltotila (asetus pitää olla päällä)"
             }
         },
         "lib": {
-            "maintenance_active_message": "",
-            "maintenance_active_not_db_message": "",
-            "maintenance_active_disabled_api_message": ""
+            "maintenance_active_message": "Tälle foorumille tehdään parhaillaan huoltoa.",
+            "maintenance_active_not_db_message": "Huoltotila on päällä <code>config.php</code> tiedoston kautta.",
+            "maintenance_active_disabled_api_message": "API on pois käytöstä kaikilta."
         },
         "views": {
             "error": {
-                "title": "",
-                "message": ""
+                "title": "Huolto",
+                "message": "Suoritamme parhaillaan huoltoa. Palaamme hetken kuluttua!"
             }
         }
     },
     "core": {
         "lib": {
             "error": {
-                "maintenance_message": ""
+                "maintenance_message": "Tämä foorumi on parhaillaan huoltotilassa."
             }
         }
     }
