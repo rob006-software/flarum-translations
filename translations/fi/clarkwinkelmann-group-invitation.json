@@ -1,46 +1,46 @@
 {
     "clarkwinkelmann-group-invitation": {
         "forum": {
-            "title": "",
-            "generic-title": "",
+            "title": "Sinut on kutsuttu liittymään ryhmään {group}!",
+            "generic-title": "Kutsu ryhmään",
             "user": {
-                "already-connected": "",
-                "not-connected": "",
-                "not-authorized": "",
-                "already-member": ""
+                "already-connected": "Lisäämme käyttäjän {username} ryhmään {group}. Väärä käyttäjä? <a>Kirjaudu sisään toisella tilillä</a>.\n",
+                "not-connected": "<a>Kirjaudu sisään</a> hyväksyäksesi kutsun.",
+                "not-authorized": "Käyttäjällä {username} ei ole oikeuksia liittyä ryhmiin. <a>Kirjaudu sisään toisella tilillä</a>.",
+                "already-member": "Hyviä uutisia, käyttäjätunnus {username} on jo ryhmän {group} jäsen! Haluatko liittyä ryhmään toisena käyttäjänä? <a>Kirjaudu sisään toisella tilillä</a>.\n"
             },
             "invitation": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "Pahoittelut, tätä kutsua ryhmään ei löytynyt.",
+                "no-usages-left": "Tätä ryhmän kutsua ei voi enää käyttää."
             },
-            "apply": "",
-            "success-alert": ""
+            "apply": "Liity ryhmään",
+            "success-alert": "Olet onnistuneesti liittynyt ryhmään!"
         },
         "admin": {
             "permissions": {
-                "use": ""
+                "use": "Käytä ryhmän kutsulinkkejä"
             },
             "settings": {
                 "head": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "Koodi",
+                    "group": "Ryhmä",
+                    "usage": "Käyttö"
                 },
                 "placeholder": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "Automaattisesti luotu",
+                    "group": "Valitse...",
+                    "usage": "Tyhjä loputtomille"
                 },
-                "empty": "",
-                "unlimited": "",
-                "create": "",
-                "delete": ""
+                "empty": "Ei kutsukoodeja luotuna.",
+                "unlimited": "loputtomat",
+                "create": "Luo",
+                "delete": "Poista"
             }
         },
         "api": {
             "error": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "Kutsukoodia ei löytynyt",
+                "no-usages-left": "Kutsukoodia ei voi enää käyttää"
             }
         }
     }
