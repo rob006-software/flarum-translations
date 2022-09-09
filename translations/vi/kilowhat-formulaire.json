@@ -35,19 +35,19 @@
                     "switch": "Công tắc Flarum",
                     "native": "Kiểm soát trình duyệt gốc"
                 },
-                "horizontal-layout": "",
+                "horizontal-layout": "Sử dụng bố cục biểu mẫu ngang",
                 "horizontal-layout-locations": {
-                    "standaloneEdit": "",
-                    "standaloneView": "",
-                    "profileEdit": "",
-                    "profileView": "",
-                    "signUp": "",
-                    "discussionEdit": "",
-                    "discussionView": "",
-                    "discussionComposer": ""
+                    "standaloneEdit": "Trang Nhập/Chỉnh sửa riêng biệt",
+                    "standaloneView": "Trang xem riêng biệt",
+                    "profileEdit": "Trang chỉnh sửa hồ sơ",
+                    "profileView": "Trang xem hồ sơ",
+                    "signUp": "Modal Đăng ký (chỉ các trường Formulaire)",
+                    "discussionEdit": "Modal chỉnh sửa cuộc thảo luận",
+                    "discussionView": "Vùng xem cuộc thảo luận",
+                    "discussionComposer": "Trình soạn thảo cuộc thảo luận"
                 },
-                "uniformComposerLayout": "",
-                "uniformComposerLayoutHelp": ""
+                "uniformComposerLayout": "Bố cục trình soạn thảo thảo luận thống nhất",
+                "uniformComposerLayoutHelp": "Thay đổi kiểu dáng của các thẻ, trường tiêu đề và nội dung để phù hợp với Formulaire. Bố cục này sẽ chiếm nhiều dung lượng hơn, vì vậy bạn nên cài đặt và bật tiện ích mở rộng <a>Trang trình soạn thảo/a>.\n"
             }
         },
         "forum": {
@@ -156,7 +156,7 @@
                     "title": "Tiêu đề công khai",
                     "show-on-creation": {
                         "discussion": "Hiển thị trong trình soạn thảo",
-                        "discussionHelp": "",
+                        "discussionHelp": "Trình soạn thảo thảo luận Flarum không phù hợp để chứa nhiều trường. Bạn nên cài đặt và bật tiện ích mở rộng <a> Composer Page </a> để đảm bảo tất cả các trường vẫn có thể truy cập được trên tất cả các thiết bị.\n",
                         "user": "Hiển thị trong đăng ký"
                     },
                     "automatic-discussion": "Tự động tạo các cuộc thảo luận từ việc gửi biểu mẫu",
@@ -371,10 +371,10 @@
             },
             "discussion-composer": {
                 "field": {
-                    "tags": "",
-                    "poll": "",
-                    "title": "",
-                    "content": ""
+                    "tags": "Thẻ",
+                    "poll": "Cuộc thăm dò",
+                    "title": "Tiêu đề",
+                    "content": "Nội dung"
                 }
             }
         },
@@ -385,7 +385,7 @@
             "cannot-change-form-type": "Bạn không thể thay đổi loại biểu mẫu đã gửi hiện có",
             "unknown-form": "ID biểu mẫu không được công nhận {id}",
             "unauthorized-form": "Bạn không có quyền cần thiết để điền ID biểu mẫu {id}",
-            "unauthorized-scoped-form": "",
+            "unauthorized-scoped-form": "Bạn không thể điền ID biểu mẫu {id} bằng tổ hợp thẻ hiện",
             "file-already-belongs-form": "Tệp {id} thuộc biểu mẫu khác",
             "file-already-belongs-submission": "Tệp {id} thuộc về một bài gửi khác",
             "export": {
