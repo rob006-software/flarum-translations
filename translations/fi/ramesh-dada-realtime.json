@@ -2,8 +2,8 @@
     "ramesh-dada-realtime": {
         "admin": {
             "settings": {
-                "polling-interval": "",
-                "polling-interval-help": ""
+                "polling-interval": "Päivityksen aikaväli",
+                "polling-interval-help": "Määritä aikaväli millisekunteina minä haluat, että keskustelut päivittyvät. Mitä enemmän millisekunteja, sitä enemmän kuormaa palvelimelle mutta uudet viestit latautuvat hitaammin. Oletus on 2000ms = 2s"
             }
         }
     }
