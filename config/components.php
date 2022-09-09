@@ -154,6 +154,9 @@ return [
 	'clarkwinkelmann-anonymous-posting' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-anonymous-posting/1.0.1/locale/en.yml',
 	],
+	'clarkwinkelmann-auth-popup-failsafe' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-auth-popup-failsafe/0.1.1/locale/en.yml',
+	],
 	'clarkwinkelmann-author-change' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-author-change/1.0.2/resources/locale/en.yml',
 	],
