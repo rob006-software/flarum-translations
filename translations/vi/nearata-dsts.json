@@ -7,18 +7,18 @@
                 "can_bypass_login": "Có thể bỏ qua đăng nhập"
             },
             "settings": {
-                "hide_only_first_post": "",
-                "hide_only_first_post_help": "",
+                "hide_only_first_post": "Chỉ ẩn bài viết đầu tiên",
+                "hide_only_first_post_help": "Tùy chọn này được ghi đè bởi BBCode.",
                 "require_like": "Yêu cầu thích",
-                "require_like_help": "Lưu ý: Yêu cầu tiện ích mở rộng Flarum Likes.",
+                "require_like_help": "Yêu cầu tiện ích mở rộng <strong>flarum/likes</strong>.",
                 "require_reply": "Yêu cầu trả lời",
-                "hide_only_files": "",
-                "hide_only_files_help": "",
+                "hide_only_files": "Chỉ ẩn tệp tin",
+                "hide_only_files_help": "Yêu cầu tiện ích mở rộng <strong>fof/upload</strong>.",
                 "fof_upload": {
-                    "section_title": "",
-                    "require_like": "",
-                    "require_like_help": "",
-                    "require_reply": ""
+                    "section_title": "FoF Upload",
+                    "require_like": "Yêu cầu thích",
+                    "require_like_help": "Yêu cầu tiện ích mở rộng <strong>flarum/likes</strong>.",
+                    "require_reply": "Yêu cầu trả lời"
                 }
             }
         },
@@ -27,11 +27,11 @@
             "login": "Bạn phải đăng nhập để xem nội dung.",
             "reply": "Bạn phải trả lời cuộc thảo luận để xem nội dung.",
             "fof_upload": {
-                "like": "",
-                "login": "",
-                "reply": ""
+                "like": "Bạn phải thích để xem tệp tin.",
+                "login": "Bạn phải đăng nhập để xem tệp tin.",
+                "reply": "Bạn phải trả lời để xem tệp tin."
             },
-            "button": ""
+            "button": "DSTS"
         }
     }
 }
