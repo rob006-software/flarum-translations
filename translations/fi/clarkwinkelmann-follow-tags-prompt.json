@@ -2,30 +2,30 @@
     "clarkwinkelmann-follow-tags-prompt": {
         "forum": {
             "controls": {
-                "choose": ""
+                "choose": "Valitse seurattavat avainsanat"
             },
             "modal": {
-                "title": "",
-                "later": "",
-                "continue": ""
+                "title": "Valitse seurattavat avainsanat",
+                "later": "Muistuta minua myöhemmin",
+                "continue": "Jatka foorumille"
             }
         },
         "admin": {
             "settings": {
-                "buttonOnFollowingPage": "",
-                "allDiscussionsOnFollowingPageForGuests": "",
-                "availableTagStrategy": "",
+                "buttonOnFollowingPage": "Näytä nappi Seurataan sivulla",
+                "allDiscussionsOnFollowingPageForGuests": "Näytä nappi kaikissa keskusteluissa Seurataan sivulla vieraille",
+                "availableTagStrategy": "Ikkunan näytettävät avainsanat",
                 "tagStrategy": {
-                    "primary": "",
-                    "primaryAndChildren": "",
-                    "primaryAndSecondary": "",
-                    "secondary": "",
-                    "all": "",
-                    "list": ""
+                    "primary": "Ensimmäisen tason ensisijaiset avainsanat",
+                    "primaryAndChildren": "Kaikki ensisijaiset avainsanat millä tasolla tahansa",
+                    "primaryAndSecondary": "Ensimmäisen tason ensi- ja toissijaiset avainsanat",
+                    "secondary": "Vain toissijaiset avainsanat",
+                    "all": "Kaikki avainsanat",
+                    "list": "Alla valitut avainsanat"
                 }
             },
             "homepage": {
-                "following": ""
+                "following": "Seurataan"
             }
         }
     }
