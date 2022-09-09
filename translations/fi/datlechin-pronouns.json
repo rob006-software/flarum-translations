@@ -2,20 +2,20 @@
     "datlechin-pronouns": {
         "admin": {
             "settings": {
-                "prefix_label": "",
-                "prefix_help": "",
-                "icon_label": "",
-                "icon_help": ""
+                "prefix_label": "Pronominien etuliite",
+                "prefix_help": "Tämä teksti näytetään ennen käyttäjänä pronomineja. Jätä tyhjäksi jos ei näytetä mitään.",
+                "icon_label": "Pronominien ikoni",
+                "icon_help": "Ota käyttöön tämä näyttääksesi tekstin sijaan ikonin käyttäjän pronomineista."
             }
         },
         "forum": {
             "change_pronouns": {
-                "title": "",
-                "help": "",
-                "submit_button": ""
+                "title": "Vaihda pronomineja",
+                "help": "Sinun pronominit näkyvät profiilissa ja käyttäjätiedoissa. <a>Mitä ovat pronominit ja miksi ne merkitsevät?</a>",
+                "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
-                "change_pronouns_button": ""
+                "change_pronouns_button": "Vaihda pronomineja"
             }
         }
     }
