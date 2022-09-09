@@ -2,12 +2,12 @@
     "datlechin-title-length": {
         "admin": {
             "settings": {
-                "limit_label": "",
-                "limit_help": "",
-                "min_label": "",
-                "min_help": "",
-                "max_label": "",
-                "max_help": ""
+                "limit_label": "Ota käyttöön otsikon pituuden rajoitus",
+                "limit_help": "Ota käyttöön jos haluat käyttää omaa otsikon pituuden rajoitusta. Jos ei oteta käyttöön käytetään Flarumin omaa oletus pituutta.",
+                "min_label": "Minimi pituus",
+                "min_help": "Otsikon minimi pituus, pienin arvo on 1.",
+                "max_label": "Maksimi pituus",
+                "max_help": "Otsikon maksimi pituus, isoin arvo on 1000."
             }
         }
     }
