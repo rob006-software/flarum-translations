@@ -353,7 +353,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-remove-sidenav/v0.1.0/locale/en.yml',
 	],
 	'datlechin-scroll-buttons' => [
-		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-scroll-buttons/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-scroll-buttons/v1.1.0/locale/en.yml',
 	],
 	'datlechin-signup-button' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-signup-button/v0.1.0/locale/en.yml',
