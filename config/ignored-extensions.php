@@ -16,7 +16,6 @@ return [
 	/*
 	 * dead/private forks
 	 */
-	'akamajoris/fof-upload',
 	'arthurydalgo/ads',
 	'arthurydalgo/online-users',
 	'arthurydalgo/users-list',
