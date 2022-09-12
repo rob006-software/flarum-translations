@@ -1,17 +1,32 @@
 {
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": "Les plus soutenus"
+            }
+        }
+    },
     "blomstra-payments": {
         "forum": {
+            "accept-terms-modal": {
+                "accept_label": "J'ai lu et j'accepte les <link>conditions de paiement</link>.",
+                "continue_button": "Continuer le paiement",
+                "title": "Accepter les conditions"
+            },
             "stripe": {
                 "interval_once": "une fois"
             },
             "subscription-card": {
+                "bounty": "Prime",
                 "ptv": "Payé pour voir",
                 "pta": "Payé pour accéder",
                 "ptb": "Payé pour remonter",
                 "ptp": "Payé pour publier",
                 "cancel-control": "Annuler",
-                "none": "Aucun paiement ou abonnement actif",
-                "bounty": "Prime"
+                "none": "Aucun paiement ou abonnement actif"
+            },
+            "post_stream": {
+                "bounty_added_text": ""
             },
             "pay-to-view": {
                 "purchase-control": "Payer pour voir",
@@ -39,8 +54,10 @@
                 "description": "Sélectionnez votre montant pour soutenir « {subject} » ou choisissez un montant personnalisé."
             },
             "backers-widget": {
+                "backers": "",
                 "label": "{sum} de promesses de dons",
-                "none": "Aucun financeur pour l'instant."
+                "none": "Aucun financeur pour l'instant.",
+                "pledged": ""
             },
             "tag": {
                 "require-payment-label": "Paiement requis"
@@ -63,11 +80,6 @@
                     "min": "Un paiement de {amount} n'est pas autorisé, {min} est le montant le moins élevé possible.",
                     "max": "Un paiement de {amount} n'est pas autorisé, {max} est le montant le plus élevé possible."
                 }
-            },
-            "accept-terms-modal": {
-                "accept_label": "J'ai lu et j'accepte les <link>conditions de paiement</link>.",
-                "continue_button": "Continuer le paiement",
-                "title": "Accepter les conditions"
             }
         },
         "admin": {
@@ -94,17 +106,11 @@
                 "sk": "Clé secrète (API)",
                 "webhook-secret": "Signature secrète du Webhook",
                 "link-access-portal": "Lien vers le portail d'accès sous le menu déroulant de la session de l'utilisateur",
-                "link-to-terms": "URL des conditions de paiement"
+                "link-to-terms": "URL des conditions de paiement",
+                "recount-total-discussion-bounties": ""
             },
             "permission": {
                 "enable-bounties": "Activer les primes"
-            }
-        }
-    },
-    "core": {
-        "forum": {
-            "index_sort": {
-                "mostBacked_button": "Les plus soutenus"
             }
         }
     }

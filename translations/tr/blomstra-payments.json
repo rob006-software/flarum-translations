@@ -1,17 +1,32 @@
 {
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": ""
+            }
+        }
+    },
     "blomstra-payments": {
         "forum": {
+            "accept-terms-modal": {
+                "accept_label": "",
+                "continue_button": "",
+                "title": ""
+            },
             "stripe": {
                 "interval_once": "bir kere"
             },
             "subscription-card": {
+                "bounty": "",
                 "ptv": "Görüntülemek için ödenen",
                 "pta": "Erişmek için ödenen",
                 "ptb": "Yükseltmek için ödenen",
                 "ptp": "Yayınlamak için ödenen",
                 "cancel-control": "İptal",
-                "none": "Ödeme veya aktif abonelik yok",
-                "bounty": ""
+                "none": "Ödeme veya aktif abonelik yok"
+            },
+            "post_stream": {
+                "bounty_added_text": ""
             },
             "pay-to-view": {
                 "purchase-control": "Görüntülemek için Ödeme Yapın",
@@ -39,8 +54,10 @@
                 "description": "\"{subject}\" konusunu desteklemek için tutarınızı seçin veya özel bir miktar seçin."
             },
             "backers-widget": {
+                "backers": "",
                 "label": "{sum} taahhüt etti",
-                "none": "Henüz destekçi yok."
+                "none": "Henüz destekçi yok.",
+                "pledged": ""
             },
             "tag": {
                 "require-payment-label": "Ödeme Gerekiyor"
@@ -63,11 +80,6 @@
                     "min": "{amount} tutarında bir ödemeye izin verilmez, {min} en düşük tutardır.",
                     "max": "{amount} tutarında bir ödemeye izin verilmez, {max} en yüksek tutardır."
                 }
-            },
-            "accept-terms-modal": {
-                "accept_label": "",
-                "continue_button": "",
-                "title": ""
             }
         },
         "admin": {
@@ -94,17 +106,11 @@
                 "sk": "Secret (api) anahtarı",
                 "webhook-secret": "Webhook imzalama secret",
                 "link-access-portal": "Kullanıcı açılır menüsünde erişim portalı için bağlantı",
-                "link-to-terms": ""
+                "link-to-terms": "",
+                "recount-total-discussion-bounties": ""
             },
             "permission": {
                 "enable-bounties": "Ödülleri etkinleştir"
-            }
-        }
-    },
-    "core": {
-        "forum": {
-            "index_sort": {
-                "mostBacked_button": ""
             }
         }
     }

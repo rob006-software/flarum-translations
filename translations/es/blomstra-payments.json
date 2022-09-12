@@ -1,17 +1,32 @@
 {
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": ""
+            }
+        }
+    },
     "blomstra-payments": {
         "forum": {
+            "accept-terms-modal": {
+                "accept_label": "",
+                "continue_button": "",
+                "title": ""
+            },
             "stripe": {
                 "interval_once": ""
             },
             "subscription-card": {
+                "bounty": "",
                 "ptv": "",
                 "pta": "",
                 "ptb": "",
                 "ptp": "",
                 "cancel-control": "",
-                "none": "",
-                "bounty": ""
+                "none": ""
+            },
+            "post_stream": {
+                "bounty_added_text": ""
             },
             "pay-to-view": {
                 "purchase-control": "Pagar para ver",
@@ -39,8 +54,10 @@
                 "description": ""
             },
             "backers-widget": {
+                "backers": "",
                 "label": "",
-                "none": ""
+                "none": "",
+                "pledged": ""
             },
             "tag": {
                 "require-payment-label": "Pago requerido"
@@ -63,11 +80,6 @@
                     "min": "",
                     "max": ""
                 }
-            },
-            "accept-terms-modal": {
-                "accept_label": "",
-                "continue_button": "",
-                "title": ""
             }
         },
         "admin": {
@@ -94,17 +106,11 @@
                 "sk": "Clave secreta (api)",
                 "webhook-secret": "Secreto de firma del webhook",
                 "link-access-portal": "Enlace del portal de acceso en el menú desplegable de la sesión de usuario",
-                "link-to-terms": ""
+                "link-to-terms": "",
+                "recount-total-discussion-bounties": ""
             },
             "permission": {
                 "enable-bounties": ""
-            }
-        }
-    },
-    "core": {
-        "forum": {
-            "index_sort": {
-                "mostBacked_button": ""
             }
         }
     }

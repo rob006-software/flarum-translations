@@ -1,16 +1,32 @@
 {
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": "Most backed"
+            }
+        }
+    },
     "blomstra-payments": {
         "forum": {
+            "accept-terms-modal": {
+                "accept_label": "I have read and accept the <link>payment terms</link>.",
+                "continue_button": "Continue Payment",
+                "title": "Accept Terms"
+            },
             "stripe": {
                 "interval_once": "once"
             },
             "subscription-card": {
+                "bounty": "Bounty",
                 "ptv": "Paid to view",
                 "pta": "Paid to access",
                 "ptb": "Paid to bump",
                 "ptp": "Paid to publish",
                 "cancel-control": "Cancel",
                 "none": "No payments or active subscriptions"
+            },
+            "post_stream": {
+                "bounty_added_text": "{username} added a bounty of {amount}."
             },
             "pay-to-view": {
                 "purchase-control": "Pay to View",
@@ -38,8 +54,10 @@
                 "description": "Select your amount for supporting \"{subject}\" or choose a custom amount."
             },
             "backers-widget": {
-                "label": "{sum} pledged",
-                "none": "No backers yet."
+                "backers": "Backers",
+                "label": "{currency} {sum} pledged",
+                "none": "No backers yet.",
+                "pledged": "Pledged"
             },
             "tag": {
                 "require-payment-label": "Payment Required"
@@ -87,7 +105,9 @@
                 "pk": "Publishable (api) key",
                 "sk": "Secret (api) key",
                 "webhook-secret": "Webhook signing secret",
-                "link-access-portal": "Link access portal under user session dropdown"
+                "link-access-portal": "Link access portal under user session dropdown",
+                "link-to-terms": "Payment Terms URL",
+                "recount-total-discussion-bounties": "Recount total discussion bounties"
             },
             "permission": {
                 "enable-bounties": "Enable bounties"

@@ -1,17 +1,32 @@
 {
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": "Legtöbbet támogatott"
+            }
+        }
+    },
     "blomstra-payments": {
         "forum": {
+            "accept-terms-modal": {
+                "accept_label": "Elolvastam és elfogadom a <link>fizetési feltételeket</link>.",
+                "continue_button": "Fizetés folytatása",
+                "title": "Feltételek elfogadása"
+            },
             "stripe": {
                 "interval_once": "egyszer"
             },
             "subscription-card": {
+                "bounty": "Jutalom",
                 "ptv": "Fizetett a megtekintésért",
                 "pta": "Fizetett a hozzéférésért",
                 "ptb": "Fizetett a kiemelésért",
                 "ptp": "Fizetett a közzétételért",
                 "cancel-control": "Mégse",
-                "none": "Nincsenek fizetések vagy aktív előfizetések",
-                "bounty": "Jutalom"
+                "none": "Nincsenek fizetések vagy aktív előfizetések"
+            },
+            "post_stream": {
+                "bounty_added_text": ""
             },
             "pay-to-view": {
                 "purchase-control": "Fizetés a megtekintéshez",
@@ -39,8 +54,10 @@
                 "description": "Válassza ki a(z) „{subject}” támogatásra szánt összegét vagy adjon meg egyéni összeget."
             },
             "backers-widget": {
+                "backers": "",
                 "label": "{sum} fő támogatta",
-                "none": "Még nincsenek támogatók."
+                "none": "Még nincsenek támogatók.",
+                "pledged": ""
             },
             "tag": {
                 "require-payment-label": "Fizetés szükséges"
@@ -63,11 +80,6 @@
                     "min": "A(z) {amount} összeg nem engedélyezett, {min} a legalacsonyabb összeg.",
                     "max": "A(z) {amount} összeg nem engedélyezett, {max} a legmagasabb összeg."
                 }
-            },
-            "accept-terms-modal": {
-                "accept_label": "Elolvastam és elfogadom a <link>fizetési feltételeket</link>.",
-                "continue_button": "Fizetés folytatása",
-                "title": "Feltételek elfogadása"
             }
         },
         "admin": {
@@ -94,17 +106,11 @@
                 "sk": "Titkos (API) kulcs",
                 "webhook-secret": "Webhook aláírási titka",
                 "link-access-portal": "Hozzáférési portál hivatkozása a felhasználói legördülő menüben",
-                "link-to-terms": "Fizetési feltételek webcíme"
+                "link-to-terms": "Fizetési feltételek webcíme",
+                "recount-total-discussion-bounties": ""
             },
             "permission": {
                 "enable-bounties": "Jutalmak engedélyezése"
-            }
-        }
-    },
-    "core": {
-        "forum": {
-            "index_sort": {
-                "mostBacked_button": "Legtöbbet támogatott"
             }
         }
     }

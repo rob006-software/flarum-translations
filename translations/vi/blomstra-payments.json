@@ -1,17 +1,32 @@
 {
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": "Được ủng hộ nhiều nhất"
+            }
+        }
+    },
     "blomstra-payments": {
         "forum": {
+            "accept-terms-modal": {
+                "accept_label": "Tôi đã đọc và chấp nhận <link>điều khoản thanh toán</link>.",
+                "continue_button": "Tiếp tục thanh toán",
+                "title": "Chấp nhận điều khoản"
+            },
             "stripe": {
                 "interval_once": "một lần"
             },
             "subscription-card": {
+                "bounty": "Tiền thưởng",
                 "ptv": "Thanh toán để xem",
                 "pta": "Thanh toán để truy cập",
                 "ptb": "Thanh toán để va chạm",
                 "ptp": "Thanh toán để xuất bản",
                 "cancel-control": "Hủy bỏ",
-                "none": "Không có thanh toán hoặc đăng ký đang hoạt động",
-                "bounty": "Tiền thưởng"
+                "none": "Không có thanh toán hoặc đăng ký đang hoạt động"
+            },
+            "post_stream": {
+                "bounty_added_text": ""
             },
             "pay-to-view": {
                 "purchase-control": "Thanh toán để xem",
@@ -39,8 +54,10 @@
                 "description": "Chọn số tiền của bạn để hỗ trợ \"{subject}\" hoặc chọn số tiền tùy chỉnh."
             },
             "backers-widget": {
+                "backers": "",
                 "label": "Đã cam kết {sum}",
-                "none": "Chưa có người ủng hộ."
+                "none": "Chưa có người ủng hộ.",
+                "pledged": ""
             },
             "tag": {
                 "require-payment-label": "Yêu cầu thanh toán"
@@ -63,11 +80,6 @@
                     "min": "Không được phép thanh toán {amount}, {min} là số tiền thấp nhất.",
                     "max": "Không được phép thanh toán {amount}, {max} là số tiền cao nhất."
                 }
-            },
-            "accept-terms-modal": {
-                "accept_label": "Tôi đã đọc và chấp nhận <link>điều khoản thanh toán</link>.",
-                "continue_button": "Tiếp tục thanh toán",
-                "title": "Chấp nhận điều khoản"
             }
         },
         "admin": {
@@ -94,17 +106,11 @@
                 "sk": "Mã khoá bí mật (api)",
                 "webhook-secret": "Mã bí mật Webhook",
                 "link-access-portal": "Liên kết cổng truy cập trong dropdown phiên người dùng",
-                "link-to-terms": "URL điều khoản thanh toán"
+                "link-to-terms": "URL điều khoản thanh toán",
+                "recount-total-discussion-bounties": ""
             },
             "permission": {
                 "enable-bounties": "Bật tiền thưởng"
-            }
-        }
-    },
-    "core": {
-        "forum": {
-            "index_sort": {
-                "mostBacked_button": "Được ủng hộ nhiều nhất"
             }
         }
     }
