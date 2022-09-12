@@ -60,6 +60,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `akamajoris-fof-upload` | [![#879 (closed)](https://img.shields.io/badge/PR-%23879-red)](https://github.com/rob006-software/flarum-translations/pull/879) |
+There are no dead branches.
