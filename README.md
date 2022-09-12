@@ -473,6 +473,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`afrux-online-users-widget`](https://weblate.rob006.net/projects/flarum/afrux-online-users-widget) | [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget) |
 | [`afrux-top-posters-widget`](https://weblate.rob006.net/projects/flarum/afrux-top-posters-widget) | [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget) |
 | [`akr-chevereto`](https://weblate.rob006.net/projects/flarum/akr-chevereto) | [`akr/chevereto`](https://github.com/AKR-Developers/flarum-chevereto) |
+| [`annonny-dice`](https://weblate.rob006.net/projects/flarum/annonny-dice) | [`annonny/flarum-dice`](https://github.com/mizhiyugan529/flarum-dice) |
 | [`antoinefr-money`](https://weblate.rob006.net/projects/flarum/antoinefr-money) | [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) |
 | [`antoinefr-online`](https://weblate.rob006.net/projects/flarum/antoinefr-online) | [`antoinefr/flarum-ext-online`](https://github.com/AntoineFr/flarum-ext-online) |
 | [`archlinux-de-click-image`](https://weblate.rob006.net/projects/flarum/archlinux-de-click-image) | [`archlinux-de/flarum-click-image`](https://github.com/archlinux-de/flarum-click-image) |
