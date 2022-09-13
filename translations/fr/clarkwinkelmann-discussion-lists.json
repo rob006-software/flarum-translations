@@ -2,67 +2,67 @@
     "clarkwinkelmann-discussion-lists": {
         "admin": {
             "settings": {
-                "collapseSeries": ""
+                "collapseSeries": "Réduire l'index des séries par défaut"
             },
             "permissions": {
-                "viewPublic": "",
-                "createPrivate": "",
-                "createPublic": "",
-                "createSeriesFromOwn": "",
-                "createSeriesFromAny": "",
-                "moderate": "",
-                "viewPrivate": ""
+                "viewPublic": "Afficher les listes des discussion publiques",
+                "createPrivate": "Créer des listes de discussion privées",
+                "createPublic": "Créer des listes de discussion publiques",
+                "createSeriesFromOwn": "Créer des séries de discussions avec son propre contenu",
+                "createSeriesFromAny": "Créez des séries de discussions avec du contenu provenant de n'importe quel utilisateur",
+                "moderate": "Modifier et supprimer toute liste de discussions",
+                "viewPrivate": "Voir toutes les listes de discussions privées"
             }
         },
         "forum": {
             "edit": {
-                "title": "",
-                "name": "",
-                "visibility": "",
+                "title": "Modifier la liste",
+                "name": "Nom",
+                "visibility": "Visibilité",
                 "visibilityOptions": {
-                    "private": "",
-                    "public": "",
-                    "series": ""
+                    "private": "Liste privée",
+                    "public": "Liste publique",
+                    "series": "Série publique"
                 },
-                "ordering": "",
+                "ordering": "Ordre",
                 "orderingOptions": {
-                    "manual": "",
-                    "createdAsc": "",
-                    "createdDesc": "",
-                    "addedAsc": "",
-                    "addedDesc": ""
+                    "manual": "Manuel",
+                    "createdAsc": "Création des discussions (de la plus ancienne à la plus récente)",
+                    "createdDesc": "Création des discussions (de la plus récente à la plus ancienne)",
+                    "addedAsc": "Ajout à la liste (de la moins récente à la plus récente)",
+                    "addedDesc": "Ajout à la liste (de la plus récente à la moins récente)"
                 },
-                "save": "",
-                "delete": "",
-                "deleteConfirmation": ""
+                "save": "Enregistrer",
+                "delete": "Supprimer",
+                "deleteConfirmation": "Souhaitez-vous vraiment supprimer définitivement cette liste ?"
             },
             "discussion": {
-                "add": "",
-                "new": ""
+                "add": "Ajouter à la liste",
+                "new": "Nouvelle liste"
             },
             "profile": {
-                "link": ""
+                "link": "Listes"
             },
             "badge": {
-                "private": "",
-                "series": ""
+                "private": "Liste privée",
+                "series": "Série publique"
             },
             "series": {
-                "kind": "",
-                "expand": "",
-                "visit": ""
+                "kind": "Série",
+                "expand": "Développer",
+                "visit": "Tout afficher"
             }
         },
         "api": {
-            "manualLimit": "",
-            "seriesAnyAddNotAllowed": "",
-            "seriesAnyConversionNotAllowed": ""
+            "manualLimit": "Les listes triées manuellement ne peuvent pas contenir plus de 50 discussions",
+            "seriesAnyAddNotAllowed": "Vous ne pouvez ajouter que vos propres discussions à une liste de séries",
+            "seriesAnyConversionNotAllowed": "Impossible de convertir la liste en série car elle contient des discussions qui ne sont pas les vôtres"
         }
     },
     "core": {
         "forum": {
             "index_sort": {
-                "discussionListDefault_button": ""
+                "discussionListDefault_button": "Ordre dans la liste"
             }
         }
     }
