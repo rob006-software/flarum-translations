@@ -1,1 +1,29 @@
-{}
+{
+    "announcement": {
+        "to-update": "Führe folgende Befehle aus um zu aktualisieren:",
+        "major-warning": "Diese Version entfernt die Unterstützung für ältere Versionen von Flarum und einige veraltete Erweiterungen. Vergewissere dich vor dem Update, dass du die neuesten Versionen von Flarum und Erweiterungen verwendest.",
+        "version": "Version {version}"
+    },
+    "readme": {
+        "status-table": {
+            "header-status": "Status",
+            "label-translation-status": "Status der Übersetzung",
+            "header-extension": "Erweiterung"
+        }
+    },
+    "changelog": {
+        "updated-file": "`{file}` aktualisiert",
+        "updated-config-css": "CSS aktualisiert",
+        "cleaned-validation": "Veraltete Validation Übersetzungen entfernt (Version `{version}` oder höher wird unterstützt)",
+        "extensions-added": "Unterstützung für neue Erweiterungen hinzugefügt",
+        "updated-validation": "Validation Übersetzungen aktualisiert",
+        "extensions-removed": "Unterstützung für veraltete Erweiterungen entfernt",
+        "updated-core": "Flarum-Core Übersetzungen aktualisiert",
+        "cleaned-core": "Veraltete Flarum-Core Übersetzungen entfernt (Version `{version}` oder höher wird unterstützt)",
+        "general-changes": "Allgemeine Änderungen",
+        "updated-config-js": "Day.js Übersetzungen aktualisiert",
+        "extensions-cleaned": "Übersetzungen für Erweiterungen aktualisiert und/oder veraltete Übersetzungen entfernt",
+        "all-changes": "Alle Änderungen: {link}.",
+        "extensions-updated": "Übersetzungen für Erweiterungen aktualisiert"
+    }
+}
