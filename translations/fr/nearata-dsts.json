@@ -7,18 +7,18 @@
                 "can_bypass_login": "Peut contourner la connexion"
             },
             "settings": {
-                "hide_only_first_post": "",
-                "hide_only_first_post_help": "",
+                "hide_only_first_post": "Masquer uniquement le premier message",
+                "hide_only_first_post_help": "Cette option est remplacée par du BBCode.",
                 "require_like": "Exiger d'aimer",
-                "require_like_help": "Note : nécessite l'extension Likes de Flarum.",
+                "require_like_help": "Nécessite l'extension <strong>flarum/likes</strong>.",
                 "require_reply": "Exiger de répondre",
-                "hide_only_files": "",
-                "hide_only_files_help": "",
+                "hide_only_files": "Masquer uniquement les fichiers",
+                "hide_only_files_help": "Nécessite l'extension <strong>fof/upload</strong>.",
                 "fof_upload": {
-                    "section_title": "",
-                    "require_like": "",
-                    "require_like_help": "",
-                    "require_reply": ""
+                    "section_title": "Upload de FoF",
+                    "require_like": "Nécessite d'aimer",
+                    "require_like_help": "Nécessite l'extension <strong>flarum/likes</strong>.",
+                    "require_reply": "Nécessite de répondre"
                 }
             }
         },
@@ -27,11 +27,11 @@
             "login": "Vous devez vous connecter pour voir le contenu.",
             "reply": "Vous devez répondre à la discussion pour en voir le contenu.",
             "fof_upload": {
-                "like": "",
-                "login": "",
-                "reply": ""
+                "like": "Vous devez aimer pour voir le fichier.",
+                "login": "Vous devez vous connecter pour voir le fichier.",
+                "reply": "Vous devez répondre pour voir le fichier."
             },
-            "button": ""
+            "button": "DSTS"
         }
     }
 }
