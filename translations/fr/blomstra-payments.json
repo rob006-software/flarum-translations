@@ -2,7 +2,7 @@
     "core": {
         "forum": {
             "index_sort": {
-                "mostBacked_button": "Les plus soutenus"
+                "mostBacked_button": "Les plus financés"
             }
         }
     },
@@ -26,7 +26,7 @@
                 "none": "Aucun paiement ou abonnement actif"
             },
             "post_stream": {
-                "bounty_added_text": ""
+                "bounty_added_text": "{username} a ajouté une prime de {amount}."
             },
             "pay-to-view": {
                 "purchase-control": "Payer pour voir",
@@ -54,10 +54,10 @@
                 "description": "Sélectionnez votre montant pour soutenir « {subject} » ou choisissez un montant personnalisé."
             },
             "backers-widget": {
-                "backers": "",
-                "label": "{sum} de promesses de dons",
+                "backers": "Financeurs",
+                "label": "{sum} {currency} de promesses de dons",
                 "none": "Aucun financeur pour l'instant.",
-                "pledged": ""
+                "pledged": "Promis"
             },
             "tag": {
                 "require-payment-label": "Paiement requis"
@@ -107,7 +107,7 @@
                 "webhook-secret": "Signature secrète du Webhook",
                 "link-access-portal": "Lien vers le portail d'accès sous le menu déroulant de la session de l'utilisateur",
                 "link-to-terms": "URL des conditions de paiement",
-                "recount-total-discussion-bounties": ""
+                "recount-total-discussion-bounties": "Recompter le total des primes de discussion"
             },
             "permission": {
                 "enable-bounties": "Activer les primes"
