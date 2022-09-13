@@ -249,8 +249,8 @@
                 "total_users": "Käyttäjiä yhteensä: {count}"
             },
             "debug-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "Kun <code>debug</code> tila on aktiivisena Flarum luo uudelleen sen <code>JavaScript</code> ja <code>CSS</code> koodit joka pyynnöllä ja voi mahdollisesti vuotaa joitain tietoja kuten tietokanta salaisuuksia, ympäristön määreitä yms.\n\nSuosittelemme, että otat <code>debug</code> tilan pois päältä <code>config.php</code> tiedostosta tuotannossa. Katso <link>Flarumin dokumentoinnista</link> lisää tietoa.\n",
+                "label": "Debug tila aktiivisena"
             }
         },
         "forum": {
@@ -375,8 +375,8 @@
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Näytä ilmoitukset",
                 "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "delete_all_confirm": "Haluatko varmasti poistaa kaikki ilmoitukset? Tätä ei voi perua",
+                "delete_all_tooltip": "Poista kaikki ilmoitukset"
             },
             "post": {
                 "edited_text": "Muokattu",
@@ -425,7 +425,7 @@
                 "privacy_disclose_online_label": "Näytä muille, että olen paikalla",
                 "privacy_heading": "Yksityisyys",
                 "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": ""
+                "notification_checkbox_a11y_label_template": "Vastaanota \"{description}\" ilmoituksia {method} kautta"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
