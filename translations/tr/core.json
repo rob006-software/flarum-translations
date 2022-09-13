@@ -22,8 +22,8 @@
                 "logo_heading": "Logo",
                 "logo_text": "Forum başlığının yerine görüntülenecek bir görsel yükle.",
                 "title": "Görünüm",
-                "colors_primary_label": "",
-                "colors_secondary_label": ""
+                "colors_primary_label": "Birincil Renk",
+                "colors_secondary_label": "İkincil Renk"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -48,7 +48,7 @@
                 "description": "Bir bakışta forumun.",
                 "title": "Gösterge Paneli",
                 "tools_button": "Araçlar",
-                "io_error_message": ""
+                "io_error_message": "Dosya sistemine yazılamadı. Dosya sistemi izinlerinizi kontrol edin ve tekrar deneyin veya komut satırından çalıştırmayı deneyin."
             },
             "edit_css": {
                 "customize_text": "Forumununun görünümünü, Flarum'un <a> varsayılan stillerine </a> uygulanacak kendi Less/CSS kodunu ekleyerek özelleştir.",
@@ -249,8 +249,8 @@
                 "total_users": "Toplam kullanıcılar: {count}"
             },
             "debug-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "<code>debug</code> modu etkin olduğunda, Flarum her istekte <code>JavaScript</code> ve <code>CSS</code> varlıklarını yeniden oluşturur ve ayrıca veritabanı gibi diğer bilgileri de (Secret, ortam değişkenleri vb.) sızdırabilir.\n\nYayındayken <code>config.php</code> dosyanızdaki <code>debug</code>'u devre dışı bırakmanız şiddetle tavsiye edilir. Daha fazla bilgi için <link>Flarum belgelerine</link> bakın.\n",
+                "label": "Hata ayıklama modu etkin"
             }
         },
         "forum": {
@@ -375,8 +375,8 @@
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Bildirimleri görüntüle",
                 "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "delete_all_confirm": "Tüm bildirimleri silmek istediğinizden emin misiniz? Bu eylem geri alınamaz",
+                "delete_all_tooltip": "Tüm bildirimleri sil"
             },
             "post": {
                 "edited_text": "Düzenlendi",
@@ -425,7 +425,7 @@
                 "privacy_disclose_online_label": "Çevrimiçi olduğumda başkalarının görmesine izin ver",
                 "privacy_heading": "Gizlilik",
                 "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": ""
+                "notification_checkbox_a11y_label_template": "{method} aracılığıyla \"{description}\" bildirimleri alın"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
