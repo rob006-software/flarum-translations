@@ -3,27 +3,27 @@
         "admin": {
             "settings": {
                 "minecraft_server": {
-                    "label": "",
-                    "help": ""
+                    "label": "Adresse IP du serveur Minecraft",
+                    "help": "Exemple : mondomaine.tld"
                 },
                 "api_url": {
-                    "label": "",
-                    "help": ""
+                    "label": "URL de l'API",
+                    "help": "Exemple : http://localhost:4567/verify"
                 },
                 "api_secret": {
-                    "label": "",
-                    "help": ""
+                    "label": "Clé secrète de l'API",
+                    "help": "Peut être trouvée dans <strong>Plugins/OAuth/config.json</strong>"
                 }
             }
         },
         "forum": {
-            "login_error": "",
+            "login_error": "La session n'a pas démarré ou a expiré.",
             "log_in_modal": {
                 "submit_button": "Valider",
                 "title": "Se connecter avec Minecraft"
             },
             "log_in_button_title": "Se connecter avec Minecraft",
-            "modal_help": "",
+            "modal_help": "Rejoignez le serveur <strong>{server}</strong> puis cliquez sur le bouton ci-dessous.",
             "change_email_modal": {
                 "confirmation_message": "Nous avons envoyé un courriel de confirmation à {email}. S'il n'arrive pas bientôt, vérifiez votre dossier des courriels indésirables.",
                 "dismiss_button": "OK",
