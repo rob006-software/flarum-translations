@@ -21,7 +21,9 @@
                 "favicon_text": "Otpremite sliku koja će biti prikazana kao ikonica foruma.",
                 "logo_heading": "Logotip",
                 "logo_text": "Otpremite sliku koja će biti prikazana umesto naziva foruma.",
-                "title": "Izgled"
+                "title": "Izgled",
+                "colors_primary_label": "",
+                "colors_secondary_label": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -45,7 +47,8 @@
                 "clear_cache_button": "Obriši keš",
                 "description": "Pogled na statistiku foruma.",
                 "title": "Kontrolna tabla",
-                "tools_button": "Alati"
+                "tools_button": "Alati",
+                "io_error_message": ""
             },
             "edit_css": {
                 "customize_text": "Prilagodite izgled svog foruma dodavanjem sopstvenog Less/CSS koda koji će se primeniti povrh Flarumovih <a>podrazumevanih stilova</a>.",
@@ -244,6 +247,10 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Ukupno članova: {count}"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             }
         },
         "forum": {
@@ -367,7 +374,9 @@
                 "mark_as_read_tooltip": "Označite kao pročitano",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Pogledajte obaveštenja",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_confirm": "",
+                "delete_all_tooltip": ""
             },
             "post": {
                 "edited_text": "Izmenjeno",
@@ -415,7 +424,8 @@
                 "notify_discussion_renamed_label": "Ako neko preimenuje diskusiju koju sam započeo",
                 "privacy_disclose_online_label": "Dozvoli drugima da vide kada sam online",
                 "privacy_heading": "Privatnost",
-                "title": "=> core.ref.settings"
+                "title": "=> core.ref.settings",
+                "notification_checkbox_a11y_label_template": ""
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

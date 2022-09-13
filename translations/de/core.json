@@ -21,7 +21,9 @@
                 "favicon_text": "Lade ein Bild hoch, welches als Favicon für das Forum verwendet wird.",
                 "logo_heading": "Logo",
                 "logo_text": "Lade ein Logo hoch, welches anstelle des Forum-Titels angezeigt wird.",
-                "title": "Erscheinungsbild"
+                "title": "Erscheinungsbild",
+                "colors_primary_label": "",
+                "colors_secondary_label": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -45,7 +47,8 @@
                 "clear_cache_button": "Cache leeren",
                 "description": "Dein Forum auf einen Blick.",
                 "title": "Dashboard",
-                "tools_button": "Werkzeuge"
+                "tools_button": "Werkzeuge",
+                "io_error_message": ""
             },
             "edit_css": {
                 "customize_text": "Passe das Aussehen deines Forums mit eigenem Less/CSS-Code an, welcher zusätzlich zu Flarums <a>Standard-Design</a> angewendet wird.",
@@ -244,6 +247,10 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Benutzer insgesamt: {count}"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             }
         },
         "forum": {
@@ -367,7 +374,9 @@
                 "mark_as_read_tooltip": "Als gelesen markieren",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Benachrichtigungen anzeigen",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_confirm": "",
+                "delete_all_tooltip": ""
             },
             "post": {
                 "edited_text": "Bearbeitet",
@@ -415,7 +424,8 @@
                 "notify_discussion_renamed_label": "Wenn jemand eine Diskussion ändert, die ich gestartet habe",
                 "privacy_disclose_online_label": "Meinen Online-Status anzeigen",
                 "privacy_heading": "Privatsphäre",
-                "title": "=> core.ref.settings"
+                "title": "=> core.ref.settings",
+                "notification_checkbox_a11y_label_template": ""
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

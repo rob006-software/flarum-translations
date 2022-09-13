@@ -21,7 +21,9 @@
                 "favicon_text": "Laadi üles pilt, mida näidatakse foorumi otsetee ikoonil.",
                 "logo_heading": "Logo",
                 "logo_text": "Laadi üles pilt, mida näidatakse foorumi pealkirja asemel.",
-                "title": "Välimus"
+                "title": "Välimus",
+                "colors_primary_label": "",
+                "colors_secondary_label": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -45,7 +47,8 @@
                 "clear_cache_button": "Puhasta vahemälu",
                 "description": "Foorumi ülevaade.",
                 "title": "Juhtpaneel",
-                "tools_button": "Tööriistad"
+                "tools_button": "Tööriistad",
+                "io_error_message": ""
             },
             "edit_css": {
                 "customize_text": "Kohanda oma foorumi välimust enda Less/CSS koodi abil, mida kasutatakse lisaks Flarumi <a>vaikimisi stiilidele</a>.",
@@ -244,6 +247,10 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Kokku kasutajaid: {count}"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             }
         },
         "forum": {
@@ -367,7 +374,9 @@
                 "mark_as_read_tooltip": "Märgi loetuks",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Näita teateid",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_confirm": "",
+                "delete_all_tooltip": ""
             },
             "post": {
                 "edited_text": "Muudetud",
@@ -415,7 +424,8 @@
                 "notify_discussion_renamed_label": "Keegi nimetab minu alustatud teema ringi",
                 "privacy_disclose_online_label": "Näita teistele, kui ma olen lehel sees",
                 "privacy_heading": "Privaatsus",
-                "title": "=> core.ref.settings"
+                "title": "=> core.ref.settings",
+                "notification_checkbox_a11y_label_template": ""
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

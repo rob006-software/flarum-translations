@@ -21,7 +21,9 @@
                 "favicon_text": "Carica un'immagine da utilizzare come favicon del sito.",
                 "logo_heading": "Logo",
                 "logo_text": "Carica un'immagine da utilizzare al posto del nome del forum.",
-                "title": "Aspetto"
+                "title": "Aspetto",
+                "colors_primary_label": "",
+                "colors_secondary_label": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -45,7 +47,8 @@
                 "clear_cache_button": "Pulisci cache",
                 "description": "Il tuo forum a colpo d'occhio.",
                 "title": "Dashboard",
-                "tools_button": "Strumenti"
+                "tools_button": "Strumenti",
+                "io_error_message": ""
             },
             "edit_css": {
                 "customize_text": "Personalizza l'aspetto del tuo forum aggiungendo codice LESS/CSS da applicare sulla parte superiore degli <a>stili predefiniti</a> di Flarum.",
@@ -244,6 +247,10 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Utenti totali: {count}"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             }
         },
         "forum": {
@@ -367,7 +374,9 @@
                 "mark_as_read_tooltip": "Segna come letto",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Vedi notifiche",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_confirm": "",
+                "delete_all_tooltip": ""
             },
             "post": {
                 "edited_text": "Modificato",
@@ -415,7 +424,8 @@
                 "notify_discussion_renamed_label": "Qualcuno ha modificato una discussione che ho iniziato",
                 "privacy_disclose_online_label": "Permetti agli altri utenti di vedere quando sono online",
                 "privacy_heading": "Privacy",
-                "title": "=> core.ref.settings"
+                "title": "=> core.ref.settings",
+                "notification_checkbox_a11y_label_template": ""
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

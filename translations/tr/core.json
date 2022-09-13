@@ -21,7 +21,9 @@
                 "favicon_text": "Forumun kısayol simgesi olarak görüntülenecek bir görsel yükleyin.",
                 "logo_heading": "Logo",
                 "logo_text": "Forum başlığının yerine görüntülenecek bir görsel yükle.",
-                "title": "Görünüm"
+                "title": "Görünüm",
+                "colors_primary_label": "",
+                "colors_secondary_label": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -45,7 +47,8 @@
                 "clear_cache_button": "Önbelleği Temizle",
                 "description": "Bir bakışta forumun.",
                 "title": "Gösterge Paneli",
-                "tools_button": "Araçlar"
+                "tools_button": "Araçlar",
+                "io_error_message": ""
             },
             "edit_css": {
                 "customize_text": "Forumununun görünümünü, Flarum'un <a> varsayılan stillerine </a> uygulanacak kendi Less/CSS kodunu ekleyerek özelleştir.",
@@ -244,6 +247,10 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Toplam kullanıcılar: {count}"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             }
         },
         "forum": {
@@ -367,7 +374,9 @@
                 "mark_as_read_tooltip": "Okundu Olarak İşaretle",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Bildirimleri görüntüle",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_confirm": "",
+                "delete_all_tooltip": ""
             },
             "post": {
                 "edited_text": "Düzenlendi",
@@ -415,7 +424,8 @@
                 "notify_discussion_renamed_label": "Birisi başlattığım bir tartışmayı yeniden adlandırdığında",
                 "privacy_disclose_online_label": "Çevrimiçi olduğumda başkalarının görmesine izin ver",
                 "privacy_heading": "Gizlilik",
-                "title": "=> core.ref.settings"
+                "title": "=> core.ref.settings",
+                "notification_checkbox_a11y_label_template": ""
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

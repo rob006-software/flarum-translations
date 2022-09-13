@@ -21,7 +21,9 @@
                 "favicon_text": "ফোরাম এর Shortcut আইকন হিসেবে ব্যবহার করার জন্য একটি ইমেজ আপলোড করুন ।",
                 "logo_heading": "লোগো",
                 "logo_text": "ফোরাম title এর জায়গায় প্রদর্শিত হওয়ার জন্য একটি ইমেজ আপলোড করুন ।",
-                "title": "অ্যাপিয়ারেন্স"
+                "title": "অ্যাপিয়ারেন্স",
+                "colors_primary_label": "",
+                "colors_secondary_label": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -45,7 +47,8 @@
                 "clear_cache_button": "Cache ক্লিয়ার করুন",
                 "description": "একনজরে আপনার ফোরাম।",
                 "title": "ড্যাশবোর্ড",
-                "tools_button": "টুলস"
+                "tools_button": "টুলস",
+                "io_error_message": ""
             },
             "edit_css": {
                 "customize_text": "আপনার নিজস্ব সিএসএস কোড অ্যাড করে ফোরামের অ্যাপিয়ারেন্স কাস্টমাইজ করুন। এই কোড গুলো ফ্লারাম এর <a>ডিফল্ট স্টাইল কোড</a>এর উপর প্রয়োগ হবে।",
@@ -242,6 +245,10 @@
                 },
                 "title": "",
                 "total_users": ""
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             }
         },
         "forum": {
@@ -364,7 +371,9 @@
                 "mark_as_read_tooltip": "",
                 "title": "",
                 "toggle_dropdown_accessible_label": "",
-                "tooltip": ""
+                "tooltip": "",
+                "delete_all_confirm": "",
+                "delete_all_tooltip": ""
             },
             "post": {
                 "edited_text": "",
@@ -412,7 +421,8 @@
                 "notify_discussion_renamed_label": "",
                 "privacy_disclose_online_label": "",
                 "privacy_heading": "",
-                "title": ""
+                "title": "",
+                "notification_checkbox_a11y_label_template": ""
             },
             "sign_up": {
                 "dismiss_button": "",

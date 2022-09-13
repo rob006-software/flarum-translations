@@ -22,6 +22,8 @@
                 "logo_heading": "Logó",
                 "logo_text": "Kép feltöltése, mely a fórumcím helyett fog megjelenni.",
                 "title": "Megjelenés",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
@@ -48,7 +50,8 @@
                 "clear_cache_button": "Gyorsítótár törlése",
                 "description": "Fórum összefoglalása.",
                 "title": "Vezérlőpult",
-                "tools_button": "Eszközök"
+                "tools_button": "Eszközök",
+                "io_error_message": ""
             },
             "edit_css": {
                 "customize_text": "Szabja testre a fórum kinézetét saját LESS/CSS kód hozzáadásával, amellyel felülírhatja a Flarum <a>alapértelmezett stílusait</a>.",
@@ -266,6 +269,10 @@
                 "title": "=> core.ref.users",
                 "total_users": "Felhasználók száma: {count}"
             },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
+            },
             "add_extension": {
                 "developer_text": "Ha fejlesztő vagy, bátran olvasd el <a>dokumentációnkat</a> és készítsd el a saját kiegészítődet.",
                 "install_text": "Addig is a <a>Flarum Community oldalán</a> kereshetsz és telepíthetsz is kiegészítőket (manuálisan, a Composer segítségével).",
@@ -399,7 +406,9 @@
                 "mark_as_read_tooltip": "Megjelölés olvasottként",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Értesítések megtekintése",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_confirm": "",
+                "delete_all_tooltip": ""
             },
             "post": {
                 "edited_text": "Szerkesztve",
@@ -447,7 +456,8 @@
                 "notify_discussion_renamed_label": "Valaki átnevezte az Ön által indított témát",
                 "privacy_disclose_online_label": "Láthatják mások, ha online vagyok",
                 "privacy_heading": "Adatvédelem",
-                "title": "=> core.ref.settings"
+                "title": "=> core.ref.settings",
+                "notification_checkbox_a11y_label_template": ""
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

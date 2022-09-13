@@ -22,6 +22,8 @@
                 "logo_heading": "Logo",
                 "logo_text": "Nahraj obrázek, který se zobrazí na místě názvu tvého fóra.",
                 "title": "Vzhled",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
@@ -48,7 +50,8 @@
                 "clear_cache_button": "Vymazat mezipaměť",
                 "description": "Přehled vašeho fóra.",
                 "title": "Nástěnka",
-                "tools_button": "Nástroje"
+                "tools_button": "Nástroje",
+                "io_error_message": ""
             },
             "edit_css": {
                 "customize_text": "Uprav si vzhled svého fóra přidáním vlastního LESS/CSS kódu, který bude použit nad <a>defaultními Flarum styly</a>.",
@@ -251,6 +254,10 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Celkový počet uživatelů: {count}"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             }
         },
         "forum": {
@@ -374,7 +381,9 @@
                 "mark_as_read_tooltip": "Označit jako přečteno",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Zobrazit oznámení",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_confirm": "",
+                "delete_all_tooltip": ""
             },
             "post": {
                 "edited_text": "Upraveno",
@@ -422,7 +431,8 @@
                 "notify_discussion_renamed_label": "Někdo přejmenuje téma, které jsem založil",
                 "privacy_disclose_online_label": "Umožnit ostatním uživatelům vidět, že jsem on-line",
                 "privacy_heading": "Soukromí",
-                "title": "=> core.ref.settings"
+                "title": "=> core.ref.settings",
+                "notification_checkbox_a11y_label_template": ""
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

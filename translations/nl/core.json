@@ -21,7 +21,9 @@
                 "favicon_text": "Upload een afbeelding om weergegeven te worden als snelkoppeling.",
                 "logo_heading": "Logo",
                 "logo_text": "Upload een afbeelding om weergegeven te worden i.p.v. de forum titel.",
-                "title": "Vormgeving"
+                "title": "Vormgeving",
+                "colors_primary_label": "",
+                "colors_secondary_label": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -45,7 +47,8 @@
                 "clear_cache_button": "Cache wissen",
                 "description": "Uw forum in één oogopslag.",
                 "title": "Dashboard",
-                "tools_button": "Hulpmiddelen"
+                "tools_button": "Hulpmiddelen",
+                "io_error_message": ""
             },
             "edit_css": {
                 "customize_text": "Pas je forum's uiterlijk aan doormiddel van eigen LESS/CSS code bovenop Flarum's <a>standaard stijl</a>.",
@@ -244,6 +247,10 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Aantal gebruikers: {count}"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             }
         },
         "forum": {
@@ -367,7 +374,9 @@
                 "mark_as_read_tooltip": "Markeren als gelezen",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Bekijk meldingen",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_confirm": "",
+                "delete_all_tooltip": ""
             },
             "post": {
                 "edited_text": "Bijgewerkt",
@@ -415,7 +424,8 @@
                 "notify_discussion_renamed_label": "Iemand heeft een discussie die jij hebt gestart hernoemd",
                 "privacy_disclose_online_label": "Laat anderen zien wanneer ik online ben",
                 "privacy_heading": "Privacy",
-                "title": "=> core.ref.settings"
+                "title": "=> core.ref.settings",
+                "notification_checkbox_a11y_label_template": ""
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

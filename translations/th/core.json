@@ -21,7 +21,9 @@
                 "favicon_text": "อัพโหลดภาพขอบคุณเพื่อจะเเสดงในส่วนไอคอนลัด",
                 "logo_heading": "โลโก้",
                 "logo_text": "อัพโหลดภาพที่จะเเสดงในส่วนชื่อของฟอรั่ม",
-                "title": "การเเสดงผล"
+                "title": "การเเสดงผล",
+                "colors_primary_label": "",
+                "colors_secondary_label": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -45,7 +47,8 @@
                 "clear_cache_button": "ล้างเเคช",
                 "description": "Your forum at a glance.",
                 "title": "Dashboard",
-                "tools_button": "Tools"
+                "tools_button": "Tools",
+                "io_error_message": ""
             },
             "edit_css": {
                 "customize_text": "Customize your forum's appearance by adding your own Less/CSS code to be applied on top of Flarum's <a>default styles</a>.",
@@ -244,6 +247,10 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "ผู้ใช้ทั้งหมด: {count}"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             }
         },
         "forum": {
@@ -367,7 +374,9 @@
                 "mark_as_read_tooltip": "ทำเครื่องหมายว่าอ่านแล้ว",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "ดูการแจ้งเตือน",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_confirm": "",
+                "delete_all_tooltip": ""
             },
             "post": {
                 "edited_text": "แก้ไขแล้ว",
@@ -415,7 +424,8 @@
                 "notify_discussion_renamed_label": "เมื่อมีคนเปลี่ยนชื่อกระทู้ของฉัน",
                 "privacy_disclose_online_label": "อนุญาตให้คนอื่นเห็นเมื่อฉันออนไลน์",
                 "privacy_heading": "ความเป็นส่วนตัว",
-                "title": "=> core.ref.settings"
+                "title": "=> core.ref.settings",
+                "notification_checkbox_a11y_label_template": ""
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

@@ -21,7 +21,9 @@
                 "favicon_text": "Upload an image to be displayed as the forum's shortcut icon.",
                 "logo_heading": "Logo",
                 "logo_text": "Upload an image to be displayed in place of the forum title.",
-                "title": "Appearance"
+                "title": "Appearance",
+                "colors_primary_label": "Primary Color",
+                "colors_secondary_label": "Secondary Color"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -45,7 +47,8 @@
                 "clear_cache_button": "Clear Cache",
                 "description": "Your forum at a glance.",
                 "title": "Dashboard",
-                "tools_button": "Tools"
+                "tools_button": "Tools",
+                "io_error_message": "Could not write to filesystem. Check your filesystem permissions and try again. Or try running from the command line."
             },
             "edit_css": {
                 "customize_text": "Customize your forum's appearance by adding your own Less/CSS code to be applied on top of Flarum's <a>default styles</a>.",
@@ -242,6 +245,10 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Total users: {count}"
+            },
+            "debug-warning": {
+                "detail": "When <code>debug</code> mode is active, Flarum will rebuild its <code>JavaScript</code> and <code>CSS</code> assets on every request, and could also potentially leak other information, such as database secrets, environment variables, etc.\n\nIt is highly recommended to disable <code>debug</code> in your <code>config.php</code> file in production. See <link>Flarum docs</link> for more information.\n",
+                "label": "Debug mode active"
             }
         },
         "forum": {
@@ -364,7 +371,9 @@
                 "mark_as_read_tooltip": "Mark as Read",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "View notifications",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_confirm": "Are you sure you want to delete all notifications? This action is not reversable",
+                "delete_all_tooltip": "Delete all notifications"
             },
             "post": {
                 "edited_text": "Edited",
@@ -412,7 +421,8 @@
                 "notify_discussion_renamed_label": "Someone renames a discussion I started",
                 "privacy_disclose_online_label": "Allow others to see when I am online",
                 "privacy_heading": "Privacy",
-                "title": "=> core.ref.settings"
+                "title": "=> core.ref.settings",
+                "notification_checkbox_a11y_label_template": "Receive \"{description}\" notifications via {method}"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

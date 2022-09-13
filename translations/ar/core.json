@@ -21,7 +21,9 @@
                 "favicon_text": "قم بتحميل صورة لعرضها كأيقونة اختصار للمنتدى.",
                 "logo_heading": "شعار",
                 "logo_text": "قم بتحميل صورة لعرضها مكان عنوان المنتدى.",
-                "title": "المظهر"
+                "title": "المظهر",
+                "colors_primary_label": "",
+                "colors_secondary_label": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -45,7 +47,8 @@
                 "clear_cache_button": "",
                 "description": "",
                 "title": "لوحة المعلومات",
-                "tools_button": "أدوات"
+                "tools_button": "أدوات",
+                "io_error_message": ""
             },
             "edit_css": {
                 "customize_text": "",
@@ -242,6 +245,10 @@
                 },
                 "title": "",
                 "total_users": ""
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             }
         },
         "forum": {
@@ -364,7 +371,9 @@
                 "mark_as_read_tooltip": "وضع علامة كمقروء",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "عرض الإخطارات",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_confirm": "",
+                "delete_all_tooltip": ""
             },
             "post": {
                 "edited_text": "تم التحرير",
@@ -412,7 +421,8 @@
                 "notify_discussion_renamed_label": "",
                 "privacy_disclose_online_label": "",
                 "privacy_heading": "",
-                "title": ""
+                "title": "",
+                "notification_checkbox_a11y_label_template": ""
             },
             "sign_up": {
                 "dismiss_button": "",

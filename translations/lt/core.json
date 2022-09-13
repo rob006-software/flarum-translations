@@ -22,6 +22,8 @@
                 "logo_heading": "Logotipas",
                 "logo_text": "Įkelkite vaizdą, kuris bus rodomas vietoje forumo pavadinimo.",
                 "title": "Išvaizda",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "submit_button": "=> core.ref.okay"
             },
             "basics": {
@@ -48,7 +50,8 @@
                 "clear_cache_button": "Išvalyti talpyklą",
                 "description": "Jūsų forumas trumpai.",
                 "title": "Skydelis",
-                "tools_button": "Įrankiai"
+                "tools_button": "Įrankiai",
+                "io_error_message": ""
             },
             "edit_css": {
                 "customize_text": "Tinkinkite savo forumo išvaizdą pridėdami savo LESS/CSS kodą, kuris bus taikomas kartu su Flarum <a>numatytaisiais stiliais</a>.",
@@ -251,6 +254,10 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Viso narių: {count}"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             }
         },
         "forum": {
@@ -374,7 +381,9 @@
                 "mark_as_read_tooltip": "Pažymėti kaip perskaitytą",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Žiūrėti pranešimus",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_confirm": "",
+                "delete_all_tooltip": ""
             },
             "post": {
                 "edited_text": "Redaguota",
@@ -422,7 +431,8 @@
                 "notify_discussion_renamed_label": "Kažkas pervadino mano pradėtą diskusiją",
                 "privacy_disclose_online_label": "Rodyti kitiems kada esu prisijungęs(-usi)",
                 "privacy_heading": "Privatumas",
-                "title": "=> core.ref.settings"
+                "title": "=> core.ref.settings",
+                "notification_checkbox_a11y_label_template": ""
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
