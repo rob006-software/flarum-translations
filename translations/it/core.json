@@ -22,8 +22,8 @@
                 "logo_heading": "Logo",
                 "logo_text": "Carica un'immagine da utilizzare al posto del nome del forum.",
                 "title": "Aspetto",
-                "colors_primary_label": "",
-                "colors_secondary_label": ""
+                "colors_primary_label": "Colore Primario",
+                "colors_secondary_label": "Colore Secondario"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -48,7 +48,7 @@
                 "description": "Il tuo forum a colpo d'occhio.",
                 "title": "Dashboard",
                 "tools_button": "Strumenti",
-                "io_error_message": ""
+                "io_error_message": "Impossibile scrivere nel filesystem. Controlla i permessi del tuo filesystem e riprova. Oppure prova a eseguire dalla riga di comando."
             },
             "edit_css": {
                 "customize_text": "Personalizza l'aspetto del tuo forum aggiungendo codice LESS/CSS da applicare sulla parte superiore degli <a>stili predefiniti</a> di Flarum.",
@@ -249,8 +249,8 @@
                 "total_users": "Utenti totali: {count}"
             },
             "debug-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "Quando la modalità <code>debug</code> è attiva, Flarum ricostruirà le sue risorse <code>JavaScript</code> e <code>CSS</code> ad ogni richiesta e potrebbe anche potenzialmente perdere altre informazioni, come il alcuni elementi del database, variabili di ambiente, ecc.\n\nSi consiglia vivamente di disabilitare <code>debug</code> nel file <code>config.php</code> in produzione. Per ulteriori informazioni, vedere <link>Documenti Flarum</link>.\n",
+                "label": "Modalità debug attiva"
             }
         },
         "forum": {
@@ -375,8 +375,8 @@
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Vedi notifiche",
                 "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "delete_all_confirm": "Sei sicuro di voler eliminare tutte le notifiche? Questa azione non è reversibile",
+                "delete_all_tooltip": "Elimina tutte le notifiche"
             },
             "post": {
                 "edited_text": "Modificato",
@@ -425,7 +425,7 @@
                 "privacy_disclose_online_label": "Permetti agli altri utenti di vedere quando sono online",
                 "privacy_heading": "Privacy",
                 "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": ""
+                "notification_checkbox_a11y_label_template": "Ricevi notifiche \"{description}\" tramite {method}"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
