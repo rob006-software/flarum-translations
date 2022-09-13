@@ -22,8 +22,8 @@
                 "logo_heading": "Logo",
                 "logo_text": "Transférez une image qui sera affichée à la place du titre du forum.",
                 "title": "Apparence",
-                "colors_primary_label": "",
-                "colors_secondary_label": ""
+                "colors_primary_label": "Couleur principale",
+                "colors_secondary_label": "Couleur secondaire"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -48,7 +48,7 @@
                 "description": "Votre forum en un coup d'œil.",
                 "title": "Tableau de bord",
                 "tools_button": "Outils",
-                "io_error_message": ""
+                "io_error_message": "Impossible d'écrire dans le système de fichiers. Veuillez vérifier les permissions de votre système de fichiers puis réessayer. Vous pouvez également essayer d'écrire dans le système de fichiers par ligne de commande à partir de la console."
             },
             "edit_css": {
                 "customize_text": "Personnalisez l'apparence de votre forum en ajoutant votre propre code Less/CSS à appliquer en priorité par rapport <a>aux styles par défaut</a> de Flarum.",
@@ -247,8 +247,8 @@
                 "total_users": "Nombre total d'utilisateurs : {count}"
             },
             "debug-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "Lorsque le mode <code>débogage</code> est actif, Flarum reconstruit ses ressources <code>JavaScript</code> et <code>CSS</code> à chaque requête, et peut aussi potentiellement divulguer d'autres informations, comme les clés secrètes de la base de données, les variables d'environnement, etc.\n\nIl est fortement recommandé de désactiver le mode <code>débogage</code> dans votre fichier <code>config.php</code> si votre forum est dans un environnement de production. Pour plus d'informations, veuillez consulter <link>la documentation de Flarum</link>.\n",
+                "label": "Mode débogage actif"
             }
         },
         "forum": {
@@ -372,8 +372,8 @@
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Voir les notifications",
                 "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "delete_all_confirm": "Êtes-vous sûr de vouloir supprimer toutes les notifications ? Cette action est irréversible",
+                "delete_all_tooltip": "Supprimer toutes les notifications"
             },
             "post": {
                 "edited_text": "Modifié",
@@ -422,7 +422,7 @@
                 "privacy_disclose_online_label": "Autoriser les autres à voir que je suis en ligne",
                 "privacy_heading": "Confidentialité",
                 "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": ""
+                "notification_checkbox_a11y_label_template": "Recevoir les notifications « {description} » par le biais de {method}"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
