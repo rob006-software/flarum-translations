@@ -8,15 +8,15 @@
             "update_category": "Aggiorna categoria",
             "edit_category": "Modifica categoria",
             "nothing_here_yet": "Non hai ancora creato badge o categorie.",
-            "show_badges_on_user_card": "",
-            "number_of_badges_on_user_card": "",
-            "number_of_badges_on_user_card_help": "",
+            "show_badges_on_user_card": "Mostra bedge nella card utente",
+            "number_of_badges_on_user_card": "Numero di badge",
+            "number_of_badges_on_user_card_help": "Numero di badge da mostrare nella card utente",
             "permissions": {
                 "badge_detail_users": "Può vedere gli utenti nella pagina dei badge",
                 "give_badge": "Assegna badge a utente",
                 "take_badge": "Prendi badge da utente",
-                "edit_own_card_badges": "",
-                "edit_card_badges": ""
+                "edit_own_card_badges": "Può modificare il proprio badge nella card utente",
+                "edit_card_badges": "Può modificare badge utente"
             },
             "confirm_dialog": {
                 "title": "Conferma",
@@ -84,7 +84,7 @@
             "user_no_badges": "Questo utente non ha ancora alcun badge.",
             "no_received": "Nessun utente ha ottenuto questo badge.",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
-            "save_changes": "",
+            "save_changes": "Salva cambiamenti",
             "badge": {
                 "badge": "Badge",
                 "badges": "Badge",
@@ -99,14 +99,14 @@
                 "badge_details": "Dettagli Badge",
                 "earned_count": "{count, plural, one {<b># utente</b> ha guadagnato questo badge} other {<b># utenti</b> hanno guadagnato questo badge}}",
                 "earned_by_count": "{count, plural, one {Guadagnato da <b># utente</b>} other {Guadagnato da <b># utenti</b>}}",
-                "others_link": ""
+                "others_link": "+ Altri {count}"
             },
             "badges_in_card": {
-                "title": "",
-                "manage_badges": "",
-                "description": "",
-                "select_limit": "",
-                "hit_limit": ""
+                "title": "Badge nella card utente",
+                "manage_badges": "Gestisci badge",
+                "description": "Puoi modificare i badge visibili nella tua tessera utente con uno degli altri badge. Se non ne selezioni nessuno, verranno selezionati automaticamente.",
+                "select_limit": "Puoi selezionare {limit, plural, one {<b>un badge</b>} other {<b># badge</b>}} in modo che siano visibili nella tua scheda utente.",
+                "hit_limit": "C'è posto solo per <b> {limit, plural, one {<b>un badge</b>} other {<b># badge</b>}}</b> nella tua cartd. Deseleziona un badge per fare spazio a questo badge."
             },
             "moderation": {
                 "remove_badge": "Rimuovi badge da utente",
