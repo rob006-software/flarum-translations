@@ -3,6 +3,10 @@
         "admin": {
             "permissions": {
                 "like_posts_label": "Thích bài viết"
+            },
+            "settings": {
+                "like_own_posts_help": "",
+                "like_own_posts_label": ""
             }
         },
         "forum": {
@@ -23,6 +27,9 @@
             },
             "settings": {
                 "notify_post_liked_label": "Ai đó thích bài viết của tôi"
+            },
+            "user": {
+                "likes_link": ""
             }
         }
     }

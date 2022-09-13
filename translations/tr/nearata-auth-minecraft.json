@@ -1,10 +1,29 @@
 {
     "nearata-auth-minecraft": {
-        "api": {
-            "invalid_token_format": "Anahtar numaralardan oluşmalıdır.",
-            "error_403": "Geçersiz veya süresi dolmuş anahtar."
+        "admin": {
+            "settings": {
+                "minecraft_server": {
+                    "label": "",
+                    "help": ""
+                },
+                "api_url": {
+                    "label": "",
+                    "help": ""
+                },
+                "api_secret": {
+                    "label": "",
+                    "help": ""
+                }
+            }
         },
         "forum": {
+            "login_error": "",
+            "log_in_modal": {
+                "submit_button": "Doğrulama",
+                "title": "Minecraft ile Giriş Yap"
+            },
+            "log_in_button_title": "Minecraft ile Giriş Yap",
+            "modal_help": "",
             "change_email_modal": {
                 "confirmation_message": "{email} adresine doğrulama için posta gönderdik. Eğer postayı görmüyorsanız istenmeyen kutunuzu kontrol edin.",
                 "dismiss_button": "Tamam",
@@ -13,16 +32,15 @@
                 "token_placeholder": "Anahtar"
             },
             "error_403": "Geçersiz veya süresi dolmuş anahtar.",
-            "log_in_modal": {
-                "submit_button": "Doğrulama",
-                "title": "Minecraft ile Giriş Yap"
-            },
-            "log_in_button_title": "Minecraft ile Giriş Yap",
             "settings": {
                 "change_email_button": "Postayı Değiştir"
             },
             "token_help": "Anahtar erişimi almak için <strong>srv.mc-oauth.net:255652</strong> sunucusuna katılın.",
             "token_placeholder": "Anahtar"
+        },
+        "api": {
+            "invalid_token_format": "Anahtar numaralardan oluşmalıdır.",
+            "error_403": "Geçersiz veya süresi dolmuş anahtar."
         }
     }
 }

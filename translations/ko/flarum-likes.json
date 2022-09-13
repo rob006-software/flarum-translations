@@ -3,6 +3,10 @@
         "admin": {
             "permissions": {
                 "like_posts_label": "게시물에 좋아요 누르기"
+            },
+            "settings": {
+                "like_own_posts_help": "",
+                "like_own_posts_label": ""
             }
         },
         "forum": {
@@ -23,6 +27,9 @@
             },
             "settings": {
                 "notify_post_liked_label": "누군가 내 게시물 중 하나에 좋아요를 눌렀을 때"
+            },
+            "user": {
+                "likes_link": ""
             }
         }
     }

@@ -1,9 +1,29 @@
 {
     "nearata-auth-minecraft": {
-        "api": {
-            "invalid_token_format": "Le jeton doit être numérique."
+        "admin": {
+            "settings": {
+                "minecraft_server": {
+                    "label": "",
+                    "help": ""
+                },
+                "api_url": {
+                    "label": "",
+                    "help": ""
+                },
+                "api_secret": {
+                    "label": "",
+                    "help": ""
+                }
+            }
         },
         "forum": {
+            "login_error": "",
+            "log_in_modal": {
+                "submit_button": "Valider",
+                "title": "Se connecter avec Minecraft"
+            },
+            "log_in_button_title": "Se connecter avec Minecraft",
+            "modal_help": "",
             "change_email_modal": {
                 "confirmation_message": "Nous avons envoyé un courriel de confirmation à {email}. S'il n'arrive pas bientôt, vérifiez votre dossier des courriels indésirables.",
                 "dismiss_button": "OK",
@@ -12,16 +32,14 @@
                 "token_placeholder": "Jeton"
             },
             "error_403": "Jeton invalide ou expiré.",
-            "log_in_modal": {
-                "submit_button": "Valider",
-                "title": "Se connecter avec Minecraft"
-            },
-            "log_in_button_title": "Se connecter avec Minecraft",
             "settings": {
                 "change_email_button": "Modifier le courriel"
             },
             "token_help": "Rejoignez le serveur <strong>srv.mc-oauth.net:25565</strong> pour obtenir un jeton d'accès.",
             "token_placeholder": "Jeton"
+        },
+        "api": {
+            "invalid_token_format": "Le jeton doit être numérique."
         }
     }
 }

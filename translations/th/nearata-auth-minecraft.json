@@ -1,9 +1,29 @@
 {
     "nearata-auth-minecraft": {
-        "api": {
-            "invalid_token_format": ""
+        "admin": {
+            "settings": {
+                "minecraft_server": {
+                    "label": "",
+                    "help": ""
+                },
+                "api_url": {
+                    "label": "",
+                    "help": ""
+                },
+                "api_secret": {
+                    "label": "",
+                    "help": ""
+                }
+            }
         },
         "forum": {
+            "login_error": "",
+            "log_in_modal": {
+                "submit_button": "",
+                "title": ""
+            },
+            "log_in_button_title": "",
+            "modal_help": "",
             "change_email_modal": {
                 "confirmation_message": "",
                 "dismiss_button": "",
@@ -12,16 +32,14 @@
                 "token_placeholder": ""
             },
             "error_403": "",
-            "log_in_modal": {
-                "submit_button": "",
-                "title": ""
-            },
-            "log_in_button_title": "",
             "settings": {
                 "change_email_button": ""
             },
             "token_help": "",
             "token_placeholder": ""
+        },
+        "api": {
+            "invalid_token_format": ""
         }
     }
 }

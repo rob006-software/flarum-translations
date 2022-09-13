@@ -3,6 +3,10 @@
         "admin": {
             "permissions": {
                 "like_posts_label": "Curtir posts"
+            },
+            "settings": {
+                "like_own_posts_help": "",
+                "like_own_posts_label": ""
             }
         },
         "forum": {
@@ -23,6 +27,9 @@
             },
             "settings": {
                 "notify_post_liked_label": "Alguém curtiu um dos meus posts"
+            },
+            "user": {
+                "likes_link": ""
             }
         }
     }

@@ -3,6 +3,10 @@
         "admin": {
             "permissions": {
                 "like_posts_label": "投稿にいいね！を付ける"
+            },
+            "settings": {
+                "like_own_posts_help": "",
+                "like_own_posts_label": ""
             }
         },
         "forum": {
@@ -23,6 +27,9 @@
             },
             "settings": {
                 "notify_post_liked_label": "あなたの投稿にいいね！が付いた時"
+            },
+            "user": {
+                "likes_link": ""
             }
         }
     }
