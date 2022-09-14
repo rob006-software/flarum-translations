@@ -1,40 +1,40 @@
 {
     "cccyun-clogin-oauth": {
         "admin": {
-            "appurl_label": "",
-            "appurl_help": "",
-            "appid_label": "",
-            "appkey_label": "",
-            "openqq_label": "",
-            "openwx_label": "",
-            "opensina_label": ""
+            "appurl_label": "API URL",
+            "appurl_help": "Phải bắt đầu bằng http:// hoặc https:// và kết thúc bằng /",
+            "appid_label": "APP ID",
+            "appkey_label": "APP Key",
+            "openqq_label": "Mở Đăng nhập QQ",
+            "openwx_label": "Mở Đăng nhập WeChat",
+            "opensina_label": "Mở đăng nhập Weibo"
         },
         "forum": {
-            "with_qq_button": "",
-            "with_wx_button": "",
-            "with_sina_button": "",
+            "with_qq_button": "Đăng nhập QQ",
+            "with_wx_button": "Đăng nhập WeChat",
+            "with_sina_button": "Đăng nhập Weibo",
             "alerts": {
-                "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
-                "error": "",
-                "unlinked": ""
+                "already_linked": "Tài khoản thứ ba đã được liên kết!",
+                "already_used": "Tài khoản thứ ba đã được liên kết với một người dùng khác!",
+                "link_success": "Liên kết tài khoản thứ ba thành công.",
+                "unlink_success": "Hủy liên kết tài khoản thứ ba thành công.",
+                "error": "Đã xảy ra lỗi, vui lòng thử lại sau!",
+                "unlinked": "Tài khoản thứ ba không bị ràng buộc với tài khoản của trang web này, vui lòng đăng ký trước rồi mới ràng buộc."
             },
             "modals": {
-                "link_qq": "",
-                "unlink_qq": "",
-                "confirm_qq": "",
-                "link_wx": "",
-                "unlink_wx": "",
-                "confirm_wx": "",
-                "link_sina": "",
-                "unlink_sina": "",
-                "confirm_sina": "",
-                "no_providers": "",
+                "link_qq": "Liên kết tài khoản QQ",
+                "unlink_qq": "Hủy liên kết tài khoản QQ",
+                "confirm_qq": "Bạn có chắc chắn muốn hủy liên kết tài khoản QQ của mình không?",
+                "link_wx": "Liên kết tài khoản WeChat",
+                "unlink_wx": "Hủy liên kết tài khoản WeChat",
+                "confirm_wx": "Bạn có chắc chắn muốn hủy liên kết tài khoản WeChat của mình không?",
+                "link_sina": "Liên kết tài khoản Weibo",
+                "unlink_sina": "Hủy liên kết tài khoản Weibo",
+                "confirm_sina": "Bạn có chắc chắn muốn hủy liên kết tài khoản Weibo của mình không?",
+                "no_providers": "Bạn không có bất kỳ nhà cung cấp đăng nhập nào khác! Có thể bạn sẽ phải đặt lại mật khẩu của mình.",
                 "buttons": {
-                    "confirm": "",
-                    "cancel": ""
+                    "confirm": "Có, hủy liên kết tài khoản",
+                    "cancel": "Không!"
                 }
             }
         }
