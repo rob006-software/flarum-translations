@@ -3,27 +3,27 @@
         "admin": {
             "settings": {
                 "minecraft_server": {
-                    "label": "",
-                    "help": ""
+                    "label": "IP máy chủ Minecraft",
+                    "help": "Ví dụ: mydomain.tld"
                 },
                 "api_url": {
-                    "label": "",
-                    "help": ""
+                    "label": "API URL",
+                    "help": "Ví dụ: http://localhost:4567/verify"
                 },
                 "api_secret": {
-                    "label": "",
-                    "help": ""
+                    "label": "Mã bí mật API",
+                    "help": "Có thể tìm thấy trong <strong>Plugins/OAuth/config.json</strong>"
                 }
             }
         },
         "forum": {
-            "login_error": "",
+            "login_error": "Phiên chưa bắt đầu hoặc đã hết hạn.",
             "log_in_modal": {
                 "submit_button": "Xác thực",
                 "title": "Đăng nhập bằng Minecraft"
             },
             "log_in_button_title": "Đăng nhập bằng Minecraft",
-            "modal_help": "",
+            "modal_help": "Tham gia máy chủ <strong>{server}</strong> rồi nhấp vào nút bên dưới.",
             "change_email_modal": {
                 "confirmation_message": "Chúng tôi đã gửi email xác thực đến {email}. Nếu chưa nhận được, vui lòng kiểm tra thư mục spam.",
                 "dismiss_button": "OK",
