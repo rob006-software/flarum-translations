@@ -26,7 +26,7 @@
                 "none": "Không có thanh toán hoặc đăng ký đang hoạt động"
             },
             "post_stream": {
-                "bounty_added_text": ""
+                "bounty_added_text": "{username} đã thêm {amount} tiền thưởng."
             },
             "pay-to-view": {
                 "purchase-control": "Thanh toán để xem",
@@ -54,10 +54,10 @@
                 "description": "Chọn số tiền của bạn để hỗ trợ \"{subject}\" hoặc chọn số tiền tùy chỉnh."
             },
             "backers-widget": {
-                "backers": "",
-                "label": "Đã cam kết {sum}",
+                "backers": "Những người ủng hộ",
+                "label": "{currency} {sum} đã cam kết",
                 "none": "Chưa có người ủng hộ.",
-                "pledged": ""
+                "pledged": "Đã cam kết"
             },
             "tag": {
                 "require-payment-label": "Yêu cầu thanh toán"
@@ -107,7 +107,7 @@
                 "webhook-secret": "Mã bí mật Webhook",
                 "link-access-portal": "Liên kết cổng truy cập trong dropdown phiên người dùng",
                 "link-to-terms": "URL điều khoản thanh toán",
-                "recount-total-discussion-bounties": ""
+                "recount-total-discussion-bounties": "Thống kê tổng số tiền thưởng thảo luận"
             },
             "permission": {
                 "enable-bounties": "Bật tiền thưởng"
