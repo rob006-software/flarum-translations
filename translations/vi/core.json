@@ -22,8 +22,8 @@
                 "logo_heading": "Logo",
                 "logo_text": "Tải hình ảnh lên để hiển thị thay cho tiêu đề diễn đàn.",
                 "title": "Giao diện",
-                "colors_primary_label": "",
-                "colors_secondary_label": ""
+                "colors_primary_label": "Màu chính",
+                "colors_secondary_label": "Màu phụ"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -48,7 +48,7 @@
                 "description": "Diễn đàn của bạn trong nháy mắt.",
                 "title": "Trang tổng quan",
                 "tools_button": "Công cụ",
-                "io_error_message": ""
+                "io_error_message": "Không thể ghi vào hệ thống tệp. Kiểm tra quyền đối với hệ thống tệp của bạn và thử lại. Hoặc thử chạy từ dòng lệnh."
             },
             "edit_css": {
                 "customize_text": "Tùy chỉnh giao diện diễn đàn của bạn bằng cách thêm mã LESS/CSS của riêng bạn để được áp dụng trên <a>kiểu mặc định của Flarum</a>.",
@@ -249,8 +249,8 @@
                 "total_users": "Tổng người dùng: {count}"
             },
             "debug-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "Khi chế độ <code>debug</code> được bật, Flarum sẽ xây dựng lại code <code>JavaScript</code> và <code>CSS</code> mỗi lượt request và cũng có thể làm rò rỉ thông tin khác, chẳng hạn như cơ sở dữ liệu bí mật, biến môi trường, v.v.\n\nBạn rất nên tắt <code>debug</code> trong tệp <code>config.php</code> của mình khi sử dụng chính thức. Xem <link>Flarum docs</link> để biết thêm thông tin.\n",
+                "label": "Chế độ gỡ lỗi đang hoạt động"
             }
         },
         "forum": {
@@ -375,8 +375,8 @@
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Xem thông báo",
                 "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "delete_all_confirm": "Bạn có chắc chắn muốn xóa tất cả các thông báo không? Không thể hoàn tác hành động này",
+                "delete_all_tooltip": "Xóa tất cả các thông báo"
             },
             "post": {
                 "edited_text": "Đã chỉnh sửa",
@@ -425,7 +425,7 @@
                 "privacy_disclose_online_label": "Cho phép người khác xem khi tôi trực tuyến",
                 "privacy_heading": "Riêng tư",
                 "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": ""
+                "notification_checkbox_a11y_label_template": "Nhận thông báo \"{description}\" qua {method}"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
