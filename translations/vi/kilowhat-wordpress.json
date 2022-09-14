@@ -140,9 +140,9 @@
                 "email_change": "Tài khoản này được liên kết với Wordpress. Sử dụng trang hồ sơ trang web chính để thay đổi email của bạn."
             },
             "health": {
-                "suspend-extension-required": "",
-                "cookie-domain-format": "",
-                "login-only-signup-open": "",
+                "suspend-extension-required": "Tiện ích mở rộng Suspend phải được bật để sử dụng tùy chọn \"Cấm\" của \"Hành động khi người dùng xóa\"",
+                "cookie-domain-format": "Miền cookie dường như không phải là một miền hợp lệ. Kiểm tra xem đó chỉ là một miền không có bất kỳ giao thức hoặc đường dẫn nào",
+                "login-only-signup-open": "Bạn cần tắt Đăng ký theo quyền Flarum để cài đặt \"Chỉ cho phép đăng nhập Wordpress\" có hiệu lực đầy đủ",
                 "lock-extension-required": "",
                 "tags-extension-required": "",
                 "tag-not-exist": "",
