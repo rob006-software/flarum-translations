@@ -5,8 +5,8 @@
                 "like_posts_label": "Использовать систему симпатий"
             },
             "settings": {
-                "like_own_posts_help": "",
-                "like_own_posts_label": ""
+                "like_own_posts_help": "При включении этой опции, пользователи смогут оценивать свои собственные сообщения.",
+                "like_own_posts_label": "Оценивать собственные сообщения"
             }
         },
         "forum": {
@@ -17,7 +17,7 @@
             "post": {
                 "like_link": "Нравится",
                 "liked_by_self_text": "{users} оценили это.",
-                "liked_by_text": "{count, plural, one {{users} оценил это.} other {{users} оценили это.}}",
+                "liked_by_text": "{count, plural, one {{users} оценил это} other {{users} оценили это}}.",
                 "others_link": "=> core.ref.some_others",
                 "unlike_link": "Не нравится",
                 "you_text": "=> core.ref.you"
@@ -29,7 +29,7 @@
                 "notify_post_liked_label": "Понравилось моё сообщение"
             },
             "user": {
-                "likes_link": ""
+                "likes_link": "Симпатии"
             }
         }
     }
