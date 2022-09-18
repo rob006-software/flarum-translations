@@ -1601,7 +1601,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Compatible with recent Flarum">🟢</span><span title="Extension is abandoned">❗</span>
 			<a href="https://github.com/blomstra/flarum-ext-notification-deleter" title="blomstra/notification-deleter"><code>blomstra/notification-deleter</code></a>
 		</td>
 		<td align="center">144<br /><img src="https://img.shields.io/badge/-%2B11-red" alt="+11" title="Change from last week"></td>
