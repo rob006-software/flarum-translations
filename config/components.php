@@ -109,9 +109,6 @@ return [
 	'blomstra-mark-unread' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-mark-unread/0.2.0/locale/en.yml',
 	],
-	'blomstra-notification-deleter' => [
-		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-notification-deleter/0.2.1/locale/en.yml',
-	],
 	'blomstra-oauth-slack' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-oauth-slack/0.1.0/locale/en.yml',
 	],
