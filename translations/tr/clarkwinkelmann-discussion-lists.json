@@ -2,33 +2,33 @@
     "clarkwinkelmann-discussion-lists": {
         "admin": {
             "settings": {
-                "collapseSeries": ""
+                "collapseSeries": "Varsayılan olarak dizini daralt"
             },
             "permissions": {
-                "viewPublic": "",
-                "createPrivate": "",
-                "createPublic": "",
-                "createSeriesFromOwn": "",
-                "createSeriesFromAny": "",
-                "moderate": "",
-                "viewPrivate": ""
+                "viewPublic": "Herkese açık tartışma listelerini görüntüleyin",
+                "createPrivate": "Özel tartışma listesi oluşturun",
+                "createPublic": "Herkese açık tartışma listesi oluşturun",
+                "createSeriesFromOwn": "Kendi tartışmalarınızla tartışma listesi oluşturun",
+                "createSeriesFromAny": "Herhangi bir kullanıcının içeriğiyle tartışma listesi oluşturun",
+                "moderate": "Herhangi bir tartışma listesini değiştirin ve silin",
+                "viewPrivate": "Tüm özel tartışma listelerini görüntüleyin"
             }
         },
         "forum": {
             "edit": {
-                "title": "",
-                "name": "",
-                "visibility": "",
+                "title": "Listeyi düzenleyin",
+                "name": "İsim",
+                "visibility": "Görünürlük",
                 "visibilityOptions": {
-                    "private": "",
-                    "public": "",
-                    "series": ""
+                    "private": "Özel liste",
+                    "public": "Herkese açık liste",
+                    "series": "Özel dizin"
                 },
-                "ordering": "",
+                "ordering": "Sıralama",
                 "orderingOptions": {
-                    "manual": "",
-                    "createdAsc": "",
-                    "createdDesc": "",
+                    "manual": "Elle",
+                    "createdAsc": "Tartışma oluşturma (en eskiden en yeniye)",
+                    "createdDesc": "Tartışma oluşturma (en yeniden en eskiye)",
                     "addedAsc": "",
                     "addedDesc": ""
                 },
