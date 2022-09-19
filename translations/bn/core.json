@@ -22,8 +22,8 @@
                 "logo_heading": "লোগো",
                 "logo_text": "ফোরাম title এর জায়গায় প্রদর্শিত হওয়ার জন্য একটি ইমেজ আপলোড করুন ।",
                 "title": "অ্যাপিয়ারেন্স",
-                "colors_primary_label": "",
-                "colors_secondary_label": ""
+                "colors_primary_label": "প্রাথমিক কালার",
+                "colors_secondary_label": "Secondary কালার"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -48,7 +48,7 @@
                 "description": "একনজরে আপনার ফোরাম।",
                 "title": "ড্যাশবোর্ড",
                 "tools_button": "টুলস",
-                "io_error_message": ""
+                "io_error_message": "দুঃখিত! Filesystem এ লিখতে পারিনি। দয়া করে আপনার Filesystem এর Permission গুলো check করুন । অন্যথায় Command Line থেকে চেষ্টা করুন।"
             },
             "edit_css": {
                 "customize_text": "আপনার নিজস্ব সিএসএস কোড অ্যাড করে ফোরামের অ্যাপিয়ারেন্স কাস্টমাইজ করুন। এই কোড গুলো ফ্লারাম এর <a>ডিফল্ট স্টাইল কোড</a>এর উপর প্রয়োগ হবে।",
@@ -184,7 +184,7 @@
                 "sign_up_label": "সাইন আপ",
                 "start_discussions_label": "আলোচনা শুরু করুন",
                 "title": "অনুমতি",
-                "view_forum_label": "",
+                "view_forum_label": "ফোরাম দেখুন (Discussions এবং Users)",
                 "view_hidden_groups_label": "",
                 "view_last_seen_at_label": "",
                 "view_post_ips_label": ""
