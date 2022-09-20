@@ -3,34 +3,34 @@
         "admin": {
             "modals": {
                 "fields": {
-                    "board": "",
-                    "trello_label": "",
-                    "forum_tags": ""
+                    "board": "选择一个Trello板块",
+                    "trello_label": "选择一个Trello标签",
+                    "forum_tags": "选择一个论坛标签来映射"
                 },
-                "no_available_labels_label": "",
-                "no_available_tags_label": ""
+                "no_available_labels_label": "没有可用标签",
+                "no_available_tags_label": "没有可用的论坛标签"
             },
             "permissions": {
-                "add_to_trello": ""
+                "add_to_trello": "可将讨论链接到Trello上"
             },
             "settings": {
-                "api_key_help": "",
-                "api_key_label": "",
-                "api_token_help": "",
-                "api_token_label": "",
-                "available_boards_label": "",
+                "api_key_help": "输入{link}的API密钥，以便该扩展与Trello连接。",
+                "api_key_label": "接口密钥",
+                "api_token_help": "输入API令牌，以便该扩展与Trello连接,访问{link}并点击<code>生成一个令牌</code>",
+                "api_token_label": "API令牌",
+                "available_boards_label": "可用的板块",
                 "button": {
-                    "add": "",
-                    "remove": ""
+                    "add": "添加",
+                    "remove": "移除"
                 },
-                "default_board_help": "",
-                "default_board_label": "",
-                "guest_workspace": "",
-                "in_trello": "",
-                "include_secondary_tags_help": "",
-                "include_secondary_tags_label": "",
+                "default_board_help": "选定的默认板块将是论坛中发送至Trello模式中预选的板块。",
+                "default_board_label": "默认板块",
+                "guest_workspace": "访客工作区",
+                "in_trello": "在Trello中",
+                "include_secondary_tags_help": "当禁用时，只有主要讨论标签将被发送到Trello。当启用时，所有标签将被发送到Trello。",
+                "include_secondary_tags_label": "包括次要标签",
                 "label": {
-                    "general": "",
+                    "general": "一般",
                     "boards": "",
                     "labels": ""
                 },
