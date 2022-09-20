@@ -1,1 +1,29 @@
-{}
+{
+    "announcement": {
+        "to-update": "运行这些命令以更新：",
+        "major-warning": "这个版本移除了对旧版本 Flarum 和一些过时扩展的支持。 在更新之前，请确保您使用的是最新版本的 Flarum 和扩展。",
+        "version": "版本 {version}"
+    },
+    "readme": {
+        "status-table": {
+            "header-status": "状态",
+            "label-translation-status": "翻译状态",
+            "header-extension": "扩展"
+        }
+    },
+    "changelog": {
+        "updated-file": "更新了`{file}`",
+        "updated-config-css": "更新了CSS",
+        "cleaned-validation": "删除了过时的验证翻译（支持版本 `{version}` 或更高版本）",
+        "extensions-added": "添加了对最新扩展的支持",
+        "updated-validation": "更新了验证翻译",
+        "extensions-removed": "移除了对过时扩展的支持",
+        "updated-core": "更新了Flarum核心翻译",
+        "cleaned-core": "删除了过时的 Flarum 核心翻译（支持 `{version}` 或更高版本）",
+        "general-changes": "一般变化",
+        "updated-config-js": "更新了Day.js的翻译",
+        "extensions-cleaned": "更新了或删除了扩展的过时翻译",
+        "all-changes": "所有更改: {link}.",
+        "extensions-updated": "更新了扩展的翻译"
+    }
+}
