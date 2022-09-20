@@ -22,8 +22,8 @@
                 "logo_heading": "Logo",
                 "logo_text": "上传图片代替论坛名称，并展示在导航栏左侧。",
                 "title": "外观",
-                "colors_primary_label": "",
-                "colors_secondary_label": ""
+                "colors_primary_label": "主要颜色",
+                "colors_secondary_label": "次要颜色"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -48,7 +48,7 @@
                 "description": "论坛各项数据一览",
                 "title": "仪表盘",
                 "tools_button": "工具",
-                "io_error_message": ""
+                "io_error_message": "无法写入文件系统。 请检查您的文件系统权限，然后重试。 或者尝试从命令行运行。"
             },
             "edit_css": {
                 "customize_text": "添加 Less/CSS 代码以自定义论坛外观，此设置将覆盖 Flarum <a>默认样式</a>。",
@@ -249,8 +249,8 @@
                 "total_users": "用户数：{count}"
             },
             "debug-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "当 <code>debug</code> 模式处于活动状态时，Flarum 将在每个请求上重建其 <code>JavaScript</code> 和 <code>CSS</code> ，并且还可能泄露其他信息，例如数据库秘钥，环境变量等。\n\n强烈建议在生产环境中禁用 <code>config.php</code> 文件中的 <code>debug</code>。 请参阅 <link>Flarum 文档</link> 了解更多信息。\n",
+                "label": "调试模式激活"
             }
         },
         "forum": {
@@ -375,8 +375,8 @@
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "查看通知",
                 "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "delete_all_confirm": "您确定要删除所有通知吗？ 此操作不可逆",
+                "delete_all_tooltip": "删除所有通知"
             },
             "post": {
                 "edited_text": "已编辑",
@@ -425,7 +425,7 @@
                 "privacy_disclose_online_label": "公开我的在线状态",
                 "privacy_heading": "隐私设置",
                 "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": ""
+                "notification_checkbox_a11y_label_template": "通过 {method} 接收“{description}”通知"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
