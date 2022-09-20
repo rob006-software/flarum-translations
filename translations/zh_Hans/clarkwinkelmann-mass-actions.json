@@ -4,23 +4,23 @@
             "select": {
                 "all": "全选",
                 "none": "取消全选",
-                "read": "",
-                "unread": "",
-                "visible": "",
-                "hidden": "",
-                "locked": "",
-                "unlocked": ""
+                "read": "已读",
+                "unread": "未读",
+                "visible": "未删除",
+                "hidden": "软删除",
+                "locked": "锁定",
+                "unlocked": "解锁"
             },
             "actions": {
                 "markAsRead": "标记为已读",
                 "hide": "删除所选",
                 "restore": "恢复已选",
-                "delete": "",
-                "deleteConfirmation": "",
+                "delete": "选择永久删除",
+                "deleteConfirmation": "{count, plural, one {您确定要永久删除所选的讨论吗？} other {确定要永久删除 # 个所选的主题吗？}}",
                 "lock": "锁定所选",
                 "unlock": "解锁所选",
-                "sticky": "",
-                "unsticky": "",
+                "sticky": "置顶所选",
+                "unsticky": "取消置顶所选",
                 "tags": "标签",
                 "tags-edit": "编辑标签",
                 "tags-add": "添加 <em>{tag}</em>"
