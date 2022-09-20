@@ -2,15 +2,15 @@
     "datlechin-link-preview": {
         "admin": {
             "settings": {
-                "blacklist_label": "",
-                "blacklist_help": "",
-                "blacklist_placeholder": "",
-                "convert_media_urls_label": "",
-                "convert_media_urls_help": ""
+                "blacklist_label": "黑名单",
+                "blacklist_help": "输入要从链接预览中排除的域或网址的逗号分隔列表。",
+                "blacklist_placeholder": "例如 facebook.com，https://domain.com/path",
+                "convert_media_urls_label": "转换媒体URLs地址",
+                "convert_media_urls_help": "如果启用，这会将所有媒体 URL 转换为链接预览。"
             }
         },
         "forum": {
-            "site_cannot_be_reached": ""
+            "site_cannot_be_reached": "此网站无法打开。"
         }
     }
 }
