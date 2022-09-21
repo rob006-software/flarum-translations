@@ -2,18 +2,18 @@
     "clarkwinkelmann-composer-page": {
         "admin": {
             "settings": {
-                "onlyInTags": "",
-                "onlyInTagsHelp": ""
+                "onlyInTags": "仅在以下标签中（可选）",
+                "onlyInTagsHelp": "标签 slug 的逗号分隔列表。 留空以始终使用该页面，即使在选择任何标签之前也是如此。\n"
             }
         },
         "forum": {
             "nav": {
-                "cancel": "",
-                "continue": ""
+                "cancel": "退出 Composer",
+                "continue": "继续编辑主题"
             },
             "page": {
-                "title": "",
-                "heading": ""
+                "title": "创建一个主题",
+                "heading": "创建一个主题"
             }
         }
     }
