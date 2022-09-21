@@ -110,15 +110,15 @@
                     }
                 },
                 "groups": {
-                    "title": "",
-                    "help": "",
+                    "title": "Automaattisesti määritetyt ryhmät",
+                    "help": "Valitut ryhmät asetetaan tai poistetaan automaattisesti tarvittaessa riippuen käyttäjän pisteistä. Jos teet näihin muutoksia pitää sinun ajaa komento <code> php flarum fof:gamification:assign-groups</code> päivittääksesi olemassa olevien käyttäjien määreet. Jos haluat poistaa säännön ja poistaa käyttäjät ryhmästä, aseta sekä minimi ja maksimi arvot tyhjäksi, tallenna asetukset ja aja edellä oleva komento. Lopuksi voit poistaa koko säännön asetuksista.\n",
                     "column": {
-                        "group": "",
-                        "minPoints": "",
-                        "maxPoints": ""
+                        "group": "Ryhmä",
+                        "minPoints": "Minimi pisteet (kattava)",
+                        "maxPoints": "Maksimi pisteet (kattava)"
                     },
-                    "add": "",
-                    "delete": ""
+                    "add": "Lisää uusi sääntö",
+                    "delete": "Poista sääntö"
                 }
             }
         },
