@@ -1078,5 +1078,8 @@ return [
 	'zerosonesfun-expired-posts' => [
 		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/expired-posts/0.4/resources/locale/en.yml',
 	],
+	'ziiven-daily-check-in' => [
+		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-daily-check-in/v0.1.1/locale/en.yml',
+	],
 	/* extensions list end */
 ];
