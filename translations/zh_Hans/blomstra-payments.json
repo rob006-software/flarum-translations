@@ -102,6 +102,7 @@
                 "select-pta-product-description": "选择解锁用户组权限的收费计划。如果是订阅制，则访问权跟随订阅期限。前往 Stripe 仪表板创建付费计划，并将 <code>prod_</code> 开头的 ID 粘贴到这里。\n"
             },
             "settings": {
+                "assign-bounty-tag-id": "",
                 "pk": "公钥（api）",
                 "sk": "Secret (api) key",
                 "webhook-secret": "Webhook signing secret",

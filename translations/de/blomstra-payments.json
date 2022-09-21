@@ -102,6 +102,7 @@
                 "select-pta-product-description": "Die Auswahl eines Produkts ermöglicht den Zugriff auf die Gruppe nach der Zahlung. Im Falle eines Abonnements wird der Zugang nach Kündigung des Abonnements automatisch entzogen. Erstelle ein Produkt in Deinem Stripe-Dashboard und kopiere die ID beginnend mit <code>prod_</code> in dieses Feld.\n"
             },
             "settings": {
+                "assign-bounty-tag-id": "",
                 "pk": "Veröffentlichbarer (API) Schlüssel",
                 "sk": "Geheimer (API) Schlüssel",
                 "webhook-secret": "Webhook-Signaturgeheimnis",

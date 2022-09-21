@@ -102,6 +102,7 @@
                 "select-pta-product-description": "La selección de un producto permitirá el acceso al grupo tras el pago. En el caso de una suscripción, el acceso se revocará automáticamente tras la cancelación de la misma. Cree un producto en su panel de control de Stripe y copie el ID que comienza con <code>prod_</code> en este campo.\n"
             },
             "settings": {
+                "assign-bounty-tag-id": "",
                 "pk": "Clave publicable (api)",
                 "sk": "Clave secreta (api)",
                 "webhook-secret": "Secreto de firma del webhook",

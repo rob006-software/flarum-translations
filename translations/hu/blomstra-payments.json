@@ -102,6 +102,7 @@
                 "select-pta-product-description": "A termék kiválasztása a fizetés után lehetővé teszi a csoport elérését. Az előfizetés lemondásakor a hozzáférés automatikusan vissza lesz vonva. Hozzon létre egy terméket a Stripe vezérlőpulton és másolja a <code>prod_</code> szöveggel kezdődő azonosítót ebbe a mezőben.\n"
             },
             "settings": {
+                "assign-bounty-tag-id": "",
                 "pk": "Közzétehető (API) kulcs",
                 "sk": "Titkos (API) kulcs",
                 "webhook-secret": "Webhook aláírási titka",

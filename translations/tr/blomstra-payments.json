@@ -102,6 +102,7 @@
                 "select-pta-product-description": "Bu seçenek ile, ödeme yaptıktan sonra gruba erişime izin verilir. Abonelik durumunda erişim, abonelik iptalinin ardından otomatik olarak son bulur. Stripe kontrol panelinizden bir ürün oluşturun ve <code>prod_</code> ile başlayan kimliği bu alana kopyalayın.\n"
             },
             "settings": {
+                "assign-bounty-tag-id": "",
                 "pk": "Publishable (api) anahtarı",
                 "sk": "Secret (api) anahtarı",
                 "webhook-secret": "Webhook imzalama secret",

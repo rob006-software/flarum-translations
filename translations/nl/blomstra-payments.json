@@ -102,6 +102,7 @@
                 "select-pta-product-description": "Door een produkt te kiezen zal betaling daarvan benodigd zijn voor toegang tot de groep. Bij een produkt met abonnement zal aan het einde van het abonnement toegang automatisch ontnomen worden. Maak een produkt in het Stripe portaal en kopieer zijn ID dat begint met <code>prod_</code> in dit veld.\n"
             },
             "settings": {
+                "assign-bounty-tag-id": "",
                 "pk": "Publieke (api) key",
                 "sk": "Geheime (api) key",
                 "webhook-secret": "Webhook geheime ondertekening",
