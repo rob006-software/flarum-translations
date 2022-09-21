@@ -110,15 +110,15 @@
                     }
                 },
                 "groups": {
-                    "title": "",
-                    "help": "",
+                    "title": "自动分配组",
+                    "help": "当用户的点数发生变化时，将根据需要自动添加或删除所选的组。如果您对配置进行了更改，您应该运行该 <code>php flarum fof:gamification:assign-groups</code>命令来更新现有用户。如果您希望删除规则并从组中删除所有用户，请将最小值和最大值都设置为空字符串，保存设置并运行命令行命令。最后，您可以从设置中完全删除规则。\n",
                     "column": {
-                        "group": "",
-                        "minPoints": "",
-                        "maxPoints": ""
+                        "group": "用户组",
+                        "minPoints": "最低点数（包含）",
+                        "maxPoints": "最高点数（包含）"
                     },
-                    "add": "",
-                    "delete": ""
+                    "add": "添加新规则",
+                    "delete": "删除规则"
                 }
             }
         },
