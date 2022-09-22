@@ -638,6 +638,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-og-meta-tag`](https://weblate.rob006.net/projects/flarum/justoverclock-og-meta-tag) | [`justoverclock/og-meta-tag`](https://github.com/justoverclockl/og-meta-tag) |
 | [`justoverclock-popular-tags`](https://weblate.rob006.net/projects/flarum/justoverclock-popular-tags) | [`justoverclock/popular-tags`](https://github.com/justoverclockl/popular-tags) |
 | [`justoverclock-random-post`](https://weblate.rob006.net/projects/flarum/justoverclock-random-post) | [`justoverclock/random-post`](https://github.com/justoverclockl/random-post) |
+| [`justoverclock-staff-members-widget`](https://weblate.rob006.net/projects/flarum/justoverclock-staff-members-widget) | [`justoverclock/staff-members-widget`](https://github.com/justoverclockl/staff-member-widget) |
 | [`justoverclock-thread-read-time`](https://weblate.rob006.net/projects/flarum/justoverclock-thread-read-time) | [`justoverclock/thread-read-time`](https://github.com/justoverclockl/thread-read-time) |
 | [`justoverclock-user-pc-specs`](https://weblate.rob006.net/projects/flarum/justoverclock-user-pc-specs) | [`justoverclock/user-pc-specs`](https://github.com/justoverclockl/user-pc-specs) |
 | [`justoverclock-user-statistics`](https://weblate.rob006.net/projects/flarum/justoverclock-user-statistics) | [`justoverclock/user-statistics`](https://github.com/justoverclockl/user-statistics) |
