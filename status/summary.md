@@ -359,6 +359,7 @@
 | [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/xelson-chat/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/xelson-chat/) |
 | [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/zerosonesfun-expired-posts/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/zerosonesfun-expired-posts/) |
 | [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/zerosonesfun-bbcode-button/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/zerosonesfun-bbcode-button/) |
+| [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/ziiven-daily-check-in/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/ziiven-daily-check-in/) |
 
 <!-- various-extensions-list-stop -->
 
