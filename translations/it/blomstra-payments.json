@@ -2,31 +2,31 @@
     "core": {
         "forum": {
             "index_sort": {
-                "mostBacked_button": ""
+                "mostBacked_button": "Più sostenuti"
             }
         }
     },
     "blomstra-payments": {
         "forum": {
             "accept-terms-modal": {
-                "accept_label": "",
-                "continue_button": "",
-                "title": ""
+                "accept_label": "Ho letto e accetto i <link>termini di pagamento</link>.",
+                "continue_button": "Continua Pagamento",
+                "title": "Accetta i termini"
             },
             "stripe": {
-                "interval_once": ""
+                "interval_once": "una volta"
             },
             "subscription-card": {
-                "bounty": "",
-                "ptv": "",
-                "pta": "",
-                "ptb": "",
-                "ptp": "",
-                "cancel-control": "",
-                "none": ""
+                "bounty": "Prezzo",
+                "ptv": "Paga per guardare",
+                "pta": "Paga per accedere",
+                "ptb": "Paga per bump",
+                "ptp": "Paga per pubblicare",
+                "cancel-control": "Cancella",
+                "none": "Nessun pagamento o abbonamento attivo"
             },
             "post_stream": {
-                "bounty_added_text": ""
+                "bounty_added_text": "{username} ha aggiunto una ricompensa di {amount}."
             },
             "pay-to-view": {
                 "purchase-control": "Paga per Guardare",
@@ -40,24 +40,24 @@
                 "purchase_required": "Questa discussione verrà pubblicata una volta completato il pagamento tramite il nostro provider di pagamento Stripe. Fare clic su Acquista per visualizzare i costi e le opzioni di pagamento.\n"
             },
             "pay-to-bump": {
-                "description": "",
-                "purchase-control": "",
-                "purchase-log-in": ""
+                "description": "{count, plural, one {Questa discussione è stata rialzata} other {{count} persone hanno rialzato questa discussione}}.",
+                "purchase-control": "Paga per bump",
+                "purchase-log-in": "Log In & Paga per bump"
             },
             "bounties": {
-                "purchase-control": "",
-                "enable-control": ""
+                "purchase-control": "Aggiunti Ricompensa",
+                "enable-control": "Abilita ricompense"
             },
             "choose-bounty-amount-modal": {
-                "title": "",
-                "checkout-control": "",
-                "description": ""
+                "title": "Scegli ammontare ricompensa",
+                "checkout-control": "Paga ora",
+                "description": "Seleziona l'importo per supportare \"{subject}\" o scegli un importo personalizzato."
             },
             "backers-widget": {
-                "backers": "",
-                "label": "",
-                "none": "",
-                "pledged": ""
+                "backers": "Sostenitori",
+                "label": "{currency} {sum} piazzate",
+                "none": "Nessun sostenitore al momento.",
+                "pledged": "Promesso"
             },
             "tag": {
                 "require-payment-label": "Pagamento Richiesto"
@@ -69,16 +69,16 @@
             "access-portal": {
                 "options": "opzioni",
                 "purchase": "acquista",
-                "subscribed": ""
+                "subscribed": "abbonato"
             },
             "nav": {
                 "access_portal": "Portale di accesso",
-                "user_subscriptions": ""
+                "user_subscriptions": "Abbonamenti"
             },
             "exceptions": {
                 "out-of-bounds-amount": {
-                    "min": "",
-                    "max": ""
+                    "min": "Non è consentito un pagamento di {amount}, {min} è l'importo più basso.",
+                    "max": "Non è consentito un pagamento di {amount}, {max} è l'importo più alto."
                 }
             }
         },
@@ -90,28 +90,28 @@
                 "select-ptv-product-description": "La selezione di un prodotto richiederà il pagamento dello stesso per ottenere permanentemente l'accesso a tutti i post oltre la soglia. Crea un prodotto nella dashboard di Stripe e copia l'ID che inizia con <code>prod_</code> in questo campo.\n",
                 "visible-from": "Nascondi post oltre questa soglia",
                 "visible-from-description": "Il numero che specifichi qui definisce a che punto i post verranno nascosti agli utenti che non hanno pagato per accedere al contenuto. Usa 0 per nasconderli tutti, 1 per quello dopo l'OP.\n",
-                "select-ptb-product": "",
-                "select-ptb-product-description": "",
-                "bump-others": "",
-                "bump-others-description": "",
-                "select-bounty-product": "",
-                "select-bounty-description": ""
+                "select-ptb-product": "(PTB) Prodotto richiesto",
+                "select-ptb-product-description": "La selezione di un prodotto richiederà il pagamento di quel prodotto prima di poter avviare una discussione.\n",
+                "bump-others": "(PTB) Consenti ad altri di portare avanti le discussioni",
+                "bump-others-description": "Se abilitato, non solo l'autore della discussione può aumentare le discussioni con un pagamento.\n",
+                "select-bounty-product": "(Bounty) Prodotto richiesto",
+                "select-bounty-description": "Seleziona un prodotto lo imposterà per le ricompense. Il prodotto può avere un solo Prezzo con il modello: \"Prezzi personalizzati\". Copia l'ID del prodotto che inizia con <code>prod_</code> in questo campo.\n"
             },
             "edit-group": {
                 "select-pta-product": "(PTA) Prodotto richiesto",
                 "select-pta-product-description": "La selezione consentirà l'accesso al gruppo dopo il pagamento. In caso di abbonamento l'accesso verrà revocato automaticamente dopo l'annullamento dell'abbonamento. Crea un prodotto nella dashboard di Stripe e copia l'ID che inizia con <code>prod_</code> in questo campo.\n"
             },
             "settings": {
-                "assign-bounty-tag-id": "",
+                "assign-bounty-tag-id": "Tag da assegnare alla discussione dopo la prima taglia inviata",
                 "pk": "Chiave (api) Pubblicabile",
                 "sk": "Chiave (api) Segreta",
                 "webhook-secret": "Firma del Webhook",
                 "link-access-portal": "Collega il portale di accesso nel menu a discesa della sessione utente",
-                "link-to-terms": "",
-                "recount-total-discussion-bounties": ""
+                "link-to-terms": "URL termini di pagamento",
+                "recount-total-discussion-bounties": "Conta nuovamente le ricompense delle discussione totali"
             },
             "permission": {
-                "enable-bounties": ""
+                "enable-bounties": "Abilita ricompense"
             }
         }
     }
