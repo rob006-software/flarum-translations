@@ -22,8 +22,8 @@
                 "logo_heading": "Logo",
                 "logo_text": "Upload et billede, der skal vises i stedet for forumtitlen.",
                 "title": "Udseende",
-                "colors_primary_label": "",
-                "colors_secondary_label": ""
+                "colors_primary_label": "Primær farve",
+                "colors_secondary_label": "Sekundær farve"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -62,16 +62,16 @@
             },
             "edit_group": {
                 "color_label": "",
-                "delete_button": "",
-                "delete_confirmation": "",
-                "hide_label": "",
+                "delete_button": "Slet gruppe",
+                "delete_confirmation": "Er du sikker på du ønsker at slette denne gruppe? Gruppemedlemmerne vil IKKE blive slettet.",
+                "hide_label": "Skjul på forum",
                 "icon_label": "",
                 "icon_text": "",
                 "name_label": "",
                 "plural_placeholder": "",
                 "singular_placeholder": "",
                 "submit_button": "",
-                "title": ""
+                "title": "Opret gruppe"
             },
             "edit_header": {
                 "customize_text": "",
@@ -79,61 +79,61 @@
                 "title": ""
             },
             "email": {
-                "addresses_heading": "",
-                "description": "",
-                "driver_heading": "",
-                "driver_label": "",
-                "from_label": "",
-                "mail_encryption_label": "",
-                "mail_host_label": "",
-                "mail_mailgun_domain_label": "",
-                "mail_mailgun_region_label": "",
-                "mail_mailgun_secret_label": "",
+                "addresses_heading": "Adresser",
+                "description": "Konfigurér driveren, indstillinger og adresser som dit forum skal bruge for at sende e-mails.",
+                "driver_heading": "Vælg en driver",
+                "driver_label": "Driver",
+                "from_label": "Afsender",
+                "mail_encryption_label": "Kryptering",
+                "mail_host_label": "Vært",
+                "mail_mailgun_domain_label": "Domæne",
+                "mail_mailgun_region_label": "Region",
+                "mail_mailgun_secret_label": "Hemmelig nøgle",
                 "mail_password_label": "",
-                "mail_port_label": "",
+                "mail_port_label": "Port",
                 "mail_username_label": "",
-                "mailgun_heading": "",
-                "not_sending_message": "",
-                "send_test_mail_button": "",
-                "send_test_mail_heading": "",
-                "send_test_mail_success": "",
-                "send_test_mail_text": "",
-                "smtp_heading": "",
+                "mailgun_heading": "Mailgun indstillinger",
+                "not_sending_message": "Flarum sender i øjeblikket ingen e-mails. Dette skyldes den valgte driver, eller fejl i opsætningen.",
+                "send_test_mail_button": "Send",
+                "send_test_mail_heading": "Send test email",
+                "send_test_mail_success": "Test e-mail blev sendt som den skulle!",
+                "send_test_mail_text": "Dette vil sende en mail ved brug af ovenstående konfiguration til din e-mail: {email}.",
+                "smtp_heading": "SMTP indstillinger",
                 "title": ""
             },
             "extension": {
-                "configure_scopes": "",
+                "configure_scopes": "Indstil scopes",
                 "confirm_purge": "",
-                "disabled": "",
-                "enable_to_see": "",
-                "enabled": "",
+                "disabled": "Slået fra",
+                "enable_to_see": "Slå udvidelsen til for at se og ændre i indstillingerne.",
+                "enabled": "Slået til",
                 "info_links": {
-                    "discuss": "",
-                    "documentation": "",
-                    "donate": "",
-                    "source": "",
-                    "support": "",
-                    "website": ""
+                    "discuss": "Diskutér",
+                    "documentation": "Dokumentation",
+                    "donate": "Donér",
+                    "source": "Kilde",
+                    "support": "Support",
+                    "website": "Hjemmeside"
                 },
-                "no_permissions": "",
-                "no_settings": "",
-                "open_modal": "",
-                "permissions_title": "",
-                "purge_button": "",
+                "no_permissions": "Udvidelsen har ingen tilladelser.",
+                "no_settings": "Udvidelsen har ingen indstillinger.",
+                "open_modal": "Åben indstillinger",
+                "permissions_title": "Tilladelser",
+                "purge_button": "Ryd",
                 "readme": {
-                    "button_label": "",
-                    "no_readme": "",
-                    "title": ""
+                    "button_label": "README",
+                    "no_readme": "Denne udvidelse ser ikke ud til at have en README-fil",
+                    "title": "{extName} dokumentation"
                 },
                 "confirm_uninstall": "",
                 "uninstall_button": ""
             },
             "header": {
-                "get_help": "",
+                "get_help": "Få hjælp",
                 "log_out_button": ""
             },
             "loading": {
-                "title": ""
+                "title": "Vent venligst ..."
             },
             "nav": {
                 "appearance_button": "",
@@ -141,18 +141,18 @@
                 "basics_button": "",
                 "basics_title": "",
                 "categories": {
-                    "authentication": "",
-                    "core": "",
-                    "discussion": "",
-                    "feature": "",
-                    "formatting": "",
-                    "language": "",
-                    "moderation": "",
-                    "other": "",
-                    "theme": ""
+                    "authentication": "Autentificering",
+                    "core": "Indstil kernen",
+                    "discussion": "Diskussion",
+                    "feature": "Funktioner",
+                    "formatting": "Formatering",
+                    "language": "Sprog",
+                    "moderation": "Moderering",
+                    "other": "Andre udvidelser",
+                    "theme": "Temaer"
                 },
                 "dashboard_button": "",
-                "dashboard_title": "",
+                "dashboard_title": "Autentificering",
                 "email_button": "",
                 "email_title": "",
                 "permissions_button": "",
@@ -162,91 +162,91 @@
                 "search_placeholder": ""
             },
             "permissions": {
-                "allow_post_editing_label": "",
-                "allow_renaming_label": "",
-                "create_heading": "",
-                "delete_discussions_forever_label": "",
-                "delete_discussions_label": "",
-                "delete_posts_forever_label": "",
-                "delete_posts_label": "",
-                "description": "",
-                "edit_posts_label": "",
-                "edit_users_label": "",
-                "edit_users_credentials_label": "",
-                "edit_users_groups_label": "",
-                "global_heading": "",
-                "moderate_heading": "",
-                "new_group_button": "",
-                "participate_heading": "",
-                "post_without_throttle_label": "",
-                "read_heading": "",
-                "rename_discussions_label": "",
-                "reply_to_discussions_label": "",
-                "search_users_label": "",
-                "sign_up_label": "",
-                "start_discussions_label": "",
-                "title": "",
-                "view_forum_label": "",
-                "view_hidden_groups_label": "",
-                "view_last_seen_at_label": "",
-                "view_post_ips_label": ""
+                "allow_post_editing_label": "Søg i udvidelser",
+                "allow_renaming_label": "Tillad omdøbning",
+                "create_heading": "Opret",
+                "delete_discussions_forever_label": "Slet diskussion for altid",
+                "delete_discussions_label": "Slet diskussioner",
+                "delete_posts_forever_label": "Slet indlæg for altid",
+                "delete_posts_label": "Slet indlæg",
+                "description": "Indstil hvem der kan se og gøre hvad.",
+                "edit_posts_label": "Slet indlæg",
+                "edit_users_label": "Slet brugerattributter",
+                "edit_users_credentials_label": "Slet brugerens adgangsoplysninger",
+                "edit_users_groups_label": "Slet brugergrupper",
+                "global_heading": "Global",
+                "moderate_heading": "Moderér",
+                "new_group_button": "Ny gruppe",
+                "participate_heading": "Deltag",
+                "post_without_throttle_label": "Svar gentagne gange uden at vente",
+                "read_heading": "Læs",
+                "rename_discussions_label": "Omdøb diskussion",
+                "reply_to_discussions_label": "Svar på diskussioner",
+                "search_users_label": "Søg efter brugere",
+                "sign_up_label": "Tilmeld",
+                "start_discussions_label": "Start diskussion",
+                "title": "Tilladelser",
+                "view_forum_label": "Vis forum (diskussioner og brugere)",
+                "view_hidden_groups_label": "Vis skjulte brugeremblemer",
+                "view_last_seen_at_label": "Vis altid bruger senest set tid",
+                "view_post_ips_label": "Vis indlæg IP-adresse"
             },
             "permissions_controls": {
-                "allow_indefinitely_button": "",
-                "allow_some_minutes_button": "",
-                "allow_ten_minutes_button": "",
-                "allow_until_reply_button": "",
-                "everyone_button": "",
+                "allow_indefinitely_button": "Uendeligt",
+                "allow_some_minutes_button": "{count, plural, one {I # minut} other {I # minutter}}",
+                "allow_ten_minutes_button": "I 10 minutter",
+                "allow_until_reply_button": "Indtil næste svar",
+                "everyone_button": "Alle",
                 "members_button": "",
-                "signup_closed_button": "",
-                "signup_open_button": ""
+                "signup_closed_button": "Lukket",
+                "signup_open_button": "Åben"
             },
             "settings": {
-                "saved_message": "",
+                "saved_message": "Dine rettelser blev gemt.",
                 "submit_button": ""
             },
             "upload_image": {
                 "remove_button": "",
-                "upload_button": ""
+                "upload_button": "Vælg et billede ..."
             },
             "users": {
-                "description": "",
+                "description": "En sideinddelt liste over alle brugere på dit forum.",
                 "grid": {
                     "columns": {
                         "edit_user": {
                             "button": "",
                             "title": "",
-                            "tooltip": ""
+                            "tooltip": "Ret {username}"
                         },
                         "email": {
                             "title": "",
-                            "visibility_hide": "",
-                            "visibility_show": ""
+                            "visibility_hide": "Skjul e-mailadresse",
+                            "visibility_show": "Vis e-mailadresse"
                         },
                         "group_badges": {
-                            "no_badges": "",
-                            "title": ""
+                            "no_badges": "Ingen",
+                            "title": "Grupper"
                         },
                         "join_time": {
-                            "title": ""
+                            "title": "Tilmeldt"
                         },
                         "user_id": {
-                            "title": ""
+                            "title": "ID"
                         },
                         "username": {
-                            "profile_link_tooltip": "",
+                            "profile_link_tooltip": "Besøg {username}'s profil",
                             "title": ""
                         }
                     },
-                    "invalid_column_content": ""
+                    "invalid_column_content": "Ugyldig"
                 },
                 "pagination": {
-                    "back_button": "",
-                    "next_button": "",
-                    "page_counter": ""
+                    "back_button": "Forrige side",
+                    "next_button": "Næste side",
+                    "page_counter": "Side {current} af {total}"
                 },
                 "title": "",
-                "total_users": ""
+                "total_users": "Total antal brugere: {count}"
             },
             "debug-warning": {
                 "detail": "",
@@ -258,251 +258,251 @@
                 "confirm_password_placeholder": "",
                 "confirmation_message": "",
                 "dismiss_button": "",
-                "incorrect_password_message": "",
+                "incorrect_password_message": "Adgangskoden du tastede er ikke korrekt.",
                 "submit_button": "",
                 "title": ""
             },
             "change_password": {
-                "send_button": "",
-                "text": "",
+                "send_button": "Send e-mail til nulstilling af adgangskode",
+                "text": "Klik på knappen nedenfor, og tjek din e-mail for et at finde et link til at ændre din adgangskode.",
                 "title": ""
             },
             "composer": {
-                "close_tooltip": "",
-                "exit_full_screen_tooltip": "",
-                "full_screen_tooltip": "",
-                "minimize_tooltip": "",
-                "preview_tooltip": ""
+                "close_tooltip": "Luk",
+                "exit_full_screen_tooltip": "Afslut fuld skærm",
+                "full_screen_tooltip": "Fuld skærm",
+                "minimize_tooltip": "Minimér",
+                "preview_tooltip": "Forhåndsvisning"
             },
             "composer_discussion": {
-                "body_placeholder": "",
-                "discard_confirmation": "",
-                "submit_button": "",
+                "body_placeholder": "Skriv et indlæg ...",
+                "discard_confirmation": "Du har ikke indsendt din diskussion. Ønsker du at kassere den?",
+                "submit_button": "Opret diskussion",
                 "title": "",
-                "title_placeholder": ""
+                "title_placeholder": "Diskussionens overskrift"
             },
             "composer_edit": {
-                "discard_confirmation": "",
-                "edited_message": "",
-                "post_link": "",
+                "discard_confirmation": "Du har ikke gemt dine rettelser. Ønsker du at kassere dem?",
+                "edited_message": "Din rettelse blev gemt.",
+                "post_link": "Indlæg nr. {number} i {discussion}",
                 "submit_button": "",
                 "view_button": ""
             },
             "composer_reply": {
                 "body_placeholder": "",
-                "discard_confirmation": "",
-                "posted_message": "",
-                "submit_button": "",
+                "discard_confirmation": "Du har ikke indsendt dit svar. Ønsker du at kassere det?",
+                "posted_message": "Dit svar blev indsendt.",
+                "submit_button": "Indsend svar",
                 "view_button": ""
             },
             "discussion_controls": {
-                "cannot_reply_button": "",
-                "cannot_reply_text": "",
+                "cannot_reply_button": "Kan ikke sende svar",
+                "cannot_reply_text": "Du har ikke tilladelse til at svare på denne diskussion.",
                 "delete_button": "",
-                "delete_confirmation": "",
+                "delete_confirmation": "Er du sikker på du ønsker at slette denne diskussion?",
                 "delete_forever_button": "",
-                "log_in_to_reply_button": "",
+                "log_in_to_reply_button": "Log ind for at svare",
                 "rename_button": "",
                 "reply_button": "",
                 "restore_button": "",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Tænd/sluk rullemenuen for diskussionshandlinger"
             },
             "discussion_list": {
-                "empty_text": "",
+                "empty_text": "Det ser ud til at der ikke er nogen diskussioner her.",
                 "load_more_button": "",
-                "replied_text": "",
-                "started_text": "",
-                "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
+                "replied_text": "{username} besvarede for {ago}",
+                "started_text": "{username} startede for {ago}",
+                "total_replies_a11y_label": "{count, plural, one {# svar} other {# svar}}",
+                "unread_replies_a11y_label": "{count, plural, one {# ulæst svar} other {# ulæste svar}}. Markér {count, plural, one {ulæst svar som læst} other {ulæste svar som læste}}.",
                 "mark_as_read_tooltip": ""
             },
             "forgot_password": {
                 "dismiss_button": "",
                 "email_placeholder": "",
-                "email_sent_message": "",
-                "not_found_message": "",
-                "submit_button": "",
-                "text": "",
-                "title": ""
+                "email_sent_message": "Vi har sendt dig en e-mail med et link til at nulstille din adgangskode. Tjek din spam-mappe, hvis du ikke modtager den inden for det næste minut eller to.",
+                "not_found_message": "Der er ingen bruger registreret med den e-mailadresse.",
+                "submit_button": "Gendan adgangskode",
+                "text": "Indtast din e-mailadresse, og vi sender dig et link til at nulstille din adgangskode.",
+                "title": "Glemt adgangskode"
             },
             "header": {
-                "admin_button": "",
-                "back_to_index_tooltip": "",
-                "locale_dropdown_accessible_label": "",
+                "admin_button": "Administration",
+                "back_to_index_tooltip": "Tilbage til diskussionsliste",
+                "locale_dropdown_accessible_label": "Ændre forumsprog",
                 "log_in_link": "",
                 "log_out_button": "",
-                "profile_button": "",
-                "search_clear_button_accessible_label": "",
-                "search_placeholder": "",
-                "search_role_label": "",
+                "profile_button": "Profil",
+                "search_clear_button_accessible_label": "Ryd søgeresultater",
+                "search_placeholder": "Søg i forum",
+                "search_role_label": "Søg i forum",
                 "session_dropdown_accessible_label": "",
                 "settings_button": "",
                 "sign_up_link": ""
             },
             "index": {
                 "all_discussions_link": "",
-                "cannot_start_discussion_button": "",
-                "mark_all_as_read_confirmation": "",
+                "cannot_start_discussion_button": "Kan ikke starte diskussion",
+                "mark_all_as_read_confirmation": "Er du sikker på du ønsker at markere alle diskussioner som læst?",
                 "mark_all_as_read_tooltip": "",
                 "meta_title_text": "",
-                "refresh_tooltip": "",
+                "refresh_tooltip": "Genopfrisk",
                 "start_discussion_button": "",
-                "toggle_sidenav_dropdown_accessible_label": ""
+                "toggle_sidenav_dropdown_accessible_label": "Skift visning af navigationsrullemenu"
             },
             "index_sort": {
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
-                "toggle_dropdown_accessible_label": "",
-                "top_button": ""
+                "latest_button": "Seneste",
+                "newest_button": "Nyeste",
+                "oldest_button": "Ældste",
+                "relevance_button": "Relevans",
+                "toggle_dropdown_accessible_label": "Ændre sortering af diskussionsliste",
+                "top_button": "Top"
             },
             "log_in": {
-                "forgot_password_link": "",
-                "invalid_login_message": "",
+                "forgot_password_link": "Glemt adgangskode?",
+                "invalid_login_message": "Dine loginoplysninger var forkerte.",
                 "password_placeholder": "",
-                "remember_me_label": "",
-                "sign_up_text": "",
+                "remember_me_label": "Husk mig",
+                "sign_up_text": "Har du endnu ikke en brugerkonto? <a>Tilmeld dig nu</a>",
                 "submit_button": "",
                 "title": "",
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "Brugernavn eller e-mail"
             },
             "notifications": {
-                "discussion_renamed_text": "",
-                "empty_text": "",
+                "discussion_renamed_text": "{username} rettede overskriften",
+                "empty_text": "Ingen påmindelser",
                 "mark_all_as_read_tooltip": "",
-                "mark_as_read_tooltip": "",
+                "mark_as_read_tooltip": "Markér som læst",
                 "title": "",
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Vis påmindelser",
                 "tooltip": "",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "delete_all_confirm": "Er du sikker på du vil slette alle påmindelserne? Denne handling kan ikke rulles tilbage",
+                "delete_all_tooltip": "Slet alle påmindelser"
             },
             "post": {
-                "edited_text": "",
-                "edited_tooltip": "",
-                "number_tooltip": ""
+                "edited_text": "Rettet",
+                "edited_tooltip": "{username} rettede for {ago}",
+                "number_tooltip": "Indlæg nr. {number}"
             },
             "post_controls": {
                 "delete_button": "",
-                "delete_confirmation": "",
+                "delete_confirmation": "Er du sikker på du ønsker at slette dette indlæg for altid? Denne handling kan ikke fortrydes.",
                 "delete_forever_button": "",
                 "edit_button": "",
-                "hide_confirmation": "",
+                "hide_confirmation": "Er du sikker på du ønsker at slette dette indlæg?",
                 "restore_button": "",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Vis/skjul indlægshandlinger dropdown menu"
             },
             "post_scrubber": {
-                "now_link": "",
-                "original_post_link": "",
-                "unread_text": "",
-                "viewing_text": ""
+                "now_link": "Nu",
+                "original_post_link": "Originalt indlæg",
+                "unread_text": "{count} ulæste",
+                "viewing_text": "{count, plural, one {{index} af {formattedCount} indlæg} other {{index} af {formattedCount} indlæg}}"
             },
             "post_stream": {
-                "discussion_renamed_old_tooltip": "",
-                "discussion_renamed_text": "",
+                "discussion_renamed_old_tooltip": "Den gamle overskrift var: \"{old}\"",
+                "discussion_renamed_text": "{username} rettede overskriften til {new}.",
                 "load_more_button": "",
                 "reply_placeholder": "",
-                "time_lapsed_text": ""
+                "time_lapsed_text": "{period} senere"
             },
             "rename_discussion": {
                 "submit_button": "",
-                "title": ""
+                "title": "Omdøb diskussion"
             },
             "search": {
-                "all_discussions_button": "",
+                "all_discussions_button": "Søg i alle diskussioner efter \"{query}\"",
                 "discussions_heading": "",
                 "users_heading": ""
             },
             "settings": {
-                "account_heading": "",
+                "account_heading": "Konto",
                 "change_email_button": "",
                 "change_password_button": "",
                 "notifications_heading": "",
                 "notify_by_email_heading": "",
-                "notify_by_web_heading": "",
-                "notify_discussion_renamed_label": "",
-                "privacy_disclose_online_label": "",
-                "privacy_heading": "",
+                "notify_by_web_heading": "Hjemmeside",
+                "notify_discussion_renamed_label": "Nogen omdøber en diskussion jeg har startet",
+                "privacy_disclose_online_label": "Tillad andre at se når jeg er online",
+                "privacy_heading": "Privatliv",
                 "title": "",
-                "notification_checkbox_a11y_label_template": ""
+                "notification_checkbox_a11y_label_template": "Modtag \"{description}\" påmindelser via {method}"
             },
             "sign_up": {
                 "dismiss_button": "",
                 "email_placeholder": "",
-                "log_in_text": "",
+                "log_in_text": "Har du allerede en konto? <a>Log på</a>",
                 "password_placeholder": "",
                 "submit_button": "",
                 "title": "",
                 "username_placeholder": "",
-                "welcome_text": ""
+                "welcome_text": "Velkommen {username}!"
             },
             "user": {
                 "avatar_remove_button": "",
-                "avatar_upload_button": "",
-                "avatar_upload_tooltip": "",
+                "avatar_upload_button": "Upload",
+                "avatar_upload_tooltip": "Upload en ny avatar",
                 "discussions_link": "",
-                "in_discussion_text": "",
-                "joined_date_text": "",
-                "online_text": "",
-                "posts_empty_text": "",
+                "in_discussion_text": "I {discussion}",
+                "joined_date_text": "Tilmeldte sig for {ago}",
+                "online_text": "Online",
+                "posts_empty_text": "Det ser ud til at der ikke er nogen indlæg her.",
                 "posts_link": "",
                 "posts_load_more_button": "",
                 "settings_link": ""
             },
             "user_controls": {
-                "button": "",
+                "button": "Kontroller",
                 "delete_button": "",
-                "delete_confirmation": "",
-                "delete_error_message": "",
-                "delete_success_message": "",
+                "delete_confirmation": "Er du sikker på du ønsker at slette denne bruger? Brugerens indlæg vil IKKE blive slettet.",
+                "delete_error_message": "Brugeren <i>{username} ({email})</i> kunne ikke slettes",
+                "delete_success_message": "Brugeren <i>{username} ({email})</i> blev slettet",
                 "edit_button": "",
                 "toggle_dropdown_accessible_label": ""
             },
             "user_email_confirmation": {
                 "alert_message": "",
-                "resend_button": "",
-                "sent_message": ""
+                "resend_button": "Gensend bekræftelses e-mail",
+                "sent_message": "Sendt"
             },
             "welcome_hero": {
-                "hide": ""
+                "hide": "Skjul velkomstbesked"
             }
         },
         "lib": {
             "debug_button": "",
             "alert": {
-                "dismiss_a11y_label": ""
+                "dismiss_a11y_label": "Skjul besked"
             },
             "badge": {
-                "hidden_tooltip": ""
+                "hidden_tooltip": "Skjult"
             },
             "dropdown": {
                 "toggle_dropdown_accessible_label": ""
             },
             "edit_user": {
-                "activate_button": "",
+                "activate_button": "Aktivér bruger",
                 "email_heading": "",
                 "email_label": "",
-                "groups_heading": "",
+                "groups_heading": "Grupper",
                 "password_heading": "",
                 "password_label": "",
-                "set_password_label": "",
+                "set_password_label": "Sæt ny adgangskode",
                 "submit_button": "",
                 "title": "",
                 "username_heading": "",
                 "username_label": "",
-                "nothing_available": ""
+                "nothing_available": "Du har ikke tilladelse til at redigere denne bruger."
             },
             "error": {
-                "dependent_extensions_message": "",
-                "extension_initialiation_failed_message": "",
-                "generic_message": "",
+                "dependent_extensions_message": "Kan ikke slå {extension} fra før følgende afhængige udvidelser er slået fra: {extensions}",
+                "extension_initialiation_failed_message": "{extension} kunne ikke indlæses. Tjek browserkonsollen for yderligere information.",
+                "generic_message": "Ups! Noget gik galt. Genindlæs siden og prøv igen.",
                 "missing_dependencies_message": "",
-                "not_found_message": "",
-                "payload_too_large_message": "",
-                "permission_denied_message": "",
-                "rate_limit_exceeded_message": "",
-                "render_failed_message": ""
+                "not_found_message": "Den forespurgte resurse blev ikke fundet.",
+                "payload_too_large_message": "Forespørgslen var for stor.",
+                "permission_denied_message": "Du har ikke tilladelse til at gøre dette.",
+                "rate_limit_exceeded_message": "Du er lidt for hurtig. Prøv venligst igen om få sekunder.",
+                "render_failed_message": "Beklager, vi fandt en fejl da vi skulle vise dette indhold. Hvis du er en almindelige bruger, kan du komme tilbage senere. Hvis du er en administrator kan du tjekke dine Flarum log-filer for mere info."
             },
             "loading_indicator": {
                 "accessible_label": ""
