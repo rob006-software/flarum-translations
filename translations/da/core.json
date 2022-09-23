@@ -508,14 +508,14 @@
                 "accessible_label": ""
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Side # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Side # - {forumName}}}"
             },
             "modal": {
-                "close": ""
+                "close": "Luk"
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "Åben navigationsskuffe"
             },
             "number_suffix": {
                 "kilo_text": "",
@@ -523,37 +523,37 @@
             },
             "series": {
                 "glue_text": "",
-                "three_text": "",
-                "two_text": ""
+                "three_text": "{first}, {second} og {third}",
+                "two_text": "{first} og {second}"
             },
             "username": {
-                "deleted_text": ""
+                "deleted_text": "[slettet]"
             }
         },
         "views": {
             "admin": {
                 "extensions": {
                     "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "disable": "Slå fra",
+                    "empty": "Ingen installerede udvidelser",
+                    "enable": "Slå til",
+                    "name": "Udvidelsens navn",
+                    "package_name": "Pakkenavn",
+                    "version": "Version"
                 },
                 "info": {
                     "caption": ""
                 },
-                "title": ""
+                "title": "Administration"
             },
             "confirm_email": {
                 "submit_button": "",
-                "text": "",
+                "text": "Klik på knappen nedenfor for at bekræfte din kontos e-mail.",
                 "title": ""
             },
             "content": {
-                "javascript_disabled_message": "",
-                "load_error_message": "",
+                "javascript_disabled_message": "Dette websted ses bedst i en moderne browser med JavaScript aktiveret.",
+                "load_error_message": "Noget gik galt under forsøget på at indlæse den fulde version af dette websted. Prøv at opdatere denne side for at rette fejlen.",
                 "loading_text": ""
             },
             "discussion": {
@@ -561,14 +561,14 @@
                 "previous_page_button": ""
             },
             "error": {
-                "csrf_token_mismatch": "",
-                "csrf_token_mismatch_return_link": "",
-                "invalid_confirmation_token": "",
-                "not_authenticated": "",
-                "not_found": "",
-                "not_found_return_link": "",
-                "permission_denied": "",
-                "unknown": ""
+                "csrf_token_mismatch": "Du har været inaktiv for længe.",
+                "csrf_token_mismatch_return_link": "Gå tilbage for at prøve igen",
+                "invalid_confirmation_token": "Dette bekræftelseslink er allerede blevet brugt eller er ugyldigt.",
+                "not_authenticated": "Du har ikke tilladelse til at tilgå denne side. Prøv igen efter at have logget ind.",
+                "not_found": "Siden du leder efter blev ikke fundet.",
+                "not_found_return_link": "Gå tilbage til {forum}",
+                "permission_denied": "Du har ikke tilladelse til at tilgå denne side.",
+                "unknown": "En fejl opstod i forbindelse med hentning af siden."
             },
             "index": {
                 "all_discussions_heading": "",
@@ -577,27 +577,27 @@
             },
             "log_out": {
                 "log_out_button": "",
-                "log_out_confirmation": "",
+                "log_out_confirmation": "Er du sikker på du gerne vil logge af {forum}?",
                 "title": ""
             },
             "reset_password": {
-                "confirm_password_label": "",
-                "new_password_label": "",
+                "confirm_password_label": "Bekræft ny adgangskode",
+                "new_password_label": "Ny adgangskode",
                 "submit_button": "",
                 "title": ""
             }
         },
         "api": {
-            "invalid_username_message": ""
+            "invalid_username_message": "Brugernavnet må kun indeholder bogstaver, tal og streger."
         },
         "email": {
             "activate_account": {
-                "subject": "",
-                "body": ""
+                "subject": "Aktivér din nye konto",
+                "body": "Hej {username}!\n\nNogen (forhåbentlig dig!) har tilmeldt sig {forum} med denne e-mailadresse.\n\nHvis dette var dig, skal du blot klikke på følgende link, og din konto vil blive aktiveret:\n{url}\n\nHvis du ikke tilmeldte dig, bedes du ignorere denne e-mail.\n"
             },
             "confirm_email": {
-                "subject": "",
-                "body": ""
+                "subject": "Bekræft din nye e-mailadresse",
+                "body": "Hej {username}!\n\nNogen (forhåbentlig dig!) har ændret deres e-mailadresse på {forum} til denne.\n\nHvis dette var dig, skal du blot klikke på følgende link, og din e-mail vil blive bekræftet:\n{url}\n\nHvis dette ikke var dig, bedes du ignorere denne e-mail.\n"
             },
             "reset_password": {
                 "subject": "",
