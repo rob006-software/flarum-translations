@@ -2,11 +2,11 @@
     "datlechin-link-preview": {
         "admin": {
             "settings": {
-                "blacklist_label": "",
-                "blacklist_help": "",
-                "blacklist_placeholder": "",
-                "convert_media_urls_label": "",
-                "convert_media_urls_help": ""
+                "blacklist_label": "Черный список",
+                "blacklist_help": "Введите через запятую список доменов или URL для исключения из предпросмотра ссылок.",
+                "blacklist_placeholder": "например, facebook.com,https://domain.com/path",
+                "convert_media_urls_label": "Преобразовывать URL медиа",
+                "convert_media_urls_help": "Если включено, все медиа URL будут преобразованы в предпросмотр ссылок."
             }
         },
         "forum": {
