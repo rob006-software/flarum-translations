@@ -7,108 +7,108 @@
                 }
             },
             "buttons": {
-                "add_recipients": "",
-                "submit": "",
-                "edit_recipients": "",
-                "send_pd": "",
-                "cancel": "",
-                "make_public": "",
-                "remove_from_discussion": ""
+                "add_recipients": "Príjemcovia",
+                "submit": "OK",
+                "edit_recipients": "Upraviť príjemcov",
+                "send_pd": "Odoslať používateľovi {username} správu",
+                "cancel": "Zrušiť",
+                "make_public": "Spraviť túto diskusiu verejnou",
+                "remove_from_discussion": "Odísť z tejto súkromnej diskusie"
             },
             "composer_private_discussion": {
-                "submit_button": "",
-                "title_placeholder": ""
+                "submit_button": "Zverejniť súkromnú diskusiu",
+                "title_placeholder": "Titulok súkromnej diskusie"
             },
             "confirm": {
-                "make_public": ""
+                "make_public": "Naozaj chcete odstrániť príjemcov a sprístupniť túto diskusiu každému, kto môže zobraziť priradený štítok?"
             },
             "labels": {
-                "recipients": ""
+                "recipients": "{count, plural, one {{count} Príjemca} few {{count} Príjemcovia} other {{count} Príjemcov}}"
             },
             "nav": {
-                "start_button": "",
-                "nav_item": ""
+                "start_button": "Diskutovať súkromne",
+                "nav_item": "Súkromné Diskusie"
             },
             "input": {
-                "search_recipients": ""
+                "search_recipients": "Vyhľadajte príjemcu zadaním prvých troch znakov..."
             },
             "search": {
                 "headings": {
-                    "groups": ""
+                    "groups": "Skupiny s oprávnením"
                 }
             },
             "modal": {
                 "titles": {
-                    "update_recipients": "",
-                    "add_recipients": ""
+                    "update_recipients": "Aktualizovať príjemcov pre {title}",
+                    "add_recipients": "Pridajte príjemcov pre Vašu diskusiu"
                 },
                 "labels": {
-                    "selected_users": "",
-                    "search_field": ""
+                    "selected_users": "Vybraní používatelia",
+                    "search_field": "Vyhľadať používateľa"
                 },
                 "help": {
-                    "add_recipients": "",
-                    "update_recipients": "",
-                    "selected_users": "",
-                    "click_user_to_remove_tooltip": ""
+                    "add_recipients": "Táto diskusia bude viditeľná iba pre používateľov, ktorých tu vyberiete. Vyžaduje sa aspoň 1 príjemca (okrem Vás).",
+                    "update_recipients": "Táto diskusia bude viditeľná iba pre používateľov, ktorých tu vyberiete.",
+                    "selected_users": "Kliknite na meno používateľa a odstráňte ho.",
+                    "click_user_to_remove_tooltip": "Kliknite pre odstránenie"
                 }
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "",
-                    "added": "",
-                    "made_public": "",
-                    "removed": "",
-                    "removed_self": ""
+                    "added_and_removed": "Používateľ {username} pridal príjemcov {added} a odstránil {removed}.",
+                    "added": "Používateľ {username} pridal príjemcov {added}.",
+                    "made_public": "Používateľ {username} odstránil všetkých príjemcov a spravil túto diskusiu verejnú",
+                    "removed": "Používateľ {username} odstránil príjemcov {removed}.",
+                    "removed_self": "{username} opustil súkromnú diskusiu."
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": ""
+                    "block_pd": "Blokovať súkromné diskusie"
                 },
-                "byobu_link": "",
-                "dropdown_label": ""
+                "byobu_link": "Súkromné Diskusie",
+                "dropdown_label": "Súkromné Diskusie"
             },
             "notifications": {
-                "pd_label": "",
-                "pd_reply_label": "",
-                "pd_reply_text": "",
-                "pd_text": "",
-                "pd_user_left_label": "",
-                "pd_user_left_text": "",
-                "pd_added_text": "",
-                "pd_added_label": ""
+                "pd_label": "Niekto ma pridá do novej súkromnej diskusie",
+                "pd_reply_label": "Niekto zverejní príspevok v súkromnej diskusií ktorej som účastníkom",
+                "pd_reply_text": "{username} zverejnil príspevok v súkromnej diskusií ktorej ste členom",
+                "pd_text": "{username} s Vami začal novú súkromnú diskusiu",
+                "pd_user_left_label": "Príjemca opustí súkromnú diskusiu ktorej som členom",
+                "pd_user_left_text": "{username} opustil súkromnú diskusiu",
+                "pd_added_text": "{username} Vás pridal do súkromnej diskusie",
+                "pd_added_label": "Niekto ma pridá do existujúcej súkromnej diskusie"
             }
         },
         "admin": {
             "permission": {
-                "create_private_discussions_with_users": "",
-                "create_private_discussions_with_groups": "",
-                "create_private_discussions_with_blocking_users": "",
-                "edit_user_recipients": "",
-                "edit_group_recipients": "",
-                "make_private_into_public": "",
-                "view_private_discussions-when-flagged": ""
+                "create_private_discussions_with_users": "Vytvárať súkromné diskusie s používateľmi",
+                "create_private_discussions_with_groups": "Vytvárať súkromné diskusie so skupinami",
+                "create_private_discussions_with_blocking_users": "Vytvárať súkromné diskusie s používateľmi, ktorí ich blokujú",
+                "edit_user_recipients": "Upravovať príjemcov súkromnej diskusie",
+                "edit_group_recipients": "Upravovať skupiny v súkromnej diskusie",
+                "make_private_into_public": "Premeniť súkromnú diskusiu na verejnú",
+                "view_private_discussions-when-flagged": "Zobrazovať súkromné diskusie iných používateľov, ak sú nahlásené"
             },
             "settings": {
-                "badge-icon": "",
-                "enable-make-public-option": "",
-                "enable-make-public-option-help": "",
-                "post-event-icon": ""
+                "badge-icon": "Byobu Diskusný Odznak",
+                "enable-make-public-option": "Povoliť možnosť \"spraviť verejnou\"",
+                "enable-make-public-option-help": "Pridáva možnosť pre tých, ktorí majú povolenie, odstrániť všetkých príjemcov, priradiť nový štítok a verejne zviditeľniť diskusiu (podľa nastavení viditeľnosti vybranej značky).",
+                "post-event-icon": "Byobu Udalosti Príspevkov"
             }
         },
         "email": {
             "subject": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "[Súkromná Diskusia] Používateľ {display_name} s Vami začal novú súkromnú diskusiu",
+                "private_discussion_replied": "[Súkromná Diskusia] Používateľ {display_name} zverejnil príspevok v súkromnej diskusii",
+                "recipient_removed": "[Súkromná Diskusia] Používateľ {display_name} opustil diskusiu",
+                "private_discussion_added": "[Súkromná Diskusia] Používateľ {display_name} Vás pridal do súkromnej diskusie"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "Ahoj {recipient_display_name},\n\nPoužívateľ {actor_display_name} s Vami (ako s príjemcom) začal novú súkromnú diskusiu: {discussion_title}.\n\nPrezrite si ju tu:\n{discussion_url}\n\nMožno sa predtým budete musieť prihlásiť.\n",
+                "private_discussion_replied": "Ahoj {recipient_display_name},\n\nPoužívateľ {actor_display_name} zverejnil príspevok v súkromnej diskusií s Vami ako s príjemcom: {discussion_title}.\n\nPrezrite si ju tu:\n{post_url}\n\nMožno sa predtým budete musieť prihlásiť.\n",
+                "recipient_removed": "Ahoj {recipient_display_name},\n\nPoužívateľ {actor_display_name} opustil diskusiu: {discussion_title}. Už si nebude môcť prezerať akýkoľvek jej obsah.\n\nPrezrite si ju tu:\n{discussion_url}\n\nMožno sa predtým budete musieť prihlásiť.\n",
+                "private_discussion_added": "Ahoj {recipient_display_name},\n\nPoužívateľ {actor_display_name} Vás pridal do existujúcej súkromnej diskusie: {discussion_title}.\n\nPrezrite si ju tu:\n{discussion_url}\n\nMožno sa predtým budete musieť prihlásiť.\n"
             }
         }
     }
