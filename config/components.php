@@ -29,7 +29,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/android-com-pl/mobile-tab/1.1.1/locale/en.yml',
 	],
 	'acpl-my-tags' => [
-		'tag' => 'https://raw.githubusercontent.com/android-com-pl/my-tags/1.2.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/android-com-pl/my-tags/1.2.1/locale/en.yml',
 	],
 	'afrux-asirem' => [
 		'afrux-theme-base:tag' => 'https://raw.githubusercontent.com/afrux/flarum-theme-base/v0.1.6/locale/en.yml',
