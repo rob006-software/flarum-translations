@@ -26,7 +26,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/android-com-pl/flarum-lscache/0.4.1/locale/en.yml',
 	],
 	'acpl-mobile-tab' => [
-		'tag' => 'https://raw.githubusercontent.com/android-com-pl/mobile-tab/1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/android-com-pl/mobile-tab/1.1.1/locale/en.yml',
 	],
 	'acpl-my-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/android-com-pl/my-tags/1.2.0/locale/en.yml',
