@@ -7,8 +7,8 @@
             },
             "discussion_controls": {
                 "follow_button": "",
-                "unfollow_button": "",
-                "unignore_button": ""
+                "unfollow_button": "Stop med at følge",
+                "unignore_button": "Stop med at ignorere"
             },
             "following": {
                 "meta_title_text": ""
@@ -17,35 +17,35 @@
                 "following_link": ""
             },
             "notifications": {
-                "new_post_text": ""
+                "new_post_text": "{username} lavede et indlæg"
             },
             "settings": {
-                "follow_after_reply_label": "",
-                "notify_for_all_posts_label": "",
-                "notify_new_post_label": ""
+                "follow_after_reply_label": "Følg automatisk diskussioner som jeg deltager i",
+                "notify_for_all_posts_label": "Giv besked om hvert eneste indlæg i stedet for kun det sidste i en diskussion",
+                "notify_new_post_label": "Der er en, der tilføjer et indlæg i en diskussion jeg følger"
             },
             "sub_controls": {
                 "follow_button": "",
                 "following_button": "",
-                "following_text": "",
+                "following_text": "Bliv påmindet om alle svar.",
                 "ignoring_button": "",
-                "ignoring_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": ""
+                "ignoring_text": "Bliv aldrig påmindet. Skjul fra diskussionsliste.",
+                "not_following_button": "Følger ikke",
+                "not_following_text": "Bliv kun påmindet når du er @mentioned.",
+                "notify_alert_tooltip": "Få en forumpåmindelse når der er nye indlæg",
+                "notify_email_tooltip": "Få en e-mail tilsendt når der er nye indlæg"
             }
         },
         "email": {
             "new_post": {
-                "subject": "",
-                "body": ""
+                "subject": "[Nyt indlæg] {title}",
+                "body": "Hej {recipient_display_name}!\n\n{poster_display_name} lavede et indlæg i en diskussion, du følger: {title}.\n\nFor at se den nye aktivitet, tjek følgende link:\n{url}\n\n---\n\n{content}\n\n---\n\nDu vil ikke modtage flere meddelelser om denne diskussion, før du er opdateret.\n"
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "ignoring": ""
+            "follow": "Følg",
+            "following": "Følger",
+            "ignoring": "Ignorerer"
         }
     }
 }
