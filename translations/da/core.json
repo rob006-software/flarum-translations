@@ -57,25 +57,25 @@
             },
             "edit_footer": {
                 "customize_text": "=> core.ref.custom_footer_text",
-                "submit_button": "",
+                "submit_button": "Gem ændringer",
                 "title": ""
             },
             "edit_group": {
-                "color_label": "",
+                "color_label": "Farve",
                 "delete_button": "Slet gruppe",
                 "delete_confirmation": "Er du sikker på du ønsker at slette denne gruppe? Gruppemedlemmerne vil IKKE blive slettet.",
                 "hide_label": "Skjul på forum",
-                "icon_label": "",
-                "icon_text": "",
+                "icon_label": "Ikon",
+                "icon_text": "Ikon tekst",
                 "name_label": "Navn",
                 "plural_placeholder": "Flertal (eks. moderatorer)",
                 "singular_placeholder": "Ental (eks. moderator)",
-                "submit_button": "",
+                "submit_button": "Gem ændringer",
                 "title": "Opret gruppe"
             },
             "edit_header": {
                 "customize_text": "",
-                "submit_button": "",
+                "submit_button": "Gem ændringer",
                 "title": ""
             },
             "email": {
@@ -89,9 +89,9 @@
                 "mail_mailgun_domain_label": "Domæne",
                 "mail_mailgun_region_label": "Region",
                 "mail_mailgun_secret_label": "Hemmelig nøgle",
-                "mail_password_label": "",
+                "mail_password_label": "Adgangskode",
                 "mail_port_label": "Port",
-                "mail_username_label": "",
+                "mail_username_label": "Brugernavn",
                 "mailgun_heading": "Mailgun indstillinger",
                 "not_sending_message": "Flarum sender i øjeblikket ingen e-mails. Dette skyldes den valgte driver, eller fejl i opsætningen.",
                 "send_test_mail_button": "Send",
@@ -99,7 +99,7 @@
                 "send_test_mail_success": "Test e-mail blev sendt som den skulle!",
                 "send_test_mail_text": "Dette vil sende en mail ved brug af ovenstående konfiguration til din e-mail: {email}.",
                 "smtp_heading": "SMTP indstillinger",
-                "title": ""
+                "title": "E-mail"
             },
             "extension": {
                 "configure_scopes": "Indstil scopes",
@@ -130,7 +130,7 @@
             },
             "header": {
                 "get_help": "Få hjælp",
-                "log_out_button": ""
+                "log_out_button": "Log ud"
             },
             "loading": {
                 "title": "Vent venligst ..."
@@ -153,7 +153,7 @@
                 },
                 "dashboard_button": "",
                 "dashboard_title": "Autentificering",
-                "email_button": "",
+                "email_button": "E-mail",
                 "email_title": "",
                 "permissions_button": "",
                 "permissions_title": "",
@@ -197,16 +197,16 @@
                 "allow_ten_minutes_button": "I 10 minutter",
                 "allow_until_reply_button": "Indtil næste svar",
                 "everyone_button": "Alle",
-                "members_button": "",
+                "members_button": "Medlemmer",
                 "signup_closed_button": "Lukket",
                 "signup_open_button": "Åben"
             },
             "settings": {
                 "saved_message": "Dine rettelser blev gemt.",
-                "submit_button": ""
+                "submit_button": "Gem ændringer"
             },
             "upload_image": {
-                "remove_button": "",
+                "remove_button": "Fjern",
                 "upload_button": "Vælg et billede ..."
             },
             "users": {
@@ -214,12 +214,12 @@
                 "grid": {
                     "columns": {
                         "edit_user": {
-                            "button": "",
-                            "title": "",
+                            "button": "Redigér",
+                            "title": "Redigér bruger",
                             "tooltip": "Ret {username}"
                         },
                         "email": {
-                            "title": "",
+                            "title": "E-mail",
                             "visibility_hide": "Skjul e-mailadresse",
                             "visibility_show": "Vis e-mailadresse"
                         },
@@ -235,7 +235,7 @@
                         },
                         "username": {
                             "profile_link_tooltip": "Besøg {username}'s profil",
-                            "title": ""
+                            "title": "Brugernavn"
                         }
                     },
                     "invalid_column_content": "Ugyldig"
@@ -245,7 +245,7 @@
                     "next_button": "Næste side",
                     "page_counter": "Side {current} af {total}"
                 },
-                "title": "",
+                "title": "Brugere",
                 "total_users": "Total antal brugere: {count}"
             },
             "debug-warning": {
@@ -255,17 +255,17 @@
         },
         "forum": {
             "change_email": {
-                "confirm_password_placeholder": "",
-                "confirmation_message": "",
-                "dismiss_button": "",
+                "confirm_password_placeholder": "Bekræft adgangskode",
+                "confirmation_message": "Bekræftelsesmail sendt",
+                "dismiss_button": "Okay",
                 "incorrect_password_message": "Adgangskoden du tastede er ikke korrekt.",
-                "submit_button": "",
-                "title": ""
+                "submit_button": "Gem ændringer",
+                "title": "Ændre e-mail"
             },
             "change_password": {
                 "send_button": "Send e-mail til nulstilling af adgangskode",
                 "text": "Klik på knappen nedenfor, og tjek din e-mail for et at finde et link til at ændre din adgangskode.",
-                "title": ""
+                "title": "Ændre adgangskode"
             },
             "composer": {
                 "close_tooltip": "Luk",
@@ -278,38 +278,38 @@
                 "body_placeholder": "Skriv et indlæg ...",
                 "discard_confirmation": "Du har ikke indsendt din diskussion. Ønsker du at kassere den?",
                 "submit_button": "Opret diskussion",
-                "title": "",
+                "title": "Start en diskussion",
                 "title_placeholder": "Diskussionens overskrift"
             },
             "composer_edit": {
                 "discard_confirmation": "Du har ikke gemt dine rettelser. Ønsker du at kassere dem?",
                 "edited_message": "Din rettelse blev gemt.",
                 "post_link": "Indlæg nr. {number} i {discussion}",
-                "submit_button": "",
-                "view_button": ""
+                "submit_button": "Gem ændringer",
+                "view_button": "Vis"
             },
             "composer_reply": {
-                "body_placeholder": "",
+                "body_placeholder": "Skriv et svar",
                 "discard_confirmation": "Du har ikke indsendt dit svar. Ønsker du at kassere det?",
                 "posted_message": "Dit svar blev indsendt.",
                 "submit_button": "Indsend svar",
-                "view_button": ""
+                "view_button": "Vis"
             },
             "discussion_controls": {
                 "cannot_reply_button": "Kan ikke sende svar",
                 "cannot_reply_text": "Du har ikke tilladelse til at svare på denne diskussion.",
-                "delete_button": "",
+                "delete_button": "Slet",
                 "delete_confirmation": "Er du sikker på du ønsker at slette denne diskussion?",
-                "delete_forever_button": "",
+                "delete_forever_button": "Slet for altid",
                 "log_in_to_reply_button": "Log ind for at svare",
-                "rename_button": "",
-                "reply_button": "",
-                "restore_button": "",
+                "rename_button": "Omdøb",
+                "reply_button": "Svar",
+                "restore_button": "Gendan",
                 "toggle_dropdown_accessible_label": "Tænd/sluk rullemenuen for diskussionshandlinger"
             },
             "discussion_list": {
                 "empty_text": "Det ser ud til at der ikke er nogen diskussioner her.",
-                "load_more_button": "",
+                "load_more_button": "Indlæs flere",
                 "replied_text": "{username} besvarede for {ago}",
                 "started_text": "{username} startede for {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# svar} other {# svar}}",
@@ -317,8 +317,8 @@
                 "mark_as_read_tooltip": ""
             },
             "forgot_password": {
-                "dismiss_button": "",
-                "email_placeholder": "",
+                "dismiss_button": "Okay",
+                "email_placeholder": "E-mail",
                 "email_sent_message": "Vi har sendt dig en e-mail med et link til at nulstille din adgangskode. Tjek din spam-mappe, hvis du ikke modtager den inden for det næste minut eller to.",
                 "not_found_message": "Der er ingen bruger registreret med den e-mailadresse.",
                 "submit_button": "Gendan adgangskode",
@@ -329,24 +329,24 @@
                 "admin_button": "Administration",
                 "back_to_index_tooltip": "Tilbage til diskussionsliste",
                 "locale_dropdown_accessible_label": "Ændre forumsprog",
-                "log_in_link": "",
-                "log_out_button": "",
+                "log_in_link": "Log ind",
+                "log_out_button": "Log ud",
                 "profile_button": "Profil",
                 "search_clear_button_accessible_label": "Ryd søgeresultater",
                 "search_placeholder": "Søg i forum",
                 "search_role_label": "Søg i forum",
                 "session_dropdown_accessible_label": "",
-                "settings_button": "",
-                "sign_up_link": ""
+                "settings_button": "Indstillinger",
+                "sign_up_link": "Opret konto"
             },
             "index": {
-                "all_discussions_link": "",
+                "all_discussions_link": "Alle diskussioner",
                 "cannot_start_discussion_button": "Kan ikke starte diskussion",
                 "mark_all_as_read_confirmation": "Er du sikker på du ønsker at markere alle diskussioner som læst?",
-                "mark_all_as_read_tooltip": "",
-                "meta_title_text": "",
+                "mark_all_as_read_tooltip": "Markér alle som læst",
+                "meta_title_text": "Alle diskussioner",
                 "refresh_tooltip": "Genopfrisk",
-                "start_discussion_button": "",
+                "start_discussion_button": "Start en diskussion",
                 "toggle_sidenav_dropdown_accessible_label": "Skift visning af navigationsrullemenu"
             },
             "index_sort": {
@@ -360,21 +360,21 @@
             "log_in": {
                 "forgot_password_link": "Glemt adgangskode?",
                 "invalid_login_message": "Dine loginoplysninger var forkerte.",
-                "password_placeholder": "",
+                "password_placeholder": "Adgangskode",
                 "remember_me_label": "Husk mig",
                 "sign_up_text": "Har du endnu ikke en brugerkonto? <a>Tilmeld dig nu</a>",
-                "submit_button": "",
-                "title": "",
+                "submit_button": "Log ind",
+                "title": "Log ind",
                 "username_or_email_placeholder": "Brugernavn eller e-mail"
             },
             "notifications": {
                 "discussion_renamed_text": "{username} rettede overskriften",
                 "empty_text": "Ingen påmindelser",
-                "mark_all_as_read_tooltip": "",
+                "mark_all_as_read_tooltip": "Markér alle som læst",
                 "mark_as_read_tooltip": "Markér som læst",
-                "title": "",
+                "title": "Påmindelser",
                 "toggle_dropdown_accessible_label": "Vis påmindelser",
-                "tooltip": "",
+                "tooltip": "Påmindelser",
                 "delete_all_confirm": "Er du sikker på du vil slette alle påmindelserne? Denne handling kan ikke rulles tilbage",
                 "delete_all_tooltip": "Slet alle påmindelser"
             },
@@ -384,12 +384,12 @@
                 "number_tooltip": "Indlæg nr. {number}"
             },
             "post_controls": {
-                "delete_button": "",
+                "delete_button": "Slet",
                 "delete_confirmation": "Er du sikker på du ønsker at slette dette indlæg for altid? Denne handling kan ikke fortrydes.",
-                "delete_forever_button": "",
-                "edit_button": "",
+                "delete_forever_button": "Slet for altid",
+                "edit_button": "Redigér",
                 "hide_confirmation": "Er du sikker på du ønsker at slette dette indlæg?",
-                "restore_button": "",
+                "restore_button": "Gendan",
                 "toggle_dropdown_accessible_label": "Vis/skjul indlægshandlinger dropdown menu"
             },
             "post_scrubber": {
@@ -401,66 +401,66 @@
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Den gamle overskrift var: \"{old}\"",
                 "discussion_renamed_text": "{username} rettede overskriften til {new}.",
-                "load_more_button": "",
-                "reply_placeholder": "",
+                "load_more_button": "Indlæs flere",
+                "reply_placeholder": "Skriv et svar",
                 "time_lapsed_text": "{period} senere"
             },
             "rename_discussion": {
-                "submit_button": "",
+                "submit_button": "Omdøb",
                 "title": "Omdøb diskussion"
             },
             "search": {
                 "all_discussions_button": "Søg i alle diskussioner efter \"{query}\"",
-                "discussions_heading": "",
-                "users_heading": ""
+                "discussions_heading": "Diskussioner",
+                "users_heading": "Brugere"
             },
             "settings": {
                 "account_heading": "Konto",
-                "change_email_button": "",
-                "change_password_button": "",
-                "notifications_heading": "",
-                "notify_by_email_heading": "",
+                "change_email_button": "Ændre e-mail",
+                "change_password_button": "Ændre adgangskode",
+                "notifications_heading": "Påmindelser",
+                "notify_by_email_heading": "E-mail",
                 "notify_by_web_heading": "Hjemmeside",
                 "notify_discussion_renamed_label": "Nogen omdøber en diskussion jeg har startet",
                 "privacy_disclose_online_label": "Tillad andre at se når jeg er online",
                 "privacy_heading": "Privatliv",
-                "title": "",
+                "title": "Indstillinger",
                 "notification_checkbox_a11y_label_template": "Modtag \"{description}\" påmindelser via {method}"
             },
             "sign_up": {
-                "dismiss_button": "",
-                "email_placeholder": "",
+                "dismiss_button": "Okay",
+                "email_placeholder": "E-mail",
                 "log_in_text": "Har du allerede en konto? <a>Log på</a>",
-                "password_placeholder": "",
-                "submit_button": "",
-                "title": "",
-                "username_placeholder": "",
+                "password_placeholder": "Adgangskode",
+                "submit_button": "Opret konto",
+                "title": "Opret konto",
+                "username_placeholder": "Brugernavn",
                 "welcome_text": "Velkommen {username}!"
             },
             "user": {
-                "avatar_remove_button": "",
+                "avatar_remove_button": "Fjern",
                 "avatar_upload_button": "Upload",
                 "avatar_upload_tooltip": "Upload en ny avatar",
-                "discussions_link": "",
+                "discussions_link": "Diskussioner",
                 "in_discussion_text": "I {discussion}",
                 "joined_date_text": "Tilmeldte sig for {ago}",
                 "online_text": "Online",
                 "posts_empty_text": "Det ser ud til at der ikke er nogen indlæg her.",
-                "posts_link": "",
-                "posts_load_more_button": "",
-                "settings_link": ""
+                "posts_link": "Indlæg",
+                "posts_load_more_button": "Indlæs flere",
+                "settings_link": "Indstillinger"
             },
             "user_controls": {
                 "button": "Kontroller",
-                "delete_button": "",
+                "delete_button": "Slet",
                 "delete_confirmation": "Er du sikker på du ønsker at slette denne bruger? Brugerens indlæg vil IKKE blive slettet.",
                 "delete_error_message": "Brugeren <i>{username} ({email})</i> kunne ikke slettes",
                 "delete_success_message": "Brugeren <i>{username} ({email})</i> blev slettet",
-                "edit_button": "",
+                "edit_button": "Redigér",
                 "toggle_dropdown_accessible_label": ""
             },
             "user_email_confirmation": {
-                "alert_message": "",
+                "alert_message": "Bekræftelsesmail sendt",
                 "resend_button": "Gensend bekræftelses e-mail",
                 "sent_message": "Sendt"
             },
@@ -481,16 +481,16 @@
             },
             "edit_user": {
                 "activate_button": "Aktivér bruger",
-                "email_heading": "",
-                "email_label": "",
+                "email_heading": "E-mail",
+                "email_label": "E-mail",
                 "groups_heading": "Grupper",
-                "password_heading": "",
-                "password_label": "",
+                "password_heading": "Adgangskode",
+                "password_label": "Adgangskode",
                 "set_password_label": "Sæt ny adgangskode",
-                "submit_button": "",
-                "title": "",
-                "username_heading": "",
-                "username_label": "",
+                "submit_button": "Gem ændringer",
+                "title": "Redigér bruger",
+                "username_heading": "Brugernavn",
+                "username_label": "Brugernavn",
                 "nothing_available": "Du har ikke tilladelse til at redigere denne bruger."
             },
             "error": {
@@ -505,7 +505,7 @@
                 "render_failed_message": "Beklager, vi fandt en fejl da vi skulle vise dette indhold. Hvis du er en almindelige bruger, kan du komme tilbage senere. Hvis du er en administrator kan du tjekke dine Flarum log-filer for mere info."
             },
             "loading_indicator": {
-                "accessible_label": ""
+                "accessible_label": "Henter ..."
             },
             "meta_titles": {
                 "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Side # - {forumName}}}",
@@ -549,16 +549,16 @@
             "confirm_email": {
                 "submit_button": "",
                 "text": "Klik på knappen nedenfor for at bekræfte din kontos e-mail.",
-                "title": ""
+                "title": "Bekræft e-mail"
             },
             "content": {
                 "javascript_disabled_message": "Dette websted ses bedst i en moderne browser med JavaScript aktiveret.",
                 "load_error_message": "Noget gik galt under forsøget på at indlæse den fulde version af dette websted. Prøv at opdatere denne side for at rette fejlen.",
-                "loading_text": ""
+                "loading_text": "Henter ..."
             },
             "discussion": {
-                "next_page_button": "",
-                "previous_page_button": ""
+                "next_page_button": "Næste side",
+                "previous_page_button": "Forrige side"
             },
             "error": {
                 "csrf_token_mismatch": "Du har været inaktiv for længe.",
@@ -571,20 +571,20 @@
                 "unknown": "En fejl opstod i forbindelse med hentning af siden."
             },
             "index": {
-                "all_discussions_heading": "",
-                "next_page_button": "",
-                "previous_page_button": ""
+                "all_discussions_heading": "Alle diskussioner",
+                "next_page_button": "Næste side",
+                "previous_page_button": "Forrige side"
             },
             "log_out": {
-                "log_out_button": "",
+                "log_out_button": "Log ud",
                 "log_out_confirmation": "Er du sikker på du gerne vil logge af {forum}?",
-                "title": ""
+                "title": "Log ud"
             },
             "reset_password": {
                 "confirm_password_label": "Bekræft ny adgangskode",
                 "new_password_label": "Ny adgangskode",
-                "submit_button": "",
-                "title": ""
+                "submit_button": "Gem ændringer",
+                "title": "Nulstil din adgangskode"
             }
         },
         "api": {
@@ -600,7 +600,7 @@
                 "body": "Hej {username}!\n\nNogen (forhåbentlig dig!) har ændret deres e-mailadresse på {forum} til denne.\n\nHvis dette var dig, skal du blot klikke på følgende link, og din e-mail vil blive bekræftet:\n{url}\n\nHvis dette ikke var dig, bedes du ignorere denne e-mail.\n"
             },
             "reset_password": {
-                "subject": "",
+                "subject": "Nulstil din adgangskode",
                 "body": "Hej {username}!\n\nNogen (forhåbentlig dig!) har sendt en anmodning om glemt adgangskode til din konto på {forum}.\n\nHvis dette var dig, skal du klikke på følgende link for at nulstille din adgangskode:\n{url}\n\nHvis du ikke ønsker at ændre din adgangskode, skal du bare ignorere denne e-mail, og så sker der ikke noget.\n"
             },
             "send_test": {
