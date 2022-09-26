@@ -2,9 +2,9 @@
     "flarum-approval": {
         "admin": {
             "permissions": {
-                "approve_posts_label": "",
-                "reply_without_approval_label": "",
-                "start_discussions_without_approval_label": ""
+                "approve_posts_label": "Godkend indlæg",
+                "reply_without_approval_label": "Svar på diskussioner uden godkendelse",
+                "start_discussions_without_approval_label": "Start diskussion uden godkendelse"
             }
         },
         "forum": {
@@ -15,11 +15,11 @@
                 "awaiting_approval_text": ""
             },
             "post_controls": {
-                "approve_button": ""
+                "approve_button": "Godkend"
             }
         },
         "ref": {
-            "awaiting_approval": ""
+            "awaiting_approval": "Afventer godkendelse"
         }
     }
 }
