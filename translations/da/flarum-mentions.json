@@ -2,47 +2,47 @@
     "flarum-mentions": {
         "admin": {
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "Tillad omtale af brugernavn (@brugernavn)",
+                "allow_username_format_text": "Det aktuelle format for brugeromtaler er @\"Visningsnavn\"#ID.\nDenne indstilling tillader brug af det gamle format af @Brugernavn, men det vil stadig blive konverteret til det nye format ved lagring.\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "",
-                "reply_to_post_text": ""
+                "mention_tooltip": "Omtal en bruger eller et indlæg",
+                "reply_to_post_text": "Svar på #{number}"
             },
             "notifications": {
                 "others_text": "",
-                "post_mentioned_text": "",
-                "user_mentioned_text": ""
+                "post_mentioned_text": "{username} svarede på dit indlæg",
+                "user_mentioned_text": "{username} nævnte dig"
             },
             "post": {
-                "mentioned_by_self_text": "",
-                "mentioned_by_text": "",
+                "mentioned_by_self_text": "{users} svarede på dette.",
+                "mentioned_by_text": "{users} svarede på dette.",
                 "others_text": "",
-                "quote_button": "",
+                "quote_button": "Citér",
                 "reply_link": "",
                 "you_text": ""
             },
             "settings": {
-                "notify_post_mentioned_label": "",
-                "notify_user_mentioned_label": ""
+                "notify_post_mentioned_label": "Der er en der svarer på et af mine indlæg",
+                "notify_user_mentioned_label": "Der er en der omtaler mig i et indlæg"
             },
             "user": {
-                "mentions_link": ""
+                "mentions_link": "Omtaler"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[ukendt]"
             }
         },
         "email": {
             "post_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name} svarede på dit indlæg i {title}",
+                "body": "Hej {recipient_display_name}!\n\n{replier_display_name} svarede på dit indlæg (#{post_number}) i {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} omtalte dig i {title}",
+                "body": "Hej {recipient_display_name}!\n\n{mentioner_display_name} nævnte dig i et indlæg i {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
