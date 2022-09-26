@@ -2,34 +2,34 @@
     "flarum-likes": {
         "admin": {
             "permissions": {
-                "like_posts_label": ""
+                "like_posts_label": "'Synes godt om' indlæg"
             },
             "settings": {
-                "like_own_posts_help": "",
-                "like_own_posts_label": ""
+                "like_own_posts_help": "Når dette er aktiveret, kan brugere med tilladelse 'synes godt om' deres egne indlæg på forummet. For at forhindre brugere i at placere et \"synes godt om\" på deres egne indlæg, skal du deaktivere denne indstilling.",
+                "like_own_posts_label": "Brugere må 'Synes godt om' deres egne indlæg"
             }
         },
         "forum": {
             "notifications": {
                 "others_text": "",
-                "post_liked_text": ""
+                "post_liked_text": "{username} syntes godt om dit indlæg"
             },
             "post": {
-                "like_link": "",
-                "liked_by_self_text": "",
-                "liked_by_text": "",
+                "like_link": "Synes godt om",
+                "liked_by_self_text": "{users} synes godt om dette.",
+                "liked_by_text": "{count, plural, one {{users} synes godt om dette} other {{users} synes godt om dette}}.",
                 "others_link": "",
-                "unlike_link": "",
+                "unlike_link": "Fjern 'Synes godt om'",
                 "you_text": ""
             },
             "post_likes": {
-                "title": ""
+                "title": "Brugere som synes godt om dette"
             },
             "settings": {
-                "notify_post_liked_label": ""
+                "notify_post_liked_label": "Nogen synes godt om et af mine indlæg"
             },
             "user": {
-                "likes_link": ""
+                "likes_link": "Synes godt om"
             }
         }
     }
