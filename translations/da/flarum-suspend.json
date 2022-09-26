@@ -2,49 +2,49 @@
     "flarum-suspend": {
         "admin": {
             "permissions": {
-                "suspend_users_label": ""
+                "suspend_users_label": "Suspendér brugere"
             }
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "",
-                "user_suspended_indefinite_text": "",
-                "user_unsuspended_text": ""
+                "user_suspended_text": "Du er blevet suspenderet i {timeReadable}",
+                "user_suspended_indefinite_text": "Du er blevet suspenderet for altid",
+                "user_unsuspended_text": "Du er ikke længere suspenderet"
             },
             "suspension_info": {
-                "dismiss_button": "",
-                "indefinite": "",
-                "limited": "",
-                "title": ""
+                "dismiss_button": "Afvis",
+                "indefinite": "Dette er en uendelig suspendering",
+                "limited": "Denne suspendering vil fortsætte indtil {date}",
+                "title": "Denne konto er suspenderet"
             },
             "suspend_user": {
-                "display_message": "",
-                "indefinitely_label": "",
-                "limited_time_days_text": "",
-                "limited_time_label": "",
-                "not_suspended_label": "",
-                "placeholder_optional": "",
-                "reason": "",
-                "status_heading": "",
+                "display_message": "Vis besked til bruger",
+                "indefinitely_label": "Suspendér for altid",
+                "limited_time_days_text": " dage",
+                "limited_time_label": "Suspenderet i en begrænset periode ...",
+                "not_suspended_label": "Ikke suspenderet",
+                "placeholder_optional": "Valgfri",
+                "reason": "Årsag til suspendering",
+                "status_heading": "Suspenderingsstatus",
                 "submit_button": "",
-                "title": ""
+                "title": "Suspendér {username}"
             },
             "user_badge": {
-                "suspended_tooltip": ""
+                "suspended_tooltip": "Suspenderet"
             },
             "user_controls": {
-                "suspend_button": ""
+                "suspend_button": "Suspendér"
             }
         },
         "email": {
-            "no_reason_given": "",
+            "no_reason_given": "Ingen årsag blev givet til suspenderingen.",
             "suspended": {
-                "subject": "",
-                "body": ""
+                "subject": "Din konto er suspenderet",
+                "body": "Hej {recipient_display_name}\n\nDu er blevet suspenderet af følgende årsag:\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
-                "subject": "",
-                "body": ""
+                "subject": "Din konto er blevet suspenderet",
+                "body": "Hej {recipient_display_name},\n\nVi har fjernet din suspendering. Du kan gå tilbage til forummet ved at klikke på følgende link:\n\n{forum_url}\n"
             }
         }
     }
