@@ -4,13 +4,21 @@
             "check-in": "Check In",
             "checked-in-day": "Checked In {count} Day",
             "checked-in-days": "Checked In {count} Days",
-            "check-in-success": "Checked In"
+            "check-in-success": "Checked In Success"
         },
         "admin": {
             "settings": {
                 "timezone": "Timezone",
                 "reward-money": "Check in reward",
-                "reward-money-requirement": "Requires the <code>antoinefr/flarum-ext-money</code> extension"
+                "reward-money-requirement": "Requires the <code>antoinefr/flarum-ext-money</code> extension",
+                "check-in-success-prompt-type": "Check in success prompt type",
+                "check-in-success-prompt-text": "Prompt text",
+                "check-in-success-prompt-reward-text": "Prompt reward text",
+                "check-in-success-prompt-example-text": "Example: You have checked in for [days] days",
+                "check-in-success-prompt-example-reward-text": "Example: Gained [reward] reward",
+                "None": "None",
+                "Alert": "Alert",
+                "Modal": "Modal"
             }
         }
     }
