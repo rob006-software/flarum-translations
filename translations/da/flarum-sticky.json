@@ -11,15 +11,15 @@
             },
             "discussion_controls": {
                 "sticky_button": "",
-                "unsticky_button": ""
+                "unsticky_button": "Fjern klæbrig"
             },
             "post_stream": {
-                "discussion_stickied_text": "",
-                "discussion_unstickied_text": ""
+                "discussion_stickied_text": "{username} gjorde diskussionen klæbrig.",
+                "discussion_unstickied_text": "{username} fjernede klæbrig fra diskussionen."
             }
         },
         "ref": {
-            "sticky": ""
+            "sticky": "Klæbrig"
         }
     }
 }
