@@ -2,26 +2,26 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": ""
+                "lock_discussions_label": "Lås diskussioner"
             }
         },
         "forum": {
             "badge": {
-                "locked_tooltip": ""
+                "locked_tooltip": "Låst"
             },
             "discussion_controls": {
-                "lock_button": "",
-                "unlock_button": ""
+                "lock_button": "Lås",
+                "unlock_button": "Fjern lås"
             },
             "notifications": {
-                "discussion_locked_text": ""
+                "discussion_locked_text": "{username} låst"
             },
             "post_stream": {
-                "discussion_locked_text": "",
-                "discussion_unlocked_text": ""
+                "discussion_locked_text": "{username} låste diskussionen.",
+                "discussion_unlocked_text": "{username} fjernede låsen fra diskussionen."
             },
             "settings": {
-                "notify_discussion_locked_label": ""
+                "notify_discussion_locked_label": "Der er en der låser en diskussion som jeg har startet"
             }
         }
     }
