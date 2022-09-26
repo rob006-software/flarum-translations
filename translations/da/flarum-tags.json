@@ -6,88 +6,88 @@
             },
             "edit_tag": {
                 "color_label": "",
-                "delete_tag_button": "",
-                "delete_tag_confirmation": "",
-                "description_label": "",
-                "hide_label": "",
+                "delete_tag_button": "Slet mærkat",
+                "delete_tag_confirmation": "Er du sikker på du ønsker at slette dette mærkat? Diskussioner med dette mærkat vil IKKE blive slettet.",
+                "description_label": "Beskrivelse",
+                "hide_label": "Skjul fra alle diskussioner",
                 "icon_label": "",
                 "icon_text": "",
                 "name_label": "",
                 "name_placeholder": "",
-                "slug_label": "",
+                "slug_label": "URL-navn",
                 "submit_button": "",
-                "title": ""
+                "title": "Opret mærkat"
             },
             "nav": {
                 "tags_button": "",
-                "tags_text": ""
+                "tags_text": "Administrer listen over tilgængelige mærkater til at organisere diskussioner med."
             },
             "permissions": {
-                "allow_edit_tags_label": "",
-                "bypass_tag_counts_label": "",
-                "restrict_by_tag_heading": "",
-                "tag_discussions_label": ""
+                "allow_edit_tags_label": "Tillad redigering af mærkater",
+                "bypass_tag_counts_label": "Omgå krav til mærkat",
+                "restrict_by_tag_heading": "Begræns til mærkat",
+                "tag_discussions_label": "Tildel mærkater til diskussioner"
             },
             "tag_settings": {
-                "range_separator_text": "",
-                "required_primary_heading": "",
+                "range_separator_text": " til ",
+                "required_primary_heading": "Påkrævet antal primær-mærkater",
                 "required_primary_text": "",
                 "required_secondary_heading": "",
                 "required_secondary_text": "",
-                "title": ""
+                "title": "Mærkatindstillinger"
             },
             "tags": {
-                "about_tags_text": "",
-                "create_primary_tag_button": "",
-                "create_secondary_tag_button": "",
-                "primary_heading": "",
-                "secondary_heading": "",
-                "settings_heading": ""
+                "about_tags_text": "Mærkater bruges til at kategorisere diskussioner. Primære mærkater er som traditionelle forumkategorier: de kan arrangeres i et to-niveau hierarki. Sekundære mærkater har ikke hierarki eller rækkefølge og er nyttige til mikrokategorisering.",
+                "create_primary_tag_button": "Opret primært mærkat",
+                "create_secondary_tag_button": "Opret sekundært mærkat",
+                "primary_heading": "Primære mærkater",
+                "secondary_heading": "Sekundære mærkater",
+                "settings_heading": "Indstillinger"
             }
         },
         "forum": {
             "all_tags": {
-                "meta_description_text": "",
+                "meta_description_text": "Alle mærkater",
                 "meta_title_text": ""
             },
             "choose_tags": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "edit_title": "",
+                "bypass_requirements": "Omgå mærkatkrav",
+                "choose_primary_placeholder": "{count, plural, one {Vælg et primær mærkat} other {Vælg # primær mærkater}}",
+                "choose_secondary_placeholder": "{count, plural, one {Vælg 1 mærkat mere} other {Vælg # mærkater mere}}",
+                "edit_title": "Ret mærkat for {title}",
                 "submit_button": "",
-                "title": ""
+                "title": "Vælg mærkater til din diskussion"
             },
             "composer_discussion": {
-                "choose_tags_link": ""
+                "choose_tags_link": "Vælg mærkater"
             },
             "discussion_controls": {
-                "edit_tags_button": ""
+                "edit_tags_button": "Ret mærkater"
             },
             "header": {
-                "back_to_tags_tooltip": ""
+                "back_to_tags_tooltip": "Tilbage til mærkatliste"
             },
             "index": {
-                "more_link": "",
+                "more_link": "Mere ...",
                 "tags_link": "",
-                "untagged_link": ""
+                "untagged_link": "Mærkat fjernet"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "",
-                "added_tags_text": "",
-                "removed_tags_text": "",
-                "tags_text": ""
+                "added_and_removed_tags_text": "{username} tilføjede {tagsAdded} og fjernede {tagsRemoved}.",
+                "added_tags_text": "{username} tilføjede {tagsAdded}.",
+                "removed_tags_text": "{username} fjernede {tagsRemoved}.",
+                "tags_text": "{count, plural, one {{tags} mærkat} other {{tags} mærkater}}"
             },
             "tag": {
-                "meta_description_text": ""
+                "meta_description_text": "Alle diskussioner med {tag} mærkatet"
             }
         },
         "lib": {
-            "deleted_tag_text": ""
+            "deleted_tag_text": "Slettet"
         },
         "ref": {
-            "name": "",
-            "tags": ""
+            "name": "Navn",
+            "tags": "Mærkater"
         }
     }
 }
