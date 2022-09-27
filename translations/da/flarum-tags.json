@@ -2,24 +2,24 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": ""
+                "tags_label": "Mærkater"
             },
             "edit_tag": {
-                "color_label": "",
+                "color_label": "Farve",
                 "delete_tag_button": "Slet mærkat",
                 "delete_tag_confirmation": "Er du sikker på du ønsker at slette dette mærkat? Diskussioner med dette mærkat vil IKKE blive slettet.",
                 "description_label": "Beskrivelse",
                 "hide_label": "Skjul fra alle diskussioner",
-                "icon_label": "",
-                "icon_text": "",
-                "name_label": "",
-                "name_placeholder": "",
+                "icon_label": "Ikon",
+                "icon_text": "Ikon tekst",
+                "name_label": "Navn",
+                "name_placeholder": "Navn",
                 "slug_label": "URL-navn",
-                "submit_button": "",
+                "submit_button": "Gem ændringer",
                 "title": "Opret mærkat"
             },
             "nav": {
-                "tags_button": "",
+                "tags_button": "Mærkater",
                 "tags_text": "Administrer listen over tilgængelige mærkater til at organisere diskussioner med."
             },
             "permissions": {
@@ -48,14 +48,14 @@
         "forum": {
             "all_tags": {
                 "meta_description_text": "Alle mærkater",
-                "meta_title_text": ""
+                "meta_title_text": "Mærkater"
             },
             "choose_tags": {
                 "bypass_requirements": "Omgå mærkatkrav",
                 "choose_primary_placeholder": "{count, plural, one {Vælg et primær mærkat} other {Vælg # primær mærkater}}",
                 "choose_secondary_placeholder": "{count, plural, one {Vælg 1 mærkat mere} other {Vælg # mærkater mere}}",
                 "edit_title": "Ret mærkat for {title}",
-                "submit_button": "",
+                "submit_button": "Okay",
                 "title": "Vælg mærkater til din diskussion"
             },
             "composer_discussion": {
@@ -69,7 +69,7 @@
             },
             "index": {
                 "more_link": "Mere ...",
-                "tags_link": "",
+                "tags_link": "Mærkater",
                 "untagged_link": "Mærkat fjernet"
             },
             "post_stream": {
