@@ -740,6 +740,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-auto-post-badge-pro`](https://weblate.rob006.net/projects/flarum/justoverclock-auto-post-badge-pro) | [`justoverclock/auto-post-badge-pro`](https://extiverse.com/extension/justoverclock/auto-post-badge-pro) |
 | [`justoverclock-check-duplicate-discussions`](https://weblate.rob006.net/projects/flarum/justoverclock-check-duplicate-discussions) | [`justoverclock/check-duplicate-discussions`](https://extiverse.com/extension/justoverclock/check-duplicate-discussions) |
 | [`justoverclock-discord-widget`](https://weblate.rob006.net/projects/flarum/justoverclock-discord-widget) | [`justoverclock/discord-widget`](https://extiverse.com/extension/justoverclock/discord-widget) |
+| [`justoverclock-discussion-tags`](https://weblate.rob006.net/projects/flarum/justoverclock-discussion-tags) | [`justoverclock/discussion-tags`](https://extiverse.com/extension/justoverclock/discussion-tags) |
 | [`justoverclock-frontend-blog`](https://weblate.rob006.net/projects/flarum/justoverclock-frontend-blog) | [`justoverclock/frontend-blog`](https://extiverse.com/extension/justoverclock/frontend-blog) |
 | [`justoverclock-igdb-api`](https://weblate.rob006.net/projects/flarum/justoverclock-igdb-api) | [`justoverclock/igdb-api`](https://extiverse.com/extension/justoverclock/igdb-api) |
 | [`justoverclock-imdb-api`](https://weblate.rob006.net/projects/flarum/justoverclock-imdb-api) | [`justoverclock/imdb-api`](https://extiverse.com/extension/justoverclock/imdb-api) |
