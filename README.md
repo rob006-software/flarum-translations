@@ -554,6 +554,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`datlechin-add-like-controls`](https://weblate.rob006.net/projects/flarum/datlechin-add-like-controls) | [`datlechin/flarum-add-like-controls`](https://github.com/datlechin/flarum-add-like-controls) |
 | [`datlechin-bbcode-hide-content`](https://weblate.rob006.net/projects/flarum/datlechin-bbcode-hide-content) | [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content) |
 | [`datlechin-birthdays`](https://weblate.rob006.net/projects/flarum/datlechin-birthdays) | [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) |
+| [`datlechin-birthdays-widget`](https://weblate.rob006.net/projects/flarum/datlechin-birthdays-widget) | [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget) |
 | [`datlechin-copy-links`](https://weblate.rob006.net/projects/flarum/datlechin-copy-links) | [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links) |
 | [`datlechin-discussion-overview`](https://weblate.rob006.net/projects/flarum/datlechin-discussion-overview) | [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview) |
 | [`datlechin-keyboard-shortcuts`](https://weblate.rob006.net/projects/flarum/datlechin-keyboard-shortcuts) | [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts) |
