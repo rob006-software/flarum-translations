@@ -320,7 +320,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-bbcode-hide-content/v0.1.5/locale/en.yml',
 	],
 	'datlechin-birthdays' => [
-		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-birthdays/v1.3.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-birthdays/v1.3.1/locale/en.yml',
 	],
 	'datlechin-copy-links' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-copy-links/v0.1.1/locale/en.yml',
