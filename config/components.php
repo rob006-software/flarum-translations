@@ -976,6 +976,9 @@ return [
 	'ramesh-dada-realtime' => [
 		'tag' => 'https://raw.githubusercontent.com/ramesh-dada/realtime/100.1/resources/locale/en.yml',
 	],
+	'romanshul-emoji' => [
+		'tag' => 'https://raw.githubusercontent.com/romanshul/flarum-emoji/1.0.0/locale/en.yml',
+	],
 	'serakoi-flarumstaffbadge' => [
 		'tag' => 'https://raw.githubusercontent.com/Serakoi/flarumstaffbadge/1.2.1/resources/locale/en.yml',
 	],
