@@ -110,15 +110,15 @@
                     }
                 },
                 "groups": {
-                    "title": "",
-                    "help": "",
+                    "title": "Các nhóm được gán tự động",
+                    "help": "Các nhóm đã chọn sẽ được tự động thêm hoặc bớt khi cần khi số điểm của người dùng thay đổi. Nếu bạn đã thực hiện các thay đổi đối với cấu hình, bạn nên chạy lệnh <code>php flarum fof:gamification:assign-groups</code> để cập nhật người dùng hiện có. Nếu bạn muốn xóa quy tắc và xóa tất cả người dùng khỏi nhóm, hãy đặt cả giá trị tối thiểu và tối đa thành một chuỗi trống, lưu cài đặt và chạy lệnh dòng lệnh. Cuối cùng, bạn có thể xóa hoàn toàn quy tắc khỏi cài đặt.\n",
                     "column": {
-                        "group": "",
-                        "minPoints": "",
-                        "maxPoints": ""
+                        "group": "Nhóm",
+                        "minPoints": "Điểm tối thiểu (bắt buộc)",
+                        "maxPoints": "Điểm tối đa (bắt buộc)"
                     },
-                    "add": "",
-                    "delete": ""
+                    "add": "Thêm quy định mới",
+                    "delete": "Xoá quy định"
                 }
             }
         },
