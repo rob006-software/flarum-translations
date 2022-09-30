@@ -1,25 +1,25 @@
 {
     "ziven-checkin": {
         "forum": {
-            "check-in": "",
-            "checked-in-day": "",
-            "checked-in-days": "",
-            "check-in-success": "",
+            "check-in": "Đăng ký vào",
+            "checked-in-day": "Đã đăng ký {count} ngày",
+            "checked-in-days": "Đã đăng ký {count} ngày",
+            "check-in-success": "Đăng ký vào thành công",
             "checked-in": ""
         },
         "admin": {
             "settings": {
-                "timezone": "",
-                "reward-money": "",
-                "reward-money-requirement": "",
-                "check-in-success-prompt-type": "",
-                "check-in-success-prompt-text": "",
-                "check-in-success-prompt-reward-text": "",
-                "check-in-success-prompt-example-text": "",
-                "check-in-success-prompt-example-reward-text": "",
-                "None": "",
-                "Alert": "",
-                "Modal": ""
+                "timezone": "Múi giờ",
+                "reward-money": "Phần thưởng đăng ký vào",
+                "reward-money-requirement": "Yêu cầu phần mở rộng <code>antoinefr/flarum-ext-money</code>",
+                "check-in-success-prompt-type": "Kiểm tra loại lời nhắc thành công",
+                "check-in-success-prompt-text": "Văn bản nhắc nhở",
+                "check-in-success-prompt-reward-text": "Văn bản khen thưởng nhắc nhở",
+                "check-in-success-prompt-example-text": "Ví dụ: Bạn đã đăng ký [days] ngày",
+                "check-in-success-prompt-example-reward-text": "Ví dụ: Đã nhận được [reward] phần thưởng",
+                "None": "Không",
+                "Alert": "Cảnh báo",
+                "Modal": "Cửa sổ bật lên"
             }
         }
     }
