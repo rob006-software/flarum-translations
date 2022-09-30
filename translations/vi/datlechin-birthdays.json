@@ -45,11 +45,11 @@
                 "birthdays_heading": "Ngày sinh"
             },
             "nav": {
-                "nav_item": ""
+                "nav_item": "Sinh nhật hôm nay"
             },
             "page": {
-                "discussion_count": "",
-                "post_count": ""
+                "discussion_count": "{count, plural, one {Cuộc thảo luận: #} other {Cuộc thảo luận: #}}",
+                "post_count": "{count, plural, one {Bài viết: #} other {Bài viết: #}}"
             }
         },
         "api": {
