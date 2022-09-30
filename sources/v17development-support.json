@@ -30,7 +30,8 @@
                     "new_article": "New article",
                     "rename_category": "Rename category",
                     "edit_description": "Edit description",
-                    "change_icon": "Change icon"
+                    "change_icon": "Change icon",
+                    "recount_articles": "Recount articles"
                 }
             },
             "article_events": {
@@ -232,7 +233,7 @@
                     },
                     "private_note": {
                         "title": "Private notes",
-                        "info": "Private notes are not visible are for support agents and are not visible to the customer.",
+                        "info": "Private notes are only visible to other support agents. It is not visible to the customer.",
                         "tip": "TIP: If you're working with multiple agents on a single ticket, add your name and date to a note.",
                         "placeholder": "Example: Jan 1th 2022 - Agent Name: Purged customer from database",
                         "edit_button": "Edit note"
