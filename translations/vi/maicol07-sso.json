@@ -3,6 +3,17 @@
         "admin": {
             "settings": {
                 "title": "Thiết lập SSO",
+                "provider_mode": "",
+                "client_name": "",
+                "client_name_help": "",
+                "client_url": "",
+                "client_url_help": "",
+                "client_api_key": "",
+                "client_api_key_help": "",
+                "client_password_token": "",
+                "client_password_token_help": "",
+                "client_verify_ssl": "",
+                "client_verify_ssl_help": "",
                 "signup_url": "URL đăng ký",
                 "login_url": "URL đăng nhập",
                 "logout_url": "URL đăng xuất",
@@ -10,10 +21,14 @@
                 "remove_signup_btn": "Xóa nút đăng ký",
                 "manage_account_url": "Quản lí URL tài khoản",
                 "manage_account_btn_open_in_new_tab": "Mở Quản lý tài khoản trong một tab mới",
+                "cookies_prefix": "",
                 "jwt_section_subtitle": "Cài đặt JWT Addon",
                 "jwt_iss": "Miền Issuer",
                 "jwt_signer_key": "Khóa Signer",
                 "jwt_signing_algorithm": "Phương thức Signing"
+            },
+            "forum": {
+                "manage_account_btn": ""
             }
         },
         "forum": {

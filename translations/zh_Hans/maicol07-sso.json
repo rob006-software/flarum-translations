@@ -3,6 +3,17 @@
         "admin": {
             "settings": {
                 "title": "单点登录（SSO）设置",
+                "provider_mode": "",
+                "client_name": "",
+                "client_name_help": "",
+                "client_url": "",
+                "client_url_help": "",
+                "client_api_key": "",
+                "client_api_key_help": "",
+                "client_password_token": "",
+                "client_password_token_help": "",
+                "client_verify_ssl": "",
+                "client_verify_ssl_help": "",
                 "signup_url": "注册链接",
                 "login_url": "登录链接",
                 "logout_url": "退出登录链接",
@@ -10,10 +21,14 @@
                 "remove_signup_btn": "移除注册按钮",
                 "manage_account_url": "管理账户连接",
                 "manage_account_btn_open_in_new_tab": "在新标签页中打开账户管理",
+                "cookies_prefix": "",
                 "jwt_section_subtitle": "JWT Addon 设置",
                 "jwt_iss": "Issuer Domain",
                 "jwt_signer_key": "Signer key",
                 "jwt_signing_algorithm": "签名方式"
+            },
+            "forum": {
+                "manage_account_btn": ""
             }
         },
         "forum": {
