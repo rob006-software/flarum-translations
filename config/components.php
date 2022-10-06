@@ -1091,7 +1091,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-daily-check-in/v0.2.2/locale/en.yml',
 	],
 	'ziiven-post-number' => [
-		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-post-number/v0.1.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-post-number/v0.1.3/locale/en.yml',
 	],
 	/* extensions list end */
 ];
