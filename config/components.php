@@ -970,6 +970,9 @@ return [
 	'nyu8-email-filter' => [
 		'tag' => 'https://raw.githubusercontent.com/nyu8/flarum-email-filter/v1.0.7/locale/en.yml',
 	],
+	'opuses114514-youtube-video-feed' => [
+		'tag' => 'https://raw.githubusercontent.com/opuses114514/2lZYhCf8fS/0.1.2/locale/en.yml',
+	],
 	'ralkage-hcaptcha' => [
 		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-hcaptcha/1.0.0/resources/locale/en.yml',
 	],
