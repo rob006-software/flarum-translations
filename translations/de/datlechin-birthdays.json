@@ -45,11 +45,11 @@
                 "birthdays_heading": ""
             },
             "nav": {
-                "nav_item": ""
+                "nav_item": "Heutige Geburtstage"
             },
             "page": {
-                "discussion_count": "",
-                "post_count": ""
+                "discussion_count": "{count, plural, one {Diskussion: #} other {Diskussionen: #}}",
+                "post_count": "{count, plural, one {Beitrag: #} other {Beiträge: #}}"
             }
         },
         "api": {
