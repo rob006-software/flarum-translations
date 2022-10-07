@@ -99,7 +99,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => ['iamdarkle', 'jslirola'],
+		'maintainers' => ['iamdarkle'],
 	],
 	'et' => [
 		'type' => 'language',
