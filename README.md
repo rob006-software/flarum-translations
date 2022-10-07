@@ -579,6 +579,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`dem13n-topic-starter-label`](https://weblate.rob006.net/projects/flarum/dem13n-topic-starter-label) | [`dem13n/topic-starter-label`](https://github.com/Dem13n/topic-starter-label) |
 | [`extiverse-mercury`](https://weblate.rob006.net/projects/flarum/extiverse-mercury) | [`extiverse/mercury`](https://github.com/extiverse/mercury) |
 | [`ffans-clipboardjs`](https://weblate.rob006.net/projects/flarum/ffans-clipboardjs) | [`ffans/clipboardjs`](https://github.com/FFans/clipboardjs) |
+| [`finteger-ratings`](https://weblate.rob006.net/projects/flarum/finteger-ratings) | [`finteger/ratings`](https://github.com/finteger/ratings) |
 | [`flamarkt-backoffice`](https://weblate.rob006.net/projects/flarum/flamarkt-backoffice) | [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice) |
 | [`flamarkt-matomo`](https://weblate.rob006.net/projects/flarum/flamarkt-matomo) | [`flamarkt/matomo`](https://github.com/flamarkt/matomo) |
 | [`flamarkt-taxonomies`](https://weblate.rob006.net/projects/flarum/flamarkt-taxonomies) | [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies) |
