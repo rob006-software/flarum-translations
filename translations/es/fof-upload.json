@@ -2,14 +2,14 @@
     "fof-upload": {
         "admin": {
             "pane": {
-                "title": "",
-                "description": ""
+                "title": "Subir",
+                "description": "Configure los servicios y preferencias de carga."
             },
             "help_texts": {
-                "disable-download-logging": "",
-                "disable-hotlink-protection": "",
-                "download_templates": "",
-                "mime_types": "",
+                "disable-download-logging": "Deshabilite el registro de cada descarga realizada por los usuarios de su foro. Mantenerlo habilitado le permite ver la cantidad de descargas y otras métricas en un futuro cercano.\n",
+                "disable-hotlink-protection": "La protección Hotlink evita que se abran descargas de otros sitios. El método actual requiere un token csrf y una identificación de publicación.\n",
+                "download_templates": "Las plantillas de descarga son cómo se muestran las cargas en su foro, por ejemplo: Vistas previas, botones. Actualmente disponible:\n",
+                "mime_types": "Por favor configure su mapeo aquí. Cada expresión regular de tipo MIME será manejada por un adaptador de carga específico y una plantilla de descarga.\n",
                 "resize": "",
                 "client_extension": "",
                 "watermark": "",
