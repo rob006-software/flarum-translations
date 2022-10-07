@@ -280,7 +280,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/spanish">Spanish</a></td>
-		<td><a href="https://github.com/iamdarkle">iamdarkle</a></td>
+		<td><a href="https://github.com/iamdarkle">iamdarkle</a>, <a href="https://github.com/jslirola">jslirola</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/es.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/es/svg-badge.svg" alt="detailed translation status" />
