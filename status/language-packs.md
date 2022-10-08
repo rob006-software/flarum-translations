@@ -7,6 +7,7 @@
 		<th>Language pack</th>
 		<th>Last release</th>
 		<th>Activity</th>
+		<th>Pull requests</th>
 		<th>Downloads</th>
 		<th>Translation status</th>
 	</tr>
@@ -16,12 +17,17 @@
 		<td><a href="https://github.com/flarum-lang/arabic">Arabic</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/arabic/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/arabic" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/arabic" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/arabic/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/arabic/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/arabic/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/arabic/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/arabic" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -39,12 +45,17 @@
 		<td><a href="https://github.com/flarum-lang/azerbaijani">Azerbaijani</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/azerbaijani/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/azerbaijani" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/azerbaijani" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/azerbaijani/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/azerbaijani/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/azerbaijani/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/azerbaijani/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/azerbaijani" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -62,12 +73,17 @@
 		<td><a href="https://github.com/flarum-lang/bengali">Bangla</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/bengali/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/bengali" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/bengali" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/bengali/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/bengali/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/bengali/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/bengali/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/bengali" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -85,12 +101,17 @@
 		<td><a href="https://github.com/flarum-lang/chinese-simplified">Chinese (Simplified)</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/chinese-simplified/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/chinese-simplified" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/chinese-simplified" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/chinese-simplified/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/chinese-simplified/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/chinese-simplified/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/chinese-simplified/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/chinese-simplified" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -108,12 +129,17 @@
 		<td><a href="https://github.com/madnest/flarum-lang-czech">Czech</a></td>
 		<td align="right">
 			<a href="https://github.com/madnest/flarum-lang-czech/tags">
-				<img src="https://img.shields.io/github/release-date/madnest/flarum-lang-czech" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/madnest/flarum-lang-czech" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/madnest/flarum-lang-czech/commits">
-				<img src="https://img.shields.io/github/commits-since/madnest/flarum-lang-czech/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/madnest/flarum-lang-czech/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/madnest/flarum-lang-czech/pulls">
+				<img src="https://img.shields.io/github/issues-pr/madnest/flarum-lang-czech" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -131,12 +157,17 @@
 		<td><a href="https://github.com/flarum-lang/danish">Danish</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/danish/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/danish" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/danish" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/danish/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/danish/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/danish/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/danish/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/danish" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -154,12 +185,17 @@
 		<td><a href="https://github.com/flarum-lang/dutch">Dutch</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/dutch/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/dutch" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/dutch" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/dutch/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/dutch/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/dutch/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/dutch/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/dutch" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -177,12 +213,17 @@
 		<td><a href="https://github.com/aprold/flarum-lang-estonian">Estonian</a></td>
 		<td align="right">
 			<a href="https://github.com/aprold/flarum-lang-estonian/tags">
-				<img src="https://img.shields.io/github/release-date/aprold/flarum-lang-estonian" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/aprold/flarum-lang-estonian" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/aprold/flarum-lang-estonian/commits">
-				<img src="https://img.shields.io/github/commits-since/aprold/flarum-lang-estonian/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/aprold/flarum-lang-estonian/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/aprold/flarum-lang-estonian/pulls">
+				<img src="https://img.shields.io/github/issues-pr/aprold/flarum-lang-estonian" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -200,12 +241,17 @@
 		<td><a href="https://github.com/flarum-lang/finnish">Finnish</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/finnish/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/finnish" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/finnish" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/finnish/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/finnish/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/finnish/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/finnish/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/finnish" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -223,12 +269,17 @@
 		<td><a href="https://github.com/flarum-lang/french">French</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/french/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/french" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/french" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/french/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/french/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/french/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/french/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/french" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -246,12 +297,17 @@
 		<td>⚠️ <a href="https://github.com/flarum-lang/georgian">Georgian</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/georgian/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/georgian" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/georgian" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/georgian/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/georgian/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/georgian/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/georgian/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/georgian" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -269,12 +325,17 @@
 		<td><a href="https://github.com/flarum-lang/german">German</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/german/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/german" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/german" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/german/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/german/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/german/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/german/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/german" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -292,12 +353,17 @@
 		<td><a href="https://github.com/flarum-lang/hebrew">Hebrew</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/hebrew/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/hebrew" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/hebrew" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/hebrew/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/hebrew/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/hebrew/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/hebrew/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/hebrew" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -315,12 +381,17 @@
 		<td><a href="https://github.com/flarum-lang/hindi">Hindi</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/hindi/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/hindi" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/hindi" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/hindi/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/hindi/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/hindi/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/hindi/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/hindi" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -338,12 +409,17 @@
 		<td><a href="https://github.com/flarum-lang/hungarian">Hungarian</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/hungarian/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/hungarian" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/hungarian" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/hungarian/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/hungarian/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/hungarian/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/hungarian/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/hungarian" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -361,12 +437,17 @@
 		<td><a href="https://github.com/flarum-lang/italian">Italian</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/italian/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/italian" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/italian" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/italian/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/italian/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/italian/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/italian/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/italian" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -384,12 +465,17 @@
 		<td><a href="https://github.com/flarum-lang/japanese">Japanese</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/japanese/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/japanese" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/japanese" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/japanese/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/japanese/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/japanese/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/japanese/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/japanese" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -407,12 +493,17 @@
 		<td><a href="https://github.com/flarum-lang/korean">Korean</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/korean/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/korean" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/korean" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/korean/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/korean/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/korean/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/korean/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/korean" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -430,12 +521,17 @@
 		<td><a href="https://github.com/flarum-lang/latvian">Latvian</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/latvian/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/latvian" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/latvian" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/latvian/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/latvian/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/latvian/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/latvian/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/latvian" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -453,12 +549,17 @@
 		<td><a href="https://github.com/flarum-lang/lithuanian">Lithuanian</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/lithuanian/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/lithuanian" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/lithuanian" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/lithuanian/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/lithuanian/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/lithuanian/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/lithuanian/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/lithuanian" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -476,12 +577,17 @@
 		<td><a href="https://github.com/flarum-lang/malayalam">Malayalam</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/malayalam/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/malayalam" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/malayalam" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/malayalam/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/malayalam/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/malayalam/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/malayalam/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/malayalam" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -499,12 +605,17 @@
 		<td><a href="https://github.com/flarum-lang/persian">Persian</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/persian/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/persian" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/persian" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/persian/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/persian/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/persian/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/persian/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/persian" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -522,12 +633,17 @@
 		<td><a href="https://github.com/flarum-lang/polish">Polish</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/polish/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/polish" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/polish" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/polish/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/polish/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/polish/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/polish/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/polish" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -545,12 +661,17 @@
 		<td>⚠️ <a href="https://github.com/flarum-lang/portuguese">Portuguese</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/portuguese/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/portuguese" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/portuguese" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/portuguese/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/portuguese/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/portuguese/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/portuguese/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/portuguese" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -568,12 +689,17 @@
 		<td><a href="https://github.com/flarum-lang/brazilian">Portuguese (Brazil)</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/brazilian/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/brazilian" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/brazilian" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/brazilian/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/brazilian/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/brazilian/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/brazilian/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/brazilian" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -591,12 +717,17 @@
 		<td><a href="https://github.com/flarum-lang/russian">Russian</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/russian/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/russian" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/russian" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/russian/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/russian/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/russian/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/russian/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/russian" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -614,12 +745,17 @@
 		<td><a href="https://github.com/bryantmilan/lang-serbian">Serbian</a></td>
 		<td align="right">
 			<a href="https://github.com/bryantmilan/lang-serbian/tags">
-				<img src="https://img.shields.io/github/release-date/flarum/serbianlanguage" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum/serbianlanguage" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/bryantmilan/lang-serbian/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum/serbianlanguage/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum/serbianlanguage/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/bryantmilan/lang-serbian/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum/serbianlanguage" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -637,12 +773,17 @@
 		<td><a href="https://github.com/flarum-lang/sinhala">Sinhala</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/sinhala/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/sinhala" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/sinhala" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/sinhala/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/sinhala/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/sinhala/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/sinhala/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/sinhala" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -660,12 +801,17 @@
 		<td><a href="https://github.com/flarum-lang/slovak">Slovak</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/slovak/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/slovak" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/slovak" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/slovak/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/slovak/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/slovak/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/slovak/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/slovak" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -683,12 +829,17 @@
 		<td><a href="https://github.com/flarum-lang/spanish">Spanish</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/spanish/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/spanish" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/spanish" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/spanish/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/spanish/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/spanish/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/spanish/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/spanish" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -706,12 +857,17 @@
 		<td><a href="https://github.com/flarum-lang/swedish">Swedish</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/swedish/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/swedish" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/swedish" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/swedish/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/swedish/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/swedish/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/swedish/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/swedish" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -729,12 +885,17 @@
 		<td><a href="https://github.com/flarum-lang/tamil">Tamil</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/tamil/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/tamil" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/tamil" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/tamil/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/tamil/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/tamil/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/tamil/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/tamil" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -752,12 +913,17 @@
 		<td><a href="https://github.com/flarum-lang/telugu">Telugu</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/telugu/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/telugu" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/telugu" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/telugu/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/telugu/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/telugu/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/telugu/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/telugu" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -775,12 +941,17 @@
 		<td><a href="https://github.com/flarum-lang/thai">Thai</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/thai/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/thai" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/thai" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/thai/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/thai/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/thai/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/thai/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/thai" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -798,12 +969,17 @@
 		<td><a href="https://github.com/flarum-lang/turkish">Turkish</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/turkish/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/turkish" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/turkish" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/turkish/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/turkish/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/turkish/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/turkish/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/turkish" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -821,12 +997,17 @@
 		<td><a href="https://github.com/flarum-lang/uzbek">Uzbek</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/uzbek/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/uzbek" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/uzbek" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/uzbek/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/uzbek/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/uzbek/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/uzbek/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/uzbek" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
@@ -844,12 +1025,17 @@
 		<td><a href="https://github.com/flarum-lang/vietnamese">Vietnamese</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/vietnamese/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/vietnamese" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/vietnamese" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/vietnamese/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/vietnamese/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/vietnamese/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/vietnamese/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/vietnamese" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
