@@ -598,6 +598,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ianm-syndication`](https://weblate.rob006.net/projects/flarum/ianm-syndication) | [`ianm/syndication`](https://github.com/imorland/syndication) |
 | [`ianm-synopsis`](https://weblate.rob006.net/projects/flarum/ianm-synopsis) | [`ianm/synopsis`](https://github.com/imorland/synopsis) |
 | [`itnt-uitab`](https://weblate.rob006.net/projects/flarum/itnt-uitab) | [`itnt/flarum-uitab`](https://github.com/Littlegolden/flarum-uitab) |
+| [`jeromegillard-map`](https://weblate.rob006.net/projects/flarum/jeromegillard-map) | [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map) |
 | [`jslirola-login2seeplus`](https://weblate.rob006.net/projects/flarum/jslirola-login2seeplus) | [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus) |
 | [`justoverclock-auto-post-count-badge`](https://weblate.rob006.net/projects/flarum/justoverclock-auto-post-count-badge) | [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge) |
 | [`justoverclock-best-answer-badge`](https://weblate.rob006.net/projects/flarum/justoverclock-best-answer-badge) | [`justoverclock/best-answer-badge`](https://github.com/justoverclockl/best-answer-badge) |
