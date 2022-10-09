@@ -1,0 +1,44 @@
+{
+    "jeromegillard-map": {
+        "admin": {
+            "templates": {
+                "map": "Map",
+                "file_description": "Display a map in flarum. The original file will be available to download. The tiles provider and style will be the one defined in the extension's settings. <b>You must have flarum/bbcode installed and enabled for this to work</b>.",
+                "markdown-osm": "Markdown map",
+                "markdown-osm_description": "Markdown map description"
+            },
+            "settings": {
+                "tiles_provider": {
+                    "label": "Default tiles layer provider",
+                    "help": "Select the provider of the tiles layer that appears in the background",
+                    "link": "See here"
+                },
+                "zoom": {
+                    "label": "Default zoom level",
+                    "help": "Any integer from 0 to 18."
+                },
+                "style": {
+                    "label": "Default style for {provider}",
+                    "help": "Pick a map style. <a>Take a look to their styles</a>."
+                },
+                "osm": {
+                    "help": "OpenStreetMap tiles are fine for programming your Leaflet map, but read the <a>Tile Usage Policy</a> of OpenStreetMap if you’re going to use the tiles in production."
+                },
+                "mapbox": {
+                    "label": "Mapbox key",
+                    "help": "Register for free at <a>mapbox.com</a> to get a token. Please respect their <b>copyrights</b>."
+                },
+                "thunderforest": {
+                    "label": "Thunderforest API key",
+                    "help": "Register for free at <a>thunderforest.com</a> to get an API key. Please respect their <b>terms of usage</b>."
+                }
+            }
+        },
+        "forum": {
+            "text_editor": {
+                "bbcode_tooltip": "insert a map",
+                "location_placeholder": "WHERE?"
+            }
+        }
+    }
+}
