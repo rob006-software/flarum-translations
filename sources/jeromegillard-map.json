@@ -21,6 +21,10 @@
                     "label": "Default style for {provider}",
                     "help": "Pick a map style. <a>Take a look to their styles</a>."
                 },
+                "maptiler": {
+                    "label": "MapTiler token",
+                    "help": "Register for free at <a>maptiler.com</a> to get a token. Please respect their <b>copyrights</b>."
+                },
                 "osm": {
                     "help": "OpenStreetMap tiles are fine for programming your Leaflet map, but read the <a>Tile Usage Policy</a> of OpenStreetMap if you’re going to use the tiles in production."
                 },
