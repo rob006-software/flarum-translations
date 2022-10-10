@@ -6,28 +6,28 @@
                 "description": "Configure los servicios y preferencias de carga."
             },
             "help_texts": {
-                "disable-download-logging": "Deshabilite el registro de cada descarga realizada por los usuarios de su foro. Mantenerlo habilitado le permite ver la cantidad de descargas y otras métricas en un futuro cercano.\n",
-                "disable-hotlink-protection": "La protección Hotlink evita que se abran descargas de otros sitios. El método actual requiere un token csrf y una identificación de publicación.\n",
-                "download_templates": "Las plantillas de descarga son cómo se muestran las cargas en su foro, por ejemplo: Vistas previas, botones. Actualmente disponible:\n",
-                "mime_types": "Por favor configure su mapeo aquí. Cada expresión regular de tipo MIME será manejada por un adaptador de carga específico y una plantilla de descarga.\n",
+                "disable-download-logging": "Deshabilite el registro de cada descarga realizada por los usuarios de su foro. Mantenerlo habilitado le permite ver la cantidad de descargas y otras métricas en un futuro próximo.\n",
+                "disable-hotlink-protection": "La protección Hotlink evita que se abran descargas de otros sitios. El método actual requiere un token csrf y un ID de publicación.\n",
+                "download_templates": "Las plantillas de descarga son la forma en que se muestran las subidas en su foro, por ejemplo: Vistas previas, botones. Actualmente disponible:\n",
+                "mime_types": "Por favor configure su mapeo aquí. Cada expresión regular de tipo MIME será manejada por un adaptador de subida específico y una plantilla de descarga.\n",
                 "resize": "Elija si desea cambiar el tamaño de sus imágenes antes de que se carguen. Puede elegir un ancho y alto máximo, en píxeles. El proceso de cambio de tamaño mantiene la relación de aspecto de las imágenes.\n",
-                "client_extension": "Por defecto, Subir elegirá una extensión de archivo segura basada en el tipo MIME. \nPara algunos tipos de archivos basados en ZIP o datos binarios, esto puede resultar en el uso de extensiones genéricas en lugar de la esperada. \nAquí puede ingresar una lista separada por comas de extensiones de archivo que se mantendrán palabra por palabra.\n",
-                "watermark": "Elija si las imágenes tendrán una marca de agua agregada durante la carga. Las marcas de agua se agregan a los no gifs según sus preferencias a continuación.\n",
+                "client_extension": "Por defecto, Upload elegirá una extensión de archivo segura basada en el tipo MIME.\nPara algunos tipos de archivos basados en ZIP o datos binarios, esto puede resultar en el uso de extensiones genéricas en lugar de la esperada. \nAquí puede ingresar una lista separada por comas de extensiones de archivo que se mantendrán palabra por palabra.\n",
+                "watermark": "Elija si las imágenes tendrán una marca de agua añadida durante la subida. Las marcas de agua se agregan a los no gifs según sus preferencias a continuación.\n",
                 "s3_compatible_storage": "Los siguientes ajustes solo son necesarios cuando se utiliza almacenamiento compatible con S3. Si usa AWS, puede dejarlos en blanco.\n",
-                "s3_acl": "La ACL que debe aplicarse al objeto cargado (predeterminado: privado). Para conocer los valores posibles, consulte https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl": "La ACL que debe aplicarse al objeto subido (predeterminado: privado). Para conocer los valores posibles, consulte https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
                 "s3_instance_profile": "Deje el campo Key y Secret vacíos para usar las credenciales en el perfil de la instancia.\n",
-                "composer_buttons": "De forma predeterminada, tanto el botón del administrador de medios como el botón de carga están visibles. También puede optar por mostrar solo un botón.\n"
+                "composer_buttons": "De forma predeterminada, tanto el botón del gestor de medios como el botón de subida están visibles. También puede optar por mostrar sólo un botón.\n"
             },
             "labels": {
                 "aws-s3": {
-                    "bucket": "Balde",
-                    "key": "Llave",
+                    "bucket": "Bucket",
+                    "key": "Key",
                     "region": "Región",
-                    "secret": "Secreto",
-                    "title": "Configuración de almacenamiento de AWS S3",
-                    "advanced_title": "Configuración avanzada de almacenamiento de S3",
-                    "endpoint": "Punto final",
-                    "use_path_style_endpoint": "Usar punto final de estilo en la ruta",
+                    "secret": "Secret",
+                    "title": "Configuración de almacenamiento AWS S3",
+                    "advanced_title": "Configuración avanzada de almacenamiento S3",
+                    "endpoint": "Endpoint",
+                    "use_path_style_endpoint": "Utilizar endpoint de estilo de ruta",
                     "acl": "Lista de control de acceso (ACL)"
                 },
                 "disable-download-logging": {
@@ -35,11 +35,11 @@
                     "toggle": "Deshabilitar"
                 },
                 "disable-hotlink-protection": {
-                    "title": "Deshabilitar la protección de enlaces directos",
+                    "title": "Deshabilitar la protección de enlaces directos (hotlink)",
                     "toggle": "Deshabilitar"
                 },
                 "imgur": {
-                    "client_id": "ID de cliente de Imgur",
+                    "client_id": "ID de cliente Imgur",
                     "title": "Configuración de almacenamiento de imágenes Imgur",
                     "tos": "Es su responsabilidad asegurarse de que los usuarios de su foro cumplan con los <a>Términos de servicio</a> de Imgur"
                 },
@@ -49,13 +49,13 @@
                 },
                 "qiniu": {
                     "title": "Configuración de almacenamiento Qiniu",
-                    "key": "Llave",
-                    "secret": "Secreto",
-                    "bucket": "Balde"
+                    "key": "Key",
+                    "secret": "Secret",
+                    "bucket": "Bucket"
                 },
                 "preferences": {
                     "max_file_size": "Tamaño máximo de archivo (en kilobytes)",
-                    "mime_types": "Configure su tipo mime, cargue la asignación del adaptador",
+                    "mime_types": "Configure su tipo mime, mapeo del adaptador de subida",
                     "title": "Preferencias generales",
                     "php_ini_values": "Los valores de <code>php.ini</code> son <code>post_max_size={post}</code> y <code>upload_max_filesize={upload}</code>. Asegúrese de que el valor establecido aquí esté por debajo de estos umbrales o ajústelos en consecuencia. Si usa <code>Nginx</code>, también asegúrese de que <code>client_max_body_size</code> tenga el tamaño suficiente para el límite máximo elegido."
                 },
@@ -78,7 +78,7 @@
                     "options": {
                         "both": "Ambos",
                         "upload-btn": "Solo botón Subir",
-                        "media-btn": "Solo el botón del administrador de medios"
+                        "media-btn": "Sólo el botón del gestor de medios"
                     }
                 },
                 "inspect-mime": "Archivo de prueba tipo MIME"
@@ -86,20 +86,20 @@
             "permissions": {
                 "download_label": "Descargar archivos",
                 "upload_label": "Subir archivos",
-                "view_user_uploads_label": "Ver cargas de usuarios",
-                "delete_uploads_of_others_label": "Eliminar subidas de usuarios"
+                "view_user_uploads_label": "Ver las subidas de los usuarios",
+                "delete_uploads_of_others_label": "Eliminar las subidas de los usuarios"
             },
             "templates": {
                 "file": "Plantilla de descarga de archivos predeterminada",
-                "file_description": "Muestra el nombre del archivo y alguna información general. Proxies descarga a través de php, lo que permite la recopilación de estadísticas y la protección de enlaces directos.\n",
+                "file_description": "Muestra el nombre del archivo y alguna información general. Proxies descarga a través de php, lo que permite la recopilación de estadísticas y la protección de enlaces directos (hotlink).\n",
                 "image": "Plantilla de descarga de imagen predeterminada",
                 "image_description": "Muestra una miniatura de la descarga de imagen y proxies a través de php. Permitir la recopilación de estadísticas y la protección de enlaces directos.\n",
                 "image-preview": "Plantilla de vista previa de imagen completa",
-                "image-preview_description": "Muestra la imagen completa en línea. No hay funcionalidad de descarga, no se recopilan estadísticas y se ignora la protección de enlace directo.\n",
+                "image-preview_description": "Muestra la imagen completa in-line. No hay funcionalidad de descarga, no se recogen estadísticas y se ignora la protección de hotlinks.\n",
                 "markdown-image": "Plantilla de imagen de Markdown",
-                "markdown-image_description": "Muestra la imagen completa en línea usando Markdown. <strong>Debe tener flarum/markdown instalado y habilitado para que esto funcione.</strong> No hay funcionalidad de descarga, no se recopilan estadísticas y se ignora la protección de enlaces directos.\n",
-                "bbcode-image": "Plantilla de imagen de código BBC",
-                "bbcode-image_description": "Muestra la imagen completa en línea usando BBCode. <strong>Debe tener Flarum/bbcode instalado y habilitado para que esto funcione.</strong> No hay funcionalidad de descarga, no se recopilan estadísticas y se ignora la protección de enlaces directos.\n",
+                "markdown-image_description": "Muestra la imagen completa in-line usando Markdown. <strong>Debe tener flarum/markdown instalado y habilitado para que esto funcione.</strong> No hay funcionalidad de descarga, no se recopilan estadísticas y se ignora la protección de enlaces directos.\n",
+                "bbcode-image": "Plantilla de imagen BBCode",
+                "bbcode-image_description": "Muestra la imagen completa in-line usando BBCode. <strong>Debe tener Flarum/bbcode instalado y habilitado para que esto funcione.</strong> No hay funcionalidad de descarga, no se recopilan estadísticas y se ignora la protección de enlaces directos.\n",
                 "just-url": "Solo URL",
                 "just-url_description": "Inserta solo la URL. La representación puede ser manejada por otras extensiones con capacidad de enlace automático. No hay funcionalidad de descarga, no se recopilan estadísticas y se ignora la protección de enlace directo.\n",
                 "text-preview": "Vista previa de texto",
