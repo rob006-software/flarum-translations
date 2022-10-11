@@ -401,7 +401,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FFans/clipboardjs/v1.0.0/resources/locale/en.yml',
 	],
 	'finteger-ratings' => [
-		'tag' => 'https://raw.githubusercontent.com/finteger/ratings/v1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/finteger/ratings/v1.1/resources/locale/en.yml',
 	],
 	'flamarkt-backoffice' => [
 		'tag' => 'https://raw.githubusercontent.com/flamarkt/backoffice/0.1.1/resources/locale/en.yml',
