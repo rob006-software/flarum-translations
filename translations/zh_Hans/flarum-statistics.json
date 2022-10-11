@@ -1,6 +1,16 @@
 {
     "flarum-statistics": {
         "admin": {
+            "date_selection_modal": {
+                "description": "",
+                "end_date": "",
+                "errors": {
+                    "end_before_start": ""
+                },
+                "start_date": "",
+                "submit_button": "",
+                "title": ""
+            },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
                 "last_12_months_label": "过去一年",
@@ -9,12 +19,17 @@
                 "mini_heading": "统计数据",
                 "previous_28_days_label": "更早二十八天",
                 "previous_7_days_label": "更早一周",
+                "custom_label": "",
+                "custom_label_specified": "",
                 "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "今日",
                 "total_label": "累计",
                 "users_heading": "=> core.ref.users",
                 "view_full": "更多统计信息",
+                "no_data": "",
+                "current_period": "",
+                "previous_period": "",
                 "active_users_text": "{count} 活跃用户"
             }
         }

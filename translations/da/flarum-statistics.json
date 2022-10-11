@@ -1,6 +1,16 @@
 {
     "flarum-statistics": {
         "admin": {
+            "date_selection_modal": {
+                "description": "",
+                "end_date": "",
+                "errors": {
+                    "end_before_start": ""
+                },
+                "start_date": "",
+                "submit_button": "",
+                "title": ""
+            },
             "statistics": {
                 "discussions_heading": "Diskussioner",
                 "last_12_months_label": "Seneste 12 måneder",
@@ -9,12 +19,17 @@
                 "mini_heading": "Forum statistik",
                 "previous_28_days_label": "Forrige 28 dage",
                 "previous_7_days_label": "Forrige 7 dage",
+                "custom_label": "",
+                "custom_label_specified": "",
                 "loading": "Henter ...",
                 "posts_heading": "Indlæg",
                 "today_label": "I dag",
                 "total_label": "I alt",
                 "users_heading": "Brugere",
                 "view_full": "Vis mere statistik",
+                "no_data": "",
+                "current_period": "",
+                "previous_period": "",
                 "active_users_text": ""
             }
         }

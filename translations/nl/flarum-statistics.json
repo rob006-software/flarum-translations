@@ -1,6 +1,16 @@
 {
     "flarum-statistics": {
         "admin": {
+            "date_selection_modal": {
+                "description": "",
+                "end_date": "",
+                "errors": {
+                    "end_before_start": ""
+                },
+                "start_date": "",
+                "submit_button": "",
+                "title": ""
+            },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
                 "last_12_months_label": "Laatste 12 maanden",
@@ -9,12 +19,17 @@
                 "mini_heading": "Forum statistieken",
                 "previous_28_days_label": "Afgelopen 28 dagen",
                 "previous_7_days_label": "Afgelopen 7 dagen",
+                "custom_label": "",
+                "custom_label_specified": "",
                 "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "Vandaag",
                 "total_label": "Totaal",
                 "users_heading": "=> core.ref.users",
                 "view_full": "Meer statistieken inzien",
+                "no_data": "",
+                "current_period": "",
+                "previous_period": "",
                 "active_users_text": "{count} actief"
             }
         }

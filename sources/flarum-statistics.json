@@ -1,6 +1,16 @@
 {
     "flarum-statistics": {
         "admin": {
+            "date_selection_modal": {
+                "description": "Pick a custom date range to display statistics for. Loading data may take\nmultiple minutes on forums with a lot of activity.\n",
+                "end_date": "End date (inclusive)",
+                "errors": {
+                    "end_before_start": "The end date must be after the start date."
+                },
+                "start_date": "Start date (inclusive)",
+                "submit_button": "Confirm date range",
+                "title": "Choose custom date range"
+            },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
                 "last_12_months_label": "Last 12 months",
@@ -9,12 +19,17 @@
                 "mini_heading": "Forum statistics",
                 "previous_28_days_label": "Previous 28 days",
                 "previous_7_days_label": "Previous 7 days",
+                "custom_label": "Choose custom range...",
+                "custom_label_specified": "{fromDate} to {toDate}",
                 "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "Today",
                 "total_label": "Total",
                 "users_heading": "=> core.ref.users",
-                "view_full": "View more statistics"
+                "view_full": "View more statistics",
+                "no_data": "There is no data available for this date range.",
+                "current_period": "Current period",
+                "previous_period": "Previous period"
             }
         }
     }

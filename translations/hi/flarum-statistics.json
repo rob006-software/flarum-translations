@@ -1,6 +1,16 @@
 {
     "flarum-statistics": {
         "admin": {
+            "date_selection_modal": {
+                "description": "",
+                "end_date": "",
+                "errors": {
+                    "end_before_start": ""
+                },
+                "start_date": "",
+                "submit_button": "",
+                "title": ""
+            },
             "statistics": {
                 "discussions_heading": "",
                 "last_12_months_label": "",
@@ -9,12 +19,17 @@
                 "mini_heading": "",
                 "previous_28_days_label": "",
                 "previous_7_days_label": "",
+                "custom_label": "",
+                "custom_label_specified": "",
                 "loading": "",
                 "posts_heading": "",
                 "today_label": "",
                 "total_label": "",
                 "users_heading": "",
                 "view_full": "",
+                "no_data": "",
+                "current_period": "",
+                "previous_period": "",
                 "active_users_text": ""
             }
         }

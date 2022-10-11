@@ -1,6 +1,16 @@
 {
     "flarum-statistics": {
         "admin": {
+            "date_selection_modal": {
+                "description": "",
+                "end_date": "",
+                "errors": {
+                    "end_before_start": ""
+                },
+                "start_date": "",
+                "submit_button": "",
+                "title": ""
+            },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
                 "last_12_months_label": "Ostatnie 12 miesięcy",
@@ -9,12 +19,17 @@
                 "mini_heading": "Statystyki forum",
                 "previous_28_days_label": "Poprzednie 28 dni",
                 "previous_7_days_label": "Poprzednie 7 dni",
+                "custom_label": "",
+                "custom_label_specified": "",
                 "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "Dzisiaj",
                 "total_label": "Razem",
                 "users_heading": "=> core.ref.users",
-                "view_full": "Zobacz więcej statystyk"
+                "view_full": "Zobacz więcej statystyk",
+                "no_data": "",
+                "current_period": "",
+                "previous_period": ""
             }
         }
     }
