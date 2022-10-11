@@ -16,44 +16,44 @@
                 "edit_css_button": "تعديل css مخصص",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
-                "enter_hex_message": "الرجاء إدخال رمز الون.",
+                "enter_hex_message": "الرّجاء إدخال رمز اللّون (السّتّة عشريّة).",
                 "favicon_heading": "فافيكون",
                 "favicon_text": "قم بتحميل صورة لعرضها كأيقونة اختصار للمنتدى.",
                 "logo_heading": "شعار",
                 "logo_text": "قم بتحميل صورة لعرضها مكان عنوان المنتدى.",
                 "title": "المظهر",
-                "colors_primary_label": "",
-                "colors_secondary_label": ""
+                "colors_primary_label": "اللّون الأوّلي",
+                "colors_secondary_label": "اللّون الثّانوي"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "اللغة الافتراضية",
-                "description": "قم بتعيين عنوان المنتدى واللغة والإعدادات الأساسية الأخرى.",
+                "description": "قم بتعيين عنوان المنتدى، اللّغة والإعدادات الأساسية الأخرى.",
                 "display_name_heading": "‏‏اسم العرض للمستخدم",
-                "display_name_text": "حدد برنامج التشغيل الذي يجب استخدامه لأسماء عرض المستخدمين. يتم عرض اسم المستخدم بشكل افتراضي.",
+                "display_name_text": "حدد برنامج التشغيل الذي يجب استخدامه لأسماء المعروضة للمستخدمين. يتم عرض اسم المستخدم بشكل افتراضي.",
                 "forum_description_heading": "وصف المنتدى",
-                "forum_description_text": "",
+                "forum_description_text": "أدخل جملة قصيرة أو جملتين تصف مجتمعك. سيظهر النّصّ في العلامة الوصفيّة وسيظهر في محركات البحث.",
                 "forum_title_heading": "عنوان المنتدى",
                 "home_page_heading": "الصفحة الرئيسية",
-                "home_page_text": "",
-                "show_language_selector_label": "",
+                "home_page_text": "اختر أوّل صفحة سيشاهدها المستخدمون عندما يزورون منتداك.",
+                "show_language_selector_label": "إظهار محدد اللّغة",
                 "slug_driver_heading": "",
                 "slug_driver_text": "",
-                "title": "",
+                "title": "الأساسيّات",
                 "welcome_banner_heading": "بانر ترحيبى",
-                "welcome_banner_text": ""
+                "welcome_banner_text": "قم بتكوين النّص الذي يتمّ عرضه في الشّعار في صفحة \"كافّة المناقشات\". استخدم هذا للتّرحيب بالضّيوف في منتداك."
             },
             "dashboard": {
-                "clear_cache_button": "",
-                "description": "",
+                "clear_cache_button": "مسح ذاكرة التخزين المؤقت",
+                "description": "المنتدى الخاص بك في لمحة.",
                 "title": "لوحة المعلومات",
                 "tools_button": "أدوات",
                 "io_error_message": ""
             },
             "edit_css": {
-                "customize_text": "",
+                "customize_text": "قم بتخصيص مظهر المنتدى الخاص بك عن طريق إضافة رمز Less / CSS الخاص بك ليتم تطبيقه أعلى <a>الأنماط الافتراضيّة</a> لفلاروم.",
                 "submit_button": "",
-                "title": ""
+                "title": "تحرير CSS مخصص"
             },
             "edit_footer": {
                 "customize_text": "",
@@ -67,9 +67,9 @@
                 "hide_label": "",
                 "icon_label": "",
                 "icon_text": "",
-                "name_label": "",
+                "name_label": "اسم المجموعة",
                 "plural_placeholder": "الجمع (مثال مشرفين)",
-                "singular_placeholder": "",
+                "singular_placeholder": "المفرد (مثال: المشرف)",
                 "submit_button": "",
                 "title": "إنشاء مجموعة"
             },
@@ -80,7 +80,7 @@
             },
             "email": {
                 "addresses_heading": "العناوين",
-                "description": "",
+                "description": "قم بتكوين برنامج التشغيل والإعدادات والعناوين التي سيستخدمها منتداك لإرسال البريد الإلكتروني.",
                 "driver_heading": "",
                 "driver_label": "",
                 "from_label": "‏‏المرسل",
@@ -93,7 +93,7 @@
                 "mail_port_label": "المنفذ",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "",
-                "not_sending_message": "",
+                "not_sending_message": "لا يرسل فلاروم حاليًا رسائل بريد إلكتروني. يمكن أن يكون هذا بسبب برنامج التشغيل المحدد، أو أخطاء في تكوينه.",
                 "send_test_mail_button": "إرسال",
                 "send_test_mail_heading": "إرسال بريد إلكتروني كاختبار",
                 "send_test_mail_success": "",
