@@ -96,19 +96,19 @@
                 "not_sending_message": "لا يرسل فلاروم حاليًا رسائل بريد إلكتروني. يمكن أن يكون هذا بسبب برنامج التشغيل المحدد، أو أخطاء في تكوينه.",
                 "send_test_mail_button": "إرسال",
                 "send_test_mail_heading": "إرسال بريد إلكتروني كاختبار",
-                "send_test_mail_success": "",
-                "send_test_mail_text": "",
+                "send_test_mail_success": "تمّ إرسال البريد الإلكتروني التّجريبي بنجاح !",
+                "send_test_mail_text": "سيؤدي هذا إلى إرسال بريد إلكتروني باستخدام التكوين أعلاه إلى بريدك الإلكتروني، {email}.",
                 "smtp_heading": "SMTP إعدادات",
                 "title": "=> core.ref.email"
             },
             "extension": {
-                "configure_scopes": "",
-                "confirm_purge": "",
+                "configure_scopes": "تكوين النّطاقات",
+                "confirm_purge": "ستؤدّي عمليّة التّطهير إلى إزالة جميع إدخالات قاعدة البيانات والأصول المتعلّقة بالامتداد. لن يتم إلغاء تثبيت الامتداد؛ يجب أن يتم ذلك عبر كومبوسر. هل أنت متأكد أنك تريد الاستمرار؟",
                 "disabled": "مُعطل",
-                "enable_to_see": "",
-                "enabled": "",
+                "enable_to_see": "قم بتمكين الإضافة لعرض الإعدادات وتغييرها.",
+                "enabled": "مُمَكَّن",
                 "info_links": {
-                    "discuss": "",
+                    "discuss": "مناقشات",
                     "documentation": "توثيق",
                     "donate": "يتبرع",
                     "source": "مصدر",
@@ -117,17 +117,17 @@
                 },
                 "no_permissions": "هذا الامتداد ليس لديه أذونات.",
                 "no_settings": "هذا الامتداد ليس له إعدادات.",
-                "open_modal": "",
+                "open_modal": "فتح الإعدادات",
                 "permissions_title": "أذونات",
-                "purge_button": "",
+                "purge_button": "تطهير",
                 "readme": {
-                    "button_label": "",
-                    "no_readme": "",
-                    "title": ""
+                    "button_label": "اقرأنِي",
+                    "no_readme": "يبدو أن هذه الإضافة ليس لها ملفّ (اقرأني)",
+                    "title": "مستندات {extName}"
                 }
             },
             "header": {
-                "get_help": "",
+                "get_help": "احصل(ي) على المساعدة",
                 "log_out_button": ""
             },
             "loading": {
@@ -160,95 +160,95 @@
                 "search_placeholder": "امتدادات البحث"
             },
             "permissions": {
-                "allow_post_editing_label": "",
-                "allow_renaming_label": "",
-                "create_heading": "",
-                "delete_discussions_forever_label": "",
-                "delete_discussions_label": "",
-                "delete_posts_forever_label": "",
-                "delete_posts_label": "",
-                "description": "",
-                "edit_posts_label": "",
-                "edit_users_label": "",
-                "edit_users_credentials_label": "",
-                "edit_users_groups_label": "",
-                "global_heading": "",
-                "moderate_heading": "",
-                "new_group_button": "",
-                "participate_heading": "",
-                "post_without_throttle_label": "",
-                "read_heading": "",
-                "rename_discussions_label": "",
-                "reply_to_discussions_label": "",
-                "search_users_label": "",
-                "sign_up_label": "تسجيل حساب",
-                "start_discussions_label": "موضوع جديد",
-                "title": "",
-                "view_forum_label": "",
-                "view_hidden_groups_label": "",
-                "view_last_seen_at_label": "",
-                "view_post_ips_label": ""
+                "allow_post_editing_label": "السّماح بتعديل المنشور",
+                "allow_renaming_label": "السّماح بتعديل العنوان",
+                "create_heading": "إنشاء",
+                "delete_discussions_forever_label": "حذف المناقشات بشكل نهائيّ",
+                "delete_discussions_label": "حَذف المناقشات",
+                "delete_posts_forever_label": "حذف المشاركات بشكل نهائيّ",
+                "delete_posts_label": "حذف المشاركات",
+                "description": "تحديد من يستطيع أن يرى/يفعل ماذا.",
+                "edit_posts_label": "تعديل المشاركات",
+                "edit_users_label": "تعديل سمات المستخدِم",
+                "edit_users_credentials_label": "تعديل بيانات اعتماد المستخدِم",
+                "edit_users_groups_label": "تعديل مجموعات المستخدِمين",
+                "global_heading": "عامّ",
+                "moderate_heading": "الإشراف",
+                "new_group_button": "مجموعة جديدة",
+                "participate_heading": "المشاركة",
+                "post_without_throttle_label": "الرّدّ عدّة مرّات دون انتظار",
+                "read_heading": "القراءة",
+                "rename_discussions_label": "إعادة تسمية المناقشات",
+                "reply_to_discussions_label": "الرد على المناقشات",
+                "search_users_label": "البحث في الأعضاء",
+                "sign_up_label": "التّسجيل",
+                "start_discussions_label": "إنشاء المناقشات",
+                "title": "الأذونات",
+                "view_forum_label": "عرض المنتدى (المناقشات والمستخدمون)",
+                "view_hidden_groups_label": "عرض شارات المجموعات المخفيّة",
+                "view_last_seen_at_label": "دائما عرض آخر مرّة شُوهِد فيها المستخدم نشطا",
+                "view_post_ips_label": "عرض عناوين IP للمنشور"
             },
             "permissions_controls": {
-                "allow_indefinitely_button": "",
-                "allow_some_minutes_button": "",
-                "allow_ten_minutes_button": "",
-                "allow_until_reply_button": "",
-                "everyone_button": "",
+                "allow_indefinitely_button": "إلى أجل غير مسمّى",
+                "allow_some_minutes_button": "{count, plural, one {لمدّة# دقيقة} other {لمدّة# من الدّقائق}}",
+                "allow_ten_minutes_button": "لمدة 10 دقائق",
+                "allow_until_reply_button": "حتّى الرّدّ التّالي",
+                "everyone_button": "الجميع",
                 "members_button": "",
-                "signup_closed_button": "",
+                "signup_closed_button": "مُغلق",
                 "signup_open_button": "فتح"
             },
             "settings": {
-                "saved_message": "",
+                "saved_message": "تم حفظ التغييرات الخاصة بك.",
                 "submit_button": ""
             },
             "upload_image": {
                 "remove_button": "",
-                "upload_button": ""
+                "upload_button": "اختيار صورة ..."
             },
             "users": {
-                "description": "",
+                "description": "قائمة مرقّمة الصّفحات لجميع المستخدمين في المنتدى الخاصّ بك.",
                 "grid": {
                     "columns": {
                         "edit_user": {
                             "button": "",
                             "title": "",
-                            "tooltip": ""
+                            "tooltip": "تعديل {username}"
                         },
                         "email": {
                             "title": "",
-                            "visibility_hide": "",
-                            "visibility_show": ""
+                            "visibility_hide": "إخفاء عنوان البريد الإلكتروني",
+                            "visibility_show": "إظهار عنوان البريد الإلكتروني"
                         },
                         "group_badges": {
-                            "no_badges": "",
-                            "title": ""
+                            "no_badges": "لا توجد",
+                            "title": "المجموعات"
                         },
                         "join_time": {
-                            "title": ""
+                            "title": "انضمّ"
                         },
                         "user_id": {
-                            "title": ""
+                            "title": "ID"
                         },
                         "username": {
-                            "profile_link_tooltip": "",
+                            "profile_link_tooltip": "زيارة ملف {username} الشّخصيّ",
                             "title": ""
                         }
                     },
-                    "invalid_column_content": ""
+                    "invalid_column_content": "غير صالح"
                 },
                 "pagination": {
-                    "back_button": "",
-                    "next_button": "",
-                    "page_counter": ""
+                    "back_button": "الصّفحة السّابقة",
+                    "next_button": "الصّفحة التّالية",
+                    "page_counter": "الصّفحة {current} مِن أصل {total}"
                 },
                 "title": "",
-                "total_users": ""
+                "total_users": "إجمالي المستخدمين: {count}"
             },
             "debug-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "عندما يكون وضع <code>التّصحيح</code> نشطًا، سيعيد فلاروم إنشاء أصول <code>JavaScript</code> و<code>CSS</code> الخاصّة به عند كل طلب، ويمكن أيضًا أن يؤدّي إلى تسريب معلومات أخرى، مثل أسرار قاعدة البيانات، ومتغيّرات البيئة، وما إلى ذلك.\n\nيوصَى بشدّة بتعطيل <code>التصحيح</code> في ملف <code>config.php</code> في الإنتاج. انظر <link>مستندات فلاروم</link> لمزيد من المعلومات.\n",
+                "label": "وضعُ التّصحيح نشطٌ"
             }
         },
         "forum": {
@@ -256,102 +256,102 @@
                 "confirm_password_placeholder": "",
                 "confirmation_message": "",
                 "dismiss_button": "",
-                "incorrect_password_message": "",
+                "incorrect_password_message": "كلمة المرور التي قمت بإدخالها غير صحيحة.",
                 "submit_button": "",
                 "title": ""
             },
             "change_password": {
-                "send_button": "",
-                "text": "",
+                "send_button": "إرسال بريد إلكتروني لإعادة تعيين كلمة المرور",
+                "text": "انقر فوق الزر أدناه وستتوصّل برسالة عبر البريد الإلكتروني تضمّ رابطا يُمكّنك من إعادة تعيين كلمة مرورك.",
                 "title": ""
             },
             "composer": {
-                "close_tooltip": "",
-                "exit_full_screen_tooltip": "",
-                "full_screen_tooltip": "",
-                "minimize_tooltip": "",
-                "preview_tooltip": ""
+                "close_tooltip": "إغلاق",
+                "exit_full_screen_tooltip": "الخروج من وضع ملء الشّاشة",
+                "full_screen_tooltip": "ملء الشّاشة",
+                "minimize_tooltip": "تصغير",
+                "preview_tooltip": "معايَنة"
             },
             "composer_discussion": {
-                "body_placeholder": "",
-                "discard_confirmation": "",
-                "submit_button": "",
+                "body_placeholder": "كتابة مشاركة ...",
+                "discard_confirmation": "لم يتمّ نشر مناقشتك بعدُ. هل تريد(ين) التّخلّص منها فعلا؟",
+                "submit_button": "نشر المناقشة",
                 "title": "",
-                "title_placeholder": ""
+                "title_placeholder": "عنوان المناقشة"
             },
             "composer_edit": {
-                "discard_confirmation": "",
-                "edited_message": "",
-                "post_link": "",
+                "discard_confirmation": "لم يتمّ نشر مناقشتك بعد. هل حقّ تريد(ين) التّخلّص منها؟",
+                "edited_message": "تمّ التّعديل الخاصّ بك بنجاح.",
+                "post_link": "المنشور {number} من {discussion}",
                 "submit_button": "",
                 "view_button": ""
             },
             "composer_reply": {
                 "body_placeholder": "",
-                "discard_confirmation": "",
-                "posted_message": "",
-                "submit_button": "",
+                "discard_confirmation": "لم يتمّ نشر ردّك بعدُ. هل ترغب(ين) حقّا في التّخلّص منه؟",
+                "posted_message": "تمّ نشر ردّك بنجاح.",
+                "submit_button": "كتابة ردّ",
                 "view_button": ""
             },
             "discussion_controls": {
-                "cannot_reply_button": "",
-                "cannot_reply_text": "",
+                "cannot_reply_button": "لا يُمكنك الرّدّ",
+                "cannot_reply_text": "ليس لديك إذن من إدارة المنتدى للرد على هذه المناقشة.",
                 "delete_button": "",
-                "delete_confirmation": "",
+                "delete_confirmation": "هل أنت متأكّد أنّك تريد حذف هذه المناقشة؟",
                 "delete_forever_button": "",
-                "log_in_to_reply_button": "",
+                "log_in_to_reply_button": "يجب تسجيل الدّخول للتّمكّن من الرّدّ",
                 "rename_button": "",
                 "reply_button": "",
                 "restore_button": "",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "تبديل القائمة المنسدلة لإجراءات المناقشة"
             },
             "discussion_list": {
-                "empty_text": "",
+                "empty_text": "يبدو أنه لا توجد مناقشات هنا في الوقت الحالي.",
                 "load_more_button": "",
-                "replied_text": "",
-                "started_text": "",
-                "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": ""
+                "replied_text": "{username} ردّ(ت) {ago}",
+                "started_text": "{username} أنشأ(ت) {ago}",
+                "total_replies_a11y_label": "{count, plural, one {# ردّ} other {# ردود}}",
+                "unread_replies_a11y_label": "{count, plural, one {# ردّ غير مقروء} other {# ردود غير مقروءة}}. تحديد كغير مقروءة {count, plural, one {ردّ} other {ردود}} كمقروءة."
             },
             "forgot_password": {
                 "dismiss_button": "",
                 "email_placeholder": "",
-                "email_sent_message": "",
-                "not_found_message": "",
-                "submit_button": "",
-                "text": "",
-                "title": ""
+                "email_sent_message": "لقد أرسلنا إليك بريدًا إلكترونيًّا يحتوي على رابط لإعادة تعيين كلمة المرور الخاصّة بك. تحقّق(ي) من مجلّد البريد العشوائي أيضا إذا لم يصلك خلال الدّقيقة أو الدّقيقتين التّاليتين.",
+                "not_found_message": "لا يوجد أيّ عضو مسجّل بعنوان البريد الإلكتروني هذا.",
+                "submit_button": "إستعادة كلمة المرور",
+                "text": "أدخل(ي) عنوان بريدك الإلكتروني وسنرسل لك رابطًا لإعادة تعيين كلمة المرور الخاصّة بك.",
+                "title": "هل نسيت كلمة المرور ؟"
             },
             "header": {
-                "admin_button": "",
-                "back_to_index_tooltip": "",
+                "admin_button": "الإدارة",
+                "back_to_index_tooltip": "العودة إلى قائمة المناقشات",
                 "locale_dropdown_accessible_label": "",
                 "log_in_link": "",
                 "log_out_button": "",
-                "profile_button": "",
-                "search_clear_button_accessible_label": "",
-                "search_placeholder": "",
-                "search_role_label": "",
-                "session_dropdown_accessible_label": "",
+                "profile_button": "الملفّ الشّخصيّ",
+                "search_clear_button_accessible_label": "مسح عبارة البحث",
+                "search_placeholder": "البحث في المنتدى",
+                "search_role_label": "البحث في المنتدى",
+                "session_dropdown_accessible_label": "تبديل القائمة المنسدلة لخيارات الجلسة",
                 "settings_button": "",
                 "sign_up_link": ""
             },
             "index": {
                 "all_discussions_link": "",
-                "cannot_start_discussion_button": "",
-                "mark_all_as_read_confirmation": "",
+                "cannot_start_discussion_button": "لا يُمكنك بدء مناقشة",
+                "mark_all_as_read_confirmation": "هل أنت متأكّد(ة) من وضع علامة \"مقروءة\" على كافّة المناقشات؟",
                 "mark_all_as_read_tooltip": "",
                 "meta_title_text": "",
-                "refresh_tooltip": "",
+                "refresh_tooltip": "إعادة التّحميل",
                 "start_discussion_button": "",
-                "toggle_sidenav_dropdown_accessible_label": ""
+                "toggle_sidenav_dropdown_accessible_label": "تبديل قائمة التّنقّل المنسدلة"
             },
             "index_sort": {
                 "latest_button": "الاخير",
                 "newest_button": "الاحدث",
                 "oldest_button": "الاقدم",
                 "relevance_button": "ذات صلة",
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "تغيير فرز قائمة المناقشات",
                 "top_button": "اعلى"
             },
             "log_in": {
@@ -359,90 +359,90 @@
                 "invalid_login_message": "معلومات تسجيل دخولك غير صحيحة.",
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "تذكر بياناتي",
-                "sign_up_text": "",
+                "sign_up_text": "أليس لديك حساب؟ <a>الإشتراك!</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
                 "username_or_email_placeholder": "اسم المتخدم او البريد الالكترونى"
             },
             "notifications": {
-                "discussion_renamed_text": "",
+                "discussion_renamed_text": "{username} غيّر(ت) العنوان",
                 "empty_text": "لا توجد إعلامات",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "وضع علامة كمقروء",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "عرض الإخطارات",
                 "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "delete_all_confirm": "هل أنت متأكد(ة) أنك تريد(ين) حذف جميع الإشعارات؟ هذا إجراء لا يمكن التراجع عنه",
+                "delete_all_tooltip": "حذف جميع الإشعارات"
             },
             "post": {
                 "edited_text": "تم التحرير",
-                "edited_tooltip": "",
-                "number_tooltip": ""
+                "edited_tooltip": "{username} عدّل(ت) {ago}",
+                "number_tooltip": "منشور رقم {number}"
             },
             "post_controls": {
                 "delete_button": "",
-                "delete_confirmation": "",
+                "delete_confirmation": "هل أنت متأكد(ة) أنك تريد(ين) حذف هذا المنشور إلى الأبد؟ لن يُمكنك التراجع عن هذا الإجراء.",
                 "delete_forever_button": "",
                 "edit_button": "",
-                "hide_confirmation": "",
+                "hide_confirmation": "هل أنت متأكّد(ة) أنك تريد(ين) حذف هذه المشاركة؟",
                 "restore_button": "",
                 "toggle_dropdown_accessible_label": ""
             },
             "post_scrubber": {
-                "now_link": "",
-                "original_post_link": "",
-                "unread_text": "",
-                "viewing_text": ""
+                "now_link": "الآن",
+                "original_post_link": "المنشور الأساسي",
+                "unread_text": "{count} غير مقروءة",
+                "viewing_text": "{count, plural, one {{index} من {formattedCount} منشور} other {{index} من {formattedCount} منشورات}}"
             },
             "post_stream": {
-                "discussion_renamed_old_tooltip": "",
-                "discussion_renamed_text": "",
+                "discussion_renamed_old_tooltip": "كان العنوان القديم: \"{old}\"",
+                "discussion_renamed_text": "تمّ تغيير العنوان من طرف {username} إلى {new}.",
                 "load_more_button": "",
                 "reply_placeholder": "",
-                "time_lapsed_text": ""
+                "time_lapsed_text": "{period} لاحقا"
             },
             "rename_discussion": {
                 "submit_button": "",
-                "title": ""
+                "title": "إعادة تسمية المناقشة"
             },
             "search": {
-                "all_discussions_button": "",
+                "all_discussions_button": "البحث عن \"{query}\" في جميع المناقشات",
                 "discussions_heading": "",
                 "users_heading": ""
             },
             "settings": {
-                "account_heading": "",
+                "account_heading": "الحساب",
                 "change_email_button": "",
                 "change_password_button": "",
                 "notifications_heading": "",
                 "notify_by_email_heading": "",
-                "notify_by_web_heading": "",
-                "notify_discussion_renamed_label": "",
-                "privacy_disclose_online_label": "",
-                "privacy_heading": "",
+                "notify_by_web_heading": "الويب",
+                "notify_discussion_renamed_label": "قام شخص بإعادة تسمية المناقشة التي بدأتها",
+                "privacy_disclose_online_label": "السّماح للآخرين بمعرفة ما إذا كنت متّصلاً",
+                "privacy_heading": "الخصوصيّة",
                 "title": "",
-                "notification_checkbox_a11y_label_template": ""
+                "notification_checkbox_a11y_label_template": "تلقّي إشعارات \"{description}\" عبر {method}"
             },
             "sign_up": {
                 "dismiss_button": "",
                 "email_placeholder": "",
-                "log_in_text": "",
+                "log_in_text": "هل لديك حساب بالفعل؟ <a>تسجيل الدّخول</a>",
                 "password_placeholder": "",
                 "submit_button": "",
                 "title": "",
                 "username_placeholder": "",
-                "welcome_text": ""
+                "welcome_text": "أهلا ومرحبا بك {username}!"
             },
             "user": {
                 "avatar_remove_button": "",
-                "avatar_upload_button": "",
-                "avatar_upload_tooltip": "",
+                "avatar_upload_button": "تحميل",
+                "avatar_upload_tooltip": "تحميل صورة رمزيّة جديدة",
                 "discussions_link": "",
-                "in_discussion_text": "",
-                "joined_date_text": "",
-                "online_text": "",
-                "posts_empty_text": "",
+                "in_discussion_text": "في {discussion}",
+                "joined_date_text": "انضمّ(ت) {ago}",
+                "online_text": "متّصل",
+                "posts_empty_text": "يبدو أنّه لا توجد مشاركات هنا.",
                 "posts_link": "",
                 "posts_load_more_button": "",
                 "settings_link": ""
@@ -450,56 +450,56 @@
             "user_controls": {
                 "button": "",
                 "delete_button": "",
-                "delete_confirmation": "",
-                "delete_error_message": "",
-                "delete_success_message": "",
+                "delete_confirmation": "هل أنت متأكّد(ة) أنّك تريد(ين) حذف هذا المستخدم؟ لن يتمّ حذف مشاركات المستخدم.",
+                "delete_error_message": "إجراء حذف العضو <i>{username} ({email})</i> قد فشل",
+                "delete_success_message": "تمّ حذف العضو <i>{username} ({email})</i> بنجاح!",
                 "edit_button": "",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "تبديل القائمة المنسدلة عناصر تحكّم المستخدم"
             },
             "user_email_confirmation": {
                 "alert_message": "",
-                "resend_button": "",
-                "sent_message": "إرسال"
+                "resend_button": "إعادة إرسال البريد الإلكتروني للتّأكيد",
+                "sent_message": "تمّ الإرسال"
             },
             "welcome_hero": {
-                "hide": ""
+                "hide": "إخفاء الرّسالة التّرحيبيّة"
             }
         },
         "lib": {
-            "debug_button": "",
+            "debug_button": "التّصحيح",
             "alert": {
-                "dismiss_a11y_label": ""
+                "dismiss_a11y_label": "تجاهل التّنبيه"
             },
             "badge": {
-                "hidden_tooltip": ""
+                "hidden_tooltip": "مخفيّ"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "تبديل القائمة المنسدلة"
             },
             "edit_user": {
-                "activate_button": "",
+                "activate_button": "تفعيل عضويّة العضو",
                 "email_heading": "",
                 "email_label": "",
-                "groups_heading": "",
+                "groups_heading": "المجموعات",
                 "password_heading": "",
                 "password_label": "",
-                "set_password_label": "",
+                "set_password_label": "إنشاء كلمة مرور جديدة",
                 "submit_button": "",
                 "title": "",
                 "username_heading": "",
                 "username_label": "",
-                "nothing_available": ""
+                "nothing_available": "ليس لديك إذن من الإدارة لتحرير هذا العضو."
             },
             "error": {
-                "dependent_extensions_message": "",
-                "extension_initialiation_failed_message": "",
-                "generic_message": "",
-                "missing_dependencies_message": "",
-                "not_found_message": "",
-                "payload_too_large_message": "",
-                "permission_denied_message": "",
-                "rate_limit_exceeded_message": "",
-                "render_failed_message": ""
+                "dependent_extensions_message": "لا يُمكن تعطيل {extension} حتى يتمّ تعطيل الملحقات التّالية: {extensions}",
+                "extension_initialiation_failed_message": "فشل تهيئة {extension}، تحقّق من وحدة تحكّم المتصفّح للحصول على مزيد من المعلومات.",
+                "generic_message": "أُووبس! هناك خطأ ما. يرجى إعادة تحميل الصّفحة والمحاولة مرّة أخرى.",
+                "missing_dependencies_message": "لا يُمكن تمكين {extension} حتى يتمّ تمكين التّبعات التّالية: {extensions}",
+                "not_found_message": "لم يتمّ العثور على المورد المطلوب.",
+                "payload_too_large_message": "حمولة الطّلب كانت كبيرة جدًا.",
+                "permission_denied_message": "ليس لديك إذن من الإدارة للقيام بذلك.",
+                "rate_limit_exceeded_message": "أنت تسير بسرعة كبيرة قليلا. يرجى المحاولة مرّة أخرى بعد بضع ثوان.",
+                "render_failed_message": "عذرا، لقد واجهنا خطأ أثناء عرض هذا المحتوى. إذا كنت مستخدِما، يرجى المحاولة مرّة أخرى في وقت لاحق. إذا كنت مسؤولاً، فألق نظرة على ملفات سجل فلاروم للحصول على مزيد من المعلومات."
             },
             "loading_indicator": {
                 "accessible_label": ""
