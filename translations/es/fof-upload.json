@@ -106,7 +106,7 @@
                 "text-preview_description": "Inserta una vista previa (primeras 5 líneas) del archivo de texto, con una opción para expandir para revelar el contenido completo del archivo.\n"
             },
             "upload_methods": {
-                "aws-s3": "S3 / Compatible",
+                "aws-s3": "S3/Compatible",
                 "imgur": "Imgur",
                 "local": "Local",
                 "ovh-svfs": "OVH SVFS",
@@ -118,10 +118,10 @@
                 "select": "Seleccione un archivo a continuación para inspeccionar los valores que se utilizarán. El archivo no se guardará.",
                 "laravel-validation": "Validación de archivos Laravel",
                 "no-file-selected": "Ningún archivo",
-                "validation-passed": "Pasó",
+                "validation-passed": "Aprobado",
                 "validation-failed": "Error: {error}",
                 "mime-detector": "Detector de Mime (primario)",
-                "mime-fileinfo": "Información de archivo de PHP (alternativa)",
+                "mime-fileinfo": "PHP Fileinfo (fallback)",
                 "guessed-extension": "Extensión de archivo predeterminada (si el original no está en la lista blanca)",
                 "not-available": "Sin resultados"
             },
@@ -130,11 +130,11 @@
             }
         },
         "forum": {
-            "media_manager": "Administrador de medios",
+            "media_manager": "Gestor de medios",
             "buttons": {
                 "attach": "Adjuntar",
                 "upload": "Subir",
-                "user_uploads": "Cargas de usuarios",
+                "user_uploads": "Subidas de usuarios",
                 "cancel": "Cancelar",
                 "media": "Mis medios"
             },
@@ -142,26 +142,26 @@
                 "loading": "Cargando archivos...",
                 "empty": "No hay archivos para mostrar.",
                 "release_to_upload": "Liberar para subir",
-                "modal_empty_desktop": "Su lista de archivos está vacía. Haga clic en el botón o arrastre un archivo aquí para cargarlo.",
-                "modal_empty_phone": "Su lista de archivos está vacía. Toque el botón de arriba para cargar un archivo.",
+                "modal_empty_desktop": "Su lista de archivos está vacía. Haga clic en el botón o arrastre un archivo aquí para subirlo.",
+                "modal_empty_phone": "Su lista de archivos está vacía. Pulse el botón de arriba para subir un archivo.",
                 "select_file_a11y_label": "Seleccione el archivo \"{fileName}\"",
-                "confirm_selection_btn": "{fileCount, plural, =0 {None selected} Uno {Select file} otro {Select files}}",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Ninguno seleccionado} one {Seleccione el archivo} other {Seleccione los archivos}}",
                 "load_more_files_btn": "Cargar más archivos",
                 "hide_file": {
-                    "btn_a11y_label": "Ocultar \"{fileName}\" del administrador de medios",
-                    "hide_confirmation": "¿Estás seguro de que quieres ocultar \"{fileName}\"? Ocultar un archivo solo lo eliminará de su administrador de medios y no afectará las publicaciones existentes.",
-                    "hide_success": "archivo oculto",
+                    "btn_a11y_label": "Ocultar \"{fileName}\" del gestor de medios",
+                    "hide_confirmation": "¿Estás seguro de que quieres ocultar \"{fileName}\"? Ocultar un archivo sólo lo eliminará del gestor de medios y no afectará a las publicaciones existentes.",
+                    "hide_success": "Archivo oculto",
                     "hide_fail": "No se pudo ocultar el archivo \"{fileName}\"",
-                    "loading": "Ocultando archivo..."
+                    "loading": "Ocultando el archivo..."
                 }
             },
             "states": {
                 "error": "Error",
                 "loading": "Subiendo",
-                "unauthorized": "No tienes permiso para descargar archivos. Regístrate o inicia sesión para descargar el archivo"
+                "unauthorized": "No está autorizado a descargar archivos"
             },
             "validation": {
-                "max_size": "No se aceptan cargas de más de {max} kb."
+                "max_size": "No se aceptan subidas de más de {max} kb."
             },
             "text_preview": {
                 "expand": "Ampliar vista previa",
