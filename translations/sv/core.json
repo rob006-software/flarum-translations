@@ -22,8 +22,8 @@
                 "logo_heading": "Logotyp",
                 "logo_text": "Ladda upp en bild som kommer att visas istället för forumets titel.",
                 "title": "Utseende",
-                "colors_primary_label": "",
-                "colors_secondary_label": "",
+                "colors_primary_label": "Primär färg",
+                "colors_secondary_label": "Sekundär färg",
                 "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
@@ -51,7 +51,7 @@
                 "description": "Ditt forum vid en anblick.",
                 "title": "Kontrollpanel",
                 "tools_button": "Verktyg",
-                "io_error_message": ""
+                "io_error_message": "Kan inte skriva till filsystemet. Kontrollera dina behörigheter till filsystemet och försök igen. Eller försök köra via kommandorad."
             },
             "edit_css": {
                 "customize_text": "Ändra ditt forums utseende genom att lägga till egen LESS/CSS-kod som skriver över Flarums standardutseende.",
@@ -106,8 +106,8 @@
                 "submit_button": "=> core.ref.save_changes"
             },
             "extension": {
-                "configure_scopes": "",
-                "confirm_purge": "",
+                "configure_scopes": "Konfigurera scopes",
+                "confirm_purge": "Rensning kommer att radera alla databasposter och inställningar relaterad till den här extensionen. Det kommer inte att avinstallera extensionen, det måste göras via Composer. Är du säker på att du vill fortsätta?",
                 "disabled": "Disabled",
                 "enable_to_see": "Enable the extension to view and change settings.",
                 "enabled": "Enabled",
@@ -123,11 +123,11 @@
                 "no_settings": "This extension has no settings.",
                 "open_modal": "Open Settings",
                 "permissions_title": "Behörigheter",
-                "purge_button": "",
+                "purge_button": "Rensa",
                 "readme": {
-                    "button_label": "",
-                    "no_readme": "",
-                    "title": ""
+                    "button_label": "README",
+                    "no_readme": "Den här extensionen verkar inte ha någon README-fil",
+                    "title": "{extName} dokumentation"
                 },
                 "confirm_uninstall": "Uninstalling will remove all database entires and assets related to the extension. Are you sure you want to contiune?",
                 "uninstall_button": "Avinstallera",
@@ -162,8 +162,8 @@
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
-                "userlist_button": "",
-                "userlist_title": "",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
                 "search_placeholder": "Search Extensions"
             },
             "permissions": {
@@ -177,7 +177,7 @@
                 "description": "Configure who can see and do what.",
                 "edit_posts_label": "Redigera inlägg",
                 "edit_users_label": "Edit users",
-                "edit_users_credentials_label": "",
+                "edit_users_credentials_label": "Ändra användaruppgifter",
                 "edit_users_groups_label": "Redigera användargrupper",
                 "global_heading": "Global",
                 "moderate_heading": "Moderate",
@@ -187,11 +187,11 @@
                 "read_heading": "Read",
                 "rename_discussions_label": "Rename discussions",
                 "reply_to_discussions_label": "Reply to discussions",
-                "search_users_label": "",
+                "search_users_label": "Sök efter användare",
                 "sign_up_label": "Sign up",
                 "start_discussions_label": "Start discussions",
                 "title": "Permissions",
-                "view_forum_label": "",
+                "view_forum_label": "Visa forum (diskussioner och användare)",
                 "view_hidden_groups_label": "View hidden group badges",
                 "view_last_seen_at_label": "Always view user last seen time",
                 "view_post_ips_label": "View post IP addresses",
@@ -217,16 +217,16 @@
                 "upload_button": "Choose an Image..."
             },
             "users": {
-                "description": "",
+                "description": "En sidindelad lista över alla användare på ditt forum.",
                 "grid": {
                     "columns": {
                         "edit_user": {
-                            "button": "",
-                            "title": "",
+                            "button": "Redigera",
+                            "title": "Redigera användare",
                             "tooltip": "Redigera {username}"
                         },
                         "email": {
-                            "title": "",
+                            "title": "E-mail",
                             "visibility_hide": "Dölj e-postadress",
                             "visibility_show": "Visa e-postadress"
                         },
@@ -235,25 +235,25 @@
                             "title": "Grupper"
                         },
                         "join_time": {
-                            "title": ""
+                            "title": "Gick med"
                         },
                         "user_id": {
-                            "title": ""
+                            "title": "ID"
                         },
                         "username": {
-                            "profile_link_tooltip": "",
-                            "title": ""
+                            "profile_link_tooltip": "Besök {username}'s profil",
+                            "title": "Användarnamn"
                         }
                     },
-                    "invalid_column_content": ""
+                    "invalid_column_content": "Ogiltig"
                 },
                 "pagination": {
                     "back_button": "Föregående sida",
                     "next_button": "Nästa sida",
                     "page_counter": "Sida {current} av {total}"
                 },
-                "title": "",
-                "total_users": ""
+                "title": "Användare",
+                "total_users": "Totalt antal användare: {count}"
             },
             "debug-warning": {
                 "detail": "",
