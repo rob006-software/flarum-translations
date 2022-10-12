@@ -320,7 +320,7 @@
                 "not_found_message": "لا يوجد أيّ عضو مسجّل بعنوان البريد الإلكتروني هذا.",
                 "submit_button": "إستعادة كلمة المرور",
                 "text": "أدخل(ي) عنوان بريدك الإلكتروني وسنرسل لك رابطًا لإعادة تعيين كلمة المرور الخاصّة بك.",
-                "title": "هل نسيت كلمة المرور ؟"
+                "title": "هل نسيت كلمة المرور؟"
             },
             "header": {
                 "admin_button": "الإدارة",
@@ -452,7 +452,7 @@
                 "delete_button": "",
                 "delete_confirmation": "هل أنت متأكّد(ة) أنّك تريد(ين) حذف هذا المستخدم؟ لن يتمّ حذف مشاركات المستخدم.",
                 "delete_error_message": "إجراء حذف العضو <i>{username} ({email})</i> قد فشل",
-                "delete_success_message": "تمّ حذف العضو <i>{username} ({email})</i> بنجاح!",
+                "delete_success_message": "تمّ حذف العضو <i>{username} ({email})</i> بنجاح",
                 "edit_button": "",
                 "toggle_dropdown_accessible_label": "تبديل القائمة المنسدلة عناصر تحكّم المستخدم"
             },
@@ -505,52 +505,52 @@
                 "accessible_label": ""
             },
             "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} أخرى {{pageTitle}: الصّفحة # - {forumName}}}",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: الصّفحة# - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {الصّفحة # - {forumName}}}"
             },
             "modal": {
-                "close": ""
+                "close": "إغلاق"
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "فتح مربّع التّنقّل"
             },
             "number_suffix": {
-                "kilo_text": "",
-                "mega_text": ""
+                "kilo_text": "كلغ",
+                "mega_text": "ميغا"
             },
             "series": {
-                "glue_text": "",
-                "three_text": "",
-                "two_text": ""
+                "glue_text": "، ",
+                "three_text": "{first}، {second} و{third}",
+                "two_text": "{first} و{second}"
             },
             "username": {
-                "deleted_text": ""
+                "deleted_text": "[محذوف]"
             }
         },
         "views": {
             "admin": {
                 "extensions": {
                     "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "disable": "تعطيل",
+                    "empty": "لا توجد إضافات مثبّتة",
+                    "enable": "تَمكين",
+                    "name": "اسم الإضافة",
+                    "package_name": "اسم الحزمة",
+                    "version": "الإصدار"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "معلومات التّطبيق"
                 },
-                "title": ""
+                "title": "الإدارة"
             },
             "confirm_email": {
                 "submit_button": "",
-                "text": "",
+                "text": "انقر(ي) فوق الزّرّ أدناه لتأكيد البريد الإلكتروني لحسابك.",
                 "title": ""
             },
             "content": {
-                "javascript_disabled_message": "",
-                "load_error_message": "",
+                "javascript_disabled_message": "يتمّ عرض هذا الموقع بشكل أفضل في متصفّح حديث مع تمكين JavaScript.",
+                "load_error_message": "حدث خطأ ما أثناء محاولة تحميل النسخة الكاملة لهذا الموقع. حاول تحديث هذه الصفحة مرّة أخرى لإصلاح المشكلة.",
                 "loading_text": ""
             },
             "discussion": {
@@ -558,14 +558,14 @@
                 "previous_page_button": ""
             },
             "error": {
-                "csrf_token_mismatch": "",
-                "csrf_token_mismatch_return_link": "",
-                "invalid_confirmation_token": "",
-                "not_authenticated": "",
-                "not_found": "",
-                "not_found_return_link": "",
-                "permission_denied": "",
-                "unknown": ""
+                "csrf_token_mismatch": "لقد كنت غير نشط(ة) لفترة طويلة.",
+                "csrf_token_mismatch_return_link": "العودة إلى الوراء، والمحاولة مرّة أخرى",
+                "invalid_confirmation_token": "تم استخدام رابط التّأكيد هذا بالفعل أو أنّه غير صالح.",
+                "not_authenticated": "ليست لديك الصّلاحية لدخول هذه الصفحة. حاول مرّة أخرى بعد تسجيل الدّخول.",
+                "not_found": "لا يُمكن العثور على الصّفحة المطلوبة.",
+                "not_found_return_link": "العودة إلى {forum}",
+                "permission_denied": "ليست لديك الصّلاحية للوصول إلى هذه الصفحة.",
+                "unknown": "حدث خطأ أثناء محاولة تحميل هذه الصّفحة."
             },
             "index": {
                 "all_discussions_heading": "",
@@ -574,84 +574,84 @@
             },
             "log_out": {
                 "log_out_button": "",
-                "log_out_confirmation": "",
+                "log_out_confirmation": "هل أنت متأكّد(ة) من أنك تريد(ين) مغادرة {forum}؟",
                 "title": ""
             },
             "reset_password": {
-                "confirm_password_label": "",
-                "new_password_label": "",
+                "confirm_password_label": "تأكيد كلمة المرور الجديدة",
+                "new_password_label": "كلمة المرور الجديدة",
                 "submit_button": "",
                 "title": ""
             }
         },
         "api": {
-            "invalid_username_message": ""
+            "invalid_username_message": "لا يجوز أن يحتوي اسم المستخدم إلا على أحرف وأرقام وشرطات."
         },
         "email": {
             "activate_account": {
-                "subject": "",
-                "body": ""
+                "subject": "تفعيل حسابك الجديد",
+                "body": "مرحبا {username} ! \n \nقام شخص ما (نرجو أن تكون أنت) بالتّسجيل في {forum} بعنوان البريد الإلكتروني هذا. \n \nإذا كان هذا أنت، فما عليك سوى النّقر فوق الارتباط الآتي وسيتمّ تنشيط حسابك: \n{url} \n \nإذا لم يكن هذا أنت، يرجى تجاهل هذا البريد الإلكتروني.\n"
             },
             "confirm_email": {
-                "subject": "",
-                "body": ""
+                "subject": "يجب تأكيد عنوان بريدك الإلكتروني الجديد",
+                "body": "مرحبا {username} ! \n \nقام شخص ما (نرجو أن تكون أنت) بتغيير عنوان البريد الإلكتروني في {forum} بعنوان البريد الإلكتروني هذا. \n \nإذا كان هذا أنت، فما عليك سوى النّقر فوق الارتباط الآتي وسيتمّ تأكيد عنوان البريد الإلكتروني الخاصّ بك: \n{url} \n \nإذا لم يكن هذا أنت، يرجى تجاهل هذا البريد الإلكتروني.\n"
             },
             "reset_password": {
                 "subject": "",
-                "body": ""
+                "body": "مرحبا {username} ! \n \nقام شخص ما (نرجو أن تكون انت) بإرسال طلب لتغيير كلمة المرور لحسابك على {forum}. \n \nإذا كان هذا أنت، فما عليك سوى النقر فوق الارتباط التالي وسيتم إعادة تعيين كلمة المرور الخاصّة بك: \n{url} \n \nإذا كنت لا ترغب(ين) في تغيير كلمة المرور الخاصة بك، فما عليك إلا تجاهل هذا البريد الإلكتروني ولن يحدث شيء.\n"
             },
             "send_test": {
-                "subject": "",
-                "body": ""
+                "subject": "اختبار البريد الإلكتروني الخاص بفلاروم",
+                "body": "مرحبا {username} ! \n \nهذا بريد إلكتروني تجريبي للتأكد من أن إعدادات فلاروم تعمل بشكل صحيح. \n \nإذا كنت أنت، فهذا البريد الإلكتروني يعني أن الإعداد الخاص بك يعمل بنجاح. \n \nإذا لم تكن أنت، يرجى تجاهل هذا البريد الإلكتروني.\n"
             }
         },
         "ref": {
-            "all_discussions": "",
-            "change_email": "",
-            "change_password": "",
-            "color": "",
-            "confirm_password": "",
-            "confirm_email": "",
-            "confirmation_email_sent": "",
-            "custom_footer_text": "",
-            "custom_footer_title": "",
-            "custom_header_text": "",
-            "custom_header_title": "",
-            "delete": "",
-            "delete_forever": "",
-            "discussions": "",
-            "edit": "",
-            "edit_user": "",
-            "email": "",
-            "extensions": "",
-            "icon": "",
-            "icon_text": "",
-            "load_more": "",
-            "loading": "",
+            "all_discussions": "كلّ المناقشات",
+            "change_email": "تغيير عنوان البريد الإلكتروني",
+            "change_password": "تغيير كلمة المرور",
+            "color": "اللون",
+            "confirm_password": "تأكيد كلمة المرور",
+            "confirm_email": "تأكيد عنوان البريد الإلكتروني",
+            "confirmation_email_sent": "لقد قمنا بإرسال رسالة من أجل تأكيد التّسجيل بالبريد الإلكتروني إلى {email}. إذا لم تتوصّل(ي) به قريبا، فمن فضلك، يُمكنك التّحقق في علبة الرسائل غير المرغوب فيها.",
+            "custom_footer_text": "أضف رمز HTML ليتم عرضه في الجهة السّفلى من الصفحة.",
+            "custom_footer_title": "تحرير التّذييل المخصّص للصّفحة",
+            "custom_header_text": "أضف رمز HTML ليتم عرضه في أعلى الصفحة، فوق رأس فلاروم الخاص.",
+            "custom_header_title": "تحرير الرّأس المخصّص للصّفحة",
+            "delete": "حذف",
+            "delete_forever": "الحذف نهائيّا",
+            "discussions": "المناقشات",
+            "edit": "تعديل",
+            "edit_user": "تحرير العضو",
+            "email": "البريد الإلكتروني",
+            "extensions": "الإضافات",
+            "icon": "الأيقونة",
+            "icon_text": "أدخل اسم أيّ أيقونة من أيقونات <a>FontAwesome</a>، مع <em>إضافة</em> الرّمز <code>fas fa-</code> في البادئة.",
+            "load_more": "تحميل المزيد",
+            "loading": "جارٍ التّحميل...",
             "log_in": "دخول",
             "log_out": "خروج",
-            "mark_all_as_read": "",
+            "mark_all_as_read": "تحديد الكلّ كمقروءة",
             "next_page": "الصفحة التالية",
             "notifications": "التنبيهات",
             "okay": "موافق",
             "password": "كلمة المرور",
-            "posts": "",
+            "posts": "المشاركات",
             "previous_page": "الصفحة السابقة",
-            "remove": "",
-            "rename": "",
-            "reply": "",
-            "reset_your_password": "",
-            "restore": "",
+            "remove": "إزالة",
+            "rename": "إعادة التّسمية",
+            "reply": "ردّ",
+            "reset_your_password": "إعادة تعيين كلمة المرور الخاصة بك",
+            "restore": "استعادة",
             "save_changes": "حفظ التغييرات",
             "settings": "الاعدادات",
             "sign_up": "تسجيل",
             "some_others": "",
-            "start_a_discussion": "",
-            "username": "",
-            "users": "",
+            "start_a_discussion": "بدء مناقشة",
+            "username": "اسم المستخدِم",
+            "users": "المستخدمون",
             "view": "",
-            "write_a_reply": "",
-            "you": ""
+            "write_a_reply": "كتابة ردّ...",
+            "you": "أنت"
         },
         "group": {
             "admin": "مدير",
