@@ -256,8 +256,8 @@
                 "total_users": "Totalt antal användare: {count}"
             },
             "debug-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "När <code>debug</code> läge är aktivt kommer Flarum att köra rebuild på  <code>JavaScript</code> och <code>CSS</code> vid varje anrop, och det är då också möjligt att känslig information som t ex database secrets och miljövariabler läcker ut i interfacet.\n\nDet är därför rekommenderat att   <code>debug</code> i <code>config.php</code> filen aldrig är aktiverat i en produktionsmiljö. Se <link>Flarum docs</link> för mer information.\n",
+                "label": "Debug-läge aktivt"
             }
         },
         "forum": {
@@ -312,15 +312,15 @@
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Visa/dölj dropdownmenyn för diskussionsalternativ"
             },
             "discussion_list": {
                 "empty_text": "Det ser ut som att det inte finns några trådar här.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} svarade {ago}",
                 "started_text": "{username} startade {ago}",
-                "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
+                "total_replies_a11y_label": "{count, plural, one {# svar} other {# svar}}",
+                "unread_replies_a11y_label": "{count, plural, one {# oläst svar} other {# olästa svar}}. Markera {count, plural, one {oläst svar som läst} other {olästa svar som läst}}.",
                 "mark_as_read_tooltip": "Markera som läst"
             },
             "forgot_password": {
@@ -335,14 +335,14 @@
             "header": {
                 "admin_button": "Kontrollpanel",
                 "back_to_index_tooltip": "Tillbaka till trådlistan",
-                "locale_dropdown_accessible_label": "",
+                "locale_dropdown_accessible_label": "Ändra forumspråk",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
-                "search_clear_button_accessible_label": "",
+                "search_clear_button_accessible_label": "Rensa sökresultat",
                 "search_placeholder": "Sök i Forumet",
-                "search_role_label": "",
-                "session_dropdown_accessible_label": "",
+                "search_role_label": "Sök i forumet",
+                "session_dropdown_accessible_label": "Visa/dölj dropdownmeny för val",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -354,14 +354,14 @@
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Uppdatera",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
-                "toggle_sidenav_dropdown_accessible_label": ""
+                "toggle_sidenav_dropdown_accessible_label": "Visa/dölj dropdownmeny för navigering"
             },
             "index_sort": {
                 "latest_button": "Senaste",
                 "newest_button": "Nyaste",
                 "oldest_button": "Äldsta",
                 "relevance_button": "Relevans",
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Ändra sortering av diskussionslista",
                 "top_button": "Populärast"
             },
             "log_in": {
@@ -376,14 +376,14 @@
             },
             "notifications": {
                 "discussion_renamed_text": "{username} ändrade rubriken",
-                "empty_text": "",
+                "empty_text": "Inga notifieringar",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Markera som läst",
                 "title": "=> core.ref.notifications",
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Visa notifieringar",
                 "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "delete_all_confirm": "Är du säker på att du vill radera alla notifieringar? Du kan inte återkalla beslutet",
+                "delete_all_tooltip": "Radera alla notifieringar"
             },
             "post": {
                 "edited_text": "Redigerad",
@@ -397,7 +397,7 @@
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "Är du säker på att du vill ta bort detta inlägg?",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Visa/dölj dropdownmeny för kontroller"
             },
             "post_scrubber": {
                 "now_link": "Nu",
@@ -432,7 +432,7 @@
                 "privacy_disclose_online_label": "Tillåt andra att se när jag är online",
                 "privacy_heading": "Integritet",
                 "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": ""
+                "notification_checkbox_a11y_label_template": "Ta emot \"{description}\" notifieringar via {method}"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
@@ -464,7 +464,7 @@
                 "delete_error_message": "Borttagande av användare <i>{username} ({email})</i> misslyckades.",
                 "delete_success_message": "Användare <i>{username} ({email})</i> borttagen.",
                 "edit_button": "=> core.ref.edit",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Visa/dölj dropdownmeny för användarkontroller"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -472,7 +472,7 @@
                 "sent_message": "Skickat"
             },
             "welcome_hero": {
-                "hide": ""
+                "hide": "Dölj välkomstmeddelande"
             },
             "edit_user": {
                 "activate_button": "Activate User",
@@ -489,53 +489,53 @@
             }
         },
         "lib": {
-            "debug_button": "",
+            "debug_button": "Debug",
             "alert": {
-                "dismiss_a11y_label": ""
+                "dismiss_a11y_label": "Avfärda varning"
             },
             "badge": {
                 "hidden_tooltip": "Hidden"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Visa/dölj dropdownmeny"
             },
             "edit_user": {
-                "activate_button": "",
-                "email_heading": "",
-                "email_label": "",
+                "activate_button": "Aktivera användare",
+                "email_heading": "E-mail",
+                "email_label": "E-mail",
                 "groups_heading": "Grupper",
-                "password_heading": "",
-                "password_label": "",
-                "set_password_label": "",
-                "submit_button": "",
-                "title": "",
-                "username_heading": "",
-                "username_label": "",
-                "nothing_available": ""
+                "password_heading": "Lösenord",
+                "password_label": "Lösenord",
+                "set_password_label": "Ange nytt lösenord",
+                "submit_button": "Spara ändringar",
+                "title": "Redigera användare",
+                "username_heading": "Användarnamn",
+                "username_label": "Användarnamn",
+                "nothing_available": "Du har inte behörighet att redigera den här användaren."
             },
             "error": {
                 "dependent_extensions_message": "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}",
-                "extension_initialiation_failed_message": "",
+                "extension_initialiation_failed_message": "{extension} kunde inte läsas in. Kontrollera browser-konsolen för mer information.",
                 "generic_message": "Hoppsan! Något gick fel. Vänligen ladda om sidan och försök igen.",
                 "missing_dependencies_message": "Cannot enable {extension} until the following dependencies are enabled: {extensions}",
                 "not_found_message": "Den begärda resursen hittades inte.",
-                "payload_too_large_message": "",
+                "payload_too_large_message": "Innehållet i svaret var för stort.",
                 "permission_denied_message": "Du saknar rättigheterna för att göra det.",
                 "rate_limit_exceeded_message": "Du är lite för snabb. Försök igen om några sekunder.",
-                "render_failed_message": ""
+                "render_failed_message": "Vi hittade ett fel när vi skulle visa innehållet, beklagar detta. Om du inte är administratör, försök igen senare. Om du är administratörm kontrollera Flarums loggfiler för mer information."
             },
             "loading_indicator": {
-                "accessible_label": ""
+                "accessible_label": "Laddar ..."
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Sida # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Sida # - {forumName}}}"
             },
             "modal": {
                 "close": "Stäng"
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "Öppna navigeringslåda"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -553,23 +553,23 @@
         "views": {
             "admin": {
                 "extensions": {
-                    "caption": "",
+                    "caption": "Extensions",
                     "disable": "Inaktivera",
-                    "empty": "",
+                    "empty": "Inga installerade extensions",
                     "enable": "Aktivera",
                     "name": "Tilläggsnamn",
-                    "package_name": "",
+                    "package_name": "Paketnamn",
                     "version": "Version"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "Applikationsinformation"
                 },
-                "title": ""
+                "title": "Administration"
             },
             "confirm_email": {
-                "submit_button": "",
+                "submit_button": "Bekräfta e-mail",
                 "text": "Klicka på knappen nedan för att bekräfta din e-postadress.",
-                "title": ""
+                "title": "Bekräfta e-mail"
             },
             "content": {
                 "javascript_disabled_message": "Det här forumet visas bäst i en modern webbläsare med JavaScript påslaget.",
@@ -638,7 +638,7 @@
             "change_password": "Ändra lösenord",
             "color": "Färg",
             "confirm_password": "Bekräfta lösenord",
-            "confirm_email": "",
+            "confirm_email": "Bekräfta e-mail",
             "confirmation_email_sent": "Vi har skickat ett bekräftelsemail till {email}. Om du inte dyker upp inom en stund, kolla din skräppost.",
             "custom_footer_text": "Lägg till HTML som kommer att visas allra längst ned på sidan",
             "custom_footer_title": "Redigera Anpassad sidfot",
@@ -650,7 +650,7 @@
             "edit": "Redigera",
             "edit_user": "Redigera användare",
             "email": "E-post",
-            "extensions": "",
+            "extensions": "Extensions",
             "icon": "Ikon",
             "icon_text": "Skriv in namnet på vilken <a>FontAwesome</a>-ikonklass du vill, <em>med</em> <code>fa fas-</code>prefixet.",
             "load_more": "Ladda fler",
