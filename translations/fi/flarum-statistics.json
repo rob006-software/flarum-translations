@@ -2,14 +2,14 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "Valitse tilastoille oma aikaväli miltä tilastoja näytetään. Tiedon lataus\nvoi kestää muutaman minuutin foorumeilla, jossa on paljon tapahtumia.\n",
+                "end_date": "Päättymispäivä (sisältyy)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "Päättymispäivän pitää olla aloituspäivän jälkeen."
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "Aloituspäivä (sisältyy)",
+                "submit_button": "Vahvista aikaväli",
+                "title": "Valitse oma aikaväli"
             },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
@@ -19,17 +19,17 @@
                 "mini_heading": "Foorumin tilastot",
                 "previous_28_days_label": "Edelliset 28 päivää",
                 "previous_7_days_label": "Edelliset 7 päivää",
-                "custom_label": "",
-                "custom_label_specified": "",
+                "custom_label": "Valitse oma aikaväli...",
+                "custom_label_specified": "{fromDate} - {toDate}",
                 "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "Tänään",
                 "total_label": "Yhteensä",
                 "users_heading": "=> core.ref.users",
                 "view_full": "Näytä lisää tilastoja",
-                "no_data": "",
-                "current_period": "",
-                "previous_period": "",
+                "no_data": "Valitulla aikavälillä ei ole tapahtumia.",
+                "current_period": "Nykyinen aikaväli",
+                "previous_period": "Edellinen aikaväli",
                 "active_users_text": "{count} aktiivista"
             }
         }
