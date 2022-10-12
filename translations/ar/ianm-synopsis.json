@@ -3,28 +3,28 @@
         "admin": {
             "settings": {
                 "excerpt-length": {
-                    "label": "",
-                    "help": ""
+                    "label": "طول مقتطف الملخّص بالأحرف",
+                    "help": "كم عدد الأحرف التي يجب عرضها من المنشور."
                 },
                 "rich-excerpts": {
-                    "label": "",
-                    "help": ""
+                    "label": "عرض المقتطفات باستخدام المحتوى الغنيّ",
+                    "help": "عند التّمكين، قد يتمّ تضمين الصور والتّضمينات والعناصر الأخرى غير النّصّيّة في الملخص"
                 },
                 "excerpt-type": {
-                    "label": "",
-                    "help": ""
+                    "label": "ما المنشور الذي يجب عرضه كمقتطف؟",
+                    "help": "تحديد ما إذا كان سيتمّ استخدام المنشور الأوّل أو الأخير لمحتوى الملخّص"
                 },
-                "first-label": "",
-                "last-label": "",
-                "tags-enabled": ""
+                "first-label": "أوّل منشور",
+                "last-label": "آخر منشور",
+                "tags-enabled": "تمّ تمكين <code> flarum/tags </code>. ستصبح هذه الإعدادات افتراضية، ما لم يكن لكل علامة فرديّة إعداداتها الخاصّة."
             }
         },
         "forum": {
             "user": {
                 "settings": {
-                    "summaries-heading": "",
-                    "show-summaries": "",
-                    "show-summaries-mobile": ""
+                    "summaries-heading": "الملخّص",
+                    "show-summaries": "عرض مقتطف من كلّ مناقشة في قوائم المناقشة (سطح المكتب/الجهاز اللوحي)",
+                    "show-summaries-mobile": "عرض مقتطف من كلّ مناقشة في قوائم المناقشات (الجوال)"
                 }
             }
         }
