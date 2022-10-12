@@ -4,11 +4,11 @@
             "akismet_settings": {
                 "api_key_label": "API-nyckel",
                 "title": "Inställningar för Akismet",
-                "delete_blatant_spam_label": "",
-                "delete_blatant_spam_help": ""
+                "delete_blatant_spam_label": "Radera påtaglig spam automatiskt",
+                "delete_blatant_spam_help": "Om Akismet har markerat kommentaren som påtaglig spam, radera kommentaren direkt"
             },
             "permissions": {
-                "bypass_akismet": ""
+                "bypass_akismet": "Sidsteppa Akismet"
             }
         },
         "forum": {
