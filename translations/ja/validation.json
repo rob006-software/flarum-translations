@@ -1,8 +1,8 @@
 {
     "validation": {
-        "accepted": ":attribute が未承認です",
-        "active_url": ":attribute は有効なURLではありません",
-        "after": ":attribute は :date より後の日付にしてください",
+        "accepted": ":attribute が未承認です。",
+        "active_url": ":attribute は有効なURLではありません。",
+        "after": ":attribute は :date より後の日付にしてください。",
         "after_or_equal": ":attribute は :date 以降の日付にしてください",
         "alpha": ":attribute にはアルファベットのみが利用できます",
         "alpha_dash": ":attribute には英数字とハイフン、アンダーバーのみが利用できます",
@@ -79,7 +79,7 @@
             "string": ":attribute は :min 文字以上のみ有効です",
             "array": ":attribute は :min 個以上のみ有効です"
         },
-        "multiple_of": "",
+        "multiple_of": ":attribute は :value の倍数のみ有効です。",
         "not_in": "選択された :attribute は無効な値です",
         "not_regex": ":attribute 形式が不正です",
         "numeric": ":attribute は数字のみ有効です",
@@ -93,9 +93,9 @@
         "required_with_all": ":attribute は :values が入力されている場合は必須です",
         "required_without": ":attribute は :values が入力されていない場合は必須です",
         "required_without_all": ":attribute は :values が入力されていない場合は必須です",
-        "prohibited": "",
-        "prohibited_if": "",
-        "prohibited_unless": "",
+        "prohibited": ":attribute は入力できません。",
+        "prohibited_if": ":attribute は :other が :value の場合は入力できません。",
+        "prohibited_unless": ":attribute は :other が :values でない場合は入力できません。",
         "same": ":attribute は :other と同じ場合のみ有効です",
         "size": {
             "numeric": ":attribute は :size である必要があります",
