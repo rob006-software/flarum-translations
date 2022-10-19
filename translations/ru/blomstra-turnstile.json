@@ -2,15 +2,15 @@
     "blomstra-turnstile": {
         "admin": {
             "settings": {
-                "site_key": "",
-                "secret_key": ""
+                "site_key": "Ключ сайта",
+                "secret_key": "Секретный ключ"
             }
         },
         "forum": {
-            "not_loaded_error": ""
+            "not_loaded_error": "Ошибка загрузки Cloudflare Turnstile. Пожалуйста обновите страницу и проверьте, не включен ли блокировщик рекламы."
         }
     },
     "validation": {
-        "turnstile": ""
+        "turnstile": "Мы не можем проверить, не робот ли вы. Пожалуйста, обновите страницу и попробуйте еще раз."
     }
 }
