@@ -1097,7 +1097,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/expired-posts/0.4/resources/locale/en.yml',
 	],
 	'ziiven-daily-check-in' => [
-		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-daily-check-in/v0.2.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-daily-check-in/v0.2.4/locale/en.yml',
 	],
 	'ziiven-post-number' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-post-number/v0.1.3/locale/en.yml',
