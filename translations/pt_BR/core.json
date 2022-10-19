@@ -22,8 +22,8 @@
                 "logo_heading": "Logotipo",
                 "logo_text": "Carregue uma imagem para ser exibida no lugar do título do fórum.",
                 "title": "Aparência",
-                "colors_primary_label": "",
-                "colors_secondary_label": ""
+                "colors_primary_label": "Cor Primária",
+                "colors_secondary_label": "Cor Secundária"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -48,7 +48,7 @@
                 "description": "Resumo do seu fórum.",
                 "title": "Dashboard",
                 "tools_button": "Ferramentas",
-                "io_error_message": ""
+                "io_error_message": "Não foi possível gravar no sistema de arquivos. Verifique as permissões e tente novamente. Ou tente executar a partir da linha de comando."
             },
             "edit_css": {
                 "customize_text": "Personalize a aparência do seu fórum adicionando seu próprio código Less / CSS para ser aplicado sobre o <a>estilo padrão</a> do Flarum.",
@@ -253,8 +253,8 @@
                 "total_users": "Total de usuários: {count}"
             },
             "debug-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "Quando o modo <code>debug</code> estiver ativo, o Flarum reconstruirá seus ativos <code>JavaScript</code> e <code>CSS</code> em cada solicitação e também poderá vazar outras informações, como banco de dados, variáveis de ambiente, etc.\n\nÉ altamente recomendado desabilitar <code>debug</code> em seu arquivo <code>config.php</code> em produção. Consulte a <link>Documentação do Flarum</link> para obter mais informações.\n",
+                "label": "Modo Debug ativo"
             },
             "extensions": {
                 "add_button": "Adicionar extensão",
@@ -320,7 +320,7 @@
                 "empty_text": "Parece que não há discussões aqui.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} respondeu {ago}",
-                "started_text": "{username} iniciado {ago}",
+                "started_text": "{username} iniciou {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# resposta} other {# respostas}}",
                 "unread_replies_a11y_label": "{count, plural, one {# resposta não lida} other {# respostas não lidas}}. Marcar como não lindo {count, plural, one {resposta} other {respostas}} as read.",
                 "mark_as_read_tooltip": "Marcar como Lido"
