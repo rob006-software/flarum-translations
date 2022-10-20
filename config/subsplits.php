@@ -104,14 +104,14 @@ return [
 	'et' => [
 		'type' => 'language',
 		'language' => 'et',
-		'repository' => 'git@github.com:aprold/flarum-lang-estonian.git',
+		'repository' => 'git@github.com:flarum-lang/estonian.git',
 		'branch' => 'master',
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => 'vMajor.Minor.Patch',
 		],
-		'maintainers' => ['aprold'],
+		'maintainers' => [],
 	],
 	'fa' => [
 		'type' => 'language',
