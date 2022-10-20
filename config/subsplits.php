@@ -56,14 +56,14 @@ return [
 	'cs' => [
 		'type' => 'language',
 		'language' => 'cs',
-		'repository' => 'git@github.com:madnest/flarum-lang-czech.git',
+		'repository' => 'git@github.com:flarum-lang/czech.git',
 		'branch' => 'master',
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'vMajor.Minor.Patch',
 		],
-		'maintainers' => ['theimerj'],
+		'maintainers' => [],
 	],
 	'da' => [
 		'type' => 'language',

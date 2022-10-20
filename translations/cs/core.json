@@ -23,8 +23,7 @@
                 "logo_text": "Nahraj obrázek, který se zobrazí na místě názvu tvého fóra.",
                 "title": "Vzhled",
                 "colors_primary_label": "",
-                "colors_secondary_label": "",
-                "submit_button": "=> core.ref.save_changes"
+                "colors_secondary_label": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -42,9 +41,7 @@
                 "slug_driver_text": "Zvolte ovladač pro přepis názvu do URL pro tento model.",
                 "title": "Základní nastavení",
                 "welcome_banner_heading": "Uvítací banner",
-                "welcome_banner_text": "Nastav si text uvítacího banneru, který se zobrazí na všech diskuzních stránkách. Využij ho pro přivítání hostů na fóru.",
-                "saved_message": "Tvé změny byly uloženy.",
-                "submit_button": "=> core.ref.save_changes"
+                "welcome_banner_text": "Nastav si text uvítacího banneru, který se zobrazí na všech diskuzních stránkách. Využij ho pro přivítání hostů na fóru."
             },
             "dashboard": {
                 "clear_cache_button": "Vymazat mezipaměť",
@@ -102,8 +99,7 @@
                 "send_test_mail_success": "Testovací email úspěšně odeslán!",
                 "send_test_mail_text": "Pošle email za použití nastavení výše na tvou emailovou adresu, {email}.",
                 "smtp_heading": "Nastavení SMTP",
-                "title": "=> core.ref.email",
-                "submit_button": "=> core.ref.save_changes"
+                "title": "=> core.ref.email"
             },
             "extension": {
                 "configure_scopes": "Konfigurace rozsahu",
@@ -128,10 +124,7 @@
                     "button_label": "README",
                     "no_readme": "Vypadá to, že toto rozšíření nemá soubor README",
                     "title": "{extName} dokumentace"
-                },
-                "confirm_uninstall": "Odinstalováním se smažou všechny záznamy v databázi a soubory související s rozšířením. Opravdu chceš pokračovat?",
-                "uninstall_button": "Odinstalovat",
-                "saved_message": "Změny byly uloženy."
+                }
             },
             "header": {
                 "get_help": "Získat pomoc",
@@ -194,9 +187,7 @@
                 "view_forum_label": "Zobrazení fóra (dizkuze a uživatele)",
                 "view_hidden_groups_label": "Zobrazit schované odznáčky skupiny",
                 "view_last_seen_at_label": "Vždy zobrazit poslední čas zobrazení",
-                "view_post_ips_label": "Zobrazit IP adresu příspěvku",
-                "view_discussions_label": "Zobrazit diskuzi",
-                "view_user_list_label": "Zobrazit seznam uživatelů"
+                "view_post_ips_label": "Zobrazit IP adresu příspěvku"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Kdykoli",
@@ -320,8 +311,7 @@
                 "replied_text": "Uživatel {username} odpověděl {ago}",
                 "started_text": "Uživatel {username} začal {ago}",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
-                "mark_as_read_tooltip": "Označit jako přečtené"
+                "unread_replies_a11y_label": ""
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -473,19 +463,6 @@
             },
             "welcome_hero": {
                 "hide": "Skrýt uvítací zprávu"
-            },
-            "edit_user": {
-                "activate_button": "Aktivovat účet",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Skupiny",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Set new password",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Úprava účtu",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
             }
         },
         "lib": {
@@ -605,10 +582,6 @@
                 "new_password_label": "Nové heslo",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
             }
         },
         "api": {
