@@ -668,7 +668,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-oauth-amazon/1.0.1/locale/en.yml',
 	],
 	'ianm-oauth-line' => [
-		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-oauth-line/0.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-oauth-line/0.1.2/locale/en.yml',
 	],
 	'ianm-syndication' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/syndication/1.2.2/resources/locale/en.yml',
