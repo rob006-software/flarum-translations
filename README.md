@@ -54,8 +54,8 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/madnest/flarum-lang-czech">Czech</a></td>
-		<td><a href="https://github.com/theimerj">theimerj</a></td>
+		<td><a href="https://github.com/flarum-lang/czech">Czech</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/cs.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/cs/svg-badge.svg" alt="detailed translation status" />
