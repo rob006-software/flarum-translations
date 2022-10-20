@@ -126,25 +126,25 @@
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/madnest/flarum-lang-czech">Czech</a></td>
+		<td>⚠️ <a href="https://github.com/flarum-lang/czech">Czech</a></td>
 		<td align="right">
-			<a href="https://github.com/madnest/flarum-lang-czech/tags">
-				<img src="https://img.shields.io/github/release-date/madnest/flarum-lang-czech" alt="last release" style="max-width: 160px;" />
+			<a href="https://github.com/flarum-lang/czech/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/czech" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
-			<a href="https://github.com/madnest/flarum-lang-czech/commits">
-				<img src="https://img.shields.io/github/commits-since/madnest/flarum-lang-czech/latest" alt="commits since last release" style="max-width: 150px;" />
+			<a href="https://github.com/flarum-lang/czech/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/czech/latest" alt="commits since last release" style="max-width: 150px;" />
 			</a>
 		</td>
 		<td>
-			<a href="https://github.com/madnest/flarum-lang-czech/pulls">
-				<img src="https://img.shields.io/github/issues-pr/madnest/flarum-lang-czech" alt="open pull requests" />
+			<a href="https://github.com/flarum-lang/czech/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/czech" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
-			<a href="https://packagist.org/packages/madnest/flarum-lang-czech/stats">
-				<img src="https://img.shields.io/packagist/dm/madnest/flarum-lang-czech" alt="downloads (monthly)" />
+			<a href="https://packagist.org/packages/flarum-lang/czech/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/czech" alt="downloads (monthly)" />
 			</a>
 		</td>
 		<td align="right">
