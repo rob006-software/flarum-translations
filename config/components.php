@@ -895,6 +895,9 @@ return [
 	'littlecxm-reply-to-see' => [
 		'tag' => 'https://raw.githubusercontent.com/littlecxm/flarum-reply-to-see/1.0.2/resources/locale/en.yml',
 	],
+	'lodge104-oauth-auth0' => [
+		'tag' => 'https://raw.githubusercontent.com/Lodge104/flarum-ext-oauth-auth0/v1.0.2/locale/en.yml',
+	],
 	'maicol07-oidc-client' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/maicol07-oidc-client.yml',
 	],
