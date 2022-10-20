@@ -1079,7 +1079,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-age-check/0.0.6/locale/en.yml',
 	],
 	'webbinaro-calendar' => [
-		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-calendar/1.5.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-calendar/1.5.1/resources/locale/en.yml',
 	],
 	'webbinaro-gpx-preview' => [
 		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-gpx-preview/1.0.0/resources/locale/en.yml',
