@@ -210,25 +210,25 @@
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/aprold/flarum-lang-estonian">Estonian</a></td>
+		<td>⚠️ <a href="https://github.com/flarum-lang/estonian">Estonian</a></td>
 		<td align="right">
-			<a href="https://github.com/aprold/flarum-lang-estonian/tags">
-				<img src="https://img.shields.io/github/release-date/aprold/flarum-lang-estonian" alt="last release" style="max-width: 160px;" />
+			<a href="https://github.com/flarum-lang/estonian/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/estonian" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
-			<a href="https://github.com/aprold/flarum-lang-estonian/commits">
-				<img src="https://img.shields.io/github/commits-since/aprold/flarum-lang-estonian/latest" alt="commits since last release" style="max-width: 150px;" />
+			<a href="https://github.com/flarum-lang/estonian/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/estonian/latest" alt="commits since last release" style="max-width: 150px;" />
 			</a>
 		</td>
 		<td>
-			<a href="https://github.com/aprold/flarum-lang-estonian/pulls">
-				<img src="https://img.shields.io/github/issues-pr/aprold/flarum-lang-estonian" alt="open pull requests" />
+			<a href="https://github.com/flarum-lang/estonian/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/estonian" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
-			<a href="https://packagist.org/packages/aprold/flarum-lang-estonian/stats">
-				<img src="https://img.shields.io/packagist/dm/aprold/flarum-lang-estonian" alt="downloads (monthly)" />
+			<a href="https://packagist.org/packages/flarum-lang/estonian/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/estonian" alt="downloads (monthly)" />
 			</a>
 		</td>
 		<td align="right">
