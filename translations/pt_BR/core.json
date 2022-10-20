@@ -384,8 +384,8 @@
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Ver Notificações",
                 "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "delete_all_confirm": "Tem certeza de que deseja excluir todas as notificações? Esta ação não é reversível",
+                "delete_all_tooltip": "Excluir todas as notificações"
             },
             "post": {
                 "edited_text": "Editado",
@@ -434,7 +434,7 @@
                 "privacy_disclose_online_label": "Permitir que outras pessoas vejam quando estou online",
                 "privacy_heading": "Privacidade",
                 "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": ""
+                "notification_checkbox_a11y_label_template": "Receba notificações \"{description}\" por meio de {method}"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
