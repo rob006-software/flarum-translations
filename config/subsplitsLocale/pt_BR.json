@@ -1,6 +1,29 @@
 {
     "changelog": {
         "cleaned-core": "Removidas traduções desatualizadas do Flarum/core (versão `{version}` ou superior é suportada)",
-        "general-changes": "Alterações gerais"
+        "general-changes": "Alterações gerais",
+        "updated-file": "`{file}` atualizado",
+        "updated-config-css": "CSS atualizado",
+        "cleaned-validation": "Traduções desatualizadas removidas (versão `{version}` ou superior é compatível)",
+        "extensions-added": "Adicionado suporte para novas extensões",
+        "updated-validation": "Traduções atualizadas",
+        "extensions-removed": "Suporte removido para extensões desatualizadas",
+        "updated-core": "Traduções do flarum/core atualizadas",
+        "updated-config-js": "Traduções atualizadas (Day.js)",
+        "extensions-cleaned": "Traduções desatualizadas atualizadas e/ou removidas para extensões",
+        "all-changes": "Todas as alterações: {link}.",
+        "extensions-updated": "Traduções atualizadas para extensões"
+    },
+    "announcement": {
+        "to-update": "Para atualizar, execute estes comandos:",
+        "major-warning": "Esta versão remove o suporte para versões mais antigas do Flarum e algumas extensões desatualizadas. Antes de atualizar, verifique se você está usando as versões e extensões mais recentes do Flarum.",
+        "version": "Versão {version}"
+    },
+    "readme": {
+        "status-table": {
+            "header-status": "Status",
+            "label-translation-status": "Status da tradução",
+            "header-extension": "Extensão"
+        }
     }
 }
