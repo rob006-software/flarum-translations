@@ -356,14 +356,14 @@ return [
 	'sr' => [
 		'type' => 'language',
 		'language' => 'sr',
-		'repository' => 'git@github.com:bryantmilan/lang-serbian.git',
+		'repository' => 'git@github.com:flarum-lang/serbian.git',
 		'branch' => 'master',
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'vMajor.Minor.Patch',
 		],
-		'maintainers' => ['bryantmilan'],
+		'maintainers' => [],
 	],
 	'sv' => [
 		'type' => 'language',
