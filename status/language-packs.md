@@ -742,25 +742,25 @@
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/bryantmilan/lang-serbian">Serbian</a></td>
+		<td>⚠️ <a href="https://github.com/flarum-lang/serbian">Serbian</a></td>
 		<td align="right">
-			<a href="https://github.com/bryantmilan/lang-serbian/tags">
-				<img src="https://img.shields.io/github/release-date/flarum/serbianlanguage" alt="last release" style="max-width: 160px;" />
+			<a href="https://github.com/flarum-lang/serbian/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/serbian" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
-			<a href="https://github.com/bryantmilan/lang-serbian/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum/serbianlanguage/latest" alt="commits since last release" style="max-width: 150px;" />
+			<a href="https://github.com/flarum-lang/serbian/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/serbian/latest" alt="commits since last release" style="max-width: 150px;" />
 			</a>
 		</td>
 		<td>
-			<a href="https://github.com/bryantmilan/lang-serbian/pulls">
-				<img src="https://img.shields.io/github/issues-pr/flarum/serbianlanguage" alt="open pull requests" />
+			<a href="https://github.com/flarum-lang/serbian/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/serbian" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
-			<a href="https://packagist.org/packages/flarum/serbianlanguage/stats">
-				<img src="https://img.shields.io/packagist/dm/flarum/serbianlanguage" alt="downloads (monthly)" />
+			<a href="https://packagist.org/packages/flarum-lang/serbian/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/serbian" alt="downloads (monthly)" />
 			</a>
 		</td>
 		<td align="right">
