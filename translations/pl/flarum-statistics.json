@@ -2,14 +2,14 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "Wybierz niestandardowy zakres dat, dla którego wyświetlić statystyki.\nWczytanie danych może zająć chwilę w przypadku bardzo aktywnych forów.\n",
+                "end_date": "Data końcowa (włącznie)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "Data końcowa musi być późniejsza niż data początkowa."
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "Data początkowa (włącznie)",
+                "submit_button": "Potwierdź zakres dat",
+                "title": "Wybierz niestandardowy zakres dat"
             },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
@@ -19,17 +19,17 @@
                 "mini_heading": "Statystyki forum",
                 "previous_28_days_label": "Poprzednie 28 dni",
                 "previous_7_days_label": "Poprzednie 7 dni",
-                "custom_label": "",
-                "custom_label_specified": "",
+                "custom_label": "Zmień niestandardowy zakres…",
+                "custom_label_specified": "Od {fromDate} do {toDate}",
                 "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "Dzisiaj",
                 "total_label": "Razem",
                 "users_heading": "=> core.ref.users",
                 "view_full": "Zobacz więcej statystyk",
-                "no_data": "",
-                "current_period": "",
-                "previous_period": ""
+                "no_data": "Brak danych dla tego zakresu.",
+                "current_period": "Obecny okres",
+                "previous_period": "Poprzedni okres"
             }
         }
     }
