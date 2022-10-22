@@ -109,15 +109,15 @@
                     }
                 },
                 "groups": {
-                    "title": "",
-                    "help": "",
+                    "title": "Automatyczne przypisywanie grup",
+                    "help": "Wybrane grupy zostaną w razie potrzeby automatycznie dodane lub odebrane, jeśli zmieni się liczba punktów uzyskanych przez użytkownika. Jeśli zmienisz konfigurację, powinieneś uruchomić komendę <code>php flarum fof:gamification:assign-groups</code>, aby zaktualizować istniejących użytkowników. Jeśli chcesz usunąć regułę i odebrać grupę wszystkim użytkownikom, pozostaw pola na minimalną i maksymalną liczbę punktów jako puste, zapisz ustawienia i uruchom komendę do aktualizacji użytkowników. Po tej operacji możesz całkowicie usunąć regułę w ustawieniach.\n",
                     "column": {
-                        "group": "",
-                        "minPoints": "",
-                        "maxPoints": ""
+                        "group": "Grupa",
+                        "minPoints": "Minimalna liczba punktów (włącznie)",
+                        "maxPoints": "Maksymalna liczba punktów (włącznie)"
                     },
-                    "add": "",
-                    "delete": ""
+                    "add": "Dodaj nową regułę",
+                    "delete": "Usuń regułę"
                 }
             }
         },
