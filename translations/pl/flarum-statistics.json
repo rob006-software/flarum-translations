@@ -2,7 +2,7 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "Wybierz niestandardowy zakres dat, dla którego wyświetlić statystyki.\nWczytanie danych może zająć chwilę w przypadku bardzo aktywnych forów.\n",
+                "description": "Wybierz niestandardowy zakres dat, dla którego wyświetlić statystyki.\nWczytanie danych może zająć nawet kilka minut dla bardzo aktywnego forum.\n",
                 "end_date": "Data końcowa (włącznie)",
                 "errors": {
                     "end_before_start": "Data końcowa musi być późniejsza niż data początkowa."
