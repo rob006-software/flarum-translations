@@ -4,11 +4,11 @@
             "akismet_settings": {
                 "api_key_label": "API Key",
                 "title": "Configurações do Akismet",
-                "delete_blatant_spam_label": "",
-                "delete_blatant_spam_help": ""
+                "delete_blatant_spam_label": "Excluir spam sinalizado automaticamente",
+                "delete_blatant_spam_help": "Se o Akismet determinar que o comentário é spam, em vez de sinalizar, exclua automaticamente a postagem"
             },
             "permissions": {
-                "bypass_akismet": ""
+                "bypass_akismet": "Ignorar Akismet"
             }
         },
         "forum": {
