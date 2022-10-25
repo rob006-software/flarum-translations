@@ -2,22 +2,22 @@
     "blomstra-user-filter": {
         "admin": {
             "settings": {
-                "intro": "",
-                "min_length": "",
-                "result_count": ""
+                "intro": "Os usuários sem a permissão <code>Pesquisar usuários</code> não verão o campo de pesquisa. Defina esta opção como <code>Todos</code> para todos os usuários ou qualquer que seja o seu nível de preferência.",
+                "min_length": "Caracteres mínimos para iniciar a pesquisa",
+                "result_count": "Máximo de resultados no preenchimento automático de listas suspensas"
             }
         },
         "forum": {
             "index_page": {
                 "filter_user": {
-                    "accessible_label": "",
-                    "all": "",
-                    "label": "",
-                    "search_label": "",
-                    "no_results": "",
-                    "start_typing": "",
-                    "keep_typing": "",
-                    "remove_filter": ""
+                    "accessible_label": "Filtrar por autor",
+                    "all": "Tudo",
+                    "label": "Filtrar por autor: {text}",
+                    "search_label": "Encontrar usuários...",
+                    "no_results": "Sem resultados",
+                    "start_typing": "Comece a digitar...",
+                    "keep_typing": "Continue digitando...",
+                    "remove_filter": "Remover filtro de autor"
                 }
             }
         }
