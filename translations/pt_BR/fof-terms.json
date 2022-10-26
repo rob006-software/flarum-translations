@@ -32,7 +32,7 @@
                 "update-message": "Atualizar Mensagem",
                 "update-message-help": "Uma mensagem para mostrar aos usuários existentes que ainda não aceitaram os termos mais recentes.",
                 "terms-updated-at": "Atualizado em",
-                "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
+                "terms-updated-at-placeholder": "DD-MM-YYYY (hh:mm:ss)",
                 "terms-updated-at-help": "A data da última atualização de termos. Definir esse valor exigirá que todos os usuários que aceitaram antes dessa data aceitem novamente. Deve estar no passado (caso contrário, os usuários nunca conseguiriam aceitar após a data e passar do modal).\n",
                 "export-url": "Exportar URL",
                 "export-url-help": "Qualquer usuário com permissão \"Exportar todos os dados de políticas\" pode acessar esses URLs para baixar a lista de usuários que aceitaram esta política. Você pode encontrar mais detalhes sobre as opções disponíveis no <a>wiki da extensão</a>.\n"
@@ -45,8 +45,8 @@
         },
         "forum": {
             "signup": {
-                "i-accept": "Aceito a <a>{policy}</a>",
-                "must-accept": "A {policy} deve ser aceita."
+                "i-accept": "Aceito <a>{policy}</a>",
+                "must-accept": "{policy} deve ser aceita."
             },
             "accept-modal": {
                 "title": "Atualização de Termos",
@@ -58,7 +58,7 @@
             },
             "state-modal": {
                 "title": "O estado de aceite dos termos do usuário {username}",
-                "accepted-at": "Aceito {data}",
+                "accepted-at": "Aceito {date}",
                 "not-accepted": "Não aceito"
             },
             "update-alert": {
