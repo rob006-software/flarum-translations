@@ -1,0 +1,55 @@
+{
+    "clarkwinkelmann-money-rewards": {
+        "admin": {
+            "settings": {
+                "preselection": "",
+                "min": "",
+                "max": "",
+                "decimals": ""
+            },
+            "permissions": {
+                "seeMoneyRewardHistory": "",
+                "rewardWithMoney": "",
+                "customAmounts": "",
+                "createMoney": ""
+            }
+        },
+        "forum": {
+            "modal": {
+                "title": "",
+                "target": "",
+                "optionCustom": "",
+                "balance": "",
+                "label": {
+                    "custom": "",
+                    "create": "",
+                    "comment": ""
+                },
+                "submit": "",
+                "success": ""
+            },
+            "profile": {
+                "nav": "",
+                "title": ""
+            },
+            "post": {
+                "action": "",
+                "disallowedOwn": "",
+                "disallowedOther": "",
+                "section": ""
+            },
+            "record": {
+                "from": "",
+                "to": "",
+                "post": "",
+                "comment": ""
+            }
+        },
+        "api": {
+            "error": {
+                "decimals": "",
+                "notEnoughFunds": ""
+            }
+        }
+    }
+}
