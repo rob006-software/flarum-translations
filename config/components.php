@@ -244,6 +244,9 @@ return [
 	'clarkwinkelmann-money-rewards' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-money-rewards/1.0.0/locale/en.yml',
 	],
+	'clarkwinkelmann-money-to-all' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-money-to-all/1.0.0/locale/en.yml',
+	],
 	'clarkwinkelmann-passwordless' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-passwordless/1.4.0/resources/locale/en.yml',
 	],
