@@ -1,0 +1,28 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "line": {
+                        "description": "Register your forum with the LINE Developers Console {link}",
+                        "client_id_label": "Channel ID",
+                        "client_secret_label": "Channel secret"
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_line_button": "=> fof-oauth.forum.log_in.with_button"
+            },
+            "providers": {
+                "line": "=> fof-oauth.lib.providers.line"
+            }
+        },
+        "lib": {
+            "providers": {
+                "line": "LINE"
+            }
+        }
+    }
+}
