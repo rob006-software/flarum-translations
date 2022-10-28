@@ -598,6 +598,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ianm-level-ranks`](https://weblate.rob006.net/projects/flarum/ianm-level-ranks) | [`ianm/level-ranks`](https://github.com/imorland/level-ranks) |
 | [`ianm-no-meta-title`](https://weblate.rob006.net/projects/flarum/ianm-no-meta-title) | [`ianm/no-meta-title`](https://github.com/imorland/no-meta-title) |
 | [`ianm-oauth-amazon`](https://weblate.rob006.net/projects/flarum/ianm-oauth-amazon) | [`ianm/oauth-amazon`](https://github.com/imorland/flarum-ext-oauth-amazon) |
+| [`ianm-oauth-line`](https://weblate.rob006.net/projects/flarum/ianm-oauth-line) | [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line) |
 | [`ianm-syndication`](https://weblate.rob006.net/projects/flarum/ianm-syndication) | [`ianm/syndication`](https://github.com/imorland/syndication) |
 | [`ianm-synopsis`](https://weblate.rob006.net/projects/flarum/ianm-synopsis) | [`ianm/synopsis`](https://github.com/imorland/synopsis) |
 | [`itnt-uitab`](https://weblate.rob006.net/projects/flarum/itnt-uitab) | [`itnt/flarum-uitab`](https://github.com/Littlegolden/flarum-uitab) |
