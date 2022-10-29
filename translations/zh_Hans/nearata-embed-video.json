@@ -9,12 +9,12 @@
                     "logo": "标志 URL",
                     "quality_switching": "切换视频质量",
                     "theme": "主题色",
-                    "modal_enabled": "启用 Modal",
-                    "modal_enabled_help": "启用 Modal 或只是在作曲家中插入 BBCode。"
+                    "modal_enabled": "启用编辑对话框",
+                    "modal_enabled_help": "启用对话框或直接在文本编辑器中键入 BBCode。"
                 },
                 "permissions": {
                     "can_create_video_player": "允许创建视频播放器",
-                    "can_view_video_player": "可以查看视频播放器"
+                    "can_view_video_player": "允许使用视频播放器"
                 },
                 "video_types": {
                     "dash": "DASH（自适应流媒体传输）",
@@ -43,16 +43,16 @@
                 "video_url_label": "视频地址",
                 "video_url_placeholder": "例：https://example.com/filename.mp4",
                 "quality_switching_tutorial": "视频质量切换教程",
-                "pointer_label": "",
-                "pointer_option_new": "",
-                "quality_option_new": "",
-                "add_quality": "",
-                "remove_quality": "",
-                "add_pointer": "",
-                "remove_pointer": "",
-                "qualities_label": ""
+                "pointer_label": "指示器",
+                "pointer_option_new": "新建",
+                "quality_option_new": "新建",
+                "add_quality": "添加质量",
+                "remove_quality": "移除质量",
+                "add_pointer": "添加指示器",
+                "remove_pointer": "移除指示器",
+                "qualities_label": "质量（可选）"
             },
-            "cannot_view": ""
+            "cannot_view": "错误：无权访问的内容"
         }
     }
 }
