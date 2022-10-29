@@ -31,8 +31,8 @@
                 "include_secondary_tags_label": "包括次要标签",
                 "label": {
                     "general": "一般",
-                    "boards": "",
-                    "labels": ""
+                    "boards": "看板设置",
+                    "labels": "标题设置"
                 },
                 "mapping": {
                     "add_new": "",
@@ -60,19 +60,19 @@
                 }
             },
             "controls": {
-                "send_to_trello_button": "",
-                "view_on_trello_button": ""
+                "send_to_trello_button": "发送到 Trello",
+                "view_on_trello_button": "查看 Trello 卡片"
             },
             "modals": {
                 "fields": {
-                    "board": "",
+                    "board": "选择一个看板",
                     "lane": "",
-                    "member": "",
-                    "member_selected": ""
+                    "member": "选择一个成员",
+                    "member_selected": "已选择 {count, plural, one {#}, other {#}} 位成员"
                 },
                 "no_available_board_lanes": "",
-                "no_available_board_members": "",
-                "no_available_boards_label": "",
+                "no_available_board_members": "无看板成员",
+                "no_available_boards_label": "无看板",
                 "no_mappings_for_board": "",
                 "title": ""
             }
