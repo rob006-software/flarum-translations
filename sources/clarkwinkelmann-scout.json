@@ -10,6 +10,11 @@
                     "tntsearch": "TNTSearch"
                 },
                 "prefix": "Index name prefix (optional)",
+                "queue": "Process index updates in queue",
+                "queueHelp": "This setting only has effect if an asynchronous queue driver is configured in Flarum.",
+                "limit": "Default Results Limit",
+                "limitPlaceholder": "Auto",
+                "limitHelp": "This will override the number of results requested to the search engine and influence the number of pages of results that can be generated (the limit also counts content the user will not be able to see). Some engines might require additional configuration to change the max allowed.\n",
                 "algoliaId": "Algolia ID",
                 "algoliaSecret": "Algolia Secret",
                 "algoliaConnectTimeout": "Algolia Connect Timeout (optional)",
