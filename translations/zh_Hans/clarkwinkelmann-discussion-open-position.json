@@ -2,39 +2,39 @@
     "clarkwinkelmann-discussion-open-position": {
         "admin": {
             "settings": {
-                "defaultOpenLastRead": "",
-                "suggestFirstTime": "",
+                "defaultOpenLastRead": "默认回到上次的阅读位置",
+                "suggestFirstTime": "在用户首次打开主题帖时，询问是否更改定位模式",
                 "openLastOptions": {
-                    "always": "",
-                    "unread": "",
-                    "never": ""
+                    "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
+                    "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
+                    "never": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never"
                 }
             }
         },
         "forum": {
             "firstTimePrompt": {
-                "fromAlways": "",
-                "fromNever": "",
+                "fromAlways": "打开主题时回到上次的阅读位置",
+                "fromNever": "打开主题时跳转到一楼",
                 "openLastOptions": {
-                    "always": "",
-                    "never": ""
+                    "always": "总是在打开主题时回到上次的阅读位置",
+                    "never": "总是在打开主题时跳转到一楼"
                 },
                 "more": "更多选项"
             },
             "preferences": {
-                "discussionOpenLastRead": "看帖跳转方式选择",
+                "discussionOpenLastRead": "主题帖打开模式",
                 "openLastOptions": {
-                    "always": "打开帖子时总是跳转到最新未读回复",
-                    "unread": "无未读回复时默认跳转主楼，有未读回复时跳转至未读回复",
-                    "never": "打开帖子时总是跳转到主楼"
+                    "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
+                    "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
+                    "never": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never"
                 }
             }
         },
         "ref": {
             "openLastOptions": {
-                "always": "打开帖子时总是跳转到最新未读回复",
-                "unread": "无未读回复时默认跳转主楼，有未读回复时跳转至未读回复",
-                "never": "打开帖子时总是跳转到主楼"
+                "always": "总是在打开主题时回到上次的阅读位置",
+                "unread": "打开主题时仅在有新回复时回到上次的阅读位置",
+                "never": "总是在打开主题时跳转到一楼"
             }
         }
     }
