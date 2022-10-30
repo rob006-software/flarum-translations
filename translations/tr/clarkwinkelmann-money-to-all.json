@@ -2,27 +2,27 @@
     "clarkwinkelmann-money-to-all": {
         "lib": {
             "modal": {
-                "title": "",
-                "amount": "",
-                "notify": "",
-                "message": "",
-                "messagePlaceholder": "",
-                "messageHelp": "",
-                "suspended": "",
-                "lastActivity": "",
-                "preview": "",
-                "submit": "",
-                "success": ""
+                "title": "Tüm kullanıcılara para gönder",
+                "amount": "Tutar",
+                "notify": "Kullanıcılara web bildirimi gönder",
+                "message": "Mesaj",
+                "messagePlaceholder": "Mesaj eklemek için bildirimi etkinleştir",
+                "messageHelp": "İsteğe bağlı. Mesaj, varsayılan bildirim metnini geçersiz kılar. Artık gösterilmeyeceği için metninizde miktarı belirtmelisiniz.",
+                "suspended": "Askıya alınan kullanıcıları dahil et",
+                "lastActivity": "Aşağıdaki tarihten sonra aktif olan kullanıcılarla kısıtla",
+                "preview": "Mevcut ayarlar {count} kullanıcıyla eşleşiyor.",
+                "submit": "Gönder",
+                "success": "{count} kullanıcıya para gönderildi!"
             }
         },
         "admin": {
             "settings": {
-                "send": ""
+                "send": "Tüm kullanıcılara para gönder"
             }
         },
         "forum": {
             "notification": {
-                "moneyReceived": ""
+                "moneyReceived": "{amount} aldınız"
             }
         }
     }
