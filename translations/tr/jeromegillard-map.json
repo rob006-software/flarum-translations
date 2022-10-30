@@ -2,46 +2,46 @@
     "jeromegillard-map": {
         "admin": {
             "templates": {
-                "map": "",
-                "file_description": "",
-                "markdown-osm": "",
-                "markdown-osm_description": ""
+                "map": "Harita",
+                "file_description": "Flarum'da bir harita göster. Orijinal dosya indirilebilir olacaktır. Sağlayıcı ve stili, uzantının ayarlarında tanımlanan olacaktır. <b>Bunun çalışması için flarum/bbcode'un kurulu ve etkinleştirilmiş olması gerekir</b>.",
+                "markdown-osm": "Markdown haritası",
+                "markdown-osm_description": "Markdown harita açıklaması"
             },
             "settings": {
                 "tiles_provider": {
-                    "label": "",
-                    "help": "",
-                    "link": ""
+                    "label": "Varsayılan katman sağlayıcısı",
+                    "help": "Arka planda görünen katmanının sağlayıcısını seçin",
+                    "link": "Buraya bakın"
                 },
                 "zoom": {
-                    "label": "",
-                    "help": ""
+                    "label": "Varsayılan yakınlaştırma düzeyi",
+                    "help": "0 ile 18 arasında herhangi bir tam sayı."
                 },
                 "style": {
-                    "label": "",
-                    "help": ""
+                    "label": "{provider} için varsayılan stil",
+                    "help": "Bir harita stili seçin. <a>Stillerine bir göz atın</a>."
                 },
                 "maptiler": {
-                    "label": "",
-                    "help": ""
+                    "label": "MapTiler tokeni",
+                    "help": "Bir jeton almak için <a>maptiler.com</a> adresinden ücretsiz kaydolun. Lütfen onların <b>telif haklarına</b> saygı gösterin."
                 },
                 "osm": {
-                    "help": ""
+                    "help": "OpenStreetMap, Leaflet haritanızı programlamak için uygundur, ancak onu kullanacaksanız OpenStreetMap'in <a>Tile Kullanım Politikası</a>'nı okuyun."
                 },
                 "mapbox": {
-                    "label": "",
-                    "help": ""
+                    "label": "Mapbox anahtarı",
+                    "help": "Bir jeton(token) almak için <a>mapbox.com</a> adresinden ücretsiz kaydolun. Lütfen onların <b>telif haklarına</b> saygı gösterin."
                 },
                 "thunderforest": {
-                    "label": "",
-                    "help": ""
+                    "label": "Thunderforest API anahtarı",
+                    "help": "API anahtarı almak için <a>thunderforest.com</a> adresinden ücretsiz kaydolun. Lütfen <b>kullanım koşullarına</b> saygı gösterin."
                 }
             }
         },
         "forum": {
             "text_editor": {
-                "bbcode_tooltip": "",
-                "location_placeholder": ""
+                "bbcode_tooltip": "harita ekle",
+                "location_placeholder": "NEREDE?"
             }
         }
     }
