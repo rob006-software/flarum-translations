@@ -29,40 +29,40 @@
                     "manual": "Elle",
                     "createdAsc": "Tartışma oluşturma (en eskiden en yeniye)",
                     "createdDesc": "Tartışma oluşturma (en yeniden en eskiye)",
-                    "addedAsc": "",
-                    "addedDesc": ""
+                    "addedAsc": "Listeye ekleme (en azdan en yeniye)",
+                    "addedDesc": "Listeye ekleme (en yeniden en aza doğru)"
                 },
-                "save": "",
-                "delete": "",
-                "deleteConfirmation": ""
+                "save": "Kaydet",
+                "delete": "Sil",
+                "deleteConfirmation": "Bu listeyi gerçekten kalıcı olarak silmek istiyor musunuz?"
             },
             "discussion": {
-                "add": "",
-                "new": ""
+                "add": "Listeye ekle",
+                "new": "Yeni liste"
             },
             "profile": {
-                "link": ""
+                "link": "Listeler"
             },
             "badge": {
-                "private": "",
-                "series": ""
+                "private": "Gizli liste",
+                "series": "Açık liste"
             },
             "series": {
-                "kind": "",
-                "expand": "",
-                "visit": ""
+                "kind": "Diziler",
+                "expand": "Genişlet",
+                "visit": "Her şeyi göster"
             }
         },
         "api": {
-            "manualLimit": "",
-            "seriesAnyAddNotAllowed": "",
-            "seriesAnyConversionNotAllowed": ""
+            "manualLimit": "Manuel olarak sıralanan listeler 50'den fazla tartışma içeremez",
+            "seriesAnyAddNotAllowed": "Bir dizi listesine yalnızca kendi tartışmalarınızı ekleyebilirsiniz",
+            "seriesAnyConversionNotAllowed": "Liste size ait olmayan tartışmalar içerdiğinden diziye dönüştürülemiyor"
         }
     },
     "core": {
         "forum": {
             "index_sort": {
-                "discussionListDefault_button": ""
+                "discussionListDefault_button": "Listede sırala"
             }
         }
     }
