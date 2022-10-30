@@ -2,15 +2,15 @@
     "blomstra-turnstile": {
         "admin": {
             "settings": {
-                "site_key": "",
-                "secret_key": ""
+                "site_key": "Site anahtarı",
+                "secret_key": "Gizli anahtar"
             }
         },
         "forum": {
-            "not_loaded_error": ""
+            "not_loaded_error": "Cloudflare Turnike yüklenemedi. Lütfen sayfayı yenileyin ve reklam engelleyicinizi kontrol edin."
         }
     },
     "validation": {
-        "turnstile": ""
+        "turnstile": "Robot olup olmadığınızı doğrulayamadık. Lütfen sayfayı yenileyin ve tekrar deneyin."
     }
 }
