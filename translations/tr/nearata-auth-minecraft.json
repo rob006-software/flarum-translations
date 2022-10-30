@@ -3,27 +3,27 @@
         "admin": {
             "settings": {
                 "minecraft_server": {
-                    "label": "",
-                    "help": ""
+                    "label": "Minecraft Sunucusu IP'si",
+                    "help": "Örnek: alanadi.com"
                 },
                 "api_url": {
-                    "label": "",
-                    "help": ""
+                    "label": "API Bağlantısı",
+                    "help": "Örneğin: http://localhost:4567/verify"
                 },
                 "api_secret": {
-                    "label": "",
-                    "help": ""
+                    "label": "API Gizli Anahtarı",
+                    "help": "<strong>Plugins/OAuth/config.json</strong>'da bulunabilir"
                 }
             }
         },
         "forum": {
-            "login_error": "",
+            "login_error": "Oturum başlamadı veya süresi dolmadı.",
             "log_in_modal": {
                 "submit_button": "Doğrulama",
                 "title": "Minecraft ile Giriş Yap"
             },
             "log_in_button_title": "Minecraft ile Giriş Yap",
-            "modal_help": "",
+            "modal_help": "<strong>{server}</strong> sunucusuna katılın ve aşağıdaki düğmeyi tıklayın.",
             "change_email_modal": {
                 "confirmation_message": "{email} adresine doğrulama için posta gönderdik. Eğer postayı görmüyorsanız istenmeyen kutunuzu kontrol edin.",
                 "dismiss_button": "Tamam",
