@@ -2,14 +2,14 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "İstatistikleri görüntülemek için özel bir tarih aralığı seçin. Verilerin yüklenmesi uzun sürebilir\nçok fazla aktiviteye sahip forumlarda birden fazla dakika.\n",
+                "end_date": "Bitiş tarihi (dahil)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "Bitiş tarihi, başlangıç tarihinden sonra olmalıdır."
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "Başlangıç tarihi (dahil)",
+                "submit_button": "Tarih aralığını onaylayın",
+                "title": "Özel tarih aralığı seçin"
             },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
@@ -19,17 +19,17 @@
                 "mini_heading": "Forum istatistikleri",
                 "previous_28_days_label": "Önceki 28 gün",
                 "previous_7_days_label": "Önceki 7 gün",
-                "custom_label": "",
-                "custom_label_specified": "",
+                "custom_label": "Özel aralık seçin...",
+                "custom_label_specified": "{fromDate} ile {toDate} arası",
                 "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "Bugün",
                 "total_label": "Toplam",
                 "users_heading": "=> core.ref.users",
                 "view_full": "Daha fazla istatistik görüntüle",
-                "no_data": "",
-                "current_period": "",
-                "previous_period": "",
+                "no_data": "Bu tarih aralığı için kullanılabilir veri yok.",
+                "current_period": "Geçerli dönem",
+                "previous_period": "Önceki dönem",
                 "active_users_text": "{count} aktif"
             }
         }
