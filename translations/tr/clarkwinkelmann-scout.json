@@ -10,11 +10,11 @@
                     "tntsearch": "TNTSearch"
                 },
                 "prefix": "Dizin adı öneki (isteğe bağlı)",
-                "queue": "",
-                "queueHelp": "",
-                "limit": "",
-                "limitPlaceholder": "",
-                "limitHelp": "",
+                "queue": "Dizin güncellemelerini kuyrukta işle",
+                "queueHelp": "Bu ayar yalnızca Flarum'da eşzamansız bir kuyruk sürücüsü yapılandırılmışsa etkilidir.",
+                "limit": "Varsayılan Sonuç Sınırı",
+                "limitPlaceholder": "Oto",
+                "limitHelp": "Bu, arama motoruna istenen sonuçların sayısını geçersiz kılar ve oluşturulabilecek sonuç sayfalarının sayısını etkiler (sınır, kullanıcının göremediği içeriği de sayar). Bazı motorlar, izin verilen maksimum değeri değiştirmek için ek yapılandırma gerektirebilir.\n",
                 "algoliaId": "Algolia ID",
                 "algoliaSecret": "Algolia Secret Anahtarı",
                 "algoliaConnectTimeout": "Algolia Bağlantı Zaman Aşımı (isteğe bağlı)",
@@ -22,11 +22,11 @@
                 "algoliaWriteTimeout": "Algolia Yazma Zaman Aşımı (isteğe bağlı)",
                 "meilisearchHost": "Meilisearch Host",
                 "meilisearchKey": "Meilisearch Anahtarı",
-                "tntsearchMaxDocs": "",
-                "tntsearchFuzziness": "",
-                "tntsearchFuzzyDistance": "",
-                "tntsearchFuzzyPrefixLength": "",
-                "tntsearchFuzzyMaxExpansions": ""
+                "tntsearchMaxDocs": "TNT Search Max Docs (isteğe bağlı, maksimum sonuç sayısı)",
+                "tntsearchFuzziness": "TNT Arama Belirsizliği (yazım hataları/varyasyon eşleşmesi)",
+                "tntsearchFuzzyDistance": "TNT Arama Belirsizliği Levenshtein Mesafesi (isteğe bağlı)",
+                "tntsearchFuzzyPrefixLength": "TNT Arama Belirsizliği Önek Uzunluğu (isteğe bağlı)",
+                "tntsearchFuzzyMaxExpansions": "TNT Search Fuzziness Max Genişletmeleri (isteğe bağlı)"
             }
         }
     }
