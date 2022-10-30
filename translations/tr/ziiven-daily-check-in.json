@@ -1,28 +1,28 @@
 {
     "ziven-checkin": {
         "forum": {
-            "check-in": "",
-            "checked-in-day": "",
-            "checked-in-days": "",
-            "check-in-success": "",
+            "check-in": "Giriş",
+            "checked-in-day": "{count} Gün Giriş Yapıldı",
+            "checked-in-days": "{count} Gün İçinde Giriş Yapıldı",
+            "check-in-success": "Giriş Başarılı",
             "checked-in": ""
         },
         "admin": {
             "settings": {
-                "auto-check-in": "",
-                "auto-check-in-delay": "",
-                "timezone": "",
-                "reward-money": "",
-                "reward-money-requirement": "",
-                "check-in-success-prompt-type": "",
-                "check-in-success-prompt-text": "",
-                "check-in-success-prompt-reward-text": "",
-                "check-in-success-prompt-example-text": "",
-                "check-in-success-prompt-example-reward-text": "",
-                "allow-check-in": "",
-                "None": "",
-                "Alert": "",
-                "Modal": ""
+                "auto-check-in": "Otomatik giriş",
+                "auto-check-in-delay": "Otomatik giriş gecikmesi (milyon saniye)",
+                "timezone": "Saat dilimi",
+                "reward-money": "Giriş ödülü",
+                "reward-money-requirement": "<code>antoinefr/flarum-ext-money</code> uzantısını gerektirir",
+                "check-in-success-prompt-type": "Başarı istemi türünü kontrol edin",
+                "check-in-success-prompt-text": "İstem metni",
+                "check-in-success-prompt-reward-text": "İstemi ödül metni",
+                "check-in-success-prompt-example-text": "Örnek: [gün] gündür giriş yaptınız",
+                "check-in-success-prompt-example-reward-text": "Örnek: Kazanılan [ödül] ödülü",
+                "allow-check-in": "Giriş'e izin ver",
+                "None": "Hiçbiri",
+                "Alert": "Uyarı",
+                "Modal": "Modal"
             }
         }
     }
