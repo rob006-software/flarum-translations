@@ -45,11 +45,11 @@
                 "birthdays_heading": "Doğum tarihi"
             },
             "nav": {
-                "nav_item": ""
+                "nav_item": "Bugün Doğanlar"
             },
             "page": {
-                "discussion_count": "",
-                "post_count": ""
+                "discussion_count": "{count, plural, one {Tartışma: #} other {Tartışmalar: #}}",
+                "post_count": "{count, plural, one {İleti: #} other {İletiler: #}}"
             }
         },
         "api": {
