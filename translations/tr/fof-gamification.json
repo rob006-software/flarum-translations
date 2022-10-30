@@ -62,7 +62,7 @@
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "tolgaaaltas, mekici, DursunCan",
+                        "placeholder": "yonetici, kullanici1, kullanici2",
                         "title": "Yoksayılan kullanıcılar",
                         "help": "Bu kullanıcılar sıralama sayfasında görünmeyecek. Kullanıcı adları virgül ve sonrasında boşluk ile ayrılmalıdır."
                     },
@@ -90,7 +90,7 @@
                     "icon_help": "İstediğiniz -up ve -down arka eki olan FontAwesome simgesini ekleyin. Örn: arrow, thumbs, chevron",
                     "upvotes_only": "Yalnızca yukarı oya izin ver",
                     "first_post_only": "Bir tartışmada yalnızca ilk gönderinin yukarı/aşağı oylanmasına izin verin",
-                    "allow_self_votes": ""
+                    "allow_self_votes": "Kullanıcılar kendi gönderilerine oy verebilir"
                 },
                 "save_settings": "Ayarları Kaydet",
                 "convert": {
@@ -111,15 +111,15 @@
                     }
                 },
                 "groups": {
-                    "title": "",
-                    "help": "",
+                    "title": "Otomatik olarak atanan gruplar",
+                    "help": "Bir kullanıcının puan sayısı değiştiğinde, seçilen gruplar gerektiğinde otomatik olarak eklenecek veya kaldırılacaktır. Yapılandırmada değişiklik yaptıysanız, mevcut kullanıcıları güncellemek için <code>php flarum fof:gamification:assign-groups</code> komutunu çalıştırmalısınız. Bir kuralı silmek ve gruptan tüm kullanıcıları kaldırmak istiyorsanız, hem minimum hem de maksimum değerleri boş bir dizeye ayarlayın, ayarları kaydedin ve komut satırı komutunu çalıştırın. Son olarak, kuralı tamamen ayarlardan silebilirsiniz.\n",
                     "column": {
-                        "group": "",
-                        "minPoints": "",
-                        "maxPoints": ""
+                        "group": "Grup",
+                        "minPoints": "Minimum puan (dahil)",
+                        "maxPoints": "Maksimum puan (dahil)"
                     },
-                    "add": "",
-                    "delete": ""
+                    "add": "Yeni kural ekle",
+                    "delete": "Kuralı sil"
                 }
             }
         },
