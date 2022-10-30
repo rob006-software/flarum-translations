@@ -2,53 +2,53 @@
     "clarkwinkelmann-money-rewards": {
         "admin": {
             "settings": {
-                "preselection": "",
-                "min": "",
-                "max": "",
-                "decimals": ""
+                "preselection": "Önceden seçilmiş tutarlar (virgülle ayrılmış, isteğe bağlı)",
+                "min": "Özel tutarlar için minimum değer",
+                "max": "Özel tutarlar için maksimum değer",
+                "decimals": "Özel tutarlar için maksimum ondalık basamak sayısı"
             },
             "permissions": {
-                "seeMoneyRewardHistory": "",
-                "rewardWithMoney": "",
-                "customAmounts": "",
-                "createMoney": ""
+                "seeMoneyRewardHistory": "Diğer kullanıcıların ödüllerinin geçmişini görün",
+                "rewardWithMoney": "Diğer kullanıcıları parayla ödüllendirin",
+                "customAmounts": "Ödüller için özel miktarlar seçin",
+                "createMoney": "Ödüllerde yeni para yaratın"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "target": "",
-                "optionCustom": "",
-                "balance": "",
+                "title": "Ödül gönderisi",
+                "target": "{username} tarafından gönderilen #{number} ödüllü gönderi",
+                "optionCustom": "Özel",
+                "balance": "Bakiyeniz: {amount}",
                 "label": {
-                    "custom": "",
-                    "create": "",
-                    "comment": ""
+                    "custom": "Özel miktar",
+                    "create": "Bakiyemi çıkarmak yerine para yarat",
+                    "comment": "Yorum (genel)"
                 },
-                "submit": "",
-                "success": ""
+                "submit": "Gönder",
+                "success": "Ödül, yazara gönderildi!"
             },
             "profile": {
-                "nav": "",
-                "title": ""
+                "nav": "Ödüller",
+                "title": "Ödüller"
             },
             "post": {
-                "action": "",
-                "disallowedOwn": "",
-                "disallowedOther": "",
-                "section": ""
+                "action": "Ödül",
+                "disallowedOwn": "Kendi gönderilerinizi ödüllendiremezsiniz.",
+                "disallowedOther": "Bu gönderiyi ödüllendiremezsiniz. En olası nedenler, yazarın anonim olması veya hesabını silmiş olmasıdır.",
+                "section": "Ödüller"
             },
             "record": {
-                "from": "",
-                "to": "",
-                "post": "",
-                "comment": ""
+                "from": "itibaren",
+                "to": "ile",
+                "post": "\"{title}\" tartışmasındaki <a>#{number}</a> gönderisi için",
+                "comment": "Yorum:"
             }
         },
         "api": {
             "error": {
-                "decimals": "",
-                "notEnoughFunds": ""
+                "decimals": "Tutar, {decimals} ondalık sayı ile sınırlıdır.",
+                "notEnoughFunds": "Yeterli fon yok."
             }
         }
     }
