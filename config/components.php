@@ -691,6 +691,9 @@ return [
 	'jeromegillard-map' => [
 		'tag' => 'https://raw.githubusercontent.com/JeromeGillard/flarum-map/v0.1.2/locale/en.yml',
 	],
+	'jinber-jdunion' => [
+		'tag' => 'https://raw.githubusercontent.com/langziyang/flarum-jdunion/v1.0.0/locale/en.yml',
+	],
 	'jslirola-login2seeplus' => [
 		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.2.1/locale/en.yml',
 	],
