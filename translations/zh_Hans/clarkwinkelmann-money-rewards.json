@@ -2,53 +2,53 @@
     "clarkwinkelmann-money-rewards": {
         "admin": {
             "settings": {
-                "preselection": "",
-                "min": "",
-                "max": "",
-                "decimals": ""
+                "preselection": "预选金额（英文逗号分隔,可选）",
+                "min": "自定义金额的最小值",
+                "max": "自定义金额的最大值",
+                "decimals": "自定义金额的小数位数上限"
             },
             "permissions": {
-                "seeMoneyRewardHistory": "",
-                "rewardWithMoney": "",
-                "customAmounts": "",
-                "createMoney": ""
+                "seeMoneyRewardHistory": "查看其他用户的打赏记录",
+                "rewardWithMoney": "使用货币打赏其他用户",
+                "customAmounts": "选择自定义打赏金额",
+                "createMoney": "重新设定新的赏金金额"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "target": "",
-                "optionCustom": "",
-                "balance": "",
+                "title": "打赏该帖",
+                "target": "由{username}打赏了{number}帖子",
+                "optionCustom": "自定义",
+                "balance": "您的余额：{amount}",
                 "label": {
-                    "custom": "",
-                    "create": "",
-                    "comment": ""
+                    "custom": "自定义金额",
+                    "create": "不消耗余额来进行打赏",
+                    "comment": "评论（公开）"
                 },
-                "submit": "",
-                "success": ""
+                "submit": "提交",
+                "success": "已打赏给发帖作者！"
             },
             "profile": {
-                "nav": "",
-                "title": ""
+                "nav": "打赏",
+                "title": "打赏"
             },
             "post": {
-                "action": "",
-                "disallowedOwn": "",
-                "disallowedOther": "",
-                "section": ""
+                "action": "打赏",
+                "disallowedOwn": "您不能打赏自己的帖子。",
+                "disallowedOther": "你不能打赏这个帖子。可能作者是匿名的或已被注销。",
+                "section": "打赏"
             },
             "record": {
-                "from": "",
-                "to": "",
-                "post": "",
-                "comment": ""
+                "from": "来自",
+                "to": "于",
+                "post": "于“{title}”中讨论的<a>#{number} 帖</a>",
+                "comment": "评论："
             }
         },
         "api": {
             "error": {
-                "decimals": "",
-                "notEnoughFunds": ""
+                "decimals": "金额限制为 {decimals} 小数。",
+                "notEnoughFunds": "没有足够的资金。"
             }
         }
     }
