@@ -1,0 +1,42 @@
+{
+    "flarum-nicknames": {
+        "admin": {
+            "permissions": {
+                "edit_own_nickname_label": "Редагувати власний нікнейм"
+            },
+            "settings": {
+                "max_label": "Максимальна довжина нікнейму",
+                "min_label": "Мінімальна довжина нікнейму",
+                "random_username_label": "Випадковий вибір імен користувачів",
+                "random_username_help": "Це приховає \"ім'я користувача\", введене під час реєстрації, і замість цього використовуватиме випадкове число. Це також зробить поле \"нікнейм\" обов'язковим. Це набуде чинності, лише якщо ввімкнено \"Дозволити встановлення нікнеймів при реєстрації\".",
+                "regex_label": "Регулярний вираз для перевірки",
+                "set_on_registration_label": "Дозволити встановлення нікнеймів при реєстрації",
+                "unique_label": "Потрібен унікальний нікнейм?"
+            },
+            "wrong_driver": "Щоб це розширення набрало чинності, необхідно обрати \"nickname\" як драйвер відображуваного імені в розділі <a><strong>Загальні налаштування</strong></a>"
+        },
+        "api": {
+            "invalid_nickname_message": "Цей нікнейм недійсний. Будь ласка, зв’яжіться з адміністратором форуму, щоб отримати додаткову інформацію про правила використання нікнеймів."
+        },
+        "forum": {
+            "change_nickname": {
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "edit_user": {
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "=> flarum-nicknames.ref.nickname"
+            },
+            "settings": {
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": "=> flarum-nicknames.ref.nickname"
+            }
+        },
+        "ref": {
+            "change_nickname": "Змінити нікнейм",
+            "nickname": "Нікнейм"
+        }
+    }
+}
