@@ -1,0 +1,30 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Блокувати користувачів"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "Ви заблоковані на {timeReadable}",
+                "user_unsuspended_text": "Ви розблоковані"
+            },
+            "suspend_user": {
+                "indefinitely_label": "Заблокований назавжди",
+                "limited_time_days_text": " днів",
+                "limited_time_label": "Заблокований на деякий час...",
+                "not_suspended_label": "Не заблокований",
+                "status_heading": "Статус блокування",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Заблокувати {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Заблокований"
+            },
+            "user_controls": {
+                "suspend_button": "Заблокувати"
+            }
+        }
+    }
+}
