@@ -1,0 +1,92 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Видалити",
+                "delete_tag_confirmation": "Ви впевнені , що хочете видалити розділ? Дискусії в цьому розділі видалені не будуть.",
+                "description_label": "Опис",
+                "hide_label": "Приховати зі списку дискусій",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Шлях",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Створити розділ"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Управління списком розділів, доступних для структурування дискусій."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "Дозволити редагування розділів",
+                "bypass_tag_counts_label": "Ігнорувати вимоги до розділів",
+                "restrict_by_tag_heading": "Згідно розділу",
+                "tag_discussions_label": "Редагувати розділи дискусій"
+            },
+            "tag_settings": {
+                "range_separator_text": " - ",
+                "required_primary_heading": "Кількість основних розділів",
+                "required_primary_text": "Введіть мінімальне і максимальне число основних розділів, в які буде додана дискусія.",
+                "required_secondary_heading": "Кількість додаткових розділів",
+                "required_secondary_text": "Введіть мінімальне і максимальне число додаткових розділів, в які буде додана дискусія.",
+                "title": "Налаштування розділів"
+            },
+            "tags": {
+                "about_tags_text": "Розділи використовуються для структурування дискусій. Основні розділи можуть являти собою дворівневу ієрархію. Додаткові розділи не мають ієрархії та можуть бути корисні для мікро-структурування. Розділи з додаткових в основні можна конвертувати шляхом простого перетягування мишкою.",
+                "create_primary_tag_button": "Створити основний розділ",
+                "create_secondary_tag_button": "Створити додатковий розділ",
+                "primary_heading": "Основні",
+                "secondary_heading": "Додаткові",
+                "settings_heading": "Налаштування"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "Всі розділи",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "choose_primary_placeholder": "{count, plural, one {Вкажіть основний розділ} other {Вкажіть # основних розділів}}",
+                "choose_secondary_placeholder": "{count, plural, one {Вкажіть більше 1 розділу} other {Вкажіть більше # розділів}}",
+                "edit_title": "Налаштування розділів: {title}",
+                "submit_button": "=> core.ref.okay",
+                "title": "Вкажіть розділи для Вашої дискусії"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "Вибрати розділи"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "Редагувати розділи"
+            },
+            "header": {
+                "back_to_tags_tooltip": "Повернутися до списку розділів"
+            },
+            "index": {
+                "more_link": "Ще...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Без розділів"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username} додав(ла) {tagsAdded} і видалив(ла) {tagsRemoved}.",
+                "added_tags_text": "{username} додав(ла) {tagsAdded}.",
+                "removed_tags_text": "{username} видалив(ла) {tagsRemoved}.",
+                "tags_text": "{count, plural, one {{tags} розділ} other {{tags} розділи}}"
+            },
+            "tag": {
+                "meta_description_text": "Всі дискусії з тегом {tag}"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "Видалено"
+        },
+        "ref": {
+            "name": "Назва",
+            "tags": "Розділи"
+        }
+    }
+}
