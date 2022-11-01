@@ -1,0 +1,28 @@
+{
+    "flarum-lock": {
+        "admin": {
+            "permissions": {
+                "lock_discussions_label": "Закривати дискусії"
+            }
+        },
+        "forum": {
+            "badge": {
+                "locked_tooltip": "Закрито"
+            },
+            "discussion_controls": {
+                "lock_button": "Закрити",
+                "unlock_button": "Відкрити"
+            },
+            "notifications": {
+                "discussion_locked_text": "{username} закрив(ла)"
+            },
+            "post_stream": {
+                "discussion_locked_text": "{username} закрив(ла) дискусію.",
+                "discussion_unlocked_text": "{username} відкрив(ла) дискусію."
+            },
+            "settings": {
+                "notify_discussion_locked_label": "Хтось закрив мою дискусію"
+            }
+        }
+    }
+}
