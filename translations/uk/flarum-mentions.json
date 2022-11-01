@@ -1,0 +1,49 @@
+{
+    "flarum-mentions": {
+        "admin": {
+            "settings": {
+                "allow_username_format_label": "Дозволити формат згадування користувача (@Username)",
+                "allow_username_format_text": "Поточний формат для згадок користувачів: @\"Display Name\"#ID.\nЦей параметр дозволяє використовувати старий формат @Username, однак він все одно буде перетворений у новий формат після збереження.\n"
+            }
+        },
+        "forum": {
+            "composer": {
+                "mention_tooltip": "Згадати користувача або повідомлення",
+                "reply_to_post_text": "Відповісти на #{number}"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} відповів(ла) на Ваше повідомлення",
+                "user_mentioned_text": "{username}  згадав(ла) Вас"
+            },
+            "post": {
+                "mentioned_by_self_text": "{users} відповіли на це повідомлення.",
+                "mentioned_by_text": "{users} відповіли на це повідомлення.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Цитата",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "Хтось відповідає на одне з моїх повідомлень",
+                "notify_user_mentioned_label": "Хтось згадує мене в повідомленні"
+            },
+            "user": {
+                "mentions_link": "Згадування"
+            },
+            "post_mention": {
+                "deleted_text": "[невідомо]"
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "{replier_display_name} відповів на ваш пост у дискусії {title}",
+                "body": "Привіт {recipient_display_name}!\n\n{replier_display_name} відповів на ваш пост (#{post_number}) в дискусії {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "user_mentioned": {
+                "subject": "{mentioner_display_name} згадав вас у дискусії {title}",
+                "body": "Привіт {recipient_display_name}!\n\n{mentioner_display_name} згадав вас у своєму дописі в дискусії {title}.\n\n{url}\n\n---\n\n{content}\n"
+            }
+        }
+    }
+}
