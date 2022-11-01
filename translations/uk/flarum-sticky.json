@@ -1,0 +1,25 @@
+{
+    "flarum-sticky": {
+        "admin": {
+            "permissions": {
+                "sticky_discussions_label": "Закріплювати дискусії"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "=> flarum-sticky.ref.sticky"
+            },
+            "discussion_controls": {
+                "sticky_button": "=> flarum-sticky.ref.sticky",
+                "unsticky_button": "Відмінити закріплення"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "{username} закріпив(ла) дискусію.",
+                "discussion_unstickied_text": "{username} відмінив(ла) закріплення дискусії."
+            }
+        },
+        "ref": {
+            "sticky": "Закріплено"
+        }
+    }
+}
