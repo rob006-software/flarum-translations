@@ -1,0 +1,21 @@
+{
+    "fof-recaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "Отримайте свої облікові дані Google reCAPTCHA <a>тут</a>.",
+                "secret_key_label": "Secret Key",
+                "site_key_label": "Site Key",
+                "type_label": "Тип reCAPTCHA"
+            },
+            "permissions": {
+                "post_without_captcha": "Створювати повідомлення та дискусії без reCAPTCHA"
+            }
+        },
+        "forum": {
+            "error": "Під час надсилання reCAPTCHA сталася помилка. Спробуйте ще раз."
+        }
+    },
+    "validation": {
+        "recaptcha": "Помилка перевірки reCAPTCHA."
+    }
+}
