@@ -104,5 +104,8 @@ return [
 		// translations included in extension
 		'!xelson-chat',
 	]),
-	'zh_Hans' => getComponents(),
+	'zh_Hans' => getComponents([
+		// translations included in extension
+		'!vlssu/flarum-cravatar',
+	]),
 ];
