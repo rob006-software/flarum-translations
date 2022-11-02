@@ -22,8 +22,8 @@
                 "logo_heading": "Логотип",
                 "logo_text": "Завантаження зображення, яке буде відображатися замість заголовка форуму.",
                 "title": "Зовнішній вигляд",
-                "colors_primary_label": "",
-                "colors_secondary_label": ""
+                "colors_primary_label": "Основний колір",
+                "colors_secondary_label": "Вторинний колір"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -48,7 +48,7 @@
                 "description": "Перший погляд на ваш форум.",
                 "title": "Консоль",
                 "tools_button": "Iнструменти",
-                "io_error_message": ""
+                "io_error_message": "Не вдалося записати до файлової системи. Перевірте права доступу до файлової системи та повторіть спробу. Або спробуйте запустити з командного рядка."
             },
             "edit_css": {
                 "customize_text": "Налаштування зовнішнього вигляду форуму за допомогою користувацького коду LESS/CSS, який перекриває <a>стандартні стильові конструкції </a> Flarum.",
@@ -88,7 +88,7 @@
                 "mail_host_label": "Хост",
                 "mail_mailgun_domain_label": "Домен",
                 "mail_mailgun_region_label": "Region",
-                "mail_mailgun_secret_label": "Secret key",
+                "mail_mailgun_secret_label": "Секретний ключ",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Порт",
                 "mail_username_label": "=> core.ref.username",
@@ -98,7 +98,7 @@
                 "send_test_mail_heading": "Відправити тестового листа",
                 "send_test_mail_success": "Тестовий лист надіслано успішно!",
                 "send_test_mail_text": "Електронний лист із вказаною вище конфігурацією буде відправлено на вашу адресу, {email}.",
-                "smtp_heading": "SMTP Settings",
+                "smtp_heading": "Налаштування SMTP",
                 "title": "=> core.ref.email"
             },
             "extension": {
@@ -167,7 +167,7 @@
                 "delete_discussions_label": "Видаляти дискусії",
                 "delete_posts_forever_label": "Видаляти повідомлення (фізично)",
                 "delete_posts_label": "Видаляти повідомлення",
-                "description": "Налаштування дозволу груп",
+                "description": "Налаштуйте, хто і що може бачити та робити.",
                 "edit_posts_label": "Редагувати повідомлення",
                 "edit_users_label": "Редагувати користувачів",
                 "edit_users_credentials_label": "Редагувати облікові дані користувачів",
@@ -247,8 +247,8 @@
                 "total_users": "Усього користувачів: {count}"
             },
             "debug-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "Коли режим <code>debug</code> активний, Flarum перебудовуватиме свої активи <code>JavaScript</code> та <code>CSS</code> за кожним запитом, а також потенційно може призвести до витоку іншої інформації, як-от бази даних секрети, змінні середовища тощо.\n\nНаполегливо рекомендуємо вимкнути <code>debug</code> у вашому файлі <code>config.php</code> на продакшині. Перегляньте <link>документи Flarum</link> для отримання додаткової інформації.\n",
+                "label": "Активний режим відлагодження"
             }
         },
         "forum": {
@@ -306,7 +306,7 @@
                 "toggle_dropdown_accessible_label": "Перемкнути спадне меню дій дискусії"
             },
             "discussion_list": {
-                "empty_text": "Тут немає дискусій. Чому б Вам не створити?",
+                "empty_text": "Складається враження, що тут немає ніяких дискусій.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} відповів(ла) {ago}",
                 "started_text": "{username} створив(ла) {ago}",
@@ -372,8 +372,8 @@
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Переглянути сповіщення",
                 "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "delete_all_confirm": "Ви впевнені, що хочете видалити всі повідомлення? Ця дія не є зворотною",
+                "delete_all_tooltip": "Видалити всі повідомлення"
             },
             "post": {
                 "edited_text": "Змінено",
@@ -397,7 +397,7 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Стара назва була: \"{old}\"",
-                "discussion_renamed_text": "{username} змінив(ла) назву з \"{old}\" на \"{new}\".",
+                "discussion_renamed_text": "{username} змінив(-ла) назву з \"{old}\" на \"{new}\".",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} пізніше"
@@ -422,7 +422,7 @@
                 "privacy_disclose_online_label": "Показувати онлайн-статус",
                 "privacy_heading": "Конфіденційність",
                 "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": ""
+                "notification_checkbox_a11y_label_template": "Отримувати сповіщення \"{description}\" за допомогою {method}"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
@@ -468,7 +468,7 @@
         "lib": {
             "debug_button": "Налагодження",
             "alert": {
-                "dismiss_a11y_label": ""
+                "dismiss_a11y_label": "Відбій тривоги"
             },
             "badge": {
                 "hidden_tooltip": "Дискусія прихована"
@@ -492,7 +492,7 @@
             },
             "error": {
                 "dependent_extensions_message": "Неможливо вимкнути {extension}, доки не буде вимкнено такі залежні розширення: {extensions}",
-                "extension_initialiation_failed_message": "",
+                "extension_initialiation_failed_message": "{extension} не вдалося ініціалізувати, зверніться до консолі браузера для отримання додаткової інформації.",
                 "generic_message": "Помилка. Будь ласка , оновіть сторінку та спробуйте ще раз.",
                 "missing_dependencies_message": "Неможливо ввімкнути {extension}, доки не ввімкнемо такі залежності: {extensions}",
                 "not_found_message": "Ресурс не знайдено.",
@@ -505,8 +505,8 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} інше {{pageTitle}: Сторінка # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} інше {Сторінка # - {forumName}}}"
             },
             "modal": {
                 "close": "Закрити"
@@ -594,7 +594,7 @@
             },
             "confirm_email": {
                 "subject": "Підтвердження нового email",
-                "body": "Привіт, {username}!\n\nХтось (сподіваємось, що Ви!) змінив email на форумі {forum}.\n\nЯкщо це були Ви, просто натисніть на посилання і Ваш  email зміненно:\n{url}\n\nЯкщо це не Ви, будь ласка проігноруйте це повідомлення.\n"
+                "body": "Привіт, {username}!\n\nХтось (сподіваємось, що Ви!) змінив email на форумі {forum}.\n\nЯкщо це були Ви, просто натисніть на посилання і Ваш email змінено:\n{url}\n\nЯкщо це не Ви, будь ласка, проігноруйте це повідомлення.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
@@ -615,7 +615,7 @@
             "confirmation_email_sent": "Ми відправили лист з підтвердженням на адресу {email}. Якщо Ви не отримаєте лист найближчим часом, перевірте теку зі спамом.",
             "custom_footer_text": "Додати HTML-код який відображатиметься внизу кожної сторінки.",
             "custom_footer_title": "Редагувати кастомний футер",
-            "custom_header_text": "Додати HTML-код, який відображатиметься угорі сторінки",
+            "custom_header_text": "Додати HTML-код, який показуватиметься угорі сторінки.",
             "custom_header_title": "Редагувати кастомну шапку",
             "delete": "Видалити",
             "delete_forever": "Видалити (физічно)",
@@ -627,7 +627,7 @@
             "icon": "Іконка",
             "icon_text": "Введіть назву будь-якого класу іконки <a>Font Awesome</a>, <em>включаючи</em> префіксы <code>fas fa-</code>.",
             "load_more": "Завантажити ще",
-            "loading": "",
+            "loading": "Завантаження...",
             "log_in": "Увійти",
             "log_out": "Вийти",
             "mark_all_as_read": "Позначити все, як прочитане",
