@@ -2,62 +2,62 @@
     "fof-drafts": {
         "admin": {
             "permissions": {
-                "start": "",
-                "schedule": ""
+                "start": "Створити чернетку",
+                "schedule": "Розклад для чернеток"
             },
             "settings": {
                 "title": "",
-                "enable_scheduled_drafts": "",
-                "schedule_on_one_server": "",
-                "schedule_log_output": ""
+                "enable_scheduled_drafts": "Увімкнути розклад для чернеток",
+                "schedule_on_one_server": "Використання директиви 'onOneServer()' для планувальника завдань (потрібен Redis/Memcache)",
+                "schedule_log_output": "Увімкнути збереження розкладу в журнал"
             }
         },
         "console": {
-            "scheduled_drafts_disabled": ""
+            "scheduled_drafts_disabled": "Наразі в налаштуваннях відключені планові чернетки."
         },
         "ref": {
-            "schedule_draft": ""
+            "schedule_draft": "Розклад для чернеток"
         },
         "forum": {
             "composer": {
-                "title": "",
-                "saving": "",
-                "saved": "",
-                "exit_alert": "",
-                "discard_empty_draft_alert": ""
+                "title": "Зберегти чорнетку",
+                "saving": "Збереження...",
+                "saved": "Збережено!",
+                "exit_alert": "Очистити зміни в чернетках?",
+                "discard_empty_draft_alert": "Очистити чернетки?"
             },
             "dropdown": {
-                "empty_text": "",
-                "title": "",
-                "delete_all_button": "",
-                "delete_button": "",
+                "empty_text": "Ви не зберегли жодної чернетки",
+                "title": "Чернетки",
+                "delete_all_button": "Видалити всі чернетки",
+                "delete_button": "Видалити чернетку",
                 "schedule_button": "",
-                "scheduled_icon_tooltip": "",
+                "scheduled_icon_tooltip": "Заплановано на {datetime}",
                 "scheduled_icon_tooltip_formatter": "",
-                "tooltip": "",
-                "alert": "",
-                "delete_all_alert": ""
+                "tooltip": "Чернетки",
+                "alert": "Ви впевнені, що бажаєте видалити вашу чернетку?",
+                "delete_all_alert": "Ви впевнені, що бажаєте видалити усі ваші чернетки?"
             },
             "schedule_draft_modal": {
                 "title": "",
-                "text": "",
-                "scheduled_text": "",
-                "scheduled_error": "",
-                "unschedule_button": "",
-                "unschedule_warning": "",
-                "reschedule_button": "",
-                "schedule_button": "",
-                "schedule_time_preview": "",
+                "text": "Заплануйте автоматичну публікацію свого допису на більш пізній час!",
+                "scheduled_text": "Наразі заплановано публікацію на {datetime}.",
+                "scheduled_error": "Неможливо запланувати чорнетку: {error}.",
+                "unschedule_button": "Скасувати",
+                "unschedule_warning": "Ви впевнені, що хочете скасувати цю чернетку?",
+                "reschedule_button": "Перенесення",
+                "schedule_button": "Розклад",
+                "schedule_time_preview": "Ця чернетка буде автоматично опублікована <b>{datetime}</b>.",
                 "schedule_time_preview_formatter": "",
-                "schedule_time_preview_invalid": ""
+                "schedule_time_preview_invalid": "Невірна дата та/або час"
             },
             "user": {
                 "settings": {
-                    "drafts_heading": "",
-                    "draft_autosave_enable": "",
-                    "draft_autosave_interval_label": "",
-                    "draft_autosave_interval_button": "",
-                    "draft_autosave_interval_invalid": ""
+                    "drafts_heading": "Чернетки",
+                    "draft_autosave_enable": "Увімкнути автозбереження чернетки?",
+                    "draft_autosave_interval_label": "Автозбереження у секундах",
+                    "draft_autosave_interval_button": "Інтервал оновлення",
+                    "draft_autosave_interval_invalid": "Інтервал повинен бути цілим числом, більшим за 4."
                 }
             }
         }
