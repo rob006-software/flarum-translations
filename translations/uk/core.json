@@ -21,7 +21,9 @@
                 "favicon_text": "Завантажте зображення, яке буде відображатися в якості значка форуму.",
                 "logo_heading": "Логотип",
                 "logo_text": "Завантаження зображення, яке буде відображатися замість заголовка форуму.",
-                "title": "Зовнішній вигляд"
+                "title": "Зовнішній вигляд",
+                "colors_primary_label": "",
+                "colors_secondary_label": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -45,7 +47,8 @@
                 "clear_cache_button": "Очистити кеш",
                 "description": "Перший погляд на ваш форум.",
                 "title": "Консоль",
-                "tools_button": "Iнструменти"
+                "tools_button": "Iнструменти",
+                "io_error_message": ""
             },
             "edit_css": {
                 "customize_text": "Налаштування зовнішнього вигляду форуму за допомогою користувацького коду LESS/CSS, який перекриває <a>стандартні стильові конструкції </a> Flarum.",
@@ -242,6 +245,10 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Усього користувачів: {count}"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             }
         },
         "forum": {
@@ -364,7 +371,9 @@
                 "mark_as_read_tooltip": "Позначити як прочитане",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Переглянути сповіщення",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "delete_all_confirm": "",
+                "delete_all_tooltip": ""
             },
             "post": {
                 "edited_text": "Змінено",
@@ -412,7 +421,8 @@
                 "notify_discussion_renamed_label": "Хтось перейменував мою дискусію",
                 "privacy_disclose_online_label": "Показувати онлайн-статус",
                 "privacy_heading": "Конфіденційність",
-                "title": "=> core.ref.settings"
+                "title": "=> core.ref.settings",
+                "notification_checkbox_a11y_label_template": ""
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
@@ -457,6 +467,9 @@
         },
         "lib": {
             "debug_button": "Налагодження",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "Дискусія прихована"
             },
@@ -479,6 +492,7 @@
             },
             "error": {
                 "dependent_extensions_message": "Неможливо вимкнути {extension}, доки не буде вимкнено такі залежні розширення: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "Помилка. Будь ласка , оновіть сторінку та спробуйте ще раз.",
                 "missing_dependencies_message": "Неможливо ввімкнути {extension}, доки не ввімкнемо такі залежності: {extensions}",
                 "not_found_message": "Ресурс не знайдено.",
@@ -489,6 +503,10 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             },
             "modal": {
                 "close": "Закрити"
@@ -609,6 +627,7 @@
             "icon": "Іконка",
             "icon_text": "Введіть назву будь-якого класу іконки <a>Font Awesome</a>, <em>включаючи</em> префіксы <code>fas fa-</code>.",
             "load_more": "Завантажити ще",
+            "loading": "",
             "log_in": "Увійти",
             "log_out": "Вийти",
             "mark_all_as_read": "Позначити все, як прочитане",

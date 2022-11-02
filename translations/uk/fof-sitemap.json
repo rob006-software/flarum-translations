@@ -2,6 +2,8 @@
     "fof-sitemap": {
         "admin": {
             "settings": {
+                "exclude_users": "",
+                "exclude_users_help": "",
                 "mode_label": "Режим роботи",
                 "mode_help": "Вибір правильного режиму для вашого розміру форуму надзвичайно важливий.",
                 "mode_help_runtime_label": "Робота в режимі реального часу",
@@ -13,6 +15,8 @@
                 "mode_help_multi": "Найкраще підходить для великих форумів, починаючи з 50 000 позицій. Стиснуті файли мапи сайту з кількох частин будуть створені та збережені в папці /public",
                 "advanced_options_label": "Розширені опції",
                 "frequency_label": "Як часто планувальник повинен повторно створювати кеш або карту сайту на диску?",
+                "risky_performance_improvements": "",
+                "risky_performance_improvements_help": "",
                 "modes": {
                     "runtime": "Реальний час",
                     "multi_file": "Багатофайловий"

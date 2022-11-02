@@ -1,15 +1,35 @@
 {
     "flarum-statistics": {
         "admin": {
+            "date_selection_modal": {
+                "description": "",
+                "end_date": "",
+                "errors": {
+                    "end_before_start": ""
+                },
+                "start_date": "",
+                "submit_button": "",
+                "title": ""
+            },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
                 "last_12_months_label": "останній рік",
                 "last_28_days_label": "останній місяць",
                 "last_7_days_label": "останній тиждень",
+                "mini_heading": "",
+                "previous_28_days_label": "",
+                "previous_7_days_label": "",
+                "custom_label": "",
+                "custom_label_specified": "",
+                "loading": "",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "Сьогодні",
                 "total_label": "Взагалі",
-                "users_heading": "=> core.ref.users"
+                "users_heading": "=> core.ref.users",
+                "view_full": "",
+                "no_data": "",
+                "current_period": "",
+                "previous_period": ""
             }
         }
     }
