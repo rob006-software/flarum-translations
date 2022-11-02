@@ -4,12 +4,12 @@
             "ban_ip_button": "",
             "unban_ip_button": "",
             "modal": {
-                "ban_options_only_ip": "",
-                "ban_options_all_ip": "",
-                "ban_ip_no_users": ""
+                "ban_options_only_ip": "Заборонити тільки поточний IP (<code>{ip}</code>)",
+                "ban_options_all_ip": "Заборонити всі IP, що використовуються <i>{username}</i>",
+                "ban_ip_no_users": "Більше нікому не заборонятимуть"
             },
             "user_badge": {
-                "banned_tooltip": ""
+                "banned_tooltip": "Заборонено"
             },
             "user_controls": {
                 "ban_button": "",
@@ -23,21 +23,21 @@
             },
             "page": {
                 "create_button": "",
-                "creator_label": "",
-                "user_label": "",
+                "creator_label": "Автор",
+                "user_label": "Користувач",
                 "address_label": "",
                 "reason_label": "",
-                "date_label": ""
+                "date_label": "Дата"
             },
             "modal": {
-                "update_title": "",
-                "ban_ip_no_users": ""
+                "update_title": "Оновити заборонені IP",
+                "ban_ip_no_users": "Ніхто не буде під забороною"
             },
-            "empty_text": ""
+            "empty_text": "Заборонених IP-адрес не знайдено."
         },
         "error": {
-            "banned_ip_message": "",
-            "no_ips_found_message": ""
+            "banned_ip_message": "Авторизація не пройшла.",
+            "no_ips_found_message": "Для користувача не знайдено жодного IP-адреси."
         },
         "lib": {
             "modal": {
@@ -45,11 +45,11 @@
                 "unban_title": "",
                 "address_label": "",
                 "reason_label": "",
-                "check_button": "",
-                "save_button": "",
-                "ban_ip_confirmation": "",
+                "check_button": "Перевірка",
+                "save_button": "Зберегти",
+                "ban_ip_confirmation": "Ви дійсно хочете заблокувати цю IP-адресу для використання на форумі? Це заблокує користувачам з цією IP-адресою вхід та реєстрацію на форумі.",
                 "ban_ip_users": "",
-                "unban_ip_confirmation": "",
+                "unban_ip_confirmation": "Ви впевнені, що хочете дозволити цього користувача та всіх інших користувачів, не заблокованих з інших IP?",
                 "unban_options_only_ip": "",
                 "unban_options_all_ip": "",
                 "unban_ip_no_users": "",
