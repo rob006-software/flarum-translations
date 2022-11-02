@@ -2,87 +2,87 @@
     "fof-best-answer": {
         "admin": {
             "permissions": {
-                "best_answer": "",
-                "best_answer_not_own_discussion": ""
+                "best_answer": "Оберіть найкращу відповідь (власне обговорення)",
+                "best_answer_not_own_discussion": "Оберіть найкращу відповідь (не власне обговорення)"
             },
             "settings": {
                 "label": {
-                    "general": "",
-                    "reminders": "",
-                    "advanced": "",
-                    "reminders_notice": ""
+                    "general": "Основне",
+                    "reminders": "Нагадування",
+                    "advanced": "Просунутий",
+                    "reminders_notice": "Щоб нагадування працювали, необхідно правильно налаштувати планувальник Flarum."
                 },
-                "allow_select_own_post": "",
-                "allow_select_own_post_help": "",
-                "enable_all_tags_button": "",
-                "enable_all_tags_reminder_button": "",
-                "select_best_answer_reminder_days": "",
-                "select_best_answer_reminder_days_help": "",
-                "schedule_on_one_server": "",
-                "schedule_on_one_server_help": "",
-                "schedule_stop_overnight": "",
-                "schedule_stop_overnight_help": "",
-                "schedule_log_output": "",
-                "show_filter_label": "",
-                "show_filter_help": "",
-                "use_alt_ui": "",
-                "use_alt_ui_help": "",
-                "documentation": "",
-                "introduction": ""
+                "allow_select_own_post": "Оберіть власний пост",
+                "allow_select_own_post_help": "Дозволити ОП обирати один з власних дописів у дискусії як найкращу відповідь",
+                "enable_all_tags_button": "Включити всі теги для найкращих відповідей",
+                "enable_all_tags_reminder_button": "Увімкнути всі теги для нагадувань про найкращу відповідь",
+                "select_best_answer_reminder_days": "Періодичність нагадувань",
+                "select_best_answer_reminder_days_help": "Надсилати нагадування через налаштовану кількість днів ОП для вибору найкращої відповіді, 0 = відключити нагадування.",
+                "schedule_on_one_server": "Використання директиви 'onOneServer()' для планувальника завдань",
+                "schedule_on_one_server_help": "Потрібен Redis/Memcache",
+                "schedule_stop_overnight": "Унеможливити надсилання нагадувань у неробочий час",
+                "schedule_stop_overnight_help": "21:00-08:00 за серверним часом",
+                "schedule_log_output": "Додати збереження планувальника до сховища журналів",
+                "show_filter_label": "Показати випадаючий список фільтрів найкращих відповідей",
+                "show_filter_help": "Для міток, у яких увімкнені найкращі відповіді, оберіть опцію показу фільтра вирішених/невирішених питань у списку обговорень",
+                "use_alt_ui": "Альтернативне планування",
+                "use_alt_ui_help": "Найкращі елементи керування відповідями у нижньому колонтитулі допису",
+                "documentation": "Документація",
+                "introduction": "Увімкніть, які теги мають підтримувати найкращі відповіді в <code><a>flarum/tags</a></code>, і, за бажанням, які теги мають підтримувати нагадування. Якщо для мітки ввімкнено найкращу відповідь, призначте дозволи кожній групі користувачів, які можуть встановлювати відповіді (власне обговорення, будь-яке обговорення). Дозволи можна призначати глобально (для будь-якого тегу з увімкненою найкращою відповіддю) або для кожного тегу.\n"
             },
             "edit_tag": {
-                "qna_label": "",
-                "reminders": ""
+                "qna_label": "Оберіть найкращу відповідь",
+                "reminders": "Надсилати нагадування про встановлення найкращої відповіді для обговорень у цій мітці"
             }
         },
         "forum": {
-            "answered_badge": "",
-            "this_best_answer": "",
-            "remove_best_answer": "",
-            "best_answer_button": "",
-            "best_answer_label": "",
+            "answered_badge": "Відповіли",
+            "this_best_answer": "Оберіть найкращу відповідь",
+            "remove_best_answer": "Зніміть позначку з найкращої відповіді",
+            "best_answer_button": "Найкраща відповідь",
+            "best_answer_label": "поставив <a>{username}</a> {time_set}",
             "errors": {
-                "mismatch": ""
+                "mismatch": "Виділене повідомлення не існує в цій дискусії."
             },
             "notification": {
-                "best_answer_in_discussion": "",
-                "content": "",
-                "awarded": "",
+                "best_answer_in_discussion": "{username} встановив найкращу відповідь у цій дискусії",
+                "content": "Будь ласка, оберіть найкращу відповідь, якщо на Ваше запитання було надано відповідь",
+                "awarded": "Ваше повідомлення було визнано найкращою відповіддю користувачем {username}",
                 "preferences": {
-                    "awarded_best_answer": "",
-                    "best_answer_in_discussion": "",
-                    "select_best_answer": ""
+                    "awarded_best_answer": "Хтось ставить мій пост як найкращу відповідь",
+                    "best_answer_in_discussion": "Найкраща відповідь викладена в дискусії, в якій я брав участь",
+                    "select_best_answer": "Автоматичне нагадування про вибір найкращої відповіді в розпочатій мною дискусії"
                 }
             },
             "index": {
-                "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "ask_question": "Поставити питання",
+                "cannot_ask_question": "Не можете поставити питання",
+                "solved_link": "Вирішені дискусії",
+                "unsolved_link": "Невирішені дискусії"
             },
             "filter": {
-                "all_label": "",
-                "solved_label": "",
-                "unsolved_label": "",
-                "accessible_label": ""
+                "all_label": "Всі питання",
+                "solved_label": "Вирішені питання",
+                "unsolved_label": "Невирішені питання",
+                "accessible_label": "Обрати вирішені/невирішені"
             },
             "composer": {
-                "titlePlaceholder": ""
+                "titlePlaceholder": "Назва питання"
             },
             "user": {
-                "best-answer-count": ""
+                "best-answer-count": "{count, plural, one { {count} best answer} інші {{count} best answers}}"
             }
         },
         "email": {
             "subject": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "Ваше повідомлення було визнано найкращою відповіддю користувачем {display_name}",
+                "ba-set": "Найкращу відповідь поставив {display_name}",
+                "select": "Чи вдалося Вам отримати відповідь на своє запитання?"
             },
             "body": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "Привіт, {recipient_display_name},\n\nЧудова робота, {actor_display_name}, просто встановіть своє повідомлення як найкращу відповідь в обговоренні: {discussion_title}. Дякуємо за допомогу.\n\nПерегляньте його тут: {discussion_url}.\n",
+                "ba-set": "Привіт, {recipient_display_name},\n\n{actor_display_name} щойно поставив кращу відповідь в обговоренні: {discussion_title}, в якій ви брали участь.\n\nПеревірте це: {discussion_url}.\n",
+                "select": "Привіт, {recipient_display_name},\n\nПросто перевіряю; на цей момент ви повинні мати багато відповідей на ваше запитання: {discussion_title}. Сподіваємось, одна з них допомогла вам розв'язувати вашу проблему.\n\nЯкщо так, то для майбутніх учасників було б дуже корисно, якби Ви залишили найкращу відповідь на Ваше запитання. Це допоможе людям з такою ж проблемою знайти потрібну відповідь, а також буде великою подякою учасникам, які допомогли Вам. Вони віддають свій час добровільно, тому приємно дати їм знати, що у них все добре.\n\nВідвідайте дискусію тут: {discussion_url}, і виберіть найбільш слушний пост як найкращу відповідь.\n\nДякуємо!\n"
             }
         }
     }
