@@ -1,0 +1,38 @@
+{
+    "fof-analytics": {
+        "admin": {
+            "popup": {
+                "section": {
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "Matomo"
+                },
+                "field": {
+                    "statusGoogle": "Увімкнути Google Analytics",
+                    "optTrackingCode": "Оптимізувати код відстеження (необов’язково)",
+                    "googleTrackingCode": "Tracking Code ID",
+                    "googleGTMCode": "GTM code ID (необов’язково)",
+                    "statusPiwik": "Увімкнути Matomo",
+                    "piwikUrl": "Домен або URL Matomo",
+                    "piwikSiteId": "ID сайту",
+                    "piwikTrackSubdomain": "Відстежувати відвідувачів у всіх субдоменах Flarum",
+                    "piwikPrependDomain": "Підмінювати домен сайту назвою сторінки під час відстеження",
+                    "piwikHideAliasUrl": "У звіті \"Вихідні посилання\" ховати кліки за відомими псевдо-URL",
+                    "piwikAliasUrl": "Псевдо-URL",
+                    "piwikTrackAccounts": "Відстежувати індивідуальні облікові записи користувачів",
+                    "piwikAuthToken": "Токен аутентифікації"
+                },
+                "placeholder": {
+                    "piwikAuthToken": "Заповніть цей токен, щоб увімкнути віджет статистики Matomo в адміністративній панелі.\nВи можете знайти його тут: Установки > Особисті > Токен аутентифікації.\n"
+                },
+                "trackAccounts": {
+                    "none": "Не відстежувати",
+                    "username": "Відстежувати за ім'ям (логіном) користувача",
+                    "email": "Відстежувати за email"
+                }
+            },
+            "matomo-widget": {
+                "title": "Matomo"
+            }
+        }
+    }
+}

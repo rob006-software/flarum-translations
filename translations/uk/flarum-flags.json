@@ -1,0 +1,50 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "Скарга на повідомлення",
+                "view_flags_label": "Перегляд повідомлень на модерації"
+            },
+            "settings": {
+                "flag_own_posts_label": "Дозволити користувачам позначати свої повідомлення",
+                "guidelines_url_label": "Правила спільноти (URL)",
+                "title": "Налаштування"
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "Дякуємо за сповіщення. Наші модератори обов'язково перевірють скаргу на це повідомлення.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Додаткова інформація (необов'язково)",
+                "reason_inappropriate_label": "Неприпустимо",
+                "reason_inappropriate_text": "Повідомлення має образливий характер або порушує <a>правила спільноти</a>.",
+                "reason_missing_message": "Будь ласка, надайте інформацію для наших модераторів.",
+                "reason_off_topic_label": "Off-topic",
+                "reason_off_topic_text": "Повідомлення не має відношення до дискусії і має бути переміщено в інше місце.",
+                "reason_other_label": "Інше",
+                "reason_spam_label": "Спам",
+                "reason_spam_text": "Повідомлення має рекламний характер.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "Немає повідомлень на модерації",
+                "item_text": "{username} у <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "Відхилити скаргу",
+                "flagged_by_text": "{username} залишив(ла) скаргу на повідомлення",
+                "flagged_by_with_reason_text": "{username} залишив(ла) скаргу на повідомлення, причина: {reason}"
+            },
+            "post_controls": {
+                "flag_button": "Скарга"
+            }
+        },
+        "ref": {
+            "flag_post": "Відправити",
+            "flagged_posts": "Повідомлення на модерації"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "flarum-likes": {
+        "admin": {
+            "permissions": {
+                "like_posts_label": "Використовувати систему симпатій"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} сподобалося Ваше повідомлення"
+            },
+            "post": {
+                "like_link": "Подобається",
+                "liked_by_self_text": "{users} подобається це.",
+                "liked_by_text": "{count, plural, one {{users} подобається це} other {{users} подобається це}}.",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Не подобається",
+                "you_text": "=> core.ref.you"
+            },
+            "post_likes": {
+                "title": "Повідомлення сподобалось..."
+            },
+            "settings": {
+                "notify_post_liked_label": "Комусь подобається одне з моїх повідомлень"
+            }
+        }
+    }
+}

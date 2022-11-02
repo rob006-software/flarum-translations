@@ -1,0 +1,50 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Відписатись",
+                "unignore_button": "Не ігнорувати"
+            },
+            "following": {
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
+            },
+            "index": {
+                "following_link": "=> flarum-subscriptions.ref.following"
+            },
+            "notifications": {
+                "new_post_text": "{username} відповів(ла)"
+            },
+            "settings": {
+                "follow_after_reply_label": "Автоматично підписуватися на дискусії, в яких я відповідаю",
+                "notify_new_post_label": "Хтось відповів в дискусіях, на які я підписаний"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Повідомляти про всі відповіді.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "Не повідомляти. Приховати в списку дискусій.",
+                "not_following_button": "Відписатись",
+                "not_following_text": "Повідомляти лише коли @згадують.",
+                "notify_alert_tooltip": "Отримувати сповіщення форуму при появі нових повідомлень",
+                "notify_email_tooltip": "Отримувати листи на E-mail при появі нових повідомлень"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "[New Post] {title}",
+                "body": "Привіт! {recipient_display_name}!\n\n{poster_display_name} зробив допис в дискусії, яку ви відстежуєте: {title}.\n\nЩоб переглянути цей пост, перейдіть за посиланням:\n{url}\n\n---\n\n{content}\n\n---\n\nВи більше не отримуватимете сповіщень про цю дискусію, поки не переглянете форум під своїм обліковим записом.\n"
+            }
+        },
+        "ref": {
+            "follow": "Підписатись",
+            "following": "Підписатись",
+            "ignoring": "Ігнорувати"
+        }
+    }
+}

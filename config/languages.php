@@ -99,6 +99,7 @@ return [
 		'!the-turk-quiet-edits',
 		'!the-turk-regrole',
 	]),
+	'uk' => getComponents(),
 	'uz' => getComponents(),
 	'vi' => getComponents([
 		// translations included in extension
