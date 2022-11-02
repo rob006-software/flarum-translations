@@ -4,11 +4,11 @@
             "akismet_settings": {
                 "api_key_label": "API ключ",
                 "title": "Налаштування Akismet",
-                "delete_blatant_spam_label": "",
-                "delete_blatant_spam_help": ""
+                "delete_blatant_spam_label": "Автоматичне видалення відвертого спаму",
+                "delete_blatant_spam_help": "Якщо Akismet визначив, що коментар є відвертим спамом, замість того, щоб позначити його прапорцем, автоматично видаляє пост"
             },
             "permissions": {
-                "bypass_akismet": ""
+                "bypass_akismet": "Обхід Akismet"
             }
         },
         "forum": {
