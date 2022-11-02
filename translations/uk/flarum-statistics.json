@@ -2,21 +2,21 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "Оберіть власний діапазон дат для показу статистики. Завантаження даних може зайняти\nкілька хвилин на форумах з великою активністю.\n",
+                "end_date": "Дата закінчення (включно)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "Дата закінчення повинна бути після дати початку."
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "Дата початку (включно)",
+                "submit_button": "Підтвердити діапазон дат",
+                "title": "Оберіть власний діапазон дат"
             },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
                 "last_12_months_label": "останній рік",
                 "last_28_days_label": "останній місяць",
                 "last_7_days_label": "останній тиждень",
-                "mini_heading": "",
+                "mini_heading": "Статистика форуму",
                 "previous_28_days_label": "",
                 "previous_7_days_label": "",
                 "custom_label": "",
