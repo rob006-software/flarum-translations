@@ -9,21 +9,21 @@
     "blomstra-flag-duplicates": {
         "admin": {
             "settings": {
-                "event_post_help": "",
-                "event_post_label": ""
+                "event_post_help": "Створіть повідомлення про подію в обговоренні, де було застосовано мітку «дублікат». Це може інформувати користувачів про те, що обговорення потенційно є дублікатом іншого обговорення, не надаючи їм доступу до загальних прапорів, які були підняті.",
+                "event_post_label": "Пост про подію"
             }
         },
         "forum": {
             "flags": {
-                "duplicate_discussion": "",
-                "reason_duplicate_label": "",
-                "reason_duplicate_text": "",
-                "reason_discussion_deleted": "",
-                "deselect_discussion_a11y_label": ""
+                "duplicate_discussion": "Дублікат дискусії",
+                "reason_duplicate_label": "Дублікат дискусії",
+                "reason_duplicate_text": "Ця дискусія дублює іншу.",
+                "reason_discussion_deleted": "[deleted discussion]",
+                "deselect_discussion_a11y_label": "Зняти позначку з дискусії"
             },
             "post_stream": {
-                "flagged_duplicate_text": "",
-                "deleted_discussion": ""
+                "flagged_duplicate_text": "{username}{duplicate} позначив це обговорення як потенційний дублікат {duplicate}. Модератор найближчим часом проведе перевірку.",
+                "deleted_discussion": "[deleted discussion]"
             }
         }
     }
