@@ -330,7 +330,7 @@
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Профіль",
                 "search_clear_button_accessible_label": "Очистити пошуковий запит",
-                "search_placeholder": "Пошук...",
+                "search_placeholder": "Пошук по форуму",
                 "search_role_label": "Пошук на форумі",
                 "session_dropdown_accessible_label": "Перемкнути спадне меню параметрів сеансу",
                 "settings_button": "=> core.ref.settings",
@@ -397,7 +397,7 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Стара назва була: \"{old}\"",
-                "discussion_renamed_text": "{username} змінив(-ла) назву з \"{old}\" на \"{new}\".",
+                "discussion_renamed_text": "{username} змінив(-ла) назву з на {new}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} пізніше"
@@ -505,8 +505,8 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} інше {{pageTitle}: Сторінка # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} інше {Сторінка # - {forumName}}}"
+                "with_page_title": "",
+                "without_page_title": ""
             },
             "modal": {
                 "close": "Закрити"
