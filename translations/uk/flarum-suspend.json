@@ -8,23 +8,23 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "Ви заблоковані на {timeReadable}",
-                "user_suspended_indefinite_text": "",
+                "user_suspended_indefinite_text": "Вас відсторонено на невизначений термін",
                 "user_unsuspended_text": "Ви розблоковані"
             },
             "suspension_info": {
-                "dismiss_button": "",
-                "indefinite": "",
-                "limited": "",
-                "title": ""
+                "dismiss_button": "Відсторонено",
+                "indefinite": "Це безстрокове відсторонення",
+                "limited": "Це відсторонення діятиме до {date}",
+                "title": "Обліковий запис заблоковано"
             },
             "suspend_user": {
-                "display_message": "",
+                "display_message": "Показати повідомлення користувача",
                 "indefinitely_label": "Заблокований назавжди",
                 "limited_time_days_text": " днів",
                 "limited_time_label": "Заблокований на деякий час...",
                 "not_suspended_label": "Не заблокований",
-                "placeholder_optional": "",
-                "reason": "",
+                "placeholder_optional": "За бажанням",
+                "reason": "Причина відсторонення",
                 "status_heading": "Статус блокування",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Заблокувати {username}"
@@ -39,7 +39,7 @@
         "email": {
             "no_reason_given": "",
             "suspended": {
-                "subject": "",
+                "subject": "Ваш обліковий запис призупинено",
                 "body": ""
             },
             "unsuspended": {
