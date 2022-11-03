@@ -1,0 +1,62 @@
+{
+    "blomstra-web3": {
+        "admin": {
+            "settings": {
+                "allow-sign-up": "Allow Signup with web3",
+                "infura-project-id": "Infura Project ID",
+                "infura-project-id-help": "Your Infura Project ID. You can get one from https://infura.io Needed for the following wallets: Coinbase, WalletConnect.\n",
+                "prioritize-web3-auth-modals": "Open web3 Login/Signup by default",
+                "ffi-disabled": "The PHP FFI extension is not enabled. Dotsama wallets will not work.\n"
+            }
+        },
+        "forum": {
+            "connect-wallet-modal": {
+                "could-not-sign": "Could not sign username cryptographically on selected account.",
+                "title": "Connect Wallet",
+                "polkadot-wallets": "=> blomstra-web3.ref.polkadot-wallets",
+                "evm-wallets": "EVM Wallets",
+                "signature-invalid": "The signature is invalid."
+            },
+            "evm-connect-wallet-modal": {
+                "title": "EVM Wallets",
+                "bind": "=> blomstra-web3.ref.bind",
+                "disconnect": "=> blomstra-web3.ref.disconnect",
+                "disconnect-and-unbind": "Disconnect & Unbind",
+                "select": "=> blomstra-web3.ref.select"
+            },
+            "polkadot-connect-wallet-modal": {
+                "attach_address": "=> blomstra-web3.ref.bind",
+                "connection-request-rejected": "Connection request rejected",
+                "disconnect": "=> blomstra-web3.ref.disconnect",
+                "goback": "Back to wallets",
+                "title": "=> blomstra-web3.ref.polkadot-wallets",
+                "select": "=> blomstra-web3.ref.select",
+                "unattach_address": "=> blomstra-web3.ref.unbind"
+            },
+            "settings": {
+                "wallets_heading": "Wallets",
+                "wallet-connect-button": "Connect Wallet",
+                "unbind": "=> blomstra-web3.ref.unbind",
+                "unbind_confirm": "Are you sure you want to unbind this address from your account?"
+            },
+            "log-in": {
+                "basic-login-link": "Switch to basic Login",
+                "with-wallet": "Log in with web3 wallet",
+                "select-wallet-account": "=> blomstra-web3.ref.select-wallet-account"
+            },
+            "sign-up": {
+                "basic-signup-link": "Switch to basic Signup",
+                "with-wallet": "Sign up with web3 wallet",
+                "select-wallet-account": "=> blomstra-web3.ref.select-wallet-account"
+            }
+        },
+        "ref": {
+            "select-wallet-account": "Select wallet account {rightArrow}",
+            "select": "Select address",
+            "bind": "Bind address",
+            "unbind": "Unbind address from account",
+            "disconnect": "Disconnect",
+            "polkadot-wallets": "Polkadot Wallets"
+        }
+    }
+}
