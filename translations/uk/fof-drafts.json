@@ -6,7 +6,7 @@
                 "schedule": "Розклад для чернеток"
             },
             "settings": {
-                "title": "",
+                "title": "FoF Drafts",
                 "enable_scheduled_drafts": "Увімкнути розклад для чернеток",
                 "schedule_on_one_server": "Використання директиви 'onOneServer()' для планувальника завдань (потрібен Redis/Memcache)",
                 "schedule_log_output": "Увімкнути збереження розкладу в журнал"
@@ -31,15 +31,15 @@
                 "title": "Чернетки",
                 "delete_all_button": "Видалити всі чернетки",
                 "delete_button": "Видалити чернетку",
-                "schedule_button": "",
+                "schedule_button": "=> fof-drafts.ref.schedule_draft",
                 "scheduled_icon_tooltip": "Заплановано на {datetime}",
-                "scheduled_icon_tooltip_formatter": "",
+                "scheduled_icon_tooltip_formatter": "L [at] LT",
                 "tooltip": "Чернетки",
                 "alert": "Ви впевнені, що бажаєте видалити вашу чернетку?",
                 "delete_all_alert": "Ви впевнені, що бажаєте видалити усі ваші чернетки?"
             },
             "schedule_draft_modal": {
-                "title": "",
+                "title": "=> fof-drafts.ref.schedule_draft",
                 "text": "Заплануйте автоматичну публікацію свого допису на більш пізній час!",
                 "scheduled_text": "Наразі заплановано публікацію на {datetime}.",
                 "scheduled_error": "Неможливо запланувати чорнетку: {error}.",
@@ -48,7 +48,7 @@
                 "reschedule_button": "Перенесення",
                 "schedule_button": "Розклад",
                 "schedule_time_preview": "Ця чернетка буде автоматично опублікована <b>{datetime}</b>.",
-                "schedule_time_preview_formatter": "",
+                "schedule_time_preview_formatter": "LLLL",
                 "schedule_time_preview_invalid": "Невірна дата та/або час"
             },
             "user": {
