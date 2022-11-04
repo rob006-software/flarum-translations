@@ -2,32 +2,32 @@
     "fof-moderator-notes": {
         "admin": {
             "permissions": {
-                "createnotes": "",
-                "viewnotes": "",
-                "deletenotes": ""
+                "createnotes": "Створення нотаток модератора",
+                "viewnotes": "Переглянути нотатки модератора",
+                "deletenotes": "Видалити нотатки модератора"
             }
         },
         "forum": {
-            "no_content_given": "",
+            "no_content_given": "Порожня нотатка не допускається.",
             "moderatorNotes": {
-                "created_text": "",
-                "add_button": "",
-                "create-heading": "",
-                "dismiss_button": "",
-                "input_heading": "",
-                "noNotes": "",
-                "submit_button": "",
-                "delete": "",
-                "confirm": ""
+                "created_text": "{username} створив цю нотатку {date}",
+                "add_button": "Нова нотатка",
+                "create-heading": "Створити нову нотатку модератора",
+                "dismiss_button": "Готово",
+                "input_heading": "Введіть свої нотатки для <strong>{username}</strong>, (підтримується markdown)",
+                "noNotes": "Схоже, що тут немає ніяких нотаток.",
+                "submit_button": "Зберегти нотатку",
+                "delete": "Видалити",
+                "confirm": "Ви впевнені, що хочете видалити цю нотатку?"
             },
             "user": {
-                "notes": ""
+                "notes": "Нотатки модератора"
             }
         },
         "api": {
-            "auto_note": "",
-            "auto_note_actor": "",
-            "no_reason_provided": ""
+            "auto_note": "_I switched to this user:_ {reason}",
+            "auto_note_actor": "_Switched to_ @{username}: {reason}",
+            "no_reason_provided": "Причину не вказано"
         }
     }
 }
