@@ -505,8 +505,8 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} інші {{pageTitle}: Сторінка # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} інші {Сторінка # - {forumName}}}"
             },
             "modal": {
                 "close": "Закрити"
