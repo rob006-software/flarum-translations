@@ -2,34 +2,34 @@
     "flarum-likes": {
         "admin": {
             "permissions": {
-                "like_posts_label": ""
+                "like_posts_label": "الإعجاب بالمشاركات"
             },
             "settings": {
-                "like_own_posts_help": "",
-                "like_own_posts_label": ""
+                "like_own_posts_help": "عند التمكين، بموجب إذْن، يجوز للمستخدمين \"إبداء الإعجاب\" بمنشوراتهم في المنتدى. لمنع المستخدمين من وضع \"إعجاب\" على مشاركاتهم، يُمكن تعطيل هذا الإعداد.",
+                "like_own_posts_label": "يُمكن للمستخدمين الإعجاب بمشاركاتهم الخاصّة"
             }
         },
         "forum": {
             "notifications": {
-                "others_text": "",
-                "post_liked_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} أُعجب(ت) بمنشورك"
             },
             "post": {
-                "like_link": "",
-                "liked_by_self_text": "",
+                "like_link": "أعجبني",
+                "liked_by_self_text": "{users} أعجبه(ا) هذا.",
                 "liked_by_text": "",
-                "others_link": "",
-                "unlike_link": "",
-                "you_text": ""
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "لم يعد يعجبني",
+                "you_text": "=> core.ref.you"
             },
             "post_likes": {
-                "title": ""
+                "title": "المستخدمون الذين أعجبهم هذا"
             },
             "settings": {
-                "notify_post_liked_label": ""
+                "notify_post_liked_label": "إذا أُعجب شخص ما بمنشوري"
             },
             "user": {
-                "likes_link": ""
+                "likes_link": "الإعجابات"
             }
         }
     }
