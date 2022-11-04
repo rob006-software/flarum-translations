@@ -29,11 +29,11 @@
         },
         "email": {
             "subject": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": "",
-                "postCreated": "",
-                "postFlagged": ""
+                "newDiscussion": "[Нова дискусія] {title}",
+                "newUser": "[Новий користувач] {username}",
+                "postUnapproved": "[Непідтверджене] {username} розмістив повідомлення у «{назва}»",
+                "postCreated": "[Нове повідомлення] {username} написав нове повідомлення в «{title}»",
+                "postFlagged": "[Нова позначка] {username} позначив повідомлення в «{title}»"
             },
             "body": {
                 "newDiscussion": "",
