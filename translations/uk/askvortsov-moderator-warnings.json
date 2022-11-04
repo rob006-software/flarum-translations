@@ -2,68 +2,68 @@
     "askvortsov-moderator-warnings": {
         "admin": {
             "permissions": {
-                "manage_warnings": "",
-                "view_warnings": "",
-                "delete_warnings": ""
+                "manage_warnings": "Створення та зняття попереджень модератора",
+                "view_warnings": "Переглянути попередження модератора",
+                "delete_warnings": "Постійно видаляти попередження модераторів"
             }
         },
         "emails": {
             "post_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} попередив вас {strikes, plural, one {# strike} other {# strikes}} у {discussion_title}",
+                "body": "Агов, {warnee_display_name}!\n\n{warner_display_name} попередив вас {strikes, plural, one {# strike} other {# strikes}} в {discussion_title}.\n\nБула вказана наступна причина:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} попередив вас з {strikes, plural, one {# strike} other {# strikes}}",
+                "body": "Агов, {warnee_display_name}!\n\n{warner_display_name} попередив вас {strikes, plural, one {# strike} other {# strikes}} \n\nБула вказана наступна причина:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "",
-                "warning_no_strikes_text": ""
+                "warning_text": "{strikes, plural, one {Вас попередили за допомогою # страйку від {mod_username}} other {Вас попередили за допомогою # страйків від {mod_username}}}",
+                "warning_no_strikes_text": "Ви отримали попередження від {mod_username} (без страйків)"
             },
             "post": {
-                "warning": "",
-                "warning_no_strikes": ""
+                "warning": "{strikes, plural, one {Ви отримали попередження від {mod_username}} other {Ви отримали попередження від {mod_username}}}",
+                "warning_no_strikes": "Попередження без попереджень від {mod_username}"
             },
             "post_controls": {
-                "warning_button": ""
+                "warning_button": "Попередити користувача"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Попередження модератора"
             },
             "settings": {
-                "warning_notification_label": ""
+                "warning_notification_label": "Модератор попереджає мене"
             },
             "validation": {
-                "public_comment_required": "",
-                "invalid_strike_count": ""
+                "public_comment_required": "Ви найбільше надаєте публічних коментарів.",
+                "invalid_strike_count": "Кількість попереджень має бути цілим числом від 0 до 5."
             },
             "warning_controls": {
-                "delete_button": "",
-                "restore_button": "",
-                "delete_forever_button": ""
+                "delete_button": "Видалити",
+                "restore_button": "Відновити",
+                "delete_forever_button": "Видалити назавжди"
             },
             "warning_list": {
-                "add_button": "",
-                "no_warnings": "",
-                "warnings": "",
-                "warnings_no_strikes": ""
+                "add_button": "Нове попередження",
+                "no_warnings": "Схоже, що тут не обійшлося без застережень.",
+                "warnings": "{strikes, plural, one {Попередження модератора: попередження отримано} other {Попередження модератора: попередження отримано}}",
+                "warnings_no_strikes": "Попередження модератора: попередження не отримано"
             },
             "warning_list_item": {
-                "list_item_heading": "",
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> попередження, {time}} other {<strong>#</strong> попереджень, {time}}}",
                 "list_item_heading_hidden": "",
-                "public_comment": "",
-                "private_comment": "",
-                "linked_post": ""
+                "public_comment": "Попередження",
+                "private_comment": "Модератор - видимі коментарі",
+                "linked_post": "Посилання на публікацію"
             },
             "warning_modal": {
-                "confirmation_message": "",
-                "heading": "",
-                "strikes_heading": "",
-                "public_comment_heading": "",
-                "private_comment_heading": "",
-                "submit_button": ""
+                "confirmation_message": "Ваше попередження збережено. Можливо, вам доведеться оновити сторінку, щоб побачити його.",
+                "heading": "Попередження <strong>{username}</strong>",
+                "strikes_heading": "Скільки попереджень має бути?",
+                "public_comment_heading": "Чому <strong>{username}</strong> отримує ці попередження? Ці коментарі будуть видимому користувачеві та іншим модераторам.",
+                "private_comment_heading": "Чому <strong>{username}</strong> отримує ці попередження? Ці коментарі будуть видимі ТІЛЬКИ іншим модераторам.",
+                "submit_button": "Зберегти попередження"
             }
         }
     }
