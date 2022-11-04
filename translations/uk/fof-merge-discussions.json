@@ -2,58 +2,58 @@
     "fof-merge-discussions": {
         "forum": {
             "modal": {
-                "title": "",
-                "ordering_heading": "",
-                "ordering_date_label": "",
-                "ordering_date_help": "",
-                "ordering_suffix_label": "",
-                "ordering_suffix_help": "",
-                "type_heading": "",
-                "type_target_label": "",
-                "type_target_help_text": "",
-                "type_from_label": "",
-                "type_from_help_text": "",
-                "load_preview_button": "",
-                "submit_button": ""
+                "title": "Об'єднати дискусії",
+                "ordering_heading": "Замовлення на злиття",
+                "ordering_date_label": "Об'єднати пости за датою створення",
+                "ordering_date_help": "Дописи в результуючій дискусії впорядковуються за індивідуальною датою створення",
+                "ordering_suffix_label": "Додати об'єднані пости в кінець дискусії",
+                "ordering_suffix_help": "Дописи, які будуть об'єднані в дискусію, що збереглася, будуть додані в кінці дискусії",
+                "type_heading": "Тип злиття",
+                "type_target_label": "Об'єднати для моїх",
+                "type_target_help_text": "Оберіть обговорення для об'єднання в <b>{title}</b>.",
+                "type_from_label": "Об'єднати цю дискусію в іншу",
+                "type_from_help_text": "Оберіть цільове обговорення, до якого об'єднати <b>{title}</b>.",
+                "load_preview_button": "Попередній перегляд",
+                "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "",
+                "discussion_merged": "Ваша дискусія <b>{oldTitle}</b> була об'єднана в цю дискусію користувачем {username}.",
                 "preferences": {
-                    "discussion_merged": ""
+                    "discussion_merged": "Хтось зливає одну мою дискусію з іншою"
                 }
             },
             "discussion": {
-                "merge": ""
+                "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": ""
+                "merged": "{count, plural, one {Об'єднано <b>#</b> повідомлення з {titles}.} other {Об'єднано <b>#</b>  повідомлення з {titles}.}}"
             }
         },
         "admin": {
             "permissions": {
-                "merge_discussions_label": ""
+                "merge_discussions_label": "Об'єднати обговорення"
             },
             "settings": {
-                "search_result_help": "",
-                "search_result_label": ""
+                "search_result_help": "Скільки обговорень має бути видано при пошуку за модальністю \"Об'єднати обговорення\".",
+                "search_result_label": "Об'єднати дискусію з обмеженням пошуку"
             }
         },
         "api": {
             "error": {
-                "merging_failed": "",
-                "updating_failed": "",
-                "deleting_failed": "",
-                "fixing_posts_number_failed": "",
-                "fixing_posts_number_meta_failed": ""
+                "merging_failed": "Не вдалося об'єднати дискусії.",
+                "updating_failed": "Не вдалося оновити деталі дискусії.",
+                "deleting_failed": "Не вдалося видалити порожні дискусії.",
+                "fixing_posts_number_failed": "Не вдалося зафіксувати номери постів.",
+                "fixing_posts_number_meta_failed": "Не вдалося зафіксувати номери постів."
             }
         },
         "ref": {
-            "merge": ""
+            "merge": "Об'єднати"
         },
         "email": {
             "merged": {
-                "body": "",
-                "subject": ""
+                "body": "Привіт, {recipient_display_name}!\n\nВаша дискусія, {merged_discussion_title}, була об'єднана з {discussion_title} користувачем {actor_display_name}.\n\nПереглянути її тут {discussion_url} .\n",
+                "subject": "Вашу дискусію \"{merged_discussion_title}\" було об'єднано"
             }
         }
     }
