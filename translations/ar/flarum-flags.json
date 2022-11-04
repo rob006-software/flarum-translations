@@ -2,49 +2,49 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "",
-                "view_flags_label": ""
+                "flag_posts_label": "الإبلاغ عن منشورات",
+                "view_flags_label": "الاطّلاع على المنشورات التي تمّ الإبلاغ عنها"
             },
             "settings": {
-                "flag_own_posts_label": "",
-                "guidelines_url_label": "",
-                "title": ""
+                "flag_own_posts_label": "السّماح للمستخدمين بالإبلاغ عن منشوراتهم الخاصّة",
+                "guidelines_url_label": "عنوان URL لإرشادات المنتدى",
+                "title": "إعدادات الإبلاغ"
             }
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "",
-                "dismiss_button": "",
-                "reason_details_placeholder": "",
-                "reason_inappropriate_label": "",
-                "reason_inappropriate_text": "",
-                "reason_missing_message": "",
-                "reason_off_topic_label": "",
-                "reason_off_topic_text": "",
-                "reason_other_label": "",
-                "reason_spam_label": "",
-                "reason_spam_text": "",
-                "submit_button": "",
-                "title": ""
+                "confirmation_message": "شكرا على الإبلاغ عن هذا المنشور. سيقوم مشرفونا بالاطّلاع عليه في أقرب وقت.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "تفاصيل إضافيّة (اختياري)",
+                "reason_inappropriate_label": "غير لائق",
+                "reason_inappropriate_text": "هذه المشاركة عنيفة، أو مسيئة، أو تنتهك <a>إرشادات المنتدى</a>.",
+                "reason_missing_message": "يرجى تقديم بعض التفاصيل للمشرفين لدينا.",
+                "reason_off_topic_label": "خارج الموضوع",
+                "reason_off_topic_text": "هذه المشاركة ليست ذات صلة بالمناقشة الحاليّة ويجب نقلها إلى مكان آخر.",
+                "reason_other_label": "آخر (يُرجى التّحديد)",
+                "reason_spam_label": "بريد عشوائي",
+                "reason_spam_text": "هذا المنشور عبارة عن إعلان.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
-                "empty_text": "",
-                "item_text": "",
-                "title": "",
-                "tooltip": ""
+                "empty_text": "لا توجد إبلاغات",
+                "item_text": "{username} في <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
-                "dismiss_flag_button": "",
-                "flagged_by_text": "",
-                "flagged_by_with_reason_text": ""
+                "dismiss_flag_button": "حذف الإبلاغ",
+                "flagged_by_text": "تمّ الإبلاغ بواسطة {username}",
+                "flagged_by_with_reason_text": "تمّ الإبلاغ بواسطة {username} بسبب {reason}"
             },
             "post_controls": {
-                "flag_button": ""
+                "flag_button": "إبلاغ"
             }
         },
         "ref": {
-            "flag_post": "",
-            "flagged_posts": ""
+            "flag_post": "الإبلاغ عن المنشور",
+            "flagged_posts": "المنشورات التي تمّ الإبلاغ عنها"
         }
     }
 }
