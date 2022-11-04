@@ -2,32 +2,32 @@
     "fof-pretty-mail": {
         "admin": {
             "nav": {
-                "desc": ""
+                "desc": "Налаштуйте свої HTML-шаблони електронної пошти."
             },
             "settings": {
                 "attributes": {
-                    "body": "",
-                    "forumStyle": "",
-                    "url": "",
-                    "settings": "",
-                    "link": ""
+                    "body": "Містить фактичний зміст електронного листа",
+                    "forumStyle": "Містить <strong>CSS форуму</strong>",
+                    "url": "Генератор <code>UrlGenerator</code> від Flarum",
+                    "settings": "Дозволяє взаємодіяти з інтерфейсом SettingsRepositoryInterface",
+                    "link": "Містить посилання в листі"
                 },
-                "attributes_label": "",
-                "label": "",
-                "reset": "",
-                "confirm": "",
-                "default": "",
-                "newPost": "",
-                "userMentioned": "",
-                "postMentioned": "",
-                "notifications": "",
-                "notificationHelp": "",
-                "template_help": ""
+                "attributes_label": "Доступні атрибути",
+                "label": "Шаблони листів",
+                "reset": "Повернутися до налаштувань за налаштуванням",
+                "confirm": "Ви впевнені, що хочете повернутися до шаблону за налаштуванням для",
+                "default": "Шаблон за налаштуванням",
+                "newPost": "Flarum/підписки: нове повідомлення на пошту",
+                "userMentioned": "Flarum/згадки: згадка про користувача",
+                "postMentioned": "Flarum/згадки: згадка повідомлення",
+                "notifications": "Шаблони повідомлень",
+                "notificationHelp": "Рекомендується використовувати \"$forumStyle\" для цих листів, оскільки вони можуть містити BBCODE. У цих листах також доступний параметр \"$user\", який містить повну модель користувача, якому надсилається лист.",
+                "template_help": "Gthtukzymnt кожен шаблон, щоб дізнатися, як використовувати кожен атрибут."
             },
             "css_settings": {
-                "label": "",
-                "help": "",
-                "switch_label": ""
+                "label": "Налаштування CSS",
+                "help": "Ви можете включити CSS форуму в HTML-код електронного листа. Якщо ви ввімкнете цю опцію, у вас можуть виникнути проблеми з деякими провайдерами електронної пошти.",
+                "switch_label": "Включити повні стилі CSS форуму"
             }
         }
     }
