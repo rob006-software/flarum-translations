@@ -2,24 +2,24 @@
     "fof-impersonate": {
         "admin": {
             "permissions": {
-                "login": ""
+                "login": "Увійти як інші користувачі"
             },
             "settings": {
-                "title": "",
-                "require_reason": "",
-                "no_settings_available": ""
+                "title": "FoF Impersonate",
+                "require_reason": "Вимагати введення причини, перш ніж видавати себе за іншого користувача.",
+                "no_settings_available": "Наразі налаштування недоступні. Спробуйте встановити fof/moderator-notes"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "title": "Увійти як інший користувач",
+                "label": "З великою владою приходить велика відповідальність. Продовжуючи, ви станете {username} до тих пір, поки не вийдете з системи.",
+                "placeholder_optional": "(Необов'язково) Вкажіть причину переходу на цього користувача",
+                "placeholder_required": "Ви повинні вказати причину переходу на цього користувача перед тим, як продовжити",
+                "impersonate_username": "Увійти як {username}"
             },
             "user_controls": {
-                "impersonate_button": ""
+                "impersonate_button": "Увійти як користувач"
             }
         }
     }
