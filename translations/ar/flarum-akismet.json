@@ -2,19 +2,19 @@
     "flarum-akismet": {
         "admin": {
             "akismet_settings": {
-                "api_key_label": "",
-                "title": "",
-                "delete_blatant_spam_label": "",
-                "delete_blatant_spam_help": ""
+                "api_key_label": "مفتاح API",
+                "title": "إعدادات Akismet",
+                "delete_blatant_spam_label": "حذف الرسائل الفاضحة غير المرغوب فيها تلقائيًا",
+                "delete_blatant_spam_help": "إذا قرر Akismet أن التعليق هو بريد عشوائي فاضح، فبدلاً من وضع علامة عليه، سيحذف المنشور تلقائيًا"
             },
             "permissions": {
-                "bypass_akismet": ""
+                "bypass_akismet": "تجاوز Akismet"
             }
         },
         "forum": {
             "post": {
-                "akismet_flagged_text": "",
-                "not_spam_button": ""
+                "akismet_flagged_text": "تمّ تحديده بواسطة Akismet على أنه بريد عشوائي",
+                "not_spam_button": "ليس بريدا عشوائيّا"
             }
         }
     }
