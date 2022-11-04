@@ -3659,9 +3659,20 @@
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/blomstra/flarum-ext-web3" title="blomstra/web3"><code>blomstra/web3</code></a>
+		</td>
+		<td align="center">331</td>
+		<td align="center"><a href="https://packagist.org/packages/blomstra/web3/stats">2</a></td>
+		<td align="center"><a href="https://packagist.org/packages/blomstra/web3/stats">2</a></td>
+		<td align="center"><a href="https://packagist.org/packages/blomstra/web3/stats">1</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/blomstra-web3/uk/"><img src="https://weblate.rob006.net/widgets/flarum/uk/blomstra-web3/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/KyrneDev/Evergreen" title="kyrne/evergreen"><code>kyrne/evergreen</code></a>
 		</td>
-		<td align="center">331<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
+		<td align="center">332<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/kyrne/evergreen/stats">309<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/kyrne/evergreen/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/kyrne/evergreen/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
@@ -3672,7 +3683,7 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/AKR-Developers/flarum-chevereto" title="akr/chevereto"><code>akr/chevereto</code></a>
 		</td>
-		<td align="center">332<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
+		<td align="center">333<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/akr/chevereto/stats">125<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/akr/chevereto/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/akr/chevereto/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
@@ -3683,7 +3694,7 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/eddiewebb/flarum-gpx-preview" title="webbinaro/gpx-preview"><code>webbinaro/gpx-preview</code></a>
 		</td>
-		<td align="center">333<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
+		<td align="center">334<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/webbinaro/gpx-preview/stats">106<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/webbinaro/gpx-preview/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/webbinaro/gpx-preview/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
@@ -3694,7 +3705,7 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/flarum-ext-jwt-cookie-login" title="clarkwinkelmann/flarum-ext-jwt-cookie-login"><code>clarkwinkelmann/…jwt-cookie-login</code></a>
 		</td>
-		<td align="center">334<br /><img src="https://img.shields.io/badge/-%2B7-red" alt="+7" title="Change from last week"></td>
+		<td align="center">335<br /><img src="https://img.shields.io/badge/-%2B8-red" alt="+8" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-jwt-cookie-login/stats">27<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-jwt-cookie-login/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-jwt-cookie-login/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
