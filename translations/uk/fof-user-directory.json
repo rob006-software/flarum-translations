@@ -2,53 +2,53 @@
     "fof-user-directory": {
         "forum": {
             "header": {
-                "back_to_user_directory_tooltip": ""
+                "back_to_user_directory_tooltip": "Повернутися до бази користувачів"
             },
             "search": {
-                "users_heading": "",
+                "users_heading": "Шукати всіх користувачів за \"{query}\"",
                 "field": {
-                    "placeholder": ""
+                    "placeholder": "Пошук усіх користувачів"
                 },
                 "kinds": {
-                    "group": "",
-                    "text": ""
+                    "group": "Група",
+                    "text": "Вільний текст"
                 }
             },
             "page": {
-                "nav": "",
-                "refresh_tooltip": "",
-                "load_more_button": "",
-                "empty_text": "",
-                "filter_button": "",
+                "nav": "База користувачів",
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "Ми не знайшли жодного користувача, який би відповідав вашому запиту.",
+                "filter_button": "Фільтр за групою",
                 "usercard": {
-                    "discussion-count": "",
-                    "post-count": ""
+                    "discussion-count": "{count, plural, one { {count} discussion} other {{count} discussions}}",
+                    "post-count": "{count, plural, one { {count} post} other {{count} posts}}"
                 }
             }
         },
         "admin": {
             "permissions": {
-                "view_user_directory": ""
+                "view_user_directory": "Переглянути базу користувачів"
             },
             "settings": {
-                "link": "",
-                "default-sort": "",
-                "use-small-cards": "",
-                "disable-global-search-source": ""
+                "link": "Додати посилання на головній сторінці для користувачів, які можуть переглянути базу",
+                "default-sort": "Сортування за налаштуванням",
+                "use-small-cards": "Використовувати маленькі карточки користувачів",
+                "disable-global-search-source": "Не додавати базу користувачів до поля глобального пошуку Flarum"
             }
         },
         "lib": {
             "sort": {
-                "not_specified": "",
-                "default": "",
-                "username_az": "",
-                "username_za": "",
-                "newest": "",
-                "oldest": "",
-                "most_posts": "",
-                "least_posts": "",
-                "most_discussions": "",
-                "least_discussions": ""
+                "not_specified": "Використовувати Flarum за налаштуванням",
+                "default": "За налаштуванням",
+                "username_az": "Ім'я користувача (a-z)",
+                "username_za": "Ім'я користувача (a-z)",
+                "newest": "Нові",
+                "oldest": "Старі",
+                "most_posts": "З великою кількістю дописів",
+                "least_posts": "За останніми дописами",
+                "most_discussions": "За найбільшою кількістю дискусій",
+                "least_discussions": "За найменшою кількістю дискусій"
             }
         }
     }
