@@ -2,17 +2,17 @@
     "fof-user-bio": {
         "admin": {
             "permission": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "Переглянути біографію",
+                "editOwn": "Редагувати власну біографію",
+                "editAny": "Редагувати будь-яку біографію"
             },
             "setting": {
-                "bioLimit": ""
+                "bioLimit": "Обмежити біографію за кількістю символів"
             }
         },
         "forum": {
-            "userbioPlaceholder": "",
-            "userbioPlaceholderOtherUser": ""
+            "userbioPlaceholder": "Напишіть щось про себе",
+            "userbioPlaceholderOtherUser": "Написати біографію для {username}"
         }
     }
 }
