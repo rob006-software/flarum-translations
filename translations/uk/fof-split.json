@@ -2,22 +2,22 @@
     "fof-split": {
         "admin": {
             "permissions": {
-                "split_discussion_label": ""
+                "split_discussion_label": "Відокремлення дописів від дискусії"
             }
         },
         "forum": {
             "post": {
-                "was_split_to": "",
-                "was_split_from": ""
+                "was_split_to": "{count, plural, one {{count} повідомлення відокремлено до {target}.} other {{count} повідомлення відокремлені до {target}.}}",
+                "was_split_from": "{count, plural, one {{count} повідомлення відокремлено від {target}.} other {{count} повідомлення відокремлені від {target}.}}"
             },
             "split": {
-                "from": "",
-                "to": ""
+                "from": "Розпочати звідси",
+                "to": "Закінчити тут"
             },
             "modal": {
-                "title": "",
-                "new_discussion_label": "",
-                "submit_button": ""
+                "title": "Розділена дискусія",
+                "new_discussion_label": "Вкажіть назву для нового обговорення",
+                "submit_button": "Розділення повідомлень"
             }
         }
     }
