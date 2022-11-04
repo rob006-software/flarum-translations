@@ -1,16 +1,16 @@
 {
     "fof-nightmode": {
         "ref": {
-            "auto": "",
+            "auto": "Автоматично (на основі налаштувань браузера або пристрою)",
             "light": "Денний режим",
             "dark": "Нічний режим"
         },
         "admin": {
             "settings": {
                 "modal": {
-                    "always_show_theme_toggle_on_header": "",
+                    "always_show_theme_toggle_on_header": "Завжди показувати кнопку перемикання тем в шапці форуму",
                     "default_theme": "Тема форуму за налаштуванням",
-                    "default_theme_helper": "",
+                    "default_theme_helper": "Тема за замовчуванням автоматично встановлюється для нових користувачів, гостей та тих, хто не має налаштувань.",
                     "theme_auto": "=> fof-nightmode.ref.auto",
                     "theme_light": "=> fof-nightmode.ref.light",
                     "theme_dark": "=> fof-nightmode.ref.dark"
@@ -21,25 +21,25 @@
             "day": "=> fof-nightmode.ref.light",
             "night": "=> fof-nightmode.ref.dark",
             "header": {
-                "nightmode_button": "Toggle forum theme"
+                "nightmode_button": "Переключити тему форуму"
             },
             "user": {
                 "settings": {
-                    "heading": "Theme",
-                    "description": "Choose which colour theme you want to use on the forum.",
-                    "description2": "",
-                    "device_specific_setting_checkbox": "",
-                    "device_specific_setting_checkbox_tooltip": "",
-                    "auto_unsupported": "",
+                    "heading": "Тема",
+                    "description": "Оберіть, яку кольорову тему ви хочете використовувати на форумі.",
+                    "description2": "Ця тема буде пов'язана з вашим обліковим записом і застосовуватиметься до всіх ваших пристроїв, якщо ви не увімкнете перемикач нижче для налаштувань для кожного пристрою.",
+                    "device_specific_setting_checkbox": "Використовувати відповідно до налаштувань пристрою",
+                    "device_specific_setting_checkbox_tooltip": "Обрана вами тема буде збережена індивідуальною для кожного з ваших пристроїв.",
+                    "auto_unsupported": "Ваш браузер не підтримує автоматичний темний режим.",
                     "options": {
                         "auto": "=> fof-nightmode.ref.auto",
                         "day": "=> fof-nightmode.ref.light",
                         "night": "=> fof-nightmode.ref.dark"
                     },
                     "option_descriptions": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "Ваша тема буде автоматично обрана на основі налаштувань вашого браузера або пристрою. Наприклад, якщо у вас включений темний режим в iOS, форуми також будуть темними.",
+                        "day": "Класичний досвід, до якого ви звикли. Улюблений і перевірений.",
+                        "night": "Ви трохи схожі на нічну сову. Пильнуєте форум вночі, поки птахи сплять, а лисиці полюють. Або просто віддаєте перевагу темним кольорам!"
                     }
                 }
             }
@@ -48,10 +48,10 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "fofNightMode": "",
-                "fofNightMode-help": "",
-                "fofNightMode_perDevice": "",
-                "fofNightMode_perDevice-help": ""
+                "fofNightMode": "FoF Nightmode: тема для використання за замовчуванням",
+                "fofNightMode-help": "0 - автоматична, 1 - світлий режим, 2 - темний режим",
+                "fofNightMode_perDevice": "FoF Nightmode: Використовувати відповідно до налаштувань пристрою",
+                "fofNightMode_perDevice-help": "Використовуйте налаштування нічного режиму відповідно до налаштувань пристрою"
             }
         }
     }
