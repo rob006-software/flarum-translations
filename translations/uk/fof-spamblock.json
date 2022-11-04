@@ -2,13 +2,13 @@
     "fof-spamblock": {
         "forum": {
             "user_controls": {
-                "spammer_button": "",
-                "spammer_confirmation": ""
+                "spammer_button": "Спамер",
+                "spammer_confirmation": "Ви впевнені, що бажаєте:\n- Приховати всі обговорення та повідомлення користувача\n- [flarum/suspend] Призупинити користувача"
             }
         },
         "admin": {
             "permissions": {
-                "spamblock_users_label": ""
+                "spamblock_users_label": "Позначити користувача як спамера"
             }
         }
     }
