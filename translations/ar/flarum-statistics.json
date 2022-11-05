@@ -2,34 +2,34 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "اختر نطاقًا زمنيًّا مخصّصًا لعرض إحصائيّات عنه.\nقد يستغرق تحميل البيانات عدّة دقائق في المنتديات ذات النّشاط الكبير.\n",
+                "end_date": "تاريخ الإنتهاء (شامل)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "يجب أن يكون تاريخ الانتهاء بعد تاريخ البدء."
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "تاريخ البدء (شامل)",
+                "submit_button": "تأكيد النطاق الزمني",
+                "title": "اختيار نطاق زمني مخصص"
             },
             "statistics": {
-                "discussions_heading": "",
-                "last_12_months_label": "",
-                "last_28_days_label": "",
-                "last_7_days_label": "",
-                "mini_heading": "",
-                "previous_28_days_label": "",
-                "previous_7_days_label": "",
-                "custom_label": "",
-                "custom_label_specified": "",
-                "loading": "",
-                "posts_heading": "",
-                "today_label": "",
-                "total_label": "",
-                "users_heading": "",
-                "view_full": "",
-                "no_data": "",
-                "current_period": "",
-                "previous_period": ""
+                "discussions_heading": "=> core.ref.discussions",
+                "last_12_months_label": "آخر 12 شهرا",
+                "last_28_days_label": "آخر 28 يوما",
+                "last_7_days_label": "آخر 7 أيّام",
+                "mini_heading": "إحصائيّات المُنتدى",
+                "previous_28_days_label": "28 يومًا السابقة",
+                "previous_7_days_label": "7 أيّام السّابقة",
+                "custom_label": "اختر نطاقًا مخصّصًا ...",
+                "custom_label_specified": "{fromDate} إلى {toDate}",
+                "loading": "=> core.ref.loading",
+                "posts_heading": "=> core.ref.posts",
+                "today_label": "اليوم",
+                "total_label": "المجموع",
+                "users_heading": "=> core.ref.users",
+                "view_full": "عرض المزيد من الإحصائيات",
+                "no_data": "لا توجد بيانات متاحة لهذا النّطاق الزّمنيّ.",
+                "current_period": "الفترة الحالية",
+                "previous_period": "الفترة السّابقة"
             }
         }
     }
