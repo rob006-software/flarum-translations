@@ -425,6 +425,18 @@ return [
 		],
 		'maintainers' => ['tolgaaaltas'],
 	],
+	'uk' => [
+		'type' => 'language',
+		'language' => 'uk',
+		'repository' => 'git@github.com:flarum-lang/ukrainian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'vMajor.Minor.Patch',
+		],
+		'maintainers' => ['denysdesign'],
+	],
 	'uz' => [
 		'type' => 'language',
 		'language' => 'uz',
