@@ -3,46 +3,46 @@
         "admin": {
             "settings": {
                 "allow_username_format_label": "السماح بتنسيق ذكر اسم المستخدم (@اسم المستخدم)",
-                "allow_username_format_text": ""
+                "allow_username_format_text": "التنسيق الحالي المستخدَم لإشارات هو @ \"الاسم المعروض\" #ID.\nيسمح هذا الإعداد باستخدام التنسيق القديم لـUsername، ولكن سيظل يتم تحويله إلى التنسيق الجديد عند الحفظ.\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "",
-                "reply_to_post_text": ""
+                "mention_tooltip": "الإشارة إلى مستخدم أو منشور",
+                "reply_to_post_text": "الرّدّ على #{number}"
             },
             "notifications": {
-                "others_text": "",
-                "post_mentioned_text": "",
-                "user_mentioned_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} ردّ(ت) على منشورك",
+                "user_mentioned_text": "{username} أشار(ت) إليك"
             },
             "post": {
-                "mentioned_by_self_text": "",
-                "mentioned_by_text": "",
-                "others_text": "",
-                "quote_button": "",
-                "reply_link": "",
-                "you_text": ""
+                "mentioned_by_self_text": "{users} ردّ على هذا.",
+                "mentioned_by_text": "{users} ردّ(ت) على هذا.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "اقتباس",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
             },
             "settings": {
-                "notify_post_mentioned_label": "",
-                "notify_user_mentioned_label": ""
+                "notify_post_mentioned_label": "إذا قام شخص بالرّدّ على إحدى منشوراتي",
+                "notify_user_mentioned_label": "إذا قم شخص بالإشارة إليّ في منشور"
             },
             "user": {
-                "mentions_link": ""
+                "mentions_link": "الإشارات"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[مجهول]"
             }
         },
         "email": {
             "post_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name} ردّ(ت) على منشورك في {title}",
+                "body": "مرحبا {recipient_display_name}! \n \nلقد قام(ت) {replier_display_name} بالرّدّ على منشورك (#{post_number}) في {title}. \n \nيُمكنك الوصول إلى المناقشة بالانتقال إليها عبر الرّابط الآتي: {url} \n \n--- \n \n{content}\n"
             },
             "user_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} أشار(ت) إليك في {title}",
+                "body": "مرحبا {recipient_display_name}! \n \n لقد قام(ت) {mentioner_display_name} بالإشارة إليك في منشور في {title}. \n \nيُمكنك الوصول إلى المنشور عن طريق الانتقال بواسطة الرّابط الآتي: {url} \n \n--- \n \n{content}\n"
             }
         }
     }
