@@ -994,6 +994,34 @@
 		</td>
 	</tr>
 	<tr>
+		<td><a href="https://github.com/flarum-lang/ukrainian">Ukrainian</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/ukrainian/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/ukrainian" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/ukrainian/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/ukrainian/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/ukrainian/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/ukrainian" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/ukrainian/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/ukrainian" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/uk.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/uk/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td><a href="https://github.com/flarum-lang/uzbek">Uzbek</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/uzbek/tags">
