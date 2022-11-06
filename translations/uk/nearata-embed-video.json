@@ -3,56 +3,56 @@
         "admin": {
             "settings": {
                 "options": {
-                    "airplay": "",
-                    "hotkey": "",
-                    "lang": "",
-                    "logo": "",
-                    "quality_switching": "",
-                    "theme": "",
-                    "modal_enabled": "",
-                    "modal_enabled_help": ""
+                    "airplay": "Airplay",
+                    "hotkey": "Гаряча клавіша",
+                    "lang": "Мова плеєра",
+                    "logo": "URL логотипа",
+                    "quality_switching": "Перемикання якості",
+                    "theme": "Колір теми",
+                    "modal_enabled": "Включити модальний режим",
+                    "modal_enabled_help": "Увімкніть модальний режим або просто вставте BBCode в композитор."
                 },
                 "permissions": {
-                    "can_create_video_player": "",
-                    "can_view_video_player": ""
+                    "can_create_video_player": "Можливість створення відеоплеєра",
+                    "can_view_video_player": "Можливість перегляду відеоплеєра"
                 },
                 "video_types": {
-                    "dash": "",
-                    "flv": "",
-                    "hls": "",
-                    "shaka": "",
-                    "webtorrent": ""
+                    "dash": "Dash",
+                    "flv": "Flv",
+                    "hls": "Hls",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
                 }
             }
         },
         "forum": {
-            "button_tooltip_title": "",
+            "button_tooltip_title": "Вставити відео",
             "modal": {
-                "live_mode": "",
-                "submit_button": "",
-                "title": "",
-                "video_type_label": "",
+                "live_mode": "Режим прямого ефіру",
+                "submit_button": "Зберегти зміни",
+                "title": "Вставити відео",
+                "video_type_label": "Тип відео",
                 "video_types": {
-                    "normal": "",
-                    "dash": "",
-                    "flv": "",
-                    "hls": "",
-                    "shaka": "",
-                    "webtorrent": ""
+                    "normal": "Звичайний",
+                    "dash": "Dash",
+                    "flv": "Flv",
+                    "hls": "Hls",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
                 },
-                "video_url_label": "",
-                "video_url_placeholder": "",
-                "quality_switching_tutorial": "",
-                "pointer_label": "",
-                "pointer_option_new": "",
-                "quality_option_new": "",
-                "add_quality": "",
-                "remove_quality": "",
-                "add_pointer": "",
-                "remove_pointer": "",
-                "qualities_label": ""
+                "video_url_label": "URL-адреса відео",
+                "video_url_placeholder": "Наприклад: https://example.com/filename.mp4",
+                "quality_switching_tutorial": "Навчальний посібник з перемикання якості",
+                "pointer_label": "Покажчик",
+                "pointer_option_new": "Нове",
+                "quality_option_new": "Нове",
+                "add_quality": "Додати якість",
+                "remove_quality": "Видалити якість",
+                "add_pointer": "Додати покажчик",
+                "remove_pointer": "Видалити покажчик",
+                "qualities_label": "Якість (за бажанням)"
             },
-            "cannot_view": ""
+            "cannot_view": "Помилка: Ви не маєте права для перегляду цього вмісту"
         }
     }
 }
