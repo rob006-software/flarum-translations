@@ -2,50 +2,50 @@
     "flarum-subscriptions": {
         "forum": {
             "badge": {
-                "following_tooltip": "",
-                "ignoring_tooltip": ""
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
             },
             "discussion_controls": {
-                "follow_button": "",
-                "unfollow_button": "",
-                "unignore_button": ""
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "إلغاء المتابعة",
+                "unignore_button": "إلغاء التّجاهل"
             },
             "following": {
-                "meta_title_text": ""
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
             },
             "index": {
-                "following_link": ""
+                "following_link": "=> flarum-subscriptions.ref.following"
             },
             "notifications": {
-                "new_post_text": ""
+                "new_post_text": "قام(ت) {username} بالنّشر"
             },
             "settings": {
-                "follow_after_reply_label": "",
-                "notify_for_all_posts_label": "",
-                "notify_new_post_label": ""
+                "follow_after_reply_label": "متابعة المنشورات التي قمت بالرّدّ عليها تلقائيّا",
+                "notify_for_all_posts_label": "الإعلام عن كلّ منشور جديد بدلاً من المنشور الأخير فقط في المناقشة",
+                "notify_new_post_label": "إذا قام شخص بالنّشر في مناقشة أتابعها"
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": ""
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "الإشعار بجميع الرّدود.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "عدم الإشعار أبدا. الإخفاء من قائمة المناقشات.",
+                "not_following_button": "إلغاء المتابعة",
+                "not_following_text": "الإشعار فقط عندما تتمّ @الإشارة.",
+                "notify_alert_tooltip": "الحصول على إشعار المنتدى عندما تكون هناك مشاركات جديدة",
+                "notify_email_tooltip": "الحصول على بريد إلكتروني عندما تكون هناك مشاركات جديدة"
             }
         },
         "email": {
             "new_post": {
-                "subject": "",
-                "body": ""
+                "subject": "[منشور جديد] {title}",
+                "body": "مرحبا {recipient_display_name} \n \nقام(ت) {poster_display_name} بالنّشر في مناقشة: {title} التي تتمّ متابعتها من طرفك. \n \nلمشاهدة النّشاط الجديد، يُمكنك الانتقال عبر الرّابط الآتي: {url} \n \n--- \n \n{content} \n \n--- \n \nلن يتمّ إرسال أي إشعارات أخرى حول هذه المناقشة حتى يتمّ الاطّلاع من طرفك عليها.\n"
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "ignoring": ""
+            "follow": "متابعة",
+            "following": "المتابعون",
+            "ignoring": "تجاهل"
         }
     }
 }
