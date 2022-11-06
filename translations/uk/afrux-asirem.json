@@ -3,39 +3,39 @@
         "admin": {
             "extensions": {
                 "title": "Розширення",
-                "description": ""
+                "description": "Список всіх встановлених розширень."
             },
             "extension": {
                 "sections": {
-                    "content": "",
-                    "permissions": ""
+                    "content": "Основні налаштування",
+                    "permissions": "Дозволи"
                 }
             },
             "header": {
-                "go_back": ""
+                "go_back": "Повернутися до форуму"
             },
             "users": {
                 "grid": {
                     "columns": {
                         "avatar": {
-                            "title": ""
+                            "title": "Аватар"
                         }
                     }
                 }
             },
             "settings": {
-                "edit_footer_links": "",
-                "footer_description": "",
-                "footer_bottom_line": "",
-                "hero_banner": "",
-                "hero_banner_position": "",
+                "edit_footer_links": "Редагувати посилання і нижньому колонтитулі",
+                "footer_description": "Опис в нижньому колонтитулі",
+                "footer_bottom_line": "Нижній колонтитул. Підсумок",
+                "hero_banner": "Ласкаво просимо до образу героя",
+                "hero_banner_position": "Позиція CSS зображення (наприклад: 'center top' або 'center 20%')",
                 "links_modal": {
-                    "add_group": "",
-                    "group_name": "",
-                    "group_title": "",
-                    "add_link": "",
-                    "link_url": "",
-                    "link_label": ""
+                    "add_group": "Нова група посилань",
+                    "group_name": "Назва групи {number}",
+                    "group_title": "Назва групи посилань",
+                    "add_link": "Додати посилання",
+                    "link_url": "URL посилання",
+                    "link_label": "Мітка посилання"
                 }
             }
         }
