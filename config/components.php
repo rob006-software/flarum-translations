@@ -244,6 +244,9 @@ return [
 	'clarkwinkelmann-mass-actions' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-mass-actions/1.1.2/resources/locale/en.yml',
 	],
+	'clarkwinkelmann-meilisearch-dashboard' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-meilisearch-dashboard/0.1.0/locale/en.yml',
+	],
 	'clarkwinkelmann-money-rewards' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-money-rewards/1.0.0/locale/en.yml',
 	],
