@@ -2,20 +2,20 @@
     "ralkage-hcaptcha": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "secret_key_label": "",
-                "site_key_label": "",
-                "type_label": ""
+                "help_text": "Отримати облікові дані hCaptcha можна <a>тут</a>.",
+                "secret_key_label": "Secret Key",
+                "site_key_label": "Site Key",
+                "type_label": "Тип hCaptcha"
             },
             "permissions": {
-                "post_without_hcaptcha": ""
+                "post_without_hcaptcha": "Створювати дописи та дискусії без hCaptcha"
             }
         },
         "forum": {
-            "error": ""
+            "error": "Виникла помилка при введенні h-captcha. Спробуйте ще раз."
         }
     },
     "validation": {
-        "hcaptcha": ""
+        "hcaptcha": "Валідація hCaptcha не пройдена."
     }
 }
