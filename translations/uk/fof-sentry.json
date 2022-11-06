@@ -2,14 +2,14 @@
     "fof-sentry": {
         "admin": {
             "settings": {
-                "dsn_label": "",
-                "environment_label": "",
-                "user_feedback_label": "",
-                "javascript_label": "",
-                "javascript_console_label": "",
-                "javascript_trace_sample_rate": "",
-                "monitor_performance_label": "",
-                "send_user_emails_label": ""
+                "dsn_label": "Sentry DSN",
+                "environment_label": "Sentry Environment",
+                "user_feedback_label": "Відгуки користувачів",
+                "javascript_label": "Повідомити про помилки JavaScript",
+                "javascript_console_label": "Захопити консоль JavaScript",
+                "javascript_trace_sample_rate": "Показник моніторингу ефективності фронт-енду (0 - 100)",
+                "monitor_performance_label": "Показник моніторингу внутрішньої ефективності (0 - 100)",
+                "send_user_emails_label": "Надсилати електронні адреси користувачів зі звітами Sentry?"
             }
         }
     }
