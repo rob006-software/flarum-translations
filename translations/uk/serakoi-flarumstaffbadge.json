@@ -2,25 +2,25 @@
     "serakoi-flarumstaffbadge": {
         "admin": {
             "staffBadge": {
-                "label": "",
-                "help": ""
+                "label": "Текст для бейджа",
+                "help": "Текст бейджа для персоналу (за налаштуваннямм \"STAFF\")"
             },
             "staffBadgeTextColor": {
-                "label": "",
-                "help": ""
+                "label": "Колір бейджа",
+                "help": "Колір бейджа (за налаштуванням \"#fff\")"
             },
             "staffBadgeTextBg": {
-                "label": "",
-                "help": ""
+                "label": "Колір фону бейджа",
+                "help": "Колір бейджа (за замовчуванням \"rgb(70, 209, 96)\")"
             }
         },
         "forum": {
             "edit_user": {
-                "heading": "",
-                "placeholder": "",
+                "heading": "Бейдж включений",
+                "placeholder": "Для активації бейджа встановіть значення 'true'",
                 "tagList": {
-                    "heading": "",
-                    "placeholder": ""
+                    "heading": "Список тегів користува",
+                    "placeholder": "Розділення з комою \",\""
                 }
             }
         }
