@@ -37,14 +37,14 @@
             }
         },
         "email": {
-            "no_reason_given": "",
+            "no_reason_given": "Причини такого призупинення не були вказані.",
             "suspended": {
                 "subject": "Ваш обліковий запис призупинено",
-                "body": ""
+                "body": "Доброго дня, {recipient_display_name}!\n\nВас було відсторонено з наступної причини:\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
-                "subject": "",
-                "body": ""
+                "subject": "Ваш обліковий запис розблоковано",
+                "body": "Привіт, {recipient_display_name}!\n\nВас було відсторонено від участі у форумі. Ви можете повернутися на форум, перейшовши за наступним посиланням:\n\n{forum_url}\n"
             }
         }
     }
