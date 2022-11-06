@@ -2,30 +2,30 @@
     "clarkwinkelmann-author-change": {
         "forum": {
             "controls": {
-                "edit": ""
+                "edit": "Редагувати автора та дату"
             },
             "modal": {
-                "title-post": "",
-                "title-discussion": "",
-                "user": "",
-                "created_at": "",
-                "edited_at": "",
-                "sync-with-discussion": "",
-                "sync-with-post": "",
-                "sync-impossible": "",
-                "submit": "",
-                "cancel": ""
+                "title-post": "Редагувати допис автора та дату",
+                "title-discussion": "Редагувати дискусію автора та дату",
+                "user": "Автор",
+                "created_at": "Час створення",
+                "edited_at": "Час редагування",
+                "sync-with-discussion": "Синхронізація з дмскусією",
+                "sync-with-post": "Синхронізація з першим дописом",
+                "sync-impossible": "Не вдається знайти перше повідомлення. Спробуйте прокрутити до початку обговорення.",
+                "submit": "Зберегти",
+                "cancel": "Скасувати"
             },
             "search": {
-                "placeholder": "",
-                "type-more": "",
-                "no-results": ""
+                "placeholder": "Пошук користувачів",
+                "type-more": "Введіть 3 символу для пошуку в базі даних",
+                "no-results": "Результати відсутні"
             }
         },
         "admin": {
             "permissions": {
-                "edit-user": "",
-                "edit-date": ""
+                "edit-user": "Оновити дискусію та допис автора",
+                "edit-date": "Оновити дискусію та дату допису"
             }
         }
     }
