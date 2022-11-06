@@ -2,29 +2,29 @@
     "fof-subscribed": {
         "forum": {
             "settings": {
-                "defaults_label": "",
-                "forced_label": "",
-                "notify_discussion_created_label": "",
-                "notify_post_created_label": "",
-                "notify_post_unapproved_label": "",
-                "notify_user_created_label": "",
-                "notify_post_flagged_label": ""
+                "defaults_label": "За yfkfinedfyyzv увімкнено параметр «{setting}»",
+                "forced_label": "Примусово увімкнути «{setting}» для всіх",
+                "notify_discussion_created_label": "Хтось створює дискусію",
+                "notify_post_created_label": "Хтось створює новий допис або відповідь",
+                "notify_post_unapproved_label": "Створений допис потребує затвердження",
+                "notify_user_created_label": "Коли хтось реєструється",
+                "notify_post_flagged_label": "Хтось створює новий прапор для допису"
             },
             "notifications": {
-                "discussion_created_text": "",
-                "post_created_text": "",
-                "post_unapproved_text": "",
-                "user_created_text": "",
-                "post_flagged_text": ""
+                "discussion_created_text": "{username} створив нову дискусію",
+                "post_created_text": "{username} написав новий допис",
+                "post_unapproved_text": "{username} створив допис, який потребує затвердження",
+                "user_created_text": "{username} щойно зареєструвався",
+                "post_flagged_text": "{username} позначив допис"
             }
         },
         "admin": {
             "permission": {
-                "subscribe_to_discussion_created": "",
-                "subscribe_to_post_created": "",
-                "subscribe_to_post_unapproved": "",
-                "subscribe_to_user_created": "",
-                "subscribe_to_post_flagged": ""
+                "subscribe_to_discussion_created": "Дозволено отримувати повідомлення для нової дискусії",
+                "subscribe_to_post_created": "Дозволяє отримувати сповіщення про новий допис або відповідь",
+                "subscribe_to_post_unapproved": "Дозволяє отримувати повідомлення про новий незатверджений допис",
+                "subscribe_to_user_created": "Дозволяє отримувати повідомлення про нового користувача",
+                "subscribe_to_post_flagged": "Дозволяє отримувати повідомлення про новий прапор"
             }
         },
         "email": {
@@ -36,11 +36,11 @@
                 "postFlagged": "[Нова позначка] {username} позначив допис у «{title}»"
             },
             "body": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": "",
-                "postCreated": "",
-                "postFlagged": ""
+                "newDiscussion": "Привіт, {recipient_display_name}!\n\n{actor_display_name} розпочав нову дискусію: {discussion_title}\n\nЩоб переглянути це нову дискусію, перейдіть за наступним посиланням:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "Привіт, {recipient_display_name}!\n\n{actor_display_name} щойно приєднався до {forum_url}\n\nЩоб переглянути профіль цього нового користувача, перейдіть за наступним посиланням:\n{user_url}.\n",
+                "postUnapproved": "Привіт, {recipient_display_name}!\n\n{actor_display_name} створив допис, який не був автоматично схвалений в {discussion_title}\n\nЩоб переглянути цей новий допис, перейдіть за наступним посиланням:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postCreated": "Привіт, {recipient_display_name}!\n\n{actor_display_name} щойно створив новий допис у {discussion_title}\n\nЩоб переглянути це новий допис, перейдіть за наступним посиланням:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postFlagged": "Привіт, {recipient_display_name}!\n\n{actor_display_name} щойно позначив повідомлення у {discussion_title}\n\nЩоб переглянути це повідомлення, перейдіть за наступним посиланням:\n{post_url}\n"
             }
         }
     }
