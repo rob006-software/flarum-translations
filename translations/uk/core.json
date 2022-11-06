@@ -160,15 +160,15 @@
                 "search_placeholder": "Пошук розширень"
             },
             "permissions": {
-                "allow_post_editing_label": "Дозволити редагувати повідомлення",
+                "allow_post_editing_label": "Дозволити редагувати допис",
                 "allow_renaming_label": "Дозволити перейменування",
                 "create_heading": "Створити",
                 "delete_discussions_forever_label": "Видаляти дискусії (фізично)",
                 "delete_discussions_label": "Видаляти дискусії",
-                "delete_posts_forever_label": "Видаляти повідомлення (фізично)",
-                "delete_posts_label": "Видаляти повідомлення",
+                "delete_posts_forever_label": "Видалити допис назавжди",
+                "delete_posts_label": "Видалити дописи",
                 "description": "Налаштуйте, хто і що може бачити та робити.",
-                "edit_posts_label": "Редагувати повідомлення",
+                "edit_posts_label": "Редагувати дописи",
                 "edit_users_label": "Редагувати користувачів",
                 "edit_users_credentials_label": "Редагувати облікові дані користувачів",
                 "edit_users_groups_label": "Редагувати групи користувачів",
@@ -273,7 +273,7 @@
                 "preview_tooltip": "Передогляд"
             },
             "composer_discussion": {
-                "body_placeholder": "Написати повідомлення...",
+                "body_placeholder": "Додати допис...",
                 "discard_confirmation": "Ви не створили дискусію. Ви бажаєте скасувати створення дискусії?",
                 "submit_button": "Відправити",
                 "title": "=> core.ref.start_a_discussion",
@@ -282,13 +282,13 @@
             "composer_edit": {
                 "discard_confirmation": "Ви не зберегли зміни. Ви бажаєте відмовитися від них?",
                 "edited_message": "Зміни збережено.",
-                "post_link": "Повідомлення #{number} в {discussion}",
+                "post_link": "Допис #{number} в {discussion}",
                 "submit_button": "=> core.ref.save_changes",
                 "view_button": "=> core.ref.view"
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
-                "discard_confirmation": "Ви не відправили свою відповідь. Ви бажаєте скасувати створення повідомлення?",
+                "discard_confirmation": "Ви не опублікували свою відповідь. Ви бажаєте її видалити?",
                 "posted_message": "Ваш відповідь опублікована.",
                 "submit_button": "Відправити",
                 "view_button": "Переглянути"
@@ -378,14 +378,14 @@
             "post": {
                 "edited_text": "Змінено",
                 "edited_tooltip": "{username} відредагував(-ла) {ago}",
-                "number_tooltip": "Повідомлення #{number}"
+                "number_tooltip": "Допис #{number}"
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Ви впевнені, що бажаєте видалити повідомлення назавжди? Цю дію неможливо скасувати.",
+                "delete_confirmation": "Ви впевнені, що бажаєте видалити дописи назавжди? Цю дію неможливо скасувати.",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
-                "hide_confirmation": "Ви впевнені, що бажаєте видалити повідомлення?",
+                "hide_confirmation": "Ви впевнені, що бажаєте видалити допис?",
                 "restore_button": "=> core.ref.restore",
                 "toggle_dropdown_accessible_label": "Перемкнути спадне меню елементів керування публікаціями"
             },
@@ -393,7 +393,7 @@
                 "now_link": "Зараз",
                 "original_post_link": "Початок",
                 "unread_text": "{count} не прочитано",
-                "viewing_text": "{count, plural, one {{index} з {formattedCount} повідомлення} other {{index} of {formattedCount} повідомлень}}"
+                "viewing_text": "{count, plural, one {{index} з {formattedCount} допис} other {{index} of {formattedCount} дописів}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Стара назва була: \"{old}\"",
@@ -450,7 +450,7 @@
             "user_controls": {
                 "button": "Управління",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Ви впевнені, що бажаєте видалити користувача? Всі повідомлення, написані користувачем, також будуть видалені.",
+                "delete_confirmation": "Ви впевнені, що бажаєте видалити користувача? Дописи користувача НЕ будуть видалені.",
                 "delete_error_message": "Не вдалося видалити користувача <i>{username} ({email})</i>",
                 "delete_success_message": "Користувача <i>{username} ({email})</i> видалено",
                 "edit_button": "=> core.ref.edit",
@@ -498,7 +498,7 @@
                 "not_found_message": "Ресурс не знайдено.",
                 "payload_too_large_message": "Корисне навантаження запиту було занадто великим.",
                 "permission_denied_message": "У вас немає прав доступу для виконання цієї дії.",
-                "rate_limit_exceeded_message": "Ви розміщуєте повідомлення занадто часто. Будь ласка , спробуйте ще раз через деякий час.",
+                "rate_limit_exceeded_message": "Ви рухаєтесь занадто швидко. Будь ласка, спробуйте ще раз через кілька секунд.",
                 "render_failed_message": "На жаль, під час відображення цього вмісту сталася помилка. Якщо ви користувач, спробуйте пізніше. Якщо ви адміністратор, перегляньте файли журналу Flarum для отримання додаткової інформації."
             },
             "loading_indicator": {
@@ -590,19 +590,19 @@
         "email": {
             "activate_account": {
                 "subject": "Активація вашого облікового запису",
-                "body": "Привіт, {username}!\n\nХтось (сподіваємось, що Ви!) зареєструвався на форумі {forum} і вказав цей email.\n\nЯкщо це були Ви , просто натисніть на посилання і ваш аккаунт буде активований:\n{url}\n\nЯкщо Ви не реєструвалися, будь ласка проігноруйте це повідомлення.\n"
+                "body": "Привіт, {username}!\n\nХтось (сподіваємось, що ви!) зареєструвався на форумі {forum} і вказав цю електронну адресу.\n\nЯкщо це були ви, просто натисніть на посилання і ваш обліковий запис буде активовано:\n{url}\n\nЯкщо ви не реєструвалися, будь ласка, проігноруйте це повідомлення.\n"
             },
             "confirm_email": {
                 "subject": "Підтвердження нового email",
-                "body": "Привіт, {username}!\n\nХтось (сподіваємось, що Ви!) змінив email на форумі {forum}.\n\nЯкщо це були Ви, просто натисніть на посилання і ваш email змінено:\n{url}\n\nЯкщо це не Ви, будь ласка, проігноруйте це повідомлення.\n"
+                "body": "Привіт, {username}!\n\nХтось (сподіваємось, що ви!) змінив адресу електронної пошти на форумі {forum}.\n\nЯкщо це були ви, просто натисніть на посилання і ваш email змінено:\n{url}\n\nЯкщо це не ви, будь ласка, проігноруйте це повідомлення.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Привіт, {username}!\n\nХтось (сподіваємось, що Ви!) подав запит на зміну пароля для вашого облікового запису на форумі {forum}.\n\nЯкщо це були Ви, просто натисніть на посилання для зміни паролю:\n{url}\n\n Якщо Ви не бажаєте змінювати свій пароль, просто проігноруйте це повідомлення і нічого не станеться.\n"
+                "body": "Привіт, {username}!\n\nХтось (сподіваємось, що ви!) подав запит на зміну пароля для вашого облікового запису на форумі {forum}.\n\nЯкщо це були Ви, просто натисніть на посилання для зміни пароля:\n{url}\n\nЯкщо ви не бажаєте змінювати свій пароль, просто проігноруйте це повідомлення і нічого не станеться.\n"
             },
             "send_test": {
                 "subject": "Тестовий лист Flarum",
-                "body": "Привіт {username}!\n\nЦе тестове повідомлення того, що електоронна пошта Flarum налаштована.\n\nЯкщо це були ви, цей електронний лист означає, що ваша конфігурація працює!\n\nЯкщо це були не ви, проігноруйте цей електронний лист.\n"
+                "body": "Привіт {username}!\n\nЦе тестове повідомлення того, що електронна пошта Flarum налаштована.\n\nЯкщо це були ви, цей електронний лист означає, що ваша конфігурація працює!\n\nЯкщо це були не ви, проігноруйте цей електронний лист.\n"
             }
         },
         "ref": {
@@ -635,7 +635,7 @@
             "notifications": "Сповіщення",
             "okay": "OK",
             "password": "Пароль",
-            "posts": "Повідомлення",
+            "posts": "Допис",
             "previous_page": "Попередня сторінка",
             "remove": "Видалити",
             "rename": "Перейменувати",
