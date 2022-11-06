@@ -2,49 +2,49 @@
     "fof-polls": {
         "admin": {
             "permissions": {
-                "view_results_without_voting": "",
-                "start": "",
-                "self_edit": "",
-                "vote": "",
-                "change_vote": "",
-                "moderate": ""
+                "view_results_without_voting": "Перегляд результатів без голосування",
+                "start": "Почніть опитування",
+                "self_edit": "Дозволити користувачам редагувати власні опитування",
+                "vote": "Голосування в опитуваннях",
+                "change_vote": "Змінити голос",
+                "moderate": "Редагувати та видаляти опитування"
             }
         },
         "forum": {
-            "days_remaining": "",
-            "no_permission": "",
-            "poll_ended": "",
-            "public_poll": "",
+            "days_remaining": "Опитування закінчується {time}.",
+            "no_permission": "Ви не маєте права голосу",
+            "poll_ended": "Опитування завершено.",
+            "public_poll": "Переглянути тих хто проголосував",
             "composer_discussion": {
-                "add_poll": "",
-                "edit_poll": ""
+                "add_poll": "Додати опитування",
+                "edit_poll": "=> fof-polls.forum.moderation.edit"
             },
             "modal": {
-                "add_title": "",
-                "add_option_label": "",
-                "date_placeholder": "",
-                "edit_title": "",
-                "include_question": "",
-                "max": "",
-                "min": "",
-                "no_voters": "",
-                "option_placeholder": "",
-                "options_label": "",
-                "public_poll_label": "",
-                "question_placeholder": "",
-                "submit": ""
+                "add_title": "Додати опитування",
+                "add_option_label": "Додати опцію",
+                "date_placeholder": "Дата закінчення опитування (необов'язково)",
+                "edit_title": "Редагувати опитування",
+                "include_question": "Ви повинні включити питання",
+                "max": "Ви можете мати максимум 10 відповідей",
+                "min": "Ви повинні вказати мінімум 2 відповіді",
+                "no_voters": "Немає голосів",
+                "option_placeholder": "Відповідь",
+                "options_label": "Відповіді",
+                "public_poll_label": "Дозвольте людям бачити, хто проголосував",
+                "question_placeholder": "Питання",
+                "submit": "Відправити"
             },
             "moderation": {
-                "delete": "",
-                "delete_confirm": "",
-                "edit": ""
+                "delete": "Видалити опитування",
+                "delete_confirm": "Ви дійсно бажаєте видалити це опитування?",
+                "edit": "Редагувати опитування"
             },
             "tooltip": {
-                "badge": "",
-                "votes": ""
+                "badge": "Опитування",
+                "votes": "{count, plural, one {# голос} other {# голосів}}"
             },
             "votes_modal": {
-                "title": ""
+                "title": "Хто проголосував"
             }
         }
     }
