@@ -48,26 +48,26 @@
                 "check_button": "Перевірка",
                 "save_button": "Зберегти",
                 "ban_ip_confirmation": "Ви дійсно хочете заблокувати цю IP-адресу для використання на форумі? Це заблокує користувачам з цією IP-адресою вхід та реєстрацію на форумі.",
-                "ban_ip_users": "",
+                "ban_ip_users": "{count, plural, one {Користувач {users} був заблокований}, other {Користувачі {users} були заблоковані}}",
                 "unban_ip_confirmation": "Ви впевнені, що хочете дозволити цього користувача та всіх інших користувачів, не заблокованих з інших IP?",
-                "unban_options_only_ip": "",
-                "unban_options_all_ip": "",
-                "unban_ip_no_users": "",
-                "unban_ip_users": "",
-                "unbanned_ips": "",
-                "ban_button": "",
-                "unban_button": ""
+                "unban_options_only_ip": "Розблокування поточного IP (<code>{ip}</code>)",
+                "unban_options_all_ip": "Розблокування усіх IP, які використовує <i>{username}</i>",
+                "unban_ip_no_users": "Більше ніхто не буде розблоковано",
+                "unban_ip_users": "{count, plural, one {Користувач {users} буде розблоковано}, other {Користувачі {users} будуть розблоковані}}",
+                "unbanned_ips": "Розблоковані <code>{ips}</code>.",
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
         },
         "ref": {
-            "ban_label": "",
-            "ban_ip_addresses": "",
-            "ban_ip_button": "",
-            "unban_label": "",
-            "unban_ip_addresses": "",
-            "unban_ip_button": "",
-            "address_label": "",
-            "reason_label": ""
+            "ban_label": "Бан",
+            "ban_ip_addresses": "Бан IP-адрес",
+            "ban_ip_button": "Бан IP",
+            "unban_label": "Розблокувати",
+            "unban_ip_addresses": "Розблокувати IP-адреси",
+            "unban_ip_button": "Розблокувати IP",
+            "address_label": "IP-адреси",
+            "reason_label": "Причина"
         }
     }
 }
