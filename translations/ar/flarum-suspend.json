@@ -2,49 +2,49 @@
     "flarum-suspend": {
         "admin": {
             "permissions": {
-                "suspend_users_label": ""
+                "suspend_users_label": "تعليق المستخدمين"
             }
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "",
-                "user_suspended_indefinite_text": "",
-                "user_unsuspended_text": ""
+                "user_suspended_text": "لقد تمّ تعليق مشاركتك في المنتدى لمدّة {timeReadable}",
+                "user_suspended_indefinite_text": "لقد تم تعليقمشاركتك في المنتدى إلى أجل غير مسمى",
+                "user_unsuspended_text": "لقد تمّ إلغاء تعليق مشاركتك في المنتدى"
             },
             "suspension_info": {
-                "dismiss_button": "",
-                "indefinite": "",
-                "limited": "",
-                "title": ""
+                "dismiss_button": "رفض",
+                "indefinite": "هذا تعليق لأجل غير مسمى",
+                "limited": "سيكون هذا التّعليق ساري المفعول حتّى {date}",
+                "title": "تمّ تعليق هذا الحساب"
             },
             "suspend_user": {
-                "display_message": "",
-                "indefinitely_label": "",
-                "limited_time_days_text": "",
-                "limited_time_label": "",
-                "not_suspended_label": "",
-                "placeholder_optional": "",
-                "reason": "",
-                "status_heading": "",
-                "submit_button": "",
-                "title": ""
+                "display_message": "الرّسالة المعروضة للمستخدم",
+                "indefinitely_label": "معلّق إلى أجل غير مسمى",
+                "limited_time_days_text": " من الأيّام",
+                "limited_time_label": "تعليق لفترة محدودة ...",
+                "not_suspended_label": "غير معلّق",
+                "placeholder_optional": "اختياري",
+                "reason": "سبب التّعليق",
+                "status_heading": "حالة التّعليق",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "تعليق {username}"
             },
             "user_badge": {
-                "suspended_tooltip": ""
+                "suspended_tooltip": "مُعلّق"
             },
             "user_controls": {
-                "suspend_button": ""
+                "suspend_button": "تعليق"
             }
         },
         "email": {
-            "no_reason_given": "",
+            "no_reason_given": "لم يتمّ تقديم أي أسباب حول هذا التّعليق.",
             "suspended": {
-                "subject": "",
-                "body": ""
+                "subject": "لقد تمّ تعليق حسابك",
+                "body": "مرحبا {recipient_display_name}، \n \nلقد تمّ تعليق مشاركتك في المنتدى للأسباب الآتية: \n \n--- \n{suspension_message} \n---\n"
             },
             "unsuspended": {
-                "subject": "",
-                "body": ""
+                "subject": "لقد تمّ إزالة التّعليق عن حسابك",
+                "body": "مرحبا {recipient_display_name}، \n \nلقد تمّ إزالة التّعليق عن حسابك. يُمكنك العودة إلى النّشاط على المنتدى بالانتقال عبر الرّابط الآتي: \n \n{forum_url}\n"
             }
         }
     }
