@@ -2,49 +2,49 @@
     "askvortsov-rich-text": {
         "admin": {
             "settings": {
-                "toggle_on_editor": ""
+                "toggle_on_editor": "Показувати режим розширеного тексту в редакторі?"
             }
         },
         "lib": {
             "composer": {
-                "toggle_button": "",
-                "insert_button": "",
+                "toggle_button": "Переключити режим розширеного тексту",
+                "insert_button": "Вставити",
                 "insert_image": {
-                    "src_placeholder": "",
-                    "title_placeholder": ""
+                    "src_placeholder": "Посилання",
+                    "title_placeholder": "Назва"
                 },
                 "insert_link": {
-                    "text_placeholder": "",
-                    "href_placeholder": "",
-                    "title_placeholder": "",
-                    "remove_button": ""
+                    "text_placeholder": "Текст",
+                    "href_placeholder": "URL",
+                    "title_placeholder": "Назва (показується при наведенні)",
+                    "remove_button": "Видалити"
                 },
-                "additional_items_tooltip": "",
-                "bold_tooltip": "",
-                "code_tooltip": "",
-                "code_block_tooltip": "",
-                "header_tooltip": "",
-                "horizontal_rule_tooltip": "",
-                "image_tooltip": "",
-                "italic_tooltip": "",
-                "link_tooltip": "",
-                "ordered_list_tooltip": "",
-                "paragraph_tooltip": "",
-                "quote_tooltip": "",
-                "spoiler_block_tooltip": "",
-                "spoiler_inline_tooltip": "",
-                "strike_tooltip": "",
-                "sub_tooltip": "",
-                "sup_tooltip": "",
-                "text_type_tooltip": "",
-                "unordered_list_tooltip": ""
+                "additional_items_tooltip": "Додаткові елементи керування",
+                "bold_tooltip": "Жирний текст <{modifierKey}-b>",
+                "code_tooltip": "Вбудований код <{modifierKey}-`>",
+                "code_block_tooltip": "Вставити кодовий блок",
+                "header_tooltip": "Змінити шапку {level} <shift-{modifierKey}-{level}>",
+                "horizontal_rule_tooltip": "Вставити горизонтальну лінію",
+                "image_tooltip": "Додати зображення",
+                "italic_tooltip": "Курсивний текст <{modifierKey}-i>",
+                "link_tooltip": "Додати посилання",
+                "ordered_list_tooltip": "Нумерований список <shift-{modifierKey}-9>",
+                "paragraph_tooltip": "Змінити на абзац <shift-{modifierKey}-0>",
+                "quote_tooltip": "Вставити цитату <{modifierKey}-q>",
+                "spoiler_block_tooltip": "Блокувати спойлер/випадаюче меню",
+                "spoiler_inline_tooltip": "Спойлер <{modifierKey}-;>",
+                "strike_tooltip": "Закреслення <alt-shift-5>",
+                "sub_tooltip": "Підпорядковий індекс <{modifierKey}-,>",
+                "sup_tooltip": "Надрядковий символ <{modifierKey}-.>",
+                "text_type_tooltip": "Оберіть тип тексту",
+                "unordered_list_tooltip": "Довільний список <shift-{modifierKey}-8>"
             }
         },
         "forum": {
             "settings": {
-                "composer_heading": "",
-                "use_rich_text_editor_label": "",
-                "rich_text_compact_paragraphs_label": ""
+                "composer_heading": "Композитор",
+                "use_rich_text_editor_label": "Використовувати текстовий редактор?",
+                "rich_text_compact_paragraphs_label": "Не відокремлювати абзаци новим рядком."
             }
         }
     }
