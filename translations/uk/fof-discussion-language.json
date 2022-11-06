@@ -2,43 +2,43 @@
     "fof-discussion-language": {
         "forum": {
             "change_language": {
-                "edit_title": "",
-                "title": "",
-                "submit_button": ""
+                "edit_title": "Редагувати мову для {title}",
+                "title": "Редагувати мову",
+                "submit_button": "=> core.ref.save_changes"
             },
             "composer_discussion": {
-                "choose_language_link": ""
+                "choose_language_link": "Мова"
             },
             "discussion_controls": {
-                "change_language_button": ""
+                "change_language_button": "Встановити мову"
             },
             "index_language": {
-                "any": ""
+                "any": "Будь-яка мова"
             }
         },
         "admin": {
             "settings": {
-                "native_label": "",
-                "show_flag_label": "",
-                "composer_default_label": "",
-                "locale_sort_label": "",
-                "show_any_lang_opt_label": "",
-                "tags_page_discussion_locale_label": "",
+                "native_label": "Використовувати назви рідною мовою",
+                "show_flag_label": "Показати прапори країн з назвами мов",
+                "composer_default_label": "Попередньо обрати поточну локацію в композиторі дискусії",
+                "locale_sort_label": "Використовувати визначену мову для фільтрації дискусій за налаштуванням",
+                "show_any_lang_opt_label": "Показати можливість вибору \"Будь-яка мова\"",
+                "tags_page_discussion_locale_label": "Показувати дискусії лише з поточної мови користувача на сторінці тегів",
                 "errors": {
-                    "missing_assets": ""
+                    "missing_assets": "Не вдалося завантажити ресурси, необхідні для цього розширення. Спробуйте виконати <code>php flarum assets:publish</code> і перевірте, чи це вирішить проблему."
                 },
                 "config": {
-                    "language_label": "",
-                    "country_label": ""
+                    "language_label": "Мова",
+                    "country_label": "Країна (для показу прапора)"
                 }
             },
             "permissions": {
-                "allow_change_language_label": ""
+                "allow_change_language_label": "Дозволити редагувати мову"
             }
         },
         "api": {
             "discussion": {
-                "validation_error": ""
+                "validation_error": "Ви повинні обрати мову для дискусії."
             }
         }
     }
