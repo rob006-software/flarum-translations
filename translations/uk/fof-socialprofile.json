@@ -2,27 +2,27 @@
     "fof-socialprofile": {
         "admin": {
             "permissions": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "Переглянути соціальний профіль",
+                "editOwn": "Редагувати власний соціальний профіль",
+                "editAny": "Редагувати будь-який соціальний профіль"
             },
             "settings": {
-                "allow_external_favicons_label": ""
+                "allow_external_favicons_label": "Дозволити зовнішні іконки веб-сайтів (використовується API favicon DuckDuckGo)"
             }
         },
         "forum": {
             "edit": {
-                "edit": "",
-                "add": "",
-                "headtitle": "",
-                "title": "",
-                "url": "",
-                "submit": "",
-                "delete": "",
-                "deletetitle": "",
-                "save_disabled_fetching_favicons": "",
-                "favicon": "",
-                "grey_favicon": ""
+                "edit": "Відредагуйте свої кнопки соціальних мереж",
+                "add": "Додайте кнопки у ваші соціальні мережі",
+                "headtitle": "Редагувати кнопки",
+                "title": "Назва",
+                "url": "URL",
+                "submit": "Зберегти",
+                "delete": "Delete",
+                "deletetitle": "Видалити кнопку",
+                "save_disabled_fetching_favicons": "Одна або декілька іконок завантажуються. Будь ласка, зачекайте.",
+                "favicon": "Favicon",
+                "grey_favicon": "Сірі Favicon"
             }
         }
     }
