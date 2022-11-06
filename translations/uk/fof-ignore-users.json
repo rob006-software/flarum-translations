@@ -2,20 +2,20 @@
     "fof-ignore-users": {
         "admin": {
             "permissions": {
-                "can_not_be_ignored_label": ""
+                "can_not_be_ignored_label": "Не можна ігнорувати"
             }
         },
         "forum": {
-            "profile_link": "",
+            "profile_link": "Ігноровані користувачі",
             "user_controls": {
-                "ignore_button": "",
-                "ignore_confirmation": "",
-                "unignore_button": "",
-                "unignore_confirmation": ""
+                "ignore_button": "Ігнорувати",
+                "ignore_confirmation": "Ви дійсно хочете ігнорувати цього користувача?",
+                "unignore_button": "Скасувати ігнорування",
+                "unignore_confirmation": "Ви впевнені, що хочете скасувати ігнорування цього користувача?"
             },
             "badge": {
-                "user_label": "",
-                "discussion_label": ""
+                "user_label": "Ігнорований користувач",
+                "discussion_label": "Розпочато ігнорованим користувачем"
             }
         }
     }
