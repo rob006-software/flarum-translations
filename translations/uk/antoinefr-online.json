@@ -2,13 +2,13 @@
     "antoinefr-online": {
         "forum": {
             "title": "Хто онлайн?",
-            "andmore": "",
-            "online_users": ""
+            "andmore": "та {more} більше...",
+            "online_users": "{more, plural, one {# користувач онлайн} other {# користувачів онлайн}}"
         },
         "admin": {
             "settings": {
-                "displaymax": "",
-                "titleoflist": ""
+                "displaymax": "Кількість учасників для показу",
+                "titleoflist": "Заголовок для показу над списком"
             }
         }
     }
