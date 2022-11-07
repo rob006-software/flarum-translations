@@ -261,14 +261,14 @@
                 "title": "=> core.ref.change_email"
             },
             "change_password": {
-                "send_button": "Надіслати пароль на E-mail",
+                "send_button": "Надіслати пароль на електронну пошту",
                 "text": "Натисніть на кнопку нижче для відправки посилання для зміни пароля на вашу електронну адресу.",
                 "title": "=> core.ref.change_password"
             },
             "composer": {
                 "close_tooltip": "Закрити",
                 "exit_full_screen_tooltip": "Вихід з повноекранного режиму",
-                "full_screen_tooltip": "Розгорнути",
+                "full_screen_tooltip": "Повноекранний режим",
                 "minimize_tooltip": "Згорнути",
                 "preview_tooltip": "Попередній перегляд"
             },
@@ -319,7 +319,7 @@
                 "email_sent_message": "Ми відправили вам листа, який містить посилання для відновлення пароля. Перевірте папку зі спамом, якщо Ви не отримали листа протягом деякого часу.",
                 "not_found_message": "Користувача з такою адресою електронної пошти не знайдено.",
                 "submit_button": "Відновити пароль",
-                "text": "Введіть свій email, і ми надішлемо вам посилання для відновлення пароля.",
+                "text": "Введіть свою електронну адресу і ми надішлемо вам посилання для відновлення пароля.",
                 "title": "Забули пароль"
             },
             "header": {
@@ -427,12 +427,12 @@
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "log_in_text": "Зареєстровані? <a>Увійти</a>",
+                "log_in_text": "Вже маєте обліковий запис? <a>Увійти</a>",
                 "password_placeholder": "=> core.ref.password",
                 "submit_button": "=> core.ref.sign_up",
                 "title": "=> core.ref.sign_up",
                 "username_placeholder": "=> core.ref.username",
-                "welcome_text": "Привіт, {username}!"
+                "welcome_text": "Ласкаво просимо, {username}!"
             },
             "user": {
                 "avatar_remove_button": "=> core.ref.remove",
@@ -442,13 +442,13 @@
                 "in_discussion_text": "в \"{discussion}\"",
                 "joined_date_text": "Приєднався: {ago}",
                 "online_text": "Онлайн",
-                "posts_empty_text": "Схоже, що тут ще немає повідомлень.",
+                "posts_empty_text": "Схоже, що тут відсутні дописи.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
-                "button": "Управління",
+                "button": "Елементи управління",
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "Ви впевнені, що бажаєте видалити користувача? Дописи користувача НЕ будуть видалені.",
                 "delete_error_message": "Не вдалося видалити користувача <i>{username} ({email})</i>",
@@ -458,7 +458,7 @@
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
-                "resend_button": "Повторно відправити підтвердження на email",
+                "resend_button": "Повторно відправити підтвердження на електронну пошту",
                 "sent_message": "Відправлено"
             },
             "welcome_hero": {
@@ -471,7 +471,7 @@
                 "dismiss_a11y_label": "Відбій тривоги"
             },
             "badge": {
-                "hidden_tooltip": "Дискусія прихована"
+                "hidden_tooltip": "Поиховано"
             },
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Перемкнути спадне меню"
@@ -485,7 +485,7 @@
                 "password_label": "=> core.ref.password",
                 "set_password_label": "Новий пароль",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Редагування користувача",
+                "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
                 "nothing_available": "Вам не дозволено редагувати цього користувача."
@@ -521,7 +521,7 @@
             "series": {
                 "glue_text": ", ",
                 "three_text": "{first}, {second} та {third}",
-                "two_text": "{first} і {second}"
+                "two_text": "{first} та {second}"
             },
             "username": {
                 "deleted_text": "[видалено]"
@@ -593,7 +593,7 @@
                 "body": "Привіт, {username}!\n\nХтось (сподіваємось, що ви!) зареєструвався на форумі {forum} і вказав цю електронну адресу.\n\nЯкщо це були ви, просто натисніть на посилання і ваш обліковий запис буде активовано:\n{url}\n\nЯкщо ви не реєструвалися, будь ласка, проігноруйте це повідомлення.\n"
             },
             "confirm_email": {
-                "subject": "Підтвердження нового email",
+                "subject": "Підтвердження нової адреси електронної пошти",
                 "body": "Привіт, {username}!\n\nХтось (сподіваємось, що ви!) змінив адресу електронної пошти на форумі {forum}.\n\nЯкщо це були ви, просто натисніть на посилання і ваш email змінено:\n{url}\n\nЯкщо це не ви, будь ласка, проігноруйте це повідомлення.\n"
             },
             "reset_password": {
@@ -612,17 +612,17 @@
             "color": "Колір",
             "confirm_password": "Підтвердити пароль",
             "confirm_email": "Підтвердити електронну адресу",
-            "confirmation_email_sent": "Ми відправили лист з підтвердженням на адресу {email}. Якщо Ви не отримаєте лист найближчим часом, перевірте теку зі спамом.",
+            "confirmation_email_sent": "Ми відправили лист з підтвердженням на адресу {email}. Якщо ви не отримаєте лист найближчим часом, перевірте теку зі спамом.",
             "custom_footer_text": "Додати HTML-код який відображатиметься внизу кожної сторінки.",
-            "custom_footer_title": "Редагувати кастомний футер",
+            "custom_footer_title": "Редагувати користувацький нижній колонтитул",
             "custom_header_text": "Додати HTML-код, який показуватиметься угорі сторінки.",
-            "custom_header_title": "Редагувати кастомну шапку",
+            "custom_header_title": "Редагувати користувацьку шапку",
             "delete": "Видалити",
             "delete_forever": "Видалити (физічно)",
             "discussions": "Дискусії",
             "edit": "Редагувати",
             "edit_user": "Редагувати користувача",
-            "email": "Email",
+            "email": "Електронна пошта",
             "extensions": "Розширення",
             "icon": "Іконка",
             "icon_text": "Введіть назву будь-якого класу іконки <a>Font Awesome</a>, <em>включаючи</em> префіксы <code>fas fa-</code>.",
@@ -642,7 +642,7 @@
             "reply": "Відповісти",
             "reset_your_password": "Скинути пароль",
             "restore": "Відновити",
-            "save_changes": "Зберегти",
+            "save_changes": "Зберегти зміни",
             "settings": "Налаштування",
             "sign_up": "Реєстрація",
             "some_others": "{count, plural, one {# іншому} other {# іншим}}",
