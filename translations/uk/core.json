@@ -4,16 +4,16 @@
             "appearance": {
                 "colored_header_label": "Кольорова шапка",
                 "colors_heading": "Кольори",
-                "colors_text": "Оберіть два кольори для стилізації форуму. Перший буде використовуватися в якості кольору підсвічування, другий буде використовуватися в якості фону стильових елементів.",
-                "custom_footer_heading": "Користувальницький підвал",
+                "colors_text": "Оберіть два кольори для стилізації форуму. Перший буде використовуватися для підсвічування, другий для стилізації елементів.",
+                "custom_footer_heading": "Користувацький нижній колонтитул",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
-                "custom_header_heading": "Користувальницький заголовок",
+                "custom_header_heading": "Користувацький заголовок",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_heading": "Призначені для користувача стилі",
+                "custom_styles_heading": "Користувацькі стилі",
                 "custom_styles_text": "Налаштування зовнішнього вигляду форуму за допомогою призначеного для користувача коду LESS/CSS, який перекриває стандартні стильові конструкції Flarum.",
                 "dark_mode_label": "Темний режим",
-                "description": "Налаштуйте кольори, лого та інші змінні вашого форуму.",
-                "edit_css_button": "Редагувати CSS",
+                "description": "Налаштуйте кольори, лого та інше.",
+                "edit_css_button": "Редагувати користувацький CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Будь ласка, введіть код кольору в HEX-форматі.",
@@ -23,30 +23,30 @@
                 "logo_text": "Завантаження зображення, яке буде відображатися замість заголовка форуму.",
                 "title": "Зовнішній вигляд",
                 "colors_primary_label": "Основний колір",
-                "colors_secondary_label": "Вторинний колір"
+                "colors_secondary_label": "Додатковий колір"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Мова за налаштуванням",
-                "description": "Встановіть назву форуму, мову та інші основні налаштування.",
-                "display_name_heading": "Відображуване ім’я користувача",
-                "display_name_text": "Виберіть драйвер, який слід використовувати для показування імен користувачів. За налаштуванням показується ім'я користувача.",
+                "description": "Встановіть назву форуму, мову та інші базові налаштування.",
+                "display_name_heading": "Ім'я користувача",
+                "display_name_text": "Оберіть драйвер, який слід використовувати для показу імен користувачів. За налаштуванням показується ім'я користувача.",
                 "forum_description_heading": "Опис форуму",
                 "forum_description_text": "Введіть короткий опис спільноти. Опис з'явиться в meta-тегу і буде відображатися в пошукових системах.",
                 "forum_title_heading": "Назва форуму",
                 "home_page_heading": "Головна сторінка",
-                "home_page_text": "Виберіть сторінку, яку користувачі будуть бачити при відвідуванні форуму. При введенні призначених для користувача значень, використовуйте шлях щодо кореня форуму.",
-                "show_language_selector_label": "Показувати діалог вибору мов",
-                "slug_driver_heading": "Драйвер URL{model}",
-                "slug_driver_text": "Виберіть драйвер для використання дружнього URL.",
-                "title": "Загальні налаштування",
+                "home_page_text": "Оберіть сторінку, яку користувачі бачитимуть першою, коли зайдуть на ваш форум.",
+                "show_language_selector_label": "Показувати вибір мови",
+                "slug_driver_heading": "Драйвер URL {model}",
+                "slug_driver_text": "Оберіть драйвер для використання дружнього URL.",
+                "title": "Основне",
                 "welcome_banner_heading": "Банер вітання",
                 "welcome_banner_text": "Введіть текст, який буде відображатися на всіх сторінках форуму. Використовуйте цей елемент для того, щоб вітати гостей форуму."
             },
             "dashboard": {
                 "clear_cache_button": "Очистити кеш",
-                "description": "Перший погляд на ваш форум.",
-                "title": "Консоль",
+                "description": "Ваш форум з першого погляду.",
+                "title": "Панель керування",
                 "tools_button": "Iнструменти",
                 "io_error_message": "Не вдалося записати до файлової системи. Перевірте права доступу до файлової системи та повторіть спробу. Або спробуйте запустити з командного рядка."
             },
@@ -81,13 +81,13 @@
             "email": {
                 "addresses_heading": "Адреси",
                 "description": "Налаштування для надсилання електронних листів.",
-                "driver_heading": "Виберіть драйвер",
+                "driver_heading": "Оберіть драйвер",
                 "driver_label": "Драйвер",
                 "from_label": "Відправник",
                 "mail_encryption_label": "Шифрування",
                 "mail_host_label": "Хост",
                 "mail_mailgun_domain_label": "Домен",
-                "mail_mailgun_region_label": "Region",
+                "mail_mailgun_region_label": "Регіон",
                 "mail_mailgun_secret_label": "Секретний ключ",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Порт",
@@ -108,12 +108,12 @@
                 "enable_to_see": "Увімкніть розширення для перегляду і зміни налаштувань.",
                 "enabled": "Увімкнено",
                 "info_links": {
-                    "discuss": "Обговорення",
+                    "discuss": "Дискусія",
                     "documentation": "Документація",
-                    "donate": "Пожертвувати",
+                    "donate": "Пожертви",
                     "source": "Джерело",
                     "support": "Підтримка",
-                    "website": "Вебсайт"
+                    "website": "Сайт"
                 },
                 "no_permissions": "Це розширення не має дозволів.",
                 "no_settings": "Це розширення не має налаштувань.",
@@ -121,8 +121,8 @@
                 "permissions_title": "Дозволи",
                 "purge_button": "Очищення",
                 "readme": {
-                    "button_label": "README",
-                    "no_readme": "Схоже, це розширення не містить файл README",
+                    "button_label": "Інструкція",
+                    "no_readme": "Схоже, це розширення не містить файл інструкції",
                     "title": "Документація {extName}"
                 }
             },
@@ -131,7 +131,7 @@
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
-                "title": "Будь ласка зачекайте..."
+                "title": "Будь ласка, зачекайте..."
             },
             "nav": {
                 "appearance_button": "=> core.admin.appearance.title",
@@ -141,8 +141,8 @@
                 "categories": {
                     "authentication": "Автентифікація",
                     "core": "Основна конфігурація",
-                    "discussion": "Дискусії",
-                    "feature": "Сервіси",
+                    "discussion": "Дискусія",
+                    "feature": "Особливості",
                     "formatting": "Форматування",
                     "language": "Мови",
                     "moderation": "Модерація",
@@ -163,11 +163,11 @@
                 "allow_post_editing_label": "Дозволити редагувати допис",
                 "allow_renaming_label": "Дозволити перейменування",
                 "create_heading": "Створити",
-                "delete_discussions_forever_label": "Видаляти дискусії (фізично)",
+                "delete_discussions_forever_label": "Видаляти дискусії назавжди",
                 "delete_discussions_label": "Видаляти дискусії",
                 "delete_posts_forever_label": "Видалити допис назавжди",
                 "delete_posts_label": "Видалити дописи",
-                "description": "Налаштуйте, хто і що може бачити та робити.",
+                "description": "Налаштуйте, хто може бачити та щось робити.",
                 "edit_posts_label": "Редагувати дописи",
                 "edit_users_label": "Редагувати користувачів",
                 "edit_users_credentials_label": "Редагувати облікові дані користувачів",
@@ -176,7 +176,7 @@
                 "moderate_heading": "Модерація",
                 "new_group_button": "Нова група",
                 "participate_heading": "Участь",
-                "post_without_throttle_label": "Відповідати кілька разів, не чекаючи",
+                "post_without_throttle_label": "Відповідайте кілька разів без очікування",
                 "read_heading": "Читати",
                 "rename_discussions_label": "Перейменовувати дискусії",
                 "reply_to_discussions_label": "Відповідати в дискусіях",
@@ -184,17 +184,17 @@
                 "sign_up_label": "Реєстрація",
                 "start_discussions_label": "Створювати дискусії",
                 "title": "Дозволи",
-                "view_forum_label": "Перегляд форуму (дискусій та користувачів)",
+                "view_forum_label": "Перегляд форуму (дискусії та користувачів)",
                 "view_hidden_groups_label": "Дивитися приховані групи",
-                "view_last_seen_at_label": "Дивитися останні відвідини користувача",
-                "view_post_ips_label": "Дивитися IP-адреси"
+                "view_last_seen_at_label": "Завжди переглядати час останнього відвідування користувача",
+                "view_post_ips_label": "Переглядати IP-адреси"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Необмежено",
                 "allow_some_minutes_button": "{count, plural, one {На # хвилини} other {На # хвилин}}",
                 "allow_ten_minutes_button": "На 10 хвилин",
                 "allow_until_reply_button": "До відповіді",
-                "everyone_button": "Всі",
+                "everyone_button": "Усі",
                 "members_button": "=> core.group.members",
                 "signup_closed_button": "Закрито",
                 "signup_open_button": "Відкрито"
@@ -205,7 +205,7 @@
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
-                "upload_button": "Вибрати зображення..."
+                "upload_button": "Обрати зображення..."
             },
             "users": {
                 "description": "Список усіх користувачів вашого форуму.",
@@ -218,8 +218,8 @@
                         },
                         "email": {
                             "title": "=> core.ref.email",
-                            "visibility_hide": "Приховати email",
-                            "visibility_show": "Показати email"
+                            "visibility_hide": "Приховати адреси електронної пошти",
+                            "visibility_show": "Показати адреси електронної пошти"
                         },
                         "group_badges": {
                             "no_badges": "Жодної",
@@ -232,7 +232,7 @@
                             "title": "ID"
                         },
                         "username": {
-                            "profile_link_tooltip": "Подивитись профіль користувача {username}",
+                            "profile_link_tooltip": "Відвідати обліковий запис користувача {username}",
                             "title": "=> core.ref.username"
                         }
                     },
@@ -241,7 +241,7 @@
                 "pagination": {
                     "back_button": "Попередня сторінка",
                     "next_button": "Наступна сторінка",
-                    "page_counter": "Сторінка: {current} / {total}"
+                    "page_counter": "Сторінка: {current} з {total}"
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Усього користувачів: {count}"
