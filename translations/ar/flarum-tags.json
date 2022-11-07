@@ -2,34 +2,34 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": ""
+                "tags_label": "=> flarum-tags.ref.tags"
             },
             "edit_tag": {
-                "color_label": "",
-                "delete_tag_button": "",
-                "delete_tag_confirmation": "",
-                "description_label": "",
-                "hide_label": "",
-                "icon_label": "",
-                "icon_text": "",
-                "name_label": "",
-                "name_placeholder": "",
-                "slug_label": "",
-                "submit_button": "",
-                "title": ""
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "حذف العلامة",
+                "delete_tag_confirmation": "هل أنت متأكّد(ة) من حذف هذه العلامة؟ لن يتمّ حذف منشورات العلامة.",
+                "description_label": "وصف العلامة",
+                "hide_label": "الإخفاء من (جميع المناقشات)",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "الاسم اللّطيف على الرّابط",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "إنشاء علامة"
             },
             "nav": {
-                "tags_button": "",
-                "tags_text": ""
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "إدارة قائمة العلامات المتاحة لتنظيم المناقشات معها."
             },
             "permissions": {
-                "allow_edit_tags_label": "",
-                "bypass_tag_counts_label": "",
-                "restrict_by_tag_heading": "",
-                "tag_discussions_label": ""
+                "allow_edit_tags_label": "السّماح بتعديل العلامة",
+                "bypass_tag_counts_label": "السّماح بتجاوز العلامة",
+                "restrict_by_tag_heading": "تقييد بالعلامة",
+                "tag_discussions_label": "مناقشات العلامة"
             },
             "tag_settings": {
-                "range_separator_text": "",
+                "range_separator_text": " إلى ",
                 "required_primary_heading": "",
                 "required_primary_text": "",
                 "required_secondary_heading": "",
