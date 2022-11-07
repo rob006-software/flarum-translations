@@ -1,58 +1,58 @@
 {
     "fof-reactions": {
         "forum": {
-            "disabled-reaction": "",
-            "warning": "",
-            "notification": "",
+            "disabled-reaction": "Ви не можете використовувати цю реакцію зараз, будь ласка, оновіть сторінку",
+            "warning": "Вашу реакцію було конвертовано",
+            "notification": "{username} відреагував(-ла) {reaction} на ваш допис",
             "settings": {
-                "notify_post_reacted_label": ""
+                "notify_post_reacted_label": "Хтось відреагував на один з моїх дописів"
             },
-            "reacting-own-post": "",
+            "reacting-own-post": "Ви не можете реагувати на власний пост",
             "modal": {
-                "title": ""
+                "title": "Реакції"
             },
-            "mod_item": "",
-            "react_button_label": ""
+            "mod_item": "Перегляд реакцій",
+            "react_button_label": "Реагувати"
         },
         "admin": {
             "permissions": {
-                "react_posts_label": "",
-                "see_reactions_label": ""
+                "react_posts_label": "Реагувати на дописи",
+                "see_reactions_label": "Подивіться, хто відреагував на дописи"
             },
             "page": {
                 "reactions": {
-                    "title": "",
-                    "reactions": "",
-                    "Helptext": "",
+                    "title": "Нестандартні реакції",
+                    "reactions": "Поточні реакції",
+                    "Helptext": "Введіть назву (ідентифікатор) емодзі або шрифту зі значком та оберіть бажаний тип.",
                     "help": {
-                        "display": "",
-                        "identifier": ""
+                        "display": "Показати",
+                        "identifier": "Ідентифікатор"
                     }
                 },
                 "convert": {
-                    "help": "",
-                    "button": "",
-                    "converting": "",
-                    "converted": ""
+                    "help": "Якщо ви щойно оновили своє розширення, ваші реакції повинні бути перетворені. Якщо ви щойно встановили це розширення, можете сміливо ігнорувати це повідомлення.",
+                    "button": "Конвертувати старі реакції",
+                    "converting": "Ваші реакції зараз конвертуються. Оновіть сайт через декілька хвилин, щоб побачити завершення процесу. (Час конвертації може зайняти деякий час в залежності від загальної кількості ваших реакцій)",
+                    "converted": "Успішно сконвертовано усі {number} вподобайки"
                 },
                 "settings": {
-                    "react_own_posts_help": "",
-                    "react_own_posts_label": "",
-                    "save_settings": "",
+                    "react_own_posts_help": "Якщо увімкнено, користувачі, за наявності дозволу, можуть реагувати на власні повідомлення на форумі. Щоб заборонити користувачам реагувати на власні повідомлення, вимкніть це налаштування.",
+                    "react_own_posts_label": "Користувачі можуть реагувати на власні дописи",
+                    "save_settings": "Зберегти налаштування",
                     "integrations": {
-                        "legend": "",
-                        "warning": "",
+                        "legend": "Інтеграції",
+                        "warning": "Одна і та ж реакція <strong>не може</strong> конвертуватися в вподобайку <strong>і</strong> в голос «За»",
                         "gamification": {
-                            "legend": "",
-                            "upvoteLabel": "",
-                            "upvoteHelptext": "",
-                            "downvoteLabel": "",
-                            "downvoteHelptext": ""
+                            "legend": "Gamification",
+                            "upvoteLabel": "Конвертувати реакції в голос «За»",
+                            "upvoteHelptext": "Введіть ідентифікатор реакції, яку ви бажаєте автоматично перетворити на голос «За»",
+                            "downvoteLabel": "Конвертація, реакцій на голос «Проти»",
+                            "downvoteHelptext": "Введіть ідентифікатор реакції, яку ви бажаєте автоматично перетворити на голос «Проти»"
                         },
                         "likes": {
-                            "legend": "",
-                            "Label": "",
-                            "Helptext": ""
+                            "legend": "Вподобайки",
+                            "Label": "Конвертація реакцій у вподобайки",
+                            "Helptext": "Введіть ідентифікатор реакції, яку ви хочете автоматично перетворити на вподобайку"
                         }
                     }
                 }
