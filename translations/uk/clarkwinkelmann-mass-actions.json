@@ -2,20 +2,20 @@
     "clarkwinkelmann-mass-actions": {
         "forum": {
             "select": {
-                "all": "",
-                "none": "",
-                "read": "",
-                "unread": "",
-                "visible": "",
-                "hidden": "",
-                "locked": "",
-                "unlocked": ""
+                "all": "Усі",
+                "none": "Жоден",
+                "read": "Читати",
+                "unread": "Не читати",
+                "visible": "Не видалено",
+                "hidden": "М'яке видалення",
+                "locked": "Заблоковано",
+                "unlocked": "Розблоковано"
             },
             "actions": {
-                "markAsRead": "",
-                "hide": "",
-                "restore": "",
-                "delete": "",
+                "markAsRead": "Позначити як прочитане",
+                "hide": "Видалити відмічені",
+                "restore": "Відновити відмічені",
+                "delete": "Видалити назавжди відмічені",
                 "deleteConfirmation": "",
                 "lock": "",
                 "unlock": "",
