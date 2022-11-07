@@ -2,64 +2,64 @@
     "fof-follow-tags": {
         "forum": {
             "settings": {
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": "",
-                "notify_new_discussion_tag_label": ""
+                "notify_new_discussion_label": "Хтось створює дискусію в тезі, за яким я стежу",
+                "notify_new_post_label": "Хтось публікує в тезі, за яким я стежу",
+                "notify_new_discussion_tag_label": "Хтось перетегує дискусію в тег, за яким я стежу"
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": "",
+                "follow_tag_button": "Слідкувати",
+                "unfollow_tag_button": "Завершити слідкувати",
                 "following": {
-                    "following_none_label": "",
-                    "following_tags_label": ""
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
                 }
             },
             "badge": {
-                "following_tag_tooltip": "",
-                "lurking_tag_tooltip": ""
+                "following_tag_tooltip": "Відслідковувати",
+                "lurking_tag_tooltip": "Причаїтися"
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "hiding_button": "",
-                "hiding_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "lurking_button": "",
-                "lurking_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": ""
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
+                "following_text": "Отримувати повідомлення про всі нові дискусії.",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
+                "hiding_text": "Приховати обговорення зі сторінки «Всі обговорення».",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
+                "ignoring_text": "Ніколи не повідомляйте.",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
+                "lurking_text": "Отримуйте повідомлення про всі нові обговорення та відповіді.",
+                "not_following_button": "Не дотримуюсь",
+                "not_following_text": "Отримувати сповіщення тільки тоді, коли @згадано.",
+                "notify_alert_tooltip": "Отримувати сповіщення про нові обговорення або повідомлення на форумі",
+                "notify_email_tooltip": "Отримувати електронну пошту, коли з'являються нові обговорення або повідомлення"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": "",
-                "new_discussion_tag_text": ""
+                "new_discussion_text": "{username} розпочав",
+                "new_post_text": "{username} дописав",
+                "new_discussion_tag_text": "{username} змінив тег"
             },
             "user": {
                 "settings": {
-                    "heading": "",
-                    "filter_label": ""
+                    "heading": "Слідкувати за тегами",
+                    "filter_label": "Що показувати за налаштуванням на наступній сторінці"
                 }
             }
         },
         "admin": {
             "settings": {
-                "following_page_default_label": "",
-                "following_none_label": "",
-                "following_tags_label": ""
+                "following_page_default_label": "Фільтрація наступних сторінок за налаштуванням",
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
             }
         },
         "email": {
             "subject": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "[Тег | Нове обговорення] {title}",
+                "newPostInTag": "[Тег | Новий допис] {title}",
+                "newDiscussionTag": "[Тег | Тег змінено] {title}"
             },
             "body": {
-                "newDiscussionInTag": "",
+                "newDiscussionInTag": "Привіт, {recipient_display_name}!\n\n{actor_display_name} розпочав обговорення у тегу, за яким ви стежите: {discussion_title}\n\nЩоб переглянути нове обговорення, перейдіть за наступним посиланням:\n{discussion_url}\n\n---\n\n{post_content}\n",
                 "newPostInTag": "",
                 "newDiscussionTag": ""
             }
