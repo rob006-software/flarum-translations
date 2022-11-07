@@ -2,47 +2,47 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "",
-                "unpopular_button": ""
+                "popular_button": "Популярне",
+                "unpopular_button": "Не популярне"
             }
         }
     },
     "michaelbelgium-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
-                "submit_button": "",
+                "title": "Скинути лічильник переглядів дискусії",
+                "submit_button": "Так, видалити все",
                 "label": ""
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "Скинути перегляди"
             },
             "viewlist": {
-                "title": "",
-                "guest": ""
+                "title": "Останні перегляди",
+                "guest": "Гість"
             },
             "post": {
-                "viewed_by": "",
-                "you": "",
-                "others_link": "",
-                "modal_title_text": ""
+                "viewed_by": "{users} переглянув це.",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "Користувачі, які востаннє переглядали цю дискусію"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": "",
-                "view_number_label": ""
+                "reset_views_label": "Скинути перегляди дискусії",
+                "view_number_label": "Переглянути кількість переглядів дискусії"
             },
             "settings": {
-                "title": "",
-                "track_unique_label": "",
-                "track_guests": "",
-                "abbr_numbers_label": "",
-                "show_filter_label": "",
-                "max_viewcount_label": "",
-                "max_viewcount_text": "",
-                "show_viewlist_label": "",
-                "show_footer_viewlist_label": ""
+                "title": "Налаштування переглядів дискусії",
+                "track_unique_label": "Відстежувати унікальні перегляди",
+                "track_guests": "Відстежувати гостей",
+                "abbr_numbers_label": "Скорочення для кількості переглядів",
+                "show_filter_label": "Включити (не)популярне поле сортування",
+                "max_viewcount_label": "Максимальна кількість елементів у списку перегляду",
+                "max_viewcount_text": "Це стосується списку перегляду нижнього колонтитула і списку перегляду бічної панелі",
+                "show_viewlist_label": "Увімкнути список перегляду",
+                "show_footer_viewlist_label": "Увімкнути список перегляду для нижнього колонтитула"
             }
         }
     }
