@@ -2,24 +2,24 @@
     "fof-forum-statistics-widget": {
         "forum": {
             "navbar": {
-                "widget_title": "",
-                "discussions_count": "",
-                "posts_count": "",
-                "users_count": "",
-                "latest_member": ""
+                "widget_title": "Статистика форуму",
+                "discussions_count": "Дискусії: {discussionsCount}",
+                "posts_count": "Дописи: {postsCount}",
+                "users_count": "Користувачі: {usersCount}",
+                "latest_member": "Останній користувач: "
             }
         },
         "admin": {
             "settings": {
-                "widget_ignore_private_discussions_label": "",
-                "widget_order_label": "",
-                "widget_helper_text": ""
+                "widget_ignore_private_discussions_label": "Ігнорувати приватні обговорення",
+                "widget_order_label": "Сортування віджету",
+                "widget_helper_text": "Відредагуйте цей параметр, щоб відрегулювати позицію цього віджету в розділі sidenav вашого форуму на Flarum. Чим більше число, тим вище цей віджет буде знаходитися в списку елементів бокової панелі (це значення може бути як позитивним, так і негативним)."
             },
             "permissions": {
-                "view_discussions_count_label": "",
-                "view_posts_count_label": "",
-                "view_users_count_label": "",
-                "view_lastest_member_label": ""
+                "view_discussions_count_label": "Перегляд статистики форуму, віджет підрахунку дискусій",
+                "view_posts_count_label": "Перегляд віджету статистики форуму, кількість дописів",
+                "view_users_count_label": "Перегляд віджету статистики форуму, кількість користувачів",
+                "view_lastest_member_label": "Перегляд віджету статистики форуму, останній користувач"
             }
         }
     }
