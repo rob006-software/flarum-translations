@@ -2,15 +2,15 @@
     "datlechin-link-preview": {
         "admin": {
             "settings": {
-                "blacklist_label": "",
-                "blacklist_help": "",
-                "blacklist_placeholder": "",
-                "convert_media_urls_label": "",
-                "convert_media_urls_help": ""
+                "blacklist_label": "Чорний список",
+                "blacklist_help": "Введіть через кому список доменів або URL-адрес, які потрібно виключити з попереднього перегляду посилань.",
+                "blacklist_placeholder": "Наприклад: facebook.com,https://domain.com/path",
+                "convert_media_urls_label": "Конвертація медіа URL-адрес",
+                "convert_media_urls_help": "Якщо цей параметр увімкнено, то всі URL-адреси медіа будуть перетворені на попередній перегляд посилань."
             }
         },
         "forum": {
-            "site_cannot_be_reached": ""
+            "site_cannot_be_reached": "На цей сайт неможливо потрапити."
         }
     }
 }
