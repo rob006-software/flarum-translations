@@ -3,20 +3,20 @@
         "admin": {
             "popup": {
                 "field": {
-                    "app-auth-url": "",
-                    "app-token-url": "",
-                    "app-user-url": "",
-                    "app-id": "",
-                    "app-secret": "",
-                    "app-scopes": "",
-                    "button-title": "",
-                    "button-title-placeholder": "",
-                    "button-icon": ""
+                    "app-auth-url": "URL-адреса авторизації OAuth",
+                    "app-token-url": "URL-адреса токену OAuth",
+                    "app-user-url": "URL-адреса API, що надає дані користувача при аутентифікації",
+                    "app-id": "ID додатку OAuth",
+                    "app-secret": "Секрет додатку OAuth",
+                    "app-scopes": "Сфери застосування OAuth для запиту",
+                    "button-title": "Лейбл для кнопки входу в систему",
+                    "button-title-placeholder": "=> fof-passport.api.default-login-button-title",
+                    "button-icon": "Значок для кнопки входу в систему"
                 }
             }
         },
         "api": {
-            "default-login-button-title": ""
+            "default-login-button-title": "=> core.ref.log_in"
         }
     }
 }
