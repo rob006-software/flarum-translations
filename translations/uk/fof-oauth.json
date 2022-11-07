@@ -4,42 +4,42 @@
             "configure_button_label": "Налаштувати за допомогою FoF OAuth",
             "settings_accessibility_label": "{name} налаштування",
             "settings": {
-                "only_icons_label": "Показувати лише іконки на кнопках входу (альтернативний макет)",
+                "only_icons_label": "Показувати лише значки на кнопках входу (альтернативний макет)",
                 "providers": {
-                    "callback_url_text": "За потреби встановіть URL-адресу зворотного виклику на {url}.",
+                    "callback_url_text": "За потреби встановити URL-адресу зворотного виклику на {url}.",
                     "discord": {
                         "description": "Створіть додаток на сторінці {link}. Додайте URL-адресу переспрямування на вкладці OAuth2.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "facebook": {
-                        "description": "Створіть додаток на сторінці {link}.",
+                        "description": "Створити додаток на сторінці {link}.",
                         "app_id_label": "=> fof-oauth.ref.settings.app_id",
                         "app_secret_label": "=> fof-oauth.ref.settings.app_secret"
                     },
                     "github": {
-                        "description": "Створіть додаток OAuth на сторінці {link}.",
+                        "description": "Створиьи додаток OAuth на сторінці {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "gitlab": {
-                        "description": "Створіть програму на сторінці {link}. Надайте програмі область <code>read_user</code>.",
+                        "description": "Створити додаток на сторінці {link}. Надати додатку область видимості <code>read_user</code>.",
                         "client_id_label": "=> fof-oauth.ref.settings.app_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
                         "domain_label": "Домен GitLab"
                     },
                     "twitter": {
-                        "description": "Створіть додаток на сторінці {link}. Вам потрібно буде встановити URL-адресу умов надання послуг та URL-адресу політики конфіденційності. Не забудьте потім додати запит на дозвіл електронної пошти.",
+                        "description": "Створити додаток на сторінці {link}. Вам потрібно буде встановити URL-адресу умов надання послуг та URL-адресу політики конфіденційності. Не забудьте потім додати запит на дозвіл електронної пошти.",
                         "api_key_label": "API Key",
                         "api_secret_label": "API Secret"
                     },
                     "google": {
-                        "description": "Створіть додаток на сторінці {link}.",
+                        "description": "Створити додаток на сторінці {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "linkedin": {
-                        "description": "Створіть додаток на сторінці {link}.",
+                        "description": "Створити додаток на сторінці {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     }
@@ -67,11 +67,11 @@
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "signup": {
-                "username_help": "Будь ласка, виберіть ім'я користувача, яке буде використовуватися тут"
+                "username_help": "Будь ласка, оберіть ім'я користувача, яке буде використовуватися тут"
             },
             "error": {
-                "bad_verification_code": "Недійсний або прострочений токен підтвердження. Будь ласка спробуйте ще раз.",
-                "invalid_state": "Недійсний стан. Будь ласка спробуйте ще раз."
+                "bad_verification_code": "Недійсний або прострочений токен підтвердження. Будь ласка, спробуйте ще раз.",
+                "invalid_state": "Недійсний стан. Будь ласка, спробуйте ще раз."
             }
         },
         "lib": {
