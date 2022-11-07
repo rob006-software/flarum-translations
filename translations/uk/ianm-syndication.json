@@ -2,48 +2,48 @@
     "ianm-syndication": {
         "forum": {
             "autodiscovery": {
-                "forum_activity": "",
-                "forum_new_discussions": "",
-                "tag_activity": "",
-                "tag_new_discussions": "",
-                "discussion_last_posts": ""
+                "forum_activity": "Активність форуму",
+                "forum_new_discussions": "Нові дискусії на форумі",
+                "tag_activity": "Активність по тегу «{tag}»",
+                "tag_new_discussions": "Дискусії в тегу «{tag}»",
+                "discussion_last_posts": "Ця дискусія"
             },
             "feeds": {
                 "titles": {
-                    "main_title": "",
-                    "main_subtitle": "",
-                    "main_d_title": "",
-                    "main_d_subtitle": "",
-                    "tag_title": "",
-                    "tag_subtitle": "",
-                    "tag_d_title": "",
-                    "tag_d_subtitle": "",
-                    "discussion_title": "",
-                    "discussion_subtitle": ""
+                    "main_title": "{forum_name}",
+                    "main_subtitle": "Останні дописи на форумі",
+                    "main_d_title": "Нові дискусії на {forum_name}",
+                    "main_d_subtitle": "Найновіші дискусії на форумі",
+                    "tag_title": "Активність в тезі «{tag}»",
+                    "tag_subtitle": "Останні дописи в тезі «{tag}»",
+                    "tag_d_title": "Нові дискусії в тезі «{tag}»",
+                    "tag_d_subtitle": "Найновіші дискусії в тезі «{tag}»",
+                    "discussion_title": "{discussion_name}",
+                    "discussion_subtitle": "Останні повідомлення в цій дискусії"
                 }
             },
             "discussion": {
-                "feed_link": ""
+                "feed_link": "Стрічка"
             }
         },
         "admin": {
             "settings": {
                 "full-text": {
-                    "label": "",
-                    "help": ""
+                    "label": "Повний текст",
+                    "help": "Якщо вимкнути, то в стрічках будуть лише уривки дописів і користувачам доведеться заходити на форум, щоб прочитати все. Залиште цю опцію активною, щоб поважати людей, які слідкують за форумом через RSS-агрегатор, якщо такий є."
                 },
                 "html": {
-                    "label": "",
-                    "help": ""
+                    "label": "Форматування стрічок",
+                    "help": "Включіть цю опцію, щоб зберегти HTML у сформованих стрічках. Якщо вимкнено, стрічки будуть у вигляді простого тексту."
                 },
-                "entries-count": "",
+                "entries-count": "Скільки записів в одній стрічці?",
                 "forum-icons": {
-                    "label": "",
-                    "help": ""
+                    "label": "Показати на форумі посилання на стрічку Atom/RSS",
+                    "help": "Показувати значок у всіх обговореннях, тегах та дискусіях, щоб забезпечити легкий доступ до стрічки (стрічок)."
                 },
                 "forum-link-format": {
-                    "label": "",
-                    "help": ""
+                    "label": "Формат стрічки форуму",
+                    "help": "Оберіть, який формат (Atom або RSS) використовувати при відображенні посилань на форумі."
                 }
             }
         }
