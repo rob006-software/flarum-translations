@@ -247,8 +247,8 @@
                 "total_users": "Усього користувачів: {count}"
             },
             "debug-warning": {
-                "detail": "Коли режим <code>debug</code> активний, Flarum перебудовуватиме свої активи <code>JavaScript</code> та <code>CSS</code> за кожним запитом, а також потенційно може призвести до витоку іншої інформації, як-от бази даних секрети, змінні середовища тощо.\n\nНаполегливо рекомендуємо вимкнути <code>debug</code> у вашому файлі <code>config.php</code> на продакшині. Перегляньте <link>документи Flarum</link> для отримання додаткової інформації.\n",
-                "label": "Активний режим відлагодження"
+                "detail": "Коли включено режим <code>debug</code>, Flarum буде перебудовувати свої <code>JavaScript</code> і <code>CSS</code> ресурси при кожному запиті, а також може потенційно витікати інша інформація, така як секрети бази даних, змінні середовища і т.д.\n\nНастійно рекомендується відключити <code>debug</code> у вашому файлі <code>config.php</code> у виробництві. Для отримання додаткової інформації див. <link>Документація Flarum</link>.\n",
+                "label": "Увімкнути режим налагодження"
             }
         },
         "forum": {
@@ -262,7 +262,7 @@
             },
             "change_password": {
                 "send_button": "Надіслати пароль на E-mail",
-                "text": "Натисніть на кнопку нижче для відправки посилання для зміни пароля на ваш E-mail.",
+                "text": "Натисніть на кнопку нижче для відправки посилання для зміни пароля на вашу електронну адресу.",
                 "title": "=> core.ref.change_password"
             },
             "composer": {
@@ -270,31 +270,31 @@
                 "exit_full_screen_tooltip": "Вихід з повноекранного режиму",
                 "full_screen_tooltip": "Розгорнути",
                 "minimize_tooltip": "Згорнути",
-                "preview_tooltip": "Передогляд"
+                "preview_tooltip": "Попередній перегляд"
             },
             "composer_discussion": {
                 "body_placeholder": "Додати допис...",
                 "discard_confirmation": "Ви не створили дискусію. Ви бажаєте скасувати створення дискусії?",
-                "submit_button": "Відправити",
+                "submit_button": "Надіслати",
                 "title": "=> core.ref.start_a_discussion",
                 "title_placeholder": "Назва дискусії"
             },
             "composer_edit": {
                 "discard_confirmation": "Ви не зберегли зміни. Ви бажаєте відмовитися від них?",
                 "edited_message": "Зміни збережено.",
-                "post_link": "Допис #{number} в {discussion}",
+                "post_link": "Допис #{number} у {discussion}",
                 "submit_button": "=> core.ref.save_changes",
                 "view_button": "=> core.ref.view"
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
                 "discard_confirmation": "Ви не опублікували свою відповідь. Ви бажаєте її видалити?",
-                "posted_message": "Ваш відповідь опублікована.",
-                "submit_button": "Відправити",
-                "view_button": "Переглянути"
+                "posted_message": "Ваша відповідь опублікована.",
+                "submit_button": "Надіслати відповідь",
+                "view_button": "=> core.ref.view"
             },
             "discussion_controls": {
-                "cannot_reply_button": "Не можна відповісти",
+                "cannot_reply_button": "Відповідь відсутня",
                 "cannot_reply_text": "У вас немає прав доступу для публікації відповіді в цій дискусії.",
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "Ви впевнені, що бажаєте видалити дискусію?",
@@ -316,16 +316,16 @@
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "Ми відправили вам лист, що містить посилання для відновлення пароля. Перевірте папку зі спамом, якщо Ви не отримали листа протягом деякого часу.",
-                "not_found_message": "Користувача з таким email не знайденно.",
+                "email_sent_message": "Ми відправили вам листа, який містить посилання для відновлення пароля. Перевірте папку зі спамом, якщо Ви не отримали листа протягом деякого часу.",
+                "not_found_message": "Користувача з такою адресою електронної пошти не знайдено.",
                 "submit_button": "Відновити пароль",
                 "text": "Введіть свій email, і ми надішлемо вам посилання для відновлення пароля.",
                 "title": "Забули пароль"
             },
             "header": {
                 "admin_button": "Адміністрування",
-                "back_to_index_tooltip": "На головну",
-                "locale_dropdown_accessible_label": "Змінити мову форуму",
+                "back_to_index_tooltip": "Назад до списку дискусій",
+                "locale_dropdown_accessible_label": "Змінити локаль форуму",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Профіль",
@@ -338,7 +338,7 @@
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
-                "cannot_start_discussion_button": "Не можна створити",
+                "cannot_start_discussion_button": "Неможливо створити дискусію",
                 "mark_all_as_read_confirmation": "Ви впевнені, що бажаєте позначити всі дискусії як прочитані?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
@@ -358,21 +358,21 @@
                 "forgot_password_link": "Забули пароль?",
                 "invalid_login_message": "Ваші дані для входу некоректні.",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "Запам’ятати Мене",
-                "sign_up_text": "Немає облікового запису? <a>Реєстрація</a>",
+                "remember_me_label": "Запам’ятати мене",
+                "sign_up_text": "У вас відсутній облікового запису? <a>Будь ласка, зареєструйтеся</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": "Ім'я користувача або E-mail"
+                "username_or_email_placeholder": "Ім'я користувача або адреса електронної пошти"
             },
             "notifications": {
                 "discussion_renamed_text": "{username} змінив(-ла) назву",
-                "empty_text": "Немає сповіщень",
+                "empty_text": "Сповіщення відсутні",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Позначити як прочитане",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Переглянути сповіщення",
                 "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "Ви впевнені, що хочете видалити всі повідомлення? Ця дія не є зворотною",
+                "delete_all_confirm": "Ви впевнені, що бажаєте видалити всі повідомлення? Ця дія не є зворотною",
                 "delete_all_tooltip": "Видалити всі повідомлення"
             },
             "post": {
@@ -391,7 +391,7 @@
             },
             "post_scrubber": {
                 "now_link": "Зараз",
-                "original_post_link": "Початок",
+                "original_post_link": "Оригінальний допис",
                 "unread_text": "{count} не прочитано",
                 "viewing_text": "{count, plural, one {{index} з {formattedCount} допис} other {{index} of {formattedCount} дописів}}"
             },
@@ -417,7 +417,7 @@
                 "change_password_button": "=> core.ref.change_password",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
-                "notify_by_web_heading": "Web",
+                "notify_by_web_heading": "Веб",
                 "notify_discussion_renamed_label": "Хтось перейменував мою дискусію",
                 "privacy_disclose_online_label": "Показувати онлайн-статус",
                 "privacy_heading": "Конфіденційність",
