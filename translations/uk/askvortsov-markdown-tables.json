@@ -3,19 +3,19 @@
         "lib": {
             "composer": {
                 "table_menu": {
-                    "num_cols": "",
-                    "num_rows": "",
-                    "label_cells": "",
-                    "column": "",
-                    "remove_column": "",
-                    "insert_column_before": "",
-                    "insert_column_after": "",
-                    "row": "",
-                    "remove_row": "",
-                    "insert_row_before": "",
-                    "insert_row_after": ""
+                    "num_cols": "# Колонки",
+                    "num_rows": "# Рядки (включаючи заголовок)",
+                    "label_cells": "# Позначити клітинки?",
+                    "column": "Колонка",
+                    "remove_column": "Видалити колонку",
+                    "insert_column_before": "Вставити колонку перед",
+                    "insert_column_after": "Вставити колонку після",
+                    "row": "Ряд",
+                    "remove_row": "Видалити ряд",
+                    "insert_row_before": "Вставити ряд перед",
+                    "insert_row_after": "Вставити ряд після"
                 },
-                "table_tooltip": ""
+                "table_tooltip": "Таблиця"
             }
         }
     }
