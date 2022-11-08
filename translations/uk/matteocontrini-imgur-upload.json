@@ -2,21 +2,21 @@
     "imgur-upload": {
         "admin": {
             "settings": {
-                "hide-markdown-image": "",
-                "allow-paste": "",
+                "hide-markdown-image": "Приховати кнопку зображення",
+                "allow-paste": "Дозволити завантаження шляхом вставки зображення",
                 "embed-type": {
-                    "title": "",
-                    "preview-with-link": "",
+                    "title": "Тип вставки",
+                    "preview-with-link": "Попередній перегляд (1024px) з посиланням на повнорозмірне зображення",
                     "preview-without-link": "Перегляд без посилання",
-                    "full-with-link": "",
-                    "full-without-link": ""
+                    "full-with-link": "Повнорозмірне зображення з посиланням",
+                    "full-without-link": "Повнорозмірне зображення без посилання"
                 }
             }
         },
         "forum": {
-            "upload": "",
+            "upload": "Натисніть або вставте, щоб завантажити",
             "loading": "Завантаження...",
-            "done": "",
+            "done": "Готово!",
             "error": "Помилка"
         }
     }
