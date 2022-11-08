@@ -2,22 +2,22 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "",
-                "votes_button": ""
+                "hot_button": "Тенденції",
+                "votes_button": "Голосування"
             }
         }
     },
     "fof-gamification": {
         "forum": {
-            "votes": "",
-            "vote_title": "",
+            "votes": "Голоси",
+            "vote_title": "Показати, хто проголосував",
             "nav": {
-                "name": ""
+                "name": "Рейтинги"
             },
             "ranking": {
-                "rank": "",
-                "name": "",
-                "amount": ""
+                "rank": "Місце",
+                "name": "Користувач",
+                "amount": "Бали"
             },
             "notification": {
                 "upvote": "",
@@ -30,8 +30,8 @@
                 "card": {
                     "points": ""
                 },
-                "rank": "",
-                "votes_link": ""
+                "rank": "{rank}",
+                "votes_link": "Голоси"
             },
             "modal": {
                 "downvotes_label": "",
@@ -61,7 +61,7 @@
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "",
+                        "placeholder": "admin, user1, user2",
                         "title": "",
                         "help": ""
                     },
@@ -77,7 +77,7 @@
                 "votes": {
                     "points_title": "",
                     "points_placeholder": "",
-                    "color_holder": "",
+                    "color_holder": "#ffffff",
                     "auto_upvote": "",
                     "rate_limit": "",
                     "discussion_page": "",
@@ -91,7 +91,7 @@
                     "first_post_only": "",
                     "allow_self_votes": ""
                 },
-                "save_settings": "",
+                "save_settings": "Зберегти налаштування",
                 "convert": {
                     "button": "",
                     "help": "",
@@ -103,7 +103,7 @@
                     "ranks": "",
                     "number_title": "",
                     "help": {
-                        "color": "",
+                        "color": "#ffffff",
                         "help": "",
                         "points": "",
                         "name": ""
@@ -113,12 +113,12 @@
                     "title": "",
                     "help": "",
                     "column": {
-                        "group": "",
+                        "group": "Група",
                         "minPoints": "",
                         "maxPoints": ""
                     },
-                    "add": "",
-                    "delete": ""
+                    "add": "Додати нове правило",
+                    "delete": "Видалити правило"
                 }
             }
         },
