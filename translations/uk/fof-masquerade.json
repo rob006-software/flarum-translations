@@ -2,65 +2,65 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "",
-                "profile-completed": ""
+                "profile-completion-required": "Будь ласка, заповніть необхідні поля облікового нижче.\n",
+                "profile-completed": "Обліковий запис заповнено! <a>Перейти на головну сторінку</a>"
             },
             "buttons": {
-                "view-profile": "",
-                "edit-profile": "",
-                "save-profile": ""
+                "view-profile": "Переглянути обліковий запис",
+                "edit-profile": "Редагувати обліковий запис",
+                "save-profile": "Зберегти"
             },
             "fields": {
                 "select": {
-                    "none-optional": "",
-                    "none-required": ""
+                    "none-optional": "Варіант не обрано (за бажанням)",
+                    "none-required": "Будь ласка, оберіть варіант (обов'язково)"
                 },
                 "boolean": {
-                    "yes": "",
-                    "no": ""
+                    "yes": "Так",
+                    "no": "Ні"
                 }
             }
         },
         "admin": {
-            "general-options": "",
+            "general-options": "Загальні налаштування",
             "buttons": {
-                "add-field": "",
-                "edit-field": "",
-                "delete-field": ""
+                "add-field": "Створити поле",
+                "edit-field": "Зберегти зміни",
+                "delete-field": "Видалити поле"
             },
             "permissions": {
-                "edit-others-profile": "",
-                "have-profile": "",
-                "view-profile": ""
+                "edit-others-profile": "Редагувати обліковий запис інших користувачів",
+                "have-profile": "Мають обліковий запис",
+                "view-profile": "Перегляд облікового запису"
             },
             "fields": {
-                "title": "",
-                "add": "",
-                "edit": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "required": "",
-                "on_bio": "",
-                "type": "",
-                "validation": "",
-                "validation-help": "",
-                "prefix": "",
-                "prefix-help": "",
-                "icon": "",
-                "icon-help": "",
-                "force-user-to-completion": "",
-                "options": "",
-                "option-new": "",
-                "option-comma-warning": ""
+                "title": "Поля",
+                "add": "Додати поле {field}",
+                "edit": "Редагувати поле {field}",
+                "name": "Назва поля",
+                "name-help": "Публічно видимий (неперекладний) напис на полі.\n",
+                "description": "Опис поля",
+                "description-help": "Необов'язковий опис для пояснення використання/потреби цього поля.\n",
+                "required": "Поле обов'язкове для заповнення",
+                "on_bio": "Показати відповідь на це поле в біографії користувача",
+                "type": "Тип",
+                "validation": "Варіація",
+                "validation-help": "Перевірте підтримувані правила валідації <a>Laravel</a>. Наприклад: \"string|min:5\" або \"url\".\n",
+                "prefix": "Префікс поля",
+                "prefix-help": "Показує ваш префікс перед значеннями, введеними користувачем для цього поля.\n",
+                "icon": "Значок",
+                "icon-help": "Показує значок перед значеннями, що вводяться користувачем. Список доступних значків можна знайти на сайті <a>FontAwesome</a>. Використовуйте назви піктограм з префіксом \"fa-\", наприклад, \"fas fa-info\".\n",
+                "force-user-to-completion": "Змусити користувача заповнити обліковий запис",
+                "options": "Опції",
+                "option-new": "Нова опція",
+                "option-comma-warning": "Найменування лнйблу не може містити жодної коми (\",\")."
             },
             "types": {
-                "advanced": "",
-                "boolean": "",
-                "email": "",
-                "select": "",
-                "url": ""
+                "advanced": "Просунутий",
+                "boolean": "Чекбокс",
+                "email": "Електронна адреса",
+                "select": "Випадаючий список",
+                "url": "URL"
             }
         }
     }
