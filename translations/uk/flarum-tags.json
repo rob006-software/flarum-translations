@@ -16,67 +16,67 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Шлях",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Створити розділ"
+                "title": "Створити тег"
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
-                "tags_text": "Управління списком розділів, доступних для структурування дискусій."
+                "tags_text": "Керування списком тегів, доступних для структурування дискусій."
             },
             "permissions": {
-                "allow_edit_tags_label": "Дозволити редагування розділів",
-                "bypass_tag_counts_label": "Ігнорувати вимоги до розділів",
-                "restrict_by_tag_heading": "Згідно розділу",
-                "tag_discussions_label": "Редагувати розділи дискусій"
+                "allow_edit_tags_label": "Дозволити редагування тегів",
+                "bypass_tag_counts_label": "Ігнорувати вимоги до тегів",
+                "restrict_by_tag_heading": "Згідно тегу",
+                "tag_discussions_label": "Тег дискусій"
             },
             "tag_settings": {
                 "range_separator_text": " - ",
-                "required_primary_heading": "Кількість основних розділів",
-                "required_primary_text": "Введіть мінімальне і максимальне число основних розділів, в які буде додана дискусія.",
-                "required_secondary_heading": "Кількість додаткових розділів",
-                "required_secondary_text": "Введіть мінімальне і максимальне число додаткових розділів, в які буде додана дискусія.",
-                "title": "Налаштування розділів"
+                "required_primary_heading": "Кількість основних тегів",
+                "required_primary_text": "Введіть мінімальне і максимальне число основних тегів, в які буде додана дискусія.",
+                "required_secondary_heading": "Кількість додаткових тегів",
+                "required_secondary_text": "Введіть мінімальне і максимальне число додаткових тегів, в які буде додана дискусія.",
+                "title": "Налаштування тегів"
             },
             "tags": {
-                "about_tags_text": "Розділи використовуються для структурування дискусій. Основні розділи можуть являти собою дворівневу ієрархію. Додаткові розділи не мають ієрархії та можуть бути корисні для мікро-структурування. Розділи з додаткових в основні можна конвертувати шляхом простого перетягування мишкою.",
-                "create_primary_tag_button": "Створити основний розділ",
-                "create_secondary_tag_button": "Створити додатковий розділ",
-                "primary_heading": "Основні",
-                "secondary_heading": "Додаткові",
+                "about_tags_text": "Теги використовуються для структурування дискусій. Основні теги можуть утворювати дворівневу ієрархію. Додаткові теги не мають ієрархії та можуть бути корисні для мікро-структурування. Теги з додаткових в основні можна конвертувати шляхом простого перетягування мишкою.",
+                "create_primary_tag_button": "Створити основний тег",
+                "create_secondary_tag_button": "Створити додатковий тег",
+                "primary_heading": "Основні теги",
+                "secondary_heading": "Додаткові теги",
                 "settings_heading": "Налаштування"
             }
         },
         "forum": {
             "all_tags": {
-                "meta_description_text": "Всі розділи",
+                "meta_description_text": "Усі теги",
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
                 "bypass_requirements": "Обійти вимоги до міток",
-                "choose_primary_placeholder": "{count, plural, one {Вкажіть основний розділ} other {Вкажіть # основних розділів}}",
-                "choose_secondary_placeholder": "{count, plural, one {Вкажіть більше 1 розділу} other {Вкажіть більше # розділів}}",
-                "edit_title": "Налаштування розділів: {title}",
+                "choose_primary_placeholder": "{count, plural, one {Вкажіть основний тег} other {Вкажіть # основних тегів}}",
+                "choose_secondary_placeholder": "{count, plural, one {Вкажіть більше 1 тегу} other {Вкажіть більше # тегів}}",
+                "edit_title": "Налаштування тегів для {title}",
                 "submit_button": "=> core.ref.okay",
-                "title": "Вкажіть розділи для вашої дискусії"
+                "title": "Вкажіть теги для вашої дискусії"
             },
             "composer_discussion": {
-                "choose_tags_link": "Вибрати розділи"
+                "choose_tags_link": "Обрати теги"
             },
             "discussion_controls": {
-                "edit_tags_button": "Редагувати розділи"
+                "edit_tags_button": "Редагувати теги"
             },
             "header": {
-                "back_to_tags_tooltip": "Повернутися до списку розділів"
+                "back_to_tags_tooltip": "Повернутися до списку тегів"
             },
             "index": {
                 "more_link": "Ще...",
                 "tags_link": "=> flarum-tags.ref.tags",
-                "untagged_link": "Без розділів"
+                "untagged_link": "Без тегів"
             },
             "post_stream": {
                 "added_and_removed_tags_text": "{username} додав(-ла) {tagsAdded} і видалив(-ла) {tagsRemoved}.",
                 "added_tags_text": "{username} додав(-ла) {tagsAdded}.",
                 "removed_tags_text": "{username} видалив(-ла) {tagsRemoved}.",
-                "tags_text": "{count, plural, one {{tags} розділ} other {{tags} розділи}}"
+                "tags_text": "{count, plural, one {{tags} тег} other {{tags} теги}}"
             },
             "tag": {
                 "meta_description_text": "Всі дискусії з тегом {tag}"
@@ -87,7 +87,7 @@
         },
         "ref": {
             "name": "Назва",
-            "tags": "Розділи"
+            "tags": "Теги"
         }
     }
 }
