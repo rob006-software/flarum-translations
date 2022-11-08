@@ -60,19 +60,19 @@
             },
             "body": {
                 "newDiscussionInTag": "Привіт, {recipient_display_name}!\n\n{actor_display_name} розпочав обговорення у тегу, за яким ви стежите: {discussion_title}\n\nЩоб переглянути нове обговорення, перейдіть за наступним посиланням:\n{discussion_url}\n\n---\n\n{post_content}\n",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newPostInTag": "Привіт, {recipient_display_name}!\n\n{actor_display_name} опублікував пост у дискусії по тегу, за яким ви стежите: {discussion_title}\n\nЩоб переглянути нову активність, перейдіть за наступним посиланням:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nВи більше не будете отримувати сповіщення про цю дискусію, поки не будете в курсі подій.\n",
+                "newDiscussionTag": "Привіт, {recipient_display_name}!\n\n{actor_display_name} щойно змінив тег дискусії {author_display_name} на тег, за яким ви стежите {discussion_title}.\n\nЩоб переглянути нову дискусію, перейдіть за наступним посиланням:\n{discussion_url}\n"
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "hiding": "",
-            "ignoring": "",
-            "lurking": "",
+            "follow": "Слідкувати",
+            "following": "Слідкую",
+            "hiding": "Переховування",
+            "ignoring": "Ігнорування",
+            "lurking": "Причаїний",
             "filtering_options": {
-                "none": "",
-                "tags": ""
+                "none": "Відсвідковувані дискусії",
+                "tags": "Відсвідковувані теги"
             }
         }
     }
