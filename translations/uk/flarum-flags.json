@@ -8,7 +8,7 @@
             "settings": {
                 "flag_own_posts_label": "Дозволити користувачам позначати свої длписи",
                 "guidelines_url_label": "Правила спільноти (URL)",
-                "title": "Налаштування"
+                "title": "Налаштування прапорів"
             }
         },
         "forum": {
@@ -28,23 +28,23 @@
                 "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
-                "empty_text": "Немає повідомлень на модерації",
+                "empty_text": "Прапори відсутні",
                 "item_text": "{username} у <em>{discussion}</em>",
                 "title": "=> flarum-flags.ref.flagged_posts",
                 "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
-                "dismiss_flag_button": "Відхилити скаргу",
+                "dismiss_flag_button": "Відхилити прапор",
                 "flagged_by_text": "{username} залишив(-ла) скаргу",
                 "flagged_by_with_reason_text": "{username} залишив(-ла) скаргу. Причина: {reason}"
             },
             "post_controls": {
-                "flag_button": "Скарга"
+                "flag_button": "Прапор"
             }
         },
         "ref": {
-            "flag_post": "Відправити",
-            "flagged_posts": "Допис на модерації"
+            "flag_post": "Прапор допису",
+            "flagged_posts": "Позначені дописи"
         }
     }
 }
