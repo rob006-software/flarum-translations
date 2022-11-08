@@ -30,64 +30,64 @@
             },
             "tag_settings": {
                 "range_separator_text": " إلى ",
-                "required_primary_heading": "",
-                "required_primary_text": "",
-                "required_secondary_heading": "",
-                "required_secondary_text": "",
-                "title": ""
+                "required_primary_heading": "العدد المطلوب من العلامات الأساسية",
+                "required_primary_text": "الحدّ الأدنى والحدّ الأقصى لعدد العلامات الأساسيّة التي يمكن تطبيقها على مناقشة.",
+                "required_secondary_heading": "العدد المطلوب من العلامات الثّانويّة",
+                "required_secondary_text": "الحدّ الأدنى والحدّ الأقصى لعدد العلامات الثانوية التي يمكن تطبيقها على مناقشة.",
+                "title": "إعدادات العلامات"
             },
             "tags": {
-                "about_tags_text": "",
-                "create_primary_tag_button": "",
-                "create_secondary_tag_button": "",
-                "primary_heading": "",
-                "secondary_heading": "",
-                "settings_heading": ""
+                "about_tags_text": "تُستخدَم العلامات لتصنيف المناقشات. العلامات الأساسيّة مثل فئات المنتدى التقليدية: يمكن ترتيبها في تسلسل هرمي من مستويين. لا تحتوي العلامات الثّانوية على تسلسل هرمي أو ترتيب، وهي مفيدة في التّصنيف الجزئيّ.",
+                "create_primary_tag_button": "إنشاء علامة أساسيّة",
+                "create_secondary_tag_button": "إنشاء علامة ثانويّة",
+                "primary_heading": "العلامات الأساسيّة",
+                "secondary_heading": "العلامات الثّانويّة",
+                "settings_heading": "الإعدادات"
             }
         },
         "forum": {
             "all_tags": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "جميع العلامات",
+                "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "edit_title": "",
-                "submit_button": "",
-                "title": ""
+                "bypass_requirements": "السّماح بتجاوز العلامة",
+                "choose_primary_placeholder": "{count, plural, one {تمّ اختيار علامة أساسيّة} other {تمّ اختيار # من العلامات الأساسيّة}}",
+                "choose_secondary_placeholder": "{count, plural, one {اختر علامة أساسية إضافيّة} other {اختر # من العلامات الأساسيّة}}",
+                "edit_title": "تعديل علامات {title}",
+                "submit_button": "=> core.ref.okay",
+                "title": "اختر علامات لمناقشتك"
             },
             "composer_discussion": {
-                "choose_tags_link": ""
+                "choose_tags_link": "اختيار علامة"
             },
             "discussion_controls": {
-                "edit_tags_button": ""
+                "edit_tags_button": "تعديل العلامات"
             },
             "header": {
-                "back_to_tags_tooltip": ""
+                "back_to_tags_tooltip": "العودة إلى قائمة العلامات"
             },
             "index": {
-                "more_link": "",
-                "tags_link": "",
-                "untagged_link": ""
+                "more_link": "المزيد من العلامات ...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "بدون علامة"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "",
-                "added_tags_text": "",
-                "removed_tags_text": "",
-                "tags_text": ""
+                "added_and_removed_tags_text": "تمّت إضافة علامة {tagsAdded} وإزالة علامة {tagsRemoved} من طرف {username}.",
+                "added_tags_text": "تمّت إضافة علامة {tagsAdded} من طرف {username}.",
+                "removed_tags_text": "تمّت إزالة علامة {tagsRemoved} من طرف {username}.",
+                "tags_text": "{count, plural, one {{tags} علامة} other {{tags} علامات}}"
             },
             "tag": {
-                "meta_description_text": ""
+                "meta_description_text": "جميع المناقشات تحت علامة {tag}"
             }
         },
         "lib": {
-            "deleted_tag_text": ""
+            "deleted_tag_text": "تمّ الحدف"
         },
         "ref": {
-            "name": "",
-            "tags": ""
+            "name": "الاسم",
+            "tags": "العلامات"
         }
     }
 }
