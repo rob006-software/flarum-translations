@@ -4,8 +4,6 @@
             "settings": {
                 "title": "GeoIP de FriendsOfFlarum",
                 "service_label": "Service",
-                "service_freegeoip_label": "FreeGeoIP",
-                "service_freegeoip_description": "Utilisez <b>https://freegeoip.app/</b> pour récupérer gratuitement jusqu'à 15 000 codes de pays par heure.",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Utilisez <b>https://ipstack.com</b> pour effectuer gratuitement jusqu'à 10 000 recherches par mois. Les forfaits payants incluent les informations de connexion (FAI, organisation) et le niveau de menace.",
                 "service_ipdata_label": "IPData",
@@ -13,7 +11,9 @@
                 "service_ipapi_label": "IP API",
                 "service_ipapi_description": "Utilisez <b>http://ip-api.com</b> pour effectuer gratuitement jusqu'à 150 recherches par minute. Si vous en faites davantage, votre adresse IP peut être placée sur liste noire, après quoi vous pouvez la retirer à cette adresse : <b>http://ip-api.com/docs/unban</b>.",
                 "access_key_label": "Clé d'accès",
-                "security_label": "Module de sécurité (nécessite une licence Professionnel Plus)"
+                "security_label": "Module de sécurité (nécessite une licence Professionnel Plus)",
+                "service_freegeoip_label": "FreeGeoIP",
+                "service_freegeoip_description": "Utilisez <b>https://freegeoip.app/</b> pour récupérer gratuitement jusqu'à 15 000 codes de pays par heure."
             }
         },
         "forum": {
