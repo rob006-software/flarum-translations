@@ -2,15 +2,15 @@
     "fof-github-sponsors": {
         "admin": {
             "account_types": {
-                "user": "",
-                "organization": ""
+                "user": "Користувач",
+                "organization": "Організація"
             },
             "settings": {
-                "desc": "",
-                "api_token_label": "",
-                "account_type_label": "",
-                "login_label": "",
-                "group_label": ""
+                "desc": "Отримайте ваш токен API на <a>https://github.com/settings/tokens/new</a>. Для цього розширення потрібні області <code>user</code> та <code>read:org</code>.",
+                "api_token_label": "Токен API",
+                "account_type_label": "Тип облікового запису",
+                "login_label": "Логін",
+                "group_label": "Група для призначення"
             }
         }
     }
