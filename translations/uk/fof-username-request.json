@@ -2,59 +2,59 @@
     "fof-username-request": {
         "admin": {
             "permissions": {
-                "moderate_requests": "",
-                "request_nickname": "",
-                "request_username": ""
+                "moderate_requests": "Затвердження запитів на зміну імені користувача/нікнейму",
+                "request_nickname": "Запит на зміну нікнейму",
+                "request_username": "Запит на зміну імені користувача"
             }
         },
         "forum": {
             "nickname_modals": {
                 "action": {
-                    "title": "",
-                    "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "title": "=> fof-username-request.ref.nickname_change_request",
+                    "help_text": "Будь ласка, переконайтеся, що ця зміна нікнейму відповідає правилам форуму.",
+                    "decision_title": "Рішення",
+                    "approval_label": "Затвердити",
+                    "rejected_label": "Відхилити",
+                    "submit_button": "Надіслати",
+                    "reason_title": "Причина відмови",
+                    "success": "Рішення відправлено.",
+                    "name": "{name} звернувся з проханням змінити свій нікнейм на \"{requestedName}\"."
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
-                    "dismiss_button": "",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
-                    "resubmit": ""
+                    "title": "Запит на зміну нікнейму",
+                    "approved": "Ваш запит на зміну нікнейму погоджено",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Ваш нікнейм успішно змінено на {name}",
+                    "rejected": "Ваш запит на зміну нікнейму було відхилено",
+                    "reason": "Причина відмови: <i>\"{reason}\"</i>.",
+                    "resubmit": "У цей час ви можете повторно подати новий запит на зміну псевдоніма з налаштувань вашого облікового запису, якщо ви цього забажаєте."
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
-                    "submit_button": "",
-                    "delete_button": "",
-                    "confirmation_message": "",
-                    "dismiss_button": "",
-                    "deleted": ""
+                    "title": "Подати запит на зміну нікнейму",
+                    "current_request": "Ви вже подавали запит на зміну вашого ніку на \"{name}\". Ви можете або оновити свій запит, або видалити його.",
+                    "submit_button": "Подати запит",
+                    "delete_button": "Видалити запит",
+                    "confirmation_message": "Ваш запит на зміну нікнейму подано та очікує на затвердження.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Запит на зміну нікнейму видалено."
                 }
             },
             "username_modals": {
                 "action": {
-                    "title": "",
-                    "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
+                    "title": "=> fof-username-request.ref.username_change_request",
+                    "help_text": "Будь ласка, переконайтеся, що ця зміна імені користувача відповідає правилам форуму.",
+                    "decision_title": "Рішення",
+                    "approval_label": "Затверджено",
+                    "rejected_label": "Відхилено",
+                    "submit_button": "Надіслати",
+                    "reason_title": "Причина відмови",
+                    "success": "Рішення відправлено.",
                     "name": ""
                 },
                 "results": {
                     "title": "",
                     "approved": "",
-                    "dismiss_button": "",
+                    "dismiss_button": "=> core.ref.okay",
                     "new_name": "",
                     "rejected": "",
                     "reason": "",
@@ -66,7 +66,7 @@
                     "submit_button": "",
                     "delete_button": "",
                     "confirmation_message": "",
-                    "dismiss_button": "",
+                    "dismiss_button": "=> core.ref.okay",
                     "deleted": ""
                 }
             },
@@ -74,8 +74,8 @@
                 "empty_text": "",
                 "nickname_item_text": "",
                 "nickname_exerpt": "",
-                "tooltip": "",
-                "title": "",
+                "tooltip": "=> fof-username-request.ref.name_change_requests",
+                "title": "=> fof-username-request.ref.name_change_requests",
                 "username_item_text": "",
                 "username_exerpt": ""
             },
