@@ -20,40 +20,40 @@
                 "amount": "Бали"
             },
             "notification": {
-                "upvote": "",
-                "downvote": "",
+                "upvote": "{username} проголосував за ваш допис",
+                "downvote": "{username} зняв голос з вашого допсу",
                 "prefrences": {
-                    "vote": ""
+                    "vote": "Коли за один з моїх дописів голосують \"за\" чи \"проти\""
                 }
             },
             "user": {
                 "card": {
-                    "points": ""
+                    "points": "{count, plural, one { {count} бал} other {{count} бали}}"
                 },
                 "rank": "{rank}",
                 "votes_link": "Голоси"
             },
             "modal": {
-                "downvotes_label": "",
-                "title": "",
-                "upvotes_label": ""
+                "downvotes_label": "Проти:",
+                "title": "Хто проголосував",
+                "upvotes_label": "Хто проти:"
             },
-            "mod_item": "",
+            "mod_item": "Переглянути хто проголосував",
             "voters": {
-                "none": "",
-                "label": "",
-                "label_none": ""
+                "none": "Жодного голосу",
+                "label": "Хто проголосував",
+                "label_none": "Жодного голосу"
             },
             "post": {
-                "upvote_button": "",
-                "downvote_button": ""
+                "upvote_button": "Голоси за допис",
+                "downvote_button": "Голоси проти за допис"
             }
         },
         "admin": {
             "permissions": {
-                "vote_label": "",
-                "see_votes_label": "",
-                "see_voters_label": "",
+                "vote_label": "\"За\" та \"Проти\" за дописи",
+                "see_votes_label": "Переглянути кількість голосів",
+                "see_voters_label": "Переглянути хто проголосував",
                 "see_ranking_page": "",
                 "upvote_notifications": "",
                 "downvote_notifications": ""
