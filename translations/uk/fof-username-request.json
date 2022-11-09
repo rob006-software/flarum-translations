@@ -18,7 +18,7 @@
                     "submit_button": "Надіслати",
                     "reason_title": "Причина відмови",
                     "success": "Рішення відправлено.",
-                    "name": "{name} звернувся з проханням змінити свій нікнейм на \"{requestedName}\"."
+                    "name": "{name} звернувся з проханням змінити свій нікнейм на \"{requestedName}\""
                 },
                 "results": {
                     "title": "Запит на зміну нікнейму",
@@ -32,7 +32,7 @@
                 "request": {
                     "title": "Подати запит на зміну нікнейму",
                     "current_request": "Ви вже подавали запит на зміну вашого ніку на \"{name}\". Ви можете або оновити свій запит, або видалити його.",
-                    "submit_button": "Подати запит",
+                    "submit_button": "Надіслати запит",
                     "delete_button": "Видалити запит",
                     "confirmation_message": "Ваш запит на зміну нікнейму подано та очікує на затвердження.",
                     "dismiss_button": "=> core.ref.okay",
@@ -49,31 +49,31 @@
                     "submit_button": "Надіслати",
                     "reason_title": "Причина відмови",
                     "success": "Рішення відправлено.",
-                    "name": ""
+                    "name": "{name} звернувся з проханням змінити своє ім'я користувача на \"{requestedName}\""
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
+                    "title": "Запит на зміну імені користувача",
+                    "approved": "Ваш запит на зміну імені користувача схвалено",
                     "dismiss_button": "=> core.ref.okay",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
-                    "resubmit": ""
+                    "new_name": "Ваше ім'я користувача успішно змінено на: {name}",
+                    "rejected": "Ваш запит на зміну імені користувача відхилено",
+                    "reason": "Причина відмови: <i>\"{reason}\"</i>.",
+                    "resubmit": "Наданий момент ви можете повторно подати новий запит на зміну імені користувача в налаштуваннях вашого облікового запису, якщо ви цього бажаєте."
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
-                    "submit_button": "",
-                    "delete_button": "",
-                    "confirmation_message": "",
+                    "title": "Подати запит на зміну імені користувача",
+                    "current_request": "Ви вже подали запит на зміну імені користувача на \"{name}\". Ви можете або оновити свій запит, або видалити його.",
+                    "submit_button": "Надіслати запит",
+                    "delete_button": "Видалити запит",
+                    "confirmation_message": "Ваш запит на зміну імені користувача було надіслано та очікує на затвердження.",
                     "dismiss_button": "=> core.ref.okay",
-                    "deleted": ""
+                    "deleted": "Запит на ім'я користувача видалено."
                 }
             },
             "pending_requests": {
-                "empty_text": "",
-                "nickname_item_text": "",
-                "nickname_exerpt": "",
+                "empty_text": "Запитів на зміну назви не знайдено.",
+                "nickname_item_text": "{name} попросив змінити нікнейм",
+                "nickname_exerpt": "Запитаний нікнейм: {requestedName}",
                 "tooltip": "=> fof-username-request.ref.name_change_requests",
                 "title": "=> fof-username-request.ref.name_change_requests",
                 "username_item_text": "",
