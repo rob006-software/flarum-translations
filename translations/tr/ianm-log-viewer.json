@@ -2,14 +2,14 @@
     "ianm-log-viewer": {
         "admin": {
             "permissions": {
-                "access_logfile_api": ""
+                "access_logfile_api": "API aracılığıyla günlük dosyası verilerine erişin"
             },
             "viewer": {
-                "available_logs_heading": "",
-                "file_contents_heading": "",
-                "file_size": "",
-                "last_updated": "",
-                "no_file_selected": ""
+                "available_logs_heading": "Kullanılabilir dosyalar",
+                "file_contents_heading": "Dosya içeriği",
+                "file_size": "Boyut (bayt): {size}",
+                "last_updated": "Son güncelleme: {updated}",
+                "no_file_selected": "İçeriğini görüntülemek için bir günlük dosyası seçin."
             }
         }
     }
