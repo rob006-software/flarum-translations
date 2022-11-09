@@ -606,6 +606,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ianm-gravatar`](https://weblate.rob006.net/projects/flarum/ianm-gravatar) | [`ianm/gravatar`](https://github.com/imorland/gravatar) |
 | [`ianm-html-head`](https://weblate.rob006.net/projects/flarum/ianm-html-head) | [`ianm/html-head`](https://github.com/imorland/html-head) |
 | [`ianm-level-ranks`](https://weblate.rob006.net/projects/flarum/ianm-level-ranks) | [`ianm/level-ranks`](https://github.com/imorland/level-ranks) |
+| [`ianm-log-viewer`](https://weblate.rob006.net/projects/flarum/ianm-log-viewer) | [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer) |
 | [`ianm-no-meta-title`](https://weblate.rob006.net/projects/flarum/ianm-no-meta-title) | [`ianm/no-meta-title`](https://github.com/imorland/no-meta-title) |
 | [`ianm-oauth-amazon`](https://weblate.rob006.net/projects/flarum/ianm-oauth-amazon) | [`ianm/oauth-amazon`](https://github.com/imorland/flarum-ext-oauth-amazon) |
 | [`ianm-oauth-line`](https://weblate.rob006.net/projects/flarum/ianm-oauth-line) | [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line) |
