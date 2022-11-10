@@ -26,7 +26,7 @@
                 "none": "Nincsenek fizetések vagy aktív előfizetések"
             },
             "post_stream": {
-                "bounty_added_text": ""
+                "bounty_added_text": "{username} hozzáadott egy {amount} összegű jutalmat."
             },
             "pay-to-view": {
                 "purchase-control": "Fizetés a megtekintéshez",
@@ -54,10 +54,10 @@
                 "description": "Válassza ki a(z) „{subject}” támogatásra szánt összegét vagy adjon meg egyéni összeget."
             },
             "backers-widget": {
-                "backers": "",
-                "label": "{sum} fő támogatta",
+                "backers": "Támogatók",
+                "label": "{sum} {currency} felajánlva",
                 "none": "Még nincsenek támogatók.",
-                "pledged": ""
+                "pledged": "Felajánlva"
             },
             "tag": {
                 "require-payment-label": "Fizetés szükséges"
@@ -102,13 +102,13 @@
                 "select-pta-product-description": "A termék kiválasztása a fizetés után lehetővé teszi a csoport elérését. Az előfizetés lemondásakor a hozzáférés automatikusan vissza lesz vonva. Hozzon létre egy terméket a Stripe vezérlőpulton és másolja a <code>prod_</code> szöveggel kezdődő azonosítót ebbe a mezőben.\n"
             },
             "settings": {
-                "assign-bounty-tag-id": "",
+                "assign-bounty-tag-id": "A témához rendelendő címke az első felajánlott jutalom után",
                 "pk": "Közzétehető (API) kulcs",
                 "sk": "Titkos (API) kulcs",
                 "webhook-secret": "Webhook aláírási titka",
                 "link-access-portal": "Hozzáférési portál hivatkozása a felhasználói legördülő menüben",
                 "link-to-terms": "Fizetési feltételek webcíme",
-                "recount-total-discussion-bounties": ""
+                "recount-total-discussion-bounties": "Az összes téma jutalmának újraszámolása"
             },
             "permission": {
                 "enable-bounties": "Jutalmak engedélyezése"
