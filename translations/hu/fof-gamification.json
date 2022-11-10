@@ -112,7 +112,7 @@
                 },
                 "groups": {
                     "title": "Automatikusan kiosztott csoportok",
-                    "help": "",
+                    "help": "A kiválasztott csoportok szükség szerint automatikusan hozzáadódnak vagy eltávolításra kerülnek, ha egy felhasználó pontszáma megváltozik. Ha megváltoztatta a beállításokat, akkor a meglévő felhasználók frissítéséhez futtassa az <code>php flarum fof:gamification:assign-groups</code> parancsot. Ha törölne egy szabályt és eltávolítaná az összes felhasználót a csoportból, állítsa a minimális és maximális értéket is üres karakterláncra, mentse a beállításokat, és futtassa a parancsot. Végül teljesen törölheti a szabályt a beállításokból.\n",
                     "column": {
                         "group": "Csoport",
                         "minPoints": "Legkevesebb pontszám (ezt is beleértve)",
