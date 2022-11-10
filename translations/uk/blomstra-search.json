@@ -1,13 +1,13 @@
 {
     "blomstra-search": {
         "admin": {
-            "elastic-endpoint": "",
-            "elastic-username": "",
-            "elastic-password": "",
-            "elastic-index": "",
+            "elastic-endpoint": "Elastic Endpoint",
+            "elastic-username": "=> core.ref.username",
+            "elastic-password": "=> core.ref.password",
+            "elastic-index": "Індекс",
             "analyzer": {
-                "label": "",
-                "help": ""
+                "label": "Аналізатор мови",
+                "help": "Аналізатор змушує пошук розуміти стоп-слова і робить специфічні покращення для індексації.\n"
             }
         }
     }
