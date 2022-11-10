@@ -5,13 +5,13 @@
                 "be_followed_label": "Разрешать пользователям подписываться друг на друга"
             },
             "settings": {
-                "button-on-profile-label": "",
-                "stats-on-profile-label": ""
+                "button-on-profile-label": "Показать кнопку Подписка прямо на заголовке профиля пользователя",
+                "stats-on-profile-label": "Показать подписчика и число подписок на профиле пользователя"
             }
         },
         "forum": {
-            "followed": "",
-            "followers": "",
+            "followed": "Подписан",
+            "followers": "Подписчиков",
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
                 "no_following": "Похоже, вы ни на кого не подписаны."
@@ -49,19 +49,19 @@
             "modals": {
                 "select_follow_level": {
                     "title": "Выбрать уровень подписки на {username}",
-                    "description": "",
-                    "follow_levels_heading": "",
-                    "follow_select_label": "",
-                    "no_user_attr_provided_err": "",
-                    "no_user_attr_provided_err_debug": "",
+                    "description": "Выберите, как вы хотите подписаться на <em>{username}</em>.",
+                    "follow_levels_heading": "Уровни подписки",
+                    "follow_select_label": "Тип подписки",
+                    "no_user_attr_provided_err": "Хм, что-то пошло не так при открытии окна диалога.",
+                    "no_user_attr_provided_err_debug": "Атрибут `user` не был передан с диалоговое окно SelectFollowUserLevel при его создании. Окно не может быть отображено.",
                     "save_btn": "Сохранить",
                     "cancel_btn": "Отмена"
                 }
             }
         },
         "email": {
-            "new_discussion_by_user_subject": "",
-            "new_follower_subject": "",
+            "new_discussion_by_user_subject": "[Подписаться на пользователя] {title}",
+            "new_follower_subject": "[Подписка на пользователя] У вас новый подписчик!",
             "new_post_subject": "",
             "new_discussion_by_user_body": "",
             "new_follower_body": "",
