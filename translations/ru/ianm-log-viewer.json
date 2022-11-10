@@ -2,14 +2,14 @@
     "ianm-log-viewer": {
         "admin": {
             "permissions": {
-                "access_logfile_api": ""
+                "access_logfile_api": "Доступ к данным журнала через API"
             },
             "viewer": {
-                "available_logs_heading": "",
-                "file_contents_heading": "",
-                "file_size": "",
-                "last_updated": "",
-                "no_file_selected": ""
+                "available_logs_heading": "Доступные файлы",
+                "file_contents_heading": "Содержимое файла",
+                "file_size": "Размер (байт): {size}",
+                "last_updated": "Последнее обновление: {updated}",
+                "no_file_selected": "Выберите файл журнала для просмотра."
             }
         }
     }
