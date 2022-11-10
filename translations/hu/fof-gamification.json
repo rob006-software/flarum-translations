@@ -62,7 +62,7 @@
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "CDK2020, Ralkage, AngelAvila",
+                        "placeholder": "admin, user1, user2",
                         "title": "Figyelmen kívül hagyott felhasználók",
                         "help": "Ezek a felhasználók nem jelennek meg a rangsor oldalon. A felhasználóneveket vesszővel és egy azt követő szóközzel kell elválasztani."
                     },
@@ -90,7 +90,7 @@
                     "icon_help": "Adja meg bármelyik Font-Awesome ikont, amelyik -up és -down utótaggal rendelkezik. Példák: arrow, thumbs, chevron.",
                     "upvotes_only": "Csak felszavazás engedélyezése",
                     "first_post_only": "A fel- és leszavazás engedélyezése csak a téma első bejegyzésénél",
-                    "allow_self_votes": ""
+                    "allow_self_votes": "A felhasználók szavazhatnak a saját bejegyzésükre"
                 },
                 "save_settings": "Beállítások mentése",
                 "convert": {
@@ -111,7 +111,7 @@
                     }
                 },
                 "groups": {
-                    "title": "",
+                    "title": "Automatikusan kiosztott csoportok",
                     "help": "",
                     "column": {
                         "group": "",
