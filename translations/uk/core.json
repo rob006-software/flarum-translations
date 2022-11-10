@@ -308,8 +308,8 @@
             "discussion_list": {
                 "empty_text": "Складається враження, що тут немає ніяких дискусій.",
                 "load_more_button": "=> core.ref.load_more",
-                "replied_text": "{username} відповів(-ла) {ago}",
-                "started_text": "{username} створив(-ла) {ago}",
+                "replied_text": "Відповідь від {username} {ago}",
+                "started_text": "Створено {username} {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# відповідь} other {# відповіді}}",
                 "unread_replies_a11y_label": "{count, plural, one {# непрочитана відповідь} other {# непрочитані відповіді}}. Позначити {count, plural, one {непрочитану відповідь як прочитану} other {непрочитані відповіді як прочитані}}."
             },
@@ -365,7 +365,7 @@
                 "username_or_email_placeholder": "Ім'я користувача або адреса електронної пошти"
             },
             "notifications": {
-                "discussion_renamed_text": "{username} змінив(-ла) назву",
+                "discussion_renamed_text": "Зміна назви від {username}",
                 "empty_text": "Сповіщення відсутні",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Позначити як прочитане",
@@ -377,7 +377,7 @@
             },
             "post": {
                 "edited_text": "Змінено",
-                "edited_tooltip": "{username} відредагував(-ла) {ago}",
+                "edited_tooltip": "Відредаговано {username} {ago}",
                 "number_tooltip": "Допис #{number}"
             },
             "post_controls": {
@@ -396,8 +396,8 @@
                 "viewing_text": "{count, plural, one {{index} з {formattedCount} допис} other {{index} of {formattedCount} дописів}}"
             },
             "post_stream": {
-                "discussion_renamed_old_tooltip": "Стара назва була: \"{old}\"",
-                "discussion_renamed_text": "{username} змінив(-ла) назву з на {new}.",
+                "discussion_renamed_old_tooltip": "Стара назва була: «{old}»",
+                "discussion_renamed_text": "Зміна назви на «{new}» від {username}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} пізніше"
@@ -407,7 +407,7 @@
                 "title": "Перейменувати дискусію"
             },
             "search": {
-                "all_discussions_button": "Пошук за запитом: \"{query}\"",
+                "all_discussions_button": "Пошук за запитом: «{query}»",
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
@@ -422,7 +422,7 @@
                 "privacy_disclose_online_label": "Показувати онлайн-статус",
                 "privacy_heading": "Конфіденційність",
                 "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": "Отримувати сповіщення \"{description}\" за допомогою {method}"
+                "notification_checkbox_a11y_label_template": "Отримувати сповіщення «{description}» за допомогою {method}"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
@@ -439,8 +439,8 @@
                 "avatar_upload_button": "Завантажити",
                 "avatar_upload_tooltip": "Завантажити новий аватар",
                 "discussions_link": "=> core.ref.discussions",
-                "in_discussion_text": "в \"{discussion}\"",
-                "joined_date_text": "Приєднався: {ago}",
+                "in_discussion_text": "у «{discussion}»",
+                "joined_date_text": "Приєднався {ago}",
                 "online_text": "Онлайн",
                 "posts_empty_text": "Схоже, що тут відсутні дописи.",
                 "posts_link": "=> core.ref.posts",
