@@ -45,11 +45,11 @@
                 "birthdays_heading": ""
             },
             "nav": {
-                "nav_item": ""
+                "nav_item": "Mai születésnapok"
             },
             "page": {
-                "discussion_count": "",
-                "post_count": ""
+                "discussion_count": "{count, plural, one {Téma: #} other {Téma: #}}",
+                "post_count": "{count, plural, one {Bejegyzés: #} other {Bejegyzés: #}}"
             }
         },
         "api": {
