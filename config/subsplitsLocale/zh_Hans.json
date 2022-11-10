@@ -1,7 +1,7 @@
 {
     "announcement": {
         "to-update": "更新命令：",
-        "major-warning": "此版本移除了过时的扩展程序翻译，且已不再支持旧版 Flarum。在更新前，请确保您的 Flarum 核心及扩展程序已升级到最新版本。",
+        "major-warning": "此版本去除了过时的扩展程序翻译，不再支持旧版 Flarum。在更新前，请确保升级 Flarum 核心及扩展程序到最新版本。",
         "version": "版本 {version}"
     },
     "readme": {
@@ -14,15 +14,15 @@
     "changelog": {
         "updated-file": "更新 `{file}`",
         "updated-config-css": "更新 CSS",
-        "cleaned-validation": "删除验证器的过时翻译（支持 Flarum `{version}` 及以上版本）",
+        "cleaned-validation": "去除过时的验证翻译（支持 Flarum `{version}` 及以上版本）",
         "extensions-added": "新增扩展程序翻译",
         "updated-validation": "更新验证器翻译",
-        "extensions-removed": "移除过时扩展程序",
-        "updated-core": "更新 Flarum 核心翻译",
-        "cleaned-core": "删除 Flarum 核心的过时翻译（支持 Flarum `{version}` 及以上版本）",
+        "extensions-removed": "去除过时的扩展程序翻译",
+        "updated-core": "更新核心翻译",
+        "cleaned-core": "去除过时的核心翻译（支持 Flarum `{version}` 及以上版本）",
         "general-changes": "例行更新",
-        "updated-config-js": "更新日期处理器翻译",
-        "extensions-cleaned": "更新或删除扩展程序的过时翻译",
+        "updated-config-js": "更新日期翻译",
+        "extensions-cleaned": "更新或去除过时的扩展程序翻译",
         "all-changes": "全部变化：{link}",
         "extensions-updated": "更新扩展程序翻译"
     }
