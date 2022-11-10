@@ -4,10 +4,10 @@
             "appearance": {
                 "colored_header_label": "Кольорова шапка",
                 "colors_heading": "Кольори",
-                "colors_text": "Оберіть два кольори для стилізації форуму. Перший буде використовуватися для підсвічування, другий для стилізації елементів.",
+                "colors_text": "Оберіть два кольори для стилізації форуму. Перший буде використовуватися для підсвічування, другий для стилізації фонових елементів.",
                 "custom_footer_heading": "Користувацький нижній колонтитул",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
-                "custom_header_heading": "Користувацький заголовок",
+                "custom_header_heading": "Користувацька шапка",
                 "custom_header_text": "=> core.ref.custom_header_text",
                 "custom_styles_heading": "Користувацькі стилі",
                 "custom_styles_text": "Налаштування зовнішнього вигляду форуму за допомогою призначеного для користувача коду LESS/CSS, який перекриває стандартні стильові конструкції Flarum.",
@@ -28,7 +28,7 @@
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Мова за налаштуванням",
-                "description": "Встановіть назву форуму, мову та інші базові налаштування.",
+                "description": "Додайте назву форуму, мову та інші базові налаштування.",
                 "display_name_heading": "Ім'я користувача",
                 "display_name_text": "Оберіть драйвер, який слід використовувати для показу імен користувачів. За налаштуванням показується ім'я користувача.",
                 "forum_description_heading": "Опис форуму",
@@ -37,7 +37,7 @@
                 "home_page_heading": "Головна сторінка",
                 "home_page_text": "Оберіть сторінку, яку користувачі бачитимуть першою, коли зайдуть на ваш форум.",
                 "show_language_selector_label": "Показувати вибір мови",
-                "slug_driver_heading": "Драйвер URL {model}",
+                "slug_driver_heading": "Драйвер URL: {model}",
                 "slug_driver_text": "Оберіть драйвер для використання дружнього URL.",
                 "title": "Налаштування",
                 "welcome_banner_heading": "Банер вітання",
@@ -51,9 +51,9 @@
                 "io_error_message": "Не вдалося записати до файлової системи. Перевірте права доступу до файлової системи та повторіть спробу. Або спробуйте запустити з командного рядка."
             },
             "edit_css": {
-                "customize_text": "Налаштування зовнішнього вигляду форуму за допомогою користувацького коду LESS/CSS, який перекриває <a>стандартні стильові конструкції </a> Flarum.",
+                "customize_text": "Налаштування зовнішнього вигляду форуму за допомогою вашого коду LESS/CSS, який перекриває <a>стандартні стильові конструкції </a> Flarum.",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Редагування CSS"
+                "title": "Редагувати CSS"
             },
             "edit_footer": {
                 "customize_text": "=> core.ref.custom_footer_text",
@@ -68,8 +68,8 @@
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "Назва",
-                "plural_placeholder": "Множина (Приклад: Модератори)",
-                "singular_placeholder": "Однина (Приклад: Модератор)",
+                "plural_placeholder": "Множина (наприклад: Модератори)",
+                "singular_placeholder": "Однина (наприклад: Модератор)",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Створити групу"
             },
@@ -94,8 +94,8 @@
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Налаштування Mailgun",
                 "not_sending_message": "Наразі Flarum не надсилає електронні листи. Це може бути пов’язано з обраним драйвером або помилками в його конфігурації.",
-                "send_test_mail_button": "Відправити",
-                "send_test_mail_heading": "Відправити тестового листа",
+                "send_test_mail_button": "Надіслати",
+                "send_test_mail_heading": "Надіслати тестовий лист",
                 "send_test_mail_success": "Тестовий лист надіслано успішно!",
                 "send_test_mail_text": "Електронний лист із вказаною вище конфігурацією буде відправлено на вашу адресу, {email}.",
                 "smtp_heading": "Налаштування SMTP",
@@ -163,8 +163,8 @@
                 "allow_post_editing_label": "Дозволити редагувати допис",
                 "allow_renaming_label": "Дозволити перейменування",
                 "create_heading": "Створити",
-                "delete_discussions_forever_label": "Видаляти дискусії назавжди",
-                "delete_discussions_label": "Видаляти дискусії",
+                "delete_discussions_forever_label": "Видалити дискусії назавжди",
+                "delete_discussions_label": "Видалити дискусії",
                 "delete_posts_forever_label": "Видалити допис назавжди",
                 "delete_posts_label": "Видалити дописи",
                 "description": "Налаштуйте, хто може бачити та щось робити.",
@@ -191,7 +191,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Необмежено",
-                "allow_some_minutes_button": "{count, plural, one {На # хвилини} other {На # хвилин}}",
+                "allow_some_minutes_button": "{count, plural, one {На # хвилину} other {На # хвилин}}",
                 "allow_ten_minutes_button": "На 10 хвилин",
                 "allow_until_reply_button": "До відповіді",
                 "everyone_button": "Усі",
@@ -222,7 +222,7 @@
                             "visibility_show": "Показати адреси електронної пошти"
                         },
                         "group_badges": {
-                            "no_badges": "Жодної",
+                            "no_badges": "Жодна",
                             "title": "Групи"
                         },
                         "join_time": {
@@ -328,7 +328,7 @@
                 "locale_dropdown_accessible_label": "Змінити локаль форуму",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
-                "profile_button": "Профіль",
+                "profile_button": "Обліковий запис",
                 "search_clear_button_accessible_label": "Очистити пошуковий запит",
                 "search_placeholder": "Пошук по форуму",
                 "search_role_label": "Пошук на форумі",
@@ -448,7 +448,7 @@
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
-                "button": "Елементи управління",
+                "button": "Елементи керування",
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "Ви впевнені, що бажаєте видалити користувача? Дописи користувача НЕ будуть видалені.",
                 "delete_error_message": "Не вдалося видалити користувача <i>{username} ({email})</i>",
@@ -459,7 +459,7 @@
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Повторно відправити підтвердження на електронну пошту",
-                "sent_message": "Відправлено"
+                "sent_message": "Надіслано"
             },
             "welcome_hero": {
                 "hide": "Приховати привітання"
@@ -607,7 +607,7 @@
         },
         "ref": {
             "all_discussions": "Всі дискусії",
-            "change_email": "Змінити email",
+            "change_email": "Змінити адресу електронної пошти",
             "change_password": "Змінити пароль",
             "color": "Колір",
             "confirm_password": "Підтвердити пароль",
@@ -618,13 +618,13 @@
             "custom_header_text": "Додати HTML-код, який показуватиметься угорі сторінки.",
             "custom_header_title": "Редагувати користувацьку шапку",
             "delete": "Видалити",
-            "delete_forever": "Видалити (физічно)",
+            "delete_forever": "Видалити назавжди",
             "discussions": "Дискусії",
             "edit": "Редагувати",
             "edit_user": "Редагувати користувача",
             "email": "Електронна пошта",
             "extensions": "Розширення",
-            "icon": "Іконка",
+            "icon": "Значок",
             "icon_text": "Введіть назву будь-якого класу іконки <a>Font Awesome</a>, <em>включаючи</em> префіксы <code>fas fa-</code>.",
             "load_more": "Завантажити ще",
             "loading": "Завантаження...",
@@ -635,7 +635,7 @@
             "notifications": "Сповіщення",
             "okay": "OK",
             "password": "Пароль",
-            "posts": "Дописів",
+            "posts": "Дописи",
             "previous_page": "Попередня сторінка",
             "remove": "Видалити",
             "rename": "Перейменувати",
