@@ -2,13 +2,13 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "Válasszon egyéni dátumintervallumot, amelyre megjeleníti a statisztikát.\nAz adatok betöltése több percig is eltarthat a sokat használt fórumoknál.\n",
+                "end_date": "Záró dátum (ezt is beleértve)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "A záró dátumnak a kezdési dátum után kell lennie."
                 },
-                "start_date": "",
-                "submit_button": "",
+                "start_date": "Kezdési dátum (ezt is beleértve)",
+                "submit_button": "Erősítse meg a dátumintervallumot",
                 "title": ""
             },
             "statistics": {
