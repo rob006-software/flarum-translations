@@ -76,24 +76,24 @@
                 "nickname_exerpt": "Запитаний нікнейм: {requestedName}",
                 "tooltip": "=> fof-username-request.ref.name_change_requests",
                 "title": "=> fof-username-request.ref.name_change_requests",
-                "username_item_text": "",
-                "username_exerpt": ""
+                "username_item_text": "{name} подав запит на зміну імені користувача",
+                "username_exerpt": "Запитуване ім'я користувача: {requestedName}"
             },
             "settings": {
-                "nickname_request_button": "",
-                "username_request_button": ""
+                "nickname_request_button": "Змінити нікнейм",
+                "username_request_button": "Змінити нікнейм"
             },
             "user": {
-                "name_history_link": ""
+                "name_history_link": "Історія імені"
             }
         },
         "ref": {
-            "name_change_request": "",
-            "name_change_requests": "",
-            "nickname_change_request": "",
-            "nickname_change_requests": "",
-            "username_change_request": "",
-            "username_change_requests": ""
+            "name_change_request": "Запит на зміну імені",
+            "name_change_requests": "Запити на зміну імені",
+            "nickname_change_request": "Запит на зміну нікнейму",
+            "nickname_change_requests": "Запити на зміну нікнейму",
+            "username_change_request": "Запит на зміну імені користувача",
+            "username_change_requests": "Запити на зміну імені користувача"
         }
     }
 }
