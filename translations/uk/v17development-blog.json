@@ -1,28 +1,28 @@
 {
     "v17development-flarum-blog": {
         "admin": {
-            "blog": "",
+            "blog": "Блог",
             "permissions": {
-                "write_articles": "",
-                "auto_approve_posts": "",
-                "approve_posts": ""
+                "write_articles": "Написання та редагування статей для блогу",
+                "auto_approve_posts": "Розміщувати статті без узгодження",
+                "approve_posts": "Може затверджувати статті в блозі"
             },
             "settings": {
-                "no_categories_selected": "",
-                "selected_category_count": "",
-                "select_categories_button": "",
-                "blog_heading": "",
-                "featured_count_label": "",
-                "featured_count_text": "",
-                "allow_comments_label": "",
-                "allow_comments_text": "",
-                "require_review_label": "",
+                "no_categories_selected": "Жодна категорія не обрана",
+                "selected_category_count": "{count, plural, one {Ви обрали # категорію} other {Ви обрали # категорії}}",
+                "select_categories_button": "Обрати категорії блогу",
+                "blog_heading": "Блог",
+                "featured_count_label": "Максимум популярних публікацій",
+                "featured_count_text": "Скільки публікацій повинно відображатися у великій сітці в верхній частині сторінки блогу?",
+                "allow_comments_label": "Дозволити коментарі",
+                "allow_comments_text": "За налаштуванням дозволити коментування записів блогу. Якщо вимкнено, його можна ввімкнути індивідуально для кожного запису в блозі. <b>Примітка:</b> Зміна цього параметра не вплине на вже існуючі записи в блозі.",
+                "require_review_label": "Дописи в блозі потребують перегляду",
                 "require_review_text": "",
                 "hide_on_discussion_list_label": "",
                 "hide_on_discussion_list_text": "",
                 "add_sidebar_nav_label": "",
                 "add_sidebar_nav_text": "",
-                "categories_heading": "",
+                "categories_heading": "Категорії",
                 "hide_tags_in_taglist_label": "",
                 "hide_tags_in_taglist_text": "",
                 "show_tag_hierarchy_label": "",
@@ -39,11 +39,11 @@
             }
         },
         "forum": {
-            "blog": "",
-            "read_more": "",
+            "blog": "Блог",
+            "read_more": "Детальніше",
             "hidden": "",
             "recent_posts": "",
-            "categories": "",
+            "categories": "Категорії",
             "forum_nav": "",
             "return_to_overview": "",
             "no_more_posts": "",
