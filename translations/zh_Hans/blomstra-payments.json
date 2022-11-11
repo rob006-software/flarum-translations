@@ -9,24 +9,24 @@
     "blomstra-payments": {
         "forum": {
             "accept-terms-modal": {
-                "accept_label": "",
-                "continue_button": "",
-                "title": ""
+                "accept_label": "我已阅读并接受<link>付款条款</link>。",
+                "continue_button": "继续付款",
+                "title": "接受条款"
             },
             "stripe": {
-                "interval_once": ""
+                "interval_once": "一次"
             },
             "subscription-card": {
-                "bounty": "",
-                "ptv": "",
-                "pta": "",
+                "bounty": "赏金",
+                "ptv": "付费观看",
+                "pta": "付费访问",
                 "ptb": "",
-                "ptp": "",
-                "cancel-control": "",
-                "none": ""
+                "ptp": "付费发布",
+                "cancel-control": "取消",
+                "none": "无付款或有效订阅"
             },
             "post_stream": {
-                "bounty_added_text": ""
+                "bounty_added_text": "{username} 添加了 {amount} 的赏金。"
             },
             "pay-to-view": {
                 "purchase-control": "付费浏览",
