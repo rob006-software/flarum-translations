@@ -411,7 +411,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => ['Hari-Bonda'],
+		'maintainers' => [],
 	],
 	'th' => [
 		'type' => 'language',
