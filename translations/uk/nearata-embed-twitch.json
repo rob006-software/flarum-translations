@@ -1,29 +1,29 @@
 {
     "nearata-embed-twitch": {
         "admin": {
-            "allowfullscreen": "",
-            "autoplay": "",
+            "allowfullscreen": "Дозволити повноекранний режим",
+            "autoplay": "Автовідтворювання",
             "permissions": {
-                "create_twitch": ""
+                "create_twitch": "Вбудувати плеєр Twitch"
             }
         },
         "forum": {
             "modal": {
                 "label": {
-                    "collection": "",
-                    "channel": "",
-                    "layout": "",
-                    "type": "",
-                    "video": ""
+                    "collection": "ID колекції",
+                    "channel": "Назва каналу",
+                    "layout": "Шар",
+                    "type": "Тип вмісту",
+                    "video": "ID відео"
                 },
-                "save_changes": "",
+                "save_changes": "Зберегти зміни",
                 "options": {
-                    "channel": "",
-                    "video": "",
-                    "collection": ""
+                    "channel": "Канал",
+                    "video": "Відео",
+                    "collection": "Колекція"
                 }
             },
-            "button_tooltip_title": ""
+            "button_tooltip_title": "Вбудувати плеєр Twitch"
         }
     }
 }
