@@ -9,15 +9,15 @@
     "blomstra-payments": {
         "forum": {
             "accept-terms-modal": {
-                "accept_label": "",
-                "continue_button": "",
-                "title": ""
+                "accept_label": "<link>Ödeme koşullarını</link> okudum ve kabul ediyorum.",
+                "continue_button": "Ödemeye Devam Et",
+                "title": "Şartları kabul et"
             },
             "stripe": {
                 "interval_once": "bir kere"
             },
             "subscription-card": {
-                "bounty": "",
+                "bounty": "Ödül",
                 "ptv": "Görüntülemek için ödenen",
                 "pta": "Erişmek için ödenen",
                 "ptb": "Yükseltmek için ödenen",
@@ -26,7 +26,7 @@
                 "none": "Ödeme veya aktif abonelik yok"
             },
             "post_stream": {
-                "bounty_added_text": ""
+                "bounty_added_text": "{username}, {amount} ödül ekledi."
             },
             "pay-to-view": {
                 "purchase-control": "Görüntülemek için Ödeme Yapın",
@@ -54,10 +54,10 @@
                 "description": "\"{subject}\" konusunu desteklemek için tutarınızı seçin veya özel bir miktar seçin."
             },
             "backers-widget": {
-                "backers": "",
+                "backers": "Destekçiler",
                 "label": "{currency} {sum} taahhüt etti",
                 "none": "Henüz destekçi yok.",
-                "pledged": ""
+                "pledged": "Rehin"
             },
             "tag": {
                 "require-payment-label": "Ödeme Gerekiyor"
@@ -102,13 +102,13 @@
                 "select-pta-product-description": "Bu seçenek ile, ödeme yaptıktan sonra gruba erişime izin verilir. Abonelik durumunda erişim, abonelik iptalinin ardından otomatik olarak son bulur. Stripe kontrol panelinizden bir ürün oluşturun ve <code>prod_</code> ile başlayan kimliği bu alana kopyalayın.\n"
             },
             "settings": {
-                "assign-bounty-tag-id": "",
+                "assign-bounty-tag-id": "İlk gönderilen ödülden sonra tartışmaya atanacak etiket",
                 "pk": "Publishable (api) anahtarı",
                 "sk": "Secret (api) anahtarı",
                 "webhook-secret": "Webhook imzalama secret",
                 "link-access-portal": "Kullanıcı açılır menüsünde erişim portalı için bağlantı",
-                "link-to-terms": "",
-                "recount-total-discussion-bounties": ""
+                "link-to-terms": "Ödeme Koşulları URL'si",
+                "recount-total-discussion-bounties": "Toplam tartışma ödüllerini yeniden sayın"
             },
             "permission": {
                 "enable-bounties": "Ödülleri etkinleştir"
