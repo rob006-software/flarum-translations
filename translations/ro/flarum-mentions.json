@@ -1,0 +1,49 @@
+{
+    "flarum-mentions": {
+        "admin": {
+            "settings": {
+                "allow_username_format_label": "Permiteți formatul de menționare a numelui de utilizator (@Username)",
+                "allow_username_format_text": "Formatul curent pentru menționarea utilizatorilor este @\"Display Name\"#ID.\nAceastă configurare permite utilizarea formatului vechi @Username, dar oricum formatul vechi va fi convertit în formatul nou la salvare.\n"
+            }
+        },
+        "forum": {
+            "composer": {
+                "mention_tooltip": "Menționare utilizator sau postare",
+                "reply_to_post_text": "Răspunde la #{number}"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{count, plural, one {{username} a răspuns la postarea Dvs.} other {{username} au răspuns la postarea Dvs.}}",
+                "user_mentioned_text": "{username} v-a menționat"
+            },
+            "post": {
+                "mentioned_by_self_text": "{count, plural, one {{users} a răspuns la această postare.} other {{users} au răspuns la această postare.}}",
+                "mentioned_by_text": "{count, plural, one {{users} a răspuns la această postare.} other {{users} au răspuns la această postare.}}",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Citat",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "Cineva răspune la una din postările mele",
+                "notify_user_mentioned_label": "Cineva mă menționează într-o postare"
+            },
+            "user": {
+                "mentions_link": "Menționări"
+            },
+            "post_mention": {
+                "deleted_text": "[necunoscut]"
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "{replier_display_name} a răspuns la postarea Dvs. în discuția {title}",
+                "body": "Salut, {recipient_display_name}!\n\n{replier_display_name} a răspuns la postarea Dvs. (#{post_number}) în discuția {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "user_mentioned": {
+                "subject": "{mentioner_display_name} v-a menționat în discuția {title}",
+                "body": "Salut, {recipient_display_name}!\n\n{mentioner_display_name} v-a menționat în postarea din discuția {title}.\n\n{url}\n\n---\n\n{content}"
+            }
+        }
+    }
+}
