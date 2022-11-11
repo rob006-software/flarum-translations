@@ -11,24 +11,24 @@
                         "keyfile_upload_help": "创建<a>密钥文件</a>并在此处上传",
                         "keyfile_upload": {
                             "upload_button": "上传密钥文件",
-                            "remove_button": ""
+                            "remove_button": "删除密钥文件"
                         },
-                        "team_id_label": ""
+                        "team_id_label": "团队ID"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_apple_button": ""
+                "with_apple_button": "使用 {provider} 登录"
             },
             "providers": {
-                "apple": ""
+                "apple": "=> fof-oauth.lib.providers.apple"
             }
         },
         "lib": {
             "providers": {
-                "apple": ""
+                "apple": "Apple"
             }
         }
     }
