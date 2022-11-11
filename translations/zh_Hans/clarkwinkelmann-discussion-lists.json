@@ -5,64 +5,64 @@
                 "collapseSeries": ""
             },
             "permissions": {
-                "viewPublic": "",
-                "createPrivate": "",
-                "createPublic": "",
-                "createSeriesFromOwn": "",
-                "createSeriesFromAny": "",
-                "moderate": "",
-                "viewPrivate": ""
+                "viewPublic": "查看公共讨论列表",
+                "createPrivate": "创建私人讨论列表",
+                "createPublic": "创建公共讨论列表",
+                "createSeriesFromOwn": "使用自己的内容创建讨论系列",
+                "createSeriesFromAny": "使用来自任何用户的内容创建讨论系列",
+                "moderate": "修改和删除任何讨论列表",
+                "viewPrivate": "查看所有私人讨论列表"
             }
         },
         "forum": {
             "edit": {
-                "title": "",
-                "name": "",
-                "visibility": "",
+                "title": "编辑列表",
+                "name": "名字",
+                "visibility": "可见",
                 "visibilityOptions": {
-                    "private": "",
-                    "public": "",
-                    "series": ""
+                    "private": "私人列表",
+                    "public": "公开列表",
+                    "series": "公开系列"
                 },
                 "ordering": "",
                 "orderingOptions": {
-                    "manual": "",
-                    "createdAsc": "",
-                    "createdDesc": "",
-                    "addedAsc": "",
-                    "addedDesc": ""
+                    "manual": "手动",
+                    "createdAsc": "讨论创建（从最早到最新）",
+                    "createdDesc": "讨论创建（从最新到最旧）",
+                    "addedAsc": "添加到列表中（从最少到最新）",
+                    "addedDesc": "添加到列表中（从最近到最少）"
                 },
-                "save": "",
-                "delete": "",
-                "deleteConfirmation": ""
+                "save": "保存",
+                "delete": "删除",
+                "deleteConfirmation": "是否确实要永久删除此列表？"
             },
             "discussion": {
-                "add": "",
-                "new": ""
+                "add": "添加到列表",
+                "new": "新列表"
             },
             "profile": {
-                "link": ""
+                "link": "列表"
             },
             "badge": {
-                "private": "",
-                "series": ""
+                "private": "私人列表",
+                "series": "公开系列"
             },
             "series": {
-                "kind": "",
-                "expand": "",
-                "visit": ""
+                "kind": "系列",
+                "expand": "扩大",
+                "visit": "显示所有内容"
             }
         },
         "api": {
-            "manualLimit": "",
-            "seriesAnyAddNotAllowed": "",
-            "seriesAnyConversionNotAllowed": ""
+            "manualLimit": "手动排序的列表不能包含超过 50 个主题",
+            "seriesAnyAddNotAllowed": "您只能将自己的主题添加到系列列表中",
+            "seriesAnyConversionNotAllowed": "无法将列表转换为系列，因为它包含不属于您自己的主题"
         }
     },
     "core": {
         "forum": {
             "index_sort": {
-                "discussionListDefault_button": ""
+                "discussionListDefault_button": "在列表中排序"
             }
         }
     }
