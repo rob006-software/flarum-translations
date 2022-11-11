@@ -1,18 +1,18 @@
 {
     "flarum-ext-newsletter": {
         "admin": {
-            "pubacc": "",
-            "pubaccdesc": "",
-            "listn": "",
-            "listndesc": ""
+            "pubacc": "Ідентифікатор публічного кабінету",
+            "pubaccdesc": "Знайти свій ідентифікатор публічного кабінету можна тут https://elasticemail.com/account#/account/security",
+            "listn": "Назва списку",
+            "listndesc": "Додайте назву вашого списку, створеного на elasticmail"
         },
         "forum": {
-            "subscribe": "",
-            "submitbutton": "",
-            "modalthanku": "",
-            "modaltext": "",
-            "accept": "",
-            "prconsent": ""
+            "subscribe": "Підпишіться на нашу розсилку. Будь ласка, введіть свою електронну адресу та натисніть кнопку «Надіслати».",
+            "submitbutton": "Надіслати",
+            "modalthanku": "Дякую!",
+            "modaltext": "Ви підписані на нашу розсилку новин.",
+            "accept": "Я хочу підписатися",
+            "prconsent": "Згода на конфіденційність"
         }
     }
 }
