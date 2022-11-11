@@ -39,15 +39,15 @@
                 "horizontal-layout-locations": {
                     "standaloneEdit": "Bağımsız Doldurma/Düzenleme Sayfası",
                     "standaloneView": "Bağımsız Görünüm Sayfası",
-                    "profileEdit": "",
-                    "profileView": "",
-                    "signUp": "",
-                    "discussionEdit": "",
-                    "discussionView": "",
-                    "discussionComposer": ""
+                    "profileEdit": "Profil Düzenleme Sayfası",
+                    "profileView": "Profil Görünüm Sayfası",
+                    "signUp": "Kalıcı Kaydolma (yalnızca Formulaire alanları)",
+                    "discussionEdit": "Tartışma Düzenleme Modalı",
+                    "discussionView": "Tartışma Görünümü Kapsayıcı",
+                    "discussionComposer": "Tartışma Bestecisi"
                 },
-                "uniformComposerLayout": "",
-                "uniformComposerLayoutHelp": ""
+                "uniformComposerLayout": "Tek tip tartışma oluşturucu düzeni",
+                "uniformComposerLayoutHelp": "Etiketlerin, başlık ve içerik alanlarının stilini Formulaire ile eşleşecek şekilde değiştirir. Bu düzen daha da fazla yer kaplayacağından, <a>Composer Page</a> uzantısını yükleyip etkinleştirmeniz önerilir.\n"
             }
         },
         "forum": {
@@ -67,7 +67,7 @@
                 },
                 "empty": "Form yok",
                 "load-more": "Daha fazla",
-                "search": "",
+                "search": "Arama formları...",
                 "new": "Yeni form",
                 "edit": "Düzenle",
                 "show": "Göster",
@@ -157,7 +157,7 @@
                     "title": "Genel başlık",
                     "show-on-creation": {
                         "discussion": "Düzenleyicide göster",
-                        "discussionHelp": "",
+                        "discussionHelp": "Flarum tartışma oluşturucu birçok alanı içermeye uygun değildir. Tüm alanların tüm cihazlarda erişilebilir kalmasını sağlamak için <a>Composer Page</a> uzantısını yüklemeli ve etkinleştirmelisiniz.\n",
                         "user": "Kayıt esnasında göster"
                     },
                     "automatic-discussion": "Form gönderiminden otomatik olarak tartışmalar oluşturun",
@@ -300,7 +300,7 @@
                 "guest": "Misafir",
                 "load-more": "Daha fazla yükle",
                 "empty": "Henüz gönderim yok",
-                "search": "",
+                "search": "Gönderimleri ara...",
                 "export": "Dışa Aktar",
                 "columns": {
                     "date": "Tarih",
@@ -373,10 +373,10 @@
             },
             "discussion-composer": {
                 "field": {
-                    "tags": "",
-                    "poll": "",
-                    "title": "",
-                    "content": ""
+                    "tags": "Etiketler",
+                    "poll": "Anket",
+                    "title": "Başlık",
+                    "content": "Mesaj"
                 }
             }
         },
@@ -387,7 +387,7 @@
             "cannot-change-form-type": "Mevcut gönderimleri olan bir formun türünü değiştiremezsiniz",
             "unknown-form": "Tanınmayan form kimliği {id}",
             "unauthorized-form": "{id} form kimliğini doldurmak için gerekli izinlere sahip değilsiniz",
-            "unauthorized-scoped-form": "",
+            "unauthorized-scoped-form": "{id} form kimliğini mevcut etiket kombinasyonuyla dolduramazsınız",
             "file-already-belongs-form": "{id} dosyası başka bir forma ait",
             "file-already-belongs-submission": "{id} dosyası başka bir gönderiye ait",
             "export": {
