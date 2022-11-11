@@ -61,7 +61,7 @@
                 },
                 "resize": {
                     "max_width": "Максимальна ширина/висота зображення",
-                    "title": "",
+                    "title": "Зміна розміру зображення",
                     "toggle": "Зміна розміру зображення"
                 },
                 "client_extension": {
@@ -69,7 +69,7 @@
                 },
                 "watermark": {
                     "file": "Завантажте зображення вашого водяного знаку",
-                    "position": "",
+                    "position": "Положення водяного знаку",
                     "title": "Положення водяного знаку",
                     "toggle": "Зображення водяного знаку"
                 },
@@ -91,26 +91,26 @@
             },
             "templates": {
                 "file": "Шаблон завантаження файлів за налаштуванням",
-                "file_description": "",
-                "image": "",
-                "image_description": "",
-                "image-preview": "",
-                "image-preview_description": "",
-                "markdown-image": "",
-                "markdown-image_description": "",
-                "bbcode-image": "",
+                "file_description": "Показує ім'я файлу та деяку загальну інформацію. Проксі скачування через php, що дозволяє збирати статистику та захищати гарячі посилання.\n",
+                "image": "Шаблон для скачування зображень за налаштуванням",
+                "image_description": "Показує мініатюру зображення і скачування проксі через php. Дозволяє збирати статистику та захист гарячих посилань.\n",
+                "image-preview": "Повний шаблон попереднього перегляду зображень",
+                "image-preview_description": "Показує повне зображення в режимі реального часу. Функція скачування відсутня, статистика не збирається, а захист гарячих посилань ігнорується.\n",
+                "markdown-image": "Марудаун шаблон зображення",
+                "markdown-image_description": "Показує повне зображення в рядку з використанням маркдаун. <strong>У вас має бути встановлений і ввімкнений flarum/markdown, щоб це працювало</strong>. Відсутня функція скачування, не збирається статистика та ігнорується захист гарячих посилань.\n",
+                "bbcode-image": "BBCode шаблон зображення",
                 "bbcode-image_description": "",
-                "just-url": "",
+                "just-url": "Тільки URL",
                 "just-url_description": "",
                 "text-preview": "",
                 "text-preview_description": ""
             },
             "upload_methods": {
-                "aws-s3": "",
-                "imgur": "",
-                "local": "",
-                "ovh-svfs": "",
-                "qiniu": ""
+                "aws-s3": "S3/Compatible",
+                "imgur": "Imgur",
+                "local": "Длкальний",
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": "QiNiu"
             },
             "inspect-mime": {
                 "title": "",
