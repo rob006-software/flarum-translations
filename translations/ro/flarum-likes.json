@@ -1,0 +1,29 @@
+{
+    "flarum-likes": {
+        "admin": {
+            "permissions": {
+                "like_posts_label": "Aprecierea postărilor"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} v-a apreciat postarea"
+            },
+            "post": {
+                "like_link": "Îmi place",
+                "liked_by_self_text": "{users} apreciază.",
+                "liked_by_text": "{users} apreciază.",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Nu-mi mai place",
+                "you_text": "=> core.ref.you"
+            },
+            "post_likes": {
+                "title": "Utilizatori care au apreciat"
+            },
+            "settings": {
+                "notify_post_liked_label": "Cineva a apreciat una din postările mele"
+            }
+        }
+    }
+}
