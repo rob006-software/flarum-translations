@@ -714,6 +714,34 @@
 		</td>
 	</tr>
 	<tr>
+		<td><a href="https://github.com/flarum-lang/romanian">Romanian</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/romanian/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/romanian" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/romanian/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/romanian/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/romanian/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/romanian" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/romanian/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/romanian" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/ro.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/ro/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td><a href="https://github.com/flarum-lang/russian">Russian</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/russian/tags">
