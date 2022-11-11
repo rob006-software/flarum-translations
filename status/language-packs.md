@@ -938,7 +938,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/flarum-lang/telugu">Telugu</a></td>
+		<td>⚠️ <a href="https://github.com/flarum-lang/telugu">Telugu</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/telugu/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/telugu" alt="last release" style="max-width: 160px;" />
