@@ -2,14 +2,14 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "Kies een aangepast datumbereik om statistieken weer te geven. Het laden van gegevens kan \nenkele minuten duren op forums met veel activiteit.\n",
+                "end_date": "Einddatum (inclusief)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "De einddatum moet na de startdatum liggen."
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "Startdatum (inclusief)",
+                "submit_button": "Datumbereik bevestigen",
+                "title": "Kies een aangepast datumbereik"
             },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
@@ -19,17 +19,17 @@
                 "mini_heading": "Forum statistieken",
                 "previous_28_days_label": "Afgelopen 28 dagen",
                 "previous_7_days_label": "Afgelopen 7 dagen",
-                "custom_label": "",
-                "custom_label_specified": "",
+                "custom_label": "Kies aangepast bereik...",
+                "custom_label_specified": "{fromDate} tot {toDate}",
                 "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "Vandaag",
                 "total_label": "Totaal",
                 "users_heading": "=> core.ref.users",
                 "view_full": "Meer statistieken inzien",
-                "no_data": "",
-                "current_period": "",
-                "previous_period": "",
+                "no_data": "Er zijn geen gegevens beschikbaar voor deze periode.",
+                "current_period": "Huidige periode",
+                "previous_period": "Vorige periode",
                 "active_users_text": "{count} actief"
             }
         }
