@@ -317,6 +317,18 @@ return [
 		],
 		'maintainers' => ['ram0ng1'],
 	],
+	'ro' => [
+		'type' => 'language',
+		'language' => 'ro',
+		'repository' => 'git@github.com:flarum-lang/romanian.git',
+		'branch' => 'main',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'vMajor.Minor.Patch',
+		],
+		'maintainers' => ['laurentiu86stan'],
+	],
 	'ru' => [
 		'type' => 'language',
 		'language' => 'ru',

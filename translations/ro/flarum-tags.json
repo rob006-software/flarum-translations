@@ -1,0 +1,93 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Ștergere etichetă",
+                "delete_tag_confirmation": "Sunteți sigur că vreți să ștergeți această etichetă? Discuțiile cărora le-au fost atribuite NU vor fi șterse.",
+                "description_label": "Descriere",
+                "hide_label": "Ascundeți din toate discuțiile",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Identificator",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Etichetă nouă"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Administrați lista de eticheta disponibile pentru organizarea discuțiilor."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "Editarea etichetelor",
+                "bypass_tag_counts_label": "Ignorarea cerințelor de etichetare",
+                "restrict_by_tag_heading": "Restricționare după etichetă",
+                "tag_discussions_label": "Etichetarea discuțiilor"
+            },
+            "tag_settings": {
+                "range_separator_text": " la ",
+                "required_primary_heading": "Numărul necesar de etichete principale",
+                "required_primary_text": "Introduceți numărul minim și maxim de etichete principle care pot fi atribuite unei discuții.",
+                "required_secondary_heading": "Numărul necesar de etichete secundare",
+                "required_secondary_text": "Introduceți numărul minim și maxim de etichete secundare care pot fi atribuite unei discuții.",
+                "title": "Opțiuni Etichete"
+            },
+            "tags": {
+                "about_tags_text": "Etichetele sunt folosite pentru a categoriza discuțiile. Etichetele principale sunt precum categoriile unui forum obișnuit, putând fi aranjate pe două niveluri. Etichetele secundare nu reprezintă categorii sau ordine și au rol de mini-categorii.",
+                "create_primary_tag_button": "Creare etichetă principală",
+                "create_secondary_tag_button": "Creare etichetă secundară",
+                "primary_heading": "Etichete principale",
+                "secondary_heading": "Etichete secundare",
+                "settings_heading": "Setări"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "Toate etichetele",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "bypass_requirements": "Ignorarea cerințelor de etichetare",
+                "choose_primary_placeholder": "{count, plural, one {Selectați o etichetă principlă} other {Selectați # etichete principale}}",
+                "choose_secondary_placeholder": "{count, plural, one {Selectați o etichetă secundară} other {Selectați # etichete secundare}}",
+                "edit_title": "Editare etichete pentru {title}",
+                "submit_button": "=> core.ref.okay",
+                "title": "Selectați etichetele pentru discuție"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "Etichetare"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "Editare etichete"
+            },
+            "header": {
+                "back_to_tags_tooltip": "Înapoi la lista de etichete"
+            },
+            "index": {
+                "more_link": "Mai mult…",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Neetichetat"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username} a adăugat {tagsAdded} și a șters {tagsRemoved}.",
+                "added_tags_text": "{username} a adăugat {tagsAdded}.",
+                "removed_tags_text": "{username} a șters {tagsRemoved}.",
+                "tags_text": "{count, plural, one {eticheta {tags}} other {etichetele {tags}}}"
+            },
+            "tag": {
+                "meta_description_text": "Toate discuțiile cu eticheta {tag}"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "Ștearsă"
+        },
+        "ref": {
+            "name": "Nume",
+            "tags": "Etichete"
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "fof-user-directory": {
+        "forum": {
+            "header": {
+                "back_to_user_directory_tooltip": "Înapoi la lista utilizatorilor"
+            },
+            "search": {
+                "users_heading": "Căutați toți utilizatorii după \"{query}\"",
+                "field": {
+                    "placeholder": "Căutați toți utilizatorii"
+                },
+                "kinds": {
+                    "group": "Grup",
+                    "text": "Text liber"
+                }
+            },
+            "page": {
+                "nav": "Utilizatori",
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "Nu s-a găsit niciun utilizator corespunzător căutării Dvs. ",
+                "filter_button": "Filtrarea grupurilor"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view_user_directory": "Vizualizare lista utilizatorilor"
+            },
+            "settings": {
+                "link": "Adăugare link pe pagina de pornire",
+                "default-sort": "Sortare implicită",
+                "use-small-cards": "Folosire carduri de utilizator mici",
+                "disable-global-search-source": "Nu adăugați lista de utilizatori în câmpul de căutare globală Flarum"
+            }
+        },
+        "lib": {
+            "sort": {
+                "not_specified": "Utilizare implicit Flarum",
+                "default": "Implicit",
+                "username_az": "Nume utilizator (a-z)",
+                "username_za": "Nume utilizator (z-a)",
+                "newest": "Cel mai nou",
+                "oldest": "Cel mai vechi",
+                "most_posts": "Cu mai multe postări",
+                "least_posts": "Cu mai puține postări",
+                "most_discussions": "Cu mai multe discuții",
+                "least_discussions": "Cu mai puține discuții"
+            }
+        }
+    }
+}

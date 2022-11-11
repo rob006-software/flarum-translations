@@ -1,0 +1,50 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Suspendarea utilizatorilor"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "Ați fost suspendat pentru {timeReadable}",
+                "user_suspended_indefinite_text": "Ați fost suspendat pe un termen nedeterminat",
+                "user_unsuspended_text": "Suspendarea Dvs. a fost anulată"
+            },
+            "suspension_info": {
+                "dismiss_button": "Închide",
+                "indefinite": "Este o suspendare pe termen nedeterminat",
+                "limited": "Suspendarea este în vigoare până la {date}",
+                "title": "Acest cont este suspendat"
+            },
+            "suspend_user": {
+                "display_message": "Afișează mesajul pentru utilizator",
+                "indefinitely_label": "Suspendare pe o perioadă nedeterminată",
+                "limited_time_days_text": " zi(le)",
+                "limited_time_label": "Suspendare temporară…",
+                "not_suspended_label": "Nesuspendat",
+                "placeholder_optional": "Opțional",
+                "reason": "Motivul suspendării",
+                "status_heading": "Starea suspendării",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Suspendare {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Suspendat"
+            },
+            "user_controls": {
+                "suspend_button": "Suspendare"
+            }
+        },
+        "email": {
+            "suspended": {
+                "subject": "Contul Dvs. a fost suspendat",
+                "body": "Salut {recipient_display_name},\n\nAți fost suspendat pentru următorul motiv:\n\n---\n{suspension_message}\n---\n"
+            },
+            "unsuspended": {
+                "subject": "Suspendarea contului Dvs. a fost anulată",
+                "body": "Salut {recipient_display_name},\n\nSuspendarea Dvs. a fost anulată. Vă puteți întoarce pe forum accesând următorul link:\n\n{forum_url}"
+            }
+        }
+    }
+}

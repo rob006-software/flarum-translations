@@ -1,0 +1,50 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "Raportarea postărilor",
+                "view_flags_label": "Vizualizarea mesajelor raportate"
+            },
+            "settings": {
+                "flag_own_posts_label": "Permiteți utilizatorilor să semnaleze propriile lor postări",
+                "guidelines_url_label": "Adresa URL a regulilor comunității",
+                "title": "Setări"
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "Vă mulțumim că ați raportat această postare. Moderatorii noștri se vor ocupa de asta în cel mai scurt timp.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Detalii adiționale (opțional)",
+                "reason_inappropriate_label": "Neadecvat",
+                "reason_inappropriate_text": "Această postare este ofensivă, vulgară sau nu respectă <a>regulile comunității</a>.",
+                "reason_missing_message": "Vă rugăm să furnizați câteva detalii pentru moderatorii noștri.",
+                "reason_off_topic_label": "Pe lângă subiect",
+                "reason_off_topic_text": "Această postare nu este relevantă în această discuție și ar trebui mutată altundeva.",
+                "reason_other_label": "Altul (vă rugăm să specificați)",
+                "reason_spam_label": "Spam",
+                "reason_spam_text": "Acest mesaj este un anunț publicitar.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "Nicio raportare",
+                "item_text": "{username} în <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "Anulare raportare",
+                "flagged_by_text": "Raportat de {username}",
+                "flagged_by_with_reason_text": "Raportat de {username} ca {reason}"
+            },
+            "post_controls": {
+                "flag_button": "Raportare"
+            }
+        },
+        "ref": {
+            "flag_post": "Raportare postare",
+            "flagged_posts": "Raportări"
+        }
+    }
+}
