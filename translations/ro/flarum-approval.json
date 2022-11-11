@@ -1,0 +1,25 @@
+{
+    "flarum-approval": {
+        "admin": {
+            "permissions": {
+                "approve_posts_label": "Aprobarea postărilor",
+                "reply_without_approval_label": "Răspunderea fără aprobare",
+                "start_discussions_without_approval_label": "Inițierea discuțiilor fără aprobare"
+            }
+        },
+        "forum": {
+            "badge": {
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post": {
+                "awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post_controls": {
+                "approve_button": "Aprobare"
+            }
+        },
+        "ref": {
+            "awaiting_approval": "Se așteaptă aprobarea"
+        }
+    }
+}
