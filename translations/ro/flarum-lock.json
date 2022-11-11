@@ -1,0 +1,28 @@
+{
+    "flarum-lock": {
+        "admin": {
+            "permissions": {
+                "lock_discussions_label": "Blocarea discuțiilor"
+            }
+        },
+        "forum": {
+            "badge": {
+                "locked_tooltip": "Blocat"
+            },
+            "discussion_controls": {
+                "lock_button": "Blocare",
+                "unlock_button": "Deblocare"
+            },
+            "notifications": {
+                "discussion_locked_text": "{username} a blocat discuția"
+            },
+            "post_stream": {
+                "discussion_locked_text": "{username} a blocat discuția.",
+                "discussion_unlocked_text": "{username} a deblocat discuția."
+            },
+            "settings": {
+                "notify_discussion_locked_label": "Cineva blochează o discuție inițiată de mine"
+            }
+        }
+    }
+}
