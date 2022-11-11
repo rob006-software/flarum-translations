@@ -4,31 +4,31 @@
             "settings": {
                 "providers": {
                     "apple": {
-                        "description": "",
-                        "client_id_label": "",
-                        "key_file_id_label": "",
-                        "keyfile_upload_label": "",
-                        "keyfile_upload_help": "",
+                        "description": "Forumunuzu Apple'a kaydedin {link}",
+                        "client_id_label": "Hizmet Kimliği Tanımlayıcısı (Service ID)",
+                        "key_file_id_label": "Anahtar Dosya Tanımlayıcısı (Key File)",
+                        "keyfile_upload_label": "Anahtar Dosya (Key File)",
+                        "keyfile_upload_help": "Bir <a>anahtar dosyası</a> oluşturun ve buraya yükleyin",
                         "keyfile_upload": {
-                            "upload_button": "",
-                            "remove_button": ""
+                            "upload_button": "Anahtar dosya yükle",
+                            "remove_button": "Anahtar dosyasını kaldır"
                         },
-                        "team_id_label": ""
+                        "team_id_label": "Takım Kimliği (Team ID)"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_apple_button": ""
+                "with_apple_button": "{provider} ile oturum açın"
             },
             "providers": {
-                "apple": ""
+                "apple": "=> fof-oauth.lib.providers.apple"
             }
         },
         "lib": {
             "providers": {
-                "apple": ""
+                "apple": "Apple"
             }
         }
     }
