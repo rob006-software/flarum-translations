@@ -243,6 +243,15 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
+		<td><a href="https://github.com/flarum-lang/romanian">Romanian</a></td>
+		<td><a href="https://github.com/laurentiu86stan">laurentiu86stan</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/ro.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/ro/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td><a href="https://github.com/flarum-lang/russian">Russian</a></td>
 		<td><a href="https://github.com/KitsuneSolar">KitsuneSolar</a>, <a href="https://github.com/z17cx">z17cx</a></td>
 		<td align="right">
