@@ -303,7 +303,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => [/*'Rudeus25'*/],
+		'maintainers' => [],
 	],
 	'pt_BR' => [
 		'type' => 'language',
