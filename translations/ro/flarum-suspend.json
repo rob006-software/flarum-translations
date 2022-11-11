@@ -37,6 +37,7 @@
             }
         },
         "email": {
+            "no_reason_given": "",
             "suspended": {
                 "subject": "Contul Dvs. a fost suspendat",
                 "body": "Salut {recipient_display_name},\n\nAți fost suspendat pentru următorul motiv:\n\n---\n{suspension_message}\n---\n"

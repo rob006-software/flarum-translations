@@ -3,6 +3,10 @@
         "admin": {
             "permissions": {
                 "like_posts_label": "Aprecierea postărilor"
+            },
+            "settings": {
+                "like_own_posts_help": "",
+                "like_own_posts_label": ""
             }
         },
         "forum": {
@@ -23,6 +27,9 @@
             },
             "settings": {
                 "notify_post_liked_label": "Cineva a apreciat una din postările mele"
+            },
+            "user": {
+                "likes_link": ""
             }
         }
     }
