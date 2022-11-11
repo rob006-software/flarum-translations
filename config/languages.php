@@ -77,6 +77,7 @@ return [
 	'pl' => getComponents(),
 	'pt' => getComponents(),
 	'pt_BR' => getComponents(),
+	'ro' => getComponents(),
 	'ru' => getComponents([
 		// translations included in extension
 		'!xelson-chat',
