@@ -1,0 +1,50 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Dezabonare",
+                "unignore_button": "Nu mai ignorați"
+            },
+            "following": {
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
+            },
+            "index": {
+                "following_link": "Abonări"
+            },
+            "notifications": {
+                "new_post_text": "{username} a postat ceva"
+            },
+            "settings": {
+                "follow_after_reply_label": "Urmărire automată a discuțiilor la care răspund",
+                "notify_new_post_label": "Cineva răspunde într-o discuție la care sunt abonat"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Notificați-mi oridecâteori se răspunde.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "Nu mă notificați niciodată. Ascundeți din lista de discuții.",
+                "not_following_button": "Neabonat",
+                "not_following_text": "Notificați-mi doar când sunt @menționat.",
+                "notify_alert_tooltip": "Primiți o notificare atunci când apar postări noi",
+                "notify_email_tooltip": "Primiți un e-mail atunci când apar postări noi"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "[Postare nouă] {title}",
+                "body": "Salut, {recipient_display_name}!\n\n{poster_display_name} a postat în discuția pe care o urmăriți: {title}.\n\nPentru a vizualiza postarea, accesați următorul link:\n{url}\n\n---\n\n{content}\n\n---\n\nNu veți mai primi notificări despre această discuție până când nu veți vizualiza informația dată.\n"
+            }
+        },
+        "ref": {
+            "follow": "Abonare",
+            "following": "Abonat",
+            "ignoring": "Ignorare"
+        }
+    }
+}
