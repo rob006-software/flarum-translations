@@ -24,7 +24,7 @@
                     "remove": "Kaldır"
                 },
                 "default_board_help": "Seçilen varsayılan pano, forumdaki Trello'ya Gönder modunda önceden seçilecek olan pano olacaktır.",
-                "default_board_label": "Varsayılan yönetim kurulu",
+                "default_board_label": "Varsayılan pano",
                 "guest_workspace": "Misafir Çalışma Alanı",
                 "in_trello": "Trello'da",
                 "include_secondary_tags_help": "Devre dışı bırakıldığında, Trello'ya yalnızca birincil tartışma etiketleri gönderilir. Etkinleştirildiğinde, tüm etiketler Trello'ya gönderilir.",
@@ -35,50 +35,50 @@
                     "labels": "Etiket Ayarları"
                 },
                 "mapping": {
-                    "add_new": "",
-                    "mapping_description": "",
-                    "modal_title": "",
-                    "no_mappings_for_board": ""
+                    "add_new": "Eşleme ekle",
+                    "mapping_description": "olacak",
+                    "modal_title": "Yeni etiket eşleme",
+                    "no_mappings_for_board": "Bu pano için atanmış etkin etiket eşlemesi yok"
                 },
-                "mappings_label": "",
-                "member_id_help": "",
-                "member_id_label": "",
-                "no_available_boards_label": "",
-                "no_label_name": "",
-                "no_selected_boards_label": "",
-                "selected_boards_label": "",
-                "save": "",
-                "tag": "",
-                "unmapped_warning_label": "",
-                "unmapped_warning_help": ""
+                "mappings_label": "Trello etiket eşlemelerine forum etiketleri",
+                "member_id_help": "Trello ile organizasyon panolarını getirmek için kullanılacak Trello Üye Kimliğini girin. (https://trello.com/your-trello-handle)",
+                "member_id_label": "Kullanıcı Kimliği",
+                "no_available_boards_label": "Kullanılabilir pano yok",
+                "no_label_name": "Etiket adı yok",
+                "no_selected_boards_label": "Seçili pano yok",
+                "selected_boards_label": "Seçilen panolar",
+                "save": "Değişikleri kaydet",
+                "tag": "Etiket",
+                "unmapped_warning_label": "Eşlenmemiş etiketler hakkında uyar",
+                "unmapped_warning_help": "Forum etiketleri Trello etiketleriyle eşlenmemişse Trello'ya bir tartışma gönderirken bir uyarı görüntüleyin"
             }
         },
         "forum": {
             "badges": {
                 "trello": {
-                    "tooltip": ""
+                    "tooltip": "Trello'da var"
                 }
             },
             "controls": {
-                "send_to_trello_button": "",
-                "view_on_trello_button": ""
+                "send_to_trello_button": "Trello'ya gönder",
+                "view_on_trello_button": "Trello kartını görüntüle"
             },
             "modals": {
                 "fields": {
-                    "board": "",
-                    "lane": "",
-                    "member": "",
-                    "member_selected": ""
+                    "board": "Bir Trello panosu seçin",
+                    "lane": "Bir Trello şeridi seçin",
+                    "member": "Bir Trello üyesi seçin",
+                    "member_selected": "{count, plural, one {# kullanıcı}, other {# kullanıcılar}} seçildi"
                 },
-                "no_available_board_lanes": "",
-                "no_available_board_members": "",
-                "no_available_boards_label": "",
-                "no_mappings_for_board": "",
-                "title": ""
+                "no_available_board_lanes": "Kullanılabilir pano şeridi (lane) yok",
+                "no_available_board_members": "Uygun pano üyesi yok",
+                "no_available_boards_label": "Kullanılabilir pano yok",
+                "no_mappings_for_board": "Mevcut seçili pano, forum etiketleri için ayarlanmış Trello etiket eşlemelerine sahip değil",
+                "title": "Trello'ya gönder"
             }
         },
         "lib": {
-            "original_post": ""
+            "original_post": "Orijinal gönderi"
         }
     }
 }
