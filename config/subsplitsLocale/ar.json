@@ -1,1 +1,29 @@
-{}
+{
+    "announcement": {
+        "to-update": "من أجل التّحديث، يجب تشغيل هذه الأوامر:",
+        "major-warning": "يزيل هذا الإصدار دعم الإصدارات القديمة من فلاروم وبعض الإضافات القديمة. قبل التّحديث، يجب التّأكّد من استخدام أحدث إصدارات من فلاروم والإضافات.",
+        "version": "الإصدار {version}"
+    },
+    "readme": {
+        "status-table": {
+            "header-status": "الحالة",
+            "label-translation-status": "حالة التّرجمة",
+            "header-extension": "الإضافة"
+        }
+    },
+    "changelog": {
+        "updated-file": "تمّ تحديث `{file}`",
+        "updated-config-css": "تم تحديث CSS",
+        "cleaned-validation": "تمت إزالة ترجمات التّحقق التي عفا عليها الزمن (الإصدار `{version}` أو أعلى منه مدعوم)",
+        "extensions-added": "دعم إضافي للإضافات الجديدة",
+        "updated-validation": "ترجمات التّحقق المحدّثة",
+        "extensions-removed": "تمّ إزالة الدّعم للإضافات التي عفا عليها الزّمن",
+        "updated-core": "تم تحديث ترجمات فلاروم الأساسية",
+        "cleaned-core": "تمت إزالة ترجمات Flarum الأساسية القديمة (الإصدار `{version}` أو أعلى منه مدعوم)",
+        "general-changes": "التّغييرات العامّة",
+        "updated-config-js": "تمّ تحديث ترجمات Day.js",
+        "extensions-cleaned": "تحديث و/أو إزالة التّرجمات القديمة للإضافات",
+        "all-changes": "جميع التّغييرات: {link}.",
+        "extensions-updated": "ترجمات محدّثة للإضافات"
+    }
+}
