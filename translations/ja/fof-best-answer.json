@@ -13,26 +13,26 @@
                     "reminders_notice": "リマインダーが正しく動作するためには、Flarumのスケジューラを正しく設定する必要があります。"
                 },
                 "allow_select_own_post": "ユーザーが自分自身の投稿を選ぶことを許可する",
-                "allow_select_own_post_help": "",
-                "enable_all_tags_button": "",
-                "enable_all_tags_reminder_button": "",
+                "allow_select_own_post_help": "OPが自分の投稿をベストアンサーとして選択できるようにする",
+                "enable_all_tags_button": "ベストアンサーを全てのタグで有効にする",
+                "enable_all_tags_reminder_button": "ベストアンサーリマインダーを全てのタグで有効にする",
                 "select_best_answer_reminder_days": "ベストアンサーを選ぶように、X日後に通知する",
                 "select_best_answer_reminder_days_help": "",
                 "schedule_on_one_server": "タスクスケジューラに 'onOneServer()' ディレクティブを使用する (Redis/Memcache が必要です)",
                 "schedule_on_one_server_help": "",
                 "schedule_stop_overnight": "深夜帯はリマインダースケジューラを停止する (サーバー時間で午後9時 ~ 午前8時)",
-                "schedule_stop_overnight_help": "",
+                "schedule_stop_overnight_help": "サーバー時間 午後9時〜午前8時",
                 "schedule_log_output": "スケジューラの出力をログストレージに保存する",
-                "show_filter_label": "",
+                "show_filter_label": "ベストアンサーフィルターのドロップダウンを表示",
                 "show_filter_help": "",
                 "use_alt_ui": "代替レイアウトを使用する (投稿画面のフッターにボタンを置く)",
-                "use_alt_ui_help": "",
-                "documentation": "",
+                "use_alt_ui_help": "投稿フッターでベストアンサーのコントロール",
+                "documentation": "ドキュメント",
                 "introduction": ""
             },
             "edit_tag": {
-                "qna_label": "",
-                "reminders": ""
+                "qna_label": "このタグでベストアンサーを有効にする",
+                "reminders": "このタグのディスカッションにベストアンサーを設定するためのリマインダーを送信する"
             }
         },
         "forum": {
@@ -55,19 +55,19 @@
                 }
             },
             "index": {
-                "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "ask_question": "質問する",
+                "cannot_ask_question": "質問ができません",
+                "solved_link": "解決済みのディスカッション",
+                "unsolved_link": "未解決のディスカッション"
             },
             "filter": {
-                "all_label": "",
-                "solved_label": "",
-                "unsolved_label": "",
-                "accessible_label": ""
+                "all_label": "全ての質問",
+                "solved_label": "解決済みの質問",
+                "unsolved_label": "未解決の質問",
+                "accessible_label": "解決済み/未解決の選択"
             },
             "composer": {
-                "titlePlaceholder": ""
+                "titlePlaceholder": "質問のタイトル"
             },
             "user": {
                 "best-answer-count": ""
