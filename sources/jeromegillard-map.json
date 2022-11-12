@@ -3,15 +3,12 @@
         "admin": {
             "templates": {
                 "map": "Map",
-                "file_description": "Display a map in flarum. The original file will be available to download. The tiles provider and style will be the one defined in the extension's settings. <b>You must have flarum/bbcode installed and enabled for this to work</b>.",
-                "markdown-osm": "Markdown map",
-                "markdown-osm_description": "Markdown map description"
+                "file_description": "Display a map in flarum. The original file will be available to download. The tiles provider and style will be the one defined in the extension's settings. <b>You must have flarum/bbcode installed and enabled for this to work</b>."
             },
             "settings": {
                 "tiles_provider": {
                     "label": "Default tiles layer provider",
-                    "help": "Select the provider of the tiles layer that appears in the background",
-                    "link": "See here"
+                    "help": "Select the provider of the tiles layer that appears in the background"
                 },
                 "zoom": {
                     "label": "Default zoom level",
@@ -26,7 +23,7 @@
                     "help": "Register for free at <a>maptiler.com</a> to get a token. Please respect their <b>copyrights</b>."
                 },
                 "osm": {
-                    "help": "OpenStreetMap tiles are fine for programming your Leaflet map, but read the <a>Tile Usage Policy</a> of OpenStreetMap if you’re going to use the tiles in production."
+                    "help": "OpenStreetMap tiles are fine for programming your map, but read the <a>Tile Usage Policy</a> of OpenStreetMap if you’re going to use the tiles in production."
                 },
                 "mapbox": {
                     "label": "Mapbox key",
@@ -41,7 +38,7 @@
         "forum": {
             "text_editor": {
                 "bbcode_tooltip": "insert a map",
-                "location_placeholder": "WHERE?"
+                "location_placeholder": "WHERE"
             }
         }
     }
