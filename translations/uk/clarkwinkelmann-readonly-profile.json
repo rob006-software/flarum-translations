@@ -2,20 +2,20 @@
     "clarkwinkelmann-readonly-profile": {
         "admin": {
             "settings": {
-                "disableLogin": "",
-                "disableAccessTokens": "",
-                "disableEmailChange": "",
-                "disablePasswordChange": "",
-                "disableAvatarEdit": ""
+                "disableLogin": "Відключити вхід",
+                "disableAccessTokens": "Відключити створення токенів доступу",
+                "disableEmailChange": "Вимкнути зміну електронної пошти",
+                "disablePasswordChange": "Вимкнути зміну та скидання пароля",
+                "disableAvatarEdit": "Вимкнути редагування аватара"
             }
         },
         "api": {
             "blocked_actions": {
-                "login": "",
-                "accessToken": "",
-                "email": "",
-                "password": "",
-                "avatar": ""
+                "login": "Кінцева точка входу відключена",
+                "accessToken": "Відключено створення токенів доступу",
+                "email": "З цієї сторінки неможливо змінити електронну пошту",
+                "password": "Змінити пароль з цієї сторінки неможливо",
+                "avatar": "На цій сторінці редагування аватарки відключено"
             }
         }
     }
