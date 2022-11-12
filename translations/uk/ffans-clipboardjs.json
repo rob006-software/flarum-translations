@@ -2,27 +2,27 @@
     "ffans-clipboardjs": {
         "admin": {
             "settings": {
-                "codeLang_label": "",
-                "copy_enable_label": "",
-                "themes_label": "",
+                "codeLang_label": "Показати мову коду",
+                "copy_enable_label": "Увімкнути копіювання коду",
+                "themes_label": "Стиль кнопки копіювання",
                 "themes": {
-                    "cnblog": "",
-                    "csdn": "",
-                    "default": "",
-                    "github": "",
-                    "jianshu": "",
-                    "lingcoder": "",
-                    "segmentfault": ""
+                    "cnblog": "cnBlogs",
+                    "csdn": "CSDN",
+                    "default": "Clipboardjs за налаштуванням",
+                    "github": "GitHub",
+                    "jianshu": "Jian Shu",
+                    "lingcoder": "LingCoder",
+                    "segmentfault": "SegmentFault"
                 }
             }
         },
         "forum": {
-            "action_copy": "",
-            "action_cut": "",
-            "ok_btn": "",
-            "error_btn": "",
-            "no_support": "",
-            "msg": ""
+            "action_copy": "Коріювати",
+            "action_cut": "Вирізати",
+            "ok_btn": "Скопійовано",
+            "error_btn": "Помилка",
+            "no_support": "Не підтримується",
+            "msg": "Натисніть {actionKey} для {action}"
         }
     }
 }
