@@ -18,9 +18,7 @@
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
-                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
-                "follow_confirmation": "",
-                "unfollow_confirmation": ""
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "settings": {
                 "notify_new_follower_label": "Jemand folgt mir",
@@ -40,9 +38,10 @@
                 "new_unfollower_text": "{username} folgt dir nicht mehr"
             },
             "badge": {
-                "label": "",
-                "label.follow": "Diskussionen folgen",
-                "label.lurk": "Allen folgen"
+                "label": {
+                    "follow": "Diskussionen folgen",
+                    "lurk": "Allen folgen"
+                }
             },
             "filter": {
                 "following": "Gefolgte Benutzer"

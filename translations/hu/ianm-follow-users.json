@@ -18,9 +18,7 @@
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
-                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
-                "follow_confirmation": "",
-                "unfollow_confirmation": ""
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "settings": {
                 "notify_new_follower_label": "Valaki követ engem",
@@ -40,9 +38,10 @@
                 "new_unfollower_text": "{username} megszüntette az Ön követését"
             },
             "badge": {
-                "label": "",
-                "label.follow": "Témák követése",
-                "label.lurk": "Minden követése"
+                "label": {
+                    "follow": "Témák követése",
+                    "lurk": "Minden követése"
+                }
             },
             "filter": {
                 "following": "Követett felhasználók"

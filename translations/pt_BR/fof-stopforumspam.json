@@ -19,10 +19,7 @@
                 "confidence_label": "Confiança",
                 "confidence_help": "A pontuação de confiança é um indicador razoavelmente bom de que o campo sob teste resultaria em atividade indesejada. Defina seu nível de confiança como uma porcentagem. Caso o campo seja igual ou superior a este valor, o cadastro será bloqueado, independente do teste de 'frequência' acima.",
                 "email_hash_label": "Usar endereço de e-mail com hash",
-                "email_hash_help": "Passe um hash MD5 do endereço de e-mail caso não queira passar o próprio endereço de e-mail. Este método ignora todas as listas negras, verificações de desvio de normalização e ofuscação.",
-                "title": "",
-                "frequency_text": "",
-                "frequency_example_text": ""
+                "email_hash_help": "Passe um hash MD5 do endereço de e-mail caso não queira passar o próprio endereço de e-mail. Este método ignora todas as listas negras, verificações de desvio de normalização e ofuscação."
             }
         },
         "forum": {
