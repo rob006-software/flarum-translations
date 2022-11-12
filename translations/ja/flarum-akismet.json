@@ -2,13 +2,13 @@
     "flarum-akismet": {
         "admin": {
             "akismet_settings": {
-                "api_key_label": "API Key",
+                "api_key_label": "APIキー",
                 "title": "Akismet 設定",
-                "delete_blatant_spam_label": "",
-                "delete_blatant_spam_help": ""
+                "delete_blatant_spam_label": "あからさまなスパムを自動削除",
+                "delete_blatant_spam_help": "Akismetがあからさまなスパムと判断した場合、フラグを立てる代わりに、自動的に投稿を削除"
             },
             "permissions": {
-                "bypass_akismet": ""
+                "bypass_akismet": "Akismetをバイパス"
             }
         },
         "forum": {
