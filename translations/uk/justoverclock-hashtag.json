@@ -2,14 +2,14 @@
     "justoverclock-hashtag": {
         "admin": {
             "settings": {
-                "regexlabel": "",
-                "regexdesc": "",
-                "oldregexdesc": ""
+                "regexlabel": "Регулярний вираз хештегу",
+                "regexdesc": "Приклад наведено нижче у вигляді плейсхолдера. Редагуйте тільки якщо ви розумієтесь на регулярних виразах.",
+                "oldregexdesc": "Ось ваш старий регулярний вираз хештега: <code>{regex}</code>"
             }
         },
         "forum": {
             "post": {
-                "hashtag_link_tooltip": ""
+                "hashtag_link_tooltip": "Знайти пости, пов'язані з цим хештегом"
             }
         }
     }
