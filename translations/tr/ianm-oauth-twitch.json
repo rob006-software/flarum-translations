@@ -4,24 +4,24 @@
             "settings": {
                 "providers": {
                     "twitch": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Forumunuzu Twitch'e kaydedin {link}",
+                        "client_id_label": "Client ID",
+                        "client_secret_label": "Client Secret"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_twitch_button": ""
+                "with_twitch_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "twitch": ""
+                "twitch": "=> fof-oauth.lib.providers.twitch"
             }
         },
         "lib": {
             "providers": {
-                "twitch": ""
+                "twitch": "Twitch"
             }
         }
     }
