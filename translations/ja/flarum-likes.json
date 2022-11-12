@@ -2,34 +2,34 @@
     "flarum-likes": {
         "admin": {
             "permissions": {
-                "like_posts_label": "投稿にいいね！を付ける"
+                "like_posts_label": "投稿に「いいね」を付ける"
             },
             "settings": {
-                "like_own_posts_help": "",
-                "like_own_posts_label": ""
+                "like_own_posts_help": "この設定を有効にすると、権限に基づいて、ユーザーは自分の投稿に「いいね」を付けることができます。ユーザーが自分の投稿に「いいね」を付けるのを防ぐには、この設定を無効にしてください。",
+                "like_own_posts_label": "ユーザーは自分の投稿にいいねをつけることができる"
             }
         },
         "forum": {
             "notifications": {
                 "others_text": "=> core.ref.some_others",
-                "post_liked_text": "{username} がいいね！しました"
+                "post_liked_text": "{username} が「いいね」しました"
             },
             "post": {
-                "like_link": "いいね！",
-                "liked_by_self_text": "{users} がいいね！しました",
-                "liked_by_text": "{count, plural, one {{users} がいいね！しました} other {{users} がいいね！しました}}",
+                "like_link": "いいね",
+                "liked_by_self_text": "{users} が「いいね」しました。",
+                "liked_by_text": "{count, plural, one {{users} が「いいね」しました} other {{users} が「いいね」しました}}。",
                 "others_link": "=> core.ref.some_others",
-                "unlike_link": "いいね！を取り消す",
+                "unlike_link": "「いいね」を取り消す",
                 "you_text": "=> core.ref.you"
             },
             "post_likes": {
-                "title": "いいね！を付けたユーザー"
+                "title": "「いいね」を付けたユーザー"
             },
             "settings": {
-                "notify_post_liked_label": "あなたの投稿にいいね！が付いた時"
+                "notify_post_liked_label": "あなたの投稿に「いいね」が付いた時"
             },
             "user": {
-                "likes_link": ""
+                "likes_link": "いいね"
             }
         }
     }
