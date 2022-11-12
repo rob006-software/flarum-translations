@@ -2,24 +2,24 @@
     "datlechin-more-discussions": {
         "admin": {
             "settings": {
-                "block_name_label": "",
-                "block_name_help": "",
-                "discussion_limit_label": "",
-                "discussion_limit_help": "",
-                "filter_by_label": "",
-                "filter_by_help": "",
+                "block_name_label": "Назва блоку",
+                "block_name_help": "Назва блоку (за замовчуванням <code>Останні дискусії</code>)",
+                "discussion_limit_label": "Обмеження дискусії",
+                "discussion_limit_help": "Кількість дискусій (за налаштуванням - 5)",
+                "filter_by_label": "Фільтр",
+                "filter_by_help": "Фільтр дискусій (за налаштуванням - останні)",
                 "filter_dropdown": {
-                    "latest": "",
-                    "top": "",
-                    "newest": "",
-                    "oldest": "",
-                    "hot": "",
-                    "votes": ""
+                    "latest": "Останні",
+                    "top": "Популярні",
+                    "newest": "Нові",
+                    "oldest": "Старі",
+                    "hot": "У тренді (необхідно fof/gamification)",
+                    "votes": "За кількістю голосів (необхідно fof/gamification)"
                 }
             }
         },
         "forum": {
-            "block_default_name": ""
+            "block_default_name": "Останні дискусії"
         }
     }
 }
