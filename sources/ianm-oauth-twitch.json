@@ -1,0 +1,28 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "twitch": {
+                        "description": "Register your forum with the Twitch {link}",
+                        "client_id_label": "Client ID",
+                        "client_secret_label": "Client secret"
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_twitch_button": "=> fof-oauth.forum.log_in.with_button"
+            },
+            "providers": {
+                "twitch": "=> fof-oauth.lib.providers.twitch"
+            }
+        },
+        "lib": {
+            "providers": {
+                "twitch": "Twitch"
+            }
+        }
+    }
+}
