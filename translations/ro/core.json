@@ -2,38 +2,38 @@
     "core": {
         "admin": {
             "appearance": {
-                "colored_header_label": "Antet colorat",
+                "colored_header_label": "Antet Colorat",
                 "colors_heading": "Culori",
                 "colors_text": "Alegeți două culori pentru a decora forumul. Prima va fi folosită pentru evidențiere, iar a doua pentru a decora elementele de fundal.",
-                "custom_footer_heading": "Subsol",
+                "custom_footer_heading": "Subsol Personalizat",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
-                "custom_header_heading": "Antet",
+                "custom_header_heading": "Antet Personalizat",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_heading": "Stiluri personalizate",
-                "custom_styles_text": "Personalizați aspectul forumului Dvs. adăugând propriul cod LESS/CSS, care se va aplica peste <a>stilurile implicite</a> ale Flarum.",
-                "dark_mode_label": "Mod întunecat",
-                "description": "Personalizarea culorilor, logotipurilor și a altor variabile ale forumului Dvs.",
-                "edit_css_button": "Redactare stiluri",
+                "custom_styles_heading": "Stiluri Personalizate",
+                "custom_styles_text": "Personalizați aspectul forumului Dvs. adăugând propriul cod LESS/CSS, care se va aplica peste stilurile implicite ale Flarum.",
+                "dark_mode_label": "Mod Întunecat",
+                "description": "Personalizează culorile forumului dvs., logo-urile și alte variabile.",
+                "edit_css_button": "Editează CSS Personalizat",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Vă rugăm, introduceți un cod hexazecimal de culoare.",
                 "favicon_heading": "Favicon",
-                "favicon_text": "Încărcați o imagine care va fi afișată ca și pictograma paginii în browser.",
+                "favicon_text": "Încărcați o imagine care va fi afișată ca și pictograma paginii în navigator.",
                 "logo_heading": "Logo",
                 "logo_text": "Încărcați o imagine care va înlocui titlul forumului.",
                 "title": "Aspect",
-                "colors_primary_label": "",
-                "colors_secondary_label": ""
+                "colors_primary_label": "Culoarea Principală",
+                "colors_secondary_label": "Culoarea Secundară"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
-                "default_language_heading": "Limbă implicită",
+                "default_language_heading": "Limba Implicită",
                 "description": "Setați titlul, limba și alte setări de bază ale forumului Dvs.",
-                "display_name_heading": "Afișarea numelui de utilizator",
-                "display_name_text": "Selectați driver-ul care trebuie utilizat pentru afișarea numelui utilizatorilor. Implicit, este afișat numele utilizatorului.",
-                "forum_description_heading": "Descrierea forumului",
+                "display_name_heading": "Numele de Afișare",
+                "display_name_text": "Selectați driver-ul care trebuie utilizat pentru numele de afișare al utilizatorului. Implicit, este afișat numele utilizatorului.",
+                "forum_description_heading": "Descrierea Forumului",
                 "forum_description_text": "Introduceți o mică descriere a comunității Dvs. Aceasta va apărea în motoarele de căutare.",
-                "forum_title_heading": "Titlul forumului",
+                "forum_title_heading": "Titlul Forumului",
                 "home_page_heading": "Pagină de start",
                 "home_page_text": "Alegeți care este prima pagină pe care utilizatorii o vor vedea când vor intra pe forum.",
                 "show_language_selector_label": "Afișarea selectorul de limbă",
@@ -48,10 +48,10 @@
                 "description": "Forumul Dvs. dintr-o privire.",
                 "title": "Tablou de bord",
                 "tools_button": "Instrumente",
-                "io_error_message": ""
+                "io_error_message": "Nu s-a putut scrie către fișierul de sistem. Verifică-ți permisiunile fișierului de sistem și încearcă din nou. Sau încearcă să rulezi de pe linia de comandă."
             },
             "edit_css": {
-                "customize_text": "=> core.admin.appearance.custom_styles_text",
+                "customize_text": "Personalizați-vă aspectul forumului dvs. adăugând propriul cod Less/CSS care să fie aplicat peste <a>stilurile implicite</a> ale Flarum.",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.admin.appearance.edit_css_button"
             },
@@ -63,7 +63,7 @@
             "edit_group": {
                 "color_label": "=> core.ref.color",
                 "delete_button": "Ștergere grup",
-                "delete_confirmation": "Sunteți sigur că doriți să ștergeți acest grup? Membrii grupului NU vor fi șterși!",
+                "delete_confirmation": "Sunteți sigur că doriți să ștergeți acest grup? Membrii grupului NU vor fi șterși.",
                 "hide_label": "Ascundere insigna de grup în forum",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
@@ -86,7 +86,7 @@
                 "from_label": "Expeditor",
                 "mail_encryption_label": "Criptare",
                 "mail_host_label": "Host",
-                "mail_mailgun_domain_label": "Domain",
+                "mail_mailgun_domain_label": "Domeniu",
                 "mail_mailgun_region_label": "Regiune",
                 "mail_mailgun_secret_label": "Cheie secretă",
                 "mail_password_label": "=> core.ref.password",
@@ -142,7 +142,7 @@
                     "authentication": "Autentificare",
                     "core": "Configurări de bază",
                     "discussion": "Discuție",
-                    "feature": "Features",
+                    "feature": "Caracteristici",
                     "formatting": "Formatare",
                     "language": "Limbi",
                     "moderation": "Moderare",
@@ -205,7 +205,7 @@
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
-                "upload_button": "Selectare imagine"
+                "upload_button": "Alegeți o Imagine..."
             },
             "users": {
                 "description": "O listă a tuturor utilizatorilor de pe forumul Dvs.",
@@ -247,8 +247,8 @@
                 "total_users": "Numărul total de utilizatori: {count}"
             },
             "debug-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "Atunci când modul <code>debug</code> este activ, Flarum își va reconstruii fișierele <code>JavaScript</code> și <code>CSS</code> la fiecare cerere, și ar putea probabil să scurgă și alte informații, cum ar fi secrete ale bazei de date, variabile de mediu, etc.\n\nEste foarte recomandat să dezactivezi <code>debug</code> din fișierul tău <code>config.php</code> în modul producție. Vezi <link>documentația Flarum</link> pentru mai multe informații.\n",
+                "label": "Modul Debug este activ"
             }
         },
         "forum": {
@@ -311,7 +311,7 @@
                 "replied_text": "{username} a răspuns {ago}",
                 "started_text": "{username} a publicat {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# răspuns} other {# răspunsuri}}",
-                "unread_replies_a11y_label": "{count, plural, one {# răspuns necitit} other {# răspunsuri necitite}}. Marcați {count, plural, one {răspuns ca citit.} other {răspunsuri ca citite.}}"
+                "unread_replies_a11y_label": "{count, plural, one {# răspuns necitit} other {# răspunsuri necitite}}. Marcați ca necitit/e {count, plural, one {răspuns} other {răspunsuri}} ca citit/e."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -330,8 +330,8 @@
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
                 "search_clear_button_accessible_label": "Ștergere căutare",
-                "search_placeholder": "Căutare...",
-                "search_role_label": "Căutare...",
+                "search_placeholder": "Căutare Forum",
+                "search_role_label": "Căutare Forum",
                 "session_dropdown_accessible_label": "Comutare meniul derulant cu opțiunile sesiunii",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -372,8 +372,8 @@
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Vizualizare notificări",
                 "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "delete_all_confirm": "Sigur dorești să ștergi toate notificările? Această acțiune este permanentă",
+                "delete_all_tooltip": "Șterge toate notificările"
             },
             "post": {
                 "edited_text": "Modificat",
@@ -392,7 +392,7 @@
             "post_scrubber": {
                 "now_link": "Acum",
                 "original_post_link": "Postarea originală",
-                "unread_text": "{count, plural, one {{count} necitit} other {{count} necitite}}",
+                "unread_text": "{count} necitit/e",
                 "viewing_text": "{count, plural, one {{formattedCount} postare} other {{index} din {formattedCount} postări}}"
             },
             "post_stream": {
@@ -422,7 +422,7 @@
                 "privacy_disclose_online_label": "Permieți altora să vadă când sunt conectat(ă)",
                 "privacy_heading": "Confidențialitate",
                 "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": ""
+                "notification_checkbox_a11y_label_template": "Primește notificări \"{description}\" via {method}"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
@@ -442,7 +442,7 @@
                 "in_discussion_text": "Titlul discuției: {discussion}",
                 "joined_date_text": "Înregistrat {ago}",
                 "online_text": "Conectat",
-                "posts_empty_text": "Postările lipsesc",
+                "posts_empty_text": "Se pare că nu sunt postări aici.",
                 "posts_link": "Postări",
                 "posts_load_more_button": "=> core.ref.load_more",
                 "settings_link": "=> core.ref.settings"
@@ -492,7 +492,7 @@
             },
             "error": {
                 "dependent_extensions_message": "Extensia {extension} nu poate fi dezactivată până când următoarele extensii dependente sunt activate: {extensions}",
-                "extension_initialiation_failed_message": "",
+                "extension_initialiation_failed_message": "{extension} a eșuat să se inițializeze, verifică consola navigatorului pentru mai multe informații.",
                 "generic_message": "Hopa! Ceva nu a mers. Vă rugăm, încărcați pagina din nou (F5) și încercați din nou.",
                 "missing_dependencies_message": "Extensia {extension} nu poate fi activată până când următoarele dependențe sunt dezactivate: {extensions}",
                 "not_found_message": "Resursa solicitată nu a fost găsită.",
@@ -625,8 +625,8 @@
             "email": "E-mail",
             "extensions": "Extensii",
             "icon": "Iconiță",
-            "icon_text": "Introduceți numele iconiței <a>Font Awesome</a> <em>împreună</em> cu prefixul <code>fas fa-</code>, <code>far fa-</code> sau <code>fab fa-</code>.",
-            "load_more": "Mai multe...",
+            "icon_text": "Introduceți numele iconiței <a>Font Awesome</a> <em>împreună</em> cu prefixul <code>fas fa-</code>.",
+            "load_more": "Încarcă Mai Multe",
             "loading": "Se încarcă...",
             "log_in": "Conectare",
             "log_out": "Deconectare",
