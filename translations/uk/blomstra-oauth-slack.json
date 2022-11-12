@@ -4,24 +4,24 @@
             "settings": {
                 "providers": {
                     "slack": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Зареєструйте свій форум за допомогою Slack {link}",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_slack_button": ""
+                "with_slack_button": "Увійдіть за допомогою Slack"
             },
             "providers": {
-                "slack": ""
+                "slack": "=> fof-oauth.lib.providers.slack"
             }
         },
         "lib": {
             "providers": {
-                "slack": ""
+                "slack": "Slack"
             }
         }
     }
