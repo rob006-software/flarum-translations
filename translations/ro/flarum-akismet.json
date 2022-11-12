@@ -4,11 +4,11 @@
             "akismet_settings": {
                 "api_key_label": "Cheie API",
                 "title": "Setări Akismet",
-                "delete_blatant_spam_label": "",
-                "delete_blatant_spam_help": ""
+                "delete_blatant_spam_label": "Șterge automat spam-ul flagrant",
+                "delete_blatant_spam_help": "Dacă Akismet a determinat că răspunsul este spam flagrant, in locul raportării, șterge postarea automat"
             },
             "permissions": {
-                "bypass_akismet": ""
+                "bypass_akismet": "Ignoră Akismet"
             }
         },
         "forum": {
