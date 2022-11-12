@@ -2,37 +2,37 @@
     "clarkwinkelmann-shadow-ban": {
         "admin": {
             "setting": {
-                "hideUsers": ""
+                "hideUsers": "Приховати тіньові профілі забанених користувачів"
             },
             "permission": {
-                "ban": "",
-                "hide": ""
+                "ban": "Бан тіньових користувачів",
+                "hide": "Тіньові приховування дискусій та дописів"
             }
         },
         "forum": {
             "discussionControl": {
-                "hide": "",
-                "restore": ""
+                "hide": "Тіньові приховування",
+                "restore": "Тіньове відновлення"
             },
             "postControl": {
-                "hide": "",
-                "restore": ""
+                "hide": "Тіньові приховування",
+                "restore": "Тіньові відновлення"
             },
             "userControl": {
-                "ban": ""
+                "ban": "Тіньовий бан"
             },
             "banUser": {
-                "title": "",
-                "until": "",
-                "quick": "",
-                "quickChoiceReset": "",
-                "quickChoiceDays": "",
-                "submit": ""
+                "title": "Призупинити {username}",
+                "until": "До дати (UTC)",
+                "quick": "Швидкий вибір",
+                "quickChoiceReset": "Незабанені",
+                "quickChoiceDays": "{count, plural, one {# день} other {# днів}}",
+                "submit": "Зберегти"
             },
             "badge": {
-                "user": "",
-                "discussion": "",
-                "post": ""
+                "user": "Тіньові бани",
+                "discussion": "Тіньові приховування",
+                "post": "Тіньові приховування"
             }
         }
     }
