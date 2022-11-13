@@ -3,7 +3,9 @@
         "admin": {
             "menu": {
                 "title": "",
-                "description": ""
+                "discussions": "",
+                "users": "",
+                "products": ""
             },
             "page": {
                 "title": "",
@@ -18,6 +20,12 @@
                     "new": "创建分类",
                     "edit": "编辑分类"
                 },
+                "section": {
+                    "info": "",
+                    "filling": "",
+                    "browsing": "",
+                    "scope": ""
+                },
                 "field": {
                     "type": "类别",
                     "typeDescription": "分类信息可以被用在论坛的多个方面。创建分类信息后，类别无法改变。你可以创建同名分类名和英文短语应用到不同的类别。\n",
@@ -28,7 +36,14 @@
                     "icon": "",
                     "iconDescription": "",
                     "showLabel": "分类标签与条目一起显示",
+                    "showLabelDescription": "",
+                    "enableFilter": "",
+                    "enableFilterDescription": "",
                     "showFilter": "在首页显示分类筛选按钮",
+                    "showFilterDescription": "",
+                    "enableFulltextSearch": "",
+                    "enableFulltextSearchDescription": "",
+                    "enableFulltextSearchWarning": "",
                     "allowCustomValues": "允许随机变量名",
                     "customValueValidation": "随机变量名校验",
                     "customValueSlugger": "",

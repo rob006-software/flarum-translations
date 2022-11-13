@@ -3,7 +3,9 @@
         "admin": {
             "menu": {
                 "title": "Taxonómie",
-                "description": ""
+                "discussions": "",
+                "users": "",
+                "products": ""
             },
             "page": {
                 "title": "",
@@ -18,6 +20,12 @@
                     "new": "",
                     "edit": ""
                 },
+                "section": {
+                    "info": "",
+                    "filling": "",
+                    "browsing": "",
+                    "scope": ""
+                },
                 "field": {
                     "type": "",
                     "typeDescription": "",
@@ -28,7 +36,14 @@
                     "icon": "",
                     "iconDescription": "",
                     "showLabel": "",
+                    "showLabelDescription": "",
+                    "enableFilter": "",
+                    "enableFilterDescription": "",
                     "showFilter": "",
+                    "showFilterDescription": "",
+                    "enableFulltextSearch": "",
+                    "enableFulltextSearchDescription": "",
+                    "enableFulltextSearchWarning": "",
                     "allowCustomValues": "",
                     "customValueValidation": "",
                     "customValueSlugger": "",

@@ -3,6 +3,9 @@
         "admin": {
             "menu": {
                 "title": "Taxonomies",
+                "discussions": "",
+                "users": "",
+                "products": "",
                 "description": "Créer des taxonomies et des termes personnalisés."
             },
             "page": {
@@ -18,6 +21,12 @@
                     "new": "Créer une taxonomie",
                     "edit": "Modifier la taxonomie"
                 },
+                "section": {
+                    "info": "",
+                    "filling": "",
+                    "browsing": "",
+                    "scope": ""
+                },
                 "field": {
                     "type": "Type",
                     "typeDescription": "Les taxonomies peuvent être utilisées sur plusieurs ressources de Flarum. Le type ne peut pas être modifié après la création. Vous pouvez utiliser des noms et des identifiants texte uniques identiques pour des taxonomies de types différents.\n",
@@ -28,7 +37,14 @@
                     "icon": "=> flamarkt-taxonomies.ref.field.icon",
                     "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription",
                     "showLabel": "Afficher l'étiquette taxonomique avec le terme",
+                    "showLabelDescription": "",
+                    "enableFilter": "",
+                    "enableFilterDescription": "",
                     "showFilter": "Afficher le filtre sur la page d'accueil",
+                    "showFilterDescription": "",
+                    "enableFulltextSearch": "",
+                    "enableFulltextSearchDescription": "",
+                    "enableFulltextSearchWarning": "",
                     "allowCustomValues": "Autoriser les valeurs personnalisées",
                     "customValueValidation": "Validation des valeurs personnalisées",
                     "customValueSlugger": "Identifiant texte unique pour les valeurs personnalisées",

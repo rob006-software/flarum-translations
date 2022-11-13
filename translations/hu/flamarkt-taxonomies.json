@@ -3,6 +3,9 @@
         "admin": {
             "menu": {
                 "title": "Taxonómiák",
+                "discussions": "",
+                "users": "",
+                "products": "",
                 "description": "Egyéni taxonómiák és kifejezések létrehozása."
             },
             "page": {
@@ -18,6 +21,12 @@
                     "new": "Taxonómia létrehozása",
                     "edit": "Taxonómia szerkesztése"
                 },
+                "section": {
+                    "info": "",
+                    "filling": "",
+                    "browsing": "",
+                    "scope": ""
+                },
                 "field": {
                     "type": "Típus",
                     "typeDescription": "A taxonómiák többféle Flarum erőforrásban használhatók. Létrehozás után a típus nem módosítható. A különböző típusoknál használhat azonos neveket és keresőbarát webcímeket.\n",
@@ -28,7 +37,14 @@
                     "icon": "=> flamarkt-taxonomies.ref.field.icon",
                     "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription",
                     "showLabel": "Taxonómia címkéjének megjelenítése a kifejezéssel együtt",
+                    "showLabelDescription": "",
+                    "enableFilter": "",
+                    "enableFilterDescription": "",
                     "showFilter": "Szűrő megjelenítése a kezdőlapon",
+                    "showFilterDescription": "",
+                    "enableFulltextSearch": "",
+                    "enableFulltextSearchDescription": "",
+                    "enableFulltextSearchWarning": "",
                     "allowCustomValues": "Egyéni értékek engedélyezése",
                     "customValueValidation": "Egyéni értékek ellenőrzése",
                     "customValueSlugger": "Keresőbarát webcímkészítő az egyéni értékekhez",
