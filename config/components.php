@@ -1008,7 +1008,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ramesh-dada/Flarum-GUI-Image-and-Link/1.0/resources/locale/en.yml',
 	],
 	'ramesh-dada-realtime' => [
-		'tag' => 'https://raw.githubusercontent.com/ramesh-dada/realtime/100.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ramesh-dada/realtime/v100.2/resources/locale/en.yml',
 	],
 	'serakoi-flarumstaffbadge' => [
 		'tag' => 'https://raw.githubusercontent.com/Serakoi/flarumstaffbadge/1.2.1/resources/locale/en.yml',
