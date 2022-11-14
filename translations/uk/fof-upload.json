@@ -99,11 +99,11 @@
                 "markdown-image": "Марудаун шаблон зображення",
                 "markdown-image_description": "Показує повне зображення в рядку з використанням маркдаун. <strong>У вас має бути встановлений і ввімкнений flarum/markdown, щоб це працювало</strong>. Відсутня функція скачування, не збирається статистика та ігнорується захист гарячих посилань.\n",
                 "bbcode-image": "BBCode шаблон зображення",
-                "bbcode-image_description": "",
+                "bbcode-image_description": "Показувати повне зображення в рядку за допомогою BBCode. <strong>У вас повинен бути встановлений і включений flarum/bbcode, щоб це працювало.</strong> Відсутня функція завантаження, не збирається статистика та ігнорується захист гарячих посилань.\n",
                 "just-url": "Тільки URL",
-                "just-url_description": "",
-                "text-preview": "",
-                "text-preview_description": ""
+                "just-url_description": "Вставляти лише URL-адресу. Рендеринг може виконуватися іншими розширеннями з можливістю автопосилання. Функціонал завантаження відсутній, статистика не збирається, а захист гарячих посилань ігнорується.\n",
+                "text-preview": "Перегляд тексту",
+                "text-preview_description": "Вставляє попередній перегляд (перші 5 рядків) текстового файлу з можливістю розгортання, щоб показати повний вміст файлу.\n"
             },
             "upload_methods": {
                 "aws-s3": "S3/Compatible",
@@ -113,66 +113,66 @@
                 "qiniu": "QiNiu"
             },
             "inspect-mime": {
-                "title": "",
-                "description": "",
-                "select": "",
-                "laravel-validation": "",
-                "no-file-selected": "",
-                "validation-passed": "",
-                "validation-failed": "",
-                "mime-detector": "",
-                "mime-fileinfo": "",
-                "guessed-extension": "",
-                "not-available": ""
+                "title": "Перевірка MIME",
+                "description": "FoF Upload використовує бібліотеку <a>PHP Mime Detector</a> для загальних типів MIME і PHP Fileinfo як запасний варіант.\nЗначення MIME, яке повертає Fileinfo, може відрізнятися від сервера до сервера!\n",
+                "select": "Оберіть файл нижче, щоб перевірити значення, які будуть використовуватися. Файл не буде збережено.",
+                "laravel-validation": "Laravel File Validation",
+                "no-file-selected": "Файл відсутній",
+                "validation-passed": "Прийнято",
+                "validation-failed": "Не вдалося: {error}",
+                "mime-detector": "Mime Detector (основний)",
+                "mime-fileinfo": "PHP Fileinfo (резервний варіант)",
+                "guessed-extension": "Розширення файлу за налаштуванням (якщо оригінал не внесено до білого списку)",
+                "not-available": "Безрезультатно"
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "Медіа-менеджер",
             "buttons": {
-                "attach": "",
-                "upload": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": ""
+                "attach": "Прикріпити",
+                "upload": "Завантажити",
+                "user_uploads": "Завантаження користувачів",
+                "cancel": "Скасувати",
+                "media": "Мої медіа"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
+                "loading": "Завантаження файлів...",
+                "empty": "Файли для показу відсутні.",
+                "release_to_upload": "Реліз для завантаження",
+                "modal_empty_desktop": "Ваш список файлів порожній. Натисніть кнопку або перетягніть файл сюди, щоб завантажити його.",
+                "modal_empty_phone": "Ваш список файлів порожній. Натисніть кнопку вище, щоб завантажити файл.",
+                "select_file_a11y_label": "Оберіть файл \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Не обрано} one {Обрано файл} other {Обрано файли}}",
+                "load_more_files_btn": "Завантажити більше файлів",
                 "hide_file": {
-                    "btn_a11y_label": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "hide_fail": "",
-                    "loading": ""
+                    "btn_a11y_label": "Приховати \"{fileName}\" від медіаменеджера",
+                    "hide_confirmation": "Ви впевнені, що хочете приховати \"{fileName}\"? Приховування файлу лише видалить його з медіа-менеджера і не вплине на наявні публікації.",
+                    "hide_success": "Файл приховано",
+                    "hide_fail": "Не вдалося приховати файл \"{fileName}\"",
+                    "loading": "Прихований файл..."
                 }
             },
             "states": {
-                "error": "",
-                "loading": "",
-                "unauthorized": ""
+                "error": "Помилка",
+                "loading": "Завантаження",
+                "unauthorized": "Ви не маєте права завантажувати файли"
             },
             "validation": {
-                "max_size": ""
+                "max_size": "Завантаження понад {max} kb не приймаються."
             },
             "text_preview": {
-                "expand": "",
-                "collapse": "",
-                "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
+                "expand": "Розгорнути попередній перегляд",
+                "collapse": "Згорнути попередній перегляд",
+                "error": "Помилка попереднього перегляду файлу. Можливо, він був видалений, або вказаний ідентифікатор файлу невірний.\n",
+                "no_snippet_preview": "<preview will appear here after posting>",
+                "no_snippet": "<no preview snippet available>"
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
-                "unsupported_type": "",
-                "could_not_detect_mime": ""
+                "forbidden_type": "Завантаження файлів такого типу не допускається.",
+                "unsupported_type": "Адаптер завантаження не підтримує наданий тип mime: {mime}.",
+                "could_not_detect_mime": "Не вдалося визначити тип MIME цього файлу, спробуйте ще раз."
             }
         }
     }
