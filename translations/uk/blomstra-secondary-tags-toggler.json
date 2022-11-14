@@ -2,11 +2,11 @@
     "blomstra-secondary-tags-toggler": {
         "admin": {
             "settings": {
-                "only_one_secondary_tag": "",
-                "only_one_secondary_tag_help": ""
+                "only_one_secondary_tag": "Одночасно може бути обрано не більше одного вторинного тегу",
+                "only_one_secondary_tag_help": "Не впливає на наявні дискусії. Додавання нового вторинного тегу до обговорення видаляє всі інші вторинні теги."
             },
             "permissions": {
-                "view_toggler": ""
+                "view_toggler": "Використовуйте перемикач вторинних тегів в дискусіях"
             }
         }
     }
