@@ -2,7 +2,7 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "Упоминать группы"
             },
             "settings": {
                 "allow_username_format_label": "Разрешить старый формат упоминания (@Username)",
@@ -11,14 +11,14 @@
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "Упоминание",
+                "mention_tooltip": "Упоминание пользователя, группы или сообщения",
                 "reply_to_post_text": "Ответить на #{number}"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} ответил(а) на Ваше сообщение",
                 "user_mentioned_text": "{username} упомянул(а) Вас",
-                "group_mentioned_text": ""
+                "group_mentioned_text": "{username} упомянул группу, в которой вы состоите"
             },
             "post": {
                 "mentioned_by_self_text": "{users} ответили на это сообщение.",
@@ -31,7 +31,7 @@
             "settings": {
                 "notify_post_mentioned_label": "Ответ на одно из моих сообщений",
                 "notify_user_mentioned_label": "Упоминание меня в сообщении",
-                "notify_group_mentioned_label": ""
+                "notify_group_mentioned_label": "Некто упомянул группу, в которой я состою, в сообщении"
             },
             "user": {
                 "mentions_link": "Упоминания"
@@ -40,7 +40,7 @@
                 "deleted_text": "[неизвестно]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[неизвестная группа]"
             }
         },
         "email": {
@@ -53,8 +53,8 @@
                 "body": "Здравствуйте, {recipient_display_name}!\n\n{mentioner_display_name} упомянул Вас в своём сообщении в {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} упомянул группу, в которой вы состоите, в {title}",
+                "body": "Привет {recipient_display_name}!\n\n{mentioner_display_name} упомянул группу, в которой вы состоите, в {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
