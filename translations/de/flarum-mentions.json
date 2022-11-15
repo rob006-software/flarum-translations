@@ -2,7 +2,7 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "Gruppen erwähnen"
             },
             "settings": {
                 "allow_username_format_label": "Format für die Erwähnung des Nutzernamens (@Nutzername) zulassen",
@@ -11,14 +11,14 @@
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "Benutzer oder Beitrag erwähnen",
+                "mention_tooltip": "Benutzer, Gruppe oder Beitrag erwähnen",
                 "reply_to_post_text": "Antwort auf #{number}"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} {count, plural, one {hat} other {haben}} auf deinen Beitrag geantwortet",
                 "user_mentioned_text": "{username} hat dich erwähnt",
-                "group_mentioned_text": ""
+                "group_mentioned_text": "{username} hat eine Gruppe erwähnt, in der du Mitglied bist"
             },
             "post": {
                 "mentioned_by_self_text": "{users} {count, plural, one {hast} other {haben}} auf diesen Beitrag geantwortet.",
@@ -31,7 +31,7 @@
             "settings": {
                 "notify_post_mentioned_label": "Jemand hat auf deinen Beitrag geantwortet",
                 "notify_user_mentioned_label": "Jemand hat dich in einem Beitrag erwähnt",
-                "notify_group_mentioned_label": ""
+                "notify_group_mentioned_label": "Jemand erwähnt in einem Beitrag eine Gruppe, in der ich Mitglied bin"
             },
             "user": {
                 "mentions_link": "Erwähnungen"
@@ -40,7 +40,7 @@
                 "deleted_text": "[unbekannt]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[unbekannte Gruppe]"
             }
         },
         "email": {
@@ -53,8 +53,8 @@
                 "body": "Hallo {recipient_display_name}!\n\n{mentioner_display_name} hat dich in der Diskussion {title} erwähnt.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} hat in {title} eine Gruppe erwähnt, in der du ein Mitglied bist",
+                "body": "Hey {recipient_display_name}!\n\n{mentioner_display_name} hat in {title} eine Gruppe erwähnt, in der du ein Mitglied bist.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
