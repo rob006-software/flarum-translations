@@ -54,7 +54,7 @@
             },
             "group_mentioned": {
                 "subject": "{mentioner_display_name} a mentionné un groupe dont vous êtes membre dans {title}",
-                "body": ""
+                "body": "Bonjour {recipient_display_name} !\n\n{mentioner_display_name} a mentionné un groupe dont vous êtes membre dans {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
