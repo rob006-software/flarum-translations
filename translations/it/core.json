@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Header colorato",
                 "colors_heading": "Colori",
+                "colors_primary_label": "Colore Primario",
+                "colors_secondary_label": "Colore Secondario",
                 "colors_text": "Inserisci due colori per personalizzare il tema. Il primo verrà utilizzato come colore in evidenza, mentre il secondo verrà usato come colore per gli elementi di sfondo.",
                 "custom_footer_heading": "Footer personalizzato",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -21,9 +23,7 @@
                 "favicon_text": "Carica un'immagine da utilizzare come favicon del sito.",
                 "logo_heading": "Logo",
                 "logo_text": "Carica un'immagine da utilizzare al posto del nome del forum.",
-                "title": "Aspetto",
-                "colors_primary_label": "Colore Primario",
-                "colors_secondary_label": "Colore Secondario"
+                "title": "Aspetto"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -46,9 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "Pulisci cache",
                 "description": "Il tuo forum a colpo d'occhio.",
+                "io_error_message": "Impossibile scrivere nel filesystem. Controlla i permessi del tuo filesystem e riprova. Oppure prova a eseguire dalla riga di comando.",
                 "title": "Dashboard",
-                "tools_button": "Strumenti",
-                "io_error_message": "Impossibile scrivere nel filesystem. Controlla i permessi del tuo filesystem e riprova. Oppure prova a eseguire dalla riga di comando."
+                "tools_button": "Strumenti"
+            },
+            "debug-warning": {
+                "detail": "Quando la modalità <code>debug</code> è attiva, Flarum ricostruirà le sue risorse <code>JavaScript</code> e <code>CSS</code> ad ogni richiesta e potrebbe anche potenzialmente perdere altre informazioni, come il alcuni elementi del database, variabili di ambiente, ecc.\n\nSi consiglia vivamente di disabilitare <code>debug</code> nel file <code>config.php</code> in produzione. Per ulteriori informazioni, vedere <link>Documenti Flarum</link>.\n",
+                "label": "Modalità debug attiva"
             },
             "edit_css": {
                 "customize_text": "Personalizza l'aspetto del tuo forum aggiungendo codice LESS/CSS da applicare sulla parte superiore degli <a>stili predefiniti</a> di Flarum.",
@@ -247,10 +251,6 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Utenti totali: {count}"
-            },
-            "debug-warning": {
-                "detail": "Quando la modalità <code>debug</code> è attiva, Flarum ricostruirà le sue risorse <code>JavaScript</code> e <code>CSS</code> ad ogni richiesta e potrebbe anche potenzialmente perdere altre informazioni, come il alcuni elementi del database, variabili di ambiente, ecc.\n\nSi consiglia vivamente di disabilitare <code>debug</code> nel file <code>config.php</code> in produzione. Per ulteriori informazioni, vedere <link>Documenti Flarum</link>.\n",
-                "label": "Modalità debug attiva"
             }
         },
         "forum": {
@@ -368,15 +368,15 @@
                 "username_or_email_placeholder": "Nome utente o e-mail"
             },
             "notifications": {
+                "delete_all_confirm": "Sei sicuro di voler eliminare tutte le notifiche? Questa azione non è reversibile",
+                "delete_all_tooltip": "Elimina tutte le notifiche",
                 "discussion_renamed_text": "{username} ha cambiato il titolo",
                 "empty_text": "Non ci sono notifiche",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Segna come letto",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Vedi notifiche",
-                "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "Sei sicuro di voler eliminare tutte le notifiche? Questa azione non è reversibile",
-                "delete_all_tooltip": "Elimina tutte le notifiche"
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "Modificato",
@@ -418,14 +418,14 @@
                 "account_heading": "Account",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "Ricevi notifiche \"{description}\" tramite {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Qualcuno ha modificato una discussione che ho iniziato",
                 "privacy_disclose_online_label": "Permetti agli altri utenti di vedere quando sono online",
                 "privacy_heading": "Privacy",
-                "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": "Ricevi notifiche \"{description}\" tramite {method}"
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

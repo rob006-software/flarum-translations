@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "നിറമുള്ള തലക്കെട്ട്",
                 "colors_heading": "നിറങ്ങൾ",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "colors_text": "നിങ്ങളുടെ ഫോറം തീം ചെയ്യുന്നതിന് രണ്ട് നിറങ്ങൾ തിരഞ്ഞെടുക്കുക. ആദ്യത്തേത് ഹൈലൈറ്റ് നിറമായി ഉപയോഗിക്കും, രണ്ടാമത്തേത് പശ്ചാത്തല ഘടകങ്ങൾ സ്റ്റൈൽ ചെയ്യാൻ ഉപയോഗിക്കും.",
                 "custom_footer_heading": "പ്രത്യേക പാദ ഭാഗം",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -21,9 +23,7 @@
                 "favicon_text": "ഫോറത്തിന്റെ കുറുക്കുവഴി ഐക്കണായി പ്രദർശിപ്പിക്കുന്നതിന് ഒരു ചിത്രം അപ്‌ലോഡ് ചെയ്യുക.",
                 "logo_heading": "ലോഗോ",
                 "logo_text": "ഫോറം ശീർഷകത്തിന്റെ സ്ഥാനത്ത് പ്രദർശിപ്പിക്കുന്നതിന് ഒരു ചിത്രം അപ്‌ലോഡ് ചെയ്യുക.",
-                "title": "രൂപം",
-                "colors_primary_label": "",
-                "colors_secondary_label": ""
+                "title": "രൂപം"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -46,9 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "കാഷെ മായ്ക്കുക",
                 "description": "നിങ്ങളുടെ ഫോറം ഒറ്റ നോട്ടത്തിൽ.",
+                "io_error_message": "",
                 "title": "നിയന്ത്രണ മുഖം",
-                "tools_button": "ഉപകരണങ്ങൾ",
-                "io_error_message": ""
+                "tools_button": "ഉപകരണങ്ങൾ"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "ഫ്ലാറത്തിന്റെ <a> ഡിഫോൾട്ട് ശൈലികൾ </a> ന് മുകളിൽ പ്രയോഗിക്കുന്നതിന് നിങ്ങളുടെ സ്വന്തം Less/CSS കോഡ് ചേർത്ത് നിങ്ങളുടെ ഫോറത്തിന്റെ രൂപം ഇഷ്ടാനുസൃതമാക്കുക.",
@@ -247,10 +251,6 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "മൊത്തം ഉപയോക്താക്കൾ: {count}"
-            },
-            "debug-warning": {
-                "detail": "",
-                "label": ""
             }
         },
         "forum": {
@@ -368,15 +368,15 @@
                 "username_or_email_placeholder": "ഉപയോക്തൃനാമം അല്ലെങ്കിൽ ഇമെയിൽ"
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "{username} ശീർഷകം മാറ്റി",
                 "empty_text": "അറിയിപ്പുകളൊന്നുമില്ല",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "വായിച്ചതായി അടയാളപ്പെടുത്തുക",
                 "title": "",
                 "toggle_dropdown_accessible_label": "",
-                "tooltip": "",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "tooltip": ""
             },
             "post": {
                 "edited_text": "",
@@ -418,14 +418,14 @@
                 "account_heading": "",
                 "change_email_button": "",
                 "change_password_button": "",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "",
                 "notify_by_email_heading": "",
                 "notify_by_web_heading": "",
                 "notify_discussion_renamed_label": "",
                 "privacy_disclose_online_label": "",
                 "privacy_heading": "",
-                "title": "",
-                "notification_checkbox_a11y_label_template": ""
+                "title": ""
             },
             "sign_up": {
                 "dismiss_button": "",

@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Kolorowy nagłówek",
                 "colors_heading": "Kolory",
+                "colors_primary_label": "Kolor główny",
+                "colors_secondary_label": "Kolor drugorzędny",
                 "colors_text": "Wybierz dwa kolory dla Twojego motywu forum. Pierwszy będzie używany jako kolor wiodący, podczas gdy drugi zapełni elementy tła.",
                 "custom_footer_heading": "Niestandardowa stopka",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -21,9 +23,7 @@
                 "favicon_text": "Wyślij obrazek, który będzie wyświetlany jako ikona forum.",
                 "logo_heading": "Logo",
                 "logo_text": "Wyślij obrazek, który będzie wyświetlany jako logo w miejscu nazwy forum.",
-                "title": "Wygląd forum",
-                "colors_primary_label": "Kolor główny",
-                "colors_secondary_label": "Kolor drugorzędny"
+                "title": "Wygląd forum"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -46,9 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "Wyczyść cache",
                 "description": "Podstawowe informacje dotyczące forum.",
+                "io_error_message": "Zapis do systemu plików się nie powiódł. Sprawdź uprawnienia systemu plików i spróbuj ponownie, lub spróbuj wykonać tę akcję z poziomu wiersza poleceń.",
                 "title": "Kokpit",
-                "tools_button": "Narzędzia",
-                "io_error_message": "Zapis do systemu plików się nie powiódł. Sprawdź uprawnienia systemu plików i spróbuj ponownie, lub spróbuj wykonać tę akcję z poziomu wiersza poleceń."
+                "tools_button": "Narzędzia"
+            },
+            "debug-warning": {
+                "detail": "Gdy tryb <code>debug</code> jest aktywny, Flarum będzie odświeżać pliki <code>JavaScript</code> i <code>CSS</code> przy każdym wczytaniu strony, a także może ujawnić poufne informacje, jak na przykład dane dostępowe do bazy danych, zmienne środowiskowe itp.\n\nZalecane jest wyłączenie trybu <code>debug</code> w pliku <code>config.php</code> dla środowisk produkcyjnych. Sprawdź <link>dokumentację Flarum</link> aby uzyskać więcej informacji.\n",
+                "label": "Tryb debug jest aktywny"
             },
             "edit_css": {
                 "customize_text": "Edytuj wygląd swojego forum poprzez dodawanie swojego własnego kodu Less/CSS, który będzie dodany nad <a>domyślnymi stylami Flarum</a>.",
@@ -245,10 +249,6 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Wszystkich użytkowników: {count}"
-            },
-            "debug-warning": {
-                "detail": "Gdy tryb <code>debug</code> jest aktywny, Flarum będzie odświeżać pliki <code>JavaScript</code> i <code>CSS</code> przy każdym wczytaniu strony, a także może ujawnić poufne informacje, jak na przykład dane dostępowe do bazy danych, zmienne środowiskowe itp.\n\nZalecane jest wyłączenie trybu <code>debug</code> w pliku <code>config.php</code> dla środowisk produkcyjnych. Sprawdź <link>dokumentację Flarum</link> aby uzyskać więcej informacji.\n",
-                "label": "Tryb debug jest aktywny"
             }
         },
         "forum": {
@@ -365,15 +365,15 @@
                 "username_or_email_placeholder": "Nazwa użytkownika lub e-mail"
             },
             "notifications": {
+                "delete_all_confirm": "Czy jesteś pewien, że chcesz usunąć wszystkie powiadomienia? Tej operacji nie da się cofnąć.",
+                "delete_all_tooltip": "Usuń wszystkie powiadomienia",
                 "discussion_renamed_text": "{username} zmienił tytuł dyskusji",
                 "empty_text": "Brak powiadomień",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Oznacz jako odczytane",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Zobacz powiadomienia",
-                "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "Czy jesteś pewien, że chcesz usunąć wszystkie powiadomienia? Tej operacji nie da się cofnąć.",
-                "delete_all_tooltip": "Usuń wszystkie powiadomienia"
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "Edytowany",
@@ -415,14 +415,14 @@
                 "account_heading": "Konto",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "Otrzymuj powiadomienia typu \"{description}\" za pomocą {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Ktoś zmienił tytuł dyskusji, którą rozpocząłem",
                 "privacy_disclose_online_label": "Pozwól innym widzieć, kiedy jestem online",
                 "privacy_heading": "Prywatność",
-                "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": "Otrzymuj powiadomienia typu \"{description}\" za pomocą {method}"
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

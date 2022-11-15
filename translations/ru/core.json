@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Цветная шапка",
                 "colors_heading": "Цвета",
+                "colors_primary_label": "Основной цвет",
+                "colors_secondary_label": "Дополнительный цвет",
                 "colors_text": "Выберите два цвета для стилизации форума. Первый будет использоваться в качестве цвета подсветки, второй будет использоваться в качестве фона стилевых элементов.",
                 "custom_footer_heading": "Нижний колонтитул",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -21,9 +23,7 @@
                 "favicon_text": "Загрузите изображение, которое будет отображаться в качестве значка форума.",
                 "logo_heading": "Логотип",
                 "logo_text": "Загрузите изображение, которое будет отображаться вместо названия форума.",
-                "title": "Оформление",
-                "colors_primary_label": "Основной цвет",
-                "colors_secondary_label": "Дополнительный цвет"
+                "title": "Оформление"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -46,9 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "Очистить кэш",
                 "description": "Панель управления форумом.",
+                "io_error_message": "Could not write to filesystem. Check your filesystem permissions an try again. Or try running from the command line.",
                 "title": "Панель управления",
-                "tools_button": "Инструменты",
-                "io_error_message": "Could not write to filesystem. Check your filesystem permissions an try again. Or try running from the command line."
+                "tools_button": "Инструменты"
+            },
+            "debug-warning": {
+                "detail": "При активном режиме <code>отладки</code>, Flarum будет перестраивать <code>JavaScript</code> и <code>CSS</code> при каждом запросе. Это может привести к утечке потенциально важной информации, например, пароли баз данных, переменные окружения и т.п.\n\nНастоятельно рекомендуется отключить режим <code>отладки</code> в Вашем файле <code>config.php</code>. Дополнительную информацию смотрите в <link>документации Flarum</link>.\n",
+                "label": "Включён режим отладки"
             },
             "edit_css": {
                 "customize_text": "Настройка внешнего вида форума при помощи пользовательского кода LESS/CSS, который переопределяет <a>стандартные стилевые конструкции</a> Flarum.",
@@ -247,10 +251,6 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Всего пользователей: {count}"
-            },
-            "debug-warning": {
-                "detail": "При активном режиме <code>отладки</code>, Flarum будет перестраивать <code>JavaScript</code> и <code>CSS</code> при каждом запросе. Это может привести к утечке потенциально важной информации, например, пароли баз данных, переменные окружения и т.п.\n\nНастоятельно рекомендуется отключить режим <code>отладки</code> в Вашем файле <code>config.php</code>. Дополнительную информацию смотрите в <link>документации Flarum</link>.\n",
-                "label": "Включён режим отладки"
             }
         },
         "forum": {
@@ -368,15 +368,15 @@
                 "username_or_email_placeholder": "Имя пользователя или e-mail"
             },
             "notifications": {
+                "delete_all_confirm": "Вы уверены, что хотите удалить все уведомления? Это действие невозможно отменить.",
+                "delete_all_tooltip": "Удалить все уведомления",
                 "discussion_renamed_text": "{username} изменил(а) название",
                 "empty_text": "Уведомления отсутствуют",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Отметить как прочитанное",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Смотреть уведомления",
-                "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "Вы уверены, что хотите удалить все уведомления? Это действие невозможно отменить.",
-                "delete_all_tooltip": "Удалить все уведомления"
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "Изменено",
@@ -418,14 +418,14 @@
                 "account_heading": "Аккаунт",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "Receive \"{description}\" notifications via {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Изменение названия моей дискуссии",
                 "privacy_disclose_online_label": "Показывать мой статус online",
                 "privacy_heading": "Конфиденциальность",
-                "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": "Receive \"{description}\" notifications via {method}"
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

@@ -1,6 +1,9 @@
 {
     "flarum-mentions": {
         "admin": {
+            "permissions": {
+                "mention_groups_label": ""
+            },
             "settings": {
                 "allow_username_format_label": "Salli käyttäjätunnuksen maininta muoto (@tunnus)",
                 "allow_username_format_text": "Tämän hetkinen muoto käyttäjän maininnalle on @\"Display Name\"#ID.\nTämä asetus sallii vanhan muodon käyttämisen @tunnus , se kuitenkin muunnetaan uuteen muotoon tallennettaessa.\n"
@@ -14,7 +17,8 @@
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} vastasi viestiisi",
-                "user_mentioned_text": "{username} mainitsi sinut"
+                "user_mentioned_text": "{username} mainitsi sinut",
+                "group_mentioned_text": ""
             },
             "post": {
                 "mentioned_by_self_text": "{users} vastasit tähän.",
@@ -26,13 +30,17 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "Joku vastaa johonkin viestiini",
-                "notify_user_mentioned_label": "Joku mainitsee minut viestissä"
+                "notify_user_mentioned_label": "Joku mainitsee minut viestissä",
+                "notify_group_mentioned_label": ""
             },
             "user": {
                 "mentions_link": "Maininnat"
             },
             "post_mention": {
                 "deleted_text": "[tuntematon]"
+            },
+            "group_mention": {
+                "deleted_text": ""
             }
         },
         "email": {
@@ -43,6 +51,10 @@
             "user_mentioned": {
                 "subject": "{mentioner_display_name} mainitsi sinut keskustelussa {title}",
                 "body": "Hei {recipient_display_name}!\n\n{mentioner_display_name} mainitsi sinut keskustelussa {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "group_mentioned": {
+                "subject": "",
+                "body": ""
             }
         }
     }

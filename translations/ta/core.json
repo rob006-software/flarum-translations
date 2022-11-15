@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "நிறம் வடிந்த தலைப்பு",
                 "colors_heading": "நிறங்கள்",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "colors_text": "உன் இணையம் பக்கத்தை தீம் செய்ய இரண்டு நிறங்களை தேர்ந்தெடுங்கள். முதல் நிறம் ஹயிலைட் நிறமாக பயன்படுத்தப்படும், இரண்டாவது நிறம் பின்னணி நிறமாக பயன்படுத்தப்படும்.",
                 "custom_footer_heading": "விருப்ப அடிக்குறிப்பு",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -21,9 +23,7 @@
                 "favicon_text": "",
                 "logo_heading": "சின்னம்",
                 "logo_text": "Forumஇன் தலைப்பின் பதிலாக காட்ட ஒரு சின்னத்தை போடுங்கள்.",
-                "title": "வடிவம்",
-                "colors_primary_label": "",
-                "colors_secondary_label": ""
+                "title": "வடிவம்"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -46,9 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "",
                 "description": "",
+                "io_error_message": "",
                 "title": "",
-                "tools_button": "",
-                "io_error_message": ""
+                "tools_button": ""
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "",
@@ -245,10 +249,6 @@
                 },
                 "title": "",
                 "total_users": ""
-            },
-            "debug-warning": {
-                "detail": "",
-                "label": ""
             }
         },
         "forum": {
@@ -365,15 +365,15 @@
                 "username_or_email_placeholder": ""
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "",
                 "empty_text": "",
                 "mark_all_as_read_tooltip": "",
                 "mark_as_read_tooltip": "",
                 "title": "",
                 "toggle_dropdown_accessible_label": "",
-                "tooltip": "",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "tooltip": ""
             },
             "post": {
                 "edited_text": "",
@@ -415,14 +415,14 @@
                 "account_heading": "",
                 "change_email_button": "",
                 "change_password_button": "",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "",
                 "notify_by_email_heading": "",
                 "notify_by_web_heading": "",
                 "notify_discussion_renamed_label": "",
                 "privacy_disclose_online_label": "",
                 "privacy_heading": "",
-                "title": "",
-                "notification_checkbox_a11y_label_template": ""
+                "title": ""
             },
             "sign_up": {
                 "dismiss_button": "",

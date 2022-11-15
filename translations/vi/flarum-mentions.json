@@ -1,6 +1,9 @@
 {
     "flarum-mentions": {
         "admin": {
+            "permissions": {
+                "mention_groups_label": ""
+            },
             "settings": {
                 "allow_username_format_label": "Cho phép định dạng đề cập tên người dùng (@Username)",
                 "allow_username_format_text": "Định dạng đề cập hiện tại của người dùng là @\"DisplayName\"#ID.\nCài đặt này cho phép sử dụng định dạng cũ của @Username, tuy nhiên nó vẫn sẽ được chuyển đổi sang định dạng mới khi lưu.\n"
@@ -14,7 +17,8 @@
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} đã trả lời bài viết của bạn",
-                "user_mentioned_text": "{username} đã nhắc đến bạn"
+                "user_mentioned_text": "{username} đã nhắc đến bạn",
+                "group_mentioned_text": ""
             },
             "post": {
                 "mentioned_by_self_text": "{users} đã trả lời bài viết này.",
@@ -26,13 +30,17 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "Ai đó trả lời bài viết của tôi",
-                "notify_user_mentioned_label": "Ai đó nhắc đến tôi trong bài viết"
+                "notify_user_mentioned_label": "Ai đó nhắc đến tôi trong bài viết",
+                "notify_group_mentioned_label": ""
             },
             "user": {
                 "mentions_link": "Đề cập"
             },
             "post_mention": {
                 "deleted_text": "[không xác định]"
+            },
+            "group_mention": {
+                "deleted_text": ""
             }
         },
         "email": {
@@ -43,6 +51,10 @@
             "user_mentioned": {
                 "subject": "{mentioner_display_name} đã nhắc đến bạn trong {title}",
                 "body": "Hey {recipient_display_name}!\n\n{mentioner_display_name} đã nhắc đến bạn trong một bài viết trong {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "group_mentioned": {
+                "subject": "",
+                "body": ""
             }
         }
     }

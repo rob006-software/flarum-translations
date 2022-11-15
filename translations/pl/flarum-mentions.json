@@ -1,6 +1,9 @@
 {
     "flarum-mentions": {
         "admin": {
+            "permissions": {
+                "mention_groups_label": ""
+            },
             "settings": {
                 "allow_username_format_label": "Pozwól na wspominanie używając nazwy użytkownika (@login)",
                 "allow_username_format_text": "Obecny format wspominania o użytkownikach to @\"Nazwa Wyświetlana\"#ID.\nTo ustawienie pozwala korzystać ze starego formatu (@login), zostanie on jednak przekonwertowany na nowy format podczas zapisywania.\n"
@@ -14,7 +17,8 @@
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} odpowiedział na Twój post",
-                "user_mentioned_text": "{username} wspomniał o Tobie"
+                "user_mentioned_text": "{username} wspomniał o Tobie",
+                "group_mentioned_text": ""
             },
             "post": {
                 "mentioned_by_self_text": "{count, plural, one {{users} odpowiedziałeś na to} other {{users} odpowiedzieliście na to}}.",
@@ -26,13 +30,17 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "Ktoś odpowiedział na mój post",
-                "notify_user_mentioned_label": "Ktoś wspomniał o mnie w poście"
+                "notify_user_mentioned_label": "Ktoś wspomniał o mnie w poście",
+                "notify_group_mentioned_label": ""
             },
             "user": {
                 "mentions_link": "Wzmianki"
             },
             "post_mention": {
                 "deleted_text": "[nieznany]"
+            },
+            "group_mention": {
+                "deleted_text": ""
             }
         },
         "email": {
@@ -43,6 +51,10 @@
             "user_mentioned": {
                 "subject": "{mentioner_display_name} wspomniał o Tobie w {title}",
                 "body": "Witaj {recipient_display_name},\n\n{mentioner_display_name} wspomniał o Tobie w poście w \"{title}\".\n\nAby zobaczyć nową aktywność, kliknij poniższy link:\n{url}\n\n---\n\n{content}\n"
+            },
+            "group_mentioned": {
+                "subject": "",
+                "body": ""
             }
         }
     }

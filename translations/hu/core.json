@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Színes fejléc",
                 "colors_heading": "Színek",
+                "colors_primary_label": "Elsődleges szín",
+                "colors_secondary_label": "Másodlagos szín",
                 "colors_text": "Válasszon két színt a fórumhoz. Az első szín a kiemeléseknél lesz használva, míg a második a háttérelemek színét fogja megadni.",
                 "custom_footer_heading": "Egyéni lábléc",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -22,8 +24,6 @@
                 "logo_heading": "Logó",
                 "logo_text": "Kép feltöltése, mely a fórumcím helyett fog megjelenni.",
                 "title": "Megjelenés",
-                "colors_primary_label": "Elsődleges szín",
-                "colors_secondary_label": "Másodlagos szín",
                 "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
@@ -49,9 +49,13 @@
             "dashboard": {
                 "clear_cache_button": "Gyorsítótár törlése",
                 "description": "Fórum összefoglalása.",
+                "io_error_message": "Nem sikerült a fájlrendszerre írni. Ellenőrizze a fájlrendszer jogosultságait, és próbálja újra. Vagy futtassa a parancssorból.",
                 "title": "Vezérlőpult",
-                "tools_button": "Eszközök",
-                "io_error_message": "Nem sikerült a fájlrendszerre írni. Ellenőrizze a fájlrendszer jogosultságait, és próbálja újra. Vagy futtassa a parancssorból."
+                "tools_button": "Eszközök"
+            },
+            "debug-warning": {
+                "detail": "Ha a <code>hibakeresési</code> mód aktív, a Flarum újraépíti a <code>JavaScript</code> és <code>CSS</code> erőforrásait minden egyes kérésnél, és lehetséges, hogy egyéb információkat fog szivárogtatni, például adatbázistitkokat, környezeti változókat stb.\n\nÉles üzemben nagyon ajánlott kikapcsolni a <code>hibakeresést</code> a <code>config.php</code> fájlban. További információért lásd a <link>Flarum dokumentációját</link>.\n",
+                "label": "A hibakeresési mód aktív"
             },
             "edit_css": {
                 "customize_text": "Szabja testre a fórum kinézetét saját LESS/CSS kód hozzáadásával, amellyel felülírhatja a Flarum <a>alapértelmezett stílusait</a>.",
@@ -269,10 +273,6 @@
                 "title": "=> core.ref.users",
                 "total_users": "Felhasználók száma: {count}"
             },
-            "debug-warning": {
-                "detail": "Ha a <code>hibakeresési</code> mód aktív, a Flarum újraépíti a <code>JavaScript</code> és <code>CSS</code> erőforrásait minden egyes kérésnél, és lehetséges, hogy egyéb információkat fog szivárogtatni, például adatbázistitkokat, környezeti változókat stb.\n\nÉles üzemben nagyon ajánlott kikapcsolni a <code>hibakeresést</code> a <code>config.php</code> fájlban. További információért lásd a <link>Flarum dokumentációját</link>.\n",
-                "label": "A hibakeresési mód aktív"
-            },
             "add_extension": {
                 "developer_text": "Ha fejlesztő vagy, bátran olvasd el <a>dokumentációnkat</a> és készítsd el a saját kiegészítődet.",
                 "install_text": "Addig is a <a>Flarum Community oldalán</a> kereshetsz és telepíthetsz is kiegészítőket (manuálisan, a Composer segítségével).",
@@ -400,15 +400,15 @@
                 "username_or_email_placeholder": "Felhasználónév vagy e-mail-cím"
             },
             "notifications": {
+                "delete_all_confirm": "Biztos, hogy törli az összes értesítést? Ez a művelet nem fordítható vissza.",
+                "delete_all_tooltip": "Összes értesítés törlése",
                 "discussion_renamed_text": "{username} módosította a címet",
                 "empty_text": "Nincs új értesítés",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Megjelölés olvasottként",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Értesítések megtekintése",
-                "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "Biztos, hogy törli az összes értesítést? Ez a művelet nem fordítható vissza.",
-                "delete_all_tooltip": "Összes értesítés törlése"
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "Szerkesztve",
@@ -450,14 +450,14 @@
                 "account_heading": "Fiók",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "„{description}” értesítések fogadása a következő módon: {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Valaki átnevezte az Ön által indított témát",
                 "privacy_disclose_online_label": "Láthatják mások, ha online vagyok",
                 "privacy_heading": "Adatvédelem",
-                "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": "„{description}” értesítések fogadása a következő módon: {method}"
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

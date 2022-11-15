@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Farvet overskrift",
                 "colors_heading": "Farver",
+                "colors_primary_label": "Primær farve",
+                "colors_secondary_label": "Sekundær farve",
                 "colors_text": "Vælg to farver til at style dit forum med. Den første vil blive brugt som en højlysfarve, og den anden vil blive brugt til at style baggrundselementer.",
                 "custom_footer_heading": "Tilpasset sidefod",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -21,9 +23,7 @@
                 "favicon_text": "Upload et billede for at blive vist som forummets genvejsikon.",
                 "logo_heading": "Logo",
                 "logo_text": "Upload et billede, der skal vises i stedet for forumtitlen.",
-                "title": "Udseende",
-                "colors_primary_label": "Primær farve",
-                "colors_secondary_label": "Sekundær farve"
+                "title": "Udseende"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -46,9 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "Ryd cache",
                 "description": "En oversigt over dit forum.",
+                "io_error_message": "",
                 "title": "Dashboard",
-                "tools_button": "Forumværktøjer",
-                "io_error_message": ""
+                "tools_button": "Forumværktøjer"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "Tilpas dit forums udseende ved at angive din egen Less/CSS-kode, der skal anvendes oven på Flarums <a>standardstile</a>.",
@@ -245,10 +249,6 @@
                 },
                 "title": "Brugere",
                 "total_users": "Total antal brugere: {count}"
-            },
-            "debug-warning": {
-                "detail": "",
-                "label": ""
             }
         },
         "forum": {
@@ -365,15 +365,15 @@
                 "username_or_email_placeholder": "Brugernavn eller e-mail"
             },
             "notifications": {
+                "delete_all_confirm": "Er du sikker på du vil slette alle påmindelserne? Denne handling kan ikke rulles tilbage",
+                "delete_all_tooltip": "Slet alle påmindelser",
                 "discussion_renamed_text": "{username} rettede overskriften",
                 "empty_text": "Ingen påmindelser",
                 "mark_all_as_read_tooltip": "Markér alle som læst",
                 "mark_as_read_tooltip": "Markér som læst",
                 "title": "Påmindelser",
                 "toggle_dropdown_accessible_label": "Vis påmindelser",
-                "tooltip": "Påmindelser",
-                "delete_all_confirm": "Er du sikker på du vil slette alle påmindelserne? Denne handling kan ikke rulles tilbage",
-                "delete_all_tooltip": "Slet alle påmindelser"
+                "tooltip": "Påmindelser"
             },
             "post": {
                 "edited_text": "Rettet",
@@ -415,14 +415,14 @@
                 "account_heading": "Konto",
                 "change_email_button": "Ændre e-mail",
                 "change_password_button": "Ændre adgangskode",
+                "notification_checkbox_a11y_label_template": "Modtag \"{description}\" påmindelser via {method}",
                 "notifications_heading": "Påmindelser",
                 "notify_by_email_heading": "E-mail",
                 "notify_by_web_heading": "Hjemmeside",
                 "notify_discussion_renamed_label": "Nogen omdøber en diskussion jeg har startet",
                 "privacy_disclose_online_label": "Tillad andre at se når jeg er online",
                 "privacy_heading": "Privatliv",
-                "title": "Indstillinger",
-                "notification_checkbox_a11y_label_template": "Modtag \"{description}\" påmindelser via {method}"
+                "title": "Indstillinger"
             },
             "sign_up": {
                 "dismiss_button": "Okay",

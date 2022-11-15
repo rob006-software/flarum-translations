@@ -1,6 +1,9 @@
 {
     "flarum-mentions": {
         "admin": {
+            "permissions": {
+                "mention_groups_label": ""
+            },
             "settings": {
                 "allow_username_format_label": "",
                 "allow_username_format_text": ""
@@ -14,7 +17,8 @@
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} به نوشته شما پاسخ داد",
-                "user_mentioned_text": "نام شما توسط {username} نام برده شد"
+                "user_mentioned_text": "نام شما توسط {username} نام برده شد",
+                "group_mentioned_text": ""
             },
             "post": {
                 "mentioned_by_self_text": "توسط {users} پاسخ داده شد.",
@@ -26,12 +30,16 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "کسی به نوشته من پاسخ داد",
-                "notify_user_mentioned_label": "کسی در نوشته‌ای از من نام برد"
+                "notify_user_mentioned_label": "کسی در نوشته‌ای از من نام برد",
+                "notify_group_mentioned_label": ""
             },
             "user": {
                 "mentions_link": "اشارات"
             },
             "post_mention": {
+                "deleted_text": ""
+            },
+            "group_mention": {
                 "deleted_text": ""
             }
         },
@@ -41,6 +49,10 @@
                 "body": ""
             },
             "user_mentioned": {
+                "subject": "",
+                "body": ""
+            },
+            "group_mentioned": {
                 "subject": "",
                 "body": ""
             }

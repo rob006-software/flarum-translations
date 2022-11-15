@@ -1,6 +1,9 @@
 {
     "flarum-mentions": {
         "admin": {
+            "permissions": {
+                "mention_groups_label": ""
+            },
             "settings": {
                 "allow_username_format_label": "Dozvoli format pominjanja korisničkog imena (@korisničkoime)",
                 "allow_username_format_text": "Trenutni format za pominjanje korisnika je @\"Prikazano ime\"#ID.\nOvo podešavanje dozvoljava korišćenje starog formata @korisničkoime, ali će i dalje biti konvertovano u novi format nakon čuvanja.\n"
@@ -14,7 +17,8 @@
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} je odgovorio/la na Vaš odgovor",
-                "user_mentioned_text": "{username} Vas je spomenuo/la"
+                "user_mentioned_text": "{username} Vas je spomenuo/la",
+                "group_mentioned_text": ""
             },
             "post": {
                 "mentioned_by_self_text": "{users} ste odgovorili na ovo.",
@@ -26,13 +30,17 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "Ako neko odgovori na neki od mojih odgovora",
-                "notify_user_mentioned_label": "Ako me neko spomene u svom odgovoru"
+                "notify_user_mentioned_label": "Ako me neko spomene u svom odgovoru",
+                "notify_group_mentioned_label": ""
             },
             "user": {
                 "mentions_link": "Spominjanja"
             },
             "post_mention": {
                 "deleted_text": "[nepoznato]"
+            },
+            "group_mention": {
+                "deleted_text": ""
             }
         },
         "email": {
@@ -43,6 +51,10 @@
             "user_mentioned": {
                 "subject": "{mentioner_display_name} Vas je spomenuo/la u diskusiji {title}",
                 "body": "Zdravo {recipient_display_name}!\n\n{mentioner_display_name} Vas je spomenuo/la u diskusiji {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "group_mentioned": {
+                "subject": "",
+                "body": ""
             }
         }
     }

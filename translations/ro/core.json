@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Antet Colorat",
                 "colors_heading": "Culori",
+                "colors_primary_label": "Culoarea Principală",
+                "colors_secondary_label": "Culoarea Secundară",
                 "colors_text": "Alegeți două culori pentru a decora forumul. Prima va fi folosită pentru evidențiere, iar a doua pentru a decora elementele de fundal.",
                 "custom_footer_heading": "Subsol Personalizat",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -21,9 +23,7 @@
                 "favicon_text": "Încărcați o imagine care va fi afișată ca și pictograma paginii în navigator.",
                 "logo_heading": "Logo",
                 "logo_text": "Încărcați o imagine care va înlocui titlul forumului.",
-                "title": "Aspect",
-                "colors_primary_label": "Culoarea Principală",
-                "colors_secondary_label": "Culoarea Secundară"
+                "title": "Aspect"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -46,9 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "Ștergere memoria cache",
                 "description": "Forumul Dvs. dintr-o privire.",
+                "io_error_message": "Nu s-a putut scrie către fișierul de sistem. Verifică-ți permisiunile fișierului de sistem și încearcă din nou. Sau încearcă să rulezi de pe linia de comandă.",
                 "title": "Tablou de bord",
-                "tools_button": "Instrumente",
-                "io_error_message": "Nu s-a putut scrie către fișierul de sistem. Verifică-ți permisiunile fișierului de sistem și încearcă din nou. Sau încearcă să rulezi de pe linia de comandă."
+                "tools_button": "Instrumente"
+            },
+            "debug-warning": {
+                "detail": "Atunci când modul <code>debug</code> este activ, Flarum își va reconstruii fișierele <code>JavaScript</code> și <code>CSS</code> la fiecare cerere, și ar putea probabil să scurgă și alte informații, cum ar fi secrete ale bazei de date, variabile de mediu, etc.\n\nEste foarte recomandat să dezactivezi <code>debug</code> din fișierul tău <code>config.php</code> în modul producție. Vezi <link>documentația Flarum</link> pentru mai multe informații.\n",
+                "label": "Modul Debug este activ"
             },
             "edit_css": {
                 "customize_text": "Personalizați-vă aspectul forumului dvs. adăugând propriul cod Less/CSS care să fie aplicat peste <a>stilurile implicite</a> ale Flarum.",
@@ -245,10 +249,6 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Numărul total de utilizatori: {count}"
-            },
-            "debug-warning": {
-                "detail": "Atunci când modul <code>debug</code> este activ, Flarum își va reconstruii fișierele <code>JavaScript</code> și <code>CSS</code> la fiecare cerere, și ar putea probabil să scurgă și alte informații, cum ar fi secrete ale bazei de date, variabile de mediu, etc.\n\nEste foarte recomandat să dezactivezi <code>debug</code> din fișierul tău <code>config.php</code> în modul producție. Vezi <link>documentația Flarum</link> pentru mai multe informații.\n",
-                "label": "Modul Debug este activ"
             }
         },
         "forum": {
@@ -365,15 +365,15 @@
                 "username_or_email_placeholder": "Nume de utilizator sau adresă de e-mail"
             },
             "notifications": {
+                "delete_all_confirm": "Sigur dorești să ștergi toate notificările? Această acțiune este permanentă",
+                "delete_all_tooltip": "Șterge toate notificările",
                 "discussion_renamed_text": "{username} a modificat titlul discuției",
                 "empty_text": "Nicio notificare",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Marcare ca citit",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Vizualizare notificări",
-                "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "Sigur dorești să ștergi toate notificările? Această acțiune este permanentă",
-                "delete_all_tooltip": "Șterge toate notificările"
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "Modificat",
@@ -415,14 +415,14 @@
                 "account_heading": "Cont",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "Primește notificări \"{description}\" via {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Cineva redenumește o discuție inițiată de mine",
                 "privacy_disclose_online_label": "Permieți altora să vadă când sunt conectat(ă)",
                 "privacy_heading": "Confidențialitate",
-                "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": "Primește notificări \"{description}\" via {method}"
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

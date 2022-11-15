@@ -1,6 +1,9 @@
 {
     "flarum-mentions": {
         "admin": {
+            "permissions": {
+                "mention_groups_label": ""
+            },
             "settings": {
                 "allow_username_format_label": "Дозволити формат згадування користувача (@Username)",
                 "allow_username_format_text": "Поточний формат для згадок користувачів: @\"Display Name\"#ID.\nЦей параметр дозволяє використовувати старий формат @Username, однак він все одно буде перетворений у новий формат після збереження.\n"
@@ -14,7 +17,8 @@
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "Відповідь на ваш допис від {username}",
-                "user_mentioned_text": "{username} згадали вас"
+                "user_mentioned_text": "{username} згадали вас",
+                "group_mentioned_text": ""
             },
             "post": {
                 "mentioned_by_self_text": "{users} відповіли на це.",
@@ -26,13 +30,17 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "Хтось відповідає на одне з моїх повідомлень",
-                "notify_user_mentioned_label": "Хтось згадує мене в повідомленні"
+                "notify_user_mentioned_label": "Хтось згадує мене в повідомленні",
+                "notify_group_mentioned_label": ""
             },
             "user": {
                 "mentions_link": "Згадування"
             },
             "post_mention": {
                 "deleted_text": "[невідомо]"
+            },
+            "group_mention": {
+                "deleted_text": ""
             }
         },
         "email": {
@@ -43,6 +51,10 @@
             "user_mentioned": {
                 "subject": "{mentioner_display_name} згадав вас у дискусії {title}",
                 "body": "Привіт {recipient_display_name}!\n\n{mentioner_display_name} згадав вас у своєму дописі в дискусії {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "group_mentioned": {
+                "subject": "",
+                "body": ""
             }
         }
     }

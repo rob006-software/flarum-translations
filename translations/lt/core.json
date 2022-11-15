@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Spalvota antraštė",
                 "colors_heading": "Spalvos",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "colors_text": "Pasirinkite dvi spalvas savo forumo tematikai. Pirmoji bus naudojama kaip paryškinimo spalva, o antroji – fono elementams formuoti.",
                 "custom_footer_heading": "Pasirinktinis footer",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -22,8 +24,6 @@
                 "logo_heading": "Logotipas",
                 "logo_text": "Įkelkite vaizdą, kuris bus rodomas vietoje forumo pavadinimo.",
                 "title": "Išvaizda",
-                "colors_primary_label": "",
-                "colors_secondary_label": "",
                 "submit_button": "=> core.ref.okay"
             },
             "basics": {
@@ -49,9 +49,13 @@
             "dashboard": {
                 "clear_cache_button": "Išvalyti talpyklą",
                 "description": "Jūsų forumas trumpai.",
+                "io_error_message": "",
                 "title": "Skydelis",
-                "tools_button": "Įrankiai",
-                "io_error_message": ""
+                "tools_button": "Įrankiai"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "Tinkinkite savo forumo išvaizdą pridėdami savo LESS/CSS kodą, kuris bus taikomas kartu su Flarum <a>numatytaisiais stiliais</a>.",
@@ -254,10 +258,6 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Viso narių: {count}"
-            },
-            "debug-warning": {
-                "detail": "",
-                "label": ""
             }
         },
         "forum": {
@@ -375,15 +375,15 @@
                 "username_or_email_placeholder": "Vartotojo vardas arba el. paštas"
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "{username} pakeitė temos pavadinimą",
                 "empty_text": "Pranešimų nėra",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Pažymėti kaip perskaitytą",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Žiūrėti pranešimus",
-                "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "Redaguota",
@@ -425,14 +425,14 @@
                 "account_heading": "Paskyra",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Žiniatinklis",
                 "notify_discussion_renamed_label": "Kažkas pervadino mano pradėtą diskusiją",
                 "privacy_disclose_online_label": "Rodyti kitiems kada esu prisijungęs(-usi)",
                 "privacy_heading": "Privatumas",
-                "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": ""
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

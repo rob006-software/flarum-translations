@@ -1,6 +1,9 @@
 {
     "flarum-mentions": {
         "admin": {
+            "permissions": {
+                "mention_groups_label": ""
+            },
             "settings": {
                 "allow_username_format_label": "Luba kasutajanimele viitamise formaat (@kasutajanimi)",
                 "allow_username_format_text": "Hetkel on kasutajanimele viitamise formaadiks @\"kuvatav nimi\"#ID.\nLubatud on kasutada ka vana formaati @kasutajanimi, kuid salvestamisel teisendatakse see ikkagi uude formaati.\n"
@@ -14,7 +17,8 @@
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} vastas sinu postitusele",
-                "user_mentioned_text": "{username} viitas sinule"
+                "user_mentioned_text": "{username} viitas sinule",
+                "group_mentioned_text": ""
             },
             "post": {
                 "mentioned_by_self_text": "{users} vastasid sellele.",
@@ -26,13 +30,17 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "Keegi vastab minu postitusele",
-                "notify_user_mentioned_label": "Keegi viitab minule oma postituses"
+                "notify_user_mentioned_label": "Keegi viitab minule oma postituses",
+                "notify_group_mentioned_label": ""
             },
             "user": {
                 "mentions_link": "Viited"
             },
             "post_mention": {
                 "deleted_text": "[tundmatu]"
+            },
+            "group_mention": {
+                "deleted_text": ""
             }
         },
         "email": {
@@ -43,6 +51,10 @@
             "user_mentioned": {
                 "subject": "{mentioner_display_name} viitas sinule oma postituses teemas {title}",
                 "body": "Hei {recipient_display_name}!\n\n{mentioner_display_name} viitas sinule oma postituses teemas {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "group_mentioned": {
+                "subject": "",
+                "body": ""
             }
         }
     }

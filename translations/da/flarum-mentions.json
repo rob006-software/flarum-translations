@@ -1,6 +1,9 @@
 {
     "flarum-mentions": {
         "admin": {
+            "permissions": {
+                "mention_groups_label": ""
+            },
             "settings": {
                 "allow_username_format_label": "Tillad omtale af brugernavn (@brugernavn)",
                 "allow_username_format_text": "Det aktuelle format for brugeromtaler er @\"Visningsnavn\"#ID.\nDenne indstilling tillader brug af det gamle format af @Brugernavn, men det vil stadig blive konverteret til det nye format ved lagring.\n"
@@ -14,7 +17,8 @@
             "notifications": {
                 "others_text": "",
                 "post_mentioned_text": "{username} svarede på dit indlæg",
-                "user_mentioned_text": "{username} nævnte dig"
+                "user_mentioned_text": "{username} nævnte dig",
+                "group_mentioned_text": ""
             },
             "post": {
                 "mentioned_by_self_text": "{users} svarede på dette.",
@@ -26,13 +30,17 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "Der er en der svarer på et af mine indlæg",
-                "notify_user_mentioned_label": "Der er en der omtaler mig i et indlæg"
+                "notify_user_mentioned_label": "Der er en der omtaler mig i et indlæg",
+                "notify_group_mentioned_label": ""
             },
             "user": {
                 "mentions_link": "Omtaler"
             },
             "post_mention": {
                 "deleted_text": "[ukendt]"
+            },
+            "group_mention": {
+                "deleted_text": ""
             }
         },
         "email": {
@@ -43,6 +51,10 @@
             "user_mentioned": {
                 "subject": "{mentioner_display_name} omtalte dig i {title}",
                 "body": "Hej {recipient_display_name}!\n\n{mentioner_display_name} nævnte dig i et indlæg i {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "group_mentioned": {
+                "subject": "",
+                "body": ""
             }
         }
     }

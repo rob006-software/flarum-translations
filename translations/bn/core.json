@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "রঙিন Header",
                 "colors_heading": "রঙ সমূহ",
+                "colors_primary_label": "প্রাথমিক কালার",
+                "colors_secondary_label": "Secondary কালার",
                 "colors_text": "আপনার ফোরাম এর theme এর জন্য দুটি রঙ পছন্দ করুন ।প্রথমটি হাইলাইট কালার হিসেবে ব্যবহৃত হবে, আর অপর টি Background Elements স্টাইল করার জন্য ব্যবহৃত হবে।",
                 "custom_footer_heading": "কাস্টম Footer",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -21,9 +23,7 @@
                 "favicon_text": "ফোরাম এর Shortcut আইকন হিসেবে ব্যবহার করার জন্য একটি ইমেজ আপলোড করুন ।",
                 "logo_heading": "লোগো",
                 "logo_text": "ফোরাম title এর জায়গায় প্রদর্শিত হওয়ার জন্য একটি ইমেজ আপলোড করুন ।",
-                "title": "অ্যাপিয়ারেন্স",
-                "colors_primary_label": "প্রাথমিক কালার",
-                "colors_secondary_label": "Secondary কালার"
+                "title": "অ্যাপিয়ারেন্স"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -46,9 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "Cache ক্লিয়ার করুন",
                 "description": "একনজরে আপনার ফোরাম।",
+                "io_error_message": "দুঃখিত! Filesystem এ লিখতে পারিনি। দয়া করে আপনার Filesystem এর Permission গুলো check করুন । অন্যথায় Command Line থেকে চেষ্টা করুন।",
                 "title": "ড্যাশবোর্ড",
-                "tools_button": "টুলস",
-                "io_error_message": "দুঃখিত! Filesystem এ লিখতে পারিনি। দয়া করে আপনার Filesystem এর Permission গুলো check করুন । অন্যথায় Command Line থেকে চেষ্টা করুন।"
+                "tools_button": "টুলস"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "আপনার নিজস্ব সিএসএস কোড অ্যাড করে ফোরামের অ্যাপিয়ারেন্স কাস্টমাইজ করুন। এই কোড গুলো ফ্লারাম এর <a>ডিফল্ট স্টাইল কোড</a>এর উপর প্রয়োগ হবে।",
@@ -245,10 +249,6 @@
                 },
                 "title": "",
                 "total_users": ""
-            },
-            "debug-warning": {
-                "detail": "",
-                "label": ""
             }
         },
         "forum": {
@@ -365,15 +365,15 @@
                 "username_or_email_placeholder": ""
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "",
                 "empty_text": "",
                 "mark_all_as_read_tooltip": "",
                 "mark_as_read_tooltip": "",
                 "title": "",
                 "toggle_dropdown_accessible_label": "",
-                "tooltip": "",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "tooltip": ""
             },
             "post": {
                 "edited_text": "",
@@ -415,14 +415,14 @@
                 "account_heading": "",
                 "change_email_button": "",
                 "change_password_button": "",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "",
                 "notify_by_email_heading": "",
                 "notify_by_web_heading": "",
                 "notify_discussion_renamed_label": "",
                 "privacy_disclose_online_label": "",
                 "privacy_heading": "",
-                "title": "",
-                "notification_checkbox_a11y_label_template": ""
+                "title": ""
             },
             "sign_up": {
                 "dismiss_button": "",

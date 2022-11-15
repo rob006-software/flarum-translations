@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "ფერადი სათაური",
                 "colors_heading": "ფერები",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "colors_text": "აირჩიეთ ორი ფერი თქვენი ფორუმის თემატიკაზე. პირველი გამოყენებული იქნება ხაზგასმული ფერის სახით, ხოლო მეორე გამოყენებული იქნება ფონის ელემენტების სტილის შესაქმნელად.",
                 "custom_footer_heading": "სასურველი ქვე-კლონტიტული",
                 "custom_footer_text": "",
@@ -21,9 +23,7 @@
                 "favicon_text": "ატვირთეთ სურათი, რომელიც გამოვა ფორუმის აიქონად.",
                 "logo_heading": "ლოგო",
                 "logo_text": "ატვირთეთ სურათი, რომლითაც გამოყოფილი იქნება ფორუმის სათაური.",
-                "title": "გარეგნობა",
-                "colors_primary_label": "",
-                "colors_secondary_label": ""
+                "title": "გარეგნობა"
             },
             "basics": {
                 "all_discussions_label": "",
@@ -46,9 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "ქეშის გასუფთავება",
                 "description": "თქვენი ფორუმი ერთი შეხედვით.",
+                "io_error_message": "",
                 "title": "დაფა",
-                "tools_button": "ხელსაწყოები",
-                "io_error_message": ""
+                "tools_button": "ხელსაწყოები"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "მოირგეთ თქვენი ფორუმის გარეგნობა და დაამატეთ თქვენი საკუთარი LESS/CSS კოდი, რომელიც უნდა იქნას გამოყენებული Flarum-ის <a>Default styles</a> -ზე.",
@@ -247,10 +251,6 @@
                 },
                 "title": "",
                 "total_users": ""
-            },
-            "debug-warning": {
-                "detail": "",
-                "label": ""
             }
         },
         "forum": {
@@ -368,15 +368,15 @@
                 "username_or_email_placeholder": "მომხმარებლის სახელი ან ელ.ფოსტა"
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "{username} მა შეცვალა სათაური",
                 "empty_text": "შეტყობინებები არ არის",
                 "mark_all_as_read_tooltip": "",
                 "mark_as_read_tooltip": "წაკითხულად მონიშვნა",
                 "title": "",
                 "toggle_dropdown_accessible_label": "",
-                "tooltip": "",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "tooltip": ""
             },
             "post": {
                 "edited_text": "რედაქტირებულია",
@@ -418,14 +418,14 @@
                 "account_heading": "ანგარიში",
                 "change_email_button": "",
                 "change_password_button": "",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "",
                 "notify_by_email_heading": "",
                 "notify_by_web_heading": "ვები",
                 "notify_discussion_renamed_label": "ვიღაც სახელს უცვლის ჩემს დაწყებულ დისკუსიას",
                 "privacy_disclose_online_label": "ნება დართეთ სხვებმა ნახონ, როდის ვარ ონლაინ",
                 "privacy_heading": "კონფიდენციალურობა",
-                "title": "",
-                "notification_checkbox_a11y_label_template": ""
+                "title": ""
             },
             "sign_up": {
                 "dismiss_button": "",

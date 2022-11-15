@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Barevné záhlaví",
                 "colors_heading": "Barvy",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "colors_text": "Zvol dvě barvy, kterými nastyluješ své fórum. První bude použita pro zvýraznění, zatímco druhá bude použita jako barva pozadí prvků.",
                 "custom_footer_heading": "Vlastní zápatí",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -21,9 +23,7 @@
                 "favicon_text": "Nahraj obrázek, který se zobrazí jako favicon (náhledová ikonka v prohlížeči) tvého fóra.",
                 "logo_heading": "Logo",
                 "logo_text": "Nahraj obrázek, který se zobrazí na místě názvu tvého fóra.",
-                "title": "Vzhled",
-                "colors_primary_label": "",
-                "colors_secondary_label": ""
+                "title": "Vzhled"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -46,9 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "Vymazat mezipaměť",
                 "description": "Přehled vašeho fóra.",
+                "io_error_message": "",
                 "title": "Nástěnka",
-                "tools_button": "Nástroje",
-                "io_error_message": ""
+                "tools_button": "Nástroje"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "Uprav si vzhled svého fóra přidáním vlastního LESS/CSS kódu, který bude použit nad <a>defaultními Flarum styly</a>.",
@@ -245,10 +249,6 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Celkový počet uživatelů: {count}"
-            },
-            "debug-warning": {
-                "detail": "",
-                "label": ""
             }
         },
         "forum": {
@@ -365,15 +365,15 @@
                 "username_or_email_placeholder": "Přezdívka nebo e-mail"
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "{username} změnil nadpis",
                 "empty_text": "Žádná oznámení",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Označit jako přečteno",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Zobrazit oznámení",
-                "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "Upraveno",
@@ -415,14 +415,14 @@
                 "account_heading": "Účet",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Někdo přejmenuje téma, které jsem založil",
                 "privacy_disclose_online_label": "Umožnit ostatním uživatelům vidět, že jsem on-line",
                 "privacy_heading": "Soukromí",
-                "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": ""
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

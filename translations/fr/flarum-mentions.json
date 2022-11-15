@@ -1,6 +1,9 @@
 {
     "flarum-mentions": {
         "admin": {
+            "permissions": {
+                "mention_groups_label": ""
+            },
             "settings": {
                 "allow_username_format_label": "Autoriser le format de mention du nom d'utilisateur (@utilisateur)",
                 "allow_username_format_text": "Le format actuel des mentions d'utilisateur est @\"Nom d'affichage\"#Identifiant.\nCe paramètre permet d'utiliser l'ancien format @\"Nom d'utilisateur\" qui sera néanmoins converti au nouveau format lors de l'enregistrement.\n"
@@ -14,7 +17,8 @@
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} a répondu à votre message",
-                "user_mentioned_text": "{username} vous a mentionné"
+                "user_mentioned_text": "{username} vous a mentionné",
+                "group_mentioned_text": ""
             },
             "post": {
                 "mentioned_by_self_text": "{users} avez répondu à ça.",
@@ -26,13 +30,17 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "Quelqu'un répond à un de mes messages",
-                "notify_user_mentioned_label": "Quelqu'un me mentionne dans un message"
+                "notify_user_mentioned_label": "Quelqu'un me mentionne dans un message",
+                "notify_group_mentioned_label": ""
             },
             "user": {
                 "mentions_link": "Mentions"
             },
             "post_mention": {
                 "deleted_text": "[inconnu]"
+            },
+            "group_mention": {
+                "deleted_text": ""
             }
         },
         "email": {
@@ -43,6 +51,10 @@
             "user_mentioned": {
                 "subject": "{mentioner_display_name} vous a mentionné dans {title}",
                 "body": "Bonjour {recipient_display_name} !\n\n{mentioner_display_name} vous a mentionné dans un message de {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "group_mentioned": {
+                "subject": "",
+                "body": ""
             }
         }
     }

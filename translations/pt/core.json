@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Cabeçalho colorido",
                 "colors_heading": "Cores",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "colors_text": "Escolha duas cores para o tema do seu fórum. O primeiro será usado como uma cor de destaque, enquanto o segundo será usado para estilizar elementos de fundo.",
                 "custom_footer_heading": "Rodapé personalizado",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -21,9 +23,7 @@
                 "favicon_text": "Carregue uma imagem para ser exibida como ícone de atalho do fórum.",
                 "logo_heading": "Logotipo",
                 "logo_text": "Carregue uma imagem para ser exibida no lugar do título do fórum.",
-                "title": "Aparência",
-                "colors_primary_label": "",
-                "colors_secondary_label": ""
+                "title": "Aparência"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -46,9 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "Limpar cache",
                 "description": "Resumo do seu fórum.",
+                "io_error_message": "",
                 "title": "Dashboard",
-                "tools_button": "Ferramentas",
-                "io_error_message": ""
+                "tools_button": "Ferramentas"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "Personalize a aparência do seu fórum adicionando seu próprio código Less / CSS a ser aplicado sobre os <a>estilos padrão</a>do Flarum.",
@@ -252,10 +256,6 @@
                 "title": "=> core.ref.users",
                 "total_users": "Total de usuários: {count}"
             },
-            "debug-warning": {
-                "detail": "",
-                "label": ""
-            },
             "extensions": {
                 "add_button": "Adicionar extensão",
                 "settings_button": "=> core.ref.settings",
@@ -377,15 +377,15 @@
                 "username_or_email_placeholder": "Nome de usuário ou e-mail"
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "{username} alterou o título",
                 "empty_text": "Nenhuma notificação",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Marcar como Lido",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Ver Notificações",
-                "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "Editado",
@@ -427,14 +427,14 @@
                 "account_heading": "Conta",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Notificações",
                 "notify_discussion_renamed_label": "Alguém renomeia uma discussão que eu comecei",
                 "privacy_disclose_online_label": "Permitir que outras pessoas vejam quando estou online",
                 "privacy_heading": "Privacidade",
-                "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": ""
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

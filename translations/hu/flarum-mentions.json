@@ -1,6 +1,9 @@
 {
     "flarum-mentions": {
         "admin": {
+            "permissions": {
+                "mention_groups_label": ""
+            },
             "settings": {
                 "allow_username_format_label": "A felhasználó megemlítésének engedélyezése (@Felhasználó)",
                 "allow_username_format_text": "A felhasználók megemlítésének jelenlegi formátuma: @\"Megjelenítendő név\"#Azonosító.\nEz a beállítás megengedi a régi formátumot (@Felhasználónév), de mentéskor az új formátum lesz használva.\n"
@@ -14,7 +17,8 @@
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} válaszolt a bejegyzésére",
-                "user_mentioned_text": "{username} megemlítette"
+                "user_mentioned_text": "{username} megemlítette",
+                "group_mentioned_text": ""
             },
             "post": {
                 "mentioned_by_self_text": "{users} válaszolt erre.",
@@ -26,13 +30,17 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "Valaki válaszolt az egyik bejegyzésemre",
-                "notify_user_mentioned_label": "Valaki megemlített egy bejegyzésben"
+                "notify_user_mentioned_label": "Valaki megemlített egy bejegyzésben",
+                "notify_group_mentioned_label": ""
             },
             "user": {
                 "mentions_link": "Említések"
             },
             "post_mention": {
                 "deleted_text": "[ismeretlen]"
+            },
+            "group_mention": {
+                "deleted_text": ""
             }
         },
         "email": {
@@ -43,6 +51,10 @@
             "user_mentioned": {
                 "subject": "{mentioner_display_name} megemlítette itt: {title}",
                 "body": "Kedves {recipient_display_name}!\n\n{mentioner_display_name} megemlítette egy bejegyzésben itt: {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "group_mentioned": {
+                "subject": "",
+                "body": ""
             }
         }
     }

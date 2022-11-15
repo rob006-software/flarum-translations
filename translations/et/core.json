@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Värviline päis",
                 "colors_heading": "Värvid",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "colors_text": "Vali kaks värvi oma foorumi kujundamiseks. Esimest kasutatakse esiletoodud elementides, teist taustaelementides.",
                 "custom_footer_heading": "Kohandatud jalus",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -21,9 +23,7 @@
                 "favicon_text": "Laadi üles pilt, mida näidatakse foorumi otsetee ikoonil.",
                 "logo_heading": "Logo",
                 "logo_text": "Laadi üles pilt, mida näidatakse foorumi pealkirja asemel.",
-                "title": "Välimus",
-                "colors_primary_label": "",
-                "colors_secondary_label": ""
+                "title": "Välimus"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -46,9 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "Puhasta vahemälu",
                 "description": "Foorumi ülevaade.",
+                "io_error_message": "",
                 "title": "Juhtpaneel",
-                "tools_button": "Tööriistad",
-                "io_error_message": ""
+                "tools_button": "Tööriistad"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "Kohanda oma foorumi välimust enda Less/CSS koodi abil, mida kasutatakse lisaks Flarumi <a>vaikimisi stiilidele</a>.",
@@ -245,10 +249,6 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Kokku kasutajaid: {count}"
-            },
-            "debug-warning": {
-                "detail": "",
-                "label": ""
             }
         },
         "forum": {
@@ -365,15 +365,15 @@
                 "username_or_email_placeholder": "Kasutajanimi või meiliaadress"
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "{username} muutis pealkirja",
                 "empty_text": "Teateid pole",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Märgi loetuks",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Näita teateid",
-                "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "Muudetud",
@@ -415,14 +415,14 @@
                 "account_heading": "Konto",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Veeb",
                 "notify_discussion_renamed_label": "Keegi nimetab minu alustatud teema ringi",
                 "privacy_disclose_online_label": "Näita teistele, kui ma olen lehel sees",
                 "privacy_heading": "Privaatsus",
-                "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": ""
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Farebná Hlavička",
                 "colors_heading": "Farby",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "colors_text": "Vyberte dve hlavné farby pre Vaše fórum. Prvá bude použitá ako zvýrazňovacia farba, a druhá bude naopak použitá pre zafarbenie prvkov v pozadí.",
                 "custom_footer_heading": "Vlastná Päta",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -22,8 +24,6 @@
                 "logo_heading": "Logo",
                 "logo_text": "Nahrajte obrázok ktorý bude zobrazený namiesto názvu Vášho fóra.",
                 "title": "Vzhľad",
-                "colors_primary_label": "",
-                "colors_secondary_label": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
@@ -49,9 +49,13 @@
             "dashboard": {
                 "clear_cache_button": "Vymazať Vyrovnávaciu Pamäť",
                 "description": "Vaše fórum na dlani.",
+                "io_error_message": "",
                 "title": "Hlavný Panel",
-                "tools_button": "Nástroje",
-                "io_error_message": ""
+                "tools_button": "Nástroje"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "Prispôsobte vzhľad Vášho fóra pridaním Vašich vlastných LESS/CSS kódov, ktoré budú aplikované spolu so <a>základnými Flarum štýlmi</a>.",
@@ -254,10 +258,6 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Celkový počet používateľov: {count}"
-            },
-            "debug-warning": {
-                "detail": "",
-                "label": ""
             }
         },
         "forum": {
@@ -375,15 +375,15 @@
                 "username_or_email_placeholder": "Používateľské meno alebo E-Mail"
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "Používateľ {username} zmenil názov",
                 "empty_text": "Žiadne Upozornenia",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Označiť Ako Prečítané",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Zobraziť upozornenia",
-                "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "Upravené",
@@ -425,14 +425,14 @@
                 "account_heading": "Účet",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Niekto premenuje diskusiu ktorú som začal",
                 "privacy_disclose_online_label": "Umožniť ostatním vidieť kedy som online",
                 "privacy_heading": "Súkromie",
-                "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": ""
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

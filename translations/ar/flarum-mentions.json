@@ -1,6 +1,9 @@
 {
     "flarum-mentions": {
         "admin": {
+            "permissions": {
+                "mention_groups_label": ""
+            },
             "settings": {
                 "allow_username_format_label": "السماح بتنسيق ذكر اسم المستخدم (@اسم المستخدم)",
                 "allow_username_format_text": "التنسيق الحالي المستخدَم لإشارات هو @ \"الاسم المعروض\" #ID.\nيسمح هذا الإعداد باستخدام التنسيق القديم لـUsername، ولكن سيظل يتم تحويله إلى التنسيق الجديد عند الحفظ.\n"
@@ -14,7 +17,8 @@
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} ردّ(ت) على منشورك",
-                "user_mentioned_text": "{username} أشار(ت) إليك"
+                "user_mentioned_text": "{username} أشار(ت) إليك",
+                "group_mentioned_text": ""
             },
             "post": {
                 "mentioned_by_self_text": "{users} ردّ على هذا.",
@@ -26,13 +30,17 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "إذا قام شخص بالرّدّ على إحدى منشوراتي",
-                "notify_user_mentioned_label": "إذا قم شخص بالإشارة إليّ في منشور"
+                "notify_user_mentioned_label": "إذا قم شخص بالإشارة إليّ في منشور",
+                "notify_group_mentioned_label": ""
             },
             "user": {
                 "mentions_link": "الإشارات"
             },
             "post_mention": {
                 "deleted_text": "[مجهول]"
+            },
+            "group_mention": {
+                "deleted_text": ""
             }
         },
         "email": {
@@ -43,6 +51,10 @@
             "user_mentioned": {
                 "subject": "{mentioner_display_name} أشار(ت) إليك في {title}",
                 "body": "مرحبا {recipient_display_name}! \n \n لقد قام(ت) {mentioner_display_name} بالإشارة إليك في منشور في {title}. \n \nيُمكنك الوصول إلى المنشور عن طريق الانتقال بواسطة الرّابط الآتي: {url} \n \n--- \n \n{content}\n"
+            },
+            "group_mentioned": {
+                "subject": "",
+                "body": ""
             }
         }
     }

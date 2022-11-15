@@ -1,6 +1,9 @@
 {
     "flarum-mentions": {
         "admin": {
+            "permissions": {
+                "mention_groups_label": ""
+            },
             "settings": {
                 "allow_username_format_label": "",
                 "allow_username_format_text": ""
@@ -14,7 +17,8 @@
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username}님이 귀하의 게시물에 답장했습니다",
-                "user_mentioned_text": "{username}님이 귀하를 언급했습니다"
+                "user_mentioned_text": "{username}님이 귀하를 언급했습니다",
+                "group_mentioned_text": ""
             },
             "post": {
                 "mentioned_by_self_text": "{users}님이 이에 답장했습니다.",
@@ -26,12 +30,16 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "누군가 내 게시물 중 하나에 답장했을 때",
-                "notify_user_mentioned_label": "누군가 게시물에서 나를 언급했을 때"
+                "notify_user_mentioned_label": "누군가 게시물에서 나를 언급했을 때",
+                "notify_group_mentioned_label": ""
             },
             "user": {
                 "mentions_link": "언급"
             },
             "post_mention": {
+                "deleted_text": ""
+            },
+            "group_mention": {
                 "deleted_text": ""
             }
         },
@@ -41,6 +49,10 @@
                 "body": ""
             },
             "user_mentioned": {
+                "subject": "",
+                "body": ""
+            },
+            "group_mentioned": {
                 "subject": "",
                 "body": ""
             }

@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "色付きのヘッダー",
                 "colors_heading": "色",
+                "colors_primary_label": "メインカラー",
+                "colors_secondary_label": "サブカラー",
                 "colors_text": "フォーラムに使用する色を2つ選択してください。1つ目はハイライトに使用され、2つ目は背景色に使用されます。",
                 "custom_footer_heading": "カスタムフッター",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -21,9 +23,7 @@
                 "favicon_text": "画像をアップロードすると、フォーラムのFaviconに表示されます。",
                 "logo_heading": "ロゴ",
                 "logo_text": "画像をアップロードすると、フォーラムのタイトルの代わりに表示されます。",
-                "title": "外見",
-                "colors_primary_label": "メインカラー",
-                "colors_secondary_label": "サブカラー"
+                "title": "外見"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -46,9 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "キャッシュのクリア",
                 "description": "フォーラムの概況を確認します。",
+                "io_error_message": "ファイルシステムに書き込むことが出来ませんでした。ファイルシステムの権限を確認して再度実行するか、コマンドラインからの実行をお試しください。",
                 "title": "ダッシュボード",
-                "tools_button": "ツール",
-                "io_error_message": "ファイルシステムに書き込むことが出来ませんでした。ファイルシステムの権限を確認して再度実行するか、コマンドラインからの実行をお試しください。"
+                "tools_button": "ツール"
+            },
+            "debug-warning": {
+                "detail": "When <code>デバッグ</code>モードが有効化されている場合、Flarumは<code>JavaScript</code> と <code>CSS</code> のリビルドをリクエスト毎に実行します。また、データベースシークレットや環境変数などのデータが漏洩する可能性があります。\n\n運用環境においては、<code>config.php</code>を開いて<code>debug</code>を無効化することを強く推奨します。詳細は<link>Flarum docs</link>をご確認ください。\n",
+                "label": "デバッグモードが有効"
             },
             "edit_css": {
                 "customize_text": "Less/CSSコードを使用して<a>標準のスタイル</a>を上書きすることで、Flarumの見た目をカスタマイズできます。",
@@ -245,10 +249,6 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "全ユーザー数: {count}"
-            },
-            "debug-warning": {
-                "detail": "When <code>デバッグ</code>モードが有効化されている場合、Flarumは<code>JavaScript</code> と <code>CSS</code> のリビルドをリクエスト毎に実行します。また、データベースシークレットや環境変数などのデータが漏洩する可能性があります。\n\n運用環境においては、<code>config.php</code>を開いて<code>debug</code>を無効化することを強く推奨します。詳細は<link>Flarum docs</link>をご確認ください。\n",
-                "label": "デバッグモードが有効"
             }
         },
         "forum": {
@@ -365,15 +365,15 @@
                 "username_or_email_placeholder": "ユーザー名もしくはメールアドレス"
             },
             "notifications": {
+                "delete_all_confirm": "すべての通知を削除しますか？この操作は取り消しできません",
+                "delete_all_tooltip": "すべての通知を削除",
                 "discussion_renamed_text": "{username} がタイトルを変更しました",
                 "empty_text": "通知なし",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "既読にする",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "通知を表示",
-                "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "すべての通知を削除しますか？この操作は取り消しできません",
-                "delete_all_tooltip": "すべての通知を削除"
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "編集済み",
@@ -415,14 +415,14 @@
                 "account_heading": "アカウント",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "\"{description}\"通知を{method}を通して受け取る",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "あなたの作成したスレッドのタイトルが変更された時",
                 "privacy_disclose_online_label": "自分のオンライン状況を他のユーザーが確認できるようにする",
                 "privacy_heading": "プライバシー",
-                "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": "\"{description}\"通知を{method}を通して受け取る"
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

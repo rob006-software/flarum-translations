@@ -1,6 +1,9 @@
 {
     "flarum-mentions": {
         "admin": {
+            "permissions": {
+                "mention_groups_label": ""
+            },
             "settings": {
                 "allow_username_format_label": "",
                 "allow_username_format_text": ""
@@ -14,7 +17,8 @@
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{count, plural, one {{username} respondió a tu publicación.} other {{username} respondieron a tu publicación.}}",
-                "user_mentioned_text": "{username} te mencionó"
+                "user_mentioned_text": "{username} te mencionó",
+                "group_mentioned_text": ""
             },
             "post": {
                 "mentioned_by_self_text": "{count, plural, one {{users} respondiste a esto} other {{users} respondísteis a esto}}",
@@ -26,12 +30,16 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "Alguien respondió a tu publicación",
-                "notify_user_mentioned_label": "Alguien te mencionó en una publicación"
+                "notify_user_mentioned_label": "Alguien te mencionó en una publicación",
+                "notify_group_mentioned_label": ""
             },
             "user": {
                 "mentions_link": "Menciones"
             },
             "post_mention": {
+                "deleted_text": ""
+            },
+            "group_mention": {
                 "deleted_text": ""
             }
         },
@@ -43,6 +51,10 @@
             "user_mentioned": {
                 "subject": "{mencioner_display_name} te mencionó en {title}",
                 "body": "Hey {recipient_display_name}!\n\n{mencioner_display_name} te mencionó en una publicación en {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "group_mentioned": {
+                "subject": "",
+                "body": ""
             }
         }
     }

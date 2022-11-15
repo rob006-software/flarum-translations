@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Färgat Sidhuvud",
                 "colors_heading": "Färger",
+                "colors_primary_label": "Primär färg",
+                "colors_secondary_label": "Sekundär färg",
                 "colors_text": "Välj två grundfärger för ditt forum. Den första kommer att användas som markeringsfärg, medan den andra kommer användas som bakgrundfärg för olika element.",
                 "custom_footer_heading": "Anpassad sidfot",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -22,8 +24,6 @@
                 "logo_heading": "Logotyp",
                 "logo_text": "Ladda upp en bild som kommer att visas istället för forumets titel.",
                 "title": "Utseende",
-                "colors_primary_label": "Primär färg",
-                "colors_secondary_label": "Sekundär färg",
                 "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
@@ -49,9 +49,13 @@
             "dashboard": {
                 "clear_cache_button": "Rensa cache",
                 "description": "Ditt forum vid en anblick.",
+                "io_error_message": "Kan inte skriva till filsystemet. Kontrollera dina behörigheter till filsystemet och försök igen. Eller försök köra via kommandorad.",
                 "title": "Kontrollpanel",
-                "tools_button": "Verktyg",
-                "io_error_message": "Kan inte skriva till filsystemet. Kontrollera dina behörigheter till filsystemet och försök igen. Eller försök köra via kommandorad."
+                "tools_button": "Verktyg"
+            },
+            "debug-warning": {
+                "detail": "När <code>debug</code> läge är aktivt kommer Flarum att köra rebuild på  <code>JavaScript</code> och <code>CSS</code> vid varje anrop, och det är då också möjligt att känslig information som t ex database secrets och miljövariabler läcker ut i interfacet.\n\nDet är därför rekommenderat att   <code>debug</code> i <code>config.php</code> filen aldrig är aktiverat i en produktionsmiljö. Se <link>Flarum docs</link> för mer information.\n",
+                "label": "Debug-läge aktivt"
             },
             "edit_css": {
                 "customize_text": "Ändra ditt forums utseende genom att lägga till egen LESS/CSS-kod som skriver över Flarums standardutseende.",
@@ -254,10 +258,6 @@
                 },
                 "title": "Användare",
                 "total_users": "Totalt antal användare: {count}"
-            },
-            "debug-warning": {
-                "detail": "När <code>debug</code> läge är aktivt kommer Flarum att köra rebuild på  <code>JavaScript</code> och <code>CSS</code> vid varje anrop, och det är då också möjligt att känslig information som t ex database secrets och miljövariabler läcker ut i interfacet.\n\nDet är därför rekommenderat att   <code>debug</code> i <code>config.php</code> filen aldrig är aktiverat i en produktionsmiljö. Se <link>Flarum docs</link> för mer information.\n",
-                "label": "Debug-läge aktivt"
             }
         },
         "forum": {
@@ -375,15 +375,15 @@
                 "username_or_email_placeholder": "Användarnamn eller E-postadress"
             },
             "notifications": {
+                "delete_all_confirm": "Är du säker på att du vill radera alla notifieringar? Du kan inte återkalla beslutet",
+                "delete_all_tooltip": "Radera alla notifieringar",
                 "discussion_renamed_text": "{username} ändrade rubriken",
                 "empty_text": "Inga notifieringar",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Markera som läst",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Visa notifieringar",
-                "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "Är du säker på att du vill radera alla notifieringar? Du kan inte återkalla beslutet",
-                "delete_all_tooltip": "Radera alla notifieringar"
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "Redigerad",
@@ -425,14 +425,14 @@
                 "account_heading": "Konto",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "Ta emot \"{description}\" notifieringar via {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Webb",
                 "notify_discussion_renamed_label": "Någon byter namn på en tråd jag startat",
                 "privacy_disclose_online_label": "Tillåt andra att se när jag är online",
                 "privacy_heading": "Integritet",
-                "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": "Ta emot \"{description}\" notifieringar via {method}"
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

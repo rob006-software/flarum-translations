@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Başlıq rəngi (Header)",
                 "colors_heading": "Rənglər",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "colors_text": "Forumunuzun mövzusu üçün iki rəng seçin. Birincisi parlaq rəng olaraq, ikincisi fon elementlərini tərtib etmək üçün istifadə ediləcək.",
                 "custom_footer_heading": "Xüsusi Footer",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -21,9 +23,7 @@
                 "favicon_text": "Favicon yüklə",
                 "logo_heading": "Loqo",
                 "logo_text": "Loqo yüklə",
-                "title": "Görünüş",
-                "colors_primary_label": "",
-                "colors_secondary_label": ""
+                "title": "Görünüş"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -46,9 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "Keşi təmizlə",
                 "description": "Forumunuz bir baxışda.",
+                "io_error_message": "",
                 "title": "Panel",
-                "tools_button": "Alətlər",
-                "io_error_message": ""
+                "tools_button": "Alətlər"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "Flarum -un üstünə tətbiq olunacaq öz CSS kodunuzu əlavə edərək forumunuzun görünüşünü fərdiləşdirin <a>Standart stil</a>.",
@@ -247,10 +251,6 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Ümumi istifadəçilər: {count}"
-            },
-            "debug-warning": {
-                "detail": "",
-                "label": ""
             }
         },
         "forum": {
@@ -368,15 +368,15 @@
                 "username_or_email_placeholder": "İstifadəçi adı və ya E-poçt"
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "{username} başlığını dəyişdi",
                 "empty_text": "Bildiriş yoxdur",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Oxunmuş kimi işarələyin",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Bildirişlərə bax",
-                "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "Redaktə edildi",
@@ -418,14 +418,14 @@
                 "account_heading": "Hesab",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Biri yeni açdığım mövzunun adını dəyişir",
                 "privacy_disclose_online_label": "Görünməzlik (Açıq olduqda online gorünürsünüz)",
                 "privacy_heading": "Məxfilik",
-                "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": ""
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

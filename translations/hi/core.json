@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "रंगीन शीर्ष लेख",
                 "colors_heading": "रंग",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "colors_text": "अपने फ़ोरम को तीम देने के लिए दो रंग चुनें। पहले का उपयोग प्रकाशित रंग के रूप में किया जाएगा, जबकि दूसरे का उपयोग पीछे के क्षेत्रों में रंग बरने के लिए किया जाएगा।",
                 "custom_footer_heading": "विशेष पाद लेख",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -21,9 +23,7 @@
                 "favicon_text": "फ़ोरम के शॉर्टकट आइकन के रूप में प्रदर्शित होने के लिए एक छवि अपलोड करें।",
                 "logo_heading": "लोगो",
                 "logo_text": "फ़ोरम शीर्षक के स्थान पर प्रदर्शित होने वाली छवि अपलोड करें।",
-                "title": "रूप",
-                "colors_primary_label": "",
-                "colors_secondary_label": ""
+                "title": "रूप"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -46,9 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "कैश को साफ़ करें",
                 "description": "आपका मंच एक नजर में।",
+                "io_error_message": "",
                 "title": "नियंत्रण पन्ना",
-                "tools_button": "उपकरण",
-                "io_error_message": ""
+                "tools_button": "उपकरण"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "फलरूम की <a>डिफ़ॉल्ट शैलियों</a> के शीर्ष पर लागू करने के लिए अपना लेस्स /सीएसएस कोड जोड़कर अपने मंच की उपस्थिति को अनुकूलित करें।",
@@ -247,10 +251,6 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "कुल उपयोगकर्ता: {count}"
-            },
-            "debug-warning": {
-                "detail": "",
-                "label": ""
             }
         },
         "forum": {
@@ -368,15 +368,15 @@
                 "username_or_email_placeholder": "उपयोगकर्ता का नाम या ईमेल"
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "{username} ने शीर्षक बदल दिया",
                 "empty_text": "कोई सूचनाएं नहीं",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "पढ़े हुए का चिह्न",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "सूचनाएं देखें",
-                "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "संपादित",
@@ -418,14 +418,14 @@
                 "account_heading": "खाता",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "वेब",
                 "notify_discussion_renamed_label": "किसी ने मेरे द्वारा शुरू की गई चर्चा का नाम बदल दिया",
                 "privacy_disclose_online_label": "दूसरों को देखने दें कि मैं कब ऑनलाइन हूं",
                 "privacy_heading": "एकांत",
-                "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": ""
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

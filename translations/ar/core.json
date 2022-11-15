@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "ترويسة ملونة",
                 "colors_heading": "الألوان",
+                "colors_primary_label": "اللّون الأوّلي",
+                "colors_secondary_label": "اللّون الثّانوي",
                 "colors_text": "اختر لونين أساسيين لاستايل منتداك ، الأول سيكون لون النصوص والثانى لون الخلفي.",
                 "custom_footer_heading": "تذييل مخصص",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -21,9 +23,7 @@
                 "favicon_text": "قم بتحميل صورة لعرضها كأيقونة اختصار للمنتدى.",
                 "logo_heading": "شعار",
                 "logo_text": "قم بتحميل صورة لعرضها مكان عنوان المنتدى.",
-                "title": "المظهر",
-                "colors_primary_label": "اللّون الأوّلي",
-                "colors_secondary_label": "اللّون الثّانوي"
+                "title": "المظهر"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -46,9 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "مسح ذاكرة التخزين المؤقت",
                 "description": "المنتدى الخاص بك في لمحة.",
+                "io_error_message": "",
                 "title": "لوحة المعلومات",
-                "tools_button": "أدوات",
-                "io_error_message": ""
+                "tools_button": "أدوات"
+            },
+            "debug-warning": {
+                "detail": "عندما يكون وضع <code>التّصحيح</code> نشطًا، سيعيد فلاروم إنشاء أصول <code>JavaScript</code> و<code>CSS</code> الخاصّة به عند كل طلب، ويمكن أيضًا أن يؤدّي إلى تسريب معلومات أخرى، مثل أسرار قاعدة البيانات، ومتغيّرات البيئة، وما إلى ذلك.\n\nيوصَى بشدّة بتعطيل <code>التصحيح</code> في ملف <code>config.php</code> في الإنتاج. انظر <link>مستندات فلاروم</link> لمزيد من المعلومات.\n",
+                "label": "وضعُ التّصحيح نشطٌ"
             },
             "edit_css": {
                 "customize_text": "قم بتخصيص مظهر المنتدى الخاص بك عن طريق إضافة رمز Less / CSS الخاص بك ليتم تطبيقه أعلى <a>الأنماط الافتراضيّة</a> لفلاروم.",
@@ -245,10 +249,6 @@
                 },
                 "title": "",
                 "total_users": "إجمالي المستخدمين: {count}"
-            },
-            "debug-warning": {
-                "detail": "عندما يكون وضع <code>التّصحيح</code> نشطًا، سيعيد فلاروم إنشاء أصول <code>JavaScript</code> و<code>CSS</code> الخاصّة به عند كل طلب، ويمكن أيضًا أن يؤدّي إلى تسريب معلومات أخرى، مثل أسرار قاعدة البيانات، ومتغيّرات البيئة، وما إلى ذلك.\n\nيوصَى بشدّة بتعطيل <code>التصحيح</code> في ملف <code>config.php</code> في الإنتاج. انظر <link>مستندات فلاروم</link> لمزيد من المعلومات.\n",
-                "label": "وضعُ التّصحيح نشطٌ"
             }
         },
         "forum": {
@@ -365,15 +365,15 @@
                 "username_or_email_placeholder": "اسم المتخدم او البريد الالكترونى"
             },
             "notifications": {
+                "delete_all_confirm": "هل أنت متأكد(ة) أنك تريد(ين) حذف جميع الإشعارات؟ هذا إجراء لا يمكن التراجع عنه",
+                "delete_all_tooltip": "حذف جميع الإشعارات",
                 "discussion_renamed_text": "{username} غيّر(ت) العنوان",
                 "empty_text": "لا توجد إعلامات",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "وضع علامة كمقروء",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "عرض الإخطارات",
-                "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "هل أنت متأكد(ة) أنك تريد(ين) حذف جميع الإشعارات؟ هذا إجراء لا يمكن التراجع عنه",
-                "delete_all_tooltip": "حذف جميع الإشعارات"
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "تم التحرير",
@@ -415,14 +415,14 @@
                 "account_heading": "الحساب",
                 "change_email_button": "",
                 "change_password_button": "",
+                "notification_checkbox_a11y_label_template": "تلقّي إشعارات \"{description}\" عبر {method}",
                 "notifications_heading": "",
                 "notify_by_email_heading": "",
                 "notify_by_web_heading": "الويب",
                 "notify_discussion_renamed_label": "قام شخص بإعادة تسمية المناقشة التي بدأتها",
                 "privacy_disclose_online_label": "السّماح للآخرين بمعرفة ما إذا كنت متّصلاً",
                 "privacy_heading": "الخصوصيّة",
-                "title": "",
-                "notification_checkbox_a11y_label_template": "تلقّي إشعارات \"{description}\" عبر {method}"
+                "title": ""
             },
             "sign_up": {
                 "dismiss_button": "",

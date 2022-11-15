@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Gekleurde header",
                 "colors_heading": "Kleuren",
+                "colors_primary_label": "Primaire kleur",
+                "colors_secondary_label": "Secundaire kleur",
                 "colors_text": "Kies twee kleuren om je forum mee vorm te geven. De eerste zal worden gebruikt als highlight-kleur, terwijl de tweede wordt gebruikt voor achtergrond elementen.",
                 "custom_footer_heading": "Eigen voettekst",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -21,9 +23,7 @@
                 "favicon_text": "Upload een afbeelding om weergegeven te worden als snelkoppeling.",
                 "logo_heading": "Logo",
                 "logo_text": "Upload een afbeelding om weergegeven te worden i.p.v. de forum titel.",
-                "title": "Vormgeving",
-                "colors_primary_label": "Primaire kleur",
-                "colors_secondary_label": "Secundaire kleur"
+                "title": "Vormgeving"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -46,9 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "Cache wissen",
                 "description": "Uw forum in één oogopslag.",
+                "io_error_message": "Kan niet naar het bestandssysteem schrijven. Controleer de machtigingen van uw bestandssysteem en probeer het opnieuw. Of probeer uit te voeren vanuit de CLI.",
                 "title": "Dashboard",
-                "tools_button": "Hulpmiddelen",
-                "io_error_message": "Kan niet naar het bestandssysteem schrijven. Controleer de machtigingen van uw bestandssysteem en probeer het opnieuw. Of probeer uit te voeren vanuit de CLI."
+                "tools_button": "Hulpmiddelen"
+            },
+            "debug-warning": {
+                "detail": "Wanneer de <code>debug</code>-modus actief is, zal Flarum zijn <code>JavaScript</code>- en <code>CSS</code>-assets bij elk verzoek opnieuw opbouwen en kan mogelijk ook andere informatie lekken, zoals database geheimen, omgevingsvariabelen, enz.\n\nHet wordt ten sterkste aanbevolen om <code>debug</code> uit te schakelen in uw <code>config.php</code>-bestand in productie. Zie <link>Flarum-documenten</link> voor meer informatie.\n",
+                "label": "Debug modus actief"
             },
             "edit_css": {
                 "customize_text": "Pas je forum's uiterlijk aan doormiddel van eigen LESS/CSS code bovenop Flarum's <a>standaard stijl</a>.",
@@ -247,10 +251,6 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Aantal gebruikers: {count}"
-            },
-            "debug-warning": {
-                "detail": "Wanneer de <code>debug</code>-modus actief is, zal Flarum zijn <code>JavaScript</code>- en <code>CSS</code>-assets bij elk verzoek opnieuw opbouwen en kan mogelijk ook andere informatie lekken, zoals database geheimen, omgevingsvariabelen, enz.\n\nHet wordt ten sterkste aanbevolen om <code>debug</code> uit te schakelen in uw <code>config.php</code>-bestand in productie. Zie <link>Flarum-documenten</link> voor meer informatie.\n",
-                "label": "Debug modus actief"
             }
         },
         "forum": {
@@ -368,15 +368,15 @@
                 "username_or_email_placeholder": "Gebruikersnaam of e-mail"
             },
             "notifications": {
+                "delete_all_confirm": "Weet je zeker dat je alle meldingen wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt",
+                "delete_all_tooltip": "Alle meldingen verwijderen",
                 "discussion_renamed_text": "{username} heeft de titel veranderd",
                 "empty_text": "Geen notificaties",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Markeren als gelezen",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Bekijk meldingen",
-                "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "Weet je zeker dat je alle meldingen wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt",
-                "delete_all_tooltip": "Alle meldingen verwijderen"
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "Bijgewerkt",
@@ -418,14 +418,14 @@
                 "account_heading": "Account",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "Ontvang \"{description}\"-meldingen via {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Iemand heeft een discussie die jij hebt gestart hernoemd",
                 "privacy_disclose_online_label": "Laat anderen zien wanneer ik online ben",
                 "privacy_heading": "Privacy",
-                "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": "Ontvang \"{description}\"-meldingen via {method}"
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

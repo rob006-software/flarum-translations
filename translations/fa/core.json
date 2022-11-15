@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "سربرگ رنگی",
                 "colors_heading": "رنگ‌ها",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "colors_text": "دو رنگ برای تم انجمن خود انتخاب کنید. اولی به عنوان رنگ برجسته و دومی برای استایل دهی به عناصر پس زمینه استفاده خواهد شد.",
                 "custom_footer_heading": "فوتر سفارشی",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -22,8 +24,6 @@
                 "logo_heading": "لوگو",
                 "logo_text": "تصویری برای نمایش در محل عنوان انجمن آپلود کنید.",
                 "title": "ظاهر",
-                "colors_primary_label": "",
-                "colors_secondary_label": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
@@ -49,9 +49,13 @@
             "dashboard": {
                 "clear_cache_button": "پاک کردن cache",
                 "description": "انجمن شما در یک نگاه",
+                "io_error_message": "",
                 "title": "داشبورد",
-                "tools_button": "ابزارها",
-                "io_error_message": ""
+                "tools_button": "ابزارها"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "ظاهر انجمن خود را با افزودن کد LESS/CSS خود که در بالای <a>استایل های پیشفرض</a> Flarum اعمال می شود ، سفارشی کنید .",
@@ -270,10 +274,6 @@
                 "title": "=> core.ref.users",
                 "total_users": "کل کاربران: {count}"
             },
-            "debug-warning": {
-                "detail": "",
-                "label": ""
-            },
             "add_extension": {
                 "developer_text": "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions.",
                 "install_text": "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer.",
@@ -401,15 +401,15 @@
                 "username_or_email_placeholder": "نام کاربری یا رایانامه"
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "{username} عنوان را تغییر داد",
                 "empty_text": "اعلانی وجود ندارد",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "علامت گذاری به عنوان خوانده شده",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "مشاهده اطلاعیه ها",
-                "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "ویرایش شده",
@@ -451,14 +451,14 @@
                 "account_heading": "حساب کاربری",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "وب‌سایت",
                 "notify_discussion_renamed_label": "اگر کسی نام مباحث من را تغییر داد",
                 "privacy_disclose_online_label": "اگر آنلاین بودم به دیگران نمایش بده",
                 "privacy_heading": "حریم شخصی",
-                "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": ""
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

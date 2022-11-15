@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Rangli Sarlavha",
                 "colors_heading": "Ranglar",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "colors_text": "Forumingizni stilizatsiyalash uchun ikkita rang tanlang. Birinchisi ajratish rangi sifatida ishlatiladi, ikkinchisi esa fon elementlarini stilizatsiya qilish uchun ishlatiladi.",
                 "custom_footer_heading": "Custom footer",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -21,9 +23,7 @@
                 "favicon_text": "Forumning yorliq belgisi sifatida ko'rsatiladigan rasmni yuklang.",
                 "logo_heading": "Logotip",
                 "logo_text": "Forum sarlavhasi o'rniga ko'rsatiladigan rasmni yuklang.",
-                "title": "Ko'rinish",
-                "colors_primary_label": "",
-                "colors_secondary_label": ""
+                "title": "Ko'rinish"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -46,9 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "Keshni tozalash",
                 "description": "Sizning forumingiz bir qarashda.",
+                "io_error_message": "",
                 "title": "Boshqaruv paneli",
-                "tools_button": "Asboblar",
-                "io_error_message": ""
+                "tools_button": "Asboblar"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "Flarumning <a>standart uslublari</a> ustiga qo'llanilishi uchun o'zingizning Less/CSS kodingizni qo'shish orqali forumingiz ko'rinishini moslashtiring.",
@@ -247,10 +251,6 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Jami foydalanuvchilar: {count}"
-            },
-            "debug-warning": {
-                "detail": "",
-                "label": ""
             }
         },
         "forum": {
@@ -368,15 +368,15 @@
                 "username_or_email_placeholder": "Username yoki email"
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "{username} sarlavhani o'zgartirdi",
                 "empty_text": "Xabar yo'q",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "O'qildi deb belgilash",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Xabarlarni ko'rish",
-                "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "",
-                "delete_all_tooltip": ""
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "O'zgartirildi",
@@ -418,14 +418,14 @@
                 "account_heading": "Akkaunt",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Veb",
                 "notify_discussion_renamed_label": "Meni muhokamamni nomini kimdir o'zgartirdi",
                 "privacy_disclose_online_label": "Boshqalarga onlayn ekanimni ko'rsatish",
                 "privacy_heading": "Maxfiylik",
-                "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": ""
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",

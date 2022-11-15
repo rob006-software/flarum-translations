@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Värillinen yläosa",
                 "colors_heading": "Värit",
+                "colors_primary_label": "Ensisijainen väri",
+                "colors_secondary_label": "Toissijainen väri",
                 "colors_text": "Valitse kaksi väriä foorumin teemaksi. Ensimmäistä käytetään korostusvärinä, kun taas toista väriä käytetään taustaelementeissä.",
                 "custom_footer_heading": "Mukautettu alaosa",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -21,9 +23,7 @@
                 "favicon_text": "Siirrä kuva, jota käytetään foorumin faviconina.",
                 "logo_heading": "Logo",
                 "logo_text": "Siirrä kuva, jota käytetään foorumin logona tekstin sijaan.",
-                "title": "Ulkoasu",
-                "colors_primary_label": "Ensisijainen väri",
-                "colors_secondary_label": "Toissijainen väri"
+                "title": "Ulkoasu"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -46,9 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "Tyhjennä välimuisti",
                 "description": "Foorumisi yhdellä silmäyksellä.",
+                "io_error_message": "Tiedostoihin ei voitu kirjoittaa. Tarkista tiedostojen ja kansioiden oikeudet ja yritä uudelleen. Tai voit yrittää ajaa komentoriviltä.",
                 "title": "Kojelauta",
-                "tools_button": "Työkalut",
-                "io_error_message": "Tiedostoihin ei voitu kirjoittaa. Tarkista tiedostojen ja kansioiden oikeudet ja yritä uudelleen. Tai voit yrittää ajaa komentoriviltä."
+                "tools_button": "Työkalut"
+            },
+            "debug-warning": {
+                "detail": "Kun <code>debug</code> tila on aktiivisena Flarum luo uudelleen sen <code>JavaScript</code> ja <code>CSS</code> koodit joka pyynnöllä ja voi mahdollisesti vuotaa joitain tietoja kuten tietokanta salaisuuksia, ympäristön määreitä yms.\n\nSuosittelemme, että otat <code>debug</code> tilan pois päältä <code>config.php</code> tiedostosta tuotannossa. Katso <link>Flarumin dokumentoinnista</link> lisää tietoa.\n",
+                "label": "Debug tila aktiivisena"
             },
             "edit_css": {
                 "customize_text": "Muokkaa foorumisi ulkoasua lisäämällä omia Less/CSS koodeja joita käytetään Flarumin <a>oletustyylien</a> lisäksi.",
@@ -247,10 +251,6 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Käyttäjiä yhteensä: {count}"
-            },
-            "debug-warning": {
-                "detail": "Kun <code>debug</code> tila on aktiivisena Flarum luo uudelleen sen <code>JavaScript</code> ja <code>CSS</code> koodit joka pyynnöllä ja voi mahdollisesti vuotaa joitain tietoja kuten tietokanta salaisuuksia, ympäristön määreitä yms.\n\nSuosittelemme, että otat <code>debug</code> tilan pois päältä <code>config.php</code> tiedostosta tuotannossa. Katso <link>Flarumin dokumentoinnista</link> lisää tietoa.\n",
-                "label": "Debug tila aktiivisena"
             }
         },
         "forum": {
@@ -368,15 +368,15 @@
                 "username_or_email_placeholder": "Tunnus tai sähköpostiosoite"
             },
             "notifications": {
+                "delete_all_confirm": "Haluatko varmasti poistaa kaikki ilmoitukset? Tätä ei voi perua",
+                "delete_all_tooltip": "Poista kaikki ilmoitukset",
                 "discussion_renamed_text": "{username} vaihtoi otsikon",
                 "empty_text": "Ei ilmoituksia",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Merkitse luetuksi",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Näytä ilmoitukset",
-                "tooltip": "=> core.ref.notifications",
-                "delete_all_confirm": "Haluatko varmasti poistaa kaikki ilmoitukset? Tätä ei voi perua",
-                "delete_all_tooltip": "Poista kaikki ilmoitukset"
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "Muokattu",
@@ -418,14 +418,14 @@
                 "account_heading": "Tili",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "Vastaanota \"{description}\" ilmoituksia {method} kautta",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Joku nimeää uudelleen keskustelun jonka aloitin",
                 "privacy_disclose_online_label": "Näytä muille, että olen paikalla",
                 "privacy_heading": "Yksityisyys",
-                "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": "Vastaanota \"{description}\" ilmoituksia {method} kautta"
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
