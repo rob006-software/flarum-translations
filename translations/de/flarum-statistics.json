@@ -2,35 +2,35 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "Wähle einen benutzerdefinierten Datumsbereich, für den du Statistiken anzeigen möchtest.\nDas Laden der Daten kann bei Foren mit viel Aktivität mehrere Minuten dauern.\n",
+                "end_date": "Enddatum (einschließlich)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "Das Enddatum muss vor dem Startdatum liegen."
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "Startdatum (einschließlich)",
+                "submit_button": "Datumsbereich bestätigen",
+                "title": "Benutzerdefinierten Datumsbereich wählen"
             },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
-                "export_chart_button": "",
+                "export_chart_button": "Diagramm als SVG exportieren",
                 "last_12_months_label": "Letzte 12 Monate",
                 "last_28_days_label": "Letzte 28 Tage",
                 "last_7_days_label": "Letzte 7 Tage",
                 "mini_heading": "Forum Statistiken",
                 "previous_28_days_label": "Vorherige 28 Tage",
                 "previous_7_days_label": "Vorherige 7 Tage",
-                "custom_label": "",
-                "custom_label_specified": "",
+                "custom_label": "Individuellen Bereich auswählen…",
+                "custom_label_specified": "{fromDate} bis {toDate}",
                 "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "Heute",
                 "total_label": "Insgesamt",
                 "users_heading": "=> core.ref.users",
                 "view_full": "Mehr Statistiken anzeigen",
-                "no_data": "",
-                "current_period": "",
-                "previous_period": "",
+                "no_data": "Für diesen Datumsbereich sind keine Daten verfügbar.",
+                "current_period": "Aktueller Zeitraum",
+                "previous_period": "Vorheriger Zeitraum",
                 "active_users_text": "{count} Aktiv"
             }
         }
