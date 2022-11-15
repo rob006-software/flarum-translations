@@ -3,9 +3,9 @@
         "admin": {
             "menu": {
                 "title": "Taksonomiler",
-                "discussions": "",
-                "users": "",
-                "products": "",
+                "discussions": "Tartışma taksonomileri",
+                "users": "Kullanıcı taksonomileri",
+                "products": "Ürün taksonomileri",
                 "description": "Özel taksonomiler ve terimler oluşturun."
             },
             "page": {
@@ -22,10 +22,10 @@
                     "edit": "Taksonomiyi Düzenle"
                 },
                 "section": {
-                    "info": "",
-                    "filling": "",
-                    "browsing": "",
-                    "scope": ""
+                    "info": "Bilgi",
+                    "filling": "Dolgu",
+                    "browsing": "Tarama",
+                    "scope": "Dürbün"
                 },
                 "field": {
                     "type": "Tip",
@@ -37,20 +37,20 @@
                     "icon": "=> flamarkt-taxonomies.ref.field.icon",
                     "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription",
                     "showLabel": "Sınıflandırma etiketini terimle birlikte göster",
-                    "showLabelDescription": "",
-                    "enableFilter": "",
-                    "enableFilterDescription": "",
-                    "showFilter": "Filtreyi ana sayfada göster",
-                    "showFilterDescription": "",
-                    "enableFulltextSearch": "",
-                    "enableFulltextSearchDescription": "",
-                    "enableFulltextSearchWarning": "",
+                    "showLabelDescription": "Tartışma listesi ve kahraman için görüntüleme stili. Şu anda diğer kaynak türleri için kullanılmamaktadır.\n",
+                    "enableFilter": "Sorgu dizesi/API filtrelerini etkinleştir",
+                    "enableFilterDescription": "Taksonomi türünün \"tümünü görme\" iznine sahip kullanıcılar için taksonomi filtrelerinin tartışmalara, kullanıcılara ve ürünlere derinlemesine bağlanmasına izin verir. Bu, aynı kullanıcıların arama filtrelerini REST API ile kullanmasına da olanak tanır. \"Filtreleri göster\" ayarı olmadan, kullanıcıların bu bağlantıları kullanıcılar ve ürünler için elde etmesinin açık bir yolu yoktur. Tartışmalar için derin bağlantı, \"Filtreleri göster\" devre dışı bırakılmış olsa bile kahramanda bulunabilir.\n",
+                    "showFilter": "Liste/dizin sayfalarında filtreleri göster",
+                    "showFilterDescription": "Filtreleri tartışma listesinde, kullanıcı dizininde veya mağaza dizininde düzenli ziyaretçilere gösterin. Yalnızca \"Filtreleri etkinleştir\" etkinleştirildiğinde çalışır. Mağaza yöneticileri, arka ofiste her zaman herhangi bir taksonomiye göre filtre uygulayabilir.\n",
+                    "enableFulltextSearch": "Tam metin araması için dizin terimleri",
+                    "enableFulltextSearchDescription": "Yalnızca Scout entegrasyonu etkinken etkilidir. Terim adları, normal kullanıcılar için tam metin aramada mevcut olan verilerin bir parçası olacaktır. Veriler, sınıflandırmayı görme izni olan kullanıcılar tarafından değil, kaynağı listeleme izni olan herhangi bir kullanıcı tarafından aranabilir (\"Tartışmalar için \"Forumu görüntüle\", kullanıcılar için \"Kullanıcıları ara\" ve ürünler için herkes ara\")! Mevcut taksonomiler için bu ayarı değiştirdikten sonra kaynak için Scout arama dizinini manuel olarak yeniden oluşturmalısınız; aynı şey, terimler atanırken taksonomiyi silerseniz de olur.\n",
+                    "enableFulltextSearchWarning": "Kaynak arama izinleriniz (tartışmalar için \"Forumu görüntüle\", kullanıcılar için \"Kullanıcı ara\") Taksonomilerin \"tümünü gör\" izinlerinden farklıdır. Bu seçeneği etkinleştirmeden önce, normalde taksonomileri göremeseler bile bu kullanıcılar için verileri aranabilir hale getirdiğinizden emin olun!\n",
                     "allowCustomValues": "Özel değerlere izin ver",
                     "customValueValidation": "Özel değerler için doğrulama",
                     "customValueSlugger": "Özel değerler için Slugger",
                     "customValueSluggerDescription": "Slug'un nasıl oluşturulmasını istediğinizi seçin. Bir bilgi zaten varsa, sayısal bir önek otomatik olarak eklenir. Transliterator seçeneği için, diğer uzantıyı önceden yüklemeniz ve yapılandırmanız gerekir.\n",
                     "countRequired": "Gerekli terim sayısı",
-                    "countRequiredDescription": "Bu sınıflandırmalardan bir tartışmaya uygulanabilecek minimum ve maksimum terim sayısını girin.\n",
+                    "countRequiredDescription": "Bu taksonomiden bir kaynağa uygulanabilecek minimum ve maksimum terim sayısını girin.\n",
                     "rangeSeparatorText": "ile",
                     "tagScope": "Yalnızca belirtilen etiketlerde",
                     "tagScopeDescription": "Sınıflandırma yalnızca seçilen etiketlerde kullanılabilir. Tek bir etiket seçerseniz, ana sayfa filtresi yalnızca o belirli etikette görünür.\n",
