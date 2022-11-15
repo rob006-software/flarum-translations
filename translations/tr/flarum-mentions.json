@@ -2,7 +2,7 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "Bahsetme grupları"
             },
             "settings": {
                 "allow_username_format_label": "Kullanıcı adıyla bahsetmeye izin ver (@Kullanıcı)",
@@ -11,14 +11,14 @@
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "Bir kullanıcı veya gönderiden bahsedin",
+                "mention_tooltip": "Bir kullanıcıdan, gruptan veya gönderiden bahsedin",
                 "reply_to_post_text": "#{number} numaralı gönderiye yanıt"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} senin gönderini yanıtladı",
                 "user_mentioned_text": "{username} senden bahsetti",
-                "group_mentioned_text": ""
+                "group_mentioned_text": "{username}, üyesi olduğunuz bir gruptan bahsetti"
             },
             "post": {
                 "mentioned_by_self_text": "{users} bunu yanıtladın.",
@@ -31,7 +31,7 @@
             "settings": {
                 "notify_post_mentioned_label": "Birisi gönderimi yanıtladığında",
                 "notify_user_mentioned_label": "Birisi bir gönderide benden bahsettiğinde",
-                "notify_group_mentioned_label": ""
+                "notify_group_mentioned_label": "Birisi bir gönderide üyesi olduğum bir gruptan bahsediyor"
             },
             "user": {
                 "mentions_link": "Bahsetmeler"
@@ -40,7 +40,7 @@
                 "deleted_text": "[bilinmeyen]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[bilinmeyen grup]"
             }
         },
         "email": {
@@ -53,8 +53,8 @@
                 "body": "Hey {recipient_display_name}!\n\n{mentioner_display_name}, {title} tartışmasında senden bahsetti.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name}, {title} içinde üyesi olduğunuz bir gruptan bahsetti",
+                "body": "Merhaba {recipient_display_name}!\n\n{mentioner_display_name}, {title} içinde üyesi olduğunuz bir gruptan bahsetti.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
