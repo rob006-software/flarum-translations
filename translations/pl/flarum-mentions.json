@@ -2,7 +2,7 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "Wspominanie grup"
             },
             "settings": {
                 "allow_username_format_label": "Pozwól na wspominanie używając nazwy użytkownika (@login)",
@@ -11,14 +11,14 @@
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "Wspomnij użytkownika bądź post",
+                "mention_tooltip": "Wspomnij użytkownika, grupę lub post",
                 "reply_to_post_text": "Odpowiedz na #{number}"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} odpowiedział na Twój post",
                 "user_mentioned_text": "{username} wspomniał o Tobie",
-                "group_mentioned_text": ""
+                "group_mentioned_text": "{username} wspomniał grupę, której jesteś członkiem"
             },
             "post": {
                 "mentioned_by_self_text": "{count, plural, one {{users} odpowiedziałeś na to} other {{users} odpowiedzieliście na to}}.",
@@ -31,7 +31,7 @@
             "settings": {
                 "notify_post_mentioned_label": "Ktoś odpowiedział na mój post",
                 "notify_user_mentioned_label": "Ktoś wspomniał o mnie w poście",
-                "notify_group_mentioned_label": ""
+                "notify_group_mentioned_label": "Ktoś wspomniał w poście grupę, której jestem członkiem"
             },
             "user": {
                 "mentions_link": "Wzmianki"
@@ -40,7 +40,7 @@
                 "deleted_text": "[nieznany]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[nieznana grupa]"
             }
         },
         "email": {
@@ -53,8 +53,8 @@
                 "body": "Witaj {recipient_display_name},\n\n{mentioner_display_name} wspomniał o Tobie w poście w \"{title}\".\n\nAby zobaczyć nową aktywność, kliknij poniższy link:\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} wspomniał grupę, której jestem członkiem, w {title}",
+                "body": "Witaj {recipient_display_name},\n\n{mentioner_display_name} wspomniał grupę, której jestem członkiem, w poście w \"{title}\".\n\nAby zobaczyć nową aktywność, kliknij poniższy link:\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
