@@ -31,7 +31,7 @@
                     "rename_category": "Renommer la catégorie",
                     "edit_description": "Modifier la description",
                     "change_icon": "Modifier l'icône",
-                    "recount_articles": ""
+                    "recount_articles": "Recompter les articles"
                 }
             },
             "article_events": {
@@ -233,7 +233,7 @@
                     },
                     "private_note": {
                         "title": "Notes privées",
-                        "info": "Les notes privées ne sont pas visibles pour le client et sont destinées aux agents d'assistance.",
+                        "info": "Les notes privées ne sont visibles que par les autres agents d'assistance. Elles ne sont pas visibles pour le client.",
                         "tip": "CONSEIL : si vous travaillez avec plusieurs agents sur un même ticket, ajoutez votre nom et une date à la note.",
                         "placeholder": "Exemple : 1er janvier 2022 - Nom de l'agent : client supprimé de la base de données",
                         "edit_button": "Modifier la note"
