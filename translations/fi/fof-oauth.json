@@ -60,13 +60,13 @@
             "user": {
                 "settings": {
                     "linked-account": {
-                        "label": "",
-                        "last-used-label": "",
-                        "link-created-label": "",
-                        "orphaned-account": "",
-                        "help": "",
-                        "identifier-label": "",
-                        "unlink-confirm": ""
+                        "label": "Linkitetyt tilit",
+                        "last-used-label": "Viimeksi käytetty",
+                        "link-created-label": "Linkki luotu",
+                        "orphaned-account": "Olet rekisteröitynyt tämän palvelun kautta, mutta foorumi on poistanut tämän metodin pois käytöstä.",
+                        "help": "Nämä linkitetyt tilit sallivat sinun kirjautua sisään foorumille käyttäen muita toimijoita.",
+                        "identifier-label": "{provider} ID",
+                        "unlink-confirm": "Haluatko varmasti poistaa linkityksen palveluun {provider}? Et voi enää kirjautua sisään foorumille käyttäen tätä palvelu ellet uudelleen autentikoi."
                     }
                 }
             },
@@ -82,7 +82,7 @@
             "signup": {
                 "username_help": "Valitse käyttäjätunnus mitä käytetään täällä foorumilla"
             },
-            "unlink": "",
+            "unlink": "Poista linkki",
             "error": {
                 "bad_verification_code": "Virheellinen tai vanhentunut token. Yritä uudelleen.",
                 "invalid_state": "Virhellinen tila. Yritä uudelleen."
