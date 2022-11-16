@@ -15,7 +15,7 @@
                 "watermark": "Choisissez si un filigrane sera ajouté aux images lors du téléchargement. Les filigranes sont ajoutés aux images qui ne sont pas des GIFS en fonction de vos préférences définies ci-dessous.\n",
                 "s3_compatible_storage": "Les paramètres suivants ne sont obligatoires que si vous utilisez un stockage compatible S3. Si vous utilisez AWS, vous pouvez les laisser vides.\n",
                 "s3_acl": "L'ACL qui doit être appliquée à l'objet téléchargé (par défaut : privé). Pour les valeurs possibles, veuillez consulter https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
-                "s3_instance_profile": "Laissez la clé et le secret vides pour utiliser les informations d'identification dans le profil de l'instance.\n",
+                "s3_instance_profile": "Laissez la clé et la clé secrète vides pour utiliser les informations d'identification dans le profil de l'instance.\n",
                 "composer_buttons": "Par défaut, le bouton du gestionnaire de médias et le bouton de téléchargement sont tous deux visibles. Vous pouvez également décider de n'afficher qu'un seul bouton.\n"
             },
             "labels": {
@@ -23,7 +23,7 @@
                     "bucket": "Espace de stockage mémoire",
                     "key": "Clé",
                     "region": "Région",
-                    "secret": "Secret",
+                    "secret": "Clé secrète",
                     "title": "Paramètres de stockage AWS S3",
                     "advanced_title": "Paramètres avancés de stockage S3",
                     "endpoint": "Point d'accès",
@@ -50,7 +50,7 @@
                 "qiniu": {
                     "title": "Paramètres de stockage d'Qiniu",
                     "key": "Clé",
-                    "secret": "Secret",
+                    "secret": "Clé secrète",
                     "bucket": "Espace de stockage mémoire"
                 },
                 "preferences": {
