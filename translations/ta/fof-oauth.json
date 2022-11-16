@@ -57,6 +57,19 @@
                 "with_linkedin_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_twitter_button": "=> fof-oauth.forum.log_in.with_button"
             },
+            "user": {
+                "settings": {
+                    "linked-account": {
+                        "label": "",
+                        "last-used-label": "",
+                        "link-created-label": "",
+                        "orphaned-account": "",
+                        "help": "",
+                        "identifier-label": "",
+                        "unlink-confirm": ""
+                    }
+                }
+            },
             "providers": {
                 "discord": "=> fof-oauth.lib.providers.discord",
                 "facebook": "=> fof-oauth.lib.providers.facebook",
@@ -69,6 +82,7 @@
             "signup": {
                 "username_help": ""
             },
+            "unlink": "",
             "error": {
                 "bad_verification_code": "",
                 "invalid_state": ""
