@@ -2,14 +2,14 @@
     "ianm-log-viewer": {
         "admin": {
             "permissions": {
-                "access_logfile_api": ""
+                "access_logfile_api": "Accès aux données du fichier journal via l'API"
             },
             "viewer": {
-                "available_logs_heading": "",
-                "file_contents_heading": "",
-                "file_size": "",
-                "last_updated": "",
-                "no_file_selected": ""
+                "available_logs_heading": "Fichiers disponibles",
+                "file_contents_heading": "Contenu des fichiers",
+                "file_size": "Taille (octets) : {size}",
+                "last_updated": "Dernière mise à jour : {updated}",
+                "no_file_selected": "Sélectionner un fichier journal pour afficher son contenu."
             }
         }
     }
