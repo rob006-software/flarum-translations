@@ -4,31 +4,31 @@
             "settings": {
                 "providers": {
                     "apple": {
-                        "description": "",
-                        "client_id_label": "",
-                        "key_file_id_label": "",
-                        "keyfile_upload_label": "",
-                        "keyfile_upload_help": "",
+                        "description": "Enregistrer votre forum auprès d'Apple {link}",
+                        "client_id_label": "Identifiant du service",
+                        "key_file_id_label": "Identifiant du fichier clé",
+                        "keyfile_upload_label": "Fichier clé",
+                        "keyfile_upload_help": "Créez un <a>fichier clé</a> et transférez-le ici",
                         "keyfile_upload": {
-                            "upload_button": "",
-                            "remove_button": ""
+                            "upload_button": "Transférer le fichier clé",
+                            "remove_button": "Supprimer le fichier clé"
                         },
-                        "team_id_label": ""
+                        "team_id_label": "Identifiant de l'équipe"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_apple_button": ""
+                "with_apple_button": "Se connecter avec {provider}"
             },
             "providers": {
-                "apple": ""
+                "apple": "=> fof-oauth.lib.providers.apple"
             }
         },
         "lib": {
             "providers": {
-                "apple": ""
+                "apple": "Apple"
             }
         }
     }
