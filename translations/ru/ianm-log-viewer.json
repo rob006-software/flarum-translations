@@ -4,6 +4,10 @@
             "permissions": {
                 "access_logfile_api": "Доступ к данным журнала через API"
             },
+            "settings": {
+                "purge-days": "",
+                "purge-days-help": ""
+            },
             "viewer": {
                 "available_logs_heading": "Доступные файлы",
                 "file_contents_heading": "Содержимое файла",

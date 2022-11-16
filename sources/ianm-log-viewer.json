@@ -4,6 +4,10 @@
             "permissions": {
                 "access_logfile_api": "Access logfile data via the API"
             },
+            "settings": {
+                "purge-days": "Purge logfiles after days",
+                "purge-days-help": "Relies on the Flarum scheduler being active. 0 for disabled."
+            },
             "viewer": {
                 "available_logs_heading": "Available files",
                 "file_contents_heading": "File contents",
