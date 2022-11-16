@@ -60,13 +60,13 @@
             "user": {
                 "settings": {
                     "linked-account": {
-                        "label": "",
-                        "last-used-label": "",
-                        "link-created-label": "",
-                        "orphaned-account": "",
-                        "help": "",
-                        "identifier-label": "",
-                        "unlink-confirm": ""
+                        "label": "关联的帐户",
+                        "last-used-label": "上次使用",
+                        "link-created-label": "已创建链接",
+                        "orphaned-account": "您以前已通过此提供程序登录，但是现在论坛已禁用使用此方法登录。",
+                        "help": "这些链接的帐户允许您使用其他提供商登录论坛。",
+                        "identifier-label": "{provider} ID",
+                        "unlink-confirm": "是否确实要删除与 {provider} 的链接？您将无法再登录此论坛，除非您将来重新进行身份验证。"
                     }
                 }
             },
@@ -82,7 +82,7 @@
             "signup": {
                 "username_help": "请选择用户名"
             },
-            "unlink": "",
+            "unlink": "移除链接",
             "error": {
                 "bad_verification_code": "无效或过期的验证令牌，请重试。",
                 "invalid_state": "无效状态，请重试。"
