@@ -3,15 +3,15 @@
         "admin": {
             "settings": {
                 "proxy": {
-                    "title": "",
-                    "helptext": ""
+                    "title": "Proxy des cravatars",
+                    "helptext": "Par défaut, les URL des cravatars sont récupérées directement de cravatar.cn. Cela permet à toutes les demandes de cravatars d'être servies directement par le forum lui-même."
                 },
                 "replace-flarum-custom": {
-                    "title": "",
-                    "helptext": ""
+                    "title": "Remplacer les avatars personnalisés transférés sur le forum",
+                    "helptext": "Remplacer les avatars personnalisés déjà transférés sur le forum par un cravatar"
                 },
                 "defaults": {
-                    "title": "",
+                    "title": "Par défaut",
                     "helptext": "",
                     "mp_label": "",
                     "identicon_label": "",
