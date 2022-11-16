@@ -2,15 +2,15 @@
     "blomstra-turnstile": {
         "admin": {
             "settings": {
-                "site_key": "",
-                "secret_key": ""
+                "site_key": "Sivuston avain (Site key)",
+                "secret_key": "Salainen avain (Secret key)"
             }
         },
         "forum": {
-            "not_loaded_error": ""
+            "not_loaded_error": "Cloudflare Turnstilen lataus epäonnistui. Lataa sivu uudestaan ja tarkista mainoksenesto."
         }
     },
     "validation": {
-        "turnstile": ""
+        "turnstile": "Emme voineet vahvistaa oletko robotti vai et. Lataa sivu uudelleen ja yritä uudestaan."
     }
 }
