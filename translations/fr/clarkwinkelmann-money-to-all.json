@@ -2,27 +2,27 @@
     "clarkwinkelmann-money-to-all": {
         "lib": {
             "modal": {
-                "title": "",
-                "amount": "",
-                "notify": "",
-                "message": "",
-                "messagePlaceholder": "",
-                "messageHelp": "",
-                "suspended": "",
-                "lastActivity": "",
-                "preview": "",
-                "submit": "",
-                "success": ""
+                "title": "Envoyer de l'argent à tous les utilisateurs",
+                "amount": "Montant",
+                "notify": "Envoyer une notification web aux utilisateurs",
+                "message": "Message",
+                "messagePlaceholder": "Activer la notification pour inclure un message",
+                "messageHelp": "Facultatif. Ce message remplacera le texte de notification par défaut. Vous devriez mentionner le montant dans votre texte car il ne sera plus affiché.",
+                "suspended": "Inclure les utilisateurs suspendus",
+                "lastActivity": "Limité aux utilisateurs actifs après la date suivante",
+                "preview": "Les paramètres actuels correspondent à {count} utilisateurs.",
+                "submit": "Envoyer",
+                "success": "Argent envoyé à {count} utilisateurs !"
             }
         },
         "admin": {
             "settings": {
-                "send": ""
+                "send": "Envoyer de l'argent à tous les utilisateurs"
             }
         },
         "forum": {
             "notification": {
-                "moneyReceived": ""
+                "moneyReceived": "Vous avez reçu {amount}"
             }
         }
     }
