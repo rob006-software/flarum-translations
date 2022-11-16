@@ -40,11 +40,11 @@
                 "dob_heading": "Date de naissance"
             },
             "nav": {
-                "nav_item": ""
+                "nav_item": "Anniversaires du jour"
             },
             "page": {
-                "discussion_count": "",
-                "post_count": ""
+                "discussion_count": "{count, plural, one {Discussion : #} other {Discussions : #}}",
+                "post_count": "{count, plural, one {Message : #} other {Messages : #}}"
             }
         },
         "api": {
