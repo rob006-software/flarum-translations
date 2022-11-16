@@ -2,15 +2,15 @@
     "datlechin-link-preview": {
         "admin": {
             "settings": {
-                "blacklist_label": "",
-                "blacklist_help": "",
-                "blacklist_placeholder": "",
-                "convert_media_urls_label": "",
-                "convert_media_urls_help": ""
+                "blacklist_label": "Estolista",
+                "blacklist_help": "Syötä pilkuilla eroteltu lista domaineista tai osoitteista, jotka estetään linkin esikatselusta.",
+                "blacklist_placeholder": "esim. facebook.com,https://domain.fi/polku",
+                "convert_media_urls_label": "Muunna mediat osoitteiksi",
+                "convert_media_urls_help": "Jos käytössä niin tämä muuntaa median osoitteet linkin esikatseluiksi."
             }
         },
         "forum": {
-            "site_cannot_be_reached": ""
+            "site_cannot_be_reached": "Sivustoa ei saavutettu."
         }
     }
 }
