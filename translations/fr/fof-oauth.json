@@ -60,13 +60,13 @@
             "user": {
                 "settings": {
                     "linked-account": {
-                        "label": "",
-                        "last-used-label": "",
-                        "link-created-label": "",
-                        "orphaned-account": "",
-                        "help": "",
-                        "identifier-label": "",
-                        "unlink-confirm": ""
+                        "label": "Comptes liés",
+                        "last-used-label": "Dernière utilisation",
+                        "link-created-label": "Lien créé",
+                        "orphaned-account": "Vous vous êtes déjà connecté via ce fournisseur mais ce forum a désactivé depuis la connexion avec cette méthode.",
+                        "help": "Ces comptes liés vous permettent de vous connecter au forum en utilisant d'autres fournisseurs.",
+                        "identifier-label": "Identifiant de {provider}",
+                        "unlink-confirm": "Êtes-vous sûr de vouloir supprimer le lien avec {provider} ? Vous ne pourrez plus vous connecter à ce forum à moins de vous authentifier à nouveau à l'avenir."
                     }
                 }
             },
@@ -82,7 +82,7 @@
             "signup": {
                 "username_help": "Veuillez choisir un nom d'utilisateur pour être connu ici"
             },
-            "unlink": "",
+            "unlink": "Supprimer le lien",
             "error": {
                 "bad_verification_code": "Jeton de vérification invalide ou expiré. Veuillez réessayer.",
                 "invalid_state": "État invalide. Veuillez réessayer."
