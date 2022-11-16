@@ -82,8 +82,8 @@
                             "description": "Clé d'identification d'AWS"
                         },
                         "secret": {
-                            "label": "Secret",
-                            "description": "Secret d'identification d'AWS"
+                            "label": "Clé secrète",
+                            "description": "Clé secrète de l'identification d'AWS"
                         }
                     },
                     "region": {
@@ -113,10 +113,10 @@
                     "client": {
                         "id": {
                             "label": "Identifiant du client",
-                            "description": "Suivez les instructions sur https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md pour créer un projet Google et récupérer votre identifiant client et votre secret du client.\n"
+                            "description": "Suivez les instructions sur https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md pour créer un projet Google et récupérer votre identifiant client et votre clé secrète du client.\n"
                         },
                         "secret": {
-                            "label": "Secret du client",
+                            "label": "Clé secrète du client",
                             "description": " "
                         }
                     },
