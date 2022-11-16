@@ -2,7 +2,7 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "Mainitse ryhmiä"
             },
             "settings": {
                 "allow_username_format_label": "Salli käyttäjätunnuksen maininta muoto (@tunnus)",
@@ -11,14 +11,14 @@
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "Mainitse käyttäjä tai viesti",
+                "mention_tooltip": "Mainitse, käyttäjä, ryhmä tai viesti",
                 "reply_to_post_text": "Vastaus viestiin #{number}"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} vastasi viestiisi",
                 "user_mentioned_text": "{username} mainitsi sinut",
-                "group_mentioned_text": ""
+                "group_mentioned_text": "{username} mainitsi ryhmän, jossa olet jäsenenä"
             },
             "post": {
                 "mentioned_by_self_text": "{users} vastasit tähän.",
@@ -31,7 +31,7 @@
             "settings": {
                 "notify_post_mentioned_label": "Joku vastaa johonkin viestiini",
                 "notify_user_mentioned_label": "Joku mainitsee minut viestissä",
-                "notify_group_mentioned_label": ""
+                "notify_group_mentioned_label": "Joku mainitsee viestissä ryhmän, jossa olet jäsenenä"
             },
             "user": {
                 "mentions_link": "Maininnat"
@@ -40,7 +40,7 @@
                 "deleted_text": "[tuntematon]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[tuntematon ryhmä]"
             }
         },
         "email": {
@@ -53,8 +53,8 @@
                 "body": "Hei {recipient_display_name}!\n\n{mentioner_display_name} mainitsi sinut keskustelussa {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} mainitsi ryhmän, jossa olet jäsenenä viestissä {title}",
+                "body": "Hei {recipient_display_name}!\n\n{mentioner_display_name} mainitsi ryhmän, jossa olet jäsenenä viestissä {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
