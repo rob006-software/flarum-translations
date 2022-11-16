@@ -2,61 +2,61 @@
     "blomstra-web3": {
         "admin": {
             "settings": {
-                "allow-sign-up": "",
-                "infura-project-id": "",
-                "infura-project-id-help": "",
-                "prioritize-web3-auth-modals": "",
-                "ffi-disabled": ""
+                "allow-sign-up": "Autoriser l'inscription avec web3",
+                "infura-project-id": "Identifiant du projet Infura",
+                "infura-project-id-help": "Votre identifiant de projet Infura. Vous pouvez en obtenir un sur https://infura.io. Il est nécessaire pour les portefeuilles suivants : Coinbase et WalletConnect.\n",
+                "prioritize-web3-auth-modals": "Ouvrir la connexion et l'inscription web3 par défaut",
+                "ffi-disabled": "L'extension PHP FFI n'est pas activée. Les portefeuilles Dotsama ne fonctionneront pas.\n"
             }
         },
         "forum": {
             "connect-wallet-modal": {
-                "could-not-sign": "",
-                "title": "",
-                "polkadot-wallets": "",
-                "evm-wallets": "",
-                "signature-invalid": ""
+                "could-not-sign": "Impossible de signer cryptographiquement le nom d'utilisateur sur le compte sélectionné.",
+                "title": "Connecter le portefeuille",
+                "polkadot-wallets": "=> blomstra-web3.ref.polkadot-wallets",
+                "evm-wallets": "Portefeuilles EVM",
+                "signature-invalid": "La signature n'est pas valide."
             },
             "evm-connect-wallet-modal": {
-                "title": "",
-                "bind": "",
-                "disconnect": "",
-                "disconnect-and-unbind": "",
-                "select": ""
+                "title": "Portefeuilles EVM",
+                "bind": "=> blomstra-web3.ref.bind",
+                "disconnect": "=> blomstra-web3.ref.disconnect",
+                "disconnect-and-unbind": "Déconnecter et délier",
+                "select": "=> blomstra-web3.ref.select"
             },
             "polkadot-connect-wallet-modal": {
-                "attach_address": "",
-                "connection-request-rejected": "",
-                "disconnect": "",
-                "goback": "",
-                "title": "",
-                "select": "",
-                "unattach_address": ""
+                "attach_address": "=> blomstra-web3.ref.bind",
+                "connection-request-rejected": "Demande de connexion rejetée",
+                "disconnect": "=> blomstra-web3.ref.disconnect",
+                "goback": "Retour aux portefeuilles",
+                "title": "=> blomstra-web3.ref.polkadot-wallets",
+                "select": "=> blomstra-web3.ref.select",
+                "unattach_address": "=> blomstra-web3.ref.unbind"
             },
             "settings": {
-                "wallets_heading": "",
-                "wallet-connect-button": "",
-                "unbind": "",
-                "unbind_confirm": ""
+                "wallets_heading": "Portefeuilles",
+                "wallet-connect-button": "Connecter un portefeuille",
+                "unbind": "=> blomstra-web3.ref.unbind",
+                "unbind_confirm": "Êtes-vous sûr de vouloir délier cette adresse de votre compte ?"
             },
             "log-in": {
-                "basic-login-link": "",
-                "with-wallet": "",
-                "select-wallet-account": ""
+                "basic-login-link": "Basculer vers la connexion de base",
+                "with-wallet": "Se connecter avec un portefeuille web3",
+                "select-wallet-account": "=> blomstra-web3.ref.select-wallet-account"
             },
             "sign-up": {
-                "basic-signup-link": "",
-                "with-wallet": "",
-                "select-wallet-account": ""
+                "basic-signup-link": "Basculer vers l'inscription de base",
+                "with-wallet": "S'inscrire avec un portefeuille web3",
+                "select-wallet-account": "=> blomstra-web3.ref.select-wallet-account"
             }
         },
         "ref": {
-            "select-wallet-account": "",
-            "select": "",
-            "bind": "",
-            "unbind": "",
-            "disconnect": "",
-            "polkadot-wallets": ""
+            "select-wallet-account": "Sélectionner un compte portefeuille {rightArrow}",
+            "select": "Sélectionner une adresse",
+            "bind": "Lier l'adresse",
+            "unbind": "Délier l'adresse du compte",
+            "disconnect": "Déconnecter",
+            "polkadot-wallets": "Portefeuilles Polkadot"
         }
     }
 }
