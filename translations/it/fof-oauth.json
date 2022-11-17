@@ -60,13 +60,13 @@
             "user": {
                 "settings": {
                     "linked-account": {
-                        "label": "",
-                        "last-used-label": "",
-                        "link-created-label": "",
-                        "orphaned-account": "",
-                        "help": "",
-                        "identifier-label": "",
-                        "unlink-confirm": ""
+                        "label": "Account collegato",
+                        "last-used-label": "Ultimo utilizzato",
+                        "link-created-label": "Link creato",
+                        "orphaned-account": "Hai effettuato l'accesso tramite questo provider in precedenza, ma da allora questo forum ha disabilitato l'accesso con questo metodo.",
+                        "help": "Questi account collegati ti consentono di accedere al forum utilizzando altri provider.",
+                        "identifier-label": "{provider} ID",
+                        "unlink-confirm": "Sei sicuro di voler rimuovere il collegamento con {provider}? Non sarai più in grado di accedere a questo forum a meno che non ti autentichi nuovamente in futuro."
                     }
                 }
             },
@@ -82,7 +82,7 @@
             "signup": {
                 "username_help": "Per favore scegli un nome utente"
             },
-            "unlink": "",
+            "unlink": "Rimuovi link",
             "error": {
                 "bad_verification_code": "Token di verifica scaduto o non valido. Riprova.",
                 "invalid_state": "Stato non valido. Riprova."
