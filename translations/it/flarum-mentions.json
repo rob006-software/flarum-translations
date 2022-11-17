@@ -2,7 +2,7 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "Menziona gruppi"
             },
             "settings": {
                 "allow_username_format_label": "Consenti menzioni nome utente (@Nomeutente)",
@@ -11,14 +11,14 @@
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "Menziona un utente o un messaggio",
+                "mention_tooltip": "Menziona un utente, un gruppo o un messaggio",
                 "reply_to_post_text": "Rispondi a #{number}"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{count, plural, one {{username} ha risposto a un tuo messaggio} other {{username} hanno risposto a un tuo messaggio}}",
                 "user_mentioned_text": "{username} ti ha menzionato",
-                "group_mentioned_text": ""
+                "group_mentioned_text": "{username} ha menzionato un gruppo di cui fai parte"
             },
             "post": {
                 "mentioned_by_self_text": "{count, plural, one {{users} hai risposto a questo messaggio} other {{users} hanno risposto a questo messaggio}}",
@@ -31,7 +31,7 @@
             "settings": {
                 "notify_post_mentioned_label": "Qualcuno ha risposto a un mio messaggio",
                 "notify_user_mentioned_label": "Qualcuno ha menzionato un mio messaggio",
-                "notify_group_mentioned_label": ""
+                "notify_group_mentioned_label": "Qualcuno ha menzioanto un gruppo di cui faccio parte in un post"
             },
             "user": {
                 "mentions_link": "Menzioni"
@@ -40,7 +40,7 @@
                 "deleted_text": "[sconosciuto]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[gruppo sconosciuto]"
             }
         },
         "email": {
@@ -53,8 +53,8 @@
                 "body": "Ciao {recipient_display_name}!\n\n{mentioner_display_name} ti ha menzionato in un post nella discussione {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} ha menzionato un gruppo di cui fai parte in {title}",
+                "body": "Ciao {recipient_display_name}!\n\n{mentioner_display_name} ha menzionato un gruppo di cui fai parte in {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
