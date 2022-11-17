@@ -2,22 +2,22 @@
     "ianm-translate": {
         "admin": {
             "permission": {
-                "translate": ""
+                "translate": "Voir les traductions"
             },
             "settings": {
-                "any-language": "",
-                "any-language-help": "",
-                "provider": ""
+                "any-language": "Toutes les langues",
+                "any-language-help": "Lorsque cette option est activée, toutes les langues de traduction prises en charge par le fournisseur actuel seront disponibles. Pour limiter les langues de traduction à celles qui sont activées sur votre forum, veuillez laisser cette option désactivée.",
+                "provider": "Moteur du fournisseur de traduction"
             }
         },
         "forum": {
-            "unknown-language": "",
-            "detected-language": "",
+            "unknown-language": "[non détecté]",
+            "detected-language": "Ce message est en {postLang}",
             "discussion": {
                 "post": {
-                    "close-translation": "",
-                    "translated-header": "",
-                    "translated-updated": ""
+                    "close-translation": "Fermer la traduction",
+                    "translated-header": "Traduction par intelligence artificielle de {from} à {to}",
+                    "translated-updated": "Dernière mise à jour de la traduction le {time}"
                 }
             }
         }
