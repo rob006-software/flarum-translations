@@ -2,12 +2,18 @@
     "ianm-translate": {
         "admin": {
             "permission": {
-                "translate": ""
+                "translate-to-locale": "",
+                "translate-to-all-locales": ""
             },
             "settings": {
-                "any-language": "",
-                "any-language-help": "",
-                "provider": ""
+                "google-cloud": {
+                    "api_key": {
+                        "help": "",
+                        "label": ""
+                    }
+                },
+                "provider": "",
+                "readme-info": ""
             }
         },
         "forum": {
@@ -19,6 +25,21 @@
                     "translated-header": "",
                     "translated-updated": ""
                 }
+            },
+            "user": {
+                "settings": {
+                    "heading": "",
+                    "source-language": {
+                        "help": "",
+                        "label": ""
+                    }
+                }
+            }
+        },
+        "lib": {
+            "providers": {
+                "google-free": "",
+                "google-cloud": ""
             }
         }
     }

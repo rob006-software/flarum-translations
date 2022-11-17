@@ -2,12 +2,21 @@
     "ianm-translate": {
         "admin": {
             "permission": {
+                "translate-to-locale": "",
+                "translate-to-all-locales": "",
                 "translate": "Voir les traductions"
             },
             "settings": {
+                "google-cloud": {
+                    "api_key": {
+                        "help": "",
+                        "label": ""
+                    }
+                },
+                "provider": "Moteur du fournisseur de traduction",
+                "readme-info": "",
                 "any-language": "Toutes les langues",
-                "any-language-help": "Lorsque cette option est activée, toutes les langues de traduction prises en charge par le fournisseur actuel seront disponibles. Pour limiter les langues de traduction à celles qui sont activées sur votre forum, veuillez laisser cette option désactivée.",
-                "provider": "Moteur du fournisseur de traduction"
+                "any-language-help": "Lorsque cette option est activée, toutes les langues de traduction prises en charge par le fournisseur actuel seront disponibles. Pour limiter les langues de traduction à celles qui sont activées sur votre forum, veuillez laisser cette option désactivée."
             }
         },
         "forum": {
@@ -19,6 +28,21 @@
                     "translated-header": "Traduction par intelligence artificielle de {from} à {to}",
                     "translated-updated": "Dernière mise à jour de la traduction le {time}"
                 }
+            },
+            "user": {
+                "settings": {
+                    "heading": "",
+                    "source-language": {
+                        "help": "",
+                        "label": ""
+                    }
+                }
+            }
+        },
+        "lib": {
+            "providers": {
+                "google-free": "",
+                "google-cloud": ""
             }
         }
     }

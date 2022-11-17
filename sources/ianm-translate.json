@@ -2,12 +2,18 @@
     "ianm-translate": {
         "admin": {
             "permission": {
-                "translate": "View translations"
+                "translate-to-locale": "View translation in current locale",
+                "translate-to-all-locales": "View translation in any forum locale"
             },
             "settings": {
-                "any-language": "Any language",
-                "any-language-help": "When enabled, all translation languages supported by the current provider will be available to use. To restrict translation languages to only those enabled on your forum, leave this disabled.",
-                "provider": "Translation provider engine"
+                "google-cloud": {
+                    "api_key": {
+                        "help": "Register for an API key at {link}. This driver uses the V2 API - Basic.",
+                        "label": "API Key"
+                    }
+                },
+                "provider": "Translation provider",
+                "readme-info": "See the README documention for extended information."
             }
         },
         "forum": {
@@ -17,8 +23,23 @@
                 "post": {
                     "close-translation": "Close translation",
                     "translated-header": "AI translation from {from} to {to}",
-                    "translated-updated": "Translation last updated {time}"
+                    "translated-updated": "Translation last updated {time} using {provider}"
                 }
+            },
+            "user": {
+                "settings": {
+                    "heading": "Translation",
+                    "source-language": {
+                        "help": "When disabled, only posts written in a language other than the current forum language will be labelled. To label all posts with their detected language, enable this setting.",
+                        "label": "Always show post language"
+                    }
+                }
+            }
+        },
+        "lib": {
+            "providers": {
+                "google-free": "Google (free)",
+                "google-cloud": "Google Cloud Translate"
             }
         }
     }
