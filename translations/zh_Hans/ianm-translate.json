@@ -2,22 +2,22 @@
     "ianm-translate": {
         "admin": {
             "permission": {
-                "translate": ""
+                "translate": "查看翻译"
             },
             "settings": {
-                "any-language": "",
-                "any-language-help": "",
-                "provider": ""
+                "any-language": "任何语言",
+                "any-language-help": "启用后，当前提供支持的所有语言的翻译都可以使用。若要将翻译文本限制为仅在论坛上启用的语言，请禁用此选项。",
+                "provider": "翻译提供程序"
             }
         },
         "forum": {
-            "unknown-language": "",
-            "detected-language": "",
+            "unknown-language": "（未检测到）",
+            "detected-language": "本帖使用了{postLang}",
             "discussion": {
                 "post": {
-                    "close-translation": "",
-                    "translated-header": "",
-                    "translated-updated": ""
+                    "close-translation": "关闭翻译",
+                    "translated-header": "机器将{from}翻译为{to}翻译",
+                    "translated-updated": "翻译文本最后于{time}更新"
                 }
             }
         }
