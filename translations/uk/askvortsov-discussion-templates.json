@@ -2,32 +2,32 @@
     "askvortsov-discussion-templates": {
         "admin": {
             "permissions": {
-                "manage_own_discussion_reply_templates": "",
-                "manage_all_reply_templates": ""
+                "manage_own_discussion_reply_templates": "Керувати шаблонами відповідей для своїх дискусій",
+                "manage_all_reply_templates": "Керувати шаблонами відповідей для всіх обговорень дискусій"
             },
             "settings": {
-                "no_tag_template": "",
-                "append_template_on_tag_change": "",
-                "append_template_on_tag_change_help": ""
+                "no_tag_template": "Шаблон за налаштуванням (використовується, коли обговорення розпочалося без обраних тегів):",
+                "append_template_on_tag_change": "Додати шаблон про зміну тегів?",
+                "append_template_on_tag_change_help": "При зміні тегів, чи потрібно додавати шаблон нового тегу, навіть якщо користувач вже почав писати? Незалежно від цього налаштування, якщо теги змінено, а користувач не вніс зміни, шаблон буде переключений."
             },
             "tags": {
-                "tag_template_heading": "",
-                "tag_template_text": "",
-                "tag_template_button": ""
+                "tag_template_heading": "Шаблон для дискусії",
+                "tag_template_text": "Керування шаблоном для нових дискусій у цьому тезі.",
+                "tag_template_button": "Редагувати шаблон"
             },
             "tag_template_modal": {
-                "title": "",
-                "customize_text": "",
-                "submit_button": ""
+                "title": "Шаблон дискусії",
+                "customize_text": "Керування шаблоном для нових дискусій у цьому тезі.",
+                "submit_button": "Зберегти шаблон"
             }
         },
         "forum": {
             "discussion_controls": {
-                "reply_template_button": ""
+                "reply_template_button": "Редагувати шаблон відповіді"
             },
             "reply_template": {
-                "title": "",
-                "submit_button": ""
+                "title": "Редагувати шаблон відповіді",
+                "submit_button": "Зберегти шаблон відповіді"
             }
         }
     }
