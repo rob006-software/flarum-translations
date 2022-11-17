@@ -1,0 +1,25 @@
+{
+    "ianm-translate": {
+        "admin": {
+            "permission": {
+                "translate": "View translations"
+            },
+            "settings": {
+                "any-language": "Any language",
+                "any-language-help": "When enabled, all translation languages supported by the current provider will be available to use. To restrict translation languages to only those enabled on your forum, leave this disabled.",
+                "provider": "Translation provider engine"
+            }
+        },
+        "forum": {
+            "unknown-language": "[not detected]",
+            "detected-language": "This post is in {postLang}",
+            "discussion": {
+                "post": {
+                    "close-translation": "Close translation",
+                    "translated-header": "AI translation from {from} to {to}",
+                    "translated-updated": "Translation last updated {time}"
+                }
+            }
+        }
+    }
+}
