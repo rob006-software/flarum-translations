@@ -35,15 +35,15 @@
                 "newDiscussion": "[Подписка | Новая дискуссия] {title}",
                 "newUser": "[Подписка | Новый пользователь] {username}",
                 "postUnapproved": "[Подписка | Неподтверждённое сообщение] {username} опубликовал(а) в {title}",
-                "postCreated": "",
-                "postFlagged": ""
+                "postCreated": "[Подписки | Новое сообщение] {username} отправил новое сообщение в {title}",
+                "postFlagged": "[Подписки | Новая отметка] {username} отметил сообщение в {title}"
             },
             "body": {
                 "newDiscussion": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} опубликовал(а) новую дискуссию: {discussion_title}\n\nЧтобы посмотреть новую дискуссию, пройдите по следующей ссылке:\n{discussion_url}\n\n---\n\n{post_content}\n",
                 "newUser": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} зарегистрировался на {forum_url}.\n\nЧтобы посмотреть нового пользователя, пройдите по следующей ссылке:\n{user_url}\n",
                 "postUnapproved": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} опубликовал(а) сообщение, требующее подтверждения в {discussion_title}\n\nЧтобы посмотреть неподтверждённое сообщение, пройдите по следующей ссылке:\n{post_url}\n\n---\n\n{post_content}\n",
-                "postCreated": "",
-                "postFlagged": ""
+                "postCreated": "Здравствуйте, {recipient_display_name},\n\n{actor_display_name} отправил(а) новое сообщение в {discussion_title}\n\nЧтобы посмотреть новое сообщение, пройдите по следующей ссылке:\n{post_url}\n---\n\n{post_content}\n",
+                "postFlagged": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} установил(а) пометку на сообщение в {discussion_title}\n\nЧтобы посмотреть сообщение, пройдите по следующей ссылке:\n{post_url}\n"
             }
         }
     }
