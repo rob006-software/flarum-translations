@@ -2,22 +2,22 @@
     "ianm-translate": {
         "admin": {
             "permission": {
-                "translate": ""
+                "translate": "Guarda traduzioni"
             },
             "settings": {
-                "any-language": "",
-                "any-language-help": "",
-                "provider": ""
+                "any-language": "Qualsiasi lingua",
+                "any-language-help": "Se abilitato, tutte le lingue di traduzione supportate dal provider corrente saranno disponibili per l'uso. Per limitare le lingue di traduzione solo a quelle abilitate sul tuo forum, lascia questa opzione disabilitata.",
+                "provider": "Motore del provider di traduzioni"
             }
         },
         "forum": {
-            "unknown-language": "",
-            "detected-language": "",
+            "unknown-language": "[non rilevato]",
+            "detected-language": "Questo post è in {postLang}",
             "discussion": {
                 "post": {
-                    "close-translation": "",
-                    "translated-header": "",
-                    "translated-updated": ""
+                    "close-translation": "Chiudi traduzione",
+                    "translated-header": "Tutte le traduzioni da {from} a {to}",
+                    "translated-updated": "Ultimo aggiornamento traduzione {time}"
                 }
             }
         }
