@@ -5,8 +5,8 @@
                 "access_logfile_api": "Accès aux données du fichier journal via l'API"
             },
             "settings": {
-                "purge-days": "",
-                "purge-days-help": ""
+                "purge-days": "Purger les fichiers journaux après plusieurs jours",
+                "purge-days-help": "Repose sur le fait que le planificateur Flarum est actif. Saisissez 0 pour désactiver cette fonctionnalité."
             },
             "viewer": {
                 "available_logs_heading": "Fichiers disponibles",
