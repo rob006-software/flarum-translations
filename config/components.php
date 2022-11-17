@@ -687,7 +687,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-oauth-amazon/1.0.2/locale/en.yml',
 	],
 	'ianm-oauth-line' => [
-		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-oauth-line/0.1.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-oauth-line/0.1.4/locale/en.yml',
 	],
 	'ianm-oauth-twitch' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-oauth-twitch/0.1.0/locale/en.yml',
