@@ -2,44 +2,44 @@
     "ianm-translate": {
         "admin": {
             "permission": {
-                "translate-to-locale": "",
-                "translate-to-all-locales": ""
+                "translate-to-locale": "Посмотреть перевод в текущей локали",
+                "translate-to-all-locales": "Посмотреть перевод в любой локали форума"
             },
             "settings": {
                 "google-cloud": {
                     "api_key": {
-                        "help": "",
-                        "label": ""
+                        "help": "Зарегистрироваться для получения API-ключа на {link}. Этот драйвер использует V2 API - Basic.",
+                        "label": "API ключ"
                     }
                 },
-                "provider": "",
-                "readme-info": ""
+                "provider": "Провайдер перевода",
+                "readme-info": "Посмотреть README документацию для более подробной информации."
             }
         },
         "forum": {
-            "unknown-language": "",
-            "detected-language": "",
+            "unknown-language": "[не обнаружен]",
+            "detected-language": "Это сообщение на {postLang}",
             "discussion": {
                 "post": {
-                    "close-translation": "",
-                    "translated-header": "",
-                    "translated-updated": ""
+                    "close-translation": "Закрыть перевод",
+                    "translated-header": "Машинный перевод с {from} на {to}",
+                    "translated-updated": "Перевод обновлен {time} при помощи {provider}"
                 }
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Перевод",
                     "source-language": {
-                        "help": "",
-                        "label": ""
+                        "help": "Если опция отключена, то будут отмечены только сообщения, написанные на языке, отличающемся от текущего языка форума. Чтобы отметить все сообщения на идентифицированных языках, включите эту опцию.",
+                        "label": "Всегда показывать язык сообщения"
                     }
                 }
             }
         },
         "lib": {
             "providers": {
-                "google-free": "",
-                "google-cloud": ""
+                "google-free": "Google (бесплатно)",
+                "google-cloud": "Перевод Google Cloud"
             }
         }
     }
