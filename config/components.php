@@ -1071,7 +1071,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-gifs/v4.1.1/resources/locale/en.yml',
 	],
 	'tituspijean-auth-ldap' => [
-		'tag' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ldap/v1.0.0-p5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ldap/v1.0.0-p6/locale/en.yml',
 	],
 	'tohsakarat-save-and-load-draft-automatically' => [
 		'tag' => 'https://raw.githubusercontent.com/tohsakrat/save-and-load-draft-automatically/v1.10/resources/locale/en.yml',
