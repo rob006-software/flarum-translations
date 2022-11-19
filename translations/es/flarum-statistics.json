@@ -2,33 +2,33 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "Elige un intervalo de fechas personalizado para mostrar las estadísticas. \nLa carga de datos puede tardar varios minutos en foros con mucha actividad.\n",
+                "end_date": "Fecha final (incluida)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "La fecha final debe ser posterior a la fecha inicial."
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "Fecha inicial (incluida)",
+                "submit_button": "Confirmar",
+                "title": "Elegir intervalo de fechas"
             },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
-                "export_chart_button": "",
+                "export_chart_button": "Exportar gráfico a SVG",
                 "last_12_months_label": "Últimos 12 meses",
                 "last_28_days_label": "Últimos 28 días",
                 "last_7_days_label": "Últimos 7 días",
-                "mini_heading": "",
+                "mini_heading": "Estadísticas del foro",
                 "previous_28_days_label": "",
                 "previous_7_days_label": "",
-                "custom_label": "",
-                "custom_label_specified": "",
-                "loading": "",
+                "custom_label": "Elegir intervalo de fechas...",
+                "custom_label_specified": "{fromDate} a {toDate}",
+                "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "Hoy",
                 "total_label": "Total",
                 "users_heading": "=> core.ref.users",
-                "view_full": "",
-                "no_data": "",
+                "view_full": "Ver más estadísticas",
+                "no_data": "No hay datos disponibles para este intervalo de fechas.",
                 "current_period": "",
                 "previous_period": "",
                 "active_users_text": "{count} usuarios activos"
