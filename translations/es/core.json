@@ -4,8 +4,8 @@
             "appearance": {
                 "colored_header_label": "Cabecera coloreada",
                 "colors_heading": "Colores",
-                "colors_primary_label": "",
-                "colors_secondary_label": "",
+                "colors_primary_label": "Color primario",
+                "colors_secondary_label": "Color secundario",
                 "colors_text": "Elija dos colores para decorar su foro. El primero será usado para resaltar y el segundo será utilizado para decorar elementos de fondo.",
                 "custom_footer_heading": "Pié de página personalizado",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -46,13 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "Limpiar caché",
                 "description": "Tu foro de un vistazo.",
-                "io_error_message": "",
+                "io_error_message": "No se pudo escribir en el sistema de archivos. Verifica los permisos de su sistema de archivos y vuelve a intentarlo. O intenta ejecutar desde la línea de comandos.",
                 "title": "Panel",
                 "tools_button": "Herramientas"
             },
             "debug-warning": {
                 "detail": "",
-                "label": ""
+                "label": "Modo de depuración activo"
             },
             "edit_css": {
                 "customize_text": "Personaliza la apariencia de tu foro añadiendo tu propio código Less/CSS que será aplicado sobre los <a>estilos por defecto</a> de Flarum.",
@@ -368,8 +368,8 @@
                 "username_or_email_placeholder": "Nombre de usuario o correo electrónico"
             },
             "notifications": {
-                "delete_all_confirm": "",
-                "delete_all_tooltip": "",
+                "delete_all_confirm": "¿Estás seguro de eliminar todas las notificaciones? Esta acción no es reversible",
+                "delete_all_tooltip": "Eliminar notificaciones",
                 "discussion_renamed_text": "{username} cambió el título",
                 "empty_text": "No hay notificaciones",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
