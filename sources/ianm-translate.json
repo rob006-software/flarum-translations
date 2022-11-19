@@ -2,6 +2,7 @@
     "ianm-translate": {
         "admin": {
             "permission": {
+                "refresh-translation": "Force a re-translate of a cached translation",
                 "translate-to-locale": "View translation in current locale",
                 "translate-to-all-locales": "View translation in any forum locale"
             },
@@ -38,7 +39,7 @@
         },
         "lib": {
             "providers": {
-                "google-free": "Google (free)",
+                "google-free": "Google Translate",
                 "google-cloud": "Google Cloud Translate"
             }
         }
