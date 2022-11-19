@@ -2,30 +2,30 @@
     "clarkwinkelmann-author-change": {
         "forum": {
             "controls": {
-                "edit": ""
+                "edit": "Editar autor y fecha"
             },
             "modal": {
-                "title-post": "",
-                "title-discussion": "",
-                "user": "",
-                "created_at": "",
-                "edited_at": "",
+                "title-post": "Editar autor de publicación y fecha",
+                "title-discussion": "Editar autor de discusión y fecha",
+                "user": "Autor",
+                "created_at": "Fecha y hora de creación",
+                "edited_at": "Fecha y hora de edición",
                 "sync-with-discussion": "",
                 "sync-with-post": "",
                 "sync-impossible": "",
-                "submit": "",
-                "cancel": ""
+                "submit": "Guardar",
+                "cancel": "Cancelar"
             },
             "search": {
-                "placeholder": "",
-                "type-more": "",
-                "no-results": ""
+                "placeholder": "Buscar usuarios",
+                "type-more": "Escribe 3 caracteres para buscar en la base de datos",
+                "no-results": "No hay resultados"
             }
         },
         "admin": {
             "permissions": {
-                "edit-user": "",
-                "edit-date": ""
+                "edit-user": "Actualizar discusión y autor de la publicación",
+                "edit-date": "Actualizar discusión y fecha de la publicación"
             }
         }
     }
