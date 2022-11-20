@@ -7,10 +7,33 @@
                 "translate-to-all-locales": "View translation in any forum locale"
             },
             "settings": {
+                "deepl": {
+                    "api_key": {
+                        "help": "Register at {link}. Driver will auto detect free/pro key type.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
+                    },
+                    "en_choice": {
+                        "help": "When translating to English, select which variant should be used.",
+                        "label": "English variant",
+                        "options": {
+                            "en-US": "English (US) en-US",
+                            "en-GB": "English (UK) en-GB"
+                        }
+                    },
+                    "formality": {
+                        "help": "Where available, translations can use different levels of formality. Select your preference here.",
+                        "label": "Formality",
+                        "options": {
+                            "default": "Default",
+                            "prefer_less": "Less formal",
+                            "prefer_more": "More formal"
+                        }
+                    }
+                },
                 "google-cloud": {
                     "api_key": {
                         "help": "Register for an API key at {link}. This driver uses the V2 API - Basic.",
-                        "label": "API Key"
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
                 "provider": "Translation provider",
@@ -39,8 +62,12 @@
         },
         "lib": {
             "providers": {
+                "deepl": "DeepL",
                 "google-free": "Google Translate",
                 "google-cloud": "Google Cloud Translate"
+            },
+            "settings": {
+                "api-key": "API Key"
             }
         }
     }

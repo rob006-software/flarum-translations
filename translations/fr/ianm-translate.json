@@ -8,6 +8,29 @@
                 "translate": "Voir les traductions"
             },
             "settings": {
+                "deepl": {
+                    "api_key": {
+                        "help": "",
+                        "label": ""
+                    },
+                    "en_choice": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "en-US": "",
+                            "en-GB": ""
+                        }
+                    },
+                    "formality": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "default": "",
+                            "prefer_less": "",
+                            "prefer_more": ""
+                        }
+                    }
+                },
                 "google-cloud": {
                     "api_key": {
                         "help": "Enregistrez-vous pour obtenir une clé API sur {link}. Ce pilote utilise l'API V2 - Basique.",
@@ -42,8 +65,12 @@
         },
         "lib": {
             "providers": {
+                "deepl": "",
                 "google-free": "Google Traduction",
                 "google-cloud": "Google Cloud Translate"
+            },
+            "settings": {
+                "api-key": ""
             }
         }
     }

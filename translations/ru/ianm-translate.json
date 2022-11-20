@@ -7,6 +7,29 @@
                 "translate-to-all-locales": "Посмотреть перевод в любой локали форума"
             },
             "settings": {
+                "deepl": {
+                    "api_key": {
+                        "help": "",
+                        "label": ""
+                    },
+                    "en_choice": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "en-US": "",
+                            "en-GB": ""
+                        }
+                    },
+                    "formality": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "default": "",
+                            "prefer_less": "",
+                            "prefer_more": ""
+                        }
+                    }
+                },
                 "google-cloud": {
                     "api_key": {
                         "help": "Зарегистрироваться для получения API-ключа на {link}. Этот драйвер использует V2 API - Basic.",
@@ -39,8 +62,12 @@
         },
         "lib": {
             "providers": {
+                "deepl": "",
                 "google-free": "Google (бесплатно)",
                 "google-cloud": "Перевод Google Cloud"
+            },
+            "settings": {
+                "api-key": ""
             }
         }
     }
