@@ -2,21 +2,21 @@
     "clarkwinkelmann-sudo-mode": {
         "admin": {
             "settings": {
-                "duration": ""
+                "duration": "Combien de temps le mode sudo reste actif (secondes)"
             }
         },
         "lib": {
             "sudo": {
-                "title": "",
-                "message": "",
-                "password": "",
-                "submit": ""
+                "title": "Confirmer l'accès",
+                "message": "Confirmez votre mot de passe pour entrer en mode sudo. Il ne vous sera demandé de vous réauthentifier qu'après quelques heures.\n",
+                "password": "Mot de passe",
+                "submit": "Envoyer"
             }
         },
         "api": {
             "errors": {
-                "cookieOnly": "",
-                "incorrectPassword": ""
+                "cookieOnly": "Disponible uniquement avec des cookies",
+                "incorrectPassword": "Le mot de passe n'est pas valide"
             }
         }
     }
