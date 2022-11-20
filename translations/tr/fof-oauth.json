@@ -60,13 +60,13 @@
             "user": {
                 "settings": {
                     "linked-account": {
-                        "label": "",
-                        "last-used-label": "",
-                        "link-created-label": "",
-                        "orphaned-account": "",
-                        "help": "",
-                        "identifier-label": "",
-                        "unlink-confirm": ""
+                        "label": "Bağlı hesaplar",
+                        "last-used-label": "Son kullanılan",
+                        "link-created-label": "Bağlantı oluşturuldu",
+                        "orphaned-account": "Daha önce bu sağlayıcı aracılığıyla oturum açtınız, ancak bu forum o zamandan beri bu yöntemle oturum açmayı devre dışı bıraktı.",
+                        "help": "Bu bağlantılı hesaplar, diğer sağlayıcıları kullanarak forumda oturum açmanıza izin verir.",
+                        "identifier-label": "{provider} ID",
+                        "unlink-confirm": "{provider} ile olan bağlantıyı kaldırmak istediğinizden emin misiniz? Gelecekte yeniden kimlik doğrulaması yapmazsanız, artık bu forumda oturum açamayacaksınız."
                     }
                 }
             },
@@ -82,7 +82,7 @@
             "signup": {
                 "username_help": "Lütfen buradan bilinecek bir kullanıcı adı seçin"
             },
-            "unlink": "",
+            "unlink": "Bağlantıyı kaldır",
             "error": {
                 "bad_verification_code": "Geçersiz veya süresi dolmuş doğrulama jetonu. Lütfen tekrar deneyin.",
                 "invalid_state": "Geçersiz durum. Lütfen tekrar deneyin."
