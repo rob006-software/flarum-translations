@@ -11,45 +11,45 @@
                 "full_page_desktop": "Робочий стіл на всю сторінку?",
                 "parent_remove_icon": "Приховати значки для тегів верхнього рівня?",
                 "parent_remove_description": "Приховати описи для тегів верхнього рівня?",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "parent_remove_stats": "Приховати статистику для тегів верхнього рівня?",
+                "parent_remove_last_discussion": "Приховати останні дискусії для тегів верхнього рівня?",
+                "small_forum_optimized": "Оптимізувати для невеликих форумів?"
             },
             "help": {
-                "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "child_bare_icon": "Чи повинні іконки дочірніх категорій відображатися без круглого фону?",
+                "full_page_desktop": "Чи слід згорнути навігаційне меню бічної панелі в один рядок (як на традиційній сторінці тегів)? Це також приховає віджети (такі як Статистика друзів форуму Flarum) з навігаційної панелі сторінки категорій.",
+                "small_forum_optimized": "Це дасть більш точний підрахунок дискусій/дописів, але значно сповільнить роботу середніх і великих форумів."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "Навігація",
+                "layout": "Макет",
+                "parent_display": "Відображення батьківської категорії",
+                "child_display": "Відображення дочірньої категорії",
+                "performance": "Продуктивність"
             },
-            "title": ""
+            "title": "Налаштування категорій"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Усі категорії",
+                "meta_title_text": "=> askvortsov-categories.ref.categories"
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Повернутися до категорій"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> askvortsov-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Дискусії",
+                "post_label": "Дописи"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "Жодних дискусій (поки що!)"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Категорії"
         }
     }
 }
