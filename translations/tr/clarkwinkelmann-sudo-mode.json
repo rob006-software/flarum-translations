@@ -2,21 +2,21 @@
     "clarkwinkelmann-sudo-mode": {
         "admin": {
             "settings": {
-                "duration": ""
+                "duration": "Sudo modu ne kadar süre aktif kalır (saniye)"
             }
         },
         "lib": {
             "sudo": {
-                "title": "",
-                "message": "",
-                "password": "",
-                "submit": ""
+                "title": "Erişimi onaylayın",
+                "message": "Sudo moduna girmek için şifrenizi onaylayın. Yalnızca birkaç saat sonra yeniden kimlik doğrulamanız istenecektir.\n",
+                "password": "Şifre",
+                "submit": "Gönder"
             }
         },
         "api": {
             "errors": {
-                "cookieOnly": "",
-                "incorrectPassword": ""
+                "cookieOnly": "Yalnızca çerezlerle kullanılabilir",
+                "incorrectPassword": "Şifre geçersizdir"
             }
         }
     }
