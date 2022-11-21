@@ -2,21 +2,21 @@
     "clarkwinkelmann-sudo-mode": {
         "admin": {
             "settings": {
-                "duration": ""
+                "duration": "超管模式保持时间（秒）"
             }
         },
         "lib": {
             "sudo": {
-                "title": "",
-                "message": "",
-                "password": "",
-                "submit": ""
+                "title": "权限确认",
+                "message": "输入密码以进入超管模式，一段时间后我们会重新确认您的身份。\n",
+                "password": "密码",
+                "submit": "确认"
             }
         },
         "api": {
             "errors": {
-                "cookieOnly": "",
-                "incorrectPassword": ""
+                "cookieOnly": "仅可与 Cookie 一起使用",
+                "incorrectPassword": "密码错误"
             }
         }
     }
