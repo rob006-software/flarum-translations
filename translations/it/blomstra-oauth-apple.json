@@ -4,31 +4,31 @@
             "settings": {
                 "providers": {
                     "apple": {
-                        "description": "",
-                        "client_id_label": "",
-                        "key_file_id_label": "",
-                        "keyfile_upload_label": "",
-                        "keyfile_upload_help": "",
+                        "description": "Registrati con Apple {link}",
+                        "client_id_label": "Service ID",
+                        "key_file_id_label": "Key File Identifier",
+                        "keyfile_upload_label": "Key File",
+                        "keyfile_upload_help": "Crea un <a>keyfile</a> e caricalo qui",
                         "keyfile_upload": {
-                            "upload_button": "",
-                            "remove_button": ""
+                            "upload_button": "Carica Keyfile",
+                            "remove_button": "Rimuovi keyfile"
                         },
-                        "team_id_label": ""
+                        "team_id_label": "ID Team"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_apple_button": ""
+                "with_apple_button": "Registrati con {provider}"
             },
             "providers": {
-                "apple": ""
+                "apple": "=> fof-oauth.lib.providers.apple"
             }
         },
         "lib": {
             "providers": {
-                "apple": ""
+                "apple": "Apple"
             }
         }
     }
