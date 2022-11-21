@@ -2,7 +2,7 @@
     "fof-polls": {
         "admin": {
             "settings": {
-                "allow_option_image": ""
+                "allow_option_image": "Pozwól na podanie URL obrazka dla każdej opcji wyboru w ankiecie"
             },
             "permissions": {
                 "view_results_without_voting": "Podglądanie wyników bez zagłosowania",
@@ -32,7 +32,7 @@
                 "min": "Musisz uwzględnić co najmniej 2 opcje",
                 "no_voters": "Brak głosów",
                 "option_placeholder": "Odpowiedź",
-                "image_option_placeholder": "",
+                "image_option_placeholder": "URL obrazka (opcjonalne)",
                 "options_label": "Odpowiedzi",
                 "public_poll_label": "Pozwól użytkownikom zobaczyć, kto głosował",
                 "question_placeholder": "Pytanie",
