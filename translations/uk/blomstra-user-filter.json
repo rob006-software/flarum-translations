@@ -2,22 +2,22 @@
     "blomstra-user-filter": {
         "admin": {
             "settings": {
-                "intro": "",
-                "min_length": "",
-                "result_count": ""
+                "intro": "Користувачі без дозволу <code>Пошук користувачів</code> не побачать вікно пошуку. Встановіть значення <code>Усі</code> для всіх користувачів або будь-який інший рівень ваших уподобань.",
+                "min_length": "Мінімальна кількість символів для початку пошуку",
+                "result_count": "Максимум призводить до автозаповнення випадаючого списку"
             }
         },
         "forum": {
             "index_page": {
                 "filter_user": {
-                    "accessible_label": "",
-                    "all": "",
-                    "label": "",
-                    "search_label": "",
-                    "no_results": "",
-                    "start_typing": "",
-                    "keep_typing": "",
-                    "remove_filter": ""
+                    "accessible_label": "Фільтр за автором",
+                    "all": "Усі",
+                    "label": "Фільтр за автором: {text}",
+                    "search_label": "Пошук користувачів...",
+                    "no_results": "Результати відсутні",
+                    "start_typing": "Почніть писати...",
+                    "keep_typing": "Продовжуйте писати...",
+                    "remove_filter": "Видалити фільтр авторів"
                 }
             }
         }
