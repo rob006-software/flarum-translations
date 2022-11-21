@@ -428,7 +428,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/finteger/ratings/v1.13/resources/locale/en.yml',
 	],
 	'flamarkt-backoffice' => [
-		'tag' => 'https://raw.githubusercontent.com/flamarkt/backoffice/0.1.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flamarkt/backoffice/0.1.3/resources/locale/en.yml',
 	],
 	'flamarkt-matomo' => [
 		'tag' => 'https://raw.githubusercontent.com/flamarkt/matomo/0.1.0/resources/locale/en.yml',
