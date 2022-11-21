@@ -2,7 +2,7 @@
     "fof-polls": {
         "admin": {
             "settings": {
-                "allow_option_image": ""
+                "allow_option_image": "Дозволити вказувати URL-адресу зображення для кожного варіанту опитування"
             },
             "permissions": {
                 "view_results_without_voting": "Перегляд результатів без голосування",
@@ -32,7 +32,7 @@
                 "min": "Ви повинні вказати мінімум 2 відповіді",
                 "no_voters": "Немає голосів",
                 "option_placeholder": "Відповідь",
-                "image_option_placeholder": "",
+                "image_option_placeholder": "URL-адреса зображення (необов'язково)",
                 "options_label": "Відповіді",
                 "public_poll_label": "Дозвольте людям бачити, хто проголосував",
                 "question_placeholder": "Питання",
