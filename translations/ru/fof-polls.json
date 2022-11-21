@@ -1,6 +1,9 @@
 {
     "fof-polls": {
         "admin": {
+            "settings": {
+                "allow_option_image": ""
+            },
             "permissions": {
                 "view_results_without_voting": "Смотреть результаты без голосования",
                 "start": "Создавать опросы",
@@ -29,6 +32,7 @@
                 "min": "Вы должны добавить минимум 2 варианта",
                 "no_voters": "Голоса отсутствуют",
                 "option_placeholder": "Вариант",
+                "image_option_placeholder": "",
                 "options_label": "Варианты ответа",
                 "public_poll_label": "Публичный опрос",
                 "question_placeholder": "Вопрос",

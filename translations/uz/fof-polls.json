@@ -1,6 +1,9 @@
 {
     "fof-polls": {
         "admin": {
+            "settings": {
+                "allow_option_image": ""
+            },
             "permissions": {
                 "view_results_without_voting": "Ovoz berish natijasini k'rish",
                 "start": "Ovoz berishni boshlash",
@@ -29,6 +32,7 @@
                 "min": "Siz kamida 2ta savol ko'shishingiz kerak",
                 "no_voters": "Ovozlar mavjud emas",
                 "option_placeholder": "Variant",
+                "image_option_placeholder": "",
                 "options_label": "Javoblar",
                 "public_poll_label": "Odamlarga kim ovoz berganini ko'rishga ruxsat berish",
                 "question_placeholder": "Savol",

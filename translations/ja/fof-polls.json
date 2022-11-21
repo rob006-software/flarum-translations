@@ -1,6 +1,9 @@
 {
     "fof-polls": {
         "admin": {
+            "settings": {
+                "allow_option_image": ""
+            },
             "permissions": {
                 "view_results_without_voting": "回答せずに結果を見る",
                 "start": "アンケートの実施",
@@ -29,6 +32,7 @@
                 "min": "選択肢を少なくとも2つ設定する必要があります",
                 "no_voters": "No Votes",
                 "option_placeholder": "選択肢",
+                "image_option_placeholder": "",
                 "options_label": "選択肢",
                 "public_poll_label": "回答者の一覧をユーザーに開示する",
                 "question_placeholder": "質問",

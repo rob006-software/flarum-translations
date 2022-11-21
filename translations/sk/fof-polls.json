@@ -1,6 +1,9 @@
 {
     "fof-polls": {
         "admin": {
+            "settings": {
+                "allow_option_image": ""
+            },
             "permissions": {
                 "view_results_without_voting": "Zobraziť výsledky bez nutnosti voliť",
                 "start": "",
@@ -29,6 +32,7 @@
                 "min": "",
                 "no_voters": "",
                 "option_placeholder": "",
+                "image_option_placeholder": "",
                 "options_label": "",
                 "public_poll_label": "",
                 "question_placeholder": "",

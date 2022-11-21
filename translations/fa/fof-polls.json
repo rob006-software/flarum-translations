@@ -1,6 +1,9 @@
 {
     "fof-polls": {
         "admin": {
+            "settings": {
+                "allow_option_image": ""
+            },
             "permissions": {
                 "view_results_without_voting": "مشاهده نتایج بدون رای گیری",
                 "start": "",
@@ -29,6 +32,7 @@
                 "min": "شما باید حداقل 2 پاسخ را وارد کنید",
                 "no_voters": "بدون رای",
                 "option_placeholder": "پاسخ",
+                "image_option_placeholder": "",
                 "options_label": "پاسخ ها",
                 "public_poll_label": "به مردم اجازه دهید ببینند چه کسی رای داده است",
                 "question_placeholder": "سوال",

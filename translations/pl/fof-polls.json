@@ -1,6 +1,9 @@
 {
     "fof-polls": {
         "admin": {
+            "settings": {
+                "allow_option_image": ""
+            },
             "permissions": {
                 "view_results_without_voting": "Podglądanie wyników bez zagłosowania",
                 "start": "Tworzenie ankiet",
@@ -29,6 +32,7 @@
                 "min": "Musisz uwzględnić co najmniej 2 opcje",
                 "no_voters": "Brak głosów",
                 "option_placeholder": "Odpowiedź",
+                "image_option_placeholder": "",
                 "options_label": "Odpowiedzi",
                 "public_poll_label": "Pozwól użytkownikom zobaczyć, kto głosował",
                 "question_placeholder": "Pytanie",

@@ -1,6 +1,9 @@
 {
     "fof-polls": {
         "admin": {
+            "settings": {
+                "allow_option_image": ""
+            },
             "permissions": {
                 "view_results_without_voting": "Afficher les résultats sans voter",
                 "start": "Démarrer un sondage",
@@ -29,6 +32,7 @@
                 "min": "Vous devez ajouter au moins 2 réponses",
                 "no_voters": "Aucun vote",
                 "option_placeholder": "Répondre",
+                "image_option_placeholder": "",
                 "options_label": "Réponses",
                 "public_poll_label": "Permettre aux utilisateurs de voir qui a voté",
                 "question_placeholder": "Question",

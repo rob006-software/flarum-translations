@@ -1,6 +1,9 @@
 {
     "fof-polls": {
         "admin": {
+            "settings": {
+                "allow_option_image": ""
+            },
             "permissions": {
                 "view_results_without_voting": "无需参与投票直接查看结果",
                 "start": "发起投票",
@@ -29,6 +32,7 @@
                 "min": "最少 2 个选项",
                 "no_voters": "暂无投票",
                 "option_placeholder": "选项",
+                "image_option_placeholder": "",
                 "options_label": "选项",
                 "public_poll_label": "允许查看投票人",
                 "question_placeholder": "问题",

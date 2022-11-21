@@ -1,6 +1,9 @@
 {
     "fof-polls": {
         "admin": {
+            "settings": {
+                "allow_option_image": ""
+            },
             "permissions": {
                 "view_results_without_voting": "Xem kết quả mà không cần bỏ phiếu",
                 "start": "Tạo cuộc thăm dò",
@@ -29,6 +32,7 @@
                 "min": "Bạn phải bao gồm tối thiểu 2 câu trả lời",
                 "no_voters": "Không có bình chọn",
                 "option_placeholder": "Câu trả lời",
+                "image_option_placeholder": "",
                 "options_label": "Các câu trả lời",
                 "public_poll_label": "Cho phép mọi người xem ai đã bình chọn",
                 "question_placeholder": "Câu hỏi",

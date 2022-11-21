@@ -1,6 +1,9 @@
 {
     "fof-polls": {
         "admin": {
+            "settings": {
+                "allow_option_image": ""
+            },
             "permissions": {
                 "view_results_without_voting": "Sonuçları oy vermeden göster",
                 "start": "Anket oluştur",
@@ -29,6 +32,7 @@
                 "min": "En az 2 yanıt eklemeniz gerekmektedir",
                 "no_voters": "Oy Kullanılmamış",
                 "option_placeholder": "Yanıt",
+                "image_option_placeholder": "",
                 "options_label": "Yanıtlar",
                 "public_poll_label": "Kullanıcıların yanıt verenleri görmesine izin ver",
                 "question_placeholder": "Soru",
