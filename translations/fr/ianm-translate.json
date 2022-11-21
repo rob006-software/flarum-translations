@@ -22,19 +22,19 @@
                         }
                     },
                     "formality": {
-                        "help": "",
-                        "label": "",
+                        "help": "Lorsque cela est possible, les traductions pourront utiliser différents niveaux de formalité. Sélectionnez votre préférence ici.",
+                        "label": "Formalité",
                         "options": {
-                            "default": "",
-                            "prefer_less": "",
-                            "prefer_more": ""
+                            "default": "Par défaut",
+                            "prefer_less": "Moins formel",
+                            "prefer_more": "Plus formel"
                         }
                     }
                 },
                 "google-cloud": {
                     "api_key": {
                         "help": "Enregistrez-vous pour obtenir une clé API sur {link}. Ce pilote utilise l'API V2 - Basique.",
-                        "label": "Clé API"
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
                 "provider": "Fournisseur de services de traduction",
@@ -65,12 +65,12 @@
         },
         "lib": {
             "providers": {
-                "deepl": "",
+                "deepl": "DeepL",
                 "google-free": "Google Traduction",
                 "google-cloud": "Google Cloud Translate"
             },
             "settings": {
-                "api-key": ""
+                "api-key": "Clé API"
             }
         }
     }
