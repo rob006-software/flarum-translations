@@ -1,46 +1,46 @@
 {
     "clarkwinkelmann-group-invitation": {
         "forum": {
-            "title": "",
-            "generic-title": "",
+            "title": "Вас запрошено приєднатися до групи {group}!",
+            "generic-title": "Запрошення в групу",
             "user": {
-                "already-connected": "",
-                "not-connected": "",
-                "not-authorized": "",
-                "already-member": ""
+                "already-connected": "Ми додамо групу {group} до {username}. Не той користувач? <a>Увійдіть в інший обліковий запис</a>.\n",
+                "not-connected": "<a>Увійдіть</a>, щоб прийняти запрошення.",
+                "not-authorized": "Ваш поточний користувач {username} не має дозволу на приєднання до груп. <a>Увійдіть в інший обліковий запис</a>.",
+                "already-member": "Чудова новина, ваш користувач {username} вже є учасником групи {group}! Хочете вступити в групу з іншим користувачем? <a>Увійдіть в інший обліковий запис</a>.\n"
             },
             "invitation": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "Вибачте, запрошення для цієї групи не знайдено.",
+                "no-usages-left": "Це групове запрошення більше не може бути використане."
             },
-            "apply": "",
-            "success-alert": ""
+            "apply": "Приєднатися до групи",
+            "success-alert": "Ви успішно приєдналися до групи!"
         },
         "admin": {
             "permissions": {
-                "use": ""
+                "use": "Використовуйте посилання на групові запрошення"
             },
             "settings": {
                 "head": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "Код",
+                    "group": "Група",
+                    "usage": "Використання"
                 },
                 "placeholder": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "Автоматично згенеровано",
+                    "group": "Обрати...",
+                    "usage": "Порожньо для необмеженого"
                 },
-                "empty": "",
-                "unlimited": "",
-                "create": "",
-                "delete": ""
+                "empty": "Наразі не створено жодного запрошення.",
+                "unlimited": "необмежено",
+                "create": "Створити",
+                "delete": "Видалити"
             }
         },
         "api": {
             "error": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "Код запрошення не знайдено",
+                "no-usages-left": "Запрошення більше не можна використовувати"
             }
         }
     }
