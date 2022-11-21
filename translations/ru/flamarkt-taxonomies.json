@@ -24,92 +24,92 @@
                     "info": "Информация",
                     "filling": "Заполнение",
                     "browsing": "Browsing",
-                    "scope": ""
+                    "scope": "Scope"
                 },
                 "field": {
-                    "type": "",
-                    "typeDescription": "",
-                    "name": "",
-                    "slug": "",
-                    "description": "",
-                    "color": "",
-                    "icon": "",
-                    "iconDescription": "",
-                    "showLabel": "",
-                    "showLabelDescription": "",
-                    "enableFilter": "",
-                    "enableFilterDescription": "",
-                    "showFilter": "",
-                    "showFilterDescription": "",
-                    "enableFulltextSearch": "",
-                    "enableFulltextSearchDescription": "",
-                    "enableFulltextSearchWarning": "",
-                    "allowCustomValues": "",
-                    "customValueValidation": "",
-                    "customValueSlugger": "",
-                    "customValueSluggerDescription": "",
-                    "countRequired": "",
-                    "countRequiredDescription": "",
-                    "rangeSeparatorText": "",
-                    "tagScope": "",
-                    "tagScopeDescription": "",
-                    "tagScopePlaceholder": ""
+                    "type": "Type",
+                    "typeDescription": "Таксономии можно использовать на нескольких ресурсах Flarum. Тип нельзя изменить после создания. Вы можете использовать одинаковые имена и значения для таксономий разных типов.\n",
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription",
+                    "showLabel": "Отображать метку таксономии вместе со значением",
+                    "showLabelDescription": "Display style for the discussion list and hero. Currently not used for other resource types.\n",
+                    "enableFilter": "Включить query-string/API фильтры",
+                    "enableFilterDescription": "Allows deep-linking taxonomy filters to discussions, users and products for users with permission to \"see all\" of the taxonomy type. This also allows the same users to use the search filters with the REST API. Without \"Show filters\" setting, users don't have any obvious way to obtain those links for users and products. For discussions, the deep link can be found in the hero even if \"Show filters\" is disabled.\n",
+                    "showFilter": "Показать фильтры на страницах списка/каталога",
+                    "showFilterDescription": "Show filters to regular visitors in the discussion list, user directory or shop index. Only works if \"Enable filters\" is enabled. Shop administrators can always filter by any taxonomy in the backoffice.\n",
+                    "enableFulltextSearch": "Индексировать значения для полнотекстового поиска",
+                    "enableFulltextSearchDescription": "Only has an effect when the Scout integration is active. The term names will become part of the data available in fulltext search for regular users. The data will be available for search to any user with permission to list the resource (\"View forum\" for discussions, \"Search users\" for users and everyone for products), not the users who have the permission to see the taxonomy! You must manually re-build the Scout search index for the resource after changing this setting for existing taxonomies, same if you delete the taxonomy while terms are still assigned.\n",
+                    "enableFulltextSearchWarning": "Your permissions for searching the resource (\"View forum\" for discussions, \"Search users\" for users) are different from the Taxonomies \"see all\" permissions. Before enabling this option, make sure you are comfortable making the data searchable to those users even if they might normally not be able to see the taxonomies!\n",
+                    "allowCustomValues": "Разрешить пользовательские значения",
+                    "customValueValidation": "Проверка пользовательских значений",
+                    "customValueSlugger": "Путь для пользовательских значений",
+                    "customValueSluggerDescription": "Выберите, как вы хотите создать путь. Если путь уже существует, числовой префикс будет добавлен автоматически. Для транслитерации вам необходимо заранее установить и настроить такое расширение.\n",
+                    "countRequired": "Необходимое количество значений",
+                    "countRequiredDescription": "Введите минимальное и максимальное количество значений из этой таксономии, которые могут быть применены к ресурсу.\n",
+                    "rangeSeparatorText": "to",
+                    "tagScope": "Только в указанных тегах",
+                    "tagScopeDescription": "Таксономия будет доступна только в выбранных тегах. Если вы выберете один тег, фильтр будет виден только для этого конкретного тега.\n",
+                    "tagScopePlaceholder": "Введите текст для поиска тега..."
                 },
-                "delete": "",
-                "deleteConfirmation": "",
+                "delete": "=> flamarkt-taxonomies.ref.delete",
+                "deleteConfirmation": "Вы действительно хотите удалить таксономию {name}? Все значения в этой таксономии будут так же удалены. Обсуждения, использующие таксономию, НЕ будут удалены.\n",
                 "submit": {
-                    "new": "",
-                    "edit": ""
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
                 },
                 "type-options": {
-                    "products": "",
+                    "products": "Products",
                     "discussions": "Дискуссии",
                     "users": "Пользователи"
                 },
                 "validation-options": {
-                    "default": "",
-                    "alpha_num": "",
-                    "alpha_dash": "",
-                    "regex": ""
+                    "default": "Любое текстовое значение",
+                    "alpha_num": "Буквенно-цифровые значения",
+                    "alpha_dash": "Буквенно-цифровые значения и дефисы/подчеркивания",
+                    "regex": "Регулярное выражение"
                 },
                 "slugger-options": {
-                    "random": "",
-                    "alpha_dash": "",
-                    "transliterator": ""
+                    "random": "Случайный идентификатор",
+                    "alpha_dash": "ASCII alpha-numerical slugger",
+                    "transliterator": "Используйте расширение FoF Transliterator"
                 }
             },
             "edit-term": {
                 "title": {
-                    "new": "",
-                    "edit": ""
+                    "new": "Создать значение",
+                    "edit": "Редактировать значение"
                 },
                 "field": {
-                    "name": "",
-                    "slug": "",
-                    "description": "",
-                    "color": "",
-                    "icon": "",
-                    "iconDescription": ""
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription"
                 },
-                "delete": "",
-                "deleteConfirmation": "",
+                "delete": "=> flamarkt-taxonomies.ref.delete",
+                "deleteConfirmation": "Вы действительно хотите удалить значение {name}? Обсуждения с использованием термина НЕ будут удалены.\n",
                 "submit": {
-                    "new": "",
-                    "edit": ""
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
                 }
             },
             "permissions": {
-                "heading": "",
-                "moderate": "",
-                "bypassTermCounts": "",
+                "heading": "Таксономии",
+                "moderate": "Настройка доступных таксономий",
+                "bypassTermCounts": "Bypass term count requirements",
                 "seeOwnDiscussion": "Смотреть таксономии в своих дискуссиях",
                 "seeAnyDiscussion": "Смотреть таксономии во всех дискуссиях",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "See taxonomies on any user",
-                "editOwnUser": "Edit taxonomies on own user",
-                "editAnyUser": "Редактировать таксономии для любого пользователя",
+                "editOwnDiscussion": "Править таксономии в своих дискуссиях",
+                "editAnyDiscussion": "Править таксономии в любых дискуссиях",
+                "seeOwnUser": "Смотреть таксономии собственного пользователя",
+                "seeAnyUser": "Смотреть таксономии любого пользователя",
+                "editOwnUser": "Править таксономии собственного пользователя",
+                "editAnyUser": "Редактировать таксономии любого пользователя",
                 "ownDisabledEveryone": "Неактивированные и приостановленные участники",
                 "ownDisabledMembers": "Активированные участники"
             },
@@ -151,7 +151,7 @@
             "error": {
                 "invalid_filter_taxonomy": "Invalid \"{type}\" taxonomy filter key \"{slug}\"",
                 "discussion_taxonomy_not_in_scope": "Таксономия \"{slug}\" не доступна для текущего тэга",
-                "cannot_use_taxonomies_on_model": "You are not allowed to use taxonomies in this context"
+                "cannot_use_taxonomies_on_model": "Вам недоступно использовать таксономии в этом контексте"
             }
         },
         "ref": {
@@ -161,7 +161,7 @@
                 "description": "Описание",
                 "color": "Цвет",
                 "icon": "Иконка",
-                "iconDescription": "Введите название любого класса иконки <a>Font Awesome</a>, <em>включая</em> префикс </code>fas fa-<code>."
+                "iconDescription": "Введите название любого класса иконки <a>Font Awesome</a>, <em>включая</em> префикс <code>fas fa-</code>."
             },
             "delete": "Удалить",
             "submit": {
