@@ -10,15 +10,15 @@
             "settings": {
                 "deepl": {
                     "api_key": {
-                        "help": "",
-                        "label": ""
+                        "help": "Enregistrez-vous sur {link}. Le pilote détectera automatiquement le type de clé, gratuite ou professionnelle.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     },
                     "en_choice": {
-                        "help": "",
-                        "label": "",
+                        "help": "Lors de la traduction en anglais, sélectionnez la variante à utiliser.",
+                        "label": "Variante en anglais",
                         "options": {
-                            "en-US": "",
-                            "en-GB": ""
+                            "en-US": "Anglais (US) en-US",
+                            "en-GB": "Anglais (UK) en-GB"
                         }
                     },
                     "formality": {
