@@ -3,27 +3,27 @@
         "admin": {
             "menu": {
                 "title": "Таксономии",
-                "discussions": "",
-                "users": "",
-                "products": ""
+                "discussions": "Таксономии дискуссий",
+                "users": "Таксономии пользователей",
+                "products": "Product taxonomies"
             },
             "page": {
-                "title": "",
+                "title": "Таксономии",
                 "create": {
                     "taxonomy": "Создать таксономию",
-                    "term": ""
+                    "term": "Создать значение"
                 },
-                "reset-term-order": ""
+                "reset-term-order": "Расположить список значений в алфавитном порядке"
             },
             "edit-taxonomy": {
                 "title": {
                     "new": "Создать таксономию",
-                    "edit": "Редактировать таксономию"
+                    "edit": "Править таксономию"
                 },
                 "section": {
                     "info": "Информация",
-                    "filling": "",
-                    "browsing": "",
+                    "filling": "Заполнение",
+                    "browsing": "Browsing",
                     "scope": ""
                 },
                 "field": {
@@ -102,71 +102,71 @@
                 "heading": "",
                 "moderate": "",
                 "bypassTermCounts": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
+                "seeOwnDiscussion": "Смотреть таксономии в своих дискуссиях",
+                "seeAnyDiscussion": "Смотреть таксономии во всех дискуссиях",
                 "editOwnDiscussion": "",
                 "editAnyDiscussion": "",
                 "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "ownDisabledEveryone": "",
-                "ownDisabledMembers": ""
+                "seeAnyUser": "See taxonomies on any user",
+                "editOwnUser": "Edit taxonomies on own user",
+                "editAnyUser": "Редактировать таксономии для любого пользователя",
+                "ownDisabledEveryone": "Неактивированные и приостановленные участники",
+                "ownDisabledMembers": "Активированные участники"
             },
             "settings": {
-                "goToPage": ""
+                "goToPage": "Перейти на страницу конфигурации"
             }
         },
         "forum": {
             "composer": {
-                "choose": ""
+                "choose": "Выберите {taxonomy}"
             },
             "discussion": {
-                "edit": ""
+                "edit": "Редактировать {taxonomy}"
             },
             "user": {
-                "nav": "",
-                "edit": ""
+                "nav": "Таксономии",
+                "edit": "Редактировать {taxonomy}"
             },
             "blog": {
                 "widget": {
-                    "title": ""
+                    "title": "Таксономии"
                 }
             }
         },
         "lib": {
             "modal": {
                 "title": {
-                    "new": "",
-                    "edit": ""
+                    "new": "Выберите {taxonomy} для своей темы",
+                    "edit": "Редактировать {taxonomy} для {title}"
                 },
-                "placeholder": "",
-                "placeholderOptional": "",
-                "custom": "",
-                "bypassTermCounts": "",
-                "submit": ""
+                "placeholder": "{count, plural, one {Выберите значение...} other {Выберите # значения...}}",
+                "placeholderOptional": "Выбрать...",
+                "custom": "Использовать {value}",
+                "bypassTermCounts": "Bypass term counts",
+                "submit": "Ок"
             }
         },
         "api": {
             "error": {
-                "invalid_filter_taxonomy": "",
-                "discussion_taxonomy_not_in_scope": "",
-                "cannot_use_taxonomies_on_model": ""
+                "invalid_filter_taxonomy": "Invalid \"{type}\" taxonomy filter key \"{slug}\"",
+                "discussion_taxonomy_not_in_scope": "Таксономия \"{slug}\" не доступна для текущего тэга",
+                "cannot_use_taxonomies_on_model": "You are not allowed to use taxonomies in this context"
             }
         },
         "ref": {
             "field": {
-                "name": "",
-                "slug": "",
-                "description": "",
-                "color": "",
-                "icon": "",
-                "iconDescription": ""
+                "name": "Название",
+                "slug": "Путь",
+                "description": "Описание",
+                "color": "Цвет",
+                "icon": "Иконка",
+                "iconDescription": "Введите название любого класса иконки <a>Font Awesome</a>, <em>включая</em> префикс </code>fas fa-<code>."
             },
-            "delete": "",
+            "delete": "Удалить",
             "submit": {
-                "new": "",
-                "edit": ""
+                "new": "Создать",
+                "edit": "Сохранить"
             }
         }
     }
