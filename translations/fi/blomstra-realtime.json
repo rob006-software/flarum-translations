@@ -6,8 +6,19 @@
                 "discussion-list-new-activity-with-auto-release": "{count, plural, one {# keskustelu on} other {# keskustelua on}} uutta aktiivisuutta ja ne päivitetään {releaseTimeout} sekunnin päästä. Klikkaa päivittääksesi heti."
             },
             "typing-indicator": {
+                "anonymous-user": "",
                 "people-are-typing": "{number, plural, one {# käyttäjä kirjoittaa} other {# käyttäjää kirjoittaa}}",
+                "users-are-typing": "",
                 "no-activity": "Kukaan ei kirjoita"
+            },
+            "user": {
+                "settings": {
+                    "heading": "",
+                    "typing-indicator-type": {
+                        "help": "",
+                        "label": ""
+                    }
+                }
             }
         },
         "admin": {

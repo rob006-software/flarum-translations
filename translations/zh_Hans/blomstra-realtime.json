@@ -6,8 +6,19 @@
                 "discussion-list-new-activity-with-auto-release": "{count, plural, one {有 #} other {有 #}} 条内容更新，{releaseTimeout} 秒后自动刷新。点击此处立即刷新。"
             },
             "typing-indicator": {
+                "anonymous-user": "",
                 "people-are-typing": "{number, plural, one {# 人} other {# 人}}正在输入",
+                "users-are-typing": "",
                 "no-activity": "无人活动"
+            },
+            "user": {
+                "settings": {
+                    "heading": "",
+                    "typing-indicator-type": {
+                        "help": "",
+                        "label": ""
+                    }
+                }
             }
         },
         "admin": {

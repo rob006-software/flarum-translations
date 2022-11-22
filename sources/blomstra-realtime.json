@@ -6,8 +6,19 @@
                 "discussion-list-new-activity-with-auto-release": "{count, plural, one {# discussion has} other {# discussions have}} updated activity and will be released in {releaseTimeout} seconds. Click to show now."
             },
             "typing-indicator": {
-                "people-are-typing": "{number, plural, one {# person is writing} other {# people are typing}}",
+                "anonymous-user": "[Anonymous]",
+                "people-are-typing": "{number, plural, one {# person is typing} other {# people are typing}}",
+                "users-are-typing": "{count, plural, one {{users} is typing} other {{users}{others, plural, =1 { & # other} =0 {} other { & # others}} are typing}}",
                 "no-activity": "No one is typing"
+            },
+            "user": {
+                "settings": {
+                    "heading": "Realtime",
+                    "typing-indicator-type": {
+                        "help": "When enabled, the typing indicator will display the users who are currently typing. Disable this to show just the number of users currently typing.",
+                        "label": "Display who is typing"
+                    }
+                }
             }
         },
         "admin": {

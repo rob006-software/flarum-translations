@@ -6,8 +6,19 @@
                 "discussion-list-new-activity-with-auto-release": "{count, plural, one {# discussion a de nouvelles activités et sera publiée} other {# discussions ont de nouvelles activités et seront publiées}} dans {releaseTimeout} secondes. Cliquez ici pour publier dès à présent."
             },
             "typing-indicator": {
+                "anonymous-user": "",
                 "people-are-typing": "{number, plural, one {# personne rédige} other {# personnes rédigent}}",
+                "users-are-typing": "",
                 "no-activity": "Personne ne rédige"
+            },
+            "user": {
+                "settings": {
+                    "heading": "",
+                    "typing-indicator-type": {
+                        "help": "",
+                        "label": ""
+                    }
+                }
             }
         },
         "admin": {

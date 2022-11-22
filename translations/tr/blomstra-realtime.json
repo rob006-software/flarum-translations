@@ -6,8 +6,19 @@
                 "discussion-list-new-activity-with-auto-release": "{count, plural, one {# tartışma var} other {# tartışmalar var}} güncellenmiş etkinlik ve {releaseTimeout} saniye içinde yayınlanacak. Şimdi göstermek için tıklayın."
             },
             "typing-indicator": {
+                "anonymous-user": "",
                 "people-are-typing": "{number, plural, one {# kişi yazıyor} other {# kişi yazıyor}}",
+                "users-are-typing": "",
                 "no-activity": "Kimse yazmıyor"
+            },
+            "user": {
+                "settings": {
+                    "heading": "",
+                    "typing-indicator-type": {
+                        "help": "",
+                        "label": ""
+                    }
+                }
             }
         },
         "admin": {

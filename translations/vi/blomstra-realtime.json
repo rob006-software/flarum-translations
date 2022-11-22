@@ -6,8 +6,19 @@
                 "discussion-list-new-activity-with-auto-release": "{count, plural, one {có # cuộc thảo luận} other {có # cuộc thảo luận}} có hoạt động mới và sẽ được cập nhật trong {releaseTimeout} giây. Nhấn để hiện ngay."
             },
             "typing-indicator": {
+                "anonymous-user": "",
                 "people-are-typing": "{number, plural, one {# người đang viết} other {# người đang viết}}",
+                "users-are-typing": "",
                 "no-activity": "Không có ai đang viết"
+            },
+            "user": {
+                "settings": {
+                    "heading": "",
+                    "typing-indicator-type": {
+                        "help": "",
+                        "label": ""
+                    }
+                }
             }
         },
         "admin": {

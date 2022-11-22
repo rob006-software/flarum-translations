@@ -6,8 +6,19 @@
                 "discussion-list-new-activity-with-auto-release": "{count, plural, one {# témánál volt friss tevékenység, és {releaseTimeout} másodperc múlva lesz} other {# témánál volt friss tevékenység, és {releaseTimeout} másodperc múlva lesznek}} elengedve. Kattintson ide az azonnali megjelenítéshez."
             },
             "typing-indicator": {
+                "anonymous-user": "",
                 "people-are-typing": "{number, plural, one {#} other {#}} ember gépel",
+                "users-are-typing": "",
                 "no-activity": "Senki sem gépel"
+            },
+            "user": {
+                "settings": {
+                    "heading": "",
+                    "typing-indicator-type": {
+                        "help": "",
+                        "label": ""
+                    }
+                }
             }
         },
         "admin": {

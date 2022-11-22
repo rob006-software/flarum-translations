@@ -6,8 +6,19 @@
                 "discussion-list-new-activity-with-auto-release": "{count, plural, one {# discussione ha} other {# discussioni hanno}} aggiornamenti alle attività che verranno rilasciate in {releaseTimeout} secondi. Clicc a per mostrarle ora."
             },
             "typing-indicator": {
+                "anonymous-user": "",
                 "people-are-typing": "{number, plural, one {# utente stà scrivendo} other {# utenti stanno scrivendo}}",
+                "users-are-typing": "",
                 "no-activity": "Nessuno sta scrivendo"
+            },
+            "user": {
+                "settings": {
+                    "heading": "",
+                    "typing-indicator-type": {
+                        "help": "",
+                        "label": ""
+                    }
+                }
             }
         },
         "admin": {
