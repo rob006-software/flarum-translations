@@ -2,35 +2,35 @@
     "clarkwinkelmann-vote-with-money": {
         "admin": {
             "settings": {
-                "preselection": "",
-                "min": "",
-                "max": ""
+                "preselection": "Önceden seçilmiş tutarlar (virgülle ayrılmış, isteğe bağlı)",
+                "min": "Minimum değer",
+                "max": "Maksimum değer"
             }
         },
         "forum": {
             "vote": {
-                "title": "",
-                "target": "",
-                "optionCustom": "",
-                "balance": "",
+                "title": "Oyu onayla",
+                "target": "\"{answer}\" oy seçeneği için katkınızı onaylayın. Oyunuzu daha sonra değiştiremeyeceksiniz.\n",
+                "optionCustom": "Özel",
+                "balance": "Bakiyeniz: {amount}",
                 "label": {
-                    "custom": ""
+                    "custom": "Özel bakiye"
                 },
-                "submit": "",
-                "success": ""
+                "submit": "Gönder",
+                "success": "Oy verildi!"
             },
             "poll": {
-                "voteWithMoney": "",
-                "min": "",
-                "max": ""
+                "voteWithMoney": "Para ile oy ver",
+                "min": "Minimum katkı (isteğe bağlı)",
+                "max": "Maksimum katkı (isteğe bağlı)"
             }
         },
         "api": {
             "error": {
-                "cannotCancel": "",
-                "cannotChange": "",
-                "notEnoughFunds": "",
-                "cannotChangePollType": ""
+                "cannotCancel": "Oylama iptal edilemez.",
+                "cannotChange": "Oy değiştirilemez.",
+                "notEnoughFunds": "Yeterli fon yok.",
+                "cannotChangePollType": "Halihazırda oy aldıktan sonra anket türü değiştirilemez."
             }
         }
     }
