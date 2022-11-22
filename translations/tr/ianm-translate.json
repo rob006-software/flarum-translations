@@ -2,72 +2,72 @@
     "ianm-translate": {
         "admin": {
             "permission": {
-                "refresh-translation": "",
-                "translate-to-locale": "",
-                "translate-to-all-locales": ""
+                "refresh-translation": "Önbelleğe alınmış bir çevirinin yeniden çevirisini zorla",
+                "translate-to-locale": "Çeviriyi geçerli yerel ayarda görüntüle",
+                "translate-to-all-locales": "Çeviriyi herhangi bir forum yerel ayarında görüntüleyin"
             },
             "settings": {
                 "deepl": {
                     "api_key": {
-                        "help": "",
-                        "label": ""
+                        "help": "{link} adresinden kaydolun. Sürücü, ücretsiz/pro anahtar tipini otomatik olarak algılayacaktır.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     },
                     "en_choice": {
-                        "help": "",
-                        "label": "",
+                        "help": "İngilizce'ye çevirirken hangi değişkenin kullanılacağını seçin.",
+                        "label": "İngilizce varyantı",
                         "options": {
-                            "en-US": "",
-                            "en-GB": ""
+                            "en-US": "English (US) en-US",
+                            "en-GB": "English (UK) en-GB"
                         }
                     },
                     "formality": {
-                        "help": "",
-                        "label": "",
+                        "help": "Mevcut olduğunda, çeviriler farklı formalite düzeylerini kullanabilir. Burada tercihinizi seçin.",
+                        "label": "Formalite",
                         "options": {
-                            "default": "",
-                            "prefer_less": "",
-                            "prefer_more": ""
+                            "default": "Varsayılan",
+                            "prefer_less": "Daha az resmi",
+                            "prefer_more": "Çok resmi"
                         }
                     }
                 },
                 "google-cloud": {
                     "api_key": {
-                        "help": "",
-                        "label": ""
+                        "help": "{link} adresinde bir API anahtarı için kaydolun. Bu sürücü, V2 API - Basic'i kullanır.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
-                "provider": "",
-                "readme-info": ""
+                "provider": "Çeviri sağlayıcı",
+                "readme-info": "Genişletilmiş bilgi için README belgelerine bakın."
             }
         },
         "forum": {
-            "unknown-language": "",
-            "detected-language": "",
+            "unknown-language": "[algılanmadı]",
+            "detected-language": "Bu yayın {postLang} içinde",
             "discussion": {
                 "post": {
-                    "close-translation": "",
-                    "translated-header": "",
-                    "translated-updated": ""
+                    "close-translation": "Çeviriyi kapat",
+                    "translated-header": "{from}'dan {to}'ya AI çevirisi",
+                    "translated-updated": "Çeviri en son {time} {provider} kullanılarak güncellendi"
                 }
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Tercüme",
                     "source-language": {
-                        "help": "",
-                        "label": ""
+                        "help": "Devre dışı bırakıldığında, yalnızca geçerli forum dili dışında bir dilde yazılan gönderiler etiketlenecektir. Tüm gönderileri algılanan dille etiketlemek için bu ayarı etkinleştirin.",
+                        "label": "Gönderi dilini her zaman göster"
                     }
                 }
             }
         },
         "lib": {
             "providers": {
-                "deepl": "",
-                "google-free": "",
-                "google-cloud": ""
+                "deepl": "DeepL",
+                "google-free": "Google Translate",
+                "google-cloud": "Google Cloud Translate"
             },
             "settings": {
-                "api-key": ""
+                "api-key": "API Anahtarı"
             }
         }
     }
