@@ -2,7 +2,7 @@
     "fof-polls": {
         "admin": {
             "settings": {
-                "allow_option_image": ""
+                "allow_option_image": "Permettre de fournir l'URL d'une image pour chaque option de sondage"
             },
             "permissions": {
                 "view_results_without_voting": "Afficher les résultats sans voter",
@@ -32,7 +32,7 @@
                 "min": "Vous devez ajouter au moins 2 réponses",
                 "no_voters": "Aucun vote",
                 "option_placeholder": "Répondre",
-                "image_option_placeholder": "",
+                "image_option_placeholder": "URL de l'image (facultatif)",
                 "options_label": "Réponses",
                 "public_poll_label": "Permettre aux utilisateurs de voir qui a voté",
                 "question_placeholder": "Question",
