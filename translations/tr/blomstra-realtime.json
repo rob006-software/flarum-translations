@@ -6,17 +6,17 @@
                 "discussion-list-new-activity-with-auto-release": "{count, plural, one {# tartışma var} other {# tartışmalar var}} güncellenmiş etkinlik ve {releaseTimeout} saniye içinde yayınlanacak. Şimdi göstermek için tıklayın."
             },
             "typing-indicator": {
-                "anonymous-user": "",
+                "anonymous-user": "[Anonim]",
                 "people-are-typing": "{number, plural, one {# kişi yazıyor} other {# kişi yazıyor}}",
-                "users-are-typing": "",
+                "users-are-typing": "{count, plural, one {{users} yazıyor} other {{users}{others, plural, =1 { & # other} =0 {} other { & # others}} yazıyorlar}}",
                 "no-activity": "Kimse yazmıyor"
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Realtime",
                     "typing-indicator-type": {
-                        "help": "",
-                        "label": ""
+                        "help": "Etkinleştirildiğinde, yazma göstergesi o anda yazmakta olan kullanıcıları görüntüler. Yalnızca şu anda yazan kullanıcı sayısını göstermek için bunu devre dışı bırakın.",
+                        "label": "Kimin yazdığını göster"
                     }
                 }
             }
