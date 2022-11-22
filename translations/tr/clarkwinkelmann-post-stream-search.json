@@ -2,41 +2,41 @@
     "clarkwinkelmann-post-stream-search": {
         "admin": {
             "settings": {
-                "dropdownAccess": "",
-                "dropdownAccessHelp": "",
-                "authorQuickFilter": "",
-                "authorQuickFilterHelp": "",
-                "originalPosterBadge": "",
-                "originalPosterBadgeHelp": ""
+                "dropdownAccess": "Tartışma açılır menüsünden erişim",
+                "dropdownAccessHelp": "Araç çubuğu devre dışı bırakılırsa yalnızca klavye kısayolu veya aşağıdaki diğer etkin kısayollardan herhangi biri aracılığıyla kullanılabilir.",
+                "authorQuickFilter": "Gönderi yazarı için hızlı filtre",
+                "authorQuickFilterHelp": "Bu kullanıcıya göre filtrelemek için her gönderi açılır menüsüne bir kısayol eklenecektir.",
+                "originalPosterBadge": "Etkileşimli OP rozetini göster",
+                "originalPosterBadgeHelp": "OP tarafından gönderilen gönderilerin yanına bir rozet eklenecektir. Rozete tıklamak, o kullanıcı için otomatik olarak filtre uygular."
             }
         },
         "forum": {
             "stream": {
-                "noResults": "",
-                "unmatchedGap": "",
-                "otherAuthorsGap": ""
+                "noResults": "Bu tartışmada arama sorgusuyla eşleşen gönderi yok",
+                "unmatchedGap": "{count, plural, one {Eşleşmeyen bir gönderi gizlendi} other {{count} eşleşmeyen gönderi gizlendi}}",
+                "otherAuthorsGap": "{count, plural, one {Başka bir yazarın bir gönderisi gizlendi} other {Diğer yazarların {count} gönderisi gizlendi}}"
             },
             "toolbar": {
-                "searchPlaceholder": "",
-                "authorPlaceholder": "",
-                "summary": "",
-                "pin": "",
-                "close": "",
-                "clear": ""
+                "searchPlaceholder": "Tartışmada bul...",
+                "authorPlaceholder": "Yazara göre filtrele...",
+                "summary": "{total} eşleştirmeden {matching}",
+                "pin": "Tartışmalarda her zaman filtre araç çubuğunu aç",
+                "close": "Filtreleri temizle ve araç çubuğunu kapat",
+                "clear": "Filtreleri temizle"
             },
             "discussionControls": {
-                "searchInDiscussion": ""
+                "searchInDiscussion": "Tartışmada ara"
             },
             "postControls": {
-                "authorFilter": ""
+                "authorFilter": "Yalnızca bu yazarın yanıtlarını göster"
             },
             "post": {
-                "opBadge": "",
-                "opBadgeTooltip": ""
+                "opBadge": "Tartışma başlatıcı",
+                "opBadgeTooltip": "Yalnızca bu kullanıcıdan gelen yanıtları göstermek için tıklayın"
             },
             "cannotGoToPost": {
-                "message": "",
-                "action": ""
+                "message": "Gönderiye gidemem",
+                "action": "Filtreleri temizlemeyi deneyin"
             }
         }
     }
