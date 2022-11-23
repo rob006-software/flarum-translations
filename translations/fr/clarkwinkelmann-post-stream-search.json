@@ -2,41 +2,41 @@
     "clarkwinkelmann-post-stream-search": {
         "admin": {
             "settings": {
-                "dropdownAccess": "",
-                "dropdownAccessHelp": "",
-                "authorQuickFilter": "",
-                "authorQuickFilterHelp": "",
-                "originalPosterBadge": "",
-                "originalPosterBadgeHelp": ""
+                "dropdownAccess": "Accès via le menu déroulant des discussions",
+                "dropdownAccessHelp": "Si cette option est désactivée, la barre d'outils ne sera disponible que par le biais du raccourci clavier ou de l'un des autres raccourcis activés ci-dessous.",
+                "authorQuickFilter": "Filtre rapide pour l'auteur du message",
+                "authorQuickFilterHelp": "Un raccourci sera ajouté à la liste déroulante de chaque message pour filtrer en fonction de l'utilisateur.",
+                "originalPosterBadge": "Afficher le badge interactif de l'auteur du message",
+                "originalPosterBadgeHelp": "Un badge sera ajouté à côté des messages de l'auteur des messages. En cliquant sur le badge, vous filtrerez automatiquement les messages de cet utilisateur."
             }
         },
         "forum": {
             "stream": {
-                "noResults": "",
-                "unmatchedGap": "",
-                "otherAuthorsGap": ""
+                "noResults": "Aucun message ne correspond à la requête de recherche dans cette discussion",
+                "unmatchedGap": "{count, plural, one {Un message non correspondant caché} other {{count} messages non correspondants cachés}}",
+                "otherAuthorsGap": "{count, plural, one {Un message d'un autre auteur caché} other {{count} message d'autres auteurs cachés}}"
             },
             "toolbar": {
-                "searchPlaceholder": "",
-                "authorPlaceholder": "",
-                "summary": "",
-                "pin": "",
-                "close": "",
-                "clear": ""
+                "searchPlaceholder": "Trouver dans la discussion…",
+                "authorPlaceholder": "Filtrer par auteur…",
+                "summary": "{matching} de {total} correspondants",
+                "pin": "Toujours ouvrir la barre d'outils de filtrage sur les discussions",
+                "close": "Effacer les filtres et fermer la barre d'outils",
+                "clear": "Effacer les filtres"
             },
             "discussionControls": {
-                "searchInDiscussion": ""
+                "searchInDiscussion": "Rechercher dans la discussion"
             },
             "postControls": {
-                "authorFilter": ""
+                "authorFilter": "Afficher uniquement les réponses de cet auteur"
             },
             "post": {
-                "opBadge": "",
-                "opBadgeTooltip": ""
+                "opBadge": "Début de la discussion",
+                "opBadgeTooltip": "Cliquez ici pour afficher uniquement les réponses de cet utilisateur"
             },
             "cannotGoToPost": {
-                "message": "",
-                "action": ""
+                "message": "Impossible d'accéder au message",
+                "action": "Essayez d'effacer les filtres"
             }
         }
     }
