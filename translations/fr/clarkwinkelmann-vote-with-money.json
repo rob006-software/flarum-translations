@@ -2,35 +2,35 @@
     "clarkwinkelmann-vote-with-money": {
         "admin": {
             "settings": {
-                "preselection": "",
-                "min": "",
-                "max": ""
+                "preselection": "Montants présélectionnés (séparés par des virgules, facultatif)",
+                "min": "Valeur minimale",
+                "max": "Valeur maximale"
             }
         },
         "forum": {
             "vote": {
-                "title": "",
-                "target": "",
-                "optionCustom": "",
-                "balance": "",
+                "title": "Confirmer le vote",
+                "target": "Confirmez votre promesse de vote pour l'option « {answer} ». Vous ne pourrez pas modifier votre vote ultérieurement.\n",
+                "optionCustom": "Personnalisé",
+                "balance": "Votre solde : {amount}",
                 "label": {
-                    "custom": ""
+                    "custom": "Montant personnalisé"
                 },
-                "submit": "",
-                "success": ""
+                "submit": "Soumettre",
+                "success": "Le vote a été soumis !"
             },
             "poll": {
-                "voteWithMoney": "",
-                "min": "",
-                "max": ""
+                "voteWithMoney": "Voter avec de l'argent",
+                "min": "Promesse minimale (facultatif)",
+                "max": "Promesse maximale (facultatif)"
             }
         },
         "api": {
             "error": {
-                "cannotCancel": "",
-                "cannotChange": "",
-                "notEnoughFunds": "",
-                "cannotChangePollType": ""
+                "cannotCancel": "Impossible d'annuler le vote.",
+                "cannotChange": "Impossible de modifier le vote.",
+                "notEnoughFunds": "Pas suffisamment de fonds.",
+                "cannotChangePollType": "Impossible de modifier le type de sondage après qu'il ait déjà reçu des votes."
             }
         }
     }
