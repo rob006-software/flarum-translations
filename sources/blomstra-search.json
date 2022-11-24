@@ -8,7 +8,11 @@
             "analyzer": {
                 "label": "Analyzer language",
                 "help": "The analyzer makes search understand stop words and undertakes language\nspecific improvements for indexing.\n"
-            }
+            },
+            "search-discussion-subjects": "Search inside discussion titles",
+            "search-post-bodies": "Search inside comments",
+            "match-sentences": "Match search term against full sentence",
+            "match-words": "Match search term against full words"
         }
     }
 }
