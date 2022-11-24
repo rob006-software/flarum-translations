@@ -7,7 +7,7 @@
                 "ip_label": "IP 地址检查",
                 "email_label": "邮箱地址检查",
                 "frequency_label": "宽容度",
-                "frequency_help": "Spam 报告数量宽容程度。\n假设一个用户同时命中邮箱、IP 和用户名共 3 种检查，在阈值设为 3 或更少时，该用户无法完成注册。\n",
+                "frequency_help": "Spam 报告数量上限值。\n在数据库中查询用户注册时使用的邮箱、IP 和用户名，并统计相关的举报次数，大于等于上限时，禁止该用户注册。\n",
                 "api_key_label": "API Key",
                 "api_key_text": "检测到您已启用 fof/spamblock 插件，配置下方秘钥即可在标记垃圾用户的同时向 StopForumSpam 数据库提交该用户的信息以协助社区用户免受垃圾侵蚀。",
                 "api_key_instructions_text": "<register>注册 StopForumSpam</register>，然后<key>申请 API 密钥</key>。",
