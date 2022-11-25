@@ -7,12 +7,12 @@
             "elastic-index": "Index 索引",
             "analyzer": {
                 "label": "Analyzer language 分析语言",
-                "help": "分析器用于理解语义和分词，并对索引进行优化。\n"
+                "help": "分析器用于理解语义和分词，并优化索引。\n"
             },
-            "search-discussion-subjects": "",
-            "search-post-bodies": "",
-            "match-sentences": "",
-            "match-words": ""
+            "search-discussion-subjects": "索引标题",
+            "search-post-bodies": "索引帖文",
+            "match-sentences": "长句匹配",
+            "match-words": "字词匹配"
         }
     }
 }
