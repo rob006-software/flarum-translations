@@ -2,41 +2,41 @@
     "clarkwinkelmann-post-stream-search": {
         "admin": {
             "settings": {
-                "dropdownAccess": "",
-                "dropdownAccessHelp": "",
-                "authorQuickFilter": "",
-                "authorQuickFilterHelp": "",
-                "originalPosterBadge": "",
-                "originalPosterBadgeHelp": ""
+                "dropdownAccess": "Acceso a través del menú desplegable de discusión",
+                "dropdownAccessHelp": "Si está deshabilitado, la barra de búsqueda solo estará disponible a través del atajo de teclado o cualquiera de las opciones habilitadas a continuación.",
+                "authorQuickFilter": "Filtro rápido para el autor de la publicación",
+                "authorQuickFilterHelp": "Se agregará un acceso directo a cada publicación desplegable para filtrar por ese usuario.",
+                "originalPosterBadge": "Mostrar insignia interactiva por autor",
+                "originalPosterBadgeHelp": "Se agregará una insignia junto a las publicaciones del autor. Al hacer clic en la insignia, se filtrará automáticamente para ese usuario."
             }
         },
         "forum": {
             "stream": {
-                "noResults": "",
-                "unmatchedGap": "",
-                "otherAuthorsGap": ""
+                "noResults": "Ninguna publicación coincide con la consulta de búsqueda en esta discusión.",
+                "unmatchedGap": "{count, plural, one {Una publicación no coincidente oculta} other {{count} publicaciones ocultas que no coinciden}}",
+                "otherAuthorsGap": "{count, plural, one {Una publicación de otro autor oculta} other {{count} publicaciones de otros autores ocultas}}"
             },
             "toolbar": {
-                "searchPlaceholder": "",
-                "authorPlaceholder": "",
-                "summary": "",
-                "pin": "",
-                "close": "",
-                "clear": ""
+                "searchPlaceholder": "Buscar en la discusión...",
+                "authorPlaceholder": "Filtrar por autor...",
+                "summary": "{matching} de {total} coinciden",
+                "pin": "Abrir siempre la barra de búsqueda en las discusiones",
+                "close": "Borrar filtros y cerrar barra de búsqueda",
+                "clear": "Borrar filtros"
             },
             "discussionControls": {
-                "searchInDiscussion": ""
+                "searchInDiscussion": "Buscar en la discusión"
             },
             "postControls": {
-                "authorFilter": ""
+                "authorFilter": "Mostrar solo las respuestas de este autor"
             },
             "post": {
-                "opBadge": "",
-                "opBadgeTooltip": ""
+                "opBadge": "Autor del tema",
+                "opBadgeTooltip": "Haz clic para mostrar solo las respuestas de este usuario"
             },
             "cannotGoToPost": {
-                "message": "",
-                "action": ""
+                "message": "No se puede ir a la publicación",
+                "action": "Prueba a borrar los filtros"
             }
         }
     }
