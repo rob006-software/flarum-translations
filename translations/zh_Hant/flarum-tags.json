@@ -2,21 +2,21 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": "=> flarum-tags.ref.tags"
+                "tags_label": "節點"
             },
             "edit_tag": {
-                "color_label": "=> core.ref.color",
+                "color_label": "顏色",
                 "delete_tag_button": "刪除節點",
                 "delete_tag_confirmation": "確定要刪除此節點？此節點下的貼文將不會被刪除。",
                 "description_label": "說明",
                 "hide_label": "從「全部貼文」中隱藏",
-                "icon_label": "=> core.ref.icon",
-                "icon_text": "=> core.ref.icon_text",
-                "name_label": "=> flarum-tags.ref.name",
-                "name_placeholder": "=> flarum-tags.ref.name",
+                "icon_label": "圖標",
+                "icon_text": "鍵入任意 <a>FontAwesome</a> 圖示類名，<em>需要包含</em>前綴 <code>fas fa-</code>",
+                "name_label": "節點名稱",
+                "name_placeholder": "節點名稱",
                 "slug_label": "英文名稱",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "=> flarum-tags.ref.create_tag"
+                "submit_button": "儲存更改",
+                "title": "新增節點"
             },
             "nav": {
                 "tags_button": "節點設定",
@@ -25,7 +25,8 @@
             "permissions": {
                 "allow_edit_tags_label": "允許編輯節點",
                 "restrict_by_tag_heading": "按節點",
-                "tag_discussions_label": "更改節點"
+                "tag_discussions_label": "更改節點",
+                "bypass_tag_counts_label": "不受標籤數量限制"
             },
             "tag_settings": {
                 "range_separator_text": " 至 ",
@@ -37,22 +38,25 @@
             },
             "tags": {
                 "about_tags_text": "節點用於分類貼文。主節點類似於傳統論壇的板塊；次節點無層級或順序，可作為子分類。",
-                "create_tag_button": "=> flarum-tags.ref.create_tag",
+                "create_tag_button": "新增節點",
                 "primary_heading": "主節點",
                 "secondary_heading": "次節點",
-                "settings_button": "設定"
+                "settings_button": "設定",
+                "create_primary_tag_button": "新建主標籤",
+                "create_secondary_tag_button": "新建次標籤",
+                "settings_heading": "設置"
             }
         },
         "forum": {
             "all_tags": {
                 "meta_description_text": "全部節點",
-                "meta_title_text": "=> flarum-tags.ref.tags"
+                "meta_title_text": "節點"
             },
             "choose_tags": {
                 "choose_primary_placeholder": "選擇主節點|選擇 {count} 個主節點",
                 "choose_secondary_placeholder": "選擇次節點|選擇 {count} 個次節點",
                 "edit_title": "更改「{title}」的節點",
-                "submit_button": "=> core.ref.okay",
+                "submit_button": "好",
                 "title": "選擇節點"
             },
             "composer_discussion": {
@@ -66,7 +70,7 @@
             },
             "index": {
                 "more_link": "更多節點...",
-                "tags_link": "=> flarum-tags.ref.tags",
+                "tags_link": "節點",
                 "untagged_link": "移除節點"
             },
             "post_stream": {
