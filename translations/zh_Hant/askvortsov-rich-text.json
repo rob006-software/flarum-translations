@@ -1,0 +1,51 @@
+{
+    "askvortsov-rich-text": {
+        "admin": {
+            "settings": {
+                "toggle_on_editor": "在編輯器顯示富文本切換按鈕"
+            }
+        },
+        "forum": {
+            "settings": {
+                "composer_heading": "文本編輯器",
+                "rich_text_compact_paragraphs_label": "換行時繼承上行樣式",
+                "use_rich_text_editor_label": "使用富文本編輯器"
+            }
+        },
+        "lib": {
+            "composer": {
+                "additional_items_tooltip": "其他",
+                "bold_tooltip": "粗體 <{modifierKey}-b>",
+                "code_block_tooltip": "程式碼塊",
+                "code_tooltip": "行內程式碼<{modifierKey}-`>",
+                "header_tooltip": "更改為標題 {level} <shift-{modifierKey}-{level}>",
+                "horizontal_rule_tooltip": "分割線",
+                "image_tooltip": "添加圖片",
+                "insert_button": "插入",
+                "insert_image": {
+                    "src_placeholder": "超鏈接",
+                    "title_placeholder": "標題"
+                },
+                "insert_link": {
+                    "href_placeholder": "URL",
+                    "remove_button": "移除",
+                    "text_placeholder": "文本",
+                    "title_placeholder": "標題（在懸停時顯示）"
+                },
+                "italic_tooltip": "斜體 <{modifierKey}-i>",
+                "link_tooltip": "超鏈接",
+                "ordered_list_tooltip": "有序列表 <shift-{modifierKey}-9>",
+                "paragraph_tooltip": "修改為段落 <shift-{modifierKey}-0>",
+                "quote_tooltip": "插入引用 <{modifierKey}-q>",
+                "spoiler_block_tooltip": "折疊文本",
+                "spoiler_inline_tooltip": "隱藏  <{modifierKey}-;>",
+                "strike_tooltip": "刪除線 <alt-shift-5>",
+                "sub_tooltip": "下標 <{modifierKey}-,>",
+                "sup_tooltip": "上標 <{modifierKey}-.>",
+                "text_type_tooltip": "文本類型",
+                "toggle_button": "切換富文本模式",
+                "unordered_list_tooltip": "無序列表 <shift-{modifierKey}-8>"
+            }
+        }
+    }
+}
