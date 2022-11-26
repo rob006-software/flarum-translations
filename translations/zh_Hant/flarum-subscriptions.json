@@ -2,16 +2,16 @@
     "flarum-subscriptions": {
         "forum": {
             "badge": {
-                "following_tooltip": "=> flarum-subscriptions.ref.following",
-                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+                "following_tooltip": "關注",
+                "ignoring_tooltip": "無視"
             },
             "discussion_controls": {
-                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "follow_button": "關注",
                 "unfollow_button": "取消關注",
                 "unignore_button": "取消無視"
             },
             "index": {
-                "following_link": "=> flarum-subscriptions.ref.following"
+                "following_link": "關注"
             },
             "notifications": {
                 "new_post_text": "{username} 回覆了你關注的貼文"
@@ -21,21 +21,30 @@
                 "notify_new_post_label": "關注的貼文有新回覆"
             },
             "sub_controls": {
-                "follow_button": "=> flarum-subscriptions.ref.follow",
-                "following_button": "=> flarum-subscriptions.ref.following",
+                "follow_button": "關注",
+                "following_button": "關注",
                 "following_text": "有新回覆時通知我",
-                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_button": "無視",
                 "ignoring_text": "不接收任何通知並從貼文列表中隱藏。",
                 "not_following_button": "不關注",
                 "not_following_text": "僅當被提及時通知我",
                 "notify_alert_tooltip": "有新回覆時發送通知",
                 "notify_email_tooltip": "有新回覆時發送郵件"
+            },
+            "following": {
+                "meta_title_text": "關注中"
             }
         },
         "ref": {
             "follow": "關注",
             "following": "關注",
             "ignoring": "無視"
+        },
+        "email": {
+            "new_post": {
+                "body": "{recipient_display_name}，您好！\n\n您關注的主題《{title}》，【{poster_display_name}】發表了新內容\n\n點擊下方鏈接即可查看完整內容。\n{url}\n\n---\n\n{content}\n\n---\n\n在您已讀前，您不會再收到任何關於這個主題的通知。",
+                "subject": "【新帖】{title}"
+            }
         }
     }
 }
