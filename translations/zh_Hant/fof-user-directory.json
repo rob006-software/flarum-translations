@@ -1,0 +1,35 @@
+{
+    "fof-user-directory": {
+        "forum": {
+            "search": {
+                "users_heading": "在全部用戶中搜尋「{query}」"
+            },
+            "page": {
+                "nav": "會員名錄",
+                "sort": {
+                    "relevance": "相關度",
+                    "default": "預設",
+                    "username_az": "會員名 (a-z)",
+                    "username_za": "會員名 (z-a)",
+                    "newest": "最新",
+                    "oldest": "最老",
+                    "seen_recent": "最近上線",
+                    "seen_oldest": "離開最久",
+                    "most_posts": "最多回覆",
+                    "least_posts": "最少回覆",
+                    "most_discussions": "最多貼文",
+                    "least_discussions": "最少貼文"
+                }
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view_user_directory": "檢視會員名錄"
+            },
+            "settings": {
+                "title": "會員名錄設定",
+                "link": "新增連結至首頁以便於會員查看"
+            }
+        }
+    }
+}
