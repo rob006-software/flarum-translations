@@ -31,7 +31,7 @@
                 "title": "外觀"
             },
             "basics": {
-                "all_discussions_label": "全部貼文",
+                "all_discussions_label": "全部主題",
                 "default_language_heading": "預設語言",
                 "forum_description_heading": "論壇說明",
                 "forum_description_text": "使用一到兩句話簡短描述論壇。這將會添加於 Meta 標籤中，並顯示於搜尋引擎結果中。",
@@ -163,7 +163,7 @@
                 "userlist_title": "論壇用戶分頁列表。"
             },
             "permissions": {
-                "allow_renaming_label": "更改標題",
+                "allow_renaming_label": "更改主題",
                 "allow_post_editing_label": "編輯貼文",
                 "create_heading": "貼文",
                 "delete_discussions_forever_label": "永久刪除貼文",
@@ -178,7 +178,7 @@
                 "participate_heading": "操作",
                 "post_without_throttle_label": "頻繁回覆無需等待間隔",
                 "read_heading": "訪問",
-                "rename_discussions_label": "更改標題",
+                "rename_discussions_label": "更改主題",
                 "reply_to_discussions_label": "新增回覆",
                 "sign_up_label": "註冊帳戶",
                 "start_discussions_label": "新增貼文",
@@ -294,11 +294,11 @@
                 "preview_tooltip": "預覽"
             },
             "composer_discussion": {
-                "body_placeholder": "撰寫貼文...",
+                "body_placeholder": "撰寫內容 ...",
                 "discard_confirmation": "貼文尚未發佈，是否丟棄？",
                 "submit_button": "發佈",
                 "title": "新增貼文",
-                "title_placeholder": "標題"
+                "title_placeholder": "文章標題 ..."
             },
             "composer_edit": {
                 "discard_confirmation": "更改未儲存，是否丟棄？",
@@ -327,7 +327,7 @@
                 "toggle_dropdown_accessible_label": "主題下拉選單開關"
             },
             "discussion_list": {
-                "empty_text": "道生一，一生二，二生三，三生萬物",
+                "empty_text": "因為什麼都沒有，所以什麼都做得到",
                 "load_more_button": "載入更多",
                 "mark_as_read_tooltip": "標記為已讀",
                 "replied_text": "{username} 回覆於 {ago}",
@@ -399,7 +399,7 @@
                 "username_or_email_placeholder": "會員名稱或郵箱"
             },
             "notifications": {
-                "discussion_renamed_text": "{username} 更改了標題",
+                "discussion_renamed_text": "{username} 更改了主題",
                 "empty_text": "暫無通知",
                 "mark_all_as_read_tooltip": "標記所有為已讀",
                 "mark_as_read_tooltip": "標記為已讀",
@@ -428,14 +428,14 @@
                 "viewing_text": "{index} / {count} 則"
             },
             "post_stream": {
-                "discussion_renamed_old_tooltip": "舊標題是: 「{old}」",
-                "discussion_renamed_text": "{username} 將標題更改為 「{new}」。",
+                "discussion_renamed_old_tooltip": "舊主題是: 「{old}」",
+                "discussion_renamed_text": "{username} 將主題更改為 「{new}」。",
                 "load_more_button": "載入更多",
                 "reply_placeholder": "撰寫回覆...",
                 "time_lapsed_text": "{period}後"
             },
             "rename_discussion": {
-                "title": "更改帖文標題",
+                "title": "更改帖文主題",
                 "submit_button": "重命名"
             },
             "search": {
@@ -450,8 +450,8 @@
                 "notifications_heading": "通知",
                 "notify_by_email_heading": "郵箱",
                 "notify_by_web_heading": "網頁",
-                "notify_discussion_renamed_label": "你的貼文標題被更改",
-                "privacy_disclose_online_label": "公開展示我的線上狀態",
+                "notify_discussion_renamed_label": "你的貼文主題被更改",
+                "privacy_disclose_online_label": "公開我的在線狀態",
                 "privacy_heading": "隱私",
                 "title": "設定"
             },
@@ -462,14 +462,14 @@
                 "password_placeholder": "密碼",
                 "submit_button": "註冊",
                 "title": "註冊",
-                "username_placeholder": "會員",
+                "username_placeholder": "會員名稱",
                 "welcome_text": "歡迎造訪，{username}！"
             },
             "user": {
                 "avatar_remove_button": "移除",
-                "avatar_upload_button": "上傳頭像",
-                "avatar_upload_tooltip": "上傳新頭像",
-                "discussions_link": "貼文",
+                "avatar_upload_button": "上傳圖像",
+                "avatar_upload_tooltip": "上傳新圖像",
+                "discussions_link": "主題",
                 "in_discussion_text": "於 {discussion}",
                 "joined_date_text": "加入於 {ago}",
                 "online_text": "正在線上",
@@ -609,7 +609,7 @@
             "custom_header_title": "編輯客製化頁眉",
             "delete": "刪除",
             "delete_forever": "永久刪除",
-            "discussions": "貼文",
+            "discussions": "主題",
             "edit": "編輯",
             "email": "郵箱",
             "icon_label": "圖示",
@@ -632,14 +632,14 @@
             "save_changes": "儲存更改",
             "settings": "設定",
             "sign_up": "註冊",
-            "some_others": "{count} 人|{count} 人",
+            "some_others": "{count, plural, one {# 人} other {# 人}}",
             "start_a_discussion": "新增貼文",
-            "username": "會員",
+            "username": "會員名稱",
             "users": "會員",
             "write_a_reply": "撰寫回覆...",
             "you": "你",
             "edit_user": "編輯用戶",
-            "icon": "圖標",
+            "icon": "圖示",
             "loading": "Loading...",
             "view": "查看"
         },
