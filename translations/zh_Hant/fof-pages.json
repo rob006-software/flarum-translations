@@ -2,34 +2,35 @@
     "fof-pages": {
         "admin": {
             "edit_page": {
-                "content_label": "=> fof-pages.ref.content",
-                "content_placeholder": "=> fof-pages.ref.content",
+                "content_label": "內容",
+                "content_placeholder": "內容",
                 "delete_page_button": "刪除頁面",
                 "delete_page_confirmation": "你確定要刪除此頁面？",
                 "hidden_label": "儲存為草稿",
                 "restricted_label": "訪問限制（可在權限設定頁面配置訪問權限）",
                 "html_label": "啟用 HTML",
                 "set_as_home_page_confirmation": "你確定要將此頁面設為首頁嗎？",
-                "slug_label": "=> fof-pages.ref.slug",
-                "slug_placeholder": "=> fof-pages.ref.slug",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "=> fof-pages.ref.create_page",
-                "title_label": "=> fof-pages.ref.title",
-                "title_placeholder": "=> fof-pages.ref.title",
-                "url_label": "=> fof-pages.ref.url",
-                "url_placeholder": "=> fof-pages.ref.url"
+                "slug_label": "Slug",
+                "slug_placeholder": "Slug",
+                "submit_button": "儲存更改",
+                "title": "新增頁面",
+                "title_label": "標題",
+                "title_placeholder": "標題",
+                "url_label": "連結",
+                "url_placeholder": "連結",
+                "set_as_home_page_done": "首頁更換成功"
             },
             "nav": {
-                "pages_button": "=> fof-pages.ref.pages",
+                "pages_button": "頁面",
                 "pages_text": "新增自定義靜態頁面"
             },
             "pages": {
                 "about_text": "新增及管理靜態頁面",
-                "create_button": "=> fof-pages.ref.create_page"
+                "create_button": "新增頁面"
             },
             "pages_list": {
                 "empty_text": "看起來這裡一片空白。",
-                "title": "=> fof-pages.ref.title"
+                "title": "標題"
             },
             "permissions": {
                 "restricted": "查看受限頁面"
