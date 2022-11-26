@@ -1,0 +1,28 @@
+{
+    "flarum-lock": {
+        "admin": {
+            "permissions": {
+                "lock_discussions_label": "鎖定貼文"
+            }
+        },
+        "forum": {
+            "badge": {
+                "locked_tooltip": "鎖定"
+            },
+            "discussion_controls": {
+                "lock_button": "鎖定貼文",
+                "unlock_button": "解鎖貼文"
+            },
+            "notifications": {
+                "discussion_locked_text": "{username} 鎖定貼文"
+            },
+            "post_stream": {
+                "discussion_locked_text": "{username} 鎖定此貼",
+                "discussion_unlocked_text": "{username} 解鎖此貼"
+            },
+            "settings": {
+                "notify_discussion_locked_label": "你的貼文被鎖定"
+            }
+        }
+    }
+}
