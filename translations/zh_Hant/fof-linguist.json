@@ -9,7 +9,11 @@
                 "apply": "套用",
                 "reset": "復原",
                 "copy-original": "拷貝原文",
-                "load-more": "載入更多"
+                "load-more": "載入更多",
+                "delete-all": "刪除所有翻譯",
+                "delete-all-confirm": "這將會刪除所有 {count} 條自定義翻譯。為了防止你後悔，請在導出或備份所有翻譯後再執行此操作。",
+                "delete-redundant": "刪除冗餘的翻譯",
+                "delete-redundant-confirm": "這將會刪除 {count} 條原始值與自定義值相同的翻譯。這對語言包更新後產生的冗餘內容具有不錯的清理效果。"
             },
             "locales": {
                 "all": "全部"
@@ -26,11 +30,94 @@
                 "without-original-translations-in-locales": "不帶原文翻譯於",
                 "for-extension": "適用於延伸套件",
                 "for-extension-unavailable": "名稱空間「{namespace}」找不到翻譯。 這個延伸套件可能沒有需要翻譯的文本，或者使用了另一個名稱空間。 嘗試透過搜尋來定位翻譯。\n",
-                "results": "顯示 {shown} 條匹配翻譯，共 {total} 條"
+                "results": "顯示 {shown} 條匹配翻譯，共 {total} 條",
+                "frontend": "前端篩選",
+                "frontend-all-except-admin": "全部",
+                "mass-edit": "更多",
+                "missing": "查找缺失翻譯",
+                "missing-middle-label": "翻譯",
+                "negation-options": {
+                    "with": "有",
+                    "without": "無"
+                },
+                "operation-options": {
+                    "and": "同時存在於",
+                    "or": "任意存在於"
+                },
+                "type-options": {
+                    "any": "原始或自定義",
+                    "original": "原始",
+                    "own": "自定義"
+                }
             },
             "clear-cache": {
                 "text": "新增翻譯尚未部署。 Note: 清除快取會造成論壇一時緩慢。\n",
                 "button": "立刻清除快取"
+            },
+            "coverage": {
+                "all-namespaces": "全部",
+                "apply-missing-filter": "顯示匹配的缺失翻譯",
+                "column-options": {
+                    "locale": "語言包",
+                    "namespace": "前端"
+                },
+                "columns": {
+                    "all-except-admin": "論壇和其他前端項",
+                    "all-frontends": "展開所有前端項",
+                    "namespace": "命名空間",
+                    "total": "總計"
+                },
+                "count": {
+                    "details": "總計 {total} / 原始 {original} / 自定義 {custom}",
+                    "percent": " {percent} %",
+                    "total": "{translated} / {total}"
+                },
+                "total-options": {
+                    "count": "數量",
+                    "percent": "百分比"
+                }
+            },
+            "export": {
+                "download": "下載",
+                "include-all": "包含定義為「全部」語言的翻譯",
+                "include-originals": "包含原始翻譯",
+                "locale": "語言",
+                "locale-all": "偽語言「全部」",
+                "namespace": "命名空間",
+                "namespace-all": "全部",
+                "output": "輸出",
+                "output-empty": "空輸出",
+                "output-loading": "正在加載輸出...",
+                "title": "導出",
+                "warning": "導出的翻譯格式是 Flarum 使用的 Yaml 文件，此功能旨在論壇之間或與語言包維護者共享翻譯。該格式不是為了將所有翻譯移到新的論壇上而設計的。根據您的使用情況，直接複製數據庫可能是一個更好的辦法。"
+            },
+            "import": {
+                "input": "在此輸入",
+                "input-placeholder": "拖拽或粘貼 Yaml 文件到此處",
+                "locale": "語言",
+                "locale-all": "偽語言「全部」",
+                "override-existing": "覆蓋已存在的自定義翻譯",
+                "results": "導入完成。已導入 {imported} 字符串，已跳過 {identical} 重複的字符串。當前頁面即將刷新以加載新翻譯。\n",
+                "results-with-ignore": "導入完成。已導入 {imported} 字符串，已跳過 {ignored} 已存在的字符串、{identical} 重複的字符串。當前頁面即將刷新以加載新翻譯。\n",
+                "submit": "導入",
+                "title": "導入"
+            },
+            "known-frontend": {
+                "admin": "管理面板",
+                "api": "API",
+                "forum": "論壇",
+                "lib": "Lib（論壇和管理面板共用）",
+                "ref": "Ref (被其他鍵復用)"
+            },
+            "known-namespace": {
+                "core": "Flarum 核心",
+                "validation": "數據校驗錯誤"
+            },
+            "tabs": {
+                "coverage": "覆蓋率",
+                "export": "導出",
+                "import": "導入",
+                "strings": "翻譯"
             }
         }
     }
