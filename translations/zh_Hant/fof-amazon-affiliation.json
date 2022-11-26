@@ -1,0 +1,20 @@
+{
+    "fof-amazon-affiliation": {
+        "admin": {
+            "settings": {
+                "title": {
+                    "modal": "Amazon 聯盟設定",
+                    "tags": "聯盟標籤"
+                },
+                "field": {
+                    "keep-existing-tag": "保留原始連結中的聯盟標籤",
+                    "keep-existing-tag-help": "預設替換原始連結中的聯盟標籤為下方定義的標籤",
+                    "remove-tag-if-unhandled": "移除未覆蓋的聯盟標籤",
+                    "remove-tag-if-unhandled-help": "預設保留未覆蓋的聯盟標籤",
+                    "tag": "{name} (amazon.{domain})",
+                    "tag-placeholder": "置空則不覆蓋這些連結"
+                }
+            }
+        }
+    }
+}
