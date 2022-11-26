@@ -18,8 +18,20 @@
         },
         "admin": {
             "settings": {
-                "title": "FoF 貼文語言",
-                "native_label": "使用原生語言名稱"
+                "native_label": "使用原生語言名稱",
+                "show_flag_label": "",
+                "composer_default_label": "",
+                "locale_sort_label": "",
+                "show_any_lang_opt_label": "",
+                "tags_page_discussion_locale_label": "",
+                "errors": {
+                    "missing_assets": ""
+                },
+                "config": {
+                    "language_label": "",
+                    "country_label": ""
+                },
+                "title": "FoF 貼文語言"
             },
             "permissions": {
                 "allow_change_language_label": "允許更改語言"

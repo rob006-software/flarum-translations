@@ -15,6 +15,11 @@
                 "parent_remove_last_discussion": "隱藏頂級節點的最新貼文?",
                 "small_forum_optimized": "小型論壇優化"
             },
+            "help": {
+                "child_bare_icon": "沒有圓形背景時，是否顯示子類別圖標？",
+                "full_page_desktop": "側邊欄導航菜單是否應該折疊成一行（就像在傳統標籤頁面上一樣）？ 這還將從類別頁面導航欄中隱藏小部件（例如 Flarum 論壇統計數據之友）。",
+                "small_forum_optimized": "這將提供更準確的討論/帖子計數，但會顯著降低中型和大型論壇的速度。"
+            },
             "headings": {
                 "nav": "導航",
                 "layout": "樣式",
@@ -22,22 +27,18 @@
                 "child_display": "顯示子分類",
                 "performance": "性能"
             },
-            "title": "分類設定",
-            "help": {
-                "child_bare_icon": "沒有圓形背景時，是否顯示子類別圖標？",
-                "full_page_desktop": "側邊欄導航菜單是否應該折疊成一行（就像在傳統標籤頁面上一樣）？ 這還將從類別頁面導航欄中隱藏小部件（例如 Flarum 論壇統計數據之友）。",
-                "small_forum_optimized": "這將提供更準確的討論/帖子計數，但會顯著降低中型和大型論壇的速度。"
-            }
+            "title": "分類設定"
         },
         "forum": {
+            "all_categories": {
+                "meta_description_text": "所有類別",
+                "meta_title_text": "分類"
+            },
             "header": {
                 "back_to_categories_tooltip": "返回分類"
             },
             "index": {
                 "categories_link": "分類"
-            },
-            "meta": {
-                "categories_title": "分類"
             },
             "stat-widgets": {
                 "discussion_label": "貼文",
@@ -46,9 +47,8 @@
             "last_discussion_widget": {
                 "no_discussions": "暫無貼文"
             },
-            "all_categories": {
-                "meta_description_text": "所有類別",
-                "meta_title_text": "分類"
+            "meta": {
+                "categories_title": "分類"
             }
         },
         "ref": {

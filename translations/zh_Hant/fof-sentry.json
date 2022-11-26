@@ -3,9 +3,13 @@
         "admin": {
             "settings": {
                 "dsn_label": "Sentry DSN",
+                "environment_label": "",
                 "user_feedback_label": "使用者反饋",
                 "javascript_label": "回報 JavaScript 錯誤",
-                "javascript_console_label": "捕獲 JavaScript 控制台"
+                "javascript_console_label": "捕獲 JavaScript 控制台",
+                "javascript_trace_sample_rate": "",
+                "monitor_performance_label": "",
+                "send_user_emails_label": ""
             }
         }
     }

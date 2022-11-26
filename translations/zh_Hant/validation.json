@@ -30,6 +30,8 @@
         "ends_with": ":attribute 必須以「:values」結尾",
         "exists": "選擇的 :attribute 無效",
         "file": ":attribute 必須是文件。",
+        "file_too_large": "",
+        "file_upload_failed": "",
         "filled": ":attribute 不能為空",
         "gt": {
             "numeric": ":attribute 必須大於 :value",
@@ -77,9 +79,11 @@
             "string": ":attribute 不能少於 :min 個字符",
             "array": ":attribute 不能少於 :min 項"
         },
+        "multiple_of": ":attribute 須是:value 的倍數。",
         "not_in": ":attribute 無效",
         "not_regex": ":attribute 格式無效",
         "numeric": ":attribute 必須由數字組成",
+        "password": "密碼錯誤。",
         "present": ":attribute 屬性必須存在",
         "regex": ":attribute 格式非法",
         "required": ":attribute 不能為空",
@@ -89,6 +93,9 @@
         "required_with_all": "當 :values 都存在時 :attribute 不能為空",
         "required_without": "當 :values 不存在時 :attribute 不能為空",
         "required_without_all": "當 :values 都不存在時 :attribute 不能為空",
+        "prohibited": ":attribute 字段不可用。",
+        "prohibited_if": ":other 為 :value 時 :attribute 字段不可用。",
+        "prohibited_unless": ":other 非 :value 時 :attribute 字段不可用。",
         "same": ":attribute 及 :other 必須一致",
         "size": {
             "numeric": ":attribute 必須為 :size",
@@ -119,11 +126,6 @@
                 "regex": "使用者名稱僅能包含字母、數字、短劃線"
             }
         },
-        "recaptcha": "reCAPTCHA 驗證失敗。",
-        "multiple_of": ":attribute 須是:value 的倍數。",
-        "password": "密碼錯誤。",
-        "prohibited": ":attribute 字段不可用。",
-        "prohibited_if": ":other 為 :value 時 :attribute 字段不可用。",
-        "prohibited_unless": ":other 非 :value 時 :attribute 字段不可用。"
+        "recaptcha": "reCAPTCHA 驗證失敗。"
     }
 }

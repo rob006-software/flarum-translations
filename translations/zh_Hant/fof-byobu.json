@@ -12,19 +12,23 @@
                 "edit_recipients": "編輯參與者",
                 "send_pd": "給 {username} 傳送訊息",
                 "cancel": "取消",
-                "remove_from_discussion": "離開私密貼文",
-                "make_public": "公開私密貼文"
+                "make_public": "公開私密貼文",
+                "remove_from_discussion": "離開私密貼文"
             },
             "composer_private_discussion": {
                 "submit_button": "發布私密貼文",
                 "title_placeholder": "私密貼文標題"
+            },
+            "confirm": {
+                "make_public": "這將把私密貼文公開給所有人，請在繼續前謹慎考慮這個動作是否正確。"
             },
             "labels": {
                 "recipients": "僅 {count} 人可見",
                 "user_deleted": "--已刪除--"
             },
             "nav": {
-                "start_button": "新增私密貼文"
+                "start_button": "新增私密貼文",
+                "nav_item": ""
             },
             "input": {
                 "search_recipients": "輸入 ID 前三個字符進行搜尋"
@@ -39,15 +43,22 @@
                     "update_recipients": "更新私密貼文「{title}」的參與者",
                     "add_recipients": "新增參與者到私密貼文"
                 },
+                "labels": {
+                    "selected_users": "",
+                    "search_field": ""
+                },
                 "help": {
                     "add_recipients": "私密貼文僅對受邀者可見，除你之外需要至少一位參與者。",
-                    "update_recipients": "私密貼文僅對受邀者可見。"
+                    "update_recipients": "私密貼文僅對受邀者可見。",
+                    "selected_users": "",
+                    "click_user_to_remove_tooltip": ""
                 }
             },
             "post": {
                 "recipients_modified": {
                     "added_and_removed": "{username} 新增「{added}」並移除「{removed}」",
                     "added": "{username} 新增「{added}」",
+                    "made_public": "",
                     "removed": "{username} 移除「{removed}」",
                     "removed_self": "{username} 離開私密貼文"
                 }
@@ -68,9 +79,6 @@
                 "pd_user_left_text": "{username} 離開來私密貼文",
                 "pd_added_text": "{username} 將您加入私密貼文",
                 "pd_added_label": "有人將我加入私密貼文"
-            },
-            "confirm": {
-                "make_public": "這將把私密貼文公開給所有人，請在繼續前謹慎考慮這個動作是否正確。"
             }
         },
         "admin": {
@@ -84,8 +92,26 @@
                 "view_private_discussions-when-flagged": "若有旗標則允許查看其他人的私密貼文"
             },
             "settings": {
+                "badge-icon": "",
+                "enable-make-public-option": "",
+                "enable-make-public-option-help": "",
+                "post-event-icon": "",
                 "use_tag_slug": "指定節點的貼文將被強制作為私密貼文",
                 "use_tag_slug_help": "留空以允許使用者自己選擇節點，僅適用於新增的私密貼文"
+            }
+        },
+        "email": {
+            "subject": {
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": ""
+            },
+            "body": {
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": ""
             }
         },
         "notifications": {

@@ -2,14 +2,92 @@
     "fof-username-request": {
         "admin": {
             "permissions": {
-                "start": "申請變更用戶名",
-                "moderate": "同意變更用戶名",
                 "moderate_requests": "核準更改用戶名/暱稱",
                 "request_nickname": "申請變更暱稱",
-                "request_username": "申請變更用戶名"
+                "request_username": "申請變更用戶名",
+                "start": "申請變更用戶名",
+                "moderate": "同意變更用戶名"
             }
         },
         "forum": {
+            "nickname_modals": {
+                "action": {
+                    "title": "=> fof-username-request.ref.nickname_change_request",
+                    "help_text": "確認暱稱遵循論壇規則",
+                    "decision_title": "決定",
+                    "approval_label": "同意",
+                    "rejected_label": "拒絕",
+                    "submit_button": "提交",
+                    "reason_title": "拒絕原因",
+                    "success": "決定已送出",
+                    "name": "{name} 申請變更暱稱為「{requestedName}」"
+                },
+                "results": {
+                    "title": "暱稱申請變更",
+                    "approved": "您的變更暱稱申請已通過！",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "您的暱稱已成功改為：{name}",
+                    "rejected": "您的變更暱稱申請已遭拒。",
+                    "reason": "拒絕原因：<i>「{reason}」</i>.",
+                    "resubmit": "您可以重新提交一個新的暱稱變更申請。"
+                },
+                "request": {
+                    "title": "暱稱申請變更",
+                    "current_request": "您已申請將暱稱改為「{name}」。您可以更新或刪除請求。",
+                    "submit_button": "提交申請",
+                    "delete_button": "刪除請求",
+                    "confirmation_message": "您的變更暱稱申請已收到並將在稍後進行審核。",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "申請已刪除"
+                }
+            },
+            "username_modals": {
+                "action": {
+                    "title": "=> fof-username-request.ref.username_change_request",
+                    "help_text": "確認用戶名遵循論壇規則",
+                    "decision_title": "決定",
+                    "approval_label": "同意",
+                    "rejected_label": "拒絕",
+                    "submit_button": "提交",
+                    "reason_title": "拒絕原因",
+                    "success": "決定已送出",
+                    "name": "{name} 申請變更用戶名為「{requestedName}」"
+                },
+                "results": {
+                    "title": "申請變更用戶名",
+                    "approved": "您的變更用戶名的申請已通過！",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "您的用戶名已變更為：{name}",
+                    "rejected": "您的變更用戶名申請已遭拒。",
+                    "reason": "拒絕原因：<i>「{reason}」</i>.",
+                    "resubmit": "您可以重新提交一個新的用戶名申請。"
+                },
+                "request": {
+                    "title": "申請變更用戶名",
+                    "current_request": "您已申請將用戶名改為「{name}」。您可以更新或刪除請求。",
+                    "submit_button": "提交申請",
+                    "delete_button": "刪除申請",
+                    "confirmation_message": "您的變更用戶名申請已收到並將在稍後進行審核。",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "請申已刪除。"
+                }
+            },
+            "pending_requests": {
+                "empty_text": "暫無申請。",
+                "nickname_item_text": "{name} 申請更改暱稱",
+                "nickname_exerpt": "申請暱稱：{requestedName}",
+                "tooltip": "=> fof-username-request.ref.name_change_requests",
+                "title": "=> fof-username-request.ref.name_change_requests",
+                "username_item_text": "{name} 申請更改用戶名",
+                "username_exerpt": "申請用戶名：{requestedName}"
+            },
+            "settings": {
+                "nickname_request_button": "更改暱稱",
+                "username_request_button": "更改用戶名"
+            },
+            "user": {
+                "name_history_link": "用戶名歷史"
+            },
             "action": {
                 "title": "=> fof-username-request.forum.results.title",
                 "help_text": "確認用戶名遵循論壇規則",
@@ -46,84 +124,6 @@
                 "title": "用戶名變更申請",
                 "item_text": "{username} 申請變更用戶名",
                 "exerpt": "申請變更用戶名為： {requestedUsername}"
-            },
-            "nickname_modals": {
-                "action": {
-                    "approval_label": "同意",
-                    "decision_title": "決定",
-                    "help_text": "確認暱稱遵循論壇規則",
-                    "name": "{name} 申請變更暱稱為「{requestedName}」",
-                    "reason_title": "拒絕原因",
-                    "rejected_label": "拒絕",
-                    "submit_button": "提交",
-                    "success": "決定已送出",
-                    "title": "=> fof-username-request.ref.nickname_change_request"
-                },
-                "request": {
-                    "confirmation_message": "您的變更暱稱申請已收到並將在稍後進行審核。",
-                    "current_request": "您已申請將暱稱改為「{name}」。您可以更新或刪除請求。",
-                    "delete_button": "刪除請求",
-                    "deleted": "申請已刪除",
-                    "dismiss_button": "=> core.ref.okay",
-                    "submit_button": "提交申請",
-                    "title": "暱稱申請變更"
-                },
-                "results": {
-                    "approved": "您的變更暱稱申請已通過！",
-                    "dismiss_button": "=> core.ref.okay",
-                    "new_name": "您的暱稱已成功改為：{name}",
-                    "reason": "拒絕原因：<i>「{reason}」</i>.",
-                    "rejected": "您的變更暱稱申請已遭拒。",
-                    "resubmit": "您可以重新提交一個新的暱稱變更申請。",
-                    "title": "暱稱申請變更"
-                }
-            },
-            "pending_requests": {
-                "empty_text": "暫無申請。",
-                "nickname_exerpt": "申請暱稱：{requestedName}",
-                "nickname_item_text": "{name} 申請更改暱稱",
-                "title": "=> fof-username-request.ref.name_change_requests",
-                "tooltip": "=> fof-username-request.ref.name_change_requests",
-                "username_exerpt": "申請用戶名：{requestedName}",
-                "username_item_text": "{name} 申請更改用戶名"
-            },
-            "settings": {
-                "nickname_request_button": "更改暱稱",
-                "username_request_button": "更改用戶名"
-            },
-            "user": {
-                "name_history_link": "用戶名歷史"
-            },
-            "username_modals": {
-                "action": {
-                    "approval_label": "同意",
-                    "decision_title": "決定",
-                    "help_text": "確認用戶名遵循論壇規則",
-                    "name": "{name} 申請變更用戶名為「{requestedName}」",
-                    "reason_title": "拒絕原因",
-                    "rejected_label": "拒絕",
-                    "submit_button": "提交",
-                    "success": "決定已送出",
-                    "title": "=> fof-username-request.ref.username_change_request"
-                },
-                "request": {
-                    "confirmation_message": "您的變更用戶名申請已收到並將在稍後進行審核。",
-                    "current_request": "您已申請將用戶名改為「{name}」。您可以更新或刪除請求。",
-                    "delete_button": "刪除申請",
-                    "deleted": "請申已刪除。",
-                    "dismiss_button": "=> core.ref.okay",
-                    "submit_button": "提交申請",
-                    "title": "申請變更用戶名"
-                },
-                "results": {
-                    "approved": "您的變更用戶名的申請已通過！",
-                    "dismiss_button": "=> core.ref.okay",
-                    "new_name": "您的用戶名已變更為：{name}",
-                    "reason": "拒絕原因：<i>「{reason}」</i>.",
-                    "rejected": "您的變更用戶名申請已遭拒。",
-                    "resubmit": "您可以重新提交一個新的用戶名申請。",
-                    "title": "申請變更用戶名"
-                }
             }
         },
         "ref": {

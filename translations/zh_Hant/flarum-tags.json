@@ -24,9 +24,9 @@
             },
             "permissions": {
                 "allow_edit_tags_label": "允許編輯標籤",
+                "bypass_tag_counts_label": "不受標籤數量限制",
                 "restrict_by_tag_heading": "按標籤",
-                "tag_discussions_label": "更改標籤",
-                "bypass_tag_counts_label": "不受標籤數量限制"
+                "tag_discussions_label": "更改標籤"
             },
             "tag_settings": {
                 "range_separator_text": " 至 ",
@@ -38,13 +38,13 @@
             },
             "tags": {
                 "about_tags_text": "標籤用於分類貼文。主標籤類似於傳統論壇的板塊；次標籤無層級或順序，可作為子分類。",
-                "create_tag_button": "新增標籤",
-                "primary_heading": "主標籤",
-                "secondary_heading": "次標籤",
-                "settings_button": "設定",
                 "create_primary_tag_button": "新建主標籤",
                 "create_secondary_tag_button": "新建次標籤",
-                "settings_heading": "設置"
+                "primary_heading": "主標籤",
+                "secondary_heading": "次標籤",
+                "settings_heading": "設置",
+                "create_tag_button": "新增標籤",
+                "settings_button": "設定"
             }
         },
         "forum": {
@@ -53,12 +53,12 @@
                 "meta_title_text": "標籤"
             },
             "choose_tags": {
+                "bypass_requirements": "忽略標籤要求",
                 "choose_primary_placeholder": "{count, plural, one {選擇主標籤     } other {最多選擇 # 個主標籤     }}",
                 "choose_secondary_placeholder": "{count, plural, one {次標籤     } other {最多選擇 # 個次標籤     }}",
                 "edit_title": "更改「{title}」的標籤",
                 "submit_button": "好",
-                "title": "選擇標籤",
-                "bypass_requirements": "忽略標籤要求"
+                "title": "選擇標籤"
             },
             "composer_discussion": {
                 "choose_tags_link": "選擇標籤"
@@ -75,8 +75,8 @@
                 "untagged_link": "移除標籤"
             },
             "post_stream": {
-                "added_tags_text": "{username} 加上了 {tagsAdded} 標籤",
                 "added_and_removed_tags_text": "{username} 加上了 {tagsAdded} 標籤，並移除 {tagsRemoved} 標籤",
+                "added_tags_text": "{username} 加上了 {tagsAdded} 標籤",
                 "removed_tags_text": "{username} 移除了 {tagsRemoved} 標籤",
                 "tags_text": "{count, plural, one {{tags}} other {{tags}}}"
             },
@@ -88,9 +88,9 @@
             "deleted_tag_text": "已刪除"
         },
         "ref": {
-            "create_tag": "新增標籤",
             "name": "標籤名稱",
-            "tags": "標籤"
+            "tags": "標籤",
+            "create_tag": "新增標籤"
         }
     }
 }

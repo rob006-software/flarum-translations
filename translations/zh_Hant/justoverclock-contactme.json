@@ -1,33 +1,33 @@
 {
     "flarum-ext-contactme": {
+        "settings": {
+            "emaillabel": "接收訊息的郵箱"
+        },
         "admin": {
             "settings": {
                 "emaillabel": "消息接收郵箱"
             }
         },
+        "forum": {
+            "title": "聯繫我們",
+            "messagesent": "發送成功！",
+            "plsregister": "請注冊或登錄",
+            "tocontinue": "留在此處",
+            "backsoon": "我們將盡快的回覆你",
+            "notloggedin": "請登錄以聯繫我們",
+            "placeholderName": "您的姓名",
+            "emailfield": "您的郵件地址",
+            "pageTitle": "聯繫我們",
+            "subject": "聯繫表單訊息",
+            "sendForm": "發送",
+            "textAreaField": "在此處填寫訊息",
+            "pText": "<p>針對各舊站帳號使用、合併等問題，請聯繫，盡量安排處理。</p>\n<p><strong>舊站帳號、文章合併</strong></p>\n<p>假設你在不同舊站上用了相同的MAIL註冊，有機率其中的某個帳號會被禁用(MAIL重覆)</p>\n<p>文章基本上是在的，請提出需求，可以進行人工設置回復。</p>\n<p>  若是你忘了你在各站註冊所使用的MAIL，或是MAIL已停用，請來信告知原帳號，及要更新的MAIL，將協助手動恢復啟用。</p>\n<p>   您填寫的內容，基本上，天知、地知、你知、我知，勿在意。</p>"
+        },
         "email": {
             "contact": {
-                "body": "你好！\n\n{username} 提交了一封聯繫表單（來自：{email}）\n\n 內容是：\n\n{message}",
-                "subject": "新聯繫表單"
+                "subject": "新聯繫表單",
+                "body": "你好！\n\n{username} 提交了一封聯繫表單（來自：{email}）\n\n 內容是：\n\n{message}"
             }
-        },
-        "forum": {
-            "backsoon": "我們將盡快的回覆你",
-            "emailfield": "您的郵件地址",
-            "messagesent": "發送成功！",
-            "notloggedin": "請登錄以聯繫我們",
-            "pText": "<p>針對各舊站帳號使用、合併等問題，請聯繫，盡量安排處理。</p>\n<p><strong>舊站帳號、文章合併</strong></p>\n<p>假設你在不同舊站上用了相同的MAIL註冊，有機率其中的某個帳號會被禁用(MAIL重覆)</p>\n<p>文章基本上是在的，請提出需求，可以進行人工設置回復。</p>\n<p>  若是你忘了你在各站註冊所使用的MAIL，或是MAIL已停用，請來信告知原帳號，及要更新的MAIL，將協助手動恢復啟用。</p>\n<p>   您填寫的內容，基本上，天知、地知、你知、我知，勿在意。</p>",
-            "pageTitle": "聯繫我們",
-            "placeholderName": "您的姓名",
-            "plsregister": "請注冊或登錄",
-            "sendForm": "發送",
-            "subject": "聯繫表單訊息",
-            "textAreaField": "在此處填寫訊息",
-            "title": "聯繫我們",
-            "tocontinue": "留在此處"
-        },
-        "settings": {
-            "emaillabel": "接收訊息的郵箱"
         }
     }
 }

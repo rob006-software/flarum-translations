@@ -3,9 +3,21 @@
         "admin": {
             "permissions": {
                 "login": "以其他身分登入"
+            },
+            "settings": {
+                "title": "",
+                "require_reason": "",
+                "no_settings_available": ""
             }
         },
         "forum": {
+            "modal": {
+                "title": "",
+                "label": "",
+                "placeholder_optional": "",
+                "placeholder_required": "",
+                "impersonate_username": ""
+            },
             "user_controls": {
                 "impersonate_button": "偽裝身分"
             }

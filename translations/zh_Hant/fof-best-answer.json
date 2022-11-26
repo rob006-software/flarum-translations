@@ -6,14 +6,35 @@
                 "best_answer_not_own_discussion": "為他人貼文選取最佳回覆"
             },
             "settings": {
-                "title": "FoF 最佳回覆",
+                "label": {
+                    "general": "",
+                    "reminders": "",
+                    "advanced": "",
+                    "reminders_notice": ""
+                },
                 "allow_select_own_post": "允許選取自己的回覆",
+                "allow_select_own_post_help": "",
+                "enable_all_tags_button": "",
+                "enable_all_tags_reminder_button": "",
                 "select_best_answer_reminder_days": "於 n 天後提醒用戶選取最佳回覆",
+                "select_best_answer_reminder_days_help": "",
                 "schedule_on_one_server": "透過 'onOneServer()' 指令作為任務排程器（需要 Redis/Memcache）",
+                "schedule_on_one_server_help": "",
                 "schedule_stop_overnight": "提醒排程於非社交時間停止執行（伺服器時間 9pm - 8am）",
+                "schedule_stop_overnight_help": "",
                 "schedule_log_output": "輸出排程日誌到日誌存儲",
-                "remind_tag_ids": "若要僅提醒某些節點，請於此填入節點 ID（逗號分隔）",
-                "use_alt_ui": "使用新樣式（最佳回覆按鈕顯示於貼文頁腳）"
+                "show_filter_label": "",
+                "show_filter_help": "",
+                "use_alt_ui": "使用新樣式（最佳回覆按鈕顯示於貼文頁腳）",
+                "use_alt_ui_help": "",
+                "documentation": "",
+                "introduction": "",
+                "title": "FoF 最佳回覆",
+                "remind_tag_ids": "若要僅提醒某些節點，請於此填入節點 ID（逗號分隔）"
+            },
+            "edit_tag": {
+                "qna_label": "",
+                "reminders": ""
             }
         },
         "forum": {
@@ -22,16 +43,50 @@
             "remove_best_answer": "移除最佳回覆",
             "best_answer_button": "最佳回覆",
             "best_answer_label": "最佳回覆由 <a>{username}</a> 於 {time_set} 選取",
+            "errors": {
+                "mismatch": ""
+            },
             "notification": {
                 "best_answer_in_discussion": "{username} 為這個貼文選取了一個最佳回覆",
                 "content": "如果您的問題已經解決請選取一個最佳回覆",
                 "awarded": "您的回覆被 {username} 選為最佳回覆",
-                "awarded_email": "您的回覆被選為最佳回覆",
-                "select_email_title": "您的問題解決了嗎？",
                 "preferences": {
                     "awarded_best_answer": "當我的回覆被選為最佳回覆時",
-                    "best_answer_in_discussion": "當我參與的貼文有最佳回覆時"
-                }
+                    "best_answer_in_discussion": "當我參與的貼文有最佳回覆時",
+                    "select_best_answer": ""
+                },
+                "awarded_email": "您的回覆被選為最佳回覆",
+                "select_email_title": "您的問題解決了嗎？"
+            },
+            "index": {
+                "ask_question": "",
+                "cannot_ask_question": "",
+                "solved_link": "",
+                "unsolved_link": ""
+            },
+            "filter": {
+                "all_label": "",
+                "solved_label": "",
+                "unsolved_label": "",
+                "accessible_label": ""
+            },
+            "composer": {
+                "titlePlaceholder": ""
+            },
+            "user": {
+                "best-answer-count": ""
+            }
+        },
+        "email": {
+            "subject": {
+                "awarded": "",
+                "ba-set": "",
+                "select": ""
+            },
+            "body": {
+                "awarded": "",
+                "ba-set": "",
+                "select": ""
             }
         }
     }

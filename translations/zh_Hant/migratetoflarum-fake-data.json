@@ -1,14 +1,21 @@
 {
     "migratetoflarum-fake-data": {
-        "admin": {
+        "lib": {
             "generator": {
-                "title": "產生假資料",
-                "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
-                "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
-                "user-count": "=> migratetoflarum-fake-data.ref.user-count",
-                "discussion-count": "=> migratetoflarum-fake-data.ref.discussion-count",
-                "post-count": "=> migratetoflarum-fake-data.ref.post-count",
-                "send": "=> migratetoflarum-fake-data.ref.send"
+                "bulk-mode": "",
+                "bulk-mode-description": "",
+                "user-count": "",
+                "discussion-count": "",
+                "discussion-tags": "",
+                "discussion-tags-none": "",
+                "discussion-tags-random": "",
+                "post-count": "",
+                "date": "",
+                "date-start-placeholder": "",
+                "date-interval-placeholder": "",
+                "send": "",
+                "reset": "",
+                "refresh": ""
             }
         },
         "forum": {
@@ -27,6 +34,17 @@
         "api": {
             "no-users-matched": "未找到用戶",
             "no-discussions-matched": "未找到貼文"
+        },
+        "admin": {
+            "generator": {
+                "title": "產生假資料",
+                "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
+                "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
+                "user-count": "=> migratetoflarum-fake-data.ref.user-count",
+                "discussion-count": "=> migratetoflarum-fake-data.ref.discussion-count",
+                "post-count": "=> migratetoflarum-fake-data.ref.post-count",
+                "send": "=> migratetoflarum-fake-data.ref.send"
+            }
         },
         "ref": {
             "bulk-mode": "大批量模式",

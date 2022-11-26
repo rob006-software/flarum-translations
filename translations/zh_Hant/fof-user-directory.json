@@ -1,14 +1,29 @@
 {
     "fof-user-directory": {
         "forum": {
+            "header": {
+                "back_to_user_directory_tooltip": "返回會員冊"
+            },
             "search": {
                 "users_heading": "在全部用戶中搜尋「{query}」",
                 "field": {
                     "placeholder": "搜索用戶"
+                },
+                "kinds": {
+                    "group": "",
+                    "text": ""
                 }
             },
             "page": {
                 "nav": "會員列表",
+                "refresh_tooltip": "重整",
+                "load_more_button": "加載更多",
+                "empty_text": "抱歉，沒有找到相符的用戶。",
+                "filter_button": "篩選用戶組",
+                "usercard": {
+                    "discussion-count": "",
+                    "post-count": ""
+                },
                 "sort": {
                     "relevance": "相關度",
                     "default": "預設",
@@ -22,14 +37,7 @@
                     "least_posts": "最少回覆",
                     "most_discussions": "最多貼文",
                     "least_discussions": "最少貼文"
-                },
-                "empty_text": "抱歉，沒有找到相符的用戶。",
-                "filter_button": "篩選用戶組",
-                "load_more_button": "加載更多",
-                "refresh_tooltip": "重整"
-            },
-            "header": {
-                "back_to_user_directory_tooltip": "返回會員冊"
+                }
             }
         },
         "admin": {
@@ -37,25 +45,25 @@
                 "view_user_directory": "檢視會員名錄"
             },
             "settings": {
-                "title": "會員名錄設定",
                 "link": "新增連結至首頁以便於會員查看",
                 "default-sort": "默認排序",
                 "use-small-cards": "使用小尺寸卡片",
-                "disable-global-search-source": "不要將會員名錄加到搜索建議中"
+                "disable-global-search-source": "不要將會員名錄加到搜索建議中",
+                "title": "會員名錄設定"
             }
         },
         "lib": {
             "sort": {
+                "not_specified": "使用 Flarum 默認排序",
                 "default": "默認",
-                "least_discussions": "主題最少",
+                "username_az": "用戶名（z-a）",
+                "username_za": "用戶名（z-a）",
+                "newest": "新用戶",
+                "oldest": "老用戶",
+                "most_posts": "發帖最多",
                 "least_posts": "發帖最少",
                 "most_discussions": "主題最多",
-                "most_posts": "發帖最多",
-                "newest": "新用戶",
-                "not_specified": "使用 Flarum 默認排序",
-                "oldest": "老用戶",
-                "username_az": "用戶名（z-a）",
-                "username_za": "用戶名（z-a）"
+                "least_discussions": "主題最少"
             }
         }
     }

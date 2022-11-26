@@ -2,7 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "趨勢"
+                "hot_button": "趨勢",
+                "votes_button": ""
             }
         }
     },
@@ -20,27 +21,43 @@
             },
             "notification": {
                 "upvote": "{username} 讚了您的帖文",
-                "downvote": "{username} 踩了您的帖文"
+                "downvote": "{username} 踩了您的帖文",
+                "prefrences": {
+                    "vote": ""
+                }
             },
             "user": {
-                "points": "👍: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": ""
+                },
+                "rank": "{rank}",
+                "votes_link": "",
+                "points": "👍: {points}"
             },
             "modal": {
+                "downvotes_label": "踩",
                 "title": "打分",
-                "upvotes_label": "讚",
-                "downvotes_label": "踩"
+                "upvotes_label": "讚"
             },
-            "mod_item": "查看點讚的人"
+            "mod_item": "查看點讚的人",
+            "voters": {
+                "none": "",
+                "label": "",
+                "label_none": ""
+            },
+            "post": {
+                "upvote_button": "",
+                "downvote_button": ""
+            }
         },
         "admin": {
             "permissions": {
                 "vote_label": "讚/踩帖文",
                 "see_votes_label": "查看帖文讚/踩",
-                "see_ranking_page": "查看等級頁面"
-            },
-            "nav": {
-                "desc": "增強 Flarum 論壇遊戲性"
+                "see_voters_label": "",
+                "see_ranking_page": "查看等級頁面",
+                "upvote_notifications": "",
+                "downvote_notifications": ""
             },
             "page": {
                 "rankings": {
@@ -55,6 +72,9 @@
                     "custom_image_2": "亞軍圖片",
                     "custom_image_3": "季軍圖片"
                 },
+                "alt_votes": {
+                    "icon_name": ""
+                },
                 "votes": {
                     "points_title": "佔位符",
                     "points_placeholder": "👍: ",
@@ -62,11 +82,15 @@
                     "auto_upvote": "當帖文發佈時自動點讚",
                     "rate_limit": "點讚頻率限制（10 秒）",
                     "discussion_page": "在貼文列表中顯示點讚數",
+                    "alternate_layout": "使用仿 Reddit 投票佈局",
+                    "alternate_post_layout": "",
                     "title": "讚",
                     "vote_color": "點讚貼顏色",
                     "icon_name": "讚/踩小圖示",
                     "icon_help": "輸入任何 Font-Awesome 圖標，後綴為 -up 和 -down。 示例：箭頭，拇指，人字紋",
-                    "alternate_layout": "使用仿 Reddit 投票佈局"
+                    "upvotes_only": "",
+                    "first_post_only": "",
+                    "allow_self_votes": ""
                 },
                 "save_settings": "儲存設定",
                 "convert": {
@@ -85,7 +109,29 @@
                         "points": "👍",
                         "name": "名稱"
                     }
+                },
+                "groups": {
+                    "title": "",
+                    "help": "",
+                    "column": {
+                        "group": "",
+                        "minPoints": "",
+                        "maxPoints": ""
+                    },
+                    "add": "",
+                    "delete": ""
                 }
+            },
+            "nav": {
+                "desc": "增強 Flarum 論壇遊戲性"
+            }
+        },
+        "email": {
+            "body": {
+                "postVoted": ""
+            },
+            "subject": {
+                "postVoted": ""
             }
         }
     }

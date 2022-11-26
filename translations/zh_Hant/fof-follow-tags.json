@@ -3,11 +3,20 @@
         "forum": {
             "settings": {
                 "notify_new_discussion_label": "有人中我關注的節點發帖",
-                "notify_new_post_label": "有人在我關注的節點回覆"
+                "notify_new_post_label": "有人在我關注的節點回覆",
+                "notify_new_discussion_tag_label": ""
             },
             "index": {
                 "follow_tag_button": "關注",
-                "unfollow_tag_button": "不關注"
+                "unfollow_tag_button": "不關注",
+                "following": {
+                    "following_none_label": "",
+                    "following_tags_label": ""
+                }
+            },
+            "badge": {
+                "following_tag_tooltip": "",
+                "lurking_tag_tooltip": ""
             },
             "sub_controls": {
                 "follow_button": "=> fof-follow-tags.ref.follow",
@@ -26,10 +35,34 @@
             },
             "notifications": {
                 "new_discussion_text": "{username} 發佈了新貼文",
-                "new_post_text": "{username} 發佈了新回覆"
+                "new_post_text": "{username} 發佈了新回覆",
+                "new_discussion_tag_text": ""
+            },
+            "user": {
+                "settings": {
+                    "heading": "",
+                    "filter_label": ""
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "following_page_default_label": "",
+                "following_none_label": "",
+                "following_tags_label": ""
             }
         },
         "email": {
+            "subject": {
+                "newDiscussionInTag": "",
+                "newPostInTag": "",
+                "newDiscussionTag": ""
+            },
+            "body": {
+                "newDiscussionInTag": "",
+                "newPostInTag": "",
+                "newDiscussionTag": ""
+            },
             "newDiscussionInTag": "[節點 | 新貼文] 標題",
             "newPostInTag": "[節點 | 新回覆] 標題"
         },
@@ -38,7 +71,11 @@
             "following": "已關注",
             "hiding": "已隱藏",
             "ignoring": "已忽略",
-            "lurking": "圍觀中"
+            "lurking": "圍觀中",
+            "filtering_options": {
+                "none": "",
+                "tags": ""
+            }
         }
     }
 }

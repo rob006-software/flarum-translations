@@ -1,37 +1,37 @@
 {
     "fof-analytics": {
         "admin": {
-            "matomo-widget": {
-                "title": "Matomo"
-            },
             "popup": {
-                "field": {
-                    "googleGTMCode": "GTM 代碼 ID（可選）",
-                    "googleTrackingCode": "跟踪代碼 ID",
-                    "optTrackingCode": "自定義跟踪代碼（可選）",
-                    "piwikAliasUrl": "別名 URL",
-                    "piwikAuthToken": "驗證 Token",
-                    "piwikHideAliasUrl": "在 \"Outlinks\" 報告中，隱藏對已知別名網址的點擊 (https://zh.wikipedia.org/wiki/%E5%A4%96%E9%93%BE)",
-                    "piwikPrependDomain": "追踪時將網站場地放置在網頁標題開頭",
-                    "piwikSiteId": "Site ID",
-                    "piwikTrackAccounts": "追踪獨立流量賬戶",
-                    "piwikTrackSubdomain": "所有 Flarum 子域追踪",
-                    "piwikUrl": "Matomo 域名或 URL",
-                    "statusGoogle": "啟用 Google Analytics",
-                    "statusPiwik": "啟用 Matomo"
-                },
-                "placeholder": {
-                    "piwikAuthToken": "填寫此令牌以在管理面板中啟用 Matomo 統計小部件。\n您可以在設置 > 個人 > API 身份驗證令牌中找到它。"
-                },
                 "section": {
                     "googleAnalytics": "Google Analytics",
                     "piwik": "Matomo"
                 },
+                "field": {
+                    "statusGoogle": "啟用 Google Analytics",
+                    "optTrackingCode": "自定義跟踪代碼（可選）",
+                    "googleTrackingCode": "跟踪代碼 ID",
+                    "googleGTMCode": "GTM 代碼 ID（可選）",
+                    "statusPiwik": "啟用 Matomo",
+                    "piwikUrl": "Matomo 域名或 URL",
+                    "piwikSiteId": "Site ID",
+                    "piwikTrackSubdomain": "所有 Flarum 子域追踪",
+                    "piwikPrependDomain": "追踪時將網站場地放置在網頁標題開頭",
+                    "piwikHideAliasUrl": "在 \"Outlinks\" 報告中，隱藏對已知別名網址的點擊 (https://zh.wikipedia.org/wiki/%E5%A4%96%E9%93%BE)",
+                    "piwikAliasUrl": "別名 URL",
+                    "piwikTrackAccounts": "追踪獨立流量賬戶",
+                    "piwikAuthToken": "驗證 Token"
+                },
+                "placeholder": {
+                    "piwikAuthToken": "填寫此令牌以在管理面板中啟用 Matomo 統計小部件。\n您可以在設置 > 個人 > API 身份驗證令牌中找到它。"
+                },
                 "trackAccounts": {
-                    "email": "按郵箱追踪",
                     "none": "不要追踪",
-                    "username": "按用戶名追踪"
+                    "username": "按用戶名追踪",
+                    "email": "按郵箱追踪"
                 }
+            },
+            "matomo-widget": {
+                "title": "Matomo"
             }
         }
     }

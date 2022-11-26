@@ -8,23 +8,23 @@
             }
         },
         "forum": {
+            "no_content_given": "禁止空留言。",
             "moderatorNotes": {
+                "created_text": "{username} 留言於 {date}",
                 "add_button": "新增備註",
-                "confirmation_message": "備註已儲存，你可能需要重新載入頁面才能看到。",
                 "create-heading": "新增管理員備註",
                 "dismiss_button": "完成",
                 "input_heading": "為 <strong>{username}</strong> 新增備註",
-                "no_content_given": "備註不可為空。",
                 "noNotes": "暫無備註。",
                 "submit_button": "儲存備註",
+                "delete": "刪除",
                 "confirm": "確定要刪除這條留言嗎？",
-                "created_text": "{username} 留言於 {date}",
-                "delete": "刪除"
+                "confirmation_message": "備註已儲存，你可能需要重新載入頁面才能看到。",
+                "no_content_given": "備註不可為空。"
             },
             "user": {
                 "notes": "管理員備註"
-            },
-            "no_content_given": "禁止空留言。"
+            }
         },
         "api": {
             "auto_note": "_切換到此賬號：_ {reason}",

@@ -1,16 +1,37 @@
 {
     "flarum-statistics": {
         "admin": {
+            "date_selection_modal": {
+                "description": "",
+                "end_date": "",
+                "errors": {
+                    "end_before_start": ""
+                },
+                "start_date": "",
+                "submit_button": "",
+                "title": ""
+            },
             "statistics": {
-                "active_users_text": "{count} 活躍用戶",
                 "discussions_heading": "主題",
+                "export_chart_button": "",
                 "last_12_months_label": "最近十二個月",
                 "last_28_days_label": "最近廿八日",
                 "last_7_days_label": "最近七日",
+                "mini_heading": "",
+                "previous_28_days_label": "",
+                "previous_7_days_label": "",
+                "custom_label": "",
+                "custom_label_specified": "",
+                "loading": "",
                 "posts_heading": "貼文",
                 "today_label": "今天",
                 "total_label": "累計",
-                "users_heading": "會員"
+                "users_heading": "會員",
+                "view_full": "",
+                "no_data": "",
+                "current_period": "",
+                "previous_period": "",
+                "active_users_text": "{count} 活躍用戶"
             }
         }
     }

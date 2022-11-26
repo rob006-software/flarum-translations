@@ -2,16 +2,27 @@
     "fof-stopforumspam": {
         "admin": {
             "settings": {
-                "title": "FoF 論壇垃圾攔截器",
+                "introduction": "",
                 "username_label": "使用者名稱檢查",
                 "ip_label": "IP 地址檢查",
                 "email_label": "郵箱地址檢查",
                 "frequency_label": "定限",
-                "frequency_text": "觸發垃圾過濾的檢查垃圾報告數量。",
-                "frequency_example_text": "例如：如果郵箱檢查有 1 個命中，IP 檢查有 2 個命中，合計 3 個命中。如果定限設為 3 或更少，那麼將會禁止註冊。",
+                "frequency_help": "",
                 "api_key_label": "API 密鑰",
                 "api_key_text": "你必須啟用 fof/spamblock，你現在可以向 StopForumSpam 回報垃圾蟲以協助社區免遭垃圾攻擊。",
-                "api_key_instructions_text": "<register>註冊 StopForumSpam</register>，然後你可以<key>申請 API 密鑰</key>。"
+                "api_key_instructions_text": "<register>註冊 StopForumSpam</register>，然後你可以<key>申請 API 密鑰</key>。",
+                "regional_endpoint_label": "",
+                "regional_endpoint_help": "",
+                "region_closest_label": "",
+                "region_europe_label": "",
+                "region_us_label": "",
+                "confidence_label": "",
+                "confidence_help": "",
+                "email_hash_label": "",
+                "email_hash_help": "",
+                "title": "FoF 論壇垃圾攔截器",
+                "frequency_text": "觸發垃圾過濾的檢查垃圾報告數量。",
+                "frequency_example_text": "例如：如果郵箱檢查有 1 個命中，IP 檢查有 2 個命中，合計 3 個命中。如果定限設為 3 或更少，那麼將會禁止註冊。"
             }
         },
         "forum": {

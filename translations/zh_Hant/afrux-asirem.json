@@ -1,33 +1,18 @@
 {
     "afrux-theme-base": {
         "admin": {
+            "extensions": {
+                "title": "擴展程式",
+                "description": "已安裝的擴展程式"
+            },
             "extension": {
                 "sections": {
                     "content": "主設置",
                     "permissions": "權限"
                 }
             },
-            "extensions": {
-                "description": "已安裝的擴展程式",
-                "title": "擴展程式"
-            },
             "header": {
                 "go_back": "返回討論區"
-            },
-            "settings": {
-                "edit_footer_links": "編輯頁腳連結",
-                "footer_bottom_line": "頁腳線條",
-                "footer_description": "頁腳描述",
-                "hero_banner": "首頁歡迎橫幅背景圖",
-                "hero_banner_position": "歡迎橫幅背景圖 CSS 位置（如「center top」或「center 20%」）",
-                "links_modal": {
-                    "add_group": "增加連結組",
-                    "add_link": "增加連結",
-                    "group_name": "組 {number} 名稱",
-                    "group_title": "連結組標題",
-                    "link_label": "連結名稱",
-                    "link_url": "連結 URL"
-                }
             },
             "users": {
                 "grid": {
@@ -36,6 +21,21 @@
                             "title": "頭像"
                         }
                     }
+                }
+            },
+            "settings": {
+                "edit_footer_links": "編輯頁腳連結",
+                "footer_description": "頁腳描述",
+                "footer_bottom_line": "頁腳線條",
+                "hero_banner": "首頁歡迎橫幅背景圖",
+                "hero_banner_position": "歡迎橫幅背景圖 CSS 位置（如「center top」或「center 20%」）",
+                "links_modal": {
+                    "add_group": "增加連結組",
+                    "group_name": "組 {number} 名稱",
+                    "group_title": "連結組標題",
+                    "add_link": "增加連結",
+                    "link_url": "連結 URL",
+                    "link_label": "連結名稱"
                 }
             }
         }

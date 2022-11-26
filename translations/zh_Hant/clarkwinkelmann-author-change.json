@@ -7,9 +7,15 @@
             "modal": {
                 "title-post": "更改回帖作者",
                 "title-discussion": "更改貼文作者",
-                "search_placeholder": "搜尋用戶",
+                "user": "",
+                "created_at": "",
+                "edited_at": "",
+                "sync-with-discussion": "",
+                "sync-with-post": "",
+                "sync-impossible": "",
                 "submit": "儲存",
-                "cancel": "放棄"
+                "cancel": "放棄",
+                "search_placeholder": "搜尋用戶"
             },
             "search": {
                 "placeholder": "搜寻用户",
@@ -19,6 +25,8 @@
         },
         "admin": {
             "permissions": {
+                "edit-user": "",
+                "edit-date": "",
                 "edit": "更改貼文及回覆作者"
             }
         }

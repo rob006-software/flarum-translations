@@ -11,9 +11,16 @@
         },
         "admin": {
             "settings": {
-                "title": "Widget 設定",
+                "widget_ignore_private_discussions_label": "",
                 "widget_order_label": "Widget 順序",
-                "widget_helper_text": "編輯此設定以調整 widget 在論壇側邊上的位置。 值越大位置越高（此值可以為負數）。"
+                "widget_helper_text": "編輯此設定以調整 widget 在論壇側邊上的位置。 值越大位置越高（此值可以為負數）。",
+                "title": "Widget 設定"
+            },
+            "permissions": {
+                "view_discussions_count_label": "",
+                "view_posts_count_label": "",
+                "view_users_count_label": "",
+                "view_lastest_member_label": ""
             }
         }
     }

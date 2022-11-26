@@ -1,5 +1,11 @@
 {
     "fof-share-social": {
+        "admin": {
+            "settings": {
+                "canonical-urls": "",
+                "title": "FoF 社群分享"
+            }
+        },
         "forum": {
             "discussion": {
                 "share_button": "分享"
@@ -8,22 +14,20 @@
                 "title": "分享"
             }
         },
-        "admin": {
-            "settings": {
-                "title": "FoF 社群分享"
-            }
-        },
         "lib": {
             "networks": {
                 "facebook": "Facebook",
                 "twitter": "Twitter",
                 "linkedin": "LinkedIn",
                 "reddit": "Reddit",
+                "whatsapp": "",
+                "telegram": "",
                 "vkontakte": "VKontakte",
                 "odnoklassniki": "Odnoklassniki",
                 "my_mail": "My World",
                 "qq": "QQ",
-                "qzone": "QQ 空間"
+                "qzone": "QQ 空間",
+                "native": ""
             }
         }
     }

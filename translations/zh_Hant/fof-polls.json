@@ -1,13 +1,16 @@
 {
     "fof-polls": {
         "admin": {
+            "settings": {
+                "allow_option_image": ""
+            },
             "permissions": {
-                "moderate": "編輯及移除投票",
-                "self_edit": "允許用戶編輯自己的投票",
+                "view_results_without_voting": "無需參與投票直接查看結果",
                 "start": "發起投票",
+                "self_edit": "允許用戶編輯自己的投票",
                 "vote": "參與投票",
                 "change_vote": "修改投票",
-                "view_results_without_voting": "無需參與投票直接查看結果"
+                "moderate": "編輯及移除投票"
             }
         },
         "forum": {
@@ -29,6 +32,7 @@
                 "min": "最少只能有 2 個選項",
                 "no_voters": "暫無投票",
                 "option_placeholder": "選項",
+                "image_option_placeholder": "",
                 "options_label": "選項",
                 "public_poll_label": "允許用戶查看投票人",
                 "question_placeholder": "問題",

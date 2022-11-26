@@ -2,54 +2,51 @@
     "fof-oauth": {
         "admin": {
             "configure_button_label": "配置 FoF OAuth",
+            "settings_accessibility_label": "",
             "settings": {
                 "only_icons_label": "僅顯示登錄按鈕圖標（可選佈置）",
                 "providers": {
                     "callback_url_text": "如有必要，將回調 URL 設為 {url}。",
                     "discord": {
+                        "description": "前往 {link} 創建應用，並在 OAuth2 選項卡中添加重定向 URL。",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
-                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
-                        "description": "前往 {link} 創建應用，並在 OAuth2 選項卡中添加重定向 URL。"
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "facebook": {
+                        "description": "前往 {link} 創建應用。",
                         "app_id_label": "=> fof-oauth.ref.settings.app_id",
-                        "app_secret_label": "=> fof-oauth.ref.settings.app_secret",
-                        "description": "前往 {link} 創建應用。"
+                        "app_secret_label": "=> fof-oauth.ref.settings.app_secret"
                     },
                     "github": {
+                        "description": "前往 {link} 創建 OAuth 應用。",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
-                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
-                        "description": "前往 {link} 創建 OAuth 應用。"
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "gitlab": {
+                        "description": "在 {link} 創建應用程序，並給予該應用 <code>read_user</code> 權限。",
                         "client_id_label": "=> fof-oauth.ref.settings.app_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
-                        "description": "在 {link} 創建應用程序，並給予該應用 <code>read_user</code> 權限。",
                         "domain_label": "GitLab 域名"
                     },
+                    "twitter": {
+                        "description": "在 {link} 創建一個應用。您需要提供服務協議和隱私政策 URL，然後確保添加請求郵件權限。",
+                        "api_key_label": "API Key",
+                        "api_secret_label": "API Secret"
+                    },
                     "google": {
+                        "description": "前往此處創建應用：{link}",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
-                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
-                        "description": "前往此處創建應用：{link}"
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "linkedin": {
+                        "description": "前往 {link} 創建應用。",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
-                        "client_secret_label": "Client Secret",
-                        "description": "前往 {link} 創建應用。"
-                    },
-                    "twitter": {
-                        "api_key_label": "API Key",
-                        "api_secret_label": "API Secret",
-                        "description": "在 {link} 創建一個應用。您需要提供服務協議和隱私政策 URL，然後確保添加請求郵件權限。"
+                        "client_secret_label": "Client Secret"
                     }
                 }
             }
         },
         "forum": {
-            "error": {
-                "bad_verification_code": "無效或過期的驗證令牌，請重試。",
-                "invalid_state": "無效狀態，請重試。"
-            },
             "log_in": {
                 "with_button": "{provider} 帳號登錄",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
@@ -59,6 +56,19 @@
                 "with_google_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_linkedin_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_twitter_button": "=> fof-oauth.forum.log_in.with_button"
+            },
+            "user": {
+                "settings": {
+                    "linked-account": {
+                        "label": "",
+                        "last-used-label": "",
+                        "link-created-label": "",
+                        "orphaned-account": "",
+                        "help": "",
+                        "identifier-label": "",
+                        "unlink-confirm": ""
+                    }
+                }
             },
             "providers": {
                 "discord": "=> fof-oauth.lib.providers.discord",
@@ -71,6 +81,11 @@
             },
             "signup": {
                 "username_help": "請選擇一個會員名稱"
+            },
+            "unlink": "",
+            "error": {
+                "bad_verification_code": "無效或過期的驗證令牌，請重試。",
+                "invalid_state": "無效狀態，請重試。"
             }
         },
         "lib": {
@@ -79,9 +94,9 @@
                 "facebook": "Facebook",
                 "github": "GitHub",
                 "gitlab": "GitLab",
+                "twitter": "Twitter",
                 "google": "Google",
-                "linkedin": "LinkedIn",
-                "twitter": "Twitter"
+                "linkedin": "LinkedIn"
             }
         },
         "ref": {

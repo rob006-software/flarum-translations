@@ -1,5 +1,15 @@
 {
     "fof-socialprofile": {
+        "admin": {
+            "permissions": {
+                "view": "查看社交網路",
+                "editOwn": "編輯自已的社交網路",
+                "editAny": "編輯其它人的社交網路"
+            },
+            "settings": {
+                "allow_external_favicons_label": "允許外部網站圖示"
+            }
+        },
         "forum": {
             "edit": {
                 "edit": "編輯社交網路",
@@ -10,19 +20,9 @@
                 "submit": "保存",
                 "delete": "删除",
                 "deletetitle": "删除",
+                "save_disabled_fetching_favicons": "正在獲取圖示，請稍後。",
                 "favicon": "網站圖標",
-                "grey_favicon": "灰調圖標",
-                "save_disabled_fetching_favicons": "正在獲取圖示，請稍後。"
-            }
-        },
-        "admin": {
-            "permissions": {
-                "editAny": "編輯其它人的社交網路",
-                "editOwn": "編輯自已的社交網路",
-                "view": "查看社交網路"
-            },
-            "settings": {
-                "allow_external_favicons_label": "允許外部網站圖示"
+                "grey_favicon": "灰調圖標"
             }
         }
     }

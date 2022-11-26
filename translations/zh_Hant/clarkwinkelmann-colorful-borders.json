@@ -13,12 +13,11 @@
         },
         "admin": {
             "permissions": {
-                "heading": "多彩邊框",
                 "editOwnPost": "編輯自己貼文的樣式",
-                "editAnyPost": "編輯任意貼文的樣式"
+                "editAnyPost": "編輯任意貼文的樣式",
+                "heading": "多彩邊框"
             },
             "settings": {
-                "title": "多彩邊框設定",
                 "enableBorderColor": "邊框顏色",
                 "enableBackgroundColor": "背景顏色",
                 "enableTextColor": "文字顏色",
@@ -31,7 +30,8 @@
                     "all": "任意顏色",
                     "custom": "客製化配色列表",
                     "custom-help": "以半形逗號分隔的 #hex 或 rgb() 值的列表"
-                }
+                },
+                "title": "多彩邊框設定"
             }
         }
     }

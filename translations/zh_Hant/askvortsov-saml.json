@@ -1,13 +1,26 @@
 {
     "askvortsov-saml": {
         "admin": {
+            "header": {
+                "text": ""
+            },
             "title": "SAML2 SSO 配置",
             "labels": {
                 "idp_metadata_url": "身分識別提供者資料檔案 URL（替代 XML）",
                 "idp_metadata": "身分識別提供者資料檔案 XML（替代 URL）",
                 "only_option": "使用 SAML2 SSO 作為唯一登入選項？",
-                "sync_attributes": "同步屬性（頭像、群組、簡介、資料檔）？需要安裝 askvortsov/auth-sync 延伸套件。",
-                "nameid_format": "NameID 格式"
+                "nameid_format": "NameID 格式",
+                "slo": "",
+                "authn_requests_signed": "",
+                "logout_request_signed": "",
+                "logout_response_signed": "",
+                "sign_metadata": "",
+                "want_assertions_encrypted": "",
+                "want_assertions_signed": "",
+                "want_messages_signed": "",
+                "x509_cert": "",
+                "x509_key": "",
+                "sync_attributes": "同步屬性（頭像、群組、簡介、資料檔）？需要安裝 askvortsov/auth-sync 延伸套件。"
             },
             "options": {
                 "nameid_format": {

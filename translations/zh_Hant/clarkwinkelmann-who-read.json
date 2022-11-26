@@ -20,6 +20,8 @@
                 "remove-unread": "移除未讀"
             },
             "badges": {
+                "following": "",
+                "ignoring": "",
                 "unread": "標記為未讀"
             },
             "modal": {
@@ -32,14 +34,13 @@
         },
         "admin": {
             "permissions": {
-                "heading": "已讀狀態",
                 "see-read": "查看已讀狀態",
                 "see-subscription": "查看訂閱狀態",
                 "see-unread": "查看其它用戶的未讀狀態",
-                "mark-unread": "允許將自己的主題標記為未讀"
+                "mark-unread": "允許將自己的主題標記為未讀",
+                "heading": "已讀狀態"
             },
             "settings": {
-                "title": "已讀狀態設定",
                 "show-in-discussion-list": "於貼文列表中顯示已讀用戶",
                 "show-in-hero": "於貼文頁面頂部橫幅中顯示已讀用戶",
                 "show-between-posts": "於回覆之間顯示已讀用戶",
@@ -47,7 +48,8 @@
                 "hide-when-behind": "如果未讀回覆過多則完全隱藏這個用戶",
                 "max-visible": "顯示用戶的最大數量",
                 "unread-icon": "未讀徽章的圖示",
-                "only-groups": "僅顯示群組所屬用戶的已讀狀態"
+                "only-groups": "僅顯示群組所屬用戶的已讀狀態",
+                "title": "已讀狀態設定"
             }
         }
     }

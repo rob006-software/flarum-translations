@@ -1,21 +1,21 @@
 {
     "sycho-ace": {
         "admin": {
-            "categories": {
-                "disabled": "停用",
-                "enabled": "啟用",
-                "none": "A-Z"
-            },
+            "extensions": "擴展程序",
             "category_selection": {
                 "label": "分類",
                 "options": {
-                    "availability": "啟用狀態",
                     "default": "默認",
+                    "vendor": "供應商",
                     "none": "A-Z",
-                    "vendor": "供應商"
+                    "availability": "啟用狀態"
                 }
             },
-            "extensions": "擴展程序"
+            "categories": {
+                "none": "A-Z",
+                "enabled": "啟用",
+                "disabled": "停用"
+            }
         }
     }
 }

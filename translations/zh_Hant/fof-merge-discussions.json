@@ -3,30 +3,30 @@
         "forum": {
             "modal": {
                 "title": "合併主題",
-                "type_target_label": "與我合併",
-                "type_target_help_text": "選擇一個主題合併到「<b>{title}</b>」。",
-                "type_from_label": "合併到其它主題",
-                "type_from_help_text": "選取合併「<b>{title}</b>」的目標主題。",
-                "load_preview_button": "預覽",
-                "submit_button": "=> fof-merge-discussions.ref.merge",
                 "ordering_heading": "合併排序",
                 "ordering_date_label": "按創建日期合併帖子",
                 "ordering_date_help": "將討論中的帖子按各自的創建日期重新排序",
                 "ordering_suffix_label": "將合併的帖子添加到討論的末尾",
                 "ordering_suffix_help": "被合併的帖子將附加於討論結尾",
-                "type_heading": "合併類型"
-            },
-            "discussion": {
-                "merge": "=> fof-merge-discussions.ref.merge"
-            },
-            "post": {
-                "merged": "{count, plural, one {已合併主題「{titles}」下的 <b>#</b> 則回覆。} other {已合併主題「{titles}」下的 <b>#</b> 則回覆。}}"
+                "type_heading": "合併類型",
+                "type_target_label": "與我合併",
+                "type_target_help_text": "選擇一個主題合併到「<b>{title}</b>」。",
+                "type_from_label": "合併到其它主題",
+                "type_from_help_text": "選取合併「<b>{title}</b>」的目標主題。",
+                "load_preview_button": "預覽",
+                "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
                 "discussion_merged": "你的主題 <b>{oldTitle}</b> 被 {username} 合併到了這里。",
                 "preferences": {
                     "discussion_merged": "有人將你的主題進行了合併"
                 }
+            },
+            "discussion": {
+                "merge": "=> fof-merge-discussions.ref.merge"
+            },
+            "post": {
+                "merged": "{count, plural, one {已合併主題「{titles}」下的 <b>#</b> 則回覆。} other {已合併主題「{titles}」下的 <b>#</b> 則回覆。}}"
             }
         },
         "admin": {
@@ -43,7 +43,8 @@
                 "merging_failed": "合併主題失敗。",
                 "updating_failed": "更新主題內容失敗。",
                 "deleting_failed": "刪除空主題失敗。",
-                "fixing_posts_number_failed": "修復貼文編號失敗。"
+                "fixing_posts_number_failed": "修復貼文編號失敗。",
+                "fixing_posts_number_meta_failed": ""
             }
         },
         "ref": {

@@ -3,12 +3,16 @@
         "admin": {
             "permissions": {
                 "like_posts_label": "讚"
+            },
+            "settings": {
+                "like_own_posts_help": "",
+                "like_own_posts_label": ""
             }
         },
         "forum": {
             "notifications": {
-                "post_liked_text": "{username} 讚了你的貼文",
-                "others_text": "=> core.ref.some_others"
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} 讚了你的貼文"
             },
             "post": {
                 "like_link": "讚",
@@ -23,6 +27,9 @@
             },
             "settings": {
                 "notify_post_liked_label": "有人讚了你的貼文"
+            },
+            "user": {
+                "likes_link": ""
             }
         }
     }
