@@ -13,8 +13,7 @@
                     "long_name_text": "顯示給用戶的 web 應用名稱",
                     "heading": "關於",
                     "short_name_label": "",
-                    "short_name_text": "您可以在管理後台的「基本設定」頁面修改短名稱。",
-                    "name_text": "填入一個用於 PWA 的較長的名字。"
+                    "short_name_text": "您可以在管理後台的「基本設定」頁面修改短名稱。"
                 },
                 "colors": {
                     "heading": "顏色",
@@ -42,8 +41,7 @@
                 "logo_text": "您至少需要上傳一個 Logo 以安裝 PWA。請注意全部 Logo 都必須是正方形，如果不是請裁切調整。\n\n可用大小如下，我強烈建議上傳盡可能多的 Logo：這將會適配更多裝置。\n\n請注意您可以為較小的 Logo 上傳一張較大的圖片，比如您可以為所有大小上傳 1000x1000px 的圖片，但如果您想要上傳 50x50px 的圖片作為 512x512px 大小的 Logo，圖片將被拉伸。\n",
                 "logo_size_text": "上傳的 Logo 將被縮放至 {size}x{size}px。",
                 "submit_button": "儲存設定",
-                "refreshed_message": "PWA 配置重載成功。",
-                "enable_label": "啟用？"
+                "refreshed_message": "PWA 配置重載成功。"
             },
             "status": {
                 "config_no_https": "config.php 檔中的連結未使用 HTTPS。PWA 必須使用 HTTPS。",
@@ -53,12 +51,7 @@
                 "no_vapid_keys": "",
                 "key_gen_failed": "推送通知所需的密鑰生成失敗。錯誤信息：{error}",
                 "suggest_gmp": "你的服務器似乎沒有啟用 gmp PHP 擴展。此擴展非必需，但可提高應用性能，建議使用。不過有些共享主機可能不支持安裝。",
-                "success": "未發現潛在問題！",
-                "disabled": "您必須啟用 PWA。",
-                "manifest_does_not_exist": "Web Manifest 檔不存在，請儲存設定來重載配置。",
-                "manifest_not_accessible": "Web Manifest 檔不可訪問，檔案應當位於 https://YOUR_FLARUM_SITE_URL/webmanifest.json。如果位置不正確，請檢查服務區配置；如果位置正確，請忽略。",
-                "sw_does_not_exist": "Service Worker 檔不存在，請儲存設定來重載配置。",
-                "sw_not_accessible": "Service Worker 檔不可訪問，檔案應當位於 https://YOUR_FLARUM_SITE_URL/sw.js。如果位置不正確，請檢查服務區配置；如果位置正確，請忽略。"
+                "success": "未發現潛在問題！"
             }
         },
         "forum": {

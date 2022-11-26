@@ -4,9 +4,7 @@
             "permissions": {
                 "moderate_requests": "核準更改用戶名/暱稱",
                 "request_nickname": "申請變更暱稱",
-                "request_username": "申請變更用戶名",
-                "start": "申請變更用戶名",
-                "moderate": "同意變更用戶名"
+                "request_username": "申請變更用戶名"
             }
         },
         "forum": {
@@ -87,43 +85,6 @@
             },
             "user": {
                 "name_history_link": "用戶名歷史"
-            },
-            "action": {
-                "title": "=> fof-username-request.forum.results.title",
-                "help_text": "確認用戶名遵循論壇規則",
-                "decision_title": "決議",
-                "approval_label": "同意",
-                "rejected_label": "拒絕",
-                "submit_button": "提交",
-                "reason_title": "拒絕原因",
-                "success": "決議已傳送",
-                "name": "{username} 申請變更用戶名為「{newUsername}」"
-            },
-            "results": {
-                "title": "變更用戶名",
-                "approved": "您的變更用戶名的申請已通過！",
-                "new_username": "您的用戶名已變更為「{username}」",
-                "rejected": "您的變更用戶名申請已遭拒。",
-                "reason": "拒絕原因： <i>\"{reason}\"</i>",
-                "resubmit": "您可以重新提交一個新的用戶名。"
-            },
-            "request": {
-                "title": "申請變更用戶名",
-                "current_request": "您已申請變更用戶名為「{username}」，您可以更新或刪除該申請。",
-                "submit_button": "提交申請",
-                "delete_button": "刪除申請",
-                "confirmation_message": "您的申請已收到並將在稍後進行審核。",
-                "dismiss_button": "明白",
-                "deleted": "申請已刪除。"
-            },
-            "account_label": "變更用戶名",
-            "profile_link": "用戶名歷史",
-            "dropdown": {
-                "empty_text": "暫無申請",
-                "tooltip": "=> fof-username-request.forum.dropdown.title",
-                "title": "用戶名變更申請",
-                "item_text": "{username} 申請變更用戶名",
-                "exerpt": "申請變更用戶名為： {requestedUsername}"
             }
         },
         "ref": {

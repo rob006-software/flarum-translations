@@ -19,18 +19,13 @@
                 "risky_performance_improvements_help": "",
                 "modes": {
                     "runtime": "運行時",
-                    "multi_file": "多文件",
-                    "cache": "緩存",
-                    "cache_disk": "磁碟"
+                    "multi_file": "多文件"
                 },
                 "frequency": {
                     "hourly": "每小時一次",
                     "twice_daily": "每天兩次",
                     "daily": "每天一次"
-                },
-                "mode_help_cache_disk": "適用於中小型論壇，比如允許cronjobs（計劃任務） 和啟用了Flarum Scheduler的主機環境下（見下文），主題數、用戶數、標籤數和頁面數總和少於5 萬（最終生成的對應鏈接數小於5 萬）。",
-                "mode_help_cache_disk_label": "緩存模式/磁碟模式",
-                "title": "FoF Sitemap"
+                }
             }
         }
     }

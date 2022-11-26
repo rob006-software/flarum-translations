@@ -16,8 +16,7 @@
                 "s3_compatible_storage": "僅在使用 S3 兼容存儲時才需要以下設置。 如果您使用 AWS，您可以將它們留空。\n",
                 "s3_acl": "應用於上傳對象的 ACL（默認：私有）。 有關可能的值，請參閱 https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
                 "s3_instance_profile": "",
-                "composer_buttons": "默認情況下，媒體管理按鈕和上傳按鈕皆可見。您可以選擇只顯示其中一個按鈕。\n",
-                "description": "配置上載服務及偏好設定"
+                "composer_buttons": "默認情況下，媒體管理按鈕和上傳按鈕皆可見。您可以選擇只顯示其中一個按鈕。\n"
             },
             "labels": {
                 "aws-s3": {
@@ -82,15 +81,7 @@
                         "media-btn": "僅媒體管理按鈕"
                     }
                 },
-                "inspect-mime": "",
-                "ovh-svfs": {
-                    "container": "容器",
-                    "password": "密碼",
-                    "region": "區域",
-                    "tenantid": "Tenant ID",
-                    "title": "OVH SVFS 存儲設定",
-                    "username": "使用者名稱"
-                }
+                "inspect-mime": ""
             },
             "permissions": {
                 "download_label": "下載檔案",
@@ -133,9 +124,6 @@
                 "mime-fileinfo": "",
                 "guessed-extension": "",
                 "not-available": ""
-            },
-            "buttons": {
-                "save": "儲存更改"
             }
         },
         "forum": {
