@@ -1,0 +1,54 @@
+{
+    "clarkwinkelmann-who-read": {
+        "forum": {
+            "tooltip": {
+                "last-read-at": "{username} 於 {ago} 已讀",
+                "last-read-at-behind": "{username} 最後於 {ago} 已讀",
+                "last-read-at-up-to-date": "{username} 於 {ago} 已讀新貼"
+            },
+            "more": {
+                "show": "顯示其它 {count} 人",
+                "info": "還有 {count} 人"
+            },
+            "footer": {
+                "read-this-post": "{0} 沒人看過這篇貼文|[1,Inf] {count} 人看過這篇貼文",
+                "read-no-further": "{0} 全都看過更多|[1,Inf] {count} 沒有繼續瀏覽",
+                "read-to-end": "{0} 沒人全部看完|[1,Inf] {count} 人全部看完"
+            },
+            "controls": {
+                "set-unread": "標記為未讀",
+                "remove-unread": "移除未讀"
+            },
+            "badges": {
+                "unread": "標記為未讀"
+            },
+            "modal": {
+                "title": "已讀用戶",
+                "up-to-this-post": "正在看這個貼文的用戶",
+                "past-this-post": "看過這個貼文的用戶",
+                "to-the-end": "全部看完的用戶",
+                "behind": "未看完的用戶"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "heading": "已讀狀態",
+                "see-read": "查看已讀狀態",
+                "see-subscription": "查看訂閱狀態",
+                "see-unread": "查看其它用戶的未讀狀態",
+                "mark-unread": "允許將自己的主題標記為未讀"
+            },
+            "settings": {
+                "title": "已讀狀態設定",
+                "show-in-discussion-list": "於貼文列表中顯示已讀用戶",
+                "show-in-hero": "於貼文頁面頂部橫幅中顯示已讀用戶",
+                "show-between-posts": "於回覆之間顯示已讀用戶",
+                "show-count-of-readers-who-stopped": "於回覆之間顯示瀏覽到這裡的用戶數而不是已讀總數",
+                "hide-when-behind": "如果未讀回覆過多則完全隱藏這個用戶",
+                "max-visible": "顯示用戶的最大數量",
+                "unread-icon": "未讀徽章的圖示",
+                "only-groups": "僅顯示群組所屬用戶的已讀狀態"
+            }
+        }
+    }
+}
