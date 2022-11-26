@@ -126,6 +126,34 @@
 		</td>
 	</tr>
 	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/chinese-traditional">Chinese (Traditional)</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/chinese-traditional/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/chinese-traditional" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/chinese-traditional/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/chinese-traditional/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/chinese-traditional/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/chinese-traditional" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/chinese-traditional/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/chinese-traditional" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/zh_Hant.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/zh_Hant/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td>⚠️ <a href="https://github.com/flarum-lang/czech">Czech</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/czech/tags">
