@@ -1,0 +1,25 @@
+{
+    "flarum-approval": {
+        "admin": {
+            "permissions": {
+                "approve_posts_label": "審核貼文",
+                "reply_without_approval_label": "無需審核直接回覆",
+                "start_discussions_without_approval_label": "無需審核直接發文"
+            }
+        },
+        "forum": {
+            "badge": {
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post": {
+                "awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post_controls": {
+                "approve_button": "審核"
+            }
+        },
+        "ref": {
+            "awaiting_approval": "等候審核"
+        }
+    }
+}
