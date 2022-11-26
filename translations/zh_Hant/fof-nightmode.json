@@ -1,8 +1,47 @@
 {
     "fof-nightmode": {
         "forum": {
-            "night": "夜間模式",
-            "day": "日間模式"
+            "night": "=> fof-nightmode.ref.dark",
+            "day": "=> fof-nightmode.ref.light",
+            "header": {
+                "nightmode_button": "切換日夜模式"
+            },
+            "user": {
+                "settings": {
+                    "auto_unsupported": "你的瀏覽器不支援自動夜間模式。",
+                    "description": "選擇您想在討論區上使用的日夜模式。",
+                    "description2": "這個模式將綁定到您的帳號，並適用於所有的設備，除非您開啟下方的獨立設備設置，來為不同的設備單獨選擇日夜模式。",
+                    "device_specific_setting_checkbox": "獨立設備設置",
+                    "device_specific_setting_checkbox_tooltip": "你選擇為不同的設備單獨設置。",
+                    "heading": "日夜模式",
+                    "option_descriptions": {
+                        "auto": "您的日夜模式將根據您的瀏覽器設置或設備自動選擇。例如，如果您在 IOS 系統中啟用了深色模式，討論區就會使用夜間模式。",
+                        "day": "小白，熟悉的經典體驗。",
+                        "night": "本站建議的使用模式。沒有為什麼，單純因為站長喜歡。"
+                    },
+                    "options": {
+                        "auto": "=> fof-nightmode.ref.auto",
+                        "day": "=> fof-nightmode.ref.light",
+                        "night": "=> fof-nightmode.ref.dark"
+                    }
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "modal": {
+                    "default_theme": "預設模式",
+                    "default_theme_helper": "自動為新用戶、訪客和未定義的用戶設罝的顏色模式。",
+                    "theme_auto": "=> fof-nightmode.ref.auto",
+                    "theme_dark": "=> fof-nightmode.ref.dark",
+                    "theme_light": "=> fof-nightmode.ref.light"
+                }
+            }
+        },
+        "ref": {
+            "auto": "自動（瀏覽器或設備設置）",
+            "dark": "夜間模式",
+            "light": "日間模式"
         }
     }
 }
