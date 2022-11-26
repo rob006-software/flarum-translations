@@ -1,0 +1,74 @@
+{
+    "fof-terms": {
+        "admin": {
+            "settings": {
+                "title": "服務條款設定",
+                "field": {
+                    "signup-legal-text": "註冊表單上的額外文字",
+                    "hide-updated-at": "不要在有更新時顯示服務條款更新日期",
+                    "date-format": "日期格式",
+                    "date-format-help": "你可以使用任何有效的 <a>Moment.js</a> 格式，留空為預設格式。"
+                }
+            },
+            "titles": {
+                "policies": "條款"
+            },
+            "buttons": {
+                "new-policy": "新條款",
+                "edit-policy": "編輯條款",
+                "add-policy": "新增條款",
+                "save-policy": "儲存條款",
+                "delete-policy": "刪除條款",
+                "set-to-now": "現在"
+            },
+            "messages": {
+                "delete-policy-confirmation": "這將永久從資料庫移除條款 {name} 及相關接受日期。 若你處於法律原因需要，請確保備份這些日期。 你確定要刪除這項條款嗎？\n"
+            },
+            "policies": {
+                "name": "名稱",
+                "name-help": "這個名稱將顯示在復選框旁，並作為更新對話框的標題。",
+                "url": "連結",
+                "url-help": "可以閱讀服務條款的頁面連結，點擊後在新頁面開啟。",
+                "update-message": "更新訊息",
+                "update-message-help": "向未接受最新條款的會員顯示的訊息。",
+                "terms-updated-at": "更新於",
+                "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
+                "terms-updated-at-help": "服務條款最後更新日期。 設定此值將要求已接受條款的會員再次接受條款。 必須為過去的時間（否則會員將無法在日期之後接受並跳過對話框）。\n",
+                "export-url": "匯出連結",
+                "export-url-help": "具有權限「匯出全部條款資料」的會員可以訪問以下連結以下載接受條款的會員列表。 你可以在 <a>延伸套件 wiki</a> 上找到更多關於此選項的詳細資訊。\n"
+            },
+            "permissions": {
+                "see-user-policies-state": "查看會員服務條款狀態",
+                "postpone-policies-accept": "允許推遲接受新服務條款",
+                "export-policies": "匯出全部會員及服務條款資訊"
+            }
+        },
+        "forum": {
+            "signup": {
+                "i-accept": "我接受服務條款 <a>{policy}</a>",
+                "must-accept": "必須接受服務條款 {policy}"
+            },
+            "accept-modal": {
+                "title": "服務條款更新",
+                "updated-at": "服務條款更新於 {date}",
+                "updated-recently": "自你上次訪問後服務條款已更新",
+                "i-accept": "我接受新服務條款 <a>{policy}</a>",
+                "accept": "確認",
+                "close": "你現在可以關閉此對話框"
+            },
+            "state-modal": {
+                "title": "會員 {username} 服務條款接受狀態",
+                "accepted-at": "接受於 {date}",
+                "not-accepted": "不接受"
+            },
+            "update-alert": {
+                "must-accept-message": "在你查看新條款時，我們臨時限制了你的帳戶訪問權限。",
+                "can-accept-message": "我們最近更新了服務條款，你必須接受才能繼續使用本網站。",
+                "review": "點擊此處查看並接受新服務條款"
+            },
+            "user_controls": {
+                "state_button": "服務條款接受狀態"
+            }
+        }
+    }
+}
