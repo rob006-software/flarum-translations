@@ -485,4 +485,16 @@ return [
 		],
 		'maintainers' => ['littlegolden'],
 	],
+	'zh_Hant' => [
+		'type' => 'language',
+		'language' => 'zh_Hant',
+		'repository' => 'git@github.com:flarum-lang/chinese-traditional.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'vMajor.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 ];
