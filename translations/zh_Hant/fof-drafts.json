@@ -1,0 +1,23 @@
+{
+    "fof-drafts": {
+        "admin": {
+            "permissions": {
+                "start": "新增貼文草稿"
+            }
+        },
+        "forum": {
+            "composer": {
+                "title": "儲存草稿",
+                "alert": "草稿已儲存",
+                "exit_alert": "丟棄草稿變更？"
+            },
+            "dropdown": {
+                "empty_text": "你還沒有草稿",
+                "title": "草稿",
+                "button": "刪除草稿",
+                "tooltip": "=> fof-drafts.forum.dropdown.title",
+                "alert": "你確定要刪除草稿嗎？"
+            }
+        }
+    }
+}
