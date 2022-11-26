@@ -1,0 +1,109 @@
+{
+    "fof-upload": {
+        "admin": {
+            "buttons": {
+                "save": "儲存更改"
+            },
+            "help_texts": {
+                "description": "配置上載服務及偏好設定",
+                "disable-download-logging": "開啟此設定可查看下載量及未來可能的統計數據。",
+                "disable-hotlink-protection": "熱鏈保護可防止從其他站點下載。目前的方式需求 csrf token 及帖文 ID",
+                "download_templates": "下載模板是上載的檔案如何在論壇上顯示 比如預覽、按鈕等，目前支援的有：",
+                "mime_types": "請於此設定對映。每一個 MIME 類型的正規表示式都將由指定的上載接口處理",
+                "resize": "您可以選擇是否在上載圖片前調整圖片大小，您也可以設定圖片最大長寬（px），圖片大小調整將會保持圖片長寬比例",
+                "watermark": "在圖片上載時新增水印，僅支援非 gif 圖片"
+            },
+            "labels": {
+                "aws-s3": {
+                    "bucket": "Bucket",
+                    "key": "Key",
+                    "region": "區域",
+                    "secret": "Secret",
+                    "title": "AWS S3 存儲設定"
+                },
+                "disable-download-logging": {
+                    "title": "停用下載日誌",
+                    "toggle": "停用"
+                },
+                "disable-hotlink-protection": {
+                    "title": "停用熱鏈保護",
+                    "toggle": "停用"
+                },
+                "imgur": {
+                    "client_id": "Imgur 用戶端 ID",
+                    "title": "Imgur 圖片存儲設定"
+                },
+                "local": {
+                    "cdn_url": "CDN 連結 (在檔案前)",
+                    "title": "本地存儲設定"
+                },
+                "ovh-svfs": {
+                    "container": "容器",
+                    "password": "密碼",
+                    "region": "區域",
+                    "tenantid": "Tenant ID",
+                    "title": "OVH SVFS 存儲設定",
+                    "username": "使用者名稱"
+                },
+                "qiniu": {
+                    "bucket": "Bucket",
+                    "key": "Key",
+                    "secret": "Secret",
+                    "title": "七牛存儲設定"
+                },
+                "preferences": {
+                    "max_file_size": "最大檔案大小 (單位 KB)",
+                    "mime_types": "設定 MIME 類型以及上載接口",
+                    "title": "偏好設定"
+                },
+                "resize": {
+                    "max_width": "最大圖片寬度",
+                    "title": "圖片縮放",
+                    "toggle": "縮放圖片"
+                },
+                "watermark": {
+                    "file": "上載水印圖片",
+                    "position": "水印位置",
+                    "title": "圖片水印",
+                    "toggle": "圖片水印"
+                }
+            },
+            "permissions": {
+                "download_label": "下載檔案",
+                "upload_label": "上載檔案"
+            },
+            "templates": {
+                "file": "預設檔案下載模板",
+                "file_description": "顯示檔案名稱及基本信息，經由 php 代理下載，支援統計及熱鏈保護",
+                "image": "預設圖片下載模板",
+                "image-preview": "完整圖片預覽模板",
+                "image-preview_description": "於行內顯示完整圖片。不支援下載、統計及熱鏈保護",
+                "image_description": "顯示圖片縮略圖並經由 php 代理下載，支援統計及熱鏈保護"
+            },
+            "upload_methods": {
+                "aws-s3": "亞馬遜 S3",
+                "imgur": "Imgur",
+                "local": "本地",
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": "七牛"
+            }
+        },
+        "forum": {
+            "buttons": {
+                "attach": "上載"
+            },
+            "states": {
+                "error": "錯誤",
+                "loading": "正在上載",
+                "unauthorized": "您未被允許下載檔案"
+            }
+        },
+        "api": {
+            "upload_errors": {
+                "forbidden_type": "不允許上載這個類型的檔案",
+                "unsupported_type": "上載適配器不支援這個 MIME 類型： {mime}",
+                "could_not_detect_mime": "無法偵測這個檔案的 MIME 類型，請重新嘗試。"
+            }
+        }
+    }
+}
