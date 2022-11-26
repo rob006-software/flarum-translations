@@ -1,0 +1,18 @@
+{
+    "fof-html-errors": {
+        "admin": {
+            "settings": {
+                "title": "客製 HTML 錯誤頁面",
+                "error": {
+                    "403": "403 訪問遭拒",
+                    "404": "404 內容不存在",
+                    "500": "500 伺服器內部錯誤",
+                    "503": "503 服務不可用（或下線維護）"
+                },
+                "placeholder": {
+                    "empty_for_default": "留空則使用預設 Flarum 錯誤頁面"
+                }
+            }
+        }
+    }
+}
