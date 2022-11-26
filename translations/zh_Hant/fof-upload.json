@@ -1,0 +1,158 @@
+{
+    "fof-upload": {
+        "admin": {
+            "buttons": {
+                "save": "儲存更改"
+            },
+            "help_texts": {
+                "description": "配置上載服務及偏好設定",
+                "disable-download-logging": "開啟此設定可查看下載量及未來可能的統計數據。",
+                "disable-hotlink-protection": "熱鏈保護可防止從其他站點下載。目前的方式需求 csrf token 及帖文 ID",
+                "download_templates": "下載模板是上載的檔案如何在論壇上顯示 比如預覽、按鈕等，目前支援的有：",
+                "mime_types": "請於此設定對映。每一個 MIME 類型的正規表示式都將由指定的上載接口處理",
+                "resize": "您可以選擇是否在上載圖片前調整圖片大小，您也可以設定圖片最大長寬（px），圖片大小調整將會保持圖片長寬比例",
+                "watermark": "在圖片上載時新增水印，僅支援非 gif 圖片",
+                "client_extension": "默認情況下，上傳器將根據 MIME 類型選擇一個安全的文件擴展名。\n對於某些基於 ZIP 或二進制數據的文件類型，這可能導致使用不正確的通用擴展名。\n在這裡，您可以輸入一個逗號分隔的文件擴展名列表，該列表將被逐字保留。\n",
+                "composer_buttons": "默認情況下，媒體管理按鈕和上傳按鈕皆可見。您可以選擇只顯示其中一個按鈕。\n",
+                "s3_acl": "應用於上傳對象的 ACL（默認：私有）。 有關可能的值，請參閱 https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_compatible_storage": "僅在使用 S3 兼容存儲時才需要以下設置。 如果您使用 AWS，您可以將它們留空。\n"
+            },
+            "labels": {
+                "aws-s3": {
+                    "bucket": "Bucket",
+                    "key": "Key",
+                    "region": "區域",
+                    "secret": "Secret",
+                    "title": "AWS S3 存儲設定",
+                    "acl": "訪問控制列表（ACL）",
+                    "advanced_title": "高級 S3 存儲設置",
+                    "endpoint": "訪問域名（Endpoint）",
+                    "use_path_style_endpoint": "使用 path-style 訪問域名"
+                },
+                "disable-download-logging": {
+                    "title": "停用下載日誌",
+                    "toggle": "停用"
+                },
+                "disable-hotlink-protection": {
+                    "title": "停用熱鏈保護",
+                    "toggle": "停用"
+                },
+                "imgur": {
+                    "client_id": "Imgur 用戶端 ID",
+                    "title": "Imgur 圖片存儲設定"
+                },
+                "local": {
+                    "cdn_url": "CDN 連結 (在檔案前)",
+                    "title": "本地存儲設定"
+                },
+                "ovh-svfs": {
+                    "container": "容器",
+                    "password": "密碼",
+                    "region": "區域",
+                    "tenantid": "Tenant ID",
+                    "title": "OVH SVFS 存儲設定",
+                    "username": "使用者名稱"
+                },
+                "qiniu": {
+                    "bucket": "Bucket",
+                    "key": "Key",
+                    "secret": "Secret",
+                    "title": "七牛存儲設定"
+                },
+                "preferences": {
+                    "max_file_size": "最大檔案大小 (單位 KB)",
+                    "mime_types": "設定 MIME 類型以及上載接口",
+                    "title": "偏好設定"
+                },
+                "resize": {
+                    "max_width": "最大圖片寬度",
+                    "title": "圖片縮放",
+                    "toggle": "縮放圖片"
+                },
+                "watermark": {
+                    "file": "上載水印圖片",
+                    "position": "水印位置",
+                    "title": "圖片水印",
+                    "toggle": "圖片水印"
+                },
+                "client_extension": {
+                    "title": "用戶自定義文件擴展名"
+                },
+                "composer_buttons": {
+                    "options": {
+                        "both": "全部顯示",
+                        "media-btn": "僅媒體管理按鈕",
+                        "upload-btn": "僅上傳按鈕"
+                    },
+                    "title": "編輯器按鈕"
+                }
+            },
+            "permissions": {
+                "download_label": "下載檔案",
+                "upload_label": "上載檔案",
+                "delete_uploads_of_others_label": "刪除用戶上傳的文件",
+                "view_user_uploads_label": "查看用戶上傳的文件"
+            },
+            "templates": {
+                "file": "預設檔案下載模板",
+                "file_description": "顯示檔案名稱及基本信息，經由 php 代理下載，支援統計及熱鏈保護",
+                "image": "預設圖片下載模板",
+                "image-preview": "完整圖片預覽模板",
+                "image-preview_description": "於行內顯示完整圖片。不支援下載、統計及熱鏈保護",
+                "image_description": "顯示圖片縮略圖並經由 php 代理下載，支援統計及熱鏈保護",
+                "just-url": "僅鏈接",
+                "just-url_description": "僅插入 URL。渲染可以由具有自動鏈接功能的其他插件處理。沒有下載功能，沒有統計功能，且沒有熱鏈保護。\n"
+            },
+            "upload_methods": {
+                "aws-s3": "亞馬遜 S3",
+                "imgur": "Imgur",
+                "local": "本地",
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": "七牛"
+            },
+            "pane": {
+                "description": "設置上傳服務和首選項。",
+                "title": "上傳"
+            }
+        },
+        "forum": {
+            "buttons": {
+                "attach": "上載",
+                "cancel": "取消",
+                "media": "我的文件",
+                "upload": "上傳",
+                "user_uploads": "用戶上傳"
+            },
+            "states": {
+                "error": "錯誤",
+                "loading": "正在上載",
+                "unauthorized": "您未被允許下載檔案"
+            },
+            "file_list": {
+                "confirm_selection_btn": "{fileCount, plural, =0 {未選擇} one {嵌入} other {嵌入所選文件}}",
+                "empty": "沒有可展示的文件。",
+                "hide_file": {
+                    "btn_a11y_label": "在文件管理器中隱藏「{fileName}」",
+                    "hide_confirmation": "確定要隱藏「{fileName}」嗎？文件只會從你的文件管理器中消失，並不會影響已嵌入文件的帖子。",
+                    "hide_fail": "無法隱藏文件「{fileName}」",
+                    "hide_success": "文件隱藏",
+                    "loading": "正在隱藏文件……"
+                },
+                "load_more_files_btn": "加載更多",
+                "loading": "加載文件中……",
+                "modal_empty_desktop": "你還沒有上傳過文件。點擊按鈕或拖拽文件到這裡開始上傳吧。",
+                "modal_empty_phone": "你還沒有上傳過文件。點擊上方按鈕開始上傳吧。",
+                "release_to_upload": "鬆開鼠標上傳",
+                "select_file_a11y_label": "選擇文件「{fileName}」"
+            },
+            "media_manager": "媒體管理器"
+        },
+        "api": {
+            "upload_errors": {
+                "forbidden_type": "不允許上載這個類型的檔案",
+                "unsupported_type": "上載適配器不支援這個 MIME 類型： {mime}",
+                "could_not_detect_mime": "無法偵測這個檔案的 MIME 類型，請重新嘗試。"
+            }
+        }
+    }
+}

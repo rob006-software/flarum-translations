@@ -1,0 +1,38 @@
+{
+    "clarkwinkelmann-colorful-borders": {
+        "forum": {
+            "edit": "編輯樣式",
+            "default": "預設",
+            "apply": "套用",
+            "reset": "移除客製化樣式",
+            "borderColor": "邊框顏色",
+            "backgroundColor": "背景顏色",
+            "textColor": "文字顏色",
+            "borderWidth": "邊框寬度",
+            "borderRadius": "邊框圓角半徑"
+        },
+        "admin": {
+            "permissions": {
+                "heading": "多彩邊框",
+                "editOwnPost": "編輯自己貼文的樣式",
+                "editAnyPost": "編輯任意貼文的樣式"
+            },
+            "settings": {
+                "title": "多彩邊框設定",
+                "enableBorderColor": "邊框顏色",
+                "enableBackgroundColor": "背景顏色",
+                "enableTextColor": "文字顏色",
+                "enableBorderWidth": "邊框寬度",
+                "enableBorderRadius": "邊框圓角半徑",
+                "min": "最小",
+                "max": "最大",
+                "colors": {
+                    "simple": "簡單配色集",
+                    "all": "任意顏色",
+                    "custom": "客製化配色列表",
+                    "custom-help": "以半形逗號分隔的 #hex 或 rgb() 值的列表"
+                }
+            }
+        }
+    }
+}

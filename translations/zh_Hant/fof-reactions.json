@@ -1,0 +1,62 @@
+{
+    "fof-reactions": {
+        "forum": {
+            "warning": "你的回應將被覆蓋",
+            "notification": "{username} 使用{reaction}回應了你的帖文",
+            "settings": {
+                "notify_post_reacted_label": "某人回應了你的貼文"
+            },
+            "reacting-own-post": "你不能回應自己的貼文",
+            "disabled-reaction": "您暫時不能戳心情，請刷新後重試。",
+            "mod_item": "查看心情",
+            "modal": {
+                "title": "心情"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "react_posts_label": "回應帖文",
+                "see_reactions_label": "查看戳心情的人"
+            },
+            "nav": {
+                "desc": "新增自定義回應及更改設定"
+            },
+            "page": {
+                "reactions": {
+                    "title": "自定義回應",
+                    "reactions": "現有回應",
+                    "Helptext": "鍵入 emoji 或 font-awesome 的名稱并選擇你喜歡的類型",
+                    "help": {
+                        "identifier": "標識",
+                        "display": "描述"
+                    }
+                },
+                "convert": {
+                    "help": "若你只是更新延伸套件，你的回應將被轉換。若你已安裝此延伸套件，你可以安心地忽略這條訊息。",
+                    "button": "轉換舊地回應",
+                    "converting": "正在轉換回應中，請於幾分鐘後重載頁面以查看進度。（轉換需時依賴於你的回應數量）",
+                    "converted": "成功轉換全部 {number} 個讚"
+                },
+                "settings": {
+                    "save_settings": "儲存設定",
+                    "integrations": {
+                        "legend": "融合",
+                        "warning": "相同的回應<strong>不會</strong>轉換為「喜歡」和「頂」",
+                        "gamification": {
+                            "legend": "遊戲化",
+                            "upvoteLabel": "轉換回應為「頂」",
+                            "upvoteHelptext": "鍵入你想要自動轉換為「頂」的回應的標識",
+                            "downvoteLabel": "轉換回應為「踩」",
+                            "downvoteHelptext": "鍵入你想要自動轉換為「踩」的回應的標識"
+                        },
+                        "likes": {
+                            "legend": "喜歡",
+                            "Label": "轉換回應為「喜歡」",
+                            "Helptext": "鍵入你想要自動轉換為「喜歡」的回應的標識"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

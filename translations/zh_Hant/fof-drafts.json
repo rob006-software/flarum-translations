@@ -1,0 +1,67 @@
+{
+    "fof-drafts": {
+        "admin": {
+            "permissions": {
+                "start": "新增貼文草稿",
+                "schedule": "定時發佈"
+            },
+            "settings": {
+                "enable_scheduled_drafts": "啟用定時發佈功能",
+                "schedule_log_output": "保存計劃任務日誌",
+                "schedule_on_one_server": "將使用 onOneServer() 方法用於計劃任務（需要 Redis/Memcache）",
+                "title": "FoF 草稿箱"
+            }
+        },
+        "forum": {
+            "composer": {
+                "title": "保存草稿",
+                "alert": "草稿已儲存",
+                "exit_alert": "確定放棄對草稿的更改嗎？",
+                "discard_empty_draft_alert": "刪除空的草稿？",
+                "saved": "保存成功！",
+                "saving": "正在保存…"
+            },
+            "dropdown": {
+                "empty_text": "您還沒有草稿",
+                "title": "草稿",
+                "button": "刪除草稿",
+                "tooltip": "=> fof-drafts.forum.dropdown.title",
+                "alert": "確定要刪除草稿嗎？",
+                "delete_all_alert": "確定要刪除所有草稿嗎？",
+                "delete_all_button": "刪除所有草稿",
+                "delete_button": "刪除草稿",
+                "schedule_button": "=> fof-drafts.ref.schedule_draft",
+                "scheduled_icon_tooltip": "{datetime} 發表",
+                "scheduled_icon_tooltip_formatter": "LL [at] LT"
+            },
+            "schedule_draft_modal": {
+                "reschedule_button": "重新定時",
+                "schedule_button": "定時",
+                "schedule_time_preview": "此草稿將於 <b>{datetime}</b> 自動發佈。",
+                "schedule_time_preview_formatter": "llll",
+                "schedule_time_preview_invalid": "無效的日期或時間",
+                "scheduled_error": "定時發佈失敗：{error}。",
+                "scheduled_text": "定時發佈於 {datetime}。",
+                "text": "選定一個稍後的時間自動發佈您的草稿！",
+                "title": "=> fof-drafts.ref.schedule_draft",
+                "unschedule_button": "取消定時",
+                "unschedule_warning": "確定要取消定時發佈這個草稿？"
+            },
+            "user": {
+                "settings": {
+                    "draft_autosave_enable": "自動保存草稿",
+                    "draft_autosave_interval_button": "更新頻率",
+                    "draft_autosave_interval_invalid": "請輸入大於4的整數。",
+                    "draft_autosave_interval_label": "自動保存頻率（秒）",
+                    "drafts_heading": "草稿箱"
+                }
+            }
+        },
+        "console": {
+            "scheduled_drafts_disabled": "定時發佈功能已被禁用。"
+        },
+        "ref": {
+            "schedule_draft": "定時發佈"
+        }
+    }
+}

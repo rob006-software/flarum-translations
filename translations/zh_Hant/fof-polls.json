@@ -1,0 +1,51 @@
+{
+    "fof-polls": {
+        "admin": {
+            "permissions": {
+                "moderate": "編輯及移除投票",
+                "self_edit": "允許用戶編輯自己的投票",
+                "start": "發起投票",
+                "vote": "參與投票",
+                "change_vote": "修改投票",
+                "view_results_without_voting": "無需參與投票直接查看結果"
+            }
+        },
+        "forum": {
+            "days_remaining": "投票將於 {time} 結束。",
+            "no_permission": "您沒有投票權限",
+            "poll_ended": "該投票已結束。",
+            "public_poll": "查看投票人",
+            "composer_discussion": {
+                "add_poll": "新增投票",
+                "edit_poll": "編輯投票"
+            },
+            "modal": {
+                "add_title": "新增投票",
+                "add_option_label": "新增選項",
+                "date_placeholder": "投票結束時間（可選）",
+                "edit_title": "編輯投票",
+                "include_question": "必須包含至少一個問題",
+                "max": "最多只能有 10 個選項",
+                "min": "最少只能有 2 個選項",
+                "no_voters": "暫無投票",
+                "option_placeholder": "選項",
+                "options_label": "選項",
+                "public_poll_label": "允許用戶查看投票人",
+                "question_placeholder": "問題",
+                "submit": "提交"
+            },
+            "moderation": {
+                "delete": "移除投票",
+                "delete_confirm": "你確定要移除這個投票嗎？",
+                "edit": "編輯投票"
+            },
+            "tooltip": {
+                "badge": "投票",
+                "votes": "已有 1 投票|已有 {count} 人投票"
+            },
+            "votes_modal": {
+                "title": "投票人"
+            }
+        }
+    }
+}

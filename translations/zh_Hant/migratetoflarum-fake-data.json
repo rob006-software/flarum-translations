@@ -1,0 +1,40 @@
+{
+    "migratetoflarum-fake-data": {
+        "admin": {
+            "generator": {
+                "title": "產生假資料",
+                "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
+                "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
+                "user-count": "=> migratetoflarum-fake-data.ref.user-count",
+                "discussion-count": "=> migratetoflarum-fake-data.ref.discussion-count",
+                "post-count": "=> migratetoflarum-fake-data.ref.post-count",
+                "send": "=> migratetoflarum-fake-data.ref.send"
+            }
+        },
+        "forum": {
+            "link": {
+                "generate-replies": "產生假回覆"
+            },
+            "generator": {
+                "title": "產生假回覆",
+                "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
+                "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
+                "user-count": "=> migratetoflarum-fake-data.ref.user-count",
+                "post-count": "=> migratetoflarum-fake-data.ref.post-count",
+                "send": "=> migratetoflarum-fake-data.ref.send"
+            }
+        },
+        "api": {
+            "no-users-matched": "未找到用戶",
+            "no-discussions-matched": "未找到貼文"
+        },
+        "ref": {
+            "bulk-mode": "大批量模式",
+            "bulk-mode-description": "產生一個隨機值並重複使用",
+            "user-count": "新增用戶數量",
+            "discussion-count": "新增貼文數量",
+            "post-count": "新增回覆數量",
+            "send": "產生資料"
+        }
+    }
+}

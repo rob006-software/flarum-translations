@@ -1,0 +1,21 @@
+{
+    "fof-recaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "於<a>此處</a>取得 Google reCAPTCHA 證書。",
+                "type_label": "reCAPTCHA 類型",
+                "site_key_label": "Site Key",
+                "secret_key_label": "Secret Key"
+            },
+            "permissions": {
+                "post_without_captcha": "發帖不需要驗證碼"
+            }
+        },
+        "forum": {
+            "error": "提交 reCAPTCHA 時出錯，請重試。"
+        }
+    },
+    "validation": {
+        "recaptcha": "reCAPTCHA 驗證失敗。"
+    }
+}

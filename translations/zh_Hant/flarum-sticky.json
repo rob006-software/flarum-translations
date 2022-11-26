@@ -1,0 +1,25 @@
+{
+    "flarum-sticky": {
+        "admin": {
+            "permissions": {
+                "sticky_discussions_label": "置頂貼文"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "置頂"
+            },
+            "discussion_controls": {
+                "sticky_button": "置頂貼文",
+                "unsticky_button": "取消置頂"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "{username} 置頂此帖",
+                "discussion_unstickied_text": "{username} 取消置頂此帖"
+            }
+        },
+        "ref": {
+            "sticky": "置頂"
+        }
+    }
+}

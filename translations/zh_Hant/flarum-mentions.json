@@ -1,0 +1,49 @@
+{
+    "flarum-mentions": {
+        "forum": {
+            "composer": {
+                "mention_tooltip": "提到某人或貼文",
+                "reply_to_post_text": "回覆給 #{number}"
+            },
+            "notifications": {
+                "others_text": "{count} 人|{count} 人",
+                "post_mentioned_text": "{username} 回覆了你的貼文",
+                "user_mentioned_text": "{username} 提到了你"
+            },
+            "post": {
+                "mentioned_by_self_text": "{users} 回覆了貼文",
+                "mentioned_by_text": "{users} 回覆了貼文",
+                "others_text": "{count} 人|{count} 人",
+                "quote_button": "引用",
+                "reply_link": "回覆",
+                "you_text": "你"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "有人回覆了你",
+                "notify_user_mentioned_label": "有人提到了你"
+            },
+            "user": {
+                "mentions_link": "提到"
+            },
+            "post_mention": {
+                "deleted_text": "[未知]"
+            }
+        },
+        "admin": {
+            "settings": {
+                "allow_username_format_label": "允許@用戶名",
+                "allow_username_format_text": "默認提及格式為「@暱稱#ID」\n此設置允許使用舊格式「@用戶名」，但是保存後仍將自動轉換為新格式。"
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "body": "{recipient_display_name}，你好！\n\n{replier_display_name} 回覆了你在《{title}》(#{post_number}) 的發言：\n\n{url}\n\n---\n\n{content}",
+                "subject": "{replier_display_name} 回覆你【{title}】"
+            },
+            "user_mentioned": {
+                "body": "{recipient_display_name}，你好！\n\n{mentioner_display_name} 在《{title}》提到了你：\n\n{url}\n\n---\n\n{content}",
+                "subject": "{mentioner_display_name} 提到你【{title}】"
+            }
+        }
+    }
+}

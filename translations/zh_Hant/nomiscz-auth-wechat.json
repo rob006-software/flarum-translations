@@ -1,0 +1,41 @@
+{
+    "nomiscz-auth-wechat": {
+        "forum": {
+            "buttons": {
+                "login": "透過 WeChat 登入",
+                "link": "關聯 WeChat 帳號",
+                "unlink": "解除關聯 WeChat 帳號"
+            },
+            "alerts": {
+                "already_linked": "WeChat 帳號已關聯定！",
+                "already_used": "WeChat 帳號已關聯至其它帳號！",
+                "link_success": "WeChat 帳號關聯成功。",
+                "unlink_success": "WeChat 解除關聯成功。",
+                "error": "遇到錯誤，請稍候再試！"
+            },
+            "modals": {
+                "link": {
+                    "title": "關聯 WeChat 帳號"
+                },
+                "unlink": {
+                    "title": "解除關聯 WeChat 帳號",
+                    "info": {
+                        "confirm": "確定要解除關聯 WeChat 帳號？",
+                        "no_providers": "您沒有其它登入方式，請先重置帳號密碼。"
+                    },
+                    "buttons": {
+                        "confirm": "是",
+                        "cancel": "否"
+                    }
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "微信登入設定",
+                "api_app_id": "API App ID",
+                "api_app_secret": "API App Secret"
+            }
+        }
+    }
+}

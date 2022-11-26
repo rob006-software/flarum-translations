@@ -1,0 +1,27 @@
+{
+    "antoinefr-money": {
+        "admin": {
+            "settings": {
+                "title": "設定",
+                "moneyforpost": "每條回覆可獲取",
+                "moneyfordiscussion": "每篇貼文可獲取",
+                "moneyname": "貨幣名稱（例如： [money] 元）",
+                "postminimumlength": "可獲取獎勵的最小貼文長度（0 表示不限制）",
+                "noshowzero": "若值為 0 則不顯示"
+            },
+            "permissions": {
+                "edit_money_label": "修改資產"
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "money_button": "修改資產"
+            },
+            "modal": {
+                "title": "{username} 的資產",
+                "current": "目前：",
+                "submit_button": "儲存更改"
+            }
+        }
+    }
+}

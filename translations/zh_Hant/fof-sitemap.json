@@ -1,0 +1,33 @@
+{
+    "fof-sitemap": {
+        "admin": {
+            "settings": {
+                "advanced_options_label": "高級選項",
+                "frequency_label": "Scheduler 多久重構一次緩存或磁盤站點地圖？",
+                "frequency": {
+                    "daily": "每天一次",
+                    "hourly": "每小時一次",
+                    "twice_daily": "每天兩次"
+                },
+                "mode_help": "根據您的論壇規模選擇正確的模式極為重要。",
+                "mode_help_cache_disk": "適用於中小型論壇，比如允許cronjobs（計劃任務） 和啟用了Flarum Scheduler的主機環境下（見下文），主題數、用戶數、標籤數和頁面數總和少於5 萬（最終生成的對應鏈接數小於5 萬）。",
+                "mode_help_cache_disk_label": "緩存模式/磁碟模式",
+                "mode_help_large": "技術限制，一個站點地圖文件最多含有 5 萬條鏈接。如果您有更多條目存儲的需求，請使用以下選項！",
+                "mode_help_multi": "適用於大型論壇，最低有 5 萬條目。生成的多個壓縮站點地圖文件將會存儲在 /public 文件夾中",
+                "mode_help_multi_label": "Multi-file Mode",
+                "mode_help_runtime": "適用於小型論壇，比如在共享主機環境下，主題數、用戶數、標籤數和頁面數的總和小於 1 萬（最終生成的對應鏈接數小於 1 萬）。此模式下，站點地圖是在每次請求時即時生成的。",
+                "mode_help_runtime_label": "運行時模式",
+                "mode_help_schedule": "以下模式會將相應的計劃任務添加到 Flarum 調度器。",
+                "mode_help_schedule_setup": "如果沒有正確設置 Flarum Scheduler，以下模式將無法運行。 <a>點擊這裡</a>了解更多信息。",
+                "mode_label": "運行模式",
+                "modes": {
+                    "cache": "緩存",
+                    "cache_disk": "磁碟",
+                    "multi_file": "多文件",
+                    "runtime": "運行時"
+                },
+                "title": "FoF Sitemap"
+            }
+        }
+    }
+}

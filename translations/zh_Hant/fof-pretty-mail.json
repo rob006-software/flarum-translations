@@ -1,0 +1,26 @@
+{
+    "fof-pretty-mail": {
+        "admin": {
+            "nav": {
+                "desc": "客製化 HTML 郵件模板"
+            },
+            "settings": {
+                "label": "郵件模板",
+                "reset": "復原預設",
+                "confirm": "您確定要復原郵件模板為",
+                "default": "預設模板",
+                "newPost": "Flarum/subscriptions 新貼文提醒郵件",
+                "userMentioned": "Flarum/mentions 用戶被提及郵件",
+                "postMentioned": "Flarum/mentions 貼文被提及郵件",
+                "notifications": "通知模板",
+                "notificationHelp": "對於這些郵件，推薦使用 \"$forumStyle\"，因為它們可能包含 BBCODE。這些郵件也可以使用 \"$user\" 來引用收件人的完整資料。",
+                "help": "\"$body\" 為郵件正文，\"$forumStyle\" 為<strong>完整的論壇 CSS</strong>，\"$baseUrl\" 為論壇連結，\"$settings\" 允許您與 SettingsRepositoryInterface 進行交互，\"$link\" 為郵件中的連結。請查看模板了解如何使用變數。"
+            },
+            "css_settings": {
+                "label": "CSS 設定",
+                "help": "您可以選擇在郵件 HTML 程式碼中嵌入論壇 CSS。若要啟用此功能，在某些郵件服務商中可能會遇到問題。",
+                "switch_label": "包含全部論壇 CSS"
+            }
+        }
+    }
+}

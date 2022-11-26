@@ -1,0 +1,23 @@
+{
+    "fof-passport": {
+        "admin": {
+            "popup": {
+                "title": "Flagrow 護照",
+                "field": {
+                    "app-auth-url": "OAuth 授權連結",
+                    "app-token-url": "OAuth token 連結",
+                    "app-user-url": "在驗證成功後 Api URL 將提供使用者資訊",
+                    "app-id": "OAuth application id",
+                    "app-secret": "OAuth application secret",
+                    "app-scopes": "OAuth scopes to request",
+                    "button-title": "登入按鈕標簽",
+                    "button-title-placeholder": "=> fof-passport.api.default-login-button-title",
+                    "button-icon": "登入按鈕圖示"
+                }
+            }
+        },
+        "api": {
+            "default-login-button-title": "=> core.ref.log_in"
+        }
+    }
+}

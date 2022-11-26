@@ -110,4 +110,5 @@ return [
 		// translations included in extension
 		'!vlssu/flarum-cravatar',
 	]),
+	'zh_Hant' => getComponents(),
 ];

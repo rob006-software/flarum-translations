@@ -1,0 +1,34 @@
+{
+    "fof-discussion-language": {
+        "forum": {
+            "change_language": {
+                "edit_title": "更改「{title}」的語言",
+                "title": "更改語言",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "composer_discussion": {
+                "choose_language_link": "語言"
+            },
+            "discussion_controls": {
+                "change_language_button": "設定語言"
+            },
+            "index_language": {
+                "any": "任意語言"
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "FoF 貼文語言",
+                "native_label": "使用原生語言名稱"
+            },
+            "permissions": {
+                "allow_change_language_label": "允許更改語言"
+            }
+        },
+        "api": {
+            "discussion": {
+                "validation_error": "您必須為貼文設定語言。"
+            }
+        }
+    }
+}

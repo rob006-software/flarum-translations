@@ -1,0 +1,58 @@
+{
+    "askvortsov-categories": {
+        "admin": {
+            "basics": {
+                "categories_label": "分類"
+            },
+            "labels": {
+                "keep_tags_nav": "側邊導航保留節點頁面連結？",
+                "child_bare_icon": "子分類圖示不顯示為圓形？",
+                "compact_mobile_mode": "緊密模式",
+                "full_page_desktop": "側邊導航要收起嗎？這將會同時隱藏掛件（比如論壇統計）。",
+                "parent_remove_icon": "隱藏頂級節點的圖示？",
+                "parent_remove_description": "隱藏頂級節點的描述？",
+                "parent_remove_stats": "隱藏頂級節點的狀態？",
+                "parent_remove_last_discussion": "隱藏頂級節點的最新貼文?",
+                "small_forum_optimized": "小型論壇優化"
+            },
+            "headings": {
+                "nav": "導航",
+                "layout": "樣式",
+                "parent_display": "顯示父分類",
+                "child_display": "顯示子分類",
+                "performance": "性能"
+            },
+            "title": "分類設定",
+            "help": {
+                "child_bare_icon": "沒有圓形背景時，是否顯示子類別圖標？",
+                "full_page_desktop": "側邊欄導航菜單是否應該折疊成一行（就像在傳統標籤頁面上一樣）？ 這還將從類別頁面導航欄中隱藏小部件（例如 Flarum 論壇統計數據之友）。",
+                "small_forum_optimized": "這將提供更準確的討論/帖子計數，但會顯著降低中型和大型論壇的速度。"
+            }
+        },
+        "forum": {
+            "header": {
+                "back_to_categories_tooltip": "返回分類"
+            },
+            "index": {
+                "categories_link": "分類"
+            },
+            "meta": {
+                "categories_title": "分類"
+            },
+            "stat-widgets": {
+                "discussion_label": "貼文",
+                "post_label": "回覆"
+            },
+            "last_discussion_widget": {
+                "no_discussions": "暫無貼文"
+            },
+            "all_categories": {
+                "meta_description_text": "所有類別",
+                "meta_title_text": "分類"
+            }
+        },
+        "ref": {
+            "categories": "分類"
+        }
+    }
+}
