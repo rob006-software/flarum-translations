@@ -1,0 +1,26 @@
+{
+    "extiverse-mercury": {
+        "admin": {
+            "extension-updates-page": {
+                "extension-is-up-to-date": "已是最新",
+                "extension-name": "擴展",
+                "highest-version": "最新發布",
+                "installed-version": "安裝版本"
+            },
+            "header-secondary": {
+                "no-token": "需要令牌",
+                "updates": "{count，複數，=0 {無更新} 一個{一個更新} 其他{# 個更新}}"
+            },
+            "settings": {
+                "token": "外部令牌（<a>請求</a>）",
+                "token-description": "從 <a>Extiverse</a> 檢索 API 令牌，以便 Mercury 可以安全地與您的 Flarum 社區通信。"
+            }
+        },
+        "email": {
+            "new-extension-update": {
+                "body": "嘿{recipient_display_name}！\n\n在您的 Flarum 社區中發現了 {count} 個更新。 強烈建議\n盡快更新。\n\n更新包括以下擴展 {extensions}。\n\n請訪問您的社區了解更多信息：{url}。",
+                "subject": "{count, plural, one {One update available for your community} other {# updates available for your community}}"
+            }
+        }
+    }
+}
