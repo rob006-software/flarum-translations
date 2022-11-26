@@ -1,0 +1,96 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "configure_button_label": "配置 FoF OAuth",
+            "settings": {
+                "only_icons_label": "僅顯示登錄按鈕圖標（可選佈置）",
+                "providers": {
+                    "callback_url_text": "如有必要，將回調 URL 設為 {url}。",
+                    "discord": {
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "description": "前往 {link} 創建應用，並在 OAuth2 選項卡中添加重定向 URL。"
+                    },
+                    "facebook": {
+                        "app_id_label": "=> fof-oauth.ref.settings.app_id",
+                        "app_secret_label": "=> fof-oauth.ref.settings.app_secret",
+                        "description": "前往 {link} 創建應用。"
+                    },
+                    "github": {
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "description": "前往 {link} 創建 OAuth 應用。"
+                    },
+                    "gitlab": {
+                        "client_id_label": "=> fof-oauth.ref.settings.app_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
+                        "description": "在 {link} 創建應用程序，並給予該應用 <code>read_user</code> 權限。",
+                        "domain_label": "GitLab 域名"
+                    },
+                    "google": {
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "description": "前往此處創建應用：{link}"
+                    },
+                    "linkedin": {
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "Client Secret",
+                        "description": "前往 {link} 創建應用。"
+                    },
+                    "twitter": {
+                        "api_key_label": "API Key",
+                        "api_secret_label": "API Secret",
+                        "description": "在 {link} 創建一個應用。您需要提供服務協議和隱私政策 URL，然後確保添加請求郵件權限。"
+                    }
+                }
+            }
+        },
+        "forum": {
+            "error": {
+                "bad_verification_code": "無效或過期的驗證令牌，請重試。",
+                "invalid_state": "無效狀態，請重試。"
+            },
+            "log_in": {
+                "with_button": "{provider} 帳號登錄",
+                "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_github_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_gitlab_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_google_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_linkedin_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_twitter_button": "=> fof-oauth.forum.log_in.with_button"
+            },
+            "providers": {
+                "discord": "=> fof-oauth.lib.providers.discord",
+                "facebook": "=> fof-oauth.lib.providers.facebook",
+                "github": "=> fof-oauth.lib.providers.github",
+                "gitlab": "=> fof-oauth.lib.providers.gitlab",
+                "google": "=> fof-oauth.lib.providers.google",
+                "linkedin": "=> fof-oauth.lib.providers.linkedin",
+                "twitter": "=> fof-oauth.lib.providers.twitter"
+            },
+            "signup": {
+                "username_help": "請選擇一個會員名稱"
+            }
+        },
+        "lib": {
+            "providers": {
+                "discord": "Discord",
+                "facebook": "Facebook",
+                "github": "GitHub",
+                "gitlab": "GitLab",
+                "google": "Google",
+                "linkedin": "LinkedIn",
+                "twitter": "Twitter"
+            }
+        },
+        "ref": {
+            "settings": {
+                "app_id": "App ID",
+                "app_secret": "App Secret",
+                "client_id": "Client ID",
+                "client_secret": "Client Secret"
+            }
+        }
+    }
+}
