@@ -14,7 +14,7 @@
         "forum": {
             "flag_post": {
                 "confirmation_message": "感謝舉報，管理員稍後會審閱此帖。",
-                "dismiss_button": "=> core.ref.okay",
+                "dismiss_button": "好",
                 "reason_details_placeholder": "更多資訊（可選）",
                 "reason_inappropriate_label": "不雅",
                 "reason_inappropriate_text": "此帖包含攻擊性、侮辱性詞句或違反了<a>論壇守則</a>",
@@ -24,14 +24,14 @@
                 "reason_other_label": "其他（請予以說明）",
                 "reason_spam_label": "垃圾",
                 "reason_spam_text": "這是廣告貼",
-                "submit_button": "=> flarum-flags.ref.flag_post",
-                "title": "=> flarum-flags.ref.flag_post"
+                "submit_button": "舉報貼文",
+                "title": "舉報貼文"
             },
             "flagged_posts": {
                 "empty_text": "無舉報",
                 "item_text": "{username} 在 <em>{discussion}</em>",
-                "title": "=> flarum-flags.ref.flagged_posts",
-                "tooltip": "=> flarum-flags.ref.flagged_posts"
+                "title": "被舉報的貼文",
+                "tooltip": "被舉報的貼文"
             },
             "post": {
                 "dismiss_flag_button": "撤銷舉報",
