@@ -1,0 +1,88 @@
+{
+    "askvortsov-auto-moderator": {
+        "admin": {
+            "action_drivers": {
+                "activate_email": "激活郵箱",
+                "add_to_group": "添加用戶組",
+                "remove_from_group": "移除用戶組",
+                "suspend": "封禁",
+                "unsuspend": "解除封禁"
+            },
+            "automoderator_instructions": {
+                "header": "使用說明",
+                "text": "<li>太長不看：用戶滿足 X 條件時，執行 Y。用戶不再滿足 X 條件時，執行 Z。 </li>\n<li><strong>評判標準：</strong>此擴展的核心思想。評判標準是多個判定指標和附加要求的集合。當一個用戶滿足或不滿足一個標準時，執行相應的動作。 </li>\n<ul>\n  <li><strong>判定指標：</strong>一個數值範圍。例如，發帖數量或獲贊數量。你可以設置指標為一個區間值/上限/下限值。 </li>\n  <li><strong>附加要求：</strong>一個布爾條件。例如，是否被封禁、郵箱是否成功匹配正則表達式。 </li>\n</ul>\n<li><strong>行為動作：</strong>當滿足或不再滿足評判標準時自動發生的事情。例如，移入/移出用戶組、發送電子郵件、封禁用戶等。 </li>\n<li><strong>觸發器：</strong>導致開始評判用戶標準的事件，是判定指標和附加要求定義的一部分。如「通用觸發器」，用戶登錄時會觸發評判用戶是否滿足標準。 </li>\n<li>「不滿足動作」永遠執行在「達成動作」之前。只要用戶滿足至少一個評判標準，就會執行相應的動作。 </li>\n<li>❗行為動作只會在 「不滿足」和「達成」時執行。當用戶滿足標準時，手動編輯將不會觸發執行「達成動作」。 </li>\n<li>❗刪除一個評判標準，不會執行該標準的「不滿足動作」。 </li>\n<li>❗使用評判標準來管理用戶組時，強烈建議您另建用戶組，不要和平常的用戶組共用。因為由此擴展管理的用戶組，不允許手動移入/移出用戶的。 </li>"
+            },
+            "automoderator_page": {
+                "create_criterion_button": "創建標準",
+                "criterion_invalid": "此評判標準無效，點擊查看詳情信息。",
+                "list_heading": "評判標準"
+            },
+            "criterion_page": {
+                "actions_help": "在此指定當用戶滿足、或不再滿足評判標準時，要執行的動作。",
+                "actions_label": "行為動作",
+                "actions_on_gain_heading": "達成動作",
+                "actions_on_loss_heading": "失去動作",
+                "add_action": "添加動作",
+                "add_metric": "添加指標",
+                "back": "返回評判標準列表",
+                "delete_button": "刪除",
+                "description_label": "描述",
+                "driver_missing_ext": "此驅動的依賴擴展未啟用。",
+                "icon_label": "圖標",
+                "loading": "loading...",
+                "metrics_and_requirements_help": "在此處定義用戶滿足評判標準的條件。判定指標可以是區間值/上限/下限值，附加要求是某個Boolean條件。",
+                "metrics_and_requirements_label": "判定指標與附加要求",
+                "metrics_heading": "判定指標",
+                "negated": "否？",
+                "new_criterion": "創建評判標準",
+                "requirements_heading": "附加要求"
+            },
+            "criterion_status": {
+                "action_validation_errors": "以下行為動作驅動出錯：",
+                "heading": "當前狀態",
+                "invalid": "當前評判標準無效，請檢查下方出錯的條件。",
+                "no_actions": "尚未指定行為動作。當用戶滿族或不再滿足評判標準時，將無事發生。",
+                "no_metrics_or_reqs": "尚未設定任何指標或附加要求。這意味著所有用戶都滿足此評判標準。",
+                "requirement_validation_errors": "以下附加要求驅動出錯：",
+                "valid": "評判標準有效！"
+            },
+            "group_selector": {
+                "placeholder": "請選擇用戶組"
+            },
+            "in_group_settings": {
+                "regex": "要匹配的正則表達式（無首尾斜杠）"
+            },
+            "metric_drivers": {
+                "best_answers": "最佳答案",
+                "discussions_entered": "瀏覽主題帖",
+                "discussions_participated": "參與主題",
+                "discussions_started": "發布主題",
+                "likes_given": "點贊",
+                "likes_received": "獲贊",
+                "moderator_strikes": "版主警告記分",
+                "posts_made": "發帖"
+            },
+            "requirement_drivers": {
+                "email_confirmed": "郵箱已驗證",
+                "email_matches_regex": "郵箱地址匹配正則",
+                "in_group": "位於用戶組",
+                "suspended": "被封禁"
+            },
+            "suspend_selector": {
+                "days": "封禁天數",
+                "indefinitely": "無期徒刑"
+            },
+            "undefined_driver_item": {
+                "text": "錯誤，未定義的 <strong>{driverName}</strong> 驅動！此驅動可能是由一個尚未安裝的擴展添加的。重新啟用該擴展或刪除該驅動後，評判標準方可有效。"
+            }
+        },
+        "lib": {
+            "group_id": "用戶組 ID",
+            "managed_groups": {
+                "group_item": "<badge></badge> {groupName}",
+                "groups_not_editable": "為防止數據不一致，由自動審閱擴展管理的用戶組，不允許手動移入/移出用戶。",
+                "header": "託管用戶組："
+            }
+        }
+    }
+}
