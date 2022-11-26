@@ -1,0 +1,37 @@
+{
+    "fof-linguist": {
+        "admin": {
+            "menu": {
+                "title": "語言學家",
+                "description": "客製化翻譯"
+            },
+            "buttons": {
+                "apply": "套用",
+                "reset": "復原",
+                "copy-original": "拷貝原文",
+                "load-more": "載入更多"
+            },
+            "locales": {
+                "all": "全部"
+            },
+            "placeholder": {
+                "not-translated": "未翻譯",
+                "all-locales": "此處定義的文本將顯示於全部語言中",
+                "hint": "原文內容："
+            },
+            "filters": {
+                "search": "搜尋翻譯字串...",
+                "with-own-translations": "我的翻譯",
+                "with-original-translations-in-locales": "帶有原文翻譯於",
+                "without-original-translations-in-locales": "不帶原文翻譯於",
+                "for-extension": "適用於延伸套件",
+                "for-extension-unavailable": "名稱空間「{namespace}」找不到翻譯。 這個延伸套件可能沒有需要翻譯的文本，或者使用了另一個名稱空間。 嘗試透過搜尋來定位翻譯。\n",
+                "results": "顯示 {shown} 條匹配翻譯，共 {total} 條"
+            },
+            "clear-cache": {
+                "text": "新增翻譯尚未部署。 Note: 清除快取會造成論壇一時緩慢。\n",
+                "button": "立刻清除快取"
+            }
+        }
+    }
+}
