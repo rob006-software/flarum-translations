@@ -1,0 +1,53 @@
+{
+    "clarkwinkelmann-scratchpad": {
+        "admin": {
+            "settings": {
+                "title": "便簽簿設定",
+                "single-column": "使用單行群組編輯器而不是三行",
+                "theme": "CodeMirror 主題（重新載入後生效）",
+                "indent": "縮進空格數量",
+                "compile-automatically": "儲存 JS 時自動編譯"
+            },
+            "controls": {
+                "refresh": "重新載入",
+                "save": "儲存",
+                "compile": "編譯 JS",
+                "settings": "編輯器設定",
+                "new": "新增",
+                "new-confirmation": "現用便簽簿未儲存，丟棄並創建新的？",
+                "delete": "刪除",
+                "delete-confirmation": "確定要刪除「{title}」 ?",
+                "enable": "啟用",
+                "disable": "停用"
+            },
+            "fields": {
+                "title": "便簽簿名稱",
+                "admin_js": "管理後台 JS",
+                "forum_js": "論壇前台 JS",
+                "admin_less": "管理後台 Less",
+                "forum_less": "論壇前台 Less",
+                "php": "PHP"
+            },
+            "placeholders": {
+                "untitled": "未命名",
+                "php-comment": "於此註冊 extender",
+                "js-log": "Hello, {frontend}!"
+            },
+            "compilation-alert": {
+                "success": "編譯完成！",
+                "failure": "編譯失敗！",
+                "view-output": "查看日誌"
+            },
+            "compilation-modal": {
+                "title": "編譯日誌",
+                "webpack": "Webpack 日誌",
+                "npm": "NPM 日誌",
+                "npm-not-run": "NPM 未執行"
+            },
+            "menu": {
+                "title": "便簽簿",
+                "description": "在開發環境中方便地測試程式碼"
+            }
+        }
+    }
+}
