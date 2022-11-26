@@ -2,7 +2,8 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "請完成以下必填項\n"
+                "profile-completion-required": "請完成以下必填項\n",
+                "profile-completed": "填寫完成！ <a>轉到首頁</a>"
             },
             "buttons": {
                 "view-profile": "查看資料卡",
@@ -32,7 +33,7 @@
                 "view-profile": "查看 masquerade 資料卡"
             },
             "menu": {
-                "description": "配置用戶資料卡欄位\n"
+                "description": "配置用戶資料卡欄位"
             },
             "fields": {
                 "title": "欄位",
@@ -54,7 +55,8 @@
                 "force-user-to-completion": "強制使用者必須完成資料卡",
                 "options": "選項",
                 "option-new": "新增選項",
-                "option-coma-warning": "選項標籤不能含有逗號「,」"
+                "option-coma-warning": "選項標籤不能含有逗號「,」",
+                "option-comma-warning": "選項名不能包含任何半角逗號 (\",\")。"
             },
             "types": {
                 "advanced": "高階",
