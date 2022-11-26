@@ -1,0 +1,57 @@
+{
+    "the-turk-mathren": {
+        "admin": {
+            "settings": {
+                "title": "MathRen",
+                "description": "配置 TeX 數學渲染器",
+                "wrapperOptionsHeading": "Wrapper 選項",
+                "mathClasses": "<code>span</code> 標籤類名",
+                "mathClassesHelp": "可以透過類名來輕鬆客製化 <code>span</code> 的樣式。",
+                "blockMathClass": "用於塊表示式的 <code>span</code> 標籤",
+                "inlineMathClass": "用於行內表示式的 <code>span</code> 標籤",
+                "wrapperStyle": "<code>span</code> 樣式",
+                "katexOptionsHeading": "KaTeX 選項",
+                "enableFleqn": "啟用方程式左對齊 (fleqn)",
+                "enableLeqno": "啟用方程式左編號 (leqno)",
+                "delimiters": "定界符",
+                "delimitersHelp": "以逗號分隔，<strong>%e%</strong> 表示數學表示式。",
+                "mainBlockDelimiter": "用於塊表示式的主要 <strong>BBCode</strong> 定界符",
+                "mainInlineDelimiter": "用於行內表示式的主要 <strong>BBCode</strong> 定界符",
+                "aliasBlockDelimiters": "塊表示式的定界符別名",
+                "aliasInlineDelimiters": "行內表示式的定界符別名",
+                "aliasDelimitersHelp": "它們是<em>主要 BBCode 定界符</em>的<strong>別名</strong>。如果在你的定界符別名列表中有特殊的定界符（比如 <code>$$</code>）， MathRen 將會在儲存貼文時掃描整篇貼文來查找額外的定界符，並將用主要 BBCode 定界符替換它們，這將導致儲存貼文的時間變長。 你可能需要使用額外的 BBCode 定界符來代替指定的定界符以避免出現類似情形。",
+                "ignoringExpressions": "忽略表示式",
+                "ignoringExpressionsHelp": "以逗號分隔。",
+                "decisiveKeywords": "忽略表示式的關鍵詞列表",
+                "decisiveKeywordsHelp": "你要在<em>指定的</em>右定界符旁邊寫上用花括號括起的某個關鍵詞（例子： <code>$$%e%$${<strong>keyword</strong>}</code>） 或者在 BBCode 內（例子： <code>[math=<strong>keyword</strong>]%e%[/math]</code>）來阻止渲染表示式。 <strong>請注意</strong> <code>[math]%e%[/math]{<strong>keyword</strong>}</code> 是一個<u>無效用法</u>的示例。",
+                "decisiveKeywordsInfo": "此列表中的第一個關鍵詞將作為預設文字編輯器。",
+                "decisiveKeywordsWarning": "不要使用特殊字符！不然會拋出異常。",
+                "ignoredTags": "遞歸時需要忽略的 DOM 節點類型列表",
+                "ignoredClasses": "遞歸時需要忽略的 DOM 節點類名列表",
+                "ignoredClassesInfo": "列表中的第一個類名將作為預設包裹被忽略的表示式。",
+                "outputMode": "輸出模式",
+                "outputModeHelp": "選擇用於輸出的標示語言",
+                "enableColorIsTextColor": "允許 <code>\\color</code> 指令接受兩個引數 (colorIsTextColor)",
+                "enableThrowOnError": "對於不支援的指令或者無效 LaTeX 拋出錯誤",
+                "errorColor": "用於渲染錯誤的顏色",
+                "errorColorHelp": "選擇渲染不支援指令或者無效 LaTeX 的顏色。",
+                "sizeSettings": "大小選項",
+                "sizeSettingsHelp": "使用 <strong>點（point）</strong>作為小數點。不接受<em>無限值</em>!",
+                "minRuleThickness": "最小高度 (em)",
+                "maxSize": "最大高度 (em)",
+                "macros": "巨集",
+                "macrosHelp": "自定義巨集集合。",
+                "maxExpand": "最大展開極限",
+                "katexOptionsInfo": "前往 https://katex.org/ 了解更多 KaTeX 資訊",
+                "otherOptionsHeading": "其它選項",
+                "enableTextEditorButtons": "於文字編輯器上顯示按鈕"
+            }
+        },
+        "forum": {
+            "textEditor": {
+                "blockExpression": "塊表示式",
+                "inlineExpression": "行內表示式"
+            }
+        }
+    }
+}
