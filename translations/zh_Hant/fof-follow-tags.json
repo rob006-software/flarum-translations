@@ -1,0 +1,44 @@
+{
+    "fof-follow-tags": {
+        "forum": {
+            "settings": {
+                "notify_new_discussion_label": "有人中我關注的節點發帖",
+                "notify_new_post_label": "有人在我關注的節點回覆"
+            },
+            "index": {
+                "follow_tag_button": "關注",
+                "unfollow_tag_button": "不關注"
+            },
+            "sub_controls": {
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
+                "following_text": "有新貼文時提醒",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
+                "hiding_text": "在全部貼文頁面中隱藏",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
+                "ignoring_text": "從不提醒",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
+                "lurking_text": "有新貼文或新回覆時提醒",
+                "not_following_button": "不關注",
+                "not_following_text": "僅當提及我時提醒",
+                "notify_alert_tooltip": "有新貼文或新回覆時推送論壇內提醒",
+                "notify_email_tooltip": "有新貼文或新回覆時發送郵件提醒"
+            },
+            "notifications": {
+                "new_discussion_text": "{username} 發佈了新貼文",
+                "new_post_text": "{username} 發佈了新回覆"
+            }
+        },
+        "email": {
+            "newDiscussionInTag": "[節點 | 新貼文] 標題",
+            "newPostInTag": "[節點 | 新回覆] 標題"
+        },
+        "ref": {
+            "follow": "關注",
+            "following": "已關注",
+            "hiding": "已隱藏",
+            "ignoring": "已忽略",
+            "lurking": "圍觀中"
+        }
+    }
+}
