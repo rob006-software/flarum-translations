@@ -118,6 +118,12 @@
             "username": {
                 "regex": "使用者名稱僅能包含字母、數字、短劃線"
             }
-        }
+        },
+        "recaptcha": "reCAPTCHA 驗證失敗。",
+        "multiple_of": ":attribute 須是:value 的倍數。",
+        "password": "密碼錯誤。",
+        "prohibited": ":attribute 字段不可用。",
+        "prohibited_if": ":other 為 :value 時 :attribute 字段不可用。",
+        "prohibited_unless": ":other 非 :value 時 :attribute 字段不可用。"
     }
 }
