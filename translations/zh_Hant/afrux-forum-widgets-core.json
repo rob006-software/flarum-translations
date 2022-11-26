@@ -1,0 +1,10 @@
+{
+    "afrux-forum-widgets-core": {
+        "admin": {
+            "settings": {
+                "prefer_data_with_initial_load": "預加載所有插件數據",
+                "prefer_data_with_initial_load_help": "在首次加載頁面時同步加載插件數據，關閉此項時，插件數據將在頁面首次加載後通過 API 非同步請求。"
+            }
+        }
+    }
+}
