@@ -1,0 +1,43 @@
+{
+    "pay-to-see": {
+        "forum": {
+            "pay_to_see_content": "Pay To See Content",
+            "purchased_content": "Purchased Content",
+            "pay_to_see_owner_bypass": "Pay To See Content [Owner Bypass]",
+            "pay_to_see_content_bypass": "Pay To See Content [Permission Bypass]",
+            "toolbar_tooltip": "Insert pay to see content",
+            "set_pay_to_see_price": "Set Content Price",
+            "ok": "OK",
+            "confirm": "Confirm",
+            "cancel": "Cancel",
+            "remove": "Remove",
+            "need_pay2see_tag": "You need include [pay][/pay] tag for pay to see content",
+            "not_support_anonymous": "Pay to see content is not support in anonymous post",
+            "purchase_success": "Purchase Success",
+            "purchase_confirmation": "Purchase Content",
+            "purchase_confirmation_text": "Are you sure to pay {costText} ?",
+            "purchase_button": "Purchase Content",
+            "purchase_unlocked_button": "Content Unlocked",
+            "purchase_error_not_found": "Cannot Purchase Content",
+            "purchase_error_insufficient_fund": "Insufficient Fund",
+            "purchase_error_no_permission": "Permission Denied",
+            "purchase_count": "Purchase Count: {count}",
+            "notifications": {
+                "notification_setting_some_one_purchase_content": "Some one purchased my content",
+                "discussion_purchased": "{username} pruchased your content",
+                "discussion_purchased_cost": "You have received {cost}"
+            }
+        },
+        "admin": {
+            "settings": {
+                "badge_icon": "Badge icon",
+                "badge_icon_desc": "Enter the name of any FontAwesome icon class, including the <code>fas fa-</code> prefix. Leave empty to remove badge."
+            },
+            "permission": {
+                "allow_use_pay2see": "Allow use pay to see",
+                "allow_purchase_pay2see": "Allow purchase pay to see content",
+                "allow_bypass_pay2see": "Allow bypass to see pay to see content"
+            }
+        }
+    }
+}
