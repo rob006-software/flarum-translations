@@ -1,0 +1,36 @@
+{
+    "fof-filter": {
+        "forum": {
+            "flagger_name": "自動審查",
+            "flaged_text": "包含已封鎖的字串"
+        },
+        "admin": {
+            "title": "過濾器",
+            "help": "填入關鍵詞，以半角逗號+空格分隔，如果貼文包含關鍵詞，則將標示旗標等待審核。支援過濾 133t 詞句。",
+            "help2": "同一使用者在同一貼文中 n 分鐘內的貼文將會被自動合併。",
+            "email_help": "被舉報的郵件正文，接受 HTML 或純文字。",
+            "filter_label": "要過濾的字串",
+            "countLabel": "敏感度",
+            "cooldownLabel": "冷卻時間",
+            "input": {
+                "placeholder": "要過濾的字串",
+                "filter_title": "要過濾的字串",
+                "email_label": "郵箱設定",
+                "switch": {
+                    "email": "當貼文被過濾時發信",
+                    "merge": "自動合併重複貼文"
+                },
+                "email_subject": "主題",
+                "email_body": "正文"
+            },
+            "nav": {
+                "text": "過濾器",
+                "desc": "依照關鍵字過濾貼文"
+            },
+            "email": {
+                "default_subject": "您最新發佈的貼文已被移除",
+                "default_text": "非常抱歉，由於您的貼文中包含我們不希望展示的內容，因此您的貼文被移除。\n如果您認為這是一個錯誤，請同我們聯絡，我們的管理員將會進行人工審核，如果審核通過，您的貼文將被復原。\n感謝您的理解。\n"
+            }
+        }
+    }
+}
