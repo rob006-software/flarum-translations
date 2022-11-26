@@ -1,0 +1,58 @@
+{
+    "askvortsov-moderator-warnings": {
+        "admin": {
+            "permissions": {
+                "manage_warnings": "創建及移除管理員警告",
+                "view_warnings": "查看管理員警告",
+                "delete_warnings": "永久刪除管理員警告"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "warning_text": "您被管理員 {mod_username} 警告並扣 {strikes} 分",
+                "warning_no_strikes_text": "您被管理員 {mod_username} 警告（無扣分）"
+            },
+            "post": {
+                "warning": "被管理員 {mod_username} 警告並扣 {strikes} 分",
+                "warning_no_strikes": "您被管理員 {mod_username} 警告"
+            },
+            "post_controls": {
+                "warning_button": "警告使用者"
+            },
+            "user": {
+                "warnings": "管理員警告"
+            },
+            "settings": {
+                "warning_notification_label": "管理員警告我"
+            },
+            "warning_controls": {
+                "delete_button": "移除",
+                "restore_button": "復原",
+                "delete_forever_button": "永久刪除"
+            },
+            "warning_list": {
+                "add_button": "新增警告",
+                "no-warnings": "暫無警告。",
+                "warnings": "管理員警告： 已被扣 {strikes} 分",
+                "warnings_no_strikes": "管理員警告：未被扣分"
+            },
+            "warning_list_item": {
+                "list_item_heading": "收到管理員 <strong>{mod_username}</strong> 警告並扣 <strong>{strikes}</strong> 分",
+                "list_item_heading_hidden": "收到管理員 <strong>{mod_username}</strong> 警告並扣 <strong>{strikes}</strong> 分 <strong>（已移除）</strong>",
+                "public_comment": "使用者可見備註",
+                "private_comment": "管理員可見備註",
+                "linked_post": "關聯的貼文"
+            },
+            "warning_modal": {
+                "confirmation_message": "您的警告已儲存，可能需要重新載入才能看到。",
+                "dismiss_button": "完成",
+                "heading": "警告 <strong>{username}</strong>",
+                "strikes_heading": "扣幾分？",
+                "public_comment_heading": "<strong>{username}</strong> 為何收到警告？這個備註僅使用者及其他管理員可見。",
+                "private_comment_heading": "<strong>{username}</strong> 為何收到警告？這個備註僅管理員可見。",
+                "no_content_given": "內容不可留空",
+                "submit_button": "儲存警告"
+            }
+        }
+    }
+}
