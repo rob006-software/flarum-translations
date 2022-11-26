@@ -1,0 +1,24 @@
+{
+    "sycho-profile-cover": {
+        "admin": {
+            "max_size": "個人資料背景圖片的最大大小（KB）",
+            "permission": {
+                "set_cover": "設置個人資料背景"
+            },
+            "thumbnails": "創建縮略圖"
+        },
+        "forum": {
+            "added": {
+                "error": "無法上傳圖片。",
+                "success": "背景圖更換成功。"
+            },
+            "cover": "背景圖",
+            "edit_cover": "編輯背景圖",
+            "notice": "最大圖片大小：{size}",
+            "removed": {
+                "error": "無法移除背景圖，請稍後再試。",
+                "success": "背景圖已移除。"
+            }
+        }
+    }
+}
