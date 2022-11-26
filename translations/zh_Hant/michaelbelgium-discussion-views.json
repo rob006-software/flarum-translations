@@ -1,0 +1,31 @@
+{
+    "michaelbelgium-discussion-views": {
+        "admin": {
+            "permissions": {
+                "reset_views_label": "重置主題瀏覽量",
+                "view_number_label": "查看主題瀏覽量"
+            },
+            "settings": {
+                "abbr_numbers_label": "縮寫瀏覽量",
+                "max_viewcount_label": "「最近瀏覽的人」列表最多展示人數",
+                "show_filter_label": "添加「最多人看/最少人看」排序選項",
+                "show_viewlist_label": "在主題頁面展示「最近瀏覽的人」列表",
+                "title": "主題瀏覽量設置",
+                "track_unique_label": "僅追踪 UV（獨立訪客）"
+            }
+        },
+        "forum": {
+            "discussion_controls": {
+                "resetviews_button": "重置瀏覽量"
+            },
+            "modal_resetviews": {
+                "label": "這將會清除這個主題的 {count} 瀏覽量，確定要繼續嗎？ |這將會清除這個主題的 {count} 瀏覽量，確定要繼續嗎？",
+                "submit_button": "確定清除",
+                "title": "重置主題瀏覽量"
+            },
+            "viewlist": {
+                "title": "最近瀏覽的人"
+            }
+        }
+    }
+}
