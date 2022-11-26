@@ -1,0 +1,31 @@
+{
+    "askvortsov-saml": {
+        "admin": {
+            "title": "SAML2 SSO 配置",
+            "labels": {
+                "idp_metadata_url": "身分識別提供者資料檔案 URL（替代 XML）",
+                "idp_metadata": "身分識別提供者資料檔案 XML（替代 URL）",
+                "only_option": "使用 SAML2 SSO 作為唯一登入選項？",
+                "sync_attributes": "同步屬性（頭像、群組、簡介、資料檔）？需要安裝 askvortsov/auth-sync 延伸套件。",
+                "nameid_format": "NameID 格式"
+            },
+            "options": {
+                "nameid_format": {
+                    "persistent": "持久化（如果支援，推薦使用）",
+                    "emailAddress": "郵箱（預設，如果不支援持久化）",
+                    "unspecified": "未指定"
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_saml_button": "SAML2 SSO",
+                "open_popup": "點這裡登入",
+                "enable_popups": "啟用登入/註冊跳出式對話方塊"
+            },
+            "sign_up": {
+                "post_saml_title": "最後一步"
+            }
+        }
+    }
+}
