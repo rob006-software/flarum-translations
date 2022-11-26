@@ -417,5 +417,15 @@
             "$7.50 per month",
             "$79.99 per year"
         ]
+    },
+    "ziiven/flarum-pay-to-see": {
+        "name": "ziiven/flarum-pay-to-see",
+        "title": "Ziven Pay To See",
+        "description": "A Flarum extension. Allow user to add pay to see content in the post",
+        "version": "1.0.0",
+        "requiredFlarum": "^1.0",
+        "subscriptionPlans": [
+            "$25.99 once"
+        ]
     }
 }
