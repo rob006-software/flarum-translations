@@ -2,45 +2,45 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": "節點"
+                "tags_label": "標籤"
             },
             "edit_tag": {
                 "color_label": "顏色",
-                "delete_tag_button": "刪除節點",
-                "delete_tag_confirmation": "確定要刪除此節點？此節點下的貼文將不會被刪除。",
+                "delete_tag_button": "刪除標籤",
+                "delete_tag_confirmation": "確定要刪除此標籤？此標籤下的貼文將不會被刪除。",
                 "description_label": "說明",
                 "hide_label": "從「全部貼文」中隱藏",
                 "icon_label": "圖標",
                 "icon_text": "鍵入任意 <a>FontAwesome</a> 圖示類名，<em>需要包含</em>前綴 <code>fas fa-</code>",
-                "name_label": "節點名稱",
-                "name_placeholder": "節點名稱",
-                "slug_label": "英文名稱",
+                "name_label": "標籤名稱",
+                "name_placeholder": "標籤名稱",
+                "slug_label": "Slug名稱",
                 "submit_button": "儲存更改",
-                "title": "新增節點"
+                "title": "新增標籤"
             },
             "nav": {
-                "tags_button": "節點設定",
-                "tags_text": "管理論壇節點列表"
+                "tags_button": "標籤設定",
+                "tags_text": "管理論壇標籤列表"
             },
             "permissions": {
-                "allow_edit_tags_label": "允許編輯節點",
-                "restrict_by_tag_heading": "按節點",
-                "tag_discussions_label": "更改節點",
+                "allow_edit_tags_label": "允許編輯標籤",
+                "restrict_by_tag_heading": "按標籤",
+                "tag_discussions_label": "更改標籤",
                 "bypass_tag_counts_label": "不受標籤數量限制"
             },
             "tag_settings": {
                 "range_separator_text": " 至 ",
-                "required_primary_heading": "主節點數量",
-                "required_primary_text": "設定貼文主節點數量範圍",
-                "required_secondary_heading": "次節點數量",
-                "required_secondary_text": "設定貼文次節點數量範圍",
-                "title": "節點設定"
+                "required_primary_heading": "主標籤數量",
+                "required_primary_text": "設定貼文主標籤數量範圍",
+                "required_secondary_heading": "次標籤數量",
+                "required_secondary_text": "設定貼文次標籤數量範圍",
+                "title": "標籤設定"
             },
             "tags": {
-                "about_tags_text": "節點用於分類貼文。主節點類似於傳統論壇的板塊；次節點無層級或順序，可作為子分類。",
-                "create_tag_button": "新增節點",
-                "primary_heading": "主節點",
-                "secondary_heading": "次節點",
+                "about_tags_text": "標籤用於分類貼文。主標籤類似於傳統論壇的板塊；次標籤無層級或順序，可作為子分類。",
+                "create_tag_button": "新增標籤",
+                "primary_heading": "主標籤",
+                "secondary_heading": "次標籤",
                 "settings_button": "設定",
                 "create_primary_tag_button": "新建主標籤",
                 "create_secondary_tag_button": "新建次標籤",
@@ -49,47 +49,48 @@
         },
         "forum": {
             "all_tags": {
-                "meta_description_text": "全部節點",
-                "meta_title_text": "節點"
+                "meta_description_text": "全部標籤",
+                "meta_title_text": "標籤"
             },
             "choose_tags": {
-                "choose_primary_placeholder": "選擇主節點|選擇 {count} 個主節點",
-                "choose_secondary_placeholder": "選擇次節點|選擇 {count} 個次節點",
-                "edit_title": "更改「{title}」的節點",
+                "choose_primary_placeholder": "{count, plural, one {選擇主標籤     } other {最多選擇 # 個主標籤     }}",
+                "choose_secondary_placeholder": "{count, plural, one {次標籤     } other {最多選擇 # 個次標籤     }}",
+                "edit_title": "更改「{title}」的標籤",
                 "submit_button": "好",
-                "title": "選擇節點"
+                "title": "選擇標籤",
+                "bypass_requirements": "忽略標籤要求"
             },
             "composer_discussion": {
-                "choose_tags_link": "選擇節點"
+                "choose_tags_link": "選擇標籤"
             },
             "discussion_controls": {
-                "edit_tags_button": "編輯節點"
+                "edit_tags_button": "編輯標籤"
             },
             "header": {
-                "back_to_tags_tooltip": "返回節點列表"
+                "back_to_tags_tooltip": "返回標籤列表"
             },
             "index": {
-                "more_link": "更多節點...",
-                "tags_link": "節點",
-                "untagged_link": "移除節點"
+                "more_link": "更多標籤...",
+                "tags_link": "標籤",
+                "untagged_link": "移除標籤"
             },
             "post_stream": {
-                "added_tags_text": "{username} 新增節點 {tagsAdded}",
-                "added_and_removed_tags_text": "{username} 添加節點 {tagsAdded} 並移除節點 {tagsRemoved}",
-                "removed_tags_text": "{username} 移除節點 {tagsRemoved}",
-                "tags_text": "{tags}|{tags}"
+                "added_tags_text": "{username} 加上了 {tagsAdded} 標籤",
+                "added_and_removed_tags_text": "{username} 加上了 {tagsAdded} 標籤，並移除 {tagsRemoved} 標籤",
+                "removed_tags_text": "{username} 移除了 {tagsRemoved} 標籤",
+                "tags_text": "{count, plural, one {{tags}} other {{tags}}}"
             },
             "tag": {
-                "meta_description_text": "{tag} 節點下的全部貼文"
+                "meta_description_text": "{tag} 標籤下的全部貼文"
             }
         },
         "lib": {
             "deleted_tag_text": "已刪除"
         },
         "ref": {
-            "create_tag": "新增節點",
-            "name": "節點名稱",
-            "tags": "節點"
+            "create_tag": "新增標籤",
+            "name": "標籤名稱",
+            "tags": "標籤"
         }
     }
 }
