@@ -1,0 +1,50 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "舉報貼文",
+                "view_flags_label": "查看被舉報的貼文"
+            },
+            "settings": {
+                "flag_own_posts_label": "允許使用者舉報自己的貼文",
+                "guidelines_url_label": "論壇守則連結",
+                "title": "舉報設定"
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "感謝舉報，管理員稍後會審閱此帖。",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "更多資訊（可選）",
+                "reason_inappropriate_label": "不雅",
+                "reason_inappropriate_text": "此帖包含攻擊性、侮辱性詞句或違反了<a>論壇守則</a>",
+                "reason_missing_message": "請為管理員提供更多資訊",
+                "reason_off_topic_label": "離題",
+                "reason_off_topic_text": "此帖與當前討論主題無關",
+                "reason_other_label": "其他（請予以說明）",
+                "reason_spam_label": "垃圾",
+                "reason_spam_text": "這是廣告貼",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "無舉報",
+                "item_text": "{username} 在 <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "撤銷舉報",
+                "flagged_by_text": "已被 {username} 舉報",
+                "flagged_by_with_reason_text": "因 {reason} 被 {username} 舉報"
+            },
+            "post_controls": {
+                "flag_button": "舉報"
+            }
+        },
+        "ref": {
+            "flag_post": "舉報貼文",
+            "flagged_posts": "被舉報的貼文"
+        }
+    }
+}
