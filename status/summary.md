@@ -417,5 +417,6 @@
 | [`maicol07/flarum-oidc-client`](https://extiverse.com/extension/maicol07/flarum-oidc-client) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/maicol07-oidc-client/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/maicol07-oidc-client/) |
 | [`sycho/flarum-private-facade`](https://extiverse.com/extension/sycho/flarum-private-facade) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/sycho-private-facade/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/sycho-private-facade/) |
 | [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/v17development-support/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/v17development-support/) |
+| [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/ziiven-pay-to-see/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/ziiven-pay-to-see/) |
 
 <!-- premium-extensions-list-stop -->
