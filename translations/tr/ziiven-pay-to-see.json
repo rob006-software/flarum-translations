@@ -1,42 +1,42 @@
 {
     "pay-to-see": {
         "forum": {
-            "pay_to_see_content": "",
-            "purchased_content": "",
-            "pay_to_see_owner_bypass": "",
-            "pay_to_see_content_bypass": "",
-            "toolbar_tooltip": "",
-            "set_pay_to_see_price": "",
-            "ok": "",
-            "confirm": "",
-            "cancel": "",
-            "remove": "",
-            "need_pay2see_tag": "",
-            "not_support_anonymous": "",
-            "purchase_success": "",
-            "purchase_confirmation": "",
-            "purchase_confirmation_text": "",
-            "purchase_button": "",
-            "purchase_unlocked_button": "",
-            "purchase_error_not_found": "",
-            "purchase_error_insufficient_fund": "",
-            "purchase_error_no_permission": "",
-            "purchase_count": "",
+            "pay_to_see_content": "İçeriği Görmek İçin Öde",
+            "purchased_content": "Satın Alınan İçerik",
+            "pay_to_see_owner_bypass": "İçeriği Görmek İçin Ödeyin [Yönetici Atlama]",
+            "pay_to_see_content_bypass": "İçeriği Görmek İçin Ödeyin [İzinli Atlama]",
+            "toolbar_tooltip": "İçeriği görmek için ödeme girin",
+            "set_pay_to_see_price": "İçerik Fiyatını Belirle",
+            "ok": "Tamam",
+            "confirm": "Onayla",
+            "cancel": "İptal",
+            "remove": "Kaldır",
+            "need_pay2see_tag": "(İçeriği görmek için ödeme yap) için [pay][/pay] etiketini eklemeniz gerekir",
+            "not_support_anonymous": "İçeriği görmek için ödeme yapın, anonim gönderide desteklenmez",
+            "purchase_success": "Satın Alma Başarılı",
+            "purchase_confirmation": "İçerik Satın Al",
+            "purchase_confirmation_text": "{costText} ödeyeceğinizden emin misiniz?",
+            "purchase_button": "İçerik Satın Al",
+            "purchase_unlocked_button": "İçeriğin Kilidi Açıldı",
+            "purchase_error_not_found": "İçerik Satın Alınamıyor",
+            "purchase_error_insufficient_fund": "Yetersiz Bakiye",
+            "purchase_error_no_permission": "İzin Reddedildi",
+            "purchase_count": "Satın Alma Sayısı: {count}",
             "notifications": {
-                "notification_setting_some_one_purchase_content": "",
-                "discussion_purchased": "",
-                "discussion_purchased_cost": ""
+                "notification_setting_some_one_purchase_content": "Birisi içeriğimi satın aldı",
+                "discussion_purchased": "{username} içeriğinizi satın aldı",
+                "discussion_purchased_cost": "{cost} aldınız"
             }
         },
         "admin": {
             "settings": {
-                "badge_icon": "",
-                "badge_icon_desc": ""
+                "badge_icon": "Rozet simgesi",
+                "badge_icon_desc": "<code>fas fa-</code> öneki dahil herhangi bir FontAwesome simge sınıfının adını girin. Rozeti kaldırmak için boş bırakın."
             },
             "permission": {
-                "allow_use_pay2see": "",
-                "allow_purchase_pay2see": "",
-                "allow_bypass_pay2see": ""
+                "allow_use_pay2see": "Kullanıma izin ver (görmek için öde)",
+                "allow_purchase_pay2see": "İçeriği görmek için ödemeye izin ver",
+                "allow_bypass_pay2see": "(İçeriği görmek için öde) atlamaya izin ver"
             }
         }
     }
