@@ -339,7 +339,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => ['KitsuneSolar', 'z17cx'],
+		'maintainers' => ['KitsuneSolar', 'uidhub'],
 	],
 	'si' => [
 		'type' => 'language',
