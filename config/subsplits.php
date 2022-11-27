@@ -243,7 +243,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => ['tavoweb'],
+		'maintainers' => [], // ['tavoweb'], see https://github.com/flarum-lang/lithuanian/pull/1#issuecomment-1311833030
 	],
 	'lv' => [
 		'type' => 'language',
