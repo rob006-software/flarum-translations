@@ -7,32 +7,32 @@
             },
             "settings": {
                 "label": {
-                    "general": "",
-                    "reminders": "",
-                    "advanced": "",
-                    "reminders_notice": ""
+                    "general": "一般",
+                    "reminders": "提醒事項",
+                    "advanced": "高級",
+                    "reminders_notice": "要啟用提醒功能，你必需正確配置Flarum。"
                 },
                 "allow_select_own_post": "允許選取自己的回覆",
-                "allow_select_own_post_help": "",
-                "enable_all_tags_button": "",
-                "enable_all_tags_reminder_button": "",
+                "allow_select_own_post_help": "允許提問者將自己的貼子設為最佳回覆",
+                "enable_all_tags_button": "為所有標籤啟用最佳回覆",
+                "enable_all_tags_reminder_button": "為所有標籤啟用提醒功能",
                 "select_best_answer_reminder_days": "於 n 天後提醒用戶選取最佳回覆",
-                "select_best_answer_reminder_days_help": "",
+                "select_best_answer_reminder_days_help": "於N天後提問者選擇最佳回覆。",
                 "schedule_on_one_server": "透過 'onOneServer()' 指令作為任務排程器（需要 Redis/Memcache）",
-                "schedule_on_one_server_help": "",
+                "schedule_on_one_server_help": "需要 Redis/Memcache",
                 "schedule_stop_overnight": "提醒排程於非社交時間停止執行（伺服器時間 9pm - 8am）",
-                "schedule_stop_overnight_help": "",
+                "schedule_stop_overnight_help": "服務時間20:00 至 9:00",
                 "schedule_log_output": "輸出排程日誌到日誌存儲",
-                "show_filter_label": "",
-                "show_filter_help": "",
+                "show_filter_label": "顯示最佳回覆過濾項",
+                "show_filter_help": "在啟用最佳回覆的標籤頁面顯示「已解決/未解決」過濾項",
                 "use_alt_ui": "使用新樣式（最佳回覆按鈕顯示於貼文頁腳）",
-                "use_alt_ui_help": "",
-                "documentation": "",
-                "introduction": ""
+                "use_alt_ui_help": "在帖子底部顯示最佳回覆選擇按鈕",
+                "documentation": "文檔",
+                "introduction": "你需要前往 <code><a>flarum/tags</a></code> 為特定標簽開啟最佳回覆和提醒功能。你可以在「權限」頁面為全局或特定標簽設置最佳回覆的操作權限。\n"
             },
             "edit_tag": {
-                "qna_label": "",
-                "reminders": ""
+                "qna_label": "啟用最佳回覆",
+                "reminders": "提醒選擇最佳回覆"
             }
         },
         "forum": {
@@ -42,7 +42,7 @@
             "best_answer_button": "最佳回覆",
             "best_answer_label": "最佳回覆由 <a>{username}</a> 於 {time_set} 選取",
             "errors": {
-                "mismatch": ""
+                "mismatch": "所選的貼文在當前主題中不存在"
             },
             "notification": {
                 "best_answer_in_discussion": "{username} 為這個貼文選取了一個最佳回覆",
@@ -51,33 +51,33 @@
                 "preferences": {
                     "awarded_best_answer": "當我的回覆被選為最佳回覆時",
                     "best_answer_in_discussion": "當我參與的貼文有最佳回覆時",
-                    "select_best_answer": ""
+                    "select_best_answer": "提醒我選擇自己主題的最佳回覆"
                 }
             },
             "index": {
-                "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "ask_question": "提問",
+                "cannot_ask_question": "提問已關閉",
+                "solved_link": "已解決",
+                "unsolved_link": "等待解決"
             },
             "filter": {
-                "all_label": "",
-                "solved_label": "",
-                "unsolved_label": "",
-                "accessible_label": ""
+                "all_label": "全部問題",
+                "solved_label": "已解決",
+                "unsolved_label": "等待解决",
+                "accessible_label": "已解决/未解决"
             },
             "composer": {
-                "titlePlaceholder": ""
+                "titlePlaceholder": "標題"
             },
             "user": {
-                "best-answer-count": ""
+                "best-answer-count": "{count, plural, { {count} 次助人} other {{count} 次助人}}"
             }
         },
         "email": {
             "subject": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "您的帖子被 {display_name} 設為最佳回覆",
+                "ba-set": "{display_name} 選擇了一個最佳回覆",
+                "select": "您是否已自行解决了問題？"
             },
             "body": {
                 "awarded": "",
