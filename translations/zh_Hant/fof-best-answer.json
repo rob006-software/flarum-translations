@@ -42,7 +42,7 @@
             "best_answer_button": "最佳回覆",
             "best_answer_label": "最佳回覆由 <a>{username}</a> 於 {time_set} 選取",
             "errors": {
-                "mismatch": "所選的貼文在當前主題中不存在"
+                "mismatch": "所選的貼文在當前主題中不存在。"
             },
             "notification": {
                 "best_answer_in_discussion": "{username} 為這個貼文選取了一個最佳回覆",
@@ -81,8 +81,8 @@
             },
             "body": {
                 "awarded": "{recipient_display_name}，你好！\n\n幹得好，您在【{discussion_title}】發表的回覆剛剛被 {actor_display_name} 選為最佳回覆。感謝你的耐心幫助。\n\n點擊此處查看回覆：{discussion_url}\n",
-                "ba-set": "",
-                "select": ""
+                "ba-set": "{recipient_display_name}，你好！\n\n{actor_display_name} 剛剛為你參與討論的主題【{discussion_title}】選擇了最佳回覆。\n\n去看看吧：{discussion_url}\n",
+                "select": "{recipient_display_name}，你好！\n\n你的主題「{discussion_title}」已經有了很多回覆。\n\n如果其中有可以幫助你解決問題的，你可以把他選為最佳回覆，這樣不僅能讓後來者快速找到解決問題的辦法，也可以激勵幫助你的人。\n\n點擊此處查看主題：{discussion_url}，並選擇最佳回覆。\n\n此致\n"
             }
         }
     }
