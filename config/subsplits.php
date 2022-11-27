@@ -39,7 +39,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => ['khayal011'],
+		'maintainers' => [], // ['khayal011'], see https://github.com/flarum-lang/azerbaijani/pull/1#issuecomment-1311812451
 	],
 	'bn' => [
 		'type' => 'language',
