@@ -39,7 +39,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => ['khayal011'],
+		'maintainers' => [], // ['khayal011'], see https://github.com/flarum-lang/azerbaijani/pull/1#issuecomment-1311812451
 	],
 	'bn' => [
 		'type' => 'language',
@@ -51,7 +51,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => ['mueenulit'],
+		'maintainers' => [], // ['mueenulit'], see https://github.com/flarum-lang/bengali/pull/1#issuecomment-1311816335
 	],
 	'cs' => [
 		'type' => 'language',
@@ -75,7 +75,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => ['DeliciousDanny', 'davwheat'],
+		'maintainers' => [], // ['DeliciousDanny', 'davwheat'], see https://github.com/flarum-lang/danish/pull/1#issuecomment-1311822729
 	],
 	'de' => [
 		'type' => 'language',
@@ -123,7 +123,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => '0.Major.Minor',
 		],
-		'maintainers' => ['amirrezakhakpour'],
+		'maintainers' => [], // ['amirrezakhakpour'], see https://github.com/flarum-lang/persian/pull/3#issuecomment-1311840100
 	],
 	'fi' => [
 		'type' => 'language',
@@ -171,7 +171,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => '0.Major.Minor',
 		],
-		'maintainers' => ['meetdilip'],
+		'maintainers' => [], // ['meetdilip'], see https://github.com/flarum-lang/hindi/pull/3#issuecomment-1311826819
 	],
 	'hu' => [
 		'type' => 'language',
@@ -243,7 +243,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => ['tavoweb'],
+		'maintainers' => [], // ['tavoweb'], see https://github.com/flarum-lang/lithuanian/pull/1#issuecomment-1311833030
 	],
 	'lv' => [
 		'type' => 'language',
@@ -265,9 +265,9 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '0.Major.Minor',
+			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => ['meetdilip'],
+		'maintainers' => [], // ['meetdilip'], see https://github.com/flarum-lang/malayalam/pull/1#issuecomment-1311837994
 	],
 	'nl' => [
 		'type' => 'language',
@@ -399,7 +399,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'v0.Major.Minor',
 		],
-		'maintainers' => ['eYM3', 'sayuri-gi'],
+		'maintainers' => [], // ['eYM3', 'sayuri-gi'], see https://github.com/flarum-lang/tamil/pull/3#issuecomment-1311851703
 	],
 	'te' => [
 		'type' => 'language',
@@ -423,7 +423,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => ['kon3ko'],
+		'maintainers' => [], // ['kon3ko'], see https://github.com/flarum-lang/thai/pull/2#issuecomment-1311857526
 	],
 	'tr' => [
 		'type' => 'language',
