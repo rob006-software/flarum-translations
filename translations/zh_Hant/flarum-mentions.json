@@ -2,7 +2,7 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "提及群組"
             },
             "settings": {
                 "allow_username_format_label": "允許@用戶名",
@@ -18,7 +18,7 @@
                 "others_text": "{count} 人|{count} 人",
                 "post_mentioned_text": "{username} 回覆了你的貼文",
                 "user_mentioned_text": "{username} 提到了你",
-                "group_mentioned_text": ""
+                "group_mentioned_text": "{username} 提到了您所屬的組群"
             },
             "post": {
                 "mentioned_by_self_text": "{users} 回覆了貼文",
@@ -31,7 +31,7 @@
             "settings": {
                 "notify_post_mentioned_label": "有人回覆了你",
                 "notify_user_mentioned_label": "有人提到了你",
-                "notify_group_mentioned_label": ""
+                "notify_group_mentioned_label": "有人在帖子中提到了我在的組群"
             },
             "user": {
                 "mentions_link": "提到"
@@ -40,7 +40,7 @@
                 "deleted_text": "[未知]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[未知群組]"
             }
         },
         "email": {
@@ -53,8 +53,8 @@
                 "body": "{recipient_display_name}，你好！\n\n{mentioner_display_name} 在《{title}》提到了你：\n\n{url}\n\n---\n\n{content}"
             },
             "group_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} 在 {title} 中提到了您所屬的群組",
+                "body": "嘿 {recipient_display_name}！\n\n{mentioner_display_name} 在 {title} 中提到了您所屬的群組。\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
