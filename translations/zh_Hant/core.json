@@ -4,8 +4,8 @@
             "appearance": {
                 "colored_header_label": "導航欄上色",
                 "colors_heading": "顏色",
-                "colors_primary_label": "",
-                "colors_secondary_label": "",
+                "colors_primary_label": "主色調",
+                "colors_secondary_label": "次色調",
                 "colors_text": "選擇兩種顏色作為論壇主色調。第一種作為突出顯示顏色，第二種作為背景等元素的顏色。",
                 "custom_footer_heading": "自定義頁腳",
                 "custom_footer_text": "新增 HTML 代碼顯示於頁面底部。",
@@ -46,13 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "清除快取",
                 "description": "論壇各項數據一覽",
-                "io_error_message": "",
+                "io_error_message": "無法寫入文件。請檢查操作權限，重試或者直接從命令列運行命令。",
                 "title": "Dashboard",
                 "tools_button": "工具"
             },
             "debug-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "<code>CSS</code> 文件將每次請求時返回全新的編譯版本。調試模式中，所有日誌、警告和錯誤均會以彈窗形式展示在網頁中，數據庫密碼、環境變量等敏感信息均有可能在此期間泄露。\n\n因此我們強烈建議您在生產環境中將 <code>config.php</code> 文件中的 <code>debug</code> 設置為 <code>false</code> 以禁用調試模式。請查看 <link>Flarum 文檔</link>了解更多信息。\n",
+                "label": "除錯模式啟動"
             },
             "edit_css": {
                 "customize_text": "通過增加 LESS/CSS 程式碼以客製化論壇外觀，此設定將覆蓋 Flarum <a>預設樣式</a>。",
@@ -107,7 +107,7 @@
             },
             "extension": {
                 "configure_scopes": "設置範圍",
-                "confirm_purge": "",
+                "confirm_purge": "啟用 <code>調試</code> 模式時，所有 Flarum 請求均不會緩存，<code>JavaScript</code> 和 重置操作會清除數據庫中所有該擴展相關的記錄和資源。如要卸載擴展，請通過 Composer 操作。確定要重置擴展嗎？",
                 "disabled": "關閉",
                 "enable_to_see": "開啟擴展程序以查看或修改設置。",
                 "enabled": "開啟",
@@ -123,11 +123,11 @@
                 "no_settings": "此擴展無設置項。",
                 "open_modal": "打開設置",
                 "permissions_title": "權限",
-                "purge_button": "",
+                "purge_button": "重置",
                 "readme": {
-                    "button_label": "",
-                    "no_readme": "",
-                    "title": ""
+                    "button_label": "說明檔",
+                    "no_readme": "此擴展未提供說明檔",
+                    "title": "{extName} 文件"
                 }
             },
             "header": {
@@ -310,8 +310,8 @@
                 "load_more_button": "載入更多",
                 "replied_text": "{username} 回覆於 {ago}",
                 "started_text": "{username} 發佈於 {ago}",
-                "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": ""
+                "total_replies_a11y_label": "{count, plural, one {# 條回復} other {# 條回復}}",
+                "unread_replies_a11y_label": "{count, plural, one {# 條未讀} other {# 條未讀}}，全部標記為已讀。"
             },
             "forgot_password": {
                 "dismiss_button": "好",
@@ -329,9 +329,9 @@
                 "log_in_link": "登入",
                 "log_out_button": "登出",
                 "profile_button": "基本資料",
-                "search_clear_button_accessible_label": "",
+                "search_clear_button_accessible_label": "清空搜索",
                 "search_placeholder": "搜尋",
-                "search_role_label": "",
+                "search_role_label": "搜索論壇",
                 "session_dropdown_accessible_label": "對話下拉選單開關",
                 "settings_button": "個人設定",
                 "sign_up_link": "註冊"
@@ -365,8 +365,8 @@
                 "username_or_email_placeholder": "會員名稱或郵箱"
             },
             "notifications": {
-                "delete_all_confirm": "",
-                "delete_all_tooltip": "",
+                "delete_all_confirm": "確定要刪除所有通知嗎？此操作不可撤銷",
+                "delete_all_tooltip": "刪除所有通知",
                 "discussion_renamed_text": "{username} 更改了主題",
                 "empty_text": "暫無通知",
                 "mark_all_as_read_tooltip": "標記所有為已讀",
@@ -415,7 +415,7 @@
                 "account_heading": "帳戶",
                 "change_email_button": "更改郵箱",
                 "change_password_button": "更改密碼",
-                "notification_checkbox_a11y_label_template": "",
+                "notification_checkbox_a11y_label_template": "通過 {method} 接收「{description}」通知",
                 "notifications_heading": "通知",
                 "notify_by_email_heading": "郵箱",
                 "notify_by_web_heading": "網頁",
@@ -462,13 +462,13 @@
                 "sent_message": "發送"
             },
             "welcome_hero": {
-                "hide": ""
+                "hide": "隱藏歡迎橫幅內容"
             }
         },
         "lib": {
-            "debug_button": "",
+            "debug_button": "除錯",
             "alert": {
-                "dismiss_a11y_label": ""
+                "dismiss_a11y_label": "忽略警告"
             },
             "badge": {
                 "hidden_tooltip": "隱藏"
@@ -488,31 +488,31 @@
                 "title": "編輯用戶",
                 "username_heading": "用戶名",
                 "username_label": "用戶名",
-                "nothing_available": ""
+                "nothing_available": "您無權編輯此用戶。"
             },
             "error": {
                 "dependent_extensions_message": "無法停用「{extension}」，請先停用依賴擴展「{extensions}」",
-                "extension_initialiation_failed_message": "",
+                "extension_initialiation_failed_message": "初始化「{extension}」失敗，詳情信息請查看控制台。",
                 "generic_message": "糟糕，出錯啦！請重新載入頁面再試一次。",
                 "missing_dependencies_message": "無法啟用「{extension}」，請先啟用依賴擴展「{extensions}」",
                 "not_found_message": "請求的資源不存在",
-                "payload_too_large_message": "",
+                "payload_too_large_message": "請求負載過大。",
                 "permission_denied_message": "沒有權限執行此操作",
                 "rate_limit_exceeded_message": "操作太頻繁，請稍後再試。",
-                "render_failed_message": ""
+                "render_failed_message": "抱歉，加載此內容時出錯，請刷新頁面重試。如果您是管理員，請查看論壇日誌文件查看詳情。"
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle} - 第 # 頁 - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {第 # 頁 - {forumName}}}"
             },
             "modal": {
-                "close": ""
+                "close": "關閉"
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "打開導航抽屜"
             },
             "number_suffix": {
                 "kilo_text": "千",
@@ -530,23 +530,23 @@
         "views": {
             "admin": {
                 "extensions": {
-                    "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "caption": "=> core.ref.extensions",
+                    "disable": "關閉",
+                    "empty": "尚未安裝擴展程序",
+                    "enable": "啟用",
+                    "name": "擴展名",
+                    "package_name": "軟體包",
+                    "version": "版本"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "說明"
                 },
-                "title": ""
+                "title": "管理員"
             },
             "confirm_email": {
-                "submit_button": "",
-                "text": "",
-                "title": ""
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "點擊下方按鈕確認您的郵箱。",
+                "title": "=> core.ref.confirm_email"
             },
             "content": {
                 "javascript_disabled_message": "請使用現代瀏覽器並啟用 JavaScript 以獲取最佳瀏覽體驗。",
@@ -611,7 +611,7 @@
             "change_password": "更改密碼",
             "color": "顏色",
             "confirm_password": "確認密碼",
-            "confirm_email": "",
+            "confirm_email": "確認郵件",
             "confirmation_email_sent": "驗證郵件已發送至 {email}，若未收到請檢查垃圾箱。",
             "custom_footer_text": "新增 HTML 代碼顯示於頁面底部。",
             "custom_footer_title": "編輯客製化頁腳",
@@ -623,7 +623,7 @@
             "edit": "編輯",
             "edit_user": "編輯用戶",
             "email": "郵箱",
-            "extensions": "",
+            "extensions": "擴展程序",
             "icon": "圖示",
             "icon_text": "鍵入任意 <a>FontAwesome</a> 圖示類名，<em>需要包含</em>前綴 <code>fas fa-</code>",
             "load_more": "載入更多",
