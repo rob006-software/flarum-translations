@@ -2,29 +2,29 @@
     "flarum-suspend": {
         "admin": {
             "permissions": {
-                "suspend_users_label": "封禁使用者"
+                "suspend_users_label": "封禁用戶"
             }
         },
         "forum": {
             "notifications": {
                 "user_suspended_text": "你已被封禁 {timeReadable}",
-                "user_suspended_indefinite_text": "",
+                "user_suspended_indefinite_text": "你已被永久封禁",
                 "user_unsuspended_text": "{username} 封禁了你"
             },
             "suspension_info": {
-                "dismiss_button": "",
-                "indefinite": "",
-                "limited": "",
-                "title": ""
+                "dismiss_button": "我知道了",
+                "indefinite": "封禁期限：永久",
+                "limited": "封禁期至 {date}",
+                "title": "此賬號已被封禁"
             },
             "suspend_user": {
-                "display_message": "",
+                "display_message": "封禁原因（用戶)",
                 "indefinitely_label": "無限期封禁",
                 "limited_time_days_text": " 天",
                 "limited_time_label": "有限期封禁...",
                 "not_suspended_label": "不封禁",
-                "placeholder_optional": "",
-                "reason": "",
+                "placeholder_optional": "可選",
+                "reason": "封禁原因",
                 "status_heading": "封禁狀態",
                 "submit_button": "儲存更改",
                 "title": "{username} 已被封禁"
@@ -37,14 +37,14 @@
             }
         },
         "email": {
-            "no_reason_given": "",
+            "no_reason_given": "管理員並未給出封禁原因。",
             "suspended": {
-                "subject": "",
-                "body": ""
+                "subject": "你的帳號已被封禁",
+                "body": "{recipient_display_name} 你好，\n\n你的賬號因以下原因已被封禁：\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
-                "subject": "",
-                "body": ""
+                "subject": "你的帳號已解封",
+                "body": "{recipient_display_name} 你好，\n\n你的帳號已解封。\n\n{forum_url}\n"
             }
         }
     }
