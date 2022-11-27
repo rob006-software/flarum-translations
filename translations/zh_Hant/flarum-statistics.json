@@ -2,35 +2,35 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "統計自定義時間內的論壇數據。\n數據分析耗時會根據單位時間內論壇的活躍度有所浮動。\n",
+                "end_date": "結束日期（含）",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "結束日期必須晚於開始日期。"
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "開始日期(含)",
+                "submit_button": "確定",
+                "title": "自訂義日期範圍"
             },
             "statistics": {
                 "discussions_heading": "主題",
-                "export_chart_button": "",
+                "export_chart_button": "導出SVG圖片",
                 "last_12_months_label": "最近十二個月",
                 "last_28_days_label": "最近廿八日",
                 "last_7_days_label": "最近七日",
-                "mini_heading": "",
-                "previous_28_days_label": "",
-                "previous_7_days_label": "",
-                "custom_label": "",
-                "custom_label_specified": "",
-                "loading": "",
-                "posts_heading": "貼文",
+                "mini_heading": "統計數據",
+                "previous_28_days_label": "過去28天",
+                "previous_7_days_label": "過去7天",
+                "custom_label": "自訂義範圍…",
+                "custom_label_specified": "{fromDate} 至 {toDate}",
+                "loading": "=> core.ref.loading",
+                "posts_heading": "=> core.ref.posts",
                 "today_label": "今天",
                 "total_label": "累計",
-                "users_heading": "會員",
-                "view_full": "",
-                "no_data": "",
-                "current_period": "",
-                "previous_period": ""
+                "users_heading": "=> core.ref.users",
+                "view_full": "更多統計訊息",
+                "no_data": "當前時段沒有可用於分析的數據。",
+                "current_period": "當前週期",
+                "previous_period": "上一週期"
             }
         }
     }
