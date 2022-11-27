@@ -51,7 +51,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => ['mueenulit'],
+		'maintainers' => [], // ['mueenulit'], see https://github.com/flarum-lang/bengali/pull/1#issuecomment-1311816335
 	],
 	'cs' => [
 		'type' => 'language',
