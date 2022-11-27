@@ -1,7 +1,7 @@
 {
     "the-turk-diff": {
         "forum": {
-            "revisions": "{revisionCount} 次修訂",
+            "revisions": "{revisionCount, plural, one {共 {revisionCount} 次修訂} other {共 {revisionCount} 次修訂}}",
             "emptyText": "無修訂版本",
             "editedText": "=> core.forum.post.edited_text",
             "deletedText": "（已刪除）",
