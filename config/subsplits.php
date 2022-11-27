@@ -267,7 +267,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => '0.Major.Minor',
 		],
-		'maintainers' => ['meetdilip'],
+		'maintainers' => [], // ['meetdilip'], see https://github.com/flarum-lang/malayalam/pull/1#issuecomment-1311837994
 	],
 	'nl' => [
 		'type' => 'language',
