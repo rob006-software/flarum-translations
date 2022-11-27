@@ -171,7 +171,7 @@
                 "delete_discussions_label": "刪除貼文",
                 "delete_posts_forever_label": "永久刪除回覆",
                 "delete_posts_label": "刪除回覆",
-                "description": "設置各用戶組訪問及操作權限",
+                "description": "設置各用戶組訪問及操作權限。",
                 "edit_posts_label": "編輯回覆",
                 "edit_users_label": "編輯會員",
                 "edit_users_credentials_label": "編輯用戶身份標識",
@@ -195,7 +195,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "無限期",
-                "allow_some_minutes_button": "{count} 分鐘|{count} 分鐘",
+                "allow_some_minutes_button": "{count, plural, one {發布 # 分鐘內} other {發布 # 分鐘內}}",
                 "allow_ten_minutes_button": "10 分鐘內",
                 "allow_until_reply_button": "直到被回覆",
                 "everyone_button": "所有人",
@@ -254,7 +254,7 @@
         "forum": {
             "change_email": {
                 "confirm_password_placeholder": "確認密碼",
-                "confirmation_message": "驗證郵件已發送至 {email}，若未收到請檢查垃圾箱。",
+                "confirmation_message": "=> core.ref.confirmation_email_sent",
                 "dismiss_button": "好",
                 "incorrect_password_message": "鍵入的密碼不正確。",
                 "submit_button": "儲存更改",
@@ -393,7 +393,7 @@
                 "now_link": "最後回覆",
                 "original_post_link": "最早文章",
                 "unread_text": "{count} 未讀",
-                "viewing_text": "{index} / {count} 則"
+                "viewing_text": "{count, plural, one {{index} / {formattedCount} 條} other {{index} / {formattedCount} 條}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "舊主題是: 「{old}」",
@@ -457,7 +457,7 @@
                 "toggle_dropdown_accessible_label": "用戶下拉選單開關"
             },
             "user_email_confirmation": {
-                "alert_message": "驗證郵件已發送至 {email}，若未收到請檢查垃圾箱。",
+                "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "重新發送驗證郵件",
                 "sent_message": "發送"
             },
@@ -627,7 +627,7 @@
             "icon": "圖示",
             "icon_text": "鍵入任意 <a>FontAwesome</a> 圖示類名，<em>需要包含</em>前綴 <code>fas fa-</code>",
             "load_more": "載入更多",
-            "loading": "Loading...",
+            "loading": "正在加載…",
             "log_in": "登入",
             "log_out": "登出",
             "mark_all_as_read": "標記所有為已讀",
