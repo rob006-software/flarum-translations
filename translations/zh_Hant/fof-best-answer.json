@@ -80,7 +80,7 @@
                 "select": "您是否已自行解决了問題？"
             },
             "body": {
-                "awarded": "",
+                "awarded": "{recipient_display_name}，你好！\n\n幹得好，您在【{discussion_title}】發表的回覆剛剛被 {actor_display_name} 選為最佳回覆。感謝你的耐心幫助。\n\n點擊此處查看回覆：{discussion_url}\n",
                 "ba-set": "",
                 "select": ""
             }
