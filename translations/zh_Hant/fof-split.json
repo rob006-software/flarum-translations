@@ -7,7 +7,7 @@
         },
         "forum": {
             "post": {
-                "was_split_to": "{count} 個回覆被拆分至 {target}",
+                "was_split_to": "{count, plural, one {{count} 條回復被拆分至「{target}」。} other {{count} 條回復被拆分至「{target}」。}}",
                 "was_split_from": "{count} 個回覆拆分至 {target}"
             },
             "split": {
