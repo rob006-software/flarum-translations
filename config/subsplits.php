@@ -123,7 +123,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => '0.Major.Minor',
 		],
-		'maintainers' => ['amirrezakhakpour'],
+		'maintainers' => [], // ['amirrezakhakpour'], see https://github.com/flarum-lang/persian/pull/3#issuecomment-1311840100
 	],
 	'fi' => [
 		'type' => 'language',
