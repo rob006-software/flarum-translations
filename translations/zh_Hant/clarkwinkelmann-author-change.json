@@ -2,30 +2,30 @@
     "clarkwinkelmann-author-change": {
         "forum": {
             "controls": {
-                "edit": "更改作者"
+                "edit": "更改作者及日期"
             },
             "modal": {
-                "title-post": "更改回帖作者",
-                "title-discussion": "更改貼文作者",
-                "user": "",
-                "created_at": "",
-                "edited_at": "",
-                "sync-with-discussion": "",
-                "sync-with-post": "",
-                "sync-impossible": "",
+                "title-post": "更改回帖作者及日期",
+                "title-discussion": "更改貼文作者及日期",
+                "user": "作者",
+                "created_at": "創建時間",
+                "edited_at": "編輯時間",
+                "sync-with-discussion": "與主題同步",
+                "sync-with-post": "與首貼同步",
+                "sync-impossible": "無法定位首貼。請嘗試滾動到主題起始處。",
                 "submit": "儲存",
                 "cancel": "放棄"
             },
             "search": {
-                "placeholder": "搜寻用户",
-                "type-more": "搜寻需要至少三个字符",
-                "no-results": "无结果"
+                "placeholder": "搜尋用户",
+                "type-more": "搜尋需要至少三个字符",
+                "no-results": "無结果"
             }
         },
         "admin": {
             "permissions": {
-                "edit-user": "",
-                "edit-date": ""
+                "edit-user": "變更主題和貼文作者",
+                "edit-date": "變更主題和貼文日期"
             }
         }
     }
