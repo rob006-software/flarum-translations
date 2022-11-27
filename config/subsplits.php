@@ -399,7 +399,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'v0.Major.Minor',
 		],
-		'maintainers' => ['eYM3', 'sayuri-gi'],
+		'maintainers' => [], // ['eYM3', 'sayuri-gi'], see https://github.com/flarum-lang/tamil/pull/3#issuecomment-1311851703
 	],
 	'te' => [
 		'type' => 'language',
