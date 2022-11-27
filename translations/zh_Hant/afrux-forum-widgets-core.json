@@ -1,7 +1,7 @@
 {
     "afrux-forum-widgets-core": {
         "admin": {
-            "cache_not_writable_warning": "",
+            "cache_not_writable_warning": "目前服務器緩存不可寫入，部分小部件無法工作。請檢查儲存目錄權限。",
             "settings": {
                 "prefer_data_with_initial_load": "預加載所有插件數據",
                 "prefer_data_with_initial_load_help": "在首次加載頁面時同步加載插件數據，關閉此項時，插件數據將在頁面首次加載後通過 API 非同步請求。"
