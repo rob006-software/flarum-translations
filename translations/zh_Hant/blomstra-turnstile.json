@@ -4,9 +4,9 @@
             "settings": {
                 "site_key": "站點金鑰（Site key）",
                 "secret_key": "私鑰（Secret key）",
-                "signup": "",
-                "signin": "",
-                "forgot": ""
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
             }
         },
         "forum": {
