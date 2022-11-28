@@ -21,10 +21,10 @@
                 "description_label": "描述",
                 "description_placeholder": "成就描述",
                 "variable_label": "條件",
-                "computation_label": "要計算的條件：帖子、點贊、自讚、主題帖、回复帖、編輯數、上傳頭像、關鍵詞、註冊年數",
+                "computation_label": "要計算的條件：帖子、點贊、自讚、主題帖、回复帖、編輯數、上傳頭像、關鍵詞、註冊年數\n",
                 "computation_placeholder": "數字",
                 "points_label": "成就積分",
-                "points_placeholder": "0",
+                "points_placeholder": "0\n",
                 "image_label": "圖片鏈接 / 圖標代碼",
                 "image_placeholder": "成就的圖標鏈接",
                 "row_label": "行",
@@ -73,14 +73,14 @@
                 "list_heading": "成就",
                 "create_achievement_button": "創建成就",
                 "instructions_header": "功能介紹",
-                "instructions_text": "<li>創建成就時，需要先起個名字。 </li>。\n<li>成就描述是可選項。 </li>\n<li>創建後，可在條件列表中選擇成就的達成條件。 </li>\n<li>然後為條件設置門檻。你可以用一個數字表示上下限，也可以用兩個數字並用逗號 (,) 分隔表示區間範圍。 </li>\n<li>如果一個成就的所有達成條件，均由區間門檻構成，則僅當用戶處於區間範圍內時，才會獲得該成就。當用戶超出區間時，會失去該成就。 </li>\n<li>對於「包含關鍵詞」成就，需要先指定關鍵詞，然後填寫出現的次數或區間（例如「菠菜,5」或 「菠菜,5,10」）。 </li>\n<li>創建成就時，你可以使用 FontAwesome 代碼或 URL 圖片自定義成就的圖標。 </li>\n<li>使用 URL 圖片作為圖標時，你可以調整它的寬度和高度。 </li>\n<li>另外，如果你使用雪碧圖作為成就圖標，也能夠調整圖片的行列偏移量。 </li>",
+                "instructions_text": "<li>創建成就時，需要先起個名字。 </li>。\n<li>成就描述是可選項。 </li>\n<li>創建後，可在條件列表中選擇成就的達成條件。 </li>\n<li>然後為條件設置門檻。你可以用一個數字表示上下限，也可以用兩個數字並用逗號 (,) 分隔表示區間範圍。 </li>\n<li>如果一個成就的所有達成條件，均由區間門檻構成，則僅當用戶處於區間範圍內時，才會獲得該成就。當用戶超出區間時，會失去該成就。 </li>\n<li>對於「包含關鍵詞」成就，需要先指定關鍵詞，然後填寫出現的次數或區間（例如「菠菜,5」或 「菠菜,5,10」）。 </li>\n<li>創建成就時，你可以使用 FontAwesome 代碼或 URL 圖片自定義成就的圖標。 </li>\n<li>使用 URL 圖片作為圖標時，你可以調整它的寬度和高度。 </li>\n<li>另外，如果你使用雪碧圖作為成就圖標，也能夠調整圖片的行列偏移量。 </li>\n",
                 "add_delete_users": "給予 / 收回用戶成就",
-                "show": ""
+                "show": "顯示成就列表於："
             },
             "settings": {
-                "show-post-footer": "",
-                "show-user-card": "",
-                "link-left-column": ""
+                "show-post-footer": "每個貼文下方",
+                "show-user-card": "用戶資料卡片",
+                "link-left-column": "首頁側邊欄"
             }
         }
     }
