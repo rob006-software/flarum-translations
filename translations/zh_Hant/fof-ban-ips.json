@@ -33,11 +33,11 @@
                 "update_title": "更新封禁 IP",
                 "ban_ip_no_users": "没有人遭封禁"
             },
-            "empty_text": "暫無"
+            "empty_text": "暫無IP被封鎖。"
         },
         "error": {
-            "banned_ip_message": "驗證失敗",
-            "no_ips_found_message": "未找到該會員的 IP"
+            "banned_ip_message": "驗證失敗。",
+            "no_ips_found_message": "未找到該會員的 IP。"
         },
         "lib": {
             "modal": {
@@ -51,7 +51,7 @@
                 "ban_ip_users": "會員 {users} 将遭封禁|會員 {users} 将遭封禁",
                 "unban_ip_confirmation": "你確定要解除封禁該會員及其他全部未遭其他 IP 封禁的會員？？",
                 "unban_options_only_ip": "僅解除封禁当前 IP (<code>{ip}</code>)",
-                "unban_options_all_ip": "解除封禁 <i>{username}</i> 使用过的  IP",
+                "unban_options_all_ip": "解除封禁 <i>{username}</i> 使用過的  IP",
                 "unban_ip_no_users": "没有人解除封禁",
                 "unban_ip_users": "會員 {users} 将解除封禁|會員 {users} 将解除封禁",
                 "unbanned_ips": "解除封禁 <code>{ips}</code>.",
