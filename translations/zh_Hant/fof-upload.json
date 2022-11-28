@@ -6,21 +6,21 @@
                 "description": "設置上傳服務和首選項。"
             },
             "help_texts": {
-                "disable-download-logging": "開啟此設定可查看下載量及未來可能的統計數據。",
-                "disable-hotlink-protection": "熱鏈保護可防止從其他站點下載。目前的方式需求 csrf token 及帖文 ID",
-                "download_templates": "下載模板是上載的檔案如何在論壇上顯示 比如預覽、按鈕等，目前支援的有：",
-                "mime_types": "請於此設定對映。每一個 MIME 類型的正規表示式都將由指定的上載接口處理",
-                "resize": "您可以選擇是否在上載圖片前調整圖片大小，您也可以設定圖片最大長寬（px），圖片大小調整將會保持圖片長寬比例",
+                "disable-download-logging": "開啟此設定可查看下載量及未來可能的統計數據。\n",
+                "disable-hotlink-protection": "熱鏈保護可防止從其他站點下載。目前的方式需求 csrf token 及帖文 ID。\n",
+                "download_templates": "下載模板是上載的檔案如何在論壇上顯示 比如預覽、按鈕等，目前支援的有：\n",
+                "mime_types": "請於此設定對映。每一個 MIME 類型的正規表示式都將由指定的上載接口處理。\n",
+                "resize": "您可以選擇是否在上載圖片前調整圖片大小，您也可以設定圖片最大長寬（px），圖片大小調整將會保持圖片長寬比例。\n",
                 "client_extension": "默認情況下，上傳器將根據 MIME 類型選擇一個安全的文件擴展名。\n對於某些基於 ZIP 或二進制數據的文件類型，這可能導致使用不正確的通用擴展名。\n在這裡，您可以輸入一個逗號分隔的文件擴展名列表，該列表將被逐字保留。\n",
-                "watermark": "在圖片上載時新增水印，僅支援非 gif 圖片",
+                "watermark": "在圖片上載時新增水印，僅支援非 gif 圖片。\n",
                 "s3_compatible_storage": "僅在使用 S3 兼容存儲時才需要以下設置。 如果您使用 AWS，您可以將它們留空。\n",
                 "s3_acl": "應用於上傳對象的 ACL（默認：私有）。 有關可能的值，請參閱 https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
-                "s3_instance_profile": "",
+                "s3_instance_profile": "公鑰和秘鑰留空時，可為實例單獨配置。\n",
                 "composer_buttons": "默認情況下，媒體管理按鈕和上傳按鈕皆可見。您可以選擇只顯示其中一個按鈕。\n"
             },
             "labels": {
                 "aws-s3": {
-                    "bucket": "Bucket",
+                    "bucket": "存儲空間（Bucket）",
                     "key": "Key",
                     "region": "區域",
                     "secret": "Secret",
@@ -41,7 +41,7 @@
                 "imgur": {
                     "client_id": "Imgur 用戶端 ID",
                     "title": "Imgur 圖片存儲設定",
-                    "tos": ""
+                    "tos": "你有義務確保你的用戶遵守 Imgur 的 <a>服務條款</a>"
                 },
                 "local": {
                     "cdn_url": "CDN 連結 (在檔案前)",
@@ -57,7 +57,7 @@
                     "max_file_size": "最大檔案大小 (單位 KB)",
                     "mime_types": "設定 MIME 類型以及上載接口",
                     "title": "偏好設定",
-                    "php_ini_values": ""
+                    "php_ini_values": "當前服務器 <code>php.ini</code> 配置上限為 <code>post_max_size={post}</code>，<code>upload_max_filesize={upload}</code>。請確保上方設置的值小於上限，否則請提高上限。若您使用 <code>Nginx</code> 服務器，請確保 <code>client_max_body_size</code> 高於當前設置的值。"
                 },
                 "resize": {
                     "max_width": "最大圖片寬度",
@@ -81,7 +81,7 @@
                         "media-btn": "僅媒體管理按鈕"
                     }
                 },
-                "inspect-mime": ""
+                "inspect-mime": "測試文件 MIME 類型"
             },
             "permissions": {
                 "download_label": "下載檔案",
@@ -91,19 +91,19 @@
             },
             "templates": {
                 "file": "預設檔案下載模板",
-                "file_description": "顯示檔案名稱及基本信息，經由 php 代理下載，支援統計及熱鏈保護",
+                "file_description": "顯示檔案名稱及基本信息，經由 php 代理下載，支援統計及熱鏈保護。\n",
                 "image": "預設圖片下載模板",
-                "image_description": "顯示圖片縮略圖並經由 php 代理下載，支援統計及熱鏈保護",
+                "image_description": "顯示圖片縮略圖並經由 php 代理下載，支援統計及熱鏈保護。\n",
                 "image-preview": "完整圖片預覽模板",
-                "image-preview_description": "於行內顯示完整圖片。不支援下載、統計及熱鏈保護",
-                "markdown-image": "",
-                "markdown-image_description": "",
-                "bbcode-image": "",
-                "bbcode-image_description": "",
+                "image-preview_description": "於行內顯示完整圖片。不支援下載、統計及熱鏈保護。\n",
+                "markdown-image": "Markdown 圖片預覽模板",
+                "markdown-image_description": "使用 Markdown 格式在行內完整顯示圖片。<strong>此模板依賴於 flarum/markdown 擴展程序。</strong>無下載、統計和熱鏈保護功能。\n",
+                "bbcode-image": "BBCode 圖片預覽模板",
+                "bbcode-image_description": "使用 BBCode 在行內完整顯示圖片。<strong>此模板依賴於 flarum/bbcode 擴展程序。</strong>無下載、統計和熱鏈保護功能。\n",
                 "just-url": "僅鏈接",
                 "just-url_description": "僅插入 URL。渲染可以由具有自動鏈接功能的其他插件處理。沒有下載功能，沒有統計功能，且沒有熱鏈保護。\n",
-                "text-preview": "",
-                "text-preview_description": ""
+                "text-preview": "本文預覽",
+                "text-preview_description": "顯示本文的前 5 行預覽，附帶展開全文按鈕。\n"
             },
             "upload_methods": {
                 "aws-s3": "亞馬遜 S3",
@@ -113,17 +113,17 @@
                 "qiniu": "七牛"
             },
             "inspect-mime": {
-                "title": "",
-                "description": "",
-                "select": "",
-                "laravel-validation": "",
-                "no-file-selected": "",
-                "validation-passed": "",
-                "validation-failed": "",
-                "mime-detector": "",
-                "mime-fileinfo": "",
-                "guessed-extension": "",
-                "not-available": ""
+                "title": "檢查 MIME",
+                "description": "由於 PHP Fileinfo 擴展在不同服務器上返回的文件類型會有所不同，因此 FoF Upload 僅將其作為備用選項。\n一般情況下，均使用 <a>PHP Mime Detector</a> 庫檢測 MIME 類型。\n",
+                "select": "選擇一個文件，並檢測類型。您選擇的文件不會被保存。",
+                "laravel-validation": "Laravel 文件驗證消息",
+                "no-file-selected": "請選擇文件",
+                "validation-passed": "通過",
+                "validation-failed": "失敗：{error}",
+                "mime-detector": "Mime 檢測器（主）",
+                "mime-fileinfo": "PHP Fileinfo（備）",
+                "guessed-extension": "默認文件擴展名",
+                "not-available": "暫無結果"
             }
         },
         "forum": {
@@ -158,20 +158,20 @@
                 "unauthorized": "您未被允許下載檔案"
             },
             "validation": {
-                "max_size": ""
+                "max_size": "文件需小於 {max} KB。"
             },
             "text_preview": {
-                "expand": "",
-                "collapse": "",
-                "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
+                "expand": "展開全文",
+                "collapse": "收起全文",
+                "error": "文件預覽無法加載。此文件可能已被刪除，或文件 ID已失效。\n",
+                "no_snippet_preview": "<本文的預覽將會在此處展示>",
+                "no_snippet": "<暫無可用的預覽代碼片段>"
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "不允許上載這個類型的檔案",
-                "unsupported_type": "上載適配器不支援這個 MIME 類型： {mime}",
+                "forbidden_type": "不允許上載這個類型的檔案。",
+                "unsupported_type": "上載適配器不支援這個 MIME 類型： {mime}。",
                 "could_not_detect_mime": "無法偵測這個檔案的 MIME 類型，請重新嘗試。"
             }
         }
