@@ -7,28 +7,28 @@
             },
             "pwa": {
                 "about": {
-                    "description_label": "",
+                    "description_label": "描述",
                     "description_text": "您可以在管理後台的「基本設定」頁面修改描述。",
-                    "long_name_label": "",
-                    "long_name_text": "顯示給用戶的 web 應用名稱",
+                    "long_name_label": "完整應用名稱",
+                    "long_name_text": "顯示給用戶的 web 應用名稱。",
                     "heading": "關於",
-                    "short_name_label": "",
+                    "short_name_label": "應用簡稱",
                     "short_name_text": "您可以在管理後台的「基本設定」頁面修改短名稱。"
                 },
                 "colors": {
                     "heading": "顏色",
-                    "background_color_label": "",
+                    "background_color_label": "背景顏色",
                     "background_color_text": "這是用於啟動螢幕的佔位顏色，將在 PWA 載入時顯示，當 App 載入完成後將不會被使用。",
-                    "theme_color_label": "",
+                    "theme_color_label": "主題顏色",
                     "theme_color_text": "裝置顯示應用時可能會使用到這個顏色，比如 Android 的任務切換。您可以在管理後台的「外觀設定」中修改主要顏色。"
                 },
                 "maintenance": {
                     "heading": "維護",
-                    "debug_label": "Debug模式？這將會在 `storage/logs` 中記錄日誌信息。",
-                    "debug_text": "",
-                    "reset_vapid_text": "",
-                    "reset_vapid_confirm": "",
-                    "reset_vapid_success": ""
+                    "debug_label": "Debug模式？",
+                    "debug_text": "開啟此項，在 `storage/logs` 中會打印通知日志。日常應當關閉，防止無效信息保存到日志中。",
+                    "reset_vapid_text": "這將重新生成 VAPID 秘鑰，並使用當前 VAPID 秘鑰刪除現有訂閱。",
+                    "reset_vapid_confirm": "重置 VAPID 密鑰將刪除使用現有密鑰的訂閱，在用戶下次訪問網站前，將無法收到任何通知。您應當僅在首次設置推送通知、推送通知完全不工作，或出現 VAPID 密鑰缺失警告時進行重置。",
+                    "reset_vapid_success": "VAPID 密鑰重置成功，已重置 {count} 個訂閱。刷新頁面以查看最新狀態檢查報告。"
                 },
                 "other": {
                     "heading": "其他",
@@ -48,7 +48,7 @@
                 "possible_https_disabled": "您的站點可能未運行於 HTTPS 上，如果是 HTTPS，請忽略；如果不是，請啟用 HTTPS，PWA 必須使用 HTTPS。",
                 "no_logo": "您至少需要上傳一個 Logo。",
                 "no_name": "您必須提供全名。",
-                "no_vapid_keys": "",
+                "no_vapid_keys": "VAPID 密鑰缺失，發送推送通知需要此秘鑰。請在下方重置 VAPID 密鑰。",
                 "key_gen_failed": "推送通知所需的密鑰生成失敗。錯誤信息：{error}",
                 "suggest_gmp": "你的服務器似乎沒有啟用 gmp PHP 擴展。此擴展非必需，但可提高應用性能，建議使用。不過有些共享主機可能不支持安裝。",
                 "success": "未發現潛在問題！"
