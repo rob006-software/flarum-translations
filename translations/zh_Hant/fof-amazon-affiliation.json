@@ -5,14 +5,14 @@
                 "title": {
                     "modal": "Amazon 聯盟設定",
                     "tags": "聯盟標籤",
-                    "tags-mediaembed": ""
+                    "tags-mediaembed": "以下 Amazon 站點目前不支持媒體嵌入，將以普通鏈接形式顯示（且服從上述設置）：CN, BR, MX, AU"
                 },
                 "field": {
                     "keep-existing-tag": "保留原始連結中的聯盟標籤",
-                    "keep-existing-tag-help": "預設替換原始連結中的聯盟標籤為下方定義的標籤",
-                    "help-mediaembed": "",
+                    "keep-existing-tag-help": "預設替換原始連結中的聯盟標籤為下方定義的標籤。",
+                    "help-mediaembed": "當與 fof/formatting 同時使用時，富文本嵌入將刪除任何現有標記",
                     "remove-tag-if-unhandled": "移除未覆蓋的聯盟標籤",
-                    "remove-tag-if-unhandled-help": "預設保留未覆蓋的聯盟標籤",
+                    "remove-tag-if-unhandled-help": "預設保留未覆蓋的聯盟標籤。",
                     "tag": "{name} (amazon.{domain})",
                     "tag-placeholder": "置空則不覆蓋這些連結"
                 }
