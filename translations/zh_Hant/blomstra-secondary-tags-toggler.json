@@ -2,11 +2,11 @@
     "blomstra-secondary-tags-toggler": {
         "admin": {
             "settings": {
-                "only_one_secondary_tag": "",
-                "only_one_secondary_tag_help": ""
+                "only_one_secondary_tag": "一次最多選擇一個次標籤",
+                "only_one_secondary_tag_help": "不影響現存的貼文。添加新的次標簽到一個主題貼文，將刪除該貼文其他的次標簽。"
             },
             "permissions": {
-                "view_toggler": ""
+                "view_toggler": "在主題貼文中使用次標簽切換器"
             }
         }
     }
