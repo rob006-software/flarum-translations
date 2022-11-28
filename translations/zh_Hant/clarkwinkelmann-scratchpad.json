@@ -7,10 +7,10 @@
                 "theme": "CodeMirror 主題（重新載入後生效）",
                 "theme-auto": "自動（默認為淺色主題，深色主題是 darcula）",
                 "indent": "縮進空格數量",
-                "npm-install-command": "",
-                "webpack-command": "",
-                "empty-for-default": "",
-                "validate-live": "",
+                "npm-install-command": "NPM 安裝命令",
+                "webpack-command": "Webpack 命令",
+                "empty-for-default": "留空以使用預設命令",
+                "validate-live": "在保存前對主頁進行請求以驗証 Less 和 PHP",
                 "compile-automatically": "儲存 JS 時自動編譯"
             },
             "controls": {
@@ -36,7 +36,7 @@
             "placeholders": {
                 "untitled": "未命名",
                 "php-comment": "於此註冊 extender",
-                "js-log": "Hello, {frontend}!"
+                "js-log": "您好, {frontend}!"
             },
             "compilation-alert": {
                 "success": "編譯完成！",
