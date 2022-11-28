@@ -2,22 +2,22 @@
     "blomstra-user-filter": {
         "admin": {
             "settings": {
-                "intro": "",
-                "min_length": "",
-                "result_count": ""
+                "intro": "沒有<code>搜索用戶</code>權限的用戶將無法看到搜索框。",
+                "min_length": "最小搜索關鍵詞字符數",
+                "result_count": "最大搜索建議數"
             }
         },
         "forum": {
             "index_page": {
                 "filter_user": {
-                    "accessible_label": "",
-                    "all": "",
-                    "label": "",
-                    "search_label": "",
-                    "no_results": "",
-                    "start_typing": "",
-                    "keep_typing": "",
-                    "remove_filter": ""
+                    "accessible_label": "篩選作者",
+                    "all": "全部",
+                    "label": "篩選作者：{text}",
+                    "search_label": "搜索中…",
+                    "no_results": "未找到任何內容",
+                    "start_typing": "搜索…",
+                    "keep_typing": "請繼續…",
+                    "remove_filter": "清除作者篩選"
                 }
             }
         }
