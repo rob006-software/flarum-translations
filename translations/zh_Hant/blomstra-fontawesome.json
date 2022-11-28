@@ -2,15 +2,15 @@
     "blomstra-fontawesome": {
         "admin": {
             "settings": {
-                "type": "",
-                "kit_url": "",
-                "kit_url_help": "",
+                "type": "Font Awesome 圖庫類型",
+                "kit_url": "Font Awesome Kit URL",
+                "kit_url_help": "確保您的 Kit 類型為「Web Font」，然後將 URL 粘貼到下方。",
                 "test": {
-                    "heading": "",
-                    "desc": "",
-                    "fa5_compat": "",
-                    "fa6_free": "",
-                    "fa6_pro": ""
+                    "heading": "測試圖示",
+                    "desc": "以下圖示用於測試字體是否可以正常使用，如過看到矩形圖示，表示 FontAwesome 圖示無法正常展示。變更設置后，如無效果請刷新頁面。",
+                    "fa5_compat": "FontAwesome 5 相容版",
+                    "fa6_free": "FontAwesome 6 免費版",
+                    "fa6_pro": "FontAwesome 6 專業版"
                 }
             }
         }
