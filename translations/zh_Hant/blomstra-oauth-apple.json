@@ -4,31 +4,31 @@
             "settings": {
                 "providers": {
                     "apple": {
-                        "description": "",
-                        "client_id_label": "",
-                        "key_file_id_label": "",
-                        "keyfile_upload_label": "",
-                        "keyfile_upload_help": "",
+                        "description": "使用Apple帳號註冊您的論壇{link}",
+                        "client_id_label": "服務ID標識",
+                        "key_file_id_label": "金鑰檔案標識",
+                        "keyfile_upload_label": "金鑰檔案",
+                        "keyfile_upload_help": "創建<a>金鑰檔案</a>並在此處上傳",
                         "keyfile_upload": {
-                            "upload_button": "",
-                            "remove_button": ""
+                            "upload_button": "上傳金鑰檔案",
+                            "remove_button": "刪除金鑰檔案"
                         },
-                        "team_id_label": ""
+                        "team_id_label": "團隊ID"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_apple_button": ""
+                "with_apple_button": "使用{provider} 登錄"
             },
             "providers": {
-                "apple": ""
+                "apple": "=> fof-oauth.lib.providers.apple"
             }
         },
         "lib": {
             "providers": {
-                "apple": ""
+                "apple": "Apple"
             }
         }
     }
