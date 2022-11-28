@@ -34,8 +34,8 @@
                 "redirect_tags_text": "開啟後，部落格標籤將重定向至分類目錄頁面。",
                 "default_article_image_label": "默認封面圖",
                 "default_article_image_text": "設置默認使用的文章封面圖。",
-                "add_hero_label": "",
-                "add_hero_text": ""
+                "add_hero_label": "展示歡迎橫幅",
+                "add_hero_text": "允許在部落格頁面展示首頁的歡迎橫幅。"
             }
         },
         "forum": {
@@ -45,9 +45,9 @@
             "recent_posts": "近期文章",
             "categories": "分類目錄",
             "forum_nav": "論壇導航列",
-            "return_to_overview": "返回部落格首頁",
-            "no_more_posts": "沒有更多文章了",
-            "category_empty": "此分類目錄中沒有文章",
+            "return_to_overview": "返回部落格首頁 ",
+            "no_more_posts": "沒有更多文章了。",
+            "category_empty": "此分類目錄中沒有文章。",
             "compose": {
                 "write_article": "寫文章"
             },
@@ -102,20 +102,20 @@
                 "post_without_blog_info": "確定要發布這篇文章嗎？您還沒有輸入部落格摘要或上傳封面圖。"
             },
             "article_settings": {
-                "title": "",
+                "title": "部落格文章設置",
                 "fields": {
                     "summary": {
-                        "title": "",
-                        "placeholder": "",
-                        "helper_text": ""
+                        "title": "摘要",
+                        "placeholder": "請輸入摘要",
+                        "helper_text": "摘要用於 SEO，以及部落格主頁的預覽。"
                     },
                     "image": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "主題圖像",
+                        "helper_text": "最佳分辨率 1200x630"
                     },
                     "highlight": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "頭條貼文",
+                        "helper_text": "使用大尺寸圖片展示本文章。"
                     }
                 }
             }
