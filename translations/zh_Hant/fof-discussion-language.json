@@ -19,17 +19,17 @@
         "admin": {
             "settings": {
                 "native_label": "使用原生語言名稱",
-                "show_flag_label": "",
-                "composer_default_label": "",
-                "locale_sort_label": "",
-                "show_any_lang_opt_label": "",
-                "tags_page_discussion_locale_label": "",
+                "show_flag_label": "在國旗後顯示語言名稱",
+                "composer_default_label": "在文本編輯器中預選當前語言",
+                "locale_sort_label": "將用戶語言環境設為默認篩選",
+                "show_any_lang_opt_label": "顯示篩選按鈕「所有語言」",
+                "tags_page_discussion_locale_label": "標簽頁只顯示用戶語言的主題帖",
                 "errors": {
-                    "missing_assets": ""
+                    "missing_assets": "無法載入此擴展的資源。請運行 <code>php flarum assets:publish</code> 嘗試修覆此問題。"
                 },
                 "config": {
-                    "language_label": "",
-                    "country_label": ""
+                    "language_label": "語言",
+                    "country_label": "國家（用於展示國旗）"
                 }
             },
             "permissions": {
