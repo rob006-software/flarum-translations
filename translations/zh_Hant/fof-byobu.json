@@ -20,17 +20,17 @@
                 "title_placeholder": "私密貼文標題"
             },
             "confirm": {
-                "make_public": "這將把私密貼文公開給所有人，請在繼續前謹慎考慮這個動作是否正確。"
+                "make_public": "這將把私密貼文公開給所有人，請在繼續前謹慎考慮這個動作是否正確？"
             },
             "labels": {
-                "recipients": "僅 {count} 人可見"
+                "recipients": "{count, plural, one {{count}} other {{count}}}人可見"
             },
             "nav": {
                 "start_button": "新增私密貼文",
                 "nav_item": "私密貼文"
             },
             "input": {
-                "search_recipients": "輸入 ID 前三個字符進行搜尋"
+                "search_recipients": "輸入 ID 前三個字符進行搜尋…"
             },
             "search": {
                 "headings": {
@@ -55,11 +55,11 @@
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "{username} 新增「{added}」並移除「{removed}」",
-                    "added": "{username} 新增「{added}」",
+                    "added_and_removed": "{username} 新增「{added}」並移除「{removed}」。",
+                    "added": "{username} 新增「{added}」。",
                     "made_public": "{username} 將主題公開",
-                    "removed": "{username} 移除「{removed}」",
-                    "removed_self": "{username} 離開私密貼文"
+                    "removed": "{username} 移除「{removed}」。",
+                    "removed_self": "{username} 離開私密貼文。"
                 }
             },
             "user": {
