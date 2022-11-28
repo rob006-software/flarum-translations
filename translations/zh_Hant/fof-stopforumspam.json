@@ -2,24 +2,24 @@
     "fof-stopforumspam": {
         "admin": {
             "settings": {
-                "introduction": "",
+                "introduction": "根據 <a>StopForumSpam</a> 數據庫檢查新用戶。如果<code>寬容度</code>超標或 <code>信譽分</code>不達標，則該用戶無法完成注冊。\n\n支持 <code>fof/oauth</code> 和 <code>fof/passport</code> 的 SSO 擴展程序。其他的 SSO 提供程序應該也支持，但尚未測試過。\n",
                 "username_label": "使用者名稱檢查",
                 "ip_label": "IP 地址檢查",
                 "email_label": "郵箱地址檢查",
                 "frequency_label": "定限",
-                "frequency_help": "",
+                "frequency_help": "Spam 報告數量上限值。\n在數據庫中查詢用戶注冊時使用的郵箱、IP 和用戶名，並統計相關的舉報次數，大於等於上限時，禁止該用戶注冊。\n",
                 "api_key_label": "API 密鑰",
                 "api_key_text": "你必須啟用 fof/spamblock，你現在可以向 StopForumSpam 回報垃圾蟲以協助社區免遭垃圾攻擊。",
                 "api_key_instructions_text": "<register>註冊 StopForumSpam</register>，然後你可以<key>申請 API 密鑰</key>。",
-                "regional_endpoint_label": "",
-                "regional_endpoint_help": "",
-                "region_closest_label": "",
-                "region_europe_label": "",
-                "region_us_label": "",
-                "confidence_label": "",
-                "confidence_help": "",
-                "email_hash_label": "",
-                "email_hash_help": ""
+                "regional_endpoint_label": "查詢服務器",
+                "regional_endpoint_help": "默認向最近的服務器發起查詢，以提供最快的響應速度。如果因相關的隱私規定，你可以將請求強制發往特定地區的查詢服務器。",
+                "region_closest_label": "最近",
+                "region_europe_label": "歐洲",
+                "region_us_label": "美國",
+                "confidence_label": "風險分數",
+                "confidence_help": "風險分用於評價用戶自身的風險程度。此處填寫百分比值，如果用戶的檢查報告顯示其風險分等於或高於設置的值，注冊將無法完成。特別需要說明的是，風險分檢查不受寬容度影響。",
+                "email_hash_label": "使用散列郵箱地址",
+                "email_hash_help": "發送郵箱地址的 MD5 哈希值以隱藏真實地址。此方法免疫所有黑名單、規範化和混淆檢查。"
             }
         },
         "forum": {
