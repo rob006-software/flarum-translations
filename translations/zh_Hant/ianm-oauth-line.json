@@ -4,24 +4,24 @@
             "settings": {
                 "providers": {
                     "line": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "使用 LINE Developers Console 註冊您的論壇 {link}",
+                        "client_id_label": "Channel ID",
+                        "client_secret_label": "Channel secret"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_line_button": ""
+                "with_line_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "line": ""
+                "line": "=> fof-oauth.lib.providers.line"
             }
         },
         "lib": {
             "providers": {
-                "line": ""
+                "line": "LINE"
             }
         }
     }
