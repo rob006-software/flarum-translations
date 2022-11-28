@@ -10,16 +10,16 @@
                 "idp_metadata": "身分識別提供者資料檔案 XML（替代 URL）",
                 "only_option": "使用 SAML2 SSO 作為唯一登入選項？",
                 "nameid_format": "NameID 格式",
-                "slo": "",
-                "authn_requests_signed": "",
-                "logout_request_signed": "",
-                "logout_response_signed": "",
-                "sign_metadata": "",
-                "want_assertions_encrypted": "",
-                "want_assertions_signed": "",
-                "want_messages_signed": "",
-                "x509_cert": "",
-                "x509_key": ""
+                "slo": "啟用 SLO？如果 IDP 不支持則沒有效果。",
+                "authn_requests_signed": "簽名請求？",
+                "logout_request_signed": "簽名注銷請求？",
+                "logout_response_signed": "簽名注銷響應？",
+                "sign_metadata": "簽名元數據？",
+                "want_assertions_encrypted": "加密 Assertions?",
+                "want_assertions_signed": "Want Assertions Signed?",
+                "want_messages_signed": "Want Messages Signed?",
+                "x509_cert": "x509 証書（用於簽名）",
+                "x509_key": "x509密鑰（用於簽名）"
             },
             "options": {
                 "nameid_format": {
@@ -36,7 +36,7 @@
                 "enable_popups": "啟用登入/註冊跳出式對話方塊"
             },
             "sign_up": {
-                "post_saml_title": "最後一步"
+                "post_saml_title": "最後一步…"
             }
         }
     }
