@@ -3,31 +3,31 @@
         "admin": {
             "permissions": {
                 "manage_own_discussion_reply_templates": "管理標簽底下主題貼的回覆模板",
-                "manage_all_reply_templates": ""
+                "manage_all_reply_templates": "管理所有主題帖的回覆模板"
             },
             "settings": {
-                "no_tag_template": "",
-                "append_template_on_tag_change": "",
-                "append_template_on_tag_change_help": ""
+                "no_tag_template": "默認模板（適用於無自定義模板的標簽）：",
+                "append_template_on_tag_change": "標簽變更後重載模板？",
+                "append_template_on_tag_change_help": "當用戶已撰寫內容的情況下，標簽發生了變更，此時是否重新載入模板？不論此項開啟與否，在未撰寫內容的情況下，標簽變更都會重新載入模板。"
             },
             "tags": {
-                "tag_template_heading": "",
-                "tag_template_text": "",
-                "tag_template_button": ""
+                "tag_template_heading": "新主題模板",
+                "tag_template_text": "編輯在此標簽下創建新主題時的默認模板。",
+                "tag_template_button": "編輯模板"
             },
             "tag_template_modal": {
-                "title": "",
-                "customize_text": "",
-                "submit_button": ""
+                "title": "新主題模板",
+                "customize_text": "編輯在此標簽下創建新主題時的默認模板。",
+                "submit_button": "保存模板"
             }
         },
         "forum": {
             "discussion_controls": {
-                "reply_template_button": ""
+                "reply_template_button": "編輯回覆模板"
             },
             "reply_template": {
-                "title": "",
-                "submit_button": ""
+                "title": "編輯回覆模板",
+                "submit_button": "保存回覆模板"
             }
         }
     }
