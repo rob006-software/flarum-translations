@@ -3,7 +3,7 @@
         "forum": {
             "index_sort": {
                 "hot_button": "趨勢",
-                "votes_button": ""
+                "votes_button": "讚成數"
             }
         }
     },
@@ -23,15 +23,15 @@
                 "upvote": "{username} 讚了您的帖文",
                 "downvote": "{username} 踩了您的帖文",
                 "prefrences": {
-                    "vote": ""
+                    "vote": "有人讚成或反對我"
                 }
             },
             "user": {
                 "card": {
-                    "points": ""
+                    "points": "{count, plural, one {{count} 👍} other {{count} 👍}}"
                 },
                 "rank": "{rank}",
-                "votes_link": ""
+                "votes_link": "投票"
             },
             "modal": {
                 "downvotes_label": "踩",
@@ -40,23 +40,23 @@
             },
             "mod_item": "查看點讚的人",
             "voters": {
-                "none": "",
-                "label": "",
-                "label_none": ""
+                "none": "暫無投票",
+                "label": "投票詳情",
+                "label_none": "暫無投票"
             },
             "post": {
-                "upvote_button": "",
-                "downvote_button": ""
+                "upvote_button": "讚成",
+                "downvote_button": "反對"
             }
         },
         "admin": {
             "permissions": {
                 "vote_label": "讚/踩帖文",
                 "see_votes_label": "查看帖文讚/踩",
-                "see_voters_label": "",
+                "see_voters_label": "查看投票詳情",
                 "see_ranking_page": "查看等級頁面",
-                "upvote_notifications": "",
-                "downvote_notifications": ""
+                "upvote_notifications": "接收讚成票通知",
+                "downvote_notifications": "接收反對票通知"
             },
             "page": {
                 "rankings": {
@@ -72,7 +72,7 @@
                     "custom_image_3": "季軍圖片"
                 },
                 "alt_votes": {
-                    "icon_name": ""
+                    "icon_name": "Reddit 佈局圖示名稱"
                 },
                 "votes": {
                     "points_title": "佔位符",
@@ -82,14 +82,14 @@
                     "rate_limit": "點讚頻率限制（10 秒）",
                     "discussion_page": "在貼文列表中顯示點讚數",
                     "alternate_layout": "使用仿 Reddit 投票佈局",
-                    "alternate_post_layout": "",
+                    "alternate_post_layout": "使用仿 Reddit 投票佈局（文章頁面）",
                     "title": "讚",
                     "vote_color": "點讚貼顏色",
                     "icon_name": "讚/踩小圖示",
                     "icon_help": "輸入任何 Font-Awesome 圖標，後綴為 -up 和 -down。 示例：箭頭，拇指，人字紋",
-                    "upvotes_only": "",
-                    "first_post_only": "",
-                    "allow_self_votes": ""
+                    "upvotes_only": "禁用反對",
+                    "first_post_only": "僅首帖開放投票功能",
+                    "allow_self_votes": "允許用戶投票自己的帖子"
                 },
                 "save_settings": "儲存設定",
                 "convert": {
@@ -110,24 +110,24 @@
                     }
                 },
                 "groups": {
-                    "title": "",
-                    "help": "",
+                    "title": "自動分配用戶組",
+                    "help": "當用戶的點數發生變化時，將自動添加或刪除組。修改設置後，請運行 <code>php flarum fof:gamification:assign-groups</code> 命令更新現有用戶。如果您希望刪除規則並從組中刪除所有用戶，請將最低最高點數均設為空，保存設置並執行命令後，在設置中刪除規則。\n",
                     "column": {
-                        "group": "",
-                        "minPoints": "",
-                        "maxPoints": ""
+                        "group": "用戶組",
+                        "minPoints": "最低點數(含)",
+                        "maxPoints": "最高點數(含)"
                     },
-                    "add": "",
-                    "delete": ""
+                    "add": "添加規則",
+                    "delete": "刪除規則"
                 }
             }
         },
         "email": {
             "body": {
-                "postVoted": ""
+                "postVoted": "{recipient_display_name} 你好！\n\n{actor_display_name} 剛剛投票了你的主題「{discussion_title}」。\n\n查看詳情：{discussion_url}\n"
             },
             "subject": {
-                "postVoted": ""
+                "postVoted": "{display_name} 投票了你的帖子"
             }
         }
     }
