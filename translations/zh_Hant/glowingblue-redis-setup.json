@@ -2,11 +2,11 @@
     "glowingblue-redis-setup": {
         "admin": {
             "settings": {
-                "enable_cache": "",
-                "enable_redis_sessions": "",
-                "enable_queue": "",
-                "horizon_config": "",
-                "horizon_help_text": ""
+                "enable_cache": "啟用 Redis 快取",
+                "enable_redis_sessions": "開啟 Redis 工作階段（變更此設定後，所有使用者都將登出）",
+                "enable_queue": "啟用 Redis 消息駐列",
+                "horizon_config": "Horizon 配置（JSON 格式）。",
+                "horizon_help_text": "最終轉換為<code>(new \\Blomstra\\Horizon\\Extend\\Horizon)->config(...))</code>"
             }
         }
     }
