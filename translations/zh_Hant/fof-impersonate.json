@@ -5,18 +5,18 @@
                 "login": "以其他身分登入"
             },
             "settings": {
-                "title": "",
-                "require_reason": "",
-                "no_settings_available": ""
+                "title": "FoF 身份模擬",
+                "require_reason": "要求在登錄他人賬戶前輸入理由",
+                "no_settings_available": "當前沒有更多選項可用。請嘗試安裝擴展 fof/moderator-notes"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "title": "登錄到他人帳戶",
+                "label": "能力越大，責任越大。繼續操作，您將使用「{username}」的身份直到退出登錄。",
+                "placeholder_optional": "（可選）提供切換身份的理由",
+                "placeholder_required": "在繼續之前，您必須提供切換到該用戶的理由",
+                "impersonate_username": "以 {username} 身份登錄"
             },
             "user_controls": {
                 "impersonate_button": "偽裝身分"
