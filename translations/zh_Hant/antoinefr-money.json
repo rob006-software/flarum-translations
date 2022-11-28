@@ -8,15 +8,15 @@
                 "moneyname": "貨幣名稱（例如： [money] 元）",
                 "postminimumlength": "可獲取獎勵的最小貼文長度（0 表示不限制）",
                 "noshowzero": "若值為 0 則不顯示",
-                "moneyforlike": "",
-                "helpextensionlikes": ""
+                "moneyforlike": "獲得點讚時獎勵資產",
+                "helpextensionlikes": "需要 <code>flarum/likes</code> 擴展程序"
             },
             "permissions": {
                 "edit_money_label": "修改資產"
             },
             "automoderator": {
-                "metric_name": "",
-                "action_name": ""
+                "metric_name": "資產",
+                "action_name": "獎勵資產"
             }
         },
         "forum": {
