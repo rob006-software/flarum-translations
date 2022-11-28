@@ -2,8 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "",
-                "unpopular_button": ""
+                "popular_button": "最多翻閱",
+                "unpopular_button": "最少翻閱"
             }
         }
     },
@@ -12,20 +12,20 @@
             "modal_resetviews": {
                 "title": "重置主題瀏覽量",
                 "submit_button": "確定清除",
-                "label": "這將會清除這個主題的 {count} 瀏覽量，確定要繼續嗎？ |這將會清除這個主題的 {count} 瀏覽量，確定要繼續嗎？"
+                "label": "這將清除這個主題的 {count, plural, one {{count}} other {{count}}} 瀏覽量，確定繼續嗎？"
             },
             "discussion_controls": {
                 "resetviews_button": "重置瀏覽量"
             },
             "viewlist": {
                 "title": "最近瀏覽的人",
-                "guest": ""
+                "guest": "訪客"
             },
             "post": {
-                "viewed_by": "",
-                "you": "",
-                "others_link": "",
-                "modal_title_text": ""
+                "viewed_by": "{users} 看過。",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "足跡"
             }
         },
         "admin": {
@@ -36,13 +36,13 @@
             "settings": {
                 "title": "主題瀏覽量設置",
                 "track_unique_label": "僅追踪 UV（獨立訪客）",
-                "track_guests": "",
+                "track_guests": "記錄未登錄訪客",
                 "abbr_numbers_label": "縮寫瀏覽量",
                 "show_filter_label": "添加「最多人看/最少人看」排序選項",
                 "max_viewcount_label": "「最近瀏覽的人」列表最多展示人數",
-                "max_viewcount_text": "",
+                "max_viewcount_text": "側邊欄和頁腳足跡列表的展示數量上限",
                 "show_viewlist_label": "在主題頁面展示「最近瀏覽的人」列表",
-                "show_footer_viewlist_label": ""
+                "show_footer_viewlist_label": "在貼文頁腳展示「足跡」"
             }
         }
     }
