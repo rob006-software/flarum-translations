@@ -13,9 +13,9 @@
                 "copy-original": "拷貝原文",
                 "load-more": "載入更多",
                 "delete-redundant": "刪除冗餘的翻譯",
-                "delete-redundant-confirm": "這將會刪除 {count} 條原始值與自定義值相同的翻譯。這對語言包更新後產生的冗餘內容具有不錯的清理效果。",
+                "delete-redundant-confirm": "這將會刪除 {count} 條原始值與自定義值相同的翻譯。這對語言包更新後產生的冗餘內容具有不錯的清理效果。\n",
                 "delete-all": "刪除所有翻譯",
-                "delete-all-confirm": "這將會刪除所有 {count} 條自定義翻譯。為了防止你後悔，請在導出或備份所有翻譯後再執行此操作。"
+                "delete-all-confirm": "這將會刪除所有 {count} 條自定義翻譯。為了防止你後悔，請在導出或備份所有翻譯後再執行此操作。\n"
             },
             "locales": {
                 "all": "全部"
@@ -69,7 +69,7 @@
                     "all-frontends": "展開所有前端項"
                 },
                 "count": {
-                    "percent": " {percent} %",
+                    "percent": "{percent} %",
                     "total": "{translated} / {total}",
                     "details": "總計 {total} / 原始 {original} / 自定義 {custom}"
                 },
@@ -78,7 +78,7 @@
             },
             "export": {
                 "title": "導出",
-                "warning": "導出的翻譯格式是 Flarum 使用的 Yaml 文件，此功能旨在論壇之間或與語言包維護者共享翻譯。該格式不是為了將所有翻譯移到新的論壇上而設計的。根據您的使用情況，直接複製數據庫可能是一個更好的辦法。",
+                "warning": "導出的翻譯格式是 Flarum 使用的 Yaml 文件，此功能旨在論壇之間或與語言包維護者共享翻譯。該格式不是為了將所有翻譯移到新的論壇上而設計的。根據您的使用情況，直接複製數據庫可能是一個更好的辦法。\n",
                 "locale": "語言",
                 "locale-all": "偽語言「全部」",
                 "namespace": "命名空間",
