@@ -2,7 +2,7 @@
     "fof-oauth": {
         "admin": {
             "configure_button_label": "配置 FoF OAuth",
-            "settings_accessibility_label": "",
+            "settings_accessibility_label": "{name} 設置",
             "settings": {
                 "only_icons_label": "僅顯示登錄按鈕圖標（可選佈置）",
                 "providers": {
@@ -60,13 +60,13 @@
             "user": {
                 "settings": {
                     "linked-account": {
-                        "label": "",
-                        "last-used-label": "",
-                        "link-created-label": "",
-                        "orphaned-account": "",
-                        "help": "",
-                        "identifier-label": "",
-                        "unlink-confirm": ""
+                        "label": "第三方登錄",
+                        "last-used-label": "上次使用",
+                        "link-created-label": "已綁定",
+                        "orphaned-account": "您以前已通過此賬號登錄，但是目前論壇已關閉此登錄方式。",
+                        "help": "綁定第三方帳戶，啟用登錄捷徑。",
+                        "identifier-label": "{provider} ID",
+                        "unlink-confirm": "確定要解除綁定 {provider} 賬號嗎？您將無法使用此賬號登錄。"
                     }
                 }
             },
@@ -82,7 +82,7 @@
             "signup": {
                 "username_help": "請選擇一個會員名稱"
             },
-            "unlink": "",
+            "unlink": "解除綁定",
             "error": {
                 "bad_verification_code": "無效或過期的驗證令牌，請重試。",
                 "invalid_state": "無效狀態，請重試。"
