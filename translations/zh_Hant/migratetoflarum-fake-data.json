@@ -2,20 +2,20 @@
     "migratetoflarum-fake-data": {
         "lib": {
             "generator": {
-                "bulk-mode": "",
-                "bulk-mode-description": "",
-                "user-count": "",
-                "discussion-count": "",
-                "discussion-tags": "",
-                "discussion-tags-none": "",
-                "discussion-tags-random": "",
-                "post-count": "",
-                "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
-                "send": "",
-                "reset": "",
-                "refresh": ""
+                "bulk-mode": "複用",
+                "bulk-mode-description": "隨機生成單條數據，並應用於全部條目",
+                "user-count": "用戶生成數量",
+                "discussion-count": "主題生成數量",
+                "discussion-tags": "主題標籤",
+                "discussion-tags-none": "無",
+                "discussion-tags-random": "隨機",
+                "post-count": "回文生成數量",
+                "date": "種子日期",
+                "date-start-placeholder": "起始日期(默認當天)",
+                "date-interval-placeholder": "間隔(預設1秒)",
+                "send": "生成數據",
+                "reset": "成生成功！點擊重置",
+                "refresh": "完成並刷新頁面"
             }
         },
         "forum": {
