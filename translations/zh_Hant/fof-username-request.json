@@ -11,21 +11,21 @@
             "nickname_modals": {
                 "action": {
                     "title": "=> fof-username-request.ref.nickname_change_request",
-                    "help_text": "確認暱稱遵循論壇規則",
+                    "help_text": "確認暱稱遵循論壇規則。",
                     "decision_title": "決定",
                     "approval_label": "同意",
                     "rejected_label": "拒絕",
                     "submit_button": "提交",
                     "reason_title": "拒絕原因",
-                    "success": "決定已送出",
+                    "success": "決定已送出。",
                     "name": "{name} 申請變更暱稱為「{requestedName}」"
                 },
                 "results": {
                     "title": "暱稱申請變更",
-                    "approved": "您的變更暱稱申請已通過！",
+                    "approved": "您的變更暱稱申請已通過",
                     "dismiss_button": "=> core.ref.okay",
                     "new_name": "您的暱稱已成功改為：{name}",
-                    "rejected": "您的變更暱稱申請已遭拒。",
+                    "rejected": "您的暱稱變更申請已被拒絕",
                     "reason": "拒絕原因：<i>「{reason}」</i>.",
                     "resubmit": "您可以重新提交一個新的暱稱變更申請。"
                 },
@@ -36,27 +36,27 @@
                     "delete_button": "刪除請求",
                     "confirmation_message": "您的變更暱稱申請已收到並將在稍後進行審核。",
                     "dismiss_button": "=> core.ref.okay",
-                    "deleted": "申請已刪除"
+                    "deleted": "申請已刪除。"
                 }
             },
             "username_modals": {
                 "action": {
                     "title": "=> fof-username-request.ref.username_change_request",
-                    "help_text": "確認用戶名遵循論壇規則",
+                    "help_text": "確認用戶名遵循論壇規則。",
                     "decision_title": "決定",
                     "approval_label": "同意",
                     "rejected_label": "拒絕",
                     "submit_button": "提交",
                     "reason_title": "拒絕原因",
-                    "success": "決定已送出",
+                    "success": "決定已送出。",
                     "name": "{name} 申請變更用戶名為「{requestedName}」"
                 },
                 "results": {
                     "title": "申請變更用戶名",
-                    "approved": "您的變更用戶名的申請已通過！",
+                    "approved": "您的變更用戶名的申請已通過",
                     "dismiss_button": "=> core.ref.okay",
                     "new_name": "您的用戶名已變更為：{name}",
-                    "rejected": "您的變更用戶名申請已遭拒。",
+                    "rejected": "您的變更用戶名申請已被拒絕",
                     "reason": "拒絕原因：<i>「{reason}」</i>.",
                     "resubmit": "您可以重新提交一個新的用戶名申請。"
                 },
