@@ -2,55 +2,55 @@
     "fof-doorman": {
         "forum": {
             "email": {
-                "subject": "",
-                "body": ""
+                "subject": "邀請加入",
+                "body": "您好，\n\n您被邀請注冊 {forum}。\n\n當您準備好創建帳戶時，只需點擊下方鏈接並在注冊時輸入邀請碼即可。\n\n網址：{url}\n邀請碼：{code}\n\n如果您錯誤地收到了這封郵件，請忽略郵件內容。\n"
             },
             "sign_up": {
-                "invalid_doorkey": "",
-                "doorkey_required": "",
-                "doorman_placeholder": "",
-                "doorman_placeholder_optional": ""
+                "invalid_doorkey": "邀請碼無效。",
+                "doorkey_required": "請輸入邀請碼。",
+                "doorman_placeholder": "邀請碼",
+                "doorman_placeholder_optional": "邀請碼(可選)"
             }
         },
         "admin": {
             "modal": {
-                "title": "",
-                "group": "",
-                "help": "",
-                "placeholder": "",
-                "invalid_emails": "",
-                "max_use_conflict": "",
-                "send": "",
-                "success": ""
+                "title": "發送邀請碼",
+                "group": "發送 {group} 用戶組邀請",
+                "help": "列表內容可用半形逗號、空格或逗號+空格分隔。輸入單個電子郵件地址或粘貼列表，然後按空格鍵完成添加。",
+                "placeholder": "在此輸入郵件地址",
+                "invalid_emails": "無效郵件地址：{emails}",
+                "max_use_conflict": "郵件數量超出邀請碼的最大使用次數。",
+                "send": "發送郵件",
+                "success": "郵件發送成功"
             },
-            "invalid_doorkey": "",
-            "doorkey_required": "",
+            "invalid_doorkey": "邀請碼無效。",
+            "doorkey_required": "您必須輸入邀請碼",
             "nav": {
-                "desc": ""
+                "desc": "創建注冊邀請碼並自動分配用戶組"
             },
             "page": {
-                "title": "",
+                "title": "看門人",
                 "doorkey": {
-                    "used_times": "",
-                    "title": "",
+                    "used_times": "{remaining, plural, one {剩餘{remaining} 次} other {剩餘 {remaining} 次}}",
+                    "title": "邀請碼",
                     "help": {
-                        "key": "",
-                        "group": "",
-                        "max": "",
-                        "activates": ""
+                        "key": "邀請碼：用戶在注冊時輸入的邀請碼。",
+                        "group": "用戶組：用戶在注冊後自動分配的用戶組。",
+                        "max": "最大可用次數：一個邀請碼最多可以被使用幾次，0 表示不限制",
+                        "activates": "自動激活：通過邀請碼注冊後，自動激活用戶賬號。"
                     },
-                    "warning": "",
-                    "key": "",
-                    "max_uses": "",
+                    "warning": "此邀請碼已達最大可用次數。",
+                    "key": "邀請碼",
+                    "max_uses": "最大可用次數",
                     "heading": {
-                        "key": "",
-                        "group": "",
-                        "activate": "",
-                        "max_uses": ""
+                        "key": "邀請碼",
+                        "group": "用戶組",
+                        "activate": "自動激活",
+                        "max_uses": "最大可用次數"
                     },
                     "allow-public": {
-                        "title": "",
-                        "switch-label": ""
+                        "title": "允許公開注冊",
+                        "switch-label": "設置邀請碼為可選項"
                     }
                 }
             }
