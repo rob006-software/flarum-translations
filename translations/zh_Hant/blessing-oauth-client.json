@@ -4,17 +4,17 @@
             "popup": {
                 "title": "Blessing Skin 帳號登錄",
                 "field": {
-                    "base-url": "",
-                    "app-id": "",
-                    "app-secret": "",
-                    "button-title": "",
-                    "button-title-placeholder": "",
-                    "button-icon": ""
+                    "base-url": "Blessing Skin 根 URL",
+                    "app-id": "OAuth 客戶端 ID",
+                    "app-secret": "OAuth 客戶端 Secret",
+                    "button-title": "登錄按鈕標籤",
+                    "button-title-placeholder": "=> blessing-oauth-client.api.default-login-button-title",
+                    "button-icon": "登錄按鈕圖示"
                 }
             }
         },
         "api": {
-            "default-login-button-title": ""
+            "default-login-button-title": "Blessing Skin 帳號登錄"
         }
     }
 }
