@@ -3,28 +3,28 @@
         "admin": {
             "settings": {
                 "excerpt-length": {
-                    "label": "",
-                    "help": ""
+                    "label": "摘要字元長度上限",
+                    "help": "要展示的帖子摘要字元數量。"
                 },
                 "rich-excerpts": {
-                    "label": "",
-                    "help": ""
+                    "label": "展示富文本摘要",
+                    "help": "啟用后，摘要中可包含圖片和嵌入式媒體等非本文內容。"
                 },
                 "excerpt-type": {
-                    "label": "",
-                    "help": ""
+                    "label": "摘要內容來源",
+                    "help": "選擇首貼或最新回復作為摘要。"
                 },
-                "first-label": "",
-                "last-label": "",
-                "tags-enabled": ""
+                "first-label": "首貼",
+                "last-label": "最新回覆",
+                "tags-enabled": "<code>flarum/tags</code> 已啟用。 所有設置將作為預設設置，您也可以針對特定標籤獨立配置摘要。"
             }
         },
         "forum": {
             "user": {
                 "settings": {
-                    "summaries-heading": "",
-                    "show-summaries": "",
-                    "show-summaries-mobile": ""
+                    "summaries-heading": "摘要",
+                    "show-summaries": "在所有主題清單中顯示每個主題帖的摘要（電腦/平板）",
+                    "show-summaries-mobile": "在所有主題清單中顯示每個主題帖的摘要（手機）"
                 }
             }
         }
