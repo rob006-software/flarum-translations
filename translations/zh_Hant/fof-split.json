@@ -8,7 +8,7 @@
         "forum": {
             "post": {
                 "was_split_to": "{count, plural, one {{count} 條回復被拆分至「{target}」。} other {{count} 條回復被拆分至「{target}」。}}",
-                "was_split_from": "{count} 個回覆拆分至 {target}"
+                "was_split_from": "{count, plural, one {從「{target}」拆分來 {count} 條回覆。} other {從「{target}」拆分來 {count} 條回覆。}}"
             },
             "split": {
                 "from": "於此處開始拆分",
