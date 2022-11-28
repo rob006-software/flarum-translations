@@ -5,26 +5,26 @@
                 "defaults_label": "預設啟用設定「{setting}」",
                 "forced_label": "強制對全部會員啟用「{setting}」",
                 "notify_discussion_created_label": "有新貼文",
-                "notify_post_created_label": "",
+                "notify_post_created_label": "有人貼文或回覆",
                 "notify_post_unapproved_label": "發佈新貼需要審核",
                 "notify_user_created_label": "有新人加入",
-                "notify_post_flagged_label": ""
+                "notify_post_flagged_label": "有人舉報貼文"
             },
             "notifications": {
                 "discussion_created_text": "{username} 發佈了新貼",
-                "post_created_text": "",
+                "post_created_text": "{username} 發表貼文",
                 "post_unapproved_text": "{username} 發佈了新貼需要審核",
                 "user_created_text": "{username} 剛剛加入了論壇",
-                "post_flagged_text": ""
+                "post_flagged_text": "{username} 舉報貼文"
             }
         },
         "admin": {
             "permission": {
                 "subscribe_to_discussion_created": "允許用戶接收新貼文通知",
-                "subscribe_to_post_created": "",
+                "subscribe_to_post_created": "訂閱全站新貼文或回文通知",
                 "subscribe_to_post_unapproved": "允許用戶接收新貼文審核通知",
                 "subscribe_to_user_created": "允許用戶接收新註冊通知",
-                "subscribe_to_post_flagged": ""
+                "subscribe_to_post_flagged": "訂閱全站舉報通知"
             }
         },
         "email": {
@@ -32,15 +32,15 @@
                 "newDiscussion": "【新主題】{title}",
                 "newUser": "【新用戶】{username}",
                 "postUnapproved": "【審核通知】{username} 發表回復於 {title}",
-                "postCreated": "",
-                "postFlagged": ""
+                "postCreated": "[Subscribed | New Post] {username} 發表新貼文於「{title}」",
+                "postFlagged": "[Subscribed | New Flag] {username} 舉報貼文於「{title}」"
             },
             "body": {
-                "newDiscussion": "{recipient_display_name}，你好！\n\n{actor_display_name} 發布了一個主題：{discussion_title}\n\n點擊下方鏈接查看主題帖：\n{discussion_url}\n\n---\n\n{post_content}",
-                "newUser": "{recipient_display_name}，你好！\n\n{actor_display_name} 剛剛加入 {forum_url}。\n\n點擊下方鏈接查看用戶資料：\n{user_url}",
-                "postUnapproved": "{recipient_display_name}，你好！\n\n{actor_display_name} 發表於 {discussion_title} 的回覆需要人工審核。\n\n點擊下方鏈接查看回覆內容：\n{post_url}\n\n---\n\n{post_content}",
-                "postCreated": "",
-                "postFlagged": ""
+                "newDiscussion": "{recipient_display_name}，你好！\n\n{actor_display_name} 發布了一個主題：{discussion_title}\n\n點擊下方鏈接查看主題帖：\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "{recipient_display_name}，你好！\n\n{actor_display_name} 剛剛加入 {forum_url}。\n\n點擊下方連結查看用戶資料：\n{user_url}\n",
+                "postUnapproved": "{recipient_display_name}，你好！\n\n{actor_display_name} 發表於 {discussion_title} 的回覆需要人工審核。\n\n點擊下方連結查看回覆內容：\n{post_url}\n\n---\n\n{post_content}\n",
+                "postCreated": "{recipient_display_name}，你好！\n\n{actor_display_name} 剛剛發表了新貼文於「{discussion_title}」。\n\n點擊下方連結查看詳細內容：\n{post_url}\n\n---\n\n{post_content}\n",
+                "postFlagged": "{recipient_display_name}，你好！\n\n{actor_display_name} 剛剛舉報了一個貼文在「{discussion_title}」\n\n點擊下方連結查看詳細內容：\n{post_url}\n"
             }
         }
     }
