@@ -2,8 +2,8 @@
     "fof-sitemap": {
         "admin": {
             "settings": {
-                "exclude_users": "",
-                "exclude_users_help": "",
+                "exclude_users": "Sitemap 去除所有用戶頁面",
+                "exclude_users_help": "默認情況下，任何訪客可見的用戶都將被索引",
                 "mode_label": "運行模式",
                 "mode_help": "根據您的論壇規模選擇正確的模式極為重要。",
                 "mode_help_runtime_label": "運行時模式",
@@ -11,12 +11,12 @@
                 "mode_help_schedule": "以下模式會將相應的計劃任務添加到 Flarum 調度器。",
                 "mode_help_schedule_setup": "如果沒有正確設置 Flarum Scheduler，以下模式將無法運行。 <a>點擊這裡</a>了解更多信息。",
                 "mode_help_large": "技術限制，一個站點地圖文件最多含有 5 萬條鏈接。如果您有更多條目存儲的需求，請使用以下選項！",
-                "mode_help_multi_label": "Multi-file Mode",
+                "mode_help_multi_label": "多文件模式",
                 "mode_help_multi": "適用於大型論壇，最低有 5 萬條目。生成的多個壓縮站點地圖文件將會存儲在 /public 文件夾中",
                 "advanced_options_label": "高級選項",
                 "frequency_label": "Scheduler 多久重構一次緩存或磁盤站點地圖？",
-                "risky_performance_improvements": "",
-                "risky_performance_improvements_help": "",
+                "risky_performance_improvements": "改善性能(風險)",
+                "risky_performance_improvements_help": "改善定時任務在數據量達到百萬行時的運行速度，可能不兼容某些擴展程序。",
                 "modes": {
                     "runtime": "運行時",
                     "multi_file": "多文件"
