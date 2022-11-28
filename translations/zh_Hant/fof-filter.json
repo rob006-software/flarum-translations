@@ -6,13 +6,13 @@
         },
         "admin": {
             "title": "過濾器",
-            "bad_words_help": "",
+            "bad_words_help": "請輸入要過濾的敏感詞，一行一個。當用戶發表的帖子內容包含敏感詞時，自動送入審核列表。",
             "help2": "同一使用者在同一貼文中 n 分鐘內的貼文將會被自動合併。",
             "email_help": "被舉報的郵件正文，接受 HTML 或純文字。",
             "filter_label": "要過濾的字串",
             "countLabel": "敏感度",
             "cooldownLabel": "冷卻時間",
-            "auto_merge_title": "",
+            "auto_merge_title": "自動合併",
             "input": {
                 "placeholder": "要過濾的字串",
                 "filter_title": "要過濾的字串",
@@ -29,7 +29,7 @@
                 "desc": "依照關鍵字過濾貼文"
             },
             "permission": {
-                "bypass_filter_label": ""
+                "bypass_filter_label": "無視過濾器"
             },
             "email": {
                 "default_subject": "您最新發佈的貼文已被移除",
