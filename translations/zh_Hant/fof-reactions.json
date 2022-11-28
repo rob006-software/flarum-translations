@@ -1,7 +1,7 @@
 {
     "fof-reactions": {
         "forum": {
-            "disabled-reaction": "您暫時不能戳心情，請刷新後重試。",
+            "disabled-reaction": "您暫時不能表達心情，請刷新後重試。",
             "warning": "你的回應將被覆蓋",
             "notification": "{username} 使用{reaction}回應了你的帖文",
             "settings": {
@@ -12,7 +12,7 @@
                 "title": "心情"
             },
             "mod_item": "查看心情",
-            "react_button_label": ""
+            "react_button_label": "表達心情"
         },
         "admin": {
             "permissions": {
@@ -23,7 +23,7 @@
                 "reactions": {
                     "title": "自定義回應",
                     "reactions": "現有回應",
-                    "Helptext": "鍵入 emoji 或 font-awesome 的名稱并選擇你喜歡的類型",
+                    "Helptext": "鍵入 emoji 或 font-awesome 的名稱並選擇你喜歡的類型。",
                     "help": {
                         "display": "描述",
                         "identifier": "標識"
@@ -36,8 +36,8 @@
                     "converted": "成功轉換全部 {number} 個讚"
                 },
                 "settings": {
-                    "react_own_posts_help": "",
-                    "react_own_posts_label": "",
+                    "react_own_posts_help": "啟用此項，添加一個權限，允許用戶對自己的帖子表達心情。如需禁止，請禁用此項。",
+                    "react_own_posts_label": "允許用戶對自已的貼子表達心情",
                     "save_settings": "儲存設定",
                     "integrations": {
                         "legend": "融合",
