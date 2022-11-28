@@ -2,23 +2,23 @@
     "clarkwinkelmann-clippy": {
         "admin": {
             "settings": {
-                "cdn": "",
+                "cdn": "CDN",
                 "cdn-options": {
-                    "s3": "",
-                    "jsdelivr": "",
-                    "custom": ""
+                    "s3": "Amazon S3",
+                    "jsdelivr": "jsDelivr",
+                    "custom": "自定義"
                 },
-                "path": "",
-                "path-help": "",
-                "agent": "",
-                "agent-help": "",
-                "events": "",
-                "events-help": ""
+                "path": "自定義CDN路徑",
+                "path-help": "結尾無斜線的有效目錄連結，該目錄存放 <a>clippy.js 儲存庫</a>內容。",
+                "agent": "助手",
+                "agent-help": "每個卡通助手都有一套不同的動畫。",
+                "events": "事件",
+                "events-help": "為每個事件設置要執行的動作和對用戶說的話"
             },
             "events": {
-                "name": "",
-                "animation": "",
-                "text": ""
+                "name": "事件",
+                "animation": "動作",
+                "text": "說話"
             }
         }
     }
