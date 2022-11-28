@@ -3,43 +3,43 @@
         "ads": {
             "admin": {
                 "permissions": {
-                    "bypassAds": ""
+                    "bypassAds": "跳過所有廣告"
                 },
                 "settings": {
-                    "admin_bypass_warning": "",
-                    "enabled_locations": "",
-                    "script_urls": "",
-                    "add_script": "",
-                    "script_deletion": "",
-                    "code_input": "",
-                    "code_input_disabled": "",
-                    "js_input": "",
-                    "js_input_disabled": "",
-                    "use_adsense": "",
-                    "pub_id": "",
-                    "between_posts_gap": "",
-                    "allow_after_placeholder": "",
+                    "admin_bypass_warning": "受 Flarum 許可權系統限制，管理員無法看到任何廣告。\n要測試廣告，請打開瀏覽器無痕視窗訪問 Flarum。\n",
+                    "enabled_locations": "啟用廣告單元",
+                    "script_urls": "自定義(多個)腳本連結",
+                    "add_script": "添加",
+                    "script_deletion": "要刪除文稿，請刪除文字框所有內容然後保存。",
+                    "code_input": "HTML 代碼",
+                    "code_input_disabled": "啟用此廣告單元以編輯 HTML 代碼。",
+                    "js_input": "JavaScript 代碼",
+                    "js_input_disabled": "啟用此廣告單元以編輯 HTML 代碼。",
+                    "use_adsense": "使用 AdSense",
+                    "pub_id": "AdSense Publisher ID",
+                    "between_posts_gap": "貼文列表內廣告間隔篇數",
+                    "allow_after_placeholder": "在主題頁文字編輯器下方顯示廣告",
                     "save_btn": {
-                        "dirty": "",
-                        "saving": "",
-                        "saved": "",
-                        "fix_errors": ""
+                        "dirty": "保存",
+                        "saving": "保存中…",
+                        "saved": "所有修改已保存",
+                        "fix_errors": "存檔前修正錯誤"
                     },
                     "alert": {
-                        "fix_errors": "",
-                        "code_has_script": ""
+                        "fix_errors": "請在存檔前修正錯誤",
+                        "code_has_script": "一個或多個廣告單元中含有 script 標籤，請移除後重試。"
                     },
-                    "warning": ""
+                    "warning": "<b>使用指南：</b>\n<br></br>\n<b>HTML</b>- 在此插入廣告 HTML 代碼。請勿插入任何{script}標籤，插入無效。\n<br></br>\n<b>JS</b>- 在此插入廣告 JavaScript 代碼。<b>不含</b>{script}標籤。\n"
                 }
             },
             "lib": {
                 "locations": {
-                    "discussion_header": "",
-                    "discussion_sidebar": "",
-                    "header": "",
-                    "sidebar": "",
-                    "footer": "",
-                    "between_posts": ""
+                    "discussion_header": "主題頁面（標題橫幅下方）",
+                    "discussion_sidebar": "討論側邊欄 [僅限電腦]",
+                    "header": "首頁歡迎橫幅下方",
+                    "sidebar": "首頁側邊列（僅限電腦）",
+                    "footer": "網站頁腳",
+                    "between_posts": "貼文之間"
                 }
             }
         }
