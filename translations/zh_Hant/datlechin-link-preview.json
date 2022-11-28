@@ -2,15 +2,15 @@
     "datlechin-link-preview": {
         "admin": {
             "settings": {
-                "blacklist_label": "",
-                "blacklist_help": "",
-                "blacklist_placeholder": "",
-                "convert_media_urls_label": "",
-                "convert_media_urls_help": ""
+                "blacklist_label": "排除列表",
+                "blacklist_help": "輸入禁止預覽的域名或連結，以逗號分隔。",
+                "blacklist_placeholder": "如「baidu.com,https://pornhub.com/categories」",
+                "convert_media_urls_label": "預覽媒體連結",
+                "convert_media_urls_help": "啟用後，將轉換所有媒體連結作為預覽。"
             }
         },
         "forum": {
-            "site_cannot_be_reached": ""
+            "site_cannot_be_reached": "無法訪問此站點。"
         }
     }
 }
