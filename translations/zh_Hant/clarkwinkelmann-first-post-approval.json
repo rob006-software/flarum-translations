@@ -2,11 +2,11 @@
     "clarkwinkelmann-first-post-approval": {
         "admin": {
             "permissions": {
-                "bypass": ""
+                "bypass": "未經首次審核批准即可發佈"
             },
             "settings": {
-                "discussionCount": "",
-                "postCount": ""
+                "discussionCount": "需要被批准的首次討論文章數限制",
+                "postCount": "需要被批准的首次回文篇數限制"
             }
         }
     }
