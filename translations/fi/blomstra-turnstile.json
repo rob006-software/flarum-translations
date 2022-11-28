@@ -4,9 +4,9 @@
             "settings": {
                 "site_key": "Sivuston avain (Site key)",
                 "secret_key": "Salainen avain (Secret key)",
-                "signup": "",
-                "signin": "",
-                "forgot": ""
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
             }
         },
         "forum": {
