@@ -10,8 +10,8 @@
                     "placeholder": "搜索用戶"
                 },
                 "kinds": {
-                    "group": "",
-                    "text": ""
+                    "group": "用戶組",
+                    "text": "關鍵詞"
                 }
             },
             "page": {
@@ -21,8 +21,8 @@
                 "empty_text": "抱歉，沒有找到相符的用戶。",
                 "filter_button": "篩選用戶組",
                 "usercard": {
-                    "discussion-count": "",
-                    "post-count": ""
+                    "discussion-count": "{count, plural, one {主題 {count}} other {主題 {count}}}",
+                    "post-count": "{count, plural, one {回覆 {count}} other {回覆 {count}}}"
                 }
             }
         },
