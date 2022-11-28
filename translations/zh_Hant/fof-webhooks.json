@@ -2,92 +2,92 @@
     "fof-webhooks": {
         "actions": {
             "discussion": {
-                "started": "",
+                "started": "發佈主題 `{1}`",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "重命名主題 `{1}`",
+                    "description": "新標題：{1}"
                 },
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "hidden": "隱藏主題 `{1}`",
+                "restored": "恢覆主題 `{1}`",
+                "deleted": "刪除主題 `{1}`"
             },
             "group": {
-                "created": "",
-                "renamed": "",
-                "deleted": ""
+                "created": "創建用戶組 `{1}`",
+                "renamed": "重命名用戶組為 `{1}`",
+                "deleted": "刪除用戶組`{1}`"
             },
             "post": {
-                "posted": "",
-                "revised": "",
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "posted": "新回覆於 `{1}`",
+                "revised": "編輯回覆於 `{1}`",
+                "hidden": "隱藏回覆於 `{1}`",
+                "restored": "恢覆回覆於 `{1}`",
+                "deleted": "刪除回覆於 `{1}`"
             },
             "user": {
-                "registered": "",
+                "registered": "新注冊會員",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "`{1}` 變更用戶名",
+                    "description": "新用戶名：{1}"
                 },
-                "deleted": ""
+                "deleted": "删除用戶`{1}`"
             }
         },
         "adapters": {
             "errors": {
-                "404": ""
+                "404": "Webhook 服務未找到或不存在"
             }
         },
         "admin": {
             "errors": {
-                "service_not_found": "",
-                "url_invalid": "",
-                "tag_invalid": ""
+                "service_not_found": "\"{service}\" 服務未找到或不存在。",
+                "url_invalid": "所選服務的 URL 無效。",
+                "tag_invalid": "此 Webhook 被限制於無效的標簽上。該限制將不可用。請確保這是您有意所為。"
             },
             "nav": {
-                "desc": ""
+                "desc": "為您的論壇設置自定義 Outgoing Webhooks。"
             },
             "settings": {
-                "debug_label": "",
-                "debug_help": "",
+                "debug_label": "調試",
+                "debug_help": "當 Webhook 或事件工作不正常時，你可以啟用此項。 更多日誌資訊會輸出到 Flarum 紀錄檔，以説明你調試問題。",
                 "item": {
-                    "tag_any_label": ""
+                    "tag_any_label": "任一"
                 },
                 "help": {
-                    "disabled": "",
-                    "general": "",
-                    "url": ""
+                    "disabled": "此 Webhook 已被禁用，因為它沒有啟用事件。",
+                    "general": "您可以在這裡添加、編輯、刪除論壇中的webhooks。",
+                    "url": "要運行的 Webhook 終端"
                 },
                 "modal": {
-                    "title": "",
-                    "description": "",
-                    "use_plain_text_label": "",
-                    "max_post_content_length_label": "",
-                    "max_post_content_length_help": "",
-                    "extra_text_label": "",
-                    "extra_text_help": "",
-                    "group_label": "",
-                    "group_help": "",
-                    "events_label": ""
+                    "title": "Webhook 設置",
+                    "description": "您可以在這裡修改出發 webhook 的事件。",
+                    "use_plain_text_label": "減少貼文內容的格式化數量",
+                    "max_post_content_length_label": "最大貼文內容長度",
+                    "max_post_content_length_help": "設置所有與貼文相關事件的最大貼文內容長度。 0 或不填表示無限制。",
+                    "extra_text_label": "附加文字",
+                    "extra_text_help": "附加文本到發送的 Webhook 中。",
+                    "group_label": "組群",
+                    "group_help": "發送該組群可見的資源",
+                    "events_label": "事件"
                 },
                 "services": {
-                    "discord": "",
-                    "slack": "",
-                    "microsoft-teams": ""
+                    "discord": "不和",
+                    "slack": "鬆弛",
+                    "microsoft-teams": "微軟團隊"
                 },
                 "actions": {
                     "flarum": {
                         "discussion": {
-                            "title": "",
-                            "started": "",
-                            "renamed": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "title": "Flarum 主題",
+                            "started": "已發佈",
+                            "renamed": "=> fof-webhooks.ref.rename",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restore",
+                            "deleted": "=> fof-webhooks.ref.delete"
                         },
                         "group": {
-                            "title": "",
-                            "created": "",
-                            "renamed": "",
+                            "title": "Flarum 用戶組",
+                            "created": "創建",
+                            "renamed": "=> fof-webhooks.ref.rename",
                             "deleted": ""
                         },
                         "post": {
