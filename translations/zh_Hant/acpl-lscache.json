@@ -2,16 +2,16 @@
     "acpl-lscache": {
         "admin": {
             "public_cache_ttl_label": "默認公共緩存TTL",
-            "public_cache_ttl_help": "",
-            "clearing_cache_listener_label": "",
-            "serve_stale_label": "",
-            "serve_stale_help": "",
-            "purge_on_discussion_update_label": "",
-            "purge_on_discussion_update_help": "",
-            "cache_exclude_label": "",
-            "cache_exclude_help": "",
-            "purge_all": "",
-            "purge_all_success": ""
+            "public_cache_ttl_help": "設置公共頁面的緩存時間，單位秒。默認 300 秒。",
+            "clearing_cache_listener_label": "清除 Flarum 緩存時同步清除 LSCache",
+            "serve_stale_label": "Serve Stale 緩服務",
+            "serve_stale_help": "啟用後，在新緩存副本可用前，系統將使用舊緩存頁面響應給用戶，以減小後續訪問產生的服務器負載。如果關閉此項，頁面將在訪客等待期間動態生成。根據 Serve Stale 的設計，此功能可能會響應陳舊的內容給用戶，你可以選擇關閉它。",
+            "purge_on_discussion_update_label": "主題或帖子更新時清除 URL 或標簽緩存",
+            "purge_on_discussion_update_help": "每行指定一個 URL 或標簽。URL 應以 <code>/</code> 開頭，例如 <code>/rankings</code>，緩存標簽應以 <code>tag=</code> 開頭，例如 <code>tag=rankings</code>。此擴展將給每個路由打上標簽。如果您需要清除多個路由，請在 .htaccess 中添加規則，使用正則表達式標記路由。<a>了解更多</a>。默認情況下，主頁和有更新的討論的緩存都會被清除。",
+            "cache_exclude_label": "禁用路徑緩存",
+            "cache_exclude_help": "一行一個關鍵詞，匹配的路徑將不會被緩存。如不想緩存 <code>/mypath/mypage?aa=bb</code>，可以使用 <code>mypage?aa=</code> 匹配。要匹配字符串開頭，請以 <code>^</code> 作為前綴。要進行完全匹配，請以 <code>$</code> 作為 URL 後綴。",
+            "purge_all": "清除全部 LSCache",
+            "purge_all_success": "通知 LiteSpeed Web 服務器清除所有 LSCache"
         }
     }
 }
