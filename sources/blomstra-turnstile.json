@@ -3,7 +3,10 @@
         "admin": {
             "settings": {
                 "site_key": "Site key",
-                "secret_key": "Secret key"
+                "secret_key": "Secret key",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
             }
         },
         "forum": {
