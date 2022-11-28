@@ -2,87 +2,87 @@
     "ianm-follow-users": {
         "admin": {
             "permissions": {
-                "be_followed_label": ""
+                "be_followed_label": "允許用戶關注他人"
             },
             "settings": {
-                "button-on-profile-label": "",
-                "stats-on-profile-label": ""
+                "button-on-profile-label": "在用戶資料卡片顯示關注按鈕",
+                "stats-on-profile-label": "在用戶資料中顯示關注和粉絲數量"
             }
         },
         "forum": {
-            "followed": "",
-            "followers": "",
-            "profile_link": "",
+            "followed": "關注",
+            "followers": "粉絲",
+            "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
-                "no_following": ""
+                "no_following": "您還沒有關注任何人。"
             },
             "user_controls": {
-                "follow_button": "",
-                "unfollow_button": ""
+                "follow_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "settings": {
-                "notify_new_follower_label": "",
-                "notify_new_unfollower_label": "",
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": "",
-                "block_follow": ""
+                "notify_new_follower_label": "有人關注我",
+                "notify_new_unfollower_label": "有人對我取消關注",
+                "notify_new_discussion_label": "我關注的人發佈了新主題",
+                "notify_new_post_label": "我關注的人發表了新回覆",
+                "block_follow": "禁止他人關注我"
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": ""
+                "follow_tag_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_tag_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": "",
-                "new_follower_text": "",
-                "new_unfollower_text": ""
+                "new_discussion_text": "{username} 發佈主題",
+                "new_post_text": "{username} 發表回覆",
+                "new_follower_text": "{username} 關注了你",
+                "new_unfollower_text": "{username} 對你取消關注"
             },
             "badge": {
                 "label": {
-                    "follow": "",
-                    "lurk": ""
+                    "follow": "關注主題",
+                    "lurk": "特別關注"
                 }
             },
             "filter": {
-                "following": ""
+                "following": "我的關注"
             },
             "modals": {
                 "select_follow_level": {
-                    "title": "",
-                    "description": "",
-                    "follow_levels_heading": "",
-                    "follow_select_label": "",
-                    "no_user_attr_provided_err": "",
-                    "no_user_attr_provided_err_debug": "",
-                    "save_btn": "",
-                    "cancel_btn": ""
+                    "title": "關注 {username}",
+                    "description": "您想要如何關注<em>{username}</em>？",
+                    "follow_levels_heading": "關注級別",
+                    "follow_select_label": "關注類型",
+                    "no_user_attr_provided_err": "哎呀，打開彈窗時發生了錯誤。",
+                    "no_user_attr_provided_err_debug": "創建選擇關注級別 (SelectFollowUserLevel) 彈窗時 `user` 用戶屬性傳入，因此彈窗生成失敗。",
+                    "save_btn": "保存",
+                    "cancel_btn": "取消"
                 }
             }
         },
         "email": {
-            "new_discussion_by_user_subject": "",
-            "new_follower_subject": "",
-            "new_post_subject": "",
-            "new_discussion_by_user_body": "",
-            "new_follower_body": "",
-            "new_post_body": ""
+            "new_discussion_by_user_subject": "【關注】{title}",
+            "new_follower_subject": "【關注】新粉丝！",
+            "new_post_subject": "【關注】新回覆於 {title}",
+            "new_discussion_by_user_body": "{recipient_display_name}，你好！\n\n{user_display_name}發佈了一個新主題：{discussion_title}\n\n點擊下方連結檢視內容：\n\n{discussion_url}\n\n---\n\n{post_content}\n",
+            "new_follower_body": "{recipient_display_name}，你好！\n\n{follower_display_name}關注了你，當你發佈新主題時他們會收到通知。\n\n點擊下方連結查看粉絲資料：\n\n{profile_url}\n",
+            "new_post_body": "嘿{recipient_display_name},\n\n{user_display_name}發表回覆於：{discussion_title}\n\n要查看新活動，請查看以下連結：\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\n在瞭解最新資訊之前，您不會再收到有關此討論的任何通知。再收到此主題的更多新通知。\n"
         },
         "lib": {
-            "following_link": "",
-            "follow": "",
-            "change_follow_type": "",
+            "following_link": "我的關注",
+            "follow": "關注",
+            "change_follow_type": "修改關注類型",
             "follow_levels": {
                 "unfollow": {
-                    "name": "",
-                    "description": ""
+                    "name": "取消關注",
+                    "description": "不接收 <em>{username}</em> 的任何活動通知。\n"
                 },
                 "follow": {
-                    "name": "",
-                    "description": ""
+                    "name": "關注主題",
+                    "description": "接收 <em>{username}</em> 發佈新主題的通知。\n"
                 },
                 "lurk": {
-                    "name": "",
-                    "description": ""
+                    "name": "特別關注",
+                    "description": "接收 <em>{username}</em> 發佈新主題和回覆的所有通知。\n"
                 }
             }
         }
