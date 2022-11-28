@@ -3,14 +3,14 @@
         "admin": {
             "settings": {
                 "site_key": "站點金鑰（Site key）",
-                "secret_key": ""
+                "secret_key": "私鑰（Secret key）"
             }
         },
         "forum": {
-            "not_loaded_error": ""
+            "not_loaded_error": "未能正確加載Cloudflare Turnstile，請刷新本頁面，並檢查您的廣告攔截程序是否關閉。"
         }
     },
     "validation": {
-        "turnstile": ""
+        "turnstile": "我們無法驗證您是否是一個機器人。請刷新頁面並重試。"
     }
 }
