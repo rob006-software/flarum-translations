@@ -2,18 +2,18 @@
     "clarkwinkelmann-composer-page": {
         "admin": {
             "settings": {
-                "onlyInTags": "",
-                "onlyInTagsHelp": ""
+                "onlyInTags": "僅在以下標簽中（可選）",
+                "onlyInTagsHelp": "輸入標籤slugs，多個標籤以英文逗號分隔。留空以全局應用本擴展頁面。\n"
             }
         },
         "forum": {
             "nav": {
-                "cancel": "",
-                "continue": ""
+                "cancel": "退出編輯器",
+                "continue": "繼續編輯主題貼文"
             },
             "page": {
-                "title": "",
-                "heading": ""
+                "title": "創建主題貼文",
+                "heading": "創建主題"
             }
         }
     }
