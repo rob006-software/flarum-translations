@@ -70,9 +70,9 @@
                     "events_label": "事件"
                 },
                 "services": {
-                    "discord": "不和",
-                    "slack": "鬆弛",
-                    "microsoft-teams": "微軟團隊"
+                    "discord": "Discord",
+                    "slack": "Slack",
+                    "microsoft-teams": "Microsoft Teams"
                 },
                 "actions": {
                     "flarum": {
@@ -91,28 +91,28 @@
                             "deleted": "=> fof-webhooks.ref.delete"
                         },
                         "post": {
-                            "title": "",
-                            "posted": "",
-                            "revised": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "title": "Flarum 回覆",
+                            "posted": "回覆",
+                            "revised": "編輯",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "user": {
-                            "title": "",
-                            "registered": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "title": "Flarum 用戶",
+                            "registered": "注冊",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         }
                     }
                 }
             }
         },
         "ref": {
-            "deleted": "",
-            "hidden": "",
-            "renamed": "",
-            "restored": ""
+            "deleted": "刪除",
+            "hidden": "隱藏",
+            "renamed": "重新命名",
+            "restored": "恢復"
         }
     }
 }
