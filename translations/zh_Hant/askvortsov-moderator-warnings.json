@@ -9,21 +9,21 @@
         },
         "emails": {
             "post_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "您在【{discussion_title}】發表的內容被 {warner_display_name} 警告並記 {strikes, plural, one {# 分} other {# 分}}",
+                "body": "{warnee_display_name}，您好！\n\n您在【{discussion_title}】發表的內容被 {warner_display_name} 警告並記 {strikes, plural, one {# 分} other {# 分}}。\n\n原因：\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "收到 {warner_display_name} 的警告並記 {strikes, plural, one {# 分} other {# 分}}",
+                "body": "{warnee_display_name}，您好！\n\n您已收到來自 {warner_display_name} 的警告並記 {strikes, plural, one {#} other {#}} 分\n\n原因如下：\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "您被管理員 {mod_username} 警告並扣 {strikes} 分",
+                "warning_text": "收到來自 {mod_username} 的警告並記 {strikes, plural, one {#} other {#}} 分",
                 "warning_no_strikes_text": "您被管理員 {mod_username} 警告（無扣分）"
             },
             "post": {
-                "warning": "被管理員 {mod_username} 警告並扣 {strikes} 分",
+                "warning": "內容違規，由 {mod_username} 記 {strikes, plural, one {#} other {#}} 分",
                 "warning_no_strikes": "您被管理員 {mod_username} 警告"
             },
             "post_controls": {
@@ -36,8 +36,8 @@
                 "warning_notification_label": "管理員警告我"
             },
             "validation": {
-                "public_comment_required": "",
-                "invalid_strike_count": ""
+                "public_comment_required": "您必須填寫一個公開評論。",
+                "invalid_strike_count": "記分範圍只能是 0 到 5 分。"
             },
             "warning_controls": {
                 "delete_button": "移除",
@@ -46,13 +46,13 @@
             },
             "warning_list": {
                 "add_button": "新增警告",
-                "no_warnings": "",
-                "warnings": "管理員警告： 已被扣 {strikes} 分",
+                "no_warnings": "該用戶暫未收到任何警告。",
+                "warnings": "站務警告：共記 {strikes, plural, one {#} other {#}} 分",
                 "warnings_no_strikes": "管理員警告：未被扣分"
             },
             "warning_list_item": {
-                "list_item_heading": "收到管理員 <strong>{mod_username}</strong> 警告並扣 <strong>{strikes}</strong> 分",
-                "list_item_heading_hidden": "收到管理員 <strong>{mod_username}</strong> 警告並扣 <strong>{strikes}</strong> 分 <strong>（已移除）</strong>",
+                "list_item_heading": "記 {strikes, plural, one {<strong>#</strong> 分，{time}} other {<strong>#</strong> 分，{time}}}",
+                "list_item_heading_hidden": "記 {strikes, plural, one {<strong>#</strong> 分，{time} <strong>（已撤銷）</strong>} other {<strong>#</strong> 分，{time} <strong>（已撤銷）</strong>}}",
                 "public_comment": "使用者可見備註",
                 "private_comment": "管理員可見備註",
                 "linked_post": "關聯的貼文"
