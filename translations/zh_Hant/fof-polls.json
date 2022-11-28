@@ -2,7 +2,7 @@
     "fof-polls": {
         "admin": {
             "settings": {
-                "allow_option_image": ""
+                "allow_option_image": "允許圖片選項"
             },
             "permissions": {
                 "view_results_without_voting": "無需參與投票直接查看結果",
@@ -32,7 +32,7 @@
                 "min": "最少只能有 2 個選項",
                 "no_voters": "暫無投票",
                 "option_placeholder": "選項",
-                "image_option_placeholder": "",
+                "image_option_placeholder": "圖面連結(可選)",
                 "options_label": "選項",
                 "public_poll_label": "允許用戶查看投票人",
                 "question_placeholder": "問題",
@@ -45,7 +45,7 @@
             },
             "tooltip": {
                 "badge": "投票",
-                "votes": "已有 1 投票|已有 {count} 人投票"
+                "votes": "{count, plural, one {#} other {#}} 人投票"
             },
             "votes_modal": {
                 "title": "投票人"
