@@ -11,17 +11,17 @@
                 "info": "還有 {count} 人"
             },
             "footer": {
-                "read-this-post": "{0} 沒人看過這篇貼文|[1,Inf] {count} 人看過這篇貼文",
-                "read-no-further": "{0} 全都看過更多|[1,Inf] {count} 沒有繼續瀏覽",
-                "read-to-end": "{0} 沒人全部看完|[1,Inf] {count} 人全部看完"
+                "read-this-post": "{count, plural, =0 {沒人看過} one {1 人看過} other {# 人看過}}",
+                "read-no-further": "{count, plural, =0 {所有人都看過} one {1 人看過僅此於止} other {# 人看過僅此於止}}",
+                "read-to-end": "{count, plural, =0 {無人全部看完} one {1 人全部看完} other {# 人全部看完}}"
             },
             "controls": {
                 "set-unread": "標記為未讀",
                 "remove-unread": "移除未讀"
             },
             "badges": {
-                "following": "",
-                "ignoring": "",
+                "following": "=> flarum-subscriptions.forum.badge.following_tooltip",
+                "ignoring": "=> flarum-subscriptions.forum.badge.ignoring_tooltip",
                 "unread": "標記為未讀"
             },
             "modal": {
