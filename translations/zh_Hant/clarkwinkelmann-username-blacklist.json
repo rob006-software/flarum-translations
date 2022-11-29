@@ -8,7 +8,7 @@
                 "blacklist": "黑名單",
                 "blacklistHelp": "每行一個正則表達式。如果黑名單為空，所有非白名單的內容都會被拒絕。\n",
                 "whitelist": "白名單",
-                "whitelistHelp": ""
+                "whitelistHelp": "每行一個正則表達式。白名單優先級高於黑名單。\n"
             }
         },
         "api": {
