@@ -47,75 +47,75 @@
                 "blockview": "卡片視圖",
                 "blockview_description": "在徽章頁採用卡片式樣展示所有徽章。禁用時，將以列表式樣展示。",
                 "enabled": "啟用",
-                "enabled_description": ""
+                "enabled_description": "啟用此分組。禁用時，所有徽章將不可用且分組將被隱藏。"
             },
             "auto_moderator": {
                 "not_installed": {
-                    "title": "",
-                    "content": "",
-                    "install": "",
-                    "dismiss": ""
+                    "title": "自動獎勵用戶徽章",
+                    "content": "安裝並激活 <a>Auto Moderator</a> 後，此擴展程序將提供更多功能。當您安裝此擴展程序時，用戶可以自動獲得徽章獎勵，而無需人工管理！",
+                    "install": "安裝",
+                    "dismiss": "不再顯示"
                 },
                 "action_drivers": {
-                    "badge_id": "",
-                    "give_badge": "",
-                    "remove_badge": ""
+                    "badge_id": "徽章 ID",
+                    "give_badge": "授予徽章",
+                    "remove_badge": "移除徽章"
                 },
                 "requirement_drivers": {
-                    "has_badge": ""
+                    "has_badge": "已有徽章"
                 },
                 "metric_drivers": {
-                    "badges_received": ""
+                    "badges_received": "收到徽章"
                 },
                 "badge_selector": {
-                    "placeholder": "",
-                    "loading_badges": ""
+                    "placeholder": "選擇徽章",
+                    "loading_badges": "加載徽章中"
                 }
             }
         },
         "forum": {
-            "badge_information": "",
-            "all_badges": "",
-            "all_users": "",
-            "give_badge": "",
-            "update_badge": "",
-            "select_badge": "",
-            "user_has_badge": "",
-            "user_no_badges": "",
-            "no_received": "",
-            "uncategorized": "",
-            "save_changes": "",
+            "badge_information": "徽章詳情",
+            "all_badges": "查看所有徽章",
+            "all_users": "查看所有用戶",
+            "give_badge": "授予徽章",
+            "update_badge": "更新徽章",
+            "select_badge": "選擇徽章",
+            "user_has_badge": "已授予該用戶此徽章。",
+            "user_no_badges": "該用戶尚未擁有徽章。",
+            "no_received": "沒有人有此徽章。",
+            "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "保存修改",
             "badge": {
-                "badge": "",
-                "badges": "",
-                "name": "",
-                "description": "",
-                "earning_reason": "",
-                "update_earning_reason": "",
-                "no_earning_reason": "",
-                "earned_on": "",
-                "category": "",
-                "received_on": "",
-                "badge_details": "",
-                "earned_count": "",
-                "earned_by_count": "",
-                "others_link": ""
+                "badge": "徽章",
+                "badges": "徽章",
+                "name": "徽章名稱",
+                "description": "徽章描述",
+                "earning_reason": "授予理由",
+                "update_earning_reason": "更新授予理由",
+                "no_earning_reason": "無授予理由",
+                "earned_on": "徽章授予於",
+                "category": "徽章分組",
+                "received_on": "獲得於 {date}",
+                "badge_details": "徽章詳情",
+                "earned_count": "{count, plural, one {<b># 位用戶</b>獲得此徽章} other {<b># 位用戶</b>獲得䉬徽章}}",
+                "earned_by_count": "{count, plural, one {已授予 <b># 位用戶</b>} other {已授予 <b># 位用戶</b>}}",
+                "others_link": "+ {count}"
             },
             "badges_in_card": {
-                "title": "",
-                "manage_badges": "",
-                "description": "",
-                "select_limit": "",
-                "hit_limit": ""
+                "title": "個人資料上的徽章",
+                "manage_badges": "管理徽章",
+                "description": "您可以選用徽章之一用於展示在個人資料內。如果您不指定，它將被自動選擇。",
+                "select_limit": "您可以挑選 {limit, plural, one {<b>1 個徽章</b>} other {<b># 個徽章</b>}} 展示到個人資料卡。",
+                "hit_limit": "只能展示 <b> {limit, plural, one {<b>1 個徽章</b>} other {<b># 個徽章</b>}}</b> 到資料卡片，請先取消展示其他徽章。"
             },
             "moderation": {
-                "remove_badge": "",
-                "remove_badge_confirm": "",
-                "give_badge": ""
+                "remove_badge": "移資徽章",
+                "remove_badge_confirm": "確定要移除該用戶的這個徽章？",
+                "give_badge": "授予徽章"
             },
             "notification": {
-                "title": "",
-                "settings": ""
+                "title": "獲得新徽章",
+                "settings": "獲得徽章"
             }
         }
     }
