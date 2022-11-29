@@ -2,36 +2,36 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "",
-                "discussion-list-new-activity-with-auto-release": ""
+                "discussion-list-new-activity": "{count, plural, one {有 #} other {有 #}}則内容更新",
+                "discussion-list-new-activity-with-auto-release": "{count, plural, one {有 #} other {有 #}} 條內容更新，{releaseTimeout} 秒後刷新。立即查看。"
             },
             "typing-indicator": {
-                "anonymous-user": "",
-                "people-are-typing": "",
-                "users-are-typing": "",
-                "no-activity": ""
+                "anonymous-user": "[匿名]",
+                "people-are-typing": "{number, plural, one {# 人} other {# 人}}正在輸入",
+                "users-are-typing": "{count, plural, one {{users} 正在輸入} other {{users}{others, plural, =1 { & # other} =0 {} other { & # others}} 正在輸入}}",
+                "no-activity": "無人活動"
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "實時活動",
                     "typing-indicator-type": {
-                        "help": "",
-                        "label": ""
+                        "help": "啟用後展示具體用戶的鍵盤輸入狀態。禁用此項，僅展示用戶數量。",
+                        "label": "展示用戶輸入狀態"
                     }
                 }
             }
         },
         "admin": {
             "permission": {
-                "view-who-types": ""
+                "view-who-types": "查看輸入狀態"
             },
             "settings": {
-                "release-discussion-updates": "",
-                "release-discussion-updates-help": "",
-                "release-discussion-updates-interval": "",
-                "release-discussion-updates-interval-help": "",
-                "typing-indicator": "",
-                "typing-indicator-help": ""
+                "release-discussion-updates": "全部主題列表更新",
+                "release-discussion-updates-help": "啟用後，新主題將在一段時間後推送到<code>全部主題列表</code>中。",
+                "release-discussion-updates-interval": "自動推送新活動內容的時間頻率",
+                "release-discussion-updates-interval-help": "單位秒，0 表示禁用自動推送。",
+                "typing-indicator": "輸入狀態",
+                "typing-indicator-help": "啟用後展示主題中正在輸入的用戶數量。禁用此項，前端和 websocket 均停止展示輸入狀態。"
             }
         }
     }
