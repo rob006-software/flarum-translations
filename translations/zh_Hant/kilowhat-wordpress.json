@@ -8,85 +8,85 @@
                 "wordpress_username": "WordPress 管理員用戶名",
                 "section_sso_intro": "此功能將無縫綁定 WordPress 和 Flarum 賬號。系統將自動為他們創建賬號並與 Wordpress 保持同步。如果您在 Flarum 中已有賬號，系統將自動通過郵箱綁定重覆的賬號。如果您通過 Flarum 刪除了一個用戶，那麽下次該用戶仍然可以使用 Wordpress 賬號登錄恢複賬號。要封禁一個 Flarum 用戶，請在 Flarum 中封禁該賬戶。\n",
                 "enable_sso": "啟用SSO登錄集成",
-                "cookie_domain": "",
-                "cookie_domain_help": "",
-                "wordpress_login_path": "",
-                "wordpress_login_path_help": "",
-                "username_strategy": "",
+                "cookie_domain": "Cookie域名",
+                "cookie_domain_help": "只當與 Flarum 域名不同時才需填寫",
+                "wordpress_login_path": "Wordpress登入路徑",
+                "wordpress_login_path_help": "只當您手動或通過插件修改端點名稱時才須填寫",
+                "username_strategy": "新用戶的用戶名",
                 "username_strategy_options": {
-                    "user_login": "",
-                    "first_name": "",
-                    "random": ""
+                    "user_login": "Wordpress的用戶名",
+                    "first_name": "在wordpress填寫的名字",
+                    "random": "隨機用戶名"
                 },
-                "username_strategy_help": "",
-                "force_username_choice": "",
-                "force_username_choice_help": "",
-                "welcome_message": "",
-                "welcome_message_help": "",
-                "wordpress_login_only": "",
-                "wordpress_login_only_help": "",
-                "user_delete": "",
+                "username_strategy_help": "如果用戶名已被Flarum其他用戶佔用, 則在用戶名後附加隨機數字",
+                "force_username_choice": "讓用戶在首次訪問時選擇自己的用戶名",
+                "force_username_choice_help": "上面選擇的規則會提供一個默認值。",
+                "welcome_message": "介紹訊息",
+                "welcome_message_help": "該信息將在用戶首次訪問論壇時顯示，同時還將顯示用戶名選擇（如果啟用）。",
+                "wordpress_login_only": "只允許 WordPress 登錄",
+                "wordpress_login_only_help": "禁止使用 Flarum 登錄，當需要登錄時直接打開 Wordpress 登錄模塊。這將自動關閉 Flarum 的「註冊」權限。\n",
+                "user_delete": "在 Wordpress 刪除用戶後的操作",
                 "user_delete_options": {
-                    "ignore": "",
-                    "delete": "",
-                    "suspend": ""
+                    "ignore": "無視（保留 Flarum 用戶）",
+                    "delete": "刪除 Flarum 用戶",
+                    "suspend": "永久封禁 Flarum 用戶（必須已經啟用 Suspend 插件）"
                 },
-                "user_delete_desc": "",
-                "section_comments_intro": "",
-                "enable_comments": "",
-                "excerpt_html_whitelist": "",
-                "excerpt_html_nodes": "",
-                "excerpt_length": "",
-                "comment_tag": "",
-                "comment_tag_none": "",
-                "comment_tag_custom": "",
-                "comment_tag_custom_help": "",
-                "summary_as_last_post": "",
-                "summary_as_last_post_help": "",
-                "use_post_date": "",
-                "use_post_date_help": "",
-                "post_hide": "",
+                "user_delete_desc": "如果選擇「刪除」，則只刪除用戶，不刪除 Flarum 中已發表的內容。",
+                "section_comments_intro": "此功能使用 Flarum 框架替換 Wordpress 評論模塊。 這會使未登錄訪客無法發表評論。 只有在 WordPress 中啟用了評論功能的帖子才會創建對應的主題帖。 啟用或禁用評論功能時，Flarum 會同步鎖定主題。 如果您啟用此功能時，您的博客已經有文章存在，您需要在每篇文章上手動禁用並重新啟用評論功能以創建 Flarum 主題帖。\n",
+                "enable_comments": "啟用評論集成",
+                "excerpt_html_whitelist": "要保留在摘錄中的 HTML 標籤白名單（半角逗號分隔）",
+                "excerpt_html_nodes": "內容摘錄的長度（以 HTML 節點數為單位）",
+                "excerpt_length": "內容摘錄的長度（以字符為單位）",
+                "comment_tag": "新評論主題貼的標籤",
+                "comment_tag_none": "不分配標籤",
+                "comment_tag_custom": "自定義值",
+                "comment_tag_custom_help": "標籤 ID（半角逗號分隔）",
+                "summary_as_last_post": "將摘要帖設置為新主題的末帖",
+                "summary_as_last_post_help": "這將使得發布 WordPress 文章後，新的評論主題帖立即浮動到 Flarum 主題列表的頂部。 默認情況下，只有在用戶發表第一個評論後，主題帖才會上浮至頂部。\n",
+                "use_post_date": "使用 WordPress 文章的發布日期作為主題帖的創建日期",
+                "use_post_date_help": "默認情況下，Flarum 主題帖將使用當前時間作為其創建日期。 如果 WordPress 文章屬於過去的日期，開啟此選項將允許主題帖使用過去的日期作為創建時間。\n",
+                "post_hide": "WordPress 文章被隱藏（丟棄或移至草稿）後的操作",
                 "post_hide_options": {
-                    "ignore": "",
-                    "lock": "",
-                    "hide": "",
-                    "delete": ""
+                    "ignore": "無視（根據允許評論鎖定主題帖）",
+                    "lock": "鎖定 Flarum 主題帖",
+                    "hide": "隱藏 Flarum 主題帖",
+                    "delete": "永久刪除 Flarum 主題帖"
                 },
-                "post_delete": "",
+                "post_delete": "永久刪除 WordPress 文章後的操作",
                 "post_delete_options": {
-                    "ignore": "",
-                    "lock": "",
-                    "hide": "",
-                    "delete": ""
+                    "ignore": "無視（保持 Flarum 主題帖的現狀）",
+                    "lock": "保留並鎖定 Flarum 主題帖",
+                    "hide": "隱藏 Flarum 主題帖",
+                    "delete": "永久刪除 Flarum 主題帖"
                 }
             },
             "tabs": {
-                "wizard": "",
-                "general": "",
-                "sso": "",
-                "comments": "",
-                "enabled": "",
-                "disabled": ""
+                "wizard": "安裝指引",
+                "general": "常規設置",
+                "sso": "SSO 登錄集成",
+                "comments": "評論集成",
+                "enabled": "啟用",
+                "disabled": "停用"
             },
             "appearance": {
-                "edit_css_button": ""
+                "edit_css_button": "編輯僅用於WordPress 嵌入的自定義 CSS"
             },
             "edit_css": {
-                "title": "",
-                "customize_text": ""
+                "title": "編輯自定義嵌入 CSS",
+                "customize_text": "您的 LESS/CSS 將僅覆蓋 WordPress 框架內的 Flarum <a>默認樣式</a>。"
             },
             "permissions": {
-                "gambits": ""
+                "gambits": "Wordpress 第三方策略（詳見說明）"
             },
             "save-controls": {
-                "validation-errors": "",
-                "unsaved-changes": "",
-                "saved-at": "",
-                "no-unsaved-changes": "",
-                "save": ""
+                "validation-errors": "您提交的內容有誤",
+                "unsaved-changes": "有未保存的更改",
+                "saved-at": "{ago} 已保存",
+                "no-unsaved-changes": "所有內容已保存",
+                "save": "保存"
             },
             "health": {
-                "title": "",
+                "title": "健康檢查",
                 "check": "",
                 "errors": "",
                 "healthy": "",
