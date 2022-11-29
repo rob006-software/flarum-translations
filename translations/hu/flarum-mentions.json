@@ -2,7 +2,7 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "Csoportok megemlítése"
             },
             "settings": {
                 "allow_username_format_label": "A felhasználó megemlítésének engedélyezése (@Felhasználó)",
@@ -11,14 +11,14 @@
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "Említsen meg egy felhasználót vagy bejegyzést",
+                "mention_tooltip": "Említsen meg egy felhasználót, csoportot vagy bejegyzést",
                 "reply_to_post_text": "Válasz erre: #{number}"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} válaszolt a bejegyzésére",
                 "user_mentioned_text": "{username} megemlítette",
-                "group_mentioned_text": ""
+                "group_mentioned_text": "{username} megemlített egy csoportot, melynek tagja"
             },
             "post": {
                 "mentioned_by_self_text": "{users} válaszolt erre.",
@@ -29,9 +29,9 @@
                 "you_text": "=> core.ref.you"
             },
             "settings": {
-                "notify_post_mentioned_label": "Valaki válaszolt az egyik bejegyzésemre",
-                "notify_user_mentioned_label": "Valaki megemlített egy bejegyzésben",
-                "notify_group_mentioned_label": ""
+                "notify_post_mentioned_label": "Valaki válaszol az egyik bejegyzésemre",
+                "notify_user_mentioned_label": "Valaki megemlít egy bejegyzésben",
+                "notify_group_mentioned_label": "Valaki egy bejegyzésben megemlít egy olyan csoportot, amelynek tagja vagyok"
             },
             "user": {
                 "mentions_link": "Említések"
@@ -40,7 +40,7 @@
                 "deleted_text": "[ismeretlen]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[ismeretlen csoport]"
             }
         },
         "email": {
@@ -53,8 +53,8 @@
                 "body": "Kedves {recipient_display_name}!\n\n{mentioner_display_name} megemlítette egy bejegyzésben itt: {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} a következő bejegyzésben megemlített egy csoportot, melynek a tagja: {title}",
+                "body": "Kedves {recipient_display_name}!\n\n{mentioner_display_name} a következő bejegyzésben megemlített egy csoportot, melynek a tagja: {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
