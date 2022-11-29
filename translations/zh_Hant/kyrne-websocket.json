@@ -9,8 +9,8 @@
             },
             "widget": {
                 "title": "在線用戶",
-                "empty": "",
-                "guests": ""
+                "empty": "暫無在線用戶。",
+                "guests": "{count, plural, one {1 位用戶在線} other {{count} 位用戶在線}}"
             }
         },
         "admin": {
