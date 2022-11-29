@@ -7,34 +7,34 @@
             "appkey_label": "APPKEY",
             "openqq_label": "啟用 QQ 登入",
             "openwx_label": "啟用 Wechat 登入",
-            "opensina_label": ""
+            "opensina_label": "啟用 Webo 登入"
         },
         "forum": {
-            "with_qq_button": "",
-            "with_wx_button": "",
-            "with_sina_button": "",
+            "with_qq_button": "QQ 登入",
+            "with_wx_button": "WeChat 登入",
+            "with_sina_button": "Weibo 登入",
             "alerts": {
-                "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
-                "error": "",
-                "unlinked": ""
+                "already_linked": "第三方帳號已連結！",
+                "already_used": "第三方帳號已被其它用戶連結！",
+                "link_success": "第三方帳號關聯成功。",
+                "unlink_success": "第三方帳號已解除關聯。",
+                "error": "出錯了，請稍後嘗試！",
+                "unlinked": "第三方帳號尚未與本站用戶關聯，請先完成註冊後再行操作。"
             },
             "modals": {
-                "link_qq": "",
-                "unlink_qq": "",
-                "confirm_qq": "",
-                "link_wx": "",
-                "unlink_wx": "",
-                "confirm_wx": "",
-                "link_sina": "",
-                "unlink_sina": "",
-                "confirm_sina": "",
-                "no_providers": "",
+                "link_qq": "關聯 QQ 帳號",
+                "unlink_qq": "解除關聯 QQ 帳號",
+                "confirm_qq": "確定要與QQ帳號解除關聯？",
+                "link_wx": "關聯 WeChat 帳號",
+                "unlink_wx": "解除關聯 WeChat 帳號",
+                "confirm_wx": "確定要解除關聯 WeChat 帳號？",
+                "link_sina": "關聯 Weibo 帳號",
+                "unlink_sina": "解除關聯 Weibo 帳號",
+                "confirm_sina": "確定要解除關聯 Weibo 帳號？",
+                "no_providers": "您沒有其它登入方式，請先重置帳號密碼。",
                 "buttons": {
-                    "confirm": "",
-                    "cancel": ""
+                    "confirm": "是",
+                    "cancel": "No!"
                 }
             }
         }
