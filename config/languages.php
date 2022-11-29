@@ -109,6 +109,7 @@ return [
 	'zh_Hans' => getComponents([
 		// translations included in extension
 		'!vlssu/flarum-cravatar',
+		'!ziiven-view-history',
 	]),
 	'zh_Hant' => getComponents(),
 ];
