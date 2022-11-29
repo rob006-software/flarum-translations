@@ -2,14 +2,14 @@
     "itnt-uitab": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "home_page_label": "",
-                "discussions_icon_label": "",
-                "tags_icon_label": "",
-                "composer_icon_label": "",
-                "settings_icon_label": "",
-                "notifications_icon_label": "",
-                "icon_help": ""
+                "help_text": "如果你的 Flarum 安裝在子目錄下，請指定子目錄（以\"/\"結尾），否則請保留默認值。 例如：<code>/sub/</code>",
+                "home_page_label": "子目錄",
+                "discussions_icon_label": "首頁圖示",
+                "tags_icon_label": "標簽頁圖示",
+                "composer_icon_label": "發佈圖示",
+                "settings_icon_label": "設置頁圖示",
+                "notifications_icon_label": "通知頁圖示",
+                "icon_help": "留白使用默認圖示。"
             }
         }
     }
