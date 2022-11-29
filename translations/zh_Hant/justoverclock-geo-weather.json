@@ -6,10 +6,10 @@
             "not-supported": "您正在使用的瀏覽器不支持定位。"
         },
         "admin": {
-            "apiKey": "",
-            "apiKey-help": "",
-            "lang": "",
-            "lang-help": ""
+            "apiKey": "App Key",
+            "apiKey-help": "粘貼在 https://openweathermap.org/api 生成的 Api 秘鑰",
+            "lang": "選擇輸出語言（僅限 1 個前綴）",
+            "lang-help": "天氣信息以何種語言顯示？請只填寫一種語言代碼，語言代碼請查看 <strong>https://openweathermap.org/api/one-call-api#multi</strong>"
         }
     }
 }
