@@ -4,11 +4,11 @@
             "settings": {
                 "floating": "樓層號右上角展示",
                 "prefix": "字首",
-                "prefixPlaceholder": ""
+                "prefixPlaceholder": "留空使用語言包默認前綴"
             }
         },
         "views": {
-            "format": ""
+            "format": "{number}"
         }
     }
 }
