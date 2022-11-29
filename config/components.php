@@ -1145,5 +1145,8 @@ return [
 	'ziiven-post-number' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-post-number/v0.1.3/locale/en.yml',
 	],
+	'ziiven-view-history' => [
+		'tag' => 'https://raw.githubusercontent.com/Ziiven/view-history/v0.1.2/locale/en.yml',
+	],
 	/* extensions list end */
 ];
