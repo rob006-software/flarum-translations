@@ -5,17 +5,17 @@
                 "help_text": "<a>點擊此處</a> 獲取 hCaptcha 秘鑰。",
                 "secret_key_label": "金鑰",
                 "site_key_label": "網站金鑰",
-                "type_label": ""
+                "type_label": "hCaptcha 類型"
             },
             "permissions": {
-                "post_without_hcaptcha": ""
+                "post_without_hcaptcha": "發布主題和回帖時無需 hCaptcha 驗證碼"
             }
         },
         "forum": {
-            "error": ""
+            "error": "提交 h-captcha 驗證碼時出錯，請重試。"
         }
     },
     "validation": {
-        "hcaptcha": ""
+        "hcaptcha": "hCaptcha 驗證失敗。"
     }
 }
