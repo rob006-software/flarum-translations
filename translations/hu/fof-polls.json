@@ -2,7 +2,7 @@
     "fof-polls": {
         "admin": {
             "settings": {
-                "allow_option_image": ""
+                "allow_option_image": "Képre hivatkozó webcím engedélyezése minden egyes szavazási lehetőségnél"
             },
             "permissions": {
                 "view_results_without_voting": "Eredmény megtekintése szavazás nélkül",
@@ -32,7 +32,7 @@
                 "min": "Legalább 2 választ meg kell adni",
                 "no_voters": "Nincs szavazat",
                 "option_placeholder": "Válasz",
-                "image_option_placeholder": "",
+                "image_option_placeholder": "Kép webcíme (nem kötelező)",
                 "options_label": "Válaszok",
                 "public_poll_label": "A felhasználók megnézhetik ki szavazott",
                 "question_placeholder": "Kérdés",
