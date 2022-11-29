@@ -1,52 +1,52 @@
 {
     "v17development-flarum-badges": {
         "admin": {
-            "uncategorized": "",
-            "new_badge": "",
-            "create_category": "",
-            "update_badge": "",
-            "update_category": "",
-            "edit_category": "",
-            "nothing_here_yet": "",
-            "show_badges_on_user_card": "",
-            "number_of_badges_on_user_card": "",
-            "number_of_badges_on_user_card_help": "",
+            "uncategorized": "未命名分組",
+            "new_badge": "新建徽章",
+            "create_category": "創建分組",
+            "update_badge": "更新徽章",
+            "update_category": "更新分組",
+            "edit_category": "編輯分組",
+            "nothing_here_yet": "您還沒有創建任何徽章或分組。",
+            "show_badges_on_user_card": "在個人資料上展示徽章",
+            "number_of_badges_on_user_card": "徽章數量",
+            "number_of_badges_on_user_card_help": "在個人資料上展示的徽章數量",
             "permissions": {
-                "badge_detail_users": "",
-                "give_badge": "",
-                "take_badge": "",
-                "edit_own_card_badges": "",
-                "edit_card_badges": ""
+                "badge_detail_users": "在徽章詳情內列出用戶",
+                "give_badge": "授予用戶徽章",
+                "take_badge": "撤銷用戶徽章",
+                "edit_own_card_badges": "編輯自已的個人資料徽章",
+                "edit_card_badges": "編輯所有用戶的個人資料徽章"
             },
             "confirm_dialog": {
-                "title": "",
-                "no": "",
-                "yes": ""
+                "title": "確認",
+                "no": "取消",
+                "yes": "是"
             },
             "confirm_messages": {
-                "delete_badge": "",
-                "delete_category": ""
+                "delete_badge": "確定要刪除這個徽章嗎？所有用戶將失去此徽章，此操作不可還原。",
+                "delete_category": "確定要刪除這個分組嗎？該分組內的所有徽章將被移動到「未命名分组」。"
             },
             "badge": {
-                "name": "",
-                "icon": "",
-                "description": "",
-                "visible": "",
-                "visible_description": "",
-                "is_image": "",
-                "is_image_description": "",
-                "image": "",
-                "image_placeholder": "",
-                "icon_color": "",
-                "background_color": "",
-                "label_color": ""
+                "name": "徽章名",
+                "icon": "徽章圖示",
+                "description": "徽章描述",
+                "visible": "啟用此徽章",
+                "visible_description": "關閉此選項，使徽章不可見。",
+                "is_image": "圖片徽章",
+                "is_image_description": "使用圖片作為徽章",
+                "image": "圖片連結",
+                "image_placeholder": "輸入圖片的連結",
+                "icon_color": "圖示顏色",
+                "background_color": "背景顏色",
+                "label_color": "文字顏色"
             },
             "badge_category": {
-                "name": "",
-                "description": "",
-                "blockview": "",
-                "blockview_description": "",
-                "enabled": "",
+                "name": "分組名",
+                "description": "分組描述",
+                "blockview": "卡片視圖",
+                "blockview_description": "在徽章頁採用卡片式樣展示所有徽章。禁用時，將以列表式樣展示。",
+                "enabled": "啟用",
                 "enabled_description": ""
             },
             "auto_moderator": {
