@@ -11,12 +11,12 @@
         "admin": {
             "settings": {
                 "allow_username_format_label": "允許@用戶名",
-                "allow_username_format_text": ""
+                "allow_username_format_text": "用戶提及的當前格式是@\"顯示名稱\"#ID。\n此設置允許使用舊格式的@Username，但在保存時仍會轉換為新格式。\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "",
+                "mention_tooltip": "提及用戶或帖子",
                 "reply_to_post_text": ""
             },
             "notifications": {
