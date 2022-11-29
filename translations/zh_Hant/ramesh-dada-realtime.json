@@ -2,8 +2,8 @@
     "ramesh-dada-realtime": {
         "admin": {
             "settings": {
-                "polling-interval": "",
-                "polling-interval-help": ""
+                "polling-interval": "刷新週期",
+                "polling-interval-help": "指定討論刷新週期，單位毫秒。週期越長，服務器的負載越少。相應的，新帖子會出現更慢。默認 2000 毫秒（2 秒）"
             }
         }
     }
