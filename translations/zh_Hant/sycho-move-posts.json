@@ -7,12 +7,12 @@
                 "group_sequential_posts": "將多個連續的移動事件帖合併為一個。"
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "已移動"
             },
             "discussion": {
                 "move_posts": ""
