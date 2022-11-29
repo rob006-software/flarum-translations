@@ -10,13 +10,13 @@
                 "title": "權限確認",
                 "message": "您正在進行危險操作！我們需要二次驗證您的身份。一段時間內您不會再看到本提醒。\n",
                 "password": "請輸入帳號密碼",
-                "submit": ""
+                "submit": "提交"
             }
         },
         "api": {
             "errors": {
-                "cookieOnly": "",
-                "incorrectPassword": ""
+                "cookieOnly": "請開啟瀏覽器的 Cookie 功能",
+                "incorrectPassword": "密碼錯誤"
             }
         }
     }
