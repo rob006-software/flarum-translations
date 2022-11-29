@@ -2,39 +2,39 @@
     "clarkwinkelmann-discussion-open-position": {
         "admin": {
             "settings": {
-                "defaultOpenLastRead": "",
-                "suggestFirstTime": "",
+                "defaultOpenLastRead": "默認回到上次的閱讀位置",
+                "suggestFirstTime": "在用戶首次打開主題帖時，詢問是否更改定位模式",
                 "openLastOptions": {
-                    "always": "",
-                    "unread": "",
-                    "never": ""
+                    "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
+                    "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
+                    "never": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never"
                 }
             }
         },
         "forum": {
             "firstTimePrompt": {
-                "fromAlways": "",
-                "fromNever": "",
+                "fromAlways": "打開主題時回到上次的閱讀位置",
+                "fromNever": "打開主題時跳轉到首篇文章",
                 "openLastOptions": {
-                    "always": "",
-                    "never": ""
+                    "always": "總是在打開主題時回到上次的閱讀位置",
+                    "never": "總是在打開主題時跳轉到首篇文章"
                 },
-                "more": ""
+                "more": "更多選項"
             },
             "preferences": {
-                "discussionOpenLastRead": "",
+                "discussionOpenLastRead": "主題列表模式",
                 "openLastOptions": {
-                    "always": "",
-                    "unread": "",
-                    "never": ""
+                    "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
+                    "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
+                    "never": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never"
                 }
             }
         },
         "ref": {
             "openLastOptions": {
-                "always": "",
-                "unread": "",
-                "never": ""
+                "always": "總是在打開主題時回到上次的閱讀位置",
+                "unread": "打開主題時僅在有新回覆時回到上次的閱讀位置",
+                "never": "總是在打開主題時跳轉到首篇文章"
             }
         }
     }
