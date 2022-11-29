@@ -6,10 +6,10 @@
         "admin": {
             "additem": "敏感詞表",
             "additemdesc": "多個敏感詞用英文逗號分隔，暫不支持中文（如：Tom,Dick,Harry）",
-            "hidemail": "",
-            "customreg": "",
-            "customregexp": "",
-            "customregexpdesc": ""
+            "hidemail": "自動隱藏郵箱地址",
+            "customreg": "啟用正則式匹配",
+            "customregexp": "正則式表達",
+            "customregexpdesc": "輸入正則式表達，支持中文。如 「(flarum|best|extension)」匹配三個單詞"
         }
     }
 }
