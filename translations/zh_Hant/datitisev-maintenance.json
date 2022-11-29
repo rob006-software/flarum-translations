@@ -10,7 +10,7 @@
                 "settings_notice": "這些設置可能不是當前已生效的設置。請確保它們沒有被 <code>config.php</code> 覆蓋。",
                 "allow_bypass_label": "允許使用權限繞過論壇和 API 維護",
                 "allow_bypass_hint": "如果數據庫無法訪問，則無法繞過。適用於論壇和 API（除非通過 <code>config.php</code> 完全禁用 API）。如果禁用此項，管理員仍然可以訪問 API 以防止自己被鎖定（除非 API 被完全禁用）。",
-                "prefer_db_label": "",
+                "prefer_db_label": "優先使用數據庫設置覆蓋 <code>config.php</code> 設置",
                 "prefer_db_hint": "",
                 "active_label": "",
                 "disable_admin_label": "",
