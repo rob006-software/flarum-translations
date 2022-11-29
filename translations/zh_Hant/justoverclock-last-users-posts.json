@@ -3,11 +3,11 @@
         "admin": {
             "limit": "展示數量（默認留空為 10）",
             "limit-help": "設置要顯示的帖子數目",
-            "charlength": "",
-            "charlength-help": ""
+            "charlength": "內容長度（默認留空為 80）",
+            "charlength-help": "帖子內容的最大顯示字符數"
         },
         "forum": {
-            "widget-title": ""
+            "widget-title": "最新貼文"
         }
     }
 }
