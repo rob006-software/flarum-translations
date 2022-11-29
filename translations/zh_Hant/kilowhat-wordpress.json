@@ -89,34 +89,34 @@
                 "title": "健康檢查",
                 "check": "立即檢查",
                 "errors": "我們發現了一些問題。",
-                "healthy": "",
-                "not-run": "",
-                "request-error": ""
+                "healthy": "一切都很好！",
+                "not-run": "在您連接 Wordpress 和 Flarum 後，方可使用「健康檢查」。",
+                "request-error": "無法執行健康檢查。"
             },
             "wizard": {
-                "intro": "",
-                "wordpress_url": "",
-                "wordpress_url_help": "",
-                "wordpress_username": "",
-                "wordpress_password": "",
-                "wordpress_password_help": "",
-                "install": ""
+                "intro": "感謝您購買我的 WordPress 高級擴展！ 請在下方填寫您的註冊碼，以自動連接您的 Flarum 和 WordPress。\n",
+                "wordpress_url": "Wordpress URL",
+                "wordpress_url_help": "您的 WordPress 首頁地址",
+                "wordpress_username": "WordPress 管理員用戶名",
+                "wordpress_password": "WordPress 管理員密碼",
+                "wordpress_password_help": "該密碼僅用於初始化配置，不被任何形式存儲。",
+                "install": "安裝"
             }
         },
         "forum": {
             "welcome-modal": {
-                "title": "",
-                "default_message": "",
-                "username": "",
-                "submit": "",
-                "not_now": ""
+                "title": "歡迎光臨！",
+                "default_message": "歡迎訪問論壇。 一切都已準備就緒，請選擇一個用戶名！",
+                "username": "選擇用戶名",
+                "submit": "啟用論壇賬戶",
+                "not_now": "暫且跳過並以訪客身份瀏覽"
             },
             "edit-user-modal": {
-                "warning": "",
-                "edit_in_wordpress": "",
-                "should_not_edit_email": "",
-                "unlink": "",
-                "unlink_help": ""
+                "warning": "該用戶與 WordPress 保持同步，請從 WordPress 中修改電子郵件和密碼。\n",
+                "edit_in_wordpress": "在 WordPress 中編輯",
+                "should_not_edit_email": "您應該在 WordPress 中修改電子郵件。 <a>仍要修改</a>",
+                "unlink": "解除此用戶與 WordPress 賬號的鏈接",
+                "unlink_help": "如果郵箱與 WordPress 賬號匹配，則該用戶下次使用 WordPress 登錄時，將再次鏈接。"
             },
             "settings": {
                 "edit_on_wordpress": ""
