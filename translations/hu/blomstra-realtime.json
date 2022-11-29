@@ -6,17 +6,17 @@
                 "discussion-list-new-activity-with-auto-release": "{count, plural, one {# témánál volt friss tevékenység, és {releaseTimeout} másodperc múlva lesz} other {# témánál volt friss tevékenység, és {releaseTimeout} másodperc múlva lesznek}} elengedve. Kattintson ide az azonnali megjelenítéshez."
             },
             "typing-indicator": {
-                "anonymous-user": "",
+                "anonymous-user": "[Névtelen]",
                 "people-are-typing": "{number, plural, one {#} other {#}} ember gépel",
-                "users-are-typing": "",
+                "users-are-typing": "{count, plural, one {{users}} other {{users}{others, plural, =1 { és még # ember} =0 {} other { és még # ember}}}}gépel",
                 "no-activity": "Senki sem gépel"
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Valós idejű",
                     "typing-indicator-type": {
-                        "help": "",
-                        "label": ""
+                        "help": "Ha engedélyezett, akkor a gépelésjelző megjeleníti a jelenleg gépelő felhasználók nevét. Tiltsa le, hogy csak a jelenleg gépelő felhasználók száma látszódjon.",
+                        "label": "Gépelők megjelenítése"
                     }
                 }
             }
@@ -26,12 +26,12 @@
                 "view-who-types": "Megtekintés, hogy ki gépel"
             },
             "settings": {
-                "release-discussion-updates": "",
-                "release-discussion-updates-help": "",
+                "release-discussion-updates": "Témalista frissítései",
+                "release-discussion-updates-help": "Ha engedélyezett, akkor az új témák a lent megadott intervallumonként be lesznek küldve a <code>DiscussionList</code> témalistába.",
                 "release-discussion-updates-interval": "Az új tématevékenységek automatikus leküldési időköze",
                 "release-discussion-updates-interval-help": "Másodpercben. A 0 azt jelenti, hogy nincs automatikus leküldés.",
-                "typing-indicator": "",
-                "typing-indicator-help": ""
+                "typing-indicator": "Gépelésjelző",
+                "typing-indicator-help": "Ha engedélyezett, akkor engedély dönti el, hogy a felhasználók láthatják-e kik gépelnek egy témában. Ha le van tiltva, akkor a gépelési tevékenység eltávolításra kerül a felületről és a WebSocket-üzenetből."
             }
         }
     }
