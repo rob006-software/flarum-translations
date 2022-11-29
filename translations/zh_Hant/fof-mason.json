@@ -6,90 +6,90 @@
             },
             "answers-modal": {
                 "edit-title": "編輯{title}的字段",
-                "save": ""
+                "save": "保存字段"
             },
             "post-answers": {
-                "no-answer": ""
+                "no-answer": "無答案"
             },
             "answers": {
-                "choose-option": "",
-                "no-option-selected": ""
+                "choose-option": "請選擇",
+                "no-option-selected": "未選擇"
             },
             "tags": {
-                "inadequate-settings": "",
-                "tags-label": ""
+                "inadequate-settings": "標籤設置配置不正確。最多允許一個主標籤和次標籤，或停止使用「標籤文字段」特性。\n",
+                "tags-label": "標籤"
             }
         },
         "admin": {
             "buttons": {
-                "new-field": "",
-                "add-field": "",
-                "save-field": "",
-                "delete-field": "",
-                "edit-field": "",
-                "add-answer": "",
-                "save-answer": "",
-                "delete-answer": "",
-                "edit-answer": "",
-                "edit-answer-prompt": "",
-                "show-user-answers": ""
+                "new-field": "添加字段",
+                "add-field": "添加字段",
+                "save-field": "保存字段",
+                "delete-field": "刪除字段",
+                "edit-field": "點擊以編輯字段",
+                "add-answer": "添加答案",
+                "save-answer": "保存答案",
+                "delete-answer": "刪除答案",
+                "edit-answer": "編輯答案",
+                "edit-answer-prompt": "編輯所有使用的內容",
+                "show-user-answers": "顯示非建議答案 ({count})"
             },
             "fields": {
-                "add": "",
-                "edit": "",
-                "required": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "show_when_empty": "",
-                "show_when_empty-help": "",
-                "validation": "",
-                "user_values_allowed": "",
-                "user_values_allowed-help": "",
-                "validation-help": "",
-                "enable-user-values-for-validation": "",
-                "icon": "",
-                "icon-help": "",
-                "icon-preview": "",
-                "save-field-for-answers": "",
-                "is_suggested": "",
-                "new-answer": "",
-                "new-answer-placeholder": ""
+                "add": "添加字段{field}",
+                "edit": "編輯字段{field}",
+                "required": "必填",
+                "name": "字段名稱",
+                "name-help": "公開可見（不可翻譯）的字段名。\n",
+                "description": "字段描述",
+                "description-help": "可選的描述，以解釋這段文字的用途/要求。\n",
+                "show_when_empty": "顯示空字段",
+                "show_when_empty-help": "不論字段是否為空，均在主題中顯示",
+                "validation": "校驗用戶輸入的值",
+                "user_values_allowed": "允許用戶輸入自定義值",
+                "user_values_allowed-help": "如果啟用此項，用戶可以添加自己的值，可以不選擇管理員指定的值。 這些值將根據「校驗」設置進行檢查。 如果禁用此項，他們只能使用「建議」的答案。\n",
+                "validation-help": "查看支持的 <a>Laravel 驗證規則</a>，例：\"string|min:5\" 或 \"url\"。\n",
+                "enable-user-values-for-validation": "啟用「用戶自定義值」以配置表單驗證規則",
+                "icon": "圖示",
+                "icon-help": "顯示在這個字段前的圖標。可用的圖標請查看 <a>FontAwesome 網站</a>，請使用完整圖標名，包括前綴，例如「fas fa-bolt」。\n",
+                "icon-preview": "預覽：{preview}",
+                "save-field-for-answers": "保存此字段以添加選項答案",
+                "is_suggested": "推薦答案",
+                "new-answer": "新建答案",
+                "new-answer-placeholder": "在此鍵入本文"
             },
             "messages": {
-                "delete-answer-confirmation": "",
-                "delete-field-confirmation": ""
+                "delete-answer-confirmation": "確定要刪除答案「{content}」？ 這將從所有使用它的主題中移除該答案，如果您想要保留現有答案請停用答案建議。 刪除答案？\n",
+                "delete-field-confirmation": "你確定要刪除字段「{name}」？ 這將從所有使用它們的主題中移除該字段及其答案。刪除字段？\n"
             },
             "settings": {
-                "fields-section-title": "",
-                "fields-section-title-placeholder": "",
-                "fields-section-title-help": "",
-                "column-count": "",
-                "n-columns": "",
-                "labels-as-placeholders": "",
-                "labels-as-placeholders-help": "",
-                "fields-in-hero": "",
-                "hide-empty-fields-section": "",
-                "hide-empty-fields-section-help": "",
-                "tags-as-field": "",
-                "tags-as-field-help": "",
-                "tags-field-name": "",
-                "tags-field-name-placeholder": ""
+                "fields-section-title": "自定義字段標題",
+                "fields-section-title-placeholder": "默認為空標題且不顯示",
+                "fields-section-title-help": "用戶將在文本編輯器和主題中看到這個文本。\n",
+                "column-count": "表單欄數",
+                "n-columns": "{count} 欄",
+                "labels-as-placeholders": "在表單的占位符中顯示字段名",
+                "labels-as-placeholders-help": "表單將占用更少的縱向空間，字段圖標將不再顯示。請注意，這可能會影響可用性，尤其是在編輯現有字段時。\n",
+                "fields-in-hero": "在主題頂部橫幅中顯示表單（而非首貼中）",
+                "hide-empty-fields-section": "當所有字段為空且隱藏時，隱藏標題和控件。",
+                "hide-empty-fields-section-help": "默認情況下，如果用戶可以編輯字段或設置標題，則即使所有字段都被隱藏，也會始終顯示該部分。啟用此選項後，該部分將被隱藏，並且當所有字段均為空白時，「編輯字段」按鈕僅在「回覆」下拉菜單中可用。\n",
+                "tags-as-field": "將標簽選擇器作為一個字段顯示",
+                "tags-as-field-help": "這將隱藏默認的標簽選擇器，並顯示一個自定義的下拉框。只有當您在標簽設置中最多允許單個主體選擇一個主標簽和一個次標簽時，此功能才會生效！\n",
+                "tags-field-name": "標籤字段名",
+                "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
             },
             "titles": {
-                "settings": "",
-                "fields": "",
-                "field-settings": "",
-                "field-answers": ""
+                "settings": "設置",
+                "fields": "表單欄位",
+                "field-settings": "欄位設置",
+                "field-answers": "欄位答案"
             },
             "permissions": {
-                "see-own-fields": "",
-                "see-other-fields": "",
-                "fill-fields": "",
-                "update-own-fields": "",
-                "update-other-fields": "",
-                "skip-required-fields": ""
+                "see-own-fields": "查看自己現有主題的表單",
+                "see-other-fields": "查看所有現有主題的表單",
+                "fill-fields": "填寫新主題的表單",
+                "update-own-fields": "更新自己主題的表單",
+                "update-other-fields": "更新任意主題的表單",
+                "skip-required-fields": "允許跳過必填字段"
             }
         }
     }
