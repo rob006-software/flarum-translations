@@ -377,6 +377,7 @@
 | [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/zerosonesfun-bbcode-button/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/zerosonesfun-bbcode-button/) |
 | [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/ziiven-daily-check-in/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/ziiven-daily-check-in/) |
 | [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/ziiven-post-number/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/ziiven-post-number/) |
+| [`ziiven/view-history`](https://github.com/Ziiven/view-history) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/ziiven-view-history/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/ziiven-view-history/) |
 
 <!-- various-extensions-list-stop -->
 
