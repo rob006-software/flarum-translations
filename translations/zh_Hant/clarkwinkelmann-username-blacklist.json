@@ -6,8 +6,8 @@
                 "regexHelp": "從域列表切換到正則表達式檢查。列表的每一行都必須是帶分隔符的有效正則表達式。\n",
                 "message": "自定義錯誤消息",
                 "blacklist": "黑名單",
-                "blacklistHelp": "",
-                "whitelist": "",
+                "blacklistHelp": "每行一個正則表達式。如果黑名單為空，所有非白名單的內容都會被拒絕。\n",
+                "whitelist": "白名單",
                 "whitelistHelp": ""
             }
         },
