@@ -14,7 +14,7 @@
                 "title": "Feltételek elfogadása"
             },
             "stripe": {
-                "interval_once": "egyszer"
+                "interval_once": "egyszeri"
             },
             "subscription-card": {
                 "bounty": "Jutalom",
@@ -95,7 +95,7 @@
                 "bump-others": "(PTB) Mások is kiemelhetik a témát",
                 "bump-others-description": "Ha be van kapcsolva, akkor nem csak a téma szerzője emelheti ki a témát fizetés ellenében.\n",
                 "select-bounty-product": "(Jutalom) Kötelező termék",
-                "select-bounty-product-description": "",
+                "select-bounty-product-description": "Válasszon egy terméket a jutalmakhoz történő beállításhoz. A termék csak egy árral rendelkezhet: „A vásárló adja meg az árat”. Másolja a termék <code>prod_</code> szöveggel kezdődő azonosítóját ebbe a mezőbe.\n",
                 "select-bounty-description": "A termék kiválasztása engedélyezi a jutalom beállítását. A terméknek csak egy ára lehet a modellel: „Egyéni ár választása”. Másolja a <code>prod_</code> szöveggel kezdődő azonosítót ebbe a mezőben.\n"
             },
             "edit-group": {
