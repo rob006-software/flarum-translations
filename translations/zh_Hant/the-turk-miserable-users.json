@@ -32,12 +32,12 @@
             },
             "miserable_user": {
                 "title": "制裁 {username}",
-                "status_heading": "",
-                "not_miserable_label": "",
-                "indefinitely_label": "",
-                "limited_time_label": "",
-                "limited_time_days_text": "",
-                "submit_button": ""
+                "status_heading": "制裁狀態",
+                "not_miserable_label": "不制裁",
+                "indefinitely_label": "永久制裁",
+                "limited_time_label": "自定義時長",
+                "limited_time_days_text": " 天",
+                "submit_button": "=> core.ref.save_changes"
             }
         },
         "ref": {
