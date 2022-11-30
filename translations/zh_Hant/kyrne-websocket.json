@@ -47,8 +47,8 @@
                 "cert_path": "僅在使用 SSL 而非反代理時啟動。您服務器上的 SSL (HTTPS) 證書路徑 - 通常是一個 .crt 或 .pem 文件。",
                 "pk_path": "僅在使用 SSL 而非反代理時啟動。您服務器上的 SSL (HTTPS) 私鑰路徑 - 通常是一個 .key 或 .pem 文件。",
                 "passphrase": "僅在使用 SSL 而非反代理時啟動。用於啟動證明書私鑰的密碼 - 通常不需要填寫。",
-                "self_signed": "",
-                "auth_only": ""
+                "self_signed": "僅在使用 SSL 而非反代理時啟動。如果您的 SSL (HTTPS) 證明書是自簽證明，請啟動此項。",
+                "auth_only": "只允許經過身份驗證的用戶連接到 websocket 服務器，可以減少 CPU 負載。"
             }
         }
     }
