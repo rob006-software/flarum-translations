@@ -46,11 +46,11 @@
         "email": {
             "post_mentioned": {
                 "subject": "{replier_display_name} 回覆了您【{title}】",
-                "body": ""
+                "body": "{recipient_display_name}，您好！\n\n{replier_display_name} 回覆了您在《{title}》(#{post_number}) 發表的內容：\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} 提到你【{title}】",
+                "body": "{recipient_display_name}，您好！\n\n{mentioner_display_name} 在《{title}》提及了您：\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
