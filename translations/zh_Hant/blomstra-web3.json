@@ -19,9 +19,9 @@
             },
             "evm-connect-wallet-modal": {
                 "title": "EVM 錢包",
-                "bind": "",
-                "disconnect": "",
-                "disconnect-and-unbind": "",
+                "bind": "=> blomstra-web3.ref.bind",
+                "disconnect": "=> blomstra-web3.ref.disconnect",
+                "disconnect-and-unbind": "斷開並解除綁定",
                 "select": ""
             },
             "polkadot-connect-wallet-modal": {
