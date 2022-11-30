@@ -32,14 +32,14 @@
                 "help": "搜索用戶以發起會話。",
                 "help_start": "發送第一條消息。您在收到 {username} 回覆前，僅能發送這一條消息。點擊用戶名以選擇其他用戶。",
                 "search_recipients": "輸入用戶名…",
-                "submit": "",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "submit": "發起會話",
+                "copied": "聊天記錄以覆制到剪切板。",
+                "more_users": "找不到用戶？那可能是因為對方還沒有初始化私信。",
+                "already": "您與 {username} 已存在一個會話。"
             },
-            "user_modal_alert": "",
+            "user_modal_alert": "{username} 已初始化私信，現在無法安全地修改他們的密碼。",
             "chat": {
-                "chat_with": "",
+                "chat_with": "{username}",
                 "messages_multiple": "",
                 "messages_single": "",
                 "start": "",
