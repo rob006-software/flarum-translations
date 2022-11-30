@@ -47,9 +47,9 @@
                 "cant_start": "無法開始會話",
                 "text_placeholder": "輸入你的訊息",
                 "send": "發送",
-                "recovery_message": "",
-                "failed_message": "",
-                "cant_send": "",
+                "recovery_message": "系統消息：加密同步丟失，已恢復。",
+                "failed_message": "無法解密消息，正在嘗試恢復方法 #{method}",
+                "cant_send": "在{username}恢復之前,您不能發送消息(僅限首次會話)",
                 "cant_send_toomany": "",
                 "failed_to_decrypt": "",
                 "start_of_conversation": ""
