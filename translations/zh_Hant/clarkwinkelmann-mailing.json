@@ -17,27 +17,27 @@
                 "recipients_placeholder": "添加其他收件人...",
                 "subject_label": "主題",
                 "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject",
-                "message_label": "",
-                "submit_button": ""
+                "message_label": "正文",
+                "submit_button": "發送"
             },
             "modal_sent": {
-                "title_text": "",
-                "on_its_way": ""
+                "title_text": "已發送！",
+                "on_its_way": "不錯！您的郵件正發送給 {recipientsCount} 位收件人！"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": "",
-                "email": ""
+                "user": "用戶",
+                "group": "用戶組",
+                "email": "郵箱"
             }
         },
         "api": {
-            "no_recipients": ""
+            "no_recipients": "没有匹配的收件人"
         },
         "email": {
-            "default_subject": ""
+            "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject"
         },
         "ref": {
-            "default_subject": ""
+            "default_subject": "來自論壇管理員的消息"
         }
     }
 }
