@@ -48,32 +48,32 @@
                         "users": {
                             "edit": "選擇或編輯用戶"
                         },
-                        "leave": "",
-                        "return": "",
+                        "leave": "退出聊天",
+                        "return": "加入聊天",
                         "delete": {
-                            "title": "",
-                            "desc": "",
-                            "placeholder": "",
-                            "button": ""
+                            "title": "確定要刪除這個聊天嗎？",
+                            "desc": "複製並貼上聊天室名稱以繼續",
+                            "placeholder": "聊天名稱",
+                            "button": "刪除聊天"
                         }
                     },
                     "search": {
-                        "placeholder": "",
-                        "failed": "",
-                        "invited": ""
+                        "placeholder": "搜索用戶",
+                        "failed": "找不到此用戶",
+                        "invited": "已經邀請"
                     },
-                    "save_button": ""
+                    "save_button": "=> core.ref.save_changes"
                 },
                 "list": {
-                    "pin": "",
-                    "unpin": "",
-                    "placeholder": "",
+                    "pin": "置頂",
+                    "unpin": "取消置頂",
+                    "placeholder": "篩選會話",
                     "preview": {
-                        "empty": ""
+                        "empty": "暫無消息"
                     },
                     "add_modal": {
-                        "title": "",
-                        "chat": "",
+                        "title": "選擇用戶",
+                        "chat": "聊天",
                         "channel": "",
                         "create": {
                             "chat": "",
