@@ -25,14 +25,14 @@
                 "copy": "league/flysystem-copy",
                 "dospaces": "league/flysystem-aws-s3-v3",
                 "dropbox": "spatie/flysystem-dropbox",
-                "gdrive": "",
-                "gridfs": "",
-                "rackspace": "",
-                "sftp": "",
-                "webdav": ""
+                "gdrive": "nao-pon/flysystem-google-drive",
+                "gridfs": "league/flysystem-gridfs",
+                "rackspace": "league/flysystem-rackspace",
+                "sftp": "league/flysystem-sftp",
+                "webdav": "league/flysystem-webdav"
             },
             "required-package-modal": {
-                "title": "",
+                "title": "{adapter} 所需的軟件包",
                 "content": ""
             },
             "adapter-settings-modal": {
