@@ -35,17 +35,17 @@
                     "group": "用戶組 #{id}",
                     "post": "回覆 #{id}",
                     "tag": "標籤 #{id}",
-                    "user": ""
+                    "user": "用戶 #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "回覆",
+                    "post": "帖子"
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
+                "noValue": "(無值)",
                 "noReason": "",
                 "client": {
                     "session": "",
