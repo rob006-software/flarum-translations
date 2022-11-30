@@ -1,45 +1,45 @@
 {
     "pay-to-see": {
         "forum": {
-            "pay_to_see_content": "",
-            "purchased_content": "",
-            "pay_to_see_owner_bypass": "",
-            "pay_to_see_content_bypass": "",
-            "toolbar_tooltip": "",
-            "set_pay_to_see_price": "",
-            "set_pay_to_see_price_success": "",
-            "remove_pay_to_see_price_success": "",
-            "modify_pay_to_see_price": "",
-            "ok": "",
-            "confirm": "",
-            "cancel": "",
-            "remove": "",
-            "need_pay2see_tag": "",
-            "not_support_anonymous": "",
-            "purchase_success": "",
-            "purchase_confirmation": "",
-            "purchase_confirmation_text": "",
-            "purchase_button": "",
-            "purchase_unlocked_button": "",
-            "purchase_error_not_found": "",
-            "purchase_error_insufficient_fund": "",
-            "purchase_error_no_permission": "",
-            "purchase_count": "",
+            "pay_to_see_content": "Payer pour voir le contenu",
+            "purchased_content": "Contenu acheté",
+            "pay_to_see_owner_bypass": "Payer pour voir le contenu (dérogatoire pour l'auteur)",
+            "pay_to_see_content_bypass": "Payer pour voir le contenu (dérogatoire avec les permissions)",
+            "toolbar_tooltip": "Insérer du contenu qu'il faut payer pour voir",
+            "set_pay_to_see_price": "Fixer le prix du contenu",
+            "set_pay_to_see_price_success": "Prix du contenu fixé",
+            "remove_pay_to_see_price_success": "Surpression du contenu qu'il faut payer pour voir",
+            "modify_pay_to_see_price": "Modifier le prix du contenu",
+            "ok": "Valider",
+            "confirm": "Confirmer",
+            "cancel": "Annuler",
+            "remove": "Supprimer",
+            "need_pay2see_tag": "Vous devez inclure la balise [pay][/pay] pour insérer du contenu qu'il faut payer pour voir",
+            "not_support_anonymous": "Le contenu payant n'est pas pris en charge dans les messages anonymes",
+            "purchase_success": "Achat effectué",
+            "purchase_confirmation": "Acheter le contenu",
+            "purchase_confirmation_text": "Êtes-vous sûr de vouloir payer {costText} ?",
+            "purchase_button": "Acheter le contenu",
+            "purchase_unlocked_button": "Contenu déverrouillé",
+            "purchase_error_not_found": "Impossible d'acheter le contenu",
+            "purchase_error_insufficient_fund": "Fonds insuffisants",
+            "purchase_error_no_permission": "Permission refusée",
+            "purchase_count": "Nombre d'achats : {count}",
             "notifications": {
-                "notification_setting_some_one_purchase_content": "",
-                "discussion_purchased": "",
-                "discussion_purchased_cost": ""
+                "notification_setting_some_one_purchase_content": "Quelqu'un a acheté mon contenu",
+                "discussion_purchased": "{username} a acheté votre contenu",
+                "discussion_purchased_cost": "Vous avez reçu {cost}"
             }
         },
         "admin": {
             "settings": {
-                "badge_icon": "",
-                "badge_icon_desc": ""
+                "badge_icon": "Icône de badge",
+                "badge_icon_desc": "Entrez le nom de n'importe quelle classe d'icône FontAwesome, y compris le préfixe <code>fas fa-</code>. Laissez vide pour supprimer le badge."
             },
             "permission": {
-                "allow_use_pay2see": "",
-                "allow_purchase_pay2see": "",
-                "allow_bypass_pay2see": ""
+                "allow_use_pay2see": "Permettre l'utilisation du contenu payant",
+                "allow_purchase_pay2see": "Permettre de payer pour voir le contenu",
+                "allow_bypass_pay2see": "Permettre des dérogations pour voir le contenu payant"
             }
         }
     }
