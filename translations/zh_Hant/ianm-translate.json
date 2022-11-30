@@ -42,33 +42,33 @@
         },
         "forum": {
             "unknown-language": "（未檢測到）",
-            "detected-language": "",
-            "translate-button-label": "",
+            "detected-language": "本帖使用了{postLang}",
+            "translate-button-label": "翻譯",
             "discussion": {
                 "post": {
-                    "close-translation": "",
-                    "translated-header": "",
-                    "translated-updated": ""
+                    "close-translation": "關閉翻譯",
+                    "translated-header": "機器人將{from}翻譯為{to}",
+                    "translated-updated": "使用 {provider} 最後更新 {time} 的翻譯"
                 }
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "翻譯",
                     "source-language": {
-                        "help": "",
-                        "label": ""
+                        "help": "禁用時，只會標記使用當前論壇語言以外的語言編寫的帖子。要使用檢測到的語言標記所有帖子，請啟用此設置。",
+                        "label": "總是顯示文章使用語言"
                     }
                 }
             }
         },
         "lib": {
             "providers": {
-                "deepl": "",
-                "google-free": "",
-                "google-cloud": ""
+                "deepl": "DeepL",
+                "google-free": "Google 翻譯",
+                "google-cloud": "Google Cloud 翻譯"
             },
             "settings": {
-                "api-key": ""
+                "api-key": "API Key"
             }
         }
     }
