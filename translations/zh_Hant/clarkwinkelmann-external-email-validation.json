@@ -13,9 +13,9 @@
                 "use-response-status-help": "2xx 狀態碼表示有效，4xx 狀態碼表示無效。",
                 "response-success-key": "存放狀態碼的 JSON 屬性路徑",
                 "response-success-key-help": "路徑格式 <code>key1.key2.key3</code>。使用 Laravel <code>Arr::get</code> 幫助類提取。狀態會被轉換為布爾值。僅當 HTTP 狀態碼尚未啟用時，此功能才會生效。如果響應是格式錯誤的 JSON 時，則會拋出異常。\n",
-                "default-error-message": "",
-                "default-error-message-help": "",
-                "response-error-key": "",
+                "default-error-message": "默認錯誤消息",
+                "default-error-message-help": "當郵箱驗證失敗、且無其他匹配消息時，將向用戶顯示此默認消息。若要多語言化此消息，請將此字段留空，使用「語言學家」擴展翻譯內置的錯誤消息。\n",
+                "response-error-key": "存放錯誤消息的 JSON 屬性路徑",
                 "response-error-key-help": ""
             }
         },
