@@ -45,17 +45,17 @@
                 "deletedResource": {
                     "discussion": "主題 #{id}",
                     "group": "用戶組 #{id}",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "post": "回覆#{id}",
+                    "tag": "標籤 {id}#",
+                    "user": "用戶 #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "回覆",
+                    "post": "回覆"
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
                 "noValue": "",
                 "noReason": "",
