@@ -23,13 +23,13 @@
                 "placeholder": "輸入郵箱地址…"
             },
             "blacklist_regex": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "黑名單正則表達式",
+                "description": "黑名單郵箱正則表達式",
+                "placeholder": "輸入正則表達式……"
             }
         },
         "forum": {
-            "generic_exception": "",
+            "generic_exception": "出了點問題，請聯系論壇管理員。",
             "blacklist_exception": "",
             "whitelist_exception": ""
         }
