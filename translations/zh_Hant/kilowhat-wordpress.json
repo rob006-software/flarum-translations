@@ -119,74 +119,74 @@
                 "unlink_help": "如果郵箱與 WordPress 賬號匹配，則該用戶下次使用 WordPress 登錄時，將再次鏈接。"
             },
             "settings": {
-                "edit_on_wordpress": ""
+                "edit_on_wordpress": "在主站修改郵箱和密碼"
             },
             "log_in": {
-                "with_wordpress_button": ""
+                "with_wordpress_button": "WordPress 帳號登入"
             },
             "summary-post": {
-                "head_label": "",
-                "blog_link": "",
-                "read_more": ""
+                "head_label": "WordPress 文章",
+                "blog_link": "前往部落格閱讀",
+                "read_more": "閱讀更多"
             },
             "embed": {
-                "title": ""
+                "title": "評論"
             },
             "embed-link-modal": {
-                "title": "",
-                "message": "",
-                "open": ""
+                "title": "離開評論",
+                "message": "這個頁面將帶您前往{href}",
+                "open": "打開連結"
             }
         },
         "api": {
             "blocked_actions": {
-                "login": "",
-                "password_reset": "",
-                "email_change": ""
+                "login": "這個帳號連結到wordpress，請前往主頁登錄。",
+                "password_reset": "這個帳號已與Wordpress帳號綁定，請使用主站登錄表單重置密碼。",
+                "email_change": "此賬號已與Wordpress綁定，請前往主站個人資料頁面修改郵箱。"
             },
             "health": {
-                "suspend-extension-required": "",
-                "cookie-domain-format": "",
-                "login-only-signup-open": "",
-                "lock-extension-required": "",
-                "tags-extension-required": "",
-                "tag-not-exist": "",
-                "debug-mode": "",
-                "config-url-trailing-slash": "",
-                "config-url-https": "",
-                "wordpress-username-missing": "",
-                "api-key-missing": "",
-                "wordpress-url-missing": "",
-                "wordpress-url-invalid": "",
-                "wordpress-url-index-php": "",
-                "wordpress-url-trailing-slash": "",
-                "wordpress-url-https": "",
-                "wordpress-url-mismatch": "",
-                "flarum-url-mismatch": "",
-                "api-key-mismatch": "",
-                "user-id-not-found": "",
-                "user-id-not-admin": "",
-                "sso-mismatch-flarum": "",
-                "sso-mismatch-wordpress": "",
-                "cookie-domain-mismatch": "",
-                "comments-mismatch-flarum": "",
-                "comments-mismatch-wordpress": "",
-                "api-error-json": "",
-                "api-error-401": "",
-                "api-error-other": ""
+                "suspend-extension-required": "必須啟用暫停擴展才能使用“用戶刪除操作”的“暫停”選項",
+                "cookie-domain-format": "cookie 域似乎不是有效域。 檢查它是否只是一個沒有任何協議或路徑的域",
+                "login-only-signup-open": "您需要在 Flarum 權限下禁用註冊才能使“僅允許 Wordpress 登錄”設置完全生效",
+                "lock-extension-required": "必須啟用 Lock 擴展才能使用 Comments 集成",
+                "tags-extension-required": "如需要添加標籤請啟用標籤擴展",
+                "tag-not-exist": "為“新評論主題的標籤 ID”選項選擇的標籤 ID {id} 不存在",
+                "debug-mode": "除錯模式已啟用如果完成後請關閉",
+                "config-url-trailing-slash": "config.php 中定義的 Flarum URL 不應有尾部斜杠（當前值：“{url}”）",
+                "config-url-https": "config.php 中定義的 Flarum URL 應該是 HTTPS（當前值：“{url}”）",
+                "wordpress-username-missing": "必須填寫“WordPress 管理員用戶名”設置",
+                "api-key-missing": "“Flarum API 密鑰”丟失。 嘗試刷新管理面板並檢查日誌文件是否存在可能的錯誤",
+                "wordpress-url-missing": "必須填寫“Wordpress URL”設置",
+                "wordpress-url-invalid": "“Wordpress URL”設置似乎不是有效的 URL（當前值：“{url}”）",
+                "wordpress-url-index-php": "“Wordpress URL”設置不得包含“/index.php”（當前值：“{url}”）",
+                "wordpress-url-trailing-slash": "“Wordpress URL”設置不得包含尾部斜杠（當前值：“{url}”）",
+                "wordpress-url-https": "“Wordpress URL”設置應為 HTTPS（當前值：“{url}”）",
+                "wordpress-url-mismatch": "Flarum 中的“WordPress URL”設置與 Wordpress 中的“WordPress 地址 (URL)”設置不匹配（預期：“{expected}”，實際：“{actual}”）",
+                "flarum-url-mismatch": "Wordpress 中的“Flarum URL”設置與 Flarum config.php 中配置的 URL 不匹配（預期：“{expected}”，實際：“{actual}”）",
+                "api-key-mismatch": "Wordpress 中的“Flarum API 密鑰”設置與 Flarum 中的“Flarum API 密鑰”設置不匹配（預期：“{expected}”，實際：“{actual}”）",
+                "user-id-not-found": "Wordpress 中的“Flarum 用戶 ID”設置與任何已知的 Flarum 用戶都不匹配（當前值：“{actual}”）。 要使用當前登錄的用戶，您可以使用 ID“{suggested}”\n",
+                "user-id-not-admin": "Wordpress 中的“Flarum 用戶 ID”設置與 Flarum 管理員不匹配（當前值：“{actual}”）。 要使用當前登錄的用戶，您可以使用 ID“{suggested}”\n",
+                "sso-mismatch-flarum": "SSO 集成在 Flarum 中啟用，但在 Wordpress 中未啟用",
+                "sso-mismatch-wordpress": "SSO 集成在 Wordpress 中啟用，但在 Flarum 中未啟用",
+                "cookie-domain-mismatch": "Wordpress 中的“Cookie 域”設置與 Flarum 中的“Cookie 域”設置不匹配（Wordpress 值為“{wordpress}”，Flarum 值為“{flarum}”）",
+                "comments-mismatch-flarum": "評論集成在 Flarum 中啟用，但在 Wordpress 中未啟用",
+                "comments-mismatch-wordpress": "Comments 集成在 Wordpress 中啟用，但在 Flarum 中未啟用",
+                "api-error-json": "嘗試訪問 Wordpress API 時出現錯誤：{message} - Body: {body}",
+                "api-error-401": "嘗試訪問 Wordpress API 時出現 401 錯誤。 仔細檢查 Flarum 中的“Wordpress 管理員用戶名”和 Wordpress 中的“Flarum API 密鑰”",
+                "api-error-other": "嘗試訪問 Wordpress API 時出現錯誤：{message}"
             },
             "wizard": {
-                "already_installed": "",
-                "api_unauthorized": "",
-                "api_error_get": "",
-                "api_error_post": "",
-                "invalid_wordpress_url": "",
-                "plugin_not_installed": ""
+                "already_installed": "Flarum 已經與 Wordpress 連接。 要再次運行該嚮導，請刪除 Flarum 中的“Wordpress URL”設置和 Wordpress 中的“Flarum API 密鑰”設置。\n",
+                "api_unauthorized": "我們無法使用提供的憑據進行身份驗證。 仔細檢查 URL、用戶名和密碼。 查看文檔以了解更多故障排除步驟。\n",
+                "api_error_get": "對 Wordpress 設置執行 GET 請求時出錯（{exception}）。",
+                "api_error_post": "對 Wordpress 設置執行 POST 請求時出錯（{exception}）。",
+                "invalid_wordpress_url": "Wordpress 中的“WordPress 地址 (URL)”設置似乎不是有效的 URL ({actual})。",
+                "plugin_not_installed": "該 Wordpress 站點上似乎沒有安裝或啟用 Wordpress 插件。 確保您至少安裝了 1.2.0 版。\n"
             }
         },
         "views": {
             "error": {
-                "missing_wordpress_embed": ""
+                "missing_wordpress_embed": "這篇文章還沒有評論線程。 如果您是Blog管理員，請發布帖子，或禁用並重新啟用評論以啟動話題。\n"
             }
         }
     }
