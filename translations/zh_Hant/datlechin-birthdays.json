@@ -37,19 +37,19 @@
                 "show_dob_year_help": "這將公開您的年齡。"
             },
             "edit_user": {
-                "dob_heading": ""
+                "dob_heading": "生日"
             },
             "nav": {
-                "nav_item": ""
+                "nav_item": "今天的生日"
             },
             "page": {
-                "discussion_count": "",
-                "post_count": ""
+                "discussion_count": "{count, plural, one {主題：#} other {主題：#}}",
+                "post_count": "{count, plural, one {回帖：#} other {回帖：#}}"
             }
         },
         "api": {
-            "invalid_dob_message": "",
-            "invalid_age_message": ""
+            "invalid_dob_message": "無效的出生日期",
+            "invalid_age_message": "很抱歉，您的年齡必須大於 {minAge} 歲。"
         }
     }
 }
