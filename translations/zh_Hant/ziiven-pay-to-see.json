@@ -28,18 +28,18 @@
             "notifications": {
                 "notification_setting_some_one_purchase_content": "有人購買了我的內容",
                 "discussion_purchased": "{username} 購買了您的內容",
-                "discussion_purchased_cost": ""
+                "discussion_purchased_cost": "您已收到{cost}"
             }
         },
         "admin": {
             "settings": {
-                "badge_icon": "",
-                "badge_icon_desc": ""
+                "badge_icon": "徽章圖示",
+                "badge_icon_desc": "輸入任何 FontAwesome 圖標類的名稱，包括 <code>fas fa-</code> 前綴。留空以移除徽章。"
             },
             "permission": {
                 "allow_use_pay2see": "",
                 "allow_purchase_pay2see": "",
-                "allow_bypass_pay2see": ""
+                "allow_bypass_pay2see": "允許跳過付費以查看內容"
             }
         }
     }
