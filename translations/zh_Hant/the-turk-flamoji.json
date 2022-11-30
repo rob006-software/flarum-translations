@@ -22,76 +22,76 @@
                 "initial_category_text": "打開 Emoji 選擇器時，默認顯示的分類頁面。",
                 "specify_categories_label": "啟用分類",
                 "specify_categories_text": "勾選要顯示的表情分類。",
-                "emoji_data_label": "",
-                "emoji_data_text": "",
-                "emoji_style_native_option": "",
+                "emoji_data_label": "Emoji 資料",
+                "emoji_data_text": "鼠標懸浮在表情上時，要用哪種語言顯示表情描述。",
+                "emoji_style_native_option": "原生",
                 "emoji_categories": {
-                    "smileys": "",
-                    "people": "",
-                    "animals": "",
-                    "food": "",
-                    "travel": "",
-                    "activities": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": ""
+                    "smileys": "=> the-turk-flamoji.ref.emoji_categories.smileys",
+                    "people": "=> the-turk-flamoji.ref.emoji_categories.people",
+                    "animals": "=> the-turk-flamoji.ref.emoji_categories.animals",
+                    "food": "=> the-turk-flamoji.ref.emoji_categories.food",
+                    "travel": "=> the-turk-flamoji.ref.emoji_categories.travel",
+                    "activities": "=> the-turk-flamoji.ref.emoji_categories.activities",
+                    "objects": "=> the-turk-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> the-turk-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> the-turk-flamoji.ref.emoji_categories.flags"
                 }
             },
             "custom_emojis_section": {
-                "heading_title": "",
-                "import_json_button": "",
-                "export_json_button": "",
-                "import_emojis_message": "",
+                "heading_title": "自訂義 Emojis",
+                "import_json_button": "導入 JSON",
+                "export_json_button": "導出 JSON",
+                "import_emojis_message": "僅導入 Emoji 配置，Emoji 圖片需要手動上傳到相應的目錄中。",
                 "edit_emoji": {
-                    "modal_title": "",
-                    "emoji_title_label": "",
-                    "delete_emoji_confirmation": "",
-                    "text_to_replace_label": "",
-                    "path_or_url_label": "",
-                    "submit_button": "",
-                    "delete_emoji_button": "",
-                    "saved_message": ""
+                    "modal_title": "添加 Emoji",
+                    "emoji_title_label": "Emoji 標題",
+                    "delete_emoji_confirmation": "確定要刪除這個 Emoji ？",
+                    "text_to_replace_label": "表情代碼",
+                    "path_or_url_label": "圖片路徑或 URL",
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_emoji_button": "删除 Emoji",
+                    "saved_message": "=> core.admin.settings.saved_message"
                 },
                 "emoji_list": {
-                    "load_more_button": ""
+                    "load_more_button": "=> core.forum.post_stream.load_more_button"
                 }
             }
         },
         "forum": {
             "composer": {
-                "emoji_tooltip": ""
+                "emoji_tooltip": "Emoji 表情"
             },
             "emoji-button": {
-                "search_placeholder": "",
-                "no_emojis_found_message": "",
+                "search_placeholder": "搜索 Emoji",
+                "no_emojis_found_message": "未找到相關表情",
                 "categories": {
-                    "recents": "",
-                    "smileys": "",
-                    "people": "",
-                    "animals": "",
-                    "food": "",
-                    "travel": "",
-                    "activities": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": "",
-                    "custom": ""
+                    "recents": "=> the-turk-flamoji.ref.emoji_categories.recents",
+                    "smileys": "=> the-turk-flamoji.ref.emoji_categories.smileys",
+                    "people": "=> the-turk-flamoji.ref.emoji_categories.people",
+                    "animals": "=> the-turk-flamoji.ref.emoji_categories.animals",
+                    "food": "=> the-turk-flamoji.ref.emoji_categories.food",
+                    "travel": "=> the-turk-flamoji.ref.emoji_categories.travel",
+                    "activities": "=> the-turk-flamoji.ref.emoji_categories.activities",
+                    "objects": "=> the-turk-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> the-turk-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> the-turk-flamoji.ref.emoji_categories.flags",
+                    "custom": "=> the-turk-flamoji.ref.emoji_categories.custom"
                 }
             }
         },
         "ref": {
             "emoji_categories": {
-                "recents": "",
-                "smileys": "",
-                "people": "",
-                "animals": "",
-                "food": "",
-                "travel": "",
-                "activities": "",
-                "objects": "",
-                "symbols": "",
-                "flags": "",
-                "custom": ""
+                "recents": "最近使用",
+                "smileys": "笑臉&情感",
+                "people": "人物 & 身體",
+                "animals": "動物 & 自然",
+                "food": "食物 & 飲料",
+                "travel": "旅行 & 地點",
+                "activities": "活動",
+                "objects": "物品",
+                "symbols": "標誌",
+                "flags": "旗幟",
+                "custom": "自定義"
             }
         }
     }
