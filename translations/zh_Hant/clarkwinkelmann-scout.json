@@ -25,11 +25,11 @@
                 "algoliaWriteTimeout": "Algolia Write Timeout (可選)",
                 "meilisearchHost": "Meilisearch Host",
                 "meilisearchKey": "Meilisearch Key",
-                "tntsearchMaxDocs": "",
-                "tntsearchFuzziness": "",
-                "tntsearchFuzzyDistance": "",
-                "tntsearchFuzzyPrefixLength": "",
-                "tntsearchFuzzyMaxExpansions": ""
+                "tntsearchMaxDocs": "TNT Search Max Docs (optional, maximum number of results)",
+                "tntsearchFuzziness": "TNT 搜索模糊性（拼寫錯誤/變體匹配）",
+                "tntsearchFuzzyDistance": "TNT 搜索模糊編輯距離（可選）",
+                "tntsearchFuzzyPrefixLength": "TNT 搜索模糊前綴長度（可選）",
+                "tntsearchFuzzyMaxExpansions": "TNT 搜索模糊度最大擴展（可選）"
             }
         }
     }
