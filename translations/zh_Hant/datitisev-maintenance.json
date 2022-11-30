@@ -20,14 +20,14 @@
                 "error_page_file_label": "錯誤頁面文件路徑",
                 "error_page_file_hint": "Flarum 根目錄下的路徑——也就是存放 <code>vendor</code> 和 <code>storage</code> 文件夾的地方。",
                 "error_page_label": "錯誤頁面 HTML/Blade",
-                "error_page_hint": ""
+                "error_page_hint": "您可以在 blade 中使用 $app、$translator、$settings、$title 和 $message 變量。"
             },
             "permissions": {
-                "allow_bypass_maintenance_label": ""
+                "allow_bypass_maintenance_label": "繞過維護模式（必須啟用設置）"
             }
         },
         "lib": {
-            "maintenance_active_message": "",
+            "maintenance_active_message": "論壇正在維護中。",
             "maintenance_active_not_db_message": "",
             "maintenance_active_disabled_api_message": ""
         },
