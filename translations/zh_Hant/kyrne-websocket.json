@@ -32,14 +32,14 @@
                 "secure": "強制 WebSocket WSS/HTTPS",
                 "title": "WebSocket / Pusher 設置",
                 "reverse_proxy": "反向代理支持",
-                "auth_only": ""
+                "auth_only": "僅向登錄用戶開放 Websocket"
             },
             "help": {
-                "stats": "",
-                "auto_update": "",
-                "app_id": "",
-                "app_key": "",
-                "secret": "",
+                "stats": "兩次統計的間隔時間，單位秒。推薦填寫一小時共 3600 秒至六小時共 21600 秒之間。默認為 7200 秒。",
+                "auto_update": "即時更新全部主題列表，不再顯示「有新內容」黃色橫幅。",
+                "app_id": "Pusher App ID - 如果使用內置 WebSocket 服務器，請保持默認值。",
+                "app_key": "Pusher App Key - 如果使用內置 WebSocket 服務器，請保持默認值。",
+                "secret": "Pusher App Secret - 如果使用內置 WebSocket 服務器，請保持默認值。",
                 "secure": "",
                 "host": "",
                 "reverse_proxy": "",
