@@ -35,18 +35,18 @@
                     "form": {
                         "title": {
                             "label": "聊天名稱",
-                            "validator": ""
+                            "validator": "至少1個字元"
                         },
                         "color": {
-                            "label": "",
-                            "validator": ""
+                            "label": "顏色",
+                            "validator": "十六進制格式"
                         },
                         "icon": {
-                            "label": "",
-                            "validator": ""
+                            "label": "=> core.ref.icon",
+                            "validator": "=> core.ref.icon_text"
                         },
                         "users": {
-                            "edit": ""
+                            "edit": "選擇或編輯用戶"
                         },
                         "leave": "",
                         "return": "",
