@@ -23,13 +23,13 @@
                 },
                 "likes": {
                     "you_text": "=> core.ref.you",
-                    "others_link": "",
-                    "liked_by_self_text": "",
-                    "liked_by_text": ""
+                    "others_link": "=> core.ref.some_others",
+                    "liked_by_self_text": "{users} 覺的很讚。",
+                    "liked_by_text": "{count, plural, one {{users} 覺得很讚} other {{users} 覺得很讚}}"
                 }
             },
             "modal": {
-                "title": "",
+                "title": "參加",
                 "name": "",
                 "submit": "",
                 "tools": {
