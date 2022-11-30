@@ -16,8 +16,8 @@
                 "message_title_label": "自定義訊息標題",
                 "message_title_help": "使用插值 <code>[time]</code> 表示時間，如「已經無回覆 [time] 之久了」。",
                 "message_description_label": "自定義訊息說明",
-                "tags_title": "",
-                "tags_help": ""
+                "tags_title": "標籤",
+                "tags_help": "為每個標簽單獨設置判斷主題帖過期的天數，留空表示使用默認天數。如果一個主題添加了多個標簽，則取標簽中最短的天數作為判斷標準。"
             }
         }
     }
