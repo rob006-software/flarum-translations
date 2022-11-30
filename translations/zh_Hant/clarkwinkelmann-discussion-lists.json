@@ -45,18 +45,18 @@
             },
             "badge": {
                 "private": "私人列表",
-                "series": ""
+                "series": "公開系列"
             },
             "series": {
-                "kind": "",
-                "expand": "",
-                "visit": ""
+                "kind": "系列",
+                "expand": "擴大",
+                "visit": "顯示所有內容"
             }
         },
         "api": {
-            "manualLimit": "",
-            "seriesAnyAddNotAllowed": "",
-            "seriesAnyConversionNotAllowed": ""
+            "manualLimit": "手動排序的列表不能包含超過50個主題",
+            "seriesAnyAddNotAllowed": "您只能將自己的主題添加到系列列表中",
+            "seriesAnyConversionNotAllowed": "無法將列表轉換為系列，因為它包含不屬於您自己的主題"
         }
     },
     "core": {
