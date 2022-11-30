@@ -19,9 +19,9 @@
             "setup_button": "兩步驗証",
             "setup_modal": {
                 "backups": {
-                    "copy_button": "",
-                    "download_button": "",
-                    "download_file_format": "",
+                    "copy_button": "複制",
+                    "download_button": "下載",
+                    "download_file_format": "{website_title} | {website_url}\n\n請妥善保存您的恢復代碼。\n\n恢復代碼：\n\n{codes}\n\n* 每個恢復代碼僅限使用一次。\n* 恢復代碼必須按照上方所列順序依次使用。\n* 當期恢復代碼生成時間 {date}。\n",
                     "modal_message": ""
                 },
                 "close_button": "",
