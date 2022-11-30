@@ -13,12 +13,12 @@
                 "min_age_help": "最低註冊年齡",
                 "date_format_label": "日期格式",
                 "date_format_help": "請使用 <a>dayjs</a> 日期格式，留空以使用默認設置。",
-                "date_none_year_label": ""
+                "date_none_year_label": "忽略年份"
             }
         },
         "forum": {
             "user": {
-                "birthday_text": "",
+                "birthday_text": "生日：{date}",
                 "age_text": ""
             },
             "header": {
