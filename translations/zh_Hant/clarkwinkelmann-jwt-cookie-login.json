@@ -23,16 +23,16 @@
                 "authorizationHeaderHelp": "如果此字段留空，<code>Authorization</code> 標頭將包含 <code>Token <JWT token></code>。",
                 "hiddenIframe": "隱藏的 iframe 網址",
                 "hiddenIframeHelp": "這個 iframe 將在 Flarum 單頁應用程序的所有頁面上離屏加載。它可用於定期刷新 cookie，並可使用瀏覽器消息傳遞來觸發頁面刷新以實現自動登錄或自動註銷。有關文檔，請參閱自述文件。\n",
-                "autoLoginDelay": "",
-                "autoLoginDelayHelp": "",
-                "logoutRedirect": "",
-                "logoutRedirectHelp": ""
+                "autoLoginDelay": "隱藏 iframe 的自動登錄延遲（毫秒）",
+                "autoLoginDelayHelp": "如果隱藏的 iframe 返回登錄狀態，在沒有用戶交互的情況下允許頁面刷新的秒數。超過該延遲後，用戶將收到一條警報，詢問他們是否要刷新頁面。\n",
+                "logoutRedirect": "註銷重定向 URL",
+                "logoutRedirectHelp": "在 JWT 無狀態會話期間，Flarum 註銷鏈接將被替換為指向此 URL 的鏈接。如果沒有設置值，註銷按鈕將被隱藏。\n"
             }
         },
         "forum": {
             "alert": {
-                "refresh": "",
-                "login": "",
+                "refresh": "刷新頁面",
+                "login": "已自動連接。",
                 "logout": ""
             }
         }
