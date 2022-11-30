@@ -19,10 +19,10 @@
                 "search_user_fields": "LDAP 用戶搜索字段（以逗號分隔）",
                 "user_mail": "LDAP 用戶郵件字段",
                 "user_username": "LDAP 用戶名字段",
-                "follow_referrals": "",
-                "use_ssl": "",
-                "use_tls": "",
-                "onlyUse": ""
+                "follow_referrals": "關注推薦",
+                "use_ssl": "使用 SSL",
+                "use_tls": "使用 TLS",
+                "onlyUse": "禁用 Flarum 登錄，僅使用 LDAP 身份認證"
             }
         }
     }
