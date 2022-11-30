@@ -22,10 +22,10 @@
                 "bind": "=> blomstra-web3.ref.bind",
                 "disconnect": "=> blomstra-web3.ref.disconnect",
                 "disconnect-and-unbind": "斷開並解除綁定",
-                "select": ""
+                "select": "=> blomstra-web3.ref.select"
             },
             "polkadot-connect-wallet-modal": {
-                "attach_address": "",
+                "attach_address": "=> blomstra-web3.ref.bind",
                 "connection-request-rejected": "",
                 "disconnect": "",
                 "goback": "",
