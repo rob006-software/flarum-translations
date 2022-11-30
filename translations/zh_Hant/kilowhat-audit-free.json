@@ -46,16 +46,16 @@
                     "members": "=> core.admin.permissions_controls.members_button"
                 },
                 "noValue": "(無值)",
-                "noReason": "",
+                "noReason": "(無原因)",
                 "client": {
-                    "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "session": "Web Session",
+                    "api_key": "API key",
+                    "access_token": "Access token",
+                    "cli": "命令行",
+                    "unknown": "未知客戶端"
                 },
                 "controls": {
-                    "hideRaw": "",
+                    "hideRaw": "隱藏原始日誌",
                     "showRaw": "",
                     "filterActor": "",
                     "filterIp": "",
