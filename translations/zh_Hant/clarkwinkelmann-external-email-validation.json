@@ -16,11 +16,11 @@
                 "default-error-message": "默認錯誤消息",
                 "default-error-message-help": "當郵箱驗證失敗、且無其他匹配消息時，將向用戶顯示此默認消息。若要多語言化此消息，請將此字段留空，使用「語言學家」擴展翻譯內置的錯誤消息。\n",
                 "response-error-key": "存放錯誤消息的 JSON 屬性路徑",
-                "response-error-key-help": ""
+                "response-error-key-help": "路徑格式為 <code>key1.key2.key3</code>。使用 Laravel <code>Arr::get</code> 幫助類提取。如果不設置此路徑，錯誤消息將會顯示出來。\n"
             }
         },
         "api": {
-            "email-validation-error": ""
+            "email-validation-error": "郵箱未通過外部校驗。"
         }
     }
 }
