@@ -21,13 +21,13 @@
             "purchase_confirmation_text": "您確定要支付 {costText} 嗎？",
             "purchase_button": "購買內容",
             "purchase_unlocked_button": "內容解鎖",
-            "purchase_error_not_found": "",
-            "purchase_error_insufficient_fund": "",
-            "purchase_error_no_permission": "",
-            "purchase_count": "",
+            "purchase_error_not_found": "無法購買內容",
+            "purchase_error_insufficient_fund": "資金不足",
+            "purchase_error_no_permission": "沒有權限",
+            "purchase_count": "購買數量：{count}",
             "notifications": {
-                "notification_setting_some_one_purchase_content": "",
-                "discussion_purchased": "",
+                "notification_setting_some_one_purchase_content": "有人購買了我的內容",
+                "discussion_purchased": "{username} 購買了您的內容",
                 "discussion_purchased_cost": ""
             }
         },
