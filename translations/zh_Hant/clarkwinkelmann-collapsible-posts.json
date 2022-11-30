@@ -23,13 +23,13 @@
             },
             "modal": {
                 "title": "折疊帖子",
-                "uncollapse": ""
+                "uncollapse": "取消折疊"
             },
             "badge": {
-                "post": ""
+                "post": "已折疊"
             },
             "stream": {
-                "hidden": "",
+                "hidden": "{count, plural, one {# 因 {reason} 已被折疊} other {# 因 {reason} 已被折疊}}",
                 "load": "",
                 "explanation": ""
             }
