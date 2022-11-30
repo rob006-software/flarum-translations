@@ -13,8 +13,8 @@
         "forum": {
             "stream": {
                 "noResults": "在這個主題中搜尋不到相關發文",
-                "unmatchedGap": "",
-                "otherAuthorsGap": ""
+                "unmatchedGap": "{count, plural, one {One non-matching post hidden} other {{count} non-matching posts hidden}}",
+                "otherAuthorsGap": "{count, plural, one {One post by another author hidden} other {{count} posts by other authors hidden}}"
             },
             "toolbar": {
                 "searchPlaceholder": "",
