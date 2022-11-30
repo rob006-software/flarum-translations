@@ -33,23 +33,23 @@
             },
             "required-package-modal": {
                 "title": "{adapter} 所需的軟件包",
-                "content": ""
+                "content": "為了使用這個驅動程序，您需要安裝一個特定的軟件包。您可以通過 Flarum 安裝目錄下運行 <code>composer require {package}</code> 命令來安裝。\n"
             },
             "adapter-settings-modal": {
-                "title": "",
+                "title": "配置{adapter}",
                 "local": {
                     "target": {
-                        "label": "",
-                        "description": ""
+                        "label": "目標路徑",
+                        "description": "指定用於儲存備份的本地目錄。"
                     }
                 },
                 "aliyun": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "終端",
+                        "description": "終端儲存的URL。"
                     },
                     "access-id": {
-                        "label": "",
+                        "label": "Access ID",
                         "description": ""
                     },
                     "access-key": {
