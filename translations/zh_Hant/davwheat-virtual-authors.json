@@ -26,64 +26,64 @@
                 "no_description": "=> davwheat-virtual-authors.ref.no_description",
                 "edit": "編輯虛擬作者",
                 "delete_confirmation": "刪除虛擬作者？",
-                "delete_a11y_tooltip": ""
+                "delete_a11y_tooltip": "删除"
             }
         },
         "lib": {
             "edit_modal": {
-                "title_edit": "",
-                "title_new": "",
-                "submit_edit": "",
-                "submit_new": "",
+                "title_edit": "編輯虛擬作者",
+                "title_new": "創建虛擬作者",
+                "submit_edit": "保存修改",
+                "submit_new": "創建虛擬作者",
                 "fields": {
-                    "name": "",
-                    "description": ""
+                    "name": "顯示名稱",
+                    "description": "描述（關於作者）"
                 }
             },
-            "discussion-badge": ""
+            "discussion-badge": "{count, plural, one {Has virtual author}, other {Has virtual authors}}"
         },
         "forum": {
             "virtual_author_page": {
-                "meta_title": "",
-                "credited_discussions": "",
-                "discussion_count": ""
+                "meta_title": "{displayName}-作者",
+                "credited_discussions": "主題由{displayName}創建",
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count"
             },
             "virtual_authors_list": {
-                "sidebar_link": "",
-                "empty_text": "",
-                "title": "",
-                "meta_title": "",
-                "filter_name_placeholder": "",
-                "discussion_count": "",
-                "no_description": ""
+                "sidebar_link": "作者",
+                "empty_text": "沒有作者。",
+                "title": "所有作者",
+                "meta_title": "所有作者",
+                "filter_name_placeholder": "以名字篩選",
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count",
+                "no_description": "這位作者對他們保持著神秘的氣氛。"
             },
             "virtual_authors_panel": {
-                "heading": "",
-                "error": "",
-                "item_link_tooltip": ""
+                "heading": "作者",
+                "error": "載入作者失敗。",
+                "item_link_tooltip": "查看{displayName}的所有主題"
             },
             "discussion_controls": {
-                "set_virtual_authors": ""
+                "set_virtual_authors": "設置虛擬作者"
             },
             "set_modal": {
-                "title": "",
-                "existing": "",
-                "add_new": "",
-                "none_existing": "",
-                "search": "",
-                "credit_placeholder": "",
-                "delete_confirmation": "",
-                "delete_button": "",
-                "add_button": "",
-                "added_button": "",
-                "no_description": "",
-                "virtual_author_exists": "",
-                "save": ""
+                "title": "設置虛擬作者",
+                "existing": "現有虛擬作者",
+                "add_new": "選擇新的虛擬作者",
+                "none_existing": "尚未選擇。",
+                "search": "搜尋虛擬作者",
+                "credit_placeholder": "信用（可選）",
+                "delete_confirmation": "從主題中移除虛擬作者？",
+                "delete_button": "移除",
+                "add_button": "增加",
+                "added_button": "已增加",
+                "no_description": "=> davwheat-virtual-authors.ref.no_description",
+                "virtual_author_exists": "已選擇！",
+                "save": "保存"
             }
         },
         "ref": {
-            "no_description": "",
-            "discussion_count": ""
+            "no_description": "（未設置說明）",
+            "discussion_count": "{count, plural, one {# discussion}, other {# discussions}}"
         }
     }
 }
