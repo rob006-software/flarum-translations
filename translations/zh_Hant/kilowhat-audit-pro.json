@@ -38,13 +38,13 @@
         "lib": {
             "browser": {
                 "filterPlaceholder": "篩選日志",
-                "filterApply": "",
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "filterApply": "套用",
+                "empty": "暫無記錄",
+                "loadMore": "載入更多",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
+                    "discussion": "主題 #{id}",
+                    "group": "用戶組 #{id}",
                     "post": "",
                     "tag": "",
                     "user": ""
