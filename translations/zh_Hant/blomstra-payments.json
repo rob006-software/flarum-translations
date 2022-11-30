@@ -41,77 +41,77 @@
             },
             "pay-to-bump": {
                 "description": "{count, plural, one {This discussion was bumped} other {{count} people bumped this discussion}}.",
-                "purchase-control": "",
-                "purchase-log-in": ""
+                "purchase-control": "快捷支付",
+                "purchase-log-in": "登錄並快捷支付"
             },
             "bounties": {
-                "purchase-control": "",
-                "enable-control": ""
+                "purchase-control": "添加賞金",
+                "enable-control": "啟用賞金"
             },
             "choose-bounty-amount-modal": {
-                "title": "",
-                "checkout-control": "",
-                "description": ""
+                "title": "選擇賞金金額",
+                "checkout-control": "收款處",
+                "description": "選擇您的支持金額”{subject}“或選擇自定義金額。"
             },
             "backers-widget": {
-                "backers": "",
-                "label": "",
-                "none": "",
-                "pledged": ""
+                "backers": "支援者",
+                "label": "{currency} {sum} 承諾",
+                "none": "還沒有支援者。",
+                "pledged": "承諾"
             },
             "tag": {
-                "require-payment-label": ""
+                "require-payment-label": "費用"
             },
             "payment-options-modal": {
-                "title": "",
-                "description": ""
+                "title": "使用者組{group} 付款方式",
+                "description": "選擇一個選項開始解鎖用戶組。您將被跳轉到第三方支付平臺 Stripe 完成付款。\n"
             },
             "access-portal": {
-                "options": "",
-                "purchase": "",
-                "subscribed": ""
+                "options": "選項",
+                "purchase": "付款",
+                "subscribed": "訂閱"
             },
             "nav": {
-                "access_portal": "",
-                "user_subscriptions": ""
+                "access_portal": "訪問門戶",
+                "user_subscriptions": "訂閱"
             },
             "exceptions": {
                 "out-of-bounds-amount": {
-                    "min": "",
-                    "max": ""
+                    "min": "支付{amount}是不允許的，{min}是最低金額。",
+                    "max": "支付{amount}是不允許的，{max}是最高金額。"
                 }
             }
         },
         "admin": {
             "edit-tag": {
-                "select-ptp-product": "",
-                "select-ptp-product-description": "",
-                "select-ptv-product": "",
-                "select-ptv-product-description": "",
-                "visible-from": "",
-                "visible-from-description": "",
-                "select-ptb-product": "",
-                "select-ptb-product-description": "",
-                "bump-others": "",
-                "bump-others-description": "",
-                "select-bounty-product": "",
-                "select-bounty-product-description": ""
+                "select-ptp-product": "收費計劃（PTP 付費發表）",
+                "select-ptp-product-description": "為標籤選擇收費計劃，標籤下主題帖的發表將需要支付相應的費用。按帖子收費，可適用於廣告貼。前往 Stripe 儀錶板創建「一次性」付費計劃，並將 <code>prod_</code> 開頭的ID粘貼到這裡。\n",
+                "select-ptv-product": "收費計劃（PTV 付費流覽）",
+                "select-ptv-product-description": "選擇一個收費計劃，以永久解鎖限界帖子的瀏覽許可權。前往 Stripe 儀錶板創建付費計劃，並將 <code>prod_</code>開頭的ID粘貼到這裡。\n",
+                "visible-from": "隱藏限界",
+                "visible-from-description": "指定付費才能解鎖的帖子。0 表示所有帖子，1 表示首貼后的帖子。\n",
+                "select-ptb-product": "（PTB）所需產品",
+                "select-ptb-product-description": "選擇產品需要支付該產品的費用，然後才能進行討論。\n",
+                "bump-others": "（PTB）允許其他人討論",
+                "bump-others-description": "如果啟用，不僅討論作者可以通過付款來增加討論。\n",
+                "select-bounty-product": "（賞金）需要產品",
+                "select-bounty-product-description": "選擇一個產品將它設置賞金。產品只能有一個價格：「自訂選擇價格」。複製產品ID並在開頭加入<code>prod_</code> 代碼。\n"
             },
             "edit-group": {
-                "select-pta-product": "",
-                "select-pta-product-description": ""
+                "select-pta-product": "收費計劃（PTA 付費加入）",
+                "select-pta-product-description": "選擇解鎖用戶組許可權的收費計劃。如果是訂閱制，則訪問權跟隨訂閱期限。前往 Stripe 儀錶板創建付費計劃，並將<code>prod_</code> 開頭的ID粘貼到這裡。\n"
             },
             "settings": {
-                "assign-bounty-tag-id": "",
-                "pk": "",
-                "sk": "",
-                "webhook-secret": "",
-                "link-access-portal": "",
-                "link-to-terms": "",
-                "recount-total-discussion-bounties": ""
+                "assign-bounty-tag-id": "在首次提交賞金後分配給討論的標記",
+                "pk": "公鑰（API）",
+                "sk": "金鑰 （api）",
+                "webhook-secret": "Webhook signing secret",
+                "link-access-portal": "在用戶會話下拉功能表中連結訪問門戶",
+                "link-to-terms": "付款條款網址",
+                "recount-total-discussion-bounties": "重新計算總賞金"
             },
             "permission": {
-                "enable-bounties": ""
+                "enable-bounties": "啟用賞金"
             }
         }
     }
