@@ -40,23 +40,23 @@
             },
             "post": {
                 "unmove": "取消選中",
-                "move": "",
-                "moving": ""
+                "move": "移動",
+                "moving": "等待移動"
             },
             "post_stream": {
-                "post_moved": ""
+                "post_moved": "{count, plural, one {{username} 移動一個帖子至「{target_discussion}」} other {{username} 移動 {count} 個帖子至「{target_discussion}」}}"
             }
         },
         "ref": {
-            "move_posts": "",
+            "move_posts": "移動帖子",
             "status": {
-                "old_to_new_move": ""
+                "old_to_new_move": "不能移動舊帖子至較新的主題。"
             }
         },
         "lib": {
             "discussion": {
                 "first_post": {
-                    "default_content": ""
+                    "default_content": "*此貼已被移動至**「[%DISCUSSION_NAME%](%POST_LINK%)」**。*\n"
                 }
             }
         }
