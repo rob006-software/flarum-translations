@@ -4,9 +4,9 @@
             "settings": {
                 "site_key": "Clé du site",
                 "secret_key": "Clé secrète",
-                "signup": "",
-                "signin": "",
-                "forgot": ""
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
             }
         },
         "forum": {
