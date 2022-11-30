@@ -13,9 +13,9 @@
                 "provider_settings_title": "提供商設置",
                 "provider_url": "提供商網址",
                 "endpoints_title": "提供商端點",
-                "endpoints_subtitle": "",
+                "endpoints_subtitle": "在此處添加您的提供商端點。如果您在上面添加了提供者 URL，並且您的提供者支持自動發現，則當您按下“保存設置”按鈕時，會自動發現（並保存）所需的端點（在刷新頁面之前，您不會在設置中看到新的端點） .如果填寫了提供者 URL 並且在提供者上啟用了自動發現，則您不必添加其他端點。如果您的提供商尚未實施，您可以在下方手動添加所需的端點。查看文檔以獲得更多幫助\n",
                 "endpoints": {
-                    "authorize": "",
+                    "authorize": "授權端點 URL",
                     "token": "",
                     "userinfo": "",
                     "logout": ""
