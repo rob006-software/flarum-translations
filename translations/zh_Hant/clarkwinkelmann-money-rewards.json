@@ -35,14 +35,14 @@
             "post": {
                 "action": "打賞",
                 "disallowedOwn": "您不能打賞自己的帖子。",
-                "disallowedOther": "",
-                "section": ""
+                "disallowedOther": "你不能打賞這個帖子。可能作者是匿名或已被注銷。",
+                "section": "打賞"
             },
             "record": {
-                "from": "",
-                "to": "",
-                "post": "",
-                "comment": ""
+                "from": "來自",
+                "to": "於",
+                "post": "於“{title}”中討論的<a>#{number} 帖</a>",
+                "comment": "評論："
             }
         },
         "api": {
