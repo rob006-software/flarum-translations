@@ -57,75 +57,75 @@
                         "description": "您的身份驗證訪問令牌密鑰"
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "桶",
+                        "description": "要使用的儲存桶。"
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "路徑前綴",
+                        "description": "可選擇的默認文件路徑前綴。"
                     }
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "終端",
+                        "description": "終端儲存的URL。"
                     },
                     "container": {
-                        "label": "",
-                        "description": ""
+                        "label": "容器",
+                        "description": "Azure 容器"
                     }
                 },
                 "aws": {
                     "credentials": {
                         "key": {
-                            "label": "",
-                            "description": ""
+                            "label": "Key",
+                            "description": "AWS 憑證密鑰"
                         },
                         "secret": {
-                            "label": "",
-                            "description": ""
+                            "label": "Secret",
+                            "description": "AWS 憑證密鑰"
                         }
                     },
                     "region": {
-                        "label": "",
-                        "description": ""
+                        "label": "區域",
+                        "description": "儲存桶的區域。"
                     },
                     "version": {
-                        "label": "",
-                        "description": ""
+                        "label": "版本",
+                        "description": "指定一個版本或留空表示最新版本。"
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "桶",
+                        "description": "要上傳到 S3儲存桶。"
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "路徑前綴",
+                        "description": "可選擇的默認文件路徑前綴。"
                     }
                 },
                 "dropbox": {
                     "access-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Access token",
+                        "description": "生成一個 oAuth 2 訪問令牌 @ https://www.dropbox.com/developers/apps."
                     }
                 },
                 "gdrive": {
                     "client": {
                         "id": {
-                            "label": "",
-                            "description": ""
+                            "label": "Client ID",
+                            "description": "按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md 的指示，創建一個 Google 項目，並取回您的 Client ID 和 Client Secret。\n"
                         },
                         "secret": {
-                            "label": "",
-                            "description": ""
+                            "label": "Client Secret",
+                            "description": " "
                         }
                     },
                     "refresh-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "刷新令牌",
+                        "description": "按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md 的指引，取回您的 Google oAuth 應用程序刷新令牌。\n"
                     },
                     "folder": {
-                        "label": "",
+                        "label": "Folder ID",
                         "description": ""
                     }
                 },
