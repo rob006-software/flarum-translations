@@ -2,7 +2,7 @@
     "fof-oauth": {
         "admin": {
             "configure_button_label": "Configurar con FoF OAuth",
-            "settings_accessibility_label": "",
+            "settings_accessibility_label": "Configuración de {name}",
             "settings": {
                 "only_icons_label": "Mostrar sólo los iconos del botón de inicio de sesión (diseño alternativo)",
                 "providers": {
@@ -60,8 +60,8 @@
             "user": {
                 "settings": {
                     "linked-account": {
-                        "label": "",
-                        "last-used-label": "",
+                        "label": "Cuentas vinculadas",
+                        "last-used-label": "Usado por última vez",
                         "link-created-label": "",
                         "orphaned-account": "",
                         "help": "",
