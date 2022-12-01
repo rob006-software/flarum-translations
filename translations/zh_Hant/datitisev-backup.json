@@ -126,51 +126,51 @@
                     },
                     "folder": {
                         "label": "Folder ID",
-                        "description": ""
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
                     }
                 },
                 "ftp": {
                     "host": {
-                        "label": "",
-                        "description": ""
+                        "label": "遠程主機名",
+                        "description": "要連接到的 FTP 主機名，例如 <em>ftp.yourdomain.local</em>。"
                     },
                     "username": {
-                        "label": "",
-                        "description": ""
+                        "label": "用戶名",
+                        "description": "要在 FTP 服務器上進行身份驗證的用戶名。"
                     },
                     "password": {
-                        "label": "",
-                        "description": ""
+                        "label": "請輸入帳號密碼",
+                        "description": "要在 FTP 服務器上進行身份驗證的密碼。"
                     },
                     "private-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "私鑰",
+                        "description": "FTP 連接認證時使用的私鑰的路徑（最好是絕對路徑）。"
                     },
                     "port": {
-                        "label": "",
-                        "description": ""
+                        "label": "端口",
+                        "description": "FTP 端口（默認 21）。"
                     },
                     "root": {
-                        "label": "",
-                        "description": ""
+                        "label": "根路徑",
+                        "description": "存儲備份的遠程根路徑（子目錄）。"
                     },
                     "passive": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "被動連結",
+                        "description": "是否使用被動 FTP 連接到服務器。"
                     },
                     "ssl": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "SSL",
+                        "description": "是否使用加密 SSL 連接到服務器。"
                     },
                     "timeout": {
-                        "label": "",
-                        "description": ""
+                        "label": "時間超時",
+                        "description": "等待與 FTP 服務器連接的秒數。"
                     }
                 }
             },
             "nav": {
-                "label": "",
-                "description": ""
+                "label": "備份",
+                "description": "儲存您的論壇副本。"
             }
         }
     }
