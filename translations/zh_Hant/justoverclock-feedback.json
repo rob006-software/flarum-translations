@@ -42,19 +42,19 @@
                 "contact-text": "或發送一個郵件！",
                 "type-message": "你想反饋什麼內容？",
                 "success": "非常感謝！👊",
-                "failed-title": "",
-                "failed-message": "",
-                "email-field-placeholder": "",
+                "failed-title": "發生錯鋘",
+                "failed-message": "請再試一次。 如果這種情況持續發生，請嘗試發送電子郵件。",
+                "email-field-placeholder": "郵箱(可選)",
                 "types": {
-                    "general": "",
-                    "idea": "",
-                    "bug": ""
+                    "general": "常規反饋",
+                    "idea": "新點子",
+                    "bug": "Bug 報告"
                 }
             },
             "email": {
-                "guest": "",
-                "subject": "",
-                "body": ""
+                "guest": "一位匿名用戶",
+                "subject": "意見",
+                "body": "來自用戶 {user} 的新 {type} 意見反饋！\n\n{message}\n\n回信郵箱：{email}\n鏈接：{url}\n"
             }
         }
     }
