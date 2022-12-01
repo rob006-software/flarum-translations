@@ -55,47 +55,47 @@
                 "name": "名字",
                 "name-help": "這條魚的名字。如果玩家有權限，就可以編輯魚的名字",
                 "create": "造魚",
-                "save": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "save": "保存魚",
+                "delete": "刪除魚",
+                "delete-confirmation": "確定要刪除魚「{name}」嗎？"
             },
             "moving-fish": {
-                "login": ""
+                "login": "登錄後可抓魚"
             },
             "fish-image": {
-                "alt": "",
-                "missing": ""
+                "alt": "魚「{name}」的圖像",
+                "missing": "缺少魚的圖像"
             },
             "round-alert": {
-                "message": "",
-                "rankings": ""
+                "message": "回合「{name}」，盡情抓魚吧！倒計時 {time}",
+                "rankings": "查看排行榜"
             },
             "basket": {
-                "title": "",
-                "drag-help": "",
-                "time": ""
+                "title": "魚簍",
+                "drag-help": "將魚拖放到主題貼、回覆貼或用戶主頁中",
+                "time": "放置倒計時：{time}"
             },
             "table-round": {
-                "loading": "",
-                "title": "",
-                "new": "",
-                "name": "",
-                "start": "",
-                "end": "",
-                "actions": "",
-                "edit": "",
-                "fishes": ""
+                "loading": "正在加載…",
+                "title": "回合",
+                "new": "新回合",
+                "name": "名稱",
+                "start": "開始",
+                "end": "直到",
+                "actions": "動作",
+                "edit": "編輯",
+                "fishes": "魚"
             },
             "table-fish": {
-                "loading": "",
-                "title": "",
-                "new": "",
-                "image": "",
-                "name": "",
-                "user-name": "",
-                "user-place": "",
-                "placement": "",
-                "actions": "",
+                "loading": "正在加載…",
+                "title": "回合 {name} 的魚",
+                "new": "新魚",
+                "image": "圖像",
+                "name": "名字",
+                "user-name": "最後命名人：",
+                "user-place": "最後放置人：",
+                "placement": "當前位置",
+                "actions": "動作",
                 "edit": "",
                 "no-user-name": "",
                 "no-user-place": "",
