@@ -89,95 +89,95 @@
                     "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
                     "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
                     "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
-                    "editAnyUser": "",
-                    "seeOwnDiscussion": "",
-                    "seeAnyDiscussion": "",
-                    "editOwnDiscussion": "",
-                    "editAnyDiscussion": ""
+                    "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                    "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                    "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                    "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                    "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion"
                 }
             },
             "form-create": {
-                "title": "",
+                "title": "新表格",
                 "field": {
-                    "title": ""
+                    "title": "標題"
                 },
                 "button": {
-                    "create": ""
+                    "create": "創建表格"
                 }
             },
             "form-edit-header": {
-                "back": "",
+                "back": "返回",
                 "category": {
-                    "standalone": "",
-                    "discussion": "",
-                    "user": ""
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
                 "tabs": {
-                    "template": "",
-                    "placement": "",
-                    "access": "",
-                    "notifications": "",
-                    "submissions": ""
+                    "template": "模板",
+                    "placement": "放置",
+                    "access": "Access",
+                    "notifications": "通知",
+                    "submissions": "意見書"
                 },
                 "access-status": {
-                    "closed": "",
-                    "create": "",
-                    "edit": "",
-                    "both": "",
-                    "enabled": "",
-                    "disabled": ""
+                    "closed": "已關閉",
+                    "create": "只創建",
+                    "edit": "只編輯",
+                    "both": "創建並編輯",
+                    "enabled": "啟用",
+                    "disabled": "草稿"
                 },
-                "controls": "",
-                "template-export": "",
-                "enable-expert-mode": "",
-                "disable-expert-mode": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": "",
+                "controls": "操作",
+                "template-export": "模板導入/導出",
+                "enable-expert-mode": "啟用專家模式",
+                "disable-expert-mode": "關閉專家模式",
+                "restore": "復原",
+                "hide": "删除",
+                "delete": "永久刪除",
+                "delete-confirmation": "表單“{title}”將被永久刪除",
                 "fields": {
-                    "private-title": "",
-                    "slug": ""
+                    "private-title": "私人標題",
+                    "slug": "自定義 URL 別名（可選）"
                 }
             },
             "form-edit": {
                 "warnings": {
-                    "show-on-signup-invalid-permissions": "",
-                    "show-on-composer-invalid-permissions": "",
-                    "linked-form-is-draft": "",
-                    "auto-link-permission-warning": ""
+                    "show-on-signup-invalid-permissions": "您需要為未批准的成員設置“查看自己的”和“編輯自己的”權限才能使用“在註冊中顯示”。\n",
+                    "show-on-composer-invalid-permissions": "確保“查看自己的”和“編輯自己的”權限與可以開始討論所選標籤的人相匹配，以便使用“在作曲家中顯示”。如果不確定，請設置為“成員”。即使您的設置正確，也會出現此消息。\n",
+                    "linked-form-is-draft": "此表格目前處於草稿模式。在“訪問”下啟用字段以顯示在論壇上。\n",
+                    "auto-link-permission-warning": "具有“自動創建討論”選項的表單在單獨訪問時使用全局填充權限。\n"
                 },
-                "expert-mode-warning": "",
+                "expert-mode-warning": "啟用專家模式。這使您可以自定義字段標識符和每個字段的權限。請務必閱讀有關這些功能的文檔，因為您可能會破壞某些東西！\n",
                 "section": {
-                    "template": "",
-                    "permissions": ""
+                    "template": "模板",
+                    "permissions": "權限"
                 },
                 "field": {
-                    "link": "",
-                    "title": "",
+                    "link": "特殊表格形式",
+                    "title": "公開標題",
                     "show-on-creation": {
-                        "discussion": "",
-                        "discussionHelp": "",
-                        "user": ""
+                        "discussion": "在討論編輯器顯示",
+                        "discussionHelp": "Flarum 討論編輯器不適合包含很多字段。 您應該安裝並啟用 <a>Composer Page</a> 擴展，以確保所有字段在所有設備上都可以訪問。\n",
+                        "user": "於註冊時顯示"
                     },
-                    "automatic-discussion": "",
-                    "automatic-discussion-help": "",
-                    "accept-submissions": "",
-                    "allow-modification": "",
-                    "enable": "",
-                    "max-submissions": "",
-                    "send-confirmation-to-participants": "",
-                    "notify-emails": "",
-                    "web-confirmation-message": "",
-                    "permission-see-own": "",
-                    "permission-see-any": "",
-                    "permission-edit-own": "",
-                    "permission-edit-any": ""
+                    "automatic-discussion": "從表單提交自動創建討論",
+                    "automatic-discussion-help": "啟用後，表單將繼續像獨立表單一樣可訪問。 提交內容將自動創建並連接到新的討論。\n",
+                    "accept-submissions": "接受新的提交",
+                    "allow-modification": "允許用戶編輯他們現有的提交",
+                    "enable": "啟用",
+                    "max-submissions": "最大提交數（留空表示無限制）",
+                    "send-confirmation-to-participants": "向參與者發送確認電子郵件",
+                    "notify-emails": "將數據的副本發送到那些以逗號分隔的電子郵件",
+                    "web-confirmation-message": "Web 上的確認消息（已啟用格式）",
+                    "permission-see-own": "查看自己的提交",
+                    "permission-see-any": "查看所有提交",
+                    "permission-edit-own": "編輯自己的提交",
+                    "permission-edit-any": "編輯所有提交請求"
                 },
                 "link-options": {
-                    "standalone": "",
-                    "groups": "",
-                    "all-groups": "",
+                    "standalone": "獨立",
+                    "groups": "個人主頁",
+                    "all-groups": "任意群組",
                     "tags": "",
                     "all-tags": ""
                 },
