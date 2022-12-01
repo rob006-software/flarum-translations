@@ -31,11 +31,11 @@
                 "redirect_articles_label": "Перенаправлення статей блогу",
                 "redirect_articles_text": "Коли це розширення ввімкнено, воно перенаправлятиме оригінальні URL-адреси дискусій на URL-адресу їхнього блогу.",
                 "redirect_tags_label": "Перенаправлення тегів блогу",
-                "redirect_tags_text": "",
-                "default_article_image_label": "",
-                "default_article_image_text": "",
-                "add_hero_label": "",
-                "add_hero_text": ""
+                "redirect_tags_text": "Якщо увімкнено, це розширення перенаправляє URL-адреси тегів блогу на URL-адресу категорії блогу.",
+                "default_article_image_label": "Зображення статті за налаштуванням",
+                "default_article_image_text": "Оберіть зображення статті за налаштуванням, яке буде відображатися, якщо зображення не встановлено.",
+                "add_hero_label": "Показати вітальний банер",
+                "add_hero_text": "Показувати вітальний банер на сторінках блогу, якщо він ще не був закритий."
             }
         },
         "forum": {
@@ -44,29 +44,29 @@
             "hidden": "Прихований",
             "recent_posts": "Останні публікації в блозі",
             "categories": "Категорії",
-            "forum_nav": "",
-            "return_to_overview": "",
-            "no_more_posts": "",
-            "category_empty": "",
+            "forum_nav": "Навігація форуму",
+            "return_to_overview": "Повернутися до огляду блогу ",
+            "no_more_posts": "У блозі відсутні статті.",
+            "category_empty": "У цій категорії немає записів у блогах.",
             "compose": {
-                "write_article": ""
+                "write_article": "Написати статтю"
             },
             "validation": {
-                "missing_id": ""
+                "missing_id": "Помилковий ID"
             },
             "article": {
-                "title": "",
-                "slug": "",
-                "summary": ""
+                "title": "Назва",
+                "slug": "Шлях",
+                "summary": "Короткий опис"
             },
             "comment_section": {
-                "comments": "",
-                "locked": ""
+                "comments": "Коментарі",
+                "locked": "Для цієї статті розділ коментарів відключений"
             },
             "review_article": {
-                "pending_review_title": "",
-                "pending_review": "",
-                "approve_article": "",
+                "pending_review_title": "Очікує на розгляд",
+                "pending_review": "Ця стаття знаходиться на затверджені і ще не опублікована",
+                "approve_article": "Затвердити статтю",
                 "approve_article_approved": ""
             },
             "tools": {
