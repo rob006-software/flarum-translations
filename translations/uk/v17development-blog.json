@@ -67,55 +67,55 @@
                 "pending_review_title": "Очікує на розгляд",
                 "pending_review": "Ця стаття знаходиться на затверджені і ще не опублікована",
                 "approve_article": "Затвердити статтю",
-                "approve_article_approved": ""
+                "approve_article_approved": "Стаття затверджена та опублікована"
             },
             "tools": {
-                "rename_article": "",
-                "edit_article": "",
-                "update_category": "",
-                "article_settings": "",
-                "approve_article": "",
-                "hide_article": "",
-                "recover_article": "",
-                "delete_forever": "",
-                "enable_comments": "",
-                "disable_comments": ""
+                "rename_article": "Перейменувати статтю",
+                "edit_article": "Редагувати статтю",
+                "update_category": "Оновити категорії",
+                "article_settings": "Налаштування статті",
+                "approve_article": "Затверджена стаття",
+                "hide_article": "Приховати статтю",
+                "recover_article": "Відновити статтю",
+                "delete_forever": "Видалити назавжди",
+                "enable_comments": "Увімкнути коментарі",
+                "disable_comments": "Приховати коментарі"
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "Перенаправлення на статтю в нашому блозі...",
+                    "link": "<a>Натисніть тут</a>, якщо сторінка не перенаправляє вас"
                 }
             },
             "composer": {
-                "no_title": "",
-                "enter_message_here": "",
-                "post_article": "",
-                "select_category": "",
-                "edit_categories": "",
-                "update_settings": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "comment_section": "",
-                "no_blog_tags_selected": "",
-                "post_without_blog_info": ""
+                "no_title": "Без заголовка",
+                "enter_message_here": "Введіть своє повідомлення тут",
+                "post_article": "Розмістити статтю",
+                "select_category": "Оберіть категорію",
+                "edit_categories": "Редагувати категорії",
+                "update_settings": "Оновлення налаштувань блогу",
+                "write": "Написати",
+                "view": "Перегляд",
+                "nothing_to_preview": "Відсутній перегляд",
+                "comment_section": "При написанні статті розділ коментарів недоступний.",
+                "no_blog_tags_selected": "Жоден з обраних вами тегів не є тегом блогу. Будь ласка, оберіть хоча б один.",
+                "post_without_blog_info": "Ви впевнені, що хочете опублікувати цю публікацію в блозі? Ви ще не додали вступний текст до блогу або зображення."
             },
             "article_settings": {
-                "title": "",
+                "title": "Налаштування публікації в блозі",
                 "fields": {
                     "summary": {
-                        "title": "",
-                        "placeholder": "",
-                        "helper_text": ""
+                        "title": "Вступний текст",
+                        "placeholder": "Будь ласка, введіть вступний текст",
+                        "helper_text": "Ця вступна части буде видно на сторінці огляду блогу і буде використовуватися для SEO."
                     },
                     "image": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "Зображення статті",
+                        "helper_text": "Найкраща роздільна здатність зображень для соціальних мереж: 1200x630"
                     },
                     "highlight": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "Виділений пост",
+                        "helper_text": "Зробіть це повідомлення з великим зображенням на сторінці огляду блогу."
                     }
                 }
             }
