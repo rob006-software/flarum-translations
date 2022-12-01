@@ -319,7 +319,7 @@
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "Te hemos enviado un correo electrónico que contiene un enlace para restablecer tu contraseña. Si no aparece pronto, por favor, comprueba la carpeta de correo no deseado (spam).",
+                "email_sent_message": "Si el correo electrónico que ingresaste está registrado en este sitio, te enviaremos un correo electrónico con un enlace para restablecer tu contraseña. Si no aparece pronto, por favor, comprueba la carpeta de correo no deseado (spam).",
                 "not_found_message": "No hay ningún usuario registrado con esa dirección de correo electrónico.",
                 "submit_button": "Restablecer contraseña",
                 "text": "Introduce tu correo electrónico y te enviaremos un enlace para restablecer tu contraseña.",
@@ -495,7 +495,7 @@
             },
             "error": {
                 "dependent_extensions_message": "No se puede desactivar {extension} hasta que se desactiven las siguientes extensiones dependientes: {extensions}",
-                "extension_initialiation_failed_message": "",
+                "extension_initialiation_failed_message": "{extension} no se pudo inicializar, consulta la consola del navegador para obtener más información.",
                 "generic_message": "¡Caramba! Algo salió mal. Por favor, carga de nuevo la página y vuelve a intentarlo.",
                 "missing_dependencies_message": "No se puede activar {extension} hasta que se activen las siguientes extensiones dependientes: {extensions}",
                 "not_found_message": "¡Recórcholis! El recurso solicitado no fue encontrado.",
@@ -508,8 +508,8 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Página # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Página # - {forumName}}}"
             },
             "modal": {
                 "close": "Cerrar"
@@ -527,7 +527,7 @@
                 "two_text": "{first} y {second}"
             },
             "username": {
-                "deleted_text": "[Borrado]"
+                "deleted_text": "[borrado]"
             }
         },
         "views": {
