@@ -50,9 +50,9 @@
                 "recovery_message": "系統消息：加密同步丟失，已恢復。",
                 "failed_message": "無法解密消息，正在嘗試恢復方法 #{method}",
                 "cant_send": "在{username}恢復之前,您不能發送消息(僅限首次會話)",
-                "cant_send_toomany": "",
-                "failed_to_decrypt": "",
-                "start_of_conversation": ""
+                "cant_send_toomany": "在發送更多消息之前，請等候 {username} 的回覆",
+                "failed_to_decrypt": "[ 解密失敗]",
+                "start_of_conversation": "開始會話"
             }
         }
     }
