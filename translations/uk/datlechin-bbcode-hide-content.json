@@ -2,14 +2,14 @@
     "datlechin-bbcode-hide-content": {
         "admin": {
             "permissions": {
-                "bypass_like_label": "",
-                "bypass_reply_label": ""
+                "bypass_like_label": "Вимога щодо обходу",
+                "bypass_reply_label": "Вимога щодо обходу відповіді"
             }
         },
         "forum": {
-            "must_be_logged_in": "",
-            "must_liked": "",
-            "must_replied": ""
+            "must_be_logged_in": "Ви повинні увійти, щоб переглянути цей контент",
+            "must_liked": "Ви повинні вподобати цей контент, щоб переглянути його",
+            "must_replied": "Ви повинні відповісти на цей вміст, щоб переглянути його"
         }
     }
 }
