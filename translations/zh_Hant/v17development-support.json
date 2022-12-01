@@ -164,7 +164,7 @@
                     },
                     "open": {
                         "title": "進行中",
-                        "description": "此工单有新回复，等待答复中。"
+                        "description": "此工單有新回覆，等待答覆中。"
                     },
                     "pending": {
                         "title": "待答覆",
@@ -179,141 +179,141 @@
                         "is_auto_closed": "由於長時間未得到您的回覆，此工單已關閉。"
                     },
                     "on_hold": {
-                        "title": "",
-                        "description": ""
+                        "title": "保留",
+                        "description": "工單狀態變更為保留."
                     },
                     "duplicate": {
-                        "title": "",
-                        "description": ""
+                        "title": "重複",
+                        "description": "這個工單被標記為重複."
                     },
                     "solved": {
-                        "title": "",
-                        "description": "",
-                        "mark_as_solved": ""
+                        "title": "已解決",
+                        "description": "此工單被標記為已解決",
+                        "mark_as_solved": "標記工單為已解決"
                     }
                 },
                 "tools": {
-                    "view_ticket": "",
-                    "update_subject": "",
-                    "assign_me": "",
-                    "remove_me": "",
-                    "update_status": "",
-                    "close_ticket": "",
-                    "update_note": ""
+                    "view_ticket": "查看工單",
+                    "update_subject": "更新工單",
+                    "assign_me": "分配給我",
+                    "remove_me": "移除我",
+                    "update_status": "更新工單狀態",
+                    "close_ticket": "關閉工單",
+                    "update_note": "更新私密備註"
                 },
                 "new_tickets_dropdown": {
-                    "title": "",
-                    "no_tickets": "",
-                    "ticket_new": "",
-                    "ticket_updated": ""
+                    "title": "工單通知",
+                    "no_tickets": "尚無工單通知",
+                    "ticket_new": "{username} 創建工單{ticket}",
+                    "ticket_updated": "{username} 回覆 {ticket}"
                 },
                 "fields": {
                     "language": {
-                        "title": "",
-                        "placeholder": "",
-                        "empty": "",
-                        "description": ""
+                        "title": "語言",
+                        "placeholder": "選擇一個語言",
+                        "empty": "尚未選擇語言",
+                        "description": "您的客服工單將以 {language} 處理。"
                     },
                     "subject": {
-                        "title": "",
-                        "placeholder": "",
-                        "description": ""
+                        "title": "主題",
+                        "placeholder": "工單主題",
+                        "description": "試著用一句簡短的話來描述你的問題。"
                     },
                     "information": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "工單信息",
+                        "placeholder": "請告訴我們您需要哪些幫助"
                     },
                     "status": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "狀態",
+                        "placeholder": "工單狀態"
                     },
                     "assignees": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "專員",
+                        "placeholder": "工單狀態"
                     },
                     "private_note": {
-                        "title": "",
-                        "info": "",
-                        "tip": "",
-                        "placeholder": "",
-                        "edit_button": ""
+                        "title": "個人備註",
+                        "info": "備注僅對其他客服可見，客戶不可見。",
+                        "tip": "提示：如果一個工單有多個客服處理，請在備注時加上你的姓名和日期。",
+                        "placeholder": "例如：2022.1.1 - 處理：刪除數據庫",
+                        "edit_button": "編輯備註"
                     }
                 },
                 "compose_ticket": {
-                    "title": "",
-                    "private_support": "",
-                    "not_allowed": ""
+                    "title": "發表新工單",
+                    "private_support": "若需要一對一支持，您可以使用此表單在我們的客服平台上創建一個新的工單。對於非一對一支持，請參見<a>我們的公共論壇</a>。",
+                    "not_allowed": "您當前無法創建新客服工單"
                 },
                 "load_more": {
-                    "title": ""
+                    "title": "加載更多工單"
                 },
                 "my_tickets": {
-                    "title": "",
-                    "description": "",
-                    "no_tickets": ""
+                    "title": "我的工單",
+                    "description": "在此頁面您可以找到所有一對一工單。",
+                    "no_tickets": "您尚無工單。"
                 },
                 "overview": {
-                    "title": "",
-                    "description": "",
-                    "no_tickets": "",
-                    "all_tickets": "",
-                    "selection_unfiltered": "",
-                    "selection_open": "",
-                    "selection_closed": "",
-                    "refresh": "",
+                    "title": "工單預覽",
+                    "description": "微笑，你是拯救他人的英雄。",
+                    "no_tickets": "暫無工單分配給您。",
+                    "all_tickets": "所有工單",
+                    "selection_unfiltered": "清除篩選條件",
+                    "selection_open": "進行中",
+                    "selection_closed": "已結單",
+                    "refresh": "刷新",
                     "filter": {
                         "status": {
-                            "title": "",
-                            "filter_count": ""
+                            "title": "工單狀態",
+                            "filter_count": "{count, plural, one {# 過濾條件} other {# 過濾條件}}"
                         },
                         "language": {
-                            "any": ""
+                            "any": "任意語言"
                         },
                         "assignees": {
-                            "title": "",
-                            "search": "",
-                            "unassigned": ""
+                            "title": "負責人",
+                            "search": "搜索負責人",
+                            "unassigned": "未指派"
                         }
                     },
                     "sort": {
-                        "newest": "",
-                        "oldest": "",
-                        "recent_activity": "",
-                        "least_recent": ""
+                        "newest": "最新",
+                        "oldest": "最早",
+                        "recent_activity": "新動態",
+                        "least_recent": "非新動態"
                     }
                 }
             },
             "notifications": {
                 "replied_to_ticket": {
-                    "name": "",
-                    "content": ""
+                    "name": "有人回覆我的工單",
+                    "content": "=> v17development-flarum-support.emails.replied_to_ticket.subject"
                 },
                 "ticket_resolved": {
-                    "name": "",
-                    "content": ""
+                    "name": "工單已解決",
+                    "content": "=> v17development-flarum-support.emails.ticket_resolved.subject"
                 }
             }
         },
         "emails": {
             "replied_to_ticket": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name} 回覆了你的工單 #{ticket_id}",
+                "body": "尊敬的用戶 {recipient_display_name},\n\n{replier_display_name} 回覆了您的工單 #{ticket_id}《{subject}》。\n\n請點擊下方鏈接查看回覆：\n{url}\n\n我們正在等待您的回覆，若問題已解決，請將工單標記為已解決。\n"
             },
             "ticket_status_update": {
-                "subject": "",
-                "body": ""
+                "subject": "工單 #{ticket_id} 被標記為 {new_status}",
+                "body": "尊敬的用戶 {recipient_display_name}，\n\n您的工單 #{ticket_id} 狀態變更為 {new_status}。\n\n您的工單鏈接：\n{url}\n"
             },
             "ticket_resolved": {
-                "subject": "",
-                "body": ""
+                "subject": "工單 #{ticket_id} 被標記為已解決",
+                "body": "尊敬的用戶 {recipient_display_name}，\n\n您的工單 #{ticket_id} 被標記為已解決，並已關閉。\n\n您的工單鏈接：\n{url}\n\n如果您對此標記有異議，請回覆工單以重新打開。\n"
             },
             "ticket_pending_reply": {
-                "subject": "",
-                "body": ""
+                "subject": "工單 #{ticket_id} 需要您的回覆",
+                "body": "尊敬的用戶 {recipient_display_name}，\n\n近期 {replier_display_name} 於 {replied_date} 回覆了您的工單 #{ticket_id}，我們正在等候您的回覆。\n\n您的工單鏈接：\n{url}\n\n如果此問題已解決，請將工單標記為已解決。\n"
             },
             "ticket_pending_reply_closed": {
-                "subject": "",
-                "body": ""
+                "subject": "工單 #{ticket_id} 由於沒有活動現已關閉",
+                "body": "尊敬的用戶 {recipient_display_name}，\n\n近期 {replier_display_name} 回覆了您的工單 #{ticket_id}。由於長時間未得到您的回覆，您的工單已被自動關閉。\n\n如您的問題沒有解決，您可以再次回帖：\n{url}\n"
             }
         }
     }
