@@ -27,7 +27,7 @@
                 "reason": "Motivo de la suspensión",
                 "status_heading": "Estado de la suspensión",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Suspender a {user}"
+                "title": "Suspender a {username}"
             },
             "user_badge": {
                 "suspended_tooltip": "Suspendido"
@@ -37,14 +37,14 @@
             }
         },
         "email": {
-            "no_reason_given": "",
+            "no_reason_given": "No se dio ningún motivo para esta suspensión.",
             "suspended": {
-                "subject": "",
-                "body": ""
+                "subject": "Tu cuenta ha sido suspendida",
+                "body": "Hey {recipient_display_name},\n\nHas sido suspendido por el siguiente motivo:\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
-                "subject": "",
-                "body": ""
+                "subject": "Han quitado la suspensión a tu cuenta",
+                "body": "Hey {recipient_display_name},\n\nTe han quitado la suspensión. Puedes volver al foro haciendo clic en el siguiente enlace:\n\n{forum_url}\n"
             }
         }
     }
