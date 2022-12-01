@@ -44,50 +44,50 @@
                 "youtubePlayer": "允許從預覽中播放 YouTube 視頻",
                 "youtubePlayerHelp": "當用戶單擊預覽中的播放按鈕時，將按需加載 iframe 播放器。 您必須配置 CSP 和幀標頭以允許來自 YouTube 域名的幀。 無需 API 訪問即可使用此功能。\n",
                 "youtubeNoCookie": "使用 YouTube no-cookie iframe 域",
-                "youtubeNoCookieHelp": "",
-                "youtubeApiPreviews": "",
-                "youtubeApiPreviewsHelp": "",
-                "googledriveApiPreviews": "",
-                "googledriveApiPreviewsHelp": ""
+                "youtubeNoCookieHelp": "切換到 YouTube 提供的備用無 cookie 域。 啟用此選項後，某些視頻可能無法在 iframe 中播放。 無需 API 訪問即可使用此功能。\n",
+                "youtubeApiPreviews": "啟用高級 API 支持的豐富 YouTube 預覽",
+                "youtubeApiPreviewsHelp": "Google API SDK 必須在上面配置。 此功能將顯示有關視頻的更多統計信息，並可以顯示 SDK 用戶有權訪問的私人視頻。\n",
+                "googledriveApiPreviews": "啟用高級 API 支持的豐富 Google 雲端硬盤預覽",
+                "googledriveApiPreviewsHelp": "Google API SDK 必須在上面配置。 此功能將顯示 Google Drive 文件的標題和預覽。 使用可以訪問私有驅動器的服務帳戶來啟用私有文件的預覽。\n"
             },
             "section": {
-                "siteSpecificHelp": "",
-                "flarum": "",
-                "github": "",
-                "google": "",
-                "youtube": "",
-                "googledrive": ""
+                "siteSpecificHelp": "以下是特定於站點的設置，這些設置使用無法通過 OpenGraph 和 HTML 抓取獲得的數據來改進嵌入。所有選項都是可選的。一些選項需要第三方 API 訪問，這可能會帶來速率限制或費用。\n",
+                "flarum": "Flarum",
+                "github": "GitHub",
+                "google": "Google",
+                "youtube": "YouTube",
+                "googledrive": "Google Drive"
             },
             "permissions": {
-                "viewGoogleDriveThumbnails": "",
-                "useOnOwnPost": "",
-                "disableOnOwnPost": "",
-                "refreshOnOwnPost": "",
-                "disableOnAnyPost": "",
-                "refreshOnAnyPost": ""
+                "viewGoogleDriveThumbnails": "查看 API 支持的 Google 雲端硬盤略圖",
+                "useOnOwnPost": "在自己的帖子中使用嵌入",
+                "disableOnOwnPost": "禁止在自己的帖子中使用嵌入",
+                "refreshOnOwnPost": "在自己的帖子上刷新嵌入",
+                "disableOnAnyPost": "禁止在任何的帖子中使用嵌入",
+                "refreshOnAnyPost": "在任何的帖子上刷新嵌入"
             },
             "preview": {
-                "title": "",
-                "refresh": "",
-                "loading": ""
+                "title": "預覽",
+                "refresh": "重新載入",
+                "loading": "正在加載…"
             }
         },
         "lib": {
             "embed": {
-                "altFavicon": "",
-                "altImageFallback": "",
-                "altAvatar": "",
+                "altFavicon": "{website} 圖示",
+                "altImageFallback": "{website} Opengraph 圖片",
+                "altAvatar": "用戶頭像",
                 "missing": {
-                    "retrieving": "",
-                    "other": ""
+                    "retrieving": "正在檢索...",
+                    "other": "無法為此鏈接生成預覽"
                 }
             },
             "controls": {
-                "refresh": "",
-                "disable": "",
-                "disableConfirmation": "",
-                "imgCopy": "",
-                "imgCopied": "",
+                "refresh": "刷新頁面",
+                "disable": "禁止在這個帖子中使用嵌入",
+                "disableConfirmation": "所有嵌入將從這篇文章中刪除。繼續？",
+                "imgCopy": "複制圖像綱址",
+                "imgCopied": "已復制",
                 "imgOpen": "",
                 "play": "",
                 "expandDescription": ""
