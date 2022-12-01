@@ -87,91 +87,91 @@
                 "disable": "禁止在這個帖子中使用嵌入",
                 "disableConfirmation": "所有嵌入將從這篇文章中刪除。繼續？",
                 "imgCopy": "複制圖像綱址",
-                "imgCopied": "已復制",
-                "imgOpen": "",
-                "play": "",
-                "expandDescription": ""
+                "imgCopied": "已復制！",
+                "imgOpen": "在新分頁開啟圖像",
+                "play": "單擊以使用嵌入式播放器播放媒體",
+                "expandDescription": "展開說明"
             }
         },
         "api": {
             "error": {
-                "blacklistedUrl": "",
-                "invalidUrl": ""
+                "blacklistedUrl": "網址 {url} 尚未列入嵌入白名單。",
+                "invalidUrl": "網址 {url} 無效。"
             },
             "embed": {
                 "flarum": {
                     "discussion": {
-                        "type": "",
+                        "type": "主題",
                         "stats": {
-                            "commentCount": "",
-                            "participantCount": "",
-                            "createdAt": ""
+                            "commentCount": "回覆",
+                            "participantCount": "參與者",
+                            "createdAt": "開始日期"
                         }
                     },
                     "user": {
-                        "type": "",
-                        "avatarAlt": "",
+                        "type": "基本資料",
+                        "avatarAlt": "頭像",
                         "stats": {
-                            "discussionCount": "",
-                            "commentCount": "",
-                            "joinTime": ""
+                            "discussionCount": "主題帖",
+                            "commentCount": "評論",
+                            "joinTime": "加入日期"
                         }
                     }
                 },
                 "github": {
-                    "siteName": "",
-                    "privateRepoSuffix": "",
+                    "siteName": "GitHub",
+                    "privateRepoSuffix": "[private]",
                     "issue": {
-                        "type": "",
+                        "type": "問題",
                         "stats": {
-                            "commentCount": "",
-                            "createdAt": ""
+                            "commentCount": "評論",
+                            "createdAt": "發佈於"
                         }
                     },
                     "pull": {
-                        "type": "",
+                        "type": "提出請求",
                         "stats": {
-                            "commentCount": "",
-                            "reviewCount": "",
-                            "commitCount": "",
-                            "createdAt": ""
+                            "commentCount": "評論",
+                            "reviewCount": "已查看",
+                            "commitCount": "提交",
+                            "createdAt": "發佈於"
                         }
                     },
                     "repo": {
                         "type": {
-                            "public": "",
-                            "private": ""
+                            "public": "公共存儲庫",
+                            "private": "私有倉庫"
                         },
                         "stats": {
-                            "openIssueCount": "",
-                            "subscriberCount": "",
-                            "stargazerCount": "",
-                            "forkCount": ""
+                            "openIssueCount": "未解決的問題",
+                            "subscriberCount": "守望者",
+                            "stargazerCount": "星",
+                            "forkCount": "分支"
                         }
                     }
                 },
                 "youtube": {
-                    "siteName": "",
+                    "siteName": "YouTube",
                     "video": {
-                        "type": "",
-                        "thumbnailAlt": "",
+                        "type": "視頻",
+                        "thumbnailAlt": "視頻縮圖",
                         "stats": {
-                            "viewCount": "",
-                            "likeCount": "",
-                            "commentCount": "",
-                            "publishedAt": ""
+                            "viewCount": "瀏覽量",
+                            "likeCount": "讚",
+                            "commentCount": "評論",
+                            "publishedAt": "發表於"
                         }
                     }
                 },
                 "googledrive": {
-                    "siteName": "",
+                    "siteName": "Google Drive",
                     "file": {
-                        "type": "",
-                        "thumbnailAlt": "",
+                        "type": "文件",
+                        "thumbnailAlt": "Google Drive 檔案預覽",
                         "stats": {
-                            "size": "",
-                            "createdTime": "",
-                            "modifiedTime": ""
+                            "size": "文件大小",
+                            "createdTime": "創建於",
+                            "modifiedTime": "修改於"
                         }
                     }
                 }
