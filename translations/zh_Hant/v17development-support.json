@@ -85,98 +85,98 @@
                 "feedback": "感謝您的評價，還有其他要反饋的嗎？",
                 "feedback_not_helpful": "很抱歉這篇文章沒有幫助到您，您在尋找什麽呢？",
                 "enter_feedback": "在此填寫內容",
-                "finished": "",
+                "finished": "感謝！您的反饋已保存。",
                 "validation": {
-                    "invalid_discussion": "",
-                    "guest": "",
-                    "invalid_points": "",
-                    "cannot_rate_article": "",
-                    "neutral_emoji_disabled": "",
-                    "missing_article_id": ""
+                    "invalid_discussion": "糟糕，出了點問題。您無法評價這篇文章/服務記錄。",
+                    "guest": "請登錄後再評價。",
+                    "invalid_points": "無效評價，請重試。",
+                    "cannot_rate_article": "您無法評價這篇文章。",
+                    "neutral_emoji_disabled": "中性表情符號已被禁用。",
+                    "missing_article_id": "文章 ID 缺失或無效"
                 },
                 "switch_sort_score": {
-                    "label": "",
-                    "description": ""
+                    "label": "從低到高評分",
+                    "description": "只看有反饋（按最低評分排序）。"
                 }
             },
             "modals": {
                 "audit_log": {
-                    "title": "",
-                    "article_created": "",
-                    "no_more_events": "",
-                    "loading_auditlog": ""
+                    "title": "文章審計日誌",
+                    "article_created": "文章已發佈",
+                    "no_more_events": "未發現更多事件",
+                    "loading_auditlog": "正在加載審計日誌"
                 },
                 "article_ratings": {
-                    "title": "",
-                    "loading_ratings": "",
-                    "no_ratings_found": "",
-                    "article_not_rated": "",
-                    "confirm_delete_rating": "",
-                    "feedback": "",
-                    "rating": "",
-                    "username": "",
-                    "rated_on": ""
+                    "title": "文章評價",
+                    "loading_ratings": "正在加載評價",
+                    "no_ratings_found": "找不到符合您搜索條件的評價",
+                    "article_not_rated": "這篇文章尚未被評價。",
+                    "confirm_delete_rating": "確定要刪除這條評價嗎？",
+                    "feedback": "意見",
+                    "rating": "評價",
+                    "username": "=> core.ref.username",
+                    "rated_on": "評價時間"
                 }
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "正在跳轉到我們的知識庫文章……",
+                    "link": "如果沒有任何反應，請<a>點擊此處</a>"
                 }
             },
             "composer": {
-                "compose_article": "",
-                "compose_ticket": "",
-                "new_article_title": "",
-                "enter_message_here": "",
-                "publish_article": "",
-                "publish_article_hint": "",
-                "manage_tags": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "warning_save_changes": "",
-                "article_saved": ""
+                "compose_article": "撰寫文章",
+                "compose_ticket": "新建工單",
+                "new_article_title": "新文章標題",
+                "enter_message_here": "在此處填寫訊息",
+                "publish_article": "發佈文章",
+                "publish_article_hint": "回帖後發布文章。",
+                "manage_tags": "管理標籤",
+                "write": "寫文章",
+                "view": "預覽",
+                "nothing_to_preview": "什麼都還沒寫呢",
+                "warning_save_changes": "警告：您即將離開此頁面，系統不會保存您所做的更改。是否保存更改然後離開？\n\n[OK] = 保存並離開 [CANCEL] = 不保存\n",
+                "article_saved": "文章已保存"
             },
             "tickets": {
-                "ticket": "",
-                "subject": "",
-                "ticket_does_not_exist": "",
-                "return_to_overview": "",
-                "ticket_overview": "",
-                "opened_on": "",
-                "ticket_activity": "",
-                "reminders_sent": "",
+                "ticket": "工單",
+                "subject": "主題",
+                "ticket_does_not_exist": "請求的客服工單不存在。",
+                "return_to_overview": "返回至工單預覽",
+                "ticket_overview": "工單預覽",
+                "opened_on": "打開於",
+                "ticket_activity": "由 {username} 創建 · 最後更新 {date}",
+                "reminders_sent": "{count, plural, one {1 條提醒已發送} other {#條提醒已發送}}",
                 "convert_to_ticket": {
-                    "button": "",
-                    "confirm": "",
-                    "event": ""
+                    "button": "轉為工單",
+                    "confirm": "確定要將此主題轉為工單嗎？",
+                    "event": "討論 {ticket_title} 已轉換為工單"
                 },
                 "convert_to_discussion": {
-                    "button": "",
-                    "confirm": "",
-                    "event": ""
+                    "button": "轉換為主題帖",
+                    "confirm": "您確定要將此工單轉換為公開討論嗎？ 如果有人分享了私人信息，這也將公開。",
+                    "event": "已將工單「{ticket_title}」轉為主題帖\n\n要調整到主題帖頁面嗎？\n"
                 },
                 "status": {
                     "new": {
-                        "title": "",
-                        "description": ""
+                        "title": "新建",
+                        "description": "未答覆工單"
                     },
                     "open": {
-                        "title": "",
-                        "description": ""
+                        "title": "進行中",
+                        "description": "此工单有新回复，等待答复中。"
                     },
                     "pending": {
-                        "title": "",
-                        "description": "",
-                        "description_user": ""
+                        "title": "待答覆",
+                        "description": "此工單等待用戶回覆中。",
+                        "description_user": "我們正在等待您回复或將此工單標記為已解決。"
                     },
                     "closed": {
-                        "title": "",
-                        "description": "",
-                        "is_closed": "",
-                        "close_after_posting": "",
-                        "is_auto_closed": ""
+                        "title": "已關閉",
+                        "description": "這個工單已被關閉.",
+                        "is_closed": "此工單已關閉，當您回复時它將重新打開。 我們建議僅在問題未解決時重新打開工單。 如果是新問題，請開新工單。",
+                        "close_after_posting": "回覆並關閉工單",
+                        "is_auto_closed": "由於長時間未得到您的回覆，此工單已關閉。"
                     },
                     "on_hold": {
                         "title": "",
