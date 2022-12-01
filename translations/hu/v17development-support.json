@@ -1,154 +1,154 @@
 {
     "v17development-flarum-support": {
         "forum": {
-            "knowledge_base": "",
-            "ask_a_question_on_forums": "",
-            "return_to_home": "",
-            "ask_your_question_on_forum": "",
-            "or": "",
-            "settings": "",
-            "send": "",
-            "create": "",
-            "discard": "",
-            "reopen": "",
-            "support_tickets": "",
-            "admin_overview": "",
+            "knowledge_base": "Tudásbázis",
+            "ask_a_question_on_forums": "Tegyen fel egy kérdés a fórumban",
+            "return_to_home": "Vissza a tudásbázis kezdőlapjához",
+            "ask_your_question_on_forum": "Tegye fel a kérdését a fórumban",
+            "or": "vagy",
+            "settings": "=> core.ref.settings",
+            "send": "Küldés",
+            "create": "Létrehozás",
+            "discard": "Elvetés",
+            "reopen": "újranyitás",
+            "support_tickets": "Támogatási jegyek",
+            "admin_overview": "Rendszergazdai áttekintés megnyitása",
             "hero": {
-                "help_question": "",
-                "check_forum": ""
+                "help_question": "Miben segíthetünk?",
+                "check_forum": "Ha nem találja, hogy hol keressen, <a>nézze meg a fórumunkat</a>"
             },
             "overview": {
-                "knowledge_base_overview": "",
-                "back_to": "",
-                "back_to_overview": "",
-                "back_to_main_categories": "",
-                "loading_articles": "",
-                "no_categories_found": "",
-                "category_not_found": "",
-                "no_articles_found": "",
+                "knowledge_base_overview": "Tudásbázis áttekintése",
+                "back_to": "Vissza ide: {category}",
+                "back_to_overview": "Vissza a tudásbázis áttekintéséhez",
+                "back_to_main_categories": "Vissza a fő kategóriákhoz",
+                "loading_articles": "Cikkek betöltése",
+                "no_categories_found": "Sajnáljuk, nem találhatók kategóriák…",
+                "category_not_found": "A kategória nem található",
+                "no_articles_found": "Nem találhatók cikkek ebben a kategóriában",
                 "tools": {
-                    "new_article": "",
-                    "rename_category": "",
-                    "edit_description": "",
-                    "change_icon": "",
-                    "recount_articles": ""
+                    "new_article": "Új cikk",
+                    "rename_category": "Kategória átnevezése",
+                    "edit_description": "Leírás szerkesztése",
+                    "change_icon": "Ikon módosítása",
+                    "recount_articles": "Cikkek újraszámolása"
                 }
             },
             "article_events": {
-                "article_hidden": "",
-                "article_public": "",
-                "article_modified": ""
+                "article_hidden": "{username} elrejtette a cikket",
+                "article_public": "{username} nyilvánossá tette a cikket",
+                "article_modified": "{username} szerkesztette a cikket."
             },
             "search": {
-                "title": "",
-                "back_to_search_results": "",
-                "search_knowledge_base": "",
-                "searching": "",
-                "searching_for": "",
-                "searched_for": "",
-                "use_searchbox_below": "",
-                "no_results": ""
+                "title": "Keresés",
+                "back_to_search_results": "Vissza a keresési találatokhoz",
+                "search_knowledge_base": "Keressen a tudásbázisunkban",
+                "searching": "Keresés",
+                "searching_for": "Keresés erre: {searchterm}",
+                "searched_for": "Erre keresett: {searchterm}, {results} találat volt.",
+                "use_searchbox_below": "Használja a lenti keresőmezőt a tudásbázisunkban történő kereséshez.",
+                "no_results": "Nem találtunk semmit a következőhöz: {searchterm}."
             },
             "not_found": {
-                "title": "",
-                "description": "",
-                "solution": ""
+                "title": "Az elem nem található",
+                "description": "Sajnáljuk, ez a cikk vagy kategória már nem létezik ezen a helyen.",
+                "solution": "Használhatja a fenti keresőmezőt, hogy megtalálja, amit keres."
             },
             "article": {
-                "article": "",
-                "articles": "",
-                "hidden": "",
-                "created_at": "",
-                "author": "",
-                "authors": "",
-                "last_modified": "",
-                "not_found": "",
+                "article": "Cikk",
+                "articles": "Cikkek",
+                "hidden": "Rejtett",
+                "created_at": "Létrehozva: {date}",
+                "author": "Szerző",
+                "authors": "Szerzők",
+                "last_modified": "Utoljára módosítva: {date}",
+                "not_found": "A cikk nem található",
                 "share_article": {
-                    "title": "",
-                    "perma_link": ""
+                    "title": "Cikk megosztása",
+                    "perma_link": "Állandó hivatkozás ehhez a cikkhez:"
                 },
                 "tools": {
-                    "rename_article": "",
-                    "edit_article": "",
-                    "edit_tags": "",
-                    "audit_log": "",
-                    "hide_article": "",
-                    "recover_article": "",
-                    "delete_forever": "",
-                    "view_ratings": ""
+                    "rename_article": "Cikk átnevezése",
+                    "edit_article": "Cikk szerkesztése",
+                    "edit_tags": "Cikk címkéinek szerkesztése",
+                    "audit_log": "Ellenőrzési napló megtekintése",
+                    "hide_article": "Cikk elrejtése",
+                    "recover_article": "Cikk helyreállítása",
+                    "delete_forever": "Végleges törlés",
+                    "view_ratings": "Értékelések megtekintése"
                 }
             },
             "support_ratings": {
-                "score": "",
-                "helful_article": "",
-                "helful_support": "",
-                "feedback": "",
-                "feedback_not_helpful": "",
-                "enter_feedback": "",
-                "finished": "",
+                "score": "Pontszám",
+                "helful_article": "Hasznos volt ez a cikk?",
+                "helful_support": "Elégedett azzal, ahogy a támogatási jegyét kezeltük?",
+                "feedback": "Köszönjük az értékelését, van valamilyen visszajelzése?",
+                "feedback_not_helpful": "Sajnáljuk, ha ez a cikk nem volt hasznos, mit keresett?",
+                "enter_feedback": "Itt adja meg a visszajelzését",
+                "finished": "Köszönjük! A visszajelzése mentésre került.",
                 "validation": {
-                    "invalid_discussion": "",
-                    "guest": "",
-                    "invalid_points": "",
-                    "cannot_rate_article": "",
-                    "neutral_emoji_disabled": "",
-                    "missing_article_id": ""
+                    "invalid_discussion": "Hoppá, valami hiba történt. Nem tudjuk értékelni ez a cikket/támogatási jegyet.",
+                    "guest": "A cikk értékelése előtt jelentkezzen be.",
+                    "invalid_points": "Érvénytelen értékelés. Próbálja újra.",
+                    "cannot_rate_article": "Nem tudja értékelni ezt a cikket.",
+                    "neutral_emoji_disabled": "A semleges emodzsi le lett tiltva.",
+                    "missing_article_id": "Hiányzó vagy érvénytelen cikkazonosító"
                 },
                 "switch_sort_score": {
-                    "label": "",
-                    "description": ""
+                    "label": "Értékelések pontozásának megjelenítése az alacsonytól a magasig",
+                    "description": "Csak a visszajelzéssel rendelkező cikkek megjelenítése, rendezés a legalacsonyabb pontszám alapján."
                 }
             },
             "modals": {
                 "audit_log": {
-                    "title": "",
-                    "article_created": "",
-                    "no_more_events": "",
-                    "loading_auditlog": ""
+                    "title": "Cikk ellenőrzési naplója",
+                    "article_created": "A cikk létrejött",
+                    "no_more_events": "Nem található több esemény",
+                    "loading_auditlog": "Ellenőrzési napló betöltése"
                 },
                 "article_ratings": {
-                    "title": "",
-                    "loading_ratings": "",
-                    "no_ratings_found": "",
-                    "article_not_rated": "",
-                    "confirm_delete_rating": "",
-                    "feedback": "",
-                    "rating": "",
-                    "username": "",
-                    "rated_on": ""
+                    "title": "Cikkértékelések",
+                    "loading_ratings": "Értékelések betöltése",
+                    "no_ratings_found": "Nem található a keresési feltételnek megfelelő értékelés",
+                    "article_not_rated": "Ezt a cikket még nem értékelték.",
+                    "confirm_delete_rating": "Biztos, hogy törli ezt az értékelést?",
+                    "feedback": "Visszajelzés",
+                    "rating": "Értékelés",
+                    "username": "=> core.ref.username",
+                    "rated_on": "Értékelve:"
                 }
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "Átirányítás a tudásbáziscikkhez…",
+                    "link": "<a>Kattintson ide</a>, ha az oldal nem irányítja át"
                 }
             },
             "composer": {
-                "compose_article": "",
-                "compose_ticket": "",
-                "new_article_title": "",
-                "enter_message_here": "",
-                "publish_article": "",
-                "publish_article_hint": "",
-                "manage_tags": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "warning_save_changes": "",
-                "article_saved": ""
+                "compose_article": "Cikk írása",
+                "compose_ticket": "Jegy összeállítása",
+                "new_article_title": "Új cikk címe",
+                "enter_message_here": "Itt adja meg az üzenetét",
+                "publish_article": "Cikk közzététele",
+                "publish_article_hint": "Cikk közzététele beküldés után.",
+                "manage_tags": "Címkék kezelése",
+                "write": "Írás",
+                "view": "Megtekintés",
+                "nothing_to_preview": "Nincs miről előnézetet készíteni",
+                "warning_save_changes": "FIGYELMEZTETÉS: Az oldal elhagyására készül, és nem mentette a módosításait. Elmenti a változtatásokat mielőtt távozik?\n\n[OK] = Igen, mentés. [MÉGSE] = Nem, ne mentse\n",
+                "article_saved": "A cikk mentésre került"
             },
             "tickets": {
-                "ticket": "",
-                "subject": "",
-                "ticket_does_not_exist": "",
-                "return_to_overview": "",
-                "ticket_overview": "",
-                "opened_on": "",
-                "ticket_activity": "",
-                "reminders_sent": "",
+                "ticket": "Jegy",
+                "subject": "Tárgy",
+                "ticket_does_not_exist": "A kért támogatási jegy nem létezik.",
+                "return_to_overview": "Vissza a jegyáttekintőhöz",
+                "ticket_overview": "Jegyáttekintő",
+                "opened_on": "Megnyitva:",
+                "ticket_activity": "Szerző: {username}, utolsó tevékenység: {date}",
+                "reminders_sent": "{count} emlékeztető küldve",
                 "convert_to_ticket": {
-                    "button": "",
+                    "button": "Jeggyé alakítás",
                     "confirm": "",
                     "event": ""
                 },
