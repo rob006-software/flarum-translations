@@ -13,18 +13,18 @@
             },
             "suspension_info": {
                 "dismiss_button": "Descartar",
-                "indefinite": "",
-                "limited": "",
-                "title": ""
+                "indefinite": "Esto es una suspensión indefinida",
+                "limited": "Esta suspensión estará en vigor hasta el {date}",
+                "title": "Esta cuenta está suspendida"
             },
             "suspend_user": {
-                "display_message": "",
+                "display_message": "Mostrar mensaje para el usuario",
                 "indefinitely_label": "Suspender indefinidamente",
                 "limited_time_days_text": " días",
                 "limited_time_label": "Suspender por tiempo limitado...",
                 "not_suspended_label": "No suspendido",
-                "placeholder_optional": "",
-                "reason": "",
+                "placeholder_optional": "Opcional",
+                "reason": "Motivo de la suspensión",
                 "status_heading": "Estado de la suspensión",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Suspender a {user}"
