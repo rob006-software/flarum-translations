@@ -22,7 +22,7 @@
                 "title": "“{name}” raundini tahrirlash"
             },
             "edit-fish-modal": {
-                "title": "Baliq \"{nomi}\"ini tahrirlash"
+                "title": "Baliq \"{name}\"ini tahrirlash"
             },
             "caught-fish-modal": {
                 "title": "Siz baliq tutdingiz!",
@@ -49,7 +49,7 @@
                 "create": "Raundni yarating",
                 "save": "Raundni saqlash",
                 "delete": "Raundni o'chirish",
-                "delete-confirmation": "Raund \"{nomi}\"ni o'chirilsinmi?"
+                "delete-confirmation": "Raund \"{name}\"ni o'chirilsinmi?"
             },
             "edit-fish": {
                 "name": "Nomi",
@@ -57,7 +57,7 @@
                 "create": "Baliq yaratish",
                 "save": "Baliqni saqlash",
                 "delete": "Baliqni o'chirish",
-                "delete-confirmation": "Baliq \"{nomi}\"ni o'chirilsinmi?"
+                "delete-confirmation": "Baliq \"{name}\"ni o'chirilsinmi?"
             },
             "moving-fish": {
                 "login": "Baliqni tutish uchun tizimga kiring"
@@ -88,7 +88,7 @@
             },
             "table-fish": {
                 "loading": "Yuklanmoqda...",
-                "title": "{nomi} raund uchun baliqlar",
+                "title": "{name} raund uchun baliqlar",
                 "new": "Yangi baliq",
                 "image": "Rasm",
                 "name": "Nomi",
@@ -104,7 +104,7 @@
             },
             "table-ranking": {
                 "loading": "Yuklanmoqda...",
-                "title": "Tur reytingi {nomi}",
+                "title": "Tur reytingi {name}",
                 "rank": "Nomi",
                 "count": "Tutilgan baliqlar",
                 "user": "Foydalanuvchi"
@@ -162,7 +162,7 @@
             }
         },
         "api": {
-            "default-fish-name": "Baliq #{raqam}",
+            "default-fish-name": "Baliq #{number}",
             "wrong-catch-placement": "Bu yerda baliq yo'q. Balki siz yetarlicha tez bo'lmagansiz va boshqa birov buni birinchi bo'lib olgan",
             "too-many-placement-models": "Bir vaqtning o'zida faqat bitta joylashtirish mumkin",
             "invalid-discussion-id": "Muhokama mavjud emasga o'xshaydi, ehtimol u yaqinda o'chirib tashlangan",
@@ -171,9 +171,9 @@
             "model-deleted": "Oʻchirilgan muhokama yoki postga baliq qoʻyib boʻlmaydi",
             "model-private": "Baliqni shaxsiy muhokama yoki postga joylashtira olmaysiz",
             "tag-not-allowed": "Bu teg ostida baliq joylashtira olmaysiz",
-            "inactive-discussion": "Baliqni {kunlar} kundan ortiq faolsiz muhokamaga qoʻyib boʻlmaydi",
-            "inactive-post": "{kunlar} kundan koʻproq vaqt oldin yaratilgan postga baliq qoʻyib boʻlmaydi",
-            "inactive-user": "Foydalanuvchiga {kunlar} kundan ortiq faol boʻlmagan baliqlarni joylashtirib boʻlmaydi",
+            "inactive-discussion": "Baliqni {days} kundan ortiq faolsiz muhokamaga qoʻyib boʻlmaydi",
+            "inactive-post": "{days} kundan koʻproq vaqt oldin yaratilgan postga baliq qoʻyib boʻlmaydi",
+            "inactive-user": "Foydalanuvchiga {days} kundan ortiq faol boʻlmagan baliqlarni joylashtirib boʻlmaydi",
             "non-comment-post": "Baliqlarni faqat sharh postlariga joylashtirish mumkin",
             "user-suspended": "To‘xtatilgan foydalanuvchiga baliq qo‘yib bo‘lmaydi",
             "random-error": "Tasodifiy baliq joylashuvini yaratib bo'lmadi",
