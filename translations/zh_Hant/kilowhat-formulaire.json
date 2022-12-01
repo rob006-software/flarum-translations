@@ -178,264 +178,264 @@
                     "standalone": "獨立",
                     "groups": "個人主頁",
                     "all-groups": "任意群組",
-                    "tags": "",
-                    "all-tags": ""
+                    "tags": "討論區",
+                    "all-tags": "所有標籤"
                 },
-                "auto-discussion-options": "",
-                "email-confirmation-options": "",
-                "email-notification-options": "",
-                "exiting-with-unsaved-data": "",
-                "preview": "",
-                "save-for-preview": ""
+                "auto-discussion-options": "新主題的選項",
+                "email-confirmation-options": "確認郵件的模板",
+                "email-notification-options": "通知電子郵件模板",
+                "exiting-with-unsaved-data": "您有未保存的更改。您真的要退出該頁面嗎？",
+                "preview": "在新標籤頁中預覽",
+                "save-for-preview": "保存預覽"
             },
             "auto-discussion-options-modal": {
-                "title": "",
-                "introduction": "",
-                "submit": "",
+                "title": "自動討論選項",
+                "introduction": "這些設置將應用於通過提交標籤連接表單自動創建的新討論。您可以使用帶有字段 slug 的大括號語法來使用表單提交中的值。默認情況下，將分別使用 { title } 和 { content }。\n",
+                "submit": "驗證更改",
                 "field": {
-                    "title": "",
-                    "tags": "",
-                    "tags-help": "",
-                    "content": ""
+                    "title": "文章標題",
+                    "tags": "文章標籤",
+                    "tags-help": "以逗號分隔的標籤段列表。除了此表單連接到的標籤之外，還將添加所選標籤。\n",
+                    "content": "發佈內容"
                 }
             },
             "confirmation-email-options-modal": {
-                "title": "",
-                "submit": "",
+                "title": "郵件模板",
+                "submit": "驗證更改",
                 "field": {
-                    "title": "",
-                    "message": ""
+                    "title": "標題",
+                    "message": "正文"
                 }
             },
             "save-controls": {
-                "validation-errors": "",
-                "unsaved-changes": "",
-                "saved-at": "",
-                "undo": "",
-                "redo": "",
-                "save": ""
+                "validation-errors": "您提交的內容有誤",
+                "unsaved-changes": "有未保存的更改",
+                "saved-at": "{ago} 已保存",
+                "undo": "復原",
+                "redo": "重複",
+                "save": "保存"
             },
             "permission-controls": {
-                "inherit": "",
-                "everyone_button": "",
-                "disabled_members_button": "",
-                "members_button": ""
+                "inherit": "使用預設",
+                "everyone_button": "=> core.admin.permissions_controls.everyone_button",
+                "disabled_members_button": "未激活和暫停的成員",
+                "members_button": "激活會員"
             },
             "template-editor": {
-                "add-field": "",
-                "title": "",
-                "description": "",
-                "key": "",
-                "fill-permission": "",
-                "required": "",
-                "rich": "",
-                "min": "",
-                "max": "",
-                "integer": "",
-                "email": "",
-                "regex": "",
-                "mime": "",
-                "other": "",
-                "duplicate": "",
-                "delete": "",
-                "missing-title": "",
-                "no-answer": "",
+                "add-field": "添加字段",
+                "title": "名稱",
+                "description": "描述",
+                "key": "（專家）提交負載中的 JSON 鍵",
+                "fill-permission": "（專家）填寫權限",
+                "required": "必填",
+                "rich": "富文本 (TextFormatter)",
+                "min": "最小值",
+                "max": "最大值",
+                "integer": "整數",
+                "email": "郵箱",
+                "regex": "正則表達式",
+                "mime": "MIME 類型（逗號分隔，接受通配符作為第二部分）",
+                "other": "允許“其他”用戶值",
+                "duplicate": "重複字段",
+                "delete": "刪除字段",
+                "missing-title": "沒有標題的字段",
+                "no-answer": "無答案",
                 "type": {
-                    "short": "",
-                    "long": "",
-                    "number": "",
-                    "date": "",
-                    "checkbox": "",
-                    "radio": "",
-                    "select": "",
-                    "upload": "",
-                    "content": "",
-                    "items": ""
+                    "short": "短本文",
+                    "long": "長本文",
+                    "number": "數字",
+                    "date": "日期",
+                    "checkbox": "複選框",
+                    "radio": "收音機",
+                    "select": "下拉選單",
+                    "upload": "上傳",
+                    "content": "內容",
+                    "items": "多條目"
                 }
             },
             "options-editor": {
                 "columns": {
-                    "title": "",
-                    "key": ""
+                    "title": "標題",
+                    "key": "（專家）唯一鍵"
                 },
-                "remove": "",
-                "new-placeholder": ""
+                "remove": "移除選項",
+                "new-placeholder": "新增選項…"
             },
             "items-editor": {
-                "add": "",
-                "remove": ""
+                "add": "Add row",
+                "remove": "删除行"
             },
             "upload-editor": {
-                "uploading": "",
-                "remove": ""
+                "uploading": "正在上傳……",
+                "remove": "移除檔案"
             },
             "rich-text": {
-                "preview-placeholder": ""
+                "preview-placeholder": "開始輸入預覽"
             },
             "select": {
-                "choose": ""
+                "choose": "請選擇"
             },
             "choice": {
-                "other-label": "",
-                "other-placeholder": ""
+                "other-label": "其它：",
+                "other-placeholder": "輸入…"
             },
             "submission": {
-                "form-closed": "",
-                "form-full": "",
-                "edit-forbidden": "",
-                "submitted-successfully": "",
-                "edit-submission": "",
-                "submit-other": "",
-                "unlock": "",
-                "lock": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "form-closed": "此表格已關閉。",
+                "form-full": "此表單已達到最大提交數量。",
+                "edit-forbidden": "您不能再編輯此提交。",
+                "submitted-successfully": "您的提交已成功發送。",
+                "edit-submission": "編輯提交請求",
+                "submit-other": "提交另一個",
+                "unlock": "解鎖",
+                "lock": "鎖定",
+                "restore": "復原",
+                "hide": "删除",
+                "delete": "永久刪除",
+                "delete-confirmation": "{date} 之後的提交將被永久刪除"
             },
             "submission-index": {
-                "form-edit": "",
-                "form-show": "",
-                "show": "",
-                "guest": "",
-                "load-more": "",
-                "empty": "",
-                "search": "",
-                "export": "",
+                "form-edit": "編輯表單",
+                "form-show": "新的提交",
+                "show": "顯示",
+                "guest": "訪客",
+                "load-more": "載入更多",
+                "empty": "沒有提交",
+                "search": "搜索提交...",
+                "export": "導出",
                 "columns": {
-                    "date": "",
-                    "user": "",
-                    "actions": ""
+                    "date": "日期",
+                    "user": "用戶",
+                    "actions": "動作"
                 }
             },
             "badge": {
-                "locked": "",
-                "hidden": ""
+                "locked": "鎖定",
+                "hidden": "隱藏"
             },
             "error-page": {
-                "denied-title": "",
-                "denied-description": "",
-                "notfound-title": "",
-                "notfound-description": ""
+                "denied-title": "沒有權限",
+                "denied-description": "您似乎無權訪問此內容。嘗試登錄。",
+                "notfound-title": "找不到",
+                "notfound-description": "此內容不存在，或者您無權訪問它。"
             },
             "submission-sort": {
-                "latest": "",
-                "oldest": ""
+                "latest": "最近的提交",
+                "oldest": "最舊的提交"
             },
             "form-sort": {
-                "latest": "",
-                "oldest": ""
+                "latest": "新表單",
+                "oldest": "最舊的表單"
             },
             "export": {
-                "title": "",
-                "format": "",
-                "heading": "",
-                "fields": "",
-                "meta": "",
-                "more-meta": "",
-                "option-keys": "",
-                "submit": "",
-                "preview": "",
+                "title": "導出提交內容",
+                "format": "格式",
+                "heading": "標題/鍵",
+                "fields": "欄位",
+                "meta": "元數據",
+                "more-meta": "更多元選項",
+                "option-keys": "導出選項鍵而不是複選框、單选和選擇的標題",
+                "submit": "下載",
+                "preview": "預覽",
                 "format-options": {
-                    "xlsx": "",
-                    "xls": "",
-                    "ods": "",
-                    "csv": "",
-                    "json": ""
+                    "xlsx": "XLSX",
+                    "xls": "XLS",
+                    "ods": "ODS",
+                    "csv": "CSV",
+                    "json": "JSON"
                 },
                 "heading-options": {
-                    "title": "",
-                    "key": "",
-                    "none": ""
+                    "title": "字段標題",
+                    "key": "字段鍵",
+                    "none": "沒有標題行"
                 },
                 "meta-options": {
-                    "uid": "",
-                    "user_id": "",
-                    "user_username": "",
-                    "user_displayname": "",
-                    "user_email": "",
-                    "user_activated": "",
-                    "link_id": "",
-                    "locked_at": "",
-                    "created_at": "",
-                    "updated_at": "",
-                    "hidden_at": ""
+                    "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
+                    "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
+                    "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
+                    "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
+                    "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
+                    "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
+                    "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
+                    "updated_at": "=> kilowhat-formulaire.ref.submission-meta.updated_at",
+                    "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
                 },
                 "preview-primitives": {
-                    "excel-date": "",
-                    "boolean-true": "",
-                    "boolean-false": ""
+                    "excel-date": "(EXCEL DATE)",
+                    "boolean-true": "True",
+                    "boolean-false": "False"
                 }
             },
             "discussion-submission": {
-                "empty": "",
-                "edit": ""
+                "empty": "沒有資料",
+                "edit": "編輯"
             },
             "discussion-composer": {
                 "field": {
-                    "tags": "",
-                    "poll": "",
-                    "title": "",
-                    "content": ""
+                    "tags": "標籤",
+                    "poll": "提出",
+                    "title": "標題",
+                    "content": "訊息"
                 }
             }
         },
         "api": {
-            "formatter-parsing-error": "",
-            "not-allowed-to-fill-field": "",
-            "duplicate-field-key": "",
-            "cannot-change-form-type": "",
-            "unknown-form": "",
-            "unauthorized-form": "",
-            "unauthorized-scoped-form": "",
-            "file-already-belongs-form": "",
-            "file-already-belongs-submission": "",
+            "formatter-parsing-error": "無法解析內容：{message}",
+            "not-allowed-to-fill-field": "您不能更改此字段的值",
+            "duplicate-field-key": "密鑰應該是唯一的",
+            "cannot-change-form-type": "您不能更改已提交的表單的類型",
+            "unknown-form": "無法識別的表單 ID {id}",
+            "unauthorized-form": "您沒有必要的權限來填寫表單 ID {id}",
+            "unauthorized-scoped-form": "您不能使用當前標籤組合填寫表單 ID {id}",
+            "file-already-belongs-form": "文件 {id} 屬於另一個表單",
+            "file-already-belongs-submission": "文件 {id} 屬於另一個提交",
             "export": {
                 "meta": {
-                    "uid": "",
-                    "user_id": "",
-                    "user_username": "",
-                    "user_displayname": "",
-                    "user_email": "",
-                    "user_activated": "",
-                    "link_id": "",
-                    "locked_at": "",
-                    "created_at": "",
-                    "updated_at": "",
-                    "hidden_at": ""
+                    "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
+                    "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
+                    "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
+                    "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
+                    "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
+                    "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
+                    "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
+                    "updated_at": "=> kilowhat-formulaire.ref.submission-meta.updated_at",
+                    "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
                 }
             }
         },
         "mail": {
-            "title-your-submission": "",
-            "title-new-submission": "",
-            "edit": "",
-            "footer": "",
-            "sub-entries": "",
-            "no-answer": ""
+            "title-your-submission": "您提交的{title}",
+            "title-new-submission": "新提交的{title}",
+            "edit": "編輯",
+            "footer": "由{title}送出",
+            "sub-entries": "{count} 個條目",
+            "no-answer": "無答案"
         },
         "ref": {
-            "manager": "",
+            "manager": "表單管理器",
             "type": {
-                "standalone": "",
-                "discussion": "",
-                "user": ""
+                "standalone": "獨立表格",
+                "discussion": "討論區",
+                "user": "個人資料"
             },
             "permissions": {
-                "fill": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": ""
+                "fill": "填寫獨立表格",
+                "seeOwnUser": "查看自己的個人資料字段",
+                "seeAnyUser": "查看所有的個人資料字段",
+                "editOwnUser": "編輯自已的個人資料字段",
+                "editAnyUser": "編輯任意的個人資料字段",
+                "seeOwnDiscussion": "查看自己的討論區",
+                "seeAnyDiscussion": "查看任意的討論區",
+                "editOwnDiscussion": "編輯自己的討論區",
+                "editAnyDiscussion": "查看任意的討論區"
             },
             "submission-meta": {
-                "uid": "",
-                "user_id": "",
-                "user_username": "",
+                "uid": "提交 ID",
+                "user_id": "用戶 ID",
+                "user_username": "用戶名",
                 "user_displayname": "",
                 "user_email": "",
                 "user_activated": "",
