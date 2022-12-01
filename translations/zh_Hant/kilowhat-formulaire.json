@@ -43,52 +43,52 @@
                     "profileView": "個人資料查看",
                     "signUp": "註冊模態（僅 Formulaire 字段）",
                     "discussionEdit": "主題編輯模式",
-                    "discussionView": "",
-                    "discussionComposer": ""
+                    "discussionView": "討論視圖容器",
+                    "discussionComposer": "討論作曲家"
                 },
-                "uniformComposerLayout": "",
-                "uniformComposerLayoutHelp": ""
+                "uniformComposerLayout": "統一的討論作曲家佈局",
+                "uniformComposerLayoutHelp": "更改標籤、標題和內容字段的樣式以與 Formulaire 相匹配。 此佈局將佔用更多空間，因此建議您安裝並啟用 <a>Composer Page</a> 擴展。\n"
             }
         },
         "forum": {
             "nav": {
-                "forms": ""
+                "forms": "=> kilowhat-formulaire.ref.manager"
             },
             "form-index": {
                 "header": {
-                    "title": "",
-                    "documentation": "",
-                    "discuss": ""
+                    "title": "=> kilowhat-formulaire.ref.manager",
+                    "documentation": "完整的在線文檔",
+                    "discuss": "在Flarum中討論"
                 },
                 "tabs": {
-                    "standalone": "",
-                    "discussion": "",
-                    "user": ""
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
-                "empty": "",
-                "load-more": "",
-                "search": "",
-                "new": "",
-                "edit": "",
-                "show": "",
-                "submissions": "",
+                "empty": "沒有表格",
+                "load-more": "載入更多",
+                "search": "搜尋…",
+                "new": "新表格",
+                "edit": "編輯",
+                "show": "顯示",
+                "submissions": "意見書",
                 "columns": {
-                    "title": "",
-                    "accept-submissions": "",
-                    "allow-modification": "",
-                    "enabled": "",
-                    "submissions": "",
-                    "actions": ""
+                    "title": "名稱",
+                    "accept-submissions": "開放",
+                    "allow-modification": "修改",
+                    "enabled": "啟用",
+                    "submissions": "意見書",
+                    "actions": "動作"
                 }
             },
             "global-settings": {
-                "title": "",
-                "admin-only": "",
+                "title": "全局權限",
+                "admin-only": "只有論壇管理員可以編輯全局設置",
                 "permissions": {
-                    "fill": "",
-                    "seeOwnUser": "",
-                    "seeAnyUser": "",
-                    "editOwnUser": "",
+                    "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                    "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                    "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                    "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
                     "editAnyUser": "",
                     "seeOwnDiscussion": "",
                     "seeAnyDiscussion": "",
