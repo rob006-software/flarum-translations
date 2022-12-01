@@ -95,78 +95,78 @@
                 "deleteConfirmation": "您真的要刪除條目 {name} 嗎？使用該條目的討論不會被刪除。\n",
                 "submit": {
                     "new": "=> flamarkt-taxonomies.ref.submit.new",
-                    "edit": ""
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
                 }
             },
             "permissions": {
-                "heading": "",
-                "moderate": "",
-                "bypassTermCounts": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "ownDisabledEveryone": "",
-                "ownDisabledMembers": ""
+                "heading": "分類法",
+                "moderate": "配置可用的分類法",
+                "bypassTermCounts": "繞過術語計數要求",
+                "seeOwnDiscussion": "在自己的討論中查看分類法",
+                "seeAnyDiscussion": "在所有的討論中查看分類法",
+                "editOwnDiscussion": "根據自己的討論編輯分類",
+                "editAnyDiscussion": "在任何的討論編輯分類",
+                "seeOwnUser": "查看自己用戶的分類",
+                "seeAnyUser": "查看所有用戶的分類",
+                "editOwnUser": "編輯自己用戶的分類",
+                "editAnyUser": "編輯任意用戶的分類",
+                "ownDisabledEveryone": "未激活和暫停的成員",
+                "ownDisabledMembers": "激活會員"
             },
             "settings": {
-                "goToPage": ""
+                "goToPage": "進入配置頁面"
             }
         },
         "forum": {
             "composer": {
-                "choose": ""
+                "choose": "選擇 {taxonomy}"
             },
             "discussion": {
-                "edit": ""
+                "edit": "編輯{taxonomy}"
             },
             "user": {
-                "nav": "",
-                "edit": ""
+                "nav": "分類法",
+                "edit": "編輯{taxonomy}"
             },
             "blog": {
                 "widget": {
-                    "title": ""
+                    "title": "分類法"
                 }
             }
         },
         "lib": {
             "modal": {
                 "title": {
-                    "new": "",
-                    "edit": ""
+                    "new": "為你的帖子選擇 {taxonomy}",
+                    "edit": "為 {title}編輯 {taxonomy}"
                 },
-                "placeholder": "",
-                "placeholderOptional": "",
-                "custom": "",
-                "bypassTermCounts": "",
-                "submit": ""
+                "placeholder": "{count, plural, one {Choose a term...} other {Choose # terms...}}",
+                "placeholderOptional": "選擇…",
+                "custom": "選擇{value}",
+                "bypassTermCounts": "繞過術語計數",
+                "submit": "OK"
             }
         },
         "api": {
             "error": {
-                "invalid_filter_taxonomy": "",
-                "discussion_taxonomy_not_in_scope": "",
-                "cannot_use_taxonomies_on_model": ""
+                "invalid_filter_taxonomy": "無效的“{type}”分類過濾器鍵“{slug}”",
+                "discussion_taxonomy_not_in_scope": "分類法“{slug}”在當前標籤組合中不可用",
+                "cannot_use_taxonomies_on_model": "您不得在此上下文中使用分類法"
             }
         },
         "ref": {
             "field": {
-                "name": "",
-                "slug": "",
-                "description": "",
-                "color": "",
-                "icon": "",
-                "iconDescription": ""
+                "name": "名稱",
+                "slug": "別名",
+                "description": "描述",
+                "color": "顏色",
+                "icon": "圖標",
+                "iconDescription": "鍵入任意 <a>FontAwesome</a> 圖示類名，<em>需要包含</em>前綴 <code>fas fa-</code>。"
             },
-            "delete": "",
+            "delete": "删除",
             "submit": {
-                "new": "",
-                "edit": ""
+                "new": "新建",
+                "edit": "保存"
             }
         }
     }
