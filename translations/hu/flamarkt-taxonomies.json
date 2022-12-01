@@ -39,7 +39,7 @@
                     "showLabel": "Taxonómia címkéjének megjelenítése a kifejezéssel együtt",
                     "showLabelDescription": "A témalista és a témaindító megjelenítési stílusa. Jelenleg más erőforrástípushoz nem használható.\n",
                     "enableFilter": "Keresőkifejezés/API szűrők engedélyezése",
-                    "enableFilterDescription": "",
+                    "enableFilterDescription": "Lehetővé teszi a taxonómiai szűrők mélyhivatkozását a témákkal, felhasználókkal és termékekkel azon felhasználók számára, akiknek joguk van „mindent látni” a taxonómiatípusból. Ez azt is lehetővé teszi, hogy ugyanezek a felhasználók a REST API-val is használhassák a keresési szűrőket. A „Szűrők megjelenítése” beállítás nélkül a felhasználóknak nincs nyilvánvaló módja arra, hogy ezeket a felhasználókra és termékekre mutató hivatkozásokat megszerezzék. A témák esetében a mélyhivatkozása akkor is megtalálható az témaindítóban, ha a „Szűrők megjelenítése” ki van kapcsolva.\n",
                     "showFilter": "Szűrők megjelenítése a lista/címtár lapokon",
                     "showFilterDescription": "Szűrők megjelenítése a látogatók számára a témalistában, a címtárban vagy a bolt kezdőlapján. Csak akkor működik, ha a „Szűrők engedélyezése” be van kapcsolva. A bolt adminisztrátorai továbbra is tetszőleges taxonómia alapján tudnak szűrni a háttérirodában.\n",
                     "enableFulltextSearch": "Kifejezések indexelése a teljes szavas kereséshez",
