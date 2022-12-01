@@ -123,50 +123,50 @@
                     },
                     "events": {
                         "chat": {
-                            "created": "{creatorname} 创建 {chatname} 并邀请 {usernames}"
+                            "created": "{creatorname} 創建 {chatname} 並邀請 {usernames}"
                         },
                         "pm": {
-                            "created": "{creatorname} 创建了与 {username} 的会话"
+                            "created": "{creatorname} 創建了與 {username} 的會話"
                         },
                         "channel": {
-                            "created": "{creatorname} 创建频道 {chatname}"
+                            "created": "{creatorname} 創建頻道 {chatname}"
                         },
                         "title": {
-                            "edited": "{editorname} 将聊天 {old} 重命名为 {new}"
+                            "edited": "{editorname} 將聊天 {old} 重命名為 {new}"
                         },
                         "icon": {
-                            "edited": "{editorname} 将聊天图标 {old} 修改为 {new}"
+                            "edited": "{editorname} 將聊天圖標 {old} 修改為 {new}"
                         },
                         "color": {
-                            "edited": "{editorname} 将聊天颜色 {old} 修改为 {new}"
+                            "edited": "{editorname} 將聊天顏色 {old} 修改為 {new}"
                         },
                         "users": {
-                            "invited": "{editorname} 邀请 {usernames}",
+                            "invited": "{editorname} 邀請 {usernames}",
                             "kicked": "{editorname} 移出 {usernames}",
-                            "invited_kicked": "{editorname} 邀请 {invitednames} 并移出 {kickednames}"
+                            "invited_kicked": "{editorname} 邀請 {invitednames} 並移出 {kickednames}"
                         },
                         "self": {
-                            "leaved": "{username} 离开了聊天",
-                            "entered": "{username} 进入聊天"
+                            "leaved": "{username} 離開了聊天",
+                            "entered": "{username} 進入聊天"
                         }
                     }
                 }
             },
             "errors": {
-                "unauthenticated": "此聊天仅限注册用户加入",
-                "chatdenied": "你的用户组无权限发送消息",
+                "unauthenticated": "此聊天僅限注冊用戶加入",
+                "chatdenied": "你的用戶組無權限發送消息",
                 "removed": "你被移出聊天"
             }
         },
         "admin": {
             "permissions": {
-                "post": "发送聊天消息",
-                "edit": "编辑聊天消息",
+                "post": "發送聊天消息",
+                "edit": "編輯聊天消息",
                 "delete": "删除聊天消息",
-                "enabled": "启用聊天",
+                "enabled": "啟用聊天",
                 "create": {
-                    "chat": "发起聊天",
-                    "channel": "发起聊天频道"
+                    "chat": "發起聊天",
+                    "channel": "發起聊天頻道"
                 },
                 "moderate": {
                     "delete": "删除聊天消息",
@@ -174,17 +174,17 @@
                 }
             },
             "settings": {
-                "title": "聊天设置",
+                "title": "聊天設置",
                 "charlimit": "最大消息字符数",
                 "floodgate": {
                     "title": "防刷屏",
-                    "number": "连续发送消息数",
+                    "number": "連續發送消息數",
                     "time": "冷静期"
                 },
                 "display": {
-                    "title": "显示",
+                    "title": "顯示",
                     "minimize": "最小化",
-                    "censor": "审查为授权用户的消息"
+                    "censor": "審查為授權用戶的消息"
                 }
             }
         }
