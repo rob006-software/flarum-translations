@@ -49,52 +49,52 @@
                     "customValueSlugger": "自定義值的 Slugger",
                     "customValueSluggerDescription": "選擇您希望如何生成 slug。 如果 slug 已經存在，則會自動附加一個數字前綴。 對於 Transliterator 選項，您需要提前安裝和配置其他擴展。\n",
                     "countRequired": "需要的條目數量",
-                    "countRequiredDescription": "",
-                    "rangeSeparatorText": "",
-                    "tagScope": "",
-                    "tagScopeDescription": "",
-                    "tagScopePlaceholder": ""
+                    "countRequiredDescription": "輸入此分類法中可應用於資源的最少和最多術語數。\n",
+                    "rangeSeparatorText": "到",
+                    "tagScope": "只在指定的標籤",
+                    "tagScopeDescription": "分類僅在選定的標籤中可用。 如果您選擇單個標籤，則主頁過濾器將僅在該特定標籤上可見。\n",
+                    "tagScopePlaceholder": "請輸入要搜尋的標籤…"
                 },
-                "delete": "",
-                "deleteConfirmation": "",
+                "delete": "=> flamarkt-taxonomies.ref.delete",
+                "deleteConfirmation": "您真的要刪除分類法 {name} 嗎？該分類下的所有術語都將被刪除。使用分類法的討論不會被刪除。\n",
                 "submit": {
-                    "new": "",
-                    "edit": ""
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
                 },
                 "type-options": {
-                    "products": "",
-                    "discussions": "",
-                    "users": ""
+                    "products": "產品",
+                    "discussions": "主題帖",
+                    "users": "用戶"
                 },
                 "validation-options": {
-                    "default": "",
-                    "alpha_num": "",
-                    "alpha_dash": "",
-                    "regex": ""
+                    "default": "任何值",
+                    "alpha_num": "字母數字值",
+                    "alpha_dash": "字母數字值和破折號/下劃線",
+                    "regex": "正則表達式"
                 },
                 "slugger-options": {
-                    "random": "",
-                    "alpha_dash": "",
-                    "transliterator": ""
+                    "random": "隨機標識符",
+                    "alpha_dash": "ASCII alpha-numerical slugger",
+                    "transliterator": "使用 FoF Transliterator extension"
                 }
             },
             "edit-term": {
                 "title": {
-                    "new": "",
-                    "edit": ""
+                    "new": "創建分類條目",
+                    "edit": "編輯條目"
                 },
                 "field": {
-                    "name": "",
-                    "slug": "",
-                    "description": "",
-                    "color": "",
-                    "icon": "",
-                    "iconDescription": ""
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription"
                 },
-                "delete": "",
-                "deleteConfirmation": "",
+                "delete": "=> flamarkt-taxonomies.ref.delete",
+                "deleteConfirmation": "您真的要刪除條目 {name} 嗎？使用該條目的討論不會被刪除。\n",
                 "submit": {
-                    "new": "",
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
                     "edit": ""
                 }
             },
