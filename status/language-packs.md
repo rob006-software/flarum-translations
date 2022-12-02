@@ -126,7 +126,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/chinese-traditional">Chinese (Traditional)</a></td>
+		<td><a href="https://github.com/flarum-lang/chinese-traditional">Chinese (Traditional)</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/chinese-traditional/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/chinese-traditional" alt="last release" style="max-width: 160px;" />
