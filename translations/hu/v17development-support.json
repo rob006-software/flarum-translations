@@ -154,166 +154,166 @@
                 },
                 "convert_to_discussion": {
                     "button": "Átalakítás témáva",
-                    "confirm": "",
-                    "event": ""
+                    "confirm": "Biztos, hogy nyilvános témává alakítja ezt a jegyet? Ha valaki magánjellegű adatokat osztott meg, akkor ezek is nyilvánosak lesznek.",
+                    "event": "A(z) {ticket_title} jegy témává lett alakítva\n\nFelkeresi most a témát?\n"
                 },
                 "status": {
                     "new": {
-                        "title": "",
-                        "description": ""
+                        "title": "Új",
+                        "description": "Ez egy új, nem megválaszolt jegy"
                     },
                     "open": {
-                        "title": "",
-                        "description": ""
+                        "title": "Nyitott",
+                        "description": "A jegyhez új válasz érkezett, és a válaszára vár."
                     },
                     "pending": {
-                        "title": "",
-                        "description": "",
-                        "description_user": ""
+                        "title": "Függőben",
+                        "description": "Ez a jegy a felhasználó válaszára vár.",
+                        "description_user": "Az Ön válaszára vagy a jegy megoldottnak jelölésére várunk."
                     },
                     "closed": {
-                        "title": "",
-                        "description": "",
-                        "is_closed": "",
-                        "close_after_posting": "",
-                        "is_auto_closed": ""
+                        "title": "Lezárt",
+                        "description": "Ez a jegy le lett zárva.",
+                        "is_closed": "Ez a jegy lezárult, ha válaszol, akkor újra fog nyílni. Azt javasoljuk, hogy csak akkor nyissa újra a jegyet, ha a probléma nem lett megoldva. Ha egy új problémáról van szó, nyisson egy új jegyet.",
+                        "close_after_posting": "Jegy lezárása a bejegyzés beküldése után",
+                        "is_auto_closed": "Ez a jegy tétlenség miatt le lett zárva."
                     },
                     "on_hold": {
-                        "title": "",
-                        "description": ""
+                        "title": "Várakoztatva",
+                        "description": "Ez a jegy várakoztatva van."
                     },
                     "duplicate": {
-                        "title": "",
-                        "description": ""
+                        "title": "Ismétlődő",
+                        "description": "Ez a jegy ismétlődőnek lett jelölve."
                     },
                     "solved": {
-                        "title": "",
-                        "description": "",
-                        "mark_as_solved": ""
+                        "title": "Megoldott",
+                        "description": "Ez a jegy megoldottnak lett jelölve.",
+                        "mark_as_solved": "A jegy megoldottnak jelölése"
                     }
                 },
                 "tools": {
-                    "view_ticket": "",
-                    "update_subject": "",
-                    "assign_me": "",
-                    "remove_me": "",
-                    "update_status": "",
-                    "close_ticket": "",
-                    "update_note": ""
+                    "view_ticket": "Jegy megtekintése",
+                    "update_subject": "Tárgy frissítése",
+                    "assign_me": "Hozzám rendelés",
+                    "remove_me": "Visszavonás magamtól",
+                    "update_status": "Jegy állapotának frissítése",
+                    "close_ticket": "Jegy lezárása",
+                    "update_note": "Személyes feljegyzés frissítése"
                 },
                 "new_tickets_dropdown": {
-                    "title": "",
-                    "no_tickets": "",
-                    "ticket_new": "",
-                    "ticket_updated": ""
+                    "title": "Jegyértesítések",
+                    "no_tickets": "Nincsenek jegyértesítések",
+                    "ticket_new": "{username} létrehozta a jegyet: {ticket}",
+                    "ticket_updated": "{username} beküldte ide: {ticket}"
                 },
                 "fields": {
                     "language": {
-                        "title": "",
-                        "placeholder": "",
-                        "empty": "",
-                        "description": ""
+                        "title": "Nyelv",
+                        "placeholder": "Válasszon nyelvet",
+                        "empty": "Nincs nyelv kiválasztva",
+                        "description": "A támogatási jegye ezen a nyelven lesz kezelve: {language}."
                     },
                     "subject": {
-                        "title": "",
-                        "placeholder": "",
-                        "description": ""
+                        "title": "Tárgy",
+                        "placeholder": "Jegy tárgya",
+                        "description": "Próbálja egy rövid mondatban leírni a kérdését."
                     },
                     "information": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Jegyinformációk",
+                        "placeholder": "Mondja el, hogy miben segíthetünk"
                     },
                     "status": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Állapot",
+                        "placeholder": "A jegy állapota"
                     },
                     "assignees": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Megbízottak",
+                        "placeholder": "A jegy állapota"
                     },
                     "private_note": {
-                        "title": "",
-                        "info": "",
-                        "tip": "",
-                        "placeholder": "",
-                        "edit_button": ""
+                        "title": "Személyes feljegyzések",
+                        "info": "A személyes feljegyzések csak más támogatási ügyintézők számára láthatók. Az ügyfél számára nem látható.",
+                        "tip": "TIPP: Ha több ügyintézővel dolgozik egy jegyen, akkor adja meg a nevét és a dátumot a feljegyzésben.",
+                        "placeholder": "Példa: 2022. január 1. – Ügyintéző neve: Ügyfél törölve az adatbázisból",
+                        "edit_button": "Feljegyzés szerkesztése"
                     }
                 },
                 "compose_ticket": {
-                    "title": "",
-                    "private_support": "",
-                    "not_allowed": ""
+                    "title": "Új jegy írása",
+                    "private_support": "A személyes támogatáshoz használja ezt az űrlapot, hogy új jegyet hozzon létre a támogatási platformunkhoz. A nem személyes támogatási dolgokhoz keresse fel a <a>nyilvános fórumunkat</a>.",
+                    "not_allowed": "Most nem nyithat új támogatási jegyet"
                 },
                 "load_more": {
-                    "title": ""
+                    "title": "További jegyek betöltése"
                 },
                 "my_tickets": {
-                    "title": "",
-                    "description": "",
-                    "no_tickets": ""
+                    "title": "Saját jegyek",
+                    "description": "Ezen az oldalon megtalálja az összes személyes jegyét.",
+                    "no_tickets": "Még nincsenek jegyei."
                 },
                 "overview": {
-                    "title": "",
-                    "description": "",
-                    "no_tickets": "",
-                    "all_tickets": "",
-                    "selection_unfiltered": "",
-                    "selection_open": "",
-                    "selection_closed": "",
-                    "refresh": "",
+                    "title": "Jegyek áttekintése",
+                    "description": "Mosolyogjon, Ön az a hős, aki megmenti mások napját.",
+                    "no_tickets": "Nincsenek a feltételeknek megfelelő jegyek, valószínűleg jó munkát végez!",
+                    "all_tickets": "Összes jegy",
+                    "selection_unfiltered": "Szűretlen",
+                    "selection_open": "Nyitott jegyek",
+                    "selection_closed": "Lezárt jegyek",
+                    "refresh": "Frissítés",
                     "filter": {
                         "status": {
-                            "title": "",
-                            "filter_count": ""
+                            "title": "Jegy állapota",
+                            "filter_count": "{count} szűrő"
                         },
                         "language": {
-                            "any": ""
+                            "any": "Bármelyik nyelv"
                         },
                         "assignees": {
-                            "title": "",
-                            "search": "",
-                            "unassigned": ""
+                            "title": "Szűrés megbízottakra",
+                            "search": "Megbízott keresése",
+                            "unassigned": "Nem kiosztott"
                         }
                     },
                     "sort": {
-                        "newest": "",
-                        "oldest": "",
-                        "recent_activity": "",
-                        "least_recent": ""
+                        "newest": "Legújabb elöl",
+                        "oldest": "Legrégebbi elöl",
+                        "recent_activity": "Legfrissebb tevékenység",
+                        "least_recent": "Legrégebbi tevékenység"
                     }
                 }
             },
             "notifications": {
                 "replied_to_ticket": {
-                    "name": "",
-                    "content": ""
+                    "name": "Válaszoltak a jegyemre",
+                    "content": "=> v17development-flarum-support.emails.replied_to_ticket.subject"
                 },
                 "ticket_resolved": {
-                    "name": "",
-                    "content": ""
+                    "name": "Megoldották a jegyemet",
+                    "content": "=> v17development-flarum-support.emails.ticket_resolved.subject"
                 }
             }
         },
         "emails": {
             "replied_to_ticket": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name} válaszolt a következő jegyére: #{ticket_id}",
+                "body": "Kedves {recipient_display_name}!\n\n{replier_display_name} válaszolt a következő jegyére: #{ticket_id} (tárgy: „{subject}”).\n\nHasználja a lenti hivatkozást a válaszoláshoz:\n{url}\n\nVárunk a válaszára, vagy arra, hogy megoldottnak jelölje a jegyet.\n"
             },
             "ticket_status_update": {
-                "subject": "",
-                "body": ""
+                "subject": "A(z) #{ticket_id} jegy megjelölve mint {new_status}",
+                "body": "Kedves {recipient_display_name}!\n\nA(z) #{ticket_id} jegye állapota erre változott: {new_status}.\n\nA jegye webcíme:\n{url}\n"
             },
             "ticket_resolved": {
-                "subject": "",
-                "body": ""
+                "subject": "A(z) #{ticket_id} jegy megjelölve megoldottként",
+                "body": "Kedves {recipient_display_name}!\n\nA(z) #{ticket_id} jegye megoldottnak lett jelölve. Ez azt jelenti, hogy a jegyet lezárták.\n\nA jegye webcíme:\n{url}\n\nHa nem ért egyet a jegy lezárásával, akkor válaszoljon a jegyére, és nyissa meg újra.\n"
             },
             "ticket_pending_reply": {
-                "subject": "",
-                "body": ""
+                "subject": "A(z) #{ticket_id} jegy a válaszára vár",
+                "body": "Kedves {recipient_display_name}!\n\nNemrég {replier_display_name} ekkor válaszolt a(z) #{ticket_id} jegyére: {replied_date}, és most a válaszára várunk.\n\nA jegye webcíme a következő:\n{url}\n\nHa a probléma elhárult, akkor jelölje megoldottnak a jegyet.\n"
             },
             "ticket_pending_reply_closed": {
-                "subject": "",
-                "body": ""
+                "subject": "A(z) #{ticket_id} jegy tétlenség miatt le lett zárva",
+                "body": "Kedves {recipient_display_name}!\n\nNemrég {replier_display_name} válaszolt a következő jegyére: #{ticket_id}. Sajnos nem kaptunk választ Öntől. A jegy tétlenség miatt automatikusan le lett zárva.\n\nHa mégis válaszolni szeretne, akkor a jegye webcíme a következő:\n{url}\n"
             }
         }
     }
