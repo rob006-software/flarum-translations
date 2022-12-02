@@ -495,6 +495,6 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'vMajor.Minor.Patch',
 		],
-		'maintainers' => [],
+		'maintainers' => ['efast1568'],
 	],
 ];
