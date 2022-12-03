@@ -2,18 +2,18 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": ""
+                "view": "Ver registro de auditoría"
             },
             "header": {
-                "title": "",
-                "free": "",
-                "pro": "",
-                "upgrade": ""
+                "title": "Auditoría",
+                "free": "Gratuito",
+                "pro": "Profesional",
+                "upgrade": "Actualizar a Profesional"
             }
         },
         "forum": {
             "link": {
-                "discussion-audit": "",
+                "discussion-audit": "Audit log",
                 "user-audit": "",
                 "actor-audit": ""
             },
@@ -25,76 +25,76 @@
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "",
-                "filterApply": "",
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "filterPlaceholder": "Filtrar registros",
+                "filterApply": "Aplicar",
+                "empty": "No hay resultados",
+                "loadMore": "Cargar más",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "discussion": "Discusión #{id}",
+                    "group": "Grupo #{id}",
+                    "post": "Publicación #{id}",
+                    "tag": "Etiqueta #{id}",
+                    "user": "Usuario #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "Comentario",
+                    "post": "Publicación"
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "(sin valor)",
+                "noReason": "(sin razón)",
                 "client": {
-                    "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "session": "Sesión web",
+                    "api_key": "Clave API",
+                    "access_token": "Token de acceso",
+                    "cli": "Línea de comando",
+                    "unknown": "Cliente desconocido"
                 },
                 "controls": {
-                    "hideRaw": "",
-                    "showRaw": "",
-                    "filterActor": "",
-                    "filterIp": "",
-                    "filterClient": "",
-                    "filterAction": "",
-                    "filterUser": "",
-                    "filterDiscussion": ""
+                    "hideRaw": "Ocultar registro sin procesar",
+                    "showRaw": "Mostrar registro sin procesar",
+                    "filterActor": "Mostrar registros de este actor",
+                    "filterIp": "Mostrar registros por esta IP",
+                    "filterClient": "Mostrar registros por este tipo de cliente",
+                    "filterAction": "Mostrar registros de la misma acción",
+                    "filterUser": "Mostrar registros que afectan al usuario",
+                    "filterDiscussion": "Mostrar registros que afectan a la discusión"
                 },
-                "cache_cleared": "",
+                "cache_cleared": "Caché borrada manualmente",
                 "discussion": {
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "hidden": "",
-                    "locked": "",
-                    "renamed": "",
-                    "restored": "",
+                    "created": "Discusión iniciada {discussion}",
+                    "create_date_changed": "Cambiada en {discussion} la fecha de inicio de {old_date} por {new_date}",
+                    "deleted": "Discusión eliminada {discussion}",
+                    "hidden": "Discusión oculta {discussion}",
+                    "locked": "Discusión cerrada {discussion}",
+                    "renamed": "Discusión renombrada de {old_title} a {new_title}",
+                    "restored": "Discusión restaurada {discussion}",
                     "split_away": "",
                     "split_into": "",
-                    "stickied": "",
-                    "tagged": "",
-                    "unlocked": "",
-                    "unstickied": "",
-                    "user_changed": ""
+                    "stickied": "Discusión fijada {discussion}",
+                    "tagged": "Etiquetas de {discussion} actualizadas de {old_tags} a {new_tags}",
+                    "unlocked": "Discusión reabierta {discussion}",
+                    "unstickied": "Discusión sin fijar {discussion}",
+                    "user_changed": "Se cambió el autor de {discussion} de {old_user} a {new_user}"
                 },
                 "extension": {
-                    "disabled": "",
-                    "enabled": ""
+                    "disabled": "Extensión deshabilitada {package}",
+                    "enabled": "Extensión habilitada {package}"
                 },
                 "fof_ban_ips": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "IP baneada {ip}",
+                    "unbanned": "IP desbaneada {ip}"
                 },
                 "permission_changed": "",
                 "post": {
-                    "approved": "",
-                    "created": "",
+                    "approved": "Aprobado {post} de {postuser} en {discussion}",
+                    "created": "Creado un {post} en {discussion}",
                     "create_date_changed": "",
-                    "deleted": "",
+                    "deleted": "Se eliminó {post} de {postuser} en {discussion}",
                     "dismissed_flags": "",
                     "edit_date_changed": "",
                     "flagged": "",
@@ -106,33 +106,33 @@
                 "setting_changed": "",
                 "setting_changed_with_values": "",
                 "tag": {
-                    "created": "",
-                    "deleted": "",
-                    "updated": ""
+                    "created": "Etiqueta creada {tag}",
+                    "deleted": "Etiqueta eliminada {tag}",
+                    "updated": "Etiqueta actualizada {tag}"
                 },
                 "user": {
-                    "activated": "",
-                    "activated_with_email": "",
-                    "avatar_changed": "",
-                    "avatar_removed": "",
-                    "bio_changed": "",
-                    "created": "",
-                    "deleted": "",
+                    "activated": "Cuenta de {username} activada manualmente",
+                    "activated_with_email": "Cuenta de {username} activada a través del enlace de confirmación",
+                    "avatar_changed": "Cambió el avatar de {username}",
+                    "avatar_removed": "Se eliminó el avatar de {username}",
+                    "bio_changed": "Se editó la biografía de {username}",
+                    "created": "Creada la cuenta de {username}",
+                    "deleted": "Cuenta de {username} eliminada",
                     "email_changed": "",
                     "email_change_requested": "",
                     "groups_changed": "",
                     "impersonated": "",
-                    "logged_in": "",
+                    "logged_in": "Inició sesión {username}",
                     "logged_in_with_provider": "",
-                    "logged_out": "",
+                    "logged_out": "Cerró sesión {username}",
                     "nickname_changed": "",
                     "nickname_requested": "",
                     "nickname_request_approved": "",
                     "nickname_request_rejected": "",
-                    "password_changed": "",
-                    "password_change_requested": "",
+                    "password_changed": "{username} cambió la contraseña",
+                    "password_change_requested": "{username} solicitó cambiar la contraseña",
                     "provider_connected": "",
-                    "suspended": "",
+                    "suspended": "Suspendida la cuenta de {username} hasta {until}",
                     "unsuspended": "",
                     "username_changed": "",
                     "username_requested": "",
