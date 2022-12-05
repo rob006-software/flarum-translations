@@ -2,22 +2,22 @@
     "clarkwinkelmann-money-rewards": {
         "admin": {
             "settings": {
-                "preselection": "预选金额（英文逗号分隔,可选）",
-                "min": "自定义金额的最小值",
-                "max": "自定义金额的最大值",
-                "decimals": "自定义金额的小数位数上限"
+                "preselection": "预设金额（英文逗号分隔, 可填项）",
+                "min": "最低自定义金额",
+                "max": "最高自定义金额",
+                "decimals": "最大自定义金额小数位数"
             },
             "permissions": {
-                "seeMoneyRewardHistory": "查看其他用户的打赏记录",
-                "rewardWithMoney": "使用货币打赏其他用户",
-                "customAmounts": "选择自定义打赏金额",
-                "createMoney": "重新设定新的赏金金额"
+                "seeMoneyRewardHistory": "查看其他用户的奖赏记录",
+                "rewardWithMoney": "使用 money 打赏其他用户",
+                "customAmounts": "自定义打赏金额",
+                "createMoney": "印发新 money 用于打赏"
             }
         },
         "forum": {
             "modal": {
-                "title": "打赏该帖",
-                "target": "由{username}打赏了{number}帖子",
+                "title": "打赏",
+                "target": "「{username}」已打赏 #{number}",
                 "optionCustom": "自定义",
                 "balance": "您的余额：{amount}",
                 "label": {
