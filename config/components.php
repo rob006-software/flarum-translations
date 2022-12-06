@@ -963,7 +963,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/migratetoflarum/canonical/1.0.0/resources/locale/en.yml',
 	],
 	'migratetoflarum-fake-data' => [
-		'tag' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/1.3.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/1.4.0/resources/locale/en.yml',
 	],
 	'miniflar-admin-notepad-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/miniflar/admin-notepad-widget/1.0.0/resources/locale/en.yml',
