@@ -200,7 +200,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-discussion-lists/1.0.0/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-discussion-open-position' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-discussion-open-position/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-discussion-open-position/1.1.0/locale/en.yml',
 	],
 	'clarkwinkelmann-editable-user-attributes' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-editable-user-attributes/1.0.0/resources/locale/en.yml',
