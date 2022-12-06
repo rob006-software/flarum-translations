@@ -716,9 +716,6 @@ return [
 	'ianm-translate' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/ianm-translate.yml',
 	],
-	'itnt-uitab' => [
-		'tag' => 'https://raw.githubusercontent.com/Littlegolden/flarum-uitab/v0.4.2/resources/locale/en.yml',
-	],
 	'jeromegillard-map' => [
 		'tag' => 'https://raw.githubusercontent.com/JeromeGillard/flarum-map/v0.1.4/locale/en.yml',
 	],
