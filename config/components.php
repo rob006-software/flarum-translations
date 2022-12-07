@@ -322,6 +322,9 @@ return [
 	'clarkwinkelmann-who-read' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-who-read/1.4.1/resources/locale/en.yml',
 	],
+	'club-1-cross-references' => [
+		'tag' => 'https://raw.githubusercontent.com/club-1/flarum-ext-cross-references/v0.2.0/locale/en.yml',
+	],
 	'convo-extensions-guest-posting' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/convo-extensions-guest-posting.yml',
 	],
