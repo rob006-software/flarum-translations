@@ -6,17 +6,17 @@
                 "discussion-list-new-activity-with-auto-release": "{count, plural, one {# discussione ha} other {# discussioni hanno}} aggiornamenti alle attività che verranno rilasciate in {releaseTimeout} secondi. Clicc a per mostrarle ora."
             },
             "typing-indicator": {
-                "anonymous-user": "",
-                "people-are-typing": "{number, plural, one {# utente stà scrivendo} other {# utenti stanno scrivendo}}",
-                "users-are-typing": "",
+                "anonymous-user": "[Anonimo]",
+                "people-are-typing": "{number, plural, one {# utente sta scrivendo} other {# utenti stanno scrivendo}}",
+                "users-are-typing": "{count, plural, one {{users} sta scrivendo} other {{users}{others, plural, =1 { & # other} =0 {} other { & # others}} stanno scrivendo}}",
                 "no-activity": "Nessuno sta scrivendo"
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Realtime",
                     "typing-indicator-type": {
-                        "help": "",
-                        "label": ""
+                        "help": "Quando attivo, vengono visualizzati gli username degli utenti che stanno scrivendo. Disattivare questa opzione per visualizzare solo il numero di utenti che stanno scrivendo.",
+                        "label": "Visualizzare chi sta scrivendo"
                     }
                 }
             }
