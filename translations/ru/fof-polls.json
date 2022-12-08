@@ -2,7 +2,7 @@
     "fof-polls": {
         "admin": {
             "settings": {
-                "allow_option_image": ""
+                "allow_option_image": "Добавить изображение (URL ссылки) для каждого пункта опроса"
             },
             "permissions": {
                 "view_results_without_voting": "Смотреть результаты без голосования",
@@ -32,7 +32,7 @@
                 "min": "Вы должны добавить минимум 2 варианта",
                 "no_voters": "Голоса отсутствуют",
                 "option_placeholder": "Вариант",
-                "image_option_placeholder": "",
+                "image_option_placeholder": "URL ссылка на изображение (опционально)",
                 "options_label": "Варианты ответа",
                 "public_poll_label": "Публичный опрос",
                 "question_placeholder": "Вопрос",
