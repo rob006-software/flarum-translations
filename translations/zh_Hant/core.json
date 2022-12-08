@@ -9,15 +9,15 @@
                 "colors_text": "選擇兩種顏色作為論壇主色調。第一種作為突出顯示顏色，第二種作為背景等元素的顏色。",
                 "custom_footer_heading": "自定義頁腳",
                 "custom_footer_text": "新增 HTML 代碼顯示於頁面底部。",
-                "custom_header_heading": "自定義導航欄",
+                "custom_header_heading": "自定義頁眉",
                 "custom_header_text": "添加顯示於頁面頂部、位於 Flarum 默認頁眉上方的 HTML 代碼。",
                 "custom_styles_heading": "自定義樣式",
                 "custom_styles_text": "添加 Less/CSS 代碼以自定義論壇外觀，此設置將覆蓋 Flarum 默認樣式。",
                 "dark_mode_label": "暗黑模式",
                 "description": "自訂論壇色調、圖標以及其他元素",
-                "edit_css_button": "編輯客製化 CSS",
-                "edit_footer_button": "編輯客製化頁腳",
-                "edit_header_button": "編輯客製化頁眉",
+                "edit_css_button": "編輯自定義 CSS",
+                "edit_footer_button": "=> core.ref.custom_footer_title",
+                "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "請鍵入十六進制顏色代碼。",
                 "favicon_heading": "站點圖示",
                 "favicon_text": "上傳圖片做為論壇的站點圖示。",
@@ -300,7 +300,7 @@
                 "delete_confirmation": "確定是否刪除此貼文？",
                 "delete_forever_button": "永久刪除",
                 "log_in_to_reply_button": "登入以回覆",
-                "rename_button": "重命名",
+                "rename_button": "=> core.ref.rename",
                 "reply_button": "回覆",
                 "restore_button": "還原",
                 "toggle_dropdown_accessible_label": "主題下拉選單開關"
@@ -403,7 +403,7 @@
                 "time_lapsed_text": "{period}後"
             },
             "rename_discussion": {
-                "submit_button": "重命名",
+                "submit_button": "=> core.ref.rename",
                 "title": "更改帖文主題"
             },
             "search": {
@@ -638,7 +638,7 @@
             "posts": "貼文",
             "previous_page": "上一頁",
             "remove": "移除",
-            "rename": "重命名",
+            "rename": "重新命名",
             "reply": "回覆",
             "reset_your_password": "重設密碼",
             "restore": "還原",
