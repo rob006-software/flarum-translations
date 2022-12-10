@@ -719,6 +719,9 @@ return [
 	'jeromegillard-map' => [
 		'tag' => 'https://raw.githubusercontent.com/JeromeGillard/flarum-map/v0.1.4/locale/en.yml',
 	],
+	'jiajia9190-geo-weather' => [
+		'tag' => 'https://raw.githubusercontent.com/jiajia9190/geo-weather/1111/resources/locale/en.yml',
+	],
 	'jslirola-login2seeplus' => [
 		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.2.1/locale/en.yml',
 	],
