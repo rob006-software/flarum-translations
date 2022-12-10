@@ -36,19 +36,19 @@
             "settings": {
                 "title": "主題瀏覽量設置",
                 "track_unique_label": "僅追踪 UV（獨立訪客）",
-                "track_unique_text": "",
-                "track_guests_label": "",
+                "track_unique_text": "根據IP位址增加觀看次數",
+                "track_guests_label": "追蹤訪客",
                 "abbr_numbers_label": "縮寫瀏覽量",
-                "abbr_numbers_text": "",
+                "abbr_numbers_text": "高觀看次數以縮寫顯示（例如 1000 = 1K）",
                 "show_filter_label": "添加「最多人看/最少人看」排序選項",
                 "max_viewcount_label": "「最近瀏覽的人」列表最多展示人數",
-                "max_viewcount_text": "側邊欄和頁腳足跡列表的展示數量上限",
+                "max_viewcount_text": "位於側邊欄和頁腳列表的展示數量上限",
                 "show_viewlist_label": "在主題頁面展示「最近瀏覽的人」列表",
-                "show_viewlist_text": "",
+                "show_viewlist_text": "在討論區側邊欄顯示最新查看者列表",
                 "show_footer_viewlist_label": "在貼文頁腳展示「足跡」",
-                "show_footer_viewlist_text": "",
-                "ignore_crawlers_label": "",
-                "ignore_crawlers_text": "",
+                "show_footer_viewlist_text": "在首篇貼文底部顯示查看者列表",
+                "ignore_crawlers_label": "忽略機器人/爬蟲",
+                "ignore_crawlers_text": "防止機器人和爬蟲增加觀看次數",
                 "track_guests": "記錄未登錄訪客"
             }
         }
