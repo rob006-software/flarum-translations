@@ -19,7 +19,7 @@
             "rollbackButton": "轉返至這個修訂版本{number}",
             "rollbackToOriginalButton": "回滾至原始版本",
             "revertChangesButton": "撤回變更",
-            "confirmRollback": "您確定要轉返至這個修訂版本嗎？這個修訂之後編輯的內容將被永久刪除。",
+            "confirmRollback": "這個修訂之後編輯的內容將被永久刪除。確定要轉返至這個修訂版本嗎？",
             "confirmDelete": "去定要從歷史中刪除這個修訂版本嗎？",
             "rollbackErrorMessage": "回復失敗。",
             "deleteErrorMessage": "修訂版本刪除失敗。",
@@ -28,7 +28,7 @@
             "editedInfo": "=> core.forum.post.edited_tooltip",
             "deletedInfo": "{username} 於 {ago} 刪除",
             "createdInfo": "{username} 於 {ago} 新增",
-            "revisionInfo": "已編輯 {revisionCount} 次, 最新版顯示於頂部",
+            "revisionInfo": "已編輯 {revisionCount, plural, one {{revisionCount}} other {{revisionCount}}} 次，由新到舊排序",
             "noDiff": "沒有差異。",
             "differences": {
                 "originalContent": "=> the-turk-diff.ref.originalContent",
@@ -47,7 +47,7 @@
             "settings": {
                 "title": "Diff 設定",
                 "onlyUnsigned": "僅允許<strong>無符號整數</strong>！",
-                "usePoint": "使用<strong>點</strong>作為小數點",
+                "usePoint": "使用<strong>點</strong>作為小數點。",
                 "separateBlock": "於 HTML 渲染器中在差異塊之間顯示分隔符",
                 "mainPostOnly": "僅儲存主貼修訂版本",
                 "textFormatting": "預覽時啟用文字樣式",
