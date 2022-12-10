@@ -8,7 +8,7 @@
         "admin": {
             "settings": {
                 "modal": {
-                    "always_show_theme_toggle_on_header": "",
+                    "always_show_theme_toggle_on_header": "Altijd de knop tronen voor het wisselen van thema's in de forumheader",
                     "default_theme": "Standaard forumthema",
                     "default_theme_helper": "Het standaardthema wordt automatisch ingesteld voor nieuwe gebruikers, gasten en degenen die geen voorkeuren hebben ingesteld.",
                     "theme_auto": "=> fof-nightmode.ref.auto",
@@ -18,8 +18,8 @@
             }
         },
         "forum": {
-            "day": "Dagmodus",
-            "night": "Nachtmodus",
+            "day": "=> fof-nightmode.ref.light",
+            "night": "=> fof-nightmode.ref.dark",
             "header": {
                 "nightmode_button": "Forumthema wisselen"
             },
@@ -29,7 +29,7 @@
                     "description": "Kies welke kleur thema je wil gebruiken op het forum.",
                     "description2": "Dit thema wordt gekoppeld aan je account en is van toepassing op al je toestellen, tenzij je de schakelaar hieronder aan/uit zet per toestel instellingen.",
                     "device_specific_setting_checkbox": "Gebruik per toestel instellingen",
-                    "device_specific_setting_checkbox_tooltip": "Je gekozen thema wordt individueel opgeslagen voor elk van je toestellen.",
+                    "device_specific_setting_checkbox_tooltip": "Je gekozen thema wordt individueel opgeslagen voor elk van je apparaten.",
                     "auto_unsupported": "Je browser ondersteunt geen automatische nachtmodus.",
                     "options": {
                         "auto": "=> fof-nightmode.ref.auto",
@@ -48,10 +48,10 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "fofNightMode": "",
-                "fofNightMode-help": "",
-                "fofNightMode_perDevice": "",
-                "fofNightMode_perDevice-help": ""
+                "fofNightMode": "FoF Nightmode: standaard te gebruiken kleurenthema",
+                "fofNightMode-help": "0 - automatisch, 1 - lichte modus, 2 - donkere modus",
+                "fofNightMode_perDevice": "FoF Nightmode: per apparaatinstellingen gebruiken",
+                "fofNightMode_perDevice-help": "Apparaatvoorkeuren gebruiken voor de nachtmodus"
             }
         }
     }
