@@ -2,13 +2,13 @@
     "clarkwinkelmann-prominent-post-numbers": {
         "admin": {
             "settings": {
-                "floating": "樓層號右上角展示",
-                "prefix": "字首",
+                "floating": "將樓層號顯示在右上角",
+                "prefix": "前綴",
                 "prefixPlaceholder": "留空使用語言包默認前綴"
             }
         },
         "views": {
-            "format": "{number}"
+            "format": "{number}樓"
         }
     }
 }
