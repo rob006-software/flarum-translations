@@ -1,9 +1,16 @@
 {
     "club-1-cross-references": {
+        "admin": {
+            "show_discussion_id": {
+                "label": "Show discussion ID",
+                "help": "Add discussion ID numbers everywhere a discussion is displayed"
+            }
+        },
         "forum": {
             "post_stream": {
                 "discussion_referenced_text": "{username} referenced this discussion from {source}"
-            }
+            },
+            "comment": "comment"
         }
     }
 }
