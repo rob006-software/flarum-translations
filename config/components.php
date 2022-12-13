@@ -433,6 +433,9 @@ return [
 	'finteger-ratings' => [
 		'tag' => 'https://raw.githubusercontent.com/finteger/ratings/v1.18/resources/locale/en.yml',
 	],
+	'finteger-shorts' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/finteger-shorts.yml',
+	],
 	'flamarkt-backoffice' => [
 		'tag' => 'https://raw.githubusercontent.com/flamarkt/backoffice/0.1.3/resources/locale/en.yml',
 	],
