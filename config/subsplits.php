@@ -483,7 +483,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'vMajor.Minor.Patch',
 		],
-		'maintainers' => ['littlegolden'],
+		'maintainers' => ['thatsgolden'],
 	],
 	'zh_Hant' => [
 		'type' => 'language',
