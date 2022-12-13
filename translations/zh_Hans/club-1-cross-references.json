@@ -2,15 +2,15 @@
     "club-1-cross-references": {
         "admin": {
             "show_discussion_id": {
-                "label": "",
-                "help": ""
+                "label": "显示主题帖 ID",
+                "help": "在任何主题标题旁展示主题帖 ID"
             }
         },
         "forum": {
             "post_stream": {
-                "discussion_referenced_text": ""
+                "discussion_referenced_text": "「{username}」于「{source}」引用此帖"
             },
-            "comment": ""
+            "comment": "回复"
         }
     }
 }
