@@ -1,0 +1,39 @@
+{
+    "finteger-shorts": {
+        "admin": {
+            "explain": {
+                "it": "Enter the tag id you want the uploads to appear in."
+            },
+            "permissions": {
+                "view": "View shorts",
+                "submit": "Submit shorts",
+                "moderate": "Moderate shorts"
+            },
+            "uploadLimit": "Upload limit (0 to 1000).  Admins are exempt from the limit.",
+            "maxFile": "Maximum file size (in MB, up to 10000).",
+            "displayShorts": "Enter the number of videos you want to display on the IndexPage."
+        },
+        "forum": {
+            "upload": {
+                "button": "Upload Video."
+            },
+            "modalinfo": "(Please note that this will also be the discussion title):",
+            "modalTitle": "TITLE",
+            "modalMessage": "Your video upload was successful!",
+            "modalMenu": "Choose a Discussion for the Upload:",
+            "maxFileMessage": "Please ensure that your upload is less than",
+            "headerTitle": "Uploads",
+            "loadingIndicator": "Uploading file.  Please wait...",
+            "posterPlaceholder": "Enter Cover Url (Optional)",
+            "titlePlaceholder": "Enter Title",
+            "containerMessage": "Upload a video.",
+            "infoComments": "Comments:",
+            "infoViews": "Views:",
+            "infoDiscussion": "Discussion:",
+            "infoGo": "Go",
+            "uploadlimit_maxfile1": "You have may have exceeded the upload limit of",
+            "uploadlimit_maxfile2": "or exceeded the maximum file size limit of",
+            "validFile": "Please upload a valid video file!"
+        }
+    }
+}
