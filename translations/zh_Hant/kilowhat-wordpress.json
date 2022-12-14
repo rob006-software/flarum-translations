@@ -6,16 +6,16 @@
                 "api_key": "Flarum API Key",
                 "wordpress_url": "WordPress URL",
                 "wordpress_username": "WordPress 管理員用戶名",
-                "section_sso_intro": "此功能將無縫綁定 WordPress 和 Flarum 賬號。系統將自動為他們創建賬號並與 Wordpress 保持同步。如果您在 Flarum 中已有賬號，系統將自動通過郵箱綁定重覆的賬號。如果您通過 Flarum 刪除了一個用戶，那麽下次該用戶仍然可以使用 Wordpress 賬號登錄恢複賬號。要封禁一個 Flarum 用戶，請在 Flarum 中封禁該賬戶。\n",
+                "section_sso_intro": "此功能將無縫綁定 WordPress 和 Flarum 賬號。系統將自動為他們創建賬號並與 WordPress 保持同步。如果您在 Flarum 中已有賬號，系統將自動通過郵箱綁定重覆的賬號。如果您通過 Flarum 刪除了一個用戶，那麽下次該用戶仍然可以使用 WordPress 賬號登錄恢複賬號。要封禁一個 Flarum 用戶，請在 Flarum 中封禁該賬戶。\n",
                 "enable_sso": "啟用SSO登錄集成",
                 "cookie_domain": "Cookie域名",
                 "cookie_domain_help": "只當與 Flarum 域名不同時才需填寫",
-                "wordpress_login_path": "Wordpress登入路徑",
+                "wordpress_login_path": "WordPress登入路徑",
                 "wordpress_login_path_help": "只當您手動或通過插件修改端點名稱時才須填寫",
                 "username_strategy": "新用戶的用戶名",
                 "username_strategy_options": {
-                    "user_login": "Wordpress的用戶名",
-                    "first_name": "在wordpress填寫的名字",
+                    "user_login": "WordPress的用戶名",
+                    "first_name": "在WordPress填寫的名字",
                     "random": "隨機用戶名"
                 },
                 "username_strategy_help": "如果用戶名已被Flarum其他用戶佔用, 則在用戶名後附加隨機數字",
@@ -24,15 +24,15 @@
                 "welcome_message": "介紹訊息",
                 "welcome_message_help": "該信息將在用戶首次訪問論壇時顯示，同時還將顯示用戶名選擇（如果啟用）。",
                 "wordpress_login_only": "只允許 WordPress 登錄",
-                "wordpress_login_only_help": "禁止使用 Flarum 登錄，當需要登錄時直接打開 Wordpress 登錄模塊。這將自動關閉 Flarum 的「註冊」權限。\n",
-                "user_delete": "在 Wordpress 刪除用戶後的操作",
+                "wordpress_login_only_help": "禁止使用 Flarum 登錄，當需要登錄時直接打開 WordPress 登錄模塊。這將自動關閉 Flarum 的「註冊」權限。\n",
+                "user_delete": "在 WordPress 刪除用戶後的操作",
                 "user_delete_options": {
                     "ignore": "無視（保留 Flarum 用戶）",
                     "delete": "刪除 Flarum 用戶",
                     "suspend": "永久封禁 Flarum 用戶（必須已經啟用 Suspend 插件）"
                 },
                 "user_delete_desc": "如果選擇「刪除」，則只刪除用戶，不刪除 Flarum 中已發表的內容。",
-                "section_comments_intro": "此功能使用 Flarum 框架替換 Wordpress 評論模塊。 這會使未登錄訪客無法發表評論。 只有在 WordPress 中啟用了評論功能的帖子才會創建對應的主題帖。 啟用或禁用評論功能時，Flarum 會同步鎖定主題。 如果您啟用此功能時，您的博客已經有文章存在，您需要在每篇文章上手動禁用並重新啟用評論功能以創建 Flarum 主題帖。\n",
+                "section_comments_intro": "此功能使用 Flarum 框架替換 WordPress 評論模塊。 這會使未登錄訪客無法發表評論。 只有在 WordPress 中啟用了評論功能的帖子才會創建對應的主題帖。 啟用或禁用評論功能時，Flarum 會同步鎖定主題。 如果您啟用此功能時，您的博客已經有文章存在，您需要在每篇文章上手動禁用並重新啟用評論功能以創建 Flarum 主題帖。\n",
                 "enable_comments": "啟用評論集成",
                 "excerpt_html_whitelist": "要保留在摘錄中的 HTML 標籤白名單（半角逗號分隔）",
                 "excerpt_html_nodes": "內容摘錄的長度（以 HTML 節點數為單位）",
@@ -76,7 +76,7 @@
                 "customize_text": "您的 LESS/CSS 將僅覆蓋 WordPress 框架內的 Flarum <a>默認樣式</a>。"
             },
             "permissions": {
-                "gambits": "Wordpress 第三方策略（詳見說明）"
+                "gambits": "WordPress 第三方策略（詳見說明）"
             },
             "save-controls": {
                 "validation-errors": "您提交的內容有誤",
@@ -90,12 +90,12 @@
                 "check": "立即檢查",
                 "errors": "我們發現了一些問題。",
                 "healthy": "一切都很好！",
-                "not-run": "在您連接 Wordpress 和 Flarum 後，方可使用「健康檢查」。",
+                "not-run": "在您連接 WordPress 和 Flarum 後，方可使用「健康檢查」。",
                 "request-error": "無法執行健康檢查。"
             },
             "wizard": {
                 "intro": "感謝您購買我的 WordPress 高級擴展！ 請在下方填寫您的註冊碼，以自動連接您的 Flarum 和 WordPress。\n",
-                "wordpress_url": "Wordpress URL",
+                "wordpress_url": "WordPress URL",
                 "wordpress_url_help": "您的 WordPress 首頁地址",
                 "wordpress_username": "WordPress 管理員用戶名",
                 "wordpress_password": "WordPress 管理員密碼",
@@ -140,14 +140,14 @@
         },
         "api": {
             "blocked_actions": {
-                "login": "這個帳號連結到wordpress，請前往主頁登錄。",
-                "password_reset": "這個帳號已與Wordpress帳號綁定，請使用主站登錄表單重置密碼。",
-                "email_change": "此賬號已與Wordpress綁定，請前往主站個人資料頁面修改郵箱。"
+                "login": "這個帳號連結到WordPress，請前往主頁登錄。",
+                "password_reset": "這個帳號已與WordPress帳號綁定，請使用主站登錄表單重置密碼。",
+                "email_change": "此賬號已與WordPress綁定，請前往主站個人資料頁面修改郵箱。"
             },
             "health": {
                 "suspend-extension-required": "必須啟用暫停擴展才能使用“用戶刪除操作”的“暫停”選項",
                 "cookie-domain-format": "cookie 域似乎不是有效域。 檢查它是否只是一個沒有任何協議或路徑的域",
-                "login-only-signup-open": "您需要在 Flarum 權限下禁用註冊才能使“僅允許 Wordpress 登錄”設置完全生效",
+                "login-only-signup-open": "您需要在 Flarum 權限下禁用註冊才能使“僅允許 WordPress 登錄”設置完全生效",
                 "lock-extension-required": "必須啟用 Lock 擴展才能使用 Comments 集成",
                 "tags-extension-required": "如需要添加標籤請啟用標籤擴展",
                 "tag-not-exist": "為“新評論主題的標籤 ID”選項選擇的標籤 ID {id} 不存在",
@@ -156,32 +156,32 @@
                 "config-url-https": "config.php 中定義的 Flarum URL 應該是 HTTPS（當前值：“{url}”）",
                 "wordpress-username-missing": "必須填寫“WordPress 管理員用戶名”設置",
                 "api-key-missing": "“Flarum API 密鑰”丟失。 嘗試刷新管理面板並檢查日誌文件是否存在可能的錯誤",
-                "wordpress-url-missing": "必須填寫“Wordpress URL”設置",
-                "wordpress-url-invalid": "“Wordpress URL”設置似乎不是有效的 URL（當前值：“{url}”）",
-                "wordpress-url-index-php": "“Wordpress URL”設置不得包含“/index.php”（當前值：“{url}”）",
-                "wordpress-url-trailing-slash": "“Wordpress URL”設置不得包含尾部斜杠（當前值：“{url}”）",
-                "wordpress-url-https": "“Wordpress URL”設置應為 HTTPS（當前值：“{url}”）",
-                "wordpress-url-mismatch": "Flarum 中的“WordPress URL”設置與 Wordpress 中的“WordPress 地址 (URL)”設置不匹配（預期：“{expected}”，實際：“{actual}”）",
-                "flarum-url-mismatch": "Wordpress 中的“Flarum URL”設置與 Flarum config.php 中配置的 URL 不匹配（預期：“{expected}”，實際：“{actual}”）",
-                "api-key-mismatch": "Wordpress 中的“Flarum API 密鑰”設置與 Flarum 中的“Flarum API 密鑰”設置不匹配（預期：“{expected}”，實際：“{actual}”）",
-                "user-id-not-found": "Wordpress 中的“Flarum 用戶 ID”設置與任何已知的 Flarum 用戶都不匹配（當前值：“{actual}”）。 要使用當前登錄的用戶，您可以使用 ID“{suggested}”\n",
-                "user-id-not-admin": "Wordpress 中的“Flarum 用戶 ID”設置與 Flarum 管理員不匹配（當前值：“{actual}”）。 要使用當前登錄的用戶，您可以使用 ID“{suggested}”\n",
-                "sso-mismatch-flarum": "SSO 集成在 Flarum 中啟用，但在 Wordpress 中未啟用",
-                "sso-mismatch-wordpress": "SSO 集成在 Wordpress 中啟用，但在 Flarum 中未啟用",
-                "cookie-domain-mismatch": "Wordpress 中的“Cookie 域”設置與 Flarum 中的“Cookie 域”設置不匹配（Wordpress 值為“{wordpress}”，Flarum 值為“{flarum}”）",
-                "comments-mismatch-flarum": "評論集成在 Flarum 中啟用，但在 Wordpress 中未啟用",
-                "comments-mismatch-wordpress": "Comments 集成在 Wordpress 中啟用，但在 Flarum 中未啟用",
-                "api-error-json": "嘗試訪問 Wordpress API 時出現錯誤：{message} - Body: {body}",
-                "api-error-401": "嘗試訪問 Wordpress API 時出現 401 錯誤。 仔細檢查 Flarum 中的“Wordpress 管理員用戶名”和 Wordpress 中的“Flarum API 密鑰”",
-                "api-error-other": "嘗試訪問 Wordpress API 時出現錯誤：{message}"
+                "wordpress-url-missing": "必須填寫“WordPress URL”設置",
+                "wordpress-url-invalid": "“WordPress URL”設置似乎不是有效的 URL（當前值：“{url}”）",
+                "wordpress-url-index-php": "“WordPress URL”設置不得包含“/index.php”（當前值：“{url}”）",
+                "wordpress-url-trailing-slash": "“WordPress URL”設置不得包含尾部斜杠（當前值：“{url}”）",
+                "wordpress-url-https": "“WordPress URL”設置應為 HTTPS（當前值：“{url}”）",
+                "wordpress-url-mismatch": "Flarum 中的“WordPress URL”設置與 WordPress 中的“WordPress 地址 (URL)”設置不匹配（預期：“{expected}”，實際：“{actual}”）",
+                "flarum-url-mismatch": "WordPress 中的“Flarum URL”設置與 Flarum config.php 中配置的 URL 不匹配（預期：“{expected}”，實際：“{actual}”）",
+                "api-key-mismatch": "WordPress 中的“Flarum API 密鑰”設置與 Flarum 中的“Flarum API 密鑰”設置不匹配（預期：“{expected}”，實際：“{actual}”）",
+                "user-id-not-found": "WordPress 中的“Flarum 用戶 ID”設置與任何已知的 Flarum 用戶都不匹配（當前值：“{actual}”）。 要使用當前登錄的用戶，您可以使用 ID“{suggested}”\n",
+                "user-id-not-admin": "WordPress 中的“Flarum 用戶 ID”設置與 Flarum 管理員不匹配（當前值：“{actual}”）。 要使用當前登錄的用戶，您可以使用 ID“{suggested}”\n",
+                "sso-mismatch-flarum": "SSO 集成在 Flarum 中啟用，但在 WordPress 中未啟用",
+                "sso-mismatch-wordpress": "SSO 集成在 WordPress 中啟用，但在 Flarum 中未啟用",
+                "cookie-domain-mismatch": "WordPress 中的“Cookie 域”設置與 Flarum 中的“Cookie 域”設置不匹配（WordPress 值為“{wordpress}”，Flarum 值為“{flarum}”）",
+                "comments-mismatch-flarum": "評論集成在 Flarum 中啟用，但在 WordPress 中未啟用",
+                "comments-mismatch-wordpress": "Comments 集成在 WordPress 中啟用，但在 Flarum 中未啟用",
+                "api-error-json": "嘗試訪問 WordPress API 時出現錯誤：{message} - Body: {body}",
+                "api-error-401": "嘗試訪問 WordPress API 時出現 401 錯誤。 仔細檢查 Flarum 中的“Wordpress 管理員用戶名”和 Wordpress 中的“Flarum API 密鑰”",
+                "api-error-other": "嘗試訪問 WordPress API 時出現錯誤：{message}"
             },
             "wizard": {
-                "already_installed": "Flarum 已經與 Wordpress 連接。 要再次運行該嚮導，請刪除 Flarum 中的“Wordpress URL”設置和 Wordpress 中的“Flarum API 密鑰”設置。\n",
+                "already_installed": "Flarum 已經與 WordPress 連接。 要再次運行該嚮導，請刪除 Flarum 中的“WordPress URL”設置和 WordPress 中的“Flarum API 密鑰”設置。\n",
                 "api_unauthorized": "我們無法使用提供的憑據進行身份驗證。 仔細檢查 URL、用戶名和密碼。 查看文檔以了解更多故障排除步驟。\n",
-                "api_error_get": "對 Wordpress 設置執行 GET 請求時出錯（{exception}）。",
-                "api_error_post": "對 Wordpress 設置執行 POST 請求時出錯（{exception}）。",
-                "invalid_wordpress_url": "Wordpress 中的“WordPress 地址 (URL)”設置似乎不是有效的 URL ({actual})。",
-                "plugin_not_installed": "該 Wordpress 站點上似乎沒有安裝或啟用 Wordpress 插件。 確保您至少安裝了 1.2.0 版。\n"
+                "api_error_get": "對 WordPress 設置執行 GET 請求時出錯（{exception}）。",
+                "api_error_post": "對 WordPress 設置執行 POST 請求時出錯（{exception}）。",
+                "invalid_wordpress_url": "WordPress 中的“WordPress 地址 (URL)”設置似乎不是有效的 URL ({actual})。",
+                "plugin_not_installed": "該 WordPress 站點上似乎沒有安裝或啟用 WordPress 插件。 確保您至少安裝了 1.2.0 版。\n"
             }
         },
         "views": {
