@@ -2,15 +2,15 @@
     "finteger-shorts": {
         "admin": {
             "explain": {
-                "it": ""
+                "it": "Yüklemelerin görünmesini istediğiniz etiket kimliğini girin."
             },
             "permissions": {
-                "view": "",
-                "submit": "",
-                "moderate": ""
+                "view": "Shorts'ları görüntüle",
+                "submit": "Short gönder",
+                "moderate": "Short Düzenle"
             },
-            "uploadLimit": "",
-            "maxFile": "",
+            "uploadLimit": "Yükleme sınırı (0 - 1000). Adminler limitten muaftır.",
+            "maxFile": "Maksimum dosya boyutu (MB cinsinden, 10000'e kadar).",
             "displayShorts": ""
         },
         "forum": {
