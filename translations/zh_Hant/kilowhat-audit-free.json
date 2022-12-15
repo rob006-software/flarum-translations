@@ -11,18 +11,6 @@
                 "upgrade": "升級到專業版"
             }
         },
-        "forum": {
-            "link": {
-                "discussion-audit": "審計日誌",
-                "user-audit": "審計日誌（賬戶編輯）",
-                "actor-audit": "審計日志（用戶作為行為人）"
-            },
-            "modal": {
-                "discussion-title": "討論審計日誌",
-                "user-title": "用戶審計日志",
-                "actor-title": "行為人審計日誌"
-            }
-        },
         "lib": {
             "browser": {
                 "filterPlaceholder": "篩選日志",
@@ -64,6 +52,7 @@
                     "filterUser": "篩選受影響的同一用戶",
                     "filterDiscussion": "篩選受影響的同一個主題"
                 },
+                "audit_log_cleared": "",
                 "cache_cleared": "手動清除緩存",
                 "discussion": {
                     "created": "發佈主題 {discussion}",
@@ -139,6 +128,18 @@
                     "username_request_approved": "批準 {username} 用戶名 {old_username} 變更為 {new_username}",
                     "username_request_rejected": "拒絕 {username} 的用戶名變更請求"
                 }
+            }
+        },
+        "forum": {
+            "link": {
+                "discussion-audit": "審計日誌",
+                "user-audit": "審計日誌（賬戶編輯）",
+                "actor-audit": "審計日志（用戶作為行為人）"
+            },
+            "modal": {
+                "discussion-title": "討論審計日誌",
+                "user-title": "用戶審計日志",
+                "actor-title": "行為人審計日誌"
             }
         }
     }

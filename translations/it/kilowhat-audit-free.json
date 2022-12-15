@@ -11,18 +11,6 @@
                 "upgrade": "Aggiorna alla versione Pro"
             }
         },
-        "forum": {
-            "link": {
-                "discussion-audit": "Registro di Controllo",
-                "user-audit": "Registro di Controllo (modifica account)",
-                "actor-audit": "Registro di controllo (utente come attore)"
-            },
-            "modal": {
-                "discussion-title": "Registro di controllo Discussioni",
-                "user-title": "Registro di controllo Utenti",
-                "actor-title": "Registro di controllo dell'attore"
-            }
-        },
         "lib": {
             "browser": {
                 "filterPlaceholder": "Filtra registri",
@@ -64,6 +52,7 @@
                     "filterUser": "Mostra i log che interessano lo stesso utente",
                     "filterDiscussion": "Mostra i log che interessano la stessa discussione"
                 },
+                "audit_log_cleared": "",
                 "cache_cleared": "Svuotato manualmente la cache",
                 "discussion": {
                     "created": "Discussione iniziata {discussione}",
@@ -139,6 +128,18 @@
                     "username_request_approved": "Approvato cambio nome utente di {username} da {old_username} a {new_username}",
                     "username_request_rejected": "Respinto cambio nome utente di {username}"
                 }
+            }
+        },
+        "forum": {
+            "link": {
+                "discussion-audit": "Registro di Controllo",
+                "user-audit": "Registro di Controllo (modifica account)",
+                "actor-audit": "Registro di controllo (utente come attore)"
+            },
+            "modal": {
+                "discussion-title": "Registro di controllo Discussioni",
+                "user-title": "Registro di controllo Utenti",
+                "actor-title": "Registro di controllo dell'attore"
             }
         }
     }

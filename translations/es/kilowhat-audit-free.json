@@ -11,18 +11,6 @@
                 "upgrade": "Actualizar a Profesional"
             }
         },
-        "forum": {
-            "link": {
-                "discussion-audit": "Audit log",
-                "user-audit": "",
-                "actor-audit": ""
-            },
-            "modal": {
-                "discussion-title": "",
-                "user-title": "",
-                "actor-title": ""
-            }
-        },
         "lib": {
             "browser": {
                 "filterPlaceholder": "Filtrar registros",
@@ -64,6 +52,7 @@
                     "filterUser": "Mostrar registros que afectan al usuario",
                     "filterDiscussion": "Mostrar registros que afectan a la discusión"
                 },
+                "audit_log_cleared": "",
                 "cache_cleared": "Caché borrada manualmente",
                 "discussion": {
                     "created": "Discusión iniciada {discussion}",
@@ -139,6 +128,11 @@
                     "username_request_approved": "",
                     "username_request_rejected": ""
                 }
+            }
+        },
+        "forum": {
+            "link": {
+                "discussion-audit": "Audit log"
             }
         }
     }

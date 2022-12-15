@@ -11,18 +11,6 @@
                 "upgrade": "Nâng cấp lên Cao cấp"
             }
         },
-        "forum": {
-            "link": {
-                "discussion-audit": "Nhật ký hoạt động",
-                "user-audit": "Nhật ký hoạt động (chỉnh sửa tài khoản)",
-                "actor-audit": "Nhật ký hoạt động (người dùng là người trình bày)"
-            },
-            "modal": {
-                "discussion-title": "Nhật ký hoạt động cuộc thảo luận",
-                "user-title": "Nhật ký hoạt động người dùng",
-                "actor-title": "Nhật ký hoạt động người trình bày"
-            }
-        },
         "lib": {
             "browser": {
                 "filterPlaceholder": "Bộ lọc nhật ký",
@@ -64,6 +52,7 @@
                     "filterUser": "Hiện nhật ký có ảnh hưởng đến một người dùng",
                     "filterDiscussion": "Hiện nhật ký có ảnh hưởng đến một cuộc thảo luận"
                 },
+                "audit_log_cleared": "",
                 "cache_cleared": "Xóa bộ nhớ cache theo cách thủ công",
                 "discussion": {
                     "created": "Đã tạo cuộc thảo luận {discussion}",
@@ -139,6 +128,18 @@
                     "username_request_approved": "Đã chấp nhận đổi tên người dùng {username} từ {old_username} thành {new_username}",
                     "username_request_rejected": "Đã từ chối thay đổi tên người dùng của {username}"
                 }
+            }
+        },
+        "forum": {
+            "link": {
+                "discussion-audit": "Nhật ký hoạt động",
+                "user-audit": "Nhật ký hoạt động (chỉnh sửa tài khoản)",
+                "actor-audit": "Nhật ký hoạt động (người dùng là người trình bày)"
+            },
+            "modal": {
+                "discussion-title": "Nhật ký hoạt động cuộc thảo luận",
+                "user-title": "Nhật ký hoạt động người dùng",
+                "actor-title": "Nhật ký hoạt động người trình bày"
             }
         }
     }

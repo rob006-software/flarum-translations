@@ -11,18 +11,6 @@
                 "upgrade": "Mise à niveau vers la version professionnelle"
             }
         },
-        "forum": {
-            "link": {
-                "discussion-audit": "Journal d'Audit",
-                "user-audit": "Journal d'Audit (modifications du compte)",
-                "actor-audit": "Journal d'Audit (utilisateur en tant qu'acteur)"
-            },
-            "modal": {
-                "discussion-title": "Journal d'Audit de discussion",
-                "user-title": "Journal d'Audit d'utilisateur",
-                "actor-title": "Journal d'Audit d'acteur"
-            }
-        },
         "lib": {
             "browser": {
                 "filterPlaceholder": "Filtrer les journaux",
@@ -64,6 +52,7 @@
                     "filterUser": "Afficher les journaux affectant le même utilisateur",
                     "filterDiscussion": "Afficher les journaux affectant la même discussion"
                 },
+                "audit_log_cleared": "",
                 "cache_cleared": "Nettoyage manuel du cache",
                 "discussion": {
                     "created": "Démarrage de la discussion {discussion}",
@@ -139,6 +128,18 @@
                     "username_request_approved": "Approbation de la demande de modification de nom d'utilisateur de {username} de {old_username} en {new_username}",
                     "username_request_rejected": "Refus de la demande de modification de nom d'utilisateur de {username}"
                 }
+            }
+        },
+        "forum": {
+            "link": {
+                "discussion-audit": "Journal d'Audit",
+                "user-audit": "Journal d'Audit (modifications du compte)",
+                "actor-audit": "Journal d'Audit (utilisateur en tant qu'acteur)"
+            },
+            "modal": {
+                "discussion-title": "Journal d'Audit de discussion",
+                "user-title": "Journal d'Audit d'utilisateur",
+                "actor-title": "Journal d'Audit d'acteur"
             }
         }
     }
