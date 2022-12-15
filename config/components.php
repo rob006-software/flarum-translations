@@ -911,6 +911,9 @@ return [
 	'kilowhat-audit-pro' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kilowhat-audit-pro.yml',
 	],
+	'kilowhat-cimaise' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kilowhat-cimaise.yml',
+	],
 	'kilowhat-custom-paths' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kilowhat-custom-paths.yml',
 	],
