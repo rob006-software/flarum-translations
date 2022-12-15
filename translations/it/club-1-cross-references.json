@@ -2,15 +2,15 @@
     "club-1-cross-references": {
         "admin": {
             "show_discussion_id": {
-                "label": "",
-                "help": ""
+                "label": "Mostra ID discussione",
+                "help": "Aggiungi ID discussione ovunque"
             }
         },
         "forum": {
             "post_stream": {
-                "discussion_referenced_text": ""
+                "discussion_referenced_text": "{username} ha menzionato questa discussione in {source}"
             },
-            "comment": ""
+            "comment": "commento"
         }
     }
 }
