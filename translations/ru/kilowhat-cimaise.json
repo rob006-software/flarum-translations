@@ -2,49 +2,49 @@
     "kilowhat-cimaise": {
         "forum": {
             "nav": {
-                "albums": "",
-                "pictures": "",
-                "user-pictures": ""
+                "albums": "=> kilowhat-cimaise.ref.albums",
+                "pictures": "=> kilowhat-cimaise.ref.pictures",
+                "user-pictures": "=> kilowhat-cimaise.ref.pictures"
             },
             "album-list": {
-                "title": "",
-                "new": "",
-                "empty": "",
-                "loading": "",
-                "load-more": ""
+                "title": "=> kilowhat-cimaise.ref.albums",
+                "new": "Создать новый альбом",
+                "empty": "Альбомов нет",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "picture-list": {
-                "title": "",
-                "empty": "",
-                "loading": "",
-                "load-more": ""
+                "title": "Все изображения",
+                "empty": "Изображений нет",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "album-show": {
-                "upload": "",
-                "empty": "",
-                "loading": "",
-                "personal": "",
-                "community": "",
-                "discussion": ""
+                "upload": "Загрузить изображение",
+                "empty": "Изображений нет",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "personal": "Личный альбом пользователя <a>{username}</a>",
+                "community": "Альбом сообщества",
+                "discussion": "Перейти к дискуссии"
             },
             "picture-show": {
-                "loading": "",
-                "back-album": "",
-                "download": "",
-                "previous": "",
-                "next": "",
-                "download-cropped": "",
-                "download-original": "",
-                "show-exif": "",
-                "taken-at": "",
-                "published-at": ""
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "back-album": "Вернуться к альбому",
+                "download": "Скачать",
+                "previous": "Предыдущее изображение",
+                "next": "Следующее изображение",
+                "download-cropped": "Обрезанное {size}",
+                "download-original": "Скачать оригинал",
+                "show-exif": "Все EXIF данные",
+                "taken-at": "Получено {ago}",
+                "published-at": "Опубликовано {ago}"
             },
             "upload-modal": {
-                "title": "",
-                "titleInComposer": "",
-                "uploading": "",
-                "processing": "",
-                "select-file": "",
+                "title": "Загузить все изображения в альбом \"{title}\"",
+                "titleInComposer": "Редактировать изображения",
+                "uploading": "Загрузка",
+                "processing": "Обработка",
+                "select-file": "Выберите файл",
                 "drop-file": "",
                 "publishSilently": "",
                 "submit": "",
