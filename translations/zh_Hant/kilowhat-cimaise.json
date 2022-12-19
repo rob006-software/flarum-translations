@@ -2,207 +2,207 @@
     "kilowhat-cimaise": {
         "forum": {
             "nav": {
-                "albums": "",
-                "pictures": "",
-                "user-pictures": ""
+                "albums": "=> kilowhat-cimaise.ref.albums",
+                "pictures": "=> kilowhat-cimaise.ref.pictures",
+                "user-pictures": "=> kilowhat-cimaise.ref.pictures"
             },
             "album-list": {
-                "title": "",
-                "new": "",
-                "empty": "",
-                "loading": "",
-                "load-more": ""
+                "title": "=> kilowhat-cimaise.ref.albums",
+                "new": "創建新相冊",
+                "empty": "沒有相冊",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "picture-list": {
-                "title": "",
-                "empty": "",
-                "loading": "",
-                "load-more": ""
+                "title": "所有相片",
+                "empty": "沒有相片",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "album-show": {
-                "upload": "",
-                "empty": "",
-                "loading": "",
-                "personal": "",
-                "community": "",
-                "discussion": ""
+                "upload": "上傳相片",
+                "empty": "沒有相片",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "personal": "<a>{username}</a>的個人相冊",
+                "community": "社區相冊",
+                "discussion": "前往討論"
             },
             "picture-show": {
-                "loading": "",
-                "back-album": "",
-                "download": "",
-                "previous": "",
-                "next": "",
-                "download-cropped": "",
-                "download-original": "",
-                "show-exif": "",
-                "taken-at": "",
-                "published-at": ""
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "back-album": "返回相冊",
+                "download": "下載",
+                "previous": "上一張圖片",
+                "next": "下一張圖片",
+                "download-cropped": "裁剪{size}",
+                "download-original": "下載原始文檔",
+                "show-exif": "所有 EXIF 數據",
+                "taken-at": "{ago}前拍攝",
+                "published-at": "{ago}前發佈"
             },
             "upload-modal": {
-                "title": "",
-                "titleInComposer": "",
-                "uploading": "",
-                "processing": "",
-                "select-file": "",
-                "drop-file": "",
-                "publishSilently": "",
-                "submit": "",
-                "submitInComposer": ""
+                "title": "上傳相冊“{title}”中的圖片",
+                "titleInComposer": "編輯圖片",
+                "uploading": "上傳中",
+                "processing": "處理中",
+                "select-file": "選擇檔案",
+                "drop-file": "或拖放至此處",
+                "publishSilently": "安靜的發佈",
+                "submit": "提交",
+                "submitInComposer": "繼續"
             },
             "new-album-modal": {
-                "title": ""
+                "title": "新相冊"
             },
             "edit-album-modal": {
-                "title": ""
+                "title": "編輯\"{title}\""
             },
             "attach-album-modal": {
-                "title": "",
-                "selected": "",
-                "none-selected": "",
-                "search": "",
-                "no-results": "",
-                "select": "",
-                "unselect": "",
-                "submit": ""
+                "title": "將相冊附加到“{title}”",
+                "selected": "選擇：",
+                "none-selected": "無",
+                "search": "搜索",
+                "no-results": "沒有結果",
+                "select": "選擇",
+                "unselect": "取消選擇",
+                "submit": "提交"
             },
             "edit-album": {
-                "title": "",
-                "description": "",
-                "isCommunity": "",
-                "create": "",
-                "save": ""
+                "title": "標題",
+                "description": "詳情",
+                "isCommunity": "社區相冊（開放空間）",
+                "create": "創建相冊",
+                "save": "儲存相冊"
             },
             "edit-picture": {
-                "title": "",
-                "description": ""
+                "title": "標題",
+                "description": "詳情"
             },
             "album-thumbnail": {
-                "controls": "",
-                "edit": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": "",
-                "by-user": ""
+                "controls": "=> kilowhat-cimaise.ref.controls",
+                "edit": "編輯",
+                "restore": "=> kilowhat-cimaise.ref.restore",
+                "hide": "=> kilowhat-cimaise.ref.hide",
+                "delete": "=> kilowhat-cimaise.ref.delete",
+                "delete-confirmation": "刪除相冊\"{title}\"?",
+                "by-user": "=> kilowhat-cimaise.ref.by-user"
             },
             "picture-thumbnail": {
-                "by-user": "",
-                "in-album": ""
+                "by-user": "=> kilowhat-cimaise.ref.by-user",
+                "in-album": "在"
             },
             "picture-controls": {
-                "controls": "",
-                "editor": "",
-                "approve": "",
-                "remove-favorite": "",
-                "set-favorite": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "controls": "=> kilowhat-cimaise.ref.controls",
+                "editor": "編輯裁剪和遮罩",
+                "approve": "同意",
+                "remove-favorite": "移除最愛",
+                "set-favorite": "加入最愛",
+                "restore": "=> kilowhat-cimaise.ref.restore",
+                "hide": "=> kilowhat-cimaise.ref.hide",
+                "delete": "=> kilowhat-cimaise.ref.delete",
+                "delete-confirmation": "刪除相片\"{title}\"?"
             },
             "editable-attribute": {
-                "title": "",
-                "description": "",
-                "author": ""
+                "title": "點擊加入標題",
+                "description": "點擊加入詳情",
+                "author": "點擊加入作者"
             },
             "badge": {
-                "hidden": "",
-                "awaiting-approval": "",
-                "favorite": ""
+                "hidden": "隱藏",
+                "awaiting-approval": "等待同意",
+                "favorite": "我的最愛"
             },
             "picture-sort": {
-                "latest": "",
-                "oldest": "",
-                "latestTake": "",
-                "oldestTake": ""
+                "latest": "最後上傳",
+                "oldest": "最舊上傳",
+                "latestTake": "最新拍攝",
+                "oldestTake": "最舊拍攝"
             },
             "album-search": {
-                "title": ""
+                "title": "=> kilowhat-cimaise.ref.albums"
             },
             "post-stream": {
-                "uploaded": ""
+                "uploaded": "{username}上傳了{count}張照片"
             },
             "discussion-controls": {
-                "attach-album": ""
+                "attach-album": "附加或分離相冊"
             },
             "license-label": {
-                "not-specified": "",
-                "not-specified-help": ""
+                "not-specified": "未標註",
+                "not-specified-help": "檢查預設版權的網站使用條款"
             }
         },
         "admin": {
             "permissions": {
-                "view": "",
-                "viewExif": "",
-                "createPersonalAlbums": "",
-                "createCommunityAlbums": "",
-                "editOwnAlbum": "",
-                "hideOwnAlbum": "",
-                "uploadPictures": "",
-                "uploadPersonalPicturesWithoutApproval": "",
-                "uploadCommunityPicturesWithoutApproval": "",
-                "editOwnImage": "",
-                "editOwnPublishedImage": "",
-                "licenseOwnPublishedPicture": "",
-                "renameOwnPublishedPicture": "",
-                "hideOwnPicture": "",
-                "publishSilently": "",
-                "attachCimaiseAlbum": "",
-                "moderate": ""
+                "view": "查看",
+                "viewExif": "查看 Exif 數據（包括地理位置）",
+                "createPersonalAlbums": "創建個人相冊",
+                "createCommunityAlbums": "創建社區相冊",
+                "editOwnAlbum": "更改自己相冊的標題和描述",
+                "hideOwnAlbum": "隱藏個人相冊",
+                "uploadPictures": "上傳圖片",
+                "uploadPersonalPicturesWithoutApproval": "上傳個人相冊中未經批准的圖片",
+                "uploadCommunityPicturesWithoutApproval": "在社區相冊中上傳未經批准的圖片",
+                "editOwnImage": "在自己的照片上使用圖像編輯器（裁剪、遮罩和貼紙）",
+                "editOwnPublishedImage": "發布後對自己的圖片使用圖像編輯器",
+                "licenseOwnPublishedPicture": "發布後更改自己圖片的許可證",
+                "renameOwnPublishedPicture": "發布後更改自己圖片的標題和描述",
+                "hideOwnPicture": "隱藏自己的照片",
+                "publishSilently": "靜默發布圖片（無需貼文）",
+                "attachCimaiseAlbum": "手動將相冊附加到討論",
+                "moderate": "中等"
             },
             "settings": {
-                "watermarkFile": "",
-                "watermarkFileHelp": "",
-                "watermarkPlacement": "",
+                "watermarkFile": "水浮印圖像",
+                "watermarkFileHelp": "圖像將以 1:1 的比例在每次上傳的頂部展示，預覽除外。",
+                "watermarkPlacement": "放置浮水印",
                 "watermarkPlacementOptions": {
-                    "topLeft": "",
-                    "bottomLeft": "",
-                    "topRight": "",
-                    "bottomRight": ""
+                    "topLeft": "左上方",
+                    "bottomLeft": "左下方",
+                    "topRight": "右上方",
+                    "bottomRight": "右下方"
                 },
-                "autoCreateDiscussionAlbum": "",
-                "autoCreateDiscussionAlbumHelp": "",
-                "neverSyncDiscussionAlbumTitles": "",
-                "neverSyncDiscussionAlbumTitlesHelp": "",
-                "columnTheme": "",
-                "columnThemeHelp": "",
-                "mapboxToken": "",
-                "mapboxTokenHelp": "",
-                "requireLicense": "",
-                "requireLicenseHelp": "",
-                "licenses": "",
-                "license-key": "",
-                "license-label": "",
-                "license-description": "",
-                "license-add": "",
-                "stickers": "",
-                "sticker-key": "",
-                "sticker-label": "",
-                "sticker-url": "",
-                "sticker-add": ""
+                "autoCreateDiscussionAlbum": "為每個新討論自動創建相冊",
+                "autoCreateDiscussionAlbumHelp": "自動創建一個新相冊，標題與討論相同，作者與所有者相同。 此功能繞過相冊創建權限並適用於所有標籤。\n",
+                "neverSyncDiscussionAlbumTitles": "從不同步討論和相冊名稱",
+                "neverSyncDiscussionAlbumTitlesHelp": "默認情況下，與討論標題完全相同的相冊將在討論標題更改時重命名。 如果相冊被手動重命名，同步命名功能將失效。\n",
+                "columnTheme": "專欄主題",
+                "columnThemeHelp": "顯示圖片時使用側面板樣式而不是底部面板。",
+                "mapboxToken": "Mapbox Token",
+                "mapboxTokenHelp": "填寫一個有效的token以在圖片下顯示地理位置圖。",
+                "requireLicense": "需要從下面的列表中選擇一個許可證",
+                "requireLicenseHelp": "默認情況下，用戶可以跳過設置許可證。 確保您的網站使用條款涵蓋了在未指定許可證的情況下可以對媒體執行的操作。\n",
+                "licenses": "許可證",
+                "license-key": "金鑰",
+                "license-label": "標籤",
+                "license-description": "詳情",
+                "license-add": "加入許可証",
+                "stickers": "貼紙",
+                "sticker-key": "金鑰",
+                "sticker-label": "標籤",
+                "sticker-url": "URL",
+                "sticker-add": "加入貼紙"
             }
         },
         "api": {
             "post-edit": {
-                "cannotAttachToNonComment": "",
-                "cannotFindPicturesFromRelation": "",
-                "cannotAttachHasNoAlbum": "",
-                "cannotAttachAlreadySubmitted": "",
-                "cannotAttachFromExternalAlbum": "",
-                "cannotAttachUnauthorized": ""
+                "cannotAttachToNonComment": "圖片不能手動附加到非評論帖子",
+                "cannotFindPicturesFromRelation": "無法在數據庫中找到所有請求的圖片",
+                "cannotAttachHasNoAlbum": "討論沒有附加相冊",
+                "cannotAttachAlreadySubmitted": "無法附加圖片 {id}，因為它已經提交",
+                "cannotAttachFromExternalAlbum": "無法附加圖片 {id}，因為它屬於外部相冊",
+                "cannotAttachUnauthorized": "無法附加圖片 {id}，因為它不屬於您"
             }
         },
         "ref": {
-            "albums": "",
-            "pictures": "",
-            "loading": "",
-            "load-more": "",
-            "controls": "",
-            "restore": "",
-            "hide": "",
-            "delete": "",
-            "by-user": ""
+            "albums": "相冊",
+            "pictures": "相片",
+            "loading": "載入中…",
+            "load-more": "載入更多",
+            "controls": "控制台",
+            "restore": "復原",
+            "hide": "隱",
+            "delete": "刪除",
+            "by-user": "由"
         }
     }
 }
