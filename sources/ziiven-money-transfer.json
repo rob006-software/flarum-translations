@@ -1,0 +1,37 @@
+{
+    "ziven-transfer-money": {
+        "forum": {
+            "transfer-list-load-more": "Load More",
+            "transfer-list-empty": "The transfer history is empty",
+            "transfer-list-id": "ID",
+            "transfer-list-type": "Type",
+            "transfer-list-from-user": "From User",
+            "transfer-list-target-user": "Target User",
+            "transfer-list-assign-at": "Transfer Date",
+            "transfer-list-transfer-amount": "Amount",
+            "transfer-money": "Transfer Money",
+            "transfer-money-success": "Transfered Successful",
+            "transfer-money-history": "Transfer History",
+            "transfer-money-to": "Transfer money to {username}",
+            "transfer-money-in": "Transfer In",
+            "transfer-money-out": "Transfer Out",
+            "transfered-money-to": "transfered {money} to",
+            "current-money-amount": "Current money:",
+            "ok": "OK",
+            "cancel": "Cancel",
+            "transfer-error": "Transfer Error",
+            "transfer-error-no-permission": "You don't have permission",
+            "transfer-error-insufficient-fund": "Insufficient Fund",
+            "receive-transfer-from-user": "Received money transfer from other user",
+            "notifications": {
+                "user-transfer-money-to-you": "{username} transfered money to you",
+                "user-transfer-money-details": "You have recevied {cost}. Transfer ID：{id}"
+            }
+        },
+        "admin": {
+            "permission": {
+                "allow_use_transfer_money": "Allow transfer money"
+            }
+        }
+    }
+}
