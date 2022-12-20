@@ -109,7 +109,7 @@ return [
 	]),
 	'zh_Hans' => getComponents([
 		// translations included in extension
-		'!vlssu/flarum-cravatar',
+		'!vlssu-cravatar',
 		'!ziiven-money-transfer',
 		'!ziiven-view-history',
 	]),
