@@ -1,36 +1,36 @@
 {
     "ziven-transfer-money": {
         "forum": {
-            "transfer-list-load-more": "",
-            "transfer-list-empty": "",
-            "transfer-list-id": "",
-            "transfer-list-type": "",
-            "transfer-list-from-user": "",
-            "transfer-list-target-user": "",
-            "transfer-list-assign-at": "",
-            "transfer-list-transfer-amount": "",
-            "transfer-money": "",
-            "transfer-money-success": "",
-            "transfer-money-history": "",
-            "transfer-money-to": "",
-            "transfer-money-in": "",
-            "transfer-money-out": "",
-            "transfered-money-to": "",
-            "current-money-amount": "",
-            "ok": "",
-            "cancel": "",
-            "transfer-error": "",
-            "transfer-error-no-permission": "",
-            "transfer-error-insufficient-fund": "",
-            "receive-transfer-from-user": "",
+            "transfer-list-load-more": "Charger davantage",
+            "transfer-list-empty": "L'historique des transferts est vide",
+            "transfer-list-id": "Identifiant",
+            "transfer-list-type": "Type",
+            "transfer-list-from-user": "De l'utilisateur",
+            "transfer-list-target-user": "Utilisateur cible",
+            "transfer-list-assign-at": "Date de transfert",
+            "transfer-list-transfer-amount": "Montant",
+            "transfer-money": "Transférer de l'argent",
+            "transfer-money-success": "Transféré avec succès",
+            "transfer-money-history": "Historique des transferts",
+            "transfer-money-to": "Transférer de l'argent à {username}",
+            "transfer-money-in": "Transfert interne",
+            "transfer-money-out": "Transfert externe",
+            "transfered-money-to": "a transféré {money} à",
+            "current-money-amount": "Argent actuel :",
+            "ok": "Valider",
+            "cancel": "Annuler",
+            "transfer-error": "Erreur lors du transfert",
+            "transfer-error-no-permission": "Vous n'avez pas la permission",
+            "transfer-error-insufficient-fund": "Fonds insuffisant",
+            "receive-transfer-from-user": "Réception d'un transfert d'argent d'un autre utilisateur",
             "notifications": {
-                "user-transfer-money-to-you": "",
-                "user-transfer-money-details": ""
+                "user-transfer-money-to-you": "{username} vous a transféré de l'argent",
+                "user-transfer-money-details": "Vous avez reçu {cost}. Identifiant du transfert : {id}"
             }
         },
         "admin": {
             "permission": {
-                "allow_use_transfer_money": ""
+                "allow_use_transfer_money": "Permettre le transfert d'argent"
             }
         }
     }
