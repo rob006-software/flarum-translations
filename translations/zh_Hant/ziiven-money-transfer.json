@@ -1,36 +1,36 @@
 {
     "ziven-transfer-money": {
         "forum": {
-            "transfer-list-load-more": "",
-            "transfer-list-empty": "",
-            "transfer-list-id": "",
-            "transfer-list-type": "",
-            "transfer-list-from-user": "",
-            "transfer-list-target-user": "",
-            "transfer-list-assign-at": "",
-            "transfer-list-transfer-amount": "",
-            "transfer-money": "",
-            "transfer-money-success": "",
-            "transfer-money-history": "",
-            "transfer-money-to": "",
-            "transfer-money-in": "",
-            "transfer-money-out": "",
-            "transfered-money-to": "",
-            "current-money-amount": "",
-            "ok": "",
-            "cancel": "",
-            "transfer-error": "",
-            "transfer-error-no-permission": "",
-            "transfer-error-insufficient-fund": "",
-            "receive-transfer-from-user": "",
+            "transfer-list-load-more": "載入更多",
+            "transfer-list-empty": "沒有移轉記錄",
+            "transfer-list-id": "ID",
+            "transfer-list-type": "類型",
+            "transfer-list-from-user": "來自用戶",
+            "transfer-list-target-user": "目標用戶",
+            "transfer-list-assign-at": "轉移日期",
+            "transfer-list-transfer-amount": "數量",
+            "transfer-money": "轉帳",
+            "transfer-money-success": "轉帳成功",
+            "transfer-money-history": "轉帳歷史",
+            "transfer-money-to": "向{username}進行轉帳",
+            "transfer-money-in": "轉入",
+            "transfer-money-out": "轉出",
+            "transfered-money-to": "轉帳{money}給",
+            "current-money-amount": "目前餘款：",
+            "ok": "OK",
+            "cancel": "取消",
+            "transfer-error": "轉帳錯誤",
+            "transfer-error-no-permission": "您沒有權限",
+            "transfer-error-insufficient-fund": "資金不足",
+            "receive-transfer-from-user": "收到其他用戶的匯款",
             "notifications": {
-                "user-transfer-money-to-you": "",
-                "user-transfer-money-details": ""
+                "user-transfer-money-to-you": "{username}向您轉帳",
+                "user-transfer-money-details": "您收到了 {cost}。 轉帳 ID：{id}"
             }
         },
         "admin": {
             "permission": {
-                "allow_use_transfer_money": ""
+                "allow_use_transfer_money": "允許轉帳"
             }
         }
     }
