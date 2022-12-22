@@ -11,7 +11,11 @@
             },
             "uploadLimit": "Upload limit (0 to 1000).  Admins are exempt from the limit.",
             "maxFile": "Maximum file size (in MB, up to 10000).",
-            "displayShorts": "Enter the number of videos you want to display on the IndexPage."
+            "displayShorts": "Enter the number of videos you want to display on the IndexPage.",
+            "warningmessage": "Exposing raw HTML can produce security vulnerabilities (if not your own). Remember also to use the correct width and height dimensions (to fit the block).",
+            "warningtext": "Custom Html Code",
+            "getCode": "Enable or disable custom HTML block in front-end view.",
+            "backgroundColor": "Set the background color of the custom html block here (hex code)."
         },
         "forum": {
             "upload": {
