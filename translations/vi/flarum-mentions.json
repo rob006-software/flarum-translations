@@ -2,7 +2,7 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "Đề cập đến các nhóm"
             },
             "settings": {
                 "allow_username_format_label": "Cho phép định dạng đề cập tên người dùng (@Username)",
@@ -11,14 +11,14 @@
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "Nhắc đến người dùng hoặc bài viết",
+                "mention_tooltip": "Nhắc đến người dùng, nhóm hoặc bài viết",
                 "reply_to_post_text": "Trả lời #{number}"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} đã trả lời bài viết của bạn",
                 "user_mentioned_text": "{username} đã nhắc đến bạn",
-                "group_mentioned_text": ""
+                "group_mentioned_text": "{username} đã đề cập đến một nhóm mà bạn là thành viên"
             },
             "post": {
                 "mentioned_by_self_text": "{users} đã trả lời bài viết này.",
@@ -31,7 +31,7 @@
             "settings": {
                 "notify_post_mentioned_label": "Ai đó trả lời bài viết của tôi",
                 "notify_user_mentioned_label": "Ai đó nhắc đến tôi trong bài viết",
-                "notify_group_mentioned_label": ""
+                "notify_group_mentioned_label": "Ai đó đề cập đến một nhóm mà tôi là thành viên trong một bài viết"
             },
             "user": {
                 "mentions_link": "Đề cập"
@@ -40,7 +40,7 @@
                 "deleted_text": "[không xác định]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[nhóm không xác định]"
             }
         },
         "email": {
@@ -53,8 +53,8 @@
                 "body": "Hey {recipient_display_name}!\n\n{mentioner_display_name} đã nhắc đến bạn trong một bài viết trong {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} đã đề cập đến một nhóm mà bạn là thành viên trong {title}",
+                "body": "Xin chào {recipient_display_name}!\n\n{mentioner_display_name} đã chắc đến một nhóm mà bạn là thành viên trong {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
