@@ -2,15 +2,15 @@
     "club-1-cross-references": {
         "admin": {
             "show_discussion_id": {
-                "label": "",
-                "help": ""
+                "label": "Hiển thị ID cuộc thảo luận",
+                "help": "Thêm số ID thảo luận ở mọi nơi mà một cuộc thảo luận được hiển thị"
             }
         },
         "forum": {
             "post_stream": {
-                "discussion_referenced_text": ""
+                "discussion_referenced_text": "{username} đã tham chiếu cuộc thảo luận này từ {source}"
             },
-            "comment": ""
+            "comment": "nhận xét"
         }
     }
 }
