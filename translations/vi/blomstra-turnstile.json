@@ -2,18 +2,18 @@
     "blomstra-turnstile": {
         "admin": {
             "settings": {
-                "site_key": "",
-                "secret_key": "",
-                "signup": "",
-                "signin": "",
-                "forgot": ""
+                "site_key": "Mã khoá trang",
+                "secret_key": "Mã khoá bí mật",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
             }
         },
         "forum": {
-            "not_loaded_error": ""
+            "not_loaded_error": "Không thể tải Cloudflare Turnstile. Vui lòng làm mới trang và kiểm tra trình chặn quảng cáo của bạn."
         }
     },
     "validation": {
-        "turnstile": ""
+        "turnstile": "Chúng tôi không thể xác minh xem bạn có phải là người máy hay không. Hãy làm mới trang và thử lại."
     }
 }
