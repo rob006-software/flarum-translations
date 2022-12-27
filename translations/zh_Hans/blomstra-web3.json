@@ -3,13 +3,20 @@
         "admin": {
             "settings": {
                 "allow-sign-up": "支持通过Web3注册",
+                "ffi-disabled": "",
                 "infura-project-id": "",
                 "infura-project-id-help": "",
                 "prioritize-web3-auth-modals": "",
-                "ffi-disabled": ""
+                "signup-with-email": "",
+                "no-email-signup-message": ""
             }
         },
         "forum": {
+            "alerts": {
+                "no-email-signup": {
+                    "link": ""
+                }
+            },
             "connect-wallet-modal": {
                 "could-not-sign": "",
                 "title": "",

@@ -3,13 +3,20 @@
         "admin": {
             "settings": {
                 "allow-sign-up": "Allow Signup with web3",
+                "ffi-disabled": "The PHP FFI extension is not enabled. Dotsama wallets will not work.\n",
                 "infura-project-id": "Infura Project ID",
                 "infura-project-id-help": "Your Infura Project ID. You can get one from https://infura.io Needed for the following wallets: Coinbase, WalletConnect.\n",
                 "prioritize-web3-auth-modals": "Open web3 Login/Signup by default",
-                "ffi-disabled": "The PHP FFI extension is not enabled. Dotsama wallets will not work.\n"
+                "signup-with-email": "Signup with Email",
+                "no-email-signup-message": "Message to show for users who didn't sign up with an email address (leave blank to disable).\n"
             }
         },
         "forum": {
+            "alerts": {
+                "no-email-signup": {
+                    "link": "HERE"
+                }
+            },
             "connect-wallet-modal": {
                 "could-not-sign": "Could not sign username cryptographically on selected account.",
                 "title": "Connect Wallet",
@@ -41,12 +48,12 @@
             },
             "log-in": {
                 "basic-login-link": "Switch to basic Login",
-                "with-wallet": "Log in with web3 wallet",
+                "with-wallet": "Log in with web3",
                 "select-wallet-account": "=> blomstra-web3.ref.select-wallet-account"
             },
             "sign-up": {
                 "basic-signup-link": "Switch to basic Signup",
-                "with-wallet": "Sign up with web3 wallet",
+                "with-wallet": "Sign up with web3",
                 "select-wallet-account": "=> blomstra-web3.ref.select-wallet-account"
             }
         },
