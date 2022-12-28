@@ -434,7 +434,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FFans/clipboardjs/v1.0.0/resources/locale/en.yml',
 	],
 	'finteger-ratings' => [
-		'tag' => 'https://raw.githubusercontent.com/finteger/ratings/v2.00/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/finteger/ratings/v2.03/resources/locale/en.yml',
 	],
 	'finteger-shorts' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/finteger-shorts.yml',
