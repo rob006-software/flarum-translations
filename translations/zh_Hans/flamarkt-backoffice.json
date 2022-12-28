@@ -1,36 +1,36 @@
 {
     "flamarkt-backoffice": {
         "admin": {
-            "settingsInBackoffice": ""
+            "settingsInBackoffice": "后台设置"
         },
         "backoffice": {
-            "settingsNotAvailableForNonAdmin": "",
+            "settingsNotAvailableForNonAdmin": "此扩展有可以设置的选项，但只有管理员可以查看和编辑这些设置。",
             "nav": {
-                "dashboard": "",
-                "users": "",
+                "dashboard": "仪表板",
+                "users": "用户",
                 "searchPlaceholder": ""
             },
             "users": {
-                "title": "",
-                "new": "",
-                "searchPlaceholder": "",
+                "title": "账户",
+                "new": "创建账户",
+                "searchPlaceholder": "搜索账户...",
                 "head": {
-                    "email": ""
+                    "email": "邮箱"
                 },
                 "field": {
-                    "username": "",
-                    "email": "",
-                    "password": ""
+                    "username": "账户名",
+                    "email": "邮箱",
+                    "password": "密码"
                 }
             },
             "permissions": {
-                "backoffice": ""
+                "backoffice": "使用后台"
             }
         },
         "lib": {
             "header": {
                 "admin_button": "",
-                "backoffice_button": ""
+                "backoffice_button": "后台"
             }
         }
     }
