@@ -2,42 +2,42 @@
     "finteger-shorts": {
         "admin": {
             "explain": {
-                "it": ""
+                "it": "输入要显示上传的标签id。"
             },
             "permissions": {
                 "view": "",
                 "submit": "",
                 "moderate": ""
             },
-            "uploadLimit": "",
-            "maxFile": "",
+            "uploadLimit": "上传限制（0到1000）。   管理员不受限制。",
+            "maxFile": "最大文件大小（单位为MB，最大为10000）。",
             "displayShorts": "",
             "warningmessage": "",
-            "warningtext": "",
-            "getCode": "",
-            "backgroundColor": ""
+            "warningtext": "自定义Html代码",
+            "getCode": "在前端视图中启用或禁用自定义HTML块。",
+            "backgroundColor": "在此处设置自定义html块的背景色（十六进制代码）。"
         },
         "forum": {
             "upload": {
-                "button": ""
+                "button": "上传视频。"
             },
-            "modalinfo": "",
-            "modalTitle": "",
-            "modalMessage": "",
-            "modalMenu": "",
-            "maxFileMessage": "",
-            "headerTitle": "",
-            "loadingIndicator": "",
-            "posterPlaceholder": "",
-            "titlePlaceholder": "",
-            "containerMessage": "",
-            "infoComments": "",
+            "modalinfo": "（请注意，这也是讨论标题）：",
+            "modalTitle": "标题",
+            "modalMessage": "你的视频已经成功被上传了！",
+            "modalMenu": "选择一个讨论上传：",
+            "maxFileMessage": "请确保您的上传的小于",
+            "headerTitle": "上传",
+            "loadingIndicator": "正常上传文件。    请稍等...",
+            "posterPlaceholder": "输入封面Url（可选）",
+            "titlePlaceholder": "输入标题",
+            "containerMessage": "上传视频。",
+            "infoComments": "评论：",
             "infoViews": "",
-            "infoDiscussion": "",
-            "infoGo": "",
-            "uploadlimit_maxfile1": "",
-            "uploadlimit_maxfile2": "",
-            "validFile": ""
+            "infoDiscussion": "讨论：",
+            "infoGo": "继续",
+            "uploadlimit_maxfile1": "您可能已超过上传限制",
+            "uploadlimit_maxfile2": "或超过最大文件大小限制",
+            "validFile": "请上传有效的视频文件！"
         }
     }
 }
