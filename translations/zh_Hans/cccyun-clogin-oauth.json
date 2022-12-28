@@ -2,39 +2,39 @@
     "cccyun-clogin-oauth": {
         "admin": {
             "appurl_label": "API链接",
-            "appurl_help": "",
-            "appid_label": "",
-            "appkey_label": "",
-            "openqq_label": "",
-            "openwx_label": "",
-            "opensina_label": ""
+            "appurl_help": "必须要以 http://或https://开头，必须要以 /结尾",
+            "appid_label": "应用程序标识符（APPID）",
+            "appkey_label": "应用程序密钥（APPKEY）",
+            "openqq_label": "开启QQ登录",
+            "openwx_label": "开启微信登录",
+            "opensina_label": "开启微博登录"
         },
         "forum": {
-            "with_qq_button": "",
-            "with_wx_button": "",
-            "with_sina_button": "",
+            "with_qq_button": "登录QQ",
+            "with_wx_button": "微信登录",
+            "with_sina_button": "微博登录",
             "alerts": {
-                "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
-                "error": "",
-                "unlinked": ""
+                "already_linked": "第三个帐户已链接！",
+                "already_used": "第三方帐户已链接到其他用户！",
+                "link_success": "第三方帐户链接成功。",
+                "unlink_success": "第三方帐户取消链接成功。",
+                "error": "出现了某些问题，请稍后再试！",
+                "unlinked": "第三方帐户未绑定到本网站的帐户，请先注册，然后绑定。"
             },
             "modals": {
-                "link_qq": "",
-                "unlink_qq": "",
-                "confirm_qq": "",
-                "link_wx": "",
-                "unlink_wx": "",
-                "confirm_wx": "",
-                "link_sina": "",
-                "unlink_sina": "",
-                "confirm_sina": "",
-                "no_providers": "",
+                "link_qq": "链接QQ帐户",
+                "unlink_qq": "取消链接QQ帐户",
+                "confirm_qq": "你确定要取消你的QQ帐户链接吗？",
+                "link_wx": "链接微信账号",
+                "unlink_wx": "取消链接微信帐户",
+                "confirm_wx": "你确定要取消微信帐户的链接吗？",
+                "link_sina": "链接微博帐户",
+                "unlink_sina": "取消链接微博帐户",
+                "confirm_sina": "您确定要取消链接您的微博帐户吗？",
+                "no_providers": "您没有绑定任何其他登录提供商！您可能需要重置密码。",
                 "buttons": {
-                    "confirm": "",
-                    "cancel": ""
+                    "confirm": "是，取消链接帐户",
+                    "cancel": "不！"
                 }
             }
         }
