@@ -1149,7 +1149,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-daily-check-in/v0.3.6/locale/en.yml',
 	],
 	'ziiven-money-transfer' => [
-		'tag' => 'https://raw.githubusercontent.com/Ziiven/ziven-money-transfer/v0.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Ziiven/ziven-money-transfer/v0.2.1/locale/en.yml',
 	],
 	'ziiven-pay-to-see' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/ziiven-pay-to-see.yml',
