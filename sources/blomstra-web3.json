@@ -8,17 +8,14 @@
                 "infura-project-id-help": "Your Infura Project ID. You can get one from https://infura.io Needed for the following wallets: Coinbase, WalletConnect.\n",
                 "prioritize-web3-auth-modals": "Open web3 Login/Signup by default",
                 "signup-with-email": "Signup with Email",
-                "no-email-signup-message": "Message to show for users who didn't sign up with an email address (leave blank to disable).\n"
+                "no-email-signup-message": "Message to show for users who didn't sign up with an email address (leave blank to disable).\n",
+                "no-email-signup-message-help": "Use [link]text[/link] to link to email edit page."
             }
         },
         "forum": {
-            "alerts": {
-                "no-email-signup": {
-                    "link": "HERE"
-                }
-            },
             "connect-wallet-modal": {
                 "could-not-sign": "Could not sign username cryptographically on selected account.",
+                "goback": "Back",
                 "title": "Connect Wallet",
                 "polkadot-wallets": "=> blomstra-web3.ref.polkadot-wallets",
                 "evm-wallets": "EVM Wallets",
