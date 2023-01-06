@@ -2,23 +2,23 @@
     "clarkwinkelmann-clippy": {
         "admin": {
             "settings": {
-                "cdn": "",
+                "cdn": "CDN",
                 "cdn-options": {
-                    "s3": "",
-                    "jsdelivr": "",
-                    "custom": ""
+                    "s3": "Amazon S3",
+                    "jsdelivr": "jsDelivr",
+                    "custom": "Користувацький"
                 },
-                "path": "",
-                "path-help": "",
-                "agent": "",
-                "agent-help": "",
-                "events": "",
-                "events-help": ""
+                "path": "Користувацький шлях CDN",
+                "path-help": "Повноцінна URL-адреса без кінцевої косої риски на папку, що містить вміст репозиторію <a>clippy.js</a>.",
+                "agent": "Агент",
+                "agent-help": "Кожен агент має свій набір анімацій. При зміні агента всі несумісні анімації будуть видалені з ваших налаштувань.",
+                "events": "Події",
+                "events-help": "Оберіть, які анімації та мовний міхур відображати на кожній з цих подій"
             },
             "events": {
-                "name": "",
-                "animation": "",
-                "text": ""
+                "name": "Подія",
+                "animation": "Анімація",
+                "text": "Текст"
             }
         }
     }
