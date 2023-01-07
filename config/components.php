@@ -152,7 +152,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-usercard-stats/0.1.2/locale/en.yml',
 	],
 	'blomstra-web3' => [
-		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-web3/v0.1.7/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-web3/v0.1.8/locale/en.yml',
 	],
 	'blomstra-welcome-login' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-welcome-login/0.1.0/locale/en.yml',
