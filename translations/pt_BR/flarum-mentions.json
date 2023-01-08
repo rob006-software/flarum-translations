@@ -2,7 +2,7 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "Mencionar grupos"
             },
             "settings": {
                 "allow_username_format_label": "Permitir menção de nome de usuário (@Username)",
@@ -11,14 +11,14 @@
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "Mencionar um usuário ou post",
+                "mention_tooltip": "Mencionar um usuário, grupo ou post",
                 "reply_to_post_text": "Responder a #{number}"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
-                "post_mentioned_text": "{username} respondeu ao seu post|{username} responderam ao seu post",
+                "post_mentioned_text": "{username}  {count, plural, one {respondeu} other {responderam}}",
                 "user_mentioned_text": "{username} mencionou você",
-                "group_mentioned_text": ""
+                "group_mentioned_text": "{username} mencionou um grupo do qual você é membro"
             },
             "post": {
                 "mentioned_by_self_text": "{users} {count, plural, one {respondeu} other {responderam}}.",
@@ -31,7 +31,7 @@
             "settings": {
                 "notify_post_mentioned_label": "Alguém responde a um de meus posts",
                 "notify_user_mentioned_label": "Alguém me menciona em um post",
-                "notify_group_mentioned_label": ""
+                "notify_group_mentioned_label": "Alguém menciona um grupo do qual sou membro em um post"
             },
             "user": {
                 "mentions_link": "Menções"
@@ -40,7 +40,7 @@
                 "deleted_text": "[desconhecido]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[grupo desconhecido]"
             }
         },
         "email": {
@@ -53,8 +53,8 @@
                 "body": "Olá {recipient_display_name}!\n\n{mentioner_display_name} mencionou você em {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} mencionou um grupo do qual você é membro em {title}",
+                "body": "Olá {recipient_display_name}!\n\n{mentioner_display_name} mencionou um grupo do qual você é membro em {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
