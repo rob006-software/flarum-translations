@@ -719,6 +719,9 @@ return [
 	'ianm-translate' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/ianm-translate.yml',
 	],
+	'imeepo-frontpage' => [
+		'tag' => 'https://raw.githubusercontent.com/imeepo/frontpage/1.1.0.1/resources/locale/en.yml',
+	],
 	'jeromegillard-map' => [
 		'tag' => 'https://raw.githubusercontent.com/JeromeGillard/flarum-map/v0.1.4/locale/en.yml',
 	],
