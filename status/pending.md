@@ -69,6 +69,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `imeepo-frontpage` | [![#990 (open)](https://img.shields.io/badge/PR-%23990-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/990) |
+There are no dead branches.
