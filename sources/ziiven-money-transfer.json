@@ -41,6 +41,9 @@
             }
         },
         "admin": {
+            "transfer-money-timezone": "Timezone",
+            "transfer-money-timezone-help": "Set the timezone for the transfer time. Default is \"Asia/Shanghai\".",
+            "transfer-money-timezone-default": "Asia/Shanghai",
             "transfer-money-client-customization": "Client Customization",
             "transfer-money-client-customization-help": "Features that developed for a client. May cause unexpected error to other users.",
             "permission": {
