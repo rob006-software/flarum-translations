@@ -52,6 +52,9 @@ return [
 	'akr-chevereto' => [
 		'tag' => 'https://raw.githubusercontent.com/AKR-Developers/flarum-chevereto/1.0.1/resources/locale/en.yml',
 	],
+	'andreybrigunet-share-social' => [
+		'tag' => 'https://raw.githubusercontent.com/AndreyBrigunet/flarum-share-social/v0.1.0/resources/locale/en.yml',
+	],
 	'annonny-dice' => [
 		'tag' => 'https://raw.githubusercontent.com/mizhiyugan529/flarum-dice/0.0.1/locale/en.yml',
 	],
