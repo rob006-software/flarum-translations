@@ -1145,6 +1145,9 @@ return [
 	'ziiven-daily-check-in' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-daily-check-in/v0.3.6/locale/en.yml',
 	],
+	'ziiven-money-leaderboard' => [
+		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-money-leaderboard/v0.1.0/locale/en.yml',
+	],
 	'ziiven-money-transfer' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/ziven-money-transfer/v0.2.5/locale/en.yml',
 	],
