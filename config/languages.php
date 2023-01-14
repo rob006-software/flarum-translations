@@ -60,6 +60,7 @@ return [
 	'it' => getComponents([
 		// translations included in extension
 		// '!clarkwinkelmann-emojionearea', https://github.com/clarkwinkelmann/flarum-ext-emojionearea/issues/28#issuecomment-855995493
+		'!3ddario-tag-color-swiss-army-knife',
 		'!justoverclock-discussion-hero-showtags',
 		'!justoverclock-thread-read-time',
 		'!maicol07-sso',
