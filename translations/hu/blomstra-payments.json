@@ -1,16 +1,32 @@
 {
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": "Legtöbbet támogatott"
+            }
+        }
+    },
     "blomstra-payments": {
         "forum": {
+            "accept-terms-modal": {
+                "accept_label": "Elolvastam és elfogadom a <link>fizetési feltételeket</link>.",
+                "continue_button": "Fizetés folytatása",
+                "title": "Feltételek elfogadása"
+            },
             "stripe": {
-                "interval_once": "egyszer"
+                "interval_once": "egyszeri"
             },
             "subscription-card": {
+                "bounty": "Jutalom",
                 "ptv": "Fizetett a megtekintésért",
                 "pta": "Fizetett a hozzéférésért",
                 "ptb": "Fizetett a kiemelésért",
                 "ptp": "Fizetett a közzétételért",
                 "cancel-control": "Mégse",
                 "none": "Nincsenek fizetések vagy aktív előfizetések"
+            },
+            "post_stream": {
+                "bounty_added_text": "{username} hozzáadott egy {amount} összegű jutalmat."
             },
             "pay-to-view": {
                 "purchase-control": "Fizetés a megtekintéshez",
@@ -28,6 +44,21 @@
                 "purchase-control": "Fizetés a kiemeléshez",
                 "purchase-log-in": "Bejelentkezés és fizetés a kiemeléshez"
             },
+            "bounties": {
+                "purchase-control": "Jutalom hozzáadása",
+                "enable-control": "Jutalmak engedélyezése"
+            },
+            "choose-bounty-amount-modal": {
+                "title": "Válassza ki a jutalom összegét",
+                "checkout-control": "Fizetés",
+                "description": "Válassza ki a(z) „{subject}” támogatásra szánt összegét vagy adjon meg egyéni összeget."
+            },
+            "backers-widget": {
+                "backers": "Támogatók",
+                "label": "{sum} {currency} felajánlva",
+                "none": "Még nincsenek támogatók.",
+                "pledged": "Felajánlva"
+            },
             "tag": {
                 "require-payment-label": "Fizetés szükséges"
             },
@@ -43,6 +74,12 @@
             "nav": {
                 "access_portal": "Hozzáférési portál",
                 "user_subscriptions": "Előfizetések"
+            },
+            "exceptions": {
+                "out-of-bounds-amount": {
+                    "min": "A(z) {amount} összeg nem engedélyezett, {min} a legalacsonyabb összeg.",
+                    "max": "A(z) {amount} összeg nem engedélyezett, {max} a legmagasabb összeg."
+                }
             }
         },
         "admin": {
@@ -56,17 +93,26 @@
                 "select-ptb-product": "(PTB) Kötelező termék",
                 "select-ptb-product-description": "A termék kiválasztása a fizetés után lehetővé teszi egy téma kiemelését.\n",
                 "bump-others": "(PTB) Mások is kiemelhetik a témát",
-                "bump-others-description": "Ha be van kapcsolva, akkor nem csak a téma szerzője emelheti ki a témát fizetés ellenében.\n"
+                "bump-others-description": "Ha be van kapcsolva, akkor nem csak a téma szerzője emelheti ki a témát fizetés ellenében.\n",
+                "select-bounty-product": "(Jutalom) Kötelező termék",
+                "select-bounty-product-description": "Válasszon egy terméket a jutalmakhoz történő beállításhoz. A termék csak egy árral rendelkezhet: „A vásárló adja meg az árat”. Másolja a termék <code>prod_</code> szöveggel kezdődő azonosítóját ebbe a mezőbe.\n",
+                "select-bounty-description": "A termék kiválasztása engedélyezi a jutalom beállítását. A terméknek csak egy ára lehet a modellel: „Egyéni ár választása”. Másolja a <code>prod_</code> szöveggel kezdődő azonosítót ebbe a mezőben.\n"
             },
             "edit-group": {
                 "select-pta-product": "(PTA) Kötelező termék",
                 "select-pta-product-description": "A termék kiválasztása a fizetés után lehetővé teszi a csoport elérését. Az előfizetés lemondásakor a hozzáférés automatikusan vissza lesz vonva. Hozzon létre egy terméket a Stripe vezérlőpulton és másolja a <code>prod_</code> szöveggel kezdődő azonosítót ebbe a mezőben.\n"
             },
             "settings": {
+                "assign-bounty-tag-id": "A témához rendelendő címke az első felajánlott jutalom után",
                 "pk": "Közzétehető (API) kulcs",
                 "sk": "Titkos (API) kulcs",
                 "webhook-secret": "Webhook aláírási titka",
-                "link-access-portal": "Hozzáférési portál hivatkozása a felhasználói legördülő menüben"
+                "link-access-portal": "Hozzáférési portál hivatkozása a felhasználói legördülő menüben",
+                "link-to-terms": "Fizetési feltételek webcíme",
+                "recount-total-discussion-bounties": "Az összes téma jutalmának újraszámolása"
+            },
+            "permission": {
+                "enable-bounties": "Jutalmak engedélyezése"
             }
         }
     }

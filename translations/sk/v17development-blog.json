@@ -1,121 +1,121 @@
 {
     "v17development-flarum-blog": {
         "admin": {
-            "blog": "",
+            "blog": "Blog",
             "permissions": {
-                "write_articles": "",
-                "auto_approve_posts": "",
-                "approve_posts": ""
+                "write_articles": "Vytvárať a upravovať blogové články",
+                "auto_approve_posts": "Odosielať články bez schválenia",
+                "approve_posts": "Môže schvaľovať články blogu"
             },
             "settings": {
-                "no_categories_selected": "",
-                "selected_category_count": "",
-                "select_categories_button": "",
-                "blog_heading": "",
-                "featured_count_label": "",
-                "featured_count_text": "",
-                "allow_comments_label": "",
-                "allow_comments_text": "",
-                "require_review_label": "",
-                "require_review_text": "",
-                "hide_on_discussion_list_label": "",
-                "hide_on_discussion_list_text": "",
-                "add_sidebar_nav_label": "",
-                "add_sidebar_nav_text": "",
-                "categories_heading": "",
-                "hide_tags_in_taglist_label": "",
-                "hide_tags_in_taglist_text": "",
-                "show_tag_hierarchy_label": "",
-                "show_tag_hierarchy_text": "",
-                "redirects_heading": "",
-                "redirect_articles_label": "",
-                "redirect_articles_text": "",
-                "redirect_tags_label": "",
-                "redirect_tags_text": "",
-                "default_article_image_label": "",
-                "default_article_image_text": "",
-                "add_hero_label": "",
-                "add_hero_text": ""
+                "no_categories_selected": "Nie sú vybraté žiadne kategórie",
+                "selected_category_count": "{count, plural, one {Máte vybranú # kategóriu} few {Máte vybraté # kategórie} other {Máte vybraných # kategórií}}",
+                "select_categories_button": "Vybrať blogové kategórie",
+                "blog_heading": "Blog",
+                "featured_count_label": "Max odporúčaných článkov",
+                "featured_count_text": "Koľko článkov by malo byť zobrazených vo veľkej mriežke na vrchu stránky blogu?",
+                "allow_comments_label": "Povoliť komentáre",
+                "allow_comments_text": "V predvolenom nastavení povolí komentáre k blogovým článkom. Keď sú zakázané, možno ich povoliť jednotlivo pre každý článok blogu. <b>Poznámka:</b> Zmena tohto nastavenia neovplyvní už existujúce blogové články.",
+                "require_review_label": "Blogové články vyžadujú kontrolu",
+                "require_review_text": "Pri uverejňovaní článku nebude priamo viditeľný a musí byť skontrolovaný moderátorom.",
+                "hide_on_discussion_list_label": "Nezobrazovať v zozname diskusií",
+                "hide_on_discussion_list_text": "Skryť blogové články zo zoznamu diskusií.",
+                "add_sidebar_nav_label": "Pridať do bočnej navigácie",
+                "add_sidebar_nav_text": "Pridať odkaz na blog do bočného navigačného menu.",
+                "categories_heading": "Kategórie",
+                "hide_tags_in_taglist_label": "Skryť štítky v zozname štítkov",
+                "hide_tags_in_taglist_text": "Ak je toto nastavenie povolené, tento doplnok skryje štítky pre blog z domovskej stránky fóra.",
+                "show_tag_hierarchy_label": "Zobraziť hierarchiu štítkov",
+                "show_tag_hierarchy_text": "Pridá medzery k podradeným štítkom a dá zoznamu kategórií hierarchiu.",
+                "redirects_heading": "Presmerovania",
+                "redirect_articles_label": "Presmerovať blogové články",
+                "redirect_articles_text": "Ak je toto povolené, tak tento doplnok presmeruje originálny URL odkaz diskusie na jej blogovú URL.",
+                "redirect_tags_label": "Presmerovať blogové štítky",
+                "redirect_tags_text": "Ak je toto povolené, tak tento doplnok presmeruje originálny URL odkaz štítku na jeho blogovú URL kategórie.",
+                "default_article_image_label": "Predvolený obrázok článku",
+                "default_article_image_text": "Vyberte predvolený obrázok článku, ktorý sa zobrazí keď nie je nastavený žiadny obrázok.",
+                "add_hero_label": "Zobraziť uvítací banner",
+                "add_hero_text": "Zobraziť uvítací banner na stránkach blogu, ak ešte nebol zatvorený."
             }
         },
         "forum": {
-            "blog": "",
-            "read_more": "",
-            "hidden": "",
-            "recent_posts": "",
-            "categories": "",
-            "forum_nav": "",
-            "return_to_overview": "",
-            "no_more_posts": "",
-            "category_empty": "",
+            "blog": "Blog",
+            "read_more": "Čítať viac",
+            "hidden": "Skryté",
+            "recent_posts": "Nedávne blogové príspevky",
+            "categories": "Kategórie",
+            "forum_nav": "Navigácia Fóra",
+            "return_to_overview": "Späť na prehľad blogu ",
+            "no_more_posts": "Žiadne ďalšie blogové príspevky.",
+            "category_empty": "V tejto kategórií sa nenachádzajú žiadne blogové príspevky.",
             "compose": {
-                "write_article": ""
+                "write_article": "Napísať článok"
             },
             "validation": {
-                "missing_id": ""
+                "missing_id": "Chýbajúci identifikátor"
             },
             "article": {
-                "title": "",
-                "slug": "",
-                "summary": ""
+                "title": "Titulok",
+                "slug": "Identifikátor (slug)",
+                "summary": "Zhrnutie"
             },
             "comment_section": {
-                "comments": "",
-                "locked": ""
+                "comments": "Komentáre",
+                "locked": "Komentáre sú pre tento článok zakázané"
             },
             "review_article": {
-                "pending_review_title": "",
-                "pending_review": "",
-                "approve_article": "",
-                "approve_article_approved": ""
+                "pending_review_title": "Čakajúci na schválenie",
+                "pending_review": "Tento článok čaká na schválenie a ešte nebol zverejnený",
+                "approve_article": "Schváliť článok",
+                "approve_article_approved": "Tento článok bol schválený a zverejnený"
             },
             "tools": {
-                "rename_article": "",
-                "edit_article": "",
-                "update_category": "",
-                "article_settings": "",
-                "approve_article": "",
-                "hide_article": "",
-                "recover_article": "",
-                "delete_forever": "",
-                "enable_comments": "",
-                "disable_comments": ""
+                "rename_article": "Premenovať článok",
+                "edit_article": "Upraviť článok",
+                "update_category": "Zmeniť kategórie",
+                "article_settings": "Nastavenia článku",
+                "approve_article": "Schváliť článok",
+                "hide_article": "Skryť článok",
+                "recover_article": "Obnoviť článok",
+                "delete_forever": "Odstrániť navždy",
+                "enable_comments": "Povoliť komentáre",
+                "disable_comments": "Zakázať komentáre"
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "Presmerovanie na náš blogový článok...",
+                    "link": "<a>Kliknite sem</a> ak ste neboli presmerovaný"
                 }
             },
             "composer": {
-                "no_title": "",
-                "enter_message_here": "",
-                "post_article": "",
-                "select_category": "",
-                "edit_categories": "",
-                "update_settings": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "comment_section": "",
-                "no_blog_tags_selected": "",
-                "post_without_blog_info": ""
+                "no_title": "Žiadny titulok",
+                "enter_message_here": "Sem vložte Vašu správu",
+                "post_article": "Zverejniť príspevok",
+                "select_category": "Vybrať kategóriu",
+                "edit_categories": "Upraviť kategórie",
+                "update_settings": "Upraviť nastavenia blogu",
+                "write": "Píšte",
+                "view": "Zobraziť",
+                "nothing_to_preview": "Nič na ukážku",
+                "comment_section": "Komentáre nie sú počas písania článku k dispozícií.",
+                "no_blog_tags_selected": "Žiaden zo štítkov, ktoré ste vybrali, nie sú štítkom pre blog. Vyberte aspoň jeden.",
+                "post_without_blog_info": "Naozaj chcete uverejniť tento blogový príspevok? Ešte ste nepridali súhrn alebo obrázok."
             },
             "article_settings": {
-                "title": "",
+                "title": "Nastavenia blogového príspevku",
                 "fields": {
                     "summary": {
-                        "title": "",
-                        "placeholder": "",
-                        "helper_text": ""
+                        "title": "Zhrnutie článku",
+                        "placeholder": "Prosím, vložte zhrnutie",
+                        "helper_text": "Tento súhrn bude viditeľný na stránke prehľadu blogu a bude sa používať na SEO účely."
                     },
                     "image": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "Obrázok článku",
+                        "helper_text": "Najlepšie rozmery obrázku pre sociálne siete: 1200x630"
                     },
                     "highlight": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "Zvýraznený príspevok",
+                        "helper_text": "Dať tomuto článku veľký obrázok na stránke prehľadu blogu."
                     }
                 }
             }

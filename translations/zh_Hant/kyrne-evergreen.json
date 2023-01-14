@@ -1,0 +1,57 @@
+{
+    "kyrne-evergreen": {
+        "forum": {
+            "post": {
+                "show_replies": "展開 {count} 條回覆",
+                "show_reply": "展開 {count} 條回覆"
+            }
+        }
+    },
+    "flarum-mentions": {
+        "admin": {
+            "settings": {
+                "allow_username_format_label": "允許@用戶名",
+                "allow_username_format_text": "用戶提及的當前格式是@\"顯示名稱\"#ID。\n此設置允許使用舊格式的@Username，但在保存時仍會轉換為新格式。\n"
+            }
+        },
+        "forum": {
+            "composer": {
+                "mention_tooltip": "提及用戶或帖子",
+                "reply_to_post_text": "回覆#{number}"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} 回覆了您",
+                "user_mentioned_text": "{username} 提到了你"
+            },
+            "post": {
+                "mentioned_by_self_text": "{users} 參與回覆。",
+                "mentioned_by_text": "{users} 參與回覆。",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "引用",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "有人回覆了我",
+                "notify_user_mentioned_label": "有人在帖子中提到我"
+            },
+            "user": {
+                "mentions_link": "提到"
+            },
+            "post_mention": {
+                "deleted_text": "[未知]"
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "{replier_display_name} 回覆了您【{title}】",
+                "body": "{recipient_display_name}，您好！\n\n{replier_display_name} 回覆了您在《{title}》(#{post_number}) 發表的內容：\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "user_mentioned": {
+                "subject": "{mentioner_display_name} 提到你【{title}】",
+                "body": "{recipient_display_name}，您好！\n\n{mentioner_display_name} 在《{title}》提及了您：\n\n{url}\n\n---\n\n{content}\n"
+            }
+        }
+    }
+}

@@ -1,6 +1,9 @@
 {
     "fof-polls": {
         "admin": {
+            "settings": {
+                "allow_option_image": ""
+            },
             "permissions": {
                 "view_results_without_voting": "Ergebnisse anzeigen ohne abzustimmen",
                 "start": "Umfragen starten",
@@ -29,6 +32,7 @@
                 "min": "Du musst mindestens zwei Antworten erstellen",
                 "no_voters": "Keine Stimmen",
                 "option_placeholder": "Antwort",
+                "image_option_placeholder": "",
                 "options_label": "Antworten",
                 "public_poll_label": "Alle dürfen sehen, wer abgestimmt hat",
                 "question_placeholder": "Frage",

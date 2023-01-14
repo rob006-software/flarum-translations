@@ -40,13 +40,13 @@
                     "description": "Descrizione (dell'autore)"
                 }
             },
-            "discussion-badge": "{count, plural, one {Ha un autore virtuale}, other {Ha autori virtuali}}"
+            "discussion-badge": "{count, plural, one {Ha un autore virtuale} other {Ha autori virtuali}}"
         },
         "forum": {
             "virtual_author_page": {
                 "meta_title": "{displayName} - Autori",
                 "credited_discussions": "Discussioni accreditate a {displayName}",
-                "discussion_count": "{count, plural, one {# discussione}, other {# discussioni}}"
+                "discussion_count": "{count, plural, one {# discussione} other {# discussioni}}"
             },
             "virtual_authors_list": {
                 "sidebar_link": "",

@@ -1,0 +1,181 @@
+{
+    "kilowhat-rich-embeds": {
+        "admin": {
+            "settings": {
+                "layout": "佈局",
+                "layoutOptions": {
+                    "inline": "Inline",
+                    "block": "段落",
+                    "separated": "分離"
+                },
+                "position": "位置",
+                "positionOptions": {
+                    "replace": "替換超連結",
+                    "above": "超連結上方",
+                    "below": "超連結下方"
+                },
+                "style": "樣式",
+                "styleOptions": {
+                    "vertical": "垂直",
+                    "horizontal": "水平"
+                },
+                "imageProxy": "OpenGraph Image Proxy",
+                "imageProxyHelp": "所有 OpenGraph 和網站圖標圖像都將通過 Flarum 代理，而不是由訪問者瀏覽器檢索",
+                "cacheProxy": "緩存代理圖片",
+                "cacheProxyHelp": "客戶端將緩存圖片到本地",
+                "withoutOpengraph": "為無OpenGraph數據的頁面生成富文本容器",
+                "withoutOpengraphHelp": "標題、描述和圖像將從頁面 HTML 中轉譯",
+                "blacklist": "URL 黑名單",
+                "blacklistHelp": "檢查文檔的格式。這些 URL 永遠不會有豐富的嵌入，並且不能通過圖像代理進行代理",
+                "whitelist": "URL 白名單",
+                "whitelistHelp": "檢查文檔的格式。如果設置了一個值，所有其他 URL 將被視為列入黑名單",
+                "imageEmbeds": "豐富圖像嵌入",
+                "imageEmbedsHelp": "此功能檢索並顯示有關插入到帶有 bbcode 或 markdown 的帖子中的外部圖像的附加信息。此時它重新使用與富鏈接相同的黑名單/白名單和權限。這些圖像不通過 OpenGraph 圖像代理進行代理。更改此設置後，您必須清除 Flarum 緩存。\n",
+                "flarumApiPreviews": "啟用高級 Flarum 預覽",
+                "flarumApiPreviewsHelp": "此功能解析已由所有 Flarum 支持的論壇包含在 HTML 中的其他 JSON 數據。它適用於任何運行 Flarum 1.4+ 並宣傳 <code>X-Powered-By</code> Flarum 標頭的論壇。\n",
+                "githubApiKey": "GitHub API Key",
+                "githubApiKeyHelp": "填寫以啟用 API 支持的豐富 GitHub 預覽，用於存儲庫、問題和 PR，包括私有存儲庫。",
+                "githubOrgWhitelist": "機構白名單",
+                "githubOrgWhitelistHelp": "將使用 API 支持的預覽的 GitHub 組織的逗號分隔列表。使用此字段可防止暴露 API 密鑰可訪問的每個私有存儲庫，以減少 API 使用或僅更改您自己組織的嵌入樣式。如果留空，則可以預覽 API 密鑰可以訪問的任何 repo。\n",
+                "googleApiAuthConfig": "Google SDK 授權配置路徑或 JSON",
+                "googleApiAuthConfigHelp": "此設置與下面的 YouTube 和 Google 雲端硬盤設置結合使用。 它應該包含本地文件系統上 JSON 身份驗證文件的絕對路徑，或該文件的內容。 如果留空，Google API SDK 將通過環境變量自動發現 API 密鑰或服務帳戶。\n",
+                "googleApiKey": "Google SDK API key",
+                "googleApiKeyHelp": "此設置與下面的 YouTube 和 Google 雲端硬盤設置結合使用。 如果留空，Google API SDK 將通過環境變量自動發現 API 密鑰或服務帳戶。\n",
+                "youtubePlayer": "允許從預覽中播放 YouTube 視頻",
+                "youtubePlayerHelp": "當用戶單擊預覽中的播放按鈕時，將按需加載 iframe 播放器。 您必須配置 CSP 和幀標頭以允許來自 YouTube 域名的幀。 無需 API 訪問即可使用此功能。\n",
+                "youtubeNoCookie": "使用 YouTube no-cookie iframe 域",
+                "youtubeNoCookieHelp": "切換到 YouTube 提供的備用無 cookie 域。 啟用此選項後，某些視頻可能無法在 iframe 中播放。 無需 API 訪問即可使用此功能。\n",
+                "youtubeApiPreviews": "啟用高級 API 支持的豐富 YouTube 預覽",
+                "youtubeApiPreviewsHelp": "Google API SDK 必須在上面配置。 此功能將顯示有關視頻的更多統計信息，並可以顯示 SDK 用戶有權訪問的私人視頻。\n",
+                "googledriveApiPreviews": "啟用高級 API 支持的豐富 Google 雲端硬盤預覽",
+                "googledriveApiPreviewsHelp": "Google API SDK 必須在上面配置。 此功能將顯示 Google Drive 文件的標題和預覽。 使用可以訪問私有驅動器的服務帳戶來啟用私有文件的預覽。\n"
+            },
+            "section": {
+                "siteSpecificHelp": "以下是特定於站點的設置，這些設置使用無法通過 OpenGraph 和 HTML 抓取獲得的數據來改進嵌入。所有選項都是可選的。一些選項需要第三方 API 訪問，這可能會帶來速率限制或費用。\n",
+                "flarum": "Flarum",
+                "github": "GitHub",
+                "google": "Google",
+                "youtube": "YouTube",
+                "googledrive": "Google Drive"
+            },
+            "permissions": {
+                "viewGoogleDriveThumbnails": "查看 API 支持的 Google 雲端硬盤略圖",
+                "useOnOwnPost": "在自己的帖子中使用嵌入",
+                "disableOnOwnPost": "禁止在自己的帖子中使用嵌入",
+                "refreshOnOwnPost": "在自己的帖子上刷新嵌入",
+                "disableOnAnyPost": "禁止在任何的帖子中使用嵌入",
+                "refreshOnAnyPost": "在任何的帖子上刷新嵌入"
+            },
+            "preview": {
+                "title": "預覽",
+                "refresh": "重新載入",
+                "loading": "正在加載…"
+            }
+        },
+        "lib": {
+            "embed": {
+                "altFavicon": "{website} 圖示",
+                "altImageFallback": "{website} Opengraph 圖片",
+                "altAvatar": "用戶頭像",
+                "missing": {
+                    "retrieving": "正在檢索...",
+                    "other": "無法為此鏈接生成預覽"
+                }
+            },
+            "controls": {
+                "refresh": "刷新頁面",
+                "disable": "禁止在這個帖子中使用嵌入",
+                "disableConfirmation": "所有嵌入將從這篇文章中刪除。繼續？",
+                "imgCopy": "複制圖像綱址",
+                "imgCopied": "已復制！",
+                "imgOpen": "在新分頁開啟圖像",
+                "play": "單擊以使用嵌入式播放器播放媒體",
+                "expandDescription": "展開說明"
+            }
+        },
+        "api": {
+            "error": {
+                "blacklistedUrl": "網址 {url} 尚未列入嵌入白名單。",
+                "invalidUrl": "網址 {url} 無效。"
+            },
+            "embed": {
+                "flarum": {
+                    "discussion": {
+                        "type": "主題",
+                        "stats": {
+                            "commentCount": "回覆",
+                            "participantCount": "參與者",
+                            "createdAt": "開始日期"
+                        }
+                    },
+                    "user": {
+                        "type": "基本資料",
+                        "avatarAlt": "頭像",
+                        "stats": {
+                            "discussionCount": "主題帖",
+                            "commentCount": "評論",
+                            "joinTime": "加入日期"
+                        }
+                    }
+                },
+                "github": {
+                    "siteName": "GitHub",
+                    "privateRepoSuffix": "[private]",
+                    "issue": {
+                        "type": "問題",
+                        "stats": {
+                            "commentCount": "評論",
+                            "createdAt": "發佈於"
+                        }
+                    },
+                    "pull": {
+                        "type": "提出請求",
+                        "stats": {
+                            "commentCount": "評論",
+                            "reviewCount": "已查看",
+                            "commitCount": "提交",
+                            "createdAt": "發佈於"
+                        }
+                    },
+                    "repo": {
+                        "type": {
+                            "public": "公共存儲庫",
+                            "private": "私有倉庫"
+                        },
+                        "stats": {
+                            "openIssueCount": "未解決的問題",
+                            "subscriberCount": "守望者",
+                            "stargazerCount": "星",
+                            "forkCount": "分支"
+                        }
+                    }
+                },
+                "youtube": {
+                    "siteName": "YouTube",
+                    "video": {
+                        "type": "視頻",
+                        "thumbnailAlt": "視頻縮圖",
+                        "stats": {
+                            "viewCount": "瀏覽量",
+                            "likeCount": "讚",
+                            "commentCount": "評論",
+                            "publishedAt": "發表於"
+                        }
+                    }
+                },
+                "googledrive": {
+                    "siteName": "Google Drive",
+                    "file": {
+                        "type": "文件",
+                        "thumbnailAlt": "Google Drive 檔案預覽",
+                        "stats": {
+                            "size": "文件大小",
+                            "createdTime": "創建於",
+                            "modifiedTime": "修改於"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,20 +1,36 @@
 {
     "flarum-statistics": {
         "admin": {
+            "date_selection_modal": {
+                "description": "İstatistikleri görüntülemek için özel bir tarih aralığı seçin. Verilerin yüklenmesi uzun sürebilir\nçok fazla aktiviteye sahip forumlarda birden fazla dakika.\n",
+                "end_date": "Bitiş tarihi (dahil)",
+                "errors": {
+                    "end_before_start": "Bitiş tarihi, başlangıç tarihinden sonra olmalıdır."
+                },
+                "start_date": "Başlangıç tarihi (dahil)",
+                "submit_button": "Tarih aralığını onaylayın",
+                "title": "Özel tarih aralığı seçin"
+            },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
+                "export_chart_button": "Grafiği SVG'ye aktar",
                 "last_12_months_label": "Son 12 ay",
                 "last_28_days_label": "Son 28 gün",
                 "last_7_days_label": "Son 7 gün",
-                "mini_heading": "",
-                "previous_28_days_label": "",
-                "previous_7_days_label": "",
-                "loading": "",
+                "mini_heading": "Forum istatistikleri",
+                "previous_28_days_label": "Önceki 28 gün",
+                "previous_7_days_label": "Önceki 7 gün",
+                "custom_label": "Özel aralık seçin...",
+                "custom_label_specified": "{fromDate} ile {toDate} arası",
+                "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "Bugün",
                 "total_label": "Toplam",
                 "users_heading": "=> core.ref.users",
-                "view_full": "",
+                "view_full": "Daha fazla istatistik görüntüle",
+                "no_data": "Bu tarih aralığı için kullanılabilir veri yok.",
+                "current_period": "Geçerli dönem",
+                "previous_period": "Önceki dönem",
                 "active_users_text": "{count} aktif"
             }
         }

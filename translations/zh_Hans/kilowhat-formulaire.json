@@ -2,8 +2,8 @@
     "kilowhat-formulaire": {
         "admin": {
             "permissions": {
-                "heading": "Formulaire",
-                "heading-advanced": "Formulaire（第三方扩展选项）",
+                "heading": "表单",
+                "heading-advanced": "表单（第三方扩展选项）",
                 "fill": "=> kilowhat-formulaire.ref.permissions.fill",
                 "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
                 "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
@@ -34,7 +34,20 @@
                     "fas-circle": "",
                     "switch": "",
                     "native": ""
-                }
+                },
+                "horizontal-layout": "",
+                "horizontal-layout-locations": {
+                    "standaloneEdit": "",
+                    "standaloneView": "",
+                    "profileEdit": "",
+                    "profileView": "",
+                    "signUp": "",
+                    "discussionEdit": "",
+                    "discussionView": "",
+                    "discussionComposer": ""
+                },
+                "uniformComposerLayout": "",
+                "uniformComposerLayoutHelp": ""
             }
         },
         "forum": {
@@ -54,6 +67,7 @@
                 },
                 "empty": "无表单",
                 "load-more": "加载更多",
+                "search": "",
                 "new": "新建表单",
                 "edit": "编辑",
                 "show": "显示",
@@ -143,6 +157,7 @@
                     "title": "公开标题",
                     "show-on-creation": {
                         "discussion": "在 discussion composer 展示",
+                        "discussionHelp": "",
                         "user": "在注册页面展示"
                     },
                     "automatic-discussion": "根据提交内容自动创建主题帖",
@@ -285,6 +300,7 @@
                 "guest": "访客",
                 "load-more": "加载更多",
                 "empty": "暂未收集到数据",
+                "search": "",
                 "export": "导出",
                 "columns": {
                     "date": "日期",
@@ -354,6 +370,14 @@
             "discussion-submission": {
                 "empty": "",
                 "edit": ""
+            },
+            "discussion-composer": {
+                "field": {
+                    "tags": "",
+                    "poll": "",
+                    "title": "",
+                    "content": ""
+                }
             }
         },
         "api": {
@@ -363,6 +387,7 @@
             "cannot-change-form-type": "您不能更改已收到提交内容的表格类型",
             "unknown-form": "",
             "unauthorized-form": "",
+            "unauthorized-scoped-form": "",
             "file-already-belongs-form": "",
             "file-already-belongs-submission": "",
             "export": {
@@ -386,7 +411,8 @@
             "title-new-submission": "{title} 的新提交",
             "edit": "编辑",
             "footer": "来自 {title}",
-            "sub-entries": "{count} 条目"
+            "sub-entries": "{count} 条目",
+            "no-answer": ""
         },
         "ref": {
             "manager": "",

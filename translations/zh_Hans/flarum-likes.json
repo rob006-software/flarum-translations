@@ -3,6 +3,10 @@
         "admin": {
             "permissions": {
                 "like_posts_label": "点赞"
+            },
+            "settings": {
+                "like_own_posts_help": "启用此项，以允许用户点赞自己的帖子。",
+                "like_own_posts_label": "允许自赞"
             }
         },
         "forum": {
@@ -23,6 +27,9 @@
             },
             "settings": {
                 "notify_post_liked_label": "有人赞我"
+            },
+            "user": {
+                "likes_link": "赞"
             }
         }
     }

@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Värillinen yläosa",
                 "colors_heading": "Värit",
+                "colors_primary_label": "Ensisijainen väri",
+                "colors_secondary_label": "Toissijainen väri",
                 "colors_text": "Valitse kaksi väriä foorumin teemaksi. Ensimmäistä käytetään korostusvärinä, kun taas toista väriä käytetään taustaelementeissä.",
                 "custom_footer_heading": "Mukautettu alaosa",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -44,8 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "Tyhjennä välimuisti",
                 "description": "Foorumisi yhdellä silmäyksellä.",
+                "io_error_message": "Tiedostoihin ei voitu kirjoittaa. Tarkista tiedostojen ja kansioiden oikeudet ja yritä uudelleen. Tai voit yrittää ajaa komentoriviltä.",
                 "title": "Kojelauta",
                 "tools_button": "Työkalut"
+            },
+            "debug-warning": {
+                "detail": "Kun <code>debug</code> tila on aktiivisena Flarum luo uudelleen sen <code>JavaScript</code> ja <code>CSS</code> koodit joka pyynnöllä ja voi mahdollisesti vuotaa joitain tietoja kuten tietokanta salaisuuksia, ympäristön määreitä yms.\n\nSuosittelemme, että otat <code>debug</code> tilan pois päältä <code>config.php</code> tiedostosta tuotannossa. Katso <link>Flarumin dokumentoinnista</link> lisää tietoa.\n",
+                "label": "Debug tila aktiivisena"
             },
             "edit_css": {
                 "customize_text": "Muokkaa foorumisi ulkoasua lisäämällä omia Less/CSS koodeja joita käytetään Flarumin <a>oletustyylien</a> lisäksi.",
@@ -268,7 +275,7 @@
                 "preview_tooltip": "Esikatselu"
             },
             "composer_discussion": {
-                "body_placeholder": "Kirjoita vastaus...",
+                "body_placeholder": "Kirjoita viesti...",
                 "discard_confirmation": "Et ole kirjoittanut vastaustasi. Haluatko peruuttaa sen?",
                 "submit_button": "Lähetä",
                 "title": "=> core.ref.start_a_discussion",
@@ -312,7 +319,7 @@
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "Lähetimme teille sähköpostin, jossa on linkki salasanan nollaukseen. Tarkista roskapostikansiosi mikäli viestiä ei ala kuulua.",
+                "email_sent_message": "Mikäli sähköposti, jonka syötit on rekisteröity sivustolle niin lähetämme teille linkin, jolla voi nollata salasanan. Tarkista roskapostikansio jos viestiä ei ala kuulua parin minuutin sisään.",
                 "not_found_message": "Tällä sähköpostiosoitteella ei löytynyt käyttäjää.",
                 "submit_button": "Palauta salasana",
                 "text": "Syötä sähköpostiosoitteesi niin me lähetämme teille linkin salasanan nollaukseen.",
@@ -361,6 +368,8 @@
                 "username_or_email_placeholder": "Tunnus tai sähköpostiosoite"
             },
             "notifications": {
+                "delete_all_confirm": "Haluatko varmasti poistaa kaikki ilmoitukset? Tätä ei voi perua",
+                "delete_all_tooltip": "Poista kaikki ilmoitukset",
                 "discussion_renamed_text": "{username} vaihtoi otsikon",
                 "empty_text": "Ei ilmoituksia",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
@@ -409,6 +418,7 @@
                 "account_heading": "Tili",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "Vastaanota \"{description}\" ilmoituksia {method} kautta",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
@@ -575,10 +585,6 @@
                 "new_password_label": "Uusi salasana",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
             }
         },
         "api": {

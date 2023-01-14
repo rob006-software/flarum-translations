@@ -2,61 +2,61 @@
     "sycho-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content": "Tématartalom (első bejegyzés) áthelyezve",
+                "moved_first_post_content_help": "Ha egy egyetlen bejegyzést tartalmazó témát áthelyez, akkor az eredeti téma első bejegyzése úgy lesz szerkesztve, hogy az új témára fog hivatkozni. Annak a bejegyzésnek a tartalmát itt szerkesztheti.\n",
+                "group_sequential_posts": "Egymást követő bejegyzésáthelyezési eseménybejegyzések csoportosítása."
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Áthelyezve"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": ""
+                "move_old_post_to_newer_discussion": "=> sycho-move-posts.ref.status.old_to_new_move"
             },
             "modal": {
-                "check": "",
-                "destination": "",
-                "discussion_help": "",
-                "discussion_name": "",
-                "new_discussion": "",
-                "selected_posts": "",
+                "check": "Művelettípus ellenőrzése",
+                "destination": "Céltéma",
+                "discussion_help": "A forrástéma címkéi lesznek használva, és létrehozás után módosíthatók.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Új téma",
+                "selected_posts": "{count, plural, one {Egy bejegyzés kijelölve} other {{count} bejegyzés kijelölve}}",
                 "status": {
-                    "complex_move": "",
-                    "old_to_new_move": "",
-                    "simple_move": ""
+                    "complex_move": "Összetett áthelyezés lesz, a bejegyzések más bejegyzések közé lesznek illesztve, emiatt a céltéma bejegyzéseinek régi webcímhivatkozásai is változni fognak.",
+                    "old_to_new_move": "=> sycho-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Egyszerű áthelyezés lesz, a bejegyzések a téma végéhez lesznek fűzve."
                 },
-                "submit": "",
-                "title": ""
+                "submit": "Folytatás",
+                "title": "=> sycho-move-posts.ref.move_posts"
             },
             "notifications": {
-                "post_moved_text": ""
+                "post_moved_text": "Egy vagy több bejegyzés át lett helyezve ide: {targetDiscussionTitle}."
             },
             "post": {
-                "unmove": "",
-                "move": "",
-                "moving": ""
+                "unmove": "Áthelyezéshez kijelölés megszüntetése",
+                "move": "Kijelölés áthelyezéshez",
+                "moving": "Bejegyzés áthelyezése"
             },
             "post_stream": {
-                "post_moved": ""
+                "post_moved": "{count, plural, one {{username} áthelyezett egy bejegyzést ide: {target_discussion}.} other {{username} áthelyezett {count} bejegyzést ide: {target_discussion}.}}"
             }
         },
         "ref": {
-            "move_posts": "",
+            "move_posts": "Bejegyzések áthelyezése",
             "status": {
-                "old_to_new_move": ""
+                "old_to_new_move": "Nem helyezhet át egy régi bejegyzést egy újabb témába."
             }
         },
         "lib": {
             "discussion": {
                 "first_post": {
-                    "default_content": ""
+                    "default_content": "*Ez a bejegyzés át lett helyezve ide: **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
                 }
             }
         }

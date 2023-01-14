@@ -1,0 +1,44 @@
+{
+    "maicol07-oidc-client": {
+        "admin": {
+            "settings": {
+                "provider_name": "OpenID Connect 提供商名稱",
+                "client_settings_title": "Client 設置",
+                "client_settings_subtitle": "在此處添加您的 OpenID Connect 提供商提供的客戶信息。如需進一步幫助，請查看文檔。",
+                "client_id": "Client ID",
+                "client_secret": "Client secret",
+                "callback_title": "登入後導回的網址",
+                "callback_subtitle": "如果啟用了相關選項，這些是您需要在提供商上註冊以獲取客戶端授權代碼並從提供商註銷的回調 URI。",
+                "callback_logout_note": "僅當啟用從提供者註銷選項時才需要（請參閱頁面底部）",
+                "provider_settings_title": "提供商設置",
+                "provider_url": "提供商網址",
+                "endpoints_title": "提供商端點",
+                "endpoints_subtitle": "在此處添加您的提供商端點。如果您在上面添加了提供者 URL，並且您的提供者支持自動發現，則當您按下“保存設置”按鈕時，會自動發現（並保存）所需的端點（在刷新頁面之前，您不會在設置中看到新的端點） .如果填寫了提供者 URL 並且在提供者上啟用了自動發現，則您不必添加其他端點。如果您的提供商尚未實施，您可以在下方手動添加所需的端點。查看文檔以獲得更多幫助\n",
+                "endpoints": {
+                    "authorize": "授權端點 URL",
+                    "token": "Token endpoint URL",
+                    "userinfo": "用戶信息端點 URL",
+                    "logout": "結束會話（登出）端點 URL"
+                },
+                "other_settings_title": "其它設置",
+                "issuer": "發行網址",
+                "nonce": "停用隨機數驗證",
+                "linker_claim": "Linker claim",
+                "manage_account_url": "帳戶管理網址",
+                "manage_account_btn_open_in_new_tab": "在新標籤頁中打開帳戶管理",
+                "sso_mode": "SSO 模式",
+                "logout_from_provider": "從提供商註銷（啟用 SSO 模式時）",
+                "remove_signup_btn": "移除註冊按鈕",
+                "sync_avatars": "同步用戶頭像"
+            }
+        },
+        "forum": {
+            "buttons": {
+                "manage_account": "管理帳戶",
+                "login": "以{name}登入",
+                "connect_account": "與{name}聯繫",
+                "disconnect_account": "與{name}斷開連結"
+            }
+        }
+    }
+}

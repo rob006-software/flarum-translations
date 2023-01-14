@@ -1,6 +1,9 @@
 {
     "flarum-mentions": {
         "admin": {
+            "permissions": {
+                "mention_groups_label": ""
+            },
             "settings": {
                 "allow_username_format_label": "",
                 "allow_username_format_text": ""
@@ -14,7 +17,8 @@
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} svarade på ditt inlägg",
-                "user_mentioned_text": "{username} nämnde dig"
+                "user_mentioned_text": "{username} nämnde dig",
+                "group_mentioned_text": ""
             },
             "post": {
                 "mentioned_by_self_text": "",
@@ -26,12 +30,16 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "Någon svarar på ett av mina inlägg",
-                "notify_user_mentioned_label": "Någon nämner mig i ett inlägg"
+                "notify_user_mentioned_label": "Någon nämner mig i ett inlägg",
+                "notify_group_mentioned_label": ""
             },
             "user": {
                 "mentions_link": "Omnämnanden"
             },
             "post_mention": {
+                "deleted_text": ""
+            },
+            "group_mention": {
                 "deleted_text": ""
             }
         },
@@ -42,6 +50,10 @@
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} nämnde dig i {title}",
+                "body": ""
+            },
+            "group_mentioned": {
+                "subject": "",
                 "body": ""
             }
         }

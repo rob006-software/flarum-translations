@@ -4,16 +4,16 @@
             "akismet_settings": {
                 "api_key_label": "Ключ API",
                 "title": "Настройки Akismet",
-                "delete_blatant_spam_label": "Автоматически удалять назойливый спам",
-                "delete_blatant_spam_help": "Если Akismet опеределил, что сообщение является назойливым спамом, вместо пометки автоматически удалять сообщение"
+                "delete_blatant_spam_label": "Автоматически удалять явный спам",
+                "delete_blatant_spam_help": "Если Akismet определит сообщение как явный спам, он автоматически удалит это сообщение."
             },
             "permissions": {
-                "bypass_akismet": "Обходить Akismet"
+                "bypass_akismet": "Игнорировать Akismet"
             }
         },
         "forum": {
             "post": {
-                "akismet_flagged_text": "Akismet пометил как спам",
+                "akismet_flagged_text": "[Akismet] Обнаружен спам",
                 "not_spam_button": "Не спам"
             }
         }

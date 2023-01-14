@@ -1,0 +1,38 @@
+{
+    "clarkwinkelmann-collapsible-posts": {
+        "admin": {
+            "settings": {
+                "reasons": "原因",
+                "header": {
+                    "key": "數據庫主鍵",
+                    "label": "標題",
+                    "explanation": "自定義詳情信息"
+                },
+                "add": "添加原因",
+                "explanationUrl": "詳情 URL",
+                "explanationUrlHelp": "可選，在折疊帖下方顯示。"
+            },
+            "permission": {
+                "collapse": "折疊帖子"
+            }
+        },
+        "forum": {
+            "postControl": {
+                "collapse": "折疊",
+                "uncollapse": "取消折疊"
+            },
+            "modal": {
+                "title": "折疊帖子",
+                "uncollapse": "取消折疊"
+            },
+            "badge": {
+                "post": "已折疊"
+            },
+            "stream": {
+                "hidden": "{count, plural, one {# 因 {reason} 已被折疊} other {# 因 {reason} 已被折疊}}",
+                "load": "載入更多",
+                "explanation": "為什麼我會看到這個？"
+            }
+        }
+    }
+}

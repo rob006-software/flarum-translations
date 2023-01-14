@@ -3,17 +3,21 @@
         "admin": {
             "permissions": {
                 "like_posts_label": "דירוג פוסטים"
+            },
+            "settings": {
+                "like_own_posts_help": "",
+                "like_own_posts_label": "משתמשים יכולים לסמן אהבתי על הודעות עצמיות"
             }
         },
         "forum": {
             "notifications": {
                 "others_text": "=> core.ref.some_others",
-                "post_liked_text": "{username} אהב את הפוסט שלך"
+                "post_liked_text": "{username} אהב את ההודעה שלך"
             },
             "post": {
                 "like_link": "אהבתי",
                 "liked_by_self_text": "{users} אהבת את זה.",
-                "liked_by_text": "{users} אהבו את זה.|{users} אהב את זה.",
+                "liked_by_text": "{count, plural, one {{users} אהב את זה} other {{users} אהבו את זה}}.",
                 "others_link": "=> core.ref.some_others",
                 "unlike_link": "לא אהבתי",
                 "you_text": "=> core.ref.you"
@@ -22,7 +26,10 @@
                 "title": "משתמשים שאהבו את זה"
             },
             "settings": {
-                "notify_post_liked_label": "מישהו אהב את אחד הפוסטים שלי"
+                "notify_post_liked_label": "מישהו אהב את אחת ההודעות שלי"
+            },
+            "user": {
+                "likes_link": "אהבו"
             }
         }
     }

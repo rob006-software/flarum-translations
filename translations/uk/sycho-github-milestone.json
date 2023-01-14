@@ -1,0 +1,28 @@
+{
+    "sycho-github-milestone": {
+        "admin": {
+            "repository": "GitHub репозиторій",
+            "repository_example": "наприклад: flarum/core",
+            "milestone": "ID віхи",
+            "default_filter": "Фільтр за налаштуванням",
+            "closed": "=> sycho-github-milestone.ref.closed",
+            "open": "=> sycho-github-milestone.ref.open",
+            "all": "=> sycho-github-milestone.ref.all"
+        },
+        "forum": {
+            "title": "Віха",
+            "last_updated": "Останнє оновлення {time}",
+            "closed": "=> sycho-github-milestone.ref.closed",
+            "open": "=> sycho-github-milestone.ref.open",
+            "all": "=> sycho-github-milestone.ref.all",
+            "complete": "{progress} завершено",
+            "load_more": "=> core.forum.discussion_list.load_more_button",
+            "tasks_done": "{number} з {total}"
+        },
+        "ref": {
+            "closed": "Закрито",
+            "open": "Відкрито",
+            "all": "Усі"
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "clarkwinkelmann-money-rewards": {
+        "admin": {
+            "settings": {
+                "preselection": "預選金額（英文逗號分隔,可選）",
+                "min": "自定義金額的最小值",
+                "max": "自定義金額的最大值",
+                "decimals": "自定義金額的小數位數上限"
+            },
+            "permissions": {
+                "seeMoneyRewardHistory": "查看其他用戶的打賞記錄",
+                "rewardWithMoney": "使用貨幣打賞其他用戶",
+                "customAmounts": "選擇自定義打賞金額",
+                "createMoney": "重新設定新的賞金金額"
+            }
+        },
+        "forum": {
+            "modal": {
+                "title": "打賞該帖",
+                "target": "由{username}打賞了{number}帖子",
+                "optionCustom": "自定義",
+                "balance": "您的餘額：{amount}",
+                "label": {
+                    "custom": "自定義金額",
+                    "create": "不消耗餘額來進行打賞",
+                    "comment": "評論(公開)"
+                },
+                "submit": "提交",
+                "success": "已打賞給發帖作者！"
+            },
+            "profile": {
+                "nav": "打賞",
+                "title": "打賞"
+            },
+            "post": {
+                "action": "打賞",
+                "disallowedOwn": "您不能打賞自己的帖子。",
+                "disallowedOther": "你不能打賞這個帖子。可能作者是匿名或已被注銷。",
+                "section": "打賞"
+            },
+            "record": {
+                "from": "來自",
+                "to": "於",
+                "post": "於“{title}”中討論的<a>#{number} 帖</a>",
+                "comment": "評論："
+            }
+        },
+        "api": {
+            "error": {
+                "decimals": "金額限制為 {decimals} 小數。",
+                "notEnoughFunds": "資金不足。"
+            }
+        }
+    }
+}

@@ -7,11 +7,14 @@
                     "hotkey": "Hotkey",
                     "lang": "Player language",
                     "logo": "Logo URL",
-                    "quality_switching": "Allow Quality Switching",
-                    "theme": "Theme color"
+                    "quality_switching": "Quality Switching",
+                    "theme": "Theme color",
+                    "modal_enabled": "Modal Enabled",
+                    "modal_enabled_help": "Enable the modal or just insert the BBCode inside the composer."
                 },
                 "permissions": {
-                    "can_create_video_player": "Can create video player"
+                    "can_create_video_player": "Can create video player",
+                    "can_view_video_player": "Can view video player"
                 },
                 "video_types": {
                     "dash": "Dash",
@@ -38,8 +41,18 @@
                     "webtorrent": "WebTorrent"
                 },
                 "video_url_label": "Video URL",
-                "video_url_placeholder": "Ex. https://example.com/filename.mp4"
-            }
+                "video_url_placeholder": "Ex. https://example.com/filename.mp4",
+                "quality_switching_tutorial": "Quality Switching tutorial",
+                "pointer_label": "Pointer",
+                "pointer_option_new": "New",
+                "quality_option_new": "New",
+                "add_quality": "Add Quality",
+                "remove_quality": "Remove Quality",
+                "add_pointer": "Add pointer",
+                "remove_pointer": "Remove pointer",
+                "qualities_label": "Qualities (Optional)"
+            },
+            "cannot_view": "Error: You are not allowed to view this content"
         }
     }
 }

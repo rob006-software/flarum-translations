@@ -1,0 +1,37 @@
+{
+    "clarkwinkelmann-vote-with-money": {
+        "admin": {
+            "settings": {
+                "preselection": "Montants présélectionnés (séparés par des virgules, facultatif)",
+                "min": "Valeur minimale",
+                "max": "Valeur maximale"
+            }
+        },
+        "forum": {
+            "vote": {
+                "title": "Confirmer le vote",
+                "target": "Confirmez votre promesse de vote pour l'option « {answer} ». Vous ne pourrez pas modifier votre vote ultérieurement.\n",
+                "optionCustom": "Personnalisé",
+                "balance": "Votre solde : {amount}",
+                "label": {
+                    "custom": "Montant personnalisé"
+                },
+                "submit": "Envoyer",
+                "success": "Le vote a été soumis !"
+            },
+            "poll": {
+                "voteWithMoney": "Voter avec de l'argent",
+                "min": "Promesse minimale (facultatif)",
+                "max": "Promesse maximale (facultatif)"
+            }
+        },
+        "api": {
+            "error": {
+                "cannotCancel": "Impossible d'annuler le vote.",
+                "cannotChange": "Impossible de modifier le vote.",
+                "notEnoughFunds": "Pas suffisamment de fonds.",
+                "cannotChangePollType": "Impossible de modifier le type de sondage après qu'il ait déjà reçu des votes."
+            }
+        }
+    }
+}

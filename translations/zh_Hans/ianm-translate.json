@@ -1,0 +1,78 @@
+{
+    "ianm-translate": {
+        "admin": {
+            "permission": {
+                "refresh-translation": "",
+                "translate-to-locale": "",
+                "translate-to-all-locales": "",
+                "translate": "查看翻译"
+            },
+            "settings": {
+                "deepl": {
+                    "api_key": {
+                        "help": "",
+                        "label": ""
+                    },
+                    "en_choice": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "en-US": "",
+                            "en-GB": ""
+                        }
+                    },
+                    "formality": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "default": "",
+                            "prefer_less": "",
+                            "prefer_more": ""
+                        }
+                    }
+                },
+                "google-cloud": {
+                    "api_key": {
+                        "help": "",
+                        "label": ""
+                    }
+                },
+                "provider": "翻译提供程序",
+                "readme-info": "",
+                "any-language": "任何语言",
+                "any-language-help": "启用后，当前提供支持的所有语言的翻译都可以使用。若要将翻译文本限制为仅在论坛上启用的语言，请禁用此选项。"
+            }
+        },
+        "forum": {
+            "unknown-language": "（未检测到）",
+            "detected-language": "本帖使用了{postLang}",
+            "translate-button-label": "",
+            "discussion": {
+                "post": {
+                    "close-translation": "关闭翻译",
+                    "translated-header": "机器将{from}翻译为{to}翻译",
+                    "translated-updated": "翻译文本最后于{time}更新"
+                }
+            },
+            "user": {
+                "settings": {
+                    "heading": "",
+                    "source-language": {
+                        "help": "",
+                        "label": ""
+                    }
+                }
+            }
+        },
+        "lib": {
+            "providers": {
+                "deepl": "",
+                "google-free": "",
+                "google-cloud": ""
+            },
+            "settings": {
+                "api-key": ""
+            }
+        }
+    }
+}

@@ -1,6 +1,9 @@
 {
     "flarum-mentions": {
         "admin": {
+            "permissions": {
+                "mention_groups_label": "Mention groups"
+            },
             "settings": {
                 "allow_username_format_label": "Allow username mention format (@Username)",
                 "allow_username_format_text": "The current format for user mentions is @\"Display Name\"#ID.\nThis setting allows using the old format of @Username, however it will still be converted to the new format upon saving.\n"
@@ -8,13 +11,14 @@
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "Mention a user or post",
+                "mention_tooltip": "Mention a user, group or post",
                 "reply_to_post_text": "Reply to #{number}"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} replied to your post",
-                "user_mentioned_text": "{username} mentioned you"
+                "user_mentioned_text": "{username} mentioned you",
+                "group_mentioned_text": "{username} mentioned a group you're a member of"
             },
             "post": {
                 "mentioned_by_self_text": "{users} replied to this.",
@@ -26,13 +30,17 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "Someone replies to one of my posts",
-                "notify_user_mentioned_label": "Someone mentions me in a post"
+                "notify_user_mentioned_label": "Someone mentions me in a post",
+                "notify_group_mentioned_label": "Someone mentions a group I'm a member of in a post"
             },
             "user": {
                 "mentions_link": "Mentions"
             },
             "post_mention": {
                 "deleted_text": "[unknown]"
+            },
+            "group_mention": {
+                "deleted_text": "[unknown group]"
             }
         },
         "email": {
@@ -43,6 +51,10 @@
             "user_mentioned": {
                 "subject": "{mentioner_display_name} mentioned you in {title}",
                 "body": "Hey {recipient_display_name}!\n\n{mentioner_display_name} mentioned you in a post in {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "group_mentioned": {
+                "subject": "{mentioner_display_name} mentioned a group you're a member of in {title}",
+                "body": "Hey {recipient_display_name}!\n\n{mentioner_display_name} mentioned a group you're a member of in {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }

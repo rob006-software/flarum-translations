@@ -1,0 +1,54 @@
+{
+    "ziven-transfer-money": {
+        "forum": {
+            "transfer-list-load-more": "Load More",
+            "transfer-list-empty": "The transfer history is empty",
+            "transfer-list-id": "ID",
+            "transfer-list-type": "Type",
+            "transfer-list-from-user": "From User",
+            "transfer-list-target-user": "Target User",
+            "transfer-list-assign-at": "Transfer Date",
+            "transfer-list-transfer-amount": "Amount",
+            "transfer-list-transfer-notes": "Notes",
+            "transfer-list-transfer-notes-none": "None",
+            "transfer-money": "Transfer Money",
+            "transfer-money-to-user": "Transfer money to user (click to remove)",
+            "transfer-money-no-user-selected": "No user select",
+            "transfer-money-search-user": "Add user",
+            "transfer-money-success": "Transfered Successful",
+            "transfer-money-history": "Transfer History",
+            "transfer-money-to": "Transfer money to {username}",
+            "transfer-money-in": "Transfer In",
+            "transfer-money-out": "Transfer Out",
+            "transfer-money-notes": "Notes (Optional)",
+            "transfer-money-search-user-placeholder": "Typing first three characters of user",
+            "transfer-money-search-user-empty": "No users found",
+            "transfer-money-input-placeholder": "Enter the transfer amount",
+            "transfered-money-to": "transfered {money} to",
+            "current-money-amount": "Current money: ",
+            "need-money-amount": "Total transfer money: ",
+            "search_user_header": "User",
+            "ok": "OK",
+            "cancel": "Cancel",
+            "transfer-error": "Transfer Error",
+            "transfer-error-no-permission": "You don't have permission",
+            "transfer-error-insufficient-fund": "Insufficient Fund",
+            "transfer-error-no-target-user-selected": "Please select at one target user to transfer",
+            "receive-transfer-from-user": "Received money transfer from other user",
+            "notifications": {
+                "user-transfer-money-to-you": "{username} transfered money to you",
+                "user-transfer-money-details": "You have recevied {cost}. Transfer ID：{id}"
+            }
+        },
+        "admin": {
+            "transfer-money-timezone": "Timezone",
+            "transfer-money-timezone-help": "Set the timezone for the transfer time. Default is \"Asia/Shanghai\".",
+            "transfer-money-timezone-default": "Asia/Shanghai",
+            "transfer-money-client-customization": "Client Customization",
+            "transfer-money-client-customization-help": "Features that developed for a client. May cause unexpected error to other users.",
+            "permission": {
+                "allow_use_transfer_money": "Allow transfer money"
+            }
+        }
+    }
+}

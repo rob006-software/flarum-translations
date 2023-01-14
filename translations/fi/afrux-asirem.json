@@ -2,40 +2,40 @@
     "afrux-theme-base": {
         "admin": {
             "extensions": {
-                "title": "",
-                "description": ""
+                "title": "Lisäosat",
+                "description": "Kaikki asennetut lisäosat."
             },
             "extension": {
                 "sections": {
-                    "content": "",
-                    "permissions": ""
+                    "content": "Pääasetukset",
+                    "permissions": "Oikeudet"
                 }
             },
             "header": {
-                "go_back": ""
+                "go_back": "Takaisin foorumille"
             },
             "users": {
                 "grid": {
                     "columns": {
                         "avatar": {
-                            "title": ""
+                            "title": "Avatar"
                         }
                     }
                 }
             },
             "settings": {
-                "edit_footer_links": "",
-                "footer_description": "",
-                "footer_bottom_line": "",
-                "hero_banner": "",
-                "hero_banner_position": "",
+                "edit_footer_links": "Muokkaa alaosan linkkejä",
+                "footer_description": "Alaosan kuvaus",
+                "footer_bottom_line": "Alaosan alaviiva",
+                "hero_banner": "Tervetuloa osion kuva",
+                "hero_banner_position": "Kuvan CSS sijainti (esim. 'center top' tai 'center 20%')",
                 "links_modal": {
-                    "add_group": "",
-                    "group_name": "",
-                    "group_title": "",
-                    "add_link": "",
-                    "link_url": "",
-                    "link_label": ""
+                    "add_group": "Uusi ryhmä linkkejä",
+                    "group_name": "Ryhmän {number} nimi",
+                    "group_title": "Linkkiryhmän otsikko",
+                    "add_link": "Lisää linkki",
+                    "link_url": "Linkin URL",
+                    "link_label": "Linkin teksti"
                 }
             }
         }

@@ -2,24 +2,24 @@
     "datlechin-more-discussions": {
         "admin": {
             "settings": {
-                "block_name_label": "",
-                "block_name_help": "",
-                "discussion_limit_label": "",
-                "discussion_limit_help": "",
-                "filter_by_label": "",
-                "filter_by_help": "",
+                "block_name_label": "列表标题",
+                "block_name_help": "主题列表的标题（默认 <code>最新主题</code>)）",
+                "discussion_limit_label": "主题数量上限",
+                "discussion_limit_help": "列表主题帖数量（默认 <code>5</code>）",
+                "filter_by_label": "排序方式",
+                "filter_by_help": "列表排序方式（默认 <code>最新回复</code>）",
                 "filter_dropdown": {
-                    "latest": "",
-                    "top": "",
-                    "newest": "",
-                    "oldest": "",
-                    "hot": "",
-                    "votes": ""
+                    "latest": "最新回复",
+                    "top": "热门主题",
+                    "newest": "新鲜出炉",
+                    "oldest": "陈年旧帖",
+                    "hot": "趋势（需要 fof/gamification）",
+                    "votes": "高票欢迎（需要 fof/gamification）"
                 }
             }
         },
         "forum": {
-            "block_default_name": ""
+            "block_default_name": "最新主题"
         }
     }
 }

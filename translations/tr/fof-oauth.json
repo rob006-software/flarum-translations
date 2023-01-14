@@ -8,7 +8,7 @@
                 "providers": {
                     "callback_url_text": "Gerekirse, geri arama bağlantısını {url} olarak ayarlayın.",
                     "discord": {
-                        "description": "{Link} adresinde bir uygulama oluşturun. Yönlendirme bağlantısını OAuth2 sekmesine ekleyin.",
+                        "description": "{link} adresinde bir uygulama oluşturun. Yönlendirme bağlantısını OAuth2 sekmesine ekleyin.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
@@ -57,6 +57,19 @@
                 "with_linkedin_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_twitter_button": "=> fof-oauth.forum.log_in.with_button"
             },
+            "user": {
+                "settings": {
+                    "linked-account": {
+                        "label": "Bağlı hesaplar",
+                        "last-used-label": "Son kullanılan",
+                        "link-created-label": "Bağlantı oluşturuldu",
+                        "orphaned-account": "Daha önce bu sağlayıcı aracılığıyla oturum açtınız, ancak bu forum o zamandan beri bu yöntemle oturum açmayı devre dışı bıraktı.",
+                        "help": "Bu bağlantılı hesaplar, diğer sağlayıcıları kullanarak forumda oturum açmanıza izin verir.",
+                        "identifier-label": "{provider} ID",
+                        "unlink-confirm": "{provider} ile olan bağlantıyı kaldırmak istediğinizden emin misiniz? Gelecekte yeniden kimlik doğrulaması yapmazsanız, artık bu forumda oturum açamayacaksınız."
+                    }
+                }
+            },
             "providers": {
                 "discord": "=> fof-oauth.lib.providers.discord",
                 "facebook": "=> fof-oauth.lib.providers.facebook",
@@ -69,6 +82,7 @@
             "signup": {
                 "username_help": "Lütfen buradan bilinecek bir kullanıcı adı seçin"
             },
+            "unlink": "Bağlantıyı kaldır",
             "error": {
                 "bad_verification_code": "Geçersiz veya süresi dolmuş doğrulama jetonu. Lütfen tekrar deneyin.",
                 "invalid_state": "Geçersiz durum. Lütfen tekrar deneyin."

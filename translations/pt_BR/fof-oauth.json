@@ -57,6 +57,19 @@
                 "with_linkedin_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_twitter_button": "=> fof-oauth.forum.log_in.with_button"
             },
+            "user": {
+                "settings": {
+                    "linked-account": {
+                        "label": "Contas conectadas",
+                        "last-used-label": "Usado por último",
+                        "link-created-label": "Conta conectada",
+                        "orphaned-account": "Você já fez login por meio desse provedor anteriormente, mas este fórum desativou o login com esse método desde então.",
+                        "help": "Essas contas vinculadas permitem que você entre no fórum usando outros provedores.",
+                        "identifier-label": "{provider} ID",
+                        "unlink-confirm": "Tem certeza de que deseja remover o link com {provider}? Você não poderá mais entrar neste fórum, a menos que faça uma nova autenticação no futuro."
+                    }
+                }
+            },
             "providers": {
                 "discord": "=> fof-oauth.lib.providers.discord",
                 "facebook": "=> fof-oauth.lib.providers.facebook",
@@ -69,6 +82,7 @@
             "signup": {
                 "username_help": "Escolha um nome de usuário para ser conhecido aqui"
             },
+            "unlink": "Remover",
             "error": {
                 "bad_verification_code": "Token de verificação inválido ou expirado. Por favor, tente novamente.",
                 "invalid_state": "Estado inválido. Por favor, tente novamente."

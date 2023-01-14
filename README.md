@@ -6,6 +6,8 @@ This repository contains raw translations data used by [Weblate](https://weblate
 ## Supported languages
 
 <!--suppress HtmlDeprecatedAttribute -->
+<!-- languages-list-start -->
+
 <table>
 <thead>
 	<tr>
@@ -16,7 +18,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 </thead>
 <tbody>
 	<tr>
-		<td><a href="https://github.com/neerugupta/flarum-lang-arabic">Arabic</a></td>
+		<td><a href="https://github.com/flarum-lang/arabic">Arabic</a></td>
 		<td><a href="https://github.com/neerugupta">neerugupta</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/ar.html" title="Click to see detailed translation status for each extension">
@@ -26,7 +28,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/azerbaijani">Azerbaijani</a></td>
-		<td><a href="https://github.com/khayal011">Khayal</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/az.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/az/svg-badge.svg" alt="detailed translation status" />
@@ -34,8 +36,8 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/flarum-lang/bengali">Bengali</a></td>
-		<td><a href="https://github.com/mueenulit">Mueenul Islam Talha</a></td>
+		<td><a href="https://github.com/flarum-lang/bengali">Bangla</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/bn.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/bn/svg-badge.svg" alt="detailed translation status" />
@@ -44,7 +46,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/chinese-simplified">Chinese (Simplified)</a></td>
-		<td><a href="https://github.com/Littlegolden">Littlegolden</a></td>
+		<td><a href="https://github.com/thatsgolden">thatsgolden</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/zh_Hans.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/zh_Hans/svg-badge.svg" alt="detailed translation status" />
@@ -52,8 +54,17 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/madnest/flarum-lang-czech">Czech</a></td>
-		<td><a href="https://github.com/theimerj">Jakub Theimer</a></td>
+		<td><a href="https://github.com/flarum-lang/chinese-traditional">Chinese (Traditional)</a></td>
+		<td><a href="https://github.com/efast1568">efast1568</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/zh_Hant.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/zh_Hant/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td><a href="https://github.com/flarum-lang/czech">Czech</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/cs.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/cs/svg-badge.svg" alt="detailed translation status" />
@@ -62,7 +73,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/danish">Danish</a></td>
-		<td><a href="https://github.com/DeliciousDanny">DeliciousDanny</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/da.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/da/svg-badge.svg" alt="detailed translation status" />
@@ -71,11 +82,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/dutch">Dutch</a></td>
-		<td>
-			<a href="https://github.com/luceos">Daniël Klabbers</a>,
-			<a href="https://github.com/MichaelBelgium">Michael V.</a>,
-			<a href="https://github.com/jaspervriends">Jasper Vriends</a>
-		</td>
+		<td><a href="https://github.com/jaspervriends">jaspervriends</a>, <a href="https://github.com/MichaelBelgium">MichaelBelgium</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/nl.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/nl/svg-badge.svg" alt="detailed translation status" />
@@ -83,8 +90,8 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/aprold/flarum-lang-estonian">Estonian</a></td>
-		<td><a href="https://github.com/aprold">aprold</a></td>
+		<td><a href="https://github.com/flarum-lang/estonian">Estonian</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/et.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/et/svg-badge.svg" alt="detailed translation status" />
@@ -93,7 +100,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/finnish">Finnish</a></td>
-		<td><a href="https://github.com/MarkoKaartinen">Marko Kaartinen</a></td>
+		<td><a href="https://github.com/MarkoKaartinen">MarkoKaartinen</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/fi.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/fi/svg-badge.svg" alt="detailed translation status" />
@@ -102,7 +109,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/french">French</a></td>
-		<td><a href="https://github.com/qiaeru">Qiaeru</a>, <a href="https://github.com/Hiobi">Hiobi</a></td>
+		<td><a href="https://github.com/Hiobi">Hiobi</a>, <a href="https://github.com/qiaeru">qiaeru</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/fr.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/fr/svg-badge.svg" alt="detailed translation status" />
@@ -128,8 +135,8 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/icecore2/Flarum-hebrew">Hebrew</a></td>
-		<td><a href="https://github.com/icecore2">Dmitry Banny</a></td>
+		<td><a href="https://github.com/flarum-lang/hebrew">Hebrew</a></td>
+		<td><a href="https://github.com/icecore2">icecore2</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/he.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/he/svg-badge.svg" alt="detailed translation status" />
@@ -138,7 +145,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/hindi">Hindi</a></td>
-		<td><a href="https://github.com/meetdilip">Dilip</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/hi.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/hi/svg-badge.svg" alt="detailed translation status" />
@@ -147,11 +154,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/hungarian">Hungarian</a></td>
-		<td>
-			<a href="https://github.com/Rebootcodesoft">Rebootcodesoft</a>,
-			<a href="https://github.com/urbalazs">Balázs Úr</a>,
-			<a href="https://github.com/meskobalazs">Balázs Meskó</a>
-		</td>
+		<td><a href="https://github.com/meskobalazs">meskobalazs</a>, <a href="https://github.com/Rebootcodesoft">Rebootcodesoft</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/hu.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/hu/svg-badge.svg" alt="detailed translation status" />
@@ -160,7 +163,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/italian">Italian</a></td>
-		<td><a href="https://github.com/justoverclockl">Justoverclock</a></td>
+		<td><a href="https://github.com/justoverclockl">justoverclockl</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/it.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/it/svg-badge.svg" alt="detailed translation status" />
@@ -168,8 +171,8 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/FFans/lang-japanese">Japanese</a></td>
-		<td><a href="https://github.com/Littlegolden">Littlegolden</a>, <a href="https://github.com/rikusen0335">rikusen0335</a></td>
+		<td><a href="https://github.com/flarum-lang/japanese">Japanese</a></td>
+		<td><a href="https://github.com/takumi9942">takumi9942</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/ja.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/ja/svg-badge.svg" alt="detailed translation status" />
@@ -178,7 +181,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/korean">Korean</a></td>
-		<td><a href="https://github.com/hahagu">David Kang</a></td>
+		<td><a href="https://github.com/hahagu">hahagu</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/ko.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/ko/svg-badge.svg" alt="detailed translation status" />
@@ -186,7 +189,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/edevrob/flarum-lang-latvian">Latvian</a></td>
+		<td><a href="https://github.com/flarum-lang/latvian">Latvian</a></td>
 		<td><a href="https://github.com/edevrob">edevrob</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/lv.html" title="Click to see detailed translation status for each extension">
@@ -196,7 +199,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/lithuanian">Lithuanian</a></td>
-		<td><a href="https://github.com/tavoweb">TavoWEB</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/lt.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/lt/svg-badge.svg" alt="detailed translation status" />
@@ -205,7 +208,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/malayalam">Malayalam</a></td>
-		<td><a href="https://github.com/meetdilip">Dilip</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/ml.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/ml/svg-badge.svg" alt="detailed translation status" />
@@ -214,7 +217,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/persian">Persian</a></td>
-		<td><a href="https://github.com/amirrezakhakpour">amirrezakhakpour</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/fa.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/fa/svg-badge.svg" alt="detailed translation status" />
@@ -222,7 +225,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/rob006-software/flarum-lang-polish">Polish</a></td>
+		<td><a href="https://github.com/flarum-lang/polish">Polish</a></td>
 		<td><a href="https://github.com/rob006">rob006</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/pl.html" title="Click to see detailed translation status for each extension">
@@ -232,7 +235,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/portuguese">Portuguese</a></td>
-		<td><a href="https://github.com/Rudeus25">Rudeus25</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/pt.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/pt/svg-badge.svg" alt="detailed translation status" />
@@ -241,7 +244,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/brazilian">Portuguese (Brazil)</a></td>
-		<td><a href="https://github.com/ram0ng1">Ramon Guilherme</a></td>
+		<td><a href="https://github.com/ram0ng1">ram0ng1</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/pt_BR.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/pt_BR/svg-badge.svg" alt="detailed translation status" />
@@ -249,8 +252,17 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
+		<td><a href="https://github.com/flarum-lang/romanian">Romanian</a></td>
+		<td><a href="https://github.com/laurentiu86stan">laurentiu86stan</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/ro.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/ro/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td><a href="https://github.com/flarum-lang/russian">Russian</a></td>
-		<td><a href="https://github.com/KitsuneSolar">Kitsune Solar</a>, <a href="https://github.com/z17cx">z17 CX</a></td>
+		<td><a href="https://github.com/KitsuneSolar">KitsuneSolar</a>, <a href="https://github.com/uidhub">uidhub</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/ru.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/ru/svg-badge.svg" alt="detailed translation status" />
@@ -258,8 +270,8 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/bryantmilan/lang-serbian">Serbian</a></td>
-		<td><a href="https://github.com/bryantmilan">Milan Bryant</a></td>
+		<td><a href="https://github.com/flarum-lang/serbian">Serbian</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/sr.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/sr/svg-badge.svg" alt="detailed translation status" />
@@ -268,7 +280,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/sinhala">Sinhala</a></td>
-		<td><a href="https://github.com/sayuri-gi">Sayuri</a></td>
+		<td><a href="https://github.com/sayuri-gi">sayuri-gi</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/si.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/si/svg-badge.svg" alt="detailed translation status" />
@@ -277,7 +289,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/slovak">Slovak</a></td>
-		<td><a href="https://github.com/CWKevo">Kevo</a></td>
+		<td><a href="https://github.com/CWKevo">CWKevo</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/sk.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/sk/svg-badge.svg" alt="detailed translation status" />
@@ -286,7 +298,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/spanish">Spanish</a></td>
-		<td><a href="https://github.com/IamDarkle">Darkle</a>, <a href="https://github.com/jslirola">Javier S. Lirola</a></td>
+		<td><a href="https://github.com/iamdarkle">iamdarkle</a>, <a href="https://github.com/jslirola">jslirola</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/es.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/es/svg-badge.svg" alt="detailed translation status" />
@@ -295,7 +307,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/swedish">Swedish</a></td>
-		<td><a href="https://github.com/Dzenan">Dženan</a></td>
+		<td><a href="https://github.com/Dzenan">Dzenan</a>, <a href="https://github.com/gustjoha">gustjoha</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/sv.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/sv/svg-badge.svg" alt="detailed translation status" />
@@ -304,7 +316,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/tamil">Tamil</a></td>
-		<td><a href="https://github.com/eYM3">Arun Kumar</a>, <a href="https://github.com/sayuri-gi">Sayuri</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/ta.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/ta/svg-badge.svg" alt="detailed translation status" />
@@ -313,7 +325,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/telugu">Telugu</a></td>
-		<td><a href="https://github.com/Hari-Bonda">Hari</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/te.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/te/svg-badge.svg" alt="detailed translation status" />
@@ -322,7 +334,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/thai">Thai</a></td>
-		<td><a href="https://github.com/kon3ko">kon3ko</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/th.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/th/svg-badge.svg" alt="detailed translation status" />
@@ -339,8 +351,17 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
+		<td><a href="https://github.com/flarum-lang/ukrainian">Ukrainian</a></td>
+		<td><a href="https://github.com/denysdesign">denysdesign</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/uk.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/uk/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td><a href="https://github.com/flarum-lang/uzbek">Uzbek</a></td>
-		<td><a href="https://github.com/JeongJun-Lee">JJ</a></td>
+		<td><a href="https://github.com/JeongJun-Lee">JeongJun-Lee</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/uz.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/uz/svg-badge.svg" alt="detailed translation status" />
@@ -349,7 +370,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/vietnamese">Vietnamese</a></td>
-		<td><a href="https://github.com/datlechin">Ngô Quốc Đạt</a></td>
+		<td><a href="https://github.com/datlechin">datlechin</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/vi.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/vi/svg-badge.svg" alt="detailed translation status" />
@@ -358,6 +379,8 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 </tbody>
 </table>
+
+<!-- languages-list-stop -->
 
 If you're maintaining language pack and want to add it to the collective, follow [these instructions](https://github.com/rob006-software/flarum-translations/wiki/How-to-start). Not sure what it is and if it is worth the trouble? Read [features list](https://github.com/rob006-software/flarum-translations/wiki/Features).
 
@@ -477,6 +500,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`afrux-online-users-widget`](https://weblate.rob006.net/projects/flarum/afrux-online-users-widget) | [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget) |
 | [`afrux-top-posters-widget`](https://weblate.rob006.net/projects/flarum/afrux-top-posters-widget) | [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget) |
 | [`akr-chevereto`](https://weblate.rob006.net/projects/flarum/akr-chevereto) | [`akr/chevereto`](https://github.com/AKR-Developers/flarum-chevereto) |
+| [`annonny-dice`](https://weblate.rob006.net/projects/flarum/annonny-dice) | [`annonny/flarum-dice`](https://github.com/mizhiyugan529/flarum-dice) |
 | [`antoinefr-money`](https://weblate.rob006.net/projects/flarum/antoinefr-money) | [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) |
 | [`antoinefr-online`](https://weblate.rob006.net/projects/flarum/antoinefr-online) | [`antoinefr/flarum-ext-online`](https://github.com/AntoineFr/flarum-ext-online) |
 | [`archlinux-de-click-image`](https://weblate.rob006.net/projects/flarum/archlinux-de-click-image) | [`archlinux-de/flarum-click-image`](https://github.com/archlinux-de/flarum-click-image) |
@@ -492,28 +516,35 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`askvortsov-rich-text`](https://weblate.rob006.net/projects/flarum/askvortsov-rich-text) | [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text) |
 | [`askvortsov-saml`](https://weblate.rob006.net/projects/flarum/askvortsov-saml) | [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml) |
 | [`blessing-oauth-client`](https://weblate.rob006.net/projects/flarum/blessing-oauth-client) | [`blessing/flarum-oauth-client`](https://github.com/bs-community/flarum-oauth-client) |
+| [`blomstra-conversations`](https://weblate.rob006.net/projects/flarum/blomstra-conversations) | [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations) |
 | [`blomstra-flag-duplicates`](https://weblate.rob006.net/projects/flarum/blomstra-flag-duplicates) | [`blomstra/flag-duplicates`](https://github.com/blomstra/flarum-ext-flag-duplicate) |
 | [`blomstra-fontawesome`](https://weblate.rob006.net/projects/flarum/blomstra-fontawesome) | [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome) |
 | [`blomstra-mark-unread`](https://weblate.rob006.net/projects/flarum/blomstra-mark-unread) | [`blomstra/mark-unread`](https://github.com/blomstra/flarum-ext-mark-unread) |
-| [`blomstra-notification-deleter`](https://weblate.rob006.net/projects/flarum/blomstra-notification-deleter) | [`blomstra/notification-deleter`](https://github.com/blomstra/flarum-ext-notification-deleter) |
+| [`blomstra-oauth-apple`](https://weblate.rob006.net/projects/flarum/blomstra-oauth-apple) | [`blomstra/oauth-apple`](https://github.com/blomstra/flarum-ext-oauth-apple) |
 | [`blomstra-oauth-slack`](https://weblate.rob006.net/projects/flarum/blomstra-oauth-slack) | [`blomstra/oauth-slack`](https://github.com/blomstra/flarum-ext-oauth-slack) |
 | [`blomstra-search`](https://weblate.rob006.net/projects/flarum/blomstra-search) | [`blomstra/search`](https://github.com/blomstra/flarum-ext-search) |
 | [`blomstra-secondary-tags-toggler`](https://weblate.rob006.net/projects/flarum/blomstra-secondary-tags-toggler) | [`blomstra/secondary-tags-toggler`](https://github.com/blomstra/flarum-ext-secondary-tags-toggler) |
 | [`blomstra-sort-order-toggle`](https://weblate.rob006.net/projects/flarum/blomstra-sort-order-toggle) | [`blomstra/sort-order-toggle`](https://github.com/blomstra/flarum-ext-sort-order-toggle) |
+| [`blomstra-trello`](https://weblate.rob006.net/projects/flarum/blomstra-trello) | [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello) |
+| [`blomstra-turnstile`](https://weblate.rob006.net/projects/flarum/blomstra-turnstile) | [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile) |
 | [`blomstra-user-filter`](https://weblate.rob006.net/projects/flarum/blomstra-user-filter) | [`blomstra/user-filter`](https://github.com/blomstra/flarum-ext-user-filter) |
 | [`blomstra-usercard-stats`](https://weblate.rob006.net/projects/flarum/blomstra-usercard-stats) | [`blomstra/usercard-stats`](https://github.com/blomstra/flarum-ext-usercard-stats) |
+| [`blomstra-web3`](https://weblate.rob006.net/projects/flarum/blomstra-web3) | [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3) |
 | [`blomstra-welcome-login`](https://weblate.rob006.net/projects/flarum/blomstra-welcome-login) | [`blomstra/welcome-login`](https://github.com/blomstra/flarum-ext-welcome-login) |
 | [`cadiducho-bbcode`](https://weblate.rob006.net/projects/flarum/cadiducho-bbcode) | [`cadiducho/bbcode`](https://github.com/EdorasMinecraft/BBcode) |
+| [`cccyun-clogin-oauth`](https://weblate.rob006.net/projects/flarum/cccyun-clogin-oauth) | [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth) |
 | [`clarkwinkelmann-catch-the-fish`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-catch-the-fish) | [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish) |
 | [`clarkwinkelmann-anonymous-posting`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-anonymous-posting) | [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting) |
 | [`clarkwinkelmann-author-change`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-author-change) | [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change) |
-| [`clarkwinkelmann-bookmarks`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-bookmarks) | [`clarkwinkelmann/flarum-ext-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-bookmarks) |
 | [`clarkwinkelmann-carving-contest`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-carving-contest) | [`clarkwinkelmann/flarum-ext-carving-contest`](https://github.com/clarkwinkelmann/flarum-ext-carving-contest) |
 | [`clarkwinkelmann-clippy`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-clippy) | [`clarkwinkelmann/flarum-ext-clippy`](https://github.com/clarkwinkelmann/flarum-ext-clippy) |
 | [`clarkwinkelmann-collapsible-posts`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-collapsible-posts) | [`clarkwinkelmann/flarum-ext-collapsible-posts`](https://github.com/clarkwinkelmann/flarum-ext-collapsible-posts) |
 | [`clarkwinkelmann-colorful-borders`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-colorful-borders) | [`clarkwinkelmann/flarum-ext-colorful-borders`](https://github.com/clarkwinkelmann/flarum-ext-colorful-borders) |
+| [`clarkwinkelmann-composer-page`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-composer-page) | [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page) |
 | [`clarkwinkelmann-create-user-modal`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-create-user-modal) | [`clarkwinkelmann/flarum-ext-create-user-modal`](https://github.com/clarkwinkelmann/flarum-ext-create-user-modal) |
 | [`clarkwinkelmann-default-image-alt`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-default-image-alt) | [`clarkwinkelmann/flarum-ext-default-image-alt`](https://github.com/clarkwinkelmann/flarum-ext-default-image-alt) |
+| [`clarkwinkelmann-discussion-bookmarks`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-discussion-bookmarks) | [`clarkwinkelmann/flarum-ext-discussion-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-discussion-bookmarks) |
+| [`clarkwinkelmann-discussion-lists`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-discussion-lists) | [`clarkwinkelmann/flarum-ext-discussion-lists`](https://github.com/clarkwinkelmann/flarum-ext-discussion-lists) |
 | [`clarkwinkelmann-discussion-open-position`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-discussion-open-position) | [`clarkwinkelmann/flarum-ext-discussion-open-position`](https://github.com/clarkwinkelmann/flarum-ext-discussion-open-position) |
 | [`clarkwinkelmann-editable-user-attributes`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-editable-user-attributes) | [`clarkwinkelmann/flarum-ext-editable-user-attributes`](https://github.com/clarkwinkelmann/flarum-ext-editable-user-attributes) |
 | [`clarkwinkelmann-email-as-display-name`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-email-as-display-name) | [`clarkwinkelmann/flarum-ext-email-as-display-name`](https://github.com/clarkwinkelmann/flarum-ext-email-as-display-name) |
@@ -526,14 +557,19 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`clarkwinkelmann-formatted-banner`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-formatted-banner) | [`clarkwinkelmann/flarum-ext-formatted-banner`](https://github.com/clarkwinkelmann/flarum-ext-formatted-banner) |
 | [`clarkwinkelmann-group-invitation`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-group-invitation) | [`clarkwinkelmann/flarum-ext-group-invitation`](https://github.com/clarkwinkelmann/flarum-ext-group-invitation) |
 | [`clarkwinkelmann-group-list`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-group-list) | [`clarkwinkelmann/flarum-ext-group-list`](https://github.com/clarkwinkelmann/flarum-ext-group-list) |
+| [`clarkwinkelmann-ipsum-autocomplete`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-ipsum-autocomplete) | [`clarkwinkelmann/flarum-ext-ipsum-autocomplete`](https://github.com/clarkwinkelmann/flarum-ext-ipsum-autocomplete) |
 | [`clarkwinkelmann-jwt-cookie-login`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-jwt-cookie-login) | [`clarkwinkelmann/flarum-ext-jwt-cookie-login`](https://github.com/clarkwinkelmann/flarum-ext-jwt-cookie-login) |
 | [`clarkwinkelmann-likes-received`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-likes-received) | [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) |
 | [`clarkwinkelmann-mailing`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-mailing) | [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing) |
 | [`clarkwinkelmann-mass-actions`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-mass-actions) | [`clarkwinkelmann/flarum-ext-mass-actions`](https://github.com/clarkwinkelmann/flarum-ext-mass-actions) |
+| [`clarkwinkelmann-meilisearch-dashboard`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-meilisearch-dashboard) | [`clarkwinkelmann/flarum-ext-meilisearch-dashboard`](https://github.com/clarkwinkelmann/flarum-ext-meilisearch-dashboard) |
+| [`clarkwinkelmann-money-rewards`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-money-rewards) | [`clarkwinkelmann/flarum-ext-money-rewards`](https://github.com/clarkwinkelmann/flarum-ext-money-rewards) |
+| [`clarkwinkelmann-money-to-all`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-money-to-all) | [`clarkwinkelmann/flarum-ext-money-to-all`](https://github.com/clarkwinkelmann/flarum-ext-money-to-all) |
 | [`clarkwinkelmann-passwordless`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-passwordless) | [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless) |
 | [`clarkwinkelmann-popular-discussion-badge`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-popular-discussion-badge) | [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge) |
 | [`clarkwinkelmann-post-bookmarks`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-post-bookmarks) | [`clarkwinkelmann/flarum-ext-post-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-post-bookmarks) |
 | [`clarkwinkelmann-post-permissions`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-post-permissions) | [`clarkwinkelmann/flarum-ext-post-permissions`](https://github.com/clarkwinkelmann/flarum-ext-post-permissions) |
+| [`clarkwinkelmann-post-stream-search`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-post-stream-search) | [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search) |
 | [`clarkwinkelmann-predefined-avatars`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-predefined-avatars) | [`clarkwinkelmann/flarum-ext-predefined-avatars`](https://github.com/clarkwinkelmann/flarum-ext-predefined-avatars) |
 | [`clarkwinkelmann-prominent-post-numbers`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-prominent-post-numbers) | [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers) |
 | [`clarkwinkelmann-readonly-profile`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-readonly-profile) | [`clarkwinkelmann/flarum-ext-readonly-profile`](https://github.com/clarkwinkelmann/flarum-ext-readonly-profile) |
@@ -542,16 +578,21 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`clarkwinkelmann-scout`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-scout) | [`clarkwinkelmann/flarum-ext-scout`](https://github.com/clarkwinkelmann/flarum-ext-scout) |
 | [`clarkwinkelmann-scratchpad`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-scratchpad) | [`clarkwinkelmann/flarum-ext-scratchpad`](https://github.com/clarkwinkelmann/flarum-ext-scratchpad) |
 | [`clarkwinkelmann-see-past-first-post`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-see-past-first-post) | [`clarkwinkelmann/flarum-ext-see-past-first-post`](https://github.com/clarkwinkelmann/flarum-ext-see-past-first-post) |
+| [`clarkwinkelmann-selective-mediaembed`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-selective-mediaembed) | [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) |
 | [`clarkwinkelmann-shadow-ban`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-shadow-ban) | [`clarkwinkelmann/flarum-ext-shadow-ban`](https://github.com/clarkwinkelmann/flarum-ext-shadow-ban) |
 | [`clarkwinkelmann-status`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-status) | [`clarkwinkelmann/flarum-ext-status`](https://github.com/clarkwinkelmann/flarum-ext-status) |
+| [`clarkwinkelmann-sudo-mode`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-sudo-mode) | [`clarkwinkelmann/flarum-ext-sudo-mode`](https://github.com/clarkwinkelmann/flarum-ext-sudo-mode) |
 | [`clarkwinkelmann-translation-inspector`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-translation-inspector) | [`clarkwinkelmann/flarum-ext-translation-inspector`](https://github.com/clarkwinkelmann/flarum-ext-translation-inspector) |
 | [`clarkwinkelmann-typewriter`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-typewriter) | [`clarkwinkelmann/flarum-ext-typewriter`](https://github.com/clarkwinkelmann/flarum-ext-typewriter) |
 | [`clarkwinkelmann-username-blacklist`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-username-blacklist) | [`clarkwinkelmann/flarum-ext-username-blacklist`](https://github.com/clarkwinkelmann/flarum-ext-username-blacklist) |
+| [`clarkwinkelmann-vote-with-money`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-vote-with-money) | [`clarkwinkelmann/flarum-ext-vote-with-money`](https://github.com/clarkwinkelmann/flarum-ext-vote-with-money) |
 | [`clarkwinkelmann-who-read`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-who-read) | [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) |
+| [`club-1-cross-references`](https://weblate.rob006.net/projects/flarum/club-1-cross-references) | [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references) |
 | [`datitisev-discussion-agree-message`](https://weblate.rob006.net/projects/flarum/datitisev-discussion-agree-message) | [`datitisev/flarum-discussion-agree-message`](https://github.com/datitisev/flarum-discussion-agree-message) |
 | [`datlechin-add-like-controls`](https://weblate.rob006.net/projects/flarum/datlechin-add-like-controls) | [`datlechin/flarum-add-like-controls`](https://github.com/datlechin/flarum-add-like-controls) |
 | [`datlechin-bbcode-hide-content`](https://weblate.rob006.net/projects/flarum/datlechin-bbcode-hide-content) | [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content) |
 | [`datlechin-birthdays`](https://weblate.rob006.net/projects/flarum/datlechin-birthdays) | [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) |
+| [`datlechin-birthdays-widget`](https://weblate.rob006.net/projects/flarum/datlechin-birthdays-widget) | [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget) |
 | [`datlechin-copy-links`](https://weblate.rob006.net/projects/flarum/datlechin-copy-links) | [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links) |
 | [`datlechin-discussion-overview`](https://weblate.rob006.net/projects/flarum/datlechin-discussion-overview) | [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview) |
 | [`datlechin-keyboard-shortcuts`](https://weblate.rob006.net/projects/flarum/datlechin-keyboard-shortcuts) | [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts) |
@@ -568,6 +609,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`datlechin-tag-passwords`](https://weblate.rob006.net/projects/flarum/datlechin-tag-passwords) | [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords) |
 | [`datlechin-title-length`](https://weblate.rob006.net/projects/flarum/datlechin-title-length) | [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length) |
 | [`datlechin-usercard-uid`](https://weblate.rob006.net/projects/flarum/datlechin-usercard-uid) | [`datlechin/flarum-usercard-uid`](https://github.com/datlechin/flarum-usercard-uid) |
+| [`datlechin-who-replied`](https://weblate.rob006.net/projects/flarum/datlechin-who-replied) | [`datlechin/flarum-who-replied`](https://github.com/datlechin/flarum-who-replied) |
 | [`davwheat-custom-sidenav-links`](https://weblate.rob006.net/projects/flarum/davwheat-custom-sidenav-links) | [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links) |
 | [`davwheat-ads`](https://weblate.rob006.net/projects/flarum/davwheat-ads) | [`davwheat/flarum-ext-ads`](https://github.com/davwheat/flarum-ext-ads) |
 | [`davwheat-share`](https://weblate.rob006.net/projects/flarum/davwheat-share) | [`davwheat/flarum-ext-share`](https://github.com/davwheat/flarum-ext-share) |
@@ -588,10 +630,14 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ianm-gravatar`](https://weblate.rob006.net/projects/flarum/ianm-gravatar) | [`ianm/gravatar`](https://github.com/imorland/gravatar) |
 | [`ianm-html-head`](https://weblate.rob006.net/projects/flarum/ianm-html-head) | [`ianm/html-head`](https://github.com/imorland/html-head) |
 | [`ianm-level-ranks`](https://weblate.rob006.net/projects/flarum/ianm-level-ranks) | [`ianm/level-ranks`](https://github.com/imorland/level-ranks) |
+| [`ianm-log-viewer`](https://weblate.rob006.net/projects/flarum/ianm-log-viewer) | [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer) |
+| [`ianm-no-meta-title`](https://weblate.rob006.net/projects/flarum/ianm-no-meta-title) | [`ianm/no-meta-title`](https://github.com/imorland/no-meta-title) |
 | [`ianm-oauth-amazon`](https://weblate.rob006.net/projects/flarum/ianm-oauth-amazon) | [`ianm/oauth-amazon`](https://github.com/imorland/flarum-ext-oauth-amazon) |
+| [`ianm-oauth-line`](https://weblate.rob006.net/projects/flarum/ianm-oauth-line) | [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line) |
+| [`ianm-oauth-twitch`](https://weblate.rob006.net/projects/flarum/ianm-oauth-twitch) | [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch) |
 | [`ianm-syndication`](https://weblate.rob006.net/projects/flarum/ianm-syndication) | [`ianm/syndication`](https://github.com/imorland/syndication) |
 | [`ianm-synopsis`](https://weblate.rob006.net/projects/flarum/ianm-synopsis) | [`ianm/synopsis`](https://github.com/imorland/synopsis) |
-| [`itnt-uitab`](https://weblate.rob006.net/projects/flarum/itnt-uitab) | [`itnt/flarum-uitab`](https://github.com/Littlegolden/flarum-uitab) |
+| [`jeromegillard-map`](https://weblate.rob006.net/projects/flarum/jeromegillard-map) | [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map) |
 | [`jslirola-login2seeplus`](https://weblate.rob006.net/projects/flarum/jslirola-login2seeplus) | [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus) |
 | [`justoverclock-auto-post-count-badge`](https://weblate.rob006.net/projects/flarum/justoverclock-auto-post-count-badge) | [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge) |
 | [`justoverclock-best-answer-badge`](https://weblate.rob006.net/projects/flarum/justoverclock-best-answer-badge) | [`justoverclock/best-answer-badge`](https://github.com/justoverclockl/best-answer-badge) |
@@ -634,6 +680,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-og-meta-tag`](https://weblate.rob006.net/projects/flarum/justoverclock-og-meta-tag) | [`justoverclock/og-meta-tag`](https://github.com/justoverclockl/og-meta-tag) |
 | [`justoverclock-popular-tags`](https://weblate.rob006.net/projects/flarum/justoverclock-popular-tags) | [`justoverclock/popular-tags`](https://github.com/justoverclockl/popular-tags) |
 | [`justoverclock-random-post`](https://weblate.rob006.net/projects/flarum/justoverclock-random-post) | [`justoverclock/random-post`](https://github.com/justoverclockl/random-post) |
+| [`justoverclock-staff-members-widget`](https://weblate.rob006.net/projects/flarum/justoverclock-staff-members-widget) | [`justoverclock/staff-members-widget`](https://github.com/justoverclockl/staff-member-widget) |
 | [`justoverclock-thread-read-time`](https://weblate.rob006.net/projects/flarum/justoverclock-thread-read-time) | [`justoverclock/thread-read-time`](https://github.com/justoverclockl/thread-read-time) |
 | [`justoverclock-user-pc-specs`](https://weblate.rob006.net/projects/flarum/justoverclock-user-pc-specs) | [`justoverclock/user-pc-specs`](https://github.com/justoverclockl/user-pc-specs) |
 | [`justoverclock-user-statistics`](https://weblate.rob006.net/projects/flarum/justoverclock-user-statistics) | [`justoverclock/user-statistics`](https://github.com/justoverclockl/user-statistics) |
@@ -696,17 +743,26 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`therealsujitk-gifs`](https://weblate.rob006.net/projects/flarum/therealsujitk-gifs) | [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs) |
 | [`tituspijean-auth-ldap`](https://weblate.rob006.net/projects/flarum/tituspijean-auth-ldap) | [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap) |
 | [`tohsakarat-save-and-load-draft-automatically`](https://weblate.rob006.net/projects/flarum/tohsakarat-save-and-load-draft-automatically) | [`tohsakarat/save-and-load-draft-automatically`](https://github.com/tohsakrat/save-and-load-draft-automatically) |
+| [`tohsakarat-tags-filter`](https://weblate.rob006.net/projects/flarum/tohsakarat-tags-filter) | [`tohsakarat/tags-filter`](https://github.com/tohsakrat/flarum-tags-filter) |
 | [`tokenjenny-web3`](https://weblate.rob006.net/projects/flarum/tokenjenny-web3) | [`tokenjenny/flarum-ext-web3`](https://github.com/tokenjenny/flarum-ext-web3) |
 | [`tpokorra-post-notification`](https://weblate.rob006.net/projects/flarum/tpokorra-post-notification) | [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) |
 | [`v17development-blog`](https://weblate.rob006.net/projects/flarum/v17development-blog) | [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) |
 | [`v17development-seo`](https://weblate.rob006.net/projects/flarum/v17development-seo) | [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo) |
 | [`v17development-user-badges`](https://weblate.rob006.net/projects/flarum/v17development-user-badges) | [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges) |
+| [`vlssu-cravatar`](https://weblate.rob006.net/projects/flarum/vlssu-cravatar) | [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar) |
 | [`webbinaro-affiliator`](https://weblate.rob006.net/projects/flarum/webbinaro-affiliator) | [`webbinaro/flarum-affiliator`](https://github.com/eddiewebb/flarum-affiliator) |
 | [`webbinaro-age-check`](https://weblate.rob006.net/projects/flarum/webbinaro-age-check) | [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check) |
 | [`webbinaro-calendar`](https://weblate.rob006.net/projects/flarum/webbinaro-calendar) | [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar) |
+| [`webbinaro-gpx-preview`](https://weblate.rob006.net/projects/flarum/webbinaro-gpx-preview) | [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview) |
+| [`wolfgang-demeter-bbcode-5star-rating`](https://weblate.rob006.net/projects/flarum/wolfgang-demeter-bbcode-5star-rating) | [`wolfgang-demeter/flarum-ext-bbcode-5star-rating`](https://github.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating) |
 | [`xelson-chat`](https://weblate.rob006.net/projects/flarum/xelson-chat) | [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat) |
 | [`zerosonesfun-expired-posts`](https://weblate.rob006.net/projects/flarum/zerosonesfun-expired-posts) | [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts) |
 | [`zerosonesfun-bbcode-button`](https://weblate.rob006.net/projects/flarum/zerosonesfun-bbcode-button) | [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button) |
+| [`ziiven-daily-check-in`](https://weblate.rob006.net/projects/flarum/ziiven-daily-check-in) | [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in) |
+| [`ziiven-money-leaderboard`](https://weblate.rob006.net/projects/flarum/ziiven-money-leaderboard) | [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard) |
+| [`ziiven-post-number`](https://weblate.rob006.net/projects/flarum/ziiven-post-number) | [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number) |
+| [`ziiven-money-transfer`](https://weblate.rob006.net/projects/flarum/ziiven-money-transfer) | [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer) |
+| [`ziiven-view-history`](https://weblate.rob006.net/projects/flarum/ziiven-view-history) | [`ziiven/view-history`](https://github.com/Ziiven/view-history) |
 
 <!-- various-extensions-list-stop -->
 
@@ -727,10 +783,13 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`datitisev-maintenance`](https://weblate.rob006.net/projects/flarum/datitisev-maintenance) | [`datitisev/flarum-maintenance`](https://extiverse.com/extension/datitisev/flarum-maintenance) |
 | [`datitisev-webhooks-pro`](https://weblate.rob006.net/projects/flarum/datitisev-webhooks-pro) | [`datitisev/flarum-webhooks-pro`](https://extiverse.com/extension/datitisev/flarum-webhooks-pro) |
 | [`davwheat-virtual-authors`](https://weblate.rob006.net/projects/flarum/davwheat-virtual-authors) | [`davwheat/virtual-authors`](https://extiverse.com/extension/davwheat/virtual-authors) |
+| [`finteger-shorts`](https://weblate.rob006.net/projects/flarum/finteger-shorts) | [`finteger/shorts`](https://extiverse.com/extension/finteger/shorts) |
 | [`glowingblue-localizd`](https://weblate.rob006.net/projects/flarum/glowingblue-localizd) | [`glowingblue/localizd`](https://extiverse.com/extension/glowingblue/localizd) |
+| [`ianm-translate`](https://weblate.rob006.net/projects/flarum/ianm-translate) | [`ianm/translate`](https://extiverse.com/extension/ianm/translate) |
 | [`justoverclock-auto-post-badge-pro`](https://weblate.rob006.net/projects/flarum/justoverclock-auto-post-badge-pro) | [`justoverclock/auto-post-badge-pro`](https://extiverse.com/extension/justoverclock/auto-post-badge-pro) |
 | [`justoverclock-check-duplicate-discussions`](https://weblate.rob006.net/projects/flarum/justoverclock-check-duplicate-discussions) | [`justoverclock/check-duplicate-discussions`](https://extiverse.com/extension/justoverclock/check-duplicate-discussions) |
 | [`justoverclock-discord-widget`](https://weblate.rob006.net/projects/flarum/justoverclock-discord-widget) | [`justoverclock/discord-widget`](https://extiverse.com/extension/justoverclock/discord-widget) |
+| [`justoverclock-discussion-tags`](https://weblate.rob006.net/projects/flarum/justoverclock-discussion-tags) | [`justoverclock/discussion-tags`](https://extiverse.com/extension/justoverclock/discussion-tags) |
 | [`justoverclock-frontend-blog`](https://weblate.rob006.net/projects/flarum/justoverclock-frontend-blog) | [`justoverclock/frontend-blog`](https://extiverse.com/extension/justoverclock/frontend-blog) |
 | [`justoverclock-igdb-api`](https://weblate.rob006.net/projects/flarum/justoverclock-igdb-api) | [`justoverclock/igdb-api`](https://extiverse.com/extension/justoverclock/igdb-api) |
 | [`justoverclock-imdb-api`](https://weblate.rob006.net/projects/flarum/justoverclock-imdb-api) | [`justoverclock/imdb-api`](https://extiverse.com/extension/justoverclock/imdb-api) |
@@ -739,6 +798,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-theaudiodb-api`](https://weblate.rob006.net/projects/flarum/justoverclock-theaudiodb-api) | [`justoverclock/theaudiodb-api`](https://extiverse.com/extension/justoverclock/theaudiodb-api) |
 | [`justoverclock-website-live-screenshot`](https://weblate.rob006.net/projects/flarum/justoverclock-website-live-screenshot) | [`justoverclock/website-live-screenshot`](https://extiverse.com/extension/justoverclock/website-live-screenshot) |
 | [`kilowhat-audit-pro`](https://weblate.rob006.net/projects/flarum/kilowhat-audit-pro) | [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro) |
+| [`kilowhat-cimaise`](https://weblate.rob006.net/projects/flarum/kilowhat-cimaise) | [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise) |
 | [`kilowhat-custom-paths`](https://weblate.rob006.net/projects/flarum/kilowhat-custom-paths) | [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths) |
 | [`kilowhat-formulaire`](https://weblate.rob006.net/projects/flarum/kilowhat-formulaire) | [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire) |
 | [`kilowhat-rich-embeds`](https://weblate.rob006.net/projects/flarum/kilowhat-rich-embeds) | [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds) |
@@ -746,5 +806,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`maicol07-oidc-client`](https://weblate.rob006.net/projects/flarum/maicol07-oidc-client) | [`maicol07/flarum-oidc-client`](https://extiverse.com/extension/maicol07/flarum-oidc-client) |
 | [`sycho-private-facade`](https://weblate.rob006.net/projects/flarum/sycho-private-facade) | [`sycho/flarum-private-facade`](https://extiverse.com/extension/sycho/flarum-private-facade) |
 | [`v17development-support`](https://weblate.rob006.net/projects/flarum/v17development-support) | [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support) |
+| [`ziiven-pay-to-see`](https://weblate.rob006.net/projects/flarum/ziiven-pay-to-see) | [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see) |
 
 <!-- premium-extensions-list-stop -->

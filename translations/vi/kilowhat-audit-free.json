@@ -11,18 +11,6 @@
                 "upgrade": "Nâng cấp lên Cao cấp"
             }
         },
-        "forum": {
-            "link": {
-                "discussion-audit": "Nhật ký hoạt động",
-                "user-audit": "Nhật ký hoạt động (chỉnh sửa tài khoản)",
-                "actor-audit": "Nhật ký hoạt động (người dùng là người trình bày)"
-            },
-            "modal": {
-                "discussion-title": "Nhật ký hoạt động cuộc thảo luận",
-                "user-title": "Nhật ký hoạt động người dùng",
-                "actor-title": "Nhật ký hoạt động người trình bày"
-            }
-        },
         "lib": {
             "browser": {
                 "filterPlaceholder": "Bộ lọc nhật ký",
@@ -64,6 +52,7 @@
                     "filterUser": "Hiện nhật ký có ảnh hưởng đến một người dùng",
                     "filterDiscussion": "Hiện nhật ký có ảnh hưởng đến một cuộc thảo luận"
                 },
+                "audit_log_cleared": "Đã xóa {deleted_count} mục khỏi nhật ký kiểm tra",
                 "cache_cleared": "Xóa bộ nhớ cache theo cách thủ công",
                 "discussion": {
                     "created": "Đã tạo cuộc thảo luận {discussion}",
@@ -118,7 +107,7 @@
                     "bio_changed": "{username} đã chỉnh sửa tiểu sử",
                     "created": "{username} đã tạo tài khoản",
                     "deleted": "Đã xoá {username}",
-                    "email_changed": "Đã dổi email của {username} từ old_email} thành {new_email}",
+                    "email_changed": "Đã dổi email của {username} từ {old_email} thành {new_email}",
                     "email_change_requested": "{username} đã yêu cầu đổi email thành {new_email}",
                     "groups_changed": "Đã đổi nhóm của {username} từ {old_groups} thành {new_groups}",
                     "impersonated": "Mạo danh {username}",
@@ -139,6 +128,18 @@
                     "username_request_approved": "Đã chấp nhận đổi tên người dùng {username} từ {old_username} thành {new_username}",
                     "username_request_rejected": "Đã từ chối thay đổi tên người dùng của {username}"
                 }
+            }
+        },
+        "forum": {
+            "link": {
+                "discussion-audit": "Nhật ký hoạt động",
+                "user-audit": "Nhật ký hoạt động (chỉnh sửa tài khoản)",
+                "actor-audit": "Nhật ký hoạt động (người dùng là người trình bày)"
+            },
+            "modal": {
+                "discussion-title": "Nhật ký hoạt động cuộc thảo luận",
+                "user-title": "Nhật ký hoạt động người dùng",
+                "actor-title": "Nhật ký hoạt động người trình bày"
             }
         }
     }

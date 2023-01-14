@@ -1,0 +1,75 @@
+{
+    "ianm-translate": {
+        "admin": {
+            "permission": {
+                "refresh-translation": "強制重新翻譯緩存的翻譯",
+                "translate-to-locale": "查看當前語言環境的翻譯",
+                "translate-to-all-locales": "在任何論壇語言環境中查看翻譯"
+            },
+            "settings": {
+                "deepl": {
+                    "api_key": {
+                        "help": "在{link}註冊。驅動程序將自動檢測免費/專業密鑰類型。",
+                        "label": "=> ianm-translate.lib.settings.api-key"
+                    },
+                    "en_choice": {
+                        "help": "翻譯成英語時，選擇應使用的變體。",
+                        "label": "英語變體",
+                        "options": {
+                            "en-US": "English (US) en-US",
+                            "en-GB": "English (UK) en-GB"
+                        }
+                    },
+                    "formality": {
+                        "help": "在可能的情況下，翻譯可以使用不同級別的形式。 在這裡選擇您的偏好。",
+                        "label": "Formality",
+                        "options": {
+                            "default": "預設",
+                            "prefer_less": "不正式的",
+                            "prefer_more": "更正式"
+                        }
+                    }
+                },
+                "google-cloud": {
+                    "api_key": {
+                        "help": "在 {link} 註冊 API 密鑰。此驅動程序使用 V2 API - Basic。",
+                        "label": "=> ianm-translate.lib.settings.api-key"
+                    }
+                },
+                "provider": "翻譯提供商",
+                "readme-info": "有關擴展信息，請參閱 README 文檔。"
+            }
+        },
+        "forum": {
+            "unknown-language": "（未檢測到）",
+            "detected-language": "本帖使用了{postLang}",
+            "translate-button-label": "翻譯",
+            "discussion": {
+                "post": {
+                    "close-translation": "關閉翻譯",
+                    "translated-header": "機器人將{from}翻譯為{to}",
+                    "translated-updated": "使用 {provider} 最後更新 {time} 的翻譯"
+                }
+            },
+            "user": {
+                "settings": {
+                    "heading": "翻譯",
+                    "source-language": {
+                        "help": "禁用時，只會標記使用當前論壇語言以外的語言編寫的帖子。要使用檢測到的語言標記所有帖子，請啟用此設置。",
+                        "label": "總是顯示文章使用語言"
+                    }
+                }
+            }
+        },
+        "lib": {
+            "providers": {
+                "deepl": "DeepL",
+                "google-free": "Google 翻譯",
+                "google-cloud": "Google Cloud 翻譯"
+            },
+            "settings": {
+                "api-key": "API Key"
+            }
+        }
+    }
+}

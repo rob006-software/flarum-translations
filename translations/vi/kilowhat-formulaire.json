@@ -34,7 +34,20 @@
                     "fas-circle": "Icon FontAwesome Solid Circle",
                     "switch": "Công tắc Flarum",
                     "native": "Kiểm soát trình duyệt gốc"
-                }
+                },
+                "horizontal-layout": "Sử dụng bố cục biểu mẫu ngang",
+                "horizontal-layout-locations": {
+                    "standaloneEdit": "Trang Nhập/Chỉnh sửa riêng biệt",
+                    "standaloneView": "Trang xem riêng biệt",
+                    "profileEdit": "Trang chỉnh sửa hồ sơ",
+                    "profileView": "Trang xem hồ sơ",
+                    "signUp": "Modal Đăng ký (chỉ các trường Formulaire)",
+                    "discussionEdit": "Modal chỉnh sửa cuộc thảo luận",
+                    "discussionView": "Vùng xem cuộc thảo luận",
+                    "discussionComposer": "Trình soạn thảo cuộc thảo luận"
+                },
+                "uniformComposerLayout": "Bố cục trình soạn thảo thảo luận thống nhất",
+                "uniformComposerLayoutHelp": "Thay đổi kiểu dáng của các thẻ, trường tiêu đề và nội dung để phù hợp với Formulaire. Bố cục này sẽ chiếm nhiều dung lượng hơn, vì vậy bạn nên cài đặt và bật tiện ích mở rộng <a>Trang trình soạn thảo/a>.\n"
             }
         },
         "forum": {
@@ -54,6 +67,7 @@
                 },
                 "empty": "Không có biểu mẫu",
                 "load-more": "Tải thêm",
+                "search": "Tìm kiếm biễu mẫu...",
                 "new": "Biểu mẫu mới",
                 "edit": "Chỉnh sửa",
                 "show": "Hiển thị",
@@ -62,7 +76,7 @@
                     "title": "Tiêu đề",
                     "accept-submissions": "Mở",
                     "allow-modification": "Sửa đổi",
-                    "enabled": "",
+                    "enabled": "Đã bật",
                     "submissions": "Gửi",
                     "actions": "Thao tác"
                 }
@@ -110,8 +124,8 @@
                     "create": "Chỉ tạo",
                     "edit": "Chỉ chỉnh sửa",
                     "both": "Tạo và chỉnh sửa",
-                    "enabled": "",
-                    "disabled": ""
+                    "enabled": "Đã bật",
+                    "disabled": "Bản nháp"
                 },
                 "controls": "Điều khiển",
                 "template-export": "Nhập/xuất mẫu",
@@ -130,7 +144,7 @@
                 "warnings": {
                     "show-on-signup-invalid-permissions": "Bạn cần đặt quyền \"xem của chính mình\" và \"chỉnh sửa của chính mình\" cho các thành viên chưa được phê duyệt để sử dụng \"hiển thị đăng ký\".\n",
                     "show-on-composer-invalid-permissions": "Đảm bảo khớp quyền \"xem của chính mình\" và \"chỉnh sửa của chính mình\" những người có thể bắt đầu thảo luận với thẻ đã chọn để sử dụng \"hiển thị trong trình soạn thảo\". Đặt thành \"thành viên\" nếu không chắc chắn. Thông báo này có thể xuất hiện ngay cả khi cài đặt của bạn là chính xác.\n",
-                    "linked-form-is-draft": "Biểu mẫu này hiện đang ở chế độ nháp. Bật \"chấp nhận các bài gửi mới\" để các trường xuất hiện trên diễn đàn.\n",
+                    "linked-form-is-draft": "Biểu mẫu này hiện đang ở chế độ nháp. Bật trong \"Quyền truy cập\" để các trường xuất hiện trên diễn đàn.\n",
                     "auto-link-permission-warning": "Biểu mẫu có tùy chọn \"tự động tạo cuộc thảo luận\" sử dụng quyền điền chung khi được truy cập độc lập.\n"
                 },
                 "expert-mode-warning": "Chế độ chuyên gia được bật. Điều này cho phép bạn tùy chỉnh số nhận dạng trường và quyền đối với từng trường. Hãy chắc chắn rằng bạn đã đọc tài liệu về các tính năng đó, vì bạn có thể sẽ phá vỡ mọi thứ!\n",
@@ -143,13 +157,14 @@
                     "title": "Tiêu đề công khai",
                     "show-on-creation": {
                         "discussion": "Hiển thị trong trình soạn thảo",
+                        "discussionHelp": "Trình soạn thảo thảo luận Flarum không phù hợp để chứa nhiều trường. Bạn nên cài đặt và bật tiện ích mở rộng <a> Composer Page </a> để đảm bảo tất cả các trường vẫn có thể truy cập được trên tất cả các thiết bị.\n",
                         "user": "Hiển thị trong đăng ký"
                     },
                     "automatic-discussion": "Tự động tạo các cuộc thảo luận từ việc gửi biểu mẫu",
                     "automatic-discussion-help": "Khi được bật, biểu mẫu sẽ tiếp tục có thể truy cập được giống như một biểu mẫu độc lập. Nội dung gửi sẽ tự động tạo và kết nối với các cuộc thảo luận mới.\n",
                     "accept-submissions": "Chấp nhận các bài gửi mới",
                     "allow-modification": "Cho phép người dùng chỉnh sửa các nội dung gửi hiện có của họ",
-                    "enable": "",
+                    "enable": "Kích hoạt",
                     "max-submissions": "Số lần gửi tối đa (để trống không giới hạn)",
                     "send-confirmation-to-participants": "Gửi email xác nhận cho người tham gia",
                     "notify-emails": "Gửi bản sao dữ liệu tới các email được phân tách bằng dấu phẩy đó",
@@ -285,6 +300,7 @@
                 "guest": "Khách",
                 "load-more": "Tải thêm",
                 "empty": "Chưa có bản gửi nào",
+                "search": "Tìm kiếm bản gửi...",
                 "export": "Xuất",
                 "columns": {
                     "date": "Ngày",
@@ -352,8 +368,16 @@
                 }
             },
             "discussion-submission": {
-                "empty": "",
-                "edit": ""
+                "empty": "Hiện không có dữ liệu",
+                "edit": "Chỉnh sửa"
+            },
+            "discussion-composer": {
+                "field": {
+                    "tags": "Thẻ",
+                    "poll": "Cuộc thăm dò",
+                    "title": "Tiêu đề",
+                    "content": "Nội dung"
+                }
             }
         },
         "api": {
@@ -363,6 +387,7 @@
             "cannot-change-form-type": "Bạn không thể thay đổi loại biểu mẫu đã gửi hiện có",
             "unknown-form": "ID biểu mẫu không được công nhận {id}",
             "unauthorized-form": "Bạn không có quyền cần thiết để điền ID biểu mẫu {id}",
+            "unauthorized-scoped-form": "Bạn không thể điền ID biểu mẫu {id} bằng tổ hợp thẻ hiện",
             "file-already-belongs-form": "Tệp {id} thuộc biểu mẫu khác",
             "file-already-belongs-submission": "Tệp {id} thuộc về một bài gửi khác",
             "export": {
@@ -386,7 +411,8 @@
             "title-new-submission": "Bài gửi mới cho {title}",
             "edit": "Chỉnh sửa",
             "footer": "Được gửi từ {title}",
-            "sub-entries": "{count} mục"
+            "sub-entries": "{count} mục",
+            "no-answer": "Không có trả lời"
         },
         "ref": {
             "manager": "Người quản lý biểu mẫu",

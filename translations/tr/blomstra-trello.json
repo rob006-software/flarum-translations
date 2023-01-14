@@ -1,0 +1,84 @@
+{
+    "blomstra-trello": {
+        "admin": {
+            "modals": {
+                "fields": {
+                    "board": "Bir Trello panosu seçin",
+                    "trello_label": "Bir Trello etiketi seçin",
+                    "forum_tags": "Eşlemek için bir Forum etiketi seçin"
+                },
+                "no_available_labels_label": "Kullanılabilir etiket yok",
+                "no_available_tags_label": "Kullanılabilir forum etiketi yok"
+            },
+            "permissions": {
+                "add_to_trello": "Bir tartışmayı Trello'ya bağlayabilir"
+            },
+            "settings": {
+                "api_key_help": "Bu uzantının Trello ile bağlanması için {link} adresinden API anahtarını girin.",
+                "api_key_label": "API Anahtarı",
+                "api_token_help": "Bu uzantının Trello ile bağlanması için API belirtecini girin. {link} adresini ziyaret edin ve <code>Bir Jeton Oluştur</code>'u tıklayın.",
+                "api_token_label": "API Jetonu",
+                "available_boards_label": "Mevcut panolar",
+                "button": {
+                    "add": "Ekle",
+                    "remove": "Kaldır"
+                },
+                "default_board_help": "Seçilen varsayılan pano, forumdaki Trello'ya Gönder modunda önceden seçilecek olan pano olacaktır.",
+                "default_board_label": "Varsayılan pano",
+                "guest_workspace": "Misafir Çalışma Alanı",
+                "in_trello": "Trello'da",
+                "include_secondary_tags_help": "Devre dışı bırakıldığında, Trello'ya yalnızca birincil tartışma etiketleri gönderilir. Etkinleştirildiğinde, tüm etiketler Trello'ya gönderilir.",
+                "include_secondary_tags_label": "İkincil etiketleri dahil et",
+                "label": {
+                    "general": "Genel",
+                    "boards": "Pano Ayarları",
+                    "labels": "Etiket Ayarları"
+                },
+                "mapping": {
+                    "add_new": "Eşleme ekle",
+                    "mapping_description": "olacak",
+                    "modal_title": "Yeni etiket eşleme",
+                    "no_mappings_for_board": "Bu pano için atanmış etkin etiket eşlemesi yok"
+                },
+                "mappings_label": "Trello etiket eşlemelerine forum etiketleri",
+                "member_id_help": "Trello ile organizasyon panolarını getirmek için kullanılacak Trello Üye Kimliğini girin. (https://trello.com/your-trello-handle)",
+                "member_id_label": "Kullanıcı Kimliği",
+                "no_available_boards_label": "Kullanılabilir pano yok",
+                "no_label_name": "Etiket adı yok",
+                "no_selected_boards_label": "Seçili pano yok",
+                "selected_boards_label": "Seçilen panolar",
+                "save": "Değişikleri kaydet",
+                "tag": "Etiket",
+                "unmapped_warning_label": "Eşlenmemiş etiketler hakkında uyar",
+                "unmapped_warning_help": "Forum etiketleri Trello etiketleriyle eşlenmemişse Trello'ya bir tartışma gönderirken bir uyarı görüntüleyin"
+            }
+        },
+        "forum": {
+            "badges": {
+                "trello": {
+                    "tooltip": "Trello'da var"
+                }
+            },
+            "controls": {
+                "send_to_trello_button": "Trello'ya gönder",
+                "view_on_trello_button": "Trello kartını görüntüle"
+            },
+            "modals": {
+                "fields": {
+                    "board": "Bir Trello panosu seçin",
+                    "lane": "Bir Trello şeridi seçin",
+                    "member": "Bir Trello üyesi seçin",
+                    "member_selected": "{count, plural, one {# kullanıcı} other {# kullanıcılar}} seçildi"
+                },
+                "no_available_board_lanes": "Kullanılabilir pano şeridi (lane) yok",
+                "no_available_board_members": "Uygun pano üyesi yok",
+                "no_available_boards_label": "Kullanılabilir pano yok",
+                "no_mappings_for_board": "Mevcut seçili pano, forum etiketleri için ayarlanmış Trello etiket eşlemelerine sahip değil",
+                "title": "Trello'ya gönder"
+            }
+        },
+        "lib": {
+            "original_post": "Orijinal gönderi"
+        }
+    }
+}

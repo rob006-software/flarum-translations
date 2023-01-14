@@ -2,72 +2,72 @@
     "fof-terms": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Feltételek beállításai",
                 "field": {
-                    "signup-legal-text": "",
-                    "hide-updated-at": "",
-                    "date-format": "",
-                    "date-format-help": ""
+                    "signup-legal-text": "További szöveg a regisztrációs űrlapon",
+                    "hide-updated-at": "Ne jelenítse meg a feltételek frissítési dátumát ha frissítés érhető el",
+                    "date-format": "Dátumformátum",
+                    "date-format-help": "Bármilyen érvényes <a>Day.js</a> által támogatott formátumot használhat. Hagyja üresen a mezőt az alapértelmezetthez."
                 }
             },
             "titles": {
-                "policies": ""
+                "policies": "Házirendek"
             },
             "buttons": {
-                "new-policy": "",
-                "edit-policy": "",
-                "add-policy": "",
-                "save-policy": "",
-                "delete-policy": "",
-                "set-to-now": ""
+                "new-policy": "Új házirend",
+                "edit-policy": "Házirend szerkesztése",
+                "add-policy": "Házirend hozzáadása",
+                "save-policy": "Házirend mentése",
+                "delete-policy": "Házirend törlése",
+                "set-to-now": "Beállítás mostanra"
             },
             "messages": {
-                "delete-policy-confirmation": ""
+                "delete-policy-confirmation": "Ez véglegesen törli a(z) {name} házirendet és a hozzá kapcsolódó elfogadási dátumokat az adatbázisban. Győződjön meg róla, hogy biztonsági mentést készít ezekről a dátumokról, ha jogi okokból szüksége van rájuk. Biztos, hogy törli ezt a házirendet?\n"
             },
             "policies": {
-                "name": "",
-                "name-help": "",
-                "url": "",
-                "url-help": "",
-                "update-message": "",
-                "update-message-help": "",
-                "terms-updated-at": "",
-                "terms-updated-at-placeholder": "",
-                "terms-updated-at-help": "",
-                "export-url": "",
-                "export-url-help": ""
+                "name": "Név",
+                "name-help": "Ez a név fog megjelenni a jelölőmező mellett és a frissítése párbeszédablak címeként.",
+                "url": "Webcím",
+                "url-help": "Az oldal webcíme, ahol a feltételek elolvashatók. Kattintásra új lapot nyit.",
+                "update-message": "Frissítési üzenet",
+                "update-message-help": "Azon meglévő felhasználóknak megjelenítendő üzenet, akik még nem fogadták el a legfrissebb feltételeket.",
+                "terms-updated-at": "Frissítve:",
+                "terms-updated-at-placeholder": "YYYY. MM. DD. (hh:mm:ss)",
+                "terms-updated-at-help": "A feltételek legutóbbi frissítésének dátuma. Az érték beállítást azt eredményezi, hogy azon felhasználóknak, akik ez előtt fogadták el a féltételeket, újra el kell fogadniuk azokat. Múltbeli dátum kell, hogy legyen (különben a felhasználók nem tudnák a dátum után elfogadni, és így átlépni a párbeszédablakon).\n",
+                "export-url": "Exportálási webcím",
+                "export-url-help": "Minden „Összes házirendadat exportálása” jogosultsággal rendelkező felhasználói elérheti ezeket a webcímeket, hogy letöltse a házirendet elfogadó felhasználók listáját. Többet részletet tudhat meg az elérhető lehetőségekről a <a>bővítmény wikijén</a>.\n"
             },
             "permissions": {
-                "see-user-policies-state": "",
-                "postpone-policies-accept": "",
-                "export-policies": ""
+                "see-user-policies-state": "Megtekintheti a felhasználói házirendek állapotát",
+                "postpone-policies-accept": "Késleltetheti az új feltételek elfogadását",
+                "export-policies": "Összes felhasználói és házirendadat exportálása"
             }
         },
         "forum": {
             "signup": {
-                "i-accept": "",
-                "must-accept": ""
+                "i-accept": "Elfogadom a következőt: <a>{policy}</a>",
+                "must-accept": "El kell fogadnia a következőt: {policy}."
             },
             "accept-modal": {
-                "title": "",
-                "updated-at": "",
-                "updated-recently": "",
-                "i-accept": "",
-                "accept": "",
-                "close": ""
+                "title": "Felhasználási feltételek frissítése",
+                "updated-at": "A feltételek ekkor frissültek: {date}",
+                "updated-recently": "A feltételek frissültek a legutóbbi látogatása óta",
+                "i-accept": "Elfogadom az új házirendet: <a>{policy}</a>",
+                "accept": "Megerősítés",
+                "close": "Köszönjük hogy elfogadta, most visszatérhet a fórumhoz"
             },
             "state-modal": {
-                "title": "",
-                "accepted-at": "",
-                "not-accepted": ""
+                "title": "{username} feltételelfogadási állapota",
+                "accepted-at": "Elfogadva: {date}",
+                "not-accepted": "Nincs elfogadva"
             },
             "update-alert": {
-                "must-accept-message": "",
-                "can-accept-message": "",
-                "review": ""
+                "must-accept-message": "Ideiglenesen korlátoztuk a hozzáférését a fiókjához, amíg nem nézi meg az új feltételeket.",
+                "can-accept-message": "Nemrég frissítettük a feltételeket. A weboldal használatához el kell fogadnia őket.",
+                "review": "Kattintson ide az új feltételek áttekintéséhez és elfogadásához"
             },
             "user_controls": {
-                "state_button": ""
+                "state_button": "Feltételek elfogadási állapota"
             }
         }
     }

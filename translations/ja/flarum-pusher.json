@@ -11,7 +11,7 @@
         },
         "forum": {
             "discussion_list": {
-                "show_updates_text": "{count} つの新しいディスカッションがあります|{count} つの新しいディスカッションがあります"
+                "show_updates_text": "{count, plural, one {更新された # 件のスレッドを表示} other {更新された # 件のスレッドを表示}}"
             }
         }
     }

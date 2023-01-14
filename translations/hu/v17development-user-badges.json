@@ -97,8 +97,8 @@
                 "category": "Jelvény kategóriája",
                 "received_on": "Megszerezve: {date}",
                 "badge_details": "Jelvény részletei",
-                "earned_count": "<b>{count} felhasználó</b> érdemelte ki ezt a jelvényt",
-                "earned_by_count": "<b>{count} felhasználó</b> érdemelte ki",
+                "earned_count": "<b>{count, plural, one {#} other {#}} felhasználó</b> érdemelte ki ezt a jelvényt",
+                "earned_by_count": "<b>{count, plural, one {#} other {#}} felhasználó</b> érdemelte ki",
                 "others_link": "+ {count} további"
             },
             "badges_in_card": {

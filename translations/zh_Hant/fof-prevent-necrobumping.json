@@ -1,0 +1,26 @@
+{
+    "fof-prevent-necrobumping": {
+        "forum": {
+            "composer": {
+                "warning": {
+                    "title": "這篇貼文已經超過 <b>{time}</b>沒有討論。",
+                    "description": "它可能不需要更多的討論，因此沒有必要再進行回覆。",
+                    "checkbox_label": "我了解這篇貼文已經相當陳舊但確定要回覆。",
+                    "error": "這篇貼文太舊了，禁止回覆。"
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "days_label": "天数",
+                "days_help": "如果貼文最後一次回覆時間距今已經超過限定天數，則這篇貼文將被標記為舊貼。<code>0</code> 表示停用。",
+                "message_title_label": "自定義訊息標題",
+                "message_title_help": "使用 <code>[time]</code> 來代替時間，例如「14 天」。",
+                "message_description_label": "自定義訊息說明",
+                "message_agreement_label": "自定義訊息協定（復選框）",
+                "tags_title": "節點",
+                "tags_help": "為指定節點複寫全域天數。置空表示使用預設值。如果貼文擁有多個不同天數的節點，將會使用最小的那一個。"
+            }
+        }
+    }
+}

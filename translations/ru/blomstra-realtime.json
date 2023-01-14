@@ -6,8 +6,19 @@
                 "discussion-list-new-activity-with-auto-release": ""
             },
             "typing-indicator": {
+                "anonymous-user": "",
                 "people-are-typing": "",
+                "users-are-typing": "",
                 "no-activity": "Никто не печатает"
+            },
+            "user": {
+                "settings": {
+                    "heading": "",
+                    "typing-indicator-type": {
+                        "help": "",
+                        "label": ""
+                    }
+                }
             }
         },
         "admin": {
@@ -15,8 +26,12 @@
                 "view-who-types": "Посмотреть, кто печатает"
             },
             "settings": {
+                "release-discussion-updates": "",
+                "release-discussion-updates-help": "",
                 "release-discussion-updates-interval": "",
-                "release-discussion-updates-interval-help": ""
+                "release-discussion-updates-interval-help": "",
+                "typing-indicator": "",
+                "typing-indicator-help": ""
             }
         }
     }

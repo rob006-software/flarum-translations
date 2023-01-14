@@ -2,55 +2,55 @@
     "clarkwinkelmann-anonymous-posting": {
         "admin": {
             "settings": {
-                "composerHelpTextPosition": "",
-                "composerHelpTextPositionVisible": "",
-                "composerHelpTextPositionTooltip": "",
-                "composerHelpTextPositionHidden": "",
-                "avatars": "",
-                "avatarsHelp": "",
-                "avatarFormId": "",
-                "avatarFieldKey": "",
-                "avatarFieldValue": "",
-                "avatarAvatarUrl": "",
-                "avatarAdd": ""
+                "composerHelpTextPosition": "文本编辑器提示方式",
+                "composerHelpTextPositionVisible": "独行",
+                "composerHelpTextPositionTooltip": "图标",
+                "composerHelpTextPositionHidden": "不提示",
+                "avatars": "匿名用户头像",
+                "avatarsHelp": "此功能需要付费的 <a>Formulaire 扩展程序</a>。此功能使用独立的数据库存储发帖数据，因此会带来轻微的性能影响。此项的详细设置说明，请查阅自述文档。\n",
+                "avatarFormId": "表单 ID",
+                "avatarFieldKey": "字段名",
+                "avatarFieldValue": "字段值",
+                "avatarAvatarUrl": "头像 URL",
+                "avatarAdd": "添加头像规则"
             },
             "permissions": {
-                "use": "",
-                "reveal": "",
-                "moderate": ""
+                "use": "匿名发布",
+                "reveal": "查看匿名内容发布者",
+                "moderate": "匿名或取消匿名任一内容"
             }
         },
         "forum": {
             "composerControls": {
-                "anonymize": "",
-                "anonymizeHelp": ""
+                "anonymize": "匿名发布",
+                "anonymizeHelp": "管理员仍能知道发布者"
             },
             "discussionControls": {
-                "anonymize": "",
-                "anonymizeConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "anonymize": "匿名",
+                "anonymizeConfirmation": "确定要匿名此主题吗？如需匿名一楼，请另外操作。",
+                "deanonymize": "取消匿名",
+                "deanonymizeConfirmation": "确定要公开此主题的作者吗？"
             },
             "postControls": {
-                "anonymize": "",
-                "firstPostConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "anonymize": "匿名",
+                "firstPostConfirmation": "确定要匿名一楼吗？如需匿名主题，请另外操作。",
+                "deanonymize": "取消匿名",
+                "deanonymizeConfirmation": "确定要公开此帖的作者吗？"
             },
             "discussionList": {
-                "genericReplyText": ""
+                "genericReplyText": "回复于 {ago}"
             },
             "postPrivacy": {
-                "mine": "",
-                "mineHelp": "",
-                "profile": "",
-                "profileHelp": ""
+                "mine": "我",
+                "mineHelp": "此内容他人不可见",
+                "profile": "仅自己可见",
+                "profileHelp": "他人无法在个人主页看见您的匿名回复"
             }
         },
         "lib": {
             "userMeta": {
-                "initials": "",
-                "username": ""
+                "initials": "?",
+                "username": "匿名用户"
             }
         }
     }

@@ -1,0 +1,43 @@
+{
+    "clarkwinkelmann-post-stream-search": {
+        "admin": {
+            "settings": {
+                "dropdownAccess": "Tartışma açılır menüsünden erişim",
+                "dropdownAccessHelp": "Araç çubuğu devre dışı bırakılırsa yalnızca klavye kısayolu veya aşağıdaki diğer etkin kısayollardan herhangi biri aracılığıyla kullanılabilir.",
+                "authorQuickFilter": "Gönderi yazarı için hızlı filtre",
+                "authorQuickFilterHelp": "Bu kullanıcıya göre filtrelemek için her gönderi açılır menüsüne bir kısayol eklenecektir.",
+                "originalPosterBadge": "Etkileşimli OP rozetini göster",
+                "originalPosterBadgeHelp": "OP tarafından gönderilen gönderilerin yanına bir rozet eklenecektir. Rozete tıklamak, o kullanıcı için otomatik olarak filtre uygular."
+            }
+        },
+        "forum": {
+            "stream": {
+                "noResults": "Bu tartışmada arama sorgusuyla eşleşen gönderi yok",
+                "unmatchedGap": "{count, plural, one {Eşleşmeyen bir gönderi gizlendi} other {{count} eşleşmeyen gönderi gizlendi}}",
+                "otherAuthorsGap": "{count, plural, one {Başka bir yazarın bir gönderisi gizlendi} other {Diğer yazarların {count} gönderisi gizlendi}}"
+            },
+            "toolbar": {
+                "searchPlaceholder": "Tartışmada bul...",
+                "authorPlaceholder": "Yazara göre filtrele...",
+                "summary": "{total} eşleştirmeden {matching}",
+                "pin": "Tartışmalarda her zaman filtre araç çubuğunu aç",
+                "close": "Filtreleri temizle ve araç çubuğunu kapat",
+                "clear": "Filtreleri temizle"
+            },
+            "discussionControls": {
+                "searchInDiscussion": "Tartışmada ara"
+            },
+            "postControls": {
+                "authorFilter": "Yalnızca bu yazarın yanıtlarını göster"
+            },
+            "post": {
+                "opBadge": "Tartışma başlatıcı",
+                "opBadgeTooltip": "Yalnızca bu kullanıcıdan gelen yanıtları göstermek için tıklayın"
+            },
+            "cannotGoToPost": {
+                "message": "Gönderiye gidemem",
+                "action": "Filtreleri temizlemeyi deneyin"
+            }
+        }
+    }
+}

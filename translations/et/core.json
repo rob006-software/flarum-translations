@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Värviline päis",
                 "colors_heading": "Värvid",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "colors_text": "Vali kaks värvi oma foorumi kujundamiseks. Esimest kasutatakse esiletoodud elementides, teist taustaelementides.",
                 "custom_footer_heading": "Kohandatud jalus",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -44,8 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "Puhasta vahemälu",
                 "description": "Foorumi ülevaade.",
+                "io_error_message": "",
                 "title": "Juhtpaneel",
                 "tools_button": "Tööriistad"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "Kohanda oma foorumi välimust enda Less/CSS koodi abil, mida kasutatakse lisaks Flarumi <a>vaikimisi stiilidele</a>.",
@@ -121,9 +128,7 @@
                     "button_label": "",
                     "no_readme": "",
                     "title": ""
-                },
-                "confirm_uninstall": "Laienduse eemaldamine kustutab kõik selle laienduse andmebaasi kirjed. Oled kindel, et soovid jätkata?",
-                "uninstall_button": "Eemalda"
+                }
             },
             "header": {
                 "get_help": "Abi",
@@ -306,8 +311,7 @@
                 "replied_text": "{username} vastas {ago}",
                 "started_text": "{username} alustas {ago}",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
-                "mark_as_read_tooltip": "Märgi loetuks"
+                "unread_replies_a11y_label": ""
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -361,6 +365,8 @@
                 "username_or_email_placeholder": "Kasutajanimi või meiliaadress"
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "{username} muutis pealkirja",
                 "empty_text": "Teateid pole",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
@@ -409,6 +415,7 @@
                 "account_heading": "Konto",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Veeb",
@@ -575,10 +582,6 @@
                 "new_password_label": "Uus parool",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
             }
         },
         "api": {

@@ -1,0 +1,37 @@
+{
+    "flarum-statistics": {
+        "admin": {
+            "date_selection_modal": {
+                "description": "Оберіть власний діапазон дат для показу статистики. Завантаження даних може зайняти\nкілька хвилин на форумах з великою активністю.\n",
+                "end_date": "Дата закінчення (включно)",
+                "errors": {
+                    "end_before_start": "Дата закінчення повинна бути після дати початку."
+                },
+                "start_date": "Дата початку (включно)",
+                "submit_button": "Підтвердити діапазон дат",
+                "title": "Оберіть власний діапазон дат"
+            },
+            "statistics": {
+                "discussions_heading": "=> core.ref.discussions",
+                "export_chart_button": "Експорт діаграми в SVG",
+                "last_12_months_label": "Останні 12 місяців",
+                "last_28_days_label": "Останні 28 днів",
+                "last_7_days_label": "Останні 7 днів",
+                "mini_heading": "Статистика форуму",
+                "previous_28_days_label": "Попередні 28 днів",
+                "previous_7_days_label": "Попередні 7 днів",
+                "custom_label": "Оберіть власний діапазон...",
+                "custom_label_specified": "{fromDate} по {toDate}",
+                "loading": "=> core.ref.loading",
+                "posts_heading": "=> core.ref.posts",
+                "today_label": "Сьогодні",
+                "total_label": "Взагалі",
+                "users_heading": "=> core.ref.users",
+                "view_full": "Переглянути більше статистики",
+                "no_data": "Дані за цей період відсутні.",
+                "current_period": "Поточний період",
+                "previous_period": "Попередній період"
+            }
+        }
+    }
+}

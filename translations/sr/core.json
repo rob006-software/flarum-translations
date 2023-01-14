@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Zaglavlje u boji",
                 "colors_heading": "Boje",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "colors_text": "Izaberite dve boje za temu Vašeg foruma. Prva će se koristiti kao istaknuta boja, dok će se druga koristiti za oblikovanje elemenata pozadine.",
                 "custom_footer_heading": "Prilagođeno podnožje",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -44,8 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "Obriši keš",
                 "description": "Pogled na statistiku foruma.",
+                "io_error_message": "",
                 "title": "Kontrolna tabla",
                 "tools_button": "Alati"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "Prilagodite izgled svog foruma dodavanjem sopstvenog Less/CSS koda koji će se primeniti povrh Flarumovih <a>podrazumevanih stilova</a>.",
@@ -121,9 +128,7 @@
                     "button_label": "Saznaj više",
                     "no_readme": "Izgleda da ova ekstenzija nema više informacija",
                     "title": "{extName} dokumentacija"
-                },
-                "confirm_uninstall": "Deinstaliranjem će se ukloniti svi unosi baze podataka i sredstva vezana za ekstenziju. Da li ste sigurni da želite da nastavite?",
-                "uninstall_button": "Deinstaliraj"
+                }
             },
             "header": {
                 "get_help": "Pomoć",
@@ -306,8 +311,7 @@
                 "replied_text": "{username} je odgovorio/la {ago}",
                 "started_text": "{username} je započeo/la diskusiju {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# odgovor} other {# odgovora}}",
-                "unread_replies_a11y_label": "{count, plural, one {# nepročitan odgovor} other {# nepročitanih odgovora}}. Označi {count, plural, one {reply} other {replies}} kao pročitano.",
-                "mark_as_read_tooltip": "Označi kao pročitano"
+                "unread_replies_a11y_label": "{count, plural, one {# nepročitan odgovor} other {# nepročitanih odgovora}}. Označi {count, plural, one {reply} other {replies}} kao pročitano."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -361,6 +365,8 @@
                 "username_or_email_placeholder": "Korisničko ime ili Email"
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "{username} je promenio/la naslov diskusije",
                 "empty_text": "Nema obaveštenja",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
@@ -409,6 +415,7 @@
                 "account_heading": "Nalog",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",

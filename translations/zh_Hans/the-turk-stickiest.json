@@ -8,8 +8,8 @@
             "settings": {
                 "badge_icon_label": "超级置顶图标",
                 "badge_icon_text": "=> core.ref.icon_text",
-                "display_tag_sticky_label": "",
-                "display_tag_sticky_text": ""
+                "display_tag_sticky_label": "在「全部主题」显示标签置顶",
+                "display_tag_sticky_text": "他们将被视为常规主题帖，不会始终置顶在顶部。"
             }
         },
         "forum": {
@@ -17,21 +17,21 @@
                 "sticky_tooltip": "=> the-turk-stickiest.ref.sticky",
                 "super_sticky_tooltip": "=> the-turk-stickiest.ref.super_sticky",
                 "tag_sticky_tooltip": "=> the-turk-stickiest.ref.tag_sticky",
-                "super_tag_sticky_tooltip": ""
+                "super_tag_sticky_tooltip": "=> the-turk-stickiest.ref.super_tag_sticky"
             },
             "stickiest_modal": {
-                "title": "",
-                "sticky_label": "",
-                "sticky_text": "",
-                "super_sticky_label": "",
-                "super_sticky_text": "",
-                "tag_sticky_label": "",
-                "tag_sticky_text": "",
-                "tags_label": "",
-                "submit_button": ""
+                "title": "置顶 {title}",
+                "sticky_label": "=> flarum-sticky.ref.sticky",
+                "sticky_text": "未读的置顶主题将置顶在「全部主题」列表顶部。查看具体的标签页时，旗下的置顶帖将始终置顶在顶部。",
+                "super_sticky_label": "=> the-turk-stickiest.ref.super_sticky",
+                "super_sticky_text": "超级置顶的主题在任何情况下都会置顶在顶部。",
+                "tag_sticky_label": "=> the-turk-stickiest.ref.tag_sticky",
+                "tag_sticky_text": "指定标签内的置顶主题仅在标签页置顶，不会在「全部主题」列表置顶。此项可与「超级置顶」结合使用。",
+                "tags_label": "=> flarum-tags.ref.tags",
+                "submit_button": "=> core.ref.save_changes"
             },
             "discussion_controls": {
-                "sticky_button": "=> the-turk-stickiest.ref.sticky",
+                "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button",
                 "unsticky_button": "=> flarum-sticky.forum.discussion_controls.unsticky_button",
                 "super_sticky_button": "=> the-turk-stickiest.ref.super_sticky",
                 "common_sticky_button": "常规置顶",
@@ -49,7 +49,7 @@
             "sticky": "=> flarum-sticky.ref.sticky",
             "super_sticky": "超级置顶",
             "tag_sticky": "标签内置顶",
-            "super_tag_sticky": ""
+            "super_tag_sticky": "超级标签置顶"
         }
     }
 }

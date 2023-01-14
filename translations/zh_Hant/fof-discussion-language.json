@@ -1,0 +1,45 @@
+{
+    "fof-discussion-language": {
+        "forum": {
+            "change_language": {
+                "edit_title": "更改「{title}」的語言",
+                "title": "更改語言",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "composer_discussion": {
+                "choose_language_link": "語言"
+            },
+            "discussion_controls": {
+                "change_language_button": "設定語言"
+            },
+            "index_language": {
+                "any": "任意語言"
+            }
+        },
+        "admin": {
+            "settings": {
+                "native_label": "使用原生語言名稱",
+                "show_flag_label": "在國旗後顯示語言名稱",
+                "composer_default_label": "在文本編輯器中預選當前語言",
+                "locale_sort_label": "將用戶語言環境設為默認篩選",
+                "show_any_lang_opt_label": "顯示篩選按鈕「所有語言」",
+                "tags_page_discussion_locale_label": "標簽頁只顯示用戶語言的主題帖",
+                "errors": {
+                    "missing_assets": "無法載入此擴展的資源。請運行 <code>php flarum assets:publish</code> 嘗試修覆此問題。"
+                },
+                "config": {
+                    "language_label": "語言",
+                    "country_label": "國家（用於展示國旗）"
+                }
+            },
+            "permissions": {
+                "allow_change_language_label": "允許更改語言"
+            }
+        },
+        "api": {
+            "discussion": {
+                "validation_error": "您必須為貼文設定語言。"
+            }
+        }
+    }
+}

@@ -55,7 +55,7 @@
             "choose_tags": {
                 "bypass_requirements": "Címke követelményeinek megkerülése",
                 "choose_primary_placeholder": "{count, plural, one {Válasszon egy elsődleges címkét} other {Válasszon # elsődleges címkét}}",
-                "choose_secondary_placeholder": "Válasszon {count} további címkét",
+                "choose_secondary_placeholder": "Válasszon {count, plural, one {1} other {#}} további címkét",
                 "edit_title": "A(z) {title} címkéinek szerkesztése",
                 "submit_button": "=> core.ref.okay",
                 "title": "Válasszon címkéket a témájához"
@@ -78,7 +78,7 @@
                 "added_and_removed_tags_text": "{username} hozzáadta: {tagsAdded} és eltávolította: {tagsRemoved}.",
                 "added_tags_text": "{username} hozzáadta: {tagsAdded}.",
                 "removed_tags_text": "{username} eltávolította: {tagsRemoved}.",
-                "tags_text": "{tags} címke"
+                "tags_text": "{count, plural, one {{tags} címke} other {{tags} címke}}"
             },
             "tag": {
                 "meta_description_text": "Az összes téma a(z) {tag} címkével"

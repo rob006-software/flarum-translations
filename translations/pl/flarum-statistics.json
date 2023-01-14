@@ -1,21 +1,36 @@
 {
     "flarum-statistics": {
         "admin": {
+            "date_selection_modal": {
+                "description": "Wybierz niestandardowy zakres dat, dla którego wyświetlić statystyki.\nWczytanie danych może zająć nawet kilka minut dla bardzo aktywnego forum.\n",
+                "end_date": "Data końcowa (włącznie)",
+                "errors": {
+                    "end_before_start": "Data końcowa musi być późniejsza niż data początkowa."
+                },
+                "start_date": "Data początkowa (włącznie)",
+                "submit_button": "Potwierdź zakres dat",
+                "title": "Wybierz niestandardowy zakres dat"
+            },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
+                "export_chart_button": "Wyeksportuj wykres do SVG",
                 "last_12_months_label": "Ostatnie 12 miesięcy",
                 "last_28_days_label": "Ostatnie 28 dni",
                 "last_7_days_label": "Ostatnie 7 dni",
                 "mini_heading": "Statystyki forum",
                 "previous_28_days_label": "Poprzednie 28 dni",
                 "previous_7_days_label": "Poprzednie 7 dni",
+                "custom_label": "Zmień niestandardowy zakres…",
+                "custom_label_specified": "Od {fromDate} do {toDate}",
                 "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "Dzisiaj",
                 "total_label": "Razem",
                 "users_heading": "=> core.ref.users",
                 "view_full": "Zobacz więcej statystyk",
-                "active_users_text": "{count} aktywnych"
+                "no_data": "Brak danych dla tego zakresu.",
+                "current_period": "Obecny okres",
+                "previous_period": "Poprzedni okres"
             }
         }
     }

@@ -1,0 +1,55 @@
+{
+    "fof-polls": {
+        "admin": {
+            "settings": {
+                "allow_option_image": "Дозволити вказувати URL-адресу зображення для кожного варіанту опитування"
+            },
+            "permissions": {
+                "view_results_without_voting": "Перегляд результатів без голосування",
+                "start": "Почніть опитування",
+                "self_edit": "Дозволити користувачам редагувати власні опитування",
+                "vote": "Голосування в опитуваннях",
+                "change_vote": "Змінити голос",
+                "moderate": "Редагувати та видаляти опитування"
+            }
+        },
+        "forum": {
+            "days_remaining": "Опитування закінчується {time}.",
+            "no_permission": "Ви не маєте права голосу",
+            "poll_ended": "Опитування завершено.",
+            "public_poll": "Переглянути тих хто проголосував",
+            "composer_discussion": {
+                "add_poll": "Додати опитування",
+                "edit_poll": "=> fof-polls.forum.moderation.edit"
+            },
+            "modal": {
+                "add_title": "Додати опитування",
+                "add_option_label": "Додати опцію",
+                "date_placeholder": "Дата закінчення опитування (необов'язково)",
+                "edit_title": "Редагувати опитування",
+                "include_question": "Ви повинні включити питання",
+                "max": "Ви можете мати максимум 10 відповідей",
+                "min": "Ви повинні вказати мінімум 2 відповіді",
+                "no_voters": "Немає голосів",
+                "option_placeholder": "Відповідь",
+                "image_option_placeholder": "URL-адреса зображення (необов'язково)",
+                "options_label": "Відповіді",
+                "public_poll_label": "Дозвольте людям бачити, хто проголосував",
+                "question_placeholder": "Питання",
+                "submit": "Відправити"
+            },
+            "moderation": {
+                "delete": "Видалити опитування",
+                "delete_confirm": "Ви дійсно бажаєте видалити це опитування?",
+                "edit": "Редагувати опитування"
+            },
+            "tooltip": {
+                "badge": "Опитування",
+                "votes": "{count, plural, one {# голос} other {# голосів}}"
+            },
+            "votes_modal": {
+                "title": "Хто проголосував"
+            }
+        }
+    }
+}

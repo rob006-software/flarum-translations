@@ -2,54 +2,54 @@
     "askvortsov-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "Kategoriat"
             },
             "labels": {
-                "keep_tags_nav": "",
-                "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "keep_tags_nav": "Pidä avainsanat sivun linkki sivuvalikossa?",
+                "child_bare_icon": "Paljaat ala ikonit?",
+                "compact_mobile_mode": "Kompakti mobiili tila",
+                "full_page_desktop": "Täyden sivun työpöytä?",
+                "parent_remove_icon": "Piilota ikonit päätason avainsanoille?",
+                "parent_remove_description": "Piilota kuvaukset päätason avainsanoille?",
+                "parent_remove_stats": "Piilota tilastot päätason avainsanoille?",
+                "parent_remove_last_discussion": "Piilota viimeisimmät keskustelut päätason avainsanoille?",
+                "small_forum_optimized": "Optimoi pienemmille foorumeille?"
             },
             "help": {
-                "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "child_bare_icon": "Pitäisikö alakategorioiden ikonit näyttää ilman pyöreää taustaa?",
+                "full_page_desktop": "Pitäisikö sivupalkin valikon pienentyä riviksi (kuten perinteinen avainsana sivu)? Tämä piilottaa myös vimpaimet (kuten Friends of Flarum Forum Statistics) kategoria sivun valikosta.",
+                "small_forum_optimized": "Tämä antaa tarkemman keskustelu/viesti määrän, mutta hidastaa keskikokoisia ja suuria foorumeita huomattavasti."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "Valikko",
+                "layout": "Ulkoasu",
+                "parent_display": "Päätason kategorian näyttö",
+                "child_display": "Alatason kategorian näyttö",
+                "performance": "Suorituskyky"
             },
-            "title": ""
+            "title": "Kategorioiden asetukset"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Kaikki kategoriat",
+                "meta_title_text": "=> askvortsov-categories.ref.categories"
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Takaisin kategorioihin"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> askvortsov-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Keskustelut",
+                "post_label": "Viestit"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "Ei keskusteluita (Vielä!)"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Kategoriat"
         }
     }
 }

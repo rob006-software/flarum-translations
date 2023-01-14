@@ -1,0 +1,29 @@
+{
+    "nearata-auth-minecraft": {
+        "admin": {
+            "settings": {
+                "minecraft_server": {
+                    "label": "Minecraft 伺服器 IP",
+                    "help": "示例：mydomain.tld"
+                },
+                "api_url": {
+                    "label": "API URL",
+                    "help": "示例：http://localhost:4567/verify"
+                },
+                "api_secret": {
+                    "label": "API Secret",
+                    "help": "可以在 <strong>Plugins/OAuth/config.json</strong> 中找到"
+                }
+            }
+        },
+        "forum": {
+            "login_error": "會話未開始或已過期。",
+            "log_in_modal": {
+                "submit_button": "驗証",
+                "title": "Minecraft 帳號登入"
+            },
+            "log_in_button_title": "Minecraft 帳號登入",
+            "modal_help": "加入服務器 <strong>{server}</strong> 然後點擊下面的按鈕。"
+        }
+    }
+}

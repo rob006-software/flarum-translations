@@ -1,23 +1,23 @@
 {
     "sycho-profile-cover": {
         "admin": {
-            "thumbnails": "",
-            "max_size": "",
+            "thumbnails": "Luo pikkukuvat",
+            "max_size": "Profiilin taustakuvan maksimikoko (KB)",
             "permission": {
-                "set_cover": ""
+                "set_cover": "Määritä profiilin taustakuva"
             }
         },
         "forum": {
-            "cover": "",
-            "edit_cover": "",
-            "notice": "",
+            "cover": "Taustakuva",
+            "edit_cover": "Muokkaa taustakuvaa",
+            "notice": "Maksimi koko: {size}",
             "added": {
-                "success": "",
-                "error": ""
+                "success": "Profiilin tausta päivitetty.",
+                "error": "Kuvaa ei voitu siirtää."
             },
             "removed": {
-                "success": "",
-                "error": ""
+                "success": "Profiilin tausta poistettu.",
+                "error": "Profiilin taustaa ei voitu poistaa, yritä uudelleen myöhemmin."
             }
         }
     }

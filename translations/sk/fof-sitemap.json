@@ -2,7 +2,7 @@
     "fof-sitemap": {
         "admin": {
             "settings": {
-                "exclude_users": "",
+                "exclude_users": "Vynechať všetky používateľské profily z mapy stránok",
                 "exclude_users_help": "",
                 "mode_label": "",
                 "mode_help": "",
@@ -19,18 +19,13 @@
                 "risky_performance_improvements_help": "",
                 "modes": {
                     "runtime": "",
-                    "multi_file": "",
-                    "cache": "",
-                    "cache_disk": ""
+                    "multi_file": ""
                 },
                 "frequency": {
                     "hourly": "",
                     "twice_daily": "",
                     "daily": ""
-                },
-                "mode_help_cache_disk_label": "",
-                "mode_help_cache_disk": "",
-                "title": ""
+                }
             }
         }
     }

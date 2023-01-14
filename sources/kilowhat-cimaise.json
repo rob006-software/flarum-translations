@@ -1,0 +1,208 @@
+{
+    "kilowhat-cimaise": {
+        "forum": {
+            "nav": {
+                "albums": "=> kilowhat-cimaise.ref.albums",
+                "pictures": "=> kilowhat-cimaise.ref.pictures",
+                "user-pictures": "=> kilowhat-cimaise.ref.pictures"
+            },
+            "album-list": {
+                "title": "=> kilowhat-cimaise.ref.albums",
+                "new": "Create new album",
+                "empty": "No albums",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
+            },
+            "picture-list": {
+                "title": "All pictures",
+                "empty": "No pictures",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
+            },
+            "album-show": {
+                "upload": "Upload picture",
+                "empty": "No pictures",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "personal": "Personal album by <a>{username}</a>",
+                "community": "Community album",
+                "discussion": "Go to discussion"
+            },
+            "picture-show": {
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "back-album": "Back to Album",
+                "download": "Download",
+                "previous": "Previous picture",
+                "next": "Next picture",
+                "download-cropped": "Cropped {size}",
+                "download-original": "Download original",
+                "show-exif": "All EXIF data",
+                "taken-at": "Taken {ago}",
+                "published-at": "Published {ago}"
+            },
+            "upload-modal": {
+                "title": "Upload pictures in album \"{title}\"",
+                "titleInComposer": "Edit pictures",
+                "uploading": "Uploading",
+                "processing": "Processing",
+                "select-file": "Select a file",
+                "drop-file": "or drag and drop here",
+                "publishSilently": "Publish silently",
+                "submit": "Submit",
+                "submitInComposer": "Continue"
+            },
+            "new-album-modal": {
+                "title": "New Album"
+            },
+            "edit-album-modal": {
+                "title": "Edit Album \"{title}\""
+            },
+            "attach-album-modal": {
+                "title": "Attach album to \"{title}\"",
+                "selected": "Selected:",
+                "none-selected": "None",
+                "search": "Search",
+                "no-results": "No results",
+                "select": "Select",
+                "unselect": "Unselect",
+                "submit": "Submit"
+            },
+            "edit-album": {
+                "title": "Title",
+                "description": "Description",
+                "isCommunity": "Community album (everyone can contribute)",
+                "create": "Create Album",
+                "save": "Save Album"
+            },
+            "edit-picture": {
+                "title": "Title",
+                "description": "Description"
+            },
+            "album-thumbnail": {
+                "controls": "=> kilowhat-cimaise.ref.controls",
+                "edit": "Edit",
+                "restore": "=> kilowhat-cimaise.ref.restore",
+                "hide": "=> kilowhat-cimaise.ref.hide",
+                "delete": "=> kilowhat-cimaise.ref.delete",
+                "delete-confirmation": "Delete Album \"{title}\"?",
+                "by-user": "=> kilowhat-cimaise.ref.by-user"
+            },
+            "picture-thumbnail": {
+                "by-user": "=> kilowhat-cimaise.ref.by-user",
+                "in-album": "In"
+            },
+            "picture-controls": {
+                "controls": "=> kilowhat-cimaise.ref.controls",
+                "editor": "Edit crop & mask",
+                "approve": "Approve",
+                "remove-favorite": "Remove Favorite",
+                "set-favorite": "Add as Favorite",
+                "restore": "=> kilowhat-cimaise.ref.restore",
+                "hide": "=> kilowhat-cimaise.ref.hide",
+                "delete": "=> kilowhat-cimaise.ref.delete",
+                "delete-confirmation": "Delete Picture \"{title}\"?"
+            },
+            "editable-attribute": {
+                "title": "Click to add title",
+                "description": "Click to add description",
+                "author": "Click to add author"
+            },
+            "badge": {
+                "hidden": "Hidden",
+                "awaiting-approval": "Awaiting Approval",
+                "favorite": "Favorite"
+            },
+            "picture-sort": {
+                "latest": "Latest upload",
+                "oldest": "Oldest upload",
+                "latestTake": "Latest take",
+                "oldestTake": "Oldest take"
+            },
+            "album-search": {
+                "title": "=> kilowhat-cimaise.ref.albums"
+            },
+            "post-stream": {
+                "uploaded": "{username} uploaded {count} pictures"
+            },
+            "discussion-controls": {
+                "attach-album": "Attach or detach album"
+            },
+            "license-label": {
+                "not-specified": "Not specified",
+                "not-specified-help": "Check site terms of use for default copyright"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view": "View",
+                "viewExif": "View Exif data (including geolocation)",
+                "createPersonalAlbums": "Create personal albums",
+                "createCommunityAlbums": "Create community albums",
+                "editOwnAlbum": "Change title and description of own album",
+                "hideOwnAlbum": "Hide own album",
+                "uploadPictures": "Upload Pictures",
+                "uploadPersonalPicturesWithoutApproval": "Upload pictures without approval in personal albums",
+                "uploadCommunityPicturesWithoutApproval": "Upload pictures without approval in community albums",
+                "editOwnImage": "Use image editor on own picture (crop, mask and stickers)",
+                "editOwnPublishedImage": "Use image editor on own picture once published",
+                "licenseOwnPublishedPicture": "Change license of own picture once published",
+                "renameOwnPublishedPicture": "Change title and description of own picture once published",
+                "hideOwnPicture": "Hide own picture",
+                "publishSilently": "Publish pictures silently (without event posts)",
+                "attachCimaiseAlbum": "Manually attach albums to discussions",
+                "moderate": "Moderate"
+            },
+            "settings": {
+                "watermarkFile": "Watermark image",
+                "watermarkFileHelp": "The provided image will be applied 1:1 on top of every upload except the smallest previews.",
+                "watermarkPlacement": "Watermark placement",
+                "watermarkPlacementOptions": {
+                    "topLeft": "Top left",
+                    "bottomLeft": "Bottom left",
+                    "topRight": "Top right",
+                    "bottomRight": "Bottom right"
+                },
+                "autoCreateDiscussionAlbum": "Automatically create an album for every new discussion",
+                "autoCreateDiscussionAlbumHelp": "Automatically create a new album with the same title as the discussion and author as owner. This feature bypasses the album creation permission and applies in all tags.\n",
+                "neverSyncDiscussionAlbumTitles": "Never synchronise discussion and album titles",
+                "neverSyncDiscussionAlbumTitlesHelp": "By default linked albums that have the exact same title as the discussion will be renamed when the discussion title changes. If the album is manually renamed, it is never synced back to discussions.\n",
+                "columnTheme": "Column Theme",
+                "columnThemeHelp": "Use side panel styling when displaying pictures instead of bottom panel.",
+                "mapboxToken": "Mapbox Token",
+                "mapboxTokenHelp": "Fill in a valid token to show the geolocation map under the picture meta.",
+                "requireLicense": "Require selecting a license from the list below",
+                "requireLicenseHelp": "By default users can skip setting a license. Make sure your website terms of use cover what can be done with media where license isn't specified.\n",
+                "licenses": "Licenses",
+                "license-key": "Key",
+                "license-label": "Label",
+                "license-description": "Description",
+                "license-add": "Add license",
+                "stickers": "Stickers",
+                "sticker-key": "Key",
+                "sticker-label": "Label",
+                "sticker-url": "URL",
+                "sticker-add": "Add sticker"
+            }
+        },
+        "api": {
+            "post-edit": {
+                "cannotAttachToNonComment": "Pictures cannot be manually attached to non-comment posts",
+                "cannotFindPicturesFromRelation": "Could not find all requested pictures in the database",
+                "cannotAttachHasNoAlbum": "The discussion has no attached album",
+                "cannotAttachAlreadySubmitted": "Cannot attach picture {id} because it has already been submitted",
+                "cannotAttachFromExternalAlbum": "Cannot attach picture {id} becuase it belongs to an external album",
+                "cannotAttachUnauthorized": "Cannot attach picture {id} because it doesn't belong to you"
+            }
+        },
+        "ref": {
+            "albums": "Albums",
+            "pictures": "Pictures",
+            "loading": "Loading...",
+            "load-more": "Load More",
+            "controls": "Controls",
+            "restore": "Restore",
+            "hide": "Hide",
+            "delete": "Delete",
+            "by-user": "By"
+        }
+    }
+}

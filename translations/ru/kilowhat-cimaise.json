@@ -1,0 +1,208 @@
+{
+    "kilowhat-cimaise": {
+        "forum": {
+            "nav": {
+                "albums": "=> kilowhat-cimaise.ref.albums",
+                "pictures": "=> kilowhat-cimaise.ref.pictures",
+                "user-pictures": "=> kilowhat-cimaise.ref.pictures"
+            },
+            "album-list": {
+                "title": "=> kilowhat-cimaise.ref.albums",
+                "new": "Создать новый альбом",
+                "empty": "Альбомов нет",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
+            },
+            "picture-list": {
+                "title": "Все изображения",
+                "empty": "Изображений нет",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
+            },
+            "album-show": {
+                "upload": "Загрузить изображение",
+                "empty": "Изображений нет",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "personal": "Личный альбом пользователя <a>{username}</a>",
+                "community": "Альбом сообщества",
+                "discussion": "Перейти к дискуссии"
+            },
+            "picture-show": {
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "back-album": "Вернуться к альбому",
+                "download": "Скачать",
+                "previous": "Предыдущее изображение",
+                "next": "Следующее изображение",
+                "download-cropped": "Обрезанное {size}",
+                "download-original": "Скачать оригинал",
+                "show-exif": "Все EXIF данные",
+                "taken-at": "Получено {ago}",
+                "published-at": "Опубликовано {ago}"
+            },
+            "upload-modal": {
+                "title": "Загузить все изображения в альбом \"{title}\"",
+                "titleInComposer": "Редактировать изображения",
+                "uploading": "Загрузка",
+                "processing": "Обработка",
+                "select-file": "Выберите файл",
+                "drop-file": "",
+                "publishSilently": "",
+                "submit": "",
+                "submitInComposer": ""
+            },
+            "new-album-modal": {
+                "title": ""
+            },
+            "edit-album-modal": {
+                "title": ""
+            },
+            "attach-album-modal": {
+                "title": "",
+                "selected": "",
+                "none-selected": "",
+                "search": "",
+                "no-results": "",
+                "select": "",
+                "unselect": "",
+                "submit": ""
+            },
+            "edit-album": {
+                "title": "",
+                "description": "",
+                "isCommunity": "",
+                "create": "",
+                "save": ""
+            },
+            "edit-picture": {
+                "title": "",
+                "description": ""
+            },
+            "album-thumbnail": {
+                "controls": "",
+                "edit": "",
+                "restore": "",
+                "hide": "",
+                "delete": "",
+                "delete-confirmation": "",
+                "by-user": ""
+            },
+            "picture-thumbnail": {
+                "by-user": "",
+                "in-album": ""
+            },
+            "picture-controls": {
+                "controls": "",
+                "editor": "",
+                "approve": "",
+                "remove-favorite": "",
+                "set-favorite": "",
+                "restore": "",
+                "hide": "",
+                "delete": "",
+                "delete-confirmation": ""
+            },
+            "editable-attribute": {
+                "title": "",
+                "description": "",
+                "author": ""
+            },
+            "badge": {
+                "hidden": "",
+                "awaiting-approval": "",
+                "favorite": ""
+            },
+            "picture-sort": {
+                "latest": "",
+                "oldest": "",
+                "latestTake": "",
+                "oldestTake": ""
+            },
+            "album-search": {
+                "title": ""
+            },
+            "post-stream": {
+                "uploaded": ""
+            },
+            "discussion-controls": {
+                "attach-album": ""
+            },
+            "license-label": {
+                "not-specified": "",
+                "not-specified-help": ""
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view": "",
+                "viewExif": "",
+                "createPersonalAlbums": "",
+                "createCommunityAlbums": "",
+                "editOwnAlbum": "",
+                "hideOwnAlbum": "",
+                "uploadPictures": "",
+                "uploadPersonalPicturesWithoutApproval": "",
+                "uploadCommunityPicturesWithoutApproval": "",
+                "editOwnImage": "",
+                "editOwnPublishedImage": "",
+                "licenseOwnPublishedPicture": "",
+                "renameOwnPublishedPicture": "",
+                "hideOwnPicture": "",
+                "publishSilently": "",
+                "attachCimaiseAlbum": "",
+                "moderate": ""
+            },
+            "settings": {
+                "watermarkFile": "",
+                "watermarkFileHelp": "",
+                "watermarkPlacement": "",
+                "watermarkPlacementOptions": {
+                    "topLeft": "",
+                    "bottomLeft": "",
+                    "topRight": "",
+                    "bottomRight": ""
+                },
+                "autoCreateDiscussionAlbum": "",
+                "autoCreateDiscussionAlbumHelp": "",
+                "neverSyncDiscussionAlbumTitles": "",
+                "neverSyncDiscussionAlbumTitlesHelp": "",
+                "columnTheme": "",
+                "columnThemeHelp": "",
+                "mapboxToken": "",
+                "mapboxTokenHelp": "",
+                "requireLicense": "",
+                "requireLicenseHelp": "",
+                "licenses": "",
+                "license-key": "",
+                "license-label": "",
+                "license-description": "",
+                "license-add": "",
+                "stickers": "",
+                "sticker-key": "",
+                "sticker-label": "",
+                "sticker-url": "",
+                "sticker-add": ""
+            }
+        },
+        "api": {
+            "post-edit": {
+                "cannotAttachToNonComment": "",
+                "cannotFindPicturesFromRelation": "",
+                "cannotAttachHasNoAlbum": "",
+                "cannotAttachAlreadySubmitted": "",
+                "cannotAttachFromExternalAlbum": "",
+                "cannotAttachUnauthorized": ""
+            }
+        },
+        "ref": {
+            "albums": "",
+            "pictures": "",
+            "loading": "",
+            "load-more": "",
+            "controls": "",
+            "restore": "",
+            "hide": "",
+            "delete": "",
+            "by-user": ""
+        }
+    }
+}

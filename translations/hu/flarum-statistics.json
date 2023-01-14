@@ -1,20 +1,36 @@
 {
     "flarum-statistics": {
         "admin": {
+            "date_selection_modal": {
+                "description": "Válasszon egyéni dátumintervallumot, amelyre megjeleníti a statisztikát.\nAz adatok betöltése több percig is eltarthat a sokat használt fórumoknál.\n",
+                "end_date": "Záró dátum (ezt is beleértve)",
+                "errors": {
+                    "end_before_start": "A záró dátumnak a kezdési dátum után kell lennie."
+                },
+                "start_date": "Kezdési dátum (ezt is beleértve)",
+                "submit_button": "Erősítse meg a dátumintervallumot",
+                "title": "Válasszon egy dátumintervallumot"
+            },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
+                "export_chart_button": "Grafikon exportálása SVG-be",
                 "last_12_months_label": "Utolsó 12 hónap",
                 "last_28_days_label": "Utolsó 28 nap",
                 "last_7_days_label": "Utolsó 7 nap",
-                "mini_heading": "",
-                "previous_28_days_label": "",
-                "previous_7_days_label": "",
-                "loading": "",
+                "mini_heading": "Fórumstatisztikák",
+                "previous_28_days_label": "Előző 28 nap",
+                "previous_7_days_label": "Előző 7 nap",
+                "custom_label": "Válasszon egyéni intervallumot…",
+                "custom_label_specified": "{fromDate} – {toDate}",
+                "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "Ma",
                 "total_label": "Összesen",
                 "users_heading": "=> core.ref.users",
-                "view_full": "",
+                "view_full": "További statisztika megtekintése",
+                "no_data": "Nem érhetők el adatok ehhez a dátumintervallumhoz.",
+                "current_period": "Jelenlegi időszak",
+                "previous_period": "Előző időszak",
                 "active_users_text": "{count} aktív"
             }
         }

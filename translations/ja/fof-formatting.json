@@ -2,13 +2,13 @@
     "fof-formatting": {
         "admin": {
             "plugins": {
-                "Autoimage": "画像リンクを実際の画像に変換する",
-                "Autovideo": "ビデオリンクを再生可能なビデオに変換する",
-                "FancyPants": "美しいテキストレイアウトを使用する",
-                "HTMLEntities": "HTML entities を使用する",
-                "MediaEmbed": "サポートされているWebサイトからコンテンツを埋め込む",
-                "PipeTables": "ASCII スタイルテーブル",
-                "TaskLists": ""
+                "Autoimage": "画像URLを実際の画像に変換する",
+                "Autovideo": "動画URLを再生可能な動画に変換する",
+                "FancyPants": "Unicode記号を使用する",
+                "HTMLEntities": "HTMLエンティティを使用する",
+                "MediaEmbed": "許可されたサイトの埋め込みコンテンツを有効化する",
+                "PipeTables": "ASCIIスタイルの表を使用する",
+                "TaskLists": "GitHub/GitLab形式のタスクリスト(Markdown)を有効化する"
             }
         }
     }

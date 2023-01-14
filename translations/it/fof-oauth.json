@@ -2,7 +2,7 @@
     "fof-oauth": {
         "admin": {
             "configure_button_label": "Configura con FoF OAuth",
-            "settings_accessibility_label": "",
+            "settings_accessibility_label": "{name} impostazioni",
             "settings": {
                 "only_icons_label": "Mostra solo le icone dei bottoni (layout alternativo)",
                 "providers": {
@@ -57,6 +57,19 @@
                 "with_linkedin_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_twitter_button": "=> fof-oauth.forum.log_in.with_button"
             },
+            "user": {
+                "settings": {
+                    "linked-account": {
+                        "label": "Account collegato",
+                        "last-used-label": "Ultimo utilizzato",
+                        "link-created-label": "Link creato",
+                        "orphaned-account": "Hai effettuato l'accesso tramite questo provider in precedenza, ma da allora questo forum ha disabilitato l'accesso con questo metodo.",
+                        "help": "Questi account collegati ti consentono di accedere al forum utilizzando altri provider.",
+                        "identifier-label": "{provider} ID",
+                        "unlink-confirm": "Sei sicuro di voler rimuovere il collegamento con {provider}? Non sarai più in grado di accedere a questo forum a meno che non ti autentichi nuovamente in futuro."
+                    }
+                }
+            },
             "providers": {
                 "discord": "=> fof-oauth.lib.providers.discord",
                 "facebook": "=> fof-oauth.lib.providers.facebook",
@@ -69,6 +82,7 @@
             "signup": {
                 "username_help": "Per favore scegli un nome utente"
             },
+            "unlink": "Rimuovi link",
             "error": {
                 "bad_verification_code": "Token di verifica scaduto o non valido. Riprova.",
                 "invalid_state": "Stato non valido. Riprova."

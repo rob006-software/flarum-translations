@@ -1,0 +1,30 @@
+{
+    "ziven-checkin": {
+        "forum": {
+            "check-in": "Enregistrement",
+            "checked-in-day": "Enregistrement dans {count} jour",
+            "checked-in-days": "Enregistrement dans {count} jours",
+            "check-in-success": "Enregistrement avec succès",
+            "check-in-failed": "L'enregistrement a échoué",
+            "try-again-later": "Veuillez réessayer ultérieurement"
+        },
+        "admin": {
+            "settings": {
+                "auto-check-in": "Enregistrement automatique",
+                "auto-check-in-delay": "Délai d'enregistrement automatique (en millions de secondes)",
+                "timezone": "Fuseau horaire",
+                "reward-money": "Récompense d'enregistrement",
+                "reward-money-requirement": "Nécessite l'extension <code>antoinefr/flarum-ext-money</code>",
+                "check-in-success-prompt-type": "Type d'invite lors du succès de l'enregistrement",
+                "check-in-success-prompt-text": "Texte d'invite",
+                "check-in-success-prompt-reward-text": "Texte d'incitation à la récompense",
+                "check-in-success-prompt-example-text": "Exemple : vous vous êtes enregistré pendant [days] jours",
+                "check-in-success-prompt-example-reward-text": "Exemple : vous avez obtenu [reward] comme récompense",
+                "allow-check-in": "Autoriser l'enregistrement",
+                "None": "Aucun",
+                "Alert": "Alerte",
+                "Modal": "Fenêtre"
+            }
+        }
+    }
+}

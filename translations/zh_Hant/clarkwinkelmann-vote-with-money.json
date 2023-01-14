@@ -1,0 +1,37 @@
+{
+    "clarkwinkelmann-vote-with-money": {
+        "admin": {
+            "settings": {
+                "preselection": "預選金額（逗號分隔，可選）",
+                "min": "最小值",
+                "max": "最大值"
+            }
+        },
+        "forum": {
+            "vote": {
+                "title": "確認投票",
+                "target": "確認您的投票選項“{answer}”。您以後將無法更改您的投票。\n",
+                "optionCustom": "自定義",
+                "balance": "您的餘額：{amount}",
+                "label": {
+                    "custom": "自定義金額"
+                },
+                "submit": "提交",
+                "success": "投票已提交！"
+            },
+            "poll": {
+                "voteWithMoney": "用錢投票",
+                "min": "最低保證金（可選）",
+                "max": "最高保證金（可選）"
+            }
+        },
+        "api": {
+            "error": {
+                "cannotCancel": "無法取消投票。",
+                "cannotChange": "無法取消投票。",
+                "notEnoughFunds": "資金不足。",
+                "cannotChangePollType": "已收到選票後無法更改投票類型。"
+            }
+        }
+    }
+}

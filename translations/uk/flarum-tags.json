@@ -1,0 +1,93 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Видалити мітку",
+                "delete_tag_confirmation": "Ви впевнені , що хочете видалити розділ? Дискусії в цьому розділі видалені не будуть.",
+                "description_label": "Опис",
+                "hide_label": "Приховати зі списку дискусій",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Шлях",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Створити тег"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Керування списком тегів, доступних для структурування дискусій."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "Дозволити редагування тегів",
+                "bypass_tag_counts_label": "Ігнорувати вимоги до тегів",
+                "restrict_by_tag_heading": "Згідно тегу",
+                "tag_discussions_label": "Тег дискусій"
+            },
+            "tag_settings": {
+                "range_separator_text": " - ",
+                "required_primary_heading": "Кількість основних тегів",
+                "required_primary_text": "Введіть мінімальне і максимальне число основних тегів, в які буде додана дискусія.",
+                "required_secondary_heading": "Кількість додаткових тегів",
+                "required_secondary_text": "Введіть мінімальне і максимальне число додаткових тегів, в які буде додана дискусія.",
+                "title": "Налаштування тегів"
+            },
+            "tags": {
+                "about_tags_text": "Теги використовуються для структурування дискусій. Основні теги можуть утворювати дворівневу ієрархію. Додаткові теги не мають ієрархії та можуть бути корисні для мікро-структурування. Теги з додаткових в основні можна конвертувати шляхом простого перетягування мишкою.",
+                "create_primary_tag_button": "Створити основний тег",
+                "create_secondary_tag_button": "Створити додатковий тег",
+                "primary_heading": "Основні теги",
+                "secondary_heading": "Додаткові теги",
+                "settings_heading": "Налаштування"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "Усі теги",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "bypass_requirements": "Обійти вимоги до міток",
+                "choose_primary_placeholder": "{count, plural, one {Вкажіть основний тег} other {Вкажіть # основних тегів}}",
+                "choose_secondary_placeholder": "{count, plural, one {Вкажіть більше 1 тегу} other {Вкажіть більше # тегів}}",
+                "edit_title": "Налаштування тегів для {title}",
+                "submit_button": "=> core.ref.okay",
+                "title": "Вкажіть теги для вашої дискусії"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "Обрати теги"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "Редагувати теги"
+            },
+            "header": {
+                "back_to_tags_tooltip": "Повернутися до списку тегів"
+            },
+            "index": {
+                "more_link": "Ще...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Без тегів"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username} додали {tagsAdded} і видалили {tagsRemoved}.",
+                "added_tags_text": "{username} додали {tagsAdded}.",
+                "removed_tags_text": "{username} видалили {tagsRemoved}.",
+                "tags_text": "{count, plural, one {{tags} тег} other {{tags} теги}}"
+            },
+            "tag": {
+                "meta_description_text": "Всі дискусії з тегом {tag}"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "Видалено"
+        },
+        "ref": {
+            "name": "Назва",
+            "tags": "Теги"
+        }
+    }
+}

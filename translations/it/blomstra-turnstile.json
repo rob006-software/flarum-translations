@@ -1,0 +1,19 @@
+{
+    "blomstra-turnstile": {
+        "admin": {
+            "settings": {
+                "site_key": "Chiave Sito",
+                "secret_key": "Chiave segreta",
+                "signup": "",
+                "signin": "",
+                "forgot": ""
+            }
+        },
+        "forum": {
+            "not_loaded_error": "Impossibile caricare Cloudflare Turnstile. Aggiorna la pagina e controlla eventuali adblocker."
+        }
+    },
+    "validation": {
+        "turnstile": "Non siamo riusciti a verificare se tu sia un robot o meno. Per favore ricarica la pagina e riprova."
+    }
+}

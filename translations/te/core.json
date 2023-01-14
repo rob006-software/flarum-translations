@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "",
                 "colors_heading": "",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "colors_text": "",
                 "custom_footer_heading": "",
                 "custom_footer_text": "",
@@ -44,8 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "",
                 "description": "",
+                "io_error_message": "",
                 "title": "",
                 "tools_button": ""
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "",
@@ -121,9 +128,7 @@
                     "button_label": "",
                     "no_readme": "",
                     "title": ""
-                },
-                "confirm_uninstall": "",
-                "uninstall_button": ""
+                }
             },
             "header": {
                 "get_help": "",
@@ -306,8 +311,7 @@
                 "replied_text": "",
                 "started_text": "",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
-                "mark_as_read_tooltip": ""
+                "unread_replies_a11y_label": ""
             },
             "forgot_password": {
                 "dismiss_button": "",
@@ -361,6 +365,8 @@
                 "username_or_email_placeholder": ""
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "",
                 "empty_text": "",
                 "mark_all_as_read_tooltip": "",
@@ -409,6 +415,7 @@
                 "account_heading": "",
                 "change_email_button": "",
                 "change_password_button": "",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "",
                 "notify_by_email_heading": "",
                 "notify_by_web_heading": "",
@@ -575,10 +582,6 @@
                 "new_password_label": "",
                 "submit_button": "",
                 "title": ""
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
             }
         },
         "api": {

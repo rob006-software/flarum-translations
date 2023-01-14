@@ -1,0 +1,51 @@
+{
+    "ianm-syndication": {
+        "forum": {
+            "autodiscovery": {
+                "forum_activity": "論壇活動",
+                "forum_new_discussions": "論壇的新討論",
+                "tag_activity": "{tag} 標簽活動",
+                "tag_new_discussions": "在{tag} 標籤中進行討論",
+                "discussion_last_posts": "這個主題"
+            },
+            "feeds": {
+                "titles": {
+                    "main_title": "{forum_name}",
+                    "main_subtitle": "論壇最新回文",
+                    "main_d_title": "{forum_name} 的新貼文",
+                    "main_d_subtitle": "論壇新帖",
+                    "tag_title": "{tag} 標籤活動",
+                    "tag_subtitle": "{tag} 標籤新回帖",
+                    "tag_d_title": "{tag} 標籤中的新討論",
+                    "tag_d_subtitle": "{tag} 中的最新討論",
+                    "discussion_title": "{discussion_name}",
+                    "discussion_subtitle": "這篇帖子的最新回覆"
+                }
+            },
+            "discussion": {
+                "feed_link": "Feed 訂閱連結"
+            }
+        },
+        "admin": {
+            "settings": {
+                "full-text": {
+                    "label": "全文輸出",
+                    "help": "如果禁用此項，訂閱信息流將僅展示摘要，查看完整內容需要轉至論壇。建議開啟此項以尊重 RSS 用戶。"
+                },
+                "html": {
+                    "label": "格式化內容",
+                    "help": "開啟此選項以保留 HTML 內容。如果禁用，訂閱信息流將以純文本格式展示。"
+                },
+                "entries-count": "訂閱信息流條目數量是多少？",
+                "forum-icons": {
+                    "label": "在論壇上顯示 Atom/RSS 訂閱鏈接",
+                    "help": "在所有主題、標簽中顯示圖標，以便輕松查看 Feed(s)。"
+                },
+                "forum-link-format": {
+                    "label": "論壇 Feed 格式",
+                    "help": "選擇訂閱源格式（Atom 或 RSS）。"
+                }
+            }
+        }
+    }
+}

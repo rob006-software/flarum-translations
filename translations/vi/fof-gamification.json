@@ -62,7 +62,7 @@
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "CDK2020, Ralkage, AngelAvila",
+                        "placeholder": "admin, user1, user2",
                         "title": "Người dùng bị Bỏ qua",
                         "help": "Những người dùng này sẽ không được hiển thị trên trang xếp hạng. Tên người dùng phải được phân tách bằng dấu phẩy theo sau là dấu cách."
                     },
@@ -89,7 +89,8 @@
                     "icon_name": "Biểu tượng tán thành/phản đối",
                     "icon_help": "Nhập bất kỳ biểu tượng Font-Awesome nào đi kèm với -up và -down. Ví dụ: mũi tên, ngón tay cái",
                     "upvotes_only": "Chỉ cho phép ủng hộ",
-                    "first_post_only": "Chỉ cho phép bình chọn cho bài viết đầu tiên trong cuộc thảo luận"
+                    "first_post_only": "Chỉ cho phép bình chọn cho bài viết đầu tiên trong cuộc thảo luận",
+                    "allow_self_votes": "Người dùng có thể bình chọn cho bài viết của họ"
                 },
                 "save_settings": "Lưu thiết lập",
                 "convert": {
@@ -108,6 +109,17 @@
                         "points": "Điểm",
                         "name": "Tên"
                     }
+                },
+                "groups": {
+                    "title": "Các nhóm được gán tự động",
+                    "help": "Các nhóm đã chọn sẽ được tự động thêm hoặc bớt khi cần khi số điểm của người dùng thay đổi. Nếu bạn đã thực hiện các thay đổi đối với cấu hình, bạn nên chạy lệnh <code>php flarum fof:gamification:assign-groups</code> để cập nhật người dùng hiện có. Nếu bạn muốn xóa quy tắc và xóa tất cả người dùng khỏi nhóm, hãy đặt cả giá trị tối thiểu và tối đa thành một chuỗi trống, lưu cài đặt và chạy lệnh dòng lệnh. Cuối cùng, bạn có thể xóa hoàn toàn quy tắc khỏi cài đặt.\n",
+                    "column": {
+                        "group": "Nhóm",
+                        "minPoints": "Điểm tối thiểu (bắt buộc)",
+                        "maxPoints": "Điểm tối đa (bắt buộc)"
+                    },
+                    "add": "Thêm quy định mới",
+                    "delete": "Xoá quy định"
                 }
             }
         },

@@ -1,0 +1,146 @@
+{
+    "kilowhat-audit": {
+        "admin": {
+            "permissions": {
+                "view": "查看審計日誌"
+            },
+            "header": {
+                "title": "審計",
+                "free": "免費版",
+                "pro": "專業版",
+                "upgrade": "升級到專業版"
+            }
+        },
+        "lib": {
+            "browser": {
+                "filterPlaceholder": "篩選日志",
+                "filterApply": "套用",
+                "empty": "未找到任何內容",
+                "loadMore": "載入更多",
+                "withoutActor": "=> core.group.guest",
+                "deletedResource": {
+                    "discussion": "主題 #{id}",
+                    "group": "用戶組 #{id}",
+                    "post": "回覆 #{id}",
+                    "tag": "標籤 #{id}",
+                    "user": "用戶 #{id}"
+                },
+                "genericResource": {
+                    "comment": "回覆",
+                    "post": "帖子"
+                },
+                "permissionGroup": {
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
+                },
+                "noValue": "(無值)",
+                "noReason": "(無原因)",
+                "client": {
+                    "session": "Web Session",
+                    "api_key": "API key",
+                    "access_token": "Access token",
+                    "cli": "命令行",
+                    "unknown": "未知客戶端"
+                },
+                "controls": {
+                    "hideRaw": "隱藏原始日誌",
+                    "showRaw": "顯示原始日誌",
+                    "filterActor": "篩選行為人",
+                    "filterIp": "篩選IP",
+                    "filterClient": "篩選客戶類型",
+                    "filterAction": "篩選同類型活動",
+                    "filterUser": "篩選受影響的同一用戶",
+                    "filterDiscussion": "篩選受影響的同一個主題"
+                },
+                "audit_log_cleared": "從日誌中清除了 {deleted_count} 個條目",
+                "cache_cleared": "手動清除緩存",
+                "discussion": {
+                    "created": "發佈主題 {discussion}",
+                    "create_date_changed": "修改 {discussion} 的發佈時間 {old_date} 為 {new_date}",
+                    "deleted": "刪除主題 {discussion}",
+                    "hidden": "隱藏主題 {discussion}",
+                    "locked": "鎖定主題{discussion}",
+                    "renamed": "重命名主題 {old_title} 為 {new_title}",
+                    "restored": "恢復主題 {discussion}",
+                    "split_away": "拆分出 {post_count} 條回覆從 {discussion}",
+                    "split_into": "拆分 {post_count} 條回覆至 {discussion}",
+                    "stickied": "置頂主題{discussion}",
+                    "tagged": "更新 {discussion} 的標簽 {old_tags} 為 {new_tags}",
+                    "unlocked": "解除鎖定{discussion}",
+                    "unstickied": "取消置頂{discussion}",
+                    "user_changed": "變更 {discussion} 的作者 {old_user} 為 {new_user}"
+                },
+                "extension": {
+                    "disabled": "禁用擴展 {package}",
+                    "enabled": "啟用擴展 {package}"
+                },
+                "fof_ban_ips": {
+                    "banned": "拉黑 IP {ip}",
+                    "unbanned": "取消拉黑 IP {ip}"
+                },
+                "permission_changed": "修改 {permission} 權限 {old_groups} 為 {new_groups}",
+                "post": {
+                    "approved": "批準 {postuser} 在 {discussion} 發布的 {post}",
+                    "created": "發表回覆 {post} 於 {discussion}",
+                    "create_date_changed": "修改 {postuser} 的 {post} 回覆時間 {old_date} 為 {new_date}",
+                    "deleted": "刪除 {postuser} 在 {discussion} 中的 {post}",
+                    "dismissed_flags": "撤銷舉報 {postuser} 在 {discussion} 發布的 {post}",
+                    "edit_date_changed": "修改 {postuser} 的 {post} 編輯時間 {old_date} 為 {new_date}",
+                    "flagged": "舉報 {postuser} 在 {discussion} 中的 {post}，原因：{reason}",
+                    "hidden": "隱藏 {postuser} 在 {discussion} 中的 {post}",
+                    "restored": "恢復 {postuser} 在 {discussion} 中的 {post}",
+                    "revised": "修訂 {postuser} 在 {discussion} 中的 {post}",
+                    "user_changed": "變更 {post} 的作者 {old_user} 為 {new_user}"
+                },
+                "setting_changed": "修改設置 {key}",
+                "setting_changed_with_values": "修改 {key} 設置 {old_value} 為 {new_value}",
+                "tag": {
+                    "created": "創建標簽 {tag}",
+                    "deleted": "刪除標簽 {tag}",
+                    "updated": "更新標簽 {tag}"
+                },
+                "user": {
+                    "activated": "手動激活 {username} 的賬戶",
+                    "activated_with_email": "通過驗證鏈接激活 {username} 的賬戶",
+                    "avatar_changed": "更換 {username} 的頭像",
+                    "avatar_removed": "移除 {username} 的頭像",
+                    "bio_changed": "修改 {username} 的個性簽名",
+                    "created": "創建 {username} 的賬戶",
+                    "deleted": "刪除用戶{username}",
+                    "email_changed": "變更 {username} 的郵箱 {old_email} 為 {new_email}",
+                    "email_change_requested": "請求變更 {username} 的郵箱為 {new_email}",
+                    "groups_changed": "變更 {username} 的用戶組 {old_groups} 為 {new_groups}",
+                    "impersonated": "以 {username} 身份扮演登錄",
+                    "logged_in": "登錄 {username} 賬戶",
+                    "logged_in_with_provider": "使用 {provider} 登錄到 {username} 賬戶",
+                    "logged_out": "退出登錄 {username} 賬戶",
+                    "nickname_changed": "將 {username} 的昵稱從 {old_nickname} 變更為 {new_nickname}",
+                    "nickname_requested": "請求為用戶 {username} 設置新昵稱 {new_nickname}",
+                    "nickname_request_approved": "同意 {username} 的昵稱從 {old_nickname} 變更為 {new_nickname}",
+                    "nickname_request_rejected": "拒絕 {username} 變更昵稱",
+                    "password_changed": "更換 {username} 的密碼",
+                    "password_change_requested": "請求修改 {username} 的密碼",
+                    "provider_connected": "連接提供商 {provider} 到 {username} 賬戶",
+                    "suspended": "封禁 {username} 到 {until}",
+                    "unsuspended": "解除封禁{username}",
+                    "username_changed": "變更 {username} 用戶名 {old_username} 為 {new_username}",
+                    "username_requested": "請求變更 {username} 用戶名為 {new_username}",
+                    "username_request_approved": "批準 {username} 用戶名 {old_username} 變更為 {new_username}",
+                    "username_request_rejected": "拒絕 {username} 的用戶名變更請求"
+                }
+            }
+        },
+        "forum": {
+            "link": {
+                "discussion-audit": "審計日誌",
+                "user-audit": "審計日誌（賬戶編輯）",
+                "actor-audit": "審計日志（用戶作為行為人）"
+            },
+            "modal": {
+                "discussion-title": "討論審計日誌",
+                "user-title": "用戶審計日志",
+                "actor-title": "行為人審計日誌"
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "flarum-akismet": {
+        "admin": {
+            "akismet_settings": {
+                "api_key_label": "API Key",
+                "title": "Akismet 設定",
+                "delete_blatant_spam_label": "自動刪除問題內容",
+                "delete_blatant_spam_help": "直接刪除檢測到問題的內容"
+            },
+            "permissions": {
+                "bypass_akismet": "跳過 Akismet 內容審查"
+            }
+        },
+        "forum": {
+            "post": {
+                "akismet_flagged_text": "Akismet 標記為垃圾",
+                "not_spam_button": "不是垃圾"
+            }
+        }
+    }
+}

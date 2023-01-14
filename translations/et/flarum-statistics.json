@@ -1,21 +1,36 @@
 {
     "flarum-statistics": {
         "admin": {
+            "date_selection_modal": {
+                "description": "",
+                "end_date": "",
+                "errors": {
+                    "end_before_start": ""
+                },
+                "start_date": "",
+                "submit_button": "",
+                "title": ""
+            },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
+                "export_chart_button": "",
                 "last_12_months_label": "Viimased 12 kuud",
                 "last_28_days_label": "Viimased 4 nädalat",
                 "last_7_days_label": "Viimane nädal",
                 "mini_heading": "",
                 "previous_28_days_label": "",
                 "previous_7_days_label": "",
+                "custom_label": "",
+                "custom_label_specified": "",
                 "loading": "",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "Täna",
                 "total_label": "Kokku",
                 "users_heading": "=> core.ref.users",
                 "view_full": "",
-                "active_users_text": "{count, plural, one {# aktiivne kasutaja} other {# aktiivset kasutajat}}"
+                "no_data": "",
+                "current_period": "",
+                "previous_period": ""
             }
         }
     }

@@ -7,24 +7,24 @@
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "",
-                "user_suspended_indefinite_text": "",
-                "user_unsuspended_text": ""
+                "user_suspended_text": "השעית לזמן של {timeReadable}",
+                "user_suspended_indefinite_text": "הושעית לצמויתות",
+                "user_unsuspended_text": "ההשעיה שלך בוטלה"
             },
             "suspension_info": {
-                "dismiss_button": "",
-                "indefinite": "",
-                "limited": "",
-                "title": ""
+                "dismiss_button": "התעלמות",
+                "indefinite": "ההשעיה היא לצמיתות",
+                "limited": "ההשעיה שלך תהיה עד {date}",
+                "title": "החשבון הזה מושעה"
             },
             "suspend_user": {
-                "display_message": "",
+                "display_message": "הצגת הודעה למשתמש",
                 "indefinitely_label": "השעיה לצמיתות",
-                "limited_time_days_text": "ימים",
+                "limited_time_days_text": " ימים",
                 "limited_time_label": "השעיה לזמן מוגבל...",
                 "not_suspended_label": "לא מושעה",
-                "placeholder_optional": "",
-                "reason": "",
+                "placeholder_optional": "לא חובה",
+                "reason": "סיבת השעיה",
                 "status_heading": "מצב השעיה",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "השעית {username}"
@@ -37,14 +37,14 @@
             }
         },
         "email": {
-            "no_reason_given": "",
+            "no_reason_given": "אין סיבת השעיה.",
             "suspended": {
-                "subject": "",
-                "body": ""
+                "subject": "חשבונך מושעה",
+                "body": "שלום {recipient_display_name},\n\nחשבונך הודעה מהסיבה הבאה:\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
-                "subject": "",
-                "body": ""
+                "subject": "בוטלה השעיית חשבונך",
+                "body": "שלום {recipient_display_name},\n\nהשעית חשבונך מהפורום בוטלה. באפשרותך לחזור לפורום על ידי הקישור הזה:\n\n{forum_url}\n"
             }
         }
     }

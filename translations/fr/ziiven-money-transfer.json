@@ -1,0 +1,54 @@
+{
+    "ziven-transfer-money": {
+        "forum": {
+            "transfer-list-load-more": "Charger davantage",
+            "transfer-list-empty": "L'historique des transferts est vide",
+            "transfer-list-id": "Identifiant",
+            "transfer-list-type": "Type",
+            "transfer-list-from-user": "De l'utilisateur",
+            "transfer-list-target-user": "Utilisateur cible",
+            "transfer-list-assign-at": "Date de transfert",
+            "transfer-list-transfer-amount": "Montant",
+            "transfer-list-transfer-notes": "",
+            "transfer-list-transfer-notes-none": "",
+            "transfer-money": "Transférer de l'argent",
+            "transfer-money-to-user": "",
+            "transfer-money-no-user-selected": "",
+            "transfer-money-search-user": "",
+            "transfer-money-success": "Transféré avec succès",
+            "transfer-money-history": "Historique des transferts",
+            "transfer-money-to": "Transférer de l'argent à {username}",
+            "transfer-money-in": "Transfert interne",
+            "transfer-money-out": "Transfert externe",
+            "transfer-money-notes": "",
+            "transfer-money-search-user-placeholder": "",
+            "transfer-money-search-user-empty": "",
+            "transfer-money-input-placeholder": "",
+            "transfered-money-to": "a transféré {money} à",
+            "current-money-amount": "Argent actuel :",
+            "need-money-amount": "",
+            "search_user_header": "",
+            "ok": "Valider",
+            "cancel": "Annuler",
+            "transfer-error": "Erreur lors du transfert",
+            "transfer-error-no-permission": "Vous n'avez pas la permission",
+            "transfer-error-insufficient-fund": "Fonds insuffisant",
+            "transfer-error-no-target-user-selected": "",
+            "receive-transfer-from-user": "Réception d'un transfert d'argent d'un autre utilisateur",
+            "notifications": {
+                "user-transfer-money-to-you": "{username} vous a transféré de l'argent",
+                "user-transfer-money-details": "Vous avez reçu {cost}. Identifiant du transfert : {id}"
+            }
+        },
+        "admin": {
+            "transfer-money-timezone": "",
+            "transfer-money-timezone-help": "",
+            "transfer-money-timezone-default": "",
+            "transfer-money-client-customization": "",
+            "transfer-money-client-customization-help": "",
+            "permission": {
+                "allow_use_transfer_money": "Permettre le transfert d'argent"
+            }
+        }
+    }
+}

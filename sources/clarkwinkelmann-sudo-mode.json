@@ -1,0 +1,23 @@
+{
+    "clarkwinkelmann-sudo-mode": {
+        "admin": {
+            "settings": {
+                "duration": "How long sudo mode stays active (seconds)"
+            }
+        },
+        "lib": {
+            "sudo": {
+                "title": "Confirm access",
+                "message": "Confirm your password to enter sudo mode. You will only be asked to re-authenticate after a few hours.\n",
+                "password": "Password",
+                "submit": "Submit"
+            }
+        },
+        "api": {
+            "errors": {
+                "cookieOnly": "Only available with cookies",
+                "incorrectPassword": "Password is invalid"
+            }
+        }
+    }
+}

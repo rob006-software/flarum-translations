@@ -62,7 +62,7 @@
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "CDK2020, Ralkage, AngelAvila",
+                        "placeholder": "管理员, 用户1, 用户2",
                         "title": "屏蔽用户",
                         "help": "以下用户不会出现在排行榜。请用半角逗号+空格分隔用户名。"
                     },
@@ -89,7 +89,8 @@
                     "icon_name": "赞同/踩图标",
                     "icon_help": "输入任何 Font Awesome 图标，后缀为 -up 和 -down。 示例：arrow（箭头），thumbs（拇指），chevron（指向箭头）",
                     "upvotes_only": "禁用踩",
-                    "first_post_only": "仅首贴开放赞踩功能"
+                    "first_post_only": "仅首贴开放赞踩功能",
+                    "allow_self_votes": "允许用户投票自己的帖子"
                 },
                 "save_settings": "保存设置",
                 "convert": {
@@ -108,6 +109,17 @@
                         "points": "👍",
                         "name": "名称"
                     }
+                },
+                "groups": {
+                    "title": "自动分配用户组",
+                    "help": "当用户的点数发生变化时，将自动添加或删除组。修改设置后，请运行 <code>php flarum fof:gamification:assign-groups</code> 命令更新现有用户。如果您希望删除规则并从组中删除所有用户，请将最低最高点数均设为空，保存设置并执行命令后，在设置中删除规则。\n",
+                    "column": {
+                        "group": "用户组",
+                        "minPoints": "最低点数（含）",
+                        "maxPoints": "最高点数（含）"
+                    },
+                    "add": "添加规则",
+                    "delete": "删除规则"
                 }
             }
         },

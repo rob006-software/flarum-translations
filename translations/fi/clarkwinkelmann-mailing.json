@@ -2,42 +2,42 @@
     "clarkwinkelmann-mailing": {
         "admin": {
             "permissions": {
-                "mail_individual": "",
-                "mail_all": ""
+                "mail_individual": "Lähetä sähköposteja yksittäisille käyttäjille",
+                "mail_all": "Lähetä sähköposteja ryhmille tai kaikille käyttäjille"
             }
         },
         "forum": {
             "links": {
-                "mail_individual": "",
-                "mail_all": ""
+                "mail_individual": "Lähetä sähköposti käyttäjälle",
+                "mail_all": "Lähetä sähköposti"
             },
             "modal_mail": {
-                "title_text": "",
-                "recipients_label": "",
-                "recipients_placeholder": "",
-                "subject_label": "",
-                "default_subject": "",
-                "message_label": "",
-                "submit_button": ""
+                "title_text": "Kirjoita sähköposti",
+                "recipients_label": "Vastaanottajat",
+                "recipients_placeholder": "Lisää vastaanottajia...",
+                "subject_label": "Aihe",
+                "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject",
+                "message_label": "Viesti",
+                "submit_button": "Lähetä"
             },
             "modal_sent": {
-                "title_text": "",
-                "on_its_way": ""
+                "title_text": "Sähköposti lähetetty!",
+                "on_its_way": "Ylävitonen! Sähköpostisi on matkalla {recipientsCount} vastaanottajalle!"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": "",
-                "email": ""
+                "user": "Käyttäjä",
+                "group": "Ryhmä",
+                "email": "Sähköposti"
             }
         },
         "api": {
-            "no_recipients": ""
+            "no_recipients": "Vastaanottajia ei löytynyt"
         },
         "email": {
-            "default_subject": ""
+            "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject"
         },
         "ref": {
-            "default_subject": ""
+            "default_subject": "Viesti foorumin ylläpidolta"
         }
     }
 }

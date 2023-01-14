@@ -1,0 +1,37 @@
+{
+    "nearata-cakeday": {
+        "admin": {
+            "permissions": {
+                "can_view_anniversaries_page": "查看紀念日頁面"
+            },
+            "settings": {
+                "anniversaries_page_label": "啟動紀念日頁面",
+                "cake_bg_color_label": "背景顏色",
+                "cake_bg_color_help": "幫助：此設置用於更改蛋糕的背景色。留空即使用默認色。",
+                "cake_txt_color_label": "圖示顏色",
+                "cake_txt_color_help": "幫助：此設置用於修改蛋糕的字體顏色。留空即使用默認值。",
+                "new_members": "為新成員添加蛋糕圖示",
+                "new_members_howlong": "新成員身份時效",
+                "new_members_howlong_help": "以天為單位。",
+                "new_members_changelabel": "將新成員的標簽改為：新成員"
+            }
+        },
+        "forum": {
+            "anniversary": "週年紀念日",
+            "new_member_label": "新用戶",
+            "page": {
+                "anniversaries_between_label": "在 {date1} 至 {date2} 間的周年紀念日",
+                "anniversaries_for_label": "{date} 紀念日",
+                "empty": "沒有紀念日。",
+                "filter_options": {
+                    "today": "今天",
+                    "tomorrow": "明天",
+                    "upcoming": "即將到來",
+                    "all": "全部"
+                },
+                "load_more_button": "載入更多",
+                "title": "紀念日"
+            }
+        }
+    }
+}

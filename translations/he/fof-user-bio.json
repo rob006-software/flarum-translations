@@ -2,17 +2,17 @@
     "fof-user-bio": {
         "admin": {
             "permission": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "צפיה בביוגרפיה",
+                "editOwn": "עריכת ביוגרפיה",
+                "editAny": "עריכת כל ביוגרפיה"
             },
             "setting": {
-                "bioLimit": ""
+                "bioLimit": "הגבלת תווים לביוגרפיה"
             }
         },
         "forum": {
-            "userbioPlaceholder": "",
-            "userbioPlaceholderOtherUser": ""
+            "userbioPlaceholder": "כתבו משהו על עצמיכם",
+            "userbioPlaceholderOtherUser": "כתיבת ביוגרפיה עבור {username}"
         }
     }
 }

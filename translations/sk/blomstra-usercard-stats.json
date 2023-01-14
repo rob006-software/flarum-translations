@@ -2,7 +2,7 @@
     "blomstra-usercard-stats": {
         "forum": {
             "user": {
-                "discussion-count": "",
+                "discussion-count": "{count, plural, one { {count} diskusia} few {{count} diskusie} other {{count} diskusií}}",
                 "post-count": ""
             }
         }

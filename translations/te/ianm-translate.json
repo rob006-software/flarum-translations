@@ -1,0 +1,75 @@
+{
+    "ianm-translate": {
+        "admin": {
+            "permission": {
+                "refresh-translation": "",
+                "translate-to-locale": "",
+                "translate-to-all-locales": ""
+            },
+            "settings": {
+                "deepl": {
+                    "api_key": {
+                        "help": "",
+                        "label": ""
+                    },
+                    "en_choice": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "en-US": "",
+                            "en-GB": ""
+                        }
+                    },
+                    "formality": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "default": "",
+                            "prefer_less": "",
+                            "prefer_more": ""
+                        }
+                    }
+                },
+                "google-cloud": {
+                    "api_key": {
+                        "help": "",
+                        "label": ""
+                    }
+                },
+                "provider": "",
+                "readme-info": ""
+            }
+        },
+        "forum": {
+            "unknown-language": "",
+            "detected-language": "",
+            "translate-button-label": "",
+            "discussion": {
+                "post": {
+                    "close-translation": "",
+                    "translated-header": "",
+                    "translated-updated": ""
+                }
+            },
+            "user": {
+                "settings": {
+                    "heading": "",
+                    "source-language": {
+                        "help": "",
+                        "label": ""
+                    }
+                }
+            }
+        },
+        "lib": {
+            "providers": {
+                "deepl": "",
+                "google-free": "",
+                "google-cloud": ""
+            },
+            "settings": {
+                "api-key": ""
+            }
+        }
+    }
+}

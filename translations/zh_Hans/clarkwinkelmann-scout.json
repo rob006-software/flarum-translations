@@ -2,20 +2,34 @@
     "clarkwinkelmann-scout": {
         "admin": {
             "setting": {
-                "driver": "",
+                "driver": "驱动",
                 "driverOption": {
                     "null": "",
                     "algolia": "",
-                    "meilisearch": ""
+                    "meilisearch": "",
+                    "tntsearch": ""
                 },
                 "prefix": "",
+                "queue": "",
+                "queueHelp": "",
+                "limit": "",
+                "limitPlaceholder": "",
+                "limitHelp": "",
+                "queryMinLength": "",
+                "queryMinLengthPlaceholder": "",
+                "queryMinLengthHelp": "",
                 "algoliaId": "",
                 "algoliaSecret": "",
                 "algoliaConnectTimeout": "",
                 "algoliaReadTimeout": "",
                 "algoliaWriteTimeout": "",
                 "meilisearchHost": "",
-                "meilisearchKey": ""
+                "meilisearchKey": "",
+                "tntsearchMaxDocs": "",
+                "tntsearchFuzziness": "",
+                "tntsearchFuzzyDistance": "",
+                "tntsearchFuzzyPrefixLength": "",
+                "tntsearchFuzzyMaxExpansions": ""
             }
         }
     }

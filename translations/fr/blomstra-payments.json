@@ -1,16 +1,32 @@
 {
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": "Les plus financés"
+            }
+        }
+    },
     "blomstra-payments": {
         "forum": {
+            "accept-terms-modal": {
+                "accept_label": "J'ai lu et j'accepte les <link>conditions de paiement</link>.",
+                "continue_button": "Continuer le paiement",
+                "title": "Accepter les conditions"
+            },
             "stripe": {
                 "interval_once": "une fois"
             },
             "subscription-card": {
+                "bounty": "Prime",
                 "ptv": "Payé pour voir",
                 "pta": "Payé pour accéder",
                 "ptb": "Payé pour remonter",
                 "ptp": "Payé pour publier",
                 "cancel-control": "Annuler",
                 "none": "Aucun paiement ou abonnement actif"
+            },
+            "post_stream": {
+                "bounty_added_text": "{username} a ajouté une prime de {amount}."
             },
             "pay-to-view": {
                 "purchase-control": "Payer pour voir",
@@ -28,6 +44,21 @@
                 "purchase-control": "Payer pour remonter",
                 "purchase-log-in": "Se connecter et payer pour remonter"
             },
+            "bounties": {
+                "purchase-control": "Ajouter une prime",
+                "enable-control": "Activer les primes"
+            },
+            "choose-bounty-amount-modal": {
+                "title": "Choisir le montant de la prime",
+                "checkout-control": "Commander",
+                "description": "Sélectionnez votre montant pour soutenir « {subject} » ou choisissez un montant personnalisé."
+            },
+            "backers-widget": {
+                "backers": "Financeurs",
+                "label": "{sum} {currency} de promesses de dons",
+                "none": "Aucun financeur pour l'instant.",
+                "pledged": "Promis"
+            },
             "tag": {
                 "require-payment-label": "Paiement requis"
             },
@@ -43,6 +74,12 @@
             "nav": {
                 "access_portal": "Portail d'accès",
                 "user_subscriptions": "Abonnements"
+            },
+            "exceptions": {
+                "out-of-bounds-amount": {
+                    "min": "Un paiement de {amount} n'est pas autorisé, {min} est le montant le moins élevé possible.",
+                    "max": "Un paiement de {amount} n'est pas autorisé, {max} est le montant le plus élevé possible."
+                }
             }
         },
         "admin": {
@@ -56,17 +93,26 @@
                 "select-ptb-product": "(PPR) Produit requis",
                 "select-ptb-product-description": "La sélection d'un produit nécessite le paiement de ce produit avant de pouvoir remonter une discussion.\n",
                 "bump-others": "(PPR) Permettre aux autres de remonter les discussions",
-                "bump-others-description": "Si cette option est activée, l'auteur de la discussion ne sera pas le seul à pouvoir remonter les discussions en payant.\n"
+                "bump-others-description": "Si cette option est activée, l'auteur de la discussion ne sera pas le seul à pouvoir remonter les discussions en payant.\n",
+                "select-bounty-product": "(Prime) Produit requis",
+                "select-bounty-product-description": "Sélectionnez un produit pour le configurer pour les primes. Le produit ne peut avoir qu'un seul prix avec le modèle « Le client choisit le prix ». Copiez l'identifiant du produit commençant par <code>prod_</code> dans ce champ.\n",
+                "select-bounty-description": "Sélectionnez un produit pour le configurer pour les primes. Le produit ne peut avoir qu'un seul prix avec le modèle « Le client choisit le prix ». Copiez l'identifiant du produit commençant par <code>prod_</code> dans ce champ.\n"
             },
             "edit-group": {
                 "select-pta-product": "(PPA) Produit nécessaire",
                 "select-pta-product-description": "La sélection d'un produit permettra l'accès au groupe après paiement. Dans le cas d'un abonnement, l'accès sera révoqué automatiquement après l'annulation de l'abonnement. Créez un produit dans votre tableau de bord Stripe et copiez l'identifiant commençant par <code>prod_</code> dans ce champ.\n"
             },
             "settings": {
+                "assign-bounty-tag-id": "Étiquette à attribuer à la discussion après la première prime soumise",
                 "pk": "Clé publiable (API)",
                 "sk": "Clé secrète (API)",
                 "webhook-secret": "Signature secrète du Webhook",
-                "link-access-portal": "Lien vers le portail d'accès sous le menu déroulant de la session de l'utilisateur"
+                "link-access-portal": "Lien vers le portail d'accès sous le menu déroulant de la session de l'utilisateur",
+                "link-to-terms": "URL des conditions de paiement",
+                "recount-total-discussion-bounties": "Recompter le total des primes de discussion"
+            },
+            "permission": {
+                "enable-bounties": "Activer les primes"
             }
         }
     }

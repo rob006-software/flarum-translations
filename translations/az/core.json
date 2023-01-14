@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Başlıq rəngi (Header)",
                 "colors_heading": "Rənglər",
+                "colors_primary_label": "Əsas rəng",
+                "colors_secondary_label": "İkinci rəng",
                 "colors_text": "Forumunuzun mövzusu üçün iki rəng seçin. Birincisi parlaq rəng olaraq, ikincisi fon elementlərini tərtib etmək üçün istifadə ediləcək.",
                 "custom_footer_heading": "Xüsusi Footer",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -44,8 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "Keşi təmizlə",
                 "description": "Forumunuz bir baxışda.",
+                "io_error_message": "Fayl sistemdə yaddaş yazıla bilmədi. Zəhmət olmasa fayl sistem icazələrini yoxlayıb yenidən cəhd edin. Yaxud komanda sətrindən icra etməyi yoxlayın.",
                 "title": "Panel",
                 "tools_button": "Alətlər"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": "Sazlama rejimi aktivdir"
             },
             "edit_css": {
                 "customize_text": "Flarum -un üstünə tətbiq olunacaq öz CSS kodunuzu əlavə edərək forumunuzun görünüşünü fərdiləşdirin <a>Standart stil</a>.",
@@ -116,11 +123,11 @@
                 "no_settings": "Bu uzantının heç bir ayarı yoxdur.",
                 "open_modal": "Ayarları açın",
                 "permissions_title": "İcazələr",
-                "purge_button": "",
+                "purge_button": "Təmizlə",
                 "readme": {
-                    "button_label": "",
-                    "no_readme": "",
-                    "title": ""
+                    "button_label": "OXUYUN",
+                    "no_readme": "Bu genişlənmədə \"OXUYUN ( README) \" faylı yoxdur",
+                    "title": "{extName} sənədləri"
                 },
                 "confirm_uninstall": "Silinmə, uzantı ilə əlaqəli bütün verilənlər bazası girişlərini və aktivlərini siləcək. Davam etmək istədiyinizə əminsiniz?",
                 "uninstall_button": "Silin"
@@ -361,6 +368,8 @@
                 "username_or_email_placeholder": "İstifadəçi adı və ya E-poçt"
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "{username} başlığını dəyişdi",
                 "empty_text": "Bildiriş yoxdur",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
@@ -409,6 +418,7 @@
                 "account_heading": "Hesab",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
@@ -575,10 +585,6 @@
                 "new_password_label": "Yeni şifrə",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
             }
         },
         "api": {

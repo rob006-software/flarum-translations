@@ -57,6 +57,19 @@
                 "with_linkedin_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_twitter_button": "=> fof-oauth.forum.log_in.with_button"
             },
+            "user": {
+                "settings": {
+                    "linked-account": {
+                        "label": "Tài khoản đã liên kết",
+                        "last-used-label": "Lần cuối sử dụng",
+                        "link-created-label": "Đã tạo liên kết",
+                        "orphaned-account": "Bạn đã đăng nhập thông qua nhà cung cấp này trước đây, nhưng diễn đàn này đã vô hiệu hóa đăng nhập bằng phương thức này kể từ đó.",
+                        "help": "Các tài khoản được liên kết này cho phép bạn đăng nhập vào diễn đàn bằng cách sử dụng các nhà cung cấp khác.",
+                        "identifier-label": "{provider} ID",
+                        "unlink-confirm": "Bạn có chắc chắn muốn bỏ liên kết với {provider} không? Bạn sẽ không thể đăng nhập vào diễn đàn này nữa trừ khi bạn xác thực lại trong tương lai."
+                    }
+                }
+            },
             "providers": {
                 "discord": "=> fof-oauth.lib.providers.discord",
                 "facebook": "=> fof-oauth.lib.providers.facebook",
@@ -69,6 +82,7 @@
             "signup": {
                 "username_help": "Vui lòng chọn một tên người dùng tại đây"
             },
+            "unlink": "Xoá liên kết",
             "error": {
                 "bad_verification_code": "Mã thông báo xác minh không hợp lệ hoặc đã hết hạn. Vui lòng thử lại.",
                 "invalid_state": "State không hợp lệ. Vui lòng thử lại."

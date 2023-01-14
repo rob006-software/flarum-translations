@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
@@ -23,7 +23,7 @@ jobs:
 
       - name: Cache builder
         id: builder-cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: builder
           key: ${{ runner.os }}-builder-${{ env.DATE }}

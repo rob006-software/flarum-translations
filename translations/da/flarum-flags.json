@@ -2,49 +2,49 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "",
-                "view_flags_label": ""
+                "flag_posts_label": "Rapportér indlæg",
+                "view_flags_label": "Vis rapporterede indlæg"
             },
             "settings": {
-                "flag_own_posts_label": "",
-                "guidelines_url_label": "",
-                "title": ""
+                "flag_own_posts_label": "Tillad brugere at rapportere deres egne indlæg",
+                "guidelines_url_label": "Webadresse til retningslinjer for forummet",
+                "title": "Rapporteringsindstillinger"
             }
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "",
+                "confirmation_message": "Tak for at du rapporterede dette indlæg. Vores moderatorer vil se nærmere på det.",
                 "dismiss_button": "",
-                "reason_details_placeholder": "",
-                "reason_inappropriate_label": "",
-                "reason_inappropriate_text": "",
-                "reason_missing_message": "",
-                "reason_off_topic_label": "",
-                "reason_off_topic_text": "",
-                "reason_other_label": "",
-                "reason_spam_label": "",
-                "reason_spam_text": "",
+                "reason_details_placeholder": "Yderligere detaljer (valgfri)",
+                "reason_inappropriate_label": "Upassende",
+                "reason_inappropriate_text": "Dette indlæg er stødende, krænkende eller overtræder vores <a>retningslinjer for forummet</a>.",
+                "reason_missing_message": "Giv venligst nogle detaljer til vores moderatorer.",
+                "reason_off_topic_label": "Uden for emnet",
+                "reason_off_topic_text": "Dette indlæg er ikke relevant for den aktuelle diskussion og bør flyttes et andet sted hen.",
+                "reason_other_label": "Andet (angiv venligst)",
+                "reason_spam_label": "Spam",
+                "reason_spam_text": "Dette indlæg er en reklame.",
                 "submit_button": "",
                 "title": ""
             },
             "flagged_posts": {
-                "empty_text": "",
-                "item_text": "",
+                "empty_text": "Ingen rapporteringer",
+                "item_text": "{username} i <em>{discussion}</em>",
                 "title": "",
                 "tooltip": ""
             },
             "post": {
-                "dismiss_flag_button": "",
-                "flagged_by_text": "",
-                "flagged_by_with_reason_text": ""
+                "dismiss_flag_button": "Afvis rapportering",
+                "flagged_by_text": "Rapporteret af {username}",
+                "flagged_by_with_reason_text": "Rapporteret af {username} som {reason}"
             },
             "post_controls": {
-                "flag_button": ""
+                "flag_button": "Rapportér"
             }
         },
         "ref": {
-            "flag_post": "",
-            "flagged_posts": ""
+            "flag_post": "Rapportér indlæg",
+            "flagged_posts": "Rapporterede indlæg"
         }
     }
 }

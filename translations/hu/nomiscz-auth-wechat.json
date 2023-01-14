@@ -2,39 +2,39 @@
     "nomiscz-auth-wechat": {
         "forum": {
             "buttons": {
-                "login": "",
-                "link": "",
-                "unlink": ""
+                "login": "Bejelentkezés a WeChattel",
+                "link": "WeChat-fiók összekötése",
+                "unlink": "WeChat-fiók eltávolítása"
             },
             "alerts": {
-                "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
-                "error": ""
+                "already_linked": "A WeChat-fiók már össze lett kötve.",
+                "already_used": "A WeChat-fiók már össze lett kötve egy másik felhasználóval.",
+                "link_success": "A WeChat-fiók összekötése sikeres.",
+                "unlink_success": "A WeChat-fiók eltávolítása sikeres.",
+                "error": "Hiba történt, próbálja újra később."
             },
             "modals": {
                 "link": {
-                    "title": ""
+                    "title": "WeChat-fiók összekötése"
                 },
                 "unlink": {
-                    "title": "",
+                    "title": "WeChat-fiók eltávolítása",
                     "info": {
-                        "confirm": "",
-                        "no_providers": ""
+                        "confirm": "Biztos, hogy eltávolítja a WeChat-fiókját?",
+                        "no_providers": "Nincs más bejelentkezési szolgáltatója. Valószínűleg vissza kell állítania a jelszavát."
                     },
                     "buttons": {
-                        "confirm": "",
-                        "cancel": ""
+                        "confirm": "Igen, fiók eltávolítása",
+                        "cancel": "Nem"
                     }
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "api_app_id": "",
-                "api_app_secret": ""
+                "title": "WeChat hitelesítési beállítások",
+                "api_app_id": "API alkalmazásazonosítója",
+                "api_app_secret": "API alkalmazástitka"
             }
         }
     }

@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Kolorowy nagłówek",
                 "colors_heading": "Kolory",
+                "colors_primary_label": "Kolor główny",
+                "colors_secondary_label": "Kolor drugorzędny",
                 "colors_text": "Wybierz dwa kolory dla Twojego motywu forum. Pierwszy będzie używany jako kolor wiodący, podczas gdy drugi zapełni elementy tła.",
                 "custom_footer_heading": "Niestandardowa stopka",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -44,8 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "Wyczyść cache",
                 "description": "Podstawowe informacje dotyczące forum.",
+                "io_error_message": "Zapis do systemu plików się nie powiódł. Sprawdź uprawnienia systemu plików i spróbuj ponownie, lub spróbuj wykonać tę akcję z poziomu wiersza poleceń.",
                 "title": "Kokpit",
                 "tools_button": "Narzędzia"
+            },
+            "debug-warning": {
+                "detail": "Gdy tryb <code>debug</code> jest aktywny, Flarum będzie odświeżać pliki <code>JavaScript</code> i <code>CSS</code> przy każdym wczytaniu strony, a także może ujawnić poufne informacje, jak na przykład dane dostępowe do bazy danych, zmienne środowiskowe itp.\n\nZalecane jest wyłączenie trybu <code>debug</code> w pliku <code>config.php</code> dla środowisk produkcyjnych. Sprawdź <link>dokumentację Flarum</link> aby uzyskać więcej informacji.\n",
+                "label": "Tryb debug jest aktywny"
             },
             "edit_css": {
                 "customize_text": "Edytuj wygląd swojego forum poprzez dodawanie swojego własnego kodu Less/CSS, który będzie dodany nad <a>domyślnymi stylami Flarum</a>.",
@@ -121,9 +128,7 @@
                     "button_label": "README",
                     "no_readme": "Wygląda na to, że to rozszerzenie nie posiada pliku README",
                     "title": "Dokumentacja {extName}"
-                },
-                "confirm_uninstall": "Odinstalowanie usunie wszystkie wpisy w bazie i zasoby powiązane z tym rozszerzeniem. Czy jesteś pewien, że chcesz kontynuować?",
-                "uninstall_button": "Odinstaluj"
+                }
             },
             "header": {
                 "get_help": "Uzyskaj pomoc",
@@ -306,13 +311,12 @@
                 "replied_text": "{username} odpowiedział {ago}",
                 "started_text": "{username} rozpoczął {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# odpowiedź} other {# odpowiedzi}}",
-                "unread_replies_a11y_label": "{count, plural, one {# nieodczytana odpowiedź} other {# nieodczytane odpowiedzi}}. Oznacz {count, plural, one {nieodczytaną odpowiedź jako odczytaną} other {nieodczytane odpowiedzi jako odczytane}}.",
-                "mark_as_read_tooltip": "Oznacz jako odczytane"
+                "unread_replies_a11y_label": "{count, plural, one {# nieodczytana odpowiedź} other {# nieodczytane odpowiedzi}}. Oznacz {count, plural, one {nieodczytaną odpowiedź jako odczytaną} other {nieodczytane odpowiedzi jako odczytane}}."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "Wysłaliśmy do Ciebie e-mail zawierający link do zresetowania hasła. Sprawdź folder ze spamem, jeśli nie otrzymasz go w ciągu minuty lub dwóch.",
+                "email_sent_message": "Jeśli podany adres e-mail jest zarejestrowany na forum, wyślemy na niego wiadomość zawierającą link do zresetowania hasła. Sprawdź folder ze spamem, jeśli nie otrzymasz jej w ciągu minuty lub dwóch.",
                 "not_found_message": "Nie ma zarejestrowanego użytkownika z tym adresem e-mail.",
                 "submit_button": "Odzyskaj hasło",
                 "text": "Wpisz swój adres e-mail, a my wyślemy Ci link do zresetowania hasła.",
@@ -361,6 +365,8 @@
                 "username_or_email_placeholder": "Nazwa użytkownika lub e-mail"
             },
             "notifications": {
+                "delete_all_confirm": "Czy jesteś pewien, że chcesz usunąć wszystkie powiadomienia? Tej operacji nie da się cofnąć.",
+                "delete_all_tooltip": "Usuń wszystkie powiadomienia",
                 "discussion_renamed_text": "{username} zmienił tytuł dyskusji",
                 "empty_text": "Brak powiadomień",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
@@ -409,6 +415,7 @@
                 "account_heading": "Konto",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "Otrzymuj powiadomienia typu \"{description}\" za pomocą {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
@@ -575,10 +582,6 @@
                 "new_password_label": "Nowe hasło",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
             }
         },
         "api": {

@@ -1,0 +1,58 @@
+{
+    "nearata-embed-video": {
+        "admin": {
+            "settings": {
+                "options": {
+                    "airplay": "Airplay",
+                    "hotkey": "Гаряча клавіша",
+                    "lang": "Мова плеєра",
+                    "logo": "URL логотипа",
+                    "quality_switching": "Перемикання якості",
+                    "theme": "Колір теми",
+                    "modal_enabled": "Включити модальний режим",
+                    "modal_enabled_help": "Увімкніть модальний режим або просто вставте BBCode в композитор."
+                },
+                "permissions": {
+                    "can_create_video_player": "Можливість створення відеоплеєра",
+                    "can_view_video_player": "Можливість перегляду відеоплеєра"
+                },
+                "video_types": {
+                    "dash": "Dash",
+                    "flv": "Flv",
+                    "hls": "Hls",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
+                }
+            }
+        },
+        "forum": {
+            "button_tooltip_title": "Вставити відео",
+            "modal": {
+                "live_mode": "Режим прямого ефіру",
+                "submit_button": "Зберегти зміни",
+                "title": "Вставити відео",
+                "video_type_label": "Тип відео",
+                "video_types": {
+                    "normal": "Звичайний",
+                    "dash": "Dash",
+                    "flv": "Flv",
+                    "hls": "Hls",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
+                },
+                "video_url_label": "URL-адреса відео",
+                "video_url_placeholder": "Наприклад: https://example.com/filename.mp4",
+                "quality_switching_tutorial": "Навчальний посібник з перемикання якості",
+                "pointer_label": "Покажчик",
+                "pointer_option_new": "Нове",
+                "quality_option_new": "Нове",
+                "add_quality": "Додати якість",
+                "remove_quality": "Видалити якість",
+                "add_pointer": "Додати покажчик",
+                "remove_pointer": "Видалити покажчик",
+                "qualities_label": "Якість (за бажанням)"
+            },
+            "cannot_view": "Помилка: Ви не маєте права для перегляду цього вмісту"
+        }
+    }
+}

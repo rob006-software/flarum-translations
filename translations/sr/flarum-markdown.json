@@ -2,32 +2,17 @@
     "flarum-markdown": {
         "lib": {
             "composer": {
-                "bold_tooltip": "",
-                "code_tooltip": "",
-                "header_tooltip": "",
-                "image_tooltip": "",
-                "italic_tooltip": "",
-                "link_tooltip": "",
-                "ordered_list_tooltip": "",
-                "quote_tooltip": "",
-                "spoiler_tooltip": "",
-                "strikethrough_tooltip": "",
-                "unordered_list_tooltip": ""
-            }
-        },
-        "forum": {
-            "composer": {
-                "bold_tooltip": "Dodajte podebljani tekst",
-                "code_tooltip": "Umetnite kod",
-                "header_tooltip": "Dodajte naslov",
-                "image_tooltip": "Dodajte sliku",
-                "italic_tooltip": "Dodajte kurziv",
-                "link_tooltip": "Dodajte link",
+                "bold_tooltip": "Dodajte zadebljani tekst",
+                "code_tooltip": "Unesite kod",
+                "header_tooltip": "Dodajte tekst zaglavlja",
+                "image_tooltip": "Dodajte fotografiju",
+                "italic_tooltip": "Dodajte kurzivni tekst",
+                "link_tooltip": "Dodajte vezu",
                 "ordered_list_tooltip": "Dodajte numerisanu listu",
-                "quote_tooltip": "Umetnite citat",
-                "spoiler_tooltip": "Umetnite spojler",
+                "quote_tooltip": "Dodajte citat",
+                "spoiler_tooltip": "Unesite skriveni sadržaj",
                 "strikethrough_tooltip": "Dodajte precrtani tekst",
-                "unordered_list_tooltip": "Dodajte nenumerisanu listu"
+                "unordered_list_tooltip": ""
             }
         }
     }

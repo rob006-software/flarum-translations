@@ -1,6 +1,9 @@
 {
     "flarum-mentions": {
         "admin": {
+            "permissions": {
+                "mention_groups_label": ""
+            },
             "settings": {
                 "allow_username_format_label": "Eski eslatib o'tish formatini ruxsat etish",
                 "allow_username_format_text": "Foydalanuvchining hozirgi eslatib o'tish formati: @\"Display Name\"#ID.\nBu sozlama eski eslatib o'tish formatini islatishga ruxsat beradi (@Username). Ammo eski format saqlangandan keyin bari bir yangisiga o'zgaradi.\n"
@@ -14,7 +17,8 @@
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} sizning postingizga javob berdi",
-                "user_mentioned_text": "{username} sizni eslab o'tdi"
+                "user_mentioned_text": "{username} sizni eslab o'tdi",
+                "group_mentioned_text": ""
             },
             "post": {
                 "mentioned_by_self_text": "{users} bu postga javob berishdi.",
@@ -26,13 +30,17 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "Kimdir mening postlarimdan biriga javob berayapti",
-                "notify_user_mentioned_label": "Kimdir meni o'zining postida eslab o'tdi"
+                "notify_user_mentioned_label": "Kimdir meni o'zining postida eslab o'tdi",
+                "notify_group_mentioned_label": ""
             },
             "user": {
                 "mentions_link": "Eslatmalar"
             },
             "post_mention": {
                 "deleted_text": "[noma'lum]"
+            },
+            "group_mention": {
+                "deleted_text": ""
             }
         },
         "email": {
@@ -43,6 +51,10 @@
             "user_mentioned": {
                 "subject": "{mentioner_display_name} sizni {title} da eslab o'tdi",
                 "body": "Salom {recipient_display_name}!\n\n{replier_display_name} sizning postingizga (#{post_number}) {title} da javob berdi\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "group_mentioned": {
+                "subject": "",
+                "body": ""
             }
         }
     }

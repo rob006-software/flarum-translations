@@ -12,12 +12,12 @@
         "admin": {
             "settings": {
                 "days_label": "ימים",
-                "days_help": "",
-                "message_title_label": "",
-                "message_title_help": "",
-                "message_description_label": "",
+                "days_help": "הנושא יסומן כפג תוקף כאשר כמות הימים שצוינה תחלוף מאז פרסום ההודעה האחרונה בנושא זה. שימוש ב<code>0</code> לביטול כברירת מחדל.",
+                "message_title_label": "כותרת הודעה מתואמת אישית",
+                "message_title_help": "שימוש ב<code>[time]</code> עבור טקסט זמן, לדוגמה: \"14 ימים\".",
+                "message_description_label": "תאור מתואם אישית",
                 "tags_title": "תגיות",
-                "tags_help": ""
+                "tags_help": "דריסת מספר ימים גלובלי עבור תגית ספציפית. ריק עבור ערך ברירת מחדל. אם הנושא מכיל מספר תגיות עם מספר ימים שונה, זה ישתמש במספר הנמוך ביותר שמוגדר."
             }
         }
     }

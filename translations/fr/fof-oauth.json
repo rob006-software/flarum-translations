@@ -30,8 +30,8 @@
                     },
                     "twitter": {
                         "description": "Créez une application sur {link}. Vous devrez définir un lien vers les conditions d'utilisation et un lien vers la politique de confidentialité. Veillez ensuite à ajouter l'autorisation de demander un courriel.",
-                        "api_key_label": "Clé de l'API",
-                        "api_secret_label": "Code secret de l'API"
+                        "api_key_label": "Clé API",
+                        "api_secret_label": "Clé secrète de l'API"
                     },
                     "google": {
                         "description": "Créez une application sur {link}.",
@@ -57,6 +57,19 @@
                 "with_linkedin_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_twitter_button": "=> fof-oauth.forum.log_in.with_button"
             },
+            "user": {
+                "settings": {
+                    "linked-account": {
+                        "label": "Comptes liés",
+                        "last-used-label": "Dernière utilisation",
+                        "link-created-label": "Lien créé",
+                        "orphaned-account": "Vous vous êtes déjà connecté via ce fournisseur mais ce forum a désactivé depuis la connexion avec cette méthode.",
+                        "help": "Ces comptes liés vous permettent de vous connecter au forum en utilisant d'autres fournisseurs.",
+                        "identifier-label": "Identifiant de {provider}",
+                        "unlink-confirm": "Êtes-vous sûr de vouloir supprimer le lien avec {provider} ? Vous ne pourrez plus vous connecter à ce forum à moins de vous authentifier à nouveau à l'avenir."
+                    }
+                }
+            },
             "providers": {
                 "discord": "=> fof-oauth.lib.providers.discord",
                 "facebook": "=> fof-oauth.lib.providers.facebook",
@@ -69,6 +82,7 @@
             "signup": {
                 "username_help": "Veuillez choisir un nom d'utilisateur pour être connu ici"
             },
+            "unlink": "Supprimer le lien",
             "error": {
                 "bad_verification_code": "Jeton de vérification invalide ou expiré. Veuillez réessayer.",
                 "invalid_state": "État invalide. Veuillez réessayer."
@@ -88,9 +102,9 @@
         "ref": {
             "settings": {
                 "app_id": "Identifiant de l'application",
-                "app_secret": "Code secret de l'application",
+                "app_secret": "Clé secrète de l'application",
                 "client_id": "Identifiant du client",
-                "client_secret": "Code secret du client"
+                "client_secret": "Clé secrète du client"
             }
         }
     }

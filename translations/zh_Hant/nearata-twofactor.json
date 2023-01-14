@@ -1,0 +1,43 @@
+{
+    "nearata-twofactor": {
+        "admin": {
+            "settings": {
+                "generate_backups": "生成恢復代碼。"
+            },
+            "permissions": {
+                "can_enable_twofactor": "啟動兩步驗證"
+            }
+        },
+        "forum": {
+            "invalid_twofa_code": "兩步驟驗証碼錯誤。",
+            "invalid_twofa_setup": "密碼或驗證碼錯誤。",
+            "log_in_modal": {
+                "submit_button": "登錄",
+                "otp_placeholder": "兩步驗証碼",
+                "title": "兩步驗証"
+            },
+            "setup_button": "兩步驗証",
+            "setup_modal": {
+                "backups": {
+                    "copy_button": "複制",
+                    "download_button": "下載",
+                    "download_file_format": "{website_title} | {website_url}\n\n請妥善保存您的恢復代碼。\n\n恢復代碼：\n\n{codes}\n\n* 每個恢復代碼僅限使用一次。\n* 恢復代碼必須按照上方所列順序依次使用。\n* 當期恢復代碼生成時間 {date}。\n",
+                    "modal_message": "請妥善保存恢覆代碼。驗證設備遺失或不可用時，恢覆代碼是登錄賬號的唯一方式。\n"
+                },
+                "close_button": "關閉",
+                "disabled": "兩步驗証已關閉。",
+                "enabled": "兩步驗証已開啟。",
+                "enter_code_disable": "輸入驗證碼以關閉兩步驗証。",
+                "enter_code_manually": "無法掃描二維碼？手動輸入驗證器秘鑰",
+                "passcode_placeholder": "兩步驗証碼",
+                "password_placeholder": "密碼",
+                "scan_qr": "使用驗證設備掃描二維碼以添加賬號。",
+                "submit_button": {
+                    "enable": "啟用",
+                    "disable": "停用"
+                },
+                "title": "兩步驗証"
+            }
+        }
+    }
+}

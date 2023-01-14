@@ -57,6 +57,19 @@
                 "with_linkedin_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_twitter_button": "=> fof-oauth.forum.log_in.with_button"
             },
+            "user": {
+                "settings": {
+                    "linked-account": {
+                        "label": "Csatolt fiókok",
+                        "last-used-label": "Utoljára használt",
+                        "link-created-label": "Összekapcsolás létrehozva",
+                        "orphaned-account": "Eddig ezen a szolgáltatón keresztül jelentkezett be, de a fórum azóta letiltotta ezt a bejelentkezési módot.",
+                        "help": "Ezek a kapcsolt fiókok lehetővé teszik, hogy más szolgáltatókkal jelentkezzen be a fórumba.",
+                        "identifier-label": "{provider}-azonosító",
+                        "unlink-confirm": "Biztos, hogy eltávolítja a(z) {provider} összekapcsolását? Többé nem fog tudni ezzel bejelentkezni a fórumra, hacsak nem hitelesít vele újra a jövőben."
+                    }
+                }
+            },
             "providers": {
                 "discord": "=> fof-oauth.lib.providers.discord",
                 "facebook": "=> fof-oauth.lib.providers.facebook",
@@ -69,6 +82,7 @@
             "signup": {
                 "username_help": "Válasszon egy itt használandó felhasználónevet"
             },
+            "unlink": "Összekapcsolás eltávolítása",
             "error": {
                 "bad_verification_code": "Hibás vagy lejárt ellenőrzőtoken. Próbálja újra.",
                 "invalid_state": "Érvénytelen állapot. Próbálja újra."

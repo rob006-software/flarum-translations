@@ -1,6 +1,9 @@
 {
     "flarum-mentions": {
         "admin": {
+            "permissions": {
+                "mention_groups_label": ""
+            },
             "settings": {
                 "allow_username_format_label": "Permitir menção de nome de usuário (@Username)",
                 "allow_username_format_text": "O formato atual para menções do usuário é @\"Nome\"#ID.\nEsta configuração permite usar o formato antigo de @Username, no entanto, ele ainda será convertido para o novo formato ao salvar.\n"
@@ -14,7 +17,8 @@
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} respondeu ao seu post|{username} responderam ao seu post",
-                "user_mentioned_text": "{username} mencionou você"
+                "user_mentioned_text": "{username} mencionou você",
+                "group_mentioned_text": ""
             },
             "post": {
                 "mentioned_by_self_text": "{users} respondeu a isso.|{users} responderam a isso.",
@@ -26,13 +30,17 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "Alguém responde a um de meus posts",
-                "notify_user_mentioned_label": "Alguém me menciona em um post"
+                "notify_user_mentioned_label": "Alguém me menciona em um post",
+                "notify_group_mentioned_label": ""
             },
             "user": {
                 "mentions_link": "Menções"
             },
             "post_mention": {
                 "deleted_text": "[desconhecido]"
+            },
+            "group_mention": {
+                "deleted_text": ""
             }
         },
         "email": {
@@ -41,6 +49,10 @@
                 "body": ""
             },
             "user_mentioned": {
+                "subject": "",
+                "body": ""
+            },
+            "group_mentioned": {
                 "subject": "",
                 "body": ""
             }

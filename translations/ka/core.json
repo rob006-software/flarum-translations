@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "ფერადი სათაური",
                 "colors_heading": "ფერები",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "colors_text": "აირჩიეთ ორი ფერი თქვენი ფორუმის თემატიკაზე. პირველი გამოყენებული იქნება ხაზგასმული ფერის სახით, ხოლო მეორე გამოყენებული იქნება ფონის ელემენტების სტილის შესაქმნელად.",
                 "custom_footer_heading": "სასურველი ქვე-კლონტიტული",
                 "custom_footer_text": "",
@@ -44,8 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "ქეშის გასუფთავება",
                 "description": "თქვენი ფორუმი ერთი შეხედვით.",
+                "io_error_message": "",
                 "title": "დაფა",
                 "tools_button": "ხელსაწყოები"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "მოირგეთ თქვენი ფორუმის გარეგნობა და დაამატეთ თქვენი საკუთარი LESS/CSS კოდი, რომელიც უნდა იქნას გამოყენებული Flarum-ის <a>Default styles</a> -ზე.",
@@ -121,9 +128,7 @@
                     "button_label": "",
                     "no_readme": "",
                     "title": ""
-                },
-                "confirm_uninstall": "ინსტალაციით წაიშლება მონაცემთა ბაზის ყველა ჩანაწერი და აქტივები, რომლებიც დაკავშირებულია გაფართოებასთან. დარწმუნებული ხართ, რომ გსურთ გაგრძელება?",
-                "uninstall_button": "წაშლა"
+                }
             },
             "header": {
                 "get_help": "დახმარების მიღება",
@@ -306,8 +311,7 @@
                 "replied_text": "{username} უპასუხა {ago}",
                 "started_text": "{username} დაიწყო {ago}",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
-                "mark_as_read_tooltip": "წაკითხულად მონიშვნა"
+                "unread_replies_a11y_label": ""
             },
             "forgot_password": {
                 "dismiss_button": "",
@@ -361,6 +365,8 @@
                 "username_or_email_placeholder": "მომხმარებლის სახელი ან ელ.ფოსტა"
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "{username} მა შეცვალა სათაური",
                 "empty_text": "შეტყობინებები არ არის",
                 "mark_all_as_read_tooltip": "",
@@ -409,6 +415,7 @@
                 "account_heading": "ანგარიში",
                 "change_email_button": "",
                 "change_password_button": "",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "",
                 "notify_by_email_heading": "",
                 "notify_by_web_heading": "ვები",
@@ -575,10 +582,6 @@
                 "new_password_label": "ახალი პაროლი",
                 "submit_button": "",
                 "title": ""
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
             }
         },
         "api": {

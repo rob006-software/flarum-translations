@@ -1,0 +1,75 @@
+{
+    "ianm-translate": {
+        "admin": {
+            "permission": {
+                "refresh-translation": "Force a re-translate of a cached translation",
+                "translate-to-locale": "View translation in current locale",
+                "translate-to-all-locales": "View translation in any forum locale"
+            },
+            "settings": {
+                "deepl": {
+                    "api_key": {
+                        "help": "Register at {link}. Driver will auto detect free/pro key type.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
+                    },
+                    "en_choice": {
+                        "help": "When translating to English, select which variant should be used.",
+                        "label": "English variant",
+                        "options": {
+                            "en-US": "English (US) en-US",
+                            "en-GB": "English (UK) en-GB"
+                        }
+                    },
+                    "formality": {
+                        "help": "Where available, translations can use different levels of formality. Select your preference here.",
+                        "label": "Formality",
+                        "options": {
+                            "default": "Default",
+                            "prefer_less": "Less formal",
+                            "prefer_more": "More formal"
+                        }
+                    }
+                },
+                "google-cloud": {
+                    "api_key": {
+                        "help": "Register for an API key at {link}. This driver uses the V2 API - Basic.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
+                    }
+                },
+                "provider": "Translation provider",
+                "readme-info": "See the README documention for extended information."
+            }
+        },
+        "forum": {
+            "unknown-language": "[not detected]",
+            "detected-language": "This post is in {postLang}",
+            "translate-button-label": "Translate",
+            "discussion": {
+                "post": {
+                    "close-translation": "Close translation",
+                    "translated-header": "AI translation from {from} to {to}",
+                    "translated-updated": "Translation last updated {time} using {provider}"
+                }
+            },
+            "user": {
+                "settings": {
+                    "heading": "Translation",
+                    "source-language": {
+                        "help": "When disabled, only posts written in a language other than the current forum language will be labelled. To label all posts with their detected language, enable this setting.",
+                        "label": "Always show post language"
+                    }
+                }
+            }
+        },
+        "lib": {
+            "providers": {
+                "deepl": "DeepL",
+                "google-free": "Google Translate",
+                "google-cloud": "Google Cloud Translate"
+            },
+            "settings": {
+                "api-key": "API Key"
+            }
+        }
+    }
+}

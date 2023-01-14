@@ -1,15 +1,25 @@
 {
     "nearata-minecraft-avatars": {
+        "admin": {
+            "retrieve_avatar_on_register": {
+                "label": "Nhận ảnh đại diện khi Đăng ký",
+                "help": "Nếu không có Tài khoản Minecraft với tên người dùng như vậy, Steve hoặc Alex làm skin mặc định."
+            }
+        },
         "forum": {
+            "help_text": "Tên tài khoản sẽ được chuyển thành UUID.",
+            "submit_button": "Lưu thay đổi",
+            "username_uuid_not_valid": "Tên tài khoản hoặc UUID không hợp lệ.",
+            "username_not_found": "Không tìm thấy tên tài khoản.",
+            "placeholder": "Tên tài khoản hoặc UUID",
+            "userpage_nav_button": "Ảnh đại diện Minecraft",
+            "minotar_enabled": "Đã bật",
+            "page_title": "Ảnh đại diện Minecraft",
             "avatar_changed": "Ảnh đại diện đã được thay đổi thành công.",
             "use_button": "Sử dụng ảnh đại diện Minecraft",
             "change_button": "Đổi ảnh đại diện Minecraft",
             "dismiss_button": "OK",
-            "help_text": "Phải là tên người dùng hoặc UUID hợp lệ (không dấu hoặc gạch ngang).",
-            "title": "Ảnh đại diện Minecraft",
-            "submit_button": "Lưu thay đổi",
-            "username_uuid_not_valid": "Tên tài khoản hoặc uuid không hợp lệ.",
-            "username_not_found": "Không tìm thấy tên tài khoản."
+            "title": "Ảnh đại diện Minecraft"
         }
     }
 }

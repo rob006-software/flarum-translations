@@ -1,0 +1,72 @@
+{
+    "fof-webhooks": {
+        "actions": {
+            "poll": {
+                "voted": "投票結果 `{1}`",
+                "created": "發起投票 `{1}`"
+            },
+            "post": {
+                "reacted": "戳表情 `{1}`",
+                "unreacted": "移除表情反應",
+                "upvoted": "頂帖",
+                "downvoted": "踩帖"
+            },
+            "user": {
+                "enabled2fa": "啟用兩步驟認證"
+            },
+            "extension": {
+                "installed": "安裝擴展 `{1}`",
+                "updated": "更新擴展 `{1}`"
+            },
+            "ip": {
+                "banned": "拉黑 IP `{1}`",
+                "unbanned": "取消拉黑 IP `{1}`"
+            }
+        },
+        "admin": {
+            "settings": {
+                "services": {
+                    "custom": "自定義"
+                },
+                "actions": {
+                    "extiverse": {
+                        "bazaar": {
+                            "title": "Extiverse 市場",
+                            "extensionwasinstalled": "擴展安裝",
+                            "extensionwasupdated": "擴展更新"
+                        }
+                    },
+                    "fof": {
+                        "banips": {
+                            "title": "FriendsOfFlarum 拉黑 IP",
+                            "ipwasbanned": "已封禁",
+                            "ipwasunbanned": "取消拉黑"
+                        },
+                        "byobu": {
+                            "title": "FriendsOfFlarum 私密主題",
+                            "discussionmadepublic": "討論轉公開"
+                        },
+                        "gamification": {
+                            "title": "FriendsOfFlarum Gamification",
+                            "postwasvoted": "帖子頂/踩"
+                        },
+                        "polls": {
+                            "title": "FriendsOfFlarum 投票",
+                            "pollwasvoted": "投票",
+                            "pollwascreated": "創建"
+                        },
+                        "reactions": {
+                            "title": "FriendsOfFlarum Reactions",
+                            "postwasreacted": "戳表情",
+                            "postwasunreacted": "移除表情"
+                        },
+                        "twofactor": {
+                            "title": "FriendsOfFlarum 兩步驗証",
+                            "userenabledtwofactor": "用戶啟用 2FA"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

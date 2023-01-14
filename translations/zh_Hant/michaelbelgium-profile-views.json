@@ -1,0 +1,19 @@
+{
+    "michaelbelgium-flarum-profile-views": {
+        "forum": {
+            "user": {
+                "viewlist": {
+                    "title": "最後訪客",
+                    "guest": "訪客"
+                },
+                "view_count_text": "訪問量 {viewcount, plural, one {{viewcount}} other {{viewcount}}}"
+            }
+        },
+        "admin": {
+            "settings": {
+                "track_guests_label": "記錄未登錄的訪客",
+                "max_viewcount_label": "最大訪客數列表"
+            }
+        }
+    }
+}

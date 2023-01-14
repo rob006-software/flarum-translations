@@ -23,8 +23,7 @@
                 "make_public": "Weet u zeker dat u de ontvangers wilt verwijderen en deze discussie zichtbaar wilt maken voor iedereen die de toegewezen tag kan bekijken?"
             },
             "labels": {
-                "recipients": "{count, plural, one {{count} Ontvanger} other {{count} Ontvangers}}",
-                "user_deleted": ""
+                "recipients": "{count, plural, one {{count} Ontvanger} other {{count} Ontvangers}}"
             },
             "nav": {
                 "start_button": "Bespreek privé",
@@ -95,7 +94,9 @@
                 "badge-icon": "Byobu-discussiebadge",
                 "enable-make-public-option": "Schakel de mogelijkheid \"openbaar maken\" in",
                 "enable-make-public-option-help": "Voegt de mogelijkheid toe voor degenen met toestemming om alle ontvangers te verwijderen, een nieuwe tag toe te wijzen en de discussie openbaar zichtbaar te maken (volgens de zichtbaarheidsinstellingen van de gekozen tag).",
-                "post-event-icon": "Byobu bericht evenementen"
+                "post-event-icon": "Byobu bericht evenementen",
+                "delete_on_last_recipient_left": "",
+                "delete_on_last_recipient_left_help": ""
             }
         },
         "email": {

@@ -30,7 +30,8 @@
                     "new_article": "Neuer Artikel",
                     "rename_category": "Kategorie umbenennen",
                     "edit_description": "Beschreibung bearbeiten",
-                    "change_icon": "Icon ändern"
+                    "change_icon": "Icon ändern",
+                    "recount_articles": ""
                 }
             },
             "article_events": {
@@ -150,6 +151,11 @@
                     "button": "Zu einem Ticket machen",
                     "confirm": "Bist du dir sicher, dass du diese Diskussion zu einem Ticket machen möchtest?",
                     "event": "Diskussion {ticket_title} wurde zu einem Ticket gemacht"
+                },
+                "convert_to_discussion": {
+                    "button": "",
+                    "confirm": "",
+                    "event": ""
                 },
                 "status": {
                     "new": {

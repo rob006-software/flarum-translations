@@ -1,6 +1,9 @@
 {
     "flarum-mentions": {
         "admin": {
+            "permissions": {
+                "mention_groups_label": ""
+            },
             "settings": {
                 "allow_username_format_label": "",
                 "allow_username_format_text": ""
@@ -14,7 +17,8 @@
             "notifications": {
                 "others_text": "",
                 "post_mentioned_text": "",
-                "user_mentioned_text": ""
+                "user_mentioned_text": "",
+                "group_mentioned_text": ""
             },
             "post": {
                 "mentioned_by_self_text": "",
@@ -26,12 +30,16 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "",
-                "notify_user_mentioned_label": ""
+                "notify_user_mentioned_label": "",
+                "notify_group_mentioned_label": ""
             },
             "user": {
                 "mentions_link": ""
             },
             "post_mention": {
+                "deleted_text": ""
+            },
+            "group_mention": {
                 "deleted_text": ""
             }
         },
@@ -41,6 +49,10 @@
                 "body": ""
             },
             "user_mentioned": {
+                "subject": "",
+                "body": ""
+            },
+            "group_mentioned": {
                 "subject": "",
                 "body": ""
             }

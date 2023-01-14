@@ -2,25 +2,13 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": ""
+                "view": "Zobraziť denník auditu"
             },
             "header": {
                 "title": "",
                 "free": "",
                 "pro": "",
                 "upgrade": ""
-            }
-        },
-        "forum": {
-            "link": {
-                "discussion-audit": "",
-                "user-audit": "",
-                "actor-audit": ""
-            },
-            "modal": {
-                "discussion-title": "",
-                "user-title": "",
-                "actor-title": ""
             }
         },
         "lib": {
@@ -64,6 +52,7 @@
                     "filterUser": "",
                     "filterDiscussion": ""
                 },
+                "audit_log_cleared": "",
                 "cache_cleared": "",
                 "discussion": {
                     "created": "",

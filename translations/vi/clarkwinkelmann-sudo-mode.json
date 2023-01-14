@@ -1,0 +1,23 @@
+{
+    "clarkwinkelmann-sudo-mode": {
+        "admin": {
+            "settings": {
+                "duration": "Chế độ sudo duy trì hoạt động trong bao lâu (giây)"
+            }
+        },
+        "lib": {
+            "sudo": {
+                "title": "Xác nhận quyền truy cập",
+                "message": "Xác nhận mật khẩu của bạn để vào chế độ sudo. Bạn sẽ chỉ được yêu cầu xác thực lại sau vài giờ.\n",
+                "password": "Mật khẩu",
+                "submit": "Đồng ý"
+            }
+        },
+        "api": {
+            "errors": {
+                "cookieOnly": "Chỉ khả dụng với cookie",
+                "incorrectPassword": "Mật khẩu không hợp lệ"
+            }
+        }
+    }
+}

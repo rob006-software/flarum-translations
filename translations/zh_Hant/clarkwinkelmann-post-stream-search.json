@@ -1,0 +1,43 @@
+{
+    "clarkwinkelmann-post-stream-search": {
+        "admin": {
+            "settings": {
+                "dropdownAccess": "操作入口位於主題帖下拉選單",
+                "dropdownAccessHelp": "若關閉此項，篩選功能僅能通過默認及下方配置的快捷鍵打開。",
+                "authorQuickFilter": "快速過濾作者",
+                "authorQuickFilterHelp": "用戶設定的快捷方式將添加到每個帖子下拉列表中以進行過濾。",
+                "originalPosterBadge": "顯示交互式 OP 徽章",
+                "originalPosterBadgeHelp": "OP 將在帖子旁邊添加徽章。單擊徽章將自動篩選該用戶。"
+            }
+        },
+        "forum": {
+            "stream": {
+                "noResults": "在這個主題中搜尋不到相關發文",
+                "unmatchedGap": "{count, plural, one {One non-matching post hidden} other {{count} non-matching posts hidden}}",
+                "otherAuthorsGap": "{count, plural, one {One post by another author hidden} other {{count} posts by other authors hidden}}"
+            },
+            "toolbar": {
+                "searchPlaceholder": "在討論中查找...",
+                "authorPlaceholder": "篩選作者…",
+                "summary": "{matching} of {total} 匹配",
+                "pin": "始終在討論中打開篩選器工具欄",
+                "close": "清除篩選器並關閉工具欄",
+                "clear": "清除篩選"
+            },
+            "discussionControls": {
+                "searchInDiscussion": "在主題中搜索"
+            },
+            "postControls": {
+                "authorFilter": "僅顯示來自該作者的回覆"
+            },
+            "post": {
+                "opBadge": "討論開始",
+                "opBadgeTooltip": "單擊僅顯示來自該用戶的回覆"
+            },
+            "cannotGoToPost": {
+                "message": "無法前往貼文",
+                "action": "嘗試清除過濾器"
+            }
+        }
+    }
+}

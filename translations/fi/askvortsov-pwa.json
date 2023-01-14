@@ -2,91 +2,91 @@
     "askvortsov-pwa": {
         "admin": {
             "nav": {
-                "pwa_button": "",
-                "pwa_text": ""
+                "pwa_button": "Progressiivinen verkkosovellus (PWA)",
+                "pwa_text": "Määritä Flarum toimimaan Progressiivisena verkkosovelluksena, asennettavissa mobiililaitteille."
             },
             "pwa": {
                 "about": {
-                    "description_label": "",
-                    "description_text": "",
-                    "long_name_label": "",
-                    "long_name_text": "",
-                    "heading": "",
-                    "short_name_label": "",
-                    "short_name_text": ""
+                    "description_label": "Kuvaus",
+                    "description_text": "Voit asettaa kuvauksen 'Yleiset' sivulla hallinnassasi.",
+                    "long_name_label": "Pitkä nimi",
+                    "long_name_text": "Käyttäjälle näytettävä verkkosovelluksen nimi.",
+                    "heading": "Tietoa",
+                    "short_name_label": "Lyhyt nimi",
+                    "short_name_text": "Nimi joka näytetään käyttäjälle jos pitkälle nimelle ei ole tarpeeksi tilaa."
                 },
                 "colors": {
-                    "heading": "",
-                    "background_color_label": "",
-                    "background_color_text": "",
-                    "theme_color_label": "",
-                    "theme_color_text": ""
+                    "heading": "Värit",
+                    "background_color_label": "Taustaväri",
+                    "background_color_text": "Tätä käytetään väliaikaisena värinä, kun PWA sovellusta ladataan. Sitä ei näytetä sen jälkeen, kun sovellus on ladattu.",
+                    "theme_color_label": "Teeman väri",
+                    "theme_color_text": "Tätä väriä käytetään joskus laitteissa kun sovellusta näytetään. Esimerkiksi Androidin tehtävän vaihtajassa väri näytetään sivun ympärillä."
                 },
                 "maintenance": {
-                    "heading": "",
-                    "debug_label": "",
-                    "debug_text": "",
-                    "reset_vapid_text": "",
-                    "reset_vapid_confirm": "",
-                    "reset_vapid_success": ""
+                    "heading": "Huolto",
+                    "debug_label": "Debug tila?",
+                    "debug_text": "Tämä lokittaa tietoa ilmoituksista `storage/logs` kansioon. Tämän pitäisi olla normaalisti pois päältä jotta ei tulisi turhia lokeja.",
+                    "reset_vapid_text": "Tämä luo VAPID avaimet ja poistaa olemassa olevat tilaukset nykyisille VAPID avaimille.",
+                    "reset_vapid_confirm": "VAPID avainten nollaus poistaa kaikki olemassa olevat tilaukset avaimille jolloin käyttäjät eivät saa ilmoituksia ennen seuraavaa vierailua. Tämä pitäisi tehdä vain, kun määritetään ilmoituksia ensimmäisen kerran tai push ilmoitukset ei toimi ja on ilmoitus puuttuvista VAPID avaimista.",
+                    "reset_vapid_success": "VAPID avaimet onnistuneesti nollattu. {count} tilausta nollattiin. Lataa sivu uudelleen nähdäksesi päivittyneen tilanteen."
                 },
                 "other": {
-                    "heading": "",
-                    "force_portrait_text": ""
+                    "heading": "Muu",
+                    "force_portrait_text": "Pakota pystytila?"
                 },
-                "heading": "",
-                "text": "",
-                "status_check_heading": "",
-                "logo_heading": "",
-                "logo_text": "",
-                "logo_size_text": "",
-                "submit_button": "",
-                "refreshed_message": ""
+                "heading": "Progressiivisen verkkosovelluksen määritykset",
+                "text": "Määritä Flarum foorumisi toimimaan progressiivisena verkkosovelluksena! Huomioithan, että tämä ei automaattisesti lisää sivuasi sovelluskauppaan. Tämä sen sijaan ottaa käyttöön 'Lisää Koti-valikkoon' vaihtoehdon. Tämä tarjoaa joitain tilan tarkastuksia, tosin paras tapa tämän testaamiseen on kokeilla ja asentaa se (etsi Googlesta ohjeita PWA sovellusten asentamiseen). Ota myös huomioon, että 'asenna tämä PWA' popupit on selaimen määrityksistä kiinni ja niitä ei voi laukaista kehittäjän/ylläpitäjän/sovelluksen toimesta. Suosittelen ohjeistamaan sivustolla miten PWA sovellus asennetaan.",
+                "status_check_heading": "Tilanne",
+                "logo_heading": "Logot ja ikonit",
+                "logo_text": "Sinun täytyy vähintään asettaa yksi logo, jotta progressiivinen verkkosovellus on asennettavissa. Huomioi, että kaikki logot pitää olla neliöitä, jos ne eivät ole niin niiden kokoa muutetaan ja ne voi venyä.\n\nAlla on useampi vaihtoehto ja suosittelemmekin, että siirrät mahdollisimman monta eri kokoista logoa, jotta toimii mahdollisimman monella eri laitteella.\n\nHuomoi, että voit siirtää yhden ison logon pienemmille logoille. Esimerkiksi voit siirtää 1000px x 1000px logon KAIKILLE. Mutta jos koitat siirtää 50px x 50px logon 512px x 512px kohtaan niin sitä venytetään paljon.\n",
+                "logo_size_text": "Siirrä logo joka muutetaan {size} pikseliä kertaa {size} pikseliä kokoon.",
+                "submit_button": "Tallenna asetukset",
+                "refreshed_message": "PWA määritykset päivitetty onnistuneesti."
             },
             "status": {
-                "config_no_https": "",
-                "possible_https_disabled": "",
-                "no_logo": "",
-                "no_name": "",
-                "no_vapid_keys": "",
-                "key_gen_failed": "",
-                "suggest_gmp": "",
-                "success": ""
+                "config_no_https": "Osoite, jota käytetään config.php tiedostoon ei käytä HTTPS:ssää. HTTPS on vaadittu, jotta PWA toimii.",
+                "possible_https_disabled": "Sivustosi ei ehkä toimi HTTPS yli. Välimuistin tyhjennys (Hallinnan etusivu => Työkalut painike) voi auttaa. Jos se on jo HTTPS yli niin voit olla huomioimatta tätä. Jos ei ole niin huomio se, että HTTPS on pakollinen, jotta PWA toimii.",
+                "no_logo": "Sinun täytyy siirtää vähintään yksi logo joka on vähintään 196px jotta sovelluksesi toimii.",
+                "no_name": "Sinun täytyy syöttää sovelluksen koko nimi jotta sovellus toimii.",
+                "no_vapid_keys": "VAPID avaimia ei löytynyt. Nämä ovat pakollisia push notifikaatioita varten. Voit nollata VAPID avaimet alta.",
+                "key_gen_failed": "Push ilmoitusten avainten luonti epäonnistui. Koko virhe viesti oli: {error}",
+                "suggest_gmp": "Gmp PHP lisäosa ei näytä olevan aktiivinen palvelimellasi. Se ei ole täysin pakollinen, mutta se voi parantaa toimintaa ja on suositeltu. Jotkut webhotellit eivät tue tätä.",
+                "success": "Mahdollisia ongelmia ei löytynyt!"
             }
         },
         "forum": {
             "alerts": {
-                "optin": "",
-                "optin_button": ""
+                "optin": "Sinulla on push ilmoitukset päällä, mutta niitä ei ole määritetty tälle laitteelle.",
+                "optin_button": "Määritä"
             },
             "discussion_controls": {
-                "share_button": ""
+                "share_button": "Jaa"
             },
             "post_controls": {
-                "share_button": "",
+                "share_button": "Jaa",
                 "share_api": {
-                    "title": ""
+                    "title": "{username} vastaus {title}"
                 }
             },
             "user_controls": {
-                "share_button": ""
+                "share_button": "Jaa"
             },
             "settings": {
-                "push_header": "",
+                "push_header": "Työnnä",
                 "pwa_notifications": {
-                    "access_default": "",
-                    "access_default_button": "",
-                    "access_denied": "",
-                    "access_denied_button": "",
-                    "no_browser_support": "",
-                    "no_browser_support_button": ""
+                    "access_default": "Selaimen rajoituksista johtuen sinun täytyy ottaa push ilmoitukset käyttöön.",
+                    "access_default_button": "Ota käyttöön",
+                    "access_denied": "Sinun täytyy säätää selaimesi asetuksia ottaaksesi push ilmoituksia vastaan tällä laitteella.",
+                    "access_denied_button": "Opi kuinka",
+                    "no_browser_support": "Tämä selain ei tue push ilmoituksia progressiivisille verkkosovelluksille.",
+                    "no_browser_support_button": "Lue lisää"
                 }
             }
         },
         "views": {
             "offline": {
-                "header": "",
-                "text": ""
+                "header": "Verkkoyhteyden virhe",
+                "text": "Tämä sovellus vaatii verkkoyhteyden, sitä ei voi käyttää offline tilassa. Tarkistathan yhteyden."
             }
         }
     }

@@ -1,0 +1,21 @@
+{
+    "flarum-akismet": {
+        "admin": {
+            "akismet_settings": {
+                "api_key_label": "Ключ API",
+                "title": "Налаштування Akismet",
+                "delete_blatant_spam_label": "Автоматичне видалення відвертого спаму",
+                "delete_blatant_spam_help": "Якщо Akismet визначив, що коментар є відвертим спамом, замість того, щоб позначити його прапорцем, автоматично видаляє пост"
+            },
+            "permissions": {
+                "bypass_akismet": "Обхід Akismet"
+            }
+        },
+        "forum": {
+            "post": {
+                "akismet_flagged_text": "Akismet помітив як спам",
+                "not_spam_button": "Не спам"
+            }
+        }
+    }
+}

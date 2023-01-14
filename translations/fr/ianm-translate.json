@@ -1,0 +1,78 @@
+{
+    "ianm-translate": {
+        "admin": {
+            "permission": {
+                "refresh-translation": "Forcer une retraduction d'une traduction mise en cache",
+                "translate-to-locale": "Afficher la traduction dans la langue actuelle",
+                "translate-to-all-locales": "Afficher la traduction dans toutes les langues du forum",
+                "translate": "Voir les traductions"
+            },
+            "settings": {
+                "deepl": {
+                    "api_key": {
+                        "help": "Enregistrez-vous sur {link}. Le pilote détectera automatiquement le type de clé, gratuite ou professionnelle.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
+                    },
+                    "en_choice": {
+                        "help": "Lors de la traduction en anglais, sélectionnez la variante à utiliser.",
+                        "label": "Variante en anglais",
+                        "options": {
+                            "en-US": "Anglais (américain) en-US",
+                            "en-GB": "Anglais (britannique) en-GB"
+                        }
+                    },
+                    "formality": {
+                        "help": "Lorsque cela est possible, les traductions pourront utiliser différents niveaux de formalité. Sélectionnez votre préférence ici.",
+                        "label": "Formalité",
+                        "options": {
+                            "default": "Par défaut",
+                            "prefer_less": "Moins formel",
+                            "prefer_more": "Plus formel"
+                        }
+                    }
+                },
+                "google-cloud": {
+                    "api_key": {
+                        "help": "Enregistrez-vous pour obtenir une clé API sur {link}. Ce pilote utilise l'API V2 - Basique.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
+                    }
+                },
+                "provider": "Fournisseur de services de traduction",
+                "readme-info": "Pour plus d'informations, veuillez consulter la documentation dans le fichier README.",
+                "any-language": "Toutes les langues",
+                "any-language-help": "Lorsque cette option est activée, toutes les langues de traduction prises en charge par le fournisseur actuel seront disponibles. Pour limiter les langues de traduction à celles qui sont activées sur votre forum, veuillez laisser cette option désactivée."
+            }
+        },
+        "forum": {
+            "unknown-language": "[non détecté]",
+            "detected-language": "Ce message est en {postLang}",
+            "translate-button-label": "Traduire",
+            "discussion": {
+                "post": {
+                    "close-translation": "Fermer la traduction",
+                    "translated-header": "Traduction par intelligence artificielle de {from} en {to}",
+                    "translated-updated": "Dernière mise à jour de la traduction le {time} en utilisant {provider}"
+                }
+            },
+            "user": {
+                "settings": {
+                    "heading": "Traduction",
+                    "source-language": {
+                        "help": "Lorsque cette option est désactivée, seuls les messages écrits dans une langue autre que la langue actuelle du forum seront étiquetés. Pour étiqueter tous les messages avec leur langue détectée, veuillez activez ce paramètre.",
+                        "label": "Toujours montrer la langue du message"
+                    }
+                }
+            }
+        },
+        "lib": {
+            "providers": {
+                "deepl": "DeepL",
+                "google-free": "Google Traduction",
+                "google-cloud": "Google Cloud Translate"
+            },
+            "settings": {
+                "api-key": "Clé API"
+            }
+        }
+    }
+}

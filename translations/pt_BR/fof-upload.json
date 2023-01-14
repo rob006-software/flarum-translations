@@ -2,7 +2,7 @@
     "fof-upload": {
         "admin": {
             "pane": {
-                "title": "",
+                "title": "Upload",
                 "description": "Configure serviços e preferências de upload."
             },
             "help_texts": {
@@ -26,9 +26,9 @@
                     "secret": "",
                     "title": "Configurações de armazenamento do AWS S3",
                     "advanced_title": "Configurações avançadas de armazenamento S3",
-                    "endpoint": "",
+                    "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Use o estilo de caminho do endpoint",
-                    "acl": ""
+                    "acl": "Lista de controle de acesso (ACL)"
                 },
                 "disable-download-logging": {
                     "title": "Desativar logging de downloads",
@@ -107,10 +107,10 @@
             },
             "upload_methods": {
                 "aws-s3": "S3/Compatível",
-                "imgur": "",
-                "local": "",
-                "ovh-svfs": "",
-                "qiniu": ""
+                "imgur": "Imgur",
+                "local": "Local",
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": "QiNiu"
             },
             "inspect-mime": {
                 "title": "Inspecionar MIME",
@@ -130,7 +130,7 @@
             "media_manager": "Gerente de mídia",
             "buttons": {
                 "attach": "Anexar",
-                "upload": "",
+                "upload": "Upload",
                 "user_uploads": "Upload do usuário",
                 "cancel": "Cancelar",
                 "media": "Minha mídia"
@@ -142,7 +142,7 @@
                 "modal_empty_desktop": "Sua lista de arquivos está vazia. Clique no botão ou arraste um arquivo aqui para fazer o upload.",
                 "modal_empty_phone": "Sua lista de arquivos está vazia. Toque no botão acima para fazer upload de um arquivo.",
                 "select_file_a11y_label": "Selecione o arquivo \"{fileName}\"",
-                "confirm_selection_btn": "",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Nenhum selecionado} one {Seleciona um arquivo} other {Selecione os arquivos}}",
                 "load_more_files_btn": "Carregar mais arquivos",
                 "hide_file": {
                     "btn_a11y_label": "Ocultar \"{fileName}\" do gerenciador de mídia",

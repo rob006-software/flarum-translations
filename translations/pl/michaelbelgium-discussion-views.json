@@ -36,13 +36,20 @@
             "settings": {
                 "title": "Ustawienia liczby wyświetleń dyskusji",
                 "track_unique_label": "Zliczaj unikalne wyświetlania",
-                "track_guests": "Zliczaj gości",
+                "track_unique_text": "Zliczaj tylko pierwsze wyświetlenie dla danego adresu IP",
+                "track_guests_label": "Zliczaj wyświetlenia gości",
                 "abbr_numbers_label": "Skróć liczbę wyświetleń (\"1k\" zamiast \"1000\")",
+                "abbr_numbers_text": "Jeśli włączone, duże liczby zostaną skrócone (np. 1000 = 1K)",
                 "show_filter_label": "Włącz sortowanie dyskusji na podstawie liczby wyświetleń",
                 "max_viewcount_label": "Liczba ostatnio oglądających wyświetlanych na liście",
-                "max_viewcount_text": "Ustawienie dotyczy zarówno listy w sidebarze jak i stopce",
+                "max_viewcount_text": "Ustaw liczbę wyświetlanych użytkowników na liście (dotyczy zarówno listy w sidebarze jak i stopce)",
                 "show_viewlist_label": "Włącz listę ostatnio oglądających",
-                "show_footer_viewlist_label": "Włącz listę ostatnio oglądających w stopce"
+                "show_viewlist_text": "Włącz listę ostatnio oglądających w sidebarze dyskusji",
+                "show_footer_viewlist_label": "Włącz listę ostatnio oglądających w stopce",
+                "show_footer_viewlist_text": "Włącz listę ostatnio oglądających w stopce pierwszego posta w dyskusji",
+                "ignore_crawlers_label": "Ignoruj boty indeksujące",
+                "ignore_crawlers_text": "Zapobiega zliczaniu wyświetleń generowanych przez boty",
+                "track_guests": "Zliczaj gości"
             }
         }
     }

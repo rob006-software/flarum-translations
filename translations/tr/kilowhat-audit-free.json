@@ -11,18 +11,6 @@
                 "upgrade": "Pro'ya yükselt"
             }
         },
-        "forum": {
-            "link": {
-                "discussion-audit": "Denetim günlüğü",
-                "user-audit": "Denetim günlüğü (hesap düzenlemeleri)",
-                "actor-audit": "Denetim günlüğü (katılımcı olarak kullanıcı)"
-            },
-            "modal": {
-                "discussion-title": "Tartışma Denetim Günlüğü",
-                "user-title": "Kullanıcı Denetim Günlüğü",
-                "actor-title": "Katılımcı Denetim Günlüğü"
-            }
-        },
         "lib": {
             "browser": {
                 "filterPlaceholder": "Günlükleri filtrele",
@@ -64,6 +52,7 @@
                     "filterUser": "Aynı kullanıcıyı etkileyen günlükleri göster",
                     "filterDiscussion": "Aynı tartışmayı etkileyen günlükleri göster"
                 },
+                "audit_log_cleared": "",
                 "cache_cleared": "Önbelleği manuel olarak temizledi",
                 "discussion": {
                     "created": "Tartışma başlatıldı {discussion}",
@@ -139,6 +128,18 @@
                     "username_request_approved": "{username} adlı kullanıcının {old_username} olan kullanıcı adının {new_username} olarak değiştirilmesi onaylandı",
                     "username_request_rejected": "{username} kullanıcısının kullanıcı adı değişikliği reddedildi"
                 }
+            }
+        },
+        "forum": {
+            "link": {
+                "discussion-audit": "Denetim günlüğü",
+                "user-audit": "Denetim günlüğü (hesap düzenlemeleri)",
+                "actor-audit": "Denetim günlüğü (katılımcı olarak kullanıcı)"
+            },
+            "modal": {
+                "discussion-title": "Tartışma Denetim Günlüğü",
+                "user-title": "Kullanıcı Denetim Günlüğü",
+                "actor-title": "Katılımcı Denetim Günlüğü"
             }
         }
     }

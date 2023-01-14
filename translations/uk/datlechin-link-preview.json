@@ -1,0 +1,23 @@
+{
+    "datlechin-link-preview": {
+        "admin": {
+            "settings": {
+                "blacklist_label": "Чорний список",
+                "blacklist_help": "Введіть через кому список доменів або URL-адрес, які потрібно виключити з попереднього перегляду посилань.",
+                "blacklist_placeholder": "Наприклад: facebook.com,https://domain.com/path",
+                "whitelist_label": "",
+                "whitelist_help": "",
+                "whitelist_placeholder": "",
+                "convert_media_urls_label": "Конвертація медіа URL-адрес",
+                "convert_media_urls_help": "Якщо цей параметр увімкнено, то всі URL-адреси медіа будуть перетворені на попередній перегляд посилань.",
+                "use_google_favicons_label": "",
+                "use_google_favicons_help": "",
+                "cache_time_label": "",
+                "cache_time_help": ""
+            }
+        },
+        "forum": {
+            "site_cannot_be_reached": "На цей сайт неможливо потрапити."
+        }
+    }
+}

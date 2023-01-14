@@ -3,6 +3,9 @@
         "admin": {
             "settings": {
                 "generate_backups": "Generate backup codes."
+            },
+            "permissions": {
+                "can_enable_twofactor": "Can enable Two Factor"
             }
         },
         "forum": {

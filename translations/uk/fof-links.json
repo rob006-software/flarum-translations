@@ -1,0 +1,35 @@
+{
+    "fof-links": {
+        "admin": {
+            "edit_link": {
+                "delete_link_button": "Видалити посилання",
+                "delete_link_confirmation": "Ви впевнені, що хочете видалити це посилання?",
+                "everyone-label": "Усі",
+                "guests-label": "Гості",
+                "internal_link": "Це внутрішнє посилання?",
+                "members-label": "Зареєстровані користувачі",
+                "open_newtab": "Відкрити посилання в новій вкладці",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-links.ref.create_link",
+                "title_label": "=> fof-links.ref.title",
+                "title_placeholder": "=> fof-links.ref.title",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "url_description": "Залиште порожнім, щоб показати як мітку.",
+                "url_label": "=> fof-links.ref.url",
+                "url_placeholder": "=> fof-links.ref.url",
+                "visibility": "Видимість посилання"
+            },
+            "links": {
+                "create_button": "=> fof-links.ref.create_link",
+                "links": "=> fof-links.ref.links"
+            }
+        },
+        "ref": {
+            "create_link": "Створити посилання",
+            "links": "Посилання",
+            "title": "Назва",
+            "url": "URL"
+        }
+    }
+}

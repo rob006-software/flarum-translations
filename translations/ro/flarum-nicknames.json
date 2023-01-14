@@ -1,0 +1,42 @@
+{
+    "flarum-nicknames": {
+        "admin": {
+            "permissions": {
+                "edit_own_nickname_label": "Editarea propriului pseudonim (nickname)"
+            },
+            "settings": {
+                "max_label": "Lungimea maximă a pseudonimului (nickname)",
+                "min_label": "Lungimea minimă a pseudonimului (nickname)",
+                "random_username_label": "",
+                "random_username_help": "",
+                "regex_label": "Expresia regulată pentru validare",
+                "set_on_registration_label": "",
+                "unique_label": "Obligatoriu pseudonim (nickname) unic?"
+            },
+            "wrong_driver": "Trebuie să selectați 'nickname' ca driver pentru afișarea numelui în <a><strong>Setări de bază</strong></a> pentru ca această extensie să funcționeze."
+        },
+        "api": {
+            "invalid_nickname_message": "Acest pseudonim (nickname) este nevalid. Vă rugăm, contactați administratorul forumului Dvs. pentru mai multe informații despre regulile pseudonimului (nickname)."
+        },
+        "forum": {
+            "change_nickname": {
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "edit_user": {
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "Pseudonim (nickname)"
+            },
+            "settings": {
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": ""
+            }
+        },
+        "ref": {
+            "change_nickname": "Modificare pseudonim (nickname)",
+            "nickname": ""
+        }
+    }
+}

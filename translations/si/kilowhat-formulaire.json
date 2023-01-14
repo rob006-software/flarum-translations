@@ -34,7 +34,20 @@
                     "fas-circle": "",
                     "switch": "",
                     "native": ""
-                }
+                },
+                "horizontal-layout": "",
+                "horizontal-layout-locations": {
+                    "standaloneEdit": "",
+                    "standaloneView": "",
+                    "profileEdit": "",
+                    "profileView": "",
+                    "signUp": "",
+                    "discussionEdit": "",
+                    "discussionView": "",
+                    "discussionComposer": ""
+                },
+                "uniformComposerLayout": "",
+                "uniformComposerLayoutHelp": ""
             }
         },
         "forum": {
@@ -54,6 +67,7 @@
                 },
                 "empty": "",
                 "load-more": "තව පූරණය කරන්න",
+                "search": "",
                 "new": "",
                 "edit": "සංස්කරණය",
                 "show": "පෙන්වන්න",
@@ -143,6 +157,7 @@
                     "title": "",
                     "show-on-creation": {
                         "discussion": "",
+                        "discussionHelp": "",
                         "user": ""
                     },
                     "automatic-discussion": "",
@@ -285,6 +300,7 @@
                 "guest": "",
                 "load-more": "තව පූරනය කරන්න",
                 "empty": "",
+                "search": "",
                 "export": "නිර්යාත කරන්න",
                 "columns": {
                     "date": "දිනය",
@@ -354,6 +370,14 @@
             "discussion-submission": {
                 "empty": "",
                 "edit": ""
+            },
+            "discussion-composer": {
+                "field": {
+                    "tags": "",
+                    "poll": "",
+                    "title": "",
+                    "content": ""
+                }
             }
         },
         "api": {
@@ -363,6 +387,7 @@
             "cannot-change-form-type": "",
             "unknown-form": "",
             "unauthorized-form": "",
+            "unauthorized-scoped-form": "",
             "file-already-belongs-form": "",
             "file-already-belongs-submission": "",
             "export": {
@@ -386,7 +411,8 @@
             "title-new-submission": "",
             "edit": "සංස්කරණය",
             "footer": "",
-            "sub-entries": ""
+            "sub-entries": "",
+            "no-answer": ""
         },
         "ref": {
             "manager": "",

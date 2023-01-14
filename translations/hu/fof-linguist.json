@@ -2,115 +2,115 @@
     "fof-linguist": {
         "admin": {
             "tabs": {
-                "strings": "",
-                "coverage": "",
-                "export": "",
-                "import": ""
+                "strings": "Fordítások",
+                "coverage": "Lefedettség",
+                "export": "Exportálás",
+                "import": "Importálás"
             },
             "buttons": {
-                "apply": "",
-                "reset": "",
-                "copy-original": "",
-                "load-more": "",
-                "delete-redundant": "",
-                "delete-redundant-confirm": "",
-                "delete-all": "",
-                "delete-all-confirm": ""
+                "apply": "Alkalmaz",
+                "reset": "Eredeti helyreállítása",
+                "copy-original": "Eredeti szöveg másolása",
+                "load-more": "Továbbiak betöltése",
+                "delete-redundant": "Redundáns fordítások törlése",
+                "delete-redundant-confirm": "Ez törölni fog {count} olyan fordítást, amely egyező eredeti és egyéni értékkel rendelkezik. Ez hasznos lehet a nyelvi csomag frissítése utáni takarításhoz.\n",
+                "delete-all": "Összes fordítás törlése",
+                "delete-all-confirm": "Ez törli MIND a(z) {count} egyéni fordítást. Győződjön meg róla, hogy mindent exportált vagy minden olyanról készített biztonsági másolatot, amelyet megtartana.\n"
             },
             "locales": {
-                "all": ""
+                "all": "Összes"
             },
             "placeholder": {
-                "not-translated": "",
-                "all-locales": "",
-                "hint": ""
+                "not-translated": "Nem lefordított",
+                "all-locales": "Az itt megadott szöveg az összes nyelven megjelenik",
+                "hint": "Eredeti érték:"
             },
             "filters": {
-                "search": "",
-                "with-own-translations": "",
-                "missing": "",
-                "missing-middle-label": "",
+                "search": "Fordítási szövegek keresése…",
+                "with-own-translations": "Saját fordítások",
+                "missing": "Hiányzó fordítások keresése",
+                "missing-middle-label": "fordítások ebben:",
                 "negation-options": {
-                    "with": "",
-                    "without": ""
+                    "with": "Ezekkel:",
+                    "without": "Ezek nélkül:"
                 },
                 "type-options": {
-                    "any": "",
-                    "original": "",
-                    "own": ""
+                    "any": "Eredeti vagy egyéni",
+                    "original": "Eredeti",
+                    "own": "Egyéni"
                 },
                 "operation-options": {
-                    "or": "",
-                    "and": ""
+                    "or": "A következők egyike:",
+                    "and": "A következők mindegyike:"
                 },
-                "for-extension": "",
-                "frontend": "",
-                "frontend-all-except-admin": "",
-                "mass-edit": "",
-                "results": ""
+                "for-extension": "Bővítményhez",
+                "frontend": "Felülethez",
+                "frontend-all-except-admin": "Az Adminisztrációt kivéve mindhez",
+                "mass-edit": "Tömeges szerkesztés",
+                "results": "{shown} / {total} egyező fordítás megjelenítése"
             },
             "clear-cache": {
-                "text": "",
-                "button": ""
+                "text": "Az új fordítások még nem lettek alkalmazva. Megjegyzés: a gyorsítótár ürítése néhány pillanatra lelassíthatja a fórumot.\n",
+                "button": "Gyorsítótár ürítése most"
             },
             "coverage": {
                 "column-options": {
-                    "locale": "",
-                    "namespace": ""
+                    "locale": "Nyelv szerint",
+                    "namespace": "Felület szerint"
                 },
                 "total-options": {
-                    "percent": "",
-                    "count": ""
+                    "percent": "Százalék",
+                    "count": "Számosság"
                 },
                 "columns": {
-                    "namespace": "",
-                    "total": "",
-                    "all-except-admin": "",
-                    "all-frontends": ""
+                    "namespace": "Névtér",
+                    "total": "Összesen",
+                    "all-except-admin": "Fórum és más felületek",
+                    "all-frontends": "Összes felület megjelenítése"
                 },
                 "count": {
-                    "percent": "",
-                    "total": "",
-                    "details": ""
+                    "percent": "{percent}%",
+                    "total": "{translated} / {total}",
+                    "details": "{total} összesen / {original} eredeti / {custom} egyéni"
                 },
-                "all-namespaces": "",
-                "apply-missing-filter": ""
+                "all-namespaces": "Összes",
+                "apply-missing-filter": "Egyező hiányzó fordítások megjelenítése"
             },
             "export": {
-                "title": "",
-                "warning": "",
-                "locale": "",
-                "locale-all": "",
-                "namespace": "",
-                "namespace-all": "",
-                "include-originals": "",
-                "include-all": "",
-                "output": "",
-                "output-loading": "",
-                "output-empty": "",
-                "download": ""
+                "title": "Exportálás",
+                "warning": "Az exportálási formátum a Flarum Yaml-alapú fordítási fájljait használja, amely a fordítások a fórumok és a nyelvi csomagok karbantartói általi megosztására lett tervezve. A formátum nem arra lett tervezve, hogy az összes fordítást átvigye egy új fórumba. A használati esettől függően jobb ötlet lehet az adatbázis közvetlen másolása.\n",
+                "locale": "Területi beállítás",
+                "locale-all": "„Összes” fiktív területi beállítás",
+                "namespace": "Névtér",
+                "namespace-all": "Összes",
+                "include-originals": "Eredeti fordítások belevétele",
+                "include-all": "Az „Összes” nyelvhez meghatározott fordítások belevétele",
+                "output": "Kimenet",
+                "output-loading": "Kimenet betöltése…",
+                "output-empty": "Üres kimenet",
+                "download": "Letöltés"
             },
             "import": {
-                "title": "",
-                "input": "",
-                "input-placeholder": "",
-                "locale": "",
-                "locale-all": "",
-                "override-existing": "",
-                "submit": "",
-                "results": "",
-                "results-with-ignore": ""
+                "title": "Importálás",
+                "input": "Bemenet",
+                "input-placeholder": "Húzzon és ejtsen, vagy illesszen be ide egy Yaml-fájlt",
+                "locale": "Területi beállítás",
+                "locale-all": "„Összes” fiktív területi beállítás",
+                "override-existing": "Meglévő saját egyéni fordítások felülírása",
+                "submit": "Importálás",
+                "results": "Az importálás kész. {imported} szöveg lett importálva, és {identical} egyező szöveg kihagyásra került. Az oldal most frissülni fog, hogy az új fordításokat jelenítse meg.\n",
+                "results-with-ignore": "Az importálás kész. {imported} szöveg lett importálva, {ignored} meglévő szöveg figyelmen kívül lett hagyva és {identical} egyező szöveg kihagyásra került. Az oldal most frissülni fog, hogy az új fordításokat jelenítse meg.\n"
             },
             "known-namespace": {
-                "core": "",
-                "validation": ""
+                "core": "Flarum mag",
+                "validation": "Ellenőrzési hibák"
             },
             "known-frontend": {
-                "forum": "",
-                "admin": "",
-                "lib": "",
-                "ref": "",
-                "api": ""
+                "forum": "Fórum",
+                "admin": "Adminisztráció",
+                "lib": "Lib (a Fórumban és az Adminisztrációban is használt)",
+                "ref": "Ref (más kulcsokban újrahasznált)",
+                "api": "API"
             }
         }
     }

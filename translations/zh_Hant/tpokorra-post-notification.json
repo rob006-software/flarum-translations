@@ -1,0 +1,30 @@
+{
+    "tpokorra-post-notification": {
+        "admin": {
+            "settings": {
+                "title": "貼文通知設定",
+                "recipients": {
+                    "post_approval": {
+                        "to": "审核新貼文通知郵件列表，逗號分割"
+                    },
+                    "new_discussion": {
+                        "to": "新貼文通知郵件列表，逗號分割",
+                        "bcc": "新貼文通知抄送郵件列表，逗號分割"
+                    },
+                    "new_post": {
+                        "to": "新回覆通知郵件列表，逗號分割",
+                        "bcc": "新回覆通知抄送郵件列表，逗號分割"
+                    },
+                    "revised_post": {
+                        "to": "贴文被編輯通知郵件列表，逗號分割",
+                        "bcc": "贴文被編輯通知抄送郵件列表，逗號分割"
+                    }
+                },
+                "new_discussion": "用於說明新貼文的標籤",
+                "new_post": "用於說明新回覆的標籤",
+                "revised_post": "用於說明贴文被編輯的標籤",
+                "post_approval": "用於說明待审核新貼文的標籤"
+            }
+        }
+    }
+}

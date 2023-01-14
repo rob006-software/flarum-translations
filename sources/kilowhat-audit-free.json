@@ -11,18 +11,6 @@
                 "upgrade": "Upgrade to Pro"
             }
         },
-        "forum": {
-            "link": {
-                "discussion-audit": "Audit log",
-                "user-audit": "Audit log (account edits)",
-                "actor-audit": "Audit log (user as actor)"
-            },
-            "modal": {
-                "discussion-title": "Discussion Audit Log",
-                "user-title": "User Audit Log",
-                "actor-title": "Actor Audit Log"
-            }
-        },
         "lib": {
             "browser": {
                 "filterPlaceholder": "Filter logs",
@@ -64,6 +52,7 @@
                     "filterUser": "Show logs affecting the same user",
                     "filterDiscussion": "Show logs affecting the same discussion"
                 },
+                "audit_log_cleared": "Cleared {deleted_count} entries from the audit logs",
                 "cache_cleared": "Manually cleared the cache",
                 "discussion": {
                     "created": "Started discussion {discussion}",

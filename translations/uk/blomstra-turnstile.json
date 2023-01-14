@@ -1,0 +1,19 @@
+{
+    "blomstra-turnstile": {
+        "admin": {
+            "settings": {
+                "site_key": "Site key",
+                "secret_key": "Secret key",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
+            }
+        },
+        "forum": {
+            "not_loaded_error": "Не вдалося завантажити Cloudflare Turnstile. Будь ласка, оновіть сторінку та перевірте ваш браузер."
+        }
+    },
+    "validation": {
+        "turnstile": "Ми не змогли перевірити, чи є ви роботом чи ні. Будь ласка, оновіть сторінку та спробуйте ще раз."
+    }
+}

@@ -1,16 +1,32 @@
 {
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": "Most backed"
+            }
+        }
+    },
     "blomstra-payments": {
         "forum": {
+            "accept-terms-modal": {
+                "accept_label": "I have read and accept the <link>payment terms</link>.",
+                "continue_button": "Continue Payment",
+                "title": "Accept Terms"
+            },
             "stripe": {
                 "interval_once": "once"
             },
             "subscription-card": {
+                "bounty": "Bounty",
                 "ptv": "Paid to view",
                 "pta": "Paid to access",
                 "ptb": "Paid to bump",
                 "ptp": "Paid to publish",
                 "cancel-control": "Cancel",
                 "none": "No payments or active subscriptions"
+            },
+            "post_stream": {
+                "bounty_added_text": "{username} added a bounty of {amount}."
             },
             "pay-to-view": {
                 "purchase-control": "Pay to View",
@@ -28,6 +44,21 @@
                 "purchase-control": "Pay to Bump",
                 "purchase-log-in": "Log In & Pay to Bump"
             },
+            "bounties": {
+                "purchase-control": "Add Bounty",
+                "enable-control": "Enable Bounties"
+            },
+            "choose-bounty-amount-modal": {
+                "title": "Choose bounty amount",
+                "checkout-control": "Checkout",
+                "description": "Select your amount for supporting \"{subject}\" or choose a custom amount."
+            },
+            "backers-widget": {
+                "backers": "Backers",
+                "label": "{currency} {sum} pledged",
+                "none": "No backers yet.",
+                "pledged": "Pledged"
+            },
             "tag": {
                 "require-payment-label": "Payment Required"
             },
@@ -43,6 +74,12 @@
             "nav": {
                 "access_portal": "Access portal",
                 "user_subscriptions": "Subscriptions"
+            },
+            "exceptions": {
+                "out-of-bounds-amount": {
+                    "min": "A payment of {amount} is not allowed, {min} is the lowest amount.",
+                    "max": "A payment of {amount} is not allowed, {max} is the highest amount."
+                }
             }
         },
         "admin": {
@@ -56,17 +93,25 @@
                 "select-ptb-product": "(PTB) Required product",
                 "select-ptb-product-description": "Selecting a product will require payment of that product before being able to bump a discussion.\n",
                 "bump-others": "(PTB) Allow others to bump discussions",
-                "bump-others-description": "If enabled, not just the discussion author can bump discussions with a payment.\n"
+                "bump-others-description": "If enabled, not just the discussion author can bump discussions with a payment.\n",
+                "select-bounty-product": "(Bounty) Required product",
+                "select-bounty-product-description": "Select a product will set it up for bounties. The product can only have one Price with model: \"Custom chooses price\". Copy the ID of the product starting with <code>prod_</code> into this field.\n"
             },
             "edit-group": {
                 "select-pta-product": "(PTA) Required product",
                 "select-pta-product-description": "Selecting a product will allow access to the group after payment. In case of a subscription access will be revoked automatically after cancellation of the subscription. Create a product in your Stripe dashboard and copy the ID starting with <code>prod_</code> into this field.\n"
             },
             "settings": {
+                "assign-bounty-tag-id": "Tag to assign to discussion after the first submitted bounty",
                 "pk": "Publishable (api) key",
                 "sk": "Secret (api) key",
                 "webhook-secret": "Webhook signing secret",
-                "link-access-portal": "Link access portal under user session dropdown"
+                "link-access-portal": "Link access portal under user session dropdown",
+                "link-to-terms": "Payment Terms URL",
+                "recount-total-discussion-bounties": "Recount total discussion bounties"
+            },
+            "permission": {
+                "enable-bounties": "Enable bounties"
             }
         }
     }

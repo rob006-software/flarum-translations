@@ -1,0 +1,37 @@
+{
+    "flamarkt-backoffice": {
+        "admin": {
+            "settingsInBackoffice": "後台設置"
+        },
+        "backoffice": {
+            "settingsNotAvailableForNonAdmin": "此擴展程序有設置，但只有管理員帳戶可以查看和編輯它們。",
+            "nav": {
+                "dashboard": "儀表板",
+                "users": "用戶",
+                "searchPlaceholder": "=> core.admin.nav.search_placeholder"
+            },
+            "users": {
+                "title": "用戶",
+                "new": "創建用戶",
+                "searchPlaceholder": "搜索用戶…",
+                "head": {
+                    "email": "郵箱"
+                },
+                "field": {
+                    "username": "用戶名",
+                    "email": "郵箱",
+                    "password": "密碼"
+                }
+            },
+            "permissions": {
+                "backoffice": "使用後台"
+            }
+        },
+        "lib": {
+            "header": {
+                "admin_button": "=> core.forum.header.admin_button",
+                "backoffice_button": "後台"
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "clarkwinkelmann-post-stream-search": {
+        "admin": {
+            "settings": {
+                "dropdownAccess": "Access via discussion dropdown",
+                "dropdownAccessHelp": "If disabled, the toolbar will only be available through the keyboard shortcut or any of the other enabled shortcuts below.",
+                "authorQuickFilter": "Quick filter for post author",
+                "authorQuickFilterHelp": "A shortcut will be added to each post dropdown to filter by that user.",
+                "originalPosterBadge": "Show interactive OP badge",
+                "originalPosterBadgeHelp": "A badge will be added next to posts by the OP. Clicking the badge will automatically filter for that user."
+            }
+        },
+        "forum": {
+            "stream": {
+                "noResults": "No posts match the search query in this discussion",
+                "unmatchedGap": "{count, plural, one {One non-matching post hidden} other {{count} non-matching posts hidden}}",
+                "otherAuthorsGap": "{count, plural, one {One post by another author hidden} other {{count} posts by other authors hidden}}"
+            },
+            "toolbar": {
+                "searchPlaceholder": "Find in discussion...",
+                "authorPlaceholder": "Filter by author...",
+                "summary": "{matching} of {total} matching",
+                "pin": "Always open filter toolbar on discussions",
+                "close": "Clear filters and close toolbar",
+                "clear": "Clear filters"
+            },
+            "discussionControls": {
+                "searchInDiscussion": "Search in discussion"
+            },
+            "postControls": {
+                "authorFilter": "Show only replies from this author"
+            },
+            "post": {
+                "opBadge": "Discussion starter",
+                "opBadgeTooltip": "Click to only show replies from this user"
+            },
+            "cannotGoToPost": {
+                "message": "Cannot go to post",
+                "action": "Try clearing filters"
+            }
+        }
+    }
+}

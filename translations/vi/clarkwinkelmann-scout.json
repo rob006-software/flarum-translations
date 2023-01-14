@@ -6,16 +6,30 @@
                 "driverOption": {
                     "null": "Rỗng",
                     "algolia": "Algolia",
-                    "meilisearch": "Meilisearch"
+                    "meilisearch": "Meilisearch",
+                    "tntsearch": "TNTSearch"
                 },
                 "prefix": "Tiền tố tên chỉ mục (tùy chọn)",
+                "queue": "",
+                "queueHelp": "",
+                "limit": "",
+                "limitPlaceholder": "",
+                "limitHelp": "",
+                "queryMinLength": "",
+                "queryMinLengthPlaceholder": "",
+                "queryMinLengthHelp": "",
                 "algoliaId": "ID Algolia",
                 "algoliaSecret": "Mã Secret Algolia",
                 "algoliaConnectTimeout": "Timeout kết nối Algolia (tùy chọn)",
                 "algoliaReadTimeout": "Timeout đọc Algolia (tùy chọn)",
                 "algoliaWriteTimeout": "Timeout viết Algolia (tùy chọn)",
                 "meilisearchHost": "Host Meilisearch",
-                "meilisearchKey": "Mã key Meilisearch"
+                "meilisearchKey": "Mã key Meilisearch",
+                "tntsearchMaxDocs": "TNT Search Max Docs (tùy chọn, số lượng kết quả tối đa)",
+                "tntsearchFuzziness": "TNT Search Fuzziness (đối sánh lỗi chính tả/biến thể)",
+                "tntsearchFuzzyDistance": "TNT Search Fuzziness Levenshtein Distance (tùy chọn)",
+                "tntsearchFuzzyPrefixLength": "Độ dài tiền tố TNT Search Fuzziness (tùy chọn)",
+                "tntsearchFuzzyMaxExpansions": "TNT Search Fuzziness Mở rộng Tối đa (tùy chọn)"
             }
         }
     }

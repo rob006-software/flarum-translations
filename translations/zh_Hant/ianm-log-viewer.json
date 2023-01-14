@@ -1,0 +1,20 @@
+{
+    "ianm-log-viewer": {
+        "admin": {
+            "permissions": {
+                "access_logfile_api": "通過 API 訪問日誌文件數據"
+            },
+            "settings": {
+                "purge-days": "幾天后清除日誌文件",
+                "purge-days-help": "依賴於Flarum 程序排程處於活動狀態。 0 表示停用。"
+            },
+            "viewer": {
+                "available_logs_heading": "可用文件",
+                "file_contents_heading": "文件內容",
+                "file_size": "大小 (bytes): {size}",
+                "last_updated": "最後更新: {updated}",
+                "no_file_selected": "查看記錄檔。"
+            }
+        }
+    }
+}

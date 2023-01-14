@@ -2,13 +2,13 @@
     "blomstra-s3-assets": {
         "admin": {
             "settings": {
-                "configured_by_environment": "",
-                "aws-section": "",
-                "s3-compatible-section": "",
-                "s3-compatible-section-help": "",
+                "configured_by_environment": "当前环境已存在存储桶配置，暂无可设置的内容。",
+                "aws-section": "以下设置可用于 AWS S3 和 S3 兼容存储桶",
+                "s3-compatible-section": "以下设置仅用于 S3 兼容存储桶",
+                "s3-compatible-section-help": "以下设置在使用 AWS S3 时请留空",
                 "s3key": {
-                    "label": "",
-                    "help": ""
+                    "label": "Key",
+                    "help": "帮助"
                 }
             }
         }

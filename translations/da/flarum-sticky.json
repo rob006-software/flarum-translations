@@ -2,24 +2,24 @@
     "flarum-sticky": {
         "admin": {
             "permissions": {
-                "sticky_discussions_label": ""
+                "sticky_discussions_label": "Klæbrige diskussioner"
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": ""
+                "sticky_tooltip": "Klæbrig"
             },
             "discussion_controls": {
-                "sticky_button": "",
-                "unsticky_button": ""
+                "sticky_button": "Klæbrig",
+                "unsticky_button": "Fjern klæbrig"
             },
             "post_stream": {
-                "discussion_stickied_text": "",
-                "discussion_unstickied_text": ""
+                "discussion_stickied_text": "{username} gjorde diskussionen klæbrig.",
+                "discussion_unstickied_text": "{username} fjernede klæbrig fra diskussionen."
             }
         },
         "ref": {
-            "sticky": ""
+            "sticky": "Klæbrig"
         }
     }
 }

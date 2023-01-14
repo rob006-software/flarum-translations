@@ -131,6 +131,11 @@
             },
             "embed": {
                 "title": "Bình luận"
+            },
+            "embed-link-modal": {
+                "title": "",
+                "message": "",
+                "open": ""
             }
         },
         "api": {
@@ -138,6 +143,37 @@
                 "login": "Tài khoản này được liên kết với Wordpress. Sử dụng biểu mẫu đăng nhập trang web chính để kết nối.",
                 "password_reset": "Tài khoản này được liên kết với Wordpress. Sử dụng biểu mẫu đăng nhập trang web chính để đặt lại mật khẩu của bạn.",
                 "email_change": "Tài khoản này được liên kết với Wordpress. Sử dụng trang hồ sơ trang web chính để thay đổi email của bạn."
+            },
+            "health": {
+                "suspend-extension-required": "Tiện ích mở rộng Suspend phải được bật để sử dụng tùy chọn \"Cấm\" của \"Hành động khi người dùng xóa\"",
+                "cookie-domain-format": "Miền cookie dường như không phải là một miền hợp lệ. Kiểm tra xem đó chỉ là một miền không có bất kỳ giao thức hoặc đường dẫn nào",
+                "login-only-signup-open": "Bạn cần tắt Đăng ký theo quyền Flarum để cài đặt \"Chỉ cho phép đăng nhập Wordpress\" có hiệu lực đầy đủ",
+                "lock-extension-required": "",
+                "tags-extension-required": "",
+                "tag-not-exist": "",
+                "debug-mode": "",
+                "config-url-trailing-slash": "",
+                "config-url-https": "",
+                "wordpress-username-missing": "",
+                "api-key-missing": "",
+                "wordpress-url-missing": "",
+                "wordpress-url-invalid": "",
+                "wordpress-url-index-php": "",
+                "wordpress-url-trailing-slash": "",
+                "wordpress-url-https": "",
+                "wordpress-url-mismatch": "",
+                "flarum-url-mismatch": "",
+                "api-key-mismatch": "",
+                "user-id-not-found": "",
+                "user-id-not-admin": "",
+                "sso-mismatch-flarum": "",
+                "sso-mismatch-wordpress": "",
+                "cookie-domain-mismatch": "",
+                "comments-mismatch-flarum": "",
+                "comments-mismatch-wordpress": "",
+                "api-error-json": "",
+                "api-error-401": "",
+                "api-error-other": ""
             },
             "wizard": {
                 "already_installed": "Flarum đã được kết nối với Wordpress. Để chạy lại trình hướng dẫn, hãy xóa cài đặt \"URL Wordpress\" trong Flarum và cài đặt \"khóa API Flarum\" trong Wordpress.\n",

@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Gekleurde header",
                 "colors_heading": "Kleuren",
+                "colors_primary_label": "Primaire kleur",
+                "colors_secondary_label": "Secundaire kleur",
                 "colors_text": "Kies twee kleuren om je forum mee vorm te geven. De eerste zal worden gebruikt als highlight-kleur, terwijl de tweede wordt gebruikt voor achtergrond elementen.",
                 "custom_footer_heading": "Eigen voettekst",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -44,8 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "Cache wissen",
                 "description": "Uw forum in één oogopslag.",
+                "io_error_message": "Kan niet naar het bestandssysteem schrijven. Controleer de machtigingen van uw bestandssysteem en probeer het opnieuw. Of probeer uit te voeren vanuit de CLI.",
                 "title": "Dashboard",
                 "tools_button": "Hulpmiddelen"
+            },
+            "debug-warning": {
+                "detail": "Wanneer de <code>debug</code>-modus actief is, zal Flarum zijn <code>JavaScript</code>- en <code>CSS</code>-assets bij elk verzoek opnieuw opbouwen en kan mogelijk ook andere informatie lekken, zoals database geheimen, omgevingsvariabelen, enz.\n\nHet wordt ten sterkste aanbevolen om <code>debug</code> uit te schakelen in uw <code>config.php</code>-bestand in productie. Zie <link>Flarum-documenten</link> voor meer informatie.\n",
+                "label": "Debug modus actief"
             },
             "edit_css": {
                 "customize_text": "Pas je forum's uiterlijk aan doormiddel van eigen LESS/CSS code bovenop Flarum's <a>standaard stijl</a>.",
@@ -312,7 +319,7 @@
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "We hebben een e-mail gestuurd met een link om uw wachtwoord opnieuw in te stellen. Als je geen e-mail hebt ontvangen controleer dan je spam map.",
+                "email_sent_message": "Als het door u ingevoerde e-mailadres bij deze site is geregistreerd, sturen we u een e-mail met een link om uw wachtwoord opnieuw in te stellen. Controleer uw spam-map als u deze niet binnen een minuut of twee ontvangt.",
                 "not_found_message": "Er is geen gebruiker geregistreerd met dit e-mail adres.",
                 "submit_button": "Wachtwoord opnieuw instellen",
                 "text": "Vul je e-mailadres in, dan sturen we je een e-mail met een link om je wachtwoord opnieuw in te stellen.",
@@ -361,6 +368,8 @@
                 "username_or_email_placeholder": "Gebruikersnaam of e-mail"
             },
             "notifications": {
+                "delete_all_confirm": "Weet je zeker dat je alle meldingen wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt",
+                "delete_all_tooltip": "Alle meldingen verwijderen",
                 "discussion_renamed_text": "{username} heeft de titel veranderd",
                 "empty_text": "Geen notificaties",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
@@ -409,6 +418,7 @@
                 "account_heading": "Account",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "Ontvang \"{description}\"-meldingen via {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",

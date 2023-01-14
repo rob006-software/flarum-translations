@@ -1,0 +1,32 @@
+{
+    "clarkwinkelmann-follow-tags-prompt": {
+        "forum": {
+            "controls": {
+                "choose": "選擇要關注的標簽"
+            },
+            "modal": {
+                "title": "選擇要關注的標簽",
+                "later": "稍後提醒我",
+                "continue": "繼續瀏覽論壇"
+            }
+        },
+        "admin": {
+            "settings": {
+                "buttonOnFollowingPage": "在關注頁面顯示按鈕",
+                "allDiscussionsOnFollowingPageForGuests": "給訪客在關注頁面顯示所有主題帖",
+                "availableTagStrategy": "供用戶選擇的標籤",
+                "tagStrategy": {
+                    "primary": "一級主標籤",
+                    "primaryAndChildren": "任何級別的主標簽",
+                    "primaryAndSecondary": "一級主標籤和次標籤",
+                    "secondary": "次級標籤",
+                    "all": "全部標籤",
+                    "list": "已選擇標籤"
+                }
+            },
+            "homepage": {
+                "following": "關注中"
+            }
+        }
+    }
+}

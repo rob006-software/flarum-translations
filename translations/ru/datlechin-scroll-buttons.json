@@ -1,6 +1,10 @@
 {
     "datlechin-flarum-scroll-buttons": {
         "admin": {
+            "scroll_to_top_label": "Прокрутка в начало",
+            "scroll_to_top_help": "Показать кнопку прокрутки в начало страницы",
+            "scroll_to_bottom_label": "Прокрутка в конец",
+            "scroll_to_bottom_help": "Показать кнопку прокрутки в конец страницы",
             "scroll_to_top": {
                 "label": "Прокрутка к началу",
                 "help": "Показать кнопку прокрутки к началу страницы",
@@ -16,11 +20,7 @@
                     "label": "Иконка прокрутки к концу",
                     "help": "Настройка иконки кнопки прокрутки. Для использования иконки по умолчанию оставьте поле пустым."
                 }
-            },
-            "scroll_to_top_button_label": "",
-            "scroll_to_top_button_help": "",
-            "scroll_to_bottom_button_label": "",
-            "scroll_to_bottom_button_help": ""
+            }
         }
     }
 }

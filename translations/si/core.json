@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "වර්ණික ශීර්ෂය",
                 "colors_heading": "වර්ණ",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "colors_text": "ඔබගේ සංසදය තේමා කිරීමට වර්ණ දෙකක් තෝරන්න. පළමුවැන්න ඉස්මතු කිරීමේ වර්ණයක් ලෙස භාවිතා කරන අතර දෙවැන්න පසුබිම් අංග අලංකාර කිරීමට යොදා ගනී.",
                 "custom_footer_heading": "අභිරුචි පාදතලය",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -44,8 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "නිහිතය හිස්කරන්න",
                 "description": "",
+                "io_error_message": "",
                 "title": "උපකරණ පුවරුව",
                 "tools_button": "මෙවලම්"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "ෆ්ලාරම් <a>පෙරනිමි විලාස</a> මතින් ඔබගේම Less/සීඑස්එස් කේතයක් එක් කිරීමෙන් සංසදය අභිරුචිකරණය කරන්න.",
@@ -122,7 +129,6 @@
                     "no_readme": "",
                     "title": "{extName} ප්‍රලේඛනය"
                 },
-                "confirm_uninstall": "",
                 "uninstall_button": "අස්ථාපනය"
             },
             "header": {
@@ -361,6 +367,8 @@
                 "username_or_email_placeholder": "පරිශීලක නාමය හෝ වි-තැපෑල"
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "{username} මාතෘකාව වෙනස් කළා.",
                 "empty_text": "දැනුම්දීම් නැත",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
@@ -409,6 +417,7 @@
                 "account_heading": "ගිණුම",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "වියමන",
@@ -575,10 +584,6 @@
                 "new_password_label": "නව මුරපදය",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
             }
         },
         "api": {

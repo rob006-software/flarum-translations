@@ -1,0 +1,45 @@
+{
+    "jeromegillard-map": {
+        "admin": {
+            "templates": {
+                "map": "地圖",
+                "file_description": "在 flarum 中顯示地圖。原始文件將可供下載。提供者和样式將是在擴展程序設置中定義的。 <b>您必須安裝並啟用 flarum/bbcode 才能運行</b>。"
+            },
+            "settings": {
+                "tiles_provider": {
+                    "label": "默認圖層提供者",
+                    "help": "選擇出現在背景中的 tiles layer 提供者"
+                },
+                "zoom": {
+                    "label": "預設縮放比例",
+                    "help": "從 0 到 18 的任何整數。"
+                },
+                "style": {
+                    "label": "{provider} 預設樣式",
+                    "help": "選擇地圖樣式。 <a>查看他們的風格</a>。"
+                },
+                "maptiler": {
+                    "label": "MapTiler token",
+                    "help": "在 <a>maptiler.com</a> 免費註冊以獲取令牌。 請尊重他們的<b>版權</b>。"
+                },
+                "osm": {
+                    "help": "OpenStreetMap tiles 非常適合對地圖進行編程，但如果您打算在生產中使用 tiles，請閱讀 OpenStreetMap 的<a>Tile Usage Policy</a>。"
+                },
+                "mapbox": {
+                    "label": "Mapbox key",
+                    "help": "在 <a>mapbox.com</a> 免費註冊以獲取令牌。請尊重他們的<b>版權</b>。"
+                },
+                "thunderforest": {
+                    "label": "Thunderforest API key",
+                    "help": "在 <a>thunderforest.com</a> 免費註冊以獲取 API 密鑰。請尊重他們的<b>使用條款</b>。"
+                }
+            }
+        },
+        "forum": {
+            "text_editor": {
+                "bbcode_tooltip": "插入地圖",
+                "location_placeholder": "何處"
+            }
+        }
+    }
+}

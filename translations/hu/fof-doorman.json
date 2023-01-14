@@ -2,55 +2,55 @@
     "fof-doorman": {
         "forum": {
             "email": {
-                "subject": "",
-                "body": ""
+                "subject": "Meghívás csatlakozáshoz",
+                "body": "Üdv!\n\nMeghívták, hogy csatlakozzon a következőhöz: {forum}.\n\nHa készen áll arra, hogy létrehozzon egy fiókot, csak kattintson a következő hivatkozásra, és adja meg a kódot a csatlakozáshoz:\n\nWebcím: {url}\nMeghívókód: {code}\n\nHa tévedésből kapta ezt a levelet, akkor tekintse figyelmen kívül.\n"
             },
             "sign_up": {
-                "invalid_doorkey": "",
-                "doorkey_required": "",
-                "doorman_placeholder": "",
-                "doorman_placeholder_optional": ""
+                "invalid_doorkey": "A megadott meghívókód érvénytelen.",
+                "doorkey_required": "Adja meg a meghívókódot.",
+                "doorman_placeholder": "Meghívókód",
+                "doorman_placeholder_optional": "Meghívókód (nem kötelező)"
             }
         },
         "admin": {
             "modal": {
-                "title": "",
-                "group": "",
-                "help": "",
-                "placeholder": "",
-                "invalid_emails": "",
-                "max_use_conflict": "",
-                "send": "",
-                "success": ""
+                "title": "Meghívókódok küldése",
+                "group": "Meghívók küldése a(z) {group} csoportnak",
+                "help": "Vesszővel, szóközzel vagy vessző-szóközzel elválasztott listát fogad el. Írjon be egy e-mail-címet, vagy illesszen be egy listát, majd nyomjon szóközt a hozzáadáshoz.",
+                "placeholder": "Itt adja meg az e-mail-címeket",
+                "invalid_emails": "A következő e-mail-címek érvénytelenek: {emails}",
+                "max_use_conflict": "A e-mail-címek száma túllépi a kód által megengedett legnagyobb számot.",
+                "send": "E-mailek elküldése",
+                "success": "Az e-mailek sikeresen elküldve"
             },
-            "invalid_doorkey": "",
-            "doorkey_required": "",
+            "invalid_doorkey": "A megadott meghívókód érvénytelen.",
+            "doorkey_required": "Meg kell adnia egy meghívókódot",
             "nav": {
-                "desc": ""
+                "desc": "Meghívókódok létrehozása a felhasználók számára, hogy regisztrálhassanak és csoporthoz legyenek rendelve"
             },
             "page": {
-                "title": "",
+                "title": "Ajtónálló",
                 "doorkey": {
-                    "used_times": "",
-                    "title": "",
+                    "used_times": "{remaining, plural, one {{remaining} használat maradt} other {{remaining} használat maradt}}",
+                    "title": "Meghívókódok",
                     "help": {
-                        "key": "",
-                        "group": "",
-                        "max": "",
-                        "activates": ""
+                        "key": "Kulcs: A felhasználó által regisztrációkor beírandó kód.",
+                        "group": "Csoport: A csoport, amelyhez a felhasználó hozzá lesz rendelve regisztrációkor.",
+                        "max": "Használati korlát: A kód legfeljebb hányszor használható fel, állítsa 0-ra a korlátlan használathoz",
+                        "activates": "Aktiválja a felhasználót: Automatikusan aktiválja a felhasználót, amikor regisztrál."
                     },
-                    "warning": "",
-                    "key": "",
-                    "max_uses": "",
+                    "warning": "Ez a meghívókód elérti a felhasználási korlátját.",
+                    "key": "Kulcs",
+                    "max_uses": "Használati korlát",
                     "heading": {
-                        "key": "",
-                        "group": "",
-                        "activate": "",
-                        "max_uses": ""
+                        "key": "Kulcs",
+                        "group": "Csoport",
+                        "activate": "Aktiválja a felhasználót",
+                        "max_uses": "Használati korlát"
                     },
                     "allow-public": {
-                        "title": "",
-                        "switch-label": ""
+                        "title": "Nyilvános regisztráció engedélyezése",
+                        "switch-label": "A meghívókód nem kötelezővé tétele a regisztrációkor"
                     }
                 }
             }

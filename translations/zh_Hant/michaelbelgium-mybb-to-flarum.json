@@ -1,0 +1,35 @@
+{
+    "michaelbelgium-mybb-to-flarum": {
+        "admin": {
+            "content": {
+                "description_text": "將 MyBB 論壇遷移到這個 Flarum 實例中。填寫所需數據，然後點擊“遷移”。",
+                "convert_button": "遷移",
+                "form": {
+                    "options": {
+                        "title": "其它選項",
+                        "migrate_avatars_label": "遷移頭像",
+                        "migrate_soft_threads_label": "遷移軟刪除的線程",
+                        "migrate_soft_posts_label": "遷移軟刪除的貼文",
+                        "migrate_attachments_label": "遷移附件"
+                    },
+                    "mybb": {
+                        "title": "MyBB 設置",
+                        "host_label": "數據庫主機",
+                        "user_label": "數據庫用戶",
+                        "password_label": "數據庫密碼",
+                        "db_label": "數據庫名",
+                        "prefix_label": "表前綴",
+                        "path_label": "MyBB 絕對路徑"
+                    },
+                    "general": {
+                        "title": "一般選項",
+                        "migrate_users_label": "合併使用者",
+                        "migrate_threadsPosts_label": "合併線程及貼文",
+                        "migrate_userGroups_label": "合併用戶群組",
+                        "migrate_categories_label": "遷移類別"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,177 @@
+{
+    "datitisev-backup": {
+        "admin": {
+            "adapters": {
+                "local": "本地儲存",
+                "aliyun": "阿里雲（Aliyun）",
+                "azure": "Microsoft Azure",
+                "aws": "Amazon AWS S3",
+                "dospaces": "Digital Ocean Spaces",
+                "dropbox": "Dropbox",
+                "gdrive": "Google Drive",
+                "ftp": "FTP",
+                "gridfs": "GridFS",
+                "rackspace": "Rackspace",
+                "sftp": "SFTP",
+                "webdav": "Webdav",
+                "zip": "Zip Archive"
+            },
+            "settings_button": "配置",
+            "required_package_button": "安裝",
+            "you-need-for": {
+                "aliyun": "aliyuncs/aliyun-oss-flysystem",
+                "azure": "league/flysystem-azure",
+                "aws": "league/flysystem-aws-s3-v3",
+                "copy": "league/flysystem-copy",
+                "dospaces": "league/flysystem-aws-s3-v3",
+                "dropbox": "spatie/flysystem-dropbox",
+                "gdrive": "nao-pon/flysystem-google-drive",
+                "gridfs": "league/flysystem-gridfs",
+                "rackspace": "league/flysystem-rackspace",
+                "sftp": "league/flysystem-sftp",
+                "webdav": "league/flysystem-webdav"
+            },
+            "required-package-modal": {
+                "title": "{adapter} 所需的軟件包",
+                "content": "為了使用這個驅動程序，您需要安裝一個特定的軟件包。您可以通過 Flarum 安裝目錄下運行 <code>composer require {package}</code> 命令來安裝。\n"
+            },
+            "adapter-settings-modal": {
+                "title": "配置{adapter}",
+                "local": {
+                    "target": {
+                        "label": "目標路徑",
+                        "description": "指定用於儲存備份的本地目錄。"
+                    }
+                },
+                "aliyun": {
+                    "endpoint": {
+                        "label": "終端",
+                        "description": "終端儲存的URL。"
+                    },
+                    "access-id": {
+                        "label": "Access ID",
+                        "description": "你的身份認證訪問令牌 ID"
+                    },
+                    "access-key": {
+                        "label": "Access Key",
+                        "description": "您的身份驗證訪問令牌密鑰"
+                    },
+                    "bucket": {
+                        "label": "桶",
+                        "description": "要使用的儲存桶。"
+                    },
+                    "path-prefix": {
+                        "label": "路徑前綴",
+                        "description": "可選擇的默認文件路徑前綴。"
+                    }
+                },
+                "azure": {
+                    "endpoint": {
+                        "label": "終端",
+                        "description": "終端儲存的URL。"
+                    },
+                    "container": {
+                        "label": "容器",
+                        "description": "Azure 容器"
+                    }
+                },
+                "aws": {
+                    "credentials": {
+                        "key": {
+                            "label": "Key",
+                            "description": "AWS 憑證密鑰"
+                        },
+                        "secret": {
+                            "label": "Secret",
+                            "description": "AWS 憑證密鑰"
+                        }
+                    },
+                    "region": {
+                        "label": "區域",
+                        "description": "儲存桶的區域。"
+                    },
+                    "version": {
+                        "label": "版本",
+                        "description": "指定一個版本或留空表示最新版本。"
+                    },
+                    "bucket": {
+                        "label": "桶",
+                        "description": "要上傳到 S3儲存桶。"
+                    },
+                    "path-prefix": {
+                        "label": "路徑前綴",
+                        "description": "可選擇的默認文件路徑前綴。"
+                    }
+                },
+                "dropbox": {
+                    "access-token": {
+                        "label": "Access token",
+                        "description": "生成一個 oAuth 2 訪問令牌 @ https://www.dropbox.com/developers/apps."
+                    }
+                },
+                "gdrive": {
+                    "client": {
+                        "id": {
+                            "label": "Client ID",
+                            "description": "按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md 的指示，創建一個 Google 項目，並取回您的 Client ID 和 Client Secret。\n"
+                        },
+                        "secret": {
+                            "label": "Client Secret",
+                            "description": " "
+                        }
+                    },
+                    "refresh-token": {
+                        "label": "刷新令牌",
+                        "description": "按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md 的指引，取回您的 Google oAuth 應用程序刷新令牌。\n"
+                    },
+                    "folder": {
+                        "label": "Folder ID",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
+                    }
+                },
+                "ftp": {
+                    "host": {
+                        "label": "遠程主機名",
+                        "description": "要連接到的 FTP 主機名，例如 <em>ftp.yourdomain.local</em>。"
+                    },
+                    "username": {
+                        "label": "用戶名",
+                        "description": "要在 FTP 服務器上進行身份驗證的用戶名。"
+                    },
+                    "password": {
+                        "label": "請輸入帳號密碼",
+                        "description": "要在 FTP 服務器上進行身份驗證的密碼。"
+                    },
+                    "private-key": {
+                        "label": "私鑰",
+                        "description": "FTP 連接認證時使用的私鑰的路徑（最好是絕對路徑）。"
+                    },
+                    "port": {
+                        "label": "端口",
+                        "description": "FTP 端口（默認 21）。"
+                    },
+                    "root": {
+                        "label": "根路徑",
+                        "description": "存儲備份的遠程根路徑（子目錄）。"
+                    },
+                    "passive": {
+                        "toggle": "被動連結",
+                        "description": "是否使用被動 FTP 連接到服務器。"
+                    },
+                    "ssl": {
+                        "toggle": "SSL",
+                        "description": "是否使用加密 SSL 連接到服務器。"
+                    },
+                    "timeout": {
+                        "label": "時間超時",
+                        "description": "等待與 FTP 服務器連接的秒數。"
+                    }
+                }
+            },
+            "nav": {
+                "label": "備份",
+                "description": "儲存您的論壇副本。"
+            }
+        }
+    }
+}

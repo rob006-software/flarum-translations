@@ -12,7 +12,7 @@
             "modal_resetviews": {
                 "title": "Nézettség nullázása",
                 "submit_button": "Igen, az összes eltávolítása",
-                "label": "Ez eltávolít {count} megtekintést a témáról. Folytatja?"
+                "label": "Ez eltávolít {count, plural, one {#} other {#}} megtekintést a témáról. Folytatja?"
             },
             "discussion_controls": {
                 "resetviews_button": "Nézettség visszaállítása"
@@ -36,13 +36,20 @@
             "settings": {
                 "title": "Nézettség beállításai",
                 "track_unique_label": "Egyedi megtekintések követése",
-                "track_guests": "Vendégek követése",
+                "track_unique_text": "",
+                "track_guests_label": "",
                 "abbr_numbers_label": "Megtekintések számának rövidítése",
+                "abbr_numbers_text": "",
                 "show_filter_label": "Népszerűség szerinti rendezés engedélyezése",
                 "max_viewcount_label": "Maximális megtekintési lista elemek",
                 "max_viewcount_text": "Ez a lábléc-nézetlistára és az oldalsáv-nézetlistára vonatkozik",
                 "show_viewlist_label": "Nézettségi lista bekapcsolása",
-                "show_footer_viewlist_label": "Lábléc nézet bekapcsolása"
+                "show_viewlist_text": "",
+                "show_footer_viewlist_label": "Lábléc nézet bekapcsolása",
+                "show_footer_viewlist_text": "",
+                "ignore_crawlers_label": "",
+                "ignore_crawlers_text": "",
+                "track_guests": "Vendégek követése"
             }
         }
     }

@@ -31,8 +31,7 @@
                     "points": ""
                 },
                 "rank": "{rank}",
-                "votes_link": "",
-                "points": "👍: {points}"
+                "votes_link": ""
             },
             "modal": {
                 "downvotes_label": "",
@@ -89,7 +88,8 @@
                     "icon_name": "好き/嫌いの小さなアイコン",
                     "icon_help": "Font Awesomeアイコンを入力してください。接尾辞は-upおよび-downです。 例：arrow, thumbs, chevron",
                     "upvotes_only": "",
-                    "first_post_only": ""
+                    "first_post_only": "",
+                    "allow_self_votes": ""
                 },
                 "save_settings": "設定を保存する",
                 "convert": {
@@ -108,6 +108,17 @@
                         "points": "👍",
                         "name": "お名前"
                     }
+                },
+                "groups": {
+                    "title": "",
+                    "help": "",
+                    "column": {
+                        "group": "",
+                        "minPoints": "",
+                        "maxPoints": ""
+                    },
+                    "add": "",
+                    "delete": ""
                 }
             }
         },

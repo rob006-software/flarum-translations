@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Spalvota antraštė",
                 "colors_heading": "Spalvos",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "colors_text": "Pasirinkite dvi spalvas savo forumo tematikai. Pirmoji bus naudojama kaip paryškinimo spalva, o antroji – fono elementams formuoti.",
                 "custom_footer_heading": "Pasirinktinis footer",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -47,8 +49,13 @@
             "dashboard": {
                 "clear_cache_button": "Išvalyti talpyklą",
                 "description": "Jūsų forumas trumpai.",
+                "io_error_message": "",
                 "title": "Skydelis",
                 "tools_button": "Įrankiai"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "Tinkinkite savo forumo išvaizdą pridėdami savo LESS/CSS kodą, kuris bus taikomas kartu su Flarum <a>numatytaisiais stiliais</a>.",
@@ -368,6 +375,8 @@
                 "username_or_email_placeholder": "Vartotojo vardas arba el. paštas"
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "{username} pakeitė temos pavadinimą",
                 "empty_text": "Pranešimų nėra",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
@@ -416,6 +425,7 @@
                 "account_heading": "Paskyra",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Žiniatinklis",
@@ -595,10 +605,6 @@
                 "new_password_label": "Naujas slaptažodis",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
             }
         },
         "api": {

@@ -1,0 +1,667 @@
+{
+    "core": {
+        "admin": {
+            "appearance": {
+                "colored_header_label": "Кольорова шапка",
+                "colors_heading": "Кольори",
+                "colors_primary_label": "Основний колір",
+                "colors_secondary_label": "Додатковий колір",
+                "colors_text": "Оберіть два кольори для стилізації форуму. Перший буде використовуватися для підсвічування, другий для стилізації фонових елементів.",
+                "custom_footer_heading": "Користувацький нижній колонтитул",
+                "custom_footer_text": "=> core.ref.custom_footer_text",
+                "custom_header_heading": "Користувацька шапка",
+                "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_heading": "Користувацькі стилі",
+                "custom_styles_text": "Налаштування зовнішнього вигляду форуму за допомогою призначеного для користувача коду LESS/CSS, який перекриває стандартні стильові конструкції Flarum.",
+                "dark_mode_label": "Темний режим",
+                "description": "Налаштуйте кольори, лого та інше.",
+                "edit_css_button": "Редагувати користувацький CSS",
+                "edit_footer_button": "=> core.ref.custom_footer_title",
+                "edit_header_button": "=> core.ref.custom_header_title",
+                "enter_hex_message": "Будь ласка, введіть код кольору в HEX-форматі.",
+                "favicon_heading": "Іконка Favicon",
+                "favicon_text": "Завантажте зображення, яке буде відображатися в якості значка форуму.",
+                "logo_heading": "Логотип",
+                "logo_text": "Завантаження зображення, яке буде відображатися замість заголовка форуму.",
+                "title": "Зовнішній вигляд"
+            },
+            "basics": {
+                "all_discussions_label": "=> core.ref.all_discussions",
+                "default_language_heading": "Мова за налаштуванням",
+                "description": "Додайте назву форуму, мову та інші базові налаштування.",
+                "display_name_heading": "Ім'я користувача",
+                "display_name_text": "Оберіть драйвер, який слід використовувати для показу імен користувачів. За налаштуванням показується ім'я користувача.",
+                "forum_description_heading": "Опис форуму",
+                "forum_description_text": "Введіть короткий опис спільноти. Опис з'явиться в meta-тегу і буде відображатися в пошукових системах.",
+                "forum_title_heading": "Назва форуму",
+                "home_page_heading": "Головна сторінка",
+                "home_page_text": "Оберіть сторінку, яку користувачі бачитимуть першою, коли зайдуть на ваш форум.",
+                "show_language_selector_label": "Показувати вибір мови",
+                "slug_driver_heading": "Драйвер URL: {model}",
+                "slug_driver_text": "Оберіть драйвер для використання дружнього URL.",
+                "title": "Налаштування",
+                "welcome_banner_heading": "Банер вітання",
+                "welcome_banner_text": "Введіть текст, який буде відображатися на всіх сторінках форуму. Використовуйте цей елемент для того, щоб вітати гостей форуму."
+            },
+            "dashboard": {
+                "clear_cache_button": "Очистити кеш",
+                "description": "Ваш форум з першого погляду.",
+                "io_error_message": "Не вдалося записати до файлової системи. Перевірте права доступу до файлової системи та повторіть спробу. Або спробуйте запустити з командного рядка.",
+                "title": "Панель керування",
+                "tools_button": "Iнструменти"
+            },
+            "debug-warning": {
+                "detail": "Коли включено режим <code>debug</code>, Flarum буде перебудовувати свої <code>JavaScript</code> і <code>CSS</code> ресурси при кожному запиті, а також може потенційно витікати інша інформація, така як секрети бази даних, змінні середовища і т.д.\n\nНастійно рекомендується відключити <code>debug</code> у вашому файлі <code>config.php</code> у виробництві. Для отримання додаткової інформації див. <link>Документація Flarum</link>.\n",
+                "label": "Увімкнути режим налагодження"
+            },
+            "edit_css": {
+                "customize_text": "Налаштування зовнішнього вигляду форуму за допомогою вашого коду LESS/CSS, який перекриває <a>стандартні стильові конструкції </a> Flarum.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Редагувати CSS"
+            },
+            "edit_footer": {
+                "customize_text": "=> core.ref.custom_footer_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
+            },
+            "edit_group": {
+                "color_label": "=> core.ref.color",
+                "delete_button": "Видалити групу",
+                "delete_confirmation": "Ви впевнені, що бажаєте видалити групу? Користувачі, що знаходяться в цій групі, не будуть видалені.",
+                "hide_label": "Приховати на форумі",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "Назва",
+                "plural_placeholder": "Множина (наприклад: Модератори)",
+                "singular_placeholder": "Однина (наприклад: Модератор)",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Створити групу"
+            },
+            "edit_header": {
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
+            },
+            "email": {
+                "addresses_heading": "Адреси",
+                "description": "Налаштування для надсилання електронних листів.",
+                "driver_heading": "Оберіть драйвер",
+                "driver_label": "Драйвер",
+                "from_label": "Відправник",
+                "mail_encryption_label": "Шифрування",
+                "mail_host_label": "Хост",
+                "mail_mailgun_domain_label": "Домен",
+                "mail_mailgun_region_label": "Регіон",
+                "mail_mailgun_secret_label": "Секретний ключ",
+                "mail_password_label": "=> core.ref.password",
+                "mail_port_label": "Порт",
+                "mail_username_label": "=> core.ref.username",
+                "mailgun_heading": "Налаштування Mailgun",
+                "not_sending_message": "Наразі Flarum не надсилає електронні листи. Це може бути пов’язано з обраним драйвером або помилками в його конфігурації.",
+                "send_test_mail_button": "Надіслати",
+                "send_test_mail_heading": "Надіслати тестовий лист",
+                "send_test_mail_success": "Тестовий лист надіслано успішно!",
+                "send_test_mail_text": "Електронний лист із вказаною вище конфігурацією буде відправлено на вашу адресу, {email}.",
+                "smtp_heading": "Налаштування SMTP",
+                "title": "=> core.ref.email"
+            },
+            "extension": {
+                "configure_scopes": "Налаштувати області видимості",
+                "confirm_purge": "Очищення видалить усі записи бази та ресурси, пов’язані з розширенням. Це не видалить розширення; це потрібно зробити через Composer. Ви впевнені, що хочете продовжити?",
+                "disabled": "Вимкнено",
+                "enable_to_see": "Увімкніть розширення для перегляду і зміни налаштувань.",
+                "enabled": "Увімкнено",
+                "info_links": {
+                    "discuss": "Дискусія",
+                    "documentation": "Документація",
+                    "donate": "Пожертви",
+                    "source": "Джерело",
+                    "support": "Підтримка",
+                    "website": "Сайт"
+                },
+                "no_permissions": "Це розширення не має дозволів.",
+                "no_settings": "Це розширення не має налаштувань.",
+                "open_modal": "Відкрити налаштування",
+                "permissions_title": "Дозволи",
+                "purge_button": "Очищення",
+                "readme": {
+                    "button_label": "Інструкція",
+                    "no_readme": "Схоже, це розширення не містить файл інструкції",
+                    "title": "Документація {extName}"
+                }
+            },
+            "header": {
+                "get_help": "Отримати допомогу",
+                "log_out_button": "=> core.ref.log_out"
+            },
+            "loading": {
+                "title": "Будь ласка, зачекайте..."
+            },
+            "nav": {
+                "appearance_button": "=> core.admin.appearance.title",
+                "appearance_title": "=> core.admin.appearance.description",
+                "basics_button": "=> core.admin.basics.title",
+                "basics_title": "=> core.admin.basics.description",
+                "categories": {
+                    "authentication": "Автентифікація",
+                    "core": "Основна конфігурація",
+                    "discussion": "Дискусія",
+                    "feature": "Особливості",
+                    "formatting": "Форматування",
+                    "language": "Мови",
+                    "moderation": "Модерація",
+                    "other": "Інші розширення",
+                    "theme": "Теми"
+                },
+                "dashboard_button": "=> core.admin.dashboard.title",
+                "dashboard_title": "=> core.admin.dashboard.description",
+                "email_button": "=> core.ref.email",
+                "email_title": "=> core.admin.email.description",
+                "permissions_button": "=> core.admin.permissions.title",
+                "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
+                "search_placeholder": "Пошук розширень"
+            },
+            "permissions": {
+                "allow_post_editing_label": "Дозволити редагувати допис",
+                "allow_renaming_label": "Дозволити перейменування",
+                "create_heading": "Створити",
+                "delete_discussions_forever_label": "Видалити дискусії назавжди",
+                "delete_discussions_label": "Видалити дискусії",
+                "delete_posts_forever_label": "Видалити допис назавжди",
+                "delete_posts_label": "Видалити дописи",
+                "description": "Налаштуйте, хто може бачити та щось робити.",
+                "edit_posts_label": "Редагувати дописи",
+                "edit_users_label": "Редагувати користувачів",
+                "edit_users_credentials_label": "Редагувати облікові дані користувачів",
+                "edit_users_groups_label": "Редагувати групи користувачів",
+                "global_heading": "Глобальні",
+                "moderate_heading": "Модерація",
+                "new_group_button": "Нова група",
+                "participate_heading": "Участь",
+                "post_without_throttle_label": "Відповідайте кілька разів без очікування",
+                "read_heading": "Читати",
+                "rename_discussions_label": "Перейменовувати дискусії",
+                "reply_to_discussions_label": "Відповідати в дискусіях",
+                "search_users_label": "Пошук користувачів",
+                "sign_up_label": "Реєстрація",
+                "start_discussions_label": "Створювати дискусії",
+                "title": "Дозволи",
+                "view_forum_label": "Перегляд форуму (дискусії та користувачів)",
+                "view_hidden_groups_label": "Дивитися приховані групи",
+                "view_last_seen_at_label": "Завжди переглядати час останнього відвідування користувача",
+                "view_post_ips_label": "Переглядати IP-адреси"
+            },
+            "permissions_controls": {
+                "allow_indefinitely_button": "Необмежено",
+                "allow_some_minutes_button": "{count, plural, one {На # хвилину} other {На # хвилин}}",
+                "allow_ten_minutes_button": "На 10 хвилин",
+                "allow_until_reply_button": "До відповіді",
+                "everyone_button": "Усі",
+                "members_button": "=> core.group.members",
+                "signup_closed_button": "Закрито",
+                "signup_open_button": "Відкрито"
+            },
+            "settings": {
+                "saved_message": "Зміни збережені.",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "upload_image": {
+                "remove_button": "=> core.ref.remove",
+                "upload_button": "Обрати зображення..."
+            },
+            "users": {
+                "description": "Список усіх користувачів вашого форуму.",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
+                            "tooltip": "Редагувати {username}"
+                        },
+                        "email": {
+                            "title": "=> core.ref.email",
+                            "visibility_hide": "Приховати адреси електронної пошти",
+                            "visibility_show": "Показати адреси електронної пошти"
+                        },
+                        "group_badges": {
+                            "no_badges": "Жодна",
+                            "title": "Групи"
+                        },
+                        "join_time": {
+                            "title": "Приєднався"
+                        },
+                        "user_id": {
+                            "title": "ID"
+                        },
+                        "username": {
+                            "profile_link_tooltip": "Відвідати обліковий запис користувача {username}",
+                            "title": "=> core.ref.username"
+                        }
+                    },
+                    "invalid_column_content": "Недійсний"
+                },
+                "pagination": {
+                    "back_button": "Попередня сторінка",
+                    "next_button": "Наступна сторінка",
+                    "page_counter": "Сторінка: {current} з {total}"
+                },
+                "title": "=> core.ref.users",
+                "total_users": "Усього користувачів: {count}"
+            }
+        },
+        "forum": {
+            "change_email": {
+                "confirm_password_placeholder": "=> core.ref.confirm_password",
+                "confirmation_message": "=> core.ref.confirmation_email_sent",
+                "dismiss_button": "=> core.ref.okay",
+                "incorrect_password_message": "Введений вами пароль невірний.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.change_email"
+            },
+            "change_password": {
+                "send_button": "Надіслати пароль на електронну пошту",
+                "text": "Натисніть на кнопку нижче для відправки посилання для зміни пароля на вашу електронну адресу.",
+                "title": "=> core.ref.change_password"
+            },
+            "composer": {
+                "close_tooltip": "Закрити",
+                "exit_full_screen_tooltip": "Вихід з повноекранного режиму",
+                "full_screen_tooltip": "Повноекранний режим",
+                "minimize_tooltip": "Згорнути",
+                "preview_tooltip": "Попередній перегляд"
+            },
+            "composer_discussion": {
+                "body_placeholder": "Додати допис...",
+                "discard_confirmation": "Ви не створили дискусію. Ви бажаєте скасувати створення дискусії?",
+                "submit_button": "Надіслати",
+                "title": "=> core.ref.start_a_discussion",
+                "title_placeholder": "Назва дискусії"
+            },
+            "composer_edit": {
+                "discard_confirmation": "Ви не зберегли зміни. Ви бажаєте відмовитися від них?",
+                "edited_message": "Зміни збережено.",
+                "post_link": "Допис #{number} у {discussion}",
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": "=> core.ref.view"
+            },
+            "composer_reply": {
+                "body_placeholder": "=> core.ref.write_a_reply",
+                "discard_confirmation": "Ви не опублікували свою відповідь. Ви бажаєте її видалити?",
+                "posted_message": "Ваша відповідь опублікована.",
+                "submit_button": "Надіслати відповідь",
+                "view_button": "=> core.ref.view"
+            },
+            "discussion_controls": {
+                "cannot_reply_button": "Відповідь відсутня",
+                "cannot_reply_text": "У вас немає прав доступу для публікації відповіді в цій дискусії.",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Ви впевнені, що бажаєте видалити дискусію?",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "log_in_to_reply_button": "Увійти для відповіді",
+                "rename_button": "=> core.ref.rename",
+                "reply_button": "=> core.ref.reply",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "Перемкнути спадне меню дій дискусії"
+            },
+            "discussion_list": {
+                "empty_text": "Складається враження, що тут немає ніяких дискусій.",
+                "load_more_button": "=> core.ref.load_more",
+                "replied_text": "Відповідь від {username} {ago}",
+                "started_text": "Створено {username} {ago}",
+                "total_replies_a11y_label": "{count, plural, one {# відповідь} other {# відповіді}}",
+                "unread_replies_a11y_label": "{count, plural, one {# непрочитана відповідь} other {# непрочитані відповіді}}. Позначити {count, plural, one {непрочитану відповідь як прочитану} other {непрочитані відповіді як прочитані}}."
+            },
+            "forgot_password": {
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "email_sent_message": "Якщо введена вами електронна пошта зареєстрована на цьому сайті, ми надішлемо вам лист із посиланням для відновлення пароля. Перевірте теку «Спам», якщо не отримаєте його протягом наступної хвилини-двох.",
+                "not_found_message": "Користувача з такою адресою електронної пошти не знайдено.",
+                "submit_button": "Відновити пароль",
+                "text": "Введіть свою електронну адресу і ми надішлемо вам посилання для відновлення пароля.",
+                "title": "Забули пароль"
+            },
+            "header": {
+                "admin_button": "Адміністрування",
+                "back_to_index_tooltip": "Назад до списку дискусій",
+                "locale_dropdown_accessible_label": "Змінити локаль форуму",
+                "log_in_link": "=> core.ref.log_in",
+                "log_out_button": "=> core.ref.log_out",
+                "profile_button": "Обліковий запис",
+                "search_clear_button_accessible_label": "Очистити пошуковий запит",
+                "search_placeholder": "Пошук по форуму",
+                "search_role_label": "Пошук на форумі",
+                "session_dropdown_accessible_label": "Перемкнути спадне меню параметрів сеансу",
+                "settings_button": "=> core.ref.settings",
+                "sign_up_link": "=> core.ref.sign_up"
+            },
+            "index": {
+                "all_discussions_link": "=> core.ref.all_discussions",
+                "cannot_start_discussion_button": "Неможливо створити дискусію",
+                "mark_all_as_read_confirmation": "Ви впевнені, що бажаєте позначити всі дискусії як прочитані?",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "meta_title_text": "=> core.ref.all_discussions",
+                "refresh_tooltip": "Оновити",
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": "Перемкнути спадне меню навігації"
+            },
+            "index_sort": {
+                "latest_button": "Останні",
+                "newest_button": "Нові",
+                "oldest_button": "Старі",
+                "relevance_button": "За релевантністю",
+                "toggle_dropdown_accessible_label": "Змінити сортування списку обговорень",
+                "top_button": "Популярні"
+            },
+            "log_in": {
+                "forgot_password_link": "Забули пароль?",
+                "invalid_login_message": "Ваші дані для входу некоректні.",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "Запам’ятати мене",
+                "sign_up_text": "У вас відсутній облікового запису? <a>Будь ласка, зареєструйтеся</a>",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in",
+                "username_or_email_placeholder": "Ім'я користувача або адреса електронної пошти"
+            },
+            "notifications": {
+                "delete_all_confirm": "Ви впевнені, що бажаєте видалити всі повідомлення? Ця дія не є зворотною",
+                "delete_all_tooltip": "Видалити всі повідомлення",
+                "discussion_renamed_text": "Зміна назви від {username}",
+                "empty_text": "Сповіщення відсутні",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "mark_as_read_tooltip": "Позначити як прочитане",
+                "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "Переглянути сповіщення",
+                "tooltip": "=> core.ref.notifications"
+            },
+            "post": {
+                "edited_text": "Змінено",
+                "edited_tooltip": "Відредаговано {username} {ago}",
+                "number_tooltip": "Допис #{number}"
+            },
+            "post_controls": {
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Ви впевнені, що бажаєте видалити дописи назавжди? Цю дію неможливо скасувати.",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "edit_button": "=> core.ref.edit",
+                "hide_confirmation": "Ви впевнені, що бажаєте видалити допис?",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "Перемкнути спадне меню елементів керування публікаціями"
+            },
+            "post_scrubber": {
+                "now_link": "Зараз",
+                "original_post_link": "Оригінальний допис",
+                "unread_text": "{count} не прочитано",
+                "viewing_text": "{count, plural, one {{index} з {formattedCount} допис} other {{index} of {formattedCount} дописів}}"
+            },
+            "post_stream": {
+                "discussion_renamed_old_tooltip": "Стара назва була: «{old}»",
+                "discussion_renamed_text": "Зміна назви на «{new}» від {username}.",
+                "load_more_button": "=> core.ref.load_more",
+                "reply_placeholder": "=> core.ref.write_a_reply",
+                "time_lapsed_text": "{period} пізніше"
+            },
+            "rename_discussion": {
+                "submit_button": "=> core.ref.rename",
+                "title": "Перейменувати дискусію"
+            },
+            "search": {
+                "all_discussions_button": "Пошук за запитом: «{query}»",
+                "discussions_heading": "=> core.ref.discussions",
+                "users_heading": "=> core.ref.users"
+            },
+            "settings": {
+                "account_heading": "Обліковий запис",
+                "change_email_button": "=> core.ref.change_email",
+                "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "Отримувати сповіщення «{description}» за допомогою {method}",
+                "notifications_heading": "=> core.ref.notifications",
+                "notify_by_email_heading": "=> core.ref.email",
+                "notify_by_web_heading": "Веб",
+                "notify_discussion_renamed_label": "Хтось перейменував мою дискусію",
+                "privacy_disclose_online_label": "Показувати онлайн-статус",
+                "privacy_heading": "Конфіденційність",
+                "title": "=> core.ref.settings"
+            },
+            "sign_up": {
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "log_in_text": "Вже маєте обліковий запис? <a>Увійти</a>",
+                "password_placeholder": "=> core.ref.password",
+                "submit_button": "=> core.ref.sign_up",
+                "title": "=> core.ref.sign_up",
+                "username_placeholder": "=> core.ref.username",
+                "welcome_text": "Ласкаво просимо, {username}!"
+            },
+            "user": {
+                "avatar_remove_button": "=> core.ref.remove",
+                "avatar_upload_button": "Завантажити",
+                "avatar_upload_tooltip": "Завантажити новий аватар",
+                "discussions_link": "=> core.ref.discussions",
+                "in_discussion_text": "у «{discussion}»",
+                "joined_date_text": "Приєднався {ago}",
+                "online_text": "Онлайн",
+                "posts_empty_text": "Схоже, що тут відсутні дописи.",
+                "posts_link": "=> core.ref.posts",
+                "posts_load_more_button": "=> core.ref.load_more",
+                "settings_link": "=> core.ref.settings"
+            },
+            "user_controls": {
+                "button": "Елементи керування",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Ви впевнені, що бажаєте видалити користувача? Дописи користувача НЕ будуть видалені.",
+                "delete_error_message": "Не вдалося видалити користувача <i>{username} ({email})</i>",
+                "delete_success_message": "Користувача <i>{username} ({email})</i> видалено",
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": "Перемикання спадного меню елементів керування користувачами"
+            },
+            "user_email_confirmation": {
+                "alert_message": "=> core.ref.confirmation_email_sent",
+                "resend_button": "Повторно відправити підтвердження на електронну пошту",
+                "sent_message": "Надіслано"
+            },
+            "welcome_hero": {
+                "hide": "Приховати привітання"
+            }
+        },
+        "lib": {
+            "debug_button": "Налагодження",
+            "alert": {
+                "dismiss_a11y_label": "Відбій тривоги"
+            },
+            "badge": {
+                "hidden_tooltip": "Поиховано"
+            },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": "Перемкнути спадне меню"
+            },
+            "edit_user": {
+                "activate_button": "Активувати користувача",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Групи",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Новий пароль",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username",
+                "nothing_available": "Вам не дозволено редагувати цього користувача."
+            },
+            "error": {
+                "dependent_extensions_message": "Неможливо вимкнути {extension}, доки не буде вимкнено такі залежні розширення: {extensions}",
+                "extension_initialiation_failed_message": "{extension} не вдалося ініціалізувати, зверніться до консолі браузера для отримання додаткової інформації.",
+                "generic_message": "Помилка. Будь ласка , оновіть сторінку та спробуйте ще раз.",
+                "missing_dependencies_message": "Неможливо ввімкнути {extension}, доки не ввімкнемо такі залежності: {extensions}",
+                "not_found_message": "Ресурс не знайдено.",
+                "payload_too_large_message": "Корисне навантаження запиту було занадто великим.",
+                "permission_denied_message": "У вас немає прав доступу для виконання цієї дії.",
+                "rate_limit_exceeded_message": "Ви рухаєтесь занадто швидко. Будь ласка, спробуйте ще раз через кілька секунд.",
+                "render_failed_message": "На жаль, під час відображення цього вмісту сталася помилка. Якщо ви користувач, спробуйте пізніше. Якщо ви адміністратор, перегляньте файли журналу Flarum для отримання додаткової інформації."
+            },
+            "loading_indicator": {
+                "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Сторінка # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Сторінка # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Закрити"
+            },
+            "nav": {
+                "drawer_button": "Відкрити навігаційну панель"
+            },
+            "number_suffix": {
+                "kilo_text": "K",
+                "mega_text": "M"
+            },
+            "series": {
+                "glue_text": ", ",
+                "three_text": "{first}, {second} та {third}",
+                "two_text": "{first} та {second}"
+            },
+            "username": {
+                "deleted_text": "[видалено]"
+            }
+        },
+        "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "=> core.ref.extensions",
+                    "disable": "Вимкнути",
+                    "empty": "Немає встановлених розширень",
+                    "enable": "Увімкнути",
+                    "name": "Назва розширення",
+                    "package_name": "Назва пакунку",
+                    "version": "Версія"
+                },
+                "info": {
+                    "caption": "Інформація про додаток"
+                },
+                "title": "Адміністрація"
+            },
+            "confirm_email": {
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "Натисніть кнопку нижче, щоб підтвердити електронну адресу свого облікового запису.",
+                "title": "=> core.ref.confirm_email"
+            },
+            "content": {
+                "javascript_disabled_message": "Цей сайт найкраще переглядати в сучасному браузері з включеним JavaScript.",
+                "load_error_message": "Щось пішло не так під час спроби завантаження повної версії цього сайту.",
+                "loading_text": "=> core.ref.loading"
+            },
+            "discussion": {
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "error": {
+                "csrf_token_mismatch": "Ви були неактивні тривалий час.",
+                "csrf_token_mismatch_return_link": "Поверніться назад і спробуйте ще раз",
+                "invalid_confirmation_token": "Посилання для підтвердження недійсне або вже було використане.",
+                "not_authenticated": "У вас немає прав доступу до цієї сторінки. Спробуйте ще раз після входу в свій аккаунт.",
+                "not_found": "Сторінку за вашим запитом не знайдено.",
+                "not_found_return_link": "Повернутися на {forum}",
+                "permission_denied": "У вас немає доступу до цієї сторінки.",
+                "unknown": "Під час завантаження цієї сторінки сталася помилка."
+            },
+            "index": {
+                "all_discussions_heading": "=> core.ref.all_discussions",
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "log_out": {
+                "log_out_button": "=> core.ref.log_out",
+                "log_out_confirmation": "Ви дійсно бажаєте вийти з {forum}?",
+                "title": "=> core.ref.log_out"
+            },
+            "reset_password": {
+                "confirm_password_label": "Підтвердити новий пароль",
+                "new_password_label": "Новий пароль",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.reset_your_password"
+            }
+        },
+        "api": {
+            "invalid_username_message": "Ім’я користувача може містити лише літерии, цифри та тире."
+        },
+        "email": {
+            "activate_account": {
+                "subject": "Активація вашого облікового запису",
+                "body": "Привіт, {username}!\n\nХтось (сподіваємось, що ви!) зареєструвався на форумі {forum} і вказав цю електронну адресу.\n\nЯкщо це були ви, просто натисніть на посилання і ваш обліковий запис буде активовано:\n{url}\n\nЯкщо ви не реєструвалися, будь ласка, проігноруйте це повідомлення.\n"
+            },
+            "confirm_email": {
+                "subject": "Підтвердження нової адреси електронної пошти",
+                "body": "Привіт, {username}!\n\nХтось (сподіваємось, що ви!) змінив адресу електронної пошти на форумі {forum}.\n\nЯкщо це були ви, просто натисніть на посилання і ваш email змінено:\n{url}\n\nЯкщо це не ви, будь ласка, проігноруйте це повідомлення.\n"
+            },
+            "reset_password": {
+                "subject": "=> core.ref.reset_your_password",
+                "body": "Привіт, {username}!\n\nХтось (сподіваємось, що ви!) подав запит на зміну пароля для вашого облікового запису на форумі {forum}.\n\nЯкщо це були Ви, просто натисніть на посилання для зміни пароля:\n{url}\n\nЯкщо ви не бажаєте змінювати свій пароль, просто проігноруйте це повідомлення і нічого не станеться.\n"
+            },
+            "send_test": {
+                "subject": "Тестовий лист Flarum",
+                "body": "Привіт {username}!\n\nЦе тестове повідомлення того, що електронна пошта Flarum налаштована.\n\nЯкщо це були ви, цей електронний лист означає, що ваша конфігурація працює!\n\nЯкщо це були не ви, проігноруйте цей електронний лист.\n"
+            }
+        },
+        "ref": {
+            "all_discussions": "Всі дискусії",
+            "change_email": "Змінити адресу електронної пошти",
+            "change_password": "Змінити пароль",
+            "color": "Колір",
+            "confirm_password": "Підтвердити пароль",
+            "confirm_email": "Підтвердити електронну адресу",
+            "confirmation_email_sent": "Ми відправили лист з підтвердженням на адресу {email}. Якщо ви не отримаєте лист найближчим часом, перевірте теку зі спамом.",
+            "custom_footer_text": "Додати HTML-код який відображатиметься внизу кожної сторінки.",
+            "custom_footer_title": "Редагувати користувацький нижній колонтитул",
+            "custom_header_text": "Додати HTML-код, який показуватиметься угорі сторінки.",
+            "custom_header_title": "Редагувати користувацьку шапку",
+            "delete": "Видалити",
+            "delete_forever": "Видалити назавжди",
+            "discussions": "Дискусії",
+            "edit": "Редагувати",
+            "edit_user": "Редагувати користувача",
+            "email": "Електронна пошта",
+            "extensions": "Розширення",
+            "icon": "Значок",
+            "icon_text": "Введіть назву будь-якого класу іконки <a>Font Awesome</a>, <em>включаючи</em> префіксы <code>fas fa-</code>.",
+            "load_more": "Завантажити ще",
+            "loading": "Завантаження...",
+            "log_in": "Увійти",
+            "log_out": "Вийти",
+            "mark_all_as_read": "Позначити все, як прочитане",
+            "next_page": "Наступна сторінка",
+            "notifications": "Сповіщення",
+            "okay": "OK",
+            "password": "Пароль",
+            "posts": "Дописи",
+            "previous_page": "Попередня сторінка",
+            "remove": "Видалити",
+            "rename": "Перейменувати",
+            "reply": "Відповісти",
+            "reset_your_password": "Скинути пароль",
+            "restore": "Відновити",
+            "save_changes": "Зберегти зміни",
+            "settings": "Налаштування",
+            "sign_up": "Реєстрація",
+            "some_others": "{count, plural, one {# іншому} other {# іншим}}",
+            "start_a_discussion": "Створити дискусію",
+            "username": "Ім'я користувача",
+            "users": "Користувачі",
+            "view": "Перегляд",
+            "write_a_reply": "Написати відповідь...",
+            "you": "Ви"
+        },
+        "group": {
+            "admin": "Адміністратор",
+            "admins": "Адміністратори",
+            "guest": "Гість",
+            "guests": "Гості",
+            "member": "Користувач",
+            "members": "Користувачі",
+            "mod": "Модератор",
+            "mods": "Модератори"
+        }
+    }
+}

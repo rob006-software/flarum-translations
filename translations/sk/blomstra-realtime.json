@@ -2,12 +2,23 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "",
+                "discussion-list-new-activity": "{count, plural, one {Zobraziť # aktualizovanú diskusiu} few {Zobraziť # aktualizované diskusie} other {Zobraziť # aktualizovaných diskusií}}",
                 "discussion-list-new-activity-with-auto-release": ""
             },
             "typing-indicator": {
+                "anonymous-user": "",
                 "people-are-typing": "",
+                "users-are-typing": "",
                 "no-activity": ""
+            },
+            "user": {
+                "settings": {
+                    "heading": "",
+                    "typing-indicator-type": {
+                        "help": "",
+                        "label": ""
+                    }
+                }
             }
         },
         "admin": {
@@ -15,8 +26,12 @@
                 "view-who-types": ""
             },
             "settings": {
+                "release-discussion-updates": "",
+                "release-discussion-updates-help": "",
                 "release-discussion-updates-interval": "",
-                "release-discussion-updates-interval-help": ""
+                "release-discussion-updates-interval-help": "",
+                "typing-indicator": "",
+                "typing-indicator-help": ""
             }
         }
     }

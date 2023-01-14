@@ -23,8 +23,7 @@
                 "make_public": "Voulez-vous vraiment supprimer les destinataires et rendre cette discussion visible à tous ceux qui peuvent voir l'étiquette attribuée ?"
             },
             "labels": {
-                "recipients": "{count, plural, one {{count} destinataire} other {{count} destinataires}}",
-                "user_deleted": "-supprimé(e)-"
+                "recipients": "{count, plural, one {{count} destinataire} other {{count} destinataires}}"
             },
             "nav": {
                 "start_button": "Discuter en privé",
@@ -95,7 +94,9 @@
                 "badge-icon": "Badge de discussion Byobu",
                 "enable-make-public-option": "Activer la capacité « rendre public »",
                 "enable-make-public-option-help": "Ajoute la possibilité pour les personnes autorisées de supprimer tous les destinataires, d'attribuer une nouvelle étiquette et de rendre la discussion visible publiquement (selon les paramètres de visibilité de l'étiquette choisie).",
-                "post-event-icon": "Événements de publication Byobu"
+                "post-event-icon": "Événements de publication Byobu",
+                "delete_on_last_recipient_left": "Suppression des discussions privées lors du départ du dernier utilisateur",
+                "delete_on_last_recipient_left_help": "Si cette option est activée, les discussions privées seront définitivement supprimées de la base de données lorsque le dernier utilisateur partira de la conversation. Sinon, les discussions privées seront supprimées en douceur et cachées."
             }
         },
         "email": {

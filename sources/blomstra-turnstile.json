@@ -1,0 +1,19 @@
+{
+    "blomstra-turnstile": {
+        "admin": {
+            "settings": {
+                "site_key": "Site key",
+                "secret_key": "Secret key",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
+            }
+        },
+        "forum": {
+            "not_loaded_error": "Failed to load Cloudflare Turnstile. Please refresh the page, and check your adblocker."
+        }
+    },
+    "validation": {
+        "turnstile": "We couldn't verify if you're a robot or not. Please refresh the page and try again."
+    }
+}

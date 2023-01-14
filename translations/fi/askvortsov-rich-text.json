@@ -2,49 +2,49 @@
     "askvortsov-rich-text": {
         "admin": {
             "settings": {
-                "toggle_on_editor": ""
+                "toggle_on_editor": "Näytä rikastettu teksti tila valinta muokkaimessa?"
             }
         },
         "lib": {
             "composer": {
-                "toggle_button": "",
-                "insert_button": "",
+                "toggle_button": "Vaihda rikastetun tekstin tilaa",
+                "insert_button": "Lisää",
                 "insert_image": {
-                    "src_placeholder": "",
-                    "title_placeholder": ""
+                    "src_placeholder": "Linkki",
+                    "title_placeholder": "Otsikko"
                 },
                 "insert_link": {
-                    "text_placeholder": "",
-                    "href_placeholder": "",
-                    "title_placeholder": "",
-                    "remove_button": ""
+                    "text_placeholder": "Teksti",
+                    "href_placeholder": "URL",
+                    "title_placeholder": "Otsikko (näkyy viedessä hiiren päälle)",
+                    "remove_button": "Poista"
                 },
-                "additional_items_tooltip": "",
-                "bold_tooltip": "",
-                "code_tooltip": "",
-                "code_block_tooltip": "",
-                "header_tooltip": "",
-                "horizontal_rule_tooltip": "",
-                "image_tooltip": "",
-                "italic_tooltip": "",
-                "link_tooltip": "",
-                "ordered_list_tooltip": "",
-                "paragraph_tooltip": "",
-                "quote_tooltip": "",
-                "spoiler_block_tooltip": "",
-                "spoiler_inline_tooltip": "",
-                "strike_tooltip": "",
-                "sub_tooltip": "",
-                "sup_tooltip": "",
-                "text_type_tooltip": "",
-                "unordered_list_tooltip": ""
+                "additional_items_tooltip": "Lisätoiminnot",
+                "bold_tooltip": "Lihavoitu teksti <{modifierKey}-b>",
+                "code_tooltip": "Yhden rivin koodi <{modifierKey}-`>",
+                "code_block_tooltip": "Lisää koodi lohko",
+                "header_tooltip": "Muuta otsikoksi {level} <shift-{modifierKey}-{level}>",
+                "horizontal_rule_tooltip": "Lisää vaakaerotin",
+                "image_tooltip": "Lisää kuva",
+                "italic_tooltip": "Kursivoitu teksti <{modifierKey}-i>",
+                "link_tooltip": "Lisää linkki",
+                "ordered_list_tooltip": "Numeroitu lista <shift-{modifierKey}-9>",
+                "paragraph_tooltip": "Muuta kappaleeksi <shift-{modifierKey}-0>",
+                "quote_tooltip": "Lisää lainaus <{modifierKey}-q>",
+                "spoiler_block_tooltip": "Lohko spoileri/alasvetovalikko",
+                "spoiler_inline_tooltip": "Spoileri <{modifierKey}-;>",
+                "strike_tooltip": "Yliviivaus <alt-shift-5>",
+                "sub_tooltip": "Alaindeksi <{modifierKey}-,>",
+                "sup_tooltip": "Yläindeksi <{modifierKey}-.>",
+                "text_type_tooltip": "Valitse tekstin tyyppi",
+                "unordered_list_tooltip": "Lista <shift-{modifierKey}-8>"
             }
         },
         "forum": {
             "settings": {
-                "composer_heading": "",
-                "use_rich_text_editor_label": "",
-                "rich_text_compact_paragraphs_label": ""
+                "composer_heading": "Muokkain",
+                "use_rich_text_editor_label": "Käytä rikastettua teksti editoria?",
+                "rich_text_compact_paragraphs_label": "Älä erottele kappaleita uudella rivillä."
             }
         }
     }

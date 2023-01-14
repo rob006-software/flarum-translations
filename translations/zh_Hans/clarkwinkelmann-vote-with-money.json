@@ -1,0 +1,37 @@
+{
+    "clarkwinkelmann-vote-with-money": {
+        "admin": {
+            "settings": {
+                "preselection": "预选金额（逗号分隔，可选）",
+                "min": "",
+                "max": ""
+            }
+        },
+        "forum": {
+            "vote": {
+                "title": "",
+                "target": "",
+                "optionCustom": "",
+                "balance": "",
+                "label": {
+                    "custom": ""
+                },
+                "submit": "",
+                "success": ""
+            },
+            "poll": {
+                "voteWithMoney": "",
+                "min": "",
+                "max": ""
+            }
+        },
+        "api": {
+            "error": {
+                "cannotCancel": "",
+                "cannotChange": "",
+                "notEnoughFunds": "",
+                "cannotChangePollType": ""
+            }
+        }
+    }
+}

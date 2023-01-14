@@ -11,18 +11,6 @@
                 "upgrade": "升级到专业版"
             }
         },
-        "forum": {
-            "link": {
-                "discussion-audit": "审计日志",
-                "user-audit": "审计日志（账户编辑）",
-                "actor-audit": "审计日志（用户作为行为人）"
-            },
-            "modal": {
-                "discussion-title": "讨论审计日志",
-                "user-title": "用户审计日志",
-                "actor-title": "行为人审计日志"
-            }
-        },
         "lib": {
             "browser": {
                 "filterPlaceholder": "筛选日志",
@@ -64,6 +52,7 @@
                     "filterUser": "筛选受影响的同一用户",
                     "filterDiscussion": "筛选受影响的同一主题"
                 },
+                "audit_log_cleared": "",
                 "cache_cleared": "手动清除缓存",
                 "discussion": {
                     "created": "发布主题 {discussion}",
@@ -139,6 +128,18 @@
                     "username_request_approved": "批准 {username} 用户名 {old_username} 变更为 {new_username}",
                     "username_request_rejected": "拒绝 {username} 的用户名变更请求"
                 }
+            }
+        },
+        "forum": {
+            "link": {
+                "discussion-audit": "审计日志",
+                "user-audit": "审计日志（账户编辑）",
+                "actor-audit": "审计日志（用户作为行为人）"
+            },
+            "modal": {
+                "discussion-title": "讨论审计日志",
+                "user-title": "用户审计日志",
+                "actor-title": "行为人审计日志"
             }
         }
     }

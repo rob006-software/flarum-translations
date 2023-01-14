@@ -3,54 +3,54 @@
         "admin": {
             "settings": {
                 "composerHelpTextPosition": "Düzenleyici yardım metni konumu",
-                "composerHelpTextPositionVisible": "",
-                "composerHelpTextPositionTooltip": "",
-                "composerHelpTextPositionHidden": "",
-                "avatars": "",
-                "avatarsHelp": "",
-                "avatarFormId": "",
-                "avatarFieldKey": "",
-                "avatarFieldValue": "",
-                "avatarAvatarUrl": "",
-                "avatarAdd": ""
+                "composerHelpTextPositionVisible": "Görünür (etiketin altında)",
+                "composerHelpTextPositionTooltip": "İpucu (etiketten sonra)",
+                "composerHelpTextPositionHidden": "Gizli",
+                "avatars": "Anonim avatarlar",
+                "avatarsHelp": "Bu özellik, premium <a>Formulaire uzantısı</a> gerektirir. Tartışmaları ve gönderileri almak için ek veritabanı istekleri gerektiğinden, bu özelliğin kullanılması performans üzerinde küçük bir etkiye neden olur. Her girişin formatı hakkında daha fazla ayrıntı için BENİOKU'ya bakın.\n",
+                "avatarFormId": "Form ID",
+                "avatarFieldKey": "Alan anahtarı",
+                "avatarFieldValue": "Alan değeri",
+                "avatarAvatarUrl": "Avatar Bağlantısı",
+                "avatarAdd": "Avatar kuralı ekle"
             },
             "permissions": {
-                "use": "",
-                "reveal": "",
-                "moderate": ""
+                "use": "Anonim olarak yayınla",
+                "reveal": "Anonim tartışmaların ve gönderilerin gerçek yazarlarını görün",
+                "moderate": "Herhangi bir tartışmayı veya gönderiyi anonimleştir veya anonimleştirme"
             }
         },
         "forum": {
             "composerControls": {
-                "anonymize": "",
-                "anonymizeHelp": ""
+                "anonymize": "Anonim olarak yayınla",
+                "anonymizeHelp": "Moderatörler yine de bu içeriği sizin oluşturduğunuzu bilecekler"
             },
             "discussionControls": {
-                "anonymize": "",
-                "anonymizeConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "anonymize": "Anonimleştir",
+                "anonymizeConfirmation": "Bu, tartışma yazarını anonim hale getirecektir. İlk gönderi ayrı olarak anonimleştirilmelidir. Devam?",
+                "deanonymize": "Anonimleştirme",
+                "deanonymizeConfirmation": "Bu, tartışmanın asıl yazarını tekrar herkese açık hale getirecektir. Devam?"
             },
             "postControls": {
-                "anonymize": "",
-                "firstPostConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "anonymize": "Anonimleştir",
+                "firstPostConfirmation": "Bu, ilk gönderi yazarını anonim hale getirecektir. Tartışma ayrı olarak anonimleştirilmelidir. Devam?",
+                "deanonymize": "Anonimleştirme",
+                "deanonymizeConfirmation": "Bu, gönderinin asıl yazarını tekrar herkese açık hale getirecektir. Devam?"
             },
             "discussionList": {
-                "genericReplyText": ""
+                "genericReplyText": "Son yanıtlanan {ago}"
             },
             "postPrivacy": {
-                "mine": "",
-                "mineHelp": "",
-                "profile": "",
-                "profileHelp": ""
+                "mine": "Ben",
+                "mineHelp": "Bu bilgileri yalnızca siz görebilirsiniz",
+                "profile": "Yalnızca size görünür",
+                "profileHelp": "Profilinizde anonim gönderilerinizi yalnızca siz görebilirsiniz"
             }
         },
         "lib": {
             "userMeta": {
-                "initials": "",
-                "username": ""
+                "initials": "?",
+                "username": "Anonim"
             }
         }
     }

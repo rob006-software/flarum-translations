@@ -22,8 +22,7 @@
                 "postMentioned": "Flarum/mentions Courriel mentionné",
                 "notifications": "Modèles de notification",
                 "notificationHelp": "Il est recommandé d'utiliser « $forumStyle » pour ces courriels car ils peuvent contenir du BBCode. Ces courriels ont également « $user » de disponible, contenant le modèle d'utilisateur complet de l'utilisateur qui reçoit le courriel.",
-                "template_help": "Voir chaque modèle pour savoir comment utiliser chaque attribut.",
-                "help": "« $body » contiendra le contenu réel du courriel, « $forumStyle » contient le <strong>CSS complet du forum</strong> du forum, « $url » est le générateur d'URL de Flarum, « $settings » vous permet d'interagir avec SettingsRepositoryInterface, et « $link » contient le lien dans le courriel. Consultez chaque modèle pour savoir comment utiliser chaque variable."
+                "template_help": "Voir chaque modèle pour savoir comment utiliser chaque attribut."
             },
             "css_settings": {
                 "label": "Paramètres du CSS",

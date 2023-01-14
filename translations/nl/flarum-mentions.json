@@ -1,6 +1,9 @@
 {
     "flarum-mentions": {
         "admin": {
+            "permissions": {
+                "mention_groups_label": "Vermeld groepen"
+            },
             "settings": {
                 "allow_username_format_label": "Vermeldingsindeling voor gebruikersnaam toestaan (@gebruikersnaam)",
                 "allow_username_format_text": "Het huidige formaat voor gebruikersvermeldingen is @\"Weergavenaam\"#ID.\nMet deze instelling kunt u de oude indeling @Gebruikersnaam gebruiken, maar deze wordt bij het opslaan nog steeds geconverteerd naar de nieuwe indeling.\n"
@@ -8,16 +11,17 @@
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "Vermeld een gebruiker of bericht",
+                "mention_tooltip": "Vermeld een gebruiker, groep of bericht",
                 "reply_to_post_text": "Reageer op #{number}"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} heeft gereageerd op je bericht",
-                "user_mentioned_text": "{username} heeft je genoemd"
+                "user_mentioned_text": "{username} heeft je genoemd",
+                "group_mentioned_text": "{username} vermelde een groep waarvan je lid bent"
             },
             "post": {
-                "mentioned_by_self_text": "{count, plural, one {{users} hebt hierop gereageerd} other {{users} hebben hierop gereageerd}}",
+                "mentioned_by_self_text": "{count, plural, one {{users} hebt hierop gereageerd} other {{users} hebben hierop gereageerd}}.",
                 "mentioned_by_text": "{count, plural, one {{users} heeft hierop gereageerd} other {{users} hebben hierop gereageerd}}.",
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Citeer",
@@ -26,13 +30,17 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "Iemand reageert op mijn berichten",
-                "notify_user_mentioned_label": "Iemand noemt mij in een bericht"
+                "notify_user_mentioned_label": "Iemand noemt mij in een bericht",
+                "notify_group_mentioned_label": "Iemand vermeldt een groep waarvan ik lid ben in een bericht"
             },
             "user": {
                 "mentions_link": "Vermeldingen"
             },
             "post_mention": {
                 "deleted_text": "[onbekend]"
+            },
+            "group_mention": {
+                "deleted_text": "[onbekende groep]"
             }
         },
         "email": {
@@ -43,6 +51,10 @@
             "user_mentioned": {
                 "subject": "{mentioner_display_name} heeft je genoemd in {title}",
                 "body": "Hey {recipient_display_name}!\n\n{mentioner_display_name} heeft je genoemd in een bericht in {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "group_mentioned": {
+                "subject": "{mentioner_display_name} vermelde een groep waarvan je lid bent in {title}",
+                "body": "Hallo {recipient_display_name}!\n\n{mentioner_display_name} vermelde een groep waarvan je lid bent in {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }

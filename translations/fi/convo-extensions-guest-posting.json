@@ -2,32 +2,32 @@
     "guest-posting": {
         "forum": {
             "alert": {
-                "create-account": "",
-                "create-account-votes-only": "",
-                "create-account-posts-and-votes": "",
-                "signup": ""
+                "create-account": "Luo tili nyt ja tuo {count} viestiäsi!",
+                "create-account-votes-only": "Luo tili nyt ja tuo {count} ääntäsi!",
+                "create-account-posts-and-votes": "Luo tili nyt ja tuo {postCount} viestiäsi ja {voteCount} ääntäsi!",
+                "signup": "Rekisteröidy"
             },
             "modal": {
-                "import": "",
-                "import-votes": ""
+                "import": "Tuo minun {count} vieraana tekemääni viestiä",
+                "import-votes": "Tuo minun {postCount} viestiä ja {voteCount} ääntä, jotka tein vieraana"
             },
             "badge": {
-                "guest": ""
+                "guest": "Vieras"
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "enableImport": "",
-                "sessionLifetime": "",
-                "usernames": ""
+                "title": "Vieras kirjoituksen asetukset",
+                "enableImport": "Ota käyttöön olemassa olevien viestien tuonti rekisteröinnissä",
+                "sessionLifetime": "Vieraan istunnon pituus tunneissa",
+                "usernames": "Satunnaiset käyttäjätunnukset vieraille"
             }
         }
     },
     "core": {
         "lib": {
             "username": {
-                "deleted_text": ""
+                "deleted_text": "Vieras"
             }
         }
     }

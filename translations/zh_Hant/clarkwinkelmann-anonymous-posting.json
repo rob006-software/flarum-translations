@@ -1,0 +1,57 @@
+{
+    "clarkwinkelmann-anonymous-posting": {
+        "admin": {
+            "settings": {
+                "composerHelpTextPosition": "文本編輯器提示方式",
+                "composerHelpTextPositionVisible": "可見（標籤下方）",
+                "composerHelpTextPositionTooltip": "圖標",
+                "composerHelpTextPositionHidden": "不提示",
+                "avatars": "匿名用戶頭像",
+                "avatarsHelp": "此功能需要付費的 <a>Formulaire 擴展程序</a>。此功能使用獨立的數據庫存儲發帖數據，因此會帶來輕微的性能影響。此項的詳細設置說明，請查閱自述文檔。\n",
+                "avatarFormId": "表單 ID",
+                "avatarFieldKey": "字段名",
+                "avatarFieldValue": "字段值",
+                "avatarAvatarUrl": "頭像 URL",
+                "avatarAdd": "添加頭像規則"
+            },
+            "permissions": {
+                "use": "匿名發布",
+                "reveal": "查看匿名內容發布者",
+                "moderate": "匿名或取消匿名任一內容"
+            }
+        },
+        "forum": {
+            "composerControls": {
+                "anonymize": "匿名發布",
+                "anonymizeHelp": "管理員仍能知道發布者"
+            },
+            "discussionControls": {
+                "anonymize": "匿名",
+                "anonymizeConfirmation": "確定要匿名此主題嗎？如需匿名一樓，請另外操作。",
+                "deanonymize": "取消匿名",
+                "deanonymizeConfirmation": "確定要公開此主題的作者嗎？"
+            },
+            "postControls": {
+                "anonymize": "匿名",
+                "firstPostConfirmation": "確定要匿名一樓嗎？如需匿名主題，請另外操作。",
+                "deanonymize": "取消匿名",
+                "deanonymizeConfirmation": "確定要公開此帖的作者嗎？"
+            },
+            "discussionList": {
+                "genericReplyText": "回覆於 {ago}"
+            },
+            "postPrivacy": {
+                "mine": "我",
+                "mineHelp": "此內容他人不可見",
+                "profile": "僅自已可見",
+                "profileHelp": "他人無法在個人主頁看見您的匿名回覆"
+            }
+        },
+        "lib": {
+            "userMeta": {
+                "initials": "？",
+                "username": "匿名用戶"
+            }
+        }
+    }
+}

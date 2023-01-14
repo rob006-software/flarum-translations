@@ -1,0 +1,29 @@
+{
+    "clarkwinkelmann-money-to-all": {
+        "lib": {
+            "modal": {
+                "title": "Send money to all users",
+                "amount": "Amount",
+                "notify": "Send web notification to users",
+                "message": "Message",
+                "messagePlaceholder": "Enable notification to include a message",
+                "messageHelp": "Optional. The message will override the default notification text. You should mention the amount in your text since it won't be shown anymore.",
+                "suspended": "Include suspended users",
+                "lastActivity": "Restrict to users active after the following date",
+                "preview": "Current settings match {count} users.",
+                "submit": "Send",
+                "success": "Money sent to {count} users!"
+            }
+        },
+        "admin": {
+            "settings": {
+                "send": "Send money to all users"
+            }
+        },
+        "forum": {
+            "notification": {
+                "moneyReceived": "You have receieved {amount}"
+            }
+        }
+    }
+}

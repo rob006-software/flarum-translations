@@ -1,0 +1,18 @@
+{
+    "flarum-pusher": {
+        "admin": {
+            "pusher_settings": {
+                "app_cluster_label": "Cluster",
+                "app_id_label": "ID aplicație",
+                "app_key_label": "Cheie aplicație",
+                "app_secret_label": "Cheie secretă aplicație",
+                "title": "Setări"
+            }
+        },
+        "forum": {
+            "discussion_list": {
+                "show_updates_text": "{count, plural, one {Afișare # discuție actualizată} other {Afișare # discuții actualizate}}"
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "clarkwinkelmann-group-invitation": {
+        "forum": {
+            "title": "您被邀请加入「{group}」用户组！",
+            "generic-title": "用戶組邀請",
+            "user": {
+                "already-connected": "用戶「{username}」將加入「{group}」用戶組。用戶不對？<a>登錄到另一個帳號</a>。\n",
+                "not-connected": "<a>登錄</a> 以接受邀請。",
+                "not-authorized": "當前用戶「{username}」沒有加入用戶組的權限。<a>登錄到另一個帳戶</a>。",
+                "already-member": "好消息，您的賬號「{username}」已經是「{group}」用戶組的成員了！想和其他用戶一起加入用戶組？<a>登錄到另一個帳戶</a>。\n"
+            },
+            "invitation": {
+                "not-found": "很抱歉，這個用戶的邀請不存在。",
+                "no-usages-left": "很抱歉，這個用戶組的邀請失效了。"
+            },
+            "apply": "加入用戶組",
+            "success-alert": "您已經成功加入了這個用戶組！"
+        },
+        "admin": {
+            "permissions": {
+                "use": "使用用戶組邀請鏈接"
+            },
+            "settings": {
+                "head": {
+                    "code": "代碼",
+                    "group": "用戶組",
+                    "usage": "使用"
+                },
+                "placeholder": {
+                    "code": "自動生成",
+                    "group": "選擇…",
+                    "usage": "留空表示無限制"
+                },
+                "empty": "目前還沒有創建任何邀請鏈接。",
+                "unlimited": "無限制",
+                "create": "創建",
+                "delete": "删除"
+            }
+        },
+        "api": {
+            "error": {
+                "not-found": "邀請碼不存在",
+                "no-usages-left": "邀請已失效"
+            }
+        }
+    }
+}

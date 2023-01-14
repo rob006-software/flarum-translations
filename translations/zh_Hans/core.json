@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "彩色导航栏",
                 "colors_heading": "颜色",
+                "colors_primary_label": "主色调",
+                "colors_secondary_label": "次色调",
                 "colors_text": "选择两种颜色作为论坛配色。第一种作为突出显示内容的颜色，第二种作为背景等元素的颜色。",
                 "custom_footer_heading": "自定义页脚",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -36,7 +38,7 @@
                 "home_page_text": "选择一种页面作为论坛首页。",
                 "show_language_selector_label": "显示语言选择器",
                 "slug_driver_heading": "固定链接驱动：{model}",
-                "slug_driver_text": "选择当前模态的 URL 驱动。",
+                "slug_driver_text": "选择此模块的 URL 驱动。",
                 "title": "常规",
                 "welcome_banner_heading": "欢迎横幅",
                 "welcome_banner_text": "横幅文本将显示于「全部主题」页面顶部，可以用于欢迎论坛访客。"
@@ -44,8 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "清除缓存",
                 "description": "论坛各项数据一览",
+                "io_error_message": "无法写入文件。请检查操作权限，重试或者直接从命令行运行命令。",
                 "title": "仪表盘",
                 "tools_button": "工具"
+            },
+            "debug-warning": {
+                "detail": "启用 <code>调试</code> 模式时，所有 Flarum 请求均不会缓存，<code>JavaScript</code> 和 <code>CSS</code> 文件将每次请求时返回全新的编译版本。调试模式中，所有日志、警告和错误均会以弹窗形式展示在网页中，数据库密码、环境变量等敏感信息均有可能在此期间泄露。\n\n因此我们强烈建议您在生产环境中将 <code>config.php</code> 文件中的 <code>debug</code> 设置为 <code>false</code> 以禁用调试模式。请查看 <link>Flarum 文档</link>了解更多信息。\n",
+                "label": "调试模式已激活"
             },
             "edit_css": {
                 "customize_text": "添加 Less/CSS 代码以自定义论坛外观，此设置将覆盖 Flarum <a>默认样式</a>。",
@@ -110,7 +117,7 @@
                     "donate": "捐助",
                     "source": "源码",
                     "support": "支持",
-                    "website": "网站"
+                    "website": "主页"
                 },
                 "no_permissions": "此扩展无新增权限。",
                 "no_settings": "此扩展无设置项。",
@@ -312,7 +319,7 @@
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "我们已经将重置密码的链接发送到该邮箱，若未收到请检查垃圾箱。",
+                "email_sent_message": "如果您输入的电子邮件已在本站注册过，我们将向其发送一封含有重置密码链接的邮件。若未收到请检查垃圾箱。",
                 "not_found_message": "此邮箱的注册用户不存在",
                 "submit_button": "重置密码",
                 "text": "请输入账户的注册邮箱地址，我们将发送重设密码链接至该邮箱。",
@@ -361,6 +368,8 @@
                 "username_or_email_placeholder": "用户名或邮箱"
             },
             "notifications": {
+                "delete_all_confirm": "确定要删除所有通知吗？此操作不可撤销",
+                "delete_all_tooltip": "删除所有通知",
                 "discussion_renamed_text": "{username} 更改了标题",
                 "empty_text": "没有新通知",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
@@ -391,7 +400,7 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "原标题：「{old}」",
-                "discussion_renamed_text": "{username} 将标题更改为 「{new}」。",
+                "discussion_renamed_text": "{username} 更改标题为「{new}」",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} 后"
@@ -409,6 +418,7 @@
                 "account_heading": "帐户设置",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "通过 {method} 接收「{description}」通知",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "通知",
@@ -599,7 +609,7 @@
             },
             "send_test": {
                 "subject": "Flarum 邮件测试",
-                "body": "{username}，您好！\n\n这是一个测试邮件，用于测试您的邮箱设置是否正确。\n\n若是您本人发送了测试邮件，那么恭喜，这意味着您的设置有效！\n\n若非您本人发送测试邮件，请忽略此内容。\n"
+                "body": "{username}，恭喜您！\n\n您的论坛邮箱服务可用。\n\n本邮件用于测试邮箱服务配置是否正确。\n\n若非本人发送测试邮件，请忽略。\n"
             }
         },
         "ref": {

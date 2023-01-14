@@ -1,0 +1,28 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "line": {
+                        "description": "Forumunuzu LINE Developers Console'a kaydedin {link}",
+                        "client_id_label": "Kanal Kimliği",
+                        "client_secret_label": "Kanal (secret) gizli anahtarı"
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_line_button": "=> fof-oauth.forum.log_in.with_button"
+            },
+            "providers": {
+                "line": "=> fof-oauth.lib.providers.line"
+            }
+        },
+        "lib": {
+            "providers": {
+                "line": "LINE"
+            }
+        }
+    }
+}

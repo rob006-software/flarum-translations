@@ -1,0 +1,43 @@
+{
+    "askvortsov-saml": {
+        "admin": {
+            "header": {
+                "text": "請確保元數據 URL 或元數據都已填寫。"
+            },
+            "title": "SAML2 SSO 配置",
+            "labels": {
+                "idp_metadata_url": "身分識別提供者資料檔案 URL（替代 XML）",
+                "idp_metadata": "身分識別提供者資料檔案 XML（替代 URL）",
+                "only_option": "使用 SAML2 SSO 作為唯一登入選項？",
+                "nameid_format": "NameID 格式",
+                "slo": "啟用 SLO？如果 IDP 不支持則沒有效果。",
+                "authn_requests_signed": "簽名請求？",
+                "logout_request_signed": "簽名注銷請求？",
+                "logout_response_signed": "簽名注銷響應？",
+                "sign_metadata": "簽名元數據？",
+                "want_assertions_encrypted": "加密 Assertions?",
+                "want_assertions_signed": "Want Assertions Signed?",
+                "want_messages_signed": "Want Messages Signed?",
+                "x509_cert": "x509 証書（用於簽名）",
+                "x509_key": "x509密鑰（用於簽名）"
+            },
+            "options": {
+                "nameid_format": {
+                    "persistent": "持久化（如果支援，推薦使用）",
+                    "emailAddress": "郵箱（預設，如果不支援持久化）",
+                    "unspecified": "未指定"
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_saml_button": "SAML2 SSO",
+                "open_popup": "點這裡登入",
+                "enable_popups": "啟用登入/註冊跳出式對話方塊"
+            },
+            "sign_up": {
+                "post_saml_title": "最後一步…"
+            }
+        }
+    }
+}

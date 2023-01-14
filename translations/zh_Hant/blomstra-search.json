@@ -1,0 +1,18 @@
+{
+    "blomstra-search": {
+        "admin": {
+            "elastic-endpoint": "Elastic Endpoint 訪問域名",
+            "elastic-username": "=> core.ref.username",
+            "elastic-password": "=> core.ref.password",
+            "elastic-index": "Index 索引",
+            "analyzer": {
+                "label": "Analyzer language 分析語言",
+                "help": "分析器用於理解語義和分詞，並優化索引。\n"
+            },
+            "search-discussion-subjects": "索引標題",
+            "search-post-bodies": "索引貼文",
+            "match-sentences": "長句匹配",
+            "match-words": "字詞匹配"
+        }
+    }
+}

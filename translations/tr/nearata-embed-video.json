@@ -7,11 +7,14 @@
                     "hotkey": "Kısayol",
                     "lang": "Oynatıcı dili",
                     "logo": "Logo bağlantısı",
-                    "quality_switching": "Kalite Seçimine İzin Ver",
-                    "theme": "Tema rengi"
+                    "quality_switching": "Kalite Seçimi",
+                    "theme": "Tema rengi",
+                    "modal_enabled": "Pencere Etkinleştirildi",
+                    "modal_enabled_help": "Modu etkinleştirin veya BBCode'u düzenleyicinin içine yerleştirin."
                 },
                 "permissions": {
-                    "can_create_video_player": "Video oynatıcı oluşturabilir"
+                    "can_create_video_player": "Video oynatıcı oluşturabilir",
+                    "can_view_video_player": "Video oynatıcıyı görüntüleyebilir"
                 },
                 "video_types": {
                     "dash": "Dash",
@@ -38,8 +41,18 @@
                     "webtorrent": "WebTorrent"
                 },
                 "video_url_label": "Video Bağlantısı",
-                "video_url_placeholder": "Örn. https://ornek.com/dosyaadi.mp4"
-            }
+                "video_url_placeholder": "Örn. https://ornek.com/dosyaadi.mp4",
+                "quality_switching_tutorial": "Kalite Değiştirme eğitimi",
+                "pointer_label": "Noktalama",
+                "pointer_option_new": "Yeni",
+                "quality_option_new": "Yeni",
+                "add_quality": "Kalite Ekle",
+                "remove_quality": "Kaliteyi Kaldır",
+                "add_pointer": "Nokta ekle",
+                "remove_pointer": "Nokta kaldır",
+                "qualities_label": "Nitelikler (İsteğe bağlı)"
+            },
+            "cannot_view": "Hata: Bu içeriği görüntüleme izniniz yok"
         }
     }
 }

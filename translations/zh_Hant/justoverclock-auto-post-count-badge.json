@@ -1,0 +1,38 @@
+{
+    "justoverclock-auto-post-count-badge": {
+        "admin": {
+            "settings": {
+                "tier": "{tier}：達成 {from} 至 {to} 次回帖",
+                "icon-manager": {
+                    "title": "圖示管理",
+                    "help_text": "=> core.ref.icon_text"
+                },
+                "label-manager": {
+                    "title": "本文管理",
+                    "help": "自定義頭銜"
+                }
+            },
+            "levelOne": "自定義等級頭銜 LV1「潛水」",
+            "levelOne-help": "在此黏貼LV1的FontAwesome圖標代碼（如fas fa-square）",
+            "levelTwo": "自定義等級頭銜 LV2「冒泡」",
+            "levelTwo-help": "在此粘貼 LV2 的 FontAwesome 圖標代碼（如 fas fa-square）",
+            "levelTree": "自定義等級頭銜LV3「吐槽」",
+            "levelTree-help": "在此粘貼 LV3 的 FontAwesome 圖標代碼（如 fas fa-square）",
+            "levelFour": "自定義等級頭銜 LV4「活躍」",
+            "levelFour-help": "在此粘貼 LV4 的 FontAwesome 圖標代碼（如 fas fa-square）",
+            "levelFive": "自定義等級頭銜 LV5「嘮叨」",
+            "levelFive-help": "在此粘貼 LV5 的 FontAwesome 圖標代碼（如 fas fa-square）",
+            "levelSix": "自定義等級頭銜LV6「傳說」",
+            "levelSix-help": "在此粘貼 LV6 的 FontAwesome 圖標代碼（如 fas fa-square）"
+        },
+        "forum": {
+            "less10post": "潛水",
+            "less50post": "最新的",
+            "less100post": "吐槽",
+            "less300post": "活躍",
+            "less600post": "嘮叨",
+            "less1000post": "傳說",
+            "hasWritten": "{count, plural, one {# 次回帖} other {# 次回帖}}"
+        }
+    }
+}

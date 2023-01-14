@@ -1,0 +1,41 @@
+{
+    "nomiscz-auth-steam": {
+        "forum": {
+            "buttons": {
+                "login": "Steam 帳號登錄",
+                "link": "綁定Steam賬號",
+                "unlink": "取消關聯 Steam 帳戶"
+            },
+            "alerts": {
+                "already_linked": "Steam 帳戶已關聯！",
+                "already_used": "Steam 帳號已關聯至其它帳號！",
+                "link_success": "Steam 帳號關聯成功。",
+                "unlink_success": "Steam 帳號解除關聯成功。",
+                "error": "出錯了，請稍後嘗試！"
+            },
+            "modals": {
+                "link": {
+                    "title": "綁定Steam賬號"
+                },
+                "unlink": {
+                    "title": "取消關聯 Steam 帳戶",
+                    "info": {
+                        "confirm": "確定要解除關聯 Steam 帳號？",
+                        "no_providers": "您沒有其它登入方式，請先重置帳號密碼。"
+                    },
+                    "buttons": {
+                        "confirm": "是，解除綁定",
+                        "cancel": "取消！"
+                    }
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "Steam 登錄設置",
+                "api_key_label": "API Key",
+                "use_steam_powered_domain": "使用 steampowered.com 域而不是 steamcommunity.com（在中國被阻止）"
+            }
+        }
+    }
+}

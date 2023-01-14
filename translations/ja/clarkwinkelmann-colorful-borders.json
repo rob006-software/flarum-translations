@@ -14,8 +14,7 @@
         "admin": {
             "permissions": {
                 "editOwnPost": "自分の投稿スタイルを編集する",
-                "editAnyPost": "他の投稿スタイルを編集する",
-                "heading": "カラーボーダー"
+                "editAnyPost": "他の投稿スタイルを編集する"
             },
             "settings": {
                 "enableBorderColor": "カスタム枠線の色",
@@ -30,8 +29,7 @@
                     "all": "任意の色",
                     "custom": "カスタムカラーリスト",
                     "custom-help": "コンマで区切られた #hex または rgb() 値を使用します。"
-                },
-                "title": "枠線の色の設定"
+                }
             }
         }
     }

@@ -1,0 +1,20 @@
+{
+    "ianm-log-viewer": {
+        "admin": {
+            "permissions": {
+                "access_logfile_api": "API aracılığıyla günlük dosyası verilerine erişin"
+            },
+            "settings": {
+                "purge-days": "Günlük dosyalarını günler sonra temizle",
+                "purge-days-help": "Flarum zamanlayıcının etkin olmasına bağlıdır. 0, kapalı kalması içindir."
+            },
+            "viewer": {
+                "available_logs_heading": "Kullanılabilir dosyalar",
+                "file_contents_heading": "Dosya içeriği",
+                "file_size": "Boyut (bayt): {size}",
+                "last_updated": "Son güncelleme: {updated}",
+                "no_file_selected": "İçeriğini görüntülemek için bir günlük dosyası seçin."
+            }
+        }
+    }
+}

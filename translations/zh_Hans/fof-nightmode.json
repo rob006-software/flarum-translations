@@ -8,7 +8,7 @@
         "admin": {
             "settings": {
                 "modal": {
-                    "always_show_theme_toggle_on_header": "",
+                    "always_show_theme_toggle_on_header": "始终在导航栏显示日夜切换按钮",
                     "default_theme": "默认模式",
                     "default_theme_helper": "自动为新用户、访客和未自定义的用户应用的颜色模式。",
                     "theme_auto": "=> fof-nightmode.ref.auto",
@@ -48,10 +48,10 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "fofNightMode": "",
-                "fofNightMode-help": "",
-                "fofNightMode_perDevice": "",
-                "fofNightMode_perDevice-help": ""
+                "fofNightMode": "FoF Nightmode：默认模式",
+                "fofNightMode-help": "0 - 跟随系统，1 - 日间模式，2 - 夜间模式",
+                "fofNightMode_perDevice": "FoF Nightmode：按设备设置",
+                "fofNightMode_perDevice-help": "为每台设备配置夜间模式"
             }
         }
     }

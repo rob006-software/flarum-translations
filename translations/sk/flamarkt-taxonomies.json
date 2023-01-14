@@ -2,8 +2,10 @@
     "flamarkt-taxonomies": {
         "admin": {
             "menu": {
-                "title": "",
-                "description": ""
+                "title": "Taxonómie",
+                "discussions": "",
+                "users": "",
+                "products": ""
             },
             "page": {
                 "title": "",
@@ -18,6 +20,12 @@
                     "new": "",
                     "edit": ""
                 },
+                "section": {
+                    "info": "",
+                    "filling": "",
+                    "browsing": "",
+                    "scope": ""
+                },
                 "field": {
                     "type": "",
                     "typeDescription": "",
@@ -28,14 +36,24 @@
                     "icon": "",
                     "iconDescription": "",
                     "showLabel": "",
+                    "showLabelDescription": "",
+                    "enableFilter": "",
+                    "enableFilterDescription": "",
                     "showFilter": "",
+                    "showFilterDescription": "",
+                    "enableFulltextSearch": "",
+                    "enableFulltextSearchDescription": "",
+                    "enableFulltextSearchWarning": "",
                     "allowCustomValues": "",
                     "customValueValidation": "",
                     "customValueSlugger": "",
                     "customValueSluggerDescription": "",
                     "countRequired": "",
                     "countRequiredDescription": "",
-                    "rangeSeparatorText": ""
+                    "rangeSeparatorText": "",
+                    "tagScope": "",
+                    "tagScopeDescription": "",
+                    "tagScopePlaceholder": ""
                 },
                 "delete": "",
                 "deleteConfirmation": "",
@@ -83,6 +101,7 @@
             "permissions": {
                 "heading": "",
                 "moderate": "",
+                "bypassTermCounts": "",
                 "seeOwnDiscussion": "",
                 "seeAnyDiscussion": "",
                 "editOwnDiscussion": "",
@@ -108,6 +127,11 @@
             "user": {
                 "nav": "",
                 "edit": ""
+            },
+            "blog": {
+                "widget": {
+                    "title": ""
+                }
             }
         },
         "lib": {
@@ -119,12 +143,15 @@
                 "placeholder": "",
                 "placeholderOptional": "",
                 "custom": "",
+                "bypassTermCounts": "",
                 "submit": ""
             }
         },
         "api": {
             "error": {
-                "invalid_filter_taxonomy": ""
+                "invalid_filter_taxonomy": "",
+                "discussion_taxonomy_not_in_scope": "",
+                "cannot_use_taxonomies_on_model": ""
             }
         },
         "ref": {

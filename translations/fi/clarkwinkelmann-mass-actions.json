@@ -2,33 +2,33 @@
     "clarkwinkelmann-mass-actions": {
         "forum": {
             "select": {
-                "all": "",
-                "none": "",
-                "read": "",
-                "unread": "",
-                "visible": "",
-                "hidden": "",
-                "locked": "",
-                "unlocked": ""
+                "all": "Kaikki",
+                "none": "Ei mitään",
+                "read": "Luetut",
+                "unread": "Lukemattomat",
+                "visible": "Näkyvät",
+                "hidden": "Piilotetut",
+                "locked": "Lukitut",
+                "unlocked": "Lukitsemattomat"
             },
             "actions": {
-                "markAsRead": "",
-                "hide": "",
-                "restore": "",
-                "delete": "",
-                "deleteConfirmation": "",
-                "lock": "",
-                "unlock": "",
-                "sticky": "",
-                "unsticky": "",
-                "tags": "",
-                "tags-edit": "",
-                "tags-add": ""
+                "markAsRead": "Merkitse valitut luetuksi",
+                "hide": "Poista valitut",
+                "restore": "Palauta valitut",
+                "delete": "Poista valitut pysyvästi",
+                "deleteConfirmation": "{count, plural, one {Haluatko varmasti poistaa valitun keskustelun pysyvästi?} other {Haluatko varmasti poistaa # valittua keskustelua pysyvästi?}}",
+                "lock": "Lukitse valitut",
+                "unlock": "Poista lukitus valituilta",
+                "sticky": "Kiinnitä valitut",
+                "unsticky": "Poista kiinnitys valituilta",
+                "tags": "Avainsanat",
+                "tags-edit": "Muokkaa avainsanoja",
+                "tags-add": "Lisää <em>{tag}</em>"
             }
         },
         "admin": {
             "permissions": {
-                "controls": ""
+                "controls": "Näytä massamuokkauksen toiminnot"
             }
         }
     }

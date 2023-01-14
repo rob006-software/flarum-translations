@@ -1,7 +1,7 @@
 {
     "xelson-chat": {
         "forum": {
-            "pusher_not_found": "实时聊天需要 Pusher 或 Websockets。",
+            "pusher_not_found": "即时通讯需要 Pusher 或 Websockets。",
             "index": {
                 "chat_link": "聊天"
             },
@@ -14,23 +14,23 @@
                 "minimize": "最小化",
                 "maximize": "最大化",
                 "chat": {
-                    "settings": "聊天室设置"
+                    "settings": "聊天设置"
                 }
             },
             "chat": {
                 "welcome": {
                     "header": "欢迎来到 Neon 聊天室！",
-                    "subheader": "请选择左边的聊天以进行会话"
+                    "subheader": "选择一个聊天以开始会话"
                 },
-                "moder": "审阅人",
+                "moder": "管理员",
                 "kick": "抖一抖",
                 "leave": "离开",
                 "rejoin": "重新加入",
                 "edit_modal": {
                     "title": "聊天设置",
                     "moderator": {
-                        "got": "你已成为「{chatname}」的审阅人！",
-                        "lost": "你已被取消 {chatname} 的管理员身份。"
+                        "got": "你已成为「{chatname}」的管理员！",
+                        "lost": "「{chatname}」已取消你的管理员身份。"
                     },
                     "form": {
                         "title": {
@@ -59,14 +59,14 @@
                     },
                     "search": {
                         "placeholder": "搜索用户",
-                        "failed": "找不到用户",
+                        "failed": "找不到此用户",
                         "invited": "已邀请"
                     },
                     "save_button": "=> core.ref.save_changes"
                 },
                 "list": {
-                    "pin": "固定",
-                    "unpin": "取消固定",
+                    "pin": "置顶",
+                    "unpin": "取消置顶",
                     "placeholder": "筛选会话",
                     "preview": {
                         "empty": "暂无消息"
@@ -76,11 +76,11 @@
                         "chat": "聊天",
                         "channel": "频道",
                         "create": {
-                            "chat": "发起新聊天",
-                            "channel": "发起新频道"
+                            "chat": "发起聊天",
+                            "channel": "创建频道"
                         },
                         "alerts": {
-                            "exists": "已存在一个与此用户的私人会话！"
+                            "exists": "已存在与此用户的私人会话！"
                         },
                         "form": {
                             "title": {
@@ -100,9 +100,9 @@
                         },
                         "search": {
                             "placeholder": "搜索用户",
-                            "failed": "找不到用户",
+                            "failed": "找不到此用户",
                             "invited": "已邀请",
-                            "more_results": "显示更多「{more_results}」的结果……"
+                            "more_results": "显示「{more_results}」的更多结果……"
                         }
                     }
                 },
@@ -126,13 +126,13 @@
                             "created": "{creatorname} 创建 {chatname} 并邀请 {usernames}"
                         },
                         "pm": {
-                            "created": "{creatorname} 和 {username} 创建聊天"
+                            "created": "{creatorname} 创建了与 {username} 的会话"
                         },
                         "channel": {
                             "created": "{creatorname} 创建频道 {chatname}"
                         },
                         "title": {
-                            "edited": "{editorname} 将聊天名称 {old} 修改为 {new}"
+                            "edited": "{editorname} 将聊天 {old} 重命名为 {new}"
                         },
                         "icon": {
                             "edited": "{editorname} 将聊天图标 {old} 修改为 {new}"
@@ -154,7 +154,7 @@
             },
             "errors": {
                 "unauthenticated": "此聊天仅限注册用户加入",
-                "chatdenied": "你的用户组无消息发送权限",
+                "chatdenied": "你的用户组无权限发送消息",
                 "removed": "你被移出聊天"
             }
         },
@@ -184,7 +184,7 @@
                 "display": {
                     "title": "显示",
                     "minimize": "最小化",
-                    "censor": "对未经授权的用户进行信息审查"
+                    "censor": "审查为授权用户的消息"
                 }
             }
         }

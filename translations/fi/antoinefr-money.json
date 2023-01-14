@@ -2,31 +2,31 @@
     "antoinefr-money": {
         "admin": {
             "settings": {
-                "title": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
-                "moneyname": "",
-                "postminimumlength": "",
-                "noshowzero": "",
-                "moneyforlike": "",
-                "helpextensionlikes": ""
+                "title": "Asetukset",
+                "moneyforpost": "Uudesta viestistä annettava raha",
+                "moneyfordiscussion": "Uudesta keskustelusta annettava raha",
+                "moneyname": "Rahan nimi (esim. [money] pisteet)",
+                "postminimumlength": "Viestin minimi pituus, jotta saa rahaa (0 ottaa pois käytöstä)",
+                "noshowzero": "Älä näytä arvoa jos se on nolla",
+                "moneyforlike": "Tykätystä viestistä annettava raha",
+                "helpextensionlikes": "Vaatii <code>flarum/likes</code> lisäosan"
             },
             "permissions": {
-                "edit_money_label": ""
+                "edit_money_label": "Muokkaa rahaa"
             },
             "automoderator": {
-                "metric_name": "",
-                "action_name": ""
+                "metric_name": "Raha",
+                "action_name": "Anna rahaa"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Muokkaa rahaa"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "{username} rahat",
+                "current": "Nykyinen:",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }

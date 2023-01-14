@@ -23,8 +23,7 @@
                 "make_public": "Czy jesteś pewien, że chcesz usunąć uczestników i uczynić tę dyskusję widoczną dla każdego, kto może zobaczyć przypisany tag?"
             },
             "labels": {
-                "recipients": "{count, plural, one {{count} uczestnik} other {{count} uczestników}}",
-                "user_deleted": "-usunięty-"
+                "recipients": "{count, plural, one {{count} uczestnik} other {{count} uczestników}}"
             },
             "nav": {
                 "start_button": "Prywatna dyskusja",
@@ -95,7 +94,9 @@
                 "badge-icon": "Ikona w etykiecie dyskusji Byobu",
                 "enable-make-public-option": "Włącz możliwość upublicznienia prywatnej dyskusji",
                 "enable-make-public-option-help": "Dodaje możliwość, aby osoby z uprawnieniami mogły usunąć wszystkich uczestników, przypisać nowy tag i uczynić dyskusję publicznie widoczną (zgodnie z ustawieniami widoczności wybranego tagu).",
-                "post-event-icon": "Ikona zdarzeń w dyskusjach Byobu"
+                "post-event-icon": "Ikona zdarzeń w dyskusjach Byobu",
+                "delete_on_last_recipient_left": "Usuń prywatną dyskusję po tym, jak ostatni uczestnik ją opuści",
+                "delete_on_last_recipient_left_help": "Jeśli włączone, prywatne dyskusje zostaną nieodwracalnie usunięte, gdy ostatni uczestnik opuści dyskusję. W innym wypadku prywatne dyskusje zostaną ukryte (soft deleted)."
             }
         },
         "email": {

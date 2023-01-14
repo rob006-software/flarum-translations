@@ -1,16 +1,32 @@
 {
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": ""
+            }
+        }
+    },
     "blomstra-payments": {
         "forum": {
+            "accept-terms-modal": {
+                "accept_label": "",
+                "continue_button": "",
+                "title": ""
+            },
             "stripe": {
                 "interval_once": ""
             },
             "subscription-card": {
+                "bounty": "",
                 "ptv": "",
                 "pta": "",
                 "ptb": "",
                 "ptp": "",
                 "cancel-control": "",
                 "none": ""
+            },
+            "post_stream": {
+                "bounty_added_text": ""
             },
             "pay-to-view": {
                 "purchase-control": "Zum Ansehen bezahlen",
@@ -28,6 +44,21 @@
                 "purchase-control": "Zum bumpen zahlen",
                 "purchase-log-in": "Anmelden und bezahlen um zu bumpen"
             },
+            "bounties": {
+                "purchase-control": "",
+                "enable-control": ""
+            },
+            "choose-bounty-amount-modal": {
+                "title": "",
+                "checkout-control": "",
+                "description": ""
+            },
+            "backers-widget": {
+                "backers": "",
+                "label": "",
+                "none": "",
+                "pledged": ""
+            },
             "tag": {
                 "require-payment-label": "Zahlung benötigt"
             },
@@ -43,6 +74,12 @@
             "nav": {
                 "access_portal": "Zugriffsportal",
                 "user_subscriptions": ""
+            },
+            "exceptions": {
+                "out-of-bounds-amount": {
+                    "min": "",
+                    "max": ""
+                }
             }
         },
         "admin": {
@@ -56,17 +93,25 @@
                 "select-ptb-product": "(PTB) Benötigtes Produkt",
                 "select-ptb-product-description": "Wenn Du ein Produkt auswählest, musst Du dieses Produkt bezahlen, bevor Du eine Diskussion starten kannst.\n",
                 "bump-others": "(PTB) Anderen erlauen, Diskussionen zu bumpen",
-                "bump-others-description": "Wenn aktiviert, kann nicht nur der Diskussionsautor Diskussionen mit einer Zahlung bumpen.\n"
+                "bump-others-description": "Wenn aktiviert, kann nicht nur der Diskussionsautor Diskussionen mit einer Zahlung bumpen.\n",
+                "select-bounty-product": "",
+                "select-bounty-product-description": ""
             },
             "edit-group": {
                 "select-pta-product": "(PTA) Erforderliches Produkt",
                 "select-pta-product-description": "Die Auswahl eines Produkts ermöglicht den Zugriff auf die Gruppe nach der Zahlung. Im Falle eines Abonnements wird der Zugang nach Kündigung des Abonnements automatisch entzogen. Erstelle ein Produkt in Deinem Stripe-Dashboard und kopiere die ID beginnend mit <code>prod_</code> in dieses Feld.\n"
             },
             "settings": {
+                "assign-bounty-tag-id": "",
                 "pk": "Veröffentlichbarer (API) Schlüssel",
                 "sk": "Geheimer (API) Schlüssel",
                 "webhook-secret": "Webhook-Signaturgeheimnis",
-                "link-access-portal": "Zugangsportal unter Benutzersitzungs-Dropdown verknüpfen"
+                "link-access-portal": "Zugangsportal unter Benutzersitzungs-Dropdown verknüpfen",
+                "link-to-terms": "",
+                "recount-total-discussion-bounties": ""
+            },
+            "permission": {
+                "enable-bounties": ""
             }
         }
     }

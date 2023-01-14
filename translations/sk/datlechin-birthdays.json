@@ -2,7 +2,7 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": "",
+                "edit_own_birthday_label": "Upraviť vlastný dátum narodenín",
                 "view_birthday_label": ""
             },
             "settings": {
@@ -27,22 +27,24 @@
             "change_dob": {
                 "title": "",
                 "date_of_birth_text": "",
-                "submit_button": "",
-                "show_dob_date": "",
-                "show_dob_year": "",
-                "show_dob_year_help": ""
+                "submit_button": ""
             },
             "settings": {
                 "change_dob_label": "",
                 "dob_heading": "",
                 "show_dob_date_label": "",
                 "show_dob_year_label": "",
-                "show_dob_year_help": "",
-                "birthday_heading": ""
+                "show_dob_year_help": ""
             },
             "edit_user": {
-                "dob_heading": "",
-                "birthdays_heading": ""
+                "dob_heading": ""
+            },
+            "nav": {
+                "nav_item": ""
+            },
+            "page": {
+                "discussion_count": "",
+                "post_count": ""
             }
         },
         "api": {

@@ -1,0 +1,47 @@
+{
+    "the-turk-miserable-users": {
+        "admin": {
+            "permissions": {
+                "miserable_user_label": "=> the-turk-miserable-users.ref.miserable_user"
+            },
+            "settings": {
+                "range_separator_text": " 到 ",
+                "range_seconds_text": " 秒",
+                "loading_delay_label": "加載延遲",
+                "loading_delay_text": "延遲加載所有組件和點擊反應時間。",
+                "broken_page_chance_label": "故障概率",
+                "broken_page_chance_text": "百分率概率出現加載錯誤頁面。",
+                "flood_time_multiplier_label": "Flood time multiplier",
+                "flood_time_multiplier_text": "增加兩次發帖間隔時間，默認最少間隔 10 秒，輸入最少間隔的倍數即可。",
+                "redirection_chance_label": "重定向機會",
+                "redirection_chance_text": "百分比概率在制裁用戶訪問論壇頁面時，將其重定向至指定的頁面 URL。",
+                "redirection_page_url_label": "重定向頁面 URL",
+                "redirection_page_url_text": "你可以把制裁的用戶重定向到不是他想要訪問的頁面，留空則默認跳轉到論壇首頁。",
+                "log_out_chance_label": "飛機票",
+                "log_out_chance_text": "百分比概率讓用戶退出登錄並跳轉到首頁。<b>注意！</b>本擴展程序的所有功能只能制裁登錄的用戶。",
+                "shuffle_post_chance_label": "胡言亂語",
+                "shuffle_post_chance_text": "以百分比概率打亂用戶的帖子內容。此功能暫時只支持英文內容，UTF-8 字符會報錯。"
+            }
+        },
+        "forum": {
+            "user_badge": {
+                "miserable_user_tooltip": "=> the-turk-miserable-users.ref.miserable_user"
+            },
+            "user_controls": {
+                "miserable_user_button": "=> the-turk-miserable-users.ref.miserable_user"
+            },
+            "miserable_user": {
+                "title": "制裁 {username}",
+                "status_heading": "制裁狀態",
+                "not_miserable_label": "不制裁",
+                "indefinitely_label": "永久制裁",
+                "limited_time_label": "自定義時長",
+                "limited_time_days_text": " 天",
+                "submit_button": "=> core.ref.save_changes"
+            }
+        },
+        "ref": {
+            "miserable_user": "制裁"
+        }
+    }
+}

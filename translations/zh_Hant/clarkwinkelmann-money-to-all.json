@@ -1,0 +1,29 @@
+{
+    "clarkwinkelmann-money-to-all": {
+        "lib": {
+            "modal": {
+                "title": "向所有用戶發放論壇貨幣",
+                "amount": "數量",
+                "notify": "向用戶發送網路通知",
+                "message": "信息",
+                "messagePlaceholder": "啟用通知以包含消息",
+                "messageHelp": "該消息將覆蓋默認通知文本。您應該在文本中提及金額，因為它不會再顯示了(可選)。",
+                "suspended": "包含被封禁的用戶",
+                "lastActivity": "僅限於以下日期之後活躍的用戶",
+                "preview": "當前設置匹配 {count} 個用戶。",
+                "submit": "發送",
+                "success": "已向 {count} 位用戶匯款！"
+            }
+        },
+        "admin": {
+            "settings": {
+                "send": "向所有用戶匯款"
+            }
+        },
+        "forum": {
+            "notification": {
+                "moneyReceived": "您已收到 {amount}"
+            }
+        }
+    }
+}

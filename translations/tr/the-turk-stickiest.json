@@ -8,8 +8,8 @@
             "settings": {
                 "badge_icon_label": "Süper sabit rozet simgesi",
                 "badge_icon_text": "=> core.ref.icon_text",
-                "display_tag_sticky_label": "",
-                "display_tag_sticky_text": ""
+                "display_tag_sticky_label": "\"Tüm Tartışmalar\" listesinde etiket etiketlerini göster",
+                "display_tag_sticky_text": "Sıradan tartışmalar olarak kabul edilecekler ve yapışık kalmayacaklar."
             }
         },
         "forum": {
@@ -17,21 +17,21 @@
                 "sticky_tooltip": "=> the-turk-stickiest.ref.sticky",
                 "super_sticky_tooltip": "=> the-turk-stickiest.ref.super_sticky",
                 "tag_sticky_tooltip": "=> the-turk-stickiest.ref.tag_sticky",
-                "super_tag_sticky_tooltip": ""
+                "super_tag_sticky_tooltip": "=> the-turk-stickiest.ref.super_tag_sticky"
             },
             "stickiest_modal": {
-                "title": "",
-                "sticky_label": "",
-                "sticky_text": "",
-                "super_sticky_label": "",
-                "super_sticky_text": "",
-                "tag_sticky_label": "",
-                "tag_sticky_text": "",
-                "tags_label": "",
-                "submit_button": ""
+                "title": "Yapışkan {title}",
+                "sticky_label": "=> flarum-sticky.ref.sticky",
+                "sticky_text": "Yapışkan tartışmalar, okunmamışlarsa \"Tüm Tartışmalar\" listesinde en üstte kalır. Tartışmaya ait belirli bir etiketi görüntülerken, her zaman en üstte kalacaklardır.",
+                "super_sticky_label": "=> the-turk-stickiest.ref.super_sticky",
+                "super_sticky_text": "Süper yapışkan tartışmalar ne olursa olsun en üstte kalacak.",
+                "tag_sticky_label": "=> the-turk-stickiest.ref.tag_sticky",
+                "tag_sticky_text": "Etiket yapışkanları varsayılan olarak \"Tüm Tartışmalar\" listesinde gizlidir. Burada seçeceğiniz etiketlerden biri olan belirli bir etiketi görüntülerken yalnızca gösterilecek ve üstte kalacaklardır. Bu seçenek \"Süper Yapışkan\" ile birleştirilebilir.",
+                "tags_label": "=> flarum-tags.ref.tags",
+                "submit_button": "=> core.ref.save_changes"
             },
             "discussion_controls": {
-                "sticky_button": "=> the-turk-stickiest.ref.sticky",
+                "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button",
                 "unsticky_button": "=> flarum-sticky.forum.discussion_controls.unsticky_button",
                 "super_sticky_button": "=> the-turk-stickiest.ref.super_sticky",
                 "common_sticky_button": "Normal Sabitle",
@@ -49,7 +49,7 @@
             "sticky": "=> flarum-sticky.ref.sticky",
             "super_sticky": "Süper Sabit",
             "tag_sticky": "Etikette Sabitle",
-            "super_tag_sticky": ""
+            "super_tag_sticky": "Süper Yapışkan Etiket"
         }
     }
 }

@@ -1,0 +1,24 @@
+{
+    "fof-split": {
+        "admin": {
+            "permissions": {
+                "split_discussion_label": "拆分貼文"
+            }
+        },
+        "forum": {
+            "post": {
+                "was_split_to": "{count, plural, one {{count} 條回復被拆分至「{target}」。} other {{count} 條回復被拆分至「{target}」。}}",
+                "was_split_from": "{count, plural, one {從「{target}」拆分來 {count} 條回覆。} other {從「{target}」拆分來 {count} 條回覆。}}"
+            },
+            "split": {
+                "from": "於此處開始拆分",
+                "to": "於此處結束拆分"
+            },
+            "modal": {
+                "title": "拆分貼文",
+                "new_discussion_label": "指定新貼文標題",
+                "submit_button": "拆分"
+            }
+        }
+    }
+}

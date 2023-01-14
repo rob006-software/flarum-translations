@@ -1,0 +1,69 @@
+{
+    "clarkwinkelmann-discussion-lists": {
+        "admin": {
+            "settings": {
+                "collapseSeries": "Varsayılan olarak dizini daralt"
+            },
+            "permissions": {
+                "viewPublic": "Herkese açık tartışma listelerini görüntüleyin",
+                "createPrivate": "Özel tartışma listesi oluşturun",
+                "createPublic": "Herkese açık tartışma listesi oluşturun",
+                "createSeriesFromOwn": "Kendi tartışmalarınızla tartışma listesi oluşturun",
+                "createSeriesFromAny": "Herhangi bir kullanıcının içeriğiyle tartışma listesi oluşturun",
+                "moderate": "Herhangi bir tartışma listesini değiştirin ve silin",
+                "viewPrivate": "Tüm özel tartışma listelerini görüntüleyin"
+            }
+        },
+        "forum": {
+            "edit": {
+                "title": "Listeyi düzenleyin",
+                "name": "İsim",
+                "visibility": "Görünürlük",
+                "visibilityOptions": {
+                    "private": "Özel liste",
+                    "public": "Herkese açık liste",
+                    "series": "Özel dizin"
+                },
+                "ordering": "Sıralama",
+                "orderingOptions": {
+                    "manual": "Elle",
+                    "createdAsc": "Tartışma oluşturma (en eskiden en yeniye)",
+                    "createdDesc": "Tartışma oluşturma (en yeniden en eskiye)",
+                    "addedAsc": "Listeye ekleme (en azdan en yeniye)",
+                    "addedDesc": "Listeye ekleme (en yeniden en aza doğru)"
+                },
+                "save": "Kaydet",
+                "delete": "Sil",
+                "deleteConfirmation": "Bu listeyi gerçekten kalıcı olarak silmek istiyor musunuz?"
+            },
+            "discussion": {
+                "add": "Listeye ekle",
+                "new": "Yeni liste"
+            },
+            "profile": {
+                "link": "Listeler"
+            },
+            "badge": {
+                "private": "Gizli liste",
+                "series": "Açık liste"
+            },
+            "series": {
+                "kind": "Diziler",
+                "expand": "Genişlet",
+                "visit": "Her şeyi göster"
+            }
+        },
+        "api": {
+            "manualLimit": "Manuel olarak sıralanan listeler 50'den fazla tartışma içeremez",
+            "seriesAnyAddNotAllowed": "Bir dizi listesine yalnızca kendi tartışmalarınızı ekleyebilirsiniz",
+            "seriesAnyConversionNotAllowed": "Liste size ait olmayan tartışmalar içerdiğinden diziye dönüştürülemiyor"
+        }
+    },
+    "core": {
+        "forum": {
+            "index_sort": {
+                "discussionListDefault_button": "Listede sırala"
+            }
+        }
+    }
+}

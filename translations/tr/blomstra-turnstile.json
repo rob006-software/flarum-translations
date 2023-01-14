@@ -1,0 +1,19 @@
+{
+    "blomstra-turnstile": {
+        "admin": {
+            "settings": {
+                "site_key": "Site anahtarı",
+                "secret_key": "Gizli anahtar",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
+            }
+        },
+        "forum": {
+            "not_loaded_error": "Cloudflare Turnstile yüklenemedi. Lütfen sayfayı yenileyin veya reklam engelleyicinizi kontrol edin."
+        }
+    },
+    "validation": {
+        "turnstile": "Robot olup olmadığınızı doğrulayamadık. Lütfen sayfayı yenileyin ve tekrar deneyin."
+    }
+}

@@ -10,8 +10,8 @@
                 "delete_tag_confirmation": "האם ברצונך להסיר תגית זו? תגיות הדיונים לא יוסרו.",
                 "description_label": "תיאור",
                 "hide_label": "הסתרה מכל הדיונים",
-                "icon_label": "",
-                "icon_text": "",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
                 "name_label": "=> flarum-tags.ref.name",
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "מזהה",
@@ -24,7 +24,7 @@
             },
             "permissions": {
                 "allow_edit_tags_label": "עריכת תגיות",
-                "bypass_tag_counts_label": "",
+                "bypass_tag_counts_label": "עקיפת דרישות תגית",
                 "restrict_by_tag_heading": "הגבלה לפי תגית",
                 "tag_discussions_label": "תגיות הדיונים"
             },
@@ -38,20 +38,20 @@
             },
             "tags": {
                 "about_tags_text": "תגיות משמשות לסיווג דיונים. תגיות ראשיות הן כמו קטגוריות בפורומים: הן יכולות להיות מסודרות בהיררכיה דו שלבית. תגיות משניות הן חסרות היררכיה או סדר, ושימושיות לסידור משני בקטגוריות.",
-                "create_primary_tag_button": "",
-                "create_secondary_tag_button": "",
+                "create_primary_tag_button": "יצירת תגית ראשית",
+                "create_secondary_tag_button": "יצירת תגית משנית",
                 "primary_heading": "תגיות ראשיות",
                 "secondary_heading": "תגיות משניות",
-                "settings_heading": ""
+                "settings_heading": "הגדרות"
             }
         },
         "forum": {
             "all_tags": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "כל התגיות",
+                "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "bypass_requirements": "",
+                "bypass_requirements": "עקיפת דרישת תגיות",
                 "choose_primary_placeholder": "בחירת תגית משנית|בחירת {count} תגיות משניות",
                 "choose_secondary_placeholder": "בחירת 1 או יותר תגיות|בחירת {count} תגיות נוספות",
                 "edit_title": "כתיבת תגיות ל{title}",
@@ -65,7 +65,7 @@
                 "edit_tags_button": "ערוך תגיות"
             },
             "header": {
-                "back_to_tags_tooltip": ""
+                "back_to_tags_tooltip": "חזרה לרשימת התגיות"
             },
             "index": {
                 "more_link": "עוד...",
@@ -73,13 +73,13 @@
                 "untagged_link": "ללא תגיות"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} הוסיף את התגיות {tagsAdded} והסיר את התגיות {tagsRemoved}.",
+                "added_and_removed_tags_text": "נוספו {tagsAdded} והוסרו {tagsRemoved} תגיות על ידי משתמש {username}.",
                 "added_tags_text": "{username} הוסיף את התגיות {tagsAdded}.",
                 "removed_tags_text": "{username} הסיר את התגיות {tagsRemoved}.",
                 "tags_text": "{tags} תגית|{tags} תגיות"
             },
             "tag": {
-                "meta_description_text": ""
+                "meta_description_text": "כל הנושאים עם התגית {tag}"
             }
         },
         "lib": {

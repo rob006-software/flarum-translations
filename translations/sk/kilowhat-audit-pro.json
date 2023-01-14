@@ -2,7 +2,7 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": "",
+                "view": "Zobraziť denník auditu",
                 "viewLimited": ""
             },
             "header": {
@@ -76,6 +76,7 @@
                     "filterUser": "",
                     "filterDiscussion": ""
                 },
+                "audit_log_cleared": "",
                 "cache_cleared": "",
                 "discussion": {
                     "created": "",

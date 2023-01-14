@@ -1,0 +1,78 @@
+{
+    "davwheat": {
+        "custom_sidenav_links": {
+            "admin": {
+                "settings_page": {
+                    "display_options": {
+                        "heading": "顯示設置",
+                        "options": {
+                            "position": {
+                                "above-tags-link": "顯示於「全部標簽」按鈕上方",
+                                "below-tags-link": "顯示於「全部標簽」按鈕下方"
+                            }
+                        },
+                        "labels": {
+                            "position": "連結位置",
+                            "top_spacer": "顯示頂部分割線",
+                            "bottom_spacer": "顯示底部分割線"
+                        }
+                    },
+                    "link_table": {
+                        "heading": "自定義連結",
+                        "add_link_btn": "新增連結",
+                        "confirm_delete": "確認刪除鏈接「{link}」",
+                        "alert": {
+                            "fix_errors": "在保存更改之前，您需要解決上述問題。"
+                        },
+                        "table": {
+                            "header": {
+                                "position": "位置",
+                                "icon": "連結圖示",
+                                "text": "連結文字",
+                                "url": "連結 URL",
+                                "internal": "是 Flarum 網址嗎？",
+                                "delete": "移除"
+                            },
+                            "placeholders": {
+                                "icon": "fas fa-link",
+                                "text": "我的小酷站",
+                                "url": "https://flarum.org"
+                            },
+                            "tooltips": {
+                                "move_up": "上移",
+                                "move_down": "下移",
+                                "icon_preview": "圖示預覽"
+                            }
+                        },
+                        "save_btn": {
+                            "dirty": "保存設置",
+                            "saving": "正在保存…",
+                            "saved": "沒有變更",
+                            "fix_errors": "存檔前修正錯誤"
+                        }
+                    },
+                    "new_link_modal": {
+                        "title": "新增連結",
+                        "submit_btn": {
+                            "add": "鍵結",
+                            "loading": "新增連結",
+                            "fix_url": "連結無效",
+                            "invalid_form": "填充到所有字段"
+                        },
+                        "labels": {
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url",
+                            "internal": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.internal"
+                        },
+                        "placeholders": {
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

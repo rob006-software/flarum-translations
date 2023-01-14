@@ -1,21 +1,36 @@
 {
     "flarum-statistics": {
         "admin": {
+            "date_selection_modal": {
+                "description": "",
+                "end_date": "",
+                "errors": {
+                    "end_before_start": ""
+                },
+                "start_date": "",
+                "submit_button": "",
+                "title": ""
+            },
             "statistics": {
-                "discussions_heading": "",
-                "last_12_months_label": "",
-                "last_28_days_label": "",
-                "last_7_days_label": "",
-                "mini_heading": "",
-                "previous_28_days_label": "",
-                "previous_7_days_label": "",
-                "loading": "",
-                "posts_heading": "",
-                "today_label": "",
-                "total_label": "",
-                "users_heading": "",
-                "view_full": "",
-                "active_users_text": ""
+                "discussions_heading": "Diskussioner",
+                "export_chart_button": "",
+                "last_12_months_label": "Seneste 12 måneder",
+                "last_28_days_label": "Seneste 28 dage",
+                "last_7_days_label": "Seneste 7 dage",
+                "mini_heading": "Forum statistik",
+                "previous_28_days_label": "Forrige 28 dage",
+                "previous_7_days_label": "Forrige 7 dage",
+                "custom_label": "",
+                "custom_label_specified": "",
+                "loading": "Henter ...",
+                "posts_heading": "Indlæg",
+                "today_label": "I dag",
+                "total_label": "I alt",
+                "users_heading": "Brugere",
+                "view_full": "Vis mere statistik",
+                "no_data": "",
+                "current_period": "",
+                "previous_period": ""
             }
         }
     }

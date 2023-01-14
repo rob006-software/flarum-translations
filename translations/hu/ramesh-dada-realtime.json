@@ -2,8 +2,8 @@
     "ramesh-dada-realtime": {
         "admin": {
             "settings": {
-                "polling-interval": "",
-                "polling-interval-help": ""
+                "polling-interval": "Frissítési időköz",
+                "polling-interval-help": "Adja meg a témák frissítési időközét ezredmásodpercben. Minél nagyobb, annál kisebb lesz a terhelés a kiszolgálón, de az új bejegyzések lassabban fognak megjelenni. Az alapértelmezett 2000ms = 2s."
             }
         }
     }

@@ -19,10 +19,7 @@
                 "confidence_label": "Confiance",
                 "confidence_help": "Le score de confiance est un indicateur suffisamment fiable pour savoir si le champ testé entraînera une activité indésirable. Définissez votre niveau de confiance sous forme de pourcentage. Si le champ est égal ou supérieur à ce chiffre, l'inscription sera bloquée, quel que soit le résultat du test de « fréquence » ci-dessus.",
                 "email_hash_label": "Utiliser une adresse de courriel hachée",
-                "email_hash_help": "Transmettez un hachage MD5 de l'adresse de courriel si vous ne souhaitez pas transmettre l'adresse de courriel en question. Cette méthode permet de contourner toutes les listes noires et les contrôles de normalisation et de dissimulation.",
-                "title": "Stop Forum Spam de FriendsOfFlarum",
-                "frequency_text": "Le nombre de rapports de spam entre toutes les vérifications activées qui déclencheront le filtre anti-spam.",
-                "frequency_example_text": "Exemple : si le courriel a 1 résultat, et l'IP a 2 résultats, il y aura 3 résultats au total. Si le seuil est fixé à 3 ou moins, cela empêchera l'inscription."
+                "email_hash_help": "Transmettez un hachage MD5 de l'adresse de courriel si vous ne souhaitez pas transmettre l'adresse de courriel en question. Cette méthode permet de contourner toutes les listes noires et les contrôles de normalisation et de dissimulation."
             }
         },
         "forum": {

@@ -1,0 +1,46 @@
+{
+    "pay-to-see": {
+        "forum": {
+            "pay_to_see_content": "付費觀看內容",
+            "purchased_content": "購買的內容",
+            "pay_to_see_owner_bypass": "付費查看內容 [不限所有者]",
+            "pay_to_see_content_bypass": "付費查看內容 [無視權限]",
+            "toolbar_tooltip": "付費以查看內容",
+            "set_pay_to_see_price": "設置內容價格",
+            "set_pay_to_see_price_success": "內容價格設置",
+            "remove_pay_to_see_price_success": "付費查看內容已刪除",
+            "modify_pay_to_see_price": "修改內容價格",
+            "ok": "OK",
+            "confirm": "確認",
+            "cancel": "取消",
+            "remove": "移除",
+            "need_pay2see_tag": "您需要包含 [pay][/pay] 標籤才能付費查看內容",
+            "not_support_anonymous": "匿名帖子不支持付費查看內容",
+            "purchase_success": "推送成功",
+            "purchase_confirmation": "購買內容",
+            "purchase_confirmation_text": "您確定要支付 {costText} 嗎？",
+            "purchase_button": "購買內容",
+            "purchase_unlocked_button": "內容解鎖",
+            "purchase_error_not_found": "無法購買內容",
+            "purchase_error_insufficient_fund": "資金不足",
+            "purchase_error_no_permission": "沒有權限",
+            "purchase_count": "購買數量：{count}",
+            "notifications": {
+                "notification_setting_some_one_purchase_content": "有人購買了我的內容",
+                "discussion_purchased": "{username} 購買了您的內容",
+                "discussion_purchased_cost": "您已收到{cost}"
+            }
+        },
+        "admin": {
+            "settings": {
+                "badge_icon": "徽章圖示",
+                "badge_icon_desc": "輸入任何 FontAwesome 圖標類的名稱，包括 <code>fas fa-</code> 前綴。留空以移除徽章。"
+            },
+            "permission": {
+                "allow_use_pay2see": "同意使用付費瀏覽",
+                "allow_purchase_pay2see": "允許購買付費查看內容",
+                "allow_bypass_pay2see": "允許跳過付費以查看內容"
+            }
+        }
+    }
+}

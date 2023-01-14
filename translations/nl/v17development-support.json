@@ -30,7 +30,8 @@
                     "new_article": "Nieuw artikel",
                     "rename_category": "Hernoem categorie",
                     "edit_description": "Bewerk beschrijving",
-                    "change_icon": "Bewerk icoon"
+                    "change_icon": "Bewerk icoon",
+                    "recount_articles": "Artikelen hertellen"
                 }
             },
             "article_events": {
@@ -151,6 +152,11 @@
                     "confirm": "Weet je zeker dat je deze discussie wilt omzetten naar een ticket?",
                     "event": "De discussie {ticket_title} is omgezet naar een ticket"
                 },
+                "convert_to_discussion": {
+                    "button": "Converteer naar discussie",
+                    "confirm": "Weet je zeker dat je dit ticket wilt omzetten in een openbare discussie? Als iemand privé-informatie heeft gedeeld, wordt deze ook openbaar.",
+                    "event": "Ticket {ticket_title} is omgezet in discussie\n\nWil je nu naar deze discussie?\n"
+                },
                 "status": {
                     "new": {
                         "title": "Nieuw",
@@ -193,7 +199,7 @@
                     "remove_me": "Mij verwijderen",
                     "update_status": "Ticketstatus updaten",
                     "close_ticket": "Ticket sluiten",
-                    "update_note": ""
+                    "update_note": "Privénotitie bijwerken"
                 },
                 "new_tickets_dropdown": {
                     "title": "Ticket notificaties",
@@ -226,11 +232,11 @@
                         "placeholder": "De status van dit ticket"
                     },
                     "private_note": {
-                        "title": "",
-                        "info": "",
-                        "tip": "",
-                        "placeholder": "",
-                        "edit_button": ""
+                        "title": "Privé notities",
+                        "info": "Privénotities zijn alleen zichtbaar voor andere ondersteuningsagenten. Het is niet zichtbaar voor de klant.",
+                        "tip": "TIP: Als u met meerdere agenten aan één ticket werkt, voeg dan uw naam en datum toe aan een notitie.",
+                        "placeholder": "Voorbeeld: 1 jan. 2022 - Naam agent: Klant verwijderd uit database",
+                        "edit_button": "Notitie bewerken"
                     }
                 },
                 "compose_ticket": {
@@ -279,12 +285,12 @@
             },
             "notifications": {
                 "replied_to_ticket": {
-                    "name": "",
-                    "content": ""
+                    "name": "Iemand heeft gereageerd op mijn ticket",
+                    "content": "=> v17development-flarum-support.emails.replied_to_ticket.subject"
                 },
                 "ticket_resolved": {
-                    "name": "",
-                    "content": ""
+                    "name": "Mijn ticket is opgelost",
+                    "content": "=> v17development-flarum-support.emails.ticket_resolved.subject"
                 }
             }
         },

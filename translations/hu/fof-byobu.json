@@ -23,7 +23,7 @@
                 "make_public": "Valóban eltávolítja a résztvevőket és mindenki számára láthatóvá teszi a témát, akik láthatják a hozzárendelt címkét?"
             },
             "labels": {
-                "recipients": "{count} címzett"
+                "recipients": "{count, plural, one {{count} címzett} other {{count} címzett}}"
             },
             "nav": {
                 "start_button": "Privát beszélgetés",
@@ -94,7 +94,9 @@
                 "badge-icon": "Byobu témajelvény",
                 "enable-make-public-option": "Engedélyezi a „nyilvánossá tétel” lehetőséget",
                 "enable-make-public-option-help": "Lehetőséget ad az összes résztvevő eltávolítására, új címke hozzárendelésére, és arra, hogy nyilvánosan láthatóvá váljon a téma (a kiválasztott címke beállításai alapján).",
-                "post-event-icon": "Byobu bejegyzésesemények"
+                "post-event-icon": "Byobu bejegyzésesemények",
+                "delete_on_last_recipient_left": "",
+                "delete_on_last_recipient_left_help": ""
             }
         },
         "email": {

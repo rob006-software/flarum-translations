@@ -1,7 +1,7 @@
 {
     "fof-oauth": {
         "admin": {
-            "configure_button_label": "",
+            "configure_button_label": "Konfigurovať pomocou FoF OAuth",
             "settings_accessibility_label": "",
             "settings": {
                 "only_icons_label": "",
@@ -57,6 +57,19 @@
                 "with_linkedin_button": "",
                 "with_twitter_button": ""
             },
+            "user": {
+                "settings": {
+                    "linked-account": {
+                        "label": "",
+                        "last-used-label": "",
+                        "link-created-label": "",
+                        "orphaned-account": "",
+                        "help": "",
+                        "identifier-label": "",
+                        "unlink-confirm": ""
+                    }
+                }
+            },
             "providers": {
                 "discord": "",
                 "facebook": "",
@@ -69,6 +82,7 @@
             "signup": {
                 "username_help": ""
             },
+            "unlink": "",
             "error": {
                 "bad_verification_code": "",
                 "invalid_state": ""

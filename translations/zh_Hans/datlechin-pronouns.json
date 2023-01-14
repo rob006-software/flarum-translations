@@ -2,20 +2,20 @@
     "datlechin-pronouns": {
         "admin": {
             "settings": {
-                "prefix_label": "",
-                "prefix_help": "",
-                "icon_label": "",
-                "icon_help": ""
+                "prefix_label": "代词前缀",
+                "prefix_help": "在用户代词前添加前缀，可留空。",
+                "icon_label": "代词图标",
+                "icon_help": "开启此项，可使用图标替换文字代词前缀。"
             }
         },
         "forum": {
             "change_pronouns": {
-                "title": "",
-                "help": "",
-                "submit_button": ""
+                "title": "修改代词",
+                "help": "您的代词将显示在个人资料及用户卡片中。<a>什么是代词？</a>",
+                "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
-                "change_pronouns_button": ""
+                "change_pronouns_button": "修改代词"
             }
         }
     }

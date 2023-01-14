@@ -1,0 +1,29 @@
+{
+    "announcement": {
+        "to-update": "更新命令：",
+        "major-warning": "此版本去除了过时的扩展程序翻译，不再支持旧版 Flarum。在更新前，请确保升级 Flarum 核心及扩展程序到最新版本。",
+        "version": "版本 {version}"
+    },
+    "readme": {
+        "status-table": {
+            "header-status": "状态",
+            "label-translation-status": "翻译状态",
+            "header-extension": "扩展程序"
+        }
+    },
+    "changelog": {
+        "updated-file": "更新 `{file}`",
+        "updated-config-css": "更新 CSS",
+        "cleaned-validation": "丢弃过时验证器翻译（支持 Flarum `{version}`+）",
+        "extensions-added": "新增翻译",
+        "updated-validation": "更新验证器翻译",
+        "extensions-removed": "丢弃过时翻译",
+        "updated-core": "更新核心翻译",
+        "cleaned-core": "丢弃过时核心翻译（支持 Flarum `{version}`+）",
+        "general-changes": "例行更新",
+        "updated-config-js": "更新日期翻译",
+        "extensions-cleaned": "更新或丢弃过时翻译",
+        "all-changes": "全部变化：{link}",
+        "extensions-updated": "更新翻译"
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "v17development-flarum-blog": {
+        "admin": {
+            "blog": "部落格",
+            "permissions": {
+                "write_articles": "撰寫和編輯部落格文章",
+                "auto_approve_posts": "發布文章無需審核",
+                "approve_posts": "審核部落格文章"
+            },
+            "settings": {
+                "no_categories_selected": "請選擇分類目錄",
+                "selected_category_count": "已指定 {count, plural, one {#} other {#}} 個分類目錄",
+                "select_categories_button": "選擇部落格分類目錄",
+                "blog_heading": "部落格",
+                "featured_count_label": "精選主題數",
+                "featured_count_text": "部落格頁面頂部的主題強調中應該顯示多少主題？",
+                "allow_comments_label": "允許評論",
+                "allow_comments_text": "允許他人在新文章中發表評論。此項關閉時，只能為每篇文章單獨開啟。 <b>注意：</b>此項設置的變更不會影響已存在的文章。",
+                "require_review_label": "文章必須經人工審核",
+                "require_review_text": "發布文章時，經管理員人工審核後才會公開可見。",
+                "hide_on_discussion_list_label": "不在主題列表中顯示",
+                "hide_on_discussion_list_text": "在「全部主題」列表中隱藏部落格文章。",
+                "add_sidebar_nav_label": "添加到側邊欄",
+                "add_sidebar_nav_text": "在側邊欄添加部落格入口。",
+                "categories_heading": "分類目錄",
+                "hide_tags_in_taglist_label": "對標籤列表不可見",
+                "hide_tags_in_taglist_text": "開啟後，將在首頁中隱藏部落格標籤。",
+                "show_tag_hierarchy_label": "顯示標籤層次",
+                "show_tag_hierarchy_text": "在子分類目錄之間添加空格，並為分類目錄列表提供層次結構視圖。",
+                "redirects_heading": "重定向",
+                "redirect_articles_label": "重定向部落格文章",
+                "redirect_articles_text": "開啟後，原始主題帖將重定向至其部落格頁面。",
+                "redirect_tags_label": "重定向部落格標籤",
+                "redirect_tags_text": "開啟後，部落格標籤將重定向至分類目錄頁面。",
+                "default_article_image_label": "默認封面圖",
+                "default_article_image_text": "設置默認使用的文章封面圖。",
+                "add_hero_label": "展示歡迎橫幅",
+                "add_hero_text": "允許在部落格頁面展示首頁的歡迎橫幅。"
+            }
+        },
+        "forum": {
+            "blog": "部落格",
+            "read_more": "閱讀更多",
+            "hidden": "隱藏",
+            "recent_posts": "近期文章",
+            "categories": "分類目錄",
+            "forum_nav": "論壇導航列",
+            "return_to_overview": "返回部落格首頁 ",
+            "no_more_posts": "沒有更多文章了…",
+            "category_empty": "此分類目錄中沒有文章。",
+            "compose": {
+                "write_article": "寫文章"
+            },
+            "validation": {
+                "missing_id": "缺少 ID"
+            },
+            "article": {
+                "title": "標題",
+                "slug": "別名",
+                "summary": "摘要"
+            },
+            "comment_section": {
+                "comments": "評論",
+                "locked": "評論已關閉"
+            },
+            "review_article": {
+                "pending_review_title": "待審核",
+                "pending_review": "此文章需要審核後發布",
+                "approve_article": "批准文章",
+                "approve_article_approved": "已批准發布此文章"
+            },
+            "tools": {
+                "rename_article": "重命名文章",
+                "edit_article": "編輯文章",
+                "update_category": "更新分類目錄",
+                "article_settings": "文章設置",
+                "approve_article": "批准文章",
+                "hide_article": "隱藏文章",
+                "recover_article": "還原文章",
+                "delete_forever": "永久刪除",
+                "enable_comments": "開啟評論",
+                "disable_comments": "關閉評論"
+            },
+            "utils": {
+                "redirect": {
+                    "title": "正在將您導向至部落格文章...",
+                    "link": "如果沒有任何反應，請<a>點擊此處</a>"
+                }
+            },
+            "composer": {
+                "no_title": "標題",
+                "enter_message_here": "在此輸入正文內容",
+                "post_article": "發布文章",
+                "select_category": "選擇分類目錄",
+                "edit_categories": "編輯分類目錄",
+                "update_settings": "更新部落格設置",
+                "write": "寫作",
+                "view": "預覽",
+                "nothing_to_preview": "什麼都還沒寫呢",
+                "comment_section": "撰寫文章時，評論區無法使用。",
+                "no_blog_tags_selected": "您選擇的標籤中沒有一個是部落格標籤，請至少選擇一個部落格標籤。",
+                "post_without_blog_info": "確定要發布這篇文章嗎？您還沒有輸入部落格摘要或上傳封面圖。"
+            },
+            "article_settings": {
+                "title": "部落格文章設置",
+                "fields": {
+                    "summary": {
+                        "title": "摘要",
+                        "placeholder": "請輸入摘要",
+                        "helper_text": "摘要用於 SEO，以及部落格主頁的預覽。"
+                    },
+                    "image": {
+                        "title": "主題圖像",
+                        "helper_text": "最佳分辨率 1200x630"
+                    },
+                    "highlight": {
+                        "title": "頭條貼文",
+                        "helper_text": "使用大尺寸圖片展示本文章。"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "slack": {
+                        "description": "使用 Slack {link} 注冊您的論壇",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_slack_button": "Slack 賬號登錄"
+            },
+            "providers": {
+                "slack": "=> fof-oauth.lib.providers.slack"
+            }
+        },
+        "lib": {
+            "providers": {
+                "slack": "Slack"
+            }
+        }
+    }
+}

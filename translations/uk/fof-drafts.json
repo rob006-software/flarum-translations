@@ -1,0 +1,65 @@
+{
+    "fof-drafts": {
+        "admin": {
+            "permissions": {
+                "start": "Створити чернетку",
+                "schedule": "Розклад для чернеток"
+            },
+            "settings": {
+                "title": "FoF Drafts",
+                "enable_scheduled_drafts": "Увімкнути розклад для чернеток",
+                "schedule_on_one_server": "Використання директиви 'onOneServer()' для планувальника завдань (потрібен Redis/Memcache)",
+                "schedule_log_output": "Увімкнути збереження розкладу в журнал"
+            }
+        },
+        "console": {
+            "scheduled_drafts_disabled": "Наразі в налаштуваннях відключені планові чернетки."
+        },
+        "ref": {
+            "schedule_draft": "Розклад для чернеток"
+        },
+        "forum": {
+            "composer": {
+                "title": "Зберегти чорнетку",
+                "saving": "Збереження...",
+                "saved": "Збережено!",
+                "exit_alert": "Очистити зміни в чернетках?",
+                "discard_empty_draft_alert": "Очистити чернетки?"
+            },
+            "dropdown": {
+                "empty_text": "Ви не зберегли жодної чернетки",
+                "title": "Чернетки",
+                "delete_all_button": "Видалити всі чернетки",
+                "delete_button": "Видалити чернетку",
+                "schedule_button": "=> fof-drafts.ref.schedule_draft",
+                "scheduled_icon_tooltip": "Заплановано на {datetime}",
+                "scheduled_icon_tooltip_formatter": "L [at] LT",
+                "tooltip": "Чернетки",
+                "alert": "Ви впевнені, що бажаєте видалити вашу чернетку?",
+                "delete_all_alert": "Ви впевнені, що бажаєте видалити усі ваші чернетки?"
+            },
+            "schedule_draft_modal": {
+                "title": "=> fof-drafts.ref.schedule_draft",
+                "text": "Заплануйте автоматичну публікацію свого допису на більш пізній час!",
+                "scheduled_text": "Наразі заплановано публікацію на {datetime}.",
+                "scheduled_error": "Неможливо запланувати чорнетку: {error}.",
+                "unschedule_button": "Скасувати",
+                "unschedule_warning": "Ви впевнені, що хочете скасувати цю чернетку?",
+                "reschedule_button": "Перенесення",
+                "schedule_button": "Розклад",
+                "schedule_time_preview": "Ця чернетка буде автоматично опублікована <b>{datetime}</b>.",
+                "schedule_time_preview_formatter": "LLLL",
+                "schedule_time_preview_invalid": "Невірна дата та/або час"
+            },
+            "user": {
+                "settings": {
+                    "drafts_heading": "Чернетки",
+                    "draft_autosave_enable": "Увімкнути автозбереження чернетки?",
+                    "draft_autosave_interval_label": "Автозбереження у секундах",
+                    "draft_autosave_interval_button": "Інтервал оновлення",
+                    "draft_autosave_interval_invalid": "Інтервал повинен бути цілим числом, більшим за 4."
+                }
+            }
+        }
+    }
+}

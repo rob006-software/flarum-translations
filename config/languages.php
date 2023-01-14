@@ -27,6 +27,7 @@ return [
 		'!archlinux-de-click-image',
 		'!tpokorra-post-notification',
 		'!v17development-seo',
+		'!wolfgang-demeter-bbcode-5star-rating',
 	]),
 	'es' => getComponents([
 		// translations included in extension
@@ -48,6 +49,7 @@ return [
 		'!clarkwinkelmann-email-as-display-name',
 		'!clarkwinkelmann-emojionearea',
 		'!clarkwinkelmann-passwordless',
+		'!club-1-cross-references',
 		'!kilowhat-formulaire',
 		'!tituspijean-auth-ldap',
 		// '!v17development-seo', https://github.com/v17development/flarum-seo/issues/61#issuecomment-855474306
@@ -76,6 +78,7 @@ return [
 	'pl' => getComponents(),
 	'pt' => getComponents(),
 	'pt_BR' => getComponents(),
+	'ro' => getComponents(),
 	'ru' => getComponents([
 		// translations included in extension
 		'!xelson-chat',
@@ -98,10 +101,18 @@ return [
 		'!the-turk-quiet-edits',
 		'!the-turk-regrole',
 	]),
+	'uk' => getComponents(),
 	'uz' => getComponents(),
 	'vi' => getComponents([
 		// translations included in extension
 		'!xelson-chat',
 	]),
-	'zh_Hans' => getComponents(),
+	'zh_Hans' => getComponents([
+		// translations included in extension
+		'!vlssu-cravatar',
+		'!ziiven-money-leaderboard',
+		'!ziiven-money-transfer',
+		'!ziiven-view-history',
+	]),
+	'zh_Hant' => getComponents(),
 ];

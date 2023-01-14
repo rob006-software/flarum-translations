@@ -30,7 +30,8 @@
                     "new_article": "Yeni makale",
                     "rename_category": "Kategorini yeniden adlandır",
                     "edit_description": "Açıklamayı düzenle",
-                    "change_icon": "Simgeyi değiştir"
+                    "change_icon": "Simgeyi değiştir",
+                    "recount_articles": "Makaleleri tekrar say"
                 }
             },
             "article_events": {
@@ -151,6 +152,11 @@
                     "confirm": "Bu tartışmayı bir bilete dönüştürmek istediğinizden emin misiniz?",
                     "event": "{ticket_title} tartışması bilete dönüştürüldü"
                 },
+                "convert_to_discussion": {
+                    "button": "Tartışmaya dönüştür",
+                    "confirm": "Bu bileti herkese açık bir tartışmaya dönüştürmek istediğinizden emin misiniz? Birisi özel bilgileri paylaştıysa, bu da herkese açık hale gelecektir.",
+                    "event": "{ticket_title} başlıklı bilet tartışmaya dönüştürüldü\n\nBu tartışmaya şimdi gitmek istiyor musunuz?\n"
+                },
                 "status": {
                     "new": {
                         "title": "Yeni",
@@ -227,7 +233,7 @@
                     },
                     "private_note": {
                         "title": "Özel notlar",
-                        "info": "Özel notlar, destek temsilcileri içindir ve müşteri tarafından görülmez.",
+                        "info": "Özel notlar yalnızca diğer destek temsilcileri tarafından görülebilir. Müşteriye görünmez.",
                         "tip": "İPUCU: Tek bir bilet üzerinde birden fazla temsilci ile çalışıyorsanız, bir nota adınızı ve tarihinizi ekleyin.",
                         "placeholder": "Örnek: 1 Ocak 2022 - Temsilci Adı: Müşteri veritabanından temizlendi",
                         "edit_button": "Notu düzenle"

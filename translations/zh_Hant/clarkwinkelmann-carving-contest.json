@@ -1,0 +1,63 @@
+{
+    "clarkwinkelmann-carving-contest": {
+        "forum": {
+            "nav": {
+                "contest": "雕刻比賽"
+            },
+            "page": {
+                "title": "南瓜雕刻比賽",
+                "loading": "作品載入中…",
+                "participate": "參加",
+                "already-participated": "已參加",
+                "delete-confirmation": "您確定要刪除 {username} 的「{name}」嗎？",
+                "like": "讚",
+                "already-liked": "我喜歡",
+                "unlike": "踩",
+                "refresh": "重新載入",
+                "load-more": "加載更多作品",
+                "sort": {
+                    "mostLikes": "最受歡迎",
+                    "fewerLikes": "熱度最少",
+                    "mostRecent": "最新作品",
+                    "leastRecent": "最早發佈"
+                },
+                "likes": {
+                    "you_text": "=> core.ref.you",
+                    "others_link": "=> core.ref.some_others",
+                    "liked_by_self_text": "{users} 覺的很讚。",
+                    "liked_by_text": "{count, plural, one {{users} 覺得很讚} other {{users} 覺得很讚}}"
+                }
+            },
+            "modal": {
+                "title": "參加",
+                "name": "替您的作品取名",
+                "submit": "提交",
+                "tools": {
+                    "circle": "圓",
+                    "square": "正方形"
+                }
+            },
+            "likes_modal": {
+                "title": "說讚的人"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view": "查看作品",
+                "like": "為作品點讚",
+                "participate": "參加比賽",
+                "moderate": "管理"
+            },
+            "settings": {
+                "maxEntriesPerUser": "每位用戶提交數量限制",
+                "colorMode": "使用色彩模式而不是雕刻模式"
+            },
+            "colors": {
+                "simple": "簡單顏色設置",
+                "all": "隨機顏色",
+                "custom": "自定義顏色表",
+                "custom-help": "#十六進製或rgb() 值列表（逗號分隔）"
+            }
+        }
+    }
+}

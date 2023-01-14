@@ -1,0 +1,69 @@
+{
+    "clarkwinkelmann-discussion-lists": {
+        "admin": {
+            "settings": {
+                "collapseSeries": "討論串默認折疊"
+            },
+            "permissions": {
+                "viewPublic": "查看公共討論列表",
+                "createPrivate": "創建私人討論列表",
+                "createPublic": "創建公共討論列表",
+                "createSeriesFromOwn": "創建自己的討論系列",
+                "createSeriesFromAny": "使用來自任何用戶的內容創建討論系列",
+                "moderate": "修改和刪除任何討論列表",
+                "viewPrivate": "查看所有私人討論列表"
+            }
+        },
+        "forum": {
+            "edit": {
+                "title": "編輯列表",
+                "name": "名稱",
+                "visibility": "可見",
+                "visibilityOptions": {
+                    "private": "私人列表",
+                    "public": "公開列表",
+                    "series": "公開系列"
+                },
+                "ordering": "排序",
+                "orderingOptions": {
+                    "manual": "手動",
+                    "createdAsc": "討論創建（從最早到最新）",
+                    "createdDesc": "討論創建（從最新到最舊）",
+                    "addedAsc": "添加到列表中（從最少到最新）",
+                    "addedDesc": "添加到列表中（從最近到最少）"
+                },
+                "save": "保存",
+                "delete": "删除",
+                "deleteConfirmation": "是否確實要永久刪除此列表？"
+            },
+            "discussion": {
+                "add": "添加到列表",
+                "new": "新列表"
+            },
+            "profile": {
+                "link": "列表"
+            },
+            "badge": {
+                "private": "私人列表",
+                "series": "公開系列"
+            },
+            "series": {
+                "kind": "系列",
+                "expand": "擴大",
+                "visit": "顯示所有內容"
+            }
+        },
+        "api": {
+            "manualLimit": "手動排序的列表不能包含超過50個主題",
+            "seriesAnyAddNotAllowed": "您只能將自己的主題添加到系列列表中",
+            "seriesAnyConversionNotAllowed": "無法將列表轉換為系列，因為它包含不屬於您自己的主題"
+        }
+    },
+    "core": {
+        "forum": {
+            "index_sort": {
+                "discussionListDefault_button": "在列表中排序"
+            }
+        }
+    }
+}

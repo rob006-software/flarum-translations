@@ -1,0 +1,30 @@
+{
+    "flarum-flags": {
+        "forum": {
+            "flag_post": {
+                "reason_duplicate_label": "Дубль"
+            }
+        }
+    },
+    "blomstra-flag-duplicates": {
+        "admin": {
+            "settings": {
+                "event_post_help": "Створіть допис про подію в дискусії, де було застосовано прапор «дублікат». Це може інформувати користувачів про те, що дискусія потенційно є дублікатом іншої дискусії, не надаючи їм доступу до загальних прапорів, які були підняті.",
+                "event_post_label": "Допис про подію"
+            }
+        },
+        "forum": {
+            "flags": {
+                "duplicate_discussion": "Дублікат дискусії",
+                "reason_duplicate_label": "Дублікат дискусії",
+                "reason_duplicate_text": "Ця дискусія дублює іншу.",
+                "reason_discussion_deleted": "[deleted discussion]",
+                "deselect_discussion_a11y_label": "Зняти позначку з дискусії"
+            },
+            "post_stream": {
+                "flagged_duplicate_text": "{username}{duplicate} позначив це обговорення як потенційний дублікат {duplicate}. Модератор найближчим часом проведе перевірку.",
+                "deleted_discussion": "[deleted discussion]"
+            }
+        }
+    }
+}

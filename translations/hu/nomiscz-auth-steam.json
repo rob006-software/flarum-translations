@@ -2,39 +2,39 @@
     "nomiscz-auth-steam": {
         "forum": {
             "buttons": {
-                "login": "",
-                "link": "",
-                "unlink": ""
+                "login": "Bejelentkezés a Steammel",
+                "link": "Steam-fiók összekötése",
+                "unlink": "Steam-fiók eltávolítása"
             },
             "alerts": {
-                "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
-                "error": ""
+                "already_linked": "A Steam-fiók már össze lett kötve.",
+                "already_used": "A Steam-fiók már össze lett kötve egy másik felhasználóval.",
+                "link_success": "A Steam-fiók összekötése sikeres.",
+                "unlink_success": "A Steam-fiók eltávolítása sikeres.",
+                "error": "Hiba történt, próbálja újra később."
             },
             "modals": {
                 "link": {
-                    "title": ""
+                    "title": "Steam-fiók összekötése"
                 },
                 "unlink": {
-                    "title": "",
+                    "title": "Steam-fiók eltávolítása",
                     "info": {
-                        "confirm": "",
-                        "no_providers": ""
+                        "confirm": "Biztos, hogy eltávolítja a Steam-fiókját?",
+                        "no_providers": "Nincs más bejelentkezési szolgáltatója. Valószínűleg vissza kell állítania a jelszavát."
                     },
                     "buttons": {
-                        "confirm": "",
-                        "cancel": ""
+                        "confirm": "Igen, fiók eltávolítása",
+                        "cancel": "Nem"
                     }
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "api_key_label": "",
-                "use_steam_powered_domain": ""
+                "title": "Steam hitelesítési beállítások",
+                "api_key_label": "API kulcs",
+                "use_steam_powered_domain": "A steampowered.com domain használata a steamcommunity.com helyett (utóbbi Kínában tiltott)"
             }
         }
     }

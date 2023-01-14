@@ -1,0 +1,43 @@
+{
+    "afrux-theme-base": {
+        "admin": {
+            "extensions": {
+                "title": "Розширення",
+                "description": "Список всіх встановлених розширень."
+            },
+            "extension": {
+                "sections": {
+                    "content": "Основні налаштування",
+                    "permissions": "Дозволи"
+                }
+            },
+            "header": {
+                "go_back": "Повернутися до форуму"
+            },
+            "users": {
+                "grid": {
+                    "columns": {
+                        "avatar": {
+                            "title": "Аватар"
+                        }
+                    }
+                }
+            },
+            "settings": {
+                "edit_footer_links": "Редагувати посилання і нижньому колонтитулі",
+                "footer_description": "Опис в нижньому колонтитулі",
+                "footer_bottom_line": "Нижній колонтитул. Підсумок",
+                "hero_banner": "Ласкаво просимо до образу героя",
+                "hero_banner_position": "Позиція CSS зображення (наприклад: 'center top' або 'center 20%')",
+                "links_modal": {
+                    "add_group": "Нова група посилань",
+                    "group_name": "Назва групи {number}",
+                    "group_title": "Назва групи посилань",
+                    "add_link": "Додати посилання",
+                    "link_url": "URL посилання",
+                    "link_label": "Мітка посилання"
+                }
+            }
+        }
+    }
+}
