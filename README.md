@@ -759,6 +759,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`zerosonesfun-expired-posts`](https://weblate.rob006.net/projects/flarum/zerosonesfun-expired-posts) | [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts) |
 | [`zerosonesfun-bbcode-button`](https://weblate.rob006.net/projects/flarum/zerosonesfun-bbcode-button) | [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button) |
 | [`ziiven-daily-check-in`](https://weblate.rob006.net/projects/flarum/ziiven-daily-check-in) | [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in) |
+| [`ziiven-money-leaderboard`](https://weblate.rob006.net/projects/flarum/ziiven-money-leaderboard) | [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard) |
 | [`ziiven-post-number`](https://weblate.rob006.net/projects/flarum/ziiven-post-number) | [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number) |
 | [`ziiven-money-transfer`](https://weblate.rob006.net/projects/flarum/ziiven-money-transfer) | [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer) |
 | [`ziiven-view-history`](https://weblate.rob006.net/projects/flarum/ziiven-view-history) | [`ziiven/view-history`](https://github.com/Ziiven/view-history) |
