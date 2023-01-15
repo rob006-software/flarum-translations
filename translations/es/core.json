@@ -51,7 +51,7 @@
                 "tools_button": "Herramientas"
             },
             "debug-warning": {
-                "detail": "",
+                "detail": "Cuando el modo <code>debug</code> está activo, Flarum reconstruirá sus activos <code>JavaScript</code> y <code>CSS</code> en cada solicitud, y también podría filtrar otra información, como los \"secretos\" de la base de datos , variables de entorno, etc.\n\nSe recomienda encarecidamente deshabilitar <code>debug</code> en su archivo <code>config.php</code> en producción. Consulte <link>Documentos de Flarum</link> para obtener más información.\n",
                 "label": "Modo de depuración activo"
             },
             "edit_css": {
@@ -418,7 +418,7 @@
                 "account_heading": "Cuenta",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
-                "notification_checkbox_a11y_label_template": "",
+                "notification_checkbox_a11y_label_template": "Reciba notificaciones de \"{description}\" a través de {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
