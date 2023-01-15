@@ -5,15 +5,15 @@
                 "blacklist_label": "Lista Nera",
                 "blacklist_help": "Inserisci una lista di domini separati da virgola per escluderli dall'anteprima.",
                 "blacklist_placeholder": "esempio facebook.com,https://dominio.it/percorso",
-                "whitelist_label": "",
-                "whitelist_help": "",
-                "whitelist_placeholder": "",
+                "whitelist_label": "Lista dei consentiti",
+                "whitelist_help": "Inserisci un elenco di domini o URL separati da virgole per consentire l'anteprima del link.",
+                "whitelist_placeholder": "es. facebook.com,https://domain.com/path",
                 "convert_media_urls_label": "Convertu media URl",
                 "convert_media_urls_help": "Se abilitato, convertirà i media URL in anteprime.",
-                "use_google_favicons_label": "",
-                "use_google_favicons_help": "",
-                "cache_time_label": "",
-                "cache_time_help": ""
+                "use_google_favicons_label": "Usa api Google Favicon",
+                "use_google_favicons_help": "Se abilitato, utilizzerà un servizio Google nel frontend per richiedere la favicon del rispettivo sito.",
+                "cache_time_label": "Tempo cache",
+                "cache_time_help": "Numero di minuti in cui i collegamenti sottoposti a scansione verranno memorizzati nella cache prima che sia possibile accedervi nuovamente. Impostare su 0 per disabilitare la memorizzazione nella cache dei collegamenti. L'impostazione predefinita è 60 minuti se non impostata."
             }
         },
         "forum": {
