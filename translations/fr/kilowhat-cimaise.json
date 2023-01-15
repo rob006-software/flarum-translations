@@ -2,207 +2,207 @@
     "kilowhat-cimaise": {
         "forum": {
             "nav": {
-                "albums": "",
-                "pictures": "",
-                "user-pictures": ""
+                "albums": "=> kilowhat-cimaise.ref.albums",
+                "pictures": "=> kilowhat-cimaise.ref.pictures",
+                "user-pictures": "=> kilowhat-cimaise.ref.pictures"
             },
             "album-list": {
-                "title": "",
-                "new": "",
-                "empty": "",
-                "loading": "",
-                "load-more": ""
+                "title": "=> kilowhat-cimaise.ref.albums",
+                "new": "Créer un nouvel album",
+                "empty": "Aucun album",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "picture-list": {
-                "title": "",
-                "empty": "",
-                "loading": "",
-                "load-more": ""
+                "title": "Toutes les photos",
+                "empty": "Aucune photo",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "album-show": {
-                "upload": "",
-                "empty": "",
-                "loading": "",
-                "personal": "",
-                "community": "",
-                "discussion": ""
+                "upload": "Transférer une photo",
+                "empty": "Aucune photo",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "personal": "Album personnel de <a>{username}</a>",
+                "community": "Album communautaire",
+                "discussion": "Aller à la discussion"
             },
             "picture-show": {
-                "loading": "",
-                "back-album": "",
-                "download": "",
-                "previous": "",
-                "next": "",
-                "download-cropped": "",
-                "download-original": "",
-                "show-exif": "",
-                "taken-at": "",
-                "published-at": ""
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "back-album": "Retour à l'album",
+                "download": "Télécharger",
+                "previous": "Photo précédente",
+                "next": "Photo suivante",
+                "download-cropped": "Recadrée {size}",
+                "download-original": "Télécharger l'original",
+                "show-exif": "Toutes les données EXIF",
+                "taken-at": "Prise {ago}",
+                "published-at": "Publiée {ago}"
             },
             "upload-modal": {
-                "title": "",
-                "titleInComposer": "",
-                "uploading": "",
-                "processing": "",
-                "select-file": "",
-                "drop-file": "",
-                "publishSilently": "",
-                "submit": "",
-                "submitInComposer": ""
+                "title": "Transférer des photos dans l'album « {title} »",
+                "titleInComposer": "Modifier les photos",
+                "uploading": "Transfert en cours",
+                "processing": "Traitement en cours",
+                "select-file": "Sélectionner un fichier",
+                "drop-file": "ou glisser-déposer ici",
+                "publishSilently": "Publier discrètement",
+                "submit": "Envoyer",
+                "submitInComposer": "Continuer"
             },
             "new-album-modal": {
-                "title": ""
+                "title": "Nouvel album"
             },
             "edit-album-modal": {
-                "title": ""
+                "title": "Modifier l'album « {title} »"
             },
             "attach-album-modal": {
-                "title": "",
-                "selected": "",
-                "none-selected": "",
-                "search": "",
-                "no-results": "",
-                "select": "",
-                "unselect": "",
-                "submit": ""
+                "title": "Joindre un album à « {title} »",
+                "selected": "Sélectionné :",
+                "none-selected": "Aucun",
+                "search": "Rechercher",
+                "no-results": "Aucun résultat",
+                "select": "Sélectionner",
+                "unselect": "Désélectionner",
+                "submit": "Envoyer"
             },
             "edit-album": {
-                "title": "",
-                "description": "",
-                "isCommunity": "",
-                "create": "",
-                "save": ""
+                "title": "Titre",
+                "description": "Description",
+                "isCommunity": "Album communautaire (tout le monde peut contribuer)",
+                "create": "Créer un album",
+                "save": "Enregistrer l'album"
             },
             "edit-picture": {
-                "title": "",
-                "description": ""
+                "title": "Titre",
+                "description": "Description"
             },
             "album-thumbnail": {
-                "controls": "",
-                "edit": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": "",
-                "by-user": ""
+                "controls": "=> kilowhat-cimaise.ref.controls",
+                "edit": "Modifier",
+                "restore": "=> kilowhat-cimaise.ref.restore",
+                "hide": "=> kilowhat-cimaise.ref.hide",
+                "delete": "=> kilowhat-cimaise.ref.delete",
+                "delete-confirmation": "Supprimer l'album « {title} » ?",
+                "by-user": "=> kilowhat-cimaise.ref.by-user"
             },
             "picture-thumbnail": {
-                "by-user": "",
-                "in-album": ""
+                "by-user": "=> kilowhat-cimaise.ref.by-user",
+                "in-album": "Dans"
             },
             "picture-controls": {
-                "controls": "",
-                "editor": "",
-                "approve": "",
-                "remove-favorite": "",
-                "set-favorite": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "controls": "=> kilowhat-cimaise.ref.controls",
+                "editor": "Modifier le recadrage et le masquage",
+                "approve": "Approuver",
+                "remove-favorite": "Retirer des favoris",
+                "set-favorite": "Ajouter aux favoris",
+                "restore": "=> kilowhat-cimaise.ref.restore",
+                "hide": "=> kilowhat-cimaise.ref.hide",
+                "delete": "=> kilowhat-cimaise.ref.delete",
+                "delete-confirmation": "Supprimer la photo « {title} » ?"
             },
             "editable-attribute": {
-                "title": "",
-                "description": "",
-                "author": ""
+                "title": "Cliquez ici pour ajouter un titre",
+                "description": "Cliquez ici pour ajouter une description",
+                "author": "Cliquez ici pour ajouter un auteur"
             },
             "badge": {
-                "hidden": "",
-                "awaiting-approval": "",
-                "favorite": ""
+                "hidden": "Masqué",
+                "awaiting-approval": "En attente d'approbation",
+                "favorite": "Favoris"
             },
             "picture-sort": {
-                "latest": "",
-                "oldest": "",
-                "latestTake": "",
-                "oldestTake": ""
+                "latest": "Dernier transfert",
+                "oldest": "Plus ancien transfert",
+                "latestTake": "Dernière prise",
+                "oldestTake": "Plus ancienne prise"
             },
             "album-search": {
-                "title": ""
+                "title": "=> kilowhat-cimaise.ref.albums"
             },
             "post-stream": {
-                "uploaded": ""
+                "uploaded": "{username} a transféré {count} photos"
             },
             "discussion-controls": {
-                "attach-album": ""
+                "attach-album": "Joindre ou détacher l'album"
             },
             "license-label": {
-                "not-specified": "",
-                "not-specified-help": ""
+                "not-specified": "Non spécifié",
+                "not-specified-help": "Veuillez vérifier les conditions d'utilisation du site pour consulter les droits d'auteur par défaut"
             }
         },
         "admin": {
             "permissions": {
-                "view": "",
-                "viewExif": "",
-                "createPersonalAlbums": "",
-                "createCommunityAlbums": "",
-                "editOwnAlbum": "",
-                "hideOwnAlbum": "",
-                "uploadPictures": "",
-                "uploadPersonalPicturesWithoutApproval": "",
-                "uploadCommunityPicturesWithoutApproval": "",
-                "editOwnImage": "",
-                "editOwnPublishedImage": "",
-                "licenseOwnPublishedPicture": "",
-                "renameOwnPublishedPicture": "",
-                "hideOwnPicture": "",
-                "publishSilently": "",
-                "attachCimaiseAlbum": "",
-                "moderate": ""
+                "view": "Voir",
+                "viewExif": "Afficher les données EXIF (y compris la géolocalisation)",
+                "createPersonalAlbums": "Créer des albums personnels",
+                "createCommunityAlbums": "Créer des albums communautaires",
+                "editOwnAlbum": "Modifier le titre et la description de son propre album",
+                "hideOwnAlbum": "Masquer son propre album",
+                "uploadPictures": "Transférer des photos",
+                "uploadPersonalPicturesWithoutApproval": "Transférer des photos sans autorisation dans les albums personnels",
+                "uploadCommunityPicturesWithoutApproval": "Transférer des photos sans autorisation dans les albums communautaires",
+                "editOwnImage": "Utiliser l'éditeur d'images sur ses propres photos (recadrage, masquage et autocollants)",
+                "editOwnPublishedImage": "Utiliser l'éditeur d'images sur ses propres photos une fois publiées",
+                "licenseOwnPublishedPicture": "Modifier la licence de ses propres photos une fois publiées",
+                "renameOwnPublishedPicture": "Modifier le titre et la description de ses propres photos une fois publiées",
+                "hideOwnPicture": "Masquer ses propres images",
+                "publishSilently": "Publier des photos discrètement (sans message d'événement)",
+                "attachCimaiseAlbum": "Joindre manuellement des albums aux discussions",
+                "moderate": "Modérer"
             },
             "settings": {
-                "watermarkFile": "",
-                "watermarkFileHelp": "",
-                "watermarkPlacement": "",
+                "watermarkFile": "Image de filigrane",
+                "watermarkFileHelp": "L'image fournie sera appliquée 1:1 en haut de chaque transfert, à l'exception des plus petits aperçus.",
+                "watermarkPlacement": "Placement du filigrane",
                 "watermarkPlacementOptions": {
-                    "topLeft": "",
-                    "bottomLeft": "",
-                    "topRight": "",
-                    "bottomRight": ""
+                    "topLeft": "En haut à gauche",
+                    "bottomLeft": "En bas à gauche",
+                    "topRight": "En haut à droite",
+                    "bottomRight": "En bas à droite"
                 },
-                "autoCreateDiscussionAlbum": "",
-                "autoCreateDiscussionAlbumHelp": "",
-                "neverSyncDiscussionAlbumTitles": "",
-                "neverSyncDiscussionAlbumTitlesHelp": "",
-                "columnTheme": "",
-                "columnThemeHelp": "",
-                "mapboxToken": "",
-                "mapboxTokenHelp": "",
-                "requireLicense": "",
-                "requireLicenseHelp": "",
-                "licenses": "",
-                "license-key": "",
-                "license-label": "",
-                "license-description": "",
-                "license-add": "",
-                "stickers": "",
-                "sticker-key": "",
-                "sticker-label": "",
-                "sticker-url": "",
-                "sticker-add": ""
+                "autoCreateDiscussionAlbum": "Créer automatiquement un album pour chaque nouvelle discussion",
+                "autoCreateDiscussionAlbumHelp": "Créez automatiquement un nouvel album avec le même titre que la discussion et l'auteur comme propriétaire. Cette fonctionnalité contourne l'autorisation de création d'album et s'applique à toutes les étiquettes.\n",
+                "neverSyncDiscussionAlbumTitles": "Ne jamais synchroniser les titres des discussions et des albums",
+                "neverSyncDiscussionAlbumTitlesHelp": "Par défaut, les albums liés qui ont exactement le même titre que la discussion seront renommés lorsque le titre de la discussion change. Si l'album est renommé manuellement, il n'est jamais synchronisé avec les discussions.\n",
+                "columnTheme": "Thème de la colonne",
+                "columnThemeHelp": "Utilisez le modèle du panneau latéral pour afficher les photos au lieu du panneau inférieur.",
+                "mapboxToken": "Jeton Mapbox",
+                "mapboxTokenHelp": "Saisissez un jeton valide pour afficher la carte de géolocalisation sous la méta de la photo.",
+                "requireLicense": "Nécessite de sélectionner une licence dans la liste ci-dessous",
+                "requireLicenseHelp": "Par défaut, les utilisateurs peuvent éviter de définir une licence. Assurez-vous que les conditions d'utilisation de votre site internet couvrent ce qui peut être fait avec les médias pour lesquels la licence n'est pas spécifiée.\n",
+                "licenses": "Licences",
+                "license-key": "Clé",
+                "license-label": "Libellé",
+                "license-description": "Description",
+                "license-add": "Ajouter une licence",
+                "stickers": "Autocollants",
+                "sticker-key": "Clé",
+                "sticker-label": "Libellé",
+                "sticker-url": "URL",
+                "sticker-add": "Ajouter un autocollant"
             }
         },
         "api": {
             "post-edit": {
-                "cannotAttachToNonComment": "",
-                "cannotFindPicturesFromRelation": "",
-                "cannotAttachHasNoAlbum": "",
-                "cannotAttachAlreadySubmitted": "",
-                "cannotAttachFromExternalAlbum": "",
-                "cannotAttachUnauthorized": ""
+                "cannotAttachToNonComment": "Les photos ne peuvent pas être jointes manuellement aux messages sans commentaire",
+                "cannotFindPicturesFromRelation": "Impossible de trouver toutes les photos demandées dans la base de données",
+                "cannotAttachHasNoAlbum": "La discussion n'a pas d'album joint",
+                "cannotAttachAlreadySubmitted": "Impossible de joindre la photo {id} car elle a déjà été envoyée",
+                "cannotAttachFromExternalAlbum": "Impossible de joindre l'image {id} car elle appartient à un album externe",
+                "cannotAttachUnauthorized": "Impossible de joindre l'image {id} car elle ne vous appartient pas"
             }
         },
         "ref": {
-            "albums": "",
-            "pictures": "",
-            "loading": "",
-            "load-more": "",
-            "controls": "",
-            "restore": "",
-            "hide": "",
-            "delete": "",
-            "by-user": ""
+            "albums": "Albums",
+            "pictures": "Photos",
+            "loading": "Chargement…",
+            "load-more": "Charger plus",
+            "controls": "Commandes",
+            "restore": "Restaurer",
+            "hide": "Masquer",
+            "delete": "Supprimer",
+            "by-user": "Par"
         }
     }
 }
