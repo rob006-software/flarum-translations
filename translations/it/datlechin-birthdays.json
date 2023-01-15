@@ -40,11 +40,11 @@
                 "dob_heading": "Data di Nascita"
             },
             "nav": {
-                "nav_item": ""
+                "nav_item": "Compleanni di oggi"
             },
             "page": {
-                "discussion_count": "",
-                "post_count": ""
+                "discussion_count": "{count, plural, one {Discussione: #} other {Discussioni: #}}",
+                "post_count": "{count, plural, one {Post: #} other {Post: #}}"
             }
         },
         "api": {
