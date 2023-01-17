@@ -5,15 +5,15 @@
                 "blacklist_label": "Estolista",
                 "blacklist_help": "Syötä pilkuilla eroteltu lista domaineista tai osoitteista, jotka estetään linkin esikatselusta.",
                 "blacklist_placeholder": "esim. facebook.com,https://domain.fi/polku",
-                "whitelist_label": "",
-                "whitelist_help": "",
-                "whitelist_placeholder": "",
+                "whitelist_label": "Sallittujen lista",
+                "whitelist_help": "yötä pilkuilla eroteltu lista domaineista tai osoitteista, jotka sallitaan linkin esikatselussa.",
+                "whitelist_placeholder": "esim. facebook.com,https://domain.fi/polku",
                 "convert_media_urls_label": "Muunna mediat osoitteiksi",
                 "convert_media_urls_help": "Jos käytössä niin tämä muuntaa median osoitteet linkin esikatseluiksi.",
-                "use_google_favicons_label": "",
-                "use_google_favicons_help": "",
-                "cache_time_label": "",
-                "cache_time_help": ""
+                "use_google_favicons_label": "Käytä Google Favicon rajapintaa",
+                "use_google_favicons_help": "Jos käytössä käyttää Googlen palveluita hakeakseen sivuston kuvakkeen.",
+                "cache_time_label": "Välimuistin aika",
+                "cache_time_help": "Aika miten pitkään haetut linkit pysyvät välimuistissa ennen kuin ne haetaan uudelleen. Aseta 0 ottaaksesi pois käytöstä. Oletuksena 60 minuuttia ellei ole muuta asetettuna."
             }
         },
         "forum": {
