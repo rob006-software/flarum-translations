@@ -5,15 +5,15 @@
                 "blacklist_label": "Чорний список",
                 "blacklist_help": "Введіть через кому список доменів або URL-адрес, які потрібно виключити з попереднього перегляду посилань.",
                 "blacklist_placeholder": "Наприклад: facebook.com,https://domain.com/path",
-                "whitelist_label": "",
-                "whitelist_help": "",
-                "whitelist_placeholder": "",
+                "whitelist_label": "Білий список",
+                "whitelist_help": "Введіть через кому список доменів або URL-адрес, щоб дозволити попередній перегляд посилань.",
+                "whitelist_placeholder": "наприклад: facebook.com,https://domain.com/path",
                 "convert_media_urls_label": "Конвертація медіа URL-адрес",
                 "convert_media_urls_help": "Якщо цей параметр увімкнено, то всі URL-адреси медіа будуть перетворені на попередній перегляд посилань.",
-                "use_google_favicons_label": "",
-                "use_google_favicons_help": "",
-                "cache_time_label": "",
-                "cache_time_help": ""
+                "use_google_favicons_label": "Використовуйте Google Favicon API",
+                "use_google_favicons_help": "Якщо увімкнено, буде використовувати сервіс Google для запиту іконки відповідного сайту.",
+                "cache_time_label": "Час кешування",
+                "cache_time_help": "Кількість хвилин, протягом яких переглянуті посилання будуть кешуватися перед наступним зверненням до них. Встановіть 0, щоб вимкнути кешування посилань. За налаштуванням 60 хвилин, якщо не встановлено інше."
             }
         },
         "forum": {
