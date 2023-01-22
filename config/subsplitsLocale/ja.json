@@ -1,1 +1,29 @@
-{}
+{
+    "announcement": {
+        "to-update": "更新するには以下のコマンドを実行してください:",
+        "major-warning": "このバージョンでは、古いバージョンの Flarum と一部の古い拡張機能のサポートが削除されています。 更新する前に、最新バージョンの Flarum と拡張機能を使用していることを確認してください。",
+        "version": "バージョン {version}"
+    },
+    "readme": {
+        "status-table": {
+            "header-status": "状況",
+            "label-translation-status": "翻訳状況",
+            "header-extension": "拡張機能"
+        }
+    },
+    "changelog": {
+        "updated-file": "`{file}`を更新",
+        "updated-config-css": "CSSを更新",
+        "cleaned-validation": "古い検証メッセージの翻訳を削除 (v`{version}`以上のFlarumで動作します)",
+        "extensions-added": "新しい拡張機能のサポートを追加",
+        "updated-validation": "検証メッセージの翻訳を更新",
+        "extensions-removed": "古い拡張機能へのサポートを削除",
+        "updated-core": "Flarum coreの翻訳を更新",
+        "cleaned-core": "古いFlarum coreの翻訳を削除 (v`{version}`以上のFlarumで動作します)",
+        "general-changes": "更新内容",
+        "updated-config-js": "Day.jsの翻訳を更新",
+        "extensions-cleaned": "古い拡張機能の翻訳を更新/削除",
+        "all-changes": "全ての更新内容:{link}.",
+        "extensions-updated": "拡張機能の翻訳を更新"
+    }
+}
