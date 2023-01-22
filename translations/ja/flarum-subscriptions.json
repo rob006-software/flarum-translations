@@ -21,17 +21,17 @@
             },
             "settings": {
                 "follow_after_reply_label": "返信したスレッドを自動的にフォローする",
-                "notify_for_all_posts_label": "",
+                "notify_for_all_posts_label": "スレッドの最後の投稿だけでなく全ての新しい投稿を通知する",
                 "notify_new_post_label": "フォローしているスレッドに誰かが投稿した時"
             },
             "sub_controls": {
                 "follow_button": "=> flarum-subscriptions.ref.follow",
                 "following_button": "=> flarum-subscriptions.ref.following",
-                "following_text": "すべての返信を通知する",
+                "following_text": "すべての返信を通知する。",
                 "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
-                "ignoring_text": "通知を停止し、スレッド一覧に表示しない",
+                "ignoring_text": "通知を停止し、スレッド一覧に表示しない。",
                 "not_following_button": "フォローしない",
-                "not_following_text": "@メンション された時のみ通知する",
+                "not_following_text": "@メンション された時のみ通知する。",
                 "notify_alert_tooltip": "新しい投稿があった時にフォーラム内で通知する",
                 "notify_email_tooltip": "新しい投稿があった時にメールで通知する"
             }
@@ -39,7 +39,7 @@
         "email": {
             "new_post": {
                 "subject": "[新しい投稿] {title}",
-                "body": "{recipient_display_name}さん、こんにちは!\n{poster_display_name} さんが、あなたのフォローしているスレッドで投稿しました: {title}。\n内容を閲覧するには、以下のリンクを確認してください:\n{url}\n---\n{content}\n---\n\n最新の状態になっている間は、このスレッドに関する通知は送信されません。\n"
+                "body": "{recipient_display_name}さん、こんにちは!\n\n{poster_display_name} さんが、あなたのフォローしているスレッドで投稿しました: {title}。\n\n内容を閲覧するには、以下のリンクを確認してください:\n{url}\n\n---\n\n{content}\n\n---\n\n最新の状態になるまで、このスレッドに関する通知は送信されません。\n"
             }
         },
         "ref": {
