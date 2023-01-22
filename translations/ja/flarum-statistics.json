@@ -2,35 +2,35 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "統計を表示する日付範囲を選択します。\n活発なフォーラムでは、データのロードに数分かかる場合があります。\n",
+                "end_date": "終了日 (この日を含む)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "終了日は開始日より後の日付を選択する必要があります。"
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "開始日 (この日を含む)",
+                "submit_button": "日付範囲の確認",
+                "title": "カスタム日付範囲を選択"
             },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
-                "export_chart_button": "",
+                "export_chart_button": "グラフをSVGへエクスポート",
                 "last_12_months_label": "過去 12 ヶ月間",
                 "last_28_days_label": "過去 28 日間",
                 "last_7_days_label": "過去 7 日間",
-                "mini_heading": "",
-                "previous_28_days_label": "",
-                "previous_7_days_label": "",
-                "custom_label": "",
-                "custom_label_specified": "",
-                "loading": "",
+                "mini_heading": "フォーラム統計",
+                "previous_28_days_label": "過去28日間",
+                "previous_7_days_label": "過去7日間",
+                "custom_label": "任意の日付範囲を選択...",
+                "custom_label_specified": "{fromDate} - {toDate}",
+                "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "今日",
                 "total_label": "合計",
                 "users_heading": "=> core.ref.users",
-                "view_full": "",
-                "no_data": "",
-                "current_period": "",
-                "previous_period": ""
+                "view_full": "その他の統計を表示",
+                "no_data": "この日付範囲にデータはありません。",
+                "current_period": "今期",
+                "previous_period": "前期"
             }
         }
     }
