@@ -993,7 +993,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-copy-code-to-clipboard/v2.1.0/resources/locale/en.yml',
 	],
 	'nearata-discord-widget' => [
-		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-discord-widget/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-discord-widget/v1.0.1/locale/en.yml',
 	],
 	'nearata-dsts' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-dsts/v2.3.0/locale/en.yml',
