@@ -7,44 +7,44 @@
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "{username} があなたのアカウントを {timeReadable} 停止しました",
-                "user_suspended_indefinite_text": "",
-                "user_unsuspended_text": "{username} がアカウント停止を解除しました"
+                "user_suspended_text": "あなたのアカウントは一時利用停止({timeReadable})されました",
+                "user_suspended_indefinite_text": "あなたのアカウントは永久利用停止されました",
+                "user_unsuspended_text": "アカウント利用停止が解除されました"
             },
             "suspension_info": {
-                "dismiss_button": "",
-                "indefinite": "",
-                "limited": "",
-                "title": ""
+                "dismiss_button": "無視",
+                "indefinite": "これは無期限のアカウント利用停止です",
+                "limited": "この一時利用停止は{date}まで続きます",
+                "title": "このアカウントは利用停止されています"
             },
             "suspend_user": {
-                "display_message": "",
+                "display_message": "ユーザーにメッセージを表示",
                 "indefinitely_label": "無期限停止",
-                "limited_time_days_text": " 日",
-                "limited_time_label": "一定期間停止...",
+                "limited_time_days_text": " 日間",
+                "limited_time_label": "一時利用停止...",
                 "not_suspended_label": "停止解除",
-                "placeholder_optional": "",
-                "reason": "",
+                "placeholder_optional": "任意",
+                "reason": "アカウント停止理由",
                 "status_heading": "アカウント状態",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "アカウント {username} の停止"
             },
             "user_badge": {
-                "suspended_tooltip": "アカウント停止"
+                "suspended_tooltip": "アカウント停止中"
             },
             "user_controls": {
                 "suspend_button": "アカウント停止"
             }
         },
         "email": {
-            "no_reason_given": "",
+            "no_reason_given": "この利用停止についての理由は提供されていません。",
             "suspended": {
-                "subject": "",
-                "body": ""
+                "subject": "あなたのアカウントは利用停止となりました",
+                "body": "{recipient_display_name}さん、こんにちは\n\nあなたのアカウントが以下の理由で利用停止されました:\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
-                "subject": "",
-                "body": ""
+                "subject": "あなたのアカウントの利用停止が解除されました",
+                "body": "{recipient_display_name}さん、こんにちは\n\nあなたのアカウントの利用停止が解除されました。以下のリンクをクリックすることでフォーラムに戻ることが出来ます:\n\n{forum_url}\n"
             }
         }
     }
