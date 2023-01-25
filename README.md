@@ -815,5 +815,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`sycho-private-facade`](https://weblate.rob006.net/projects/flarum/sycho-private-facade) | [`sycho/flarum-private-facade`](https://extiverse.com/extension/sycho/flarum-private-facade) |
 | [`v17development-support`](https://weblate.rob006.net/projects/flarum/v17development-support) | [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support) |
 | [`ziiven-pay-to-see`](https://weblate.rob006.net/projects/flarum/ziiven-pay-to-see) | [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see) |
+| [`ziiven-raffle-ticket`](https://weblate.rob006.net/projects/flarum/ziiven-raffle-ticket) | [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket) |
 
 <!-- premium-extensions-list-stop -->
