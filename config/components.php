@@ -1154,6 +1154,9 @@ return [
 	'ziiven-post-number' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-post-number/v0.1.3/locale/en.yml',
 	],
+	'ziiven-raffle-ticket' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/ziiven-raffle-ticket.yml',
+	],
 	'ziiven-view-history' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/view-history/v0.1.5/locale/en.yml',
 	],
