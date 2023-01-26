@@ -4168,5 +4168,15 @@
 		<td align="center">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-theaudiodb-api/uk/"><img src="https://weblate.rob006.net/widgets/flarum/uk/justoverclock-theaudiodb-api/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://extiverse.com/extension/ziiven/flarum-raffle-ticket" title="ziiven/flarum-raffle-ticket"><code>ziiven/flarum-raffle-ticket</code></a>
+		</td>
+		<td align="center">34</td>
+		<td align="center">0</td>
+		<td align="center">0</td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/ziiven-raffle-ticket/uk/"><img src="https://weblate.rob006.net/widgets/flarum/uk/ziiven-raffle-ticket/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
 </tbody>
 </table>
