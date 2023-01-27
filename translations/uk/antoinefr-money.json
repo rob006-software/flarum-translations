@@ -3,30 +3,30 @@
         "admin": {
             "settings": {
                 "title": "Налаштування",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
-                "moneyname": "",
-                "postminimumlength": "",
-                "noshowzero": "",
-                "moneyforlike": "",
-                "helpextensionlikes": ""
+                "moneyforpost": "Гроші за новий допис",
+                "moneyfordiscussion": "Гроші за нову дискусію",
+                "moneyname": "Назва коштів (наприклад: [money] очків)",
+                "postminimumlength": "Мінімальна довжина посту для отримання коштів (0 для відключення)",
+                "noshowzero": "Не показувати, якщо значення дорівнює нулю",
+                "moneyforlike": "Гроші за вподобаний допис",
+                "helpextensionlikes": "Необхідне розширення <code>flarum/likes</code>"
             },
             "permissions": {
-                "edit_money_label": ""
+                "edit_money_label": "Редагувати кошти"
             },
             "automoderator": {
-                "metric_name": "",
-                "action_name": ""
+                "metric_name": "Кошти",
+                "action_name": "Дарунок"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Редагувати кошти"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "Кошти від {username}",
+                "current": "Поточний:",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }
