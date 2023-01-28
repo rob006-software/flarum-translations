@@ -31,84 +31,84 @@
                 "description": "Establiu el títol del fòrum, l'idioma i altres paràmetres bàsics.",
                 "display_name_heading": "Nom de visualització de l'usuari",
                 "display_name_text": " ",
-                "forum_description_heading": "",
-                "forum_description_text": "",
-                "forum_title_heading": "",
-                "home_page_heading": "",
-                "home_page_text": "",
-                "show_language_selector_label": "",
-                "slug_driver_heading": "",
-                "slug_driver_text": "",
-                "title": "",
-                "welcome_banner_heading": "",
-                "welcome_banner_text": ""
+                "forum_description_heading": "Descripció del Fòrum",
+                "forum_description_text": "Introduïu una o dues frases breus que descriguin la vostra comunitat. Això apareixerà a la \"metaetiqueta\" i també als motors de cerca.",
+                "forum_title_heading": "Títol del Fòrum",
+                "home_page_heading": "Pàgina d'inici",
+                "home_page_text": "Escolliu la pàgina que els usuaris visualitzaran en arribar al vostre fòrum.",
+                "show_language_selector_label": "Mostrar el selector d'idioma",
+                "slug_driver_heading": "Controlador de Slug: {model}",
+                "slug_driver_text": "Seleccioneu el controlador que s'utilitzarà par al slug d'aquest model.",
+                "title": "Bàsics",
+                "welcome_banner_heading": "Missatge de benvinguda",
+                "welcome_banner_text": "Configura el text que es mostra al \"bàner\" de la pàgina de \"Totes les discussions\". Utilitzeu-ho per donar la benvinguda als convidats al vostre fòrum."
             },
             "dashboard": {
-                "clear_cache_button": "",
-                "description": "",
-                "io_error_message": "",
-                "title": "",
-                "tools_button": ""
+                "clear_cache_button": "Netejar la memòria cau",
+                "description": "El vostre fòrum d'un cop d'ull.",
+                "io_error_message": "No s'ha pogut escriure al sistema de fitxers. Comproveu els permisos del vostre sistema de fitxers i torneu-ho a provar. O proveu a executar des de la línia de comandaments.",
+                "title": "Tauler",
+                "tools_button": "Eines"
             },
             "debug-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "Quan el mode <code>debug</code> estigui actiu, Flarum reconstruirà els seus arxius <code>JavaScript</code> i <code>CSS</code> a cada sol·licitud, i també podria filtrar altra informació, com ara la base de dades. secrets, variables d'entorn, etc.\n\nÉs molt recomanable desactivar <code>debug</code> al fitxer <code>config.php</code> en producció. Consulteu <link>Flarum docs</link> per obtenir més informació.\n",
+                "label": "Mode de depuració actiu"
             },
             "edit_css": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "Personalitzeu l'aparença del vostre fòrum afegint el vostre propi codi Less/CSS que s'aplicarà a sobre dels <a>estils predeterminats</a> de Flarum.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Modificar CSS personalitzat"
             },
             "edit_footer": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "=> core.ref.custom_footer_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
             },
             "edit_group": {
-                "color_label": "",
-                "delete_button": "",
-                "delete_confirmation": "",
-                "hide_label": "",
-                "icon_label": "",
-                "icon_text": "",
-                "name_label": "",
-                "plural_placeholder": "",
-                "singular_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "color_label": "=> core.ref.color",
+                "delete_button": "Esborrar Grup",
+                "delete_confirmation": "Esteu segur que voleu suprimir aquest grup? Els membres del grup NO s'eliminaran.",
+                "hide_label": "Ocultar en el fòrum",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "Nom",
+                "plural_placeholder": "Plural (per exemple \"Moderadors\")",
+                "singular_placeholder": "Singulaer (per exemple \"Moderador\")",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Crear grup"
             },
             "edit_header": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
             },
             "email": {
-                "addresses_heading": "",
-                "description": "",
-                "driver_heading": "",
-                "driver_label": "",
-                "from_label": "",
-                "mail_encryption_label": "",
-                "mail_host_label": "",
-                "mail_mailgun_domain_label": "",
-                "mail_mailgun_region_label": "",
-                "mail_mailgun_secret_label": "",
-                "mail_password_label": "",
-                "mail_port_label": "",
-                "mail_username_label": "",
+                "addresses_heading": "Adreces",
+                "description": "Configureu el controlador, la configuració i les adreces que utilitzarà el vostre fòrum per enviar correu electrònic.",
+                "driver_heading": "Escolliu un controlador",
+                "driver_label": "Controlador",
+                "from_label": "Remitent",
+                "mail_encryption_label": "Xifrat",
+                "mail_host_label": "Servidor",
+                "mail_mailgun_domain_label": "Domini",
+                "mail_mailgun_region_label": "Regió",
+                "mail_mailgun_secret_label": "Clau secreta",
+                "mail_password_label": "=> core.ref.password",
+                "mail_port_label": "Port",
+                "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "",
                 "not_sending_message": "",
-                "send_test_mail_button": "",
+                "send_test_mail_button": "Enviar",
                 "send_test_mail_heading": "",
                 "send_test_mail_success": "",
                 "send_test_mail_text": "",
-                "smtp_heading": "",
-                "title": ""
+                "smtp_heading": "Paràmetres SMTP",
+                "title": "=> core.ref.email"
             },
             "extension": {
                 "configure_scopes": "",
                 "confirm_purge": "",
-                "disabled": "",
+                "disabled": "Desactivada",
                 "enable_to_see": "",
                 "enabled": "",
                 "info_links": {
@@ -132,16 +132,16 @@
             },
             "header": {
                 "get_help": "",
-                "log_out_button": ""
+                "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
                 "title": ""
             },
             "nav": {
-                "appearance_button": "",
-                "appearance_title": "",
-                "basics_button": "",
-                "basics_title": "",
+                "appearance_button": "=> core.admin.appearance.title",
+                "appearance_title": "=> core.admin.appearance.description",
+                "basics_button": "=> core.admin.basics.title",
+                "basics_title": "=> core.admin.basics.description",
                 "categories": {
                     "authentication": "",
                     "core": "",
@@ -155,12 +155,12 @@
                 },
                 "dashboard_button": "",
                 "dashboard_title": "",
-                "email_button": "",
-                "email_title": "",
-                "permissions_button": "",
-                "permissions_title": "",
-                "userlist_button": "",
-                "userlist_title": "",
+                "email_button": "=> core.ref.email",
+                "email_title": "=> core.admin.email.description",
+                "permissions_button": "=> core.admin.permissions.title",
+                "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
                 "search_placeholder": ""
             },
             "permissions": {
