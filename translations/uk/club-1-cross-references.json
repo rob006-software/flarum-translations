@@ -2,15 +2,15 @@
     "club-1-cross-references": {
         "admin": {
             "show_discussion_id": {
-                "label": "",
-                "help": ""
+                "label": "Показати ID дискусії",
+                "help": "Додавати ID номери дискусій скрізь, де вони відображаються"
             }
         },
         "forum": {
             "post_stream": {
-                "discussion_referenced_text": ""
+                "discussion_referenced_text": "{username} послався на цю дискусію з {source}"
             },
-            "comment": ""
+            "comment": "коментар"
         }
     }
 }
