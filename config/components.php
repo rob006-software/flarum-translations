@@ -773,6 +773,9 @@ return [
 	'justoverclock-events-countdown' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/events-countdown/0.1.8/locale/en.yml',
 	],
+	'justoverclock-export-post-to-pdf' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/justoverclock-export-post-to-pdf.yml',
+	],
 	'justoverclock-feautured-discussions-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/feautured-discussions-widget/0.1.1/locale/en.yml',
 	],
