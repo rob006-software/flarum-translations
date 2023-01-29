@@ -1,29 +1,29 @@
 {
     "ziven-checkin": {
         "forum": {
-            "check-in": "",
-            "checked-in-day": "",
-            "checked-in-days": "",
-            "check-in-success": "",
-            "check-in-failed": "",
-            "try-again-later": ""
+            "check-in": "Реєстрація",
+            "checked-in-day": "{count} реєстрацій за день",
+            "checked-in-days": "Зареєстровано за {count} днів",
+            "check-in-success": "Успішна реєстрація",
+            "check-in-failed": "Не вдалося зареєструватися",
+            "try-again-later": "Будь ласка, спробуйте пізніше"
         },
         "admin": {
             "settings": {
-                "auto-check-in": "",
-                "auto-check-in-delay": "",
-                "timezone": "",
-                "reward-money": "",
-                "reward-money-requirement": "",
-                "check-in-success-prompt-type": "",
-                "check-in-success-prompt-text": "",
-                "check-in-success-prompt-reward-text": "",
-                "check-in-success-prompt-example-text": "",
-                "check-in-success-prompt-example-reward-text": "",
-                "allow-check-in": "",
-                "None": "",
-                "Alert": "",
-                "Modal": ""
+                "auto-check-in": "Автоматична реєстрація",
+                "auto-check-in-delay": "Затримка автоматичної реєстрації (млн. секунд)",
+                "timezone": "Часовий пояс",
+                "reward-money": "Винагорода за реєстрацію",
+                "reward-money-requirement": "Потрібне розширення <code>antoinefr/flarum-ext-money</code>",
+                "check-in-success-prompt-type": "Тип підказки про успішну реєстрацію",
+                "check-in-success-prompt-text": "Текст підказки",
+                "check-in-success-prompt-reward-text": "Повідомлення про винагороду",
+                "check-in-success-prompt-example-text": "Приклад: Ви зареєструвалися на [days] днів",
+                "check-in-success-prompt-example-reward-text": "Приклад: Отримано [reward] винагороду",
+                "allow-check-in": "Дозволити реєстрацію",
+                "None": "Відсутньо",
+                "Alert": "Повідомлення",
+                "Modal": "Модальне"
             }
         }
     }
