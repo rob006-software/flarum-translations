@@ -5,15 +5,15 @@
                 "blacklist_label": "Kara liste",
                 "blacklist_help": "Bağlantı önizlemesinden hariç tutmak için virgülle ayrılmış bir alan veya URL listesi girin.",
                 "blacklist_placeholder": "Örneğin. facebook.com,https://domain.com/path",
-                "whitelist_label": "",
-                "whitelist_help": "",
-                "whitelist_placeholder": "",
+                "whitelist_label": "Beyaz Liste",
+                "whitelist_help": "Bağlantı önizlemesine izin vermek için virgülle ayrılmış bir alan adı veya bağlantı listesi girin.",
+                "whitelist_placeholder": "örn. facebook.com,https://alanadi.com/yol",
                 "convert_media_urls_label": "Medya URL'lerini dönüştürün",
                 "convert_media_urls_help": "Etkinleştirilirse, bu, tüm medya URL'lerini bağlantı önizlemelerine dönüştürür.",
-                "use_google_favicons_label": "",
-                "use_google_favicons_help": "",
-                "cache_time_label": "",
-                "cache_time_help": ""
+                "use_google_favicons_label": "Google Favicon API'ı kullan",
+                "use_google_favicons_help": "Etkinleştirilirse, ilgili sitenin favicon'unu istemek için ön uçta bir Google hizmeti kullanır.",
+                "cache_time_label": "Önbellek Zamanı",
+                "cache_time_help": "Taranan bağlantıların tekrar erişilmeden önce önbelleğe alınacağı dakika sayısı. Bağlantı önbelleğe almayı devre dışı bırakmak için 0 olarak ayarlayın. Ayarlanmamışsa varsayılan olarak 60 dakikadır."
             }
         },
         "forum": {
