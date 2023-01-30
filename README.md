@@ -643,6 +643,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ianm-no-meta-title`](https://weblate.rob006.net/projects/flarum/ianm-no-meta-title) | [`ianm/no-meta-title`](https://github.com/imorland/no-meta-title) |
 | [`ianm-oauth-amazon`](https://weblate.rob006.net/projects/flarum/ianm-oauth-amazon) | [`ianm/oauth-amazon`](https://github.com/imorland/flarum-ext-oauth-amazon) |
 | [`ianm-oauth-line`](https://weblate.rob006.net/projects/flarum/ianm-oauth-line) | [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line) |
+| [`ianm-oauth-reddit`](https://weblate.rob006.net/projects/flarum/ianm-oauth-reddit) | [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit) |
 | [`ianm-oauth-twitch`](https://weblate.rob006.net/projects/flarum/ianm-oauth-twitch) | [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch) |
 | [`ianm-syndication`](https://weblate.rob006.net/projects/flarum/ianm-syndication) | [`ianm/syndication`](https://github.com/imorland/syndication) |
 | [`ianm-synopsis`](https://weblate.rob006.net/projects/flarum/ianm-synopsis) | [`ianm/synopsis`](https://github.com/imorland/synopsis) |
