@@ -2,113 +2,113 @@
     "kilowhat-cimaise": {
         "forum": {
             "nav": {
-                "albums": "",
-                "pictures": "",
-                "user-pictures": ""
+                "albums": "=> kilowhat-cimaise.ref.albums",
+                "pictures": "=> kilowhat-cimaise.ref.pictures",
+                "user-pictures": "=> kilowhat-cimaise.ref.pictures"
             },
             "album-list": {
-                "title": "",
-                "new": "",
-                "empty": "",
-                "loading": "",
-                "load-more": ""
+                "title": "=> kilowhat-cimaise.ref.albums",
+                "new": "Yeni albüm oluştur",
+                "empty": "Albüm yok",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "picture-list": {
-                "title": "",
-                "empty": "",
-                "loading": "",
-                "load-more": ""
+                "title": "Tüm fotoğraflar",
+                "empty": "Fotoğraf yok",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "album-show": {
-                "upload": "",
-                "empty": "",
-                "loading": "",
-                "personal": "",
-                "community": "",
-                "discussion": ""
+                "upload": "Fotoğraf yükle",
+                "empty": "Fotoğraf yok",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "personal": "<a>{username}</a> kullanıcısının kişisel albümü",
+                "community": "Topluluk albümü",
+                "discussion": "Tartışmaya git"
             },
             "picture-show": {
-                "loading": "",
-                "back-album": "",
-                "download": "",
-                "previous": "",
-                "next": "",
-                "download-cropped": "",
-                "download-original": "",
-                "show-exif": "",
-                "taken-at": "",
-                "published-at": ""
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "back-album": "Albüme Dön",
+                "download": "İndir",
+                "previous": "Önceki fotoğraf",
+                "next": "Sonraki fotoğraf",
+                "download-cropped": "Kırpılmış {size}",
+                "download-original": "Aslını indir",
+                "show-exif": "Tüm EXIF verisi",
+                "taken-at": "{ago} çekildi",
+                "published-at": "{ago} yayınlandı"
             },
             "upload-modal": {
-                "title": "",
-                "titleInComposer": "",
-                "uploading": "",
-                "processing": "",
-                "select-file": "",
-                "drop-file": "",
-                "publishSilently": "",
-                "submit": "",
-                "submitInComposer": ""
+                "title": "\"{title}\" albümüne fotoğraf yükle",
+                "titleInComposer": "Fotoğrafları düzenle",
+                "uploading": "Yükleniyor",
+                "processing": "İşleniyor",
+                "select-file": "Bir belge seçin",
+                "drop-file": "veya tutup buraya bırakın",
+                "publishSilently": "Sessizce yayınla",
+                "submit": "Gönder",
+                "submitInComposer": "Devam"
             },
             "new-album-modal": {
-                "title": ""
+                "title": "Yeni Albüm"
             },
             "edit-album-modal": {
-                "title": ""
+                "title": "\"{title}\" Albümünü Düzenle"
             },
             "attach-album-modal": {
-                "title": "",
-                "selected": "",
-                "none-selected": "",
-                "search": "",
-                "no-results": "",
-                "select": "",
-                "unselect": "",
-                "submit": ""
+                "title": "\"{title}\" albümüne ekle",
+                "selected": "Seçilenler:",
+                "none-selected": "Hiç",
+                "search": "Ara",
+                "no-results": "Sonuç yok",
+                "select": "Seç",
+                "unselect": "Seçimi kaldır",
+                "submit": "Gönder"
             },
             "edit-album": {
-                "title": "",
-                "description": "",
-                "isCommunity": "",
-                "create": "",
-                "save": ""
+                "title": "Başlık",
+                "description": "Açıklama",
+                "isCommunity": "Topluluk albümü (herkes katkı sağlayabilir)",
+                "create": "Albüm Oluştur",
+                "save": "Albümü Kaydet"
             },
             "edit-picture": {
-                "title": "",
-                "description": ""
+                "title": "Başlık",
+                "description": "Açıklama"
             },
             "album-thumbnail": {
-                "controls": "",
-                "edit": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": "",
-                "by-user": ""
+                "controls": "=> kilowhat-cimaise.ref.controls",
+                "edit": "Düzenle",
+                "restore": "=> kilowhat-cimaise.ref.restore",
+                "hide": "=> kilowhat-cimaise.ref.hide",
+                "delete": "=> kilowhat-cimaise.ref.delete",
+                "delete-confirmation": "\"{title}\" Albümü Silinsin mi?",
+                "by-user": "=> kilowhat-cimaise.ref.by-user"
             },
             "picture-thumbnail": {
-                "by-user": "",
-                "in-album": ""
+                "by-user": "=> kilowhat-cimaise.ref.by-user",
+                "in-album": "içinde"
             },
             "picture-controls": {
-                "controls": "",
-                "editor": "",
-                "approve": "",
-                "remove-favorite": "",
-                "set-favorite": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "controls": "=> kilowhat-cimaise.ref.controls",
+                "editor": "Düzenle kırp & maskele",
+                "approve": "Onayla",
+                "remove-favorite": "Favorilerden Kaldır",
+                "set-favorite": "Favorilere Ekle",
+                "restore": "=> kilowhat-cimaise.ref.restore",
+                "hide": "=> kilowhat-cimaise.ref.hide",
+                "delete": "=> kilowhat-cimaise.ref.delete",
+                "delete-confirmation": "\"{title}\" Resim Silinsin mi?"
             },
             "editable-attribute": {
-                "title": "",
-                "description": "",
-                "author": ""
+                "title": "Başlık eklemek için tıkla",
+                "description": "Açıklama eklemek için tıkla",
+                "author": "Yazar eklemek için tıkla"
             },
             "badge": {
-                "hidden": "",
-                "awaiting-approval": "",
+                "hidden": "Gizli",
+                "awaiting-approval": "Onay Bekliyor",
                 "favorite": ""
             },
             "picture-sort": {
