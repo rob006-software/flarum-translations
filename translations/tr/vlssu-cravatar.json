@@ -3,8 +3,8 @@
         "admin": {
             "settings": {
                 "proxy": {
-                    "title": "",
-                    "helptext": ""
+                    "title": "Proxy cravatar",
+                    "helptext": "Varsayılan olarak, cravatar URL'leri doğrudan cravatar.cn'den alınır. Bu, tüm cravatar isteklerinin doğrudan forum tarafından karşılanmasını sağlar."
                 },
                 "replace-flarum-custom": {
                     "title": "Foruma yüklenen özel avatarları değiştir",
@@ -12,7 +12,7 @@
                 },
                 "defaults": {
                     "title": "Varsayılanlar",
-                    "helptext": "",
+                    "helptext": "Bir e-posta adresinde eşleşen Cravatar resmi yoksa ne olur? Cravatar, varsayılan olarak kullanabileceğiniz bir dizi yerleşik seçeneğe sahiptir. Bunların çoğu, istenen e-posta karmasını alıp o e-posta adresine özel temalı bir resim oluşturmak için kullanarak çalışır.",
                     "mp_label": "",
                     "identicon_label": "",
                     "monsterid_label": "",
