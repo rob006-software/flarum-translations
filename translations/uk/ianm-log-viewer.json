@@ -2,18 +2,18 @@
     "ianm-log-viewer": {
         "admin": {
             "permissions": {
-                "access_logfile_api": ""
+                "access_logfile_api": "Доступ до даних лог-файлу через API"
             },
             "settings": {
-                "purge-days": "",
-                "purge-days-help": ""
+                "purge-days": "Очищення файлів журналів через дні",
+                "purge-days-help": "Покладається на активний планувальник Flarum. 0 для вимкненого."
             },
             "viewer": {
-                "available_logs_heading": "",
-                "file_contents_heading": "",
-                "file_size": "",
-                "last_updated": "",
-                "no_file_selected": ""
+                "available_logs_heading": "Доступні файли",
+                "file_contents_heading": "Вміст файлу",
+                "file_size": "Розмір (байт): {size}",
+                "last_updated": "Останнє оновлення: {updated}",
+                "no_file_selected": "Оберіть файл журналу, щоб переглянути його вміст."
             }
         }
     }
