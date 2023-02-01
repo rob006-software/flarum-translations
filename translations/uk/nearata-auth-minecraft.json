@@ -3,27 +3,27 @@
         "admin": {
             "settings": {
                 "minecraft_server": {
-                    "label": "",
-                    "help": ""
+                    "label": "IP-адреса сервера Minecraft",
+                    "help": "Приклад: mydomain.tld"
                 },
                 "api_url": {
-                    "label": "",
-                    "help": ""
+                    "label": "API URL",
+                    "help": "Приклад: http://localhost:4567/verify"
                 },
                 "api_secret": {
-                    "label": "",
-                    "help": ""
+                    "label": "API Secret",
+                    "help": "Можна знайти в <strong>Plugins/OAuth/config.json</strong>"
                 }
             }
         },
         "forum": {
-            "login_error": "",
+            "login_error": "Сеанс не розпочато або завершено.",
             "log_in_modal": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "Підтвердити",
+                "title": "Авторизація через Minecraft"
             },
-            "log_in_button_title": "",
-            "modal_help": ""
+            "log_in_button_title": "Авторизація через Minecraft",
+            "modal_help": "Приєднайтеся до сервера <strong>{server}</strong> і натисніть кнопку нижче."
         }
     }
 }
