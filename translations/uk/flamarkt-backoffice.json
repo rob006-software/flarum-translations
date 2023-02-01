@@ -1,36 +1,36 @@
 {
     "flamarkt-backoffice": {
         "admin": {
-            "settingsInBackoffice": ""
+            "settingsInBackoffice": "Налаштування в бек-офісі"
         },
         "backoffice": {
-            "settingsNotAvailableForNonAdmin": "",
+            "settingsNotAvailableForNonAdmin": "Це розширення має налаштування, але бачити і редагувати їх можуть лише адміністратори.",
             "nav": {
-                "dashboard": "",
-                "users": "",
-                "searchPlaceholder": ""
+                "dashboard": "Панель управління",
+                "users": "Користувачі",
+                "searchPlaceholder": "=> core.admin.nav.search_placeholder"
             },
             "users": {
-                "title": "",
-                "new": "",
-                "searchPlaceholder": "",
+                "title": "Користувачі",
+                "new": "Створити користувача",
+                "searchPlaceholder": "Пошук користувачів...",
                 "head": {
-                    "email": ""
+                    "email": "Email"
                 },
                 "field": {
-                    "username": "",
-                    "email": "",
-                    "password": ""
+                    "username": "Логін",
+                    "email": "Email",
+                    "password": "Пароль"
                 }
             },
             "permissions": {
-                "backoffice": ""
+                "backoffice": "Використовувати бек-офіс"
             }
         },
         "lib": {
             "header": {
-                "admin_button": "",
-                "backoffice_button": ""
+                "admin_button": "=> core.forum.header.admin_button",
+                "backoffice_button": "Бек-офіс"
             }
         }
     }
