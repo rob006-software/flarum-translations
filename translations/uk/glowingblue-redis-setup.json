@@ -2,11 +2,11 @@
     "glowingblue-redis-setup": {
         "admin": {
             "settings": {
-                "enable_cache": "",
-                "enable_redis_sessions": "",
-                "enable_queue": "",
-                "horizon_config": "",
-                "horizon_help_text": ""
+                "enable_cache": "Увімкнути кеш Redis",
+                "enable_redis_sessions": "Увімкнути сеанси Redis (після зміни цього параметра всі користувачі будуть виведені з системи)",
+                "enable_queue": "Увімкнути чергу Redis",
+                "horizon_config": "Конфіг горизонту (формат: JSON).",
+                "horizon_help_text": "Це буде передано до <code>(new \\Blomstra\\Horizon\\Extend\\Horizon)->config(...))</code>"
             }
         }
     }
