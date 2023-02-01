@@ -1,40 +1,40 @@
 {
     "cccyun-clogin-oauth": {
         "admin": {
-            "appurl_label": "",
-            "appurl_help": "",
-            "appid_label": "",
-            "appkey_label": "",
-            "openqq_label": "",
-            "openwx_label": "",
-            "opensina_label": ""
+            "appurl_label": "API URL",
+            "appurl_help": "Має починатися з http:// або https:// і закінчуватися символом /",
+            "appid_label": "APPID",
+            "appkey_label": "APPKEY",
+            "openqq_label": "Відкрийте авторизацію QQ",
+            "openwx_label": "Відкрийте авторизацію Open WeChat",
+            "opensina_label": "Відкрийте авторизацію Weibo"
         },
         "forum": {
-            "with_qq_button": "",
-            "with_wx_button": "",
-            "with_sina_button": "",
+            "with_qq_button": "Авторизація QQ",
+            "with_wx_button": "Авторизація WeChat",
+            "with_sina_button": "Авторизація Weibo",
             "alerts": {
-                "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
-                "error": "",
-                "unlinked": ""
+                "already_linked": "Третій обліковий запис вже підключено!",
+                "already_used": "Третій обліковий запис вже пов'язаний з іншим користувачем!",
+                "link_success": "Посилання на третій обліковий запис успішне.",
+                "unlink_success": "Від'єднання третього облікового запису успішно завершено.",
+                "error": "Щось пішло не так, будь ласка, спробуйте пізніше!",
+                "unlinked": "Третій обліковий запис не прив'язаний до облікового запису цього сайту, будь ласка, спочатку зареєструйтеся, а потім прив'яжіть його."
             },
             "modals": {
-                "link_qq": "",
-                "unlink_qq": "",
-                "confirm_qq": "",
-                "link_wx": "",
-                "unlink_wx": "",
-                "confirm_wx": "",
-                "link_sina": "",
-                "unlink_sina": "",
-                "confirm_sina": "",
-                "no_providers": "",
+                "link_qq": "Посилання на обліковий запис QQ",
+                "unlink_qq": "Від'єднайте обліковий запис QQ",
+                "confirm_qq": "Ви впевнені, що хочете відв'язати свій акаунт QQ?",
+                "link_wx": "Посилання на обліковий запис WeChat",
+                "unlink_wx": "Від'єднайте обліковий запис WeChat",
+                "confirm_wx": "Ви впевнені, що хочете відв'язати свій обліковий запис WeChat?",
+                "link_sina": "Посилання на обліковий запис Weibo",
+                "unlink_sina": "Від'єднайте обліковий запис Weibo",
+                "confirm_sina": "Ви впевнені, що хочете відв'язати свій обліковий запис Weibo?",
+                "no_providers": "У вас немає інших провайдерів входу! Можливо, вам доведеться скинути пароль.",
                 "buttons": {
-                    "confirm": "",
-                    "cancel": ""
+                    "confirm": "Так, від'єднати обліковий запис",
+                    "cancel": "Ні!"
                 }
             }
         }
