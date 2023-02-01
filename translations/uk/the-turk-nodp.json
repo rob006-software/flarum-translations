@@ -2,20 +2,20 @@
     "the-turk-nodp": {
         "admin": {
             "permissions": {
-                "double_posting_label": ""
+                "double_posting_label": "Подвійна публікація"
             },
             "settings": {
-                "time_limit_label": "",
-                "time_limit_text": ""
+                "time_limit_label": "Обмеження за часом",
+                "time_limit_text": "Якщо з моменту останнього допису в обговоренні пройшло більше ніж <b>xxx</b> хвилин, останній дописувач буде змушений відредагувати свій допис. Встановіть значення <b>0</b>, щоб вимкнути обмеження часу."
             }
         },
         "forum": {
             "composer_edit": {
-                "double_posting_warning_title": "",
-                "double_posting_warning_description": ""
+                "double_posting_warning_title": "Ви - останній учасник цієї дискусії.",
+                "double_posting_warning_description": "Оскільки ви вже відповідали на цю дискусію нещодавно, будь ласка, відредагуйте свій останній допис замість того, щоб створювати новий."
             },
             "discussion": {
-                "cannot_reply_alert_message": ""
+                "cannot_reply_alert_message": "Ви не можете відповісти на цю дискусію, поки хтось інший не відповість."
             }
         }
     }
