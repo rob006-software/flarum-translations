@@ -126,16 +126,16 @@
                 "purge_button": "Purgar",
                 "readme": {
                     "button_label": "Llegiu-me",
-                    "no_readme": "",
-                    "title": ""
+                    "no_readme": "Sembla que aquesta extensió no té un fitxer LLEGEIX-ME",
+                    "title": "Documentació de {extName}"
                 }
             },
             "header": {
-                "get_help": "",
+                "get_help": "Obtenir ajuda",
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
-                "title": ""
+                "title": "Per favor, esperi..."
             },
             "nav": {
                 "appearance_button": "=> core.admin.appearance.title",
@@ -143,9 +143,9 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
-                    "authentication": "",
-                    "core": "",
-                    "discussion": "",
+                    "authentication": "Autenticació",
+                    "core": "Configuració bàsica",
+                    "discussion": "Debat",
                     "feature": "",
                     "formatting": "",
                     "language": "",
