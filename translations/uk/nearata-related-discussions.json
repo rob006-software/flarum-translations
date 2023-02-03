@@ -2,26 +2,26 @@
     "nearata-related-discussions": {
         "admin": {
             "settings": {
-                "allow_guests": "",
-                "generator": "",
+                "allow_guests": "Дозволити гостям",
+                "generator": "Генератор",
                 "generator_options": {
-                    "random": "",
-                    "title": ""
+                    "random": "Випадково",
+                    "title": "За назвою"
                 },
-                "max_discussions": "",
-                "max_discussions_help": "",
-                "position": "",
+                "max_discussions": "Максимум дискусій",
+                "max_discussions_help": "За налаштуванням <strong>5</strong>.",
+                "position": "Розміщення",
                 "position_options": {
-                    "first_post": "",
-                    "last_post": ""
+                    "first_post": "Після першого допису",
+                    "last_post": "Після останнього допису"
                 },
-                "cache": "",
-                "cache_help": ""
+                "cache": "Кешування",
+                "cache_help": "Формат має бути <strong>0-31d0-23h0-59m</strong>"
             }
         },
         "forum": {
-            "discussion_list_title": "",
-            "no_results": ""
+            "discussion_list_title": "Пов'язані дискусії",
+            "no_results": "Відповідних дискусій не знайдено"
         }
     }
 }
