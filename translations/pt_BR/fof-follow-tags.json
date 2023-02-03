@@ -2,77 +2,77 @@
     "fof-follow-tags": {
         "forum": {
             "settings": {
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": "",
-                "notify_new_discussion_tag_label": ""
+                "notify_new_discussion_label": "Alguém criar uma discussão em uma tag que eu sigo",
+                "notify_new_post_label": "Alguém postar em uma tag que eu sigo",
+                "notify_new_discussion_tag_label": "Alguém atualizar a tag de uma discussão para uma tag que eu sigo"
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": "",
+                "follow_tag_button": "Seguir",
+                "unfollow_tag_button": "Parar de Seguir",
                 "following": {
-                    "following_none_label": "",
-                    "following_tags_label": ""
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
                 }
             },
             "badge": {
-                "following_tag_tooltip": "",
-                "lurking_tag_tooltip": ""
+                "following_tag_tooltip": "Seguindo",
+                "lurking_tag_tooltip": "Espiando"
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "hiding_button": "",
-                "hiding_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "lurking_button": "",
-                "lurking_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": ""
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
+                "following_text": "Ser notificado de todas novas discussões.",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
+                "hiding_text": "Esconder discussões da página Todas Discussões.",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
+                "ignoring_text": "Nunca ser notificado.",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
+                "lurking_text": "Ser notificado de todas novas discussões e respostas.",
+                "not_following_button": "Não Seguindo",
+                "not_following_text": "Ser notificado apenas quando @mencionado.",
+                "notify_alert_tooltip": "Receba uma notificação no fórum quando houver novas discussões ou posts",
+                "notify_email_tooltip": "Receber um email quando houver novas discussões ou posts"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": "",
-                "new_discussion_tag_text": ""
+                "new_discussion_text": "{username} iniciou",
+                "new_post_text": "{username} postou",
+                "new_discussion_tag_text": "{username} mudou a tag"
             },
             "user": {
                 "settings": {
-                    "heading": "",
-                    "filter_label": ""
+                    "heading": "Seguir Tags",
+                    "filter_label": "O que mostrar por padrão na página Seguindo"
                 }
             }
         },
         "admin": {
             "settings": {
-                "following_page_default_label": "",
-                "following_none_label": "",
-                "following_tags_label": ""
+                "following_page_default_label": "Filtros da página padrão Seguindo",
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
             }
         },
         "email": {
             "subject": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "[Tag | Nova Discussão {title}",
+                "newPostInTag": "[Tag | Novo Post] {title}",
+                "newDiscussionTag": "[Tag | Alterou Tag] {title}"
             },
             "body": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "Olá {recipient_display_name},\n\n{actor_display_name} iniciou uma discussão em uma tag que você está seguindo: {discussion_title}\n\nPara ver a nova discussão, confira o link a seguir:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newPostInTag": "Olá {recipient_display_name},\n\n{actor_display_name} postou uma discussão em uma tag que você está seguindo: {discussion_title}\n\nPara ver a nova atividade, confira o link a seguir:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nVocê não irá mais nenhuma notificação sobre está discussão até que você esteja atualizado.\n",
+                "newDiscussionTag": "Olá {recipient_display_name},\n\n{actor_display_name} acabou de alterar a tag em uma discussão criada por {author_display_name} para uma tag que você está seguindo: {discussion_title}\n\nPara ver a nova discussão, confira o link a seguir:\n{discussion_url}\n"
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "hiding": "",
-            "ignoring": "",
-            "lurking": "",
+            "follow": "Seguir",
+            "following": "Seguindo",
+            "hiding": "Escondendo",
+            "ignoring": "Ignorando",
+            "lurking": "Espiando",
             "filtering_options": {
-                "none": "",
-                "tags": ""
+                "none": "Discussões Seguidas",
+                "tags": "Tags Seguidas"
             }
         }
     }
