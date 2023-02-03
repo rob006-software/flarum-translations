@@ -31,26 +31,26 @@
             "page": {
                 "title": "Doorman",
                 "doorkey": {
-                    "used_times": "",
-                    "title": "",
+                    "used_times": "{remaining, plural, one {{remaining} Uso Restante} other {{remaining} Usos Restantes}}",
+                    "title": "Códigos de Convite",
                     "help": {
-                        "key": "",
-                        "group": "",
-                        "max": "",
-                        "activates": ""
+                        "key": "Informação: Código que o usuário digitará ao se registrar.",
+                        "group": "Grupo: O grupo ao qual o usuário será adicionado ao se registrar.",
+                        "max": "Uso Máximo: O número máximo de vezes que o código pode ser usado, defina como 0 para usos ilimitados",
+                        "activates": "Ativa Usuário: Ativa automaticamente o usuário quando ele se cadastra."
                     },
-                    "warning": "",
-                    "key": "",
-                    "max_uses": "",
+                    "warning": "Este código de convite foi usado o número máximo de vezes.",
+                    "key": "Informação",
+                    "max_uses": "Uso Máximo",
                     "heading": {
-                        "key": "",
-                        "group": "",
-                        "activate": "",
-                        "max_uses": ""
+                        "key": "Informação",
+                        "group": "Grupo",
+                        "activate": "Ativa Usuário",
+                        "max_uses": "Uso Máximo"
                     },
                     "allow-public": {
-                        "title": "",
-                        "switch-label": ""
+                        "title": "Permitir inscrição Pública",
+                        "switch-label": "Torne o código de convite opcional ao se inscrever"
                     }
                 }
             }
