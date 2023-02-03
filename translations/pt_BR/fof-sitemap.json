@@ -2,29 +2,29 @@
     "fof-sitemap": {
         "admin": {
             "settings": {
-                "exclude_users": "",
-                "exclude_users_help": "",
-                "mode_label": "",
-                "mode_help": "",
-                "mode_help_runtime_label": "",
-                "mode_help_runtime": "",
-                "mode_help_schedule": "",
-                "mode_help_schedule_setup": "",
-                "mode_help_large": "",
-                "mode_help_multi_label": "",
-                "mode_help_multi": "",
-                "advanced_options_label": "",
-                "frequency_label": "",
-                "risky_performance_improvements": "",
-                "risky_performance_improvements_help": "",
+                "exclude_users": "Excluir todos os perfis de usuário do mapa do site (sitemap)",
+                "exclude_users_help": "Por padrão, qualquer usuário visível para visitantes será indexado",
+                "mode_label": "Modo de Operação",
+                "mode_help": "Selecionar o modo correto para o tamanho do fórum é de vital importância.",
+                "mode_help_runtime_label": "Modo de Execução (Runtime)",
+                "mode_help_runtime": "Para fóruns pequenos, provavelmente em ambientes de hospedagem compartilhada, com discussões, usuários, tags e páginas somadas em menos de 10.000 itens. O mapa do site (sitemap) é gerado em tempo real a cada solicitação.",
+                "mode_help_schedule": "Os modos seguintes adicionam suas tarefas ao cronograma do Flarum.",
+                "mode_help_schedule_setup": "Sem a configuração correta do agendador Flarum, os seguintes modos não serão executados. Consulte aqui <a>para mais informações</a>.",
+                "mode_help_large": "50.000 é o limite técnico para arquivos de mapa do site (sitemap). Se você tiver mais entradas para armazenar, use a seguinte opção!",
+                "mode_help_multi_label": "Modo Multi-arquivo",
+                "mode_help_multi": "Melhor para fóruns maiores, a partir de 10.000 itens. Vários arquivos compactados de mapa do site serão gerados e armazenados na pasta /public",
+                "advanced_options_label": "Opções avançadas",
+                "frequency_label": "Com que frequência o agendador deve recriar o mapa do site em cache?",
+                "risky_performance_improvements": "Habilitar melhorias arriscadas de desempenho",
+                "risky_performance_improvements_help": "Essas melhorias tornam o trabalho CRON mais rápido em conjuntos de dados de um milhão de linhas, mas podem quebrar compatibilidade com algumas extensões.",
                 "modes": {
-                    "runtime": "",
-                    "multi_file": ""
+                    "runtime": "Execução",
+                    "multi_file": "Multi arquivo"
                 },
                 "frequency": {
-                    "hourly": "",
-                    "twice_daily": "",
-                    "daily": ""
+                    "hourly": "De hora em hora",
+                    "twice_daily": "Duas vezes por dia",
+                    "daily": "Diariamente"
                 }
             }
         }
