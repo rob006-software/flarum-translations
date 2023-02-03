@@ -2,26 +2,26 @@
     "nearata-related-discussions": {
         "admin": {
             "settings": {
-                "allow_guests": "",
-                "generator": "",
+                "allow_guests": "允許訪客",
+                "generator": "產生器",
                 "generator_options": {
-                    "random": "",
-                    "title": ""
+                    "random": "隨機",
+                    "title": "依主題"
                 },
-                "max_discussions": "",
-                "max_discussions_help": "",
-                "position": "",
+                "max_discussions": "主題上限",
+                "max_discussions_help": "預設為 <strong>5</strong>.",
+                "position": "位置",
                 "position_options": {
-                    "first_post": "",
-                    "last_post": ""
+                    "first_post": "於首篇文章之後",
+                    "last_post": "於未篇文章之後"
                 },
-                "cache": "",
-                "cache_help": ""
+                "cache": "緩存",
+                "cache_help": "格式必須為 <strong>0-31d0-23h0-59m</strong>"
             }
         },
         "forum": {
-            "discussion_list_title": "",
-            "no_results": ""
+            "discussion_list_title": "相關討論",
+            "no_results": "沒有找到相關的討論"
         }
     }
 }
