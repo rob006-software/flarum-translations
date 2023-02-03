@@ -2,87 +2,87 @@
     "fof-best-answer": {
         "admin": {
             "permissions": {
-                "best_answer": "",
-                "best_answer_not_own_discussion": ""
+                "best_answer": "Selecione a Melhor Resposta (própria Discussão)",
+                "best_answer_not_own_discussion": "Selecione a Melhor Resposta (não é a própria Discussão)"
             },
             "settings": {
                 "label": {
-                    "general": "",
-                    "reminders": "",
-                    "advanced": "",
-                    "reminders_notice": ""
+                    "general": "Geral",
+                    "reminders": "Lembretes",
+                    "advanced": "Avançado",
+                    "reminders_notice": "Para que os lembretes funcionem, você deve ter configurado o agendador do Flarum corretamente."
                 },
-                "allow_select_own_post": "",
-                "allow_select_own_post_help": "",
-                "enable_all_tags_button": "",
-                "enable_all_tags_reminder_button": "",
-                "select_best_answer_reminder_days": "",
-                "select_best_answer_reminder_days_help": "",
-                "schedule_on_one_server": "",
-                "schedule_on_one_server_help": "",
-                "schedule_stop_overnight": "",
-                "schedule_stop_overnight_help": "",
-                "schedule_log_output": "",
-                "show_filter_label": "",
-                "show_filter_help": "",
-                "use_alt_ui": "",
-                "use_alt_ui_help": "",
-                "documentation": "",
-                "introduction": ""
+                "allow_select_own_post": "Selecione a própria postagem",
+                "allow_select_own_post_help": "Permita que o autor selecione uma de suas próprias postagens na discussão como a melhor resposta",
+                "enable_all_tags_button": "Ativar todas as tags para Melhores Respostas",
+                "enable_all_tags_reminder_button": "Habilitar todas as tags para lembretes de Melhor Resposta",
+                "select_best_answer_reminder_days": "Frequência do lembrete",
+                "select_best_answer_reminder_days_help": "Envie um lembrete após a quantidade configurável de dias para o autor para selecionar uma melhor resposta, 0 = desativar lembretes.",
+                "schedule_on_one_server": "Use a diretiva 'onOneServer()' para o agendador de tarefas",
+                "schedule_on_one_server_help": "Requer Redis/Memcache",
+                "schedule_stop_overnight": "Impedir que notificações de lembrete sejam enviadas durante horários não sociais",
+                "schedule_stop_overnight_help": "21:00 - 08:00 horário do servidor",
+                "schedule_log_output": "Anexar resultado do agendador ao armazenamento de log",
+                "show_filter_label": "Exibir menu suspenso do filtro de Melhor Resposta",
+                "show_filter_help": "Para tags com as Melhores Respostas ativadas, escolha exibir a opção de filtro resolvido/não resolvido na lista de discussão",
+                "use_alt_ui": "Layout alternativo",
+                "use_alt_ui_help": "Controle de Melhor Resposta no rodapé da postagem",
+                "documentation": "Documentação",
+                "introduction": "Habilite quais tags devem suportar as Melhores Respostas em <code><a>flarum/tags</a></code> e, opcionalmente, quais tags devem suportar lembretes. Quando uma tag estiver habilitada como Melhor Resposta, atribua permissões a cada grupo de usuários que pode definir respostas (própria discussão, qualquer discussão). As permissões podem ser atribuídas globalmente (para qualquer tag habilitada como Melhor Resposta) ou por tag.\n"
             },
             "edit_tag": {
-                "qna_label": "",
-                "reminders": ""
+                "qna_label": "Permita que as Melhores Respostas sejam definidas nesta tag",
+                "reminders": "Envie lembretes para definir uma Melhor Resposta para discussões nesta tag"
             }
         },
         "forum": {
-            "answered_badge": "",
-            "this_best_answer": "",
-            "remove_best_answer": "",
-            "best_answer_button": "",
-            "best_answer_label": "",
+            "answered_badge": "Respondido",
+            "this_best_answer": "Selecione a Melhor Resposta",
+            "remove_best_answer": "Desmarcar a Melhor Resposta",
+            "best_answer_button": "Melhor Resposta",
+            "best_answer_label": "definido por <a>{username}</a> {time_set}",
             "errors": {
-                "mismatch": ""
+                "mismatch": "A postagem selecionada não existe nesta discussão."
             },
             "notification": {
-                "best_answer_in_discussion": "",
-                "content": "",
-                "awarded": "",
+                "best_answer_in_discussion": "{username} definiu a melhor resposta nesta discussão",
+                "content": "Por favor, selecione uma Melhor Resposta se sua pergunta foi respondida",
+                "awarded": "Sua postagem foi definida como a Melhor Resposta por {username}",
                 "preferences": {
-                    "awarded_best_answer": "",
-                    "best_answer_in_discussion": "",
-                    "select_best_answer": ""
+                    "awarded_best_answer": "Alguém definiu minha postagem como a Melhor Resposta",
+                    "best_answer_in_discussion": "A melhor resposta é definida em uma discussão da qual participei",
+                    "select_best_answer": "Um lembrete automático para selecionar a melhor resposta em uma discussão que iniciei"
                 }
             },
             "index": {
-                "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "ask_question": "Faça uma Pergunta",
+                "cannot_ask_question": "Não pode Perguntar",
+                "solved_link": "Discussões Resolvidas",
+                "unsolved_link": "Discussões não Resolvidas"
             },
             "filter": {
-                "all_label": "",
-                "solved_label": "",
-                "unsolved_label": "",
-                "accessible_label": ""
+                "all_label": "Todas as Perguntas",
+                "solved_label": "Questões Resolvidas",
+                "unsolved_label": "Questões não Resolvidas",
+                "accessible_label": "Seleção Resolvidas/não Resolvidas"
             },
             "composer": {
-                "titlePlaceholder": ""
+                "titlePlaceholder": "Título da Questão"
             },
             "user": {
-                "best-answer-count": ""
+                "best-answer-count": "{count, plural, one { {count} melhor resposta} other {{count} melhores respostas}}"
             }
         },
         "email": {
             "subject": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "Sua postagem foi definida como a melhor resposta por {display_name}",
+                "ba-set": "A melhor resposta foi definida por {display_name}",
+                "select": "Você conseguiu obter uma resposta para sua pergunta?"
             },
             "body": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "Olá, {recipient_display_name},\n\nÓtimo trabalho, {actor_display_name} acabou de definir sua postagem como a melhor resposta na discussão: {discussion_title}. Obrigado por contribuir.\n\nVeja aqui: {discussion_url}\n",
+                "ba-set": "Olá, {recipient_display_name},\n\n{actor_display_name} acabou de definir a melhor resposta na discussão: {discussion_title}, da qual você participou.\n\nConfira: {discussion_url}\n",
+                "select": "Olá, {recipient_display_name},\n\nApenas checando; você deve ter respostas para sua pergunta: {discussion_title}.\nEspero que uma deles tenha ajudado você a resolver seu problema.\n\nNesse caso, seria muito útil para os futuros membros se você pudesse definir a melhor resposta para sua pergunta. Isso ajudará as pessoas com o mesmo problema a encontrar a resposta de que precisam e também é um grande obrigado aos membros que o ajudaram. Eles doam seu tempo voluntariamente, então é bom que saibam que estão indo bem.\n\nVisite a discussão aqui: {discussion_url} e selecione a postagem mais apropriada como a melhor resposta.\n\nObrigado!\n"
             }
         }
     }
