@@ -2,24 +2,24 @@
     "fof-forum-statistics-widget": {
         "forum": {
             "navbar": {
-                "widget_title": "",
-                "discussions_count": "",
-                "posts_count": "",
-                "users_count": "",
-                "latest_member": ""
+                "widget_title": "Estatísticas do Fórum",
+                "discussions_count": "Discussões: {discussionsCount}",
+                "posts_count": "Posts: {postsCount}",
+                "users_count": "Membros: {usersCount}",
+                "latest_member": "Último Membro: "
             }
         },
         "admin": {
             "settings": {
-                "widget_ignore_private_discussions_label": "",
-                "widget_order_label": "",
-                "widget_helper_text": ""
+                "widget_ignore_private_discussions_label": "Ignorar Discussões Privadas",
+                "widget_order_label": "Ordem do Widget",
+                "widget_helper_text": "Edite esta configuração para ajustar a posição deste widget na seção de navegação lateral do seu fórum Flarum. Quanto maior o número, mais próximo do topo estará o widget na lista de itens do sidenav (esse valor pode ser positivo ou negativo)."
             },
             "permissions": {
-                "view_discussions_count_label": "",
-                "view_posts_count_label": "",
-                "view_users_count_label": "",
-                "view_lastest_member_label": ""
+                "view_discussions_count_label": "Exibir a contagem de discussões no widget de estatísticas do fórum",
+                "view_posts_count_label": "Exibir a contagem de postagens no widget de estatísticas do fórum",
+                "view_users_count_label": "Exibir a contagem de usuários no widget de estatísticas do fórum",
+                "view_lastest_member_label": "Exibir o último membro no widget de estatísticas do fórum"
             }
         }
     }
