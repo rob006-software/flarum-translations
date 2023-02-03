@@ -2,27 +2,27 @@
     "fof-socialprofile": {
         "admin": {
             "permissions": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "Ver perfil social",
+                "editOwn": "Editar o próprio perfil social",
+                "editAny": "Edite qualquer perfil social"
             },
             "settings": {
-                "allow_external_favicons_label": ""
+                "allow_external_favicons_label": "Permitir ícones de sites externos (usa a API favicon do DuckDuckGo)"
             }
         },
         "forum": {
             "edit": {
-                "edit": "",
-                "add": "",
-                "headtitle": "",
-                "title": "",
-                "url": "",
-                "submit": "",
-                "delete": "",
-                "deletetitle": "",
-                "save_disabled_fetching_favicons": "",
-                "favicon": "",
-                "grey_favicon": ""
+                "edit": "Edite seus botões de mídia social",
+                "add": "Adicione botões às suas redes sociais",
+                "headtitle": "Botões de Edição",
+                "title": "Título",
+                "url": "URL",
+                "submit": "Salvar",
+                "delete": "Apagar",
+                "deletetitle": "Botão Apagar",
+                "save_disabled_fetching_favicons": "Um ou mais ícones estão sendo buscados. Por favor aguarde.",
+                "favicon": "Favicon",
+                "grey_favicon": "Favicon Cinza"
             }
         }
     }
