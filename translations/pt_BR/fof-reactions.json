@@ -1,58 +1,58 @@
 {
     "fof-reactions": {
         "forum": {
-            "disabled-reaction": "",
-            "warning": "",
-            "notification": "",
+            "disabled-reaction": "Você não pode usar esta reação neste momento, por favor atualize a página",
+            "warning": "Sua reação foi convertida",
+            "notification": "{username} reagiu com {reaction} ao seu post",
             "settings": {
-                "notify_post_reacted_label": ""
+                "notify_post_reacted_label": "Alguém reagiu a um dos meus posts"
             },
-            "reacting-own-post": "",
+            "reacting-own-post": "Você não pode reagir ao seu próprio post",
             "modal": {
-                "title": ""
+                "title": "Reações"
             },
-            "mod_item": "",
-            "react_button_label": ""
+            "mod_item": "Ver Reações",
+            "react_button_label": "Reagir"
         },
         "admin": {
             "permissions": {
-                "react_posts_label": "",
-                "see_reactions_label": ""
+                "react_posts_label": "Reagir a posts",
+                "see_reactions_label": "Veja quem reagiu a posts"
             },
             "page": {
                 "reactions": {
-                    "title": "",
-                    "reactions": "",
-                    "Helptext": "",
+                    "title": "Reações Customizáveis",
+                    "reactions": "Reações Atuais",
+                    "Helptext": "Entre o nome (identificador) do emoji ou ícone font-awesome e selecione qual tipo você deseja.",
                     "help": {
-                        "display": "",
-                        "identifier": ""
+                        "display": "Exibição",
+                        "identifier": "Identificador"
                     }
                 },
                 "convert": {
-                    "help": "",
-                    "button": "",
-                    "converting": "",
-                    "converted": ""
+                    "help": "Se você acabou de atualizar sua extensão, suas reações terão que ser convertidas. Se você acabou de instalar esta extensão, pode ignorar esta mensagem.",
+                    "button": "Converter reações antigas",
+                    "converting": "Suas reações estão sendo convertidas. Atualize seu site após alguns minutos para ver o processo concluído. (O tempo de conversão pode demorar um pouco, dependendo do número total de reações)",
+                    "converted": "Todas as {number} curtidas foram convertidas com sucesso"
                 },
                 "settings": {
-                    "react_own_posts_help": "",
-                    "react_own_posts_label": "",
-                    "save_settings": "",
+                    "react_own_posts_help": "Quando ativado, sujeito à permissão, os usuários podem reagir às suas próprias postagens no fórum. Para evitar que os usuários reajam em suas próprias postagens, desative essa configuração.",
+                    "react_own_posts_label": "Usuários podem reagir às suas próprias postagens",
+                    "save_settings": "Salvar Alterações",
                     "integrations": {
-                        "legend": "",
-                        "warning": "",
+                        "legend": "Integrações",
+                        "warning": "A mesma reação <strong>não</strong> pode ser convertida em um like <strong>e</strong> em um voto positivo",
                         "gamification": {
-                            "legend": "",
-                            "upvoteLabel": "",
-                            "upvoteHelptext": "",
-                            "downvoteLabel": "",
-                            "downvoteHelptext": ""
+                            "legend": "Gameficação",
+                            "upvoteLabel": "Converter reações em votos positivos",
+                            "upvoteHelptext": "Entre o identificador da reação que você gostaria de converter automaticamente em um voto positivo",
+                            "downvoteLabel": "Converter reações em votos negativos",
+                            "downvoteHelptext": "Entre o identificador da reação que você gostaria de converter automaticamente em um voto negativo"
                         },
                         "likes": {
-                            "legend": "",
-                            "Label": "",
-                            "Helptext": ""
+                            "legend": "Curtidas",
+                            "Label": "Converter reações em curtidas",
+                            "Helptext": "Entre o identificador da reação que você gostaria de converter automaticamente em uma curtida"
                         }
                     }
                 }
