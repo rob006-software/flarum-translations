@@ -1,0 +1,27 @@
+{
+    "nearata-related-discussions": {
+        "admin": {
+            "settings": {
+                "allow_guests": "Allow Guests",
+                "generator": "Generator",
+                "generator_options": {
+                    "random": "Random",
+                    "title": "By Title"
+                },
+                "max_discussions": "Max Discussions",
+                "max_discussions_help": "Default is <strong>5</strong>.",
+                "position": "Position",
+                "position_options": {
+                    "first_post": "After First Post",
+                    "last_post": "After Last Post"
+                },
+                "cache": "Cache",
+                "cache_help": "The format has to be <strong>0-31d0-23h0-59m</strong>"
+            }
+        },
+        "forum": {
+            "discussion_list_title": "Related Discussions",
+            "no_results": "No related discussions found"
+        }
+    }
+}
