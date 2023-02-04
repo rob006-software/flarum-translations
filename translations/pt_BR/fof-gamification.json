@@ -31,7 +31,7 @@
                     "points": "{count, plural, one { {count} ponto} other {{count} pontos}}"
                 },
                 "rank": "{rank}",
-                "votes_link": ""
+                "votes_link": "Votos"
             },
             "modal": {
                 "downvotes_label": "Desaprovadores:",
@@ -89,7 +89,7 @@
                     "icon_help": "Insira qualquer ícone Font-Awesome com o sufixo -up e -down. Exemplos: seta, polegar, chevron",
                     "upvotes_only": "Permitir apenas votos positivos",
                     "first_post_only": "Permitir apenas votos para cima/para baixo na primeira postagem de uma discussão",
-                    "allow_self_votes": ""
+                    "allow_self_votes": "Os usuários podem votar em suas próprias postagens"
                 },
                 "save_settings": "Salvar configurações",
                 "convert": {
@@ -110,15 +110,15 @@
                     }
                 },
                 "groups": {
-                    "title": "",
-                    "help": "",
+                    "title": "Grupos atribuídos automaticamente",
+                    "help": "Os grupos selecionados serão automaticamente adicionados ou removidos conforme necessário quando o número de pontos de um usuário mudar. Se você fez alterações na configuração, execute o comando <code>php flarum fof:gamification:assign-groups</code> para atualizar os usuários existentes. Se você deseja excluir uma regra e remover todos os usuários do grupo, defina os valores mínimo e máximo para uma string vazia, salve as configurações e execute o comando de linha de comando. Por fim, você pode excluir a regra totalmente das configurações.\n",
                     "column": {
-                        "group": "",
-                        "minPoints": "",
-                        "maxPoints": ""
+                        "group": "Grupo",
+                        "minPoints": "Pontos mínimos (inclusive)",
+                        "maxPoints": "Máximo de pontos (inclusive)"
                     },
-                    "add": "",
-                    "delete": ""
+                    "add": "Adicionar nova regra",
+                    "delete": "Excluir regra"
                 }
             }
         },
