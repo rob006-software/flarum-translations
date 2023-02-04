@@ -9,21 +9,21 @@
         },
         "emails": {
             "post_warned": {
-                "subject": "{warner_display_name} te avisou com {strikes, plural, one {# strike} outro {#strikes}} em {discussion_title}",
-                "body": "Hey {warnee_display_name}!\n\n{warner_display_name} te avisou com {strikes, plural, one {# strike} outros {# strikes}} no {discussion_title}\n\nFoi dado o seguinte motivo:\n\n---\n\n{public_comment}\n"
+                "subject": "{warner_display_name} te avisou com {strikes, plural, one {# strike} other {#strikes}} em {discussion_title}",
+                "body": "Hey {warnee_display_name}!\n\n{warner_display_name} te avisou com {strikes, plural, one {# strike} other {# strikes}} no {discussion_title}\n\nFoi dado o seguinte motivo:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "{warner_display_name} te avisou com {strikes, plural, one {# strike} outros {# strikes}}",
-                "body": "Hey {warnee_display_name}!\n\n{warner_display_name} te avisou com {strikes, plural, one {# strike} outros {# strikes}}\n\nFoi dado o seguinte motivo:\n\n---\n\n{public_comment}\n"
+                "subject": "{warner_display_name} te avisou com {strikes, plural, one {# strike} other {# strikes}}",
+                "body": "Hey {warnee_display_name}!\n\n{warner_display_name} te avisou com {strikes, plural, one {# strike} other {# strikes}}\n\nFoi dado o seguinte motivo:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "{strikes, plural, one {Te avisavam com # strike by {mod_username}} outro {Te avisavam com # strikes por {mod_username}}}",
+                "warning_text": "{strikes, plural, one {Te avisavam com # strike by {mod_username}} other {Te avisavam com # strikes por {mod_username}}}",
                 "warning_no_strikes_text": "Te avisavam por {mod_username} (no strikes)"
             },
             "post": {
-                "warning": "{strikes, plural, one {Avisava com # strike por {mod_username}} outro {Avisava com # strikes por {mod_username}}}",
+                "warning": "{strikes, plural, one {Avisava com # strike por {mod_username}} other {Avisava com # strikes por {mod_username}}}",
                 "warning_no_strikes": "Avisava sem strikes por {mod_username}"
             },
             "post_controls": {
@@ -47,12 +47,12 @@
             "warning_list": {
                 "add_button": "Novo aviso",
                 "no_warnings": "Parece que não há avisos aqui.",
-                "warnings": "{strikes, plural, one {Moderator Warnings: # Strike Received} outro {Moderator Warnings: # Strikes Received}}",
+                "warnings": "{strikes, plural, one {Moderator Warnings: # Strike Received} other {Moderator Warnings: # Strikes Received}}",
                 "warnings_no_strikes": "Avisos do moderador: nenhum aviso recebido"
             },
             "warning_list_item": {
-                "list_item_heading": "{strikes, plural, one {<strong>#</strong> strike, {time}} outro {<strong>#</strong> strikes, {time}}}",
-                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> strike, {time} <strong>(removed)</strong>} outro {<strong>#</strong> strikes, {time} <strong>(removed)</strong>}}",
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> strike, {time}} other {<strong>#</strong> strikes, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> strike, {time} <strong>(removed)</strong>} other {<strong>#</strong> strikes, {time} <strong>(removed)</strong>}}",
                 "public_comment": "Aviso",
                 "private_comment": "Comentários visíveis do moderador",
                 "linked_post": "Postagem vinculada"
