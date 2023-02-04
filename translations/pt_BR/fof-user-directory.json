@@ -2,53 +2,53 @@
     "fof-user-directory": {
         "forum": {
             "header": {
-                "back_to_user_directory_tooltip": ""
+                "back_to_user_directory_tooltip": "Voltar ao Diretório de Usuários"
             },
             "search": {
-                "users_heading": "",
+                "users_heading": "Pesquise todos os usuários por \"{query}\"",
                 "field": {
-                    "placeholder": ""
+                    "placeholder": "Pesquisar todos os usuários"
                 },
                 "kinds": {
-                    "group": "",
-                    "text": ""
+                    "group": "Grupo",
+                    "text": "Texto livre"
                 }
             },
             "page": {
-                "nav": "",
-                "refresh_tooltip": "",
-                "load_more_button": "",
-                "empty_text": "",
-                "filter_button": "",
+                "nav": "Diretório de Usuários",
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "Não foi possível encontrar nenhum usuário que corresponda à sua pesquisa.",
+                "filter_button": "Filtrar Grupos",
                 "usercard": {
-                    "discussion-count": "",
-                    "post-count": ""
+                    "discussion-count": "{count, plural, one { {count} discussão} other {{count} discussões}}",
+                    "post-count": "{count, plural, one { {count} postagem} other {{count} postagens}}"
                 }
             }
         },
         "admin": {
             "permissions": {
-                "view_user_directory": ""
+                "view_user_directory": "Ver Diretório de Usuários"
             },
             "settings": {
-                "link": "",
-                "default-sort": "",
-                "use-small-cards": "",
-                "disable-global-search-source": ""
+                "link": "Adicionar link na página inicial para usuários autorizados de ver o diretório",
+                "default-sort": "Classificação Padrão",
+                "use-small-cards": "Use cartões de usuário pequenos",
+                "disable-global-search-source": "Não adicione o diretório de usuários ao campo de pesquisa global do Flarum"
             }
         },
         "lib": {
             "sort": {
-                "not_specified": "",
-                "default": "",
-                "username_az": "",
-                "username_za": "",
-                "newest": "",
-                "oldest": "",
-                "most_posts": "",
-                "least_posts": "",
-                "most_discussions": "",
-                "least_discussions": ""
+                "not_specified": "Usar padrão Flarum",
+                "default": "Padrão",
+                "username_az": "Usuário (a-z)",
+                "username_za": "Usuário (z-a)",
+                "newest": "Mais Recente",
+                "oldest": "Mais Antigo",
+                "most_posts": "Mais Postagens",
+                "least_posts": "Menos Postagens",
+                "most_discussions": "Mais Discussões",
+                "least_discussions": "Menos Discussões"
             }
         }
     }
