@@ -28,7 +28,7 @@
             },
             "user": {
                 "card": {
-                    "points": "{count, plural, one { {count} point} outro {{count} points}}"
+                    "points": "{count, plural, one { {count} ponto} other {{count} pontos}}"
                 },
                 "rank": "{rank}",
                 "votes_link": ""
@@ -61,7 +61,7 @@
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "CDK2020, Ralkage, AngelAvila",
+                        "placeholder": "admin, user1, user2",
                         "title": "Usuários ignorados",
                         "help": "Esses usuários não serão mostrados na página de classificação. Os nomes de usuário devem ser separados por uma vírgula seguida de um espaço."
                     },
