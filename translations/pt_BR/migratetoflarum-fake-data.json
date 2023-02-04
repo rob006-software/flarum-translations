@@ -2,7 +2,7 @@
     "migratetoflarum-fake-data": {
         "lib": {
             "generator": {
-                "bulk-mode": "",
+                "bulk-mode": "Modo em massa",
                 "bulk-mode-description": "Gera um único valor aleatório e o reutiliza para cada entrada",
                 "user-count": "Número de usuários a serem criados",
                 "discussion-count": "Número de dicussões e serem criadas",
@@ -10,11 +10,11 @@
                 "discussion-tags-none": "Nenhum",
                 "discussion-tags-random": "Aleatório",
                 "post-count": "Número de posts a serem ciados",
-                "date": "",
+                "date": "Fonte de Dados",
                 "date-start-placeholder": "Data de início (padrão: agora)",
                 "date-interval-placeholder": "Intervalo (padrão: 1 segundo)",
                 "send": "Gerar dados",
-                "reset": "Geração completa! Clique para redefinir",
+                "reset": "Geração completa! Clique para redefinir o formulário",
                 "refresh": "Fechar e atualizar a página"
             }
         },
