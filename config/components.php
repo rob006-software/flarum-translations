@@ -1152,7 +1152,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/expired-posts/0.4/resources/locale/en.yml',
 	],
 	'ziiven-daily-check-in' => [
-		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-daily-check-in/v0.3.6/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-daily-check-in/v0.3.7/locale/en.yml',
 	],
 	'ziiven-money-leaderboard' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-money-leaderboard/v0.1.3/locale/en.yml',
