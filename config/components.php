@@ -986,6 +986,9 @@ return [
 	'miniflar-top-like-givers-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/miniflar/top-like-givers-widget/0.1.0/resources/locale/en.yml',
 	],
+	'mrthat1996-oauth' => [
+		'tag' => 'https://raw.githubusercontent.com/mrthat1996/fof-oauth/1.3.0/resources/locale/en.yml',
+	],
 	'nearata-auth-minecraft' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-auth-minecraft/v3.0.1/locale/en.yml',
 	],
