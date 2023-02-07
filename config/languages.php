@@ -76,7 +76,10 @@ return [
 		// translations included in extension
 		'!v17development-seo',
 	]),
-	'pl' => getComponents(),
+	'pl' => getComponents([
+		// translations included in extension
+		'!rob006-last-post-avatar',
+	]),
 	'pt' => getComponents(),
 	'pt_BR' => getComponents(),
 	'ro' => getComponents(),
