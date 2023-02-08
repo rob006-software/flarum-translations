@@ -1131,7 +1131,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/vlssu/flarum-cravatar/v0.1.1/resources/locale/en.yml',
 	],
 	'webbinaro-affiliator' => [
-		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-affiliator/0.0.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-affiliator/0.0.5/locale/en.yml',
 	],
 	'webbinaro-age-check' => [
 		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-age-check/0.0.7/locale/en.yml',
