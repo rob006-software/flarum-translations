@@ -3,13 +3,13 @@
         "admin": {
             "settings": {
                 "mode": {
-                    "label": "",
-                    "help": "",
+                    "label": "最後回覆圖像顯示模式",
+                    "help": "選擇討論列表中顯示回覆帖子作者的頭像相關配置。 查看 README 以獲得相關資訊。",
                     "options": {
-                        "all-replies": "",
-                        "non-op-replies": "",
-                        "always": "",
-                        "replace-main": ""
+                        "all-replies": "只顯示回覆者",
+                        "non-op-replies": "顯示回覆者(主題作者除外)",
+                        "always": "顯示所有圖像",
+                        "replace-main": "取代主題作者圖像"
                     }
                 }
             }
