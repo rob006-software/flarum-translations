@@ -3,13 +3,13 @@
         "admin": {
             "settings": {
                 "mode": {
-                    "label": "",
-                    "help": "",
+                    "label": "Mode d'affichage de l'avatar du dernier message",
+                    "help": "Sélectionnez quand et où l'avatar de l'auteur du dernier message doit être affiché sur la liste des discussions. Consultez le fichier README pour voir la visualisation de chaque option.",
                     "options": {
-                        "all-replies": "",
-                        "non-op-replies": "",
-                        "always": "",
-                        "replace-main": ""
+                        "all-replies": "Réponses uniquement",
+                        "non-op-replies": "Réponses uniquement sauf les messages de l'auteur de la discussion",
+                        "always": "Toujours",
+                        "replace-main": "Remplacer l'avatar de la discussion principale"
                     }
                 }
             }
