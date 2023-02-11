@@ -1,0 +1,74 @@
+{
+    "fof-terms": {
+        "admin": {
+            "settings": {
+                "title": "Terms Settings",
+                "field": {
+                    "signup-legal-text": "Additional text on signup form",
+                    "hide-updated-at": "Do not show the date of update of the terms when an update is available",
+                    "date-format": "Date format",
+                    "date-format-help": "You can use any valid <a>Day.js</a> format. Leave field empty for default."
+                }
+            },
+            "titles": {
+                "policies": "Policies"
+            },
+            "buttons": {
+                "new-policy": "New Policy",
+                "edit-policy": "Edit Policy",
+                "add-policy": "Add Policy",
+                "save-policy": "Save Policy",
+                "delete-policy": "Delete Policy",
+                "set-to-now": "Set to now"
+            },
+            "messages": {
+                "delete-policy-confirmation": "This will permanently delete the policy {name} and the associated accept dates from the database. Please make sure you made a backup of those dates if you need them for legal reasons. Are you sure you want to delete this policy ?\n"
+            },
+            "policies": {
+                "name": "Name",
+                "name-help": "This name will be shown beside the checkbox and as the title of the update modal.",
+                "url": "URL",
+                "url-help": "The URL to the page where you can read the terms. Will open in a new tab when clicked.",
+                "update-message": "Update Message",
+                "update-message-help": "A message to show to existing users who have not yet accepted the latest terms.",
+                "terms-updated-at": "Updated at",
+                "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
+                "terms-updated-at-help": "The date of the last terms update. Setting this value will require all users who accepted prior to that date to accept again. Must be in the past (otherwise users would never be able to accept after the date and get past the modal).\n",
+                "export-url": "Export URL",
+                "export-url-help": "Any user with permission \"Export all policies data\" can access those URLs to download the list of users who accepted this policy. You can find more details about the available options on the <a>extension wiki</a>.\n"
+            },
+            "permissions": {
+                "see-user-policies-state": "See the user policies state",
+                "postpone-policies-accept": "Can postpone accepting the new terms",
+                "export-policies": "Export all users and policies data"
+            }
+        },
+        "forum": {
+            "signup": {
+                "i-accept": "Συμφωνώ με τους <a>{policy}</a>",
+                "must-accept": "Πρέπει να συμφωνίσετε με τους {policy}."
+            },
+            "accept-modal": {
+                "title": "Ενημέρωση όρων",
+                "updated-at": "Οι όροι ενημερώθηκαν στις {date}",
+                "updated-recently": "Οι όροι ενημερώθηκαν από την τελευταία σας επίσκεψη",
+                "i-accept": "Συμφωνώ με τους νέους <a>{policy}</a>",
+                "accept": "Υποβολή",
+                "close": "Τώρα μπορείτε να κλείσετε αυτό το παράθυρο"
+            },
+            "state-modal": {
+                "title": "Κατάσταση αποδοχής των όρων του ιστότοπου μας για τον χρήστη {username}",
+                "accepted-at": "Συμφωνήσατε στις {date}",
+                "not-accepted": "Δεν συμφωνήσατε"
+            },
+            "update-alert": {
+                "must-accept-message": "Έχουμε περιορίσει προσωρινά την πρόσβαση στον λογαριασμό σας μέχρι να ελέγξετε τους νέους όρους.",
+                "can-accept-message": "Πρόσφατα ενημερώσαμε τους όρους μας. Πρέπει να τους αποδεχτείτε για να συνεχίσετε να χρησιμοποιείτε αυτόν τον ιστότοπο.",
+                "review": "Κάντε κλικ εδώ για έλεγχο και αποδοχή των νέων όρων"
+            },
+            "user_controls": {
+                "state_button": "Κατάσταση αποδοχής όρων"
+            }
+        }
+    }
+}
