@@ -171,7 +171,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'vMajor.Minor.Patch',
 		],
-		'maintainers' => ['Hiobi', 'qiaeru'],
+		'maintainers' => ['qiaeru'],
 	],
 	'he' => [
 		'type' => 'language',
