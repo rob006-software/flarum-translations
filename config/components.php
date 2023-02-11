@@ -666,7 +666,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/1.1.1/resources/locale/en.yml',
 	],
 	'ganuonglachanh-sonic' => [
-		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.8/resources/locale/en.yml',
 	],
 	'glowingblue-localizd' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/glowingblue-localizd.yml',
