@@ -1,0 +1,50 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Δεν ακολουθώ",
+                "unignore_button": "Ξεμπλοκάρισμα"
+            },
+            "following": {
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
+            },
+            "index": {
+                "following_link": "=> flarum-subscriptions.ref.following"
+            },
+            "notifications": {
+                "new_post_text": "{username} έκανε μία δημοσίευση"
+            },
+            "settings": {
+                "follow_after_reply_label": "Να ακολουθώ αυτόματα τις συζητήσεις στις οποίες απαντάω",
+                "notify_new_post_label": "Κάποιος έκανε μία δημοσίευση σε μία συζήτηση που ακολουθώ"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Να ειδοποιούμαι για όλες τις απαντήσεις.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "Να μην ειδοποιούμαι ποτέ. Απόκρυψη από την λίστα συζητήσεων.",
+                "not_following_button": "Δεν ακολουθώ",
+                "not_following_text": "Να ειδοποιούμαι μόνο όταν κάποιος με κάνει @tag.",
+                "notify_alert_tooltip": "Λάβετε μια ειδοποίηση στο forum όταν υπάρχουν νέες δημοσιεύσεις",
+                "notify_email_tooltip": "Λάβετε ένα e-mail όταν υπάρχουν νέες δημοσιεύσεις"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "[Νέα δημοσίευση] {title}",
+                "body": "Γειά σας {recipient_display_name}!\n{poster_display_name} έκανε μία δημοσίευση σε μία συζήτηση {title} την οποία ακολουθείτε.\nΓια να δείτε \nΓια να δείτε τη νέα δραστηριότητα, ρίξτε μια ματιά στον ακόλουθο σύνδεσμο:\n{url}\n---\n{content}\n---\nΔεν θα λαμβάνετε πλέον ειδοποιήσεις σχετικά με αυτήν τη συζήτηση έως ότου ενημερωθείτε.\n"
+            }
+        },
+        "ref": {
+            "follow": "Ακουλουθήστε",
+            "following": "Ακουλουθώ",
+            "ignoring": "Αγνοώ"
+        }
+    }
+}
