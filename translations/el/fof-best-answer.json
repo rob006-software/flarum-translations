@@ -13,12 +13,27 @@
                     "reminders_notice": "Για να λειτουργούν σωστά οι υπενθυμίσεις, πρέπει να έχετε ρυθμίσει σωστά τον scheduler Flarum."
                 },
                 "allow_select_own_post": "Επιτρέψτε στους χρήστες να επιλέγουν τις δικές τους δημοσιεύσεις",
+                "allow_select_own_post_help": "",
+                "enable_all_tags_button": "",
+                "enable_all_tags_reminder_button": "",
                 "select_best_answer_reminder_days": "Υπενθυμίστε στους χρήστες να επιλέξουν την καλύτερη απάντηση μετά από X ημέρες",
+                "select_best_answer_reminder_days_help": "",
                 "schedule_on_one_server": "Χρησιμοποιήστε την οδηγία 'onOneServer()' για το χρονοδιάγραμμα εργασιών (απαιτείται Redis/Memcache)",
+                "schedule_on_one_server_help": "",
                 "schedule_stop_overnight": "Αποτρέψτε την εκτέλεση του χρονοδιαγράμματος υπενθυμίσεων κατά τη διάρκεια κοινωνικών ωρών (9pm - 8am server time)",
+                "schedule_stop_overnight_help": "",
                 "schedule_log_output": "Προσάρτηση εξόδου του scheduler στο χώρο αποθήκευσης των logs",
-                "remind_tag_ids": "Για να περιορίσετε τις υπενθυμίσεις σε συγκεκριμένες κατηγορίες, εισαγάγετε τα αναγνωριστικά κατηγοριών εδώ (διαχωρισμένα με κόμματα)",
-                "use_alt_ui": "Χρησιμοποιήστε εναλλακτική διάταξη (κουμπιά καλύτερων απαντήσεων στο υποσέλιδο)"
+                "show_filter_label": "",
+                "show_filter_help": "",
+                "use_alt_ui": "Χρησιμοποιήστε εναλλακτική διάταξη (κουμπιά καλύτερων απαντήσεων στο υποσέλιδο)",
+                "use_alt_ui_help": "",
+                "documentation": "",
+                "introduction": "",
+                "remind_tag_ids": "Για να περιορίσετε τις υπενθυμίσεις σε συγκεκριμένες κατηγορίες, εισαγάγετε τα αναγνωριστικά κατηγοριών εδώ (διαχωρισμένα με κόμματα)"
+            },
+            "edit_tag": {
+                "qna_label": "",
+                "reminders": ""
             }
         },
         "forum": {
@@ -36,8 +51,27 @@
                 "awarded": "Η απάντησή σας επιλέχθηκε ως η καλύτερη από {username}",
                 "preferences": {
                     "awarded_best_answer": "Κάποιος επέλεξε την ανάντησή μου ως την καλύτερη",
-                    "best_answer_in_discussion": "Η απάντησή μου επιλέχθηκε ως η καλύτερη σε μια συζήτηση στην οποία συμμετείχα"
+                    "best_answer_in_discussion": "Η απάντησή μου επιλέχθηκε ως η καλύτερη σε μια συζήτηση στην οποία συμμετείχα",
+                    "select_best_answer": ""
                 }
+            },
+            "index": {
+                "ask_question": "",
+                "cannot_ask_question": "",
+                "solved_link": "",
+                "unsolved_link": ""
+            },
+            "filter": {
+                "all_label": "",
+                "solved_label": "",
+                "unsolved_label": "",
+                "accessible_label": ""
+            },
+            "composer": {
+                "titlePlaceholder": ""
+            },
+            "user": {
+                "best-answer-count": ""
             }
         },
         "email": {

@@ -7,7 +7,10 @@
             "settings": {
                 "max_label": "Μέγιστο αριθμό χαρακτήρων του nickname",
                 "min_label": "Ελάχιστο αριθμό χαρακτήρων του nickname",
+                "random_username_label": "",
+                "random_username_help": "",
                 "regex_label": "Κανονική έκφραση για επικύρωση",
+                "set_on_registration_label": "",
                 "unique_label": "Απαιτούνται μοναδικό nickname?"
             },
             "wrong_driver": "Πρέπει να επιλέξεις \"nickname\" ως πρόγραμμα οδήγησης για την εμφάνιση ονομάτων στην κατηγορία <a><strong>Βασικές ρυθμίσεις</strong></a> ώστε αυτό το πρόσθετο να λειτουργήσει."
@@ -26,10 +29,14 @@
             },
             "settings": {
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": ""
             }
         },
         "ref": {
-            "change_nickname": "Αλλαγή Nickname"
+            "change_nickname": "Αλλαγή Nickname",
+            "nickname": ""
         }
     }
 }

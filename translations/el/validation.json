@@ -19,6 +19,7 @@
         "boolean": "Το :attribute πρέπει να είναι true ή false.",
         "confirmed": "Η επιβεβαίωση του :attribute διαφέρει.",
         "date": "Το :attribute δεν είναι μία έγκυρη ημερομηνία.",
+        "date_equals": "",
         "date_format": "Το :attribute δεν ταιριάζει με τη μορφή :other.",
         "different": "Το :attribute και :other πρέπει να διαφέρουν.",
         "digits": "Το :attribute πρέπει να είναι ψηφία όπως: :digits.",
@@ -26,9 +27,24 @@
         "dimensions": "Το :attribute έχει λάθος διαστάσεις εικόνας.",
         "distinct": "Το πεδίο :attribute έχει διπλή τιμή.",
         "email": "Το πεδίο :attribute πρέπει να είναι μία έγκυρη διεύθυνση e-mail.",
+        "ends_with": "",
         "exists": "Το επιλεγμένο :attribute δεν είναι έγκυρο.",
         "file": "Το :attribute πρέπει να είναι ένα αρχείο.",
+        "file_too_large": "",
+        "file_upload_failed": "",
         "filled": "Το :attribute πρέπει να περιέχει μία τιμή.",
+        "gt": {
+            "numeric": "",
+            "file": "",
+            "string": "",
+            "array": ""
+        },
+        "gte": {
+            "numeric": "",
+            "file": "",
+            "string": "",
+            "array": ""
+        },
         "image": "Το :attribute πρέπει να είναι μία εικόνα.",
         "in": "Το επιλεγμένο :attribute δεν είναι έκγυρο.",
         "in_array": "Το πεδίο :attribute δεν υπάρχει στο :other.",
@@ -37,6 +53,18 @@
         "ipv4": "Το :attribute πρέπει να είναι μία έγκυρη IPv4 διεύθυνση.",
         "ipv6": "Το :attribute πρέπει να είναι μία έγκυρη IPv6 διεύθυνση.",
         "json": "Το :attribute πρέπει να είναι ένα έκυρο JSON string.",
+        "lt": {
+            "numeric": "",
+            "file": "",
+            "string": "",
+            "array": ""
+        },
+        "lte": {
+            "numeric": "",
+            "file": "",
+            "string": "",
+            "array": ""
+        },
         "max": {
             "numeric": "Το :attribute δεν μπορεί να είναι μεγαλύτερο από :max.",
             "file": "Το :attribute δεν μπορεί να είναι μεγαλύτερο από :max kilobytes.",
@@ -51,8 +79,11 @@
             "string": "Το :attribute πρέπει να είναι τουλάχιστον :min χαρακτήρων.",
             "array": "Το :attribute πρέπει να είναι τουλάχιστον :min στοιχείων."
         },
+        "multiple_of": "",
         "not_in": "Το επιλεγμένο :attribute δεν είναι έγκυρο.",
+        "not_regex": "",
         "numeric": "Το :attribute πρέπει να είναι αριθμός.",
+        "password": "",
         "present": "Το πεδίο :attribute πρέπει να υπάρχει.",
         "regex": "Η μορφή του :attribute δεν έιναι έκγυρη.",
         "required": "Το πεδίο :attribute απαιτείται.",
@@ -62,6 +93,9 @@
         "required_with_all": "Το πεδίο :attribute απαιτείται όταν υπάρχει η τιμή :values.",
         "required_without": "Το πεδίο :attribute απαιτείται όταν δεν υπάρχει η τιμή :values.",
         "required_without_all": "Το πεδίο :attribute απαιτείται όταν καμία από τις τιμές :values δεν υπάρχουν.",
+        "prohibited": "",
+        "prohibited_if": "",
+        "prohibited_unless": "",
         "same": "Τα πεδία :attribute και :other πρέπει να ταιριάζουν.",
         "size": {
             "numeric": "Το :attribute πρέπει να είναι :size.",
@@ -69,11 +103,13 @@
             "string": "Το :attribute πρέπει να είναι :size χαρακτήρες.",
             "array": "Το :attribute πρέπει να περιέχει :size στοιχεία."
         },
+        "starts_with": "",
         "string": "Το :attribute πρέπει να είναι μία τιμή τύπου string.",
         "timezone": "Το :attribute πρέπει να είναι μία έγκυρη ζώνη.",
         "unique": "Το :attribute υπάρχει ήδη.",
         "uploaded": "Η μεταφόρτωση του :attribute απέτυχε .",
         "url": "Η μορφή του :attribute δεν έιναι έγκυρο.",
+        "uuid": "",
         "attributes": {
             "username": "username",
             "password": "κωδικός",

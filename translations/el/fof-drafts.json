@@ -15,6 +15,9 @@
         "console": {
             "scheduled_drafts_disabled": "Τα προγραμματισμένα πρόχειρα είναι απενεργοποιημένα στις ρυθμίσεις."
         },
+        "ref": {
+            "schedule_draft": ""
+        },
         "forum": {
             "composer": {
                 "title": "Αποθήκευση στα πρόχειρα",
@@ -26,8 +29,11 @@
             "dropdown": {
                 "empty_text": "Δεν έχετε αποθηκεύσει καμία δημοσίευση στα πρόχειρα",
                 "title": "Πρόχειρα",
+                "delete_all_button": "",
                 "delete_button": "Διαγραφή δημοσίευσης",
                 "schedule_button": "Προγραμματισμός δημοσίευσης",
+                "scheduled_icon_tooltip": "",
+                "scheduled_icon_tooltip_formatter": "",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "Είστε σίγουρος ότι θέλετε να διαγράψετε αυτή τη δημοσίευση από τα πρόχειρα;",
                 "delete_all_alert": "Είστε σίγουρος ότι θέλετε να διαγράψετε όλα τα πρόχειρα;"
@@ -38,8 +44,12 @@
                 "scheduled_text": "Προγραμματισμένο να δημοσιευτεί στις {datetime}.",
                 "scheduled_error": "Αδύνατον να δημοσιευτεί επειδή: {error}.",
                 "unschedule_button": "Ακύρωση πργραμματισμένης δημοσίευσης",
+                "unschedule_warning": "",
                 "reschedule_button": "Επαναπρογραμματισμός",
-                "schedule_button": "Προγραμματισμός"
+                "schedule_button": "Προγραμματισμός",
+                "schedule_time_preview": "",
+                "schedule_time_preview_formatter": "",
+                "schedule_time_preview_invalid": ""
             },
             "user": {
                 "settings": {

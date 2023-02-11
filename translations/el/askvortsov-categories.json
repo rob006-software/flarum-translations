@@ -15,6 +15,11 @@
                 "parent_remove_last_discussion": "Απόκρυψη των πιο πρόσφατων συζητήσεων για top-level ενότητες;",
                 "small_forum_optimized": "Βελτιστοποίηση για μικρά φόρουμ; Αυτό θα δώσει πιο ακριβείς μετρήσεις συζητήσεων / δημοσιεύσεων, αλλά θα επιβραδύνει δραματικά τα μεσαία και μεγάλα φόρουμ."
             },
+            "help": {
+                "child_bare_icon": "",
+                "full_page_desktop": "",
+                "small_forum_optimized": ""
+            },
             "headings": {
                 "nav": "Πλοήγηση",
                 "layout": "Διάταξη",
@@ -25,14 +30,15 @@
             "title": "Ρυθμίσεις ενοτήτων"
         },
         "forum": {
+            "all_categories": {
+                "meta_description_text": "",
+                "meta_title_text": ""
+            },
             "header": {
                 "back_to_categories_tooltip": "Πίσω στις ενότητες"
             },
             "index": {
                 "categories_link": "Ενότητες"
-            },
-            "meta": {
-                "categories_title": "Ενότητες"
             },
             "stat-widgets": {
                 "discussion_label": "Συζητήσεις",
@@ -40,7 +46,13 @@
             },
             "last_discussion_widget": {
                 "no_discussions": "Προς το παρόν δεν υπάρχουν συζητήσεις"
+            },
+            "meta": {
+                "categories_title": "Ενότητες"
             }
+        },
+        "ref": {
+            "categories": ""
         }
     }
 }

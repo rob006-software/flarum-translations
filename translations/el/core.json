@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Χρωματιστή κεφαλίδα",
                 "colors_heading": "Χρώματα",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "colors_text": "Διάλεξε δύο χρώματα για την εμφάνιση του forum σου. Το πρώτο θα χρησιμοποιηθεί σαν χρώμα επισήμανσης και το δεύτερο σαν χρώμα φόντου.",
                 "custom_footer_heading": "Προσαρμοσμένο υποσέλιδο (Footer)",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -21,8 +23,8 @@
                 "favicon_text": "Ανέβασε μια εικόνα που θα χρησημοποιηθεί σαν εικονίδιο του forum.",
                 "logo_heading": "Λογότυπο",
                 "logo_text": "Ανέβασε μια εικόνα που θα εμφανίζεται στην θέση του τίτλου.",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Εμφάνιση"
+                "title": "Εμφάνιση",
+                "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -35,20 +37,25 @@
                 "forum_title_heading": "Τίτλος του forum",
                 "home_page_heading": "Αρχική σελίδα",
                 "home_page_text": "Επίλεξε την σελίδα που θα βλέπουν οι χρήστες όταν επισκεφτούν το forum σου.",
-                "saved_message": "Οι αλλαγές αποθηκεύτηκαν.",
                 "show_language_selector_label": "Εμφάνιση του επιλογέα της γλώσσας",
                 "slug_driver_heading": "Πρόγραμμα οδήγησης Slug: {model}",
                 "slug_driver_text": "Επίλεξε ένα πρόγραμμα οδήγησης για τα Slugs αυτού του Model.",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "Βασικές ρυθμίσεις",
                 "welcome_banner_heading": "Banner καλωσορίσματος",
-                "welcome_banner_text": "Διαμόρφωσε το κείμενο που εμφανίζεται στο Banner στην σελίδα Όλα τα θέματα. Χρησιμοποιήσέ το για να καλωσορίσεις του επισκέπτες του forum σου."
+                "welcome_banner_text": "Διαμόρφωσε το κείμενο που εμφανίζεται στο Banner στην σελίδα Όλα τα θέματα. Χρησιμοποιήσέ το για να καλωσορίσεις του επισκέπτες του forum σου.",
+                "saved_message": "Οι αλλαγές αποθηκεύτηκαν.",
+                "submit_button": "=> core.ref.save_changes"
             },
             "dashboard": {
                 "clear_cache_button": "Διαγραφή Cache",
                 "description": "Το forum σου με μια ματιά.",
+                "io_error_message": "",
                 "title": "Πίνακας ελέγχου",
                 "tools_button": "Εργαλεία"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "Διαμόρφωσε την εμφάνιση του forum σου, προσθέτοντας τον δικό σου LESS/CSS κώδικα που θα προστεθεί στα <a>προκαθορισμένα styles</a> του Flarum.",
@@ -99,14 +106,15 @@
                 "send_test_mail_success": "Η αποστολή δοκιμαστικού e-mail ήταν επιτυχής!",
                 "send_test_mail_text": "Αυτό θα στείλει ένα e-mail με τη χρήση της παραπάνω ρύθμισης στο email σας, {email}.",
                 "smtp_heading": "Ρυθμίσεις SMTP",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "=> core.ref.email"
+                "title": "=> core.ref.email",
+                "submit_button": "=> core.ref.save_changes"
             },
             "extension": {
-                "confirm_uninstall": "Η απεγκατάσταση θα καταργήσει όλες τις καταχωρήσεις στην βάση δεδομένων και τα στοιχεία που σχετίζονται με το πρόσθετο. Είσαι σίγουρος οτι θέλεις να συνεχίσεις;",
+                "configure_scopes": "",
+                "confirm_purge": "",
                 "disabled": "Απενεργοποιημένο",
-                "enabled": "Ενεργοποιημένο",
                 "enable_to_see": "Ενεργοποίησε αυτό το πρόσθετο για να μπορείς να δείς και να αλλάξεις τις ρυθμίσιες του.",
+                "enabled": "Ενεργοποιημένο",
                 "info_links": {
                     "discuss": "Συζήτησε",
                     "documentation": "Documentation",
@@ -119,6 +127,13 @@
                 "no_settings": "Αυτό το πρόθετο δεν έχει ρυθμίσεις.",
                 "open_modal": "Άνοιγμα ρυθμίσεων",
                 "permissions_title": "Δικαιώματα",
+                "purge_button": "",
+                "readme": {
+                    "button_label": "",
+                    "no_readme": "",
+                    "title": ""
+                },
+                "confirm_uninstall": "Η απεγκατάσταση θα καταργήσει όλες τις καταχωρήσεις στην βάση δεδομένων και τα στοιχεία που σχετίζονται με το πρόσθετο. Είσαι σίγουρος οτι θέλεις να συνεχίσεις;",
                 "saved_message": "Οι αλλαγές αποθηκεύτηκαν.",
                 "uninstall_button": "Απεγκατάσταση"
             },
@@ -151,6 +166,8 @@
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "",
+                "userlist_title": "",
                 "search_placeholder": "Αναζήτηση προσθέτων"
             },
             "permissions": {
@@ -164,6 +181,8 @@
                 "description": "Διαμόρφωσε ποιος μπορεί να δει και να κάνει τι.",
                 "edit_posts_label": "Επεξεργασία δημοσιεύσεων",
                 "edit_users_label": "Επεξεργασία χρηστών",
+                "edit_users_credentials_label": "",
+                "edit_users_groups_label": "",
                 "global_heading": "Γενίκες",
                 "moderate_heading": "Συντονισμός",
                 "new_group_button": "Νέα ομάδα",
@@ -172,13 +191,15 @@
                 "read_heading": "Ανάγνωση",
                 "rename_discussions_label": "Μετονομασία συζητήσεων",
                 "reply_to_discussions_label": "Απάντηση σε μια συζήτηση",
+                "search_users_label": "",
                 "sign_up_label": "Εγγραφή",
                 "start_discussions_label": "Έναρξη συζητήσεων",
                 "title": "Δικαιώματα",
-                "view_discussions_label": "Εμφάνιση συζητήσεων",
+                "view_forum_label": "",
                 "view_hidden_groups_label": "Εμφάνιση εμβλημάτων κρυφών ομάδων",
                 "view_last_seen_at_label": "Πάντα να εμφανίζεται πότε ήταν ο χρήστης ενεργός τελευταία φορά",
                 "view_post_ips_label": "Εμφάνιση την IP διεύθυνση της δημοσίευσης",
+                "view_discussions_label": "Εμφάνιση συζητήσεων",
                 "view_user_list_label": "Εμφάνιση λίστας χρηστών"
             },
             "permissions_controls": {
@@ -192,11 +213,51 @@
                 "signup_open_button": "Ανοιχτό"
             },
             "settings": {
+                "saved_message": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
                 "upload_button": "Επίλεξε μια εικόνα..."
+            },
+            "users": {
+                "description": "",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "",
+                            "title": "",
+                            "tooltip": ""
+                        },
+                        "email": {
+                            "title": "",
+                            "visibility_hide": "",
+                            "visibility_show": ""
+                        },
+                        "group_badges": {
+                            "no_badges": "",
+                            "title": ""
+                        },
+                        "join_time": {
+                            "title": ""
+                        },
+                        "user_id": {
+                            "title": ""
+                        },
+                        "username": {
+                            "profile_link_tooltip": "",
+                            "title": ""
+                        }
+                    },
+                    "invalid_column_content": ""
+                },
+                "pagination": {
+                    "back_button": "",
+                    "next_button": "",
+                    "page_counter": ""
+                },
+                "title": "",
+                "total_users": ""
             }
         },
         "forum": {
@@ -250,27 +311,17 @@
                 "log_in_to_reply_button": "Συνδεθείτε για να απαντήσετε",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
             },
             "discussion_list": {
                 "empty_text": "Απ'ότι φαίνεται, δεν υπάρχουν συζητήσεις εδώ.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Επισήμανση ως αναγνωσμένο",
                 "replied_text": "{username} απάντησε {ago}",
-                "started_text": "{username} ξεκίνησε {ago}"
-            },
-            "edit_user": {
-                "activate_button": "Ενεργοποίηση χρήστη",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Ομάδες",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Set new password",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Επεξεργασία χρήστη",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "started_text": "{username} ξεκίνησε {ago}",
+                "total_replies_a11y_label": "",
+                "unread_replies_a11y_label": "",
+                "mark_as_read_tooltip": "Επισήμανση ως αναγνωσμένο"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -284,10 +335,14 @@
             "header": {
                 "admin_button": "Διαχείριση",
                 "back_to_index_tooltip": "Πίσω στην λίστα συζητήσεων",
+                "locale_dropdown_accessible_label": "",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Προφίλ",
+                "search_clear_button_accessible_label": "",
                 "search_placeholder": "Αναζήτηση στο Forum",
+                "search_role_label": "",
+                "session_dropdown_accessible_label": "",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -298,13 +353,15 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Ανανέωση",
-                "start_discussion_button": "=> core.ref.start_a_discussion"
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": ""
             },
             "index_sort": {
                 "latest_button": "Τα πιο πρόσφατα",
                 "newest_button": "Τα νεότερα",
                 "oldest_button": "Τα παλιότερα",
                 "relevance_button": "Τα πιο σχετικά",
+                "toggle_dropdown_accessible_label": "",
                 "top_button": "Τα πιο δημοφιλή"
             },
             "log_in": {
@@ -318,11 +375,14 @@
                 "username_or_email_placeholder": "Όνομα χρήστη ή e-mail"
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "{username} άλλαξε αυτόν τον τίτλο",
                 "empty_text": "Καμία ειδοποίηση",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Επισήμανση ως αναγνωσμένο",
                 "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "",
                 "tooltip": "=> core.ref.notifications"
             },
             "post": {
@@ -336,7 +396,8 @@
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την δημοσίευση;",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
             },
             "post_scrubber": {
                 "now_link": "Τώρα",
@@ -364,6 +425,7 @@
                 "account_heading": "Λογαριασμός",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Ιστοσελίδα",
@@ -401,25 +463,79 @@
                 "delete_confirmation": "Είστε βέβαιοι ότι θέλετε να διαγράψετε τον λογαριασμό σας; Οι δημοσιεύσεις σας ΔΕΝ θα διαγραφούν.",
                 "delete_error_message": "Η διαγραφή του χρήστη <i>{username} ({email})</i> απέτυχε",
                 "delete_success_message": "Ο χρήστης <i>{username} ({email})</i> διαγράφηκε επιτυχώς",
-                "edit_button": "=> core.ref.edit"
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": ""
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Αποστολή ξανά του e-mail επιβεβαίωσης",
                 "sent_message": "Αποστολή επιτυχής"
+            },
+            "welcome_hero": {
+                "hide": ""
+            },
+            "edit_user": {
+                "activate_button": "Ενεργοποίηση χρήστη",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Ομάδες",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Set new password",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Επεξεργασία χρήστη",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "Κρυφό"
             },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": ""
+            },
+            "edit_user": {
+                "activate_button": "",
+                "email_heading": "",
+                "email_label": "",
+                "groups_heading": "",
+                "password_heading": "",
+                "password_label": "",
+                "set_password_label": "",
+                "submit_button": "",
+                "title": "",
+                "username_heading": "",
+                "username_label": "",
+                "nothing_available": ""
+            },
             "error": {
                 "dependent_extensions_message": "Δεν είναι δυνατή η απενεργοποίηση του πρόσθετου {extension} έως ότου απενεργοποιηθούν τα ακόλουθα πρόσθετα: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "Ωχ! Κάτι πήγε στραβά. Ανανεώστε τη σελίδα και δοκιμάστε ξανά.",
                 "missing_dependencies_message": "Δεν είναι δυνατή η ενεργοποίηση του πρόσθετου {extension} έως ότου ενεργοποιηθούν τα ακόλουθα πρόσθετα: {extensions}",
                 "not_found_message": "Η πηγή που ζητήσατε δεν βρέθηκε.",
+                "payload_too_large_message": "",
                 "permission_denied_message": "Δυστυχώς δεν έχετε τα απαραίτητα δικαώματα για να το κάνετε αυτό.",
-                "rate_limit_exceeded_message": "Δοκιμάσατε αρκετές φορές. Για λόγους ασφαλείας, ξαναδοκιμάστε σε λίγα λεπτά."
+                "rate_limit_exceeded_message": "Δοκιμάσατε αρκετές φορές. Για λόγους ασφαλείας, ξαναδοκιμάστε σε λίγα λεπτά.",
+                "render_failed_message": ""
+            },
+            "loading_indicator": {
+                "accessible_label": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -435,6 +551,26 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
+            "confirm_email": {
+                "submit_button": "",
+                "text": "",
+                "title": ""
+            },
             "content": {
                 "javascript_disabled_message": "Αυτή η ιστοσελίδα λειτουγεί καλύτερα έαν χρησιμοποιείτε ένα σύγχρονο περιηγητή με ενεργοποιημένη την τεχνολογία Javascript.",
                 "load_error_message": "Κάτι πήγε στραβά κατά την προσπάθεια φόρτωσης της πλήρους έκδοσης αυτού του ιστότοπου. Δοκιμάστε να ανανεώσετε αυτήν τη σελίδα διαγράφοντας την μνήμη Cache(CTRL+F5) για να διορθώσετε το σφάλμα.",
@@ -498,6 +634,7 @@
             "change_password": "Αλλαγή κωδικού πρόσβασης",
             "color": "Χρώμα",
             "confirm_password": "Επιβεβαίωση κωδικού πρόσβασης",
+            "confirm_email": "",
             "confirmation_email_sent": "Σας στείλαμε ένα e-mail επιβεβαίωσης στο {email}. Εάν δεν το λάβετε σύντομα, ελέγξτε το φάκελο ανεπιθύμητων μηνυμάτων.",
             "custom_footer_text": "Πρόσθεση HTML κώδικα που θα εμφανιστεί στο κάτω μέρος της σελίδας.",
             "custom_footer_title": "Επεξεργασία προσαρμοσμένου υποσελίδου (Footer)",
@@ -507,10 +644,13 @@
             "delete_forever": "Οριστική διαγραφή",
             "discussions": "Συζητήσεις",
             "edit": "Επεξεργασία",
+            "edit_user": "",
             "email": "E-mail",
+            "extensions": "",
             "icon": "Εικονίδιο",
             "icon_text": "Εισάγετε το όνομα οποιασδήποτε κλάσης εικονιδίου <a>FontAwesome</a>, <em>εισάγοντας</em> επίσης <code>fas fa-</code> μπροστά. Π.χ. <code>fas fa-envelope</code>",
             "load_more": "Φώρτωσε περισσότερα",
+            "loading": "",
             "log_in": "Σύνδεση",
             "log_out": "Αποσύνδεση",
             "mark_all_as_read": "Επισήμανση όλων ως αναγνωσμένα",

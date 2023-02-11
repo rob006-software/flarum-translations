@@ -8,6 +8,10 @@
                 "users_heading": "Αναζήτηση στην λίστα χρηστών για \"{query}\"",
                 "field": {
                     "placeholder": "Αναζήτηση στην λίστα χρηστών"
+                },
+                "kinds": {
+                    "group": "",
+                    "text": ""
                 }
             },
             "page": {
@@ -15,7 +19,11 @@
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "Δεν βρήκαμε κανέναν χρήστη με το όνομα που δώσατε",
-                "filter_button": "Φιλτράρισμα ομάδων"
+                "filter_button": "Φιλτράρισμα ομάδων",
+                "usercard": {
+                    "discussion-count": "",
+                    "post-count": ""
+                }
             }
         },
         "admin": {
@@ -24,7 +32,9 @@
             },
             "settings": {
                 "link": "Προσθέστε σύνδεσμο στην αρχική σελίδα για χρήστες που μπορούν να δουν την λίστα",
-                "default-sort": "Προεπιλεγμένη ταξινόμηση"
+                "default-sort": "Προεπιλεγμένη ταξινόμηση",
+                "use-small-cards": "",
+                "disable-global-search-source": ""
             }
         },
         "lib": {
@@ -35,12 +45,12 @@
                 "username_za": "Username (Ω-Α)",
                 "newest": "Οι νεότεροι",
                 "oldest": "Οι παλιότεροι",
-                "seen_recent": "Πριν από λίγο ενεργοί",
-                "seen_oldest": "Το περισσότερο ανενεργοί",
                 "most_posts": "Με τις περισσότερες δημοσιεύσεις",
                 "least_posts": "Με τις λιγότερες δημοσιεύσεις",
                 "most_discussions": "Με τις περισσότερες συζητήσεις",
-                "least_discussions": "Με τις λιγότερες συζητήσεις"
+                "least_discussions": "Με τις λιγότερες συζητήσεις",
+                "seen_recent": "Πριν από λίγο ενεργοί",
+                "seen_oldest": "Το περισσότερο ανενεργοί"
             }
         }
     }
