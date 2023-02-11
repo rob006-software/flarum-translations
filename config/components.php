@@ -1041,7 +1041,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ramesh-dada/realtime/v100.2/resources/locale/en.yml',
 	],
 	'rob006-last-post-avatar' => [
-		'tag' => 'https://raw.githubusercontent.com/rob006-software/flarum-ext-last-post-avatar/1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/rob006-software/flarum-ext-last-post-avatar/1.2.0/locale/en.yml',
 	],
 	'serakoi-flarumstaffbadge' => [
 		'tag' => 'https://raw.githubusercontent.com/Serakoi/flarumstaffbadge/1.2.1/resources/locale/en.yml',
