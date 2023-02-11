@@ -118,7 +118,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/french">French</a></td>
-		<td><a href="https://github.com/Hiobi">Hiobi</a>, <a href="https://github.com/qiaeru">qiaeru</a></td>
+		<td><a href="https://github.com/qiaeru">qiaeru</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/fr.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/fr/svg-badge.svg" alt="detailed translation status" />
@@ -140,6 +140,15 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/de.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/de/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td><a href="https://github.com/flarum-lang/greek">Greek</a></td>
+		<td><a href="https://github.com/futuresound">futuresound</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/el.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/el/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
 	</tr>
