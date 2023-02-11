@@ -1,0 +1,92 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Διαγραφή κατηγορίας",
+                "delete_tag_confirmation": "Είσαστε βέβαιος ότι θέλετε να διαγράψετε αυτή την κατηγορία; Οι συζητήσεις αυτής της κατηγορίας ΔΕΝ θα διαγραφούν.",
+                "description_label": "Περιγραφή",
+                "hide_label": "Απόκρυψη από όλες τις συζητήσεις",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Όνομα συνδέσμου (με λατινικούς χαρακτήρες και παύλες αντί για κενά)",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Δημιουργία κατηγορίας"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Διαχειριστείτε την λίστα των διαθέσιμων κατηγοριών, ώστε με την βοήθεια τους να οργανώσετε καλύτερα τις συζητήσης σας."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "Να επιτρέπεται η επεξεργασία κατηγοριών",
+                "bypass_tag_counts_label": "Να αγνοούνται οι κανόνες κατηγοριών",
+                "restrict_by_tag_heading": "Περιορισμός ανά κατηγορία",
+                "tag_discussions_label": "Κατηγορία συζητήσεων"
+            },
+            "tag_settings": {
+                "range_separator_text": " στο ",
+                "required_primary_heading": "Απαιτούμενος αριθμός κύριων κατηγοριών",
+                "required_primary_text": "Εισαγάγετε τον ελάχιστο και μέγιστο αριθμό κύριων κατηγοριών που ενδέχεται να εφαρμοστούν σε μια συζήτηση.",
+                "required_secondary_heading": "Απαιτούμενος αριθμός υποκατηγοριών",
+                "required_secondary_text": "Εισαγάγετε τον ελάχιστο και μέγιστο αριθμό υποκατηγοριών που ενδέχεται να εφαρμοστούν σε μια συζήτηση.",
+                "title": "Ρυθμίσεις κατηγοριών"
+            },
+            "tags": {
+                "about_tags_text": "Οι κατηγορίες χρησιμοποιούνται για την κατηγοριοποίηση των συζητήσεων. Οι κύριες κατηγορίες είναι όπως οι παραδοσιακές κατηγορίες φόρουμ: μπορούν να ταξινομηθούν σε μια ιεραρχία δύο επιπέδων. Οι υποκατηγορίες δεν έχουν ιεραρχία ή σειρά και είναι χρήσιμες για μικρο-κατηγοριοποίηση των θεμάτων.",
+                "create_primary_tag_button": "Δημιουργία κύριας κατηγορίας",
+                "create_secondary_tag_button": "Δημιουργία υποκατηγορίας",
+                "primary_heading": "Κύριες κατηγορίες",
+                "secondary_heading": "Υποκατηγορίες",
+                "settings_heading": "Ρυθμίσεις"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "Όλες οι κατηγορίες",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "choose_primary_placeholder": "Επιλογή μίας κατηγορίας|Επιλογή {count} κατηγοριών",
+                "choose_secondary_placeholder": "Επιλέξτε μία ακόμη κατηγορία|Επιλέξτε {count} ακόμη κατηγορίες",
+                "edit_title": "Επεξεργασία κατηγοριών για {title}",
+                "submit_button": "=> core.ref.okay",
+                "title": "Επιλέξτε κατηγορίες για τη συζήτησή σας"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "Επιλέξτε κατηγορίες"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "Επεξεργασία κατηγοριών"
+            },
+            "header": {
+                "back_to_tags_tooltip": "Πίσω στη λίστα κατηγοριών"
+            },
+            "index": {
+                "more_link": "Περισσότερα...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Χωρίς κατηγορία"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username} πρόσθεσε την κατηγορία {tagsAdded} και αφαίρεσε την κατηγορία {tagsRemoved}.",
+                "added_tags_text": "{username} πρόσθεσε {tagsAdded}.",
+                "removed_tags_text": "{username} αφαίρεσε {tagsRemoved}.",
+                "tags_text": "{tags} κατηγορία|{tags} κατηγορίες"
+            },
+            "tag": {
+                "meta_description_text": "Όλες οι συζητήσεις στην κατηγορία {tag}"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "Διαγράφηκε"
+        },
+        "ref": {
+            "name": "Όνομα",
+            "tags": "Κατηγορίες"
+        }
+    }
+}
