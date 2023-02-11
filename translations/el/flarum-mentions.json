@@ -1,0 +1,40 @@
+{
+    "flarum-mentions": {
+        "forum": {
+            "composer": {
+                "mention_tooltip": "Tag ενός χρήστη ή μίας δημοσίευσης",
+                "reply_to_post_text": "Απάντηση στο #{number}"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "Ο χρήστης {username} απάντησε στην δημοσίευσή σας",
+                "user_mentioned_text": "Ο χρήστης {username} σας έκανε tag"
+            },
+            "post": {
+                "mentioned_by_self_text": "Ο χρήστης {users} απάντησε σε αυτό.|Οι χρήστες {users} απάντησαν σε αυτό.",
+                "mentioned_by_text": "Ο χρήστης {users} απάντησε σε αυτό.|Οι χρήστες {users} απάντησαν σε αυτό.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Απόσπασμα",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "Κάποιος απάντησε σε μια από τις δημοσιεύσεις μου",
+                "notify_user_mentioned_label": "Κάποιος με έκανε tag σε μία δημοσίευση"
+            },
+            "user": {
+                "mentions_link": "Tag"
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "{replier_display_name} απάντησε στην δημοσίευση σας στο {title}",
+                "body": "Γειά σας {recipient_display_name}!\n{replier_display_name} απάντησε στην δημοσίευσή σας (#{post_number}) στο {title}.\n{url}\n---\n{content}\n"
+            },
+            "user_mentioned": {
+                "subject": "{mentioner_display_name} σας έκανε tag σε μία δημοσίευση στο {title}",
+                "body": "Γειά σας {recipient_display_name}!\n{mentioner_display_name} σας έκανε tag σε μία δημοσίευση στο {title}.\n{url}\n---\n{content}"
+            }
+        }
+    }
+}
