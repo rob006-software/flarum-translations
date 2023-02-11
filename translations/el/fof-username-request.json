@@ -1,0 +1,99 @@
+{
+    "fof-username-request": {
+        "admin": {
+            "permissions": {
+                "moderate_requests": "Εγκρίνετε αιτήματα αλλαγής username/nickname",
+                "request_nickname": "Αίτημα αλλαγής nickname",
+                "request_username": "Αίτημα αλλαγής username"
+            }
+        },
+        "forum": {
+            "nickname_modals": {
+                "action": {
+                    "title": "=> fof-username-request.ref.nickname_change_request",
+                    "help_text": "Βεβαιωθείτε ότι η ζητούμενη αλλαγή του username ακολουθεί τις οδηγίες του forum.",
+                    "decision_title": "Απόφαση",
+                    "approval_label": "Εγκρίνω",
+                    "rejected_label": "Απορρίπτω",
+                    "submit_button": "Υποβολή",
+                    "reason_title": "Λόγος απόρριψης",
+                    "success": "Η απόφαση εστάλη.",
+                    "name": "Ο χρήστης {name} ζήτησε την αλλαγή του username σε \"{requestedName}\""
+                },
+                "results": {
+                    "title": "Αίτημα αλλαγής Nickname",
+                    "approved": "Το αίτημά σας για αλλαγή του nickname έχει εγκριθεί",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Το nickname σας άλλαξε με επιτυχία σε: {name}",
+                    "rejected": "Το αίτημά σας για αλλαγή του nickname απορρίφθηκε",
+                    "reason": "Λόγος απόρριψης: <i>\"{reason}\"</i>.",
+                    "resubmit": "Μπορείτε να υποβάλετε ξανά ένα νέο αίτημα αλλαγής του nickname από τις ρυθμίσεις του λογαριασμού σας, εάν το επιθυμείτε."
+                },
+                "request": {
+                    "title": "Αίτημα αλλαγής Nickname",
+                    "current_request": "Έχετε ήδη ζητήσει να αλλάξετε το ψευδώνυμό σας σε \"{name}\". Μπορείτε είτε να ενημερώσετε το αίτημά σας είτε να το διαγράψετε.",
+                    "submit_button": "Υποβολή αιτήματος",
+                    "delete_button": "Διαγραφή αιτήματος",
+                    "confirmation_message": "Το αίτημά σας για αλλαγή του nickname υποβλήθηκε και εκκρεμεί έγκριση.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Το αίτημα αλλαγής του nickname διαγράφηκε."
+                }
+            },
+            "username_modals": {
+                "action": {
+                    "title": "=> fof-username-request.ref.username_change_request",
+                    "help_text": "Βεβαιωθείτε ότι η ζητούμενη αλλαγή username ακολουθεί τις οδηγίες του forum.",
+                    "decision_title": "Απόφαση",
+                    "approval_label": "Εγκρίνω",
+                    "rejected_label": "Απορρίπτω",
+                    "submit_button": "Υποβολή",
+                    "reason_title": "Λόγος απόρριψης",
+                    "success": "Η απόφαση εστάλη.",
+                    "name": "Ο χρήστης {name} ζήτησε την αλλαγή του username σε \"{requestedName}\""
+                },
+                "results": {
+                    "title": "Αίτημα αλλαγής Username",
+                    "approved": "Το αίτημά σας για αλλαγή του username εγκρίθηκε",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Το username σας άλλαξε με επιτυχία σε: {name}",
+                    "rejected": "Το αίτημά σας για αλλαγή του username απορρίφθηκε",
+                    "reason": "Λόγος απόρριψης: <i>\"{reason}\"</i>.",
+                    "resubmit": "Μπορείτε να υποβάλετε ξανά ένα νέο αίτημα αλλαγής του username από τις ρυθμίσεις του λογαριασμού σας, εάν το επιθυμείτε."
+                },
+                "request": {
+                    "title": "Αίτημα αλλαγής Username",
+                    "current_request": "Μπορείτε να υποβάλετε ξανά ένα νέο αίτημα αλλαγής του username από τις ρυθμίσεις του λογαριασμού σας, εάν το επιθυμείτε.",
+                    "submit_button": "Υποβολή αιτήματος",
+                    "delete_button": "Διαγραφή αιτήματος",
+                    "confirmation_message": "Το αίτημά σας για αλλαγή του username υποβλήθηκε και εκκρεμεί έγκριση.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Το αίτημα αλλαγής του username διαγράφηκε."
+                }
+            },
+            "pending_requests": {
+                "empty_text": "Δεν βρέθηκαν αιτήματα αλλαγής ονόματος.",
+                "nickname_item_text": "Ο χρήστης {name} ζήτησε την αλλαγή του nickname",
+                "nickname_exerpt": "Ζητήθηκε το nickname: {requestedName}",
+                "tooltip": "=> fof-username-request.ref.name_change_requests",
+                "title": "=> fof-username-request.ref.name_change_requests",
+                "username_item_text": "Ο χρήστης {name} ζήτησε την αλλαγή του username",
+                "username_exerpt": "Ζητήθηκε το username: {requestedName}"
+            },
+            "settings": {
+                "nickname_request_button": "Αλλαγή Nickname",
+                "username_request_button": "Αλλαγή Username"
+            },
+            "user": {
+                "name_history_link": "Ιστορικό ονομάτων"
+            }
+        },
+        "ref": {
+            "name_change_request": "Αίτημα αλλαγής ονόματος",
+            "name_change_requests": "Αιτήματα αλλαγής ονόματος",
+            "nickname_change_request": "Αίτημα αλλαγής Nickname",
+            "nickname_change_requests": "Αιτήματα αλλαγής Nickname",
+            "username_change_request": "Αίτημα αλλαγής Username",
+            "username_change_requests": "Αιτήματα αλλαγής Username"
+        }
+    }
+}

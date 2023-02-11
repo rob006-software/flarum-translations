@@ -1,0 +1,49 @@
+{
+    "askvortsov-rich-text": {
+        "admin": {
+            "settings": {
+                "toggle_on_editor": "Εμφάνιση εναλλαγής λειτουργίας rich text στον επεξεργαστή;"
+            }
+        },
+        "forum": {
+            "composer": {
+                "toggle_button": "Λειτουργία προχωρημένου επεξεργαστή κειμένου",
+                "insert_button": "Εισαγωγή",
+                "insert_image": {
+                    "src_placeholder": "Σύνδεσμος",
+                    "title_placeholder": "Τίτλος"
+                },
+                "insert_link": {
+                    "text_placeholder": "Κείμενο",
+                    "href_placeholder": "URL",
+                    "title_placeholder": "Τίτλος (Προβολή όταν περνάτε το ποντίκι από πάνω)",
+                    "remove_button": "Αφαίρεση"
+                },
+                "additional_items_tooltip": "Άλλα",
+                "bold_tooltip": "Έντονο κείμενο <{modifierKey}-b>",
+                "code_tooltip": "Κώδικας <{modifierKey}-`>",
+                "code_block_tooltip": "Εισαγωγή ενός μπλοκ κώδικα",
+                "header_tooltip": "Αλλαγή σε επικεφαλίδα {level} <shift-{modifierKey}-{level}>",
+                "horizontal_rule_tooltip": "Εισαγωγή οριζόντιας γραμμής",
+                "image_tooltip": "Πρόσθεση εικόνας",
+                "italic_tooltip": "Πλάγιο κείμενο <{modifierKey}-i>",
+                "link_tooltip": "Πρόσθεση συνδέσμου",
+                "ordered_list_tooltip": "Αριθμημένη λίστα <shift-{modifierKey}-9>",
+                "paragraph_tooltip": "Αλλαγή σε παράγραφο <shift-{modifierKey}-0>",
+                "quote_tooltip": "Πρόσθεση αποσπάσματος <{modifierKey}-q>",
+                "spoiler_block_tooltip": "Spoiler/Dropdown",
+                "spoiler_inline_tooltip": "Spoiler <{modifierKey}-;>",
+                "strike_tooltip": "Διαγράμμιση <alt-shift-5>",
+                "sub_tooltip": "Δείκτης <{modifierKey}-,>",
+                "sup_tooltip": "Εκθέτης <{modifierKey}-.>",
+                "text_type_tooltip": "Επιλογή τύπου κειμένου",
+                "unordered_list_tooltip": "Λίστα με κουκκίδες <shift-{modifierKey}-8>"
+            },
+            "settings": {
+                "composer_heading": "Επεξεργαστής κειμένου",
+                "use_rich_text_editor_label": "Να χρησιμοποιώ τον προχωρημένο επεξεργαστή κειμένου;",
+                "rich_text_compact_paragraphs_label": "Να μην διαχωρίζονται οι παράγραφοι όταν αλλάζετε γραμμή."
+            }
+        }
+    }
+}

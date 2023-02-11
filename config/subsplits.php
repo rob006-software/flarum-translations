@@ -101,6 +101,18 @@ return [
 		],
 		'maintainers' => ['Kakifrucht'],
 	],
+	'el' => [
+		'type' => 'language',
+		'language' => 'el',
+		'repository' => 'git@github.com:flarum-lang/greek.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => ['futuresound'],
+	],
 	'es' => [
 		'type' => 'language',
 		'language' => 'es',

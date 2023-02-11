@@ -1,0 +1,28 @@
+{
+    "flarum-lock": {
+        "admin": {
+            "permissions": {
+                "lock_discussions_label": "Κλείδωμα συζητήσεων"
+            }
+        },
+        "forum": {
+            "badge": {
+                "locked_tooltip": "Κλείδωμενο"
+            },
+            "discussion_controls": {
+                "lock_button": "Κλείδωμα",
+                "unlock_button": "Ξεκλείδωμα"
+            },
+            "notifications": {
+                "discussion_locked_text": "Κλειδώθηκε από τον χρήστη {username} "
+            },
+            "post_stream": {
+                "discussion_locked_text": "{username} κλείδωσε την συζήτηση.",
+                "discussion_unlocked_text": "{username} ξεκλείδωσε την συζήτηση."
+            },
+            "settings": {
+                "notify_discussion_locked_label": "Κάποιος κλειδώσε μια συζήτηση που ξεκίνησες"
+            }
+        }
+    }
+}

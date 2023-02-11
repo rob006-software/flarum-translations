@@ -1,0 +1,29 @@
+{
+    "flarum-likes": {
+        "admin": {
+            "permissions": {
+                "like_posts_label": "Μου αρέσει"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "Στον χρήστη {username} άρεσε η δημοσίευσή σας"
+            },
+            "post": {
+                "like_link": "Μου αρέσει",
+                "liked_by_self_text": "Στους χρήστες {users} αρέσει αυτό.",
+                "liked_by_text": "Στον χρήστη {users} αρέσει αυτό.|Στους χρήστες {users} αρέσει αυτό.",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Δεν μου αρέσει",
+                "you_text": "=> core.ref.you"
+            },
+            "post_likes": {
+                "title": "Χρήστες στους οποίους άρεσε αυτό"
+            },
+            "settings": {
+                "notify_post_liked_label": "Σε κάποιον αρέσει μία απο τις δημοσιεύσεις μου"
+            }
+        }
+    }
+}

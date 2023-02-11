@@ -30,6 +30,7 @@ return [
 		'!v17development-seo',
 		'!wolfgang-demeter-bbcode-5star-rating',
 	]),
+	'el' => getComponents(),
 	'es' => getComponents([
 		// translations included in extension
 		// '!clarkwinkelmann-emojionearea', https://github.com/clarkwinkelmann/flarum-ext-emojionearea/issues/28#issuecomment-855995493

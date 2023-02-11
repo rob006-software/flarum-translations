@@ -1,0 +1,50 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "Αναφορά δημοσιεύσεων",
+                "view_flags_label": "Προβολή δημοσιεύσεων που αναφέρθηκαν"
+            },
+            "settings": {
+                "flag_own_posts_label": "Να επιτρέπεται στους χρήστες να κάνουν αναφορά στις δικές τους δημοσιεύσεις",
+                "guidelines_url_label": "Διεύθυνση URL των όρων χρήσης του forum",
+                "title": "Ρυθμίσεις αναφοράς"
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "Σας ευχαριστούμε για την αναφορά αυτής της δημοσίευσης. Οι συντονιστές μας θα το εξετάσουν.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Πρόσθετες λεπτομέρειες (προαιρετικό)",
+                "reason_inappropriate_label": "Ακατάλληλο",
+                "reason_inappropriate_text": "Αυτή η δημοσίευση είναι προσβλητική, καταχρηστική ή παραβιάζει τους <a>όρους χρήσης</a>.",
+                "reason_missing_message": "Παρακαλούμε γράψτε μερικές λεπτομέρειες για να βοηθήσετε τους συντονιστές μας.",
+                "reason_off_topic_label": "Εκτός θέματος",
+                "reason_off_topic_text": "Αυτή η δημοσίευση είναι εκτός θέματος και θα έπρεπε θα μεταφερθεί σε άλλη κατηγορία.",
+                "reason_other_label": "Άλλο (Περιγραφή)",
+                "reason_spam_label": "Ανεπιθύμητο",
+                "reason_spam_text": "Αυτή η δημοσίευση είναι διαφήμιση.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "Καμία αναφορά",
+                "item_text": "{username} στο θέμα <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "Παράβλεψη της αναφοράς",
+                "flagged_by_text": "Αναφορά από {username}",
+                "flagged_by_with_reason_text": "Αναφορά από {username} ως {reason}"
+            },
+            "post_controls": {
+                "flag_button": "Αναφορά"
+            }
+        },
+        "ref": {
+            "flag_post": "Αναφορά δημοσίευσης",
+            "flagged_posts": "Δημοσιεύσεις που αναφέρθηκαν"
+        }
+    }
+}
