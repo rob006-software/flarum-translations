@@ -2,10 +2,15 @@
     "clarkwinkelmann-anonymous-posting": {
         "admin": {
             "settings": {
+                "defaultAnonymity": "",
+                "defaultAnonymityWhenAbleToSwitch": "",
+                "alwaysAnonymiseEdits": "",
+                "alwaysAnonymiseEditsHelp": "",
                 "composerHelpTextPosition": "מיקום טקסט עזרה למחבר",
                 "composerHelpTextPositionVisible": "נראה (מתחת לתווית)",
                 "composerHelpTextPositionTooltip": "Tooltip (אחרי התווית)",
                 "composerHelpTextPositionHidden": "מוסתר",
+                "composerHelpTextPositionHelp": "",
                 "avatars": "אווטרים אנונימיים",
                 "avatarsHelp": "הרחבה זו דורשת הרחבת פרימיום <a>Formulaire extension</a>. השימוש בתכונה זו גורם להשפעה קטנה על הביצועים מכיוון שנדרשות בקשות נוספות למסד נתונים כדי לאחזר נושאים והודעות. ראה README לפרטים נוספים על הפורמט עבור כל קלט.\n",
                 "avatarFormId": "מספר טופס",

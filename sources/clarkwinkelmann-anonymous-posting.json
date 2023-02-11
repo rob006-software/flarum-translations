@@ -2,10 +2,15 @@
     "clarkwinkelmann-anonymous-posting": {
         "admin": {
             "settings": {
+                "defaultAnonymity": "New content anonymous by default",
+                "defaultAnonymityWhenAbleToSwitch": "New content anonymous by default for users with switch permission",
+                "alwaysAnonymiseEdits": "Always anonymize edits",
+                "alwaysAnonymiseEditsHelp": "By default edits/hides by the anonymous post author are anonymized, but any moderator editing a post or discussion will still be shown as the edit/hide author. When this option is enabled, the actor for edit/hide will never be logged on anonymous content no matter who they are.\n",
                 "composerHelpTextPosition": "Composer help text position",
                 "composerHelpTextPositionVisible": "Visible (below label)",
                 "composerHelpTextPositionTooltip": "Tooltip (after label)",
                 "composerHelpTextPositionHidden": "Hidden",
+                "composerHelpTextPositionHelp": "The checkbox and this text only appears to users with switch permission.",
                 "avatars": "Anonymous avatars",
                 "avatarsHelp": "This feature requires the premium <a>Formulaire extension</a>. Using this feature incurs a small performance impact as additional database requests are required to retrieve discussions and posts. See README for more details on the format for each input.\n",
                 "avatarFormId": "Form ID",
@@ -15,9 +20,9 @@
                 "avatarAdd": "Add avatar rule"
             },
             "permissions": {
-                "use": "Post anonymously",
+                "use": "Switch content anonymous option during composing",
                 "reveal": "See real authors of anonymous discussions and posts",
-                "moderate": "Anonymize or de-anonimize any discussion or post"
+                "moderate": "Anonymize or de-anonymize any discussion or post"
             }
         },
         "forum": {

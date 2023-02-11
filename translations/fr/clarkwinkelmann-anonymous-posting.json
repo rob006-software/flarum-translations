@@ -2,10 +2,15 @@
     "clarkwinkelmann-anonymous-posting": {
         "admin": {
             "settings": {
+                "defaultAnonymity": "",
+                "defaultAnonymityWhenAbleToSwitch": "",
+                "alwaysAnonymiseEdits": "",
+                "alwaysAnonymiseEditsHelp": "",
                 "composerHelpTextPosition": "Position du texte d'aide de compositeur",
                 "composerHelpTextPositionVisible": "Visible (sous l'étiquette)",
                 "composerHelpTextPositionTooltip": "Infobulle (après l'étiquette)",
                 "composerHelpTextPositionHidden": "Caché",
+                "composerHelpTextPositionHelp": "",
                 "avatars": "Avatars anonymes",
                 "avatarsHelp": "Cette fonctionnalité nécessite l'extension premium <a>Formulaire</a>. L'utilisation de cette fonctionnalité entraîne un léger impact sur les performances car des requêtes supplémentaires à la base de données sont nécessaires pour récupérer les discussions et les messages. Veillez consulter le fichier README pour plus d'informations sur le format de chaque entrée.\n",
                 "avatarFormId": "Identifiant du formulaire",

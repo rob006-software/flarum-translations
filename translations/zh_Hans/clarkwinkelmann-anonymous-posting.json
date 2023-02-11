@@ -2,10 +2,15 @@
     "clarkwinkelmann-anonymous-posting": {
         "admin": {
             "settings": {
+                "defaultAnonymity": "",
+                "defaultAnonymityWhenAbleToSwitch": "",
+                "alwaysAnonymiseEdits": "",
+                "alwaysAnonymiseEditsHelp": "",
                 "composerHelpTextPosition": "文本编辑器提示方式",
                 "composerHelpTextPositionVisible": "独行",
                 "composerHelpTextPositionTooltip": "图标",
                 "composerHelpTextPositionHidden": "不提示",
+                "composerHelpTextPositionHelp": "",
                 "avatars": "匿名用户头像",
                 "avatarsHelp": "此功能需要付费的 <a>Formulaire 扩展程序</a>。此功能使用独立的数据库存储发帖数据，因此会带来轻微的性能影响。此项的详细设置说明，请查阅自述文档。\n",
                 "avatarFormId": "表单 ID",

@@ -2,10 +2,15 @@
     "clarkwinkelmann-anonymous-posting": {
         "admin": {
             "settings": {
+                "defaultAnonymity": "",
+                "defaultAnonymityWhenAbleToSwitch": "",
+                "alwaysAnonymiseEdits": "",
+                "alwaysAnonymiseEditsHelp": "",
                 "composerHelpTextPosition": "Szerkesztő súgószövegének pozíciója",
                 "composerHelpTextPositionVisible": "Látható (címke alatt)",
                 "composerHelpTextPositionTooltip": "Buboréksúgó (címke után)",
                 "composerHelpTextPositionHidden": "Rejtett",
+                "composerHelpTextPositionHelp": "",
                 "avatars": "Névtelen profilképek",
                 "avatarsHelp": "Ehhez a funkcióhoz a prémium <a>Formulaire bővítmény</a> szükséges. A funkció használata némi teljesítménycsökkenéssel jár, mivel további adatbázis-lekérdezések szükségesek a témák és bejegyzések lekéréséhez. A bemenetek formátumának további részleteihez lásd a README fájlt.\n",
                 "avatarFormId": "Űrlapazonosító",

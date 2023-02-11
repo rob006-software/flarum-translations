@@ -2,10 +2,15 @@
     "clarkwinkelmann-anonymous-posting": {
         "admin": {
             "settings": {
+                "defaultAnonymity": "",
+                "defaultAnonymityWhenAbleToSwitch": "",
+                "alwaysAnonymiseEdits": "",
+                "alwaysAnonymiseEditsHelp": "",
                 "composerHelpTextPosition": "Düzenleyici yardım metni konumu",
                 "composerHelpTextPositionVisible": "Görünür (etiketin altında)",
                 "composerHelpTextPositionTooltip": "İpucu (etiketten sonra)",
                 "composerHelpTextPositionHidden": "Gizli",
+                "composerHelpTextPositionHelp": "",
                 "avatars": "Anonim avatarlar",
                 "avatarsHelp": "Bu özellik, premium <a>Formulaire uzantısı</a> gerektirir. Tartışmaları ve gönderileri almak için ek veritabanı istekleri gerektiğinden, bu özelliğin kullanılması performans üzerinde küçük bir etkiye neden olur. Her girişin formatı hakkında daha fazla ayrıntı için BENİOKU'ya bakın.\n",
                 "avatarFormId": "Form ID",
