@@ -406,6 +406,34 @@
 		</td>
 	</tr>
 	<tr>
+		<td><a href="https://github.com/flarum-lang/greek">Greek</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/greek/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/greek" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/greek/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/greek/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/greek/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/greek" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/greek/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/greek" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/el.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/el/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td><a href="https://github.com/flarum-lang/hebrew">Hebrew</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/hebrew/tags">
