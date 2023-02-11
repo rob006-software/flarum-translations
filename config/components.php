@@ -720,7 +720,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/ianm-translate.yml',
 	],
 	'jeromegillard-map' => [
-		'tag' => 'https://raw.githubusercontent.com/JeromeGillard/flarum-map/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/JeromeGillard/flarum-map/v0.1.5/locale/en.yml',
 	],
 	'jslirola-login2seeplus' => [
 		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.2.1/locale/en.yml',
