@@ -1,0 +1,35 @@
+{
+    "flarum-nicknames": {
+        "admin": {
+            "permissions": {
+                "edit_own_nickname_label": "Αλλαγή του nickname"
+            },
+            "settings": {
+                "max_label": "Μέγιστο αριθμό χαρακτήρων του nickname",
+                "min_label": "Ελάχιστο αριθμό χαρακτήρων του nickname",
+                "regex_label": "Κανονική έκφραση για επικύρωση",
+                "unique_label": "Απαιτούνται μοναδικό nickname?"
+            },
+            "wrong_driver": "Πρέπει να επιλέξεις \"nickname\" ως πρόγραμμα οδήγησης για την εμφάνιση ονομάτων στην κατηγορία <a><strong>Βασικές ρυθμίσεις</strong></a> ώστε αυτό το πρόσθετο να λειτουργήσει."
+        },
+        "api": {
+            "invalid_nickname_message": "Το nickname δεν είναι έγκυρο. Παρακαλώ επικοινώνησε με τον διαχειριστή του forum για περισσότερες πληροφορίες σχετικά με τους κανόνες επιλογής ενός nickname."
+        },
+        "forum": {
+            "change_nickname": {
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "edit_user": {
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "Nickname"
+            },
+            "settings": {
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            }
+        },
+        "ref": {
+            "change_nickname": "Αλλαγή Nickname"
+        }
+    }
+}
