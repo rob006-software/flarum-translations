@@ -23,8 +23,7 @@
                 "favicon_text": "Ανέβασε μια εικόνα που θα χρησημοποιηθεί σαν εικονίδιο του forum.",
                 "logo_heading": "Λογότυπο",
                 "logo_text": "Ανέβασε μια εικόνα που θα εμφανίζεται στην θέση του τίτλου.",
-                "title": "Εμφάνιση",
-                "submit_button": "=> core.ref.save_changes"
+                "title": "Εμφάνιση"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -42,9 +41,7 @@
                 "slug_driver_text": "Επίλεξε ένα πρόγραμμα οδήγησης για τα Slugs αυτού του Model.",
                 "title": "Βασικές ρυθμίσεις",
                 "welcome_banner_heading": "Banner καλωσορίσματος",
-                "welcome_banner_text": "Διαμόρφωσε το κείμενο που εμφανίζεται στο Banner στην σελίδα Όλα τα θέματα. Χρησιμοποιήσέ το για να καλωσορίσεις του επισκέπτες του forum σου.",
-                "saved_message": "Οι αλλαγές αποθηκεύτηκαν.",
-                "submit_button": "=> core.ref.save_changes"
+                "welcome_banner_text": "Διαμόρφωσε το κείμενο που εμφανίζεται στο Banner στην σελίδα Όλα τα θέματα. Χρησιμοποιήσέ το για να καλωσορίσεις του επισκέπτες του forum σου."
             },
             "dashboard": {
                 "clear_cache_button": "Διαγραφή Cache",
@@ -106,8 +103,7 @@
                 "send_test_mail_success": "Η αποστολή δοκιμαστικού e-mail ήταν επιτυχής!",
                 "send_test_mail_text": "Αυτό θα στείλει ένα e-mail με τη χρήση της παραπάνω ρύθμισης στο email σας, {email}.",
                 "smtp_heading": "Ρυθμίσεις SMTP",
-                "title": "=> core.ref.email",
-                "submit_button": "=> core.ref.save_changes"
+                "title": "=> core.ref.email"
             },
             "extension": {
                 "configure_scopes": "",
@@ -132,10 +128,7 @@
                     "button_label": "",
                     "no_readme": "",
                     "title": ""
-                },
-                "confirm_uninstall": "Η απεγκατάσταση θα καταργήσει όλες τις καταχωρήσεις στην βάση δεδομένων και τα στοιχεία που σχετίζονται με το πρόσθετο. Είσαι σίγουρος οτι θέλεις να συνεχίσεις;",
-                "saved_message": "Οι αλλαγές αποθηκεύτηκαν.",
-                "uninstall_button": "Απεγκατάσταση"
+                }
             },
             "header": {
                 "get_help": "Ζήτησε βοήθεια",
@@ -198,9 +191,7 @@
                 "view_forum_label": "",
                 "view_hidden_groups_label": "Εμφάνιση εμβλημάτων κρυφών ομάδων",
                 "view_last_seen_at_label": "Πάντα να εμφανίζεται πότε ήταν ο χρήστης ενεργός τελευταία φορά",
-                "view_post_ips_label": "Εμφάνιση την IP διεύθυνση της δημοσίευσης",
-                "view_discussions_label": "Εμφάνιση συζητήσεων",
-                "view_user_list_label": "Εμφάνιση λίστας χρηστών"
+                "view_post_ips_label": "Εμφάνιση την IP διεύθυνση της δημοσίευσης"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Επ 'αόριστον",
@@ -320,8 +311,7 @@
                 "replied_text": "{username} απάντησε {ago}",
                 "started_text": "{username} ξεκίνησε {ago}",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
-                "mark_as_read_tooltip": "Επισήμανση ως αναγνωσμένο"
+                "unread_replies_a11y_label": ""
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -473,19 +463,6 @@
             },
             "welcome_hero": {
                 "hide": ""
-            },
-            "edit_user": {
-                "activate_button": "Ενεργοποίηση χρήστη",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Ομάδες",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Set new password",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Επεξεργασία χρήστη",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
             }
         },
         "lib": {
@@ -500,18 +477,17 @@
                 "toggle_dropdown_accessible_label": ""
             },
             "edit_user": {
-                "activate_button": "",
-                "email_heading": "",
-                "email_label": "",
-                "groups_heading": "",
-                "password_heading": "",
-                "password_label": "",
-                "set_password_label": "",
-                "submit_button": "",
-                "title": "",
-                "username_heading": "",
-                "username_label": "",
-                "nothing_available": ""
+                "activate_button": "Ενεργοποίηση χρήστη",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Ομάδες",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Set new password",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Επεξεργασία χρήστη",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
             },
             "error": {
                 "dependent_extensions_message": "Δεν είναι δυνατή η απενεργοποίηση του πρόσθετου {extension} έως ότου απενεργοποιηθούν τα ακόλουθα πρόσθετα: {extensions}",
