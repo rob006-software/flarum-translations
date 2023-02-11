@@ -1,0 +1,30 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Αναστολή χρηστών"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "{username} σας έθεσε σε αναστολή για {timeReadable}",
+                "user_unsuspended_text": "{username} ακύρωσε την αναστολή σας"
+            },
+            "suspend_user": {
+                "indefinitely_label": "Σε αναστολή επ`αορίστου",
+                "limited_time_days_text": " ημέρες",
+                "limited_time_label": "Σε αναστολή για περιορισμένο χρόνο...",
+                "not_suspended_label": "Σε μη αναστολή",
+                "status_heading": "Κατάσταση της αναστολής",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Αναστολή του χρήστη {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Σε αναστολή"
+            },
+            "user_controls": {
+                "suspend_button": "Αναστολή"
+            }
+        }
+    }
+}
