@@ -1,0 +1,39 @@
+{
+    "core": {
+        "forum": {
+            "index_sort": {
+                "popular_button": "Τα πιο δημοφιλή",
+                "unpopular_button": "Τα λιγότερο δημοφιλή"
+            }
+        }
+    },
+    "michaelbelgium-discussion-views": {
+        "forum": {
+            "modal_resetviews": {
+                "title": "Επαναφορά του αριθμού προβολών συζήτησης",
+                "submit_button": "Ναι, αφαίρεση όλων",
+                "label": "Αυτό θα καταργήσει {count} προβολή αυτής της συζήτησης. Συνέχεια; | Αυτό θα καταργήσει {count} προβολές αυτής της συζήτησης. Συνέχεια?"
+            },
+            "discussion_controls": {
+                "resetviews_button": "Επαναφορά προβολών"
+            },
+            "viewlist": {
+                "title": "Είδαν πρόσφατα"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "reset_views_label": "Επαναφορά προβολών συζήτησης",
+                "view_number_label": "Ενεργοποίηση του αριθμού προβολών της συζήτησης"
+            },
+            "settings": {
+                "title": "Ρυθμίσεις προβολών της συζήτησης",
+                "track_unique_label": "Εγγραφή μόνο της πρώτης προβολής ανά χρήστη/IP",
+                "abbr_numbers_label": "Εν συντομία αρθιθμού προβολών",
+                "show_filter_label": "Ενεργοποίηση της ταξινόμησης ανά δημοφιλία",
+                "max_viewcount_label": "Μέγιστος αριθμός χρηστών στη λίστα πρόσφατων επισκεπτών",
+                "show_viewlist_label": "Ενεργοποίηση λίστας επισκεπτών μιας δημοσίευσης"
+            }
+        }
+    }
+}
