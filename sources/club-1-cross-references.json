@@ -12,7 +12,8 @@
         },
         "forum": {
             "post_stream": {
-                "discussion_referenced_text": "{username} referenced this discussion from {source}"
+                "discussion_referenced_text": "{username} referenced this discussion from {source}",
+                "discussion_referenced_multiple_text": "{username} referenced this discussion from multiple sources: {sources}"
             },
             "unknown_discussion": "[unknown discussion]",
             "comment": "comment"
