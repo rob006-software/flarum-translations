@@ -101,7 +101,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/bs-community/flarum-oauth-client/v2.0.2/locale/en.yml',
 	],
 	'blomstra-conversations' => [
-		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-conversations/0.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-conversations/0.1.2/locale/en.yml',
 	],
 	'blomstra-flag-duplicates' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-flag-duplicate/0.1.8/locale/en.yml',
