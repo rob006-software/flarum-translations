@@ -2,7 +2,17 @@
     "blomstra-conversations": {
         "admin": {
             "permissions": {
-                "view-conversation-source": "View conversation source"
+                "view-conversation-source": "View conversation source",
+                "view-raw-source": "View naitive HTML or HTML source of incoming posts"
+            }
+        },
+        "forum": {
+            "post": {
+                "source-raw-heading": "View HTML",
+                "controls": {
+                    "view": "View HTML Version",
+                    "view-code": "Inspect HTML Source"
+                }
             }
         }
     }

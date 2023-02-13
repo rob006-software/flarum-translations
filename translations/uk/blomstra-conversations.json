@@ -2,7 +2,17 @@
     "blomstra-conversations": {
         "admin": {
             "permissions": {
-                "view-conversation-source": "Перегляд джерела розмови"
+                "view-conversation-source": "Перегляд джерела розмови",
+                "view-raw-source": ""
+            }
+        },
+        "forum": {
+            "post": {
+                "source-raw-heading": "",
+                "controls": {
+                    "view": "",
+                    "view-code": ""
+                }
             }
         }
     }
