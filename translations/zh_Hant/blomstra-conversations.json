@@ -3,15 +3,15 @@
         "admin": {
             "permissions": {
                 "view-conversation-source": "查看對話源",
-                "view-raw-source": ""
+                "view-raw-source": "查看原始 HTML 或導入貼文中的 HTML 源"
             }
         },
         "forum": {
             "post": {
-                "source-raw-heading": "",
+                "source-raw-heading": "查看HTML",
                 "controls": {
-                    "view": "",
-                    "view-code": ""
+                    "view": "查看 HTML 版本",
+                    "view-code": "檢查 HTML 代碼"
                 }
             }
         }
