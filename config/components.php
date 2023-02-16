@@ -1056,7 +1056,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/spookygames/flarum-ext-auth-keycloak/1.3.0.0/locale/en.yml',
 	],
 	'swaggymacro-only-starter' => [
-		'tag' => 'https://raw.githubusercontent.com/SwaggyMacro/OnlyStarter/0.6.4/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/SwaggyMacro/OnlyStarter/0.6.6/resources/locale/en.yml',
 	],
 	'sycho-advanced-extension-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-advanced-extension-categories/v0.1.3/locale/en.yml',
