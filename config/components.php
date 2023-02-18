@@ -392,7 +392,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flatension/scroll-buttons/v1.1.0/locale/en.yml',
 	],
 	'datlechin-signup-button' => [
-		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-signup-button/v0.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flatension/signup-button/v0.1.1/locale/en.yml',
 	],
 	'datlechin-silent-edit' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-silent-edit/v0.1.0/locale/en.yml',
