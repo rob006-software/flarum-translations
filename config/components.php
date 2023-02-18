@@ -362,7 +362,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flatension/copy-links/v0.1.1/locale/en.yml',
 	],
 	'datlechin-discussion-overview' => [
-		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-discussion-overview/v0.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flatension/discussion-overview/v0.0.1/locale/en.yml',
 	],
 	'datlechin-keyboard-shortcuts' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-keyboard-shortcuts/v0.1.1/locale/en.yml',
