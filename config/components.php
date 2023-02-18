@@ -350,7 +350,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flatension/add-like-controls/v1.0.6/locale/en.yml',
 	],
 	'datlechin-bbcode-hide-content' => [
-		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-bbcode-hide-content/v0.1.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flatension/bbcode-hide-content/v0.1.5/locale/en.yml',
 	],
 	'datlechin-birthdays' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-birthdays/v1.3.1/locale/en.yml',
