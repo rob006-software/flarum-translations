@@ -941,6 +941,9 @@ return [
 	'littlecxm-reply-to-see' => [
 		'tag' => 'https://raw.githubusercontent.com/littlecxm/flarum-reply-to-see/1.0.2/resources/locale/en.yml',
 	],
+	'lrysia-stickiest' => [
+		'tag' => 'https://raw.githubusercontent.com/lrysia/flarum-stickiest/1.0.0/locale/en.yml',
+	],
 	'maicol07-oidc-client' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/maicol07-oidc-client.yml',
 	],
