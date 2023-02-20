@@ -3,11 +3,15 @@
         "admin": {
             "show_discussion_id": {
                 "label": "Show discussion ID",
-                "help": "Add discussion ID numbers everywhere a discussion is displayed"
+                "help": "Add discussion ID numbers everywhere a discussion is displayed."
             },
             "enable_short_references": {
                 "label": "Enable short references",
-                "help": "Convert #<ID> text in messages (e.g. #42) into links to the corresponding discussion"
+                "help": "Convert #<ID> text in messages (e.g. #42) into links to the corresponding discussion."
+            },
+            "retrofit_links_in_frontend": {
+                "label": "Retrofit links in frontend",
+                "help": "Show titles of discussion links in messages sent when this extension was not enabled. This is done in the frontend, so it may lead to a poor user experience.\n"
             }
         },
         "forum": {
