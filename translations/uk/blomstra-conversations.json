@@ -3,15 +3,15 @@
         "admin": {
             "permissions": {
                 "view-conversation-source": "Перегляд джерела розмови",
-                "view-raw-source": ""
+                "view-raw-source": "Перегляд наївного HTML або HTML-джерела вхідних повідомлень"
             }
         },
         "forum": {
             "post": {
-                "source-raw-heading": "",
+                "source-raw-heading": "Переглянути HTML",
                 "controls": {
-                    "view": "",
-                    "view-code": ""
+                    "view": "Переглянути HTML-версію",
+                    "view-code": "Ознайомлення з вихідним кодом HTML"
                 }
             }
         }
