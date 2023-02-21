@@ -3,21 +3,21 @@
         "admin": {
             "show_discussion_id": {
                 "label": "Показати ID дискусії",
-                "help": "Додавати ID номери дискусій скрізь, де вони відображаються"
+                "help": "Додавати ID номери дискусій скрізь, де вони відображаються."
             },
             "enable_short_references": {
-                "label": "",
-                "help": ""
+                "label": "Увімкнути короткі посилання",
+                "help": "Перетворити текст #<ID> у повідомленнях (наприклад, #42) з посиланням на відповідне обговорення."
             },
             "retrofit_links_in_frontend": {
-                "label": "",
-                "help": ""
+                "label": "Модернізація посилань у фронтенді",
+                "help": "Показувати заголовки посилань на обговорення в повідомленнях, надісланих, коли це розширення не було увімкнено. Це робиться у фронтенді, тому може призвести до погіршення якості роботи користувача.\n"
             }
         },
         "forum": {
             "post_stream": {
                 "discussion_referenced_text": "{username} послався на цю дискусію з {source}",
-                "discussion_referenced_multiple_text": ""
+                "discussion_referenced_multiple_text": "{username} посилався на цю дискусію з декількох джерел: {sources}"
             },
             "unknown_discussion": "[unknown discussion]",
             "comment": "коментар"
