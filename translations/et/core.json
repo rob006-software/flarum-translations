@@ -4,8 +4,8 @@
             "appearance": {
                 "colored_header_label": "Värviline päis",
                 "colors_heading": "Värvid",
-                "colors_primary_label": "",
-                "colors_secondary_label": "",
+                "colors_primary_label": "Põhivärv",
+                "colors_secondary_label": "Teine värv",
                 "colors_text": "Vali kaks värvi oma foorumi kujundamiseks. Esimest kasutatakse esiletoodud elementides, teist taustaelementides.",
                 "custom_footer_heading": "Kohandatud jalus",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -19,7 +19,7 @@
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Sisesta kuueteistkümnendsüsteemis värvikood.",
-                "favicon_heading": "Favicon",
+                "favicon_heading": "Väikeikoon",
                 "favicon_text": "Laadi üles pilt, mida näidatakse foorumi otsetee ikoonil.",
                 "logo_heading": "Logo",
                 "logo_text": "Laadi üles pilt, mida näidatakse foorumi pealkirja asemel.",
@@ -38,7 +38,7 @@
                 "home_page_text": "Vali leht, mida näidatakse foorumi külastajatele avalehena.",
                 "show_language_selector_label": "Näita keelevalikut",
                 "slug_driver_heading": "Slug draiver: {model}",
-                "slug_driver_text": "",
+                "slug_driver_text": "Vali draiver, mida kasutatakse selle mudeli sluggimiseks.",
                 "title": "Põhiseaded",
                 "welcome_banner_heading": "Tervitusloosung",
                 "welcome_banner_text": "Sisesta tekst, mida kuvatakse 'Kõikide teemade' lehe päises. Kasuta seda oma foorumi külaliste tervitamiseks."
@@ -46,13 +46,13 @@
             "dashboard": {
                 "clear_cache_button": "Puhasta vahemälu",
                 "description": "Foorumi ülevaade.",
-                "io_error_message": "",
+                "io_error_message": "Failisüsteemi kirjutamine ebaõnnestus. Kontrollige oma failisüsteemi õiguseid ja proovige uuesti. Või proovige jooksutada käsurealt.",
                 "title": "Juhtpaneel",
                 "tools_button": "Tööriistad"
             },
             "debug-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "Kui <code>silumisrežiim</code> on aktiivne, siis Flarum taasloob <code>Javascripti</code> ja <code>CSS</code> failid igal päringul ning võib potensiaalselt lekkida muud tundlikku informatsiooni - nagu näiteks salastatud andmed andmebaasis, keskkonnamuutujad jne.\n\nRangelt soovituslik on toodangukeskkonnas <code>silumisrežiim</code> välja lülitada <code>config.php</code> konfiguratsioonifailist. Lisainformatsiooni leiab <link>Flarumi dokumentatsioonist</link>.\n",
+                "label": "Silumisrežiim on aktiivne"
             },
             "edit_css": {
                 "customize_text": "Kohanda oma foorumi välimust enda Less/CSS koodi abil, mida kasutatakse lisaks Flarumi <a>vaikimisi stiilidele</a>.",
@@ -125,7 +125,7 @@
                 "permissions_title": "Õigused",
                 "purge_button": "",
                 "readme": {
-                    "button_label": "",
+                    "button_label": "README",
                     "no_readme": "",
                     "title": ""
                 }
@@ -550,7 +550,7 @@
             },
             "content": {
                 "javascript_disabled_message": "Seda lehte on soovitatav külastada kaasaegse veebilehitsejaga, kus on JavaScript lubatud.",
-                "load_error_message": "Miskit läks lehe laadimisel valesti. Äkki aitab lehe täismahus uuesti laadimine?",
+                "load_error_message": "Miskit läks lehe laadimisel valesti. Vea võib parandada lehekülje värskendamine.",
                 "loading_text": "=> core.ref.loading"
             },
             "discussion": {
@@ -602,7 +602,7 @@
             },
             "send_test": {
                 "subject": "Flarumi proovikiri",
-                "body": "Tere {username}!\n\nSee proovikiri on kinnituseks sellele, et sinu Flarumi meiliseadistused töötavad korralikult.\n\nKui see ei olnud sina, kes seda proovi tegi, siis lihtsalt ignoreeri seda kirja.\n"
+                "body": "Tere {username}!\n\nSee proovikiri on kinnituseks sellele, et teie Flarumi meiliseadistused töötavad korralikult.\n\nKui see olite teie, siis see tähendab, et meiliseadistused töötavad korralikult.\n\nKui see ei olnud teie, siis võite seda kirja ignoreerida.\n"
             }
         },
         "ref": {
@@ -625,7 +625,7 @@
             "email": "Meil",
             "extensions": "",
             "icon": "Ikoon",
-            "icon_text": "Sisesta <a>FontAwesome</a> ikooni klassinimi koos <strong>fas fa-</strong> algusega.",
+            "icon_text": "Sisesta <a>FontAwesome</a> ikooni klassinimi <em>koos</em> <code>fas fa-</code> algusega.",
             "load_more": "Laadi juurde",
             "loading": "Laadin...",
             "log_in": "Sisene",
