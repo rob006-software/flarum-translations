@@ -107,7 +107,7 @@
             },
             "extension": {
                 "configure_scopes": "Kõik õigused",
-                "confirm_purge": "",
+                "confirm_purge": "Eemaldatakse kõik andmebaasi kirjed ja lisad, mis seostuvad selle laiendusega. See ei kustuta laiendust; seda tuleb teha kasutades Composerit. Olete kindel, et soovite jätkata?",
                 "disabled": "Keelatud",
                 "enable_to_see": "Luba laiendusel näha ja muuta seadeid.",
                 "enabled": "Lubatud",
@@ -123,11 +123,11 @@
                 "no_settings": "Sellel laiendusel pole seadeid.",
                 "open_modal": "Ava seaded",
                 "permissions_title": "Õigused",
-                "purge_button": "",
+                "purge_button": "Eemalda",
                 "readme": {
                     "button_label": "README",
-                    "no_readme": "",
-                    "title": ""
+                    "no_readme": "Sellel laiendusel ei paista README faili olevat",
+                    "title": "{extName} dokumentatsioon"
                 }
             },
             "header": {
@@ -310,8 +310,8 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} vastas {ago}",
                 "started_text": "{username} alustas {ago}",
-                "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": ""
+                "total_replies_a11y_label": "{count, plural, one {#vasta} other {# vastused}}",
+                "unread_replies_a11y_label": "{count, plural, one {# lugemata vastus} other {# lugemata vastused}}. Märgi {count, plural, one {reply} other {replies}} loetuks."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -329,9 +329,9 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profiil",
-                "search_clear_button_accessible_label": "",
+                "search_clear_button_accessible_label": "Kustuta otsingute ajalugu",
                 "search_placeholder": "Otsi foorumist",
-                "search_role_label": "",
+                "search_role_label": "Otsi foorumist",
                 "session_dropdown_accessible_label": "Näita sessiooniseadete menüüd",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -365,8 +365,8 @@
                 "username_or_email_placeholder": "Kasutajanimi või meiliaadress"
             },
             "notifications": {
-                "delete_all_confirm": "",
-                "delete_all_tooltip": "",
+                "delete_all_confirm": "Olete kindel, et soovite kustutada kõik teavitused? Teavitusi ei ole võimalik taastada",
+                "delete_all_tooltip": "Kustuta kõik teated",
                 "discussion_renamed_text": "{username} muutis pealkirja",
                 "empty_text": "Teateid pole",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
@@ -415,7 +415,7 @@
                 "account_heading": "Konto",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
-                "notification_checkbox_a11y_label_template": "",
+                "notification_checkbox_a11y_label_template": "Saa \"{description}\" teavitusi {method} kaudu",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Veeb",
@@ -462,13 +462,13 @@
                 "sent_message": "Saadetud"
             },
             "welcome_hero": {
-                "hide": ""
+                "hide": "Peida tervitussõnum"
             }
         },
         "lib": {
-            "debug_button": "",
+            "debug_button": "Silumisrežiim",
             "alert": {
-                "dismiss_a11y_label": ""
+                "dismiss_a11y_label": "Hülga teavitus"
             },
             "badge": {
                 "hidden_tooltip": "Peidetud"
@@ -488,31 +488,31 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": ""
+                "nothing_available": "Sul ei ole õigust seda kasutajat muuta."
             },
             "error": {
                 "dependent_extensions_message": "{extension} laiendust ei saa keelata enne nende laienduste keelamist: {extensions}",
-                "extension_initialiation_failed_message": "",
+                "extension_initialiation_failed_message": "{extension} paigaldamine ebaõnnestus - lisainformatsiooni võid leida brauseri konsoolist.",
                 "generic_message": "Oih! Juhtus ootamatu viga. Palun laadi leht uuesti ja proovi veel kord.",
                 "missing_dependencies_message": "{extension} laiendust ei saa lubada enne nende laienduste lubamist: {extensions}",
                 "not_found_message": "Nõutud ressurssi ei leitud.",
-                "payload_too_large_message": "",
+                "payload_too_large_message": "Teostatud päring oli liiga mahukas.",
                 "permission_denied_message": "Sul ei ole selle jaoks õigust.",
                 "rate_limit_exceeded_message": "Postitad liiga kiiresti. Proovi mõne sekundi pärast uuest.",
-                "render_failed_message": ""
+                "render_failed_message": "Vabandage, sisu kuvamisel tekkis viga. Kui olete kasutaja, siis proovige hiljem uuesti. Kui olete foorumi administraator, siis kontrollige Flarumi logifaile, kust leiab lisainformatsiooni."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Lehekülg # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Lehekülg # - {forumName}}}"
             },
             "modal": {
-                "close": ""
+                "close": "Sulge"
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "Ava navigatsioon"
             },
             "number_suffix": {
                 "kilo_text": "k",
@@ -530,21 +530,21 @@
         "views": {
             "admin": {
                 "extensions": {
-                    "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "caption": "=> core.ref.extensions",
+                    "disable": "Keela",
+                    "empty": "Laiendusi ei ole paigaldatud",
+                    "enable": "Luba",
+                    "name": "Laienduse nimi",
+                    "package_name": "Paketi nimi",
+                    "version": "Versioon"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "Rakenduse info"
                 },
-                "title": ""
+                "title": "Administreerimine"
             },
             "confirm_email": {
-                "submit_button": "",
+                "submit_button": "=> core.ref.confirm_email",
                 "text": "",
                 "title": ""
             },
