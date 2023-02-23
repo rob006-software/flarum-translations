@@ -942,7 +942,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/littlecxm/flarum-reply-to-see/1.0.2/resources/locale/en.yml',
 	],
 	'lrysia-pagination' => [
-		'tag' => 'https://raw.githubusercontent.com/lrysia/flarum-pagination/1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/lrysia/flarum-pagination/1.1.0/resources/locale/en.yml',
 	],
 	'maicol07-oidc-client' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/maicol07-oidc-client.yml',
