@@ -245,6 +245,18 @@ return [
 		],
 		'maintainers' => [],
 	],
+	'kk' => [
+		'type' => 'language',
+		'language' => 'kk',
+		'repository' => 'git@github.com:flarum-lang/kazakh.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'ko' => [
 		'type' => 'language',
 		'language' => 'ko',
