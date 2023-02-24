@@ -2,26 +2,26 @@
     "nearata-related-discussions": {
         "admin": {
             "settings": {
-                "allow_guests": "",
-                "generator": "",
+                "allow_guests": "Ziyaretçilere İzin Ver",
+                "generator": "Oluşturucu",
                 "generator_options": {
-                    "random": "",
-                    "title": ""
+                    "random": "Rastgele",
+                    "title": "Başlığa göre"
                 },
-                "max_discussions": "",
-                "max_discussions_help": "",
+                "max_discussions": "En Fazla Tartışma",
+                "max_discussions_help": "Varsayılan <strong>5</strong> olarak belirlenmiştir.",
                 "position": "",
                 "position_options": {
-                    "first_post": "",
-                    "last_post": ""
+                    "first_post": "İlk Tartışmadan Sonra",
+                    "last_post": "Son Tartışmadan Sonra"
                 },
-                "cache": "",
-                "cache_help": ""
+                "cache": "Önbellek",
+                "cache_help": "Format <strong>0-31d0-23h0-59m</strong> şeklinde olmalıdır"
             }
         },
         "forum": {
-            "discussion_list_title": "",
-            "no_results": ""
+            "discussion_list_title": "İlgili Tartışmalar",
+            "no_results": "İlgili tartışma bulunamadı"
         }
     }
 }
