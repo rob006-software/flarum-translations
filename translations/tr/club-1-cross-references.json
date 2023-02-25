@@ -3,23 +3,23 @@
         "admin": {
             "show_discussion_id": {
                 "label": "Tartışma kimliğini göster",
-                "help": "Bir tartışmanın görüntülendiği her yere tartışma kimlik numaraları ekleyin"
+                "help": "Bir tartışmanın görüntülendiği her yere tartışma kimlik numaraları ekleyin."
             },
             "enable_short_references": {
-                "label": "",
-                "help": ""
+                "label": "Kısa referansları etkileştir",
+                "help": "Mesajlardaki #<ID> metnini (ör. #42) ilgili tartışmanın bağlantılarına dönüştürün."
             },
             "retrofit_links_in_frontend": {
-                "label": "",
-                "help": ""
+                "label": "Bağlantıları kullanıcı arabiriminde güçlendir",
+                "help": "Bu uzantı etkinleştirilmediğinde gönderilen iletilerdeki tartışma bağlantılarının başlıklarını gösterin. Bu ön uçta yapılır, bu nedenle kötü bir kullanıcı deneyimine yol açabilir.\n"
             }
         },
         "forum": {
             "post_stream": {
                 "discussion_referenced_text": "{username}, bu tartışmaya {source} kaynağından başvurdu",
-                "discussion_referenced_multiple_text": ""
+                "discussion_referenced_multiple_text": "{username}, bu tartışmaya birden çok kaynaktan başvurdu: {sources}"
             },
-            "unknown_discussion": "<BİLİNMEYEN TARTIŞMA>",
+            "unknown_discussion": "<bilinmeyen tartışma>",
             "comment": "yorum"
         }
     }
