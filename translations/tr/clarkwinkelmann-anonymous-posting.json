@@ -2,15 +2,15 @@
     "clarkwinkelmann-anonymous-posting": {
         "admin": {
             "settings": {
-                "defaultAnonymity": "",
-                "defaultAnonymityWhenAbleToSwitch": "",
-                "alwaysAnonymiseEdits": "",
-                "alwaysAnonymiseEditsHelp": "",
+                "defaultAnonymity": "Varsayılan olarak yeni içeriği anonim yap",
+                "defaultAnonymityWhenAbleToSwitch": "İzine sahip kullanıcılar için varsayılan olarak yeni içeriği anonim yap",
+                "alwaysAnonymiseEdits": "Düzenlemeleri daima anonim yap",
+                "alwaysAnonymiseEditsHelp": "Varsayılan olarak, anonim gönderi yazarı tarafından yapılan düzenlemeler/gizlemeler anonimleştirilir, ancak bir gönderiyi veya tartışmayı düzenleyen herhangi bir moderatör, düzenleme/gizleme yazarı olarak gösterilmeye devam eder. Bu seçenek etkinleştirildiğinde, düzenleme/gizleme aktörü kim olursa olsun hiçbir zaman anonim içerikte oturum açmayacaktır.\n",
                 "composerHelpTextPosition": "Düzenleyici yardım metni konumu",
                 "composerHelpTextPositionVisible": "Görünür (etiketin altında)",
                 "composerHelpTextPositionTooltip": "İpucu (etiketten sonra)",
                 "composerHelpTextPositionHidden": "Gizli",
-                "composerHelpTextPositionHelp": "",
+                "composerHelpTextPositionHelp": "Onay kutusu ve bu metin yalnızca izni olan kullanıcılar görür.",
                 "avatars": "Anonim avatarlar",
                 "avatarsHelp": "Bu özellik, premium <a>Formulaire uzantısı</a> gerektirir. Tartışmaları ve gönderileri almak için ek veritabanı istekleri gerektiğinden, bu özelliğin kullanılması performans üzerinde küçük bir etkiye neden olur. Her girişin formatı hakkında daha fazla ayrıntı için BENİOKU'ya bakın.\n",
                 "avatarFormId": "Form ID",
@@ -20,7 +20,7 @@
                 "avatarAdd": "Avatar kuralı ekle"
             },
             "permissions": {
-                "use": "Anonim olarak yayınla",
+                "use": "Düzenleyicideyken içeriği anonim olarak değiştir seçeneği",
                 "reveal": "Anonim tartışmaların ve gönderilerin gerçek yazarlarını görün",
                 "moderate": "Herhangi bir tartışmayı veya gönderiyi anonimleştir veya anonimleştirme"
             }
