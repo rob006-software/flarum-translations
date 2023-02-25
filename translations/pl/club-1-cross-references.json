@@ -2,25 +2,25 @@
     "club-1-cross-references": {
         "admin": {
             "show_discussion_id": {
-                "label": "",
-                "help": ""
+                "label": "Wyświetl ID dyskusji",
+                "help": "Dodaje ID dyskusji na liście dyskusji oraz przy odniesieniach."
             },
             "enable_short_references": {
-                "label": "",
-                "help": ""
+                "label": "Włącz krótkie odnośniki",
+                "help": "Konwertuje #<ID> w treści postów (np. #42) na odnośniki do korespondujących dyskusji."
             },
             "retrofit_links_in_frontend": {
-                "label": "",
-                "help": ""
+                "label": "Przekształć w locie stare linki",
+                "help": "Podmienia adresy URL na tytuły dyskusji w postach, które zostały napisane zanim to rozszerzenie zostało włączone. Podmiana jest dokonana przez JavaScript i może negatywnie wpływać na komfort przeglądania dyskusji.\n"
             }
         },
         "forum": {
             "post_stream": {
-                "discussion_referenced_text": "",
-                "discussion_referenced_multiple_text": ""
+                "discussion_referenced_text": "{username} odniósł się do tej dyskusji w {source}",
+                "discussion_referenced_multiple_text": "{username} odniósł się do tej dyskusji wielu miejscach: {sources}"
             },
-            "unknown_discussion": "",
-            "comment": ""
+            "unknown_discussion": "[nieznana dyskusja]",
+            "comment": "komentarz"
         }
     }
 }
