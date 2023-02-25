@@ -35,31 +35,31 @@
                 "flarumApiPreviewsHelp": "Bu özellik, tüm Flarum destekli forumlar tarafından HTML'de zaten bulunan ek JSON verilerini ayrıştırır. Flarum 1.4+ çalıştıran ve <code>X-Powered-By</code> Flarum başlığının reklamını yapan herhangi bir forumla çalışır.\n",
                 "githubApiKey": "GitHub API Anahtarı",
                 "githubApiKeyHelp": "Özel depolar da dahil olmak üzere tüm depolar, sorunlar ve PR'ler için API destekli zengin GitHub önizlemelerini etkinleştirmek için doldurun.",
-                "githubOrgWhitelist": "",
-                "githubOrgWhitelistHelp": "",
-                "googleApiAuthConfig": "",
-                "googleApiAuthConfigHelp": "",
-                "googleApiKey": "",
-                "googleApiKeyHelp": "",
-                "youtubePlayer": "",
-                "youtubePlayerHelp": "",
-                "youtubeNoCookie": "",
-                "youtubeNoCookieHelp": "",
-                "youtubeApiPreviews": "",
-                "youtubeApiPreviewsHelp": "",
-                "googledriveApiPreviews": "",
-                "googledriveApiPreviewsHelp": ""
+                "githubOrgWhitelist": "Kuruluş beyaz listesi",
+                "githubOrgWhitelistHelp": "API destekli önizlemeyi kullanacak GitHub kuruluşlarının virgülle ayrılmış listesi. API anahtarı tarafından erişilebilen her özel deponun açığa çıkmasını önlemek, API kullanımını azaltmak veya yalnızca kendi kuruluşunuzun yerleştirme stilini değiştirmek için bu alanı kullanın. Boş bırakılırsa, API anahtarının erişebildiği herhangi bir depo önizlenebilir.\n",
+                "googleApiAuthConfig": "Google SDK Kimlik Doğrulama Yapılandırma Yolu veya JSON",
+                "googleApiAuthConfigHelp": "Bu ayar, aşağıdaki YouTube ve Google Drive ayarlarıyla birlikte kullanılır. Yerel dosya sistemindeki JSON kimlik doğrulama dosyasına veya o dosyanın içeriğine giden mutlak bir yol içermelidir. Boş bırakılırsa, bir API anahtarı veya hizmet hesabı, Google API SDK tarafından ortam değişkenleri aracılığıyla otomatik olarak keşfedilir.\n",
+                "googleApiKey": "Google SDK API anahtarı",
+                "googleApiKeyHelp": "Bu ayar, aşağıdaki YouTube ve Google Drive ayarlarıyla birlikte kullanılır. Boş bırakılırsa, bir API anahtarı veya hizmet hesabı, Google API SDK tarafından ortam değişkenleri aracılığıyla otomatik olarak keşfedilir.\n",
+                "youtubePlayer": "Önizlemeden YouTube videolarının oynatılmasına izin ver",
+                "youtubePlayerHelp": "Kullanıcı önizlemede oynat düğmesini tıkladığında isteğe bağlı olarak bir iframe oynatıcı yüklenir. YouTube alan adından karelere izin vermek için CSP'nizi ve çerçeve başlıklarınızı yapılandırmanız gerekir. Bu özellik, API erişimi olmadan kullanılabilir.\n",
+                "youtubeNoCookie": "YouTube'un çerezsiz iframe alanını kullanın",
+                "youtubeNoCookieHelp": "YouTube tarafından sunulan alternatif çerezsiz alana geçer. Bu seçenek etkinleştirildiğinde bazı videolar iframe'de oynatılamayabilir. Bu özellik, API erişimi olmadan kullanılabilir.\n",
+                "youtubeApiPreviews": "Gelişmiş API destekli zengin YouTube önizlemelerini etkinleştirin",
+                "youtubeApiPreviewsHelp": "Google API SDK'sı yukarıda yapılandırılmalıdır. Bu özellik, videolar hakkında daha fazla istatistik gösterecek ve SDK kullanıcısının erişebildiği özel videoları gösterebilir.\n",
+                "googledriveApiPreviews": "Gelişmiş API destekli zengin Google Drive önizlemelerini etkinleştirin",
+                "googledriveApiPreviewsHelp": "Google API SDK'sı yukarıda yapılandırılmalıdır. Bu özellik, Google Drive dosyalarının başlığını ve önizlemesini gösterir. Özel dosyaların önizlemesini etkinleştirmek için özel bir Drive'a erişimi olan bir hizmet hesabı kullanın.\n"
             },
             "section": {
-                "siteSpecificHelp": "",
-                "flarum": "",
-                "github": "",
-                "google": "",
-                "youtube": "",
-                "googledrive": ""
+                "siteSpecificHelp": "Aşağıda, OpenGraph ve HTML kazıma yoluyla elde edilemeyen verileri kullanarak yerleştirmeleri iyileştiren siteye özgü ayarlar bulunmaktadır. Tüm seçenekler isteğe bağlıdır. Seçeneklerden bazıları, oran limitleri veya ücretlerle birlikte gelebilecek üçüncü taraf API erişimini gerektirir.\n",
+                "flarum": "Flarum",
+                "github": "GitHub",
+                "google": "Google",
+                "youtube": "YouTube",
+                "googledrive": "Google Drive"
             },
             "permissions": {
-                "viewGoogleDriveThumbnails": "",
+                "viewGoogleDriveThumbnails": "API destekli Google Drive küçük resimlerini görüntüleyin",
                 "useOnOwnPost": "Kendi gönderisinde yerleştirme kullan",
                 "disableOnOwnPost": "Kendi gönderisine yerleştirmeleri devre dışı bırak",
                 "refreshOnOwnPost": "Kendi gönderisindeki yerleştirmeleri yenile",
@@ -76,10 +76,10 @@
             "embed": {
                 "altFavicon": "{website} Simge",
                 "altImageFallback": "{website} Opengraph Görseli",
-                "altAvatar": "",
+                "altAvatar": "Yazar profil resmi",
                 "missing": {
-                    "retrieving": "",
-                    "other": ""
+                    "retrieving": "Alınıyor...",
+                    "other": "Bu bağlantı için önizleme oluşturulamadı"
                 }
             },
             "controls": {
@@ -89,8 +89,8 @@
                 "imgCopy": "Görselin linkini kopyala",
                 "imgCopied": "Kopyalandı!",
                 "imgOpen": "Resmi yeni sekmede aç",
-                "play": "",
-                "expandDescription": ""
+                "play": "İçe gömülmüş bir oynatıcı kullanarak medya oynatmak için tıklayın",
+                "expandDescription": "Açıklamayı genişlet"
             }
         },
         "api": {
@@ -101,31 +101,31 @@
             "embed": {
                 "flarum": {
                     "discussion": {
-                        "type": "",
+                        "type": "Tartışma",
                         "stats": {
-                            "commentCount": "",
-                            "participantCount": "",
-                            "createdAt": ""
+                            "commentCount": "Yanıtlar",
+                            "participantCount": "Katılımcılar",
+                            "createdAt": "Başlangıç tarihi"
                         }
                     },
                     "user": {
-                        "type": "",
-                        "avatarAlt": "",
+                        "type": "Profil",
+                        "avatarAlt": "Profil resmi",
                         "stats": {
-                            "discussionCount": "",
-                            "commentCount": "",
-                            "joinTime": ""
+                            "discussionCount": "Tartışmalar",
+                            "commentCount": "Yorumlar",
+                            "joinTime": "Katılma tarihi"
                         }
                     }
                 },
                 "github": {
-                    "siteName": "",
-                    "privateRepoSuffix": "",
+                    "siteName": "GitHub",
+                    "privateRepoSuffix": "[özel]",
                     "issue": {
-                        "type": "",
+                        "type": "Sorun",
                         "stats": {
-                            "commentCount": "",
-                            "createdAt": ""
+                            "commentCount": "Yorumlar",
+                            "createdAt": "Oluşturulma tarihi"
                         }
                     },
                     "pull": {
