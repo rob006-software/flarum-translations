@@ -7,7 +7,7 @@
             },
             "enable_short_references": {
                 "label": "Włącz krótkie odnośniki",
-                "help": "Konwertuje #<ID> w treści postów (np. #42) na odnośniki do korespondujących dyskusji."
+                "help": "Konwertuje #<ID> w treści postów (np. #42) na odnośniki do powiązanych dyskusji."
             },
             "retrofit_links_in_frontend": {
                 "label": "Przekształć w locie stare linki",
@@ -17,7 +17,7 @@
         "forum": {
             "post_stream": {
                 "discussion_referenced_text": "{username} odniósł się do tej dyskusji w {source}",
-                "discussion_referenced_multiple_text": "{username} odniósł się do tej dyskusji wielu miejscach: {sources}"
+                "discussion_referenced_multiple_text": "{username} odniósł się do tej dyskusji w: {sources}"
             },
             "unknown_discussion": "[nieznana dyskusja]",
             "comment": "komentarz"
