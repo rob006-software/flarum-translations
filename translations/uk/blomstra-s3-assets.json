@@ -2,13 +2,13 @@
     "blomstra-s3-assets": {
         "admin": {
             "settings": {
-                "configured_by_environment": "",
-                "aws-section": "",
-                "s3-compatible-section": "",
-                "s3-compatible-section-help": "",
+                "configured_by_environment": "Налаштування було попередньо налаштовано, тут немає на що дивитися.",
+                "aws-section": "Ці налаштування потрібні як для ковшів AWS S3, так і для S3-сумісних ковшів",
+                "s3-compatible-section": "Ці налаштування потрібні лише для S3-сумісних ковшів",
+                "s3-compatible-section-help": "Залиште ці налаштування порожніми, якщо ви використовуєте AWS S3",
                 "s3key": {
-                    "label": "",
-                    "help": ""
+                    "label": "Ключ",
+                    "help": "допомога"
                 }
             }
         }
