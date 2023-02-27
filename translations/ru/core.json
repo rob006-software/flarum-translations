@@ -46,7 +46,7 @@
             "dashboard": {
                 "clear_cache_button": "Очистить кэш",
                 "description": "Панель управления форумом.",
-                "io_error_message": "Could not write to filesystem. Check your filesystem permissions an try again. Or try running from the command line.",
+                "io_error_message": "Не удалось записать в файловую систему. Проверьте права доступа к файловой системе и попробуйте ещё раз. Или попробуйте запустить из командной строки.",
                 "title": "Панель управления",
                 "tools_button": "Инструменты"
             },
@@ -203,7 +203,7 @@
                 "everyone_button": "Все",
                 "members_button": "=> core.group.members",
                 "signup_closed_button": "Закрыто",
-                "signup_open_button": "Открыто"
+                "signup_open_button": "Открыть"
             },
             "settings": {
                 "saved_message": "Настройки сохранены.",
@@ -272,7 +272,7 @@
                 "exit_full_screen_tooltip": "Выход из полноэкранного режима",
                 "full_screen_tooltip": "Развернуть",
                 "minimize_tooltip": "Свернуть",
-                "preview_tooltip": "Пред-просмотр"
+                "preview_tooltip": "Предварительный просмотр"
             },
             "composer_discussion": {
                 "body_placeholder": "Введите сообщение...",
@@ -319,7 +319,7 @@
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "Если введенный вами адрес эл.почты зарегистрирован на этом сайте, мы отправим Вам письмо, содержащее ссылку для восстановления пароля. Проверьте папку со спамом, если Вы не получили письмо в течение нескольких минут.",
+                "email_sent_message": "Если введённый Вами адрес e-mail зарегистрирован на этом сайте, мы отправим Вам письмо, содержащее ссылку для восстановления пароля. Проверьте папку со спамом, если Вы не получили письмо в течение нескольких минут.",
                 "not_found_message": "Пользователи с указанным e-mail не найдены.",
                 "submit_button": "Восстановить пароль",
                 "text": "Введите свой e-mail и мы отправим Вам ссылку для сброса пароля.",
@@ -334,7 +334,7 @@
                 "profile_button": "Профиль",
                 "search_clear_button_accessible_label": "Clear search query",
                 "search_placeholder": "Поиск...",
-                "search_role_label": "Search Forum",
+                "search_role_label": "Поиск...",
                 "session_dropdown_accessible_label": "Меню опций сессии",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -418,7 +418,7 @@
                 "account_heading": "Аккаунт",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
-                "notification_checkbox_a11y_label_template": "Receive \"{description}\" notifications via {method}",
+                "notification_checkbox_a11y_label_template": "Получать \"{description}\" уведомления через {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
@@ -601,15 +601,15 @@
             },
             "confirm_email": {
                 "subject": "Подтверждение нового адреса e-mail",
-                "body": "Здравствуйте, {username}!\n\nВы изменили адрес электронной почты на форуме {forum}.\n\nНажмите на ссылку и Ваш адрес электронной почты будет подтверждён:\n{url}\n\nЕсли это не Вы, пожалуйста, проигнорируйте это сообщение.\n"
+                "body": "Здравствуйте, {username}!\n\nВы изменили адрес e-mail на форуме {forum}.\n\nНажмите на ссылку и Ваш адрес e-mail будет подтверждён:\n{url}\n\nЕсли Вы не меняли адрес e-mail, пожалуйста, проигнорируйте это сообщение.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
                 "body": "Здравствуйте, {username}!\n\nВы подали запрос на сброс пароля для аккаунта на форуме {forum}.\n\nНажмите на ссылку для сброса пароля:\n{url}\n\nЕсли Вы не хотите менять свой пароль, просто проигнорируйте это сообщение и ничего не произойдёт.\n"
             },
             "send_test": {
-                "subject": "Проверка электронной почты Flarum",
-                "body": "Здравствуйте, {username}!\n\nЭто проверочное письмо означает, что Ваши параметры электронной почты настроены корректно.\n\nЕсли Вы инициализировали данную проверку, то Вы корректно настроили отправку электронной почты с форума.\n\nЕсли Вы НЕ инициализировали данную проверку, проигнорируйте это сообщение.\n"
+                "subject": "Проверка e-mail Flarum",
+                "body": "Здравствуйте, {username}!\n\nЭто проверочное письмо означает, что Ваши параметры e-mail настроены корректно.\n\nЕсли Вы инициализировали данную проверку, то Вы корректно настроили отправку e-mail с форума.\n\nЕсли Вы НЕ инициализировали данную проверку, проигнорируйте это сообщение.\n"
             }
         },
         "ref": {
