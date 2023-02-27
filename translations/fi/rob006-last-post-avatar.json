@@ -3,18 +3,18 @@
         "admin": {
             "settings": {
                 "mode": {
-                    "label": "",
-                    "help": "",
+                    "label": "Viimeisimmän viestin avatarin näyttötila",
+                    "help": "Valitse milloin ja missä viimeisimmän viestin avatar näytetään keskustelulistassa. Katso README tiedostosta vaihtoehtojen visualisointi.",
                     "options": {
-                        "all-replies": "",
-                        "non-op-replies": "",
-                        "always": "",
-                        "replace-main": ""
+                        "all-replies": "Vain vastaukset",
+                        "non-op-replies": "Vain vastaukset paitsi keskustelun aloittaja",
+                        "always": "Aina",
+                        "replace-main": "Korvaa keskustelun pääavatar"
                     }
                 },
                 "ignorePrivateDiscussions": {
-                    "label": "",
-                    "help": ""
+                    "label": "Älä huomioi yksityisviesteissä (FoF Byōbu)",
+                    "help": "Valitse tämä valinta, jos et halua vaihtaa avatarin käyttäytymistä yksityisissä keskusteluissa."
                 }
             }
         }
