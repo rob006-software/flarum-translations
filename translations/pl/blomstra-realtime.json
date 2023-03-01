@@ -2,12 +2,12 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "",
-                "discussion-list-new-activity-with-auto-release": ""
+                "discussion-list-new-activity": "{count, plural, one {Pokaż # zaktualizowaną dyskusję} other {Pokaż # zaktualizowane dyskusje}}",
+                "discussion-list-new-activity-with-auto-release": "{count, plural, one {# dyskusja posiada} other {# duskusje posiadają}} zaktualizowaną aktywność i zostanie załadowana za {releaseTimeout} sekund. Kliknij by pokazać teraz."
             },
             "typing-indicator": {
                 "anonymous-user": "[Anonim]",
-                "people-are-typing": "",
+                "people-are-typing": "{number, plural, one {# osoba pisze} other {# osoby piszą}}",
                 "users-are-typing": "",
                 "no-activity": "Nikt nie pisze"
             },
