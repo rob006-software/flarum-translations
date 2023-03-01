@@ -2,12 +2,12 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "{count, plural, one {Pokaż # zaktualizowaną dyskusję} other {Pokaż # zaktualizowane dyskusje}}",
-                "discussion-list-new-activity-with-auto-release": "{count, plural, one {# dyskusja posiada} other {# duskusje posiadają}} zaktualizowaną aktywność i zostanie załadowana za {releaseTimeout} sekund. Kliknij by pokazać teraz."
+                "discussion-list-new-activity": "{count, plural, one {Pokaż # zaktualizowaną dyskusję} few {Pokaż # zaktualizowane dyskusje} other {Pokaż # zaktualizowanych dyskusji}}",
+                "discussion-list-new-activity-with-auto-release": "{count, plural, one {# dyskusja posiada nową aktywność i zostanie załadowana} few {# dyskusje posiadają nową aktywność i zostaną załadowane} other {# dyskusji posiada nową aktywność i zostaną załadowane}} za {releaseTimeout, plural, one {# sekundę} few {# sekundy} other {# sekund}}. Kliknij, aby załadować od razu."
             },
             "typing-indicator": {
                 "anonymous-user": "[Anonim]",
-                "people-are-typing": "{number, plural, one {# osoba pisze} other {# osoby piszą}}",
+                "people-are-typing": "{number, plural, one {# osoba pisze} few {# osoby piszą} other {# osób pisze}}",
                 "users-are-typing": "",
                 "no-activity": "Nikt nie pisze"
             },
@@ -23,7 +23,7 @@
         },
         "admin": {
             "permission": {
-                "view-who-types": "Wyświetl kto pisze"
+                "view-who-types": "Podglądanie kto pisze"
             },
             "settings": {
                 "release-discussion-updates": "",
