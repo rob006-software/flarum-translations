@@ -334,6 +334,9 @@ return [
 	'convo-extensions-quick-reply' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/convo-extensions-quick-reply.yml',
 	],
+	'cpluscc-wordpress' => [
+		'tag' => 'https://raw.githubusercontent.com/cpluscc/114514/v1.19/resources/locale/en.yml',
+	],
 	'datitisev-backup' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/datitisev-backup.yml',
 	],
