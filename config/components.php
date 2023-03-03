@@ -729,7 +729,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/justoverclock-auto-post-badge-pro.yml',
 	],
 	'justoverclock-auto-post-count-badge' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/auto-post-count-badge/0.1.9/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/auto-post-count-badge/0.2.0/locale/en.yml',
 	],
 	'justoverclock-best-answer-badge' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/best-answer-badge/0.1.0/locale/en.yml',
