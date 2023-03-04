@@ -132,15 +132,15 @@
                 "publish_article": "",
                 "publish_article_hint": "",
                 "manage_tags": "",
-                "write": "",
-                "view": "",
+                "write": "Escrever",
+                "view": "Visualizar",
                 "nothing_to_preview": "",
                 "warning_save_changes": "",
                 "article_saved": ""
             },
             "tickets": {
                 "ticket": "",
-                "subject": "",
+                "subject": "Assunto",
                 "ticket_does_not_exist": "",
                 "return_to_overview": "",
                 "ticket_overview": "",
@@ -154,7 +154,7 @@
                 },
                 "convert_to_discussion": {
                     "button": "",
-                    "confirm": "",
+                    "confirm": "Tem certeza de que deseja converter este ticket em uma discussão pública? Se alguém compartilhou informações privadas, isso também se tornará público.",
                     "event": ""
                 },
                 "status": {
@@ -194,7 +194,7 @@
                 },
                 "tools": {
                     "view_ticket": "",
-                    "update_subject": "",
+                    "update_subject": "Atualizar assunto",
                     "assign_me": "",
                     "remove_me": "",
                     "update_status": "",
@@ -209,19 +209,19 @@
                 },
                 "fields": {
                     "language": {
-                        "title": "",
-                        "placeholder": "",
-                        "empty": "",
-                        "description": ""
+                        "title": "Idioma",
+                        "placeholder": "Selecione um idioma",
+                        "empty": "Nenhum idioma selecionado",
+                        "description": "Seu ticket de suporte será tratado em {language}."
                     },
                     "subject": {
-                        "title": "",
-                        "placeholder": "",
-                        "description": ""
+                        "title": "Assunto",
+                        "placeholder": "Assunto do Ticket",
+                        "description": "Tente descrever sua problema em uma frase curta."
                     },
                     "information": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Informações do Ticket",
+                        "placeholder": "Diga-nos em que podemos ajudá-lo"
                     },
                     "status": {
                         "title": "",
@@ -240,17 +240,17 @@
                     }
                 },
                 "compose_ticket": {
-                    "title": "",
-                    "private_support": "",
+                    "title": "Criar um novo Ticket",
+                    "private_support": "Para suporte privado, você pode usar este formulário para criar um novo ticket em nossa plataforma de suporte. Para assuntos de suporte não privados, consulte <a>nosso fórum</a>.",
                     "not_allowed": ""
                 },
                 "load_more": {
                     "title": ""
                 },
                 "my_tickets": {
-                    "title": "",
+                    "title": "Meus Tickets",
                     "description": "",
-                    "no_tickets": ""
+                    "no_tickets": "Você ainda não tem tickets."
                 },
                 "overview": {
                     "title": "",
@@ -267,7 +267,7 @@
                             "filter_count": ""
                         },
                         "language": {
-                            "any": ""
+                            "any": "Qualquer idioma"
                         },
                         "assignees": {
                             "title": "",
@@ -286,33 +286,33 @@
             "notifications": {
                 "replied_to_ticket": {
                     "name": "",
-                    "content": ""
+                    "content": "=> v17development-flarum-support.emails.replied_to_ticket.subject"
                 },
                 "ticket_resolved": {
                     "name": "",
-                    "content": ""
+                    "content": "=> v17development-flarum-support.emails.ticket_resolved.subject"
                 }
             }
         },
         "emails": {
             "replied_to_ticket": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name} respondeu ao seu ticket #{ticket_id}",
+                "body": "Prezado {recipient_display_name},\n\n{replier_display_name} respondeu ao seu ticket #{ticket_id} (assunto \"{subject}\").\n\nUse o link abaixo para revisar a resposta:\n{url}\n\nAguardamos sua resposta ou até que você marque este ticket como resolvido.\n"
             },
             "ticket_status_update": {
-                "subject": "",
+                "subject": "O ticket #{ticket_id} está marcado como {new_status}",
                 "body": ""
             },
             "ticket_resolved": {
-                "subject": "",
+                "subject": "O ticket #{ticket_id} está marcado como resolvido",
                 "body": ""
             },
             "ticket_pending_reply": {
-                "subject": "",
+                "subject": "O ticket #{ticket_id} está aguardando sua resposta",
                 "body": ""
             },
             "ticket_pending_reply_closed": {
-                "subject": "",
+                "subject": "O ticket #{ticket_id} foi fechado devido a inatividade",
                 "body": ""
             }
         }
