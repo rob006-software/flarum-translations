@@ -1,0 +1,91 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Borratu kategoria",
+                "delete_tag_confirmation": "Seguru zaude kategoria hau borratu nahi duzula? kategoria honen barruko eztabaidak EZ dira borratuko.",
+                "description_label": "Deskripzioa",
+                "hide_label": "Ezkutatu eztabaida GUZTIETATIK",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-tags.ref.create_tag"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Kudeatu eztabaidak ordenatzeko etiketak."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "Baimendu etiketen edizioa",
+                "restrict_by_tag_heading": "Erretrinjitu etiketak",
+                "tag_discussions_label": "Etiketatu diskusioak"
+            },
+            "tag_settings": {
+                "range_separator_text": "tik  ",
+                "required_primary_heading": "Derrigorrezko lehenengo mailako kategoria(k)",
+                "required_primary_text": "Idatzi eztabaida bakoitzeko lehenengo mailako kategoriaren gutxieneko eta gehiegizko kategoriak.",
+                "required_secondary_heading": "Derrigorrezko bigarren mailako kategoria(k)",
+                "required_secondary_text": "Idatzi eztabaida bakoitzeko bigarren mailako kategoriaren gutxieneko eta gehiegizko kategoriak.",
+                "title": "Etiketen ezarpennak"
+            },
+            "tags": {
+                "about_tags_text": "Etiketak eztabaidak ordenatzeko balio dute. Lehenengo kategoriak foru guztiak bezala dira: bi mailako hierarkian ordena daitezke. Bigarren mailakoak ez dute azpi hierarkiarik, azpi-ordenazio bat egiteko erabili daitezke.",
+                "create_tag_button": "=> flarum-tags.ref.create_tag",
+                "primary_heading": "Lehenengo mailako kategoriak",
+                "secondary_heading": "Bigarren mailako kategoriak",
+                "settings_button": "Ezarpenak"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "Kategoria guztiak",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "choose_primary_placeholder": "Aukeratu lehen mailako kategoria bat|Aukeratu {count} lehen mailako kategorietatik",
+                "choose_secondary_placeholder": "Choose 1 more tag|Choose {count} more tags",
+                "edit_title": "Editatu {title}rako etiketak",
+                "submit_button": "=> core.ref.okay",
+                "title": "Aukeratu zure eztabaidarako kategoriak"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "Choose Tags"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "Editatu kategoriak"
+            },
+            "header": {
+                "back_to_tags_tooltip": "Kategoria zerrendara bueltatu"
+            },
+            "index": {
+                "more_link": "Gehio...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Kategoria gabe"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username}(e)k {tagsAdded} gehitu ditu eta {tagsRemoved} kendu ditu.",
+                "added_tags_text": "{username} gehitu du {tagsAdded}.",
+                "removed_tags_text": "{username} kendu du {tagsRemoved}.",
+                "tags_text": "{tags} kategoria|{tags} kategoriak"
+            },
+            "tag": {
+                "meta_description_text": "{tags} kategoriatako eztabaida guztiak"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "Borratua"
+        },
+        "ref": {
+            "create_tag": "Sortu kategoria",
+            "name": "Izena",
+            "tags": "Kategoriak"
+        }
+    }
+}
