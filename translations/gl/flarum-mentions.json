@@ -1,0 +1,29 @@
+{
+    "flarum-mentions": {
+        "forum": {
+            "composer": {
+                "reply_to_post_text": "Responder a #{number}"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} respondeu ao teu post",
+                "user_mentioned_text": "{username} mencionoute"
+            },
+            "post": {
+                "mentioned_by_self_text": "{users} respondeu a isto.",
+                "mentioned_by_text": "{users} respondeu a isto.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Citar",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "Alguén respondeu a un dos meus posts",
+                "notify_user_mentioned_label": "Alguén mencionoume nun post"
+            },
+            "user": {
+                "mentions_link": "Mencións"
+            }
+        }
+    }
+}
