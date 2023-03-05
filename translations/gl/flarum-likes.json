@@ -1,0 +1,29 @@
+{
+    "flarum-likes": {
+        "admin": {
+            "permissions": {
+                "like_posts_label": "Post que me gustaron"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} liked your post"
+            },
+            "post": {
+                "like_link": "Gústame",
+                "liked_by_self_text": "{users} gústame isto.",
+                "liked_by_text": "{users} gústalles isto.|{users} gústalle isto.",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Xa non me gusta",
+                "you_text": "=> core.ref.you"
+            },
+            "post_likes": {
+                "title": "Usuarios que lles gusta isto"
+            },
+            "settings": {
+                "notify_post_liked_label": "Hai alguén que lle gusta un dos teus posts"
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "flarum-approval": {
+        "admin": {
+            "permissions": {
+                "approve_posts_label": "Aprobar post",
+                "reply_without_approval_label": "Responder sen aprobar",
+                "start_discussions_without_approval_label": "Comezar conversas sen aprobar"
+            }
+        },
+        "forum": {
+            "badge": {
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post": {
+                "awaiting_approval_text": "Agardando aprobación"
+            },
+            "post_controls": {
+                "approve_button": "Aprobar"
+            }
+        },
+        "ref": {
+            "awaiting_approval": "Pendente de aprobar"
+        }
+    }
+}
