@@ -2,20 +2,20 @@
     "the-turk-nodp": {
         "admin": {
             "permissions": {
-                "double_posting_label": ""
+                "double_posting_label": "Doble Post"
             },
             "settings": {
-                "time_limit_label": "",
-                "time_limit_text": ""
+                "time_limit_label": "Límite de tiempo",
+                "time_limit_text": "Si han pasado más de <b>xxx</b> minutos desde la última publicación en una discusión, se forzará al último usuario a editar su mensaje. Fíjalo en <b>0</b> para desactivar el límite de tiempo."
             }
         },
         "forum": {
             "composer_edit": {
-                "double_posting_warning_title": "",
-                "double_posting_warning_description": ""
+                "double_posting_warning_title": "Eres el último usuario en publicar en esta discusión.",
+                "double_posting_warning_description": "Como has sido el último en responder, por favor, edita tu mensaje en lugar de crear uno nuevo."
             },
             "discussion": {
-                "cannot_reply_alert_message": ""
+                "cannot_reply_alert_message": "No puedes responder a esta discusión hasta que alguien más responda."
             }
         }
     }
