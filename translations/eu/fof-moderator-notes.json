@@ -1,0 +1,33 @@
+{
+    "fof-moderator-notes": {
+        "admin": {
+            "permissions": {
+                "createnotes": "Sortu moderadore notak",
+                "viewnotes": "Ikusi moderatzaileen notak",
+                "deletenotes": "Borratu moderazio notak"
+            }
+        },
+        "forum": {
+            "no_content_given": "Nota hutsak ez daude baimenduta.",
+            "moderatorNotes": {
+                "created_text": "{username} sortu du nota bat {date}",
+                "add_button": "Nota berria",
+                "create-heading": "Sortu moderazio nota berri bat",
+                "dismiss_button": "Egina",
+                "input_heading": "Idatzi zure notak <strong>{username}</strong>, entzat (markdown erabilgarria da)",
+                "noNotes": "Ematen du ez daudela notarik.",
+                "submit_button": "Gorde notak",
+                "delete": "Borratu",
+                "confirm": "Seguru zaude nota hau borratu nahi duzula?"
+            },
+            "user": {
+                "notes": "Moderatzaileen notak"
+            }
+        },
+        "api": {
+            "auto_note": "Aldatuta erbiltzaile honi : azrrazoia",
+            "auto_note_actor": "Aldatua 'erabiltzailea': arrazoia",
+            "no_reason_provided": "Ez da heman arrazoirik."
+        }
+    }
+}
