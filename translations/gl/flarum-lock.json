@@ -1,0 +1,28 @@
+{
+    "flarum-lock": {
+        "admin": {
+            "permissions": {
+                "lock_discussions_label": "Conversas bloqueadas"
+            }
+        },
+        "forum": {
+            "badge": {
+                "locked_tooltip": "Bloqueada"
+            },
+            "discussion_controls": {
+                "lock_button": "Bloquear",
+                "unlock_button": "Desbloquear"
+            },
+            "notifications": {
+                "discussion_locked_text": "bloqueada por {username}"
+            },
+            "post_stream": {
+                "discussion_locked_text": "{username} bloqueou a conversa.",
+                "discussion_unlocked_text": "{username} desbloqueou a discussion."
+            },
+            "settings": {
+                "notify_discussion_locked_label": "Alguén bloqueou unha conversa que comecei"
+            }
+        }
+    }
+}
