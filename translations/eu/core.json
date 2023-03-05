@@ -23,8 +23,7 @@
                 "favicon_text": "Igo foruaren lasterbideko irudia.",
                 "logo_heading": "Logo",
                 "logo_text": "Igo foroaren izenburuaren ordez agertuko den irudia.",
-                "title": "Aparientzia",
-                "submit_button": "=> core.ref.save_changes"
+                "title": "Aparientzia"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -42,9 +41,7 @@
                 "slug_driver_text": "Aukeratu dirver bat Slugerako.",
                 "title": "Basikoak",
                 "welcome_banner_heading": "Ongi etorri bannerra",
-                "welcome_banner_text": "Ezarri eztabaida guztiak orrian erakutsiko den bannerraren testai. Erabili hau ongi etorria emateko.",
-                "saved_message": "Aldaketak gorde dira.",
-                "submit_button": "=> core.ref.save_changes"
+                "welcome_banner_text": "Ezarri eztabaida guztiak orrian erakutsiko den bannerraren testai. Erabili hau ongi etorria emateko."
             },
             "dashboard": {
                 "clear_cache_button": "Borratu Cachea",
@@ -106,8 +103,7 @@
                 "send_test_mail_success": "Test mezua bidali da!",
                 "send_test_mail_text": "Aukeratzean zure {email} helbidera test mezu bat bidaliko da.",
                 "smtp_heading": "SMTP Ezarpenak",
-                "title": "=> core.ref.email",
-                "submit_button": "=> core.ref.save_changes"
+                "title": "=> core.ref.email"
             },
             "extension": {
                 "configure_scopes": "",
@@ -132,10 +128,7 @@
                     "button_label": "",
                     "no_readme": "",
                     "title": ""
-                },
-                "confirm_uninstall": "Desinstalatzean extentsioari erlazionatua dauden sarrera, artxibo eta datu base taulak borratuko dira?",
-                "saved_message": "Zure aldaketak gorde dira.",
-                "uninstall_button": "Desinstalatu"
+                }
             },
             "header": {
                 "get_help": "Lortu laguntza",
@@ -198,9 +191,7 @@
                 "view_forum_label": "",
                 "view_hidden_groups_label": "Ikusi ezkutatutako taldeak",
                 "view_last_seen_at_label": "Ikusi beste erabiltzaileen azken konexioa",
-                "view_post_ips_label": "Ikusi postaren IP helbidea",
-                "view_discussions_label": "Ikusi ezarpenak",
-                "view_user_list_label": "Ikusi erabiltzaile zerrenda"
+                "view_post_ips_label": "Ikusi postaren IP helbidea"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Indefinitua",
@@ -320,8 +311,7 @@
                 "replied_text": "{username} erantzun du {ago}",
                 "started_text": "{username} hasi du {ago}",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
-                "mark_as_read_tooltip": "Markatu Irakurrita bezala"
+                "unread_replies_a11y_label": ""
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -473,19 +463,6 @@
             },
             "welcome_hero": {
                 "hide": ""
-            },
-            "edit_user": {
-                "activate_button": "Aktibatu erabiltzilea",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Taldeak",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Ezarri pasahitz berria",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Editatu erabiltzilea",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
             }
         },
         "lib": {
@@ -500,17 +477,17 @@
                 "toggle_dropdown_accessible_label": ""
             },
             "edit_user": {
-                "activate_button": "",
-                "email_heading": "",
-                "email_label": "",
-                "groups_heading": "",
-                "password_heading": "",
-                "password_label": "",
-                "set_password_label": "",
-                "submit_button": "",
-                "title": "",
-                "username_heading": "",
-                "username_label": "",
+                "activate_button": "Aktibatu erabiltzilea",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Taldeak",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Ezarri pasahitz berria",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Editatu erabiltzilea",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username",
                 "nothing_available": ""
             },
             "error": {
