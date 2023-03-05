@@ -23,8 +23,7 @@
                 "favicon_text": "Upload an image to be displayed as the forum's shortcut icon.",
                 "logo_heading": "Logo",
                 "logo_text": "Upload an image to be displayed in place of the forum title.",
-                "title": "",
-                "submit_button": "=> core.ref.save_changes"
+                "title": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -42,17 +41,14 @@
                 "slug_driver_text": "",
                 "title": "",
                 "welcome_banner_heading": "Banner de benvida",
-                "welcome_banner_text": "Configura o texto que se mostrará no banner na páxina de Todas as conversas. Úsao para darlle a benvida aos invitados ao teu foro.",
-                "saved_message": "Os teus cambios foron gardados.",
-                "submit_button": "=> core.ref.save_changes"
+                "welcome_banner_text": "Configura o texto que se mostrará no banner na páxina de Todas as conversas. Úsao para darlle a benvida aos invitados ao teu foro."
             },
             "dashboard": {
                 "clear_cache_button": "",
                 "description": "",
                 "io_error_message": "",
                 "title": "",
-                "tools_button": "",
-                "help_link": "Axuda"
+                "tools_button": ""
             },
             "debug-warning": {
                 "detail": "",
@@ -107,17 +103,7 @@
                 "send_test_mail_success": "",
                 "send_test_mail_text": "",
                 "smtp_heading": "",
-                "title": "",
-                "account_heading": "Conta SMTP",
-                "encryption_label": "Cifrado",
-                "heading": "=> core.ref.email",
-                "host_label": "Host",
-                "password_label": "=> core.ref.password",
-                "port_label": "Porto",
-                "server_heading": "Servidor SMTP",
-                "submit_button": "=> core.ref.save_changes",
-                "text": "Configura as opcións SMTP e direccións empregadas polo foro para enviar emails.",
-                "username_label": "=> core.ref.username"
+                "title": ""
             },
             "extension": {
                 "configure_scopes": "",
@@ -175,14 +161,7 @@
                 "permissions_title": "",
                 "userlist_button": "",
                 "userlist_title": "",
-                "search_placeholder": "",
-                "appearance_text": "Personaliza as cores, logos e outras variables do teu foro.",
-                "basics_text": "Define o título, idioma e outras configuracións básicas do teu foro.",
-                "dashboard_text": "O teu foro dunha ollada.",
-                "email_text": "Configura as opcións de email do foro.",
-                "extensions_button": "Extensións",
-                "extensions_text": "Engade funcionalidades ao teu foro para axustalo ás túas necesidades.",
-                "permissions_text": "Configura quen pode ver e facer o qué."
+                "search_placeholder": ""
             },
             "permissions": {
                 "allow_post_editing_label": "Permitir editar posts",
@@ -212,10 +191,7 @@
                 "view_forum_label": "",
                 "view_hidden_groups_label": "",
                 "view_last_seen_at_label": "",
-                "view_post_ips_label": "Ver direccións IP dos posts",
-                "edit_and_delete_posts_label": "Editar e borrar posts",
-                "view_discussions_label": "Ver conversas",
-                "view_user_list_label": "Ver lista de usuarios"
+                "view_post_ips_label": "Ver direccións IP dos posts"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Indefinidamente",
@@ -273,17 +249,6 @@
                 },
                 "title": "",
                 "total_users": ""
-            },
-            "add_extension": {
-                "developer_text": "Se eres un desenvolvedor, podes <a>ler a documentación</a> para axudarche a facer as túas propias extensións.",
-                "install_text": "Mentras tanto, podes buscar extensións na <a>web da comunidade Flarum</a> e instalalas manualmente usando Composer.",
-                "temporary_text": "Un dia, non moi lonxe, dende aquí poderás engadir extensións ao teu foro fácilmente. Estamos construindo un ecosistema",
-                "title": "Engadir extensión"
-            },
-            "extensions": {
-                "add_button": "Engadir extension",
-                "settings_button": "=> core.ref.settings",
-                "uninstall_button": "Desinstalar"
             }
         },
         "forum": {
@@ -346,8 +311,7 @@
                 "replied_text": "{username} respondeu {ago}",
                 "started_text": "{username} comezou {ago}",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
-                "mark_as_read_tooltip": "Marcar como lido"
+                "unread_replies_a11y_label": ""
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -499,19 +463,6 @@
             },
             "welcome_hero": {
                 "hide": ""
-            },
-            "edit_user": {
-                "activate_button": "Activar usuario",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Grupos",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Nova contrasinal",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Editar usuario",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
             }
         },
         "lib": {
@@ -614,12 +565,7 @@
                 "not_found": "",
                 "not_found_return_link": "",
                 "permission_denied": "",
-                "unknown": "",
-                "403_message": "Non tes permiso para acceder a esta páxina.",
-                "404_message": "A páxina que intentas acceder non existe.",
-                "404_return_link": "Volver a {forum}",
-                "500_message": "Ocorreu un erro intentando cargar esta páxina.",
-                "503_message": "{forum} esta en mantemento. Grazas pola túa paciencia!"
+                "unknown": ""
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
