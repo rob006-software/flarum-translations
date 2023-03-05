@@ -173,6 +173,18 @@ return [
 		],
 		'maintainers' => ['qiaeru'],
 	],
+	'gl' => [
+		'type' => 'language',
+		'language' => 'gl',
+		'repository' => 'git@github.com:flarum-lang/galician.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'he' => [
 		'type' => 'language',
 		'language' => 'he',
