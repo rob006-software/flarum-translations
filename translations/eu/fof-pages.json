@@ -1,0 +1,46 @@
+{
+    "fof-pages": {
+        "admin": {
+            "edit_page": {
+                "content_label": "=> fof-pages.ref.content",
+                "content_placeholder": "=> fof-pages.ref.content",
+                "delete_page_button": "Borratu orria",
+                "delete_page_confirmation": "Seguru nahi duzu orria borratu nahi duzula?",
+                "hidden_label": "Gorde ziriborro gisa",
+                "restricted_label": "Errestringitu baimena (aukeratu nork ikus dezakeen orria baimenetan)",
+                "html_label": "Aktibatu HTML",
+                "set_as_home_page_confirmation": "Seguru zaude hasiera orria bezala ezarri nahi duzula?",
+                "slug_label": "=> fof-pages.ref.slug",
+                "slug_placeholder": "=> fof-pages.ref.slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-pages.ref.create_page",
+                "title_label": "=> fof-pages.ref.title",
+                "title_placeholder": "=> fof-pages.ref.title",
+                "url_label": "=> fof-pages.ref.url",
+                "url_placeholder": "=> fof-pages.ref.url"
+            },
+            "pages": {
+                "create_button": "=> fof-pages.ref.create_page"
+            },
+            "pages_list": {
+                "empty_text": "Hematen du hemen ez dagoela orririk.",
+                "title": "=> fof-pages.ref.title"
+            },
+            "permissions": {
+                "restricted": "Ikusi errestringitutako orria"
+            },
+            "badges": {
+                "hidden": "Ziriborroa",
+                "restricted": "Errestringitua"
+            }
+        },
+        "ref": {
+            "content": "Edukia",
+            "create_page": "Sortu orria",
+            "pages": "Orria",
+            "slug": "Slug",
+            "title": "Izenburua",
+            "url": "URL"
+        }
+    }
+}

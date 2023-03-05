@@ -1,0 +1,35 @@
+{
+    "flarum-nicknames": {
+        "admin": {
+            "permissions": {
+                "edit_own_nickname_label": "Editatu nicknamea"
+            },
+            "settings": {
+                "max_label": "Luzeera maximoa",
+                "min_label": "Luzeera minimoa",
+                "regex_label": "Balidazioa expresio erregularra",
+                "unique_label": "Nickname unikoak eskatu?"
+            },
+            "wrong_driver": "Nicknames aukeratzeko beharreko driverra ezarri behar duzu <a><strong>Gutxieneko orria</strong></a> extensio ezarpenetan funtzionatzeko."
+        },
+        "api": {
+            "invalid_nickname_message": "Nickname hau ez da baliogarria. Kontaktatu kudeatzailea nickname erregelak jakiteko."
+        },
+        "forum": {
+            "change_nickname": {
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "edit_user": {
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "Nickname"
+            },
+            "settings": {
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            }
+        },
+        "ref": {
+            "change_nickname": "Aldatu Nickname"
+        }
+    }
+}

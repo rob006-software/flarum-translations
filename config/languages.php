@@ -41,6 +41,7 @@ return [
 		// '!v17development-seo', https://github.com/v17development/flarum-seo/issues/61#issuecomment-855474306
 	]),
 	'et' => getComponents(),
+	'eu' => getComponents(),
 	'fa' => getComponents(),
 	'fi' => getComponents(),
 	'fr' => getComponents([

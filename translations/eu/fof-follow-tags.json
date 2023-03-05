@@ -1,0 +1,75 @@
+{
+    "fof-follow-tags": {
+        "forum": {
+            "settings": {
+                "notify_new_discussion_label": "Norbaitek jarraitzen ari dudan etiketa batean eztabaida sortzen duenean",
+                "notify_new_post_label": "Norbaitek jarraitzen ari naizen etiketa batean posteatzen duenean",
+                "notify_new_discussion_tag_label": "Norbaitek retageatzen duenean jarraitzen ari dudan eztabaida bat"
+            },
+            "index": {
+                "follow_tag_button": "Jarraitu",
+                "unfollow_tag_button": "Utzi jarraitzeari",
+                "following": {
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
+                }
+            },
+            "badge": {
+                "following_tag_tooltip": "Jarraitzen",
+                "lurking_tag_tooltip": "Zelatatutakoak"
+            },
+            "sub_controls": {
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
+                "following_text": "Eztabaida berri guztien berri izan.",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
+                "hiding_text": "Ezkutatu eztabaida eztabaida guztien orritik.",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
+                "ignoring_text": "Ez izan inoiz notifikatua.",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
+                "lurking_text": "Notifikatuta izan eztabaida eta erantzun berri guztietatik.",
+                "not_following_button": "Ez jarraitzen",
+                "not_following_text": "Notifikatuta izan bakarrik nik @mentzionatzean.",
+                "notify_alert_tooltip": "Eztabaida eta posten berri izan foruan",
+                "notify_email_tooltip": "Jaso email bat post eta eztabaida berriak sortzean"
+            },
+            "notifications": {
+                "new_discussion_text": "{username} hasi du",
+                "new_post_text": "{username} posteatu du",
+                "new_discussion_tag_text": "{username} aldatu du taga"
+            },
+            "user": {
+                "settings": {
+                    "heading": "Jarraitutako Tagak",
+                    "filter_label": "Zer erakutsi jarraitutako tagetan"
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "following_page_default_label": "Aurretsitako jarraitu orria",
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
+            }
+        },
+        "email": {
+            "subject": {
+                "newDiscussionInTag": "[Tag | Eztabaida berria] {title}",
+                "newPostInTag": "[Tag | Post Berria] {title}",
+                "newDiscussionTag": "[Tag | Tag aldatua] {title}"
+            },
+            "body": {
+                "newDiscussionInTag": "Aupa {recipient_display_name},\n\n{actor_display_name} eztabaida berraia sortu du jarraitzena ari duzun tag batean: {discussion_title}\n\nEztabaida berria ikusteko jarraitu link hau:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newPostInTag": "Aupa {recipient_display_name},\n\n{actor_display_name} posted posteatu du jarraitzen ari zaren tag bateko eztabaida batean: {discussion_title}\n\nAktibitate berria ikusteko, jarraitu hurrengo linka:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nEz dituzu eztabaida honetako berrirk izango egunera egon arte.\n",
+                "newDiscussionTag": "Aupa {recipient_display_name},\n\n{actor_display_name} aldatu du {author_display_name} jarraitzen ari duzun batera {discussion_title} eztabaidan\n\nEztabaida berri bat ikusteko, jarraitu linka:\n{discussion_url}\n"
+            }
+        },
+        "ref": {
+            "follow": "Jarraitu",
+            "following": "Jarraitzen",
+            "hiding": "Ezkutatzen",
+            "ignoring": "Ignoratu",
+            "lurking": "Ikusten"
+        }
+    }
+}

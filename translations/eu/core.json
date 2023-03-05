@@ -1,0 +1,549 @@
+{
+    "core": {
+        "admin": {
+            "appearance": {
+                "colored_header_label": "Koloreztatutako orriburua",
+                "colors_heading": "Koloreak",
+                "colors_text": "Aukeratu zure txantiloirako bi kolore. Lehenengoa azpimarratzeko erabiliko da, bestea elementu batzuentzako atzeko kolore bezala.",
+                "custom_footer_heading": "Oinorri pertsonalizatua",
+                "custom_footer_text": "=> core.ref.custom_footer_text",
+                "custom_header_heading": "Orriburu pertsonalizatua",
+                "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_heading": "Estilu pertsonalizatua",
+                "custom_styles_text": "Sartu zure CSS/LESS pertsonalizatua, estilo hauek Falrumekoa estiluen gainetik idatziko du.",
+                "dark_mode_label": "Gau modua",
+                "description": "Customize your forum's colors, logos, and other variables.",
+                "edit_css_button": "Editatu CSS pertsonalizatua",
+                "edit_footer_button": "=> core.ref.custom_footer_title",
+                "edit_header_button": "=> core.ref.custom_header_title",
+                "enter_hex_message": "Mesedez, idatzi kolore hexadezimal kolorea.",
+                "favicon_heading": "Favicon",
+                "favicon_text": "Igo foruaren lasterbideko irudia.",
+                "logo_heading": "Logo",
+                "logo_text": "Igo foroaren izenburuaren ordez agertuko den irudia.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Aparientzia"
+            },
+            "basics": {
+                "all_discussions_label": "=> core.ref.all_discussions",
+                "default_language_heading": "Aurrezarritako hizkuntza",
+                "description": "Ezarri zure foruaren izenburua, hizkuntza, eta beste batzuk.",
+                "display_name_heading": "Erabiltzailearen Izena",
+                "display_name_text": "Aukeratu ze driverrak erabiliko diren izenak erakusteko. Aurrezarrita erabiltzaile izena erakusten da.",
+                "forum_description_heading": "Foroaren deskribapena",
+                "forum_description_text": "Idatzi zure komunitatea deskribatzen duen bat edo bi esaldi. Hau bilatzaileen metatag-ean agertuko da.",
+                "forum_title_heading": "Foroaren Izenburua",
+                "home_page_heading": "Hasierako Orria",
+                "home_page_text": "Aukeratu erabiltzailea ikusiko duen orria sartzen denean.",
+                "saved_message": "Aldaketak gorde dira.",
+                "show_language_selector_label": "Erakutsi hizkuntza aukeratzeko menua",
+                "slug_driver_heading": "Slug Driver: {model}",
+                "slug_driver_text": "Aukeratu dirver bat Slugerako.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Basikoak",
+                "welcome_banner_heading": "Ongi etorri bannerra",
+                "welcome_banner_text": "Ezarri eztabaida guztiak orrian erakutsiko den bannerraren testai. Erabili hau ongi etorria emateko."
+            },
+            "dashboard": {
+                "clear_cache_button": "Borratu Cachea",
+                "tools_button": "Tresnak",
+                "title": "Aginte-Panela"
+            },
+            "edit_css": {
+                "customize_text": "Pertsonalizatu zure foruko diseinua zure LESS/CESS kodea. Hau Flarum kodearen <a>aurrezarritako estiluen</a> gainean aplikatuko da.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Editatu pertsonalizatutako CSS"
+            },
+            "edit_footer": {
+                "customize_text": "=> core.ref.custom_footer_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
+            },
+            "edit_group": {
+                "color_label": "=> core.ref.color",
+                "delete_button": "Borratu taldea",
+                "delete_confirmation": "Seguru zude talde hau borratu nahi duzula? Tade hauen barruan dauden erabiltzaileak EZ dira ezabatuko.",
+                "hide_label": "Ezkutatu foruan",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "Izena",
+                "plural_placeholder": "Pluralak (adb. Adibidea)",
+                "singular_placeholder": "Singular (adb. Adibideak)",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Sortu taldea"
+            },
+            "edit_header": {
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
+            },
+            "email": {
+                "addresses_heading": "Helbideak",
+                "description": "Konfiguratu driverra, aukerak eta emaila bidaliko dituzun helbideak.",
+                "driver_heading": "Aukeratu protokoloa",
+                "driver_label": "Protokoloa",
+                "from_label": "Bidaltzailea",
+                "mail_encryption_label": "Encryption",
+                "mail_host_label": "Host",
+                "mail_mailgun_domain_label": "Domeinua",
+                "mail_mailgun_region_label": "Erregioa",
+                "mail_mailgun_secret_label": "Kode sekretua",
+                "mail_password_label": "=> core.ref.password",
+                "mail_port_label": "Portua",
+                "mail_username_label": "=> core.ref.username",
+                "mailgun_heading": "Mailgun ezarpenak",
+                "not_sending_message": "Flarum ezin ditu emailak bidali, berrikusi driver eta helbide ezarpenak.",
+                "send_test_mail_button": "Bidali",
+                "send_test_mail_heading": "Bidali Test Mezua",
+                "send_test_mail_success": "Test mezua bidali da!",
+                "send_test_mail_text": "Aukeratzean zure {email} helbidera test mezu bat bidaliko da.",
+                "smtp_heading": "SMTP Ezarpenak",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.email"
+            },
+            "extension": {
+                "confirm_uninstall": "Desinstalatzean extentsioari erlazionatua dauden sarrera, artxibo eta datu base taulak borratuko dira?",
+                "disabled": "Desaktibatuta",
+                "enabled": "Aktibatuta",
+                "enable_to_see": "Aktibatu extentsioa aukerak ikusi ahal izateko.",
+                "info_links": {
+                    "discuss": "Eztabaidak",
+                    "documentation": "Dokumentazioa",
+                    "donate": "Donazioa",
+                    "source": "Jatorria",
+                    "support": "Laguntza",
+                    "website": "Webgunea"
+                },
+                "no_permissions": "Extentsio hau ez dauzka baimenik.",
+                "no_settings": "Extentsio hau ez dauzka aukerarik.",
+                "open_modal": "Ireki ezarpenak",
+                "permissions_title": "Baimenak",
+                "saved_message": "Zure aldaketak gorde dira.",
+                "uninstall_button": "Desinstalatu"
+            },
+            "header": {
+                "get_help": "Lortu laguntza",
+                "log_out_button": "=> core.ref.log_out"
+            },
+            "loading": {
+                "title": "Itxoin mesedez..."
+            },
+            "nav": {
+                "appearance_button": "=> core.admin.appearance.title",
+                "appearance_title": "=> core.admin.appearance.descriptio",
+                "basics_button": "=> core.admin.basics.title",
+                "basics_title": "=> core.admin.basics.description",
+                "categories": {
+                    "authentication": "Autentifikazioa",
+                    "core": "Core Ezarpenak",
+                    "discussion": "Eztabaidak",
+                    "feature": "Ezaugarrika",
+                    "formatting": "Formatua",
+                    "language": "Hizkuntzak",
+                    "moderation": "Moderazio",
+                    "other": "Beste extentsioak",
+                    "theme": "Diseinu gaiak"
+                },
+                "dashboard_button": "=> core.admin.dashboard.title",
+                "dashboard_title": "=> core.admin.dashboard.description",
+                "email_button": "=> core.ref.email",
+                "email_title": "=> core.admin.email.description",
+                "permissions_button": "=> core.admin.permissions.title",
+                "permissions_title": "=> core.admin.permissions.description",
+                "search_placeholder": "Bilatu extensioak"
+            },
+            "permissions": {
+                "allow_post_editing_label": "Baimendu posten edizioa",
+                "allow_renaming_label": "Baimendu izenburuaren aldaketa",
+                "create_heading": "Sortu",
+                "delete_discussions_forever_label": "Borratu eztabaida betirako",
+                "delete_discussions_label": "Borratu eztabaida",
+                "delete_posts_forever_label": "Borratu posta betiraki",
+                "delete_posts_label": "Borratu posta",
+                "description": "Configure who can see and do what.",
+                "edit_posts_label": "Editatu posta",
+                "edit_users_label": "Editatu erabiltzailea",
+                "global_heading": "Globala",
+                "moderate_heading": "Moderatu",
+                "new_group_button": "Talde Berria",
+                "participate_heading": "Parte Hartu",
+                "post_without_throttle_label": "Erantzun hainbat aldi itxoin gabe",
+                "read_heading": "Irakurri",
+                "rename_discussions_label": "Eztabaidaren izenburua aldatu",
+                "reply_to_discussions_label": "Erantzun eztabaidak",
+                "sign_up_label": "Sortu kontua",
+                "start_discussions_label": "Hasi eztabaida",
+                "title": "Permissions",
+                "view_discussions_label": "Ikusi ezarpenak",
+                "view_hidden_groups_label": "Ikusi ezkutatutako taldeak",
+                "view_last_seen_at_label": "Ikusi beste erabiltzaileen azken konexioa",
+                "view_post_ips_label": "Ikusi postaren IP helbidea",
+                "view_user_list_label": "Ikusi erabiltzaile zerrenda"
+            },
+            "permissions_controls": {
+                "allow_indefinitely_button": "Indefinitua",
+                "allow_some_minutes_button": "{count} miniturako|{count} minutuetarako",
+                "allow_ten_minutes_button": "Hamar minuturako",
+                "allow_until_reply_button": "Hurrengo erantzuna harte",
+                "everyone_button": "Denak",
+                "members_button": "=> core.group.members",
+                "signup_closed_button": "Itxita",
+                "signup_open_button": "Irekia"
+            },
+            "settings": {
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "upload_image": {
+                "remove_button": "=> core.ref.remove",
+                "upload_button": "Aukeratu irudia..."
+            }
+        },
+        "forum": {
+            "change_email": {
+                "confirm_password_placeholder": "=> core.ref.confirm_password",
+                "confirmation_message": "=> core.ref.confirmation_email_sent",
+                "dismiss_button": "=> core.ref.okay",
+                "incorrect_password_message": "Pasahitza ez da zuzena.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.change_email"
+            },
+            "change_password": {
+                "send_button": "Bidali pasahitza aldatzeko emaila",
+                "text": "Sakatu botoia eta pasahitza aldatzeko emaila bidaliko zaizu.",
+                "title": "=> core.ref.change_password"
+            },
+            "composer": {
+                "close_tooltip": "Itxi",
+                "exit_full_screen_tooltip": "Atera pantaila osotik",
+                "full_screen_tooltip": "Pantaila osoa",
+                "minimize_tooltip": "Txikitu",
+                "preview_tooltip": "Aurreikusi"
+            },
+            "composer_discussion": {
+                "body_placeholder": "Idatzi post bat...",
+                "discard_confirmation": "Ez duzu posteatu zure eztabaidan. Alde batera utzi nahi duzu?",
+                "submit_button": "Post Eztabaida",
+                "title": "=> core.ref.start_a_discussion",
+                "title_placeholder": "Eztabaidaren Izenburua"
+            },
+            "composer_edit": {
+                "discard_confirmation": "Ez duzu aldaketak gorde. Alde batera utzi nahi duzu?",
+                "edited_message": "Zure aldaketak gorde dira.",
+                "post_link": "#{number}. posta {discussion}an",
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": "=> core.ref.view"
+            },
+            "composer_reply": {
+                "body_placeholder": "=> core.ref.write_a_reply",
+                "discard_confirmation": "Ez duzu erantzu oraindik. Alde batera utzi nahi duzu?",
+                "posted_message": "Zure erantzuna posteatu da.",
+                "submit_button": "Post Eerantzuna",
+                "view_button": "Ikusi"
+            },
+            "discussion_controls": {
+                "cannot_reply_button": "Ezin duzu erantzun",
+                "cannot_reply_text": "Ez duzu erantzuteko baimenik.",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Seguru zaude eztabaida borratu nahi duzula?",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "log_in_to_reply_button": "Hasi saioa erantzuteko",
+                "rename_button": "=> core.ref.rename",
+                "reply_button": "=> core.ref.reply",
+                "restore_button": "=> core.ref.restore"
+            },
+            "discussion_list": {
+                "empty_text": "Hematen du ez dela eztabaida existitzen.",
+                "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Markatu Irakurrita bezala",
+                "replied_text": "{username} erantzun du {ago}",
+                "started_text": "{username} hasi du {ago}"
+            },
+            "edit_user": {
+                "activate_button": "Aktibatu erabiltzilea",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Taldeak",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Ezarri pasahitz berria",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Editatu erabiltzilea",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
+            },
+            "forgot_password": {
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "email_sent_message": "Pasahitza berezartzeko link bat bidali dugu emailera. Minutu pare batean jasotzen ez baduzu begiraru SPAM taldea.",
+                "not_found_message": "Ez dago helbide elektroniko hori erabiltzen duen Erabiltzilerik.",
+                "submit_button": "Gogoreatu pasahitza",
+                "text": "Idatzi email helbidea pasahitza berreskuratzeko linka jasotzeko.",
+                "title": "Ahaztu dut pasahitza"
+            },
+            "header": {
+                "admin_button": "Aginte-mahia",
+                "back_to_index_tooltip": "Atzera Eztabaida Zerrendara",
+                "log_in_link": "=> core.ref.log_in",
+                "log_out_button": "=> core.ref.log_out",
+                "profile_button": "Pofila",
+                "search_placeholder": "Bilatu foruan",
+                "settings_button": "=> core.ref.settings",
+                "sign_up_link": "=> core.ref.sign_up"
+            },
+            "index": {
+                "all_discussions_link": "=> core.ref.all_discussions",
+                "cannot_start_discussion_button": "Ezin duzu eztabaida hasi",
+                "mark_all_as_read_confirmation": "Seguru zaude irakurrita bezala ?",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "meta_title_text": "=> core.ref.all_discussions",
+                "refresh_tooltip": "Eguneratu",
+                "start_discussion_button": "=> core.ref.start_a_discussion"
+            },
+            "index_sort": {
+                "latest_button": "Azkenekoak",
+                "newest_button": "Berrienak",
+                "oldest_button": "Zaharrenak",
+                "relevance_button": "Errelebanteenak",
+                "top_button": "Importanteenak"
+            },
+            "log_in": {
+                "forgot_password_link": "Ahaztu duzu pasahitza?",
+                "invalid_login_message": "Saio hasierarako datuak ez dira zuzenak.",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "Gogora nazazu",
+                "sign_up_text": "Ez duzu konturik? <a>Sortu kontua</a>",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in",
+                "username_or_email_placeholder": "Erabiltzailea edo emaila"
+            },
+            "notifications": {
+                "discussion_renamed_text": "{username} aldatu du izenburua",
+                "empty_text": "Notifikazio gabe",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "mark_as_read_tooltip": "Markatu irakurrita bezala",
+                "title": "=> core.ref.notifications",
+                "tooltip": "=> core.ref.notifications"
+            },
+            "post": {
+                "edited_text": "Editatua",
+                "edited_tooltip": "{username} editatu du {ago}",
+                "number_tooltip": "#{number} Post zenbakia"
+            },
+            "post_controls": {
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Seguru zaude posta betirako borratu nahi duzula? Akzio hau ezin da desegin.",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "edit_button": "=> core.ref.edit",
+                "hide_confirmation": "Seguru zaude post hau borratu nahi duzula?",
+                "restore_button": "=> core.ref.restore"
+            },
+            "post_scrubber": {
+                "now_link": "Berriena",
+                "original_post_link": "Post originala",
+                "unread_text": "{count} irakurri gabe",
+                "viewing_text": "{index} posta {count} postatik|{index} posta {count} postetatik"
+            },
+            "post_stream": {
+                "discussion_renamed_old_tooltip": "Izenburu zaharra: \"{old}\"",
+                "discussion_renamed_text": "{username} aldatu du {new} izenburura.",
+                "load_more_button": "=> core.ref.load_more",
+                "reply_placeholder": "=> core.ref.write_a_reply",
+                "time_lapsed_text": "{period} ondoren"
+            },
+            "rename_discussion": {
+                "submit_button": "=> core.ref.rename",
+                "title": "Berizendatu eztabaida"
+            },
+            "search": {
+                "all_discussions_button": "Bilatu \"{query}\" duen eztabaidak",
+                "discussions_heading": "=> core.ref.discussions",
+                "users_heading": "=> core.ref.users"
+            },
+            "settings": {
+                "account_heading": "Kontua",
+                "change_email_button": "=> core.ref.change_email",
+                "change_password_button": "=> core.ref.change_password",
+                "notifications_heading": "=> core.ref.notifications",
+                "notify_by_email_heading": "=> core.ref.email",
+                "notify_by_web_heading": "Web",
+                "notify_discussion_renamed_label": "Norbatiek berizendatzen duenean nik hasitako eztabaidak",
+                "privacy_disclose_online_label": "Baimendu beste erabiltzaileak noiz nagoen online ikustea",
+                "privacy_heading": "Pribatasuna",
+                "title": "=> core.ref.settings"
+            },
+            "sign_up": {
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "log_in_text": "Kontu bat daukazu? <a>Hasi saioa</a>",
+                "password_placeholder": "=> core.ref.password",
+                "submit_button": "=> core.ref.sign_up",
+                "title": "=> core.ref.sign_up",
+                "username_placeholder": "=> core.ref.username",
+                "welcome_text": "Ongi etorri, {username}!"
+            },
+            "user": {
+                "avatar_remove_button": "=> core.ref.remove",
+                "avatar_upload_button": "Igo",
+                "avatar_upload_tooltip": "Igo avatar berria",
+                "discussions_link": "=> core.ref.discussions",
+                "in_discussion_text": "{discussion} diskusioan",
+                "joined_date_text": "{ago} batu zen",
+                "online_text": "Online",
+                "posts_empty_text": "Ematen du ez daudela postik hem.",
+                "posts_link": "=> core.ref.posts",
+                "posts_load_more_button": "=> core.ref.load_more",
+                "settings_link": "=> core.ref.settings"
+            },
+            "user_controls": {
+                "button": "Kontrola",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Seguru zaude erabiltzile hau borratu nahi duzula? Erabiltzailearen postak EZ dira borratuko.",
+                "delete_error_message": "<i>{username} ({email})</i> erabiltzilearen borraketan arazoa suertatu da",
+                "delete_success_message": "<i>{username} ({email})</i> erabiltzailea borratu da",
+                "edit_button": "=> core.ref.edit"
+            },
+            "user_email_confirmation": {
+                "alert_message": "=> core.ref.confirmation_email_sent",
+                "resend_button": "Berbidali Konfirmazio emaila",
+                "sent_message": "Bidalita"
+            }
+        },
+        "lib": {
+            "badge": {
+                "hidden_tooltip": "Ezkuttatua"
+            },
+            "error": {
+                "dependent_extensions_message": "Ezin da {extension} desaktibatu hurrengoak desaktibatu harte: {extensions}",
+                "generic_message": "Iepa! Zerbait gaizki joan da. Freskatu orria eta saia zaitez berriro.",
+                "missing_dependencies_message": "Ezin da {extension} aktibatu bere dependentziak aktibatu harte: {extensions}",
+                "not_found_message": "Eskatutako errekurtsoa ez da aurkitu.",
+                "permission_denied_message": "Ez daukazu hori egiteko baimenaik.",
+                "rate_limit_exceeded_message": "Oso azkar zabiltza. Saiatu berriro segundu batzuk ondoren."
+            },
+            "number_suffix": {
+                "kilo_text": "K",
+                "mega_text": "M"
+            },
+            "series": {
+                "glue_text": ", ",
+                "three_text": "{first}, {second} eta {third}",
+                "two_text": "{first} eta {second}"
+            },
+            "username": {
+                "deleted_text": "[deleted]"
+            }
+        },
+        "views": {
+            "content": {
+                "javascript_disabled_message": "JavaScript aktibatua dagoen exploratzaile berrietan hobe ikusten da.",
+                "load_error_message": "Zerbait gaizki joan da bertsio osoa kargatzena. Saiatu zaitez berriro freskatzen.",
+                "loading_text": "Kargatzen..."
+            },
+            "discussion": {
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "error": {
+                "csrf_token_mismatch": "Inaktiboa egon zara denbora batez.",
+                "csrf_token_mismatch_return_link": "Joan atzera, saiatu berriro",
+                "invalid_confirmation_token": "Konfirmazio hau jada erabilia izan da.",
+                "not_authenticated": "Ez daukazu orri hau ikusteko baimenik. Saia zaitez saioa hasi ondoren.",
+                "not_found": "Eskatutako orria ez  da aurkitau.",
+                "not_found_return_link": "Bueltatu {forum}-ra",
+                "permission_denied": "Ez daukazu orri honetara sartzeko baimenik.",
+                "unknown": "Errore bat suretatu da orri honetara sartzean. Saia zaitez berriro."
+            },
+            "index": {
+                "all_discussions_heading": "=> core.ref.all_discussions",
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "log_out": {
+                "log_out_button": "=> core.ref.log_out",
+                "log_out_confirmation": "{forum} deskonektatu nahi duzu?",
+                "title": "=> core.ref.log_out"
+            },
+            "reset_password": {
+                "confirm_password_label": "Konifirmatu pasahitz berria",
+                "new_password_label": "Pasahitz berria",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.reset_your_password"
+            }
+        },
+        "api": {
+            "invalid_username_message": "Erabiltzaileak letrak, zenbakiak edo guidoiak izan dezake bakarrik."
+        },
+        "email": {
+            "activate_account": {
+                "subject": "Aktibatu zure kontia",
+                "body": "Aupa {username}!\n\nNorbaitek (espero dugu zuk!) {forum}an sortu du kontua.\n\nZuk izan bazara, egin klik esteka honetan zure kontua aktibatzeko:\n{url}\n\nEz baduzu kontua sortu, ez egin kasu email honi.\n"
+            },
+            "confirm_email": {
+                "subject": "Konfirmatu helbide elektroniko berria",
+                "body": "Aupa {username}!\n\nNorbaitek (espero dugu zuk!)  {forum}ko kontuko helbide elktronikoa aldatu du helbide honetara.\n\nZuk izan bazara, skatu esteka aldaketa konfirmatzeko:\n{url}\n\nZuk izan ez bazara ez egin kasu hemail honi.\n"
+            },
+            "reset_password": {
+                "subject": "=> core.ref.reset_your_password",
+                "body": "Aupa {username}!\n\nNorbaitek (espero dugu zuk!) {forum}ko pasahitzaren gogorapena eskatu du.\n\nZuk izan bazara, sakatu esteka hau pasahitza gogoratzeko:\n{url}\n\nEz baduzu zure pashitza aldatu nahi, ez egin kasu email honi eta ez dira aldaketak egingo.\n"
+            },
+            "send_test": {
+                "subject": "Flarum Email Test",
+                "body": "Aupa {username}!\n\nFlarumek bidalitako email test bat da. Honekin zure ezarpenak konprobatu diara.\n\nZuk izan bazara, zorionak zure ezarpenak ongi funtzionatu dute!\n\nZuk izan ez bazara, ignoratu mezu hau.\n"
+            }
+        },
+        "ref": {
+            "all_discussions": "Eztabaida guztiak",
+            "change_email": "Aldatu Emaila",
+            "change_password": "Aldatu Pasahitza",
+            "color": "Kolorea",
+            "confirm_password": "Konfirmatu Pasahitza",
+            "confirmation_email_sent": "Konfirmazio mezu bat bidali da {email} helbidra. Hemendik gutxira ez ailegatzekotan, begiratu SPAM karpeta.",
+            "custom_footer_text": "Gehitu HTML kodea orrioinan agertzeko.",
+            "custom_footer_title": "Editatu pertsonalizatutako orrioina",
+            "custom_header_text": "Gehitu orriaren bururako kodea, Flarum buruaren gainean.",
+            "custom_header_title": "Edit Custom Header",
+            "delete": "Borratu",
+            "delete_forever": "Borratu betirako",
+            "discussions": "Eztabaidak",
+            "edit": "Editatu",
+            "email": "Email",
+            "icon": "Icon",
+            "icon_text": "Idatzi <a>FontAwesome</a> ikonoaren klasea, <code>fas fa-</code> aurrizkia <em>barne</em>.",
+            "load_more": "Kargatu gehio",
+            "log_in": "Hasi saioa",
+            "log_out": "Itxi saioa",
+            "mark_all_as_read": "Markatu Dena irakurrita bezala",
+            "next_page": "Hurrengo Orria",
+            "notifications": "Notifikazioak",
+            "okay": "OK",
+            "password": "Pasahitza",
+            "posts": "Posts",
+            "previous_page": "Aurreko Orria",
+            "remove": "Kendu",
+            "rename": "Berizendatu",
+            "reply": "Erantzun",
+            "reset_your_password": "Berezarri Pasahitza",
+            "restore": "Berreskuratu",
+            "save_changes": "Gorde aldaketak",
+            "settings": "Ezarpenak",
+            "sign_up": "Sortu kontua",
+            "some_others": "Beste {count}|Beste {count}k",
+            "start_a_discussion": "Hasi eztabaida",
+            "username": "Erabiltzaile izena",
+            "users": "Erabiltzaileak",
+            "view": "Ikusi",
+            "write_a_reply": "Idatzi erantzuna...",
+            "you": "Zuk"
+        },
+        "group": {
+            "admin": "Admin",
+            "admins": "Admins",
+            "guest": "Bisitaria",
+            "guests": "Bisitariak",
+            "member": "Kidea",
+            "members": "Kideak",
+            "mod": "Moda",
+            "mods": "Modak"
+        }
+    }
+}

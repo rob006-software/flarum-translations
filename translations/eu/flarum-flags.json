@@ -1,0 +1,50 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "Markatutako Postak",
+                "view_flags_label": "Ikusi markatutako postak"
+            },
+            "settings": {
+                "flag_own_posts_label": "Baimendu erabiltzaileak haien postak markatzea",
+                "guidelines_url_label": "Komunitatearen Kondukta kodea",
+                "title": "Markazioaren Ezarpenak"
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "Eskerrik asko post hau markatzeagatik. Moderatzaileak aztertuko dute.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Detaile gehio (aukerazkoa)",
+                "reason_inappropriate_label": "Desegoikia",
+                "reason_inappropriate_text": "Post hau ofensioba, abusiboa da edo <a>Komunitatearen Kondukta Kodea</a> ez du betetzen.",
+                "reason_missing_message": "Mesedez idatzi xehetasunak gure moderatzailentzat.",
+                "reason_off_topic_label": "Gaitik kanpo",
+                "reason_off_topic_text": "Post hau ez da egokia gai honerako eta beste batera mugitu behar litzake.",
+                "reason_other_label": "Bestelakoa (espezifikatu)",
+                "reason_spam_label": "Spama",
+                "reason_spam_text": "Post hau iragarki bat da.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "Ez markatua",
+                "item_text": "{username} ek <em>{discussion}</em>an",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "Kendu marka",
+                "flagged_by_text": "{username}(e)k markatua",
+                "flagged_by_with_reason_text": "{username}(e)k markatua {reason}gatik"
+            },
+            "post_controls": {
+                "flag_button": "Markatu"
+            }
+        },
+        "ref": {
+            "flag_post": "Markatu posta",
+            "flagged_posts": "Markatutako posta"
+        }
+    }
+}

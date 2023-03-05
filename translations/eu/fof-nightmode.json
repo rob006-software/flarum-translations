@@ -1,0 +1,43 @@
+{
+    "fof-nightmode": {
+        "ref": {
+            "auto": "Automatiko (gailuaren ezarpenak)",
+            "light": "Egun modua",
+            "dark": "Gau modua"
+        },
+        "admin": {
+            "settings": {
+                "modal": {
+                    "default_theme": "Foruaren txantiloi automatikoa",
+                    "default_theme_helper": "Txantiloi hau erabiltzaile berrieei eta gonbidatueei aplikatzen zaie.",
+                    "theme_auto": "=> fof-nightmode.ref.auto",
+                    "theme_light": "=> fof-nightmode.ref.light",
+                    "theme_dark": "=> fof-nightmode.ref.dark"
+                }
+            },
+            "forum": {
+                "day": "=> fof-nightmode.ref.light",
+                "night": "=> fof-nightmode.ref.dark",
+                "user": {
+                    "settings": {
+                        "heading": "Txantiloia",
+                        "description": "Aukeratu ze kolore nahi duzun nabigatzerako orduan.",
+                        "description2": "Txantiloi hau edozein gailuan ezarriko da, bakoitzerako aldatzen ez baduzu.",
+                        "device_specific_setting_checkbox": "Gailuen ezarpena",
+                        "device_specific_setting_checkbox_tooltip": "Gailu ezberdinetarako aukerak gordeko dira.",
+                        "options": {
+                            "auto": "=> fof-nightmode.ref.auto",
+                            "day": "=> fof-nightmode.ref.light",
+                            "night": "=> fof-nightmode.ref.dark"
+                        },
+                        "option_descriptions": {
+                            "auto": "Zure txantiloi kolirea gailuarekin bat izango da. Esaterako iOS gailua gau moduan egotekotan gau moduan izango duzu forua.",
+                            "day": "Betikoa. Maitatua eta frogatuena.",
+                            "night": "Huntzen gustokiena. Gauez erabiliko duzu, bitartean txoriak eta hegaztiak lotan dauden bitarten. Edo kolore beltzak maitakorrak direla diozu!"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

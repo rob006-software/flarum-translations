@@ -137,6 +137,18 @@ return [
 		],
 		'maintainers' => [],
 	],
+	'eu' => [
+		'type' => 'language',
+		'language' => 'eu',
+		'repository' => 'git@github.com:flarum-lang/basque.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'fa' => [
 		'type' => 'language',
 		'language' => 'fa',

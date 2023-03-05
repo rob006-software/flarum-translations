@@ -1,0 +1,36 @@
+{
+    "fof-merge-discussions": {
+        "forum": {
+            "modal": {
+                "title": "Batu eztabaidak",
+                "type_target_label": "Batu batean",
+                "type_target_help_text": "Aukeratu beste eztabiada ba <b>{title}</b>-ri batzeko.",
+                "type_from_label": "Batu eztabaida beste bati",
+                "type_from_help_text": "Aukeratu kategoria eztabaida <b>{title}</b>-ri batzeko.",
+                "load_preview_button": "Aurreikusi",
+                "submit_button": "=> fof-merge-discussions.ref.merge"
+            },
+            "discussion": {
+                "merge": "=> fof-merge-discussions.ref.merge"
+            },
+            "post": {
+                "merged": "Batua <b>{count}</b> batua {titles}-ra.|Batua <b>{count}</b> postak {titles}-tik."
+            }
+        },
+        "admin": {
+            "permissions": {
+                "merge_discussions_label": "Batu eztabidak"
+            }
+        },
+        "api": {
+            "error": {
+                "merging_failed": "Arazoa eztabaidak batzean.",
+                "updating_failed": "Arazoa eztabaidaren xehetasunak eguneratzean.",
+                "deleting_failed": "Arazoa hutsik dauden eztabaidak borratzean."
+            }
+        },
+        "ref": {
+            "merge": "Batu"
+        }
+    }
+}

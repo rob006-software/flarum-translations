@@ -1,0 +1,30 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Suspenditutako erabiltzaileak"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "{username} suspenditu dizu {timeReadable}",
+                "user_unsuspended_text": "{username} desuspenditu dizu"
+            },
+            "suspend_user": {
+                "indefinitely_label": "Suspendituta indefinitua",
+                "limited_time_days_text": " egun",
+                "limited_time_label": "Suspendituta denbora baterako...",
+                "not_suspended_label": "Ez suspenditua",
+                "status_heading": "Suspentsioaren egoera",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Suspenditu {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Suspenditua"
+            },
+            "user_controls": {
+                "suspend_button": "Suspenditu"
+            }
+        }
+    }
+}
