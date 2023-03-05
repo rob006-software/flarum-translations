@@ -1,0 +1,24 @@
+{
+    "fof-split": {
+        "admin": {
+            "permissions": {
+                "split_discussion_label": "Banatu postak eztabaidetatik"
+            }
+        },
+        "forum": {
+            "post": {
+                "was_split_to": "{count} post banatu dira {target}-ra.|{count} post banatu dira {target}-ra.",
+                "was_split_from": "{count} posta banatu da {target}.|{count}bantatu dira {target}-tik."
+            },
+            "split": {
+                "from": "Banatu hemndik",
+                "to": "Banatu hona"
+            },
+            "modal": {
+                "title": "Banatu eztabida",
+                "new_discussion_label": "Eztabaida berriaren izenburua ezarri",
+                "submit_button": "Bantu"
+            }
+        }
+    }
+}
