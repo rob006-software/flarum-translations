@@ -7,7 +7,10 @@
             "settings": {
                 "max_label": "Luzeera maximoa",
                 "min_label": "Luzeera minimoa",
+                "random_username_label": "",
+                "random_username_help": "",
                 "regex_label": "Balidazioa expresio erregularra",
+                "set_on_registration_label": "",
                 "unique_label": "Nickname unikoak eskatu?"
             },
             "wrong_driver": "Nicknames aukeratzeko beharreko driverra ezarri behar duzu <a><strong>Gutxieneko orria</strong></a> extensio ezarpenetan funtzionatzeko."
@@ -26,10 +29,14 @@
             },
             "settings": {
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": ""
             }
         },
         "ref": {
-            "change_nickname": "Aldatu Nickname"
+            "change_nickname": "Aldatu Nickname",
+            "nickname": ""
         }
     }
 }

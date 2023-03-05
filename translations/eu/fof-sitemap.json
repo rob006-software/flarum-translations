@@ -2,30 +2,35 @@
     "fof-sitemap": {
         "admin": {
             "settings": {
-                "title": "FoF Sitemap",
+                "exclude_users": "",
+                "exclude_users_help": "",
                 "mode_label": "Operazio modua",
                 "mode_help": "Selecting the correct mode for your size of forum is vitally important. Modu zuzena aukeratzea zure foruaren tamainarako oso importantea da.",
                 "mode_help_runtime_label": "Exekuzio modua",
                 "mode_help_runtime": "For small forums, most likely on shared hosting environments, with discussions, users, tags and pages summed up being less than 10.000 items. The sitemap is generated on the fly at each request.",
                 "mode_help_schedule": "Modu hauek haien lanak gehitu behar dira Flarum Schedulera.",
-                "mode_help_cache_disk_label": "Cache Modua/Disko Modua",
-                "mode_help_cache_disk": "Foru txikia eta ertainetarako hoberena, hosting kompartitu gehienak cron lanak baimentzen ditu eta Flaruum scheduler erabiltzen du (ikusi beherago), eta eztabaida, erabiltzaile, kategori eta orraiak 50000 baino gutxiago izan behar dira.",
+                "mode_help_schedule_setup": "",
                 "mode_help_large": "50.000 limite teknikoa da sitemapetarako. Post gehio badituzu erabili beheko aukera!",
                 "mode_help_multi_label": "Multi-fitxategi Modua",
                 "mode_help_multi": "Best for larger forums, starting at 50.000 items. Mult part, compressed sitemap files will be generated and stored in the /public folder",
                 "advanced_options_label": "Advanced options",
                 "frequency_label": "How often should the scheduler re-build the cache or disk based sitemap?",
+                "risky_performance_improvements": "",
+                "risky_performance_improvements_help": "",
                 "modes": {
                     "runtime": "Exekuzio denbora",
+                    "multi_file": "Multi file",
                     "cache": "Cache",
-                    "cache_disk": "Diskoa",
-                    "multi_file": "Multi file"
+                    "cache_disk": "Diskoa"
                 },
                 "frequency": {
                     "hourly": "Orduero",
                     "twice_daily": "Egunean bitan",
                     "daily": "Egunero"
-                }
+                },
+                "title": "FoF Sitemap",
+                "mode_help_cache_disk_label": "Cache Modua/Disko Modua",
+                "mode_help_cache_disk": "Foru txikia eta ertainetarako hoberena, hosting kompartitu gehienak cron lanak baimentzen ditu eta Flaruum scheduler erabiltzen du (ikusi beherago), eta eztabaida, erabiltzaile, kategori eta orraiak 50000 baino gutxiago izan behar dira."
             }
         }
     }

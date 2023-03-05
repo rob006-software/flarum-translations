@@ -1,5 +1,15 @@
 {
     "fof-socialprofile": {
+        "admin": {
+            "permissions": {
+                "view": "",
+                "editOwn": "",
+                "editAny": ""
+            },
+            "settings": {
+                "allow_external_favicons_label": ""
+            }
+        },
         "forum": {
             "edit": {
                 "edit": "Editatu",
@@ -10,7 +20,9 @@
                 "submit": "Gorde",
                 "delete": "Borratu",
                 "deletetitle": "Borratu botoia",
-                "save_disabled_fetching_favicons": "Ikono bat edo gehio eguneratzen ari dira, itxoin mesedez."
+                "save_disabled_fetching_favicons": "Ikono bat edo gehio eguneratzen ari dira, itxoin mesedez.",
+                "favicon": "",
+                "grey_favicon": ""
             }
         }
     }

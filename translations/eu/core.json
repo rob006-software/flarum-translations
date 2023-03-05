@@ -4,6 +4,8 @@
             "appearance": {
                 "colored_header_label": "Koloreztatutako orriburua",
                 "colors_heading": "Koloreak",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "colors_text": "Aukeratu zure txantiloirako bi kolore. Lehenengoa azpimarratzeko erabiliko da, bestea elementu batzuentzako atzeko kolore bezala.",
                 "custom_footer_heading": "Oinorri pertsonalizatua",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
@@ -21,8 +23,8 @@
                 "favicon_text": "Igo foruaren lasterbideko irudia.",
                 "logo_heading": "Logo",
                 "logo_text": "Igo foroaren izenburuaren ordez agertuko den irudia.",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Aparientzia"
+                "title": "Aparientzia",
+                "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -35,19 +37,25 @@
                 "forum_title_heading": "Foroaren Izenburua",
                 "home_page_heading": "Hasierako Orria",
                 "home_page_text": "Aukeratu erabiltzailea ikusiko duen orria sartzen denean.",
-                "saved_message": "Aldaketak gorde dira.",
                 "show_language_selector_label": "Erakutsi hizkuntza aukeratzeko menua",
                 "slug_driver_heading": "Slug Driver: {model}",
                 "slug_driver_text": "Aukeratu dirver bat Slugerako.",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "Basikoak",
                 "welcome_banner_heading": "Ongi etorri bannerra",
-                "welcome_banner_text": "Ezarri eztabaida guztiak orrian erakutsiko den bannerraren testai. Erabili hau ongi etorria emateko."
+                "welcome_banner_text": "Ezarri eztabaida guztiak orrian erakutsiko den bannerraren testai. Erabili hau ongi etorria emateko.",
+                "saved_message": "Aldaketak gorde dira.",
+                "submit_button": "=> core.ref.save_changes"
             },
             "dashboard": {
                 "clear_cache_button": "Borratu Cachea",
-                "tools_button": "Tresnak",
-                "title": "Aginte-Panela"
+                "description": "",
+                "io_error_message": "",
+                "title": "Aginte-Panela",
+                "tools_button": "Tresnak"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "Pertsonalizatu zure foruko diseinua zure LESS/CESS kodea. Hau Flarum kodearen <a>aurrezarritako estiluen</a> gainean aplikatuko da.",
@@ -98,14 +106,15 @@
                 "send_test_mail_success": "Test mezua bidali da!",
                 "send_test_mail_text": "Aukeratzean zure {email} helbidera test mezu bat bidaliko da.",
                 "smtp_heading": "SMTP Ezarpenak",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "=> core.ref.email"
+                "title": "=> core.ref.email",
+                "submit_button": "=> core.ref.save_changes"
             },
             "extension": {
-                "confirm_uninstall": "Desinstalatzean extentsioari erlazionatua dauden sarrera, artxibo eta datu base taulak borratuko dira?",
+                "configure_scopes": "",
+                "confirm_purge": "",
                 "disabled": "Desaktibatuta",
-                "enabled": "Aktibatuta",
                 "enable_to_see": "Aktibatu extentsioa aukerak ikusi ahal izateko.",
+                "enabled": "Aktibatuta",
                 "info_links": {
                     "discuss": "Eztabaidak",
                     "documentation": "Dokumentazioa",
@@ -118,6 +127,13 @@
                 "no_settings": "Extentsio hau ez dauzka aukerarik.",
                 "open_modal": "Ireki ezarpenak",
                 "permissions_title": "Baimenak",
+                "purge_button": "",
+                "readme": {
+                    "button_label": "",
+                    "no_readme": "",
+                    "title": ""
+                },
+                "confirm_uninstall": "Desinstalatzean extentsioari erlazionatua dauden sarrera, artxibo eta datu base taulak borratuko dira?",
                 "saved_message": "Zure aldaketak gorde dira.",
                 "uninstall_button": "Desinstalatu"
             },
@@ -150,6 +166,8 @@
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "",
+                "userlist_title": "",
                 "search_placeholder": "Bilatu extensioak"
             },
             "permissions": {
@@ -163,6 +181,8 @@
                 "description": "Configure who can see and do what.",
                 "edit_posts_label": "Editatu posta",
                 "edit_users_label": "Editatu erabiltzailea",
+                "edit_users_credentials_label": "",
+                "edit_users_groups_label": "",
                 "global_heading": "Globala",
                 "moderate_heading": "Moderatu",
                 "new_group_button": "Talde Berria",
@@ -171,13 +191,15 @@
                 "read_heading": "Irakurri",
                 "rename_discussions_label": "Eztabaidaren izenburua aldatu",
                 "reply_to_discussions_label": "Erantzun eztabaidak",
+                "search_users_label": "",
                 "sign_up_label": "Sortu kontua",
                 "start_discussions_label": "Hasi eztabaida",
                 "title": "Permissions",
-                "view_discussions_label": "Ikusi ezarpenak",
+                "view_forum_label": "",
                 "view_hidden_groups_label": "Ikusi ezkutatutako taldeak",
                 "view_last_seen_at_label": "Ikusi beste erabiltzaileen azken konexioa",
                 "view_post_ips_label": "Ikusi postaren IP helbidea",
+                "view_discussions_label": "Ikusi ezarpenak",
                 "view_user_list_label": "Ikusi erabiltzaile zerrenda"
             },
             "permissions_controls": {
@@ -191,11 +213,51 @@
                 "signup_open_button": "Irekia"
             },
             "settings": {
+                "saved_message": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
                 "upload_button": "Aukeratu irudia..."
+            },
+            "users": {
+                "description": "",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "",
+                            "title": "",
+                            "tooltip": ""
+                        },
+                        "email": {
+                            "title": "",
+                            "visibility_hide": "",
+                            "visibility_show": ""
+                        },
+                        "group_badges": {
+                            "no_badges": "",
+                            "title": ""
+                        },
+                        "join_time": {
+                            "title": ""
+                        },
+                        "user_id": {
+                            "title": ""
+                        },
+                        "username": {
+                            "profile_link_tooltip": "",
+                            "title": ""
+                        }
+                    },
+                    "invalid_column_content": ""
+                },
+                "pagination": {
+                    "back_button": "",
+                    "next_button": "",
+                    "page_counter": ""
+                },
+                "title": "",
+                "total_users": ""
             }
         },
         "forum": {
@@ -249,27 +311,17 @@
                 "log_in_to_reply_button": "Hasi saioa erantzuteko",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
             },
             "discussion_list": {
                 "empty_text": "Hematen du ez dela eztabaida existitzen.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Markatu Irakurrita bezala",
                 "replied_text": "{username} erantzun du {ago}",
-                "started_text": "{username} hasi du {ago}"
-            },
-            "edit_user": {
-                "activate_button": "Aktibatu erabiltzilea",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Taldeak",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Ezarri pasahitz berria",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Editatu erabiltzilea",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "started_text": "{username} hasi du {ago}",
+                "total_replies_a11y_label": "",
+                "unread_replies_a11y_label": "",
+                "mark_as_read_tooltip": "Markatu Irakurrita bezala"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -283,10 +335,14 @@
             "header": {
                 "admin_button": "Aginte-mahia",
                 "back_to_index_tooltip": "Atzera Eztabaida Zerrendara",
+                "locale_dropdown_accessible_label": "",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Pofila",
+                "search_clear_button_accessible_label": "",
                 "search_placeholder": "Bilatu foruan",
+                "search_role_label": "",
+                "session_dropdown_accessible_label": "",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -297,13 +353,15 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Eguneratu",
-                "start_discussion_button": "=> core.ref.start_a_discussion"
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": ""
             },
             "index_sort": {
                 "latest_button": "Azkenekoak",
                 "newest_button": "Berrienak",
                 "oldest_button": "Zaharrenak",
                 "relevance_button": "Errelebanteenak",
+                "toggle_dropdown_accessible_label": "",
                 "top_button": "Importanteenak"
             },
             "log_in": {
@@ -317,11 +375,14 @@
                 "username_or_email_placeholder": "Erabiltzailea edo emaila"
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "{username} aldatu du izenburua",
                 "empty_text": "Notifikazio gabe",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Markatu irakurrita bezala",
                 "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "",
                 "tooltip": "=> core.ref.notifications"
             },
             "post": {
@@ -335,7 +396,8 @@
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "Seguru zaude post hau borratu nahi duzula?",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
             },
             "post_scrubber": {
                 "now_link": "Berriena",
@@ -363,6 +425,7 @@
                 "account_heading": "Kontua",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
@@ -400,25 +463,79 @@
                 "delete_confirmation": "Seguru zaude erabiltzile hau borratu nahi duzula? Erabiltzailearen postak EZ dira borratuko.",
                 "delete_error_message": "<i>{username} ({email})</i> erabiltzilearen borraketan arazoa suertatu da",
                 "delete_success_message": "<i>{username} ({email})</i> erabiltzailea borratu da",
-                "edit_button": "=> core.ref.edit"
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": ""
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Berbidali Konfirmazio emaila",
                 "sent_message": "Bidalita"
+            },
+            "welcome_hero": {
+                "hide": ""
+            },
+            "edit_user": {
+                "activate_button": "Aktibatu erabiltzilea",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Taldeak",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Ezarri pasahitz berria",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Editatu erabiltzilea",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "Ezkuttatua"
             },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": ""
+            },
+            "edit_user": {
+                "activate_button": "",
+                "email_heading": "",
+                "email_label": "",
+                "groups_heading": "",
+                "password_heading": "",
+                "password_label": "",
+                "set_password_label": "",
+                "submit_button": "",
+                "title": "",
+                "username_heading": "",
+                "username_label": "",
+                "nothing_available": ""
+            },
             "error": {
                 "dependent_extensions_message": "Ezin da {extension} desaktibatu hurrengoak desaktibatu harte: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "Iepa! Zerbait gaizki joan da. Freskatu orria eta saia zaitez berriro.",
                 "missing_dependencies_message": "Ezin da {extension} aktibatu bere dependentziak aktibatu harte: {extensions}",
                 "not_found_message": "Eskatutako errekurtsoa ez da aurkitu.",
+                "payload_too_large_message": "",
                 "permission_denied_message": "Ez daukazu hori egiteko baimenaik.",
-                "rate_limit_exceeded_message": "Oso azkar zabiltza. Saiatu berriro segundu batzuk ondoren."
+                "rate_limit_exceeded_message": "Oso azkar zabiltza. Saiatu berriro segundu batzuk ondoren.",
+                "render_failed_message": ""
+            },
+            "loading_indicator": {
+                "accessible_label": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -434,6 +551,26 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
+            "confirm_email": {
+                "submit_button": "",
+                "text": "",
+                "title": ""
+            },
             "content": {
                 "javascript_disabled_message": "JavaScript aktibatua dagoen exploratzaile berrietan hobe ikusten da.",
                 "load_error_message": "Zerbait gaizki joan da bertsio osoa kargatzena. Saiatu zaitez berriro freskatzen.",
@@ -497,6 +634,7 @@
             "change_password": "Aldatu Pasahitza",
             "color": "Kolorea",
             "confirm_password": "Konfirmatu Pasahitza",
+            "confirm_email": "",
             "confirmation_email_sent": "Konfirmazio mezu bat bidali da {email} helbidra. Hemendik gutxira ez ailegatzekotan, begiratu SPAM karpeta.",
             "custom_footer_text": "Gehitu HTML kodea orrioinan agertzeko.",
             "custom_footer_title": "Editatu pertsonalizatutako orrioina",
@@ -506,10 +644,13 @@
             "delete_forever": "Borratu betirako",
             "discussions": "Eztabaidak",
             "edit": "Editatu",
+            "edit_user": "",
             "email": "Email",
+            "extensions": "",
             "icon": "Icon",
             "icon_text": "Idatzi <a>FontAwesome</a> ikonoaren klasea, <code>fas fa-</code> aurrizkia <em>barne</em>.",
             "load_more": "Kargatu gehio",
+            "loading": "",
             "log_in": "Hasi saioa",
             "log_out": "Itxi saioa",
             "mark_all_as_read": "Markatu Dena irakurrita bezala",

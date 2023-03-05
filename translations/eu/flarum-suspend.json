@@ -8,13 +8,23 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "{username} suspenditu dizu {timeReadable}",
+                "user_suspended_indefinite_text": "",
                 "user_unsuspended_text": "{username} desuspenditu dizu"
             },
+            "suspension_info": {
+                "dismiss_button": "",
+                "indefinite": "",
+                "limited": "",
+                "title": ""
+            },
             "suspend_user": {
+                "display_message": "",
                 "indefinitely_label": "Suspendituta indefinitua",
                 "limited_time_days_text": " egun",
                 "limited_time_label": "Suspendituta denbora baterako...",
                 "not_suspended_label": "Ez suspenditua",
+                "placeholder_optional": "",
+                "reason": "",
                 "status_heading": "Suspentsioaren egoera",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Suspenditu {username}"
@@ -24,6 +34,17 @@
             },
             "user_controls": {
                 "suspend_button": "Suspenditu"
+            }
+        },
+        "email": {
+            "no_reason_given": "",
+            "suspended": {
+                "subject": "",
+                "body": ""
+            },
+            "unsuspended": {
+                "subject": "",
+                "body": ""
             }
         }
     }

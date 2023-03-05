@@ -13,12 +13,27 @@
                     "reminders_notice": "For reminders to function correctly, you must have set up the Flarum scheduler correctly."
                 },
                 "allow_select_own_post": "Baimendu erabiltzaileak haien erantzuna hoberena bezala marketzen",
+                "allow_select_own_post_help": "",
+                "enable_all_tags_button": "",
+                "enable_all_tags_reminder_button": "",
                 "select_best_answer_reminder_days": "Gogoratu erabiltzaileak X egun ondoren erantzun hoberena markatzeko",
+                "select_best_answer_reminder_days_help": "",
                 "schedule_on_one_server": "Erabili 'onOneServer()' direktiba lanaren plangintzarako (beharrezkoa da Redis/Memcache)",
+                "schedule_on_one_server_help": "",
                 "schedule_stop_overnight": "Ez gogoratu erabiltzaileak email bidez ordu desegokietan (9pm - 8am zerbitzari denboran)",
+                "schedule_stop_overnight_help": "",
                 "schedule_log_output": "Atera plangintza logetan",
-                "remind_tag_ids": "Kendu gogorapen plangintzatik kategoria hauek (separatu komen bidez)",
-                "use_alt_ui": "Erabili beste txantiloi bat (erantzun hoberena oinaren botoiak)"
+                "show_filter_label": "",
+                "show_filter_help": "",
+                "use_alt_ui": "Erabili beste txantiloi bat (erantzun hoberena oinaren botoiak)",
+                "use_alt_ui_help": "",
+                "documentation": "",
+                "introduction": "",
+                "remind_tag_ids": "Kendu gogorapen plangintzatik kategoria hauek (separatu komen bidez)"
+            },
+            "edit_tag": {
+                "qna_label": "",
+                "reminders": ""
             }
         },
         "forum": {
@@ -34,11 +49,30 @@
                 "best_answer_in_discussion": "{username} aukeratu du emaitz hoberena",
                 "content": "Mesedez, zure galdera erantzun bada aukeratu erantzun hoberena.",
                 "awarded": "{username} aukeratu du zure emaitza hoberena bezala",
-                "select_email_title": "Konpondu duzu zure galdera?",
                 "preferences": {
                     "awarded_best_answer": "Nire post bat norbaitek hoberena bezala markatzen duenean",
-                    "best_answer_in_discussion": "Parte hartzen ari naizen eztabaida batean erantzun hoberen bat markatzean"
-                }
+                    "best_answer_in_discussion": "Parte hartzen ari naizen eztabaida batean erantzun hoberen bat markatzean",
+                    "select_best_answer": ""
+                },
+                "select_email_title": "Konpondu duzu zure galdera?"
+            },
+            "index": {
+                "ask_question": "",
+                "cannot_ask_question": "",
+                "solved_link": "",
+                "unsolved_link": ""
+            },
+            "filter": {
+                "all_label": "",
+                "solved_label": "",
+                "unsolved_label": "",
+                "accessible_label": ""
+            },
+            "composer": {
+                "titlePlaceholder": ""
+            },
+            "user": {
+                "best-answer-count": ""
             }
         },
         "email": {

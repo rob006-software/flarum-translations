@@ -5,6 +5,14 @@
                 "desc": "Customize your HTML email templates."
             },
             "settings": {
+                "attributes": {
+                    "body": "",
+                    "forumStyle": "",
+                    "url": "",
+                    "settings": "",
+                    "link": ""
+                },
+                "attributes_label": "",
                 "label": "Email Txantiloiak",
                 "reset": "Ezarri Aurrezarria",
                 "confirm": "Seguru aurrezarritako email txantiloia ezarri nahi duzula",
@@ -14,6 +22,7 @@
                 "postMentioned": "Flarum/mentzioak Post mentzioak Email",
                 "notifications": "Notifikazio txantiloia",
                 "notificationHelp": "Gomendagarria da \"$forumStyle\" erabiltzailea BBCODE erabiltzen bada. Email hauek baita \"$user\" erabiltzaileaentzako bidaliko den emaila eramango du.",
+                "template_help": "",
                 "help": "\"$body\" emailaren edikia izango du, \"$forumStyle\"  <strong>foru osoaren CSSa</strong> gehituko du, \"$baseUrl\" foruaren URLa, \"$settings\" interakzioa baimentzen du SettingsRepositoryInterface, eta \"$link\" ematen du emailaren url. Ikusi txantiloiaren bariableak zer diren ikusteko"
             },
             "css_settings": {

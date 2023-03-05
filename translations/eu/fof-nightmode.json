@@ -8,6 +8,7 @@
         "admin": {
             "settings": {
                 "modal": {
+                    "always_show_theme_toggle_on_header": "",
                     "default_theme": "Foruaren txantiloi automatikoa",
                     "default_theme_helper": "Txantiloi hau erabiltzaile berrieei eta gonbidatueei aplikatzen zaie.",
                     "theme_auto": "=> fof-nightmode.ref.auto",
@@ -37,6 +38,43 @@
                         }
                     }
                 }
+            }
+        },
+        "forum": {
+            "day": "",
+            "night": "",
+            "header": {
+                "nightmode_button": ""
+            },
+            "user": {
+                "settings": {
+                    "heading": "",
+                    "description": "",
+                    "description2": "",
+                    "device_specific_setting_checkbox": "",
+                    "device_specific_setting_checkbox_tooltip": "",
+                    "auto_unsupported": "",
+                    "options": {
+                        "auto": "",
+                        "day": "",
+                        "night": ""
+                    },
+                    "option_descriptions": {
+                        "auto": "",
+                        "day": "",
+                        "night": ""
+                    }
+                }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "fofNightMode": "",
+                "fofNightMode-help": "",
+                "fofNightMode_perDevice": "",
+                "fofNightMode_perDevice-help": ""
             }
         }
     }

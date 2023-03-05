@@ -24,6 +24,7 @@
             },
             "permissions": {
                 "allow_edit_tags_label": "Baimendu etiketen edizioa",
+                "bypass_tag_counts_label": "",
                 "restrict_by_tag_heading": "Erretrinjitu etiketak",
                 "tag_discussions_label": "Etiketatu diskusioak"
             },
@@ -37,9 +38,12 @@
             },
             "tags": {
                 "about_tags_text": "Etiketak eztabaidak ordenatzeko balio dute. Lehenengo kategoriak foru guztiak bezala dira: bi mailako hierarkian ordena daitezke. Bigarren mailakoak ez dute azpi hierarkiarik, azpi-ordenazio bat egiteko erabili daitezke.",
-                "create_tag_button": "=> flarum-tags.ref.create_tag",
+                "create_primary_tag_button": "",
+                "create_secondary_tag_button": "",
                 "primary_heading": "Lehenengo mailako kategoriak",
                 "secondary_heading": "Bigarren mailako kategoriak",
+                "settings_heading": "",
+                "create_tag_button": "=> flarum-tags.ref.create_tag",
                 "settings_button": "Ezarpenak"
             }
         },
@@ -49,6 +53,7 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
+                "bypass_requirements": "",
                 "choose_primary_placeholder": "Aukeratu lehen mailako kategoria bat|Aukeratu {count} lehen mailako kategorietatik",
                 "choose_secondary_placeholder": "Choose 1 more tag|Choose {count} more tags",
                 "edit_title": "Editatu {title}rako etiketak",
@@ -83,9 +88,9 @@
             "deleted_tag_text": "Borratua"
         },
         "ref": {
-            "create_tag": "Sortu kategoria",
             "name": "Izena",
-            "tags": "Kategoriak"
+            "tags": "Kategoriak",
+            "create_tag": "Sortu kategoria"
         }
     }
 }
