@@ -1,0 +1,59 @@
+{
+    "fof-reactions": {
+        "forum": {
+            "disabled-reaction": "Ezin duzu erreakzio hau erabili orain,  mesedez freskatu orria",
+            "warning": "Zure erreakzioa konbertitua izan da",
+            "notification": "{username}(e)k {reaction}-rekin errakzionatu du zure postera",
+            "settings": {
+                "notify_post_reacted_label": "Norbaitek nire postetara erreakzionatzen duenean"
+            },
+            "reacting-own-post": "Ezin duzu erreakzionatu zure postetara",
+            "modal": {
+                "title": "Erreakzioak"
+            },
+            "mod_item": "Ikusi erreakzioak"
+        },
+        "admin": {
+            "permissions": {
+                "react_posts_label": "Erreakzionatu postetara",
+                "see_reactions_label": "Ikusi nork erreakzionatu duen"
+            },
+            "page": {
+                "reactions": {
+                    "title": "Erreakzio pertsonalizatua",
+                    "reactions": "Oraingo erreakzion",
+                    "Helptext": "Idatzi (identifier) emojiaren izena edo Font-awesomeren identifikadorea eta aukeratu ze motatakoa nahi duzun.",
+                    "help": {
+                        "display": "Erakutsi",
+                        "identifier": "Identifikatzailea"
+                    }
+                },
+                "convert": {
+                    "help": "Extensioa eguneratu baduzu, zure erreakzioak konbertitu behar dira. Instalatu baduzu, mezu hau ignora dezakezu.",
+                    "button": "Konbertitu erreakzio zarrak",
+                    "converting": "Zure erreakzioak konbertitzen ari dira. Freskatu orri hau minutu batzuk ondoren konbertsioaren egoera ikusteko (denbora konbertitu behar diren erreakzio kantitatearen menpe dago)",
+                    "converted": "{number} likes konbertitu dra"
+                },
+                "settings": {
+                    "save_settings": "Gorde ezarpenak",
+                    "integrations": {
+                        "legend": "Integrazioak",
+                        "warning": "Erreakzio berdina <strong>ezin da</strong> like <strong>eta</strong> up-botora konbertitu",
+                        "gamification": {
+                            "legend": "Gamifikazioa",
+                            "upvoteLabel": "Konbertitu errakzioak up-botoetara",
+                            "upvoteHelptext": "Idatzi up-botora automatikoki konbertitu nahi duzun erreakzioaren identifikatzailea",
+                            "downvoteLabel": "Konbertitu erreakzioak down-botoetara",
+                            "downvoteHelptext": "Idatzi down-botora automatikoki konbertitu nahi duzun erreakzioaren identifikatzailea"
+                        },
+                        "likes": {
+                            "legend": "Likes",
+                            "Label": "Konbertitu erreakzioak liketan",
+                            "Helptext": "Idatzi likera automatikoki konbertitu nahi duzun erreakzioaren identifikatzailea"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
