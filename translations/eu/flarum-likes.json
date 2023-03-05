@@ -1,0 +1,29 @@
+{
+    "flarum-likes": {
+        "admin": {
+            "permissions": {
+                "like_posts_label": "Like posta"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username}(e)ri gustatu zaio zure posta"
+            },
+            "post": {
+                "like_link": "Like",
+                "liked_by_self_text": "{users} gustoko du.",
+                "liked_by_text": "{users} gustoko du.|{users} gustoko dute.",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Kendu likea",
+                "you_text": "=> core.ref.you"
+            },
+            "post_likes": {
+                "title": "Hau gustatzen zaien erabiltzaileak"
+            },
+            "settings": {
+                "notify_post_liked_label": "Norbaiteri gustatzen zaio nire posta"
+            }
+        }
+    }
+}
