@@ -77,7 +77,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `cpluscc-wordpress` | [![#1016 (closed)](https://img.shields.io/badge/PR-%231016-red)](https://github.com/rob006-software/flarum-translations/pull/1016) |
-| `lrysia-stickiest` | [![#1012 (closed)](https://img.shields.io/badge/PR-%231012-red)](https://github.com/rob006-software/flarum-translations/pull/1012) |
+There are no dead branches.
