@@ -1,0 +1,79 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "Cor",
+                "delete_tag_button": "Eliminar etiqueta",
+                "delete_tag_confirmation": "Estas seguro que queres eliminar esta etiqueta? As conversas etiquetadas con ela NON se eliminarán.",
+                "description_label": "Descrición",
+                "hide_label": "Ocultar en Todas as conversas",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-tags.ref.create_tag"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Xestionar a lista de etiquetas dispoñibles para organizar as conversas."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "Permitir editar etiquetas",
+                "restrict_by_tag_heading": "Restrinxir por etiqueta",
+                "tag_discussions_label": "Conversas da etiqueta"
+            },
+            "tag_settings": {
+                "range_separator_text": " a ",
+                "required_primary_heading": "Número de etiquetas primarias requeridas",
+                "required_primary_text": "Escribe o número mínimo e máximo de etiquetas primarias que se poden aplicar a unha conversa.",
+                "required_secondary_heading": "Número de etiquetas secundarias requeridas",
+                "required_secondary_text": "Escribe o número mínimo e máximo de etiquetas secundarias que se poden aplicar a unha conversa.",
+                "title": "Configuración de etiquetas"
+            },
+            "tags": {
+                "about_tags_text": "As etiquetas úsanse para categorizar conversas. As etiquetas primarias son como as tradicionais categorías dos foros: solo se poden organizar en xerarquías de dous niveis. As etiquetas secundarias non teñen xerarquía e usanse para micro-categorización.",
+                "create_tag_button": "=> flarum-tags.ref.create_tag",
+                "primary_heading": "Etiquetas primarias",
+                "secondary_heading": "Etiquetas secundarias",
+                "settings_button": "Opcións"
+            }
+        },
+        "forum": {
+            "choose_tags": {
+                "choose_primary_placeholder": "Escolle unha etiqueta primaria|Escolle {count} etiquetas primarias",
+                "choose_secondary_placeholder": "Escolle 1 etiqueta máis|Escolle {count} etiquetas máis",
+                "edit_title": "Editar as etiquetas de {title}",
+                "submit_button": "=> core.ref.okay",
+                "title": "Escoller as etiquetas para a túa conversa"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "Escoller etiquetas"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "Editar etiquetas"
+            },
+            "index": {
+                "more_link": "Máis...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Quitar etiqueta"
+            },
+            "post_stream": {
+                "added_tags_text": "{username} Engadiu {tagsAdded}.",
+                "added_and_removed_tags_text": "{username} engadiu {tagsAdded} e eliminou {tagsRemoved}.",
+                "removed_tags_text": "{username} eliminou {tagsRemoved}.",
+                "tags_text": "a etiqueta {tags}|as etiquetas {tags}"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "Eliminar"
+        },
+        "ref": {
+            "create_tag": "Crear etiqueta",
+            "name": "Nome",
+            "tags": "Etiquetas"
+        }
+    }
+}
