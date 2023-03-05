@@ -10,6 +10,9 @@
                 "unfollow_button": "Non seguir",
                 "unignore_button": "Non ignorar"
             },
+            "following": {
+                "meta_title_text": ""
+            },
             "index": {
                 "following_link": "=> flarum-subscriptions.ref.following"
             },
@@ -17,9 +20,11 @@
                 "new_post_text": "{username} creou un post"
             },
             "settings": {
+                "follow_after_reply_label": "",
+                "notify_for_all_posts_label": "",
+                "notify_new_post_label": "Alguén creou un post nunha conversa que estou seguindo",
                 "forum_follow_after_reply_label": "Seguir automaticamente as conversa nas que respondín",
-                "follow_new_discussions_label": "Seguir automaticamente as novas conversas",
-                "notify_new_post_label": "Alguén creou un post nunha conversa que estou seguindo"
+                "follow_new_discussions_label": "Seguir automaticamente as novas conversas"
             },
             "sub_controls": {
                 "follow_button": "=> flarum-subscriptions.ref.follow",
@@ -31,6 +36,12 @@
                 "not_following_text": "Notificarme solo cando me @mencionen.",
                 "notify_alert_tooltip": "Recibir unha notificación do foro cando haxa novos posts",
                 "notify_email_tooltip": "Recibir un email cando haxa novos posts"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "",
+                "body": ""
             }
         },
         "ref": {

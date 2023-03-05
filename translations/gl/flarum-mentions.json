@@ -1,13 +1,24 @@
 {
     "flarum-mentions": {
+        "admin": {
+            "permissions": {
+                "mention_groups_label": ""
+            },
+            "settings": {
+                "allow_username_format_label": "",
+                "allow_username_format_text": ""
+            }
+        },
         "forum": {
             "composer": {
+                "mention_tooltip": "",
                 "reply_to_post_text": "Responder a #{number}"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} respondeu ao teu post",
-                "user_mentioned_text": "{username} mencionoute"
+                "user_mentioned_text": "{username} mencionoute",
+                "group_mentioned_text": ""
             },
             "post": {
                 "mentioned_by_self_text": "{users} respondeu a isto.",
@@ -19,10 +30,31 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "Alguén respondeu a un dos meus posts",
-                "notify_user_mentioned_label": "Alguén mencionoume nun post"
+                "notify_user_mentioned_label": "Alguén mencionoume nun post",
+                "notify_group_mentioned_label": ""
             },
             "user": {
                 "mentions_link": "Mencións"
+            },
+            "post_mention": {
+                "deleted_text": ""
+            },
+            "group_mention": {
+                "deleted_text": ""
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "",
+                "body": ""
+            },
+            "user_mentioned": {
+                "subject": "",
+                "body": ""
+            },
+            "group_mentioned": {
+                "subject": "",
+                "body": ""
             }
         }
     }

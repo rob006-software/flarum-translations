@@ -6,11 +6,25 @@
             }
         },
         "forum": {
+            "notifications": {
+                "user_suspended_text": "",
+                "user_suspended_indefinite_text": "",
+                "user_unsuspended_text": ""
+            },
+            "suspension_info": {
+                "dismiss_button": "",
+                "indefinite": "",
+                "limited": "",
+                "title": ""
+            },
             "suspend_user": {
+                "display_message": "",
                 "indefinitely_label": "Suspendido indefinidamente",
-                "limited_time_label": "Suspendido por un tempo limitado...",
                 "limited_time_days_text": " días",
+                "limited_time_label": "Suspendido por un tempo limitado...",
                 "not_suspended_label": "Non suspendido",
+                "placeholder_optional": "",
+                "reason": "",
                 "status_heading": "Estado da suspensión",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Suspender {username}"
@@ -20,6 +34,17 @@
             },
             "user_controls": {
                 "suspend_button": "Suspender"
+            }
+        },
+        "email": {
+            "no_reason_given": "",
+            "suspended": {
+                "subject": "",
+                "body": ""
+            },
+            "unsuspended": {
+                "subject": "",
+                "body": ""
             }
         }
     }

@@ -6,6 +6,7 @@
                 "view_flags_label": "Ver posts marcados"
             },
             "settings": {
+                "flag_own_posts_label": "",
                 "guidelines_url_label": "Url das normas da comunidade",
                 "title": "Configuración de marcas"
             }
@@ -14,8 +15,10 @@
             "flag_post": {
                 "confirmation_message": "Grazas por marcar este post. Os nosos moderadores botaránlle un ollo.",
                 "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "",
                 "reason_inappropriate_label": "Non apropiado",
                 "reason_inappropriate_text": "Este post é ofensivo, abusivo, ou viola as <a>normas da comunidade</a>.",
+                "reason_missing_message": "",
                 "reason_off_topic_label": "Fora de contexto",
                 "reason_off_topic_text": "Este post non é relevante na conversa actual e deberíase mover a outro lugar.",
                 "reason_other_label": "Outro",
@@ -31,9 +34,10 @@
                 "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
-                "dismiss_flag_tooltip": "Descargar marca",
+                "dismiss_flag_button": "",
                 "flagged_by_text": "marcado por {username}",
-                "flagged_by_with_reason_text": "{username} marcouno por {reason}"
+                "flagged_by_with_reason_text": "{username} marcouno por {reason}",
+                "dismiss_flag_tooltip": "Descargar marca"
             },
             "post_controls": {
                 "flag_button": "Marcar"

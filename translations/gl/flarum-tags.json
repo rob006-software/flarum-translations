@@ -10,6 +10,8 @@
                 "delete_tag_confirmation": "Estas seguro que queres eliminar esta etiqueta? As conversas etiquetadas con ela NON se eliminarán.",
                 "description_label": "Descrición",
                 "hide_label": "Ocultar en Todas as conversas",
+                "icon_label": "",
+                "icon_text": "",
                 "name_label": "=> flarum-tags.ref.name",
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Slug",
@@ -22,6 +24,7 @@
             },
             "permissions": {
                 "allow_edit_tags_label": "Permitir editar etiquetas",
+                "bypass_tag_counts_label": "",
                 "restrict_by_tag_heading": "Restrinxir por etiqueta",
                 "tag_discussions_label": "Conversas da etiqueta"
             },
@@ -35,14 +38,22 @@
             },
             "tags": {
                 "about_tags_text": "As etiquetas úsanse para categorizar conversas. As etiquetas primarias son como as tradicionais categorías dos foros: solo se poden organizar en xerarquías de dous niveis. As etiquetas secundarias non teñen xerarquía e usanse para micro-categorización.",
-                "create_tag_button": "=> flarum-tags.ref.create_tag",
+                "create_primary_tag_button": "",
+                "create_secondary_tag_button": "",
                 "primary_heading": "Etiquetas primarias",
                 "secondary_heading": "Etiquetas secundarias",
+                "settings_heading": "",
+                "create_tag_button": "=> flarum-tags.ref.create_tag",
                 "settings_button": "Opcións"
             }
         },
         "forum": {
+            "all_tags": {
+                "meta_description_text": "",
+                "meta_title_text": ""
+            },
             "choose_tags": {
+                "bypass_requirements": "",
                 "choose_primary_placeholder": "Escolle unha etiqueta primaria|Escolle {count} etiquetas primarias",
                 "choose_secondary_placeholder": "Escolle 1 etiqueta máis|Escolle {count} etiquetas máis",
                 "edit_title": "Editar as etiquetas de {title}",
@@ -55,25 +66,31 @@
             "discussion_controls": {
                 "edit_tags_button": "Editar etiquetas"
             },
+            "header": {
+                "back_to_tags_tooltip": ""
+            },
             "index": {
                 "more_link": "Máis...",
                 "tags_link": "=> flarum-tags.ref.tags",
                 "untagged_link": "Quitar etiqueta"
             },
             "post_stream": {
-                "added_tags_text": "{username} Engadiu {tagsAdded}.",
                 "added_and_removed_tags_text": "{username} engadiu {tagsAdded} e eliminou {tagsRemoved}.",
+                "added_tags_text": "{username} Engadiu {tagsAdded}.",
                 "removed_tags_text": "{username} eliminou {tagsRemoved}.",
                 "tags_text": "a etiqueta {tags}|as etiquetas {tags}"
+            },
+            "tag": {
+                "meta_description_text": ""
             }
         },
         "lib": {
             "deleted_tag_text": "Eliminar"
         },
         "ref": {
-            "create_tag": "Crear etiqueta",
             "name": "Nome",
-            "tags": "Etiquetas"
+            "tags": "Etiquetas",
+            "create_tag": "Crear etiqueta"
         }
     }
 }
