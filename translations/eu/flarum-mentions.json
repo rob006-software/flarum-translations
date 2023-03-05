@@ -1,0 +1,40 @@
+{
+    "flarum-mentions": {
+        "forum": {
+            "composer": {
+                "mention_tooltip": "Mentzionatu post edo erabiltzaile bat",
+                "reply_to_post_text": "#{number}ri erantzun"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} erantzun zaitu",
+                "user_mentioned_text": "{username} mentzionatu dizu"
+            },
+            "post": {
+                "mentioned_by_self_text": "{users} erantzun du hau.",
+                "mentioned_by_text": "{users} erantzun du hay.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Aipatu",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "Norbaitek nire post bati erantzuten dionean",
+                "notify_user_mentioned_label": "Norbaitek mentzionatezen nauenean"
+            },
+            "user": {
+                "mentions_link": "Mentzioak"
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "{replier_display_name} erantzun du {title} eztabaidan",
+                "body": "Kaixo {recipient_display_name}!\n\n{replier_display_name} erantzun du zure (#{post_number}) mezua in {title} eztabaidan.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "user_mentioned": {
+                "subject": "{mentioner_display_name} mentzionatu zaitu {title}-en",
+                "body": "Aupa {recipient_display_name}!\n\n{mentioner_display_name} mentzionatu zaitu {title}-en.\n\n{url}\n\n---\n\n{content}\n"
+            }
+        }
+    }
+}
