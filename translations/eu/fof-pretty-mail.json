@@ -1,0 +1,26 @@
+{
+    "fof-pretty-mail": {
+        "admin": {
+            "nav": {
+                "desc": "Customize your HTML email templates."
+            },
+            "settings": {
+                "label": "Email Txantiloiak",
+                "reset": "Ezarri Aurrezarria",
+                "confirm": "Seguru aurrezarritako email txantiloia ezarri nahi duzula",
+                "default": "Txantiloi aurrezarria",
+                "newPost": "Flarum/harripedapen Post berria Email",
+                "userMentioned": "Flarum/mentzioak Erabiltzaile mentzioa Email",
+                "postMentioned": "Flarum/mentzioak Post mentzioak Email",
+                "notifications": "Notifikazio txantiloia",
+                "notificationHelp": "Gomendagarria da \"$forumStyle\" erabiltzailea BBCODE erabiltzen bada. Email hauek baita \"$user\" erabiltzaileaentzako bidaliko den emaila eramango du.",
+                "help": "\"$body\" emailaren edikia izango du, \"$forumStyle\"  <strong>foru osoaren CSSa</strong> gehituko du, \"$baseUrl\" foruaren URLa, \"$settings\" interakzioa baimentzen du SettingsRepositoryInterface, eta \"$link\" ematen du emailaren url. Ikusi txantiloiaren bariableak zer diren ikusteko"
+            },
+            "css_settings": {
+                "label": "CSS ezarpenak",
+                "help": "Foruko CSS kodea HTML mezuan bidaltzea aukeratu. Aktibatzekotan litekeena da email batzuekin arazoak suertatzea.",
+                "switch_label": "Gehitu foruko CSS osoa"
+            }
+        }
+    }
+}
