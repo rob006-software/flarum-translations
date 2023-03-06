@@ -9,12 +9,18 @@
             "leaderboard-load-more": "Charger plus"
         },
         "admin": {
+            "permission": {
+                "allow_view_leaderboard": ""
+            },
             "settings": {
                 "leaderboard-icon": "Icône du classement",
                 "leaderboard-icon-help": "Saisissez le nom de n'importe quelle classe d'icône FontAwesome, y compris le préfixe <code>fas fa-</code>.",
                 "leaderboard-entry-position": "Position d'entrée au classement",
                 "leaderboard-entry-sideNav": "Menu de navigation latéral",
-                "leaderboard-entry-topRightMenu": "Menu en haut à droite"
+                "leaderboard-entry-topRightMenu": "Menu en haut à droite",
+                "leaderboard-max-load-count": "",
+                "leaderboard-init-load-count": "",
+                "leaderboard-load-more-count": ""
             }
         }
     }

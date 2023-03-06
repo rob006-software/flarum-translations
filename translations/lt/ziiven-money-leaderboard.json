@@ -9,12 +9,18 @@
             "leaderboard-load-more": ""
         },
         "admin": {
+            "permission": {
+                "allow_view_leaderboard": ""
+            },
             "settings": {
                 "leaderboard-icon": "",
                 "leaderboard-icon-help": "",
                 "leaderboard-entry-position": "",
                 "leaderboard-entry-sideNav": "",
-                "leaderboard-entry-topRightMenu": ""
+                "leaderboard-entry-topRightMenu": "",
+                "leaderboard-max-load-count": "",
+                "leaderboard-init-load-count": "",
+                "leaderboard-load-more-count": ""
             }
         }
     }

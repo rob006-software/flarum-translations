@@ -9,12 +9,18 @@
             "leaderboard-load-more": "Cargar más"
         },
         "admin": {
+            "permission": {
+                "allow_view_leaderboard": ""
+            },
             "settings": {
                 "leaderboard-icon": "Icono del enlace",
                 "leaderboard-icon-help": "Introduce el nombre de cualquier clase de iconos de FontAwesome, incluyendo el prefijo <code>fas fa-</code>.",
                 "leaderboard-entry-position": "Posición del enlace",
                 "leaderboard-entry-sideNav": "Menú de navegación lateral",
-                "leaderboard-entry-topRightMenu": "Menú superior a la izquierda"
+                "leaderboard-entry-topRightMenu": "Menú superior a la izquierda",
+                "leaderboard-max-load-count": "",
+                "leaderboard-init-load-count": "",
+                "leaderboard-load-more-count": ""
             }
         }
     }

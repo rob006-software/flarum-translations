@@ -9,12 +9,18 @@
             "leaderboard-load-more": "Devamını Yükle"
         },
         "admin": {
+            "permission": {
+                "allow_view_leaderboard": ""
+            },
             "settings": {
                 "leaderboard-icon": "Skor Tahtası simgesi",
                 "leaderboard-icon-help": "<code>fas fa-</code> öneki dahil herhangi bir FontAwesome simge sınıfının adını girin.",
                 "leaderboard-entry-position": "Skor Tahtası girdi konumu",
                 "leaderboard-entry-sideNav": "Yan menü",
-                "leaderboard-entry-topRightMenu": "Sağ üst menü"
+                "leaderboard-entry-topRightMenu": "Sağ üst menü",
+                "leaderboard-max-load-count": "",
+                "leaderboard-init-load-count": "",
+                "leaderboard-load-more-count": ""
             }
         }
     }

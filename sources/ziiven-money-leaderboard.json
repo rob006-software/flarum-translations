@@ -9,12 +9,18 @@
             "leaderboard-load-more": "Load More"
         },
         "admin": {
+            "permission": {
+                "allow_view_leaderboard": "Allow view leaderboard"
+            },
             "settings": {
                 "leaderboard-icon": "Leaderboard icon",
                 "leaderboard-icon-help": "Enter the name of any FontAwesome icon class, including the <code>fas fa-</code> prefix.",
                 "leaderboard-entry-position": "Leaderboard entry position",
                 "leaderboard-entry-sideNav": "Side navigation menu",
-                "leaderboard-entry-topRightMenu": "Top right menu"
+                "leaderboard-entry-topRightMenu": "Top right menu",
+                "leaderboard-max-load-count": "Max load count",
+                "leaderboard-init-load-count": "Initial load count",
+                "leaderboard-load-more-count": "Load more count"
             }
         }
     }
