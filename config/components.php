@@ -1160,6 +1160,9 @@ return [
 	'ziiven-daily-check-in' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-daily-check-in/v0.3.7/locale/en.yml',
 	],
+	'ziiven-decoration-store' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/ziiven-decoration-store.yml',
+	],
 	'ziiven-money-leaderboard' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-money-leaderboard/v0.1.4/locale/en.yml',
 	],
