@@ -2,13 +2,13 @@
     "flarum-akismet": {
         "admin": {
             "akismet_settings": {
-                "api_key_label": "API Key",
+                "api_key_label": "Chave API",
                 "title": "Configurações do Akismet",
-                "delete_blatant_spam_label": "",
-                "delete_blatant_spam_help": ""
+                "delete_blatant_spam_label": "Apagar de forma automatica spam flagrante",
+                "delete_blatant_spam_help": "Se o Akismet determinou que o comentário é spam flagrante, em vez de marcar, apagar automaticamente o comentário"
             },
             "permissions": {
-                "bypass_akismet": ""
+                "bypass_akismet": "Ignorar Akismet"
             }
         },
         "forum": {
