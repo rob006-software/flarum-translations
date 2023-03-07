@@ -37,7 +37,7 @@
                 "home_page_heading": "Página Inicial",
                 "home_page_text": "Escolha a página que os usuários verão pela primeira vez quando visitarem seu fórum.",
                 "show_language_selector_label": "Mostrar seletor de idioma",
-                "slug_driver_heading": "Slug Driver: {model}",
+                "slug_driver_heading": "Driver Slug: {model}",
                 "slug_driver_text": "Selecione o driver que será utilizado para o slugging deste modelo.",
                 "title": "Básico",
                 "welcome_banner_heading": "Banner de boas-vindas",
@@ -51,8 +51,8 @@
                 "tools_button": "Ferramentas"
             },
             "debug-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "Quando o modo <code>debug</code> está activo, o Flarum vai efectuar o rebuild do codigo <code>Javascript</code> e <code>CSS</code> a cada pedido, e pode potencialmente \"verter\" outras informações, como dados de acesso à Base de Dados, variáveis de ambiente, etc.\n\nÉ altamente recomendado desactivar o modo <code>debug</code> no ficheiro <code>config.php</code> em modo produtivo. Veja a <link>documentação Flarum</link> para mais informações.\n",
+                "label": "Modo debug activo"
             },
             "edit_css": {
                 "customize_text": "Personalize a aparência do seu fórum adicionando seu próprio código Less / CSS a ser aplicado sobre os <a>estilos padrão</a>do Flarum.",
