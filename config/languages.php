@@ -118,6 +118,7 @@ return [
 	'zh_Hans' => getComponents([
 		// translations included in extension
 		'!vlssu-cravatar',
+		'!ziiven-fireworks',
 		'!ziiven-money-leaderboard',
 		'!ziiven-money-transfer',
 		'!ziiven-view-history',
