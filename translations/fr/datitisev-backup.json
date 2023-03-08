@@ -107,6 +107,18 @@
                     "access-token": {
                         "label": "Jeton d'accès",
                         "description": "Générez un jeton d'accès oAuth 2 sur https://www.dropbox.com/developers/apps. Donnez à l'application la permission « files.metadata.write » avant de générer votre jeton."
+                    },
+                    "key": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "secret": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "refresh-token": {
+                        "label": "",
+                        "description": ""
                     }
                 },
                 "gdrive": {
