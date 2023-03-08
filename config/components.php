@@ -1163,6 +1163,9 @@ return [
 	'ziiven-decoration-store' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/ziiven-decoration-store.yml',
 	],
+	'ziiven-fireworks' => [
+		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-fireworks/v0.1.1/locale/en.yml',
+	],
 	'ziiven-money-leaderboard' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-money-leaderboard/v0.1.4/locale/en.yml',
 	],
