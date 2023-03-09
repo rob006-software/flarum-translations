@@ -105,20 +105,20 @@
                 },
                 "dropbox": {
                     "access-token": {
-                        "label": "Access token",
-                        "description": "生成一個 oAuth 2 訪問令牌 @ https://www.dropbox.com/developers/apps."
+                        "label": "訪問令牌",
+                        "description": "生成一個 oAuth 2 訪問令牌 @ https://www.dropbox.com/developers/apps. 在生成您的令牌之前，為應用授予“files.metadata.write”權限。"
                     },
                     "key": {
-                        "label": "",
-                        "description": ""
+                        "label": "APP 密鑰",
+                        "description": "Dropbox app 密鑰。"
                     },
                     "secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "APP 保密",
+                        "description": "Dropbox 應用程序加密。"
                     },
                     "refresh-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "更新密鑰",
+                        "description": "生成新令牌。 有關說明，請參閱 https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually。"
                     }
                 },
                 "gdrive": {
