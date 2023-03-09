@@ -2,20 +2,20 @@
     "fof-recaptcha": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "secret_key_label": "",
-                "site_key_label": "",
-                "type_label": ""
+                "help_text": "Consigue tus credenciales de Google reCAPTCHA <a>aquí</a>.",
+                "secret_key_label": "Clave Secreta",
+                "site_key_label": "Clave de Sitio",
+                "type_label": "Tipo de reCAPTCHA"
             },
             "permissions": {
-                "post_without_captcha": ""
+                "post_without_captcha": "Crear posts y discusiones sin captcha"
             }
         },
         "forum": {
-            "error": ""
+            "error": "Hubo un error al enviar reCAPTCHA. Vuelve a intentarlo."
         }
     },
     "validation": {
-        "recaptcha": ""
+        "recaptcha": "La validación de reCAPTCHA falló."
     }
 }
