@@ -473,7 +473,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/pusher/v1.7.0/locale/en.yml',
 	],
 	'flarum-statistics' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/statistics/v1.6.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/statistics/v1.7.0/locale/en.yml',
 	],
 	'flarum-sticky' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/sticky/v1.6.1/locale/en.yml',
