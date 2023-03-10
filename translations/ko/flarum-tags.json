@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "태그 제한",
                 "tag_discussions_label": "게시물 태그 설정"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " 으로 ",
                 "required_primary_heading": "필요한 기본 태그 수",
@@ -53,12 +56,11 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "bypass_requirements": "",
+                "edit_title": "{title}에 대한 태그 편집",
+                "title": "게시물에 사용할 태그를 선택합니다",
                 "choose_primary_placeholder": "기본 태그 선택|{count}개의 기본 태그 선택",
                 "choose_secondary_placeholder": "1개 태그 추가 선택|{count}개 태그 추가 선택",
-                "edit_title": "{title}에 대한 태그 편집",
-                "submit_button": "=> core.ref.okay",
-                "title": "게시물에 사용할 태그를 선택합니다"
+                "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
                 "choose_tags_link": "태그 선택"
@@ -85,9 +87,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "삭제됨"
+            "deleted_tag_text": "삭제됨",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "이름",
             "tags": "태그",
             "create_tag": "태그 생성"

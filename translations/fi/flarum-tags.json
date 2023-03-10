@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "Rajoita avainsanan perusteella",
                 "tag_discussions_label": "Avainsanan keskustelut"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " - ",
                 "required_primary_heading": "Ensisijaisten avainsanojen vaadittu määrä",
@@ -51,12 +54,12 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
+                "edit_title": "Muokkaa avainsanoja keskustelulle {title}",
+                "title": "Valitse keskustelun avainsanat",
                 "bypass_requirements": "Ohita avainsana vaatimukset",
                 "choose_primary_placeholder": "{count, plural, one {Valitse ensisjainen avainsana} other {Valitse # ensisijaista avainsanaa}}",
                 "choose_secondary_placeholder": "{count, plural, one {Valitse vielä 1 avainsana} other {Valitse vielä # avainsanaa}}",
-                "edit_title": "Muokkaa avainsanoja keskustelulle {title}",
-                "submit_button": "=> core.ref.okay",
-                "title": "Valitse keskustelun avainsanat"
+                "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
                 "choose_tags_link": "Valitse avainsanat"
@@ -83,9 +86,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "Poistettu"
+            "deleted_tag_text": "Poistettu",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "Nimi",
             "tags": "Avainsanat"
         }

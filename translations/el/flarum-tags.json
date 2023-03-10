@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "Περιορισμός ανά κατηγορία",
                 "tag_discussions_label": "Κατηγορία συζητήσεων"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " στο ",
                 "required_primary_heading": "Απαιτούμενος αριθμός κύριων κατηγοριών",
@@ -51,12 +54,11 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "bypass_requirements": "",
+                "edit_title": "Επεξεργασία κατηγοριών για {title}",
+                "title": "Επιλέξτε κατηγορίες για τη συζήτησή σας",
                 "choose_primary_placeholder": "Επιλογή μίας κατηγορίας|Επιλογή {count} κατηγοριών",
                 "choose_secondary_placeholder": "Επιλέξτε μία ακόμη κατηγορία|Επιλέξτε {count} ακόμη κατηγορίες",
-                "edit_title": "Επεξεργασία κατηγοριών για {title}",
-                "submit_button": "=> core.ref.okay",
-                "title": "Επιλέξτε κατηγορίες για τη συζήτησή σας"
+                "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
                 "choose_tags_link": "Επιλέξτε κατηγορίες"
@@ -83,9 +85,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "Διαγράφηκε"
+            "deleted_tag_text": "Διαγράφηκε",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "Όνομα",
             "tags": "Κατηγορίες"
         }

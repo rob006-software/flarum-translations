@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "Begræns til mærkat",
                 "tag_discussions_label": "Tildel mærkater til diskussioner"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " til ",
                 "required_primary_heading": "Påkrævet antal primær-mærkater",
@@ -51,12 +54,12 @@
                 "meta_title_text": "Mærkater"
             },
             "choose_tags": {
+                "edit_title": "Ret mærkat for {title}",
+                "title": "Vælg mærkater til din diskussion",
                 "bypass_requirements": "Omgå mærkatkrav",
                 "choose_primary_placeholder": "{count, plural, one {Vælg et primær mærkat} other {Vælg # primær mærkater}}",
                 "choose_secondary_placeholder": "{count, plural, one {Vælg 1 mærkat mere} other {Vælg # mærkater mere}}",
-                "edit_title": "Ret mærkat for {title}",
-                "submit_button": "Okay",
-                "title": "Vælg mærkater til din diskussion"
+                "submit_button": "Okay"
             },
             "composer_discussion": {
                 "choose_tags_link": "Vælg mærkater"
@@ -83,9 +86,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "Slettet"
+            "deleted_tag_text": "Slettet",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "Navn",
             "tags": "Mærkater"
         }

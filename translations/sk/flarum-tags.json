@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "Obmedziť štítkom",
                 "tag_discussions_label": "Označiť diskusie štítkom"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " do ",
                 "required_primary_heading": "Požadovaný Počet Hlavných Štítkov",
@@ -51,12 +54,12 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
+                "edit_title": "Upraviť štítky pre diskusiu {title}",
+                "title": "Vyberte si štítky pre Vašu diskusiu",
                 "bypass_requirements": "Obísť požiadavky na štítky",
                 "choose_primary_placeholder": "{count, plural, one {Vyberte hlavný štítok} few {Vyberte # hlavné štítky} other {Vyberte # hlavných štítkov}}",
                 "choose_secondary_placeholder": "{count, plural, one {Vyberte ešte jeden štítok} few {Vyberte ešte # štítky} other {Vyberte ešte # štítkov}}",
-                "edit_title": "Upraviť štítky pre diskusiu {title}",
-                "submit_button": "=> core.ref.okay",
-                "title": "Vyberte si štítky pre Vašu diskusiu"
+                "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
                 "choose_tags_link": "Vybrať Štítky"
@@ -83,9 +86,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "Odstránený štítok"
+            "deleted_tag_text": "Odstránený štítok",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "Názov",
             "tags": "Štítky"
         }

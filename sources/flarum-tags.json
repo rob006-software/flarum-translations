@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "Restrict by Tag",
                 "tag_discussions_label": "Tag discussions"
             },
+            "settings": {
+                "button_text": "=> flarum-tags.ref.choose_tags"
+            },
             "tag_settings": {
                 "range_separator_text": " to ",
                 "required_primary_heading": "Required Number of Primary Tags",
@@ -51,15 +54,11 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "bypass_requirements": "Bypass tag requirements",
-                "choose_primary_placeholder": "{count, plural, one {Choose a primary tag} other {Choose # primary tags}}",
-                "choose_secondary_placeholder": "{count, plural, one {Choose 1 more tag} other {Choose # more tags}}",
                 "edit_title": "Edit Tags for {title}",
-                "submit_button": "=> core.ref.okay",
                 "title": "Choose Tags for Your Discussion"
             },
             "composer_discussion": {
-                "choose_tags_link": "Choose Tags"
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
                 "edit_tags_button": "Edit Tags"
@@ -73,9 +72,9 @@
                 "untagged_link": "Untagged"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} added the {tagsAdded} and removed the {tagsRemoved}.",
-                "added_tags_text": "{username} added the {tagsAdded}.",
-                "removed_tags_text": "{username} removed the {tagsRemoved}.",
+                "added_and_removed_tags_text": "{username} added the {tagsAdded} and removed the {tagsRemoved} {time}.",
+                "added_tags_text": "{username} added the {tagsAdded} {time}.",
+                "removed_tags_text": "{username} removed the {tagsRemoved} {time}.",
                 "tags_text": "{count, plural, one {{tags} tag} other {{tags} tags}}"
             },
             "tag": {
@@ -83,9 +82,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "Deleted"
+            "deleted_tag_text": "Deleted",
+            "tag_selection_modal": {
+                "bypass_requirements": "Bypass tag requirements",
+                "choose_primary_placeholder": "{count, plural, one {Choose a primary tag} other {Choose # primary tags}}",
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
+            }
         },
         "ref": {
+            "choose_tags": "Choose Tags",
+            "choose_tags_placeholder": "{count, plural, one {Choose 1 more tag} other {Choose # more tags}}",
             "name": "Name",
             "tags": "Tags"
         }

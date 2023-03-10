@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "按標籤",
                 "tag_discussions_label": "更改標籤"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " 至 ",
                 "required_primary_heading": "主標籤數量",
@@ -51,12 +54,12 @@
                 "meta_title_text": "標籤"
             },
             "choose_tags": {
+                "edit_title": "更改「{title}」的標籤",
+                "title": "選擇標籤",
                 "bypass_requirements": "忽略標籤要求",
                 "choose_primary_placeholder": "{count, plural, one {選擇主標籤} other {最多選擇 # 個主標籤}}",
                 "choose_secondary_placeholder": "{count, plural, one {選擇一個次標籤} other {最多選擇 # 個次標籤}}",
-                "edit_title": "更改「{title}」的標籤",
-                "submit_button": "好",
-                "title": "選擇標籤"
+                "submit_button": "好"
             },
             "composer_discussion": {
                 "choose_tags_link": "選擇標籤"
@@ -83,9 +86,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "已刪除"
+            "deleted_tag_text": "已刪除",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "標籤名稱",
             "tags": "標籤"
         }

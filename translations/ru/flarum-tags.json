@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "По тегу",
                 "tag_discussions_label": "Изменять теги дискуссий"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " - ",
                 "required_primary_heading": "Количество основных тегов",
@@ -51,12 +54,12 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
+                "edit_title": "Настройка тегов: {title}",
+                "title": "Укажите теги для Вашей дискуссии",
                 "bypass_requirements": "Игнорировать требования для тега",
                 "choose_primary_placeholder": "{count, plural, one {Укажите основной тег} other {Укажите # основных тегов}}",
                 "choose_secondary_placeholder": "{count, plural, one {Укажите больше 1 тега} other {Укажите больше # тегов}}",
-                "edit_title": "Настройка тегов: {title}",
-                "submit_button": "=> core.ref.okay",
-                "title": "Укажите теги для Вашей дискуссии"
+                "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
                 "choose_tags_link": "Выбрать теги"
@@ -83,9 +86,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "Удалено"
+            "deleted_tag_text": "Удалено",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "Название",
             "tags": "Теги"
         }

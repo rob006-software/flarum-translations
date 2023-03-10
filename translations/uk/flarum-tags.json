@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "Згідно тегу",
                 "tag_discussions_label": "Тег дискусій"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " - ",
                 "required_primary_heading": "Кількість основних тегів",
@@ -51,12 +54,12 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
+                "edit_title": "Налаштування тегів для {title}",
+                "title": "Вкажіть теги для вашої дискусії",
                 "bypass_requirements": "Обійти вимоги до міток",
                 "choose_primary_placeholder": "{count, plural, one {Вкажіть основний тег} other {Вкажіть # основних тегів}}",
                 "choose_secondary_placeholder": "{count, plural, one {Вкажіть більше 1 тегу} other {Вкажіть більше # тегів}}",
-                "edit_title": "Налаштування тегів для {title}",
-                "submit_button": "=> core.ref.okay",
-                "title": "Вкажіть теги для вашої дискусії"
+                "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
                 "choose_tags_link": "Обрати теги"
@@ -83,9 +86,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "Видалено"
+            "deleted_tag_text": "Видалено",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "Назва",
             "tags": "Теги"
         }

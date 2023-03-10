@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "محدود کردن با برچسب",
                 "tag_discussions_label": "تگ کردن بحث ها"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " به ",
                 "required_primary_heading": "تعداد مورد نیاز برچسب های اولیه",
@@ -53,12 +56,12 @@
                 "meta_title_text": ""
             },
             "choose_tags": {
+                "edit_title": "ویرایش تگ‌های {title}",
+                "title": "برای مبحث خودتان تگ‌هایی را انتخاب کنید",
                 "bypass_requirements": "عدم انتخاب برچسب",
                 "choose_primary_placeholder": "{count, plural, one {انتخاب یک تگ اصلی} other {انتخاب # تگ اصلی}}",
                 "choose_secondary_placeholder": "{count, plural, one {1 تگ دیگر انتخاب کنید} other {# تگ دیگر انتخاب کنید}}",
-                "edit_title": "ویرایش تگ‌های {title}",
-                "submit_button": "=> core.ref.okay",
-                "title": "برای مبحث خودتان تگ‌هایی را انتخاب کنید"
+                "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
                 "choose_tags_link": "انتخاب تگ"
@@ -85,9 +88,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "حذف شده"
+            "deleted_tag_text": "حذف شده",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "نام",
             "tags": "تگ‌ها",
             "create_tag": "ساخت تگ"

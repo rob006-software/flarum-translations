@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "Erretrinjitu etiketak",
                 "tag_discussions_label": "Etiketatu diskusioak"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": "tik  ",
                 "required_primary_heading": "Derrigorrezko lehenengo mailako kategoria(k)",
@@ -51,12 +54,9 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
                 "edit_title": "Editatu {title}rako etiketak",
-                "submit_button": "=> core.ref.okay",
-                "title": "Aukeratu zure eztabaidarako kategoriak"
+                "title": "Aukeratu zure eztabaidarako kategoriak",
+                "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
                 "choose_tags_link": ""
@@ -83,9 +83,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "Borratua"
+            "deleted_tag_text": "Borratua",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "Izena",
             "tags": "Kategoriak"
         }

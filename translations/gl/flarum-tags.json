@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "Restrinxir por etiqueta",
                 "tag_discussions_label": "Conversas da etiqueta"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " a ",
                 "required_primary_heading": "Número de etiquetas primarias requeridas",
@@ -51,12 +54,9 @@
                 "meta_title_text": ""
             },
             "choose_tags": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
                 "edit_title": "Editar as etiquetas de {title}",
-                "submit_button": "=> core.ref.okay",
-                "title": "Escoller as etiquetas para a túa conversa"
+                "title": "Escoller as etiquetas para a túa conversa",
+                "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
                 "choose_tags_link": "Escoller etiquetas"
@@ -83,9 +83,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "Eliminar"
+            "deleted_tag_text": "Eliminar",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "Nome",
             "tags": "Etiquetas"
         }

@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "Hạn chế bằng thẻ",
                 "tag_discussions_label": "Thẻ cuộc thảo luận"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " đến ",
                 "required_primary_heading": "Số lượng thẻ chính được yêu cầu",
@@ -51,12 +54,12 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
+                "edit_title": "Sửa thẻ cho {title}",
+                "title": "Chọn thẻ cho cuộc thảo luận của bạn",
                 "bypass_requirements": "Bỏ qua các yêu cầu về thẻ",
                 "choose_primary_placeholder": "{count, plural, one {Chọn một thẻ chính} other {Chọn # thẻ chính}}",
                 "choose_secondary_placeholder": "{count, plural, one {Chọn một thẻ phụ} other {Chọn # thẻ phụ}}",
-                "edit_title": "Sửa thẻ cho {title}",
-                "submit_button": "=> core.ref.okay",
-                "title": "Chọn thẻ cho cuộc thảo luận của bạn"
+                "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
                 "choose_tags_link": "Chọn thẻ"
@@ -83,9 +86,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "Đã xóa"
+            "deleted_tag_text": "Đã xóa",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "Tên",
             "tags": "Thẻ"
         }

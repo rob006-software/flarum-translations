@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "แบ่งตามแท็ก",
                 "tag_discussions_label": "ติดแท็กกระทู้"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " ถึง ",
                 "required_primary_heading": "จำนวนแท็กหลักที่จำเป็นต้องใส่ในกระทู้",
@@ -51,12 +54,11 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "bypass_requirements": "",
+                "edit_title": "แก้ไขแท็กสำหรับ {title}",
+                "title": "เลือกแท็กสำหรับกระทู้ของคุณ",
                 "choose_primary_placeholder": "{count, plural, one {Choose a primary tag} other {Choose # primary tags}}",
                 "choose_secondary_placeholder": "{count, plural, one {Choose 1 more tag} other {Choose # more tags}}",
-                "edit_title": "แก้ไขแท็กสำหรับ {title}",
-                "submit_button": "=> core.ref.okay",
-                "title": "เลือกแท็กสำหรับกระทู้ของคุณ"
+                "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
                 "choose_tags_link": "เลือกแท็ก"
@@ -83,9 +85,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "ถูกลบแล้ว"
+            "deleted_tag_text": "ถูกลบแล้ว",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "ชื่อแท็ก",
             "tags": "แท็ก"
         }

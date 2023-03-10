@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "Ograničavanje po kategorijama",
                 "tag_discussions_label": "Kategorisanje diskusija"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " do ",
                 "required_primary_heading": "Potreban broj primarnih kategorija",
@@ -51,12 +54,12 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
+                "edit_title": "Izmenite kategorije za diskusiju {title}",
+                "title": "Izaberite kategorije za Vašu diskusiju",
                 "bypass_requirements": "Zaobiđite obavezno kategorisanje",
                 "choose_primary_placeholder": "{count, plural, one {Izaberite primarnu kategoriju} other {Izaberite # primarnih kategorija}}",
                 "choose_secondary_placeholder": "{count, plural, one {Izaberite još jednu kategoriju} other {Izaberite još # kategorija}}",
-                "edit_title": "Izmenite kategorije za diskusiju {title}",
-                "submit_button": "=> core.ref.okay",
-                "title": "Izaberite kategorije za Vašu diskusiju"
+                "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
                 "choose_tags_link": "Izaberite kategorije"
@@ -83,9 +86,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "Izbrisano"
+            "deleted_tag_text": "Izbrisano",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "Naziv",
             "tags": "Kategorije"
         }

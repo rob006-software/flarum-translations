@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "Restricționare după etichetă",
                 "tag_discussions_label": "Etichetarea discuțiilor"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " la ",
                 "required_primary_heading": "Numărul necesar de etichete principale",
@@ -51,12 +54,12 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
+                "edit_title": "Editare etichete pentru {title}",
+                "title": "Selectați etichetele pentru discuție",
                 "bypass_requirements": "Ignorarea cerințelor de etichetare",
                 "choose_primary_placeholder": "{count, plural, one {Selectați o etichetă principlă} other {Selectați # etichete principale}}",
                 "choose_secondary_placeholder": "{count, plural, one {Selectați o etichetă secundară} other {Selectați # etichete secundare}}",
-                "edit_title": "Editare etichete pentru {title}",
-                "submit_button": "=> core.ref.okay",
-                "title": "Selectați etichetele pentru discuție"
+                "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
                 "choose_tags_link": "Etichetare"
@@ -83,9 +86,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "Ștearsă"
+            "deleted_tag_text": "Ștearsă",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "Nume",
             "tags": "Etichete"
         }

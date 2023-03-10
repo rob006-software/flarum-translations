@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "Apriboti pagal žymą",
                 "tag_discussions_label": "Pažymėkite diskusijas"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " į ",
                 "required_primary_heading": "Būtinas pirminių žymų skaičius",
@@ -51,12 +54,12 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
+                "edit_title": "Redaguoti žymes {title} temai",
+                "title": "Pasirinkite etiketes jūsų temai",
                 "bypass_requirements": "Apeiti žymos reikalavimus",
                 "choose_primary_placeholder": "{count, plural, one {Choose a primary tag} other {Choose # primary tags}}",
                 "choose_secondary_placeholder": "{count, plural, one {Pasirinkite dar 1 žymą} other {Pasirinkite dar # žymas}}",
-                "edit_title": "Redaguoti žymes {title} temai",
-                "submit_button": "=> core.ref.okay",
-                "title": "Pasirinkite etiketes jūsų temai"
+                "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
                 "choose_tags_link": "Pasirinkti etiketes"
@@ -83,9 +86,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "Ištrinta"
+            "deleted_tag_text": "Ištrinta",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "Pavadinimas",
             "tags": "Žymės"
         }

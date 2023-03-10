@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "タグ毎の制限",
                 "tag_discussions_label": "タグの変更"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " ～ ",
                 "required_primary_heading": "プライマリタグの必要数",
@@ -51,12 +54,12 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
+                "edit_title": "{title}のタグを編集",
+                "title": "スレッドに付けるタグを選択",
                 "bypass_requirements": "タグの必要数設定を無視",
                 "choose_primary_placeholder": "{count, plural, one {プライマリタグを選択してください} other {プライマリタグを # つ選択してください}}",
                 "choose_secondary_placeholder": "{count, plural, one {1つ以上のタグを選択してください} other {# つ以上のタグを選択してください}}",
-                "edit_title": "{title}のタグを編集",
-                "submit_button": "=> core.ref.okay",
-                "title": "スレッドに付けるタグを選択"
+                "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
                 "choose_tags_link": "タグを選択"
@@ -83,9 +86,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "削除済み"
+            "deleted_tag_text": "削除済み",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "名前",
             "tags": "タグ"
         }

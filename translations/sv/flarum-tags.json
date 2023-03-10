@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "Begränsa efter tagg",
                 "tag_discussions_label": "Tagga diskussioner"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " till ",
                 "required_primary_heading": "Antal primära taggar som krävs",
@@ -53,12 +56,11 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "bypass_requirements": "",
+                "edit_title": "Redigera taggar för {title}",
+                "title": "Välj taggar för din tråd",
                 "choose_primary_placeholder": "Välj en primär tagg|Välj {count} primära taggar",
                 "choose_secondary_placeholder": "Välj 1 tagg till|Välj {count} taggar till",
-                "edit_title": "Redigera taggar för {title}",
-                "submit_button": "=> core.ref.okay",
-                "title": "Välj taggar för din tråd"
+                "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
                 "choose_tags_link": "Välj taggar"
@@ -85,9 +87,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "Raderad"
+            "deleted_tag_text": "Raderad",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "Namn",
             "tags": "Taggar",
             "create_tag": "Skapa tagg"

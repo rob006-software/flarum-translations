@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "تقييد بالعلامة",
                 "tag_discussions_label": "مناقشات العلامة"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " إلى ",
                 "required_primary_heading": "العدد المطلوب من العلامات الأساسية",
@@ -51,12 +54,12 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
+                "edit_title": "تعديل علامات {title}",
+                "title": "اختر علامات لمناقشتك",
                 "bypass_requirements": "السّماح بتجاوز العلامة",
                 "choose_primary_placeholder": "{count, plural, one {تمّ اختيار علامة أساسيّة} other {تمّ اختيار # من العلامات الأساسيّة}}",
                 "choose_secondary_placeholder": "{count, plural, one {اختر علامة أساسية إضافيّة} other {اختر # من العلامات الأساسيّة}}",
-                "edit_title": "تعديل علامات {title}",
-                "submit_button": "=> core.ref.okay",
-                "title": "اختر علامات لمناقشتك"
+                "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
                 "choose_tags_link": "اختيار علامة"
@@ -83,9 +86,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "تمّ الحدف"
+            "deleted_tag_text": "تمّ الحدف",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "الاسم",
             "tags": "العلامات"
         }

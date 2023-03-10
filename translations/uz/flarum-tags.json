@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "Teg bilan cheklash",
                 "tag_discussions_label": "Teg muhokamalari"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " ga ",
                 "required_primary_heading": "Birlamchi teglarning talab qilinadigan soni",
@@ -51,12 +54,11 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "bypass_requirements": "",
+                "edit_title": "{title} uchun teglarni tahrirlash",
+                "title": "Muhokamangiz uchun teglarni tanlang",
                 "choose_primary_placeholder": "{hisoblash, koʻplik, bitta {Asosiy tegni tanlang} other {# ta asosiy tegni tanlang}}",
                 "choose_secondary_placeholder": "{hisoblash, koʻplik, bitta {Yana 1 ta tegni tanlang} other {Yana # tegni tanlang}}",
-                "edit_title": "{title} uchun teglarni tahrirlash",
-                "submit_button": "=> core.ref.okay",
-                "title": "Muhokamangiz uchun teglarni tanlang"
+                "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
                 "choose_tags_link": "Teglarni tanlang"
@@ -83,9 +85,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "O'chirilgan"
+            "deleted_tag_text": "O'chirilgan",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "Nomi",
             "tags": "Teglar"
         }

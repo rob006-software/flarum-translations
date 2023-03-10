@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "Etiketlə məhdudlaşdır",
                 "tag_discussions_label": "Mövzu Kateqoriyası"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " to ",
                 "required_primary_heading": "Tələb olunan İlkin Kateqoriyaların sayı",
@@ -51,12 +54,11 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "bypass_requirements": "",
+                "edit_title": "Etiketləri redaktə edin {title}",
+                "title": "Kateqoriya",
                 "choose_primary_placeholder": "{count, plural, one {Choose a primary tag} other {Choose # primary tags}}",
                 "choose_secondary_placeholder": "{count, plural, one {Choose 1 more tag} other {Choose # more tags}}",
-                "edit_title": "Etiketləri redaktə edin {title}",
-                "submit_button": "=> core.ref.okay",
-                "title": "Kateqoriya"
+                "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
                 "choose_tags_link": "Kategoriya seçin"
@@ -83,9 +85,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "Silindi"
+            "deleted_tag_text": "Silindi",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "Ad",
             "tags": "Kateqoriya"
         }

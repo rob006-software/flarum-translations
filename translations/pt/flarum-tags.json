@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "Restringir por Tag",
                 "tag_discussions_label": "Escolher Tag para discussões"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " a ",
                 "required_primary_heading": "Número Exigido de Tags Primárias",
@@ -51,12 +54,11 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "bypass_requirements": "",
+                "edit_title": "Edite as Tags de {title}",
+                "title": "Escolha Tags para Sua Discussão",
                 "choose_primary_placeholder": "Escolha uma tag primária|Escolha {count} tags primárias",
                 "choose_secondary_placeholder": "Escolha mais 1 tag|Escolha mais {count} tags",
-                "edit_title": "Edite as Tags de {title}",
-                "submit_button": "=> core.ref.okay",
-                "title": "Escolha Tags para Sua Discussão"
+                "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
                 "choose_tags_link": "Escolha as Tags"
@@ -83,9 +85,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "Deletada"
+            "deleted_tag_text": "Deletada",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "Nome",
             "tags": "Tags"
         }
