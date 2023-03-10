@@ -455,7 +455,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/flags/v1.7.0/locale/en.yml',
 	],
 	'flarum-likes' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/likes/v1.6.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/likes/v1.7.0/locale/en.yml',
 	],
 	'flarum-lock' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lock/v1.6.1/locale/en.yml',
