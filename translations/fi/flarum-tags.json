@@ -29,7 +29,7 @@
                 "tag_discussions_label": "Avainsanan keskustelut"
             },
             "settings": {
-                "button_text": ""
+                "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
                 "range_separator_text": " - ",
@@ -62,7 +62,7 @@
                 "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
-                "choose_tags_link": "Valitse avainsanat"
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
                 "edit_tags_button": "Muokkaa avainsanoja"
@@ -76,9 +76,9 @@
                 "untagged_link": "Merkintä poistettu"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} lisäsi {tagsAdded} ja poisti {tagsRemoved}.",
-                "added_tags_text": "{username} lisäsi {tagsAdded}.",
-                "removed_tags_text": "{username} poisti {tagsRemoved}.",
+                "added_and_removed_tags_text": "{username} lisäsi {tagsAdded} ja poisti {tagsRemoved} {time}.",
+                "added_tags_text": "{username} lisäsi {tagsAdded} {time}.",
+                "removed_tags_text": "{username} poisti {tagsRemoved} {time}.",
                 "tags_text": "{count, plural, one {{tags} avainsana} other {{tags} avainsanaa}}"
             },
             "tag": {
@@ -88,17 +88,17 @@
         "lib": {
             "deleted_tag_text": "Poistettu",
             "tag_selection_modal": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "bypass_requirements": "Ohita avainsana vaatimukset",
+                "choose_primary_placeholder": "{count, plural, one {Valitse ensijainen avainsana} other {Valitse # ensisijaista avainsanaa}}",
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
             }
         },
         "ref": {
-            "choose_tags": "",
-            "choose_tags_placeholder": "",
+            "choose_tags": "Valitse avainsanat",
+            "choose_tags_placeholder": "{count, plural, one {Valitse 1 avainsana lisää} other {Valitse # avainsanaa lisää}}",
             "name": "Nimi",
             "tags": "Avainsanat"
         }
