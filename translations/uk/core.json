@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Користувацька шапка",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Користувацькі стилі",
                 "custom_styles_text": "Налаштування зовнішнього вигляду форуму за допомогою призначеного для користувача коду LESS/CSS, який перекриває стандартні стильові конструкції Flarum.",
                 "dark_mode_label": "Темний режим",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "Очистити кеш",
                 "description": "Ваш форум з першого погляду.",
                 "io_error_message": "Не вдалося записати до файлової системи. Перевірте права доступу до файлової системи та повторіть спробу. Або спробуйте запустити з командного рядка.",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "Панель керування",
                 "tools_button": "Iнструменти"
             },
@@ -166,6 +174,7 @@
             "permissions": {
                 "allow_post_editing_label": "Дозволити редагувати допис",
                 "allow_renaming_label": "Дозволити перейменування",
+                "create_access_token_label": "",
                 "create_heading": "Створити",
                 "delete_discussions_forever_label": "Видалити дискусії назавжди",
                 "delete_discussions_label": "Видалити дискусії",
@@ -178,6 +187,7 @@
                 "edit_users_groups_label": "Редагувати групи користувачів",
                 "global_heading": "Глобальні",
                 "moderate_heading": "Модерація",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "Нова група",
                 "participate_heading": "Участь",
                 "post_without_throttle_label": "Відповідайте кілька разів без очікування",
@@ -215,6 +225,9 @@
                 "description": "Список усіх користувачів вашого форуму.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -244,9 +257,13 @@
                 },
                 "pagination": {
                     "back_button": "Попередня сторінка",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "Наступна сторінка",
                     "page_counter": "Сторінка: {current} з {total}"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "Усього користувачів: {count}"
             }
@@ -411,6 +428,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "Обліковий запис",
                 "change_email_button": "=> core.ref.change_email",
@@ -445,6 +497,7 @@
                 "posts_empty_text": "Схоже, що тут відсутні дописи.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -476,6 +529,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Перемкнути спадне меню"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "Активувати користувача",
                 "email_heading": "=> core.ref.email",
@@ -494,6 +550,7 @@
                 "dependent_extensions_message": "Неможливо вимкнути {extension}, доки не буде вимкнено такі залежні розширення: {extensions}",
                 "extension_initialiation_failed_message": "{extension} не вдалося ініціалізувати, зверніться до консолі браузера для отримання додаткової інформації.",
                 "generic_message": "Помилка. Будь ласка , оновіть сторінку та спробуйте ще раз.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Неможливо ввімкнути {extension}, доки не ввімкнемо такі залежності: {extensions}",
                 "not_found_message": "Ресурс не знайдено.",
                 "payload_too_large_message": "Корисне навантаження запиту було занадто великим.",
@@ -624,6 +681,7 @@
             "edit_user": "Редагувати користувача",
             "email": "Електронна пошта",
             "extensions": "Розширення",
+            "generic_confirmation_message": "",
             "icon": "Значок",
             "icon_text": "Введіть назву будь-якого класу іконки <a>Font Awesome</a>, <em>включаючи</em> префіксы <code>fas fa-</code>.",
             "load_more": "Завантажити ще",
@@ -631,6 +689,7 @@
             "log_in": "Увійти",
             "log_out": "Вийти",
             "mark_all_as_read": "Позначити все, як прочитане",
+            "new_token": "",
             "next_page": "Наступна сторінка",
             "notifications": "Сповіщення",
             "okay": "OK",
@@ -643,6 +702,8 @@
             "reset_your_password": "Скинути пароль",
             "restore": "Відновити",
             "save_changes": "Зберегти зміни",
+            "search_users": "",
+            "security": "",
             "settings": "Налаштування",
             "sign_up": "Реєстрація",
             "some_others": "{count, plural, one {# іншому} other {# іншим}}",

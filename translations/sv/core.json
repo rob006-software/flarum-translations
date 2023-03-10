@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Anpassat Sidhuvud",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Anpassad Sidstil",
                 "custom_styles_text": "Ändra ditt forums utseende genom att lägga till egen LESS/CSS-kod som skriver över Flarums standardutseende.",
                 "dark_mode_label": "Mörkt läge",
@@ -50,6 +51,13 @@
                 "clear_cache_button": "Rensa cache",
                 "description": "Ditt forum vid en anblick.",
                 "io_error_message": "Kan inte skriva till filsystemet. Kontrollera dina behörigheter till filsystemet och försök igen. Eller försök köra via kommandorad.",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "Kontrollpanel",
                 "tools_button": "Verktyg"
             },
@@ -173,6 +181,7 @@
             "permissions": {
                 "allow_post_editing_label": "Allow post editing",
                 "allow_renaming_label": "Allow renaming",
+                "create_access_token_label": "",
                 "create_heading": "Create",
                 "delete_discussions_forever_label": "Delete discussions forever",
                 "delete_discussions_label": "Radera diskussioner",
@@ -185,6 +194,7 @@
                 "edit_users_groups_label": "Redigera användargrupper",
                 "global_heading": "Global",
                 "moderate_heading": "Moderate",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "Ny grupp",
                 "participate_heading": "Participate",
                 "post_without_throttle_label": "Reply multiple times without waiting",
@@ -224,6 +234,9 @@
                 "description": "En sidindelad lista över alla användare på ditt forum.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "Redigera",
                             "title": "Redigera användare",
@@ -253,9 +266,13 @@
                 },
                 "pagination": {
                     "back_button": "Föregående sida",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "Nästa sida",
                     "page_counter": "Sida {current} av {total}"
                 },
+                "search_placeholder": "",
                 "title": "Användare",
                 "total_users": "Totalt antal användare: {count}"
             }
@@ -421,6 +438,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "Användare"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "Konto",
                 "change_email_button": "=> core.ref.change_email",
@@ -455,6 +507,7 @@
                 "posts_empty_text": "Det verkar inte finnas några inlägg här.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -499,6 +552,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Visa/dölj dropdownmeny"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "Aktivera användare",
                 "email_heading": "E-mail",
@@ -517,6 +573,7 @@
                 "dependent_extensions_message": "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}",
                 "extension_initialiation_failed_message": "{extension} kunde inte läsas in. Kontrollera browser-konsolen för mer information.",
                 "generic_message": "Hoppsan! Något gick fel. Vänligen ladda om sidan och försök igen.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Cannot enable {extension} until the following dependencies are enabled: {extensions}",
                 "not_found_message": "Den begärda resursen hittades inte.",
                 "payload_too_large_message": "Innehållet i svaret var för stort.",
@@ -647,6 +704,7 @@
             "edit_user": "Redigera användare",
             "email": "E-post",
             "extensions": "Extensions",
+            "generic_confirmation_message": "",
             "icon": "Ikon",
             "icon_text": "Skriv in namnet på vilken <a>FontAwesome</a>-ikonklass du vill, <em>med</em> <code>fa fas-</code>prefixet.",
             "load_more": "Ladda fler",
@@ -654,6 +712,7 @@
             "log_in": "Logga in",
             "log_out": "Logga ut",
             "mark_all_as_read": "Markera alla som lästa",
+            "new_token": "",
             "next_page": "Nästa sida",
             "notifications": "Notifikationer",
             "okay": "OK",
@@ -666,6 +725,8 @@
             "reset_your_password": "Återställ ditt lösenord",
             "restore": "Återställ",
             "save_changes": "Spara ändringar",
+            "search_users": "",
+            "security": "",
             "settings": "Inställningar",
             "sign_up": "Registrera dig",
             "some_others": "{count, plural, one {# annan} annan {# andra}}",

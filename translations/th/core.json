@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "กำหนดส่วนหัวเอง",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "กำหนดสไตล์เอง",
                 "custom_styles_text": "ปรับเเต่งฟอรั่มของคุณเองโดยการใช้ CSS/Less เพื่อปรากฎทับค่าเริ่มต้น",
                 "dark_mode_label": "ธีมมืด",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "ล้างเเคช",
                 "description": "Your forum at a glance.",
                 "io_error_message": "",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "Dashboard",
                 "tools_button": "Tools"
             },
@@ -166,6 +174,7 @@
             "permissions": {
                 "allow_post_editing_label": "อนุญาติเเก้ไขโพสต์",
                 "allow_renaming_label": "อนุญาติเปลี่ยนชื่อกระทู้",
+                "create_access_token_label": "",
                 "create_heading": "สร้าง",
                 "delete_discussions_forever_label": "ลบกระทู้ถาวร",
                 "delete_discussions_label": "ลบกระทู้",
@@ -178,6 +187,7 @@
                 "edit_users_groups_label": "เเก้ไขกลุ่มผู้ใช้",
                 "global_heading": "ทั้งหมด",
                 "moderate_heading": "การดูเเล",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "กลุ่มใหม่",
                 "participate_heading": "การมีส่วนร่วม",
                 "post_without_throttle_label": "ตอบกลับกี่ครั้งก็ได้โดยไม่ต้องรอ",
@@ -215,6 +225,9 @@
                 "description": "รายชื่อผู้ใช้ทั้งหมดในฟอรั่มของคุณ",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -244,9 +257,13 @@
                 },
                 "pagination": {
                     "back_button": "หน้าก่อนหน้า",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "หน้าถัดไป",
                     "page_counter": "หน้าที่ {current} จาก {total}"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "ผู้ใช้ทั้งหมด: {count}"
             }
@@ -411,6 +428,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "บัญชี",
                 "change_email_button": "=> core.ref.change_email",
@@ -445,6 +497,7 @@
                 "posts_empty_text": "ดูเหมือนว่าไม่มีโพสต์ที่นี่",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -476,6 +529,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Toggle dropdown menu"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "Activate User",
                 "email_heading": "=> core.ref.email",
@@ -494,6 +550,7 @@
                 "dependent_extensions_message": "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}",
                 "extension_initialiation_failed_message": "",
                 "generic_message": "อ๊ะ! บางอย่างผิดพลาด โปรดโหลดหน้าเว็บและลองอีกครั้ง",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Cannot enable {extension} until the following dependencies are enabled: {extensions}",
                 "not_found_message": "ไม่พบแหล่งข้อมูลที่ร้องขอ",
                 "payload_too_large_message": "คำขอนี้มากเกินไป",
@@ -624,6 +681,7 @@
             "edit_user": "เเก้ไขผู้ใช้",
             "email": "อีเมล",
             "extensions": "ส่วนเสริม",
+            "generic_confirmation_message": "",
             "icon": "ไอคอน",
             "icon_text": "ใส่ชื่ออะไรก็ได้ของ <a>FontAwesome</a> icon class, <em>ที่ประกอบไปด้วย</em> <code>fas fa-</code> ข้างหน้า",
             "load_more": "แสดงเพิ่มเติม",
@@ -631,6 +689,7 @@
             "log_in": "เข้าสู่ระบบ",
             "log_out": "ออกจากระบบ",
             "mark_all_as_read": "ทำเครื่องหมายว่าอ่านแล้วทั้งหมด",
+            "new_token": "",
             "next_page": "หน้าถัดไป",
             "notifications": "การแจ้งเตือน",
             "okay": "ตกลง",
@@ -643,6 +702,8 @@
             "reset_your_password": "รีเซ็ตรหัสผ่านของคุณ",
             "restore": "กู้คืน",
             "save_changes": "บันทึกการเปลี่ยนแปลง",
+            "search_users": "",
+            "security": "",
             "settings": "ตั้งค่า",
             "sign_up": "สมัครสมาชิก",
             "some_others": "{count, plural, one {# other} other {# others}}",

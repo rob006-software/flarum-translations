@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Antet Personalizat",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Stiluri Personalizate",
                 "custom_styles_text": "Personalizați aspectul forumului Dvs. adăugând propriul cod LESS/CSS, care se va aplica peste stilurile implicite ale Flarum.",
                 "dark_mode_label": "Mod Întunecat",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "Ștergere memoria cache",
                 "description": "Forumul Dvs. dintr-o privire.",
                 "io_error_message": "Nu s-a putut scrie către fișierul de sistem. Verifică-ți permisiunile fișierului de sistem și încearcă din nou. Sau încearcă să rulezi de pe linia de comandă.",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "Tablou de bord",
                 "tools_button": "Instrumente"
             },
@@ -166,6 +174,7 @@
             "permissions": {
                 "allow_post_editing_label": "Editarea postărilor",
                 "allow_renaming_label": "Redenumirea discuției",
+                "create_access_token_label": "",
                 "create_heading": "Creare",
                 "delete_discussions_forever_label": "Ștergerea definitivă a discuțiilor",
                 "delete_discussions_label": "Ștergerea discuțiilor",
@@ -178,6 +187,7 @@
                 "edit_users_groups_label": "Editarea grupurilor utilizatorilor",
                 "global_heading": "Global",
                 "moderate_heading": "Moderare",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "Grup nou",
                 "participate_heading": "Participare",
                 "post_without_throttle_label": "Răspunsuri consecutive fără așteptare",
@@ -215,6 +225,9 @@
                 "description": "O listă a tuturor utilizatorilor de pe forumul Dvs.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -244,9 +257,13 @@
                 },
                 "pagination": {
                     "back_button": "=> core.ref.previous_page",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "=> core.ref.next_page",
                     "page_counter": "Pagina {current} din {total}"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "Numărul total de utilizatori: {count}"
             }
@@ -411,6 +428,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "Cont",
                 "change_email_button": "=> core.ref.change_email",
@@ -445,6 +497,7 @@
                 "posts_empty_text": "Se pare că nu sunt postări aici.",
                 "posts_link": "Postări",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -476,6 +529,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Comutare meniul derulant"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "Activare utilizator",
                 "email_heading": "=> core.ref.email",
@@ -494,6 +550,7 @@
                 "dependent_extensions_message": "Extensia {extension} nu poate fi dezactivată până când următoarele extensii dependente sunt activate: {extensions}",
                 "extension_initialiation_failed_message": "{extension} a eșuat să se inițializeze, verifică consola navigatorului pentru mai multe informații.",
                 "generic_message": "Hopa! Ceva nu a mers. Vă rugăm, încărcați pagina din nou (F5) și încercați din nou.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Extensia {extension} nu poate fi activată până când următoarele dependențe sunt dezactivate: {extensions}",
                 "not_found_message": "Resursa solicitată nu a fost găsită.",
                 "payload_too_large_message": "Datele utile ale cererii au fost prea mari.",
@@ -624,6 +681,7 @@
             "edit_user": "Editare utilizator",
             "email": "E-mail",
             "extensions": "Extensii",
+            "generic_confirmation_message": "",
             "icon": "Iconiță",
             "icon_text": "Introduceți numele iconiței <a>Font Awesome</a> <em>împreună</em> cu prefixul <code>fas fa-</code>.",
             "load_more": "Încarcă Mai Multe",
@@ -631,6 +689,7 @@
             "log_in": "Conectare",
             "log_out": "Deconectare",
             "mark_all_as_read": "Marcare toate ca citite",
+            "new_token": "",
             "next_page": "Pagina următoare",
             "notifications": "Notificări",
             "okay": "OK",
@@ -643,6 +702,8 @@
             "reset_your_password": "Restabilire parolă de access",
             "restore": "Restabilire",
             "save_changes": "Salvare",
+            "search_users": "",
+            "security": "",
             "settings": "Setări",
             "sign_up": "Înregistrare",
             "some_others": "{count, plural, one {# altul} other {# altele}}",

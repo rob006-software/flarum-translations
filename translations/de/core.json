@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Individuelle Kopfzeile",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Individueller Stil",
                 "custom_styles_text": "Die Erscheinung des Forums durch eigenen Less/CSS-Code anpassen.",
                 "dark_mode_label": "Dunkles Design",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "Cache leeren",
                 "description": "Dein Forum auf einen Blick.",
                 "io_error_message": "Es konnte nicht in das Dateisystem geschrieben werden. Überprüfe die Berechtigungen deines Dateisystems und versuche es erneut. Oder versuche es über die Kommandozeile auszuführen.",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "Dashboard",
                 "tools_button": "Werkzeuge"
             },
@@ -168,6 +176,7 @@
             "permissions": {
                 "allow_post_editing_label": "Erlaube das Ändern von Beiträgen",
                 "allow_renaming_label": "Erlaube Umbenennungen",
+                "create_access_token_label": "",
                 "create_heading": "Erstellen",
                 "delete_discussions_forever_label": "Diskussion endgültig löschen",
                 "delete_discussions_label": "Diskussion löschen",
@@ -180,6 +189,7 @@
                 "edit_users_groups_label": "Gruppen von Nutzern bearbeiten",
                 "global_heading": "Global",
                 "moderate_heading": "Moderation",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "Neue Gruppe",
                 "participate_heading": "Teilnehmer",
                 "post_without_throttle_label": "Mehrfach ohne Wartezeit antworten",
@@ -217,6 +227,9 @@
                 "description": "Eine paginierte Liste aller Benutzer in deinem Forum.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -246,9 +259,13 @@
                 },
                 "pagination": {
                     "back_button": "Vorherige Seite",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "Nächste Seite",
                     "page_counter": "Seite {current} von {total}"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "Benutzer insgesamt: {count}"
             }
@@ -414,6 +431,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "Konto",
                 "change_email_button": "=> core.ref.change_email",
@@ -448,6 +500,7 @@
                 "posts_empty_text": "Es sieht so aus, als gäbe es hier keine Beiträge.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -479,6 +532,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Dropdown-Menü umschalten"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "Benutzer aktivieren",
                 "email_heading": "=> core.ref.email",
@@ -497,6 +553,7 @@
                 "dependent_extensions_message": "Die Erweiterung {extension} kann nicht deaktiviert werden, bis folgende abhängige Erweiterungen deaktiviert wurden: {extensions}",
                 "extension_initialiation_failed_message": "{extension} konnte nicht initialisiert werden, überprüfe die Browser-Konsole für weitere Informationen.",
                 "generic_message": "Oops! Da ist was schief gelaufen. Bitte die Seite neu laden oder noch mal versuchen.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Die Erweiterung {extension} kann nicht aktiviert werden, bis folgende abhängige Erweiterungen aktiviert wurden: {extensions}",
                 "not_found_message": "Leider nichts gefunden.",
                 "payload_too_large_message": "Die Nutzlast der Anfrage war zu groß.",
@@ -631,6 +688,7 @@
             "edit_user": "Benutzer ändern",
             "email": "E-Mail",
             "extensions": "Erweiterungen",
+            "generic_confirmation_message": "",
             "icon": "Symbol",
             "icon_text": "Name des <a>FontAwesome</a>-Symbols eingeben, aber <em>mit</em> dem Prefix <code>fas fa-</code>.",
             "load_more": "Weitere laden",
@@ -638,6 +696,7 @@
             "log_in": "Anmelden",
             "log_out": "Abmelden",
             "mark_all_as_read": "Alle als gelesen markieren",
+            "new_token": "",
             "next_page": "Nächste Seite",
             "notifications": "Benachrichtigungen",
             "okay": "Okay",
@@ -650,6 +709,8 @@
             "reset_your_password": "Setze dein Passwort zurück",
             "restore": "Wiederherstellen",
             "save_changes": "Änderungen speichern",
+            "search_users": "",
+            "security": "",
             "settings": "Einstellungen",
             "sign_up": "Registrieren",
             "some_others": "{count, plural, one {# weiterem} other {# weiteren}}",

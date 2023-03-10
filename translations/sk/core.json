@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Vlastná Hlavička",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Vlastné Štýly",
                 "custom_styles_text": "Prispôsobte si vzhľad Vášho fóra pridaním Vašich vlastných LESS/CSS kódov, ktoré budú aplikované spolu so základnými Flarum štýlmi.",
                 "dark_mode_label": "Tmavý Režim",
@@ -50,6 +51,13 @@
                 "clear_cache_button": "Vymazať Vyrovnávaciu Pamäť",
                 "description": "Vaše fórum na dlani.",
                 "io_error_message": "",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "Hlavný Panel",
                 "tools_button": "Nástroje"
             },
@@ -173,6 +181,7 @@
             "permissions": {
                 "allow_post_editing_label": "Umožniť upravovať príspevky",
                 "allow_renaming_label": "Umožniť premenovať",
+                "create_access_token_label": "",
                 "create_heading": "Vytvoriť",
                 "delete_discussions_forever_label": "Navždy odstrániť diskusie",
                 "delete_discussions_label": "Odstrániť diskusie",
@@ -185,6 +194,7 @@
                 "edit_users_groups_label": "Upraviť skupiny používateľa",
                 "global_heading": "Globálne",
                 "moderate_heading": "Moderovať",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "Nová Skupina",
                 "participate_heading": "Zúčastniť sa",
                 "post_without_throttle_label": "Odpovedať viackrát bez čakania",
@@ -224,6 +234,9 @@
                 "description": "Stránkovaný zoznam všetkých používateľov na Vašom fóre.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -253,9 +266,13 @@
                 },
                 "pagination": {
                     "back_button": "Predchádzajúca strana",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "Nasledujúca strana",
                     "page_counter": "Strana {current} z {total}"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "Celkový počet používateľov: {count}"
             }
@@ -421,6 +438,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "Účet",
                 "change_email_button": "=> core.ref.change_email",
@@ -455,6 +507,7 @@
                 "posts_empty_text": "Vyzerá to tak že tu nie sú žiadne príspevky.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -499,6 +552,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Prepnúť rozbaľovacie menu"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "Aktivovať používateľa",
                 "email_heading": "=> core.ref.email",
@@ -517,6 +573,7 @@
                 "dependent_extensions_message": "Nemožno deaktivovať {extension} pokiaľ nie sú deaktivované aj nasledujúce doplnky: {extensions}",
                 "extension_initialiation_failed_message": "{extension} sa nepodarilo načítať, skontrolujte konzolu v prehliadači pre viac informácií.",
                 "generic_message": "Hups! Vyskytla sa chyba. Prosím, opätovne načítajte stránku a skúste to znovu.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Nemožno aktivovať {extension} pokiaľ nie sú aktivované aj nasledujúce doplnky: {extensions}",
                 "not_found_message": "Požadovaný obsah sa nenašiel.",
                 "payload_too_large_message": "Požiadavka bola príliš veľká.",
@@ -647,6 +704,7 @@
             "edit_user": "Upraviť používateľa",
             "email": "Email",
             "extensions": "Rozšírenia",
+            "generic_confirmation_message": "",
             "icon": "Ikona",
             "icon_text": "Uveď názov akejkoľvek <a>FontAwesome</a> ikonovej triedy, <em>zároveň s</em> predponou <code>fas fa-</code>.",
             "load_more": "Načítať Viac",
@@ -654,6 +712,7 @@
             "log_in": "Prihlásiť Sa",
             "log_out": "Odhlásiť Sa",
             "mark_all_as_read": "Označiť Všetky ako prečítané",
+            "new_token": "",
             "next_page": "Nasledujúca Strana",
             "notifications": "Upozornenia",
             "okay": "OK",
@@ -666,6 +725,8 @@
             "reset_your_password": "Obnova Hesla",
             "restore": "Obnoviť",
             "save_changes": "Uložiť Zmeny",
+            "search_users": "",
+            "security": "",
             "settings": "Nastavenia",
             "sign_up": "Registrovať Sa",
             "some_others": "{count, plural, one {# ďalší} few {# ďalší} other {# ďalších}}",

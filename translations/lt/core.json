@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Pasirinktitins Header",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Pasirinktinis stilius",
                 "custom_styles_text": "Tinkinkite savo forumo išvaizdą pridėdami savo LESS/CSS kodą, kuris bus pritaikytas prie numatytųjų Flarum stilių.",
                 "dark_mode_label": "Tamsusis režimas",
@@ -50,6 +51,13 @@
                 "clear_cache_button": "Išvalyti talpyklą",
                 "description": "Jūsų forumas trumpai.",
                 "io_error_message": "",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "Skydelis",
                 "tools_button": "Įrankiai"
             },
@@ -173,6 +181,7 @@
             "permissions": {
                 "allow_post_editing_label": "Leisti įrašo redagavimą",
                 "allow_renaming_label": "Leisti pervadinti",
+                "create_access_token_label": "",
                 "create_heading": "Sukurti",
                 "delete_discussions_forever_label": "Ištrinti diskusijas visam laikui",
                 "delete_discussions_label": "Ištrinti diskusijas",
@@ -185,6 +194,7 @@
                 "edit_users_groups_label": "Redaguoti vartotojų grupes",
                 "global_heading": "Globalus",
                 "moderate_heading": "Moderuoti",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "Nauja grupė",
                 "participate_heading": "Dalyvauti",
                 "post_without_throttle_label": "Atsakykite kelis kartus nelaukdami",
@@ -224,6 +234,9 @@
                 "description": "Visų jūsų forumo vartotojų sąrašas puslapiais.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -253,9 +266,13 @@
                 },
                 "pagination": {
                     "back_button": "Ankstesnis puslapis",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "Kitas puslapis",
                     "page_counter": "Puslapis {current} iš {total}"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "Viso narių: {count}"
             }
@@ -421,6 +438,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "Paskyra",
                 "change_email_button": "=> core.ref.change_email",
@@ -455,6 +507,7 @@
                 "posts_empty_text": "Panašu, kad įrašų čia nėra.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -499,6 +552,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Perjungti išskleidžiamąjį meniu"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "Suaktyvinti vartotoją",
                 "email_heading": "=> core.ref.email",
@@ -517,6 +573,7 @@
                 "dependent_extensions_message": "Įskiepio {extension} išjungimas yra negalimas kol įskiepiai yra išjungti: {extensions}",
                 "extension_initialiation_failed_message": "Nepavyko inicijuoti {extension}. Daugiau informacijos ieškokite naršyklės konsolėje.",
                 "generic_message": "Oops! Kažkas įvyko ne taip. Perkraukite puslapį iš naujo ir bandykite dar kartą.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Įskiepio {extension} įjungimas yra negalimas kol įskiepiai yra įjungti: {extensions}",
                 "not_found_message": "Prašomas šaltinis nerastas.",
                 "payload_too_large_message": "Naudingasis užklausos kiekis buvo per didelis.",
@@ -647,6 +704,7 @@
             "edit_user": "Redaguoti vartotoją",
             "email": "El. pašto adresas",
             "extensions": "Plėtiniai",
+            "generic_confirmation_message": "",
             "icon": "Ikona",
             "icon_text": "Įveskite bet kurios <a>FontAwesome</a> piktogramų klasės pavadinimą, <em>įskaitant</em> <code>fas fa-</code> priešdėlį.",
             "load_more": "Įkelti daugiau",
@@ -654,6 +712,7 @@
             "log_in": "Prisijungti",
             "log_out": "Atsijungti",
             "mark_all_as_read": "Pažymėti visus kaip skaitytus",
+            "new_token": "",
             "next_page": "Kitas puslapis",
             "notifications": "Pranešimai",
             "okay": "Gerai",
@@ -666,6 +725,8 @@
             "reset_your_password": "Atstatyti slaptažodį",
             "restore": "Atkurti",
             "save_changes": "Išsaugoti pakeitimus",
+            "search_users": "",
+            "security": "",
             "settings": "Nustatymai",
             "sign_up": "Registracija",
             "some_others": "{count, plural, one {# kitas} other {# kiti}}",

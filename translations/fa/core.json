@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "هدر سفارشی",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "استایل‌های سفارشی",
                 "custom_styles_text": "ظاهر انجمن خود را با اضافه کردن کد های CSS/LESS شخصی سازی کنید تا بر روی استایل پیشفرض فلاروم اعمال شود.",
                 "dark_mode_label": "حالت تیره",
@@ -50,6 +51,13 @@
                 "clear_cache_button": "پاک کردن cache",
                 "description": "انجمن شما در یک نگاه",
                 "io_error_message": "",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "داشبورد",
                 "tools_button": "ابزارها"
             },
@@ -188,6 +196,7 @@
             "permissions": {
                 "allow_post_editing_label": "اجازه ویرایش نوشته‌ها",
                 "allow_renaming_label": "اجازه تغییر نام",
+                "create_access_token_label": "",
                 "create_heading": "ساختن",
                 "delete_discussions_forever_label": "حذف مباحث برای همیشه",
                 "delete_discussions_label": "حذف مباحث",
@@ -200,6 +209,7 @@
                 "edit_users_groups_label": "ویرایش گروه های کاربری",
                 "global_heading": "همگانی",
                 "moderate_heading": "مدیریت",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "گروه جدید",
                 "participate_heading": "مشارکت",
                 "post_without_throttle_label": "چندین بار بدون انتظار پاسخ دهید",
@@ -239,6 +249,9 @@
                 "description": "یک لیست صفحه بندی شده از همه کاربران در انجمن شما.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -268,9 +281,13 @@
                 },
                 "pagination": {
                     "back_button": "صفحه قبلی",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "صفحه بعدی",
                     "page_counter": "صفحه {current} از {total}"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "کل کاربران: {count}"
             },
@@ -447,6 +464,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "حساب کاربری",
                 "change_email_button": "=> core.ref.change_email",
@@ -481,6 +533,7 @@
                 "posts_empty_text": "به نظر می‌رسد که نوشته‌ای تاکنون در اینجا ارسال نشده است.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -525,6 +578,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "تغییر منوی کشویی"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "فعالسازی کاربر",
                 "email_heading": "=> core.ref.email",
@@ -543,6 +599,7 @@
                 "dependent_extensions_message": "تا زمانی که پسوندهای وابسته زیر غیرفعال شوند، نمی توان {extension} را غیرفعال کرد: {extensions}",
                 "extension_initialiation_failed_message": "",
                 "generic_message": "متأسفانه خطایی رخ داد. لطفاً صفحه را دوباره بارگذاری کنید.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "تا زمانی که وابستگی‌های زیر فعال نشده باشند، نمی‌توان {extension} را فعال کرد: {extensions}",
                 "not_found_message": "یافت نشد.",
                 "payload_too_large_message": "بار درخواست خیلی بزرگ بود.",
@@ -682,6 +739,7 @@
             "edit_user": "ویرایش کاربر",
             "email": "رایانامه",
             "extensions": "افزونه ها",
+            "generic_confirmation_message": "",
             "icon": "آیکون",
             "icon_text": "نام هر یک از کلاس آیکون های <a>FontAwesome</a> را وارد کنید که <em>شامل</em> پیشوند <code>fas fa-</code> باشد.",
             "load_more": "بیشتر",
@@ -689,6 +747,7 @@
             "log_in": "ورود",
             "log_out": "خروج",
             "mark_all_as_read": "علامت همه به‌عنوان خوانده‌شده",
+            "new_token": "",
             "next_page": "صفحه بعد",
             "notifications": "اعلان‌ها",
             "okay": "باشه",
@@ -701,6 +760,8 @@
             "reset_your_password": "تنظیم دوباره گذرواژه",
             "restore": "بازیابی",
             "save_changes": "ذخیره تغییرات",
+            "search_users": "",
+            "security": "",
             "settings": "تنظیمات",
             "sign_up": "ثبت‌ نام",
             "some_others": "{count, plural, one {# دیگر} other {# دیگر}}",

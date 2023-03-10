@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "പ്രത്യേക തലക്കെട്ട്",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "പ്രത്യേക ഉടുപ്പുകൾ",
                 "custom_styles_text": "ഫ്ലാറത്തിന്റെ സ്ഥിര ശൈലികൾക്ക് മുകളിൽ പ്രയോഗിക്കുന്നതിന് നിങ്ങളുടെ സ്വന്തം Less/CSS കോഡ് ചേർത്ത് നിങ്ങളുടെ ഫോറത്തിന്റെ രൂപം ഇഷ്ടാനുസൃതമാക്കുക.",
                 "dark_mode_label": "ഇരുണ്ട ഉടുപ്പ്",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "കാഷെ മായ്ക്കുക",
                 "description": "നിങ്ങളുടെ ഫോറം ഒറ്റ നോട്ടത്തിൽ.",
                 "io_error_message": "",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "നിയന്ത്രണ മുഖം",
                 "tools_button": "ഉപകരണങ്ങൾ"
             },
@@ -168,6 +176,7 @@
             "permissions": {
                 "allow_post_editing_label": "പോസ്റ്റ് തിരുത്താൻ അനുവദിക്കുക",
                 "allow_renaming_label": "പേര് മാറ്റാൻ അനുവദിക്കുക",
+                "create_access_token_label": "",
                 "create_heading": "സൃഷ്ടിക്കുക",
                 "delete_discussions_forever_label": "ചർച്ചകൾ എന്നെന്നേക്കുമായി ഇല്ലാതാക്കുക",
                 "delete_discussions_label": "ചർച്ചകൾ ഇല്ലാതാക്കുക",
@@ -180,6 +189,7 @@
                 "edit_users_groups_label": "ഉപയോക്തൃ ഗ്രൂപ്പുകൾ തിരുത്തുക",
                 "global_heading": "എല്ലായിടത്തും ഉള്ളത്",
                 "moderate_heading": "നിയന്ത്രിക്കുക",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "പുതിയ സംഘം",
                 "participate_heading": "പങ്കെടുക്കുക",
                 "post_without_throttle_label": "കാത്തിരിക്കാതെ ഒന്നിലധികം തവണ മറുപടി നൽകുക",
@@ -217,6 +227,9 @@
                 "description": "നിങ്ങളുടെ ഫോറത്തിലെ എല്ലാ ഉപയോക്താക്കളുടെയും ഒരു പേജിനേറ്റഡ് ലിസ്റ്റ്.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -246,9 +259,13 @@
                 },
                 "pagination": {
                     "back_button": "മുൻപത്തെ താൾ",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "അടുത്ത പേജ്",
                     "page_counter": "പേജ് {current} / {total}"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "മൊത്തം ഉപയോക്താക്കൾ: {count}"
             }
@@ -414,6 +431,41 @@
                 "discussions_heading": "",
                 "users_heading": ""
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "",
                 "change_email_button": "",
@@ -448,6 +500,7 @@
                 "posts_empty_text": "",
                 "posts_link": "",
                 "posts_load_more_button": "",
+                "security_link": "",
                 "settings_link": ""
             },
             "user_controls": {
@@ -479,6 +532,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": ""
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "",
                 "email_heading": "",
@@ -497,6 +553,7 @@
                 "dependent_extensions_message": "",
                 "extension_initialiation_failed_message": "",
                 "generic_message": "",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "",
                 "not_found_message": "",
                 "payload_too_large_message": "",
@@ -627,6 +684,7 @@
             "edit_user": "",
             "email": "",
             "extensions": "",
+            "generic_confirmation_message": "",
             "icon": "",
             "icon_text": "",
             "load_more": "",
@@ -634,6 +692,7 @@
             "log_in": "",
             "log_out": "",
             "mark_all_as_read": "",
+            "new_token": "",
             "next_page": "",
             "notifications": "",
             "okay": "",
@@ -646,6 +705,8 @@
             "reset_your_password": "",
             "restore": "",
             "save_changes": "",
+            "search_users": "",
+            "security": "",
             "settings": "",
             "sign_up": "",
             "some_others": "",

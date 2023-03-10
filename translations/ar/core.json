@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "رأس مخصص",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "استايلات مخصصة",
                 "custom_styles_text": "قم بتخصيص منتداك عن طريق اضافة ملفات CSS/LESS خاصة ليتم تطبيقها على استايل فلارم الافتراضى.",
                 "dark_mode_label": "الوضع المظلم",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "مسح ذاكرة التخزين المؤقت",
                 "description": "المنتدى الخاص بك في لمحة.",
                 "io_error_message": "",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "لوحة المعلومات",
                 "tools_button": "أدوات"
             },
@@ -166,6 +174,7 @@
             "permissions": {
                 "allow_post_editing_label": "السّماح بتعديل المنشور",
                 "allow_renaming_label": "السّماح بتعديل العنوان",
+                "create_access_token_label": "",
                 "create_heading": "إنشاء",
                 "delete_discussions_forever_label": "حذف المناقشات بشكل نهائيّ",
                 "delete_discussions_label": "حَذف المناقشات",
@@ -178,6 +187,7 @@
                 "edit_users_groups_label": "تعديل مجموعات المستخدِمين",
                 "global_heading": "عامّ",
                 "moderate_heading": "الإشراف",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "مجموعة جديدة",
                 "participate_heading": "المشاركة",
                 "post_without_throttle_label": "الرّدّ عدّة مرّات دون انتظار",
@@ -215,6 +225,9 @@
                 "description": "قائمة مرقّمة الصّفحات لجميع المستخدمين في المنتدى الخاصّ بك.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "",
                             "title": "",
@@ -244,9 +257,13 @@
                 },
                 "pagination": {
                     "back_button": "الصّفحة السّابقة",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "الصّفحة التّالية",
                     "page_counter": "الصّفحة {current} مِن أصل {total}"
                 },
+                "search_placeholder": "",
                 "title": "",
                 "total_users": "إجمالي المستخدمين: {count}"
             }
@@ -411,6 +428,41 @@
                 "discussions_heading": "",
                 "users_heading": ""
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "الحساب",
                 "change_email_button": "",
@@ -445,6 +497,7 @@
                 "posts_empty_text": "يبدو أنّه لا توجد مشاركات هنا.",
                 "posts_link": "",
                 "posts_load_more_button": "",
+                "security_link": "",
                 "settings_link": ""
             },
             "user_controls": {
@@ -476,6 +529,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "تبديل القائمة المنسدلة"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "تفعيل عضويّة العضو",
                 "email_heading": "",
@@ -494,6 +550,7 @@
                 "dependent_extensions_message": "لا يُمكن تعطيل {extension} حتى يتمّ تعطيل الملحقات التّالية: {extensions}",
                 "extension_initialiation_failed_message": "فشل تهيئة {extension}، تحقّق من وحدة تحكّم المتصفّح للحصول على مزيد من المعلومات.",
                 "generic_message": "أُووبس! هناك خطأ ما. يرجى إعادة تحميل الصّفحة والمحاولة مرّة أخرى.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "لا يُمكن تمكين {extension} حتى يتمّ تمكين التّبعات التّالية: {extensions}",
                 "not_found_message": "لم يتمّ العثور على المورد المطلوب.",
                 "payload_too_large_message": "حمولة الطّلب كانت كبيرة جدًا.",
@@ -624,6 +681,7 @@
             "edit_user": "تحرير العضو",
             "email": "البريد الإلكتروني",
             "extensions": "الإضافات",
+            "generic_confirmation_message": "",
             "icon": "الأيقونة",
             "icon_text": "أدخل اسم أيّ أيقونة من أيقونات <a>FontAwesome</a>، مع <em>إضافة</em> الرّمز <code>fas fa-</code> في البادئة.",
             "load_more": "تحميل المزيد",
@@ -631,6 +689,7 @@
             "log_in": "دخول",
             "log_out": "خروج",
             "mark_all_as_read": "تحديد الكلّ كمقروءة",
+            "new_token": "",
             "next_page": "الصفحة التالية",
             "notifications": "التنبيهات",
             "okay": "موافق",
@@ -643,6 +702,8 @@
             "reset_your_password": "إعادة تعيين كلمة المرور الخاصة بك",
             "restore": "استعادة",
             "save_changes": "حفظ التغييرات",
+            "search_users": "",
+            "security": "",
             "settings": "الاعدادات",
             "sign_up": "تسجيل",
             "some_others": "",

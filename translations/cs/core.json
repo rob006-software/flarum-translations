@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Vlastní záhlaví",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Vlastní styly",
                 "custom_styles_text": "Uprav si vzhled svého fóra přidáním vlastního LESS/CSS kódu, který bude použit nad defaultními Flarum styly.",
                 "dark_mode_label": "Tmavý režim",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "Vymazat mezipaměť",
                 "description": "Přehled vašeho fóra.",
                 "io_error_message": "",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "Nástěnka",
                 "tools_button": "Nástroje"
             },
@@ -166,6 +174,7 @@
             "permissions": {
                 "allow_post_editing_label": "Povolit úpravu příspěvků",
                 "allow_renaming_label": "Povolit zbývající",
+                "create_access_token_label": "",
                 "create_heading": "Vytvořit",
                 "delete_discussions_forever_label": "Smazat diskuze navždy",
                 "delete_discussions_label": "Smazat diskuze",
@@ -178,6 +187,7 @@
                 "edit_users_groups_label": "Úprava uživatelských skupin",
                 "global_heading": "Globální",
                 "moderate_heading": "Moderovat",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "Nová skupina",
                 "participate_heading": "Zúčastnit se",
                 "post_without_throttle_label": "Odpovědět vícekrát bez čekání",
@@ -215,6 +225,9 @@
                 "description": "Stránkovaný seznam všech uživatelů vašeho fóra.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -244,9 +257,13 @@
                 },
                 "pagination": {
                     "back_button": "Předchozí stránka",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "Další stránka",
                     "page_counter": "Strana {current} z {total}"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "Celkový počet uživatelů: {count}"
             }
@@ -411,6 +428,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "Účet",
                 "change_email_button": "=> core.ref.change_email",
@@ -445,6 +497,7 @@
                 "posts_empty_text": "Zdá se, že tu nejsou žádné příspěvky.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -476,6 +529,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Přepínání rozbalovacího menu"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "Aktivace uživatele",
                 "email_heading": "=> core.ref.email",
@@ -494,6 +550,7 @@
                 "dependent_extensions_message": "Není možné deaktivovat {extension} dokud nejsou deaktivována tato závislá rozšíření: {extensions}",
                 "extension_initialiation_failed_message": "",
                 "generic_message": "Jejda, něco se pokazilo. Obnov prosím stránku a zkus to znovu.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Není možné povolit {extension} dokud nejsou povolena tato rozšíření: {extensions}",
                 "not_found_message": "Požadovaný zdroj nebyl nalezen.",
                 "payload_too_large_message": "",
@@ -624,6 +681,7 @@
             "edit_user": "Upravit uživatele",
             "email": "E-Mail",
             "extensions": "Rozšíření",
+            "generic_confirmation_message": "",
             "icon": "Ikona",
             "icon_text": "Vložte název <a>FontAwesome</a> ikony, <em>i s</em> <code>fas fa-</code> prefixem.",
             "load_more": "Načíst další",
@@ -631,6 +689,7 @@
             "log_in": "Přihlásit se",
             "log_out": "Odhlásit se",
             "mark_all_as_read": "Označit vše jako přečtené",
+            "new_token": "",
             "next_page": "Další stránka",
             "notifications": "Oznámení",
             "okay": "OK",
@@ -643,6 +702,8 @@
             "reset_your_password": "Obnovit heslo",
             "restore": "Obnovit",
             "save_changes": "Uložit změny",
+            "search_users": "",
+            "security": "",
             "settings": "Nastavení",
             "sign_up": "Registrovat se",
             "some_others": "{count} další|{count} další|{count} dalších",

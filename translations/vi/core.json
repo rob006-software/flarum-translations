@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Tùy chỉnh đầu trang",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Tùy chỉnh style",
                 "custom_styles_text": "Tùy chỉnh giao diện diễn đàn của bạn bằng cách thêm mã LESS/CSS để sử dụng trên style mặc định của Flarum.",
                 "dark_mode_label": "Chế độ tối",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "Xóa bộ nhớ đệm",
                 "description": "Diễn đàn của bạn trong nháy mắt.",
                 "io_error_message": "Không thể ghi vào hệ thống tệp. Kiểm tra quyền đối với hệ thống tệp của bạn và thử lại. Hoặc thử chạy từ dòng lệnh.",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "Trang tổng quan",
                 "tools_button": "Công cụ"
             },
@@ -168,6 +176,7 @@
             "permissions": {
                 "allow_post_editing_label": "Cho phép chỉnh sửa bài viết",
                 "allow_renaming_label": "Cho phép đổi tên",
+                "create_access_token_label": "",
                 "create_heading": "Tạo",
                 "delete_discussions_forever_label": "Xóa cuộc thảo luận vĩnh viễn",
                 "delete_discussions_label": "Xóa cuộc thảo luận",
@@ -180,6 +189,7 @@
                 "edit_users_groups_label": "Chỉnh sửa nhóm người dùng",
                 "global_heading": "Toàn bộ",
                 "moderate_heading": "Kiểm duyệt",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "Nhóm mới",
                 "participate_heading": "Tham dự",
                 "post_without_throttle_label": "Trả lời liên tục không cần chờ đợi",
@@ -217,6 +227,9 @@
                 "description": "Danh sách người dùng trên diễn đàn.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -246,9 +259,13 @@
                 },
                 "pagination": {
                     "back_button": "Trang trước",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "Trang sau",
                     "page_counter": "{current} trên {total} trang"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "Tổng người dùng: {count}"
             }
@@ -414,6 +431,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "Tài khoản",
                 "change_email_button": "=> core.ref.change_email",
@@ -448,6 +500,7 @@
                 "posts_empty_text": "Hiện không có bài viết nào ở đây.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -479,6 +532,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Chuyển đổi menu thả xuống"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "Kích hoạt người dùng",
                 "email_heading": "=> core.ref.email",
@@ -497,6 +553,7 @@
                 "dependent_extensions_message": "Không thể vô hiệu hóa {extension} cho đến khi các tiện ích mở rộng phụ thuộc sau bị vô hiệu hóa: {extensions}",
                 "extension_initialiation_failed_message": "Không thể khởi chạy {extension}, hãy kiểm tra console của trình duyệt để biết thêm thông tin.",
                 "generic_message": "Úi! Đã xảy ra lỗi. Hãy tải lại trang và thử lại.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Không thể kích hoạt {extension} cho đến khi các tiện ích mở rộng phụ thuộc sau được kích hoạt: {extensions}",
                 "not_found_message": "Không tìm thấy tài nguyên được yêu cầu.",
                 "payload_too_large_message": "Yêu cầu tải trọng quá lớn.",
@@ -631,6 +688,7 @@
             "edit_user": "Chỉnh sửa người dùng",
             "email": "Email",
             "extensions": "Tiện ích mở rộng",
+            "generic_confirmation_message": "",
             "icon": "Icon",
             "icon_text": "Nhập tên icon bất kì của <a>FontAwesome</a>, <em>kèm</em> theo tiền tố <code>fas fa-</code>.",
             "load_more": "Tải thêm",
@@ -638,6 +696,7 @@
             "log_in": "Đăng nhập",
             "log_out": "Đăng xuất",
             "mark_all_as_read": "Đánh dấu tất cả đã đọc",
+            "new_token": "",
             "next_page": "Trang sau",
             "notifications": "Thông báo",
             "okay": "OK",
@@ -650,6 +709,8 @@
             "reset_your_password": "Đặt lại mật khẩu của bạn",
             "restore": "Khôi phục",
             "save_changes": "Lưu thay đổi",
+            "search_users": "",
+            "security": "",
             "settings": "Thiết lập",
             "sign_up": "Đăng ký",
             "some_others": "{count, plural, one {# người khác} other {# người khác}}",

@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Egyéni fejléc",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Egyéni stílusok",
                 "custom_styles_text": "A fórum megjelenésének testreszabása saját LESS/CSS kód hozzáadásával, amellyel felülírhatja a Flarum alapértelmezett stílusait.",
                 "dark_mode_label": "Sötét mód",
@@ -50,6 +51,13 @@
                 "clear_cache_button": "Gyorsítótár törlése",
                 "description": "Fórum összefoglalása.",
                 "io_error_message": "Nem sikerült a fájlrendszerre írni. Ellenőrizze a fájlrendszer jogosultságait, és próbálja újra. Vagy futtassa a parancssorból.",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "Vezérlőpult",
                 "tools_button": "Eszközök"
             },
@@ -187,6 +195,7 @@
             "permissions": {
                 "allow_post_editing_label": "Bejegyzések szerkesztésének engedélyezése",
                 "allow_renaming_label": "Átnevezés engedélyezése",
+                "create_access_token_label": "",
                 "create_heading": "Létrehozás",
                 "delete_discussions_forever_label": "Téma végleges törlése",
                 "delete_discussions_label": "Téma törlése",
@@ -199,6 +208,7 @@
                 "edit_users_groups_label": "Felhasználói csoportok szerkesztése",
                 "global_heading": "Globális",
                 "moderate_heading": "Moderálás",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "Új csoport",
                 "participate_heading": "Közreműködés",
                 "post_without_throttle_label": "Válasz küldése több alkalommal várakozás nélkül",
@@ -238,6 +248,9 @@
                 "description": "Az összes felhasználót tartalmazó lapozható lista.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -267,9 +280,13 @@
                 },
                 "pagination": {
                     "back_button": "Előző oldal",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "Következő oldal",
                     "page_counter": "{current}. oldal / {total}"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "Felhasználók száma: {count}"
             },
@@ -446,6 +463,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "Fiók",
                 "change_email_button": "=> core.ref.change_email",
@@ -480,6 +532,7 @@
                 "posts_empty_text": "Úgy tűnik, hogy egy bejegyzés sincs itt.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -524,6 +577,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Legördülő menü be/ki"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "Felhasználó aktiválása",
                 "email_heading": "=> core.ref.email",
@@ -542,6 +598,7 @@
                 "dependent_extensions_message": "Nem tilthatja le a(z) {extension} bővítményt, amíg a következő bővítmények engedélyezettek: {extensions}",
                 "extension_initialiation_failed_message": "A(z) {extension} előkészítése sikertelen, további információkért nézze meg a böngészőkonzolt.",
                 "generic_message": "Hoppá! Valami hiba történt. Frissítse az oldalt és próbálja meg újra.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Nem engedélyezheti a(z) {extension} bővítményt, amíg a következő bővítmények le vannak tiltva: {extensions}",
                 "not_found_message": "A kért erőforrás nem található.",
                 "payload_too_large_message": "A kérés mérete túl nagy volt.",
@@ -677,6 +734,7 @@
             "edit_user": "Felhasználó szerkesztése",
             "email": "E-mail",
             "extensions": "Bővítmények",
+            "generic_confirmation_message": "",
             "icon": "Ikon",
             "icon_text": "Adja meg egy tetszőleges <a>FontAwesome</a> ikonosztály nevét, <em>beleértve</em> a <code>fas fa-</code> előtagot is.",
             "load_more": "Továbbiak betöltése",
@@ -684,6 +742,7 @@
             "log_in": "Bejelentkezés",
             "log_out": "Kijelentkezés",
             "mark_all_as_read": "Összes megjelölése olvasottként",
+            "new_token": "",
             "next_page": "Következő oldal",
             "notifications": "Értesítések",
             "okay": "OK",
@@ -696,6 +755,8 @@
             "reset_your_password": "Jelszó visszaállítása",
             "restore": "Helyreállítás",
             "save_changes": "Változtatások mentése",
+            "search_users": "",
+            "security": "",
             "settings": "Beállítások",
             "sign_up": "Regisztráció",
             "some_others": "{count} további",

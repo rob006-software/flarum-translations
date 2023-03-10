@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Özel Üstbilgi",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Özel Stiller",
                 "custom_styles_text": "Flarum'un varsayılan stillerinin üzerine uygulanacak kendi Less/CSS kodunuzu ekleyerek forumunuzun görünümünü özelleştirin.",
                 "dark_mode_label": "Karanlık Mod",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "Önbelleği Temizle",
                 "description": "Bir bakışta forumun.",
                 "io_error_message": "Dosya sistemine yazılamadı. Dosya sistemi izinlerinizi kontrol edin ve tekrar deneyin veya komut satırından çalıştırmayı deneyin.",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "Gösterge Paneli",
                 "tools_button": "Araçlar"
             },
@@ -168,6 +176,7 @@
             "permissions": {
                 "allow_post_editing_label": "Gönderi düzenlemeye izin ver",
                 "allow_renaming_label": "Yeniden adlandırmaya izin ver",
+                "create_access_token_label": "",
                 "create_heading": "Oluşturma",
                 "delete_discussions_forever_label": "Tartışmaları kalıcı olarak sil",
                 "delete_discussions_label": "Tartışmaları sil",
@@ -180,6 +189,7 @@
                 "edit_users_groups_label": "Kullanıcı gruplarını düzenle",
                 "global_heading": "Genel",
                 "moderate_heading": "Yönetim",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "Yeni Grup",
                 "participate_heading": "Katılma",
                 "post_without_throttle_label": "Beklemeden birden çok kez yanıtlayın",
@@ -217,6 +227,9 @@
                 "description": "Forumunuzdaki tüm kullanıcıların sayfalandırılmış bir listesi.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -246,9 +259,13 @@
                 },
                 "pagination": {
                     "back_button": "Önceki sayfa",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "Sonraki sayfa",
                     "page_counter": "{total} sayfadan {current}"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "Toplam kullanıcılar: {count}"
             }
@@ -414,6 +431,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "Hesap",
                 "change_email_button": "=> core.ref.change_email",
@@ -448,6 +500,7 @@
                 "posts_empty_text": "Burada hiç gönderi yok gibi görünüyor.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -479,6 +532,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Açılır menüyü aç / kapat"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "Kullanıcıyı Aktif Et",
                 "email_heading": "=> core.ref.email",
@@ -497,6 +553,7 @@
                 "dependent_extensions_message": "{extension} uzantısı şu uzantı etkisizleştirilmeden önce etkisizleştirilemez: {extensions}",
                 "extension_initialiation_failed_message": "{extension} başlatılamadı, daha fazla bilgi için tarayıcı konsolunu kontrol edin.",
                 "generic_message": "Oops! Bir şeyler yanlış gitti. Lütfen sayfayı yenileyin ve tekrar deneyin.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "{extension} şu uzantı aktif edilmeden önce aktif edilemez: {extensions}",
                 "not_found_message": "İstenen kaynak bulunamadı.",
                 "payload_too_large_message": "İstek yükü çok büyük.",
@@ -631,6 +688,7 @@
             "edit_user": "Kullanıcıyı Düzenle",
             "email": "E-posta",
             "extensions": "Uzantılar",
+            "generic_confirmation_message": "",
             "icon": "Simge",
             "icon_text": "Herhangi bir <a>FontAwesome</a> simgesi adını <code>fas fa-</code> <em>öneki dahil</em> olarak girin.",
             "load_more": "Daha Fazla Yükle",
@@ -638,6 +696,7 @@
             "log_in": "Giriş Yap",
             "log_out": "Çıkış Yap",
             "mark_all_as_read": "Tümünü Okundu Olarak İşaretle",
+            "new_token": "",
             "next_page": "Sonraki Sayfa",
             "notifications": "Bildirimler",
             "okay": "Tamam",
@@ -650,6 +709,8 @@
             "reset_your_password": "Şifreni Sıfırla",
             "restore": "Geri Yükle",
             "save_changes": "Değişiklikleri Kaydet",
+            "search_users": "",
+            "security": "",
             "settings": "Ayarlar",
             "sign_up": "Kayıt Ol",
             "some_others": "{count, plural, one {# diğer} other {# diğer}}",

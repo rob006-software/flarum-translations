@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "自定義頁眉",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "自定義樣式",
                 "custom_styles_text": "添加 Less/CSS 代碼以自定義論壇外觀，此設置將覆蓋 Flarum 默認樣式。",
                 "dark_mode_label": "暗黑模式",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "清除快取",
                 "description": "論壇資訊總覽",
                 "io_error_message": "無法寫入文件。請檢查操作權限，重試或者直接從命令列運行命令。",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "儀表板",
                 "tools_button": "工具"
             },
@@ -166,6 +174,7 @@
             "permissions": {
                 "allow_post_editing_label": "編輯貼文",
                 "allow_renaming_label": "更改主題",
+                "create_access_token_label": "",
                 "create_heading": "貼文",
                 "delete_discussions_forever_label": "永久刪除貼文",
                 "delete_discussions_label": "刪除貼文",
@@ -178,6 +187,7 @@
                 "edit_users_groups_label": "編輯用戶組",
                 "global_heading": "全局",
                 "moderate_heading": "管理",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "新增群組",
                 "participate_heading": "操作",
                 "post_without_throttle_label": "頻繁回覆無需等待間隔",
@@ -215,6 +225,9 @@
                 "description": "論壇用戶分頁列表。",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "編輯",
                             "title": "編輯用戶",
@@ -244,9 +257,13 @@
                 },
                 "pagination": {
                     "back_button": "上一頁",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "下一頁",
                     "page_counter": "第 {current} 頁 / 共 {total} 頁"
                 },
+                "search_placeholder": "",
                 "title": "用戶",
                 "total_users": "用戶數：{count}"
             }
@@ -411,6 +428,41 @@
                 "discussions_heading": "貼文",
                 "users_heading": "會員"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "帳戶",
                 "change_email_button": "更改郵箱",
@@ -445,6 +497,7 @@
                 "posts_empty_text": "暫無回覆。",
                 "posts_link": "貼文",
                 "posts_load_more_button": "載入更多",
+                "security_link": "",
                 "settings_link": "設定"
             },
             "user_controls": {
@@ -476,6 +529,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "下拉選單開關"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "激活用戶",
                 "email_heading": "郵箱",
@@ -494,6 +550,7 @@
                 "dependent_extensions_message": "無法停用「{extension}」，請先停用依賴擴展「{extensions}」",
                 "extension_initialiation_failed_message": "初始化「{extension}」失敗，詳情信息請查看控制台。",
                 "generic_message": "糟糕，出錯啦！請重新載入頁面再試一次。",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "無法啟用「{extension}」，請先啟用依賴擴展「{extensions}」",
                 "not_found_message": "請求的資源不存在。",
                 "payload_too_large_message": "請求負載過大。",
@@ -624,6 +681,7 @@
             "edit_user": "編輯用戶",
             "email": "郵箱",
             "extensions": "擴展程序",
+            "generic_confirmation_message": "",
             "icon": "圖示",
             "icon_text": "輸入任意一個 <a>FontAwesome</a> 圖示名稱，<em>需要包含</em>前綴 ，例如<code>fas fa-</code>。",
             "load_more": "載入更多",
@@ -631,6 +689,7 @@
             "log_in": "登入",
             "log_out": "登出",
             "mark_all_as_read": "標記所有為已讀",
+            "new_token": "",
             "next_page": "下一頁",
             "notifications": "通知",
             "okay": "好",
@@ -643,6 +702,8 @@
             "reset_your_password": "重設密碼",
             "restore": "還原",
             "save_changes": "儲存更改",
+            "search_users": "",
+            "security": "",
             "settings": "設定",
             "sign_up": "註冊",
             "some_others": "{count, plural, one {# 人} other {# 人}}",

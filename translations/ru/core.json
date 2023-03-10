@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Верхний колонтитул",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Пользовательские стили",
                 "custom_styles_text": "Настройка внешнего вида форума при помощи пользовательского кода LESS/CSS, который переопределяет стандартные стилевые конструкции Flarum.",
                 "dark_mode_label": "Тёмный режим",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "Очистить кэш",
                 "description": "Панель управления форумом.",
                 "io_error_message": "Не удалось записать в файловую систему. Проверьте права доступа к файловой системе и попробуйте ещё раз. Или попробуйте запустить из командной строки.",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "Панель управления",
                 "tools_button": "Инструменты"
             },
@@ -168,6 +176,7 @@
             "permissions": {
                 "allow_post_editing_label": "Разрешить изменять сообщение",
                 "allow_renaming_label": "Разрешить изменять название дискуссии",
+                "create_access_token_label": "",
                 "create_heading": "Создание",
                 "delete_discussions_forever_label": "Удалять дискуссии (навсегда)",
                 "delete_discussions_label": "Удалять дискуссии",
@@ -180,6 +189,7 @@
                 "edit_users_groups_label": "Редактировать группы пользователя",
                 "global_heading": "Глобальные",
                 "moderate_heading": "Модерация",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "Новая группа",
                 "participate_heading": "Участие",
                 "post_without_throttle_label": "Отвечать подряд без ожидания",
@@ -217,6 +227,9 @@
                 "description": "Список всех пользователей форума.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -246,9 +259,13 @@
                 },
                 "pagination": {
                     "back_button": "Предыдущая страница",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "Следующая страница",
                     "page_counter": "Страница: {current} / {total}"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "Всего пользователей: {count}"
             }
@@ -414,6 +431,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "Аккаунт",
                 "change_email_button": "=> core.ref.change_email",
@@ -448,6 +500,7 @@
                 "posts_empty_text": "Кажется, здесь нет сообщений.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -479,6 +532,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Выпадающее меню"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "Активировать пользователя",
                 "email_heading": "=> core.ref.email",
@@ -497,6 +553,7 @@
                 "dependent_extensions_message": "Невозможно отключить {extension}, пока не будут отключены следующие зависимые расширения: {extensions}",
                 "extension_initialiation_failed_message": "{extension} не удалось инициализировать. Проверьте консоль браузера для получения дополнительной информации.",
                 "generic_message": "Упс! Что-то пошло не так. Пожалуйста, обновите страницу и попробуйте ещё раз.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Невозможно включить {extension}, пока не будут включены следующие зависимые расширения: {extensions}",
                 "not_found_message": "Запрашиваемый ресурс не найден.",
                 "payload_too_large_message": "Нагрузка при запросе была слишком большая.",
@@ -631,6 +688,7 @@
             "edit_user": "Изменить пользователя",
             "email": "E-mail",
             "extensions": "Расширения",
+            "generic_confirmation_message": "",
             "icon": "Иконка",
             "icon_text": "Введите название любого класса иконки <a>Font Awesome</a>, <em>включая</em> префикс <code>fas fa-</code>.",
             "load_more": "Показать ещё",
@@ -638,6 +696,7 @@
             "log_in": "Войти",
             "log_out": "Выйти",
             "mark_all_as_read": "Отметить всё как прочитанное",
+            "new_token": "",
             "next_page": "Следующая страница",
             "notifications": "Уведомления",
             "okay": "ОК",
@@ -650,6 +709,8 @@
             "reset_your_password": "Сбросить пароль",
             "restore": "Восстановить",
             "save_changes": "Сохранить",
+            "search_users": "",
+            "security": "",
             "settings": "Настройки",
             "sign_up": "Регистрация",
             "some_others": "{count, plural, one {# другому} other {# другим}}",

@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Custom Sarlavha",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Custom Stillar",
                 "custom_styles_text": "Flarum standart uslublari ustiga qo'llanilishi uchun o'zingizning Less/CSS kodingizni qo'shish orqali forumingiz ko'rinishini moslashtiring.",
                 "dark_mode_label": "Qorong'i rejim",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "Keshni tozalash",
                 "description": "Sizning forumingiz bir qarashda.",
                 "io_error_message": "",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "Boshqaruv paneli",
                 "tools_button": "Asboblar"
             },
@@ -168,6 +176,7 @@
             "permissions": {
                 "allow_post_editing_label": "Postni o'zgartirishga ruxsat berish",
                 "allow_renaming_label": "Nomini o'zgartirishga ruxsat berish",
+                "create_access_token_label": "",
                 "create_heading": "Yaratish",
                 "delete_discussions_forever_label": "Muhokamalarni butunlay o'chirish",
                 "delete_discussions_label": "Muhokamalarni o'chirish",
@@ -180,6 +189,7 @@
                 "edit_users_groups_label": "Foydalanuvchi guruhlarini o'zgartirish",
                 "global_heading": "Global",
                 "moderate_heading": "Moderatsiya",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "Yangi guruh",
                 "participate_heading": "Qatnashish",
                 "post_without_throttle_label": "Kutmasdan ko'p marta javob berish",
@@ -217,6 +227,9 @@
                 "description": "Forumdagi foydalanuvchilar ro'yxati.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -246,9 +259,13 @@
                 },
                 "pagination": {
                     "back_button": "Oldingi sahifa",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "Keyingi sahifa",
                     "page_counter": "{current} bet {total} dan"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "Jami foydalanuvchilar: {count}"
             }
@@ -414,6 +431,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "Akkaunt",
                 "change_email_button": "=> core.ref.change_email",
@@ -448,6 +500,7 @@
                 "posts_empty_text": "Postlar yo'q.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -479,6 +532,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Ochiladigan menyuni"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "Foydalanuvchini aktivlashtirish",
                 "email_heading": "=> core.ref.email",
@@ -497,6 +553,7 @@
                 "dependent_extensions_message": "{extensions} larni o'chirmaguncha {extension} ni o'chirib bo'lmaydi",
                 "extension_initialiation_failed_message": "",
                 "generic_message": "Voy! Nimadir noto'g'ri bajarildi. Sahifani qayta yuklang va qaytadan urining.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "{extensions} lar yoqilmaguncha {extension} yoqib bo'lmaydi",
                 "not_found_message": "So'ralgan resurs topilmadi.",
                 "payload_too_large_message": "So'rov uzunligi juda ham katta.",
@@ -627,6 +684,7 @@
             "edit_user": "Foydalanuvchini o'zgartirish",
             "email": "Email",
             "extensions": "Kengaytmalar",
+            "generic_confirmation_message": "",
             "icon": "Yorliq",
             "icon_text": "Har qanday <a>FontAwesome</a> klass yorlig'ini kiriting,<code>fas fa-</code>prefiksini <em>o'z ichiga olgan holda</em>.",
             "load_more": "Ko'proq yuklash",
@@ -634,6 +692,7 @@
             "log_in": "Kirish",
             "log_out": "Chiqish",
             "mark_all_as_read": "Barchasini o'qildi deb belgilash",
+            "new_token": "",
             "next_page": "Keyingi sahifa",
             "notifications": "Xabarlar",
             "okay": "OK",
@@ -646,6 +705,8 @@
             "reset_your_password": "Parolni o'chirish",
             "restore": "Qayta tiklash",
             "save_changes": "Saqlash",
+            "search_users": "",
+            "security": "",
             "settings": "Sozlamalar",
             "sign_up": "Ro'yxatdan o'tish",
             "some_others": "{count, plural, one {# boshqa} other {# boshqalar}}",

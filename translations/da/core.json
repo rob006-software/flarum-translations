@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Tilpasset Overskrift",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Tilpassede Stilarter",
                 "custom_styles_text": "Tilpas dit forums udseende ved at indstille din egen Less/CSS-kode, der skal anvendes oven på Flarums standardstile.",
                 "dark_mode_label": "Mørk tilstand",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "Ryd cache",
                 "description": "En oversigt over dit forum.",
                 "io_error_message": "",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "Dashboard",
                 "tools_button": "Forumværktøjer"
             },
@@ -166,6 +174,7 @@
             "permissions": {
                 "allow_post_editing_label": "Søg i udvidelser",
                 "allow_renaming_label": "Tillad omdøbning",
+                "create_access_token_label": "",
                 "create_heading": "Opret",
                 "delete_discussions_forever_label": "Slet diskussion for altid",
                 "delete_discussions_label": "Slet diskussioner",
@@ -178,6 +187,7 @@
                 "edit_users_groups_label": "Slet brugergrupper",
                 "global_heading": "Global",
                 "moderate_heading": "Moderér",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "Ny gruppe",
                 "participate_heading": "Deltag",
                 "post_without_throttle_label": "Svar gentagne gange uden at vente",
@@ -215,6 +225,9 @@
                 "description": "En sideinddelt liste over alle brugere på dit forum.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "Redigér",
                             "title": "Redigér bruger",
@@ -244,9 +257,13 @@
                 },
                 "pagination": {
                     "back_button": "Forrige side",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "Næste side",
                     "page_counter": "Side {current} af {total}"
                 },
+                "search_placeholder": "",
                 "title": "Brugere",
                 "total_users": "Total antal brugere: {count}"
             }
@@ -411,6 +428,41 @@
                 "discussions_heading": "Diskussioner",
                 "users_heading": "Brugere"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "Konto",
                 "change_email_button": "Ændre e-mail",
@@ -445,6 +497,7 @@
                 "posts_empty_text": "Det ser ud til at der ikke er nogen indlæg her.",
                 "posts_link": "Indlæg",
                 "posts_load_more_button": "Indlæs flere",
+                "security_link": "",
                 "settings_link": "Indstillinger"
             },
             "user_controls": {
@@ -476,6 +529,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": ""
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "Aktivér bruger",
                 "email_heading": "E-mail",
@@ -494,6 +550,7 @@
                 "dependent_extensions_message": "Kan ikke slå {extension} fra før følgende afhængige udvidelser er slået fra: {extensions}",
                 "extension_initialiation_failed_message": "{extension} kunne ikke indlæses. Tjek browserkonsollen for yderligere information.",
                 "generic_message": "Ups! Noget gik galt. Genindlæs siden og prøv igen.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "",
                 "not_found_message": "Den forespurgte resurse blev ikke fundet.",
                 "payload_too_large_message": "Forespørgslen var for stor.",
@@ -624,6 +681,7 @@
             "edit_user": "Redigér bruger",
             "email": "E-mail",
             "extensions": "Udvidelser",
+            "generic_confirmation_message": "",
             "icon": "Ikon",
             "icon_text": "",
             "load_more": "Hent flere",
@@ -631,6 +689,7 @@
             "log_in": "Log ind",
             "log_out": "Log ud",
             "mark_all_as_read": "Markér alle som læst",
+            "new_token": "",
             "next_page": "Næste side",
             "notifications": "Påmindelser",
             "okay": "OK",
@@ -643,6 +702,8 @@
             "reset_your_password": "Nulstil din adgangskode",
             "restore": "Gendan",
             "save_changes": "Gem ændringer",
+            "search_users": "",
+            "security": "",
             "settings": "Indstillinger",
             "sign_up": "Opret konto",
             "some_others": "{count, plural, one {# andre} other {# andre}}",

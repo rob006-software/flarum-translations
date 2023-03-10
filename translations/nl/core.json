@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Eigen header",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Eigen stijl",
                 "custom_styles_text": "Pas je forum's uiterlijk aan doormiddel van eigen LESS/CSS code bovenop Flarum's standaard stijl.",
                 "dark_mode_label": "Donkere stijl",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "Cache wissen",
                 "description": "Uw forum in één oogopslag.",
                 "io_error_message": "Kan niet naar het bestandssysteem schrijven. Controleer de machtigingen van uw bestandssysteem en probeer het opnieuw. Of probeer uit te voeren vanuit de CLI.",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "Dashboard",
                 "tools_button": "Hulpmiddelen"
             },
@@ -168,6 +176,7 @@
             "permissions": {
                 "allow_post_editing_label": "Sta bericht bewerking toe",
                 "allow_renaming_label": "Sta hernoemen toe",
+                "create_access_token_label": "",
                 "create_heading": "Maak",
                 "delete_discussions_forever_label": "Verwijder discussies permanent",
                 "delete_discussions_label": "Verwijder discussies",
@@ -180,6 +189,7 @@
                 "edit_users_groups_label": "Bewerk gebruikersgroepen",
                 "global_heading": "Globaal",
                 "moderate_heading": "Moderatie",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "Nieuwe groep",
                 "participate_heading": "Meedoen",
                 "post_without_throttle_label": "Reageer meerdere keren zonder te wachten",
@@ -217,6 +227,9 @@
                 "description": "Een gepagineerde lijst van alle gebruikers op je forum.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -246,9 +259,13 @@
                 },
                 "pagination": {
                     "back_button": "Vorige pagina",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "Volgende pagina",
                     "page_counter": "Pagina {current} van {total}"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "Aantal gebruikers: {count}"
             }
@@ -414,6 +431,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "Account",
                 "change_email_button": "=> core.ref.change_email",
@@ -448,6 +500,7 @@
                 "posts_empty_text": "Zo te zien zijn er hier geen berichten.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -479,6 +532,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Toggle menu"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "Activeer gebruiker",
                 "email_heading": "=> core.ref.email",
@@ -497,6 +553,7 @@
                 "dependent_extensions_message": "Kan {extension} pas uitschakelen als de volgende afhankelijke extensies zijn uitgeschakeld: {extensions}",
                 "extension_initialiation_failed_message": "{extension} kan niet worden geïnitialiseerd, controleer de browserconsole voor meer informatie.",
                 "generic_message": "Oeps! Er is iets misgegaan. Herlaad de pagina en probeer het opnieuw.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Kan {extension} pas inschakelen als de volgende afhankelijke extensies zijn ingeschakeld: {extensions}",
                 "not_found_message": "Het opgevraagde kon niet worden gevonden.",
                 "payload_too_large_message": "De payload van het verzoek was te groot.",
@@ -631,6 +688,7 @@
             "edit_user": "Wijzig gebruiker",
             "email": "E-mail",
             "extensions": "Extensies",
+            "generic_confirmation_message": "",
             "icon": "Icoon",
             "icon_text": "Kies een <a>FontAwesome</a> icon class, <em>zonder</em> de <code>fa-</code> prefix.",
             "load_more": "Meer laden",
@@ -638,6 +696,7 @@
             "log_in": "Inloggen",
             "log_out": "Uitloggen",
             "mark_all_as_read": "Alles als gelezen markeren",
+            "new_token": "",
             "next_page": "Volgende pagina",
             "notifications": "Notificaties",
             "okay": "Oké",
@@ -650,6 +709,8 @@
             "reset_your_password": "Wachtwoord opnieuw instellen",
             "restore": "Terugzetten",
             "save_changes": "Wijzigingen opslaan",
+            "search_users": "",
+            "security": "",
             "settings": "Instellingen",
             "sign_up": "Registreren",
             "some_others": "{count, plural, one {# ander} other {# andere}}",

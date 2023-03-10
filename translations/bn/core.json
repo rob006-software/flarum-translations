@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "কাস্টম Header",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "কাস্টম Styles",
                 "custom_styles_text": "আপনার নিজস্ব CSS Code ব্যবহার করে ফোরাম এর স্টাইল Customize করুন।",
                 "dark_mode_label": "ডার্ক মোড",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "Cache ক্লিয়ার করুন",
                 "description": "একনজরে আপনার ফোরাম।",
                 "io_error_message": "দুঃখিত! Filesystem এ লিখতে পারিনি। দয়া করে আপনার Filesystem এর Permission গুলো check করুন । অন্যথায় Command Line থেকে চেষ্টা করুন।",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "ড্যাশবোর্ড",
                 "tools_button": "টুলস"
             },
@@ -166,6 +174,7 @@
             "permissions": {
                 "allow_post_editing_label": "পোস্ট সম্পাদনার অনুমতি দিন",
                 "allow_renaming_label": "নাম পরিবর্তনের অনুমতি দিন",
+                "create_access_token_label": "",
                 "create_heading": "তৈরি করুন",
                 "delete_discussions_forever_label": "চিরতরে আলোচনা গুলো ডিলিট করে দেন",
                 "delete_discussions_label": "আলোচনা গুলো ডিলিট করুন",
@@ -178,6 +187,7 @@
                 "edit_users_groups_label": "User এর Group সম্পাদনা করুন",
                 "global_heading": "গ্লোবাল",
                 "moderate_heading": "মডারেট করুন",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "নতুন Group",
                 "participate_heading": "অংশ নিন",
                 "post_without_throttle_label": "অপেক্ষা ছাড়াই একাধিকবার Reply দিন",
@@ -215,6 +225,9 @@
                 "description": "",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "",
                             "title": "",
@@ -244,9 +257,13 @@
                 },
                 "pagination": {
                     "back_button": "",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "",
                     "page_counter": ""
                 },
+                "search_placeholder": "",
                 "title": "",
                 "total_users": ""
             }
@@ -411,6 +428,41 @@
                 "discussions_heading": "",
                 "users_heading": ""
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "",
                 "change_email_button": "",
@@ -445,6 +497,7 @@
                 "posts_empty_text": "",
                 "posts_link": "",
                 "posts_load_more_button": "",
+                "security_link": "",
                 "settings_link": ""
             },
             "user_controls": {
@@ -476,6 +529,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": ""
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "",
                 "email_heading": "",
@@ -494,6 +550,7 @@
                 "dependent_extensions_message": "",
                 "extension_initialiation_failed_message": "",
                 "generic_message": "",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "",
                 "not_found_message": "",
                 "payload_too_large_message": "",
@@ -624,6 +681,7 @@
             "edit_user": "",
             "email": "",
             "extensions": "",
+            "generic_confirmation_message": "",
             "icon": "",
             "icon_text": "",
             "load_more": "",
@@ -631,6 +689,7 @@
             "log_in": "",
             "log_out": "",
             "mark_all_as_read": "",
+            "new_token": "",
             "next_page": "",
             "notifications": "",
             "okay": "",
@@ -643,6 +702,8 @@
             "reset_your_password": "",
             "restore": "",
             "save_changes": "",
+            "search_users": "",
+            "security": "",
             "settings": "",
             "sign_up": "",
             "some_others": "",

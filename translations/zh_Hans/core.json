@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "自定义页眉",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "自定义样式",
                 "custom_styles_text": "添加 Less/CSS 代码以自定义论坛外观，此设置将覆盖 Flarum 默认样式。",
                 "dark_mode_label": "夜间模式",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "清除缓存",
                 "description": "论坛各项数据一览",
                 "io_error_message": "无法写入文件。请检查操作权限，重试或者直接从命令行运行命令。",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "仪表盘",
                 "tools_button": "工具"
             },
@@ -168,6 +176,7 @@
             "permissions": {
                 "allow_post_editing_label": "编辑帖子内容",
                 "allow_renaming_label": "更改自己的主题标题",
+                "create_access_token_label": "",
                 "create_heading": "帖子相关",
                 "delete_discussions_forever_label": "永久删除主题",
                 "delete_discussions_label": "删除主题",
@@ -180,6 +189,7 @@
                 "edit_users_groups_label": "编辑用户组",
                 "global_heading": "全局",
                 "moderate_heading": "管理相关",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "添加用户组",
                 "participate_heading": "操作相关",
                 "post_without_throttle_label": "发帖频率无限制",
@@ -217,6 +227,9 @@
                 "description": "论坛用户分页列表",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -246,9 +259,13 @@
                 },
                 "pagination": {
                     "back_button": "上一页",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "下一页",
                     "page_counter": "第 {current} 页 / 共 {total} 页"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "用户数：{count}"
             }
@@ -414,6 +431,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "帐户设置",
                 "change_email_button": "=> core.ref.change_email",
@@ -448,6 +500,7 @@
                 "posts_empty_text": "暂无内容",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -479,6 +532,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "下拉菜单开关"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "激活用户",
                 "email_heading": "=> core.ref.email",
@@ -497,6 +553,7 @@
                 "dependent_extensions_message": "无法停用「{extension}」，请先停用依赖扩展「{extensions}」",
                 "extension_initialiation_failed_message": "初始化「{extension}」失败，详情信息请查看控制台。",
                 "generic_message": "糟糕，出错啦！请刷新页面重试。",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "无法启用「{extension}」，请先启用依赖扩展「{extensions}」",
                 "not_found_message": "您请求的资源不存在。",
                 "payload_too_large_message": "请求负载过大。",
@@ -631,6 +688,7 @@
             "edit_user": "编辑用户",
             "email": "邮箱",
             "extensions": "扩展程序",
+            "generic_confirmation_message": "",
             "icon": "图标",
             "icon_text": "输入任意一个 <a>Font Awesome</a> 图标名称。<em>包括</em>前缀，例如 <code>fas fa-</code>",
             "load_more": "加载更多",
@@ -638,6 +696,7 @@
             "log_in": "登录",
             "log_out": "退出",
             "mark_all_as_read": "将所有帖子标记为已读",
+            "new_token": "",
             "next_page": "下一页",
             "notifications": "通知中心",
             "okay": "确定",
@@ -650,6 +709,8 @@
             "reset_your_password": "重置密码",
             "restore": "还原",
             "save_changes": "保存",
+            "search_users": "",
+            "security": "",
             "settings": "设置",
             "sign_up": "注册",
             "some_others": "{count, plural, one {# 人} other {# 人}}",

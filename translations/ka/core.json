@@ -11,6 +11,7 @@
                 "custom_footer_text": "",
                 "custom_header_heading": "სასურველი სათაური",
                 "custom_header_text": "",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "სასურველი სტილები",
                 "custom_styles_text": "მოირგეთ თქვენი ფორუმის გარეგნობა და დაამატეთ თქვენი საკუთარი LESS/CSS კოდი, რომელიც უნდა იქნას გამოყენებული Flarum- ის სტანდარტულ სტილებზე.",
                 "dark_mode_label": "მუქი რეჟიმი",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "ქეშის გასუფთავება",
                 "description": "თქვენი ფორუმი ერთი შეხედვით.",
                 "io_error_message": "",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "დაფა",
                 "tools_button": "ხელსაწყოები"
             },
@@ -166,6 +174,7 @@
             "permissions": {
                 "allow_post_editing_label": "პოსტის რედაქტირების დაშვება",
                 "allow_renaming_label": "გადარქმევის დაშვება",
+                "create_access_token_label": "",
                 "create_heading": "შექმნა",
                 "delete_discussions_forever_label": "დისკუსიების სამუდამოდ წაშლა",
                 "delete_discussions_label": "დისკუსიების წაშლა",
@@ -178,6 +187,7 @@
                 "edit_users_groups_label": "",
                 "global_heading": "გლობალური",
                 "moderate_heading": "ზომიერი",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "ახალი ჯგუფი",
                 "participate_heading": "მონაწილეობა",
                 "post_without_throttle_label": "რამდენჯერმე პასუხი ლოდინის გარეშე",
@@ -215,6 +225,9 @@
                 "description": "",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "",
                             "title": "",
@@ -244,9 +257,13 @@
                 },
                 "pagination": {
                     "back_button": "",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "",
                     "page_counter": ""
                 },
+                "search_placeholder": "",
                 "title": "",
                 "total_users": ""
             }
@@ -411,6 +428,41 @@
                 "discussions_heading": "",
                 "users_heading": ""
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "ანგარიში",
                 "change_email_button": "",
@@ -445,6 +497,7 @@
                 "posts_empty_text": "როგორც ჩანს, აქ შეტყობინებები არ არის.",
                 "posts_link": "",
                 "posts_load_more_button": "",
+                "security_link": "",
                 "settings_link": ""
             },
             "user_controls": {
@@ -476,6 +529,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": ""
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "",
                 "email_heading": "",
@@ -494,6 +550,7 @@
                 "dependent_extensions_message": "შეუძლებელია {extension} გამორთვა სანამ არ მოხდება შემდეგი დამოკიდებული გაფართოებების გამორთვა: {extensions}",
                 "extension_initialiation_failed_message": "",
                 "generic_message": "უი! Რაღაც არასწორად წავიდა. გთხოვთ, გადატვირთოთ გვერდი და ისევ სცადოთ.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "შეუძელებლია {extension} გაფართოების ჩართვა, სანამ შემდეგი გაფართოებები ჩართულია: {extensions}",
                 "not_found_message": "მოთხოვნილი რესურსი ვერ მოიძებნა.",
                 "payload_too_large_message": "",
@@ -624,6 +681,7 @@
             "edit_user": "",
             "email": "ელ.ფოსტა",
             "extensions": "",
+            "generic_confirmation_message": "",
             "icon": "აიქონი",
             "icon_text": "შეიყვანეთ სახელი ნებისმიერი <a>FontAwesome</a> აიქონის კლასის <em>მათ შორის</em> <code>fas fa-</code> პრეფიქსით.",
             "load_more": "მეტის ჩატვირთვა",
@@ -631,6 +689,7 @@
             "log_in": "შესვლა",
             "log_out": "გამოსვლა",
             "mark_all_as_read": "ყველას წაკითხულად მონიშვნა",
+            "new_token": "",
             "next_page": "შემდეგი გვერდი",
             "notifications": "შეტყობინებები",
             "okay": "კარგი",
@@ -643,6 +702,8 @@
             "reset_your_password": "აღადგინეთ თქვენი პაროლი",
             "restore": "აღდგენა",
             "save_changes": "ცვლილებების შენახვა",
+            "search_users": "",
+            "security": "",
             "settings": "პარამეტრები",
             "sign_up": "რეგისტრაცია",
             "some_others": "{count} სხვა|{count} სხვები",

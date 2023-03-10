@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Xüsusi Header",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Özəl görünüş",
                 "custom_styles_text": "Flarum -un standart üslublarının üzərinə tətbiq olunacaq öz Az/CSS kodunuzu əlavə edərək forumunuzun görünüşünü fərdiləşdirin.",
                 "dark_mode_label": "Qaranlıq mod",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "Keşi təmizlə",
                 "description": "Forumunuz bir baxışda.",
                 "io_error_message": "Fayl sistemdə yaddaş yazıla bilmədi. Zəhmət olmasa fayl sistem icazələrini yoxlayıb yenidən cəhd edin. Yaxud komanda sətrindən icra etməyi yoxlayın.",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "Panel",
                 "tools_button": "Alətlər"
             },
@@ -168,6 +176,7 @@
             "permissions": {
                 "allow_post_editing_label": "Yazı redaktəsinə icazə verin",
                 "allow_renaming_label": "Adının dəyişdirilməsinə icazə verin",
+                "create_access_token_label": "",
                 "create_heading": "Yarat",
                 "delete_discussions_forever_label": "Müzakirələri əbədi olaraq silin",
                 "delete_discussions_label": "Müzakirələri silin",
@@ -180,6 +189,7 @@
                 "edit_users_groups_label": "İstifadəçi qruplarını redaktə edin",
                 "global_heading": "Qlobal",
                 "moderate_heading": "Orta",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "Yeni Qrup",
                 "participate_heading": "İştirak et",
                 "post_without_throttle_label": "Gözləmədən dəfələrlə cavab verin",
@@ -217,6 +227,9 @@
                 "description": "Forumunuzdakı bütün istifadəçilərin səhifələnmiş siyahısı.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -246,9 +259,13 @@
                 },
                 "pagination": {
                     "back_button": "Əvvəlki səhifə",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "Növbəti səhifə",
                     "page_counter": "Səhifə {current} of {total}"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "Ümumi istifadəçilər: {count}"
             }
@@ -414,6 +431,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.discussions"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "Hesab",
                 "change_email_button": "=> core.ref.change_email",
@@ -448,6 +500,7 @@
                 "posts_empty_text": "Deyəsən burada heç bir yazı yoxdur.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -479,6 +532,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Açılan menyunu dəyişin"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "İstifadəçini aktivləşdirin",
                 "email_heading": "=> core.ref.email",
@@ -497,6 +553,7 @@
                 "dependent_extensions_message": "Aşağıdakı asılı uzantılar deaktiv olunana qədər {extension} ləğv edilə bilməz: {extensions}",
                 "extension_initialiation_failed_message": "",
                 "generic_message": "Vay! Nəsə səhv oldu. Zəhmət olmasa səhifəni yenidən yükləyin və yenidən cəhd edin.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Aşağıdakı asılılıqlar aktiv olana qədər {extension} aktiv edilə bilməz: {extension}",
                 "not_found_message": "Tələb olunan resurs tapılmadı.",
                 "payload_too_large_message": "İstək yükü çox böyük idi.",
@@ -627,6 +684,7 @@
             "edit_user": "İstifadəçini redaktə edin",
             "email": "Email",
             "extensions": "Uzantılar",
+            "generic_confirmation_message": "",
             "icon": "İcon",
             "icon_text": "Hər hansı bir <a> FontAwesome </a> simge sinfinin adını daxil edin, <code> fas fa- </code> öneki <em>daxil olmaqla</em>.",
             "load_more": "Daha çox",
@@ -634,6 +692,7 @@
             "log_in": "Giriş",
             "log_out": "Çıxış",
             "mark_all_as_read": "Hamısını oxunmuş olaraq işarələ",
+            "new_token": "",
             "next_page": "Növbəti səhifə",
             "notifications": "Bildirişlər",
             "okay": "OK",
@@ -646,6 +705,8 @@
             "reset_your_password": "Şifrəni sıfırla",
             "restore": "Bərpa et",
             "save_changes": "Dəyişiklikləri yadda saxla",
+            "search_users": "",
+            "security": "",
             "settings": "Ayarlar",
             "sign_up": "Qeydiyyat",
             "some_others": "{count, plural, one {# other} other {# others}}",

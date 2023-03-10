@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "विशेष शीर्ष लेख",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "विशेष कपडे",
                 "custom_styles_text": "फ्लॉरुम की डिफ़ॉल्ट शैलियों के शीर्ष पर लागू करने के लिए अपना स्वयं का लेस्स/सीइसइस  कोड जोड़कर अपने फ़ोरम की उपस्थिति को अनुकूलित करें।",
                 "dark_mode_label": "काला रूप",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "कैश को साफ़ करें",
                 "description": "आपका मंच एक नजर में।",
                 "io_error_message": "",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "नियंत्रण पन्ना",
                 "tools_button": "उपकरण"
             },
@@ -168,6 +176,7 @@
             "permissions": {
                 "allow_post_editing_label": "पोस्ट संपादन की अनुमति दें",
                 "allow_renaming_label": "नाम बदलने की अनुमति दें",
+                "create_access_token_label": "",
                 "create_heading": "बनाये",
                 "delete_discussions_forever_label": "चर्चाओं को हमेशा के लिए हटाएं",
                 "delete_discussions_label": "चर्चा हटाएं",
@@ -180,6 +189,7 @@
                 "edit_users_groups_label": "उपयोगकर्ता समूह संपादित करें",
                 "global_heading": "वैश्विक",
                 "moderate_heading": "नियंत्रण करे",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "नया समूह",
                 "participate_heading": "भाग लेना",
                 "post_without_throttle_label": "प्रतीक्षा किए बिना कई बार उत्तर दें",
@@ -217,6 +227,9 @@
                 "description": "आपके फ़ोरम के सभी उपयोगकर्ताओं की पृष्ठांकित सूची।",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -246,9 +259,13 @@
                 },
                 "pagination": {
                     "back_button": "पिछला पन्ना",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "अगला पन्ना",
                     "page_counter": "{total} का पन्ना {current}"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "कुल उपयोगकर्ता: {count}"
             }
@@ -414,6 +431,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "खाता",
                 "change_email_button": "=> core.ref.change_email",
@@ -448,6 +500,7 @@
                 "posts_empty_text": "ऐसा लगता है कि यहां कोई पोस्ट नहीं है।",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -479,6 +532,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "ड्रॉपडाउन मेनू टॉगल करें"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "उपयोगकर्ता को सक्रिय करें",
                 "email_heading": "=> core.ref.email",
@@ -497,6 +553,7 @@
                 "dependent_extensions_message": "निम्न आश्रित एक्सटेंशन अक्षम होने तक {extension} को अक्षम नहीं किया जा सकता: {extensions}",
                 "extension_initialiation_failed_message": "",
                 "generic_message": "उफ़! कुछ गलत हो गया। कृपया पेज लोड करें और पुन: प्रयास करें।",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "निम्न निर्भरताएँ सक्षम होने तक {extension} को सक्षम नहीं किया जा सकता: {extensions}",
                 "not_found_message": "अनुरोधित संसाधन नहीं मिला।",
                 "payload_too_large_message": "अनुरोध पेलोड बहुत बड़ा था।",
@@ -631,6 +688,7 @@
             "edit_user": "उपयोगकर्ता को संपादित करो",
             "email": "ईमेल",
             "extensions": "एक्सटेंशन",
+            "generic_confirmation_message": "",
             "icon": "आइकन",
             "icon_text": "किसी भी <a>FontAwesome</a> आइकन वर्ग का नाम दर्ज करें, <em>सहित</em> <code>fas fa-</code> उपसर्ग।",
             "load_more": "और लोड करें",
@@ -638,6 +696,7 @@
             "log_in": "लॉग इन करें",
             "log_out": "बाहर जाये",
             "mark_all_as_read": "सभी को पढ़ा हुआ संकेत करें",
+            "new_token": "",
             "next_page": "अगला पन्ना",
             "notifications": "सूचनाएं",
             "okay": "ठीक है",
@@ -650,6 +709,8 @@
             "reset_your_password": "अपना पासवर्ड रीसेट करें",
             "restore": "पुनर्स्थापित",
             "save_changes": "परिवर्तनों को सुरक्षित करें",
+            "search_users": "",
+            "security": "",
             "settings": "सेटिंग्स",
             "sign_up": "खाता खोले",
             "some_others": "{count, plural, one {# अन्य} other {# अन्य}}",

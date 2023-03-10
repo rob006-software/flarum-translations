@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "사용자 지정 머리글",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "사용자 지정 스타일",
                 "custom_styles_text": "Flarum 기본 스타일 위에 적용될 LESS/CSS 코드를 추가하세요.",
                 "dark_mode_label": "다크 모드",
@@ -50,6 +51,13 @@
                 "clear_cache_button": "캐시 삭제",
                 "description": "한눈에 보이는 당신의 포럼.",
                 "io_error_message": "",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "대시보드",
                 "tools_button": "도구"
             },
@@ -187,6 +195,7 @@
             "permissions": {
                 "allow_post_editing_label": "게시물 편집 허용",
                 "allow_renaming_label": "게시물 이름 변경 허용",
+                "create_access_token_label": "",
                 "create_heading": "생성",
                 "delete_discussions_forever_label": "토의 영구 삭제",
                 "delete_discussions_label": "토의 삭제",
@@ -199,6 +208,7 @@
                 "edit_users_groups_label": "사용자 그룹 편집",
                 "global_heading": "글로벌",
                 "moderate_heading": "중재",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "새 그룹",
                 "participate_heading": "참여",
                 "post_without_throttle_label": "기다림 없이 여러 번 답장 허용",
@@ -238,6 +248,9 @@
                 "description": "포럼의 모든 유저들의 리스트.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -267,9 +280,13 @@
                 },
                 "pagination": {
                     "back_button": "이전 페이지",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "다음 페이지",
                     "page_counter": "총 {total} 페이지 중 {current} 페이지"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "총 유저: {count}"
             },
@@ -446,6 +463,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "계정",
                 "change_email_button": "=> core.ref.change_email",
@@ -480,6 +532,7 @@
                 "posts_empty_text": "여기엔 게시물이 없는것 같습니다.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -524,6 +577,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "드롭다운 메뉴 토글하기"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "사용자 활성화",
                 "email_heading": "=> core.ref.email",
@@ -542,6 +598,7 @@
                 "dependent_extensions_message": "{extension}을 다음 종속 확장들이 모두 비활성화 되기 전까지 비활성화 할 수 없습니다. 종속 확장들: {extensions}",
                 "extension_initialiation_failed_message": "",
                 "generic_message": "이런! 뭔가 잘못되었습니다. 페이지를 다시 로드하고 다시 시도하십시오.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "{extension}을 다음 상속 확장들이 모두 활성화 되기 전까지 활성화 할 수 없습니다. 상속 확장들: {extensions}",
                 "not_found_message": "요청한 리소스를 찾을 수 없습니다.",
                 "payload_too_large_message": "요청의 크기가 너무 컸습니다.",
@@ -672,6 +729,7 @@
             "edit_user": "사용자 편집",
             "email": "이메일",
             "extensions": "확장",
+            "generic_confirmation_message": "",
             "icon": "아이콘",
             "icon_text": "아무 <a>FontAwesome</a> 아이콘 클래스를 입력해주세요. <em>접두사 </em> <code>fas fa-</code>를 포함해야합니다.",
             "load_more": "더 보기",
@@ -679,6 +737,7 @@
             "log_in": "로그인",
             "log_out": "로그아웃",
             "mark_all_as_read": "모두 읽음으로 표시",
+            "new_token": "",
             "next_page": "다음 페이지",
             "notifications": "알림",
             "okay": "확인",
@@ -691,6 +750,8 @@
             "reset_your_password": "비밀번호 재설정",
             "restore": "복구",
             "save_changes": "변경사항 저장",
+            "search_users": "",
+            "security": "",
             "settings": "설정",
             "sign_up": "가입",
             "some_others": "{count, plural, one {# 개의 기타} other {# 개의 기타들}}",

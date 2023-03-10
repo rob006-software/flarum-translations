@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Προσαρμοσμένη κεφαλίδα (Header)",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Προσαρμοσμένα Styles",
                 "custom_styles_text": "Προσάρμοσε την εμφάνιση του forum σου, χρησιμοποιώντας τον δικό σου LESS/CSS κώδικα που θα αντικαταστήσει τον προκαθορισμένο.",
                 "dark_mode_label": "Σκοτεινή λειτουργία",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "Διαγραφή Cache",
                 "description": "Το forum σου με μια ματιά.",
                 "io_error_message": "Δεν ήταν δυνατή η εγγραφή στο σύστημα αρχείων. Ελέγξτε τα δικαιώματα του συστήματος αρχείων και προσπαθήστε ξανά. Ή δοκιμάστε να το εκτελέσετε από τη γραμμή εντολών.",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "Πίνακας ελέγχου",
                 "tools_button": "Εργαλεία"
             },
@@ -166,6 +174,7 @@
             "permissions": {
                 "allow_post_editing_label": "Να επιτραπεί η επεξεργασία της δημοσίευσης",
                 "allow_renaming_label": "Να επιτραπεί η μετονομασία",
+                "create_access_token_label": "",
                 "create_heading": "Δημιουργία",
                 "delete_discussions_forever_label": "Διέγραψε τις συζητήσεις οριστικά",
                 "delete_discussions_label": "Διαγραφή συζητήσεων",
@@ -178,6 +187,7 @@
                 "edit_users_groups_label": "Επεξεργασία ομάδων χρηστών",
                 "global_heading": "Γενίκες",
                 "moderate_heading": "Συντονισμός",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "Νέα ομάδα",
                 "participate_heading": "Συμμετοχή",
                 "post_without_throttle_label": "Απάντηση πολλές φορές χωρίς αναμονή",
@@ -215,6 +225,9 @@
                 "description": "Μια σελιδοποιημένη λίστα όλων των χρηστών στο forum σας.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -244,9 +257,13 @@
                 },
                 "pagination": {
                     "back_button": "Προηγούμενη σελίδα",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "Επόμενη σελίδα",
                     "page_counter": "Σελιδα {current} από {total}"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "Σύνολο χρηστών: {count}"
             }
@@ -411,6 +428,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "Λογαριασμός",
                 "change_email_button": "=> core.ref.change_email",
@@ -445,6 +497,7 @@
                 "posts_empty_text": "Φαίνεται ότι δεν υπάρχουν συζητήσεις εδώ.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -476,6 +529,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": ""
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "Ενεργοποίηση χρήστη",
                 "email_heading": "=> core.ref.email",
@@ -494,6 +550,7 @@
                 "dependent_extensions_message": "Δεν είναι δυνατή η απενεργοποίηση του πρόσθετου {extension} έως ότου απενεργοποιηθούν τα ακόλουθα πρόσθετα: {extensions}",
                 "extension_initialiation_failed_message": "",
                 "generic_message": "Ωχ! Κάτι πήγε στραβά. Ανανεώστε τη σελίδα και δοκιμάστε ξανά.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Δεν είναι δυνατή η ενεργοποίηση του πρόσθετου {extension} έως ότου ενεργοποιηθούν τα ακόλουθα πρόσθετα: {extensions}",
                 "not_found_message": "Η πηγή που ζητήσατε δεν βρέθηκε.",
                 "payload_too_large_message": "",
@@ -624,6 +681,7 @@
             "edit_user": "",
             "email": "E-mail",
             "extensions": "",
+            "generic_confirmation_message": "",
             "icon": "Εικονίδιο",
             "icon_text": "Εισάγετε το όνομα οποιασδήποτε κλάσης εικονιδίου <a>FontAwesome</a>, <em>εισάγοντας</em> επίσης <code>fas fa-</code> μπροστά. Π.χ. <code>fas fa-envelope</code>",
             "load_more": "Φώρτωσε περισσότερα",
@@ -631,6 +689,7 @@
             "log_in": "Σύνδεση",
             "log_out": "Αποσύνδεση",
             "mark_all_as_read": "Επισήμανση όλων ως αναγνωσμένα",
+            "new_token": "",
             "next_page": "Επόμενη σελίδα",
             "notifications": "Ειδοποιήσεις",
             "okay": "Εντάξει",
@@ -643,6 +702,8 @@
             "reset_your_password": "Επαναφορά κωδικού πρόσβασης",
             "restore": "Επαναφορά",
             "save_changes": "Αποθήκευση αλλαγών",
+            "search_users": "",
+            "security": "",
             "settings": "Ρυθμίσεις",
             "sign_up": "Εγγραφή",
             "some_others": "{count} άλλος|{count} άλλοι",

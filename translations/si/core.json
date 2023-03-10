@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "අභිරුචි ශීර්ෂය",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "අභිරුචි මෝස්තර",
                 "custom_styles_text": "ෆ්ලාරම් පෙරනිමි විලාස මතින් ඔබගේම Less/සීඑස්එස් කේතයක් එක් කිරීමෙන් ඔබගේ සංසදය අභිරුචිකරණය කරන්න.",
                 "dark_mode_label": "අඳුරු ආකාරය",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "නිහිතය හිස්කරන්න",
                 "description": "",
                 "io_error_message": "",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "උපකරණ පුවරුව",
                 "tools_button": "මෙවලම්"
             },
@@ -167,6 +175,7 @@
             "permissions": {
                 "allow_post_editing_label": "පළ කිරීම් සංස්කරණයට ඉඩදෙන්න",
                 "allow_renaming_label": "නැවත නම් කිරීමට ඉඩ දෙන්න",
+                "create_access_token_label": "",
                 "create_heading": "සාදන්න",
                 "delete_discussions_forever_label": "",
                 "delete_discussions_label": "",
@@ -179,6 +188,7 @@
                 "edit_users_groups_label": "පරිශීලක සමූහ සංස්කරණය",
                 "global_heading": "ගෝලීය",
                 "moderate_heading": "මැදිහත්කරණය",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "නව සමූහය",
                 "participate_heading": "සහභාගී වන්න",
                 "post_without_throttle_label": "රැඳී නොසිට කිහිප වතාවක් පිළිතුරු දෙන්න",
@@ -216,6 +226,9 @@
                 "description": "",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -245,9 +258,13 @@
                 },
                 "pagination": {
                     "back_button": "පෙර පිටුව",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "ඊලඟ පිටුව",
                     "page_counter": "පිටුව {current} / {total}"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "මුළු පරිශීලකයින්: {count}"
             }
@@ -413,6 +430,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "ගිණුම",
                 "change_email_button": "=> core.ref.change_email",
@@ -447,6 +499,7 @@
                 "posts_empty_text": "මෙතැන කිසිම පළ කිරීමක් නැති බව පෙනේ.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -478,6 +531,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": ""
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "පරිශීලක ක්‍රියාත්මක කරන්න",
                 "email_heading": "=> core.ref.email",
@@ -496,6 +552,7 @@
                 "dependent_extensions_message": "",
                 "extension_initialiation_failed_message": "",
                 "generic_message": "අපොයි! යම් වරදක් සිදුවිණි. පිටුව නැවත පූරණය කරන්න.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "",
                 "not_found_message": "ඉල්ලූ සම්පත හමු නොවිණි.",
                 "payload_too_large_message": "",
@@ -626,6 +683,7 @@
             "edit_user": "පරිශීලක සංස්කරණය",
             "email": "වි-තැපෑල",
             "extensions": "",
+            "generic_confirmation_message": "",
             "icon": "නිරූපකය",
             "icon_text": "",
             "load_more": "තව පූරනය කරන්න",
@@ -633,6 +691,7 @@
             "log_in": "පිවිසෙන්න",
             "log_out": "නික්මෙන්න",
             "mark_all_as_read": "සියල්ල කියවූ ලෙස සලකුණු කරන්න",
+            "new_token": "",
             "next_page": "ඊලඟ පිටුව",
             "notifications": "දැනුම්දීම්",
             "okay": "හරි",
@@ -645,6 +704,8 @@
             "reset_your_password": "ඔබගේ මුරපදය යළි සකසන්න",
             "restore": "ප්‍රත්‍යර්පණය",
             "save_changes": "වෙනස්කම් සුරකින්න",
+            "search_users": "",
+            "security": "",
             "settings": "සැකසුම්",
             "sign_up": "ලියාපදිංචිය",
             "some_others": "",

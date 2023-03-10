@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Mukautettu yläosa",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Mukautetut tyylit",
                 "custom_styles_text": "Mukauta foorumin ulkonäköä lisäämällä omia Less/CSS tyylejä. Nämä tyylit tulevat Flarumin omien oletustyylien lisäksi.",
                 "dark_mode_label": "Tumma tila",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "Tyhjennä välimuisti",
                 "description": "Foorumisi yhdellä silmäyksellä.",
                 "io_error_message": "Tiedostoihin ei voitu kirjoittaa. Tarkista tiedostojen ja kansioiden oikeudet ja yritä uudelleen. Tai voit yrittää ajaa komentoriviltä.",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "Kojelauta",
                 "tools_button": "Työkalut"
             },
@@ -168,6 +176,7 @@
             "permissions": {
                 "allow_post_editing_label": "Salli viestien muokkaus",
                 "allow_renaming_label": "Salli uudelleennimeäminen",
+                "create_access_token_label": "",
                 "create_heading": "Luonti",
                 "delete_discussions_forever_label": "Poista keskustelu pysyvästi",
                 "delete_discussions_label": "Poista keskusteluita",
@@ -180,6 +189,7 @@
                 "edit_users_groups_label": "Muokkaa käyttäjän ryhmiä",
                 "global_heading": "Yleinen",
                 "moderate_heading": "Moderointi",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "Uusi ryhmä",
                 "participate_heading": "Osallistuminen",
                 "post_without_throttle_label": "Vastata useasti ilman odottamista",
@@ -217,6 +227,9 @@
                 "description": "Sivutettu lista foorumisi käyttäjistä.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -246,9 +259,13 @@
                 },
                 "pagination": {
                     "back_button": "Edellinen sivu",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "Seuraava sivu",
                     "page_counter": "Sivu {current} / {total}"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "Käyttäjiä yhteensä: {count}"
             }
@@ -414,6 +431,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "Tili",
                 "change_email_button": "=> core.ref.change_email",
@@ -448,6 +500,7 @@
                 "posts_empty_text": "Näyttää siltä, että täällä ei ole viestejä.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -479,6 +532,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Alasvetovalikko"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "Aktivoi käyttäjä",
                 "email_heading": "=> core.ref.email",
@@ -497,6 +553,7 @@
                 "dependent_extensions_message": "{extension} lisäosaa ei voida ottaa pois käytöstä ennen kuin seuraavat lisäosat on poistettu käytöstä: {extensions}",
                 "extension_initialiation_failed_message": "{extension} alustus epäonnistui. Tarkista selaimen konsolista lisätietoja.",
                 "generic_message": "Hups! Jotain meni pieleen. Päivitä sivu ja yritä uudelleen.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Lisäosaa {extension} ei voida ottaa käyttöön ennen kuin seuraavat lisäosat on otettu käyttöön: {extensions}",
                 "not_found_message": "Pyydettyä resurssia ei löytynyt.",
                 "payload_too_large_message": "Pyydetty kuorma (payload) oli liian iso.",
@@ -627,6 +684,7 @@
             "edit_user": "Muokkaa käyttäjää",
             "email": "Sähköposti",
             "extensions": "Lisäosat",
+            "generic_confirmation_message": "",
             "icon": "Ikoni",
             "icon_text": "Syötä minkä tahansa <a>FontAwesome</a> ikonin luokka (class), <em>sisällyttäen</em> <code>fas fa-</code> etuliitteen.",
             "load_more": "Lataa lisää",
@@ -634,6 +692,7 @@
             "log_in": "Kirjaudu sisään",
             "log_out": "Kirjaudu ulos",
             "mark_all_as_read": "Merkitse kaikki luetuksi",
+            "new_token": "",
             "next_page": "Seuraava sivu",
             "notifications": "Ilmoitukset",
             "okay": "OK",
@@ -646,6 +705,8 @@
             "reset_your_password": "Nollaa salasanasi",
             "restore": "Palauta",
             "save_changes": "Tallenna muutokset",
+            "search_users": "",
+            "security": "",
             "settings": "Asetukset",
             "sign_up": "Rekisteröidy",
             "some_others": "{count, plural, one {# muu} other {# muuta}}",

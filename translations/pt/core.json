@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Cabeçalho personalizado",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Estilos personalizados",
                 "custom_styles_text": "Personalize a aparência do seu fórum adicionando seu próprio código Less / CSS a ser aplicado sobre os estilos padrão do Flarum.",
                 "dark_mode_label": "Modo escuro",
@@ -47,6 +48,13 @@
                 "clear_cache_button": "Limpar cache",
                 "description": "Resumo do seu fórum.",
                 "io_error_message": "Não é possível escrever no Sistema de Ficheiros. Verifique as permissões do Sistema de Ficheiros. Ou tente executar pela linha de comandos.",
+                "status": {
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "Dashboard",
                 "tools_button": "Ferramentas"
             },
@@ -172,6 +180,7 @@
             "permissions": {
                 "allow_post_editing_label": "Permitir edição de postagem",
                 "allow_renaming_label": "Permitir renomeação",
+                "create_access_token_label": "",
                 "create_heading": "Criar",
                 "delete_discussions_forever_label": "Excluir discussões para sempre",
                 "delete_discussions_label": "Excluir discussões",
@@ -184,6 +193,7 @@
                 "edit_users_groups_label": "Editar grupos de usuário",
                 "global_heading": "Global",
                 "moderate_heading": "Moderar",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "Novo grupo",
                 "participate_heading": "Participar",
                 "post_without_throttle_label": "Responda várias vezes sem esperar",
@@ -221,6 +231,9 @@
                 "description": "Uma lista detalhada de todos os usuários do fórum.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -250,9 +263,13 @@
                 },
                 "pagination": {
                     "back_button": "Anterior",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "Próxima",
                     "page_counter": "Página {current} de {total}"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "Total de usuários: {count}"
             },
@@ -423,6 +440,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "Conta",
                 "change_email_button": "=> core.ref.change_email",
@@ -457,6 +509,7 @@
                 "posts_empty_text": "Parece que não há posts aqui.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -488,6 +541,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Abrir o menu"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "Ativar o usuário",
                 "email_heading": "=> core.ref.email",
@@ -506,6 +562,7 @@
                 "dependent_extensions_message": "Não é possível desativar {extension} até que as seguintes extensões dependentes sejam desativadas: {extensions}",
                 "extension_initialiation_failed_message": "{extension} falhou a inicializar, verifique a consola do navegador para mais informações.",
                 "generic_message": "Opa! Algo deu errado. Por favor, recarregue a página e tente novamente.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Não é possível ativar {extension} até que as seguintes dependências sejam ativadas: {extensions}",
                 "not_found_message": "O recurso solicitado não foi encontrado.",
                 "payload_too_large_message": "A carga solicitada era demasiado elevada.",
@@ -636,6 +693,7 @@
             "edit_user": "Editar usuário",
             "email": "E-mail",
             "extensions": "Extensões",
+            "generic_confirmation_message": "",
             "icon": "Ícone",
             "icon_text": "Digite o nome de qualquer classe de ícone <a>FontAwesome</a> , <em>incluindo</em> o prefixo <code>fas fa-</code> .",
             "load_more": "Carregue mais",
@@ -643,6 +701,7 @@
             "log_in": "Entrar",
             "log_out": "Sair",
             "mark_all_as_read": "Marcar tudo como lido",
+            "new_token": "",
             "next_page": "Próxima página",
             "notifications": "Notificações",
             "okay": "OK",
@@ -655,6 +714,8 @@
             "reset_your_password": "Redefinir sua senha",
             "restore": "Restaurar",
             "save_changes": "Salvar Alterações",
+            "search_users": "",
+            "security": "",
             "settings": "Configurações",
             "sign_up": "Inscrever-se",
             "some_others": "{count, plural, one {# outro} other {# outros}}",
