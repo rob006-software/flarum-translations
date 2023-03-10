@@ -29,7 +29,7 @@
                 "tag_discussions_label": "Etiket tartışmaları"
             },
             "settings": {
-                "button_text": ""
+                "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
                 "range_separator_text": " to ",
@@ -62,7 +62,7 @@
                 "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
-                "choose_tags_link": "Etiketleri Seç"
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
                 "edit_tags_button": "Etiketleri Düzenle"
@@ -76,9 +76,9 @@
                 "untagged_link": "Etiketlenmemiş"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username}, {tagsAdded} ekledi ve {tagsRemoved} kaldırdı.",
-                "added_tags_text": "{username}, {tagsAdded} ekledi.",
-                "removed_tags_text": "{username}, {tagsRemoved} kaldırdı.",
+                "added_and_removed_tags_text": "{username}, {tagsAdded} öğesini ekledi ve {tagsRemoved} {time} öğesini kaldırdı.",
+                "added_tags_text": "{username}, {tagsAdded} {time} ekledi.",
+                "removed_tags_text": "{username}, {tagsRemoved} {time} öğesini kaldırdı.",
                 "tags_text": "{count, plural, one {{tags} etiketini} other {{tags} etiketlerini}}"
             },
             "tag": {
@@ -88,16 +88,16 @@
         "lib": {
             "deleted_tag_text": "Silindi",
             "tag_selection_modal": {
-                "bypass_requirements": "",
+                "bypass_requirements": "Etiket gereksinimlerini atla",
                 "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
             }
         },
         "ref": {
-            "choose_tags": "",
+            "choose_tags": "Etiketleri Seçin",
             "choose_tags_placeholder": "",
             "name": "İsim",
             "tags": "Etiketler"
