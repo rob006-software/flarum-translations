@@ -29,7 +29,7 @@
                 "tag_discussions_label": "Edycja tagów dyskusji"
             },
             "settings": {
-                "button_text": ""
+                "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
                 "range_separator_text": " do ",
@@ -62,7 +62,7 @@
                 "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
-                "choose_tags_link": "Wybierz tagi"
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
                 "edit_tags_button": "Edytuj tagi"
@@ -76,9 +76,9 @@
                 "untagged_link": "Bez tagów"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} dodał {tagsAdded} i usunął {tagsRemoved}.",
-                "added_tags_text": "{username} dodał {tagsAdded}.",
-                "removed_tags_text": "{username} usunął {tagsRemoved}.",
+                "added_and_removed_tags_text": "{username} dodał {tagsAdded} i usunął {tagsRemoved} {time}.",
+                "added_tags_text": "{username} dodał {tagsAdded} {time}.",
+                "removed_tags_text": "{username} usunął {tagsRemoved} {time}.",
                 "tags_text": "{count, plural, one {tag {tags}} other {tagi {tags}}}"
             },
             "tag": {
@@ -88,17 +88,17 @@
         "lib": {
             "deleted_tag_text": "Usunięty",
             "tag_selection_modal": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "bypass_requirements": "Pomiń wymóg podania tagów",
+                "choose_primary_placeholder": "{count, plural, one {Wybierz główny tag} few {Wybierz # główne tagi} other {Wybierz # głównych tagów}}",
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
             }
         },
         "ref": {
-            "choose_tags": "",
-            "choose_tags_placeholder": "",
+            "choose_tags": "Wybierz tagi",
+            "choose_tags_placeholder": "{count, plural, one {Wybierz 1 dodatkowy tag} few {Wybierz # dodatkowe tagi} other {Wybierz # dodatkowych tagów}}",
             "name": "Nazwa",
             "tags": "Tagi"
         }
