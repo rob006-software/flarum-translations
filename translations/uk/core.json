@@ -11,7 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Користувацька шапка",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_cannot_use_less_features": "",
+                "custom_styles_cannot_use_less_features": "Функції @import та data-uri заборонені у користувацькому LESS.",
                 "custom_styles_heading": "Користувацькі стилі",
                 "custom_styles_text": "Налаштування зовнішнього вигляду форуму за допомогою призначеного для користувача коду LESS/CSS, який перекриває стандартні стильові конструкції Flarum.",
                 "dark_mode_label": "Темний режим",
@@ -50,9 +50,9 @@
                 "io_error_message": "Не вдалося записати до файлової системи. Перевірте права доступу до файлової системи та повторіть спробу. Або спробуйте запустити з командного рядка.",
                 "status": {
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "Активно",
+                        "inactive": "Неактивно",
+                        "never-run": "Ніколи не запускалося"
                     }
                 },
                 "title": "Панель керування",
@@ -174,7 +174,7 @@
             "permissions": {
                 "allow_post_editing_label": "Дозволити редагувати допис",
                 "allow_renaming_label": "Дозволити перейменування",
-                "create_access_token_label": "",
+                "create_access_token_label": "Створіть токен доступу",
                 "create_heading": "Створити",
                 "delete_discussions_forever_label": "Видалити дискусії назавжди",
                 "delete_discussions_label": "Видалити дискусії",
@@ -187,14 +187,14 @@
                 "edit_users_groups_label": "Редагувати групи користувачів",
                 "global_heading": "Глобальні",
                 "moderate_heading": "Модерація",
-                "moderate_access_tokens_label": "",
+                "moderate_access_tokens_label": "Токени з модераторським доступом",
                 "new_group_button": "Нова група",
                 "participate_heading": "Участь",
                 "post_without_throttle_label": "Відповідайте кілька разів без очікування",
                 "read_heading": "Читати",
                 "rename_discussions_label": "Перейменовувати дискусії",
                 "reply_to_discussions_label": "Відповідати в дискусіях",
-                "search_users_label": "Пошук користувачів",
+                "search_users_label": "=> core.ref.search_users",
                 "sign_up_label": "Реєстрація",
                 "start_discussions_label": "Створювати дискусії",
                 "title": "Дозволи",
@@ -226,7 +226,7 @@
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": ""
+                            "title": "Показати назву"
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
@@ -257,13 +257,13 @@
                 },
                 "pagination": {
                     "back_button": "Попередня сторінка",
-                    "first_button": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
+                    "first_button": "Перейти до першої сторінки",
+                    "go_to_page_textbox_a11y_label": "Перейти безпосередньо до номера сторінки",
+                    "last_button": "Перейти до останньої сторінки",
                     "next_button": "Наступна сторінка",
                     "page_counter": "Сторінка: {current} з {total}"
                 },
-                "search_placeholder": "",
+                "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
                 "total_users": "Усього користувачів: {count}"
             }
@@ -414,7 +414,7 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Стара назва була: «{old}»",
-                "discussion_renamed_text": "Зміна назви на «{new}» від {username}.",
+                "discussion_renamed_text": "Зміна назви на «{new}» {time} від {username}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} пізніше"
@@ -429,39 +429,39 @@
                 "users_heading": "=> core.ref.users"
             },
             "security": {
-                "browser_on_operating_system": "",
-                "cannot_terminate_current_session": "",
-                "created": "",
-                "current_active_session": "",
-                "developer_tokens_heading": "",
-                "empty_text": "",
+                "browser_on_operating_system": "{browser} га {os}",
+                "cannot_terminate_current_session": "Неможливо завершити поточний активний сеанс. Замість цього вийдіть з системи.",
+                "created": "Створити",
+                "current_active_session": "Поточна активна сесія",
+                "developer_tokens_heading": "Токени розробника",
+                "empty_text": "Здається, що тут немає на що дивитися.",
                 "global_logout": {
-                    "heading": "",
-                    "help_text": "",
-                    "log_out_button": ""
+                    "heading": "Глобальний вихід",
+                    "help_text": "Очищення поточного сеансу роботи з файлами cookie, завершення всіх сеансів, відклик токени розробника та анулювання всіх електронних листів з підтвердженням або скиданням пароля.",
+                    "log_out_button": "=> core.ref.log_out"
                 },
-                "hide_access_token": "",
-                "last_activity": "",
-                "never": "",
-                "new_access_token_button": "",
+                "hide_access_token": "Приховати токен",
+                "last_activity": "Остання активність",
+                "never": "Ніколи",
+                "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
-                    "submit_button": "",
-                    "title": "",
-                    "title_placeholder": ""
+                    "submit_button": "Створити токен",
+                    "title": "=> core.ref.new_token",
+                    "title_placeholder": "Заголовок"
                 },
-                "revoke_access_token": "",
-                "revoke_access_token_confirmation": "",
-                "sessions_heading": "",
-                "session_terminated": "",
-                "session_termination_failed": "",
-                "show_access_token": "",
-                "terminate_all_other_sessions": "",
-                "terminate_all_other_sessions_confirmation": "",
-                "terminate_session": "",
-                "title": "",
-                "token_revoked": "",
-                "token_item_title": "",
-                "token_title_placeholder": ""
+                "revoke_access_token": "Відкликати",
+                "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
+                "sessions_heading": "Активні сесії",
+                "session_terminated": "{count, plural, one {Сесія завершена} other {# Сесії завершено}}.",
+                "session_termination_failed": "Під час завершення сеансів сталася помилка.",
+                "show_access_token": "Переглянути токен",
+                "terminate_all_other_sessions": "Завершити всі інші сесії",
+                "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
+                "terminate_session": "Завершити",
+                "title": "=> core.ref.security",
+                "token_revoked": "Токен анульовано.",
+                "token_item_title": "{title} - {token}",
+                "token_title_placeholder": "/"
             },
             "settings": {
                 "account_heading": "Обліковий запис",
@@ -497,7 +497,7 @@
                 "posts_empty_text": "Схоже, що тут відсутні дописи.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
-                "security_link": "",
+                "security_link": "=> core.ref.security",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -530,7 +530,7 @@
                 "toggle_dropdown_accessible_label": "Перемкнути спадне меню"
             },
             "data_segment": {
-                "label": ""
+                "label": "{label}:"
             },
             "edit_user": {
                 "activate_button": "Активувати користувача",
@@ -550,7 +550,7 @@
                 "dependent_extensions_message": "Неможливо вимкнути {extension}, доки не буде вимкнено такі залежні розширення: {extensions}",
                 "extension_initialiation_failed_message": "{extension} не вдалося ініціалізувати, зверніться до консолі браузера для отримання додаткової інформації.",
                 "generic_message": "Помилка. Будь ласка , оновіть сторінку та спробуйте ще раз.",
-                "generic_cross_origin_message": "",
+                "generic_cross_origin_message": "Упс! Щось пішло не так під час перехресного запиту на походження. Будь ласка, перезавантажте сторінку і спробуйте ще раз.",
                 "missing_dependencies_message": "Неможливо ввімкнути {extension}, доки не ввімкнемо такі залежності: {extensions}",
                 "not_found_message": "Ресурс не знайдено.",
                 "payload_too_large_message": "Корисне навантаження запиту було занадто великим.",
@@ -681,7 +681,7 @@
             "edit_user": "Редагувати користувача",
             "email": "Електронна пошта",
             "extensions": "Розширення",
-            "generic_confirmation_message": "",
+            "generic_confirmation_message": "Ви впевнені, що хочете продовжити? Ця дія не може бути скасована.",
             "icon": "Значок",
             "icon_text": "Введіть назву будь-якого класу іконки <a>Font Awesome</a>, <em>включаючи</em> префіксы <code>fas fa-</code>.",
             "load_more": "Завантажити ще",
@@ -689,7 +689,7 @@
             "log_in": "Увійти",
             "log_out": "Вийти",
             "mark_all_as_read": "Позначити все, як прочитане",
-            "new_token": "",
+            "new_token": "Новий токен",
             "next_page": "Наступна сторінка",
             "notifications": "Сповіщення",
             "okay": "OK",
@@ -702,8 +702,8 @@
             "reset_your_password": "Скинути пароль",
             "restore": "Відновити",
             "save_changes": "Зберегти зміни",
-            "search_users": "",
-            "security": "",
+            "search_users": "Пошук користувачів",
+            "security": "Безпека",
             "settings": "Налаштування",
             "sign_up": "Реєстрація",
             "some_others": "{count, plural, one {# іншому} other {# іншим}}",
