@@ -11,7 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Niestandardowy nagłówek",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_cannot_use_less_features": "",
+                "custom_styles_cannot_use_less_features": "Niestandardowe style nie obsługują funkcji @import i data-uri.",
                 "custom_styles_heading": "Niestandardowe style",
                 "custom_styles_text": "Edytuj wygląd swojego forum poprzez dodawanie swojego własnego kodu Less/CSS, który będzie dodany nad domyślnymi stylami Flarum.",
                 "dark_mode_label": "Ciemny motyw",
@@ -50,9 +50,9 @@
                 "io_error_message": "Zapis do systemu plików się nie powiódł. Sprawdź uprawnienia systemu plików i spróbuj ponownie, lub spróbuj wykonać tę akcję z poziomu wiersza poleceń.",
                 "status": {
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "Aktywny",
+                        "inactive": "Nieaktywny",
+                        "never-run": "Nigdy nie uruchomiony"
                     }
                 },
                 "title": "Kokpit",
@@ -174,7 +174,7 @@
             "permissions": {
                 "allow_post_editing_label": "Pozwól na edycję posta",
                 "allow_renaming_label": "Pozwól na zmianę tytułu dyskusji",
-                "create_access_token_label": "",
+                "create_access_token_label": "Tworzenie tokenów dostępu",
                 "create_heading": "Rozpoczynanie dyskusji",
                 "delete_discussions_forever_label": "Nieodwracalne usuwanie dyskusji",
                 "delete_discussions_label": "Usuwanie dyskusji",
@@ -187,7 +187,7 @@
                 "edit_users_groups_label": "Edytowanie grup użytkownika",
                 "global_heading": "Globalne",
                 "moderate_heading": "Moderacja",
-                "moderate_access_tokens_label": "",
+                "moderate_access_tokens_label": "Zarządzanie tokenami dostępu",
                 "new_group_button": "Nowa grupa",
                 "participate_heading": "Uczestnictwo",
                 "post_without_throttle_label": "Odpowiadanie w dyskusjach z pominięciem limitu szybkości",
@@ -226,7 +226,7 @@
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": ""
+                            "title": "Wyświetlana nazwa"
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
@@ -257,13 +257,13 @@
                 },
                 "pagination": {
                     "back_button": "Poprzednia strona",
-                    "first_button": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
+                    "first_button": "Przejdź do pierwszej strony",
+                    "go_to_page_textbox_a11y_label": "Przejdź do strony z numerem",
+                    "last_button": "Przejdź do ostatniej strony",
                     "next_button": "Następna strona",
                     "page_counter": "Strona {current} z {total}"
                 },
-                "search_placeholder": "",
+                "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
                 "total_users": "Wszystkich użytkowników: {count}"
             }
@@ -414,7 +414,7 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Poprzedni tytuł: \"{old}\"",
-                "discussion_renamed_text": "{username} zmienił tytuł na {new}.",
+                "discussion_renamed_text": "{username} zmienił tytuł na {new} {time}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} później"
@@ -429,39 +429,39 @@
                 "users_heading": "=> core.ref.users"
             },
             "security": {
-                "browser_on_operating_system": "",
-                "cannot_terminate_current_session": "",
-                "created": "",
-                "current_active_session": "",
-                "developer_tokens_heading": "",
-                "empty_text": "",
+                "browser_on_operating_system": "{browser} na {os}",
+                "cannot_terminate_current_session": "Nie można zakończyć obecnie aktywnej sesji. Zamiast tego, wyloguj się.",
+                "created": "Utworzono",
+                "current_active_session": "Obecnie aktywna sesja",
+                "developer_tokens_heading": "Tokeny developerskie",
+                "empty_text": "Wygląda na to, że nie ma tutaj nic do wyświetlenia.",
                 "global_logout": {
-                    "heading": "",
-                    "help_text": "",
-                    "log_out_button": ""
+                    "heading": "Globalne wylogowanie",
+                    "help_text": "Czyści obecne ciasteczko sesyjne, wylogowuje wszystkie sesje, unieważnia tokeny developerskie oraz unieważnia wszystkie wiadomości do potwierdzenia adresu e-mail lub resetu hasła.",
+                    "log_out_button": "Wyloguj"
                 },
-                "hide_access_token": "",
-                "last_activity": "",
-                "never": "",
-                "new_access_token_button": "",
+                "hide_access_token": "Ukryj token",
+                "last_activity": "Ostatnia aktywność",
+                "never": "Nigdy",
+                "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
-                    "submit_button": "",
-                    "title": "",
-                    "title_placeholder": ""
+                    "submit_button": "Utwórz token",
+                    "title": "=> core.ref.new_token",
+                    "title_placeholder": "Tytuł"
                 },
-                "revoke_access_token": "",
-                "revoke_access_token_confirmation": "",
-                "sessions_heading": "",
-                "session_terminated": "",
-                "session_termination_failed": "",
-                "show_access_token": "",
-                "terminate_all_other_sessions": "",
-                "terminate_all_other_sessions_confirmation": "",
-                "terminate_session": "",
-                "title": "",
-                "token_revoked": "",
-                "token_item_title": "",
-                "token_title_placeholder": ""
+                "revoke_access_token": "Unieważnij",
+                "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
+                "sessions_heading": "Aktywne sesje",
+                "session_terminated": "{count, plural, one {Zakończono jedną sesję} few {Zakończono # sesje} other {Zakończono # sesji}}.",
+                "session_termination_failed": "Wystąpił błąd podczas kończenia Twoich sesji.",
+                "show_access_token": "Pokaż token",
+                "terminate_all_other_sessions": "Zakończ wszystkie inne sesje",
+                "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
+                "terminate_session": "Zakończ",
+                "title": "=> core.ref.security",
+                "token_revoked": "Token został unieważniony.",
+                "token_item_title": "{title} - {token}",
+                "token_title_placeholder": "-"
             },
             "settings": {
                 "account_heading": "Konto",
@@ -497,7 +497,7 @@
                 "posts_empty_text": "Wygląda na to, że nie ma tutaj żadnych postów.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
-                "security_link": "",
+                "security_link": "=> core.ref.security",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -530,7 +530,7 @@
                 "toggle_dropdown_accessible_label": "Przełącz menu rozwijane"
             },
             "data_segment": {
-                "label": ""
+                "label": "{label}:"
             },
             "edit_user": {
                 "activate_button": "Aktywuj użytkownika",
@@ -550,7 +550,7 @@
                 "dependent_extensions_message": "Nie można wyłączyć {extension}, jeśli następujące zależne rozszerzenia są włączone: {extensions}",
                 "extension_initialiation_failed_message": "Nie udało się zainicjować rozszerzenia {extension}. Aby uzyskać więcej informacji, sprawdź konsolę przeglądarki.",
                 "generic_message": "Ups! Coś poszło nie tak. Odśwież stronę i spróbuj ponownie.",
-                "generic_cross_origin_message": "",
+                "generic_cross_origin_message": "Ups! Coś poszło nie tak podczas obsługi żądania typu cross-origin. Odśwież stronę i spróbuj ponownie.",
                 "missing_dependencies_message": "Nie można włączyć {extension}, jeśli następujące zależności są wyłączone: {extensions}",
                 "not_found_message": "Żądany zasób nie został znaleziony.",
                 "payload_too_large_message": "Żądanie jest za długie.",
@@ -681,7 +681,7 @@
             "edit_user": "Edytuj użytkownika",
             "email": "E-mail",
             "extensions": "Rozszerzenia",
-            "generic_confirmation_message": "",
+            "generic_confirmation_message": "Czy jesteś pewien, że chcesz kontynuować? Ta operacje nie może zostać cofnięta.",
             "icon": "Ikona",
             "icon_text": "Wpisz nazwę dowolnej klasy z <a>Font Awesome</a>, <em>włącznie</em> z prefiksem <code>fas fa-</code>.",
             "load_more": "Wczytaj więcej",
@@ -689,7 +689,7 @@
             "log_in": "Zaloguj się",
             "log_out": "Wyloguj się",
             "mark_all_as_read": "Oznacz wszystko jako odczytane",
-            "new_token": "",
+            "new_token": "Nowy token",
             "next_page": "Następna strona",
             "notifications": "Powiadomienia",
             "okay": "OK",
@@ -702,8 +702,8 @@
             "reset_your_password": "Zresetuj swoje hasło",
             "restore": "Przywróć",
             "save_changes": "Zapisz zmiany",
-            "search_users": "",
-            "security": "",
+            "search_users": "Wyszukiwanie użytkowników",
+            "security": "Bezpieczeństwo",
             "settings": "Ustawienia",
             "sign_up": "Zarejestruj się",
             "some_others": "{count, plural, one {# inny} other {# innych}}",
