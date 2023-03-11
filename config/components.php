@@ -908,6 +908,9 @@ return [
 	'katosdev-signature' => [
 		'tag' => 'https://raw.githubusercontent.com/katosdev/signature/1.2/locale/en.yml',
 	],
+	'kiddo-doorman' => [
+		'tag' => 'https://raw.githubusercontent.com/kiddoVin/doorman/1.2.1/resources/locale/en.yml',
+	],
 	'kilowhat-audit-free' => [
 		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-audit-free/1.6.0/resources/locale/en.yml',
 	],
