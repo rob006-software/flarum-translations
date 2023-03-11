@@ -2,31 +2,31 @@
     "antoinefr-money": {
         "admin": {
             "settings": {
-                "title": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
-                "moneyname": "",
-                "postminimumlength": "",
-                "noshowzero": "",
-                "moneyforlike": "",
-                "helpextensionlikes": ""
+                "title": "Баптаулар",
+                "moneyforpost": "Жаңа хабарлама үшін ақша алынды",
+                "moneyfordiscussion": "Жаңа талқылау үшін алынған ақша",
+                "moneyname": "Ақшалардың атауы (мысалы: [money] ұпайлары)",
+                "postminimumlength": "Ақшаларды алу үшін ең аз хабарлама ұзындығы (0 - өшіру)",
+                "noshowzero": "Мән нөлге тең болса, көрсетпеңіз",
+                "moneyforlike": "Пост ұнаған кезде берілетін ақша",
+                "helpextensionlikes": "<code>flarum/likes</code> кеңейтімі қажет"
             },
             "permissions": {
-                "edit_money_label": ""
+                "edit_money_label": "Ақшаны өңдеу"
             },
             "automoderator": {
-                "metric_name": "",
-                "action_name": ""
+                "metric_name": "Ақша",
+                "action_name": "Ақшаны бер"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Ақшаны өңдеу"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "{username} ақшасы",
+                "current": "Ағымдағы:",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }
