@@ -79,6 +79,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `ziiven-foldable-banner` | [![#1024 (open)](https://img.shields.io/badge/PR-%231024-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1024) |
+There are no dead branches.
