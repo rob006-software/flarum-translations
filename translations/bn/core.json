@@ -49,6 +49,11 @@
                 "description": "একনজরে আপনার ফোরাম।",
                 "io_error_message": "দুঃখিত! Filesystem এ লিখতে পারিনি। দয়া করে আপনার Filesystem এর Permission গুলো check করুন । অন্যথায় Command Line থেকে চেষ্টা করুন।",
                 "status": {
+                    "headers": {
+                        "scheduler-status": "",
+                        "queue-driver": "",
+                        "session-driver": ""
+                    },
                     "scheduler": {
                         "active": "",
                         "inactive": "",

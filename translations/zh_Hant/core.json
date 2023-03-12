@@ -49,6 +49,11 @@
                 "description": "論壇資訊總覽",
                 "io_error_message": "無法寫入文件。請檢查操作權限，重試或者直接從命令列運行命令。",
                 "status": {
+                    "headers": {
+                        "scheduler-status": "",
+                        "queue-driver": "",
+                        "session-driver": ""
+                    },
                     "scheduler": {
                         "active": "啟用",
                         "inactive": "禁用",

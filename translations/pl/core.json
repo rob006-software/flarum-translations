@@ -49,6 +49,11 @@
                 "description": "Podstawowe informacje dotyczące forum.",
                 "io_error_message": "Zapis do systemu plików się nie powiódł. Sprawdź uprawnienia systemu plików i spróbuj ponownie, lub spróbuj wykonać tę akcję z poziomu wiersza poleceń.",
                 "status": {
+                    "headers": {
+                        "scheduler-status": "",
+                        "queue-driver": "",
+                        "session-driver": ""
+                    },
                     "scheduler": {
                         "active": "Aktywny",
                         "inactive": "Nieaktywny",

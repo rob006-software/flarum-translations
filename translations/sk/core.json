@@ -52,6 +52,11 @@
                 "description": "Vaše fórum na dlani.",
                 "io_error_message": "",
                 "status": {
+                    "headers": {
+                        "scheduler-status": "",
+                        "queue-driver": "",
+                        "session-driver": ""
+                    },
                     "scheduler": {
                         "active": "",
                         "inactive": "",

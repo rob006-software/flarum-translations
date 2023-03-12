@@ -49,6 +49,11 @@
                 "description": "Foorumisi yhdellä silmäyksellä.",
                 "io_error_message": "Tiedostoihin ei voitu kirjoittaa. Tarkista tiedostojen ja kansioiden oikeudet ja yritä uudelleen. Tai voit yrittää ajaa komentoriviltä.",
                 "status": {
+                    "headers": {
+                        "scheduler-status": "",
+                        "queue-driver": "",
+                        "session-driver": ""
+                    },
                     "scheduler": {
                         "active": "",
                         "inactive": "",

@@ -49,6 +49,11 @@
                 "description": "Uw forum in één oogopslag.",
                 "io_error_message": "Kan niet naar het bestandssysteem schrijven. Controleer de machtigingen van uw bestandssysteem en probeer het opnieuw. Of probeer uit te voeren vanuit de CLI.",
                 "status": {
+                    "headers": {
+                        "scheduler-status": "",
+                        "queue-driver": "",
+                        "session-driver": ""
+                    },
                     "scheduler": {
                         "active": "",
                         "inactive": "",

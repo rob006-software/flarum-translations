@@ -49,6 +49,11 @@
                 "description": "论坛各项数据一览",
                 "io_error_message": "无法写入文件。请检查操作权限，重试或者直接从命令行运行命令。",
                 "status": {
+                    "headers": {
+                        "scheduler-status": "",
+                        "queue-driver": "",
+                        "session-driver": ""
+                    },
                     "scheduler": {
                         "active": "",
                         "inactive": "",

@@ -52,6 +52,11 @@
                 "description": "한눈에 보이는 당신의 포럼.",
                 "io_error_message": "",
                 "status": {
+                    "headers": {
+                        "scheduler-status": "",
+                        "queue-driver": "",
+                        "session-driver": ""
+                    },
                     "scheduler": {
                         "active": "",
                         "inactive": "",

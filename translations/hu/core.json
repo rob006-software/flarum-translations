@@ -52,6 +52,11 @@
                 "description": "Fórum összefoglalása.",
                 "io_error_message": "Nem sikerült a fájlrendszerre írni. Ellenőrizze a fájlrendszer jogosultságait, és próbálja újra. Vagy futtassa a parancssorból.",
                 "status": {
+                    "headers": {
+                        "scheduler-status": "",
+                        "queue-driver": "",
+                        "session-driver": ""
+                    },
                     "scheduler": {
                         "active": "",
                         "inactive": "",

@@ -49,6 +49,11 @@
                 "description": "Forumunuz bir baxışda.",
                 "io_error_message": "Fayl sistemdə yaddaş yazıla bilmədi. Zəhmət olmasa fayl sistem icazələrini yoxlayıb yenidən cəhd edin. Yaxud komanda sətrindən icra etməyi yoxlayın.",
                 "status": {
+                    "headers": {
+                        "scheduler-status": "",
+                        "queue-driver": "",
+                        "session-driver": ""
+                    },
                     "scheduler": {
                         "active": "",
                         "inactive": "",

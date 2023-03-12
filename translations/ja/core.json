@@ -49,6 +49,11 @@
                 "description": "フォーラムの概況を確認します。",
                 "io_error_message": "ファイルシステムに書き込むことが出来ませんでした。ファイルシステムの権限を確認して再度実行するか、コマンドラインからの実行をお試しください。",
                 "status": {
+                    "headers": {
+                        "scheduler-status": "",
+                        "queue-driver": "",
+                        "session-driver": ""
+                    },
                     "scheduler": {
                         "active": "",
                         "inactive": "",

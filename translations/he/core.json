@@ -49,6 +49,11 @@
                 "description": "הפורום במבט מהיר.",
                 "io_error_message": "אין אפשרות לכתוב קבצי מערכת. יש צורך בבדיקת הרשאות ולנסות שוב. או לנסות להריץ דרך שורת פקודה.",
                 "status": {
+                    "headers": {
+                        "scheduler-status": "",
+                        "queue-driver": "",
+                        "session-driver": ""
+                    },
                     "scheduler": {
                         "active": "",
                         "inactive": "",

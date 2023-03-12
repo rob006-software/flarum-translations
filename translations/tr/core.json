@@ -49,6 +49,11 @@
                 "description": "Bir bakışta forumun.",
                 "io_error_message": "Dosya sistemine yazılamadı. Dosya sistemi izinlerinizi kontrol edin ve tekrar deneyin veya komut satırından çalıştırmayı deneyin.",
                 "status": {
+                    "headers": {
+                        "scheduler-status": "",
+                        "queue-driver": "",
+                        "session-driver": ""
+                    },
                     "scheduler": {
                         "active": "",
                         "inactive": "",

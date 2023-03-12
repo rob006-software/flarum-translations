@@ -49,6 +49,11 @@
                 "description": "Resumo do seu fórum.",
                 "io_error_message": "Não foi possível gravar no sistema de arquivos. Verifique as permissões e tente novamente. Ou tente executar a partir da linha de comando.",
                 "status": {
+                    "headers": {
+                        "scheduler-status": "",
+                        "queue-driver": "",
+                        "session-driver": ""
+                    },
                     "scheduler": {
                         "active": "",
                         "inactive": "",

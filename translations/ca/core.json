@@ -49,6 +49,11 @@
                 "description": "El vostre fòrum d'un cop d'ull.",
                 "io_error_message": "No s'ha pogut escriure al sistema de fitxers. Comproveu els permisos del vostre sistema de fitxers i torneu-ho a provar. O proveu a executar des de la línia de comandaments.",
                 "status": {
+                    "headers": {
+                        "scheduler-status": "",
+                        "queue-driver": "",
+                        "session-driver": ""
+                    },
                     "scheduler": {
                         "active": "",
                         "inactive": "",

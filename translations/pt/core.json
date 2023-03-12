@@ -49,6 +49,11 @@
                 "description": "Resumo do seu fórum.",
                 "io_error_message": "Não é possível escrever no Sistema de Ficheiros. Verifique as permissões do Sistema de Ficheiros. Ou tente executar pela linha de comandos.",
                 "status": {
+                    "headers": {
+                        "scheduler-status": "",
+                        "queue-driver": "",
+                        "session-driver": ""
+                    },
                     "scheduler": {
                         "active": "",
                         "inactive": "",

@@ -49,6 +49,11 @@
                 "description": "Forumul Dvs. dintr-o privire.",
                 "io_error_message": "Nu s-a putut scrie către fișierul de sistem. Verifică-ți permisiunile fișierului de sistem și încearcă din nou. Sau încearcă să rulezi de pe linia de comandă.",
                 "status": {
+                    "headers": {
+                        "scheduler-status": "",
+                        "queue-driver": "",
+                        "session-driver": ""
+                    },
                     "scheduler": {
                         "active": "",
                         "inactive": "",

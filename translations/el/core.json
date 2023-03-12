@@ -49,6 +49,11 @@
                 "description": "Το forum σου με μια ματιά.",
                 "io_error_message": "Δεν ήταν δυνατή η εγγραφή στο σύστημα αρχείων. Ελέγξτε τα δικαιώματα του συστήματος αρχείων και προσπαθήστε ξανά. Ή δοκιμάστε να το εκτελέσετε από τη γραμμή εντολών.",
                 "status": {
+                    "headers": {
+                        "scheduler-status": "",
+                        "queue-driver": "",
+                        "session-driver": ""
+                    },
                     "scheduler": {
                         "active": "",
                         "inactive": "",
