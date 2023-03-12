@@ -48,7 +48,7 @@
                     "allowCustomValues": "Autoriser les valeurs personnalisées",
                     "customValueValidation": "Validation des valeurs personnalisées",
                     "customValueSlugger": "Identifiant texte unique pour les valeurs personnalisées",
-                    "customValueSluggerDescription": "Choisissez comment vous souhaitez que l'identifiant texte unique soit généré. Si un identifiant texte unique existe déjà, un préfixe numérique sera automatiquement ajouté. Pour l'option de translitération, vous devez installer et configurer cette autre extension au préalable.\n",
+                    "customValueSluggerDescription": "Décidez comment vous souhaitez que l'identifiant texte unique soit généré. Si un identifiant texte unique existe déjà, un préfixe numérique sera automatiquement ajouté. Pour l'option de translitération, vous devez installer et configurer cette autre extension au préalable.\n",
                     "countRequired": "Nombre de termes requis",
                     "countRequiredDescription": "Saisissez le nombre minimum et maximum de termes de cette taxonomie qui peuvent être appliqués à une ressource.\n",
                     "rangeSeparatorText": "à",
@@ -120,7 +120,7 @@
         },
         "forum": {
             "composer": {
-                "choose": "Choisir {taxonomy}"
+                "choose": "Sélectionner {taxonomy}"
             },
             "discussion": {
                 "edit": "Modifier {taxonomy}"
@@ -138,11 +138,11 @@
         "lib": {
             "modal": {
                 "title": {
-                    "new": "Choisir {taxonomy} pour votre discussion",
+                    "new": "Sélectionner {taxonomy} pour votre discussion",
                     "edit": "Modifier {taxonomy} pour {title}"
                 },
-                "placeholder": "{count, plural, one {Choisir un terme…} other {Choisir # termes…}}",
-                "placeholderOptional": "Choisir…",
+                "placeholder": "{count, plural, one {Sélectionner un terme…} other {Sélectionner # termes…}}",
+                "placeholderOptional": "Sélectionner…",
                 "custom": "Utiliser {value}",
                 "bypassTermCounts": "Contourner les comptes de terme",
                 "submit": "Valider"
