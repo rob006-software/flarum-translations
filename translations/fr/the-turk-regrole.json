@@ -3,7 +3,7 @@
         "admin": {
             "settings": {
                 "allowed_roles_label": "Rôles autorisés",
-                "allowed_roles_text": "Choisissez les rôles que les utilisateurs sont autorisés à s'attribuer.",
+                "allowed_roles_text": "Sélectionnez les rôles que les utilisateurs sont autorisés à s'attribuer.",
                 "other_options_heading": "Autres options",
                 "allow_multiple_roles_label": "Permettre aux utilisateurs de se voir attribuer plusieurs rôles",
                 "force_users_label": "Obliger les utilisateurs à s'attribuer au moins un rôle",
@@ -11,12 +11,12 @@
             }
         },
         "forum": {
-            "suspended_temporarily_message": "Nous avons suspendu temporairement votre compte jusqu'à ce que vous choisissiez un rôle.",
+            "suspended_temporarily_message": "Nous avons suspendu temporairement votre compte jusqu'à ce que vous sélectionniez un rôle.",
             "choose_role_button_label": "=> the-turk-regrole.ref.choose_a_role",
-            "required_role_message": "Vous devez choisir un rôle.",
+            "required_role_message": "Vous devez sélectionner un rôle.",
             "choose_role_modal": {
                 "choose_role_heading": "=> the-turk-regrole.ref.choose_a_role",
-                "choose_role_text": "Veuillez choisir un rôle pour continuer à utiliser notre forum.",
+                "choose_role_text": "Veuillez sélectionner un rôle pour continuer à utiliser notre forum.",
                 "save_button": "=> core.ref.save_changes"
             },
             "sign_up_modal": {
@@ -24,7 +24,7 @@
             }
         },
         "ref": {
-            "choose_a_role": "Choisir un rôle"
+            "choose_a_role": "Sélectionner un rôle"
         }
     }
 }
