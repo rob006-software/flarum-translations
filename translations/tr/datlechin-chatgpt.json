@@ -3,18 +3,18 @@
         "admin": {
             "settings": {
                 "api_key_label": "API Anahtarı",
-                "api_key_help": "",
-                "model_label": "",
-                "model_help": "",
-                "max_tokens_label": "",
-                "max_tokens_help": "",
-                "user_prompt_label": "",
-                "user_prompt_help": "",
-                "enable_on_discussion_started_label": "",
-                "enable_on_discussion_started_help": ""
+                "api_key_help": "<a>openai.com</a>'dan OpenAI API anahtarını alın.",
+                "model_label": "Model",
+                "model_help": "<a>Modeller</a> hakkında daha fazla bilgi edinin (varsayılan: <code>text-davinci-003</code>).",
+                "max_tokens_label": "Maksimum Jeton",
+                "max_tokens_help": "<a>Jeton nedir ve nasıl sayılır?</a>",
+                "user_prompt_label": "Kullanıcı İstemi",
+                "user_prompt_help": "Cevabı oluşturmak için kullanılacak bilgi istemi. Varsayılan, tartışmayı kimin başlattığıdır.",
+                "enable_on_discussion_started_label": "Tartışma başladığında etkinleştir",
+                "enable_on_discussion_started_help": "Tartışma, tartışma başladığında ilk gönderinin içeriğine dayalı olarak bir yanıt alacaktır."
             },
             "permissions": {
-                "use_chatgpt_assistant_label": ""
+                "use_chatgpt_assistant_label": "ChatGPT Asistanı Kullan"
             }
         }
     }
