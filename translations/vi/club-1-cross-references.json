@@ -3,23 +3,23 @@
         "admin": {
             "show_discussion_id": {
                 "label": "Hiển thị ID cuộc thảo luận",
-                "help": "Thêm số ID thảo luận ở mọi nơi mà một cuộc thảo luận được hiển thị"
+                "help": "Thêm số ID thảo luận ở mọi nơi mà một cuộc thảo luận được hiển thị."
             },
             "enable_short_references": {
-                "label": "",
-                "help": ""
+                "label": "Bật tài liệu tham khảo ngắn",
+                "help": "Chuyển văn bản #<ID> trong tin nhắn (ví dụ: #42) thành liên kết đến cuộc thảo luận tương ứng."
             },
             "retrofit_links_in_frontend": {
-                "label": "",
-                "help": ""
+                "label": "Liên kết trang bị thêm ở frontend",
+                "help": "Hiển thị tiêu đề của liên kết thảo luận trong thư được gửi khi tiện ích mở rộng này không được bật. Việc này được thực hiện ở giao diện người dùng nên có thể dẫn đến trải nghiệm người dùng kém.\n"
             }
         },
         "forum": {
             "post_stream": {
                 "discussion_referenced_text": "{username} đã tham chiếu cuộc thảo luận này từ {source}",
-                "discussion_referenced_multiple_text": ""
+                "discussion_referenced_multiple_text": "{username} đã tham chiếu cuộc thảo luận này từ nhiều nguồn: {sources}"
             },
-            "unknown_discussion": "",
+            "unknown_discussion": "[cuộc thảo luận không xác định]",
             "comment": "nhận xét"
         }
     }
