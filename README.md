@@ -638,6 +638,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`datlechin-bbcode-hide-content`](https://weblate.rob006.net/projects/flarum/datlechin-bbcode-hide-content) | [`datlechin/flarum-bbcode-hide-content`](https://github.com/flatension/bbcode-hide-content) |
 | [`datlechin-birthdays`](https://weblate.rob006.net/projects/flarum/datlechin-birthdays) | [`datlechin/flarum-birthdays`](https://github.com/flatension/birthdays) |
 | [`datlechin-birthdays-widget`](https://weblate.rob006.net/projects/flarum/datlechin-birthdays-widget) | [`datlechin/flarum-birthdays-widget`](https://github.com/flatension/birthdays-widget) |
+| [`datlechin-chatgpt`](https://weblate.rob006.net/projects/flarum/datlechin-chatgpt) | [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt) |
 | [`datlechin-copy-links`](https://weblate.rob006.net/projects/flarum/datlechin-copy-links) | [`datlechin/flarum-copy-links`](https://github.com/flatension/copy-links) |
 | [`datlechin-discussion-overview`](https://weblate.rob006.net/projects/flarum/datlechin-discussion-overview) | [`datlechin/flarum-discussion-overview`](https://github.com/flatension/discussion-overview) |
 | [`datlechin-keyboard-shortcuts`](https://weblate.rob006.net/projects/flarum/datlechin-keyboard-shortcuts) | [`datlechin/flarum-keyboard-shortcuts`](https://github.com/flatension/keyboard-shortcuts) |
