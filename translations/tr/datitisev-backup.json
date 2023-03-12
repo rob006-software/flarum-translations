@@ -105,21 +105,21 @@
                 },
                 "dropbox": {
                     "key": {
-                        "label": ""
+                        "label": "Uygulama Anahtarı"
                     },
                     "secret": {
-                        "label": ""
+                        "label": "Uygulama Gizli Anahtarı"
                     },
                     "refresh-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Jetonu Yenile",
+                        "description": "Yenileme jetonunu almak için aşağıdaki alanları kullanın veya https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually adresindeki talimatları manuel olarak izleyin."
                     },
                     "help": {
-                        "obtain-access-code-label": "",
-                        "obtain-access-code-button": "",
-                        "obtain-refresh-token-label": "",
-                        "obtain-refresh-token-button": "",
-                        "obtain-refresh-token-success": ""
+                        "obtain-access-code-label": "Bir erişim kodu edinin (uygulama anahtarı gerektirir)",
+                        "obtain-access-code-button": "Dropbox'u Aç",
+                        "obtain-refresh-token-label": "Yenileme jetonu almak için erişim kodunu kullanın (uygulama anahtarı ve gizli uygulama anahtarı gerektirir)",
+                        "obtain-refresh-token-button": "Kodu kullan",
+                        "obtain-refresh-token-success": "Yenileme belirteci başarıyla alındı ve yukarıda güncellendi! Saklamak için değişiklikleri kaydedin."
                     },
                     "access-token": {
                         "label": "Erişim tokeni",
