@@ -29,7 +29,7 @@
                 "tag_discussions_label": "Thẻ cuộc thảo luận"
             },
             "settings": {
-                "button_text": ""
+                "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
                 "range_separator_text": " đến ",
@@ -62,7 +62,7 @@
                 "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
-                "choose_tags_link": "Chọn thẻ"
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
                 "edit_tags_button": "Chỉnh sửa thẻ"
@@ -76,9 +76,9 @@
                 "untagged_link": "Không được gắn thẻ"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} đã thêm {tagsAdded} và gỡ {tagsRemoved}.",
-                "added_tags_text": "{username} đã thêm {tagsAdded}.",
-                "removed_tags_text": "{username} đã gỡ {tagsRemoved}.",
+                "added_and_removed_tags_text": "{username} đã thêm {tagsAdded} và gỡ {tagsRemoved} {time}.",
+                "added_tags_text": "{username} đã thêm {tagsAdded} {time}.",
+                "removed_tags_text": "{username} đã gỡ {tagsRemoved} {time}.",
                 "tags_text": "{count, plural, one {thẻ {tags}} other {thẻ {tags}}}"
             },
             "tag": {
@@ -88,17 +88,17 @@
         "lib": {
             "deleted_tag_text": "Đã xóa",
             "tag_selection_modal": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "bypass_requirements": "Yêu cầu bỏ qua thẻ",
+                "choose_primary_placeholder": "{count, plural, one {Chọn một thẻ chính} other {Chọn # thẻ chính}}",
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
             }
         },
         "ref": {
-            "choose_tags": "",
-            "choose_tags_placeholder": "",
+            "choose_tags": "Chọn thẻ",
+            "choose_tags_placeholder": "{count, plural, one {Chọn thêm một thẻ} other {Chọn thêm # thẻ}}",
             "name": "Tên",
             "tags": "Thẻ"
         }

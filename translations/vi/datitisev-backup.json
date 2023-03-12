@@ -105,20 +105,20 @@
                 },
                 "dropbox": {
                     "access-token": {
-                        "label": "Mã token truy cập",
-                        "description": "Tạo mã token truy cập oAuth 2 @ https://www.dropbox.com/developers/apps."
+                        "label": "Mã Access Token OAuth2",
+                        "description": "Tạo mã token truy cập oAuth 2 @ https://www.dropbox.com/developers/apps. Yêu cầu quyền \"files.metadata.write\" trước khi tạo mã token."
                     },
                     "key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Mã key ứng dụng",
+                        "description": "Mã key của ứng dụng Dropbox."
                     },
                     "secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "Mã bí mật ứng dụng",
+                        "description": "Mã bí mật của ứng dụng Dropbox."
                     },
                     "refresh-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Làm mới token",
+                        "description": "Tạo mã token làm mới. Xem hướng dẫn https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually."
                     }
                 },
                 "gdrive": {
