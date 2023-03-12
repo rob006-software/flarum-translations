@@ -89,7 +89,7 @@
             "deleted_tag_text": "Silindi",
             "tag_selection_modal": {
                 "bypass_requirements": "Etiket gereksinimlerini atla",
-                "choose_primary_placeholder": "",
+                "choose_primary_placeholder": "{count, plural, one {Birincil etiket seçin} other {# birincil etiket seçin}}",
                 "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "submit_button": "=> core.ref.okay",
@@ -98,7 +98,7 @@
         },
         "ref": {
             "choose_tags": "Etiketleri Seçin",
-            "choose_tags_placeholder": "",
+            "choose_tags_placeholder": "{count, plural, one {1 etiket daha seçin} other {# etiket daha seçin}}",
             "name": "İsim",
             "tags": "Etiketler"
         }
