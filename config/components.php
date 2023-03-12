@@ -1166,6 +1166,9 @@ return [
 	'ziiven-fireworks' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-fireworks/v0.1.1/locale/en.yml',
 	],
+	'ziiven-foldable-banner' => [
+		'tag' => 'https://raw.githubusercontent.com/Ziiven/ziven-foldable-banner/v0.1.1/locale/en.yml',
+	],
 	'ziiven-money-leaderboard' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-money-leaderboard/v0.1.4/locale/en.yml',
 	],
