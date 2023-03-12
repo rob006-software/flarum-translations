@@ -3,18 +3,18 @@
         "admin": {
             "settings": {
                 "mode": {
-                    "label": "",
-                    "help": "",
+                    "label": "Chế độ hiển thị avatar của bài viết cuối",
+                    "help": "Chọn thời điểm và vị trí hình đại diện của tác giả bài viết cuối cùng sẽ được hiển thị trên danh sách thảo luận. Kiểm tra README để xem trực quan hóa từng tùy chọn.",
                     "options": {
-                        "all-replies": "",
-                        "non-op-replies": "",
-                        "always": "",
-                        "replace-main": ""
+                        "all-replies": "Chỉ các câu trả lời",
+                        "non-op-replies": "Chỉ trả lời ngoại trừ bài viết của tác giả thảo luận",
+                        "always": "Luôn luôn",
+                        "replace-main": "Thay thế hình đại diện thảo luận chính"
                     }
                 },
                 "ignorePrivateDiscussions": {
-                    "label": "",
-                    "help": ""
+                    "label": "Bỏ qua các cuộc thảo luận riêng tư (FoF Byōbu)",
+                    "help": "Chọn tùy chọn này nếu bạn không muốn thay đổi hành vi của hình đại diện cho các cuộc thảo luận riêng tư."
                 }
             }
         }
