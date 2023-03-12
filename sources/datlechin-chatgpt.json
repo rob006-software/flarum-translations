@@ -8,6 +8,8 @@
                 "model_help": "Learn more about <a>models</a> (default: <code>text-davinci-003</code>).",
                 "max_tokens_label": "Max Tokens",
                 "max_tokens_help": "<a>What are tokens and how to count them?</a>",
+                "user_prompt_label": "User Prompt",
+                "user_prompt_help": "The prompt that will be used to generate the answer. Default is who started the discussion.",
                 "enable_on_discussion_started_label": "Enable on discussion started",
                 "enable_on_discussion_started_help": "The discussion will receive an answer based on content of first post when the discussion is started."
             },
