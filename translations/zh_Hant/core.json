@@ -434,34 +434,34 @@
                 "created": "已創建",
                 "current_active_session": "當前活動對話",
                 "developer_tokens_heading": "開發者令牌",
-                "empty_text": "",
+                "empty_text": "暫無資訊。",
                 "global_logout": {
-                    "heading": "",
-                    "help_text": "",
-                    "log_out_button": ""
+                    "heading": "全局登出",
+                    "help_text": "清除當前的 cookie ，終止所有對話，撤銷開發人員令牌，並使任何電子郵件確認或密碼重置電子郵件無效。",
+                    "log_out_button": "=> core.ref.log_out"
                 },
-                "hide_access_token": "",
-                "last_activity": "",
-                "never": "",
-                "new_access_token_button": "",
+                "hide_access_token": "隱藏令牌",
+                "last_activity": "最後活動",
+                "never": "永不",
+                "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
-                    "submit_button": "",
-                    "title": "",
-                    "title_placeholder": ""
+                    "submit_button": "創建令牌",
+                    "title": "=> core.ref.new_token",
+                    "title_placeholder": "標題"
                 },
-                "revoke_access_token": "",
-                "revoke_access_token_confirmation": "",
-                "sessions_heading": "",
-                "session_terminated": "",
-                "session_termination_failed": "",
-                "show_access_token": "",
-                "terminate_all_other_sessions": "",
-                "terminate_all_other_sessions_confirmation": "",
-                "terminate_session": "",
-                "title": "",
-                "token_revoked": "",
-                "token_item_title": "",
-                "token_title_placeholder": ""
+                "revoke_access_token": "撤銷",
+                "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
+                "sessions_heading": "活動對話",
+                "session_terminated": "{count, plural, one {對話終止} other {# 個對話終止}}.",
+                "session_termination_failed": "終止對話時出錯。",
+                "show_access_token": "查看令牌",
+                "terminate_all_other_sessions": "終止所有其它對話",
+                "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
+                "terminate_session": "終止",
+                "title": "=> core.ref.security",
+                "token_revoked": "令牌已撤銷。",
+                "token_item_title": "{title} - {token}",
+                "token_title_placeholder": "/"
             },
             "settings": {
                 "account_heading": "帳戶",
@@ -497,7 +497,7 @@
                 "posts_empty_text": "暫無回覆。",
                 "posts_link": "貼文",
                 "posts_load_more_button": "載入更多",
-                "security_link": "",
+                "security_link": "=> core.ref.security",
                 "settings_link": "設定"
             },
             "user_controls": {
@@ -530,7 +530,7 @@
                 "toggle_dropdown_accessible_label": "下拉選單開關"
             },
             "data_segment": {
-                "label": ""
+                "label": "{label}:"
             },
             "edit_user": {
                 "activate_button": "激活用戶",
@@ -550,7 +550,7 @@
                 "dependent_extensions_message": "無法停用「{extension}」，請先停用依賴擴展「{extensions}」",
                 "extension_initialiation_failed_message": "初始化「{extension}」失敗，詳情信息請查看控制台。",
                 "generic_message": "糟糕，出錯啦！請重新載入頁面再試一次。",
-                "generic_cross_origin_message": "",
+                "generic_cross_origin_message": "哎呀！ 請求期間出現問題。 請刷新頁面，然後再試一次。",
                 "missing_dependencies_message": "無法啟用「{extension}」，請先啟用依賴擴展「{extensions}」",
                 "not_found_message": "請求的資源不存在。",
                 "payload_too_large_message": "請求負載過大。",
@@ -681,7 +681,7 @@
             "edit_user": "編輯用戶",
             "email": "郵箱",
             "extensions": "擴展程序",
-            "generic_confirmation_message": "",
+            "generic_confirmation_message": "您確定要繼續嗎？ 此操作無法撤消。",
             "icon": "圖示",
             "icon_text": "輸入任意一個 <a>FontAwesome</a> 圖示名稱，<em>需要包含</em>前綴 ，例如<code>fas fa-</code>。",
             "load_more": "載入更多",
@@ -689,7 +689,7 @@
             "log_in": "登入",
             "log_out": "登出",
             "mark_all_as_read": "標記所有為已讀",
-            "new_token": "",
+            "new_token": "新令牌",
             "next_page": "下一頁",
             "notifications": "通知",
             "okay": "好",
@@ -702,8 +702,8 @@
             "reset_your_password": "重設密碼",
             "restore": "還原",
             "save_changes": "儲存更改",
-            "search_users": "",
-            "security": "",
+            "search_users": "搜尋用戶",
+            "security": "安全性",
             "settings": "設定",
             "sign_up": "註冊",
             "some_others": "{count, plural, one {# 人} other {# 人}}",
