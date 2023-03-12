@@ -29,7 +29,7 @@
                 "tag_discussions_label": "更改標籤"
             },
             "settings": {
-                "button_text": ""
+                "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
                 "range_separator_text": " 至 ",
@@ -62,7 +62,7 @@
                 "submit_button": "好"
             },
             "composer_discussion": {
-                "choose_tags_link": "選擇標籤"
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
                 "edit_tags_button": "編輯標籤"
@@ -78,7 +78,7 @@
             "post_stream": {
                 "added_and_removed_tags_text": "{username} 加上了 {tagsAdded} 標籤，並移除 {tagsRemoved} 標籤",
                 "added_tags_text": "{username} 加上了 {tagsAdded} 標籤",
-                "removed_tags_text": "{username} 移除了 {tagsRemoved} 標籤",
+                "removed_tags_text": "{username} 移除了 {tagsRemoved} 標籤。",
                 "tags_text": "{count, plural, one {{tags}} other {{tags}}}"
             },
             "tag": {
@@ -88,17 +88,17 @@
         "lib": {
             "deleted_tag_text": "已刪除",
             "tag_selection_modal": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "bypass_requirements": "略過標籤要求",
+                "choose_primary_placeholder": "{count, plural, one {選擇一個主標籤} other {選擇#個主標籤}}",
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
             }
         },
         "ref": {
-            "choose_tags": "",
-            "choose_tags_placeholder": "",
+            "choose_tags": "選擇標籤",
+            "choose_tags_placeholder": "{count, plural, one {再選擇 1 個標籤} other {再選擇 # 個標籤}}",
             "name": "標籤名稱",
             "tags": "標籤"
         }
