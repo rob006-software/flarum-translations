@@ -104,21 +104,25 @@
                     }
                 },
                 "dropbox": {
-                    "access-token": {
-                        "label": "Token di Accesso",
-                        "description": ""
-                    },
                     "key": {
-                        "label": "",
-                        "description": ""
+                        "label": ""
                     },
                     "secret": {
-                        "label": "",
-                        "description": ""
+                        "label": ""
                     },
                     "refresh-token": {
                         "label": "",
                         "description": ""
+                    },
+                    "help": {
+                        "obtain-access-code-label": "",
+                        "obtain-access-code-button": "",
+                        "obtain-refresh-token-label": "",
+                        "obtain-refresh-token-button": "",
+                        "obtain-refresh-token-success": ""
+                    },
+                    "access-token": {
+                        "label": "Token di Accesso"
                     }
                 },
                 "gdrive": {

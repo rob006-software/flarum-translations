@@ -104,21 +104,26 @@
                     }
                 },
                 "dropbox": {
-                    "access-token": {
-                        "label": "Access Token",
-                        "description": "生成一个 oAuth 2 访问令牌 @ https://www.dropbox.com/developers/apps."
-                    },
                     "key": {
-                        "label": "",
-                        "description": ""
+                        "label": ""
                     },
                     "secret": {
-                        "label": "",
-                        "description": ""
+                        "label": ""
                     },
                     "refresh-token": {
                         "label": "",
                         "description": ""
+                    },
+                    "help": {
+                        "obtain-access-code-label": "",
+                        "obtain-access-code-button": "",
+                        "obtain-refresh-token-label": "",
+                        "obtain-refresh-token-button": "",
+                        "obtain-refresh-token-success": ""
+                    },
+                    "access-token": {
+                        "label": "Access Token",
+                        "description": "生成一个 oAuth 2 访问令牌 @ https://www.dropbox.com/developers/apps."
                     }
                 },
                 "gdrive": {

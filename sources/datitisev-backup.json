@@ -104,21 +104,22 @@
                     }
                 },
                 "dropbox": {
-                    "access-token": {
-                        "label": "OAuth2 Access Token",
-                        "description": "Generate an oAuth 2 access token @ https://www.dropbox.com/developers/apps. Give the app the \"files.metadata.write\" permission before generating your token."
-                    },
                     "key": {
-                        "label": "App Key",
-                        "description": "The key of the Dropbox app."
+                        "label": "App Key"
                     },
                     "secret": {
-                        "label": "App Secret",
-                        "description": "The secret of the Dropbox app."
+                        "label": "App Secret"
                     },
                     "refresh-token": {
                         "label": "Refresh Token",
-                        "description": "Generate a refresh token. See https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually for instructions."
+                        "description": "Use the fields below to obtain the refresh token or manually follow the instructions at https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually."
+                    },
+                    "help": {
+                        "obtain-access-code-label": "Obtain an access code (requires app key)",
+                        "obtain-access-code-button": "Open Dropbox",
+                        "obtain-refresh-token-label": "Use access code to obtain a refresh token (requires app key & secret)",
+                        "obtain-refresh-token-button": "Use code",
+                        "obtain-refresh-token-success": "Refresh token obtained successfully & updated above! Save the changes to store it."
                     }
                 },
                 "gdrive": {

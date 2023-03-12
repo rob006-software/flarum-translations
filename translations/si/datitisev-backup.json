@@ -104,21 +104,22 @@
                     }
                 },
                 "dropbox": {
-                    "access-token": {
-                        "label": "",
-                        "description": ""
-                    },
                     "key": {
-                        "label": "",
-                        "description": ""
+                        "label": ""
                     },
                     "secret": {
-                        "label": "",
-                        "description": ""
+                        "label": ""
                     },
                     "refresh-token": {
                         "label": "",
                         "description": ""
+                    },
+                    "help": {
+                        "obtain-access-code-label": "",
+                        "obtain-access-code-button": "",
+                        "obtain-refresh-token-label": "",
+                        "obtain-refresh-token-button": "",
+                        "obtain-refresh-token-success": ""
                     }
                 },
                 "gdrive": {

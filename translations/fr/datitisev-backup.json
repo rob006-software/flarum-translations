@@ -104,10 +104,6 @@
                     }
                 },
                 "dropbox": {
-                    "access-token": {
-                        "label": "Jeton d'accès OAuth2",
-                        "description": "Générez un jeton d'accès oAuth 2 sur https://www.dropbox.com/developers/apps. Donnez à l'application la permission « files.metadata.write » avant de générer votre jeton."
-                    },
                     "key": {
                         "label": "Clé de l'application",
                         "description": "La clé de l'application Dropbox."
@@ -119,6 +115,17 @@
                     "refresh-token": {
                         "label": "Actualiser le jeton",
                         "description": "Générer une actualisation de jeton. Veuillez vous rendre sur https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually pour consulter les instructions."
+                    },
+                    "help": {
+                        "obtain-access-code-label": "",
+                        "obtain-access-code-button": "",
+                        "obtain-refresh-token-label": "",
+                        "obtain-refresh-token-button": "",
+                        "obtain-refresh-token-success": ""
+                    },
+                    "access-token": {
+                        "label": "Jeton d'accès OAuth2",
+                        "description": "Générez un jeton d'accès oAuth 2 sur https://www.dropbox.com/developers/apps. Donnez à l'application la permission « files.metadata.write » avant de générer votre jeton."
                     }
                 },
                 "gdrive": {
