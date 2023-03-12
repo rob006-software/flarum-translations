@@ -359,7 +359,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flatension/birthdays-widget/v0.1.0/locale/en.yml',
 	],
 	'datlechin-chatgpt' => [
-		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-chatgpt/v0.0.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-chatgpt/v0.1.0/locale/en.yml',
 	],
 	'datlechin-copy-links' => [
 		'tag' => 'https://raw.githubusercontent.com/flatension/copy-links/v0.1.1/locale/en.yml',
