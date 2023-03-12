@@ -11,7 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "自定義頁眉",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_cannot_use_less_features": "",
+                "custom_styles_cannot_use_less_features": "@import 和 data-uri 特性在自定義 LESS 中是不允許的。",
                 "custom_styles_heading": "自定義樣式",
                 "custom_styles_text": "添加 Less/CSS 代碼以自定義論壇外觀，此設置將覆蓋 Flarum 默認樣式。",
                 "dark_mode_label": "暗黑模式",
@@ -50,9 +50,9 @@
                 "io_error_message": "無法寫入文件。請檢查操作權限，重試或者直接從命令列運行命令。",
                 "status": {
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "啟用",
+                        "inactive": "禁用",
+                        "never-run": "沒有運行過"
                     }
                 },
                 "title": "儀表板",
@@ -174,7 +174,7 @@
             "permissions": {
                 "allow_post_editing_label": "編輯貼文",
                 "allow_renaming_label": "更改主題",
-                "create_access_token_label": "",
+                "create_access_token_label": "創建訪問令牌",
                 "create_heading": "貼文",
                 "delete_discussions_forever_label": "永久刪除貼文",
                 "delete_discussions_label": "刪除貼文",
@@ -187,14 +187,14 @@
                 "edit_users_groups_label": "編輯用戶組",
                 "global_heading": "全局",
                 "moderate_heading": "管理",
-                "moderate_access_tokens_label": "",
+                "moderate_access_tokens_label": "適度的訪問令牌",
                 "new_group_button": "新增群組",
                 "participate_heading": "操作",
                 "post_without_throttle_label": "頻繁回覆無需等待間隔",
                 "read_heading": "訪問",
                 "rename_discussions_label": "更改主題",
                 "reply_to_discussions_label": "新增回覆",
-                "search_users_label": "搜索用戶",
+                "search_users_label": "=> core.ref.search_users",
                 "sign_up_label": "註冊帳戶",
                 "start_discussions_label": "發表主題",
                 "title": "權限",
@@ -226,7 +226,7 @@
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": ""
+                            "title": "顯示名稱"
                         },
                         "edit_user": {
                             "button": "編輯",
@@ -257,13 +257,13 @@
                 },
                 "pagination": {
                     "back_button": "上一頁",
-                    "first_button": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
+                    "first_button": "前往首頁",
+                    "go_to_page_textbox_a11y_label": "前往指定頁面",
+                    "last_button": "前往最末頁",
                     "next_button": "下一頁",
                     "page_counter": "第 {current} 頁 / 共 {total} 頁"
                 },
-                "search_placeholder": "",
+                "search_placeholder": "=> core.ref.search_users",
                 "title": "用戶",
                 "total_users": "用戶數：{count}"
             }
@@ -429,11 +429,11 @@
                 "users_heading": "會員"
             },
             "security": {
-                "browser_on_operating_system": "",
-                "cannot_terminate_current_session": "",
-                "created": "",
-                "current_active_session": "",
-                "developer_tokens_heading": "",
+                "browser_on_operating_system": "{browser} 於 {os}",
+                "cannot_terminate_current_session": "無法終止當前的活動會話。 已註銷。",
+                "created": "已創建",
+                "current_active_session": "當前活動對話",
+                "developer_tokens_heading": "開發者令牌",
                 "empty_text": "",
                 "global_logout": {
                     "heading": "",
