@@ -5,17 +5,17 @@
                 "blacklist_label": "Danh sách đen",
                 "blacklist_help": "Nhập danh sách tên miền hoặc url phân cách bằng dấu phẩy để loại bỏ khỏi xem trước liên kết.",
                 "blacklist_placeholder": "Ví dụ: facebook.com,https://domain.com/path",
-                "whitelist_label": "",
-                "whitelist_help": "",
-                "whitelist_placeholder": "",
+                "whitelist_label": "Danh sách trắng",
+                "whitelist_help": "Nhập danh sách tên miền hoặc url được phân tách bằng dấu phẩy để cho phép xem trước liên kết.",
+                "whitelist_placeholder": "e.g. facebook.com,https://domain.com/path",
                 "convert_media_urls_label": "Chuyển đổi các URL media",
                 "convert_media_urls_help": "Nếu được bật, các URL media sẽ chuyển sang xem trước liên kết.",
-                "use_google_favicons_label": "",
-                "use_google_favicons_help": "",
-                "cache_time_label": "",
-                "cache_time_help": "",
-                "open_links_in_new_tab_label": "",
-                "open_links_in_new_tab_help": ""
+                "use_google_favicons_label": "Sử dụng API Google Favicon",
+                "use_google_favicons_help": "Nếu được bật, sẽ sử dụng dịch vụ của Google ở giao diện người dùng để yêu cầu biểu tượng yêu thích của trang web tương ứng.",
+                "cache_time_label": "Thời gian cache",
+                "cache_time_help": "Số phút liên kết được thu thập thông tin sẽ được lưu vào bộ nhớ cache trước khi chúng được truy cập lại. Đặt thành 0 để tắt bộ nhớ đệm liên kết. Mặc định là 60 phút nếu không được đặt.",
+                "open_links_in_new_tab_label": "Mở liên kết trong tab mới",
+                "open_links_in_new_tab_help": "Nếu được bật, các liên kết sẽ được mở trong tab mới."
             }
         },
         "forum": {
