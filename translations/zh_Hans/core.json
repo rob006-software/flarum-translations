@@ -57,7 +57,7 @@
                     "scheduler": {
                         "active": "",
                         "inactive": "",
-                        "never-run": ""
+                        "never-run": "从未运行"
                     }
                 },
                 "title": "仪表盘",
@@ -181,7 +181,7 @@
             "permissions": {
                 "allow_post_editing_label": "编辑帖子内容",
                 "allow_renaming_label": "更改自己的主题标题",
-                "create_access_token_label": "",
+                "create_access_token_label": "创建访问令牌",
                 "create_heading": "帖子相关",
                 "delete_discussions_forever_label": "永久删除主题",
                 "delete_discussions_label": "删除主题",
@@ -201,7 +201,7 @@
                 "read_heading": "访问相关",
                 "rename_discussions_label": "更改主题标题",
                 "reply_to_discussions_label": "回复",
-                "search_users_label": "搜索用户",
+                "search_users_label": "=> core.ref.search_users",
                 "sign_up_label": "注册",
                 "start_discussions_label": "发布主题",
                 "title": "权限",
@@ -264,13 +264,13 @@
                 },
                 "pagination": {
                     "back_button": "上一页",
-                    "first_button": "",
+                    "first_button": "返回首页",
                     "go_to_page_textbox_a11y_label": "",
                     "last_button": "",
                     "next_button": "下一页",
                     "page_counter": "第 {current} 页 / 共 {total} 页"
                 },
-                "search_placeholder": "",
+                "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
                 "total_users": "用户数：{count}"
             }
@@ -422,7 +422,7 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "原标题：「{old}」",
-                "discussion_renamed_text": "{username} 更改标题为「{new}」",
+                "discussion_renamed_text": "{username} 于 {time} 更改标题为「{new}」",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} 后"
@@ -714,7 +714,7 @@
             "reset_your_password": "重置密码",
             "restore": "还原",
             "save_changes": "保存",
-            "search_users": "",
+            "search_users": "搜索用户",
             "security": "",
             "settings": "设置",
             "sign_up": "注册",
