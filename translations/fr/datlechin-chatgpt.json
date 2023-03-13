@@ -2,19 +2,19 @@
     "datlechin-chatgpt": {
         "admin": {
             "settings": {
-                "api_key_label": "",
-                "api_key_help": "",
-                "model_label": "",
-                "model_help": "",
-                "max_tokens_label": "",
-                "max_tokens_help": "",
-                "user_prompt_label": "",
-                "user_prompt_help": "",
-                "enable_on_discussion_started_label": "",
-                "enable_on_discussion_started_help": ""
+                "api_key_label": "Clé API",
+                "api_key_help": "Obtenez la clé API d'OpenAI sur <a>openai.com</a>.",
+                "model_label": "Modèle",
+                "model_help": "En savoir plus sur les <a>modèles</a> (<code>text-davinci-003</code> par défaut).",
+                "max_tokens_label": "Nombre maximal de jetons",
+                "max_tokens_help": "<a>Qu'est-ce que les jetons et comment les compter?</a>",
+                "user_prompt_label": "Invite de l'utilisateur",
+                "user_prompt_help": "L'invite qui sera utilisée pour générer la réponse. La valeur par défaut est celui ou celle qui a démarré la discussion.",
+                "enable_on_discussion_started_label": "Activé lors du lancement d'une discussion",
+                "enable_on_discussion_started_help": "La discussion recevra une réponse basée sur le contenu du premier message lors du lancement de la discussion."
             },
             "permissions": {
-                "use_chatgpt_assistant_label": ""
+                "use_chatgpt_assistant_label": "Utiliser l'assistant ChatGPT"
             }
         }
     }
