@@ -50,9 +50,9 @@
                 "io_error_message": "Es konnte nicht in das Dateisystem geschrieben werden. Überprüfe die Berechtigungen deines Dateisystems und versuche es erneut. Oder versuche es über die Kommandozeile auszuführen.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "scheduler-status": "Scheduler",
+                        "queue-driver": "Queue-Treiber",
+                        "session-driver": "Session-Treiber"
                     },
                     "scheduler": {
                         "active": "Aktiv",
