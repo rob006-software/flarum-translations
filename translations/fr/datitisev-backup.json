@@ -113,15 +113,15 @@
                         "description": "La clé secrète de l'application Dropbox."
                     },
                     "refresh-token": {
-                        "label": "Actualiser le jeton",
-                        "description": "Générer une actualisation de jeton. Veuillez vous rendre sur https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually pour consulter les instructions."
+                        "label": "Jeton d'actualisation",
+                        "description": "Utilisez les champs ci-dessous pour obtenir le jeton d'actualisation ou suivez manuellement les instructions à l'adresse https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually."
                     },
                     "help": {
-                        "obtain-access-code-label": "",
-                        "obtain-access-code-button": "",
-                        "obtain-refresh-token-label": "",
-                        "obtain-refresh-token-button": "",
-                        "obtain-refresh-token-success": ""
+                        "obtain-access-code-label": "Obtenir un code d'accès (nécessite une clé d'application)",
+                        "obtain-access-code-button": "Ouvrir Dropbox",
+                        "obtain-refresh-token-label": "Utiliser le code d'accès pour obtenir un jeton d'actualisation (nécessite la clé publique et la clé secrète de l'application)",
+                        "obtain-refresh-token-button": "Utiliser un code",
+                        "obtain-refresh-token-success": "Le jeton d'actualisation a été obtenu et mis à jour ci-dessus ! Sauvegardez les modifications pour le conserver."
                     },
                     "access-token": {
                         "label": "Jeton d'accès OAuth2",
