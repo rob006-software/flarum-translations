@@ -347,7 +347,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/datitisev-webhooks-pro.yml',
 	],
 	'datlechin-add-like-controls' => [
-		'tag' => 'https://raw.githubusercontent.com/flatension/add-like-controls/v1.0.6/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-add-like-controls/v1.0.6/locale/en.yml',
 	],
 	'datlechin-bbcode-hide-content' => [
 		'tag' => 'https://raw.githubusercontent.com/flatension/bbcode-hide-content/v0.1.5/locale/en.yml',
