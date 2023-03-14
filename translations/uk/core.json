@@ -50,9 +50,9 @@
                 "io_error_message": "Не вдалося записати до файлової системи. Перевірте права доступу до файлової системи та повторіть спробу. Або спробуйте запустити з командного рядка.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "scheduler-status": "Планувальник",
+                        "queue-driver": "Черга",
+                        "session-driver": "Драйвер сесії"
                     },
                     "scheduler": {
                         "active": "Активно",
