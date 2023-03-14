@@ -389,7 +389,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-pronouns/v0.1.0/locale/en.yml',
 	],
 	'datlechin-remove-sidenav' => [
-		'tag' => 'https://raw.githubusercontent.com/flatension/remove-sidenav/v0.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-remove-sidenav/v0.1.0/locale/en.yml',
 	],
 	'datlechin-scroll-buttons' => [
 		'tag' => 'https://raw.githubusercontent.com/flatension/scroll-buttons/v1.1.0/locale/en.yml',
