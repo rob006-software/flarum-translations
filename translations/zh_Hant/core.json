@@ -50,9 +50,9 @@
                 "io_error_message": "無法寫入文件。請檢查操作權限，重試或者直接從命令列運行命令。",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "scheduler-status": "排程",
+                        "queue-driver": "Queue 驅動",
+                        "session-driver": "Session 驅動"
                     },
                     "scheduler": {
                         "active": "啟用",
