@@ -410,7 +410,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flatension/flarum-usercard-uid/v0.1.1/locale/en.yml',
 	],
 	'datlechin-who-replied' => [
-		'tag' => 'https://raw.githubusercontent.com/flatension/who-replied/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-who-replied/v1.0.0/locale/en.yml',
 	],
 	'davwheat-ads' => [
 		'tag' => 'https://raw.githubusercontent.com/davwheat/flarum-ext-ads/1.2.0/locale/en.yml',
