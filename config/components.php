@@ -368,7 +368,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flatension/discussion-overview/v0.0.1/locale/en.yml',
 	],
 	'datlechin-keyboard-shortcuts' => [
-		'tag' => 'https://raw.githubusercontent.com/flatension/keyboard-shortcuts/v0.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-keyboard-shortcuts/v0.1.1/locale/en.yml',
 	],
 	'datlechin-landing-page' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-landing-page/0.1.0/locale/en.yml',
