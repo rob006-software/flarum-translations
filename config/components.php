@@ -551,7 +551,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/forum-statistics-widget/1.0.2/resources/locale/en.yml',
 	],
 	'fof-frontpage' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/frontpage/1.1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/frontpage/1.1.1/resources/locale/en.yml',
 	],
 	'fof-gamification' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/gamification/1.6.2/resources/locale/en.yml',
