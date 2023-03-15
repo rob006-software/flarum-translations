@@ -3,87 +3,87 @@
         "admin": {
             "permissions": {
                 "set_virtual_authors": "Налаштуйте віртуальних авторів для дискусій",
-                "view_virtual_authors_page": ""
+                "view_virtual_authors_page": "Переглянути сторінку з детальною інформацією про всіх віртуальних авторів"
             },
             "settings": {
-                "errored": "",
-                "create_new": "",
-                "auto_save_message": "",
-                "search_placeholder": "",
-                "link_to_va_from_discussion": "",
-                "authors_in_sidebar": "",
-                "authors_in_sidebar_help": "",
-                "virtual_authors_page_disabled": "",
-                "virtual_authors_page_disabled_help": "",
-                "discussion_badge": "",
-                "prev": "",
-                "next": ""
+                "errored": "Не вдалося завантажити віртуальних авторів з сервера.",
+                "create_new": "Створити нового віртуального автора",
+                "auto_save_message": "Створення нових та редагування існуючих віртуальних авторів зберігається автоматично.",
+                "search_placeholder": "Пошук за іменем",
+                "link_to_va_from_discussion": "Показати посилання на всі обговорення віртуального автора у вікні \"Автори\"",
+                "authors_in_sidebar": "Показувати авторів у бічній панелі, а не над першим дописом",
+                "authors_in_sidebar_help": "Це не впливає на розширення Blog.",
+                "virtual_authors_page_disabled": "Вимкнути список віртуальних авторів для всіх користувачів.",
+                "virtual_authors_page_disabled_help": "Це перевизначає будь-які дозволи, встановлені для цієї функції.",
+                "discussion_badge": "Показувати бейдж у дискусіях з віртуальними авторами",
+                "prev": "Попередня сторінка",
+                "next": "Наступна сторінка"
             },
             "virtual_author_item": {
-                "id": "",
-                "name": "",
-                "description": "",
-                "no_description": "",
-                "edit": "",
-                "delete_confirmation": "",
-                "delete_a11y_tooltip": ""
+                "id": "ID",
+                "name": "Показати ім'я",
+                "description": "Опис",
+                "no_description": "=> davwheat-virtual-authors.ref.no_description",
+                "edit": "Редагувати віртуального автора",
+                "delete_confirmation": "Видалити віртуального автора?",
+                "delete_a11y_tooltip": "Видалити"
             }
         },
         "lib": {
             "edit_modal": {
-                "title_edit": "",
-                "title_new": "",
-                "submit_edit": "",
-                "submit_new": "",
+                "title_edit": "Редагувати віртуального автора",
+                "title_new": "Новий віртуальний автор",
+                "submit_edit": "Зберегти зміни",
+                "submit_new": "Створити віртуального автора",
                 "fields": {
-                    "name": "",
-                    "description": ""
+                    "name": "Показати ім'я",
+                    "description": "Опис (про автора)"
                 }
             },
-            "discussion-badge": ""
+            "discussion-badge": "{count, plural, one {Має віртуального автора}, other {Має віртуальних авторів}}"
         },
         "forum": {
             "virtual_author_page": {
-                "meta_title": "",
-                "credited_discussions": "",
-                "discussion_count": ""
+                "meta_title": "{displayName} - автори",
+                "credited_discussions": "Обговорення, що належать {displayName}",
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count"
             },
             "virtual_authors_list": {
-                "sidebar_link": "",
-                "empty_text": "",
-                "title": "",
-                "meta_title": "",
-                "filter_name_placeholder": "",
-                "discussion_count": "",
-                "no_description": ""
+                "sidebar_link": "Автори",
+                "empty_text": "Здається, що тут немає авторів.",
+                "title": "Всі автори",
+                "meta_title": "Всі автори",
+                "filter_name_placeholder": "Фільтр за іменем",
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count",
+                "no_description": "Автор зберігає навколо них атмосферу таємничості."
             },
             "virtual_authors_panel": {
-                "heading": "",
-                "error": "",
-                "item_link_tooltip": ""
+                "heading": "Автори",
+                "error": "Не вдалося завантажити авторів.",
+                "item_link_tooltip": "Переглянути всі обговорення {displayName}"
             },
             "discussion_controls": {
-                "set_virtual_authors": ""
+                "set_virtual_authors": "Встановити віртуальних авторів"
             },
             "set_modal": {
-                "title": "",
-                "existing": "",
-                "add_new": "",
-                "none_existing": "",
-                "search": "",
-                "credit_placeholder": "",
-                "delete_confirmation": "",
-                "delete_button": "",
-                "add_button": "",
-                "added_button": "",
-                "no_description": "",
-                "virtual_author_exists": "",
-                "save": ""
+                "title": "Встановити віртуальних авторів",
+                "existing": "Поточні віртуальні автори",
+                "add_new": "Обрати нового віртуального автора",
+                "none_existing": "Віртуальних авторів не обрано.",
+                "search": "Пошук віртуального автора",
+                "credit_placeholder": "Кредит (необов'язково)",
+                "delete_confirmation": "Видалити віртуального автора з обговорення?",
+                "delete_button": "Видалити",
+                "add_button": "Додати",
+                "added_button": "Додано",
+                "no_description": "=> davwheat-virtual-authors.ref.no_description",
+                "virtual_author_exists": "Завжди обрані!",
+                "save": "Зберегти змінити"
             }
         },
         "ref": {
-            "no_description": "",
-            "discussion_count": ""
+            "no_description": "(опис не задано)",
+            "discussion_count": "{count, plural, one {# дискусія}, other {# дискусій}}"
         }
     }
 }
