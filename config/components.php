@@ -569,7 +569,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ignore-users/1.1.1/resources/locale/en.yml',
 	],
 	'fof-impersonate' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/impersonate/1.1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/impersonate/1.1.1/resources/locale/en.yml',
 	],
 	'fof-linguist' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/linguist/1.1.0/resources/locale/en.yml',
