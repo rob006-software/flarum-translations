@@ -377,7 +377,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-link-preview/v1.3.2/locale/en.yml',
 	],
 	'datlechin-more-discussions' => [
-		'tag' => 'https://raw.githubusercontent.com/flatension/more-discussions/v0.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-more-discussions/v0.1.0/locale/en.yml',
 	],
 	'datlechin-offline-indicator' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-offline-indicator/v0.1.0/locale/en.yml',
