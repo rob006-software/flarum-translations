@@ -623,7 +623,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/recaptcha/1.1.0/resources/locale/en.yml',
 	],
 	'fof-secure-https' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/secure-https/1.1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/secure-https/1.1.1/resources/locale/en.yml',
 	],
 	'fof-sentry' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/1.2.0/resources/locale/en.yml',
