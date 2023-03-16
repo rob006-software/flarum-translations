@@ -2,32 +2,32 @@
     "clarkwinkelmann-predefined-avatars": {
         "admin": {
             "settings": {
-                "predefinedAvatarsOnly": "",
-                "predefinedAvatarsOnlyHelp": "",
-                "predefinedAvatarsNoRemove": "",
-                "predefinedAvatarsNoRemoveHelp": "",
-                "predefinedAvatarsDefault": "",
-                "predefinedAvatarsDefaultHelp": "",
-                "predefinedAvatars": "",
-                "predefinedAvatarsHelp": "",
+                "predefinedAvatarsOnly": "Дозволяти лише попередньо визначені аватарки",
+                "predefinedAvatarsOnlyHelp": "Видаляє можливість завантажувати власні зображення аватарів, якщо ви не маєте відповідного дозволу.",
+                "predefinedAvatarsNoRemove": "Заборонити встановлення без аватара",
+                "predefinedAvatarsNoRemoveHelp": "Користувачі, які вже мають власний або попередньо визначений аватар, не зможуть повернутися до аватара за налаштуванням \"ініціали\", якщо не матимуть відповідного дозволу.",
+                "predefinedAvatarsDefault": "Аватар за налаштуванням",
+                "predefinedAvatarsDefaultHelp": "Застосовується до нових користувачів при реєстрації.",
+                "predefinedAvatars": "Доступні аватари",
+                "predefinedAvatarsHelp": "Файли не змінюються і не конвертуються. Переконайтеся, що ви змінили розмір, стиснули та експортували їх у потрібному форматі перед завантаженням. Flarum найкраще працює з квадратними зображеннями 100x100 png або jpg, але ви можете скористатися перевагами інших роздільних здатностей за допомогою спеціального CSS.\n",
                 "defaultOptions": {
-                    "none": "",
-                    "first": "",
-                    "random": ""
+                    "none": "Без аватара",
+                    "first": "Перший аватар зі списку",
+                    "random": "Випадковий аватар зі списку"
                 }
             },
             "permissions": {
-                "setPredefinedAvatar": "",
-                "setCustomAvatarAlways": ""
+                "setPredefinedAvatar": "Виберіть аватар з попередньо визначеного списку",
+                "setCustomAvatarAlways": "Встановіть власний аватар будь-коли"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "imageAlt": ""
+                "title": "Обрати аватар",
+                "imageAlt": "Аватар"
             },
             "editor": {
-                "setPredefinedAvatar": ""
+                "setPredefinedAvatar": "Виберіть попередньо визначений аватар"
             }
         }
     }
