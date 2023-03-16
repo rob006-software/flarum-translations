@@ -668,6 +668,9 @@ return [
 	'fof-webhooks' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/1.1.2/resources/locale/en.yml',
 	],
+	'frie-nextcloud-oauth' => [
+		'tag' => 'https://raw.githubusercontent.com/frie/flarum-nextcloud-oauth/0.2/resources/locale/en.yml',
+	],
 	'ganuonglachanh-sonic' => [
 		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.8/resources/locale/en.yml',
 	],
