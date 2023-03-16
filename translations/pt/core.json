@@ -11,7 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Cabeçalho personalizado",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_cannot_use_less_features": "",
+                "custom_styles_cannot_use_less_features": "As funcionalidades @import e data-uri não são permitidas no LESS customizado.",
                 "custom_styles_heading": "Estilos personalizados",
                 "custom_styles_text": "Personalize a aparência do seu fórum adicionando seu próprio código Less / CSS a ser aplicado sobre os estilos padrão do Flarum.",
                 "dark_mode_label": "Modo escuro",
@@ -50,14 +50,14 @@
                 "io_error_message": "Não é possível escrever no Sistema de Ficheiros. Verifique as permissões do Sistema de Ficheiros. Ou tente executar pela linha de comandos.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "scheduler-status": "Agendador",
+                        "queue-driver": "Driver da Fila",
+                        "session-driver": "Driver da sessão"
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "Activo",
+                        "inactive": "Inactivo",
+                        "never-run": "Nunca executado"
                     }
                 },
                 "title": "Dashboard",
@@ -185,7 +185,7 @@
             "permissions": {
                 "allow_post_editing_label": "Permitir edição de postagem",
                 "allow_renaming_label": "Permitir renomeação",
-                "create_access_token_label": "",
+                "create_access_token_label": "Criar token de acesso",
                 "create_heading": "Criar",
                 "delete_discussions_forever_label": "Excluir discussões para sempre",
                 "delete_discussions_label": "Excluir discussões",
@@ -198,14 +198,14 @@
                 "edit_users_groups_label": "Editar grupos de usuário",
                 "global_heading": "Global",
                 "moderate_heading": "Moderar",
-                "moderate_access_tokens_label": "",
+                "moderate_access_tokens_label": "Moderar tokens de acesso",
                 "new_group_button": "Novo grupo",
                 "participate_heading": "Participar",
                 "post_without_throttle_label": "Responda várias vezes sem esperar",
                 "read_heading": "Ler",
                 "rename_discussions_label": "Renomear discussões",
                 "reply_to_discussions_label": "Responder às discussões",
-                "search_users_label": "Buscar usuários",
+                "search_users_label": "=> core.ref.procurar_utilizadores",
                 "sign_up_label": "Inscrever-se",
                 "start_discussions_label": "Iniciar discussões",
                 "title": "Permissões",
@@ -237,7 +237,7 @@
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": ""
+                            "title": "Nome de utilizador"
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
@@ -268,15 +268,15 @@
                 },
                 "pagination": {
                     "back_button": "Anterior",
-                    "first_button": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
+                    "first_button": "Ir para a primeira página",
+                    "go_to_page_textbox_a11y_label": "Ir directamente para a página número",
+                    "last_button": "Ir para a ultima página",
                     "next_button": "Próxima",
                     "page_counter": "Página {current} de {total}"
                 },
-                "search_placeholder": "",
+                "search_placeholder": "=> core.ref.procurar_utilizadores",
                 "title": "=> core.ref.users",
-                "total_users": "Total de usuários: {count}"
+                "total_users": "Total de utilizadores: {count}"
             },
             "extensions": {
                 "add_button": "Adicionar extensão",
@@ -431,7 +431,7 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "O título antigo era: \"{old}\"",
-                "discussion_renamed_text": "{username} alterou o título para {new}.",
+                "discussion_renamed_text": "{username} alterou o título para {new} {time}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} depois"
@@ -446,8 +446,8 @@
                 "users_heading": "=> core.ref.users"
             },
             "security": {
-                "browser_on_operating_system": "",
-                "cannot_terminate_current_session": "",
+                "browser_on_operating_system": "{browser} no {os}",
+                "cannot_terminate_current_session": "Não foi possível terminar a sessão activa actual. Efectua logout.",
                 "created": "",
                 "current_active_session": "",
                 "developer_tokens_heading": "",
