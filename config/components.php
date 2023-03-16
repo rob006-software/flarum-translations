@@ -1049,6 +1049,9 @@ return [
 	'rob006-last-post-avatar' => [
 		'tag' => 'https://raw.githubusercontent.com/rob006-software/flarum-ext-last-post-avatar/1.2.3/locale/en.yml',
 	],
+	'richsheep-elasticsearch' => [
+		'tag' => 'https://raw.githubusercontent.com/Richsheep/flarum-elasticsearch/v0.0.3/resources/locale/en.yml',
+	],
 	'serakoi-flarumstaffbadge' => [
 		'tag' => 'https://raw.githubusercontent.com/Serakoi/flarumstaffbadge/1.2.1/resources/locale/en.yml',
 	],
