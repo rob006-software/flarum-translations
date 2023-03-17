@@ -11,7 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "カスタムヘッダー",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_cannot_use_less_features": "",
+                "custom_styles_cannot_use_less_features": "カスタムLESSでは@importとdata-uri機能は許可されていません。",
                 "custom_styles_heading": "カスタムスタイル",
                 "custom_styles_text": "Less/CSSコードを使用してFlarumの見た目をカスタマイズできます。",
                 "dark_mode_label": "ダークモード",
@@ -50,13 +50,13 @@
                 "io_error_message": "ファイルシステムに書き込むことが出来ませんでした。ファイルシステムの権限を確認して再度実行するか、コマンドラインからの実行をお試しください。",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "scheduler-status": "スケジューラ",
+                        "queue-driver": "キュードライバー",
+                        "session-driver": "セッションドライバー"
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
+                        "active": "有効",
+                        "inactive": "無効",
                         "never-run": ""
                     }
                 },
