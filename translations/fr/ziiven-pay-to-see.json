@@ -1,20 +1,20 @@
 {
     "pay-to-see": {
         "lib": {
-            "ok": "",
-            "confirm": "",
-            "save": "",
-            "cancel": ""
+            "ok": "Valider",
+            "confirm": "Confirmer",
+            "save": "Enregistrer",
+            "cancel": "Annuler"
         },
         "forum": {
-            "tag_no_permission_title": "",
-            "tag_no_permission": "",
-            "tag_has_permission": "",
+            "tag_no_permission_title": "Payer pour voir le contenu",
+            "tag_no_permission": "Vous ne pouvez pas utiliser la fonction « payer pour voir » sur les étiquettes sélectionnées",
+            "tag_has_permission": "Autoriser de payer pour voir le contenu",
             "pay_to_see_content": "Payer pour voir le contenu",
             "pay_to_see_content_label": "Payer pour voir le contenu",
             "purchased_content": "Contenu acheté",
-            "purchased_users": "",
-            "purchased_users_empty": "",
+            "purchased_users": "Utilisateurs achetés",
+            "purchased_users_empty": "Aucun achat pour l'instant",
             "pay_to_see_owner_bypass": "Payer pour voir le contenu (dérogatoire pour l'auteur)",
             "pay_to_see_content_bypass": "Payer pour voir le contenu (dérogatoire avec les permissions)",
             "toolbar_tooltip": "Insérer du contenu qu'il faut payer pour voir",
@@ -33,7 +33,7 @@
             "purchase_error_not_found": "Impossible d'acheter le contenu",
             "purchase_error_insufficient_fund": "Fonds insuffisants",
             "purchase_error_no_permission": "Permission refusée",
-            "set_error_no_permission": "",
+            "set_error_no_permission": "Vous n'avez pas l'autorisation d'utiliser la fonction « payer pour voir le contenu »",
             "purchase_count": "Nombre d'achats : {count}",
             "notifications": {
                 "notification_setting_some_one_purchase_content": "Quelqu'un a acheté mon contenu",
@@ -45,9 +45,9 @@
             "cancel": "Annuler"
         },
         "admin": {
-            "set_permission_tag": "",
-            "set_permission_tag_help": "",
-            "error_need_one_tag": "",
+            "set_permission_tag": "Paramètres d'autorisations des étiquettes",
+            "set_permission_tag_help": "Lorsqu'un utilisateur démarre une discussion, il peut utiliser la fonction « payer pour voir le contenu » en sélectionnant n'importe quelle étiquette disposant d'une autorisation",
+            "error_need_one_tag": "Veuillez sélectionner au moins une étiquette",
             "settings": {
                 "badge_icon": "Icône de badge",
                 "badge_icon_desc": "Entrez le nom de n'importe quelle classe d'icône FontAwesome, y compris le préfixe <code>fas fa-</code>. Laissez vide pour supprimer le badge."
@@ -56,7 +56,7 @@
                 "allow_use_pay2see": "Permettre l'utilisation du contenu payant",
                 "allow_purchase_pay2see": "Permettre de payer pour voir le contenu",
                 "allow_bypass_pay2see": "Permettre des dérogations pour voir le contenu payant",
-                "allow_set_pay2see": ""
+                "allow_set_pay2see": "Permettre de définir un prix dans les discussions d'autres utilisateurs"
             }
         }
     }
