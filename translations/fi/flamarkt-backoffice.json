@@ -1,36 +1,36 @@
 {
     "flamarkt-backoffice": {
         "admin": {
-            "settingsInBackoffice": ""
+            "settingsInBackoffice": "Toimiston asetukset"
         },
         "backoffice": {
-            "settingsNotAvailableForNonAdmin": "",
+            "settingsNotAvailableForNonAdmin": "Tällä lisäosalla on asetuksia, mutta vain ylläpitäjät näkevät ne ja voivat muokata niitä.",
             "nav": {
-                "dashboard": "",
-                "users": "",
-                "searchPlaceholder": ""
+                "dashboard": "Hallinta",
+                "users": "Käyttäjät",
+                "searchPlaceholder": "=> core.admin.nav.search_placeholder"
             },
             "users": {
-                "title": "",
-                "new": "",
-                "searchPlaceholder": "",
+                "title": "Käyttäjät",
+                "new": "Luo käyttäjä",
+                "searchPlaceholder": "Etsi käyttäjiä...",
                 "head": {
-                    "email": ""
+                    "email": "Sähköposti"
                 },
                 "field": {
-                    "username": "",
-                    "email": "",
-                    "password": ""
+                    "username": "Käyttäjätunnus",
+                    "email": "Sähköposti",
+                    "password": "Salasana"
                 }
             },
             "permissions": {
-                "backoffice": ""
+                "backoffice": "Käytä toimistoa"
             }
         },
         "lib": {
             "header": {
-                "admin_button": "",
-                "backoffice_button": ""
+                "admin_button": "=> core.forum.header.admin_button",
+                "backoffice_button": "Toimisto"
             }
         }
     }
