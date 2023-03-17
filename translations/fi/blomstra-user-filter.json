@@ -2,22 +2,22 @@
     "blomstra-user-filter": {
         "admin": {
             "settings": {
-                "intro": "",
-                "min_length": "",
-                "result_count": ""
+                "intro": "Käyttäjät joilla ei ole oikeutta <code>Etsiä käyttäjiä</code> eivät näe hakulaatikkoa. Aseta <code>Kaikki</code> kaikille käyttäjille tai mikä sinun tapauksessa onkaan sopiva määre.",
+                "min_length": "Haun aloittamisen minimi merkkimäärä",
+                "result_count": "Maksimi määrä tuloksia alasvetovalikossa"
             }
         },
         "forum": {
             "index_page": {
                 "filter_user": {
-                    "accessible_label": "",
-                    "all": "",
-                    "label": "",
-                    "search_label": "",
-                    "no_results": "",
-                    "start_typing": "",
-                    "keep_typing": "",
-                    "remove_filter": ""
+                    "accessible_label": "Suodata tekijän mukaan",
+                    "all": "Kaikki",
+                    "label": "Suodata tekijän mukaan: {text}",
+                    "search_label": "Hae käyttäjiä...",
+                    "no_results": "Ei tuloksia",
+                    "start_typing": "Kirjoita jotain...",
+                    "keep_typing": "Jatka kirjoittamista...",
+                    "remove_filter": "Poista tekijä suodatus"
                 }
             }
         }
