@@ -13,7 +13,7 @@
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Realtime",
                     "typing-indicator-type": {
                         "help": "",
                         "label": "Pokazuj kto pisze"
@@ -26,12 +26,12 @@
                 "view-who-types": "Podglądanie kto pisze"
             },
             "settings": {
-                "release-discussion-updates": "",
-                "release-discussion-updates-help": "",
-                "release-discussion-updates-interval": "",
-                "release-discussion-updates-interval-help": "",
+                "release-discussion-updates": "Aktualizacja listy dyskusji",
+                "release-discussion-updates-help": "Gdy włączone, nowe dyskusje będą wstrzyknięte w <code>Listę Dyskusji</code> używając zdefiniowanego interwału.",
+                "release-discussion-updates-interval": "Interwał automatycznego ładowania nowej zawartości dyskusji",
+                "release-discussion-updates-interval-help": "W sekundach. 0 oznacza brak automatycznego odświeżania.",
                 "typing-indicator": "Wskaźnik pisania",
-                "typing-indicator-help": ""
+                "typing-indicator-help": "Gdy włączone, zależnie od uprawnień, użytkownicy mogą zobaczyć liczbę innych użytkowników piszących w tej samej dyskusji. Gdy wyłączone, wskaźnik pisania zostaje usunięty z UI i danych przesyłanych websocketem."
             }
         }
     }
