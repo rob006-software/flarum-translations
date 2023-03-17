@@ -57,7 +57,7 @@
                     "scheduler": {
                         "active": "有効",
                         "inactive": "無効",
-                        "never-run": ""
+                        "never-run": "実行なし"
                     }
                 },
                 "title": "ダッシュボード",
@@ -179,7 +179,7 @@
             "permissions": {
                 "allow_post_editing_label": "投稿の編集",
                 "allow_renaming_label": "タイトルの変更",
-                "create_access_token_label": "",
+                "create_access_token_label": "アクセストークンの生成",
                 "create_heading": "作成",
                 "delete_discussions_forever_label": "スレッドの完全削除",
                 "delete_discussions_label": "スレッドの削除",
@@ -192,14 +192,14 @@
                 "edit_users_groups_label": "ユーザーのグループの編集",
                 "global_heading": "全体",
                 "moderate_heading": "管理",
-                "moderate_access_tokens_label": "",
+                "moderate_access_tokens_label": "アクセストークンの管理",
                 "new_group_button": "新しいグループ",
                 "participate_heading": "参加",
                 "post_without_throttle_label": "連投制限なし",
                 "read_heading": "閲覧",
                 "rename_discussions_label": "タイトルの変更",
                 "reply_to_discussions_label": "返信",
-                "search_users_label": "ユーザーの検索",
+                "search_users_label": "=> core.ref.search_users",
                 "sign_up_label": "新規登録",
                 "start_discussions_label": "スレッドの作成",
                 "title": "権限",
@@ -231,7 +231,7 @@
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": ""
+                            "title": "表示名"
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
@@ -262,13 +262,13 @@
                 },
                 "pagination": {
                     "back_button": "前のページ",
-                    "first_button": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
+                    "first_button": "最初のページ",
+                    "go_to_page_textbox_a11y_label": "ページ番号を指定",
+                    "last_button": "最後のページ",
                     "next_button": "次のページ",
                     "page_counter": "{current} / {total} ページ"
                 },
-                "search_placeholder": "",
+                "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
                 "total_users": "全ユーザー数: {count}"
             }
@@ -419,7 +419,7 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "元のタイトル: \"{old}\"",
-                "discussion_renamed_text": "{username} がタイトルを {new} に変更しました。",
+                "discussion_renamed_text": "{username} が{time}にタイトルを {new} へ変更しました。",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} 後"
@@ -434,39 +434,39 @@
                 "users_heading": "=> core.ref.users"
             },
             "security": {
-                "browser_on_operating_system": "",
-                "cannot_terminate_current_session": "",
-                "created": "",
-                "current_active_session": "",
-                "developer_tokens_heading": "",
-                "empty_text": "",
+                "browser_on_operating_system": "{os}上の{browser}",
+                "cannot_terminate_current_session": "現在有効なセッションを切断することは出来ません。代わりにログアウトを使用してください。",
+                "created": "生成日時",
+                "current_active_session": "現在のセッション",
+                "developer_tokens_heading": "開発者トークン",
+                "empty_text": "表示できる項目がありません。",
                 "global_logout": {
-                    "heading": "",
-                    "help_text": "",
-                    "log_out_button": ""
+                    "heading": "全てログアウト",
+                    "help_text": "現在のクッキーセッションの削除、全てのセッションの切断、開発者トークンの無効化、メールアドレス認証及びパスワード再設定メールの無効化を行います。",
+                    "log_out_button": "=> core.ref.log_out"
                 },
-                "hide_access_token": "",
-                "last_activity": "",
-                "never": "",
-                "new_access_token_button": "",
+                "hide_access_token": "トークンを隠す",
+                "last_activity": "最後のアクセス",
+                "never": "なし",
+                "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
-                    "submit_button": "",
-                    "title": "",
-                    "title_placeholder": ""
+                    "submit_button": "トークンを生成",
+                    "title": "=> core.ref.new_token",
+                    "title_placeholder": "タイトル"
                 },
-                "revoke_access_token": "",
-                "revoke_access_token_confirmation": "",
-                "sessions_heading": "",
-                "session_terminated": "",
-                "session_termination_failed": "",
-                "show_access_token": "",
-                "terminate_all_other_sessions": "",
-                "terminate_all_other_sessions_confirmation": "",
-                "terminate_session": "",
-                "title": "",
-                "token_revoked": "",
-                "token_item_title": "",
-                "token_title_placeholder": ""
+                "revoke_access_token": "無効化",
+                "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
+                "sessions_heading": "有効なセッション",
+                "session_terminated": "{count, plural, one {セッションを切断しました} other {#個のセッションを切断しました}}。",
+                "session_termination_failed": "あなたのセッションの切断中にエラーが発生しました。",
+                "show_access_token": "トークンを表示",
+                "terminate_all_other_sessions": "その他のすべてのセッションを切断",
+                "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
+                "terminate_session": "切断",
+                "title": "=> core.ref.security",
+                "token_revoked": "トークンが無効化されました。",
+                "token_item_title": "{title} - {token}",
+                "token_title_placeholder": "/"
             },
             "settings": {
                 "account_heading": "アカウント",
@@ -502,7 +502,7 @@
                 "posts_empty_text": "投稿はありません。",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
-                "security_link": "",
+                "security_link": "=> core.ref.security",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -535,7 +535,7 @@
                 "toggle_dropdown_accessible_label": "ドロップダウンメニューの切り替え"
             },
             "data_segment": {
-                "label": ""
+                "label": "{label}:"
             },
             "edit_user": {
                 "activate_button": "ユーザーを有効化",
@@ -555,7 +555,7 @@
                 "dependent_extensions_message": "以下の依存関係にある拡張機能を無効化するまで、{extension}を無効化できません。: {extensions}",
                 "extension_initialiation_failed_message": "{extension} の初期化に失敗しました。詳細はブラウザのコンソールをご確認ください。",
                 "generic_message": "エラーが発生しました。ページを更新して再度お試しください。",
-                "generic_cross_origin_message": "",
+                "generic_cross_origin_message": "cross-originリクエスト中にエラーが発生しました。ページを更新して再度お試しください。",
                 "missing_dependencies_message": "以下の依存関係にある拡張機能を有効化するまで、{extension}を有効化できません。: {extensions}",
                 "not_found_message": "要求されたリソースが見つかりませんでした。",
                 "payload_too_large_message": "要求のデータサイズが大きすぎます。",
@@ -686,7 +686,7 @@
             "edit_user": "ユーザーの編集",
             "email": "メールアドレス",
             "extensions": "拡張機能",
-            "generic_confirmation_message": "",
+            "generic_confirmation_message": "実行してもよろしいですか？この操作は取り消すことが出来ません。",
             "icon": "アイコン",
             "icon_text": "<a>FontAwesome</a> のアイコンクラスの名前を入力してください。<code>fas fa-</code>といった接頭辞も<em>含めてください</em>。",
             "load_more": "更に読み込む",
@@ -694,7 +694,7 @@
             "log_in": "ログイン",
             "log_out": "ログアウト",
             "mark_all_as_read": "すべて既読にする",
-            "new_token": "",
+            "new_token": "新しいトークン",
             "next_page": "次のページ",
             "notifications": "通知",
             "okay": "OK",
@@ -707,8 +707,8 @@
             "reset_your_password": "パスワードの再設定",
             "restore": "復元",
             "save_changes": "変更を保存",
-            "search_users": "",
-            "security": "",
+            "search_users": "ユーザーを検索",
+            "security": "セキュリティ",
             "settings": "設定",
             "sign_up": "新規登録",
             "some_others": "{count, plural, one {他 # 人} other {他 # 人}}",
