@@ -1,9 +1,20 @@
 {
     "pay-to-see": {
+        "lib": {
+            "ok": "",
+            "confirm": "",
+            "save": "",
+            "cancel": ""
+        },
         "forum": {
+            "tag_no_permission_title": "",
+            "tag_no_permission": "",
+            "tag_has_permission": "",
             "pay_to_see_content": "Payer pour voir le contenu",
             "pay_to_see_content_label": "Payer pour voir le contenu",
             "purchased_content": "Contenu acheté",
+            "purchased_users": "",
+            "purchased_users_empty": "",
             "pay_to_see_owner_bypass": "Payer pour voir le contenu (dérogatoire pour l'auteur)",
             "pay_to_see_content_bypass": "Payer pour voir le contenu (dérogatoire avec les permissions)",
             "toolbar_tooltip": "Insérer du contenu qu'il faut payer pour voir",
@@ -11,9 +22,6 @@
             "set_pay_to_see_price_success": "Prix du contenu fixé",
             "remove_pay_to_see_price_success": "Surpression du contenu qu'il faut payer pour voir",
             "modify_pay_to_see_price": "Modifier le prix du contenu",
-            "ok": "Valider",
-            "confirm": "Confirmer",
-            "cancel": "Annuler",
             "remove": "Supprimer",
             "need_pay2see_tag": "Vous devez inclure la balise [pay][/pay] pour insérer du contenu qu'il faut payer pour voir",
             "not_support_anonymous": "Le contenu payant n'est pas pris en charge dans les messages anonymes",
@@ -25,14 +33,21 @@
             "purchase_error_not_found": "Impossible d'acheter le contenu",
             "purchase_error_insufficient_fund": "Fonds insuffisants",
             "purchase_error_no_permission": "Permission refusée",
+            "set_error_no_permission": "",
             "purchase_count": "Nombre d'achats : {count}",
             "notifications": {
                 "notification_setting_some_one_purchase_content": "Quelqu'un a acheté mon contenu",
                 "discussion_purchased": "{username} a acheté votre contenu",
                 "discussion_purchased_cost": "Vous avez reçu {cost}"
-            }
+            },
+            "ok": "Valider",
+            "confirm": "Confirmer",
+            "cancel": "Annuler"
         },
         "admin": {
+            "set_permission_tag": "",
+            "set_permission_tag_help": "",
+            "error_need_one_tag": "",
             "settings": {
                 "badge_icon": "Icône de badge",
                 "badge_icon_desc": "Entrez le nom de n'importe quelle classe d'icône FontAwesome, y compris le préfixe <code>fas fa-</code>. Laissez vide pour supprimer le badge."
@@ -40,7 +55,8 @@
             "permission": {
                 "allow_use_pay2see": "Permettre l'utilisation du contenu payant",
                 "allow_purchase_pay2see": "Permettre de payer pour voir le contenu",
-                "allow_bypass_pay2see": "Permettre des dérogations pour voir le contenu payant"
+                "allow_bypass_pay2see": "Permettre des dérogations pour voir le contenu payant",
+                "allow_set_pay2see": ""
             }
         }
     }

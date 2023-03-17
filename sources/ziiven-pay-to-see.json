@@ -1,9 +1,20 @@
 {
     "pay-to-see": {
+        "lib": {
+            "ok": "OK",
+            "confirm": "Confirm",
+            "save": "Save",
+            "cancel": "Cancel"
+        },
         "forum": {
+            "tag_no_permission_title": "Pay To See Content",
+            "tag_no_permission": "You can't use pay to see on selected tags",
+            "tag_has_permission": "Allow pay to see content",
             "pay_to_see_content": "Pay To See Content",
             "pay_to_see_content_label": "Pay To See Content",
             "purchased_content": "Purchased Content",
+            "purchased_users": "Purchased Users",
+            "purchased_users_empty": "No one purchased yet",
             "pay_to_see_owner_bypass": "Pay To See Content [Owner Bypass]",
             "pay_to_see_content_bypass": "Pay To See Content [Permission Bypass]",
             "toolbar_tooltip": "Insert pay to see content",
@@ -11,9 +22,6 @@
             "set_pay_to_see_price_success": "Content Price Set",
             "remove_pay_to_see_price_success": "Pay To See Content Removed",
             "modify_pay_to_see_price": "Modify Content Price",
-            "ok": "OK",
-            "confirm": "Confirm",
-            "cancel": "Cancel",
             "remove": "Remove",
             "need_pay2see_tag": "You need include [pay][/pay] tag for pay to see content",
             "not_support_anonymous": "Pay to see content is not support in anonymous post",
@@ -25,6 +33,7 @@
             "purchase_error_not_found": "Cannot Purchase Content",
             "purchase_error_insufficient_fund": "Insufficient Fund",
             "purchase_error_no_permission": "Permission Denied",
+            "set_error_no_permission": "You don't have permission to use pay to see content",
             "purchase_count": "Purchase Count: {count}",
             "notifications": {
                 "notification_setting_some_one_purchase_content": "Some one purchased my content",
@@ -33,6 +42,9 @@
             }
         },
         "admin": {
+            "set_permission_tag": "Tags Permission Setting",
+            "set_permission_tag_help": "When a user starting a discussion, he can use P2S by selecting any tag that has permission",
+            "error_need_one_tag": "Please select at least one tag",
             "settings": {
                 "badge_icon": "Badge icon",
                 "badge_icon_desc": "Enter the name of any FontAwesome icon class, including the <code>fas fa-</code> prefix. Leave empty to remove badge."
@@ -40,7 +52,8 @@
             "permission": {
                 "allow_use_pay2see": "Allow use pay to see",
                 "allow_purchase_pay2see": "Allow purchase pay to see content",
-                "allow_bypass_pay2see": "Allow bypass to see pay to see content"
+                "allow_bypass_pay2see": "Allow bypass to see pay to see content",
+                "allow_set_pay2see": "Allow set pay to see for other user's discussion"
             }
         }
     }
