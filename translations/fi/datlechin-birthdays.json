@@ -2,54 +2,54 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": "",
-                "view_birthday_label": ""
+                "edit_own_birthday_label": "Muokkaa omaa syntymäpäivää",
+                "view_birthday_label": "Näytä syntymäpäivä"
             },
             "settings": {
-                "set_on_registration_label": "",
-                "required_label": "",
-                "required_help": "",
-                "min_age_label": "",
-                "min_age_help": "",
-                "date_format_label": "",
-                "date_format_help": "",
-                "date_none_year_label": ""
+                "set_on_registration_label": "Salli syntymäpäivän asetus rekisteröityessä",
+                "required_label": "Syntymäpäivä on pakollinen",
+                "required_help": "Sinun täytyy sallia syntymäpäivän asetus rekisteröityessä, jotta tämä asetus toimii",
+                "min_age_label": "Minimi ikä",
+                "min_age_help": "Minimi ikä rekisteröitymiseen",
+                "date_format_label": "Ajan muoto",
+                "date_format_help": "Käytä <a>dayjs</a> ajan muotoa. Jätä tyhjäksi käyttääksesi oletusta.",
+                "date_none_year_label": "Ajan muoto ilman vuotta"
             }
         },
         "forum": {
             "user": {
-                "birthday_text": "",
-                "age_text": ""
+                "birthday_text": "Syntymäpäivä: {date}",
+                "age_text": "Ikä: {age}"
             },
             "header": {
-                "edit_dob_button": ""
+                "edit_dob_button": "Muokkaa syntymäpäivää"
             },
             "change_dob": {
-                "title": "",
-                "date_of_birth_text": "",
-                "submit_button": ""
+                "title": "Muokkaa syntymäpäivää",
+                "date_of_birth_text": "Syntymäpäivä",
+                "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
-                "change_dob_label": "",
-                "dob_heading": "",
-                "show_dob_date_label": "",
-                "show_dob_year_label": "",
-                "show_dob_year_help": ""
+                "change_dob_label": "Muuta syntymäpäivä",
+                "dob_heading": "Syntymäpäivä",
+                "show_dob_date_label": "Näytä päivä ja kuukausi",
+                "show_dob_year_label": "Näytä syntymävuosi",
+                "show_dob_year_help": "Tämä näyttää sinun iän muille."
             },
             "edit_user": {
-                "dob_heading": ""
+                "dob_heading": "Syntymäpäivä"
             },
             "nav": {
-                "nav_item": ""
+                "nav_item": "Syntymäpäivät tänään"
             },
             "page": {
-                "discussion_count": "",
-                "post_count": ""
+                "discussion_count": "{count, plural, one {Keskustelu: #} other {Keskustelua: #}}",
+                "post_count": "{count, plural, one {Viesti: #} other {Viestiä: #}}"
             }
         },
         "api": {
-            "invalid_dob_message": "",
-            "invalid_age_message": ""
+            "invalid_dob_message": "Virheellinen syntymäpäivä",
+            "invalid_age_message": "Sinun täytyy olla vähintään {minAge} vuotta vanha."
         }
     }
 }
