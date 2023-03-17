@@ -2,25 +2,25 @@
     "club-1-cross-references": {
         "admin": {
             "show_discussion_id": {
-                "label": "",
-                "help": ""
+                "label": "Näytä keskustelun ID",
+                "help": "Lisää keskustelun ID numeron jokaiseen näytettävään keskusteluun."
             },
             "enable_short_references": {
-                "label": "",
-                "help": ""
+                "label": "Ota käyttöön lyhyet viittaukset",
+                "help": "Muuttaa #<ID> tekstin viesteissä (esim. #42) linkiksi kyseiseen keskusteluun."
             },
             "retrofit_links_in_frontend": {
-                "label": "",
-                "help": ""
+                "label": "Muunna linkit sopivaksi",
+                "help": "Näyttää keskustelujen otsikot linkeissä viesteissä, jotka on lähetetty, kun tämä lisäosa ei ole käytössä. Tämä on tehty julkisella puolella joten se voi aiheuttaa huonoa käytettävyyttä ja hidastelua.\n"
             }
         },
         "forum": {
             "post_stream": {
-                "discussion_referenced_text": "",
-                "discussion_referenced_multiple_text": ""
+                "discussion_referenced_text": "{username} viittasi tähän keskusteluun keskustelussa {source}",
+                "discussion_referenced_multiple_text": "{username} viittasi tähän keskusteluun useassa keskustelussa: {sources}"
             },
-            "unknown_discussion": "",
-            "comment": ""
+            "unknown_discussion": "[tuntematon keskustelu]",
+            "comment": "kommentti"
         }
     }
 }
