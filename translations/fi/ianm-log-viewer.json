@@ -2,18 +2,18 @@
     "ianm-log-viewer": {
         "admin": {
             "permissions": {
-                "access_logfile_api": ""
+                "access_logfile_api": "Pääsy lokitiedoston tietoihin rajapinnan kautta"
             },
             "settings": {
-                "purge-days": "",
-                "purge-days-help": ""
+                "purge-days": "Tyhjennä lokitiedostot jälkeen päivien",
+                "purge-days-help": "Tarvitsee Flarumin oman ajastuksen toiminnan. 0 ottaa pois käytöstä."
             },
             "viewer": {
-                "available_logs_heading": "",
-                "file_contents_heading": "",
-                "file_size": "",
-                "last_updated": "",
-                "no_file_selected": ""
+                "available_logs_heading": "Saatavilla olevat tiedostot",
+                "file_contents_heading": "Tiedoston sisältö",
+                "file_size": "Koko (bittiä): {size}",
+                "last_updated": "Viimeksi päivitetty: {updated}",
+                "no_file_selected": "Valitse lokitiedosto nähdäksesi sen sisältö."
             }
         }
     }
