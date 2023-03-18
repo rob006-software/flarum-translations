@@ -2,37 +2,37 @@
     "clarkwinkelmann-shadow-ban": {
         "admin": {
             "setting": {
-                "hideUsers": ""
+                "hideUsers": "Piilota varjoestettyjen käyttäjien profiilit"
             },
             "permission": {
-                "ban": "",
-                "hide": ""
+                "ban": "Näytä varjoestetyt käyttäjät",
+                "hide": "Varjo piilota keskusteluja ja viestejä"
             }
         },
         "forum": {
             "discussionControl": {
-                "hide": "",
-                "restore": ""
+                "hide": "Varjopiilota",
+                "restore": "Varjopiilotuksen poisto"
             },
             "postControl": {
-                "hide": "",
-                "restore": ""
+                "hide": "Varjopiilotus",
+                "restore": "Varjopiilotuksen palautus"
             },
             "userControl": {
-                "ban": ""
+                "ban": "Varjoesto"
             },
             "banUser": {
-                "title": "",
-                "until": "",
-                "quick": "",
-                "quickChoiceReset": "",
-                "quickChoiceDays": "",
-                "submit": ""
+                "title": "Estä {username}",
+                "until": "Päivään saakka (UTC)",
+                "quick": "Pikavalinnat",
+                "quickChoiceReset": "Ei estetty",
+                "quickChoiceDays": "{count, plural, one {# päivä} other {# päivää}}",
+                "submit": "Tallenna"
             },
             "badge": {
-                "user": "",
-                "discussion": "",
-                "post": ""
+                "user": "Varjoestetyt",
+                "discussion": "Varjopiilotetut",
+                "post": "Varjopiilotettu"
             }
         }
     }
