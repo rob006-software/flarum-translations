@@ -3,16 +3,16 @@
         "forum": {
             "user": {
                 "viewlist": {
-                    "title": "",
-                    "guest": ""
+                    "title": "Viimeisimmät vierailijat",
+                    "guest": "Vieras"
                 },
-                "view_count_text": ""
+                "view_count_text": "{viewcount, plural, one {katsottu {viewcount} kerran} other {katsottu {viewcount} kertaa}}"
             }
         },
         "admin": {
             "settings": {
-                "track_guests_label": "",
-                "max_viewcount_label": ""
+                "track_guests_label": "Seuraa vieraita",
+                "max_viewcount_label": "Vieraslistan enimmäismäärä"
             }
         }
     }
