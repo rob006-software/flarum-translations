@@ -2,61 +2,61 @@
     "sycho-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content": "Зміст переміщеної дискусії (перший допис)",
+                "moved_first_post_content_help": "Якщо ви маєте обговорення з одним дописом, переміщення цього допису призведе до того, що перший допис початкового обговорення буде відредаговано так, щоб він вказував на нове обговорення. Ви можете відредагувати вміст цього допису тут.\n",
+                "group_sequential_posts": "Група послідовних постів об'єднала пости про події в один."
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Перенесено"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": ""
+                "move_old_post_to_newer_discussion": "=> sycho-move-posts.ref.status.old_to_new_move"
             },
             "modal": {
-                "check": "",
-                "destination": "",
-                "discussion_help": "",
-                "discussion_name": "",
-                "new_discussion": "",
-                "selected_posts": "",
+                "check": "Перевірити тип операції",
+                "destination": "Місце призначення дискусії",
+                "discussion_help": "Будуть використані теги обговорення джерела, які можна змінити після створення.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Нова дискусія",
+                "selected_posts": "{count, plural, one {Обрано 1 допис} other {Обрано {count} дописів}}",
                 "status": {
-                    "complex_move": "",
-                    "old_to_new_move": "",
-                    "simple_move": ""
+                    "complex_move": "Це буде складний перехід, дописи будуть переміщуватися між дописами, що призведе до того, що старі URL-адреси дописів цільової дискусії також зміняться.",
+                    "old_to_new_move": "=> sycho-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Це буде простий хід, всі дописи будуть додані в кінці обговорення."
                 },
-                "submit": "",
-                "title": ""
+                "submit": "Продовжуйте",
+                "title": "=> sycho-move-posts.ref.move_posts"
             },
             "notifications": {
-                "post_moved_text": ""
+                "post_moved_text": "Один або декілька ваших дописів було переміщено до {targetDiscussionTitle}."
             },
             "post": {
-                "unmove": "",
-                "move": "",
-                "moving": ""
+                "unmove": "Зніміть виділення, щоб перемістити",
+                "move": "Оберіть, щоб перемістити",
+                "moving": "Переміщення посту"
             },
             "post_stream": {
-                "post_moved": ""
+                "post_moved": "{count, plural, one {{username} переніс допис до {target_discussion}.} other {{username} переніс {count} дописи до {target_discussion}.}}"
             }
         },
         "ref": {
-            "move_posts": "",
+            "move_posts": "Перенести дописи",
             "status": {
-                "old_to_new_move": ""
+                "old_to_new_move": "Неможливо перемістити старе повідомлення до нової дискусії."
             }
         },
         "lib": {
             "discussion": {
                 "first_post": {
-                    "default_content": ""
+                    "default_content": "*Цей допис було перенесено до **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
                 }
             }
         }
