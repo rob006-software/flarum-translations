@@ -2,30 +2,30 @@
     "antoinefr-money": {
         "admin": {
             "settings": {
-                "title": "Баптаулар",
-                "moneyforpost": "Жаңа хабарлама үшін ақша алынды",
-                "moneyfordiscussion": "Жаңа талқылау үшін алынған ақша",
-                "moneyname": "Ақшалардың атауы (мысалы: [money] ұпайлары)",
-                "postminimumlength": "Ақшаларды алу үшін ең аз хабарлама ұзындығы (0 - өшіру)",
-                "noshowzero": "Мән нөлге тең болса, көрсетпеңіз",
-                "moneyforlike": "Пост ұнаған кезде берілетін ақша",
-                "helpextensionlikes": "<code>flarum/likes</code> кеңейтімі қажет"
+                "title": "Teñşeu",
+                "moneyforpost": "Jaña habarlama üşın moneta alyndy",
+                "moneyfordiscussion": "Jaña talqylau üşın alynğan monetalar",
+                "moneyname": "Monetalardyñ atauy (mysaly: [money] ūpailary)",
+                "postminimumlength": "Monetalardy alu üşın eñ az habarlama ūzyndyğy (0 - öşıru)",
+                "noshowzero": "Män nölge teñ bolsa, körsetpeñız",
+                "moneyforlike": "Habarlama maqūldanğan jağdaida monetalar alyndy",
+                "helpextensionlikes": "<code>flarum/likes</code> keñeitımı qajet"
             },
             "permissions": {
-                "edit_money_label": "Ақшаны өңдеу"
+                "edit_money_label": "Монеталарды өңдеу"
             },
             "automoderator": {
-                "metric_name": "Ақша",
-                "action_name": "Ақшаны бер"
+                "metric_name": "Monetalar",
+                "action_name": "Monetany berıñız"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": "Ақшаны өңдеу"
+                "money_button": "Monetany öñdeu"
             },
             "modal": {
-                "title": "{username} ақшасы",
-                "current": "Ағымдағы:",
+                "title": "{username} monetasy",
+                "current": "Ağymdağy:",
                 "submit_button": "=> core.ref.save_changes"
             }
         }
