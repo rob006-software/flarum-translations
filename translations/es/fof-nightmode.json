@@ -8,7 +8,7 @@
         "admin": {
             "settings": {
                 "modal": {
-                    "always_show_theme_toggle_on_header": "",
+                    "always_show_theme_toggle_on_header": "Mostrar siempre el botón de cambio de tema en el encabezado del foro",
                     "default_theme": "Tema por defecto del foro",
                     "default_theme_helper": "El tema por defecto se activa de manera automática para los usuarios nuevos, visitas y quienes aún no configuran sus preferencias.",
                     "theme_auto": "=> fof-nightmode.ref.auto",
@@ -21,7 +21,7 @@
             "day": "=> fof-nightmode.ref.light",
             "night": "=> fof-nightmode.ref.dark",
             "header": {
-                "nightmode_button": ""
+                "nightmode_button": "Cambiar tema del foro"
             },
             "user": {
                 "settings": {
@@ -30,7 +30,7 @@
                     "description2": "Este tema será vinculado a tu cuenta y se aplicará a todos los dispositivos a menos de que cambies la opción a continuación.",
                     "device_specific_setting_checkbox": "Configuración por dispositivo",
                     "device_specific_setting_checkbox_tooltip": "El tema seleccionado será activado de manera individual para cada dispositivo.",
-                    "auto_unsupported": "",
+                    "auto_unsupported": "Tu navegador no es compatible con el modo oscuro automático.",
                     "options": {
                         "auto": "=> fof-nightmode.ref.auto",
                         "day": "=> fof-nightmode.ref.light",
