@@ -830,6 +830,9 @@ return [
 	'justoverclock-infocards' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-infocards/0.1.5/resources/locale/en.yml',
 	],
+	'justoverclock-job-cards' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/justoverclock-job-cards.yml',
+	],
 	'justoverclock-keywords' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-keywords/1.9.4/resources/locale/en.yml',
 	],
