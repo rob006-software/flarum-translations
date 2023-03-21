@@ -2,22 +2,22 @@
     "clarkwinkelmann-post-stream-search": {
         "admin": {
             "settings": {
-                "dropdownAccess": "",
-                "dropdownAccessHelp": "",
-                "authorQuickFilter": "",
-                "authorQuickFilterHelp": "",
-                "originalPosterBadge": "",
-                "originalPosterBadgeHelp": ""
+                "dropdownAccess": "Доступ через випадаюче вікно обговорення",
+                "dropdownAccessHelp": "Якщо вимкнено, панель інструментів буде доступна лише за допомогою комбінації клавіш або з інших увімкнених комбінацій нижче.",
+                "authorQuickFilter": "Швидкий фільтр для автора допису",
+                "authorQuickFilterHelp": "До кожного випадаючого списку дописів буде додано ярлик для фільтрування за цим користувачем.",
+                "originalPosterBadge": "Показати інтерактивний бейдж",
+                "originalPosterBadgeHelp": "Поруч з дописами буде додано бейдж. Натиснувши на нього, ви автоматично застосуєте фільтр для цього користувача."
             }
         },
         "forum": {
             "stream": {
-                "noResults": "",
-                "unmatchedGap": "",
+                "noResults": "У цій дискусії немає повідомлень, що відповідають пошуковому запиту",
+                "unmatchedGap": "{count, plural, one {Приховано один допис, який не збігається} other {Приховано {count} постів, які не збігаються}}",
                 "otherAuthorsGap": ""
             },
             "toolbar": {
-                "searchPlaceholder": "",
+                "searchPlaceholder": "Знайти в обговоренні...",
                 "authorPlaceholder": "",
                 "summary": "",
                 "pin": "",
@@ -36,7 +36,7 @@
             },
             "cannotGoToPost": {
                 "message": "",
-                "action": ""
+                "action": "Спробуйте очистити фільтри"
             }
         }
     }
