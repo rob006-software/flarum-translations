@@ -2,87 +2,87 @@
     "askvortsov-auto-moderator": {
         "admin": {
             "action_drivers": {
-                "activate_email": "",
-                "add_to_group": "",
-                "remove_from_group": "",
-                "suspend": "",
-                "unsuspend": ""
+                "activate_email": "Aktivoi sähköposti",
+                "add_to_group": "Lisää ryhmään",
+                "remove_from_group": "Poista ryhmästä",
+                "suspend": "Estä",
+                "unsuspend": "Poista esto"
             },
             "metric_drivers": {
-                "discussions_entered": "",
-                "discussions_participated": "",
-                "discussions_started": "",
-                "posts_made": "",
-                "likes_given": "",
-                "likes_received": "",
-                "best_answers": "",
-                "moderator_strikes": ""
+                "discussions_entered": "Keskusteluihin siirrytty",
+                "discussions_participated": "Keskusteluihin osallistuttu",
+                "discussions_started": "Keskusteluita aloitettu",
+                "posts_made": "Viestiä tehty",
+                "likes_given": "Tykkäyksiä annettu",
+                "likes_received": "Tykkäyksiä saatu",
+                "best_answers": "Parhaita vastauksia",
+                "moderator_strikes": "Moderaattorin varoituksia"
             },
             "requirement_drivers": {
-                "email_confirmed": "",
-                "in_group": "",
-                "suspended": "",
-                "email_matches_regex": ""
+                "email_confirmed": "Sähköposti vahvistettu",
+                "in_group": "Ryhmässä",
+                "suspended": "Estetty",
+                "email_matches_regex": "Sähköposti vastaa säännöllistä lauseketta (Regex)"
             },
             "in_group_settings": {
-                "regex": ""
+                "regex": "Sallittujen sähköpostien säännöllinen lauseke (ei kauttaviivoja)"
             },
             "group_selector": {
-                "placeholder": ""
+                "placeholder": "Valitse ryhmä"
             },
             "suspend_selector": {
-                "days": "",
-                "indefinitely": ""
+                "days": "Päivää estettynä",
+                "indefinitely": "Estä pysyvästi?"
             },
             "criterion_status": {
-                "heading": "",
-                "invalid": "",
-                "no_actions": "",
-                "no_metrics_or_reqs": "",
-                "valid": "",
-                "action_validation_errors": "",
-                "requirement_validation_errors": ""
+                "heading": "Tarkasta tila",
+                "invalid": "Kriteeri on virheellinen. Tarkista alla olevat ajurit virheiden varalta.",
+                "no_actions": "Kriteerille ei ole toimintoja. Mitään ei tapahdu, kun käyttäjä laukaisee kriteerin.",
+                "no_metrics_or_reqs": "Tälle kriteerille ei ole vaatimuksia. Tämä tarkoittaa sitä, että KAIKKI käyttäjät laukaisee tämän kriteerin.",
+                "valid": "Kriteeri on oikeellinen!",
+                "action_validation_errors": "Seuraavat toiminto ajurien virheet tulivat vastaan:",
+                "requirement_validation_errors": "Seuraavat vaatimus ajurien virheet tulivat vastaan:"
             },
             "criterion_page": {
-                "driver_missing_ext": "",
-                "back": "",
-                "name_label": "",
-                "icon_label": "",
-                "description_label": "",
-                "new_criterion": "",
-                "negated": "",
-                "loading": "",
-                "delete_button": "",
-                "metrics_and_requirements_label": "",
-                "metrics_and_requirements_help": "",
-                "metrics_heading": "",
-                "requirements_heading": "",
-                "add_metric": "",
-                "actions_label": "",
-                "actions_help": "",
-                "actions_on_gain_heading": "",
-                "actions_on_loss_heading": "",
-                "add_action": ""
+                "driver_missing_ext": "Ajuri vaatii lisäosan, jota ei ole käytössä.",
+                "back": "Takaisin kriteerien listaan",
+                "name_label": "Nimi",
+                "icon_label": "Ikoni",
+                "description_label": "Kuvaus",
+                "new_criterion": "Luo kriteeri",
+                "negated": "Negatoitu?",
+                "loading": "=> core.ref.loading",
+                "delete_button": "=> core.ref.delete",
+                "metrics_and_requirements_label": "Metriikat ja vaatimukset",
+                "metrics_and_requirements_help": "Nämä määrittävät laukaiseeko käyttäjä kriteerin? Metriikat edustavat arvojen raja-arvoja ja vaatimukset ovat tosi/epätosi tiloja.",
+                "metrics_heading": "Metriikat",
+                "requirements_heading": "Vaatimukset",
+                "add_metric": "Lisää metriikka",
+                "actions_label": "Toiminnot",
+                "actions_help": "Toiminnot saavutuksissa suoritetaan kun käyttäjä saavuttaa uuden kriteerin. Toiminnon menetyksestä suoritetaan, kun käyttäjä ei enää täytä kriteerin vaatimuksia.",
+                "actions_on_gain_heading": "Toiminnot saavutuksessa",
+                "actions_on_loss_heading": "Toiminnot menetyksessä",
+                "add_action": "Lisää toiminto"
             },
             "undefined_driver_item": {
-                "text": ""
+                "text": "VIRHE! Ajuri <strong>{driverName}</strong> ei ole määritettynä . Todennäköisesti se lisättiin lisäosan toimesta, joka ei ole tällä hetkellä käytössä. Sinun täytyy ottaa lisäosa uudelleen käyttöön tai poistaa ajuri, jotta tämä kriteeri on oikeellinen."
             },
             "automoderator_page": {
-                "criterion_invalid": "",
-                "list_heading": "",
-                "create_criterion_button": ""
+                "criterion_invalid": "Kriteeri ei ole oikeellinen. Tarkista sen asetukset",
+                "list_heading": "Kriteeri",
+                "create_criterion_button": "Luo uusi kriteeri"
             },
             "automoderator_instructions": {
-                "header": "",
+                "header": "Lisäosan ohjeet",
                 "text": ""
             }
         },
         "lib": {
-            "group_id": "",
+            "group_id": "Ryhmän ID",
             "managed_groups": {
-                "header": "",
-                "group_item": "",
-                "groups_not_editable": ""
+                "header": "Hallitse ryhmiä:",
+                "group_item": "<badge></badge> {groupName}",
+                "groups_not_editable": "Automaattisen moderaattorin hallitsemia ryhmiä ei voi lisätä/poistaa käyttäjiltä käsin, jotta ei tule epäjohdonmukaisuuksia."
             }
         }
     }
