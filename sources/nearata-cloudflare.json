@@ -1,0 +1,35 @@
+{
+    "nearata-cloudflare": {
+        "admin": {
+            "development_mode_widget": {
+                "title": "Cloudflare Development Mode active"
+            },
+            "settings": {
+                "api_key": "API Key",
+                "api_key_help": "Follow the guide <strong><url>Creating API Tokens</url></strong> to create an API Token.",
+                "refresh_zone_button_label": "Refresh Zone ID",
+                "refresh_zone_help": "Click the above button <strong>only</strong> if the domain name has changed.",
+                "security_level_label": "Security Level",
+                "security_level_options": {
+                    "off": "Off",
+                    "essentially_off": "Essentially Off",
+                    "low": "Low",
+                    "medium": "Medium",
+                    "high": "High",
+                    "under_attack": "Under Attack"
+                },
+                "minify_setting": {
+                    "section_title": "Minify Setting",
+                    "css": "Minify CSS",
+                    "css_help": "Automatically minify all CSS files for your website.",
+                    "html": "Minify HTML",
+                    "html_help": "Automatically minify all HTML files for your website.",
+                    "js": "Minify JS",
+                    "js_help": "Automatically minify all JavaScript files for your website."
+                },
+                "refer_to": "Refer to <strong><url>this page</url></strong> for more information.",
+                "confirm_text": "Are you sure?"
+            }
+        }
+    }
+}
