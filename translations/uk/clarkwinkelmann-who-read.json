@@ -2,26 +2,26 @@
     "clarkwinkelmann-who-read": {
         "forum": {
             "tooltip": {
-                "last-read-at": "",
-                "last-read-at-behind": "",
-                "last-read-at-up-to-date": ""
+                "last-read-at": "{username} прочитав {ago}",
+                "last-read-at-behind": "{username} в останнє прочитав {ago} і знаходиться позаду",
+                "last-read-at-up-to-date": "{username} прочитав останній допис {ago}"
             },
             "more": {
-                "show": "",
-                "info": ""
+                "show": "Показати {count} більше",
+                "info": "І {count} більше"
             },
             "footer": {
-                "read-this-post": "",
+                "read-this-post": "{count, plural, =0 {Ніхто не прочитав допис} one {Один користувач прочитав допис} other {# користувачів прочитали допис}}",
                 "read-no-further": "",
                 "read-to-end": ""
             },
             "controls": {
-                "set-unread": "",
+                "set-unread": "Позначити як непрочитане",
                 "remove-unread": ""
             },
             "badges": {
-                "following": "",
-                "ignoring": "",
+                "following": "=> flarum-subscriptions.forum.badge.following_tooltip",
+                "ignoring": "=> flarum-subscriptions.forum.badge.ignoring_tooltip",
                 "unread": ""
             },
             "modal": {
