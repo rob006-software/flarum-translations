@@ -757,6 +757,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`miniflar-top-like-givers-widget`](https://weblate.rob006.net/projects/flarum/miniflar-top-like-givers-widget) | [`miniflar/top-like-givers-widget`](https://github.com/miniflar/top-like-givers-widget) |
 | [`nearata-auth-minecraft`](https://weblate.rob006.net/projects/flarum/nearata-auth-minecraft) | [`nearata/flarum-ext-auth-minecraft`](https://github.com/Nearata/flarum-ext-auth-minecraft) |
 | [`nearata-cakeday`](https://weblate.rob006.net/projects/flarum/nearata-cakeday) | [`nearata/flarum-ext-cakeday`](https://github.com/Nearata/flarum-ext-cakeday) |
+| [`nearata-cloudflare`](https://weblate.rob006.net/projects/flarum/nearata-cloudflare) | [`nearata/flarum-ext-cloudflare`](https://github.com/Nearata/flarum-ext-cloudflare) |
 | [`nearata-copy-code-to-clipboard`](https://weblate.rob006.net/projects/flarum/nearata-copy-code-to-clipboard) | [`nearata/flarum-ext-copy-code-to-clipboard`](https://github.com/Nearata/flarum-ext-copy-code-to-clipboard) |
 | [`nearata-dsts`](https://weblate.rob006.net/projects/flarum/nearata-dsts) | [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts) |
 | [`nearata-embed-twitch`](https://weblate.rob006.net/projects/flarum/nearata-embed-twitch) | [`nearata/flarum-ext-embed-twitch`](https://github.com/Nearata/flarum-ext-embed-twitch) |
