@@ -14,28 +14,28 @@
             "stream": {
                 "noResults": "У цій дискусії немає повідомлень, що відповідають пошуковому запиту",
                 "unmatchedGap": "{count, plural, one {Приховано один допис, який не збігається} other {Приховано {count} постів, які не збігаються}}",
-                "otherAuthorsGap": ""
+                "otherAuthorsGap": "{count, plural, one {Один допис іншого автора приховано} other {{count} дописи іншого автора приховано}}"
             },
             "toolbar": {
                 "searchPlaceholder": "Знайти в обговоренні...",
-                "authorPlaceholder": "",
-                "summary": "",
-                "pin": "",
-                "close": "",
-                "clear": ""
+                "authorPlaceholder": "Фільтрувати по автору...",
+                "summary": "{matching} від {total} співпадіння",
+                "pin": "Завжди відкрита панель інструментів фільтрації в дискусіях",
+                "close": "Очистити фільтри та закрити панель інструментів",
+                "clear": "Очистити фільтри"
             },
             "discussionControls": {
-                "searchInDiscussion": ""
+                "searchInDiscussion": "Пошук в дискусії"
             },
             "postControls": {
-                "authorFilter": ""
+                "authorFilter": "Показувати тільки відповіді цього автора"
             },
             "post": {
-                "opBadge": "",
-                "opBadgeTooltip": ""
+                "opBadge": "Початок дискусії",
+                "opBadgeTooltip": "Натисніть, щоб показати лише відповіді цього користувача"
             },
             "cannotGoToPost": {
-                "message": "",
+                "message": "Не вдається відправити повідомлення",
                 "action": "Спробуйте очистити фільтри"
             }
         }
