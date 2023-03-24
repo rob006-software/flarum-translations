@@ -2,33 +2,33 @@
     "nearata-cloudflare": {
         "admin": {
             "development_mode_widget": {
-                "title": ""
+                "title": "Cloudflare Geliştirici Modu etkin"
             },
             "settings": {
-                "api_key": "",
-                "api_key_help": "",
-                "refresh_zone_button_label": "",
-                "refresh_zone_help": "",
-                "security_level_label": "",
+                "api_key": "API Anahtarı",
+                "api_key_help": "Bir API Token oluşturmak için <strong><url>API Token Oluşturma</url></strong> kılavuzunu izleyin.",
+                "refresh_zone_button_label": "Zone ID Yenile",
+                "refresh_zone_help": "Yukarıdaki düğmeye <strong>yalnızca</strong> alan adı değiştiyse tıklayın.",
+                "security_level_label": "Güvenlik Seviyesi",
                 "security_level_options": {
-                    "off": "",
-                    "essentially_off": "",
-                    "low": "",
-                    "medium": "",
-                    "high": "",
-                    "under_attack": ""
+                    "off": "Kapalı",
+                    "essentially_off": "Temelde Kapalı",
+                    "low": "Düşük",
+                    "medium": "Orta",
+                    "high": "Yüksek",
+                    "under_attack": "Saldırı Altında"
                 },
                 "minify_setting": {
-                    "section_title": "",
-                    "css": "",
-                    "css_help": "",
-                    "html": "",
-                    "html_help": "",
-                    "js": "",
-                    "js_help": ""
+                    "section_title": "Ayarı Küçült",
+                    "css": "CSS'leri Küçült",
+                    "css_help": "Web siteniz için tüm CSS dosyalarını otomatik olarak küçültün.",
+                    "html": "HTML Küçült",
+                    "html_help": "Web siteniz için tüm HTML dosyalarını otomatik olarak küçültün.",
+                    "js": "JavaScript Küçült",
+                    "js_help": "Web siteniz için tüm JavaScript dosyalarını otomatik olarak küçültün."
                 },
-                "refer_to": "",
-                "confirm_text": ""
+                "refer_to": "Daha fazla bilgi için <strong><url>bu sayfaya</url></strong> bakın.",
+                "confirm_text": "Emin misin?"
             }
         }
     }
