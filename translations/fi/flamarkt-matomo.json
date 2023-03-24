@@ -2,13 +2,13 @@
     "flamarkt-matomo": {
         "admin": {
             "settings": {
-                "url": "",
-                "siteId": "",
-                "trackAccounts": "",
+                "url": "Matomo palvelimen domain tai osoite",
+                "siteId": "Sivun ID",
+                "trackAccounts": "Seuraa yksittäisiä käyttäjätilejä",
                 "trackAccountsOptions": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "Älä seuraa",
+                    "username": "Seuraa käyttäjätunnuksen mukaan",
+                    "email": "Seuraa sähköpostin mukaan"
                 }
             }
         }
