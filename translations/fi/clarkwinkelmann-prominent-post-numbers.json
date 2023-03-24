@@ -2,13 +2,13 @@
     "clarkwinkelmann-prominent-post-numbers": {
         "admin": {
             "settings": {
-                "floating": "",
-                "prefix": "",
-                "prefixPlaceholder": ""
+                "floating": "\"Leijuva\" viestin numero viestin oikeassa ylänurkassa",
+                "prefix": "Etuliite",
+                "prefixPlaceholder": "Jätä tyhjäksi, jos määrität sen kääntäjän avulla"
             }
         },
         "views": {
-            "format": ""
+            "format": "{number}"
         }
     }
 }
