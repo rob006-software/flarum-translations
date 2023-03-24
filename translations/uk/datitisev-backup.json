@@ -2,104 +2,104 @@
     "datitisev-backup": {
         "admin": {
             "adapters": {
-                "local": "",
-                "aliyun": "",
-                "azure": "",
-                "aws": "",
-                "dospaces": "",
-                "dropbox": "",
-                "gdrive": "",
-                "ftp": "",
-                "gridfs": "",
-                "rackspace": "",
-                "sftp": "",
-                "webdav": "",
-                "zip": ""
+                "local": "Локальне сховище",
+                "aliyun": "Alibaba Cloud (Aliyun)",
+                "azure": "Microsoft Azure",
+                "aws": "Amazon AWS S3",
+                "dospaces": "Digital Ocean Spaces",
+                "dropbox": "Dropbox",
+                "gdrive": "Google Drive",
+                "ftp": "FTP",
+                "gridfs": "GridFS",
+                "rackspace": "Rackspace",
+                "sftp": "SFTP",
+                "webdav": "Webdav",
+                "zip": "Архів Zip"
             },
-            "settings_button": "",
-            "required_package_button": "",
+            "settings_button": "Конфігурація",
+            "required_package_button": "Налаштування",
             "you-need-for": {
-                "aliyun": "",
-                "azure": "",
-                "aws": "",
-                "copy": "",
-                "dospaces": "",
-                "dropbox": "",
-                "gdrive": "",
-                "gridfs": "",
-                "rackspace": "",
-                "sftp": "",
-                "webdav": ""
+                "aliyun": "aliyuncs/aliyun-oss-flysystem",
+                "azure": "league/flysystem-azure",
+                "aws": "league/flysystem-aws-s3-v3",
+                "copy": "league/flysystem-copy",
+                "dospaces": "league/flysystem-aws-s3-v3",
+                "dropbox": "spatie/flysystem-dropbox",
+                "gdrive": "nao-pon/flysystem-google-drive",
+                "gridfs": "league/flysystem-gridfs",
+                "rackspace": "league/flysystem-rackspace",
+                "sftp": "league/flysystem-sftp",
+                "webdav": "league/flysystem-webdav"
             },
             "required-package-modal": {
-                "title": "",
-                "content": ""
+                "title": "Для {adapter} потрібен пакет",
+                "content": "Для використання цього драйвера вам потрібно встановити спеціальний пакет. Ви можете зробити це, виконавши наступну команду composer: <code>composer require {package}</code> у вашому каталозі встановлення Flarum.\n"
             },
             "adapter-settings-modal": {
-                "title": "",
+                "title": "Конфігурація {adapter}",
                 "local": {
                     "target": {
-                        "label": "",
-                        "description": ""
+                        "label": "Цільовий шлях",
+                        "description": "Вкажіть локальний каталог для збереження резервних копій."
                     }
                 },
                 "aliyun": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Кінцева точка",
+                        "description": "URL-адреса кінцевої точки вашого сховища."
                     },
                     "access-id": {
-                        "label": "",
-                        "description": ""
+                        "label": "Access ID",
+                        "description": "Ваша автентифікація ID токену доступу"
                     },
                     "access-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Access Key",
+                        "description": "Ваша автентифікація Ключ токену доступу"
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Bucket",
+                        "description": "Для використання"
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Префікс шляху",
+                        "description": "Необов'язковий префікс шляху за замовчуванням для файлів."
                     }
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Кінцева точка",
+                        "description": "URL-адреса кінцевої точки вашого сховища."
                     },
                     "container": {
-                        "label": "",
-                        "description": ""
+                        "label": "Container",
+                        "description": "Azure container"
                     }
                 },
                 "aws": {
                     "credentials": {
                         "key": {
-                            "label": "",
-                            "description": ""
+                            "label": "Ключ",
+                            "description": "AWS credentials key"
                         },
                         "secret": {
-                            "label": "",
-                            "description": ""
+                            "label": "Secret",
+                            "description": "AWS credentials secret"
                         }
                     },
                     "region": {
-                        "label": "",
-                        "description": ""
+                        "label": "Регіон",
+                        "description": "Регіон для bucket."
                     },
                     "version": {
-                        "label": "",
-                        "description": ""
+                        "label": "Версія",
+                        "description": "Вкажіть версію або залиште порожнім для останньої."
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Bucket",
+                        "description": "S3 bucket для завантаження."
                     },
                     "path-prefix": {
-                        "label": "",
+                        "label": "Префікс шляху",
                         "description": ""
                     }
                 },
