@@ -1,16 +1,16 @@
 {
     "justoverclock-theaudiodb-api": {
         "admin": {
-            "langcode": "",
-            "langcode-help": "",
-            "apiKey": "",
-            "apiKeyHelp": ""
+            "langcode": "Kielikoodi",
+            "langcode-help": "Syötä tähän kieli koodi (käytettävissä olevat koodit: EN, DE, FR, CN, IT, JP, RU, ES, PT, SE, NL, HU, NO, IL, PL)",
+            "apiKey": "Hanki api avain täältä https://www.theaudiodb.com/api_apply.php",
+            "apiKeyHelp": "Api avain on pakollinen, jotta voit pyytää ja saada dataa."
         },
         "forum": {
-            "genres": "",
-            "intFormedYear": "",
-            "countryart": "",
-            "notAv": ""
+            "genres": "Lajityyppi",
+            "intFormedYear": "Ryhmä muodostettu",
+            "countryart": "Maa",
+            "notAv": "Hups. Kuvausta ei ole saatavilla kielellesi. Voit osallistua TheAudioDB.com ja lisätä tietoja artistista omalle kielellesi..."
         }
     }
 }
