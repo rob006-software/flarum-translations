@@ -2,19 +2,19 @@
     "datlechin-chatgpt": {
         "admin": {
             "settings": {
-                "api_key_label": "",
-                "api_key_help": "",
-                "model_label": "",
-                "model_help": "",
-                "max_tokens_label": "",
-                "max_tokens_help": "",
-                "user_prompt_label": "",
-                "user_prompt_help": "",
-                "enable_on_discussion_started_label": "",
-                "enable_on_discussion_started_help": ""
+                "api_key_label": "API avain",
+                "api_key_help": "Hanki OpenAI Api avain osoitteesta <a>openai.com</a>.",
+                "model_label": "Malli",
+                "model_help": "Lue lisää <a>malleista</a> (oletus: <code>text-davinci-003</code>).",
+                "max_tokens_label": "Maksimi tokenit",
+                "max_tokens_help": "<a>Mitä ovat tokenit ja miten ne lasketaan?</a>",
+                "user_prompt_label": "Käyttäjän kehote",
+                "user_prompt_help": "Kehote jota käytetään vastauksen luomiseen. Oletus on se joka aloitti keskustelun.",
+                "enable_on_discussion_started_label": "Ota käyttöön keskustelun aloituksessa",
+                "enable_on_discussion_started_help": "Keskustelu saa vastauksen ensimmäisen viestin perusteella, kun keskustelu aloitetaan."
             },
             "permissions": {
-                "use_chatgpt_assistant_label": ""
+                "use_chatgpt_assistant_label": "Käytä ChatGPT apuria"
             }
         }
     }
