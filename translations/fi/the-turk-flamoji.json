@@ -2,96 +2,96 @@
     "the-turk-flamoji": {
         "admin": {
             "settings": {
-                "emoji_settings_heading": "",
-                "category_settings_heading": "",
-                "general_ui_settings_heading": "",
-                "show_variants_label": "",
-                "show_variants_text": "",
-                "auto_hide_label": "",
-                "auto_hide_text": "",
-                "show_preview_label": "",
-                "show_category_buttons_label": "",
-                "show_search_label": "",
-                "show_recents_label": "",
-                "recents_count_label": "",
-                "recents_count_text": "",
-                "emoji_style_label": "",
-                "emoji_version_label": "",
-                "emoji_version_text": "",
-                "initial_category_label": "",
-                "initial_category_text": "",
-                "specify_categories_label": "",
-                "specify_categories_text": "",
-                "emoji_data_label": "",
-                "emoji_data_text": "",
-                "emoji_style_native_option": "",
+                "emoji_settings_heading": "Hymiö asetukset",
+                "category_settings_heading": "Kategoria asetukset",
+                "general_ui_settings_heading": "Yleiset käyttöliittymä asetukset",
+                "show_variants_label": "Näytä muunnelmat",
+                "show_variants_text": "Joillain hymiöillä on ihonväri muunnelmia. Kun hymiö on valittuna ja sillä on muunnelmia niin ikkuna ilmestyy ja käyttäjä voi valita haluamansa muunnelman.",
+                "auto_hide_label": "Piilota automaattisesti",
+                "auto_hide_text": "Piilota valitsija, kun hymiö on valittu.",
+                "show_preview_label": "Näytä esikatselu osio",
+                "show_category_buttons_label": "Näytä kategoria napit",
+                "show_search_label": "Näytä haku kenttä",
+                "show_recents_label": "Näytä (ja tallenna) useimmin käytetyt hymiöt",
+                "recents_count_label": "Viimeksi käytettyjen hymiöiden määrä",
+                "recents_count_text": "Tallennettavien viimeksi käytettyjen hymiöiden määrä.",
+                "emoji_style_label": "Hymiöiden tyyli",
+                "emoji_version_label": "Hymiöiden versio",
+                "emoji_version_text": "Mitä hymiö versiota käytetään.",
+                "initial_category_label": "Oletuskategoria",
+                "initial_category_text": "Oletuksena valitsin näyttää Hymiöt & tunteet kategorian.",
+                "specify_categories_label": "Määritä kategoriat",
+                "specify_categories_text": "Voit määrittää listan kategorioista, valitsija näyttää vain valitut kategoriat.",
+                "emoji_data_label": "Hymiön tiedot",
+                "emoji_data_text": "Tätä yleensä käytetään hymiön nimien kääntämiseen.",
+                "emoji_style_native_option": "Natiivi",
                 "emoji_categories": {
-                    "smileys": "",
-                    "people": "",
-                    "animals": "",
-                    "food": "",
-                    "travel": "",
-                    "activities": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": ""
+                    "smileys": "=> the-turk-flamoji.ref.emoji_categories.smileys",
+                    "people": "=> the-turk-flamoji.ref.emoji_categories.people",
+                    "animals": "=> the-turk-flamoji.ref.emoji_categories.animals",
+                    "food": "=> the-turk-flamoji.ref.emoji_categories.food",
+                    "travel": "=> the-turk-flamoji.ref.emoji_categories.travel",
+                    "activities": "=> the-turk-flamoji.ref.emoji_categories.activities",
+                    "objects": "=> the-turk-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> the-turk-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> the-turk-flamoji.ref.emoji_categories.flags"
                 }
             },
             "custom_emojis_section": {
-                "heading_title": "",
-                "import_json_button": "",
-                "export_json_button": "",
-                "import_emojis_message": "",
+                "heading_title": "Mukautetut hymiöt",
+                "import_json_button": "Tuo JSON",
+                "export_json_button": "Vie JSON",
+                "import_emojis_message": "Tämä tuo pelkästään hymiöiden määritykset. Sinun täytyy siirtää hymiöt manuaalisesti.",
                 "edit_emoji": {
-                    "modal_title": "",
-                    "emoji_title_label": "",
-                    "delete_emoji_confirmation": "",
-                    "text_to_replace_label": "",
-                    "path_or_url_label": "",
-                    "submit_button": "",
-                    "delete_emoji_button": "",
-                    "saved_message": ""
+                    "modal_title": "Lisää hymiö",
+                    "emoji_title_label": "Hymiön otsikko",
+                    "delete_emoji_confirmation": "Haluatko varmasti poistaa tämän hymiön?",
+                    "text_to_replace_label": "Korvattava teksti",
+                    "path_or_url_label": "Polku tai osoite",
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_emoji_button": "Poista hymiö",
+                    "saved_message": "=> core.admin.settings.saved_message"
                 },
                 "emoji_list": {
-                    "load_more_button": ""
+                    "load_more_button": "=> core.forum.post_stream.load_more_button"
                 }
             }
         },
         "forum": {
             "composer": {
-                "emoji_tooltip": ""
+                "emoji_tooltip": "Lisää hymiö"
             },
             "emoji-button": {
-                "search_placeholder": "",
-                "no_emojis_found_message": "",
+                "search_placeholder": "Etsi hymiötä",
+                "no_emojis_found_message": "Hymiöitä ei löytynyt",
                 "categories": {
-                    "recents": "",
-                    "smileys": "",
-                    "people": "",
-                    "animals": "",
-                    "food": "",
-                    "travel": "",
-                    "activities": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": "",
-                    "custom": ""
+                    "recents": "=> the-turk-flamoji.ref.emoji_categories.recents",
+                    "smileys": "=> the-turk-flamoji.ref.emoji_categories.smileys",
+                    "people": "=> the-turk-flamoji.ref.emoji_categories.people",
+                    "animals": "=> the-turk-flamoji.ref.emoji_categories.animals",
+                    "food": "=> the-turk-flamoji.ref.emoji_categories.food",
+                    "travel": "=> the-turk-flamoji.ref.emoji_categories.travel",
+                    "activities": "=> the-turk-flamoji.ref.emoji_categories.activities",
+                    "objects": "=> the-turk-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> the-turk-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> the-turk-flamoji.ref.emoji_categories.flags",
+                    "custom": "=> the-turk-flamoji.ref.emoji_categories.custom"
                 }
             }
         },
         "ref": {
             "emoji_categories": {
-                "recents": "",
-                "smileys": "",
-                "people": "",
-                "animals": "",
-                "food": "",
-                "travel": "",
-                "activities": "",
-                "objects": "",
-                "symbols": "",
-                "flags": "",
-                "custom": ""
+                "recents": "Viimeisimmät hymiöt",
+                "smileys": "Hymiöt & tunteet",
+                "people": "Ihmiset & keho",
+                "animals": "Eläimet & luonto",
+                "food": "Ruoka & juoma",
+                "travel": "Matkustus & paikat",
+                "activities": "Aktiviteetit",
+                "objects": "Esineet",
+                "symbols": "Symbolit",
+                "flags": "Liput",
+                "custom": "Muokatut"
             }
         }
     }
