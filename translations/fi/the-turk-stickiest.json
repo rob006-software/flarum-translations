@@ -2,49 +2,49 @@
     "the-turk-stickiest": {
         "admin": {
             "permissions": {
-                "super_sticky_discussions_label": "",
-                "tag_sticky_discussions_label": ""
+                "super_sticky_discussions_label": "Liimatut keskustelut",
+                "tag_sticky_discussions_label": "Merkitse liimattuja keskusteluita"
             },
             "settings": {
-                "badge_icon_label": "",
-                "badge_icon_text": "",
-                "display_tag_sticky_label": "",
-                "display_tag_sticky_text": ""
+                "badge_icon_label": "Liimattu merkin ikoni",
+                "badge_icon_text": "=> core.ref.icon_text",
+                "display_tag_sticky_label": "Näytä merkki \"Kaikki keskustelut\" listassa",
+                "display_tag_sticky_text": "Luodaan kuten normaalit keskustelut ja ne ei kiinnity ylös."
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "",
-                "super_sticky_tooltip": "",
-                "tag_sticky_tooltip": "",
-                "super_tag_sticky_tooltip": ""
+                "sticky_tooltip": "=> the-turk-stickiest.ref.sticky",
+                "super_sticky_tooltip": "=> the-turk-stickiest.ref.super_sticky",
+                "tag_sticky_tooltip": "=> the-turk-stickiest.ref.tag_sticky",
+                "super_tag_sticky_tooltip": "=> the-turk-stickiest.ref.super_tag_sticky"
             },
             "stickiest_modal": {
-                "title": "",
-                "sticky_label": "",
-                "sticky_text": "",
-                "super_sticky_label": "",
-                "super_sticky_text": "",
-                "tag_sticky_label": "",
-                "tag_sticky_text": "",
-                "tags_label": "",
-                "submit_button": ""
+                "title": "Liimattu {title}",
+                "sticky_label": "=> flarum-sticky.ref.sticky",
+                "sticky_text": "Kiinnitetyt keskustelut pysyvät \"Kaikki keskustelut\" listassa kun ne ovat lukemattomia. Kun katsot kyseistä avainsanaa mikä kuuluu keskustelulle niin ne ovat sen avainsanan ylimpänä aina.",
+                "super_sticky_label": "=> the-turk-stickiest.ref.super_sticky",
+                "super_sticky_text": "Liimatut keskustelut pysyvät ylhäällä oli tilanne mikä tahansa.",
+                "tag_sticky_label": "=> the-turk-stickiest.ref.tag_sticky",
+                "tag_sticky_text": "Avainsanan kiinnitetyt ovat piilotettu \"Kaikki keskustelu\" listassa oletuksena. Ne näkyvät kiinnitettyinä ja ylimpänä vain, kun katsot kyseistä avainsanaa. Tämä on se avainsana minkä valitset tässä. Tämä valinta voidaan yhdistää \"Liimatun\" kanssa.",
+                "tags_label": "=> flarum-tags.ref.tags",
+                "submit_button": "=> core.ref.save_changes"
             },
             "discussion_controls": {
-                "sticky_button": ""
+                "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button"
             },
             "post_stream": {
-                "discussion_stickied_text": "",
-                "discussion_unstickied_text": "",
-                "discussion_super_stickied_text": "",
-                "discussion_common_stickied_text": ""
+                "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
+                "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
+                "discussion_super_stickied_text": "{username} liimasi tämän keskustelun.",
+                "discussion_common_stickied_text": "{username} poisti tämän keskustelun liimauksen."
             }
         },
         "ref": {
-            "sticky": "",
-            "super_sticky": "",
-            "tag_sticky": "",
-            "super_tag_sticky": ""
+            "sticky": "=> flarum-sticky.ref.sticky",
+            "super_sticky": "Liimattu",
+            "tag_sticky": "Avainsanaan kiinnitetty",
+            "super_tag_sticky": "Avainsanaan liimattu"
         }
     }
 }
