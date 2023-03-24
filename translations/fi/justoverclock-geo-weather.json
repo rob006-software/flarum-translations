@@ -1,15 +1,15 @@
 {
     "geo-weather": {
         "forum": {
-            "unknown": "",
-            "temp": "",
-            "not-supported": ""
+            "unknown": "tuntematon",
+            "temp": "0°",
+            "not-supported": "Tämä selain ei tue sijaintitietoa."
         },
         "admin": {
-            "apiKey": "",
-            "apiKey-help": "",
-            "lang": "",
-            "lang-help": ""
+            "apiKey": "Api avain",
+            "apiKey-help": "Liitä tähän luotu ilmainen api avain osoitteesta https://openweathermap.org/api",
+            "lang": "Valitse kieli (1 etuliite)",
+            "lang-help": "tähän kenttään tulee kielen etuliite (esim. fi, it, fr, en), tarkista omasi <strong>https://openweathermap.org/api/one-call-api#multi</strong> osoitteesta"
         }
     }
 }
