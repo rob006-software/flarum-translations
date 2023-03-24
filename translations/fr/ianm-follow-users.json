@@ -11,7 +11,7 @@
         },
         "forum": {
             "followed": "Abonnements",
-            "followers": "Abonnés",
+            "followers": "{count, plural, one {Abonné} other {Abonnés}}",
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
                 "no_following": "Il semble que vous ne suivez personne."
