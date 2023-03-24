@@ -1,50 +1,50 @@
 {
     "v17development-flarum-badges": {
         "admin": {
-            "uncategorized": "",
-            "new_badge": "",
-            "create_category": "",
-            "update_badge": "",
-            "update_category": "",
-            "edit_category": "",
-            "nothing_here_yet": "",
-            "show_badges_on_user_card": "",
-            "number_of_badges_on_user_card": "",
-            "number_of_badges_on_user_card_help": "",
+            "uncategorized": "Kategorisoimaton",
+            "new_badge": "Uusi merkki",
+            "create_category": "Luo kategoria",
+            "update_badge": "Päivitä merkki",
+            "update_category": "Päivitä kategoria",
+            "edit_category": "Muokkaa kategoriaa",
+            "nothing_here_yet": "Et ole luonut vielä yhtään merkki tai kategoriaa.",
+            "show_badges_on_user_card": "Näytä merkit käyttäjän kortilla",
+            "number_of_badges_on_user_card": "Merkkien määrä",
+            "number_of_badges_on_user_card_help": "Merkkien määrät jotka näytetään käyttäjän kortilla",
             "permissions": {
-                "badge_detail_users": "",
-                "give_badge": "",
-                "take_badge": "",
-                "edit_own_card_badges": "",
-                "edit_card_badges": ""
+                "badge_detail_users": "Voi nähdä käyttäjät merkin tietosivulla",
+                "give_badge": "Anna merkki käyttäjälle",
+                "take_badge": "Ottaa merkin pois käyttäjältä",
+                "edit_own_card_badges": "Muokata omia merkkejä",
+                "edit_card_badges": "Muokata käyttäjän merkkejä"
             },
             "confirm_dialog": {
-                "title": "",
-                "no": "",
-                "yes": ""
+                "title": "Vahvista",
+                "no": "Ei",
+                "yes": "Kyllä"
             },
             "confirm_messages": {
-                "delete_badge": "",
-                "delete_category": ""
+                "delete_badge": "Haluatko varmasti poistaa tämän merkin? Sen poistaminen käyttäjiltä on peruttamaton.",
+                "delete_category": "Haluatko varmasti poistaa tämän kategorian? Jos tässä kategoriassa on merkkejä, ne siirretään kategorisoimattomiin."
             },
             "badge": {
-                "name": "",
-                "icon": "",
-                "description": "",
-                "visible": "",
-                "visible_description": "",
-                "is_image": "",
-                "is_image_description": "",
-                "image": "",
-                "image_placeholder": "",
-                "icon_color": "",
-                "background_color": "",
-                "label_color": ""
+                "name": "Merkin nimi",
+                "icon": "Merkin ikoni",
+                "description": "Merkin kuvaus",
+                "visible": "Näkyvissä",
+                "visible_description": "Ota merkki käyttöön. Kun pois käytöstä, merkki ei ole näkyvissä.",
+                "is_image": "Merkki on kuva",
+                "is_image_description": "Käytä kuvaa normaalin merkin sijaan",
+                "image": "Merkin kuvan URL",
+                "image_placeholder": "Syötä merkin kuvan osoite",
+                "icon_color": "Ikonin väri",
+                "background_color": "Taustaväri",
+                "label_color": "Tekstin väri"
             },
             "badge_category": {
-                "name": "",
-                "description": "",
-                "blockview": "",
+                "name": "Kategorian nimi",
+                "description": "Kategorian kuvaus",
+                "blockview": "Lohko-näkymä",
                 "blockview_description": "",
                 "enabled": "",
                 "enabled_description": ""
