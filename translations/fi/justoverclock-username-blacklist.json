@@ -1,13 +1,13 @@
 {
     "username-blacklist": {
         "forum": {
-            "modal-title": "",
-            "modal-body-first-line": "",
-            "modal-body-second-line": ""
+            "modal-title": "Varoitus!",
+            "modal-body-first-line": "Varoitus - Tämä käyttäjätunnus on <strong>estetty ylläpidon toimesta</strong>",
+            "modal-body-second-line": "Valitse toinen käyttäjätunnus, joka ei riko yhteisön suuntaviivoja ja yritä uudelleen."
         },
         "admin": {
-            "blackList": "",
-            "blackList-help": ""
+            "blackList": "Estetyt käyttäjätunnukset",
+            "blackList-help": "Syötä tähän käyttäjätunnukset, jotka haluat estää rekisteröitymisessä (erottele pilkulla)"
         }
     }
 }
