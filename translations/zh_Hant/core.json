@@ -275,17 +275,17 @@
         },
         "forum": {
             "change_email": {
-                "confirm_password_placeholder": "確認密碼",
+                "confirm_password_placeholder": "=> core.ref.confirm_password",
                 "confirmation_message": "=> core.ref.confirmation_email_sent",
-                "dismiss_button": "好",
+                "dismiss_button": "=> core.ref.okay",
                 "incorrect_password_message": "鍵入的密碼不正確。",
                 "submit_button": "儲存更改",
-                "title": "更改郵箱"
+                "title": "=> core.ref.change_email"
             },
             "change_password": {
                 "send_button": "發送密碼重設郵件",
                 "text": "點擊下面的按鈕並檢查郵件中的連結以重設密碼。",
-                "title": "更改密碼"
+                "title": "=> core.ref.change_password"
             },
             "composer": {
                 "close_tooltip": "關閉",
