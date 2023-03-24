@@ -2,11 +2,11 @@
     "glowingblue-redis-setup": {
         "admin": {
             "settings": {
-                "enable_cache": "",
-                "enable_redis_sessions": "",
-                "enable_queue": "",
-                "horizon_config": "",
-                "horizon_help_text": ""
+                "enable_cache": "Ota käyttöön Redis välimuisti",
+                "enable_redis_sessions": "Ota käyttöön Redis istunnot (kaikki käyttäjät kirjataan ulos tämän muutoksen jälkeen)",
+                "enable_queue": "Ota käyttöön Redis jono",
+                "horizon_config": "Horizon asetukset (format: JSON).",
+                "horizon_help_text": "Nämä asetukset välitetään <code>(new \\Blomstra\\Horizon\\Extend\\Horizon)->config(...))</code>"
             }
         }
     }
