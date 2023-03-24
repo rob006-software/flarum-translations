@@ -2,20 +2,20 @@
     "the-turk-nodp": {
         "admin": {
             "permissions": {
-                "double_posting_label": ""
+                "double_posting_label": "Tuplapostaus"
             },
             "settings": {
-                "time_limit_label": "",
-                "time_limit_text": ""
+                "time_limit_label": "Aikaraja",
+                "time_limit_text": "Jos enemmän kuin <b>xxx</b> minuuttia on kulunut aiemmasta viestistä keskusteluun, käyttäjä pakotetaan muokkaamaan viestiään. Aseta tämä <b>0</b> arvoon ottaaksesi pois käytöstä."
             }
         },
         "forum": {
             "composer_edit": {
-                "double_posting_warning_title": "",
-                "double_posting_warning_description": ""
+                "double_posting_warning_title": "Olet tämän keskustelun viimeisin osallistuja.",
+                "double_posting_warning_description": "Koska olet hetki sitten vastannut tähän keskusteluun, muokkaa aiempaa viestiä ennemmin kuin luot uuden."
             },
             "discussion": {
-                "cannot_reply_alert_message": ""
+                "cannot_reply_alert_message": "Et voi vastata tähän keskusteluun ennen, kuin joku muu vastaa."
             }
         }
     }
