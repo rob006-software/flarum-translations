@@ -3,28 +3,28 @@
         "admin": {
             "settings": {
                 "excerpt-length": {
-                    "label": "",
-                    "help": ""
+                    "label": "Yhteenvedon lyhenteen pituus merkkeinä",
+                    "help": "Kuinka monta merkkiä viestistä näytetään."
                 },
                 "rich-excerpts": {
-                    "label": "",
-                    "help": ""
+                    "label": "Näytä lyhenne käyttäen rikastettua sisältöä",
+                    "help": "Kun käytössä, niin kuvat, upotukset ja muut ei teksti elementit näytetään yhteenvedossa"
                 },
                 "excerpt-type": {
-                    "label": "",
-                    "help": ""
+                    "label": "Mikä viesti näytetään lyhenteessä?",
+                    "help": "Valitse käytetäänkö ensimmäistä vai viimeisintä viestiä lyhennyksen sisältönä"
                 },
-                "first-label": "",
-                "last-label": "",
-                "tags-enabled": ""
+                "first-label": "Ensimmäinen viesti",
+                "last-label": "Viimeisin viesti",
+                "tags-enabled": "Sinulla on <code>flarum/tags</code> käytössä. Nämä ovat oletusasetukset jos yksittäisellä avainsanalla ei ole omia määrityksiä."
             }
         },
         "forum": {
             "user": {
                 "settings": {
-                    "summaries-heading": "",
-                    "show-summaries": "",
-                    "show-summaries-mobile": ""
+                    "summaries-heading": "Yhteenveto",
+                    "show-summaries": "Näytä lyhenne joka keskustelusta keskustelu listassa (Työpöytä/Tabletti)",
+                    "show-summaries-mobile": "Näytä yhteenveto joka keskustelusta keskustelu listassa (Mobiili)"
                 }
             }
         }
