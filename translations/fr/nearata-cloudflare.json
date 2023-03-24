@@ -2,33 +2,33 @@
     "nearata-cloudflare": {
         "admin": {
             "development_mode_widget": {
-                "title": ""
+                "title": "Mode de développement Cloudflare actif"
             },
             "settings": {
-                "api_key": "",
-                "api_key_help": "",
-                "refresh_zone_button_label": "",
-                "refresh_zone_help": "",
-                "security_level_label": "",
+                "api_key": "Clé API",
+                "api_key_help": "Suivez le guide <strong><url>Création de jetons API</url></strong> pour créer un jeton API.",
+                "refresh_zone_button_label": "Actualiser l'identifiant de la zone",
+                "refresh_zone_help": "Cliquez sur le bouton ci-dessus <strong>uniquement</strong> si le nom de domaine a changé.",
+                "security_level_label": "Niveau de sécurité",
                 "security_level_options": {
-                    "off": "",
-                    "essentially_off": "",
-                    "low": "",
-                    "medium": "",
-                    "high": "",
-                    "under_attack": ""
+                    "off": "Désactivé",
+                    "essentially_off": "Essentiellement désactivé",
+                    "low": "Faible",
+                    "medium": "Moyen",
+                    "high": "Élevé",
+                    "under_attack": "Attaque en cours"
                 },
                 "minify_setting": {
-                    "section_title": "",
-                    "css": "",
-                    "css_help": "",
-                    "html": "",
-                    "html_help": "",
-                    "js": "",
-                    "js_help": ""
+                    "section_title": "Réduire le paramètre",
+                    "css": "Réduire le CSS",
+                    "css_help": "Réduit automatiquement la taille de tous les fichiers CSS de votre site internet.",
+                    "html": "Réduire l'HTML",
+                    "html_help": "Réduit automatiquement la taille de tous les fichiers HTML de votre site web.",
+                    "js": "Réduire le JS",
+                    "js_help": "Réduit automatiquement la taille de tous les fichiers JavaScript de votre site web."
                 },
-                "refer_to": "",
-                "confirm_text": ""
+                "refer_to": "Reportez-vous à <strong><url>cette page</url></strong> pour plus d'informations.",
+                "confirm_text": "Êtes-vous sûr ?"
             }
         }
     }
