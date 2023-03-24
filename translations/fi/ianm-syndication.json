@@ -2,48 +2,48 @@
     "ianm-syndication": {
         "forum": {
             "autodiscovery": {
-                "forum_activity": "",
-                "forum_new_discussions": "",
-                "tag_activity": "",
-                "tag_new_discussions": "",
-                "discussion_last_posts": ""
+                "forum_activity": "Foorumin aktiivisuus",
+                "forum_new_discussions": "Foorumin uudet keskustelut",
+                "tag_activity": "Aktiivisuus {tag} avainsanalle",
+                "tag_new_discussions": "Avainsanan {tag} keskustelut",
+                "discussion_last_posts": "Tämä keskustelu"
             },
             "feeds": {
                 "titles": {
-                    "main_title": "",
-                    "main_subtitle": "",
-                    "main_d_title": "",
-                    "main_d_subtitle": "",
-                    "tag_title": "",
-                    "tag_subtitle": "",
-                    "tag_d_title": "",
-                    "tag_d_subtitle": "",
-                    "discussion_title": "",
-                    "discussion_subtitle": ""
+                    "main_title": "{forum_name}",
+                    "main_subtitle": "Viimeisimmät viestit foorumilla",
+                    "main_d_title": "Uudet keskustelut foorumilla {forum_name}",
+                    "main_d_subtitle": "Uusimmat keskustelut foorumilla",
+                    "tag_title": "Avainsanan {tag} aktiivisuus",
+                    "tag_subtitle": "Avainsanan {tag} uusimmat viestit",
+                    "tag_d_title": "Avainsanan {tag} uudet keskustelut",
+                    "tag_d_subtitle": "Avainsanan {tag} uusimmat keskustelut",
+                    "discussion_title": "{discussion_name}",
+                    "discussion_subtitle": "Uusimmat viestit tässä keskustelussa"
                 }
             },
             "discussion": {
-                "feed_link": ""
+                "feed_link": "Syöte"
             }
         },
         "admin": {
             "settings": {
                 "full-text": {
-                    "label": "",
-                    "help": ""
+                    "label": "Pelkkä teksti syötteet",
+                    "help": "Jos otettu pois käytöstä, syötteet sisältää viestin lyhenteen ja käyttäjien täytyy mennä foorumille lukeakseen kaiken. Suosittelemme, että jätät tämän valinnan aktiiviseksi kunnioittaakseen käyttäjiä jotka seuraa foorumia RSS lukijan avulla - jos jonkin."
                 },
                 "html": {
-                    "label": "",
-                    "help": ""
+                    "label": "Muokatut syötteet",
+                    "help": "Ota tämä käyttöön jättääksesi HTML sisällön syötteeseen. Jos pois käytöstä näytetään pelkkä teksti sisältö."
                 },
-                "entries-count": "",
+                "entries-count": "Kuinka monta merkintää per syöte?",
                 "forum-icons": {
-                    "label": "",
-                    "help": ""
+                    "label": "Näytä Atom/RSS syötteiden linkit foorumilla",
+                    "help": "Näyttää ikonit Kaikki keskustelut, Avainsana ja Keskustelut näkymissä, jotta syötteitä olisi helppo seurata."
                 },
                 "forum-link-format": {
-                    "label": "",
-                    "help": ""
+                    "label": "Foorumin syötteen muoto",
+                    "help": "Valitse syötteen muoto (Atom tai RSS) mitä käytetään, kun linkit näytetään foorumilla."
                 }
             }
         }
