@@ -11,7 +11,7 @@
         },
         "forum": {
             "followed": "Obserwowani",
-            "followers": "Obserwujący",
+            "followers": "{count, plural, one {Obserwujący} other {Obserwujących}}",
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
                 "no_following": "Wygląda na to, że nikogo jeszcze nie obserwujesz."
