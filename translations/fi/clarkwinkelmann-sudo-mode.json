@@ -2,21 +2,21 @@
     "clarkwinkelmann-sudo-mode": {
         "admin": {
             "settings": {
-                "duration": ""
+                "duration": "Kuinka kauan sudo tila pysyy aktiivisena (sekuntia)"
             }
         },
         "lib": {
             "sudo": {
-                "title": "",
-                "message": "",
-                "password": "",
-                "submit": ""
+                "title": "Vahvista pääsy",
+                "message": "Vahvista salasanasi ottaaksesi sudo tilan käyttöön. Sinua pyydetään kirjautumaan uudelleen muutaman tunnin päästä.\n",
+                "password": "Salasana",
+                "submit": "Lähetä"
             }
         },
         "api": {
             "errors": {
-                "cookieOnly": "",
-                "incorrectPassword": ""
+                "cookieOnly": "Vain käytössä keksien (cookie) kanssa",
+                "incorrectPassword": "Virheellinen salasana"
             }
         }
     }
