@@ -2,33 +2,33 @@
     "nearata-cloudflare": {
         "admin": {
             "development_mode_widget": {
-                "title": ""
+                "title": "Cloudflare kehitystila käytössä"
             },
             "settings": {
-                "api_key": "",
-                "api_key_help": "",
-                "refresh_zone_button_label": "",
-                "refresh_zone_help": "",
-                "security_level_label": "",
+                "api_key": "API avain",
+                "api_key_help": "Seuraa <strong><url>API avaimen luonti</url></strong> ohjetta luodaksesi API avaimen.",
+                "refresh_zone_button_label": "Päivitä Zone ID",
+                "refresh_zone_help": "Klikkaa ylläolevaa painiketta <strong>vain</strong> jos domainin nimi on vaihtunut.",
+                "security_level_label": "Turvallisuus taso",
                 "security_level_options": {
-                    "off": "",
-                    "essentially_off": "",
-                    "low": "",
-                    "medium": "",
-                    "high": "",
-                    "under_attack": ""
+                    "off": "Pois päältä",
+                    "essentially_off": "Olennaiset pois",
+                    "low": "Matala",
+                    "medium": "Keskitaso",
+                    "high": "Korkea",
+                    "under_attack": "Hyökkäys käynnissä"
                 },
                 "minify_setting": {
-                    "section_title": "",
-                    "css": "",
-                    "css_help": "",
-                    "html": "",
-                    "html_help": "",
-                    "js": "",
-                    "js_help": ""
+                    "section_title": "Minimointi asetukset",
+                    "css": "Minimoi CSS",
+                    "css_help": "Automaattisesti minimoi kaikki CSS tiedostot sivuillasi.",
+                    "html": "Minimoi HTML",
+                    "html_help": "Automaattisesti minimoi kaikki HTML tiedostot sivuillasi.",
+                    "js": "Minimoi JS",
+                    "js_help": "Automaattisesti minimoi kaikki JavaScript tiedostot sivuillasi."
                 },
-                "refer_to": "",
-                "confirm_text": ""
+                "refer_to": "Katso <strong><url>tältä sivulta</url></strong> lisää tietoa.",
+                "confirm_text": "Oletko varma?"
             }
         }
     }
