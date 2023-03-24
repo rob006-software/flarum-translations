@@ -11,7 +11,7 @@
         },
         "forum": {
             "followed": "Followed",
-            "followers": "Followers",
+            "followers": "{count, plural, one {Follower} other {Followers}}",
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
                 "no_following": "It looks like you're not following anyone."
