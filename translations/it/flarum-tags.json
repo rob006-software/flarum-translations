@@ -29,7 +29,7 @@
                 "tag_discussions_label": "Etichette delle discussioni"
             },
             "settings": {
-                "button_text": ""
+                "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
                 "range_separator_text": " a ",
@@ -62,7 +62,7 @@
                 "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
-                "choose_tags_link": "Scegli Etichette"
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
                 "edit_tags_button": "Modifica Etichette"
@@ -76,9 +76,9 @@
                 "untagged_link": "Senza etichetta"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} ha aggiunto {tagsAdded} e rimosso {tagsRemoved}.",
-                "added_tags_text": "{username} ha aggiunto {tagsAdded}.",
-                "removed_tags_text": "{username} ha rimosso {tagsRemoved}.",
+                "added_and_removed_tags_text": "{username} ha aggiunto {tagsAdded} e rimosso {tagsRemoved} {time}.",
+                "added_tags_text": "{username} ha aggiunto {tagsAdded} {time}.",
+                "removed_tags_text": "{username} ha rimosso {tagsRemoved} {time}.",
                 "tags_text": "{count, plural, one {{tags} tag} other {{tags} tag}}"
             },
             "tag": {
@@ -88,17 +88,17 @@
         "lib": {
             "deleted_tag_text": "Eliminata",
             "tag_selection_modal": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "bypass_requirements": "Bypassa requisiti tag",
+                "choose_primary_placeholder": "{count, plural, one {Scegli tag primario} other {Scegli # tag primari}}",
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
             }
         },
         "ref": {
-            "choose_tags": "",
-            "choose_tags_placeholder": "",
+            "choose_tags": "Scegli Tags",
+            "choose_tags_placeholder": "{count, plural, one {Scegli ancora un tag} other {Scegli ancora # tag}}",
             "name": "Nome",
             "tags": "Etichette"
         }
