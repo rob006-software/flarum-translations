@@ -1193,6 +1193,9 @@ return [
 	'ziiven-raffle-ticket' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/ziiven-raffle-ticket.yml',
 	],
+	'ziiven-user-submission' => [
+		'tag' => 'https://raw.githubusercontent.com/Ziiven/ziven-client1-user-submission/v0.1.2/locale/en.yml',
+	],
 	'ziiven-view-history' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/view-history/v0.1.6/locale/en.yml',
 	],
