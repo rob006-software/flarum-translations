@@ -37,10 +37,10 @@
                 "excerpt_html_whitelist": "要保留在摘錄中的 HTML 標籤白名單（半角逗號分隔）",
                 "excerpt_html_nodes": "內容摘錄的長度（以 HTML 節點數為單位）",
                 "excerpt_length": "內容摘錄的長度（以字符為單位）",
-                "post_thumbnail_summary": "",
-                "post_thumbnail_list": "",
-                "comment_author_sync": "",
-                "comment_author_sync_help": "",
+                "post_thumbnail_summary": "在摘錄上方顯示 WordPress 帖子縮圖",
+                "post_thumbnail_list": "在 Flarum 討論列表中顯示 WordPress 帖子縮圖",
+                "comment_author_sync": "從 SSO 分配討論作者",
+                "comment_author_sync_help": "如果 Wordpress 作者通過 SSO 創建了一個 Flarum 帳戶，該 Flarum 帳戶將被設置為評論所有者。",
                 "comment_tag": "新評論主題貼的標籤",
                 "comment_tag_none": "不分配標籤",
                 "comment_tag_custom": "自定義值",
@@ -141,7 +141,7 @@
                 "message": "這個頁面將帶您前往{href}",
                 "open": "打開連結"
             },
-            "thumbnail_alt_fallback": ""
+            "thumbnail_alt_fallback": "WordPress 帖子縮圖"
         },
         "api": {
             "blocked_actions": {
