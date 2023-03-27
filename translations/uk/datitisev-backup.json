@@ -58,7 +58,7 @@
                     },
                     "bucket": {
                         "label": "Bucket",
-                        "description": "Для використання"
+                        "description": "Сховище для використання."
                     },
                     "path-prefix": {
                         "label": "Префікс шляху",
@@ -100,46 +100,46 @@
                     },
                     "path-prefix": {
                         "label": "Префікс шляху",
-                        "description": ""
+                        "description": "Необов'язковий префікс шляху за замовчуванням для файлів."
                     }
                 },
                 "dropbox": {
                     "key": {
-                        "label": ""
+                        "label": "App Key"
                     },
                     "secret": {
-                        "label": ""
+                        "label": "App Secret"
                     },
                     "refresh-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Оновити токен",
+                        "description": "Використовуйте поля нижче, щоб отримати токен оновлення, або дотримуйтесь інструкцій на сайті https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually."
                     },
                     "help": {
-                        "obtain-access-code-label": "",
-                        "obtain-access-code-button": "",
-                        "obtain-refresh-token-label": "",
-                        "obtain-refresh-token-button": "",
-                        "obtain-refresh-token-success": ""
+                        "obtain-access-code-label": "Отримайте код доступу (потрібен app key)",
+                        "obtain-access-code-button": "Відкрити Dropbox",
+                        "obtain-refresh-token-label": "Використовуйте код доступу, щоб отримати токен оновлення (потрібен app key та secret)",
+                        "obtain-refresh-token-button": "Використати код",
+                        "obtain-refresh-token-success": "Оновлкний токен успішно отримано та оновлено вище! Збережіть зміни, щоб зберегти його."
                     }
                 },
                 "gdrive": {
                     "client": {
                         "id": {
-                            "label": "",
+                            "label": "Client ID",
                             "description": ""
                         },
                         "secret": {
-                            "label": "",
-                            "description": ""
+                            "label": "Client Secret",
+                            "description": " "
                         }
                     },
                     "refresh-token": {
-                        "label": "",
+                        "label": "Оновити токен",
                         "description": ""
                     },
                     "folder": {
-                        "label": "",
-                        "description": ""
+                        "label": "Folder ID",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
                     }
                 },
                 "ftp": {
@@ -148,19 +148,19 @@
                         "description": ""
                     },
                     "username": {
-                        "label": "",
+                        "label": "Ім'я користувача",
                         "description": ""
                     },
                     "password": {
-                        "label": "",
+                        "label": "Пароль",
                         "description": ""
                     },
                     "private-key": {
-                        "label": "",
+                        "label": "Приватний ключ",
                         "description": ""
                     },
                     "port": {
-                        "label": "",
+                        "label": "Порт",
                         "description": ""
                     },
                     "root": {
@@ -172,18 +172,18 @@
                         "description": ""
                     },
                     "ssl": {
-                        "toggle": "",
+                        "toggle": "SSL",
                         "description": ""
                     },
                     "timeout": {
-                        "label": "",
+                        "label": "Тайм-аут",
                         "description": ""
                     }
                 }
             },
             "nav": {
-                "label": "",
-                "description": ""
+                "label": "Бекап",
+                "description": "Збереження копії вашого форуму."
             }
         }
     }
