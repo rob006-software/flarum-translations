@@ -2,448 +2,448 @@
     "kilowhat-formulaire": {
         "admin": {
             "permissions": {
-                "heading": "",
-                "heading-advanced": "",
-                "fill": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": "",
-                "create": "",
-                "moderate": "",
-                "export": "",
-                "exportUserDetails": "",
-                "listForms": "",
-                "listSubmissions": ""
+                "heading": "Formulaire",
+                "heading-advanced": "Formulaire (kolmannen osapuolen lisäosien asetukset)",
+                "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion",
+                "create": "Luo lomakkeita (beta)",
+                "moderate": "Moderoi kaikkia lomakkeita",
+                "export": "Vie syötetty data",
+                "exportUserDetails": "Pääsy käyttäjien yksityisiin tietoihin vienneissä",
+                "listForms": "Näe lista lomakkeista, joita ei ole poistettu",
+                "listSubmissions": "Näe lista merkinnöistä"
             },
             "settings": {
-                "title": "",
-                "max-file-size": "",
-                "history-controls": "",
-                "side-nav-on-submission": "",
-                "checkbox-style": "",
-                "radio-style": "",
+                "title": "Lomakkeen yleiset asetukset",
+                "max-file-size": "Tiedoston enimmäiskoko (kB)",
+                "history-controls": "Näytä peru/tee uudelleen toiminnot merkintä sivulla",
+                "side-nav-on-submission": "Näytä sivuvalikko merkinnät sivulla",
+                "checkbox-style": "Valintalaatikko tyylinen",
+                "radio-style": "Valintanappi tyylinen",
                 "style-options": {
-                    "far-square": "",
-                    "fas-square": "",
-                    "far-circle": "",
-                    "fas-circle": "",
-                    "switch": "",
-                    "native": ""
+                    "far-square": "FontAwesome normaali neliömuotoinen ikoni",
+                    "fas-square": "FontAwesome kiinteä neliömuotoinen ikoni",
+                    "far-circle": "FontAwesome normaali pyöreä ikoni",
+                    "fas-circle": "FontAwesome kiinteä neliö ikoni",
+                    "switch": "Flarumin kytkin",
+                    "native": "Selaimen natiivi ohjain"
                 },
-                "horizontal-layout": "",
+                "horizontal-layout": "Käytä vaakasuoraa lomake tyyliä",
                 "horizontal-layout-locations": {
-                    "standaloneEdit": "",
-                    "standaloneView": "",
-                    "profileEdit": "",
-                    "profileView": "",
-                    "signUp": "",
-                    "discussionEdit": "",
-                    "discussionView": "",
-                    "discussionComposer": ""
+                    "standaloneEdit": "Erillinen täytä/muokkaa sivu",
+                    "standaloneView": "Erillinen näytä sivu",
+                    "profileEdit": "Profiilin muokkaus sivu",
+                    "profileView": "Profiilin näytä sivu",
+                    "signUp": "Rekisteröitymis ponnahdusikkuna (vain Formulairen kentät)",
+                    "discussionEdit": "Keskustelun muokkaus ikkuna",
+                    "discussionView": "Keskustelun näkymä",
+                    "discussionComposer": "Keskustelun viestin luonti"
                 },
-                "uniformComposerLayout": "",
-                "uniformComposerLayoutHelp": ""
+                "uniformComposerLayout": "Yhtenäinen ulkoasu keskustelun luonnin kanssa",
+                "uniformComposerLayoutHelp": "Vaihtaa avainsanan, otsikon ja sisällön tyylittelyä vastaamaan Formulairen tyylittelyä. Tämä ulkoasu ottaa enemmän tilaa joten suosittelemme, että asennat <a>Composer Page</a> lisäosan.\n"
             }
         },
         "forum": {
             "nav": {
-                "forms": ""
+                "forms": "=> kilowhat-formulaire.ref.manager"
             },
             "form-index": {
                 "header": {
-                    "title": "",
-                    "documentation": "",
-                    "discuss": ""
+                    "title": "=> kilowhat-formulaire.ref.manager",
+                    "documentation": "Koko verkko ohjeistus",
+                    "discuss": "Keskustele Flarumin foorumeilla"
                 },
                 "tabs": {
-                    "standalone": "",
-                    "discussion": "",
-                    "user": ""
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
-                "empty": "",
-                "load-more": "",
-                "search": "",
-                "new": "",
-                "edit": "",
-                "show": "",
-                "submissions": "",
+                "empty": "Ei lomakkeita",
+                "load-more": "Lataa lisää",
+                "search": "Etsi lomakkeita...",
+                "new": "Uusi lomake",
+                "edit": "Muokkaa",
+                "show": "Näytä",
+                "submissions": "Merkinnät",
                 "columns": {
-                    "title": "",
-                    "accept-submissions": "",
-                    "allow-modification": "",
-                    "enabled": "",
-                    "submissions": "",
-                    "actions": ""
+                    "title": "Otsikko",
+                    "accept-submissions": "Avaa",
+                    "allow-modification": "Muokkaus",
+                    "enabled": "Käytössä",
+                    "submissions": "Merkinnät",
+                    "actions": "Toiminnot"
                 }
             },
             "global-settings": {
-                "title": "",
-                "admin-only": "",
+                "title": "Yleiset oikeudet",
+                "admin-only": "Vain ylläpitäjät voivat muokata yleisiä asetuksia",
                 "permissions": {
-                    "fill": "",
-                    "seeOwnUser": "",
-                    "seeAnyUser": "",
-                    "editOwnUser": "",
-                    "editAnyUser": "",
-                    "seeOwnDiscussion": "",
-                    "seeAnyDiscussion": "",
-                    "editOwnDiscussion": "",
-                    "editAnyDiscussion": ""
+                    "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                    "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                    "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                    "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                    "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                    "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                    "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                    "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                    "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion"
                 }
             },
             "form-create": {
-                "title": "",
+                "title": "Uusi lomake",
                 "field": {
-                    "title": ""
+                    "title": "Otsikko"
                 },
                 "button": {
-                    "create": ""
+                    "create": "Luo lomake"
                 }
             },
             "form-edit-header": {
-                "back": "",
+                "back": "Takaisin",
                 "category": {
-                    "standalone": "",
-                    "discussion": "",
-                    "user": ""
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
                 "tabs": {
-                    "template": "",
-                    "placement": "",
-                    "access": "",
-                    "notifications": "",
-                    "submissions": ""
+                    "template": "Pohja",
+                    "placement": "Sijoitus",
+                    "access": "Pääsy",
+                    "notifications": "Ilmoitukset",
+                    "submissions": "Merkinnät"
                 },
                 "access-status": {
-                    "closed": "",
-                    "create": "",
-                    "edit": "",
-                    "both": "",
-                    "enabled": "",
-                    "disabled": ""
+                    "closed": "Suljettu",
+                    "create": "Vain luonti",
+                    "edit": "Vain muokkaus",
+                    "both": "Luonti ja muokkaus",
+                    "enabled": "Käytössä",
+                    "disabled": "Luonnos"
                 },
-                "controls": "",
-                "template-export": "",
-                "enable-expert-mode": "",
-                "disable-expert-mode": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": "",
+                "controls": "Toiminnot",
+                "template-export": "Pohjan tuonti/vienti",
+                "enable-expert-mode": "Ota asiantuntija tila käyttöön",
+                "disable-expert-mode": "Ota asiantuntija tila pois käytöstä",
+                "restore": "Palauta",
+                "hide": "Poista",
+                "delete": "Poista pysyvästi",
+                "delete-confirmation": "Lomake \"{title}\" poistetaan pysyvästi",
                 "fields": {
-                    "private-title": "",
-                    "slug": ""
+                    "private-title": "Yksityinen otsikko",
+                    "slug": "Muokattu osoitteen tunniste (valinnainen)"
                 }
             },
             "form-edit": {
                 "warnings": {
-                    "show-on-signup-invalid-permissions": "",
-                    "show-on-composer-invalid-permissions": "",
-                    "linked-form-is-draft": "",
-                    "auto-link-permission-warning": ""
+                    "show-on-signup-invalid-permissions": "Sinulla täytyy asettaa \"näe oma\" ja \"muokkaa omaa\" oikeudet hyväksymättömille käyttäjille, jotta voit käyttää \"näytä rekisteröityessä\" tilaa.\n",
+                    "show-on-composer-invalid-permissions": "Pidä huolto, että \"näe oma\" ja \"muokkaa omaa\" oikeudet täsmää niihin, jotka voivat aloittaa keskusteluja valitulla avainsanalla, jotta \"näytä muokkaimessa\" toimii oikein. Aseta \"käyttäjille\" jos epävarma. Tämä ilmoitus näkyy vaikka asetuksesi olisivat oikein.\n",
+                    "linked-form-is-draft": "Tämä lomake on luonnos. Ota käyttöön \"Pääsy\" välilehdellä, jotta lomake näkyy foorumilla.\n",
+                    "auto-link-permission-warning": "Lomakkeet joilla on \"automaattisesti luo keskustelu\" valinta, käytä yleistä täyttö oikeutta, kun käytetään erillisenä.\n"
                 },
-                "expert-mode-warning": "",
+                "expert-mode-warning": "Asiantuntija tila on päällä. Tämä antaa sinun muokata kentän tunnisteita ja per-kenttä kohtaisia oikeuksia. Luethan ohjeet näistä toiminnoista, sillä nämä voi rikkoa asioita!\n",
                 "section": {
-                    "template": "",
-                    "permissions": ""
+                    "template": "Pohja",
+                    "permissions": "Oikeudet"
                 },
                 "field": {
-                    "link": "",
-                    "title": "",
+                    "link": "Erikoiset lomaketyypit",
+                    "title": "Julkinen otsikko",
                     "show-on-creation": {
-                        "discussion": "",
-                        "discussionHelp": "",
-                        "user": ""
+                        "discussion": "Näytä keskustelun muokkaimessa",
+                        "discussionHelp": "Flarumin keskustelun muokkain ei ole suunniteltu sisältämään monia kenttiä. Sinun kannattaa asentaa <a>Composer Page</a> lisäosa, jotta kaikki kentät on käytettävissä kaikilla laitteilla.\n",
+                        "user": "Näytä rekisteröitymisessä"
                     },
-                    "automatic-discussion": "",
-                    "automatic-discussion-help": "",
-                    "accept-submissions": "",
-                    "allow-modification": "",
-                    "enable": "",
-                    "max-submissions": "",
-                    "send-confirmation-to-participants": "",
-                    "notify-emails": "",
-                    "web-confirmation-message": "",
-                    "permission-see-own": "",
-                    "permission-see-any": "",
-                    "permission-edit-own": "",
-                    "permission-edit-any": ""
+                    "automatic-discussion": "Automaattisesti luo keskustelu lomakkeen lähetyksestä",
+                    "automatic-discussion-help": "Kun käytössä, lomake on saatavilla erillisenä. Lomakkeen merkinnät luovat ja yhdistyvät uuteen keskusteluun.\n",
+                    "accept-submissions": "Hyväksy uudet merkinnät",
+                    "allow-modification": "Salli käyttäjien muokata olemassa olevia merkintöjään",
+                    "enable": "Ota käyttöön",
+                    "max-submissions": "Merkintöjen enimmäismäärä (jätä tyhjäksi jos loputtomat)",
+                    "send-confirmation-to-participants": "Lähetä vahvistusviesti osallistujille",
+                    "notify-emails": "Lähetä kopio tiedoista näihin pilkuin eroteltuihin sähköposteihin",
+                    "web-confirmation-message": "Vahvistusviesti verkossa (tyylittely käytössä)",
+                    "permission-see-own": "Näe omat merkinnät",
+                    "permission-see-any": "Näe mitkä tahansa merkinnät",
+                    "permission-edit-own": "Muokkaa omaa merkintää",
+                    "permission-edit-any": "Muokkaa mitä tahansa merkintää"
                 },
                 "link-options": {
-                    "standalone": "",
-                    "groups": "",
-                    "all-groups": "",
-                    "tags": "",
-                    "all-tags": ""
+                    "standalone": "Erillinen",
+                    "groups": "Käyttäjäprofiili",
+                    "all-groups": "Mille tahansa ryhmälle",
+                    "tags": "Keskustelun kentät",
+                    "all-tags": "Mille tahansa avainsanalle"
                 },
-                "auto-discussion-options": "",
-                "email-confirmation-options": "",
-                "email-notification-options": "",
-                "exiting-with-unsaved-data": "",
-                "preview": "",
-                "save-for-preview": ""
+                "auto-discussion-options": "Asetukset uusille keskusteluille",
+                "email-confirmation-options": "Vahvistus sähköpostin pohja",
+                "email-notification-options": "Ilmoitus sähköpostin pohja",
+                "exiting-with-unsaved-data": "Sinulla on tallentamattomia muutoksia. Haluatko varmasti poistua sivulta?",
+                "preview": "Esikatsele uudella välilehdellä",
+                "save-for-preview": "Tallenna esikatselua varten"
             },
             "auto-discussion-options-modal": {
-                "title": "",
-                "introduction": "",
-                "submit": "",
+                "title": "Automaattiset keskustelun asetukset",
+                "introduction": "Nämä asetukset ovat uusille keskusteluille, jotka luodaan automaattisesti lomakkeen merkinnästä. Voit käyttää arvoja lomakkeen merkinnästä käyttäen sulku syntaksia kentän tunnisteella. Oletuksena { title } ja { content } on käytössä.\n",
+                "submit": "Vahvista muutokset",
                 "field": {
-                    "title": "",
-                    "tags": "",
-                    "tags-help": "",
-                    "content": ""
+                    "title": "Keskustelun otsikko",
+                    "tags": "Keskustelun avainsanat",
+                    "tags-help": "Pilkuille eroteltu lista avainsanojen tunnisteista. Valitut avainsanat lisätään sen avainsanan lisäksi mihin tämä lomake on yhdistetty.\n",
+                    "content": "Viestin sisältö"
                 }
             },
             "confirmation-email-options-modal": {
-                "title": "",
-                "submit": "",
+                "title": "Sähköpostin pohja",
+                "submit": "Vahvista muutokset",
                 "field": {
-                    "title": "",
-                    "message": ""
+                    "title": "Otsikko",
+                    "message": "Sisältö"
                 }
             },
             "save-controls": {
-                "validation-errors": "",
-                "unsaved-changes": "",
-                "saved-at": "",
-                "undo": "",
-                "redo": "",
-                "save": ""
+                "validation-errors": "Löysimme virheitä lomakkeen merkinnästäsi",
+                "unsaved-changes": "Sinulla on tallentamattomia muutoksia",
+                "saved-at": "Tallennettu {ago}",
+                "undo": "Peruuta",
+                "redo": "Tee uudelleen",
+                "save": "Tallenna"
             },
             "permission-controls": {
-                "inherit": "",
-                "everyone_button": "",
-                "disabled_members_button": "",
-                "members_button": ""
+                "inherit": "Käytä oletuksia",
+                "everyone_button": "=> core.admin.permissions_controls.everyone_button",
+                "disabled_members_button": "Ei aktiiviset ja estetyt käyttäjät",
+                "members_button": "Aktivoidut käyttäjät"
             },
             "template-editor": {
-                "add-field": "",
-                "title": "",
-                "description": "",
-                "key": "",
-                "fill-permission": "",
-                "required": "",
-                "rich": "",
-                "min": "",
-                "max": "",
-                "integer": "",
-                "email": "",
-                "regex": "",
-                "mime": "",
-                "other": "",
-                "duplicate": "",
-                "delete": "",
-                "missing-title": "",
-                "no-answer": "",
+                "add-field": "Lisää kenttä",
+                "title": "Otsikko",
+                "description": "Kuvaus",
+                "key": "(Asiantuntija) JSON avain merkinnän kuormassa",
+                "fill-permission": "(Asiantuntija) Täytön oikeudet",
+                "required": "Pakollinen",
+                "rich": "Rikastettu teksti (TextFormatter)",
+                "min": "Minimi",
+                "max": "Maksimi",
+                "integer": "Kokonaisluku",
+                "email": "Sähköposti",
+                "regex": "Säännöllinen lauseke",
+                "mime": "MIME tyyppi (pilkuilla erotettu, hyväksyy jokerin toiseksi osaksi)",
+                "other": "Salli \"muu\" käyttäjän syötteet",
+                "duplicate": "Kopioi kenttä",
+                "delete": "Poista kenttä",
+                "missing-title": "Kenttä ilman otsikkoa",
+                "no-answer": "Ei vastausta",
                 "type": {
-                    "short": "",
-                    "long": "",
-                    "number": "",
-                    "date": "",
-                    "checkbox": "",
-                    "radio": "",
-                    "select": "",
-                    "upload": "",
-                    "content": "",
-                    "items": ""
+                    "short": "Lyhyt teksti",
+                    "long": "Pitkä teksti",
+                    "number": "Numero",
+                    "date": "Päivämäärä",
+                    "checkbox": "Valintalaatikot",
+                    "radio": "Valintanappi",
+                    "select": "Pudotusvalikko",
+                    "upload": "Siirrä",
+                    "content": "Sisältö",
+                    "items": "Moni merkinnät"
                 }
             },
             "options-editor": {
                 "columns": {
-                    "title": "",
-                    "key": ""
+                    "title": "Otsikko",
+                    "key": "(Asiantuntija) Uniikki avain"
                 },
-                "remove": "",
-                "new-placeholder": ""
+                "remove": "Poista valinta",
+                "new-placeholder": "Uusi valinta..."
             },
             "items-editor": {
-                "add": "",
-                "remove": ""
+                "add": "Lisää rivi",
+                "remove": "Poista rivi"
             },
             "upload-editor": {
-                "uploading": "",
-                "remove": ""
+                "uploading": "Siirretään...",
+                "remove": "Poista tiedosto"
             },
             "rich-text": {
-                "preview-placeholder": ""
+                "preview-placeholder": "Aloita kirjoittaminen nähdäksesi esikatselun"
             },
             "select": {
-                "choose": ""
+                "choose": "Valitse vaihtoehdoista"
             },
             "choice": {
-                "other-label": "",
-                "other-placeholder": ""
+                "other-label": "Muu:",
+                "other-placeholder": "Kirjoita..."
             },
             "submission": {
-                "form-closed": "",
-                "form-full": "",
-                "edit-forbidden": "",
-                "submitted-successfully": "",
-                "edit-submission": "",
-                "submit-other": "",
-                "unlock": "",
-                "lock": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "form-closed": "Tämä lomake on suljettu.",
+                "form-full": "Tähän lomakkeeseen on tullut jo täyteen enimmäismäärä merkintöjä.",
+                "edit-forbidden": "Et voi enää muokata tätä merkintää.",
+                "submitted-successfully": "Sinun merkintäsi on lähetetty onnistuneesti.",
+                "edit-submission": "Muokkaa merkintää",
+                "submit-other": "Lähetä toinen",
+                "unlock": "Avaa",
+                "lock": "Lukitse",
+                "restore": "Palauta",
+                "hide": "Poista",
+                "delete": "Poista pysyvästi",
+                "delete-confirmation": "Merkinnät {date} lähtien poistetaan pysyvästi"
             },
             "submission-index": {
-                "form-edit": "",
-                "form-show": "",
-                "show": "",
-                "guest": "",
-                "load-more": "",
-                "empty": "",
-                "search": "",
-                "export": "",
+                "form-edit": "Muokkaa lomaketta",
+                "form-show": "Uusi merkintä",
+                "show": "Näytä",
+                "guest": "Vieras",
+                "load-more": "Lataa lisää",
+                "empty": "Ei vielä merkintöjä",
+                "search": "Etsi merkintöjä...",
+                "export": "Vienti",
                 "columns": {
-                    "date": "",
-                    "user": "",
-                    "actions": ""
+                    "date": "Päivämäärä",
+                    "user": "Käyttäjä",
+                    "actions": "Toiminnot"
                 }
             },
             "badge": {
-                "locked": "",
-                "hidden": ""
+                "locked": "Lukittu",
+                "hidden": "Piilotettu"
             },
             "error-page": {
-                "denied-title": "",
-                "denied-description": "",
-                "notfound-title": "",
-                "notfound-description": ""
+                "denied-title": "Pääsy estetty",
+                "denied-description": "Näyttää siltä, että sinulla ei ole pääsyä tähän sisältöön. Yritä kirjautua sisään.",
+                "notfound-title": "Ei löytynyt",
+                "notfound-description": "Tätä sisältöä ei ole olemassa tai ehkä sinulla ei ole oikeutta päästä siihen käsiksi."
             },
             "submission-sort": {
-                "latest": "",
-                "oldest": ""
+                "latest": "Viimeisimmät merkinnät",
+                "oldest": "Vanhimmat merkinnät"
             },
             "form-sort": {
-                "latest": "",
-                "oldest": ""
+                "latest": "Uudet lomakkeet",
+                "oldest": "Vanhimmat lomakkeet"
             },
             "export": {
-                "title": "",
-                "format": "",
-                "heading": "",
-                "fields": "",
-                "meta": "",
-                "more-meta": "",
-                "option-keys": "",
-                "submit": "",
-                "preview": "",
+                "title": "Vie merkinnät",
+                "format": "Muotoile",
+                "heading": "Otsikko / avaimet",
+                "fields": "Kentät",
+                "meta": "Meta tiedot",
+                "more-meta": "Lisää meta asetuksia",
+                "option-keys": "Vienti avaimet otsikoiden sijaan valintalaatikoille, -napeille ja pudotusvalikoille",
+                "submit": "Lataa",
+                "preview": "Esikatselu",
                 "format-options": {
-                    "xlsx": "",
-                    "xls": "",
-                    "ods": "",
-                    "csv": "",
-                    "json": ""
+                    "xlsx": "XLSX",
+                    "xls": "XLS",
+                    "ods": "ODS",
+                    "csv": "CSV",
+                    "json": "JSON"
                 },
                 "heading-options": {
-                    "title": "",
-                    "key": "",
-                    "none": ""
+                    "title": "Kentän otsikot",
+                    "key": "Kentän avaimet",
+                    "none": "Ei otsikko riviä"
                 },
                 "meta-options": {
-                    "uid": "",
-                    "user_id": "",
-                    "user_username": "",
-                    "user_displayname": "",
-                    "user_email": "",
-                    "user_activated": "",
-                    "link_id": "",
-                    "locked_at": "",
-                    "created_at": "",
-                    "updated_at": "",
-                    "hidden_at": ""
+                    "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
+                    "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
+                    "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
+                    "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
+                    "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
+                    "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
+                    "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
+                    "updated_at": "=> kilowhat-formulaire.ref.submission-meta.updated_at",
+                    "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
                 },
                 "preview-primitives": {
-                    "excel-date": "",
-                    "boolean-true": "",
-                    "boolean-false": ""
+                    "excel-date": "(EXCEL PÄIVÄMÄÄRÄ)",
+                    "boolean-true": "Tosi",
+                    "boolean-false": "Epätosi"
                 }
             },
             "discussion-submission": {
-                "empty": "",
-                "edit": ""
+                "empty": "Ei dataa vielä",
+                "edit": "Muokkaa"
             },
             "discussion-composer": {
                 "field": {
-                    "tags": "",
-                    "poll": "",
-                    "title": "",
-                    "content": ""
+                    "tags": "Avainsanat",
+                    "poll": "Kysely",
+                    "title": "Otsikko",
+                    "content": "Viesti"
                 }
             }
         },
         "api": {
-            "formatter-parsing-error": "",
-            "not-allowed-to-fill-field": "",
-            "duplicate-field-key": "",
-            "cannot-change-form-type": "",
-            "unknown-form": "",
-            "unauthorized-form": "",
-            "unauthorized-scoped-form": "",
-            "file-already-belongs-form": "",
-            "file-already-belongs-submission": "",
+            "formatter-parsing-error": "Ei voida jäsentää sisältöä: {message}",
+            "not-allowed-to-fill-field": "Sinulla ei ole oikeuksia muuttaa tämän kentän arvoa",
+            "duplicate-field-key": "Avaimen pitää olla uniikki",
+            "cannot-change-form-type": "Et voi vaihtaa lomakkeen tyyppiä, jolla on olemassa olevia merkintöjä",
+            "unknown-form": "Tuntematon lomakkeen ID {id}",
+            "unauthorized-form": "Sinulla ei ole tarvittavia oikeuksia lomakkeen ID {id} täyttämiseen",
+            "unauthorized-scoped-form": "Et voi täyttää lomaketta ID {id} nykyisillä avainsanoilla",
+            "file-already-belongs-form": "Tiedosto {id} kuuluu toiselle lomakkeelle",
+            "file-already-belongs-submission": "Tiedosto {id} kuuluu toiselle merkinnälle",
             "export": {
                 "meta": {
-                    "uid": "",
-                    "user_id": "",
-                    "user_username": "",
-                    "user_displayname": "",
-                    "user_email": "",
-                    "user_activated": "",
-                    "link_id": "",
-                    "locked_at": "",
-                    "created_at": "",
-                    "updated_at": "",
-                    "hidden_at": ""
+                    "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
+                    "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
+                    "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
+                    "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
+                    "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
+                    "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
+                    "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
+                    "updated_at": "=> kilowhat-formulaire.ref.submission-meta.updated_at",
+                    "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
                 }
             }
         },
         "mail": {
-            "title-your-submission": "",
-            "title-new-submission": "",
-            "edit": "",
-            "footer": "",
-            "sub-entries": "",
-            "no-answer": ""
+            "title-your-submission": "Merkinnät lomakkeelle {title}",
+            "title-new-submission": "Uusi merkintä lomakkeelle {title}",
+            "edit": "Muokkaa",
+            "footer": "Lähetetty {title}",
+            "sub-entries": "{count} merkintää",
+            "no-answer": "Ei vastausta"
         },
         "ref": {
-            "manager": "",
+            "manager": "Lomakkeiden hallinta",
             "type": {
-                "standalone": "",
-                "discussion": "",
-                "user": ""
+                "standalone": "Erilliset lomakkeet",
+                "discussion": "Keskustelun kentät",
+                "user": "Käyttäjän profiili"
             },
             "permissions": {
-                "fill": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": ""
+                "fill": "Täytä erilliset lomakkeet",
+                "seeOwnUser": "Näe omat profiilin kentät",
+                "seeAnyUser": "Näe minkä tahansa profiilin kentät",
+                "editOwnUser": "Muokkaa omia profiilin kenttiä",
+                "editAnyUser": "Muokkaa mitä tahansa profiilin kenttää",
+                "seeOwnDiscussion": "Näe omat keskustelun kentät",
+                "seeAnyDiscussion": "Näe minkä tahansa keskustelun kentät",
+                "editOwnDiscussion": "Muokkaa omia keskustelun kenttiä",
+                "editAnyDiscussion": "Muokkaa mitä tahansa keskustelun kenttää"
             },
             "submission-meta": {
-                "uid": "",
-                "user_id": "",
-                "user_username": "",
-                "user_displayname": "",
-                "user_email": "",
-                "user_activated": "",
-                "link_id": "",
-                "locked_at": "",
-                "created_at": "",
-                "updated_at": "",
-                "hidden_at": ""
+                "uid": "Merkinnän ID",
+                "user_id": "Käyttäjän ID",
+                "user_username": "Käyttäjätunnus",
+                "user_displayname": "Käyttäjän näyttönimi",
+                "user_email": "Käyttäjän sähköpostiosoite",
+                "user_activated": "Aktivoitu tili",
+                "link_id": "Linkitetyn resurssin ID",
+                "locked_at": "Lukitus päivämäärä",
+                "created_at": "Luonti päivämäärä",
+                "updated_at": "Päivitys päivämäärä",
+                "hidden_at": "Kevyen poiston päivämärää"
             }
         }
     }
