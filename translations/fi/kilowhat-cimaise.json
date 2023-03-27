@@ -2,207 +2,207 @@
     "kilowhat-cimaise": {
         "forum": {
             "nav": {
-                "albums": "",
-                "pictures": "",
-                "user-pictures": ""
+                "albums": "=> kilowhat-cimaise.ref.albums",
+                "pictures": "=> kilowhat-cimaise.ref.pictures",
+                "user-pictures": "=> kilowhat-cimaise.ref.pictures"
             },
             "album-list": {
-                "title": "",
-                "new": "",
-                "empty": "",
-                "loading": "",
-                "load-more": ""
+                "title": "=> kilowhat-cimaise.ref.albums",
+                "new": "Luo uusi albumi",
+                "empty": "Ei albumeita",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "picture-list": {
-                "title": "",
-                "empty": "",
-                "loading": "",
-                "load-more": ""
+                "title": "Kaikki kuvat",
+                "empty": "Ei kuvia",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "album-show": {
-                "upload": "",
-                "empty": "",
-                "loading": "",
-                "personal": "",
-                "community": "",
-                "discussion": ""
+                "upload": "Siirrä kuva",
+                "empty": "Ei kuvia",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "personal": "<a>{username}</a> henkilökohtainen albumi",
+                "community": "Yhteisön albumi",
+                "discussion": "Mene keskusteluun"
             },
             "picture-show": {
-                "loading": "",
-                "back-album": "",
-                "download": "",
-                "previous": "",
-                "next": "",
-                "download-cropped": "",
-                "download-original": "",
-                "show-exif": "",
-                "taken-at": "",
-                "published-at": ""
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "back-album": "Takaisin albumiin",
+                "download": "Lataa",
+                "previous": "Edellinen kuva",
+                "next": "Seuraava kuva",
+                "download-cropped": "Leikattu {size}",
+                "download-original": "Lataa alkuperäinen",
+                "show-exif": "Kaikki EXIF tiedot",
+                "taken-at": "Otettu {ago}",
+                "published-at": "Julkaistu {ago}"
             },
             "upload-modal": {
-                "title": "",
-                "titleInComposer": "",
-                "uploading": "",
-                "processing": "",
-                "select-file": "",
-                "drop-file": "",
-                "publishSilently": "",
-                "submit": "",
-                "submitInComposer": ""
+                "title": "Siirrä kuvia albumiin \"{title}\"",
+                "titleInComposer": "Muokkaa kuvia",
+                "uploading": "Siirretään",
+                "processing": "Käsitellään",
+                "select-file": "Valitse tiedosto",
+                "drop-file": "tai raahaa ja tiputa tähän",
+                "publishSilently": "Julkaise hiljaisesti",
+                "submit": "Lähetä",
+                "submitInComposer": "Jatka"
             },
             "new-album-modal": {
-                "title": ""
+                "title": "Uusi albumi"
             },
             "edit-album-modal": {
-                "title": ""
+                "title": "Muokkaa albumia \"{title}\""
             },
             "attach-album-modal": {
-                "title": "",
-                "selected": "",
-                "none-selected": "",
-                "search": "",
-                "no-results": "",
-                "select": "",
-                "unselect": "",
-                "submit": ""
+                "title": "Liitä albumiin \"{title}\"",
+                "selected": "Valitut:",
+                "none-selected": "Ei mitään",
+                "search": "Etsi",
+                "no-results": "Ei tuloksia",
+                "select": "Valitse",
+                "unselect": "Poista valinta",
+                "submit": "Lähetä"
             },
             "edit-album": {
-                "title": "",
-                "description": "",
-                "isCommunity": "",
-                "create": "",
-                "save": ""
+                "title": "Otsikko",
+                "description": "Kuvaus",
+                "isCommunity": "Yhteisön albumi (kaikki voivat osallistua)",
+                "create": "Luo albumi",
+                "save": "Tallenna albumi"
             },
             "edit-picture": {
-                "title": "",
-                "description": ""
+                "title": "Otsikko",
+                "description": "Kuvaus"
             },
             "album-thumbnail": {
-                "controls": "",
-                "edit": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": "",
-                "by-user": ""
+                "controls": "=> kilowhat-cimaise.ref.controls",
+                "edit": "Muokkaa",
+                "restore": "=> kilowhat-cimaise.ref.restore",
+                "hide": "=> kilowhat-cimaise.ref.hide",
+                "delete": "=> kilowhat-cimaise.ref.delete",
+                "delete-confirmation": "Poista albumi \"{title}\"?",
+                "by-user": "=> kilowhat-cimaise.ref.by-user"
             },
             "picture-thumbnail": {
-                "by-user": "",
-                "in-album": ""
+                "by-user": "=> kilowhat-cimaise.ref.by-user",
+                "in-album": "albumissa"
             },
             "picture-controls": {
-                "controls": "",
-                "editor": "",
-                "approve": "",
-                "remove-favorite": "",
-                "set-favorite": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "controls": "=> kilowhat-cimaise.ref.controls",
+                "editor": "Muokkaa rajausta ja maskia",
+                "approve": "Hyväksy",
+                "remove-favorite": "Poista suosikki",
+                "set-favorite": "Lisää suosikiksi",
+                "restore": "=> kilowhat-cimaise.ref.restore",
+                "hide": "=> kilowhat-cimaise.ref.hide",
+                "delete": "=> kilowhat-cimaise.ref.delete",
+                "delete-confirmation": "Poista kuva \"{title}\"?"
             },
             "editable-attribute": {
-                "title": "",
-                "description": "",
-                "author": ""
+                "title": "Klikkaa lisätäksesi otsikko",
+                "description": "Klikkaa lisätäksesi kuvaus",
+                "author": "Klikkaa lisätäksesi tekijä"
             },
             "badge": {
-                "hidden": "",
-                "awaiting-approval": "",
-                "favorite": ""
+                "hidden": "Piilotettu",
+                "awaiting-approval": "Odottaa hyväksyntää",
+                "favorite": "Suosikki"
             },
             "picture-sort": {
-                "latest": "",
-                "oldest": "",
-                "latestTake": "",
-                "oldestTake": ""
+                "latest": "Viimeisin siirto",
+                "oldest": "Vanhin siirto",
+                "latestTake": "Viimeisin otto",
+                "oldestTake": "Vanhin otto"
             },
             "album-search": {
-                "title": ""
+                "title": "=> kilowhat-cimaise.ref.albums"
             },
             "post-stream": {
-                "uploaded": ""
+                "uploaded": "{username} siirsi {count} kuvaa"
             },
             "discussion-controls": {
-                "attach-album": ""
+                "attach-album": "Liitä tai poista albumista"
             },
             "license-label": {
-                "not-specified": "",
-                "not-specified-help": ""
+                "not-specified": "Ei määritetty",
+                "not-specified-help": "Tarkista sivuston ehdot tekijänoikeuksista"
             }
         },
         "admin": {
             "permissions": {
-                "view": "",
-                "viewExif": "",
-                "createPersonalAlbums": "",
-                "createCommunityAlbums": "",
-                "editOwnAlbum": "",
-                "hideOwnAlbum": "",
-                "uploadPictures": "",
-                "uploadPersonalPicturesWithoutApproval": "",
-                "uploadCommunityPicturesWithoutApproval": "",
-                "editOwnImage": "",
-                "editOwnPublishedImage": "",
-                "licenseOwnPublishedPicture": "",
-                "renameOwnPublishedPicture": "",
-                "hideOwnPicture": "",
-                "publishSilently": "",
-                "attachCimaiseAlbum": "",
-                "moderate": ""
+                "view": "Näytä",
+                "viewExif": "Näytä Exif tiedot (sisältäen sijainnin)",
+                "createPersonalAlbums": "Luo henkilökohtaisia albumeita",
+                "createCommunityAlbums": "Luo yhteisön albumeita",
+                "editOwnAlbum": "Vaihtaa oman albumin otsikkoa ja kuvausta",
+                "hideOwnAlbum": "Piilottaa oma albumi",
+                "uploadPictures": "Siirtää kuvia",
+                "uploadPersonalPicturesWithoutApproval": "Siirtää kuvia ilman hyväksyntää henkilökohtaiseen albumiin",
+                "uploadCommunityPicturesWithoutApproval": "Siirtää kuvia ilman hyväksyntää yhteisön albumiin",
+                "editOwnImage": "Käyttää kuvan muokkainta omiin kuviin (leikkaus, maskit ja tarrat)",
+                "editOwnPublishedImage": "Käyttää kuvan muokkainta omiin kuviin julkaisun jälkeen",
+                "licenseOwnPublishedPicture": "Vaihtaa oman kuvan lisenssiä julkaisun jälkeen",
+                "renameOwnPublishedPicture": "Vaihda oman kuvan otsikkoa ja kuvausta julkaisun jälkeen",
+                "hideOwnPicture": "Piilota oma kuva",
+                "publishSilently": "Julkaise kuvia hiljaisesti (ilman tapahtuma viestejä)",
+                "attachCimaiseAlbum": "Käsin liittää albumeita keskusteluun",
+                "moderate": "Moderoida"
             },
             "settings": {
-                "watermarkFile": "",
-                "watermarkFileHelp": "",
-                "watermarkPlacement": "",
+                "watermarkFile": "Kuvan vesileima",
+                "watermarkFileHelp": "Toimitettu kuva laitetaan 1:1 jokaiseen siirtoon paitsi pienimpään esikatseluun.",
+                "watermarkPlacement": "Vesileiman sijainti",
                 "watermarkPlacementOptions": {
-                    "topLeft": "",
-                    "bottomLeft": "",
-                    "topRight": "",
-                    "bottomRight": ""
+                    "topLeft": "Vasen ylänurkka",
+                    "bottomLeft": "Vasen alanurkka",
+                    "topRight": "Oikea ylänurkka",
+                    "bottomRight": "Oikea alanurkka"
                 },
-                "autoCreateDiscussionAlbum": "",
-                "autoCreateDiscussionAlbumHelp": "",
-                "neverSyncDiscussionAlbumTitles": "",
-                "neverSyncDiscussionAlbumTitlesHelp": "",
-                "columnTheme": "",
-                "columnThemeHelp": "",
-                "mapboxToken": "",
-                "mapboxTokenHelp": "",
-                "requireLicense": "",
-                "requireLicenseHelp": "",
-                "licenses": "",
-                "license-key": "",
-                "license-label": "",
-                "license-description": "",
-                "license-add": "",
-                "stickers": "",
-                "sticker-key": "",
-                "sticker-label": "",
-                "sticker-url": "",
-                "sticker-add": ""
+                "autoCreateDiscussionAlbum": "Automaattisesti luo albumi joka keskustelulle",
+                "autoCreateDiscussionAlbumHelp": "Automaattisesti luo uuden albumin samalla otsikolla, kuin keskustelun otsikko ja aloittaja. Tämä ominaisuus ohittaa albumin luonti oikeuden ja toimii kaikilla avainsanoilla.\n",
+                "neverSyncDiscussionAlbumTitles": "Älä koskaan synkronisoi keskusteluja ja albumin otsikoita",
+                "neverSyncDiscussionAlbumTitlesHelp": "Oletuksena linkitetyt albumit ovat samalla otsikolla kuin keskustelut ja ne nimetään uudelleen mikäli otsikko vaihtuu. Jos albumi nimetään uudelleen käsin, ei se nimeä keskustelun otsikkoa uudelleen.\n",
+                "columnTheme": "Sarakkeen teema",
+                "columnThemeHelp": "Käytä sivu paneelin tyylittelyä kun näytetään kuvia ala paneelin sijaan.",
+                "mapboxToken": "Mapbox tunniste",
+                "mapboxTokenHelp": "Syötä toimiva tunniste, jotta näytetään sijainti kartta kuvan meta tietojen alla.",
+                "requireLicense": "Pakota lisenssin valinta",
+                "requireLicenseHelp": "Oletuksena käyttäjä voi ohittaa lisenssin valinta. Ota huomioon sivustosi ehdoissa mitä tehdään medialle, jolla ei ole määriteltyä lisenssiä.\n",
+                "licenses": "Lisenssit",
+                "license-key": "Avain",
+                "license-label": "Nimiö",
+                "license-description": "Kuvaus",
+                "license-add": "Lisää lisenssi",
+                "stickers": "Tarrat",
+                "sticker-key": "Avain",
+                "sticker-label": "Nimiö",
+                "sticker-url": "Osoite",
+                "sticker-add": "Lisää tarra"
             }
         },
         "api": {
             "post-edit": {
-                "cannotAttachToNonComment": "",
-                "cannotFindPicturesFromRelation": "",
-                "cannotAttachHasNoAlbum": "",
-                "cannotAttachAlreadySubmitted": "",
-                "cannotAttachFromExternalAlbum": "",
-                "cannotAttachUnauthorized": ""
+                "cannotAttachToNonComment": "Kuvat eivät voi olla manuaalisesti liitettynä ei kommentti tyyppisiin viesteihin",
+                "cannotFindPicturesFromRelation": "Pyydettyjä kuvia ei löytynyt tietokannasta",
+                "cannotAttachHasNoAlbum": "Keskusteluun ei ole liitetty albumia",
+                "cannotAttachAlreadySubmitted": "Kuvaa {id} ei voida liittää sillä se on jo lisätty",
+                "cannotAttachFromExternalAlbum": "Kuvaa {id} ei voida liittää sillä se kuuluu ulkopuoliseen albumiin",
+                "cannotAttachUnauthorized": "Kuvaa {id} ei voida liittää sillä se ei kuulu sinulle"
             }
         },
         "ref": {
-            "albums": "",
-            "pictures": "",
-            "loading": "",
-            "load-more": "",
-            "controls": "",
-            "restore": "",
-            "hide": "",
-            "delete": "",
-            "by-user": ""
+            "albums": "Albumit",
+            "pictures": "Kuvat",
+            "loading": "Ladataan...",
+            "load-more": "Lataa lisää",
+            "controls": "Toiminnot",
+            "restore": "Palauta",
+            "hide": "Piilota",
+            "delete": "Poista",
+            "by-user": "käyttäjä"
         }
     }
 }
