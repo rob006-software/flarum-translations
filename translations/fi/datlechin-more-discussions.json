@@ -5,21 +5,21 @@
                 "block_name_label": "Lohkon nimi",
                 "block_name_help": "Lohkon nimi (oletus <code>Viimeisimmät keskustelut</code>)",
                 "discussion_limit_label": "Keskustelujen määrä",
-                "discussion_limit_help": "",
-                "filter_by_label": "",
-                "filter_by_help": "",
+                "discussion_limit_help": "Näytettävien keskustelujen määrä (oletus <code>5</code>)",
+                "filter_by_label": "Suodatus",
+                "filter_by_help": "Suodata keskusteluja (oletus: <code>viimeisin</code>)",
                 "filter_dropdown": {
-                    "latest": "",
-                    "top": "",
-                    "newest": "",
-                    "oldest": "",
-                    "hot": "",
-                    "votes": ""
+                    "latest": "Viimeisin",
+                    "top": "Parhaat",
+                    "newest": "Uusimmat",
+                    "oldest": "Vanhimmat",
+                    "hot": "Suositut (vaatii fof/gamification)",
+                    "votes": "Tykkäykset (vaatii fof/gamification)"
                 }
             }
         },
         "forum": {
-            "block_default_name": ""
+            "block_default_name": "Viimeisimmät keskustelut"
         }
     }
 }
