@@ -2,32 +2,32 @@
     "clarkwinkelmann-predefined-avatars": {
         "admin": {
             "settings": {
-                "predefinedAvatarsOnly": "",
-                "predefinedAvatarsOnlyHelp": "",
-                "predefinedAvatarsNoRemove": "",
-                "predefinedAvatarsNoRemoveHelp": "",
-                "predefinedAvatarsDefault": "",
-                "predefinedAvatarsDefaultHelp": "",
-                "predefinedAvatars": "",
-                "predefinedAvatarsHelp": "",
+                "predefinedAvatarsOnly": "Salli vain ennaltamäärätyt avatarit",
+                "predefinedAvatarsOnlyHelp": "Poistaa käytöstä omien avatarien käytön ellei ole erikseen oikeutta siihen.",
+                "predefinedAvatarsNoRemove": "Pakota avatarin laitto",
+                "predefinedAvatarsNoRemoveHelp": "Käyttäjät joilla on jo muokattu tai ennaltamääritetty avatar ei voi palata käyttämään oletuksena olevia \"nimikirjaimia\" ellei heillä ole oikeuksia.",
+                "predefinedAvatarsDefault": "Oletus avatar",
+                "predefinedAvatarsDefaultHelp": "On käytössä uusille käyttäjille rekisteröinnissä.",
+                "predefinedAvatars": "Käytössä olevat avatarit",
+                "predefinedAvatarsHelp": "Tiedostoja ei muokata. Kompressoi ja laita tiedostot oikeaan kokoon ennen siirtoa. Flarum toimii neliömuotoislla 100x100 png tai jpg kuvilla, mutta voit ottaa hyödyksi muita kokoja muokatun CSS koodin avulla.\n",
                 "defaultOptions": {
-                    "none": "",
-                    "first": "",
-                    "random": ""
+                    "none": "Ei avataria",
+                    "first": "Ensimmäinen avatar listasta",
+                    "random": "Satunnainen avatar listasta"
                 }
             },
             "permissions": {
-                "setPredefinedAvatar": "",
-                "setCustomAvatarAlways": ""
+                "setPredefinedAvatar": "Valitse avatar ennaltamäärätystä listasta",
+                "setCustomAvatarAlways": "Aseta muokattu avatar milloin tahansa"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "imageAlt": ""
+                "title": "Valitse avatar",
+                "imageAlt": "Avatar"
             },
             "editor": {
-                "setPredefinedAvatar": ""
+                "setPredefinedAvatar": "Valitse ennaltamäärätty avatar"
             }
         }
     }
