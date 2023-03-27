@@ -149,24 +149,24 @@
         },
         "api": {
             "error": {
-                "invalid_filter_taxonomy": "",
-                "discussion_taxonomy_not_in_scope": "",
-                "cannot_use_taxonomies_on_model": ""
+                "invalid_filter_taxonomy": "Virheellinen \"{type}\" taksonomia suodattimen avain \"{slug}\"",
+                "discussion_taxonomy_not_in_scope": "Taksonomia \"{slug}\" ei ole käytössä valituille avainsanoille",
+                "cannot_use_taxonomies_on_model": "Et saa käyttää taksonomioita tässä yhteydessä"
             }
         },
         "ref": {
             "field": {
-                "name": "",
-                "slug": "",
-                "description": "",
-                "color": "",
-                "icon": "",
-                "iconDescription": ""
+                "name": "Nimi",
+                "slug": "Tunniste",
+                "description": "Kuvaus",
+                "color": "Väri",
+                "icon": "Ikoni",
+                "iconDescription": "Syötä minkä tahansa <a>FontAwesome</a> ikonin luokka (class), <em>sisällyttäen</em> <code>fas fa-</code> etuliitteen."
             },
-            "delete": "",
+            "delete": "Poista",
             "submit": {
-                "new": "",
-                "edit": ""
+                "new": "Luo",
+                "edit": "Tallenna"
             }
         }
     }
