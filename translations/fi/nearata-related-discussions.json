@@ -2,27 +2,27 @@
     "nearata-related-discussions": {
         "admin": {
             "settings": {
-                "allow_guests": "",
-                "generator": "",
+                "allow_guests": "Salli vieraat",
+                "generator": "Näyttötapa",
                 "generator_options": {
-                    "random": "",
-                    "title": ""
+                    "random": "Satunnainen",
+                    "title": "Otsikon mukaan"
                 },
-                "max_discussions": "",
-                "max_discussions_help": "",
-                "position": "",
+                "max_discussions": "Keskustelujen määrä",
+                "max_discussions_help": "Oletus on <strong>5</strong>.",
+                "position": "Sijainti",
                 "position_options": {
-                    "first_post": "",
-                    "last_post": "",
-                    "reply_block": ""
+                    "first_post": "Ensimmäisen viestin jälkeen",
+                    "last_post": "Viimeisen viestin jälkeen",
+                    "reply_block": "Vastaus lohkon jälkeen"
                 },
-                "cache": "",
-                "cache_help": ""
+                "cache": "Välimuisti",
+                "cache_help": "Arvon muodon pitää olla <strong>0-31d0-23h0-59m</strong>"
             }
         },
         "forum": {
-            "discussion_list_title": "",
-            "no_results": ""
+            "discussion_list_title": "Liittyvät keskustelut",
+            "no_results": "Liittyviä keskusteluita ei löytynyt"
         }
     }
 }
