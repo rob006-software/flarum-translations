@@ -1,25 +1,25 @@
 {
     "davwheat-share": {
         "admin": {
-            "browser_support_notice": "",
+            "browser_support_notice": "\"Jaa\" vaihtoehto näkyy vain laitteille, jotka tukevat Web Share APIa. <a>Katso tuki eri selaimille.</a>",
             "display_options": {
-                "icon": "",
-                "text": "",
-                "menu": ""
+                "icon": "Vain ikoni",
+                "text": "Vain teksti",
+                "menu": "Toimintovalikon sisällä"
             },
-            "display_options_label": "",
-            "button_preview_header": "",
+            "display_options_label": "Jako napin näyttö",
+            "button_preview_header": "Esikatselu",
             "preview": {
-                "reply": "",
+                "reply": "Vastaa",
                 "dropdown": {
-                    "edit": "",
-                    "delete": ""
+                    "edit": "Muokkaa",
+                    "delete": "Poista"
                 }
             }
         },
         "lib": {
-            "share": "",
-            "share_a11y_label": ""
+            "share": "Jaa",
+            "share_a11y_label": "Jaa viesti"
         }
     }
 }
