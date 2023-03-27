@@ -17,37 +17,37 @@
             },
             "controls": {
                 "set-unread": "Позначити як непрочитане",
-                "remove-unread": ""
+                "remove-unread": "Видалити непрочитане"
             },
             "badges": {
                 "following": "=> flarum-subscriptions.forum.badge.following_tooltip",
                 "ignoring": "=> flarum-subscriptions.forum.badge.ignoring_tooltip",
-                "unread": ""
+                "unread": "Позначено як непрочитане"
             },
             "modal": {
-                "title": "",
-                "up-to-this-post": "",
-                "past-this-post": "",
-                "to-the-end": "",
-                "behind": ""
+                "title": "Читачі",
+                "up-to-this-post": "Користувачі, які дочитали до цього посту",
+                "past-this-post": "Користувачі, які дочитали до цього повідомлення",
+                "to-the-end": "Користувачі, які дочитали до кінця",
+                "behind": "Користувачі, які не дочитали до кінця"
             }
         },
         "admin": {
             "permissions": {
-                "see-read": "",
-                "see-subscription": "",
-                "see-unread": "",
-                "mark-unread": ""
+                "see-read": "Подивіться стан зчитування",
+                "see-subscription": "Переглянути стан підписки",
+                "see-unread": "Переглядайте стан непрочитаних повідомлень інших користувачів",
+                "mark-unread": "Позначити обговорення як непрочитані для свого користувача"
             },
             "settings": {
-                "show-in-discussion-list": "",
-                "show-in-hero": "",
-                "show-between-posts": "",
-                "show-count-of-readers-who-stopped": "",
-                "hide-when-behind": "",
-                "max-visible": "",
-                "unread-icon": "",
-                "only-groups": ""
+                "show-in-discussion-list": "Показати читачів у списку обговорення",
+                "show-in-hero": "Показати читачам героя дискусії",
+                "show-between-posts": "Показувати статус прочитання між повідомленнями",
+                "show-count-of-readers-who-stopped": "Показувати кількість користувачів, які припинили читати, замість загальної кількості прочитаних між публікаціями",
+                "hide-when-behind": "Повністю приховати користувача, якщо він має таку кількість повідомлень",
+                "max-visible": "Максимальна кількість користувачів, яку потрібно показати перед \"читати далі\"",
+                "unread-icon": "Іконка для непрочитаного бейджа",
+                "only-groups": "Показувати статус читання лише для користувачів, які належать до цих груп"
             }
         }
     }
