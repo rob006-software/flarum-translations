@@ -11,7 +11,7 @@
         },
         "forum": {
             "followed": "Seurattu",
-            "followers": "Seuraajat",
+            "followers": "{count, plural, one {Seuraaja} other {Seuraajaa}}",
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
                 "no_following": "Näyttää siltä, että et seuraa ketään."
