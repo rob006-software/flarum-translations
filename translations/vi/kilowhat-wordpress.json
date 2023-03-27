@@ -37,6 +37,10 @@
                 "excerpt_html_whitelist": "Danh sách trắng các thẻ HTML cần giữ trong đoạn trích (phân tách bằng dấu phẩy)",
                 "excerpt_html_nodes": "Độ dài của đoạn trích nội dung (tính theo số nút HTML)",
                 "excerpt_length": "Độ dài của đoạn trích nội dung (tính bằng ký tự)",
+                "post_thumbnail_summary": "",
+                "post_thumbnail_list": "",
+                "comment_author_sync": "",
+                "comment_author_sync_help": "",
                 "comment_tag": "Gắn thẻ cho các chủ đề bình luận mới",
                 "comment_tag_none": "Không gán một thẻ",
                 "comment_tag_custom": "Tuỳ chỉnh giá trị",
@@ -136,7 +140,8 @@
                 "title": "",
                 "message": "",
                 "open": ""
-            }
+            },
+            "thumbnail_alt_fallback": ""
         },
         "api": {
             "blocked_actions": {

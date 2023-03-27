@@ -37,6 +37,10 @@
                 "excerpt_html_whitelist": "Alıntıda kullanılacak HTML etiketlerinin beyaz listesi (virgülle ayrılmış)",
                 "excerpt_html_nodes": "İçerik alıntısının uzunluğu (HTML etiketleri sayısı olarak)",
                 "excerpt_length": "İçerik alıntısının uzunluğu (karakter olarak)",
+                "post_thumbnail_summary": "",
+                "post_thumbnail_list": "",
+                "comment_author_sync": "",
+                "comment_author_sync_help": "",
                 "comment_tag": "Yeni yorum konuları için etiketleyin",
                 "comment_tag_none": "Etiket atama",
                 "comment_tag_custom": "Özel değerler",
@@ -136,7 +140,8 @@
                 "title": "Yorum dizisinden çık",
                 "message": "Sayfa sizi {href} sayfasına yönlendirmeye çalışıyor",
                 "open": "Bağlantıyı açın"
-            }
+            },
+            "thumbnail_alt_fallback": ""
         },
         "api": {
             "blocked_actions": {

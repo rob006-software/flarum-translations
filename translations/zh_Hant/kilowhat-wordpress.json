@@ -37,6 +37,10 @@
                 "excerpt_html_whitelist": "要保留在摘錄中的 HTML 標籤白名單（半角逗號分隔）",
                 "excerpt_html_nodes": "內容摘錄的長度（以 HTML 節點數為單位）",
                 "excerpt_length": "內容摘錄的長度（以字符為單位）",
+                "post_thumbnail_summary": "",
+                "post_thumbnail_list": "",
+                "comment_author_sync": "",
+                "comment_author_sync_help": "",
                 "comment_tag": "新評論主題貼的標籤",
                 "comment_tag_none": "不分配標籤",
                 "comment_tag_custom": "自定義值",
@@ -136,7 +140,8 @@
                 "title": "離開評論",
                 "message": "這個頁面將帶您前往{href}",
                 "open": "打開連結"
-            }
+            },
+            "thumbnail_alt_fallback": ""
         },
         "api": {
             "blocked_actions": {

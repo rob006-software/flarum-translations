@@ -37,6 +37,10 @@
                 "excerpt_html_whitelist": "要保留在摘录中的 HTML 标签白名单（半角逗号分隔）",
                 "excerpt_html_nodes": "内容摘录的长度（以 HTML 节点数为单位）",
                 "excerpt_length": "内容摘录的长度（以字符为单位）",
+                "post_thumbnail_summary": "",
+                "post_thumbnail_list": "",
+                "comment_author_sync": "",
+                "comment_author_sync_help": "",
                 "comment_tag": "新评论主题贴的标签",
                 "comment_tag_none": "不分配标签",
                 "comment_tag_custom": "自定义值",
@@ -136,7 +140,8 @@
                 "title": "",
                 "message": "",
                 "open": ""
-            }
+            },
+            "thumbnail_alt_fallback": ""
         },
         "api": {
             "blocked_actions": {

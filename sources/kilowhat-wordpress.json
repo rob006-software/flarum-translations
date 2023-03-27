@@ -37,6 +37,10 @@
                 "excerpt_html_whitelist": "Whitelist of HTML tags to keep in the excerpt (comma separated)",
                 "excerpt_html_nodes": "Length of the content excerpt (in number of HTML nodes)",
                 "excerpt_length": "Length of the content excerpt (in characters)",
+                "post_thumbnail_summary": "Show WordPress post thumbnail above excerpt",
+                "post_thumbnail_list": "Show WordPress post thumbnail in Flarum discussion list",
+                "comment_author_sync": "Assign discussion author from SSO",
+                "comment_author_sync_help": "If the Wordpress author has created a Flarum account through SSO, that Flarum account will be set as the comment discussion owner.",
                 "comment_tag": "Tag for new comment threads",
                 "comment_tag_none": "Do not assign a tag",
                 "comment_tag_custom": "Custom values",
@@ -136,7 +140,8 @@
                 "title": "Exit comment thread",
                 "message": "The page is trying to redirect you to {href}",
                 "open": "Open link"
-            }
+            },
+            "thumbnail_alt_fallback": "WordPress post thumbnail"
         },
         "api": {
             "blocked_actions": {
