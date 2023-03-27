@@ -3,19 +3,19 @@
         "admin": {
             "labels": {
                 "buttons": {
-                    "yes": "",
-                    "yes_help": "",
-                    "yes_default": "",
-                    "no": "",
-                    "no_help": ""
+                    "yes": "Syötä napin teksti",
+                    "yes_help": "Yleensä 'Syötä' tai 'Kyllä'",
+                    "yes_default": "Kyllä",
+                    "no": "Sulje napin teksti",
+                    "no_help": "Yleensä 'Sulje' tai 'Ei'"
                 },
                 "messages": {
-                    "consent_prompt": "",
-                    "consent_prompt_help": "",
-                    "left_blurb": "",
-                    "left_blurb_help": "",
-                    "left_blurb_background": "",
-                    "left_blurb_background_help": ""
+                    "consent_prompt": "Kysy käyttäjältä hyväksyntää?",
+                    "consent_prompt_help": "Kyllä/ei nappien ylläoleva teksti.",
+                    "left_blurb": "Foorumin tarkoitus/käyttö teksti",
+                    "left_blurb_help": "Ohjeistaa käyttäjää miksi tämä sivu on ikärajoitettu.",
+                    "left_blurb_background": "Taustakuvan osoite",
+                    "left_blurb_background_help": "sisällytä http(s)://"
                 }
             }
         }
