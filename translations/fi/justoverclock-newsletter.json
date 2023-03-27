@@ -1,18 +1,18 @@
 {
     "flarum-ext-newsletter": {
         "admin": {
-            "pubacc": "",
-            "pubaccdesc": "",
-            "listn": "",
-            "listndesc": ""
+            "pubacc": "Julkinen tilin ID",
+            "pubaccdesc": "Löydä tilisi julkinen ID täältä https://elasticemail.com/account#/account/security",
+            "listn": "Listan nimi",
+            "listndesc": "Lisää tähän listan nimi minkä loit elastcimailin puolella"
         },
         "forum": {
-            "subscribe": "",
-            "submitbutton": "",
-            "modalthanku": "",
-            "modaltext": "",
-            "accept": "",
-            "prconsent": ""
+            "subscribe": "Tilaa uutiskirjeemme. Syötä sähköpostisi ja klikkaa Lähetä painiketta.",
+            "submitbutton": "Lähetä",
+            "modalthanku": "Kiitos!",
+            "modaltext": "Olet tilannut uutiskirjeemme.",
+            "accept": "Haluan tilata uutiskirjeen",
+            "prconsent": "Yksityisyys"
         }
     }
 }
