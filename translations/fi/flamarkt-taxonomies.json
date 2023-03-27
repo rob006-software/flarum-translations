@@ -2,149 +2,149 @@
     "flamarkt-taxonomies": {
         "admin": {
             "menu": {
-                "title": "",
-                "discussions": "",
-                "users": "",
-                "products": ""
+                "title": "Taksonomiat",
+                "discussions": "Keskustelun taksonomiat",
+                "users": "Käyttäjän taksonomiat",
+                "products": "Tuotteen taksonomiat"
             },
             "page": {
-                "title": "",
+                "title": "Taksonomiat",
                 "create": {
-                    "taxonomy": "",
-                    "term": ""
+                    "taxonomy": "Luo taksonomia",
+                    "term": "Luo termi"
                 },
-                "reset-term-order": ""
+                "reset-term-order": "Nollaa termien lista aakkosjärjestykseen"
             },
             "edit-taxonomy": {
                 "title": {
-                    "new": "",
-                    "edit": ""
+                    "new": "Luo taksonomia",
+                    "edit": "Muokkaa taksonomiaa"
                 },
                 "section": {
-                    "info": "",
-                    "filling": "",
-                    "browsing": "",
-                    "scope": ""
+                    "info": "Tiedot",
+                    "filling": "Täyte",
+                    "browsing": "Selaaminen",
+                    "scope": "Laajuus"
                 },
                 "field": {
-                    "type": "",
-                    "typeDescription": "",
-                    "name": "",
-                    "slug": "",
-                    "description": "",
-                    "color": "",
-                    "icon": "",
-                    "iconDescription": "",
-                    "showLabel": "",
-                    "showLabelDescription": "",
-                    "enableFilter": "",
-                    "enableFilterDescription": "",
-                    "showFilter": "",
-                    "showFilterDescription": "",
-                    "enableFulltextSearch": "",
-                    "enableFulltextSearchDescription": "",
-                    "enableFulltextSearchWarning": "",
-                    "allowCustomValues": "",
-                    "customValueValidation": "",
-                    "customValueSlugger": "",
-                    "customValueSluggerDescription": "",
-                    "countRequired": "",
-                    "countRequiredDescription": "",
-                    "rangeSeparatorText": "",
-                    "tagScope": "",
-                    "tagScopeDescription": "",
-                    "tagScopePlaceholder": ""
+                    "type": "Tyyppi",
+                    "typeDescription": "Taksonomeja voidaan käyttää useissa Flarumin resursseissa. Tyyppiä ei voi vaihtaa luonnin jälkeen. Voit käyttää identtistä nimeä ja tunnistetta eri tyyppisillä taksonomioille.\n",
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription",
+                    "showLabel": "Näytä taksonomian nimike termien kanssa",
+                    "showLabelDescription": "Näytä tyylit keskustelujen listassa ja yläosassa. Ei käytetä muille resurssi tyypeille.\n",
+                    "enableFilter": "Ota käyttöön kysely-lauseke/API suodattimet",
+                    "enableFilterDescription": "Ottaa käyttöön syvälinkityksen taksonomien suodattimissa keskusteluihin, käyttäjiin ja tuotteisiin joilla on oikeus \"näe kaikki\" kyseiseen taksonomiaan. Tämä sallii myös saman käyttäjän hakea suodattimia REST API kautta. Ilman \"Näytä suodattimet\" asetusta käyttäjillä ei ole mitään selkeää tapaa nähdä linkkejä käyttäjille ja tuotteille. Keskusteluissa syvälinkki löytyy yläosasta vaikka \"näytä suodattimet\" on pois käytöstä.\n",
+                    "showFilter": "Näytä suodattimet listaus sivuilla",
+                    "showFilterDescription": "Näytä suodattimet tavallisille käyttäjille keskustelujen listauksessa, käyttäjä listauksessa tai kaupan sivulla. Toimii vain jos \"Ota käyttöön suodattimet\" on käytössä. Kaupan ylläpitäjät voivat suodattaa minkä tahansa mukaan hallinnassa.\n",
+                    "enableFulltextSearch": "Indeksi termit teksti hakua varten",
+                    "enableFulltextSearchDescription": "Tällä on merkitystä vain jos Scout integraatio on käytössä. Termin nimi tulee saataville fulltext haussa tavallisille käyttäjille. Tämä data on myös käytössä kaikille käyttäjille joilla on oikeus listata resurssi (Näytä foorumi\" keskusteluille, \"Hae käyttäjää\" käyttäjille ja kaikille tuotteissa), käyttäjillä joilla ei ole oikeutta nähdä taksonomia ei kuitenkaan ole oikeutta. Sinun täytyy käsin rakentaa Scout hakuindeksi uudelleen resurssille, kun olet vaihtanut tätä asetusta olemassa oleville taksonomioilla, sama jos poistat taksonomia ja termejä on määritetty.\n",
+                    "enableFulltextSearchWarning": "Sinun oikeudet hakeaksesi resurssia (\"Näytä foorumi\" keskusteluille, \"Hae käyttäjiä\" käyttäjille) ovat eri kuin Taksonomian \"näe kaikkI\" oikeudet. Ennen tämän käyttöön ottoa olethan huomioinut että otat datan haettavaksi käyttäjille, jotka eivät normaalisti näkisi taksonomioita!\n",
+                    "allowCustomValues": "Salli muokatut arvot",
+                    "customValueValidation": "Muokattujen arvojen tarkastus",
+                    "customValueSlugger": "Tunnisteen tekijä muokatuille arvoille",
+                    "customValueSluggerDescription": "Valitse miten haluat, että tunniste luodaan. Jos tunniste on jo olemassa niin numeerinen alku lisätään automaattisesti. Transliterator vaihtoehdolle sinun pitää asentaa ja määrittää toinen lisäosa ennakkoon.\n",
+                    "countRequired": "Termien tarvittava määrä",
+                    "countRequiredDescription": "Syötä minimi ja maksimi määrä termejä tästä taksonomiasta jotka pitää olla kyseisestä resurssista.\n",
+                    "rangeSeparatorText": "-",
+                    "tagScope": "Vain määrätyillä avainsanoilla",
+                    "tagScopeDescription": "Taksonomia on käytössä vain valituilla avainsanoilla. Jos valitset yhden avainsanan, kotisivu suodatin on käytössä vain kyseisessä avainsanassa.\n",
+                    "tagScopePlaceholder": "Kirjoita hakeaksesi avainsanaa..."
                 },
-                "delete": "",
-                "deleteConfirmation": "",
+                "delete": "=> flamarkt-taxonomies.ref.delete",
+                "deleteConfirmation": "Haluatko varmasti poistaa taksonomian {name}? Kaikki taksonomian termit poistetaan. Keskusteluja, jotka käyttävät tätä taksonomiaa EI poisteta.\n",
                 "submit": {
-                    "new": "",
-                    "edit": ""
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
                 },
                 "type-options": {
-                    "products": "",
-                    "discussions": "",
-                    "users": ""
+                    "products": "Tuotteet",
+                    "discussions": "Keskustelut",
+                    "users": "Käyttäjät"
                 },
                 "validation-options": {
-                    "default": "",
-                    "alpha_num": "",
-                    "alpha_dash": "",
-                    "regex": ""
+                    "default": "Mikä tahansa tekstiarvo",
+                    "alpha_num": "Alfanumeerinen arvo",
+                    "alpha_dash": "Alfanumeerinen arvo ja viivoja/alaviivoja",
+                    "regex": "Säännöllinen lauseke"
                 },
                 "slugger-options": {
-                    "random": "",
-                    "alpha_dash": "",
-                    "transliterator": ""
+                    "random": "Satunnainen tunniste",
+                    "alpha_dash": "ASCII alfanumeerinen tunnisteen luoja",
+                    "transliterator": "Käytä FoF Transliterator lisäosaa"
                 }
             },
             "edit-term": {
                 "title": {
-                    "new": "",
-                    "edit": ""
+                    "new": "Luo termi",
+                    "edit": "Muokkaa termiä"
                 },
                 "field": {
-                    "name": "",
-                    "slug": "",
-                    "description": "",
-                    "color": "",
-                    "icon": "",
-                    "iconDescription": ""
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription"
                 },
-                "delete": "",
-                "deleteConfirmation": "",
+                "delete": "=> flamarkt-taxonomies.ref.delete",
+                "deleteConfirmation": "Haluatko varmasti poistaa termin {name}? Termiä käyttäviä keskusteluita EI poisteta.\n",
                 "submit": {
-                    "new": "",
-                    "edit": ""
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
                 }
             },
             "permissions": {
-                "heading": "",
-                "moderate": "",
-                "bypassTermCounts": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "ownDisabledEveryone": "",
-                "ownDisabledMembers": ""
+                "heading": "Taksonomiat",
+                "moderate": "Muokkaa saatavilla olevia taksonomioita",
+                "bypassTermCounts": "Ohita termin määrä vaatimukset",
+                "seeOwnDiscussion": "Näe oman keskustelun taksonomiat",
+                "seeAnyDiscussion": "Näe kaikkien keskusteluiden taksonomiat",
+                "editOwnDiscussion": "Muokkaa oman keskustelun taksonomioita",
+                "editAnyDiscussion": "Muokkaa minkä tahansa keskustelun taksonomioita",
+                "seeOwnUser": "Näe oman käyttäjän taksonomiat",
+                "seeAnyUser": "Näe minkä tahansa käyttäjän taksonomiat",
+                "editOwnUser": "Muokkaa oman käyttäjän taksonomioita",
+                "editAnyUser": "Muokkaa minkä tahansa käyttäjän taksonomioita",
+                "ownDisabledEveryone": "Ei aktiiviset ja estetyt käyttäjät",
+                "ownDisabledMembers": "Aktivoidut käyttäjät"
             },
             "settings": {
-                "goToPage": ""
+                "goToPage": "Mene asetussivulle"
             }
         },
         "forum": {
             "composer": {
-                "choose": ""
+                "choose": "Valitse {taxonomy}"
             },
             "discussion": {
-                "edit": ""
+                "edit": "Muokkaa {taxonomy}"
             },
             "user": {
-                "nav": "",
-                "edit": ""
+                "nav": "Taksonomiat",
+                "edit": "Muokkaa {taxonomy}"
             },
             "blog": {
                 "widget": {
-                    "title": ""
+                    "title": "Taksonomiat"
                 }
             }
         },
         "lib": {
             "modal": {
                 "title": {
-                    "new": "",
-                    "edit": ""
+                    "new": "Valitse {taxonomy} keskustelullesi",
+                    "edit": "Muokkaa {taxonomy} resurssille {title}"
                 },
-                "placeholder": "",
-                "placeholderOptional": "",
-                "custom": "",
-                "bypassTermCounts": "",
-                "submit": ""
+                "placeholder": "{count, plural, one {Valitse termi...} other {Valitse # termiä...}}",
+                "placeholderOptional": "Valitse...",
+                "custom": "Käytä {value}",
+                "bypassTermCounts": "Ohita termien määrät",
+                "submit": "OK"
             }
         },
         "api": {
