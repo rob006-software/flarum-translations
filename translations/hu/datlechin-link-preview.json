@@ -5,17 +5,17 @@
                 "blacklist_label": "Tiltólista",
                 "blacklist_help": "Adja meg a domainek vagy webcímek vesszővel elválasztott listáját, hogy kizárja azokat a hivatkozás-előnézetből.",
                 "blacklist_placeholder": "például facebook.com,https://example.com/útvonal",
-                "whitelist_label": "",
-                "whitelist_help": "",
-                "whitelist_placeholder": "",
+                "whitelist_label": "Fehérlista",
+                "whitelist_help": "Adja meg a domainek vagy webcímek vesszővel elválasztott listáját, melyeknél engedélyezett a hivatkozás-előnézet.",
+                "whitelist_placeholder": "például facebook.com,https://domain.com/path",
                 "convert_media_urls_label": "Médiawebcímek átalakítása",
                 "convert_media_urls_help": "Ha be van kapcsolva, akkor az összes médiawebcímet hivatkozás-előnézetté alakítja.",
-                "use_google_favicons_label": "",
-                "use_google_favicons_help": "",
-                "cache_time_label": "",
-                "cache_time_help": "",
-                "open_links_in_new_tab_label": "",
-                "open_links_in_new_tab_help": ""
+                "use_google_favicons_label": "Google Favicon API használata",
+                "use_google_favicons_help": "Ha be van kapcsolva, akkor a Google szolgáltatását fogja használni a megfelelő oldal faviconjának lekéréséhez.",
+                "cache_time_label": "Gyorsítótárazás ideje",
+                "cache_time_help": "A percek száma, amíg a felkeresett hivatkozások gyorsítótárazva lesznek az újbóli elérésükig. Állítsa 0-ra, hogy ezt kikapcsolja. Ha nincs beállítva, akkor az alapértelmezés 60 perc.",
+                "open_links_in_new_tab_label": "Hivatkozások megnyitása új lapon",
+                "open_links_in_new_tab_help": "Ha be van kapcsolva, akkor a hivatkozások új lapon nyílnak meg."
             }
         },
         "forum": {
