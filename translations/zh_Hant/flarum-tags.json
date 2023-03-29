@@ -51,7 +51,7 @@
         "forum": {
             "all_tags": {
                 "meta_description_text": "全部標籤",
-                "meta_title_text": "標籤"
+                "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
                 "edit_title": "更改「{title}」的標籤",
@@ -76,9 +76,9 @@
                 "untagged_link": "移除標籤"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} 加上了 {tagsAdded} 標籤，並移除 {tagsRemoved} 標籤。",
-                "added_tags_text": "{username} 加上了 {tagsAdded} 標籤 {time}。",
-                "removed_tags_text": "{username} 移除了 {tagsRemoved} 標籤 {time}。",
+                "added_and_removed_tags_text": "{username} 加上了 {tagsAdded} 並移除 {tagsRemoved} {time}。",
+                "added_tags_text": "{username} 加上了 {tagsAdded} {time}。",
+                "removed_tags_text": "{username} 移除了 {tagsRemoved} {time}。",
                 "tags_text": "{count, plural, one {{tags}} other {{tags}}} 標籤"
             },
             "tag": {
