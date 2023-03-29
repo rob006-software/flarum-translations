@@ -2,33 +2,33 @@
     "nearata-cloudflare": {
         "admin": {
             "development_mode_widget": {
-                "title": ""
+                "title": "Режим розробки Cloudflare активний"
             },
             "settings": {
-                "api_key": "",
-                "api_key_help": "",
-                "refresh_zone_button_label": "",
-                "refresh_zone_help": "",
-                "security_level_label": "",
+                "api_key": "Ключ API",
+                "api_key_help": "Дотримуйтесь інструкції <strong><url>Створення маркерів API</url></strong>, щоб створити токен API.",
+                "refresh_zone_button_label": "Оновити ідентифікатор зони",
+                "refresh_zone_help": "Натисніть кнопку вище <strong>тільки</strong>, якщо доменне ім'я змінилося.",
+                "security_level_label": "Рівень безпеки",
                 "security_level_options": {
-                    "off": "",
-                    "essentially_off": "",
-                    "low": "",
-                    "medium": "",
-                    "high": "",
-                    "under_attack": ""
+                    "off": "Вимкнено",
+                    "essentially_off": "Фактично вимкнено",
+                    "low": "Низький",
+                    "medium": "Середній",
+                    "high": "Високий",
+                    "under_attack": "Під атакою"
                 },
                 "minify_setting": {
-                    "section_title": "",
-                    "css": "",
-                    "css_help": "",
-                    "html": "",
-                    "html_help": "",
-                    "js": "",
-                    "js_help": ""
+                    "section_title": "Налаштування мінімізації",
+                    "css": "Мінімізація CSS",
+                    "css_help": "Автоматично мінімізувати всі CSS-файли для вашого веб-сайту.",
+                    "html": "Мінімізація HTML",
+                    "html_help": "Автоматично мінімізувати всі HTML-файли для вашого веб-сайту.",
+                    "js": "Мінімізація JS",
+                    "js_help": "Автоматично мінімізувати всі файли JavaScript для вашого веб-сайту."
                 },
-                "refer_to": "",
-                "confirm_text": ""
+                "refer_to": "Зверніться до <strong><url>цієї сторінки</url></strong> для отримання додаткової інформації.",
+                "confirm_text": "Ви впевнені?"
             }
         }
     }
