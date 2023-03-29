@@ -2,15 +2,15 @@
     "clarkwinkelmann-anonymous-posting": {
         "admin": {
             "settings": {
-                "defaultAnonymity": "",
-                "defaultAnonymityWhenAbleToSwitch": "",
-                "alwaysAnonymiseEdits": "",
-                "alwaysAnonymiseEditsHelp": "",
+                "defaultAnonymity": "Az új tartalmak alapértelmezetten anonimak",
+                "defaultAnonymityWhenAbleToSwitch": "A váltási engedéllyel rendelkező felhasználók új tartalmai alapértelmezetten anonimak",
+                "alwaysAnonymiseEdits": "Szerkesztések állandó anonimizálása",
+                "alwaysAnonymiseEditsHelp": "Alapértelmezetten az anonim szerző szerkesztései/elrejtései anonimizáltak, de a bejegyzést vagy témát szerkesztő moderátor továbbra is megjelenik, mint a szerkesztés/elrejtés szerzője. Ha ez a beállítás be van kapcsolva, akkor a szerkesztés/elrejtés szerzője sosem lesz naplózva az anonim tartalmak esetén.\n",
                 "composerHelpTextPosition": "Szerkesztő súgószövegének pozíciója",
                 "composerHelpTextPositionVisible": "Látható (címke alatt)",
                 "composerHelpTextPositionTooltip": "Buboréksúgó (címke után)",
                 "composerHelpTextPositionHidden": "Rejtett",
-                "composerHelpTextPositionHelp": "",
+                "composerHelpTextPositionHelp": "A jelölőmező és ez a szöveg csak a váltási engedéllyel rendelkező felhasználók számára érhető el.",
                 "avatars": "Névtelen profilképek",
                 "avatarsHelp": "Ehhez a funkcióhoz a prémium <a>Formulaire bővítmény</a> szükséges. A funkció használata némi teljesítménycsökkenéssel jár, mivel további adatbázis-lekérdezések szükségesek a témák és bejegyzések lekéréséhez. A bemenetek formátumának további részleteihez lásd a README fájlt.\n",
                 "avatarFormId": "Űrlapazonosító",
@@ -20,9 +20,9 @@
                 "avatarAdd": "Profilképszabály hozzáadása"
             },
             "permissions": {
-                "use": "Közzététel névtelenül",
+                "use": "Téma anonimmá tételi lehetőségének megjelenítése a szerkesztés során",
                 "reveal": "Névtelenül közzétett témák és bejegyzések valódi szerzőinek felfedése",
-                "moderate": "Tetszőleges téma vagy bejegyzés anonimizálásának megszüntetése"
+                "moderate": "Tetszőleges téma vagy bejegyzés anonimizálása vagy annak megszüntetése"
             }
         },
         "forum": {
