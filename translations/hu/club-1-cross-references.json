@@ -2,25 +2,25 @@
     "club-1-cross-references": {
         "admin": {
             "show_discussion_id": {
-                "label": "",
-                "help": ""
+                "label": "Témaazonosító megjelenítése",
+                "help": "Témaazonosító-számok hozzáadása mindenhol, ahol a téma megjelenik."
             },
             "enable_short_references": {
-                "label": "",
-                "help": ""
+                "label": "Rövid hivatkozások bekapcsolása",
+                "help": "Az üzenetekben található #<AZONOSÍTÓ> szövegek átalakítása (például #42) a megfelelő témára mutató hivatkozásokká."
             },
             "retrofit_links_in_frontend": {
-                "label": "",
-                "help": ""
+                "label": "Hivatkozások felújítása a felületen",
+                "help": "A témahivatkozások címének megjelenítése azoknál az üzeneteknél, amelyek beküldésekor még a bővítmény nem volt bekapcsolva. Ez a felületen történik, így rossz felhasználói élményhez vezethet.\n"
             }
         },
         "forum": {
             "post_stream": {
                 "discussion_referenced_text": "{username} hivatkozott erre a témára a következő helyről: {source}",
-                "discussion_referenced_multiple_text": ""
+                "discussion_referenced_multiple_text": "{username} több forrásból is hivatkozta ezt a témát: {sources}"
             },
-            "unknown_discussion": "",
-            "comment": ""
+            "unknown_discussion": "[ismeretlen téma]",
+            "comment": "hozzászólás"
         }
     }
 }
