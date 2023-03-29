@@ -64,7 +64,7 @@
                 "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
-                "choose_tags_link": "Válasszon címkéket"
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
                 "edit_tags_button": "Címkék szerkesztése"
@@ -78,9 +78,9 @@
                 "untagged_link": "Címke nélküli"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} hozzáadta: {tagsAdded} és eltávolította: {tagsRemoved}.",
-                "added_tags_text": "{username} hozzáadta: {tagsAdded}.",
-                "removed_tags_text": "{username} eltávolította: {tagsRemoved}.",
+                "added_and_removed_tags_text": "{username} {time} hozzáadta: {tagsAdded} és eltávolította: {tagsRemoved}.",
+                "added_tags_text": "{username} {time} hozzáadta: {tagsAdded}.",
+                "removed_tags_text": "{username} {time} eltávolította: {tagsRemoved}.",
                 "tags_text": "{count, plural, one {{tags} címke} other {{tags} címke}}"
             },
             "tag": {
@@ -90,17 +90,17 @@
         "lib": {
             "deleted_tag_text": "Törölve",
             "tag_selection_modal": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "bypass_requirements": "Címke követelményeinek megkerülése",
+                "choose_primary_placeholder": "{count, plural, one {Válasszon egy elsődleges címkét} other {Válasszon # elsődleges címkét}}",
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
             }
         },
         "ref": {
-            "choose_tags": "",
-            "choose_tags_placeholder": "",
+            "choose_tags": "Válasszon címkéket",
+            "choose_tags_placeholder": "{count, plural, one {Válasszon még egy címkét} other {Válasszon még # címkét}}",
             "name": "Név",
             "tags": "Címkék",
             "create_tag": "Tag létrehozása"
