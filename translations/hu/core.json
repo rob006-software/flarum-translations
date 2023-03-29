@@ -11,7 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Egyéni fejléc",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_cannot_use_less_features": "",
+                "custom_styles_cannot_use_less_features": "Az @import és a data-uri funkciók nem engedélyezettek az egyéni LESS forráskódban.",
                 "custom_styles_heading": "Egyéni stílusok",
                 "custom_styles_text": "A fórum megjelenésének testreszabása saját LESS/CSS kód hozzáadásával, amellyel felülírhatja a Flarum alapértelmezett stílusait.",
                 "dark_mode_label": "Sötét mód",
@@ -39,8 +39,8 @@
                 "home_page_heading": "Kezdőlap",
                 "home_page_text": "Válassza ki a fórum látogatói által először látott oldalt.",
                 "show_language_selector_label": "Nyelvválasztó megjelenítése",
-                "slug_driver_heading": "Slug meghajtó: {model}",
-                "slug_driver_text": "Válasszon egy illesztőprogramot, amelyet a modell csatolásához használ.",
+                "slug_driver_heading": "Keresőbarát webcímek illesztőprogramja: {model}",
+                "slug_driver_text": "Válasszon egy illesztőprogramot, amelyet a modell keresőbarát webcímeihez használ.",
                 "title": "Alapok",
                 "welcome_banner_heading": "Üdvözlő banner",
                 "welcome_banner_text": "Állítsa be az „Összes téma” lapon megjelenítendő banner szövegét. Ezt a fórumra érkező látogatók köszöntéséhez használhatja.",
@@ -53,14 +53,14 @@
                 "io_error_message": "Nem sikerült a fájlrendszerre írni. Ellenőrizze a fájlrendszer jogosultságait, és próbálja újra. Vagy futtassa a parancssorból.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "scheduler-status": "Ütemező",
+                        "queue-driver": "Sor illesztőprogramja",
+                        "session-driver": "Munkamenet illesztőprogramja"
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "Aktív",
+                        "inactive": "Inaktív",
+                        "never-run": "Sosem fut"
                     }
                 },
                 "title": "Vezérlőpult",
@@ -200,7 +200,7 @@
             "permissions": {
                 "allow_post_editing_label": "Bejegyzések szerkesztésének engedélyezése",
                 "allow_renaming_label": "Átnevezés engedélyezése",
-                "create_access_token_label": "",
+                "create_access_token_label": "Hozzáférési token létrehozása",
                 "create_heading": "Létrehozás",
                 "delete_discussions_forever_label": "Téma végleges törlése",
                 "delete_discussions_label": "Téma törlése",
@@ -213,14 +213,14 @@
                 "edit_users_groups_label": "Felhasználói csoportok szerkesztése",
                 "global_heading": "Globális",
                 "moderate_heading": "Moderálás",
-                "moderate_access_tokens_label": "",
+                "moderate_access_tokens_label": "Hozzáférési tokenek moderálása",
                 "new_group_button": "Új csoport",
                 "participate_heading": "Közreműködés",
                 "post_without_throttle_label": "Válasz küldése több alkalommal várakozás nélkül",
                 "read_heading": "Olvasás",
                 "rename_discussions_label": "Téma átnevezése",
                 "reply_to_discussions_label": "Válaszolás egy témához",
-                "search_users_label": "Felhasználók keresése",
+                "search_users_label": "=> core.ref.search_users",
                 "sign_up_label": "Regisztráció",
                 "start_discussions_label": "Téma indítása",
                 "title": "Engedélyek",
@@ -254,7 +254,7 @@
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": ""
+                            "title": "Megjelenítendő név"
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
@@ -285,13 +285,13 @@
                 },
                 "pagination": {
                     "back_button": "Előző oldal",
-                    "first_button": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
+                    "first_button": "Ugrás az első oldalra",
+                    "go_to_page_textbox_a11y_label": "Ugrás egy oldalszámhoz",
+                    "last_button": "Ugrás az utolsó oldalra",
                     "next_button": "Következő oldal",
                     "page_counter": "{current}. oldal / {total}"
                 },
-                "search_placeholder": "",
+                "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
                 "total_users": "Felhasználók száma: {count}"
             },
@@ -454,7 +454,7 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "A régi cím: „{old}”",
-                "discussion_renamed_text": "{username} a következőre módosította a címet: {new}.",
+                "discussion_renamed_text": "{username} {time} a következőre módosította a címet: {new}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "Ennyivel később: {period}"
@@ -469,39 +469,39 @@
                 "users_heading": "=> core.ref.users"
             },
             "security": {
-                "browser_on_operating_system": "",
-                "cannot_terminate_current_session": "",
-                "created": "",
-                "current_active_session": "",
-                "developer_tokens_heading": "",
-                "empty_text": "",
+                "browser_on_operating_system": "{browser} ezen: {os}",
+                "cannot_terminate_current_session": "A jelenlegi aktív munkamenet nem fejezhető be. Helyette jelentkezzen ki.",
+                "created": "Létrehozva",
+                "current_active_session": "Jelenlegi aktív munkamenet",
+                "developer_tokens_heading": "Fejlesztői tokenek",
+                "empty_text": "Úgy néz ki, hogy nincs itt semmi.",
                 "global_logout": {
-                    "heading": "",
-                    "help_text": "",
-                    "log_out_button": ""
+                    "heading": "Globális kijelentkezés",
+                    "help_text": "Törli a jelenlegi munkamenetsütit, megszakítja az összes munkamenetet, visszavonja a fejlesztői tokeneket, és érvényteleníti az összes megerősítő vagy jelszó-visszaállító e-mailt.",
+                    "log_out_button": "=> core.ref.log_out"
                 },
-                "hide_access_token": "",
-                "last_activity": "",
-                "never": "",
-                "new_access_token_button": "",
+                "hide_access_token": "Token elrejtése",
+                "last_activity": "Legutóbbi tevékenység",
+                "never": "Soha",
+                "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
-                    "submit_button": "",
-                    "title": "",
-                    "title_placeholder": ""
+                    "submit_button": "Token létrehozása",
+                    "title": "=> core.ref.new_token",
+                    "title_placeholder": "Cím"
                 },
-                "revoke_access_token": "",
-                "revoke_access_token_confirmation": "",
-                "sessions_heading": "",
-                "session_terminated": "",
-                "session_termination_failed": "",
-                "show_access_token": "",
-                "terminate_all_other_sessions": "",
-                "terminate_all_other_sessions_confirmation": "",
-                "terminate_session": "",
-                "title": "",
-                "token_revoked": "",
-                "token_item_title": "",
-                "token_title_placeholder": ""
+                "revoke_access_token": "Visszavonás",
+                "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
+                "sessions_heading": "Aktív munkamenetek",
+                "session_terminated": "{count, plural, one {Munkamenet befejezve} other {# munkamenet befejezve}}.",
+                "session_termination_failed": "Hiba történt a munkamenetek befejezésekor.",
+                "show_access_token": "Token megtekintése",
+                "terminate_all_other_sessions": "Az összes egyéb munkamenet befejezése",
+                "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
+                "terminate_session": "Befejezés",
+                "title": "=> core.ref.security",
+                "token_revoked": "Token visszavonva.",
+                "token_item_title": "{title} – {token}",
+                "token_title_placeholder": "/"
             },
             "settings": {
                 "account_heading": "Fiók",
@@ -537,7 +537,7 @@
                 "posts_empty_text": "Úgy tűnik, hogy egy bejegyzés sincs itt.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
-                "security_link": "",
+                "security_link": "=> core.ref.security",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -583,7 +583,7 @@
                 "toggle_dropdown_accessible_label": "Legördülő menü be/ki"
             },
             "data_segment": {
-                "label": ""
+                "label": "{label}:"
             },
             "edit_user": {
                 "activate_button": "Felhasználó aktiválása",
@@ -603,7 +603,7 @@
                 "dependent_extensions_message": "Nem tilthatja le a(z) {extension} bővítményt, amíg a következő bővítmények engedélyezettek: {extensions}",
                 "extension_initialiation_failed_message": "A(z) {extension} előkészítése sikertelen, további információkért nézze meg a böngészőkonzolt.",
                 "generic_message": "Hoppá! Valami hiba történt. Frissítse az oldalt és próbálja meg újra.",
-                "generic_cross_origin_message": "",
+                "generic_cross_origin_message": "Hoppá! Hiba történt a nem egyező eredetű kérésnél. Töltse újra az oldalt, és próbálja újra.",
                 "missing_dependencies_message": "Nem engedélyezheti a(z) {extension} bővítményt, amíg a következő bővítmények le vannak tiltva: {extensions}",
                 "not_found_message": "A kért erőforrás nem található.",
                 "payload_too_large_message": "A kérés mérete túl nagy volt.",
@@ -739,7 +739,7 @@
             "edit_user": "Felhasználó szerkesztése",
             "email": "E-mail",
             "extensions": "Bővítmények",
-            "generic_confirmation_message": "",
+            "generic_confirmation_message": "Biztos, hogy folytatja? Ez a művelet nem vonható vissza.",
             "icon": "Ikon",
             "icon_text": "Adja meg egy tetszőleges <a>FontAwesome</a> ikonosztály nevét, <em>beleértve</em> a <code>fas fa-</code> előtagot is.",
             "load_more": "Továbbiak betöltése",
@@ -747,7 +747,7 @@
             "log_in": "Bejelentkezés",
             "log_out": "Kijelentkezés",
             "mark_all_as_read": "Összes megjelölése olvasottként",
-            "new_token": "",
+            "new_token": "Új token",
             "next_page": "Következő oldal",
             "notifications": "Értesítések",
             "okay": "OK",
@@ -760,8 +760,8 @@
             "reset_your_password": "Jelszó visszaállítása",
             "restore": "Helyreállítás",
             "save_changes": "Változtatások mentése",
-            "search_users": "",
-            "security": "",
+            "search_users": "Felhasználók keresése",
+            "security": "Biztonság",
             "settings": "Beállítások",
             "sign_up": "Regisztráció",
             "some_others": "{count} további",
