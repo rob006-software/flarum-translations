@@ -2,21 +2,21 @@
     "clarkwinkelmann-sudo-mode": {
         "admin": {
             "settings": {
-                "duration": ""
+                "duration": "Як довго режим sudo залишається активним (секунди)"
             }
         },
         "lib": {
             "sudo": {
-                "title": "",
-                "message": "",
-                "password": "",
-                "submit": ""
+                "title": "Підтвердити доступ",
+                "message": "Підтвердіть свій пароль для входу в режим sudo. Повторна автентифікація буде потрібна лише через кілька годин.\n",
+                "password": "Пароль",
+                "submit": "Надіслати"
             }
         },
         "api": {
             "errors": {
-                "cookieOnly": "",
-                "incorrectPassword": ""
+                "cookieOnly": "Доступно тільки з файлами cookie",
+                "incorrectPassword": "Пароль невірний"
             }
         }
     }
