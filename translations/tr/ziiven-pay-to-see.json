@@ -1,20 +1,20 @@
 {
     "pay-to-see": {
         "lib": {
-            "ok": "",
-            "confirm": "",
-            "save": "",
-            "cancel": ""
+            "ok": "Tamam",
+            "confirm": "Onayla",
+            "save": "Kaydet",
+            "cancel": "İptal"
         },
         "forum": {
-            "tag_no_permission_title": "",
-            "tag_no_permission": "",
-            "tag_has_permission": "",
+            "tag_no_permission_title": "İçeriği Görmek İçin Öde",
+            "tag_no_permission": "Seçili etiketlerde görmek için ödeme yapamazsınız",
+            "tag_has_permission": "İçeriği görmek için ödemeye izin ver",
             "pay_to_see_content": "İçeriği Görmek İçin Öde",
             "pay_to_see_content_label": "Öde ve Gör İçeriği",
             "purchased_content": "Satın Alınan İçerik",
-            "purchased_users": "",
-            "purchased_users_empty": "",
+            "purchased_users": "Satın Alan Kullanıcılar",
+            "purchased_users_empty": "Henüz kimse satın almadı",
             "pay_to_see_owner_bypass": "İçeriği Görmek İçin Ödeyin [Yönetici Atlama]",
             "pay_to_see_content_bypass": "İçeriği Görmek İçin Ödeyin [İzinli Atlama]",
             "toolbar_tooltip": "İçeriği görmek için ödeme girin",
@@ -33,7 +33,7 @@
             "purchase_error_not_found": "İçerik Satın Alınamıyor",
             "purchase_error_insufficient_fund": "Yetersiz Bakiye",
             "purchase_error_no_permission": "İzin Reddedildi",
-            "set_error_no_permission": "",
+            "set_error_no_permission": "İçeriği görmek için ödeme yapma izniniz yok",
             "purchase_count": "Satın Alma Sayısı: {count}",
             "notifications": {
                 "notification_setting_some_one_purchase_content": "Birisi içeriğimi satın aldı",
@@ -45,9 +45,9 @@
             "cancel": "İptal"
         },
         "admin": {
-            "set_permission_tag": "",
-            "set_permission_tag_help": "",
-            "error_need_one_tag": "",
+            "set_permission_tag": "Etiketler İzin Ayarı",
+            "set_permission_tag_help": "Bir kullanıcı bir tartışma başlatırken, izni olan herhangi bir etiketi seçerek P2S'yi kullanabilir",
+            "error_need_one_tag": "Lütfen en az bir etiket seçin",
             "settings": {
                 "badge_icon": "Rozet simgesi",
                 "badge_icon_desc": "<code>fas fa-</code> öneki dahil herhangi bir FontAwesome simge sınıfının adını girin. Rozeti kaldırmak için boş bırakın."
@@ -56,7 +56,7 @@
                 "allow_use_pay2see": "Kullanıma izin ver (görmek için öde)",
                 "allow_purchase_pay2see": "İçeriği görmek için ödemeye izin ver",
                 "allow_bypass_pay2see": "(İçeriği görmek için öde) atlamaya izin ver",
-                "allow_set_pay2see": ""
+                "allow_set_pay2see": "Diğer kullanıcının tartışmasını görmek için ücret ödemeye izin ver"
             }
         }
     }
