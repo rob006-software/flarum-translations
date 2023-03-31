@@ -2,117 +2,117 @@
     "fof-webhooks": {
         "actions": {
             "discussion": {
-                "started": "",
+                "started": "Розпочато дискусію `{1}`",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Перейменовано дискусію `{1}`",
+                    "description": "Новий заголовок: {1}"
                 },
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "hidden": "Прихована дискусія `{1}`",
+                "restored": "Відновлена дискусія `{1}`",
+                "deleted": "Видалена дискусія `{1}`"
             },
             "group": {
-                "created": "",
-                "renamed": "",
-                "deleted": ""
+                "created": "Створено `{1}` групу",
+                "renamed": "Групу перейменовано на `{1}`",
+                "deleted": "Видалено `{1}` групу"
             },
             "post": {
-                "posted": "",
-                "revised": "",
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "posted": "Новий допис у `{1}`",
+                "revised": "Відредагований допис у `{1}`",
+                "hidden": "Прихований допис у `{1}`",
+                "restored": "Відновлений допис у `{1}`",
+                "deleted": "Видалений допис у `{1}`"
             },
             "user": {
-                "registered": "",
+                "registered": "Зареєстровано нового користувача",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Змінено користувача на `{1}`",
+                    "description": "Нове ім'я користувача: {1}"
                 },
-                "deleted": ""
+                "deleted": "Видалено користувача `{1}`"
             }
         },
         "adapters": {
             "errors": {
-                "404": ""
+                "404": "Веб-хук не знайдено"
             }
         },
         "admin": {
             "errors": {
-                "service_not_found": "",
-                "url_invalid": "",
-                "tag_invalid": ""
+                "service_not_found": "Сервіс \"{service}\" не може бути знайдено.",
+                "url_invalid": "URL-адреса не є дійсною для обраної послуги.",
+                "tag_invalid": "Цей вебхук обмежено недійсним тегом. Обмеження не буде застосовано. Переконайтеся, що це передбачено."
             },
             "nav": {
-                "desc": ""
+                "desc": "Настроювані вихідні веб-хуки для вашого форуму."
             },
             "settings": {
-                "debug_label": "",
-                "debug_help": "",
+                "debug_label": "Налагодження",
+                "debug_help": "Додайте додаткові логи до лог-файлу Flarum, щоб налагодити проблеми з веб-хуками та/або подіями, які не працюють коректно.",
                 "item": {
-                    "tag_any_label": ""
+                    "tag_any_label": "Будь-який"
                 },
                 "help": {
-                    "disabled": "",
-                    "general": "",
-                    "url": ""
+                    "disabled": "Цей вебхук вимкнено, оскільки для нього не увімкнено жодної події.",
+                    "general": "Тут ви можете додавати, редагувати і видаляти веб-хуки з вашого форуму.",
+                    "url": "Кінцева точка веб-хука, яку потрібно виконати"
                 },
                 "modal": {
-                    "title": "",
-                    "description": "",
-                    "use_plain_text_label": "",
-                    "max_post_content_length_label": "",
-                    "max_post_content_length_help": "",
-                    "extra_text_label": "",
-                    "extra_text_help": "",
-                    "group_label": "",
-                    "group_help": "",
-                    "events_label": ""
+                    "title": "Налаштування веб-хука",
+                    "description": "Тут ви можете змінити події, на які запускається вебхук.",
+                    "use_plain_text_label": "Зменшити кількість форматування у контенті допису",
+                    "max_post_content_length_label": "Максимальна довжина вмісту допису",
+                    "max_post_content_length_help": "Встановіть число, щоб обмежити вміст допису в усіх подіях, пов'язаних з дописом. Змініть на 0 або нічого, щоб зняти обмеження.",
+                    "extra_text_label": "Додатковий текст",
+                    "extra_text_help": "Додатковий текст для включення у надісланий вебхук.",
+                    "group_label": "Гркпа",
+                    "group_help": "Надсилайте ресурси, які може побачити ця група",
+                    "events_label": "Події"
                 },
                 "services": {
-                    "discord": "",
-                    "slack": "",
-                    "microsoft-teams": ""
+                    "discord": "Discord",
+                    "slack": "Slack",
+                    "microsoft-teams": "Microsoft Teams"
                 },
                 "actions": {
                     "flarum": {
                         "discussion": {
-                            "title": "",
-                            "started": "",
-                            "renamed": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "title": "Дискусія Flarum",
+                            "started": "Розпочато",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "group": {
-                            "title": "",
-                            "created": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "title": "Група Flarum",
+                            "created": "Створено",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "post": {
-                            "title": "",
-                            "posted": "",
-                            "revised": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "title": "Допис Flarum",
+                            "posted": "Розміщено",
+                            "revised": "Відредаговано",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "user": {
-                            "title": "",
-                            "registered": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "title": "Користувач Flarum",
+                            "registered": "Зареєстрований",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         }
                     }
                 }
             }
         },
         "ref": {
-            "deleted": "",
-            "hidden": "",
-            "renamed": "",
-            "restored": ""
+            "deleted": "Видалено",
+            "hidden": "Приховано",
+            "renamed": "Перейменовано",
+            "restored": "Відновлено"
         }
     }
 }
