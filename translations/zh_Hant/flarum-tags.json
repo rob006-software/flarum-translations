@@ -76,9 +76,9 @@
                 "untagged_link": "移除標籤"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} 加上了 {tagsAdded} 並移除 {tagsRemoved} {time}。",
-                "added_tags_text": "{username} 加上了 {tagsAdded} {time}。",
-                "removed_tags_text": "{username} 移除了 {tagsRemoved} {time}。",
+                "added_and_removed_tags_text": "{username} 於 {time} 加上了 {tagsAdded} ，並移除 {tagsRemoved}。",
+                "added_tags_text": "{username} 於 {time} 加上了 {tagsAdded} 。",
+                "removed_tags_text": "{username} 於 {time} 移除了 {tagsRemoved} 。",
                 "tags_text": "{count, plural, one {{tags}} other {{tags}}} 標籤"
             },
             "tag": {
