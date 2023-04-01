@@ -10,7 +10,7 @@
             }
         },
         "forum": {
-            "followed": "Obserwowani",
+            "followed": "{count, plural, one {Obserwowany} other {Obserwowanych}}",
             "followers": "{count, plural, one {Obserwujący} other {Obserwujących}}",
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
