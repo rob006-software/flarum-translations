@@ -80,7 +80,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `futuresound-support-ai` | [![#1030 (open)](https://img.shields.io/badge/PR-%231030-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1030) |
-| `ziiven-user-submission` | [![#1029 (open)](https://img.shields.io/badge/PR-%231029-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1029) |
+There are no dead branches.
