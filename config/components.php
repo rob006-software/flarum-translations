@@ -1194,7 +1194,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/ziiven-raffle-ticket.yml',
 	],
 	'ziiven-view-history' => [
-		'tag' => 'https://raw.githubusercontent.com/Ziiven/view-history/v0.1.6/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Ziiven/view-history/v0.1.7/locale/en.yml',
 	],
 	/* extensions list end */
 ];
