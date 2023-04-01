@@ -8,12 +8,18 @@
                 "moneyname": "Nome della moneta (es: [denaro] punti)",
                 "postminimumlength": "Lunghezza minima del post per ottenere il denaro (0 per disabilitare)",
                 "noshowzero": "Non mostrare se il valore è zero",
+                "autoremove": "",
                 "moneyforlike": "Soldi dati quando un post è piaciuto",
                 "helpextensionlikes": "Richiede l'estensione <code>flarum/likes</code>"
             },
             "permissions": {
                 "edit_money_label": "Modifica moneta"
             },
+            "autoremove": [
+                "",
+                "",
+                ""
+            ],
             "automoderator": {
                 "metric_name": "",
                 "action_name": ""

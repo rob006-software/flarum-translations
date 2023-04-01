@@ -8,12 +8,18 @@
                 "moneyname": "Tên của tiền (ví dụ: [money] điểm)",
                 "postminimumlength": "Độ dài bài viết tối thiểu để nhận tiền (0 để tắt)",
                 "noshowzero": "Không hiển thị nếu giá trị bằng 0",
+                "autoremove": "",
                 "moneyforlike": "Cộng tiền khi có bài viết được thích",
                 "helpextensionlikes": "Yêu cầu bật tiện ích <code>flarum/likes</code>"
             },
             "permissions": {
                 "edit_money_label": "Chỉnh sửa tiền"
             },
+            "autoremove": [
+                "",
+                "",
+                ""
+            ],
             "automoderator": {
                 "metric_name": "Tiền",
                 "action_name": "Tặng tiền"

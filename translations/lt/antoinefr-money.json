@@ -8,12 +8,18 @@
                 "moneyname": "Pinigų pavadinimas (pvz., [pinigų] taškai)",
                 "postminimumlength": "Minimalus skelbimo ilgis, kad gautumėte pinigus (0, kad išjungtumėte)",
                 "noshowzero": "Nerodyti, jei reikšmė lygi nuliui",
+                "autoremove": "",
                 "moneyforlike": "Pinigai, duodami, kai įrašas patiko",
                 "helpextensionlikes": "Reikia plėtinio <code>flarum/likes</code>"
             },
             "permissions": {
                 "edit_money_label": "Redaguoti pinigus"
             },
+            "autoremove": [
+                "",
+                "",
+                ""
+            ],
             "automoderator": {
                 "metric_name": "Pinigai",
                 "action_name": "Duoti pinigų"

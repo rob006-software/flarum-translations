@@ -8,12 +8,18 @@
                 "moneyname": "Rahan nimi (esim. [money] pisteet)",
                 "postminimumlength": "Viestin minimi pituus, jotta saa rahaa (0 ottaa pois käytöstä)",
                 "noshowzero": "Älä näytä arvoa jos se on nolla",
+                "autoremove": "",
                 "moneyforlike": "Tykätystä viestistä annettava raha",
                 "helpextensionlikes": "Vaatii <code>flarum/likes</code> lisäosan"
             },
             "permissions": {
                 "edit_money_label": "Muokkaa rahaa"
             },
+            "autoremove": [
+                "",
+                "",
+                ""
+            ],
             "automoderator": {
                 "metric_name": "Raha",
                 "action_name": "Anna rahaa"

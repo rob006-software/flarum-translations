@@ -8,12 +8,18 @@
                 "moneyname": "Назва коштів (наприклад: [money] очків)",
                 "postminimumlength": "Мінімальна довжина посту для отримання коштів (0 для відключення)",
                 "noshowzero": "Не показувати, якщо значення дорівнює нулю",
+                "autoremove": "",
                 "moneyforlike": "Гроші за вподобаний допис",
                 "helpextensionlikes": "Необхідне розширення <code>flarum/likes</code>"
             },
             "permissions": {
                 "edit_money_label": "Редагувати кошти"
             },
+            "autoremove": [
+                "",
+                "",
+                ""
+            ],
             "automoderator": {
                 "metric_name": "Кошти",
                 "action_name": "Дарунок"
