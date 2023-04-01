@@ -3,24 +3,24 @@
         "admin": {
             "settings": {
                 "disable-when-searching": {
-                    "label": "Wyłącz podsumowanie podczas wyszukiwania",
-                    "help": ""
+                    "label": "Wyłącz podsumowanie w wynikach wyszukiwania",
+                    "help": "Jeśli włączone, fragment najbardziej trafnego posta będzie użyty zamiast podsumowania."
                 },
                 "excerpt-length": {
-                    "label": "",
-                    "help": ""
+                    "label": "Długość podsumowania",
+                    "help": "Liczba znaków, które powinny być wyświetlone jako podsumowanie posta."
                 },
                 "rich-excerpts": {
-                    "label": "",
-                    "help": ""
+                    "label": "Włącz zaawansowane formatowanie treści dla podsumowań",
+                    "help": "Jeśli włączone, obrazki, osadzone media oraz inne nietekstowe elementy będą zawarte w podsumowaniu."
                 },
                 "excerpt-type": {
-                    "label": "",
-                    "help": ""
+                    "label": "Który post powinien być wyświetlany w podsumowaniu?",
+                    "help": "Wybierz który post powinien być wykorzystany jako treść podsumowania."
                 },
                 "first-label": "Pierwszy post",
                 "last-label": "Ostatni post",
-                "tags-enabled": ""
+                "tags-enabled": "Masz włączone rozszerzenie <code>flarum/tags</code>. Te ustawienia będą traktowane jako domyślne i poszczególne tagi mogą je nadpisać."
             }
         },
         "forum": {
