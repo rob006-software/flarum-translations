@@ -8,7 +8,7 @@
                 "moneyname": "貨幣名稱（例如： [money] 元）",
                 "postminimumlength": "可獲取獎勵的最小貼文長度（0 表示不限制）",
                 "noshowzero": "若值為 0 則不顯示",
-                "autoremove": "",
+                "autoremove": "自動更新資產",
                 "moneyforlike": "獲得點讚時獎勵資產",
                 "helpextensionlikes": "需要 <code>flarum/likes</code> 擴展程序"
             },
@@ -16,9 +16,9 @@
                 "edit_money_label": "修改資產"
             },
             "autoremove": [
-                "",
-                "",
-                ""
+                "永不移除資產",
+                "隱藏或恢復討論/帖子時（默認）",
+                "當討論/帖子被刪除時"
             ],
             "automoderator": {
                 "metric_name": "資產",
