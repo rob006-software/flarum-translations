@@ -8,7 +8,7 @@
                 "moneyname": "Nazwa dla pieniędzy (np. [money] punktów)",
                 "postminimumlength": "Minimalna długość posta kwalifikując go do otrzymania pieniędzy (ustaw 0 dla braku limitu)",
                 "noshowzero": "Nie pokazuj, jeśli wartość to zero",
-                "autoremove": "",
+                "autoremove": "Automatycznie aktualizuj saldo",
                 "moneyforlike": "Pieniądze przyznane, gdy post zostanie polubiony",
                 "helpextensionlikes": "Wymaga rozszerzenia <code>flarum/likes</code>"
             },
@@ -16,9 +16,9 @@
                 "edit_money_label": "Edytuj pieniądze"
             },
             "autoremove": [
-                "",
-                "",
-                ""
+                "Nigdy nie odbieraj pieniędzy",
+                "Gdy post lub dyskusja zostaje ukryta lub przywrócona (domyślne)",
+                "Gdy post lub dyskusja zostaje usunięta"
             ],
             "automoderator": {
                 "metric_name": "Pieniądze",
@@ -27,7 +27,7 @@
         },
         "forum": {
             "user_controls": {
-                "money_button": "Edytuj pieniądze"
+                "money_button": "Edytuj saldo"
             },
             "modal": {
                 "title": "Pieniądze użytkownika {username}",
