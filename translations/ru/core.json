@@ -11,7 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Верхний колонтитул",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_cannot_use_less_features": "",
+                "custom_styles_cannot_use_less_features": "@import и data-uri недопустимы в кастомных LESS.",
                 "custom_styles_heading": "Пользовательские стили",
                 "custom_styles_text": "Настройка внешнего вида форума при помощи пользовательского кода LESS/CSS, который переопределяет стандартные стилевые конструкции Flarum.",
                 "dark_mode_label": "Тёмный режим",
@@ -50,14 +50,14 @@
                 "io_error_message": "Не удалось записать в файловую систему. Проверьте права доступа к файловой системе и попробуйте ещё раз. Или попробуйте запустить из командной строки.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "scheduler-status": "Планировщик",
+                        "queue-driver": "Драйвер очереди",
+                        "session-driver": "Драйвер сессий"
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "Активный",
+                        "inactive": "Неактивный",
+                        "never-run": "Не запускался"
                     }
                 },
                 "title": "Панель управления",
@@ -181,7 +181,7 @@
             "permissions": {
                 "allow_post_editing_label": "Разрешить изменять сообщение",
                 "allow_renaming_label": "Разрешить изменять название дискуссии",
-                "create_access_token_label": "",
+                "create_access_token_label": "Создать токен доступа",
                 "create_heading": "Создание",
                 "delete_discussions_forever_label": "Удалять дискуссии (навсегда)",
                 "delete_discussions_label": "Удалять дискуссии",
@@ -194,7 +194,7 @@
                 "edit_users_groups_label": "Редактировать группы пользователя",
                 "global_heading": "Глобальные",
                 "moderate_heading": "Модерация",
-                "moderate_access_tokens_label": "",
+                "moderate_access_tokens_label": "Модерировать токены доступа",
                 "new_group_button": "Новая группа",
                 "participate_heading": "Участие",
                 "post_without_throttle_label": "Отвечать подряд без ожидания",
@@ -233,7 +233,7 @@
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": ""
+                            "title": "Отображаемое имя"
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
@@ -264,9 +264,9 @@
                 },
                 "pagination": {
                     "back_button": "Предыдущая страница",
-                    "first_button": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
+                    "first_button": "На первую страницу",
+                    "go_to_page_textbox_a11y_label": "На определенный номер страницы",
+                    "last_button": "На последнюю страницу",
                     "next_button": "Следующая страница",
                     "page_counter": "Страница: {current} / {total}"
                 },
@@ -422,7 +422,7 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Старое название: \"{old}\"",
-                "discussion_renamed_text": "{username} изменил(а) название на \"{new}\".",
+                "discussion_renamed_text": "{username} изменил(а) заголовок на {new} {time}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} спустя"
@@ -437,39 +437,39 @@
                 "users_heading": "=> core.ref.users"
             },
             "security": {
-                "browser_on_operating_system": "",
-                "cannot_terminate_current_session": "",
-                "created": "",
-                "current_active_session": "",
-                "developer_tokens_heading": "",
-                "empty_text": "",
+                "browser_on_operating_system": "{browser} в {os}",
+                "cannot_terminate_current_session": "Невозможно завершить текущую активную сессию. Вместо этого разлогиньтесь.",
+                "created": "Создан",
+                "current_active_session": "Текущая активная сессия",
+                "developer_tokens_heading": "Токены разработчика",
+                "empty_text": "Кажется, что здесь не на что смотреть.",
                 "global_logout": {
-                    "heading": "",
-                    "help_text": "",
+                    "heading": "Глобальный выход",
+                    "help_text": "Очистить текушие cookie сессии, завершить все сессии, отозвать токены разработчика, и сделать недействительными все подтверждения email-ов и email'ы сброса пароля.",
                     "log_out_button": ""
                 },
-                "hide_access_token": "",
-                "last_activity": "",
-                "never": "",
+                "hide_access_token": "Скрыть Токен",
+                "last_activity": "Последняя активность",
+                "never": "Никогда",
                 "new_access_token_button": "",
                 "new_access_token_modal": {
-                    "submit_button": "",
-                    "title": "",
-                    "title_placeholder": ""
+                    "submit_button": "Создать Токен",
+                    "title": "=> core.ref.new_token",
+                    "title_placeholder": "Заголовок"
                 },
-                "revoke_access_token": "",
-                "revoke_access_token_confirmation": "",
-                "sessions_heading": "",
+                "revoke_access_token": "Отозвать",
+                "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
+                "sessions_heading": "Активные сессии",
                 "session_terminated": "",
-                "session_termination_failed": "",
-                "show_access_token": "",
-                "terminate_all_other_sessions": "",
-                "terminate_all_other_sessions_confirmation": "",
-                "terminate_session": "",
-                "title": "",
-                "token_revoked": "",
-                "token_item_title": "",
-                "token_title_placeholder": ""
+                "session_termination_failed": "Произошла ошибка при завершении ваших сессий.",
+                "show_access_token": "Просмотр токена",
+                "terminate_all_other_sessions": "Завершить все другие сессии",
+                "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
+                "terminate_session": "Завершить",
+                "title": "=> core.ref.security",
+                "token_revoked": "Токен отозван.",
+                "token_item_title": "{title} - {token}",
+                "token_title_placeholder": "/"
             },
             "settings": {
                 "account_heading": "Аккаунт",
@@ -505,7 +505,7 @@
                 "posts_empty_text": "Кажется, здесь нет сообщений.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
-                "security_link": "",
+                "security_link": "=> core.ref.security",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -538,7 +538,7 @@
                 "toggle_dropdown_accessible_label": "Выпадающее меню"
             },
             "data_segment": {
-                "label": ""
+                "label": "{label}:"
             },
             "edit_user": {
                 "activate_button": "Активировать пользователя",
@@ -558,7 +558,7 @@
                 "dependent_extensions_message": "Невозможно отключить {extension}, пока не будут отключены следующие зависимые расширения: {extensions}",
                 "extension_initialiation_failed_message": "{extension} не удалось инициализировать. Проверьте консоль браузера для получения дополнительной информации.",
                 "generic_message": "Упс! Что-то пошло не так. Пожалуйста, обновите страницу и попробуйте ещё раз.",
-                "generic_cross_origin_message": "",
+                "generic_cross_origin_message": "Упс! Что-то пошло не так во время обработки запроса. Пожалуйста обновите страницу и попробуйте заново.",
                 "missing_dependencies_message": "Невозможно включить {extension}, пока не будут включены следующие зависимые расширения: {extensions}",
                 "not_found_message": "Запрашиваемый ресурс не найден.",
                 "payload_too_large_message": "Нагрузка при запросе была слишком большая.",
@@ -693,7 +693,7 @@
             "edit_user": "Изменить пользователя",
             "email": "E-mail",
             "extensions": "Расширения",
-            "generic_confirmation_message": "",
+            "generic_confirmation_message": "Вы хотите продолжить? Это действие не может быть отменено.",
             "icon": "Иконка",
             "icon_text": "Введите название любого класса иконки <a>Font Awesome</a>, <em>включая</em> префикс <code>fas fa-</code>.",
             "load_more": "Показать ещё",
@@ -701,7 +701,7 @@
             "log_in": "Войти",
             "log_out": "Выйти",
             "mark_all_as_read": "Отметить всё как прочитанное",
-            "new_token": "",
+            "new_token": "Новый токен",
             "next_page": "Следующая страница",
             "notifications": "Уведомления",
             "okay": "ОК",
@@ -714,8 +714,8 @@
             "reset_your_password": "Сбросить пароль",
             "restore": "Восстановить",
             "save_changes": "Сохранить",
-            "search_users": "",
-            "security": "",
+            "search_users": "Искать пользователей",
+            "security": "Безопасность",
             "settings": "Настройки",
             "sign_up": "Регистрация",
             "some_others": "{count, plural, one {# другому} other {# другим}}",
