@@ -1,20 +1,20 @@
 {
     "cccyun-clogin-oauth": {
         "admin": {
-            "appurl_label": "",
-            "appurl_help": "",
-            "appid_label": "",
-            "appkey_label": "",
-            "openqq_label": "",
-            "openwx_label": "",
-            "opensina_label": ""
+            "appurl_label": "API URL",
+            "appurl_help": "Должен начинаться с http:// или https:// и заканчиваться /",
+            "appid_label": "APPID",
+            "appkey_label": "APPKEY",
+            "openqq_label": "Открыть QQ Login",
+            "openwx_label": "Открыть WeChat Login",
+            "opensina_label": "Открыть Weibo Login"
         },
         "forum": {
-            "with_qq_button": "",
-            "with_wx_button": "",
-            "with_sina_button": "",
+            "with_qq_button": "QQ Login",
+            "with_wx_button": "WeChat Login",
+            "with_sina_button": "Weibo Login",
             "alerts": {
-                "already_linked": "",
+                "already_linked": "Другой аккаунт уже подключен!",
                 "already_used": "",
                 "link_success": "",
                 "unlink_success": "",
