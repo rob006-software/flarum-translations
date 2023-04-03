@@ -37,10 +37,10 @@
                 "excerpt_html_whitelist": "Liste blanche des balises HTML à conserver dans l'extrait (séparées par des virgules)",
                 "excerpt_html_nodes": "Longueur de l'extrait de contenu (en nombre de nœuds HTML)",
                 "excerpt_length": "Longueur de l'extrait de contenu (en caractères)",
-                "post_thumbnail_summary": "",
-                "post_thumbnail_list": "",
-                "comment_author_sync": "",
-                "comment_author_sync_help": "",
+                "post_thumbnail_summary": "Afficher la miniature de l'article sur WordPress au-dessus de l'extrait",
+                "post_thumbnail_list": "Afficher la miniature de l'article sur WordPress dans la liste de discussions de Flarum",
+                "comment_author_sync": "Attribuer un auteur de discussion à partir du SSO",
+                "comment_author_sync_help": "Si l'auteur de Wordpress a créé un compte Flarum via SSO, ce compte Flarum sera défini comme le propriétaire de la discussion du commentaire.",
                 "comment_tag": "Étiquette pour les nouveaux fils de commentaires",
                 "comment_tag_none": "Ne pas attribuer d'étiquette",
                 "comment_tag_custom": "Valeurs personnalisées",
@@ -141,7 +141,7 @@
                 "message": "La page essaie de vous rediriger vers {href}",
                 "open": "Ouvrir le lien"
             },
-            "thumbnail_alt_fallback": ""
+            "thumbnail_alt_fallback": "Miniature d'article WordPress"
         },
         "api": {
             "blocked_actions": {
