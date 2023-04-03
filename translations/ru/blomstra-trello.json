@@ -3,25 +3,25 @@
         "admin": {
             "modals": {
                 "fields": {
-                    "board": "",
-                    "trello_label": "",
+                    "board": "Выберите доску Trello",
+                    "trello_label": "Выберите метку Trello",
                     "forum_tags": ""
                 },
-                "no_available_labels_label": "",
-                "no_available_tags_label": ""
+                "no_available_labels_label": "Нет доступных меток",
+                "no_available_tags_label": "Нет доступный тегов форума"
             },
             "permissions": {
                 "add_to_trello": ""
             },
             "settings": {
-                "api_key_help": "",
-                "api_key_label": "",
-                "api_token_help": "",
-                "api_token_label": "",
-                "available_boards_label": "",
+                "api_key_help": "Введи API ключ с {link}  чтобы это расширение могло подключиться к Trello.",
+                "api_key_label": "API ключ",
+                "api_token_help": "Введите API токен чтобы это расширение могло подключиться к Trello. Посетите {link} и нажмите <code>Generate a Token</code>",
+                "api_token_label": "API токен",
+                "available_boards_label": "Доступные доски",
                 "button": {
-                    "add": "",
-                    "remove": ""
+                    "add": "Добавить",
+                    "remove": "Удалить"
                 },
                 "default_board_help": "",
                 "default_board_label": "",
