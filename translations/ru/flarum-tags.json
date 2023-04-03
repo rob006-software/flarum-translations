@@ -29,7 +29,7 @@
                 "tag_discussions_label": "Изменять теги дискуссий"
             },
             "settings": {
-                "button_text": ""
+                "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
                 "range_separator_text": " - ",
@@ -62,7 +62,7 @@
                 "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
-                "choose_tags_link": "Выбрать теги"
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
                 "edit_tags_button": "Изменить теги"
@@ -76,9 +76,9 @@
                 "untagged_link": "Вне тегов"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} добавил(а) {tagsAdded} и удалил(а) {tagsRemoved}.",
-                "added_tags_text": "{username} добавил(а) {tagsAdded}.",
-                "removed_tags_text": "{username} удалил(а) {tagsRemoved}.",
+                "added_and_removed_tags_text": "{username} добавил(а) {tagsAdded} и удалил(а) {tagsRemoved} {time}.",
+                "added_tags_text": "{username} добавил(а) {tagsAdded} {time}.",
+                "removed_tags_text": "{username} удалил(а) {tagsRemoved} {time}.",
                 "tags_text": "{count, plural, one {{tags} тег} other {{tags} теги}}"
             },
             "tag": {
@@ -90,14 +90,14 @@
             "tag_selection_modal": {
                 "bypass_requirements": "",
                 "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
             }
         },
         "ref": {
-            "choose_tags": "",
+            "choose_tags": "Выберите теги",
             "choose_tags_placeholder": "",
             "name": "Название",
             "tags": "Теги"
