@@ -1022,6 +1022,9 @@ return [
 	'nearata-related-discussions' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-related-discussions/1.3.0/locale/en.yml',
 	],
+	'nearata-sensitive-content' => [
+		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-sensitive-content/1.0.0/locale/en.yml',
+	],
 	'nearata-signup-confirm-password' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-signup-confirm-password/v3.0.1/resources/locale/en.yml',
 	],
