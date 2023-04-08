@@ -2,18 +2,18 @@
     "blomstra-turnstile": {
         "admin": {
             "settings": {
-                "site_key": "",
-                "secret_key": "",
-                "signup": "",
-                "signin": "",
-                "forgot": ""
+                "site_key": "Klucz strony",
+                "secret_key": "Sekretny klucz",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
             }
         },
         "forum": {
-            "not_loaded_error": ""
+            "not_loaded_error": "Nie udało się wczytać Cloudflare Turnstile. Proszę odświeżyć stronę i sprawdzić swój adblocker."
         }
     },
     "validation": {
-        "turnstile": ""
+        "turnstile": "Nie mogliśmy zweryfikować, czy jesteś robotem, czy nie. Proszę odświeżyć stronę i spróbować ponownie."
     }
 }
