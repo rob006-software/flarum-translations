@@ -1,1 +1,29 @@
-{}
+{
+    "announcement": {
+        "to-update": "अपडेट करने के लिए इन आदेशों को चलाएँ:",
+        "major-warning": "Flarum के इस संस्करण में, Flarum के पुराने संस्करणों और कुछ पुराने एक्सटेंशन के लिए समर्थन हटा दिया गया है। अपडेट करने से पहले सुनिश्चित करें कि आप Flarum और एक्सटेंशन के नवीनतम संस्करण का उपयोग कर रहे हैं।",
+        "version": "संस्करण {version}"
+    },
+    "readme": {
+        "status-table": {
+            "header-status": "स्थिति",
+            "label-translation-status": "अनुवादन स्थिति",
+            "header-extension": "एक्सटेंशन"
+        }
+    },
+    "changelog": {
+        "updated-file": "`{file}`अपडेट किया गया है",
+        "updated-config-css": "CSS अपडेट किया गया है",
+        "cleaned-validation": "पुराने Flarum सत्यापन अनुवाद हटा दिए गए हैं(`{version}` या उच्चतर संस्करण समर्थित हैं)",
+        "extensions-added": "नए एक्सटेंशन के लिए समर्थन जोड़ा गया है",
+        "updated-validation": "Flarum सत्यापन अनुवाद अपडेट किये गए हैं",
+        "extensions-removed": "पुराने एक्सटेंशन के लिए समर्थन हटाया गया है",
+        "updated-core": "Flarum कोर अनुवाद अपडेट किये गए हैं",
+        "cleaned-core": "पुराने Flarum कोर अनुवाद हटा दिए गए हैं(`{version}` या उच्चतर संस्करण समर्थित हैं)",
+        "general-changes": "सामान्य अद्यतन",
+        "updated-config-js": "Day.js अनुवाद अपडेट किये गए हैं",
+        "extensions-cleaned": "एक्सटेंशन के पुराने अनुवादों को अपडेट किया गया और/या हटाया गया है",
+        "all-changes": "सभी परिवर्तन: {link}।",
+        "extensions-updated": "एक्सटेंशन के अनुवाद अपडेट किए गए हैं"
+    }
+}
