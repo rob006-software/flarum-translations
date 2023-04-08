@@ -2,26 +2,26 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": ""
+                "lock_discussions_label": "चर्चाओं को लॉक करें"
             }
         },
         "forum": {
             "badge": {
-                "locked_tooltip": ""
+                "locked_tooltip": "बंद"
             },
             "discussion_controls": {
-                "lock_button": "",
-                "unlock_button": ""
+                "lock_button": "बंद करें",
+                "unlock_button": "अनलॉक"
             },
             "notifications": {
-                "discussion_locked_text": ""
+                "discussion_locked_text": "{username} लॉक किया गया"
             },
             "post_stream": {
-                "discussion_locked_text": "",
-                "discussion_unlocked_text": ""
+                "discussion_locked_text": "{username} ने चर्चा {time} को लॉक कर दिया।",
+                "discussion_unlocked_text": "{username} ने चर्चा {time} को अनलॉक किया।"
             },
             "settings": {
-                "notify_discussion_locked_label": ""
+                "notify_discussion_locked_label": "किसी ने मेरे द्वारा शुरू की गई चर्चा को लॉक कर दिया है"
             }
         }
     }
