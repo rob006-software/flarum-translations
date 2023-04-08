@@ -2,34 +2,34 @@
     "flarum-likes": {
         "admin": {
             "permissions": {
-                "like_posts_label": ""
+                "like_posts_label": "चर्चा लाइक करें"
             },
             "settings": {
-                "like_own_posts_help": "",
-                "like_own_posts_label": ""
+                "like_own_posts_help": "सक्षम होने पर, अनुमति के अधीन, उपयोगकर्ता फ़ोरम पर अपनी स्वयं की पोस्ट 'लाइक' कर सकते हैं। उपयोगकर्ताओं को अपनी पोस्ट पर 'लाइक' करने से रोकने के लिए, इस सेटिंग को अक्षम करें।",
+                "like_own_posts_label": "उपयोगकर्ता अपने खुद के पोस्ट लाइक कर सकते हैं"
             }
         },
         "forum": {
             "notifications": {
-                "others_text": "",
-                "post_liked_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} ने आपका पोस्ट लाइक किया"
             },
             "post": {
-                "like_link": "",
-                "liked_by_self_text": "",
-                "liked_by_text": "",
-                "others_link": "",
-                "unlike_link": "",
-                "you_text": ""
+                "like_link": "लाइक",
+                "liked_by_self_text": "{users} ने इसे लाइक किया।",
+                "liked_by_text": "{count, plural, one {{users} ने इसे लाइक किया} other {{users} ने इसे लाइक किया}}.",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "अनलाइक",
+                "you_text": "=> core.ref.you"
             },
             "post_likes": {
-                "title": ""
+                "title": "इसे लाइक करने वाले उपयोगकर्ता"
             },
             "settings": {
-                "notify_post_liked_label": ""
+                "notify_post_liked_label": "किसीने मेरे पोस्ट को लाइक किया"
             },
             "user": {
-                "likes_link": ""
+                "likes_link": "लाइक्स"
             }
         }
     }
