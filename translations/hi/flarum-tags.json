@@ -2,101 +2,101 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": ""
+                "tags_label": "=> flarum-tags.ref.tags"
             },
             "edit_tag": {
-                "color_label": "",
-                "delete_tag_button": "",
-                "delete_tag_confirmation": "",
-                "description_label": "",
-                "hide_label": "",
-                "icon_label": "",
-                "icon_text": "",
-                "name_label": "",
-                "name_placeholder": "",
-                "slug_label": "",
-                "submit_button": "",
-                "title": ""
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "टैग हटाएं",
+                "delete_tag_confirmation": "क्या आप वाकई इस टैग को हटाना चाहते हैं? टैग की गयी चर्चाएँ हटाई नहीं जाएँगी।",
+                "description_label": "विवरण",
+                "hide_label": "सभी चर्चाओं से छुपाएं",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "स्लग",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "टैग बनाएं"
             },
             "nav": {
-                "tags_button": "",
-                "tags_text": ""
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "चर्चाओं को व्यवस्थित करने के लिए उपलब्ध टैग की सूची प्रबंधित करें।"
             },
             "permissions": {
-                "allow_edit_tags_label": "",
-                "bypass_tag_counts_label": "",
-                "restrict_by_tag_heading": "",
-                "tag_discussions_label": ""
+                "allow_edit_tags_label": "टैग संपादन की अनुमति दें",
+                "bypass_tag_counts_label": "टैग आवश्यकताओं को बाईपास करें",
+                "restrict_by_tag_heading": "टैग द्वारा प्रतिबंधित करें",
+                "tag_discussions_label": "चर्चाओं को टैग करें"
             },
             "settings": {
-                "button_text": ""
+                "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
-                "range_separator_text": "",
-                "required_primary_heading": "",
-                "required_primary_text": "",
-                "required_secondary_heading": "",
-                "required_secondary_text": "",
-                "title": ""
+                "range_separator_text": " को ",
+                "required_primary_heading": "प्राथमिक टैग की आवश्यक संख्या",
+                "required_primary_text": "चर्चा में लगाए जा सकने वाले प्राथमिक टैग की न्यूनतम और अधिकतम संख्या दर्ज करें।",
+                "required_secondary_heading": "द्वितीयक टैग्स की आवश्यक संख्या",
+                "required_secondary_text": "चर्चा में लगाए जा सकने वाले द्वितीयक टैग की न्यूनतम और अधिकतम संख्या दर्ज करें।",
+                "title": "टैग सेटिंग्स"
             },
             "tags": {
-                "about_tags_text": "",
-                "create_primary_tag_button": "",
-                "create_secondary_tag_button": "",
-                "primary_heading": "",
-                "secondary_heading": "",
-                "settings_heading": ""
+                "about_tags_text": "चर्चाओं को वर्गीकृत करने के लिए टैग का उपयोग किया जाता है। प्राथमिक टैग पारंपरिक फ़ोरम श्रेणियों की तरह होते हैं: उन्हें दो-स्तरीय पदानुक्रम में व्यवस्थित किया जा सकता है। द्वितीयक टैग में पदानुक्रम या क्रम नहीं होता है, और सूक्ष्म-वर्गीकरण के लिए उपयोगी होते हैं।",
+                "create_primary_tag_button": "प्राथमिक टैग बनाएं",
+                "create_secondary_tag_button": "द्वितीयक टैग बनाएँ",
+                "primary_heading": "प्राथमिक टैग",
+                "secondary_heading": "द्वितीयक टैग",
+                "settings_heading": "सेटिंग"
             }
         },
         "forum": {
             "all_tags": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "सभी टैग",
+                "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "edit_title": "",
-                "title": ""
+                "edit_title": "{title} के लिए टैग संपादित करें",
+                "title": "अपनी चर्चा के लिए टैग चुनें"
             },
             "composer_discussion": {
-                "choose_tags_link": ""
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
-                "edit_tags_button": ""
+                "edit_tags_button": "टैग संपादित करें"
             },
             "header": {
-                "back_to_tags_tooltip": ""
+                "back_to_tags_tooltip": "टैग सूची पर वापस"
             },
             "index": {
-                "more_link": "",
-                "tags_link": "",
-                "untagged_link": ""
+                "more_link": "और...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "टैग नहीं किए गए"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "",
-                "added_tags_text": "",
-                "removed_tags_text": "",
-                "tags_text": ""
+                "added_and_removed_tags_text": "{username} ने {tagsAdded} को जोड़ा और {tagsRemoved} {time} को हटा दिया।",
+                "added_tags_text": "{username} ने {tagsAdded} {time} जोड़ा।",
+                "removed_tags_text": "{username} ने {tagsRemoved} {time} को हटा दिया।",
+                "tags_text": "{count, plural, one {{tags} टैग} other {{tags} टैग}}"
             },
             "tag": {
-                "meta_description_text": ""
+                "meta_description_text": "{tag} टैग के साथ जुड़ी सभी चर्चाएँ"
             }
         },
         "lib": {
-            "deleted_tag_text": "",
+            "deleted_tag_text": "हटाए गए",
             "tag_selection_modal": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "bypass_requirements": "टैग आवश्यकताओं को बाईपास करें",
+                "choose_primary_placeholder": "{count, plural, one {एक प्राथमिक टैग चुनें} other {# प्राथमिक टैग चुनें}}",
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
             }
         },
         "ref": {
-            "choose_tags": "",
-            "choose_tags_placeholder": "",
-            "name": "",
-            "tags": ""
+            "choose_tags": "टैग चुनें",
+            "choose_tags_placeholder": "{count, plural, one {एक और टैग चुनें} other {# और टैग चुनें}}",
+            "name": "नाम",
+            "tags": "टैग"
         }
     }
 }
