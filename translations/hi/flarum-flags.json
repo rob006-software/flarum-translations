@@ -2,49 +2,49 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "",
-                "view_flags_label": ""
+                "flag_posts_label": "फ्लैग पोस्ट",
+                "view_flags_label": "फ़्लैग किए गए पोस्ट देखें"
             },
             "settings": {
-                "flag_own_posts_label": "",
-                "guidelines_url_label": "",
-                "title": ""
+                "flag_own_posts_label": "उपयोगकर्ताओं को अपने स्वयं के पोस्ट फ़्लैग करने दें",
+                "guidelines_url_label": "सामुदायिक दिशानिर्देश URL",
+                "title": "फ्लैग के सेटिंग्स"
             }
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "",
-                "dismiss_button": "",
-                "reason_details_placeholder": "",
-                "reason_inappropriate_label": "",
-                "reason_inappropriate_text": "",
-                "reason_missing_message": "",
-                "reason_off_topic_label": "",
-                "reason_off_topic_text": "",
-                "reason_other_label": "",
-                "reason_spam_label": "",
-                "reason_spam_text": "",
-                "submit_button": "",
-                "title": ""
+                "confirmation_message": "इस पोस्ट को फ़्लैग करने के लिए धन्यवाद। हमारे मॉडरेटर इस पर गौर करेंगे।",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "अतिरिक्त विवरण (वैकल्पिक)",
+                "reason_inappropriate_label": "अनुचित",
+                "reason_inappropriate_text": "यह पोस्ट आपत्तिजनक, अपमानजनक है, या हमारे <a>सामुदायिक दिशानिर्देशों</a> का उल्लंघन करती है।",
+                "reason_missing_message": "कृपया हमारे मॉडरेटर के लिए कुछ विवरण प्रदान करें।",
+                "reason_off_topic_label": "विषय से परे",
+                "reason_off_topic_text": "यह पोस्ट वर्तमान चर्चा के लिए प्रासंगिक नहीं है और इसे कहीं और ले जाया जाना चाहिए।",
+                "reason_other_label": "अन्य (कृपया निर्दिष्ट करें)",
+                "reason_spam_label": "अवांछित सन्देश",
+                "reason_spam_text": "यह पोस्ट एक विज्ञापन है।",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
-                "empty_text": "",
-                "item_text": "",
-                "title": "",
-                "tooltip": ""
+                "empty_text": "कोई फ्लैग नहीं",
+                "item_text": "{username} <em>{discussion}</em> में",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
-                "dismiss_flag_button": "",
-                "flagged_by_text": "",
-                "flagged_by_with_reason_text": ""
+                "dismiss_flag_button": "फ्लैग खारिज करें",
+                "flagged_by_text": "{username} द्वारा फ़्लैग किया गया",
+                "flagged_by_with_reason_text": "{username} द्वारा {reason} के रूप में फ़्लैग किया गया"
             },
             "post_controls": {
-                "flag_button": ""
+                "flag_button": "फ्लैग"
             }
         },
         "ref": {
-            "flag_post": "",
-            "flagged_posts": ""
+            "flag_post": "पोस्ट फ्लैग करें",
+            "flagged_posts": "फ्लैग किये गए पोस्ट"
         }
     }
 }
