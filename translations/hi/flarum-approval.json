@@ -2,24 +2,24 @@
     "flarum-approval": {
         "admin": {
             "permissions": {
-                "approve_posts_label": "",
-                "reply_without_approval_label": "",
-                "start_discussions_without_approval_label": ""
+                "approve_posts_label": "पोस्ट को स्वीकृत करें",
+                "reply_without_approval_label": "अनुमोदन के बिना चर्चाओं का उत्तर दें",
+                "start_discussions_without_approval_label": "बिना मंजूरी के चर्चा शुरू करें"
             }
         },
         "forum": {
             "badge": {
-                "awaiting_approval_tooltip": ""
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval"
             },
             "post": {
-                "awaiting_approval_text": ""
+                "awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval"
             },
             "post_controls": {
-                "approve_button": ""
+                "approve_button": "मंज़ूरी दें"
             }
         },
         "ref": {
-            "awaiting_approval": ""
+            "awaiting_approval": "मंजूरी का इंतजार कर रहे"
         }
     }
 }
