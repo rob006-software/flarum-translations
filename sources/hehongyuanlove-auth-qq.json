@@ -10,6 +10,27 @@
         "forum": {
             "log_in": {
                 "with_qq_button": "QQ"
+            },
+            "buttons": {
+                "unlink": "UnLink QQ",
+                "link": "Link QQ",
+                "login": "=> hehongyuanlove-auth-qq.forum.log_in.with_qq_button"
+            },
+            "modals": {
+                "unlink": {
+                    "title": "UnLink QQ",
+                    "info": {
+                        "confirm": "Are you sure you want to unbind your QQ account?",
+                        "no_providers": "You do not have any other login methods. Please reset your account password first."
+                    },
+                    "buttons": {
+                        "confirm": "UnLink",
+                        "cancel": "Cancel"
+                    }
+                },
+                "link": {
+                    "title": "Link QQ"
+                }
             }
         }
     }
