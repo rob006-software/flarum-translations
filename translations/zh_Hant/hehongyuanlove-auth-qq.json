@@ -12,24 +12,24 @@
                 "with_qq_button": "QQ帳號登錄"
             },
             "buttons": {
-                "unlink": "",
-                "link": "",
-                "login": ""
+                "unlink": "解除QQ連結",
+                "link": "QQ帳號連結",
+                "login": "=> hehongyuanlove-auth-qq.forum.log_in.with_qq_button"
             },
             "modals": {
                 "unlink": {
-                    "title": "",
+                    "title": "解除QQ連結",
                     "info": {
-                        "confirm": "",
-                        "no_providers": ""
+                        "confirm": "您確定要解綁您的QQ賬號嗎？",
+                        "no_providers": "您沒有任何其他登錄方法。 請先重置您的帳戶密碼。"
                     },
                     "buttons": {
-                        "confirm": "",
-                        "cancel": ""
+                        "confirm": "解除關聯",
+                        "cancel": "取消"
                     }
                 },
                 "link": {
-                    "title": ""
+                    "title": "關聯QQ帳號"
                 }
             }
         }
