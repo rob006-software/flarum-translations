@@ -12,24 +12,24 @@
                 "with_qq_button": "QQ"
             },
             "buttons": {
-                "unlink": "",
-                "link": "",
-                "login": ""
+                "unlink": "Désassocier le compte QQ",
+                "link": "Associer un compte QQ",
+                "login": "=> hehongyuanlove-auth-qq.forum.log_in.with_qq_button"
             },
             "modals": {
                 "unlink": {
-                    "title": "",
+                    "title": "Désassocier le compte QQ",
                     "info": {
-                        "confirm": "",
-                        "no_providers": ""
+                        "confirm": "Êtes-vous sûr de vouloir désassocier votre compte QQ ?",
+                        "no_providers": "Vous n'avez pas d'autres méthodes de connexion. Veuillez d'abord réinitialiser le mot de passe de votre compte."
                     },
                     "buttons": {
-                        "confirm": "",
-                        "cancel": ""
+                        "confirm": "Désassocier",
+                        "cancel": "Annuler"
                     }
                 },
                 "link": {
-                    "title": ""
+                    "title": "Associer un compte QQ"
                 }
             }
         }
