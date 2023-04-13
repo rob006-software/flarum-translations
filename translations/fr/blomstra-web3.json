@@ -25,7 +25,7 @@
                 "title": "Portefeuilles EVM",
                 "bind": "=> blomstra-web3.ref.bind",
                 "disconnect": "=> blomstra-web3.ref.disconnect",
-                "disconnect-and-unbind": "Déconnecter et délier",
+                "disconnect-and-unbind": "Déconnecter et désassocier",
                 "select": "=> blomstra-web3.ref.select"
             },
             "polkadot-connect-wallet-modal": {
@@ -41,7 +41,7 @@
                 "wallets_heading": "Portefeuilles",
                 "wallet-connect-button": "Connecter un portefeuille",
                 "unbind": "=> blomstra-web3.ref.unbind",
-                "unbind_confirm": "Êtes-vous sûr de vouloir délier cette adresse de votre compte ?"
+                "unbind_confirm": "Êtes-vous sûr de vouloir désassocier cette adresse de votre compte ?"
             },
             "log-in": {
                 "basic-login-link": "Basculer vers la connexion de base",
@@ -57,8 +57,8 @@
         "ref": {
             "select-wallet-account": "Sélectionner un compte portefeuille {rightArrow}",
             "select": "Sélectionner une adresse",
-            "bind": "Lier l'adresse",
-            "unbind": "Délier l'adresse du compte",
+            "bind": "Associer l'adresse",
+            "unbind": "Désassocier l'adresse du compte",
             "disconnect": "Déconnecter",
             "polkadot-wallets": "Portefeuilles Polkadot"
         }
