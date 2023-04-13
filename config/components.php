@@ -683,6 +683,9 @@ return [
 	'hehongyuanlove-auth-qq' => [
 		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/2.5.1/resources/locale/en.yml',
 	],
+	'hehongyuanlove-auth-wechat' => [
+		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-ext-auth-wechat/2.0.0/resources/locale/en.yml',
+	],
 	'ianm-follow-users' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/follow-users/1.3.0/resources/locale/en.yml',
 	],
