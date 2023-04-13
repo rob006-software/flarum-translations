@@ -681,7 +681,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-redis-setup/1.2.0/resources/locale/en.yml',
 	],
 	'hehongyuanlove-auth-qq' => [
-		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/2.4/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/2.5.1/resources/locale/en.yml',
 	],
 	'ianm-follow-users' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/follow-users/1.3.0/resources/locale/en.yml',
