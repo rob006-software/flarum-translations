@@ -245,7 +245,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-likes-received/1.0.2/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-mailing' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-mailing/1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-mailing/1.1.0/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-mass-actions' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-mass-actions/1.1.2/resources/locale/en.yml',
