@@ -33,8 +33,8 @@
                 "other": {
                     "heading": "Autre",
                     "force_portrait_text": "Forcer l'orientation en mode portrait ?",
-                    "user_max_subscriptions_label": "",
-                    "user_max_subscriptions_text": ""
+                    "user_max_subscriptions_label": "Nombre maximum d'abonnements push par utilisateur",
+                    "user_max_subscriptions_text": "Combien d'abonnements push chaque utilisateur peut-il avoir à la fois ? Lorsqu'un utilisateur reçoit une notification push, chaque abonnement entraîne un appel à l'API. Chaque abonnement correspond généralement à un navigateur utilisé par l'utilisateur."
                 },
                 "heading": "Configuration de l'application web progressive",
                 "text": "Configurez votre site sous Flarum pour qu'il fonctionne comme une application web progressive ! Veuillez noter que cela ne place pas automatiquement votre site dans le magasin d'applications. Au lieu de cela, les utilisateurs verront une option « Ajouter à l'écran d'accueil » pour votre site. Nous fournissons quelques vérifications d'état, mais la meilleure façon de le tester est d'essayer de l'installer (recherchez sur Google des instructions sur la façon d'installer les applications web progressives). N'oubliez pas non plus que les fenêtres contextuelles « Installer cette application web progressive » sont contrôlées par les navigateurs et ne peuvent pas être déclenchées par les développeurs, les administrateurs ou les programmes. Nous recommandons d'inclure des instructions sur la façon d'installer une applications web progressive dans la documentation de votre site.",
@@ -48,7 +48,7 @@
             "status": {
                 "config_no_https": "L'URL dans votre fichier config.php n'utilise pas HTTPS. HTTPS est nécessaire pour que les applications web progressives puissent fonctionner.",
                 "possible_https_disabled": "Votre site n'est peut-être pas exécuté en HTTPS. Vider votre cache (page du tableau de bord d'administration => bouton outils) peut aider. Si tel est le cas, ignorez ce message. Si ce n'est pas le cas, gardez à l'esprit que HTTPS est nécessaire pour que les applications web progressives puissent fonctionner.",
-                "no_logo": "Vous devez transférer au moins un logo, avec une taille d'au moins 196 pixels, pour que votre application fonctionne.",
+                "no_logo": "Vous devez transférer au moins un logo, d'une taille minimale de 144x144 pixels, pour que l'application web progressive puisse être installée.",
                 "no_name": "Vous devez fournir un nom complet pour que votre application fonctionne.",
                 "no_vapid_keys": "Aucune clé VAPID trouvée. Celles-ci sont requises pour l'envoi des notifications push. Vous pouvez réinitialiser les clés VAPID ci-dessous.",
                 "key_gen_failed": "La génération des clés nécessaires aux notifications poussées a échouée. Le message d'erreur complet est : {error}",
