@@ -2,72 +2,72 @@
     "fof-terms": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Налаштування умов",
                 "field": {
-                    "signup-legal-text": "",
-                    "hide-updated-at": "",
-                    "date-format": "",
-                    "date-format-help": ""
+                    "signup-legal-text": "Додатковий текст у реєстраційній формі",
+                    "hide-updated-at": "Не показувати дату оновлення умов, якщо оновлення доступне",
+                    "date-format": "Формат дати",
+                    "date-format-help": "Ви можете використовувати будь-який допустимий формат <a>Day.js</a>. За налаштуванням залиште поле порожнім."
                 }
             },
             "titles": {
-                "policies": ""
+                "policies": "Політики"
             },
             "buttons": {
-                "new-policy": "",
-                "edit-policy": "",
-                "add-policy": "",
-                "save-policy": "",
-                "delete-policy": "",
-                "set-to-now": ""
+                "new-policy": "Нова політика",
+                "edit-policy": "Редагувати політику",
+                "add-policy": "Додати політику",
+                "save-policy": "Зберегти політику",
+                "delete-policy": "Видалити політику",
+                "set-to-now": "Встановити на зараз"
             },
             "messages": {
-                "delete-policy-confirmation": ""
+                "delete-policy-confirmation": "Це назавжди видалить політику {name} і пов'язані з нею дати прийняття з бази даних. Будь ласка, переконайтеся, що ви зробили резервну копію цих дат, якщо вони вам потрібні з юридичних причин. Ви впевнені, що хочете видалити цю політику?\n"
             },
             "policies": {
-                "name": "",
-                "name-help": "",
-                "url": "",
-                "url-help": "",
-                "update-message": "",
-                "update-message-help": "",
-                "terms-updated-at": "",
-                "terms-updated-at-placeholder": "",
-                "terms-updated-at-help": "",
-                "export-url": "",
-                "export-url-help": ""
+                "name": "Назва",
+                "name-help": "Ця назва буде показана поруч з прапорцем і як назва модального вікна оновлення.",
+                "url": "URL",
+                "url-help": "Посилання на сторінку, де ви можете прочитати умови. При натисканні відкриється в новій вкладці.",
+                "update-message": "Оновити повідомлення",
+                "update-message-help": "Повідомлення для показу існуючим користувачам, які ще не прийняли останні умови.",
+                "terms-updated-at": "Оновлено на",
+                "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
+                "terms-updated-at-help": "Дата останнього оновлення умов. Встановлення цього значення вимагатиме від усіх користувачів, які прийняли умови до цієї дати, прийняти їх знову. Повинна бути в минулому (інакше користувачі ніколи не зможуть прийняти умови після цієї дати і пройти через модальне вікно).\n",
+                "export-url": "URL для експорту",
+                "export-url-help": "Будь-який користувач з дозволом \"Експортувати всі дані політики\" може отримати доступ до цих URL-адрес, щоб завантажити список користувачів, які прийняли цю політику. Ви можете знайти більш детальну інформацію про доступні опції на <a>вікі розширень</a>.\n"
             },
             "permissions": {
-                "see-user-policies-state": "",
-                "postpone-policies-accept": "",
-                "export-policies": ""
+                "see-user-policies-state": "Переглянути стан політик користувача",
+                "postpone-policies-accept": "Можете відкласти прийняття нових умов",
+                "export-policies": "Експортуйте всі дані про користувачів і політики"
             }
         },
         "forum": {
             "signup": {
-                "i-accept": "",
-                "must-accept": ""
+                "i-accept": "Я приймаю <a>{policy}</a>",
+                "must-accept": "Ви повинні прийняти {policy}."
             },
             "accept-modal": {
-                "title": "",
-                "updated-at": "",
-                "updated-recently": "",
-                "i-accept": "",
-                "accept": "",
-                "close": ""
+                "title": "Оновлення умов",
+                "updated-at": "Умови були оновлені {date}.",
+                "updated-recently": "Умови були оновлені з моменту вашого останнього візиту",
+                "i-accept": "Я приймаю нову <a>{policy}</a>",
+                "accept": "Підтвердити",
+                "close": "Дякуємо за згоду, тепер ви можете повернутися до форуму"
             },
             "state-modal": {
-                "title": "",
-                "accepted-at": "",
-                "not-accepted": ""
+                "title": "Умови приймають стан для користувача {username}",
+                "accepted-at": "Прийнято {date}",
+                "not-accepted": "Не прийнято"
             },
             "update-alert": {
-                "must-accept-message": "",
-                "can-accept-message": "",
-                "review": ""
+                "must-accept-message": "Ми тимчасово обмежили доступ до вашого облікового запису, поки ви ознайомлюєтеся з новими умовами.",
+                "can-accept-message": "Нещодавно ми оновили умови. Ви повинні прийняти їх, щоб продовжувати користуватися цим веб-сайтом.",
+                "review": "Натисніть тут, щоб переглянути та прийняти нові умови"
             },
             "user_controls": {
-                "state_button": ""
+                "state_button": "Стан прийняття умов"
             }
         }
     }
