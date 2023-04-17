@@ -2,38 +2,38 @@
     "ianm-follow-users": {
         "admin": {
             "permissions": {
-                "be_followed_label": ""
+                "be_followed_label": "Дозвольте користувачам відстежувати"
             },
             "settings": {
-                "button-on-profile-label": "",
-                "stats-on-profile-label": ""
+                "button-on-profile-label": "Показувати кнопку \"Підписатися\" безпосередньо в шапці профілю користувача",
+                "stats-on-profile-label": "Показувати кількість підписників і фоловерів у профілях користувачів"
             }
         },
         "forum": {
-            "followed": "",
-            "followers": "",
-            "profile_link": "",
+            "followed": "Слідкували",
+            "followers": "{count, plural, one {Послідовник} other {Послідовники}}",
+            "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
-                "no_following": ""
+                "no_following": "Виглядає так, ніби ви ні за ким не стежите."
             },
             "user_controls": {
-                "follow_button": "",
-                "unfollow_button": ""
+                "follow_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "settings": {
-                "notify_new_follower_label": "",
-                "notify_new_unfollower_label": "",
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": "",
-                "block_follow": ""
+                "notify_new_follower_label": "Хтось слідкує за мною",
+                "notify_new_unfollower_label": "Хтось перестає за мною слідкувати",
+                "notify_new_discussion_label": "Хтось, за ким я стежу, починає дискусію",
+                "notify_new_post_label": "Хтось, за ким я стежу, пише в існуючій дискусії",
+                "block_follow": "Заборонити користувачам стежити за мною"
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": ""
+                "follow_tag_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_tag_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": "",
+                "new_discussion_text": "{username} підписався",
+                "new_post_text": "{username} написав допис в дискусії",
                 "new_follower_text": "",
                 "new_unfollower_text": ""
             },
@@ -54,13 +54,13 @@
                     "follow_select_label": "",
                     "no_user_attr_provided_err": "",
                     "no_user_attr_provided_err_debug": "",
-                    "save_btn": "",
-                    "cancel_btn": ""
+                    "save_btn": "Зберегти",
+                    "cancel_btn": "Скасувати"
                 }
             }
         },
         "email": {
-            "new_discussion_by_user_subject": "",
+            "new_discussion_by_user_subject": "[Follow User] {title}",
             "new_follower_subject": "",
             "new_post_subject": "",
             "new_discussion_by_user_body": "",
