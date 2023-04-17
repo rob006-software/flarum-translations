@@ -1,37 +1,37 @@
 {
     "nyu8-email-filter": {
         "admin": {
-            "general": "",
-            "custom_failure_message_label": "",
-            "custom_failure_message_hint": "",
-            "rule_settings": "",
-            "name_placeholder": "",
-            "invalid_regular_expression": "",
+            "general": "Загальне",
+            "custom_failure_message_label": "Користувацьке повідомлення про збій",
+            "custom_failure_message_hint": "Користувацьке повідомлення про помилку, яке буде показано, коли імейл буде недійсним. Якщо залишити це поле порожнім, буде показано повідомлення про помилку за замовчуванням.",
+            "rule_settings": "Налаштування правил",
+            "name_placeholder": "Назва правила",
+            "invalid_regular_expression": "Невірний регулярний вираз",
             "whitelist_literal": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Білий список",
+                "description": "Точні адреси для білого списку",
+                "placeholder": "Електронна пошта до білого списку..."
             },
             "whitelist_regex": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Регулярний вираз для білого списку",
+                "description": "Надіслати регулярні вирази до білого списку",
+                "placeholder": "Регулярний вираз для білого списку..."
             },
             "blacklist_literal": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Чорний список",
+                "description": "Точні адреси для чорного списку",
+                "placeholder": "Електронна пошта до чорного списку..."
             },
             "blacklist_regex": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Регулярний вираз для чорного списку",
+                "description": "Надіслати регулярні вирази пошти до чорного списку",
+                "placeholder": "Регулярний вираз для чорного списку..."
             }
         },
         "forum": {
-            "generic_exception": "",
-            "blacklist_exception": "",
-            "whitelist_exception": ""
+            "generic_exception": "Щось пішло не так. Зверніться до адміністратора цієї спільноти.",
+            "blacklist_exception": "Ця електронна адреса або її домен знаходиться в чорному списку цієї спільноти.",
+            "whitelist_exception": "Ця електронна адреса або її домен не входить до білого списку цієї спільноти."
         }
     }
 }
