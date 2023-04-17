@@ -2,54 +2,54 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": "",
-                "view_birthday_label": ""
+                "edit_own_birthday_label": "Редагувати свій день народження",
+                "view_birthday_label": "Переглянути день народження"
             },
             "settings": {
-                "set_on_registration_label": "",
-                "required_label": "",
-                "required_help": "",
-                "min_age_label": "",
-                "min_age_help": "",
-                "date_format_label": "",
-                "date_format_help": "",
-                "date_none_year_label": ""
+                "set_on_registration_label": "Дозволити встановлювати день народження при реєстрації",
+                "required_label": "Обов'язкове введення дня народження",
+                "required_help": "Щоб ця опція працювала, вам потрібно увімкнути опцію Встановити при реєстрації",
+                "min_age_label": "Мінімальний вік",
+                "min_age_help": "Мінімальний вік для реєстрації",
+                "date_format_label": "Формат дати",
+                "date_format_help": "Використовуйте формат дати <a>dayjs</a>. Залиште порожнім, щоб використовувати формат за налаштуванням.",
+                "date_none_year_label": "Формат дати без року"
             }
         },
         "forum": {
             "user": {
-                "birthday_text": "",
-                "age_text": ""
+                "birthday_text": "День народження: {date}",
+                "age_text": "Вік: {age}"
             },
             "header": {
-                "edit_dob_button": ""
+                "edit_dob_button": "Редагувати дату дня народження"
             },
             "change_dob": {
-                "title": "",
-                "date_of_birth_text": "",
-                "submit_button": ""
+                "title": "Редагувати дату дня народження",
+                "date_of_birth_text": "Дата дня народження",
+                "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
-                "change_dob_label": "",
-                "dob_heading": "",
-                "show_dob_date_label": "",
-                "show_dob_year_label": "",
-                "show_dob_year_help": ""
+                "change_dob_label": "Змінити дату дня народження",
+                "dob_heading": "Дата дня народження",
+                "show_dob_date_label": "Показати день і місяць народження",
+                "show_dob_year_label": "Показати рік народження",
+                "show_dob_year_help": "Це дозволить людям побачити ваш вік."
             },
             "edit_user": {
-                "dob_heading": ""
+                "dob_heading": "Дата народження"
             },
             "nav": {
-                "nav_item": ""
+                "nav_item": "Сьогоднішні іменинники"
             },
             "page": {
-                "discussion_count": "",
-                "post_count": ""
+                "discussion_count": "{count, plural, one {Дискусія: #} other {Дискусії: #}}",
+                "post_count": "{count, plural, one {Допис: #} other {Дописи: #}}"
             }
         },
         "api": {
-            "invalid_dob_message": "",
-            "invalid_age_message": ""
+            "invalid_dob_message": "Невірна дата народження",
+            "invalid_age_message": "Ваш вік повинен бути не менше {minAge} років."
         }
     }
 }
