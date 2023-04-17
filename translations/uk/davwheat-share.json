@@ -1,25 +1,25 @@
 {
     "davwheat-share": {
         "admin": {
-            "browser_support_notice": "",
+            "browser_support_notice": "Опція \"Поділитися\" з'явиться лише на пристроях, які підтримують API Web Share. <a>Перевірте підтримку різних браузерів.</a>",
             "display_options": {
-                "icon": "",
-                "text": "",
-                "menu": ""
+                "icon": "Лише іконка",
+                "text": "Лише теуст",
+                "menu": "Внутрішнє меню дій"
             },
-            "display_options_label": "",
-            "button_preview_header": "",
+            "display_options_label": "Тип відображення кнопки Поділитися",
+            "button_preview_header": "Переглянути",
             "preview": {
-                "reply": "",
+                "reply": "Відповісти",
                 "dropdown": {
-                    "edit": "",
-                    "delete": ""
+                    "edit": "Редагувати",
+                    "delete": "Видалити"
                 }
             }
         },
         "lib": {
-            "share": "",
-            "share_a11y_label": ""
+            "share": "Поділитися",
+            "share_a11y_label": "Поділитися дописом"
         }
     }
 }
