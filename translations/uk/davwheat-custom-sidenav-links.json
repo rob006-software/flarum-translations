@@ -4,71 +4,71 @@
             "admin": {
                 "settings_page": {
                     "display_options": {
-                        "heading": "",
+                        "heading": "Показати налаштування",
                         "options": {
                             "position": {
-                                "above-tags-link": "",
-                                "below-tags-link": ""
+                                "above-tags-link": "Над кнопкою \"Теги\"",
+                                "below-tags-link": "Під кнопкою \"Теги\""
                             }
                         },
                         "labels": {
-                            "position": "",
-                            "top_spacer": "",
-                            "bottom_spacer": ""
+                            "position": "Розташування посилання",
+                            "top_spacer": "Показати верхній роздільнтк",
+                            "bottom_spacer": "Показати нижній роздільк"
                         }
                     },
                     "link_table": {
-                        "heading": "",
-                        "add_link_btn": "",
-                        "confirm_delete": "",
+                        "heading": "Налаштувати посилання",
+                        "add_link_btn": "Додати нове посилання",
+                        "confirm_delete": "Підтвердити видалення посилання \"{link}\"",
                         "alert": {
-                            "fix_errors": ""
+                            "fix_errors": "Перш ніж зберігати зміни, вам потрібно виправити вищевказані проблеми."
                         },
                         "table": {
                             "header": {
-                                "position": "",
-                                "icon": "",
-                                "text": "",
-                                "url": "",
-                                "internal": "",
-                                "delete": ""
+                                "position": "Розташування",
+                                "icon": "Значок посилання",
+                                "text": "Текст посилання",
+                                "url": "Адреса",
+                                "internal": "Чи є Flarum URL-адресою?",
+                                "delete": "Видалити"
                             },
                             "placeholders": {
-                                "icon": "",
-                                "text": "",
-                                "url": ""
+                                "icon": "fas fa-link",
+                                "text": "Мій крутий сайт",
+                                "url": "https://flarum.org"
                             },
                             "tooltips": {
-                                "move_up": "",
-                                "move_down": "",
-                                "icon_preview": ""
+                                "move_up": "Догори",
+                                "move_down": "Донизу",
+                                "icon_preview": "Переглянути значок"
                             }
                         },
                         "save_btn": {
-                            "dirty": "",
-                            "saving": "",
-                            "saved": "",
-                            "fix_errors": ""
+                            "dirty": "Зберегти налаштування",
+                            "saving": "Зміни зберігаються...",
+                            "saved": "Немає змін для збереження",
+                            "fix_errors": "Виправте помилки перед збереженням"
                         }
                     },
                     "new_link_modal": {
-                        "title": "",
+                        "title": "Додати нове посилання",
                         "submit_btn": {
-                            "add": "",
-                            "loading": "",
-                            "fix_url": "",
-                            "invalid_form": ""
+                            "add": "Додати посилання",
+                            "loading": "Додавання посилання",
+                            "fix_url": "Некоректне посилання",
+                            "invalid_form": "Заповніть усі поля"
                         },
                         "labels": {
-                            "icon": "",
-                            "text": "",
-                            "url": "",
-                            "internal": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url",
+                            "internal": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.internal"
                         },
                         "placeholders": {
-                            "icon": "",
-                            "text": "",
-                            "url": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url"
                         }
                     }
                 }
