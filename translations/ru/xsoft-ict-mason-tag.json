@@ -2,50 +2,50 @@
     "xsoft-mason-tag": {
         "forum": {
             "discussion-controls": {
-                "edit-answers": ""
+                "edit-answers": "Править поля"
             },
             "answers-modal": {
-                "edit-title": "",
-                "save": ""
+                "edit-title": "Править поля для {title}",
+                "save": "Сохранить поля"
             },
             "post-answers": {
-                "no-answer": ""
+                "no-answer": "Нет ответа"
             },
             "answers": {
-                "choose-option": "",
-                "no-option-selected": ""
+                "choose-option": "Выберите вариант",
+                "no-option-selected": "Вариант не выбран"
             },
             "tags": {
-                "inadequate-settings": "",
-                "tags-label": ""
+                "inadequate-settings": "Настройки тега неправильно сконфигурированы. Выберите один основной и дополнительный теги или отключите опцию \"Теги как поля\".\n",
+                "tags-label": "Теги"
             }
         },
         "admin": {
             "buttons": {
-                "new-field": "",
-                "add-field": "",
-                "save-field": "",
-                "delete-field": "",
-                "edit-field": "",
-                "add-answer": "",
-                "save-answer": "",
-                "delete-answer": "",
-                "edit-answer": "",
-                "edit-answer-prompt": "",
-                "show-user-answers": ""
+                "new-field": "Новое поле",
+                "add-field": "Добавить поле",
+                "save-field": "Сохранить изменения полей",
+                "delete-field": "Удалить поле",
+                "edit-field": "Щелкните для правки поля",
+                "add-answer": "Добавить ответ",
+                "save-answer": "Сохранить изменения ответа",
+                "delete-answer": "Удалить ответ",
+                "edit-answer": "Править ответ",
+                "edit-answer-prompt": "Править содержимое везде, где оно используется",
+                "show-user-answers": "Показать не-предложенные ответы ({count})"
             },
             "fields": {
-                "add": "",
-                "edit": "",
-                "required": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "show_when_empty": "",
-                "show_when_empty-help": "",
-                "validation": "",
-                "user_values_allowed": "",
+                "add": "Добавить поле {field}",
+                "edit": "Править поле {field}",
+                "required": "Необходимое",
+                "name": "Название поля",
+                "name-help": "Общедоступная (не-переводимая) метка поля.\n",
+                "description": "Описание поля",
+                "description-help": "Опциональное описание, объясняющее использование/назначение этого поля.\n",
+                "show_when_empty": "Показать даже пустое",
+                "show_when_empty-help": "Определяет, показывать ли поле в дискуссии, если в ней нет ответов",
+                "validation": "Одобрение пользовательских значений",
+                "user_values_allowed": "Пользовательские значения разрешены",
                 "user_values_allowed-help": "",
                 "validation-help": "",
                 "enable-user-values-for-validation": "",
