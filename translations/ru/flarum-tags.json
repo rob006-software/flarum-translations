@@ -88,8 +88,8 @@
         "lib": {
             "deleted_tag_text": "Удалено",
             "tag_selection_modal": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
+                "bypass_requirements": "Игнорировать требования тега",
+                "choose_primary_placeholder": "{count, plural, one {Выберите основной тег} other {Выберите # основных тегов}}",
                 "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "submit_button": "=> core.ref.okay",
@@ -98,7 +98,7 @@
         },
         "ref": {
             "choose_tags": "Выберите теги",
-            "choose_tags_placeholder": "",
+            "choose_tags_placeholder": "{count, plural, one {Выберите еще 1 тег} other {Выберите еще # тегов}}",
             "name": "Название",
             "tags": "Теги"
         }
