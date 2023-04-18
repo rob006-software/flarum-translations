@@ -917,6 +917,9 @@ return [
 	'katosdev-signature' => [
 		'tag' => 'https://raw.githubusercontent.com/katosdev/signature/1.2/locale/en.yml',
 	],
+	'kiddo-follow-users' => [
+		'tag' => 'https://raw.githubusercontent.com/kiddoVin/follow-users/0.0.1/resources/locale/en.yml',
+	],
 	'kilowhat-audit-free' => [
 		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-audit-free/1.6.0/resources/locale/en.yml',
 	],
