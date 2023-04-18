@@ -201,7 +201,7 @@
                 "read_heading": "Чтение",
                 "rename_discussions_label": "Изменять название дискуссий",
                 "reply_to_discussions_label": "Отвечать в дискуссии",
-                "search_users_label": "Искать пользователей",
+                "search_users_label": "=> core.ref.search_users",
                 "sign_up_label": "Регистрация пользователей",
                 "start_discussions_label": "Создавать дискуссии",
                 "title": "Разрешения",
@@ -270,7 +270,7 @@
                     "next_button": "Следующая страница",
                     "page_counter": "Страница: {current} / {total}"
                 },
-                "search_placeholder": "",
+                "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
                 "total_users": "Всего пользователей: {count}"
             }
@@ -446,12 +446,12 @@
                 "global_logout": {
                     "heading": "Глобальный выход",
                     "help_text": "Очистить текушие cookie сессии, завершить все сессии, отозвать токены разработчика, и сделать недействительными все подтверждения email-ов и email'ы сброса пароля.",
-                    "log_out_button": ""
+                    "log_out_button": "=> core.ref.log_out"
                 },
                 "hide_access_token": "Скрыть Токен",
                 "last_activity": "Последняя активность",
                 "never": "Никогда",
-                "new_access_token_button": "",
+                "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
                     "submit_button": "Создать Токен",
                     "title": "=> core.ref.new_token",
@@ -460,7 +460,7 @@
                 "revoke_access_token": "Отозвать",
                 "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
                 "sessions_heading": "Активные сессии",
-                "session_terminated": "",
+                "session_terminated": "{count, plural, one {Сессий сброшено} other {# Сессий сброшено}}.",
                 "session_termination_failed": "Произошла ошибка при завершении ваших сессий.",
                 "show_access_token": "Просмотр токена",
                 "terminate_all_other_sessions": "Завершить все другие сессии",
