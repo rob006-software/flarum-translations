@@ -436,6 +436,9 @@ return [
 	'ffans-clipboardjs' => [
 		'tag' => 'https://raw.githubusercontent.com/FFans/clipboardjs/v1.0.0/resources/locale/en.yml',
 	],
+	'finteger-shorts' => [
+		'tag' => 'https://raw.githubusercontent.com/finteger/shorts/V1.0.2/locale/en.yml',
+	],
 	'flamarkt-backoffice' => [
 		'tag' => 'https://raw.githubusercontent.com/flamarkt/backoffice/0.1.3/resources/locale/en.yml',
 	],
