@@ -2,25 +2,25 @@
     "miniflar-sidenav-download-button": {
         "admin": {
             "permissions": {
-                "view_download_button_label": ""
+                "view_download_button_label": "Кнопка завантаження на sideNav"
             },
             "settings": {
                 "labels": {
-                    "add_separator": "",
-                    "disable_widget": ""
+                    "add_separator": "Додати роздільнтк?",
+                    "disable_widget": "Вимкніть рідний віджет і використовуйте замість нього віджет з підтримкою Afrux"
                 },
-                "button_order_heading": "",
-                "button_order_text": "",
-                "separator_order_heading": "",
-                "separator_order_text": "",
-                "button_link_heading": "",
-                "button_link_text": "",
-                "enter_link_message": ""
+                "button_order_heading": "Порядок кнопок",
+                "button_order_text": "Відредагуйте цей параметр, щоб налаштувати позицію цього віджету в розділі sideNav вашого форуму на Flarum. Чим більше число, тим вище цей віджет буде знаходитися у списку елементів sideNav (це значення може бути як додатним, так і від'ємним).",
+                "separator_order_heading": "Порядок роздільників",
+                "separator_order_text": "Відредагуйте цей параметр, щоб налаштувати позицію роздільника для цього віджету в розділі sideNav вашого форуму на Flarum. Чим більше число, тим вище буде розташований роздільник у списку елементів sideNav (це значення може бути як додатним, так і від'ємним).",
+                "button_link_heading": "Посилання для завантаження",
+                "button_link_text": "Введіть дійсну URL-адресу (наприклад, https://example.com).",
+                "enter_link_message": "Будь ласка, введіть правильну URL-адресу."
             }
         },
         "forum": {
             "index": {
-                "download_button": ""
+                "download_button": "Завантажити"
             }
         }
     }
