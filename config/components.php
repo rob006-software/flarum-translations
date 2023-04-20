@@ -56,7 +56,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/mizhiyugan529/flarum-dice/0.0.1/locale/en.yml',
 	],
 	'antoinefr-money' => [
-		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/v1.3.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/v1.3.1/locale/en.yml',
 	],
 	'antoinefr-online' => [
 		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-online/v1.0.1/locale/en.yml',
