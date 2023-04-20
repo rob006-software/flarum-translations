@@ -50,14 +50,14 @@
                 "io_error_message": "אין אפשרות לכתוב קבצי מערכת. יש צורך בבדיקת הרשאות ולנסות שוב. או לנסות להריץ דרך שורת פקודה.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "scheduler-status": "מתאם זמנים",
+                        "queue-driver": "דרייבד תורים",
+                        "session-driver": "סשן דרייבר"
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "פעיל",
+                        "inactive": "לא פעיל",
+                        "never-run": "מעולם לא רץ"
                     }
                 },
                 "title": "לוח מחוונים",
@@ -179,7 +179,7 @@
             "permissions": {
                 "allow_post_editing_label": "עריכת פוסט",
                 "allow_renaming_label": "עריכת שם",
-                "create_access_token_label": "",
+                "create_access_token_label": "יצירת token גישה",
                 "create_heading": "כתיבה",
                 "delete_discussions_forever_label": "הסרת דיונים לצמיטוט",
                 "delete_discussions_label": "הסרת דיונים",
@@ -192,7 +192,7 @@
                 "edit_users_groups_label": "עריכת קבוצות משתמשים",
                 "global_heading": "‮גלובלי",
                 "moderate_heading": "ניהול",
-                "moderate_access_tokens_label": "",
+                "moderate_access_tokens_label": "ניהול token גישה",
                 "new_group_button": "קבוצה חדשה",
                 "participate_heading": "השתתפות",
                 "post_without_throttle_label": "מספר תגובות ברצף ללא המתנה",
@@ -231,7 +231,7 @@
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": ""
+                            "title": "הצגת שם"
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
@@ -262,13 +262,13 @@
                 },
                 "pagination": {
                     "back_button": "עמוד קודם",
-                    "first_button": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
+                    "first_button": "מעבר לעמוד הראשון",
+                    "go_to_page_textbox_a11y_label": "מעבר ישירות למספר עמוד",
+                    "last_button": "מעבר לעמוד האחרון",
                     "next_button": "עמוד הבא",
                     "page_counter": "עמוד {current} מתוך {total}"
                 },
-                "search_placeholder": "",
+                "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
                 "total_users": "סך הכל משתמשים: {count}"
             }
@@ -434,39 +434,39 @@
                 "users_heading": "=> core.ref.users"
             },
             "security": {
-                "browser_on_operating_system": "",
-                "cannot_terminate_current_session": "",
-                "created": "",
-                "current_active_session": "",
-                "developer_tokens_heading": "",
-                "empty_text": "",
+                "browser_on_operating_system": "{browser} ב‌{os}",
+                "cannot_terminate_current_session": "אין אפשרות לנטרל את הפעילות. התנתקו המקום.",
+                "created": "נוצר",
+                "current_active_session": "מעילות כרגע",
+                "developer_tokens_heading": "Token של מפתחים",
+                "empty_text": "נראה שאין מה לראות כאן.",
                 "global_logout": {
-                    "heading": "",
+                    "heading": "התנתקות גלובאלית",
                     "help_text": "",
-                    "log_out_button": ""
+                    "log_out_button": "=> core.ref.log_out"
                 },
-                "hide_access_token": "",
-                "last_activity": "",
-                "never": "",
-                "new_access_token_button": "",
+                "hide_access_token": "הסתרת token",
+                "last_activity": "פעילות אחרונה",
+                "never": "מעולם לא",
+                "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
-                    "submit_button": "",
-                    "title": "",
-                    "title_placeholder": ""
+                    "submit_button": "יצירת Token",
+                    "title": "=> core.ref.new_token",
+                    "title_placeholder": "כותרת"
                 },
-                "revoke_access_token": "",
-                "revoke_access_token_confirmation": "",
-                "sessions_heading": "",
-                "session_terminated": "",
-                "session_termination_failed": "",
-                "show_access_token": "",
-                "terminate_all_other_sessions": "",
-                "terminate_all_other_sessions_confirmation": "",
-                "terminate_session": "",
-                "title": "",
-                "token_revoked": "",
-                "token_item_title": "",
-                "token_title_placeholder": ""
+                "revoke_access_token": "נמשך",
+                "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
+                "sessions_heading": "פעילויות פעילות",
+                "session_terminated": "{count, plural, one {פעילות נוטרלה} other {# פעילויות נוטרלו}}.",
+                "session_termination_failed": "קרתה תקלה בזמן ניטרול הפעילויות שלך.",
+                "show_access_token": "צפיה בToken",
+                "terminate_all_other_sessions": "ניטרול שאר הפעילויות",
+                "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
+                "terminate_session": "ניטרול",
+                "title": "=> core.ref.security",
+                "token_revoked": "Token נמשך.",
+                "token_item_title": "{title} - {token}",
+                "token_title_placeholder": "/"
             },
             "settings": {
                 "account_heading": "חשבון",
@@ -502,7 +502,7 @@
                 "posts_empty_text": "נראה שאין פה הודעות.",
                 "posts_link": "הודעות",
                 "posts_load_more_button": "=> core.ref.load_more",
-                "security_link": "",
+                "security_link": "=> core.ref.security",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -535,7 +535,7 @@
                 "toggle_dropdown_accessible_label": "פתיחת תפריט"
             },
             "data_segment": {
-                "label": ""
+                "label": "{label}:"
             },
             "edit_user": {
                 "activate_button": "משתמש פעיל",
@@ -694,7 +694,7 @@
             "log_in": "התחברות",
             "log_out": "התנתקות",
             "mark_all_as_read": "סמן הכל כנקרא",
-            "new_token": "",
+            "new_token": "Token חדש",
             "next_page": "דף הבא",
             "notifications": "התראות",
             "okay": "אישור",
@@ -707,8 +707,8 @@
             "reset_your_password": "איפוס סיסמה",
             "restore": "שחזר",
             "save_changes": "שמירת שינויים",
-            "search_users": "",
-            "security": "",
+            "search_users": "חיפוש משתמשים",
+            "security": "אבטחה",
             "settings": "הגדרות",
             "sign_up": "הרשמה",
             "some_others": "{count, plural, one {# אחר} other {# אחרים}}",
