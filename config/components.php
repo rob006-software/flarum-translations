@@ -965,6 +965,9 @@ return [
 	'malago-fancybox' => [
 		'tag' => 'https://raw.githubusercontent.com/malago86/flarum-ext-fancybox/0.3.0/locale/en.yml',
 	],
+	'marchccc-mentions-group-users' => [
+		'tag' => 'https://raw.githubusercontent.com/Marchccc/flarum-ext-mentions-group-users/v0.1.0/locale/en.yml',
+	],
 	'matteociaroni-public-suspensions' => [
 		'tag' => 'https://raw.githubusercontent.com/matteociaroni/flarum-public-suspensions/v1.0.0/locale/en.yml',
 	],
