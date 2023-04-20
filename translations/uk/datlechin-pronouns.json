@@ -2,20 +2,20 @@
     "datlechin-pronouns": {
         "admin": {
             "settings": {
-                "prefix_label": "",
-                "prefix_help": "",
-                "icon_label": "",
-                "icon_help": ""
+                "prefix_label": "Займенники з префіксом",
+                "prefix_help": "Цей текст буде показано перед займенниками користувача. Залиште порожнім, щоб нічого не показувати.",
+                "icon_label": "Значок займенників",
+                "icon_help": "Увімкніть цю опцію, щоб показувати значок замість тексту перед займенниками користувача."
             }
         },
         "forum": {
             "change_pronouns": {
-                "title": "",
-                "help": "",
-                "submit_button": ""
+                "title": "Зміна займенників",
+                "help": "Ваші займенники відображатимуться у вашому профілі та картці користувача. <a>Що таке особові займенники і чому вони важливі?</a>",
+                "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
-                "change_pronouns_button": ""
+                "change_pronouns_button": "Зміна займенників"
             }
         }
     }
