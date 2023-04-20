@@ -2,41 +2,41 @@
     "nearata-twofactor": {
         "admin": {
             "settings": {
-                "generate_backups": ""
+                "generate_backups": "Згенеруйте резервні коди."
             },
             "permissions": {
-                "can_enable_twofactor": ""
+                "can_enable_twofactor": "Можна увімкнути двофакторну авторизацію"
             }
         },
         "forum": {
-            "invalid_twofa_code": "",
-            "invalid_twofa_setup": "",
+            "invalid_twofa_code": "Невірний двофакторний код.",
+            "invalid_twofa_setup": "Невірний пароль або код доступу.",
             "log_in_modal": {
-                "submit_button": "",
-                "otp_placeholder": "",
-                "title": ""
+                "submit_button": "Увійти",
+                "otp_placeholder": "Двофакторний код доступу",
+                "title": "Двофакторну авторизація"
             },
-            "setup_button": "",
+            "setup_button": "Двофакторна авторизація",
             "setup_modal": {
                 "backups": {
-                    "copy_button": "",
-                    "download_button": "",
-                    "download_file_format": "",
-                    "modal_message": ""
+                    "copy_button": "Копіювати",
+                    "download_button": "Завантажити",
+                    "download_file_format": "{website_title} | {website_url}\n\nЗберігайте ці резервні коди в безпечному, але доступному місці.\n\nСПИСОК КОДІВ\n\n{codes}\n\n* Кожен код резервного коду можна використати лише один раз.\n* Ці коди ПОВИННІ бути використані у вказаному порядку.\n* Ці коди були згенеровані на: {date}.\n",
+                    "modal_message": "Зберігайте ці коди відновлення в безпечному місці. Якщо ви втратите свій двофакторний пристрій, ці одноразові коди можна використати в зазначеному порядку для входу до свого облікового запису.\n"
                 },
-                "close_button": "",
-                "disabled": "",
-                "enabled": "",
-                "enter_code_disable": "",
-                "enter_code_manually": "",
-                "passcode_placeholder": "",
-                "password_placeholder": "",
-                "scan_qr": "",
+                "close_button": "Закрити",
+                "disabled": "Двофакторну автентифікацію вимкнено.",
+                "enabled": "Двофакторну автентифікацію увімкнено.",
+                "enter_code_disable": "Введіть код, щоб вимкнути двофакторну авторизацію.",
+                "enter_code_manually": "Замість цього введіть ключ вручну",
+                "passcode_placeholder": "Двофакторний код доступу",
+                "password_placeholder": "Пароль",
+                "scan_qr": "Відскануйте цей QR-код своїм пристроєм двофакторної автентифікації, щоб налаштувати обліковий запис.",
                 "submit_button": {
-                    "enable": "",
-                    "disable": ""
+                    "enable": "Увімкнути",
+                    "disable": "Вимкнути"
                 },
-                "title": ""
+                "title": "Двофакторна авторизація"
             }
         }
     }
