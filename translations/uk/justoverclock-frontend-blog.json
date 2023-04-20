@@ -1,30 +1,30 @@
 {
     "justoverclock-frontend-blog": {
         "admin": {
-            "numberOfPost": "",
-            "setBlogIndexPage": "",
-            "numberOfPost-help": "",
-            "sorting": "",
-            "sorting-help": "",
-            "charLim": "",
-            "charLim-help": "",
-            "defaultImage": "",
-            "defaultImage-help": "",
-            "showHeaderHero": "",
-            "showPinnedDiscussions": ""
+            "numberOfPost": "Кількість дописів",
+            "setBlogIndexPage": "Встановити розширення Frontend Blog як головну сторінку",
+            "numberOfPost-help": "Введіть тут номер допису, який ви хочете відобразити",
+            "sorting": "Останні або гарячі дискусії? (за налаштуванням - останні)",
+            "sorting-help": "Якщо ви хочете відображати останні обговорення, напишіть \"-createdAt\", для гарячих обговорень напишіть \"-commentCount\"",
+            "charLim": "Обмеження на кількість символів",
+            "charLim-help": "Введіть тут кількість максимальних символів для відображення",
+            "defaultImage": "Зображення публікації за налаштуванням",
+            "defaultImage-help": "тут ви можете визначити зображення за налаштуванням для дописів, які його не мають",
+            "showHeaderHero": "Покажіть вітального героя",
+            "showPinnedDiscussions": "Показати останні 3 закріплені дискусії"
         },
         "forum": {
-            "recentDiscussions": "",
-            "titlePage": "",
-            "post": "",
-            "linkToDiscussion": "",
-            "postedOn": "",
-            "menuButton": "",
-            "allDiscussions": "",
-            "signupButton": "",
-            "loginButton": "",
-            "stickyTitle": "",
-            "readMore": ""
+            "recentDiscussions": "Останні дискусії:",
+            "titlePage": "Дискусії на форумі",
+            "post": "{count, plural, one {# POST} other {# POSTS}}",
+            "linkToDiscussion": " Посилання на дискусію",
+            "postedOn": " Опублікований на: ",
+            "menuButton": "Меню",
+            "allDiscussions": "Форум",
+            "signupButton": "Реєстрація",
+            "loginButton": "Авторизація",
+            "stickyTitle": "Закріплені обговорення",
+            "readMore": "Детальніше"
         }
     }
 }
