@@ -1,27 +1,27 @@
 {
     "flarum-ext-dontgoaway": {
         "admin": {
-            "modtitle": "",
-            "modtitledesc": "",
-            "modtext": "",
-            "modtextdesc": "",
-            "urltext": "",
-            "urltextdesc": "",
-            "widthtext": "",
-            "widthdesc": "",
-            "heightext": "",
-            "heightdesc": "",
-            "altext": "",
-            "altdesc": "",
-            "btn": "",
-            "btndesc": "",
-            "enableExtLink": ""
+            "modtitle": "Модальний заголовок",
+            "modtitledesc": "Налаштуйте назву спливаючого вікна",
+            "modtext": "Модульний текст",
+            "modtextdesc": "Тут ви можете налаштувати текст модального спливаючого вікна.",
+            "urltext": "URL-адреса вашого зображення",
+            "urltextdesc": "Вставте сюди URL-адресу вашого зображення",
+            "widthtext": "Ширина зображення",
+            "widthdesc": "Встановіть ширину зображення (наприклад, 450)",
+            "heightext": "Висота зображення",
+            "heightdesc": "Встановіть висоту вашого зображення (наприклад, 450)",
+            "altext": "Атрибут Alt для зображення",
+            "altdesc": "Встановіть атрибути \"alt\" для вашого зображення",
+            "btn": "Налаштування кнопки. Приклад синтаксису в плейсхолдері",
+            "btndesc": "ви можете налаштувати свій шрифт для іконки та тексту для кнопки",
+            "enableExtLink": "Увімкнути спливаюче вікно за зовнішнім посиланням"
         },
         "forum": {
-            "extlinktitle": "",
-            "extlinktext": "",
-            "confbutton": "",
-            "cancelbutton": ""
+            "extlinktitle": "Зовнішнє посилання",
+            "extlinktext": "Ви залишаєте сайт, переходячи за зовнішнім посиланням",
+            "confbutton": "Продовжити",
+            "cancelbutton": "Залишитись тут!"
         }
     }
 }
