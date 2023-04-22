@@ -2,39 +2,39 @@
     "clarkwinkelmann-discussion-open-position": {
         "admin": {
             "settings": {
-                "defaultOpenLastRead": "",
-                "suggestFirstTime": "",
+                "defaultOpenLastRead": "Відкрите обговорення після останнього прочитання за налаштуванням",
+                "suggestFirstTime": "Показувати користувачеві запит на зміну налаштувань при першому відкритті дискусії",
                 "openLastOptions": {
-                    "always": "",
-                    "unread": "",
-                    "never": ""
+                    "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
+                    "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
+                    "never": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never"
                 }
             }
         },
         "forum": {
             "firstTimePrompt": {
-                "fromAlways": "",
-                "fromNever": "",
+                "fromAlways": "Посилання на дискусію ведуть до вашого останнього прочитаного допису",
+                "fromNever": "Посилання на дискусію відкривають перший допис",
                 "openLastOptions": {
-                    "always": "",
-                    "never": ""
+                    "always": "Завжди відкривається за останнім прочитаним дописом",
+                    "never": "Замість цього завжди відкривайте перший допис"
                 },
-                "more": ""
+                "more": "Більше опцій"
             },
             "preferences": {
-                "discussionOpenLastRead": "",
+                "discussionOpenLastRead": "Список дискусій",
                 "openLastOptions": {
-                    "always": "",
-                    "unread": "",
-                    "never": ""
+                    "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
+                    "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
+                    "never": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never"
                 }
             }
         },
         "ref": {
             "openLastOptions": {
-                "always": "",
-                "unread": "",
-                "never": ""
+                "always": "Завжди відкривайте дискусії в останньому прочитаному дописі",
+                "unread": "Відкривайте дискусії лише в останньому прочитаному дописі, якщо є нові відповіді",
+                "never": "Завжди відкривайте обговорення в першому дописі"
             }
         }
     }
