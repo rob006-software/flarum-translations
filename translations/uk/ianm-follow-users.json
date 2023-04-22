@@ -34,55 +34,55 @@
             "notifications": {
                 "new_discussion_text": "{username} підписався",
                 "new_post_text": "{username} написав допис в дискусії",
-                "new_follower_text": "",
-                "new_unfollower_text": ""
+                "new_follower_text": "{username} слідкував за тобою",
+                "new_unfollower_text": "{username} припинив слідкувати за тобою"
             },
             "badge": {
                 "label": {
-                    "follow": "",
-                    "lurk": ""
+                    "follow": "Дискусії які відстежуються",
+                    "lurk": "Відстежуються всі"
                 }
             },
             "filter": {
-                "following": ""
+                "following": "Користувачі для відстежування"
             },
             "modals": {
                 "select_follow_level": {
-                    "title": "",
-                    "description": "",
-                    "follow_levels_heading": "",
-                    "follow_select_label": "",
-                    "no_user_attr_provided_err": "",
-                    "no_user_attr_provided_err_debug": "",
+                    "title": "Обрати рівень відстежування для {username}",
+                    "description": "Оберіть, як ви хочете відстежувати <em>{username}</em>.",
+                    "follow_levels_heading": "Рівні відстежування",
+                    "follow_select_label": "Тип відстежування",
+                    "no_user_attr_provided_err": "Ой, щось пішло не так під час відкриття цього модального вікна.",
+                    "no_user_attr_provided_err_debug": "При створенні модального вікна SelectFollowUserLevel не було передано атрибут `user`. Модальне вікно не може бути відрендерено.",
                     "save_btn": "Зберегти",
                     "cancel_btn": "Скасувати"
                 }
             }
         },
         "email": {
-            "new_discussion_by_user_subject": "[Follow User] {title}",
-            "new_follower_subject": "",
-            "new_post_subject": "",
-            "new_discussion_by_user_body": "",
-            "new_follower_body": "",
-            "new_post_body": ""
+            "new_discussion_by_user_subject": "[Стежити за користувачем] {title}",
+            "new_follower_subject": "[Підписатись на користувача] У вас з'явився новий підписник!",
+            "new_post_subject": "[Стежити за користувачем] Нове повідомлення в {title}",
+            "new_discussion_by_user_body": "Привіт, {recipient_display_name}!\n\n{user_display_name} розпочав нову дискусію: {discussion_title}\n\nЩоб переглянути нову дискусію, перейдіть за наступним посиланням:\n\n{discussion_url}\n\n---\n\n{post_content}\n",
+            "new_follower_body": "Привіт, {recipient_display_name},\n\n{follower_display_name} почав відслідковувати вас, тому він отримає сповіщення, коли ви почнете нову дискусію.\n\nЩоб переглянути його профіль, перейдіть за наступним посиланням:\n\n{profile_url}\n",
+            "new_post_body": "Привіт, {recipient_display_name},\n\n{user_display_name} долучився до обговорення: {discussion_title}\n\nЩоб переглянути нову активність, перейдіть за наступним посиланням:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nВи більше не отримуватимете сповіщень про цю дискусію, доки не будете в курсі подій.\n"
         },
         "lib": {
-            "following_link": "",
-            "follow": "",
-            "change_follow_type": "",
+            "following_link": "Підписані користувачі",
+            "follow": "Підписатися",
+            "change_follow_type": "Змінити тип відстеження",
             "follow_levels": {
                 "unfollow": {
-                    "name": "",
-                    "description": ""
+                    "name": "Не підписуватися",
+                    "description": "Не отримувати сповіщення про активність <em>{username}</em>\n"
                 },
                 "follow": {
-                    "name": "",
-                    "description": ""
+                    "name": "Відстеження дискусій",
+                    "description": "Отримувати сповіщення, коли <em>{username}</em> починає нове обговорення.\n"
                 },
                 "lurk": {
-                    "name": "",
-                    "description": ""
+                    "name": "Слідкуйте за усіма",
+                    "description": "Отримувати сповіщення, коли <em>{username}</em> починає нове обговорення або пише в будь-якому обговоренні.\n"
                 }
             }
         }
