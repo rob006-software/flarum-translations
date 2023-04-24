@@ -33,8 +33,8 @@
                 "other": {
                     "heading": "Diğer",
                     "force_portrait_text": "Dikey kullanıma zorlansın mı?",
-                    "user_max_subscriptions_label": "",
-                    "user_max_subscriptions_text": ""
+                    "user_max_subscriptions_label": "Kullanıcı Başına Maksimum Push Aboneliği",
+                    "user_max_subscriptions_text": "Her kullanıcı aynı anda kaç tane push aboneliğine sahip olmalıdır? Bir kullanıcı bir anında iletme bildirimi aldığında, her abonelik bir API çağrısıyla sonuçlanır. Her abonelik tipik olarak kullanıcının kullandığı bir tarayıcıya karşılık gelir."
                 },
                 "heading": "İleri Web Uygulaması Ayarları",
                 "text": "Flarum web sitenizi İleri Web Uygulamasına dönüştürün! Bu sitenizi otomatik olarak uygulama mağazasında listelendirmez, kullanıcılar sitenizi ziyaret ettiğinde 'Ana ekrana ekle' hatırlatmasında bulunur.",
@@ -48,7 +48,7 @@
             "status": {
                 "config_no_https": "Config.php dosyanızdaki bağlantı HTTPS kullanmıyor. Progressive Web Uygulamalarının çalışması için HTTPS gereklidir.",
                 "possible_https_disabled": "Siteniz HTTPS üzerinde çalışmıyor olabilir.. Önbelleği temizlemek (Yönetim > Araçlar butonu) yardımcı olacaktır. Eğer HTTPS üzerinde çalışıyorsa bu uyarıyı görmezden gelin. İleri Web Uygulamasının çalışması için HTTPS kullanmanız gerektiğini unutmayın.",
-                "no_logo": "You must upload at least one logo for your app to work.",
+                "no_logo": "PWA'nın yüklenebilmesi için en az 144x144 piksel boyutunda bir logo yüklemeniz gerekir.",
                 "no_name": "Uygulamanızın çalışması için tam bir ad sağlamalısınız.",
                 "no_vapid_keys": "VAPID anahtarı bulunamadı. Bunlar, anlık bildirimlerinin gönderilmesi için gereklidir. VAPID anahtarlarını aşağıda sıfırlayabilirsiniz.",
                 "key_gen_failed": "Anlık bildirimler için gerekli anahtarların oluşturulması başarısız oldu. Tam hata mesajı: {error}",
