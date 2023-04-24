@@ -8,7 +8,7 @@
                 "moneyname": "Para adı (örn: [para] puan)",
                 "postminimumlength": "Para kazanmak için gönderinin minimum karakter uzunluğu (Etkisizleştirmek için 0 girin)",
                 "noshowzero": "Değer sıfır ise gösterme",
-                "autoremove": "",
+                "autoremove": "Parayı otomatik olarak güncelle",
                 "moneyforlike": "Bir gönderi beğenildiğinde verilen para",
                 "helpextensionlikes": "<code>flarum/likes</code> uzantısı gerektirir"
             },
@@ -16,9 +16,9 @@
                 "edit_money_label": "Tutarı Düzenle"
             },
             "autoremove": [
-                "",
-                "",
-                ""
+                "Parayı asla çıkarmayın",
+                "Bir tartışma/gönderi gizlendiğinde veya geri yüklendiğinde (varsayılan)",
+                "Bir tartışma/gönderi silindiğinde"
             ],
             "automoderator": {
                 "metric_name": "Para",
