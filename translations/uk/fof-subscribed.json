@@ -2,7 +2,7 @@
     "fof-subscribed": {
         "forum": {
             "settings": {
-                "defaults_label": "За yfkfinedfyyzv увімкнено параметр «{setting}»",
+                "defaults_label": "За налаштуванням встановлено параметр «{setting}»",
                 "forced_label": "Примусово увімкнути «{setting}» для всіх",
                 "notify_discussion_created_label": "Хтось створює дискусію",
                 "notify_post_created_label": "Хтось створює новий допис або відповідь",
@@ -29,11 +29,11 @@
         },
         "email": {
             "subject": {
-                "newDiscussion": "[Нова дискусія] {title}",
-                "newUser": "[Новий користувач] {username}",
-                "postUnapproved": "[Непідтверджене] {username} розмістив допис у «{title}»",
-                "postCreated": "[Нове повідомлення] {username} створив новий допис у «{title}»",
-                "postFlagged": "[Нова позначка] {username} позначив допис у «{title}»"
+                "newDiscussion": "Підписка | нова дискусія: {title}",
+                "newUser": "Підписка | новий користувач: {username}",
+                "postUnapproved": "Підписка | непідтверджене: {username} розмістив допис у «{title}»",
+                "postCreated": "Підписка | нове повідомлення: {username} створив новий допис у «{title}»",
+                "postFlagged": "Підписка | нова позначка: {username} позначив допис у «{title}»"
             },
             "body": {
                 "newDiscussion": "Привіт, {recipient_display_name}!\n\n{actor_display_name} розпочав нову дискусію: {discussion_title}\n\nЩоб переглянути це нову дискусію, перейдіть за наступним посиланням:\n{discussion_url}\n\n---\n\n{post_content}\n",
