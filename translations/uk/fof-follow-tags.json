@@ -15,7 +15,7 @@
                 }
             },
             "badge": {
-                "following_tag_tooltip": "Відслідковувати",
+                "following_tag_tooltip": "Слідкую",
                 "lurking_tag_tooltip": "Причаїтися"
             },
             "sub_controls": {
@@ -28,7 +28,7 @@
                 "ignoring_text": "Ніколи не повідомляйте.",
                 "lurking_button": "=> fof-follow-tags.ref.lurking",
                 "lurking_text": "Отримуйте повідомлення про всі нові обговорення та відповіді.",
-                "not_following_button": "Не дотримуюсь",
+                "not_following_button": "Не слідкую",
                 "not_following_text": "Отримувати сповіщення тільки тоді, коли @згадано.",
                 "notify_alert_tooltip": "Отримувати сповіщення про нові обговорення або повідомлення на форумі",
                 "notify_email_tooltip": "Отримувати електронну пошту, коли з'являються нові обговорення або повідомлення"
@@ -54,9 +54,9 @@
         },
         "email": {
             "subject": {
-                "newDiscussionInTag": "[Тег | Нове обговорення] {title}",
-                "newPostInTag": "[Тег | Новий допис] {title}",
-                "newDiscussionTag": "[Тег | Тег змінено] {title}"
+                "newDiscussionInTag": "Тег | нове обговорення: {title}",
+                "newPostInTag": "Тег | новий допис: {title}",
+                "newDiscussionTag": "Тег | тег змінено: {title}"
             },
             "body": {
                 "newDiscussionInTag": "Привіт, {recipient_display_name}!\n\n{actor_display_name} розпочав обговорення у тегу, за яким ви стежите: {discussion_title}\n\nЩоб переглянути нове обговорення, перейдіть за наступним посиланням:\n{discussion_url}\n\n---\n\n{post_content}\n",
