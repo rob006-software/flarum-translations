@@ -2,36 +2,36 @@
     "clarkwinkelmann-collapsible-posts": {
         "admin": {
             "settings": {
-                "reasons": "",
+                "reasons": "Причини",
                 "header": {
-                    "key": "",
-                    "label": "",
-                    "explanation": ""
+                    "key": "Унікальний ключ бази даних",
+                    "label": "Лейбл",
+                    "explanation": "Користувацьке пояснювальне повідомлення"
                 },
-                "add": "",
-                "explanationUrl": "",
-                "explanationUrlHelp": ""
+                "add": "Нова причина",
+                "explanationUrl": "Пояснення URL-адреси",
+                "explanationUrlHelp": "Необов'язково. З'являється під зруйнованими стовпчиками"
             },
             "permission": {
-                "collapse": ""
+                "collapse": "Згорнути публікації"
             }
         },
         "forum": {
             "postControl": {
-                "collapse": "",
-                "uncollapse": ""
+                "collapse": "Згорнути",
+                "uncollapse": "(Не)згортати"
             },
             "modal": {
-                "title": "",
-                "uncollapse": ""
+                "title": "Згорнути допис",
+                "uncollapse": "Незгортати"
             },
             "badge": {
-                "post": ""
+                "post": "Згортуто"
             },
             "stream": {
-                "hidden": "",
-                "load": "",
-                "explanation": ""
+                "hidden": "{count, plural, one {# допис приховано по {reason}} other {# дописи приховано по {reason}}}",
+                "load": "Завантажити більше",
+                "explanation": "Чому я це бачу?"
             }
         }
     }
