@@ -2,7 +2,7 @@
     "flarum-sticky": {
         "admin": {
             "permissions": {
-                "sticky_discussions_label": "Закріплювати дискусії"
+                "sticky_discussions_label": "Закріплені дискусії"
             }
         },
         "forum": {
@@ -11,11 +11,11 @@
             },
             "discussion_controls": {
                 "sticky_button": "=> flarum-sticky.ref.sticky",
-                "unsticky_button": "Відмінити закріплення"
+                "unsticky_button": "Відкріплено"
             },
             "post_stream": {
-                "discussion_stickied_text": "{username} закріпили дискусію {time}.",
-                "discussion_unstickied_text": "{username} скасували закріплення дискусії {time}."
+                "discussion_stickied_text": "Користувач {username} закріпив дискусію {time}.",
+                "discussion_unstickied_text": "Користувач {username} скасував закріплення дискусії {time}."
             }
         },
         "ref": {
