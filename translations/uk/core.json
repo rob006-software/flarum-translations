@@ -15,13 +15,13 @@
                 "custom_styles_heading": "Користувацькі стилі",
                 "custom_styles_text": "Налаштування зовнішнього вигляду форуму за допомогою призначеного для користувача коду LESS/CSS, який перекриває стандартні стильові конструкції Flarum.",
                 "dark_mode_label": "Темний режим",
-                "description": "Налаштуйте кольори, лого та інше.",
+                "description": "Налаштуйте кольори форуму, лого тощо.",
                 "edit_css_button": "Редагувати користувацький CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Будь ласка, введіть код кольору в HEX-форматі.",
                 "favicon_heading": "Іконка Favicon",
-                "favicon_text": "Завантажте зображення, яке буде відображатися в якості значка форуму.",
+                "favicon_text": "Завантажте зображення, яке буде відображатися як значок форуму.",
                 "logo_heading": "Логотип",
                 "logo_text": "Завантаження зображення, яке буде відображатися замість заголовка форуму.",
                 "title": "Зовнішній вигляд"
@@ -30,7 +30,7 @@
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Мова за налаштуванням",
                 "description": "Додайте назву форуму, мову та інші базові налаштування.",
-                "display_name_heading": "Ім'я користувача",
+                "display_name_heading": "Показувати ім'я користувача",
                 "display_name_text": "Оберіть драйвер, який слід використовувати для показу імен користувачів. За налаштуванням показується ім'я користувача.",
                 "forum_description_heading": "Опис форуму",
                 "forum_description_text": "Введіть короткий опис спільноти. Опис з'явиться в meta-тегу і буде відображатися в пошукових системах.",
@@ -70,7 +70,7 @@
             "edit_css": {
                 "customize_text": "Налаштування зовнішнього вигляду форуму за допомогою вашого коду LESS/CSS, який перекриває <a>стандартні стильові конструкції </a> Flarum.",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Редагувати CSS"
+                "title": "Редагувати користувацький CSS"
             },
             "edit_footer": {
                 "customize_text": "=> core.ref.custom_footer_text",
@@ -266,7 +266,7 @@
                     "go_to_page_textbox_a11y_label": "Перейти безпосередньо до номера сторінки",
                     "last_button": "Перейти до останньої сторінки",
                     "next_button": "Наступна сторінка",
-                    "page_counter": "Сторінка: {current} з {total}"
+                    "page_counter": "Сторінка {current} з {total}"
                 },
                 "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
@@ -299,7 +299,7 @@
                 "discard_confirmation": "Ви не створили дискусію. Ви бажаєте скасувати створення дискусії?",
                 "submit_button": "Надіслати",
                 "title": "=> core.ref.start_a_discussion",
-                "title_placeholder": "Назва дискусії"
+                "title_placeholder": "Заголовок дискусії"
             },
             "composer_edit": {
                 "discard_confirmation": "Ви не зберегли зміни. Ви бажаєте відмовитися від них?",
@@ -381,15 +381,15 @@
                 "invalid_login_message": "Ваші дані для входу некоректні.",
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "Запам’ятати мене",
-                "sign_up_text": "У вас відсутній облікового запису? <a>Будь ласка, зареєструйтеся</a>",
+                "sign_up_text": "У вас відсутній обліковий запис? <a>Будь ласка, зареєструйтеся</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
                 "username_or_email_placeholder": "Ім'я користувача або адреса електронної пошти"
             },
             "notifications": {
-                "delete_all_confirm": "Ви впевнені, що бажаєте видалити всі повідомлення? Ця дія не є зворотною",
-                "delete_all_tooltip": "Видалити всі повідомлення",
-                "discussion_renamed_text": "Зміна назви від {username}",
+                "delete_all_confirm": "Ви впевнені, що бажаєте видалити всі сповіщення? Ця дія не є зворотною",
+                "delete_all_tooltip": "Видалити всі сповіщення",
+                "discussion_renamed_text": "Користувач {username} змінив заголовок",
                 "empty_text": "Сповіщення відсутні",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Позначити як прочитане",
@@ -418,8 +418,8 @@
                 "viewing_text": "{count, plural, one {{index} з {formattedCount} допис} other {{index} of {formattedCount} дописів}}"
             },
             "post_stream": {
-                "discussion_renamed_old_tooltip": "Стара назва була: «{old}»",
-                "discussion_renamed_text": "Зміна назви на «{new}» {time} від {username}.",
+                "discussion_renamed_old_tooltip": "Старий заголовок був: «{old}»",
+                "discussion_renamed_text": "Зміна заголовка на «{new}» {time} від {username}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} пізніше"
@@ -434,7 +434,7 @@
                 "users_heading": "=> core.ref.users"
             },
             "security": {
-                "browser_on_operating_system": "{browser} га {os}",
+                "browser_on_operating_system": "{browser} на {os}",
                 "cannot_terminate_current_session": "Неможливо завершити поточний активний сеанс. Замість цього вийдіть з системи.",
                 "created": "Створити",
                 "current_active_session": "Поточна активна сесія",
@@ -477,7 +477,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Веб",
                 "notify_discussion_renamed_label": "Хтось перейменував мою дискусію",
-                "privacy_disclose_online_label": "Показувати онлайн-статус",
+                "privacy_disclose_online_label": "Показувати іншим мій онлайн-статус",
                 "privacy_heading": "Конфіденційність",
                 "title": "=> core.ref.settings"
             },
