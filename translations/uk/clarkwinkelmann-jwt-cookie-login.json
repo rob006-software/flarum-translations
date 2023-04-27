@@ -2,38 +2,38 @@
     "clarkwinkelmann-jwt-cookie-login": {
         "admin": {
             "settings": {
-                "cookieName": "",
-                "actorId": "",
-                "actorIdHelp": "",
-                "audience": "",
-                "audienceHelp": "",
-                "publicKey": "",
-                "publicKeyHelp": "",
-                "publicKeyAlgorithm": "",
-                "publicKeyAlgorithmHelp": "",
-                "expirationLeeway": "",
-                "expirationLeewayHelp": "",
-                "usernameTemplate": "",
-                "usernameTemplateHelp": "",
-                "emailTemplate": "",
-                "emailTemplateHelp": "",
-                "registrationHook": "",
-                "registrationHookHelp": "",
-                "authorizationHeader": "",
-                "authorizationHeaderHelp": "",
-                "hiddenIframe": "",
-                "hiddenIframeHelp": "",
-                "autoLoginDelay": "",
-                "autoLoginDelayHelp": "",
-                "logoutRedirect": "",
-                "logoutRedirectHelp": ""
+                "cookieName": "Назва файлу cookie",
+                "actorId": "Ідентифікатор користувача Flarum для адміністративних дій",
+                "actorIdHelp": "Цей користувач Flarum буде використовуватися як актор для внутрішнього запиту REST API, який створює нових користувачів. Це має бути користувач з правами адміністратора.\n",
+                "audience": "JWT Audience / Firebase Project ID",
+                "audienceHelp": "Перевіряє атрибут <code>aud</code> токена. Необов'язково, якщо не використовується Firebase",
+                "publicKey": "Відкритий ключ",
+                "publicKeyHelp": "Залиште порожнім, щоб використовувати ключі Google Firebase",
+                "publicKeyAlgorithm": "Алгоритм відкритого ключа",
+                "publicKeyAlgorithmHelp": "Потрібно тільки з відкритим ключем. Приклад: RS256",
+                "expirationLeeway": "Проміжок часу до закінчення терміну дії (секунди)",
+                "expirationLeewayHelp": "Через скільки додаткових секунд після закінчення JWT сесія все ще має розпочатися. Це значення має становити лише кілька хвилин у найгіршому випадку, щоб врахувати різницю у часі між серверами. Однак його також можна встановити набагато більшим, якщо це єдиний спосіб обійти фіксований короткий час життя JWT із зовнішньої бібліотеки.\n",
+                "usernameTemplate": "Шаблон імені користувача",
+                "usernameTemplateHelp": "Використовуйте синтаксис <code>{sub}</code> для використання атрибута з JWT",
+                "emailTemplate": "Шаблон електронної пошти",
+                "emailTemplateHelp": "Використовуйте синтаксис <code>{sub}</code> для використання атрибута з JWT",
+                "registrationHook": "Кінцева точка хука реєстрації",
+                "registrationHookHelp": "Повноцінна URL-адреса, на яку буде надіслано POST-запит, коли користувач вперше заходить на форум. Запит повинен повернути корисне навантаження JSON:API, яке буде використано для створення нового користувача на Flarum. Використовуйте синтаксис <code>{sub}</code>, щоб використовувати атрибут з JWT в URL-адресі. Повний JWT буде передано в заголовку <code>Authorization</code>. Ім'я користувача та Email є необов'язковими, якщо налаштовано шаблонне значення.\n",
+                "authorizationHeader": "Значення заголовка Користувацької авторизації",
+                "authorizationHeaderHelp": "Якщо це поле залишити пустим, заголовок <code>Авторизація</code> буде містити <code>Токен <JWT токен></code>.",
+                "hiddenIframe": "Прихована URL-адреса iframe",
+                "hiddenIframeHelp": "Цей iframe буде завантажуватися поза екраном на всіх сторінках односторінкового додатку Flarum. Він може використовуватися для періодичного оновлення файлів cookie і може використовувати повідомлення браузера для запуску оновлення сторінки для автоматичного входу або автоматичного виходу. Дивіться документацію в README.\n",
+                "autoLoginDelay": "Приховати Iframe Auto Login Delay (мілісекунди)",
+                "autoLoginDelayHelp": "Протягом скількох секунд сторінка може оновлюватися без участі користувача, якщо прихований iframe повертає статус входу в систему. Після закінчення цього часу користувач отримає сповіщення із запитом, чи бажає він оновити сторінку.\n",
+                "logoutRedirect": "Адреса перенаправлення виходу з системи",
+                "logoutRedirectHelp": "Під час сеансу JWT без статусу посилання на вихід з Flarum буде замінено на посилання, що вказує на цю URL-адресу. Якщо значення не встановлено, кнопка виходу буде прихована.\n"
             }
         },
         "forum": {
             "alert": {
-                "refresh": "",
-                "login": "",
-                "logout": ""
+                "refresh": "Оновити сторінку",
+                "login": "Вас підключено автоматично.",
+                "logout": "Ваш сеанс закінчився."
             }
         }
     }
