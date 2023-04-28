@@ -2,176 +2,176 @@
     "kilowhat-rich-embeds": {
         "admin": {
             "settings": {
-                "layout": "",
+                "layout": "Розташування",
                 "layoutOptions": {
-                    "inline": "",
-                    "block": "",
-                    "separated": ""
+                    "inline": "Вбудований",
+                    "block": "Блок",
+                    "separated": "Роздільник"
                 },
-                "position": "",
+                "position": "Позиція",
                 "positionOptions": {
-                    "replace": "",
-                    "above": "",
-                    "below": ""
+                    "replace": "Замінити посилання",
+                    "above": "Посилання вище",
+                    "below": "Посилання нижче"
                 },
-                "style": "",
+                "style": "Стиль",
                 "styleOptions": {
-                    "vertical": "",
-                    "horizontal": ""
+                    "vertical": "Вертикально",
+                    "horizontal": "Горизонтально"
                 },
-                "imageProxy": "",
-                "imageProxyHelp": "",
-                "cacheProxy": "",
-                "cacheProxyHelp": "",
-                "withoutOpengraph": "",
-                "withoutOpengraphHelp": "",
-                "blacklist": "",
-                "blacklistHelp": "",
-                "whitelist": "",
-                "whitelistHelp": "",
-                "imageEmbeds": "",
-                "imageEmbedsHelp": "",
-                "flarumApiPreviews": "",
-                "flarumApiPreviewsHelp": "",
-                "githubApiKey": "",
-                "githubApiKeyHelp": "",
-                "githubOrgWhitelist": "",
-                "githubOrgWhitelistHelp": "",
-                "googleApiAuthConfig": "",
-                "googleApiAuthConfigHelp": "",
-                "googleApiKey": "",
-                "googleApiKeyHelp": "",
-                "youtubePlayer": "",
-                "youtubePlayerHelp": "",
-                "youtubeNoCookie": "",
-                "youtubeNoCookieHelp": "",
-                "youtubeApiPreviews": "",
-                "youtubeApiPreviewsHelp": "",
-                "googledriveApiPreviews": "",
-                "googledriveApiPreviewsHelp": ""
+                "imageProxy": "Проксі для зображень OpenGraph",
+                "imageProxyHelp": "Усі зображення OpenGraph та іконки будуть передаватися через Flarum, а не завантажуватися браузером відвідувача",
+                "cacheProxy": "Кешування проксі-зображень",
+                "cacheProxyHelp": "Зображення будуть кешуватися на диск відповідно до їхніх HTTP-заголовків",
+                "withoutOpengraph": "Створюйте розширені вбудовування для сторінок без даних OpenGraph",
+                "withoutOpengraphHelp": "Заголовок, опис та зображення будуть вирізані з HTML сторінки",
+                "blacklist": "Чорний список URL-адрес",
+                "blacklistHelp": "Перевірте формат у документації. Ці URL-адреси ніколи не матимуть розширених вбудовувань і не можуть бути передані через проксі-сервер зображень",
+                "whitelist": "Білий список URL-адрес",
+                "whitelistHelp": "Ознайомтеся з документацією щодо формату. Якщо значення встановлено, всі інші URL-адреси будуть вважатися в чорному списку",
+                "imageEmbeds": "Розширені вставки для зображень",
+                "imageEmbedsHelp": "Ця функція отримує і відображає додаткову інформацію про зовнішні зображення, вставлені в дописи з bbcode або markdown. При цьому повторно використовується той самий чорний/білий список і дозволи, що і для розширених посилань. Ці зображення не передаються через проксі-сервер зображень OpenGraph. Ви повинні очистити кеш Flarum після зміни цього налаштування.\n",
+                "flarumApiPreviews": "Увімкніть розширені попередні перегляди Flarum",
+                "flarumApiPreviewsHelp": "Ця функція аналізує додаткові JSON-дані, які вже включені в HTML на всіх форумах, що працюють на Flarum. Вона буде працювати з будь-яким форумом, який використовує Flarum 1.4+ і показує заголовок <code>X-Powered-By</code> Flarum.\n",
+                "githubApiKey": "Ключ API GitHub",
+                "githubApiKeyHelp": "Заповніть це поле, щоб увімкнути розширені API-перегляди GitHub для репозиторіїв, випусків і PR, включаючи приватні репозиторії.",
+                "githubOrgWhitelist": "Білий список організацій",
+                "githubOrgWhitelistHelp": "Список організацій GitHub, які будуть використовувати попередній перегляд через API, розділений комами. Використовуйте це поле, щоб запобігти показу всіх приватних репозиторіїв, доступних за допомогою ключа API, зменшити використання API або змінити стиль вбудовування тільки для вашої організації. Якщо залишити поле порожнім, будь-який репозиторій, до якого має доступ ключ API, буде доступним для попереднього перегляду.\n",
+                "googleApiAuthConfig": "Google SDK Auth Config Path або JSON",
+                "googleApiAuthConfigHelp": "Цей параметр використовується в поєднанні з наведеними нижче налаштуваннями YouTube і Google Диска. Він повинен містити абсолютний шлях до файлу автентифікації JSON у локальній файловій системі або вміст цього файлу. Якщо залишити його порожнім, ключ API або обліковий запис служби буде автоматично виявлено через змінні оточення за допомогою Google API SDK.\n",
+                "googleApiKey": "Ключ API Google SDK",
+                "googleApiKeyHelp": "Цей параметр використовується в поєднанні з наведеними нижче налаштуваннями YouTube і Google Диска. Якщо залишити його порожнім, ключ API або обліковий запис служби буде автоматично виявлено через змінні оточення за допомогою Google API SDK.\n",
+                "youtubePlayer": "Дозволити відтворення відео YouTube з попереднього перегляду",
+                "youtubePlayerHelp": "Програвач iframe буде завантажуватися на вимогу, коли користувач натискає кнопку відтворення в попередньому перегляді. Ви повинні налаштувати CSP і заголовки фреймів, щоб дозволити фрейми з доменного імені YouTube. Цю функцію можна використовувати без доступу до API.\n",
+                "youtubeNoCookie": "Використовуйте iframe-домен YouTube без файлів cookie",
+                "youtubeNoCookieHelp": "Перемикає на альтернативний домен без файлів cookie, запропонований YouTube. Деякі відео можуть не відтворюватися в iframe, якщо цю опцію увімкнено. Цю функцію можна використовувати без доступу до API.\n",
+                "youtubeApiPreviews": "Увімкніть розширені попередні перегляди YouTube за допомогою API",
+                "youtubeApiPreviewsHelp": "Google API SDK має бути налаштований вище. Ця функція показуватиме більше статистики про відео і може показувати приватні відео, до яких має доступ користувач SDK.\n",
+                "googledriveApiPreviews": "Увімкніть розширені попередні перегляди Google Диску з підтримкою API",
+                "googledriveApiPreviewsHelp": "Google API SDK має бути налаштований вище. Ця функція показуватиме назву та попередній перегляд файлів на Google Диску. Щоб увімкнути попередній перегляд приватних файлів, використовуйте обліковий запис служби з доступом до приватного Диска.\n"
             },
             "section": {
-                "siteSpecificHelp": "",
-                "flarum": "",
-                "github": "",
-                "google": "",
-                "youtube": "",
-                "googledrive": ""
+                "siteSpecificHelp": "Нижче наведено специфічні для сайту налаштування, які покращують вбудовування, використовуючи дані, недоступні через OpenGraph і скрейпінг HTML. Всі опції є необов'язковими. Деякі з них вимагають доступу до стороннього API, який може бути платним або з обмеженням швидкості.\n",
+                "flarum": "Flarum",
+                "github": "GitHub",
+                "google": "Google",
+                "youtube": "YouTube",
+                "googledrive": "Google Drive"
             },
             "permissions": {
-                "viewGoogleDriveThumbnails": "",
-                "useOnOwnPost": "",
-                "disableOnOwnPost": "",
-                "refreshOnOwnPost": "",
-                "disableOnAnyPost": "",
-                "refreshOnAnyPost": ""
+                "viewGoogleDriveThumbnails": "Перегляд мініатюр Google Диску з підтримкою API",
+                "useOnOwnPost": "Використовуйте вставки у власному дописі",
+                "disableOnOwnPost": "Відключити вбудовування у власному дописі",
+                "refreshOnOwnPost": "Оновити вбудовування на власному пості",
+                "disableOnAnyPost": "Вимкнути вбудовування в будь-який пост",
+                "refreshOnAnyPost": "Оновіть вбудовування в будь-яку публікацію"
             },
             "preview": {
-                "title": "",
-                "refresh": "",
-                "loading": ""
+                "title": "Перегляд",
+                "refresh": "Оновити",
+                "loading": "Завантаження..."
             }
         },
         "lib": {
             "embed": {
-                "altFavicon": "",
-                "altImageFallback": "",
-                "altAvatar": "",
+                "altFavicon": "Іконка {website}",
+                "altImageFallback": "{website} Opengraph Image",
+                "altAvatar": "Зображення аватарки автора",
                 "missing": {
-                    "retrieving": "",
-                    "other": ""
+                    "retrieving": "Відновлення...",
+                    "other": "Не вдалося створити попередній перегляд для цього посилання"
                 }
             },
             "controls": {
-                "refresh": "",
-                "disable": "",
-                "disableConfirmation": "",
-                "imgCopy": "",
-                "imgCopied": "",
-                "imgOpen": "",
-                "play": "",
-                "expandDescription": ""
+                "refresh": "Оновити дані",
+                "disable": "Вимкнути вбудовування в цьому дописі",
+                "disableConfirmation": "Усі вставки будуть видалені з цього допису. Продовжити?",
+                "imgCopy": "Скопіювати URL-адресу зображення",
+                "imgCopied": "Скопійовано!",
+                "imgOpen": "Відкрити зображення в новій вкладці",
+                "play": "Натисніть, щоб відтворити медіа за допомогою вбудованого плеєра",
+                "expandDescription": "Розгорнути опис"
             }
         },
         "api": {
             "error": {
-                "blacklistedUrl": "",
-                "invalidUrl": ""
+                "blacklistedUrl": "URL-адресу {url} не внесено до білого списку для вбудовування.",
+                "invalidUrl": "URL-адреса {url} є недійсною."
             },
             "embed": {
                 "flarum": {
                     "discussion": {
-                        "type": "",
+                        "type": "Дискусія",
                         "stats": {
-                            "commentCount": "",
-                            "participantCount": "",
-                            "createdAt": ""
+                            "commentCount": "Відповіді",
+                            "participantCount": "Учасники",
+                            "createdAt": "Дата початку"
                         }
                     },
                     "user": {
-                        "type": "",
-                        "avatarAlt": "",
+                        "type": "Профіль",
+                        "avatarAlt": "Аватар",
                         "stats": {
-                            "discussionCount": "",
-                            "commentCount": "",
-                            "joinTime": ""
+                            "discussionCount": "Дискусії",
+                            "commentCount": "Коментарі",
+                            "joinTime": "Дата приєднання"
                         }
                     }
                 },
                 "github": {
-                    "siteName": "",
-                    "privateRepoSuffix": "",
+                    "siteName": "GitHub",
+                    "privateRepoSuffix": "[private]",
                     "issue": {
-                        "type": "",
+                        "type": "Проблема",
                         "stats": {
-                            "commentCount": "",
-                            "createdAt": ""
+                            "commentCount": "Коментарі",
+                            "createdAt": "Створено"
                         }
                     },
                     "pull": {
-                        "type": "",
+                        "type": "Запит на вилучення",
                         "stats": {
-                            "commentCount": "",
-                            "reviewCount": "",
-                            "commitCount": "",
-                            "createdAt": ""
+                            "commentCount": "Коментарі",
+                            "reviewCount": "Рецензії",
+                            "commitCount": "Коміти",
+                            "createdAt": "Створено"
                         }
                     },
                     "repo": {
                         "type": {
-                            "public": "",
-                            "private": ""
+                            "public": "Публічний репозиторій",
+                            "private": "Приватний репозиторій"
                         },
                         "stats": {
-                            "openIssueCount": "",
-                            "subscriberCount": "",
-                            "stargazerCount": "",
-                            "forkCount": ""
+                            "openIssueCount": "Відкриті питання",
+                            "subscriberCount": "Спостерігачі",
+                            "stargazerCount": "Зірки",
+                            "forkCount": "Відгалуження"
                         }
                     }
                 },
                 "youtube": {
-                    "siteName": "",
+                    "siteName": "YouTube",
                     "video": {
-                        "type": "",
-                        "thumbnailAlt": "",
+                        "type": "Відео",
+                        "thumbnailAlt": "Ескіз відео",
                         "stats": {
-                            "viewCount": "",
-                            "likeCount": "",
-                            "commentCount": "",
-                            "publishedAt": ""
+                            "viewCount": "Перегляди",
+                            "likeCount": "Вподобання",
+                            "commentCount": "Коментарі",
+                            "publishedAt": "Опубліковано"
                         }
                     }
                 },
                 "googledrive": {
-                    "siteName": "",
+                    "siteName": "Google Drive",
                     "file": {
-                        "type": "",
-                        "thumbnailAlt": "",
+                        "type": "Файл",
+                        "thumbnailAlt": "Перегляд файлу Google Drive",
                         "stats": {
-                            "size": "",
-                            "createdTime": "",
-                            "modifiedTime": ""
+                            "size": "Розмір файлу",
+                            "createdTime": "Створено",
+                            "modifiedTime": "Змінено"
                         }
                     }
                 }
