@@ -3,43 +3,43 @@
         "ads": {
             "admin": {
                 "permissions": {
-                    "bypassAds": ""
+                    "bypassAds": "Приховати рекламу з форуму"
                 },
                 "settings": {
-                    "admin_bypass_warning": "",
-                    "enabled_locations": "",
-                    "script_urls": "",
-                    "add_script": "",
-                    "script_deletion": "",
-                    "code_input": "",
-                    "code_input_disabled": "",
-                    "js_input": "",
-                    "js_input_disabled": "",
-                    "use_adsense": "",
-                    "pub_id": "",
-                    "between_posts_gap": "",
-                    "allow_after_placeholder": "",
+                    "admin_bypass_warning": "Через особливості системи дозволів на Flarum, члени групи \"Адміністратор\nне бачитимуть жодних оголошень на форумі. Якщо ви хочете протестувати свої оголошення, будь ласка, відвідайте форум\nв режимі інкогніто або приватного вікна.\n",
+                    "enabled_locations": "Ввімкнені місця розміщення рекламних блоків",
+                    "script_urls": "Користувацькі URL-адреси скриптів",
+                    "add_script": "Новий",
+                    "script_deletion": "Щоб видалити скрипт, залиште поле порожнім і натисніть \"Зберегти зміни\".",
+                    "code_input": "HTML-код",
+                    "code_input_disabled": "Увімкніть це місце для редагування його HTML-коду.",
+                    "js_input": "Код Javascript",
+                    "js_input_disabled": "Увімкніть це місце для редагування його JS-коду.",
+                    "use_adsense": "Використовуйте AdSense",
+                    "pub_id": "Ідентифікатор видавця AdSense",
+                    "between_posts_gap": "Між публікаціями: проміжок між оголошеннями",
+                    "allow_after_placeholder": "Між повідомленнями: показувати рекламу після заповнювача відповіді",
                     "save_btn": {
-                        "dirty": "",
-                        "saving": "",
-                        "saved": "",
-                        "fix_errors": ""
+                        "dirty": "Зберегти зміни",
+                        "saving": "Збереження...",
+                        "saved": "Всі зміни збережено",
+                        "fix_errors": "Виправте помилки перед збереженням"
                     },
                     "alert": {
-                        "fix_errors": "",
-                        "code_has_script": ""
+                        "fix_errors": "Будь ласка, виправте помилки перед збереженням змін",
+                        "code_has_script": "Один або декілька ваших рекламних блоків містять теги скриптів, які не дозволені. Видаліть їх і спробуйте ще раз."
                     },
-                    "warning": ""
+                    "warning": "<b>Інструкції:</b>\n<br></br>\n<b>HTML</b> - Вставте HTML вміст оголошення в це поле. Не вставляйте жодних тегів {script} в це поле. Вони не будуть виконуватися.\n<br></br>\n<b>JS</b> - Вставте власний код Javascript для вставки в тег сценарію. Він не повинен <b>НЕ</b> включати сам тег {script}.\n"
                 }
             },
             "lib": {
                 "locations": {
-                    "discussion_header": "",
-                    "discussion_sidebar": "",
-                    "header": "",
-                    "sidebar": "",
-                    "footer": "",
-                    "between_posts": ""
+                    "discussion_header": "Сторінка обговорення (під заголовком)",
+                    "discussion_sidebar": "Бічна панель обговорення [ТІЛЬКИ ДЛЯ ДЕСКТОПА]",
+                    "header": "Шапка",
+                    "sidebar": "Бічна навігація [ТІЛЬКИ ДЛЯ СТОЛИЦІ]",
+                    "footer": "Підвал",
+                    "between_posts": "Між постами"
                 }
             }
         }
