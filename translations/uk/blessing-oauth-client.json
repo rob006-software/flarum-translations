@@ -2,19 +2,19 @@
     "blessing-oauth-client": {
         "admin": {
             "popup": {
-                "title": "",
+                "title": "Логін для входу в систему Blessing Skin",
                 "field": {
-                    "base-url": "",
-                    "app-id": "",
-                    "app-secret": "",
-                    "button-title": "",
-                    "button-title-placeholder": "",
-                    "button-icon": ""
+                    "base-url": "Коренева URL-адреса Blessing Skin",
+                    "app-id": "OAuth client ID",
+                    "app-secret": "OAuth client secret",
+                    "button-title": "Мітка для кнопки входу",
+                    "button-title-placeholder": "=> blessing-oauth-client.api.default-login-button-title",
+                    "button-icon": "Іконка для кнопки входу"
                 }
             }
         },
         "api": {
-            "default-login-button-title": ""
+            "default-login-button-title": "Увійдіть за допомогою Blessing Skin"
         }
     }
 }
