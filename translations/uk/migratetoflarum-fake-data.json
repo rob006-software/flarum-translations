@@ -2,33 +2,33 @@
     "migratetoflarum-fake-data": {
         "lib": {
             "generator": {
-                "bulk-mode": "",
-                "bulk-mode-description": "",
-                "user-count": "",
-                "discussion-count": "",
-                "discussion-tags": "",
-                "discussion-tags-none": "",
-                "discussion-tags-random": "",
-                "post-count": "",
-                "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
-                "send": "",
-                "reset": "",
-                "refresh": ""
+                "bulk-mode": "Масовий режим",
+                "bulk-mode-description": "Генерує одне випадкове значення і повторно використовує його для кожного запису",
+                "user-count": "Кількість користувачів для створення",
+                "discussion-count": "Кількість дискусій для створення",
+                "discussion-tags": "Теги для нових обговорень",
+                "discussion-tags-none": "Жоден",
+                "discussion-tags-random": "Випадково",
+                "post-count": "Кількість постів для створення",
+                "date": "Date seed",
+                "date-start-placeholder": "Дата початку (за налаштуванням: зараз)",
+                "date-interval-placeholder": "Інтервал (за налаштуванням: 1 секунда)",
+                "send": "Сгенерувати дані",
+                "reset": "Генерація завершена! Натисніть, щоб скинути форму",
+                "refresh": "Закрийте і оновіть сторінку"
             }
         },
         "forum": {
             "link": {
-                "generate-replies": ""
+                "generate-replies": "Створити фейкові відповіді"
             },
             "generator": {
-                "title": ""
+                "title": "Створити фейкові відповіді"
             }
         },
         "api": {
-            "no-users-matched": "",
-            "no-discussions-matched": ""
+            "no-users-matched": "Не знайдено відповідних користувачів",
+            "no-discussions-matched": "Жодне обговорення не співпало"
         }
     }
 }
