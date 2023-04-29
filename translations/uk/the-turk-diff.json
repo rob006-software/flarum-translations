@@ -26,28 +26,28 @@
             "rollbackSuccessMessage": "Ваші зміни були скасовані.",
             "deleteSuccessMessage": "Вміст редагування було видалено.",
             "editedInfo": "=> core.forum.post.edited_tooltip",
-            "deletedInfo": "",
-            "createdInfo": "",
-            "revisionInfo": "",
+            "deletedInfo": "Користувач {username} видалив цей вміст {ago}",
+            "createdInfo": "Користувач {username} створив {ago}",
+            "revisionInfo": "Відредаговано {revisionCount, plural, one {{revisionCount} раз} other {{revisionCount} раз}}, найновіші вгорі",
             "noDiff": "Відмінностей між цими двома вмістами не виявлено.",
             "differences": {
                 "originalContent": "=> the-turk-diff.ref.originalContent",
                 "currentContent": "=> the-turk-diff.ref.currentContent",
                 "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
-                "sentence": ""
+                "sentence": "Ви бачите відмінності між {old} та {new}"
             },
             "previewMode": {
                 "originalContent": "=> the-turk-diff.ref.originalContent",
                 "currentContent": "=> the-turk-diff.ref.currentContent",
                 "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
-                "sentence": ""
+                "sentence": "Ви переглядаєте {content}"
             }
         },
         "admin": {
             "settings": {
                 "title": "Налаштування розбіжностей",
-                "onlyUnsigned": "",
-                "usePoint": "",
+                "onlyUnsigned": "Допускаються лише <strong>цілі числа без знаку</strong>!",
+                "usePoint": "Використовуйте <strong>крапку</strong> як десятковий роздільник для значень з плаваючою комою.",
                 "separateBlock": "Показувати роздільник між різними хаками у HTML-рендерингу",
                 "mainPostOnly": "Зберігати лише зміни в головному дописі",
                 "textFormatting": "Увімкнути форматування тексту для попереднього перегляду",
@@ -58,27 +58,27 @@
                 "charLevel": "На рівні символів",
                 "neighborLines": "Сусідні рядки",
                 "neighborLinesHelp": "Вкажіть кількість сусідніх рядків, які потрібно показати.",
-                "mergeThreshold": "",
-                "mergeThresholdHelp": "",
+                "mergeThreshold": "Поріг злиття для комбінованого візуалізатора",
+                "mergeThresholdHelp": "Цей параметр визначає, чи слід об'єднувати блок типу заміни чи ні, залежно від коефіцієнта зміни вмісту, який має значення від 0 до 1.",
                 "dbOptimisation": "Оптимізація бази даних",
-                "archiveOlds": "",
-                "archiveOldsInfo": "",
-                "useCrons": "",
-                "useCronsHelp": "",
-                "archiveInfo": ""
+                "archiveOlds": "Архівувати старі версії",
+                "archiveOldsInfo": "Якщо <strong>x ≥ A</strong>, перші <strong>y=mx+b</strong> ревізії допису будуть збережені як об'єднані та стиснуті. <strong>x</strong> означає кількість ревізій допису. Значення <strong>y</strong> з плаваючою комою буде округлено до найближчого найменшого цілого значення.",
+                "useCrons": "Використовуйте крони для архівування старих ревізій",
+                "useCronsHelp": "Щоб ця опція працювала, ви повинні додати запис Cron на вашому сервері. Вона буде працювати щотижня по неділях о 02:00. Якщо ви вимкнете цю опцію і ввімкнете вищевказану, всі зміни допису будуть скануватися для архівування, коли відповідний допис буде переглянутий.",
+                "archiveInfo": "Майте на увазі, що ви можете вимкнути обидві опції і виконати команду <code>php flarum diff:archive</code> для архівування старих ревізій вручну."
             },
             "permissions": {
-                "viewEditHistory": "",
-                "deleteEditHistory": "",
-                "selfDeleteEditHistory": "",
-                "rollbackEditHistory": "",
-                "selfRollbackEditHistory": ""
+                "viewEditHistory": "Переглянути історію редагувань",
+                "deleteEditHistory": "Видалити історію редагувань інших",
+                "selfDeleteEditHistory": "Видалення власної історії редагувань",
+                "rollbackEditHistory": "Відкотити історію редагування інших",
+                "selfRollbackEditHistory": "Відкотити власну історію редагувань"
             }
         },
         "ref": {
             "originalContent": "оригінальний вміст",
             "currentContent": "поточний вміст",
-            "revisionWithNumber": ""
+            "revisionWithNumber": "ревізія {number}"
         }
     }
 }
