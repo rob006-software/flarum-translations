@@ -5,42 +5,42 @@
                 "edit-answers": "Редагувати поля"
             },
             "answers-modal": {
-                "edit-title": "",
+                "edit-title": "Редагувати поле для {title}",
                 "save": "Зберегти поля"
             },
             "post-answers": {
-                "no-answer": ""
+                "no-answer": "Без відповіді"
             },
             "answers": {
-                "choose-option": "",
-                "no-option-selected": ""
+                "choose-option": "Обрати параметр",
+                "no-option-selected": "Жоден параметр не обрано"
             },
             "tags": {
-                "inadequate-settings": "",
-                "tags-label": ""
+                "inadequate-settings": "Налаштування тегів налаштовано неправильно. Дозвольте до одного основного та додаткових тегів або вимкніть функцію \"Теги як поля\".\n",
+                "tags-label": "Теги"
             }
         },
         "admin": {
             "buttons": {
                 "new-field": "Нове поле",
                 "add-field": "Додати поле",
-                "save-field": "",
+                "save-field": "Зберегти зміни поля",
                 "delete-field": "Видалити поле",
-                "edit-field": "",
-                "add-answer": "",
-                "save-answer": "",
-                "delete-answer": "",
-                "edit-answer": "",
-                "edit-answer-prompt": "",
-                "show-user-answers": ""
+                "edit-field": "Натисніть, щоб змінити поле",
+                "add-answer": "Додати відповідь",
+                "save-answer": "Зберегти зміни у відповіді",
+                "delete-answer": "Видалити відповідь",
+                "edit-answer": "Редагувати відповідь",
+                "edit-answer-prompt": "Редагувати вміст скрізь, де він використовується",
+                "show-user-answers": "Показати не запропоновані відповіді ({count})"
             },
             "fields": {
-                "add": "",
-                "edit": "",
-                "required": "",
-                "name": "",
+                "add": "Додати поле {field}",
+                "edit": "Редагувати поле {field}",
+                "required": "Обов'язково",
+                "name": "Назва поля",
                 "name-help": "",
-                "description": "",
+                "description": "Опис поля",
                 "description-help": "",
                 "show_when_empty": "",
                 "show_when_empty-help": "",
@@ -49,13 +49,13 @@
                 "user_values_allowed-help": "",
                 "validation-help": "",
                 "enable-user-values-for-validation": "",
-                "icon": "",
+                "icon": "Значок",
                 "icon-help": "",
-                "icon-preview": "",
+                "icon-preview": "перегляд: {preview}",
                 "save-field-for-answers": "",
                 "is_suggested": "",
-                "new-answer": "",
-                "new-answer-placeholder": ""
+                "new-answer": "Нова відповідь",
+                "new-answer-placeholder": "Якийсь текст"
             },
             "messages": {
                 "delete-answer-confirmation": "",
@@ -66,7 +66,7 @@
                 "fields-section-title-placeholder": "",
                 "fields-section-title-help": "",
                 "column-count": "",
-                "n-columns": "",
+                "n-columns": "{count} колонок",
                 "labels-as-placeholders": "",
                 "labels-as-placeholders-help": "",
                 "fields-in-hero": "",
@@ -75,17 +75,17 @@
                 "tags-as-field": "",
                 "tags-as-field-help": "",
                 "tags-field-name": "",
-                "tags-field-name-placeholder": "",
+                "tags-field-name-placeholder": "=> xsoft-mason-tag.forum.tags.tags-label",
                 "composer-height": "",
-                "composer-height-placeholder": "",
+                "composer-height-placeholder": "320",
                 "composer-height-help": "",
                 "by-tag": "",
                 "by-tag-name": ""
             },
             "titles": {
                 "tag-settings": "",
-                "settings": "",
-                "fields": "",
+                "settings": "Налаштування",
+                "fields": "Поля",
                 "field-settings": "",
                 "field-answers": ""
             },
