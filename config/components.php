@@ -1167,7 +1167,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.1.5/resources/locale/en.yaml',
 	],
 	'xsoft-ict-mason-tag' => [
-		'tag' => 'https://raw.githubusercontent.com/xsoft-ict/fof-mason-tag/v1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/xsoft-ict/fof-mason-tag/v1.0.2/resources/locale/en.yml',
 	],
 	'zerosonesfun-bbcode-button' => [
 		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/flarum-bbcode-button/1.1.3/locale/en.yml',
