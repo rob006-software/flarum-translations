@@ -4,21 +4,21 @@
             "appearance": {
                 "colored_header_label": "ფერადი სათაური",
                 "colors_heading": "ფერები",
-                "colors_primary_label": "",
-                "colors_secondary_label": "",
+                "colors_primary_label": "პირველხარისხოვანი ფერი",
+                "colors_secondary_label": "მეორეხარისხოვანი ფერი",
                 "colors_text": "აირჩიეთ ორი ფერი თქვენი ფორუმის თემატიკაზე. პირველი გამოყენებული იქნება ხაზგასმული ფერის სახით, ხოლო მეორე გამოყენებული იქნება ფონის ელემენტების სტილის შესაქმნელად.",
                 "custom_footer_heading": "სასურველი ქვე-კლონტიტული",
-                "custom_footer_text": "",
+                "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "სასურველი სათაური",
-                "custom_header_text": "",
-                "custom_styles_cannot_use_less_features": "",
+                "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "@import და data-uri არ არის დაშვებული საკუთარ LESS-ში.",
                 "custom_styles_heading": "სასურველი სტილები",
-                "custom_styles_text": "მოირგეთ თქვენი ფორუმის გარეგნობა და დაამატეთ თქვენი საკუთარი LESS/CSS კოდი, რომელიც უნდა იქნას გამოყენებული Flarum- ის სტანდარტულ სტილებზე.",
+                "custom_styles_text": "მოირგეთ თქვენი ფორუმის გარეგნობა და დაამატეთ თქვენი საკუთარი Less/CSS კოდი, რომელიც უნდა იქნას გამოყენებული Flarum- ის სტანდარტულ სტილებზე.",
                 "dark_mode_label": "მუქი რეჟიმი",
                 "description": "მოირგეთ თქვენი ფორუმის ფერები, ლოგოები და სხვა ცვლადები.",
                 "edit_css_button": "შეცვალეთ მორგებული CSS",
-                "edit_footer_button": "",
-                "edit_header_button": "",
+                "edit_footer_button": "=> core.ref.custom_footer_title",
+                "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "გთხოვთ, შეიყვანოთ თექვსმეტობითი ფერის კოდი.",
                 "favicon_heading": "ფავიკონი",
                 "favicon_text": "ატვირთეთ სურათი, რომელიც გამოვა ფორუმის აიქონად.",
@@ -27,7 +27,7 @@
                 "title": "გარეგნობა"
             },
             "basics": {
-                "all_discussions_label": "",
+                "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "ნაგულისხმევი ენა",
                 "description": "დააყენეთ თქვენი ფორუმის სათაური, ენა და სხვა ძირითადი პარამეტრები.",
                 "display_name_heading": "მომხმარებლის ჩვენების სახელი",
@@ -47,53 +47,53 @@
             "dashboard": {
                 "clear_cache_button": "ქეშის გასუფთავება",
                 "description": "თქვენი ფორუმი ერთი შეხედვით.",
-                "io_error_message": "",
+                "io_error_message": "ვერ მოხერხდა filesystem-ში დაწერა. შეამოწმეთ თქვენი filesystem უფლებები და სცადეთ დავიდან. ან სცადეთ ბრძანების ხაზიდან (command line).",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "scheduler-status": "მგეგმავი",
+                        "queue-driver": "რიგის დრაივერი",
+                        "session-driver": "სესიის დრაივერი"
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "აქტიური",
+                        "inactive": "არა აქტიური",
+                        "never-run": "არასდროს ჩართო"
                     }
                 },
                 "title": "დაფა",
                 "tools_button": "ხელსაწყოები"
             },
             "debug-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "როდესაც <code>debug</code> რეჟიმი არის აქტიური, ფლარუმი აღადგენს თავის <code>JavaScript</code> და <code>CSS</code> ასეტს ყოველ მოთხოვნაზე და შეიძლება პოტენციურად გასცეს სხვა ინფორმაცია, როგორიცაა მონაცემთა ბაზის საიდუმლოები, env ცვლადები და ა. შ.\n\nრეკომენდირებულია, რომ გამორთოთ <code>debug</code> თქვენს<code>config.php</code> ფაილში. იხილეთ ფლარუმის დოკუმენტაცია</link> მეტი ინფორმაციისთვის.\n",
+                "label": "დებაგ რეჟიმი აქტიურია"
             },
             "edit_css": {
-                "customize_text": "მოირგეთ თქვენი ფორუმის გარეგნობა და დაამატეთ თქვენი საკუთარი LESS/CSS კოდი, რომელიც უნდა იქნას გამოყენებული Flarum-ის <a>Default styles</a> -ზე.",
-                "submit_button": "",
+                "customize_text": "შეცვალეთ თქვენი ფორუმის გარეგნობა Less/CSS კოდის დამატებით, რომელიც იქნება გამოყენებული Flarum-ის <a>default styles</a> -ზე.",
+                "submit_button": "=> core.ref.save_changes",
                 "title": "შეცვალეთ მორგებული CSS"
             },
             "edit_footer": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "=> core.ref.custom_footer_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
             },
             "edit_group": {
-                "color_label": "",
+                "color_label": "=> core.ref.color",
                 "delete_button": "ჯგუფის წაშლა",
                 "delete_confirmation": "დარწმუნებული ხართ, რომ გსურთ ამ ჯგუფის წაშლა? ჯგუფის წევრები არ წაიშლება.",
                 "hide_label": "ფორუმზე დამალვა",
-                "icon_label": "",
-                "icon_text": "",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
                 "name_label": "სახელი",
                 "plural_placeholder": "მრავლობითი (მაგ., მოდები)",
                 "singular_placeholder": "მხოლობითი (მაგ., მოდი)",
-                "submit_button": "",
+                "submit_button": "=> core.ref.save_changes",
                 "title": "ჯგუფის შექმნა"
             },
             "edit_header": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
             },
             "email": {
                 "addresses_heading": "მისამართები",
@@ -106,9 +106,9 @@
                 "mail_mailgun_domain_label": "დომეინი",
                 "mail_mailgun_region_label": "რეგიონი",
                 "mail_mailgun_secret_label": "საიდუმლო გასაღები",
-                "mail_password_label": "",
+                "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "პორტი",
-                "mail_username_label": "",
+                "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Mailgun-ის პარამეტრები",
                 "not_sending_message": "Flarum ამჟამად არ გაგზავნის ელ.წერილებს. ეს შეიძლება გამოწვეული იყოს შერჩეული დრაივერით, ან მისი კონფიგურაციის შეცდომებით.",
                 "send_test_mail_button": "გაგზავნა",
@@ -116,7 +116,7 @@
                 "send_test_mail_success": "მეილის ტესტი წარმატებით გაიგზავნა!",
                 "send_test_mail_text": "ეს გამოგზავნის ელ.ფოსტას ზემოთ მოცემული კონფიგურაციით, თქვენს ელ.ფოსტაზე - {email}.",
                 "smtp_heading": "STMP პარამეტრები",
-                "title": ""
+                "title": "=> core.ref.email"
             },
             "extension": {
                 "configure_scopes": "",
