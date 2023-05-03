@@ -69,33 +69,33 @@
                 "n-columns": "{count} колонок",
                 "labels-as-placeholders": "Показувати мітки як заповнювачі у формі",
                 "labels-as-placeholders-help": "Поля займатимуть менше вертикального простору, а піктограми більше не відображатимуться. Майте на увазі, що це може вплинути на зручність використання, зокрема при редагуванні існуючих полів.\n",
-                "fields-in-hero": "",
-                "hide-empty-fields-section": "",
-                "hide-empty-fields-section-help": "",
-                "tags-as-field": "",
-                "tags-as-field-help": "",
-                "tags-field-name": "",
+                "fields-in-hero": "Показувати поля в банері дискусії замість першого повідомлення",
+                "hide-empty-fields-section": "Приховувати заголовок та елементи керування, коли всі поля порожні та приховані",
+                "hide-empty-fields-section-help": "За налаштуванням, якщо користувач може редагувати поля або встановлено заголовок, розділ завжди буде показано, навіть якщо всі поля приховано. Якщо увімкнути цю опцію, розділ буде приховано, а кнопка \"редагувати поля\" буде доступна лише у випадаючому меню \"відповідь\", коли всі поля будуть порожніми.\n",
+                "tags-as-field": "Показати селектор тегів як поле",
+                "tags-as-field-help": "При цьому буде приховано селектор тегів за замовчуванням і замість нього буде показано користувацьке випадаюче поле. Це спрацює лише у тому випадку, якщо ви дозволили до одного основного і одного додаткового тега!\n",
+                "tags-field-name": "Мітка поля тегів",
                 "tags-field-name-placeholder": "=> xsoft-mason-tag.forum.tags.tags-label",
-                "composer-height": "",
+                "composer-height": "Висота композитора",
                 "composer-height-placeholder": "320",
-                "composer-height-help": "",
-                "by-tag": "",
-                "by-tag-name": ""
+                "composer-height-help": "за налаштуванням 200, має бути більшим, щоб врахувати поля.",
+                "by-tag": "Застосовуйте метадані лише до певних тегів",
+                "by-tag-name": "Які теги отримують метадані?"
             },
             "titles": {
-                "tag-settings": "",
+                "tag-settings": "Налаштування тегів",
                 "settings": "Налаштування",
                 "fields": "Поля",
-                "field-settings": "",
-                "field-answers": ""
+                "field-settings": "Налаштування поля",
+                "field-answers": "Відповіді на полі"
             },
             "permissions": {
-                "see-own-fields": "",
-                "see-other-fields": "",
-                "fill-fields": "",
-                "update-own-fields": "",
-                "update-other-fields": "",
-                "skip-required-fields": ""
+                "see-own-fields": "Дивіться поля у власних існуючих дискусіях",
+                "see-other-fields": "Дивіться поля на всіх існуючих обговореннях",
+                "fill-fields": "Заповніть поля для нових дискусій",
+                "update-own-fields": "Оновлення полів власних дискусій",
+                "update-other-fields": "Оновлення полів будь-якої дискусії",
+                "skip-required-fields": "Дозволено пропускати обов'язкові поля"
             }
         }
     }
