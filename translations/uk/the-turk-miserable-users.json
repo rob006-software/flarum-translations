@@ -2,46 +2,46 @@
     "the-turk-miserable-users": {
         "admin": {
             "permissions": {
-                "miserable_user_label": ""
+                "miserable_user_label": "=> the-turk-miserable-users.ref.miserable_user"
             },
             "settings": {
-                "range_separator_text": "",
-                "range_seconds_text": "",
-                "loading_delay_label": "",
-                "loading_delay_text": "",
-                "broken_page_chance_label": "",
-                "broken_page_chance_text": "",
-                "flood_time_multiplier_label": "",
-                "flood_time_multiplier_text": "",
-                "redirection_chance_label": "",
-                "redirection_chance_text": "",
-                "redirection_page_url_label": "",
-                "redirection_page_url_text": "",
-                "log_out_chance_label": "",
-                "log_out_chance_text": "",
-                "shuffle_post_chance_label": "",
-                "shuffle_post_chance_text": ""
+                "range_separator_text": " до ",
+                "range_seconds_text": " секунд",
+                "loading_delay_label": "Затримка завантаження",
+                "loading_delay_text": "Нещасні користувачі будуть піддані затримці завантаження сторінки на випадковий період між двома значеннями, вказаними тут.",
+                "broken_page_chance_label": "Шанс на непрацюючу сторінку",
+                "broken_page_chance_text": "Час від часу ви можете показувати нещасним користувачам непрацюючу сторінку. Введіть відсоток ймовірності того, що це станеться.",
+                "flood_time_multiplier_label": "Множник часу флуду",
+                "flood_time_multiplier_text": "Стандартний мінімальний час (10 секунд) між повідомленнями може бути збільшений, щоб змусити нещасних користувачів чекати довше між публікаціями.",
+                "redirection_chance_label": "Шанс перенаправлення",
+                "redirection_chance_text": "Введіть відсоток ймовірності того, що нещасний користувач буде перенаправлений на URL сторінки перенаправлення.",
+                "redirection_page_url_label": "URL-адреса сторінки перенаправлення",
+                "redirection_page_url_text": "Ви можете випадковим чином перенаправляти нещасних користувачів на іншу сторінку. Залиште це поле порожнім, щоб перенаправляти на головну сторінку форуму.",
+                "log_out_chance_label": "Шанс вийти з системи",
+                "log_out_chance_text": "Введіть ймовірність у відсотках, що нещасний користувач вийде з системи і буде перенаправлений назад на домашню сторінку. <b>Пам'ятайте! </b> Після виходу вони більше не є нещасними.",
+                "shuffle_post_chance_label": "Шанс перетасувати стовпчик",
+                "shuffle_post_chance_text": "Ви можете випадковим чином перемішати повідомлення нещасного користувача. Введіть ймовірність цього у відсотках."
             }
         },
         "forum": {
             "user_badge": {
-                "miserable_user_tooltip": ""
+                "miserable_user_tooltip": "=> the-turk-miserable-users.ref.miserable_user"
             },
             "user_controls": {
-                "miserable_user_button": ""
+                "miserable_user_button": "=> the-turk-miserable-users.ref.miserable_user"
             },
             "miserable_user": {
-                "title": "",
-                "status_heading": "",
-                "not_miserable_label": "",
-                "indefinitely_label": "",
-                "limited_time_label": "",
-                "limited_time_days_text": "",
-                "submit_button": ""
+                "title": "Нещасний користувач {username}",
+                "status_heading": "Нещасний статус",
+                "not_miserable_label": "Не нещасний",
+                "indefinitely_label": "Нещасний назавжди",
+                "limited_time_label": "Нещасні протягом обмеженого часу...",
+                "limited_time_days_text": " днів",
+                "submit_button": "=> core.ref.save_changes"
             }
         },
         "ref": {
-            "miserable_user": ""
+            "miserable_user": "Нещасний користувач"
         }
     }
 }
