@@ -2,67 +2,67 @@
     "clarkwinkelmann-discussion-lists": {
         "admin": {
             "settings": {
-                "collapseSeries": ""
+                "collapseSeries": "Згорнути індекс серії за налаштуванням"
             },
             "permissions": {
-                "viewPublic": "",
-                "createPrivate": "",
-                "createPublic": "",
-                "createSeriesFromOwn": "",
-                "createSeriesFromAny": "",
-                "moderate": "",
-                "viewPrivate": ""
+                "viewPublic": "Переглянути списки публічних дискусій",
+                "createPrivate": "Створити приватні списки дискусій",
+                "createPublic": "Створити списки публічних дискусій",
+                "createSeriesFromOwn": "Створити дискусійні серії з власним вмістом",
+                "createSeriesFromAny": "Створити дискусійні серії з імістом від будь-якого користувача",
+                "moderate": "Змінювати та видаляти будь-який список дискусій",
+                "viewPrivate": "Переглянути всі списки приватних дискусій"
             }
         },
         "forum": {
             "edit": {
-                "title": "",
-                "name": "",
-                "visibility": "",
+                "title": "Редагувати список",
+                "name": "Назва",
+                "visibility": "Видимість",
                 "visibilityOptions": {
-                    "private": "",
-                    "public": "",
-                    "series": ""
+                    "private": "Приватний список",
+                    "public": "Публічний список",
+                    "series": "Публічні серії"
                 },
-                "ordering": "",
+                "ordering": "Сортування",
                 "orderingOptions": {
-                    "manual": "",
-                    "createdAsc": "",
-                    "createdDesc": "",
-                    "addedAsc": "",
-                    "addedDesc": ""
+                    "manual": "Ручне",
+                    "createdAsc": "Створення обговорень (від найстаріших до найновіших)",
+                    "createdDesc": "Створення обговорень (від найновішого до найстарішого)",
+                    "addedAsc": "Додавання до списку (від найменшого до останнього)",
+                    "addedDesc": "Додавання до списку (від останнього до останнього)"
                 },
-                "save": "",
-                "delete": "",
-                "deleteConfirmation": ""
+                "save": "Зберегти",
+                "delete": "Видалити",
+                "deleteConfirmation": "Ви дійсно хочете видалити цей список назавжди?"
             },
             "discussion": {
-                "add": "",
-                "new": ""
+                "add": "Додати до списку",
+                "new": "Новий список"
             },
             "profile": {
-                "link": ""
+                "link": "Списки"
             },
             "badge": {
-                "private": "",
-                "series": ""
+                "private": "Приватний список",
+                "series": "Публічні серії"
             },
             "series": {
-                "kind": "",
-                "expand": "",
-                "visit": ""
+                "kind": "Серії",
+                "expand": "Розгорнути",
+                "visit": "Показати все"
             }
         },
         "api": {
-            "manualLimit": "",
-            "seriesAnyAddNotAllowed": "",
-            "seriesAnyConversionNotAllowed": ""
+            "manualLimit": "Відсортовані вручну списки не можуть містити більше 50 обговорень",
+            "seriesAnyAddNotAllowed": "Ви можете додавати лише власні обговорення до списку серіалів",
+            "seriesAnyConversionNotAllowed": "Неможливо перетворити список на серію, оскільки він містить обговорення, які не належать вам"
         }
     },
     "core": {
         "forum": {
             "index_sort": {
-                "discussionListDefault_button": ""
+                "discussionListDefault_button": "Порядок у списку"
             }
         }
     }
