@@ -2,19 +2,19 @@
     "nearata-minecraft-avatars": {
         "admin": {
             "retrieve_avatar_on_register": {
-                "label": "",
-                "help": ""
+                "label": "Отримати аватар при реєстрації",
+                "help": "Якщо не існує облікового запису Minecraft з таким іменем користувача, за замовчуванням використовується скін Стіва або Алекса."
             }
         },
         "forum": {
-            "help_text": "",
-            "submit_button": "",
-            "username_uuid_not_valid": "",
-            "username_not_found": "",
-            "placeholder": "",
-            "userpage_nav_button": "",
-            "minotar_enabled": "",
-            "page_title": ""
+            "help_text": "Ім'я користувача буде перетворено на UUID.",
+            "submit_button": "Зберегти зміни",
+            "username_uuid_not_valid": "Ім'я користувача або UUID невірні.",
+            "username_not_found": "Ім'я користувача не знайдено.",
+            "placeholder": "Ім'я користувача або UUID",
+            "userpage_nav_button": "Аватарки Minecraft",
+            "minotar_enabled": "Увімкнено",
+            "page_title": "Аватарки Minecraft"
         }
     }
 }
