@@ -2,7 +2,7 @@
     "acpl-lscache": {
         "admin": {
             "public_cache_ttl_label": "默認公共緩存TTL",
-            "public_cache_ttl_help": "設置公共頁面的緩存時間，單位秒。默認 300 秒。",
+            "public_cache_ttl_help": "設置公共頁面的緩存時間，單位秒。默認 604800 秒(一週)。",
             "clearing_cache_listener_label": "清除 Flarum 緩存時同步清除 LSCache",
             "serve_stale_label": "Serve Stale 緩服務",
             "serve_stale_help": "啟用後，在新緩存副本可用前，系統將使用舊緩存頁面響應給用戶，以減小後續訪問產生的服務器負載。如果關閉此項，頁面將在訪客等待期間動態生成。根據 Serve Stale 的設計，此功能可能會響應陳舊的內容給用戶，你可以選擇關閉它。",
