@@ -11,7 +11,7 @@
             },
             "retrofit_links_in_frontend": {
                 "label": "Retrofit links in frontend",
-                "help": "Show titles of discussion links in messages sent when this extension was not enabled. This is done in the frontend, so it may lead to a poor user experience.\n"
+                "help": "Show titles of discussion links in messages sent when this extension was not enabled. This is done in the frontend, so it may lead to a poor user experience. To apply this change directly from the backend, use the `chore:reparse` command of [`club-1/flarum-ext-chore-commands`](https://github.com/club-1/flarum-ext-chore-commands) extension.\n"
             }
         },
         "forum": {
