@@ -2,61 +2,61 @@
     "clarkwinkelmann-carving-contest": {
         "forum": {
             "nav": {
-                "contest": ""
+                "contest": "Carving Contest"
             },
             "page": {
-                "title": "",
-                "loading": "",
-                "participate": "",
-                "already-participated": "",
-                "delete-confirmation": "",
-                "like": "",
-                "already-liked": "",
-                "unlike": "",
-                "refresh": "",
-                "load-more": "",
+                "title": "Конкурс різьби по гарбузу",
+                "loading": "Завантаження записів...",
+                "participate": "Взяти участь",
+                "already-participated": "Вже беру участь",
+                "delete-confirmation": "Ви дійсно хочете видалити \"{name}\" у {username}?",
+                "like": "Подобається",
+                "already-liked": "Мені це подобається",
+                "unlike": "Не подобається",
+                "refresh": "Оновити",
+                "load-more": "Завантажити більше записів",
                 "sort": {
-                    "mostLikes": "",
-                    "fewerLikes": "",
-                    "mostRecent": "",
-                    "leastRecent": ""
+                    "mostLikes": "Найбільше вподобань",
+                    "fewerLikes": "Менше вподобань",
+                    "mostRecent": "Нещодавно опубліковані",
+                    "leastRecent": "Нещодавні"
                 },
                 "likes": {
-                    "you_text": "",
-                    "others_link": "",
-                    "liked_by_self_text": "",
-                    "liked_by_text": ""
+                    "you_text": "=> core.ref.you",
+                    "others_link": "=> core.ref.some_others",
+                    "liked_by_self_text": "Користувач {users} вподобав це.",
+                    "liked_by_text": "{count, plural, one {{users} вподобав це.} other {{users} вподобали це.}}"
                 }
             },
             "modal": {
-                "title": "",
-                "name": "",
-                "submit": "",
+                "title": "Беруть участь",
+                "name": "Назвіть свій витвір",
+                "submit": "Відправити",
                 "tools": {
-                    "circle": "",
-                    "square": ""
+                    "circle": "Коло",
+                    "square": "Квадрат"
                 }
             },
             "likes_modal": {
-                "title": ""
+                "title": "Користувачі, яким сподобався цей запис"
             }
         },
         "admin": {
             "permissions": {
-                "view": "",
-                "like": "",
-                "participate": "",
-                "moderate": ""
+                "view": "Переглянути записи",
+                "like": "Вподобані записи",
+                "participate": "Беруть участь",
+                "moderate": "Модерація"
             },
             "settings": {
-                "maxEntriesPerUser": "",
-                "colorMode": ""
+                "maxEntriesPerUser": "Максимальна кількість заявок на одного користувача",
+                "colorMode": "Використовуйте кольоровий режим замість режиму вирізання"
             },
             "colors": {
-                "simple": "",
-                "all": "",
-                "custom": "",
-                "custom-help": ""
+                "simple": "Простий набір кольорів",
+                "all": "Будь-який колір",
+                "custom": "Користувацький список кольорів",
+                "custom-help": "Список значень через кому #hex або rgb()"
             }
         }
     }
