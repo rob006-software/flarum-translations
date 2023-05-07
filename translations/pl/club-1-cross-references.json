@@ -11,7 +11,7 @@
             },
             "retrofit_links_in_frontend": {
                 "label": "Przekształć w locie stare linki",
-                "help": "Podmienia adresy URL na tytuły dyskusji w postach, które zostały napisane zanim to rozszerzenie zostało włączone. Podmiana jest dokonana przez JavaScript i może negatywnie wpływać na komfort przeglądania dyskusji.\n"
+                "help": "Podmienia adresy URL na tytuły dyskusji w postach, które zostały napisane zanim to rozszerzenie zostało włączone. Podmiana jest dokonana przez JavaScript i może negatywnie wpływać na komfort przeglądania dyskusji. Aby przekonwertować linki w starych postach korzystając ze standardowego mechanizmu, użyj komendy `chore:reparse` z rozszerzenia [`club-1/flarum-ext-chore-commands`](https://github.com/club-1/flarum-ext-chore-commands).\n"
             }
         },
         "forum": {
