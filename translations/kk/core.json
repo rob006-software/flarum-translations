@@ -2,10 +2,10 @@
     "core": {
         "admin": {
             "appearance": {
-                "colored_header_label": "",
-                "colors_heading": "",
-                "colors_primary_label": "",
-                "colors_secondary_label": "",
+                "colored_header_label": "Түсті қалпақ",
+                "colors_heading": "Түстер",
+                "colors_primary_label": "Негізгі түс",
+                "colors_secondary_label": "Қосалқы түс",
                 "colors_text": "",
                 "custom_footer_heading": "",
                 "custom_footer_text": "",
@@ -278,109 +278,109 @@
                 "confirm_password_placeholder": "",
                 "confirmation_message": "",
                 "dismiss_button": "",
-                "incorrect_password_message": "",
+                "incorrect_password_message": "Енгізілген құпия сөз дұрыс емес.",
                 "submit_button": "",
                 "title": ""
             },
             "change_password": {
-                "send_button": "",
-                "text": "",
+                "send_button": "Құпия сөзді жіберу",
+                "text": "Құпия сөзді өзгертуге арналған сілтемені электронды почтаға алу үшін төменгі батырманы басыңыз.",
                 "title": ""
             },
             "composer": {
                 "close_tooltip": "",
-                "exit_full_screen_tooltip": "",
-                "full_screen_tooltip": "",
-                "minimize_tooltip": "",
-                "preview_tooltip": ""
+                "exit_full_screen_tooltip": "Толық экранды режимнен шығу",
+                "full_screen_tooltip": "Кеңінен ашу",
+                "minimize_tooltip": "Кішірейту",
+                "preview_tooltip": "Алдын ала қарау"
             },
             "composer_discussion": {
-                "body_placeholder": "",
-                "discard_confirmation": "",
-                "submit_button": "",
-                "title": "",
-                "title_placeholder": ""
+                "body_placeholder": "Хабарламаңызды енгізіңіз...",
+                "discard_confirmation": "Сіз талқылауды құрмадыңыз. Талқылаудан бас тартқыңыз келе ме?",
+                "submit_button": "Хабарлама қосу",
+                "title": "=> core.ref.start_a_discussion",
+                "title_placeholder": "Талқыламаның атауы"
             },
             "composer_edit": {
-                "discard_confirmation": "",
-                "edited_message": "",
-                "post_link": "",
-                "submit_button": "",
-                "view_button": ""
+                "discard_confirmation": "Өзгерістерді сақтамадыңыз. Сіз олардан бас тартқыңыз келе ме?",
+                "edited_message": "Енгізген өзгерістеріңіз сақталды.",
+                "post_link": "{discussion} ішіндегі #{number} хабарлама",
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": "=> core.ref.view"
             },
             "composer_reply": {
-                "body_placeholder": "",
-                "discard_confirmation": "",
-                "posted_message": "",
-                "submit_button": "",
-                "view_button": ""
+                "body_placeholder": "=> core.ref.write_a_reply",
+                "discard_confirmation": "Жауабыңызды жіберген жоқсыз. Хабарламадан бас тартқыңыз келе ме?",
+                "posted_message": "Хабарламаңыз жарияланды.",
+                "submit_button": "Жіберу",
+                "view_button": "=> core.ref.view"
             },
             "discussion_controls": {
-                "cannot_reply_button": "",
-                "cannot_reply_text": "",
-                "delete_button": "",
-                "delete_confirmation": "",
-                "delete_forever_button": "",
-                "log_in_to_reply_button": "",
-                "rename_button": "",
-                "reply_button": "",
-                "restore_button": "",
-                "toggle_dropdown_accessible_label": ""
+                "cannot_reply_button": "Жауап беру мүмкін емес",
+                "cannot_reply_text": "Бұл тақырыпқа жауап жазуға рұқсатыңыз жоқ.",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Жіпті шынымен жойғыңыз келе ме?",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "log_in_to_reply_button": "Жауап беру үшін жүйеге кіріңіз",
+                "rename_button": "=> core.ref.rename",
+                "reply_button": "=> core.ref.reply",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "Талқылауды басқару ашылмалы мәзірі"
             },
             "discussion_list": {
-                "empty_text": "",
-                "load_more_button": "",
-                "replied_text": "",
-                "started_text": "",
-                "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": ""
+                "empty_text": "Бұл жерде ешқандай талқылау жоқ сияқты.",
+                "load_more_button": "=> core.ref.load_more",
+                "replied_text": "{username} жауап берді {ago}",
+                "started_text": "{username} {ago} қосты",
+                "total_replies_a11y_label": "{count, plural, one {# жауаб} other {# жауаптардан}}",
+                "unread_replies_a11y_label": "{count, plural, one {# оқылмаған жауап} other {# оқылмаған жауаптар}}. {count, plural, one {жауабын} other {жауаптарынан}} оқылды деп өзгерту."
             },
             "forgot_password": {
-                "dismiss_button": "",
-                "email_placeholder": "",
-                "email_sent_message": "",
-                "not_found_message": "",
-                "submit_button": "",
-                "text": "",
-                "title": ""
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "email_sent_message": "Егер сіз енгізген электрондық пошта мекенжайы осы сайтта тіркелген болса, біз сізге құпия сөзді қалпына келтіруге арналған сілтемесі бар электрондық хат жібереміз. Бірнеше минут ішінде электрондық хат алмасаңыз, спам қалтаңызды тексеріңіз.",
+                "not_found_message": "Көрсетілген электрондық поштасы бар пайдаланушылар табылмады.",
+                "submit_button": "Құпия сөзді қалпына келтіру",
+                "text": "Электрондық поштаңызды енгізіңіз, біз сізге құпия сөзді қалпына келтіру үшін сілтеме жібереміз.",
+                "title": "Құпия сөзді ұмыттым"
             },
             "header": {
-                "admin_button": "",
-                "back_to_index_tooltip": "",
-                "locale_dropdown_accessible_label": "",
-                "log_in_link": "",
-                "log_out_button": "",
-                "profile_button": "",
-                "search_clear_button_accessible_label": "",
-                "search_placeholder": "",
-                "search_role_label": "",
-                "session_dropdown_accessible_label": "",
-                "settings_button": "",
-                "sign_up_link": ""
+                "admin_button": "Басқару панелі",
+                "back_to_index_tooltip": "Талқылаулар тізіміне оралу",
+                "locale_dropdown_accessible_label": "Форум тілін өзгерту",
+                "log_in_link": "=> core.ref.log_in",
+                "log_out_button": "=> core.ref.log_out",
+                "profile_button": "Профиль",
+                "search_clear_button_accessible_label": "Іздеу сұрауын тазалау",
+                "search_placeholder": "Іздеу",
+                "search_role_label": "Іздеу",
+                "session_dropdown_accessible_label": "Сессия опцияларының мәзірі",
+                "settings_button": "=> core.ref.settings",
+                "sign_up_link": "=> core.ref.sign_up"
             },
             "index": {
-                "all_discussions_link": "",
-                "cannot_start_discussion_button": "",
-                "mark_all_as_read_confirmation": "",
-                "mark_all_as_read_tooltip": "",
-                "meta_title_text": "",
-                "refresh_tooltip": "",
-                "start_discussion_button": "",
-                "toggle_sidenav_dropdown_accessible_label": ""
+                "all_discussions_link": "=> core.ref.all_discussions",
+                "cannot_start_discussion_button": "Қосуға болмайды",
+                "mark_all_as_read_confirmation": "Барлық талқыламаларды оқылды деп өзгертуге сенімдісіз бе?",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "meta_title_text": "=> core.ref.all_discussions",
+                "refresh_tooltip": "Жаңарту",
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": "Навигация мәзірі"
             },
             "index_sort": {
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
-                "toggle_dropdown_accessible_label": "",
-                "top_button": ""
+                "latest_button": "Соңғысы",
+                "newest_button": "Жаңасы",
+                "oldest_button": "Ескісі",
+                "relevance_button": "Сәйкестік",
+                "toggle_dropdown_accessible_label": "Талқыламалар тізімін сұрыптауын өзгерту",
+                "top_button": "Танымалдары"
             },
             "log_in": {
-                "forgot_password_link": "",
-                "invalid_login_message": "",
-                "password_placeholder": "",
-                "remember_me_label": "",
+                "forgot_password_link": "Құпия сөзді ұмыттыңыз ба?",
+                "invalid_login_message": "Жүйеге кіру мәліметтеріңіз дұрыс емес.",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "Мені есте сақтау",
                 "sign_up_text": "",
                 "submit_button": "",
                 "title": "",
@@ -388,7 +388,7 @@
             },
             "notifications": {
                 "delete_all_confirm": "",
-                "delete_all_tooltip": "",
+                "delete_all_tooltip": "Барлық хабарландыруларды жою",
                 "discussion_renamed_text": "",
                 "empty_text": "",
                 "mark_all_as_read_tooltip": "",
@@ -557,7 +557,7 @@
                 "generic_message": "",
                 "generic_cross_origin_message": "",
                 "missing_dependencies_message": "",
-                "not_found_message": "",
+                "not_found_message": "Сұралған ресурс табылмады.",
                 "payload_too_large_message": "",
                 "permission_denied_message": "",
                 "rate_limit_exceeded_message": "",
@@ -713,21 +713,21 @@
             "sign_up": "",
             "some_others": "",
             "start_a_discussion": "",
-            "username": "",
-            "users": "",
-            "view": "",
-            "write_a_reply": "",
-            "you": ""
+            "username": "Қолданушы аты",
+            "users": "Қолданушылар",
+            "view": "Көру",
+            "write_a_reply": "Жауап жазу...",
+            "you": "Сіз"
         },
         "group": {
-            "admin": "",
-            "admins": "",
-            "guest": "",
-            "guests": "",
-            "member": "",
-            "members": "",
-            "mod": "",
-            "mods": ""
+            "admin": "Админ",
+            "admins": "Админдар",
+            "guest": "Қонақ",
+            "guests": "Қонақтар",
+            "member": "Қолданушы",
+            "members": "Қолданушылар",
+            "mod": "Модер",
+            "mods": "Модераторлар"
         }
     }
 }
