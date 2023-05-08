@@ -623,11 +623,11 @@
                 "csrf_token_mismatch": "Сіз ұзақ уақыт бойы белсенді болмадыңыз.",
                 "csrf_token_mismatch_return_link": "Артқа оралып, әрекетті қайталаңыз",
                 "invalid_confirmation_token": "Растау сілтемесі жарамсыз немесе бұрыннан қолданылған.",
-                "not_authenticated": "",
+                "not_authenticated": "Бұл бетке кіруге рұқсатыңыз жоқ. Тіркелгіңізге кіргеннен кейін әрекетті қайталаңыз.",
                 "not_found": "Сіз сұраған бет табылмады.",
                 "not_found_return_link": "{forum} қайту",
                 "permission_denied": "Сізге бұл парақшаға рұқсат жоқ.",
-                "unknown": ""
+                "unknown": "Бетті жүктеу кезінде қате орын алды."
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -635,19 +635,19 @@
                 "previous_page_button": "=> core.ref.previous_page"
             },
             "log_out": {
-                "log_out_button": "",
-                "log_out_confirmation": "",
+                "log_out_button": "=> core.ref.log_out",
+                "log_out_confirmation": "{forum} жүйесінен шынымен шыққыңыз келе ме?",
                 "title": "=> core.ref.log_out"
             },
             "reset_password": {
-                "confirm_password_label": "",
-                "new_password_label": "",
-                "submit_button": "",
-                "title": ""
+                "confirm_password_label": "Құпия сөзді растаңыз",
+                "new_password_label": "Жаңа құпия сөз",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.reset_your_password"
             }
         },
         "api": {
-            "invalid_username_message": ""
+            "invalid_username_message": "Пайдаланушы атында тек латын әріптері, сандар және сызықшалар болуы мүмкін."
         },
         "email": {
             "activate_account": {
