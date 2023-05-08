@@ -595,10 +595,10 @@
                     "caption": "=> core.ref.extensions=> core.ref.extensions",
                     "disable": "Өшіру",
                     "empty": "Ешқандай кеңейтімдер орнатылмаған",
-                    "enable": "",
-                    "name": "",
+                    "enable": "Қосу",
+                    "name": "Кеңейтімнің атауы",
                     "package_name": "Қосымша пакеттің атауы",
-                    "version": ""
+                    "version": "Нұсқа"
                 },
                 "info": {
                     "caption": "Қосымша ақпараты"
@@ -611,18 +611,18 @@
                 "title": "=> core.ref.confirm_email"
             },
             "content": {
-                "javascript_disabled_message": "",
+                "javascript_disabled_message": "Бұл сайт JavaScript қосылған заманауи браузерде жақсы көрінеді.",
                 "load_error_message": "Осы сайттың толық нұсқасын жүктеп алу кезінде бірдеңе дұрыс болмады. Бұл мәселені шешу үшін шолғыштың кэшін жою бетін (CTRL+F5) жаңартып көріңіз.",
                 "loading_text": "=> core.ref.loading"
             },
             "discussion": {
-                "next_page_button": "",
-                "previous_page_button": ""
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
-                "csrf_token_mismatch": "",
+                "csrf_token_mismatch": "Сіз ұзақ уақыт бойы белсенді болмадыңыз.",
                 "csrf_token_mismatch_return_link": "Артқа оралып, әрекетті қайталаңыз",
-                "invalid_confirmation_token": "",
+                "invalid_confirmation_token": "Растау сілтемесі жарамсыз немесе бұрыннан қолданылған.",
                 "not_authenticated": "",
                 "not_found": "Сіз сұраған бет табылмады.",
                 "not_found_return_link": "{forum} қайту",
