@@ -8,7 +8,7 @@
                 "moneyname": "Tên của tiền (ví dụ: [money] điểm)",
                 "postminimumlength": "Độ dài bài viết tối thiểu để nhận tiền (0 để tắt)",
                 "noshowzero": "Không hiển thị nếu giá trị bằng 0",
-                "autoremove": "",
+                "autoremove": "Tự động cập nhật tiền",
                 "moneyforlike": "Cộng tiền khi có bài viết được thích",
                 "helpextensionlikes": "Yêu cầu bật tiện ích <code>flarum/likes</code>"
             },
@@ -16,9 +16,9 @@
                 "edit_money_label": "Chỉnh sửa tiền"
             },
             "autoremove": [
-                "",
-                "",
-                ""
+                "Không bao giờ trừ tiền",
+                "Khi một cuộc thảo luận/bài viết bị ẩn hoặc khôi phục (mặc định)",
+                "Khi một cuộc thảo luận/bài viết bị xóa"
             ],
             "automoderator": {
                 "metric_name": "Tiền",
