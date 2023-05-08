@@ -4,6 +4,8 @@
             "settings": {
                 "dropdownAccess": "Access via discussion dropdown",
                 "dropdownAccessHelp": "If disabled, the toolbar will only be available through the keyboard shortcut or any of the other enabled shortcuts below.",
+                "sideNavAccess": "Access via discussion side navigation",
+                "sideNavAccessHelp": "Same as previous setting but the button will be added as a separate entry in the sidebar instead of the dropdown.",
                 "authorQuickFilter": "Quick filter for post author",
                 "authorQuickFilterHelp": "A shortcut will be added to each post dropdown to filter by that user.",
                 "originalPosterBadge": "Show interactive OP badge",
@@ -25,7 +27,7 @@
                 "clear": "Clear filters"
             },
             "discussionControls": {
-                "searchInDiscussion": "Search in discussion"
+                "searchInDiscussion": "Search discussion"
             },
             "postControls": {
                 "authorFilter": "Show only replies from this author"
