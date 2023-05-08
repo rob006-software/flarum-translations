@@ -11,7 +11,7 @@
             },
             "retrofit_links_in_frontend": {
                 "label": "Liên kết trang bị thêm ở frontend",
-                "help": "Hiển thị tiêu đề của liên kết thảo luận trong thư được gửi khi tiện ích mở rộng này không được bật. Việc này được thực hiện ở giao diện người dùng nên có thể dẫn đến trải nghiệm người dùng kém.\n"
+                "help": "Hiển thị tiêu đề của liên kết thảo luận trong thư được gửi khi tiện ích mở rộng này không được bật. Việc này được thực hiện ở giao diện người dùng nên có thể dẫn đến trải nghiệm người dùng kém. Để áp dụng thay đổi này trực tiếp từ backend, hãy sử dụng lệnh `chore:reparse` của tiện ích mở rộng [`club-1/flarum-ext-chore-commands`](https://github.com/club-1/flarum-ext-chore-commands).\n"
             }
         },
         "forum": {
