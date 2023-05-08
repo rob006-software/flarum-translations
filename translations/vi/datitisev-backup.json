@@ -114,14 +114,14 @@
                     },
                     "refresh-token": {
                         "label": "Làm mới token",
-                        "description": "Tạo mã token làm mới. Xem hướng dẫn https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually."
+                        "description": "Sử dụng các trường bên dưới để nhận mã refresh token hoặc làm theo hướng dẫn thủ công tại https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually."
                     },
                     "help": {
-                        "obtain-access-code-label": "",
-                        "obtain-access-code-button": "",
-                        "obtain-refresh-token-label": "",
-                        "obtain-refresh-token-button": "",
-                        "obtain-refresh-token-success": ""
+                        "obtain-access-code-label": "Lấy mã access token (yêu cầu key ứng dụng)",
+                        "obtain-access-code-button": "Mở Dropbox",
+                        "obtain-refresh-token-label": "Sử dụng mã access token để nhận mã refresh token(yêu cầu key ứng dụng & bí mật)",
+                        "obtain-refresh-token-button": "Sử dụng code",
+                        "obtain-refresh-token-success": "Lấy mã refresh token thành công & được cập nhật ở trên! Lưu các thay đổi để lưu trữ nó."
                     },
                     "access-token": {
                         "label": "Mã Access Token OAuth2",
