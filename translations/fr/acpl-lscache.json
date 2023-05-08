@@ -2,7 +2,7 @@
     "acpl-lscache": {
         "admin": {
             "public_cache_ttl_label": "TTL du cache public par défaut",
-            "public_cache_ttl_help": "Spécifiez combien de temps, en secondes, les pages publiques sont mises en cache. La valeur par défaut est de 300 secondes.",
+            "public_cache_ttl_help": "Spécifiez la durée, en secondes, pendant laquelle les pages publiques sont mises en cache. La valeur par défaut est de 604800 secondes (une semaine).",
             "clearing_cache_listener_label": "Purger LSCache lorsque le cache Flarum est vidé",
             "serve_stale_label": "Servir du contenu obsolète",
             "serve_stale_help": "Si cette option est activée, la copie obsolète d'une page en cache sera affichée aux visiteurs jusqu'à ce qu'une nouvelle copie en cache soit disponible. Réduit la charge du serveur pour les visites suivantes. Si OFF, la page sera générée dynamiquement pendant que les visiteurs attendent. De par sa conception, cette option peut servir du contenu périmé. N'activez pas cette option, si cela ne vous convient pas.",
