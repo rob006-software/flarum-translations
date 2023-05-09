@@ -2,53 +2,53 @@
     "clarkwinkelmann-featured-discussions": {
         "admin": {
             "settings": {
-                "schedule": "",
-                "duration": "",
-                "eventPost": ""
+                "schedule": "Розклад (синтаксис CRON)",
+                "duration": "Тривалість за налаштуванням (секунди)",
+                "eventPost": "Створювати пост про подію, коли розклад змінюється"
             },
             "permissions": {
-                "feature": ""
+                "feature": "Керуйте обраними дискусіями"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
+                "title": "Обрана дискусія",
                 "fields": {
-                    "from": "",
-                    "until": ""
+                    "from": "Від",
+                    "until": "До"
                 },
                 "from": {
-                    "not": "",
-                    "next": "",
-                    "manual": ""
+                    "not": "Не обрана",
+                    "next": "Наступний слот",
+                    "manual": "Дата вручну"
                 },
                 "until": {
-                    "auto": "",
-                    "manual": ""
+                    "auto": "Автоматично",
+                    "manual": "Дата вручну"
                 },
                 "action": {
-                    "cancel": "",
-                    "submit": ""
+                    "cancel": "Скасувати",
+                    "submit": "Надіслати"
                 }
             },
             "controls": {
-                "feature": ""
+                "feature": "Популярна дискусія"
             },
-            "badge": "",
+            "badge": "Поаулярне",
             "nav": {
-                "schedule": ""
+                "schedule": "Розклад популярних"
             },
             "schedule": {
-                "help": "",
-                "drop-here": "",
-                "drop-error": "",
-                "empty": "",
-                "custom": ""
+                "help": "Перетягніть дискусію на сторінці або з іншого вікна, щоб змінити їхній розклад. Щоб видалити розклад, скористайтеся меню з трьома крапками.\n",
+                "drop-here": "Перетягніть тут до розкладу",
+                "drop-error": "Невірне посилання на обговорення",
+                "empty": "Жодних дискусій",
+                "custom": "Користувацький"
             },
             "post": {
-                "scheduled": "",
-                "unscheduled": "",
-                "auto": ""
+                "scheduled": "Заплановано до показу з {from} до {until}",
+                "unscheduled": "Більше не заплановано до показу",
+                "auto": "(автоматично)"
             }
         }
     }
