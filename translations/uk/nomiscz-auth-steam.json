@@ -2,39 +2,39 @@
     "nomiscz-auth-steam": {
         "forum": {
             "buttons": {
-                "login": "",
-                "link": "",
-                "unlink": ""
+                "login": "Увійдіть через Steam",
+                "link": "Посилання на обліковий запис Steam",
+                "unlink": "Від'єднайте обліковий запис Steam"
             },
             "alerts": {
-                "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
-                "error": ""
+                "already_linked": "Обліковий запис Steam вже прив'язано!",
+                "already_used": "Обліковий запис Steam вже прив'язаний до іншого користувача!",
+                "link_success": "Посилання на обліковий запис Steam успішно створено.",
+                "unlink_success": "Відв'язування облікового запису Steam виконано успішно.",
+                "error": "Щось пішло не так, будь ласка, спробуйте пізніше!"
             },
             "modals": {
                 "link": {
-                    "title": ""
+                    "title": "Посилання на обліковий запис Steam"
                 },
                 "unlink": {
-                    "title": "",
+                    "title": "Від'єднайте обліковий запис Steam",
                     "info": {
-                        "confirm": "",
-                        "no_providers": ""
+                        "confirm": "Ви впевнені, що хочете відв'язати свій обліковий запис Steam?",
+                        "no_providers": "У вас немає інших провайдерів входу! Можливо, вам доведеться скинути пароль."
                     },
                     "buttons": {
-                        "confirm": "",
-                        "cancel": ""
+                        "confirm": "Так, від'єднати обліковий запис",
+                        "cancel": "Ні!"
                     }
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "api_key_label": "",
-                "use_steam_powered_domain": ""
+                "title": "Налаштування автентифікації Steam",
+                "api_key_label": "API Key",
+                "use_steam_powered_domain": "Використовуйте домен steampowered.com замість steamcommunity.com (заблокований у Китаї)"
             }
         }
     }
