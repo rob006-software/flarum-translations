@@ -4,8 +4,8 @@
             "settings": {
                 "dropdownAccess": "Accès via le menu déroulant des discussions",
                 "dropdownAccessHelp": "Si cette option est désactivée, la barre d'outils ne sera disponible que par le biais du raccourci clavier ou de l'un des autres raccourcis activés ci-dessous.",
-                "sideNavAccess": "",
-                "sideNavAccessHelp": "",
+                "sideNavAccess": "Accès par la navigation latérale de la discussion",
+                "sideNavAccessHelp": "Identique au paramètre précédent, mais le bouton sera ajouté en tant qu'entrée séparée dans la barre latérale au lieu de la liste déroulante.",
                 "authorQuickFilter": "Filtre rapide pour l'auteur du message",
                 "authorQuickFilterHelp": "Un raccourci sera ajouté à la liste déroulante de chaque message pour filtrer en fonction de l'utilisateur.",
                 "originalPosterBadge": "Afficher le badge interactif de l'auteur du message",
@@ -27,7 +27,7 @@
                 "clear": "Effacer les filtres"
             },
             "discussionControls": {
-                "searchInDiscussion": "Rechercher dans la discussion"
+                "searchInDiscussion": "Rechercher une discussion"
             },
             "postControls": {
                 "authorFilter": "Afficher uniquement les réponses de cet auteur"
