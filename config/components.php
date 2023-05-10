@@ -722,6 +722,9 @@ return [
 	'ianm-translate' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/ianm-translate.yml',
 	],
+	'ianm-url-cron' => [
+		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-url-cron/0.1.1/locale/en.yml',
+	],
 	'jeromegillard-map' => [
 		'tag' => 'https://raw.githubusercontent.com/JeromeGillard/flarum-map/v0.1.6/locale/en.yml',
 	],
