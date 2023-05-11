@@ -538,9 +538,9 @@
                 "label": "{label}:"
             },
             "edit_user": {
-                "activate_button": "激活用戶",
-                "email_heading": "郵箱",
-                "email_label": "郵箱",
+                "activate_button": "啟用用戶",
+                "email_heading": "電子郵件",
+                "email_label": "電子郵件",
                 "groups_heading": "用戶組",
                 "password_heading": "密碼",
                 "password_label": "密碼",
@@ -552,11 +552,11 @@
                 "nothing_available": "您無權編輯此用戶。"
             },
             "error": {
-                "dependent_extensions_message": "無法停用「{extension}」，請先停用依賴擴展「{extensions}」",
-                "extension_initialiation_failed_message": "初始化「{extension}」失敗，詳情信息請查看控制台。",
-                "generic_message": "糟糕，出錯啦！請重新載入頁面再試一次。",
-                "generic_cross_origin_message": "哎呀！ 請求期間出現問題。 請刷新頁面，然後再試一次。",
-                "missing_dependencies_message": "無法啟用「{extension}」，請先啟用依賴擴展「{extensions}」",
+                "dependent_extensions_message": "無法停用「{extension}」，請先停用依賴擴充套件「{extensions}」",
+                "extension_initialiation_failed_message": "初始化「{extension}」失敗，詳細資訊請查看瀏覽器控制台。",
+                "generic_message": "糟糕，出錯啦！請重新整理頁面再試一次。",
+                "generic_cross_origin_message": "哎呀！跨來源請求時出現問題；請重新整理頁面，然後再試一次。",
+                "missing_dependencies_message": "無法啟用「{extension}」，請先啟用依賴擴充套件「{extensions}」",
                 "not_found_message": "請求的資源不存在。",
                 "payload_too_large_message": "請求負載過大。",
                 "permission_denied_message": "沒有權限執行此操作。",
@@ -616,8 +616,8 @@
                 "loading_text": "=> core.ref.loading"
             },
             "discussion": {
-                "next_page_button": "下一頁",
-                "previous_page_button": "上一頁"
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
                 "csrf_token_mismatch": "您已長時間沒有動作。",
@@ -631,13 +631,13 @@
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
-                "next_page_button": "下一頁",
-                "previous_page_button": "上一頁"
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "log_out": {
-                "log_out_button": "登出",
-                "log_out_confirmation": "你確定要登出 {forum}?",
-                "title": "登出"
+                "log_out_button": "=> core.ref.log_out",
+                "log_out_confirmation": "您確定要登出 {forum}？",
+                "title": "=> core.ref.log_out"
             },
             "reset_password": {
                 "confirm_password_label": "確認密碼",
@@ -647,11 +647,11 @@
             }
         },
         "api": {
-            "invalid_username_message": "會員名稱僅能包含字母、數字及橫線。"
+            "invalid_username_message": "使用者名稱僅能包含字母、數字及連接符號 (-)。"
         },
         "email": {
             "activate_account": {
-                "subject": "激活帳戶",
+                "subject": "啟用帳號",
                 "body": "您好，{username}！\n\n此郵箱被用於註冊 {forum}，若確定是由您本人所操作的，請點擊下面的連結以激活您的帳戶：\n\n{url}\n\n若非您本人註冊，請忽略此郵件。\n"
             },
             "confirm_email": {
@@ -674,30 +674,30 @@
             "color": "顏色",
             "confirm_password": "確認密碼",
             "confirm_email": "確認郵件",
-            "confirmation_email_sent": "驗證郵件已發送至 {email}，若未收到請檢查垃圾箱。",
-            "custom_footer_text": "新增 HTML 代碼顯示於頁面底部。",
+            "confirmation_email_sent": "驗證郵件已發送至 {email}，若未收到請檢查垃圾郵件信箱。",
+            "custom_footer_text": "新增顯示在頁面底部的 HTML 原始碼。",
             "custom_footer_title": "編輯客製化頁腳",
-            "custom_header_text": "新增要顯示在頁面頂部，位在 Flarum 默認頁眉之上的 HTML代碼。",
-            "custom_header_title": "編輯客製化頁眉",
+            "custom_header_text": "新增要顯示在頁面頂部，位於 Flarum 預設頁首之上的 HTML 原始碼。",
+            "custom_header_title": "編輯客製化頁首",
             "delete": "刪除",
             "delete_forever": "永久刪除",
             "discussions": "主題",
             "edit": "編輯",
             "edit_user": "編輯用戶",
-            "email": "郵箱",
-            "extensions": "擴展程序",
+            "email": "電子郵件",
+            "extensions": "擴充套件",
             "generic_confirmation_message": "您確定要繼續嗎？ 此操作無法撤消。",
             "icon": "圖示",
-            "icon_text": "輸入任意一個 <a>FontAwesome</a> 圖示名稱，<em>需要包含</em>前綴 ，例如<code>fas fa-</code>。",
+            "icon_text": "輸入任意一個 <a>FontAwesome</a> 圖示名稱，<em>需要包含</em>前綴 ，例如 <code>fas fa-</code>。",
             "load_more": "載入更多",
             "loading": "正在加載…",
             "log_in": "登入",
             "log_out": "登出",
-            "mark_all_as_read": "標記所有為已讀",
+            "mark_all_as_read": "全部已讀",
             "new_token": "新令牌",
             "next_page": "下一頁",
             "notifications": "通知",
-            "okay": "OK",
+            "okay": "確認",
             "password": "密碼",
             "posts": "貼文",
             "previous_page": "上一頁",
@@ -713,11 +713,11 @@
             "sign_up": "註冊",
             "some_others": "{count, plural, one {# 人} other {# 人}}",
             "start_a_discussion": "發表主題",
-            "username": "會員名稱",
-            "users": "會員",
+            "username": "使用者名稱",
+            "users": "使用者",
             "view": "查看",
             "write_a_reply": "撰寫回覆...",
-            "you": "你"
+            "you": "您"
         },
         "group": {
             "admin": "管理員",
@@ -726,8 +726,8 @@
             "guests": "訪客",
             "member": "註冊會員",
             "members": "註冊會員",
-            "mod": "版主",
-            "mods": "版主"
+            "mod": "板主",
+            "mods": "板主"
         }
     }
 }
