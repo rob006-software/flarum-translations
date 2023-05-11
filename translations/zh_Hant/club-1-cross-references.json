@@ -11,7 +11,7 @@
             },
             "retrofit_links_in_frontend": {
                 "label": "於前端變更連結",
-                "help": "在未啟用此擴展時，會於發送的消息中顯示討論連結的標題。 這是在前端完成的，因此可能會導致不好的用戶體驗。如要由後端直接更改，請使用 [`club-1/flarum-ext-chore-commands`](https://github.com/club-1/flarum-extchore-commands）擴展中的 `chore:reparse` 指令。\n"
+                "help": "<p>在未啟用此擴展程序時，在發送的消息中顯示討論鏈接的標題。這是在前端完成的，因此可能會導致糟糕的用戶體驗。</p>\n<p><strong>已棄用</strong>（將在 <code>v1.2.0</code> 中移除）請考慮使用 <code>club-1/flarum-ext-chore-commands 的 <code>chore:reparse</code> 命令 </code>。 請參閱：<code>https://github.com/club-1/flarum-ext-chore-commands</code></p>\n"
             }
         },
         "forum": {
