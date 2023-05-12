@@ -86,6 +86,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `ziiven-u2di` | [![#1042 (open)](https://img.shields.io/badge/PR-%231042-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1042) |
+There are no dead branches.
