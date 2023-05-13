@@ -1133,6 +1133,9 @@ return [
 	'tpokorra-post-notification' => [
 		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.4.8/resources/locale/en.yml',
 	],
+	'ucw-celeste-status' => [
+		'tag' => 'https://raw.githubusercontent.com/wuxianucw/flarum-celeste-status/v0.1.2/locale/en.yml',
+	],
 	'v17development-blog' => [
 		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-blog/v0.6.5/locale/en.yaml',
 	],
