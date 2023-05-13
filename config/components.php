@@ -1160,6 +1160,9 @@ return [
 	'webbinaro-gpx-preview' => [
 		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-gpx-preview/1.0.0/resources/locale/en.yml',
 	],
+	'widayn-avatar-cropper' => [
+		'tag' => 'https://raw.githubusercontent.com/WiDayn/flarum-avatar-cropper/v0.1.2/resources/locale/en.yml',
+	],
 	'wolfgang-demeter-bbcode-5star-rating' => [
 		'tag' => 'https://raw.githubusercontent.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating/v0.1.8/locale/en.yml',
 	],
