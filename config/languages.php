@@ -72,6 +72,7 @@ return [
 	]),
 	'ja' => getComponents(),
 	'ka' => getComponents(),
+	'kab' => getComponents(),
 	'kk' => getComponents(),
 	'ko' => getComponents(),
 	'lt' => getComponents(),
