@@ -245,6 +245,18 @@ return [
 		],
 		'maintainers' => ['meskobalazs', 'Rebootcodesoft'],
 	],
+	'is' => [
+		'type' => 'language',
+		'language' => 'is',
+		'repository' => 'git@github.com:flarum-lang/icelandic.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'it' => [
 		'type' => 'language',
 		'language' => 'it',
