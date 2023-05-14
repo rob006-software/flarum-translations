@@ -98,6 +98,7 @@ return [
 	'sc' => getComponents(),
 	'si' => getComponents(),
 	'sk' => getComponents(),
+	'sq' => getComponents(),
 	'sr_Cyrl' => getComponents(),
 	'sr_Latn' => getComponents(),
 	'sv' => getComponents(),
