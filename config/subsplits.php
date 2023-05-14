@@ -245,6 +245,18 @@ return [
 		],
 		'maintainers' => ['meskobalazs', 'Rebootcodesoft'],
 	],
+	'hy' => [
+		'type' => 'language',
+		'language' => 'hy',
+		'repository' => 'git@github.com:flarum-lang/armenian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'it' => [
 		'type' => 'language',
 		'language' => 'it',
