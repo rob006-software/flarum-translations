@@ -42,6 +42,34 @@
 		</td>
 	</tr>
 	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/albanian">Albanian</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/albanian/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/albanian" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/albanian/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/albanian/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/albanian/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/albanian" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/albanian/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/albanian" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/sq.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/sq/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td><a href="https://github.com/flarum-lang/arabic">Arabic</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/arabic/tags">
