@@ -77,6 +77,18 @@ return [
 		],
 		'maintainers' => [],
 	],
+	'cy' => [
+		'type' => 'language',
+		'language' => 'cy',
+		'repository' => 'git@github.com:flarum-lang/welsh.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'da' => [
 		'type' => 'language',
 		'language' => 'da',
