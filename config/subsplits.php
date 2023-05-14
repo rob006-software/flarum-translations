@@ -53,6 +53,18 @@ return [
 		],
 		'maintainers' => [], // ['mueenulit'], see https://github.com/flarum-lang/bengali/pull/1#issuecomment-1311816335
 	],
+	'br' => [
+		'type' => 'language',
+		'language' => 'br',
+		'repository' => 'git@github.com:flarum-lang/breton.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'ca' => [
 		'type' => 'language',
 		'language' => 'ca',
