@@ -61,6 +61,7 @@ return [
 	'gl' => getComponents(),
 	'he' => getComponents(),
 	'hi' => getComponents(),
+	'hr' => getComponents(),
 	'hu' => getComponents(),
 	'it' => getComponents([
 		// translations included in extension
