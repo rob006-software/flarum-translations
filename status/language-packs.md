@@ -14,6 +14,34 @@
 </thead>
 <tbody>
 	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/afrikaans">Afrikaans</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/afrikaans/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/afrikaans" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/afrikaans/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/afrikaans/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/afrikaans/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/afrikaans" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/afrikaans/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/afrikaans" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/af.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/af/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td><a href="https://github.com/flarum-lang/arabic">Arabic</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/arabic/tags">
