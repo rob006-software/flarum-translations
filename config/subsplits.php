@@ -497,6 +497,18 @@ return [
 		],
 		'maintainers' => [],
 	],
+	'sr_Cyrl' => [
+		'type' => 'language',
+		'language' => 'sr_Cyrl',
+		'repository' => 'git@github.com:flarum-lang/serbian-cyrillic.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'sv' => [
 		'type' => 'language',
 		'language' => 'sv',
