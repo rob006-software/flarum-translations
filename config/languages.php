@@ -14,10 +14,12 @@ declare(strict_types=1);
 use function rob006\flarum\translations\helpers\getComponents;
 
 return [
+	'af' => getComponents(),
 	'ar' => getComponents([
 		// translations included in extension
 		// '!v17development-seo', https://github.com/v17development/flarum-seo/issues/61#issuecomment-855474306
 	]),
+	'ast' => getComponents(),
 	'az' => getComponents(),
 	'bn' => getComponents(),
 	'ca' => getComponents(),
@@ -62,6 +64,7 @@ return [
 	'he' => getComponents(),
 	'hi' => getComponents(),
 	'hu' => getComponents(),
+	'hy' => getComponents(),
 	'it' => getComponents([
 		// translations included in extension
 		// '!clarkwinkelmann-emojionearea', https://github.com/clarkwinkelmann/flarum-ext-emojionearea/issues/28#issuecomment-855995493
@@ -92,10 +95,12 @@ return [
 		// translations included in extension
 		'!xelson-chat',
 	]),
+	'sc' => getComponents(),
 	'si' => getComponents(),
 	'sk' => getComponents(),
 	'sq' => getComponents(),
-	'sr' => getComponents(),
+	'sr_Cyrl' => getComponents(),
+	'sr_Latn' => getComponents(),
 	'sv' => getComponents(),
 	'ta' => getComponents(),
 	'te' => getComponents(),
