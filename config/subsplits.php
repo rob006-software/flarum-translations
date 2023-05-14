@@ -485,18 +485,6 @@ return [
 		],
 		'maintainers' => ['CWKevo'],
 	],
-	'sr' => [
-		'type' => 'language',
-		'language' => 'sr',
-		'repository' => 'git@github.com:flarum-lang/serbian.git',
-		'branch' => 'master',
-		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'vMajor.Minor.Patch',
-		],
-		'maintainers' => [],
-	],
 	'sr_Cyrl' => [
 		'type' => 'language',
 		'language' => 'sr_Cyrl',
@@ -506,6 +494,18 @@ return [
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
+	'sr_Latn' => [
+		'type' => 'language',
+		'language' => 'sr_Latn',
+		'repository' => 'git@github.com:flarum-lang/serbian-latin.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'vMajor.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
