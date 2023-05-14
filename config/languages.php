@@ -111,6 +111,7 @@ return [
 		'!the-turk-regrole',
 	]),
 	'uk' => getComponents(),
+	'ur' => getComponents(),
 	'uz' => getComponents(),
 	'vi' => getComponents([
 		// translations included in extension
