@@ -509,6 +509,18 @@ return [
 		],
 		'maintainers' => ['tolgaaaltas'],
 	],
+	'ug' => [
+		'type' => 'language',
+		'language' => 'ug',
+		'repository' => 'git@github.com:flarum-lang/uyghur.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'uk' => [
 		'type' => 'language',
 		'language' => 'uk',
