@@ -485,10 +485,22 @@ return [
 		],
 		'maintainers' => ['CWKevo'],
 	],
-	'sr' => [
+	'sr_Cyrl' => [
 		'type' => 'language',
-		'language' => 'sr',
-		'repository' => 'git@github.com:flarum-lang/serbian.git',
+		'language' => 'sr_Cyrl',
+		'repository' => 'git@github.com:flarum-lang/serbian-cyrillic.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
+	'sr_Latn' => [
+		'type' => 'language',
+		'language' => 'sr_Latn',
+		'repository' => 'git@github.com:flarum-lang/serbian-latin.git',
 		'branch' => 'master',
 		'path' => '/locale',
 		'releaseGenerator' => [
