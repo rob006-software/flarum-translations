@@ -125,6 +125,18 @@ return [
 		],
 		'maintainers' => ['iamdarkle', 'jslirola'],
 	],
+	'es_AR' => [
+		'type' => 'language',
+		'language' => 'es_AR',
+		'repository' => 'git@github.com:flarum-lang/spanish-argentina.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'et' => [
 		'type' => 'language',
 		'language' => 'et',
