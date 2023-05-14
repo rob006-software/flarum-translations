@@ -92,6 +92,7 @@ return [
 		// translations included in extension
 		'!xelson-chat',
 	]),
+	'sc' => getComponents(),
 	'si' => getComponents(),
 	'sk' => getComponents(),
 	'sr' => getComponents(),
