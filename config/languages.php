@@ -22,6 +22,7 @@ return [
 	'bn' => getComponents(),
 	'ca' => getComponents(),
 	'cs' => getComponents(),
+	'cy' => getComponents(),
 	'da' => getComponents(),
 	'de' => getComponents([
 		// translations included in extension
