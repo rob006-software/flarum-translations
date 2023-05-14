@@ -45,6 +45,7 @@ return [
 	'eu' => getComponents(),
 	'fa' => getComponents(),
 	'fi' => getComponents(),
+	'fil' => getComponents(),
 	'fr' => getComponents([
 		// translations included in extension
 		'!antoinefr-money',
