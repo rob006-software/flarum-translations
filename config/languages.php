@@ -81,6 +81,7 @@ return [
 		// translations included in extension
 		'!v17development-seo',
 	]),
+	'nn' => getComponents(),
 	'pl' => getComponents([
 		// translations included in extension
 		'!rob006-last-post-avatar',
