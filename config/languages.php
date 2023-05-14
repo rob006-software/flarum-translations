@@ -99,6 +99,7 @@ return [
 	'ta' => getComponents(),
 	'te' => getComponents(),
 	'th' => getComponents(),
+	'tl' => getComponents(),
 	'tr' => getComponents([
 		// translations included in extension
 		// '!dem13n-topic-starter-label', https://github.com/Dem13n/topic-starter-label/pull/5
