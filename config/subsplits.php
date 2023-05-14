@@ -113,6 +113,18 @@ return [
 		],
 		'maintainers' => ['futuresound'],
 	],
+	'eo' => [
+		'type' => 'language',
+		'language' => 'eo',
+		'repository' => 'git@github.com:flarum-lang/esperanto.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'es' => [
 		'type' => 'language',
 		'language' => 'es',
