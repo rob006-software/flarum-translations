@@ -233,6 +233,18 @@ return [
 		],
 		'maintainers' => [], // ['meetdilip'], see https://github.com/flarum-lang/hindi/pull/3#issuecomment-1311826819
 	],
+	'hr' => [
+		'type' => 'language',
+		'language' => 'hr',
+		'repository' => 'git@github.com:flarum-lang/croatian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'hu' => [
 		'type' => 'language',
 		'language' => 'hu',
