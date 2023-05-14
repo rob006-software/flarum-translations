@@ -305,6 +305,18 @@ return [
 		],
 		'maintainers' => ['hahagu'],
 	],
+	'ku' => [
+		'type' => 'language',
+		'language' => 'ku',
+		'repository' => 'git@github.com:flarum-lang/kurdish.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'lt' => [
 		'type' => 'language',
 		'language' => 'lt',
