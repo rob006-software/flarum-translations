@@ -485,6 +485,18 @@ return [
 		],
 		'maintainers' => ['CWKevo'],
 	],
+	'sl' => [
+		'type' => 'language',
+		'language' => 'sl',
+		'repository' => 'git@github.com:flarum-lang/slovenian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'sq' => [
 		'type' => 'language',
 		'language' => 'sq',
