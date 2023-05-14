@@ -17,6 +17,18 @@ use app\components\release\PolishReleaseGenerator;
 use app\components\release\ReleaseGenerator;
 
 return [
+	'af' => [
+		'type' => 'language',
+		'language' => 'af',
+		'repository' => 'git@github.com:flarum-lang/afrikaans.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'ar' => [
 		'type' => 'language',
 		'language' => 'ar',
@@ -28,6 +40,18 @@ return [
 			'versionTemplate' => 'v0.Major.Minor',
 		],
 		'maintainers' => ['neerugupta'],
+	],
+	'ast' => [
+		'type' => 'language',
+		'language' => 'ast',
+		'repository' => 'git@github.com:flarum-lang/asturian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
 	],
 	'az' => [
 		'type' => 'language',
@@ -245,6 +269,18 @@ return [
 		],
 		'maintainers' => ['meskobalazs', 'Rebootcodesoft'],
 	],
+	'hy' => [
+		'type' => 'language',
+		'language' => 'hy',
+		'repository' => 'git@github.com:flarum-lang/armenian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'it' => [
 		'type' => 'language',
 		'language' => 'it',
@@ -413,6 +449,18 @@ return [
 		],
 		'maintainers' => ['KitsuneSolar', 'uidhub'],
 	],
+	'sc' => [
+		'type' => 'language',
+		'language' => 'sc',
+		'repository' => 'git@github.com:flarum-lang/sardinian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'si' => [
 		'type' => 'language',
 		'language' => 'si',
@@ -449,10 +497,34 @@ return [
 		],
 		'maintainers' => [],
 	],
-	'sr' => [
+	'sq' => [
 		'type' => 'language',
-		'language' => 'sr',
-		'repository' => 'git@github.com:flarum-lang/serbian.git',
+		'language' => 'sq',
+		'repository' => 'git@github.com:flarum-lang/albanian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
+	'sr_Cyrl' => [
+		'type' => 'language',
+		'language' => 'sr_Cyrl',
+		'repository' => 'git@github.com:flarum-lang/serbian-cyrillic.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
+	'sr_Latn' => [
+		'type' => 'language',
+		'language' => 'sr_Latn',
+		'repository' => 'git@github.com:flarum-lang/serbian-latin.git',
 		'branch' => 'master',
 		'path' => '/locale',
 		'releaseGenerator' => [

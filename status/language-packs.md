@@ -14,6 +14,34 @@
 </thead>
 <tbody>
 	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/afrikaans">Afrikaans</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/afrikaans/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/afrikaans" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/afrikaans/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/afrikaans/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/afrikaans/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/afrikaans" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/afrikaans/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/afrikaans" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/af.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/af/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td><a href="https://github.com/flarum-lang/arabic">Arabic</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/arabic/tags">
@@ -38,6 +66,62 @@
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/ar.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/ar/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/armenian">Armenian</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/armenian/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/armenian" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/armenian/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/armenian/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/armenian/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/armenian" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/armenian/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/armenian" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/hy.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/hy/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/asturian">Asturian</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/asturian/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/asturian" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/asturian/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/asturian/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/asturian/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/asturian" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/asturian/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/asturian" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/ast.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/ast/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
 	</tr>
@@ -938,19 +1022,75 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/serbian">Serbian</a></td>
+		<td>⚠️ <a href="https://github.com/flarum-lang/sardinian">Sardinian</a></td>
 		<td align="right">
-			<a href="https://github.com/flarum-lang/serbian/tags">
+			<a href="https://github.com/flarum-lang/sardinian/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/sardinian" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/sardinian/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/sardinian/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/sardinian/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/sardinian" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/sardinian/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/sardinian" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/sc.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/sc/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/serbian-cyrillic">Serbian (Cyrillic)</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/serbian-cyrillic/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/serbian-cyrillic" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/serbian-cyrillic/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/serbian-cyrillic/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/serbian-cyrillic/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/serbian-cyrillic" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/serbian-cyrillic/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/serbian-cyrillic" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/sr_Cyrl.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/sr_Cyrl/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/serbian-latin">Serbian (Latin)</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/serbian-latin/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/serbian" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
-			<a href="https://github.com/flarum-lang/serbian/commits">
+			<a href="https://github.com/flarum-lang/serbian-latin/commits">
 				<img src="https://img.shields.io/github/commits-since/flarum-lang/serbian/latest" alt="commits since last release" style="max-width: 150px;" />
 			</a>
 		</td>
 		<td>
-			<a href="https://github.com/flarum-lang/serbian/pulls">
+			<a href="https://github.com/flarum-lang/serbian-latin/pulls">
 				<img src="https://img.shields.io/github/issues-pr/flarum-lang/serbian" alt="open pull requests" />
 			</a>
 		</td>
@@ -960,8 +1100,8 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/sr.html" title="Click to see detailed translation status for each extension">
-				<img src="https://weblate.rob006.net/widgets/flarum/sr/svg-badge.svg" alt="detailed translation status" />
+			<a href="https://rob006-software.github.io/flarum-translations/status/sr_Latn.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/sr_Latn/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
 	</tr>
@@ -1046,6 +1186,34 @@
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/es.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/es/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/spanish-argentina">Spanish (Argentina)</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/spanish-argentina/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/spanish-argentina" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/spanish-argentina/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/spanish-argentina/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/spanish-argentina/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/spanish-argentina" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/spanish-argentina/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/spanish-argentina" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/es_AR.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/es_AR/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
 	</tr>
