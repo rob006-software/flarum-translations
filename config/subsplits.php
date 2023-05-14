@@ -353,6 +353,18 @@ return [
 		],
 		'maintainers' => ['jaspervriends', 'MichaelBelgium'],
 	],
+	'pa' => [
+		'type' => 'language',
+		'language' => 'pa',
+		'repository' => 'git@github.com:flarum-lang/punjabi.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'pl' => [
 		'type' => 'language',
 		'language' => 'pl',
