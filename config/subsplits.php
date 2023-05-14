@@ -197,6 +197,18 @@ return [
 		],
 		'maintainers' => ['qiaeru'],
 	],
+	'ga' => [
+		'type' => 'language',
+		'language' => 'ga',
+		'repository' => 'git@github.com:flarum-lang/irish.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'gl' => [
 		'type' => 'language',
 		'language' => 'gl',
