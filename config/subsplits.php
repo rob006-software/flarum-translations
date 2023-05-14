@@ -437,6 +437,18 @@ return [
 		],
 		'maintainers' => ['CWKevo'],
 	],
+	'sq' => [
+		'type' => 'language',
+		'language' => 'sq',
+		'repository' => 'git@github.com:flarum-lang/albanian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'sr' => [
 		'type' => 'language',
 		'language' => 'sr',
