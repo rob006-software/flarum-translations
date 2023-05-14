@@ -17,6 +17,18 @@ use app\components\release\PolishReleaseGenerator;
 use app\components\release\ReleaseGenerator;
 
 return [
+	'af' => [
+		'type' => 'language',
+		'language' => 'af',
+		'repository' => 'git@github.com:flarum-lang/afrikaans.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'ar' => [
 		'type' => 'language',
 		'language' => 'ar',

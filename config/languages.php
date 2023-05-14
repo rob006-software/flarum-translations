@@ -14,6 +14,7 @@ declare(strict_types=1);
 use function rob006\flarum\translations\helpers\getComponents;
 
 return [
+	'af' => getComponents(),
 	'ar' => getComponents([
 		// translations included in extension
 		// '!v17development-seo', https://github.com/v17development/flarum-seo/issues/61#issuecomment-855474306
