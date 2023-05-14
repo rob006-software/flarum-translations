@@ -1190,6 +1190,34 @@
 		</td>
 	</tr>
 	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/slovenian">Slovenian</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/slovenian/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/slovenian" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/slovenian/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/slovenian/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/slovenian/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/slovenian" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/slovenian/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/slovenian" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/sl.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/sl/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td><a href="https://github.com/flarum-lang/spanish">Spanish</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/spanish/tags">
