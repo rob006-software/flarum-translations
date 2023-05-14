@@ -99,6 +99,7 @@ return [
 	'si' => getComponents(),
 	'sk' => getComponents(),
 	'sr' => getComponents(),
+	'sr_Cyrl' => getComponents(),
 	'sv' => getComponents(),
 	'ta' => getComponents(),
 	'te' => getComponents(),
