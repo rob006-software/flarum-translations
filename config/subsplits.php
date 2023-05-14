@@ -185,6 +185,18 @@ return [
 		],
 		'maintainers' => ['MarkoKaartinen'],
 	],
+	'fil' => [
+		'type' => 'language',
+		'language' => 'fil',
+		'repository' => 'git@github.com:flarum-lang/filipino.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'fr' => [
 		'type' => 'language',
 		'language' => 'fr',
