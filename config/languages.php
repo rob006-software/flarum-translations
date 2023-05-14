@@ -74,6 +74,7 @@ return [
 	'ka' => getComponents(),
 	'kk' => getComponents(),
 	'ko' => getComponents(),
+	'ku' => getComponents(),
 	'lt' => getComponents(),
 	'lv' => getComponents(),
 	'ml' => getComponents(),
