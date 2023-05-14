@@ -521,6 +521,18 @@ return [
 		],
 		'maintainers' => ['denysdesign'],
 	],
+	'ur' => [
+		'type' => 'language',
+		'language' => 'ur',
+		'repository' => 'git@github.com:flarum-lang/urdu.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'uz' => [
 		'type' => 'language',
 		'language' => 'uz',
