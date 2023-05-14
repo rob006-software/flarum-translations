@@ -938,6 +938,34 @@
 		</td>
 	</tr>
 	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/sardinian">Sardinian</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/sardinian/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/sardinian" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/sardinian/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/sardinian/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/sardinian/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/sardinian" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/sardinian/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/sardinian" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/sc.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/sc/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td>⚠️ <a href="https://github.com/flarum-lang/serbian">Serbian</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/serbian/tags">
