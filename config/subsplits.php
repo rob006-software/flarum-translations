@@ -41,6 +41,18 @@ return [
 		],
 		'maintainers' => ['neerugupta'],
 	],
+	'ast' => [
+		'type' => 'language',
+		'language' => 'ast',
+		'repository' => 'git@github.com:flarum-lang/asturian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'az' => [
 		'type' => 'language',
 		'language' => 'az',
