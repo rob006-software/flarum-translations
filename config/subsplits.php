@@ -353,6 +353,18 @@ return [
 		],
 		'maintainers' => ['jaspervriends', 'MichaelBelgium'],
 	],
+	'nn' => [
+		'type' => 'language',
+		'language' => 'nn',
+		'repository' => 'git@github.com:flarum-lang/norwegian-nynorsk.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'pl' => [
 		'type' => 'language',
 		'language' => 'pl',
