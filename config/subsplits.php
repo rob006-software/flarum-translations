@@ -341,6 +341,18 @@ return [
 		],
 		'maintainers' => [], // ['meetdilip'], see https://github.com/flarum-lang/malayalam/pull/1#issuecomment-1311837994
 	],
+	'mr' => [
+		'type' => 'language',
+		'language' => 'mr',
+		'repository' => 'git@github.com:flarum-lang/marathi.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'nl' => [
 		'type' => 'language',
 		'language' => 'nl',
