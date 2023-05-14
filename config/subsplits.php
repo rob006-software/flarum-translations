@@ -413,6 +413,18 @@ return [
 		],
 		'maintainers' => ['KitsuneSolar', 'uidhub'],
 	],
+	'sc' => [
+		'type' => 'language',
+		'language' => 'sc',
+		'repository' => 'git@github.com:flarum-lang/sardinian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'si' => [
 		'type' => 'language',
 		'language' => 'si',
