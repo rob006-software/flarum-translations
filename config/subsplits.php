@@ -497,6 +497,18 @@ return [
 		],
 		'maintainers' => [], // ['kon3ko'], see https://github.com/flarum-lang/thai/pull/2#issuecomment-1311857526
 	],
+	'tl' => [
+		'type' => 'language',
+		'language' => 'tl',
+		'repository' => 'git@github.com:flarum-lang/tagalog.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'tr' => [
 		'type' => 'language',
 		'language' => 'tr',
