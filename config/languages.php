@@ -76,6 +76,7 @@ return [
 	'ko' => getComponents(),
 	'lt' => getComponents(),
 	'lv' => getComponents(),
+	'mk' => getComponents(),
 	'ml' => getComponents(),
 	'nl' => getComponents([
 		// translations included in extension
