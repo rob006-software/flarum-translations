@@ -21,6 +21,7 @@ return [
 	]),
 	'ast' => getComponents(),
 	'az' => getComponents(),
+	'bg' => getComponents(),
 	'bn' => getComponents(),
 	'ca' => getComponents(),
 	'cs' => getComponents(),
