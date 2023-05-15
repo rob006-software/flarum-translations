@@ -461,6 +461,18 @@ return [
 		],
 		'maintainers' => [],
 	],
+	'my' => [
+		'type' => 'language',
+		'language' => 'my',
+		'repository' => 'git@github.com:flarum-lang/burmese.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'ne' => [
 		'type' => 'language',
 		'language' => 'ne',
