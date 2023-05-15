@@ -65,6 +65,18 @@ return [
 		],
 		'maintainers' => [], // ['khayal011'], see https://github.com/flarum-lang/azerbaijani/pull/1#issuecomment-1311812451
 	],
+	'be' => [
+		'type' => 'language',
+		'language' => 'be',
+		'repository' => 'git@github.com:flarum-lang/belarusian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'bg' => [
 		'type' => 'language',
 		'language' => 'bg',
