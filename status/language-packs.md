@@ -938,6 +938,34 @@
 		</td>
 	</tr>
 	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/kabyle">Kabyle</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/kabyle/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/kabyle" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/kabyle/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/kabyle/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/kabyle/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/kabyle" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/kabyle/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/kabyle" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/kab.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/kab/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td>⚠️ <a href="https://github.com/flarum-lang/kannada">Kannada</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/kannada/tags">
