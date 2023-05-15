@@ -14,12 +14,15 @@ declare(strict_types=1);
 use function rob006\flarum\translations\helpers\getComponents;
 
 return [
+	'af' => getComponents(),
 	'ar' => getComponents([
 		// translations included in extension
 		// '!v17development-seo', https://github.com/v17development/flarum-seo/issues/61#issuecomment-855474306
 	]),
+	'ast' => getComponents(),
 	'az' => getComponents(),
 	'be' => getComponents(),
+	'bg' => getComponents(),
 	'bn' => getComponents(),
 	'ca' => getComponents(),
 	'cs' => getComponents(),
@@ -32,6 +35,7 @@ return [
 		'!wolfgang-demeter-bbcode-5star-rating',
 	]),
 	'el' => getComponents(),
+	'eo' => getComponents(),
 	'es' => getComponents([
 		// translations included in extension
 		// '!clarkwinkelmann-emojionearea', https://github.com/clarkwinkelmann/flarum-ext-emojionearea/issues/28#issuecomment-855995493
@@ -59,10 +63,12 @@ return [
 		'!tituspijean-auth-ldap',
 		// '!v17development-seo', https://github.com/v17development/flarum-seo/issues/61#issuecomment-855474306
 	]),
+	'ga' => getComponents(),
 	'gl' => getComponents(),
 	'he' => getComponents(),
 	'hi' => getComponents(),
 	'hu' => getComponents(),
+	'hy' => getComponents(),
 	'it' => getComponents([
 		// translations included in extension
 		// '!clarkwinkelmann-emojionearea', https://github.com/clarkwinkelmann/flarum-ext-emojionearea/issues/28#issuecomment-855995493
@@ -74,10 +80,13 @@ return [
 	'ja' => getComponents(),
 	'ka' => getComponents(),
 	'kk' => getComponents(),
+	'kn' => getComponents(),
 	'ko' => getComponents(),
 	'lt' => getComponents(),
 	'lv' => getComponents(),
 	'ml' => getComponents(),
+	'mr' => getComponents(),
+	'ne' => getComponents(),
 	'nl' => getComponents([
 		// translations included in extension
 		'!v17development-seo',
@@ -93,9 +102,13 @@ return [
 		// translations included in extension
 		'!xelson-chat',
 	]),
+	'sc' => getComponents(),
 	'si' => getComponents(),
 	'sk' => getComponents(),
-	'sr' => getComponents(),
+	'sl' => getComponents(),
+	'sq' => getComponents(),
+	'sr_Cyrl' => getComponents(),
+	'sr_Latn' => getComponents(),
 	'sv' => getComponents(),
 	'ta' => getComponents(),
 	'te' => getComponents(),
@@ -111,6 +124,7 @@ return [
 		'!the-turk-quiet-edits',
 		'!the-turk-regrole',
 	]),
+	'ug' => getComponents(),
 	'uk' => getComponents(),
 	'uz' => getComponents(),
 	'vi' => getComponents([
