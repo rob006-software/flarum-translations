@@ -365,6 +365,18 @@ return [
 		],
 		'maintainers' => [],
 	],
+	'kn' => [
+		'type' => 'language',
+		'language' => 'kn',
+		'repository' => 'git@github.com:flarum-lang/kannada.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'ko' => [
 		'type' => 'language',
 		'language' => 'ko',
