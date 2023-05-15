@@ -1526,6 +1526,34 @@
 		</td>
 	</tr>
 	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/uyghur">Uyghur</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/uyghur/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/uyghur" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/uyghur/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/uyghur/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/uyghur/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/uyghur" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/uyghur/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/uyghur" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/ug.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/ug/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td><a href="https://github.com/flarum-lang/uzbek">Uzbek</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/uzbek/tags">
