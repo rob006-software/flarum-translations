@@ -84,6 +84,7 @@ return [
 	'lt' => getComponents(),
 	'lv' => getComponents(),
 	'ml' => getComponents(),
+	'mr' => getComponents(),
 	'ne' => getComponents(),
 	'nl' => getComponents([
 		// translations included in extension
