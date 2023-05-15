@@ -518,6 +518,34 @@
 		</td>
 	</tr>
 	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/filipino">Filipino</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/filipino/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/filipino" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/filipino/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/filipino/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/filipino/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/filipino" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/filipino/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/filipino" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/fil.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/fil/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td><a href="https://github.com/flarum-lang/finnish">Finnish</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/finnish/tags">
@@ -1333,22 +1361,22 @@
 		<td>⚠️ <a href="https://github.com/flarum-lang/serbian-latin">Serbian (Latin)</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/serbian-latin/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/serbian" alt="last release" style="max-width: 160px;" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/serbian-latin" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/serbian-latin/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/serbian/latest" alt="commits since last release" style="max-width: 150px;" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/serbian-latin/latest" alt="commits since last release" style="max-width: 150px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/serbian-latin/pulls">
-				<img src="https://img.shields.io/github/issues-pr/flarum-lang/serbian" alt="open pull requests" />
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/serbian-latin" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
-			<a href="https://packagist.org/packages/flarum-lang/serbian/stats">
-				<img src="https://img.shields.io/packagist/dm/flarum-lang/serbian" alt="downloads (monthly)" />
+			<a href="https://packagist.org/packages/flarum-lang/serbian-latin/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/serbian-latin" alt="downloads (monthly)" />
 			</a>
 		</td>
 		<td align="right">
