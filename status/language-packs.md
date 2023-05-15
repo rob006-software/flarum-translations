@@ -910,6 +910,34 @@
 		</td>
 	</tr>
 	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/nepali">Nepali</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/nepali/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/nepali" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/nepali/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/nepali/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/nepali/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/nepali" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/nepali/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/nepali" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/ne.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/ne/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td>⚠️ <a href="https://github.com/flarum-lang/persian">Persian</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/persian/tags">
