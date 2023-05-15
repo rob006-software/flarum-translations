@@ -88,4 +88,4 @@
 
 | Extension | Pull request |
 | --- | --- |
-| `ziiven-u2di` | [![#1051 (open)](https://img.shields.io/badge/PR-%231051-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1051) |
+| `ziiven-u2di` | [![#1051 (closed)](https://img.shields.io/badge/PR-%231051-red)](https://github.com/rob006-software/flarum-translations/pull/1051) |
