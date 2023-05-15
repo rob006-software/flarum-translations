@@ -279,6 +279,15 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
+		<td><a href="https://github.com/flarum-lang/kannada">Kannada</a></td>
+		<td> - </td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/kn.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/kn/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td><a href="https://github.com/flarum-lang/kazakh">Kazakh</a></td>
 		<td> - </td>
 		<td align="right">
