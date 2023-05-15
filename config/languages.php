@@ -128,6 +128,7 @@ return [
 	]),
 	'ug' => getComponents(),
 	'uk' => getComponents(),
+	'ur' => getComponents(),
 	'uz' => getComponents(),
 	'vi' => getComponents([
 		// translations included in extension
