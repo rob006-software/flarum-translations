@@ -120,6 +120,7 @@ return [
 		'!the-turk-quiet-edits',
 		'!the-turk-regrole',
 	]),
+	'ug' => getComponents(),
 	'uk' => getComponents(),
 	'uz' => getComponents(),
 	'vi' => getComponents([
