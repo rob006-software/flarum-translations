@@ -1498,6 +1498,34 @@
 		</td>
 	</tr>
 	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/tagalog">Tagalog</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/tagalog/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/tagalog" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/tagalog/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/tagalog/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/tagalog/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/tagalog" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/tagalog/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/tagalog" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/tl.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/tl/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td>⚠️ <a href="https://github.com/flarum-lang/tamil">Tamil</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/tamil/tags">
