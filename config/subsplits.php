@@ -17,6 +17,18 @@ use app\components\release\PolishReleaseGenerator;
 use app\components\release\ReleaseGenerator;
 
 return [
+	'af' => [
+		'type' => 'language',
+		'language' => 'af',
+		'repository' => 'git@github.com:flarum-lang/afrikaans.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'ar' => [
 		'type' => 'language',
 		'language' => 'ar',
@@ -29,6 +41,18 @@ return [
 		],
 		'maintainers' => ['neerugupta'],
 	],
+	'ast' => [
+		'type' => 'language',
+		'language' => 'ast',
+		'repository' => 'git@github.com:flarum-lang/asturian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'az' => [
 		'type' => 'language',
 		'language' => 'az',
@@ -40,6 +64,30 @@ return [
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
 		'maintainers' => [], // ['khayal011'], see https://github.com/flarum-lang/azerbaijani/pull/1#issuecomment-1311812451
+	],
+	'be' => [
+		'type' => 'language',
+		'language' => 'be',
+		'repository' => 'git@github.com:flarum-lang/belarusian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
+	'bg' => [
+		'type' => 'language',
+		'language' => 'bg',
+		'repository' => 'git@github.com:flarum-lang/bulgarian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
 	],
 	'bn' => [
 		'type' => 'language',
@@ -112,6 +160,18 @@ return [
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
 		'maintainers' => ['futuresound'],
+	],
+	'eo' => [
+		'type' => 'language',
+		'language' => 'eo',
+		'repository' => 'git@github.com:flarum-lang/esperanto.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
 	],
 	'es' => [
 		'type' => 'language',
@@ -197,6 +257,18 @@ return [
 		],
 		'maintainers' => ['qiaeru'],
 	],
+	'ga' => [
+		'type' => 'language',
+		'language' => 'ga',
+		'repository' => 'git@github.com:flarum-lang/irish.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'gl' => [
 		'type' => 'language',
 		'language' => 'gl',
@@ -245,6 +317,18 @@ return [
 		],
 		'maintainers' => ['meskobalazs', 'Rebootcodesoft'],
 	],
+	'hy' => [
+		'type' => 'language',
+		'language' => 'hy',
+		'repository' => 'git@github.com:flarum-lang/armenian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'it' => [
 		'type' => 'language',
 		'language' => 'it',
@@ -285,6 +369,18 @@ return [
 		'type' => 'language',
 		'language' => 'kk',
 		'repository' => 'git@github.com:flarum-lang/kazakh.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
+	'kn' => [
+		'type' => 'language',
+		'language' => 'kn',
+		'repository' => 'git@github.com:flarum-lang/kannada.git',
 		'branch' => 'master',
 		'path' => '/locale',
 		'releaseGenerator' => [
@@ -341,10 +437,34 @@ return [
 		],
 		'maintainers' => [], // ['meetdilip'], see https://github.com/flarum-lang/malayalam/pull/1#issuecomment-1311837994
 	],
+	'mr' => [
+		'type' => 'language',
+		'language' => 'mr',
+		'repository' => 'git@github.com:flarum-lang/marathi.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'my' => [
 		'type' => 'language',
 		'language' => 'my',
 		'repository' => 'git@github.com:flarum-lang/burmese.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
+	'ne' => [
+		'type' => 'language',
+		'language' => 'ne',
+		'repository' => 'git@github.com:flarum-lang/nepali.git',
 		'branch' => 'master',
 		'path' => '/locale',
 		'releaseGenerator' => [
@@ -364,6 +484,18 @@ return [
 			'versionTemplate' => 'vMajor.Minor.Patch',
 		],
 		'maintainers' => ['jaspervriends', 'MichaelBelgium'],
+	],
+	'pa' => [
+		'type' => 'language',
+		'language' => 'pa',
+		'repository' => 'git@github.com:flarum-lang/punjabi.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
 	],
 	'pl' => [
 		'type' => 'language',
@@ -425,6 +557,18 @@ return [
 		],
 		'maintainers' => ['KitsuneSolar', 'uidhub'],
 	],
+	'sc' => [
+		'type' => 'language',
+		'language' => 'sc',
+		'repository' => 'git@github.com:flarum-lang/sardinian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'si' => [
 		'type' => 'language',
 		'language' => 'si',
@@ -449,10 +593,46 @@ return [
 		],
 		'maintainers' => ['CWKevo'],
 	],
-	'sr' => [
+	'sl' => [
 		'type' => 'language',
-		'language' => 'sr',
-		'repository' => 'git@github.com:flarum-lang/serbian.git',
+		'language' => 'sl',
+		'repository' => 'git@github.com:flarum-lang/slovenian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
+	'sq' => [
+		'type' => 'language',
+		'language' => 'sq',
+		'repository' => 'git@github.com:flarum-lang/albanian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
+	'sr_Cyrl' => [
+		'type' => 'language',
+		'language' => 'sr_Cyrl',
+		'repository' => 'git@github.com:flarum-lang/serbian-cyrillic.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
+	'sr_Latn' => [
+		'type' => 'language',
+		'language' => 'sr_Latn',
+		'repository' => 'git@github.com:flarum-lang/serbian-latin.git',
 		'branch' => 'master',
 		'path' => '/locale',
 		'releaseGenerator' => [
@@ -509,6 +689,18 @@ return [
 		],
 		'maintainers' => [], // ['kon3ko'], see https://github.com/flarum-lang/thai/pull/2#issuecomment-1311857526
 	],
+	'tl' => [
+		'type' => 'language',
+		'language' => 'tl',
+		'repository' => 'git@github.com:flarum-lang/tagalog.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'tr' => [
 		'type' => 'language',
 		'language' => 'tr',
@@ -521,6 +713,18 @@ return [
 		],
 		'maintainers' => ['tolgaaaltas'],
 	],
+	'ug' => [
+		'type' => 'language',
+		'language' => 'ug',
+		'repository' => 'git@github.com:flarum-lang/uyghur.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'uk' => [
 		'type' => 'language',
 		'language' => 'uk',
@@ -532,6 +736,18 @@ return [
 			'versionTemplate' => 'vMajor.Minor.Patch',
 		],
 		'maintainers' => ['denysdesign'],
+	],
+	'ur' => [
+		'type' => 'language',
+		'language' => 'ur',
+		'repository' => 'git@github.com:flarum-lang/urdu.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
 	],
 	'uz' => [
 		'type' => 'language',
