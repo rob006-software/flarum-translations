@@ -389,6 +389,18 @@ return [
 		],
 		'maintainers' => [],
 	],
+	'kab' => [
+		'type' => 'language',
+		'language' => 'kab',
+		'repository' => 'git@github.com:flarum-lang/kabyle.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'kk' => [
 		'type' => 'language',
 		'language' => 'kk',
