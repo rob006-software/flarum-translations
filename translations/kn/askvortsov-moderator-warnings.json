@@ -1,0 +1,70 @@
+{
+    "askvortsov-moderator-warnings": {
+        "admin": {
+            "permissions": {
+                "manage_warnings": "",
+                "view_warnings": "",
+                "delete_warnings": ""
+            }
+        },
+        "emails": {
+            "post_warned": {
+                "subject": "",
+                "body": ""
+            },
+            "user_warned": {
+                "subject": "",
+                "body": ""
+            }
+        },
+        "forum": {
+            "notifications": {
+                "warning_text": "",
+                "warning_no_strikes_text": ""
+            },
+            "post": {
+                "warning": "",
+                "warning_no_strikes": ""
+            },
+            "post_controls": {
+                "warning_button": ""
+            },
+            "user": {
+                "warnings": ""
+            },
+            "settings": {
+                "warning_notification_label": ""
+            },
+            "validation": {
+                "public_comment_required": "",
+                "invalid_strike_count": ""
+            },
+            "warning_controls": {
+                "delete_button": "",
+                "restore_button": "",
+                "delete_forever_button": ""
+            },
+            "warning_list": {
+                "add_button": "",
+                "no_warnings": "",
+                "warnings": "",
+                "warnings_no_strikes": ""
+            },
+            "warning_list_item": {
+                "list_item_heading": "",
+                "list_item_heading_hidden": "",
+                "public_comment": "",
+                "private_comment": "",
+                "linked_post": ""
+            },
+            "warning_modal": {
+                "confirmation_message": "",
+                "heading": "",
+                "strikes_heading": "",
+                "public_comment_heading": "",
+                "private_comment_heading": "",
+                "submit_button": ""
+            }
+        }
+    }
+}

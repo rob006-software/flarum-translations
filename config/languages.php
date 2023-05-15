@@ -14,12 +14,17 @@ declare(strict_types=1);
 use function rob006\flarum\translations\helpers\getComponents;
 
 return [
+	'af' => getComponents(),
 	'ar' => getComponents([
 		// translations included in extension
 		// '!v17development-seo', https://github.com/v17development/flarum-seo/issues/61#issuecomment-855474306
 	]),
+	'ast' => getComponents(),
 	'az' => getComponents(),
+	'be' => getComponents(),
+	'bg' => getComponents(),
 	'bn' => getComponents(),
+	'br' => getComponents(),
 	'ca' => getComponents(),
 	'cs' => getComponents(),
 	'da' => getComponents(),
@@ -31,6 +36,7 @@ return [
 		'!wolfgang-demeter-bbcode-5star-rating',
 	]),
 	'el' => getComponents(),
+	'eo' => getComponents(),
 	'es' => getComponents([
 		// translations included in extension
 		// '!clarkwinkelmann-emojionearea', https://github.com/clarkwinkelmann/flarum-ext-emojionearea/issues/28#issuecomment-855995493
@@ -45,6 +51,7 @@ return [
 	'eu' => getComponents(),
 	'fa' => getComponents(),
 	'fi' => getComponents(),
+	'fil' => getComponents(),
 	'fr' => getComponents([
 		// translations included in extension
 		'!antoinefr-money',
@@ -58,10 +65,12 @@ return [
 		'!tituspijean-auth-ldap',
 		// '!v17development-seo', https://github.com/v17development/flarum-seo/issues/61#issuecomment-855474306
 	]),
+	'ga' => getComponents(),
 	'gl' => getComponents(),
 	'he' => getComponents(),
 	'hi' => getComponents(),
 	'hu' => getComponents(),
+	'hy' => getComponents(),
 	'it' => getComponents([
 		// translations included in extension
 		// '!clarkwinkelmann-emojionearea', https://github.com/clarkwinkelmann/flarum-ext-emojionearea/issues/28#issuecomment-855995493
@@ -73,15 +82,20 @@ return [
 	'ja' => getComponents(),
 	'ka' => getComponents(),
 	'kk' => getComponents(),
+	'kn' => getComponents(),
 	'ko' => getComponents(),
 	'lt' => getComponents(),
 	'lv' => getComponents(),
 	'ml' => getComponents(),
+	'mr' => getComponents(),
+	'my' => getComponents(),
+	'ne' => getComponents(),
 	'nl' => getComponents([
 		// translations included in extension
 		'!v17development-seo',
 	]),
 	'oc' => getComponents(),
+	'pa' => getComponents(),
 	'pl' => getComponents([
 		// translations included in extension
 		'!rob006-last-post-avatar',
@@ -93,13 +107,18 @@ return [
 		// translations included in extension
 		'!xelson-chat',
 	]),
+	'sc' => getComponents(),
 	'si' => getComponents(),
 	'sk' => getComponents(),
-	'sr' => getComponents(),
+	'sl' => getComponents(),
+	'sq' => getComponents(),
+	'sr_Cyrl' => getComponents(),
+	'sr_Latn' => getComponents(),
 	'sv' => getComponents(),
 	'ta' => getComponents(),
 	'te' => getComponents(),
 	'th' => getComponents(),
+	'tl' => getComponents(),
 	'tr' => getComponents([
 		// translations included in extension
 		// '!dem13n-topic-starter-label', https://github.com/Dem13n/topic-starter-label/pull/5
@@ -111,7 +130,9 @@ return [
 		'!the-turk-quiet-edits',
 		'!the-turk-regrole',
 	]),
+	'ug' => getComponents(),
 	'uk' => getComponents(),
+	'ur' => getComponents(),
 	'uz' => getComponents(),
 	'vi' => getComponents([
 		// translations included in extension
