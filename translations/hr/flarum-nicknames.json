@@ -1,0 +1,35 @@
+{
+    "flarum-nicknames": {
+        "admin": {
+            "permissions": {
+                "edit_own_nickname_label": "Uređuj vlastiti nadimak"
+            },
+            "settings": {
+                "max_label": "Najveća duljina nadimka",
+                "min_label": "Najmanja duljina nadimka",
+                "regex_label": "Regularni izraz za ovjeravanje",
+                "unique_label": "Zahtijevaj jedinstvene nadimke?"
+            },
+            "wrong_driver": "Morate odabrati \"nadimak\" kao prikaznik na <a><strong>Osnove stranici</strong></a> kako bi ovo proširenje radilo."
+        },
+        "api": {
+            "invalid_nickname_message": "Ovaj nadimak je neispravan. Kontaktirajte administratora ovog foruma za više informacija oko pravilnih nadimaka, molimo."
+        },
+        "forum": {
+            "change_nickname": {
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "edit_user": {
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "Nadimak"
+            },
+            "settings": {
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            }
+        },
+        "ref": {
+            "change_nickname": "Promijeni nadimak"
+        }
+    }
+}
