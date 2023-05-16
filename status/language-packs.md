@@ -1050,6 +1050,34 @@
 		</td>
 	</tr>
 	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/khmer">Khmer</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/khmer/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/khmer" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/khmer/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/khmer/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/khmer/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/khmer" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/khmer/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/khmer" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/km.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/km/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td><a href="https://github.com/flarum-lang/korean">Korean</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/korean/tags">
