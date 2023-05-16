@@ -854,6 +854,34 @@
 		</td>
 	</tr>
 	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/icelandic">Icelandic</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/icelandic/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/icelandic" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/icelandic/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/icelandic/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/icelandic/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/icelandic" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/icelandic/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/icelandic" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/is.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/is/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td>⚠️ <a href="https://github.com/flarum-lang/irish">Irish</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/irish/tags">
