@@ -1,0 +1,29 @@
+{
+    "flarum-likes": {
+        "admin": {
+            "permissions": {
+                "like_posts_label": "Izražavaj sviđanje na objavama"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} se sviđa tvoja objava"
+            },
+            "post": {
+                "like_link": "Sviđa mi se",
+                "liked_by_self_text": "{users} se ovo sviđa.",
+                "liked_by_text": "{count, plural, one {{users} se ovo sviđa} other {{users} se ovo sviđa}}",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Ne sviđa mi se",
+                "you_text": "=> core.ref.you"
+            },
+            "post_likes": {
+                "title": "Korisnici kojima se ovo sviđa"
+            },
+            "settings": {
+                "notify_post_liked_label": "Kad se nekome svidi jedna od mojih objava"
+            }
+        }
+    }
+}

@@ -1,0 +1,123 @@
+{
+    "validation": {
+        "accepted": "Polje :attribute mora biti prihvaćeno.",
+        "active_url": "Polje :attribute nije ispravan URL.",
+        "after": "Polje :attribute mora biti datum nakon :date.",
+        "after_or_equal": "Polje :attribute mora biti datum veći ili jednak :date.",
+        "alpha": "Polje :attribute smije sadržavati samo slova.",
+        "alpha_dash": "Polje :attribute smije sadržavati samo slova, brojeve i crtice.",
+        "alpha_num": "Polje :attribute smije sadržavati samo slova i brojeve.",
+        "array": "Polje :attribute mora biti niz.",
+        "before": "Polje :attribute mora biti datum prije :date.",
+        "before_or_equal": "Polje :attribute mora biti datum manji ili jednak :date.",
+        "between": {
+            "array": "Polje :attribute mora sadržavati :min do :max stavki.",
+            "file": "Polje :attribute mora imati :min do :max kilobajta.",
+            "numeric": "Polje :attribute mora biti između :min i :max.",
+            "string": "Polje :attribute mora sadržavati :min do :max znakova."
+        },
+        "boolean": "Polje :attribute mora biti true ili false.",
+        "confirmed": "Potvrda polja :attribute se ne podudara.",
+        "date": "Polje :attribute nije ispravan datum.",
+        "date_equals": "Polje :attribute mora biti jednaka :date.",
+        "date_format": "Polje :attribute ne podudara s formatom :format.",
+        "different": "Polja :attribute i :other moraju biti različita.",
+        "digits": "Polje :attribute mora sadržavati :digits znamenki.",
+        "digits_between": "Polje :attribute mora imati između :min i :max znamenki.",
+        "dimensions": "Polje :attribute ima neispravne dimenzije slike.",
+        "distinct": "Polje :attribute ima dupliciranu vrijednost.",
+        "email": "Polje :attribute mora biti ispravna e-mail adresa.",
+        "ends_with": "Polje :attribute mora završavati s jednom od narednih stavki: :values.",
+        "exists": "Odabrano polje :attribute nije ispravno.",
+        "file": "Polje :attribute mora biti datoteka.",
+        "filled": "Polje :attribute je obavezno.",
+        "gt": {
+            "array": "Polje :attribute mora sadržavati više od :value stavki.",
+            "file": "Polje :attribute mora imati više od :value kilobajta.",
+            "numeric": "Polje :attribute mora biti veće od :value.",
+            "string": "Polje :attribute mora sadržavati više od :value znakova."
+        },
+        "gte": {
+            "array": "Polje :attribute mora sadržavati :value stavki ili više.",
+            "file": "Polje :attribute mora imati :value kilobajta ili više.",
+            "numeric": "Polje :attribute mora biti veće ili jednako :value.",
+            "string": "Polje :attribute mora sadržavati :value ili više znakova."
+        },
+        "image": "Polje :attribute mora biti slika.",
+        "in": "Odabrano polje :attribute nije ispravno.",
+        "in_array": "Polje :attribute ne postoji u :other.'",
+        "integer": "Polje :attribute mora biti broj.",
+        "ip": "Polje :attribute mora biti ispravna IP adresa.",
+        "ipv4": "Polje :attribute mora biti ispravna IPv4 adresa.",
+        "ipv6": "Polje :attribute mora biti ispravna IPv6 adresa.",
+        "json": "Polje :attribute mora biti ispravan JSON string.",
+        "lt": {
+            "array": "Polje :attribute mora sadržavati manje od :value stavki.",
+            "file": "Polje :attribute mora imati manje od :value kilobajta.",
+            "numeric": "Polje :attribute mora biti manje od :value.",
+            "string": "Polje :attribute mora sadržavati manje od :value znakova."
+        },
+        "lte": {
+            "array": "Polje :attribute mora sadržavati najviše :value stavki.",
+            "file": "Polje :attribute mora imati najviše :value kilobajta.",
+            "numeric": "Polje :attribute mora biti najviše :value.",
+            "string": "Polje :attribute mora sadržavati najviše :value."
+        },
+        "max": {
+            "array": "Polje :attribute ne smije sadržavati više od :max stavki.",
+            "file": "Polje :attribute mora imati manje od :max kilobajta.",
+            "numeric": "Polje :attribute mora biti manje od :max.",
+            "string": "Polje :attribute mora sadržavati manje od :max znakova."
+        },
+        "mimes": "Polje :attribute mora biti datoteka tipa: :values.",
+        "mimetypes": "Polje :attribute mora biti datoteka tipa: :values.",
+        "min": {
+            "array": "Polje :attribute mora sadržavati najmanje :min stavki.",
+            "file": "Polje :attribute mora imati najmanje :min kilobajta.",
+            "numeric": "Polje :attribute mora biti najmanje :min.",
+            "string": "Polje :attribute mora sadržavati najmanje :min znakova."
+        },
+        "multiple_of": "Polje :attribute mora biti višekratnik od :value",
+        "not_in": "Odabrano polje :attribute nije ispravno.",
+        "not_regex": "Format polja :attribute je neispravan.",
+        "numeric": "Polje :attribute mora biti broj.",
+        "password": "Netočna zaporka.",
+        "present": "Polje :attribute mora biti prisutno.",
+        "prohibited": "Polje :attribute nije dozvoljeno.",
+        "prohibited_if": "Polje :attribute nije dozvoljeno kad polje :other sadrži :value.",
+        "prohibited_unless": "Polje :attribute nije dozvoljeno osim kad je :other u :values.",
+        "regex": "Format polja :attribute nije ispravan.",
+        "required": "Polje :attribute je obavezno.",
+        "required_if": "Polje :attribute je obavezno kad polje :other sadrži :value.",
+        "required_unless": "Polje :attribute je obavezno osim kad je :other u :values.",
+        "required_with": "Polje :attribute je obavezno kad polje :values postoji.",
+        "required_with_all": "Polje :attribute je obavezno kada polja :values postoje.",
+        "required_without": "Polje :attribute je obavezno kad polje :values ne postoji.",
+        "required_without_all": "Polje :attribute je obavezno kada nijedno od :values ne postoji.",
+        "same": "Polja :attribute i :other moraju se podudarati.",
+        "size": {
+            "array": "Polje :attribute mora sadržavati :size stavki.",
+            "file": "Polje :attribute mora imati :size kilobajta.",
+            "numeric": "Polje :attribute mora biti :size.",
+            "string": "Polje :attribute mora sadržavati :size znakova."
+        },
+        "starts_with": "Polje :attribute mora započinjati jednom od narednih stavki: :values.",
+        "string": "Polje :attribute mora biti string.",
+        "timezone": "Polje :attribute mora biti ispravna vremenska zona.",
+        "unique": "Polje :attribute već postoji.",
+        "uploaded": "Polje :attribute nije uspješno predano.",
+        "url": "Format polja :attribute nije ispravan.",
+        "uuid": "Polje :attribute mora sadržavati valjani UUID.",
+        "attributes": {
+            "username": "korisničko ime",
+            "password": "zaporka",
+            "email": "email",
+            "title": "naslov",
+            "content": "sadržaj",
+            "name_singular": "jednina",
+            "name_plural": "množina",
+            "tag_count_primary": "broj glavnih oznaka",
+            "tag_count_secondary": "broj sporednih oznaka"
+        }
+    }
+}

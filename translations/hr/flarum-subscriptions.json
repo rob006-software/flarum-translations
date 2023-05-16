@@ -1,0 +1,50 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Prestani pratiti",
+                "unignore_button": "Prestani ignorirati"
+            },
+            "following": {
+                "meta_title_text": "Praćeno"
+            },
+            "index": {
+                "following_link": "Praćeno"
+            },
+            "notifications": {
+                "new_post_text": "{username} objavljuje"
+            },
+            "settings": {
+                "follow_after_reply_label": "Automatski kreni pratiti rasprave u kojima odgovoram",
+                "notify_new_post_label": "Kad netko objavljuje u raspravi koju pratim"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Budite obavješteni o svim odgovorima.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "Ne budite ikad obavješteni. Sakrij s popisa rasprava.",
+                "not_following_button": "Ne pratim",
+                "not_following_text": "Budite obavješteni samo kad vas se @spomene.",
+                "notify_alert_tooltip": "Dobijte forumsku obavijest kad bude novih objava",
+                "notify_email_tooltip": "Dobijte e-mail kad bude novih objava"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "[Nova objava] {title}",
+                "body": "Hej {recipient_display_name}!\n\n{poster_display_name} objavljuje u raspravi koju pratite: {title}.\n\nKako biste pregledali ovu novu aktivnost, provjerite sljedeću poveznicu:\n{url}\n\n---\n\n{content}\n\n---\n\nNećete više primati obavijesti oko ove rasprave dok ne postanete ažurni.\n"
+            }
+        },
+        "ref": {
+            "follow": "Kreni pratiti",
+            "following": "Pratim",
+            "ignoring": "Ignoriram"
+        }
+    }
+}

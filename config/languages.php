@@ -70,6 +70,7 @@ return [
 	'gl' => getComponents(),
 	'he' => getComponents(),
 	'hi' => getComponents(),
+	'hr' => getComponents(),
 	'hu' => getComponents(),
 	'hy' => getComponents(),
 	'is' => getComponents(),
