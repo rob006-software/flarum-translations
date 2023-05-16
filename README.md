@@ -369,6 +369,15 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
+		<td><a href="https://github.com/flarum-lang/kurdish">Kurdish</a></td>
+		<td> - </td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/ku.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/ku/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td><a href="https://github.com/flarum-lang/latvian">Latvian</a></td>
 		<td><a href="https://github.com/edevrob">edevrob</a></td>
 		<td align="right">
