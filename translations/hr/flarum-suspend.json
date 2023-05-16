@@ -1,0 +1,30 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Isključuj korisnike"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "{username} te isključuje na {timeReadable}",
+                "user_unsuspended_text": "{username} opoziva tvoje isključenje"
+            },
+            "suspend_user": {
+                "indefinitely_label": "Isključenje na neodređeno",
+                "limited_time_days_text": " dana",
+                "limited_time_label": "Isključenje na određeno...",
+                "not_suspended_label": "Nema isključenja",
+                "status_heading": "Stanje isključenja",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Isključenje za {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "U tijeku isključenja"
+            },
+            "user_controls": {
+                "suspend_button": "Isključi"
+            }
+        }
+    }
+}
