@@ -1,0 +1,34 @@
+{
+    "migratetoflarum-fake-data": {
+        "lib": {
+            "generator": {
+                "bulk-mode": "",
+                "bulk-mode-description": "",
+                "user-count": "",
+                "discussion-count": "",
+                "discussion-tags": "",
+                "discussion-tags-none": "",
+                "discussion-tags-random": "",
+                "post-count": "",
+                "date": "",
+                "date-start-placeholder": "",
+                "date-interval-placeholder": "",
+                "send": "",
+                "reset": "",
+                "refresh": ""
+            }
+        },
+        "forum": {
+            "link": {
+                "generate-replies": ""
+            },
+            "generator": {
+                "title": ""
+            }
+        },
+        "api": {
+            "no-users-matched": "",
+            "no-discussions-matched": ""
+        }
+    }
+}
