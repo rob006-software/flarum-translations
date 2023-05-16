@@ -87,6 +87,7 @@ return [
 	'ko' => getComponents(),
 	'lt' => getComponents(),
 	'lv' => getComponents(),
+	'mk' => getComponents(),
 	'ml' => getComponents(),
 	'mr' => getComponents(),
 	'my' => getComponents(),

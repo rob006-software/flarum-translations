@@ -461,6 +461,18 @@ return [
 		],
 		'maintainers' => ['edevrob'],
 	],
+	'mk' => [
+		'type' => 'language',
+		'language' => 'mk',
+		'repository' => 'git@github.com:flarum-lang/macedonian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'ml' => [
 		'type' => 'language',
 		'language' => 'ml',
