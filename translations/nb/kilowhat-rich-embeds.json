@@ -1,0 +1,181 @@
+{
+    "kilowhat-rich-embeds": {
+        "admin": {
+            "settings": {
+                "layout": "",
+                "layoutOptions": {
+                    "inline": "",
+                    "block": "",
+                    "separated": ""
+                },
+                "position": "",
+                "positionOptions": {
+                    "replace": "",
+                    "above": "",
+                    "below": ""
+                },
+                "style": "",
+                "styleOptions": {
+                    "vertical": "",
+                    "horizontal": ""
+                },
+                "imageProxy": "",
+                "imageProxyHelp": "",
+                "cacheProxy": "",
+                "cacheProxyHelp": "",
+                "withoutOpengraph": "",
+                "withoutOpengraphHelp": "",
+                "blacklist": "",
+                "blacklistHelp": "",
+                "whitelist": "",
+                "whitelistHelp": "",
+                "imageEmbeds": "",
+                "imageEmbedsHelp": "",
+                "flarumApiPreviews": "",
+                "flarumApiPreviewsHelp": "",
+                "githubApiKey": "",
+                "githubApiKeyHelp": "",
+                "githubOrgWhitelist": "",
+                "githubOrgWhitelistHelp": "",
+                "googleApiAuthConfig": "",
+                "googleApiAuthConfigHelp": "",
+                "googleApiKey": "",
+                "googleApiKeyHelp": "",
+                "youtubePlayer": "",
+                "youtubePlayerHelp": "",
+                "youtubeNoCookie": "",
+                "youtubeNoCookieHelp": "",
+                "youtubeApiPreviews": "",
+                "youtubeApiPreviewsHelp": "",
+                "googledriveApiPreviews": "",
+                "googledriveApiPreviewsHelp": ""
+            },
+            "section": {
+                "siteSpecificHelp": "",
+                "flarum": "",
+                "github": "",
+                "google": "",
+                "youtube": "",
+                "googledrive": ""
+            },
+            "permissions": {
+                "viewGoogleDriveThumbnails": "",
+                "useOnOwnPost": "",
+                "disableOnOwnPost": "",
+                "refreshOnOwnPost": "",
+                "disableOnAnyPost": "",
+                "refreshOnAnyPost": ""
+            },
+            "preview": {
+                "title": "",
+                "refresh": "",
+                "loading": ""
+            }
+        },
+        "lib": {
+            "embed": {
+                "altFavicon": "",
+                "altImageFallback": "",
+                "altAvatar": "",
+                "missing": {
+                    "retrieving": "",
+                    "other": ""
+                }
+            },
+            "controls": {
+                "refresh": "",
+                "disable": "",
+                "disableConfirmation": "",
+                "imgCopy": "",
+                "imgCopied": "",
+                "imgOpen": "",
+                "play": "",
+                "expandDescription": ""
+            }
+        },
+        "api": {
+            "error": {
+                "blacklistedUrl": "",
+                "invalidUrl": ""
+            },
+            "embed": {
+                "flarum": {
+                    "discussion": {
+                        "type": "",
+                        "stats": {
+                            "commentCount": "",
+                            "participantCount": "",
+                            "createdAt": ""
+                        }
+                    },
+                    "user": {
+                        "type": "",
+                        "avatarAlt": "",
+                        "stats": {
+                            "discussionCount": "",
+                            "commentCount": "",
+                            "joinTime": ""
+                        }
+                    }
+                },
+                "github": {
+                    "siteName": "",
+                    "privateRepoSuffix": "",
+                    "issue": {
+                        "type": "",
+                        "stats": {
+                            "commentCount": "",
+                            "createdAt": ""
+                        }
+                    },
+                    "pull": {
+                        "type": "",
+                        "stats": {
+                            "commentCount": "",
+                            "reviewCount": "",
+                            "commitCount": "",
+                            "createdAt": ""
+                        }
+                    },
+                    "repo": {
+                        "type": {
+                            "public": "",
+                            "private": ""
+                        },
+                        "stats": {
+                            "openIssueCount": "",
+                            "subscriberCount": "",
+                            "stargazerCount": "",
+                            "forkCount": ""
+                        }
+                    }
+                },
+                "youtube": {
+                    "siteName": "",
+                    "video": {
+                        "type": "",
+                        "thumbnailAlt": "",
+                        "stats": {
+                            "viewCount": "",
+                            "likeCount": "",
+                            "commentCount": "",
+                            "publishedAt": ""
+                        }
+                    }
+                },
+                "googledrive": {
+                    "siteName": "",
+                    "file": {
+                        "type": "",
+                        "thumbnailAlt": "",
+                        "stats": {
+                            "size": "",
+                            "createdTime": "",
+                            "modifiedTime": ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
