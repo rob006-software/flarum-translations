@@ -1218,6 +1218,34 @@
 		</td>
 	</tr>
 	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/norwegian-bokmal">Norwegian Bokmål</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/norwegian-bokmal/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/norwegian-bokmal" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/norwegian-bokmal/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/norwegian-bokmal/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/norwegian-bokmal/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/norwegian-bokmal" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/norwegian-bokmal/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/norwegian-bokmal" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/nb.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/nb/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td>⚠️ <a href="https://github.com/flarum-lang/occitan">Occitan</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/occitan/tags">
