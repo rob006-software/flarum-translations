@@ -1,0 +1,50 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "Prijavljuj objave",
+                "view_flags_label": "Pregledavaj prijavljene objave"
+            },
+            "settings": {
+                "flag_own_posts_label": "Dozvoli korisnicima da prijavljuju vlastite objave",
+                "guidelines_url_label": "URL pravila zajednice",
+                "title": "Postavke prijava"
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "Hvala vam što ste prijavili ovu objavu. Naši moderatori će je pregledati.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Više detalja (neobavezno)",
+                "reason_inappropriate_label": "Neprikladno",
+                "reason_inappropriate_text": "Ova objava je napad, uvredljiva ili krši naša <a>pravila zajednice</a>.",
+                "reason_missing_message": "Podijelite neke pojedinosti našim moderatorima, molimo.",
+                "reason_off_topic_label": "Skretanje s teme",
+                "reason_off_topic_text": "Ova objava nije relevantna za trenutnu raspravu i treba je premjestiti negdje drugdje.",
+                "reason_other_label": "Drugo (obrazložite, molimo)",
+                "reason_spam_label": "Spam",
+                "reason_spam_text": "Ova objava je oglas.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "Nema prijava",
+                "item_text": "{username} u <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "Odbaci prijavu",
+                "flagged_by_text": "Prijavljuje {username}",
+                "flagged_by_with_reason_text": "Prijavljuje {username} s razlogom {reason}"
+            },
+            "post_controls": {
+                "flag_button": "Prijavi"
+            }
+        },
+        "ref": {
+            "flag_post": "Prijavi objavu",
+            "flagged_posts": "Prijavljene objave"
+        }
+    }
+}
