@@ -425,6 +425,18 @@ return [
 		],
 		'maintainers' => [],
 	],
+	'km' => [
+		'type' => 'language',
+		'language' => 'km',
+		'repository' => 'git@github.com:flarum-lang/khmer.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'kn' => [
 		'type' => 'language',
 		'language' => 'kn',
