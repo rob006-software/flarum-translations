@@ -2,21 +2,6 @@
     "flarum-markdown": {
         "lib": {
             "composer": {
-                "bold_tooltip": "",
-                "code_tooltip": "",
-                "header_tooltip": "",
-                "image_tooltip": "",
-                "italic_tooltip": "",
-                "link_tooltip": "",
-                "ordered_list_tooltip": "",
-                "quote_tooltip": "",
-                "spoiler_tooltip": "",
-                "strikethrough_tooltip": "",
-                "unordered_list_tooltip": ""
-            }
-        },
-        "forum": {
-            "composer": {
                 "bold_tooltip": "Dodaj podebljani tekst",
                 "code_tooltip": "Umetni kôd",
                 "header_tooltip": "Dodaj tekst zaglavlja",
@@ -25,6 +10,8 @@
                 "link_tooltip": "Dodaj poveznicu",
                 "ordered_list_tooltip": "Dodaj brojčani popis",
                 "quote_tooltip": "Umetni citat",
+                "spoiler_tooltip": "",
+                "strikethrough_tooltip": "",
                 "unordered_list_tooltip": "Dodaj natuknice"
             }
         }
