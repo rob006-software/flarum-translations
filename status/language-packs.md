@@ -2085,5 +2085,33 @@
 			</a>
 		</td>
 	</tr>
+	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/welsh">Welsh</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/welsh/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/welsh" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/welsh/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/welsh/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/welsh/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/welsh" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/welsh/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/welsh" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/cy.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/cy/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
 </tbody>
 </table>
