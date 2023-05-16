@@ -1,0 +1,25 @@
+{
+    "flarum-sticky": {
+        "admin": {
+            "permissions": {
+                "sticky_discussions_label": "Priljepljuj rasprave"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "Prilijepljeno"
+            },
+            "discussion_controls": {
+                "sticky_button": "=> flarum-sticky.ref.sticky",
+                "unsticky_button": "Odlijepi"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "{username} priljepljuje raspravu.",
+                "discussion_unstickied_text": "{username} odljepljuje raspravu."
+            }
+        },
+        "ref": {
+            "sticky": "Prilijepi"
+        }
+    }
+}
