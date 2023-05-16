@@ -509,6 +509,18 @@ return [
 		],
 		'maintainers' => [],
 	],
+	'nb' => [
+		'type' => 'language',
+		'language' => 'nb',
+		'repository' => 'git@github.com:flarum-lang/norwegian-bokmal.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'ne' => [
 		'type' => 'language',
 		'language' => 'ne',

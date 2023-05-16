@@ -91,6 +91,7 @@ return [
 	'ml' => getComponents(),
 	'mr' => getComponents(),
 	'my' => getComponents(),
+	'nb' => getComponents(),
 	'ne' => getComponents(),
 	'nl' => getComponents([
 		// translations included in extension
