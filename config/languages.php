@@ -96,6 +96,7 @@ return [
 		// translations included in extension
 		'!v17development-seo',
 	]),
+	'oc' => getComponents(),
 	'pa' => getComponents(),
 	'pl' => getComponents([
 		// translations included in extension
