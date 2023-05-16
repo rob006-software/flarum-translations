@@ -1106,6 +1106,34 @@
 		</td>
 	</tr>
 	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/kurdish">Kurdish</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/kurdish/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/kurdish" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/kurdish/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/kurdish/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/kurdish/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/kurdish" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/kurdish/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/kurdish" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/ku.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/ku/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td><a href="https://github.com/flarum-lang/latvian">Latvian</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/latvian/tags">
