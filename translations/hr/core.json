@@ -4,11 +4,14 @@
             "appearance": {
                 "colored_header_label": "Obojano zaglavlje",
                 "colors_heading": "Boje",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "colors_text": "Odaberite dvije boje za temu foruma. Prva će se koristiti kao glavna boja, dok će se druga koristiti za stiliziranje pozadinskih elemenata.",
                 "custom_footer_heading": "Vlastito podnožje",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Vlastito zaglavlje",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Vlastiti stil",
                 "custom_styles_text": "Dodajte vlastiti Less/CSS kod koji će se primijeniti nakon Flarumovog zadanog stila kako bi prilagodili izgled vašeg foruma.",
                 "dark_mode_label": "Noćna tema",
@@ -44,8 +47,25 @@
             "dashboard": {
                 "clear_cache_button": "Isprazni predmemoriju",
                 "description": "Pregled vašeg foruma.",
+                "io_error_message": "",
+                "status": {
+                    "headers": {
+                        "scheduler-status": "",
+                        "queue-driver": "",
+                        "session-driver": ""
+                    },
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "Nadzorna ploča",
                 "tools_button": "Alati"
+            },
+            "debug-warning": {
+                "detail": "",
+                "label": ""
             },
             "edit_css": {
                 "customize_text": "Dodajte vlastiti Less/CSS kod koji će se primijeniti nakon Flarumovog <a>zadanog stila</a> kako bi prilagodili izgled vašeg foruma.",
@@ -100,7 +120,7 @@
             },
             "extension": {
                 "configure_scopes": "Prilagodi djelokrug",
-                "confirm_uninstall": "Deinstalacija će ukloniti sve unose u bazi podataka te sve datoteke vezane uz proširenje. Jeste li sigurni da želite nastaviti?",
+                "confirm_purge": "",
                 "disabled": "Onemogućeno",
                 "enable_to_see": "Omogućite proširenje kako bi mogli pregledavati i izmjenjivati postavke.",
                 "enabled": "Omogućeno",
@@ -116,6 +136,13 @@
                 "no_settings": "Ovo proširenje nema postavki.",
                 "open_modal": "Otvori postavke",
                 "permissions_title": "Dozvole",
+                "purge_button": "",
+                "readme": {
+                    "button_label": "",
+                    "no_readme": "",
+                    "title": ""
+                },
+                "confirm_uninstall": "Deinstalacija će ukloniti sve unose u bazi podataka te sve datoteke vezane uz proširenje. Jeste li sigurni da želite nastaviti?",
                 "uninstall_button": "Deinstaliraj"
             },
             "header": {
@@ -154,6 +181,7 @@
             "permissions": {
                 "allow_post_editing_label": "Dozvoli uređivanje objava",
                 "allow_renaming_label": "Dozvoli preimenovanje",
+                "create_access_token_label": "",
                 "create_heading": "Stvaranje",
                 "delete_discussions_forever_label": "Brisanje rasprava zauvijek",
                 "delete_discussions_label": "Brisanje rasprava",
@@ -166,6 +194,7 @@
                 "edit_users_groups_label": "Uređivanje skupina korisnika",
                 "global_heading": "Globalno",
                 "moderate_heading": "Moderacija",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "Nova skupina",
                 "participate_heading": "Sudjelovanje",
                 "post_without_throttle_label": "Uzastopno odgovaranje bez čekanja",
@@ -203,6 +232,9 @@
                 "description": "Straničen popis svih korisnika na vašem forumu.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -232,9 +264,13 @@
                 },
                 "pagination": {
                     "back_button": "Prethodna stranica",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "Sljedeća stranica",
                     "page_counter": "{current}. stranica (ukupno {total})"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "Ukupno korisnika: {count}"
             }
@@ -296,9 +332,11 @@
             "discussion_list": {
                 "empty_text": "Ovdje nema rasprava, izgleda.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Označi kao pročitano",
                 "replied_text": "{username} odgovara {ago}",
-                "started_text": "{username} započinje {ago}"
+                "started_text": "{username} započinje {ago}",
+                "total_replies_a11y_label": "",
+                "unread_replies_a11y_label": "",
+                "mark_as_read_tooltip": "Označi kao pročitano"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -316,7 +354,9 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
+                "search_clear_button_accessible_label": "",
                 "search_placeholder": "Pretraži forum",
+                "search_role_label": "",
                 "session_dropdown_accessible_label": "Uključi/isključi padajući izbornik postavki sjednice",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -350,6 +390,8 @@
                 "username_or_email_placeholder": "Korisničko ime ili e-mail"
             },
             "notifications": {
+                "delete_all_confirm": "",
+                "delete_all_tooltip": "",
                 "discussion_renamed_text": "{username} mijenja naslov",
                 "empty_text": "Nema obavijesti",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
@@ -394,10 +436,46 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "Račun",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
@@ -427,6 +505,7 @@
                 "posts_empty_text": "Ovdje nema objava, izgleda.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -442,14 +521,24 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Ponovi slanje e-maila potvrde",
                 "sent_message": "Poslano"
+            },
+            "welcome_hero": {
+                "hide": ""
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "Skriveno"
             },
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Uključi/isključi padajući izbornik"
+            },
+            "data_segment": {
+                "label": ""
             },
             "edit_user": {
                 "activate_button": "Aktiviraj korisnika",
@@ -462,18 +551,33 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "username_label": "=> core.ref.username",
+                "nothing_available": ""
             },
             "error": {
                 "dependent_extensions_message": "Nemoguće onemogućavanje {extension} bez isključivanja sljedećih proširenja: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "Ups! Nešto je pošlo po zlu. Ponovno učitajte stranicu i pokušajte ponovno, molimo.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Nemoguće omogućavanje {extension} bez uključivanja sljedećih proširenja: {extensions}",
                 "not_found_message": "Traženi resurs nije pronađen.",
+                "payload_too_large_message": "",
                 "permission_denied_message": "Nemate dozvolu za to.",
-                "rate_limit_exceeded_message": "Malo ste prebrzi. Pokušajte ponovno za par sekundi, molimo."
+                "rate_limit_exceeded_message": "Malo ste prebrzi. Pokušajte ponovno za par sekundi, molimo.",
+                "render_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -489,6 +593,26 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
+            "confirm_email": {
+                "submit_button": "",
+                "text": "",
+                "title": ""
+            },
             "content": {
                 "javascript_disabled_message": "Ovu stranicu je najbolje pregledavati u modernom internet pregledniku s omogućenim JavaScriptom.",
                 "load_error_message": "Nešto je pošlo po zlu prilikom učitavanja potpune inačice ove stranice. Pokušajte nasilno osvježiti ovu stranicu kako biste otklonili grešku.",
@@ -552,6 +676,7 @@
             "change_password": "Promijeni zaporku",
             "color": "Boja",
             "confirm_password": "Potvrdi zaporku",
+            "confirm_email": "",
             "confirmation_email_sent": "Poslali smo e-mail potvrde na {email}. Ako ne dođe uskoro, provjerite vaš pretinac neželjene pošte.",
             "custom_footer_text": "Dodajte HTML koji će se prikazivati na samom dnu stranice.",
             "custom_footer_title": "Uredi vlastito podnožje",
@@ -563,6 +688,8 @@
             "edit": "Uredi",
             "edit_user": "Uredi korisnika",
             "email": "E-mail",
+            "extensions": "",
+            "generic_confirmation_message": "",
             "icon": "Ikona",
             "icon_text": "Unesite nazim bilo kojeg <a>FontAwesome</a> razreda ikona, <em>uključujući</em> i <code>fas fa-</code> prefiks.",
             "load_more": "Učitaj još",
@@ -570,6 +697,7 @@
             "log_in": "Prijavi se",
             "log_out": "Odjavi se",
             "mark_all_as_read": "Označi sve kao pročitano",
+            "new_token": "",
             "next_page": "Sljedeća stranica",
             "notifications": "Obavijesti",
             "okay": "U redu",
@@ -582,6 +710,8 @@
             "reset_your_password": "Ponovno postavi zaporku",
             "restore": "Obnovi",
             "save_changes": "Pohrani promjene",
+            "search_users": "",
+            "security": "",
             "settings": "Postavke",
             "sign_up": "Pridruži se",
             "some_others": "{count, plural, one {# drugi} other {# drugih}}",

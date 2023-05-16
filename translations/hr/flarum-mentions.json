@@ -1,6 +1,9 @@
 {
     "flarum-mentions": {
         "admin": {
+            "permissions": {
+                "mention_groups_label": ""
+            },
             "settings": {
                 "allow_username_format_label": "Dozvoli format spomena korisničkih imena (@KorisničkoIme)",
                 "allow_username_format_text": "Trenutno se za spominjanje korisnika koristi format @\"Prikazno Ime\"#ID.\nOva postavka dozovljava korištenje starog formata @KorisničkoIme, ali još uvijek će se dogoditi pretvorba u novi oblik prilikom pohranjivanja promjena.\n"
@@ -14,7 +17,8 @@
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{count, plural, one {{username} odgovara na vašu objavu} other {{username} odgovaraju na vašu objavu}}",
-                "user_mentioned_text": "{username} te spominje"
+                "user_mentioned_text": "{username} te spominje",
+                "group_mentioned_text": ""
             },
             "post": {
                 "mentioned_by_self_text": "{users} odgovarate na ovo.",
@@ -26,13 +30,17 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "Kad netko odgovori na jednu od mojih objava",
-                "notify_user_mentioned_label": "Kad me netko spomene u objavi"
+                "notify_user_mentioned_label": "Kad me netko spomene u objavi",
+                "notify_group_mentioned_label": ""
             },
             "user": {
                 "mentions_link": "Spominjanje"
             },
             "post_mention": {
                 "deleted_text": "[nepoznato]"
+            },
+            "group_mention": {
+                "deleted_text": ""
             }
         },
         "email": {
@@ -43,6 +51,10 @@
             "user_mentioned": {
                 "subject": "{mentioner_display_name} te spominije u {title}",
                 "body": "Hej {recipient_display_name}!\n\n{mentioner_display_name} te spominje u objavi u {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "group_mentioned": {
+                "subject": "",
+                "body": ""
             }
         }
     }
