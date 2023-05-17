@@ -378,6 +378,34 @@
 		</td>
 	</tr>
 	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/kurdish-central">Central Kurdish</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/kurdish-central/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/kurdish-central" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/kurdish-central/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/kurdish-central/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/kurdish-central/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/kurdish-central" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/kurdish-central/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/kurdish-central" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/ckb.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/ckb/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td><a href="https://github.com/flarum-lang/chinese-simplified">Chinese (Simplified)</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/chinese-simplified/tags">
@@ -1130,34 +1158,6 @@
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/ko.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/ko/svg-badge.svg" alt="detailed translation status" />
-			</a>
-		</td>
-	</tr>
-	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/kurdish-central">Kurdish (Central)</a></td>
-		<td align="right">
-			<a href="https://github.com/flarum-lang/kurdish-central/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/kurdish-central" alt="last release" style="max-width: 160px;" />
-			</a>
-		</td>
-		<td>
-			<a href="https://github.com/flarum-lang/kurdish-central/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/kurdish-central/latest" alt="commits since last release" style="max-width: 150px;" />
-			</a>
-		</td>
-		<td>
-			<a href="https://github.com/flarum-lang/kurdish-central/pulls">
-				<img src="https://img.shields.io/github/issues-pr/flarum-lang/kurdish-central" alt="open pull requests" />
-			</a>
-		</td>
-		<td>
-			<a href="https://packagist.org/packages/flarum-lang/kurdish-central/stats">
-				<img src="https://img.shields.io/packagist/dm/flarum-lang/kurdish-central" alt="downloads (monthly)" />
-			</a>
-		</td>
-		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/ckb.html" title="Click to see detailed translation status for each extension">
-				<img src="https://weblate.rob006.net/widgets/flarum/ckb/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
 	</tr>
@@ -2166,6 +2166,34 @@
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/cy.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/cy/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/kurdish-northern">kmr</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/kurdish-northern/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/kurdish-northern" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/kurdish-northern/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/kurdish-northern/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/kurdish-northern/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/kurdish-northern" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/kurdish-northern/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/kurdish-northern" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/kmr.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/kmr/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
 	</tr>
