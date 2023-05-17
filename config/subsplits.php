@@ -125,6 +125,18 @@ return [
 		],
 		'maintainers' => ['pepoliveras'],
 	],
+	'ckb' => [
+		'type' => 'language',
+		'language' => 'ckb',
+		'repository' => 'git@github.com:flarum-lang/kurdish-central.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'cs' => [
 		'type' => 'language',
 		'language' => 'cs',
@@ -484,18 +496,6 @@ return [
 			'versionTemplate' => 'v0.Major.Minor',
 		],
 		'maintainers' => ['hahagu'],
-	],
-	'ku' => [
-		'type' => 'language',
-		'language' => 'ku',
-		'repository' => 'git@github.com:flarum-lang/kurdish.git',
-		'branch' => 'master',
-		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
-		],
-		'maintainers' => [],
 	],
 	'lt' => [
 		'type' => 'language',
