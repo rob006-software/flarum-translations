@@ -473,6 +473,18 @@ return [
 		],
 		'maintainers' => [],
 	],
+	'kmr' => [
+		'type' => 'language',
+		'language' => 'kmr',
+		'repository' => 'git@github.com:flarum-lang/kurdish-northern.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'kn' => [
 		'type' => 'language',
 		'language' => 'kn',
