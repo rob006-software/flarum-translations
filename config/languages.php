@@ -88,6 +88,7 @@ return [
 	'kab' => getComponents(),
 	'kk' => getComponents(),
 	'km' => getComponents(),
+	'kmr' => getComponents(),
 	'kn' => getComponents(),
 	'ko' => getComponents(),
 	'lt' => getComponents(),
