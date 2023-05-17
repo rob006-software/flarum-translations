@@ -2,46 +2,46 @@
     "datitisev-maintenance": {
         "admin": {
             "dashboard": {
-                "enable_maintenance_mode_button": "",
-                "disable_maintenance_mode_button": ""
+                "enable_maintenance_mode_button": "Увімкнути режим технічного обслуговування",
+                "disable_maintenance_mode_button": "Вимкнути режим технічного обслуговування"
             },
             "settings": {
-                "title": "",
-                "settings_notice": "",
-                "allow_bypass_label": "",
-                "allow_bypass_hint": "",
-                "prefer_db_label": "",
-                "prefer_db_hint": "",
-                "active_label": "",
-                "disable_admin_label": "",
-                "disable_api_label": "",
-                "title_label": "",
-                "message_label": "",
-                "error_page_file_label": "",
-                "error_page_file_hint": "",
-                "error_page_label": "",
-                "error_page_hint": ""
+                "title": "Режим обслуговування",
+                "settings_notice": "Ці налаштування можуть бути не поточними. Переконайтеся, що вони не перезаписують <code>config.php</code>.",
+                "allow_bypass_label": "Дозволити обхід обслуговування форуму та API за допомогою дозволу",
+                "allow_bypass_hint": "Не буде обходити, якщо БД недоступна. Застосовується до форуму та API (якщо API повністю не вимкнено через <code>config.php</code>). Якщо вимкнено, адміністратори все одно матимуть доступ до API (якщо API не вимкнено повністю), щоб не заблокувати себе.",
+                "prefer_db_label": "Надавати перевагу налаштуванням БД над налаштуваннями <code>config.php</code>",
+                "prefer_db_hint": "Зазвичай, значення в <code>config.php</code> перевизначають ті, що вказані тут. Увімкніть цю опцію, щоб ці параметри перевизначали ті, що містяться у файлі конфігурації - таким чином, вони використовуються лише у випадку, якщо база даних недоступна.",
+                "active_label": "Стан режиму технічного обслуговування",
+                "disable_admin_label": "Вимкнути доступ адміністратора",
+                "disable_api_label": "Вимкнути весь доступ до API",
+                "title_label": "Назва сторінки з помилкою",
+                "message_label": "Повідомлення про помилку на сторінці",
+                "error_page_file_label": "Шлях до файлу помилкової сторінки",
+                "error_page_file_hint": "Шлях від кореня Flarum - де розташовані <code>vendor</code> та <code>storage</code>.",
+                "error_page_label": "Помилка сторінки HTML/Blade",
+                "error_page_hint": "Ви можете використовувати $app, $translator, $settings, $title і $message з blade."
             },
             "permissions": {
-                "allow_bypass_maintenance_label": ""
+                "allow_bypass_maintenance_label": "Режим обслуговування bypass (налаштування має бути ввімкнено)"
             }
         },
         "lib": {
-            "maintenance_active_message": "",
-            "maintenance_active_not_db_message": "",
-            "maintenance_active_disabled_api_message": ""
+            "maintenance_active_message": "Наразі цей форум знаходиться на технічному обслуговуванні.",
+            "maintenance_active_not_db_message": "Режим обслуговування вмикається через <code>config.php</code>.",
+            "maintenance_active_disabled_api_message": "Наразі API відключено для всіх."
         },
         "views": {
             "error": {
-                "title": "",
-                "message": ""
+                "title": "Обслуговування",
+                "message": "Наразі ми проводимо деякі технічні роботи. Незабаром ми повернемося до роботи!"
             }
         }
     },
     "core": {
         "lib": {
             "error": {
-                "maintenance_message": ""
+                "maintenance_message": "Наразі форум працює в режимі технічного обслуговування."
             }
         }
     }
