@@ -2,49 +2,49 @@
     "the-turk-stickiest": {
         "admin": {
             "permissions": {
-                "super_sticky_discussions_label": "",
-                "tag_sticky_discussions_label": ""
+                "super_sticky_discussions_label": "Супер прикріплені дискусії",
+                "tag_sticky_discussions_label": "Прикріплені теги дискусій"
             },
             "settings": {
-                "badge_icon_label": "",
-                "badge_icon_text": "",
-                "display_tag_sticky_label": "",
-                "display_tag_sticky_text": ""
+                "badge_icon_label": "Супер прикріплені значки бейджів",
+                "badge_icon_text": "=> core.ref.icon_text",
+                "display_tag_sticky_label": "Показати прикріплені теги у списку «Всі дискусії»",
+                "display_tag_sticky_text": "Вони будуть розглядатися як звичайні дискусії і не будуть виноситися нагору."
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "",
-                "super_sticky_tooltip": "",
-                "tag_sticky_tooltip": "",
-                "super_tag_sticky_tooltip": ""
+                "sticky_tooltip": "=> the-turk-stickiest.ref.sticky",
+                "super_sticky_tooltip": "=> the-turk-stickiest.ref.super_sticky",
+                "tag_sticky_tooltip": "=> the-turk-stickiest.ref.tag_sticky",
+                "super_tag_sticky_tooltip": "=> the-turk-stickiest.ref.super_tag_sticky"
             },
             "stickiest_modal": {
-                "title": "",
-                "sticky_label": "",
-                "sticky_text": "",
-                "super_sticky_label": "",
-                "super_sticky_text": "",
-                "tag_sticky_label": "",
-                "tag_sticky_text": "",
-                "tags_label": "",
-                "submit_button": ""
+                "title": "Прикріплений {title}",
+                "sticky_label": "=> flarum-sticky.ref.sticky",
+                "sticky_text": "Закріплені дискусії залишатимуться вгорі списку «Всі дискусії», якщо їх не буде прочитано. При перегляді конкретного тегу, який належить до дискусії, вони завжди будуть вгорі.",
+                "super_sticky_label": "=> the-turk-stickiest.ref.super_sticky",
+                "super_sticky_text": "Супер прикріплені дискусії будуть триматися на самому верху, незважаючи ні на що.",
+                "tag_sticky_label": "=> the-turk-stickiest.ref.tag_sticky",
+                "tag_sticky_text": "За налаштуванням прикріплені теги приховані у списку «Всі дискусії». Вони будуть показані тільки при перегляді певного тегу, тобто одного з тих тегів, які ви виберете тут. Цю опцію можна комбінувати з «Супер прикріплене».",
+                "tags_label": "=> flarum-tags.ref.tags",
+                "submit_button": "=> core.ref.save_changes"
             },
             "discussion_controls": {
-                "sticky_button": ""
+                "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button"
             },
             "post_stream": {
-                "discussion_stickied_text": "",
-                "discussion_unstickied_text": "",
-                "discussion_super_stickied_text": "",
-                "discussion_common_stickied_text": ""
+                "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
+                "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
+                "discussion_super_stickied_text": "Користувач {username} позначив дискусію як супер прикріплену.",
+                "discussion_common_stickied_text": "Користувач {username} зняв позначку з обговорення як супер прикліплене."
             }
         },
         "ref": {
-            "sticky": "",
-            "super_sticky": "",
-            "tag_sticky": "",
-            "super_tag_sticky": ""
+            "sticky": "=> flarum-sticky.ref.sticky",
+            "super_sticky": "Супер прикріплене",
+            "tag_sticky": "Прикриплений тег",
+            "super_tag_sticky": "Супер прикріплений тег"
         }
     }
 }
