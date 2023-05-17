@@ -13,6 +13,7 @@ declare(strict_types=1);
 
 return [
 	'zaptech/cookie-consent', // migrated to `fof/cookie-consent`
+	'ziiven/flarum-u2di', // constantly added and removed from packagist
 	/*
 	 * dead/private forks
 	 */
