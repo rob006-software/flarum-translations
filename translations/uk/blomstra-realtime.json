@@ -2,36 +2,36 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "",
+                "discussion-list-new-activity": "{count, plural, one {Показати # оновлену дискусію} other {Показати # оновлені дискусії}}",
                 "discussion-list-new-activity-with-auto-release": ""
             },
             "typing-indicator": {
-                "anonymous-user": "",
-                "people-are-typing": "",
-                "users-are-typing": "",
-                "no-activity": ""
+                "anonymous-user": "[Анонім]",
+                "people-are-typing": "{number, plural, one {# набирає текст} other {# набирають текст}}",
+                "users-are-typing": "{count, plural, one {{users} набирає текст} other {{users}{, plural, =1 { та # користувач} =0 {} other { та # користувачі}} набирають текст}}",
+                "no-activity": "Ніхто не набирає текст"
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "В реальному часі",
                     "typing-indicator-type": {
-                        "help": "",
-                        "label": ""
+                        "help": "Якщо цей параметр увімкнено, індикатор набору тексту показуватиме користувачів, які наразі набирають текст. Вимкніть його, щоб показувати лише кількість користувачів, які зараз друкують.",
+                        "label": "Відображати, хто вводить текст"
                     }
                 }
             }
         },
         "admin": {
             "permission": {
-                "view-who-types": ""
+                "view-who-types": "Подивіться, хто друкує"
             },
             "settings": {
-                "release-discussion-updates": "",
-                "release-discussion-updates-help": "",
-                "release-discussion-updates-interval": "",
-                "release-discussion-updates-interval-help": "",
-                "typing-indicator": "",
-                "typing-indicator-help": ""
+                "release-discussion-updates": "Оновлення списку дискусій",
+                "release-discussion-updates-help": "Якщо увімкнено, нові обговорення будуть додаватися до <code>Списку дискусій</code> з визначеним нижче інтервалом.",
+                "release-discussion-updates-interval": "Інтервал для автоматичного пушу нової активності в обговоренні",
+                "release-discussion-updates-interval-help": "У секундах. 0 означає, що автоматичний пуш не відбувається.",
+                "typing-indicator": "Індикатор набору тексту",
+                "typing-indicator-help": "Якщо цю опцію увімкнено, користувачі можуть переглядати кількість інших користувачів, які наразі набирають текст у дискусії, за умови наявності дозволу. Якщо вимкнено, активність введення тексту вилучається як з інтерфейсу користувача, так і з корисного навантаження веб-сокета."
             }
         }
     }
