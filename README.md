@@ -72,15 +72,6 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/flarum-lang/bengali">Bangla</a></td>
-		<td> - </td>
-		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/bn.html" title="Click to see detailed translation status for each extension">
-				<img src="https://weblate.rob006.net/widgets/flarum/bn/svg-badge.svg" alt="detailed translation status" />
-			</a>
-		</td>
-	</tr>
-	<tr>
 		<td><a href="https://github.com/flarum-lang/basque">Basque</a></td>
 		<td> - </td>
 		<td align="right">
@@ -95,6 +86,15 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/be.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/be/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td><a href="https://github.com/flarum-lang/bengali">Bengali</a></td>
+		<td> - </td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/bn.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/bn/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
 	</tr>
@@ -131,15 +131,6 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/ca.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/ca/svg-badge.svg" alt="detailed translation status" />
-			</a>
-		</td>
-	</tr>
-	<tr>
-		<td><a href="https://github.com/flarum-lang/kurdish-central">Central Kurdish</a></td>
-		<td> - </td>
-		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/ckb.html" title="Click to see detailed translation status for each extension">
-				<img src="https://weblate.rob006.net/widgets/flarum/ckb/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
 	</tr>
@@ -383,6 +374,24 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/ko.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/ko/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td><a href="https://github.com/flarum-lang/kurdish-central">Kurdish (Central)</a></td>
+		<td> - </td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/ckb.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/ckb/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td><a href="https://github.com/flarum-lang/kurdish-northern">Kurdish (Northern)</a></td>
+		<td> - </td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/kmr.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/kmr/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
 	</tr>
@@ -707,15 +716,6 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/cy.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/cy/svg-badge.svg" alt="detailed translation status" />
-			</a>
-		</td>
-	</tr>
-	<tr>
-		<td><a href="https://github.com/flarum-lang/kurdish-northern">kmr</a></td>
-		<td> - </td>
-		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/kmr.html" title="Click to see detailed translation status for each extension">
-				<img src="https://weblate.rob006.net/widgets/flarum/kmr/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
 	</tr>
