@@ -2,196 +2,196 @@
     "kilowhat-wordpress": {
         "admin": {
             "settings": {
-                "section_general_intro": "",
-                "api_key": "",
-                "wordpress_url": "",
-                "wordpress_username": "",
-                "section_sso_intro": "",
-                "enable_sso": "",
-                "cookie_domain": "",
-                "cookie_domain_help": "",
-                "wordpress_login_path": "",
-                "wordpress_login_path_help": "",
-                "username_strategy": "",
+                "section_general_intro": "Базові налаштування, необхідні для роботи розширення.",
+                "api_key": "Flarum API Key",
+                "wordpress_url": "URL-адреса WordPress",
+                "wordpress_username": "Ім'я користувача адміністратора WordPress",
+                "section_sso_intro": "Ця функція легко з'єднає користувачів WordPress з Flarum. Для них буде автоматично створено обліковий запис, який буде синхронізовано з WordPress. Якщо у вас вже є облікові записи у Flarum, вони будуть автоматично збігатися з їхніми електронними адресами. Якщо ви видалите користувача з Flarum, він буде створений знову при наступному вході в обліковий запис WordPress. Щоб заблокувати користувача Flarum, призупиніть дію його облікового запису у Flarum.\n",
+                "enable_sso": "Увімкніть інтеграцію з SSO",
+                "cookie_domain": "Домен Cookie",
+                "cookie_domain_help": "Необхідно тільки якщо відрізняється від домену Flarum",
+                "wordpress_login_path": "Шлях для входу в WordPress",
+                "wordpress_login_path_help": "Необхідно тільки якщо ви перейменували кінцеву точку входу вручну або за допомогою плагіна",
+                "username_strategy": "Ім'я користувача для нових користувачів",
                 "username_strategy_options": {
-                    "user_login": "",
-                    "first_name": "",
-                    "random": ""
+                    "user_login": "Ім'я користувача з WordPress",
+                    "first_name": "Ім'я з WordPress",
+                    "random": "Випадкове ім'я користувача"
                 },
-                "username_strategy_help": "",
-                "force_username_choice": "",
-                "force_username_choice_help": "",
-                "welcome_message": "",
-                "welcome_message_help": "",
-                "wordpress_login_only": "",
-                "wordpress_login_only_help": "",
-                "user_delete": "",
+                "username_strategy_help": "До імені користувача буде додано номер, якщо він вже існує у Flarum",
+                "force_username_choice": "Дозвольте користувачам обирати ім'я користувача під час першого візиту",
+                "force_username_choice_help": "Значення за налаштуванням буде надано з вибраним вище правилом.",
+                "welcome_message": "Вступне повідомлення",
+                "welcome_message_help": "Це повідомлення буде показано при першому відвідуванні форуму разом з вибором імені користувача, якщо його ввімкнено.",
+                "wordpress_login_only": "Дозволити вхід лише з WordPress",
+                "wordpress_login_only_help": "Вимикає вхід на Flarum і безпосередньо відкриває модальне вікно входу на WordPress, коли потрібен вхід. Це автоматично встановить дозвіл \"Реєстрація\" на \"Закритий\".\n",
+                "user_delete": "Дії при видаленні користувача в WordPress",
                 "user_delete_options": {
-                    "ignore": "",
-                    "delete": "",
-                    "suspend": ""
+                    "ignore": "Ігнорувати (зберегти користувача Flarum)",
+                    "delete": "Видалити користувача Flarum",
+                    "suspend": "Призупинити роботу користувача Flarum на невизначений термін (розширення має бути ввімкнено)"
                 },
-                "user_delete_desc": "",
-                "section_comments_intro": "",
-                "enable_comments": "",
-                "excerpt_html_whitelist": "",
-                "excerpt_html_nodes": "",
-                "excerpt_length": "",
-                "post_thumbnail_summary": "",
-                "post_thumbnail_list": "",
-                "comment_author_sync": "",
-                "comment_author_sync_help": "",
-                "comment_tag": "",
-                "comment_tag_none": "",
-                "comment_tag_custom": "",
-                "comment_tag_custom_help": "",
-                "summary_as_last_post": "",
-                "summary_as_last_post_help": "",
-                "use_post_date": "",
-                "use_post_date_help": "",
-                "post_hide": "",
+                "user_delete_desc": "Якщо ви виберете \"видалити\", буде видалено лише користувача, а не його вміст на Flarum.",
+                "section_comments_intro": "Ця функція замінює коментарі WordPress на iframe від Flarum. Публікація гостьових повідомлень більше не можлива. Обговорення створюються лише для дописів з увімкненими коментарями у WordPress. Увімкнення або вимкнення коментарів синхронізується з блокуванням дискусій Flarum. Якщо ваш блог вже містить публікації, коли ви вмикаєте цю функцію, вам потрібно знову ввімкнути та вимкнути коментарі для кожної статті, щоб створити дискусію на Flarum.\n",
+                "enable_comments": "Увімкнути інтеграцію коментарів",
+                "excerpt_html_whitelist": "Білий список HTML-тегів для збереження у фрагменті (через кому)",
+                "excerpt_html_nodes": "Довжина фрагмента контенту (у кількості HTML-вузлів)",
+                "excerpt_length": "Довжина фрагменту контенту (у символах)",
+                "post_thumbnail_summary": "Показати мініатюру публікації WordPress над уривком",
+                "post_thumbnail_list": "Показати мініатюру допису WordPress у списку обговорень Flarum",
+                "comment_author_sync": "Призначити автора дискусії від SSO",
+                "comment_author_sync_help": "Якщо автор Wordpress створив обліковий запис Flarum через SSO, цей обліковий запис Flarum буде призначено власником обговорення коментарів.",
+                "comment_tag": "Тег для нових потоків коментарів",
+                "comment_tag_none": "Не присвоювати тег",
+                "comment_tag_custom": "Користувацькі значення",
+                "comment_tag_custom_help": "Список ідентифікаторів тегів через кому",
+                "summary_as_last_post": "Встановіть підсумкове повідомлення як останнє повідомлення в нових обговореннях",
+                "summary_as_last_post_help": "Таким чином, нові обговорення коментарів піднімаються на вершину списку обговорень у Flarum, як тільки публікація на WordPress публікується. За налаштуванням дискусія піднімалася в топ тільки після того, як перший користувач писав коментар.\n",
+                "use_post_date": "Використовуйте дату публікації в WordPress як дату створення дискусії",
+                "use_post_date_help": "За налаштуванням дискусії на Flarum використовують поточний час як дату створення. Ця опція дозволяє створювати обговорення з минулою датою, якщо публікація на WordPress також має минулу дату.\n",
+                "post_hide": "Дія, коли публікацію WordPress приховано (видалено або переміщено до чернетки)",
                 "post_hide_options": {
-                    "ignore": "",
-                    "lock": "",
-                    "hide": "",
-                    "delete": ""
+                    "ignore": "Ігнорувати (заблокувати обговорення відповідно до Дозволити коментарі)",
+                    "lock": "Заблокувати обговорення у Flarum",
+                    "hide": "Приховати обговорення у Flarum",
+                    "delete": "Назавжди видалити обговорення з Flarum"
                 },
-                "post_delete": "",
+                "post_delete": "Дії, коли публікація WordPress видаляється назавжди",
                 "post_delete_options": {
-                    "ignore": "",
-                    "lock": "",
-                    "hide": "",
-                    "delete": ""
+                    "ignore": "Ігнорувати (зберегти обговорення Flarum у поточному стані)",
+                    "lock": "Зберегти обговорення Flarum і заблокувати",
+                    "hide": "Приховати обговорення у Flarum",
+                    "delete": "Назавжди видалити обговорення з Flarum"
                 }
             },
             "tabs": {
-                "wizard": "",
-                "general": "",
-                "sso": "",
-                "comments": "",
-                "enabled": "",
-                "disabled": ""
+                "wizard": "Майстер встановлення",
+                "general": "Загальні налаштування",
+                "sso": "Інтеграція SSO",
+                "comments": "Інтеграція коментарів",
+                "enabled": "Увімкнено",
+                "disabled": "Вимкнено"
             },
             "appearance": {
-                "edit_css_button": ""
+                "edit_css_button": "Редагування користувацького CSS для WordPress"
             },
             "edit_css": {
-                "title": "",
-                "customize_text": ""
+                "title": "Редагування користувацького вбудованого CSS",
+                "customize_text": "Ваш власний LESS/CSS, який буде застосовано поверх <a>стилів за замовчуванням</a> Flarum лише всередині iframe WordPress."
             },
             "permissions": {
-                "gambits": ""
+                "gambits": "WordPress Сторонні гамбіти (див. документацію)"
             },
             "save-controls": {
-                "validation-errors": "",
-                "unsaved-changes": "",
-                "saved-at": "",
-                "no-unsaved-changes": "",
-                "save": ""
+                "validation-errors": "Ми знайшли кілька помилок у вашій заявці",
+                "unsaved-changes": "У вас є незбережені зміни",
+                "saved-at": "Збережено {ago}",
+                "no-unsaved-changes": "Все збережено",
+                "save": "Зберегти"
             },
             "health": {
-                "title": "",
-                "check": "",
-                "errors": "",
-                "healthy": "",
-                "not-run": "",
-                "request-error": ""
+                "title": "Перевірка здоров'я",
+                "check": "Перевірити зараз",
+                "errors": "Ми знайшли деякі проблеми.",
+                "healthy": "Все виглядає чудово!",
+                "not-run": "Перевірка здоров'я стане доступною після підключення WordPress і Flarum.",
+                "request-error": "Ми не змогли провести перевірку стану здоров'я."
             },
             "wizard": {
-                "intro": "",
-                "wordpress_url": "",
-                "wordpress_url_help": "",
-                "wordpress_username": "",
-                "wordpress_password": "",
-                "wordpress_password_help": "",
-                "install": ""
+                "intro": "Дякуємо за придбання преміум-розширення WordPress! Введіть свої облікові дані нижче, щоб автоматично з'єднати Flarum і WordPress разом.\n",
+                "wordpress_url": "URL-адреса WordPress",
+                "wordpress_url_help": "Посилання на домашню сторінку WordPress",
+                "wordpress_username": "Ім'я користувача адміністратора WordPress",
+                "wordpress_password": "Пароль адміністратора WordPress",
+                "wordpress_password_help": "Пароль використовується лише для початкового налаштування і не зберігається.",
+                "install": "Встановлення"
             }
         },
         "forum": {
             "welcome-modal": {
-                "title": "",
-                "default_message": "",
-                "username": "",
-                "submit": "",
-                "not_now": ""
+                "title": "Ласкаво просимо!",
+                "default_message": "Ласкаво просимо на форум. Оберіть ім'я користувача і ви готові до роботи!",
+                "username": "Оберіть ім'я користувача",
+                "submit": "Увімкнути обліковий запис на форумі",
+                "not_now": "Пропустіть і читайте як гість"
             },
             "edit-user-modal": {
-                "warning": "",
-                "edit_in_wordpress": "",
-                "should_not_edit_email": "",
-                "unlink": "",
-                "unlink_help": ""
+                "warning": "Цей користувач синхронізується з WordPress. Вам слід відредагувати електронну пошту та пароль від WordPress.\n",
+                "edit_in_wordpress": "Редагування в WordPress",
+                "should_not_edit_email": "Ви повинні відредагувати лист у WordPress. <a>Все одно відредагуйте</a>",
+                "unlink": "Від'єднайте цього користувача від користувача wordpress",
+                "unlink_help": "Якщо email збігається з користувачем WordPress, він буде пов'язаний з ним наступного разу, коли цей користувач підключиться до WordPress."
             },
             "settings": {
-                "edit_on_wordpress": ""
+                "edit_on_wordpress": "Змініть електронну пошту та пароль на головному сайті"
             },
             "log_in": {
-                "with_wordpress_button": ""
+                "with_wordpress_button": "Увійдіть за допомогою WordPress"
             },
             "summary-post": {
-                "head_label": "",
-                "blog_link": "",
-                "read_more": ""
+                "head_label": "Допис на WordPress",
+                "blog_link": "Читайте в блозі",
+                "read_more": "Детальніше"
             },
             "embed": {
-                "title": ""
+                "title": "Коментарі"
             },
             "embed-link-modal": {
-                "title": "",
-                "message": "",
-                "open": ""
+                "title": "Вийти з потоку коментарів",
+                "message": "Сторінка намагається перенаправити вас на {href}",
+                "open": "Відкрити посилання"
             },
-            "thumbnail_alt_fallback": ""
+            "thumbnail_alt_fallback": "Ескіз публікації WordPress"
         },
         "api": {
             "blocked_actions": {
-                "login": "",
-                "password_reset": "",
-                "email_change": ""
+                "login": "Цей акаунт пов'язаний з WordPress. Для підключення використовуйте форму входу на головному сайті.",
+                "password_reset": "Цей обліковий запис пов'язаний з WordPress. Щоб скинути пароль, скористайтеся формою входу на головному сайті.",
+                "email_change": "Цей акаунт пов'язаний з WordPress. Використовуйте головну сторінку профілю веб-сайту, щоб змінити свою електронну пошту."
             },
             "health": {
-                "suspend-extension-required": "",
-                "cookie-domain-format": "",
-                "login-only-signup-open": "",
-                "lock-extension-required": "",
-                "tags-extension-required": "",
-                "tag-not-exist": "",
-                "debug-mode": "",
-                "config-url-trailing-slash": "",
-                "config-url-https": "",
-                "wordpress-username-missing": "",
-                "api-key-missing": "",
-                "wordpress-url-missing": "",
-                "wordpress-url-invalid": "",
-                "wordpress-url-index-php": "",
-                "wordpress-url-trailing-slash": "",
-                "wordpress-url-https": "",
-                "wordpress-url-mismatch": "",
-                "flarum-url-mismatch": "",
-                "api-key-mismatch": "",
-                "user-id-not-found": "",
-                "user-id-not-admin": "",
-                "sso-mismatch-flarum": "",
-                "sso-mismatch-wordpress": "",
-                "cookie-domain-mismatch": "",
-                "comments-mismatch-flarum": "",
-                "comments-mismatch-wordpress": "",
-                "api-error-json": "",
-                "api-error-401": "",
-                "api-error-other": ""
+                "suspend-extension-required": "Розширення Suspend має бути ввімкнено, щоб використовувати опцію \"Призупинити\" в параметрі \"Дія при видаленні користувача\"",
+                "cookie-domain-format": "Домен cookie, схоже, не є дійсним доменом. Переконайтеся, що це просто домен без протоколу або шляху",
+                "login-only-signup-open": "Щоб налаштування \"Дозволити лише вхід на WordPress\" повністю набуло чинності, вам потрібно вимкнути реєстрацію в дозволах Flarum",
+                "lock-extension-required": "Розширення Lock має бути ввімкнено, щоб використовувати інтеграцію з коментарями",
+                "tags-extension-required": "Розширення Tags має бути ввімкнено, щоб використовувати опцію \"Тег для нових потоків коментарів\"",
+                "tag-not-exist": "Ідентифікатор тегу {id}, вибраний для параметра \"Ідентифікатори тегів для нових потоків коментарів\", не існує",
+                "debug-mode": "Режим налагодження Flarum увімкнено. Вимкніть його після завершення налагодження",
+                "config-url-trailing-slash": "URL-адреса Flarum, визначена в config.php, не повинна містити кінцевого слешу (поточне значення: \"{url}\")",
+                "config-url-https": "URL-адреса Flarum, визначена в config.php, має бути HTTPS (поточне значення: \"{url}\")",
+                "wordpress-username-missing": "Параметр \"Ім'я користувача адміністратора WordPress\" має бути заповнений",
+                "api-key-missing": "Відсутній \"Ключ API Flarum\". Спробуйте оновити адмін-панель і перевірити лог-файл на наявність можливих помилок",
+                "wordpress-url-missing": "Параметр \"URL-адреса WordPress\" має бути заповнений",
+                "wordpress-url-invalid": "Параметр \"URL-адреса WordPress\" не є дійсною URL-адресою (поточне значення: \"{url}\")",
+                "wordpress-url-index-php": "Параметр \"URL-адреса WordPress\" не повинен містити \"/index.php\" (поточне значення: \"{url}\")",
+                "wordpress-url-trailing-slash": "Параметр \"URL-адреса WordPress\" не повинен містити кінцеву косу риску (поточне значення: \"{url}\")",
+                "wordpress-url-https": "Параметр \"URL-адреса WordPress\" має бути HTTPS (поточне значення: \"{url}\")",
+                "wordpress-url-mismatch": "Параметр \"URL-адреса WordPress\" у Flarum не відповідає параметру \"Адреса WordPress (URL)\" у WordPress (очікуваний: \"{expected}\", фактичний: \"{actual}\")",
+                "flarum-url-mismatch": "Параметр \"URL-адреса Flarum\" у WordPress не відповідає URL-адресі, налаштованій у файлі Flarum config.php (очікуване: \"{expected}\", фактичне: \"{actual}\")",
+                "api-key-mismatch": "Параметр \"Ключ API Flarum\" у WordPress не відповідає параметру \"Ключ API Flarum\" у Flarum (очікуване: \"{expected}\", фактичне: \"{actual}\")",
+                "user-id-not-found": "Параметр \"Flarum User ID\" у WordPress не відповідає жодному відомому користувачеві Flarum (поточне значення: \"{actual}\"). Для використання поточного користувача ви можете використовувати ID \"{suggested}\"\n",
+                "user-id-not-admin": "Параметр \"Ідентифікатор користувача Flarum\" у WordPress не відповідає адміністратору Flarum (поточне значення: \"{actual}\"). Щоб використовувати поточного користувача, ви можете використовувати ID \"{suggested}\"\n",
+                "sso-mismatch-flarum": "Інтеграція SSO увімкнена у Flarum, але не в WordPress",
+                "sso-mismatch-wordpress": "Інтеграція SSO увімкнена в WordPress, але не в Flarum",
+                "cookie-domain-mismatch": "Параметр \"Домен файлів cookie\" у WordPress не відповідає параметру \"Домен файлів cookie\" у Flarum (значення WordPress - \"{wordpress}\", значення Flarum - \"{flarum}\")",
+                "comments-mismatch-flarum": "Інтеграція коментарів увімкнена у Flarum, але не в WordPress",
+                "comments-mismatch-wordpress": "Інтеграція коментарів увімкнена в WordPress, але не у Flarum",
+                "api-error-json": "Спроба отримати доступ до API WordPress призвела до помилки: {message} - Тіло: {body}",
+                "api-error-401": "Спроба отримати доступ до API WordPress призвела до помилки 401. Перевірте \"Ім'я користувача адміністратора WordPress\" у Flarum та \"Ключ API Flarum\" у WordPress",
+                "api-error-other": "Спроба отримати доступ до API WordPress призвела до помилки: {message}"
             },
             "wizard": {
-                "already_installed": "",
-                "api_unauthorized": "",
-                "api_error_get": "",
-                "api_error_post": "",
-                "invalid_wordpress_url": "",
-                "plugin_not_installed": ""
+                "already_installed": "Flarum вже підключено до WordPress. Щоб запустити майстер знову, видаліть налаштування \"URL-адреса WordPress\" у Flarum і налаштування \"Ключ API Flarum\" у WordPress.\n",
+                "api_unauthorized": "Ми не змогли автентифікуватися за допомогою цих облікових даних. Перевірте URL-адресу, ім'я користувача та пароль. Зверніться до документації, щоб дізнатися про подальші кроки з усунення несправностей.\n",
+                "api_error_get": "Помилка при виконанні GET-запиту до налаштувань WordPress ({exception}).",
+                "api_error_post": "Помилка при виконанні POST-запиту до налаштувань WordPress ({exception}).",
+                "invalid_wordpress_url": "Параметр \"Адреса WordPress (URL)\" у WordPress, схоже, не є дійсною URL-адресою ({actual}).",
+                "plugin_not_installed": "Схоже, що плагін WordPress не встановлений або не увімкнений на цьому сайті WordPress. Переконайтеся, що у вас встановлена принаймні версія 1.2.0.\n"
             }
         },
         "views": {
             "error": {
-                "missing_wordpress_embed": ""
+                "missing_wordpress_embed": "Цей допис ще не має теми для коментарів. Якщо ви є адміністратором блогу, опублікуйте цей допис або вимкніть і знову увімкніть коментарі, щоб створити тему.\n"
             }
         }
     }
