@@ -7,13 +7,28 @@
                 "login": "Thêm sự kiện "
             },
             "modal": {
+                "title_create": "",
+                "title_edit": "",
+                "title_label": "",
+                "dates_label": "",
+                "description_label": "",
+                "description_placeholder": "",
+                "requirement_message": "",
                 "submit": "Đồng ý"
             },
             "event": {
-                "details": "Xem chi tiết sự kiện này"
+                "details": "Xem chi tiết sự kiện này",
+                "hosted_by": "",
+                "starts": "",
+                "ends": "",
+                "confirm_delete": "",
+                "deleted": ""
             }
         },
         "admin": {
+            "settings": {
+                "hide_host": ""
+            },
             "permissions": {
                 "add": "Tạo lịch sự kiện mới",
                 "moderate": "Xóa hoặc chỉnh sửa sự kiện lịch (tất cả người dùng đều có thể chỉnh sửa sự kiện của riêng mình)",

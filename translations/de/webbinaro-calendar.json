@@ -7,13 +7,28 @@
                 "login": "Füge Deine Veranstaltung hinzu "
             },
             "modal": {
+                "title_create": "",
+                "title_edit": "",
+                "title_label": "",
+                "dates_label": "",
+                "description_label": "",
+                "description_placeholder": "",
+                "requirement_message": "",
                 "submit": "Senden"
             },
             "event": {
-                "details": "Weitere Details zu dieser Veranstaltung"
+                "details": "Weitere Details zu dieser Veranstaltung",
+                "hosted_by": "",
+                "starts": "",
+                "ends": "",
+                "confirm_delete": "",
+                "deleted": ""
             }
         },
         "admin": {
+            "settings": {
+                "hide_host": ""
+            },
             "permissions": {
                 "add": "Neue Kalenderereignisse erstellen",
                 "moderate": "Kalendertermine entfernen oder bearbeiten (alle Benutzer können ihre eigenen bearbeiten)",

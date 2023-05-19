@@ -7,13 +7,28 @@
                 "login": "Додати вашу подію "
             },
             "modal": {
+                "title_create": "",
+                "title_edit": "",
+                "title_label": "",
+                "dates_label": "",
+                "description_label": "",
+                "description_placeholder": "",
+                "requirement_message": "",
                 "submit": "Надіслати"
             },
             "event": {
-                "details": "Детальніше про цю подію"
+                "details": "Детальніше про цю подію",
+                "hosted_by": "",
+                "starts": "",
+                "ends": "",
+                "confirm_delete": "",
+                "deleted": ""
             }
         },
         "admin": {
+            "settings": {
+                "hide_host": ""
+            },
             "permissions": {
                 "add": "Створення нових подій календаря",
                 "moderate": "Видалення або редагування подій календаря (всі користувачі можуть редагувати власні)",

@@ -7,13 +7,28 @@
                 "login": "Etkinliğini Ekle "
             },
             "modal": {
+                "title_create": "",
+                "title_edit": "",
+                "title_label": "",
+                "dates_label": "",
+                "description_label": "",
+                "description_placeholder": "",
+                "requirement_message": "",
                 "submit": "Gönder"
             },
             "event": {
-                "details": "Bu etkinlik hakkında daha fazla bilgi"
+                "details": "Bu etkinlik hakkında daha fazla bilgi",
+                "hosted_by": "",
+                "starts": "",
+                "ends": "",
+                "confirm_delete": "",
+                "deleted": ""
             }
         },
         "admin": {
+            "settings": {
+                "hide_host": ""
+            },
             "permissions": {
                 "add": "Takvime Yeni Etkinlik Ekle",
                 "moderate": "Takvimde etkinlik düzenle veya kaldır (her kullanıcı kendi oluşturduğunu düzenleyebilir)",

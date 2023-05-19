@@ -7,13 +7,28 @@
                 "login": "Voeg je evenement toe "
             },
             "modal": {
+                "title_create": "",
+                "title_edit": "",
+                "title_label": "",
+                "dates_label": "",
+                "description_label": "",
+                "description_placeholder": "",
+                "requirement_message": "",
                 "submit": "Toevoegen"
             },
             "event": {
-                "details": "Meer details over dit evenement"
+                "details": "Meer details over dit evenement",
+                "hosted_by": "",
+                "starts": "",
+                "ends": "",
+                "confirm_delete": "",
+                "deleted": ""
             }
         },
         "admin": {
+            "settings": {
+                "hide_host": ""
+            },
             "permissions": {
                 "add": "Voeg nieuw evenement toe",
                 "moderate": "Verwijder of wijzig evenement (alle gebruikers kunnen hun eigen evenement aanpassen)",

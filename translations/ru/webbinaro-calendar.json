@@ -7,13 +7,28 @@
                 "login": "Добавить событие "
             },
             "modal": {
+                "title_create": "",
+                "title_edit": "",
+                "title_label": "",
+                "dates_label": "",
+                "description_label": "",
+                "description_placeholder": "",
+                "requirement_message": "",
                 "submit": "Отправить"
             },
             "event": {
-                "details": "Больше сведений об этом событии"
+                "details": "Больше сведений об этом событии",
+                "hosted_by": "",
+                "starts": "",
+                "ends": "",
+                "confirm_delete": "",
+                "deleted": ""
             }
         },
         "admin": {
+            "settings": {
+                "hide_host": ""
+            },
             "permissions": {
                 "add": "Создать новые события Календаря",
                 "moderate": "Править или удалить события Календаря (все пользователи могут править созданные ими события)",

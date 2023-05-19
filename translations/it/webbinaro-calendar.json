@@ -7,13 +7,28 @@
                 "login": "Aggiungi Evento "
             },
             "modal": {
+                "title_create": "",
+                "title_edit": "",
+                "title_label": "",
+                "dates_label": "",
+                "description_label": "",
+                "description_placeholder": "",
+                "requirement_message": "",
                 "submit": "Invia"
             },
             "event": {
-                "details": "Dettagli Evento"
+                "details": "Dettagli Evento",
+                "hosted_by": "",
+                "starts": "",
+                "ends": "",
+                "confirm_delete": "",
+                "deleted": ""
             }
         },
         "admin": {
+            "settings": {
+                "hide_host": ""
+            },
             "permissions": {
                 "add": "Crea nuovi Eventi",
                 "moderate": "Rimuovere o modificare gli eventi del calendario (tutti gli utenti possono modificare i propri)",

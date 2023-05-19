@@ -7,13 +7,28 @@
                 "login": "添加你的活动 "
             },
             "modal": {
+                "title_create": "",
+                "title_edit": "",
+                "title_label": "",
+                "dates_label": "",
+                "description_label": "",
+                "description_placeholder": "",
+                "requirement_message": "",
                 "submit": "提交"
             },
             "event": {
-                "details": "添加活动细节"
+                "details": "添加活动细节",
+                "hosted_by": "",
+                "starts": "",
+                "ends": "",
+                "confirm_delete": "",
+                "deleted": ""
             }
         },
         "admin": {
+            "settings": {
+                "hide_host": ""
+            },
             "permissions": {
                 "add": "创建新活动日程",
                 "moderate": "移除或编辑日程活动（所有用户都可以编辑他们自己的活动）",
