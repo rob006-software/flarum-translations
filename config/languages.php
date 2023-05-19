@@ -150,6 +150,7 @@ return [
 	]),
 	'zh_Hans' => getComponents([
 		// translations included in extension
+		'!gbcl-userip',
 		'!vlssu-cravatar',
 		'!widayn-avatar-cropper',
 		'!ziiven-fireworks',

@@ -671,6 +671,9 @@ return [
 	'ganuonglachanh-sonic' => [
 		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.8/resources/locale/en.yml',
 	],
+	'gbcl-userip' => [
+		'tag' => 'https://raw.githubusercontent.com/GBCLStudio/userip/1.0.2/resources/locale/en.yml',
+	],
 	'glowingblue-localizd' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/glowingblue-localizd.yml',
 	],
