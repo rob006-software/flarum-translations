@@ -2,7 +2,7 @@
     "nearata-twofactor": {
         "admin": {
             "settings": {
-                "generate_app_backups": "",
+                "generate_app_backups": "Générer des codes de sauvegarde pour les applications",
                 "generate_backups": "Générer des codes de sauvegarde."
             },
             "permissions": {
@@ -11,48 +11,48 @@
         },
         "forum": {
             "settings": {
-                "section_title": "",
-                "configured": "",
-                "not_configured": "",
+                "section_title": "Authentification à deux facteurs",
+                "configured": "Configurée",
+                "not_configured": "Non configurée",
                 "app": {
-                    "button_label": "",
-                    "button_help": "",
+                    "button_label": "Application d'authentification",
+                    "button_help": "Vous recevrez un code d'accès via votre application d'authentification.",
                     "setup": {
-                        "title": "",
-                        "password_placeholder": "",
-                        "passcode_placeholder": "",
-                        "close_button_label": "",
-                        "invalid_passcode": "",
+                        "title": "Configurer l'application d'authentification",
+                        "password_placeholder": "Mot de passe",
+                        "passcode_placeholder": "Code d'accès à 6 chiffres",
+                        "close_button_label": "Fermer",
+                        "invalid_passcode": "Le mot de passe ou le code d'accès n'est pas valide.",
                         "disable": {
-                            "enter_code_disable": "",
-                            "button_label": "",
-                            "success": ""
+                            "enter_code_disable": "Saisissez le code pour désactiver l'application d'authentification à deux facteurs.",
+                            "button_label": "Désactiver",
+                            "success": "L'application d'authentification est désactivée."
                         },
                         "enable": {
-                            "button_label": "",
-                            "success": "",
-                            "scan_qr": "",
-                            "enter_code_manually": "",
+                            "button_label": "Activer",
+                            "success": "L'application d'authentification est activée.",
+                            "scan_qr": "Scannez ce code QR avec votre dispositif d'authentification à deux facteurs pour créer votre compte.",
+                            "enter_code_manually": "Saisir la clé manuellement à la place",
                             "backups": {
-                                "message": "",
-                                "download_button_label": "",
-                                "download_file_format": "",
-                                "copy_button_label": ""
+                                "message": "Conservez ces codes de récupération en lieu sûr. Si vous perdez votre appareil à deux facteurs, ces codes à usage unique peuvent être utilisés dans l'ordre indiqué pour vous connecter à votre compte.\n",
+                                "download_button_label": "Télécharger",
+                                "download_file_format": "{website_title} | {website_url}\n\nConservez ces codes de sauvegarde dans un endroit sûr mais accessible.\n\nLISTE DES CODES\n\n{codes}\n\n* Vous ne pouvez utiliser chaque code de sauvegarde qu'une seule fois.\n* Ces codes DOIVENT être utilisés dans l'ordre indiqué.\n* Ces codes ont été générés le : {date}.\n",
+                                "copy_button_label": "Copier"
                             }
                         }
                     }
                 }
             },
             "login": {
-                "title": "",
-                "placeholder_label": "",
-                "submit_button_label": "",
+                "title": "Authentification à deux facteurs",
+                "placeholder_label": "Choisir une méthode d'authentification…",
+                "submit_button_label": "Se connecter",
                 "auth_buttons": {
-                    "app": ""
+                    "app": "Application d'authentification"
                 },
                 "app": {
-                    "invalid_passcode": "",
-                    "passcode_placeholder": ""
+                    "invalid_passcode": "Code d'accès non valide.",
+                    "passcode_placeholder": "Code d'accès à 6 chiffres"
                 }
             },
             "invalid_twofa_code": "Code à deux facteurs non valide.",
@@ -87,11 +87,11 @@
         },
         "lib": {
             "edit_user": {
-                "section_title": "",
-                "disable_confirmation": "",
-                "placeholder_text": "",
+                "section_title": "Authentification à deux facteurs",
+                "disable_confirmation": "Êtes-vous sûr ? Vous êtes sur le point de désactiver cette méthode d'authentification pour l'utilisateur.",
+                "placeholder_text": "Rien à désactiver",
                 "app": {
-                    "label": ""
+                    "label": "Application d'authentification"
                 }
             }
         }
