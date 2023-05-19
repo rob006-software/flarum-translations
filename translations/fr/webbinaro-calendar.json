@@ -7,27 +7,27 @@
                 "login": "Ajouter votre événement "
             },
             "modal": {
-                "title_create": "",
-                "title_edit": "",
-                "title_label": "",
-                "dates_label": "",
-                "description_label": "",
-                "description_placeholder": "",
-                "requirement_message": "",
+                "title_create": "Créer un nouvel événement de calendrier",
+                "title_edit": "Modifier les informations de l'événement",
+                "title_label": "Ce qu'il y a",
+                "dates_label": "Quand",
+                "description_label": "Informations",
+                "description_placeholder": "Informations sur l'événement",
+                "requirement_message": "Les événements nécessitent un nom et une description",
                 "submit": "Envoyer"
             },
             "event": {
                 "details": "Plus d'informations sur cet événement",
-                "hosted_by": "",
-                "starts": "",
-                "ends": "",
-                "confirm_delete": "",
-                "deleted": ""
+                "hosted_by": "Organisé par :",
+                "starts": "Début :",
+                "ends": "Fin :",
+                "confirm_delete": "Êtes-vous sûr de vouloir supprimer cet événement ?",
+                "deleted": "Cet événement a été supprimé"
             }
         },
         "admin": {
             "settings": {
-                "hide_host": ""
+                "hide_host": "Masquer l'organisateur (organisé par…)"
             },
             "permissions": {
                 "add": "Créer de nouveaux événements de calendrier",
