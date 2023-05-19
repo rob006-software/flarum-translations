@@ -2,41 +2,78 @@
     "nearata-twofactor": {
         "admin": {
             "settings": {
-                "generate_backups": ""
+                "generate_app_backups": ""
             },
             "permissions": {
                 "can_enable_twofactor": ""
             }
         },
         "forum": {
-            "invalid_twofa_code": "",
-            "invalid_twofa_setup": "",
-            "log_in_modal": {
-                "submit_button": "",
-                "otp_placeholder": "",
-                "title": ""
+            "settings": {
+                "section_title": "",
+                "configured": "",
+                "not_configured": "",
+                "app": {
+                    "button_label": "",
+                    "button_help": "",
+                    "setup": {
+                        "title": "",
+                        "password_placeholder": "",
+                        "passcode_placeholder": "",
+                        "close_button_label": "",
+                        "invalid_passcode": "",
+                        "disable": {
+                            "enter_code_disable": "",
+                            "button_label": "",
+                            "success": ""
+                        },
+                        "enable": {
+                            "button_label": "",
+                            "success": "",
+                            "scan_qr": "",
+                            "enter_code_manually": "",
+                            "backups": {
+                                "message": "",
+                                "download_button_label": "",
+                                "download_file_format": "",
+                                "copy_button_label": ""
+                            }
+                        }
+                    }
+                }
             },
-            "setup_button": "",
+            "login": {
+                "title": "",
+                "placeholder_label": "",
+                "submit_button_label": "",
+                "auth_buttons": {
+                    "app": ""
+                },
+                "app": {
+                    "invalid_passcode": "",
+                    "passcode_placeholder": ""
+                }
+            },
             "setup_modal": {
                 "backups": {
-                    "copy_button": "Kopiera",
-                    "download_button": "",
-                    "download_file_format": "",
-                    "modal_message": ""
+                    "copy_button": "Kopiera"
                 },
                 "close_button": "Stäng",
-                "disabled": "",
-                "enabled": "",
-                "enter_code_disable": "",
-                "enter_code_manually": "",
-                "passcode_placeholder": "",
                 "password_placeholder": "Lösenord",
-                "scan_qr": "",
                 "submit_button": {
                     "enable": "Aktivera",
                     "disable": "Inaktivera"
-                },
-                "title": ""
+                }
+            }
+        },
+        "lib": {
+            "edit_user": {
+                "section_title": "",
+                "disable_confirmation": "",
+                "placeholder_text": "",
+                "app": {
+                    "label": ""
+                }
             }
         }
     }

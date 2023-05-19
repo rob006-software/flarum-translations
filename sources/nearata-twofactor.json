@@ -2,41 +2,67 @@
     "nearata-twofactor": {
         "admin": {
             "settings": {
-                "generate_backups": "Generate backup codes."
+                "generate_app_backups": "Generate app backup codes"
             },
             "permissions": {
                 "can_enable_twofactor": "Can enable Two Factor"
             }
         },
         "forum": {
-            "invalid_twofa_code": "Invalid two factor code.",
-            "invalid_twofa_setup": "Password or passcode invalid.",
-            "log_in_modal": {
-                "submit_button": "Log In",
-                "otp_placeholder": "Two Factor Passcode",
-                "title": "Two Factor"
+            "settings": {
+                "section_title": "Two-Factor Authentication",
+                "configured": "Configured",
+                "not_configured": "Not Configured",
+                "app": {
+                    "button_label": "Authentication app",
+                    "button_help": "You will receive an access code via your authentication app.",
+                    "setup": {
+                        "title": "Setup Authentication App",
+                        "password_placeholder": "Password",
+                        "passcode_placeholder": "6-digit passcode",
+                        "close_button_label": "Close",
+                        "invalid_passcode": "Password or passcode invalid.",
+                        "disable": {
+                            "enter_code_disable": "Enter the code to disable Two-Factor Authentication App.",
+                            "button_label": "Disable",
+                            "success": "Authentication APP disabled."
+                        },
+                        "enable": {
+                            "button_label": "Enable",
+                            "success": "Authentication APP enabled.",
+                            "scan_qr": "Scan this QR code with your two factor authentication device to set up your account.",
+                            "enter_code_manually": "Enter key manually instead",
+                            "backups": {
+                                "message": "Keep these recovery codes in a safe place. If you lose your two factor enabled device, these one-time use codes can be used in the listed order to log in to your account.\n",
+                                "download_button_label": "Download",
+                                "download_file_format": "{website_title} | {website_url}\n\nKeep these backup codes somewhere safe but accessible.\n\nLIST OF CODES\n\n{codes}\n\n* You can only use each backup code once.\n* These codes MUST be used in the listed order.\n* These codes were generated on: {date}.\n",
+                                "copy_button_label": "Copy"
+                            }
+                        }
+                    }
+                }
             },
-            "setup_button": "Two Factor",
-            "setup_modal": {
-                "backups": {
-                    "copy_button": "Copy",
-                    "download_button": "Download",
-                    "download_file_format": "{website_title} | {website_url}\n\nKeep these backup codes somewhere safe but accessible.\n\nLIST OF CODES\n\n{codes}\n\n* You can only use each backup code once.\n* These codes MUST be used in the listed order.\n* These codes were generated on: {date}.\n",
-                    "modal_message": "Keep these recovery codes in a safe place. If you lose your two factor enabled device, these one-time use codes can be used in the listed order to log in to your account.\n"
+            "login": {
+                "title": "Two-Factor Authentication",
+                "placeholder_label": "Choose an authentication method...",
+                "submit_button_label": "Log In",
+                "auth_buttons": {
+                    "app": "Authentication App"
                 },
-                "close_button": "Close",
-                "disabled": "Two Factor authentication disabled.",
-                "enabled": "Two Factor authentication enabled.",
-                "enter_code_disable": "Enter the code to disable Two Factor.",
-                "enter_code_manually": "Enter key manually instead",
-                "passcode_placeholder": "Two Factor Passcode",
-                "password_placeholder": "Password",
-                "scan_qr": "Scan this QR code with your two factor authentication device to set up your account.",
-                "submit_button": {
-                    "enable": "Enable",
-                    "disable": "Disable"
-                },
-                "title": "Two Factor"
+                "app": {
+                    "invalid_passcode": "Invalid passcode.",
+                    "passcode_placeholder": "6-digit passcode"
+                }
+            }
+        },
+        "lib": {
+            "edit_user": {
+                "section_title": "Two-Factor Authentication",
+                "disable_confirmation": "Are you sure? You are about to disable this authentication method for the user.",
+                "placeholder_text": "Nothing to disable",
+                "app": {
+                    "label": "Authentication App"
+                }
             }
         }
     }

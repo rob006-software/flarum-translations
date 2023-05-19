@@ -2,6 +2,7 @@
     "nearata-twofactor": {
         "admin": {
             "settings": {
+                "generate_app_backups": "",
                 "generate_backups": "Tạo mã sao lưu."
             },
             "permissions": {
@@ -9,6 +10,51 @@
             }
         },
         "forum": {
+            "settings": {
+                "section_title": "",
+                "configured": "",
+                "not_configured": "",
+                "app": {
+                    "button_label": "",
+                    "button_help": "",
+                    "setup": {
+                        "title": "",
+                        "password_placeholder": "",
+                        "passcode_placeholder": "",
+                        "close_button_label": "",
+                        "invalid_passcode": "",
+                        "disable": {
+                            "enter_code_disable": "",
+                            "button_label": "",
+                            "success": ""
+                        },
+                        "enable": {
+                            "button_label": "",
+                            "success": "",
+                            "scan_qr": "",
+                            "enter_code_manually": "",
+                            "backups": {
+                                "message": "",
+                                "download_button_label": "",
+                                "download_file_format": "",
+                                "copy_button_label": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "login": {
+                "title": "",
+                "placeholder_label": "",
+                "submit_button_label": "",
+                "auth_buttons": {
+                    "app": ""
+                },
+                "app": {
+                    "invalid_passcode": "",
+                    "passcode_placeholder": ""
+                }
+            },
             "invalid_twofa_code": "Mã hai yếu tố không hợp lệ.",
             "invalid_twofa_setup": "Mật khẩu hoặc mật mã không hợp lệ.",
             "log_in_modal": {
@@ -37,6 +83,16 @@
                     "disable": "Vô hiệu hoá"
                 },
                 "title": "Hai yếu tố"
+            }
+        },
+        "lib": {
+            "edit_user": {
+                "section_title": "",
+                "disable_confirmation": "",
+                "placeholder_text": "",
+                "app": {
+                    "label": ""
+                }
             }
         }
     }
