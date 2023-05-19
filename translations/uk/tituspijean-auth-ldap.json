@@ -1,28 +1,28 @@
 {
     "tituspijean-auth-ldap": {
         "forum": {
-            "log_in_with": "",
-            "log_out": ""
+            "log_in_with": "Увійдіть за допомогою {server}",
+            "log_out": "=> core.ref.log_out"
         },
         "admin": {
             "settings": {
-                "title": "",
-                "method_name": "",
-                "hosts": "",
-                "base_dn": "",
-                "filter": "",
-                "port": "",
-                "account_prefix": "",
-                "account_suffix": "",
-                "admin_dn": "",
-                "admin_password": "",
-                "search_user_fields": "",
-                "user_mail": "",
-                "user_username": "",
-                "follow_referrals": "",
-                "use_ssl": "",
-                "use_tls": "",
-                "onlyUse": ""
+                "title": "Налаштування LDAP",
+                "method_name": "Ім'я LDAP-сервера (з'явиться після \"Увійдіть за допомогою\")",
+                "hosts": "LDAP домени або IP-адреси серверів (через кому)",
+                "base_dn": "Базові DN (через крапку з комою)",
+                "filter": "Фільтр для застосування (необов'язково)",
+                "port": "порт",
+                "account_prefix": "Префікс облікового запису",
+                "account_suffix": "Суфікс облікового запису",
+                "admin_dn": "Ім'я адміністратора LDAP (залиште порожнім для анонімної прив'язки)",
+                "admin_password": "Пароль адміністратора LDAP (залиште порожнім для анонімної прив'язки)",
+                "search_user_fields": "Поля пошуку користувачів LDAP (через кому)",
+                "user_mail": "Поле пошти користувача LDAP",
+                "user_username": "Поле імені користувача LDAP",
+                "follow_referrals": "Перейдіть за рефералами, щоб прив'язатися до LDAP-сервера",
+                "use_ssl": "Використовуйте SSL",
+                "use_tls": "Використовуйте TLS",
+                "onlyUse": "Приховати стандартний метод входу в систему Flarum"
             }
         }
     }
