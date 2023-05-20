@@ -488,7 +488,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/suspend/v1.8.0/locale/en.yml',
 	],
 	'flarum-tags' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/tags/v1.7.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/tags/v1.8.0/locale/en.yml',
 	],
 	'flarumite-simple-discussion-views' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-discussion-views/1.1.6/resources/locale/en.yml',
