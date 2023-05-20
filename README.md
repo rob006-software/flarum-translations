@@ -742,6 +742,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | --- | --- |
 | [`flarum-akismet`](https://weblate.rob006.net/projects/flarum/flarum-akismet) | [`flarum/akismet`](https://github.com/flarum/akismet) |
 | [`flarum-approval`](https://weblate.rob006.net/projects/flarum/flarum-approval) | [`flarum/approval`](https://github.com/flarum/approval) |
+| [`flarum-bbcode`](https://weblate.rob006.net/projects/flarum/flarum-bbcode) | [`flarum/bbcode`](https://github.com/flarum/bbcode) |
 | [`flarum-emoji`](https://weblate.rob006.net/projects/flarum/flarum-emoji) | [`flarum/emoji`](https://github.com/flarum/emoji) |
 | [`flarum-flags`](https://weblate.rob006.net/projects/flarum/flarum-flags) | [`flarum/flags`](https://github.com/flarum/flags) |
 | [`flarum-likes`](https://weblate.rob006.net/projects/flarum/flarum-likes) | [`flarum/likes`](https://github.com/flarum/likes) |
