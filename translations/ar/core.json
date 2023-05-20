@@ -44,6 +44,16 @@
                 "welcome_banner_heading": "بانر ترحيبى",
                 "welcome_banner_text": "قم بتكوين النّص الذي يتمّ عرضه في الشّعار في صفحة \"كافّة المناقشات\". استخدم هذا للتّرحيب بالضّيوف في منتداك."
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
                 "clear_cache_button": "مسح ذاكرة التخزين المؤقت",
                 "description": "المنتدى الخاص بك في لمحة.",
@@ -177,6 +187,7 @@
                 "search_placeholder": "امتدادات البحث"
             },
             "permissions": {
+                "allow_hide_own_posts_label": "",
                 "allow_post_editing_label": "السّماح بتعديل المنشور",
                 "allow_renaming_label": "السّماح بتعديل العنوان",
                 "create_access_token_label": "",
@@ -210,6 +221,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "إلى أجل غير مسمّى",
+                "allow_never_button": "",
                 "allow_some_minutes_button": "{count, plural, one {لمدّة# دقيقة} other {لمدّة# من الدّقائق}}",
                 "allow_ten_minutes_button": "لمدة 10 دقائق",
                 "allow_until_reply_button": "حتّى الرّدّ التّالي",
@@ -227,6 +239,7 @@
                 "upload_button": "اختيار صورة ..."
             },
             "users": {
+                "create_user_button": "",
                 "description": "قائمة مرقّمة الصّفحات لجميع المستخدمين في المنتدى الخاصّ بك.",
                 "grid": {
                     "columns": {
@@ -552,6 +565,7 @@
                 "nothing_available": "ليس لديك إذن من الإدارة لتحرير هذا العضو."
             },
             "error": {
+                "circular_dependencies_message": "",
                 "dependent_extensions_message": "لا يُمكن تعطيل {extension} حتى يتمّ تعطيل الملحقات التّالية: {extensions}",
                 "extension_initialiation_failed_message": "فشل تهيئة {extension}، تحقّق من وحدة تحكّم المتصفّح للحصول على مزيد من المعلومات.",
                 "generic_message": "أُووبس! هناك خطأ ما. يرجى إعادة تحميل الصّفحة والمحاولة مرّة أخرى.",
@@ -647,7 +661,12 @@
             }
         },
         "api": {
-            "invalid_username_message": "لا يجوز أن يحتوي اسم المستخدم إلا على أحرف وأرقام وشرطات."
+            "invalid_username_message": "لا يجوز أن يحتوي اسم المستخدم إلا على أحرف وأرقام وشرطات.",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
         },
         "email": {
             "activate_account": {
@@ -694,6 +713,7 @@
             "log_in": "دخول",
             "log_out": "خروج",
             "mark_all_as_read": "تحديد الكلّ كمقروءة",
+            "never": "",
             "new_token": "",
             "next_page": "الصفحة التالية",
             "notifications": "التنبيهات",

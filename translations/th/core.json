@@ -44,6 +44,16 @@
                 "welcome_banner_heading": "แบรนเนอร์ต้อนรับ",
                 "welcome_banner_text": "ตั้งค่าข้อความที่จะเเสดงในเเบรนเนอร์ที่หน้ากระทู้ทั้งหมด ใช้นี่เพื่อเเสดงข้อความต้อนรับสำหรับผู้เยี่ยมชมพอรั่มของคุณ"
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
                 "clear_cache_button": "ล้างเเคช",
                 "description": "Your forum at a glance.",
@@ -177,6 +187,7 @@
                 "search_placeholder": "ค้นหาส่วนเสริม"
             },
             "permissions": {
+                "allow_hide_own_posts_label": "",
                 "allow_post_editing_label": "อนุญาติเเก้ไขโพสต์",
                 "allow_renaming_label": "อนุญาติเปลี่ยนชื่อกระทู้",
                 "create_access_token_label": "",
@@ -210,6 +221,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "ตลอดการ",
+                "allow_never_button": "",
                 "allow_some_minutes_button": "{count, plural, one {สำหรับ # minute} เเละอื่นๆ {สำหรับ # minutes}}",
                 "allow_ten_minutes_button": "ใน 10 นาที",
                 "allow_until_reply_button": "จนกว่าจะมีการตอบกลับ",
@@ -227,6 +239,7 @@
                 "upload_button": "เลือกรูปภาพ…"
             },
             "users": {
+                "create_user_button": "",
                 "description": "รายชื่อผู้ใช้ทั้งหมดในฟอรั่มของคุณ",
                 "grid": {
                     "columns": {
@@ -552,6 +565,7 @@
                 "nothing_available": ""
             },
             "error": {
+                "circular_dependencies_message": "",
                 "dependent_extensions_message": "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}",
                 "extension_initialiation_failed_message": "",
                 "generic_message": "อ๊ะ! บางอย่างผิดพลาด โปรดโหลดหน้าเว็บและลองอีกครั้ง",
@@ -647,7 +661,12 @@
             }
         },
         "api": {
-            "invalid_username_message": "ชื่อผู้ใช้จะต้องประกอบด้วยตัวอักษรตัวเลขและขีดกลางเท่านั้น"
+            "invalid_username_message": "ชื่อผู้ใช้จะต้องประกอบด้วยตัวอักษรตัวเลขและขีดกลางเท่านั้น",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
         },
         "email": {
             "activate_account": {
@@ -694,6 +713,7 @@
             "log_in": "เข้าสู่ระบบ",
             "log_out": "ออกจากระบบ",
             "mark_all_as_read": "ทำเครื่องหมายว่าอ่านแล้วทั้งหมด",
+            "never": "",
             "new_token": "",
             "next_page": "หน้าถัดไป",
             "notifications": "การแจ้งเตือน",

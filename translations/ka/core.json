@@ -44,6 +44,16 @@
                 "welcome_banner_heading": "მისალმების ბანერი",
                 "welcome_banner_text": "ტექსტის კონფიგურაცია, რომელიც აჩვენებს ბანერზე ყველა განხილვის გვერდზე. გამოიყენეთ ეს თქვენს ფორუმზე სტუმრების მისასალმებლად."
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
                 "clear_cache_button": "ქეშის გასუფთავება",
                 "description": "თქვენი ფორუმი ერთი შეხედვით.",
@@ -177,6 +187,7 @@
                 "search_placeholder": "გაფართოებების ძებნა"
             },
             "permissions": {
+                "allow_hide_own_posts_label": "",
                 "allow_post_editing_label": "პოსტის რედაქტირების დაშვება",
                 "allow_renaming_label": "გადარქმევის დაშვება",
                 "create_access_token_label": "",
@@ -210,6 +221,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "განუსაზღვრელად",
+                "allow_never_button": "",
                 "allow_some_minutes_button": "{count} წუთით| {count} წუთის განმავლობაში",
                 "allow_ten_minutes_button": "10 წუთის განმავლობაში",
                 "allow_until_reply_button": "შემდეგ პასუხამდე",
@@ -227,6 +239,7 @@
                 "upload_button": "აირჩიეთ სურათი..."
             },
             "users": {
+                "create_user_button": "",
                 "description": "",
                 "grid": {
                     "columns": {
@@ -552,6 +565,7 @@
                 "nothing_available": ""
             },
             "error": {
+                "circular_dependencies_message": "",
                 "dependent_extensions_message": "შეუძლებელია {extension} გამორთვა სანამ არ მოხდება შემდეგი დამოკიდებული გაფართოებების გამორთვა: {extensions}",
                 "extension_initialiation_failed_message": "",
                 "generic_message": "უი! Რაღაც არასწორად წავიდა. გთხოვთ, გადატვირთოთ გვერდი და ისევ სცადოთ.",
@@ -647,7 +661,12 @@
             }
         },
         "api": {
-            "invalid_username_message": "მომხმარებლის სახელი შეიძლება შეიცავდეს მხოლოდ ასოებს, რიცხვებს და ტირეებს."
+            "invalid_username_message": "მომხმარებლის სახელი შეიძლება შეიცავდეს მხოლოდ ასოებს, რიცხვებს და ტირეებს.",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
         },
         "email": {
             "activate_account": {
@@ -694,6 +713,7 @@
             "log_in": "შესვლა",
             "log_out": "გამოსვლა",
             "mark_all_as_read": "ყველას წაკითხულად მონიშვნა",
+            "never": "",
             "new_token": "",
             "next_page": "შემდეგი გვერდი",
             "notifications": "შეტყობინებები",

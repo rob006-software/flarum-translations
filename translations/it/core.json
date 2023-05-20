@@ -44,6 +44,16 @@
                 "welcome_banner_heading": "Banner di benvenuto",
                 "welcome_banner_text": "Configura il testo da visualizzare sul banner. Apparirà nella pagina <b>Tutte le discussioni</b>."
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
                 "clear_cache_button": "Pulisci cache",
                 "description": "Il tuo forum a colpo d'occhio.",
@@ -179,6 +189,7 @@
                 "search_placeholder": "Cerca estensioni"
             },
             "permissions": {
+                "allow_hide_own_posts_label": "",
                 "allow_post_editing_label": "Consenti modifica del messaggio",
                 "allow_renaming_label": "Consenti ridenominazione",
                 "create_access_token_label": "Crea token di accesso",
@@ -212,6 +223,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Indefinitamente",
+                "allow_never_button": "",
                 "allow_some_minutes_button": "{count, plural, one {Per # minuto} other {Per # minuti}}",
                 "allow_ten_minutes_button": "Per 10 minuti",
                 "allow_until_reply_button": "Fino alla prossima risposta",
@@ -229,6 +241,7 @@
                 "upload_button": "Scegli un'immagine..."
             },
             "users": {
+                "create_user_button": "",
                 "description": "Un elenco impaginato di tutti gli utenti sul tuo forum.",
                 "grid": {
                     "columns": {
@@ -555,6 +568,7 @@
                 "nothing_available": "Non sei autorizzato a modificare questo utente."
             },
             "error": {
+                "circular_dependencies_message": "",
                 "dependent_extensions_message": "Non puoi disattivare l'estensione {extension} finché non disattiverai le seguenti estensioni: {extensions}",
                 "extension_initialiation_failed_message": "Impossibile inizializzare {extension}, controlla la console del browser per ulteriori informazioni.",
                 "generic_message": "Oops! Qualcosa è andato storto. Aggiorna la pagina e riprova.",
@@ -654,7 +668,12 @@
             }
         },
         "api": {
-            "invalid_username_message": "Il nome utente può contenere solo lettere, numeri e trattini."
+            "invalid_username_message": "Il nome utente può contenere solo lettere, numeri e trattini.",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
         },
         "email": {
             "activate_account": {
@@ -701,6 +720,7 @@
             "log_in": "Accedi",
             "log_out": "Esci",
             "mark_all_as_read": "Segna tutto come letto",
+            "never": "",
             "new_token": "Nuovo Token",
             "next_page": "Pagina successiva",
             "notifications": "Notifiche",

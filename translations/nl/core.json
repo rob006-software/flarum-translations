@@ -44,6 +44,16 @@
                 "welcome_banner_heading": "Welkom banner",
                 "welcome_banner_text": "Configureer de tekst die wordt weergegeven in de banner op de 'Alle discussies' pagina. Gebruik dit om je gasten welkom te heten."
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
                 "clear_cache_button": "Cache wissen",
                 "description": "Uw forum in één oogopslag.",
@@ -179,6 +189,7 @@
                 "search_placeholder": "Extensies zoeken"
             },
             "permissions": {
+                "allow_hide_own_posts_label": "",
                 "allow_post_editing_label": "Sta bericht bewerking toe",
                 "allow_renaming_label": "Sta hernoemen toe",
                 "create_access_token_label": "",
@@ -212,6 +223,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Voor onbepaalde tijd",
+                "allow_never_button": "",
                 "allow_some_minutes_button": "{count, plural, one {Voor # minuut} other {Voor # minuten}}",
                 "allow_ten_minutes_button": "Voor 10 minuten",
                 "allow_until_reply_button": "Tot de volgende reactie",
@@ -229,6 +241,7 @@
                 "upload_button": "Afbeelding kiezen..."
             },
             "users": {
+                "create_user_button": "",
                 "description": "Een gepagineerde lijst van alle gebruikers op je forum.",
                 "grid": {
                     "columns": {
@@ -555,6 +568,7 @@
                 "nothing_available": "Je hebt geen rechten om deze gebruiker te bewerken."
             },
             "error": {
+                "circular_dependencies_message": "",
                 "dependent_extensions_message": "Kan {extension} pas uitschakelen als de volgende afhankelijke extensies zijn uitgeschakeld: {extensions}",
                 "extension_initialiation_failed_message": "{extension} kan niet worden geïnitialiseerd, controleer de browserconsole voor meer informatie.",
                 "generic_message": "Oeps! Er is iets misgegaan. Herlaad de pagina en probeer het opnieuw.",
@@ -654,7 +668,12 @@
             }
         },
         "api": {
-            "invalid_username_message": "De gebruikersnaam mag alleen letters, cijfers en streepjes (-) bevatten."
+            "invalid_username_message": "De gebruikersnaam mag alleen letters, cijfers en streepjes (-) bevatten.",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
         },
         "email": {
             "activate_account": {
@@ -701,6 +720,7 @@
             "log_in": "Inloggen",
             "log_out": "Uitloggen",
             "mark_all_as_read": "Alles als gelezen markeren",
+            "never": "",
             "new_token": "",
             "next_page": "Volgende pagina",
             "notifications": "Notificaties",

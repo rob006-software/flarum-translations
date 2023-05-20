@@ -47,6 +47,16 @@
                 "saved_message": "변경 사항이 저장되었습니다.",
                 "submit_button": "=> core.ref.save_changes"
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
                 "clear_cache_button": "캐시 삭제",
                 "description": "한눈에 보이는 당신의 포럼.",
@@ -198,6 +208,7 @@
                 "permissions_text": "포럼을 보고 작업할 수 있는 사용자를 구성합니다."
             },
             "permissions": {
+                "allow_hide_own_posts_label": "",
                 "allow_post_editing_label": "게시물 편집 허용",
                 "allow_renaming_label": "게시물 이름 변경 허용",
                 "create_access_token_label": "",
@@ -233,6 +244,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "제한 없음",
+                "allow_never_button": "",
                 "allow_some_minutes_button": "{count, plural, one {# 분 동안} other {# 분 동안}}",
                 "allow_ten_minutes_button": "10 분 동안",
                 "allow_until_reply_button": "다음 답장까지",
@@ -250,6 +262,7 @@
                 "upload_button": "이미지 선택..."
             },
             "users": {
+                "create_user_button": "",
                 "description": "포럼의 모든 유저들의 리스트.",
                 "grid": {
                     "columns": {
@@ -600,6 +613,7 @@
                 "nothing_available": "이 사용자를 편집할 권한이 없습니다."
             },
             "error": {
+                "circular_dependencies_message": "",
                 "dependent_extensions_message": "{extension}을 다음 종속 확장들이 모두 비활성화 되기 전까지 비활성화 할 수 없습니다. 종속 확장들: {extensions}",
                 "extension_initialiation_failed_message": "",
                 "generic_message": "이런! 뭔가 잘못되었습니다. 페이지를 다시 로드하고 다시 시도하십시오.",
@@ -695,7 +709,12 @@
             }
         },
         "api": {
-            "invalid_username_message": "사용자명에는 문자, 숫자 및 대시만 포함될 수 있습니다."
+            "invalid_username_message": "사용자명에는 문자, 숫자 및 대시만 포함될 수 있습니다.",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
         },
         "email": {
             "activate_account": {
@@ -742,6 +761,7 @@
             "log_in": "로그인",
             "log_out": "로그아웃",
             "mark_all_as_read": "모두 읽음으로 표시",
+            "never": "",
             "new_token": "",
             "next_page": "다음 페이지",
             "notifications": "알림",

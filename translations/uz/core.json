@@ -44,6 +44,16 @@
                 "welcome_banner_heading": "Xush kelibsiz banneri",
                 "welcome_banner_text": "Barcha Muhokamalar sahifasidagi bannerda ko'rsatiladigan matnni sozlang. Buni forumingizga mehmonlarni kutib olish uchun foydalaning."
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
                 "clear_cache_button": "Keshni tozalash",
                 "description": "Sizning forumingiz bir qarashda.",
@@ -179,6 +189,7 @@
                 "search_placeholder": "Kengaytmalarni qidirish"
             },
             "permissions": {
+                "allow_hide_own_posts_label": "",
                 "allow_post_editing_label": "Postni o'zgartirishga ruxsat berish",
                 "allow_renaming_label": "Nomini o'zgartirishga ruxsat berish",
                 "create_access_token_label": "",
@@ -212,6 +223,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Cheklanmagan",
+                "allow_never_button": "",
                 "allow_some_minutes_button": "{count, plural, one {# minut} other {# minut}}",
                 "allow_ten_minutes_button": "10 minut",
                 "allow_until_reply_button": "Javob kelishini kutish",
@@ -229,6 +241,7 @@
                 "upload_button": "Rasm tanlang..."
             },
             "users": {
+                "create_user_button": "",
                 "description": "Forumdagi foydalanuvchilar ro'yxati.",
                 "grid": {
                     "columns": {
@@ -555,6 +568,7 @@
                 "nothing_available": "Siz bu foydalanuvchini o'zgartira olmaysiz."
             },
             "error": {
+                "circular_dependencies_message": "",
                 "dependent_extensions_message": "{extensions} larni o'chirmaguncha {extension} ni o'chirib bo'lmaydi",
                 "extension_initialiation_failed_message": "",
                 "generic_message": "Voy! Nimadir noto'g'ri bajarildi. Sahifani qayta yuklang va qaytadan urining.",
@@ -650,7 +664,12 @@
             }
         },
         "api": {
-            "invalid_username_message": "Foydalanuvchi nomida faqat harflar, raqamlar va tire ishlatilishi mumkin."
+            "invalid_username_message": "Foydalanuvchi nomida faqat harflar, raqamlar va tire ishlatilishi mumkin.",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
         },
         "email": {
             "activate_account": {
@@ -697,6 +716,7 @@
             "log_in": "Kirish",
             "log_out": "Chiqish",
             "mark_all_as_read": "Barchasini o'qildi deb belgilash",
+            "never": "",
             "new_token": "",
             "next_page": "Keyingi sahifa",
             "notifications": "Xabarlar",

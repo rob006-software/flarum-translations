@@ -44,6 +44,16 @@
                 "welcome_banner_heading": "欢迎横幅",
                 "welcome_banner_text": "横幅文本将显示于「全部主题」页面顶部，可以用于欢迎论坛访客。"
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
                 "clear_cache_button": "清除缓存",
                 "description": "论坛各项数据一览",
@@ -179,6 +189,7 @@
                 "search_placeholder": "搜索"
             },
             "permissions": {
+                "allow_hide_own_posts_label": "",
                 "allow_post_editing_label": "编辑帖子内容",
                 "allow_renaming_label": "更改自己的主题标题",
                 "create_access_token_label": "创建访问令牌",
@@ -212,6 +223,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "无限制",
+                "allow_never_button": "",
                 "allow_some_minutes_button": "{count, plural, one {发布 # 分钟内} other {发布 # 分钟内}}",
                 "allow_ten_minutes_button": "发布 10 分钟内",
                 "allow_until_reply_button": "直到被回复",
@@ -229,6 +241,7 @@
                 "upload_button": "选择图片..."
             },
             "users": {
+                "create_user_button": "",
                 "description": "论坛用户分页列表",
                 "grid": {
                     "columns": {
@@ -555,6 +568,7 @@
                 "nothing_available": "您无权编辑此用户。"
             },
             "error": {
+                "circular_dependencies_message": "",
                 "dependent_extensions_message": "无法停用「{extension}」，请先停用依赖扩展「{extensions}」",
                 "extension_initialiation_failed_message": "初始化「{extension}」失败，详情信息请查看控制台。",
                 "generic_message": "糟糕，出错啦！请刷新页面重试。",
@@ -654,7 +668,12 @@
             }
         },
         "api": {
-            "invalid_username_message": "用户名只能由字母、数字及连字符 (-) 组成"
+            "invalid_username_message": "用户名只能由字母、数字及连字符 (-) 组成",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
         },
         "email": {
             "activate_account": {
@@ -701,6 +720,7 @@
             "log_in": "登录",
             "log_out": "退出",
             "mark_all_as_read": "将所有帖子标记为已读",
+            "never": "",
             "new_token": "新建令牌",
             "next_page": "下一页",
             "notifications": "通知中心",

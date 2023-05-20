@@ -47,6 +47,16 @@
                 "saved_message": "Dina ändringar sparades",
                 "submit_button": "=> core.ref.save_changes"
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
                 "clear_cache_button": "Rensa cache",
                 "description": "Ditt forum vid en anblick.",
@@ -184,6 +194,7 @@
                 "search_placeholder": "Search Extensions"
             },
             "permissions": {
+                "allow_hide_own_posts_label": "",
                 "allow_post_editing_label": "Allow post editing",
                 "allow_renaming_label": "Allow renaming",
                 "create_access_token_label": "",
@@ -219,6 +230,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Indefinitely",
+                "allow_never_button": "",
                 "allow_some_minutes_button": "{count, plural, one {For # minute} other {For # minutes}}",
                 "allow_ten_minutes_button": "I 10 minuter",
                 "allow_until_reply_button": "Until next reply",
@@ -236,6 +248,7 @@
                 "upload_button": "Choose an Image..."
             },
             "users": {
+                "create_user_button": "",
                 "description": "En sidindelad lista över alla användare på ditt forum.",
                 "grid": {
                     "columns": {
@@ -575,6 +588,7 @@
                 "nothing_available": "Du har inte behörighet att redigera den här användaren."
             },
             "error": {
+                "circular_dependencies_message": "",
                 "dependent_extensions_message": "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}",
                 "extension_initialiation_failed_message": "{extension} kunde inte läsas in. Kontrollera browser-konsolen för mer information.",
                 "generic_message": "Hoppsan! Något gick fel. Vänligen ladda om sidan och försök igen.",
@@ -670,7 +684,12 @@
             }
         },
         "api": {
-            "invalid_username_message": "Användarnamnet får endast innehålla bokstäver, nummer och bindestreck."
+            "invalid_username_message": "Användarnamnet får endast innehålla bokstäver, nummer och bindestreck.",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
         },
         "email": {
             "activate_account": {
@@ -717,6 +736,7 @@
             "log_in": "Logga in",
             "log_out": "Logga ut",
             "mark_all_as_read": "Markera alla som lästa",
+            "never": "",
             "new_token": "",
             "next_page": "Nästa sida",
             "notifications": "Notifikationer",

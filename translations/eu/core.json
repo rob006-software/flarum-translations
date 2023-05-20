@@ -44,6 +44,16 @@
                 "welcome_banner_heading": "Ongi etorri bannerra",
                 "welcome_banner_text": "Ezarri eztabaida guztiak orrian erakutsiko den bannerraren testai. Erabili hau ongi etorria emateko."
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
                 "clear_cache_button": "Borratu Cachea",
                 "description": "",
@@ -177,6 +187,7 @@
                 "search_placeholder": "Bilatu extensioak"
             },
             "permissions": {
+                "allow_hide_own_posts_label": "",
                 "allow_post_editing_label": "Baimendu posten edizioa",
                 "allow_renaming_label": "Baimendu izenburuaren aldaketa",
                 "create_access_token_label": "",
@@ -210,6 +221,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Indefinitua",
+                "allow_never_button": "",
                 "allow_some_minutes_button": "",
                 "allow_ten_minutes_button": "Hamar minuturako",
                 "allow_until_reply_button": "Hurrengo erantzuna harte",
@@ -227,6 +239,7 @@
                 "upload_button": "Aukeratu irudia..."
             },
             "users": {
+                "create_user_button": "",
                 "description": "",
                 "grid": {
                     "columns": {
@@ -552,6 +565,7 @@
                 "nothing_available": ""
             },
             "error": {
+                "circular_dependencies_message": "",
                 "dependent_extensions_message": "Ezin da {extension} desaktibatu hurrengoak desaktibatu harte: {extensions}",
                 "extension_initialiation_failed_message": "",
                 "generic_message": "Iepa! Zerbait gaizki joan da. Freskatu orria eta saia zaitez berriro.",
@@ -647,7 +661,12 @@
             }
         },
         "api": {
-            "invalid_username_message": "Erabiltzaileak letrak, zenbakiak edo guidoiak izan dezake bakarrik."
+            "invalid_username_message": "Erabiltzaileak letrak, zenbakiak edo guidoiak izan dezake bakarrik.",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
         },
         "email": {
             "activate_account": {
@@ -694,6 +713,7 @@
             "log_in": "Hasi saioa",
             "log_out": "Itxi saioa",
             "mark_all_as_read": "Markatu Dena irakurrita bezala",
+            "never": "",
             "new_token": "",
             "next_page": "Hurrengo Orria",
             "notifications": "Notifikazioak",

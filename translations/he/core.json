@@ -44,6 +44,16 @@
                 "welcome_banner_heading": "קבלת הפנים",
                 "welcome_banner_text": "ערוך את הטקסט שמופיע בחלון קבלת הפנים בדף כל הדיונים. השתמש בו כדי לקבל את פניהם של האורחים לפורום שלך."
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
                 "clear_cache_button": "ניקוי מטמון",
                 "description": "הפורום במבט מהיר.",
@@ -177,6 +187,7 @@
                 "search_placeholder": "חיפוש הרחבות"
             },
             "permissions": {
+                "allow_hide_own_posts_label": "",
                 "allow_post_editing_label": "עריכת פוסט",
                 "allow_renaming_label": "עריכת שם",
                 "create_access_token_label": "יצירת token גישה",
@@ -210,6 +221,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "ללא הגבלת זמן",
+                "allow_never_button": "",
                 "allow_some_minutes_button": "{count, plural, one {בדקה # } other {ב# דקות}}",
                 "allow_ten_minutes_button": "ל-10 דקות",
                 "allow_until_reply_button": "עד לתגובה הבאה",
@@ -227,6 +239,7 @@
                 "upload_button": "בחר תמונה..."
             },
             "users": {
+                "create_user_button": "",
                 "description": "רשימת כל המשתמשים בפורום.",
                 "grid": {
                     "columns": {
@@ -552,6 +565,7 @@
                 "nothing_available": "אין באפשרותך לערוך משתמש זה."
             },
             "error": {
+                "circular_dependencies_message": "",
                 "dependent_extensions_message": "אין אפשרות לבטל את ההרחבה {extension} עד שלא יבוטלו ההרחבות הבאות: {extensions}",
                 "extension_initialiation_failed_message": "התוסף {extension} נכשל באתחול, אנא בדקו את קונסול הדפדפן למידע נוסף.",
                 "generic_message": "אופס! משהו השתמש. רענן את הדף ונסה שוב.",
@@ -647,7 +661,12 @@
             }
         },
         "api": {
-            "invalid_username_message": "שם המשתמש יכול להכיל רק אותיות, מספרים ומקפים."
+            "invalid_username_message": "שם המשתמש יכול להכיל רק אותיות, מספרים ומקפים.",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
         },
         "email": {
             "activate_account": {
@@ -694,6 +713,7 @@
             "log_in": "התחברות",
             "log_out": "התנתקות",
             "mark_all_as_read": "סמן הכל כנקרא",
+            "never": "",
             "new_token": "Token חדש",
             "next_page": "דף הבא",
             "notifications": "התראות",

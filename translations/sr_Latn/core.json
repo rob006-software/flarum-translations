@@ -44,6 +44,16 @@
                 "welcome_banner_heading": "Baner dobrodošlice",
                 "welcome_banner_text": "Konfigurišite tekst koji se prikazuje u natpisu na stranici Sve diskusije. Koristite ovo za dobrodošlicu gostima na Vaš forum."
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
                 "clear_cache_button": "Obriši keš",
                 "description": "Pogled na statistiku foruma.",
@@ -177,6 +187,7 @@
                 "search_placeholder": "Pretraga ekstenzija"
             },
             "permissions": {
+                "allow_hide_own_posts_label": "",
                 "allow_post_editing_label": "Dozvoli izmenu odgovora",
                 "allow_renaming_label": "Dozvoli preimenovanje",
                 "create_access_token_label": "",
@@ -210,6 +221,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Neodređeno",
+                "allow_never_button": "",
                 "allow_some_minutes_button": "{count, plural, one {Na # minut} other {Na # minuta}}",
                 "allow_ten_minutes_button": "Do prvih 10 minuta",
                 "allow_until_reply_button": "Do sledećeg odgovora",
@@ -227,6 +239,7 @@
                 "upload_button": "Odaberite sliku.."
             },
             "users": {
+                "create_user_button": "",
                 "description": "Lista svih članova na vašem forumu.",
                 "grid": {
                     "columns": {
@@ -552,6 +565,7 @@
                 "nothing_available": "Nije vam dozvoljeno da uređujete ovog člana."
             },
             "error": {
+                "circular_dependencies_message": "",
                 "dependent_extensions_message": "Ne možete onemogućiti {extension} dok se ne onemoguće sledeće zavisne ekstenzije: {extensions}",
                 "extension_initialiation_failed_message": "",
                 "generic_message": "Ups! Nešto je krenulo naopako. Ponovo učitajte stranicu i pokušajte ponovo.",
@@ -647,7 +661,12 @@
             }
         },
         "api": {
-            "invalid_username_message": "Korisničko ime može sadržati samo slova, brojeve i crtice."
+            "invalid_username_message": "Korisničko ime može sadržati samo slova, brojeve i crtice.",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
         },
         "email": {
             "activate_account": {
@@ -694,6 +713,7 @@
             "log_in": "Prijava",
             "log_out": "Odjava",
             "mark_all_as_read": "Označite sve kao pročitano",
+            "never": "",
             "new_token": "",
             "next_page": "Sledeća stranica",
             "notifications": "Obaveštenja",

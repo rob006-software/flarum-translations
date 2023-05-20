@@ -47,6 +47,16 @@
                 "saved_message": "Your changes were saved.",
                 "submit_button": "=> core.ref.save_changes"
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
                 "clear_cache_button": "پاک کردن cache",
                 "description": "انجمن شما در یک نگاه",
@@ -199,6 +209,7 @@
                 "permissions_text": "پیکربندی اینکه چه کسی بتواند چه چیزهایی را ببیند و چه‌کارهایی را انجام دهد."
             },
             "permissions": {
+                "allow_hide_own_posts_label": "",
                 "allow_post_editing_label": "اجازه ویرایش نوشته‌ها",
                 "allow_renaming_label": "اجازه تغییر نام",
                 "create_access_token_label": "",
@@ -234,6 +245,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "برای همیشه",
+                "allow_never_button": "",
                 "allow_some_minutes_button": "{count, plural, one {برای # دقیقه} other {برای # دقیقه}}",
                 "allow_ten_minutes_button": "برای 10 دقیقه",
                 "allow_until_reply_button": "تا ارسال بعدی",
@@ -251,6 +263,7 @@
                 "upload_button": "انتخاب تصویر..."
             },
             "users": {
+                "create_user_button": "",
                 "description": "یک لیست صفحه بندی شده از همه کاربران در انجمن شما.",
                 "grid": {
                     "columns": {
@@ -601,6 +614,7 @@
                 "nothing_available": "شما مجاز به ویرایش این کاربر نیستید."
             },
             "error": {
+                "circular_dependencies_message": "",
                 "dependent_extensions_message": "تا زمانی که پسوندهای وابسته زیر غیرفعال شوند، نمی توان {extension} را غیرفعال کرد: {extensions}",
                 "extension_initialiation_failed_message": "",
                 "generic_message": "متأسفانه خطایی رخ داد. لطفاً صفحه را دوباره بارگذاری کنید.",
@@ -705,7 +719,12 @@
             }
         },
         "api": {
-            "invalid_username_message": "نام کاربری فقط می‌تواند شامل حروف، اعداد، و خطوط تیره باشد."
+            "invalid_username_message": "نام کاربری فقط می‌تواند شامل حروف، اعداد، و خطوط تیره باشد.",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
         },
         "email": {
             "activate_account": {
@@ -752,6 +771,7 @@
             "log_in": "ورود",
             "log_out": "خروج",
             "mark_all_as_read": "علامت همه به‌عنوان خوانده‌شده",
+            "never": "",
             "new_token": "",
             "next_page": "صفحه بعد",
             "notifications": "اعلان‌ها",

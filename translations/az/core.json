@@ -44,6 +44,16 @@
                 "welcome_banner_heading": "Salamlama banneri",
                 "welcome_banner_text": "Bütün Müzakirələr səhifəsindəki bannerdə görünən mətni konfiqurasiya edin. Qonaqlarınızı forumunuza salamlamaq üçün bundan istifadə edin."
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
                 "clear_cache_button": "Keşi təmizlə",
                 "description": "Forumunuz bir baxışda.",
@@ -179,6 +189,7 @@
                 "search_placeholder": "Uzantıları Axtar"
             },
             "permissions": {
+                "allow_hide_own_posts_label": "",
                 "allow_post_editing_label": "Yazı redaktəsinə icazə verin",
                 "allow_renaming_label": "Adının dəyişdirilməsinə icazə verin",
                 "create_access_token_label": "",
@@ -212,6 +223,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Sonsuza qədər",
+                "allow_never_button": "",
                 "allow_some_minutes_button": "{count, plural, one {For # minute} basqa {For # minutes}}",
                 "allow_ten_minutes_button": "10 dəqiqə ərzində",
                 "allow_until_reply_button": "Növbəti cavaba qədər",
@@ -229,6 +241,7 @@
                 "upload_button": "Şəkil seçin ..."
             },
             "users": {
+                "create_user_button": "",
                 "description": "Forumunuzdakı bütün istifadəçilərin səhifələnmiş siyahısı.",
                 "grid": {
                     "columns": {
@@ -555,6 +568,7 @@
                 "nothing_available": ""
             },
             "error": {
+                "circular_dependencies_message": "",
                 "dependent_extensions_message": "Aşağıdakı asılı uzantılar deaktiv olunana qədər {extension} ləğv edilə bilməz: {extensions}",
                 "extension_initialiation_failed_message": "",
                 "generic_message": "Vay! Nəsə səhv oldu. Zəhmət olmasa səhifəni yenidən yükləyin və yenidən cəhd edin.",
@@ -650,7 +664,12 @@
             }
         },
         "api": {
-            "invalid_username_message": "İstifadəçi adı yalnız hərf və rəqəmdən ibarət olmalıdır."
+            "invalid_username_message": "İstifadəçi adı yalnız hərf və rəqəmdən ibarət olmalıdır.",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
         },
         "email": {
             "activate_account": {
@@ -697,6 +716,7 @@
             "log_in": "Giriş",
             "log_out": "Çıxış",
             "mark_all_as_read": "Hamısını oxunmuş olaraq işarələ",
+            "never": "",
             "new_token": "",
             "next_page": "Növbəti səhifə",
             "notifications": "Bildirişlər",

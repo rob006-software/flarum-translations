@@ -44,6 +44,16 @@
                 "welcome_banner_heading": "",
                 "welcome_banner_text": ""
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
                 "clear_cache_button": "නිහිතය හිස්කරන්න",
                 "description": "",
@@ -178,6 +188,7 @@
                 "search_placeholder": ""
             },
             "permissions": {
+                "allow_hide_own_posts_label": "",
                 "allow_post_editing_label": "පළ කිරීම් සංස්කරණයට ඉඩදෙන්න",
                 "allow_renaming_label": "නැවත නම් කිරීමට ඉඩ දෙන්න",
                 "create_access_token_label": "",
@@ -211,6 +222,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "දින නියමයක් නැතිව",
+                "allow_never_button": "",
                 "allow_some_minutes_button": "",
                 "allow_ten_minutes_button": "විනාඩි 10 ක් සඳහා",
                 "allow_until_reply_button": "ඊලඟ පිළිතුර තෙක්",
@@ -228,6 +240,7 @@
                 "upload_button": "සේයාරුවක් තෝරන්න..."
             },
             "users": {
+                "create_user_button": "",
                 "description": "",
                 "grid": {
                     "columns": {
@@ -554,6 +567,7 @@
                 "nothing_available": "ඔබට මෙම පරිශීලක සංස්කරණයට ඉඩ නැත."
             },
             "error": {
+                "circular_dependencies_message": "",
                 "dependent_extensions_message": "",
                 "extension_initialiation_failed_message": "",
                 "generic_message": "අපොයි! යම් වරදක් සිදුවිණි. පිටුව නැවත පූරණය කරන්න.",
@@ -649,7 +663,12 @@
             }
         },
         "api": {
-            "invalid_username_message": "පරිශීලක නාමයේ අඩංගු විය හැකි වන්නේ අකුරු, අංක සහ ඉරි පමණි."
+            "invalid_username_message": "පරිශීලක නාමයේ අඩංගු විය හැකි වන්නේ අකුරු, අංක සහ ඉරි පමණි.",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
         },
         "email": {
             "activate_account": {
@@ -696,6 +715,7 @@
             "log_in": "පිවිසෙන්න",
             "log_out": "නික්මෙන්න",
             "mark_all_as_read": "සියල්ල කියවූ ලෙස සලකුණු කරන්න",
+            "never": "",
             "new_token": "",
             "next_page": "ඊලඟ පිටුව",
             "notifications": "දැනුම්දීම්",

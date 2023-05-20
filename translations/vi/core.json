@@ -44,6 +44,16 @@
                 "welcome_banner_heading": "Biểu ngữ chào mừng",
                 "welcome_banner_text": "Thiết lập nội dung hiển thị trong biểu ngữ trên trang Cuộc thảo luận. Sử dụng cái này để chào mừng khách đến với diễn đàn của bạn."
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
                 "clear_cache_button": "Xóa bộ nhớ đệm",
                 "description": "Diễn đàn của bạn trong nháy mắt.",
@@ -179,6 +189,7 @@
                 "search_placeholder": "Tìm kiếm tiện ích"
             },
             "permissions": {
+                "allow_hide_own_posts_label": "",
                 "allow_post_editing_label": "Cho phép chỉnh sửa bài viết",
                 "allow_renaming_label": "Cho phép đổi tên",
                 "create_access_token_label": "Tạo mã access token",
@@ -212,6 +223,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Vô thời hạn",
+                "allow_never_button": "",
                 "allow_some_minutes_button": "{count, plural, one {Trong # phút} other {Trong # phút}}",
                 "allow_ten_minutes_button": "Trong 10 phút",
                 "allow_until_reply_button": "Cho đến khi có câu trả lời tiếp theo",
@@ -229,6 +241,7 @@
                 "upload_button": "Chọn ảnh..."
             },
             "users": {
+                "create_user_button": "",
                 "description": "Danh sách người dùng trên diễn đàn.",
                 "grid": {
                     "columns": {
@@ -555,6 +568,7 @@
                 "nothing_available": "Bạn không được phép chỉnh sửa người dùng này."
             },
             "error": {
+                "circular_dependencies_message": "",
                 "dependent_extensions_message": "Không thể vô hiệu hóa {extension} cho đến khi các tiện ích mở rộng phụ thuộc sau bị vô hiệu hóa: {extensions}",
                 "extension_initialiation_failed_message": "Không thể khởi chạy {extension}, hãy kiểm tra console của trình duyệt để biết thêm thông tin.",
                 "generic_message": "Úi! Đã xảy ra lỗi. Hãy tải lại trang và thử lại.",
@@ -654,7 +668,12 @@
             }
         },
         "api": {
-            "invalid_username_message": "Tên người dùng chỉ có thể chứa các chữ cái, số và dấu gạch ngang."
+            "invalid_username_message": "Tên người dùng chỉ có thể chứa các chữ cái, số và dấu gạch ngang.",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
         },
         "email": {
             "activate_account": {
@@ -701,6 +720,7 @@
             "log_in": "Đăng nhập",
             "log_out": "Đăng xuất",
             "mark_all_as_read": "Đánh dấu tất cả đã đọc",
+            "never": "",
             "new_token": "Token mới",
             "next_page": "Trang sau",
             "notifications": "Thông báo",

@@ -44,6 +44,16 @@
                 "welcome_banner_heading": "歡迎橫幅",
                 "welcome_banner_text": "橫幅文字將顯示於「全部貼文」頁面頂部，用以歡迎新到訪的遊客。"
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
                 "clear_cache_button": "清除快取",
                 "description": "論壇資訊總覽",
@@ -177,6 +187,7 @@
                 "search_placeholder": "搜索擴展程序"
             },
             "permissions": {
+                "allow_hide_own_posts_label": "",
                 "allow_post_editing_label": "編輯貼文",
                 "allow_renaming_label": "更改主題",
                 "create_access_token_label": "創建訪問令牌",
@@ -210,6 +221,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "無限期",
+                "allow_never_button": "",
                 "allow_some_minutes_button": "{count, plural, one {發布 # 分鐘內} other {發布 # 分鐘內}}",
                 "allow_ten_minutes_button": "10 分鐘內",
                 "allow_until_reply_button": "直到被回覆",
@@ -227,6 +239,7 @@
                 "upload_button": "選擇圖片..."
             },
             "users": {
+                "create_user_button": "",
                 "description": "論壇用戶分頁列表。",
                 "grid": {
                     "columns": {
@@ -552,6 +565,7 @@
                 "nothing_available": "您無權編輯此用戶。"
             },
             "error": {
+                "circular_dependencies_message": "",
                 "dependent_extensions_message": "無法停用「{extension}」，請先停用依賴擴充套件「{extensions}」",
                 "extension_initialiation_failed_message": "初始化「{extension}」失敗，詳細資訊請查看瀏覽器控制台。",
                 "generic_message": "糟糕，出錯啦！請重新整理頁面再試一次。",
@@ -647,7 +661,12 @@
             }
         },
         "api": {
-            "invalid_username_message": "使用者名稱僅能包含字母、數字及連接符號 (-)。"
+            "invalid_username_message": "使用者名稱僅能包含字母、數字及連接符號 (-)。",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
         },
         "email": {
             "activate_account": {
@@ -694,6 +713,7 @@
             "log_in": "登入",
             "log_out": "登出",
             "mark_all_as_read": "全部已讀",
+            "never": "",
             "new_token": "新令牌",
             "next_page": "下一頁",
             "notifications": "通知",

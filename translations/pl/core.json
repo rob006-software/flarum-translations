@@ -44,6 +44,16 @@
                 "welcome_banner_heading": "Baner powitalny",
                 "welcome_banner_text": "Skonfiguruj tekst, który wyświetla się w banerze na stronie \"Wszystkie dyskusje\". Użyj go, aby powitać gości na swoim forum."
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
                 "clear_cache_button": "Wyczyść cache",
                 "description": "Podstawowe informacje dotyczące forum.",
@@ -177,6 +187,7 @@
                 "search_placeholder": "Wyszukaj rozszerzenia"
             },
             "permissions": {
+                "allow_hide_own_posts_label": "",
                 "allow_post_editing_label": "Pozwól na edycję posta",
                 "allow_renaming_label": "Pozwól na zmianę tytułu dyskusji",
                 "create_access_token_label": "Tworzenie tokenów dostępu",
@@ -210,6 +221,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Cały czas",
+                "allow_never_button": "",
                 "allow_some_minutes_button": "{count, plural, one {Przez # minutę} few {Przez # minuty} many {Przez # minut} other {Przez # minuty}}",
                 "allow_ten_minutes_button": "Przez 10 minut",
                 "allow_until_reply_button": "Aż ktoś odpisze w dyskusji",
@@ -227,6 +239,7 @@
                 "upload_button": "Wybierz obrazek..."
             },
             "users": {
+                "create_user_button": "",
                 "description": "Stronicowana lista wszystkich użytkowników na Twoim forum.",
                 "grid": {
                     "columns": {
@@ -552,6 +565,7 @@
                 "nothing_available": "Nie jesteś upoważniony, aby edytować tego użytkownika."
             },
             "error": {
+                "circular_dependencies_message": "",
                 "dependent_extensions_message": "Nie można wyłączyć {extension}, jeśli następujące zależne rozszerzenia są włączone: {extensions}",
                 "extension_initialiation_failed_message": "Nie udało się zainicjować rozszerzenia {extension}. Aby uzyskać więcej informacji, sprawdź konsolę przeglądarki.",
                 "generic_message": "Ups! Coś poszło nie tak. Odśwież stronę i spróbuj ponownie.",
@@ -647,7 +661,12 @@
             }
         },
         "api": {
-            "invalid_username_message": "Nazwa użytkownika może zawierać jedynie litery, cyfry i myślniki."
+            "invalid_username_message": "Nazwa użytkownika może zawierać jedynie litery, cyfry i myślniki.",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
         },
         "email": {
             "activate_account": {
@@ -694,6 +713,7 @@
             "log_in": "Zaloguj się",
             "log_out": "Wyloguj się",
             "mark_all_as_read": "Oznacz wszystko jako odczytane",
+            "never": "",
             "new_token": "Nowy token",
             "next_page": "Następna strona",
             "notifications": "Powiadomienia",

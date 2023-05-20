@@ -47,6 +47,16 @@
                 "saved_message": "Jūsų pakeitimai buvo išsaugoti.",
                 "submit_button": "=> core.ref.save_changes"
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
                 "clear_cache_button": "Išvalyti talpyklą",
                 "description": "Jūsų forumas trumpai.",
@@ -184,6 +194,7 @@
                 "search_placeholder": "Ieškoti įskiepių"
             },
             "permissions": {
+                "allow_hide_own_posts_label": "",
                 "allow_post_editing_label": "Leisti įrašo redagavimą",
                 "allow_renaming_label": "Leisti pervadinti",
                 "create_access_token_label": "",
@@ -219,6 +230,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Neribotam laikui",
+                "allow_never_button": "",
                 "allow_some_minutes_button": "{count, plural, one {For # minutė} other {For # minutes}}",
                 "allow_ten_minutes_button": "10 minučių",
                 "allow_until_reply_button": "Iki kito atsakymo",
@@ -236,6 +248,7 @@
                 "upload_button": "Pasirinkite paveikslėlį..."
             },
             "users": {
+                "create_user_button": "",
                 "description": "Visų jūsų forumo vartotojų sąrašas puslapiais.",
                 "grid": {
                     "columns": {
@@ -575,6 +588,7 @@
                 "nothing_available": "Jums neleidžiama redaguoti šio vartotojo."
             },
             "error": {
+                "circular_dependencies_message": "",
                 "dependent_extensions_message": "Įskiepio {extension} išjungimas yra negalimas kol įskiepiai yra išjungti: {extensions}",
                 "extension_initialiation_failed_message": "Nepavyko inicijuoti {extension}. Daugiau informacijos ieškokite naršyklės konsolėje.",
                 "generic_message": "Oops! Kažkas įvyko ne taip. Perkraukite puslapį iš naujo ir bandykite dar kartą.",
@@ -670,7 +684,12 @@
             }
         },
         "api": {
-            "invalid_username_message": "Vartotojo varde gali būti tik raidės, skaičiai ir brūkšniai."
+            "invalid_username_message": "Vartotojo varde gali būti tik raidės, skaičiai ir brūkšniai.",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
         },
         "email": {
             "activate_account": {
@@ -717,6 +736,7 @@
             "log_in": "Prisijungti",
             "log_out": "Atsijungti",
             "mark_all_as_read": "Pažymėti visus kaip skaitytus",
+            "never": "",
             "new_token": "",
             "next_page": "Kitas puslapis",
             "notifications": "Pranešimai",

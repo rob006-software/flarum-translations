@@ -44,6 +44,16 @@
                 "welcome_banner_heading": "Банер вітання",
                 "welcome_banner_text": "Введіть текст, який буде відображатися на всіх сторінках форуму. Використовуйте цей елемент для того, щоб вітати гостей форуму."
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
                 "clear_cache_button": "Очистити кеш",
                 "description": "Ваш форум з першого погляду.",
@@ -177,6 +187,7 @@
                 "search_placeholder": "Пошук розширень"
             },
             "permissions": {
+                "allow_hide_own_posts_label": "",
                 "allow_post_editing_label": "Дозволити редагувати допис",
                 "allow_renaming_label": "Дозволити перейменування",
                 "create_access_token_label": "Створіть токен доступу",
@@ -210,6 +221,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Необмежено",
+                "allow_never_button": "",
                 "allow_some_minutes_button": "{count, plural, one {На # хвилину} other {На # хвилин}}",
                 "allow_ten_minutes_button": "На 10 хвилин",
                 "allow_until_reply_button": "До відповіді",
@@ -227,6 +239,7 @@
                 "upload_button": "Обрати зображення..."
             },
             "users": {
+                "create_user_button": "",
                 "description": "Список усіх користувачів вашого форуму.",
                 "grid": {
                     "columns": {
@@ -552,6 +565,7 @@
                 "nothing_available": "Вам не дозволено редагувати цього користувача."
             },
             "error": {
+                "circular_dependencies_message": "",
                 "dependent_extensions_message": "Неможливо вимкнути {extension}, доки не буде вимкнено такі залежні розширення: {extensions}",
                 "extension_initialiation_failed_message": "{extension} не вдалося ініціалізувати, зверніться до консолі браузера для отримання додаткової інформації.",
                 "generic_message": "Помилка. Будь ласка , оновіть сторінку та спробуйте ще раз.",
@@ -647,7 +661,12 @@
             }
         },
         "api": {
-            "invalid_username_message": "Ім’я користувача може містити лише літерии, цифри та тире."
+            "invalid_username_message": "Ім’я користувача може містити лише літерии, цифри та тире.",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
         },
         "email": {
             "activate_account": {
@@ -694,6 +713,7 @@
             "log_in": "Увійти",
             "log_out": "Вийти",
             "mark_all_as_read": "Позначити все, як прочитане",
+            "never": "",
             "new_token": "Новий токен",
             "next_page": "Наступна сторінка",
             "notifications": "Сповіщення",

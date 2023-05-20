@@ -47,6 +47,16 @@
                 "saved_message": "A változtatásokat elmentettük.",
                 "submit_button": "=> core.ref.save_changes"
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
                 "clear_cache_button": "Gyorsítótár törlése",
                 "description": "Fórum összefoglalása.",
@@ -198,6 +208,7 @@
                 "permissions_text": "Állítsd be, hogy ki milyen jogokkal rendelkezzen és ezekkel a jogokkal mit tehessen."
             },
             "permissions": {
+                "allow_hide_own_posts_label": "",
                 "allow_post_editing_label": "Bejegyzések szerkesztésének engedélyezése",
                 "allow_renaming_label": "Átnevezés engedélyezése",
                 "create_access_token_label": "Hozzáférési token létrehozása",
@@ -233,6 +244,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Korlátlan ideig",
+                "allow_never_button": "",
                 "allow_some_minutes_button": "{count} percig",
                 "allow_ten_minutes_button": "10 percig",
                 "allow_until_reply_button": "A következő válaszig",
@@ -250,6 +262,7 @@
                 "upload_button": "Válasszon egy képet…"
             },
             "users": {
+                "create_user_button": "",
                 "description": "Az összes felhasználót tartalmazó lapozható lista.",
                 "grid": {
                     "columns": {
@@ -600,6 +613,7 @@
                 "nothing_available": "Nem szerkesztheti ezt a felhasználót."
             },
             "error": {
+                "circular_dependencies_message": "",
                 "dependent_extensions_message": "Nem tilthatja le a(z) {extension} bővítményt, amíg a következő bővítmények engedélyezettek: {extensions}",
                 "extension_initialiation_failed_message": "A(z) {extension} előkészítése sikertelen, további információkért nézze meg a böngészőkonzolt.",
                 "generic_message": "Hoppá! Valami hiba történt. Frissítse az oldalt és próbálja meg újra.",
@@ -700,7 +714,12 @@
             }
         },
         "api": {
-            "invalid_username_message": "A felhasználónév csak betűket, számokat és kötőjeleket tartalmazhat."
+            "invalid_username_message": "A felhasználónév csak betűket, számokat és kötőjeleket tartalmazhat.",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
         },
         "email": {
             "activate_account": {
@@ -747,6 +766,7 @@
             "log_in": "Bejelentkezés",
             "log_out": "Kijelentkezés",
             "mark_all_as_read": "Összes megjelölése olvasottként",
+            "never": "",
             "new_token": "Új token",
             "next_page": "Következő oldal",
             "notifications": "Értesítések",
