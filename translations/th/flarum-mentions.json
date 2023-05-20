@@ -14,6 +14,10 @@
                 "mention_tooltip": "กล่าวถึงผู้ใช้หรือโพสต์",
                 "reply_to_post_text": "ตอบกลับไปยัง #{number}"
             },
+            "mentioned_by": {
+                "title": "",
+                "load_more_button": ""
+            },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} ตอบกลับโพสต์ของคุณ",
@@ -21,6 +25,7 @@
                 "group_mentioned_text": ""
             },
             "post": {
+                "mentioned_by_more_text": "",
                 "mentioned_by_self_text": "{users} ตอบกลับโพสต์นี้",
                 "mentioned_by_text": "{users} ตอบกลับโพสต์นี้",
                 "others_text": "=> core.ref.some_others",

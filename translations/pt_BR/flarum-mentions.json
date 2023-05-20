@@ -14,6 +14,10 @@
                 "mention_tooltip": "Mencionar um usuário, grupo ou post",
                 "reply_to_post_text": "Responder a #{number}"
             },
+            "mentioned_by": {
+                "title": "",
+                "load_more_button": ""
+            },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} respondeu à sua postagem",
@@ -21,6 +25,7 @@
                 "group_mentioned_text": "{username} mencionou um grupo do qual você é membro"
             },
             "post": {
+                "mentioned_by_more_text": "",
                 "mentioned_by_self_text": "{users} {count, plural, one {respondeu} other {responderam}}.",
                 "mentioned_by_text": "{users} {count, plural, one {respondeu} other {responderam}}.",
                 "others_text": "=> core.ref.some_others",

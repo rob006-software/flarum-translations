@@ -14,6 +14,10 @@
                 "mention_tooltip": "Bir kullanıcıdan, gruptan veya gönderiden bahsedin",
                 "reply_to_post_text": "#{number} numaralı gönderiye yanıt"
             },
+            "mentioned_by": {
+                "title": "",
+                "load_more_button": ""
+            },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} senin gönderini yanıtladı",
@@ -21,6 +25,7 @@
                 "group_mentioned_text": "{username}, üyesi olduğunuz bir gruptan bahsetti"
             },
             "post": {
+                "mentioned_by_more_text": "",
                 "mentioned_by_self_text": "{users} bunu yanıtladın.",
                 "mentioned_by_text": "{users} bunu yanıtladı.",
                 "others_text": "=> core.ref.some_others",

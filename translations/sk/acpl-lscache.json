@@ -1,6 +1,8 @@
 {
     "acpl-lscache": {
         "admin": {
+            "cache_enabled_label": "",
+            "cache_enabled_help": "",
             "public_cache_ttl_label": "Predvolená verejná vyrovnávacia pamäť TTL",
             "public_cache_ttl_help": "Zadajte, ako dlho (v sekundách) sa verejné stránky ukladajú do vyrovnávacej pamäte. Predvolená hodnota je 300 sekúnd.",
             "clearing_cache_listener_label": "Po vymazaní vyrovnávacej pamäte Flarum vymažte LSCache",
@@ -10,6 +12,8 @@
             "purge_on_discussion_update_help": "Zadajte jednu adresu URL alebo značku na riadok. Adresa URL by mala začínať reťazcom <code>/</code>, napr. <code>/rankings</code> a značka vyrovnávacej pamäte by mala začínať reťazcom <code>tag=</code>, napr. <code>tag=rankings</code>. Toto rozšírenie označí každú trasu a napríklad ak máte veľa trás, ktoré by ste chceli vyčistiť, je lepšie pridať do .htaccess pravidlo s regulárnym výrazom, ktorý bude označovať trasy a tu v nastaveniach zadať iba túto značku . Táto metóda bude oveľa rýchlejšia. <a>Viac informácií</a>. V predvolenom nastavení sa vymaže vyrovnávacia pamäť pre domovskú stránku, ako aj vyrovnávacia pamäť pre aktualizované diskusie.",
             "cache_exclude_label": "Neukladajte cesty do vyrovnávacej pamäte",
             "cache_exclude_help": "Cesty obsahujúce tieto reťazce nebudú uložené do vyrovnávacej pamäte. Napríklad pre <code>/mypath/mypage?aa=bb</code> tu možno použiť <code>mypage?aa=</code>. Ak chcete zodpovedať začiatku, pridajte na začiatok položky <code>^</code>. Ak chcete urobiť presnú zhodu, pridajte <code>$</code> na koniec adresy URL. Jeden na riadok.",
+            "drop_qs_label": "",
+            "drop_qs_help": "",
             "purge_all": "Vyčistite všetky LSCache",
             "purge_all_success": "Webový server LiteSpeed upozornil, aby sa vyčistili všetky položky LSCache"
         }

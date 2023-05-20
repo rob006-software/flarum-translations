@@ -14,6 +14,10 @@
                 "mention_tooltip": "",
                 "reply_to_post_text": "Responder a #{number}"
             },
+            "mentioned_by": {
+                "title": "",
+                "load_more_button": ""
+            },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} respondeu ao teu post",
@@ -21,6 +25,7 @@
                 "group_mentioned_text": ""
             },
             "post": {
+                "mentioned_by_more_text": "",
                 "mentioned_by_self_text": "{users} respondeu a isto.",
                 "mentioned_by_text": "{users} respondeu a isto.",
                 "others_text": "=> core.ref.some_others",

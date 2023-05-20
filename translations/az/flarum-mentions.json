@@ -14,6 +14,10 @@
                 "mention_tooltip": "Bir istifadəçini və ya yazını qeyd edin",
                 "reply_to_post_text": "#{number} nömrəsinə cavab verin"
             },
+            "mentioned_by": {
+                "title": "",
+                "load_more_button": ""
+            },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} yazınıza cavab verdi",
@@ -21,6 +25,7 @@
                 "group_mentioned_text": ""
             },
             "post": {
+                "mentioned_by_more_text": "",
                 "mentioned_by_self_text": "{users} buna cavab verdi.",
                 "mentioned_by_text": "{users} buna cavab verdi.",
                 "others_text": "=> core.ref.some_others",

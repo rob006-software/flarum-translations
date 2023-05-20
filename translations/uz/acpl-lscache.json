@@ -1,6 +1,8 @@
 {
     "acpl-lscache": {
         "admin": {
+            "cache_enabled_label": "",
+            "cache_enabled_help": "",
             "public_cache_ttl_label": "Standart umumiy kesh TTL",
             "public_cache_ttl_help": "Umumiy sahifalar qancha vaqt, soniyalarda keshlanishini belgilang. Standart qiymat 300 soniya.",
             "clearing_cache_listener_label": "",
@@ -10,6 +12,8 @@
             "purge_on_discussion_update_help": "Har bir satrda bitta URL yoki tegni belgilang. Url <code>/</code> bilan boshlanishi kerak, masalan. <code>/rankings</code> va kesh Tegi <code>tag=</code> bilan boshlanishi kerak, masalan. <code>teg=rankings</code>. Bu kengaytma har bir marshrutni belgilab qoʻyadi va masalan, sizda oʻchirmoqchi boʻlgan marshrutlaringiz koʻp boʻlsa, .htaccess-ga marshrutlarni belgilovchi oddiy ibora bilan qoida qoʻshgan maʼqul va bu yerda sozlamalarga faqat shu tegni kiriting. . Bu usul ancha tezroq bo'ladi. <a>Batafsil</a>. Odatiy bo'lib, bosh sahifa uchun kesh, shuningdek, yangilangan muhokamalar uchun kesh tozalanadi.",
             "cache_exclude_label": "",
             "cache_exclude_help": "",
+            "drop_qs_label": "",
+            "drop_qs_help": "",
             "purge_all": "Barcha LSCache-ni tozalang",
             "purge_all_success": "Barcha LSCache yozuvlarini tozalash uchun LiteSpeed veb-serveriga xabar berilgan"
         }

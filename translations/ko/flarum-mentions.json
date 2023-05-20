@@ -14,6 +14,10 @@
                 "mention_tooltip": "사용자 또는 게시물 언급",
                 "reply_to_post_text": "#{number}에게 답장"
             },
+            "mentioned_by": {
+                "title": "",
+                "load_more_button": ""
+            },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username}님이 귀하의 게시물에 답장했습니다",
@@ -21,6 +25,7 @@
                 "group_mentioned_text": ""
             },
             "post": {
+                "mentioned_by_more_text": "",
                 "mentioned_by_self_text": "{users}님이 이에 답장했습니다.",
                 "mentioned_by_text": "{users}님이 이에 답장했습니다.",
                 "others_text": "=> core.ref.some_others",

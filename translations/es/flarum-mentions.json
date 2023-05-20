@@ -14,6 +14,10 @@
                 "mention_tooltip": "Mencionar usuario o publicación",
                 "reply_to_post_text": "Respuesta a #{number}"
             },
+            "mentioned_by": {
+                "title": "",
+                "load_more_button": ""
+            },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{count, plural, one {{username} respondió a tu publicación.} other {{username} respondieron a tu publicación.}}",
@@ -21,6 +25,7 @@
                 "group_mentioned_text": "{username} mencionó un grupo del que eres miembro"
             },
             "post": {
+                "mentioned_by_more_text": "",
                 "mentioned_by_self_text": "{count, plural, one {{users} respondiste a esto} other {{users} respondísteis a esto}}",
                 "mentioned_by_text": "{count, plural, one {{users} respondió a esto} other {{users} respondieron a esto}}",
                 "others_text": "=> core.ref.some_others",

@@ -14,6 +14,10 @@
                 "mention_tooltip": "Viita kasutajale või postitusele",
                 "reply_to_post_text": "Vasta #{number}"
             },
+            "mentioned_by": {
+                "title": "",
+                "load_more_button": ""
+            },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} vastas sinu postitusele",
@@ -21,6 +25,7 @@
                 "group_mentioned_text": ""
             },
             "post": {
+                "mentioned_by_more_text": "",
                 "mentioned_by_self_text": "{users} vastasid sellele.",
                 "mentioned_by_text": "{users} vastasid sellele.",
                 "others_text": "=> core.ref.some_others",

@@ -14,6 +14,10 @@
                 "mention_tooltip": "Omtal en bruger eller et indlæg",
                 "reply_to_post_text": "Svar på #{number}"
             },
+            "mentioned_by": {
+                "title": "",
+                "load_more_button": ""
+            },
             "notifications": {
                 "others_text": "",
                 "post_mentioned_text": "{username} svarede på dit indlæg",
@@ -21,6 +25,7 @@
                 "group_mentioned_text": ""
             },
             "post": {
+                "mentioned_by_more_text": "",
                 "mentioned_by_self_text": "{users} svarede på dette.",
                 "mentioned_by_text": "{users} svarede på dette.",
                 "others_text": "",

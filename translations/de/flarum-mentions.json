@@ -14,6 +14,10 @@
                 "mention_tooltip": "Benutzer, Gruppe oder Beitrag erwähnen",
                 "reply_to_post_text": "Antwort auf #{number}"
             },
+            "mentioned_by": {
+                "title": "",
+                "load_more_button": ""
+            },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} {count, plural, one {hat} other {haben}} auf deinen Beitrag geantwortet",
@@ -21,6 +25,7 @@
                 "group_mentioned_text": "{username} hat eine Gruppe erwähnt, in der du Mitglied bist"
             },
             "post": {
+                "mentioned_by_more_text": "",
                 "mentioned_by_self_text": "{users} {count, plural, one {hast} other {haben}} auf diesen Beitrag geantwortet.",
                 "mentioned_by_text": "{users} {count, plural, one {hat} other {haben}} auf diesen Beitrag geantwortet.",
                 "others_text": "=> core.ref.some_others",

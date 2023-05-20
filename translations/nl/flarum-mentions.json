@@ -14,6 +14,10 @@
                 "mention_tooltip": "Vermeld een gebruiker, groep of bericht",
                 "reply_to_post_text": "Reageer op #{number}"
             },
+            "mentioned_by": {
+                "title": "",
+                "load_more_button": ""
+            },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} heeft gereageerd op je bericht",
@@ -21,6 +25,7 @@
                 "group_mentioned_text": "{username} vermelde een groep waarvan je lid bent"
             },
             "post": {
+                "mentioned_by_more_text": "",
                 "mentioned_by_self_text": "{count, plural, one {{users} hebt hierop gereageerd} other {{users} hebben hierop gereageerd}}.",
                 "mentioned_by_text": "{count, plural, one {{users} heeft hierop gereageerd} other {{users} hebben hierop gereageerd}}.",
                 "others_text": "=> core.ref.some_others",
