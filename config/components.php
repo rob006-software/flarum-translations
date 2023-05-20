@@ -464,7 +464,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lock/v1.8.0/locale/en.yml',
 	],
 	'flarum-markdown' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/markdown/v1.7.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/markdown/v1.8.0/locale/en.yml',
 	],
 	'flarum-mentions' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/mentions/v1.7.0/locale/en.yml',
