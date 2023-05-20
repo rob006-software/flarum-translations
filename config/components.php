@@ -451,6 +451,9 @@ return [
 	'flarum-approval' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/approval/v1.8.0/locale/en.yml',
 	],
+	'flarum-bbcode' => [
+		'tag' => 'https://raw.githubusercontent.com/flarum/bbcode/v1.8.0/locale/en.yml',
+	],
 	'flarum-emoji' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/emoji/v1.8.0/locale/en.yml',
 	],
