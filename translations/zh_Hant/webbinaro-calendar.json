@@ -7,27 +7,27 @@
                 "login": "添加你的活動 "
             },
             "modal": {
-                "title_create": "",
-                "title_edit": "",
-                "title_label": "",
-                "dates_label": "",
-                "description_label": "",
-                "description_placeholder": "",
-                "requirement_message": "",
+                "title_create": "創建新的日曆事件",
+                "title_edit": "編輯活動詳情",
+                "title_label": "什麼",
+                "dates_label": "何時",
+                "description_label": "內容",
+                "description_placeholder": "活動詳情",
+                "requirement_message": "事件需要名稱和描述",
                 "submit": "提交"
             },
             "event": {
                 "details": "添加活動細節",
-                "hosted_by": "",
-                "starts": "",
-                "ends": "",
-                "confirm_delete": "",
-                "deleted": ""
+                "hosted_by": "主辦：",
+                "starts": "開始：",
+                "ends": "結束：",
+                "confirm_delete": "您確定要刪除此活動嗎？",
+                "deleted": "此活動已刪除"
             }
         },
         "admin": {
             "settings": {
-                "hide_host": ""
+                "hide_host": "隱藏主機（由...託管）"
             },
             "permissions": {
                 "add": "創建新活動日程",
