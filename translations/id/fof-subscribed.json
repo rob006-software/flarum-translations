@@ -1,0 +1,47 @@
+{
+    "fof-subscribed": {
+        "forum": {
+            "settings": {
+                "defaults_label": "Setel \"{setting}\" diaktifkan secara default",
+                "forced_label": "Aktifkan paksa \"{setting}\" untuk semua orang",
+                "notify_discussion_created_label": "Seseorang membuat diskusi",
+                "notify_post_created_label": "Seseorang membuat post atau balasan baru",
+                "notify_post_unapproved_label": "Post yang dibuat butuh persetujuan",
+                "notify_user_created_label": "Ketika seseorang mendaftar",
+                "notify_post_flagged_label": "Seseorang membuat penanda baru di post"
+            },
+            "notifications": {
+                "discussion_created_text": "{username} telah membuat diskusi baru",
+                "post_created_text": "{username} menulis post baru",
+                "post_unapproved_text": "{username} membuat post yang memerlukan persetujuan",
+                "user_created_text": "{username} baru saja mendaftar",
+                "post_flagged_text": "{username} menandai sebuah post"
+            }
+        },
+        "admin": {
+            "permission": {
+                "subscribe_to_discussion_created": "Diizinkan untuk menerima notifikasi tentang diskusi yang baru dibuat",
+                "subscribe_to_post_created": "Diizinkan untuk menerima notifikasi tentang post baru atau balasan baru",
+                "subscribe_to_post_unapproved": "Diizinkan untuk menerima notifikasi tentang post yang baru dibuat dan tidak disetujui",
+                "subscribe_to_user_created": "Diizinkan untuk menerima notifikasi tentang User baru",
+                "subscribe_to_post_flagged": "Diizinkan untuk menerima notifikasi tentang penanda baru"
+            }
+        },
+        "email": {
+            "subject": {
+                "newDiscussion": "[Subscribed | New Discussion] {title}",
+                "newUser": "[Subscribed | New User] {username}",
+                "postUnapproved": "[Subscribed | Unapproved] {username} diposting di {title}",
+                "postCreated": "[Subscribed | New Post] {username} menulis post baru di {title}",
+                "postFlagged": "[Subscribed | New Flag] {username} telah menandai post dengan {title}"
+            },
+            "body": {
+                "newDiscussion": "Hey {recipient_display_name},\n\n{actor_display_name} started a new discussion: {discussion_title}\n\nTo view this new discussion, check out the following link:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "Hey {recipient_display_name},\n\n{actor_display_name} just joined {forum_url}.\n\nTo view this new user's profile, check out the following link:\n{user_url}\n",
+                "postUnapproved": "Hey {recipient_display_name},\n\n{actor_display_name} created a post that wasn't automatically approved in {discussion_title}\n\nTo view this new post, check out the following link:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postCreated": "Hey {recipient_display_name},\n\n{actor_display_name} just created a new post in {discussion_title}\n\nTo view this new post, check out the following link:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postFlagged": "Hey {recipient_display_name},\n\n{actor_display_name} just flagged a post in {discussion_title}\n\nTo view this post, check out the following link:\n{post_url}\n"
+            }
+        }
+    }
+}
