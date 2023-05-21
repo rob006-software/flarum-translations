@@ -1,0 +1,179 @@
+{
+    "fof-upload": {
+        "admin": {
+            "pane": {
+                "title": "Upload",
+                "description": "Siapkan layanan dan preferensi upload."
+            },
+            "help_texts": {
+                "disable-download-logging": "Nonaktifkan pencatatan setiap download yang dilakukan oleh user forum Anda. Dengan tetap mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya.\n",
+                "disable-hotlink-protection": "Hotlink protection berfungsi untuk mencegah download yang dilakukan dari situs lain. Metode saat ini memerlukan token csrf dan post id.\n",
+                "download_templates": "Download template adalah bagaimana upload ditampilkan di forum Anda, misalnya seperti preview, button. Saat ini tersedia:\n",
+                "mime_types": "Harap konfigurasikan mapping Anda di sini. Setiap mime type regular expression akan ditangani oleh adaptor upload dan template download tertentu.\n",
+                "resize": "Pilih apakah Anda ingin mengubah ukuran gambar sebelum diupload. Anda dapat memilih lebar dan tinggi maksimum, dalam piksel. Proses perubahan ukuran akan mempertahankan rasio aspek gambar.\n",
+                "client_extension": "Secara default, Upload akan memilih ekstensi file yang aman berdasarkan jenis MIME.\nUntuk beberapa jenis file yang berbasis ZIP atau data biner, ini dapat membaut ekstensi generik digunakan alih-alih yang diharapkan.\nDi sini Anda dapat memasukkan daftar ekstensi file yang dipisahkan dengan koma yang akan disimpan kata demi kata.\n",
+                "watermark": "Pilih apakah gambar akan memiliki watermark yang ditambahkan selama proses upload. Watermark ditambahkan ke gambar non-gif berdasarkan preferensi Anda di bawah ini.\n",
+                "s3_compatible_storage": "Pengaturan berikut hanya diperlukan saat menggunakan penyimpanan yang kompatibel dengan S3. Jika Anda menggunakan AWS, Anda dapat membiarkannya tetap kosong.\n",
+                "s3_acl": "ACL yang harus diterapkan ke objek yang diupload (default: private). Untuk value-nya, lihat https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_instance_profile": "Biarkan key dan secret kosong untuk menggunakan kredensial di profil instan.\n",
+                "composer_buttons": "Secara default, media manager button dan upload button akan terlihat. Anda juga dapat memilih untuk hanya menampilkan satu button saja.\n"
+            },
+            "labels": {
+                "aws-s3": {
+                    "bucket": "Bucket",
+                    "key": "Key",
+                    "region": "Region",
+                    "secret": "Secret",
+                    "title": "AWS S3 storage settings",
+                    "advanced_title": "Advanced S3 storage settings",
+                    "endpoint": "Endpoint",
+                    "use_path_style_endpoint": "Use path style endpoint",
+                    "acl": "Access Control List (ACL)"
+                },
+                "disable-download-logging": {
+                    "title": "Disable logging downloads",
+                    "toggle": "Disable"
+                },
+                "disable-hotlink-protection": {
+                    "title": "Disable hotlink protection",
+                    "toggle": "Disable"
+                },
+                "imgur": {
+                    "client_id": "Imgur client ID",
+                    "title": "Imgur image storage settings",
+                    "tos": "Merupakan tanggung jawab Anda untuk memastikan user forum Anda mematuhi <a>Terms of service</a>"
+                },
+                "local": {
+                    "cdn_url": "Content Delivery URL (prefixes files)",
+                    "title": "Local storage settings"
+                },
+                "qiniu": {
+                    "title": "Qiniu storage settings",
+                    "key": "Key",
+                    "secret": "Secret",
+                    "bucket": "Bucket"
+                },
+                "preferences": {
+                    "max_file_size": "Maximum file size (in kilobytes)",
+                    "mime_types": "Configure your mime type, upload adapter mapping",
+                    "title": "Preferensi umum",
+                    "php_ini_values": "Your <code>php.ini</code> values are <code>post_max_size={post}</code> and <code>upload_max_filesize={upload}</code>. Ensure the value set here is below these thresholds, or adjust them accordingly. If using <code>Nginx</code>, also ensure that <code>client_max_body_size</code> is of sufficient size for your chosen max limit."
+                },
+                "resize": {
+                    "max_width": "Lebar/tinggi gambar maksimum",
+                    "title": "Image resize",
+                    "toggle": "Ubah ukuran gambar"
+                },
+                "client_extension": {
+                    "title": "User-provided file extensions"
+                },
+                "watermark": {
+                    "file": "Upload your watermark image",
+                    "position": "Watermark position",
+                    "title": "Watermark images",
+                    "toggle": "Watermark images"
+                },
+                "composer_buttons": {
+                    "title": "Composer buttons",
+                    "options": {
+                        "both": "Keduanya",
+                        "upload-btn": "Hanya upload button",
+                        "media-btn": "Hanya media manager button"
+                    }
+                },
+                "inspect-mime": "Test file MIME type"
+            },
+            "permissions": {
+                "download_label": "Download files",
+                "upload_label": "Upload files",
+                "view_user_uploads_label": "View user uploads",
+                "delete_uploads_of_others_label": "Delete user uploads"
+            },
+            "templates": {
+                "file": "Default file download template",
+                "file_description": "Tampilkan nama file dan beberapa informasi umum. Download proxy melalui php, memungkinkan pengumpulan statistik dan hotlink protection.\n",
+                "image": "Default image download template",
+                "image_description": "Tampilkan thumbnail gambar dan proxy yang didownload melalui php. Izinkan pengumpulan statistik dan hotlink protection.\n",
+                "image-preview": "Complete image preview template",
+                "image-preview_description": "Tampilkan gambar lengkap. Tidak ada fungsi download, tidak ada statistik yang dikumpulkan dan hotlink protection dinonaktifkan.\n",
+                "markdown-image": "Markdown image template",
+                "markdown-image_description": "Tampilkan gambar menggunakan Markdown. <strong>Anda harus menginstal dan mengaktifkan flarum/markdown.</strong> Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection dinonaktifkan.\n",
+                "bbcode-image": "BBCode image template",
+                "bbcode-image_description": "Tampilkan gambar menggunakan BBCode. <strong>Anda harus menginstal dan mengaktifkan flarum/bbcode.</strong> Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection dinonaktifkan.\n",
+                "just-url": "Just URL",
+                "just-url_description": "Hanya menambahkan URL. Rendering dapat ditangani oleh ekstensi lain dengan kemampuan auto-link. Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection dinonaktifkan.\n",
+                "text-preview": "Text preview",
+                "text-preview_description": "Tambahkan preview (5 baris pertama) dari file teks, dengan opsi untuk memperluas untuk memperlihatkan isi file secara penuh.\n"
+            },
+            "upload_methods": {
+                "aws-s3": "S3/Compatible",
+                "imgur": "Imgur",
+                "local": "Local",
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": "QiNiu"
+            },
+            "inspect-mime": {
+                "title": "Inspect MIME",
+                "description": "FoF Upload menggunakan library <a>PHP Mime Detector</a> untuk common MIME types and PHP Fileinfo sebagai fallback.\nNilai MIME yang dikembalikan oleh Fileinfo dapat berbeda dari server ke server!\n",
+                "select": "Pilih file di bawah ini untuk memeriksa nilai yang akan digunakan. File tidak akan disimpan.",
+                "laravel-validation": "Laravel File Validation",
+                "no-file-selected": "No file",
+                "validation-passed": "Passed",
+                "validation-failed": "Failed: {error}",
+                "mime-detector": "Mime Detector (primary)",
+                "mime-fileinfo": "PHP Fileinfo (fallback)",
+                "guessed-extension": "Ekstensi file default (jika original, tidak masuk daftar putih)",
+                "not-available": "Tidak ada hasil"
+            }
+        },
+        "forum": {
+            "media_manager": "Media manager",
+            "buttons": {
+                "attach": "Attach",
+                "upload": "Upload",
+                "user_uploads": "User uploads",
+                "cancel": "Cancel",
+                "media": "My media"
+            },
+            "file_list": {
+                "loading": "Loading files...",
+                "empty": "There are no files to show.",
+                "release_to_upload": "Release to upload",
+                "modal_empty_desktop": "Your file list is empty. Click the button or drag a file here to upload.",
+                "modal_empty_phone": "Your file list is empty. Tap the button above to upload a file.",
+                "select_file_a11y_label": "Select file \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {None selected} one {Select file} other {Select files}}",
+                "load_more_files_btn": "Load more files",
+                "hide_file": {
+                    "btn_a11y_label": "Hide \"{fileName}\" from media manager",
+                    "hide_confirmation": "Are you sure you want to hide \"{fileName}\"? Hiding a file will only remove it from your media manager and will not affect existing posts.",
+                    "hide_success": "File hidden",
+                    "hide_fail": "Couldn't hide file \"{fileName}\"",
+                    "loading": "Hiding file..."
+                }
+            },
+            "states": {
+                "error": "Error",
+                "loading": "Uploading",
+                "unauthorized": "Anda tidak diizinkan untuk men-download file"
+            },
+            "validation": {
+                "max_size": "File yang memiliki ukuran lebih dari {max} kb tidak diizinkan."
+            },
+            "text_preview": {
+                "expand": "Expand preview",
+                "collapse": "Collapse preview",
+                "error": "Terjadi kesalahan saat mempratinjau file. File mungkin telah dihapus, atau ID file yang diberikan tidak valid.\n",
+                "no_snippet_preview": "<pratinjau akan muncul di sini setelah posting>",
+                "no_snippet": "<tidak ada cuplikan pratinjau yang tersedia>"
+            }
+        },
+        "api": {
+            "upload_errors": {
+                "forbidden_type": "Upload file jenis ini tidak diperbolehkan.",
+                "unsupported_type": "Adaptor upload tidak mendukung mime type yang disediakan: {mime}.",
+                "could_not_detect_mime": "Tidak dapat mendeteksi MIME type file ini, harap coba lagi."
+            }
+        }
+    }
+}
