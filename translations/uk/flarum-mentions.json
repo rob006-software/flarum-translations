@@ -15,8 +15,8 @@
                 "reply_to_post_text": "Відповісти на #{number}"
             },
             "mentioned_by": {
-                "title": "",
-                "load_more_button": ""
+                "title": "Відповіді на цей допис",
+                "load_more_button": "=> core.ref.load_more"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
@@ -25,7 +25,7 @@
                 "group_mentioned_text": "Користувач {username} згадав групу, членом якої ви є"
             },
             "post": {
-                "mentioned_by_more_text": "",
+                "mentioned_by_more_text": "Більше {count} відповідей.",
                 "mentioned_by_self_text": "{users} відповіли на це.",
                 "mentioned_by_text": "{users} відповіли на це.",
                 "others_text": "=> core.ref.some_others",
@@ -45,7 +45,7 @@
                 "deleted_text": "[невідомо]"
             },
             "group_mention": {
-                "deleted_text": "[unknown group]"
+                "deleted_text": "[невідома група]"
             }
         },
         "email": {
