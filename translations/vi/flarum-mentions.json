@@ -15,8 +15,8 @@
                 "reply_to_post_text": "Trả lời #{number}"
             },
             "mentioned_by": {
-                "title": "",
-                "load_more_button": ""
+                "title": "Các câu trả lời bài viết này",
+                "load_more_button": "=> core.ref.load_more"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
@@ -25,7 +25,7 @@
                 "group_mentioned_text": "{username} đã đề cập đến một nhóm mà bạn là thành viên"
             },
             "post": {
-                "mentioned_by_more_text": "",
+                "mentioned_by_more_text": "Còn {count} lượt trả lời nữa.",
                 "mentioned_by_self_text": "{users} đã trả lời bài viết này.",
                 "mentioned_by_text": "{users} đã trả lời bài viết này.",
                 "others_text": "=> core.ref.some_others",
