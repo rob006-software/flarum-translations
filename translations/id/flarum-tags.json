@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "Batasi Dengan Tag",
                 "tag_discussions_label": "Tag Diskusi"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " hingga ",
                 "required_primary_heading": "Tag Primer",
@@ -51,12 +54,12 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
+                "edit_title": "Edit Tag untuk {title}",
+                "title": "Pilih Tag Untuk Diskusi Anda",
                 "bypass_requirements": "Bypass tag requirements",
                 "choose_primary_placeholder": "{count, plural, one {Choose a primary tag} other {Choose # primary tags}}",
                 "choose_secondary_placeholder": "{count, plural, one {Choose 1 more tag} other {Choose # more tags}}",
-                "edit_title": "Edit Tag untuk {title}",
-                "submit_button": "=> core.ref.okay",
-                "title": "Pilih Tag Untuk Diskusi Anda"
+                "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
                 "choose_tags_link": "Pilih Tag"
@@ -83,9 +86,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "Dihapus"
+            "deleted_tag_text": "Dihapus",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "Nama",
             "tags": "Tag"
         }

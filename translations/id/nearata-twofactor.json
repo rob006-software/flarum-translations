@@ -1,0 +1,69 @@
+{
+    "nearata-twofactor": {
+        "admin": {
+            "settings": {
+                "generate_app_backups": ""
+            },
+            "permissions": {
+                "can_enable_twofactor": ""
+            }
+        },
+        "forum": {
+            "settings": {
+                "section_title": "",
+                "configured": "",
+                "not_configured": "",
+                "app": {
+                    "button_label": "",
+                    "button_help": "",
+                    "setup": {
+                        "title": "",
+                        "password_placeholder": "",
+                        "passcode_placeholder": "",
+                        "close_button_label": "",
+                        "invalid_passcode": "",
+                        "disable": {
+                            "enter_code_disable": "",
+                            "button_label": "",
+                            "success": ""
+                        },
+                        "enable": {
+                            "button_label": "",
+                            "success": "",
+                            "scan_qr": "",
+                            "enter_code_manually": "",
+                            "backups": {
+                                "message": "",
+                                "download_button_label": "",
+                                "download_file_format": "",
+                                "copy_button_label": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "login": {
+                "title": "",
+                "placeholder_label": "",
+                "submit_button_label": "",
+                "auth_buttons": {
+                    "app": ""
+                },
+                "app": {
+                    "invalid_passcode": "",
+                    "passcode_placeholder": ""
+                }
+            }
+        },
+        "lib": {
+            "edit_user": {
+                "section_title": "",
+                "disable_confirmation": "",
+                "placeholder_text": "",
+                "app": {
+                    "label": ""
+                }
+            }
+        }
+    }
+}

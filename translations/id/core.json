@@ -11,6 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Custom Header",
                 "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Custom Styles",
                 "custom_styles_text": "Sesuaikan tampilan forum Anda dengan menambahkan kode Less/CSS Anda sendiri untuk diterapkan di atas Flarum's default styles.",
                 "dark_mode_label": "Dark Mode",
@@ -43,10 +44,32 @@
                 "welcome_banner_heading": "Banner Selamat Datang",
                 "welcome_banner_text": "Konfigurasikan teks yang ditampilkan di banner di halaman All Discussions. Gunakan ini untuk menyambut tamu di forum Anda."
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
                 "clear_cache_button": "Hapus Cache",
                 "description": "Sekilas tentang forum Anda.",
                 "io_error_message": "Tidak dapat menulis ke filesystem. Periksa izin filesystem Anda dan coba lagi. Atau coba jalankan dari command line.",
+                "status": {
+                    "headers": {
+                        "scheduler-status": "",
+                        "queue-driver": "",
+                        "session-driver": ""
+                    },
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
                 "title": "Dashboard",
                 "tools_button": "Peralatan"
             },
@@ -164,8 +187,10 @@
                 "search_placeholder": "Cari Ekstensi"
             },
             "permissions": {
+                "allow_hide_own_posts_label": "",
                 "allow_post_editing_label": "Edit post",
                 "allow_renaming_label": "Ganti judul",
+                "create_access_token_label": "",
                 "create_heading": "Create",
                 "delete_discussions_forever_label": "Hapus diskusi (permanen)",
                 "delete_discussions_label": "Hapus diskusi",
@@ -178,6 +203,7 @@
                 "edit_users_groups_label": "Edit grup user",
                 "global_heading": "Global",
                 "moderate_heading": "Moderasi",
+                "moderate_access_tokens_label": "",
                 "new_group_button": "Grup Baru",
                 "participate_heading": "Partisipasi",
                 "post_without_throttle_label": "Balas beberapa kali tanpa harus menunggu",
@@ -195,6 +221,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Tanpa batas waktu",
+                "allow_never_button": "",
                 "allow_some_minutes_button": "{count, plural, one {For # minute} other {For # minutes}}",
                 "allow_ten_minutes_button": "For 10 minutes",
                 "allow_until_reply_button": "Hingga balasan selanjutnya",
@@ -212,9 +239,13 @@
                 "upload_button": "Pilih gambar..."
             },
             "users": {
+                "create_user_button": "",
                 "description": "Daftar User.",
                 "grid": {
                     "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
@@ -244,9 +275,13 @@
                 },
                 "pagination": {
                     "back_button": "Halaman sebelumnya",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
                     "next_button": "Halaman selanjutnya",
                     "page_counter": "Halaman {current} dari {total}"
                 },
+                "search_placeholder": "",
                 "title": "=> core.ref.users",
                 "total_users": "Total user: {count}"
             }
@@ -411,6 +446,41 @@
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
+            "security": {
+                "browser_on_operating_system": "",
+                "cannot_terminate_current_session": "",
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
+            },
             "settings": {
                 "account_heading": "Akun",
                 "change_email_button": "=> core.ref.change_email",
@@ -445,6 +515,7 @@
                 "posts_empty_text": "Sepertinya tidak ada post yang dibuat.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -476,6 +547,9 @@
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Toggle dropdown menu"
             },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
                 "activate_button": "Activate User",
                 "email_heading": "=> core.ref.email",
@@ -491,9 +565,11 @@
                 "nothing_available": "Anda tidak diizinkan untuk mengedit User ini."
             },
             "error": {
+                "circular_dependencies_message": "",
                 "dependent_extensions_message": "Tidak dapat menonaktifkan {extension} sebelum ekstensi dependen berikut dinonaktifkan: {extensions}",
                 "extension_initialiation_failed_message": "{extension} gagal untuk menginisialisasi, periksa konsol browser untuk informasi lebih lanjut.",
                 "generic_message": "Ups! Sesuatu tidak beres. Muat ulang halaman dan coba lagi.",
+                "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Tidak dapat mengaktifkan {extension} sebelum dependensi berikut diaktifkan: {extensions}",
                 "not_found_message": "Resource yang diminta tidak ditemukan.",
                 "payload_too_large_message": "The request payload was too large.",
@@ -585,7 +661,12 @@
             }
         },
         "api": {
-            "invalid_username_message": "The username may only contain letters, numbers, and dashes."
+            "invalid_username_message": "The username may only contain letters, numbers, and dashes.",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
         },
         "email": {
             "activate_account": {
@@ -624,6 +705,7 @@
             "edit_user": "Edit User",
             "email": "Email",
             "extensions": "Ekstensi",
+            "generic_confirmation_message": "",
             "icon": "Icon",
             "icon_text": "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix.",
             "load_more": "Load More",
@@ -631,6 +713,8 @@
             "log_in": "Masuk",
             "log_out": "Keluar",
             "mark_all_as_read": "Tandai Semua telah Dibaca",
+            "never": "",
+            "new_token": "",
             "next_page": "Halaman Selanjutnya",
             "notifications": "Notifikasi",
             "okay": "OK",
@@ -643,6 +727,8 @@
             "reset_your_password": "Reset Your Password",
             "restore": "Restore",
             "save_changes": "Simpan Perubahan",
+            "search_users": "",
+            "security": "",
             "settings": "Pengaturan",
             "sign_up": "Daftar",
             "some_others": "{count, plural, one {# other} other {# others}}",

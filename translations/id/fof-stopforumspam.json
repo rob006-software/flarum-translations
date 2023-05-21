@@ -2,16 +2,27 @@
     "fof-stopforumspam": {
         "admin": {
             "settings": {
-                "title": "FriendsOfFlarum Stop Forum Spam",
+                "introduction": "",
                 "username_label": "Periksa Spam Username",
                 "ip_label": "Periksa Spam IP Address",
                 "email_label": "Periksa Spam Email",
                 "frequency_label": "Threshold",
-                "frequency_text": "The number of spam reports between all enabled checks that will trip the spam filter.",
-                "frequency_example_text": "Contoh: Jika email memiliki 1 hit, dan ip memiliki 2 hit, total akan ada 3 hit. Jika ambang diatur ke 3 atau kurang itu akan mencegah pendaftaran.",
+                "frequency_help": "",
                 "api_key_label": "API Key",
                 "api_key_text": "Anda mengaktifkan fof/spamblock, Anda sekarang memiliki opsi untuk melaporkan spammer ke StopForumSpam untuk menjaga komunitas Anda dari spam.",
-                "api_key_instructions_text": "<register>Daftar StopForumSpam</register>. Maka Anda perlu <key>mendapatkan kunci API</key>."
+                "api_key_instructions_text": "<register>Daftar StopForumSpam</register>. Maka Anda perlu <key>mendapatkan kunci API</key>.",
+                "regional_endpoint_label": "",
+                "regional_endpoint_help": "",
+                "region_closest_label": "",
+                "region_europe_label": "",
+                "region_us_label": "",
+                "confidence_label": "",
+                "confidence_help": "",
+                "email_hash_label": "",
+                "email_hash_help": "",
+                "title": "FriendsOfFlarum Stop Forum Spam",
+                "frequency_text": "The number of spam reports between all enabled checks that will trip the spam filter.",
+                "frequency_example_text": "Contoh: Jika email memiliki 1 hit, dan ip memiliki 2 hit, total akan ada 3 hit. Jika ambang diatur ke 3 atau kurang itu akan mencegah pendaftaran."
             }
         },
         "forum": {
