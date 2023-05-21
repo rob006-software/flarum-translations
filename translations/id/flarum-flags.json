@@ -1,0 +1,50 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "Laporkan Post",
+                "view_flags_label": "Lihat Post Terlapor"
+            },
+            "settings": {
+                "flag_own_posts_label": "Izinkan User untuk menandai post mereka sendiri",
+                "guidelines_url_label": "URL Pedoman Komunitas",
+                "title": "Pengaturan Flags"
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "Terima kasih sudah melaporkan. Moderator kami akan segera meninjaunya.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Detail tambahan (opsional)",
+                "reason_inappropriate_label": "Tidak pantas",
+                "reason_inappropriate_text": "Post Anda terlihat ofensif, kasar, atau melanggar pedoman komunitas <a>kami</a>.",
+                "reason_missing_message": "Harap berikan beberapa detail untuk moderator kami.",
+                "reason_off_topic_label": "Tidak sesuai topik",
+                "reason_off_topic_text": "Post ini tidak relevan dengan pembahasan saat ini dan harus dipindahkan ke tempat lain.",
+                "reason_other_label": "Alasan lain (tolong jelaskan)",
+                "reason_spam_label": "Spam",
+                "reason_spam_text": "Post ini mengandung iklan.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "Tidak ada laporan",
+                "item_text": "{username} di <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "Abaikan",
+                "flagged_by_text": "Dilaporkan oleh {username}",
+                "flagged_by_with_reason_text": "Dilaporkan oleh {username} dengan alasan {reason}"
+            },
+            "post_controls": {
+                "flag_button": "Laporkan"
+            }
+        },
+        "ref": {
+            "flag_post": "Laporkan Post",
+            "flagged_posts": "Post Terlapor"
+        }
+    }
+}

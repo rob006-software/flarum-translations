@@ -1,0 +1,93 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Hapus Tag",
+                "delete_tag_confirmation": "Anda yakin ingin menghapusnya? Tag diskusi tidak akan ikut terhapus.",
+                "description_label": "Deskripsi",
+                "hide_label": "Sembunyikan dari Semua Diskusi",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> Buat Tag"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Mengelola daftar tag yang tersedia untuk mengatur diskusi."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "Edit Tag",
+                "bypass_tag_counts_label": "Lewati persyaratan tag",
+                "restrict_by_tag_heading": "Batasi Dengan Tag",
+                "tag_discussions_label": "Tag Diskusi"
+            },
+            "tag_settings": {
+                "range_separator_text": " hingga ",
+                "required_primary_heading": "Tag Primer",
+                "required_primary_text": "Masukkan jumlah minimum dan maksimum yang akan diterapkan untuk forum diskusi.",
+                "required_secondary_heading": "Tag Sekunder",
+                "required_secondary_text": "Masukkan jumlah minimum dan maksimum yang akan diterapkan untuk forum diskusi.",
+                "title": "Pengaturan"
+            },
+            "tags": {
+                "about_tags_text": "Tag digunakan untuk mengkategorikan diskusi. Tag primer seperti kategori forum tradisional: mereka dapat diatur dalam hirarki dua tingkat. Tag sekunder tidak memiliki hirarki, dan berguna untuk mikro-kategorisasi.",
+                "create_primary_tag_button": "Buat Tag Primer",
+                "create_secondary_tag_button": "Buat Tag Sekunder",
+                "primary_heading": "Tag Primer",
+                "secondary_heading": "Tag Sekunder",
+                "settings_heading": "Pengaturan"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "Semua Tag",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "bypass_requirements": "Bypass tag requirements",
+                "choose_primary_placeholder": "{count, plural, one {Choose a primary tag} other {Choose # primary tags}}",
+                "choose_secondary_placeholder": "{count, plural, one {Choose 1 more tag} other {Choose # more tags}}",
+                "edit_title": "Edit Tag untuk {title}",
+                "submit_button": "=> core.ref.okay",
+                "title": "Pilih Tag Untuk Diskusi Anda"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "Pilih Tag"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "Edit Tag"
+            },
+            "header": {
+                "back_to_tags_tooltip": "Kembali ke Daftar Tag"
+            },
+            "index": {
+                "more_link": "More...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Tanpa tag"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username} menambahkan {tagsAdded} dan menghapus {tagsRemoved}.",
+                "added_tags_text": "{username} menambahkan {tagsAdded}.",
+                "removed_tags_text": "{username} menghapus {tagsRemoved}.",
+                "tags_text": "{count, plural, one {{tags} tag} other {{tags} tags}}"
+            },
+            "tag": {
+                "meta_description_text": "Semua diskusi dengan tag {tag}"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "Dihapus"
+        },
+        "ref": {
+            "name": "Nama",
+            "tags": "Tag"
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "fof-user-directory": {
+        "forum": {
+            "header": {
+                "back_to_user_directory_tooltip": "Kembali ke User Directory"
+            },
+            "search": {
+                "users_heading": "Cari semua user untuk \"{query}\"",
+                "field": {
+                    "placeholder": "Cari semua user"
+                },
+                "kinds": {
+                    "group": "Group",
+                    "text": "Free text"
+                }
+            },
+            "page": {
+                "nav": "Daftar User",
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "We could not find any user matching your search.",
+                "filter_button": "Filter Groups",
+                "usercard": {
+                    "discussion-count": "{count, plural, one { {count} discussion} other {{count} discussions}}",
+                    "post-count": "{count, plural, one { {count} post} other {{count} posts}}"
+                }
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view_user_directory": "Lihat daftar user"
+            },
+            "settings": {
+                "title": "Pengaturan Daftar User",
+                "link": "Tambahkan daftar user pada halaman utama agar user dapat melihat",
+                "default-sort": "Default sort",
+                "use-small-cards": "Gunakan user cards kecil",
+                "disable-global-search-source": "Jangan tambahkan User Directoryke bidang pencarian global Flarum"
+            }
+        },
+        "lib": {
+            "sort": {
+                "not_specified": "Gunakan Flarum default",
+                "default": "Default",
+                "username_az": "Username (a-z)",
+                "username_za": "Username (z-a)",
+                "newest": "Terbaru",
+                "oldest": "Terlama",
+                "most_posts": "Most posts",
+                "least_posts": "Least posts",
+                "most_discussions": "Most discussions",
+                "least_discussions": "Least discussions"
+            }
+        }
+    }
+}

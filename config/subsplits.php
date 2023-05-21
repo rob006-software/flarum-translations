@@ -389,6 +389,18 @@ return [
 		],
 		'maintainers' => [],
 	],
+	'id' => [
+		'type' => 'language',
+		'language' => 'id',
+		'repository' => 'git@github.com:flarum-lang/indonesian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'is' => [
 		'type' => 'language',
 		'language' => 'is',

@@ -74,6 +74,7 @@ return [
 	'hr' => getComponents(),
 	'hu' => getComponents(),
 	'hy' => getComponents(),
+	'id' => getComponents(),
 	'is' => getComponents(),
 	'it' => getComponents([
 		// translations included in extension

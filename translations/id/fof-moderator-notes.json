@@ -1,0 +1,33 @@
+{
+    "fof-moderator-notes": {
+        "admin": {
+            "permissions": {
+                "createnotes": "Buat catatan moderator",
+                "viewnotes": "Lihat catatan moderator",
+                "deletenotes": "Hapus catatan moderator"
+            }
+        },
+        "forum": {
+            "no_content_given": "Tidak boleh kosong.",
+            "moderatorNotes": {
+                "created_text": "{username} membuat catatan ini pada {date}",
+                "add_button": "Catatan baru",
+                "create-heading": "Buat catatan moderator",
+                "dismiss_button": "Selesai",
+                "input_heading": "Masukkan catatan Anda untuk <strong>{username}</strong>, (mendukung markdown)",
+                "noNotes": "Sepertinya tidak ada catatan di sini.",
+                "submit_button": "Simpan",
+                "delete": "Hapus",
+                "confirm": "Apakah Anda yakin ingin menghapus catatan ini?"
+            },
+            "user": {
+                "notes": "Catatan Moderator"
+            }
+        },
+        "api": {
+            "auto_note": "_Saya beralih ke user ini:_ {reason}",
+            "auto_note_actor": "_Beralih ke_ @{username}: {reason}",
+            "no_reason_provided": "Tidak ada alasan yang diberikan"
+        }
+    }
+}

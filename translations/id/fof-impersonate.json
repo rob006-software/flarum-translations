@@ -1,0 +1,26 @@
+{
+    "fof-impersonate": {
+        "admin": {
+            "permissions": {
+                "login": "Login sebagai user lain"
+            },
+            "settings": {
+                "title": "FoF Impersonate",
+                "require_reason": "Dibutuhkan alasan untuk dimasukkan sebelum melanjutkan untuk impersonate user lain.",
+                "no_settings_available": "Tidak ada pengaturan yang tersedia saat ini. Coba install fof/moderator-notes"
+            }
+        },
+        "forum": {
+            "modal": {
+                "title": "Login sebagai user lain",
+                "label": "Dengan kekuatan besar datanglah tanggung jawab yang besar. Dengan melanjutkan, Anda akan menjadi {username} sampai Anda keluar.",
+                "placeholder_optional": "(Opsional) Berikan alasan Anda beralih ke user ini",
+                "placeholder_required": "Alasan",
+                "impersonate_username": "Login sebagai {username}"
+            },
+            "user_controls": {
+                "impersonate_button": "Login sebagai user"
+            }
+        }
+    }
+}

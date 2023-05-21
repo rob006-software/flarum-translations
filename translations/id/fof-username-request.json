@@ -1,0 +1,99 @@
+{
+    "fof-username-request": {
+        "admin": {
+            "permissions": {
+                "moderate_requests": "Setujui permintaan perubahan username",
+                "request_nickname": "Minta perubahan nickname",
+                "request_username": "Minta perubahan username"
+            }
+        },
+        "forum": {
+            "nickname_modals": {
+                "action": {
+                    "title": "=> fof-username-request.ref.nickname_change_request",
+                    "help_text": "Harap pastikan bahwa perubahan nickname yang diminta mengikuti pedoman forum.",
+                    "decision_title": "Keputusan",
+                    "approval_label": "Setuju",
+                    "rejected_label": "Tolak",
+                    "submit_button": "Kirim",
+                    "reason_title": "Alasan Penolakan",
+                    "success": "Keputusan dikirim.",
+                    "name": "{name} telah meminta untuk mengubah nickname mereka menjadi \"{requestedName}\""
+                },
+                "results": {
+                    "title": "Permintaan Perubahan Nickname",
+                    "approved": "Permintaan perubahan nickname Anda telah disetujui",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Nickname Anda telah berhasil diubah menjadi: {name}",
+                    "rejected": "Permintaan perubahan nickname Anda ditolak",
+                    "reason": "Alasan Penolakan: <i>\"{reason}\"</i>.",
+                    "resubmit": "Saat ini Anda dapat mengirim ulang permintaan perubahan nickname baru dari pengaturan akun Anda jika Anda mau."
+                },
+                "request": {
+                    "title": "Minta Perubahan Nickname",
+                    "current_request": "Anda telah meminta untuk mengubah nickname Anda menjadi \"{name}\". Anda dapat memperbarui permintaan Anda atau menghapusnya.",
+                    "submit_button": "Kirim Permintaan",
+                    "delete_button": "Hapus Permintaan",
+                    "confirmation_message": "Permintaan perubahan nickname Anda telah dikirim dan menunggu persetujuan.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Permintaan perubahan nickname dihapus."
+                }
+            },
+            "username_modals": {
+                "action": {
+                    "title": "=> fof-username-request.ref.username_change_request",
+                    "help_text": "Harap pastikan bahwa perubahan username yang diminta ini mengikuti pedoman forum.",
+                    "decision_title": "Keputusan",
+                    "approval_label": "Setuju",
+                    "rejected_label": "Tolak",
+                    "submit_button": "Kirim",
+                    "reason_title": "Alasan Penolakan",
+                    "success": "Keputusan dikirim.",
+                    "name": "{name} telah meminta untuk mengubah username mereka menjadi \"{requestedName}\""
+                },
+                "results": {
+                    "title": "Permintaan Perubahan Username",
+                    "approved": "Permintaan perubahan username Anda telah disetujui",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Username Anda telah berhasil diubah menjadi: {name}",
+                    "rejected": "Permintaan perubahan username Anda ditolak",
+                    "reason": "Alasan: <i>\"{reason}\"</i>.",
+                    "resubmit": "Saat ini Anda dapat mengirim ulang permintaan perubahan username baru dari pengaturan akun Anda jika Anda mau."
+                },
+                "request": {
+                    "title": "Minta Perubahan Username",
+                    "current_request": "Anda telah meminta untuk mengubah username Anda menjadi \"{name}\". Anda dapat memperbarui permintaan Anda atau menghapusnya.",
+                    "submit_button": "Kirim Permintaan",
+                    "delete_button": "Hapus Permintaan",
+                    "confirmation_message": "Permintaan perubahan username Anda telah dikirim dan menunggu persetujuan.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Permintaan username dihapus."
+                }
+            },
+            "pending_requests": {
+                "empty_text": "Tidak ditemukan permintaan perubahan nama.",
+                "nickname_item_text": "{name} meminta perubahan nickname",
+                "nickname_exerpt": "Nickname yang diminta: {requestedName}",
+                "tooltip": "=> fof-username-request.ref.name_change_requests",
+                "title": "=> fof-username-request.ref.name_change_requests",
+                "username_item_text": "{name} meminta perubahan username",
+                "username_exerpt": "Username yang diminta: {requestedName}"
+            },
+            "settings": {
+                "nickname_request_button": "Ubah Nickname",
+                "username_request_button": "Ubah Username"
+            },
+            "user": {
+                "name_history_link": "History"
+            }
+        },
+        "ref": {
+            "name_change_request": "Permintaan Perubahan Nama",
+            "name_change_requests": "Permintaan Perubahan Nama",
+            "nickname_change_request": "Permintaan Perubahan Nickname",
+            "nickname_change_requests": "Permintaan Perubahan Nickname",
+            "username_change_request": "Permintaan Perubahan Username",
+            "username_change_requests": "Permintaan Perubahan Username"
+        }
+    }
+}

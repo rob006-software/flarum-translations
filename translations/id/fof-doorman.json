@@ -1,0 +1,59 @@
+{
+    "fof-doorman": {
+        "forum": {
+            "email": {
+                "subject": "Invite to Join",
+                "body": "Halo,\n\nAnda telah diundang untuk mendaftar ke {forum}.\n\nSaat Anda siap membuat akun, cukup klik link berikut dan masukkan kode saat mendaftar:\n\nUrl: {url}\nKode invitasi: {code}\n\nJika Anda menerima ini karena kesalahan, harap abaikan email ini.\n"
+            },
+            "sign_up": {
+                "invalid_doorkey": "Kode undangan yang Anda masukkan tidak valid.",
+                "doorkey_required": "Silakan masukkan kode undangan.",
+                "doorman_placeholder": "Kode Undangan",
+                "doorman_placeholder_optional": "Kode Undangan (opsional)"
+            }
+        },
+        "admin": {
+            "modal": {
+                "title": "Kirim Kode Undangan",
+                "group": "Mengirim undangan untuk grup {group}",
+                "help": "Menerima daftar yang dipisahkan koma, spasi, atau koma-spasi. Ketik email satu per satu atau paste list-nya lalu tekan spasi untuk menambahkannya.",
+                "placeholder": "Masukkan email-email di sini",
+                "invalid_emails": "Email berikut ini tidak valid: {emails}",
+                "max_use_conflict": "Jumlah email melebihi jumlah penggunaan maksimum untuk kode ini.",
+                "send": "Kirim Email",
+                "success": "Email berhasil dikirim"
+            },
+            "invalid_doorkey": "Kode undangan yang Anda berikan tidak valid.",
+            "doorkey_required": "Anda harus memberikan Kode Undangan",
+            "nav": {
+                "desc": "Buat kode undangan bagi user untuk mendaftar dan ditempatkan ke grup"
+            },
+            "page": {
+                "title": "Doorman",
+                "doorkey": {
+                    "used_times": "1 Use left|{remaining} Uses left",
+                    "title": "Kode Undangan",
+                    "help": {
+                        "key": "Key: Kode yang akan diketik user saat mendaftar.",
+                        "group": "Group: Grup tempat user akan ditambahkan saat mendaftar.",
+                        "max": "Max Uses: Jumlah maksimum berapa kali kode dapat digunakan, diatur ke 0 untuk penggunaan tanpa batas",
+                        "activates": "Mengaktifkan User: Secara otomatis mengaktifkan user ketika mereka mendaftar."
+                    },
+                    "warning": "Kode invitasi ini telah digunakan dalam jumlah maksimal.",
+                    "key": "Key",
+                    "max_uses": "Penggunaan Maksimal",
+                    "heading": {
+                        "key": "Key",
+                        "group": "Grup",
+                        "activate": "Mengaktifkan User",
+                        "max_uses": "Penggunaan Maksimal"
+                    },
+                    "allow-public": {
+                        "title": "Izinkan Pendaftaran Untuk Umum",
+                        "switch-label": "Buat kode undangan opsional ketika mendaftar"
+                    }
+                }
+            }
+        }
+    }
+}

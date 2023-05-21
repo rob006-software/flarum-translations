@@ -1,0 +1,28 @@
+{
+    "flarum-lock": {
+        "admin": {
+            "permissions": {
+                "lock_discussions_label": "Kunci Diskusi"
+            }
+        },
+        "forum": {
+            "badge": {
+                "locked_tooltip": "Terkunci"
+            },
+            "discussion_controls": {
+                "lock_button": "Mengunci",
+                "unlock_button": "Buka Kunci"
+            },
+            "notifications": {
+                "discussion_locked_text": "{username} terkunci"
+            },
+            "post_stream": {
+                "discussion_locked_text": "Diskusi ini telah dikunci oleh {username}.",
+                "discussion_unlocked_text": "Diskusi ini telah dibebaskan oleh {username}."
+            },
+            "settings": {
+                "notify_discussion_locked_label": "Seseorang mengunci diskusi yang Saya buat"
+            }
+        }
+    }
+}

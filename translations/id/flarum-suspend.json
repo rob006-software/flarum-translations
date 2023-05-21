@@ -1,0 +1,51 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Suspend users"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "Anda telah ditangguhkan selama {timeReadable}",
+                "user_suspended_indefinite_text": "Anda telah ditangguhkan tanpa batas waktu",
+                "user_unsuspended_text": "Anda telah dibebaskan dari penangguhan"
+            },
+            "suspension_info": {
+                "dismiss_button": "Dismiss",
+                "indefinite": "Ini adalah penangguhan tanpa batas",
+                "limited": "Penangguhan ini akan berlaku hingga {date}",
+                "title": "Akun ini ditangguhkan"
+            },
+            "suspend_user": {
+                "display_message": "Tampilkan pesan untuk User",
+                "indefinitely_label": "Penangguhan tanpa batas waktu",
+                "limited_time_days_text": " hari",
+                "limited_time_label": "Penangguhan untuk waktu yang terbatas...",
+                "not_suspended_label": "Tidak ditangguhkan",
+                "placeholder_optional": "Optional",
+                "reason": "Alasan penangguhan",
+                "status_heading": "Status Penangguhan",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Tangguhkan {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Suspended"
+            },
+            "user_controls": {
+                "suspend_button": "Menangguhkan"
+            }
+        },
+        "email": {
+            "no_reason_given": "Tidak ada alasan yang diberikan untuk penangguhan ini.",
+            "suspended": {
+                "subject": "Your account has been suspended",
+                "body": "Hey {recipient_display_name},\nAnda telah ditangguhkan karena alasan berikut::\n---\n{suspension_message}\n---\n"
+            },
+            "unsuspended": {
+                "subject": "Akun Anda telah dibatalkan penangguhannya",
+                "body": "Hey {recipient_display_name},\nAnda telah dibatalkan penangguhannya. Anda dapat kembali ke forum dengan mengklik tautan berikut:\n{forum_url}\n"
+            }
+        }
+    }
+}
