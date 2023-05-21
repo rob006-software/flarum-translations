@@ -1,0 +1,64 @@
+{
+    "fof-drafts": {
+        "admin": {
+            "permissions": {
+                "start": "Buat draft",
+                "schedule": "Penjadwalan draft"
+            },
+            "settings": {
+                "title": "FoF Drafts",
+                "enable_scheduled_drafts": "Aktifkan Draft Terjadwal",
+                "schedule_on_one_server": "Gunakan 'onOneServer()' untuk penjadwalan tugas (membutuhkan Redis / Memcache)",
+                "schedule_log_output": "Tambahkan output penjadwalan ke penyimpanan log"
+            },
+            "console": {
+                "scheduled_drafts_disabled": "Draft terjadwal saat ini dinonaktifkan dalam pengaturan."
+            },
+            "ref": {
+                "schedule_draft": "Penjadwalan draft"
+            }
+        },
+        "forum": {
+            "composer": {
+                "title": "Simpan Draft",
+                "saving": "Menyimpan...",
+                "saved": "Berhasil Disimpan!",
+                "exit_alert": "Buang perubahan?",
+                "discard_empty_draft_alert": "Buang draft kosong?"
+            },
+            "dropdown": {
+                "empty_text": "Anda tidak memiliki draft",
+                "title": "Draft",
+                "delete_all_button": "Hapus semua draf",
+                "delete_button": "Hapus draf",
+                "schedule_button": "=> fof-drafts.ref.schedule_draft",
+                "scheduled_icon_tooltip": "Dijadwalkan untuk {datetime}",
+                "scheduled_icon_tooltip_formatter": "L [at] LT",
+                "tooltip": "=> fof-drafts.forum.dropdown.title",
+                "alert": "Anda yakin ingin menghapus draft Anda?",
+                "delete_all_alert": "Apakah Anda yakin ingin menghapus semua draf Anda?"
+            },
+            "schedule_draft_modal": {
+                "title": "=> fof-drafts.ref.schedule_draft",
+                "text": "Jadwalkan draft Anda untuk diposting secara otomatis di lain waktu!",
+                "scheduled_text": "Saat ini dijadwalkan untuk memposting pada {datetime}.",
+                "scheduled_error": "Tidak dapat menjadwalkan draf: {error}.",
+                "unschedule_button": "Tidak dijadwalkan",
+                "reschedule_button": "Menjadwal ulang",
+                "schedule_button": "Jadwalkan",
+                "schedule_time_preview": "Draf ini akan diterbitkan secara otomatis pada <b>{datetime}</b>.",
+                "schedule_time_preview_formatter": "LLLL",
+                "schedule_time_preview_invalid": "Tanggal dan / atau waktu tidak valid"
+            },
+            "user": {
+                "settings": {
+                    "drafts_heading": "Draft",
+                    "draft_autosave_enable": "Aktifkan Penyimpanan Otomatis?",
+                    "draft_autosave_interval_label": "Interval Penyimpanan Otomatis (detik)",
+                    "draft_autosave_interval_button": "Update Interval",
+                    "draft_autosave_interval_invalid": "Interval harus bilangan bulat lebih besar dari 4."
+                }
+            }
+        }
+    }
+}
