@@ -2,7 +2,7 @@
     "nearata-twofactor": {
         "admin": {
             "settings": {
-                "generate_app_backups": "",
+                "generate_app_backups": "Створити коди резервних копій застосунку",
                 "generate_backups": "Згенеруйте резервні коди."
             },
             "permissions": {
@@ -11,48 +11,48 @@
         },
         "forum": {
             "settings": {
-                "section_title": "",
-                "configured": "",
-                "not_configured": "",
+                "section_title": "Двофакторна автентифікація",
+                "configured": "Налаштовано",
+                "not_configured": "Не налаштовано",
                 "app": {
-                    "button_label": "",
-                    "button_help": "",
+                    "button_label": "Застосунок для автентифікації",
+                    "button_help": "Ви отримаєте код доступу через свій застосунок для автентифікації.",
                     "setup": {
-                        "title": "",
-                        "password_placeholder": "",
-                        "passcode_placeholder": "",
-                        "close_button_label": "",
-                        "invalid_passcode": "",
+                        "title": "Налаштування програми автентифікації",
+                        "password_placeholder": "Пароль",
+                        "passcode_placeholder": "6-значний пароль",
+                        "close_button_label": "Закрити",
+                        "invalid_passcode": "Невірний пароль або код.",
                         "disable": {
-                            "enter_code_disable": "",
-                            "button_label": "",
-                            "success": ""
+                            "enter_code_disable": "Введіть код, щоб вимкнути програму двофакторної автентифікації.",
+                            "button_label": "Вимкнути",
+                            "success": "Автентифікацію вимкнено."
                         },
                         "enable": {
-                            "button_label": "",
-                            "success": "",
-                            "scan_qr": "",
-                            "enter_code_manually": "",
+                            "button_label": "Увімкнути",
+                            "success": "Автентифікацію увімкнено.",
+                            "scan_qr": "Відскануйте цей QR-код своїм пристроєм двофакторної автентифікації, щоб налаштувати обліковий запис.",
+                            "enter_code_manually": "Замість цього введіть ключ вручну",
                             "backups": {
-                                "message": "",
-                                "download_button_label": "",
-                                "download_file_format": "",
-                                "copy_button_label": ""
+                                "message": "Зберігайте ці коди відновлення в безпечному місці. Якщо ви втратите свій двофакторний пристрій, ці одноразові коди можна використати в зазначеному порядку для входу до свого облікового запису.\n",
+                                "download_button_label": "Завантажити",
+                                "download_file_format": "{website_title} | {website_url}\n\nЗберігайте ці резервні коди в безпечному, але доступному місці.\n\nСПИСОК КОДІВ\n\n{codes}\n\n* Кожен код резервного коду можна використати лише один раз.\n* Ці коди ПОВИННІ бути використані у вказаному порядку.\n* Ці коди були згенеровані на: {date}.\n",
+                                "copy_button_label": "Копіювати"
                             }
                         }
                     }
                 }
             },
             "login": {
-                "title": "",
-                "placeholder_label": "",
-                "submit_button_label": "",
+                "title": "Двофакторна автентифікація",
+                "placeholder_label": "Оберіть метод автентифікації...",
+                "submit_button_label": "Увійдіть",
                 "auth_buttons": {
-                    "app": ""
+                    "app": "Застосунок для автентифікації"
                 },
                 "app": {
-                    "invalid_passcode": "",
-                    "passcode_placeholder": ""
+                    "invalid_passcode": "Неправильний код.",
+                    "passcode_placeholder": "6-значний код"
                 }
             },
             "invalid_twofa_code": "Невірний двофакторний код.",
@@ -87,11 +87,11 @@
         },
         "lib": {
             "edit_user": {
-                "section_title": "",
-                "disable_confirmation": "",
-                "placeholder_text": "",
+                "section_title": "Двофакторна автентифікація",
+                "disable_confirmation": "Ви впевнені? Ви збираєтеся вимкнути цей метод автентифікації для користувача.",
+                "placeholder_text": "Нічого відключати",
                 "app": {
-                    "label": ""
+                    "label": "Застосунок для автентифікації"
                 }
             }
         }
