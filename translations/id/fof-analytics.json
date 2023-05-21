@@ -1,0 +1,38 @@
+{
+    "fof-analytics": {
+        "admin": {
+            "popup": {
+                "section": {
+                    "googleAnalytics": "Google Analytics",
+                    "Matomo": "Matomo"
+                },
+                "field": {
+                    "statusGoogle": "Aktifkan Google Analytics (UA/GA4)",
+                    "optTrackingCode": "Optimalkan Kode Pelacakan (opsional)",
+                    "googleTrackingCode": "Kode ID Pelacakan",
+                    "googleGTMCode": "GTM code ID (optional)",
+                    "statusPiwik": "Aktifkan Matomo",
+                    "piwikUrl": "Domain Matomo atau URL",
+                    "piwikSiteId": "Site ID",
+                    "piwikTrackSubdomain": "Tracking pengunjung di semua subdomain Flarum",
+                    "piwikPrependDomain": "Tambahkan domain situs ke judul halaman saat men-tracking",
+                    "piwikHideAliasUrl": "Dalam laporan \"Link keluar\", sembunyikan klik ke URL alias yang dikenal",
+                    "piwikAliasUrl": "Alias URL",
+                    "piwikTrackAccounts": "Tracking setiap akun user",
+                    "piwikAuthToken": "Token Otentikasi"
+                },
+                "placeholder": {
+                    "piwikAuthToken": "Isi token ini untuk mengaktifkan tab Matomo stats di panel admin.\nAnda dapat menemukannya di Settings > Personal > API Authentication Token.\n"
+                },
+                "trackAccounts": {
+                    "none": "Jangan ditracking",
+                    "username": "Tracking dengan username",
+                    "email": "Tracking dengan email"
+                }
+            },
+            "matomo-widget": {
+                "title": "Matomo"
+            }
+        }
+    }
+}
