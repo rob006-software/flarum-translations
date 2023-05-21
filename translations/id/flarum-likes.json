@@ -1,0 +1,36 @@
+{
+    "flarum-likes": {
+        "admin": {
+            "permissions": {
+                "like_posts_label": "Kasih Tanda Suka"
+            },
+            "settings": {
+                "like_own_posts_help": "Saat diaktifkan, user dapat 'menyukai' post mereka sendiri. Untuk mencegah user menempatkan 'suka' pada post mereka sendiri, nonaktifkan pengaturan ini.",
+                "like_own_posts_label": "User mungkin menyukai posting mereka sendiri"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} menyukai posting Anda"
+            },
+            "post": {
+                "like_link": "Suka",
+                "liked_by_self_text": "{users} menyukai ini.",
+                "liked_by_text": "{count, plural, one {{users} likes this} other {{users} like this}}",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Tidak Suka",
+                "you_text": "=> core.ref.you"
+            },
+            "post_likes": {
+                "title": "Orang Yang Menyukai Post Ini"
+            },
+            "settings": {
+                "notify_post_liked_label": "Seseorang menyukai post Saya"
+            },
+            "user": {
+                "likes_link": "Suka"
+            }
+        }
+    }
+}
