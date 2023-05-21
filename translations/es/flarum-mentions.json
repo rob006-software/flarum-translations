@@ -5,8 +5,8 @@
                 "mention_groups_label": "Mencionar grupos"
             },
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "Permitir formato de mención de nombre de usuario (@Usuario)",
+                "allow_username_format_text": "El formato actual para las menciones de usuarios es @\"Nombre para mostrar\"#ID.\nEsta configuración permite usar el formato anterior de @Usuario, sin embargo, aún se convertirá al nuevo formato al guardar.\n"
             }
         },
         "forum": {
@@ -15,8 +15,8 @@
                 "reply_to_post_text": "Respuesta a #{number}"
             },
             "mentioned_by": {
-                "title": "",
-                "load_more_button": ""
+                "title": "Responde a esta publicación",
+                "load_more_button": "=> core.ref.load_more"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
@@ -25,7 +25,7 @@
                 "group_mentioned_text": "{username} mencionó un grupo del que eres miembro"
             },
             "post": {
-                "mentioned_by_more_text": "",
+                "mentioned_by_more_text": "{count} más respuestas.",
                 "mentioned_by_self_text": "{count, plural, one {{users} respondiste a esto} other {{users} respondísteis a esto}}",
                 "mentioned_by_text": "{count, plural, one {{users} respondió a esto} other {{users} respondieron a esto}}",
                 "others_text": "=> core.ref.some_others",
@@ -58,7 +58,7 @@
                 "body": "Hey {recipient_display_name}!\n\n{mencioner_display_name} te mencionó en una publicación en {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "",
+                "subject": "{mentioner_display_name} mencionó un grupo del que eres miembro en {title}",
                 "body": ""
             }
         }
