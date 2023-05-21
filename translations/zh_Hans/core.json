@@ -45,14 +45,14 @@
                 "welcome_banner_text": "横幅文本将显示于「全部主题」页面顶部，可以用于欢迎论坛访客。"
             },
             "create_user": {
-                "email_placeholder": "",
+                "email_placeholder": "邮箱地址",
                 "email_confirmed_label": "需要用户确认此邮件",
-                "password_placeholder": "",
-                "submit_and_create_another_button": "",
+                "password_placeholder": "密码",
+                "submit_and_create_another_button": "再次创建并添加",
                 "submit_button": "创建用户",
                 "title": "创建新用户",
                 "use_random_password": "生成随机密码",
-                "username_placeholder": ""
+                "username_placeholder": "用户名"
             },
             "dashboard": {
                 "clear_cache_button": "清除缓存",
@@ -223,7 +223,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "无限制",
-                "allow_never_button": "",
+                "allow_never_button": "从未活动",
                 "allow_some_minutes_button": "{count, plural, one {发布 # 分钟内} other {发布 # 分钟内}}",
                 "allow_ten_minutes_button": "发布 10 分钟内",
                 "allow_until_reply_button": "直到被回复",
@@ -463,26 +463,26 @@
                 },
                 "hide_access_token": "隐藏令牌",
                 "last_activity": "最近活动",
-                "never": "从未",
-                "new_access_token_button": "",
+                "never": "从未活动",
+                "new_access_token_button": "新建令牌",
                 "new_access_token_modal": {
                     "submit_button": "新建令牌",
-                    "title": "",
+                    "title": "新建令牌",
                     "title_placeholder": "标题"
                 },
                 "revoke_access_token": "撤销",
-                "revoke_access_token_confirmation": "",
+                "revoke_access_token_confirmation": "你真的要这么做吗？本操作无法撤销",
                 "sessions_heading": "活动会话",
                 "session_terminated": "",
                 "session_termination_failed": "终止会话时出现错误。",
                 "show_access_token": "查看令牌",
                 "terminate_all_other_sessions": "终止所有其他会话",
-                "terminate_all_other_sessions_confirmation": "",
+                "terminate_all_other_sessions_confirmation": "你真的要这么做吗？本操作无法撤销",
                 "terminate_session": "终止",
                 "title": "安全",
                 "token_revoked": "令牌已撤销。",
-                "token_item_title": "",
-                "token_title_placeholder": ""
+                "token_item_title": "{title} - {token}",
+                "token_title_placeholder": "/"
             },
             "settings": {
                 "account_heading": "帐户设置",
@@ -551,7 +551,7 @@
                 "toggle_dropdown_accessible_label": "下拉菜单开关"
             },
             "data_segment": {
-                "label": ""
+                "label": "{label}:"
             },
             "edit_user": {
                 "activate_button": "激活用户",
@@ -568,7 +568,7 @@
                 "nothing_available": "您无权编辑此用户。"
             },
             "error": {
-                "circular_dependencies_message": "",
+                "circular_dependencies_message": "检测到循环依赖关系：{extensions}。正在中止操作。请禁用其中一个扩展，然后重试。",
                 "dependent_extensions_message": "无法停用「{extension}」，请先停用依赖扩展「{extensions}」",
                 "extension_initialiation_failed_message": "初始化「{extension}」失败，详情信息请查看控制台。",
                 "generic_message": "糟糕，出错啦！请刷新页面重试。",
@@ -670,9 +670,9 @@
         "api": {
             "invalid_username_message": "用户名只能由字母、数字及连字符 (-) 组成",
             "invalid_filter_type": {
-                "must_be_numeric_message": "",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_be_numeric_message": "{filter} 过滤器必须是数字。",
+                "must_not_be_array_message": "{filter} 过滤器不能为一个数组。",
+                "must_not_be_multidimensional_array_message": "{filter} 过滤器不能是一个多维数组。"
             }
         },
         "email": {
