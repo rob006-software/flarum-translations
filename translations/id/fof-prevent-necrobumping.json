@@ -1,0 +1,26 @@
+{
+    "fof-prevent-necrobumping": {
+        "forum": {
+            "composer": {
+                "warning": {
+                    "title": "Diskusi ini berusia lebih dari <b>{time}</b>.",
+                    "description": "Hal ini sangat mungkin bahwa hal ini tidak memerlukan pembahasan lebih lanjut dan dengan demikian jika terus dilanjutkan, kemungkinan tidak ada gunanya.",
+                    "checkbox_label": "Saya sadar bahwa diskusi ini agak lama tetapi masih ingin membalas.",
+                    "error": "Diskusi ini sudah terlalu tua untuk Anda balas."
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "days_label": "Days",
+                "days_help": "Suatu diskusi akan ditandai sebagai old (sudah tua) ketika jumlah hari yang ditentukan telah mencapai batas sejak posting terakhir pada diskusi itu diposting. Gunakan <code>0</code> untuk menonaktifkannya secara default.",
+                "message_title_label": "Judul Pesan Khusus",
+                "message_title_help": "Gunakan <code>[time]</code> untuk text waktu, misalkan \"14 days\".",
+                "message_description_label": "Deskripsi Pesan Khusus",
+                "message_agreement_label": "Perjanjian Pesan Khusus (Checkbox / Kotak Centang)",
+                "tags_title": "Tags",
+                "tags_help": "Abaikan hari global untuk tag tertentu. Kosongkan untuk menggunakan nilai default. Jika suatu diskusi memiliki banyak tag dengan nilai hari yang berbeda, itu akan menggunakan jumlah hari terkecil yang dikonfigurasi."
+            }
+        }
+    }
+}
