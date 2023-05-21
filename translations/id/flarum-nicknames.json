@@ -1,0 +1,42 @@
+{
+    "flarum-nicknames": {
+        "admin": {
+            "permissions": {
+                "edit_own_nickname_label": "Edit own nickname"
+            },
+            "settings": {
+                "max_label": "Panjang maksimum Nickname",
+                "min_label": "Panjang minimum Nickname",
+                "random_username_label": "Randomize Usernames",
+                "random_username_help": "Ini akan menyembunyikan input `nama User` pada saat melakukan pendaftaran forum, dan menggunakan nomor acak sebagai gantinya. Ini juga akan membuat bidang `nickname` harus diisi. Ini hanya akan berlaku jika \"Izinkan pengaturan Nickname pada pendaftaran\" diaktifkan.",
+                "regex_label": "Gunakan regular expression untuk validasi",
+                "set_on_registration_label": "Izinkan pengaturan Nickname pada saat melakukan pendaftaran forum",
+                "unique_label": "Dibutuhkan Nickname yang unik"
+            },
+            "wrong_driver": "You must select \"nickname\" as the display name driver on the <a><strong>Basics Page</strong></a> for this extension to take effect."
+        },
+        "api": {
+            "invalid_nickname_message": "Nickname ini tidak valid. Silakan hubungi administrator forum Anda untuk informasi lebih lanjut tentang aturan Nickname."
+        },
+        "forum": {
+            "change_nickname": {
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "edit_user": {
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "=> flarum-nicknames.ref.nickname"
+            },
+            "settings": {
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": "=> flarum-nicknames.ref.nickname"
+            }
+        },
+        "ref": {
+            "change_nickname": "Ganti Nickname",
+            "nickname": "Nickname"
+        }
+    }
+}
