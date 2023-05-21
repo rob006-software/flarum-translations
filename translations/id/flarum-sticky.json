@@ -1,0 +1,25 @@
+{
+    "flarum-sticky": {
+        "admin": {
+            "permissions": {
+                "sticky_discussions_label": "Sticky Diskusi"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "=> flarum-sticky.ref.sticky"
+            },
+            "discussion_controls": {
+                "sticky_button": "=> flarum-sticky.ref.sticky",
+                "unsticky_button": "Hapus Sticky"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "{username} memberikan Sticky untuk diskusi ini.",
+                "discussion_unstickied_text": "{username} menghapus Sticky pada diskusi ini."
+            }
+        },
+        "ref": {
+            "sticky": "Sticky"
+        }
+    }
+}
