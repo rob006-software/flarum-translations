@@ -1,0 +1,40 @@
+{
+    "fof-filter": {
+        "forum": {
+            "flagger_name": "Auto Moderator",
+            "flag_message": "Mengandung string yang diblokir"
+        },
+        "admin": {
+            "title": "Filter",
+            "bad_words_help": "Masukkan teks atau kata untuk difilter, satu per baris. Jika konten post user berisi string yang ingin Anda filter, itu akan ditandai untuk persetujuan. Tahan terhadap 133t.",
+            "help2": "Interval dalam beberapa menit di mana post dari user yang sama dalam diskusi yang sama akan secara otomatis digabungkan.",
+            "email_help": "Isi pesan email yang ditandai. Menerima html atau plaintext.",
+            "filter_label": "String untuk memfilter",
+            "countLabel": "Sensor Tolorance",
+            "cooldownLabel": "Merge Post Cooldown",
+            "auto_merge_title": "Auto merge",
+            "input": {
+                "placeholder": "String yang akan difilter",
+                "filter_title": "String untuk memfilter",
+                "email_label": "Pengaturan Email",
+                "switch": {
+                    "email": "Email user saat post telah difilter",
+                    "merge": "Gabungkan post secara otomatis"
+                },
+                "email_subject": "Judul",
+                "email_body": "Isi pesan"
+            },
+            "nav": {
+                "text": "Filter",
+                "desc": "Filter post dengan kata-kata"
+            },
+            "permission": {
+                "bypass_filter_label": "Bypass word filter(s)"
+            },
+            "email": {
+                "default_subject": "Mengenai Post Terbaru Anda",
+                "default_text": "Terima kasih telah mengirim! Sayangnya, post Anda dihapus karena berisi sesuatu yang tidak ingin kami lihat di forum kami.\n\nJika Anda yakin ini adalah kesalahan, Anda beruntung, setiap post yang dihapus akan ditinjau oleh moderator kami. Jika mereka menemukan bahwa ini salah hapus, mereka akan mengembalikannya.\n\nTerima kasih atas pengertian Anda.\n"
+            }
+        }
+    }
+}
