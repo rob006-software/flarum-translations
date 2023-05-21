@@ -1,0 +1,55 @@
+{
+    "fof-polls": {
+        "admin": {
+            "settings": {
+                "allow_option_image": "Izinkan URL gambar disediakan untuk setiap opsi polling"
+            },
+            "permissions": {
+                "view_results_without_voting": "Lihat hasil tanpa pemungutan suara",
+                "start": "Mulai polling",
+                "self_edit": "Izinkan user untuk merubah pollingnya",
+                "vote": "Pemungutan suara pada polling",
+                "change_vote": "Edit suara",
+                "moderate": "Edit & hapus polling"
+            }
+        },
+        "forum": {
+            "days_remaining": "Polling berakhir pada {time}",
+            "no_permission": "Anda tidak memiliki izin untuk melakukan polling",
+            "poll_ended": "Polling ini sudah berakhir",
+            "public_poll": "Lihat pemilih",
+            "composer_discussion": {
+                "add_poll": "Membuat Polling",
+                "edit_poll": "=> fof-polls.forum.moderation.edit"
+            },
+            "modal": {
+                "add_title": "Membuat Polling",
+                "add_option_label": "Masukkan Pilihan",
+                "date_placeholder": "Waktu berakhirnya polling (Opsional)",
+                "edit_title": "Edit polling",
+                "include_question": "Anda harus memasukkan pertanyaan",
+                "max": "Anda dapat memiliki maksimal 10 jawaban",
+                "min": "Memasukkan minimal 2 jawaban",
+                "no_voters": "Belum Ada Suara",
+                "option_placeholder": "Jawaban",
+                "image_option_placeholder": "URL Gambar (optional)",
+                "options_label": "Jawaban",
+                "public_poll_label": "Izinkan orang lain melihat siapa yang sudah memilih",
+                "question_placeholder": "Pertanyaan",
+                "submit": "Masukkan"
+            },
+            "moderation": {
+                "delete": "Hapus Polling",
+                "delete_confirm": "Apakah anda yakin ingin menghapus polling ini?",
+                "edit": "Edit polling"
+            },
+            "tooltip": {
+                "badge": "Polling",
+                "votes": "{count, plural, one {# vote} other {# votes}}"
+            },
+            "votes_modal": {
+                "title": "Pemilih"
+            }
+        }
+    }
+}
