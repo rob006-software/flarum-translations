@@ -6,12 +6,12 @@
             },
             "settings": {
                 "allow_username_format_label": "Permitir formato de mención de nombre de usuario (@Usuario)",
-                "allow_username_format_text": "El formato actual para las menciones de usuarios es @\"Nombre para mostrar\"#ID.\nEsta configuración permite usar el formato anterior de @Usuario, sin embargo, aún se convertirá al nuevo formato al guardar.\n"
+                "allow_username_format_text": "El formato actual para las menciones de usuarios es @\"Nombre a mostrar\"#ID.\nEsta configuración permite usar el formato anterior de @Usuario, sin embargo, aún se convertirá al nuevo formato al guardar.\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "Mencionar usuario o publicación",
+                "mention_tooltip": "Mencionar a un usuario, grupo o publicación",
                 "reply_to_post_text": "Respuesta a #{number}"
             },
             "mentioned_by": {
@@ -26,7 +26,7 @@
             },
             "post": {
                 "mentioned_by_more_text": "{count} más respuestas.",
-                "mentioned_by_self_text": "{count, plural, one {{users} respondiste a esto} other {{users} respondísteis a esto}}",
+                "mentioned_by_self_text": "{count, plural, one {{users} respondiste a esto.} other {{users} respondísteis a esto.}}",
                 "mentioned_by_text": "{count, plural, one {{users} respondió a esto} other {{users} respondieron a esto}}",
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Citar",
@@ -59,7 +59,7 @@
             },
             "group_mentioned": {
                 "subject": "{mentioner_display_name} mencionó un grupo del que eres miembro en {title}",
-                "body": ""
+                "body": "Hola {recipient_display_name}!\n\n{mentioner_display_name} mencionó un grupo del que eres miembro en {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
