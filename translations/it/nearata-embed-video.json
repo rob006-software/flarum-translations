@@ -8,9 +8,7 @@
                     "lang": "Lingua del Player",
                     "logo": "URL del Logo",
                     "quality_switching": "Consenti cambio qualità",
-                    "theme": "Colore del Tema",
-                    "modal_enabled": "",
-                    "modal_enabled_help": ""
+                    "theme": "Colore del Tema"
                 },
                 "permissions": {
                     "can_create_video_player": "Può creare player video",
@@ -27,6 +25,7 @@
         },
         "forum": {
             "button_tooltip_title": "Incorpora Video",
+            "cannot_view": "",
             "modal": {
                 "live_mode": "Modalità Live",
                 "submit_button": "Salva Modifiche",
@@ -41,18 +40,8 @@
                     "webtorrent": "WebTorrent"
                 },
                 "video_url_label": "Url del Video",
-                "video_url_placeholder": "Es. https://example.com/filename.mp4",
-                "quality_switching_tutorial": "",
-                "pointer_label": "",
-                "pointer_option_new": "",
-                "quality_option_new": "",
-                "add_quality": "",
-                "remove_quality": "",
-                "add_pointer": "",
-                "remove_pointer": "",
-                "qualities_label": ""
-            },
-            "cannot_view": ""
+                "video_url_placeholder": "Es. https://example.com/filename.mp4"
+            }
         }
     }
 }
