@@ -3,25 +3,25 @@
         "admin": {
             "date_selection_modal": {
                 "description": "Chọn một phạm vi ngày tùy chỉnh để hiển thị số liệu thống kê. Tải dữ liệu có thể mất nhiều phút trên các diễn đàn có nhiều hoạt động.\n",
-                "end_date": "",
+                "end_date": "Ngày kết thúc (bao gồm)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "Ngày kết thúc phải sau ngày bắt đầu."
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "Ngày bắt đầu (bao gồm)",
+                "submit_button": "Xác nhận phạm vi ngày",
+                "title": "Chọn phạm vi ngày tuỳ chỉnh"
             },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
-                "export_chart_button": "",
+                "export_chart_button": "Xuất biểu đồ ra SVG",
                 "last_12_months_label": "12 tháng qua",
                 "last_28_days_label": "28 ngày qua",
                 "last_7_days_label": "7 ngày qua",
                 "mini_heading": "Thống kê diễn đàn",
                 "previous_28_days_label": "28 ngày trước",
                 "previous_7_days_label": "7 ngày trước",
-                "custom_label": "",
-                "custom_label_specified": "",
+                "custom_label": "Chọn phạm vi tuỳ chỉnh…",
+                "custom_label_specified": "{fromDate} đến {toDate}",
                 "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "Hôm nay",
