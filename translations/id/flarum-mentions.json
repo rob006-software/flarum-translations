@@ -2,11 +2,11 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "Mention grup"
             },
             "settings": {
-                "allow_username_format_label": "Allow username mention format (@Username)",
-                "allow_username_format_text": "Format saat ini untuk  user mentions adalah @\"Display Name\"#ID.\nPengaturan ini memungkinkan penggunaan format lama @Username, namun akan tetap dikonversi ke format baru setelah disimpan.\n"
+                "allow_username_format_label": "izinkan format untuk mention username (@Username)",
+                "allow_username_format_text": "Format saat ini untuk user mention adalah @\"Display Name\"#ID.\nPengaturan ini memungkinkan penggunaan format lama @Username, namun akan tetap dikonversi ke format baru setelah disimpan.\n"
             }
         },
         "forum": {
@@ -15,14 +15,14 @@
                 "reply_to_post_text": "Balas ke #{number}"
             },
             "mentioned_by": {
-                "title": "",
+                "title": "Balasan ke post ini",
                 "load_more_button": ""
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} menjawab posting Anda",
                 "user_mentioned_text": "{username} me-mention Anda",
-                "group_mentioned_text": ""
+                "group_mentioned_text": "{username} me-mention grup tempat Anda terdaftar sebagai anggota"
             },
             "post": {
                 "mentioned_by_more_text": "",
