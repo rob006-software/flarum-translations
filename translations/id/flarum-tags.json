@@ -67,14 +67,14 @@
                 "back_to_tags_tooltip": "Kembali ke Daftar Tag"
             },
             "index": {
-                "more_link": "More...",
+                "more_link": "Lebih banyak..",
                 "tags_link": "=> flarum-tags.ref.tags",
                 "untagged_link": "Tanpa tag"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} menambahkan {tagsAdded} dan menghapus {tagsRemoved}.",
-                "added_tags_text": "{username} menambahkan {tagsAdded}.",
-                "removed_tags_text": "{username} menghapus {tagsRemoved}.",
+                "added_and_removed_tags_text": "{username} menambahkan {tagsAdded} dan menghapus {tagsRemoved} {time}.",
+                "added_tags_text": "{username} menambahkan {tagsAdded} {time}.",
+                "removed_tags_text": "{username} menghapus {tagsRemoved} {time}.",
                 "tags_text": "{count, plural, one {{tags} tag} other {{tags} tags}}"
             },
             "tag": {
@@ -84,7 +84,7 @@
         "lib": {
             "deleted_tag_text": "Dihapus",
             "tag_selection_modal": {
-                "bypass_requirements": "",
+                "bypass_requirements": "Abaikan persyaratan tag",
                 "choose_primary_placeholder": "",
                 "choose_secondary_placeholder": "",
                 "choose_tags_placeholder": "",
@@ -93,7 +93,7 @@
             }
         },
         "ref": {
-            "choose_tags": "",
+            "choose_tags": "Pilih Tag",
             "choose_tags_placeholder": "",
             "name": "Nama",
             "tags": "Tag"
