@@ -11,7 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Custom Header",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_cannot_use_less_features": "",
+                "custom_styles_cannot_use_less_features": "Fitur @import dan data-uri tidak diperbolehkan dalam custom LESS.",
                 "custom_styles_heading": "Custom Styles",
                 "custom_styles_text": "Sesuaikan tampilan forum Anda dengan menambahkan kode Less/CSS Anda sendiri untuk diterapkan di atas Flarum's default styles.",
                 "dark_mode_label": "Dark Mode",
@@ -49,9 +49,9 @@
                 "email_confirmed_label": "",
                 "password_placeholder": "",
                 "submit_and_create_another_button": "",
-                "submit_button": "",
-                "title": "",
-                "use_random_password": "",
+                "submit_button": "Buat user",
+                "title": "Buat user baru",
+                "use_random_password": "Hasilkan kata sandi acak",
                 "username_placeholder": ""
             },
             "dashboard": {
@@ -65,8 +65,8 @@
                         "session-driver": ""
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
+                        "active": "Aktif",
+                        "inactive": "Tidak aktif",
                         "never-run": ""
                     }
                 },
