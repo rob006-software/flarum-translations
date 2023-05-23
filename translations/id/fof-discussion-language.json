@@ -18,27 +18,27 @@
         },
         "admin": {
             "settings": {
-                "native_label": "",
+                "native_label": "Gunakan nama bahasa asli",
                 "show_flag_label": "",
                 "composer_default_label": "",
-                "locale_sort_label": "",
-                "show_any_lang_opt_label": "",
-                "tags_page_discussion_locale_label": "",
+                "locale_sort_label": "Gunakan bahasa yang terdeteksi untuk filter diskusi default",
+                "show_any_lang_opt_label": "Tampilkan opsi untuk memilih \"Bahasa Apa Saja\"",
+                "tags_page_discussion_locale_label": "Hanya tampilkan diskusi dari lokasi pengguna saat ini di halaman Tag",
                 "errors": {
-                    "missing_assets": ""
+                    "missing_assets": "Kami tidak dapat memuat aset yang dibutuhkan oleh ekstensi ini. Coba jalankan <code>php flarum assets:publish</code> dan lihat apakah itu dapat mengatasi masalah ini."
                 },
                 "config": {
-                    "language_label": "",
+                    "language_label": "Bahasa",
                     "country_label": ""
                 }
             },
             "permissions": {
-                "allow_change_language_label": ""
+                "allow_change_language_label": "Izinkan pengeditan bahasa"
             }
         },
         "api": {
             "discussion": {
-                "validation_error": ""
+                "validation_error": "Anda harus memilih bahasa yang akan digunakan dalam diskusi Anda."
             }
         }
     }
