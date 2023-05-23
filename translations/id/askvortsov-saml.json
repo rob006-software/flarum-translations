@@ -2,19 +2,19 @@
     "askvortsov-saml": {
         "admin": {
             "header": {
-                "text": ""
+                "text": "Pastikan url metadata atau metadata sudah terisi."
             },
             "title": "",
             "labels": {
                 "idp_metadata_url": "",
                 "idp_metadata": "",
-                "only_option": "",
+                "only_option": "Gunakan SAML2 SSO sebagai satu-satunya opsi untuk login?",
                 "nameid_format": "",
-                "slo": "",
-                "authn_requests_signed": "",
-                "logout_request_signed": "",
-                "logout_response_signed": "",
-                "sign_metadata": "",
+                "slo": "Aktifkan SLO? Jika IDP Anda tidak mendukung hal ini, ini tidak akan melakukan apa-apa.",
+                "authn_requests_signed": "Tanda tangani permintaan autentikasi?",
+                "logout_request_signed": "Tanda tangani permintaan logout?",
+                "logout_response_signed": "Tanda tangani respons logout?",
+                "sign_metadata": "Tanda tangani metadata?",
                 "want_assertions_encrypted": "",
                 "want_assertions_signed": "",
                 "want_messages_signed": "",
