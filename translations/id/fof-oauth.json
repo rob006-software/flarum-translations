@@ -1,24 +1,24 @@
 {
     "fof-oauth": {
         "admin": {
-            "configure_button_label": "",
+            "configure_button_label": "Mengkonfigurasi dengan FoF OAuth",
             "settings_accessibility_label": "",
             "settings": {
                 "only_icons_label": "",
                 "providers": {
-                    "callback_url_text": "",
+                    "callback_url_text": "Jika memungkinkan, atur URL callback ke {url}.",
                     "discord": {
-                        "description": "",
+                        "description": "Buat aplikasi di {link}. Tambahkan URL pengalihan di tab OAuth2.",
                         "client_id_label": "",
                         "client_secret_label": ""
                     },
                     "facebook": {
-                        "description": "",
+                        "description": "Buat aplikasi di {link}.",
                         "app_id_label": "",
                         "app_secret_label": ""
                     },
                     "github": {
-                        "description": "",
+                        "description": "Buat OAuth app di {link}.",
                         "client_id_label": "",
                         "client_secret_label": ""
                     },
@@ -26,15 +26,15 @@
                         "description": "",
                         "client_id_label": "",
                         "client_secret_label": "",
-                        "domain_label": ""
+                        "domain_label": "Domain GitLab"
                     },
                     "twitter": {
-                        "description": "",
+                        "description": "Buat aplikasi di {link}. Anda perlu menetapkan URL Ketentuan Layanan dan URL Kebijakan Privasi. Pastikan untuk menambahkan izin permintaan melalui email.",
                         "api_key_label": "",
                         "api_secret_label": ""
                     },
                     "google": {
-                        "description": "",
+                        "description": "Buat aplikasi di {link}.",
                         "client_id_label": "",
                         "client_secret_label": ""
                     },
@@ -48,7 +48,7 @@
         },
         "forum": {
             "log_in": {
-                "with_button": "",
+                "with_button": "Log In dengan {provider}",
                 "with_discord_button": "",
                 "with_facebook_button": "",
                 "with_github_button": "",
@@ -62,8 +62,8 @@
                     "linked-account": {
                         "label": "",
                         "last-used-label": "",
-                        "link-created-label": "",
-                        "orphaned-account": "",
+                        "link-created-label": "Link dibuat",
+                        "orphaned-account": "Anda pernah masuk melalui provider ini sebelumnya, tetapi forum ini telah menonaktifkan sign-in dengan metode ini.",
                         "help": "",
                         "identifier-label": "",
                         "unlink-confirm": ""
@@ -82,10 +82,10 @@
             "signup": {
                 "username_help": ""
             },
-            "unlink": "",
+            "unlink": "Hapus link",
             "error": {
                 "bad_verification_code": "",
-                "invalid_state": ""
+                "invalid_state": "Status tidak valid. Silakan coba lagi."
             }
         },
         "lib": {
