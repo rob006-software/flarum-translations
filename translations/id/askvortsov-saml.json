@@ -4,7 +4,7 @@
             "header": {
                 "text": "Pastikan url metadata atau metadata sudah terisi."
             },
-            "title": "",
+            "title": "Pengaturan SSO SAML2",
             "labels": {
                 "idp_metadata_url": "",
                 "idp_metadata": "",
@@ -15,28 +15,28 @@
                 "logout_request_signed": "Tanda tangani permintaan logout?",
                 "logout_response_signed": "Tanda tangani respons logout?",
                 "sign_metadata": "Tanda tangani metadata?",
-                "want_assertions_encrypted": "",
-                "want_assertions_signed": "",
-                "want_messages_signed": "",
-                "x509_cert": "",
-                "x509_key": ""
+                "want_assertions_encrypted": "Ingin Assertion Dienkripsi?",
+                "want_assertions_signed": "Ingin Assertion Ditanda tangani?",
+                "want_messages_signed": "Ingin Pesan Ditandatangani?",
+                "x509_cert": "x509 Certificate (diperlukan untuk penandatanganan, jika diaktifkan)",
+                "x509_key": "x509 Private Key (diperlukan untuk penandatanganan, jika diaktifkan)"
             },
             "options": {
                 "nameid_format": {
-                    "persistent": "",
-                    "emailAddress": "",
-                    "unspecified": ""
+                    "persistent": "Persisten (Disarankan jika didukung)",
+                    "emailAddress": "Email (Default. Gunakan jika Persistent tidak didukung)",
+                    "unspecified": "Tidak ditentukan"
                 }
             }
         },
         "forum": {
             "log_in": {
                 "with_saml_button": "",
-                "open_popup": "",
-                "enable_popups": ""
+                "open_popup": "Klik Di Sini untuk Login",
+                "enable_popups": "Aktifkan Popup untuk Login / Register"
             },
             "sign_up": {
-                "post_saml_title": ""
+                "post_saml_title": "Satu Langkah Terakhir..."
             }
         }
     }
