@@ -45,14 +45,14 @@
                 "welcome_banner_text": "Personnalisez le texte qui s'affiche dans la bannière sur la page de la liste de toutes les discussions. Il vous permet d'accueillir les invités sur votre forum."
             },
             "create_user": {
-                "email_placeholder": "",
-                "email_confirmed_label": "",
-                "password_placeholder": "",
-                "submit_and_create_another_button": "",
-                "submit_button": "",
-                "title": "",
-                "use_random_password": "",
-                "username_placeholder": ""
+                "email_placeholder": "=> core.ref.email",
+                "email_confirmed_label": "Demander une confirmation de l'adresse de courriel",
+                "password_placeholder": "=> core.ref.password",
+                "submit_and_create_another_button": "Créer et en ajouter un autre",
+                "submit_button": "Créer l'utilisateur",
+                "title": "Créer un nouvel utilisateur",
+                "use_random_password": "Générer un mot de passe aléatoire",
+                "username_placeholder": "=> core.ref.username"
             },
             "dashboard": {
                 "clear_cache_button": "Effacer le cache",
@@ -187,7 +187,7 @@
                 "search_placeholder": "Rechercher des extensions"
             },
             "permissions": {
-                "allow_hide_own_posts_label": "",
+                "allow_hide_own_posts_label": "Permettre la suppression de ses propres messages",
                 "allow_post_editing_label": "Autoriser la modification des messages",
                 "allow_renaming_label": "Autoriser le renommage",
                 "create_access_token_label": "Créer un jeton d'accès",
@@ -221,7 +221,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Indéfiniment",
-                "allow_never_button": "",
+                "allow_never_button": "=> core.ref.never",
                 "allow_some_minutes_button": "{count, plural, one {Pendant # minute} other {Pendant # minutes}}",
                 "allow_ten_minutes_button": "Pendant 10 minutes",
                 "allow_until_reply_button": "Jusqu'à la prochaine réponse",
@@ -239,7 +239,7 @@
                 "upload_button": "Sélectionner une image…"
             },
             "users": {
-                "create_user_button": "",
+                "create_user_button": "Nouvel utilisateur",
                 "description": "Une liste paginée de tous les utilisateurs de votre forum.",
                 "grid": {
                     "columns": {
@@ -460,7 +460,7 @@
                 },
                 "hide_access_token": "Masquer le jeton",
                 "last_activity": "Dernière activité",
-                "never": "Jamais",
+                "never": "=> core.ref.never",
                 "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
                     "submit_button": "Créer un jeton",
@@ -565,7 +565,7 @@
                 "nothing_available": "Vous n'êtes pas autorisé à modifier cet utilisateur."
             },
             "error": {
-                "circular_dependencies_message": "",
+                "circular_dependencies_message": "Dépendances circulaires détectées : {extensions}. Abandon de l'opération. Veuillez désactiver l'une des extensions puis réessayer.",
                 "dependent_extensions_message": "Impossible de désactiver {extension} tant que les extensions dépendantes suivantes ne sont pas désactivées : {extensions}",
                 "extension_initialiation_failed_message": "{extension} n'a pas réussi à s'initialiser, veuillez vérifier la console du navigateur pour plus d'informations.",
                 "generic_message": "Oups ! Une erreur est survenue. Veuillez actualiser la page puis réessayer.",
@@ -663,9 +663,9 @@
         "api": {
             "invalid_username_message": "Le nom d'utilisateur ne doit contenir que des lettres, des chiffres et des tirets.",
             "invalid_filter_type": {
-                "must_be_numeric_message": "",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_be_numeric_message": "Le filtre {filter} doit être numérique.",
+                "must_not_be_array_message": "Le filtre {filter} ne doit pas être un tableau.",
+                "must_not_be_multidimensional_array_message": "Le filtre {filter} ne doit pas être un tableau multidimensionnel."
             }
         },
         "email": {
@@ -713,7 +713,7 @@
             "log_in": "Se connecter",
             "log_out": "Se déconnecter",
             "mark_all_as_read": "Tout marquer comme lu",
-            "never": "",
+            "never": "Jamais",
             "new_token": "Nouveau jeton",
             "next_page": "Page suivante",
             "notifications": "Notifications",
