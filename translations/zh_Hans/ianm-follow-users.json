@@ -11,7 +11,7 @@
         },
         "forum": {
             "followed": "追随",
-            "followers": "粉丝",
+            "followers": "{count, plural, one {粉丝} other {粉丝}}",
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
                 "no_following": "您还没有关注任何人。"
