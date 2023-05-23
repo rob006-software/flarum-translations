@@ -15,8 +15,8 @@
                 "reply_to_post_text": "Répondre à #{number}"
             },
             "mentioned_by": {
-                "title": "",
-                "load_more_button": ""
+                "title": "Réponses à ce message",
+                "load_more_button": "=> core.ref.load_more"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
@@ -25,7 +25,7 @@
                 "group_mentioned_text": "{username} a mentionné un groupe dont vous êtes membre"
             },
             "post": {
-                "mentioned_by_more_text": "",
+                "mentioned_by_more_text": "{count} réponses supplémentaires.",
                 "mentioned_by_self_text": "{users} avez répondu à ça.",
                 "mentioned_by_text": "{users} a répondu à ça.",
                 "others_text": "=> core.ref.some_others",
