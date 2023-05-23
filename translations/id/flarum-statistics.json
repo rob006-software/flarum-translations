@@ -2,25 +2,25 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "Pilih rentang tanggal yang disesuaikan untuk menampilkan statistik. Memuat data mungkin \nmemerlukan waktu beberapa menit pada forum yang memiliki banyak aktivitas.\n",
+                "end_date": "Tanggal akhir (inklusif)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "Tanggal akhir harus setelah tanggal mulai."
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "Tanggal mulai (inklusif)",
+                "submit_button": "Konfirmasi rentang tanggal",
+                "title": "Pilih rentang tanggal yang disesuaikan"
             },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
-                "export_chart_button": "",
+                "export_chart_button": "Ekspor chart ke SVG",
                 "last_12_months_label": "12 bulan terakhir",
                 "last_28_days_label": "28 hari terakhir",
                 "last_7_days_label": "7 hari terakhir",
                 "mini_heading": "Statistik forum",
                 "previous_28_days_label": "28 hari sebelumnya",
                 "previous_7_days_label": "7 hari sebelumnya",
-                "custom_label": "",
+                "custom_label": "Pilih rentang yang disesuaikan...",
                 "custom_label_specified": "",
                 "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
@@ -28,9 +28,9 @@
                 "total_label": "Total",
                 "users_heading": "=> core.ref.users",
                 "view_full": "Lihat statistik lainnya",
-                "no_data": "",
-                "current_period": "",
-                "previous_period": ""
+                "no_data": "Tidak ada data yang tersedia untuk rentang tanggal ini.",
+                "current_period": "Periode saat ini",
+                "previous_period": "Periode sebelumnya"
             }
         }
     }
