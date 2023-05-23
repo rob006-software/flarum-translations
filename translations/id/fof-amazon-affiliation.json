@@ -3,18 +3,18 @@
         "admin": {
             "settings": {
                 "title": {
-                    "modal": "",
-                    "tags": "",
-                    "tags-mediaembed": ""
+                    "modal": "Pengaturan Afiliasi Amazon",
+                    "tags": "Tag Afiliasi",
+                    "tags-mediaembed": "Situs Amazon saat ini tidak mendukung MediaEmbed, sehingga akan selalu ditampilkan sebagai link biasa (mengikuti pengaturan di atas): CN, BR, MX, AU"
                 },
                 "field": {
-                    "keep-existing-tag": "",
-                    "keep-existing-tag-help": "",
-                    "help-mediaembed": "",
-                    "remove-tag-if-unhandled": "",
-                    "remove-tag-if-unhandled-help": "",
+                    "keep-existing-tag": "Biarkan Tag Afiliasi Amazon menggunakan link asli, alih-alih menggantinya",
+                    "keep-existing-tag-help": "Secara default, setiap tag yang ada di url asli akan digantikan oleh tag yang Anda tentukan di bawah ini.",
+                    "help-mediaembed": "Ketika digunakan bersamaan dengan fof/formatting, rich embed akan selalu menghapus tag yang ada",
+                    "remove-tag-if-unhandled": "Hapus Tag Afiliasi Amazon pada link Amazon yang tidak tercakup",
+                    "remove-tag-if-unhandled-help": "Secara default, link yang tidak tercakup akan dibiarkan apa adanya, termasuk tagnya jika ada.",
                     "tag": "",
-                    "tag-placeholder": ""
+                    "tag-placeholder": "Biarkan kosong untuk tidak menutupi link-link tersebut"
                 }
             }
         }
