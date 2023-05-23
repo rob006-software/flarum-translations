@@ -2,8 +2,8 @@
     "ramesh-dada-realtime": {
         "admin": {
             "settings": {
-                "polling-interval": "",
-                "polling-interval-help": ""
+                "polling-interval": "Interval waktu refresh",
+                "polling-interval-help": "Tentukan jumlah waktu dalam milidetik yang Anda inginkan untuk me-refresh diskusi. Semakin banyak milidetik, semakin sedikit beban pada server, tetapi post baru akan muncul lebih lambat. Standarnya adalah 2000ms = 2 detik"
             }
         }
     }
