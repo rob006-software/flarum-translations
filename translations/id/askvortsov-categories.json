@@ -17,39 +17,39 @@
             },
             "help": {
                 "child_bare_icon": "Haruskah ikon pada kategori anak ditampilkan tanpa background melingkar?",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "full_page_desktop": "Haruskah menu navigasi sidebar dikecilkan menjadi satu baris (seperti pada halaman tag tradisional)? Hal ini juga akan menyembunyikan widget (seperti Statistik Forum Friends of Flarum) dari navbar halaman kategori.",
+                "small_forum_optimized": "Hal ini akan memberikan jumlah diskusi/post yang lebih akurat, tetapi akan memperlambat forum berukuran sedang dan besar secara signifikan."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "Navigasi",
+                "layout": "Layout",
+                "parent_display": "Tampilan Kategori Induk",
+                "child_display": "Tampilan Kategori Anak",
+                "performance": "Performa"
             },
-            "title": ""
+            "title": "Pengaturan Kategori"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Semua Kategori",
+                "meta_title_text": "=> askvortsov-categories.ref.categories"
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Kembali ke Kategori"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> askvortsov-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Diskusi",
+                "post_label": "Post"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "Tidak Ada Diskusi (Belum!)"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Kategori"
         }
     }
 }
