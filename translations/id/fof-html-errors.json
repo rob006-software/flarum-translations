@@ -3,13 +3,13 @@
         "admin": {
             "settings": {
                 "error": {
-                    "403": "",
-                    "404": "",
-                    "500": "",
-                    "503": ""
+                    "403": "403 Dilarang",
+                    "404": "404 Tidak Ditemukan",
+                    "500": "500 Kesalahan Server Internal",
+                    "503": "503 Layanan Tidak Tersedia ( Sedang Dalam Pemeliharaan )"
                 },
                 "placeholder": {
-                    "empty_for_default": ""
+                    "empty_for_default": "Biarkan kosong untuk halaman error Flarum default"
                 }
             }
         }
