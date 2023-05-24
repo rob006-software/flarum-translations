@@ -2,69 +2,69 @@
     "fof-terms": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Pengaturan Persyaratan",
                 "field": {
-                    "signup-legal-text": "",
-                    "hide-updated-at": "",
-                    "date-format": "",
-                    "date-format-help": ""
+                    "signup-legal-text": "Teks tambahan pada form pendaftaran",
+                    "hide-updated-at": "Jangan tampilkan tanggal perubahan persyaratan ketika perubahan tersedia",
+                    "date-format": "Format tanggal",
+                    "date-format-help": "Anda dapat menggunakan format <a>Day.js</a> yang valid. Biarkan kolom ini kosong sebagai default."
                 }
             },
             "titles": {
-                "policies": ""
+                "policies": "Kebijakan"
             },
             "buttons": {
-                "new-policy": "",
-                "edit-policy": "",
-                "add-policy": "",
-                "save-policy": "",
-                "delete-policy": "",
-                "set-to-now": ""
+                "new-policy": "Kebijakan Baru",
+                "edit-policy": "Edit Kebijakan",
+                "add-policy": "Tambah Kebijakan",
+                "save-policy": "Simpan Kebijakan",
+                "delete-policy": "Hapus Kebijakan",
+                "set-to-now": "Atur ke saat ini"
             },
             "messages": {
-                "delete-policy-confirmation": ""
+                "delete-policy-confirmation": "Ini akan menghapus kebijakan {name} dan tanggal penerimaan yang terkait secara permanen di database. Pastikan Anda membuat backup dari tanggal-tanggal tersebut jika Anda membutuhkannya untuk alasan hukum. Apakah Anda yakin ingin menghapus kebijakan ini?\n"
             },
             "policies": {
-                "name": "",
-                "name-help": "",
-                "url": "",
-                "url-help": "",
-                "update-message": "",
-                "update-message-help": "",
-                "terms-updated-at": "",
+                "name": "Nama",
+                "name-help": "Nama ini akan ditampilkan di samping kotak centang dan sebagai judul di update modal.",
+                "url": "URL",
+                "url-help": "URL ke halaman di mana Anda dapat membaca persyaratan. Akan terbuka di tab baru ketika diklik.",
+                "update-message": "Update Pesan",
+                "update-message-help": "Pesan untuk ditampilkan kepada pengguna lama yang belum menerima persyaratan yang baru.",
+                "terms-updated-at": "Diperbarui pada",
                 "terms-updated-at-placeholder": "",
-                "terms-updated-at-help": "",
+                "terms-updated-at-help": "Tanggal perubahan persyaratan terbaru. Menentukan nilai ini akan mengharuskan semua pengguna yang menerima sebelum tanggal tersebut untuk menerima lagi. Harus di waktu sebelumnya (jika tidak, pengguna tidak akan pernah bisa menerima setelah tanggal tersebut dan dapat melewati modal).\n",
                 "export-url": "",
                 "export-url-help": ""
             },
             "permissions": {
-                "see-user-policies-state": "",
-                "postpone-policies-accept": "",
-                "export-policies": ""
+                "see-user-policies-state": "Lihat status kebijakan pengguna",
+                "postpone-policies-accept": "Dapat menunda untuk menerima persyaratan yang baru",
+                "export-policies": "Ekspor semua data pengguna dan kebijakan"
             }
         },
         "forum": {
             "signup": {
-                "i-accept": "",
-                "must-accept": ""
+                "i-accept": "Saya menerima <a>{policy}</a>",
+                "must-accept": "{policy} harus diterima."
             },
             "accept-modal": {
-                "title": "",
-                "updated-at": "",
-                "updated-recently": "",
-                "i-accept": "",
-                "accept": "",
+                "title": "Pembaruan Persyaratan",
+                "updated-at": "Persyaratan diperbarui pada {date}",
+                "updated-recently": "Persyaratan telah diperbarui sejak kunjungan terakhir Anda",
+                "i-accept": "Saya menerima kebijakan <a>{policy}</a>",
+                "accept": "Konfirmasi",
                 "close": ""
             },
             "state-modal": {
                 "title": "",
                 "accepted-at": "",
-                "not-accepted": ""
+                "not-accepted": "Tidak diterima"
             },
             "update-alert": {
-                "must-accept-message": "",
-                "can-accept-message": "",
-                "review": ""
+                "must-accept-message": "Kami telah membatasi akses ke akun Anda untuk sementara waktu, sementara itu Anda dapat memeriksa persyaratan yang baru.",
+                "can-accept-message": "Kami baru saja mengubah persyaratan ini. Anda harus menyetujuinya untuk terus menggunakan situs web ini.",
+                "review": "Klik di sini untuk meninjau dan menerima persyaratan yang baru"
             },
             "user_controls": {
                 "state_button": ""
