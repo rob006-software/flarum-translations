@@ -2,9 +2,9 @@
     "askvortsov-moderator-warnings": {
         "admin": {
             "permissions": {
-                "manage_warnings": "",
-                "view_warnings": "",
-                "delete_warnings": ""
+                "manage_warnings": "Membuat dan menghapus peringatan moderator",
+                "view_warnings": "Tampilkan peringatan moderator",
+                "delete_warnings": "Hapus peringatan moderator secara permanen"
             }
         },
         "emails": {
@@ -20,50 +20,50 @@
         "forum": {
             "notifications": {
                 "warning_text": "",
-                "warning_no_strikes_text": ""
+                "warning_no_strikes_text": "Anda diperingatkan oleh {mod_username} (tidak ada sanksi)"
             },
             "post": {
                 "warning": "",
-                "warning_no_strikes": ""
+                "warning_no_strikes": "Memperingatkan tanpa ada sanksi oleh {mod_username}"
             },
             "post_controls": {
-                "warning_button": ""
+                "warning_button": "Peringatkan Pengguna"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Peringatan Moderator"
             },
             "settings": {
-                "warning_notification_label": ""
+                "warning_notification_label": "Seorang moderator memperingatkan saya"
             },
             "validation": {
-                "public_comment_required": "",
-                "invalid_strike_count": ""
+                "public_comment_required": "Anda adalah yang paling banyak memberikan komentar secara publik.",
+                "invalid_strike_count": "Jumlah sanksi harus berupa bilangan bulat antara 0 dan 5."
             },
             "warning_controls": {
-                "delete_button": "",
+                "delete_button": "Hapus",
                 "restore_button": "",
-                "delete_forever_button": ""
+                "delete_forever_button": "Hapus Secara Permanen"
             },
             "warning_list": {
-                "add_button": "",
-                "no_warnings": "",
+                "add_button": "Peringatan Baru",
+                "no_warnings": "Sepertinya tidak ada peringatan di sini.",
                 "warnings": "",
-                "warnings_no_strikes": ""
+                "warnings_no_strikes": "Peringatan Moderator: Tidak Ada Sanksi yang Diterima"
             },
             "warning_list_item": {
                 "list_item_heading": "",
                 "list_item_heading_hidden": "",
-                "public_comment": "",
-                "private_comment": "",
-                "linked_post": ""
+                "public_comment": "Peringatan",
+                "private_comment": "Komentar Yang Dapat Dilihat Oleh Moderator",
+                "linked_post": "Post Terkait"
             },
             "warning_modal": {
-                "confirmation_message": "",
-                "heading": "",
-                "strikes_heading": "",
-                "public_comment_heading": "",
-                "private_comment_heading": "",
-                "submit_button": ""
+                "confirmation_message": "Peringatan Anda telah disimpan. Anda mungkin perlu me-refresh halaman untuk melihatnya.",
+                "heading": "Peringatkan <strong>{username}</strong>",
+                "strikes_heading": "Berapa banyak sanksi yang harus diterapkan?",
+                "public_comment_heading": "Mengapa <strong>{username}</strong> menerima peringatan ini? Komentar-komentar ini akan terlihat oleh pengguna dan moderator lainnya.",
+                "private_comment_heading": "Mengapa <strong>{username}</strong> menerima peringatan ini? Komentar-komentar ini HANYA akan terlihat oleh moderator lain.",
+                "submit_button": "Simpan peringatan"
             }
         }
     }
