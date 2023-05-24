@@ -2,40 +2,40 @@
     "fof-linguist": {
         "admin": {
             "permissions": {
-                "view_string_keys": ""
+                "view_string_keys": "Lihat kunci string terjemahan"
             },
             "tabs": {
-                "strings": "",
-                "coverage": "",
+                "strings": "Terjemahan",
+                "coverage": "Cakupan",
                 "export": "",
                 "import": ""
             },
             "buttons": {
-                "apply": "",
+                "apply": "Terapkan",
                 "reset": "",
                 "copy-original": "",
                 "load-more": "",
                 "delete-redundant": "",
                 "delete-redundant-confirm": "",
-                "delete-all": "",
-                "delete-all-confirm": ""
+                "delete-all": "Hapus semua terjemahan",
+                "delete-all-confirm": "Ini akan menghapus SEMUA terjemahan khusus {count} Anda. Pastikan Anda telah mengekspor atau mem-backup semua yang mungkin ingin Anda simpan.\n"
             },
             "locales": {
-                "all": ""
+                "all": "Semua"
             },
             "placeholder": {
-                "not-translated": "",
-                "all-locales": "",
+                "not-translated": "Tidak diterjemahkan",
+                "all-locales": "Teks yang didefinisikan di sini akan ditampilkan dalam semua bahasa",
                 "hint": ""
             },
             "filters": {
                 "search": "",
-                "with-own-translations": "",
+                "with-own-translations": "Terjemahan saya",
                 "missing": "",
                 "missing-middle-label": "",
                 "negation-options": {
-                    "with": "",
-                    "without": ""
+                    "with": "Dengan",
+                    "without": "Tanpa"
                 },
                 "type-options": {
                     "any": "",
@@ -43,18 +43,18 @@
                     "own": ""
                 },
                 "operation-options": {
-                    "or": "",
+                    "or": "Salah satu dari",
                     "and": ""
                 },
-                "for-extension": "",
+                "for-extension": "Untuk ekstensi",
                 "frontend": "",
-                "frontend-all-except-admin": "",
+                "frontend-all-except-admin": "Semua, kecuali Admin",
                 "mass-edit": "",
-                "results": ""
+                "results": "Menampilkan {shown} dari {total} terjemahan yang cocok"
             },
             "clear-cache": {
-                "text": "",
-                "button": ""
+                "text": "Terjemahan baru belum diterapkan. Catatan: menghapus cache dapat memperlambat forum Anda untuk sementara waktu.\n",
+                "button": "Hapus cache"
             },
             "coverage": {
                 "column-options": {
