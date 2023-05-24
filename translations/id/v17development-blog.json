@@ -61,61 +61,61 @@
             },
             "comment_section": {
                 "comments": "Komentar",
-                "locked": ""
+                "locked": "Bagian komentar dinonaktifkan untuk artikel ini"
             },
             "review_article": {
                 "pending_review_title": "",
-                "pending_review": "",
-                "approve_article": "",
-                "approve_article_approved": ""
+                "pending_review": "Artikel ini sedang dalam proses peninjauan dan belum dipublikasikan",
+                "approve_article": "Setujui artikel",
+                "approve_article_approved": "Artikel telah disetujui dan telah dipublikasikan"
             },
             "tools": {
-                "rename_article": "",
-                "edit_article": "",
-                "update_category": "",
-                "article_settings": "",
-                "approve_article": "",
-                "hide_article": "",
-                "recover_article": "",
-                "delete_forever": "",
-                "enable_comments": "",
-                "disable_comments": ""
+                "rename_article": "Ubah nama artikel",
+                "edit_article": "Edit artikel",
+                "update_category": "Perbarui kategori",
+                "article_settings": "Pengaturan artikel",
+                "approve_article": "Setujui artikel",
+                "hide_article": "Sembunyikan artikel",
+                "recover_article": "Pulihkan artikel",
+                "delete_forever": "Hapus selamanya",
+                "enable_comments": "Aktifkan komentar",
+                "disable_comments": "Nonaktifkan komentar"
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "Mengalihkan Anda ke artikel blog kami...",
+                    "link": "<a>Klik di sini</a> jika halaman ini gagal mengalihkan Anda"
                 }
             },
             "composer": {
-                "no_title": "",
-                "enter_message_here": "",
-                "post_article": "",
-                "select_category": "",
-                "edit_categories": "",
-                "update_settings": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "comment_section": "",
-                "no_blog_tags_selected": "",
-                "post_without_blog_info": ""
+                "no_title": "Tidak ada judul",
+                "enter_message_here": "Masukkan pesan Anda di sini",
+                "post_article": "Post artikel",
+                "select_category": "Pilih kategori",
+                "edit_categories": "Edit kategori",
+                "update_settings": "Perbarui pengaturan blog",
+                "write": "Tulis",
+                "view": "Lihat",
+                "nothing_to_preview": "Tidak ada yang dapat dipratinjau",
+                "comment_section": "Bagian komentar tidak tersedia saat menulis artikel.",
+                "no_blog_tags_selected": "Tidak satu pun dari tag yang Anda pilih adalah tag blog. Silakan pilih setidaknya satu.",
+                "post_without_blog_info": "Apakah Anda yakin ingin memposting postingan blog ini? Anda belum memasukkan ringkasan blog atau gambar."
             },
             "article_settings": {
-                "title": "",
+                "title": "Pengaturan postingan blog",
                 "fields": {
                     "summary": {
-                        "title": "",
-                        "placeholder": "",
-                        "helper_text": ""
+                        "title": "Ringkasan artikel",
+                        "placeholder": "Silakan masukkan ringkasan",
+                        "helper_text": "Ringkasan ini akan terlihat di halaman ringkasan blog dan akan digunakan untuk tujuan SEO."
                     },
                     "image": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "Gambar artikel",
+                        "helper_text": "Resolusi gambar terbaik untuk media sosial: 1200x630"
                     },
                     "highlight": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "Post yang di-highlight",
+                        "helper_text": "Berikan gambar yang besar pada postingan ini di halaman ringkasan blog."
                     }
                 }
             }
