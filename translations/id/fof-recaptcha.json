@@ -2,20 +2,20 @@
     "fof-recaptcha": {
         "admin": {
             "settings": {
-                "help_text": "",
+                "help_text": "Dapatkan kredensial Google reCAPTCHA Anda <a>di sini</a>.",
                 "secret_key_label": "",
                 "site_key_label": "",
                 "type_label": ""
             },
             "permissions": {
-                "post_without_captcha": ""
+                "post_without_captcha": "Buat post dan diskusi tanpa captcha"
             }
         },
         "forum": {
-            "error": ""
+            "error": "Terjadi kesalahan saat memasukkan reCAPTCHA. Coba lagi."
         }
     },
     "validation": {
-        "recaptcha": ""
+        "recaptcha": "Validasi reCAPTCHA gagal."
     }
 }
