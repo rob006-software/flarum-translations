@@ -17,11 +17,11 @@
         "forum": {
             "edit": {
                 "title": "",
-                "name": "",
+                "name": "Nama",
                 "visibility": "",
                 "visibilityOptions": {
-                    "private": "",
-                    "public": "",
+                    "private": "Daftar pribadi",
+                    "public": "Daftar publik",
                     "series": ""
                 },
                 "ordering": "",
@@ -32,16 +32,16 @@
                     "addedAsc": "",
                     "addedDesc": ""
                 },
-                "save": "",
-                "delete": "",
-                "deleteConfirmation": ""
+                "save": "Simpan",
+                "delete": "Hapus",
+                "deleteConfirmation": "Apakah Anda benar-benar ingin menghapus daftar ini secara permanen?"
             },
             "discussion": {
-                "add": "",
-                "new": ""
+                "add": "Tambahkan ke dalam list",
+                "new": "List baru"
             },
             "profile": {
-                "link": ""
+                "link": "List"
             },
             "badge": {
                 "private": "",
@@ -54,9 +54,9 @@
             }
         },
         "api": {
-            "manualLimit": "",
-            "seriesAnyAddNotAllowed": "",
-            "seriesAnyConversionNotAllowed": ""
+            "manualLimit": "Daftar yang diurutkan secara manual tidak dapat berisi lebih dari 50 diskusi",
+            "seriesAnyAddNotAllowed": "Anda hanya dapat menambahkan diskusi Anda sendiri ke dalam serangkaian list",
+            "seriesAnyConversionNotAllowed": "Tidak dapat mengonversi list menjadi seri karena berisi diskusi yang bukan milik Anda"
         }
     },
     "core": {
