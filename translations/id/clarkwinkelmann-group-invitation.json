@@ -1,8 +1,8 @@
 {
     "clarkwinkelmann-group-invitation": {
         "forum": {
-            "title": "",
-            "generic-title": "",
+            "title": "Anda telah diundang untuk bergabung dengan grup {group}!",
+            "generic-title": "Undangan grup",
             "user": {
                 "already-connected": "",
                 "not-connected": "",
@@ -10,20 +10,20 @@
                 "already-member": ""
             },
             "invitation": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "Maaf, undangan grup ini tidak ditemukan.",
+                "no-usages-left": "Undangan grup ini tidak dapat digunakan lagi."
             },
             "apply": "",
-            "success-alert": ""
+            "success-alert": "Anda telah berhasil bergabung dalam grup!"
         },
         "admin": {
             "permissions": {
-                "use": ""
+                "use": "Gunakan link undangan grup"
             },
             "settings": {
                 "head": {
-                    "code": "",
-                    "group": "",
+                    "code": "Kode",
+                    "group": "Grup",
                     "usage": ""
                 },
                 "placeholder": {
@@ -31,16 +31,16 @@
                     "group": "",
                     "usage": ""
                 },
-                "empty": "",
+                "empty": "Tidak ada undangan yang dibuat sejauh ini.",
                 "unlimited": "",
-                "create": "",
-                "delete": ""
+                "create": "Buat",
+                "delete": "Hapus"
             }
         },
         "api": {
             "error": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "Kode undangan tidak ditemukan",
+                "no-usages-left": "Undangan tidak dapat digunakan lagi"
             }
         }
     }
