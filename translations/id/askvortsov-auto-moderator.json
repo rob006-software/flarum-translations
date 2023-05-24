@@ -2,11 +2,11 @@
     "askvortsov-auto-moderator": {
         "admin": {
             "action_drivers": {
-                "activate_email": "",
-                "add_to_group": "",
-                "remove_from_group": "",
-                "suspend": "",
-                "unsuspend": ""
+                "activate_email": "Aktifkan Email",
+                "add_to_group": "Tambahkan ke Grup",
+                "remove_from_group": "Hapus dari Grup",
+                "suspend": "Tangguhkan",
+                "unsuspend": "Cabut penangguhan"
             },
             "metric_drivers": {
                 "discussions_entered": "",
@@ -19,9 +19,9 @@
                 "moderator_strikes": ""
             },
             "requirement_drivers": {
-                "email_confirmed": "",
+                "email_confirmed": "Email Terkonfirmasi",
                 "in_group": "",
-                "suspended": "",
+                "suspended": "Ditangguhkan",
                 "email_matches_regex": ""
             },
             "in_group_settings": {
@@ -32,34 +32,34 @@
             },
             "suspend_selector": {
                 "days": "",
-                "indefinitely": ""
+                "indefinitely": "Menangguhkan Tanpa Batas Waktu?"
             },
             "criterion_status": {
                 "heading": "",
-                "invalid": "",
-                "no_actions": "",
-                "no_metrics_or_reqs": "",
-                "valid": "",
+                "invalid": "Kriteria saat ini tidak valid. Silakan periksa driver di bawah ini untuk mengetahui adanya error.",
+                "no_actions": "Tidak ada tindakan yang didefinisikan untuk kriteria ini. Tidak ada yang akan terjadi ketika pengguna menambah atau menghapus kriteria ini.",
+                "no_metrics_or_reqs": "Tidak ada metrik atau persyaratan yang ditetapkan untuk kriteria ini. Ini berarti SEMUA pengguna akan memenuhi syarat untuk kriteria ini.",
+                "valid": "Kriteria ini valid!",
                 "action_validation_errors": "",
                 "requirement_validation_errors": ""
             },
             "criterion_page": {
-                "driver_missing_ext": "",
-                "back": "",
-                "name_label": "",
-                "icon_label": "",
-                "description_label": "",
-                "new_criterion": "",
+                "driver_missing_ext": "Driver ini bergantung pada ekstensi yang saat ini belum diaktifkan.",
+                "back": "Kembali ke Daftar Kriteria",
+                "name_label": "Nama",
+                "icon_label": "Ikon",
+                "description_label": "Deskripsi",
+                "new_criterion": "Buat Kriteria",
                 "negated": "",
                 "loading": "",
                 "delete_button": "",
                 "metrics_and_requirements_label": "",
-                "metrics_and_requirements_help": "",
+                "metrics_and_requirements_help": "Ini menentukan apakah pengguna memenuhi syarat untuk kriteria ini. Metrik mewakili rentang nilai, persyaratan adalah kondisi boolean.",
                 "metrics_heading": "",
                 "requirements_heading": "",
-                "add_metric": "",
+                "add_metric": "Tambahkan Metrik",
                 "actions_label": "",
-                "actions_help": "",
+                "actions_help": "Tindakan pada gain dieksekusi ketika pengguna memenuhi syarat untuk kriteria baru. Tindakan pada kerugian dijalankan ketika pengguna tidak lagi memenuhi syarat untuk suatu kriteria.",
                 "actions_on_gain_heading": "",
                 "actions_on_loss_heading": "",
                 "add_action": ""
@@ -68,12 +68,12 @@
                 "text": ""
             },
             "automoderator_page": {
-                "criterion_invalid": "",
-                "list_heading": "",
-                "create_criterion_button": ""
+                "criterion_invalid": "Kriteria saat ini tidak valid. Silakan periksa pengaturannya untuk informasi lebih lanjut",
+                "list_heading": "Kriteria",
+                "create_criterion_button": "Buat Kriteria Baru"
             },
             "automoderator_instructions": {
-                "header": "",
+                "header": "Petunjuk Ekstensi",
                 "text": ""
             }
         },
@@ -82,7 +82,7 @@
             "managed_groups": {
                 "header": "",
                 "group_item": "",
-                "groups_not_editable": ""
+                "groups_not_editable": "Grup yang dikelola dengan kriteria automoderator tidak dapat ditambahkan/dihapus ke/dari pengguna secara manual untuk mencegah ketidakkonsistenan."
             }
         }
     }
