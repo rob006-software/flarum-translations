@@ -5,8 +5,8 @@
                 "colored_header_label": "Header Berwarna",
                 "colors_heading": "Warna",
                 "colors_primary_label": "Warna Utama",
-                "colors_secondary_label": "Warna Kedua",
-                "colors_text": "Pilih dua warna untuk tema forum Anda. Yang pertama akan digunakan sebagai warna highlight, sedangkan yang kedua akan digunakan untuk menata elemen latar belakang.",
+                "colors_secondary_label": "Warna Sekunder",
+                "colors_text": "Pilih dua warna untuk tema forum Anda. Yang pertama akan digunakan sebagai warna untuk highlight, sedangkan yang kedua akan digunakan untuk menata elemen latar belakang.",
                 "custom_footer_heading": "Custom Footer",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Custom Header",
@@ -14,7 +14,7 @@
                 "custom_styles_cannot_use_less_features": "Fitur @import dan data-uri tidak diperbolehkan dalam custom LESS.",
                 "custom_styles_heading": "Custom Styles",
                 "custom_styles_text": "Sesuaikan tampilan forum Anda dengan menambahkan kode Less/CSS Anda sendiri untuk diterapkan di atas Flarum's default styles.",
-                "dark_mode_label": "Dark Mode",
+                "dark_mode_label": "Mode Gelap",
                 "description": "Sesuaikan warna forum, logo, dan variabel lainnya.",
                 "edit_css_button": "Edit Custom CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
@@ -23,7 +23,7 @@
                 "favicon_heading": "Favicon",
                 "favicon_text": "Upload gambar untuk ditampilkan sebagai forum shortcut icon.",
                 "logo_heading": "Logo",
-                "logo_text": "Upload gambar yang akan ditampilkan sebagai pengganti judul forum.",
+                "logo_text": "Upload gambar untuk ditampilkan sebagai pengganti judul forum.",
                 "title": "Tampilan"
             },
             "basics": {
@@ -36,13 +36,13 @@
                 "forum_description_text": "Masukkan satu atau dua kalimat pendek yang menggambarkan komunitas Anda. Ini akan muncul di tag meta dan muncul di mesin pencari.",
                 "forum_title_heading": "Judul Forum",
                 "home_page_heading": "Home Page",
-                "home_page_text": "Pilih halaman yang pertama kali dilihat oleh User ketika mereka mengunjungi forum Anda.",
+                "home_page_text": "Pilih halaman yang akan pertama kali dilihat oleh User ketika mereka mengunjungi forum Anda.",
                 "show_language_selector_label": "Tampilkan pilihan bahasa",
                 "slug_driver_heading": "Slug Driver: {model}",
                 "slug_driver_text": "Pilih driver yang akan digunakan untuk slugging model ini.",
                 "title": "Pengaturan Dasar",
                 "welcome_banner_heading": "Banner Selamat Datang",
-                "welcome_banner_text": "Konfigurasikan teks yang ditampilkan di banner di halaman All Discussions. Gunakan ini untuk menyambut tamu di forum Anda."
+                "welcome_banner_text": "Atur teks yang akan ditampilkan di banner di halaman All Discussions. Gunakan ini untuk menyambut tamu di forum Anda."
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
