@@ -4,12 +4,12 @@
             "ban_ip_button": "=> fof-ban-ips.ref.ban_ip_button",
             "unban_ip_button": "=> fof-ban-ips.ref.unban_ip_button",
             "modal": {
-                "ban_options_only_ip": "",
-                "ban_options_all_ip": "",
-                "ban_ip_no_users": ""
+                "ban_options_only_ip": "Hanya mencekal IP saat ini (<code>{ip}</code>)",
+                "ban_options_all_ip": "Cekal semua IP yang digunakan oleh <i>{username}</i>",
+                "ban_ip_no_users": "Tidak ada orang lain yang akan terkena pencekalan"
             },
             "user_badge": {
-                "banned_tooltip": ""
+                "banned_tooltip": "Dicekal"
             },
             "user_controls": {
                 "ban_button": "",
@@ -19,25 +19,25 @@
         "admin": {
             "permissions": {
                 "ban_ip_label": "",
-                "view_banned_ip_list_label": ""
+                "view_banned_ip_list_label": "Lihat daftar alamat IP yang dicekal"
             },
             "page": {
                 "create_button": "",
-                "creator_label": "",
+                "creator_label": "Pembuat",
                 "user_label": "",
                 "address_label": "",
                 "reason_label": "",
-                "date_label": ""
+                "date_label": "Tanggal"
             },
             "modal": {
-                "update_title": "",
-                "ban_ip_no_users": ""
+                "update_title": "Perbarui IP yang Dicekal",
+                "ban_ip_no_users": "Tidak ada yang akan dicekal"
             },
-            "empty_text": ""
+            "empty_text": "Tidak ditemukan IP yang dicekal."
         },
         "error": {
-            "banned_ip_message": "",
-            "no_ips_found_message": ""
+            "banned_ip_message": "Autorisasi gagal.",
+            "no_ips_found_message": "Tidak ditemukan IP untuk pengguna."
         },
         "lib": {
             "modal": {
@@ -45,14 +45,14 @@
                 "unban_title": "",
                 "address_label": "",
                 "reason_label": "",
-                "check_button": "",
-                "save_button": "",
-                "ban_ip_confirmation": "",
+                "check_button": "Periksa",
+                "save_button": "Simpan",
+                "ban_ip_confirmation": "Apakah Anda yakin ingin mencekal alamat IP ini agar tidak digunakan di forum? Hal ini akan ikut mencekal pengguna dengan alamat IP ini agar tidak dapat login dan melakukan pendaftaran.",
                 "ban_ip_users": "",
-                "unban_ip_confirmation": "",
-                "unban_options_only_ip": "",
-                "unban_options_all_ip": "",
-                "unban_ip_no_users": "",
+                "unban_ip_confirmation": "Apakah Anda yakin ingin membuka pencekalan untuk pengguna ini dan semua pengguna lain yang tidak dicekal oleh IP lainnya?",
+                "unban_options_only_ip": "Hanya buka pencekalan IP saat ini (<code>{ip}</code>)",
+                "unban_options_all_ip": "Buka pencekalan untuk semua IP yang digunakan oleh <i>{username}</i>",
+                "unban_ip_no_users": "Tidak ada orang lain yang akan dicekal",
                 "unban_ip_users": "",
                 "unbanned_ips": "",
                 "ban_button": "",
@@ -60,14 +60,14 @@
             }
         },
         "ref": {
-            "ban_label": "",
-            "ban_ip_addresses": "",
-            "ban_ip_button": "",
-            "unban_label": "",
-            "unban_ip_addresses": "",
-            "unban_ip_button": "",
-            "address_label": "",
-            "reason_label": ""
+            "ban_label": "Cekal",
+            "ban_ip_addresses": "Cekal Alamat IP",
+            "ban_ip_button": "Cekal Alamat IP",
+            "unban_label": "Buka Pencekalan",
+            "unban_ip_addresses": "Buka Pencekalan Alamat IP",
+            "unban_ip_button": "Buka Pencekalan Alamat IP",
+            "address_label": "Alamat IP",
+            "reason_label": "Alasan"
         }
     }
 }
