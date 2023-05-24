@@ -1,19 +1,19 @@
 {
     "flamarkt-backoffice": {
         "admin": {
-            "settingsInBackoffice": ""
+            "settingsInBackoffice": "Pengaturan di backoffice"
         },
         "backoffice": {
-            "settingsNotAvailableForNonAdmin": "",
+            "settingsNotAvailableForNonAdmin": "Ekstensi ini memiliki pengaturan, tetapi hanya akun admin yang dapat melihat dan mengeditnya.",
             "nav": {
                 "dashboard": "",
-                "users": "",
+                "users": "Pengguna",
                 "searchPlaceholder": ""
             },
             "users": {
-                "title": "",
-                "new": "",
-                "searchPlaceholder": "",
+                "title": "Pengguna",
+                "new": "Buat pengguna",
+                "searchPlaceholder": "Cari pengguna...",
                 "head": {
                     "email": ""
                 },
@@ -24,7 +24,7 @@
                 }
             },
             "permissions": {
-                "backoffice": ""
+                "backoffice": "Gunakan backoffice"
             }
         },
         "lib": {
