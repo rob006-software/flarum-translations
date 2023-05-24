@@ -31,7 +31,7 @@
                 "default_language_heading": "Bahasa Default",
                 "description": "Tetapkan judul forum, bahasa, dan pengaturan dasar lainnya.",
                 "display_name_heading": "Nama Tampilan User",
-                "display_name_text": "Pilih driver yang harus digunakan untuk nama tampilan User. Secara default, nama User ditampilkan.",
+                "display_name_text": "Pilih driver yang akan digunakan sebagai nama tampilan User. Secara default, nama User akan ditampilkan.",
                 "forum_description_heading": "Deskripsi Forum",
                 "forum_description_text": "Masukkan satu atau dua kalimat pendek yang menggambarkan komunitas Anda. Ini akan muncul di tag meta dan muncul di mesin pencari.",
                 "forum_title_heading": "Judul Forum",
@@ -75,7 +75,7 @@
             },
             "debug-warning": {
                 "detail": "Saat mode <code>debug</code> aktif, Flarum akan membangun kembali aset <code>JavaScript</code> dan <code>CSS</code> pada setiap request yang dijalankan, dan juga berpotensi membocorkan informasi lain, seperti rahasia di dalam database, environment variable, dll.\n\nKetika Anda siap untuk masuk ke dalam tahap produksi, sangat disarankan untuk menonaktifkan <code>debug</code> pada file <code>config.php</code> Anda. Lihat <link>Flarum docs</link> untuk informasi lebih lanjut.\n",
-                "label": "Mode debug Aktif"
+                "label": "Mode debug aktif"
             },
             "edit_css": {
                 "customize_text": "Sesuaikan tampilan forum Anda dengan menambahkan kode Less/CSSuntuk diterapkan di atas <a>default styles</a> Flarum.",
@@ -90,8 +90,8 @@
             "edit_group": {
                 "color_label": "=> core.ref.color",
                 "delete_button": "Hapus Grup",
-                "delete_confirmation": "Anda yakin ingin menghapus grup ini? Anggota grup TIDAK akan dihapus.",
-                "hide_label": "Hide on forum",
+                "delete_confirmation": "Anda yakin ingin menghapus grup ini? Anggota grup TIDAK akan ikut terhapus.",
+                "hide_label": "",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "Name",
@@ -110,17 +110,17 @@
                 "description": "Konfigurasikan driver, pengaturan, dan alamat yang akan digunakan forum Anda untuk mengirim email.",
                 "driver_heading": "Pilih Driver",
                 "driver_label": "Driver",
-                "from_label": "Sender",
-                "mail_encryption_label": "Encryption",
+                "from_label": "Pengirim",
+                "mail_encryption_label": "Enkripsi",
                 "mail_host_label": "Host",
                 "mail_mailgun_domain_label": "Domain",
-                "mail_mailgun_region_label": "Region",
+                "mail_mailgun_region_label": "Wilayah",
                 "mail_mailgun_secret_label": "Secret key",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Port",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Pengaturan Mailgun",
-                "not_sending_message": "Flarum saat ini tidak mengirim email. Hal ini dapat disebabkan oleh driver yang dipilih, atau kesalahan dalam konfigurasinya.",
+                "not_sending_message": "Flarum saat ini tidak dapat mengirim email. Hal ini dapat disebabkan oleh driver yang dipilih, atau kesalahan dalam konfigurasinya.",
                 "send_test_mail_button": "Kirim",
                 "send_test_mail_heading": "Kirim Test Mail",
                 "send_test_mail_success": "Pengiriman test mail berhasil!",
@@ -129,15 +129,15 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
-                "configure_scopes": "Configure Scopes",
-                "confirm_purge": "Pembersihan akan menghapus semua entri database dan aset yang terkait dengan ekstensi. Itu tidak akan menghapus ekstensi; yang harus dilakukan melalui Composer. Apakah anda yakin ingin melanjutkan?",
+                "configure_scopes": "Mengkonfigurasi Cakupan",
+                "confirm_purge": "Pembersihan akan menghapus semua entri database dan aset yang terkait dengan ekstensi. Hal ini tidak akan menghapus ekstensi; serta harus dilakukan melalui Composer. Apakah Anda yakin ingin melanjutkan?",
                 "disabled": "Nonaktif",
                 "enable_to_see": "Aktifkan ekstensi untuk melihat dan mengubah pengaturan.",
                 "enabled": "Aktif",
                 "info_links": {
                     "discuss": "Discuss",
-                    "documentation": "Documentation",
-                    "donate": "Donate",
+                    "documentation": "Dokumentasi",
+                    "donate": "Donasi",
                     "source": "Source",
                     "support": "Support",
                     "website": "Website"
@@ -170,10 +170,10 @@
                     "core": "Konfigurasi Dasar",
                     "discussion": "Diskusi",
                     "feature": "Fitur",
-                    "formatting": "Formatting",
+                    "formatting": "Pengaturan format",
                     "language": "Bahasa",
                     "moderation": "Moderasi",
-                    "other": "Other Extensions",
+                    "other": "Ekstensi Lainnya",
                     "theme": "Tema"
                 },
                 "dashboard_button": "=> core.admin.dashboard.title",
@@ -211,7 +211,7 @@
                 "rename_discussions_label": "Ganti judul diskusi",
                 "reply_to_discussions_label": "Balas diskusi",
                 "search_users_label": "=> core.ref.search_users",
-                "sign_up_label": "Sign up",
+                "sign_up_label": "Daftar",
                 "start_discussions_label": "Buat diskusi",
                 "title": "Izin Akses",
                 "view_forum_label": "Lihat forum (diskusi dan user)",
@@ -223,7 +223,7 @@
                 "allow_indefinitely_button": "Tanpa batas waktu",
                 "allow_never_button": "=> core.ref.never",
                 "allow_some_minutes_button": "{count, plural, one {For # minute} other {For # minutes}}",
-                "allow_ten_minutes_button": "For 10 minutes",
+                "allow_ten_minutes_button": "Selama 10 menit",
                 "allow_until_reply_button": "Hingga balasan selanjutnya",
                 "everyone_button": "Siapapun",
                 "members_button": "=> core.group.members",
@@ -281,7 +281,7 @@
                     "next_button": "Halaman selanjutnya",
                     "page_counter": "Halaman {current} dari {total}"
                 },
-                "search_placeholder": "",
+                "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
                 "total_users": "Total user: {count}"
             }
@@ -296,16 +296,16 @@
                 "title": "=> core.ref.change_email"
             },
             "change_password": {
-                "send_button": "Send Password Reset Email",
-                "text": "Klik tombol di bawah dan periksa email Anda untuk melihat link untuk mengubah password Anda.",
+                "send_button": "Kirim Email Pengaturan Ulang Kata Sandi",
+                "text": "Klik tombol di bawah ini dan periksa email Anda untuk mendapatkan link yang dapat digunakan untuk mengubah kata sandi.",
                 "title": "=> core.ref.change_password"
             },
             "composer": {
-                "close_tooltip": "Close",
-                "exit_full_screen_tooltip": "Exit Full Screen",
-                "full_screen_tooltip": "Full Screen",
-                "minimize_tooltip": "Minimize",
-                "preview_tooltip": "Preview"
+                "close_tooltip": "Tutup",
+                "exit_full_screen_tooltip": "Keluar dari Layar Penuh",
+                "full_screen_tooltip": "Layar Penuh",
+                "minimize_tooltip": "Minimalkan",
+                "preview_tooltip": "Pratinjau"
             },
             "composer_discussion": {
                 "body_placeholder": "Tulis Post...",
@@ -329,16 +329,16 @@
                 "view_button": "=> core.ref.view"
             },
             "discussion_controls": {
-                "cannot_reply_button": "Can't Reply",
-                "cannot_reply_text": "You don't have permission to reply to this discussion.",
+                "cannot_reply_button": "Tidak dapat membalas",
+                "cannot_reply_text": "Anda tidak memiliki izin untuk membalas pada diskusi ini.",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Are you sure you want to delete this discussion?",
+                "delete_confirmation": "Apakah Anda yakin ingin menghapus diskusi ini?",
                 "delete_forever_button": "=> core.ref.delete_forever",
-                "log_in_to_reply_button": "Log In to Reply",
+                "log_in_to_reply_button": "Masuk untuk membalas",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": "Toggle discussion actions dropdown menu"
+                "toggle_dropdown_accessible_label": ""
             },
             "discussion_list": {
                 "empty_text": "Sepertinya tidak ada diskusi di sini.",
@@ -360,13 +360,13 @@
             "header": {
                 "admin_button": "Administrasi",
                 "back_to_index_tooltip": "Kembali ke Daftar Diskusi",
-                "locale_dropdown_accessible_label": "Change forum locale",
+                "locale_dropdown_accessible_label": "Ubah lokasi forum",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
                 "search_clear_button_accessible_label": "Hapus kueri penelusuran",
                 "search_placeholder": "Cari",
-                "search_role_label": "Search Forum",
+                "search_role_label": "Cari",
                 "session_dropdown_accessible_label": "Toggle session options dropdown menu",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -379,7 +379,7 @@
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
-                "toggle_sidenav_dropdown_accessible_label": "Toggle navigation dropdown menu"
+                "toggle_sidenav_dropdown_accessible_label": ""
             },
             "index_sort": {
                 "latest_button": "Latest",
@@ -497,7 +497,7 @@
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "log_in_text": "Sudah memiliki akun? <a>Log In</a>",
+                "log_in_text": "Sudah memiliki akun? <a>Masuk</a>",
                 "password_placeholder": "=> core.ref.password",
                 "submit_button": "=> core.ref.sign_up",
                 "title": "=> core.ref.sign_up",
@@ -509,10 +509,10 @@
                 "avatar_upload_button": "Upload",
                 "avatar_upload_tooltip": "Upload avatar baru",
                 "discussions_link": "=> core.ref.discussions",
-                "in_discussion_text": "In {discussion}",
-                "joined_date_text": "Joined {ago}",
+                "in_discussion_text": "Di {discussion}",
+                "joined_date_text": "Bergabung {ago}",
                 "online_text": "Online",
-                "posts_empty_text": "Sepertinya tidak ada post yang dibuat.",
+                "posts_empty_text": "Sepertinya belum ada artikel di sini.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
                 "security_link": "=> core.ref.security",
@@ -626,7 +626,7 @@
             },
             "content": {
                 "javascript_disabled_message": "Situs ini paling baik dilihat di browser modern dengan JavaScript diaktifkan.",
-                "load_error_message": "Terjadi kesalahan saat mencoba memuat versi lengkap situs ini. Coba muat ulang halaman ini untuk memperbaiki kesalahan.",
+                "load_error_message": "Terjadi kesalahan saat mencoba memuat versi lengkap situs ini. Coba refresh ulang halaman ini untuk memperbaiki kesalahan.",
                 "loading_text": "=> core.ref.loading"
             },
             "discussion": {
@@ -671,19 +671,19 @@
         "email": {
             "activate_account": {
                 "subject": "Aktifkan Akun Baru Anda",
-                "body": "Hey {username}!\n\nSomeone (hopefully you!) has signed up to {forum} with this email address.\n\nIf this was you, simply click the following link and your account will be activated:\n{url}\n\nIf you did not sign up, please ignore this email.\n"
+                "body": "\n"
             },
             "confirm_email": {
                 "subject": "Konfirmasi Alamat Email Baru Anda",
-                "body": "Hey {username}!\n\nSomeone (hopefully you!) has changed their email address on {forum} to this one.\n\nIf this was you, simply click the following link and your email will be confirmed:\n{url}\n\nIf this was not you, please ignore this email.\n"
+                "body": ""
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Hey {username}!\n\nSomeone (hopefully you!) has submitted a forgotten password request for your account on {forum}.\n\nIf this was you, click the following link to reset your password:\n{url}\n\nIf you do not wish to change your password, just ignore this email and nothing will happen.\n"
+                "body": ""
             },
             "send_test": {
                 "subject": "Flarum Email Test",
-                "body": "Hey {username}!\n\nThis is a test email to confirm that your Flarum email configuration is working properly.\n\nIf this was you, this email means that your configuration works!\n\nIf this was not you, please ignore this email.\n"
+                "body": ""
             }
         },
         "ref": {
@@ -708,7 +708,7 @@
             "generic_confirmation_message": "Apakah Anda yakin ingin melanjutkan? Tindakan ini tidak dapat dibatalkan.",
             "icon": "Ikon",
             "icon_text": "Masukkan nama kelas ikon <a>FontAwesome</a>, <em>termasuk</em> prefiks <code>fas fa-</code>.",
-            "load_more": "Load More",
+            "load_more": "Muat Lebih Banyak",
             "loading": "Memuat...",
             "log_in": "Masuk",
             "log_out": "Keluar",
@@ -719,7 +719,7 @@
             "notifications": "Notifikasi",
             "okay": "OK",
             "password": "Password",
-            "posts": "Posts",
+            "posts": "Post",
             "previous_page": "Halaman Sebelumnya",
             "remove": "Hapus",
             "rename": "Ubah nama",
@@ -741,13 +741,13 @@
         },
         "group": {
             "admin": "Admin",
-            "admins": "Admins",
-            "guest": "Guest",
-            "guests": "Guests",
-            "member": "Member",
-            "members": "Members",
-            "mod": "Mod",
-            "mods": "Mods"
+            "admins": "Admin",
+            "guest": "Tamu",
+            "guests": "Tamu",
+            "member": "Anggota",
+            "members": "Anggota",
+            "mod": "Moderator",
+            "mods": "Moderator"
         }
     }
 }
