@@ -3,32 +3,32 @@
         "admin": {
             "settings": {
                 "disable-when-searching": {
-                    "label": "",
-                    "help": ""
+                    "label": "Nonaktifkan sinopsis saat melakukan pencarian",
+                    "help": "Jika diaktifkan, kutipan postingan default yang paling relevan akan digunakan sebagai pengganti sinopsis"
                 },
                 "excerpt-length": {
-                    "label": "",
-                    "help": ""
+                    "label": "Panjang kutipan ringkasan dalam karakter",
+                    "help": "Berapa banyak karakter yang harus ditampilkan dari post."
                 },
                 "rich-excerpts": {
-                    "label": "",
-                    "help": ""
+                    "label": "Tampilkan kutipan menggunakan rich content (konten lengkap)",
+                    "help": "Jika diaktifkan, gambar, embed, dan elemen non-teks lainnya dapat disertakan dalam sinopsis"
                 },
                 "excerpt-type": {
-                    "label": "",
-                    "help": ""
+                    "label": "Post mana yang harus ditampilkan sebagai kutipan?",
+                    "help": "Pilih apakah post pertama atau terakhir yang akan digunakan untuk konten sinopsis"
                 },
-                "first-label": "",
-                "last-label": "",
-                "tags-enabled": ""
+                "first-label": "Post pertama",
+                "last-label": "Post terakhir",
+                "tags-enabled": "Anda telah mengaktifkan <code>flarum/tags</code>. Pengaturan ini akan menjadi default, kecuali jika masing-masing tag memiliki pengaturannya sendiri."
             }
         },
         "forum": {
             "user": {
                 "settings": {
-                    "summaries-heading": "",
-                    "show-summaries": "",
-                    "show-summaries-mobile": ""
+                    "summaries-heading": "Sinopsis",
+                    "show-summaries": "Tampilkan kutipan dari setiap diskusi dalam daftar diskusi (Desktop/Tablet)",
+                    "show-summaries-mobile": "Tampilkan kutipan dari setiap diskusi dalam daftar diskusi (Mobile)"
                 }
             }
         }
