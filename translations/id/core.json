@@ -45,14 +45,14 @@
                 "welcome_banner_text": "Konfigurasikan teks yang ditampilkan di banner di halaman All Discussions. Gunakan ini untuk menyambut tamu di forum Anda."
             },
             "create_user": {
-                "email_placeholder": "",
+                "email_placeholder": "=> core.ref.email",
                 "email_confirmed_label": "User harus mengonfirmasi email ini",
-                "password_placeholder": "",
+                "password_placeholder": "=> core.ref.password",
                 "submit_and_create_another_button": "Buat dan tambahkan yang lain",
                 "submit_button": "Buat user",
                 "title": "Buat user baru",
                 "use_random_password": "Hasilkan kata sandi acak",
-                "username_placeholder": ""
+                "username_placeholder": "=> core.ref.username"
             },
             "dashboard": {
                 "clear_cache_button": "Hapus Cache",
@@ -67,7 +67,7 @@
                     "scheduler": {
                         "active": "Aktif",
                         "inactive": "Tidak aktif",
-                        "never-run": ""
+                        "never-run": "Jangan pernah dijalankan"
                     }
                 },
                 "title": "Dashboard",
@@ -210,25 +210,25 @@
                 "read_heading": "Baca",
                 "rename_discussions_label": "Ganti judul diskusi",
                 "reply_to_discussions_label": "Balas diskusi",
-                "search_users_label": "Cari User",
+                "search_users_label": "=> core.ref.search_users",
                 "sign_up_label": "Sign up",
                 "start_discussions_label": "Buat diskusi",
                 "title": "Izin Akses",
                 "view_forum_label": "Lihat forum (diskusi dan user)",
                 "view_hidden_groups_label": "Lihat badge grup tersembunyi",
-                "view_last_seen_at_label": "Always view user last seen time",
-                "view_post_ips_label": "View post IP addresses"
+                "view_last_seen_at_label": "Selalu lihat waktu terakhir dilihat oleh pengguna",
+                "view_post_ips_label": "Lihat alamat IP post"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Tanpa batas waktu",
-                "allow_never_button": "",
+                "allow_never_button": "=> core.ref.never",
                 "allow_some_minutes_button": "{count, plural, one {For # minute} other {For # minutes}}",
                 "allow_ten_minutes_button": "For 10 minutes",
                 "allow_until_reply_button": "Hingga balasan selanjutnya",
                 "everyone_button": "Siapapun",
                 "members_button": "=> core.group.members",
-                "signup_closed_button": "Closed",
-                "signup_open_button": "Open"
+                "signup_closed_button": "Ditutup",
+                "signup_open_button": "Buka"
             },
             "settings": {
                 "saved_message": "Perubahan Anda telah disimpan.",
@@ -239,12 +239,12 @@
                 "upload_button": "Pilih gambar..."
             },
             "users": {
-                "create_user_button": "",
-                "description": "Daftar User.",
+                "create_user_button": "Pengguna Baru",
+                "description": "Daftar semua pengguna di forum Anda.",
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": ""
+                            "title": "Nama tampilan"
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
@@ -257,8 +257,8 @@
                             "visibility_show": "Tampilkan alamat email"
                         },
                         "group_badges": {
-                            "no_badges": "None",
-                            "title": "Group"
+                            "no_badges": "Tidak ada",
+                            "title": "Grup"
                         },
                         "join_time": {
                             "title": "Bergabung"
@@ -405,7 +405,7 @@
                 "discussion_renamed_text": "{username} mengubah judul",
                 "empty_text": "Tidak Ada Notifikasi",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
-                "mark_as_read_tooltip": "Mark as Read",
+                "mark_as_read_tooltip": "Tandai sebagai Telah Dibaca",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Lihat notifikasi",
                 "tooltip": "=> core.ref.notifications"
@@ -425,9 +425,9 @@
                 "toggle_dropdown_accessible_label": "Toggle post controls dropdown menu"
             },
             "post_scrubber": {
-                "now_link": "Now",
-                "original_post_link": "Original Post",
-                "unread_text": "{count} unread",
+                "now_link": "Saat ini",
+                "original_post_link": "Post Asli",
+                "unread_text": "{count} belum dibaca",
                 "viewing_text": "{count, plural, one {{index} of {formattedCount} post} other {{index} of {formattedCount} posts}}"
             },
             "post_stream": {
@@ -439,7 +439,7 @@
             },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
-                "title": "Ganti Judul Diskusi"
+                "title": "Ganti Nama Diskusi"
             },
             "search": {
                 "all_discussions_button": "Cari semua diskusi untuk \"{query}\"",
@@ -515,7 +515,7 @@
                 "posts_empty_text": "Sepertinya tidak ada post yang dibuat.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
-                "security_link": "",
+                "security_link": "=> core.ref.security",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -525,11 +525,11 @@
                 "delete_error_message": "Penghapusan user <i>{username} ({email})</i> gagal",
                 "delete_success_message": "User <i>{username} ({email})</i> telah dihapus",
                 "edit_button": "=> core.ref.edit",
-                "toggle_dropdown_accessible_label": "Ganti menu dropdown user control"
+                "toggle_dropdown_accessible_label": ""
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
-                "resend_button": "Kirim ulang email konfirmasi",
+                "resend_button": "Kirim Ulang Email Konfirmasi",
                 "sent_message": "Terkirim"
             },
             "welcome_hero": {
@@ -548,7 +548,7 @@
                 "toggle_dropdown_accessible_label": "Ganti menu dropdown"
             },
             "data_segment": {
-                "label": ""
+                "label": "{label}:"
             },
             "edit_user": {
                 "activate_button": "Aktifkan User",
