@@ -2,20 +2,20 @@
     "acpl-lscache": {
         "admin": {
             "cache_enabled_label": "Aktifkan LSCache",
-            "cache_enabled_help": "",
+            "cache_enabled_help": "Lihat <a>Halaman informasi</a> untuk mengetahui cara menguji cache. CATATAN: Saat menonaktifkan cache, semua entri yang tersimpan dalam cache untuk situs ini akan dihapus.",
             "public_cache_ttl_label": "",
-            "public_cache_ttl_help": "",
-            "clearing_cache_listener_label": "",
-            "serve_stale_label": "",
-            "serve_stale_help": "",
-            "purge_on_discussion_update_label": "",
+            "public_cache_ttl_help": "Tentukan berapa lama, dalam detik, halaman publik harus di-cache. Nilai default adalah 604800 detik ( 1 minggu).",
+            "clearing_cache_listener_label": "Bersihkan LSCache Saat Cache Flarum Dihapus",
+            "serve_stale_label": "Sajikan Konten yang Sudah Usang",
+            "serve_stale_help": "Jika diaktifkan, versi lama dari halaman yang di-cache akan disajikan kepada pengunjung hingga salinan cache yang baru dibuat. Hal ini mengurangi beban server. Jika dinonaktifkan, halaman akan dibuat secara dinamis selama proses pembaruan cache, yang dapat meningkatkan waktu tunggu. Secara desain, opsi ini dapat menyajikan konten yang sudah kedaluwarsa. Jangan aktifkan ini jika Anda merasa hal tersebut tidak dapat diterima.",
+            "purge_on_discussion_update_label": "Hapus URL atau Tag pada Diskusi atau Pembaruan Postingan",
             "purge_on_discussion_update_help": "",
-            "cache_exclude_label": "",
+            "cache_exclude_label": "Kecualikan Path dari Caching",
             "cache_exclude_help": "",
             "drop_qs_label": "",
             "drop_qs_help": "",
-            "purge_all": "",
-            "purge_all_success": ""
+            "purge_all": "Bersihkan Semua LSCache",
+            "purge_all_success": "LiteSpeed Web Server telah diberikan instruksi untuk membersihkan semua entri LSCache"
         }
     }
 }
