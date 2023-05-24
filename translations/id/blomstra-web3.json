@@ -2,35 +2,35 @@
     "blomstra-web3": {
         "admin": {
             "settings": {
-                "allow-sign-up": "",
-                "ffi-disabled": "",
+                "allow-sign-up": "Izinkan Pendaftaran melalui web3",
+                "ffi-disabled": "Ekstensi PHP FFI tidak diaktifkan. Dotsama wallet tidak akan berfungsi.\n",
                 "infura-project-id": "",
                 "infura-project-id-help": "",
-                "prioritize-web3-auth-modals": "",
-                "signup-with-email": "",
-                "no-email-signup-message": "",
+                "prioritize-web3-auth-modals": "Aktifkan Login/Pendaftaran melalui web3 secara default",
+                "signup-with-email": "Mendaftar dengan Email",
+                "no-email-signup-message": "Pesan yang akan ditampilkan untuk pengguna yang tidak mendaftar dengan alamat email (kosongkan untuk menonaktifkan).\n",
                 "no-email-signup-message-help": ""
             }
         },
         "forum": {
             "connect-wallet-modal": {
-                "could-not-sign": "",
-                "goback": "",
+                "could-not-sign": "Tidak dapat menandatangani nama pengguna secara kriptografis pada akun yang telah dipilih.",
+                "goback": "Kembali",
                 "title": "",
                 "polkadot-wallets": "",
                 "evm-wallets": "",
-                "signature-invalid": ""
+                "signature-invalid": "Tanda tangan tidak valid."
             },
             "evm-connect-wallet-modal": {
                 "title": "",
                 "bind": "",
                 "disconnect": "",
-                "disconnect-and-unbind": "",
+                "disconnect-and-unbind": "Putuskan koneksi & Lepaskan sambungan",
                 "select": ""
             },
             "polkadot-connect-wallet-modal": {
                 "attach_address": "",
-                "connection-request-rejected": "",
+                "connection-request-rejected": "Permintaan koneksi ditolak",
                 "disconnect": "",
                 "goback": "",
                 "title": "",
