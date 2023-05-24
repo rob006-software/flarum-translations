@@ -16,22 +16,22 @@
                 "insert_link": {
                     "text_placeholder": "Teks",
                     "href_placeholder": "URL",
-                    "title_placeholder": "",
-                    "remove_button": ""
+                    "title_placeholder": "Judul (ditampilkan saat kursor diarahkan)",
+                    "remove_button": "Hapus"
                 },
-                "additional_items_tooltip": "",
-                "bold_tooltip": "",
-                "code_tooltip": "",
-                "code_block_tooltip": "",
-                "header_tooltip": "",
-                "horizontal_rule_tooltip": "",
-                "image_tooltip": "",
-                "italic_tooltip": "",
-                "link_tooltip": "",
-                "ordered_list_tooltip": "",
-                "paragraph_tooltip": "",
-                "quote_tooltip": "",
-                "spoiler_block_tooltip": "",
+                "additional_items_tooltip": "Kontrol Tambahan",
+                "bold_tooltip": "Teks tebal <{modifierKey}-b>",
+                "code_tooltip": "Kode sebaris <{modifierKey}-`>",
+                "code_block_tooltip": "Menyisipkan blok kode",
+                "header_tooltip": "Ubah ke header {level} <shift-{modifierKey}-{level}>",
+                "horizontal_rule_tooltip": "Menyisipkan aturan horizontal",
+                "image_tooltip": "Tambahkan gambar",
+                "italic_tooltip": "Teks italic <{modifierKey}-i>",
+                "link_tooltip": "Tambahkan link",
+                "ordered_list_tooltip": "Daftar bernomor <shift-{modifierKey}-9>",
+                "paragraph_tooltip": "Ubah ke paragraf <shift-{modifierKey}-0>",
+                "quote_tooltip": "Menyisipkan kutipan <{modifierKey}-q>",
+                "spoiler_block_tooltip": "Block Spoiler/Dropdown",
                 "spoiler_inline_tooltip": "",
                 "strike_tooltip": "",
                 "sub_tooltip": "",
@@ -43,8 +43,8 @@
         "forum": {
             "settings": {
                 "composer_heading": "",
-                "use_rich_text_editor_label": "",
-                "rich_text_compact_paragraphs_label": ""
+                "use_rich_text_editor_label": "Gunakan rich text editor?",
+                "rich_text_compact_paragraphs_label": "Jangan pisahkan paragraf dengan baris baru."
             }
         }
     }
