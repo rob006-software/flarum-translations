@@ -19,13 +19,13 @@
                 "select_best_answer_reminder_days": "",
                 "select_best_answer_reminder_days_help": "",
                 "schedule_on_one_server": "",
-                "schedule_on_one_server_help": "",
+                "schedule_on_one_server_help": "Dibutuhkan Redis/Memcache",
                 "schedule_stop_overnight": "",
-                "schedule_stop_overnight_help": "",
-                "schedule_log_output": "",
+                "schedule_stop_overnight_help": "Jam 9 malam - 8 pagi waktu server",
+                "schedule_log_output": "Menambahkan output scheduler ke penyimpanan log",
                 "show_filter_label": "",
                 "show_filter_help": "",
-                "use_alt_ui": "",
+                "use_alt_ui": "Tata letak alternatif",
                 "use_alt_ui_help": "",
                 "documentation": "",
                 "introduction": ""
@@ -36,7 +36,7 @@
             }
         },
         "forum": {
-            "answered_badge": "",
+            "answered_badge": "Terjawab",
             "this_best_answer": "",
             "remove_best_answer": "",
             "best_answer_button": "",
@@ -55,19 +55,19 @@
                 }
             },
             "index": {
-                "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "ask_question": "Ajukan Pertanyaan",
+                "cannot_ask_question": "Tidak Dapat Mengajukan Pertanyaan",
+                "solved_link": "Diskusi selesai",
+                "unsolved_link": "Diskusi belum selesai"
             },
             "filter": {
-                "all_label": "",
-                "solved_label": "",
-                "unsolved_label": "",
-                "accessible_label": ""
+                "all_label": "Semua pertanyaan",
+                "solved_label": "Pertanyaan terpecahkan",
+                "unsolved_label": "Pertanyaan belum terpecahkan",
+                "accessible_label": "Pilihan terpecahkan/belum terpecahkan"
             },
             "composer": {
-                "titlePlaceholder": ""
+                "titlePlaceholder": "Judul pertanyaan"
             },
             "user": {
                 "best-answer-count": ""
@@ -77,7 +77,7 @@
             "subject": {
                 "awarded": "",
                 "ba-set": "",
-                "select": ""
+                "select": "Apakah pertanyaan Anda sudah terjawab?"
             },
             "body": {
                 "awarded": "",
