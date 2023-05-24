@@ -2,32 +2,32 @@
     "fof-pretty-mail": {
         "admin": {
             "nav": {
-                "desc": ""
+                "desc": "Sesuaikan template email HTML Anda."
             },
             "settings": {
                 "attributes": {
-                    "body": "",
-                    "forumStyle": "",
+                    "body": "Berisi konten email yang sebenarnya",
+                    "forumStyle": "Berisi <strong>seluruh CSS forum</strong>",
                     "url": "",
-                    "settings": "",
-                    "link": ""
+                    "settings": "Memungkinkan Anda untuk berinteraksi dengan SettingsRepositoryInterface",
+                    "link": "Berisi link di dalam email"
                 },
-                "attributes_label": "",
-                "label": "",
-                "reset": "",
-                "confirm": "",
-                "default": "",
+                "attributes_label": "Atribut yang tersedia",
+                "label": "Template Email",
+                "reset": "Kembali ke Pengaturan Default",
+                "confirm": "Apakah Anda yakin ingin kembali ke stok template email untuk",
+                "default": "Template Default",
                 "newPost": "",
                 "userMentioned": "",
                 "postMentioned": "",
-                "notifications": "",
-                "notificationHelp": "",
-                "template_help": ""
+                "notifications": "Template notifikasi",
+                "notificationHelp": "Disarankan untuk menggunakan \"$forumStyle\" untuk email-email ini, karena email ini mungkin berisi BBCODE. Email ini juga memiliki \"$user\" yang berisi seluruh model pengguna dari pengguna yang dikirimkan email.",
+                "template_help": "Lihat setiap template untuk mengetahui cara menggunakan setiap atribut."
             },
             "css_settings": {
-                "label": "",
-                "help": "",
-                "switch_label": ""
+                "label": "Pengaturan CSS",
+                "help": "Anda dapat memilih untuk menyertakan CSS forum dalam kode HTML email. Jika Anda mengaktifkan ini, Anda mungkin mengalami masalah dengan penyedia email tertentu.",
+                "switch_label": "Sertakan CSS forum lengkap"
             }
         }
     }
