@@ -2,8 +2,8 @@
     "fof-pages": {
         "admin": {
             "edit_page": {
-                "content_label": "",
-                "content_placeholder": "",
+                "content_label": "=> fof-pages.ref.content",
+                "content_placeholder": "=> fof-pages.ref.content",
                 "delete_page_button": "Hapus halaman",
                 "delete_page_confirmation": "Apakah Anda yakin ingin menghapus halaman ini?",
                 "hidden_label": "Simpan sebagai draf",
@@ -11,17 +11,17 @@
                 "html_label": "",
                 "set_as_home_page_confirmation": "Apakah Anda yakin ingin menetapkan halaman ini sebagai halaman beranda Anda?",
                 "set_as_home_page_done": "Beranda diperbarui",
-                "slug_label": "",
-                "slug_placeholder": "",
-                "submit_button": "",
-                "title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "url_label": "",
-                "url_placeholder": ""
+                "slug_label": "=> fof-pages.ref.slug",
+                "slug_placeholder": "=> fof-pages.ref.slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-pages.ref.create_page",
+                "title_label": "=> fof-pages.ref.title",
+                "title_placeholder": "=> fof-pages.ref.title",
+                "url_label": "=> fof-pages.ref.url",
+                "url_placeholder": "=> fof-pages.ref.url"
             },
             "pages": {
-                "create_button": ""
+                "create_button": "=> fof-pages.ref.create_page"
             },
             "pages_list": {
                 "empty_text": "Sepertinya tidak ada halaman di sini.",
@@ -39,9 +39,9 @@
             "content": "Konten",
             "create_page": "Buat halaman",
             "pages": "Halaman",
-            "slug": "",
+            "slug": "Slug",
             "title": "Judul",
-            "url": ""
+            "url": "URL"
         }
     }
 }
