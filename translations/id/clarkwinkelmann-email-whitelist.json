@@ -3,16 +3,16 @@
         "admin": {
             "settings": {
                 "regex": "",
-                "regexHelp": "",
+                "regexHelp": "Beralih dari daftar domain ke pemeriksaan regular expression. Setiap baris daftar harus berupa regular expression yang valid dengan delimiter.\n",
                 "message": "",
                 "whitelist": "",
-                "whitelistHelp": "",
+                "whitelistHelp": "Satu ekspresi per baris. Akan memiliki prioritas di atas blacklist.\n",
                 "blacklist": "",
-                "blacklistHelp": ""
+                "blacklistHelp": "Satu ekspresi per baris. Jika blacklist disediakan, semua yang tidak terdaftar akan dimasukkan ke dalam whitelist.\n"
             }
         },
         "api": {
-            "fallbackMessage": ""
+            "fallbackMessage": "Email ini tidak masuk dalam whitelist."
         }
     }
 }
