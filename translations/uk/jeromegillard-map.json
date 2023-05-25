@@ -2,45 +2,45 @@
     "jeromegillard-map": {
         "admin": {
             "templates": {
-                "map": "",
-                "file_description": ""
+                "map": "Карта",
+                "file_description": "Показати карту у форматі flarum. Оригінальний файл буде доступний для завантаження. Постачальник тайлів та стиль буде визначено у налаштуваннях розширення. <b>Щоб це спрацювало, у вас має бути встановлено та увімкнено flarum/bbcode</b>."
             },
             "settings": {
                 "tiles_provider": {
-                    "label": "",
-                    "help": ""
+                    "label": "Постачальник шару тайлів за налаштуванням",
+                    "help": "Оберіть постачальника шару тайлів, який з'являється у фоновому режимі"
                 },
                 "zoom": {
-                    "label": "",
-                    "help": ""
+                    "label": "Стандартний рівень масштабування",
+                    "help": "Будь-яке ціле число від 0 до 18."
                 },
                 "style": {
-                    "label": "",
-                    "help": ""
+                    "label": "Стиль за налаштуванням для {provider}",
+                    "help": "Оберіть стиль мапи. <a>Погляньте на їхні стилі</a>."
                 },
                 "maptiler": {
-                    "label": "",
-                    "help": ""
+                    "label": "Токен MapTiler",
+                    "help": "Зареєструйтесь безкоштовно на <a>maptiler.com</a>, щоб отримати токен. Будь ласка, поважайте їхні <b>авторські права</b>."
                 },
                 "osm": {
-                    "help": ""
+                    "help": "OpenStreetMap чудово підходять для програмування вашої мапи, але прочитайте <a>Політику використання тайлів</a> OpenStreetMap, якщо ви збираєтеся використовувати їх."
                 },
                 "mapbox": {
-                    "label": "",
-                    "help": ""
+                    "label": "Mapbox key",
+                    "help": "Зареєструйтесь безкоштовно на <a>mapbox.com</a>, щоб отримати токен. Будь ласка, поважайте їхні <b>авторські права</b>."
                 },
                 "thunderforest": {
-                    "label": "",
-                    "help": ""
+                    "label": "Thunderforest API key",
+                    "help": "Зареєструйтесь безкоштовно на <a>thunderforest.com</a>, щоб отримати ключ API. Будь ласка, поважайте їхні <b>умови використання</b>."
                 }
             }
         },
         "forum": {
             "text_editor": {
-                "bbcode_tooltip": "",
-                "location_placeholder": "",
-                "marker_title_placeholder": "",
-                "marker_description_placeholder": ""
+                "bbcode_tooltip": "вставити карту",
+                "location_placeholder": "ДЕ",
+                "marker_title_placeholder": "Назва маркера",
+                "marker_description_placeholder": "Маркер спливаючого вмісту. Щоб приховати маркер, залиште поля заголовку та опису порожніми."
             }
         }
     }
