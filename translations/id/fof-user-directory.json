@@ -2,7 +2,7 @@
     "fof-user-directory": {
         "forum": {
             "header": {
-                "back_to_user_directory_tooltip": "Kembali ke User Directory"
+                "back_to_user_directory_tooltip": "Kembali ke Direktori User"
             },
             "search": {
                 "users_heading": "Cari semua user untuk \"{query}\"",
@@ -10,16 +10,16 @@
                     "placeholder": "Cari semua user"
                 },
                 "kinds": {
-                    "group": "Group",
-                    "text": "Free text"
+                    "group": "Grup",
+                    "text": "Teks bebas"
                 }
             },
             "page": {
-                "nav": "Daftar User",
+                "nav": "Direktori User",
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
-                "empty_text": "We could not find any user matching your search.",
-                "filter_button": "Filter Groups",
+                "empty_text": "Kami tidak dapat menemukan user yang cocok dengan pencarian Anda.",
+                "filter_button": "",
                 "usercard": {
                     "discussion-count": "{count, plural, one { {count} discussion} other {{count} discussions}}",
                     "post-count": "{count, plural, one { {count} post} other {{count} posts}}"
@@ -28,27 +28,27 @@
         },
         "admin": {
             "permissions": {
-                "view_user_directory": "Lihat daftar user"
+                "view_user_directory": "Lihat direktori user"
             },
             "settings": {
-                "link": "Tambahkan daftar user pada halaman utama agar user dapat melihat",
-                "default-sort": "Default sort",
-                "use-small-cards": "Gunakan user cards kecil",
-                "disable-global-search-source": "Jangan tambahkan User Directoryke bidang pencarian global Flarum"
+                "link": "Tambahkan link di beranda agar user dapat melihat direktori",
+                "default-sort": "",
+                "use-small-cards": "",
+                "disable-global-search-source": "Jangan menambahkan Direktori User ke kolom pencarian global Flarum"
             }
         },
         "lib": {
             "sort": {
-                "not_specified": "Gunakan Flarum default",
-                "default": "Default",
+                "not_specified": "Gunakan Flarum standar",
+                "default": "",
                 "username_az": "Username (a-z)",
                 "username_za": "Username (z-a)",
                 "newest": "Terbaru",
                 "oldest": "Terlama",
-                "most_posts": "Most posts",
-                "least_posts": "Least posts",
-                "most_discussions": "Most discussions",
-                "least_discussions": "Least discussions"
+                "most_posts": "",
+                "least_posts": "",
+                "most_discussions": "",
+                "least_discussions": ""
             }
         }
     }
