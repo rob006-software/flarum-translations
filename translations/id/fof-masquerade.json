@@ -2,31 +2,31 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "",
+                "profile-completion-required": "Lengkapi kolom profil yang diperlukan di bawah ini.\n",
                 "profile-completed": ""
             },
             "buttons": {
-                "view-profile": "",
-                "edit-profile": "",
-                "save-profile": ""
+                "view-profile": "Lihat profil",
+                "edit-profile": "Edit profil",
+                "save-profile": "Simpan"
             },
             "fields": {
                 "select": {
-                    "none-optional": "",
-                    "none-required": ""
+                    "none-optional": "Tidak ada opsi yang dipilih (opsional)",
+                    "none-required": "Pilih salah satu opsi (wajib)"
                 },
                 "boolean": {
-                    "yes": "",
-                    "no": ""
+                    "yes": "Ya",
+                    "no": "Tidak"
                 }
             }
         },
         "admin": {
-            "general-options": "",
+            "general-options": "Pilihan umum",
             "buttons": {
-                "add-field": "",
-                "edit-field": "",
-                "delete-field": ""
+                "add-field": "Buat kolom",
+                "edit-field": "Simpan perubahan",
+                "delete-field": "Hapus kolom"
             },
             "permissions": {
                 "edit-others-profile": "",
@@ -34,10 +34,10 @@
                 "view-profile": ""
             },
             "fields": {
-                "title": "",
+                "title": "Kolom",
                 "add": "",
                 "edit": "",
-                "name": "",
+                "name": "Nama kolom",
                 "name-help": "",
                 "description": "",
                 "description-help": "",
@@ -48,11 +48,11 @@
                 "validation-help": "",
                 "prefix": "",
                 "prefix-help": "",
-                "icon": "",
+                "icon": "Ikon",
                 "icon-help": "",
                 "force-user-to-completion": "",
-                "options": "",
-                "option-new": "",
+                "options": "Pilihan",
+                "option-new": "Pilihan baru",
                 "option-comma-warning": ""
             },
             "types": {
