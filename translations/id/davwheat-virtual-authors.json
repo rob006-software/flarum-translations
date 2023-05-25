@@ -2,11 +2,11 @@
     "davwheat-virtual-authors": {
         "admin": {
             "permissions": {
-                "set_virtual_authors": "",
-                "view_virtual_authors_page": ""
+                "set_virtual_authors": "Atur penulis virtual pada diskusi",
+                "view_virtual_authors_page": "Lihat halaman yang merinci semua penulis virtual"
             },
             "settings": {
-                "errored": "",
+                "errored": "Gagal memuat penulis virtual dari server.",
                 "create_new": "",
                 "auto_save_message": "",
                 "search_placeholder": "",
@@ -16,17 +16,17 @@
                 "virtual_authors_page_disabled": "",
                 "virtual_authors_page_disabled_help": "",
                 "discussion_badge": "",
-                "prev": "",
-                "next": ""
+                "prev": "Halaman sebelumnya",
+                "next": "Halaman selanjutnya"
             },
             "virtual_author_item": {
                 "id": "",
                 "name": "",
-                "description": "",
+                "description": "Deskripsi",
                 "no_description": "",
                 "edit": "",
                 "delete_confirmation": "",
-                "delete_a11y_tooltip": ""
+                "delete_a11y_tooltip": "Hapus"
             }
         },
         "lib": {
@@ -55,7 +55,7 @@
                 "meta_title": "",
                 "filter_name_placeholder": "",
                 "discussion_count": "",
-                "no_description": ""
+                "no_description": "Penulis ini menyimpan kesan misterius tentang mereka."
             },
             "virtual_authors_panel": {
                 "heading": "",
