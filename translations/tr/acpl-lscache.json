@@ -1,21 +1,21 @@
 {
     "acpl-lscache": {
         "admin": {
-            "cache_enabled_label": "",
-            "cache_enabled_help": "",
-            "public_cache_ttl_label": "Varsayılan genel önbellek TTL",
-            "public_cache_ttl_help": "Sayfaların ne kadar süreyle önbelleğe alınacağını saniye cinsinden belirtin. Varsayılan değer 300 saniyedir.",
-            "clearing_cache_listener_label": "Flarum önbelleği temizlendiğinde LSCache'yi temizle",
-            "serve_stale_label": "Bayat Servis",
-            "serve_stale_help": "AÇIK ise, önbelleğe alınmış bir sayfanın eski kopyası, yeni bir önbellek kopyası bulunana kadar ziyaretçilere gösterilecektir. Sonraki ziyaretler için sunucu yükünü azaltır. KAPALI ise, ziyaretçiler beklerken sayfa dinamik olarak oluşturulur. Tasarım gereği, bu seçenek eski içeriğe hizmet edebilir. Sizin için uygun değilse, bu seçeneği etkinleştirmeyin.",
-            "purge_on_discussion_update_label": "Bir tartışma veya gönderi güncellendiğinde URL'leri veya Etiketleri temizle",
-            "purge_on_discussion_update_help": "Satır başına bir URL veya Etiket belirtin. URL, <code>/</code> ile başlamalıdır, ör. <code>/rankings4</code> ve önbellek Etiketi <code>tag=</code> ile başlamalıdır, ör. <code>etiket=sıralamalar</code>. Bu uzantı her rotayı etiketler ve örneğin, temizlemek istediğiniz çok sayıda rotanız varsa, .htaccess'e rotaları etiketleyecek normal bir ifadeyle bir kural eklemek daha iyidir ve burada ayarlara yalnızca bu etiketi girin . Bu yöntem çok daha hızlı olacaktır. <a>Daha fazla bilgi edinin</a>. Varsayılan olarak, ana sayfanın önbelleği ve güncellenmiş tartışmaların önbelleği temizlenir.",
-            "cache_exclude_label": "Yolları önbelleğe almayın",
-            "cache_exclude_help": "Bu dizeleri içeren yollar önbelleğe alınmayacaktır. Örneğin, <code>/mypath/mypage?aa=bb</code> için burada <code>mypage?aa=</code> kullanılabilir. Başlangıcı eşleştirmek için öğenin başına <code>^</code> ekleyin. Tam bir eşleşme yapmak için URL'nin sonuna <code>$</code> ekleyin. Her satıra bir tane.",
-            "drop_qs_label": "",
-            "drop_qs_help": "",
-            "purge_all": "Tüm LSCache'i temizle",
-            "purge_all_success": "Tüm LSCache girdilerini temizlemek için LiteSpeed Web Sunucusunu bilgilendir"
+            "cache_enabled_label": "LSCache'yi etkinleştir",
+            "cache_enabled_help": "Önbelleğin nasıl test edileceğine ilişkin <a>Bilgi sayfasına</a> bakın. NOT: Önbelleği devre dışı bırakırken, bu site için önbelleğe alınmış tüm girişler temizlenecektir.",
+            "public_cache_ttl_label": "Varsayılan Genel Önbellek TTL",
+            "public_cache_ttl_help": "Genel sayfaların saniye cinsinden ne kadar süreyle önbelleğe alınması gerektiğini tanımlayın. Varsayılan değer 604800 saniyedir (bir hafta).",
+            "clearing_cache_listener_label": "Flarum Önbelleği Temizlendiğinde LSCache'yi Temizle",
+            "serve_stale_label": "Eski İçeriği Sunun",
+            "serve_stale_help": "Etkinleştirilirse, yeni bir önbellek kopyası oluşturulana kadar ziyaretçilere önbelleğe alınmış bir sayfanın eski bir sürümü sunulur. Bu, sunucu yükünü azaltır. Devre dışı bırakılırsa sayfa, önbellek güncellemesi sırasında dinamik olarak oluşturulur ve bu da bekleme sürelerini artırabilir. Tasarım gereği, bu seçenek güncel olmayan içerik sunabilir. Bunu kabul edilemez bulursanız lütfen bunu etkinleştirmeyin.",
+            "purge_on_discussion_update_label": "Tartışma veya Güncelleme Gönderimindeki URL'leri veya Etiketleri Temizle",
+            "purge_on_discussion_update_help": "Bir tartışma veya gönderi güncellendiğinde temizlemek istediğiniz URL'leri veya Etiketleri her satıra bir tane gelecek şekilde girin. URL <code>/</code> ile başlamalıdır, ör. <code>/rankings</code> ve önbellek Etiketi <code>tag=</code> ile başlamalıdır, ör. <code>tag=rankings</code>. Birden fazla rota için, .htaccess'te rotaları etiketleyen bir normal ifade ile bir kural eklemek ve buraya sadece bu etiketi girmek daha hızlıdır. <a>Daha fazla bilgi edinin</a>. Ana sayfa ve güncellenen tartışmalar için önbellek varsayılan olarak temizlenir.",
+            "cache_exclude_label": "Dizinleri Önbelleğe Almadan Hariç Tut",
+            "cache_exclude_help": "Bu dizeleri içeren yollar önbelleğe alınmaz. <code>/mypath/mypage?aa=bb</code> için <code>mypage?aa=</code> kullanabilirsiniz. Başlangıcı eşleştirmek için başlangıca <code>^</code> ekleyin. Tam eşleşme için URL'nin sonuna <code>$</code> ekleyin. Her satıra bir tane.",
+            "drop_qs_label": "Sorgu Dizelerini Bırak",
+            "drop_qs_help": "Önbelleğe alırken <code>fbclid</code> veya <code>utm*</code> gibi belirli sorgu dizelerini bırakmak için bu özelliği kullanın. Bu, izleme için kullanılan ancak sayfa içeriğini etkilemeyen UTM kodları gibi \"önemsiz\" sorgu dizelerine sahip sayfaların gereksiz önbelleğe alınmasını önler. Bu, LSWS v5.2.3 veya daha yenisini gerektirir. Her satıra bir tane düşecek sorgu dizelerini listeleyin. <a>Sorgu dizelerini bırakma hakkında daha fazla bilgi edinin</a>.<br></br> ⚠️ Bu ayar, .htaccess dosyasını değiştirir.\n",
+            "purge_all": "Tüm LSCache'i Temizle",
+            "purge_all_success": "LiteSpeed Web Sunucusuna tüm LSCache girişlerini temizlemesi bildirildi"
         }
     }
 }
