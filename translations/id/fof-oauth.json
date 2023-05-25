@@ -2,23 +2,23 @@
     "fof-oauth": {
         "admin": {
             "configure_button_label": "Mengkonfigurasi dengan FoF OAuth",
-            "settings_accessibility_label": "",
+            "settings_accessibility_label": "Pengaturan {name}",
             "settings": {
-                "only_icons_label": "Hanya tampilkan ikon Tombol Login (tata letak alternatif)",
+                "only_icons_label": "Hanya tampilkan ikon Tombol Login (layout alternatif)",
                 "providers": {
                     "callback_url_text": "Jika memungkinkan, atur URL callback ke {url}.",
                     "discord": {
-                        "description": "Buat aplikasi di {link}. Tambahkan URL pengalihan di tab OAuth2.",
+                        "description": "Membuat aplikasi di {link}. Tambahkan URL pengalihan di tab OAuth2.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "facebook": {
-                        "description": "Buat aplikasi di {link}.",
+                        "description": "Membuat aplikasi di {link}.",
                         "app_id_label": "",
                         "app_secret_label": ""
                     },
                     "github": {
-                        "description": "Buat OAuth app di {link}.",
+                        "description": "Membuat OAuth app di {link}.",
                         "client_id_label": "",
                         "client_secret_label": ""
                     },
