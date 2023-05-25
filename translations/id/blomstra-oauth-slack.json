@@ -4,7 +4,7 @@
             "settings": {
                 "providers": {
                     "slack": {
-                        "description": "",
+                        "description": "Daftarkan forum Anda dengan Slack {link}",
                         "client_id_label": "",
                         "client_secret_label": ""
                     }
@@ -13,7 +13,7 @@
         },
         "forum": {
             "log_in": {
-                "with_slack_button": ""
+                "with_slack_button": "Login dengan Slack"
             },
             "providers": {
                 "slack": ""
