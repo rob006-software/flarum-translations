@@ -11,7 +11,7 @@
                 "already_used": "",
                 "link_success": "",
                 "unlink_success": "",
-                "error": ""
+                "error": "Ada yang tidak beres, silakan coba lagi nanti!"
             },
             "modals": {
                 "link": {
@@ -21,11 +21,11 @@
                     "title": "",
                     "info": {
                         "confirm": "",
-                        "no_providers": ""
+                        "no_providers": "Anda tidak memiliki penyedia login lain! Anda mungkin harus mengatur ulang password Anda."
                     },
                     "buttons": {
                         "confirm": "",
-                        "cancel": ""
+                        "cancel": "Tidak!"
                     }
                 }
             }
@@ -34,7 +34,7 @@
             "settings": {
                 "title": "",
                 "api_key_label": "",
-                "use_steam_powered_domain": ""
+                "use_steam_powered_domain": "Gunakan domain steampowered.com, jangan steamcommunity.com (diblokir di Cina)"
             }
         }
     }
