@@ -1,16 +1,16 @@
 {
     "fof-nightmode": {
         "ref": {
-            "auto": "Automatic (based on browser or device options)",
-            "light": "Day Mode",
-            "dark": "Night Mode"
+            "auto": "Otomatis (berdasarkan opsi browser atau perangkat)",
+            "light": "Mode Terang",
+            "dark": "Mode Gelap"
         },
         "admin": {
             "settings": {
                 "modal": {
-                    "always_show_theme_toggle_on_header": "Always show the theme switch button on the forum header",
-                    "default_theme": "Default forum theme",
-                    "default_theme_helper": "The default theme is automatically set for new users, guests and those who have no preference set.",
+                    "always_show_theme_toggle_on_header": "Selalu tampilkan tombol switch tema pada header forum",
+                    "default_theme": "Tema forum default",
+                    "default_theme_helper": "Tema default secara otomatis ditetapkan untuk pengguna baru, tamu, dan mereka yang tidak memiliki preferensi.",
                     "theme_auto": "=> fof-nightmode.ref.auto",
                     "theme_light": "=> fof-nightmode.ref.light",
                     "theme_dark": "=> fof-nightmode.ref.dark"
@@ -21,15 +21,15 @@
             "day": "=> fof-nightmode.ref.light",
             "night": "=> fof-nightmode.ref.dark",
             "header": {
-                "nightmode_button": "Toggle forum theme"
+                "nightmode_button": "Ganti tema forum"
             },
             "user": {
                 "settings": {
                     "heading": "Tema",
-                    "description": "Pilih warna tema mana yang ingin Anda gunakan di forum.",
-                    "description2": "Tema ini akan ditautkan ke akun Anda dan berlaku untuk semua perangkat Anda kecuali Anda mengaktifkan sakelar di bawah untuk pengaturan per perangkat.",
-                    "device_specific_setting_checkbox": "Gunakan per pengaturan perangkat",
-                    "device_specific_setting_checkbox_tooltip": "Pilihan tema Anda akan disimpan satu per satu untuk setiap perangkat Anda.",
+                    "description": "Pilih tema warna yang ingin Anda gunakan pada forum.",
+                    "description2": "Tema ini akan dihubungkan ke akun Anda dan berlaku untuk semua perangkat Anda, kecuali jika Anda mengaktifkan tombol switch di bawah ini untuk pengaturan per perangkat.",
+                    "device_specific_setting_checkbox": "Gunakan sesuai pengaturan perangkat",
+                    "device_specific_setting_checkbox_tooltip": "Pilihan tema Anda akan disimpan secara individual untuk setiap perangkat Anda.",
                     "auto_unsupported": "Browser Anda tidak mendukung mode gelap otomatis.",
                     "options": {
                         "auto": "=> fof-nightmode.ref.auto",
@@ -37,9 +37,9 @@
                         "night": "=> fof-nightmode.ref.dark"
                     },
                     "option_descriptions": {
-                        "auto": "Tema Anda akan dipilih secara otomatis berdasarkan browser atau pengaturan perangkat Anda. Misalnya, jika Anda mengaktifkan mode gelap di iOS, forum juga akan menjadi gelap.",
+                        "auto": "Tema Anda akan dipilih secara otomatis berdasarkan pengaturan browser atau perangkat Anda. Sebagai contoh, jika Anda mengaktifkan mode gelap di iOS, maka forum juga akan menjadi gelap.",
                         "day": "Pengalaman klasik yang biasa Anda alami. Teruji dan dicintai.",
-                        "night": "Anda seperti burung hantu. Anda mengawasi forum di malam hari, sementara burung-burung tidur dan rubah berburu. Atau Anda lebih suka warna yang lebih gelap!"
+                        "night": "Anda seperti burung hantu di malam hari. Anda mengawasi forum di malam hari, saat burung-burung sedang tidur dan rubah sedang berburu. Atau Anda lebih menyukai warna yang lebih gelap!"
                     }
                 }
             }
@@ -50,8 +50,8 @@
             "settings": {
                 "fofNightMode": "FoF Nightmode: Warna tema yang akan digunakan secara default",
                 "fofNightMode-help": "0 - otomatis, 1 - mode terang, 2 - mode gelap",
-                "fofNightMode_perDevice": "FoF Nightmode: Gunakan per pengaturan perangkat",
-                "fofNightMode_perDevice-help": "Gunakan per preferensi perangkat untuk pengaturan mode gelap"
+                "fofNightMode_perDevice": "FoF Nightmode: Gunakan sesuai pengaturan perangkat",
+                "fofNightMode_perDevice-help": "Gunakan preferensi per perangkat untuk pengaturan mode gelap"
             }
         }
     }
