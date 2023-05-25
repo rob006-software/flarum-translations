@@ -2,9 +2,9 @@
     "glowingblue-redis-setup": {
         "admin": {
             "settings": {
-                "enable_cache": "",
-                "enable_redis_sessions": "",
-                "enable_queue": "",
+                "enable_cache": "Aktifkan Redis cache",
+                "enable_redis_sessions": "Aktifkan Redis sessions (semua user akan keluar setelah Anda mengubah pengaturan ini)",
+                "enable_queue": "Aktifkan Redis queue",
                 "horizon_config": "",
                 "horizon_help_text": ""
             }
