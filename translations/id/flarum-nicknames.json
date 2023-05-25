@@ -2,21 +2,21 @@
     "flarum-nicknames": {
         "admin": {
             "permissions": {
-                "edit_own_nickname_label": "Edit own nickname"
+                "edit_own_nickname_label": "Edit nickname sendiri"
             },
             "settings": {
-                "max_label": "Panjang maksimum Nickname",
-                "min_label": "Panjang minimum Nickname",
-                "random_username_label": "Randomize Usernames",
-                "random_username_help": "Ini akan menyembunyikan input `nama User` pada saat melakukan pendaftaran forum, dan menggunakan nomor acak sebagai gantinya. Ini juga akan membuat bidang `nickname` harus diisi. Ini hanya akan berlaku jika \"Izinkan pengaturan Nickname pada pendaftaran\" diaktifkan.",
-                "regex_label": "Gunakan regular expression untuk validasi",
-                "set_on_registration_label": "Izinkan pengaturan Nickname pada saat melakukan pendaftaran forum",
-                "unique_label": "Dibutuhkan Nickname yang unik"
+                "max_label": "Panjang maksimum nickname",
+                "min_label": "Panjang minimum nickname",
+                "random_username_label": "Username Acak",
+                "random_username_help": "Ini akan menyembunyikan input `username` pada saat pendaftaran, dan menggunakan nomor acak sebagai gantinya. Ini juga akan membuat kolom `nickname` menjadi wajib diisi. Ini hanya akan berlaku jika \"Izinkan pengaturan nickname pada pendaftaran\" diaktifkan.",
+                "regex_label": "Reguler expression untuk validasi",
+                "set_on_registration_label": "Izinkan pengaturan nickname pada saat pendaftaran",
+                "unique_label": "Dibutuhkan nickname yang unik"
             },
-            "wrong_driver": "You must select \"nickname\" as the display name driver on the <a><strong>Basics Page</strong></a> for this extension to take effect."
+            "wrong_driver": "Anda harus memilih \"nickname\" sebagai display name driver pada <a><strong>Basics Page</strong></a> agar ekstensi ini dapat diterapkan."
         },
         "api": {
-            "invalid_nickname_message": "Nickname ini tidak valid. Silakan hubungi administrator forum Anda untuk informasi lebih lanjut tentang aturan Nickname."
+            "invalid_nickname_message": "Nickname ini tidak valid. Silakan hubungi administrator forum untuk informasi lebih lanjut tentang aturan penggunaan nickname."
         },
         "forum": {
             "change_nickname": {
