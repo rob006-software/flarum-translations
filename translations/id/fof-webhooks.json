@@ -41,7 +41,7 @@
             "errors": {
                 "service_not_found": "",
                 "url_invalid": "",
-                "tag_invalid": ""
+                "tag_invalid": "Webhook ini dibatasi untuk tag yang tidak valid. Pembatasan tidak akan berlaku. Pastikan hal ini dimaksudkan."
             },
             "nav": {
                 "desc": ""
@@ -53,20 +53,20 @@
                     "tag_any_label": ""
                 },
                 "help": {
-                    "disabled": "",
-                    "general": "",
-                    "url": ""
+                    "disabled": "Webhook ini dinonaktifkan karena tidak memiliki event yang diaktifkan.",
+                    "general": "Di sini Anda dapat menambahkan, mengedit, dan menghapus webhook dari forum Anda.",
+                    "url": "Webhook's endpoint yang akan dieksekusi"
                 },
                 "modal": {
-                    "title": "",
+                    "title": "Pengaturan Webhook",
                     "description": "",
-                    "use_plain_text_label": "",
+                    "use_plain_text_label": "Kurangi jumlah pemformatan dalam konten post",
                     "max_post_content_length_label": "",
                     "max_post_content_length_help": "",
                     "extra_text_label": "",
                     "extra_text_help": "",
-                    "group_label": "",
-                    "group_help": "",
+                    "group_label": "Grup",
+                    "group_help": "Kirim sumber daya yang dapat dilihat oleh grup ini",
                     "events_label": ""
                 },
                 "services": {
