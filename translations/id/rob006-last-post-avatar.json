@@ -4,17 +4,17 @@
             "settings": {
                 "mode": {
                     "label": "",
-                    "help": "",
+                    "help": "Pilih kapan dan di mana avatar penulis post terakhir akan ditampilkan pada daftar diskusi. Periksa file README untuk melihat visualisasi setiap opsi.",
                     "options": {
                         "all-replies": "",
                         "non-op-replies": "",
-                        "always": "",
-                        "replace-main": ""
+                        "always": "Selalu",
+                        "replace-main": "Ganti avatar diskusi utama"
                     }
                 },
                 "ignorePrivateDiscussions": {
-                    "label": "",
-                    "help": ""
+                    "label": "Abaikan diskusi pribadi (FoF Byōbu)",
+                    "help": "Centang opsi ini jika Anda tidak ingin mengubah perilaku avatar untuk diskusi pribadi."
                 }
             }
         }
