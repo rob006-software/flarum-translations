@@ -35,20 +35,20 @@
                 "auth_only": ""
             },
             "help": {
-                "stats": "",
+                "stats": "Waktu di antara penyimpanan statistik - dalam hitungan detik. Direkomendasikan antara 3600 (1 jam) dan 21600 (6 jam) Default: 7200.",
                 "auto_update": "",
                 "app_id": "",
                 "app_key": "",
                 "secret": "",
-                "secure": "",
+                "secure": "Paksa websocket untuk menggunakan protokol aman - Aktifkan ini jika Anda menggunakan server websocket yang aman, namun bukan situs web.",
                 "host": "",
                 "reverse_proxy": "",
                 "port": "",
-                "cert_path": "",
-                "pk_path": "",
-                "passphrase": "",
-                "self_signed": "",
-                "auth_only": ""
+                "cert_path": "Hanya diperlukan jika menggunakan ssl dan BUKAN proxy terbalik. Jalur ke sertifikat SSL (https) Anda ADA DI SERVER tempat server websocket Anda berada - biasanya berupa file .crt atau .pem.",
+                "pk_path": "Hanya diperlukan jika menggunakan ssl dan BUKAN proxy terbalik. Jalur ke kunci pribadi SSL (https) Anda ADA DI SERVER tempat server websocket Anda berada - biasanya berupa file .key atau .pem.",
+                "passphrase": "Hanya diperlukan jika menggunakan ssl dan BUKAN proxy terbalik. Password yang digunakan untuk menyandikan sertifikat Anda - biasanya tidak diperlukan.",
+                "self_signed": "Hanya diperlukan jika menggunakan ssl dan BUKAN proxy terbalik. Aktifkan ini jika sertifikat SSL (https) Anda ditandatangani sendiri.",
+                "auth_only": "Hanya izinkan user yang diautentikasi untuk terhubung ke server websocket, dapat mengurangi beban CPU."
             }
         }
     }
