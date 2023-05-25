@@ -7,30 +7,30 @@
             },
             "modal": {
                 "loading": {
-                    "title": "",
-                    "content": ""
+                    "title": "Menyimpan",
+                    "content": "Mohon menunggu..."
                 },
                 "error": {
-                    "title": "",
-                    "content": ""
+                    "title": "Ups! Mengalami beberapa masalah saat menyimpan...",
+                    "content": "Daftar error:"
                 }
             },
             "errors": {
-                "max_char_limit_exceed": "",
-                "max_image_width_exceed": "",
-                "max_image_height_exceed": "",
-                "max_image_count_exceed": ""
+                "max_char_limit_exceed": "Batas karakter maksimum terlampaui.",
+                "max_image_width_exceed": "Batas lebar gambar maksimum terlampaui.",
+                "max_image_height_exceed": "Batas tinggi gambar maksimum terlampaui.",
+                "max_image_count_exceed": "Jumlah gambar maksimum terlampaui."
             }
         },
         "admin": {
             "title": "",
             "settings": {
                 "maximum_image_width": {
-                    "description": "",
+                    "description": "Lebar maksimum gambar pada editor.",
                     "placeholder": ""
                 },
                 "maximum_image_height": {
-                    "description": "",
+                    "description": "Tinggi maksimum dari jumlah tinggi total gambar yang disisipkan pada editor.",
                     "placeholder": ""
                 },
                 "maximum_image_count": {
