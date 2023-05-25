@@ -6,28 +6,28 @@
                     "bypassAds": ""
                 },
                 "settings": {
-                    "admin_bypass_warning": "Karena sifat dari sistem perizinan Flarum, anggota grup Admin tidak akan melihat iklan apa pun di forum. Jika Anda ingin menguji iklan Anda, silakan kunjungi forum dalam mode Incognito atau Private.\n",
+                    "admin_bypass_warning": "Karena sifat dari sistem perizinan Flarum, anggota grup Admin \ntidak akan melihat iklan apa pun di forum. Jika Anda ingin menguji iklan Anda, silakan kunjungi forum \ndalam mode Incognito atau Private.\n",
                     "enabled_locations": "",
                     "script_urls": "",
                     "add_script": "",
-                    "script_deletion": "",
-                    "code_input": "",
-                    "code_input_disabled": "",
-                    "js_input": "",
-                    "js_input_disabled": "",
-                    "use_adsense": "",
+                    "script_deletion": "Untuk menghapus skrip, biarkan kotak teks kosong dan tekan 'Simpan Perubahan'.",
+                    "code_input": "Kode HTML",
+                    "code_input_disabled": "Aktifkan lokasi ini untuk mengedit kode HTML-nya.",
+                    "js_input": "Kode javascript",
+                    "js_input_disabled": "Aktifkan lokasi ini untuk mengedit kode JS-nya.",
+                    "use_adsense": "Gunakan AdSense",
                     "pub_id": "",
                     "between_posts_gap": "",
                     "allow_after_placeholder": "",
                     "save_btn": {
                         "dirty": "Simpan perubahan",
-                        "saving": "",
-                        "saved": "",
-                        "fix_errors": ""
+                        "saving": "Menyimpan...",
+                        "saved": "Semua perubahan disimpan",
+                        "fix_errors": "Perbaiki error sebelum menyimpan"
                     },
                     "alert": {
-                        "fix_errors": "",
-                        "code_has_script": ""
+                        "fix_errors": "Harap perbaiki error di atas sebelum menyimpan perubahan",
+                        "code_has_script": "Satu atau beberapa unit iklan Anda mengandung script tag, yang tidak diizinkan. Hapus dan coba lagi."
                     },
                     "warning": ""
                 }
@@ -39,7 +39,7 @@
                     "header": "",
                     "sidebar": "",
                     "footer": "",
-                    "between_posts": ""
+                    "between_posts": "Di antara post"
                 }
             }
         }
