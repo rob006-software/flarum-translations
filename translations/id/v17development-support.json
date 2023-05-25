@@ -75,28 +75,28 @@
                     "hide_article": "",
                     "recover_article": "",
                     "delete_forever": "",
-                    "view_ratings": ""
+                    "view_ratings": "Lihat rating"
                 }
             },
             "support_ratings": {
-                "score": "",
-                "helful_article": "",
-                "helful_support": "",
-                "feedback": "",
-                "feedback_not_helpful": "",
-                "enter_feedback": "",
-                "finished": "",
+                "score": "Skor",
+                "helful_article": "Apakah artikel ini bermanfaat?",
+                "helful_support": "Apakah Anda puas dengan cara kami menangani tiket dukungan Anda?",
+                "feedback": "Terima kasih atas ulasan Anda, apakah Anda memiliki umpan balik?",
+                "feedback_not_helpful": "Maaf artikel ini tidak membantu, apa yang Anda cari?",
+                "enter_feedback": "Masukkan tanggapan Anda di sini",
+                "finished": "Terima kasih! Masukan Anda telah disimpan.",
                 "validation": {
-                    "invalid_discussion": "",
-                    "guest": "",
-                    "invalid_points": "",
-                    "cannot_rate_article": "",
+                    "invalid_discussion": "Ups, ada yang tidak beres. Anda tidak dapat memberikan rating pada artikel/tiket dukungan ini.",
+                    "guest": "Silakan login sebelum Anda memberikan rating pada artikel ini.",
+                    "invalid_points": "Rating tidak valid. Silakan coba lagi.",
+                    "cannot_rate_article": "Anda tidak dapat memberikan rating pada artikel ini.",
                     "neutral_emoji_disabled": "",
                     "missing_article_id": ""
                 },
                 "switch_sort_score": {
                     "label": "",
-                    "description": ""
+                    "description": "Hanya tampilkan artikel yang telah mendapatkan umpan balik, dengan mengurutkan berdasarkan artikel dengan skor terendah."
                 }
             },
             "modals": {
@@ -174,7 +174,7 @@
                     "closed": {
                         "title": "",
                         "description": "",
-                        "is_closed": "",
+                        "is_closed": "Tiket ini ditutup, ketika Anda membalas, tiket akan dibuka kembali. Kami hanya menyarankan untuk membuka kembali tiket jika masalahnya belum terselesaikan. Jika ini adalah masalah baru, silakan buka tiket yang baru.",
                         "close_after_posting": "",
                         "is_auto_closed": ""
                     },
@@ -193,7 +193,7 @@
                     }
                 },
                 "tools": {
-                    "view_ticket": "",
+                    "view_ticket": "Lihat tiket",
                     "update_subject": "",
                     "assign_me": "",
                     "remove_me": "",
@@ -202,22 +202,22 @@
                     "update_note": ""
                 },
                 "new_tickets_dropdown": {
-                    "title": "",
-                    "no_tickets": "",
+                    "title": "Notifikasi Tiket",
+                    "no_tickets": "Tidak ada notifikasi tiket",
                     "ticket_new": "",
                     "ticket_updated": ""
                 },
                 "fields": {
                     "language": {
-                        "title": "",
-                        "placeholder": "",
+                        "title": "Bahasa",
+                        "placeholder": "Pilih bahasa",
                         "empty": "",
                         "description": ""
                     },
                     "subject": {
                         "title": "",
                         "placeholder": "",
-                        "description": ""
+                        "description": "Coba jelaskan pertanyaan Anda dalam satu kalimat singkat."
                     },
                     "information": {
                         "title": "",
@@ -232,31 +232,31 @@
                         "placeholder": ""
                     },
                     "private_note": {
-                        "title": "",
+                        "title": "Catatan pribadi",
                         "info": "",
-                        "tip": "",
-                        "placeholder": "",
-                        "edit_button": ""
+                        "tip": "TIPS: Jika Anda bekerja dengan beberapa agen dalam satu tiket, tambahkan nama dan tanggal pada catatan.",
+                        "placeholder": "Contoh: 1 Januari 2022 - Nama Agen: Menghapus customer dari database",
+                        "edit_button": "Edit catatan"
                     }
                 },
                 "compose_ticket": {
-                    "title": "",
-                    "private_support": "",
-                    "not_allowed": ""
+                    "title": "Tulis tiket baru",
+                    "private_support": "Untuk dukungan pribadi, Anda dapat menggunakan formulir ini untuk membuat tiket baru di platform dukungan kami. Untuk masalah dukungan non-privat, silakan lihat <a>forum publik kami</a>.",
+                    "not_allowed": "Anda tidak dapat membuka tiket dukungan baru saat ini"
                 },
                 "load_more": {
                     "title": ""
                 },
                 "my_tickets": {
-                    "title": "",
-                    "description": "",
-                    "no_tickets": ""
+                    "title": "Tiket saya",
+                    "description": "Di halaman ini Anda dapat menemukan semua tiket pribadi Anda.",
+                    "no_tickets": "Anda belum memiliki tiket."
                 },
                 "overview": {
-                    "title": "",
-                    "description": "",
+                    "title": "Gambaran umum tiket",
+                    "description": "Tersenyumlah, Anda adalah pahlawan yang menyelamatkan hari orang lain.",
                     "no_tickets": "",
-                    "all_tickets": "",
+                    "all_tickets": "Semua tiket",
                     "selection_unfiltered": "",
                     "selection_open": "",
                     "selection_closed": "",
@@ -267,7 +267,7 @@
                             "filter_count": ""
                         },
                         "language": {
-                            "any": ""
+                            "any": "Semua bahasa"
                         },
                         "assignees": {
                             "title": "",
