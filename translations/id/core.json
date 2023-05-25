@@ -91,7 +91,7 @@
                 "color_label": "=> core.ref.color",
                 "delete_button": "Hapus Grup",
                 "delete_confirmation": "Anda yakin ingin menghapus grup ini? Anggota grup TIDAK akan ikut terhapus.",
-                "hide_label": "",
+                "hide_label": "Sembunyikan di forum",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "Name",
@@ -203,7 +203,7 @@
                 "edit_users_groups_label": "Edit grup user",
                 "global_heading": "Global",
                 "moderate_heading": "Moderasi",
-                "moderate_access_tokens_label": "",
+                "moderate_access_tokens_label": "Moderasi Akses Token",
                 "new_group_button": "Grup Baru",
                 "participate_heading": "Partisipasi",
                 "post_without_throttle_label": "Balas beberapa kali tanpa harus menunggu",
@@ -236,7 +236,7 @@
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
-                "upload_button": "Pilih gambar..."
+                "upload_button": "Pilih Gambar..."
             },
             "users": {
                 "create_user_button": "Pengguna Baru",
@@ -343,18 +343,18 @@
             "discussion_list": {
                 "empty_text": "Sepertinya tidak ada diskusi di sini.",
                 "load_more_button": "=> core.ref.load_more",
-                "replied_text": "{username} replied {ago}",
-                "started_text": "{username} started {ago}",
+                "replied_text": "{username} membalas {ago}",
+                "started_text": "{username} memulai {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# reply} other {# replies}}",
                 "unread_replies_a11y_label": "{count, plural, one {# unread reply} other {# unread replies}}. Mark unread {count, plural, one {reply} other {replies}} as read."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "Jika email yang Anda masukkan terdaftar di situs ini, Kami akan mengirimkan email yang berisi link untuk mengatur ulang kata sandi Anda. Periksa folder spam Anda jika Anda tidak menerimanya dalam satu atau dua menit ke depan.",
-                "not_found_message": "Tidak ada pengguna yang terdaftar dengan alamat email tersebut.",
+                "email_sent_message": "Jika email yang Anda masukkan terdaftar di situs ini, kami akan mengirimkan email yang berisi link untuk mengatur ulang password Anda. Periksa folder spam Anda jika Anda tidak menerimanya dalam satu atau dua menit ke depan.",
+                "not_found_message": "Tidak ada user yang terdaftar dengan alamat email tersebut.",
                 "submit_button": "Pulihkan Password",
-                "text": "Masukkan alamat email Anda dan Kami akan mengirimkan link untuk mereset kata sandi Anda.",
+                "text": "Masukkan alamat email Anda dan Kami akan mengirimkan link untuk mereset password Anda.",
                 "title": "Lupa Password"
             },
             "header": {
