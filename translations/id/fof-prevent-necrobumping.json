@@ -4,15 +4,15 @@
             "composer": {
                 "warning": {
                     "title": "Diskusi ini berusia lebih dari <b>{time}</b>.",
-                    "description": "Hal ini sangat mungkin bahwa hal ini tidak memerlukan pembahasan lebih lanjut dan dengan demikian jika terus dilanjutkan, kemungkinan tidak ada gunanya.",
-                    "checkbox_label": "Saya sadar bahwa diskusi ini agak lama tetapi masih ingin membalas.",
-                    "error": "Diskusi ini sudah terlalu tua untuk Anda balas."
+                    "description": "Kemungkinan besar hal ini tidak perlu didiskusikan lebih lanjut dan dengan demikian tidak ada gunanya untuk membahasnya.",
+                    "checkbox_label": "Saya sadar bahwa diskusi ini sudah agak lama, tetapi saya masih ingin menjawabnya.",
+                    "error": "Diskusi ini sudah terlalu lama untuk dijawab."
                 }
             }
         },
         "admin": {
             "settings": {
-                "days_label": "Days",
+                "days_label": "Hari",
                 "days_help": "Suatu diskusi akan ditandai sebagai old (sudah tua) ketika jumlah hari yang ditentukan telah mencapai batas sejak posting terakhir pada diskusi itu diposting. Gunakan <code>0</code> untuk menonaktifkannya secara default.",
                 "message_title_label": "Judul Pesan Khusus",
                 "message_title_help": "Gunakan <code>[time]</code> untuk text waktu, misalkan \"14 days\".",
