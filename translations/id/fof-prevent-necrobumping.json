@@ -13,13 +13,13 @@
         "admin": {
             "settings": {
                 "days_label": "Hari",
-                "days_help": "Suatu diskusi akan ditandai sebagai old (sudah tua) ketika jumlah hari yang ditentukan telah mencapai batas sejak posting terakhir pada diskusi itu diposting. Gunakan <code>0</code> untuk menonaktifkannya secara default.",
+                "days_help": "Diskusi akan ditandai sebagai sudah lama ketika jumlah hari yang ditentukan telah terlewati sejak post terakhir pada diskusi tersebut diposting. Gunakan <code>0</code> untuk menonaktifkannya secara default.",
                 "message_title_label": "Judul Pesan Khusus",
-                "message_title_help": "Gunakan <code>[time]</code> untuk text waktu, misalkan \"14 days\".",
+                "message_title_help": "Gunakan <code>[time]</code> untuk text waktu, misalkan \"14 hari\".",
                 "message_description_label": "Deskripsi Pesan Khusus",
-                "message_agreement_label": "Perjanjian Pesan Khusus (Checkbox / Kotak Centang)",
-                "tags_title": "Tags",
-                "tags_help": "Abaikan hari global untuk tag tertentu. Kosongkan untuk menggunakan nilai default. Jika suatu diskusi memiliki banyak tag dengan nilai hari yang berbeda, itu akan menggunakan jumlah hari terkecil yang dikonfigurasi."
+                "message_agreement_label": "Perjanjian Pesan Khusus (Kotak Centang)",
+                "tags_title": "Tag",
+                "tags_help": "Mengganti hari global untuk tag tertentu. Kosong berarti menggunakan nilai default. Jika sebuah diskusi memiliki beberapa tag dengan nilai hari yang berbeda, diskusi tersebut akan menggunakan jumlah hari terkecil yang telah dikonfigurasi."
             }
         }
     }
