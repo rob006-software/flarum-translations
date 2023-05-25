@@ -9,7 +9,7 @@
                 "save": ""
             },
             "post-answers": {
-                "no-answer": ""
+                "no-answer": "Tidak ada jawaban"
             },
             "answers": {
                 "choose-option": "",
@@ -23,14 +23,14 @@
         "admin": {
             "buttons": {
                 "new-field": "",
-                "add-field": "",
-                "save-field": "",
-                "delete-field": "",
-                "edit-field": "",
+                "add-field": "Tambahkan kolom",
+                "save-field": "Simpan perubahan kolom",
+                "delete-field": "Hapus kolom",
+                "edit-field": "Klik untuk mengedit kolom",
                 "add-answer": "",
                 "save-answer": "Simpan perubahan jawaban",
-                "delete-answer": "",
-                "edit-answer": "",
+                "delete-answer": "Hapus jawaban",
+                "edit-answer": "Edit Jawaban",
                 "edit-answer-prompt": "",
                 "show-user-answers": ""
             },
@@ -41,7 +41,7 @@
                 "name": "",
                 "name-help": "",
                 "description": "",
-                "description-help": "",
+                "description-help": "Deskripsi opsional untuk menjelaskan penggunaan/kebutuhan kolom ini.\n",
                 "show_when_empty": "",
                 "show_when_empty-help": "",
                 "validation": "",
@@ -55,38 +55,38 @@
                 "save-field-for-answers": "",
                 "is_suggested": "",
                 "new-answer": "",
-                "new-answer-placeholder": ""
+                "new-answer-placeholder": "Beberapa teks"
             },
             "messages": {
                 "delete-answer-confirmation": "",
-                "delete-field-confirmation": ""
+                "delete-field-confirmation": "Apakah Anda yakin ingin menghapus kolom \"{name}\"? Kolom dan jawabannya akan dihapus dari semua diskusi yang menggunakannya. Hapus kolom?\n"
             },
             "settings": {
                 "fields-section-title": "",
-                "fields-section-title-placeholder": "",
-                "fields-section-title-help": "",
+                "fields-section-title-placeholder": "Secara default tidak ada judul yang akan ditampilkan",
+                "fields-section-title-help": "User akan melihat teks ini di atas kolom khusus di editor dan di diskusi.\n",
                 "column-count": "",
-                "n-columns": "",
-                "labels-as-placeholders": "",
-                "labels-as-placeholders-help": "",
+                "n-columns": "{count} kolom",
+                "labels-as-placeholders": "Tampilkan label sebagai placeholder dalam form",
+                "labels-as-placeholders-help": "Kolom akan menggunakan lebih sedikit ruang vertikal dan ikon tidak akan ditampilkan lagi. Harap diingat bahwa hal ini mungkin berdampak pada kegunaan, khususnya saat mengedit kolom yang ada.\n",
                 "fields-in-hero": "",
                 "hide-empty-fields-section": "",
-                "hide-empty-fields-section-help": "",
+                "hide-empty-fields-section-help": "Secara default jika user dapat mengedit kolom atau judul yang telah ditetapkan, bagian tersebut akan selalu ditampilkan, meskipun semua kolom disembunyikan. Dengan mengaktifkan opsi ini, bagian tersebut akan disembunyikan dan tombol \"edit kolom\" hanya akan tersedia di dalam menu dropdown \"balasan\" ketika semua kolom kosong.\n",
                 "tags-as-field": "",
-                "tags-as-field-help": "",
+                "tags-as-field-help": "Ini akan menyembunyikan tag selector default dan menampilkan kolom dropdown khusus sebagai gantinya. Ini hanya akan berfungsi jika Anda mengizinkan hingga satu tag primer dan satu tag sekunder!\n",
                 "tags-field-name": "",
                 "tags-field-name-placeholder": "",
                 "composer-height": "",
                 "composer-height-placeholder": "",
-                "composer-height-help": "",
+                "composer-height-help": "default adalah 200, harus lebih tinggi dari itu untuk mengakomodasi kolom.",
                 "by-tag": "",
                 "by-tag-name": ""
             },
             "titles": {
-                "tag-settings": "",
-                "settings": "",
-                "fields": "",
-                "field-settings": "",
+                "tag-settings": "Pengaturan tag",
+                "settings": "Pengaturan",
+                "fields": "Kolom",
+                "field-settings": "Pengaturan kolom",
                 "field-answers": ""
             },
             "permissions": {
