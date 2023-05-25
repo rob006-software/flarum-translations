@@ -18,8 +18,8 @@
         },
         "forum": {
             "user": {
-                "birthday_text": "",
-                "age_text": ""
+                "birthday_text": "Ulang tahun: {date}",
+                "age_text": "Usia: {age}"
             },
             "header": {
                 "edit_dob_button": ""
@@ -30,17 +30,17 @@
                 "submit_button": ""
             },
             "settings": {
-                "change_dob_label": "",
-                "dob_heading": "",
+                "change_dob_label": "Ubah Tanggal Lahir",
+                "dob_heading": "Tanggal Lahir",
                 "show_dob_date_label": "",
                 "show_dob_year_label": "",
-                "show_dob_year_help": ""
+                "show_dob_year_help": "Hal ini akan memungkinkan orang melihat usia Anda."
             },
             "edit_user": {
                 "dob_heading": ""
             },
             "nav": {
-                "nav_item": ""
+                "nav_item": "Hari ini Ulang Tahun"
             },
             "page": {
                 "discussion_count": "",
@@ -48,8 +48,8 @@
             }
         },
         "api": {
-            "invalid_dob_message": "",
-            "invalid_age_message": ""
+            "invalid_dob_message": "Tanggal lahir tidak valid",
+            "invalid_age_message": "Usia Anda minimal harus berusia {minAge} tahun."
         }
     }
 }
