@@ -4,10 +4,10 @@
             "settings": {
                 "mode": {
                     "label": "",
-                    "help": "Pilih kapan dan di mana avatar penulis post terakhir akan ditampilkan pada daftar diskusi. Periksa file README untuk melihat visualisasi setiap opsi.",
+                    "help": "Pilih kapan dan di mana avatar penulis postingan terakhir akan ditampilkan pada daftar diskusi. Periksa file README untuk melihat visualisasi setiap opsi.",
                     "options": {
-                        "all-replies": "",
-                        "non-op-replies": "",
+                        "all-replies": "Hanya balasan",
+                        "non-op-replies": "Hanya balasan saja, kecuali postingan dari pembuat diskusi",
                         "always": "Selalu",
                         "replace-main": "Ganti avatar diskusi utama"
                     }
