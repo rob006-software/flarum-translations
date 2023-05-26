@@ -20,8 +20,8 @@
                 "new_post_text": "{username} memposting"
             },
             "settings": {
-                "follow_after_reply_label": "Follow diskusi yang Saya jawab secara otomatis",
-                "notify_for_all_posts_label": "Beri tahu tentang setiap post baru, bukan hanya yang terakhir dalam diskusi",
+                "follow_after_reply_label": "Secara otomatis mengikuti diskusi yang saya balas",
+                "notify_for_all_posts_label": "Beri tahu tentang setiap postingan baru, bukan hanya yang terakhir dalam diskusi",
                 "notify_new_post_label": "Ada post baru pada diskusi yang Saya follow"
             },
             "sub_controls": {
@@ -29,17 +29,17 @@
                 "following_button": "=> flarum-subscriptions.ref.following",
                 "following_text": "Dapatkan notifikasi dari semua balasan.",
                 "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
-                "ignoring_text": "Jangan terima notifikasi. Sembunyikan dari daftar diskusi.",
+                "ignoring_text": "Tidak ada notifikasi. Sembunyikan dari daftar diskusi.",
                 "not_following_button": "Tidak Mengikuti",
                 "not_following_text": "Dapatkan notifikasi hanya ketika di-@mention.",
-                "notify_alert_tooltip": "Dapatkan notifikasi ketika ada pesan baru",
-                "notify_email_tooltip": "Kirim email ketika ada pesan baru"
+                "notify_alert_tooltip": "Dapatkan notifikasi forum ketika ada postingan baru",
+                "notify_email_tooltip": "Dapatkan email saat ada postingan baru"
             }
         },
         "email": {
             "new_post": {
                 "subject": "[New Post] {title}",
-                "body": "Hey {recipient_display_name}!\n\n{poster_display_name} made a post in a discussion you're following: {title}.\n\nTo view the new activity, check out the following link:\n{url}\n\n---\n\n{content}\n\n---\n\nYou won't receive any more notifications about this discussion until you're up-to-date.\n"
+                "body": "Halo {recipient_display_name}!\n\n{poster_display_name} telah membuat post dalam diskusi yang Anda ikuti: {title}.\n\nUntuk melihatnya, kunjungi link berikut ini:\n{url}\n\n---\n\n{content}\n\n---\n\nAnda tidak akan menerima notifikasi lagi tentang diskusi ini sampai Anda mendapatkan informasi terbaru.\n"
             }
         },
         "ref": {
