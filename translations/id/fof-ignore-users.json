@@ -2,23 +2,23 @@
     "fof-ignore-users": {
         "admin": {
             "permissions": {
-                "can_not_be_ignored_label": ""
+                "can_not_be_ignored_label": "Tidak bisa diabaikan"
             }
         },
         "forum": {
             "profile_link": "",
             "profile_page": {
-                "no_ignored": ""
+                "no_ignored": "Sepertinya Anda tidak mengabaikan siapa pun."
             },
             "user_controls": {
-                "ignore_button": "",
-                "ignore_confirmation": "",
-                "unignore_button": "",
-                "unignore_confirmation": ""
+                "ignore_button": "Abaikan",
+                "ignore_confirmation": "Apakah Anda yakin ingin mengabaikan orang ini?",
+                "unignore_button": "Berhenti mengabaikan",
+                "unignore_confirmation": "Apakah Anda yakin ingin tidak lagi mengabaikan orang ini?"
             },
             "badge": {
                 "user_label": "",
-                "discussion_label": ""
+                "discussion_label": "Dimulai oleh seorang pengguna yang diabaikan"
             }
         }
     }
