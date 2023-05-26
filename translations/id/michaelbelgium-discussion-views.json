@@ -2,53 +2,53 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "",
-                "unpopular_button": ""
+                "popular_button": "Populer",
+                "unpopular_button": "Tidak populer"
             }
         }
     },
     "michaelbelgium-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
-                "submit_button": "",
+                "title": "Atur ulang jumlah tampilan diskusi",
+                "submit_button": "Ya, hapus semuanya",
                 "label": ""
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "Atur ulang jumlah tampilan"
             },
             "viewlist": {
-                "title": "",
-                "guest": ""
+                "title": "Pengunjung terbaru",
+                "guest": "Tamu"
             },
             "post": {
-                "viewed_by": "",
-                "you": "",
-                "others_link": "",
-                "modal_title_text": ""
+                "viewed_by": "{users} melihat ini.",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "Orang yang terakhir kali melihat diskusi ini"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": "",
-                "view_number_label": ""
+                "reset_views_label": "Atur ulang jumlah tampilan diskusi",
+                "view_number_label": "Lihat jumlah tampilan diskusi"
             },
             "settings": {
-                "title": "",
-                "track_unique_label": "",
-                "track_unique_text": "",
-                "track_guests_label": "",
-                "abbr_numbers_label": "",
-                "abbr_numbers_text": "",
-                "show_filter_label": "",
+                "title": "Pengaturan jumlah tampilan diskusi",
+                "track_unique_label": "Lacak tampilan unik",
+                "track_unique_text": "Tingkatkan jumlah tampilan berdasarkan alamat IP",
+                "track_guests_label": "Lacak tamu",
+                "abbr_numbers_label": "Menyingkat angka tampilan",
+                "abbr_numbers_text": "Jika diaktifkan, angka besar untuk jumlah tampilan akan disingkat (misalnya, 1000 = 1K)",
+                "show_filter_label": "Aktifkan kolom sortir (tidak) populer",
                 "max_viewcount_label": "",
-                "max_viewcount_text": "",
+                "max_viewcount_text": "Mengatur jumlah maksimum pengguna dalam daftar jumlah tampilan (berlaku untuk daftar jumlah tampilan footer dan sidebar)",
                 "show_viewlist_label": "",
-                "show_viewlist_text": "",
+                "show_viewlist_text": "Aktifkan daftar pengunjung terbaru di sidebar diskusi",
                 "show_footer_viewlist_label": "",
-                "show_footer_viewlist_text": "",
-                "ignore_crawlers_label": "",
-                "ignore_crawlers_text": ""
+                "show_footer_viewlist_text": "Aktifkan daftar pengunjung di bagian footer pada postingan awal dari sebuah diskusi",
+                "ignore_crawlers_label": "Abaikan bot/crawler",
+                "ignore_crawlers_text": "Mencegah bot dan crawler untuk meningkatkan jumlah tampilan"
             }
         }
     }
