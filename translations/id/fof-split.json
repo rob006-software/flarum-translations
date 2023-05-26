@@ -2,7 +2,7 @@
     "fof-split": {
         "admin": {
             "permissions": {
-                "split_discussion_label": ""
+                "split_discussion_label": "Memisahkan postingan dari sebuah diskusi"
             }
         },
         "forum": {
@@ -11,13 +11,13 @@
                 "was_split_from": ""
             },
             "split": {
-                "from": "",
-                "to": ""
+                "from": "Pisahkan dari sini",
+                "to": "Pisahkan ke sini"
             },
             "modal": {
-                "title": "",
-                "new_discussion_label": "",
-                "submit_button": ""
+                "title": "Membagi diskusi",
+                "new_discussion_label": "Tentukan judul untuk diskusi yang baru",
+                "submit_button": "Pisahkan"
             }
         }
     }
