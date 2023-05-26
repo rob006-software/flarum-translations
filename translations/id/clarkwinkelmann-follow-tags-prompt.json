@@ -2,30 +2,30 @@
     "clarkwinkelmann-follow-tags-prompt": {
         "forum": {
             "controls": {
-                "choose": ""
+                "choose": "Pilih tag yang akan diikuti"
             },
             "modal": {
-                "title": "",
-                "later": "",
-                "continue": ""
+                "title": "Pilih tag yang akan diikuti",
+                "later": "Ingatkan Saya nanti",
+                "continue": "Lanjut ke forum"
             }
         },
         "admin": {
             "settings": {
-                "buttonOnFollowingPage": "",
-                "allDiscussionsOnFollowingPageForGuests": "",
+                "buttonOnFollowingPage": "Tampilkan tombol pada halaman Mengikuti (Following)",
+                "allDiscussionsOnFollowingPageForGuests": "Tampilkan semua diskusi di halaman Mengikuti (Following) untuk para tamu",
                 "availableTagStrategy": "",
                 "tagStrategy": {
                     "primary": "",
                     "primaryAndChildren": "",
                     "primaryAndSecondary": "",
-                    "secondary": "",
-                    "all": "",
-                    "list": ""
+                    "secondary": "Hanya tag sekunder",
+                    "all": "Semua tag",
+                    "list": "Tag yang Anda pilih di bawah ini"
                 }
             },
             "homepage": {
-                "following": ""
+                "following": "Mengikuti"
             }
         }
     }
