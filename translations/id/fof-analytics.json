@@ -4,30 +4,30 @@
             "popup": {
                 "section": {
                     "googleAnalytics": "Google Analytics",
-                    "piwik": ""
+                    "piwik": "Matomo"
                 },
                 "field": {
                     "statusGoogle": "Aktifkan Google Analytics (UA/GA4)",
                     "optTrackingCode": "Optimalkan Kode Pelacakan (opsional)",
-                    "googleTrackingCode": "Kode ID Pelacakan",
-                    "googleGTMCode": "GTM code ID (optional)",
+                    "googleTrackingCode": "ID Kode Pelacakan",
+                    "googleGTMCode": "ID kode GTM (opsional)",
                     "statusPiwik": "Aktifkan Matomo",
                     "piwikUrl": "Domain Matomo atau URL",
-                    "piwikSiteId": "Site ID",
-                    "piwikTrackSubdomain": "Tracking pengunjung di semua subdomain Flarum",
-                    "piwikPrependDomain": "Tambahkan domain situs ke judul halaman saat men-tracking",
-                    "piwikHideAliasUrl": "Dalam laporan \"Link keluar\", sembunyikan klik ke URL alias yang dikenal",
-                    "piwikAliasUrl": "Alias URL",
-                    "piwikTrackAccounts": "Tracking setiap akun user",
+                    "piwikSiteId": "ID Situs",
+                    "piwikTrackSubdomain": "Melacak pengunjung di semua subdomain Flarum",
+                    "piwikPrependDomain": "Menyesuaikan domain situs dengan judul halaman saat melakukan pelacakan",
+                    "piwikHideAliasUrl": "Dalam laporan \"Link Keluar\", sembunyikan klik ke URL alias yang dikenal",
+                    "piwikAliasUrl": "URL Alias",
+                    "piwikTrackAccounts": "Lacak akun pengguna individu",
                     "piwikAuthToken": "Token Otentikasi"
                 },
                 "placeholder": {
-                    "piwikAuthToken": "Isi token ini untuk mengaktifkan tab Matomo stats di panel admin.\nAnda dapat menemukannya di Settings > Personal > API Authentication Token.\n"
+                    "piwikAuthToken": "Isi token ini untuk mengaktifkan widget statistik Matomo di panel admin.\nAnda dapat menemukannya di Settings > Personal > API Authentication Token.\n"
                 },
                 "trackAccounts": {
-                    "none": "Jangan ditracking",
-                    "username": "Tracking dengan username",
-                    "email": "Tracking dengan email"
+                    "none": "Jangan lacak",
+                    "username": "Lacak berdasarkan username",
+                    "email": "Lacak berdasarkan email"
                 }
             },
             "matomo-widget": {
