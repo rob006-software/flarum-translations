@@ -2,20 +2,20 @@
     "fof-follow-tags": {
         "forum": {
             "settings": {
-                "notify_new_discussion_label": "Seseorang membuat diskusi di tag yang saya follow",
-                "notify_new_post_label": "Seseorang memposting di tag yang saya follow",
-                "notify_new_discussion_tag_label": "Seseorang men-tag ulang sebuah diskusi ke tag yang saya follow"
+                "notify_new_discussion_label": "Seseorang membuat diskusi di tag yang Saya ikuti",
+                "notify_new_post_label": "Seseorang memposting di tag yang Saya ikuti",
+                "notify_new_discussion_tag_label": "Seseorang men-tag ulang sebuah diskusi ke tag yang Saya ikuti"
             },
             "index": {
-                "follow_tag_button": "Follow",
-                "unfollow_tag_button": "",
+                "follow_tag_button": "Ikuti",
+                "unfollow_tag_button": "Berhenti Mengikuti",
                 "following": {
                     "following_none_label": "",
                     "following_tags_label": ""
                 }
             },
             "badge": {
-                "following_tag_tooltip": "",
+                "following_tag_tooltip": "Mengikuti",
                 "lurking_tag_tooltip": ""
             },
             "sub_controls": {
@@ -27,11 +27,11 @@
                 "ignoring_button": "",
                 "ignoring_text": "Hentikan notifikasi.",
                 "lurking_button": "",
-                "lurking_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "Dapatkan notifikasi forum ketika ada diskusi atau post baru",
-                "notify_email_tooltip": "Dapatkan email ketika ada diskusi atau post baru"
+                "lurking_text": "Dapatkan notifikasi tentang semua diskusi dan balasan yang baru.",
+                "not_following_button": "Tidak Mengikuti",
+                "not_following_text": "Hanya akan mendapat notifikasi jika @di-mention.",
+                "notify_alert_tooltip": "Dapatkan notifikasi forum ketika ada diskusi atau postingan baru",
+                "notify_email_tooltip": "Dapatkan email ketika ada diskusi atau postingan baru"
             },
             "notifications": {
                 "new_discussion_text": "",
