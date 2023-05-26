@@ -2,9 +2,9 @@
     "fof-socialprofile": {
         "admin": {
             "permissions": {
-                "view": "Lihat social profile",
-                "editOwn": "Edit social profile milik sendiri",
-                "editAny": "Edit social profile siapapun"
+                "view": "Lihat profil sosial",
+                "editOwn": "Edit profil sosial Anda sendiri",
+                "editAny": "Edit profil sosial siapa pun"
             },
             "settings": {
                 "allow_external_favicons_label": "Izinkan ikon situs web eksternal (menggunakan API favicon DuckDuckGo)"
@@ -13,16 +13,16 @@
         "forum": {
             "edit": {
                 "edit": "Edit tombol media sosial Anda",
-                "add": "Tambahkan tombol media sosial Anda",
-                "headtitle": "Edit Tombol",
+                "add": "Tambahkan tombol ke media sosial Anda",
+                "headtitle": "Tombol Edit",
                 "title": "Judul",
-                "url": "Tautan",
+                "url": "URL",
                 "submit": "Simpan",
                 "delete": "Hapus",
-                "deletetitle": "Hapus Tombol",
-                "save_disabled_fetching_favicons": "Satu atau beberapa ikon sedang diambil. Mohon tunggu.",
-                "favicon": "",
-                "grey_favicon": ""
+                "deletetitle": "Tombol Hapus",
+                "save_disabled_fetching_favicons": "Satu atau beberapa ikon sedang dalam proses pengambilan. Mohon menunggu.",
+                "favicon": "Favicon",
+                "grey_favicon": "Grey Favicon"
             }
         }
     }
