@@ -1,37 +1,37 @@
 {
     "clarkwinkelmann-popular-discussion-badge": {
         "forum": {
-            "badge_label": ""
+            "badge_label": "Populer"
         },
         "admin": {
             "settings": {
-                "mode": "",
-                "mode_help": "",
+                "mode": "Mode operasi",
+                "mode_help": "Mode frontend adalah solusi efisien yang tidak menggunakan database. Mode penjadwal memerlukan pengaturan CRON dan memungkinkan kerangka waktu dalam kondisi tertentu.\n",
                 "mode_options": {
                     "frontend": "",
-                    "scheduler": ""
+                    "scheduler": "Penjadwal (CRON)"
                 },
-                "scheduler_frequency": "",
-                "scheduler_frequency_help": "",
+                "scheduler_frequency": "Frekuensi untuk mode terjadwal",
+                "scheduler_frequency_help": "Seberapa sering status populer akan diperbarui dalam mode Penjadwal (CRON). (Dalam mode Frontend, status selalu segera diperbarui)\n",
                 "scheduler_frequency_options": {
-                    "everyFiveMinutes": "",
-                    "everyTenMinutes": "",
-                    "everyFifteenMinutes": "",
-                    "everyThirtyMinutes": "",
-                    "hourly": ""
+                    "everyFiveMinutes": "Setiap 5 menit",
+                    "everyTenMinutes": "Setiap 10 menit",
+                    "everyFifteenMinutes": "Setiap 15 menit",
+                    "everyThirtyMinutes": "Setiap 30 menit",
+                    "hourly": "Satu kali per jam"
                 },
-                "conditions": "",
-                "conditions_help": "",
-                "add": "",
-                "comments": "",
-                "comments_placeholder": "",
-                "views": "",
-                "views_placeholder": "",
-                "within": "",
-                "within_placeholder": "",
-                "hours": "",
-                "and": "",
-                "or": ""
+                "conditions": "Ketentuan untuk badge populer",
+                "conditions_help": "Komentar adalah jumlah total postingan komentar termasuk postingan pertama. Jumlah tampilan diambil dari ekstensi MichaelBelgia atau Flarumite. Kerangka waktu yang diberikan akan digunakan untuk menghitung jumlah komentar atau jumlah tampilan dalam n jam terakhir. Hanya ekstensi MichaelBelgium yang didukung untuk jumlah tampilan berbingkai waktu. Biarkan jangka waktu kosong atau tetapkan 0 jam untuk menghitung semua komentar atau jumlah tampilan yang sudah ada.\n",
+                "add": "Tambahkan ketentuan lain",
+                "comments": "Komentar",
+                "comments_placeholder": "0",
+                "views": "Tampilan",
+                "views_placeholder": "0",
+                "within": "dalam",
+                "within_placeholder": "semua",
+                "hours": "j",
+                "and": "DAN",
+                "or": "ATAU"
             }
         }
     }
