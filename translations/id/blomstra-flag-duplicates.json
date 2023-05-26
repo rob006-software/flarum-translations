@@ -2,28 +2,28 @@
     "flarum-flags": {
         "forum": {
             "flag_post": {
-                "reason_duplicate_label": ""
+                "reason_duplicate_label": "Duplikat"
             }
         }
     },
     "blomstra-flag-duplicates": {
         "admin": {
             "settings": {
-                "event_post_help": "",
+                "event_post_help": "Buatlah sebuah event post dalam diskusi di mana terdapat tanda \"duplikat\" yang telah muncul. Hal ini dapat memberi tahu semua orang bahwa diskusi tersebut berpotensi menjadi duplikat dari diskusi lainnya, tanpa memberi mereka akses ke keseluruhan tanda yang telah dimunculkan.",
                 "event_post_label": ""
             }
         },
         "forum": {
             "flags": {
-                "duplicate_discussion": "",
-                "reason_duplicate_label": "",
-                "reason_duplicate_text": "",
-                "reason_discussion_deleted": "",
-                "deselect_discussion_a11y_label": ""
+                "duplicate_discussion": "Diskusi duplikat",
+                "reason_duplicate_label": "Diskusi duplikat",
+                "reason_duplicate_text": "Diskusi ini merupakan duplikasi dari diskusi lainnya.",
+                "reason_discussion_deleted": "[diskusi telah dihapus]",
+                "deselect_discussion_a11y_label": "Batal memilih diskusi"
             },
             "post_stream": {
-                "flagged_duplicate_text": "",
-                "deleted_discussion": ""
+                "flagged_duplicate_text": "{username} menandai diskusi ini sebagai berpotensi duplikat dari {duplicate}. Seorang moderator akan segera melakukan investigasi.",
+                "deleted_discussion": "[diskusi telah dihapus]"
             }
         }
     }
