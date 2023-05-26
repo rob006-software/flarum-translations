@@ -2,34 +2,34 @@
     "ianm-follow-users": {
         "admin": {
             "permissions": {
-                "be_followed_label": ""
+                "be_followed_label": "Izinkan pengguna untuk mengikuti"
             },
             "settings": {
-                "button-on-profile-label": "",
+                "button-on-profile-label": "Tampilkan tombol Ikuti secara langsung di header profil pengguna",
                 "stats-on-profile-label": "Tampilkan jumlah pengikut dan mengikuti pada profil pengguna"
             }
         },
         "forum": {
             "followed": "",
             "followers": "",
-            "profile_link": "",
+            "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
-                "no_following": ""
+                "no_following": "Sepertinya Anda tidak mengikuti siapa pun."
             },
             "user_controls": {
-                "follow_button": "",
-                "unfollow_button": ""
+                "follow_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "settings": {
-                "notify_new_follower_label": "",
-                "notify_new_unfollower_label": "",
-                "notify_new_discussion_label": "",
+                "notify_new_follower_label": "Seseorang mengikuti Saya",
+                "notify_new_unfollower_label": "Seseorang berhenti mengikuti Saya",
+                "notify_new_discussion_label": "Seseorang yang Saya ikuti memulai diskusi",
                 "notify_new_post_label": "",
                 "block_follow": ""
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": ""
+                "follow_tag_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_tag_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "notifications": {
                 "new_discussion_text": "",
@@ -69,20 +69,20 @@
         },
         "lib": {
             "following_link": "",
-            "follow": "",
+            "follow": "Ikuti",
             "change_follow_type": "",
             "follow_levels": {
                 "unfollow": {
-                    "name": "",
-                    "description": ""
+                    "name": "Jangan ikuti",
+                    "description": "Tidak menerima notifikasi apa pun terkait aktivitas <em>{username}</em>.\n"
                 },
                 "follow": {
-                    "name": "",
-                    "description": ""
+                    "name": "Ikuti diskusi",
+                    "description": "Menerima notifikasi ketika <em>{username}</em> memulai diskusi baru.\n"
                 },
                 "lurk": {
-                    "name": "",
-                    "description": ""
+                    "name": "Ikuti semua",
+                    "description": "Menerima notifikasi ketika <em>{username}</em> memulai diskusi baru atau memposting di dalam diskusi.\n"
                 }
             }
         }
