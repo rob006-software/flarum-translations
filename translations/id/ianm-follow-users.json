@@ -25,22 +25,22 @@
                 "notify_new_unfollower_label": "Seseorang berhenti mengikuti Saya",
                 "notify_new_discussion_label": "Seseorang yang Saya ikuti memulai diskusi",
                 "notify_new_post_label": "",
-                "block_follow": ""
+                "block_follow": "Cegah orang lain mengikuti saya"
             },
             "index": {
                 "follow_tag_button": "=> ianm-follow-users.lib.follow",
                 "unfollow_tag_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": "",
-                "new_follower_text": "",
-                "new_unfollower_text": ""
+                "new_discussion_text": "{username} memulai",
+                "new_post_text": "{username} memposting dalam sebuah diskusi",
+                "new_follower_text": "{username} mengikuti Anda",
+                "new_unfollower_text": "{username} berhenti mengikuti Anda"
             },
             "badge": {
                 "label": {
-                    "follow": "",
-                    "lurk": ""
+                    "follow": "Ikuti diskusi ini",
+                    "lurk": "Ikuti semua"
                 }
             },
             "filter": {
@@ -48,29 +48,29 @@
             },
             "modals": {
                 "select_follow_level": {
-                    "title": "",
-                    "description": "",
-                    "follow_levels_heading": "",
-                    "follow_select_label": "",
-                    "no_user_attr_provided_err": "",
-                    "no_user_attr_provided_err_debug": "",
+                    "title": "Pilih tingkat mengikuti untuk {username}",
+                    "description": "Pilih bagaimana Anda ingin mengikuti <em>{username}</em>.",
+                    "follow_levels_heading": "Level follow (ikuti)",
+                    "follow_select_label": "Tipe follow (ikuti)",
+                    "no_user_attr_provided_err": "Uh oh, ada yang salah saat membuka jendel modal ini.",
+                    "no_user_attr_provided_err_debug": "Tidak ada atribut `user` yang dapat diteruskan ke dalam jendela modal SelectFollowUserLevel saat dibuat. Jendela modal tidak dapat dirender.",
                     "save_btn": "Simpan",
                     "cancel_btn": "Batal"
                 }
             }
         },
         "email": {
-            "new_discussion_by_user_subject": "",
-            "new_follower_subject": "",
-            "new_post_subject": "",
-            "new_discussion_by_user_body": "",
-            "new_follower_body": "",
-            "new_post_body": ""
+            "new_discussion_by_user_subject": "[Follow User] {title}",
+            "new_follower_subject": "[Follow User] Anda memiliki pengikut baru!",
+            "new_post_subject": "[Follow User] Postingan baru di {title}",
+            "new_discussion_by_user_body": "Halo {recipient_display_name},\n\n{user_display_name} memulai diskusi baru: {discussion_title}\n\nUntuk melihat diskusi terbaru, kunjungi link berikut ini:\n\n{discussion_url}\n\n---\n\n{post_content}\n",
+            "new_follower_body": "Halo {recipient_display_name},\n\n{follower_display_name} mulai mengikuti Anda, sehingga mereka akan mendapatkan notifikasi ketika Anda memulai diskusi baru.\n\nUntuk melihat profil mereka, silakan kunjungi link berikut ini:\n\n{profile_url}\n",
+            "new_post_body": "Halo {recipient_display_name},\n\n{user_display_name} memposting dalam sebuah diskusi: {discussion_title}\n\nUntuk melihat aktivitas terbaru, silakan kunjungi link berikut ini:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nAnda tidak akan menerima notifikasi lagi tentang diskusi ini sampai Anda mengikuti perkembangan terbaru.\n"
         },
         "lib": {
             "following_link": "",
             "follow": "Ikuti",
-            "change_follow_type": "",
+            "change_follow_type": "Ganti tipe follow (ikuti)",
             "follow_levels": {
                 "unfollow": {
                     "name": "Jangan ikuti",
