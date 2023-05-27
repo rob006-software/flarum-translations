@@ -4,12 +4,12 @@
             "settings": {
                 "dsn_label": "",
                 "environment_label": "",
-                "user_feedback_label": "",
-                "javascript_label": "",
+                "user_feedback_label": "Umpan Balik Pengguna",
+                "javascript_label": "Laporkan Kesalahan JavaScript",
                 "javascript_console_label": "",
-                "javascript_trace_sample_rate": "",
-                "monitor_performance_label": "",
-                "send_user_emails_label": ""
+                "javascript_trace_sample_rate": "Tingkat Pemantauan Kinerja Front-end (0 - 100)",
+                "monitor_performance_label": "Tingkat Pemantauan Kinerja Back-end (0 - 100)",
+                "send_user_emails_label": "Kirim alamat email pengguna dengan Sentry report?"
             }
         }
     }
