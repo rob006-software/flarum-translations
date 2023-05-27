@@ -1175,6 +1175,9 @@ return [
 	'xelson-chat' => [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.1.5/resources/locale/en.yaml',
 	],
+	'xrh0905-oauth-microsoft' => [
+		'tag' => 'https://raw.githubusercontent.com/xrh0905/flarum-ext-oauth-microsoft/v0.0.1/locale/en.yml',
+	],
 	'xsoft-ict-mason-tag' => [
 		'tag' => 'https://raw.githubusercontent.com/xsoft-ict/fof-mason-tag/v1.0.2/resources/locale/en.yml',
 	],
