@@ -1,120 +1,120 @@
 {
     "v17development-flarum-support": {
         "forum": {
-            "knowledge_base": "",
-            "ask_a_question_on_forums": "",
-            "return_to_home": "",
-            "ask_your_question_on_forum": "",
-            "or": "",
-            "settings": "",
-            "send": "",
-            "create": "",
-            "discard": "",
-            "reopen": "",
-            "support_tickets": "",
-            "admin_overview": "",
+            "knowledge_base": "База знань",
+            "ask_a_question_on_forums": "Задайте питання на форумах",
+            "return_to_home": "Повернутися на головну сторінку бази знань",
+            "ask_your_question_on_forum": "Задайте своє питання на форумах",
+            "or": "або",
+            "settings": "=> core.ref.settings",
+            "send": "Надіслати",
+            "create": "Створити",
+            "discard": "Відкинути",
+            "reopen": "знову відкрити",
+            "support_tickets": "Тікети підтримки",
+            "admin_overview": "Відкрийте огляд адміністратора",
             "hero": {
-                "help_question": "",
-                "check_forum": ""
+                "help_question": "Чим ми можемо вам допомогти?",
+                "check_forum": "Якщо ви не можете знайти те, що шукаєте, <a>перевірте наш форум</a>"
             },
             "overview": {
-                "knowledge_base_overview": "",
-                "back_to": "",
-                "back_to_overview": "",
-                "back_to_main_categories": "",
-                "loading_articles": "",
-                "no_categories_found": "",
-                "category_not_found": "",
-                "no_articles_found": "",
+                "knowledge_base_overview": "Огляд бази знань",
+                "back_to": "Назад до {category}",
+                "back_to_overview": "Повернутися до перегляду бази знань",
+                "back_to_main_categories": "Повернутися до основних категорій",
+                "loading_articles": "Завантаження статей",
+                "no_categories_found": "Вибачте, тут не знайдено жодної категорії...",
+                "category_not_found": "Категорію не знайдено",
+                "no_articles_found": "У цій категорії не знайдено жодної статті",
                 "tools": {
-                    "new_article": "",
-                    "rename_category": "",
-                    "edit_description": "",
-                    "change_icon": "",
-                    "recount_articles": ""
+                    "new_article": "Нова стаття",
+                    "rename_category": "Перейменувати категорію",
+                    "edit_description": "Редагувати опис",
+                    "change_icon": "Змінити значок",
+                    "recount_articles": "Перерахувати статті"
                 }
             },
             "article_events": {
-                "article_hidden": "",
-                "article_public": "",
-                "article_modified": ""
+                "article_hidden": "Стаття була прихована {username}",
+                "article_public": "Статтю опублікував {username}",
+                "article_modified": "Користувач {username} відредагував цю статтю."
             },
             "search": {
-                "title": "",
-                "back_to_search_results": "",
-                "search_knowledge_base": "",
-                "searching": "",
-                "searching_for": "",
-                "searched_for": "",
-                "use_searchbox_below": "",
-                "no_results": ""
+                "title": "Пошук",
+                "back_to_search_results": "Повернутися до результатів пошуку",
+                "search_knowledge_base": "Шукайте в нашій базі знань",
+                "searching": "Шукаємо",
+                "searching_for": "Пошук за {searchterm}",
+                "searched_for": "Ви шукали {searchterm}, знайдено {results} результатів.",
+                "use_searchbox_below": "Скористайтеся пошуковим вікном нижче для пошуку в нашій базі знань.",
+                "no_results": "Ми не змогли знайти нічого за запитом {searchterm}."
             },
             "not_found": {
-                "title": "",
-                "description": "",
-                "solution": ""
+                "title": "Елемент не знайдено",
+                "description": "Вибачте, ця стаття або категорія більше не існує на цьому сайті.",
+                "solution": "Ви можете скористатися пошуковим вікном вище, щоб знайти те, що ви шукаєте."
             },
             "article": {
-                "article": "",
-                "articles": "",
-                "hidden": "",
-                "created_at": "",
-                "author": "",
-                "authors": "",
-                "last_modified": "",
-                "not_found": "",
+                "article": "Стаття",
+                "articles": "Статті",
+                "hidden": "Приховано",
+                "created_at": "Створено {date}",
+                "author": "Автор",
+                "authors": "Автори",
+                "last_modified": "Востаннє змінено {date}",
+                "not_found": "Статтю не знайдено",
                 "share_article": {
-                    "title": "",
-                    "perma_link": ""
+                    "title": "Поділитися статтею",
+                    "perma_link": "Перманентне посилання на цю статтю:"
                 },
                 "tools": {
-                    "rename_article": "",
-                    "edit_article": "",
-                    "edit_tags": "",
-                    "audit_log": "",
-                    "hide_article": "",
-                    "recover_article": "",
-                    "delete_forever": "",
-                    "view_ratings": ""
+                    "rename_article": "Перейменувати статтю",
+                    "edit_article": "Редагувати статтю",
+                    "edit_tags": "Редагування тегів статей",
+                    "audit_log": "Переглянути журнал аудиту",
+                    "hide_article": "Приховати статтю",
+                    "recover_article": "Відновити статтю",
+                    "delete_forever": "Видалити назавжди",
+                    "view_ratings": "Переглянути рейтинги"
                 }
             },
             "support_ratings": {
-                "score": "",
-                "helful_article": "",
-                "helful_support": "",
-                "feedback": "",
-                "feedback_not_helpful": "",
-                "enter_feedback": "",
-                "finished": "",
+                "score": "Оцінка",
+                "helful_article": "Чи була ця стаття корисною?",
+                "helful_support": "Чи задоволені ви тим, як ми обробили ваш запит на підтримку?",
+                "feedback": "Дякуємо за ваш відгук, чи є у вас якісь побажання?",
+                "feedback_not_helpful": "Вибачте, що ця стаття не була корисною, що ви шукали?",
+                "enter_feedback": "Залиште свій відгук тут",
+                "finished": "Дякуємо! Ваш відгук збережено.",
                 "validation": {
-                    "invalid_discussion": "",
-                    "guest": "",
-                    "invalid_points": "",
-                    "cannot_rate_article": "",
-                    "neutral_emoji_disabled": "",
-                    "missing_article_id": ""
+                    "invalid_discussion": "Упс, щось пішло не так. Ви не можете оцінити цю статтю/тікет підтримки.",
+                    "guest": "Будь ласка, увійдіть, перш ніж оцінити цю статтю.",
+                    "invalid_points": "Неправильна оцінка. Спробуйте ще раз.",
+                    "cannot_rate_article": "Ви не можете оцінити цю статтю.",
+                    "neutral_emoji_disabled": "Нейтральний емодзі було вимкнено.",
+                    "missing_article_id": "Відсутній або недійсний ідентифікатор статті"
                 },
                 "switch_sort_score": {
-                    "label": "",
-                    "description": ""
+                    "label": "Показувати статті з рейтингом від низького до високого",
+                    "description": "Показувати тільки статті, які отримали відгуки, сортуючи за найнижчою оцінкою."
                 }
             },
             "modals": {
                 "audit_log": {
-                    "title": "",
-                    "article_created": "",
-                    "no_more_events": "",
-                    "loading_auditlog": ""
+                    "title": "Журнал аудиту статей",
+                    "article_created": "Стаття створена",
+                    "no_more_events": "Більше не знайдено подій",
+                    "loading_auditlog": "Завантаження журналу аудиту"
                 },
                 "article_ratings": {
-                    "title": "",
-                    "loading_ratings": "",
-                    "no_ratings_found": "",
-                    "article_not_rated": "",
-                    "confirm_delete_rating": "",
+                    "title": "Рейтинги статей",
+                    "loading_ratings": "Завантаження рейтингів",
+                    "no_ratings_found": "Не знайдено рейтингів, що відповідають вашим критеріям пошуку",
+                    "article_not_rated": "Ця стаття ще не оцінена.",
+                    "confirm_delete_rating": "Ви дійсно хочете видалити цей рейтинг?",
                     "feedback": "",
                     "rating": "",
-                    "username": "",
+                    "username": "=> core.ref.username",
                     "rated_on": ""
                 }
             },
