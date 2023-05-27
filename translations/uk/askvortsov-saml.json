@@ -2,41 +2,41 @@
     "askvortsov-saml": {
         "admin": {
             "header": {
-                "text": ""
+                "text": "Переконайтеся, що або url метаданих, або метадані заповнені."
             },
-            "title": "",
+            "title": "Конфігурація SAML2 SSO",
             "labels": {
-                "idp_metadata_url": "",
-                "idp_metadata": "",
-                "only_option": "",
-                "nameid_format": "",
-                "slo": "",
-                "authn_requests_signed": "",
-                "logout_request_signed": "",
-                "logout_response_signed": "",
-                "sign_metadata": "",
-                "want_assertions_encrypted": "",
-                "want_assertions_signed": "",
-                "want_messages_signed": "",
-                "x509_cert": "",
-                "x509_key": ""
+                "idp_metadata_url": "URL-адреса метаданих постачальника ідентифікаційних даних (альтернатива XML)",
+                "idp_metadata": "Метадані постачальника ідентифікаційних даних XML (альтернатива URL)",
+                "only_option": "Використовувати SAML2 SSO як єдиний варіант входу?",
+                "nameid_format": "Формат NameID",
+                "slo": "Увімкнути SLO? Якщо ваш IDP не підтримує це, це нічого не дасть.",
+                "authn_requests_signed": "Підписати авторські запити?",
+                "logout_request_signed": "Підписувати запити на вихід?",
+                "logout_response_signed": "Підписати відповіді про вихід?",
+                "sign_metadata": "Підписати метадані?",
+                "want_assertions_encrypted": "Хочете зашифрувати заявку?",
+                "want_assertions_signed": "Хочете, щоб заяви були підписані?",
+                "want_messages_signed": "Хочете, щоб повідомлення були підписані?",
+                "x509_cert": "Сертифікат x509 (необхідний для підписання, якщо увімкнено)",
+                "x509_key": "x509 Приватний ключ (необхідний для підпису, якщо увімкнено)"
             },
             "options": {
                 "nameid_format": {
-                    "persistent": "",
-                    "emailAddress": "",
-                    "unspecified": ""
+                    "persistent": "Постійний (рекомендується, якщо підтримується)",
+                    "emailAddress": "Email (За налаштуванням. Використовуйте, якщо Persistent не підтримується)",
+                    "unspecified": "Не вказано"
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_saml_button": "",
-                "open_popup": "",
-                "enable_popups": ""
+                "with_saml_button": "SAML2 SSO",
+                "open_popup": "Натисніть тут, щоб увійти",
+                "enable_popups": "Увімкнути спливаючі вікна для входу / реєстрації"
             },
             "sign_up": {
-                "post_saml_title": ""
+                "post_saml_title": "Останній крок..."
             }
         }
     }
