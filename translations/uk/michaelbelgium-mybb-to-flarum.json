@@ -2,31 +2,31 @@
     "michaelbelgium-mybb-to-flarum": {
         "admin": {
             "content": {
-                "description_text": "",
-                "convert_button": "",
+                "description_text": "Перенесіть форум MyBB на цей екземпляр Flarum. Заповніть необхідні дані, після чого натисніть на кнопку \"перенести\".",
+                "convert_button": "Мігрувати",
                 "form": {
                     "options": {
-                        "title": "",
-                        "migrate_avatars_label": "",
-                        "migrate_soft_threads_label": "",
-                        "migrate_soft_posts_label": "",
-                        "migrate_attachments_label": ""
+                        "title": "Інші варіанти",
+                        "migrate_avatars_label": "Мігрувати аватарки",
+                        "migrate_soft_threads_label": "Перемістити м'яко видалених тем",
+                        "migrate_soft_posts_label": "Перемістити м'яко видалених дописів",
+                        "migrate_attachments_label": "Перемістити вкладені файли"
                     },
                     "mybb": {
-                        "title": "",
-                        "host_label": "",
-                        "user_label": "",
-                        "password_label": "",
-                        "db_label": "",
-                        "prefix_label": "",
-                        "path_label": ""
+                        "title": "Налаштування MyBB",
+                        "host_label": "Хост бази даних",
+                        "user_label": "Користувач бази даних",
+                        "password_label": "Пароль до бази даних",
+                        "db_label": "Назва бази даних",
+                        "prefix_label": "Префікс таблиці",
+                        "path_label": "Абсолютний шлях MyBB"
                     },
                     "general": {
-                        "title": "",
-                        "migrate_users_label": "",
-                        "migrate_threadsPosts_label": "",
-                        "migrate_userGroups_label": "",
-                        "migrate_categories_label": ""
+                        "title": "Загальні параметри",
+                        "migrate_users_label": "Перемістити користувачів",
+                        "migrate_threadsPosts_label": "Перенести теми та дописи",
+                        "migrate_userGroups_label": "Перемістити групи користувачів",
+                        "migrate_categories_label": "Перемістити категорії"
                     }
                 }
             }
