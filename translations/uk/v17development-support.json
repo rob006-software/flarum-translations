@@ -112,208 +112,208 @@
                     "no_ratings_found": "Не знайдено рейтингів, що відповідають вашим критеріям пошуку",
                     "article_not_rated": "Ця стаття ще не оцінена.",
                     "confirm_delete_rating": "Ви дійсно хочете видалити цей рейтинг?",
-                    "feedback": "",
-                    "rating": "",
+                    "feedback": "Зворотній зв'язок",
+                    "rating": "Оцінка",
                     "username": "=> core.ref.username",
-                    "rated_on": ""
+                    "rated_on": "Оцінено на"
                 }
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "Перенаправлення на статтю з нашої бази знань...",
+                    "link": "<a>Натисніть тут</a>, якщо сторінка не перенаправляє вас"
                 }
             },
             "composer": {
-                "compose_article": "",
-                "compose_ticket": "",
-                "new_article_title": "",
-                "enter_message_here": "",
-                "publish_article": "",
-                "publish_article_hint": "",
-                "manage_tags": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "warning_save_changes": "",
-                "article_saved": ""
+                "compose_article": "Написати статтю",
+                "compose_ticket": "Створити тікет",
+                "new_article_title": "Новий заголовок статті",
+                "enter_message_here": "Введіть своє повідомлення тут",
+                "publish_article": "Опублікувати статтю",
+                "publish_article_hint": "Опублікувати статтю після відправлення.",
+                "manage_tags": "Керування тегами",
+                "write": "Написати",
+                "view": "Перегляд",
+                "nothing_to_preview": "Нема чого переглядати",
+                "warning_save_changes": "ПОПЕРЕДЖЕННЯ: Ви збираєтеся залишити цю сторінку, але не зберегли зміни. Ви хочете зберегти зміни перед виходом?\n\n[OK] = Так, зберегти. [СКАСУВАТИ] = Ні, не зберігати\n",
+                "article_saved": "Стаття збережена"
             },
             "tickets": {
-                "ticket": "",
-                "subject": "",
-                "ticket_does_not_exist": "",
-                "return_to_overview": "",
-                "ticket_overview": "",
-                "opened_on": "",
-                "ticket_activity": "",
-                "reminders_sent": "",
+                "ticket": "Тікет",
+                "subject": "Тема",
+                "ticket_does_not_exist": "Запитуваний тікет підтримки не існує.",
+                "return_to_overview": "Повернутися до огляду тікета",
+                "ticket_overview": "Огляд тікета",
+                "opened_on": "Відкрито на",
+                "ticket_activity": "{username}, остання активність {date}",
+                "reminders_sent": "{count, plural, one {Надіслано одне нагадування} other {Надіслано # нагадувань}}",
                 "convert_to_ticket": {
-                    "button": "",
-                    "confirm": "",
-                    "event": ""
+                    "button": "Перетворити на тікет",
+                    "confirm": "Ви впевнені, що хочете перетворити цю дискусію на квиток?",
+                    "event": "Дискусія {ticket_title} була перетворена на тікет"
                 },
                 "convert_to_discussion": {
-                    "button": "",
-                    "confirm": "",
-                    "event": ""
+                    "button": "Перетворити на дискусію",
+                    "confirm": "Ви впевнені, що хочете перетворити цей тікет на публічну дискусію? Якщо хтось поділився приватною інформацією, вона також стане публічною.",
+                    "event": "Тікет {ticket_title} було перетворено на обговорення\n\nВи хочете перейти до цієї дискусії зараз?\n"
                 },
                 "status": {
                     "new": {
-                        "title": "",
-                        "description": ""
+                        "title": "Створити",
+                        "description": "Це новий тікет без відповіді"
                     },
                     "open": {
-                        "title": "",
-                        "description": ""
+                        "title": "Відкрити",
+                        "description": "Цей тікет має нову відповідь і чекає на вашу відповідь."
                     },
                     "pending": {
-                        "title": "",
-                        "description": "",
-                        "description_user": ""
+                        "title": "На розгляді",
+                        "description": "Цей тікет очікує на відповідь від користувача.",
+                        "description_user": "Чекаємо на вашу відповідь або позначку \"вирішено\"."
                     },
                     "closed": {
-                        "title": "",
-                        "description": "",
-                        "is_closed": "",
-                        "close_after_posting": "",
-                        "is_auto_closed": ""
+                        "title": "Закрито",
+                        "description": "Цей тікет закрито.",
+                        "is_closed": "Цей тікет закритий, коли ви відповісте, він буде відкритий знову. Ми рекомендуємо повторно відкривати тікет тільки тоді, коли проблема не була вирішена. Якщо це нова проблема, будь ласка, відкрийте новий тікет.",
+                        "close_after_posting": "Закрийте тікет після публікації",
+                        "is_auto_closed": "Цей тікет закрито через неактивність."
                     },
                     "on_hold": {
-                        "title": "",
-                        "description": ""
+                        "title": "На утриманні",
+                        "description": "Цей тікет поставлено на утримання."
                     },
                     "duplicate": {
-                        "title": "",
-                        "description": ""
+                        "title": "Дублікат",
+                        "description": "Цей квиток позначений як дублікат."
                     },
                     "solved": {
-                        "title": "",
-                        "description": "",
-                        "mark_as_solved": ""
+                        "title": "Вирішено",
+                        "description": "Цей тікет позначений як вирішений",
+                        "mark_as_solved": "Позначте цей тікет як вирішений"
                     }
                 },
                 "tools": {
-                    "view_ticket": "",
-                    "update_subject": "",
-                    "assign_me": "",
-                    "remove_me": "",
-                    "update_status": "",
-                    "close_ticket": "",
-                    "update_note": ""
+                    "view_ticket": "Переглянути тікет",
+                    "update_subject": "Оновити тему",
+                    "assign_me": "Доручіть це мені",
+                    "remove_me": "Прибрати у мене",
+                    "update_status": "Оновити статус тікета",
+                    "close_ticket": "Закрити тікет",
+                    "update_note": "Оновити приватну замітку"
                 },
                 "new_tickets_dropdown": {
-                    "title": "",
-                    "no_tickets": "",
-                    "ticket_new": "",
-                    "ticket_updated": ""
+                    "title": "Сповіщення про тікет",
+                    "no_tickets": "Немає сповіщень про тікет",
+                    "ticket_new": "Користувач {username} створив тікет {ticket}",
+                    "ticket_updated": "Користувач {username} розмістив у {ticket}"
                 },
                 "fields": {
                     "language": {
-                        "title": "",
-                        "placeholder": "",
-                        "empty": "",
-                        "description": ""
+                        "title": "Мова",
+                        "placeholder": "Обрати мову",
+                        "empty": "Мову не обрано",
+                        "description": "Ваш запит на підтримку буде оброблено на наступній мові: {language}."
                     },
                     "subject": {
-                        "title": "",
-                        "placeholder": "",
-                        "description": ""
+                        "title": "Тема",
+                        "placeholder": "Тема тікета",
+                        "description": "Спробуйте описати своє питання одним коротким реченням."
                     },
                     "information": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Інформація про тікет",
+                        "placeholder": "Розкажіть нам, чим ми можемо вам допомогти"
                     },
                     "status": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Статус",
+                        "placeholder": "Статус тікета"
                     },
                     "assignees": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Одержувачі",
+                        "placeholder": "Статус тікета"
                     },
                     "private_note": {
-                        "title": "",
-                        "info": "",
-                        "tip": "",
-                        "placeholder": "",
-                        "edit_button": ""
+                        "title": "Приватні нотатки",
+                        "info": "Приватні нотатки бачать лише інші агенти підтримки. Клієнт їх не бачить.",
+                        "tip": "Порада: Якщо ви працюєте з кількома агентами над одним квитком, додайте своє ім'я та дату в примітку.",
+                        "placeholder": "Приклад: 1 січня 2022 року. Ім'я агента: Видалив клієнта з бази даних",
+                        "edit_button": "Редагувати нотатку"
                     }
                 },
                 "compose_ticket": {
-                    "title": "",
-                    "private_support": "",
-                    "not_allowed": ""
+                    "title": "Написати новий тікет",
+                    "private_support": "Для приватної підтримки ви можете скористатися цією формою, щоб створити новий тікет на нашій платформі підтримки. З питань, що не стосуються приватної підтримки, будь ласка, дивіться <a>наші публічні форуми</a>.",
+                    "not_allowed": "Зараз ви не можете відкрити новий квиток підтримки"
                 },
                 "load_more": {
-                    "title": ""
+                    "title": "Завантажте більше тікетів"
                 },
                 "my_tickets": {
-                    "title": "",
-                    "description": "",
-                    "no_tickets": ""
+                    "title": "Мої тікети",
+                    "description": "На цій сторінці ви зможете знайти всі свої приватні квитки.",
+                    "no_tickets": "У вас ще немає тікетів."
                 },
                 "overview": {
-                    "title": "",
-                    "description": "",
-                    "no_tickets": "",
-                    "all_tickets": "",
-                    "selection_unfiltered": "",
-                    "selection_open": "",
-                    "selection_closed": "",
-                    "refresh": "",
+                    "title": "Огляд тікетів",
+                    "description": "Посміхніться, ви - герой, який рятує інших людей.",
+                    "no_tickets": "Відсутні тікети, які відповідають вашим критеріям, ймовірно, ви робите хорошу роботу!",
+                    "all_tickets": "Усі тікети",
+                    "selection_unfiltered": "Без фільтрації",
+                    "selection_open": "Відкриті тікети",
+                    "selection_closed": "Закриті тікети",
+                    "refresh": "Оновити",
                     "filter": {
                         "status": {
-                            "title": "",
-                            "filter_count": ""
+                            "title": "Статус тікета",
+                            "filter_count": "{count, plural, one {# фільтр} other {# фільтрів}}"
                         },
                         "language": {
-                            "any": ""
+                            "any": "Будь-яка мова"
                         },
                         "assignees": {
-                            "title": "",
-                            "search": "",
-                            "unassigned": ""
+                            "title": "Фільтр за призначеннями",
+                            "search": "Пошук за призначеннями",
+                            "unassigned": "Без призначення"
                         }
                     },
                     "sort": {
-                        "newest": "",
-                        "oldest": "",
-                        "recent_activity": "",
-                        "least_recent": ""
+                        "newest": "Нові першими",
+                        "oldest": "Старі першими",
+                        "recent_activity": "Нещодавня активність",
+                        "least_recent": "Остання нещодавня активність"
                     }
                 }
             },
             "notifications": {
                 "replied_to_ticket": {
-                    "name": "",
-                    "content": ""
+                    "name": "Хтось відповів на мій тікет",
+                    "content": "=> v17development-flarum-support.emails.replied_to_ticket.subject"
                 },
                 "ticket_resolved": {
-                    "name": "",
-                    "content": ""
+                    "name": "Мій тікет був вирішений",
+                    "content": "=> v17development-flarum-support.emails.ticket_resolved.subject"
                 }
             }
         },
         "emails": {
             "replied_to_ticket": {
-                "subject": "",
-                "body": ""
+                "subject": "Користувач {replier_display_name} відповів на ваш тікет #{ticket_id}",
+                "body": "Шановний, {recipient_display_name}!\n\nКористувач {replier_display_name} відповів на ваш тикет #{ticket_id} (тема \"{subject}\").\n\nБудь ласка, перейдіть за посиланням нижче, щоб переглянути відповідь:\n{url}\n\nМи чекаємо на вашу відповідь або поки ви не позначите цей тікет як вирішений.\n"
             },
             "ticket_status_update": {
-                "subject": "",
-                "body": ""
+                "subject": "Тікет #{ticket_id} позначено як {new_status}.",
+                "body": "Шановний, {recipient_display_name}!\n\nСтатус вашого квитка #{ticket_id} змінено на {new_status}.\n\nURL-адреса вашого квитка\n{url}\n"
             },
             "ticket_resolved": {
-                "subject": "",
-                "body": ""
+                "subject": "Тікет #{ticket_id} позначено як вирішений",
+                "body": "Шановний, {recipient_display_name}!\n\nВаш тікет #{ticket_id} було позначено як вирішений. Це означає, що ваш тікет закрито.\n\nURL-адреса вашого тікета\n{url}\n\nЯкщо ви не згодні з тим, що ваш тікет позначено як вирішений, будь ласка, дайте відповідь на нього, щоб знову відкрити його.\n"
             },
             "ticket_pending_reply": {
-                "subject": "",
-                "body": ""
+                "subject": "Ticket #{ticket_id} is waiting for your reply",
+                "body": "Шановний, {recipient_display_name}!\n\nНещодавно {replier_display_name} відповів на ваш тікет #{ticket_id} в {replied_date} і ми чекаємо на вашу відповідь.\n\nURL-адреса вашого тікета наступна:\n{url}\n\nЯкщо проблему було вирішено, будь ласка, позначте тікет як вирішений.\n"
             },
             "ticket_pending_reply_closed": {
-                "subject": "",
-                "body": ""
+                "subject": "Тікет #{ticket_id} було закрито через неактивність",
+                "body": "Шановний, {recipient_display_name}!\n\nНещодавно {replier_display_name} відповів на ваш тикет #{ticket_id}. На жаль, ми не отримали від вас відповіді. Ваш тікет було автоматично закрито через неактивність.\n\nЯкщо ви все ще бажаєте відповісти, URL вашого тікета\n{url}\n"
             }
         }
     }
