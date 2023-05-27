@@ -31,7 +31,7 @@
                 "default_language_heading": "Bahasa Default",
                 "description": "Tetapkan judul forum, bahasa, dan pengaturan dasar lainnya.",
                 "display_name_heading": "Nama Tampilan User",
-                "display_name_text": "Pilih driver yang akan digunakan sebagai nama tampilan User. Secara default, nama User akan ditampilkan.",
+                "display_name_text": "Pilih driver yang akan digunakan sebagai nama tampilan User. Secara default, username akan ditampilkan.",
                 "forum_description_heading": "Deskripsi Forum",
                 "forum_description_text": "Masukkan satu atau dua kalimat pendek yang menggambarkan komunitas Anda. Ini akan muncul di tag meta dan muncul di mesin pencari.",
                 "forum_title_heading": "Judul Forum",
@@ -239,7 +239,7 @@
                 "upload_button": "Pilih Gambar..."
             },
             "users": {
-                "create_user_button": "Pengguna Baru",
+                "create_user_button": "Buat User Baru",
                 "description": "Daftar semua pengguna di forum Anda.",
                 "grid": {
                     "columns": {
@@ -661,7 +661,7 @@
             }
         },
         "api": {
-            "invalid_username_message": "Nama user hanya boleh terdiri dari huruf, angka, dan tanda hubung (dashes).",
+            "invalid_username_message": "Username hanya boleh terdiri dari huruf, angka, dan tanda hubung (dashes).",
             "invalid_filter_type": {
                 "must_be_numeric_message": "Filter {filter} harus berupa angka.",
                 "must_not_be_array_message": "Filter {filter} tidak boleh berupa array.",
@@ -722,7 +722,7 @@
             "posts": "Post",
             "previous_page": "Halaman Sebelumnya",
             "remove": "Hapus",
-            "rename": "Ubah nama",
+            "rename": "Ganti nama",
             "reply": "Balas",
             "reset_your_password": "Atur Ulang Kata Sandi Anda",
             "restore": "Memulihkan",
@@ -733,7 +733,7 @@
             "sign_up": "Daftar",
             "some_others": "{count, plural, one {# other} other {# others}}",
             "start_a_discussion": "Mulai Diskusi",
-            "username": "Nama user (username)",
+            "username": "Username",
             "users": "User",
             "view": "View",
             "write_a_reply": "Tulis Balasan...",
