@@ -334,7 +334,7 @@
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "Ви впевнені, що бажаєте видалити дискусію?",
                 "delete_forever_button": "=> core.ref.delete_forever",
-                "log_in_to_reply_button": "Увійти для відповіді",
+                "log_in_to_reply_button": "Увійти",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
@@ -428,7 +428,7 @@
                 "now_link": "Зараз",
                 "original_post_link": "Оригінальний допис",
                 "unread_text": "{count} не прочитано",
-                "viewing_text": "{count, plural, one {{index} з {formattedCount} допис} other {{index} of {formattedCount} дописів}}"
+                "viewing_text": "{count, plural, one {{index} з {formattedCount} допис} other {{index} з {formattedCount} дописів}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Старий заголовок був: «{old}»",
