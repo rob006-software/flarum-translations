@@ -1026,7 +1026,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-embed-twitch/v2.0.1/resources/locale/en.yml',
 	],
 	'nearata-embed-video' => [
-		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-embed-video/v3.3.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-embed-video/3.3.2/locale/en.yml',
 	],
 	'nearata-minecraft-avatars' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-minecraft-avatars/v2.1.1/locale/en.yml',
