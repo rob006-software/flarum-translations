@@ -2,39 +2,39 @@
     "nomiscz-auth-wechat": {
         "forum": {
             "buttons": {
-                "login": "",
-                "link": "",
-                "unlink": ""
+                "login": "Увійдіть за допомогою WeChat",
+                "link": "Посилання на обліковий запис WeChat",
+                "unlink": "Від'єднайте обліковий запис WeChat"
             },
             "alerts": {
                 "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
-                "error": ""
+                "already_used": "Обліковий запис WeChat вже підключено!",
+                "link_success": "Посилання на обліковий запис WeChat успішне.",
+                "unlink_success": "Від'єднання облікового запису WeChat успішне.",
+                "error": "Щось пішло не так, будь ласка, спробуйте пізніше!"
             },
             "modals": {
                 "link": {
-                    "title": ""
+                    "title": "Посилання на обліковий запис WeChat"
                 },
                 "unlink": {
-                    "title": "",
+                    "title": "Від'єднайте обліковий запис WeChat",
                     "info": {
-                        "confirm": "",
-                        "no_providers": ""
+                        "confirm": "Ви впевнені, що хочете відв'язати свій обліковий запис WeChat?",
+                        "no_providers": "У вас немає інших провайдерів входу! Можливо, вам доведеться скинути пароль."
                     },
                     "buttons": {
-                        "confirm": "",
-                        "cancel": ""
+                        "confirm": "Так, від'єднати обліковий запис",
+                        "cancel": "Ні!"
                     }
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "api_app_id": "",
-                "api_app_secret": ""
+                "title": "Налаштування авторизації WeChat",
+                "api_app_id": "API App ID",
+                "api_app_secret": "API App Secret"
             }
         }
     }
