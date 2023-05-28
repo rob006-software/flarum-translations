@@ -2,18 +2,18 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": "",
-                "view_birthday_label": ""
+                "edit_own_birthday_label": "Mengedit hari ulang tahun",
+                "view_birthday_label": "Melihat hari ulang tahun"
             },
             "settings": {
-                "set_on_registration_label": "Izinkan pengaturan ulang tahun saat pendaftaran",
-                "required_label": "Wajib memasukkan hari ulang tahun",
-                "required_help": "",
+                "set_on_registration_label": "Izinkan pengaturan hari ulang tahun saat pendaftaran",
+                "required_label": "Harus memasukkan hari ulang tahun",
+                "required_help": "Anda perlu mengaktifkan opsi \"pengaturan hari ulang tahun saat pendaftaran\" untuk membuat opsi ini berfungsi",
                 "min_age_label": "Usia minimum",
-                "min_age_help": "Usia minimum untuk pendaftaran",
-                "date_format_label": "",
-                "date_format_help": "",
-                "date_none_year_label": ""
+                "min_age_help": "Usia minimum saat pendaftaran",
+                "date_format_label": "Format tanggal",
+                "date_format_help": "Gunakan format tanggal <a>dayjs</a>. Biarkan kosong untuk menggunakan format default.",
+                "date_none_year_label": "Format tanggal tanpa tahun"
             }
         },
         "forum": {
@@ -22,15 +22,15 @@
                 "age_text": "Usia: {age}"
             },
             "header": {
-                "edit_dob_button": ""
+                "edit_dob_button": "Edit Tanggal Lahir"
             },
             "change_dob": {
-                "title": "",
+                "title": "Edit Tanggal Lahir",
                 "date_of_birth_text": "Tanggal Lahir",
                 "submit_button": ""
             },
             "settings": {
-                "change_dob_label": "Ubah Tanggal Lahir",
+                "change_dob_label": "Ganti Tanggal Lahir",
                 "dob_heading": "Tanggal Lahir",
                 "show_dob_date_label": "Tampilkan hari dan bulan kelahiran",
                 "show_dob_year_label": "Tampilkan tahun kelahiran",
@@ -49,7 +49,7 @@
         },
         "api": {
             "invalid_dob_message": "Tanggal lahir tidak valid",
-            "invalid_age_message": "Usia Anda minimal harus berusia {minAge} tahun."
+            "invalid_age_message": "Usia Anda harus minimal {minAge} tahun."
         }
     }
 }
