@@ -2,34 +2,34 @@
     "hehongyuanlove-auth-qq": {
         "admin": {
             "qq_settings": {
-                "client_id_label": "",
-                "client_secret_label": "",
-                "title": ""
+                "client_id_label": "App ID",
+                "client_secret_label": "App Secret",
+                "title": "Налаштування QQ"
             }
         },
         "forum": {
             "log_in": {
-                "with_qq_button": ""
+                "with_qq_button": "QQ"
             },
             "buttons": {
-                "unlink": "",
-                "link": "",
-                "login": ""
+                "unlink": "Вимкнути зв'язок з QQ",
+                "link": "Зв'язок з QQ",
+                "login": "=> hehongyuanlove-auth-qq.forum.log_in.with_qq_button"
             },
             "modals": {
                 "unlink": {
-                    "title": "",
+                    "title": "Вимкнути зв'язок з QQ",
                     "info": {
-                        "confirm": "",
-                        "no_providers": ""
+                        "confirm": "Ви впевнені, що хочете відв'язати свій обліковий запис QQ?",
+                        "no_providers": "У вас немає інших методів входу. Будь ласка, спочатку скиньте пароль вашого облікового запису."
                     },
                     "buttons": {
-                        "confirm": "",
-                        "cancel": ""
+                        "confirm": "Вимкнути зв'язок",
+                        "cancel": "Скасувати"
                     }
                 },
                 "link": {
-                    "title": ""
+                    "title": "Зв'язок з QQ"
                 }
             }
         }
