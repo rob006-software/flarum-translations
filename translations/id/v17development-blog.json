@@ -3,8 +3,8 @@
         "admin": {
             "blog": "",
             "permissions": {
-                "write_articles": "Tulis dan edit artikel blog",
-                "auto_approve_posts": "Posting artikel tanpa persetujuan",
+                "write_articles": "Menulis dan mengedit artikel blog",
+                "auto_approve_posts": "Mem-posting artikel tanpa persetujuan",
                 "approve_posts": "Dapat menyetujui artikel blog"
             },
             "settings": {
@@ -18,7 +18,7 @@
                 "allow_comments_text": "Secara default, izinkan komentar pada postingan blog. Jika dinonaktifkan, pengaturan ini dapat diaktifkan satu per satu di setiap postingan blog. <b>Catatan:</b> Mengubah pengaturan ini tidak akan memengaruhi postingan blog yang sudah ada sebelumnya.",
                 "require_review_label": "Postingan blog perlu dilakukan peninjauan",
                 "require_review_text": "Ketika memposting artikel, artikel tersebut tidak akan terlihat secara langsung dan perlu dilakukan peninjauan oleh moderator.",
-                "hide_on_discussion_list_label": "",
+                "hide_on_discussion_list_label": "Jangan tampilkan dalam daftar diskusi",
                 "hide_on_discussion_list_text": "Sembunyikan postingan blog di daftar diskusi.",
                 "add_sidebar_nav_label": "Tambahkan ke navigasi sidebar",
                 "add_sidebar_nav_text": "Sertakan link ke blog pada menu navigasi sidebar.",
@@ -55,7 +55,7 @@
                 "missing_id": ""
             },
             "article": {
-                "title": "",
+                "title": "Judul",
                 "slug": "",
                 "summary": "Ringkasan"
             },
