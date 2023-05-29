@@ -2,19 +2,19 @@
     "nearata-minecraft-avatars": {
         "admin": {
             "retrieve_avatar_on_register": {
-                "label": "",
-                "help": ""
+                "label": "Ambil Avatar saat Registrasi",
+                "help": "Jika tidak ada Akun Minecraft dengan username tersebut, gunakan Steve atau Alex sebagai skin default."
             }
         },
         "forum": {
-            "help_text": "",
+            "help_text": "Username akan diubah menjadi UUID.",
             "submit_button": "Simpan Perubahan",
             "username_uuid_not_valid": "Username atau UUID tidak valid.",
-            "username_not_found": "",
-            "placeholder": "",
-            "userpage_nav_button": "",
+            "username_not_found": "Username tidak ditemukan.",
+            "placeholder": "Username atau UUID",
+            "userpage_nav_button": "Avatar Minecraft",
             "minotar_enabled": "Diaktifkan",
-            "page_title": ""
+            "page_title": "Avatar Minecraft"
         }
     }
 }
