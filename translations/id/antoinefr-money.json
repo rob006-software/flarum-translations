@@ -3,26 +3,26 @@
         "admin": {
             "settings": {
                 "title": "Pengaturan",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
+                "moneyforpost": "Money yang diberikan untuk postingan baru",
+                "moneyfordiscussion": "Money yang diberikan untuk diskusi baru",
                 "moneyname": "",
-                "postminimumlength": "",
-                "noshowzero": "",
-                "autoremove": "",
-                "moneyforlike": "",
-                "helpextensionlikes": ""
+                "postminimumlength": "Panjang postingan minimum untuk mendapatkan money (0 untuk menonaktifkan)",
+                "noshowzero": "Jangan tampilkan jika nilainya nol",
+                "autoremove": "Perbarui money secara otomatis",
+                "moneyforlike": "Money yang diberikan ketika sebuah postingan mendapatkan like",
+                "helpextensionlikes": "Membutuhkan ekstensi <code>flarum/likes</code>"
             },
             "permissions": {
-                "edit_money_label": ""
+                "edit_money_label": "Mengedit money"
             },
             "autoremove": [
-                "",
-                "",
-                ""
+                "Jangan pernah menghapus money",
+                "Ketika diskusi/postingan disembunyikan atau dipulihkan (default)",
+                "Ketika diskusi/postingan dihapus"
             ],
             "automoderator": {
                 "metric_name": "",
-                "action_name": ""
+                "action_name": "Berikan money"
             }
         },
         "forum": {
