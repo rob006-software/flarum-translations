@@ -20,42 +20,42 @@
                 "avatarAdd": "Tambahkan aturan avatar"
             },
             "permissions": {
-                "use": "",
-                "reveal": "",
-                "moderate": ""
+                "use": "Opsi anonimitas konten saat membuat konten",
+                "reveal": "Melihat penulis asli dari diskusi dan postingan anonim",
+                "moderate": "Anonimkan atau tidak menganonimkan pada diskusi atau postingan apa pun"
             }
         },
         "forum": {
             "composerControls": {
-                "anonymize": "Posting secara anonim",
+                "anonymize": "Post secara anonim",
                 "anonymizeHelp": "Moderator akan tetap mengetahui bahwa Anda yang telah membuat konten ini"
             },
             "discussionControls": {
-                "anonymize": "",
-                "anonymizeConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "anonymize": "Anonimkan",
+                "anonymizeConfirmation": "Hal ini akan membuat penulis diskusi menjadi anonim. Postingan pertama harus dibuat anonim secara terpisah. Lanjutkan?",
+                "deanonymize": "Tidak menganonimkan",
+                "deanonymizeConfirmation": "Hal ini akan membuat penulis asli dari diskusi tersebut menjadi publik lagi. Lanjutkan?"
             },
             "postControls": {
-                "anonymize": "",
-                "firstPostConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "anonymize": "Anonimkan",
+                "firstPostConfirmation": "Ini akan membuat penulis postingan pertama menjadi anonim. Diskusi harus dibuat anonim secara terpisah. Lanjutkan?",
+                "deanonymize": "Tidak menganonimkan",
+                "deanonymizeConfirmation": "Ini akan membuat penulis asli postingan menjadi publik lagi. Lanjutkan?"
             },
             "discussionList": {
-                "genericReplyText": ""
+                "genericReplyText": "Terakhir dijawab {ago}"
             },
             "postPrivacy": {
-                "mine": "",
-                "mineHelp": "",
-                "profile": "",
-                "profileHelp": ""
+                "mine": "Saya",
+                "mineHelp": "Hanya Anda yang dapat melihat informasi ini",
+                "profile": "Hanya dapat dilihat oleh Anda",
+                "profileHelp": "Hanya Anda yang dapat melihat postingan anonim di profil Anda"
             }
         },
         "lib": {
             "userMeta": {
                 "initials": "",
-                "username": ""
+                "username": "Anonim"
             }
         }
     }
