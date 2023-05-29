@@ -2,8 +2,8 @@
     "fof-discussion-language": {
         "forum": {
             "change_language": {
-                "edit_title": "Menyunting Bahasa untuk {title}",
-                "title": "Menyunting Bahasa",
+                "edit_title": "Mengedit Bahasa untuk {title}",
+                "title": "Mengedit Bahasa",
                 "submit_button": "=> core.ref.save_changes"
             },
             "composer_discussion": {
@@ -19,7 +19,7 @@
         "admin": {
             "settings": {
                 "native_label": "Gunakan nama bahasa asli",
-                "show_flag_label": "",
+                "show_flag_label": "Tampilkan bendera negara dengan nama bahasa",
                 "composer_default_label": "",
                 "locale_sort_label": "Gunakan bahasa yang terdeteksi untuk filter diskusi default",
                 "show_any_lang_opt_label": "Tampilkan opsi untuk memilih \"Bahasa Apa Saja\"",
@@ -29,7 +29,7 @@
                 },
                 "config": {
                     "language_label": "Bahasa",
-                    "country_label": ""
+                    "country_label": "Negara (untuk menampilkan bendera)"
                 }
             },
             "permissions": {
