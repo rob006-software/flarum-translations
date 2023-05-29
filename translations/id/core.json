@@ -568,8 +568,8 @@
                 "circular_dependencies_message": "",
                 "dependent_extensions_message": "Tidak dapat menonaktifkan {extension} sebelum ekstensi dependen berikut dinonaktifkan: {extensions}",
                 "extension_initialiation_failed_message": "{extension} gagal untuk menginisialisasi, periksa konsol browser untuk informasi lebih lanjut.",
-                "generic_message": "Ups! Ada yang tidak beres. Mohon untuk memuat ulang halaman dan coba lagi.",
-                "generic_cross_origin_message": "Ups! Terjadi kesalahan saat melakukan request cross-origin. Mohon untuk memuat ulang halaman dan coba lagi.",
+                "generic_message": "Ups! Ada yang tidak beres. Mohon untuk me-refresh halaman dan coba lagi.",
+                "generic_cross_origin_message": "Ups! Terjadi kesalahan saat melakukan request cross-origin. Mohon untuk me-refresh halaman dan coba lagi.",
                 "missing_dependencies_message": "Tidak dapat mengaktifkan {extension} sebelum dependensi berikut diaktifkan: {extensions}",
                 "not_found_message": "Resource yang diminta tidak ditemukan.",
                 "payload_too_large_message": "Request payload terlalu besar.",
@@ -626,7 +626,7 @@
             },
             "content": {
                 "javascript_disabled_message": "Situs ini paling baik dilihat di browser modern dengan JavaScript diaktifkan.",
-                "load_error_message": "Terjadi kesalahan saat mencoba memuat versi lengkap situs ini. Coba refresh ulang halaman ini untuk memperbaiki kesalahan.",
+                "load_error_message": "Ada yang tidak beres saat mencoba memuat versi lengkap situs ini. Coba untuk me-refresh halaman ini untuk memperbaikinya.",
                 "loading_text": "=> core.ref.loading"
             },
             "discussion": {
