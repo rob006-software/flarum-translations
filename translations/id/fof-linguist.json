@@ -7,16 +7,16 @@
             "tabs": {
                 "strings": "Terjemahan",
                 "coverage": "Cakupan",
-                "export": "",
-                "import": ""
+                "export": "Ekspor",
+                "import": "Impor"
             },
             "buttons": {
                 "apply": "Terapkan",
-                "reset": "",
-                "copy-original": "",
-                "load-more": "",
-                "delete-redundant": "",
-                "delete-redundant-confirm": "",
+                "reset": "Kembalikan ke aslinya",
+                "copy-original": "Copy teks asli",
+                "load-more": "Muat lainnya",
+                "delete-redundant": "Hapus terjemahan yang tidak perlu",
+                "delete-redundant-confirm": "Ini akan menghapus {count} terjemahan yang memiliki nilai asli dan nilai kustom yang sama. Hal ini berguna untuk membersihkan setelah update paket bahasa.\n",
                 "delete-all": "Hapus semua terjemahan",
                 "delete-all-confirm": "Ini akan menghapus SEMUA terjemahan khusus {count} Anda. Pastikan Anda telah mengekspor atau mem-backup semua yang mungkin ingin Anda simpan.\n"
             },
@@ -29,27 +29,27 @@
                 "hint": ""
             },
             "filters": {
-                "search": "",
+                "search": "Cari string terjemahan...",
                 "with-own-translations": "Terjemahan saya",
-                "missing": "",
-                "missing-middle-label": "",
+                "missing": "Temukan terjemahan yang belum diterjemahkan",
+                "missing-middle-label": "terjemahan dalam",
                 "negation-options": {
                     "with": "Dengan",
                     "without": "Tanpa"
                 },
                 "type-options": {
-                    "any": "",
-                    "original": "",
-                    "own": ""
+                    "any": "Original atau Custom",
+                    "original": "Original",
+                    "own": "Custom"
                 },
                 "operation-options": {
                     "or": "Salah satu dari",
-                    "and": ""
+                    "and": "Semua"
                 },
                 "for-extension": "Untuk ekstensi",
-                "frontend": "",
+                "frontend": "Untuk frontend",
                 "frontend-all-except-admin": "Semua, kecuali Admin",
-                "mass-edit": "",
+                "mass-edit": "Edit massal",
                 "results": "Menampilkan {shown} dari {total} terjemahan yang cocok"
             },
             "clear-cache": {
@@ -58,61 +58,61 @@
             },
             "coverage": {
                 "column-options": {
-                    "locale": "",
-                    "namespace": ""
+                    "locale": "Berdasarkan bahasa",
+                    "namespace": "Berdasarkan frontend"
                 },
                 "total-options": {
-                    "percent": "",
+                    "percent": "Persen",
                     "count": ""
                 },
                 "columns": {
                     "namespace": "",
-                    "total": "",
-                    "all-except-admin": "",
-                    "all-frontends": ""
+                    "total": "Total",
+                    "all-except-admin": "Forum dan frontend lainnya",
+                    "all-frontends": "Tampilkan semua frontend"
                 },
                 "count": {
-                    "percent": "",
-                    "total": "",
-                    "details": ""
+                    "percent": "{percent} %",
+                    "total": "{translated} / {total}",
+                    "details": "{total} total / {original} original / {custom} custom"
                 },
-                "all-namespaces": "",
-                "apply-missing-filter": ""
+                "all-namespaces": "Semua",
+                "apply-missing-filter": "Tampilkan terjemahan yang belum diterjemahkan yang cocok"
             },
             "export": {
-                "title": "",
+                "title": "Ekspor",
                 "warning": "",
-                "locale": "",
+                "locale": "Lokal",
                 "locale-all": "",
                 "namespace": "",
-                "namespace-all": "",
+                "namespace-all": "Semua",
                 "include-originals": "",
                 "include-all": "",
                 "output": "",
                 "output-loading": "",
                 "output-empty": "",
-                "download": ""
+                "download": "Download"
             },
             "import": {
-                "title": "",
+                "title": "Impor",
                 "input": "",
                 "input-placeholder": "",
                 "locale": "",
                 "locale-all": "",
                 "override-existing": "",
-                "submit": "",
-                "results": "",
-                "results-with-ignore": ""
+                "submit": "Impor",
+                "results": "Impor telah selesai. {imported}string telah diimpor dan {identical}string yang identik diabaikan. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n",
+                "results-with-ignore": "Impor telah selesai. {imported} telah diimpor, {ignored} string yang sudah ada telah diabaikan dan {identical}string yang identik telah dilewati. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n"
             },
             "known-namespace": {
                 "core": "",
                 "validation": ""
             },
             "known-frontend": {
-                "forum": "",
-                "admin": "",
-                "lib": "",
-                "ref": "",
+                "forum": "Forum",
+                "admin": "Admin",
+                "lib": "Lib (digunakan pada Forum dan Admin)",
+                "ref": "Ref (digunakan kembali pada kolom lain)",
                 "api": ""
             }
         }
