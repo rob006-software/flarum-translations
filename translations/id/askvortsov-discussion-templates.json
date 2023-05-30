@@ -2,8 +2,8 @@
     "askvortsov-discussion-templates": {
         "admin": {
             "permissions": {
-                "manage_own_discussion_reply_templates": "Kelola template balasan untuk diskusi mereka",
-                "manage_all_reply_templates": ""
+                "manage_own_discussion_reply_templates": "Mengelola template balasan untuk diskusi mereka",
+                "manage_all_reply_templates": "Mengelola template balasan untuk semua diskusi"
             },
             "settings": {
                 "no_tag_template": "Template default (digunakan ketika diskusi dimulai tanpa ada tag yang dipilih):",
@@ -17,17 +17,17 @@
             },
             "tag_template_modal": {
                 "title": "Template Diskusi",
-                "customize_text": "",
+                "customize_text": "Mengelola template untuk diskusi baru di tag ini.",
                 "submit_button": "Simpan Template"
             }
         },
         "forum": {
             "discussion_controls": {
-                "reply_template_button": ""
+                "reply_template_button": "Edit Template Balasan"
             },
             "reply_template": {
-                "title": "",
-                "submit_button": ""
+                "title": "Edit Template Balasan",
+                "submit_button": "Simpan Template Balasan"
             }
         }
     }
