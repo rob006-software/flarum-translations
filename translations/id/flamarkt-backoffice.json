@@ -8,29 +8,29 @@
             "nav": {
                 "dashboard": "",
                 "users": "User",
-                "searchPlaceholder": ""
+                "searchPlaceholder": "=> core.admin.nav.search_placeholder"
             },
             "users": {
                 "title": "User",
                 "new": "Membuat user",
                 "searchPlaceholder": "Cari seseorang...",
                 "head": {
-                    "email": ""
+                    "email": "Email"
                 },
                 "field": {
-                    "username": "",
-                    "email": "",
-                    "password": ""
+                    "username": "Username",
+                    "email": "Email",
+                    "password": "Password"
                 }
             },
             "permissions": {
-                "backoffice": "Gunakan backoffice"
+                "backoffice": "Menggunakan backoffice"
             }
         },
         "lib": {
             "header": {
-                "admin_button": "",
-                "backoffice_button": ""
+                "admin_button": "=> core.forum.header.admin_button",
+                "backoffice_button": "Backoffice"
             }
         }
     }
