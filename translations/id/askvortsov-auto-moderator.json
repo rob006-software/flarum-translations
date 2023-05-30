@@ -40,8 +40,8 @@
                 "no_actions": "Tidak ada tindakan yang didefinisikan untuk kriteria ini. Tidak ada yang akan terjadi ketika pengguna menambah atau menghapus kriteria ini.",
                 "no_metrics_or_reqs": "Tidak ada metrik atau persyaratan yang ditetapkan untuk kriteria ini. Ini berarti SEMUA pengguna akan memenuhi syarat untuk kriteria ini.",
                 "valid": "Kriteria ini valid!",
-                "action_validation_errors": "",
-                "requirement_validation_errors": ""
+                "action_validation_errors": "Kesalahan validasi driver tindakan berikut ini ditemukan:",
+                "requirement_validation_errors": "Kesalahan validasi driver persyaratan berikut ini ditemukan:"
             },
             "criterion_page": {
                 "driver_missing_ext": "Driver ini bergantung pada ekstensi yang saat ini belum diaktifkan.",
@@ -51,14 +51,14 @@
                 "description_label": "Deskripsi",
                 "new_criterion": "Membuat Kriteria",
                 "negated": "",
-                "loading": "",
-                "delete_button": "",
-                "metrics_and_requirements_label": "",
+                "loading": "=> core.ref.loading",
+                "delete_button": "=> core.ref.delete",
+                "metrics_and_requirements_label": "Metrik dan Persyaratan",
                 "metrics_and_requirements_help": "Ini menentukan apakah pengguna memenuhi syarat untuk kriteria ini. Metrik mewakili rentang nilai, persyaratan adalah kondisi boolean.",
-                "metrics_heading": "",
-                "requirements_heading": "",
-                "add_metric": "Tambahkan Metrik",
-                "actions_label": "",
+                "metrics_heading": "Metrik",
+                "requirements_heading": "Persyaratan",
+                "add_metric": "Tambah Metrik",
+                "actions_label": "Tindakan",
                 "actions_help": "Tindakan pada gain dieksekusi ketika pengguna memenuhi syarat untuk kriteria baru. Tindakan pada kerugian dijalankan ketika pengguna tidak lagi memenuhi syarat untuk suatu kriteria.",
                 "actions_on_gain_heading": "",
                 "actions_on_loss_heading": "",
@@ -74,13 +74,13 @@
             },
             "automoderator_instructions": {
                 "header": "Petunjuk Ekstensi",
-                "text": ""
+                "text": "<li>Tl; dr: Ketika pengguna memenuhi kriteria X, lakukan Y. Ketika pengguna tidak lagi memenuhi kriteria X, lakukan Z.</li>\n<li><strong>Kriteria:</strong> Kriteria adalah inti dari ekstensi ini. Kriteria adalah kumpulan metrik dan persyaratan yang dapat berubah-ubah. Ketika seorang pengguna memenuhi sebuah kriteria, setiap tindakan \"on gain\" untuk kriteria tersebut akan dieksekusi. Ketika seorang pengguna kehilangan sebuah kriteria, setiap tindakan \"on loss\" untuk kriteria tersebut akan dieksekusi.</li>\n<ul>\n  <li><strong>Metrik:</strong> Kondisi numerik. Misalnya, jumlah postingan atau jumlah like yang diterima. Sebuah kriteria dapat memerlukan rentang/minimum/maksimum metrik.</li>\n  <li><strong>Persyaratan:</strong> Kondisi boolean abstrak. Misalnya, tidak sedang ditangguhkan, atau memiliki email yang cocok dengan regex tertentu.</li>\n</ul>\n<li><strong>Tindakan:</strong> Sesuatu yang terjadi secara otomatis ketika sebuah kriteria terpenuhi atau gagal. Hal ini dapat mencakup apa saja, mulai dari menambah/menghapus grup hingga mengirim email hingga menangguhkan pengguna.</li>\n<li><strong>Pemicu:</strong> Serangkaian peristiwa yang akan menyebabkan kelompok kriteria pengguna dievaluasi ulang. Ini adalah bagian dari definisi metrik dan persyaratan. Semua kriteria akan dievaluasi pada saat login: itulah \"pemicu universal (universal trigger)\".</li>\n<li>Tindakan \"On loss\" akan selalu dijalankan sebelum tindakan \"on gain\". Dengan begitu, tindakan akan dilakukan selama pengguna memenuhi setidaknya satu kriteria yang melakukan tindakan pada keuntungan.</li>\n<li>Perlu diingat bahwa tindakan hanya berjalan \"on loss\" dan \"on gain\". Pengeditan manual ketika pengguna memenuhi syarat untuk suatu kriteria tidak akan memicu tindakan \"on gain\" dari kriteria tersebut untuk diterapkan kembali.</li>\n<li>Jika Anda menghapus sebuah kriteria, tindakan \"on loss\" TIDAK akan dijalankan untuk pengguna yang saat ini memenuhi syarat untuk kriteria tersebut.</li>\n<li>Jika Anda menggunakan kriteria untuk mengelola grup, kami sarankan untuk membuat satu set grup terpisah untuk dikelola berdasarkan kriteria. Anda tidak akan dapat menambah/menghapus pengguna ke/dari grup-grup ini secara manual.</li>\n"
             }
         },
         "lib": {
             "group_id": "",
             "managed_groups": {
-                "header": "",
+                "header": "Grup Yang Dikelola:",
                 "group_item": "",
                 "groups_not_editable": "Grup yang dikelola dengan kriteria automoderator tidak dapat ditambahkan/dihapus ke/dari pengguna secara manual untuk mencegah ketidakkonsistenan."
             }
