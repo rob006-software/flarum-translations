@@ -32,17 +32,17 @@
                 "delete-answer": "Hapus jawaban",
                 "edit-answer": "Edit Jawaban",
                 "edit-answer-prompt": "Mengedit konten di mana pun konten itu digunakan",
-                "show-user-answers": ""
+                "show-user-answers": "Tampilkan jawaban yang tidak disarankan ({count})"
             },
             "fields": {
                 "add": "",
                 "edit": "",
                 "required": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "show_when_empty": "",
+                "name": "Nama kolom",
+                "name-help": "Label kolom yang dapat dilihat oleh publik (tidak dapat diterjemahkan).\n",
+                "description": "Deskripsi kolom",
+                "description-help": "Deskripsi opsional untuk menjelaskan penggunaan/kebutuhan dari kolom ini.\n",
+                "show_when_empty": "Tampilkan saat kosong",
                 "show_when_empty-help": "Apakah akan menampilkan kolom pada diskusi ketika tidak ada jawaban",
                 "validation": "Validasi nilai pengguna",
                 "user_values_allowed": "",
