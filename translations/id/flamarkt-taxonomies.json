@@ -28,13 +28,13 @@
                 },
                 "field": {
                     "type": "",
-                    "typeDescription": "",
-                    "name": "",
-                    "slug": "",
-                    "description": "",
-                    "color": "",
-                    "icon": "",
-                    "iconDescription": "",
+                    "typeDescription": "\n",
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription",
                     "showLabel": "",
                     "showLabelDescription": "",
                     "enableFilter": "",
@@ -44,62 +44,62 @@
                     "enableFulltextSearch": "",
                     "enableFulltextSearchDescription": "",
                     "enableFulltextSearchWarning": "",
-                    "allowCustomValues": "",
-                    "customValueValidation": "",
+                    "allowCustomValues": "Izinkan nilai khusus",
+                    "customValueValidation": "Validasi untuk nilai khusus",
                     "customValueSlugger": "",
-                    "customValueSluggerDescription": "",
+                    "customValueSluggerDescription": "\n",
                     "countRequired": "",
-                    "countRequiredDescription": "",
-                    "rangeSeparatorText": "",
+                    "countRequiredDescription": "\n",
+                    "rangeSeparatorText": "hingga",
                     "tagScope": "",
                     "tagScopeDescription": "",
                     "tagScopePlaceholder": ""
                 },
-                "delete": "",
+                "delete": "=> flamarkt-taxonomies.ref.delete",
                 "deleteConfirmation": "",
                 "submit": {
-                    "new": "",
-                    "edit": ""
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
                 },
                 "type-options": {
-                    "products": "",
-                    "discussions": "",
-                    "users": ""
+                    "products": "Produk",
+                    "discussions": "Diskusi",
+                    "users": "Pengguna"
                 },
                 "validation-options": {
-                    "default": "",
-                    "alpha_num": "",
-                    "alpha_dash": "",
-                    "regex": ""
+                    "default": "Teks apa pun",
+                    "alpha_num": "Alfa-numerik",
+                    "alpha_dash": "Alfa-numerik dan garis miring/garis bawah",
+                    "regex": "Regular expression"
                 },
                 "slugger-options": {
-                    "random": "",
-                    "alpha_dash": "",
-                    "transliterator": ""
+                    "random": "Pengidentifikasi acak",
+                    "alpha_dash": "ASCII alpha-numerical slugger",
+                    "transliterator": "Gunakan ekstensi FoF Transliterator"
                 }
             },
             "edit-term": {
                 "title": {
-                    "new": "",
-                    "edit": ""
+                    "new": "Buat Istilah",
+                    "edit": "Edit Istilah"
                 },
                 "field": {
-                    "name": "",
-                    "slug": "",
-                    "description": "",
-                    "color": "",
-                    "icon": "",
-                    "iconDescription": ""
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription"
                 },
-                "delete": "",
-                "deleteConfirmation": "",
+                "delete": "=> flamarkt-taxonomies.ref.delete",
+                "deleteConfirmation": "Apakah Anda benar-benar ingin menghapus istilah {name}? Diskusi yang menggunakan istilah tersebut TIDAK akan dihapus.\n",
                 "submit": {
-                    "new": "",
-                    "edit": ""
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
                 }
             },
             "permissions": {
-                "heading": "",
+                "heading": "Taksonomi",
                 "moderate": "",
                 "bypassTermCounts": "",
                 "seeOwnDiscussion": "",
@@ -125,7 +125,7 @@
                 "edit": ""
             },
             "user": {
-                "nav": "",
+                "nav": "Taksonomi",
                 "edit": ""
             },
             "blog": {
@@ -156,14 +156,14 @@
         },
         "ref": {
             "field": {
-                "name": "",
+                "name": "Nama",
                 "slug": "",
-                "description": "",
-                "color": "",
-                "icon": "",
-                "iconDescription": "=> core.ref.icon_text"
+                "description": "Deskripsi",
+                "color": "Warna",
+                "icon": "Ikon",
+                "iconDescription": "Masukkan nama kelas ikon <a>FontAwesome</a>, <em>termasuk</em> yang berawalan<code>fas fa-</code>."
             },
-            "delete": "",
+            "delete": "Hapus",
             "submit": {
                 "new": "",
                 "edit": "Simpan"
