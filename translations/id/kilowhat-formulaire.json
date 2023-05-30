@@ -4,15 +4,15 @@
             "permissions": {
                 "heading": "",
                 "heading-advanced": "",
-                "fill": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": "",
+                "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion",
                 "create": "",
                 "moderate": "",
                 "export": "",
@@ -28,10 +28,10 @@
                 "checkbox-style": "",
                 "radio-style": "",
                 "style-options": {
-                    "far-square": "",
-                    "fas-square": "",
-                    "far-circle": "",
-                    "fas-circle": "",
+                    "far-square": "Ikon FontAwesome Regular Square",
+                    "fas-square": "Ikon FontAwesome Solid Square",
+                    "far-circle": "Ikon FontAwesome Regular Circle",
+                    "fas-circle": "Ikon FontAwesome Solid Circle",
                     "switch": "",
                     "native": ""
                 },
@@ -52,11 +52,11 @@
         },
         "forum": {
             "nav": {
-                "forms": ""
+                "forms": "=> kilowhat-formulaire.ref.manager"
             },
             "form-index": {
                 "header": {
-                    "title": "",
+                    "title": "=> kilowhat-formulaire.ref.manager",
                     "documentation": "",
                     "discuss": ""
                 },
