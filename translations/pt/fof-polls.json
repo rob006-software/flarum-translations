@@ -2,53 +2,53 @@
     "fof-polls": {
         "admin": {
             "settings": {
-                "allow_option_image": ""
+                "allow_option_image": "Permitir URL de imagem para cada opção da votação"
             },
             "permissions": {
-                "view_results_without_voting": "",
-                "start": "",
-                "self_edit": "",
-                "vote": "",
-                "change_vote": "",
-                "moderate": ""
+                "view_results_without_voting": "Ver resultados sem votar",
+                "start": "Iniciar uma votação",
+                "self_edit": "Permitir aos utilizadores para alterar as suas votações",
+                "vote": "Votar",
+                "change_vote": "Alterar voto",
+                "moderate": "Editar e remover votações"
             }
         },
         "forum": {
-            "days_remaining": "",
-            "no_permission": "",
-            "poll_ended": "",
-            "public_poll": "",
+            "days_remaining": "A votação termina em {time}.",
+            "no_permission": "Não tem permissões para votar",
+            "poll_ended": "Esta votação terminou.",
+            "public_poll": "Ver votantes",
             "composer_discussion": {
-                "add_poll": "",
-                "edit_poll": ""
+                "add_poll": "Adicionar Votação",
+                "edit_poll": "=> fof-polls.forum.moderation.editar"
             },
             "modal": {
-                "add_title": "",
-                "add_option_label": "",
-                "date_placeholder": "",
-                "edit_title": "",
-                "include_question": "",
-                "max": "",
-                "min": "",
-                "no_voters": "",
-                "option_placeholder": "",
-                "image_option_placeholder": "",
-                "options_label": "",
-                "public_poll_label": "",
-                "question_placeholder": "",
-                "submit": ""
+                "add_title": "Adicionar Votação",
+                "add_option_label": "Adicionar uma Opção",
+                "date_placeholder": "Date de fim da Votação (Opcional)",
+                "edit_title": "Editar Votação",
+                "include_question": "É necessário incluir uma pergunta",
+                "max": "Pode ter no máximo 10 respostas",
+                "min": "Tem que incluir no mínimo 2 respostas",
+                "no_voters": "Sem Votos",
+                "option_placeholder": "Resposta",
+                "image_option_placeholder": "URL da imagem (Opcional)",
+                "options_label": "Respostas",
+                "public_poll_label": "Permitir aos utilizadores ver quem votou",
+                "question_placeholder": "Pergunta",
+                "submit": "Submeter"
             },
             "moderation": {
-                "delete": "",
-                "delete_confirm": "",
-                "edit": ""
+                "delete": "Remover votação",
+                "delete_confirm": "Tem a certeza que pretende apagar esta votação?",
+                "edit": "Editar votação"
             },
             "tooltip": {
-                "badge": "",
-                "votes": ""
+                "badge": "Votação",
+                "votes": "{count, plural, one {# voto} other {# votos}}"
             },
             "votes_modal": {
-                "title": ""
+                "title": "Votantes"
             }
         }
     }
