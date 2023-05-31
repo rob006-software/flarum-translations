@@ -4,25 +4,47 @@
             "permissions": {
                 "can_bypass_like": "Có thể bỏ qua thích",
                 "can_bypass_reply": "Có thể bỏ qua trả lời",
-                "can_bypass_login": "Có thể bỏ qua đăng nhập"
+                "can_bypass_login": "Có thể bỏ qua đăng nhập",
+                "can_use_bbcode": ""
             },
             "settings": {
+                "enabled": "",
                 "hide_only_first_post": "Chỉ ẩn bài viết đầu tiên",
-                "hide_only_first_post_help": "Tùy chọn này được ghi đè bởi BBCode.",
                 "require_like": "Yêu cầu thích",
-                "require_like_help": "Yêu cầu tiện ích mở rộng <strong>flarum/likes</strong>.",
                 "require_reply": "Yêu cầu trả lời",
-                "hide_only_files": "Chỉ ẩn tệp tin",
-                "hide_only_files_help": "Yêu cầu tiện ích mở rộng <strong>fof/upload</strong>.",
                 "fof_upload": {
+                    "enabled": "",
                     "section_title": "FoF Upload",
+                    "require_reply": "Yêu cầu trả lời",
                     "require_like": "Yêu cầu thích",
-                    "require_like_help": "Yêu cầu tiện ích mở rộng <strong>flarum/likes</strong>.",
-                    "require_reply": "Yêu cầu trả lời"
-                }
+                    "require_like_help": "Yêu cầu tiện ích mở rộng <strong>flarum/likes</strong>."
+                },
+                "hide_only_first_post_help": "Tùy chọn này được ghi đè bởi BBCode.",
+                "require_like_help": "Yêu cầu tiện ích mở rộng <strong>flarum/likes</strong>.",
+                "hide_only_files": "Chỉ ẩn tệp tin",
+                "hide_only_files_help": "Yêu cầu tiện ích mở rộng <strong>fof/upload</strong>."
             }
         },
         "forum": {
+            "post": {
+                "login_tooltip": "",
+                "reply_tooltip": "",
+                "like_tooltip": "",
+                "fof_upload": {
+                    "login_text": "",
+                    "reply_text": "",
+                    "like_text": ""
+                },
+                "bbcode": {
+                    "hidden_content": "",
+                    "login_text": "",
+                    "reply_text": "",
+                    "like_text": ""
+                }
+            },
+            "composer": {
+                "dsts_tooltip": ""
+            },
             "like": "Bạn phải thích bài viết để xem nội dung.",
             "login": "Bạn phải đăng nhập để xem nội dung.",
             "reply": "Bạn phải trả lời cuộc thảo luận để xem nội dung.",

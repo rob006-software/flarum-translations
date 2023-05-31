@@ -4,25 +4,47 @@
             "permissions": {
                 "can_bypass_like": "Можна обходити як",
                 "can_bypass_reply": "Можна обійти відповідь",
-                "can_bypass_login": "Можна обійти вхід в систему"
+                "can_bypass_login": "Можна обійти вхід в систему",
+                "can_use_bbcode": ""
             },
             "settings": {
+                "enabled": "",
                 "hide_only_first_post": "Приховати тільки перше повідомлення",
-                "hide_only_first_post_help": "Ця опція замінюється на BBCode.",
                 "require_like": "Необхідні вподобайки",
-                "require_like_help": "Потрібне розширення <strong>flarum/likes</strong>.",
                 "require_reply": "Необхідна відповідь",
-                "hide_only_files": "Приховати тільки файли",
-                "hide_only_files_help": "Потрібне розширення <strong>fof/upload</strong>.",
                 "fof_upload": {
+                    "enabled": "",
                     "section_title": "FoF Upload",
+                    "require_reply": "Необхідна відповідь",
                     "require_like": "Необхідні вподобайки",
-                    "require_like_help": "Потрібне розширення <strong>flarum/likes</strong>.",
-                    "require_reply": "Необхідна відповідь"
-                }
+                    "require_like_help": "Потрібне розширення <strong>flarum/likes</strong>."
+                },
+                "hide_only_first_post_help": "Ця опція замінюється на BBCode.",
+                "require_like_help": "Потрібне розширення <strong>flarum/likes</strong>.",
+                "hide_only_files": "Приховати тільки файли",
+                "hide_only_files_help": "Потрібне розширення <strong>fof/upload</strong>."
             }
         },
         "forum": {
+            "post": {
+                "login_tooltip": "",
+                "reply_tooltip": "",
+                "like_tooltip": "",
+                "fof_upload": {
+                    "login_text": "",
+                    "reply_text": "",
+                    "like_text": ""
+                },
+                "bbcode": {
+                    "hidden_content": "",
+                    "login_text": "",
+                    "reply_text": "",
+                    "like_text": ""
+                }
+            },
+            "composer": {
+                "dsts_tooltip": ""
+            },
             "like": "Ви повинні вподобати пост, щоб побачити його зміст.",
             "login": "Ви повинні увійти, щоб переглянути вміст.",
             "reply": "Ви повинні відповісти на дискусію, щоб побачити її зміст.",

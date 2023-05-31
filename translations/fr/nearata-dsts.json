@@ -4,25 +4,47 @@
             "permissions": {
                 "can_bypass_like": "Peut contourner d'aimer",
                 "can_bypass_reply": "Peut contourner de répondre",
-                "can_bypass_login": "Peut contourner la connexion"
+                "can_bypass_login": "Peut contourner la connexion",
+                "can_use_bbcode": ""
             },
             "settings": {
+                "enabled": "",
                 "hide_only_first_post": "Masquer uniquement le premier message",
-                "hide_only_first_post_help": "Cette option est remplacée par du BBCode.",
                 "require_like": "Exiger d'aimer",
-                "require_like_help": "Nécessite l'extension <strong>flarum/likes</strong>.",
                 "require_reply": "Exiger de répondre",
-                "hide_only_files": "Masquer uniquement les fichiers",
-                "hide_only_files_help": "Nécessite l'extension <strong>fof/upload</strong>.",
                 "fof_upload": {
+                    "enabled": "",
                     "section_title": "Upload de FoF",
+                    "require_reply": "Nécessite de répondre",
                     "require_like": "Nécessite d'aimer",
-                    "require_like_help": "Nécessite l'extension <strong>flarum/likes</strong>.",
-                    "require_reply": "Nécessite de répondre"
-                }
+                    "require_like_help": "Nécessite l'extension <strong>flarum/likes</strong>."
+                },
+                "hide_only_first_post_help": "Cette option est remplacée par du BBCode.",
+                "require_like_help": "Nécessite l'extension <strong>flarum/likes</strong>.",
+                "hide_only_files": "Masquer uniquement les fichiers",
+                "hide_only_files_help": "Nécessite l'extension <strong>fof/upload</strong>."
             }
         },
         "forum": {
+            "post": {
+                "login_tooltip": "",
+                "reply_tooltip": "",
+                "like_tooltip": "",
+                "fof_upload": {
+                    "login_text": "",
+                    "reply_text": "",
+                    "like_text": ""
+                },
+                "bbcode": {
+                    "hidden_content": "",
+                    "login_text": "",
+                    "reply_text": "",
+                    "like_text": ""
+                }
+            },
+            "composer": {
+                "dsts_tooltip": ""
+            },
             "like": "Vous devez aimer le message pour voir le contenu.",
             "login": "Vous devez vous connecter pour voir le contenu.",
             "reply": "Vous devez répondre à la discussion pour en voir le contenu.",

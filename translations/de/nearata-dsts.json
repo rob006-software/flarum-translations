@@ -4,34 +4,46 @@
             "permissions": {
                 "can_bypass_like": "Kann liken umgehen",
                 "can_bypass_reply": "Kann antworten umgehen",
-                "can_bypass_login": ""
+                "can_bypass_login": "",
+                "can_use_bbcode": ""
             },
             "settings": {
+                "enabled": "",
                 "hide_only_first_post": "",
-                "hide_only_first_post_help": "",
                 "require_like": "Benötigt like",
-                "require_like_help": "Hinweis: Flarum Likes-Erweiterung erforderlich.",
                 "require_reply": "Antwort erforderlich",
-                "hide_only_files": "",
-                "hide_only_files_help": "",
                 "fof_upload": {
+                    "enabled": "",
                     "section_title": "",
-                    "require_like": "",
-                    "require_like_help": "",
-                    "require_reply": ""
-                }
+                    "require_reply": "",
+                    "require_like": ""
+                },
+                "require_like_help": "Hinweis: Flarum Likes-Erweiterung erforderlich."
             }
         },
         "forum": {
+            "post": {
+                "login_tooltip": "",
+                "reply_tooltip": "",
+                "like_tooltip": "",
+                "fof_upload": {
+                    "login_text": "",
+                    "reply_text": "",
+                    "like_text": ""
+                },
+                "bbcode": {
+                    "hidden_content": "",
+                    "login_text": "",
+                    "reply_text": "",
+                    "like_text": ""
+                }
+            },
+            "composer": {
+                "dsts_tooltip": ""
+            },
             "like": "Du musst den Beitrag liken, um den Inhalt zu sehen.",
             "login": "Du musst dich anmelden, um den Inhalt zu sehen.",
-            "reply": "Du musst auf die Diskussion antworten, um den Inhalt anzuzeigen.",
-            "fof_upload": {
-                "like": "",
-                "login": "",
-                "reply": ""
-            },
-            "button": ""
+            "reply": "Du musst auf die Diskussion antworten, um den Inhalt anzuzeigen."
         }
     }
 }

@@ -4,25 +4,47 @@
             "permissions": {
                 "can_bypass_like": "Beğenmeden görebilir",
                 "can_bypass_reply": "Yanıtlamadan görebilir",
-                "can_bypass_login": "Giriş yapmadan geçebilir"
+                "can_bypass_login": "Giriş yapmadan geçebilir",
+                "can_use_bbcode": ""
             },
             "settings": {
+                "enabled": "",
                 "hide_only_first_post": "Yalnızca ilk gönderiyi gizle",
-                "hide_only_first_post_help": "Bu seçenek BBCode tarafından geçersiz kılınır.",
                 "require_like": "Beğenmesi gerekir",
-                "require_like_help": "Not: <strong>flarum/likes</strong> uzantısı gerektirir.",
                 "require_reply": "Yanıtlaması gerekir",
-                "hide_only_files": "Yalnızca dosyaları gizle",
-                "hide_only_files_help": "<strong>fof/upload</strong> uzantısı gerektirir.",
                 "fof_upload": {
+                    "enabled": "",
                     "section_title": "FoF Upload",
+                    "require_reply": "Cevap gerektirir",
                     "require_like": "Beğeni gerektirir",
-                    "require_like_help": "<strong>flarum/likes</strong> uzantısı gerektirir.",
-                    "require_reply": "Cevap gerektirir"
-                }
+                    "require_like_help": "<strong>flarum/likes</strong> uzantısı gerektirir."
+                },
+                "hide_only_first_post_help": "Bu seçenek BBCode tarafından geçersiz kılınır.",
+                "require_like_help": "Not: <strong>flarum/likes</strong> uzantısı gerektirir.",
+                "hide_only_files": "Yalnızca dosyaları gizle",
+                "hide_only_files_help": "<strong>fof/upload</strong> uzantısı gerektirir."
             }
         },
         "forum": {
+            "post": {
+                "login_tooltip": "",
+                "reply_tooltip": "",
+                "like_tooltip": "",
+                "fof_upload": {
+                    "login_text": "",
+                    "reply_text": "",
+                    "like_text": ""
+                },
+                "bbcode": {
+                    "hidden_content": "",
+                    "login_text": "",
+                    "reply_text": "",
+                    "like_text": ""
+                }
+            },
+            "composer": {
+                "dsts_tooltip": ""
+            },
             "like": "İçeriği görebilmek için gönderiyi beğenmelisin.",
             "login": "İçeriği görebilmek için giriş yapmalısın.",
             "reply": "İçeriği görebilmek için tartışmayı yanıtlamalısın.",

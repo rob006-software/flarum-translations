@@ -4,34 +4,42 @@
             "permissions": {
                 "can_bypass_like": "Can bypass like",
                 "can_bypass_reply": "Can bypass reply",
-                "can_bypass_login": "Can bypass login"
+                "can_bypass_login": "Can bypass login",
+                "can_use_bbcode": "Can use BBCode"
             },
             "settings": {
+                "enabled": "Enabled",
                 "hide_only_first_post": "Hide only first post",
-                "hide_only_first_post_help": "This option is overriden by BBCode.",
                 "require_like": "Require like",
-                "require_like_help": "Requires <strong>flarum/likes</strong> extension.",
                 "require_reply": "Require reply",
-                "hide_only_files": "Hide only files",
-                "hide_only_files_help": "Requires <strong>fof/upload</strong> extension.",
                 "fof_upload": {
+                    "enabled": "Enabled",
                     "section_title": "FoF Upload",
-                    "require_like": "Require like",
-                    "require_like_help": "Requires <strong>flarum/likes</strong> extension.",
-                    "require_reply": "Require reply"
+                    "require_reply": "Require reply",
+                    "require_like": "Require like"
                 }
             }
         },
         "forum": {
-            "like": "You must like the post to see the content.",
-            "login": "You must login to see the content.",
-            "reply": "You must reply to the discussion to see the content.",
-            "fof_upload": {
-                "like": "You must like to see the file.",
-                "login": "You must login to see the file.",
-                "reply": "You must reply to see the file."
+            "post": {
+                "login_tooltip": "You must login to see the content",
+                "reply_tooltip": "You must reply to the discussion to see the content",
+                "like_tooltip": "You must like the post to see the content",
+                "fof_upload": {
+                    "login_text": "You must login to see the file",
+                    "reply_text": "You must reply to the discussion to see the file",
+                    "like_text": "You must like the post to see the file"
+                },
+                "bbcode": {
+                    "hidden_content": "Hidden Content",
+                    "login_text": "You must login to see this content",
+                    "reply_text": "You must reply to the discussion to see this content",
+                    "like_text": "You must like the post to see this content"
+                }
             },
-            "button": "DSTS"
+            "composer": {
+                "dsts_tooltip": "DSTS"
+            }
         }
     }
 }
