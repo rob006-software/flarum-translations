@@ -21,38 +21,38 @@
             },
             "page": {
                 "reactions": {
-                    "title": "",
-                    "reactions": "",
-                    "Helptext": "",
+                    "title": "Reações customizadas",
+                    "reactions": "Reações actuais",
+                    "Helptext": "Indica o nome (identificador) do emoji ou icone font-awesome e seleciona o type que pretendes.",
                     "help": {
-                        "display": "",
+                        "display": "Mostrar",
                         "identifier": "Identificador"
                     }
                 },
                 "convert": {
                     "help": "Se acabou de actualizar a extensão, as suas reações necessitam ser convertidas. Se acabou de instalar a extensão, pode ignorar esta mensagem.",
                     "button": "Converter reações antigas",
-                    "converting": "",
-                    "converted": ""
+                    "converting": "As tuas reações estão a ser convertidas. Refresca o site daqui a alguns minutos para ver se o processo terminou. ( O tempo de conversão poderá demorar algum tempo, dependendo do número total de reações)",
+                    "converted": "Foram convertidos com sucesso {number} gostos"
                 },
                 "settings": {
-                    "react_own_posts_help": "",
-                    "react_own_posts_label": "",
-                    "save_settings": "",
+                    "react_own_posts_help": "Quando activo, carecendo de permissão, os utilizadores podem reagir às suas próprias postagens no forum. Para prevenir que os utilizadores reajam às suas postagens, desactive esta opção.",
+                    "react_own_posts_label": "Os utilizadores podem reagir às suas postagens",
+                    "save_settings": "Gravar definições",
                     "integrations": {
-                        "legend": "",
-                        "warning": "",
+                        "legend": "Integrações",
+                        "warning": "A mesma reação <strong>não pode</strong> ser convertida para um gosto <strong> e um</strong> voto a favor",
                         "gamification": {
-                            "legend": "",
-                            "upvoteLabel": "",
-                            "upvoteHelptext": "",
-                            "downvoteLabel": "",
-                            "downvoteHelptext": ""
+                            "legend": "Gamificação",
+                            "upvoteLabel": "Converter reações em votos a favor",
+                            "upvoteHelptext": "Indica o identificador da reação que pretende converter automaticamente para um voto a favor",
+                            "downvoteLabel": "Converter reações em votos contra",
+                            "downvoteHelptext": "Indica o identificador da reação que pretende converter automaticamente para um voto contra"
                         },
                         "likes": {
-                            "legend": "",
-                            "Label": "",
-                            "Helptext": ""
+                            "legend": "Gostos",
+                            "Label": "Converter reações em Gostos",
+                            "Helptext": "Indica o identificador da reação que pretende converter automaticamente para um gosto"
                         }
                     }
                 }
