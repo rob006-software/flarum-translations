@@ -31,7 +31,7 @@
                 "save-answer": "Simpan perubahan jawaban",
                 "delete-answer": "Hapus jawaban",
                 "edit-answer": "Edit Jawaban",
-                "edit-answer-prompt": "Mengedit konten di mana pun konten itu digunakan",
+                "edit-answer-prompt": "Edit konten di mana pun konten itu digunakan",
                 "show-user-answers": "Tampilkan jawaban yang tidak disarankan ({count})"
             },
             "fields": {
@@ -46,14 +46,14 @@
                 "show_when_empty-help": "Apakah akan menampilkan kolom pada diskusi ketika tidak ada jawaban",
                 "validation": "Validasi user value",
                 "user_values_allowed": "User value yang diizinkan",
-                "user_values_allowed-help": "Jika diaktifkan, pengguna dapat menambahkan nilai mereka sendiri, bukan nilai yang sudah ditentukan oleh admin. Nilai-nilai ini akan diperiksa terhadap pengaturan \"Validasi\".ika dinonaktifkan, mereka hanya akan dapat menggunakan jawaban yang \"disarankan\".\n",
+                "user_values_allowed-help": "Jika diaktifkan, pengguna dapat menambahkan value mereka sendiri, bukan yang value yang telah ditentukan oleh admin. Semua value tersebut akan diperiksa dengan pengaturan \"Validasi\". Jika dinonaktifkan, mereka hanya akan dapat menggunakan jawaban yang \"disarankan\".\n",
                 "validation-help": "",
                 "enable-user-values-for-validation": "Aktifkan \"user value\" untuk mengonfigurasi aturan validasi",
                 "icon": "Ikon",
                 "icon-help": "",
                 "icon-preview": "pratinjau: {preview}",
                 "save-field-for-answers": "Simpan kolom untuk menambahkan jawaban",
-                "is_suggested": "Sarankan jawaban kepada pengguna",
+                "is_suggested": "Memberikan saran jawaban kepada pengguna",
                 "new-answer": "Jawaban baru",
                 "new-answer-placeholder": "Beberapa teks"
             },
@@ -62,14 +62,14 @@
                 "delete-field-confirmation": "Apakah Anda yakin ingin menghapus kolom \"{name}\"? Kolom dan jawabannya akan dihapus dari semua diskusi yang menggunakannya. Hapus kolom?\n"
             },
             "settings": {
-                "fields-section-title": "Judul dari bagian kolom khusus",
+                "fields-section-title": "Judul pada bagian kolom khusus",
                 "fields-section-title-placeholder": "Secara default tidak ada judul yang akan ditampilkan",
                 "fields-section-title-help": "User akan melihat teks ini di atas kolom khusus di editor dan di diskusi.\n",
-                "column-count": "Jumlah kolom saat menampilkan bidang",
+                "column-count": "Jumlah kolom saat menampilkan kolom",
                 "n-columns": "{count} kolom",
                 "labels-as-placeholders": "Tampilkan label sebagai placeholder dalam formulir",
                 "labels-as-placeholders-help": "Kolom akan menggunakan lebih sedikit ruang vertikal dan ikon tidak akan ditampilkan lagi. Harap diingat bahwa hal ini mungkin berdampak pada kegunaan, khususnya saat mengedit kolom yang ada.\n",
-                "fields-in-hero": "Tampilkan kolom di banner diskusi, bukan di postingan pertama",
+                "fields-in-hero": "Tampilkan kolom di banner diskusi, bukan di post yang pertama",
                 "hide-empty-fields-section": "Sembunyikan judul dan kontrol ketika semua kolom kosong dan tersembunyi",
                 "hide-empty-fields-section-help": "Secara default jika pengguna dapat mengedit kolom atau judul telah dibuat, bagian tersebut akan selalu ditampilkan, meskipun semua kolom disembunyikan. Dengan mengaktifkan opsi ini, bagian tersebut akan disembunyikan dan tombol \"edit kolom\" hanya akan tersedia di dalam menu dropdown \" reply\" ketika semua kolom kosong.\n",
                 "tags-as-field": "",
@@ -84,12 +84,12 @@
                 "field-answers": ""
             },
             "permissions": {
-                "see-own-fields": "Melihat kolom-kolom pada diskusi yang ada saat ini",
+                "see-own-fields": "Melihat kolom pada diskusi sendiri yang sudah ada",
                 "see-other-fields": "Melihat kolom pada semua diskusi yang ada",
                 "fill-fields": "",
                 "update-own-fields": "",
                 "update-other-fields": "",
-                "skip-required-fields": ""
+                "skip-required-fields": "Mengizinkan untuk melewatkan kolom yang harus diisi"
             }
         }
     }
