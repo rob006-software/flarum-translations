@@ -9,14 +9,14 @@
                     "app-id": "",
                     "app-secret": "",
                     "app-scopes": "",
-                    "button-title": "Label untuk tombol login",
-                    "button-title-placeholder": "",
-                    "button-icon": "Ikon untuk tombol login"
+                    "button-title": "Tombol login - Title",
+                    "button-title-placeholder": "=> fof-passport.api.default-login-button-title",
+                    "button-icon": "Tombol login - Ikon"
                 }
             }
         },
         "api": {
-            "default-login-button-title": ""
+            "default-login-button-title": "=> core.ref.log_in"
         }
     }
 }
