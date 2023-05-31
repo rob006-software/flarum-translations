@@ -24,36 +24,36 @@
         "admin": {
             "general-options": "Pilihan umum",
             "buttons": {
-                "add-field": "Membuat kolom",
+                "add-field": "Buat kolom",
                 "edit-field": "Simpan perubahan",
                 "delete-field": "Hapus kolom"
             },
             "permissions": {
-                "edit-others-profile": "",
-                "have-profile": "",
-                "view-profile": "Melihat penghitungan suara naik/turun"
+                "edit-others-profile": "Mengedit profil pengguna lainnya",
+                "have-profile": "Memiliki profil masquerade",
+                "view-profile": "Melihat penghitungan Upvote/Downvote"
             },
             "fields": {
                 "title": "Kolom",
-                "add": "",
-                "edit": "",
+                "add": "Tambahkan kolom {field}",
+                "edit": "Edit kolom {field}",
                 "name": "Nama kolom",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "required": "",
-                "on_bio": "",
-                "type": "",
-                "validation": "",
-                "validation-help": "",
+                "name-help": "Label kolom yang dapat dilihat oleh publik (tidak dapat diterjemahkan).\n",
+                "description": "Deskripsi kolom",
+                "description-help": "Deskripsi opsional untuk menjelaskan penggunaan/kebutuhan dari kolom ini.\n",
+                "required": "Tandai kolom yang harus diisi",
+                "on_bio": "Tampilkan jawaban untuk kolom ini di bio pengguna",
+                "type": "Tipe",
+                "validation": "Validasi",
+                "validation-help": "Periksa <a>aturan validasi Laravel</a> yang didukung. Misalnya: \"string|min:5\" atau \"url\"..\n",
                 "prefix": "",
                 "prefix-help": "",
                 "icon": "Ikon",
-                "icon-help": "",
-                "force-user-to-completion": "",
+                "icon-help": "Menampilkan ikon di depan nilai yang dimasukkan oleh pengguna. Untuk referensi ikon yang tersedia, kunjungi situs web <a>FontAwesome</a>. Gunakan nama ikon dengan awalan \"fa-\", seperti \"fas fa-info\".\n",
+                "force-user-to-completion": "Paksa pengguna untuk melengkapi profil",
                 "options": "Pilihan",
                 "option-new": "Pilihan baru",
-                "option-comma-warning": ""
+                "option-comma-warning": "Label opsi tidak boleh mengandung koma (\",\")."
             },
             "types": {
                 "advanced": "",

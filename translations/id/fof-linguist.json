@@ -2,7 +2,7 @@
     "fof-linguist": {
         "admin": {
             "permissions": {
-                "view_string_keys": "Lihat kunci string terjemahan"
+                "view_string_keys": "Melihat string key terjemahan"
             },
             "tabs": {
                 "strings": "Terjemahan",
@@ -12,7 +12,7 @@
             },
             "buttons": {
                 "apply": "Terapkan",
-                "reset": "Kembalikan ke aslinya",
+                "reset": "Teks asli",
                 "copy-original": "Copy teks asli",
                 "load-more": "Muat lainnya",
                 "delete-redundant": "Hapus terjemahan yang tidak perlu",
@@ -63,7 +63,7 @@
                 },
                 "total-options": {
                     "percent": "Persen",
-                    "count": ""
+                    "count": "Hitungan"
                 },
                 "columns": {
                     "namespace": "",
@@ -81,13 +81,13 @@
             },
             "export": {
                 "title": "Ekspor",
-                "warning": "",
+                "warning": "Format ekspor menggunakan file terjemahan berbasis Yaml milik Flarum dan dirancang untuk dapat saling berbagi terjemahan antar forum dan dengan pengelola paket bahasa. Format ini tidak dirancang untuk memindahkan semua terjemahan ke forum baru. Tergantung pada kasus penggunaan Anda, menyalin database secara langsung mungkin merupakan ide yang lebih baik.\n",
                 "locale": "Lokal",
                 "locale-all": "",
                 "namespace": "",
                 "namespace-all": "Semua",
-                "include-originals": "",
-                "include-all": "",
+                "include-originals": "Sertakan terjemahan aslinya",
+                "include-all": "Sertakan terjemahan yang ditetapkan untuk \"Semua\" bahasa",
                 "output": "",
                 "output-loading": "",
                 "output-empty": "",
@@ -97,9 +97,9 @@
                 "title": "Impor",
                 "input": "",
                 "input-placeholder": "",
-                "locale": "",
-                "locale-all": "",
-                "override-existing": "",
+                "locale": "Lokal",
+                "locale-all": "Pseudo-locale \"Semua\"",
+                "override-existing": "Timpa terjemahan khusus yang sudah ada",
                 "submit": "Impor",
                 "results": "Impor telah selesai. {imported}string telah diimpor dan {identical}string yang identik diabaikan. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n",
                 "results-with-ignore": "Impor telah selesai. {imported} telah diimpor, {ignored} string yang sudah ada telah diabaikan dan {identical}string yang identik telah dilewati. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n"
