@@ -12,21 +12,21 @@
                 "banned_tooltip": "Dicekal"
             },
             "user_controls": {
-                "ban_button": "",
-                "unban_button": ""
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
         },
         "admin": {
             "permissions": {
-                "ban_ip_label": "",
+                "ban_ip_label": "=> fof-ban-ips.ref.ban_ip_addresses",
                 "view_banned_ip_list_label": "Lihat daftar alamat IP yang dicekal"
             },
             "page": {
-                "create_button": "",
+                "create_button": "=> fof-ban-ips.ref.ban_ip_button",
                 "creator_label": "Pembuat",
                 "user_label": "",
-                "address_label": "",
-                "reason_label": "",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
                 "date_label": "Tanggal"
             },
             "modal": {
@@ -41,10 +41,10 @@
         },
         "lib": {
             "modal": {
-                "title": "",
-                "unban_title": "",
-                "address_label": "",
-                "reason_label": "",
+                "title": "=> fof-ban-ips.ref.ban_ip_addresses",
+                "unban_title": "=> fof-ban-ips.ref.unban_ip_addresses",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
                 "check_button": "Periksa",
                 "save_button": "Simpan",
                 "ban_ip_confirmation": "Apakah Anda yakin ingin mencekal alamat IP ini agar tidak digunakan di forum? Hal ini akan ikut mencekal pengguna dengan alamat IP ini agar tidak dapat login dan melakukan pendaftaran.",
@@ -55,8 +55,8 @@
                 "unban_ip_no_users": "Tidak ada orang lain yang akan dicekal",
                 "unban_ip_users": "",
                 "unbanned_ips": "",
-                "ban_button": "",
-                "unban_button": ""
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
         },
         "ref": {
