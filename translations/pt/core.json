@@ -581,7 +581,7 @@
                 "dependent_extensions_message": "Não é possível desativar {extension} até que as seguintes extensões dependentes sejam desativadas: {extensions}",
                 "extension_initialiation_failed_message": "{extension} falhou a inicializar, verifique a consola do navegador para mais informações.",
                 "generic_message": "Opa! Algo deu errado. Por favor, recarregue a página e tente novamente.",
-                "generic_cross_origin_message": "",
+                "generic_cross_origin_message": "Oops! Ocorreu um erro durante o pedido de origem cruzada. Por favor recarregue e página e tente de novo.",
                 "missing_dependencies_message": "Não é possível ativar {extension} até que as seguintes dependências sejam ativadas: {extensions}",
                 "not_found_message": "O recurso solicitado não foi encontrado.",
                 "payload_too_large_message": "A carga solicitada era demasiado elevada.",
@@ -675,7 +675,7 @@
         "api": {
             "invalid_username_message": "O nome de usuário pode conter apenas letras, números e traços.",
             "invalid_filter_type": {
-                "must_be_numeric_message": "",
+                "must_be_numeric_message": "O filtro {filter} deve ser numérico.",
                 "must_not_be_array_message": "",
                 "must_not_be_multidimensional_array_message": ""
             }
