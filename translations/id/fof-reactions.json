@@ -1,13 +1,13 @@
 {
     "fof-reactions": {
         "forum": {
-            "disabled-reaction": "Anda tidak dapat menggunakan reaction saat ini, coba refresh halaman ini",
+            "disabled-reaction": "Anda tidak dapat memberikan reaksi saat ini, silakan refresh halaman",
             "warning": "Reaction Anda telah dikonversi",
-            "notification": "{username} bereaksi dengan {reaction} ke post Anda",
+            "notification": "{username} bereaksi dengan {reaction} ke postingan Anda",
             "settings": {
                 "notify_post_reacted_label": "Seseorang memberikan reaksi terhadap salah satu postingan saya"
             },
-            "reacting-own-post": "Anda tidak dapat memberikan reaction terhadap post Anda sendiri",
+            "reacting-own-post": "Anda tidak dapat memberikan reaksi terhadap postingan Anda sendiri",
             "modal": {
                 "title": "Bereaksi"
             },
@@ -30,29 +30,29 @@
                     }
                 },
                 "convert": {
-                    "help": "Jika Anda baru saja memperbarui ekstensi, reaction Anda harus dikonversi. Jika Anda baru saja menginstal ekstensi ini, Anda dapat dengan aman mengabaikan pesan ini.",
+                    "help": "Jika Anda baru saja memperbarui ekstensi Anda, reaksi Anda harus dikonversi. Jika Anda baru saja menginstal ekstensi ini, Anda bisa mengabaikan pesan ini.",
                     "button": "Ubah reaction yang lama",
-                    "converting": "Reaction Anda sekarang berubah. Refresh halaman ini setelah beberapa menit untuk melihat prosesnya selesai. (Waktu konversi mungkin memakan waktu cukup lama tergantung pada jumlah total reaction Anda)",
+                    "converting": "Reaksi Anda sekarang akan berubah. Refresh situs Anda setelah beberapa menit untuk melihat prosesnya selesai. (Waktu konversi mungkin memerlukan waktu beberapa saat tergantung pada jumlah total reaksi Anda)",
                     "converted": "Berhasil mengkonversi {number} like"
                 },
                 "settings": {
-                    "react_own_posts_help": "Saat diaktifkan, dengan izin, User dapat bereaksi terhadap postingan mereka sendiri di forum. Untuk mencegah User bereaksi pada posting mereka sendiri, nonaktifkan pengaturan ini.",
-                    "react_own_posts_label": "User dapat bereaksi terhadap posting mereka sendiri",
+                    "react_own_posts_help": "Ketika diaktifkan, tergantung pada perizinan, pengguna dapat memberikan reaksi terhadap postingan mereka sendiri di forum. Untuk mencegah pengguna memberikan reaksi terhadap postingan mereka sendiri, nonaktifkan pengaturan ini.",
+                    "react_own_posts_label": "Pengguna dapat memberikan reaksi terhadap postingan mereka sendiri",
                     "save_settings": "Simpan Pengaturan",
                     "integrations": {
                         "legend": "Integrasi",
-                        "warning": "Reaction yang sama <strong>tidak dapat</strong> dikonversi menjadi like <strong>dan</strong> upvote",
+                        "warning": "Reaksi yang sama <strong>tidak dapat</strong> dikonversi menjadi Like <strong>dan</strong> Upvote",
                         "gamification": {
                             "legend": "Gamification",
-                            "upvoteLabel": "Ubah reaction menjadi upvote",
-                            "upvoteHelptext": "Masukkan pengidentifikasi reaction yang ingin Anda konversi secara otomatis menjadi upvote",
-                            "downvoteLabel": "Ubah reaction menjadi downvote",
-                            "downvoteHelptext": "Masukkan pengidentifikasi reaction yang ingin Anda konversi secara otomatis menjadi downvote"
+                            "upvoteLabel": "Ubah reaksi menjadi Upvote",
+                            "upvoteHelptext": "Masukkan pengenal reaksi yang ingin Anda ubah secara otomatis menjadi Upvote",
+                            "downvoteLabel": "Ubah reaksi menjadi Downvote",
+                            "downvoteHelptext": "Masukkan pengidentifikasi reaksi yang ingin Anda ubah secara otomatis menjadi Downvote"
                         },
                         "likes": {
                             "legend": "Like",
                             "Label": "Ubah reaction menjadi like",
-                            "Helptext": "Masukkan pengidentifikasi reaction yang ingin Anda konversi secara otomatis menjadi like"
+                            "Helptext": "Masukkan pengenal reaksi yang ingin Anda ubah secara otomatis menjadi Like"
                         }
                     }
                 }
