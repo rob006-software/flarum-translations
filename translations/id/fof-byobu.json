@@ -49,7 +49,7 @@
                 "help": {
                     "add_recipients": "Diskusi ini hanya akan terlihat oleh pengguna yang Anda pilih di sini. Setidaknya diperlukan 1 penerima (selain diri Anda sendiri).",
                     "update_recipients": "Diskusi ini hanya akan terlihat oleh pengguna yang Anda pilih di sini.",
-                    "selected_users": "",
+                    "selected_users": "Klik username untuk menghapusnya.",
                     "click_user_to_remove_tooltip": "Klik untuk menghapus"
                 }
             },
@@ -95,8 +95,8 @@
                 "enable-make-public-option": "",
                 "enable-make-public-option-help": "Menambahkan kemampuan bagi mereka yang memiliki izin untuk menghapus semua penerima, menetapkan tag baru, dan membuat diskusi dapat dilihat oleh publik (sesuai dengan pengaturan visibilitas tag yang dipilih).",
                 "post-event-icon": "",
-                "delete_on_last_recipient_left": "",
-                "delete_on_last_recipient_left_help": ""
+                "delete_on_last_recipient_left": "Hapus PD ketika pengguna terakhir keluar",
+                "delete_on_last_recipient_left_help": "Jika diaktifkan, PD akan dihapus secara permanen dari database ketika pengguna terakhir keluar. Jika tidak, PD akan dihapus secara soft-deleted/disembunyikan."
             }
         },
         "email": {
