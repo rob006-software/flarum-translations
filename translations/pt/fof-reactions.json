@@ -1,17 +1,17 @@
 {
     "fof-reactions": {
         "forum": {
-            "disabled-reaction": "",
-            "warning": "",
-            "notification": "",
+            "disabled-reaction": "Não podes usar esta reação agora, por favor refresca a página",
+            "warning": "A tua reação foi convertida",
+            "notification": "{username} reagiu com {reaction} à tua postagem",
             "settings": {
-                "notify_post_reacted_label": ""
+                "notify_post_reacted_label": "Alguém reagiu a uma das minhas postagens"
             },
-            "reacting-own-post": "",
+            "reacting-own-post": "Não podes reagir a uma postagem própria",
             "modal": {
-                "title": ""
+                "title": "Reações"
             },
-            "mod_item": "",
+            "mod_item": "Ver Reações",
             "react_button_label": ""
         },
         "admin": {
