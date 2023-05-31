@@ -17,13 +17,13 @@
             "ranking": {
                 "rank": "",
                 "name": "",
-                "amount": ""
+                "amount": "Poin"
             },
             "notification": {
                 "upvote": "",
                 "downvote": "",
                 "prefrences": {
-                    "vote": ""
+                    "vote": "Ketika salah satu postingan saya mendapatkan vote naik/turun"
                 }
             },
             "user": {
@@ -51,10 +51,10 @@
         },
         "admin": {
             "permissions": {
-                "vote_label": "",
-                "see_votes_label": "",
+                "vote_label": "Memberikan Upvote/Downvote pada postingan",
+                "see_votes_label": "Melihat penghitungan vote naik/turun",
                 "see_voters_label": "Melihat siapa yang memberikan vote",
-                "see_ranking_page": "",
+                "see_ranking_page": "Melihat halaman peringkat",
                 "upvote_notifications": "Menerima notifikasi tentang upvote",
                 "downvote_notifications": "Menerima notifikasi tentang downvote"
             },
@@ -62,21 +62,21 @@
                 "rankings": {
                     "blocked": {
                         "placeholder": "",
-                        "title": "",
+                        "title": "Pengguna Yang Diabaikan",
                         "help": "Pengguna ini tidak akan ditampilkan di halaman peringkat. Username harus dipisahkan dengan koma yang diikuti dengan spasi."
                     },
-                    "title": "",
+                    "title": "Halaman Peringkat",
                     "enable": "",
-                    "custom_image_1": "",
-                    "custom_image_2": "",
-                    "custom_image_3": ""
+                    "custom_image_1": "Gambar juara 1",
+                    "custom_image_2": "Gambar juara 2",
+                    "custom_image_3": "Gambar juara 3"
                 },
                 "alt_votes": {
-                    "icon_name": ""
+                    "icon_name": "Nama ikon layout alternatif"
                 },
                 "votes": {
                     "points_title": "",
-                    "points_placeholder": "",
+                    "points_placeholder": "Poin: ",
                     "color_holder": "",
                     "auto_upvote": "Berikan upvote secara otomatis pada postingan saat diposting",
                     "rate_limit": "Terapkan batas kecepatan dalam memberikan vote (10 detik)",
@@ -85,8 +85,8 @@
                     "alternate_post_layout": "Gunakan tata letak voting alternatif pada postingan",
                     "title": "",
                     "vote_color": "",
-                    "icon_name": "",
-                    "icon_help": "",
+                    "icon_name": "Ikon upvote/downvote",
+                    "icon_help": "Masukkan ikon Font-Awesome apa pun yang diakhiri dengan -up dan -down. Contoh: arrow, thumbs, chevron",
                     "upvotes_only": "",
                     "first_post_only": "",
                     "allow_self_votes": "Pengguna dapat melakukan voting pada postingan mereka sendiri"
@@ -96,12 +96,12 @@
                     "button": "Mengonversi like menjadi upvote",
                     "help": "Konversi like sebelumnya dari flarum-ext-likes menjadi upvotes, serta hitung tingkat popularitas untuk semua diskusi saat ini.",
                     "converting": "Jumlah like Anda sekarang sedang dikonversi. Refresh situs Anda setelah beberapa menit untuk melihat prosesnya selesai. (Waktu konversi mungkin memerlukan waktu agak lama, tergantung pada total like di forum Anda)",
-                    "converted": ""
+                    "converted": "Berhasil mengkonversi semua ({number} like)"
                 },
                 "ranks": {
-                    "title": "",
-                    "ranks": "",
-                    "number_title": "",
+                    "title": "Peringkat",
+                    "ranks": "Peringkat khusus",
+                    "number_title": "Berapa banyak badge peringkat yang harus ditampilkan?",
                     "help": {
                         "color": "",
                         "help": "Masukkan jumlah upvote yang diperlukan, nama peringkat, dan warna heksa peringkat",
