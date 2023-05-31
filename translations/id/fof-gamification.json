@@ -3,27 +3,27 @@
         "forum": {
             "index_sort": {
                 "hot_button": "",
-                "votes_button": ""
+                "votes_button": "Upvote"
             }
         }
     },
     "fof-gamification": {
         "forum": {
-            "votes": "",
-            "vote_title": "",
+            "votes": "Vote",
+            "vote_title": "Tampilkan Siapa Yang Memberikan Vote",
             "nav": {
-                "name": ""
+                "name": "Peringkat"
             },
             "ranking": {
-                "rank": "",
+                "rank": "Peringkat",
                 "name": "",
                 "amount": "Poin"
             },
             "notification": {
-                "upvote": "",
-                "downvote": "",
+                "upvote": "{username} memberikan Upvote pada postingan Anda",
+                "downvote": "{username} memberikan Downvote pada postingan Anda",
                 "prefrences": {
-                    "vote": "Ketika salah satu postingan saya mendapatkan vote naik/turun"
+                    "vote": "Ketika salah satu dari postingan Saya mendapatkan Upvote/Downvote"
                 }
             },
             "user": {
@@ -31,18 +31,18 @@
                     "points": ""
                 },
                 "rank": "",
-                "votes_link": ""
+                "votes_link": "Vote"
             },
             "modal": {
-                "downvotes_label": "",
-                "title": "",
-                "upvotes_label": ""
+                "downvotes_label": "Downvoter:",
+                "title": "Voter",
+                "upvotes_label": "Upvoter:"
             },
-            "mod_item": "",
+            "mod_item": "Lihat Voter",
             "voters": {
-                "none": "",
-                "label": "",
-                "label_none": ""
+                "none": "Belum ada voter",
+                "label": "Voter",
+                "label_none": "Tidak ada voter"
             },
             "post": {
                 "upvote_button": "",
@@ -52,11 +52,11 @@
         "admin": {
             "permissions": {
                 "vote_label": "Memberikan Upvote/Downvote pada postingan",
-                "see_votes_label": "Melihat penghitungan vote naik/turun",
+                "see_votes_label": "Melihat penghitungan Upvote/Downvote",
                 "see_voters_label": "Melihat siapa yang memberikan vote",
                 "see_ranking_page": "Melihat halaman peringkat",
-                "upvote_notifications": "Menerima notifikasi tentang upvote",
-                "downvote_notifications": "Menerima notifikasi tentang downvote"
+                "upvote_notifications": "Menerima notifikasi tentang Upvote",
+                "downvote_notifications": "Menerima notifikasi tentang Downvote"
             },
             "page": {
                 "rankings": {
@@ -66,7 +66,7 @@
                         "help": "Pengguna ini tidak akan ditampilkan di halaman peringkat. Username harus dipisahkan dengan koma yang diikuti dengan spasi."
                     },
                     "title": "Halaman Peringkat",
-                    "enable": "",
+                    "enable": "Aktifkan gambar khusus",
                     "custom_image_1": "Gambar juara 1",
                     "custom_image_2": "Gambar juara 2",
                     "custom_image_3": "Gambar juara 3"
@@ -78,23 +78,23 @@
                     "points_title": "",
                     "points_placeholder": "Poin: ",
                     "color_holder": "",
-                    "auto_upvote": "Berikan upvote secara otomatis pada postingan saat diposting",
+                    "auto_upvote": "Berikan Upvote secara otomatis pada postingan saat diposting",
                     "rate_limit": "Terapkan batas kecepatan dalam memberikan vote (10 detik)",
-                    "discussion_page": "",
+                    "discussion_page": "Menampilkan total vote dari postingan awal pada daftar diskusi",
                     "alternate_layout": "Gunakan tata letak voting alternatif pada daftar diskusi",
                     "alternate_post_layout": "Gunakan tata letak voting alternatif pada postingan",
-                    "title": "",
+                    "title": "Vote",
                     "vote_color": "",
-                    "icon_name": "Ikon upvote/downvote",
+                    "icon_name": "Ikon Upvote/Downvote",
                     "icon_help": "Masukkan ikon Font-Awesome apa pun yang diakhiri dengan -up dan -down. Contoh: arrow, thumbs, chevron",
-                    "upvotes_only": "",
-                    "first_post_only": "",
+                    "upvotes_only": "Hanya diizinkan untuk memberikan Upvote",
+                    "first_post_only": "Hanya diizinkan untuk memberikan Upvote/Downvote pada postingan awal dalam sebuah diskusi",
                     "allow_self_votes": "Pengguna dapat melakukan voting pada postingan mereka sendiri"
                 },
                 "save_settings": "Simpan pengaturan",
                 "convert": {
-                    "button": "Mengonversi like menjadi upvote",
-                    "help": "Konversi like sebelumnya dari flarum-ext-likes menjadi upvotes, serta hitung tingkat popularitas untuk semua diskusi saat ini.",
+                    "button": "Mengonversi Like menjadi Upvote",
+                    "help": "Mengkonversi Like Anda yang sebelumnya dari flarum-ext-likes menjadi Upvote, serta menghitung tingkat kepopuleran untuk semua diskusi saat ini.",
                     "converting": "Jumlah like Anda sekarang sedang dikonversi. Refresh situs Anda setelah beberapa menit untuk melihat prosesnya selesai. (Waktu konversi mungkin memerlukan waktu agak lama, tergantung pada total like di forum Anda)",
                     "converted": "Berhasil mengkonversi semua ({number} like)"
                 },
@@ -104,8 +104,8 @@
                     "number_title": "Berapa banyak badge peringkat yang harus ditampilkan?",
                     "help": {
                         "color": "",
-                        "help": "Masukkan jumlah upvote yang diperlukan, nama peringkat, dan warna heksa peringkat",
-                        "points": "",
+                        "help": "Masukkan jumlah Upvote yang diperlukan, nama peringkat, dan warna heksa peringkat",
+                        "points": "Poin",
                         "name": "Nama"
                     }
                 },
@@ -127,7 +127,7 @@
                 "postVoted": ""
             },
             "subject": {
-                "postVoted": ""
+                "postVoted": "Postingan Anda telah mendapatkan vote dari {display_name}"
             }
         }
     }
