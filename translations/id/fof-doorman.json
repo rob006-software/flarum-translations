@@ -35,22 +35,22 @@
                     "title": "Kode Undangan",
                     "help": {
                         "key": "Key: Kode yang akan diketikkan oleh user saat mereka melakukan pendaftaran.",
-                        "group": "Grup: Grup tempat user akan ditambahkan saat mereka melakukan pendaftaran.",
+                        "group": "Group: Grup tempat user akan ditambahkan saat mereka melakukan pendaftaran.",
                         "max": "Max Uses: Jumlah maksimum kode yang dapat digunakan, diatur ke 0 untuk penggunaan tak terbatas",
                         "activates": "Activates User: Secara otomatis mengaktifkan user ketika mereka melakukan pendaftaran."
                     },
                     "warning": "Kode undangan ini telah digunakan berkali-kali.",
-                    "key": "",
-                    "max_uses": "",
+                    "key": "Key",
+                    "max_uses": "Max Uses",
                     "heading": {
-                        "key": "",
-                        "group": "",
-                        "activate": "Mengaktifkan User",
-                        "max_uses": ""
+                        "key": "Key",
+                        "group": "Group",
+                        "activate": "Activates User",
+                        "max_uses": "Max Uses"
                     },
                     "allow-public": {
                         "title": "Izinkan Pendaftaran Untuk Umum",
-                        "switch-label": "Jadikan kode undangan opsional saat pendaftaran"
+                        "switch-label": "Jadikan kode undangan bersifat opsional saat pendaftaran"
                     }
                 }
             }
