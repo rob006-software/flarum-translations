@@ -53,7 +53,7 @@
             "permissions": {
                 "vote_label": "",
                 "see_votes_label": "",
-                "see_voters_label": "",
+                "see_voters_label": "Melihat siapa yang memberikan vote",
                 "see_ranking_page": "",
                 "upvote_notifications": "Menerima notifikasi tentang upvote",
                 "downvote_notifications": "Menerima notifikasi tentang downvote"
@@ -78,11 +78,11 @@
                     "points_title": "",
                     "points_placeholder": "",
                     "color_holder": "",
-                    "auto_upvote": "Berikan upvote otomatis pada post saat diposting",
-                    "rate_limit": "",
+                    "auto_upvote": "Berikan upvote secara otomatis pada postingan saat diposting",
+                    "rate_limit": "Terapkan batas kecepatan dalam memberikan vote (10 detik)",
                     "discussion_page": "",
-                    "alternate_layout": "",
-                    "alternate_post_layout": "",
+                    "alternate_layout": "Gunakan tata letak voting alternatif pada daftar diskusi",
+                    "alternate_post_layout": "Gunakan tata letak voting alternatif pada postingan",
                     "title": "",
                     "vote_color": "",
                     "icon_name": "",
@@ -111,9 +111,9 @@
                 },
                 "groups": {
                     "title": "",
-                    "help": "",
+                    "help": "Grup yang dipilih akan secara otomatis ditambahkan atau dihapus sesuai kebutuhan ketika jumlah poin yang dimiliki oleh pengguna berubah. Jika Anda membuat perubahan pada konfigurasi, Anda harus menjalankan perintah <code>php flarum fof:gamification:assign-groups</code> untuk memperbarui pengguna yang ada. Jika Anda ingin menghapus aturan dan menghapus semua pengguna dari grup, atur nilai minimum dan maksimum ke empty string (string kosong), simpan pengaturan dan jalankan perintah baris perintah. Terakhir, Anda dapat menghapus aturan sepenuhnya dari pengaturan.\n",
                     "column": {
-                        "group": "",
+                        "group": "Grup",
                         "minPoints": "",
                         "maxPoints": ""
                     },
