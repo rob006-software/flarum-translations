@@ -5,10 +5,10 @@
             "default": "",
             "apply": "Terapkan",
             "reset": "",
-            "borderColor": "",
-            "backgroundColor": "",
-            "textColor": "",
-            "borderWidth": "",
+            "borderColor": "Warna border",
+            "backgroundColor": "Warna background",
+            "textColor": "Warna teks",
+            "borderWidth": "Lebar border",
             "borderRadius": ""
         },
         "admin": {
@@ -17,18 +17,18 @@
                 "editAnyPost": ""
             },
             "settings": {
-                "enableBorderColor": "",
-                "enableBackgroundColor": "",
-                "enableTextColor": "",
-                "enableBorderWidth": "",
-                "enableBorderRadius": "",
+                "enableBorderColor": "Warna border",
+                "enableBackgroundColor": "Warna background",
+                "enableTextColor": "Warna teks",
+                "enableBorderWidth": "Lebar border",
+                "enableBorderRadius": "Border radius",
                 "min": "",
                 "max": "",
                 "colors": {
-                    "simple": "",
-                    "all": "",
-                    "custom": "",
-                    "custom-help": ""
+                    "simple": "Warna sederhana",
+                    "all": "Semua warna",
+                    "custom": "Warna khusus",
+                    "custom-help": "Daftar nilai #hex atau rgb() yang dipisahkan dengan koma"
                 }
             }
         }
