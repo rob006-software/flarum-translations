@@ -6,13 +6,13 @@
                 "description": "Siapkan layanan dan preferensi upload."
             },
             "help_texts": {
-                "disable-download-logging": "Nonaktifkan pencatatan setiap download yang dilakukan oleh user forum Anda. Dengan tetap mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya.\n",
+                "disable-download-logging": "Nonaktifkan pencatatan setiap download yang dilakukan oleh pengguna forum Anda. Dengan mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya.\n",
                 "disable-hotlink-protection": "Hotlink protection berfungsi untuk mencegah download yang dilakukan dari situs lain. Metode saat ini memerlukan token csrf dan post id.\n",
-                "download_templates": "Download template adalah bagaimana upload ditampilkan di forum Anda, misalnya seperti preview, button. Saat ini tersedia:\n",
-                "mime_types": "Harap konfigurasikan mapping Anda di sini. Setiap mime type regular expression akan ditangani oleh adaptor upload dan template download tertentu.\n",
-                "resize": "Pilih apakah Anda ingin mengubah ukuran gambar sebelum diupload. Anda dapat memilih lebar dan tinggi maksimum, dalam piksel. Proses perubahan ukuran akan mempertahankan rasio aspek gambar.\n",
-                "client_extension": "Secara default, Upload akan memilih ekstensi file yang aman berdasarkan jenis MIME.\nUntuk beberapa jenis file yang berbasis ZIP atau data biner, ini dapat membaut ekstensi generik digunakan alih-alih yang diharapkan.\nDi sini Anda dapat memasukkan daftar ekstensi file yang dipisahkan dengan koma yang akan disimpan kata demi kata.\n",
-                "watermark": "Pilih apakah gambar akan memiliki watermark yang ditambahkan selama proses upload. Watermark ditambahkan ke gambar non-gif berdasarkan preferensi Anda di bawah ini.\n",
+                "download_templates": "Template download adalah bagaimana upload ditampilkan di forum Anda, misalnya pratinjau, tombol. Saat ini tersedia:\n",
+                "mime_types": "Silakan konfigurasikan mapping Anda di sini. Setiap regular expression bertipe mime akan ditangani oleh adaptor upload dan template download tertentu.\n",
+                "resize": "Pilih apakah Anda ingin mengubah ukuran gambar sebelum di-upload. Anda dapat memilih lebar dan tinggi maksimum, dalam piksel. Proses pengubahan ukuran akan mempertahankan aspect ratio gambar.\n",
+                "client_extension": "Secara default, Upload akan memilih ekstensi file yang aman berdasarkan MIME type.\nUntuk beberapa jenis file yang berbasis ZIP atau data biner, hal ini dapat mengakibatkan ekstensi umum digunakan, alih-alih ekstensi yang diharapkan.\nDi sini Anda dapat memasukkan daftar ekstensi file yang dipisahkan dengan tanda koma yang akan disimpan secara kata demi kata.\n",
+                "watermark": "Tentukan apakah gambar akan ditambahkan watermark saat di-upload. Watermark ditambahkan ke non-gif berdasarkan preferensi Anda di bawah ini.\n",
                 "s3_compatible_storage": "Pengaturan berikut hanya diperlukan saat menggunakan penyimpanan yang kompatibel dengan S3. Jika Anda menggunakan AWS, Anda dapat membiarkannya tetap kosong.\n",
                 "s3_acl": "ACL yang harus diterapkan ke objek yang diupload (default: private). Untuk value-nya, lihat https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
                 "s3_instance_profile": "Biarkan key dan secret kosong untuk menggunakan kredensial di profil instan.\n",
@@ -24,19 +24,19 @@
                     "key": "Key",
                     "region": "Region",
                     "secret": "Secret",
-                    "title": "AWS S3 storage settings",
-                    "advanced_title": "Advanced S3 storage settings",
+                    "title": "Pengaturan AWS S3 storage",
+                    "advanced_title": "Pengaturan Advanced S3 storage",
                     "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Use path style endpoint",
                     "acl": "Access Control List (ACL)"
                 },
                 "disable-download-logging": {
-                    "title": "Disable logging downloads",
-                    "toggle": "Disable"
+                    "title": "Nonaktifkan pencatatan download",
+                    "toggle": "Nonaktifkan"
                 },
                 "disable-hotlink-protection": {
-                    "title": "Disable hotlink protection",
-                    "toggle": "Disable"
+                    "title": "Nonaktifkan hotlink protection",
+                    "toggle": "Nonaktifkan"
                 },
                 "imgur": {
                     "client_id": "Imgur client ID",
@@ -45,17 +45,17 @@
                 },
                 "local": {
                     "cdn_url": "Content Delivery URL (prefixes files)",
-                    "title": "Local storage settings"
+                    "title": "Pengaturan local storage"
                 },
                 "qiniu": {
-                    "title": "Qiniu storage settings",
+                    "title": "Pengaturan Qiniu storage",
                     "key": "Key",
                     "secret": "Secret",
                     "bucket": "Bucket"
                 },
                 "preferences": {
                     "max_file_size": "Maximum file size (in kilobytes)",
-                    "mime_types": "Configure your mime type, upload adapter mapping",
+                    "mime_types": "Konfigurasikan mime type Anda, upload adapter mapping",
                     "title": "Preferensi umum",
                     "php_ini_values": "Your <code>php.ini</code> values are <code>post_max_size={post}</code> and <code>upload_max_filesize={upload}</code>. Ensure the value set here is below these thresholds, or adjust them accordingly. If using <code>Nginx</code>, also ensure that <code>client_max_body_size</code> is of sufficient size for your chosen max limit."
                 },
@@ -65,13 +65,13 @@
                     "toggle": "Ubah ukuran gambar"
                 },
                 "client_extension": {
-                    "title": "User-provided file extensions"
+                    "title": "Ekstensi file yang disediakan oleh pengguna"
                 },
                 "watermark": {
-                    "file": "Upload your watermark image",
-                    "position": "Watermark position",
-                    "title": "Watermark images",
-                    "toggle": "Watermark images"
+                    "file": "Upload gambar watermark Anda",
+                    "position": "Posisi watermark",
+                    "title": "Gambar watermark",
+                    "toggle": "Gambar watermark"
                 },
                 "composer_buttons": {
                     "title": "Composer buttons",
@@ -84,10 +84,10 @@
                 "inspect-mime": "Test file MIME type"
             },
             "permissions": {
-                "download_label": "Download files",
-                "upload_label": "Upload files",
-                "view_user_uploads_label": "View user uploads",
-                "delete_uploads_of_others_label": "Delete user uploads"
+                "download_label": "Men-download file",
+                "upload_label": "Meng-upload file",
+                "view_user_uploads_label": "Melihat data upload pengguna",
+                "delete_uploads_of_others_label": "Menghapus data upload pengguna"
             },
             "templates": {
                 "file": "Default file download template",
