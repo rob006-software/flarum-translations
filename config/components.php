@@ -530,7 +530,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/default-user-preferences/1.2.0/locale/en.yml',
 	],
 	'fof-discussion-language' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-language/1.2.9/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-language/1.2.10/resources/locale/en.yml',
 	],
 	'fof-discussion-thumbnail' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-thumbnail/1.1.1/resources/locale/en.yml',
