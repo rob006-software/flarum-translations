@@ -44,7 +44,7 @@
                 "tag_invalid": "Webhook ini dibatasi untuk tag yang tidak valid. Pembatasan tidak akan berlaku. Pastikan hal ini dimaksudkan."
             },
             "nav": {
-                "desc": ""
+                "desc": "Outgoing webhook yang dapat disesuaikan untuk forum Anda."
             },
             "settings": {
                 "debug_label": "",
@@ -62,7 +62,7 @@
                     "description": "",
                     "use_plain_text_label": "Kurangi jumlah pemformatan dalam konten post",
                     "max_post_content_length_label": "",
-                    "max_post_content_length_help": "",
+                    "max_post_content_length_help": "Tetapkan angka untuk membatasi konten postingan di semua event yang berkaitan dengan postingan. Ubah ke 0 atau kosongkan untuk menghilangkan limit.",
                     "extra_text_label": "",
                     "extra_text_help": "",
                     "group_label": "Grup",
