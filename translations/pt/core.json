@@ -676,8 +676,8 @@
             "invalid_username_message": "O nome de usuário pode conter apenas letras, números e traços.",
             "invalid_filter_type": {
                 "must_be_numeric_message": "O filtro {filter} deve ser numérico.",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_not_be_array_message": "O filtro {filter} não pode ser um array.",
+                "must_not_be_multidimensional_array_message": "O filtro {filter} não pode ser um array multidimensional."
             }
         },
         "email": {
@@ -717,7 +717,7 @@
             "edit_user": "Editar usuário",
             "email": "E-mail",
             "extensions": "Extensões",
-            "generic_confirmation_message": "",
+            "generic_confirmation_message": "Tem a certeza que pretende continuar? Esta acção não pode ser desfeita.",
             "icon": "Ícone",
             "icon_text": "Digite o nome de qualquer classe de ícone <a>FontAwesome</a> , <em>incluindo</em> o prefixo <code>fas fa-</code> .",
             "load_more": "Carregue mais",
@@ -725,8 +725,8 @@
             "log_in": "Entrar",
             "log_out": "Sair",
             "mark_all_as_read": "Marcar tudo como lido",
-            "never": "",
-            "new_token": "",
+            "never": "Nunca",
+            "new_token": "Novo Token",
             "next_page": "Próxima página",
             "notifications": "Notificações",
             "okay": "OK",
@@ -739,8 +739,8 @@
             "reset_your_password": "Redefinir sua senha",
             "restore": "Restaurar",
             "save_changes": "Salvar Alterações",
-            "search_users": "",
-            "security": "",
+            "search_users": "Procurar utilizadores",
+            "security": "Segurança",
             "settings": "Configurações",
             "sign_up": "Inscrever-se",
             "some_others": "{count, plural, one {# outro} other {# outros}}",
