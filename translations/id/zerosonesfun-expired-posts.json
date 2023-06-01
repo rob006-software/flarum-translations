@@ -4,20 +4,20 @@
             "composer": {
                 "warning": {
                     "title": "",
-                    "description": "",
-                    "error": ""
+                    "description": "Postingan ini telah expired.",
+                    "error": "Diskusi ini telah expired."
                 }
             }
         },
         "admin": {
             "settings": {
-                "days_label": "",
-                "days_help": "",
-                "message_title_label": "",
-                "message_title_help": "",
+                "days_label": "Hari",
+                "days_help": "Sebuah diskusi akan ditandai sebagai expired ketika jumlah hari yang ditentukan telah berlalu sejak postingan terakhir pada diskusi tersebut diposting. Gunakan <code>0</code> untuk menonaktifkannya secara default.",
+                "message_title_label": "Judul Pesan Khusus",
+                "message_title_help": "Gunakan <code>[time]</code> untuk teks waktu, misalnya \"14 hari\".",
                 "message_description_label": "Deskripsi Pesan Khusus",
-                "tags_title": "",
-                "tags_help": ""
+                "tags_title": "Tag",
+                "tags_help": "Ganti hari global untuk tag tertentu. Jika Anda mengosongkan, berarti menggunakan nilai default. Jika sebuah diskusi memiliki beberapa tag dengan nilai hari yang berbeda, diskusi tersebut akan menggunakan jumlah hari terkecil yang dikonfigurasi."
             }
         }
     }
