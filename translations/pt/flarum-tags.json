@@ -5,18 +5,18 @@
                 "tags_label": "=> flarum-tags.ref.tags"
             },
             "edit_tag": {
-                "color_label": "Cor",
-                "delete_tag_button": "Deletar Tag",
-                "delete_tag_confirmation": "Tem certeza que deseja deletar esta tag? As discussões da tag NÃO serão deletadas.",
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Apagar Tag",
+                "delete_tag_confirmation": "Tem certeza que deseja apagar esta tag? As discussões da tag NÃO serão apagadas.",
                 "description_label": "Descrição",
                 "hide_label": "Esconder de Todas as Discussões",
                 "icon_label": "Ícone",
-                "icon_text": "Ícone da Tag personalizado",
+                "icon_text": "=> core.ref.icon_text",
                 "name_label": "=> flarum-tags.ref.name",
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Slug",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "=> flarum-tags.ref.create_tag"
+                "title": "Criar Tag"
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -24,12 +24,12 @@
             },
             "permissions": {
                 "allow_edit_tags_label": "Permitir edição de Tag",
-                "bypass_tag_counts_label": "",
+                "bypass_tag_counts_label": "Ultrapassar os requisitos de Tags",
                 "restrict_by_tag_heading": "Restringir por Tag",
                 "tag_discussions_label": "Escolher Tag para discussões"
             },
             "settings": {
-                "button_text": ""
+                "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
                 "range_separator_text": " a ",
@@ -41,11 +41,11 @@
             },
             "tags": {
                 "about_tags_text": "Tags são utilizadas para categorizar discussões. Tags primárias são como categorias tradicionais de fórum: elas podem ser organizadas numa hierarquia de dois níveis. Tags secundárias não possuem hierarquia ou ordem, e são úteis para micro-categorização.",
-                "create_primary_tag_button": "",
-                "create_secondary_tag_button": "",
+                "create_primary_tag_button": "Criar Tag Primária",
+                "create_secondary_tag_button": "Cria Tag secundária",
                 "primary_heading": "Tags Primárias",
                 "secondary_heading": "Tags Secundárias",
-                "settings_heading": ""
+                "settings_heading": "Definições"
             }
         },
         "forum": {
@@ -61,7 +61,7 @@
                 "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
-                "choose_tags_link": "Escolha as Tags"
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
                 "edit_tags_button": "Editar Tags"
@@ -75,29 +75,29 @@
                 "untagged_link": "Sem tags"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} adicionou {tagsAdded} e removeu {tagsRemoved}.",
-                "added_tags_text": "{username} adicionou {tagsAdded}.",
-                "removed_tags_text": "{username} removeu {tagsRemoved}.",
-                "tags_text": "a tag {tags}|as tags {tags}"
+                "added_and_removed_tags_text": "{username} adicionou {tagsAdded} e removeu {tagsRemoved} {time}.",
+                "added_tags_text": "{username} adicionou {tagsAdded} {time}.",
+                "removed_tags_text": "{username} removeu {tagsRemoved} {time}.",
+                "tags_text": "{count, plural, one {{tags} tag} other {{tags} tags}}"
             },
             "tag": {
                 "meta_description_text": "Todas as discussões com a tag {tag}"
             }
         },
         "lib": {
-            "deleted_tag_text": "Deletada",
+            "deleted_tag_text": "Apagada",
             "tag_selection_modal": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "bypass_requirements": "Ultrapassar Tag necessária",
+                "choose_primary_placeholder": "{count, plural, one {Escolhe a Tag primária} other {Escolhe # Tags primarias}}",
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
             }
         },
         "ref": {
-            "choose_tags": "",
-            "choose_tags_placeholder": "",
+            "choose_tags": "Escolha as Tags",
+            "choose_tags_placeholder": "{count, plural, one {Escolhe mais 1 tag} other {Escolhe mais # tags}}",
             "name": "Nome",
             "tags": "Tags"
         }
