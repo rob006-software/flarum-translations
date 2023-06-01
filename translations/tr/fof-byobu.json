@@ -84,6 +84,7 @@
         "admin": {
             "permission": {
                 "create_private_discussions_with_users": "Kullanıcılar ile özel tartışma oluştur",
+                "add_more_than_two_user_recipients": "",
                 "create_private_discussions_with_groups": "Gruplar ile özel tartışma oluştur",
                 "create_private_discussions_with_blocking_users": "Özel tartışmaları engelleyen kullanıcılarla özel tartışma oluştur",
                 "edit_user_recipients": "Özel tartışmalarda yer alan kullanıcıları düzenle",
@@ -97,7 +98,9 @@
                 "enable-make-public-option-help": "Tüm alıcıları kaldırma, yeni bir etiket atama ve tartışmayı herkese açık hale getirme (seçilen etiketin görünürlük ayarlarına göre) izni olanlara yetenek ekler.",
                 "post-event-icon": "Byobu Gönderi Etkinlikleri",
                 "delete_on_last_recipient_left": "Son kullanıcı ayrıldığında PD'leri silin",
-                "delete_on_last_recipient_left_help": "Etkinleştirilirse, son kullanıcı ayrıldığında PD'ler veritabanından kalıcı olarak silinir. Aksi takdirde, PD geçici olarak silinir/gizlenir."
+                "delete_on_last_recipient_left_help": "Etkinleştirilirse, son kullanıcı ayrıldığında PD'ler veritabanından kalıcı olarak silinir. Aksi takdirde, PD geçici olarak silinir/gizlenir.",
+                "hide_from_all_discussions_page": "",
+                "hide_from_all_discussions_page_help": ""
             }
         },
         "email": {

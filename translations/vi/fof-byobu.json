@@ -84,6 +84,7 @@
         "admin": {
             "permission": {
                 "create_private_discussions_with_users": "Tạo cuộc thảo luận riêng tư với người dùng",
+                "add_more_than_two_user_recipients": "",
                 "create_private_discussions_with_groups": "Tạo cuộc thảo luận riêng tư với nhóm",
                 "create_private_discussions_with_blocking_users": "Tạo cuộc thảo luận riêng tư với những người đã chặn",
                 "edit_user_recipients": "Thay đổi người dùng tham gia vào cuộc thảo luận riêng tư",
@@ -97,7 +98,9 @@
                 "enable-make-public-option-help": "Thêm tuỳ chọn cho những người có quyền xóa tất cả người nhận, chỉ định thẻ mới và hiển thị cuộc thảo luận ở chế độ công khai (cộng với cài đặt hiển thị của thẻ đã chọn).",
                 "post-event-icon": "Sự kiện đăng bài của Byobu",
                 "delete_on_last_recipient_left": "Xóa PD khi người dùng cuối cùng rời đi",
-                "delete_on_last_recipient_left_help": "Nếu được bật, các PD sẽ bị xóa vĩnh viễn khỏi cơ sở dữ liệu khi người dùng cuối cùng rời đi. Nếu không, PD sẽ bị xoá tạm/ẩn."
+                "delete_on_last_recipient_left_help": "Nếu được bật, các PD sẽ bị xóa vĩnh viễn khỏi cơ sở dữ liệu khi người dùng cuối cùng rời đi. Nếu không, PD sẽ bị xoá tạm/ẩn.",
+                "hide_from_all_discussions_page": "",
+                "hide_from_all_discussions_page_help": ""
             }
         },
         "email": {

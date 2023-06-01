@@ -83,6 +83,7 @@
         "admin": {
             "permission": {
                 "create_private_discussions_with_users": "Új privát témák kezdeményezése felhasználókkal",
+                "add_more_than_two_user_recipients": "",
                 "create_private_discussions_with_groups": "Új privát témák kezdeményezése csoportokkal",
                 "create_private_discussions_with_blocking_users": "Privát téma kezdeményezése olyan felhasználókkal, akik blokkolják",
                 "edit_user_recipients": "A privát témákban résztvevő felhasználók szerkesztése",
@@ -96,7 +97,9 @@
                 "enable-make-public-option-help": "Lehetőséget ad az összes résztvevő eltávolítására, új címke hozzárendelésére, és arra, hogy nyilvánosan láthatóvá váljon a téma (a kiválasztott címke beállításai alapján).",
                 "post-event-icon": "Byobu bejegyzésesemények",
                 "delete_on_last_recipient_left": "Privát témák törlése, ha az utolsó felhasználó kilép",
-                "delete_on_last_recipient_left_help": "Ha be van kapcsolva, akkor a privát témák véglegesen törlődnek az adatbázisból, ha az utolsó felhasználó kilép. Különben a privát téma el lesz rejtve."
+                "delete_on_last_recipient_left_help": "Ha be van kapcsolva, akkor a privát témák véglegesen törlődnek az adatbázisból, ha az utolsó felhasználó kilép. Különben a privát téma el lesz rejtve.",
+                "hide_from_all_discussions_page": "",
+                "hide_from_all_discussions_page_help": ""
             }
         },
         "email": {

@@ -83,6 +83,7 @@
         "admin": {
             "permission": {
                 "create_private_discussions_with_users": "Tworzenie prywatnych dyskusji z użytkownikami",
+                "add_more_than_two_user_recipients": "",
                 "create_private_discussions_with_groups": "Tworzenie prywatnych dyskusji z grupami",
                 "create_private_discussions_with_blocking_users": "Tworzenie prywatnych dyskusji z użytkownikami, którzy je blokują",
                 "edit_user_recipients": "Edytowanie użytkowników biorących udział w prywatnych dyskusjach",
@@ -96,7 +97,9 @@
                 "enable-make-public-option-help": "Dodaje możliwość, aby osoby z uprawnieniami mogły usunąć wszystkich uczestników, przypisać nowy tag i uczynić dyskusję publicznie widoczną (zgodnie z ustawieniami widoczności wybranego tagu).",
                 "post-event-icon": "Ikona zdarzeń w dyskusjach Byobu",
                 "delete_on_last_recipient_left": "Usuń prywatną dyskusję po tym, jak ostatni uczestnik ją opuści",
-                "delete_on_last_recipient_left_help": "Jeśli włączone, prywatne dyskusje zostaną nieodwracalnie usunięte, gdy ostatni uczestnik opuści dyskusję. W innym wypadku prywatne dyskusje zostaną ukryte (soft deleted)."
+                "delete_on_last_recipient_left_help": "Jeśli włączone, prywatne dyskusje zostaną nieodwracalnie usunięte, gdy ostatni uczestnik opuści dyskusję. W innym wypadku prywatne dyskusje zostaną ukryte (soft deleted).",
+                "hide_from_all_discussions_page": "",
+                "hide_from_all_discussions_page_help": ""
             }
         },
         "email": {

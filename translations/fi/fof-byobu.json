@@ -83,6 +83,7 @@
         "admin": {
             "permission": {
                 "create_private_discussions_with_users": "Luo yksityinen keskustelu käyttäjien kesken",
+                "add_more_than_two_user_recipients": "",
                 "create_private_discussions_with_groups": "Luo yksityinen keskustelu ryhmän kesken",
                 "create_private_discussions_with_blocking_users": "Luo yksityinen keskustelu käyttäjien kanssa, jotka estävät sen",
                 "edit_user_recipients": "Muokkaa käyttäjiä, jotka osallistuu yksityiseen keskusteluihin",
@@ -96,7 +97,9 @@
                 "enable-make-public-option-help": "Ottaa käyttöön mahdollisuuden niille joilla on oikeus: poistaa kaikki vastaanottajat ja asettaa uuden avainsanan sekä asettaa keskustelun julkiseksi (riippuen avainsanan näkyvyysasetuksista).",
                 "post-event-icon": "Byobu viestitapahtumat",
                 "delete_on_last_recipient_left": "Poista yksityiset keskustelut, kun viimeinen käyttäjä lähtee",
-                "delete_on_last_recipient_left_help": "Jos käytössä, yksityiset keskustelut poistetaan pysyvästi tietokannasta, kun viimeinen käyttäjä lähtee. Muuten, keskustelut piilotetaan."
+                "delete_on_last_recipient_left_help": "Jos käytössä, yksityiset keskustelut poistetaan pysyvästi tietokannasta, kun viimeinen käyttäjä lähtee. Muuten, keskustelut piilotetaan.",
+                "hide_from_all_discussions_page": "",
+                "hide_from_all_discussions_page_help": ""
             }
         },
         "email": {

@@ -83,6 +83,7 @@
         "admin": {
             "permission": {
                 "create_private_discussions_with_users": "",
+                "add_more_than_two_user_recipients": "",
                 "create_private_discussions_with_groups": "",
                 "create_private_discussions_with_blocking_users": "",
                 "edit_user_recipients": "",
@@ -96,7 +97,9 @@
                 "enable-make-public-option-help": "Menambahkan kemampuan bagi mereka yang memiliki izin untuk menghapus semua penerima, menetapkan tag baru, dan membuat diskusi dapat dilihat oleh publik (sesuai dengan pengaturan visibilitas tag yang dipilih).",
                 "post-event-icon": "",
                 "delete_on_last_recipient_left": "Hapus PD ketika pengguna terakhir keluar",
-                "delete_on_last_recipient_left_help": "Jika diaktifkan, PD akan dihapus secara permanen dari database ketika pengguna terakhir keluar. Jika tidak, PD akan dihapus secara soft-deleted/disembunyikan."
+                "delete_on_last_recipient_left_help": "Jika diaktifkan, PD akan dihapus secara permanen dari database ketika pengguna terakhir keluar. Jika tidak, PD akan dihapus secara soft-deleted/disembunyikan.",
+                "hide_from_all_discussions_page": "",
+                "hide_from_all_discussions_page_help": ""
             }
         },
         "email": {

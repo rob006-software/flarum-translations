@@ -83,6 +83,7 @@
         "admin": {
             "permission": {
                 "create_private_discussions_with_users": "Создавать переписки с участниками",
+                "add_more_than_two_user_recipients": "",
                 "create_private_discussions_with_groups": "Создавать переписки с группами",
                 "create_private_discussions_with_blocking_users": "Создавать переписки с участниками, отключившие их",
                 "edit_user_recipients": "Изменять список участников в переписках",
@@ -96,7 +97,9 @@
                 "enable-make-public-option-help": "Добавляет выбранным пользователям разрешение удалять всех получателей, назначать новый тег и делать дискуссию видимой публично (в соответствии с настройкой видимости выбранного тега).",
                 "post-event-icon": "Иконка события",
                 "delete_on_last_recipient_left": "",
-                "delete_on_last_recipient_left_help": ""
+                "delete_on_last_recipient_left_help": "",
+                "hide_from_all_discussions_page": "",
+                "hide_from_all_discussions_page_help": ""
             }
         },
         "email": {

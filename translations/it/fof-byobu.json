@@ -84,6 +84,7 @@
         "admin": {
             "permission": {
                 "create_private_discussions_with_users": "Crea discussioni private con gli utenti",
+                "add_more_than_two_user_recipients": "",
                 "create_private_discussions_with_groups": "Crea discussioni private con i gruppi",
                 "create_private_discussions_with_blocking_users": "Crea discussioni private con gli utenti che le bloccano",
                 "edit_user_recipients": "Modifica gli utenti che partecipano a discussioni private",
@@ -97,7 +98,9 @@
                 "enable-make-public-option-help": "Aggiunge la possibilità per chi ha il permesso di rimuovere tutti i destinatari, assegnare un nuovo tag e rendere la discussione pubblicamente visibile (secondo le impostazioni di visibilità del tag scelto).",
                 "post-event-icon": "Eventi Post Byobu",
                 "delete_on_last_recipient_left": "",
-                "delete_on_last_recipient_left_help": ""
+                "delete_on_last_recipient_left_help": "",
+                "hide_from_all_discussions_page": "",
+                "hide_from_all_discussions_page_help": ""
             }
         },
         "email": {

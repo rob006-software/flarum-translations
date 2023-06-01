@@ -83,6 +83,7 @@
         "admin": {
             "permission": {
                 "create_private_discussions_with_users": "Crie discussões privadas com usuários",
+                "add_more_than_two_user_recipients": "",
                 "create_private_discussions_with_groups": "Crie discussões privadas com grupos",
                 "create_private_discussions_with_blocking_users": "Crie discussões privadas com usuários que bloqueiam",
                 "edit_user_recipients": "Editar usuários participando de discussões privadas",
@@ -96,7 +97,9 @@
                 "enable-make-public-option-help": "Adiciona a capacidade para aqueles com permissão para remover todos os destinatários, atribuir uma nova tag e tornar a discussão publicamente visível (de acordo com as configurações de visibilidade da tag escolhida).",
                 "post-event-icon": "Eventos pós Byobu",
                 "delete_on_last_recipient_left": "Apagar Discussões Privadas quando o último membro sair",
-                "delete_on_last_recipient_left_help": "Se ativado, as Discussões Privadas serão excluídas permanentemente do banco de dados quando o último usuário sair. Caso contrário, a Discussão Privada será soft-excluída/ocultada."
+                "delete_on_last_recipient_left_help": "Se ativado, as Discussões Privadas serão excluídas permanentemente do banco de dados quando o último usuário sair. Caso contrário, a Discussão Privada será soft-excluída/ocultada.",
+                "hide_from_all_discussions_page": "",
+                "hide_from_all_discussions_page_help": ""
             }
         },
         "email": {

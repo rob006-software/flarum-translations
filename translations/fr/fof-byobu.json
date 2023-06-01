@@ -83,6 +83,7 @@
         "admin": {
             "permission": {
                 "create_private_discussions_with_users": "Créer des discussions privées avec des utilisateurs",
+                "add_more_than_two_user_recipients": "",
                 "create_private_discussions_with_groups": "Créer des discussions privées avec des groupes",
                 "create_private_discussions_with_blocking_users": "Créer des discussions privées avec des utilisateurs qui ont bloqué cette fonctionnalité",
                 "edit_user_recipients": "Modifier les utilisateurs participant à des discussions privées",
@@ -96,7 +97,9 @@
                 "enable-make-public-option-help": "Ajoute la possibilité pour les personnes autorisées de supprimer tous les destinataires, d'attribuer une nouvelle étiquette et de rendre la discussion visible publiquement (selon les paramètres de visibilité de l'étiquette choisie).",
                 "post-event-icon": "Événements de publication Byobu",
                 "delete_on_last_recipient_left": "Suppression des discussions privées lors du départ du dernier utilisateur",
-                "delete_on_last_recipient_left_help": "Si cette option est activée, les discussions privées seront définitivement supprimées de la base de données lorsque le dernier utilisateur partira de la conversation. Sinon, les discussions privées seront supprimées en douceur et cachées."
+                "delete_on_last_recipient_left_help": "Si cette option est activée, les discussions privées seront définitivement supprimées de la base de données lorsque le dernier utilisateur partira de la conversation. Sinon, les discussions privées seront supprimées en douceur et cachées.",
+                "hide_from_all_discussions_page": "",
+                "hide_from_all_discussions_page_help": ""
             }
         },
         "email": {

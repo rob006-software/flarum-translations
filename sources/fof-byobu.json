@@ -83,6 +83,7 @@
         "admin": {
             "permission": {
                 "create_private_discussions_with_users": "Create private discussions with users",
+                "add_more_than_two_user_recipients": "Add more than 2 user recipients to private discussion",
                 "create_private_discussions_with_groups": "Create private discussions with groups",
                 "create_private_discussions_with_blocking_users": "Create private discussions with users that block it",
                 "edit_user_recipients": "Edit users partaking in private discussions",
@@ -96,7 +97,9 @@
                 "enable-make-public-option-help": "Adds the ability for those with permission to remove all recipients, assign a new tag and make the discussion publically visible (accoring to the visibility settings of the chosen tag).",
                 "post-event-icon": "Byobu Post Events",
                 "delete_on_last_recipient_left": "Delete PDs when the last user leaves",
-                "delete_on_last_recipient_left_help": "If enabled, PDs will be permanently deleted from the database when the last user leaves. Otherwise, the PD will be soft-deleted/hidden."
+                "delete_on_last_recipient_left_help": "If enabled, PDs will be permanently deleted from the database when the last user leaves. Otherwise, the PD will be soft-deleted/hidden.",
+                "hide_from_all_discussions_page": "Hide PDs from \"All Discussions\" page",
+                "hide_from_all_discussions_page_help": "Private discussions will only be accessible from the \"Private Discussions\" page or the user profile"
             }
         },
         "email": {
