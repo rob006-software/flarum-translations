@@ -2,55 +2,55 @@
     "fof-doorman": {
         "forum": {
             "email": {
-                "subject": "",
-                "body": ""
+                "subject": "Convidar a juntar-se",
+                "body": "Olá,\n\nFoste convidado a registar-te no {forum}.\n\nQuando estiveres pronto para criar a tua conta, simplesmente clica no endereço e insere o código do convite quanto te registares:\n\nEndereço: {url}\nCódigo do convite: {code}\n\nSe consideras que recebeste este email por erro, por favor ignora este email.\n"
             },
             "sign_up": {
-                "invalid_doorkey": "",
-                "doorkey_required": "",
-                "doorman_placeholder": "",
-                "doorman_placeholder_optional": ""
+                "invalid_doorkey": "O código do convite que inseriste é invalido.",
+                "doorkey_required": "Por favor insira um código de convite.",
+                "doorman_placeholder": "Código de convite",
+                "doorman_placeholder_optional": "Código de convite (Opcional)"
             }
         },
         "admin": {
             "modal": {
-                "title": "",
-                "group": "",
-                "help": "",
-                "placeholder": "",
-                "invalid_emails": "",
-                "max_use_conflict": "",
-                "send": "",
-                "success": ""
+                "title": "Enviar Códigos de convite",
+                "group": "Enviar códigos de convite para o grupo {group}",
+                "help": "Aceita virgula, espaço, ou lista separada por virgulas. Digite um e-mail individual ou cole uma lista depois pressione espaço para adicioná-los.",
+                "placeholder": "Introduza os endereços de correio electrónico aqui",
+                "invalid_emails": "O(s) seguinte(s) endereço(s) de correio electrónico é (são) inválidos: {emails}",
+                "max_use_conflict": "O número de endereços de correio electrónico excede o número de utilizações para este código.",
+                "send": "Enviar Correio Eletrónico",
+                "success": "Correio eletrónico enviado com sucesso"
             },
-            "invalid_doorkey": "",
-            "doorkey_required": "",
+            "invalid_doorkey": "O código do convite inserido é inválido.",
+            "doorkey_required": "Deve inserir um código de convite",
             "nav": {
-                "desc": ""
+                "desc": "Crie códigos de convite para utilizadores se registarem e serem colocados num grupo"
             },
             "page": {
-                "title": "",
+                "title": "Porteiro",
                 "doorkey": {
-                    "used_times": "",
-                    "title": "",
+                    "used_times": "{remaining, plural, one {{remaining} utilização em falta} other {{remaining} utilizações em falta}}",
+                    "title": "Códigos de Convite",
                     "help": {
-                        "key": "",
-                        "group": "",
-                        "max": "",
-                        "activates": ""
+                        "key": "Chave: Código que o utilizador irá utilizar quando se registar.",
+                        "group": "Grupo: O grupo a que utilizador será adicionado quando se registar.",
+                        "max": "Utilizações máximas: O número máximo de vezes que o código pode ser utilizado, coloca 0 para uso ilimitado",
+                        "activates": "Activa o utilizador: Ativa a conta de utilizador de forma automática quando se regista."
                     },
-                    "warning": "",
-                    "key": "",
-                    "max_uses": "",
+                    "warning": "Esse convite já foi utilizado o número máximo de vezes.",
+                    "key": "Chave",
+                    "max_uses": "Utilizações máximas",
                     "heading": {
-                        "key": "",
-                        "group": "",
-                        "activate": "",
-                        "max_uses": ""
+                        "key": "Chave",
+                        "group": "Grupo",
+                        "activate": "Activa o utilizador",
+                        "max_uses": "Utilizações máximas"
                     },
                     "allow-public": {
-                        "title": "",
-                        "switch-label": ""
+                        "title": "Permitir registo público",
+                        "switch-label": "Torne o código de convite opcional quando o utilizador se regista"
                     }
                 }
             }
