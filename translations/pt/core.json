@@ -216,7 +216,7 @@
                 "read_heading": "Ler",
                 "rename_discussions_label": "Renomear discussões",
                 "reply_to_discussions_label": "Responder às discussões",
-                "search_users_label": "=> core.ref.procurar_utilizadores",
+                "search_users_label": "=> core.ref.search_users",
                 "sign_up_label": "Inscrever-se",
                 "start_discussions_label": "Iniciar discussões",
                 "title": "Permissões",
@@ -227,7 +227,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Indefinidamente",
-                "allow_never_button": "=> core.ref.nunca",
+                "allow_never_button": "=> core.ref.never",
                 "allow_some_minutes_button": "{count, plural, one {Por # minuto} other {Por # minutos}}",
                 "allow_ten_minutes_button": "Por 10 minutos",
                 "allow_until_reply_button": "Até a próxima resposta",
@@ -287,7 +287,7 @@
                     "next_button": "Próxima",
                     "page_counter": "Página {current} de {total}"
                 },
-                "search_placeholder": "=> core.ref.procurar_utilizadores",
+                "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
                 "total_users": "Total de utilizadores: {count}"
             },
@@ -468,15 +468,15 @@
                 "global_logout": {
                     "heading": "Terminar sessão globalmente",
                     "help_text": "Limpa o cookie da sessão actual, termina todas as sessões, revoga os tokens de developer e invalida emails de confirmação ou de reset de password.",
-                    "log_out_button": "=> core.ref.sair"
+                    "log_out_button": "=> core.ref.log_out"
                 },
                 "hide_access_token": "Esconder o Token",
                 "last_activity": "Ultima actividade",
-                "never": "=> core.ref.nunca",
-                "new_access_token_button": "=> core.ref.novo_token",
+                "never": "=> core.ref.never",
+                "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
                     "submit_button": "Criar Token",
-                    "title": "=> core.ref.novo_token",
+                    "title": "=> core.ref.new_token",
                     "title_placeholder": "Titulo"
                 },
                 "revoke_access_token": "Revogar",
