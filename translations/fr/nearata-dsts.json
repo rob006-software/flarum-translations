@@ -5,15 +5,15 @@
                 "can_bypass_like": "Peut contourner d'aimer",
                 "can_bypass_reply": "Peut contourner de répondre",
                 "can_bypass_login": "Peut contourner la connexion",
-                "can_use_bbcode": ""
+                "can_use_bbcode": "Peut utiliser du BBCode"
             },
             "settings": {
-                "enabled": "",
+                "enabled": "Activé",
                 "hide_only_first_post": "Masquer uniquement le premier message",
                 "require_like": "Exiger d'aimer",
                 "require_reply": "Exiger de répondre",
                 "fof_upload": {
-                    "enabled": "",
+                    "enabled": "Activé",
                     "section_title": "Upload de FoF",
                     "require_reply": "Nécessite de répondre",
                     "require_like": "Nécessite d'aimer",
@@ -27,23 +27,23 @@
         },
         "forum": {
             "post": {
-                "login_tooltip": "",
-                "reply_tooltip": "",
-                "like_tooltip": "",
+                "login_tooltip": "Vous devez vous connecter pour voir le contenu",
+                "reply_tooltip": "Vous devez répondre à la discussion pour en voir le contenu",
+                "like_tooltip": "Vous devez aimer le message pour en voir le contenu",
                 "fof_upload": {
-                    "login_text": "",
-                    "reply_text": "",
-                    "like_text": ""
+                    "login_text": "Vous devez vous connecter pour voir le fichier",
+                    "reply_text": "Vous devez répondre à la discussion pour voir le fichier",
+                    "like_text": "Vous devez aimer le message pour voir le fichier"
                 },
                 "bbcode": {
-                    "hidden_content": "",
-                    "login_text": "",
-                    "reply_text": "",
-                    "like_text": ""
+                    "hidden_content": "Contenu masqué",
+                    "login_text": "Vous devez vous connecter pour voir ce contenu",
+                    "reply_text": "Vous devez répondre à la discussion pour voir ce contenu",
+                    "like_text": "Vous devez aimer le message pour voir ce contenu"
                 }
             },
             "composer": {
-                "dsts_tooltip": ""
+                "dsts_tooltip": "DSTS"
             },
             "like": "Vous devez aimer le message pour voir le contenu.",
             "login": "Vous devez vous connecter pour voir le contenu.",
