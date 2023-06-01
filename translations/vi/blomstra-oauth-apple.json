@@ -6,29 +6,29 @@
                     "apple": {
                         "description": "Đăng ký vào diễn đàn của bạn bằng Apple {link}",
                         "client_id_label": "Định danh ID dịch vụ",
-                        "key_file_id_label": "",
-                        "keyfile_upload_label": "",
-                        "keyfile_upload_help": "",
+                        "key_file_id_label": "Mã định danh tệp",
+                        "keyfile_upload_label": "Key tệp",
+                        "keyfile_upload_help": "Tạo <a>keyfile</a> và tải nó lên đây",
                         "keyfile_upload": {
-                            "upload_button": "",
-                            "remove_button": ""
+                            "upload_button": "Tải lên keyfile",
+                            "remove_button": "Xoá keyfile"
                         },
-                        "team_id_label": ""
+                        "team_id_label": "ID team"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_apple_button": ""
+                "with_apple_button": "Đăng nhập bằng {provider}"
             },
             "providers": {
-                "apple": ""
+                "apple": "=> fof-oauth.lib.providers.apple"
             }
         },
         "lib": {
             "providers": {
-                "apple": ""
+                "apple": "Apple"
             }
         }
     }
