@@ -2,32 +2,32 @@
     "fof-moderator-notes": {
         "admin": {
             "permissions": {
-                "createnotes": "",
-                "viewnotes": "",
-                "deletenotes": ""
+                "createnotes": "Criar notas de moderador",
+                "viewnotes": "Ver notas de moderador",
+                "deletenotes": "Apagar notas de moderador"
             }
         },
         "forum": {
-            "no_content_given": "",
+            "no_content_given": "Uma nota vazia não é permitida.",
             "moderatorNotes": {
-                "created_text": "",
-                "add_button": "",
-                "create-heading": "",
-                "dismiss_button": "",
-                "input_heading": "",
-                "noNotes": "",
-                "submit_button": "",
-                "delete": "",
-                "confirm": ""
+                "created_text": "{username} criou esta nota em {date}",
+                "add_button": "Nova nota",
+                "create-heading": "Criar uma nova nota de moderador",
+                "dismiss_button": "Feito",
+                "input_heading": "Colocar as notas para <strong>{username}</strong>, (é suportada markdown)",
+                "noNotes": "Parece que não ha notas aqui.",
+                "submit_button": "Gravar a nota",
+                "delete": "Apagar",
+                "confirm": "Tem a certeza que pretende apagar esta nota?"
             },
             "user": {
-                "notes": ""
+                "notes": "Notas de Moderador"
             }
         },
         "api": {
-            "auto_note": "",
-            "auto_note_actor": "",
-            "no_reason_provided": ""
+            "auto_note": "_Alterei para este utilizador:_ {reason}",
+            "auto_note_actor": "Alterar para _ @{username}: {reason}",
+            "no_reason_provided": "Nenhum razão indicada"
         }
     }
 }
