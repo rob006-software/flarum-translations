@@ -5,15 +5,15 @@
                 "can_bypass_like": "Можна обходити як",
                 "can_bypass_reply": "Можна обійти відповідь",
                 "can_bypass_login": "Можна обійти вхід в систему",
-                "can_use_bbcode": ""
+                "can_use_bbcode": "Можна використовувати BBCode"
             },
             "settings": {
-                "enabled": "",
+                "enabled": "Увімкнено",
                 "hide_only_first_post": "Приховати тільки перше повідомлення",
                 "require_like": "Необхідні вподобайки",
                 "require_reply": "Необхідна відповідь",
                 "fof_upload": {
-                    "enabled": "",
+                    "enabled": "Увімкнено",
                     "section_title": "FoF Upload",
                     "require_reply": "Необхідна відповідь",
                     "require_like": "Необхідні вподобайки",
@@ -27,23 +27,23 @@
         },
         "forum": {
             "post": {
-                "login_tooltip": "",
-                "reply_tooltip": "",
-                "like_tooltip": "",
+                "login_tooltip": "Ви повинні увійти, щоб побачити вміст",
+                "reply_tooltip": "Ви повинні відповісти на дискусію, щоб побачити її зміст",
+                "like_tooltip": "Ви повинні вподобати жопис, щоб побачити його зміст",
                 "fof_upload": {
-                    "login_text": "",
-                    "reply_text": "",
-                    "like_text": ""
+                    "login_text": "Ви повинні увійти, щоб побачити файл",
+                    "reply_text": "Ви повинні відповісти на дискусію, щоб побачити файл",
+                    "like_text": "Ви повинні вподобати допис, щоб побачити файл"
                 },
                 "bbcode": {
-                    "hidden_content": "",
-                    "login_text": "",
-                    "reply_text": "",
-                    "like_text": ""
+                    "hidden_content": "Прихований вміст",
+                    "login_text": "Ви повинні увійти, щоб побачити цей вміст",
+                    "reply_text": "Ви повинні відповісти на дискусію, щоб побачити цей вміст",
+                    "like_text": "Ви повинні вподобати допис, щоб побачити цей вміст"
                 }
             },
             "composer": {
-                "dsts_tooltip": ""
+                "dsts_tooltip": "DSTS"
             },
             "like": "Ви повинні вподобати пост, щоб побачити його зміст.",
             "login": "Ви повинні увійти, щоб переглянути вміст.",
