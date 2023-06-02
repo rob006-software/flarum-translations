@@ -5,7 +5,7 @@
             "generic-title": "Undangan grup",
             "user": {
                 "already-connected": "",
-                "not-connected": "",
+                "not-connected": "<a>Login</a> untuk menerima undangan.",
                 "not-authorized": "",
                 "already-member": ""
             },
@@ -18,21 +18,21 @@
         },
         "admin": {
             "permissions": {
-                "use": "Gunakan link undangan grup"
+                "use": "Menggunakan link undangan grup"
             },
             "settings": {
                 "head": {
                     "code": "Kode",
                     "group": "Grup",
-                    "usage": ""
+                    "usage": "Pemakaian"
                 },
                 "placeholder": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "Dibuat secara otomatis",
+                    "group": "Pilih...",
+                    "usage": "Kosongkan untuk unlimited"
                 },
                 "empty": "Tidak ada undangan yang dibuat sejauh ini.",
-                "unlimited": "",
+                "unlimited": "unlimited",
                 "create": "Buat",
                 "delete": "Hapus"
             }
