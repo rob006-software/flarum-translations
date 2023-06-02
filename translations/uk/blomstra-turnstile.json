@@ -2,9 +2,9 @@
     "blomstra-turnstile": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "site_key": "Site key",
-                "secret_key": "Secret key",
+                "help_text": "Згенеруйте ключі Turnstile у своєму обліковому записі Cloudflare <a>тут</a>.",
+                "site_key": "Ключ сайту",
+                "secret_key": "Секретний ключ",
                 "signup": "=> core.forum.sign_up.title",
                 "signin": "=> core.forum.log_in.title",
                 "forgot": "=> core.forum.forgot_password.title"
