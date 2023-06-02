@@ -12,69 +12,69 @@
                 "edit_recipients": "Редагувати одержувачів",
                 "send_pd": "Надіслати користувачу {username} повідомлення",
                 "cancel": "Скасувати",
-                "make_public": "",
-                "remove_from_discussion": ""
+                "make_public": "Зробити цю дискусію публічною",
+                "remove_from_discussion": "Залишити цю приватну дискусію"
             },
             "composer_private_discussion": {
-                "submit_button": "",
-                "title_placeholder": ""
+                "submit_button": "Опублікувати приватну дискусію",
+                "title_placeholder": "Назва приватної дискусії"
             },
             "confirm": {
-                "make_public": ""
+                "make_public": "Ви впевнені, що хочете видалити одержувачів і зробити цю дискусію видимою для всіх, хто може переглянути призначений тег?"
             },
             "labels": {
-                "recipients": ""
+                "recipients": "{count, plural, one {{count} одержувач} other {{count} одержувачі}}"
             },
             "nav": {
-                "start_button": "",
-                "nav_item": ""
+                "start_button": "Обговорити приватно",
+                "nav_item": "Приватні дискусії"
             },
             "input": {
-                "search_recipients": ""
+                "search_recipients": "Знайдіть одержувача за першими трьома символами..."
             },
             "search": {
                 "headings": {
-                    "groups": ""
+                    "groups": "Групи дозволів"
                 }
             },
             "modal": {
                 "titles": {
-                    "update_recipients": "",
-                    "add_recipients": ""
+                    "update_recipients": "Оновити одержувачів {title}",
+                    "add_recipients": "Додайте одержувачів до вашої дискусії"
                 },
                 "labels": {
                     "selected_users": "Обрати користувачів",
                     "search_field": "Пошук користувача"
                 },
                 "help": {
-                    "add_recipients": "",
-                    "update_recipients": "",
-                    "selected_users": "",
-                    "click_user_to_remove_tooltip": ""
+                    "add_recipients": "Цю дискусію бачитимуть лише ті користувачі, яких ви оберете тут. Потрібен принаймні 1 одержувач (окрім вас).",
+                    "update_recipients": "Цю дискусію бачитимуть лише ті користувачі, яких ви оберете тут.",
+                    "selected_users": "Натисніть на ім'я користувача, щоб видалити його.",
+                    "click_user_to_remove_tooltip": "Натисніть, щоб видалити"
                 }
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "",
-                    "added": "",
-                    "made_public": "",
-                    "removed": "",
-                    "removed_self": ""
+                    "added_and_removed": "Користувач {username} додав одержувачів {added} і видалив {removed}.",
+                    "added": "Користувачі {username} додано одержувачів {added}.",
+                    "made_public": "Користувач {username} видалив усіх одержувачів і зробив обговорення публічним",
+                    "removed": "Користувач {username} видалено одержувачів {removed}.",
+                    "removed_self": "Користувач {username} покинув приватну дискусію."
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": ""
+                    "block_pd": "Блокувати приватні дискусії"
                 },
-                "byobu_link": "",
-                "dropdown_label": ""
+                "byobu_link": "Приватні дискусії",
+                "dropdown_label": "Приватні дискусії"
             },
             "notifications": {
-                "pd_label": "",
-                "pd_reply_label": "",
-                "pd_reply_text": "",
-                "pd_text": "",
-                "pd_user_left_label": "",
+                "pd_label": "Хтось включає мене в нову приватну дискусію",
+                "pd_reply_label": "Хтось пише в приватній дискусії, на яку я отримую повідомлення",
+                "pd_reply_text": "Користувач {username}, опубліковане в приватній дискусії, в якій ви берете участь",
+                "pd_text": "Користувач {username} розпочав з вами нову приватну дискусію",
+                "pd_user_left_label": "Користувач-одержувач залишає приватну дискусію, в якій я беру участь",
                 "pd_user_left_text": "",
                 "pd_added_text": "",
                 "pd_added_label": ""
@@ -89,7 +89,7 @@
                 "edit_user_recipients": "",
                 "edit_group_recipients": "",
                 "make_private_into_public": "",
-                "view_private_discussions-when-flagged": ""
+                "view_private_discussions-when-flagged": "Перегляд приватних дискусій інших користувачів, якщо їх позначено"
             },
             "settings": {
                 "badge-icon": "",
