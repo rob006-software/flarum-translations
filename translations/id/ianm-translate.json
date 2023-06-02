@@ -2,26 +2,26 @@
     "ianm-translate": {
         "admin": {
             "permission": {
-                "refresh-translation": "",
-                "translate-to-locale": "",
-                "translate-to-all-locales": ""
+                "refresh-translation": "Memaksa penerjemahan ulang dari terjemahan yang di-cache",
+                "translate-to-locale": "Melihat terjemahan dalam bahasa lokal saat ini",
+                "translate-to-all-locales": "Melihat terjemahan di lokasi forum mana pun"
             },
             "settings": {
                 "deepl": {
                     "api_key": {
                         "help": "",
-                        "label": ""
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     },
                     "en_choice": {
-                        "help": "",
-                        "label": "",
+                        "help": "Saat menerjemahkan ke bahasa Inggris, pilih varian mana yang harus digunakan.",
+                        "label": "Varian bahasa Inggris",
                         "options": {
-                            "en-US": "",
-                            "en-GB": ""
+                            "en-US": "English (US) en-US",
+                            "en-GB": "English (UK) en-GB"
                         }
                     },
                     "formality": {
-                        "help": "",
+                        "help": "Jika tersedia, terjemahan dapat menggunakan tingkat formalitas yang berbeda. Pilih preferensi Anda di sini.",
                         "label": "",
                         "options": {
                             "default": "",
