@@ -2,98 +2,98 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "",
-                "votes_button": ""
+                "hot_button": "Tendendo",
+                "votes_button": "Votos a favor"
             }
         }
     },
     "fof-gamification": {
         "forum": {
-            "votes": "",
-            "vote_title": "",
+            "votes": "Votos",
+            "vote_title": "Mostar quem votou",
             "nav": {
-                "name": ""
+                "name": "Classificações"
             },
             "ranking": {
-                "rank": "",
-                "name": "",
-                "amount": ""
+                "rank": "Posição",
+                "name": "Utilizador",
+                "amount": "Pontos"
             },
             "notification": {
-                "upvote": "",
-                "downvote": "",
+                "upvote": "{username} votou a favor da sua publicação",
+                "downvote": "{username} votou contra a tua publicação",
                 "prefrences": {
-                    "vote": ""
+                    "vote": "Quando uma das minhas publicações for votada"
                 }
             },
             "user": {
                 "card": {
-                    "points": ""
+                    "points": "{count, plural, one { {count} ponto} other {{count} pontos}}"
                 },
-                "rank": "",
-                "votes_link": ""
+                "rank": "{rank}",
+                "votes_link": "Votos"
             },
             "modal": {
-                "downvotes_label": "",
-                "title": "",
-                "upvotes_label": ""
+                "downvotes_label": "Votantes contra:",
+                "title": "Votantes",
+                "upvotes_label": "Votantes a favor:"
             },
-            "mod_item": "",
+            "mod_item": "Ver votantes",
             "voters": {
-                "none": "",
-                "label": "",
-                "label_none": ""
+                "none": "Não tem votantes",
+                "label": "Votantes",
+                "label_none": "Sem votantes"
             },
             "post": {
-                "upvote_button": "",
-                "downvote_button": ""
+                "upvote_button": "Votar a favor",
+                "downvote_button": "Votar contra"
             }
         },
         "admin": {
             "permissions": {
-                "vote_label": "",
-                "see_votes_label": "",
-                "see_voters_label": "",
-                "see_ranking_page": "",
-                "upvote_notifications": "",
-                "downvote_notifications": ""
+                "vote_label": "Votar a favor/contra postagens",
+                "see_votes_label": "Ver contagem de votos a favor/contra",
+                "see_voters_label": "Ver quem votou",
+                "see_ranking_page": "Ver a página de ranking",
+                "upvote_notifications": "Receber notificações de votos a favor",
+                "downvote_notifications": "Receber notificações de votos contra"
             },
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "",
-                        "title": "",
-                        "help": ""
+                        "placeholder": "admin, user1, user2",
+                        "title": "Ignorar utilizadores",
+                        "help": "Estes utilizadores não serão mostrados na página de classificação. Nomes de utilizadores devem ser separados por virgula seguido de espaço."
                     },
-                    "title": "",
-                    "enable": "",
-                    "custom_image_1": "",
-                    "custom_image_2": "",
-                    "custom_image_3": ""
+                    "title": "Página de classificação",
+                    "enable": "Activar imagens customizadas",
+                    "custom_image_1": "Imagem do primeiro classificado",
+                    "custom_image_2": "Imagem do segundo classificado",
+                    "custom_image_3": "Imagem do terceiro classificado"
                 },
                 "alt_votes": {
-                    "icon_name": ""
+                    "icon_name": "Nome alternativo do icone"
                 },
                 "votes": {
-                    "points_title": "",
-                    "points_placeholder": "",
-                    "color_holder": "",
-                    "auto_upvote": "",
-                    "rate_limit": "",
-                    "discussion_page": "",
-                    "alternate_layout": "",
-                    "alternate_post_layout": "",
-                    "title": "",
-                    "vote_color": "",
-                    "icon_name": "",
-                    "icon_help": "",
-                    "upvotes_only": "",
-                    "first_post_only": "",
-                    "allow_self_votes": ""
+                    "points_title": "Marcador de pontos",
+                    "points_placeholder": "Pontos: ",
+                    "color_holder": "#ffffff",
+                    "auto_upvote": "Votar automaticamente a favor quando postar",
+                    "rate_limit": "Impor um limite de tempo de votação (10 segundos)",
+                    "discussion_page": "Ver o total de votos na postagem original na lista de discussões",
+                    "alternate_layout": "Usar um layout alternativo de votação na lista de discussão",
+                    "alternate_post_layout": "Utilizar layout alternativo nas postagens",
+                    "title": "Votos",
+                    "vote_color": "Cor de voto",
+                    "icon_name": "Icone voto a favor/contra",
+                    "icon_help": "Indique qualquer ícone Font-Awesome que tem como sufixo -up e -down. Exemplos: arrow, thumbs, chevron",
+                    "upvotes_only": "Permitir apenas votos a favor",
+                    "first_post_only": "Permitir apenas votos a favor/contra na primeira postagem da discussão",
+                    "allow_self_votes": "Os utilizadores podem votar nas suas próprias postagens"
                 },
-                "save_settings": "",
+                "save_settings": "Guardar definições",
                 "convert": {
-                    "button": "",
+                    "button": "Converter gostos em votos a favor",
                     "help": "",
                     "converting": "",
                     "converted": ""
