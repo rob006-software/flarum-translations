@@ -94,19 +94,19 @@
                 "save_settings": "Guardar definições",
                 "convert": {
                     "button": "Converter gostos em votos a favor",
-                    "help": "",
-                    "converting": "",
-                    "converted": ""
+                    "help": "Converter gostos prévios de flarum-ext-likes em votos a favor, assim como calcular os votos das discussões actuais.",
+                    "converting": "Os seus gostos estão a ser convertidos. Refresca o sitio daqui a alguns minutos para ver se o processo terminou. (O tempo de conversão pode ser elevado dependendo do numero total de gostos do seu forum)",
+                    "converted": "Foram convertidos com sucesso {number} gostos"
                 },
                 "ranks": {
-                    "title": "",
-                    "ranks": "",
-                    "number_title": "",
+                    "title": "Classificação",
+                    "ranks": "Classificação costumizada",
+                    "number_title": "Quantos crachás de classificação devem ser mostrados?",
                     "help": {
-                        "color": "",
-                        "help": "",
-                        "points": "",
-                        "name": ""
+                        "color": "#ffffff",
+                        "help": "Indique o numero de votos a favor, o nome e o código hexadecimal da cor da classificação",
+                        "points": "Pontos",
+                        "name": "Nome"
                     }
                 },
                 "groups": {
