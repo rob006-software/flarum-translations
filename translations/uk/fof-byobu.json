@@ -3,15 +3,15 @@
         "forum": {
             "badges": {
                 "is_private": {
-                    "tooltip": ""
+                    "tooltip": "Приватна дискусія"
                 }
             },
             "buttons": {
-                "add_recipients": "",
-                "submit": "",
-                "edit_recipients": "",
-                "send_pd": "",
-                "cancel": "",
+                "add_recipients": "Одержувачі",
+                "submit": "Гаразд",
+                "edit_recipients": "Редагувати одержувачів",
+                "send_pd": "Надіслати користувачу {username} повідомлення",
+                "cancel": "Скасувати",
                 "make_public": "",
                 "remove_from_discussion": ""
             },
@@ -43,8 +43,8 @@
                     "add_recipients": ""
                 },
                 "labels": {
-                    "selected_users": "",
-                    "search_field": ""
+                    "selected_users": "Обрати користувачів",
+                    "search_field": "Пошук користувача"
                 },
                 "help": {
                     "add_recipients": "",
