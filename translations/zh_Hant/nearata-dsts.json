@@ -5,15 +5,15 @@
                 "can_bypass_like": "無需點讚即可查看首貼",
                 "can_bypass_reply": "無需回覆即可查看首貼",
                 "can_bypass_login": "無需登錄",
-                "can_use_bbcode": ""
+                "can_use_bbcode": "可以使用BBCode"
             },
             "settings": {
-                "enabled": "",
+                "enabled": "啟用",
                 "hide_only_first_post": "僅隱藏第一篇文章",
                 "require_like": "需要點讚",
                 "require_reply": "需要回覆",
                 "fof_upload": {
-                    "enabled": "",
+                    "enabled": "啟用",
                     "section_title": "FoF Upload",
                     "require_reply": "需要回覆",
                     "require_like": "需要點讚",
@@ -27,23 +27,23 @@
         },
         "forum": {
             "post": {
-                "login_tooltip": "",
-                "reply_tooltip": "",
-                "like_tooltip": "",
+                "login_tooltip": "登錄以查看內容",
+                "reply_tooltip": "回覆以解鎖內容",
+                "like_tooltip": "點讚以解鎖內容",
                 "fof_upload": {
-                    "login_text": "",
-                    "reply_text": "",
-                    "like_text": ""
+                    "login_text": "登錄以查看檔案",
+                    "reply_text": "回覆主題以解鎖內容",
+                    "like_text": "點讚以查看檔案"
                 },
                 "bbcode": {
-                    "hidden_content": "",
-                    "login_text": "",
-                    "reply_text": "",
-                    "like_text": ""
+                    "hidden_content": "隱藏內容",
+                    "login_text": "登錄以查看內容",
+                    "reply_text": "回覆主題以解鎖內容",
+                    "like_text": "點讚以解鎖內容"
                 }
             },
             "composer": {
-                "dsts_tooltip": ""
+                "dsts_tooltip": "DSTS"
             },
             "like": "點讚以解鎖內容。",
             "login": "登錄以查看內容。",
