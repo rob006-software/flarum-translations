@@ -2,7 +2,7 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": "Упоминать группы"
+                "mention_groups_label": "Упоминание групп пользователей"
             },
             "settings": {
                 "allow_username_format_label": "Разрешить старый формат упоминания (@Username)",
@@ -11,21 +11,21 @@
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "Упоминание пользователя, группы или сообщения",
+                "mention_tooltip": "Упоминание",
                 "reply_to_post_text": "Ответить на #{number}"
             },
             "mentioned_by": {
-                "title": "",
-                "load_more_button": ""
+                "title": "Ответы на сообщение",
+                "load_more_button": "=> core.ref.load_more"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} ответил(а) на Ваше сообщение",
                 "user_mentioned_text": "{username} упомянул(а) Вас",
-                "group_mentioned_text": "{username} упомянул группу, в которой вы состоите"
+                "group_mentioned_text": "{username} упомянул(а) Вашу группу"
             },
             "post": {
-                "mentioned_by_more_text": "",
+                "mentioned_by_more_text": "Ещё {count} ответов.",
                 "mentioned_by_self_text": "{users} ответили на это сообщение.",
                 "mentioned_by_text": "{users} ответили на это сообщение.",
                 "others_text": "=> core.ref.some_others",
@@ -36,7 +36,7 @@
             "settings": {
                 "notify_post_mentioned_label": "Ответ на одно из моих сообщений",
                 "notify_user_mentioned_label": "Упоминание меня в сообщении",
-                "notify_group_mentioned_label": "Некто упомянул группу, в которой я состою, в сообщении"
+                "notify_group_mentioned_label": "Упоминание моей группы в сообщении"
             },
             "user": {
                 "mentions_link": "Упоминания"
@@ -50,16 +50,16 @@
         },
         "email": {
             "post_mentioned": {
-                "subject": "{replier_display_name} ответил на Ваше сообщение в {title}",
-                "body": "Здравствуйте, {recipient_display_name}!\n\n{replier_display_name} ответил на Ваше сообщение (#{post_number}) в {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "subject": "{replier_display_name} ответил(а) на Ваше сообщение в {title}",
+                "body": "Здравствуйте, {recipient_display_name}!\n\n{replier_display_name} ответил(а) на Ваше сообщение (#{post_number}) в {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "{mentioner_display_name} упомянул Вас в {title}",
-                "body": "Здравствуйте, {recipient_display_name}!\n\n{mentioner_display_name} упомянул Вас в своём сообщении в {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "subject": "{mentioner_display_name} упомянул(а) Вас в {title}",
+                "body": "Здравствуйте, {recipient_display_name}!\n\n{mentioner_display_name} упомянул(а) Вас в своём сообщении в {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "{mentioner_display_name} упомянул группу, в которой вы состоите, в {title}",
-                "body": "Привет {recipient_display_name}!\n\n{mentioner_display_name} упомянул группу, в которой вы состоите, в {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "subject": "{mentioner_display_name} упомянул(а) Вашу группу в {title}",
+                "body": "Здравствуйте, {recipient_display_name}!\n\n{mentioner_display_name} упомянул(а) Вашу группу в своём сообщении в {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
