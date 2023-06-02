@@ -2,25 +2,25 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "Укажите интересующий интервал дат для отображения статистики. Загрузка данных может\nзанять несколько минут для форумов с высокой активностью.\n",
-                "end_date": "Конечная дата (включительно)",
+                "description": "Укажите диапазон дат для отображения статистики.\nЗагрузка данных может занять несколько минут на форумах с высокой активностью.\n",
+                "end_date": "Конец (включительно)",
                 "errors": {
-                    "end_before_start": "Конечная дата не должна быть раньше начальной."
+                    "end_before_start": "Дата окончания должна быть позже даты начала."
                 },
-                "start_date": "Начальная дата (включительно)",
-                "submit_button": "Подтвердить интервал дат",
-                "title": "Выберите интересующий интервал дат"
+                "start_date": "Начало (включительно)",
+                "submit_button": "Подтвердить диапазон",
+                "title": "Выбор диапазона дат"
             },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
-                "export_chart_button": "Экспорт графика в SVG",
+                "export_chart_button": "Экспорт диаграммы в SVG",
                 "last_12_months_label": "За 12 месяцев",
                 "last_28_days_label": "За 28 дней",
                 "last_7_days_label": "За 7 дней",
                 "mini_heading": "Статистика",
                 "previous_28_days_label": "Предыдущие 28 дней",
                 "previous_7_days_label": "Предыдущие 7 дней",
-                "custom_label": "Выберите интересующий интервал...",
+                "custom_label": "Выбрать диапазон...",
                 "custom_label_specified": "{fromDate} до {toDate}",
                 "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
@@ -28,7 +28,7 @@
                 "total_label": "Всего",
                 "users_heading": "=> core.ref.users",
                 "view_full": "Посмотреть больше статистики",
-                "no_data": "В указанном интервале дат отсутствуют данные.",
+                "no_data": "В этом диапазоне нет данных.",
                 "current_period": "Текущий период",
                 "previous_period": "Предыдущий период",
                 "active_users_text": "{count} активных"
