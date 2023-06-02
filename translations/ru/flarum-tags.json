@@ -62,7 +62,7 @@
                 "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
-                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
+                "choose_tags_link": "Выбрать теги"
             },
             "discussion_controls": {
                 "edit_tags_button": "Изменить теги"
@@ -88,8 +88,8 @@
         "lib": {
             "deleted_tag_text": "Удалено",
             "tag_selection_modal": {
-                "bypass_requirements": "Игнорировать требования тега",
-                "choose_primary_placeholder": "{count, plural, one {Выберите основной тег} other {Выберите # основных тегов}}",
+                "bypass_requirements": "Игнорировать требования для тега",
+                "choose_primary_placeholder": "{count, plural, one {Укажите основной тег} other {Укажите # основных тегов}}",
                 "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "submit_button": "=> core.ref.okay",
@@ -97,8 +97,8 @@
             }
         },
         "ref": {
-            "choose_tags": "Выберите теги",
-            "choose_tags_placeholder": "{count, plural, one {Выберите еще 1 тег} other {Выберите еще # тегов}}",
+            "choose_tags": "Выбор тегов",
+            "choose_tags_placeholder": "{count, plural, one {Укажите ещё 1 тег} other {Укажите ещё # тегов}}",
             "name": "Название",
             "tags": "Теги"
         }
