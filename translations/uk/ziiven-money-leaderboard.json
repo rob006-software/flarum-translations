@@ -1,31 +1,31 @@
 {
     "ziven-money-leaderboard": {
         "forum": {
-            "leaderboard-name": "",
-            "leaderboard-list-title": "",
-            "leaderboard-list-rank": "",
-            "leaderboard-list-user": "",
-            "leaderboard-list-money": "",
-            "leaderboard-load-more": "",
-            "leaderboard-list-empty": ""
+            "leaderboard-name": "Грошова таблиця лідерів",
+            "leaderboard-list-title": "Грошова таблиця лідерів",
+            "leaderboard-list-rank": "Звання",
+            "leaderboard-list-user": "Користувач",
+            "leaderboard-list-money": "Власні кошти",
+            "leaderboard-load-more": "Завантажити більше",
+            "leaderboard-list-empty": "Контент відсутній"
         },
         "admin": {
             "permission": {
-                "allow_view_leaderboard": ""
+                "allow_view_leaderboard": "Дозволити перегляд таблиці лідерів"
             },
             "settings": {
-                "leaderboard-icon": "",
-                "leaderboard-icon-help": "",
-                "leaderboard-entry-position": "",
-                "leaderboard-entry-sideNav": "",
-                "leaderboard-hide-money-text": "",
-                "leaderboard-additional-info": "",
-                "leaderboard-additional-info-help": "",
-                "leaderboard-slug": "",
-                "leaderboard-entry-topRightMenu": "",
-                "leaderboard-max-load-count": "",
-                "leaderboard-init-load-count": "",
-                "leaderboard-load-more-count": ""
+                "leaderboard-icon": "Значок таблиці лідерів",
+                "leaderboard-icon-help": "Введіть назву будь-якого класу значків FontAwesome, включаючи префікс <code>fas fa-</code>.",
+                "leaderboard-entry-position": "Позиція в таблиці лідерів",
+                "leaderboard-entry-sideNav": "Бічне меню навігації",
+                "leaderboard-hide-money-text": "Приховати назву грошей за іменем користувача",
+                "leaderboard-additional-info": "Додаткова інформація",
+                "leaderboard-additional-info-help": "Відображає додаткову інформацію на початку рейтингу. Залиште порожнім, щоб приховати абзац.",
+                "leaderboard-slug": "Псевдонім адреси",
+                "leaderboard-entry-topRightMenu": "Верхнє праве меню",
+                "leaderboard-max-load-count": "Максимальна кількість завантажень",
+                "leaderboard-init-load-count": "Початковий підрахунок завантаження",
+                "leaderboard-load-more-count": "Завантажте більше підрахунку"
             }
         }
     }
