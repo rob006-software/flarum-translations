@@ -329,7 +329,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/club-1/flarum-ext-cross-references/v1.1.1/locale/en.yml',
 	],
 	'club-1-server-side-highlight' => [
-		'tag' => 'https://raw.githubusercontent.com/club-1/flarum-ext-server-side-highlight/v1.2.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/club-1/flarum-ext-server-side-highlight/v1.3.0/locale/en.yml',
 	],
 	'convo-extensions-guest-posting' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/convo-extensions-guest-posting.yml',
