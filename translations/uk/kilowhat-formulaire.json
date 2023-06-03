@@ -28,10 +28,10 @@
                 "checkbox-style": "Стиль чекбоксу",
                 "radio-style": "Стиль радіокнопки",
                 "style-options": {
-                    "far-square": "FontAwesome Regular Square Icon",
-                    "fas-square": "FontAwesome Solid Square Icon",
-                    "far-circle": "FontAwesome Regular Circle Icon",
-                    "fas-circle": "FontAwesome Solid Circle Icon",
+                    "far-square": "Значок FontAwesome Regular Square",
+                    "fas-square": "Значок FontAwesome Solid Square",
+                    "far-circle": "Значок FontAwesome Regular Circle",
+                    "fas-circle": "Значок FontAwesome Solid Circle",
                     "switch": "Перемикач Flarum",
                     "native": "Керування в браузері"
                 },
@@ -58,32 +58,32 @@
                 "header": {
                     "title": "=> kilowhat-formulaire.ref.manager",
                     "documentation": "Повна онлайн документація",
-                    "discuss": ""
+                    "discuss": "Обговорення на Flarum"
                 },
                 "tabs": {
                     "standalone": "=> kilowhat-formulaire.ref.type.standalone",
                     "discussion": "=> kilowhat-formulaire.ref.type.discussion",
                     "user": "=> kilowhat-formulaire.ref.type.user"
                 },
-                "empty": "",
-                "load-more": "",
-                "search": "",
-                "new": "",
-                "edit": "",
-                "show": "",
-                "submissions": "",
+                "empty": "Ніяких форм",
+                "load-more": "Завантажити більше",
+                "search": "Пошук форм...",
+                "new": "Нова форма",
+                "edit": "Редагувати",
+                "show": "Показати",
+                "submissions": "Надіслано",
                 "columns": {
-                    "title": "",
-                    "accept-submissions": "",
-                    "allow-modification": "",
-                    "enabled": "",
-                    "submissions": "",
-                    "actions": ""
+                    "title": "Заголовок",
+                    "accept-submissions": "Відкрито",
+                    "allow-modification": "Відредаговано",
+                    "enabled": "Увімкнено",
+                    "submissions": "Надіслано",
+                    "actions": "Дії"
                 }
             },
             "global-settings": {
-                "title": "",
-                "admin-only": "",
+                "title": "Глобальні дозволи",
+                "admin-only": "Тільки адміністратори форуму можуть редагувати глобальні налаштування",
                 "permissions": {
                     "fill": "=> kilowhat-formulaire.ref.permissions.fill",
                     "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
@@ -97,34 +97,34 @@
                 }
             },
             "form-create": {
-                "title": "",
+                "title": "Нова форма",
                 "field": {
-                    "title": ""
+                    "title": "Заголовок"
                 },
                 "button": {
-                    "create": ""
+                    "create": "Створити форму"
                 }
             },
             "form-edit-header": {
-                "back": "",
+                "back": "Назад",
                 "category": {
                     "standalone": "=> kilowhat-formulaire.ref.type.standalone",
                     "discussion": "=> kilowhat-formulaire.ref.type.discussion",
                     "user": "=> kilowhat-formulaire.ref.type.user"
                 },
                 "tabs": {
-                    "template": "",
+                    "template": "Шаблон",
                     "placement": "",
                     "access": "",
                     "notifications": "",
                     "submissions": ""
                 },
                 "access-status": {
-                    "closed": "",
+                    "closed": "Закрито",
                     "create": "",
                     "edit": "",
                     "both": "",
-                    "enabled": "",
+                    "enabled": "Увімкнено",
                     "disabled": ""
                 },
                 "controls": "",
@@ -132,7 +132,7 @@
                 "enable-expert-mode": "",
                 "disable-expert-mode": "",
                 "restore": "",
-                "hide": "",
+                "hide": "Видалити",
                 "delete": "",
                 "delete-confirmation": "",
                 "fields": {
