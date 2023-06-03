@@ -114,37 +114,37 @@
                 },
                 "tabs": {
                     "template": "Шаблон",
-                    "placement": "",
-                    "access": "",
-                    "notifications": "",
-                    "submissions": ""
+                    "placement": "Розміщення",
+                    "access": "Доступ",
+                    "notifications": "Сповіщення",
+                    "submissions": "Відправлення"
                 },
                 "access-status": {
                     "closed": "Закрито",
-                    "create": "",
-                    "edit": "",
-                    "both": "",
+                    "create": "Тільки створити",
+                    "edit": "Тільки редагувати",
+                    "both": "Створити та редагувати",
                     "enabled": "Увімкнено",
-                    "disabled": ""
+                    "disabled": "Чорновик"
                 },
-                "controls": "",
-                "template-export": "",
-                "enable-expert-mode": "",
-                "disable-expert-mode": "",
-                "restore": "",
+                "controls": "Керування",
+                "template-export": "Шаблон імпорту/експорту",
+                "enable-expert-mode": "Увімкнути експертний режим",
+                "disable-expert-mode": "Вимкнути експертний режим",
+                "restore": "Відновити",
                 "hide": "Видалити",
-                "delete": "",
-                "delete-confirmation": "",
+                "delete": "Видалити назавжди",
+                "delete-confirmation": "Форма «{title}» буде назавжди видалена",
                 "fields": {
-                    "private-title": "",
-                    "slug": ""
+                    "private-title": "Приватна назва",
+                    "slug": "Користувацький псевдонім для URL (необов'язково)"
                 }
             },
             "form-edit": {
                 "warnings": {
                     "show-on-signup-invalid-permissions": "",
                     "show-on-composer-invalid-permissions": "",
-                    "linked-form-is-draft": "",
+                    "linked-form-is-draft": "Наразі ця форма знаходиться в режимі чернетки. Увімкніть у розділі «Доступ», щоб поля з'явилися на форумі.\n",
                     "auto-link-permission-warning": ""
                 },
                 "expert-mode-warning": "",
