@@ -3,34 +3,34 @@
         "admin": {
             "settings": {
                 "preselection": "Попередньо вибрані суми (через кому, необов'язково)",
-                "min": "",
-                "max": ""
+                "min": "Мінімальне значення",
+                "max": "Максимальне значення"
             }
         },
         "forum": {
             "vote": {
-                "title": "",
-                "target": "",
-                "optionCustom": "",
-                "balance": "",
+                "title": "Підтвердити голос",
+                "target": "Підтвердіть свою обіцянку за варіант голосування «{answer}». Ви не зможете змінити свій голос пізніше.\n",
+                "optionCustom": "Користувацький",
+                "balance": "Ваш баланс: {amount}",
                 "label": {
-                    "custom": ""
+                    "custom": "Користувацька сума"
                 },
-                "submit": "",
-                "success": ""
+                "submit": "Надіслати",
+                "success": "Голос відправлено!"
             },
             "poll": {
-                "voteWithMoney": "",
-                "min": "",
-                "max": ""
+                "voteWithMoney": "Голосуйте грошима",
+                "min": "Мінімальний внесок (необов'язково)",
+                "max": "Максимальний внесок (необов'язково)"
             }
         },
         "api": {
             "error": {
-                "cannotCancel": "",
-                "cannotChange": "",
-                "notEnoughFunds": "",
-                "cannotChangePollType": ""
+                "cannotCancel": "Не можна скасувати голосування.",
+                "cannotChange": "Не можна змінити голос.",
+                "notEnoughFunds": "Недостатньо коштів.",
+                "cannotChangePollType": "Неможливо змінити тип опитування після того, як воно вже отримало голоси."
             }
         }
     }
