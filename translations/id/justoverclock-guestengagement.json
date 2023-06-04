@@ -1,25 +1,25 @@
 {
     "flarum-ext-guestengagement": {
         "forum": {
-            "signupbtn": "",
+            "signupbtn": "Daftar",
             "hello": "Halo! Anda tampaknya tertarik dengan forum ini, tetapi Anda belum mendaftarkan akun.",
             "whenucreate": "Saat Anda membuat akun, kami akan dapat mengingat dengan tepat apa yang telah Anda baca, sehingga Anda dapat melanjutkan langsung dari bagian terakhir yang Anda baca.",
             "uwillreceive": "Anda akan menerima notifikasi, di sini atau melalui email, ketika seseorang membalas Anda. Anda juga dapat memberikan \"Like\" untuk menunjukkan apresiasi Anda.",
             "hellops": "Halo! Anda tampaknya tertarik dengan tulisan ini!",
-            "whenucreateps": "",
-            "uwillreceiveps": ""
+            "whenucreateps": "Ketika Anda membuat akun, Kami akan dapat mengingat dengan tepat apa yang telah Anda baca dan Anda akan menerima",
+            "uwillreceiveps": "notifikasi, di sini atau melalui email, ketika seseorang membalas Anda. Anda juga dapat memberikan \"Like\" untuk menunjukkan apresiasi Anda."
         },
         "admin": {
-            "afterxpost": "",
-            "afterxpostdesc": "",
-            "autohide": "",
-            "autohidedesc": "gunakan milidetik, misalnya untuk 5 detik gunakan 5000",
-            "changetextbox": "",
-            "changetextboxdesc": "",
-            "maintitle": "",
-            "maintitledesc": "",
-            "enablealbox": "",
-            "enablepostbox": ""
+            "afterxpost": "Menampilkan alert box Setelah post X",
+            "afterxpostdesc": "Accept number, standarnya adalah 0 (box akan ditampilkan di atas aliran post)",
+            "autohide": "Menyembunyikan kotak secara otomatis setelah X detik",
+            "autohidedesc": "Gunakan milidetik, misalnya untuk 5 detik gunakan 5000",
+            "changetextbox": "Mengganti teks pada box",
+            "changetextboxdesc": "Mengatur teks untuk alert box yang terletak DI ANTARA POST",
+            "maintitle": "Mengubah JUDUL pada box",
+            "maintitledesc": "Mengatur Judul untuk alert box yang terletak DI ANTARA POST",
+            "enablealbox": "Mengaktifkan/Menonaktifkan Alert Box di Homepage",
+            "enablepostbox": "Mengaktifkan/Menonaktifkan box \"Di Antara Post\""
         }
     }
 }
