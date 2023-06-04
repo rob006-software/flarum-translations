@@ -9,11 +9,11 @@
         },
         "emails": {
             "post_warned": {
-                "subject": "",
+                "subject": "{warner_display_name} memperingatkan Anda dengan {strikes, plural, one {# strike} other {# strikes}} di {discussion_title}",
                 "body": ""
             },
             "user_warned": {
-                "subject": "",
+                "subject": "{warner_display_name} memperingatkan Anda dengan {strikes, plural, one {# strike} other {# strikes}}",
                 "body": ""
             }
         },
@@ -61,8 +61,8 @@
                 "confirmation_message": "Peringatan Anda telah disimpan. Anda mungkin perlu me-refresh halaman untuk melihatnya.",
                 "heading": "Peringatkan <strong>{username}</strong>",
                 "strikes_heading": "Berapa banyak sanksi yang harus diterapkan?",
-                "public_comment_heading": "Mengapa <strong>{username}</strong> menerima peringatan ini? Komentar-komentar ini akan terlihat oleh pengguna dan moderator lainnya.",
-                "private_comment_heading": "Mengapa <strong>{username}</strong> menerima peringatan ini? Komentar-komentar ini HANYA akan terlihat oleh moderator lain.",
+                "public_comment_heading": "Mengapa <strong>{username}</strong> menerima peringatan ini? Komentar ini akan terlihat oleh pengguna dan moderator.",
+                "private_comment_heading": "Mengapa <strong>{username}</strong> menerima peringatan ini? Komentar ini HANYA akan terlihat oleh moderator.",
                 "submit_button": "Simpan peringatan"
             }
         }
