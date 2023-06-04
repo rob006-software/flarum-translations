@@ -2,46 +2,46 @@
     "datitisev-maintenance": {
         "admin": {
             "dashboard": {
-                "enable_maintenance_mode_button": "",
-                "disable_maintenance_mode_button": ""
+                "enable_maintenance_mode_button": "Aktifkan Mode Pemeliharaan",
+                "disable_maintenance_mode_button": "Nonaktifkan Mode Pemeliharaan"
             },
             "settings": {
-                "title": "",
-                "settings_notice": "",
+                "title": "Mode Pemeliharaan",
+                "settings_notice": "Pengaturan ini mungkin bukan merupakan pengaturan saat ini. Pastikan pengaturan tersebut tidak ditimpa oleh file <code>config.php</code>.",
                 "allow_bypass_label": "",
                 "allow_bypass_hint": "",
-                "prefer_db_label": "",
-                "prefer_db_hint": "",
+                "prefer_db_label": "Lebih mengutamakan pengaturan DB daripada pengaturan yang ada di <code>config.php</code>",
+                "prefer_db_hint": "Biasanya, value dalam <code>config.php</code> akan menggantikan value yang terlihat di sini. Aktifkan opsi ini untuk membuat opsi-opsi ini mengesampingkan opsi-opsi yang ada di berkas konfigurasi - jadi opsi-opsi tersebut hanya digunakan jika DB tidak dapat diakses.",
                 "active_label": "",
-                "disable_admin_label": "",
-                "disable_api_label": "",
-                "title_label": "",
-                "message_label": "",
+                "disable_admin_label": "Nonaktifkan akses admin",
+                "disable_api_label": "Nonaktifkan semua akses API",
+                "title_label": "Judul Halaman Error",
+                "message_label": "Pesan Halaman Error",
                 "error_page_file_label": "",
                 "error_page_file_hint": "",
-                "error_page_label": "",
-                "error_page_hint": ""
+                "error_page_label": "Halaman Error HTML/Blade",
+                "error_page_hint": "Anda dapat menggunakan $app, $translator, $settings, $title, dan $message dengan blade."
             },
             "permissions": {
                 "allow_bypass_maintenance_label": "Bypass maintenance mode (pengaturan harus diaktifkan)"
             }
         },
         "lib": {
-            "maintenance_active_message": "",
-            "maintenance_active_not_db_message": "",
-            "maintenance_active_disabled_api_message": ""
+            "maintenance_active_message": "Forum ini saat ini sedang dalam masa pemeliharaan.",
+            "maintenance_active_not_db_message": "Mode pemeliharaan diaktifkan melalui <code>config.php</code>.",
+            "maintenance_active_disabled_api_message": "Saat ini API dinonaktifkan untuk semua orang."
         },
         "views": {
             "error": {
-                "title": "",
-                "message": ""
+                "title": "Pemeliharaan",
+                "message": "Saat ini kami sedang melakukan pemeliharaan. Kami akan segera kembali online!"
             }
         }
     },
     "core": {
         "lib": {
             "error": {
-                "maintenance_message": ""
+                "maintenance_message": "Forum saat ini sedang dalam mode pemeliharaan."
             }
         }
     }
