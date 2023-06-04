@@ -13,8 +13,8 @@
                 "discussions_participated": "",
                 "discussions_started": "",
                 "posts_made": "",
-                "likes_given": "",
-                "likes_received": "",
+                "likes_given": "Like Yang Diberikan",
+                "likes_received": "Likes Yang Diterima",
                 "best_answers": "",
                 "moderator_strikes": ""
             },
@@ -65,7 +65,7 @@
                 "add_action": ""
             },
             "undefined_driver_item": {
-                "text": ""
+                "text": "ERROR! Driver <strong>{driverName}</strong> tidak didefinisikan. Kemungkinan besar, driver ini ditambahkan oleh ekstensi yang saat ini tidak diinstal. Anda harus mengaktifkan kembali ekstensi tersebut atau menghapus driver ini agar kriteria menjadi valid kembali."
             },
             "automoderator_page": {
                 "criterion_invalid": "Kriteria saat ini tidak valid. Silakan periksa pengaturannya untuk informasi lebih lanjut",
@@ -78,7 +78,7 @@
             }
         },
         "lib": {
-            "group_id": "",
+            "group_id": "ID Grup",
             "managed_groups": {
                 "header": "Grup Yang Dikelola:",
                 "group_item": "",
