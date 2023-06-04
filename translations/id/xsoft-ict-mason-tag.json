@@ -27,7 +27,7 @@
                 "save-field": "Simpan perubahan kolom",
                 "delete-field": "Hapus kolom",
                 "edit-field": "Klik untuk mengedit kolom",
-                "add-answer": "Add answer",
+                "add-answer": "Tambah jawaban",
                 "save-answer": "Simpan perubahan jawaban",
                 "delete-answer": "Hapus jawaban",
                 "edit-answer": "Edit Jawaban",
@@ -47,10 +47,10 @@
                 "validation": "Validasi user value",
                 "user_values_allowed": "User value yang diizinkan",
                 "user_values_allowed-help": "Jika diaktifkan, pengguna dapat menambahkan value mereka sendiri, bukan yang value yang telah ditentukan oleh admin. Semua value tersebut akan diperiksa dengan pengaturan \"Validasi\". Jika dinonaktifkan, mereka hanya akan dapat menggunakan jawaban yang \"disarankan\".\n",
-                "validation-help": "",
+                "validation-help": "Periksa <a>aturan validasi Laravel</a> yang didukung. Contoh: \"string|min:5\" or \"url\".\n",
                 "enable-user-values-for-validation": "Aktifkan \"user value\" untuk mengonfigurasi aturan validasi",
                 "icon": "Ikon",
-                "icon-help": "",
+                "icon-help": "Tampilkan ikon di depan value yang dimasukkan oleh pengguna. Untuk referensi ikon yang tersedia, periksa situs web <a>FontAwesome website</a>. Gunakan nama kelas ikon lengkap termasuk prefix, contohnya \"fas fa-bolt\".\n",
                 "icon-preview": "pratinjau: {preview}",
                 "save-field-for-answers": "Simpan kolom untuk menambahkan jawaban",
                 "is_suggested": "Memberikan saran jawaban kepada pengguna",
@@ -72,7 +72,7 @@
                 "fields-in-hero": "Tampilkan kolom di banner diskusi, bukan di post yang pertama",
                 "hide-empty-fields-section": "Sembunyikan judul dan kontrol ketika semua kolom kosong dan tersembunyi",
                 "hide-empty-fields-section-help": "Secara default jika user dapat mengedit kolom atau judul yang telah ditetapkan, bagian tersebut akan selalu ditampilkan, meskipun semua kolom disembunyikan. Dengan mengaktifkan opsi ini, bagian tersebut akan disembunyikan dan tombol \"edit kolom\" hanya akan tersedia di dalam menu dropdown \"balasan\" ketika semua kolom kosong.\n",
-                "tags-as-field": "",
+                "tags-as-field": "Tampilkan tag selector sebagai kolom",
                 "tags-as-field-help": "Ini akan menyembunyikan tag selector default dan menampilkan kolom dropdown khusus sebagai gantinya. Ini hanya akan berfungsi jika Anda mengizinkan hingga satu tag primer dan satu tag sekunder!\n",
                 "tags-field-name": "",
                 "tags-field-name-placeholder": "=> xsoft-mason-tag.forum.tags.tags-label",
@@ -80,21 +80,21 @@
                 "composer-height-placeholder": "",
                 "composer-height-help": "default adalah 200, harus lebih tinggi dari itu untuk mengakomodasi kolom.",
                 "by-tag": "Terapkan metadata ke tag tertentu saja",
-                "by-tag-name": ""
+                "by-tag-name": "Tag apa saja yang mendapatkan metadata?"
             },
             "titles": {
                 "tag-settings": "Pengaturan tag",
                 "settings": "Pengaturan",
                 "fields": "Kolom",
                 "field-settings": "Pengaturan kolom",
-                "field-answers": ""
+                "field-answers": "Kolom jawaban"
             },
             "permissions": {
                 "see-own-fields": "Melihat kolom pada diskusi sendiri yang sudah ada",
                 "see-other-fields": "Melihat kolom di semua diskusi yang ada",
-                "fill-fields": "",
-                "update-own-fields": "",
-                "update-other-fields": "",
+                "fill-fields": "Mengisi kolom pada diskusi baru",
+                "update-own-fields": "Memperbarui kolom diskusi sendiri",
+                "update-other-fields": "Memperbarui kolom di setiap diskusi",
                 "skip-required-fields": "Mengizinkan untuk melewatkan kolom yang harus diisi"
             }
         }
