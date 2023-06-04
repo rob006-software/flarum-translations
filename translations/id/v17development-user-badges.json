@@ -1,16 +1,16 @@
 {
     "v17development-flarum-badges": {
         "admin": {
-            "uncategorized": "",
+            "uncategorized": "Tidak dikategorikan",
             "new_badge": "",
             "create_category": "",
             "update_badge": "",
             "update_category": "",
             "edit_category": "",
-            "nothing_here_yet": "",
+            "nothing_here_yet": "Anda belum membuat badge atau kategori apa pun.",
             "show_badges_on_user_card": "",
-            "number_of_badges_on_user_card": "",
-            "number_of_badges_on_user_card_help": "",
+            "number_of_badges_on_user_card": "Jumlah badge",
+            "number_of_badges_on_user_card_help": "Jumlah badge yang akan ditampilkan pada user card",
             "permissions": {
                 "badge_detail_users": "Dapat melihat user di halaman detail badge",
                 "give_badge": "Memberikan badge kepada pengguna",
@@ -24,42 +24,42 @@
                 "yes": "Ya"
             },
             "confirm_messages": {
-                "delete_badge": "",
-                "delete_category": ""
+                "delete_badge": "Apakah Anda yakin ingin menghapus badge ini? Badge ini akan dihapus dari semua pengguna dan tidak dapat dikembalikan.",
+                "delete_category": "Apakah Anda yakin ingin menghapus kategori ini? Jika ada badge dalam kategori ini, badge tersebut akan ditandai sebagai 'tidak dikategorikan'."
             },
             "badge": {
                 "name": "Nama badge",
                 "icon": "Ikon badge",
                 "description": "Deskripsi badge",
-                "visible": "",
-                "visible_description": "",
-                "is_image": "",
-                "is_image_description": "",
-                "image": "",
-                "image_placeholder": "",
+                "visible": "Terlihat",
+                "visible_description": "Mengaktifkan badge ini. Saat dinonaktifkan, badge tidak akan terlihat.",
+                "is_image": "Badge adalah sebuah gambar",
+                "is_image_description": "Gunakan gambar sebagai pengganti badge default",
+                "image": "URL gambar badge",
+                "image_placeholder": "Masukkan URL untuk gambar badge",
                 "icon_color": "Warna ikon",
                 "background_color": "Warna background",
                 "label_color": "Warna teks"
             },
             "badge_category": {
-                "name": "",
-                "description": "",
-                "blockview": "",
-                "blockview_description": "",
-                "enabled": "",
-                "enabled_description": ""
+                "name": "Nama kategori",
+                "description": "Deskripsi kategori",
+                "blockview": "Tampilan blok",
+                "blockview_description": "Menampilkan kategori-badge dalam bentuk tampilan blok pada ikhtisar badge. Jika dinonaktifkan, semua badge akan ditampilkan dalam bentuk tabel.",
+                "enabled": "Diaktifkan",
+                "enabled_description": "Mengaktifkan kategori ini. Ketika dinonaktifkan, semua badge akan dinonaktifkan dan kategori akan disembunyikan."
             },
             "auto_moderator": {
                 "not_installed": {
-                    "title": "",
-                    "content": "",
+                    "title": "Secara otomatis memberikan reward kepada pengguna dengan badge",
+                    "content": "Ekstensi ini menawarkan lebih banyak fungsionalitas ketika <a>Auto Moderator</a> diinstal dan diaktifkan. Ketika Anda memasang ekstensi ini, pengguna dapat secara otomatis diberikan reward berupa badge tanpa campur tangan karyawan komunitas!",
                     "install": "",
-                    "dismiss": ""
+                    "dismiss": "Jangan tampilkan lagi"
                 },
                 "action_drivers": {
                     "badge_id": "",
                     "give_badge": "",
-                    "remove_badge": ""
+                    "remove_badge": "Hapus badge"
                 },
                 "requirement_drivers": {
                     "has_badge": ""
@@ -74,27 +74,27 @@
             }
         },
         "forum": {
-            "badge_information": "",
-            "all_badges": "",
-            "all_users": "",
+            "badge_information": "Informasi tentang badge",
+            "all_badges": "Lihat semua badge",
+            "all_users": "Lihat semua pengguna",
             "give_badge": "",
             "update_badge": "",
             "select_badge": "",
             "user_has_badge": "",
             "user_no_badges": "",
             "no_received": "",
-            "uncategorized": "",
+            "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
             "save_changes": "Simpan perubahan",
             "badge": {
                 "badge": "",
                 "badges": "",
-                "name": "",
-                "description": "",
+                "name": "Nama badge",
+                "description": "Deskripsi badge",
                 "earning_reason": "",
                 "update_earning_reason": "",
                 "no_earning_reason": "",
                 "earned_on": "",
-                "category": "",
+                "category": "Kategori badge",
                 "received_on": "",
                 "badge_details": "",
                 "earned_count": "",
@@ -104,18 +104,18 @@
             "badges_in_card": {
                 "title": "",
                 "manage_badges": "",
-                "description": "",
+                "description": "Anda dapat mengubah badge yang terlihat pada user card dengan salah satu badge lainnya. Jika Anda tidak memilih salah satu, maka badge akan dipilih secara otomatis.",
                 "select_limit": "",
                 "hit_limit": ""
             },
             "moderation": {
-                "remove_badge": "",
-                "remove_badge_confirm": "",
+                "remove_badge": "Hapus badge dari pengguna",
+                "remove_badge_confirm": "Apakah Anda yakin ingin menghapus badge ini dari pengguna ini?",
                 "give_badge": ""
             },
             "notification": {
-                "title": "",
-                "settings": ""
+                "title": "Anda telah menerima badge baru",
+                "settings": "Saya telah menerima badge"
             }
         }
     }
