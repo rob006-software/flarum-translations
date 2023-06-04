@@ -142,56 +142,56 @@
             },
             "form-edit": {
                 "warnings": {
-                    "show-on-signup-invalid-permissions": "",
+                    "show-on-signup-invalid-permissions": "Для того, щоб використовувати функцію «показати свої», вам потрібно встановити права «бачити свої» та «редагувати свої» для непідтверджених користувачів.\n",
                     "show-on-composer-invalid-permissions": "",
                     "linked-form-is-draft": "Наразі ця форма знаходиться в режимі чернетки. Увімкніть у розділі «Доступ», щоб поля з'явилися на форумі.\n",
                     "auto-link-permission-warning": ""
                 },
-                "expert-mode-warning": "",
+                "expert-mode-warning": "Експертний режим увімкнено. Це дозволяє вам налаштувати ідентифікатори полів і дозволи для кожного поля. Переконайтеся, що ви прочитали документацію про ці можливості, оскільки ви можете щось зламати!\n",
                 "section": {
-                    "template": "",
-                    "permissions": ""
+                    "template": "Шаблон",
+                    "permissions": "Дозволи"
                 },
                 "field": {
-                    "link": "",
-                    "title": "",
+                    "link": "Спеціальні типи форм",
+                    "title": "Публічний заголовок",
                     "show-on-creation": {
-                        "discussion": "",
-                        "discussionHelp": "",
-                        "user": ""
+                        "discussion": "Показати в дискусії композитора",
+                        "discussionHelp": "Композитор дискусії Flarum не пристосований для того, щоб містити багато полів. Вам слід встановити та увімкнути розширення <a>Сторінка композитора</a>, щоб усі поля залишалися доступними на всіх пристроях.\n",
+                        "user": "Показати у зареєструватися"
                     },
-                    "automatic-discussion": "",
-                    "automatic-discussion-help": "",
-                    "accept-submissions": "",
-                    "allow-modification": "",
-                    "enable": "",
-                    "max-submissions": "",
-                    "send-confirmation-to-participants": "",
-                    "notify-emails": "",
-                    "web-confirmation-message": "",
-                    "permission-see-own": "",
-                    "permission-see-any": "",
-                    "permission-edit-own": "",
-                    "permission-edit-any": ""
+                    "automatic-discussion": "Автоматично створювати дискусії після заповнення форми",
+                    "automatic-discussion-help": "Якщо цю опцію увімкнено, форма залишатиметься доступною як окрема форма. Надіслані повідомлення автоматично створюватимуться і приєднуватимуться до нових обговорень.\n",
+                    "accept-submissions": "Приймати нові заявки",
+                    "allow-modification": "Дозвольте користувачам редагувати існуючі заявки",
+                    "enable": "Увімкнено",
+                    "max-submissions": "Максимальна кількість заявок (залиште поле порожнім для необмеженої кількості)",
+                    "send-confirmation-to-participants": "Надішліть учасникам підтвердження електронною поштою",
+                    "notify-emails": "Надішліть копію даних на вказані електронні адреси через кому",
+                    "web-confirmation-message": "Повідомлення з підтвердженням в Інтернеті (форматування увімкнено)",
+                    "permission-see-own": "Дивіться власні заявки",
+                    "permission-see-any": "Перегляньте будь-яку заявку",
+                    "permission-edit-own": "Редагувати власну заявку",
+                    "permission-edit-any": "Редагувати будь-яку заявку"
                 },
                 "link-options": {
-                    "standalone": "",
-                    "groups": "",
-                    "all-groups": "",
-                    "tags": "",
-                    "all-tags": ""
+                    "standalone": "Автономний",
+                    "groups": "Профіль користувача",
+                    "all-groups": "Для будь-якої групи",
+                    "tags": "Поля для дискусій",
+                    "all-tags": "Для будь-якого тегу"
                 },
-                "auto-discussion-options": "",
-                "email-confirmation-options": "",
-                "email-notification-options": "",
-                "exiting-with-unsaved-data": "",
-                "preview": "",
-                "save-for-preview": ""
+                "auto-discussion-options": "Варіанти для нових дискусій",
+                "email-confirmation-options": "Шаблон листа з підтвердженням",
+                "email-notification-options": "Шаблон листа для сповіщень",
+                "exiting-with-unsaved-data": "У вас є незбережені зміни. Ви дійсно хочете покинути сторінку?",
+                "preview": "Перегляд у новій вкладці",
+                "save-for-preview": "Зберегти для попереднього перегляду"
             },
             "auto-discussion-options-modal": {
-                "title": "",
-                "introduction": "",
-                "submit": "",
+                "title": "Автоматичні опції дискусії",
+                "introduction": "Ці налаштування будуть застосовані до нових обговорень, які були створені автоматично шляхом надсилання форми, пов'язаної з тегом. Ви можете використовувати значення з надісланої форми, використовуючи синтаксис фігурних дужок зі сладжем поля. За налаштуванням буде використано { title } і { content } відповідно.\n",
+                "submit": "Validate changes",
                 "field": {
                     "title": "",
                     "tags": "",
