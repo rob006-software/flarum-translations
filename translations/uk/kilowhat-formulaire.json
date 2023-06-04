@@ -191,20 +191,20 @@
             "auto-discussion-options-modal": {
                 "title": "Автоматичні опції дискусії",
                 "introduction": "Ці налаштування будуть застосовані до нових обговорень, які були створені автоматично шляхом надсилання форми, пов'язаної з тегом. Ви можете використовувати значення з надісланої форми, використовуючи синтаксис фігурних дужок зі сладжем поля. За налаштуванням буде використано { title } і { content } відповідно.\n",
-                "submit": "Validate changes",
+                "submit": "Підтвердити зміни",
                 "field": {
-                    "title": "",
-                    "tags": "",
+                    "title": "Заголовок дискусії",
+                    "tags": "Теги дискусії",
                     "tags-help": "",
                     "content": ""
                 }
             },
             "confirmation-email-options-modal": {
-                "title": "",
-                "submit": "",
+                "title": "Шаблон електронної пошти",
+                "submit": "Підтвердити зміни",
                 "field": {
-                    "title": "",
-                    "message": ""
+                    "title": "Заголовок",
+                    "message": "Тіло"
                 }
             },
             "save-controls": {
@@ -213,7 +213,7 @@
                 "saved-at": "",
                 "undo": "",
                 "redo": "",
-                "save": ""
+                "save": "Зберегти"
             },
             "permission-controls": {
                 "inherit": "",
@@ -223,8 +223,8 @@
             },
             "template-editor": {
                 "add-field": "",
-                "title": "",
-                "description": "",
+                "title": "Заголовок",
+                "description": "Опис",
                 "key": "",
                 "fill-permission": "",
                 "required": "",
