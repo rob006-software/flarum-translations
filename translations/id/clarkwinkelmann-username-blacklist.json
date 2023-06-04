@@ -5,9 +5,9 @@
                 "regex": "",
                 "regexHelp": "Beralih dari daftar domain ke pemeriksaan reguler expression. Setiap baris dari sebuah daftar harus berupa regular expression yang valid dengan delimiter.\n",
                 "message": "Pesan Kesalahan Khusus",
-                "blacklist": "",
+                "blacklist": "Blacklist (Daftar Hitam)",
                 "blacklistHelp": "Satu ekspresi per baris. Jika tidak ada daftar hitam yang disediakan, semua yang tidak masuk dalam daftar putih akan ditolak.\n",
-                "whitelist": "",
+                "whitelist": "Whitelist (Daftar Putih)",
                 "whitelistHelp": "Satu ekspresi per baris. Akan memiliki prioritas di atas daftar hitam.\n"
             }
         },
