@@ -2,16 +2,16 @@
     "clarkwinkelmann-roll-die": {
         "admin": {
             "settings": {
-                "clearOnEdit": "Membuat nomor baru pada saat pengeditan postingan"
+                "clearOnEdit": "Hasilkan nomor baru saat mengedit postingan"
             }
         },
         "forum": {
             "tooltip": {
-                "render": "",
-                "preview": ""
+                "render": "Putaran acak: {number}",
+                "preview": "Putar acak saat menyimpan"
             },
             "composer": {
-                "rollDie": ""
+                "rollDie": "Lempar Dadu"
             }
         }
     }
