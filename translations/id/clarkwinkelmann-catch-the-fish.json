@@ -44,7 +44,7 @@
                 "name-help": "Nama publik untuk ronde ini, akan ditampilkan di banner dan peringkat",
                 "starts-at": "Waktu mulai",
                 "ends-at": "Waktu berakhir",
-                "starting-pack": "",
+                "starting-pack": "Paket Awal",
                 "starting-pack-help": "Akan ada beberapa ikan yang bisa Anda dapatkan dalam waktu singkat",
                 "create": "Buat ronde",
                 "save": "Simpan ronde",
@@ -64,7 +64,7 @@
             },
             "fish-image": {
                 "alt": "Gambar ikan \"{name}\"",
-                "missing": ""
+                "missing": "Gambar ikan tidak ditemukan"
             },
             "round-alert": {
                 "message": "Ronde \"{name}\", tangkap ikan sebanyak-banyaknya hingga {time}",
@@ -82,7 +82,7 @@
                 "name": "Nama",
                 "start": "Dari",
                 "end": "Hingga",
-                "actions": "",
+                "actions": "Tindakan",
                 "edit": "Edit",
                 "fishes": "Ikan"
             },
@@ -95,9 +95,9 @@
                 "user-name": "Terakhir dinamai oleh",
                 "user-place": "Terakhir ditempatkan oleh",
                 "placement": "Lokasi saat ini",
-                "actions": "",
+                "actions": "Tindakan",
                 "edit": "Edit",
-                "no-user-name": "",
+                "no-user-name": "Belum pernah ganti nama",
                 "no-user-place": "",
                 "upload": "Upload gambar baru",
                 "new-from-image": "Membuat ikan baru melalui impor gambar massal"
@@ -126,7 +126,7 @@
                 "user-probability": "Kemungkinan untuk ditempatkan pada profil pengguna (%)",
                 "discussion": "Diskusi",
                 "discussion-age": "Berapa usia diskusi agar ikan dapat ditempatkan di atasnya (hari)",
-                "discussion-tags": "",
+                "discussion-tags": "Tag - daftar putih",
                 "discussion-tags-unavailable": "Pengaturan tidak tersedia karena ekstensi Tag tidak aktif.",
                 "discussion-tags-help": "Jika Anda tidak memilih tag apa pun, diskusi apa pun yang cocok dengan pengaturan waktu di atas dapat dipilih. Jika ada sejumlah tag yang dipilih, sebuah diskusi harus memiliki setidaknya satu dari tag yang dipilih untuk dipilih. Probabilitas adalah peluang untuk dipilih setelah semua pilihan sebelumnya telah dicoba. Tag terakhir dalam list akan selalu bertindak sebagai fallback, jadi pastikan tag tersebut memiliki setidaknya satu diskusi yang valid di dalamnya.\n",
                 "tags-header": {
