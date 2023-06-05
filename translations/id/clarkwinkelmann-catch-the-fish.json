@@ -5,21 +5,21 @@
                 "add": "Tambahkan",
                 "edit": "Edit",
                 "delete": "Hapus",
-                "fishes": "",
-                "rounds": ""
+                "fishes": "Ikan",
+                "rounds": "Ronde"
             },
             "nav": {
                 "rankings": "",
                 "settings": ""
             },
             "new-round-modal": {
-                "title": ""
+                "title": "Ronde Baru"
             },
             "new-fish-modal": {
-                "title": ""
+                "title": "Ikan Baru"
             },
             "edit-round-modal": {
-                "title": ""
+                "title": "Edit Ronde \"{name}\""
             },
             "edit-fish-modal": {
                 "title": ""
@@ -54,24 +54,24 @@
             "edit-fish": {
                 "name": "Nama",
                 "name-help": "",
-                "create": "",
-                "save": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "create": "Buat ikan",
+                "save": "Simpan ikan",
+                "delete": "Hapus ikan",
+                "delete-confirmation": "Menghapus ikan \"{name}\" ?"
             },
             "moving-fish": {
-                "login": ""
+                "login": "Login untuk menangkap ikan"
             },
             "fish-image": {
-                "alt": "",
+                "alt": "Gambar ikan \"{name}\"",
                 "missing": ""
             },
             "round-alert": {
-                "message": "",
-                "rankings": ""
+                "message": "Round \"{name}\", tangkap ikan sebanyak-banyaknya hingga {time}",
+                "rankings": "Lihat peringkat"
             },
             "basket": {
-                "title": "",
+                "title": "Keranjang Ikan",
                 "drag-help": "",
                 "time": ""
             },
@@ -90,8 +90,8 @@
                 "loading": "",
                 "title": "",
                 "new": "",
-                "image": "",
-                "name": "",
+                "image": "Gambar",
+                "name": "Nama",
                 "user-name": "",
                 "user-place": "",
                 "placement": "",
@@ -107,11 +107,11 @@
                 "title": "",
                 "rank": "",
                 "count": "",
-                "user": ""
+                "user": "Pengguna"
             },
             "page-ranking": {
-                "title": "",
-                "permission": "",
+                "title": "Daftar Peringkat",
+                "permission": "Anda tidak memiliki izin untuk melihat daftar peringkat",
                 "nothing": ""
             },
             "drop-area": {
@@ -121,11 +121,11 @@
         },
         "admin": {
             "settings": {
-                "user": "",
-                "user-age": "",
-                "user-probability": "",
-                "discussion": "",
-                "discussion-age": "",
+                "user": "Pengguna",
+                "user-age": "Berapa lama pengguna harus aktif agar ikan dapat ditempatkan di atasnya (hari)",
+                "user-probability": "Kemungkinan untuk ditempatkan pada profil pengguna (%)",
+                "discussion": "Diskusi",
+                "discussion-age": "Berapa usia diskusi agar ikan dapat ditempatkan di atasnya (hari)",
                 "discussion-tags": "",
                 "discussion-tags-unavailable": "Pengaturan tidak tersedia karena ekstensi Tag tidak aktif.",
                 "discussion-tags-help": "Jika Anda tidak memilih tag apa pun, diskusi apa pun yang cocok dengan pengaturan waktu di atas dapat dipilih. Jika ada sejumlah tag yang dipilih, sebuah diskusi harus memiliki setidaknya satu dari tag yang dipilih untuk dipilih. Probabilitas adalah peluang untuk dipilih setelah semua pilihan sebelumnya telah dicoba. Tag terakhir dalam list akan selalu bertindak sebagai fallback, jadi pastikan tag tersebut memiliki setidaknya satu diskusi yang valid di dalamnya.\n",
@@ -134,8 +134,8 @@
                     "probability": ""
                 },
                 "tags-control": {
-                    "choose": "",
-                    "add": "",
+                    "choose": "Pilih tag",
+                    "add": "Tambahkan ke daftar putih",
                     "down": "",
                     "up": "",
                     "delete": ""
@@ -148,16 +148,16 @@
                 "post-age": "",
                 "post-probability": "Kemungkinan untuk ditempatkan pada post daripada diskusi (%)",
                 "general": "",
-                "time-to-place": "",
-                "alert-round": "",
-                "animate-flip": ""
+                "time-to-place": "Waktu yang diberikan untuk menempatkan ikan sebelum ditempatkan secara acak (menit)",
+                "alert-round": "Tampilkan peringatan dengan nama putaran dan durasi di homepage",
+                "animate-flip": "Balik gambar ikan berdasarkan arah"
             },
             "permissions": {
-                "visible": "",
-                "list-rankings": "",
+                "visible": "Melihat ikan-ikan",
+                "list-rankings": "Mengakses halaman peringkat",
                 "participate": "",
-                "choose-place": "",
-                "choose-name": "",
+                "choose-place": "Memilih penempatan ikan setelah penangkapan",
+                "choose-name": "Memilih nama ikan setelah ditangkap",
                 "moderate": ""
             }
         },
