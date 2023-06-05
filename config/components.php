@@ -843,7 +843,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/justoverclock-job-cards.yml',
 	],
 	'justoverclock-keywords' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-keywords/1.9.4/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-keywords/2.0.0/resources/locale/en.yml',
 	],
 	'justoverclock-last-post-useravatar' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/last-post-useravatar/0.1.8/locale/en.yml',
