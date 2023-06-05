@@ -3,26 +3,26 @@
         "forum": {
             "pusher_not_found": "Pusher atau Websockets diperlukan agar obrolan dapat diperbarui secara real time.",
             "index": {
-                "chat_link": "Obrolan"
+                "chat_link": "Chat"
             },
             "toolbar": {
-                "title": "Obrolan",
+                "title": "Chat",
                 "enable_sounds": "Aktifkan suara",
                 "disable_sounds": "Matikan suara",
                 "enable_notifications": "Aktifkan notifikasi",
                 "disable_notifications": "Matikan notifikasi",
-                "minimize": "",
-                "maximize": "",
+                "minimize": "Kecilkan",
+                "maximize": "Lebarkan",
                 "chat": {
                     "settings": "Pengaturan obrolan"
                 }
             },
             "chat": {
                 "welcome": {
-                    "header": "",
+                    "header": "Selamat datang di Neon Chat!",
                     "subheader": "Pilih obrolan di sebelah kiri untuk percakapan"
                 },
-                "moder": "",
+                "moder": "Moderator",
                 "kick": "Keluarkan",
                 "leave": "Keluar",
                 "rejoin": "Bergabung kembali",
@@ -42,8 +42,8 @@
                             "validator": "Dalam format hex"
                         },
                         "icon": {
-                            "label": "",
-                            "validator": ""
+                            "label": "=> core.ref.icon",
+                            "validator": "=> core.ref.icon_text"
                         },
                         "users": {
                             "edit": "Pilih dan edit pengguna"
@@ -62,12 +62,12 @@
                         "failed": "Tidak ditemukan pengguna yang cocok",
                         "invited": "Diundang"
                     },
-                    "save_button": ""
+                    "save_button": "=> core.ref.save_changes"
                 },
                 "list": {
                     "pin": "",
                     "unpin": "",
-                    "placeholder": "",
+                    "placeholder": "Filter Obrolan",
                     "preview": {
                         "empty": "Tidak ada pesan"
                     },
@@ -89,12 +89,12 @@
                                 "validator": "Setidaknya 1 simbol"
                             },
                             "icon": {
-                                "label": "",
-                                "validator": ""
+                                "label": "=> core.ref.icon",
+                                "validator": "=> core.ref.icon_text"
                             },
                             "color": {
-                                "label": "",
-                                "validator": ""
+                                "label": "=> xelson-chat.forum.chat.edit_modal.form.color.label",
+                                "validator": "=> xelson-chat.forum.chat.edit_modal.form.color.validator"
                             },
                             "users": "Pengguna yang dipilih"
                         },
@@ -117,7 +117,7 @@
                     "deleted_forever": "dihapus selamanya oleh",
                     "you": "Anda",
                     "type": {
-                        "url": "",
+                        "url": "URL",
                         "event": "",
                         "code": ""
                     },
@@ -160,22 +160,22 @@
         },
         "admin": {
             "permissions": {
-                "post": "Kirim pesan obrolan",
-                "edit": "Edit pesan obrolan",
-                "delete": "Hapus pesan obrolan",
-                "enabled": "Aktifkan obrolan",
+                "post": "Mengirim pesan obrolan",
+                "edit": "Mengedit pesan obrolan",
+                "delete": "Menghapus pesan obrolan",
+                "enabled": "Mengaktifkan obrolan",
                 "create": {
-                    "chat": "Mulai obrolan",
-                    "channel": "Mulai saluran"
+                    "chat": "Memulai obrolan",
+                    "channel": "Memulai saluran"
                 },
                 "moderate": {
-                    "delete": "Hapus pesan obrolan",
-                    "vision": "Lihat pesan yang dihapus"
+                    "delete": "Menghapus pesan obrolan",
+                    "vision": "Melihat pesan yang dihapus"
                 }
             },
             "settings": {
                 "title": "Pengaturan obrolan",
-                "charlimit": "",
+                "charlimit": "Jumlah karakter maksimum dalam pesan",
                 "floodgate": {
                     "title": "Antiflood (anti banjir)",
                     "number": "Jumlah pesan dalam satu baris",
@@ -183,7 +183,7 @@
                 },
                 "display": {
                     "title": "Tampilan",
-                    "minimize": "",
+                    "minimize": "Kecilkan tampilan awalnya",
                     "censor": "Menyensor pesan untuk pengguna yang tidak sah"
                 }
             }
