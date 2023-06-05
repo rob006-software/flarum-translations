@@ -29,13 +29,13 @@
                 "name-help": "Nama ini akan ditampilkan di samping kotak centang dan sebagai judul di update modal.",
                 "url": "URL",
                 "url-help": "URL ke halaman di mana Anda dapat membaca persyaratan. Akan terbuka di tab baru ketika diklik.",
-                "update-message": "Update Pesan",
-                "update-message-help": "Pesan untuk ditampilkan kepada pengguna lama yang belum menerima persyaratan yang baru.",
+                "update-message": "Perbarui Pesan",
+                "update-message-help": "Pesan untuk ditampilkan kepada pengguna lama yang belum menerima ketentuan yang baru.",
                 "terms-updated-at": "Diperbarui pada",
                 "terms-updated-at-placeholder": "",
                 "terms-updated-at-help": "Tanggal perubahan persyaratan terbaru. Menentukan nilai ini akan mengharuskan semua pengguna yang menerima sebelum tanggal tersebut untuk menerima lagi. Harus di waktu sebelumnya (jika tidak, pengguna tidak akan pernah bisa menerima setelah tanggal tersebut dan dapat melewati modal).\n",
                 "export-url": "",
-                "export-url-help": ""
+                "export-url-help": "Setiap pengguna yang memiliki izin \"Ekspor semua data kebijakan\" dapat mengakses URL tersebut untuk men-download daftar pengguna yang menerima kebijakan ini. Anda dapat menemukan detail lebih lanjut tentang opsi yang tersedia di <a>wiki ekstensi</a>.\n"
             },
             "permissions": {
                 "see-user-policies-state": "Melihat status kebijakan pengguna",
@@ -54,11 +54,11 @@
                 "updated-recently": "Persyaratan telah diperbarui sejak kunjungan terakhir Anda",
                 "i-accept": "Saya menerima kebijakan <a>{policy}</a>",
                 "accept": "Konfirmasi",
-                "close": ""
+                "close": "Terima kasih telah menerima, Anda sekarang dapat kembali ke forum"
             },
             "state-modal": {
-                "title": "",
-                "accepted-at": "",
+                "title": "Ketentuan menerima status untuk pengguna {username}",
+                "accepted-at": "Diterima {date}",
                 "not-accepted": "Tidak diterima"
             },
             "update-alert": {
@@ -67,7 +67,7 @@
                 "review": "Klik di sini untuk meninjau dan menerima persyaratan yang baru"
             },
             "user_controls": {
-                "state_button": ""
+                "state_button": "Ketentuan menerima status"
             }
         }
     }
