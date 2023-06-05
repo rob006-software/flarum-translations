@@ -117,7 +117,7 @@
                 "description": "FoF Upload menggunakan library <a>PHP Mime Detector</a> untuk common MIME types and PHP Fileinfo sebagai fallback.\nNilai MIME yang dikembalikan oleh Fileinfo dapat berbeda dari server ke server!\n",
                 "select": "Pilih file di bawah ini untuk memeriksa nilai yang akan digunakan. File tidak akan disimpan.",
                 "laravel-validation": "Laravel File Validation",
-                "no-file-selected": "No file",
+                "no-file-selected": "Tidak ada file",
                 "validation-passed": "Passed",
                 "validation-failed": "Failed: {error}",
                 "mime-detector": "Mime Detector (primary)",
@@ -132,24 +132,24 @@
                 "attach": "Attach",
                 "upload": "Upload",
                 "user_uploads": "User uploads",
-                "cancel": "Cancel",
+                "cancel": "Batal",
                 "media": "Media Saya"
             },
             "file_list": {
-                "loading": "Loading files...",
-                "empty": "There are no files to show.",
+                "loading": "Memuat file...",
+                "empty": "Tidak ada file untuk ditampilkan.",
                 "release_to_upload": "Release to upload",
                 "modal_empty_desktop": "Daftar file Anda kosong. Klik tombol atau seret file ke sini untuk meng-upload.",
                 "modal_empty_phone": "Daftar file Anda kosong. Tekan tombol di atas untuk meng-upload file.",
                 "select_file_a11y_label": "Pilih file \"{fileName}\"",
                 "confirm_selection_btn": "{fileCount, plural, =0 {Tidak ada yang dipilih} one {Pilih file} other {Pilih file}}",
-                "load_more_files_btn": "Load more files",
+                "load_more_files_btn": "Muat lebih banyak file",
                 "hide_file": {
                     "btn_a11y_label": "Sembunyikan \"{fileName}\" dari media manager",
                     "hide_confirmation": "Apakah Anda yakin ingin menyembunyikan \"{fileName}\"? Menyembunyikan file hanya akan menghapus file tersebut dari media manager Anda dan tidak akan memengaruhi postingan yang ada.",
-                    "hide_success": "File hidden",
-                    "hide_fail": "Couldn't hide file \"{fileName}\"",
-                    "loading": "Hiding file..."
+                    "hide_success": "File disembunyikan",
+                    "hide_fail": "Tidak dapat menyembunyikan file \"{fileName}\"",
+                    "loading": "Menyembunyikan file..."
                 }
             },
             "states": {
