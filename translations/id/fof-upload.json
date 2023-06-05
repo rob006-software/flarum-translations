@@ -13,10 +13,10 @@
                 "resize": "Pilih apakah Anda ingin mengubah ukuran gambar sebelum di-upload. Anda dapat memilih lebar dan tinggi maksimum, dalam piksel. Proses pengubahan ukuran akan mempertahankan aspect ratio gambar.\n",
                 "client_extension": "Secara default, Upload akan memilih ekstensi file yang aman berdasarkan MIME type.\nUntuk beberapa jenis file yang berbasis ZIP atau data biner, hal ini dapat mengakibatkan ekstensi umum digunakan, alih-alih ekstensi yang diharapkan.\nDi sini Anda dapat memasukkan daftar ekstensi file yang dipisahkan dengan tanda koma yang akan disimpan secara kata demi kata.\n",
                 "watermark": "Tentukan apakah gambar akan ditambahkan watermark saat di-upload. Watermark ditambahkan ke non-gif berdasarkan preferensi Anda di bawah ini.\n",
-                "s3_compatible_storage": "Pengaturan berikut hanya diperlukan saat menggunakan penyimpanan yang kompatibel dengan S3. Jika Anda menggunakan AWS, Anda dapat membiarkannya tetap kosong.\n",
-                "s3_acl": "ACL yang harus diterapkan ke objek yang diupload (default: private). Untuk value-nya, lihat https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
-                "s3_instance_profile": "Biarkan key dan secret kosong untuk menggunakan kredensial di profil instan.\n",
-                "composer_buttons": "Secara default, media manager button dan upload button akan terlihat. Anda juga dapat memilih untuk hanya menampilkan satu button saja.\n"
+                "s3_compatible_storage": "Pengaturan berikut ini hanya diperlukan bila menggunakan penyimpanan yang kompatibel dengan S3. Jika Anda menggunakan AWS, Anda dapat mengosongkannya.\n",
+                "s3_acl": "ACL yang harus diterapkan pada objek yang diupload (default: private). Untuk value-nya, lihat https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_instance_profile": "Biarkan key dan secret kosong untuk menggunakan kredensial di profil instans.\n",
+                "composer_buttons": "Secara default, tombol media manager dan tombol upload terlihat. Anda juga dapat memilih untuk hanya menampilkan satu tombol saja.\n"
             },
             "labels": {
                 "aws-s3": {
@@ -25,7 +25,7 @@
                     "region": "Region",
                     "secret": "Secret",
                     "title": "Pengaturan AWS S3 storage",
-                    "advanced_title": "Pengaturan Advanced S3 storage",
+                    "advanced_title": "Pengaturan S3 storage lanjutan",
                     "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Use path style endpoint",
                     "acl": "Access Control List (ACL)"
@@ -57,11 +57,11 @@
                     "max_file_size": "Maximum file size (in kilobytes)",
                     "mime_types": "Konfigurasikan mime type Anda, upload adapter mapping",
                     "title": "Preferensi umum",
-                    "php_ini_values": "Your <code>php.ini</code> values are <code>post_max_size={post}</code> and <code>upload_max_filesize={upload}</code>. Ensure the value set here is below these thresholds, or adjust them accordingly. If using <code>Nginx</code>, also ensure that <code>client_max_body_size</code> is of sufficient size for your chosen max limit."
+                    "php_ini_values": "Value <code>php.ini</code> Anda adalah <code>post_max_size={post}</code> dan <code>upload_max_filesize={upload}</code>. Pastikan value yang ditetapkan di sini berada di bawah ambang batas ini, atau sesuaikan dengan kebutuhan Anda. Jika menggunakan  <code>Nginx</code>, pastikan juga bahwa <code>client_max_body_size</code> memiliki ukuran yang cukup untuk batas maksimal yang Anda pilih."
                 },
                 "resize": {
                     "max_width": "Lebar/tinggi gambar maksimum",
-                    "title": "Image resize",
+                    "title": "Mengubah ukuran gambar",
                     "toggle": "Ubah ukuran gambar"
                 },
                 "client_extension": {
@@ -74,7 +74,7 @@
                     "toggle": "Gambar watermark"
                 },
                 "composer_buttons": {
-                    "title": "Composer buttons",
+                    "title": "Tombol-tombol",
                     "options": {
                         "both": "Keduanya",
                         "upload-btn": "Hanya upload button",
@@ -133,20 +133,20 @@
                 "upload": "Upload",
                 "user_uploads": "User uploads",
                 "cancel": "Cancel",
-                "media": "My media"
+                "media": "Media Saya"
             },
             "file_list": {
                 "loading": "Loading files...",
                 "empty": "There are no files to show.",
                 "release_to_upload": "Release to upload",
-                "modal_empty_desktop": "Your file list is empty. Click the button or drag a file here to upload.",
-                "modal_empty_phone": "Your file list is empty. Tap the button above to upload a file.",
-                "select_file_a11y_label": "Select file \"{fileName}\"",
+                "modal_empty_desktop": "Daftar file Anda kosong. Klik tombol atau seret file ke sini untuk meng-upload.",
+                "modal_empty_phone": "Daftar file Anda kosong. Tekan tombol di atas untuk meng-upload file.",
+                "select_file_a11y_label": "Pilih file \"{fileName}\"",
                 "confirm_selection_btn": "{fileCount, plural, =0 {None selected} one {Select file} other {Select files}}",
                 "load_more_files_btn": "Load more files",
                 "hide_file": {
-                    "btn_a11y_label": "Hide \"{fileName}\" from media manager",
-                    "hide_confirmation": "Are you sure you want to hide \"{fileName}\"? Hiding a file will only remove it from your media manager and will not affect existing posts.",
+                    "btn_a11y_label": "Sembunyikan \"{fileName}\" dari media manager",
+                    "hide_confirmation": "Apakah Anda yakin ingin menyembunyikan \"{fileName}\"? Menyembunyikan file hanya akan menghapus file tersebut dari media manager Anda dan tidak akan memengaruhi postingan yang ada.",
                     "hide_success": "File hidden",
                     "hide_fail": "Couldn't hide file \"{fileName}\"",
                     "loading": "Hiding file..."
