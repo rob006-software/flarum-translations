@@ -2,34 +2,34 @@
     "clarkwinkelmann-scout": {
         "admin": {
             "setting": {
-                "driver": "",
+                "driver": "Драйвер",
                 "driverOption": {
-                    "null": "",
-                    "algolia": "",
-                    "meilisearch": "",
-                    "tntsearch": ""
+                    "null": "Null",
+                    "algolia": "Algolia",
+                    "meilisearch": "Meilisearch",
+                    "tntsearch": "TNTSearch"
                 },
-                "prefix": "",
-                "queue": "",
-                "queueHelp": "",
-                "limit": "",
-                "limitPlaceholder": "",
-                "limitHelp": "",
-                "queryMinLength": "",
-                "queryMinLengthPlaceholder": "",
-                "queryMinLengthHelp": "",
-                "algoliaId": "",
-                "algoliaSecret": "",
-                "algoliaConnectTimeout": "",
-                "algoliaReadTimeout": "",
-                "algoliaWriteTimeout": "",
-                "meilisearchHost": "",
-                "meilisearchKey": "",
-                "tntsearchMaxDocs": "",
-                "tntsearchFuzziness": "",
-                "tntsearchFuzzyDistance": "",
-                "tntsearchFuzzyPrefixLength": "",
-                "tntsearchFuzzyMaxExpansions": ""
+                "prefix": "Префікс імені індексу (необов'язково)",
+                "queue": "Обробляти оновлення індексів у черзі",
+                "queueHelp": "Цей параметр діє тільки якщо у Flarum налаштовано драйвер асинхронної черги.",
+                "limit": "Обмеження результатів за налаштуванням",
+                "limitPlaceholder": "Авто",
+                "limitHelp": "Це перевизначить кількість результатів, запитуваних до пошукової системи, і вплине на кількість сторінок результатів, які можуть бути згенеровані (ліміт також враховує вміст, який користувач не зможе побачити). Деякі пошукові системи можуть вимагати додаткового налаштування, щоб змінити максимально дозволене значення.\n",
+                "queryMinLength": "Мінімальна довжина запиту для пропозицій",
+                "queryMinLengthPlaceholder": "Авто",
+                "queryMinLengthHelp": "Цей параметр впливає лише на випадаючий список пропозицій у заголовку пошукового запиту. За налаштуванням Flarum має довжину запиту 3 символи перед отриманням пропозицій, яку ви можете змінити за допомогою цього налаштування. Повна сторінка результатів пошуку ніколи не має мінімальної довжини запиту. Ви повинні очистити кеш після зміни цього значення.\n",
+                "algoliaId": "Algolia ID",
+                "algoliaSecret": "Algolia Secret",
+                "algoliaConnectTimeout": "Algolia Connect Timeout (необов'язково)",
+                "algoliaReadTimeout": "Algolia Read Timeout (необов'язково)",
+                "algoliaWriteTimeout": "Algolia Write Timeout (необов'язково)",
+                "meilisearchHost": "Хост Meilisearch",
+                "meilisearchKey": "Ключ Meilisearch",
+                "tntsearchMaxDocs": "TNT Search Max Docs (опція, максимальна кількість результатів)",
+                "tntsearchFuzziness": "Нечіткість пошуку TNT (зіставлення помилок/варіацій)",
+                "tntsearchFuzzyDistance": "Нечіткість пошуку TNT Відстань Левенштейна (необов'язково)",
+                "tntsearchFuzzyPrefixLength": "Довжина префікса нечіткості пошуку TNT (необов'язково)",
+                "tntsearchFuzzyMaxExpansions": "TNT Search Fuzziness Max Expansions (опціонально)"
             }
         }
     }
