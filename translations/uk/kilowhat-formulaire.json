@@ -143,9 +143,9 @@
             "form-edit": {
                 "warnings": {
                     "show-on-signup-invalid-permissions": "Для того, щоб використовувати функцію «показати свої», вам потрібно встановити права «бачити свої» та «редагувати свої» для непідтверджених користувачів.\n",
-                    "show-on-composer-invalid-permissions": "",
+                    "show-on-composer-invalid-permissions": "Переконайтеся, що права доступу «бачити свої» і «редагувати свої» збігаються з тими, хто може починати обговорення вибраних тегів, щоб використовувати функцію «показувати в композиторі». Якщо ви не впевнені, встановіть значення «учасники». Це повідомлення може з'явитися, навіть якщо ваші налаштування правильні.\n",
                     "linked-form-is-draft": "Наразі ця форма знаходиться в режимі чернетки. Увімкніть у розділі «Доступ», щоб поля з'явилися на форумі.\n",
-                    "auto-link-permission-warning": ""
+                    "auto-link-permission-warning": "Форми з опцією «автоматично створювати обговорення» використовують глобальний дозвіл на заповнення при автономному доступі.\n"
                 },
                 "expert-mode-warning": "Експертний режим увімкнено. Це дозволяє вам налаштувати ідентифікатори полів і дозволи для кожного поля. Переконайтеся, що ви прочитали документацію про ці можливості, оскільки ви можете щось зламати!\n",
                 "section": {
@@ -195,8 +195,8 @@
                 "field": {
                     "title": "Заголовок дискусії",
                     "tags": "Теги дискусії",
-                    "tags-help": "",
-                    "content": ""
+                    "tags-help": "Список тегів, розділених комами. Обрані теги будуть додані на додаток до тегу, до якого підключена ця форма.\n",
+                    "content": "Вміст допису"
                 }
             },
             "confirmation-email-options-modal": {
@@ -208,134 +208,134 @@
                 }
             },
             "save-controls": {
-                "validation-errors": "",
-                "unsaved-changes": "",
-                "saved-at": "",
-                "undo": "",
-                "redo": "",
+                "validation-errors": "Ми знайшли кілька помилок у вашій заявці",
+                "unsaved-changes": "У вас є незбережені зміни",
+                "saved-at": "Збережено {ago}",
+                "undo": "Відмінити",
+                "redo": "Повторити",
                 "save": "Зберегти"
             },
             "permission-controls": {
-                "inherit": "",
+                "inherit": "Використовувати значення за налаштуванням",
                 "everyone_button": "=> core.admin.permissions_controls.everyone_button",
-                "disabled_members_button": "",
-                "members_button": ""
+                "disabled_members_button": "Неактивні та призупинені учасники",
+                "members_button": "Активні учасники"
             },
             "template-editor": {
-                "add-field": "",
+                "add-field": "Додати поле",
                 "title": "Заголовок",
                 "description": "Опис",
-                "key": "",
-                "fill-permission": "",
-                "required": "",
-                "rich": "",
-                "min": "",
-                "max": "",
-                "integer": "",
-                "email": "",
-                "regex": "",
-                "mime": "",
-                "other": "",
-                "duplicate": "",
-                "delete": "",
-                "missing-title": "",
-                "no-answer": "",
+                "key": "(Експерт) JSON-ключ у корисному навантаженні відправлення",
+                "fill-permission": "(Експерт) Заповнити дозволи",
+                "required": "Обов'язково",
+                "rich": "Розширений текст (TextFormatter)",
+                "min": "Мінімум",
+                "max": "Максимум",
+                "integer": "Ціле число",
+                "email": "Електронна пошта",
+                "regex": "Регулярний вираз",
+                "mime": "MIME-тип (через кому, приймає символ підстановки як другу частину)",
+                "other": "Дозволити «інше» значення користувача",
+                "duplicate": "Дублікат поля",
+                "delete": "Видалити поле",
+                "missing-title": "Поле без заголовка",
+                "no-answer": "Немає відповіді",
                 "type": {
-                    "short": "",
-                    "long": "",
-                    "number": "",
-                    "date": "",
-                    "checkbox": "",
-                    "radio": "",
-                    "select": "",
-                    "upload": "",
-                    "content": "",
-                    "items": ""
+                    "short": "Короткий текст",
+                    "long": "Довгий текст",
+                    "number": "Число",
+                    "date": "Дата",
+                    "checkbox": "Чекбокси",
+                    "radio": "Радіокнопки",
+                    "select": "Випадаючий список",
+                    "upload": "Завантажити",
+                    "content": "Вміст",
+                    "items": "Багаторазові записи"
                 }
             },
             "options-editor": {
                 "columns": {
-                    "title": "",
-                    "key": ""
+                    "title": "Заголовок",
+                    "key": "(Експерт) Унікальний ключ"
                 },
-                "remove": "",
-                "new-placeholder": ""
+                "remove": "Видалити опцію",
+                "new-placeholder": "Нова опція..."
             },
             "items-editor": {
-                "add": "",
-                "remove": ""
+                "add": "Додати рядок",
+                "remove": "Видалити рядок"
             },
             "upload-editor": {
-                "uploading": "",
-                "remove": ""
+                "uploading": "Завантаження...",
+                "remove": "Видалити файл"
             },
             "rich-text": {
-                "preview-placeholder": ""
+                "preview-placeholder": "Почніть вводити для попереднього перегляду"
             },
             "select": {
-                "choose": ""
+                "choose": "Оберіть варіант"
             },
             "choice": {
-                "other-label": "",
-                "other-placeholder": ""
+                "other-label": "Інше:",
+                "other-placeholder": "Тип..."
             },
             "submission": {
-                "form-closed": "",
-                "form-full": "",
-                "edit-forbidden": "",
-                "submitted-successfully": "",
-                "edit-submission": "",
-                "submit-other": "",
-                "unlock": "",
-                "lock": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "form-closed": "Ця форма закрита.",
+                "form-full": "Ця форма набрала максимальну кількість заявок.",
+                "edit-forbidden": "Ви більше не можете редагувати цю заявку.",
+                "submitted-successfully": "Ваша заявка успішно відправлена.",
+                "edit-submission": "Редагувати заявку",
+                "submit-other": "Надішліть ще одну",
+                "unlock": "Розблокувати",
+                "lock": "Заблокувати",
+                "restore": "Відновити",
+                "hide": "Видалити",
+                "delete": "Видалити назавжди",
+                "delete-confirmation": "Заявка від {date} буде безповоротно видалена"
             },
             "submission-index": {
-                "form-edit": "",
-                "form-show": "",
-                "show": "",
-                "guest": "",
-                "load-more": "",
-                "empty": "",
-                "search": "",
-                "export": "",
+                "form-edit": "Редагувати форму",
+                "form-show": "Нова заявка",
+                "show": "Показати",
+                "guest": "Гість",
+                "load-more": "Завантажити більше",
+                "empty": "Поки що немає заявок",
+                "search": "Пошукові запити...",
+                "export": "Експорт",
                 "columns": {
-                    "date": "",
-                    "user": "",
-                    "actions": ""
+                    "date": "Дата",
+                    "user": "Користувач",
+                    "actions": "Дії"
                 }
             },
             "badge": {
-                "locked": "",
-                "hidden": ""
+                "locked": "Закрито",
+                "hidden": "Приховано"
             },
             "error-page": {
-                "denied-title": "",
-                "denied-description": "",
-                "notfound-title": "",
-                "notfound-description": ""
+                "denied-title": "У дозволі відмовлено",
+                "denied-description": "Схоже, у вас немає доступу до цього вмісту. Спробуйте увійти.",
+                "notfound-title": "Не знайдено",
+                "notfound-description": "Цього контенту або не існує, або, можливо, у вас немає до нього доступу."
             },
             "submission-sort": {
-                "latest": "",
-                "oldest": ""
+                "latest": "Останні заявки",
+                "oldest": "Найстаріші заявки"
             },
             "form-sort": {
-                "latest": "",
-                "oldest": ""
+                "latest": "Нові форми",
+                "oldest": "Найстаріші форми"
             },
             "export": {
-                "title": "",
-                "format": "",
-                "heading": "",
-                "fields": "",
-                "meta": "",
-                "more-meta": "",
-                "option-keys": "",
-                "submit": "",
-                "preview": "",
+                "title": "Експортні заявки",
+                "format": "Формат",
+                "heading": "Заголовок / ключі",
+                "fields": "Поля",
+                "meta": "Метадані",
+                "more-meta": "Більше метаопцій",
+                "option-keys": "Експортуйте ключі опцій замість заголовків для чекбоксів, радіокнопок та списку",
+                "submit": "Скачати",
+                "preview": "Попередній перегляд",
                 "format-options": {
                     "xlsx": "XLSX",
                     "xls": "XLS",
@@ -344,9 +344,9 @@
                     "json": "JSON"
                 },
                 "heading-options": {
-                    "title": "",
-                    "key": "",
-                    "none": ""
+                    "title": "Заголовки полів",
+                    "key": "Ключі поля",
+                    "none": "Немає рядка заголовку"
                 },
                 "meta-options": {
                     "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
@@ -362,34 +362,34 @@
                     "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
                 },
                 "preview-primitives": {
-                    "excel-date": "",
+                    "excel-date": "(ДАНІ EXCEL)",
                     "boolean-true": "True",
                     "boolean-false": "False"
                 }
             },
             "discussion-submission": {
-                "empty": "",
-                "edit": ""
+                "empty": "Наразі немає даних",
+                "edit": "Редагувати"
             },
             "discussion-composer": {
                 "field": {
-                    "tags": "",
-                    "poll": "",
-                    "title": "",
-                    "content": ""
+                    "tags": "Теги",
+                    "poll": "Опитування",
+                    "title": "Заголовок",
+                    "content": "Повідомлення"
                 }
             }
         },
         "api": {
-            "formatter-parsing-error": "",
-            "not-allowed-to-fill-field": "",
-            "duplicate-field-key": "",
-            "cannot-change-form-type": "",
-            "unknown-form": "",
-            "unauthorized-form": "",
-            "unauthorized-scoped-form": "",
-            "file-already-belongs-form": "",
-            "file-already-belongs-submission": "",
+            "formatter-parsing-error": "Не вдалося розібрати вміст: {message}",
+            "not-allowed-to-fill-field": "Ви не маєте права змінювати значення цього поля",
+            "duplicate-field-key": "Ключ повинен бути унікальним",
+            "cannot-change-form-type": "Ви не можете змінити тип форми, яка вже має існуючі заявки",
+            "unknown-form": "Нерозпізнаний ідентифікатор форми {id}",
+            "unauthorized-form": "Ви не маєте необхідних прав для заповнення форми ID {id}",
+            "unauthorized-scoped-form": "Ви не можете заповнити ідентифікатор форми {id} з поточною комбінацією тегів",
+            "file-already-belongs-form": "Файл {id} належить до іншої форми",
+            "file-already-belongs-submission": "Файл {id} належить до іншої заявки",
             "export": {
                 "meta": {
                     "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
@@ -407,43 +407,43 @@
             }
         },
         "mail": {
-            "title-your-submission": "",
-            "title-new-submission": "",
-            "edit": "",
-            "footer": "",
-            "sub-entries": "",
-            "no-answer": ""
+            "title-your-submission": "Ваша заявка для {title}",
+            "title-new-submission": "Нова заявка для {title}",
+            "edit": "Редагувати",
+            "footer": "Надіслано від {title}",
+            "sub-entries": "{count} записів",
+            "no-answer": "Немає відповіді"
         },
         "ref": {
-            "manager": "",
+            "manager": "Менеджер форм",
             "type": {
-                "standalone": "",
-                "discussion": "",
-                "user": ""
+                "standalone": "Окремі форми",
+                "discussion": "Поля для дискусій",
+                "user": "Профіль користувача"
             },
             "permissions": {
-                "fill": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": ""
+                "fill": "Заповніть окремі форми",
+                "seeOwnUser": "Перегляд полів власного профілю",
+                "seeAnyUser": "Перегляд будь-яких полів профілю",
+                "editOwnUser": "Редагувати власні поля профілю",
+                "editAnyUser": "Редагуйте будь-які поля профілю",
+                "seeOwnDiscussion": "Дивіться власні поля для обговорення",
+                "seeAnyDiscussion": "Переглянути будь-які поля для обговорення",
+                "editOwnDiscussion": "Редагувати власні поля для обговорення",
+                "editAnyDiscussion": "Редагуйте будь-які поля обговорення"
             },
             "submission-meta": {
-                "uid": "",
-                "user_id": "",
-                "user_username": "",
-                "user_displayname": "",
-                "user_email": "",
-                "user_activated": "",
-                "link_id": "",
-                "locked_at": "",
-                "created_at": "",
-                "updated_at": "",
-                "hidden_at": ""
+                "uid": "Ідентифікатор заявки",
+                "user_id": "Ідентифікатор користувача",
+                "user_username": "Ім'я користувача",
+                "user_displayname": "Відображене ім'я користувача",
+                "user_email": "Електронна пошта користувача",
+                "user_activated": "Активований обліковий запис",
+                "link_id": "Ідентифікатор пов'язаного ресурсу",
+                "locked_at": "Дата блокування",
+                "created_at": "Дата створення",
+                "updated_at": "Дата оновлення",
+                "hidden_at": "Дата м'якого видалення"
             }
         }
     }
