@@ -39,7 +39,7 @@
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "linkedin": {
-                        "description": "",
+                        "description": "Buatlah aplikasi di {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     }
@@ -60,13 +60,13 @@
             "user": {
                 "settings": {
                     "linked-account": {
-                        "label": "",
-                        "last-used-label": "",
+                        "label": "Akun terhubung",
+                        "last-used-label": "Terakhir digunakan",
                         "link-created-label": "Link dibuat",
                         "orphaned-account": "Anda pernah masuk melalui provider ini sebelumnya, tetapi forum ini telah menonaktifkan sign-in dengan metode ini.",
-                        "help": "",
+                        "help": "Akun terhubung ini memungkinkan Anda untuk login ke forum menggunakan penyedia lain.",
                         "identifier-label": "",
-                        "unlink-confirm": ""
+                        "unlink-confirm": "Apakah Anda yakin ingin menghapus {provider}? Anda tidak akan bisa lagi login ke forum ini, kecuali jika Anda melakukan autentikasi ulang."
                     }
                 }
             },
