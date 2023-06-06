@@ -18,6 +18,7 @@
             "no_permission": "You don't have permission to vote",
             "poll_ended": "This poll has ended.",
             "public_poll": "View voters",
+            "max_votes_allowed": "Poll allows voting for {max, plural, one {# option} other {# options}}.",
             "composer_discussion": {
                 "add_poll": "Add Poll",
                 "edit_poll": "=> fof-polls.forum.moderation.edit"
@@ -35,6 +36,9 @@
                 "image_option_placeholder": "Image URL (optional)",
                 "options_label": "Answers",
                 "public_poll_label": "Allow people to see who voted",
+                "allow_multiple_votes_label": "Allow people to vote for multiple options",
+                "max_votes_label": "Max votes per user",
+                "max_votes_help": "Set to 0 to allow users to vote for all options.",
                 "question_placeholder": "Question",
                 "submit": "Submit"
             },
