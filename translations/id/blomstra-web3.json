@@ -4,25 +4,25 @@
             "settings": {
                 "allow-sign-up": "Izinkan Pendaftaran melalui web3",
                 "ffi-disabled": "Ekstensi PHP FFI tidak diaktifkan. Dotsama wallet tidak akan berfungsi.\n",
-                "infura-project-id": "",
-                "infura-project-id-help": "",
+                "infura-project-id": "ID Infura Project",
+                "infura-project-id-help": "ID Infura Project Anda. Anda bisa mendapatkannya dari https://infura.io, diperlukan untuk wallet berikut: Coinbase, WalletConnect.\n",
                 "prioritize-web3-auth-modals": "Aktifkan Login/Pendaftaran melalui web3 secara default",
                 "signup-with-email": "Mendaftar dengan Email",
                 "no-email-signup-message": "Pesan yang akan ditampilkan untuk pengguna yang tidak mendaftar dengan alamat email (kosongkan untuk menonaktifkan).\n",
-                "no-email-signup-message-help": ""
+                "no-email-signup-message-help": "Gunakan [link]text[/link] untuk menghubungkan ke halaman edit email."
             }
         },
         "forum": {
             "connect-wallet-modal": {
                 "could-not-sign": "Tidak dapat menandatangani nama pengguna secara kriptografis pada akun yang telah dipilih.",
                 "goback": "Kembali",
-                "title": "",
+                "title": "Hubungkan Wallet",
                 "polkadot-wallets": "=> blomstra-web3.ref.polkadot-wallets",
-                "evm-wallets": "",
+                "evm-wallets": "EVM Wallet",
                 "signature-invalid": "Tanda tangan tidak valid."
             },
             "evm-connect-wallet-modal": {
-                "title": "",
+                "title": "EVM Wallets",
                 "bind": "=> blomstra-web3.ref.bind",
                 "disconnect": "=> blomstra-web3.ref.disconnect",
                 "disconnect-and-unbind": "Putuskan koneksi & Lepaskan sambungan",
@@ -32,20 +32,20 @@
                 "attach_address": "=> blomstra-web3.ref.bind",
                 "connection-request-rejected": "Permintaan koneksi ditolak",
                 "disconnect": "=> blomstra-web3.ref.disconnect",
-                "goback": "",
+                "goback": "Kembali ke wallet",
                 "title": "=> blomstra-web3.ref.polkadot-wallets",
                 "select": "=> blomstra-web3.ref.select",
                 "unattach_address": "=> blomstra-web3.ref.unbind"
             },
             "settings": {
-                "wallets_heading": "",
-                "wallet-connect-button": "",
+                "wallets_heading": "Wallet",
+                "wallet-connect-button": "Hubungkan Wallet",
                 "unbind": "=> blomstra-web3.ref.unbind",
                 "unbind_confirm": ""
             },
             "log-in": {
                 "basic-login-link": "",
-                "with-wallet": "",
+                "with-wallet": "Login dengan web3",
                 "select-wallet-account": "=> blomstra-web3.ref.select-wallet-account"
             },
             "sign-up": {
@@ -55,12 +55,12 @@
             }
         },
         "ref": {
-            "select-wallet-account": "",
-            "select": "",
+            "select-wallet-account": "Pilih akun wallet {rightArrow}",
+            "select": "Pilih alamat",
             "bind": "",
             "unbind": "",
-            "disconnect": "",
-            "polkadot-wallets": ""
+            "disconnect": "Putuskan sambungan",
+            "polkadot-wallets": "Polkadot Wallet"
         }
     }
 }
