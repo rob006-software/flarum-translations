@@ -4,31 +4,31 @@
             "settings": {
                 "providers": {
                     "apple": {
-                        "description": "",
-                        "client_id_label": "",
-                        "key_file_id_label": "",
-                        "keyfile_upload_label": "",
-                        "keyfile_upload_help": "",
+                        "description": "Daftarkan forum Anda dengan Apple {link}",
+                        "client_id_label": "Service ID Identifier",
+                        "key_file_id_label": "Key File Identifier",
+                        "keyfile_upload_label": "Key File",
+                        "keyfile_upload_help": "Buat <a>keyfile</a> dan upload di sini",
                         "keyfile_upload": {
-                            "upload_button": "",
-                            "remove_button": ""
+                            "upload_button": "Upload keyfile",
+                            "remove_button": "Hapus keyfile"
                         },
-                        "team_id_label": ""
+                        "team_id_label": "Team ID"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_apple_button": ""
+                "with_apple_button": "Login dengan {provider}"
             },
             "providers": {
-                "apple": ""
+                "apple": "=> fof-oauth.lib.providers.apple"
             }
         },
         "lib": {
             "providers": {
-                "apple": ""
+                "apple": "Apple"
             }
         }
     }
