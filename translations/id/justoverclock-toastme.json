@@ -3,25 +3,25 @@
         "admin": {
             "enabletoast": "Aktifkan/Non-aktifkan Toast Alert",
             "helpenable": "Gunakan pengaturan ini untuk mengaktifkan atau menonaktifkan toast alert",
-            "offsetyy": "",
-            "offsetydesc": "",
-            "offsetxx": "",
-            "offsetxdesc": "",
+            "offsetyy": "Offset Y - vertical axis margin (px) (blank untuk default)",
+            "offsetydesc": "Vertical axis margin - dapat berupa angka yang menunjukkan nilai pixel. Contoh 20 (pixel)",
+            "offsetxx": "Offset X - orizontal axis margin (px) (blank untuk default)",
+            "offsetxdesc": "orizontal axis margin - dapat berupa angka yang mengindikasikan nilai pixel. Contoh 20 (pixel)",
             "dest": "",
             "destdesc": "URL yang harus dituju oleh browser saat toast alert di-klik",
             "duration": "Durasi toast alert harus ditampilkan, isi -1 untuk menampilkan secara permanen",
-            "durdesc": "",
+            "durdesc": "Gunakan milidetik - contoh \"3000\" untuk 3 detik",
             "gravity": "",
-            "gravdesc": "",
-            "position": "",
-            "posdesc": "",
-            "background": "",
-            "backgrounddesc": "",
-            "message": "",
-            "messagedesc": ""
+            "gravdesc": "Atur posisi toast, di atas atau di bawah",
+            "position": "Posisi - Bisa di \"kiri\", \"kanan\" atau \"tengah\"",
+            "posdesc": "Di mana Anda ingin toast muncul? kiri, kanan atau tengah?",
+            "background": "Warna Background (format hex)",
+            "backgrounddesc": "Letakkan warna background Anda dalam format HEX - misalnya \"#ffcc00\"",
+            "message": "Teks untuk Toast",
+            "messagedesc": "Teks untuk alert toast Anda"
         },
         "forum": {
-            "message1": ""
+            "message1": "Sudah menjadi fakta yang sudah lama diketahui bahwa pembaca akan merasa terganggu ketika melihat tata letaknya."
         }
     }
 }
