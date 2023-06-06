@@ -2,29 +2,29 @@
     "nomiscz-auth-wechat": {
         "forum": {
             "buttons": {
-                "login": "",
-                "link": "",
-                "unlink": ""
+                "login": "Login dengan WeChat",
+                "link": "Hubungkan Akun WeChat",
+                "unlink": "Hapus Akun WeChat"
             },
             "alerts": {
-                "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
+                "already_linked": "Akun WeChat sudah terhubung!",
+                "already_used": "Akun WeChat sudah terhubung dengan pengguna lain!",
+                "link_success": "Akun WeChat berhasil terhubung.",
+                "unlink_success": "Akun WeChat berhasil dihapus.",
                 "error": "Ada yang tidak beres, silakan coba lagi nanti!"
             },
             "modals": {
                 "link": {
-                    "title": ""
+                    "title": "Hubungkan Akun WeChat"
                 },
                 "unlink": {
-                    "title": "",
+                    "title": "Hapus Akun WeChat",
                     "info": {
-                        "confirm": "",
+                        "confirm": "Apakah Anda yakin ingin menghapus akun WeChat Anda?",
                         "no_providers": "Anda tidak memiliki penyedia login lain! Anda mungkin harus mereset password Anda."
                     },
                     "buttons": {
-                        "confirm": "",
+                        "confirm": "Ya, hapus akun yang terhubung",
                         "cancel": "Tidak!"
                     }
                 }
@@ -32,7 +32,7 @@
         },
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Pengaturan Autentikasi WeChat",
                 "api_app_id": "",
                 "api_app_secret": ""
             }
