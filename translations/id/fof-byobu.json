@@ -64,7 +64,7 @@
             },
             "user": {
                 "settings": {
-                    "block_pd": ""
+                    "block_pd": "Blokir diskusi pribadi"
                 },
                 "byobu_link": "Diskusi Pribadi",
                 "dropdown_label": "Diskusi Pribadi"
@@ -73,7 +73,7 @@
                 "pd_label": "Seseorang memasukkan saya ke dalam diskusi pribadi baru",
                 "pd_reply_label": "",
                 "pd_reply_text": "",
-                "pd_text": "",
+                "pd_text": "{username} memulai diskusi pribadi baru dengan Anda",
                 "pd_user_left_label": "",
                 "pd_user_left_text": "{username} meninggalkan diskusi pribadi",
                 "pd_added_text": "{username} menambahkan Anda ke dalam diskusi pribadi",
@@ -104,10 +104,10 @@
         },
         "email": {
             "subject": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "[Diskusi Pribadi] {display_name} memulai diskusi pribadi baru dengan Anda",
+                "private_discussion_replied": "[Diskusi Pribadi] {display_name} memposting dalam diskusi pribadi",
+                "recipient_removed": "[Diskusi Pribadi] {display_name} meninggalkan diskusi",
+                "private_discussion_added": "[Diskusi Pribadi] {display_name} menambahkan Anda ke diskusi pribadi"
             },
             "body": {
                 "private_discussion_created": "",
