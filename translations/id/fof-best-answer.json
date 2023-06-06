@@ -2,56 +2,56 @@
     "fof-best-answer": {
         "admin": {
             "permissions": {
-                "best_answer": "",
-                "best_answer_not_own_discussion": ""
+                "best_answer": "Memilih Best Answer (Diskusi sendiri)",
+                "best_answer_not_own_discussion": "Memilih Best Answer (bukan Diskusi sendiri)"
             },
             "settings": {
                 "label": {
-                    "general": "",
-                    "reminders": "",
-                    "advanced": "",
-                    "reminders_notice": ""
+                    "general": "General",
+                    "reminders": "Pengingat",
+                    "advanced": "Lanjutan",
+                    "reminders_notice": "Agar pengingat dapat berfungsi, Anda harus mengatur Flarum scheduler dengan benar."
                 },
-                "allow_select_own_post": "",
-                "allow_select_own_post_help": "",
-                "enable_all_tags_button": "",
+                "allow_select_own_post": "Pilih postingan sendiri",
+                "allow_select_own_post_help": "Izinkan Postingan Sendiri untuk dapat dipilih sebagai best answer",
+                "enable_all_tags_button": "Aktifkan semua tag untuk Best Answer",
                 "enable_all_tags_reminder_button": "",
-                "select_best_answer_reminder_days": "",
-                "select_best_answer_reminder_days_help": "",
-                "schedule_on_one_server": "",
+                "select_best_answer_reminder_days": "Frekuensi pengingat",
+                "select_best_answer_reminder_days_help": "Kirim pengingat setelah jumlah hari yang dapat dikonfigurasi ke Postingan Sendiri untuk memilih Best Answer, 0 = menonaktifkan pengingat.",
+                "schedule_on_one_server": "Gunakan 'onOneServer()' directive untuk task scheduler",
                 "schedule_on_one_server_help": "Membutuhkan Redis/Memcache",
-                "schedule_stop_overnight": "",
+                "schedule_stop_overnight": "Cegah pengiriman notifikasi pengingat di luar jam kerja",
                 "schedule_stop_overnight_help": "Jam 9 malam - 8 pagi waktu server",
                 "schedule_log_output": "Menambahkan output scheduler ke penyimpanan log",
-                "show_filter_label": "",
-                "show_filter_help": "",
+                "show_filter_label": "Tampilkan Best Answer filter dropdown",
+                "show_filter_help": "Untuk tag yang memiliki Best Answer yang diaktifkan, pilih untuk menampilkan opsi filter terpecahkan/belum terpecahkan dalam daftar diskusi",
                 "use_alt_ui": "Tata letak alternatif",
-                "use_alt_ui_help": "",
-                "documentation": "",
-                "introduction": ""
+                "use_alt_ui_help": "Pengaturan Best Answer ada di footer postingan",
+                "documentation": "Dokumentasi",
+                "introduction": "Aktifkan tag mana yang akan mendukung Best Answers di <code><a>flarum/tags</a></code>, dan secara opsional tag mana yang akan mendukung pengingat. Ketika sebuah tag diaktifkan oleh Best Answer, aturlah perizinan untuk setiap grup pengguna yang dapat mengatur jawaban (diskusi sendiri, diskusi apa pun). Perizinan dapat diatur secara global (untuk setiap tag Best Answer yang diaktifkan), atau per tag.\n"
             },
             "edit_tag": {
-                "qna_label": "",
-                "reminders": ""
+                "qna_label": "Aktifkan Best Answers untuk diatur dalam tag ini",
+                "reminders": "Kirim pengingat untuk mengatur Best Answer untuk diskusi di tag ini"
             }
         },
         "forum": {
             "answered_badge": "Terjawab",
-            "this_best_answer": "",
-            "remove_best_answer": "",
+            "this_best_answer": "Pilih Best Answer",
+            "remove_best_answer": "Batalkan pilihan Best Answer",
             "best_answer_button": "Best Answer",
             "best_answer_label": "",
             "errors": {
-                "mismatch": ""
+                "mismatch": "Postingan yang dipilih tidak ada dalam diskusi ini."
             },
             "notification": {
-                "best_answer_in_discussion": "",
-                "content": "",
-                "awarded": "",
+                "best_answer_in_discussion": "{username} memberikan best answer dalam diskusi ini",
+                "content": "Pilih Best Answer jika pertanyaan Anda telah terjawab",
+                "awarded": "Postingan Anda telah dipilih sebagai best answer oleh {username}",
                 "preferences": {
-                    "awarded_best_answer": "",
-                    "best_answer_in_discussion": "",
-                    "select_best_answer": ""
+                    "awarded_best_answer": "Seseorang menetapkan postingan saya sebagai best answer",
+                    "best_answer_in_discussion": "Best answer ada di dalam sebuah diskusi yang Saya ikuti",
+                    "select_best_answer": "Pengingat otomatis untuk memilih best answer dalam diskusi yang Saya mulai"
                 }
             },
             "index": {
@@ -75,8 +75,8 @@
         },
         "email": {
             "subject": {
-                "awarded": "",
-                "ba-set": "",
+                "awarded": "Postingan Anda telah ditetapkan sebagai best answer oleh {display_name}",
+                "ba-set": "Jawaban terbaik ditetapkan oleh {display_name}",
                 "select": "Apakah pertanyaan Anda sudah terjawab?"
             },
             "body": {
