@@ -2,29 +2,29 @@
     "nomiscz-auth-steam": {
         "forum": {
             "buttons": {
-                "login": "",
-                "link": "",
-                "unlink": ""
+                "login": "Login dengan Steam",
+                "link": "Hubungkan Akun Steam",
+                "unlink": "Hapus Akun Steam"
             },
             "alerts": {
-                "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
+                "already_linked": "Akun Steam sudah terhubung!",
+                "already_used": "Akun Steam sudah terhubung dengan pengguna lain!",
+                "link_success": "Akun Steam berhasil terhubung.",
+                "unlink_success": "Akun Steam berhasil dihapus.",
                 "error": "Ada yang tidak beres, silakan coba lagi nanti!"
             },
             "modals": {
                 "link": {
-                    "title": ""
+                    "title": "Hubungkan Akun Steam"
                 },
                 "unlink": {
-                    "title": "",
+                    "title": "Hapus Akun Steam",
                     "info": {
-                        "confirm": "",
+                        "confirm": "Apakah Anda yakin ingin menghapus akun Steam Anda?",
                         "no_providers": "Anda tidak memiliki penyedia login lain! Anda mungkin harus mereset password Anda."
                     },
                     "buttons": {
-                        "confirm": "",
+                        "confirm": "Ya, hapus akun yang terhubung",
                         "cancel": "Tidak!"
                     }
                 }
@@ -32,7 +32,7 @@
         },
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Pengaturan Autentikasi Steam",
                 "api_key_label": "",
                 "use_steam_powered_domain": "Gunakan domain steampowered.com, jangan steamcommunity.com (diblokir di Cina)"
             }
