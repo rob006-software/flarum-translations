@@ -7,39 +7,39 @@
                         "heading": "Pengaturan tampilan",
                         "options": {
                             "position": {
-                                "above-tags-link": "",
-                                "below-tags-link": ""
+                                "above-tags-link": "Di atas tombol \"Tag\"",
+                                "below-tags-link": "Di bawah tombol \"Tag\""
                             }
                         },
                         "labels": {
-                            "position": "",
-                            "top_spacer": "",
-                            "bottom_spacer": ""
+                            "position": "Lokasi link",
+                            "top_spacer": "Tampilkan spasi atas",
+                            "bottom_spacer": "Tampilkan spasi bawah"
                         }
                     },
                     "link_table": {
-                        "heading": "",
+                        "heading": "Menyesuaikan link",
                         "add_link_btn": "Tambah link baru",
-                        "confirm_delete": "",
+                        "confirm_delete": "Konfirmasi penghapusan link \"{link}\"",
                         "alert": {
-                            "fix_errors": ""
+                            "fix_errors": "Anda perlu memperbaiki masalah-masalah di atas sebelum menyimpan perubahan Anda."
                         },
                         "table": {
                             "header": {
                                 "position": "Posisi",
                                 "icon": "Ikon link",
                                 "text": "Teks link",
-                                "url": "",
-                                "internal": "",
+                                "url": "Link url",
+                                "internal": "URL Flarum?",
                                 "delete": "Hapus"
                             },
                             "placeholders": {
-                                "icon": "",
-                                "text": "",
-                                "url": ""
+                                "icon": "fas fa-link",
+                                "text": "My cool site",
+                                "url": "https://flarum.org"
                             },
                             "tooltips": {
-                                "move_up": "",
+                                "move_up": "Geser ke atas",
                                 "move_down": "",
                                 "icon_preview": ""
                             }
@@ -57,7 +57,7 @@
                             "add": "Tambah link",
                             "loading": "Menambahkan link",
                             "fix_url": "URL tidak valid",
-                            "invalid_form": ""
+                            "invalid_form": "Isi semua kolom"
                         },
                         "labels": {
                             "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon",
