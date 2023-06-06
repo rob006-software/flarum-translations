@@ -5,36 +5,36 @@
             "appurl_help": "Harus dimulai dengan http:// atau https:// dan diakhiri dengan /",
             "appid_label": "",
             "appkey_label": "",
-            "openqq_label": "Buka Login QQ",
-            "openwx_label": "Buka Login WeChat",
-            "opensina_label": "Buka Login Weibo"
+            "openqq_label": "Tampilkan QQ Login",
+            "openwx_label": "Tampilkan WeChat Login",
+            "opensina_label": "Tampilkan Weibo Login"
         },
         "forum": {
-            "with_qq_button": "",
-            "with_wx_button": "",
-            "with_sina_button": "",
+            "with_qq_button": "Login via QQ",
+            "with_wx_button": "Login via WeChat",
+            "with_sina_button": "Login via Weibo",
             "alerts": {
-                "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
+                "already_linked": "Third Account sudah terhubung!",
+                "already_used": "Third Account sudah terhubung dengan pengguna lain!",
+                "link_success": "Third Account berhasil terhubung.",
+                "unlink_success": "Third Account berhasil dihapus.",
                 "error": "Ada yang tidak beres, silakan coba lagi nanti!",
                 "unlinked": ""
             },
             "modals": {
-                "link_qq": "",
-                "unlink_qq": "",
-                "confirm_qq": "",
-                "link_wx": "",
-                "unlink_wx": "",
-                "confirm_wx": "",
-                "link_sina": "",
-                "unlink_sina": "",
-                "confirm_sina": "",
-                "no_providers": "",
+                "link_qq": "Hubungkan Akun QQ",
+                "unlink_qq": "Hapus Akun QQ",
+                "confirm_qq": "Apakah Anda yakin, Anda ingin menghapus akun QQ Anda?",
+                "link_wx": "Hubungkan Akun WeChat",
+                "unlink_wx": "Hapus Akun WeChat",
+                "confirm_wx": "Apakah Anda yakin, Anda ingin menghapus akun WeChat Anda?",
+                "link_sina": "Hubungkan Akun Weibo",
+                "unlink_sina": "Hapus Akun Weibo",
+                "confirm_sina": "Apakah Anda yakin, Anda ingin menghapus akun Weibo Anda?",
+                "no_providers": "Anda tidak memiliki penyedia login lain! Anda mungkin harus mereset password Anda.",
                 "buttons": {
-                    "confirm": "",
-                    "cancel": ""
+                    "confirm": "Ya, hapus akun yang terhubung",
+                    "cancel": "Tidak!"
                 }
             }
         }
