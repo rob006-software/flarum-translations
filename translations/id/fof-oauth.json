@@ -8,33 +8,33 @@
                 "providers": {
                     "callback_url_text": "Jika memungkinkan, atur URL callback ke {url}.",
                     "discord": {
-                        "description": "Membuat aplikasi di {link}. Tambahkan URL pengalihan di tab OAuth2.",
+                        "description": "Buatlah aplikasi di {link}. Tambahkan URL pengalihan di tab OAuth2.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "facebook": {
-                        "description": "Membuat aplikasi di {link}.",
+                        "description": "Buatlah aplikasi di {link}.",
                         "app_id_label": "=> fof-oauth.ref.settings.app_id",
                         "app_secret_label": "=> fof-oauth.ref.settings.app_secret"
                     },
                     "github": {
-                        "description": "Membuat OAuth app di {link}.",
+                        "description": "Buatlah OAuth app di {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "gitlab": {
-                        "description": "",
+                        "description": "Buatlah aplikasi di {link}. Berikan aplikasi <code>read_user</code> scope.",
                         "client_id_label": "=> fof-oauth.ref.settings.app_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
                         "domain_label": "Domain GitLab"
                     },
                     "twitter": {
-                        "description": "Membuat aplikasi di {link}. Anda perlu menetapkan URL untuk Ketentuan Layanan dan Kebijakan Privasi. Pastikan untuk menambahkan izin permintaan melalui email.",
+                        "description": "Buatlah aplikasi di {link}. Anda perlu menetapkan URL untuk Ketentuan Layanan dan Kebijakan Privasi. Pastikan untuk menambahkan izin permintaan melalui email.",
                         "api_key_label": "",
                         "api_secret_label": ""
                     },
                     "google": {
-                        "description": "Membuat aplikasi di {link}.",
+                        "description": "Buatlah aplikasi di {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
