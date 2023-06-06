@@ -16,7 +16,7 @@
                 "remove_from_discussion": "Tinggalkan diskusi pribadi ini"
             },
             "composer_private_discussion": {
-                "submit_button": "",
+                "submit_button": "Posting Diskusi Pribadi",
                 "title_placeholder": "Judul Diskusi Pribadi"
             },
             "confirm": {
@@ -34,17 +34,17 @@
             },
             "search": {
                 "headings": {
-                    "groups": ""
+                    "groups": "Grup Perizinan"
                 }
             },
             "modal": {
                 "titles": {
                     "update_recipients": "",
-                    "add_recipients": ""
+                    "add_recipients": "Menambahkan penerima ke dalam diskusi Anda"
                 },
                 "labels": {
-                    "selected_users": "",
-                    "search_field": ""
+                    "selected_users": "Pengguna yang dipilih",
+                    "search_field": "Cari pengguna"
                 },
                 "help": {
                     "add_recipients": "Diskusi ini hanya akan terlihat oleh pengguna yang Anda pilih di sini. Setidaknya diperlukan 1 penerima (selain diri Anda sendiri).",
@@ -55,8 +55,8 @@
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "",
-                    "added": "",
+                    "added_and_removed": "{username} menambahkan {added} sebagai penerima dan menghapus {removed}.",
+                    "added": "{username} menambahkan {added} sebagai penerima.",
                     "made_public": "{username} menghapus semua penerima dan membuat diskusi menjadi publik",
                     "removed": "",
                     "removed_self": "{username} meninggalkan diskusi pribadi."
@@ -82,24 +82,24 @@
         },
         "admin": {
             "permission": {
-                "create_private_discussions_with_users": "",
-                "add_more_than_two_user_recipients": "",
-                "create_private_discussions_with_groups": "",
-                "create_private_discussions_with_blocking_users": "",
-                "edit_user_recipients": "",
-                "edit_group_recipients": "",
+                "create_private_discussions_with_users": "Membuat diskusi pribadi dengan pengguna",
+                "add_more_than_two_user_recipients": "Menambahkan lebih dari 2 penerima ke diskusi pribadi",
+                "create_private_discussions_with_groups": "Membuat diskusi pribadi dengan grup",
+                "create_private_discussions_with_blocking_users": "Membuat diskusi pribadi dengan pengguna yang memblokirnya",
+                "edit_user_recipients": "Mengedit pengguna yang ikut serta dalam diskusi pribadi",
+                "edit_group_recipients": "Mengedit pengguna yang ikut serta dalam diskusi pribadi",
                 "make_private_into_public": "Mengubah diskusi pribadi menjadi diskusi publik",
-                "view_private_discussions-when-flagged": ""
+                "view_private_discussions-when-flagged": "Melihat diskusi pribadi pengguna lain jika ditandai"
             },
             "settings": {
-                "badge-icon": "",
-                "enable-make-public-option": "",
+                "badge-icon": "Badge Diskusi Byobu",
+                "enable-make-public-option": "Aktifkan kemampuan \"jadikan publik\"",
                 "enable-make-public-option-help": "Menambahkan kemampuan bagi mereka yang memiliki izin untuk menghapus semua penerima, menetapkan tag baru, dan membuat diskusi dapat dilihat oleh publik (sesuai dengan pengaturan visibilitas tag yang dipilih).",
                 "post-event-icon": "",
-                "delete_on_last_recipient_left": "Hapus PD ketika pengguna terakhir keluar",
+                "delete_on_last_recipient_left": "Hapus Diskusi Pribadi ketika pengguna terakhir keluar",
                 "delete_on_last_recipient_left_help": "Jika diaktifkan, PD akan dihapus secara permanen dari database ketika pengguna terakhir keluar. Jika tidak, PD akan dihapus secara soft-deleted/disembunyikan.",
-                "hide_from_all_discussions_page": "",
-                "hide_from_all_discussions_page_help": ""
+                "hide_from_all_discussions_page": "Sembunyikan Diskusi Pribadi dari halaman \"Semua Diskusi\"",
+                "hide_from_all_discussions_page_help": "Diskusi pribadi hanya dapat diakses dari halaman \"Diskusi Pribadi\" atau profil pengguna"
             }
         },
         "email": {
