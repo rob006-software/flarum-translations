@@ -3,12 +3,12 @@
         "admin": {
             "popup": {
                 "field": {
-                    "app-auth-url": "",
-                    "app-token-url": "",
+                    "app-auth-url": "URL OAuth authorization",
+                    "app-token-url": "URL token OAuth",
                     "app-user-url": "URL API yang menyediakan detail pengguna saat diautentikasi",
-                    "app-id": "",
-                    "app-secret": "",
-                    "app-scopes": "",
+                    "app-id": "OAuth application ID",
+                    "app-secret": "OAuth application secret",
+                    "app-scopes": "OAuth scopes to request",
                     "button-title": "Tombol login - Title",
                     "button-title-placeholder": "=> fof-passport.api.default-login-button-title",
                     "button-icon": "Tombol login - Ikon"
