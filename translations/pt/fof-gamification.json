@@ -111,23 +111,23 @@
                 },
                 "groups": {
                     "title": "Grupos atribuidos automaticamente",
-                    "help": "",
+                    "help": "Os grupos selecionados são automaticamente adicionados ou removidos quando o número de pontos de um utilizador for alterado. Se efectuou alterações à configuração, deve correr o comando <code>php flarum fof:gamification:assign-groups</code> para actualizar os utilizadores actuais. Se pretende apagar uma regra e remover todos os utilizadores do grupo, coloque o valor máximo e mínimo a vazio, grave as definições e corra o comando de actualização. Poderá posteriormente apagar a regra das definições.\n",
                     "column": {
-                        "group": "",
-                        "minPoints": "",
-                        "maxPoints": ""
+                        "group": "Grupo",
+                        "minPoints": "Pontos mínimos (inclusive)",
+                        "maxPoints": "Pontos máximo (inclusive)"
                     },
-                    "add": "",
-                    "delete": ""
+                    "add": "Adicionar nova regra",
+                    "delete": "Apagar uma regra"
                 }
             }
         },
         "email": {
             "body": {
-                "postVoted": ""
+                "postVoted": "Olá {recipient_display_name},\n\n{actor_display_name} acabou de votar na sua postagem {discussion_title}.\n\nPode aceder aqui: {discussion_url}\n"
             },
             "subject": {
-                "postVoted": ""
+                "postVoted": "A sua postagem recebeu um voto de {display_name}"
             }
         }
     }
