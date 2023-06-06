@@ -74,10 +74,10 @@
                     "add_modal": {
                         "title": "Pilih pengguna",
                         "chat": "Obrolan",
-                        "channel": "Saluran",
+                        "channel": "Channel",
                         "create": {
                             "chat": "Membuat obrolan baru",
-                            "channel": "Membuat saluran baru"
+                            "channel": "Membuat channel baru"
                         },
                         "alerts": {
                             "exists": "Anda tidak dapat membuat PM lain dengan pengguna ini!"
@@ -85,7 +85,7 @@
                         "form": {
                             "title": {
                                 "chat": "Nama obrolan",
-                                "channel": "Nama saluran",
+                                "channel": "Nama channel",
                                 "validator": "Setidaknya 1 simbol"
                             },
                             "icon": {
@@ -129,7 +129,7 @@
                             "created": "{creatorname} membuat obrolan dengan {username}"
                         },
                         "channel": {
-                            "created": "{creatorname} membuat saluran {chatname}"
+                            "created": "{creatorname} membuat channel {chatname}"
                         },
                         "title": {
                             "edited": "{editorname} mengubah judul obrolan dari {old} ke {new}"
@@ -166,7 +166,7 @@
                 "enabled": "Mengaktifkan obrolan",
                 "create": {
                     "chat": "Memulai obrolan",
-                    "channel": "Memulai saluran"
+                    "channel": "Memulai channel"
                 },
                 "moderate": {
                     "delete": "Menghapus pesan obrolan",
