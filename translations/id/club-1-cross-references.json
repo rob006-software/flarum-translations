@@ -2,22 +2,22 @@
     "club-1-cross-references": {
         "admin": {
             "show_discussion_id": {
-                "label": "",
-                "help": ""
+                "label": "Tampilkan ID diskusi",
+                "help": "Menambahkan nomor ID diskusi di mana pun diskusi ditampilkan."
             },
             "enable_short_references": {
                 "label": "Aktifkan referensi singkat",
-                "help": ""
+                "help": "Mengubah teks #<ID> dalam sebuah teks (contoh: #42) menjadi link yang mengarah ke diskusi terkait."
             },
             "retrofit_links_in_frontend": {
-                "label": "",
-                "help": "<p><strong>Deprecated</strong> (akan dihapus pada <code>v1.2.0</code>) Consider using the <code>chore:reparse</code> command of <code>club-1/flarum-ext-chore-commands</code> extension instead. See: <code>https://github.com/club-1/flarum-ext-chore-commands</code></p> <p>Tampilkan link judul diskusi dalam pesan yang dikirim ketika ekstensi ini tidak diaktifkan. Hal ini dilakukan di frontend, sehingga dapat menyebabkan pengalaman pengguna menjadi buruk.</p>\n"
+                "label": "Link retrofit di frontend",
+                "help": "<p><strong>Deprecated</strong> (akan dihapus pada <code>v1.2.0</code>) Pertimbangkan untuk menggunakan command <code>chore:reparse</code> dari ekstensi <code>club-1/flarum-ext-chore-commands</code> sebagai gantinya. Lihat: <code>https://github.com/club-1/flarum-ext-chore-commands</code></p> <p>Tampilkan link judul diskusi dalam pesan yang dikirim ketika ekstensi ini tidak diaktifkan. Hal ini dilakukan di frontend, sehingga dapat menyebabkan pengalaman pengguna menjadi cukup buruk.</p>\n"
             }
         },
         "forum": {
             "post_stream": {
                 "discussion_referenced_text": "{username} mereferensikan diskusi ini dari {source}",
-                "discussion_referenced_multiple_text": ""
+                "discussion_referenced_multiple_text": "{username} merujuk diskusi ini dari berbagai sumber: {sources}"
             },
             "unknown_discussion": "",
             "comment": "komentar"
