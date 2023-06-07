@@ -2,52 +2,52 @@
     "clarkwinkelmann-scratchpad": {
         "admin": {
             "settings": {
-                "title": "",
-                "single-column": "",
-                "theme": "",
-                "theme-auto": "",
-                "indent": "",
+                "title": "Pengaturan Scratchpad",
+                "single-column": "Kelompokkan editor dalam satu kolom, bukan 3 kolom",
+                "theme": "Tema CodeMirror (harus di-refresh agar dapat diterapkan)",
+                "theme-auto": "Otomatis (default untuk tema terang, dracula untuk tema gelap)",
+                "indent": "Jumlah spasi untuk indentasi",
                 "npm-install-command": "",
                 "webpack-command": "",
-                "empty-for-default": "",
-                "validate-live": "",
-                "compile-automatically": ""
+                "empty-for-default": "Biarkan kosong untuk command default",
+                "validate-live": "Lakukan request ke homepage untuk memvalidasi Less dan PHP sebelum menyimpan",
+                "compile-automatically": "Compile JS secara otomatis saat menyimpan"
             },
             "controls": {
-                "refresh": "",
+                "refresh": "Refresh",
                 "save": "Simpan",
-                "compile": "",
-                "settings": "",
-                "new": "",
-                "new-confirmation": "",
+                "compile": "Compile JS",
+                "settings": "Pengaturan editor",
+                "new": "Baru",
+                "new-confirmation": "Scratchpad saat ini tidak disimpan. Hapus dan buat yang baru?",
                 "delete": "Hapus",
-                "delete-confirmation": "",
-                "enable": "",
-                "disable": ""
+                "delete-confirmation": "Menghapus \"{title}\" ?",
+                "enable": "Klik untuk mengaktifkan",
+                "disable": "Klik untuk menonaktifkan"
             },
             "fields": {
-                "title": "",
-                "admin_js": "",
-                "forum_js": "",
-                "admin_less": "",
-                "forum_less": "",
-                "php": ""
+                "title": "Nama Scratchpad",
+                "admin_js": "JS - Admin",
+                "forum_js": "JS - Forum",
+                "admin_less": "Less - Admin",
+                "forum_less": "Less - Forum",
+                "php": "PHP"
             },
             "placeholders": {
-                "untitled": "",
-                "php-comment": "",
-                "js-log": ""
+                "untitled": "Tidak ada judul",
+                "php-comment": "Daftarkan extender di sini",
+                "js-log": "Halo, {frontend}!"
             },
             "compilation-alert": {
-                "success": "",
-                "failure": "",
-                "view-output": ""
+                "success": "Dikompilasi!",
+                "failure": "Kompilasi gagal!",
+                "view-output": "Lihat output"
             },
             "compilation-modal": {
-                "title": "",
+                "title": "Hasil kompilasi",
                 "webpack": "",
                 "npm": "",
-                "npm-not-run": ""
+                "npm-not-run": "NPM tidak dijalankan"
             }
         }
     }
