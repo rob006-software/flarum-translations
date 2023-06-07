@@ -8,17 +8,17 @@
                 "installed-version": "Rilis yang terinstal"
             },
             "settings": {
-                "token": "",
-                "token-description": ""
+                "token": "Token Extiverse (<a>request</a>)",
+                "token-description": "Ambil API token dari Extiverse sehingga <a>Extiverse</a> dapat berkomunikasi dengan aman dengan komunitas Flarum Anda.\n"
             },
             "header-secondary": {
-                "no-token": "",
-                "updates": ""
+                "no-token": "Token Dibutuhkan",
+                "updates": "{count, plural, =0 {Tidak ada pembaruan} one {Satu pembaruan} other {# pembaruan}}"
             }
         },
         "email": {
             "new-extension-update": {
-                "subject": "",
+                "subject": "{count, plural, one {Satu pembaruan tersedia untuk komunitas Anda} other {Tersedia # pembaruan untuk komunitas Anda}}",
                 "body": ""
             }
         }
