@@ -3,35 +3,35 @@
         "admin": {
             "popup": {
                 "section": {
-                    "googleAnalytics": "",
-                    "piwik": ""
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "Matomo"
                 },
                 "field": {
-                    "statusGoogle": "",
-                    "optTrackingCode": "",
-                    "googleTrackingCode": "",
-                    "googleGTMCode": "",
-                    "statusPiwik": "",
-                    "piwikUrl": "",
-                    "piwikSiteId": "",
-                    "piwikTrackSubdomain": "",
-                    "piwikPrependDomain": "",
-                    "piwikHideAliasUrl": "",
-                    "piwikAliasUrl": "",
-                    "piwikTrackAccounts": "",
-                    "piwikAuthToken": ""
+                    "statusGoogle": "Activar Google Analytics (UA/GA4)",
+                    "optTrackingCode": "Optimizar código de rastreamento (opcional)",
+                    "googleTrackingCode": "ID código rastreamento",
+                    "googleGTMCode": "ID código GTM (opcional)",
+                    "statusPiwik": "Activar Matomo",
+                    "piwikUrl": "Dominio ou URL Matomo",
+                    "piwikSiteId": "ID do Site",
+                    "piwikTrackSubdomain": "Rastrear visitantes em todos os subdominios do Flarum",
+                    "piwikPrependDomain": "Anexar o domínio ao título da página quando rastrear",
+                    "piwikHideAliasUrl": "No relatório \"Outlinks\", oculte cliques em URLs idênticos conhecidos",
+                    "piwikAliasUrl": "URL Identicos",
+                    "piwikTrackAccounts": "Rastrear contas de utilizador individualmente",
+                    "piwikAuthToken": "Token de autenticação"
                 },
                 "placeholder": {
-                    "piwikAuthToken": ""
+                    "piwikAuthToken": "Preencha o token para activar a vista de estatísticas no painel de administração Matomo.\nPode encontrar em Configurações > Segurança > Tokens de developer.\n"
                 },
                 "trackAccounts": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "Não rastrear",
+                    "username": "Rastrear por Nome de Utilizador",
+                    "email": "Rastrear por email"
                 }
             },
             "matomo-widget": {
-                "title": ""
+                "title": "Matomo"
             }
         }
     }
