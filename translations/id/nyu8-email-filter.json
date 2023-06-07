@@ -4,28 +4,28 @@
             "general": "General",
             "custom_failure_message_label": "Pesan Kegagalan Khusus",
             "custom_failure_message_hint": "Satu ekspresi per baris. Jika tidak ada daftar hitam yang disediakan, semua yang tidak masuk dalam daftar putih akan ditolak.",
-            "rule_settings": "",
-            "name_placeholder": "",
+            "rule_settings": "Pengaturan Aturan",
+            "name_placeholder": "Nama aturan",
             "invalid_regular_expression": "Reguler expression tidak valid",
             "whitelist_literal": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Daftar putih",
+                "description": "Email yang tepat untuk dimasukkan ke dalam daftar putih",
+                "placeholder": "Email..."
             },
             "whitelist_regex": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Daftar putih - regular expression",
+                "description": "Email regular expressions untuk dimasukkan ke dalam daftar putih",
+                "placeholder": "Regular expression.."
             },
             "blacklist_literal": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Daftar hitam",
+                "description": "Email yang tepat untuk dimasukkan dalam daftar hitam",
+                "placeholder": "Email..."
             },
             "blacklist_regex": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Daftar hitam - regular expression",
+                "description": "Email regular expressions untuk dimasukkan ke dalam daftar hitam",
+                "placeholder": "Regular expression..."
             }
         },
         "forum": {
