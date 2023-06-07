@@ -2,48 +2,48 @@
     "ianm-syndication": {
         "forum": {
             "autodiscovery": {
-                "forum_activity": "",
-                "forum_new_discussions": "",
-                "tag_activity": "",
-                "tag_new_discussions": "",
-                "discussion_last_posts": ""
+                "forum_activity": "Aktivitas forum",
+                "forum_new_discussions": "Diskusi baru di forum",
+                "tag_activity": "Aktivitas untuk tag {tag}",
+                "tag_new_discussions": "Diskusi dalam tag {tag}",
+                "discussion_last_posts": "Diskusi ini"
             },
             "feeds": {
                 "titles": {
                     "main_title": "",
-                    "main_subtitle": "",
-                    "main_d_title": "",
-                    "main_d_subtitle": "",
-                    "tag_title": "",
-                    "tag_subtitle": "",
-                    "tag_d_title": "",
-                    "tag_d_subtitle": "",
+                    "main_subtitle": "Tulisan terakhir di forum",
+                    "main_d_title": "Diskusi baru di {forum_name}",
+                    "main_d_subtitle": "Diskusi terbaru dalam forum",
+                    "tag_title": "Aktivitas dalam tag {tag}",
+                    "tag_subtitle": "Tulisan terakhir dalam tag {tag}",
+                    "tag_d_title": "Diskusi baru dalam tag {tag}",
+                    "tag_d_subtitle": "Diskusi terbaru dalam tag {tag}",
                     "discussion_title": "",
-                    "discussion_subtitle": ""
+                    "discussion_subtitle": "Beberapa pesan terakhir dalam diskusi ini"
                 }
             },
             "discussion": {
-                "feed_link": ""
+                "feed_link": "Feed"
             }
         },
         "admin": {
             "settings": {
                 "full-text": {
-                    "label": "",
-                    "help": "Jika dinonaktifkan, feed hanya akan berisi kutipan postingan, dan user harus masuk ke forum untuk membaca semuanya. Direkomendasikan untuk membiarkan opsi ini aktif untuk menghormati orang-orang yang mengikuti forum dari RSS aggregator-jika ada."
+                    "label": "Teks Lengkap",
+                    "help": "Jika dinonaktifkan, feed hanya akan berisi kutipan dari postingan, dan user harus masuk ke forum untuk membaca semuanya. Direkomendasikan untuk membiarkan opsi ini aktif untuk menghormati orang-orang yang mengikuti forum dari RSS aggregator-jika ada."
                 },
                 "html": {
-                    "label": "",
+                    "label": "Feed Terformat",
                     "help": "Centang ini untuk menggunakan HTML dalam feed yang dihasilkan. Jika dinonaktifkan, feed akan berupa teks biasa."
                 },
                 "entries-count": "Berapa banyak entri per feed?",
                 "forum-icons": {
                     "label": "Tampilkan link Atom/RSS feed di forum",
-                    "help": ""
+                    "help": "Tampilkan ikon di Semua Diskusi, Tag, dan Diskusi untuk memudahkan akses ke feed."
                 },
                 "forum-link-format": {
-                    "label": "",
-                    "help": ""
+                    "label": "Format feed forum",
+                    "help": "Pilih format mana (Atom atau RSS) yang akan digunakan ketika link ditampilkan di forum."
                 }
             }
         }
