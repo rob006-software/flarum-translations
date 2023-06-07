@@ -3,17 +3,17 @@
         "admin": {
             "settings": {
                 "intro": "",
-                "min_length": "",
-                "result_count": ""
+                "min_length": "Jumlah minimal karakter untuk memulai pencarian",
+                "result_count": "Jumlah hasil pada dropdown autocomplete"
             }
         },
         "forum": {
             "index_page": {
                 "filter_user": {
-                    "accessible_label": "",
+                    "accessible_label": "Filter berdasarkan penulis",
                     "all": "Semua",
-                    "label": "",
-                    "search_label": "",
+                    "label": "Filter berdasarkan penulis: {text}",
+                    "search_label": "Cari pengguna...",
                     "no_results": "Tidak ada hasil",
                     "start_typing": "Mulai mengetik...",
                     "keep_typing": "Terus mengetik...",
