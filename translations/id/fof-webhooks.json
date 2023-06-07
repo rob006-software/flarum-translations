@@ -40,7 +40,7 @@
         "admin": {
             "errors": {
                 "service_not_found": "Layanan \"{service}\" tidak dapat ditemukan.",
-                "url_invalid": "",
+                "url_invalid": "URL tidak valid untuk layanan yang dipilih.",
                 "tag_invalid": "Webhook ini dibatasi untuk tag yang tidak valid. Pembatasan tidak akan berlaku. Pastikan hal ini dimaksudkan."
             },
             "nav": {
@@ -59,15 +59,15 @@
                 },
                 "modal": {
                     "title": "Pengaturan Webhook",
-                    "description": "",
+                    "description": "Di sini Anda memodifikasi event apa yang dijalankan oleh webhook.",
                     "use_plain_text_label": "Kurangi jumlah pemformatan dalam konten post",
                     "max_post_content_length_label": "",
                     "max_post_content_length_help": "Tetapkan angka untuk membatasi konten postingan di semua event yang berkaitan dengan postingan. Ubah ke 0 atau kosongkan untuk menghilangkan limit.",
-                    "extra_text_label": "",
-                    "extra_text_help": "",
+                    "extra_text_label": "Teks tambahan",
+                    "extra_text_help": "Teks tambahan untuk disertakan dalam webhook yang dikirim.",
                     "group_label": "Grup",
                     "group_help": "Kirim sumber daya yang dapat dilihat oleh grup ini",
-                    "events_label": ""
+                    "events_label": "Event"
                 },
                 "services": {
                     "discord": "Discord",
