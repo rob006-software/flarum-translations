@@ -34,12 +34,12 @@
         },
         "adapters": {
             "errors": {
-                "404": ""
+                "404": "Webhook Tidak Ditemukan"
             }
         },
         "admin": {
             "errors": {
-                "service_not_found": "",
+                "service_not_found": "Layanan \"{service}\" tidak dapat ditemukan.",
                 "url_invalid": "",
                 "tag_invalid": "Webhook ini dibatasi untuk tag yang tidak valid. Pembatasan tidak akan berlaku. Pastikan hal ini dimaksudkan."
             },
@@ -47,8 +47,8 @@
                 "desc": "Outgoing webhook yang dapat disesuaikan untuk forum Anda."
             },
             "settings": {
-                "debug_label": "",
-                "debug_help": "",
+                "debug_label": "Debug",
+                "debug_help": "Tambahkan log tambahan ke file log Flarum untuk men-debug masalah dengan webhook dan/atau event yang tidak bekerja dengan benar.",
                 "item": {
                     "tag_any_label": ""
                 },
