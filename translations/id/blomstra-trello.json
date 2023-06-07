@@ -3,9 +3,9 @@
         "admin": {
             "modals": {
                 "fields": {
-                    "board": "",
-                    "trello_label": "",
-                    "forum_tags": ""
+                    "board": "Pilih Trello board",
+                    "trello_label": "Pilih Trello label",
+                    "forum_tags": "Pilih tag Forum yang akan dipetakan"
                 },
                 "no_available_labels_label": "Tidak ada label yang tersedia",
                 "no_available_tags_label": "Tidak ada tag forum yang tersedia"
@@ -32,15 +32,15 @@
                 "label": {
                     "general": "General",
                     "boards": "Pengaturan Board",
-                    "labels": ""
+                    "labels": "Pengaturan Label"
                 },
                 "mapping": {
-                    "add_new": "",
+                    "add_new": "Tambahkan pemetaan",
                     "mapping_description": "",
-                    "modal_title": "",
-                    "no_mappings_for_board": ""
+                    "modal_title": "Pemetaan tag baru",
+                    "no_mappings_for_board": "Tidak ada pemetaan tag aktif yang ditetapkan untuk board ini"
                 },
-                "mappings_label": "",
+                "mappings_label": "Tag forum ke pemetaan Trello label",
                 "member_id_help": "Masukkan Trello Member ID yang akan digunakan untuk mengambil organization boards with Trello (https://trello.com/your-trello-handle)",
                 "member_id_label": "ID Member",
                 "no_available_boards_label": "Tidak ada board yang tersedia",
@@ -65,15 +65,15 @@
             },
             "modals": {
                 "fields": {
-                    "board": "",
-                    "lane": "",
-                    "member": "",
+                    "board": "Pilih Trello board",
+                    "lane": "Pilih Trello lane",
+                    "member": "Pilih Trello member",
                     "member_selected": ""
                 },
-                "no_available_board_lanes": "",
-                "no_available_board_members": "",
-                "no_available_boards_label": "",
-                "no_mappings_for_board": "",
+                "no_available_board_lanes": "Tidak ada board lane yang tersedia",
+                "no_available_board_members": "Tidak ada board member yang tersedia",
+                "no_available_boards_label": "Tidak ada board yang tersedia",
+                "no_mappings_for_board": "Board yang dipilih saat ini tidak memiliki pemetaan Trello label yang ditetapkan untuk tag forum",
                 "title": "Kirim ke Trello"
             }
         },
