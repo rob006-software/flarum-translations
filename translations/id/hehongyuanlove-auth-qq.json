@@ -2,34 +2,34 @@
     "hehongyuanlove-auth-qq": {
         "admin": {
             "qq_settings": {
-                "client_id_label": "",
-                "client_secret_label": "",
+                "client_id_label": "App ID",
+                "client_secret_label": "App Secret",
                 "title": "Pengaturan QQ"
             }
         },
         "forum": {
             "log_in": {
-                "with_qq_button": ""
+                "with_qq_button": "QQ"
             },
             "buttons": {
-                "unlink": "",
-                "link": "",
+                "unlink": "Hapus QQ",
+                "link": "Hubungkan QQ",
                 "login": "=> hehongyuanlove-auth-qq.forum.log_in.with_qq_button"
             },
             "modals": {
                 "unlink": {
-                    "title": "",
+                    "title": "Menghapus QQ",
                     "info": {
-                        "confirm": "",
+                        "confirm": "Apakah Anda yakin ingin menghapus akun QQ Anda?",
                         "no_providers": "Anda tidak memiliki metode login lainnya. Mohon untuk mereset password akun Anda terlebih dahulu."
                     },
                     "buttons": {
-                        "confirm": "",
+                        "confirm": "Hapus",
                         "cancel": "Batal"
                     }
                 },
                 "link": {
-                    "title": ""
+                    "title": "Menghubungkan QQ"
                 }
             }
         }
