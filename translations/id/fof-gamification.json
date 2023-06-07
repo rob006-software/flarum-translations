@@ -20,8 +20,8 @@
                 "amount": "Poin"
             },
             "notification": {
-                "upvote": "{username} memberikan Upvote pada postingan Anda",
-                "downvote": "{username} memberikan Downvote pada postingan Anda",
+                "upvote": "{username} memberikan Upvote pada post Anda",
+                "downvote": "{username} memberikan Downvote pada post Anda",
                 "prefrences": {
                     "vote": "Ketika salah satu dari postingan Saya mendapatkan Upvote/Downvote"
                 }
@@ -110,7 +110,7 @@
                     }
                 },
                 "groups": {
-                    "title": "",
+                    "title": "Grup yang ditetapkan secara otomatis",
                     "help": "Grup yang dipilih akan secara otomatis ditambahkan atau dihapus sesuai kebutuhan ketika jumlah poin yang dimiliki oleh pengguna berubah. Jika Anda membuat perubahan pada konfigurasi, Anda harus menjalankan perintah <code>php flarum fof:gamification:assign-groups</code> untuk memperbarui pengguna yang ada. Jika Anda ingin menghapus aturan dan menghapus semua pengguna dari grup, atur nilai minimum dan maksimum ke empty string (string kosong), simpan pengaturan dan jalankan perintah baris perintah. Terakhir, Anda dapat menghapus aturan sepenuhnya dari pengaturan.\n",
                     "column": {
                         "group": "Grup",
@@ -127,7 +127,7 @@
                 "postVoted": ""
             },
             "subject": {
-                "postVoted": "Postingan Anda telah mendapatkan vote dari {display_name}"
+                "postVoted": "Post Anda telah mendapatkan vote dari {display_name}"
             }
         }
     }
