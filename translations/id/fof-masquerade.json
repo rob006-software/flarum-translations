@@ -46,8 +46,8 @@
                 "type": "Tipe",
                 "validation": "Validasi",
                 "validation-help": "Periksa <a>aturan validasi Laravel</a> yang didukung. Misalnya: \"string|min:5\" atau \"url\"..\n",
-                "prefix": "",
-                "prefix-help": "",
+                "prefix": "Prefiks kolom",
+                "prefix-help": "Menampilkan prefiks Anda di depan value yang dimasukkan oleh pengguna untuk kolom ini.\n",
                 "icon": "Ikon",
                 "icon-help": "Menampilkan ikon di depan nilai yang dimasukkan oleh pengguna. Untuk referensi ikon yang tersedia, kunjungi situs web <a>FontAwesome</a>. Gunakan nama ikon dengan awalan \"fa-\", seperti \"fas fa-info\".\n",
                 "force-user-to-completion": "Paksa pengguna untuk melengkapi profil",
@@ -56,11 +56,11 @@
                 "option-comma-warning": "Label opsi tidak boleh mengandung koma (\",\")."
             },
             "types": {
-                "advanced": "",
-                "boolean": "",
-                "email": "",
-                "select": "",
-                "url": ""
+                "advanced": "Lanjutan",
+                "boolean": "Checkbox",
+                "email": "Email",
+                "select": "Dropdown",
+                "url": "URL"
             }
         }
     }
