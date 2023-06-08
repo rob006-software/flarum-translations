@@ -2,7 +2,7 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "",
+                "hot_button": "Trending",
                 "votes_button": "Upvote"
             }
         }
@@ -28,9 +28,9 @@
             },
             "user": {
                 "card": {
-                    "points": ""
+                    "points": "{count, plural, one { {count} poin} other {{count} poin}}"
                 },
-                "rank": "",
+                "rank": "{rank}",
                 "votes_link": "Vote"
             },
             "modal": {
@@ -103,7 +103,7 @@
                     "ranks": "Peringkat khusus",
                     "number_title": "Berapa banyak badge peringkat yang harus ditampilkan?",
                     "help": {
-                        "color": "",
+                        "color": "#ffffff",
                         "help": "Masukkan jumlah Upvote yang diperlukan, nama peringkat, dan warna heksa peringkat",
                         "points": "Poin",
                         "name": "Nama"
