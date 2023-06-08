@@ -30,8 +30,8 @@
                     },
                     "twitter": {
                         "description": "Buatlah aplikasi di {link}. Anda perlu menetapkan URL untuk Ketentuan Layanan dan Kebijakan Privasi. Pastikan untuk menambahkan izin permintaan melalui email.",
-                        "api_key_label": "",
-                        "api_secret_label": ""
+                        "api_key_label": "API Key",
+                        "api_secret_label": "API Secret"
                     },
                     "google": {
                         "description": "Buatlah aplikasi di {link}.",
@@ -65,7 +65,7 @@
                         "link-created-label": "Link dibuat",
                         "orphaned-account": "Anda pernah masuk melalui provider ini sebelumnya, tetapi forum ini telah menonaktifkan sign-in dengan metode ini.",
                         "help": "Akun terhubung ini memungkinkan Anda untuk login ke forum menggunakan penyedia lain.",
-                        "identifier-label": "",
+                        "identifier-label": "ID {provider}",
                         "unlink-confirm": "Apakah Anda yakin ingin menghapus {provider}? Anda tidak akan bisa lagi login ke forum ini, kecuali jika Anda melakukan autentikasi ulang."
                     }
                 }
@@ -101,10 +101,10 @@
         },
         "ref": {
             "settings": {
-                "app_id": "",
-                "app_secret": "",
-                "client_id": "",
-                "client_secret": ""
+                "app_id": "App ID",
+                "app_secret": "App Secret",
+                "client_id": "Client ID",
+                "client_secret": "Client Secret"
             }
         }
     }
