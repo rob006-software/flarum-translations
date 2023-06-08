@@ -31,7 +31,7 @@
             "page": {
                 "title": "Doorman",
                 "doorkey": {
-                    "used_times": "",
+                    "used_times": "{remaining, plural, one {{remaining} Pemakaian tersisa} other {{remaining} Pemakaian tersisa}}",
                     "title": "Kode Undangan",
                     "help": {
                         "key": "Key: Kode yang akan diketikkan oleh user saat mereka melakukan pendaftaran.",
@@ -41,7 +41,7 @@
                     },
                     "warning": "Kode undangan ini telah digunakan berkali-kali.",
                     "key": "Key",
-                    "max_uses": "Max Uses",
+                    "max_uses": "",
                     "heading": {
                         "key": "Key",
                         "group": "Group",
