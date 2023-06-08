@@ -18,7 +18,7 @@
             "no_permission": "Ви не маєте права голосу",
             "poll_ended": "Опитування завершено.",
             "public_poll": "Переглянути тих хто проголосував",
-            "max_votes_allowed": "",
+            "max_votes_allowed": "В опитуванні можна проголосувати за {max, plural, one {# варіант} other {# варіанти}}.",
             "composer_discussion": {
                 "add_poll": "Додати опитування",
                 "edit_poll": "=> fof-polls.forum.moderation.edit"
@@ -36,9 +36,9 @@
                 "image_option_placeholder": "URL-адреса зображення (необов'язково)",
                 "options_label": "Відповіді",
                 "public_poll_label": "Дозвольте людям бачити, хто проголосував",
-                "allow_multiple_votes_label": "",
-                "max_votes_label": "",
-                "max_votes_help": "",
+                "allow_multiple_votes_label": "Дозвольте людям голосувати за кілька варіантів",
+                "max_votes_label": "Максимальна кількість голосів на одного користувача",
+                "max_votes_help": "Встановіть значення 0, щоб дозволити користувачам голосувати за всі варіанти.",
                 "question_placeholder": "Питання",
                 "submit": "Відправити"
             },
