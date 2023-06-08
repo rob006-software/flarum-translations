@@ -3,9 +3,9 @@
         "admin": {
             "menu": {
                 "title": "Taksonomi",
-                "discussions": "",
-                "users": "",
-                "products": ""
+                "discussions": "Taksonomi diskusi",
+                "users": "Taksonomi pengguna",
+                "products": "Taksonomi produk"
             },
             "page": {
                 "title": "Taksonomi",
@@ -18,7 +18,7 @@
             "edit-taxonomy": {
                 "title": {
                     "new": "Membuat Taksonomi",
-                    "edit": ""
+                    "edit": "Mengedit Taksonomi"
                 },
                 "section": {
                     "info": "Informasi",
@@ -28,7 +28,7 @@
                 },
                 "field": {
                     "type": "",
-                    "typeDescription": "\n",
+                    "typeDescription": "Taksonomi dapat digunakan pada beberapa Flarum resource. Jenisnya tidak dapat diubah setelah dibuat. Anda bisa menggunakan nama dan slug yang sama untuk taksonomi dengan tipe yang berbeda.\n",
                     "name": "=> flamarkt-taxonomies.ref.field.name",
                     "slug": "=> flamarkt-taxonomies.ref.field.slug",
                     "description": "=> flamarkt-taxonomies.ref.field.description",
@@ -36,10 +36,10 @@
                     "icon": "=> flamarkt-taxonomies.ref.field.icon",
                     "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription",
                     "showLabel": "",
-                    "showLabelDescription": "",
-                    "enableFilter": "",
-                    "enableFilterDescription": "",
-                    "showFilter": "",
+                    "showLabelDescription": "Style tampilan untuk daftar diskusi dan hero. Saat ini tidak digunakan untuk jenis resource lainnya.\n",
+                    "enableFilter": "Aktifkan filter query-string/API",
+                    "enableFilterDescription": "Memungkinkan filter taksonomi yang terhubung ke dalam ke diskusi, pengguna, dan produk untuk pengguna yang memiliki izin untuk \"melihat semua\" jenis taksonomi. Hal ini juga memungkinkan pengguna yang sama untuk menggunakan filter pencarian dengan REST API. Tanpa pengaturan \"Tampilkan filter\", pengguna tidak memiliki cara yang jelas untuk mendapatkan link-link untuk pengguna dan produk. Untuk diskusi, deep link dapat ditemukan di hero meskipun \"Tampilkan filter\" dinonaktifkan.\n",
+                    "showFilter": "Tampilkan filter pada halaman list/direktori",
                     "showFilterDescription": "",
                     "enableFulltextSearch": "",
                     "enableFulltextSearchDescription": "",
