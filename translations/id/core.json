@@ -222,7 +222,7 @@
             "permissions_controls": {
                 "allow_indefinitely_button": "Tanpa batas waktu",
                 "allow_never_button": "=> core.ref.never",
-                "allow_some_minutes_button": "{count, plural, one {For # minute} other {For # minutes}}",
+                "allow_some_minutes_button": "{count, plural, one {Selama # menit} other {Selama # menit}}",
                 "allow_ten_minutes_button": "Selama 10 menit",
                 "allow_until_reply_button": "Hingga balasan selanjutnya",
                 "everyone_button": "Siapapun",
@@ -345,8 +345,8 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} membalas {ago}",
                 "started_text": "{username} memulai {ago}",
-                "total_replies_a11y_label": "{count, plural, one {# reply} other {# replies}}",
-                "unread_replies_a11y_label": "{count, plural, one {# unread reply} other {# unread replies}}. Mark unread {count, plural, one {reply} other {replies}} as read."
+                "total_replies_a11y_label": "{count, plural, one {# balasan} other {# balasan}}",
+                "unread_replies_a11y_label": "{count, plural, one {# balasan belum dibaca} other {# balasan belum dibaca}}. Tandai {count, plural, one {balasan} other {balasan}} yang belum dibaca sebagai sudah dibaca."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -428,7 +428,7 @@
                 "now_link": "Saat ini",
                 "original_post_link": "Postingan Awal",
                 "unread_text": "{count} belum dibaca",
-                "viewing_text": "{count, plural, one {{index} of {formattedCount} post} other {{index} of {formattedCount} posts}}"
+                "viewing_text": "{count, plural, one {{index} dari {formattedCount} post} other {{index} dari {formattedCount} post}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Judul lama adalah: \"{old}\"",
@@ -470,7 +470,7 @@
                 "revoke_access_token": "Cabut",
                 "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
                 "sessions_heading": "Sesi Yang Aktif",
-                "session_terminated": "",
+                "session_terminated": "{count, plural, one {Sesi dihentikan} other {# Sesi dihentikan}}.",
                 "session_termination_failed": "Terjadi kesalahan saat mengakhiri sesi Anda.",
                 "show_access_token": "Lihat Token",
                 "terminate_all_other_sessions": "Mengakhiri semua sesi lainnya",
@@ -581,8 +581,8 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Page # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Halaman # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Halaman # - {forumName}}}"
             },
             "modal": {
                 "close": "Close"
@@ -671,19 +671,19 @@
         "email": {
             "activate_account": {
                 "subject": "Aktifkan Akun Baru Anda",
-                "body": "\n"
+                "body": "Hai {username}!\n\nSeseorang (mudah-mudahan Anda!) telah mendaftar ke {forum} dengan alamat email ini.\n\nJika ini adalah Anda, cukup klik link berikut dan akun Anda akan diaktifkan:\n{url}\n\nJika Anda merasa tidak pernah mendaftar, silakan abaikan email ini.\n"
             },
             "confirm_email": {
                 "subject": "Konfirmasi Alamat Email Baru Anda",
-                "body": ""
+                "body": "Hai {username}!\n\nSeseorang (mudah-mudahan Anda!) telah mengubah alamat email di {forum} menjadi alamat email ini.\n\nJika itu adalah Anda, cukup klik link berikut dan email Anda akan dikonfirmasi:\n{url}\n\nJika ternyata bukan Anda, silakan abaikan email ini.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": ""
+                "body": "Hai {username}!\n\nSeseorang (mudah-mudahan Anda!) telah mengirimkan permintaan lupa password untuk akun Anda di {forum}.\n\nJika ini adalah Anda, klik link berikut untuk mereset password Anda:\n{url}\n\nJika Anda tidak ingin mengganti password Anda, abaikan saja email ini dan tidak akan terjadi apa-apa.\n"
             },
             "send_test": {
-                "subject": "Flarum Email Test",
-                "body": ""
+                "subject": "Tes Email Flarum",
+                "body": "Hai {username}!\n\nIni adalah email percobaan untuk mengonfirmasi bahwa konfigurasi email Flarum Anda berfungsi dengan baik.\n\nJika ini adalah Anda, email ini berarti konfigurasi Anda berhasil!\n\nJika ini bukan Anda, silakan abaikan email ini.\n"
             }
         },
         "ref": {
@@ -713,7 +713,7 @@
             "log_in": "Login",
             "log_out": "Keluar",
             "mark_all_as_read": "Tandai Semua telah Dibaca",
-            "never": "",
+            "never": "Tidak pernah",
             "new_token": "Token Baru",
             "next_page": "Halaman Selanjutnya",
             "notifications": "Notifikasi",
