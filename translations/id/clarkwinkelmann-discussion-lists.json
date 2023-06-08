@@ -16,41 +16,41 @@
         },
         "forum": {
             "edit": {
-                "title": "",
+                "title": "Edit list",
                 "name": "Nama",
-                "visibility": "",
+                "visibility": "Visibilitas",
                 "visibilityOptions": {
-                    "private": "Daftar pribadi",
-                    "public": "Daftar publik",
-                    "series": ""
+                    "private": "List pribadi",
+                    "public": "List publik",
+                    "series": "Public series"
                 },
-                "ordering": "",
+                "ordering": "Pengurutan",
                 "orderingOptions": {
-                    "manual": "",
-                    "createdAsc": "",
-                    "createdDesc": "",
-                    "addedAsc": "",
-                    "addedDesc": ""
+                    "manual": "Manual",
+                    "createdAsc": "Pembuatan diskusi (terlama ke terbaru)",
+                    "createdDesc": "Pembuatan diskusi (terbaru ke terlama)",
+                    "addedAsc": "Penambahan ke list (paling sedikit ke paling baru)",
+                    "addedDesc": "Penambahan ke list (paling baru ke paling sedikit)"
                 },
                 "save": "Simpan",
                 "delete": "Hapus",
                 "deleteConfirmation": "Apakah Anda benar-benar ingin menghapus daftar ini secara permanen?"
             },
             "discussion": {
-                "add": "Tambahkan ke dalam list",
+                "add": "Masukkan ke list",
                 "new": "List baru"
             },
             "profile": {
                 "link": "List"
             },
             "badge": {
-                "private": "",
+                "private": "List pribadi",
                 "series": ""
             },
             "series": {
                 "kind": "",
                 "expand": "",
-                "visit": ""
+                "visit": "Tampilkan semuanya"
             }
         },
         "api": {
@@ -62,7 +62,7 @@
     "core": {
         "forum": {
             "index_sort": {
-                "discussionListDefault_button": ""
+                "discussionListDefault_button": "Urutan dalam list"
             }
         }
     }
