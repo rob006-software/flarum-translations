@@ -6,10 +6,10 @@
             },
             "title": "Pengaturan SSO SAML2",
             "labels": {
-                "idp_metadata_url": "",
-                "idp_metadata": "",
+                "idp_metadata_url": "Identity Provider Metadata URL (Alternatif untuk XML)",
+                "idp_metadata": "Identity Provider Metadata XML (Alternatif untuk URL)",
                 "only_option": "Gunakan SAML2 SSO sebagai satu-satunya opsi untuk login?",
-                "nameid_format": "",
+                "nameid_format": "Format NameID",
                 "slo": "Aktifkan SLO? Jika IDP Anda tidak mendukung hal ini, ini tidak akan melakukan apa-apa.",
                 "authn_requests_signed": "Tanda tangani permintaan autentikasi?",
                 "logout_request_signed": "Tanda tangani permintaan logout?",
@@ -31,7 +31,7 @@
         },
         "forum": {
             "log_in": {
-                "with_saml_button": "",
+                "with_saml_button": "SAML2 SSO",
                 "open_popup": "Klik Di Sini untuk Login",
                 "enable_popups": "Aktifkan Popup untuk Login / Register"
             },
