@@ -5,14 +5,14 @@
                 "regex": "",
                 "regexHelp": "Beralih dari daftar domain ke pemeriksaan reguler expression. Setiap baris dari sebuah daftar harus berupa regular expression yang valid dengan delimiter.\n",
                 "message": "Pesan Kesalahan Khusus",
-                "blacklist": "Blacklist (Daftar Hitam)",
-                "blacklistHelp": "Satu ekspresi per baris. Jika tidak ada daftar hitam yang disediakan, semua yang tidak masuk dalam daftar putih akan ditolak.\n",
-                "whitelist": "Whitelist (Daftar Putih)",
-                "whitelistHelp": "Satu ekspresi per baris. Akan memiliki prioritas di atas daftar hitam.\n"
+                "blacklist": "Blacklist",
+                "blacklistHelp": "Satu ekspresi per baris. Jika tidak ada daftar blacklist yang disediakan, semua yang tidak masuk ke dalam whitelist akan ditolak.\n",
+                "whitelist": "Whitelist",
+                "whitelistHelp": "Satu ekspresi per baris. Akan memiliki prioritas di atas daftar blacklist.\n"
             }
         },
         "api": {
-            "fallbackMessage": "Username tidak ada dalam daftar putih."
+            "fallbackMessage": "Username tidak ada di dalam whitelist."
         }
     }
 }
