@@ -3,35 +3,35 @@
         "admin": {
             "general": "General",
             "custom_failure_message_label": "Pesan Kegagalan Khusus",
-            "custom_failure_message_hint": "Satu ekspresi per baris. Jika tidak ada daftar hitam yang disediakan, semua yang tidak masuk dalam daftar putih akan ditolak.",
+            "custom_failure_message_hint": "Pesan kesalahan khusus yang akan ditampilkan ketika email tidak valid. Akan menampilkan pesan kesalahan default jika ini dibiarkan kosong.",
             "rule_settings": "Pengaturan Aturan",
             "name_placeholder": "Nama aturan",
             "invalid_regular_expression": "Reguler expression tidak valid",
             "whitelist_literal": {
-                "label": "Daftar putih",
-                "description": "Email yang tepat untuk dimasukkan ke dalam daftar putih",
+                "label": "Whitelist",
+                "description": "Email yang tepat untuk dimasukkan ke dalam whitelist",
                 "placeholder": "Email..."
             },
             "whitelist_regex": {
-                "label": "Daftar putih - regular expression",
-                "description": "Email regular expressions untuk dimasukkan ke dalam daftar putih",
+                "label": "Whitelist - regular expression",
+                "description": "Email regular expressions untuk dimasukkan ke dalam whitelist",
                 "placeholder": "Regular expression.."
             },
             "blacklist_literal": {
-                "label": "Daftar hitam",
-                "description": "Email yang tepat untuk dimasukkan dalam daftar hitam",
+                "label": "Blacklist",
+                "description": "Email yang tepat untuk dimasukkan dalam blacklist",
                 "placeholder": "Email..."
             },
             "blacklist_regex": {
-                "label": "Daftar hitam - regular expression",
-                "description": "Email regular expressions untuk dimasukkan ke dalam daftar hitam",
+                "label": "Blacklist - regular expression",
+                "description": "Email regular expressions untuk dimasukkan ke dalam blacklist",
                 "placeholder": "Regular expression..."
             }
         },
         "forum": {
             "generic_exception": "Ada yang tidak beres. Hubungi administrator komunitas ini.",
-            "blacklist_exception": "Email ini atau domainnya ada dalam daftar hitam komunitas ini.",
-            "whitelist_exception": "Email ini atau domainnya tidak ada dalam daftar putih komunitas ini."
+            "blacklist_exception": "Email ini atau domainnya ada di dalam blacklist komunitas ini.",
+            "whitelist_exception": "Email ini atau domainnya tidak ada di dalam whitelist komunitas ini."
         }
     }
 }
