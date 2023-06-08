@@ -53,7 +53,7 @@
                 "not_installed": {
                     "title": "Secara otomatis memberikan reward kepada pengguna dengan badge",
                     "content": "Ekstensi ini menawarkan lebih banyak fungsionalitas ketika <a>Auto Moderator</a> diinstal dan diaktifkan. Ketika Anda memasang ekstensi ini, pengguna dapat secara otomatis diberikan reward berupa badge tanpa campur tangan karyawan komunitas!",
-                    "install": "",
+                    "install": "Install",
                     "dismiss": "Jangan tampilkan lagi"
                 },
                 "action_drivers": {
@@ -82,7 +82,7 @@
             "select_badge": "Pilih badge",
             "user_has_badge": "Pengguna sudah memiliki badge ini.",
             "user_no_badges": "Pengguna ini belum memiliki badge apa pun.",
-            "no_received": "",
+            "no_received": "Tidak ada pengguna yang mendapatkan badge ini.",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
             "save_changes": "Simpan perubahan",
             "badge": {
@@ -97,16 +97,16 @@
                 "category": "Kategori badge",
                 "received_on": "",
                 "badge_details": "",
-                "earned_count": "",
-                "earned_by_count": "",
+                "earned_count": "{count, plural, one {<b># pengguna</b> telah mendapatkan badge ini} other {<b># pengguna</b> telah mendapatkan badge ini}}",
+                "earned_by_count": "{count, plural, one {Diperoleh oleh <b># pengguna</b>} other {Diperoleh oleh <b># pengguna</b>}}",
                 "others_link": ""
             },
             "badges_in_card": {
                 "title": "",
                 "manage_badges": "",
                 "description": "Anda dapat mengubah badge yang terlihat pada user card dengan salah satu badge lainnya. Jika Anda tidak memilih salah satu, maka badge akan dipilih secara otomatis.",
-                "select_limit": "",
-                "hit_limit": ""
+                "select_limit": "Anda dapat memilih {limit, plural, one {<b>satu badge</b>} other {<b># badge</b>}} untuk ditampilkan di user card Anda.",
+                "hit_limit": "Hanya tersedia untuk <b> {limit, plural, one {<b>satu badge</b>} other {<b># badge</b>}}</b> di user card Anda. Batalkan pilihan badge untuk memberi ruang bagi badge ini."
             },
             "moderation": {
                 "remove_badge": "Hapus badge dari pengguna",
