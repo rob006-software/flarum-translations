@@ -10,27 +10,27 @@
                 },
                 "add": "Alasan baru",
                 "explanationUrl": "URL Penjelasan",
-                "explanationUrlHelp": ""
+                "explanationUrlHelp": "Opsional. Muncul di bawah postingan yang diciutkan"
             },
             "permission": {
-                "collapse": ""
+                "collapse": "Ciutkan post"
             }
         },
         "forum": {
             "postControl": {
-                "collapse": "",
-                "uncollapse": ""
+                "collapse": "Ciutkan",
+                "uncollapse": "(Batalkan) Penciutan"
             },
             "modal": {
-                "title": "",
-                "uncollapse": ""
+                "title": "Ciutkan postingan",
+                "uncollapse": "Buka ciutan"
             },
             "badge": {
-                "post": ""
+                "post": "Diciutkan"
             },
             "stream": {
-                "hidden": "",
-                "load": "",
+                "hidden": "{count, plural, one {# post disembunyikan sebagai {reason}} other {# post disembunyikan sebagai {reason}}}",
+                "load": "Muat lebih banyak",
                 "explanation": "Mengapa Saya melihat ini?"
             }
         }
