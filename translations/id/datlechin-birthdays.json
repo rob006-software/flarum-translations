@@ -43,8 +43,8 @@
                 "nav_item": "Hari ini Ulang Tahun"
             },
             "page": {
-                "discussion_count": "",
-                "post_count": ""
+                "discussion_count": "{count, plural, one {Diskusi: #} other {Diskusi: #}}",
+                "post_count": "{count, plural, one {Post: #} other {Post: #}}"
             }
         },
         "api": {
