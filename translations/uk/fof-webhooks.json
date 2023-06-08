@@ -22,7 +22,7 @@
                 "hidden": "Прихований допис у `{1}`",
                 "restored": "Відновлений допис у `{1}`",
                 "deleted": "Видалений допис у `{1}`",
-                "approved": ""
+                "approved": "Затверджений допис у «{1}»"
             },
             "user": {
                 "registered": "Зареєстровано нового користувача",
@@ -106,8 +106,8 @@
                             "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "approval": {
-                            "title": "",
-                            "postwasapproved": ""
+                            "title": "Схвалення Flarum",
+                            "postwasapproved": "Допис схвалено"
                         }
                     }
                 }
