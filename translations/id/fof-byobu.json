@@ -23,7 +23,7 @@
                 "make_public": "Apakah Anda yakin ingin menghapus penerima dan membuat diskusi ini dapat dilihat oleh siapa saja yang dapat melihat tag yang ditetapkan?"
             },
             "labels": {
-                "recipients": ""
+                "recipients": "{count, plural, one {{count} Penerima} other {{count} Penerima}}"
             },
             "nav": {
                 "start_button": "Berdiskusi secara pribadi",
@@ -39,7 +39,7 @@
             },
             "modal": {
                 "titles": {
-                    "update_recipients": "",
+                    "update_recipients": "Memperbarui penerima {title}",
                     "add_recipients": "Menambahkan penerima ke dalam diskusi Anda"
                 },
                 "labels": {
@@ -110,10 +110,10 @@
                 "private_discussion_added": "[Diskusi Pribadi] {display_name} menambahkan Anda ke diskusi pribadi"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "Hai {recipient_display_name},\n\n{actor_display_name} memulai diskusi pribadi baru dengan Anda sebagai penerima: {discussion_title}.\n\nLihat di sini:\n{discussion_url}\n\nAnda mungkin perlu login terlebih dahulu sebelum dapat mengakses link ini.\n",
+                "private_discussion_replied": "Hai {recipient_display_name},\n\n{actor_display_name} memposting dalam diskusi pribadi dengan Anda sebagai penerima: {discussion_title}.\n\nLihat di sini:\n{post_url}\n\nAnda mungkin perlu login terlebih dahulu sebelum dapat mengakses link ini.\n",
+                "recipient_removed": "Hai {recipient_display_name},\n\n{actor_display_name} meninggalkan diskusi pribadi: {discussion_title}. Mereka tidak lagi dapat melihat kontennya.\n\nLihat di sini:\n{discussion_url}\n\nAnda mungkin perlu login terlebih dahulu sebelum dapat mengakses link ini.\n",
+                "private_discussion_added": "Hai {recipient_display_name},\n\n{actor_display_name} menambahkan Anda ke dalam diskusi pribadi yang sudah ada: {discussion_title}.\n\nLihat di sini:\n{discussion_url}\n\nAnda mungkin perlu login terlebih dahulu sebelum dapat mengakses link ini.\n"
             }
         }
     }
