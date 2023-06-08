@@ -40,10 +40,10 @@
                     "enableFilter": "Aktifkan filter query-string/API",
                     "enableFilterDescription": "Memungkinkan filter taksonomi yang terhubung ke dalam ke diskusi, pengguna, dan produk untuk pengguna yang memiliki izin untuk \"melihat semua\" jenis taksonomi. Hal ini juga memungkinkan pengguna yang sama untuk menggunakan filter pencarian dengan REST API. Tanpa pengaturan \"Tampilkan filter\", pengguna tidak memiliki cara yang jelas untuk mendapatkan link-link untuk pengguna dan produk. Untuk diskusi, deep link dapat ditemukan di hero meskipun \"Tampilkan filter\" dinonaktifkan.\n",
                     "showFilter": "Tampilkan filter pada halaman list/direktori",
-                    "showFilterDescription": "",
+                    "showFilterDescription": "Menampilkan filter kepada pengunjung biasa di daftar diskusi, direktori pengguna, atau indeks toko. Hanya berfungsi jika \"Aktifkan filter\" diaktifkan. Administrator toko selalu dapat memfilter berdasarkan taksonomi apa pun di backoffice.\n",
                     "enableFulltextSearch": "",
                     "enableFulltextSearchDescription": "",
-                    "enableFulltextSearchWarning": "",
+                    "enableFulltextSearchWarning": "Perizinan Anda untuk mencari sumber daya (\"Lihat forum\" untuk diskusi, \"Cari pengguna\" untuk pengguna) berbeda dengan perizinan \"lihat semua\" Taksonomi. Sebelum mengaktifkan opsi ini, pastikan Anda merasa yakin bahwa data dapat dicari oleh pengguna meskipun mereka biasanya tidak dapat melihat taksonomi!\n",
                     "allowCustomValues": "Izinkan nilai khusus",
                     "customValueValidation": "Validasi untuk nilai khusus",
                     "customValueSlugger": "",
@@ -100,64 +100,64 @@
             },
             "permissions": {
                 "heading": "Taksonomi",
-                "moderate": "",
+                "moderate": "Mengonfigurasi taksonomi yang tersedia",
                 "bypassTermCounts": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "ownDisabledEveryone": "",
-                "ownDisabledMembers": ""
+                "seeOwnDiscussion": "Melihat taksonomi pada diskusi sendiri",
+                "seeAnyDiscussion": "Melihat taksonomi di semua diskusi",
+                "editOwnDiscussion": "Mengedit taksonomi pada diskusi sendiri",
+                "editAnyDiscussion": "Mengedit taksonomi pada diskusi apa pun",
+                "seeOwnUser": "Melihat taksonomi pada pengguna sendiri",
+                "seeAnyUser": "Melihat taksonomi pada pengguna mana pun",
+                "editOwnUser": "Mengedit taksonomi pada pengguna sendiri",
+                "editAnyUser": "Mengedit taksonomi pada pengguna mana pun",
+                "ownDisabledEveryone": "Anggota yang tidak diaktifkan dan ditangguhkan",
+                "ownDisabledMembers": "Anggota yang diaktifkan"
             },
             "settings": {
-                "goToPage": ""
+                "goToPage": "Masuk ke halaman konfigurasi"
             }
         },
         "forum": {
             "composer": {
-                "choose": ""
+                "choose": "Pilih {taxonomy}"
             },
             "discussion": {
-                "edit": ""
+                "edit": "Edit {taxonomy}"
             },
             "user": {
                 "nav": "Taksonomi",
-                "edit": ""
+                "edit": "Edit {taxonomy}"
             },
             "blog": {
                 "widget": {
-                    "title": ""
+                    "title": "Taksonomi"
                 }
             }
         },
         "lib": {
             "modal": {
                 "title": {
-                    "new": "",
-                    "edit": ""
+                    "new": "Pilih {taxonomy} untuk diskusi Anda",
+                    "edit": "Edit {taxonomy} untuk {title}"
                 },
                 "placeholder": "",
-                "placeholderOptional": "",
-                "custom": "",
+                "placeholderOptional": "Pilih...",
+                "custom": "Gunakan {value}",
                 "bypassTermCounts": "",
-                "submit": ""
+                "submit": "OK"
             }
         },
         "api": {
             "error": {
                 "invalid_filter_taxonomy": "",
-                "discussion_taxonomy_not_in_scope": "",
-                "cannot_use_taxonomies_on_model": ""
+                "discussion_taxonomy_not_in_scope": "Taksonomi \"{slug}\" tidak tersedia dalam kombinasi tag saat ini",
+                "cannot_use_taxonomies_on_model": "Anda tidak diizinkan menggunakan taksonomi dalam konteks ini"
             }
         },
         "ref": {
             "field": {
                 "name": "Nama",
-                "slug": "",
+                "slug": "Slug",
                 "description": "Deskripsi",
                 "color": "Warna",
                 "icon": "Ikon",
@@ -165,7 +165,7 @@
             },
             "delete": "Hapus",
             "submit": {
-                "new": "",
+                "new": "Buat",
                 "edit": "Simpan"
             }
         }
