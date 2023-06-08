@@ -22,11 +22,11 @@
                 "ban": ""
             },
             "banUser": {
-                "title": "",
+                "title": "Tangguhkan {username}",
                 "until": "",
                 "quick": "",
-                "quickChoiceReset": "",
-                "quickChoiceDays": "",
+                "quickChoiceReset": "Tidak ditangguhkan",
+                "quickChoiceDays": "{count, plural, one {# hari} other {# hari}}",
                 "submit": "Simpan"
             },
             "badge": {
