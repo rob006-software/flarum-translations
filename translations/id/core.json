@@ -464,7 +464,7 @@
                 "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
                     "submit_button": "Membuat Token",
-                    "title": "",
+                    "title": "=> core.ref.new_token",
                     "title_placeholder": "Judul"
                 },
                 "revoke_access_token": "Cabut",
@@ -474,9 +474,9 @@
                 "session_termination_failed": "Terjadi kesalahan saat mengakhiri sesi Anda.",
                 "show_access_token": "Lihat Token",
                 "terminate_all_other_sessions": "Mengakhiri semua sesi lainnya",
-                "terminate_all_other_sessions_confirmation": "",
+                "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
                 "terminate_session": "Akhiri",
-                "title": "",
+                "title": "=> core.ref.security",
                 "token_revoked": "Token telah dicabut.",
                 "token_item_title": "{title} - {token}",
                 "token_title_placeholder": "/"
@@ -565,7 +565,7 @@
                 "nothing_available": "Anda tidak diizinkan untuk mengedit User ini."
             },
             "error": {
-                "circular_dependencies_message": "",
+                "circular_dependencies_message": "Circular dependencies terdeteksi: {extensions}. Membatalkan. Nonaktifkan salah satu ekstensi dan coba lagi.",
                 "dependent_extensions_message": "Tidak dapat menonaktifkan {extension} sebelum ekstensi dependen berikut dinonaktifkan: {extensions}",
                 "extension_initialiation_failed_message": "{extension} gagal untuk menginisialisasi, periksa konsol browser untuk informasi lebih lanjut.",
                 "generic_message": "Ups! Ada yang tidak beres. Mohon untuk me-refresh halaman dan coba lagi.",
