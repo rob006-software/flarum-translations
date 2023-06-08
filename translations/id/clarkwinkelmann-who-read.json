@@ -11,9 +11,9 @@
                 "info": "Dan {count} lainnya"
             },
             "footer": {
-                "read-this-post": "",
-                "read-no-further": "",
-                "read-to-end": ""
+                "read-this-post": "{count, plural, =0 {Tidak ada yang membaca post ini} one {Satu pengguna membaca post ini} other {# pengguna membaca post ini}}",
+                "read-no-further": "{count, plural, =0 {Semua orang telah membaca lebih lanjut} one {Satu pengguna tidak membaca lebih lanjut} other {# tidak membaca lebih lanjut}}",
+                "read-to-end": "{count, plural, =0 {Tidak ada yang membaca sampai akhir} one {Satu pengguna telah membaca sampai akhir} other {# pengguna telah membaca sampai akhir}}"
             },
             "controls": {
                 "set-unread": "Tandai belum dibaca",
