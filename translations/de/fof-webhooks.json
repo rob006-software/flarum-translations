@@ -21,7 +21,8 @@
                 "revised": "Beitrag in `{1}` bearbeitet",
                 "hidden": "Beitrag in `{1}` versteckt",
                 "restored": "Beitrag in `{1}` wiederhergestellt",
-                "deleted": "Beitrag in `{1}` gelöscht"
+                "deleted": "Beitrag in `{1}` gelöscht",
+                "approved": ""
             },
             "user": {
                 "registered": "Neuer Nutzer registriert",
@@ -103,6 +104,10 @@
                             "registered": "Registriert",
                             "renamed": "=> fof-webhooks.ref.renamed",
                             "deleted": "=> fof-webhooks.ref.deleted"
+                        },
+                        "approval": {
+                            "title": "",
+                            "postwasapproved": ""
                         }
                     }
                 }

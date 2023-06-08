@@ -21,7 +21,8 @@
                 "revised": "Mensaje editado en `{1}`",
                 "hidden": "",
                 "restored": "",
-                "deleted": "Mensaje borrado en `{1}`"
+                "deleted": "Mensaje borrado en `{1}`",
+                "approved": ""
             },
             "user": {
                 "registered": "Nuevo usuario registrado",
@@ -103,6 +104,10 @@
                             "registered": "",
                             "renamed": "=> fof-webhooks.ref.renamed",
                             "deleted": "=> fof-webhooks.ref.deleted"
+                        },
+                        "approval": {
+                            "title": "",
+                            "postwasapproved": ""
                         }
                     }
                 }

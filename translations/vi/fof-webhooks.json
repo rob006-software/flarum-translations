@@ -21,7 +21,8 @@
                 "revised": "Đã sửa bài viết trong `{1}`",
                 "hidden": "Đã ẩn bài viết trong `{1}`",
                 "restored": "Đã khôi phục bài viết trong `{1}`",
-                "deleted": "Đã xóa bài viết trong `{1}`"
+                "deleted": "Đã xóa bài viết trong `{1}`",
+                "approved": ""
             },
             "user": {
                 "registered": "Người dùng mới đăng ký",
@@ -103,6 +104,10 @@
                             "registered": "Đã đăng ký",
                             "renamed": "=> fof-webhooks.ref.renamed",
                             "deleted": "=> fof-webhooks.ref.deleted"
+                        },
+                        "approval": {
+                            "title": "",
+                            "postwasapproved": ""
                         }
                     }
                 }

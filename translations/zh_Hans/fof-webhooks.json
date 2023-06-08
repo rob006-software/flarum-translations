@@ -21,7 +21,8 @@
                 "revised": "编辑回复于 `{1}`",
                 "hidden": "隐藏回复于 `{1}`",
                 "restored": "恢复回复于 `{1}`",
-                "deleted": "删除回复于 `{1}`"
+                "deleted": "删除回复于 `{1}`",
+                "approved": ""
             },
             "user": {
                 "registered": "新注册会员",
@@ -103,6 +104,10 @@
                             "registered": "注册",
                             "renamed": "=> fof-webhooks.ref.renamed",
                             "deleted": "=> fof-webhooks.ref.deleted"
+                        },
+                        "approval": {
+                            "title": "",
+                            "postwasapproved": ""
                         }
                     }
                 }

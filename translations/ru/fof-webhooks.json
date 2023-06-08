@@ -21,7 +21,8 @@
                 "revised": "Изменение сообщения в `{1}`",
                 "hidden": "Скрытие сообщения в `{1}`",
                 "restored": "Восстановление сообщения в `{1}`",
-                "deleted": "Удаление сообщения в `{1}`"
+                "deleted": "Удаление сообщения в `{1}`",
+                "approved": ""
             },
             "user": {
                 "registered": "Регистрация нового пользователя",
@@ -103,6 +104,10 @@
                             "registered": "Регистрация",
                             "renamed": "=> fof-webhooks.ref.renamed",
                             "deleted": "=> fof-webhooks.ref.deleted"
+                        },
+                        "approval": {
+                            "title": "",
+                            "postwasapproved": ""
                         }
                     }
                 }
