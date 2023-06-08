@@ -26,12 +26,12 @@
                     "heading": "Pemeliharaan",
                     "debug_label": "Mode debug?",
                     "debug_text": "Ini akan mencatat info tentang notifikasi ke `storage/logs`. Umumnya harus dinonaktifkan untuk menghindari pencatatan yang tidak perlu.",
-                    "reset_vapid_text": "Ini akan membuat ulang kunci VAPID, dan menghapus semua subscription yang ada dengan menggunakan kunci VAPID saat ini.",
-                    "reset_vapid_confirm": "Mengatur ulang kunci VAPID akan menghapus semua subscription yang menggunakan kunci yang ada, sehingga pengguna tidak akan menerima notifikasi apa pun hingga saat mereka mengunjungi situs Anda lagi. Hal ini hanya boleh dilakukan saat menyiapkan push notification untuk pertama kalinya, atau jika push notification tidak berfungsi sama sekali dan terdapat peringatan tentang hilangnya kunci VAPID di atas.",
-                    "reset_vapid_success": "Kunci VAPID berhasil diatur ulang. {count} subscription telah diatur ulang. Muat ulang halaman untuk melihat laporan pemeriksaan status yang diperbarui."
+                    "reset_vapid_text": "Ini akan membuat ulang VAPID key, dan menghapus semua subscription yang ada dengan menggunakan VAPID key saat ini.",
+                    "reset_vapid_confirm": "Mengatur ulang VAPID key akan menghapus semua subscription yang menggunakan key yang ada, sehingga pengguna tidak akan menerima notifikasi apa pun hingga saat mereka mengunjungi situs Anda lagi. Hal ini hanya boleh dilakukan saat menyiapkan push notification untuk pertama kalinya, atau jika push notification tidak berfungsi sama sekali dan terdapat peringatan tentang hilangnya VAPID key di atas.",
+                    "reset_vapid_success": "VAPID key berhasil diatur ulang. {count} subscription telah diatur ulang. Muat ulang halaman untuk melihat laporan pemeriksaan status yang diperbarui."
                 },
                 "other": {
-                    "heading": "",
+                    "heading": "Lainnya",
                     "force_portrait_text": "",
                     "push_notif_preference_default_to_email_label": "Preferensi Push Default untuk Email?",
                     "push_notif_preference_default_to_email_text": "Jika true, pengguna akan mengaktifkan push notification secara default untuk semua jenis notifikasi di mana notifikasi email diaktifkan secara default. Jika false, pengguna akan menonaktifkan push notification secara default.",
@@ -52,8 +52,8 @@
                 "possible_https_disabled": "Situs Anda mungkin tidak berjalan pada HTTPS. Menghapus cache Anda (admin dashboard page => tools button) mungkin bisa membantu. Jika ya, abaikan hal ini. Jika tidak, perlu diingat bahwa HTTPS diperlukan agar Aplikasi Web Progresif dapat berfungsi.",
                 "no_logo": "Anda harus meng-upload setidaknya satu logo, dengan ukuran minimal 144x144px, agar PWA dapat diinstal.",
                 "no_name": "Anda harus memberikan nama lengkap agar aplikasi Anda dapat berfungsi.",
-                "no_vapid_keys": "Kunci VAPID tidak ditemukan. Ini diperlukan agar push notification dapat dikirim. Anda dapat mereset kunci VAPID di bawah ini.",
-                "key_gen_failed": "Pembuatan kunci yang diperlukan untuk push notification telah gagal. Pesan kesalahan lengkapnya adalah: {error}",
+                "no_vapid_keys": "VAPID key tidak ditemukan. Ini diperlukan agar push notification dapat dikirim. Anda dapat mereset VAPID key di bawah ini.",
+                "key_gen_failed": "Pembuatan key yang diperlukan untuk push notification telah gagal. Pesan kesalahan lengkapnya adalah: {error}",
                 "suggest_gmp": "Ekstensi PHP gmp tampaknya tidak diaktifkan pada server Anda. Ekstensi ini tidak sepenuhnya diperlukan, tetapi dapat meningkatkan performa dan direkomendasikan. Namun, beberapa shared host mungkin tidak mendukungnya.",
                 "success": "Tidak Ada Potensi Masalah yang Ditemukan!"
             }
