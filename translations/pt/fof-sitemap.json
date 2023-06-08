@@ -13,18 +13,18 @@
                 "mode_help_large": "50.000 é o limite técnico para os ficheiros sitemap. Se tiver mais entradas para guardar, use esta opção!",
                 "mode_help_multi_label": "Modo multi-ficheiro",
                 "mode_help_multi": "Melhor opção para forums grandes, com mais de 10.000 items. Serão gerados ficheiros sitemap múltiplos comprimidos guardados na pasta /public",
-                "advanced_options_label": "",
-                "frequency_label": "",
-                "risky_performance_improvements": "",
-                "risky_performance_improvements_help": "",
+                "advanced_options_label": "Opções avançadas",
+                "frequency_label": "Com que periodicidade deve o cronograma reconstruir a cache do sitemap?",
+                "risky_performance_improvements": "Activar melhorias de performance arriscadas",
+                "risky_performance_improvements_help": "Estas melhorias fazem a tarefa do CRON correr mais depressa para dados na ordem de milhões de linhas mas pode quebrar compatibilidade com agumas extensões.",
                 "modes": {
-                    "runtime": "",
-                    "multi_file": ""
+                    "runtime": "Tempo de execução",
+                    "multi_file": "Múltiplos ficheiros"
                 },
                 "frequency": {
-                    "hourly": "",
-                    "twice_daily": "",
-                    "daily": ""
+                    "hourly": "De hora em hora",
+                    "twice_daily": "Duas vezes ao dia",
+                    "daily": "Diariamente"
                 }
             }
         }
