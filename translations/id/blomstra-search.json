@@ -6,8 +6,8 @@
             "elastic-password": "=> core.ref.password",
             "elastic-index": "Index",
             "analyzer": {
-                "label": "",
-                "help": ""
+                "label": "Penganalisis bahasa",
+                "help": "Penganalisis membuat pencarian memahami kata henti dan melakukan perbaikan \nkhusus bahasa untuk pengindeksan.\n"
             },
             "search-discussion-subjects": "Cari di dalam judul diskusi",
             "search-post-bodies": "Cari di dalam komentar",
