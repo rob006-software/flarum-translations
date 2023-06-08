@@ -8,7 +8,7 @@
             },
             "buttons": {
                 "add_recipients": "Destinatários",
-                "submit": "",
+                "submit": "OK",
                 "edit_recipients": "Editar destinatários",
                 "send_pd": "Enviar mensagem a {username}",
                 "cancel": "Cancelar",
@@ -48,26 +48,26 @@
                 },
                 "help": {
                     "add_recipients": "Esta discussão será visível apenas aos utilizadores selecionados. É necessário pelo menos um destinatário (para alem de si).",
-                    "update_recipients": "",
-                    "selected_users": "",
-                    "click_user_to_remove_tooltip": ""
+                    "update_recipients": "Esta discussão é visível apenas aos utilizadores que escolher aqui.",
+                    "selected_users": "Clique no nome de um utilizador para o remover.",
+                    "click_user_to_remove_tooltip": "Clique para remover"
                 }
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "",
-                    "added": "",
-                    "made_public": "",
-                    "removed": "",
-                    "removed_self": ""
+                    "added_and_removed": "{username} adicionou {added} destinatários e removeu {removed}.",
+                    "added": "{username} adicionou {added} destinatários.",
+                    "made_public": "{username} removeu todos os destinatários e tornou a discussão publica",
+                    "removed": "{username} removeu {removed} destinatários.",
+                    "removed_self": "{username} abandonou a discussão privada."
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": ""
+                    "block_pd": "Bloquear discussões privadas"
                 },
-                "byobu_link": "",
-                "dropdown_label": ""
+                "byobu_link": "Discussões privadas",
+                "dropdown_label": "Discussões privadas"
             },
             "notifications": {
                 "pd_label": "",
