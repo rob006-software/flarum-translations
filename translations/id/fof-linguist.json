@@ -66,7 +66,7 @@
                     "count": "Hitungan"
                 },
                 "columns": {
-                    "namespace": "",
+                    "namespace": "Namespace",
                     "total": "Total",
                     "all-except-admin": "Forum dan frontend lainnya",
                     "all-frontends": "Tampilkan semua frontend"
@@ -84,19 +84,19 @@
                 "warning": "Format ekspor menggunakan file terjemahan berbasis Yaml milik Flarum dan dirancang untuk dapat saling berbagi terjemahan antar forum dan dengan pengelola paket bahasa. Format ini tidak dirancang untuk memindahkan semua terjemahan ke forum baru. Tergantung pada kasus penggunaan Anda, menyalin database secara langsung mungkin merupakan ide yang lebih baik.\n",
                 "locale": "Lokal",
                 "locale-all": "",
-                "namespace": "",
+                "namespace": "Namespace",
                 "namespace-all": "Semua",
                 "include-originals": "Sertakan terjemahan aslinya",
                 "include-all": "Sertakan terjemahan yang ditetapkan untuk \"Semua\" bahasa",
-                "output": "",
-                "output-loading": "",
-                "output-empty": "",
+                "output": "Output",
+                "output-loading": "Memuat output...",
+                "output-empty": "Output kosong",
                 "download": "Download"
             },
             "import": {
                 "title": "Impor",
-                "input": "",
-                "input-placeholder": "",
+                "input": "Input",
+                "input-placeholder": "Tarik dan lepas atau paste file Yaml di sini",
                 "locale": "Lokal",
                 "locale-all": "Pseudo-locale \"Semua\"",
                 "override-existing": "Timpa terjemahan khusus yang sudah ada",
@@ -105,7 +105,7 @@
                 "results-with-ignore": "Impor telah selesai. {imported} telah diimpor, {ignored} string yang sudah ada telah diabaikan dan {identical}string yang identik telah dilewati. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n"
             },
             "known-namespace": {
-                "core": "",
+                "core": "Flarum Core",
                 "validation": ""
             },
             "known-frontend": {
@@ -113,7 +113,7 @@
                 "admin": "Admin",
                 "lib": "Lib (digunakan pada Forum dan Admin)",
                 "ref": "Ref (digunakan kembali pada kolom lain)",
-                "api": ""
+                "api": "API"
             }
         }
     }
