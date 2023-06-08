@@ -8,42 +8,42 @@
                 "viewing_title": ""
             },
             "widget": {
-                "title": "",
-                "empty": "",
+                "title": "User Online",
+                "empty": "Tidak Ada User Yang Sedang Online.",
                 "guests": ""
             }
         },
         "admin": {
             "chart": {
-                "title": ""
+                "title": "Statistik Websocket"
             },
             "pusher_settings": {
-                "local_cert_path": "",
-                "local_pk_path": "",
-                "passphrase": "",
-                "cert_self_signed": "",
-                "app_port_label": "",
-                "app_host_label": "",
-                "app_id_label": "",
+                "local_cert_path": "Local SSL Certificate Path",
+                "local_pk_path": "Local SSL Private Key Path",
+                "passphrase": "(Opsional) SSL Key Passphrase",
+                "cert_self_signed": "Self-Signed Certificate Support",
+                "app_port_label": "Port",
+                "app_host_label": "Host",
+                "app_id_label": "App ID",
                 "auto_update": "",
-                "app_key_label": "",
-                "app_secret_label": "",
-                "stats_label": "",
-                "secure": "",
-                "title": "",
-                "reverse_proxy": "",
-                "auth_only": ""
+                "app_key_label": "App Key",
+                "app_secret_label": "App Secret",
+                "stats_label": "Interval Statistik",
+                "secure": "Paksakan wss/https untuk Websocket",
+                "title": "Pengaturan Websocket/Pusher",
+                "reverse_proxy": "Dukungan Reverse Proxy",
+                "auth_only": "Websocket Hanya untuk User yang Sudah Login"
             },
             "help": {
                 "stats": "Waktu di antara penyimpanan statistik - dalam hitungan detik. Direkomendasikan antara 3600 (1 jam) dan 21600 (6 jam) Default: 7200.",
-                "auto_update": "",
-                "app_id": "",
-                "app_key": "",
-                "secret": "",
+                "auto_update": "Jangan tampilkan banner update berwarna kuning, segera perbarui daftar diskusi.",
+                "app_id": "Pusher App ID - biarkan apa adanya jika menggunakan server websocket bawaan.",
+                "app_key": "Pusher App Key - biarkan apa adanya jika menggunakan server websocket bawaan.",
+                "secret": "Pusher App Secret - biarkan apa adanya jika menggunakan server websocket bawaan.",
                 "secure": "Paksa websocket untuk menggunakan protokol aman - Aktifkan ini jika Anda menggunakan server websocket yang aman, namun bukan situs web.",
-                "host": "",
-                "reverse_proxy": "",
-                "port": "",
+                "host": "Host server websocket Anda - biarkan apa adanya jika server adalah host yang sama dengan admin Anda.",
+                "reverse_proxy": "Websocket akan terhubung melalui port 443 ketika ini diaktifkan - Gunakan ini jika Anda menggunakan reverse proxy dari port 443 ke server websocket Anda.",
+                "port": "Port server websocket Anda - biarkan apa adanya jika Anda tidak mengubah port server bawaan.",
                 "cert_path": "Hanya diperlukan jika menggunakan ssl dan BUKAN proxy terbalik. Jalur ke sertifikat SSL (https) Anda ADA DI SERVER tempat server websocket Anda berada - biasanya berupa file .crt atau .pem.",
                 "pk_path": "Hanya diperlukan jika menggunakan ssl dan BUKAN proxy terbalik. Jalur ke kunci pribadi SSL (https) Anda ADA DI SERVER tempat server websocket Anda berada - biasanya berupa file .key atau .pem.",
                 "passphrase": "Hanya diperlukan jika menggunakan ssl dan BUKAN proxy terbalik. Password yang digunakan untuk menyandikan sertifikat Anda - biasanya tidak diperlukan.",
