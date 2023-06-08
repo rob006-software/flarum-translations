@@ -5,7 +5,7 @@
                 "title": "Pengaturan",
                 "moneyforpost": "Money yang diberikan untuk postingan baru",
                 "moneyfordiscussion": "Money yang diberikan untuk diskusi baru",
-                "moneyname": "",
+                "moneyname": "Nama money (contoh: [money] points)",
                 "postminimumlength": "Panjang postingan minimum untuk mendapatkan money (0 untuk menonaktifkan)",
                 "noshowzero": "Jangan tampilkan jika nilainya nol",
                 "autoremove": "Perbarui money secara otomatis",
@@ -27,10 +27,10 @@
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Edit money"
             },
             "modal": {
-                "title": "",
+                "title": "{username} money",
                 "current": "Saat ini:",
                 "submit_button": "=> core.ref.save_changes"
             }
