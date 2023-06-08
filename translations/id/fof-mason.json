@@ -50,7 +50,7 @@
                 "validation-help": "Periksa <a>aturan validasi Laravel</a> yang didukung. Contohnya: \"string|min:5\" or \"url\".\n",
                 "enable-user-values-for-validation": "Aktifkan \"user value\" untuk mengonfigurasi aturan validasi",
                 "icon": "Ikon",
-                "icon-help": "",
+                "icon-help": "Tampilkan ikon di depan value yang dimasukkan oleh pengguna. Untuk referensi ikon yang tersedia, periksa situs web <a>FontAwesome</a>. Gunakan nama kelas ikon lengkap termasuk prefiks, misalnya \"fas fa-bolt\".\n",
                 "icon-preview": "pratinjau: {preview}",
                 "save-field-for-answers": "Simpan kolom untuk menambahkan jawaban",
                 "is_suggested": "Memberikan saran jawaban kepada pengguna",
@@ -72,9 +72,9 @@
                 "fields-in-hero": "Tampilkan kolom di banner diskusi, bukan di post yang pertama",
                 "hide-empty-fields-section": "Sembunyikan judul dan kontrol ketika semua kolom kosong dan tersembunyi",
                 "hide-empty-fields-section-help": "Secara default jika pengguna dapat mengedit kolom atau judul telah dibuat, bagian tersebut akan selalu ditampilkan, meskipun semua kolom disembunyikan. Dengan mengaktifkan opsi ini, bagian tersebut akan disembunyikan dan tombol \"edit kolom\" hanya akan tersedia di dalam menu dropdown \" reply\" ketika semua kolom kosong.\n",
-                "tags-as-field": "",
+                "tags-as-field": "Tampilkan tag selector sebagai kolom",
                 "tags-as-field-help": "Ini akan menyembunyikan pemilih tag default dan menampilkan kolom dropdown kustom sebagai gantinya. Ini hanya akan berfungsi jika Anda mengizinkan hingga satu tag primer dan satu tag sekunder!\n",
-                "tags-field-name": "",
+                "tags-field-name": "Label kolom tag",
                 "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
             },
             "titles": {
@@ -86,9 +86,9 @@
             "permissions": {
                 "see-own-fields": "Melihat kolom pada diskusi sendiri yang sudah ada",
                 "see-other-fields": "Melihat kolom pada semua diskusi yang ada",
-                "fill-fields": "",
-                "update-own-fields": "",
-                "update-other-fields": "",
+                "fill-fields": "Mengisi kolom pada diskusi baru",
+                "update-own-fields": "Memperbarui kolom diskusi sendiri",
+                "update-other-fields": "Memperbarui kolom diskusi apa pun",
                 "skip-required-fields": "Mengizinkan untuk melewatkan kolom yang harus diisi"
             }
         }
