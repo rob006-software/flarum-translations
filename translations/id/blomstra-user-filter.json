@@ -2,7 +2,7 @@
     "blomstra-user-filter": {
         "admin": {
             "settings": {
-                "intro": "",
+                "intro": "Pengguna tanpa izin <code>Mencari pengguna</code> tidak akan melihat kotak pencarian. Atur ke <code>Semua Orang</code> untuk semua pengguna, atau apa pun tingkat preferensi Anda.",
                 "min_length": "Jumlah minimal karakter untuk memulai pencarian",
                 "result_count": "Jumlah hasil pada dropdown autocomplete"
             }
@@ -17,7 +17,7 @@
                     "no_results": "Tidak ada hasil",
                     "start_typing": "Mulai mengetik...",
                     "keep_typing": "Terus mengetik...",
-                    "remove_filter": ""
+                    "remove_filter": "Hapus filter penulis"
                 }
             }
         }
