@@ -456,19 +456,19 @@
                 "global_logout": {
                     "heading": "Logout Secara Global",
                     "help_text": "Menghapus sesi cookie saat ini, mengakhiri semua sesi, mencabut token untuk developer, dan membatalkan email konfirmasi atau email reset password.",
-                    "log_out_button": ""
+                    "log_out_button": "=> core.ref.log_out"
                 },
                 "hide_access_token": "Sembunyikan Token",
                 "last_activity": "Aktivitas terakhir",
-                "never": "",
-                "new_access_token_button": "",
+                "never": "=> core.ref.never",
+                "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
                     "submit_button": "Membuat Token",
                     "title": "",
                     "title_placeholder": "Judul"
                 },
                 "revoke_access_token": "Cabut",
-                "revoke_access_token_confirmation": "",
+                "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
                 "sessions_heading": "Sesi Yang Aktif",
                 "session_terminated": "",
                 "session_termination_failed": "Terjadi kesalahan saat mengakhiri sesi Anda.",
