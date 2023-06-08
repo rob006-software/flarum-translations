@@ -15,8 +15,8 @@
         "forum": {
             "stream": {
                 "noResults": "",
-                "unmatchedGap": "",
-                "otherAuthorsGap": ""
+                "unmatchedGap": "{count, plural, one {Satu post yang tidak cocok disembunyikan} other {{count} post yang tidak cocok disembunyikan}}",
+                "otherAuthorsGap": "{count, plural, one {Satu post oleh penulis lain disembunyikan} other {{count} post oleh penulis lain disembunyikan}}"
             },
             "toolbar": {
                 "searchPlaceholder": "Temukan dalam diskusi...",
