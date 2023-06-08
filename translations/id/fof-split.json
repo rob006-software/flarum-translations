@@ -7,8 +7,8 @@
         },
         "forum": {
             "post": {
-                "was_split_to": "",
-                "was_split_from": ""
+                "was_split_to": "{count, plural, one {{count} post dipisahkan ke {target}.} other {{count} post dipisahkan ke {target}.}}",
+                "was_split_from": "{count, plural, one {{count} post dipisahkan dari {target}.} other {{count} post dipisahkan dari {target}.}}"
             },
             "split": {
                 "from": "Pisahkan dari sini",
