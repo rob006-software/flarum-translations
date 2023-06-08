@@ -126,7 +126,7 @@
                 "user-probability": "Kemungkinan untuk ditempatkan pada profil pengguna (%)",
                 "discussion": "Diskusi",
                 "discussion-age": "Berapa usia diskusi agar ikan dapat ditempatkan di atasnya (hari)",
-                "discussion-tags": "Tag - daftar putih",
+                "discussion-tags": "Tag - whitelist",
                 "discussion-tags-unavailable": "Pengaturan tidak tersedia karena ekstensi Tag tidak aktif.",
                 "discussion-tags-help": "Jika Anda tidak memilih tag apa pun, diskusi apa pun yang cocok dengan pengaturan waktu di atas dapat dipilih. Jika ada sejumlah tag yang dipilih, sebuah diskusi harus memiliki setidaknya satu dari tag yang dipilih untuk dipilih. Probabilitas adalah peluang untuk dipilih setelah semua pilihan sebelumnya telah dicoba. Tag terakhir dalam list akan selalu bertindak sebagai fallback, jadi pastikan tag tersebut memiliki setidaknya satu diskusi yang valid di dalamnya.\n",
                 "tags-header": {
@@ -135,10 +135,10 @@
                 },
                 "tags-control": {
                     "choose": "Pilih tag",
-                    "add": "Tambahkan ke daftar putih",
+                    "add": "Tambahkan ke whitelist",
                     "down": "",
                     "up": "",
-                    "delete": "Hapus dari daftar putih"
+                    "delete": "Hapus dari whitelist"
                 },
                 "tags-fallback": {
                     "last-line": "",
