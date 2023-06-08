@@ -21,8 +21,8 @@
             "transfer-money-in": "Transfer Masuk",
             "transfer-money-out": "Transfer Keluar",
             "transfer-money-notes": "Catatan (Opsional)",
-            "transfer-money-search-user-placeholder": "",
-            "transfer-money-search-user-empty": "",
+            "transfer-money-search-user-placeholder": "Mengetik tiga karakter pertama dari user",
+            "transfer-money-search-user-empty": "Tidak ada user yang ditemukan",
             "transfer-money-input-placeholder": "Masukkan nominal transfer",
             "transfered-money-to": "mentransfer {money} ke",
             "current-money-amount": "Money saat ini: ",
@@ -34,7 +34,7 @@
             "transfer-error-no-permission": "Anda tidak memiliki izin",
             "transfer-error-insufficient-fund": "",
             "transfer-error-no-target-user-selected": "",
-            "receive-transfer-from-user": "Menerima transfer money dari pengguna lain",
+            "receive-transfer-from-user": "Menerima transfer money dari user lain",
             "notifications": {
                 "user-transfer-money-to-you": "{username} mentransfer money kepada Anda",
                 "user-transfer-money-details": "Anda telah menerima {cost}. ID Transfer：{id}"
@@ -45,7 +45,7 @@
             "transfer-money-timezone-help": "Atur zona waktu untuk waktu transfer. Standarnya adalah \"Asia/Shanghai\".",
             "transfer-money-timezone-default": "",
             "transfer-money-client-customization": "",
-            "transfer-money-client-customization-help": "Fitur yang dikembangkan untuk klien. Dapat menyebabkan kesalahan yang tidak terduga bagi pengguna lain.",
+            "transfer-money-client-customization-help": "Fitur yang dikembangkan untuk klien. Dapat menyebabkan kesalahan yang tidak terduga bagi user lain.",
             "permission": {
                 "allow_use_transfer_money": "Mengizinkan transfer money"
             }
