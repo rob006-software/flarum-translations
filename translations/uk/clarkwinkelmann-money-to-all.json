@@ -2,27 +2,27 @@
     "clarkwinkelmann-money-to-all": {
         "lib": {
             "modal": {
-                "title": "",
-                "amount": "",
-                "notify": "",
-                "message": "",
-                "messagePlaceholder": "",
-                "messageHelp": "",
-                "suspended": "",
-                "lastActivity": "",
-                "preview": "",
-                "submit": "",
-                "success": ""
+                "title": "Відправляйте гроші всім користувачам",
+                "amount": "Сума",
+                "notify": "Надіслати веб-сповіщення користувачам",
+                "message": "Повідомлення",
+                "messagePlaceholder": "Увімкнути сповіщення з повідомленням",
+                "messageHelp": "Необов'язково. Повідомлення замінить текст сповіщення за замовчуванням. Ви повинні вказати суму в тексті, оскільки вона більше не буде показана.",
+                "suspended": "Включити тимчасово відключених користувачів",
+                "lastActivity": "Обмеження для користувачів, активних після наступної дати",
+                "preview": "Поточні налаштування відповідають {count} користувачам.",
+                "submit": "Надіслати",
+                "success": "Гроші відправлено {count} користувачам!"
             }
         },
         "admin": {
             "settings": {
-                "send": ""
+                "send": "Надіслати гроші всім користувачам"
             }
         },
         "forum": {
             "notification": {
-                "moneyReceived": ""
+                "moneyReceived": "Ви отримали {amount}"
             }
         }
     }
