@@ -22,7 +22,7 @@
                 "hidden": "Message masqué dans `{1}`",
                 "restored": "Message restauré dans `{1}`",
                 "deleted": "Message supprimé dans `{1}`",
-                "approved": ""
+                "approved": "Message approuvé dans `{1}`"
             },
             "user": {
                 "registered": "Nouvel utilisateur inscrit",
@@ -106,8 +106,8 @@
                             "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "approval": {
-                            "title": "",
-                            "postwasapproved": ""
+                            "title": "Approbation de Flarum",
+                            "postwasapproved": "Message approuvé"
                         }
                     }
                 }
