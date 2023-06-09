@@ -31,54 +31,54 @@
                 "include_secondary_tags_label": "Включіть вторинні теги",
                 "label": {
                     "general": "Загальне",
-                    "boards": "",
-                    "labels": ""
+                    "boards": "Налаштування дощок",
+                    "labels": "Налаштування етикеток"
                 },
                 "mapping": {
-                    "add_new": "",
-                    "mapping_description": "",
-                    "modal_title": "",
-                    "no_mappings_for_board": ""
+                    "add_new": "Додати мапування",
+                    "mapping_description": "стануть",
+                    "modal_title": "Нове мапування тегів",
+                    "no_mappings_for_board": "Для цієї дошки немає активних зіставлень тегів"
                 },
-                "mappings_label": "",
-                "member_id_help": "",
-                "member_id_label": "",
-                "no_available_boards_label": "",
-                "no_label_name": "",
-                "no_selected_boards_label": "",
-                "selected_boards_label": "",
-                "save": "",
-                "tag": "",
-                "unmapped_warning_label": "",
-                "unmapped_warning_help": ""
+                "mappings_label": "Зіставлення тегів форуму з мітками Trello",
+                "member_id_help": "Введіть ідентифікатор учасника Trello, який буде використовуватися для отримання дошок оголошень у Trello (https://trello.com/your-trello-handle)",
+                "member_id_label": "Ідентифікатор учасника",
+                "no_available_boards_label": "Немає вільних дощок",
+                "no_label_name": "Відсутня назва етикетки",
+                "no_selected_boards_label": "Немає обраних дощок",
+                "selected_boards_label": "Обрані дошки",
+                "save": "Зберегти зміни",
+                "tag": "Тег",
+                "unmapped_warning_label": "Попередження про нерозмічені мітки",
+                "unmapped_warning_help": "Відображати попередження під час надсилання дискусії до Trello, якщо теги форуму не зіставлені з тегами Trello"
             }
         },
         "forum": {
             "badges": {
                 "trello": {
-                    "tooltip": ""
+                    "tooltip": "Існує в Trello"
                 }
             },
             "controls": {
-                "send_to_trello_button": "",
-                "view_on_trello_button": ""
+                "send_to_trello_button": "Надіслати в Trello",
+                "view_on_trello_button": "Переглянути картку Trello"
             },
             "modals": {
                 "fields": {
-                    "board": "",
-                    "lane": "",
-                    "member": "",
-                    "member_selected": ""
+                    "board": "Оберіть дошку Trello",
+                    "lane": "Оберіть доріжку Trello",
+                    "member": "Оберіть користувача Trello",
+                    "member_selected": "{count, plural, one {# користувач} other {# користувачі}} selected"
                 },
-                "no_available_board_lanes": "",
-                "no_available_board_members": "",
-                "no_available_boards_label": "",
-                "no_mappings_for_board": "",
-                "title": ""
+                "no_available_board_lanes": "Немає вільних смуг для дошок",
+                "no_available_board_members": "Відсутні від ні користувачі дошки",
+                "no_available_boards_label": "Відсутні дошки",
+                "no_mappings_for_board": "На поточному обраному форумі не налаштовано зіставлення міток Trello для тегів форуму",
+                "title": "Надіслати до Trello"
             }
         },
         "lib": {
-            "original_post": ""
+            "original_post": "Оригінальний допис"
         }
     }
 }
