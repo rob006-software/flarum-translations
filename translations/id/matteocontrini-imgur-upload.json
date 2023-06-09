@@ -2,22 +2,22 @@
     "imgur-upload": {
         "admin": {
             "settings": {
-                "hide-markdown-image": "",
-                "allow-paste": "",
+                "hide-markdown-image": "Sembunyikan tombol gambar Markdown",
+                "allow-paste": "Izinkan upload dengan mem-paste gambar",
                 "embed-type": {
-                    "title": "",
-                    "preview-with-link": "",
-                    "preview-without-link": "",
-                    "full-with-link": "",
-                    "full-without-link": ""
+                    "title": "Jenis sematan",
+                    "preview-with-link": "Pratinjau (1024px) dengan link ke gambar ukuran penuh",
+                    "preview-without-link": "Pratinjau tanpa link",
+                    "full-with-link": "Gambar ukuran penuh dengan link",
+                    "full-without-link": "Gambar ukuran penuh tanpa link"
                 }
             }
         },
         "forum": {
-            "upload": "",
-            "loading": "",
-            "done": "",
-            "error": ""
+            "upload": "Tekan atau paste untuk meng-upload",
+            "loading": "Meng-upload...",
+            "done": "Selesai!",
+            "error": "Error"
         }
     }
 }
