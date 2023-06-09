@@ -15,8 +15,8 @@
                 "reply_to_post_text": "Vastaus viestiin #{number}"
             },
             "mentioned_by": {
-                "title": "",
-                "load_more_button": ""
+                "title": "Vastaukset tähän viestiin",
+                "load_more_button": "=> core.ref.load_more"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
@@ -25,7 +25,7 @@
                 "group_mentioned_text": "{username} mainitsi ryhmän, jossa olet jäsenenä"
             },
             "post": {
-                "mentioned_by_more_text": "",
+                "mentioned_by_more_text": "{count} lisää vastausta.",
                 "mentioned_by_self_text": "{users} vastasit tähän.",
                 "mentioned_by_text": "{users} vastasi tähän.",
                 "others_text": "=> core.ref.some_others",
