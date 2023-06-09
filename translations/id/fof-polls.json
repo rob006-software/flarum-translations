@@ -18,7 +18,7 @@
             "no_permission": "Anda tidak memiliki izin untuk melakukan voting",
             "poll_ended": "Polling ini sudah berakhir",
             "public_poll": "Lihat voter",
-            "max_votes_allowed": "",
+            "max_votes_allowed": "Polling memungkinkan melakukan voting untuk {max, plural, one {# pilihan} other {# pilihan}}.",
             "composer_discussion": {
                 "add_poll": "Membuat Polling",
                 "edit_poll": "=> fof-polls.forum.moderation.edit"
@@ -36,9 +36,9 @@
                 "image_option_placeholder": "URL Gambar (optional)",
                 "options_label": "Jawaban",
                 "public_poll_label": "Izinkan orang-orang untuk melihat siapa saja yang melakukan voting",
-                "allow_multiple_votes_label": "",
+                "allow_multiple_votes_label": "Izinkan orang untuk memilih beberapa pilihan",
                 "max_votes_label": "",
-                "max_votes_help": "",
+                "max_votes_help": "Atur ke 0 untuk memungkinkan pengguna memilih semua opsi.",
                 "question_placeholder": "Pertanyaan",
                 "submit": "Masukkan"
             },
