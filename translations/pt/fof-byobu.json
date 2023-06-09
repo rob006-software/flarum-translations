@@ -70,12 +70,12 @@
                 "dropdown_label": "Discussões privadas"
             },
             "notifications": {
-                "pd_label": "",
-                "pd_reply_label": "",
-                "pd_reply_text": "",
-                "pd_text": "",
-                "pd_user_left_label": "",
-                "pd_user_left_text": "",
+                "pd_label": "Alguém me incluiu numa nova discussão privada",
+                "pd_reply_label": "Alguém postou numa discussão privada onde eu participo",
+                "pd_reply_text": "{username} postou numa discussão privada onde tu participas",
+                "pd_text": "{username} iniciou uma nova discussão privada contigo",
+                "pd_user_left_label": "Um utilizador abandonou uma discussão privada da qual faço parte",
+                "pd_user_left_text": "{username} abandonou a discussão privada",
                 "pd_added_text": "",
                 "pd_added_label": ""
             }
