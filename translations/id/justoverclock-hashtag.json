@@ -2,14 +2,14 @@
     "justoverclock-hashtag": {
         "admin": {
             "settings": {
-                "regexlabel": "",
-                "regexdesc": "",
-                "oldregexdesc": ""
+                "regexlabel": "Hashtag Regular Expression",
+                "regexdesc": "Contoh yang ditampilkan di bawah ini adalah placeholder. Edit hanya jika Anda memahami Regular Expression.",
+                "oldregexdesc": "Berikut adalah regular expression hashtag lama Anda: <code>{regex}</code>"
             }
         },
         "forum": {
             "post": {
-                "hashtag_link_tooltip": ""
+                "hashtag_link_tooltip": "Temukan post yang terkait dengan hashtag ini"
             }
         }
     }
