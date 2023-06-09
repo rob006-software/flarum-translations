@@ -2,8 +2,8 @@
     "fof-username-request": {
         "admin": {
             "permissions": {
-                "moderate_requests": "Затвердження запитів на зміну імені користувача/нікнейму",
-                "request_nickname": "Запит на зміну нікнейму",
+                "moderate_requests": "Затвердження запитів на зміну імені користувача/псевдо",
+                "request_nickname": "Запит на зміну псевдо",
                 "request_username": "Запит на зміну імені користувача"
             }
         },
@@ -11,32 +11,32 @@
             "nickname_modals": {
                 "action": {
                     "title": "=> fof-username-request.ref.nickname_change_request",
-                    "help_text": "Будь ласка, переконайтеся, що ця зміна нікнейму відповідає правилам форуму.",
+                    "help_text": "Будь ласка, переконайтеся, що ця зміна псевдо відповідає правилам форуму.",
                     "decision_title": "Рішення",
                     "approval_label": "Затвердити",
                     "rejected_label": "Відхилити",
                     "submit_button": "Надіслати",
                     "reason_title": "Причина відмови",
                     "success": "Рішення відправлено.",
-                    "name": "{name} звернувся з проханням змінити свій нікнейм на \"{requestedName}\""
+                    "name": "Користувач {name} звернувся з проханням змінити своє псевдо на «{requestedName}»"
                 },
                 "results": {
-                    "title": "Запит на зміну нікнейму",
-                    "approved": "Ваш запит на зміну нікнейму погоджено",
+                    "title": "Запит на зміну псевдо",
+                    "approved": "Ваш запит на зміну псевдо погоджено",
                     "dismiss_button": "=> core.ref.okay",
-                    "new_name": "Ваш нікнейм успішно змінено на {name}",
-                    "rejected": "Ваш запит на зміну нікнейму було відхилено",
+                    "new_name": "Ваше псевдо успішно замінено на: {name}",
+                    "rejected": "Ваш запит на зміну псевдо було відхилено",
                     "reason": "Причина відмови: <i>\"{reason}\"</i>.",
                     "resubmit": "У цей час ви можете повторно подати новий запит на зміну псевдоніма з налаштувань вашого облікового запису, якщо ви цього забажаєте."
                 },
                 "request": {
-                    "title": "Подати запит на зміну нікнейму",
+                    "title": "Подати запит на зміну псевдо",
                     "current_request": "Ви вже подавали запит на зміну вашого ніку на \"{name}\". Ви можете або оновити свій запит, або видалити його.",
                     "submit_button": "Надіслати запит",
                     "delete_button": "Видалити запит",
-                    "confirmation_message": "Ваш запит на зміну нікнейму подано та очікує на затвердження.",
+                    "confirmation_message": "Ваш запит на зміну псевдо подано та очікує на затвердження.",
                     "dismiss_button": "=> core.ref.okay",
-                    "deleted": "Запит на зміну нікнейму видалено."
+                    "deleted": "Запит на зміну псевдо видалено."
                 }
             },
             "username_modals": {
@@ -72,16 +72,16 @@
             },
             "pending_requests": {
                 "empty_text": "Запитів на зміну назви не знайдено.",
-                "nickname_item_text": "{name} попросив змінити нікнейм",
-                "nickname_exerpt": "Запитаний нікнейм: {requestedName}",
+                "nickname_item_text": "Користувач {name} попросив змінити своє псевдо",
+                "nickname_exerpt": "Запитуване псевдо: {requestedName}",
                 "tooltip": "=> fof-username-request.ref.name_change_requests",
                 "title": "=> fof-username-request.ref.name_change_requests",
                 "username_item_text": "{name} подав запит на зміну імені користувача",
                 "username_exerpt": "Запитуване ім'я користувача: {requestedName}"
             },
             "settings": {
-                "nickname_request_button": "Змінити нікнейм",
-                "username_request_button": "Змінити нікнейм"
+                "nickname_request_button": "Змінити псевдо",
+                "username_request_button": "Змінити ім'я користувача"
             },
             "user": {
                 "name_history_link": "Історія імені"
@@ -90,8 +90,8 @@
         "ref": {
             "name_change_request": "Запит на зміну імені",
             "name_change_requests": "Запити на зміну імені",
-            "nickname_change_request": "Запит на зміну нікнейму",
-            "nickname_change_requests": "Запити на зміну нікнейму",
+            "nickname_change_request": "Запит на зміну псевдо",
+            "nickname_change_requests": "Запити на зміну псевдо",
             "username_change_request": "Запит на зміну імені користувача",
             "username_change_requests": "Запити на зміну імені користувача"
         }
