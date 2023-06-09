@@ -2,42 +2,42 @@
     "maicol07-oidc-client": {
         "admin": {
             "settings": {
-                "provider_name": "",
-                "client_settings_title": "",
-                "client_settings_subtitle": "",
-                "client_id": "",
-                "client_secret": "",
-                "callback_title": "",
-                "callback_subtitle": "",
-                "callback_logout_note": "",
-                "provider_settings_title": "",
-                "provider_url": "",
-                "endpoints_title": "",
-                "endpoints_subtitle": "",
+                "provider_name": "Ім'я постачальника послуг OpenID Connect",
+                "client_settings_title": "Налаштування клієнта",
+                "client_settings_subtitle": "Додайте сюди інформацію про клієнта, надану вашим постачальником OpenID Connect. Щоб отримати додаткову допомогу, ознайомтеся з документацією.",
+                "client_id": "Ідентифікатор клієнта",
+                "client_secret": "Секретний ключ клієнта",
+                "callback_title": "Callback URI зворотного виклику",
+                "callback_subtitle": "Це URI зворотного виклику, який потрібно зареєструвати у провайдера для отримання коду авторизації клієнта, а також для виходу з провайдера, якщо відповідну опцію було ввімкнено.",
+                "callback_logout_note": "потрібен лише тоді, коли увімкнено опцію виходу з провайдера (див. внизу сторінки)",
+                "provider_settings_title": "Налаштування провайдера",
+                "provider_url": "URL-адреса провайдера",
+                "endpoints_title": "Кінцеві точки провайдера",
+                "endpoints_subtitle": "Додайте сюди кінцеві точки вашого провайдера. Якщо ви додали URL-адресу провайдера вище і ваш провайдер підтримує автоматичне виявлення, необхідні кінцеві точки будуть виявлені (і збережені) автоматично, коли ви натиснете кнопку «Зберегти налаштування» (ви не побачите нові кінцеві точки в налаштуваннях, поки не оновите сторінку). Вам не потрібно додавати інші кінцеві точки, якщо URL-адреса провайдера заповнена і у провайдера увімкнено автоматичне виявлення. Якщо ваш провайдер ще не реалізував цю функцію, ви можете додати необхідні кінцеві точки вручну нижче. Перегляньте документацію для отримання додаткової допомоги\n",
                 "endpoints": {
-                    "authorize": "",
-                    "token": "",
-                    "userinfo": "",
-                    "logout": ""
+                    "authorize": "URL-адреса кінцевої точки авторизації",
+                    "token": "URL-адреса кінцевої точки токена",
+                    "userinfo": "URL кінцевої точки Userinfo",
+                    "logout": "URL кінцевої точки завершення сеансу (виходу)"
                 },
-                "other_settings_title": "",
-                "issuer": "",
-                "nonce": "",
-                "linker_claim": "",
-                "manage_account_url": "",
-                "manage_account_btn_open_in_new_tab": "",
-                "sso_mode": "",
-                "logout_from_provider": "",
-                "remove_signup_btn": "",
-                "sync_avatars": ""
+                "other_settings_title": "Інші налаштування",
+                "issuer": "URL-адреса емітента",
+                "nonce": "Деактивуйте перевірку nonce",
+                "linker_claim": "Заява на лінкер",
+                "manage_account_url": "URL-адреса для керування обліковим записом",
+                "manage_account_btn_open_in_new_tab": "Відкрийте сторінку керування рахунком у новій вкладці",
+                "sso_mode": "Режим SSO",
+                "logout_from_provider": "Вихід з провайдера (якщо увімкнено режим SSO)",
+                "remove_signup_btn": "Видалити кнопку реєстрації",
+                "sync_avatars": "Синхронізувати аватар користувача"
             }
         },
         "forum": {
             "buttons": {
-                "manage_account": "",
-                "login": "",
-                "connect_account": "",
-                "disconnect_account": ""
+                "manage_account": "Керування обліковим записом",
+                "login": "Увійдіть до {name}",
+                "connect_account": "Підключіться до {name}",
+                "disconnect_account": "Від'єднатися від {name}"
             }
         }
     }
