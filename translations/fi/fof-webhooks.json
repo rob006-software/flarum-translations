@@ -22,7 +22,7 @@
                 "hidden": "Piilotti viestin keskustelussa `{1}`",
                 "restored": "Palautti viestin keskustelussa `{1}`",
                 "deleted": "Poisti viestin keskustelussa `{1}`",
-                "approved": ""
+                "approved": "Hyväksytyt viestit `{1}`"
             },
             "user": {
                 "registered": "Uusi käyttäjä rekisteröityi",
@@ -106,8 +106,8 @@
                             "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "approval": {
-                            "title": "",
-                            "postwasapproved": ""
+                            "title": "Flarum hyväksyntä",
+                            "postwasapproved": "Viesti hyväksytty"
                         }
                     }
                 }
