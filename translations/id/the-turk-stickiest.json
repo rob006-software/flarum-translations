@@ -2,12 +2,12 @@
     "the-turk-stickiest": {
         "admin": {
             "permissions": {
-                "super_sticky_discussions_label": "",
-                "tag_sticky_discussions_label": ""
+                "super_sticky_discussions_label": "Menandai diskusi dengan Super Sticky",
+                "tag_sticky_discussions_label": "Menandai diskusi dengan Tag Sticky"
             },
             "settings": {
-                "badge_icon_label": "Ikon badge super sticky",
-                "badge_icon_text": "Masukkan nama kelas ikon <a>FontAwesome</a> apa pun, <em>termasuk</em> prefiks <code>fas fa-</code>.",
+                "badge_icon_label": "Ikon badge Super Sticky",
+                "badge_icon_text": "=> core.ref.icon_text",
                 "display_tag_sticky_label": "Tampilkan tag stickies di daftar \"Semua Diskusi\"",
                 "display_tag_sticky_text": "Mereka akan diperlakukan sebagai diskusi biasa dan tidak akan terpaku pada topik utama."
             }
@@ -20,13 +20,13 @@
                 "super_tag_sticky_tooltip": "=> the-turk-stickiest.ref.super_tag_sticky"
             },
             "stickiest_modal": {
-                "title": "",
+                "title": "Sticky {title}",
                 "sticky_label": "=> flarum-sticky.ref.sticky",
                 "sticky_text": "Diskusi yang ditandai akan tetap berada di bagian atas dalam daftar \"Semua Diskusi\" jika belum dibaca. Ketika melihat tag tertentu yang termasuk dalam diskusi, tag tersebut akan tetap berada di bagian atas setiap saat.",
                 "super_sticky_label": "=> the-turk-stickiest.ref.super_sticky",
-                "super_sticky_text": "Diskusi yang ditandai dengan Super sticky akan tetap melekat di bagian atas, apa pun yang terjadi.",
+                "super_sticky_text": "Diskusi yang ditandai dengan Super Sticky akan tetap melekat di bagian atas, apa pun yang terjadi.",
                 "tag_sticky_label": "=> the-turk-stickiest.ref.tag_sticky",
-                "tag_sticky_text": "",
+                "tag_sticky_text": "Tag Sticky disembunyikan dalam daftar \"Semua Diskusi\" secara default. Tag tersebut hanya akan ditampilkan dan menonjol di bagian atas ketika Anda melihat tag tertentu, yaitu salah satu tag yang Anda pilih di sini. Opsi ini dapat dikombinasikan dengan \"Super Sticky\".",
                 "tags_label": "=> flarum-tags.ref.tags",
                 "submit_button": "=> core.ref.save_changes"
             },
@@ -36,8 +36,8 @@
             "post_stream": {
                 "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
                 "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
-                "discussion_super_stickied_text": "{username} menandai diskusi sebagai super sticky.",
-                "discussion_common_stickied_text": "{username} menghapus tanda diskusi sebagai super sticky."
+                "discussion_super_stickied_text": "{username} menandai diskusi sebagai Super Sticky.",
+                "discussion_common_stickied_text": "{username} menghapus tanda diskusi sebagai Super Sticky."
             }
         },
         "ref": {
