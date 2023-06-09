@@ -18,7 +18,7 @@
             "no_permission": "Sinulla ei ole oikeutta vastata",
             "poll_ended": "Kysely on loppunut.",
             "public_poll": "Näytä vastaajat",
-            "max_votes_allowed": "",
+            "max_votes_allowed": "Kyselyt sallivat äänestyksen {max, plural, one {# vaihtoehdon} other {# vaihtoehtoon}}.",
             "composer_discussion": {
                 "add_poll": "Lisää kysely",
                 "edit_poll": "=> fof-polls.forum.moderation.edit"
@@ -36,9 +36,9 @@
                 "image_option_placeholder": "Kuvan osoite (valinnainen)",
                 "options_label": "Vastaukset",
                 "public_poll_label": "Salli käyttäjien nähdä kuka vastasi",
-                "allow_multiple_votes_label": "",
-                "max_votes_label": "",
-                "max_votes_help": "",
+                "allow_multiple_votes_label": "Salli käyttäjien vastata useampaan vaihtoehtoon",
+                "max_votes_label": "Enimmäismäärä ääniä per käyttäjä",
+                "max_votes_help": "Aseta arvoksi 0, jotta voi vastata kaikkiin vaihtoehtoihin.",
                 "question_placeholder": "Kysymys",
                 "submit": "Lähetä"
             },
