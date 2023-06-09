@@ -3,30 +3,30 @@
         "admin": {
             "settings": {
                 "options": {
-                    "airplay": "",
-                    "hotkey": "",
-                    "lang": "",
-                    "logo": "",
-                    "quality_switching": "",
-                    "theme": ""
+                    "airplay": "Airplay",
+                    "hotkey": "Hotkey",
+                    "lang": "Bahasa",
+                    "logo": "URL Logo",
+                    "quality_switching": "Pengaturan Kualitas",
+                    "theme": "Warna tema"
                 },
                 "permissions": {
-                    "can_create_video_player": "",
-                    "can_view_video_player": ""
+                    "can_create_video_player": "Dapat membuat video player",
+                    "can_view_video_player": "Dapat melihat video player"
                 },
                 "video_types": {
-                    "dash": "",
-                    "flv": "",
-                    "hls": "",
-                    "shaka": "",
-                    "webtorrent": ""
+                    "dash": "Dash",
+                    "flv": "Flv",
+                    "hls": "Hls",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
                 }
             }
         },
         "forum": {
-            "button_tooltip_title": "",
-            "cannot_view": "",
-            "cannot_create": ""
+            "button_tooltip_title": "Sematkan Video",
+            "cannot_view": "Error: Anda tidak diizinkan untuk melihat konten ini",
+            "cannot_create": "Anda tidak diizinkan untuk menyematkan video"
         }
     }
 }
