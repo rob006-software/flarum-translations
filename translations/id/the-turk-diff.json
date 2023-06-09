@@ -1,84 +1,84 @@
 {
     "the-turk-diff": {
         "forum": {
-            "revisions": "",
-            "emptyText": "",
+            "revisions": "{revisionCount, plural, one {{revisionCount} revisi} other {{revisionCount} revisi}}",
+            "emptyText": "Tidak Ada Revisi",
             "editedText": "=> core.forum.post.edited_text",
-            "deletedText": "",
+            "deletedText": "(dihapus)",
             "tooltips": {
-                "mostRecent": "",
+                "mostRecent": "terbaru",
                 "originalContent": "=> the-turk-diff.ref.originalContent",
                 "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
-                "sideBySide": "",
-                "inline": "",
-                "combined": "",
+                "sideBySide": "Bersebelahan",
+                "inline": "Baris demi baris",
+                "combined": "Digabungkan",
                 "preview": "=> core.forum.composer.preview_tooltip"
             },
-            "optionsButton": "",
+            "optionsButton": "Pilihan",
             "deleteButton": "=> core.forum.post_controls.delete_button",
-            "rollbackButton": "",
-            "rollbackToOriginalButton": "",
-            "revertChangesButton": "",
-            "confirmRollback": "",
-            "confirmDelete": "",
-            "rollbackErrorMessage": "",
-            "deleteErrorMessage": "",
-            "rollbackSuccessMessage": "",
-            "deleteSuccessMessage": "",
+            "rollbackButton": "Kembali ke Revisi {number}",
+            "rollbackToOriginalButton": "Kembalikan ke Versi Awal",
+            "revertChangesButton": "Kembalikan Perubahan",
+            "confirmRollback": "Apakah Anda yakin ingin mengubah post Anda saat ini?",
+            "confirmDelete": "Apakah Anda yakin ingin menghapus isi pengeditan ini dari history?",
+            "rollbackErrorMessage": "Pengembalian perubahan gagal.",
+            "deleteErrorMessage": "Penghapusan isi pengeditan gagal.",
+            "rollbackSuccessMessage": "Perubahan Anda telah dikembalikan.",
+            "deleteSuccessMessage": "Isi pengeditan telah dihapus.",
             "editedInfo": "=> core.forum.post.edited_tooltip",
-            "deletedInfo": "",
+            "deletedInfo": "{username} menghapus konten ini {ago}",
             "createdInfo": "",
-            "revisionInfo": "",
-            "noDiff": "",
+            "revisionInfo": "Edited {revisionCount, plural, one {{revisionCount} kali} other {{revisionCount} kali}}, terbaru di bagian atas",
+            "noDiff": "Tidak ada perbedaan yang ditemukan di antara kedua konten ini.",
             "differences": {
                 "originalContent": "=> the-turk-diff.ref.originalContent",
                 "currentContent": "=> the-turk-diff.ref.currentContent",
                 "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
-                "sentence": ""
+                "sentence": "Anda sedang melihat perbedaan antara {old} dan {new}"
             },
             "previewMode": {
                 "originalContent": "=> the-turk-diff.ref.originalContent",
                 "currentContent": "=> the-turk-diff.ref.currentContent",
                 "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
-                "sentence": ""
+                "sentence": "Anda sedang melihat pratinjau {content}"
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "onlyUnsigned": "",
-                "usePoint": "",
-                "separateBlock": "",
-                "mainPostOnly": "",
-                "textFormatting": "",
+                "title": "Pengaturan Diff",
+                "onlyUnsigned": "Hanya <strong>unsigned integers</strong> yang diperbolehkan!",
+                "usePoint": "Gunakan <strong>titik</strong> sebagai pemisah desimal untuk nilai float.",
+                "separateBlock": "Tampilkan pemisah antara `diff hunk` yang berbeda dalam perender HTML",
+                "mainPostOnly": "Simpan revisi postingan utama saja",
+                "textFormatting": "Aktifkan pemformatan teks untuk pratinjau",
                 "detailLevel": "",
                 "noneLevel": "",
                 "lineLevel": "",
                 "wordLevel": "",
                 "charLevel": "",
-                "neighborLines": "",
-                "neighborLinesHelp": "",
+                "neighborLines": "Neighbor Line",
+                "neighborLinesHelp": "Tentukan jumlah neighbor line yang ingin Anda tampilkan.",
                 "mergeThreshold": "",
-                "mergeThresholdHelp": "",
-                "dbOptimisation": "",
-                "archiveOlds": "",
-                "archiveOldsInfo": "",
-                "useCrons": "",
-                "useCronsHelp": "",
-                "archiveInfo": ""
+                "mergeThresholdHelp": "Ini menentukan apakah blok tipe pengganti harus digabungkan atau tidak tergantung pada rasio perubahan konten, yang nilainya antara 0 dan 1.",
+                "dbOptimisation": "Optimalisasi Database",
+                "archiveOlds": "Arsipkan revisi lama",
+                "archiveOldsInfo": "Jika <strong>x ≥ A</strong>, revisi pertama <strong>y=mx+b</strong> untuk postingan tersebut akan disimpan sebagai digabung & dikompresi. <strong>x</strong> mengacu pada jumlah revisi postingan. Nilai float dari <strong>y</strong> akan dibulatkan ke nilai integer terendah berikutnya.",
+                "useCrons": "Gunakan cron untuk mengarsipkan revisi lama",
+                "useCronsHelp": "Anda harus menambahkan entri Cron ke server Anda agar opsi ini berfungsi. Opsi ini akan bekerja setiap minggu pada hari Minggu pukul 02:00. Jika Anda menonaktifkan opsi ini dan mengaktifkannya di atas, semua revisi postingan akan dipindai untuk diarsipkan ketika postingan terkait direvisi.",
+                "archiveInfo": "Perlu diingat bahwa Anda dapat menonaktifkan kedua opsi tersebut dan menjalankan command <code>php flarum diff:archive</code> untuk mengarsipkan revisi lama secara manual."
             },
             "permissions": {
-                "viewEditHistory": "",
-                "deleteEditHistory": "",
-                "selfDeleteEditHistory": "",
-                "rollbackEditHistory": "",
-                "selfRollbackEditHistory": ""
+                "viewEditHistory": "Melihat history pengeditan",
+                "deleteEditHistory": "Menghapus history pengeditan orang lain",
+                "selfDeleteEditHistory": "Menghapus history pengeditan sendiri",
+                "rollbackEditHistory": "Mengembalikan history pengeditan orang lain",
+                "selfRollbackEditHistory": "Mengembalikan riwayat history sendiri"
             }
         },
         "ref": {
-            "originalContent": "",
-            "currentContent": "",
-            "revisionWithNumber": ""
+            "originalContent": "konten original",
+            "currentContent": "konten saat ini",
+            "revisionWithNumber": "revisi {number}"
         }
     }
 }
