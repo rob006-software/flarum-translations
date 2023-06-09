@@ -3,19 +3,19 @@
         "forum": {
             "revisions": "",
             "emptyText": "",
-            "editedText": "",
+            "editedText": "=> core.forum.post.edited_text",
             "deletedText": "",
             "tooltips": {
                 "mostRecent": "",
-                "originalContent": "",
-                "revisionWithNumber": "",
+                "originalContent": "=> the-turk-diff.ref.originalContent",
+                "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
                 "sideBySide": "",
                 "inline": "",
                 "combined": "",
-                "preview": ""
+                "preview": "=> core.forum.composer.preview_tooltip"
             },
             "optionsButton": "",
-            "deleteButton": "",
+            "deleteButton": "=> core.forum.post_controls.delete_button",
             "rollbackButton": "",
             "rollbackToOriginalButton": "",
             "revertChangesButton": "",
@@ -25,21 +25,21 @@
             "deleteErrorMessage": "",
             "rollbackSuccessMessage": "",
             "deleteSuccessMessage": "",
-            "editedInfo": "",
+            "editedInfo": "=> core.forum.post.edited_tooltip",
             "deletedInfo": "",
             "createdInfo": "",
             "revisionInfo": "",
             "noDiff": "",
             "differences": {
-                "originalContent": "",
-                "currentContent": "",
-                "revisionWithNumber": "",
+                "originalContent": "=> the-turk-diff.ref.originalContent",
+                "currentContent": "=> the-turk-diff.ref.currentContent",
+                "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
                 "sentence": ""
             },
             "previewMode": {
-                "originalContent": "",
-                "currentContent": "",
-                "revisionWithNumber": "",
+                "originalContent": "=> the-turk-diff.ref.originalContent",
+                "currentContent": "=> the-turk-diff.ref.currentContent",
+                "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
                 "sentence": ""
             }
         },
