@@ -2,18 +2,18 @@
     "ianm-log-viewer": {
         "admin": {
             "permissions": {
-                "access_logfile_api": ""
+                "access_logfile_api": "Mengakses data file log melalui API"
             },
             "settings": {
-                "purge-days": "",
-                "purge-days-help": ""
+                "purge-days": "Bersihkan file log setelah beberapa hari",
+                "purge-days-help": "Bergantung pada Flarum scheduler yang aktif. 0 untuk dinonaktifkan."
             },
             "viewer": {
-                "available_logs_heading": "",
-                "file_contents_heading": "",
-                "file_size": "",
-                "last_updated": "",
-                "no_file_selected": ""
+                "available_logs_heading": "File yang tersedia",
+                "file_contents_heading": "Isi file",
+                "file_size": "Ukuran (byte): {size}",
+                "last_updated": "Terakhir diperbarui: {updated}",
+                "no_file_selected": "Pilih file log untuk melihat isinya."
             }
         }
     }
