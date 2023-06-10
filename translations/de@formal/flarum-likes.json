@@ -1,0 +1,20 @@
+{
+    "flarum-likes": {
+        "admin": {
+            "settings": {
+                "like_own_posts_help": "Sofern aktiviert, können Benutzer ihre eigenen Beiträge im Forum mit einem 'Gefällt mir' versehen, wenn sie dazu berechtigt sind. Deaktivieren Sie diese Option, um zu verhindern, dass Benutzer ihre eigenen Beiträge mit einem 'Gefällt mir' versehen."
+            }
+        },
+        "forum": {
+            "notifications": {
+                "post_liked_text": "{username} gefällt Ihr Beitrag"
+            },
+            "post": {
+                "you_text": "Ihnen"
+            },
+            "settings": {
+                "notify_post_liked_label": "Jemandem gefällt Ihr Beitrag"
+            }
+        }
+    }
+}
