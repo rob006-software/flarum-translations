@@ -1,0 +1,27 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "nav": {
+                "tags_text": "Ordnen Sie die Liste der Themen um die Diskussionen zu organisieren."
+            },
+            "tag_settings": {
+                "required_primary_text": "Geben Sie die minimale und die maximale Anzahl von Hauptthemen an, die einer Diskussion hinzugefügt werden können.",
+                "required_secondary_text": "Geben Sie die minimale und die maximale Anzahl von Unterthemen an, die einer Diskussion hinzugefügt werden können."
+            }
+        },
+        "forum": {
+            "choose_tags": {
+                "choose_primary_placeholder": "{count, plural, one {Wählen Sie ein Hauptthema} other {Wählen Sie # Hauptthemen}}",
+                "choose_secondary_placeholder": "{count, plural, one {Wählen Sie ein weiteres Thema} other {Wählen Sie # weitere Themen}}"
+            }
+        },
+        "lib": {
+            "tag_selection_modal": {
+                "choose_primary_placeholder": "{count, plural, one {Wählen Sie ein primäres Thema} other {Wählen Sie # primäre Themen}}"
+            }
+        },
+        "ref": {
+            "choose_tags_placeholder": "{count, plural, one {Wählen Sie ein Thema mehr} other {Wählen Sie # mehr Themen}}"
+        }
+    }
+}
