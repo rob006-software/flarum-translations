@@ -3,33 +3,33 @@
         "admin": {
             "settings": {
                 "title": "Pengaturan SSO",
-                "provider_mode": "",
-                "client_name": "",
-                "client_name_help": "",
-                "client_url": "",
-                "client_url_help": "",
-                "client_api_key": "",
-                "client_api_key_help": "",
+                "provider_mode": "Aktifkan opsi ini untuk menggunakan mode provider (SSO antar instance Flarum). Mengizinkan instance Flarum lain untuk login sebagai user instance Flarum ini. Ini akan menonaktifkan fitur SSO standar dengan situs web lain.",
+                "client_name": "Nama",
+                "client_name_help": "Nama Flarum instance",
+                "client_url": "URL",
+                "client_url_help": "URL Flarum instance",
+                "client_api_key": "API key",
+                "client_api_key_help": "API key dari instance Flarum Anda.",
                 "client_password_token": "",
                 "client_password_token_help": "",
                 "client_verify_ssl": "",
-                "client_verify_ssl_help": "",
-                "signup_url": "",
-                "login_url": "",
-                "logout_url": "",
-                "remove_login_btn": "",
-                "remove_signup_btn": "",
-                "manage_account_url": "",
-                "manage_account_btn_open_in_new_tab": "",
-                "cookies_prefix": "",
-                "jwt_section_subtitle": "",
+                "client_verify_ssl_help": "Verifikasi Flarum instance SSL saat membuat request ke sana (disarankan).",
+                "signup_url": "URL Pendaftaran",
+                "login_url": "URL Login",
+                "logout_url": "URL Keluar",
+                "remove_login_btn": "Hapus tombol login",
+                "remove_signup_btn": "Hapus tombol pendaftaran",
+                "manage_account_url": "Kelola URL akun",
+                "manage_account_btn_open_in_new_tab": "Buka manajemen akun di tab baru",
+                "cookies_prefix": "Prefiks nama cookie",
+                "jwt_section_subtitle": "Pengaturan JWT Addon",
                 "jwt_iss": "",
                 "jwt_signer_key": "",
-                "jwt_signing_algorithm": ""
+                "jwt_signing_algorithm": "Metode Penandatanganan"
             }
         },
         "forum": {
-            "manage_account_btn": ""
+            "manage_account_btn": "Kelola akun"
         }
     }
 }
