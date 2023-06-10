@@ -3,7 +3,7 @@
         "forum": {
             "select": {
                 "all": "Semua",
-                "none": "",
+                "none": "Tidak ada",
                 "read": "Baca",
                 "unread": "Belum dibaca",
                 "visible": "",
@@ -14,13 +14,13 @@
             "actions": {
                 "markAsRead": "Tandai yang dipilih sebagai sudah dibaca",
                 "hide": "Hapus yang dipilih",
-                "restore": "",
-                "delete": "",
+                "restore": "Pulihkan yang dipilih",
+                "delete": "Hapus selamanya yang dipilih",
                 "deleteConfirmation": "{count, plural, one {Apakah Anda yakin ingin menghapus diskusi yang dipilih secara permanen?} other {Apakah Anda yakin ingin menghapus # diskusi yang dipilih secara permanen?}}",
-                "lock": "",
-                "unlock": "",
-                "sticky": "",
-                "unsticky": "",
+                "lock": "Kunci yang dipilih",
+                "unlock": "Buka kunci yang dipilih",
+                "sticky": "Sticky yang dipilih",
+                "unsticky": "Lepas sticky yang dipilih",
                 "tags": "Tag",
                 "tags-edit": "Edit tag",
                 "tags-add": "Tambahkan <em>{tag}</em>"
