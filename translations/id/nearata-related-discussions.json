@@ -2,27 +2,27 @@
     "nearata-related-discussions": {
         "admin": {
             "settings": {
-                "allow_guests": "",
-                "generator": "",
+                "allow_guests": "Izinkan Tamu",
+                "generator": "Generator",
                 "generator_options": {
-                    "random": "",
-                    "title": ""
+                    "random": "Acak",
+                    "title": "Berdasarkan Judul"
                 },
-                "max_discussions": "",
-                "max_discussions_help": "",
-                "position": "",
+                "max_discussions": "Jumlah Maksimal Diskusi",
+                "max_discussions_help": "Standarnya adalah <strong>5</strong>.",
+                "position": "Posisi",
                 "position_options": {
-                    "first_post": "",
-                    "last_post": "",
-                    "reply_block": ""
+                    "first_post": "Setelah Post Pertama",
+                    "last_post": "Setelah Post Terakhir",
+                    "reply_block": "Setelah Block Balasan"
                 },
-                "cache": "",
-                "cache_help": ""
+                "cache": "Cache",
+                "cache_help": "Formatnya harus <strong>0-31d0-23h0-59m</strong>"
             }
         },
         "forum": {
-            "discussion_list_title": "",
-            "no_results": ""
+            "discussion_list_title": "Diskusi Terkait",
+            "no_results": "Tidak ada diskusi terkait yang ditemukan"
         }
     }
 }
