@@ -1,32 +1,32 @@
 {
     "flarum-ext-contactme": {
         "settings": {
-            "emaillabel": ""
+            "emaillabel": "Email yang akan dikirimi formulir kontak"
         },
         "admin": {
             "settings": {
-                "emaillabel": ""
+                "emaillabel": "Email yang akan dikirimi formulir kontak"
             }
         },
         "forum": {
-            "title": "",
-            "messagesent": "",
-            "plsregister": "",
-            "tocontinue": "",
-            "backsoon": "",
-            "notloggedin": "",
-            "placeholderName": "",
-            "emailfield": "",
-            "pageTitle": "",
-            "subject": "",
-            "sendForm": "",
-            "textAreaField": "",
-            "pText": ""
+            "title": "Hubungi kami",
+            "messagesent": "Pesan terkirim!",
+            "plsregister": "Silakan daftar atau login",
+            "tocontinue": "untuk melanjutkan formulir kontak ini",
+            "backsoon": "kami akan segera menghubungi Anda kembali",
+            "notloggedin": "Silakan login untuk menggunakan formulir kontak",
+            "placeholderName": "Tulis nama Anda di sini",
+            "emailfield": "Tulis alamat email Anda",
+            "pageTitle": ".Hubungi Kami",
+            "subject": "Pesan dari formulir kontak",
+            "sendForm": "Kirim Pesan",
+            "textAreaField": "Tulis pesan Anda di sini",
+            "pText": "<p>Dengan mengisi formulir kontak ini, Anda dapat mengirimkan komunikasi komersial, kemitraan, atau pertanyaan apa pun kepada kami, yang akan dijawab dalam waktu maksimal 7 hari...</p>\n<p><strong>PERLAKUAN TERHADAP DATA PRIBADI</strong></p>\n<p>(Privacy policy art. 13 del d.lgs. 196/2003)</p>\n<p>Kami memberi tahu Anda bahwa data yang akan Anda berikan kepada operator situs ini saat mengisi \"formulir kontak\" (juga disebut formulir surat) dari situs itu sendiri, akan diperlakukan sesuai dengan ketentuan Legislative Decree 196/2003, Kode dalam hal perlindungan data pribadi. \n   Formulir kontak yang tersedia di situs ini memiliki tujuan tunggal untuk memungkinkan pengunjung situs menghubungi, jika mereka menginginkannya, manajer situs, dengan mengirimkan email ke manajer melalui formulir yang disebutkan di atas. \n   Informasi ini menyangkut data pribadi yang dikirim oleh pengguna pengunjung saat mengisi formulir kontak.</p>\n<p>Mohon ikuti aturan ini:</p>\n<li>Jangan menyalahgunakan formulir kontak untuk permintaan yang dapat dilakukan di forum</li>\n<li>Jangan mengirim email yang sama beberapa kali</li>\n"
         },
         "email": {
             "contact": {
-                "subject": "",
-                "body": ""
+                "subject": "Kontak baru melalui formulir",
+                "body": "Halo!\n\nAnda telah menerima kiriman formulir kontak baru dari {username} (email: {email})\n\nPesan mereka adalah:\n\n{message}"
             }
         }
     }
