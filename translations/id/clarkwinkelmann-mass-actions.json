@@ -2,33 +2,33 @@
     "clarkwinkelmann-mass-actions": {
         "forum": {
             "select": {
-                "all": "",
+                "all": "Semua",
                 "none": "",
-                "read": "",
-                "unread": "",
+                "read": "Baca",
+                "unread": "Belum dibaca",
                 "visible": "",
                 "hidden": "",
-                "locked": "",
-                "unlocked": ""
+                "locked": "Terkunci",
+                "unlocked": "Tidak terkunci"
             },
             "actions": {
-                "markAsRead": "",
-                "hide": "",
+                "markAsRead": "Tandai yang dipilih sebagai sudah dibaca",
+                "hide": "Hapus yang dipilih",
                 "restore": "",
                 "delete": "",
-                "deleteConfirmation": "",
+                "deleteConfirmation": "{count, plural, one {Apakah Anda yakin ingin menghapus diskusi yang dipilih secara permanen?} other {Apakah Anda yakin ingin menghapus # diskusi yang dipilih secara permanen?}}",
                 "lock": "",
                 "unlock": "",
                 "sticky": "",
                 "unsticky": "",
-                "tags": "",
-                "tags-edit": "",
-                "tags-add": ""
+                "tags": "Tag",
+                "tags-edit": "Edit tag",
+                "tags-add": "Tambahkan <em>{tag}</em>"
             }
         },
         "admin": {
             "permissions": {
-                "controls": ""
+                "controls": "Melihat kontrol Mass Actions"
             }
         }
     }
