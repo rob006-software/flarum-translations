@@ -22,8 +22,8 @@
                 "description_placeholder": "Deskripsi Achievement",
                 "variable_label": "Variabel",
                 "computation_label": "Variabel yang dihitung: posts, likes, selflikes, discussions, comments, edits, avatar, contains, years\n",
-                "computation_placeholder": "",
-                "points_label": "",
+                "computation_placeholder": "Angka",
+                "points_label": "Poin untuk achievement ini",
                 "points_placeholder": "0\n",
                 "image_label": "URL gambar atau kode ikon",
                 "image_placeholder": "URL Gambar Achievement",
@@ -50,11 +50,11 @@
                     "discussions": "Diskusi",
                     "edits": "",
                     "avatar": "",
-                    "contains": "",
+                    "contains": "Pesan berisi",
                     "comments": "Tanggapan yang diterima dalam diskusi",
                     "years": "Tahun terdaftar",
                     "meanwords": "",
-                    "tagposts": ""
+                    "tagposts": "Post dalam tag"
                 },
                 "tooltip": {
                     "posts": "Jumlah posting minimum (misalnya 10) atau rentang inklusif (misalnya 10,19)",
@@ -73,7 +73,7 @@
                 "list_heading": "Achievement",
                 "create_achievement_button": "Buat Achievement Baru",
                 "instructions_header": "Instruksi",
-                "instructions_text": "<li>Untuk membuat achievement, Anda harus memperkenalkan nama.</li>\n<li>Deskripsi bersifat opsional.</li>\n<li>Pilih variabel mana yang ingin Anda hitung untuk achievement ini dari daftar.</li>\n<li>Introduce the threshold for the achievement to be activated. You can introduce two numbers separated with a comma (,) to indicate a minimum threshold and a maximum threshold (both numbers are inclusive).</li>\n<li>Achievements with two threshold will be removed if the count is beyond the upper threshold.</li>\n<li>For the \"Message contains\" achievement, you must introduce the specified word and then the threshold, separated by a comma (e.g. \"spinach,5\" or \"spinach,5,10\" for minimum and maximum threshold.)</li>\n<li>Introduce the image URL with the icon to be used for this achievement.</li>\n<li>Introduce the width and height of the icon.</li>\n<li>Optional: If the image has more than one achievement icon, you can select which row and column to show for the icon.</li>\n",
+                "instructions_text": "<li>Untuk membuat achievement, Anda harus memperkenalkan nama.</li>\n<li>Deskripsi bersifat opsional.</li>\n<li>Pilih variabel mana yang ingin Anda hitung untuk achievement ini dari daftar.</li>\n<li>Tetapkan ambang batas untuk achievement yang akan diaktifkan. Anda dapat memasukkan dua angka yang dipisahkan dengan koma (,) untuk mengindikasikan ambang batas minimum dan ambang batas maksimum (kedua angka tersebut inklusif).</li>\n<li>Achievement dengan dua ambang batas akan dihapus jika hitungannya melebihi ambang batas atas.</li>\n<li>Untuk achievement \"Pesan berisi\", Anda harus mencantumkan kata yang ditentukan dan ambang batas, dipisahkan dengan koma (misalnya \"bayam,5\" atau \"bayam,5,10\" untuk ambang batas minimum dan maksimum).</li>\n<li>Cantumkan URL gambar dengan ikon yang akan digunakan untuk achievement ini.</li>\n<li>Cantumkan lebar dan tinggi ikon.</li>\n<li>Opsional: Jika gambar memiliki lebih dari satu ikon achievement, Anda dapat memilih row dan kolom mana yang akan ditampilkan untuk ikon tersebut.</li>\n",
                 "add_delete_users": "",
                 "show": "Tampilkan daftar achievement pada:"
             },
