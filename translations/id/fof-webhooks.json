@@ -2,35 +2,35 @@
     "fof-webhooks": {
         "actions": {
             "discussion": {
-                "started": "",
+                "started": "Memulai diskusi `{1}`",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Mengganti nama diskusi `{1}`",
+                    "description": "Judul baru: {1}"
                 },
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "hidden": "Sembunyikan diskusi `{1}`",
+                "restored": "Diskusi yang dipulihkan `{1}`",
+                "deleted": "Diskusi yang dihapus `{1}`"
             },
             "group": {
-                "created": "",
-                "renamed": "",
-                "deleted": ""
+                "created": "Membuat grup `{1}`",
+                "renamed": "Mengganti nama grup menjadi `{1}`",
+                "deleted": "Grup `{1}` yang dihapus"
             },
             "post": {
-                "posted": "",
-                "revised": "",
-                "hidden": "",
-                "restored": "",
-                "deleted": "",
-                "approved": ""
+                "posted": "Post baru di `{1}`",
+                "revised": "Post yang telah diedit di `{1}`",
+                "hidden": "Sembunyikan pos di `{1}`",
+                "restored": "Post yang dipulihkan di `{1}`",
+                "deleted": "Post yang dihapus di `{1}`",
+                "approved": "Post yang disetujui di `{1}`"
             },
             "user": {
-                "registered": "",
+                "registered": "Pengguna baru terdaftar",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Mengubah username dari `{1}`",
+                    "description": "Username baru: {1}"
                 },
-                "deleted": ""
+                "deleted": "Pengguna yang dihapus `{1}`"
             }
         },
         "adapters": {
@@ -114,10 +114,10 @@
             }
         },
         "ref": {
-            "deleted": "",
-            "hidden": "",
-            "renamed": "",
-            "restored": ""
+            "deleted": "Dihapus",
+            "hidden": "Tersembunyi",
+            "renamed": "Berganti nama",
+            "restored": "Dipulihkan"
         }
     }
 }
