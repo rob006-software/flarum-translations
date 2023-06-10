@@ -1,23 +1,23 @@
 {
     "flarum-ext-welcomebox": {
         "forum": {
-            "wback": "",
-            "npost": "",
-            "discussion": "",
-            "welcomeguest": "",
-            "notregistered": "",
-            "goToProfile": "",
-            "SettingsLink": "",
-            "tooltipProfile": "",
-            "tooltipMentions": "",
-            "tooltipDisclist": "",
-            "lastSeen": ""
+            "wback": "Selamat datang kembali,",
+            "npost": "=> core.ref.posts",
+            "discussion": "=> core.ref.discussions",
+            "welcomeguest": "Selamat Datang Guest",
+            "notregistered": "Anda saat ini tidak terdaftar di forum ini.",
+            "goToProfile": "Profil",
+            "SettingsLink": "Pengaturan",
+            "tooltipProfile": "Profil",
+            "tooltipMentions": "Mention",
+            "tooltipDisclist": "List Diskusi Saya",
+            "lastSeen": "Kunjungan Terakhir"
         },
         "admin": {
-            "enablepostbox": "",
-            "img": "",
-            "img-help": "",
-            "UseWidget": ""
+            "enablepostbox": "Aktifkan Kotak Selamat Datang untuk tamu",
+            "img": "URL gambar (Guest Box)",
+            "img-help": "letakkan di sini url gambar untuk guest box",
+            "UseWidget": "Gunakan Versi Widget"
         }
     }
 }
