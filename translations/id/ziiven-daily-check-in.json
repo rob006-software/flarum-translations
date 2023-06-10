@@ -1,29 +1,29 @@
 {
     "ziven-checkin": {
         "forum": {
-            "check-in": "",
-            "checked-in-day": "",
-            "checked-in-days": "",
-            "check-in-success": "",
-            "check-in-failed": "",
-            "try-again-later": ""
+            "check-in": "Check-in",
+            "checked-in-day": "Check-in {count} Hari",
+            "checked-in-days": "Check-in {count} Hari",
+            "check-in-success": "Check-in Berhasil",
+            "check-in-failed": "Check-in Gagal",
+            "try-again-later": "Silakan coba lagi nanti"
         },
         "admin": {
             "settings": {
-                "auto-check-in": "",
+                "auto-check-in": "Check-in otomatis",
                 "auto-check-in-delay": "",
-                "timezone": "",
-                "reward-money": "",
-                "reward-money-requirement": "",
+                "timezone": "Zona waktu",
+                "reward-money": "Check in reward",
+                "reward-money-requirement": "Membutuhkan ekstensi <code>antoinefr/flarum-ext-money</code>",
                 "check-in-success-prompt-type": "",
                 "check-in-success-prompt-text": "",
                 "check-in-success-prompt-reward-text": "",
-                "check-in-success-prompt-example-text": "",
-                "check-in-success-prompt-example-reward-text": "",
-                "allow-check-in": "",
-                "None": "",
-                "Alert": "",
-                "Modal": ""
+                "check-in-success-prompt-example-text": "Contoh: Anda telah check-in selama [jumlah_hari] hari",
+                "check-in-success-prompt-example-reward-text": "Contoh: Mendapatkan reward [reward]",
+                "allow-check-in": "Mengizinkan check-in",
+                "None": "Tidak ada",
+                "Alert": "Peringatan",
+                "Modal": "Jendela modal"
             }
         }
     }
