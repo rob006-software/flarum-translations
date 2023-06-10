@@ -2,20 +2,20 @@
     "ralkage-hcaptcha": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "secret_key_label": "",
-                "site_key_label": "",
-                "type_label": ""
+                "help_text": "Dapatkan kredensial hCaptcha Anda <a>di sini</a>.",
+                "secret_key_label": "Secret Key",
+                "site_key_label": "Site Key",
+                "type_label": "Tipe hCaptcha"
             },
             "permissions": {
-                "post_without_hcaptcha": ""
+                "post_without_hcaptcha": "Membuat post dan diskusi tanpa hCaptcha"
             }
         },
         "forum": {
-            "error": ""
+            "error": "Terjadi error saat mengirimkan hCaptcha. Coba lagi."
         }
     },
     "validation": {
-        "hcaptcha": ""
+        "hcaptcha": "Validasi hCaptcha gagal."
     }
 }
