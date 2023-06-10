@@ -37,6 +37,13 @@ return [
 		'!v17development-seo',
 		'!wolfgang-demeter-bbcode-5star-rating',
 	]),
+	'de@formal' => getComponents([
+		// translations included in extension
+		'!archlinux-de-click-image',
+		'!tpokorra-post-notification',
+		'!v17development-seo',
+		'!wolfgang-demeter-bbcode-5star-rating',
+	]),
 	'el' => getComponents(),
 	'eo' => getComponents(),
 	'es' => getComponents([
