@@ -1,80 +1,80 @@
 {
     "v17development-flarum-support": {
         "forum": {
-            "knowledge_base": "",
-            "ask_a_question_on_forums": "",
-            "return_to_home": "",
-            "ask_your_question_on_forum": "",
-            "or": "",
-            "settings": "",
-            "send": "",
-            "create": "",
-            "discard": "",
-            "reopen": "",
-            "support_tickets": "",
+            "knowledge_base": "Basis pengetahuan",
+            "ask_a_question_on_forums": "Ajukan pertanyaan di forum",
+            "return_to_home": "Kembali ke beranda basis pengetahuan",
+            "ask_your_question_on_forum": "Ajukan pertanyaan Anda di forum",
+            "or": "atau",
+            "settings": "=> core.ref.settings",
+            "send": "Kirim",
+            "create": "Buat",
+            "discard": "Buang",
+            "reopen": "buka kembali",
+            "support_tickets": "Tiket dukungan",
             "admin_overview": "",
             "hero": {
-                "help_question": "",
-                "check_forum": ""
+                "help_question": "Apa yang dapat Kami bantu?",
+                "check_forum": "Jika Anda tidak dapat menemukan apa yang Anda cari, <a>kunjungi forum kami</a>"
             },
             "overview": {
                 "knowledge_base_overview": "",
-                "back_to": "",
+                "back_to": "Kembali ke {category}",
                 "back_to_overview": "",
-                "back_to_main_categories": "",
-                "loading_articles": "",
-                "no_categories_found": "",
-                "category_not_found": "",
-                "no_articles_found": "",
+                "back_to_main_categories": "Kembali ke kategori utama",
+                "loading_articles": "Memuat artikel",
+                "no_categories_found": "Maaf, tidak ada kategori yang ditemukan di sini...",
+                "category_not_found": "Kategori tidak ditemukan",
+                "no_articles_found": "Tidak ada artikel yang ditemukan dalam kategori ini",
                 "tools": {
-                    "new_article": "",
-                    "rename_category": "",
-                    "edit_description": "",
+                    "new_article": "Artikel baru",
+                    "rename_category": "Ganti nama kategori",
+                    "edit_description": "Edit deskripsi",
                     "change_icon": "",
                     "recount_articles": ""
                 }
             },
             "article_events": {
-                "article_hidden": "",
+                "article_hidden": "Artikel disembunyikan oleh {username}",
                 "article_public": "",
-                "article_modified": ""
+                "article_modified": "{username} telah mengedit artikel ini."
             },
             "search": {
-                "title": "",
-                "back_to_search_results": "",
+                "title": "Cari",
+                "back_to_search_results": "Kembali ke hasil pencarian",
                 "search_knowledge_base": "",
-                "searching": "",
-                "searching_for": "",
+                "searching": "Mencari",
+                "searching_for": "Mencari {searchterm}",
                 "searched_for": "",
-                "use_searchbox_below": "",
-                "no_results": ""
+                "use_searchbox_below": "Gunakan kotak pencarian di bawah ini untuk mencari di basis pengetahuan kami.",
+                "no_results": "Kami tidak dapat menemukan apa pun untuk {searchterm}."
             },
             "not_found": {
-                "title": "",
-                "description": "",
-                "solution": ""
+                "title": "Item tidak ditemukan",
+                "description": "Maaf, artikel atau kategori ini sudah tidak ada lagi di tempat ini.",
+                "solution": "Anda dapat menggunakan kotak pencarian di atas untuk menemukan apa yang Anda cari."
             },
             "article": {
-                "article": "",
-                "articles": "",
+                "article": "Artikel",
+                "articles": "Artikel",
                 "hidden": "",
                 "created_at": "",
-                "author": "",
-                "authors": "",
-                "last_modified": "",
-                "not_found": "",
+                "author": "Penulis",
+                "authors": "Penulis",
+                "last_modified": "Terakhir diubah pada {date}",
+                "not_found": "Artikel tidak ditemukan",
                 "share_article": {
-                    "title": "",
-                    "perma_link": ""
+                    "title": "Bagikan artikel",
+                    "perma_link": "Permalink untuk artikel ini:"
                 },
                 "tools": {
-                    "rename_article": "",
-                    "edit_article": "",
-                    "edit_tags": "",
-                    "audit_log": "",
-                    "hide_article": "",
-                    "recover_article": "",
-                    "delete_forever": "",
+                    "rename_article": "Ganti nama artikel",
+                    "edit_article": "Edit artikel",
+                    "edit_tags": "Edit tag artikel",
+                    "audit_log": "Lihat log audit",
+                    "hide_article": "Sembunyikan artikel",
+                    "recover_article": "Pulihkan artikel",
+                    "delete_forever": "Hapus selamanya",
                     "view_ratings": "Lihat rating"
                 }
             },
@@ -102,9 +102,9 @@
             "modals": {
                 "audit_log": {
                     "title": "",
-                    "article_created": "",
+                    "article_created": "Artikel telah dibuat",
                     "no_more_events": "",
-                    "loading_auditlog": ""
+                    "loading_auditlog": "Memuat log audit"
                 },
                 "article_ratings": {
                     "title": "",
@@ -114,21 +114,21 @@
                     "confirm_delete_rating": "",
                     "feedback": "",
                     "rating": "",
-                    "username": "",
+                    "username": "=> core.ref.username",
                     "rated_on": ""
                 }
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "Mengarahkan Anda ke artikel Basis Pengetahuan kami...",
+                    "link": "<a>Klik di sini</a> jika halaman tidak mengalihkan Anda"
                 }
             },
             "composer": {
                 "compose_article": "",
                 "compose_ticket": "",
                 "new_article_title": "",
-                "enter_message_here": "",
+                "enter_message_here": "Masukkan pesan Anda di sini",
                 "publish_article": "",
                 "publish_article_hint": "",
                 "manage_tags": "",
@@ -148,48 +148,48 @@
                 "ticket_activity": "",
                 "reminders_sent": "",
                 "convert_to_ticket": {
-                    "button": "",
-                    "confirm": "",
-                    "event": ""
+                    "button": "Ubah menjadi tiket",
+                    "confirm": "Apakah Anda yakin ingin mengubah diskusi ini menjadi tiket?",
+                    "event": "Diskusi {ticket_title} telah diubah menjadi tiket"
                 },
                 "convert_to_discussion": {
-                    "button": "",
-                    "confirm": "",
-                    "event": ""
+                    "button": "Ubah ke diskusi",
+                    "confirm": "Apakah Anda yakin ingin mengubah tiket ini menjadi diskusi publik? Jika seseorang telah membagikan informasi pribadi, maka informasi tersebut juga akan menjadi publik.",
+                    "event": "Tiket {ticket_title} telah diubah menjadi diskusi\n\nApakah Anda ingin membuka diskusi ini sekarang?\n"
                 },
                 "status": {
                     "new": {
-                        "title": "",
-                        "description": ""
+                        "title": "Baru",
+                        "description": "Ini adalah tiket baru yang belum terjawab"
                     },
                     "open": {
-                        "title": "",
-                        "description": ""
+                        "title": "Buka",
+                        "description": "Tiket ini memiliki tanggapan baru dan sedang menunggu balasan dari Anda."
                     },
                     "pending": {
-                        "title": "",
-                        "description": "",
-                        "description_user": ""
+                        "title": "Tertunda",
+                        "description": "Tiket ini menunggu balasan dari pengguna.",
+                        "description_user": "Kami menunggu balasan dari Anda atau menandai tiket ini sebagai tiket yang telah diselesaikan."
                     },
                     "closed": {
-                        "title": "",
-                        "description": "",
+                        "title": "Ditutup",
+                        "description": "Tiket ini telah ditutup.",
                         "is_closed": "Tiket ini ditutup, ketika Anda membalas, tiket akan dibuka kembali. Kami hanya menyarankan untuk membuka kembali tiket jika masalahnya belum terselesaikan. Jika ini adalah masalah baru, silakan buka tiket yang baru.",
-                        "close_after_posting": "",
-                        "is_auto_closed": ""
+                        "close_after_posting": "Tutup tiket setelah memposting",
+                        "is_auto_closed": "Tiket ini ditutup karena tidak aktif."
                     },
                     "on_hold": {
-                        "title": "",
-                        "description": ""
+                        "title": "Ditangguhkan",
+                        "description": "Tiket ini telah ditangguhkan."
                     },
                     "duplicate": {
-                        "title": "",
-                        "description": ""
+                        "title": "Duplikat",
+                        "description": "Tiket ini ditandai sebagai duplikat."
                     },
                     "solved": {
-                        "title": "",
-                        "description": "",
-                        "mark_as_solved": ""
+                        "title": "Selesai",
+                        "description": "Tiket ini ditandai sebagai telah selesai",
+                        "mark_as_solved": "Tandai tiket ini sebagai telah diselesaikan"
                     }
                 },
                 "tools": {
@@ -197,21 +197,21 @@
                     "update_subject": "",
                     "assign_me": "",
                     "remove_me": "",
-                    "update_status": "",
-                    "close_ticket": "",
-                    "update_note": ""
+                    "update_status": "Perbarui status tiket",
+                    "close_ticket": "Tutup tiket",
+                    "update_note": "Perbarui catatan pribadi"
                 },
                 "new_tickets_dropdown": {
                     "title": "Notifikasi Tiket",
                     "no_tickets": "Tidak ada notifikasi tiket",
-                    "ticket_new": "",
+                    "ticket_new": "{username} membuat tiket {ticket}",
                     "ticket_updated": ""
                 },
                 "fields": {
                     "language": {
                         "title": "Bahasa",
                         "placeholder": "Pilih bahasa",
-                        "empty": "",
+                        "empty": "Tidak ada bahasa yang dipilih",
                         "description": ""
                     },
                     "subject": {
@@ -220,16 +220,16 @@
                         "description": "Coba jelaskan pertanyaan Anda dalam satu kalimat singkat."
                     },
                     "information": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Informasi tiket",
+                        "placeholder": "Beri tahu Kami apa yang dapat Kami bantu"
                     },
                     "status": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Status",
+                        "placeholder": "Status tiket"
                     },
                     "assignees": {
                         "title": "",
-                        "placeholder": ""
+                        "placeholder": "Status tiket"
                     },
                     "private_note": {
                         "title": "Catatan pribadi",
@@ -245,7 +245,7 @@
                     "not_allowed": "Anda tidak dapat membuka tiket dukungan baru saat ini"
                 },
                 "load_more": {
-                    "title": ""
+                    "title": "Muat lebih banyak tiket"
                 },
                 "my_tickets": {
                     "title": "Tiket saya",
@@ -258,12 +258,12 @@
                     "no_tickets": "",
                     "all_tickets": "Semua tiket",
                     "selection_unfiltered": "",
-                    "selection_open": "",
-                    "selection_closed": "",
+                    "selection_open": "Tiket terbuka",
+                    "selection_closed": "Tiket tertutup",
                     "refresh": "",
                     "filter": {
                         "status": {
-                            "title": "",
+                            "title": "Status tiket",
                             "filter_count": "{count, plural, one {# filter} other {# filter}}"
                         },
                         "language": {
@@ -285,22 +285,22 @@
             },
             "notifications": {
                 "replied_to_ticket": {
-                    "name": "",
-                    "content": ""
+                    "name": "Seseorang membalas tiket saya",
+                    "content": "=> v17development-flarum-support.emails.replied_to_ticket.subject"
                 },
                 "ticket_resolved": {
-                    "name": "",
-                    "content": ""
+                    "name": "Tiket saya telah diselesaikan",
+                    "content": "=> v17development-flarum-support.emails.ticket_resolved.subject"
                 }
             }
         },
         "emails": {
             "replied_to_ticket": {
-                "subject": "",
+                "subject": "{replier_display_name} membalas tiket Anda #{ticket_id}",
                 "body": ""
             },
             "ticket_status_update": {
-                "subject": "",
+                "subject": "Tiket #{ticket_id} ditandai sebagai {new_status}",
                 "body": ""
             },
             "ticket_resolved": {
@@ -308,11 +308,11 @@
                 "body": ""
             },
             "ticket_pending_reply": {
-                "subject": "",
+                "subject": "Tiket #{ticket_id} sedang menunggu balasan dari Anda",
                 "body": ""
             },
             "ticket_pending_reply_closed": {
-                "subject": "",
+                "subject": "Tiket #{ticket_id} telah ditutup karena tidak aktif",
                 "body": ""
             }
         }
