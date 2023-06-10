@@ -10,10 +10,10 @@
             "page": {
                 "title": "Taksonomi",
                 "create": {
-                    "taxonomy": "",
-                    "term": ""
+                    "taxonomy": "Buat taksonomi",
+                    "term": "Buat istilah"
                 },
-                "reset-term-order": ""
+                "reset-term-order": "Reset daftar istilah ke urutan abjad"
             },
             "edit-taxonomy": {
                 "title": {
@@ -24,10 +24,10 @@
                     "info": "Informasi",
                     "filling": "",
                     "browsing": "",
-                    "scope": ""
+                    "scope": "Ruang Lingkup"
                 },
                 "field": {
-                    "type": "",
+                    "type": "Jenis",
                     "typeDescription": "Taksonomi dapat digunakan pada beberapa Flarum resource. Jenisnya tidak dapat diubah setelah dibuat. Anda bisa menggunakan nama dan slug yang sama untuk taksonomi dengan tipe yang berbeda.\n",
                     "name": "=> flamarkt-taxonomies.ref.field.name",
                     "slug": "=> flamarkt-taxonomies.ref.field.slug",
@@ -35,28 +35,28 @@
                     "color": "=> flamarkt-taxonomies.ref.field.color",
                     "icon": "=> flamarkt-taxonomies.ref.field.icon",
                     "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription",
-                    "showLabel": "",
+                    "showLabel": "Tampilkan label taksonomi bersama dengan istilah",
                     "showLabelDescription": "Style tampilan untuk daftar diskusi dan hero. Saat ini tidak digunakan untuk jenis resource lainnya.\n",
                     "enableFilter": "Aktifkan filter query-string/API",
                     "enableFilterDescription": "Memungkinkan filter taksonomi yang terhubung ke dalam ke diskusi, pengguna, dan produk untuk pengguna yang memiliki izin untuk \"melihat semua\" jenis taksonomi. Hal ini juga memungkinkan pengguna yang sama untuk menggunakan filter pencarian dengan REST API. Tanpa pengaturan \"Tampilkan filter\", pengguna tidak memiliki cara yang jelas untuk mendapatkan link-link untuk pengguna dan produk. Untuk diskusi, deep link dapat ditemukan di hero meskipun \"Tampilkan filter\" dinonaktifkan.\n",
                     "showFilter": "Tampilkan filter pada halaman list/direktori",
                     "showFilterDescription": "Menampilkan filter kepada pengunjung biasa di daftar diskusi, direktori pengguna, atau indeks toko. Hanya berfungsi jika \"Aktifkan filter\" diaktifkan. Administrator toko selalu dapat memfilter berdasarkan taksonomi apa pun di backoffice.\n",
-                    "enableFulltextSearch": "",
-                    "enableFulltextSearchDescription": "",
+                    "enableFulltextSearch": "Kata kunci untuk pencarian teks lengkap",
+                    "enableFulltextSearchDescription": "Hanya berpengaruh ketika integrasi Scout aktif. Nama istilah akan menjadi bagian dari data yang tersedia dalam pencarian teks lengkap untuk pengguna biasa. Data akan tersedia untuk pencarian bagi setiap pengguna yang memiliki izin untuk mencantumkan sumber daya (\"Lihat forum\" untuk diskusi, \"Cari pengguna\" untuk pengguna dan semua orang untuk produk), bukan pengguna yang memiliki izin untuk melihat taksonomi! Anda harus secara manual membangun kembali indeks pencarian Scout untuk sumber daya setelah mengubah pengaturan ini untuk taksonomi yang sudah ada, sama halnya jika Anda menghapus taksonomi ketika istilah masih ditetapkan.\n",
                     "enableFulltextSearchWarning": "Perizinan Anda untuk mencari sumber daya (\"Lihat forum\" untuk diskusi, \"Cari pengguna\" untuk pengguna) berbeda dengan perizinan \"lihat semua\" Taksonomi. Sebelum mengaktifkan opsi ini, pastikan Anda merasa yakin bahwa data dapat dicari oleh pengguna meskipun mereka biasanya tidak dapat melihat taksonomi!\n",
                     "allowCustomValues": "Izinkan nilai khusus",
                     "customValueValidation": "Validasi untuk nilai khusus",
-                    "customValueSlugger": "",
+                    "customValueSlugger": "Slugger untuk nilai khusus",
                     "customValueSluggerDescription": "\n",
-                    "countRequired": "",
+                    "countRequired": "Jumlah istilah yang diperlukan",
                     "countRequiredDescription": "\n",
                     "rangeSeparatorText": "hingga",
-                    "tagScope": "",
-                    "tagScopeDescription": "",
-                    "tagScopePlaceholder": ""
+                    "tagScope": "Hanya dalam tag tertentu",
+                    "tagScopeDescription": "Taksonomi hanya akan tersedia dalam tag yang dipilih. Jika Anda memilih satu tag, filter homepage hanya akan terlihat pada tag tertentu.\n",
+                    "tagScopePlaceholder": "Ketik untuk mencari tag..."
                 },
                 "delete": "=> flamarkt-taxonomies.ref.delete",
-                "deleteConfirmation": "",
+                "deleteConfirmation": "Apakah Anda benar-benar ingin menghapus taksonomi {name}? Semua istilah di bawah taksonomi tersebut akan dihapus. Diskusi yang menggunakan taksonomi tersebut TIDAK akan dihapus.\n",
                 "submit": {
                     "new": "=> flamarkt-taxonomies.ref.submit.new",
                     "edit": "=> flamarkt-taxonomies.ref.submit.edit"
@@ -101,7 +101,7 @@
             "permissions": {
                 "heading": "Taksonomi",
                 "moderate": "Mengonfigurasi taksonomi yang tersedia",
-                "bypassTermCounts": "",
+                "bypassTermCounts": "Melewati persyaratan jumlah istilah",
                 "seeOwnDiscussion": "Melihat taksonomi pada diskusi sendiri",
                 "seeAnyDiscussion": "Melihat taksonomi di semua diskusi",
                 "editOwnDiscussion": "Mengedit taksonomi pada diskusi sendiri",
@@ -140,16 +140,16 @@
                     "new": "Pilih {taxonomy} untuk diskusi Anda",
                     "edit": "Edit {taxonomy} untuk {title}"
                 },
-                "placeholder": "",
+                "placeholder": "{count, plural, one {Pilih istilah...} other {Pilih # istilah...}}",
                 "placeholderOptional": "Pilih...",
                 "custom": "Gunakan {value}",
-                "bypassTermCounts": "",
+                "bypassTermCounts": "Lewati jumlah istilah",
                 "submit": "OK"
             }
         },
         "api": {
             "error": {
-                "invalid_filter_taxonomy": "",
+                "invalid_filter_taxonomy": "Kunci filter taksonomi \"{type}\" yang tidak valid \"{slug}\"",
                 "discussion_taxonomy_not_in_scope": "Taksonomi \"{slug}\" tidak tersedia dalam kombinasi tag saat ini",
                 "cannot_use_taxonomies_on_model": "Anda tidak diizinkan menggunakan taksonomi dalam konteks ini"
             }
