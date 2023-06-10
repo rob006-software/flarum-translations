@@ -1,28 +1,28 @@
 {
     "tituspijean-auth-ldap": {
         "forum": {
-            "log_in_with": "",
-            "log_out": ""
+            "log_in_with": "Login dengan {server}",
+            "log_out": "=> core.ref.log_out"
         },
         "admin": {
             "settings": {
-                "title": "",
-                "method_name": "",
-                "hosts": "",
-                "base_dn": "",
-                "filter": "",
-                "port": "",
-                "account_prefix": "",
-                "account_suffix": "",
-                "admin_dn": "",
-                "admin_password": "",
-                "search_user_fields": "",
-                "user_mail": "",
-                "user_username": "",
+                "title": "Pengaturan LDAP",
+                "method_name": "LDAP - Nama server (akan muncul setelah \"Login dengan\")",
+                "hosts": "LDAP - Domain atau alamat IP server (dipisahkan dengan koma)",
+                "base_dn": "Base DNs (dipisahkan dengan titik koma)",
+                "filter": "Filter untuk diterapkan (opsional)",
+                "port": "port",
+                "account_prefix": "Prefiks akun",
+                "account_suffix": "Sufiks akun",
+                "admin_dn": "LDAP - admin distinguished name (biarkan kosong untuk anonymous binding)",
+                "admin_password": "LDAP - Password admin (biarkan kosong untuk pengikatan anonim)",
+                "search_user_fields": "LDAP - Kolom pencarian pengguna (dipisahkan dengan koma)",
+                "user_mail": "LDAP - Kolom user mail",
+                "user_username": "LDAP - Kolom username",
                 "follow_referrals": "",
-                "use_ssl": "",
-                "use_tls": "",
-                "onlyUse": ""
+                "use_ssl": "Gunakan SSL",
+                "use_tls": "Gunakan TLS",
+                "onlyUse": "Sembunyikan metode login standar Flarum"
             }
         }
     }
