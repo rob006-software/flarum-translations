@@ -1,0 +1,18 @@
+{
+    "flarum-subscriptions": {
+        "email": {
+            "new_post": {
+                "body": "Sehr geehrte/r {recipient_display_name},\n\n{poster_display_name} hat einen Beitrag in einer Diskussion verfasst, der Sie folgen: {title}.\n\nBitte folgen Sie dem untenstehenden Link, um die neue Aktivität zu sehen:\n{url}\n\n---\n\n{content}\n\n---\n\nSie werden keine weiteren Benachrichtigungen über diese Diskussion erhalten, bis Sie sie wieder besucht haben.\n"
+            }
+        },
+        "forum": {
+            "index": {
+                "following_link": "Sie folgen"
+            },
+            "settings": {
+                "follow_after_reply_label": "Diskussionen automatisch folgen, an denen Sie teilgenommen haben",
+                "notify_new_post_label": "Jemand hat in einer Diskussion geantwortet, der Sie folgen"
+            }
+        }
+    }
+}
