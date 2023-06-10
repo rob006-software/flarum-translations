@@ -1,0 +1,21 @@
+{
+    "flarum-suspend": {
+        "email": {
+            "suspended": {
+                "body": "Sehr geehrte/r {recipient_display_name},\n\nSie wurden aus folgendem Grund ausgeschlossen:\n\n---\n{suspension_message}\n---\n",
+                "subject": "Ihr Konto wurde ausgeschlossen"
+            },
+            "unsuspended": {
+                "body": "Sehr geehrte/r {recipient_display_name},\n\nIhr Ausschluss wurde aufgehoben. Sie können zum Forum zurückkehren, indem Sie auf den folgenden Link klicken:\n\n{forum_url}\n",
+                "subject": "Die Ausschluss Ihres Kontos wurde aufgehoben"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_indefinite_text": "Sie wurden für unbestimmte Zeit ausgeschlossen",
+                "user_suspended_text": "Sie wurden für {timeReadable} ausgeschlossen",
+                "user_unsuspended_text": "Sie wurden entsperrt"
+            }
+        }
+    }
+}
