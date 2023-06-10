@@ -2,33 +2,33 @@
     "migratetoflarum-fake-data": {
         "lib": {
             "generator": {
-                "bulk-mode": "",
-                "bulk-mode-description": "",
-                "user-count": "",
-                "discussion-count": "",
-                "discussion-tags": "",
-                "discussion-tags-none": "",
-                "discussion-tags-random": "",
-                "post-count": "",
+                "bulk-mode": "Mode massal",
+                "bulk-mode-description": "Menghasilkan satu nilai acak dan menggunakannya kembali untuk setiap entri",
+                "user-count": "Jumlah pengguna yang akan dibuat",
+                "discussion-count": "Jumlah diskusi yang akan dibuat",
+                "discussion-tags": "Tag untuk diskusi baru",
+                "discussion-tags-none": "Tidak ada",
+                "discussion-tags-random": "Acak",
+                "post-count": "Jumlah post yang akan dibuat",
                 "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
-                "send": "",
-                "reset": "",
-                "refresh": ""
+                "date-start-placeholder": "Tanggal mulai (default: sekarang)",
+                "date-interval-placeholder": "Interval (default: 1 detik)",
+                "send": "Menghasilkan data",
+                "reset": "Pembuatan selesai! Klik untuk mereset form",
+                "refresh": "Tutup dan refresh halaman"
             }
         },
         "forum": {
             "link": {
-                "generate-replies": ""
+                "generate-replies": "Buat balasan palsu"
             },
             "generator": {
-                "title": ""
+                "title": "Membuat balasan palsu"
             }
         },
         "api": {
-            "no-users-matched": "",
-            "no-discussions-matched": ""
+            "no-users-matched": "Tidak ada pengguna yang cocok",
+            "no-discussions-matched": "Tidak ada diskusi yang cocok"
         }
     }
 }
