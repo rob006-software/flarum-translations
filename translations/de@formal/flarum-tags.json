@@ -1,27 +1,104 @@
 {
     "flarum-tags": {
         "admin": {
+            "basics": {
+                "tags_label": ""
+            },
+            "edit_tag": {
+                "color_label": "",
+                "delete_tag_button": "",
+                "delete_tag_confirmation": "",
+                "description_label": "",
+                "hide_label": "",
+                "icon_label": "",
+                "icon_text": "",
+                "name_label": "",
+                "name_placeholder": "",
+                "slug_label": "",
+                "submit_button": "",
+                "title": ""
+            },
             "nav": {
+                "tags_button": "",
                 "tags_text": "Ordnen Sie die Liste der Themen um die Diskussionen zu organisieren."
             },
+            "permissions": {
+                "allow_edit_tags_label": "",
+                "bypass_tag_counts_label": "",
+                "restrict_by_tag_heading": "",
+                "tag_discussions_label": ""
+            },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
+                "range_separator_text": "",
+                "required_primary_heading": "",
                 "required_primary_text": "Geben Sie die minimale und die maximale Anzahl von Hauptthemen an, die einer Diskussion hinzugefügt werden können.",
-                "required_secondary_text": "Geben Sie die minimale und die maximale Anzahl von Unterthemen an, die einer Diskussion hinzugefügt werden können."
+                "required_secondary_heading": "",
+                "required_secondary_text": "Geben Sie die minimale und die maximale Anzahl von Unterthemen an, die einer Diskussion hinzugefügt werden können.",
+                "title": ""
+            },
+            "tags": {
+                "about_tags_text": "",
+                "create_primary_tag_button": "",
+                "create_secondary_tag_button": "",
+                "primary_heading": "",
+                "secondary_heading": "",
+                "settings_heading": ""
             }
         },
         "forum": {
+            "all_tags": {
+                "meta_description_text": "",
+                "meta_title_text": ""
+            },
             "choose_tags": {
+                "edit_title": "",
+                "title": "",
                 "choose_primary_placeholder": "{count, plural, one {Wählen Sie ein Hauptthema} other {Wählen Sie # Hauptthemen}}",
                 "choose_secondary_placeholder": "{count, plural, one {Wählen Sie ein weiteres Thema} other {Wählen Sie # weitere Themen}}"
+            },
+            "composer_discussion": {
+                "choose_tags_link": ""
+            },
+            "discussion_controls": {
+                "edit_tags_button": ""
+            },
+            "header": {
+                "back_to_tags_tooltip": ""
+            },
+            "index": {
+                "more_link": "",
+                "tags_link": "",
+                "untagged_link": ""
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "",
+                "added_tags_text": "",
+                "removed_tags_text": "",
+                "tags_text": ""
+            },
+            "tag": {
+                "meta_description_text": ""
             }
         },
         "lib": {
+            "deleted_tag_text": "",
             "tag_selection_modal": {
-                "choose_primary_placeholder": "{count, plural, one {Wählen Sie ein primäres Thema} other {Wählen Sie # primäre Themen}}"
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "{count, plural, one {Wählen Sie ein primäres Thema} other {Wählen Sie # primäre Themen}}",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
             }
         },
         "ref": {
-            "choose_tags_placeholder": "{count, plural, one {Wählen Sie ein Thema mehr} other {Wählen Sie # mehr Themen}}"
+            "choose_tags": "",
+            "choose_tags_placeholder": "{count, plural, one {Wählen Sie ein Thema mehr} other {Wählen Sie # mehr Themen}}",
+            "name": "",
+            "tags": ""
         }
     }
 }

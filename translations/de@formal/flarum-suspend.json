@@ -1,20 +1,50 @@
 {
     "flarum-suspend": {
-        "email": {
-            "suspended": {
-                "body": "Sehr geehrte/r {recipient_display_name},\n\nSie wurden aus folgendem Grund ausgeschlossen:\n\n---\n{suspension_message}\n---\n",
-                "subject": "Ihr Konto wurde ausgeschlossen"
-            },
-            "unsuspended": {
-                "body": "Sehr geehrte/r {recipient_display_name},\n\nIhr Ausschluss wurde aufgehoben. Sie können zum Forum zurückkehren, indem Sie auf den folgenden Link klicken:\n\n{forum_url}\n",
-                "subject": "Die Ausschluss Ihres Kontos wurde aufgehoben"
+        "admin": {
+            "permissions": {
+                "suspend_users_label": ""
             }
         },
         "forum": {
             "notifications": {
-                "user_suspended_indefinite_text": "Sie wurden für unbestimmte Zeit ausgeschlossen",
                 "user_suspended_text": "Sie wurden für {timeReadable} ausgeschlossen",
+                "user_suspended_indefinite_text": "Sie wurden für unbestimmte Zeit ausgeschlossen",
                 "user_unsuspended_text": "Sie wurden entsperrt"
+            },
+            "suspension_info": {
+                "dismiss_button": "",
+                "indefinite": "",
+                "limited": "",
+                "title": ""
+            },
+            "suspend_user": {
+                "display_message": "",
+                "indefinitely_label": "",
+                "limited_time_days_text": "",
+                "limited_time_label": "",
+                "not_suspended_label": "",
+                "placeholder_optional": "",
+                "reason": "",
+                "status_heading": "",
+                "submit_button": "",
+                "title": ""
+            },
+            "user_badge": {
+                "suspended_tooltip": ""
+            },
+            "user_controls": {
+                "suspend_button": ""
+            }
+        },
+        "email": {
+            "no_reason_given": "",
+            "suspended": {
+                "subject": "Ihr Konto wurde ausgeschlossen",
+                "body": "Sehr geehrte/r {recipient_display_name},\n\nSie wurden aus folgendem Grund ausgeschlossen:\n\n---\n{suspension_message}\n---\n"
+            },
+            "unsuspended": {
+                "subject": "Die Ausschluss Ihres Kontos wurde aufgehoben",
+                "body": "Sehr geehrte/r {recipient_display_name},\n\nIhr Ausschluss wurde aufgehoben. Sie können zum Forum zurückkehren, indem Sie auf den folgenden Link klicken:\n\n{forum_url}\n"
             }
         }
     }

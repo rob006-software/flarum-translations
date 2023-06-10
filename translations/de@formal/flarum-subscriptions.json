@@ -1,18 +1,51 @@
 {
     "flarum-subscriptions": {
-        "email": {
-            "new_post": {
-                "body": "Sehr geehrte/r {recipient_display_name},\n\n{poster_display_name} hat einen Beitrag in einer Diskussion verfasst, der Sie folgen: {title}.\n\nBitte folgen Sie dem untenstehenden Link, um die neue Aktivität zu sehen:\n{url}\n\n---\n\n{content}\n\n---\n\nSie werden keine weiteren Benachrichtigungen über diese Diskussion erhalten, bis Sie sie wieder besucht haben.\n"
-            }
-        },
         "forum": {
+            "badge": {
+                "following_tooltip": "",
+                "ignoring_tooltip": ""
+            },
+            "discussion_controls": {
+                "follow_button": "",
+                "unfollow_button": "",
+                "unignore_button": ""
+            },
+            "following": {
+                "meta_title_text": ""
+            },
             "index": {
                 "following_link": "Sie folgen"
             },
+            "notifications": {
+                "new_post_text": ""
+            },
             "settings": {
                 "follow_after_reply_label": "Diskussionen automatisch folgen, an denen Sie teilgenommen haben",
+                "notify_for_all_posts_label": "",
                 "notify_new_post_label": "Jemand hat in einer Diskussion geantwortet, der Sie folgen"
+            },
+            "sub_controls": {
+                "follow_button": "",
+                "following_button": "",
+                "following_text": "",
+                "ignoring_button": "",
+                "ignoring_text": "",
+                "not_following_button": "",
+                "not_following_text": "",
+                "notify_alert_tooltip": "",
+                "notify_email_tooltip": ""
             }
+        },
+        "email": {
+            "new_post": {
+                "subject": "",
+                "body": "Sehr geehrte/r {recipient_display_name},\n\n{poster_display_name} hat einen Beitrag in einer Diskussion verfasst, der Sie folgen: {title}.\n\nBitte folgen Sie dem untenstehenden Link, um die neue Aktivität zu sehen:\n{url}\n\n---\n\n{content}\n\n---\n\nSie werden keine weiteren Benachrichtigungen über diese Diskussion erhalten, bis Sie sie wieder besucht haben.\n"
+            }
+        },
+        "ref": {
+            "follow": "",
+            "following": "",
+            "ignoring": ""
         }
     }
 }

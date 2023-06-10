@@ -2,157 +2,753 @@
     "core": {
         "admin": {
             "appearance": {
+                "colored_header_label": "",
+                "colors_heading": "",
+                "colors_primary_label": "",
+                "colors_secondary_label": "",
                 "colors_text": "Wählen Sie zwei Farben, um den Grundton des Forums zu ändern. Die erste Farbe dient für die Akzente, die zweite für die Hintergrundelemente.",
+                "custom_footer_heading": "",
+                "custom_footer_text": "",
+                "custom_header_heading": "",
+                "custom_header_text": "",
+                "custom_styles_cannot_use_less_features": "",
+                "custom_styles_heading": "",
+                "custom_styles_text": "",
+                "dark_mode_label": "",
                 "description": "Verändern Sie die Farbe, das Logo und weitere Variablen des Forums.",
+                "edit_css_button": "",
+                "edit_footer_button": "",
+                "edit_header_button": "",
                 "enter_hex_message": "Geben Sie eine Farbe im Hexadezimalformat ein.",
+                "favicon_heading": "",
                 "favicon_text": "Laden Sie ein Bild hoch, welches als Favicon für das Forum verwendet wird.",
                 "logo_heading": "Firmenzeichen",
-                "logo_text": "Laden Sie ein Logo hoch, welches anstelle des Forum-Titels angezeigt wird."
+                "logo_text": "Laden Sie ein Logo hoch, welches anstelle des Forum-Titels angezeigt wird.",
+                "title": ""
             },
             "basics": {
+                "all_discussions_label": "",
+                "default_language_heading": "",
                 "description": "Legen Sie den Forentitel, die Sprache und weitere Grundeinstellungen fest.",
+                "display_name_heading": "",
                 "display_name_text": "Wählen Sie den Treiber, der verwendet wird, um den Anzeigenamen der Benutzer zu bestimmen. Standardmäßig wird der Benutzername angezeigt.",
+                "forum_description_heading": "",
+                "forum_description_text": "",
+                "forum_title_heading": "",
+                "home_page_heading": "",
                 "home_page_text": "Wählen Sie die Seite aus, die Benutzer beim Besuch des Forums zuerst sehen.",
+                "show_language_selector_label": "",
+                "slug_driver_heading": "",
                 "slug_driver_text": "Wählen Sie den Treiber, welcher die Foren-URLs mit einem \"Slug\" ausstattet.",
+                "title": "",
+                "welcome_banner_heading": "",
                 "welcome_banner_text": "Legen Sie den Text fest, der auf der Seite \"Alle Diskussionen\" erscheint, um Besucher zu begrüßen."
             },
+            "create_user": {
+                "email_placeholder": "",
+                "email_confirmed_label": "",
+                "password_placeholder": "",
+                "submit_and_create_another_button": "",
+                "submit_button": "",
+                "title": "",
+                "use_random_password": "",
+                "username_placeholder": ""
+            },
             "dashboard": {
+                "clear_cache_button": "",
                 "description": "Ihr Forum auf einen Blick.",
-                "io_error_message": "Es konnte nicht in das Dateisystem geschrieben werden. Überprüfen Sie die Berechtigungen Ihres Dateisystems und versuchen Sie es erneut. Oder versuchen Sie es über die Kommandozeile auszuführen."
+                "io_error_message": "Es konnte nicht in das Dateisystem geschrieben werden. Überprüfen Sie die Berechtigungen Ihres Dateisystems und versuchen Sie es erneut. Oder versuchen Sie es über die Kommandozeile auszuführen.",
+                "status": {
+                    "headers": {
+                        "scheduler-status": "",
+                        "queue-driver": "",
+                        "session-driver": ""
+                    },
+                    "scheduler": {
+                        "active": "",
+                        "inactive": "",
+                        "never-run": ""
+                    }
+                },
+                "title": "",
+                "tools_button": ""
             },
             "debug-warning": {
-                "detail": "Sofern der <code>Debugmodus</code> aktiv ist, wird Flarum seine <code>JavaScript</code> und <code>CSS</code> Ressourcen bei jedem Seitenabruf neu generieren und könnte zudem potenziell weitere Informationen preisgeben, etwa Datenbankgeheimnisse, Umgebungsvariablen usw.\n\nEs wird dringendst empfohlen, den <code>debug</code> in Ihrer <code>config.php</code> Datei in einem Produktionskontext zu deaktivieren. Konsultieren Sie bitte die <link>Flarum Dokumentation</link> für zusätzliche Informationen.\n"
+                "detail": "Sofern der <code>Debugmodus</code> aktiv ist, wird Flarum seine <code>JavaScript</code> und <code>CSS</code> Ressourcen bei jedem Seitenabruf neu generieren und könnte zudem potenziell weitere Informationen preisgeben, etwa Datenbankgeheimnisse, Umgebungsvariablen usw.\n\nEs wird dringendst empfohlen, den <code>debug</code> in Ihrer <code>config.php</code> Datei in einem Produktionskontext zu deaktivieren. Konsultieren Sie bitte die <link>Flarum Dokumentation</link> für zusätzliche Informationen.\n",
+                "label": ""
             },
             "edit_css": {
-                "customize_text": "Passen Sie das Erscheinungsbild Ihres Forums mithilfe eigenen Less/CSS-Code an, welcher zusätzlich zu Flarums <a>Standard-Design</a> angewendet wird."
+                "customize_text": "Passen Sie das Erscheinungsbild Ihres Forums mithilfe eigenen Less/CSS-Code an, welcher zusätzlich zu Flarums <a>Standard-Design</a> angewendet wird.",
+                "submit_button": "",
+                "title": ""
+            },
+            "edit_footer": {
+                "customize_text": "",
+                "submit_button": "",
+                "title": ""
             },
             "edit_group": {
-                "delete_confirmation": "Sind Sie sicher, dass Sie diese Gruppe löschen möchten? Die Mitglieder der Gruppe werden nicht gelöscht."
+                "color_label": "",
+                "delete_button": "",
+                "delete_confirmation": "Sind Sie sicher, dass Sie diese Gruppe löschen möchten? Die Mitglieder der Gruppe werden nicht gelöscht.",
+                "hide_label": "",
+                "icon_label": "",
+                "icon_text": "",
+                "name_label": "",
+                "plural_placeholder": "",
+                "singular_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            },
+            "edit_header": {
+                "customize_text": "",
+                "submit_button": "",
+                "title": ""
             },
             "email": {
+                "addresses_heading": "",
                 "description": "Konfigurieren Sie den E-Mail-Treiber, die Parameter und die zu verwendenden Adressen für den Versand von E-Mails.",
+                "driver_heading": "",
+                "driver_label": "",
+                "from_label": "",
+                "mail_encryption_label": "",
+                "mail_host_label": "",
+                "mail_mailgun_domain_label": "",
+                "mail_mailgun_region_label": "",
+                "mail_mailgun_secret_label": "",
+                "mail_password_label": "",
+                "mail_port_label": "",
+                "mail_username_label": "",
+                "mailgun_heading": "",
                 "not_sending_message": "Flarum sendet derzeit keine E-Mails. Bitte überprüfen Sie die Korrektheit ihrer E-Mail-Konfiguration.",
-                "send_test_mail_text": "Versenden Sie eine E-Mail mit der gegebenen Konfiguration an Ihre Adresse, {email}."
+                "send_test_mail_button": "",
+                "send_test_mail_heading": "",
+                "send_test_mail_success": "",
+                "send_test_mail_text": "Versenden Sie eine E-Mail mit der gegebenen Konfiguration an Ihre Adresse, {email}.",
+                "smtp_heading": "",
+                "title": ""
             },
             "extension": {
+                "configure_scopes": "",
                 "confirm_purge": "Die Bereinigung entfernt sämtliche Datenbankeinträge und Assets, die sich auf die Erweiterung beziehen. Die Deinstallation der Erweiterung wird nicht ausgeführt; dies muss über Composer geschehen. Sind Sie sicher, dass Sie fortfahren möchten?",
-                "confirm_uninstall": "Die Deinstallation entfernt alle Datenbankeinträge und Assets, die mit der Erweiterung in Verbindung stehen. Sind Sie sicher, dass Sie fortfahren möchten?",
-                "enable_to_see": "Aktivieren Sie die Erweiterung, um Einstellungen einsehen und verändern zu können."
+                "disabled": "",
+                "enable_to_see": "Aktivieren Sie die Erweiterung, um Einstellungen einsehen und verändern zu können.",
+                "enabled": "",
+                "info_links": {
+                    "discuss": "",
+                    "documentation": "",
+                    "donate": "",
+                    "source": "",
+                    "support": "",
+                    "website": ""
+                },
+                "no_permissions": "",
+                "no_settings": "",
+                "open_modal": "",
+                "permissions_title": "",
+                "purge_button": "",
+                "readme": {
+                    "button_label": "",
+                    "no_readme": "",
+                    "title": ""
+                },
+                "confirm_uninstall": "Die Deinstallation entfernt alle Datenbankeinträge und Assets, die mit der Erweiterung in Verbindung stehen. Sind Sie sicher, dass Sie fortfahren möchten?"
+            },
+            "header": {
+                "get_help": "",
+                "log_out_button": ""
             },
             "loading": {
                 "title": "Bitte warten Sie…"
             },
+            "nav": {
+                "appearance_button": "",
+                "appearance_title": "",
+                "basics_button": "",
+                "basics_title": "",
+                "categories": {
+                    "authentication": "",
+                    "core": "",
+                    "discussion": "",
+                    "feature": "",
+                    "formatting": "",
+                    "language": "",
+                    "moderation": "",
+                    "other": "",
+                    "theme": ""
+                },
+                "dashboard_button": "",
+                "dashboard_title": "",
+                "email_button": "",
+                "email_title": "",
+                "permissions_button": "",
+                "permissions_title": "",
+                "userlist_button": "",
+                "userlist_title": "",
+                "search_placeholder": ""
+            },
+            "permissions": {
+                "allow_hide_own_posts_label": "",
+                "allow_post_editing_label": "",
+                "allow_renaming_label": "",
+                "create_access_token_label": "",
+                "create_heading": "",
+                "delete_discussions_forever_label": "",
+                "delete_discussions_label": "",
+                "delete_posts_forever_label": "",
+                "delete_posts_label": "",
+                "description": "",
+                "edit_posts_label": "",
+                "edit_users_label": "",
+                "edit_users_credentials_label": "",
+                "edit_users_groups_label": "",
+                "global_heading": "",
+                "moderate_heading": "",
+                "moderate_access_tokens_label": "",
+                "new_group_button": "",
+                "participate_heading": "",
+                "post_without_throttle_label": "",
+                "read_heading": "",
+                "rename_discussions_label": "",
+                "reply_to_discussions_label": "",
+                "search_users_label": "",
+                "sign_up_label": "",
+                "start_discussions_label": "",
+                "title": "",
+                "view_forum_label": "",
+                "view_hidden_groups_label": "",
+                "view_last_seen_at_label": "",
+                "view_post_ips_label": ""
+            },
+            "permissions_controls": {
+                "allow_indefinitely_button": "",
+                "allow_never_button": "",
+                "allow_some_minutes_button": "",
+                "allow_ten_minutes_button": "",
+                "allow_until_reply_button": "",
+                "everyone_button": "",
+                "members_button": "",
+                "signup_closed_button": "",
+                "signup_open_button": ""
+            },
             "settings": {
-                "saved_message": "Ihre Änderungen wurden gespeichert."
+                "saved_message": "Ihre Änderungen wurden gespeichert.",
+                "submit_button": ""
+            },
+            "upload_image": {
+                "remove_button": "",
+                "upload_button": ""
             },
             "users": {
-                "description": "Eine paginierte Liste aller Benutzer in Ihrem Forum."
-            }
-        },
-        "email": {
-            "activate_account": {
-                "body": "Sehr geehrte/r {username},\n\njemand (hoffentlich Sie!) hat sich im Forum {forum} mit dieser E-Mail-Adresse registriert.\n\nFalls Sie es waren, folgen Sie bitte dem untenstehenden Link, um Ihr Konto zu aktivieren:\n{url}\n\nFalls Sie es nicht waren, ignorieren Sie bitte diese E-Mail.\n",
-                "subject": "Aktivierung Ihres neuen Kontos"
-            },
-            "confirm_email": {
-                "body": "Sehr geehrte/r {username},\n\njemand (hoffentlich Sie!) hat die E-Mail-Adresse im Forum {forum} geändert.\n\nFalls Sie es waren, folgen Sie bitte dem untenstehenden Link, um die neue E-Mail-Adresse zu bestätigen:\n{url}\n\nFalls Sie es nicht waren, ignorieren Sie bitte diese E-Mail.\n",
-                "subject": "Bestätigung Ihrer E-Mail-Adresse"
-            },
-            "reset_password": {
-                "body": "Sehr geehrte/r {username},\n\njemand (hoffentlich Sie!) hat das Zurücksetzen des Passwortes im Forum {forum} beantragt.\n\nFalls Sie es waren, folgen Sie bitte dem untenstehenden Link, um ein neues Passwort festzulegen:\n{url}\n\nFalls Sie es nicht waren, ignorieren Sie bitte diese E-Mail.\n",
-                "subject": "Zurücksetzung Ihres Passwortes"
-            },
-            "send_test": {
-                "body": "Sehr geehrte/r {username},\n\ndies ist eine Test-E-Mail zur Überprüfung, ob Ihre Flarum-E-Mail-Konfiguration korrekt funktioniert.\n\nFalls Sie es waren, dann zeigt diese E-Mail an, dass Ihre Konfiguration funktioniert.\n\nFalls Sie es nicht waren, ignorieren Sie bitte diese E-Mail.\n"
+                "create_user_button": "",
+                "description": "Eine paginierte Liste aller Benutzer in Ihrem Forum.",
+                "grid": {
+                    "columns": {
+                        "display_name": {
+                            "title": ""
+                        },
+                        "edit_user": {
+                            "button": "",
+                            "title": "",
+                            "tooltip": ""
+                        },
+                        "email": {
+                            "title": "",
+                            "visibility_hide": "",
+                            "visibility_show": ""
+                        },
+                        "group_badges": {
+                            "no_badges": "",
+                            "title": ""
+                        },
+                        "join_time": {
+                            "title": ""
+                        },
+                        "user_id": {
+                            "title": ""
+                        },
+                        "username": {
+                            "profile_link_tooltip": "",
+                            "title": ""
+                        }
+                    },
+                    "invalid_column_content": ""
+                },
+                "pagination": {
+                    "back_button": "",
+                    "first_button": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "last_button": "",
+                    "next_button": "",
+                    "page_counter": ""
+                },
+                "search_placeholder": "",
+                "title": "",
+                "total_users": ""
             }
         },
         "forum": {
             "change_email": {
-                "incorrect_password_message": "Das von Ihnen eingegebene Passwort ist falsch."
+                "confirm_password_placeholder": "",
+                "confirmation_message": "",
+                "dismiss_button": "",
+                "incorrect_password_message": "Das von Ihnen eingegebene Passwort ist falsch.",
+                "submit_button": "",
+                "title": ""
             },
             "change_password": {
-                "text": "Klicken Sie auf die Schaltfläche, um einen Link zum Zurücksetzen Ihres Passwortes zu erhalten."
+                "send_button": "",
+                "text": "Klicken Sie auf die Schaltfläche, um einen Link zum Zurücksetzen Ihres Passwortes zu erhalten.",
+                "title": ""
+            },
+            "composer": {
+                "close_tooltip": "",
+                "exit_full_screen_tooltip": "",
+                "full_screen_tooltip": "",
+                "minimize_tooltip": "",
+                "preview_tooltip": ""
             },
             "composer_discussion": {
                 "body_placeholder": "Verfassen Sie Ihren Beitrag…",
-                "discard_confirmation": "Ihr Beitrag wurde nicht versendet. Möchten Sie ihn verwerfen?"
+                "discard_confirmation": "Ihr Beitrag wurde nicht versendet. Möchten Sie ihn verwerfen?",
+                "submit_button": "",
+                "title": "",
+                "title_placeholder": ""
             },
             "composer_edit": {
                 "discard_confirmation": "Ihre Änderungen wurden nicht übernommen. Möchten Sie sie verwerfen?",
-                "edited_message": "Ihre Änderungen wurden gespeichert."
+                "edited_message": "Ihre Änderungen wurden gespeichert.",
+                "post_link": "",
+                "submit_button": "",
+                "view_button": ""
             },
             "composer_reply": {
+                "body_placeholder": "",
                 "discard_confirmation": "Ihre Antwort wurde nicht versendet. Möchten Sie sie verwerfen?",
-                "posted_message": "Ihre Antwort wurde versendet."
+                "posted_message": "Ihre Antwort wurde versendet.",
+                "submit_button": "",
+                "view_button": ""
             },
             "discussion_controls": {
+                "cannot_reply_button": "",
                 "cannot_reply_text": "Sie haben keine Berechtigung, auf diese Diskussion zu antworten.",
-                "delete_confirmation": "Möchten Sie diese Diskussion wirklich löschen?"
+                "delete_button": "",
+                "delete_confirmation": "Möchten Sie diese Diskussion wirklich löschen?",
+                "delete_forever_button": "",
+                "log_in_to_reply_button": "",
+                "rename_button": "",
+                "reply_button": "",
+                "restore_button": "",
+                "toggle_dropdown_accessible_label": ""
             },
             "discussion_list": {
                 "empty_text": "Es gibt noch keine Diskussionen in diesem Forum.",
+                "load_more_button": "",
+                "replied_text": "",
+                "started_text": "",
+                "total_replies_a11y_label": "",
                 "unread_replies_a11y_label": "{count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. Markieren Sie ungelesene {count, plural, one {Antwort} other {Antworten}} als gelesen."
             },
             "forgot_password": {
+                "dismiss_button": "",
+                "email_placeholder": "",
                 "email_sent_message": "Falls die von Ihnen eingegebene E-Mail-Adresse auf dieser Seite registriert ist, senden wir Ihnen eine E-Mail mit einem Link, über den Sie Ihr Passwort zurücksetzen können. Bitte prüfen Sie auch Ihren Spam-Ordner, falls die E-Mail nicht innerhalb der nächsten Minuten ankommt.",
-                "text": "Bitte geben Sie Ihre E-Mail-Adresse ein, um einen Link zum Zurücksetzen Ihres Passwortes zu erhalten."
+                "not_found_message": "",
+                "submit_button": "",
+                "text": "Bitte geben Sie Ihre E-Mail-Adresse ein, um einen Link zum Zurücksetzen Ihres Passwortes zu erhalten.",
+                "title": ""
+            },
+            "header": {
+                "admin_button": "",
+                "back_to_index_tooltip": "",
+                "locale_dropdown_accessible_label": "",
+                "log_in_link": "",
+                "log_out_button": "",
+                "profile_button": "",
+                "search_clear_button_accessible_label": "",
+                "search_placeholder": "",
+                "search_role_label": "",
+                "session_dropdown_accessible_label": "",
+                "settings_button": "",
+                "sign_up_link": ""
             },
             "index": {
-                "mark_all_as_read_confirmation": "Sind Sie sicher, dass Sie alle Diskussionen als gelesen markieren möchten?"
+                "all_discussions_link": "",
+                "cannot_start_discussion_button": "",
+                "mark_all_as_read_confirmation": "Sind Sie sicher, dass Sie alle Diskussionen als gelesen markieren möchten?",
+                "mark_all_as_read_tooltip": "",
+                "meta_title_text": "",
+                "refresh_tooltip": "",
+                "start_discussion_button": "",
+                "toggle_sidenav_dropdown_accessible_label": ""
+            },
+            "index_sort": {
+                "latest_button": "",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
+                "toggle_dropdown_accessible_label": "",
+                "top_button": ""
+            },
+            "log_in": {
+                "forgot_password_link": "",
+                "invalid_login_message": "",
+                "password_placeholder": "",
+                "remember_me_label": "",
+                "sign_up_text": "",
+                "submit_button": "",
+                "title": "",
+                "username_or_email_placeholder": ""
             },
             "notifications": {
-                "delete_all_confirm": "Sind Sie sicher, dass Sie alle Benachrichtigungen löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden."
+                "delete_all_confirm": "Sind Sie sicher, dass Sie alle Benachrichtigungen löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+                "delete_all_tooltip": "",
+                "discussion_renamed_text": "",
+                "empty_text": "",
+                "mark_all_as_read_tooltip": "",
+                "mark_as_read_tooltip": "",
+                "title": "",
+                "toggle_dropdown_accessible_label": "",
+                "tooltip": ""
+            },
+            "post": {
+                "edited_text": "",
+                "edited_tooltip": "",
+                "number_tooltip": ""
             },
             "post_controls": {
+                "delete_button": "",
                 "delete_confirmation": "Sind Sie sicher, dass Sie diesen Beitrag dauerhaft löschen möchten? Dies kann nicht rückgängig gemacht werden.",
-                "hide_confirmation": "Sind Sie sicher, dass Sie diesen Beitrag löschen möchten?"
+                "delete_forever_button": "",
+                "edit_button": "",
+                "hide_confirmation": "Sind Sie sicher, dass Sie diesen Beitrag löschen möchten?",
+                "restore_button": "",
+                "toggle_dropdown_accessible_label": ""
+            },
+            "post_scrubber": {
+                "now_link": "",
+                "original_post_link": "",
+                "unread_text": "",
+                "viewing_text": ""
+            },
+            "post_stream": {
+                "discussion_renamed_old_tooltip": "",
+                "discussion_renamed_text": "",
+                "load_more_button": "",
+                "reply_placeholder": "",
+                "time_lapsed_text": ""
+            },
+            "rename_discussion": {
+                "submit_button": "",
+                "title": ""
+            },
+            "search": {
+                "all_discussions_button": "",
+                "discussions_heading": "",
+                "users_heading": ""
             },
             "security": {
+                "browser_on_operating_system": "",
                 "cannot_terminate_current_session": "Die derzeit aktive Sitzung kann nicht beendet werden. Bitte melden Sie sich stattdessen ab.",
-                "session_termination_failed": "Beim Beenden Ihrer Sitzungen ist ein Fehler aufgetreten."
+                "created": "",
+                "current_active_session": "",
+                "developer_tokens_heading": "",
+                "empty_text": "",
+                "global_logout": {
+                    "heading": "",
+                    "help_text": "",
+                    "log_out_button": ""
+                },
+                "hide_access_token": "",
+                "last_activity": "",
+                "never": "",
+                "new_access_token_button": "",
+                "new_access_token_modal": {
+                    "submit_button": "",
+                    "title": "",
+                    "title_placeholder": ""
+                },
+                "revoke_access_token": "",
+                "revoke_access_token_confirmation": "",
+                "sessions_heading": "",
+                "session_terminated": "",
+                "session_termination_failed": "Beim Beenden Ihrer Sitzungen ist ein Fehler aufgetreten.",
+                "show_access_token": "",
+                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions_confirmation": "",
+                "terminate_session": "",
+                "title": "",
+                "token_revoked": "",
+                "token_item_title": "",
+                "token_title_placeholder": ""
             },
             "settings": {
+                "account_heading": "",
+                "change_email_button": "",
+                "change_password_button": "",
                 "notification_checkbox_a11y_label_template": "Erhalten Sie \"{description}\" Benachrichtigungen über {method}",
-                "notify_discussion_renamed_label": "Wenn jemand eine Diskussion ändert, die Sie gestartet haben"
+                "notifications_heading": "",
+                "notify_by_email_heading": "",
+                "notify_by_web_heading": "",
+                "notify_discussion_renamed_label": "Wenn jemand eine Diskussion ändert, die Sie gestartet haben",
+                "privacy_disclose_online_label": "",
+                "privacy_heading": "",
+                "title": ""
+            },
+            "sign_up": {
+                "dismiss_button": "",
+                "email_placeholder": "",
+                "log_in_text": "",
+                "password_placeholder": "",
+                "submit_button": "",
+                "title": "",
+                "username_placeholder": "",
+                "welcome_text": ""
             },
             "user": {
-                "avatar_upload_tooltip": "Laden Sie einen neuen Avatar hoch"
+                "avatar_remove_button": "",
+                "avatar_upload_button": "",
+                "avatar_upload_tooltip": "Laden Sie einen neuen Avatar hoch",
+                "discussions_link": "",
+                "in_discussion_text": "",
+                "joined_date_text": "",
+                "online_text": "",
+                "posts_empty_text": "",
+                "posts_link": "",
+                "posts_load_more_button": "",
+                "security_link": "",
+                "settings_link": ""
+            },
+            "user_controls": {
+                "button": "",
+                "delete_button": "",
+                "delete_confirmation": "",
+                "delete_error_message": "",
+                "delete_success_message": "",
+                "edit_button": "",
+                "toggle_dropdown_accessible_label": ""
+            },
+            "user_email_confirmation": {
+                "alert_message": "",
+                "resend_button": "",
+                "sent_message": ""
+            },
+            "welcome_hero": {
+                "hide": ""
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
+            "badge": {
+                "hidden_tooltip": ""
+            },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": ""
+            },
+            "data_segment": {
+                "label": ""
+            },
             "edit_user": {
+                "activate_button": "",
+                "email_heading": "",
+                "email_label": "",
+                "groups_heading": "",
+                "password_heading": "",
+                "password_label": "",
+                "set_password_label": "",
+                "submit_button": "",
+                "title": "",
+                "username_heading": "",
+                "username_label": "",
                 "nothing_available": "Sie sind nicht berechtigt, diesen Benutzer zu bearbeiten."
             },
             "error": {
                 "circular_dependencies_message": "Zirkuläre Abhängigkeiten erkannt: {extensions}. Prozess abgebrochen. Bitte deaktivieren Sie eine der Erweiterungen und versuchen Sie es erneut.",
+                "dependent_extensions_message": "",
                 "extension_initialiation_failed_message": "{extension} konnte nicht initialisiert werden, überprüfen Sie die Browser-Konsole für weitere Informationen.",
-                "generic_cross_origin_message": "Es tut uns leid! Bei einer Cross-Origin-Anfrage ist ein Problem aufgetreten. Bitte laden Sie die Seite neu und versuchen Sie es erneut.",
                 "generic_message": "Es tut uns leid! Es ist ein Fehler aufgetreten. Bitte laden Sie die Seite neu und versuchen Sie es erneut.",
+                "generic_cross_origin_message": "Es tut uns leid! Bei einer Cross-Origin-Anfrage ist ein Problem aufgetreten. Bitte laden Sie die Seite neu und versuchen Sie es erneut.",
+                "missing_dependencies_message": "",
+                "not_found_message": "",
+                "payload_too_large_message": "",
                 "permission_denied_message": "Sie haben keine Berechtigung, dies zu tun.",
                 "rate_limit_exceeded_message": "Bitte nicht so schnell. Versuchen Sie es in Kürze erneut.",
                 "render_failed_message": "Beim Anzeigen dieses Inhalts ist ein Fehler aufgetreten. Wenn Sie ein Benutzer sind, versuchen Sie es später erneut. Wenn Sie ein Administrator sind, überprüfen Sie Ihre Flarum-Protokolldateien, um weitere Informationen zu erhalten."
+            },
+            "loading_indicator": {
+                "accessible_label": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
+            },
+            "number_suffix": {
+                "kilo_text": "",
+                "mega_text": ""
+            },
+            "series": {
+                "glue_text": "",
+                "three_text": "",
+                "two_text": ""
+            },
+            "username": {
+                "deleted_text": ""
             }
         },
-        "ref": {
-            "confirmation_email_sent": "Wir haben eine Bestätigungs-E-Mail an {email} gesendet. Bitte überprüfen Sie Ihren Spam-Ordner, falls Sie keine E-Mail erhalten haben.",
-            "generic_confirmation_message": "Sind Sie sicher, dass Sie fortfahren möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
-            "icon_text": "Geben Sie den Namen des <a>FontAwesome</a>-Symbols ein, aber <em>mit</em> dem Präfix <code>fas fa-</code>.",
-            "reset_your_password": "Ihr Passwort zurücksetzen",
-            "you": "Sie"
-        },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
             "confirm_email": {
-                "text": "Klicken Sie auf die Schaltfläche unten, um die E-Mail-Adresse Ihres Kontos zu bestätigen."
+                "submit_button": "",
+                "text": "Klicken Sie auf die Schaltfläche unten, um die E-Mail-Adresse Ihres Kontos zu bestätigen.",
+                "title": ""
+            },
+            "content": {
+                "javascript_disabled_message": "",
+                "load_error_message": "",
+                "loading_text": ""
+            },
+            "discussion": {
+                "next_page_button": "",
+                "previous_page_button": ""
             },
             "error": {
                 "csrf_token_mismatch": "Sie waren zu lange inaktiv.",
                 "csrf_token_mismatch_return_link": "Bitte gehen Sie zurück und versuchen Sie es erneut",
+                "invalid_confirmation_token": "",
                 "not_authenticated": "Sie haben keine Berechtigung, auf diese Seite zuzugreifen. Bitte versuchen Sie sich erneut anzumelden.",
-                "permission_denied": "Sie haben keine Berechtigung, auf diese Seite zuzugreifen."
+                "not_found": "",
+                "not_found_return_link": "",
+                "permission_denied": "Sie haben keine Berechtigung, auf diese Seite zuzugreifen.",
+                "unknown": ""
+            },
+            "index": {
+                "all_discussions_heading": "",
+                "next_page_button": "",
+                "previous_page_button": ""
             },
             "log_out": {
-                "log_out_confirmation": "Sind Sie sicher, dass Sie sich von {forum} abmelden möchten?"
+                "log_out_button": "",
+                "log_out_confirmation": "Sind Sie sicher, dass Sie sich von {forum} abmelden möchten?",
+                "title": ""
+            },
+            "reset_password": {
+                "confirm_password_label": "",
+                "new_password_label": "",
+                "submit_button": "",
+                "title": ""
             }
+        },
+        "api": {
+            "invalid_username_message": "",
+            "invalid_filter_type": {
+                "must_be_numeric_message": "",
+                "must_not_be_array_message": "",
+                "must_not_be_multidimensional_array_message": ""
+            }
+        },
+        "email": {
+            "activate_account": {
+                "subject": "Aktivierung Ihres neuen Kontos",
+                "body": "Sehr geehrte/r {username},\n\njemand (hoffentlich Sie!) hat sich im Forum {forum} mit dieser E-Mail-Adresse registriert.\n\nFalls Sie es waren, folgen Sie bitte dem untenstehenden Link, um Ihr Konto zu aktivieren:\n{url}\n\nFalls Sie es nicht waren, ignorieren Sie bitte diese E-Mail.\n"
+            },
+            "confirm_email": {
+                "subject": "Bestätigung Ihrer E-Mail-Adresse",
+                "body": "Sehr geehrte/r {username},\n\njemand (hoffentlich Sie!) hat die E-Mail-Adresse im Forum {forum} geändert.\n\nFalls Sie es waren, folgen Sie bitte dem untenstehenden Link, um die neue E-Mail-Adresse zu bestätigen:\n{url}\n\nFalls Sie es nicht waren, ignorieren Sie bitte diese E-Mail.\n"
+            },
+            "reset_password": {
+                "subject": "Zurücksetzung Ihres Passwortes",
+                "body": "Sehr geehrte/r {username},\n\njemand (hoffentlich Sie!) hat das Zurücksetzen des Passwortes im Forum {forum} beantragt.\n\nFalls Sie es waren, folgen Sie bitte dem untenstehenden Link, um ein neues Passwort festzulegen:\n{url}\n\nFalls Sie es nicht waren, ignorieren Sie bitte diese E-Mail.\n"
+            },
+            "send_test": {
+                "subject": "",
+                "body": "Sehr geehrte/r {username},\n\ndies ist eine Test-E-Mail zur Überprüfung, ob Ihre Flarum-E-Mail-Konfiguration korrekt funktioniert.\n\nFalls Sie es waren, dann zeigt diese E-Mail an, dass Ihre Konfiguration funktioniert.\n\nFalls Sie es nicht waren, ignorieren Sie bitte diese E-Mail.\n"
+            }
+        },
+        "ref": {
+            "all_discussions": "",
+            "change_email": "",
+            "change_password": "",
+            "color": "",
+            "confirm_password": "",
+            "confirm_email": "",
+            "confirmation_email_sent": "Wir haben eine Bestätigungs-E-Mail an {email} gesendet. Bitte überprüfen Sie Ihren Spam-Ordner, falls Sie keine E-Mail erhalten haben.",
+            "custom_footer_text": "",
+            "custom_footer_title": "",
+            "custom_header_text": "",
+            "custom_header_title": "",
+            "delete": "",
+            "delete_forever": "",
+            "discussions": "",
+            "edit": "",
+            "edit_user": "",
+            "email": "",
+            "extensions": "",
+            "generic_confirmation_message": "Sind Sie sicher, dass Sie fortfahren möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+            "icon": "",
+            "icon_text": "Geben Sie den Namen des <a>FontAwesome</a>-Symbols ein, aber <em>mit</em> dem Präfix <code>fas fa-</code>.",
+            "load_more": "",
+            "loading": "",
+            "log_in": "",
+            "log_out": "",
+            "mark_all_as_read": "",
+            "never": "",
+            "new_token": "",
+            "next_page": "",
+            "notifications": "",
+            "okay": "",
+            "password": "",
+            "posts": "",
+            "previous_page": "",
+            "remove": "",
+            "rename": "",
+            "reply": "",
+            "reset_your_password": "Ihr Passwort zurücksetzen",
+            "restore": "",
+            "save_changes": "",
+            "search_users": "",
+            "security": "",
+            "settings": "",
+            "sign_up": "",
+            "some_others": "",
+            "start_a_discussion": "",
+            "username": "",
+            "users": "",
+            "view": "",
+            "write_a_reply": "",
+            "you": "Sie"
+        },
+        "group": {
+            "admin": "",
+            "admins": "",
+            "guest": "",
+            "guests": "",
+            "member": "",
+            "members": "",
+            "mod": "",
+            "mods": ""
         }
     }
 }

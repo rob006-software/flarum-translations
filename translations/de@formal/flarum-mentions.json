@@ -1,32 +1,65 @@
 {
     "flarum-mentions": {
-        "email": {
-            "group_mentioned": {
-                "body": "Sehr geehrte/r {recipient_display_name},\n\n{mentioner_display_name} hat in {title} eine Gruppe erwähnt, in der Sie Mitglied sind.\n\n{url}\n\n---\n\n{content}\n",
-                "subject": "{mentioner_display_name} hat in {title} eine Gruppe erwähnt, in der Sie Mitglied sind"
+        "admin": {
+            "permissions": {
+                "mention_groups_label": ""
             },
-            "post_mentioned": {
-                "body": "Sehr geehrte/r {recipient_display_name},\n\n{replier_display_name} hat auf Ihren Beitrag (#{post_number}) in {title} geantwortet.\n\n{url}\n\n---\n\n{content}\n",
-                "subject": "{replier_display_name} hat auf Ihren Beitrag in {title} geantwortet"
-            },
-            "user_mentioned": {
-                "body": "Sehr geehrte/r {recipient_display_name},\n\n{mentioner_display_name} hat Sie in der Diskussion {title} erwähnt.\n\n{url}\n\n---\n\n{content}\n",
-                "subject": "{mentioner_display_name} hat Sie in {title} erwähnt"
+            "settings": {
+                "allow_username_format_label": "",
+                "allow_username_format_text": ""
             }
         },
         "forum": {
+            "composer": {
+                "mention_tooltip": "",
+                "reply_to_post_text": ""
+            },
+            "mentioned_by": {
+                "title": "",
+                "load_more_button": ""
+            },
             "notifications": {
-                "group_mentioned_text": "{username} hat eine Gruppe erwähnt, in der Sie Mitglied sind",
+                "others_text": "",
                 "post_mentioned_text": "{username} {count, plural, one {hat} other {haben}} auf Ihren Beitrag geantwortet",
-                "user_mentioned_text": "{username} hat Sie erwähnt"
+                "user_mentioned_text": "{username} hat Sie erwähnt",
+                "group_mentioned_text": "{username} hat eine Gruppe erwähnt, in der Sie Mitglied sind"
             },
             "post": {
-                "mentioned_by_self_text": "{users} haben auf diesen Beitrag geantwortet."
+                "mentioned_by_more_text": "",
+                "mentioned_by_self_text": "{users} haben auf diesen Beitrag geantwortet.",
+                "mentioned_by_text": "",
+                "others_text": "",
+                "quote_button": "",
+                "reply_link": "",
+                "you_text": ""
             },
             "settings": {
-                "notify_group_mentioned_label": "Jemand erwähnt in einem Beitrag eine Gruppe, in der Sie Mitglied sind",
                 "notify_post_mentioned_label": "Jemand hat auf Ihren Beitrag geantwortet",
-                "notify_user_mentioned_label": "Jemand hat Sie in einem Beitrag erwähnt"
+                "notify_user_mentioned_label": "Jemand hat Sie in einem Beitrag erwähnt",
+                "notify_group_mentioned_label": "Jemand erwähnt in einem Beitrag eine Gruppe, in der Sie Mitglied sind"
+            },
+            "user": {
+                "mentions_link": ""
+            },
+            "post_mention": {
+                "deleted_text": ""
+            },
+            "group_mention": {
+                "deleted_text": ""
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "{replier_display_name} hat auf Ihren Beitrag in {title} geantwortet",
+                "body": "Sehr geehrte/r {recipient_display_name},\n\n{replier_display_name} hat auf Ihren Beitrag (#{post_number}) in {title} geantwortet.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "user_mentioned": {
+                "subject": "{mentioner_display_name} hat Sie in {title} erwähnt",
+                "body": "Sehr geehrte/r {recipient_display_name},\n\n{mentioner_display_name} hat Sie in der Diskussion {title} erwähnt.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "group_mentioned": {
+                "subject": "{mentioner_display_name} hat in {title} eine Gruppe erwähnt, in der Sie Mitglied sind",
+                "body": "Sehr geehrte/r {recipient_display_name},\n\n{mentioner_display_name} hat in {title} eine Gruppe erwähnt, in der Sie Mitglied sind.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
