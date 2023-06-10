@@ -2,28 +2,28 @@
     "sycho-private-facade": {
         "admin": {
             "settings": {
-                "force_redirect": "",
+                "force_redirect": "Paksa Alihkan Tamu ke Antarmuka Login/Pendaftaran",
                 "header_layout": {
                     "options": {
-                        "show_header": "",
-                        "show_only_logo": "",
-                        "hide_secondary_items": ""
+                        "show_header": "Tampilkan Header",
+                        "show_only_logo": "Tampilkan Logo Ony",
+                        "hide_secondary_items": "Sembunyikan Item Sekunder (Link Pencarian, Login, dan Pendaftaran)"
                     },
-                    "title": ""
+                    "title": "Tata Letak Header"
                 },
-                "illustration_path": "",
-                "primary_color_bg": "",
-                "route_exclusions": "",
+                "illustration_path": "Gambar Ilustrasi",
+                "primary_color_bg": "Gunakan Background Warna Primer",
+                "route_exclusions": "Route yang Harus Dikecualikan Dari Pengalihan ke Halaman Login/Pendaftaran.",
                 "screen_banner_description": "",
                 "screen_banner_heading": "",
                 "screen_banner_title": "",
-                "use_welcome_hero_text": ""
+                "use_welcome_hero_text": "Gunakan Welcome Banner Text"
             }
         },
         "forum": {
-            "log_in_label": "",
-            "or_label": "",
-            "sign_up_label": ""
+            "log_in_label": "=> core.ref.log_in",
+            "or_label": "atau",
+            "sign_up_label": "=> core.ref.sign_up"
         }
     }
 }
