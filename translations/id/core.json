@@ -4,7 +4,7 @@
             "appearance": {
                 "colored_header_label": "Header Berwarna",
                 "colors_heading": "Warna",
-                "colors_primary_label": "Warna Utama",
+                "colors_primary_label": "Warna Primer",
                 "colors_secondary_label": "Warna Sekunder",
                 "colors_text": "Pilih dua warna untuk tema forum Anda. Yang pertama akan digunakan sebagai warna untuk highlight, sedangkan yang kedua akan digunakan untuk menata elemen latar belakang.",
                 "custom_footer_heading": "Custom Footer",
@@ -42,7 +42,7 @@
                 "slug_driver_text": "Pilih driver yang akan digunakan untuk slugging model ini.",
                 "title": "Pengaturan Dasar",
                 "welcome_banner_heading": "Banner Selamat Datang",
-                "welcome_banner_text": "Atur teks yang ditampilkan dalam banner di halaman Semua Diskusi. Gunakan ini untuk menyambut tamu yang datang ke forum Anda."
+                "welcome_banner_text": "Konfigurasikan teks yang ditampilkan dalam banner di halaman Semua Diskusi. Gunakan ini untuk menyambut tamu yang datang ke forum Anda."
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -90,13 +90,13 @@
             "edit_group": {
                 "color_label": "=> core.ref.color",
                 "delete_button": "Hapus Grup",
-                "delete_confirmation": "Anda yakin ingin menghapus grup ini? Anggota grup TIDAK akan ikut terhapus.",
+                "delete_confirmation": "Apakah Anda yakin ingin menghapus grup ini? Anggota grup TIDAK akan dihapus.",
                 "hide_label": "Sembunyikan di forum",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
-                "name_label": "Name",
-                "plural_placeholder": "Plural (e.g. Mods)",
-                "singular_placeholder": "Singular (e.g. Mod)",
+                "name_label": "Nama",
+                "plural_placeholder": "Jamak (mis. Mods)",
+                "singular_placeholder": "Tunggal (mis. Mod)",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Membuat Grup"
             },
@@ -123,7 +123,7 @@
                 "not_sending_message": "Flarum saat ini tidak dapat mengirim email. Hal ini dapat disebabkan oleh driver yang dipilih, atau kesalahan dalam konfigurasinya.",
                 "send_test_mail_button": "Kirim",
                 "send_test_mail_heading": "Kirim Test Mail",
-                "send_test_mail_success": "Pengiriman test mail berhasil!",
+                "send_test_mail_success": "Email percobaan berhasil terkirim!",
                 "send_test_mail_text": "Email akan dikirim menggunakan konfigurasi di atas ke email Anda, {email}.",
                 "smtp_heading": "Pengaturan SMTP",
                 "title": "=> core.ref.email"
@@ -150,7 +150,7 @@
                 "readme": {
                     "button_label": "README",
                     "no_readme": "Ekstensi ini tampaknya tidak memiliki file README",
-                    "title": "{extName} documentation"
+                    "title": "Dokumentasi {extName}"
                 }
             },
             "header": {
@@ -227,7 +227,7 @@
                 "allow_until_reply_button": "Hingga balasan selanjutnya",
                 "everyone_button": "Siapapun",
                 "members_button": "=> core.group.members",
-                "signup_closed_button": "Tertutup",
+                "signup_closed_button": "Ditutup",
                 "signup_open_button": "Terbuka"
             },
             "settings": {
@@ -382,8 +382,8 @@
                 "toggle_sidenav_dropdown_accessible_label": ""
             },
             "index_sort": {
-                "latest_button": "Terbaru (post)",
-                "newest_button": "Terbaru (diskusi)",
+                "latest_button": "Terkini",
+                "newest_button": "Terbaru",
                 "oldest_button": "Terlama",
                 "relevance_button": "Relevansi",
                 "toggle_dropdown_accessible_label": "Ubah pengurutan daftar diskusi",
