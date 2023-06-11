@@ -2,13 +2,13 @@
     "kilowhat-rich-embeds": {
         "admin": {
             "settings": {
-                "layout": "",
+                "layout": "Tata letak",
                 "layoutOptions": {
                     "inline": "",
                     "block": "",
                     "separated": ""
                 },
-                "position": "",
+                "position": "Posisi",
                 "positionOptions": {
                     "replace": "",
                     "above": "",
@@ -16,8 +16,8 @@
                 },
                 "style": "",
                 "styleOptions": {
-                    "vertical": "",
-                    "horizontal": ""
+                    "vertical": "Vertikal",
+                    "horizontal": "Horizontal"
                 },
                 "imageProxy": "",
                 "imageProxyHelp": "Semua gambar OpenGraph dan favicon akan di-proxy oleh Flarum, alih-alih diambil oleh browser pengunjung",
@@ -38,25 +38,25 @@
                 "githubOrgWhitelist": "",
                 "githubOrgWhitelistHelp": "",
                 "googleApiAuthConfig": "",
-                "googleApiAuthConfigHelp": "",
-                "googleApiKey": "",
+                "googleApiAuthConfigHelp": "Pengaturan ini digunakan bersama dengan pengaturan YouTube dan Google Drive di bawah ini. Pengaturan ini harus berisi absolute path ke file autentikasi JSON di sistem file lokal, atau konten file tersebut. Jika dibiarkan kosong, API key atau akun layanan akan secara otomatis ditemukan melalui environment variable oleh Google API SDK.\n",
+                "googleApiKey": "Google SDK API key",
                 "googleApiKeyHelp": "Pengaturan ini digunakan bersamaan dengan pengaturan YouTube dan Google Drive di bawah ini. Jika dibiarkan kosong, kunci API atau akun layanan akan secara otomatis ditemukan melalui environment variable oleh Google API SDK.\n",
-                "youtubePlayer": "",
-                "youtubePlayerHelp": "",
+                "youtubePlayer": "Izinkan memutar video YouTube dari pratinjau",
+                "youtubePlayerHelp": "Iframe player akan dimuat sesuai permintaan saat pengguna mengeklik tombol play di pratinjau. Anda harus mengonfigurasi CSP dan frame header untuk mengizinkan frame dari nama domain YouTube. Fitur ini dapat digunakan tanpa akses API.\n",
                 "youtubeNoCookie": "",
                 "youtubeNoCookieHelp": "",
                 "youtubeApiPreviews": "",
-                "youtubeApiPreviewsHelp": "",
+                "youtubeApiPreviewsHelp": "Google API SDK harus dikonfigurasi di atas. Fitur ini akan menampilkan lebih banyak statistik tentang video dan dapat menampilkan video pribadi yang dapat diakses oleh SDK user.\n",
                 "googledriveApiPreviews": "",
                 "googledriveApiPreviewsHelp": ""
             },
             "section": {
                 "siteSpecificHelp": "",
-                "flarum": "",
-                "github": "",
-                "google": "",
-                "youtube": "",
-                "googledrive": ""
+                "flarum": "Flarum",
+                "github": "GitHub",
+                "google": "Google",
+                "youtube": "YouTube",
+                "googledrive": "Google Drive"
             },
             "permissions": {
                 "viewGoogleDriveThumbnails": "",
@@ -67,9 +67,9 @@
                 "refreshOnAnyPost": ""
             },
             "preview": {
-                "title": "",
+                "title": "Pratinjau",
                 "refresh": "",
-                "loading": ""
+                "loading": "Memuat..."
             }
         },
         "lib": {
@@ -79,16 +79,16 @@
                 "altAvatar": "",
                 "missing": {
                     "retrieving": "",
-                    "other": ""
+                    "other": "Tidak ada pratinjau yang dapat dibuat untuk link ini"
                 }
             },
             "controls": {
                 "refresh": "",
                 "disable": "",
-                "disableConfirmation": "",
-                "imgCopy": "",
-                "imgCopied": "",
-                "imgOpen": "",
+                "disableConfirmation": "Semua embed akan dihapus dari postingan ini. Lanjutkan?",
+                "imgCopy": "Copy URL gambar",
+                "imgCopied": "Disalin!",
+                "imgOpen": "Buka gambar di tab baru",
                 "play": "",
                 "expandDescription": ""
             }
@@ -109,29 +109,29 @@
                         }
                     },
                     "user": {
-                        "type": "",
-                        "avatarAlt": "",
+                        "type": "Profil",
+                        "avatarAlt": "Avatar",
                         "stats": {
-                            "discussionCount": "",
-                            "commentCount": "",
-                            "joinTime": ""
+                            "discussionCount": "Diskusi",
+                            "commentCount": "Komentar",
+                            "joinTime": "Tanggal bergabung"
                         }
                     }
                 },
                 "github": {
-                    "siteName": "",
+                    "siteName": "GitHub",
                     "privateRepoSuffix": "",
                     "issue": {
                         "type": "",
                         "stats": {
-                            "commentCount": "",
+                            "commentCount": "Komentar",
                             "createdAt": ""
                         }
                     },
                     "pull": {
                         "type": "",
                         "stats": {
-                            "commentCount": "",
+                            "commentCount": "Komentar",
                             "reviewCount": "",
                             "commitCount": "",
                             "createdAt": ""
@@ -151,25 +151,25 @@
                     }
                 },
                 "youtube": {
-                    "siteName": "",
+                    "siteName": "YouTube",
                     "video": {
-                        "type": "",
-                        "thumbnailAlt": "",
+                        "type": "Video",
+                        "thumbnailAlt": "Thumbnail video",
                         "stats": {
                             "viewCount": "",
-                            "likeCount": "",
-                            "commentCount": "",
+                            "likeCount": "Like",
+                            "commentCount": "Komentar",
                             "publishedAt": ""
                         }
                     }
                 },
                 "googledrive": {
-                    "siteName": "",
+                    "siteName": "Google Drive",
                     "file": {
-                        "type": "",
-                        "thumbnailAlt": "",
+                        "type": "File",
+                        "thumbnailAlt": "Pratinjau file Google Drive",
                         "stats": {
-                            "size": "",
+                            "size": "Ukuran file",
                             "createdTime": "",
                             "modifiedTime": ""
                         }
