@@ -2,27 +2,27 @@
     "clarkwinkelmann-money-to-all": {
         "lib": {
             "modal": {
-                "title": "",
-                "amount": "",
-                "notify": "",
-                "message": "",
-                "messagePlaceholder": "",
-                "messageHelp": "",
-                "suspended": "",
-                "lastActivity": "",
-                "preview": "",
-                "submit": "",
-                "success": ""
+                "title": "Mengirim money ke semua pengguna",
+                "amount": "Jumlah",
+                "notify": "Kirim notifikasi web ke pengguna",
+                "message": "Pesan",
+                "messagePlaceholder": "Aktifkan notifikasi untuk menyertakan pesan",
+                "messageHelp": "Opsional. Pesan ini akan menggantikan teks notifikasi default. Anda harus menyebutkan jumlah dalam teks Anda karena tidak akan ditampilkan lagi.",
+                "suspended": "Sertakan pengguna yang ditangguhkan",
+                "lastActivity": "Batasi untuk pengguna yang aktif setelah tanggal berikut",
+                "preview": "Pengaturan saat ini cocok dengan {count} pengguna.",
+                "submit": "Kirim",
+                "success": "Money dikirim ke {count} pengguna!"
             }
         },
         "admin": {
             "settings": {
-                "send": ""
+                "send": "Kirim money ke semua pengguna"
             }
         },
         "forum": {
             "notification": {
-                "moneyReceived": ""
+                "moneyReceived": "Anda telah menerima {amount}"
             }
         }
     }
