@@ -22,7 +22,7 @@
                 "hidden": "隱藏回覆於 `{1}`",
                 "restored": "恢覆回覆於 `{1}`",
                 "deleted": "刪除回覆於 `{1}`",
-                "approved": ""
+                "approved": "`{1}` 中的批准帖子"
             },
             "user": {
                 "registered": "新注冊會員",
@@ -106,8 +106,8 @@
                             "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "approval": {
-                            "title": "",
-                            "postwasapproved": ""
+                            "title": "Flarum 批准",
+                            "postwasapproved": "發布批准"
                         }
                     }
                 }
