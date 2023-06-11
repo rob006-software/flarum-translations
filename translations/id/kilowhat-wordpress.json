@@ -2,36 +2,36 @@
     "kilowhat-wordpress": {
         "admin": {
             "settings": {
-                "section_general_intro": "",
+                "section_general_intro": "Pengaturan dasar yang diperlukan agar ekstensi dapat berfungsi.",
                 "api_key": "",
                 "wordpress_url": "",
                 "wordpress_username": "",
-                "section_sso_intro": "",
+                "section_sso_intro": "Fitur ini akan menghubungkan pengguna WordPress dengan Flarum secara mulus. Sebuah akun akan secara otomatis dibuat untuk mereka dan disinkronkan dengan WordPress. Jika Anda memiliki akun yang sudah ada di Flarum, akun tersebut akan secara otomatis dicocokkan dengan email mereka. Jika Anda menghapus pengguna di Flarum, pengguna tersebut akan dibuat lagi saat akun WordPress melakukan login. Untuk memblokir pengguna Flarum, tangguhkan akun di Flarum.\n",
                 "enable_sso": "",
                 "cookie_domain": "",
-                "cookie_domain_help": "",
+                "cookie_domain_help": "Hanya diperlukan jika berbeda dari domain Flarum",
                 "wordpress_login_path": "",
-                "wordpress_login_path_help": "",
+                "wordpress_login_path_help": "Hanya diperlukan jika Anda mengganti nama login endpoint secara manual atau melalui plugin",
                 "username_strategy": "",
                 "username_strategy_options": {
                     "user_login": "",
                     "first_name": "",
                     "random": ""
                 },
-                "username_strategy_help": "",
+                "username_strategy_help": "Nomor akan ditambahkan ke username jika sudah ada di Flarum",
                 "force_username_choice": "",
-                "force_username_choice_help": "",
+                "force_username_choice_help": "Nilai default akan diberikan dengan aturan yang dipilih di atas.",
                 "welcome_message": "",
-                "welcome_message_help": "",
+                "welcome_message_help": "Pesan ini akan ditampilkan saat pertama kali pengguna mengunjungi forum, bersama dengan pilihan username jika diaktifkan.",
                 "wordpress_login_only": "",
-                "wordpress_login_only_help": "",
-                "user_delete": "",
+                "wordpress_login_only_help": "Menonaktifkan login Flarum dan langsung membuka modal login WordPress ketika login diperlukan. Ini akan secara otomatis mengatur izin \"Daftar\" menjadi Ditutup.\n",
+                "user_delete": "Tindakan ketika pengguna dihapus di WordPress",
                 "user_delete_options": {
-                    "ignore": "",
-                    "delete": "",
-                    "suspend": ""
+                    "ignore": "Abaikan (pertahankan pengguna Flarum)",
+                    "delete": "Hapus pengguna Flarum",
+                    "suspend": "Tangguhkan pengguna Flarum tanpa batas waktu (Ekstensi Suspend harus diaktifkan)"
                 },
-                "user_delete_desc": "",
+                "user_delete_desc": "Jika Anda memilih \"hapus\", hanya pengguna yang akan dihapus, bukan konten mereka di Flarum.",
                 "section_comments_intro": "",
                 "enable_comments": "",
                 "excerpt_html_whitelist": "",
@@ -49,26 +49,26 @@
                 "summary_as_last_post_help": "",
                 "use_post_date": "",
                 "use_post_date_help": "",
-                "post_hide": "",
+                "post_hide": "Tindakan saat postingan WordPress disembunyikan (dibuang atau dipindahkan ke draft)",
                 "post_hide_options": {
-                    "ignore": "",
-                    "lock": "",
-                    "hide": "",
-                    "delete": ""
+                    "ignore": "Abaikan (mengunci diskusi sesuai dengan Izinkan Komentar)",
+                    "lock": "Kunci diskusi di Flarum",
+                    "hide": "Sembunyikan diskusi di Flarum",
+                    "delete": "Menghapus secara permanen diskusi dari Flarum"
                 },
-                "post_delete": "",
+                "post_delete": "Tindakan saat postingan WordPress dihapus secara permanen",
                 "post_delete_options": {
-                    "ignore": "",
-                    "lock": "",
-                    "hide": "",
-                    "delete": ""
+                    "ignore": "Abaikan (pertahankan diskusi Flarum dalam kondisi saat ini)",
+                    "lock": "Pertahankan dan kunci diskusi Flarum",
+                    "hide": "Sembunyikan diskusi di Flarum",
+                    "delete": "Menghapus secara permanen diskusi dari Flarum"
                 }
             },
             "tabs": {
                 "wizard": "",
-                "general": "",
-                "sso": "",
-                "comments": "",
+                "general": "Pengaturan Umum",
+                "sso": "Integrasi SSO",
+                "comments": "Integrasi Komentar",
                 "enabled": "Diaktifkan",
                 "disabled": "Dinonaktifkan"
             },
@@ -85,48 +85,48 @@
             "save-controls": {
                 "validation-errors": "",
                 "unsaved-changes": "Anda memiliki perubahan yang belum tersimpan",
-                "saved-at": "",
+                "saved-at": "Disimpan {ago}",
                 "no-unsaved-changes": "Semuanya disimpan",
                 "save": "Simpan"
             },
             "health": {
                 "title": "",
-                "check": "",
-                "errors": "",
-                "healthy": "",
+                "check": "Periksa sekarang",
+                "errors": "Kami menemukan beberapa masalah.",
+                "healthy": "Semuanya terlihat baik!",
                 "not-run": "",
                 "request-error": ""
             },
             "wizard": {
-                "intro": "",
+                "intro": "Terima kasih telah membeli ekstensi WordPress premium saya! Isi kredensial Anda di bawah ini untuk menghubungkan Flarum dan WordPress secara otomatis.\n",
                 "wordpress_url": "",
                 "wordpress_url_help": "",
                 "wordpress_username": "",
                 "wordpress_password": "",
-                "wordpress_password_help": "",
-                "install": ""
+                "wordpress_password_help": "Password hanya digunakan untuk konfigurasi awal dan tidak akan disimpan.",
+                "install": "Install"
             }
         },
         "forum": {
             "welcome-modal": {
-                "title": "",
-                "default_message": "",
-                "username": "",
-                "submit": "",
-                "not_now": ""
+                "title": "Selamat datang!",
+                "default_message": "Selamat datang di forum. Pilih username dan Anda siap untuk memulai!",
+                "username": "Pilih username",
+                "submit": "Aktifkan akun forum",
+                "not_now": "Lewati dan baca sebagai tamu untuk saat ini"
             },
             "edit-user-modal": {
-                "warning": "",
+                "warning": "Pengguna ini akan tetap tersinkronisasi dengan WordPress. Anda harus mengedit email dan password dari WordPress.\n",
                 "edit_in_wordpress": "",
                 "should_not_edit_email": "",
                 "unlink": "",
-                "unlink_help": ""
+                "unlink_help": "Jika email tersebut cocok dengan pengguna WordPress, maka email tersebut akan dihubungkan lagi pada saat pengguna tersebut terhubung di WordPress."
             },
             "settings": {
                 "edit_on_wordpress": ""
             },
             "log_in": {
-                "with_wordpress_button": ""
+                "with_wordpress_button": "Login dengan WordPress"
             },
             "summary-post": {
                 "head_label": "",
@@ -138,16 +138,16 @@
             },
             "embed-link-modal": {
                 "title": "",
-                "message": "",
+                "message": "Halaman ini mencoba mengalihkan Anda ke {href}",
                 "open": "Buka link"
             },
             "thumbnail_alt_fallback": ""
         },
         "api": {
             "blocked_actions": {
-                "login": "",
-                "password_reset": "",
-                "email_change": ""
+                "login": "Akun ini terhubung dengan WordPress. Gunakan formulir login situs web utama untuk terhubung.",
+                "password_reset": "Akun ini terhubung dengan WordPress. Gunakan formulir masuk situs web utama untuk mereset password Anda.",
+                "email_change": "Akun ini terhubung dengan WordPress. Gunakan halaman profil situs web utama untuk mengubah email Anda."
             },
             "health": {
                 "suspend-extension-required": "",
@@ -171,22 +171,22 @@
                 "api-key-mismatch": "",
                 "user-id-not-found": "",
                 "user-id-not-admin": "",
-                "sso-mismatch-flarum": "",
-                "sso-mismatch-wordpress": "",
+                "sso-mismatch-flarum": "Integrasi SSO diaktifkan di Flarum, tetapi tidak di WordPress",
+                "sso-mismatch-wordpress": "Integrasi SSO diaktifkan di WordPress, tetapi tidak di Flarum",
                 "cookie-domain-mismatch": "",
-                "comments-mismatch-flarum": "",
-                "comments-mismatch-wordpress": "",
+                "comments-mismatch-flarum": "Integrasi Komentar diaktifkan di Flarum, tetapi tidak di WordPress",
+                "comments-mismatch-wordpress": "Integrasi Komentar diaktifkan di WordPress, tetapi tidak di Flarum",
                 "api-error-json": "",
                 "api-error-401": "",
                 "api-error-other": ""
             },
             "wizard": {
                 "already_installed": "",
-                "api_unauthorized": "",
+                "api_unauthorized": "Kami tidak dapat mengautentikasi dengan kredensial yang diberikan. Periksa ulang URL, username, dan password. Periksa dokumentasi untuk mengetahui langkah-langkah pemecahan masalah lebih lanjut.\n",
                 "api_error_get": "",
                 "api_error_post": "",
                 "invalid_wordpress_url": "",
-                "plugin_not_installed": ""
+                "plugin_not_installed": "Plugin WordPress tampaknya tidak diinstal atau diaktifkan pada situs WordPress tersebut. Pastikan Anda telah menginstal setidaknya versi 1.2.0.\n"
             }
         },
         "views": {
