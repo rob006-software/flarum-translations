@@ -1,10 +1,10 @@
 {
     "cccyun-clogin-oauth": {
         "admin": {
-            "appurl_label": "",
+            "appurl_label": "URL API",
             "appurl_help": "Harus dimulai dengan http:// atau https:// dan diakhiri dengan /",
-            "appid_label": "",
-            "appkey_label": "",
+            "appid_label": "APPID",
+            "appkey_label": "APPKEY",
             "openqq_label": "Tampilkan QQ Login",
             "openwx_label": "Tampilkan WeChat Login",
             "opensina_label": "Tampilkan Weibo Login"
@@ -19,7 +19,7 @@
                 "link_success": "Third Account berhasil terhubung.",
                 "unlink_success": "Third Account berhasil dihapus.",
                 "error": "Ada yang tidak beres, silakan coba lagi nanti!",
-                "unlinked": ""
+                "unlinked": "Akun Ketiga (Third Account) tidak terhubung dengan akun situs ini, silakan mendaftar terlebih dahulu dan lalu terhubung."
             },
             "modals": {
                 "link_qq": "Hubungkan Akun QQ",
