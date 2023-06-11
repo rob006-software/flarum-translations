@@ -2,24 +2,24 @@
     "datlechin-more-discussions": {
         "admin": {
             "settings": {
-                "block_name_label": "",
-                "block_name_help": "",
-                "discussion_limit_label": "",
-                "discussion_limit_help": "",
-                "filter_by_label": "",
-                "filter_by_help": "",
+                "block_name_label": "Nama block",
+                "block_name_help": "Nama dari block (default Diskusi <code>Terkini</code>)",
+                "discussion_limit_label": "Batas diskusi",
+                "discussion_limit_help": "Jumlah diskusi yang akan ditampilkan (default <code>5</code>)",
+                "filter_by_label": "Filter berdasarkan",
+                "filter_by_help": "Memfilter diskusi (default: <code>terkini</code>)",
                 "filter_dropdown": {
-                    "latest": "",
-                    "top": "",
-                    "newest": "",
-                    "oldest": "",
+                    "latest": "=> core.forum.index_sort.latest_button",
+                    "top": "=> core.forum.index_sort.top_button",
+                    "newest": "=> core.forum.index_sort.newest_button",
+                    "oldest": "=> core.forum.index_sort.oldest_button",
                     "hot": "",
                     "votes": ""
                 }
             }
         },
         "forum": {
-            "block_default_name": ""
+            "block_default_name": "Diskusi Terkini"
         }
     }
 }
