@@ -2,20 +2,20 @@
     "clarkwinkelmann-readonly-profile": {
         "admin": {
             "settings": {
-                "disableLogin": "",
-                "disableAccessTokens": "",
-                "disableEmailChange": "",
-                "disablePasswordChange": "",
-                "disableAvatarEdit": ""
+                "disableLogin": "Nonaktifkan Login",
+                "disableAccessTokens": "Nonaktifkan Pembuatan Token Akses",
+                "disableEmailChange": "Nonaktifkan Perubahan Email",
+                "disablePasswordChange": "Nonaktifkan Perubahan dan Reset Password",
+                "disableAvatarEdit": "Nonaktifkan Edit Avatar"
             }
         },
         "api": {
             "blocked_actions": {
-                "login": "",
-                "accessToken": "",
-                "email": "",
-                "password": "",
-                "avatar": ""
+                "login": "Login endpoint dinonaktifkan",
+                "accessToken": "Pembuatan token akses dinonaktifkan",
+                "email": "Email tidak dapat diganti dari halaman ini",
+                "password": "Password tidak dapat diganti dari halaman ini",
+                "avatar": "Pengeditan avatar dinonaktifkan dari halaman ini"
             }
         }
     }
