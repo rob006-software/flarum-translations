@@ -2,53 +2,53 @@
     "clarkwinkelmann-money-rewards": {
         "admin": {
             "settings": {
-                "preselection": "",
-                "min": "",
-                "max": "",
-                "decimals": ""
+                "preselection": "Jumlah yang telah dipilih sebelumnya (dipisahkan dengan koma, opsional)",
+                "min": "Nilai minimum untuk jumlah khusus",
+                "max": "Nilai maksimum untuk jumlah khusus",
+                "decimals": "Jumlah desimal maksimum untuk jumlah khusus"
             },
             "permissions": {
-                "seeMoneyRewardHistory": "",
-                "rewardWithMoney": "",
-                "customAmounts": "",
-                "createMoney": ""
+                "seeMoneyRewardHistory": "Melihat history hadiah dari pengguna lain",
+                "rewardWithMoney": "Memberikan reward kepada pengguna lain dengan money",
+                "customAmounts": "Menentukan jumlah khusus untuk reward",
+                "createMoney": "Membuat money baru dalam bentuk reward"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "target": "",
-                "optionCustom": "",
-                "balance": "",
+                "title": "Reward post",
+                "target": "Reward post #{number} oleh {username}",
+                "optionCustom": "Khusus",
+                "balance": "Saldo Anda: {amount}",
                 "label": {
-                    "custom": "",
-                    "create": "",
-                    "comment": ""
+                    "custom": "Jumlah khusus",
+                    "create": "Buat uang alih-alih mengurangi saldo Saya",
+                    "comment": "Komentar (publik)"
                 },
-                "submit": "",
-                "success": ""
+                "submit": "Kirim",
+                "success": "Reward telah dikirimkan ke penulis post!"
             },
             "profile": {
-                "nav": "",
-                "title": ""
+                "nav": "Reward",
+                "title": "Reward"
             },
             "post": {
-                "action": "",
-                "disallowedOwn": "",
-                "disallowedOther": "",
-                "section": ""
+                "action": "Reward",
+                "disallowedOwn": "Anda tidak dapat memberikan reward kepada postingan Anda sendiri.",
+                "disallowedOther": "Anda tidak dapat memberikan reward pada postingan ini. Alasan yang paling mungkin adalah karena penulisnya anonim atau telah menghapus akun mereka.",
+                "section": "Reward"
             },
             "record": {
-                "from": "",
-                "to": "",
-                "post": "",
-                "comment": ""
+                "from": "dari",
+                "to": "ke",
+                "post": "untuk <a>post #{number}</a> dalam diskusi \"{title}\"",
+                "comment": "Komentar:"
             }
         },
         "api": {
             "error": {
-                "decimals": "",
-                "notEnoughFunds": ""
+                "decimals": "Jumlahnya dibatasi hingga {decimals} desimal.",
+                "notEnoughFunds": "Dana tidak cukup."
             }
         }
     }
