@@ -2,41 +2,41 @@
     "nearata-cloudflare": {
         "admin": {
             "development_mode_widget": {
-                "title": ""
+                "title": "Mode Cloudflare Development aktif"
             },
             "settings": {
-                "api_key": "",
-                "api_key_help": "",
-                "refresh_zone_button_label": "",
-                "refresh_zone_help": "",
-                "security_level_label": "",
+                "api_key": "API Key",
+                "api_key_help": "Ikuti panduan <strong><url>Membuat API Token</url></strong> untuk membuat API Token.",
+                "refresh_zone_button_label": "Refresh Zone ID",
+                "refresh_zone_help": "Klik tombol di atas <strong>hanya</strong> jika nama domain telah berubah.",
+                "security_level_label": "Tingkat Keamanan",
                 "security_level_options": {
-                    "off": "",
-                    "essentially_off": "",
-                    "low": "",
-                    "medium": "",
-                    "high": "",
-                    "under_attack": ""
+                    "off": "Mati",
+                    "essentially_off": "Pada dasarnya tidak aktif",
+                    "low": "Rendah",
+                    "medium": "Sedang",
+                    "high": "Tinggi",
+                    "under_attack": "Dalam Serangan"
                 },
                 "minify_setting": {
-                    "section_title": "",
-                    "css": "",
-                    "css_help": "",
-                    "html": "",
-                    "html_help": "",
-                    "js": "",
-                    "js_help": ""
+                    "section_title": "Pengaturan Minify",
+                    "css": "Minify CSS",
+                    "css_help": "Secara otomatis mengecilkan semua file CSS untuk situs web Anda.",
+                    "html": "Minify HTML",
+                    "html_help": "Secara otomatis mengecilkan semua file HTML untuk situs web Anda.",
+                    "js": "Minify JS",
+                    "js_help": "Secara otomatis mengecilkan semua file JavaScript untuk situs web Anda."
                 },
                 "r2": {
-                    "section_title": "",
-                    "bucket_name": "",
-                    "access_key_id": "",
-                    "access_key_secret": "",
-                    "public_domain": "",
-                    "s3_api": ""
+                    "section_title": "R2",
+                    "bucket_name": "Nama Bucket",
+                    "access_key_id": "Access Key ID",
+                    "access_key_secret": "Access Key Secret",
+                    "public_domain": "Domain Publik",
+                    "s3_api": "S3 API"
                 },
-                "refer_to": "",
-                "confirm_text": ""
+                "refer_to": "Lihat <strong><url>halaman ini</url></strong> untuk informasi lebih lanjut.",
+                "confirm_text": "Apakah Anda yakin?"
             }
         }
     }
