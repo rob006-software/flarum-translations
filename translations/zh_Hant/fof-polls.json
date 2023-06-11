@@ -18,7 +18,7 @@
             "no_permission": "您沒有投票權限",
             "poll_ended": "該投票已結束。",
             "public_poll": "查看投票人",
-            "max_votes_allowed": "",
+            "max_votes_allowed": "允許投票給 {max, plural, one {# option} other {# options}}。",
             "composer_discussion": {
                 "add_poll": "新增投票",
                 "edit_poll": "編輯投票"
@@ -36,9 +36,9 @@
                 "image_option_placeholder": "圖面連結(可選)",
                 "options_label": "選項",
                 "public_poll_label": "允許用戶查看投票人",
-                "allow_multiple_votes_label": "",
-                "max_votes_label": "",
-                "max_votes_help": "",
+                "allow_multiple_votes_label": "允許選擇多個選項",
+                "max_votes_label": "每個用戶的最大投票數",
+                "max_votes_help": "設置為 0 以允許用戶對所有選項進行投票。",
                 "question_placeholder": "問題",
                 "submit": "提交"
             },
