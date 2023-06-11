@@ -283,7 +283,7 @@
                 },
                 "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
-                "total_users": "Total user: {count}"
+                "total_users": "Total pengguna: {count}"
             }
         },
         "forum": {
@@ -312,7 +312,7 @@
                 "discard_confirmation": "Anda belum memposting diskusi Anda. Apakah Anda ingin membuangnya?",
                 "submit_button": "Post",
                 "title": "=> core.ref.start_a_discussion",
-                "title_placeholder": "Judul"
+                "title_placeholder": "Judul Diskusi"
             },
             "composer_edit": {
                 "discard_confirmation": "Anda belum menyimpan perubahan Anda. Apakah Anda ingin membuangnya?",
@@ -367,7 +367,7 @@
                 "search_clear_button_accessible_label": "Hapus kueri penelusuran",
                 "search_placeholder": "Cari",
                 "search_role_label": "Cari",
-                "session_dropdown_accessible_label": "Toggle session options dropdown menu",
+                "session_dropdown_accessible_label": "",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -377,7 +377,7 @@
                 "mark_all_as_read_confirmation": "Anda yakin ingin menandai semua diskusi sebagai telah dibaca?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "Refresh",
+                "refresh_tooltip": "",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "toggle_sidenav_dropdown_accessible_label": ""
             },
@@ -422,7 +422,7 @@
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "Anda yakin ingin menghapus post ini?",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": "Toggle post controls dropdown menu"
+                "toggle_dropdown_accessible_label": ""
             },
             "post_scrubber": {
                 "now_link": "Saat ini",
@@ -435,7 +435,7 @@
                 "discussion_renamed_text": "{username} mengganti judul jadi {new} {time}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
-                "time_lapsed_text": "{period} later"
+                "time_lapsed_text": "{period} kemudian"
             },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
@@ -489,7 +489,7 @@
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
-                "notify_discussion_renamed_label": "Seseorang mengganti judul diskusi yang Saya buat",
+                "notify_discussion_renamed_label": "Seseorang mengganti nama diskusi yang Saya buat",
                 "privacy_disclose_online_label": "Izinkan orang lain melihat saat Saya sedang online",
                 "privacy_heading": "Privasi",
                 "title": "=> core.ref.settings"
@@ -545,7 +545,7 @@
                 "hidden_tooltip": "Disembunyikan"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": "Ganti menu dropdown"
+                "toggle_dropdown_accessible_label": ""
             },
             "data_segment": {
                 "label": "{label}:"
@@ -585,7 +585,7 @@
                 "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Halaman # - {forumName}}}"
             },
             "modal": {
-                "close": "Close"
+                "close": "Tutup"
             },
             "nav": {
                 "drawer_button": "Buka Navigation Drawer"
@@ -596,11 +596,11 @@
             },
             "series": {
                 "glue_text": ", ",
-                "three_text": "{first}, {second}, and {third}",
-                "two_text": "{first} and {second}"
+                "three_text": "{first}, {second}, dan {third}",
+                "two_text": "{first} dan {second}"
             },
             "username": {
-                "deleted_text": "[deleted]"
+                "deleted_text": "[dihapus]"
             }
         },
         "views": {
@@ -615,13 +615,13 @@
                     "version": "Versi"
                 },
                 "info": {
-                    "caption": "Application Info"
+                    "caption": "Info Aplikasi"
                 },
-                "title": "Administration"
+                "title": "Administrasi"
             },
             "confirm_email": {
                 "submit_button": "=> core.ref.confirm_email",
-                "text": "Klik tombol di bawah untuk mengonfirmasi email akun Anda.",
+                "text": "Klik tombol di bawah ini untuk mengonfirmasi email akun Anda.",
                 "title": "=> core.ref.confirm_email"
             },
             "content": {
@@ -635,8 +635,8 @@
             },
             "error": {
                 "csrf_token_mismatch": "Anda sudah terlalu lama tidak aktif.",
-                "csrf_token_mismatch_return_link": "Kembalilah, untuk mencoba lagi",
-                "invalid_confirmation_token": "Link konfirmasi ini sudah digunakan atau tidak valid.",
+                "csrf_token_mismatch_return_link": "Kembali, untuk mencoba lagi",
+                "invalid_confirmation_token": "Link konfirmasi ini sudah pernah digunakan atau tidak valid.",
                 "not_authenticated": "Anda tidak memiliki izin untuk mengakses halaman ini. Coba lagi setelah Anda login.",
                 "not_found": "Halaman yang Anda minta tidak dapat ditemukan.",
                 "not_found_return_link": "Kembali ke {forum}",
@@ -695,9 +695,9 @@
             "confirm_email": "Konfirmasi Email",
             "confirmation_email_sent": "Kami telah mengirimkan email konfirmasi ke {email}. Jika email tidak segera masuk, periksa folder spam Anda.",
             "custom_footer_text": "Tambahkan HTML untuk ditampilkan di bagian paling bawah halaman.",
-            "custom_footer_title": "Edit Custom Footer",
-            "custom_header_text": "Tambahkan HTML untuk ditampilkan di bagian paling atas halaman, di atas header.",
-            "custom_header_title": "Edit Custom Header",
+            "custom_footer_title": "",
+            "custom_header_text": "Tambahkan HTML untuk ditampilkan di bagian paling atas halaman, di atas header Flarum.",
+            "custom_header_title": "",
             "delete": "Hapus",
             "delete_forever": "Hapus Permanen",
             "discussions": "Diskusi",
@@ -731,11 +731,11 @@
             "security": "Keamanan",
             "settings": "Pengaturan",
             "sign_up": "Daftar",
-            "some_others": "{count, plural, one {# other} other {# others}}",
+            "some_others": "{count, plural, one {# lainnya} other {# lainnya}}",
             "start_a_discussion": "Memulai Diskusi",
             "username": "Username",
             "users": "User",
-            "view": "View",
+            "view": "",
             "write_a_reply": "Tulis Balasan...",
             "you": "Anda"
         },
