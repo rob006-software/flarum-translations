@@ -3,40 +3,40 @@
         "admin": {
             "settings": {
                 "proxy": {
-                    "title": "",
-                    "helptext": ""
+                    "title": "Proxy gravatar",
+                    "helptext": "Secara default, URL gravatar diambil langsung dari gravatar.com. Hal ini memungkinkan semua permintaan gravatar dilayani secara langsung oleh forum itu sendiri."
                 },
                 "replace-flarum-custom": {
-                    "title": "",
-                    "helptext": ""
+                    "title": "Ganti avatar yang diupload ke Forum",
+                    "helptext": "Mengganti avatar yang telah diupload ke forum dengan Gravatar"
                 },
                 "defaults": {
-                    "title": "",
-                    "helptext": "",
-                    "mp_label": "",
-                    "identicon_label": "",
-                    "monsterid_label": "",
-                    "wavatar_label": "",
-                    "retro_label": "",
-                    "robohash_label": ""
+                    "title": "Default",
+                    "helptext": "Apa yang terjadi jika alamat email tidak memiliki gambar Gravatar yang cocok? Gravatar memiliki sejumlah opsi bawaan yang dapat Anda gunakan sebagai default. Sebagian besar opsi ini bekerja dengan mengambil hash email yang diminta dan menggunakannya untuk menghasilkan gambar bertema yang unik untuk alamat email tersebut.",
+                    "mp_label": "mp: (mystery-person) garis besar siluet seseorang yang sederhana dan bergaya kartun (tidak berbeda berdasarkan hash email)",
+                    "identicon_label": "identicon: pola geometris berdasarkan hash email",
+                    "monsterid_label": "monsterid: 'monster' yang dihasilkan dengan berbagai warna, wajah, dll",
+                    "wavatar_label": "wavatar: wajah yang dihasilkan dengan fitur dan latar belakang yang berbeda",
+                    "retro_label": "retro: wajah piksel bergaya arcade 8-bit yang mengagumkan dan dibuat dengan gaya arcade",
+                    "robohash_label": "robohash: robot yang dihasilkan dengan berbagai warna, wajah, dll"
                 },
                 "rating": {
-                    "title": "",
-                    "helptext": "",
-                    "g_label": "",
-                    "pg_label": "",
-                    "r_label": "",
-                    "x_label": ""
+                    "title": "Rating",
+                    "helptext": "Gravatar memungkinkan pengguna untuk memberikan rating sendiri pada gambar mereka sehingga mereka dapat menunjukkan apakah sebuah gambar sesuai untuk audiens tertentu. Secara default, hanya gambar dengan rating 'G' yang ditampilkan kecuali jika Anda mengindikasikan bahwa Anda ingin melihat rating yang lebih tinggi. Anda dapat menentukan salah satu dari rating berikut ini untuk meminta gambar hingga dan termasuk rating tersebut.",
+                    "g_label": "g: cocok untuk ditampilkan di semua situs web dengan semua jenis audiens",
+                    "pg_label": "pg: mungkin mengandung gerakan kasar, individu yang berpakaian provokatif, kata umpatan, atau kekerasan ringan",
+                    "r_label": "r: mungkin mengandung kata-kata kotor, kekerasan, ketelanjangan, atau penggunaan obat-obatan terlarang",
+                    "x_label": "x: mungkin mengandung gambar seksual atau kekerasan"
                 },
                 "force-default": {
-                    "title": "",
-                    "helptext": ""
+                    "title": "Paksa default",
+                    "helptext": "Memaksakan penggunaan set default, meskipun link hash email terhubung ke avatar yang di-upload oleh user"
                 }
             }
         },
         "forum": {
             "settings": {
-                "edit-gravatar": ""
+                "edit-gravatar": "Kelola avatar di gravatar.com"
             }
         }
     }
