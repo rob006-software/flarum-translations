@@ -2,52 +2,52 @@
     "clarkwinkelmann-featured-discussions": {
         "admin": {
             "settings": {
-                "schedule": "",
-                "duration": "",
-                "eventPost": ""
+                "schedule": "Jadwalkan (sintaks CRON)",
+                "duration": "Durasi default (detik)",
+                "eventPost": "Buat event post ketika jadwal diubah"
             },
             "permissions": {
-                "feature": ""
+                "feature": "Mengelola diskusi unggulan"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
+                "title": "Mengunggulkan diskusi",
                 "fields": {
-                    "from": "",
-                    "until": ""
+                    "from": "Dari",
+                    "until": "Hingga"
                 },
                 "from": {
-                    "not": "",
-                    "next": "",
-                    "manual": ""
+                    "not": "Tidak diunggulkan",
+                    "next": "Slot selanjutnya",
+                    "manual": "Tanggal manual"
                 },
                 "until": {
-                    "auto": "",
-                    "manual": ""
+                    "auto": "Otomatis",
+                    "manual": "Tanggal manual"
                 },
                 "action": {
-                    "cancel": "",
-                    "submit": ""
+                    "cancel": "Batal",
+                    "submit": "Kirim"
                 }
             },
             "controls": {
-                "feature": ""
+                "feature": "Unggulkan diskusi"
             },
-            "badge": "",
+            "badge": "Diunggulkan",
             "nav": {
-                "schedule": ""
+                "schedule": "Jadwal unggulan"
             },
             "schedule": {
-                "help": "",
-                "drop-here": "",
-                "drop-error": "",
-                "empty": "",
-                "custom": ""
+                "help": "Seret dan letakkan diskusi di halaman atau dari jendela lain untuk mengubah jadwalnya. Untuk menghapus jadwal, gunakan menu 3-titik.\n",
+                "drop-here": "Letakkan di sini untuk menjadwalkan",
+                "drop-error": "Link diskusi tidak valid",
+                "empty": "Tidak ada diskusi",
+                "custom": "Khusus"
             },
             "post": {
-                "scheduled": "",
-                "unscheduled": "",
+                "scheduled": "Dijadwalkan untuk diunggulkan dari {from} hingga {until}",
+                "unscheduled": "Tidak lagi yang dijadwalkan untuk diunggulkan",
                 "auto": ""
             }
         }
