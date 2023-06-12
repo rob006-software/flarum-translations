@@ -6,17 +6,17 @@
             "milestone": "",
             "default_filter": "",
             "closed": "=> sycho-github-milestone.ref.closed",
-            "open": "",
-            "all": ""
+            "open": "=> sycho-github-milestone.ref.open",
+            "all": "=> sycho-github-milestone.ref.all"
         },
         "forum": {
             "title": "",
             "last_updated": "",
-            "closed": "",
-            "open": "",
-            "all": "",
+            "closed": "=> sycho-github-milestone.ref.closed",
+            "open": "=> sycho-github-milestone.ref.open",
+            "all": "=> sycho-github-milestone.ref.all",
             "complete": "",
-            "load_more": "",
+            "load_more": "=> core.forum.discussion_list.load_more_button",
             "tasks_done": ""
         },
         "ref": {
