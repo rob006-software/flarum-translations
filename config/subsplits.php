@@ -174,8 +174,7 @@ return [
 		'maintainers' => [], // ['DeliciousDanny', 'davwheat'], see https://github.com/flarum-lang/danish/pull/1#issuecomment-1311822729
 	],
 	'de' => [
-		'type' => 'language',
-		'language' => 'de',
+		'type' => 'multi-language',
 		'repository' => 'git@github.com:flarum-lang/german.git',
 		'branch' => 'master',
 		'path' => '/locale',
@@ -184,6 +183,18 @@ return [
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
 		'maintainers' => ['Kakifrucht'],
+		'variants' => [
+			'informal' => [
+				'name' => 'Standard',
+				'language' => 'de',
+				'path' => '/locale/informal',
+			],
+			'formal' => [
+				'name' => 'Formell',
+				'language' => 'de@formal',
+				'path' => '/locale/formal',
+			],
+		],
 	],
 	'el' => [
 		'type' => 'language',
