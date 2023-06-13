@@ -2,8 +2,8 @@
     "clarkwinkelmann-discussion-open-position": {
         "admin": {
             "settings": {
-                "defaultOpenLastRead": "",
-                "suggestFirstTime": "",
+                "defaultOpenLastRead": "Diskusi terbuka saat post terakhir dibaca secara default",
+                "suggestFirstTime": "Tampilkan permintaan kepada pengguna untuk mengubah pengaturan saat pertama kali mereka membuka diskusi",
                 "openLastOptions": {
                     "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
                     "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
@@ -13,16 +13,16 @@
         },
         "forum": {
             "firstTimePrompt": {
-                "fromAlways": "",
-                "fromNever": "",
+                "fromAlways": "Link diskusi mengarah ke postingan yang terakhir Anda baca",
+                "fromNever": "Link diskusi membuka post pertama",
                 "openLastOptions": {
-                    "always": "",
-                    "never": ""
+                    "always": "Selalu buka di post terakhir yang Saya baca sebagai gantinya",
+                    "never": "Selalu buka di post pertama sebagai gantinya"
                 },
-                "more": ""
+                "more": "Opsi lainnya"
             },
             "preferences": {
-                "discussionOpenLastRead": "",
+                "discussionOpenLastRead": "Daftar Diskusi",
                 "openLastOptions": {
                     "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
                     "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
@@ -32,9 +32,9 @@
         },
         "ref": {
             "openLastOptions": {
-                "always": "",
-                "unread": "",
-                "never": ""
+                "always": "Selalu buka diskusi di post yang terakhir dibaca",
+                "unread": "Hanya membuka diskusi pada post yang terakhir dibaca jika ada balasan baru",
+                "never": "Selalu buka diskusi pada post pertama"
             }
         }
     }
