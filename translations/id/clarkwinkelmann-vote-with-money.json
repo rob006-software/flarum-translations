@@ -2,35 +2,35 @@
     "clarkwinkelmann-vote-with-money": {
         "admin": {
             "settings": {
-                "preselection": "",
-                "min": "",
-                "max": ""
+                "preselection": "Jumlah yang telah dipilih sebelumnya (dipisahkan dengan koma, opsional)",
+                "min": "Nilai minimal",
+                "max": "Nilai maksimal"
             }
         },
         "forum": {
             "vote": {
-                "title": "",
-                "target": "",
-                "optionCustom": "",
-                "balance": "",
+                "title": "Konfirmasi vote",
+                "target": "Konfirmasikan janji Anda untuk pilihan vote \"{answer}\". Anda tidak akan dapat mengubah pilihan Anda nanti.\n",
+                "optionCustom": "Khusus",
+                "balance": "Saldo Anda: {amount}",
                 "label": {
-                    "custom": ""
+                    "custom": "Jumlah khusus"
                 },
-                "submit": "",
-                "success": ""
+                "submit": "Kirim",
+                "success": "Vote telah terkumpul!"
             },
             "poll": {
-                "voteWithMoney": "",
-                "min": "",
-                "max": ""
+                "voteWithMoney": "Vote dengan money",
+                "min": "Janji minimum (opsional)",
+                "max": "Jaminan maksimum (opsional)"
             }
         },
         "api": {
             "error": {
-                "cannotCancel": "",
-                "cannotChange": "",
-                "notEnoughFunds": "",
-                "cannotChangePollType": ""
+                "cannotCancel": "Tidak dapat membatalkan vote.",
+                "cannotChange": "Tidak dapat mengubah vote.",
+                "notEnoughFunds": "Dana tidak cukup.",
+                "cannotChangePollType": "Tidak dapat mengubah jenis polling setelah menerima vote."
             }
         }
     }
