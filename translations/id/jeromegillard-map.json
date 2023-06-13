@@ -2,45 +2,45 @@
     "jeromegillard-map": {
         "admin": {
             "templates": {
-                "map": "",
-                "file_description": ""
+                "map": "Map",
+                "file_description": "Menampilkan map di Flarum. File asli akan tersedia untuk di-download. Penyedia tile dan style akan ditentukan dalam pengaturan ekstensi. <b>Anda harus memiliki flarum/bbcode yang terinstal dan diaktifkan agar dapat berfungsi</b>."
             },
             "settings": {
                 "tiles_provider": {
-                    "label": "",
-                    "help": ""
+                    "label": "Penyedia tile layer default",
+                    "help": "Pilih penyedia tile layer yang muncul di latar belakang"
                 },
                 "zoom": {
-                    "label": "",
-                    "help": ""
+                    "label": "Level zoom default",
+                    "help": "Setiap bilangan bulat dari 0 sampai 18."
                 },
                 "style": {
-                    "label": "",
-                    "help": ""
+                    "label": "Style default untuk {provider}",
+                    "help": "Pilih style untuk tampilan map. <a>Lihatlah style mereka</a>."
                 },
                 "maptiler": {
-                    "label": "",
-                    "help": ""
+                    "label": "Token MapTiler",
+                    "help": "Daftar secara gratis di <a>maptiler.com</a> untuk mendapatkan token. Mohon hargai <b>hak cipta</b> mereka."
                 },
                 "osm": {
-                    "help": ""
+                    "help": "OpenStreetMap tile dapat digunakan untuk memprogram map Anda, tetapi bacalah <a>Tile Usage Policy</a> dari OpenStreetMap jika Anda akan menggunakan tile dalam produksi."
                 },
                 "mapbox": {
-                    "label": "",
-                    "help": ""
+                    "label": "Mapbox key",
+                    "help": "Daftar secara gratis di <a>mapbox.com</a> untuk mendapatkan token. Mohon hormati <b>hak cipta</b> mereka."
                 },
                 "thunderforest": {
-                    "label": "",
-                    "help": ""
+                    "label": "Thunderforest API key",
+                    "help": "Daftar secara gratis di <a>thunderforest.com</a> untuk mendapatkan kunci API. Harap hormati <b>ketentuan penggunaan</b> mereka."
                 }
             }
         },
         "forum": {
             "text_editor": {
-                "bbcode_tooltip": "",
-                "location_placeholder": "",
-                "marker_title_placeholder": "",
-                "marker_description_placeholder": ""
+                "bbcode_tooltip": "masukkan peta",
+                "location_placeholder": "DIMANA",
+                "marker_title_placeholder": "Judul penanda",
+                "marker_description_placeholder": "Konten pop-up penanda. Biarkan judul dan deskripsi kosong untuk menyembunyikan penanda."
             }
         }
     }
