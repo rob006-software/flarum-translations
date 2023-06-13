@@ -2,25 +2,25 @@
     "serakoi-flarumstaffbadge": {
         "admin": {
             "staffBadge": {
-                "label": "",
-                "help": ""
+                "label": "Teks Badge Staf",
+                "help": "Teks Badge Staf (Default-nya adalah 'STAFF')"
             },
             "staffBadgeTextColor": {
-                "label": "",
-                "help": ""
+                "label": "Warna Badge Staf",
+                "help": "Warna Badge (Default-nya adalah '#fff')"
             },
             "staffBadgeTextBg": {
-                "label": "",
-                "help": ""
+                "label": "Warna Background Badge Staf",
+                "help": "Warna Badge (Default-nya 'rgb(70, 209, 96)')"
             }
         },
         "forum": {
             "edit_user": {
-                "heading": "",
-                "placeholder": "",
+                "heading": "Badge Staf Diaktifkan",
+                "placeholder": "Atur input ke 'true' untuk mengaktifkan badge",
                 "tagList": {
-                    "heading": "",
-                    "placeholder": ""
+                    "heading": "Daftar tag pengguna",
+                    "placeholder": "Pisahkan dengan ,"
                 }
             }
         }
