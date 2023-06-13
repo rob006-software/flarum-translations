@@ -1,28 +1,28 @@
 {
     "sycho-github-milestone": {
         "admin": {
-            "repository": "",
-            "repository_example": "",
-            "milestone": "",
-            "default_filter": "",
+            "repository": "Repositori GitHub",
+            "repository_example": "contoh: flarum/core",
+            "milestone": "ID Milestone",
+            "default_filter": "Filter Default",
             "closed": "=> sycho-github-milestone.ref.closed",
             "open": "=> sycho-github-milestone.ref.open",
             "all": "=> sycho-github-milestone.ref.all"
         },
         "forum": {
-            "title": "",
-            "last_updated": "",
+            "title": "Milestone",
+            "last_updated": "Terakhir diperbarui {time}",
             "closed": "=> sycho-github-milestone.ref.closed",
             "open": "=> sycho-github-milestone.ref.open",
             "all": "=> sycho-github-milestone.ref.all",
-            "complete": "",
+            "complete": "{progress} Selesai",
             "load_more": "=> core.forum.discussion_list.load_more_button",
-            "tasks_done": ""
+            "tasks_done": "{number} dari {total}"
         },
         "ref": {
-            "closed": "",
-            "open": "",
-            "all": ""
+            "closed": "Ditutup",
+            "open": "Buka",
+            "all": "Semua"
         }
     }
 }
