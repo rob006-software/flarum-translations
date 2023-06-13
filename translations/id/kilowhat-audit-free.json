@@ -36,7 +36,7 @@
                 "noValue": "(tidak ada nilai)",
                 "noReason": "(tidak ada alasan)",
                 "client": {
-                    "session": "",
+                    "session": "Sesi web",
                     "api_key": "API key",
                     "access_token": "Access token",
                     "cli": "Command line",
@@ -75,8 +75,8 @@
                     "enabled": "Ekstensi {package} diaktifkan"
                 },
                 "fof_ban_ips": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "IP yang dicekal {ip}",
+                    "unbanned": "IP yang tidak dicekal {ip}"
                 },
                 "permission_changed": "Mengedit perizinan {permission} dari {old_groups} ke {new_groups}",
                 "post": {
