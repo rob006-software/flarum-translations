@@ -2,88 +2,88 @@
     "datitisev-backup": {
         "admin": {
             "adapters": {
-                "local": "",
-                "aliyun": "",
-                "azure": "",
-                "aws": "",
-                "dospaces": "",
-                "dropbox": "",
-                "gdrive": "",
-                "ftp": "",
-                "gridfs": "",
-                "rackspace": "",
-                "sftp": "",
-                "webdav": "",
-                "zip": ""
+                "local": "Penyimpanan lokal",
+                "aliyun": "Alibaba Cloud (Aliyun)",
+                "azure": "Microsoft Azure",
+                "aws": "Amazon AWS S3",
+                "dospaces": "Digital Ocean Spaces",
+                "dropbox": "Dropbox",
+                "gdrive": "Google Drive",
+                "ftp": "FTP",
+                "gridfs": "GridFS",
+                "rackspace": "Rackspace",
+                "sftp": "SFTP",
+                "webdav": "Webdav",
+                "zip": "Arsip Zip"
             },
-            "settings_button": "",
+            "settings_button": "Mengkonfigurasi",
             "required_package_button": "",
             "you-need-for": {
-                "aliyun": "",
-                "azure": "",
-                "aws": "",
-                "copy": "",
-                "dospaces": "",
-                "dropbox": "",
-                "gdrive": "",
-                "gridfs": "",
-                "rackspace": "",
-                "sftp": "",
-                "webdav": ""
+                "aliyun": "aliyuncs/aliyun-oss-flysystem",
+                "azure": "league/flysystem-azure",
+                "aws": "league/flysystem-aws-s3-v3",
+                "copy": "league/flysystem-copy",
+                "dospaces": "league/flysystem-aws-s3-v3",
+                "dropbox": "spatie/flysystem-dropbox",
+                "gdrive": "nao-pon/flysystem-google-drive",
+                "gridfs": "league/flysystem-gridfs",
+                "rackspace": "league/flysystem-rackspace",
+                "sftp": "league/flysystem-sftp",
+                "webdav": "league/flysystem-webdav"
             },
             "required-package-modal": {
-                "title": "",
-                "content": ""
+                "title": "Sebuah paket diperlukan untuk {adapter}",
+                "content": "Untuk menggunakan driver ini, Anda harus menginstal paket tertentu. Anda dapat melakukannya dengan menjalankan perintah composer berikut ini: <code>composer require {package}</code> pada direktori instalasi Flarum Anda.\n"
             },
             "adapter-settings-modal": {
-                "title": "",
+                "title": "Mengkonfigurasi {adapter}",
                 "local": {
                     "target": {
-                        "label": "",
-                        "description": ""
+                        "label": "Target path",
+                        "description": "Tentukan direktori lokal untuk menyimpan backup."
                     }
                 },
                 "aliyun": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Endpoint",
+                        "description": "URL ke storage endpoint Anda."
                     },
                     "access-id": {
-                        "label": "",
-                        "description": ""
+                        "label": "ID Akses",
+                        "description": "ID token akses autentikasi Anda"
                     },
                     "access-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Kunci Akses",
+                        "description": "Kunci token akses autentikasi Anda"
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Bucket",
+                        "description": "Storage bucket yang akan digunakan."
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Path prefix",
+                        "description": "Path prefix default opsional untuk file."
                     }
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Endpoint",
+                        "description": "URL ke storage endpoint Anda."
                     },
                     "container": {
-                        "label": "",
-                        "description": ""
+                        "label": "Container",
+                        "description": "Azure container"
                     }
                 },
                 "aws": {
                     "credentials": {
                         "key": {
-                            "label": "",
-                            "description": ""
+                            "label": "Key",
+                            "description": "AWS credentials key"
                         },
                         "secret": {
-                            "label": "",
-                            "description": ""
+                            "label": "Secret",
+                            "description": "AWS credentials secret"
                         }
                     },
                     "region": {
@@ -91,42 +91,42 @@
                         "description": ""
                     },
                     "version": {
-                        "label": "",
-                        "description": ""
+                        "label": "Versi",
+                        "description": "Menentukan versi atau biarkan kosong untuk yang terbaru."
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Bucket",
+                        "description": "S3 bucket untuk meng-upload."
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Path prefix",
+                        "description": "Path prefix default opsional untuk file."
                     }
                 },
                 "dropbox": {
                     "key": {
-                        "label": ""
+                        "label": "App Key"
                     },
                     "secret": {
-                        "label": ""
+                        "label": "App Secret"
                     },
                     "refresh-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Refresh Token",
+                        "description": "Gunakan kolom di bawah ini untuk mendapatkan refresh token atau secara manual mengikuti petunjuk di https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually."
                     },
                     "help": {
-                        "obtain-access-code-label": "",
-                        "obtain-access-code-button": "",
-                        "obtain-refresh-token-label": "",
-                        "obtain-refresh-token-button": "",
-                        "obtain-refresh-token-success": ""
+                        "obtain-access-code-label": "Dapatkan kode akses (memerlukan app key)",
+                        "obtain-access-code-button": "Buka Dropbox",
+                        "obtain-refresh-token-label": "Gunakan kode akses untuk mendapatkan refresh token (membutuhkan app key & secret)",
+                        "obtain-refresh-token-button": "Gunakan kode",
+                        "obtain-refresh-token-success": "Refresh token yang diperoleh dengan sukses & diperbarui di atas! Simpan perubahan untuk menyimpannya."
                     }
                 },
                 "gdrive": {
                     "client": {
                         "id": {
                             "label": "",
-                            "description": ""
+                            "description": "Ikuti petunjuk di @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md untuk membuat Google project dan mengambil Client ID & Client Secret Anda.\n"
                         },
                         "secret": {
                             "label": "",
@@ -134,56 +134,56 @@
                         }
                     },
                     "refresh-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Refresh Token",
+                        "description": "Ikuti petunjuk di @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md untuk mengambil refresh token untuk aplikasi Google oAuth Anda.\n"
                     },
                     "folder": {
-                        "label": "",
-                        "description": ""
+                        "label": "ID Folder",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
                     }
                 },
                 "ftp": {
                     "host": {
-                        "label": "",
-                        "description": ""
+                        "label": "Remote hostname",
+                        "description": "Nama host yang akan disambungkan dengan FTP, misalnya: <em>ftp.yourdomain.local</em>."
                     },
                     "username": {
-                        "label": "",
-                        "description": ""
+                        "label": "Username",
+                        "description": "Username untuk mengautentikasi pada server FTP."
                     },
                     "password": {
-                        "label": "",
-                        "description": ""
+                        "label": "Password",
+                        "description": "Password pengguna untuk mengautentikasi pada server FTP."
                     },
                     "private-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Private Key",
+                        "description": "Path (sebaiknya yang absolut) ke private key untuk digunakan saat mengautentikasi koneksi FTP."
                     },
                     "port": {
-                        "label": "",
-                        "description": ""
+                        "label": "Port",
+                        "description": "Port FTP (standarnya adalah 21)."
                     },
                     "root": {
-                        "label": "",
-                        "description": ""
+                        "label": "Root path",
+                        "description": "Root path (subdirektori) jarak jauh untuk menyimpan backup."
                     },
                     "passive": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "Koneksi pasif",
+                        "description": "Apakah akan menggunakan koneksi FTP pasif ke server."
                     },
                     "ssl": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "SSL",
+                        "description": "Apakah akan menggunakan koneksi SSL terenkripsi ke server."
                     },
                     "timeout": {
-                        "label": "",
-                        "description": ""
+                        "label": "Batas waktu",
+                        "description": "Jumlah detik untuk menunggu koneksi dengan server FTP."
                     }
                 }
             },
             "nav": {
-                "label": "",
-                "description": ""
+                "label": "Backup",
+                "description": "Menyimpan salinan forum Anda."
             }
         }
     }
