@@ -2,46 +2,46 @@
     "the-turk-miserable-users": {
         "admin": {
             "permissions": {
-                "miserable_user_label": ""
+                "miserable_user_label": "=> the-turk-miserable-users.ref.miserable_user"
             },
             "settings": {
-                "range_separator_text": "",
-                "range_seconds_text": "",
-                "loading_delay_label": "",
-                "loading_delay_text": "",
-                "broken_page_chance_label": "",
-                "broken_page_chance_text": "",
-                "flood_time_multiplier_label": "",
-                "flood_time_multiplier_text": "",
-                "redirection_chance_label": "",
-                "redirection_chance_text": "",
-                "redirection_page_url_label": "",
-                "redirection_page_url_text": "",
-                "log_out_chance_label": "",
-                "log_out_chance_text": "",
-                "shuffle_post_chance_label": "",
-                "shuffle_post_chance_text": ""
+                "range_separator_text": " hingga ",
+                "range_seconds_text": " Detik",
+                "loading_delay_label": "Penundaan pemuatan",
+                "loading_delay_text": "Pengguna yang menyedihkan akan mengalami penundaan pemuatan halaman dengan periode acak di antara dua nilai yang disediakan di sini.",
+                "broken_page_chance_label": "Peluang halaman rusak",
+                "broken_page_chance_text": "Anda dapat menampilkan halaman yang rusak kepada pengguna dari waktu ke waktu. Masukkan persentase kemungkinan hal ini terjadi.",
+                "flood_time_multiplier_label": "Pengganda waktu banjir",
+                "flood_time_multiplier_text": "Waktu minimum standar (yaitu 10 detik) di antara pesan dapat dilipatgandakan untuk membuat pengguna yang menyedihkan menunggu lebih lama di antara postingan.",
+                "redirection_chance_label": "Peluang pengalihan",
+                "redirection_chance_text": "Masukkan persentase kemungkinan pengguna yang tidak senang akan diarahkan ke URL halaman pengalihan.",
+                "redirection_page_url_label": "URL halaman pengalihan",
+                "redirection_page_url_text": "Anda dapat secara acak mengarahkan pengguna yang menyedihkan ke halaman lain. Biarkan ini kosong untuk mengarahkan ke halaman home page forum.",
+                "log_out_chance_label": "Peluang logout",
+                "log_out_chance_text": "Masukkan persentase kemungkinan pengguna yang menyedihkan akan logout dan dialihkan kembali ke halaman home page. <b>Ingat!</b> Setelah logout, mereka tidak lagi menjadi pengguna yang menyedihkan.",
+                "shuffle_post_chance_label": "Peluang postingan acak",
+                "shuffle_post_chance_text": "Anda dapat mengacak postingan pengguna yang menyedihkan secara acak. Masukkan persentase kemungkinan hal ini terjadi."
             }
         },
         "forum": {
             "user_badge": {
-                "miserable_user_tooltip": ""
+                "miserable_user_tooltip": "=> the-turk-miserable-users.ref.miserable_user"
             },
             "user_controls": {
-                "miserable_user_button": ""
+                "miserable_user_button": "=> the-turk-miserable-users.ref.miserable_user"
             },
             "miserable_user": {
-                "title": "",
-                "status_heading": "",
-                "not_miserable_label": "",
-                "indefinitely_label": "",
-                "limited_time_label": "",
-                "limited_time_days_text": "",
-                "submit_button": ""
+                "title": "Menyedihkan {username}",
+                "status_heading": "Status Menyedihkan",
+                "not_miserable_label": "Tidak menyedihkan",
+                "indefinitely_label": "Menyedihkan tanpa batas waktu",
+                "limited_time_label": "Menyedihkan untuk waktu yang terbatas...",
+                "limited_time_days_text": " hari",
+                "submit_button": "=> core.ref.save_changes"
             }
         },
         "ref": {
-            "miserable_user": ""
+            "miserable_user": "Pengguna Yang Menyedihkan"
         }
     }
 }
