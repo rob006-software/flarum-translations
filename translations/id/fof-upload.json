@@ -27,7 +27,7 @@
                     "title": "Pengaturan AWS S3 storage",
                     "advanced_title": "Pengaturan S3 storage lanjutan",
                     "endpoint": "Endpoint",
-                    "use_path_style_endpoint": "Use path style endpoint",
+                    "use_path_style_endpoint": "",
                     "acl": "Access Control List (ACL)"
                 },
                 "disable-download-logging": {
@@ -44,7 +44,7 @@
                     "tos": "Merupakan tanggung jawab Anda untuk memastikan user forum Anda mematuhi <a>Terms of service</a>"
                 },
                 "local": {
-                    "cdn_url": "Content Delivery URL (prefixes files)",
+                    "cdn_url": "",
                     "title": "Pengaturan local storage"
                 },
                 "qiniu": {
@@ -113,10 +113,10 @@
                 "qiniu": "QiNiu"
             },
             "inspect-mime": {
-                "title": "Inspect MIME",
+                "title": "Periksa MIME",
                 "description": "FoF Upload menggunakan library <a>PHP Mime Detector</a> untuk common MIME types and PHP Fileinfo sebagai fallback.\nNilai MIME yang dikembalikan oleh Fileinfo dapat berbeda dari server ke server!\n",
                 "select": "Pilih file di bawah ini untuk memeriksa nilai yang akan digunakan. File tidak akan disimpan.",
-                "laravel-validation": "Laravel File Validation",
+                "laravel-validation": "Validasi File Laravel",
                 "no-file-selected": "Tidak ada file",
                 "validation-passed": "Passed",
                 "validation-failed": "Failed: {error}",
