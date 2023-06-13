@@ -17,11 +17,11 @@
         "forum": {
             "composer": {
                 "mention_tooltip": "",
-                "reply_to_post_text": ""
+                "reply_to_post_text": "Balas ke #{number}"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
-                "post_mentioned_text": "",
+                "post_mentioned_text": "{username} membalas post Anda",
                 "user_mentioned_text": ""
             },
             "post": {
@@ -33,7 +33,7 @@
                 "you_text": "=> core.ref.you"
             },
             "settings": {
-                "notify_post_mentioned_label": "",
+                "notify_post_mentioned_label": "Seseorang membalas salah satu post Saya",
                 "notify_user_mentioned_label": ""
             },
             "user": {
@@ -45,8 +45,8 @@
         },
         "email": {
             "post_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name} membalas post Anda di {title}",
+                "body": "Hai {recipient_display_name}!\n\n{replier_display_name} membalas post Anda (#{post_number}) di {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
                 "subject": "",
