@@ -62,7 +62,7 @@
                     "title": "Pengaturan Webhook",
                     "description": "Di sini Anda memodifikasi event apa yang dijalankan oleh webhook.",
                     "use_plain_text_label": "Kurangi jumlah pemformatan dalam konten post",
-                    "max_post_content_length_label": "",
+                    "max_post_content_length_label": "Panjang Maksimum Konten Postingan",
                     "max_post_content_length_help": "Tetapkan angka untuk membatasi konten postingan di semua event yang berkaitan dengan postingan. Ubah ke 0 atau kosongkan untuk menghilangkan limit.",
                     "extra_text_label": "Teks tambahan",
                     "extra_text_help": "Teks tambahan untuk disertakan dalam webhook yang dikirim.",
@@ -78,36 +78,36 @@
                 "actions": {
                     "flarum": {
                         "discussion": {
-                            "title": "",
-                            "started": "",
+                            "title": "Diskusi Flarum",
+                            "started": "Dimulai",
                             "renamed": "=> fof-webhooks.ref.renamed",
                             "hidden": "=> fof-webhooks.ref.hidden",
                             "restored": "=> fof-webhooks.ref.restored",
                             "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "group": {
-                            "title": "",
-                            "created": "",
+                            "title": "Grup Flarum",
+                            "created": "Dibuat",
                             "renamed": "=> fof-webhooks.ref.renamed",
                             "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "post": {
                             "title": "",
-                            "posted": "",
-                            "revised": "",
+                            "posted": "Diposting",
+                            "revised": "Diedit",
                             "hidden": "=> fof-webhooks.ref.hidden",
                             "restored": "=> fof-webhooks.ref.restored",
                             "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "user": {
-                            "title": "",
-                            "registered": "",
+                            "title": "Pengguna Flarum",
+                            "registered": "Terdaftar",
                             "renamed": "=> fof-webhooks.ref.renamed",
                             "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "approval": {
                             "title": "",
-                            "postwasapproved": ""
+                            "postwasapproved": "Post Disetujui"
                         }
                     }
                 }
