@@ -10,23 +10,23 @@
     "flarum-mentions": {
         "admin": {
             "settings": {
-                "allow_username_format_label": "Izinkan format mention username (@Username)",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "Izinkan format penyebutan username (@Username)",
+                "allow_username_format_text": "Format saat ini untuk penyebutan pengguna adalah @\"Display Name\"#ID.\nPengaturan ini memungkinkan penggunaan format lama @Username, namun format ini masih akan dikonversi ke format baru setelah disimpan.\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "",
+                "mention_tooltip": "Menyebutkan pengguna atau postingan",
                 "reply_to_post_text": "Balas ke #{number}"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} membalas post Anda",
-                "user_mentioned_text": ""
+                "user_mentioned_text": "{username} menyebut Anda"
             },
             "post": {
-                "mentioned_by_self_text": "",
-                "mentioned_by_text": "",
+                "mentioned_by_self_text": "{users} menjawab hal ini.",
+                "mentioned_by_text": "{users} menjawab hal ini.",
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Quote",
                 "reply_link": "=> core.ref.reply",
@@ -34,7 +34,7 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "Seseorang membalas salah satu post Saya",
-                "notify_user_mentioned_label": ""
+                "notify_user_mentioned_label": "Seseorang menyebut Saya dalam sebuah post"
             },
             "user": {
                 "mentions_link": "Mention"
@@ -49,8 +49,8 @@
                 "body": "Hai {recipient_display_name}!\n\n{replier_display_name} membalas post Anda (#{post_number}) di {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} menyebut Anda dalam {title}",
+                "body": "Hai {recipient_display_name}!\n\n{mentioner_display_name} menyebut Anda dalam sebuah postingan di {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
