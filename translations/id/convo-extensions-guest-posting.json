@@ -2,32 +2,32 @@
     "guest-posting": {
         "forum": {
             "alert": {
-                "create-account": "",
-                "create-account-votes-only": "",
-                "create-account-posts-and-votes": "",
-                "signup": ""
+                "create-account": "Buat akun sekarang dan impor {count} postingan Anda!",
+                "create-account-votes-only": "Buat akun sekarang dan impor {count} vote Anda!",
+                "create-account-posts-and-votes": "Buat akun sekarang dan impor {postCount} postingan dan {voteCount} vote Anda!",
+                "signup": "Daftar"
             },
             "modal": {
-                "import": "",
-                "import-votes": ""
+                "import": "Impor {count} postingan tamu Saya",
+                "import-votes": "Impor {postCount} postingan tamu dan {voteCount} vote saya"
             },
             "badge": {
-                "guest": ""
+                "guest": "Tamu"
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "enableImport": "",
-                "sessionLifetime": "",
-                "usernames": ""
+                "title": "Pengaturan Posting Tamu",
+                "enableImport": "Aktifkan impor postingan yang sudah ada saat pendaftaran",
+                "sessionLifetime": "Masa aktif sesi tamu dalam jam",
+                "usernames": "Username acak yang digunakan untuk tamu"
             }
         }
     },
     "core": {
         "lib": {
             "username": {
-                "deleted_text": ""
+                "deleted_text": "Tamu"
             }
         }
     }
