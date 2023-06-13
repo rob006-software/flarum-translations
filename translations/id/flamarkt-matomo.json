@@ -2,13 +2,13 @@
     "flamarkt-matomo": {
         "admin": {
             "settings": {
-                "url": "",
-                "siteId": "",
-                "trackAccounts": "",
+                "url": "Domain atau URL server Matomo",
+                "siteId": "ID situs",
+                "trackAccounts": "Lacak akun pengguna individu",
                 "trackAccountsOptions": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "Jangan lacak",
+                    "username": "Lacak berdasarkan username",
+                    "email": "Lacak berdasarkan email"
                 }
             }
         }
