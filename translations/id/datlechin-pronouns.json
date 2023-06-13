@@ -2,20 +2,20 @@
     "datlechin-pronouns": {
         "admin": {
             "settings": {
-                "prefix_label": "",
-                "prefix_help": "",
-                "icon_label": "",
-                "icon_help": ""
+                "prefix_label": "Prefiks kata ganti",
+                "prefix_help": "Teks ini akan ditampilkan sebelum kata ganti. Biarkan kosong untuk tidak menampilkan apa pun.",
+                "icon_label": "Ikon kata ganti",
+                "icon_help": "Aktifkan opsi ini untuk menampilkan ikon, bukan teks, sebelum kata ganti."
             }
         },
         "forum": {
             "change_pronouns": {
-                "title": "",
-                "help": "",
-                "submit_button": ""
+                "title": "Mengubah Kata Ganti",
+                "help": "Kata ganti Anda akan muncul di profil dan user card. <a>Apa itu personal pronouns dan mengapa itu penting?</a>",
+                "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
-                "change_pronouns_button": ""
+                "change_pronouns_button": "Ubah Kata Ganti"
             }
         }
     }
