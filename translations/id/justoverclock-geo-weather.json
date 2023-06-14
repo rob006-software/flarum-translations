@@ -1,15 +1,15 @@
 {
     "geo-weather": {
         "forum": {
-            "unknown": "",
-            "temp": "",
-            "not-supported": ""
+            "unknown": "tidak diketahui",
+            "temp": "0°",
+            "not-supported": "Geolokasi tidak didukung oleh browser ini."
         },
         "admin": {
-            "apiKey": "",
-            "apiKey-help": "",
-            "lang": "",
-            "lang-help": ""
+            "apiKey": "Api Key",
+            "apiKey-help": "Paste di sini free api key Anda yang dibuat di https://openweathermap.org/api",
+            "lang": "Pilih Bahasa (hanya 1 prefiks)",
+            "lang-help": "Pada kolom ini, masukkan prefiks bahasa Anda (mis. it, fr, en), periksa bahasa Anda di <strong>https://openweathermap.org/api/one-call-api#multi</strong>"
         }
     }
 }
