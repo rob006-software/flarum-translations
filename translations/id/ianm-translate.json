@@ -9,7 +9,7 @@
             "settings": {
                 "deepl": {
                     "api_key": {
-                        "help": "",
+                        "help": "Daftar di {link}. Driver akan secara otomatis mendeteksi jenis key free/pro.",
                         "label": "=> ianm-translate.lib.settings.api-key"
                     },
                     "en_choice": {
@@ -22,33 +22,33 @@
                     },
                     "formality": {
                         "help": "Jika tersedia, terjemahan dapat menggunakan tingkat formalitas yang berbeda. Pilih preferensi Anda di sini.",
-                        "label": "",
+                        "label": "Formalitas",
                         "options": {
-                            "default": "",
-                            "prefer_less": "",
-                            "prefer_more": ""
+                            "default": "Default",
+                            "prefer_less": "Kurang formal",
+                            "prefer_more": "Lebih formal"
                         }
                     }
                 },
                 "google-cloud": {
                     "api_key": {
-                        "help": "",
-                        "label": ""
+                        "help": "Daftarkan diri Anda untuk mendapatkan API key di {link}. Driver ini menggunakan API V2 - Basic.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
-                "provider": "",
+                "provider": "Penyedia terjemahan",
                 "readme-info": "Lihat dokumentasi README untuk informasi lebih lanjut."
             }
         },
         "forum": {
-            "unknown-language": "",
-            "detected-language": "",
+            "unknown-language": "[tidak terdeteksi]",
+            "detected-language": "Post ini dalam bahasa {postLang}",
             "translate-button-label": "Terjemahan",
             "discussion": {
                 "post": {
                     "close-translation": "Tutup terjemahan",
                     "translated-header": "Terjemahan AI dari {from} ke {to}",
-                    "translated-updated": ""
+                    "translated-updated": "Terjemahan terakhir diperbarui {time} menggunakan {provider}"
                 }
             },
             "user": {
@@ -56,19 +56,19 @@
                     "heading": "Terjemahan",
                     "source-language": {
                         "help": "Saat dinonaktifkan, hanya postingan yang ditulis dalam bahasa selain bahasa forum saat ini yang akan diberi label. Untuk melabeli semua postingan dengan bahasa yang terdeteksi, aktifkan pengaturan ini.",
-                        "label": ""
+                        "label": "Selalu tampilkan bahasa dalam postingan"
                     }
                 }
             }
         },
         "lib": {
             "providers": {
-                "deepl": "",
-                "google-free": "",
-                "google-cloud": ""
+                "deepl": "DeepL",
+                "google-free": "Google Translate",
+                "google-cloud": "Google Cloud Translate"
             },
             "settings": {
-                "api-key": ""
+                "api-key": "API Key"
             }
         }
     }
