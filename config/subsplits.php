@@ -190,7 +190,7 @@ return [
 				'path' => '/locale/informal',
 			],
 			'formal' => [
-				'name' => 'Formell',
+				'name' => 'Formal',
 				'language' => 'de@formal',
 				'path' => '/locale/formal',
 			],
