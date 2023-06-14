@@ -18,7 +18,7 @@
             "no_permission": "Nie masz uprawnień do głosowania",
             "poll_ended": "Ta ankieta zakończyła się.",
             "public_poll": "Zobacz głosujących",
-            "max_votes_allowed": "",
+            "max_votes_allowed": "Ankieta umożliwia głosowanie na {max, plural, one {# opcję} few {# opcje} other {# opcji}}.",
             "composer_discussion": {
                 "add_poll": "Dodaj ankietę",
                 "edit_poll": "=> fof-polls.forum.moderation.edit"
@@ -36,9 +36,9 @@
                 "image_option_placeholder": "URL obrazka (opcjonalne)",
                 "options_label": "Odpowiedzi",
                 "public_poll_label": "Pozwól użytkownikom zobaczyć, kto głosował",
-                "allow_multiple_votes_label": "",
-                "max_votes_label": "",
-                "max_votes_help": "",
+                "allow_multiple_votes_label": "Pozwól użytkownikom głosować na wiele opcji",
+                "max_votes_label": "Maksymalna ilość głosów na użytkownika",
+                "max_votes_help": "Ustaw na 0, aby pozwolić użytkownikom głosować na wszystkie opcje.",
                 "question_placeholder": "Pytanie",
                 "submit": "Zatwierdź"
             },
