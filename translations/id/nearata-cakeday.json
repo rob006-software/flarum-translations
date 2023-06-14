@@ -2,35 +2,35 @@
     "nearata-cakeday": {
         "admin": {
             "permissions": {
-                "can_view_anniversaries_page": ""
+                "can_view_anniversaries_page": "Melihat halaman hari jadi"
             },
             "settings": {
-                "anniversaries_page_label": "",
-                "cake_bg_color_label": "",
-                "cake_bg_color_help": "",
-                "cake_txt_color_label": "",
-                "cake_txt_color_help": "",
-                "new_members": "",
-                "new_members_howlong": "",
-                "new_members_howlong_help": "",
-                "new_members_changelabel": ""
+                "anniversaries_page_label": "Aktifkan Halaman Hari Jadi",
+                "cake_bg_color_label": "Warna Background",
+                "cake_bg_color_help": "Bantuan: Pengaturan ini mengubah warna background kue. Biarkan kosong untuk default.",
+                "cake_txt_color_label": "Warna Ikon",
+                "cake_txt_color_help": "Bantuan: Pengaturan ini mengubah warna teks kue. Biarkan kosong untuk default.",
+                "new_members": "Menampilkan ikon kue pada anggota baru",
+                "new_members_howlong": "(Anggota Baru) Untuk berapa lama",
+                "new_members_howlong_help": "Dinyatakan dalam hari.",
+                "new_members_changelabel": "(Anggota Baru) Ganti label menjadi: Anggota Baru"
             }
         },
         "forum": {
-            "anniversary": "",
-            "new_member_label": "",
+            "anniversary": "Hari Jadi",
+            "new_member_label": "Anggota Baru",
             "page": {
-                "anniversaries_between_label": "",
-                "anniversaries_for_label": "",
-                "empty": "",
+                "anniversaries_between_label": "Hari jadi antara {date1} dan {date2}",
+                "anniversaries_for_label": "Hari jadi untuk {date}",
+                "empty": "Tidak ada hari jadi.",
                 "filter_options": {
-                    "today": "",
-                    "tomorrow": "",
-                    "upcoming": "",
-                    "all": ""
+                    "today": "Hari ini",
+                    "tomorrow": "Besok",
+                    "upcoming": "Mendatang",
+                    "all": "Semua"
                 },
-                "load_more_button": "",
-                "title": ""
+                "load_more_button": "Memuat lebih banyak",
+                "title": "Hari Jadi"
             }
         }
     }
