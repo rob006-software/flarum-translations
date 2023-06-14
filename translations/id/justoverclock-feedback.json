@@ -1,60 +1,60 @@
 {
     "justoverclock-feedback": {
         "admin": {
-            "contactmail": "",
-            "feedback1-title": "",
-            "feedback1-title-help": "",
-            "feedback1-icon": "",
-            "feedback1-icon-help": "",
-            "feedback2-title": "",
-            "feedback2-title-help": "",
-            "feedback2-icon": "",
-            "feedback2-icon-help": "",
-            "feedback3-title": "",
-            "feedback3-title-help": "",
-            "feedback3-icon": "",
-            "feedback3-icon-help": "",
-            "contactdesc": "",
-            "collect-email": "",
-            "collect-email-help": "",
-            "position": "",
-            "position-help": "",
-            "right_label": "",
-            "left_label": "",
-            "background-color": "",
-            "background-color-help": "",
-            "font-color": "",
-            "font-color-help": "",
-            "box-title": "",
-            "box-title-help": ""
+            "contactmail": "Alamat email untuk mengirim feedback",
+            "feedback1-title": "Tipe feedback 1",
+            "feedback1-title-help": "Sesuaikan di sini nama \"jenis feedback\" Anda",
+            "feedback1-icon": "Ikon untuk tipe Feedback 1",
+            "feedback1-icon-help": "Letakkan ikon teks seperti \"⚠️, ☎️, ✏️\" - Windows (Win + .) MacOS 🌐",
+            "feedback2-title": "Tipe feedback 2",
+            "feedback2-title-help": "Sesuaikan di sini nama \"tipe feedback 2\" Anda",
+            "feedback2-icon": "Ikon untuk tipe Feedback 2",
+            "feedback2-icon-help": "Letakkan ikon teks seperti \"⚠️, ☎️, ✏️\" - Windows (Win + .) MacOS 🌐",
+            "feedback3-title": "Tipe feedback 3",
+            "feedback3-title-help": "Sesuaikan di sini nama \"tipe feedback 3\" Anda",
+            "feedback3-icon": "Ikon untuk tipe Feedback 3",
+            "feedback3-icon-help": "Letakkan ikon teks seperti \"⚠️, ☎️, ✏️\" - Windows (Win + .) MacOS 🌐",
+            "contactdesc": "Alamat ini harus diisi untuk mengaktifkan widget feedback sepenuhnya",
+            "collect-email": "(opsional) Tampilkan kolom alamat email kepada pengguna",
+            "collect-email-help": "Jika diaktifkan, pengguna dapat menambahkan alamat email mereka ke feedback",
+            "position": "Posisi widget",
+            "position-help": "Pilih kiri bawah atau kanan bawah untuk menampilkan tombol feedback",
+            "right_label": "Kanan",
+            "left_label": "Kiri",
+            "background-color": "Warna background widget",
+            "background-color-help": "Berikan kode warna hex untuk digunakan sebagai warna background, contohnya '#fff'",
+            "font-color": "Warna font widget",
+            "font-color-help": "Berikan kode warna hex untuk digunakan sebagai warna font, contohnya '#000'",
+            "box-title": "Judul",
+            "box-title-help": "Mengatur judul widget popup feedback (yang lama \"Flarum feedback\")"
         },
         "api": {
-            "validation_error": ""
+            "validation_error": "Anda tidak dapat mengirim feedback kosong"
         },
         "forum": {
-            "button-title": "",
+            "button-title": "Feedback",
             "feedback-widget": {
-                "title": "",
-                "placeholder": "",
-                "email-placeholder": "",
-                "submit": "",
-                "back": "",
-                "contact-text": "",
-                "type-message": "",
-                "success": "",
-                "failed-title": "",
-                "failed-message": "",
-                "email-field-placeholder": "",
+                "title": "Feedback Flarum",
+                "placeholder": "Masukkan feedback Anda di sini",
+                "email-placeholder": "Email (opsional)",
+                "submit": "Kirim",
+                "back": "Kembali",
+                "contact-text": "Atau kirimkan email!",
+                "type-message": "Masukan apa yang Anda miliki?",
+                "success": "Terima kasih!👊",
+                "failed-title": "Ups, terjadi error",
+                "failed-message": "Silakan coba lagi. Jika hal ini terus terjadi, cobalah untuk mengirim email.",
+                "email-field-placeholder": "Email (kolom opsional)",
                 "types": {
-                    "general": "",
-                    "idea": "",
-                    "bug": ""
+                    "general": "Masukan umum",
+                    "idea": "Saya memiliki sebuah ide",
+                    "bug": "Laporan Bug"
                 }
             },
             "email": {
-                "guest": "",
-                "subject": "",
-                "body": ""
+                "guest": "pengguna anonim",
+                "subject": "Feedback",
+                "body": "Feedback {type} baru dari {user}!\n\n{message}\n\nEmail: {email}\nUrl: {url}\n"
             }
         }
     }
