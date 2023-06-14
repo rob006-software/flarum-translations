@@ -2,14 +2,14 @@
     "glowingblue-localizd": {
         "admin": {
             "settings": {
-                "title": "",
-                "redirect_en": "",
-                "redirect_en_help": ""
+                "title": "Pengaturan Localizd",
+                "redirect_en": "Mengubah bahasa Inggris ke bahasa default forum",
+                "redirect_en_help": "Secara efektif memungkinkan Anda untuk tidak memberikan pengalaman berbahasa Inggris di dalam forum, tetapi memungkinkan paket bahasa Inggris tetap terpasang (agar <code>fof/linguist</code> dapat mengenali key, dll.)"
             },
             "translation_key": {
-                "help": "",
-                "translate": "",
-                "modal_title": ""
+                "help": "Opsi ini bersifat multibahasa melalui <b>Localizd</b> + <a>Linguist</a>.",
+                "translate": "Terjemahkan",
+                "modal_title": "Tambahkan terjemahan dengan Linguist"
             }
         }
     }
