@@ -2,96 +2,96 @@
     "the-turk-flamoji": {
         "admin": {
             "settings": {
-                "emoji_settings_heading": "",
-                "category_settings_heading": "",
-                "general_ui_settings_heading": "",
-                "show_variants_label": "",
-                "show_variants_text": "",
-                "auto_hide_label": "",
-                "auto_hide_text": "",
-                "show_preview_label": "",
-                "show_category_buttons_label": "",
-                "show_search_label": "",
-                "show_recents_label": "",
-                "recents_count_label": "",
-                "recents_count_text": "",
-                "emoji_style_label": "",
-                "emoji_version_label": "",
-                "emoji_version_text": "",
-                "initial_category_label": "",
-                "initial_category_text": "",
-                "specify_categories_label": "",
-                "specify_categories_text": "",
-                "emoji_data_label": "",
-                "emoji_data_text": "",
-                "emoji_style_native_option": "",
+                "emoji_settings_heading": "Налаштування смайликів",
+                "category_settings_heading": "Налаштування категорій",
+                "general_ui_settings_heading": "Загальні налаштування інтерфейсу",
+                "show_variants_label": "Показувати варіанти",
+                "show_variants_text": "Деякі смайлики мають варіанти відтінків шкіри. При виборі смайлика, який має кілька варіантів, з''являється спливаюче вікно з варіантами, де користувач може вибрати потрібний варіант.",
+                "auto_hide_label": "Автоматичне приховування",
+                "auto_hide_text": "Приховувати спливаюче вікно, коли смайлик вибрано.",
+                "show_preview_label": "Показувати секцію попереднього перегляду",
+                "show_category_buttons_label": "Показувати кнопки категорій",
+                "show_search_label": "Показувати вхідні дані для пошуку",
+                "show_recents_label": "Показувати (та зберігати) нещодавно використані смайлики",
+                "recents_count_label": "Кількість нещодавно використаних смайликів",
+                "recents_count_text": "Кількість нещодавно використаних смайликів для збереження.",
+                "emoji_style_label": "Стиль смайликів",
+                "emoji_version_label": "Версія смайликів",
+                "emoji_version_text": "Версія специфікації смайликів, яку слід використовувати.",
+                "initial_category_label": "Початкова категорія",
+                "initial_category_text": "За налаштуванням спливаюче вікно спочатку показує категорію «Смайлики та емоції».",
+                "specify_categories_label": "Вказати категорії",
+                "specify_categories_text": "Тут можна вказати список категорій, які будуть відображатись у спливаючому вікні.",
+                "emoji_data_label": "Данні смайликів",
+                "emoji_data_text": "Зазвичай це використовується для надання перекладених назв смайликів.",
+                "emoji_style_native_option": "Нативний",
                 "emoji_categories": {
-                    "smileys": "",
-                    "people": "",
-                    "animals": "",
-                    "food": "",
-                    "travel": "",
-                    "activities": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": ""
+                    "smileys": "=> the-turk-flamoji.ref.emoji_categories.smileys",
+                    "people": "=> the-turk-flamoji.ref.emoji_categories.people",
+                    "animals": "=> the-turk-flamoji.ref.emoji_categories.animals",
+                    "food": "=> the-turk-flamoji.ref.emoji_categories.food",
+                    "travel": "=> the-turk-flamoji.ref.emoji_categories.travel",
+                    "activities": "=> the-turk-flamoji.ref.emoji_categories.activities",
+                    "objects": "=> the-turk-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> the-turk-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> the-turk-flamoji.ref.emoji_categories.flags"
                 }
             },
             "custom_emojis_section": {
-                "heading_title": "",
-                "import_json_button": "",
-                "export_json_button": "",
-                "import_emojis_message": "",
+                "heading_title": "Користувацькі смайлики",
+                "import_json_button": "Імпортувати JSON",
+                "export_json_button": "Експортувати JSON",
+                "import_emojis_message": "Буде імпортовано лише конфігурацію смайликів. Вам потрібно завантажити зображення смайликів вручну.",
                 "edit_emoji": {
-                    "modal_title": "",
-                    "emoji_title_label": "",
-                    "delete_emoji_confirmation": "",
-                    "text_to_replace_label": "",
-                    "path_or_url_label": "",
-                    "submit_button": "",
-                    "delete_emoji_button": "",
-                    "saved_message": ""
+                    "modal_title": "Додати",
+                    "emoji_title_label": "Назва",
+                    "delete_emoji_confirmation": "Ви впевнені, що хочете видалити цей смайлик?",
+                    "text_to_replace_label": "Текст для заміни",
+                    "path_or_url_label": "Шлях або URL-адреса",
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_emoji_button": "Видалити",
+                    "saved_message": "=> core.admin.settings.saved_message"
                 },
                 "emoji_list": {
-                    "load_more_button": ""
+                    "load_more_button": "=> core.forum.post_stream.load_more_button"
                 }
             }
         },
         "forum": {
             "composer": {
-                "emoji_tooltip": ""
+                "emoji_tooltip": "Вставити"
             },
             "emoji-button": {
-                "search_placeholder": "",
-                "no_emojis_found_message": "",
+                "search_placeholder": "Пошук смайликів",
+                "no_emojis_found_message": "Не знайдено жодного смайлика",
                 "categories": {
-                    "recents": "",
-                    "smileys": "",
-                    "people": "",
-                    "animals": "",
-                    "food": "",
-                    "travel": "",
-                    "activities": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": "",
-                    "custom": ""
+                    "recents": "=> the-turk-flamoji.ref.emoji_categories.recents",
+                    "smileys": "=> the-turk-flamoji.ref.emoji_categories.smileys",
+                    "people": "=> the-turk-flamoji.ref.emoji_categories.people",
+                    "animals": "=> the-turk-flamoji.ref.emoji_categories.animals",
+                    "food": "=> the-turk-flamoji.ref.emoji_categories.food",
+                    "travel": "=> the-turk-flamoji.ref.emoji_categories.travel",
+                    "activities": "=> the-turk-flamoji.ref.emoji_categories.activities",
+                    "objects": "=> the-turk-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> the-turk-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> the-turk-flamoji.ref.emoji_categories.flags",
+                    "custom": "=> the-turk-flamoji.ref.emoji_categories.custom"
                 }
             }
         },
         "ref": {
             "emoji_categories": {
-                "recents": "",
-                "smileys": "",
-                "people": "",
-                "animals": "",
-                "food": "",
-                "travel": "",
-                "activities": "",
-                "objects": "",
-                "symbols": "",
-                "flags": "",
-                "custom": ""
+                "recents": "Нещодавно використані смайлики",
+                "smileys": "Смайлики та емоції",
+                "people": "Люди та тіло",
+                "animals": "Тварини та природа",
+                "food": "Їжа та напої",
+                "travel": "Подорожі та місця",
+                "activities": "Активності",
+                "objects": "Об'єкти",
+                "symbols": "Символи",
+                "flags": "Прапори",
+                "custom": "Користувальницькі"
             }
         }
     }
