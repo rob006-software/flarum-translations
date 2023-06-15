@@ -2,20 +2,20 @@
     "justoverclock-frontend-blog": {
         "admin": {
             "numberOfPost": "",
-            "setBlogIndexPage": "",
+            "setBlogIndexPage": "Atur ekstensi Frontend Blog sebagai halaman utama",
             "numberOfPost-help": "Masukkan di sini jumlah post yang ingin Anda tampilkan",
-            "sorting": "",
-            "sorting-help": "",
-            "charLim": "",
+            "sorting": "Diskusi Terbaru atau Populer? (standarnya adalah yang terbaru)",
+            "sorting-help": "Jika Anda ingin menampilkan diskusi terbaru, tulis \"-createdAt\", untuk diskusi yang sedang hangat, tulis \"-commentCount\"",
+            "charLim": "Batas Karakter",
             "charLim-help": "Masukkan di sini jumlah karakter maksimal yang akan ditampilkan",
-            "defaultImage": "",
-            "defaultImage-help": "",
-            "showHeaderHero": "",
-            "showPinnedDiscussions": ""
+            "defaultImage": "Gambar Postingan Default",
+            "defaultImage-help": "Di sini Anda dapat menentukan gambar default untuk postingan yang tidak memiliki gambar default",
+            "showHeaderHero": "Tampilkan Welcome Hero",
+            "showPinnedDiscussions": "Tampilkan 3 Diskusi Terakhir Yang Disematkan"
         },
         "forum": {
-            "recentDiscussions": "",
-            "titlePage": "",
+            "recentDiscussions": "Diskusi Terbaru:",
+            "titlePage": "Forum Diskusi",
             "post": "",
             "linkToDiscussion": "",
             "postedOn": "",
@@ -23,8 +23,8 @@
             "allDiscussions": "Forum",
             "signupButton": "Daftar",
             "loginButton": "Login",
-            "stickyTitle": "",
-            "readMore": ""
+            "stickyTitle": "Diskusi Yang Disematkan",
+            "readMore": "Baca Lebih Lanjut"
         }
     }
 }
