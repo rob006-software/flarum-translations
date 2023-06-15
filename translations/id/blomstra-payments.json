@@ -9,9 +9,9 @@
     "blomstra-payments": {
         "forum": {
             "accept-terms-modal": {
-                "accept_label": "",
-                "continue_button": "",
-                "title": ""
+                "accept_label": "Saya telah membaca dan menerima <link>ketentuan pembayaran</link>.",
+                "continue_button": "Lanjutkan Pembayaran",
+                "title": "Terima Ketentuan"
             },
             "stripe": {
                 "interval_once": ""
@@ -22,7 +22,7 @@
                 "pta": "",
                 "ptb": "",
                 "ptp": "",
-                "cancel-control": "",
+                "cancel-control": "Batal",
                 "none": ""
             },
             "post_stream": {
@@ -31,8 +31,8 @@
             "pay-to-view": {
                 "purchase-control": "",
                 "purchase-log-in": "",
-                "purchase-completed": "",
-                "description": ""
+                "purchase-completed": "Tidak terkunci",
+                "description": "Postingan di luar titik ini terkunci di balik paywall, Anda dapat membukanya dengan menyelesaikan pembayaran melalui penyedia pembayaran kami, Stripe.\n"
             },
             "pay-to-post": {
                 "purchase-control": "",
@@ -51,7 +51,7 @@
             "choose-bounty-amount-modal": {
                 "title": "",
                 "checkout-control": "",
-                "description": ""
+                "description": "Pilih jumlah yang Anda inginkan untuk mendukung \"{subject}\" atau pilih jumlah khusus."
             },
             "backers-widget": {
                 "backers": "",
@@ -60,25 +60,25 @@
                 "pledged": ""
             },
             "tag": {
-                "require-payment-label": ""
+                "require-payment-label": "Dibutuhkan Pembayaran"
             },
             "payment-options-modal": {
-                "title": "",
-                "description": ""
+                "title": "Opsi pembayaran untuk mendapatkan akses ke {group}",
+                "description": "Pilih salah satu opsi berikut untuk memulai akses Anda ke grup. Anda akan diarahkan ke penyedia pembayaran kami, Stripe, untuk proses pembayaran.\n"
             },
             "access-portal": {
-                "options": "",
+                "options": "opsi",
                 "purchase": "",
                 "subscribed": ""
             },
             "nav": {
-                "access_portal": "",
-                "user_subscriptions": ""
+                "access_portal": "Portal akses",
+                "user_subscriptions": "Lanjutkan Pembayaran"
             },
             "exceptions": {
                 "out-of-bounds-amount": {
-                    "min": "",
-                    "max": ""
+                    "min": "Pembayaran {amount} tidak diperbolehkan, {min} adalah jumlah terendah.",
+                    "max": "Pembayaran sebesar {amount} tidak diperbolehkan, {max} adalah jumlah tertinggi."
                 }
             }
         },
@@ -91,7 +91,7 @@
                 "visible-from": "",
                 "visible-from-description": "",
                 "select-ptb-product": "",
-                "select-ptb-product-description": "",
+                "select-ptb-product-description": "Memilih produk akan membutuhkan pembayaran produk tersebut sebelum dapat memulai diskusi.\n",
                 "bump-others": "",
                 "bump-others-description": "",
                 "select-bounty-product": "",
@@ -103,11 +103,11 @@
             },
             "settings": {
                 "assign-bounty-tag-id": "",
-                "pk": "",
-                "sk": "",
+                "pk": "Publishable (api) key",
+                "sk": "Secret (api) key",
                 "webhook-secret": "",
                 "link-access-portal": "",
-                "link-to-terms": "",
+                "link-to-terms": "URL Ketentuan Pembayaran",
                 "recount-total-discussion-bounties": ""
             },
             "permission": {
