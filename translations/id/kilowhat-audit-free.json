@@ -38,8 +38,8 @@
                 "client": {
                     "session": "Sesi web",
                     "api_key": "API key",
-                    "access_token": "Access token",
-                    "cli": "Command line",
+                    "access_token": "Token akses",
+                    "cli": "Baris perintah",
                     "unknown": "Client tidak diketahui"
                 },
                 "controls": {
@@ -53,7 +53,7 @@
                     "filterDiscussion": "Tampilkan log yang mempengaruhi diskusi yang sama"
                 },
                 "audit_log_cleared": "Menghapus {deleted_count} entri dari log audit",
-                "cache_cleared": "Membersihkan cache secara manual",
+                "cache_cleared": "Bersihkan cache secara manual",
                 "discussion": {
                     "created": "Memulai diskusi {discussion}",
                     "create_date_changed": "Mengubah tanggal mulai {discussion} dari {old_date} ke {new_date}",
