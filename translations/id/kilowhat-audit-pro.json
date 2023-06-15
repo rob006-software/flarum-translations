@@ -2,23 +2,23 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": "",
+                "view": "Lihat log audit",
                 "viewLimited": ""
             },
             "header": {
-                "title": "",
-                "free": "",
-                "pro": "",
-                "upgrade": ""
+                "title": "Audit",
+                "free": "Free",
+                "pro": "Pro",
+                "upgrade": "Tingkatkan ke Pro"
             },
             "limitedSettings": {
                 "configure": "",
-                "title": "",
-                "introduction": "",
-                "requiresExtension": ""
+                "title": "Pengaturan akses terbatas",
+                "introduction": "Konfigurasikan apa yang dapat dilihat oleh pengguna dengan izin akses terbatas",
+                "requiresExtension": "Membutuhkan ekstensi {extension}"
             },
             "settings": {
-                "limitedIpAddress": ""
+                "limitedIpAddress": "Lihat Alamat IP"
             }
         },
         "forum": {
@@ -38,30 +38,30 @@
         "lib": {
             "browser": {
                 "filterPlaceholder": "",
-                "filterApply": "",
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "filterApply": "Terapkan",
+                "empty": "Tidak ada hasil",
+                "loadMore": "Muat lebih banyak",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "discussion": "Diskusi #{id}",
+                    "group": "Grup #{id}",
+                    "post": "Post #{id}",
+                    "tag": "Tag #{id}",
+                    "user": "User #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
+                    "comment": "Komentar",
                     "post": ""
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
                 "noValue": "",
                 "noReason": "",
                 "client": {
                     "session": "",
-                    "api_key": "",
+                    "api_key": "API key",
                     "access_token": "",
                     "cli": "",
                     "unknown": ""
