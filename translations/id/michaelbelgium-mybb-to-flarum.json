@@ -2,15 +2,15 @@
     "michaelbelgium-mybb-to-flarum": {
         "admin": {
             "content": {
-                "description_text": "Migrasi forum MyBB ke dalam Flarum instance. Isi data yang diperlukan, kemudian klik \"migrasi\".",
+                "description_text": "Memigrasikan forum MyBB ke dalam Flarum instance. Isi data yang diperlukan, kemudian klik \"migrasi\".",
                 "convert_button": "Migrasi",
                 "form": {
                     "options": {
                         "title": "Opsi lainnya",
-                        "migrate_avatars_label": "Memindahkan avatar",
-                        "migrate_soft_threads_label": "Memindahkan soft deleted thread",
-                        "migrate_soft_posts_label": "Memindahkan soft deleted post",
-                        "migrate_attachments_label": "Memindahkan lampiran (attachment)"
+                        "migrate_avatars_label": "Memigrasikan avatar",
+                        "migrate_soft_threads_label": "Memigrasikan soft deleted thread",
+                        "migrate_soft_posts_label": "Memigrasikan soft deleted post",
+                        "migrate_attachments_label": "Memigrasikan lampiran (attachment)"
                     },
                     "mybb": {
                         "title": "Pengaturan MyBB",
@@ -19,14 +19,14 @@
                         "password_label": "Password database",
                         "db_label": "Nama database",
                         "prefix_label": "Prefiks tabel",
-                        "path_label": ""
+                        "path_label": "Path MyBB absolut"
                     },
                     "general": {
                         "title": "Opsi umum",
-                        "migrate_users_label": "Memindahkan pengguna",
-                        "migrate_threadsPosts_label": "Memindahkan thread dan postingan",
-                        "migrate_userGroups_label": "Memindahkan grup pengguna",
-                        "migrate_categories_label": "Memindahkan kategori"
+                        "migrate_users_label": "Memigrasikan pengguna",
+                        "migrate_threadsPosts_label": "Memigrasikan thread dan postingan",
+                        "migrate_userGroups_label": "Memigrasikan grup pengguna",
+                        "migrate_categories_label": "Memigrasikan kategori"
                     }
                 }
             }
