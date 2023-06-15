@@ -6,57 +6,57 @@
             },
             "page": {
                 "title": "",
-                "loading": "",
-                "participate": "",
-                "already-participated": "",
-                "delete-confirmation": "",
-                "like": "",
-                "already-liked": "",
-                "unlike": "",
+                "loading": "Memuat entri...",
+                "participate": "Berpartisipasi",
+                "already-participated": "Sudah berpartisipasi",
+                "delete-confirmation": "Apakah Anda benar-benar ingin menghapus \"{name}\" yang dibuat oleh {username}?",
+                "like": "Suka",
+                "already-liked": "Saya menyukainya",
+                "unlike": "Tidak suka",
                 "refresh": "",
-                "load-more": "",
+                "load-more": "Memuat lebih banyak entri",
                 "sort": {
-                    "mostLikes": "",
-                    "fewerLikes": "",
-                    "mostRecent": "",
-                    "leastRecent": ""
+                    "mostLikes": "Paling disukai",
+                    "fewerLikes": "Lebih sedikit disukai",
+                    "mostRecent": "Terbaru",
+                    "leastRecent": "Terlama"
                 },
                 "likes": {
-                    "you_text": "",
-                    "others_link": "",
-                    "liked_by_self_text": "",
-                    "liked_by_text": ""
+                    "you_text": "=> core.ref.you",
+                    "others_link": "=> core.ref.some_others",
+                    "liked_by_self_text": "{users} menyukai ini.",
+                    "liked_by_text": "{count, plural, one {{users} menyukai ini.} other {{users} menyukai ini.}}"
                 }
             },
             "modal": {
-                "title": "",
-                "name": "",
-                "submit": "",
+                "title": "Berpartisipasi",
+                "name": "Beri nama kreasi Anda",
+                "submit": "Kirim",
                 "tools": {
-                    "circle": "",
-                    "square": ""
+                    "circle": "Lingkaran",
+                    "square": "Persegi"
                 }
             },
             "likes_modal": {
-                "title": ""
+                "title": "Pengguna yang menyukai entri ini"
             }
         },
         "admin": {
             "permissions": {
-                "view": "",
+                "view": "Lihat entri",
                 "like": "",
-                "participate": "",
-                "moderate": ""
+                "participate": "Berpartisipasi",
+                "moderate": "Memoderasi"
             },
             "settings": {
-                "maxEntriesPerUser": "",
+                "maxEntriesPerUser": "Jumlah kiriman maksimum per pengguna",
                 "colorMode": ""
             },
             "colors": {
                 "simple": "",
                 "all": "",
                 "custom": "",
-                "custom-help": ""
+                "custom-help": "Daftar nilai #hex atau rgb() yang dipisahkan dengan koma"
             }
         }
     }
