@@ -15,53 +15,53 @@
                 "enabled2fa": ""
             },
             "extension": {
-                "installed": "",
-                "updated": ""
+                "installed": "Ekstensi Terpasang `{1}`",
+                "updated": "Ekstensi yang diperbarui `{1}`"
             },
             "ip": {
-                "banned": "",
-                "unbanned": ""
+                "banned": "IP dicekal `{1}`",
+                "unbanned": "IP tidak dicekal `{1}`"
             }
         },
         "admin": {
             "settings": {
                 "services": {
-                    "custom": ""
+                    "custom": "Khusus"
                 },
                 "actions": {
                     "extiverse": {
                         "bazaar": {
-                            "title": "",
-                            "extensionwasinstalled": "",
-                            "extensionwasupdated": ""
+                            "title": "Extiverse Bazaar",
+                            "extensionwasinstalled": "Ekstensi Terpasang",
+                            "extensionwasupdated": "Ekstensi Diperbarui"
                         }
                     },
                     "fof": {
                         "banips": {
-                            "title": "",
-                            "ipwasbanned": "",
-                            "ipwasunbanned": ""
+                            "title": "FriendsOfFlarum Ban IPs",
+                            "ipwasbanned": "Dicekal",
+                            "ipwasunbanned": "Tidak dicekal"
                         },
                         "byobu": {
-                            "title": "",
+                            "title": "FriendsOfFlarum Byobu",
                             "discussionmadepublic": ""
                         },
                         "gamification": {
-                            "title": "",
+                            "title": "FriendsOfFlarum Gamification",
                             "postwasvoted": ""
                         },
                         "polls": {
-                            "title": "",
+                            "title": "FriendsOfFlarum Polls",
                             "pollwasvoted": "",
                             "pollwascreated": ""
                         },
                         "reactions": {
-                            "title": "",
+                            "title": "FriendsOfFlarum Reactions",
                             "postwasreacted": "",
                             "postwasunreacted": ""
                         },
                         "twofactor": {
-                            "title": "",
+                            "title": "FriendsOfFlarum Two Factor",
                             "userenabledtwofactor": ""
                         }
                     }
