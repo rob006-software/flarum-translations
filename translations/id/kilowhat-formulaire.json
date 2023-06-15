@@ -57,8 +57,8 @@
             "form-index": {
                 "header": {
                     "title": "=> kilowhat-formulaire.ref.manager",
-                    "documentation": "",
-                    "discuss": ""
+                    "documentation": "Dokumentasi online lengkap",
+                    "discuss": "Diskusi di Flarum Discuss"
                 },
                 "tabs": {
                     "standalone": "=> kilowhat-formulaire.ref.type.standalone",
@@ -78,12 +78,12 @@
                     "allow-modification": "",
                     "enabled": "",
                     "submissions": "",
-                    "actions": ""
+                    "actions": "Tindakan"
                 }
             },
             "global-settings": {
-                "title": "",
-                "admin-only": "",
+                "title": "Perizinan global",
+                "admin-only": "Hanya administrator forum yang dapat mengedit pengaturan global",
                 "permissions": {
                     "fill": "=> kilowhat-formulaire.ref.permissions.fill",
                     "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
@@ -149,8 +149,8 @@
                 },
                 "expert-mode-warning": "Mode expert diaktifkan. Hal ini memungkinkan Anda untuk menyesuaikan pengenal kolom dan izin per kolom. Pastikan Anda membaca dokumentasi tentang fitur-fitur tersebut, karena Anda mungkin akan merusaknya!\n",
                 "section": {
-                    "template": "",
-                    "permissions": ""
+                    "template": "Template",
+                    "permissions": "Perizinan"
                 },
                 "field": {
                     "link": "",
@@ -181,11 +181,11 @@
                     "tags": "",
                     "all-tags": ""
                 },
-                "auto-discussion-options": "",
-                "email-confirmation-options": "",
-                "email-notification-options": "",
-                "exiting-with-unsaved-data": "",
-                "preview": "",
+                "auto-discussion-options": "Opsi untuk diskusi baru",
+                "email-confirmation-options": "Template email konfirmasi",
+                "email-notification-options": "Template email pemberitahuan",
+                "exiting-with-unsaved-data": "Anda memiliki perubahan yang belum disimpan. Apakah Anda benar-benar ingin keluar dari halaman?",
+                "preview": "Pratinjau di tab baru",
                 "save-for-preview": ""
             },
             "auto-discussion-options-modal": {
@@ -193,23 +193,23 @@
                 "introduction": "",
                 "submit": "",
                 "field": {
-                    "title": "",
-                    "tags": "",
+                    "title": "Judul diskusi",
+                    "tags": "Tag diskusi",
                     "tags-help": "",
                     "content": ""
                 }
             },
             "confirmation-email-options-modal": {
-                "title": "",
+                "title": "Template email",
                 "submit": "",
                 "field": {
-                    "title": "",
+                    "title": "Judul",
                     "message": ""
                 }
             },
             "save-controls": {
                 "validation-errors": "",
-                "unsaved-changes": "",
+                "unsaved-changes": "Anda memiliki perubahan yang belum disimpan",
                 "saved-at": "",
                 "undo": "",
                 "redo": "",
@@ -217,7 +217,7 @@
             },
             "permission-controls": {
                 "inherit": "",
-                "everyone_button": "",
+                "everyone_button": "=> core.admin.permissions_controls.everyone_button",
                 "disabled_members_button": "",
                 "members_button": ""
             },
@@ -229,22 +229,22 @@
                 "fill-permission": "",
                 "required": "",
                 "rich": "",
-                "min": "",
-                "max": "",
-                "integer": "",
-                "email": "",
-                "regex": "",
-                "mime": "",
+                "min": "Minimum",
+                "max": "Maximum",
+                "integer": "Bilangan bulat",
+                "email": "Email",
+                "regex": "Regular expression",
+                "mime": "Jenis MIME (dipisahkan koma, menerima karakter pengganti sebagai bagian kedua)",
                 "other": "",
                 "duplicate": "",
                 "delete": "",
                 "missing-title": "",
                 "no-answer": "Tidak ada jawaban",
                 "type": {
-                    "short": "",
-                    "long": "",
-                    "number": "",
-                    "date": "",
+                    "short": "Teks pendek",
+                    "long": "Teks panjang",
+                    "number": "Angka",
+                    "date": "Tanggal",
                     "checkbox": "",
                     "radio": "",
                     "select": "",
@@ -255,11 +255,11 @@
             },
             "options-editor": {
                 "columns": {
-                    "title": "",
+                    "title": "Judul",
                     "key": ""
                 },
-                "remove": "",
-                "new-placeholder": ""
+                "remove": "Hapus opsi",
+                "new-placeholder": "Opsi baru..."
             },
             "items-editor": {
                 "add": "",
@@ -301,11 +301,11 @@
                 "load-more": "",
                 "empty": "",
                 "search": "",
-                "export": "",
+                "export": "Ekspor",
                 "columns": {
                     "date": "",
                     "user": "",
-                    "actions": ""
+                    "actions": "Tindakan"
                 }
             },
             "badge": {
@@ -328,11 +328,11 @@
             },
             "export": {
                 "title": "",
-                "format": "",
+                "format": "Format",
                 "heading": "",
                 "fields": "",
-                "meta": "",
-                "more-meta": "",
+                "meta": "Metadata",
+                "more-meta": "Opsi meta lainnya",
                 "option-keys": "",
                 "submit": "Download",
                 "preview": "Pratinjau",
@@ -368,12 +368,12 @@
                 }
             },
             "discussion-submission": {
-                "empty": "",
-                "edit": ""
+                "empty": "Belum ada data",
+                "edit": "Edit"
             },
             "discussion-composer": {
                 "field": {
-                    "tags": "",
+                    "tags": "Tag",
                     "poll": "",
                     "title": "Judul",
                     "content": ""
@@ -409,7 +409,7 @@
         "mail": {
             "title-your-submission": "",
             "title-new-submission": "",
-            "edit": "",
+            "edit": "Edit",
             "footer": "",
             "sub-entries": "",
             "no-answer": "Tidak ada jawaban"
@@ -441,8 +441,8 @@
                 "user_activated": "",
                 "link_id": "",
                 "locked_at": "",
-                "created_at": "",
-                "updated_at": "",
+                "created_at": "Tanggal Pembuatan",
+                "updated_at": "Tanggal Pembaruan",
                 "hidden_at": ""
             }
         }
