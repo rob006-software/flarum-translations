@@ -8,7 +8,7 @@
             "discussion_controls": {
                 "follow_button": "=> flarum-subscriptions.ref.follow",
                 "unfollow_button": "Berhenti mengikuti",
-                "unignore_button": "Abaikan"
+                "unignore_button": "Berhenti mengabaikan"
             },
             "following": {
                 "meta_title_text": "=> flarum-subscriptions.ref.following"
@@ -27,25 +27,25 @@
             "sub_controls": {
                 "follow_button": "=> flarum-subscriptions.ref.follow",
                 "following_button": "=> flarum-subscriptions.ref.following",
-                "following_text": "Dapatkan notifikasi dari semua balasan.",
+                "following_text": "Terima notifikasi dari semua balasan.",
                 "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
                 "ignoring_text": "Tidak ada notifikasi. Sembunyikan dari daftar diskusi.",
                 "not_following_button": "Tidak Mengikuti",
-                "not_following_text": "Dapatkan notifikasi hanya ketika di-@mention.",
+                "not_following_text": "Terima notifikasi hanya jika @disebutkan.",
                 "notify_alert_tooltip": "Dapatkan notifikasi forum ketika ada postingan baru",
                 "notify_email_tooltip": "Dapatkan email saat ada postingan baru"
             }
         },
         "email": {
             "new_post": {
-                "subject": "[New Post] {title}",
+                "subject": "[Post Baru] {title}",
                 "body": "Halo {recipient_display_name}!\n\n{poster_display_name} telah membuat post dalam diskusi yang Anda ikuti: {title}.\n\nUntuk melihatnya, kunjungi link berikut ini:\n{url}\n\n---\n\n{content}\n\n---\n\nAnda tidak akan menerima notifikasi lagi tentang diskusi ini sampai Anda mendapatkan informasi terbaru.\n"
             }
         },
         "ref": {
             "follow": "Ikuti",
             "following": "Mengikuti",
-            "ignoring": "Abaikan"
+            "ignoring": "Mengabaikan"
         }
     }
 }
