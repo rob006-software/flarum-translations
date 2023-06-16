@@ -27,18 +27,18 @@
                     "daily": "Harian"
                 },
                 "soft_404": {
-                    "heading": "",
-                    "help": "",
+                    "heading": "Pencegahan soft 404",
+                    "help": "Jika model tidak memiliki atau hanya memiliki sedikit konten yang relevan, Google dan crawler lainnya dapat menandainya sebagai halaman \"soft 404\". Untuk menghilangkan hal ini, tetapkan jumlah minimum item yang diperlukan untuk setiap item yang memenuhi syarat di sini.",
                     "user": {
                         "comments": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "User: Jumlah minimum komentar/postingan",
+                            "minimum_item_threshold_help": "Jumlah minimum komentar/postingan yang harus dimiliki seorang pengguna agar profil mereka dapat dimasukkan ke dalam sitemap."
                         }
                     },
                     "tags": {
                         "discussion": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "Tag: Jumlah minimum diskusi",
+                            "minimum_item_threshold_help": "Jumlah minimum diskusi yang harus dimiliki oleh sebuah tag agar dapat disertakan dalam sitemap."
                         }
                     }
                 }
