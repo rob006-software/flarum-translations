@@ -6,12 +6,12 @@
             },
             "settings": {
                 "button-on-profile-label": "Tampilkan tombol Ikuti secara langsung di header profil pengguna",
-                "stats-on-profile-label": "Tampilkan jumlah pengikut dan mengikuti pada profil pengguna"
+                "stats-on-profile-label": "Tampilkan jumlah pengikut dan yang mengikuti pada profil pengguna"
             }
         },
         "forum": {
-            "followed": "",
-            "followers": "",
+            "followed": "Diikuti",
+            "followers": "{count, plural, one {Pengikut} other {Pengikut}}",
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
                 "no_following": "Sepertinya Anda tidak mengikuti siapa pun."
@@ -24,7 +24,7 @@
                 "notify_new_follower_label": "Seseorang mengikuti Saya",
                 "notify_new_unfollower_label": "Seseorang berhenti mengikuti Saya",
                 "notify_new_discussion_label": "Seseorang yang Saya ikuti memulai diskusi",
-                "notify_new_post_label": "",
+                "notify_new_post_label": "Seseorang yang Saya ikuti memposting dalam diskusi yang ada",
                 "block_follow": "Cegah orang lain mengikuti saya"
             },
             "index": {
@@ -44,7 +44,7 @@
                 }
             },
             "filter": {
-                "following": ""
+                "following": "Pengguna yang diikuti"
             },
             "modals": {
                 "select_follow_level": {
@@ -68,7 +68,7 @@
             "new_post_body": "Halo {recipient_display_name},\n\n{user_display_name} memposting dalam sebuah diskusi: {discussion_title}\n\nUntuk melihat aktivitas terbaru, silakan kunjungi link berikut ini:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nAnda tidak akan menerima notifikasi lagi tentang diskusi ini sampai Anda mengikuti perkembangan terbaru.\n"
         },
         "lib": {
-            "following_link": "",
+            "following_link": "Pengguna Yang Diikuti",
             "follow": "Ikuti",
             "change_follow_type": "Ganti tipe follow (ikuti)",
             "follow_levels": {
