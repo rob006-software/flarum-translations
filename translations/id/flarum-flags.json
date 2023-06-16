@@ -2,8 +2,8 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "Melaporkan Post",
-                "view_flags_label": "Melihat Post Terlapor"
+                "flag_posts_label": "Menandai postingan",
+                "view_flags_label": "Melihat postingan yang ditandai"
             },
             "settings": {
                 "flag_own_posts_label": "Izinkan User untuk menandai postingan mereka sendiri",
@@ -13,7 +13,7 @@
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "Terima kasih sudah melaporkan. Moderator kami akan segera meninjaunya.",
+                "confirmation_message": "Terima kasih telah menandai postingan ini. Moderator kami akan memeriksanya.",
                 "dismiss_button": "=> core.ref.okay",
                 "reason_details_placeholder": "Detail tambahan (opsional)",
                 "reason_inappropriate_label": "Tidak pantas",
@@ -28,23 +28,23 @@
                 "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
-                "empty_text": "Tidak ada laporan",
+                "empty_text": "Tidak yang ditandai",
                 "item_text": "{username} di <em>{discussion}</em>",
                 "title": "=> flarum-flags.ref.flagged_posts",
                 "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
                 "dismiss_flag_button": "Abaikan",
-                "flagged_by_text": "Dilaporkan oleh {username}",
-                "flagged_by_with_reason_text": "Dilaporkan oleh {username} dengan alasan {reason}"
+                "flagged_by_text": "Ditandai oleh {username}",
+                "flagged_by_with_reason_text": "Ditandai oleh {username} dengan alasan {reason}"
             },
             "post_controls": {
-                "flag_button": "Laporkan"
+                "flag_button": "Tandai"
             }
         },
         "ref": {
             "flag_post": "Laporkan Post",
-            "flagged_posts": "Post Terlapor"
+            "flagged_posts": "Postingan Yang Ditandai"
         }
     }
 }
