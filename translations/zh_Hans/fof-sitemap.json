@@ -28,6 +28,22 @@
                     "twice_daily": "每天两次",
                     "daily": "每天一次"
                 },
+                "soft_404": {
+                    "heading": "",
+                    "help": "",
+                    "user": {
+                        "comments": {
+                            "minimum_item_threshold_label": "",
+                            "minimum_item_threshold_help": ""
+                        }
+                    },
+                    "tags": {
+                        "discussion": {
+                            "minimum_item_threshold_label": "",
+                            "minimum_item_threshold_help": ""
+                        }
+                    }
+                },
                 "mode_help_cache_disk_label": "缓存模式/磁盘模式",
                 "mode_help_cache_disk": "适用于中小型论坛，比如允许 cronjobs（计划任务） 和启用了 Flarum 调度器的主机环境下（见下文），主题数、用户数、标签数和页面数总和少于 5 万（最终生成的对应链接数小于 5 万）。",
                 "title": "FoF 站点地图"

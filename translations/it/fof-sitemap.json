@@ -28,6 +28,22 @@
                     "twice_daily": "Due volte al giorno",
                     "daily": "Giornalmente"
                 },
+                "soft_404": {
+                    "heading": "",
+                    "help": "",
+                    "user": {
+                        "comments": {
+                            "minimum_item_threshold_label": "",
+                            "minimum_item_threshold_help": ""
+                        }
+                    },
+                    "tags": {
+                        "discussion": {
+                            "minimum_item_threshold_label": "",
+                            "minimum_item_threshold_help": ""
+                        }
+                    }
+                },
                 "mode_help_cache_disk_label": "Cache Mode/Disk Mode",
                 "mode_help_cache_disk": "Scelta migliore per piccoli o medi forum, soprattuto quelli in ambienti di hosting con permesso di cronjobs che hanno abilitato la pianificazione di Flarum (vedi sotto), e con un numero di discussioni, utenti, categorie e pagine che in totale è inferiore a 50.000 oggetti.",
                 "title": "FoF Sitemap"

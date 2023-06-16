@@ -28,6 +28,22 @@
                     "twice_daily": "Два раза в день",
                     "daily": "Ежедневно"
                 },
+                "soft_404": {
+                    "heading": "",
+                    "help": "",
+                    "user": {
+                        "comments": {
+                            "minimum_item_threshold_label": "",
+                            "minimum_item_threshold_help": ""
+                        }
+                    },
+                    "tags": {
+                        "discussion": {
+                            "minimum_item_threshold_label": "",
+                            "minimum_item_threshold_help": ""
+                        }
+                    }
+                },
                 "mode_help_cache_disk_label": "Кэш/Диск",
                 "mode_help_cache_disk": "Для малых и средних форумов, на хостинге, позволяющем настройку cronjobs и включение планировщика Flarum. Общее количество дискуссий, пользователей и тегов в сумме не должно превышать 50 000 элементов.",
                 "title": "Карта сайта"
