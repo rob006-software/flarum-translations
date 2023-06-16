@@ -22,7 +22,7 @@
                 "hidden": "隐藏回复于 `{1}`",
                 "restored": "恢复回复于 `{1}`",
                 "deleted": "删除回复于 `{1}`",
-                "approved": ""
+                "approved": "在 `{1}` 中审核通过的帖子"
             },
             "user": {
                 "registered": "新注册会员",
@@ -106,8 +106,8 @@
                             "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "approval": {
-                            "title": "",
-                            "postwasapproved": ""
+                            "title": "Flarum 批准",
+                            "postwasapproved": "已通过的帖子"
                         }
                     }
                 }
