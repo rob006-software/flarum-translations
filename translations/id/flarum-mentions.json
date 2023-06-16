@@ -6,12 +6,12 @@
             },
             "settings": {
                 "allow_username_format_label": "Izinkan format penyebutan username (@Username)",
-                "allow_username_format_text": "Format saat ini untuk user mention adalah @\"Display Name\"#ID.\nPengaturan ini memungkinkan penggunaan format lama @Username, namun akan tetap dikonversi ke format baru setelah disimpan.\n"
+                "allow_username_format_text": "Format saat ini untuk sebutan pengguna adalah @\"Display Name\"#ID.\nPengaturan ini memungkinkan penggunaan format lama @Username, namun format ini masih akan dikonversi ke format baru setelah disimpan.\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "Me-mention user, grup, atau postingan",
+                "mention_tooltip": "Menyebutkan pengguna, grup, atau postingan",
                 "reply_to_post_text": "Balas ke #{number}"
             },
             "mentioned_by": {
@@ -21,8 +21,8 @@
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} menjawab post Anda",
-                "user_mentioned_text": "{username} me-mention Anda",
-                "group_mentioned_text": "{username} me-mention grup tempat Anda terdaftar sebagai anggota"
+                "user_mentioned_text": "{username} menyebutkan Anda",
+                "group_mentioned_text": "{username} menyebutkan grup yang Anda ikuti"
             },
             "post": {
                 "mentioned_by_more_text": "{count} balasan lagi.",
@@ -35,11 +35,11 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "Seseorang membalas post Saya",
-                "notify_user_mentioned_label": "Seseorang me-mention saya dalam sebuah postingan",
-                "notify_group_mentioned_label": "Seseorang me-mention grup tempat saya menjadi anggota dalam sebuah post"
+                "notify_user_mentioned_label": "Seseorang menyebut Saya dalam sebuah postingan",
+                "notify_group_mentioned_label": "Seseorang menyebut grup tempat Saya menjadi anggota dalam sebuah postingan"
             },
             "user": {
-                "mentions_link": "Mention"
+                "mentions_link": "Menyebutkan"
             },
             "post_mention": {
                 "deleted_text": "[tidak diketahui]"
@@ -54,12 +54,12 @@
                 "body": "Halo {recipient_display_name}!\n\n{replier_display_name} membalas post Anda (#{post_number}) di {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "{mentioner_display_name} me-mention Anda di {title}",
-                "body": "Halo {recipient_display_name}!\n\n{mentioner_display_name} me-mention Anda dalam sebuah post di {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "subject": "{mentioner_display_name} menyebutkan Anda di {title}",
+                "body": "Halo {recipient_display_name}!\n\n{mentioner_display_name} menyebut Anda dalam sebuah postingan di {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "{mentioner_display_name} me-mention sebuah grup yang Anda ikuti di {title}",
-                "body": "Halo {recipient_display_name}!\n\n{mentioner_display_name} me-mention grup Anda di {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "subject": "{mentioner_display_name} menyebutkan grup yang Anda ikuti di {title}",
+                "body": "Halo {recipient_display_name}!\n\n{mentioner_display_name} menyebutkan sebuah grup yang Anda ikuti di {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
