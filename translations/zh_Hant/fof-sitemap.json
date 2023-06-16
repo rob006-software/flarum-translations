@@ -27,18 +27,18 @@
                     "daily": "每天一次"
                 },
                 "soft_404": {
-                    "heading": "",
-                    "help": "",
+                    "heading": "軟 404 預防",
+                    "help": "當模型沒有相關內容或相關內容很少時，Google 和其他抓取工具可能會將這些標記為“軟 404”頁面。 要消除這種情況，請在此處設置每個符合條件的項目所需的最少項目數。",
                     "user": {
                         "comments": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "用戶：評論/帖子的最少數量",
+                            "minimum_item_threshold_help": "要將用戶的個人資料包含在站點地圖中，用戶必須擁有的最少評論/帖子數。"
                         }
                     },
                     "tags": {
                         "discussion": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "標籤：最少討論數",
+                            "minimum_item_threshold_help": "標籤必須包含在站點地圖中的最小討論數。"
                         }
                     }
                 }
