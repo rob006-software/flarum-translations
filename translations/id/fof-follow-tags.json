@@ -16,20 +16,20 @@
             },
             "badge": {
                 "following_tag_tooltip": "Mengikuti",
-                "lurking_tag_tooltip": ""
+                "lurking_tag_tooltip": "Mengamati"
             },
             "sub_controls": {
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
-                "following_text": "Dapatkan notifikasi tentang semua diskusi baru.",
+                "following_text": "Menerima notifikasi tentang semua diskusi baru.",
                 "hiding_button": "=> fof-follow-tags.ref.hiding",
-                "hiding_text": "Sembunyikan diskusi dari halaman Semua Diskusi.",
+                "hiding_text": "Menyembunyikan diskusi dari halaman Semua Diskusi.",
                 "ignoring_button": "=> fof-follow-tags.ref.ignoring",
-                "ignoring_text": "Hentikan notifikasi.",
+                "ignoring_text": "Tidak menerima notifikasi apapun.",
                 "lurking_button": "=> fof-follow-tags.ref.lurking",
-                "lurking_text": "Dapatkan notifikasi tentang semua diskusi dan balasan yang baru.",
+                "lurking_text": "Menerima notifikasi tentang semua diskusi dan balasan baru.",
                 "not_following_button": "Tidak Mengikuti",
-                "not_following_text": "Hanya akan mendapat notifikasi jika @di-mention.",
+                "not_following_text": "Hanya menerima notifikasi ketika @disebutkan.",
                 "notify_alert_tooltip": "Dapatkan notifikasi forum ketika ada diskusi atau postingan baru",
                 "notify_email_tooltip": "Dapatkan email ketika ada diskusi atau postingan baru"
             },
@@ -67,7 +67,7 @@
         "ref": {
             "follow": "Ikuti",
             "following": "Mengikuti",
-            "hiding": "",
+            "hiding": "Bersembunyi",
             "ignoring": "Mengabaikan",
             "lurking": "",
             "filtering_options": {
