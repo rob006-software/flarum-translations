@@ -7,7 +7,7 @@
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Hapus Tag",
-                "delete_tag_confirmation": "Anda yakin ingin menghapusnya? Tag diskusi tidak akan ikut terhapus.",
+                "delete_tag_confirmation": "Apakah Anda yakin ingin menghapus tag ini? Diskusi pada tag tersebut TIDAK akan ikut terhapus.",
                 "description_label": "Deskripsi",
                 "hide_label": "Sembunyikan dari Semua Diskusi",
                 "icon_label": "=> core.ref.icon",
@@ -37,7 +37,7 @@
                 "required_primary_text": "Masukkan jumlah minimum dan maksimum yang akan diterapkan untuk forum diskusi.",
                 "required_secondary_heading": "Jumlah Tag Sekunder yang Diperlukan",
                 "required_secondary_text": "Masukkan jumlah minimum dan maksimum yang akan diterapkan untuk forum diskusi.",
-                "title": "Pengaturan"
+                "title": "Pengaturan Tag"
             },
             "tags": {
                 "about_tags_text": "Tag digunakan untuk mengkategorikan diskusi. Tag primer seperti kategori forum tradisional: mereka dapat diatur dalam hirarki dua tingkat. Tag sekunder tidak memiliki hirarki, dan berguna untuk mikro-kategorisasi.",
@@ -58,7 +58,7 @@
                 "title": "Pilih Tag Untuk Diskusi Anda"
             },
             "composer_discussion": {
-                "choose_tags_link": "Pilih Tag"
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
                 "edit_tags_button": "Edit Tag"
