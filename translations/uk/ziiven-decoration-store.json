@@ -75,9 +75,9 @@
             "shopping-cart-close": "Закрити",
             "purchase-history": "Історія покупок",
             "purchase-confirmation": "Підтвердження покупки",
-            "purchase-subscribe-confirmation": "",
-            "purchase-unsubscribe-confirmation": "",
-            "purchase-success": "",
+            "purchase-subscribe-confirmation": "Ви впевнені, що хочете заплатити {cost}, щоб підписатися на цю послугу?",
+            "purchase-unsubscribe-confirmation": "Ви впевнені, що хочете відписатися від цієї послуги?",
+            "purchase-success": "Успіх покупки",
             "purchase-add-cart": "Додати в кошик",
             "purchase-now": "До покупок",
             "purchase-error": "Помилка покупки",
@@ -85,9 +85,9 @@
             "purchase-error-item-alreay-have": "Ви вже маєте цей товар",
             "notification-receive-subscription": "Відрахування абонентської плати",
             "notifications": {
-                "subscription-expired": "",
-                "subscription-expired-excerpt": "",
-                "subscription-fee-deduction": "",
+                "subscription-expired": "Ваша підписка на {title} закінчилася",
+                "subscription-expired-excerpt": "У вас немає {cost} для підписки",
+                "subscription-fee-deduction": "Абонентська плата за підписку на {title}",
                 "subscription-fee-deduction-excerpt": "Вартість {cost}"
             }
         },
@@ -110,7 +110,7 @@
             "item-activate-status-down": "Деактивлвано",
             "item-activate-status-up": "Активовано",
             "item-property-style": "Стиль",
-            "item-property-style-help-text": "",
+            "item-property-style-help-text": "Ви можете додати власний стиль тексту в CSS і ввести назву стилю в поле введення нижче.",
             "item-property-style-text-effect": "Перегляд тексту",
             "item-property-style-select-from-gallery": "Вбудований стиль",
             "item-property-image": "Зображення",
@@ -120,7 +120,7 @@
             "item-activate-confirmation": "Ви впевнені, що бажаєте активувати цей товар?",
             "item-deactivate-confirmation": "Ви впевнені, що бажаєте деактивувати цей товар?",
             "item-delete-confirmation": "Ви впевнені, що хочете видалити цей товар?",
-            "gallery-image-in-use": "",
+            "gallery-image-in-use": "{count} товар використовує",
             "settings": {
                 "display-name": "Показати назву",
                 "display-name-default": "Decoration Store",
