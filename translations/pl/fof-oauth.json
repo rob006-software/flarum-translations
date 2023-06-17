@@ -5,8 +5,8 @@
             "settings_accessibility_label": "Ustawienia {name}",
             "settings": {
                 "only_icons_label": "Pokaż tylko ikony w przyciskach do logowania (alternatywny układ)",
-                "update_email_from_provider_label": "",
-                "update_email_from_provider_help": "",
+                "update_email_from_provider_label": "Zaktualizuj adres e-mail od dostawcy",
+                "update_email_from_provider_help": "Jeśli to ustawienie jest włączone, adres e-mail użytkownika zostanie zaktualizowany, aby pasował do adresu podanego przez dostawcę OAuth przy każdym logowaniu na forum. Nie wszyscy dostawcy zapewniają zaktualizowany adres e-mail, w którym to przypadku to ustawienie nie będzie miało żadnego wpływu na tych dostawców.",
                 "providers": {
                     "callback_url_text": "Jeśli to konieczne, ustaw adres zwrotny (callback URL) na {url}.",
                     "discord": {
