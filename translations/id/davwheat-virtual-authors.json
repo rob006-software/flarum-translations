@@ -2,87 +2,87 @@
     "davwheat-virtual-authors": {
         "admin": {
             "permissions": {
-                "set_virtual_authors": "Atur penulis virtual pada diskusi",
-                "view_virtual_authors_page": "Lihat halaman yang merinci semua penulis virtual"
+                "set_virtual_authors": "Atur virtual author pada diskusi",
+                "view_virtual_authors_page": "Lihat halaman detail semua virtual author"
             },
             "settings": {
-                "errored": "Gagal memuat penulis virtual dari server.",
-                "create_new": "",
-                "auto_save_message": "",
-                "search_placeholder": "",
-                "link_to_va_from_discussion": "",
-                "authors_in_sidebar": "",
-                "authors_in_sidebar_help": "",
-                "virtual_authors_page_disabled": "",
-                "virtual_authors_page_disabled_help": "",
-                "discussion_badge": "",
+                "errored": "Gagal memuat virtual author dari server.",
+                "create_new": "Membuat virtual author baru",
+                "auto_save_message": "Membuat virtual author baru dan mengedit virtual author yang sudah ada akan tersimpan secara otomatis.",
+                "search_placeholder": "Cari berdasarkan nama",
+                "link_to_va_from_discussion": "Tampilkan link ke semua diskusi oleh virtual author di kotak 'Author'",
+                "authors_in_sidebar": "Tampilkan author di sidebar, alih-alih di atas postingan pertama",
+                "authors_in_sidebar_help": "Hal ini tidak berpengaruh pada ekstensi Blog.",
+                "virtual_authors_page_disabled": "Nonaktifkan daftar virtual author untuk semua pengguna.",
+                "virtual_authors_page_disabled_help": "Ini akan menimpa semua izin yang ditetapkan untuk fitur ini.",
+                "discussion_badge": "Tampilkan badge pada diskusi dengan Virtual Author",
                 "prev": "Halaman sebelumnya",
                 "next": "Halaman selanjutnya"
             },
             "virtual_author_item": {
-                "id": "",
-                "name": "",
+                "id": "ID",
+                "name": "Nama tampilan",
                 "description": "Deskripsi",
                 "no_description": "=> davwheat-virtual-authors.ref.no_description",
-                "edit": "",
-                "delete_confirmation": "",
+                "edit": "Edit virtual author",
+                "delete_confirmation": "Menghapus virtual author?",
                 "delete_a11y_tooltip": "Hapus"
             }
         },
         "lib": {
             "edit_modal": {
-                "title_edit": "",
-                "title_new": "",
+                "title_edit": "Edit virtual author",
+                "title_new": "Virtual author baru",
                 "submit_edit": "Simpan perubahan",
-                "submit_new": "",
+                "submit_new": "Buat virtual author",
                 "fields": {
-                    "name": "",
-                    "description": ""
+                    "name": "Nama tampilan",
+                    "description": "Deskripsi (tentang author)"
                 }
             },
-            "discussion-badge": ""
+            "discussion-badge": "{count, plural, one {Memiliki virtual author}, other {Memiliki virtual author}}"
         },
         "forum": {
             "virtual_author_page": {
-                "meta_title": "",
-                "credited_discussions": "",
+                "meta_title": "{displayName} - Author",
+                "credited_discussions": "Diskusi dikreditkan ke {displayName}",
                 "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count"
             },
             "virtual_authors_list": {
-                "sidebar_link": "",
-                "empty_text": "",
-                "title": "",
-                "meta_title": "",
-                "filter_name_placeholder": "",
-                "discussion_count": "",
+                "sidebar_link": "Author",
+                "empty_text": "Tampaknya tidak ada author di sini.",
+                "title": "Semua author",
+                "meta_title": "Semua author",
+                "filter_name_placeholder": "Filter berdasarkan nama",
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count",
                 "no_description": "Penulis ini menyimpan kesan misterius tentang mereka."
             },
             "virtual_authors_panel": {
-                "heading": "",
-                "error": "",
-                "item_link_tooltip": ""
+                "heading": "Author",
+                "error": "Gagal memuat author.",
+                "item_link_tooltip": "Lihat semua diskusi yang dibuat oleh {displayName}"
             },
             "discussion_controls": {
-                "set_virtual_authors": ""
+                "set_virtual_authors": "Atur virtual author"
             },
             "set_modal": {
-                "title": "",
-                "existing": "",
-                "add_new": "",
-                "none_existing": "",
-                "search": "",
+                "title": "Atur virtual author",
+                "existing": "Virtual author saat ini",
+                "add_new": "Pilih virtual author baru",
+                "none_existing": "Tidak ada virtual author yang dipilih.",
+                "search": "Mencari virtual author",
                 "credit_placeholder": "",
-                "delete_confirmation": "",
+                "delete_confirmation": "Menghapus virtual author dari diskusi?",
                 "delete_button": "Hapus",
                 "add_button": "Tambah",
                 "added_button": "Ditambahkan",
-                "no_description": "",
+                "no_description": "=> davwheat-virtual-authors.ref.no_description",
                 "virtual_author_exists": "Sudah dipilih!",
                 "save": "Simpan perubahan"
             }
         },
         "ref": {
-            "no_description": "",
+            "no_description": "(tidak ada deskripsi)",
             "discussion_count": "{count, plural, one {# diskusi}, other {# diskusi}}"
         }
     }
