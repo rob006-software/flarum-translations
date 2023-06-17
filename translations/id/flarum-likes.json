@@ -2,11 +2,11 @@
     "flarum-likes": {
         "admin": {
             "permissions": {
-                "like_posts_label": "Memberikan like pada postingan"
+                "like_posts_label": "Menyukai postingan"
             },
             "settings": {
-                "like_own_posts_help": "Saat diaktifkan, user dapat memberikan 'like' pada postingan mereka sendiri. Untuk mencegah user memberikan 'like' pada postingan mereka sendiri, nonaktifkan pengaturan ini.",
-                "like_own_posts_label": "User dapat memberikan Like pada postingan mereka sendiri"
+                "like_own_posts_help": "Jika diaktifkan, tergantung pada perizinan, pengguna dapat menyukai postingan mereka sendiri di forum. Untuk mencegah pengguna memberikan 'suka' pada postingan mereka sendiri, nonaktifkan pengaturan ini.",
+                "like_own_posts_label": "Pengguna dapat menyukai postingan mereka sendiri"
             }
         },
         "forum": {
@@ -15,11 +15,11 @@
                 "post_liked_text": "{username} menyukai post Anda"
             },
             "post": {
-                "like_link": "Like",
+                "like_link": "Suka",
                 "liked_by_self_text": "{users} menyukai ini.",
-                "liked_by_text": "{count, plural, one {{users} likes this} other {{users} like this}}",
+                "liked_by_text": "{count, plural, one {{users} menyukai ini} other {{users} menyukai ini}}.",
                 "others_link": "=> core.ref.some_others",
-                "unlike_link": "Hapus Like",
+                "unlike_link": "Tidak suka",
                 "you_text": "=> core.ref.you"
             },
             "post_likes": {
@@ -27,10 +27,10 @@
                 "load_more_button": "=> core.ref.load_more"
             },
             "settings": {
-                "notify_post_liked_label": "Seseorang nge-like salah satu postingan Saya"
+                "notify_post_liked_label": "Seseorang menyukai salah satu postingan saya"
             },
             "user": {
-                "likes_link": "Like"
+                "likes_link": "Suka"
             }
         }
     }
