@@ -314,9 +314,9 @@
             },
             "error-page": {
                 "denied-title": "",
-                "denied-description": "",
-                "notfound-title": "",
-                "notfound-description": ""
+                "denied-description": "Sepertinya Anda tidak memiliki akses ke konten ini. Coba login.",
+                "notfound-title": "Tidak ditemukan",
+                "notfound-description": "Konten ini bisa jadi tidak ada, atau mungkin Anda tidak memiliki akses ke sana."
             },
             "submission-sort": {
                 "latest": "",
@@ -419,7 +419,7 @@
             "type": {
                 "standalone": "",
                 "discussion": "",
-                "user": ""
+                "user": "Profil pengguna"
             },
             "permissions": {
                 "fill": "",
@@ -436,8 +436,8 @@
                 "uid": "",
                 "user_id": "",
                 "user_username": "Username",
-                "user_displayname": "",
-                "user_email": "",
+                "user_displayname": "Nama Tampilan Pengguna",
+                "user_email": "Email Pengguna",
                 "user_activated": "",
                 "link_id": "",
                 "locked_at": "",
