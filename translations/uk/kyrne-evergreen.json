@@ -2,55 +2,55 @@
     "kyrne-evergreen": {
         "forum": {
             "post": {
-                "show_replies": "",
-                "show_reply": ""
+                "show_replies": "Показати відповіді: {count}",
+                "show_reply": "Показати відповіді: {count}"
             }
         }
     },
     "flarum-mentions": {
         "admin": {
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "Дозволити формат згадування імені користувача (@Username)",
+                "allow_username_format_text": "Поточний формат згадок про користувачів – @\"Display Name\"#ID.\nЦей параметр дозволяє використовувати старий формат @Username, однак при збереженні він все одно буде перетворений у новий формат.\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "",
-                "reply_to_post_text": ""
+                "mention_tooltip": "Згадати користувача або допис",
+                "reply_to_post_text": "Відповідь #{number}"
             },
             "notifications": {
-                "others_text": "",
-                "post_mentioned_text": "",
-                "user_mentioned_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "Користувач {username} відповів на ваше повідомлення",
+                "user_mentioned_text": "Користувач {username} згадував вас"
             },
             "post": {
-                "mentioned_by_self_text": "",
-                "mentioned_by_text": "",
-                "others_text": "",
-                "quote_button": "",
-                "reply_link": "",
-                "you_text": ""
+                "mentioned_by_self_text": "{users} відповіли на це.",
+                "mentioned_by_text": "{users} відповіли на це.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Цитата",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
             },
             "settings": {
-                "notify_post_mentioned_label": "",
-                "notify_user_mentioned_label": ""
+                "notify_post_mentioned_label": "Хтось відповів на один з моїх дописів",
+                "notify_user_mentioned_label": "Хтось згадує мене в дописі"
             },
             "user": {
-                "mentions_link": ""
+                "mentions_link": "Згадки"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[невідомо]"
             }
         },
         "email": {
             "post_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "Користувач {replier_display_name} відповів на ваше повідомлення у {title}",
+                "body": "Привіт, {recipient_display_name}!\n\n{replier_display_name} відповів на ваше повідомлення (#{post_number}) у {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "Користувач {mentioner_display_name} згадав вас у {title}",
+                "body": "Привіт, {recipient_display_name}!\n\nКористувач {mentioner_display_name} згадав вас у дописі в {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
