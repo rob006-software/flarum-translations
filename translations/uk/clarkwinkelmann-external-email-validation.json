@@ -2,25 +2,25 @@
     "clarkwinkelmann-external-email-validation": {
         "admin": {
             "settings": {
-                "method": "",
-                "uri": "",
-                "uri-help": "",
-                "body": "",
-                "body-help": "",
-                "headers": "",
-                "headers-help": "",
-                "use-response-status": "",
-                "use-response-status-help": "",
-                "response-success-key": "",
-                "response-success-key-help": "",
-                "default-error-message": "",
-                "default-error-message-help": "",
-                "response-error-key": "",
-                "response-error-key-help": ""
+                "method": "Метод запиту",
+                "uri": "Запит URI",
+                "uri-help": "Ви можете вставити шорткоди, які будуть замінені значенням електронної пошти, див. README.",
+                "body": "Тіло запиту",
+                "body-help": "Ви можете вставити шорткоди, які будуть замінені значенням електронної пошти, див. README.",
+                "headers": "Заголовок запиту",
+                "headers-help": "Один заголовок у рядку",
+                "use-response-status": "Використовуйте статус HTTP-відповіді для статусу валідності",
+                "use-response-status-help": "2xx відповідей будуть вважатися дійсними. 4xx відповідей будуть вважатися недійсними.",
+                "response-success-key": "Шлях до JSON атрибуту з дійсним статусом",
+                "response-success-key-help": "Шлях у форматі <code>key1.key2.key3</code>. Буде витягнуто за допомогою хелпера Laravel <code>Arr::get</code>. Значення буде перетворено в булеве. Впливає тільки в тому випадку, якщо не використовується HTTP-статус. Буде згенеровано виключення, якщо відповідь не є валідним JSON.\n",
+                "default-error-message": "Повідомлення про помилку за налаштуванням",
+                "default-error-message-help": "Це повідомлення буде показано користувачеві, коли перевірка електронної пошти завершиться невдало, якщо не вдасться знайти жодного іншого повідомлення. Якщо ви хочете, щоб це повідомлення було перекладено, залиште поле порожнім і налаштуйте вбудоване повідомлення про помилку за замовчуванням за допомогою Linguist.\n",
+                "response-error-key": "Шлях до атрибуту JSON з повідомленням про помилку",
+                "response-error-key-help": "Шлях у форматі <code>key1.key2.key3</code>. Буде витягнуто за допомогою помічника Laravel <code>Arr::get</code>. Якщо ключ не буде знайдено, буде показано повідомлення про помилку за замовчуванням.\n"
             }
         },
         "api": {
-            "email-validation-error": ""
+            "email-validation-error": "Імейл не пройшов зовнішню перевірку."
         }
     }
 }
