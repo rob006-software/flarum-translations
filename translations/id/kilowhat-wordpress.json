@@ -3,11 +3,11 @@
         "admin": {
             "settings": {
                 "section_general_intro": "Pengaturan dasar yang diperlukan agar ekstensi dapat berfungsi.",
-                "api_key": "",
-                "wordpress_url": "",
+                "api_key": "Flarum API Key",
+                "wordpress_url": "URL WordPress",
                 "wordpress_username": "",
                 "section_sso_intro": "Fitur ini akan menghubungkan pengguna WordPress dengan Flarum secara mulus. Sebuah akun akan secara otomatis dibuat untuk mereka dan disinkronkan dengan WordPress. Jika Anda memiliki akun yang sudah ada di Flarum, akun tersebut akan secara otomatis dicocokkan dengan email mereka. Jika Anda menghapus pengguna di Flarum, pengguna tersebut akan dibuat lagi saat akun WordPress melakukan login. Untuk memblokir pengguna Flarum, tangguhkan akun di Flarum.\n",
-                "enable_sso": "",
+                "enable_sso": "Aktifkan integrasi SSO",
                 "cookie_domain": "",
                 "cookie_domain_help": "Hanya diperlukan jika berbeda dari domain Flarum",
                 "wordpress_login_path": "",
@@ -19,9 +19,9 @@
                     "random": ""
                 },
                 "username_strategy_help": "Nomor akan ditambahkan ke username jika sudah ada di Flarum",
-                "force_username_choice": "",
+                "force_username_choice": "Buat pengguna memilih username mereka pada kunjungan pertama",
                 "force_username_choice_help": "Nilai default akan diberikan dengan aturan yang dipilih di atas.",
-                "welcome_message": "",
+                "welcome_message": "Pesan pengantar",
                 "welcome_message_help": "Pesan ini akan ditampilkan saat pertama kali pengguna mengunjungi forum, bersama dengan pilihan username jika diaktifkan.",
                 "wordpress_login_only": "",
                 "wordpress_login_only_help": "Menonaktifkan login Flarum dan langsung membuka modal login WordPress ketika login diperlukan. Ini akan secara otomatis mengatur izin \"Daftar\" menjadi Ditutup.\n",
@@ -32,23 +32,23 @@
                     "suspend": "Tangguhkan pengguna Flarum tanpa batas waktu (Ekstensi Suspend harus diaktifkan)"
                 },
                 "user_delete_desc": "Jika Anda memilih \"hapus\", hanya pengguna yang akan dihapus, bukan konten mereka di Flarum.",
-                "section_comments_intro": "",
-                "enable_comments": "",
+                "section_comments_intro": "Fitur ini menggantikan komentar WordPress dengan iframe Flarum. Postingan dari tamu tidak lagi dapat dilakukan. Diskusi hanya dibuat untuk post dengan komentar yang diaktifkan di WordPress. Mengaktifkan atau menonaktifkan komentar disinkronkan dengan Flarum's discussion lock. Jika blog Anda sudah berisi postingan ketika Anda mengaktifkan fitur ini, Anda perlu mengaktifkan dan menonaktifkan komentar lagi pada setiap artikel agar diskusi Flarum dapat dibuat.\n",
+                "enable_comments": "Aktifkan integrasi komentar",
                 "excerpt_html_whitelist": "",
                 "excerpt_html_nodes": "",
                 "excerpt_length": "",
                 "post_thumbnail_summary": "",
-                "post_thumbnail_list": "",
+                "post_thumbnail_list": "Tampilkan thumbnail postingan WordPress di daftar diskusi Flarum",
                 "comment_author_sync": "",
-                "comment_author_sync_help": "",
+                "comment_author_sync_help": "Jika penulis Wordpress telah membuat akun Flarum melalui SSO, akun Flarum tersebut akan ditetapkan sebagai pemilik diskusi komentar.",
                 "comment_tag": "",
                 "comment_tag_none": "",
                 "comment_tag_custom": "",
                 "comment_tag_custom_help": "",
                 "summary_as_last_post": "",
                 "summary_as_last_post_help": "",
-                "use_post_date": "",
-                "use_post_date_help": "",
+                "use_post_date": "Gunakan tanggal postingan WordPress sebagai tanggal pembuatan diskusi",
+                "use_post_date_help": "Secara default, diskusi Flarum akan menggunakan waktu saat ini sebagai tanggal pembuatannya. Opsi ini memungkinkan pembuatan diskusi dengan tanggal lampau jika postingan WordPress juga memiliki tanggal lampau.\n",
                 "post_hide": "Tindakan saat postingan WordPress disembunyikan (dibuang atau dipindahkan ke draft)",
                 "post_hide_options": {
                     "ignore": "Abaikan (mengunci diskusi sesuai dengan Izinkan Komentar)",
@@ -99,10 +99,10 @@
             },
             "wizard": {
                 "intro": "Terima kasih telah membeli ekstensi WordPress premium saya! Isi kredensial Anda di bawah ini untuk menghubungkan Flarum dan WordPress secara otomatis.\n",
-                "wordpress_url": "",
-                "wordpress_url_help": "",
-                "wordpress_username": "",
-                "wordpress_password": "",
+                "wordpress_url": "URL WordPress",
+                "wordpress_url_help": "Sebuah link ke halaman homepage WordPress Anda",
+                "wordpress_username": "Username admin WordPress",
+                "wordpress_password": "Password admin WordPress",
                 "wordpress_password_help": "Password hanya digunakan untuk konfigurasi awal dan tidak akan disimpan.",
                 "install": "Install"
             }
@@ -123,15 +123,15 @@
                 "unlink_help": "Jika email tersebut cocok dengan pengguna WordPress, maka email tersebut akan dihubungkan lagi pada saat pengguna tersebut terhubung di WordPress."
             },
             "settings": {
-                "edit_on_wordpress": ""
+                "edit_on_wordpress": "Ganti email dan password di situs web utama"
             },
             "log_in": {
                 "with_wordpress_button": "Login dengan WordPress"
             },
             "summary-post": {
                 "head_label": "",
-                "blog_link": "",
-                "read_more": ""
+                "blog_link": "Baca di blog",
+                "read_more": "Baca lebih lanjut"
             },
             "embed": {
                 "title": "Komentar"
