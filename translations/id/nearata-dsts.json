@@ -2,21 +2,21 @@
     "nearata-dsts": {
         "admin": {
             "permissions": {
-                "can_bypass_like": "Dapat mem-bypass Like",
-                "can_bypass_reply": "Dapat mem-bypass balasan (reply)",
-                "can_bypass_login": "Dapat mem-bypass login",
+                "can_bypass_like": "Dapat melewati keharusan untuk menyukai postingan",
+                "can_bypass_reply": "Dapat melewati keharusan untuk membalas",
+                "can_bypass_login": "Dapat melewati keharusan untuk login",
                 "can_use_bbcode": "Dapat menggunakan BBCode"
             },
             "settings": {
                 "enabled": "Diaktifkan",
                 "hide_only_first_post": "Sembunyikan hanya postingan pertama",
-                "require_like": "Membutuhkan like",
+                "require_like": "Membutuhkan \"Suka\"",
                 "require_reply": "Membutuhkan balasan",
                 "fof_upload": {
-                    "enabled": "Diaktifkan",
+                    "enabled": "=> nearata-dsts.admin.settings.enabled",
                     "section_title": "FoF Upload",
-                    "require_reply": "Membutuhkan balasan",
-                    "require_like": "Membutuhkan like"
+                    "require_reply": "=> nearata-dsts.admin.settings.require_reply",
+                    "require_like": "=> nearata-dsts.admin.settings.require_like"
                 }
             }
         },
@@ -24,17 +24,17 @@
             "post": {
                 "login_tooltip": "Anda harus login terlebih dahulu untuk melihat konten",
                 "reply_tooltip": "Anda harus membalas diskusi terlebih dahulu untuk melihat konten",
-                "like_tooltip": "Anda harus memberikan Like pada postingan untuk melihat konten",
+                "like_tooltip": "Anda harus menyukai postingan untuk melihat kontennya",
                 "fof_upload": {
                     "login_text": "Anda harus login terlebih dahulu untuk melihat file tersebut",
                     "reply_text": "Anda harus membalas diskusi untuk melihat file tersebut",
-                    "like_text": "Anda harus memberikan Like pada postingan untuk melihat file tersebut"
+                    "like_text": "Anda harus menyukai postingan untuk melihat file tersebut"
                 },
                 "bbcode": {
                     "hidden_content": "Konten Tersembunyi",
                     "login_text": "Anda harus login terlebih dahulu untuk melihat konten ini",
                     "reply_text": "Anda harus membalas diskusi untuk melihat konten ini",
-                    "like_text": "Anda harus memberikan Like pada postingan untuk melihat konten ini"
+                    "like_text": "Anda harus menyukai postingan untuk melihat konten ini"
                 }
             },
             "composer": {
