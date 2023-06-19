@@ -11,7 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "חלק עליון מותאם אישית",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_cannot_use_less_features": "",
+                "custom_styles_cannot_use_less_features": "@import ופיצר data-uri אינם מורשים בתוך LESS מתואם אישית.",
                 "custom_styles_heading": "סגנונות מותאמים אישית",
                 "custom_styles_text": "התאם אישית את מראה הפורום על ידי הוספת קוד CSS/LESS שיוכל לשנות את עיצוב ברירת המחדל.",
                 "dark_mode_label": "מצב חשוך",
@@ -45,14 +45,14 @@
                 "welcome_banner_text": "ערוך את הטקסט שמופיע בחלון קבלת הפנים בדף כל הדיונים. השתמש בו כדי לקבל את פניהם של האורחים לפורום שלך."
             },
             "create_user": {
-                "email_placeholder": "",
-                "email_confirmed_label": "",
-                "password_placeholder": "",
-                "submit_and_create_another_button": "",
-                "submit_button": "",
-                "title": "",
-                "use_random_password": "",
-                "username_placeholder": ""
+                "email_placeholder": "=> core.ref.email",
+                "email_confirmed_label": "דרוש ממשתמש לאשר מייל זה",
+                "password_placeholder": "=> core.ref.password",
+                "submit_and_create_another_button": "יצירה והוספה נוספת",
+                "submit_button": "יצירת משתמש",
+                "title": "יצירת משתמש חדש",
+                "use_random_password": "יצירת סיסמה אקראית",
+                "username_placeholder": "=> core.ref.username"
             },
             "dashboard": {
                 "clear_cache_button": "ניקוי מטמון",
@@ -187,7 +187,7 @@
                 "search_placeholder": "חיפוש הרחבות"
             },
             "permissions": {
-                "allow_hide_own_posts_label": "",
+                "allow_hide_own_posts_label": "אפשר להסיר הודעות עצמיות",
                 "allow_post_editing_label": "עריכת פוסט",
                 "allow_renaming_label": "עריכת שם",
                 "create_access_token_label": "יצירת token גישה",
@@ -221,7 +221,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "ללא הגבלת זמן",
-                "allow_never_button": "",
+                "allow_never_button": "=> core.ref.never",
                 "allow_some_minutes_button": "{count, plural, one {בדקה # } other {ב# דקות}}",
                 "allow_ten_minutes_button": "ל-10 דקות",
                 "allow_until_reply_button": "עד לתגובה הבאה",
@@ -239,7 +239,7 @@
                 "upload_button": "בחר תמונה..."
             },
             "users": {
-                "create_user_button": "",
+                "create_user_button": "משתמש חדש",
                 "description": "רשימת כל המשתמשים בפורום.",
                 "grid": {
                     "columns": {
@@ -455,7 +455,7 @@
                 "empty_text": "נראה שאין מה לראות כאן.",
                 "global_logout": {
                     "heading": "התנתקות גלובאלית",
-                    "help_text": "",
+                    "help_text": "מנקה עוגיות session נוכחי, כל הפעילויות, מאפס קישוריות למפתחות פיתוח ומבטל הודעות אימות ואיפוס סיסמאות במייל.",
                     "log_out_button": "=> core.ref.log_out"
                 },
                 "hide_access_token": "הסתרת token",
@@ -565,11 +565,11 @@
                 "nothing_available": "אין באפשרותך לערוך משתמש זה."
             },
             "error": {
-                "circular_dependencies_message": "",
+                "circular_dependencies_message": "תלויות חוזרות התגלו: {extensions}. מבטל. אנא בטלו את אחד התוספים ונסו שנית.",
                 "dependent_extensions_message": "אין אפשרות לבטל את ההרחבה {extension} עד שלא יבוטלו ההרחבות הבאות: {extensions}",
                 "extension_initialiation_failed_message": "התוסף {extension} נכשל באתחול, אנא בדקו את קונסול הדפדפן למידע נוסף.",
                 "generic_message": "אופס! משהו השתמש. רענן את הדף ונסה שוב.",
-                "generic_cross_origin_message": "",
+                "generic_cross_origin_message": "אופס! משהו השתבש בזמן בקשת cross-origin. טענו את העמוד מחדש ונסו שנית.",
                 "missing_dependencies_message": "אין אפשרות להפעיל את ההרחבה {extension} עד שלא יופעלו ההרחבות הבאות: {extensions}",
                 "not_found_message": "המקור המבוקש לא נמצא.",
                 "payload_too_large_message": "הבקשה גדולה מדי לטעינה.",
@@ -663,9 +663,9 @@
         "api": {
             "invalid_username_message": "שם המשתמש יכול להכיל רק אותיות, מספרים ומקפים.",
             "invalid_filter_type": {
-                "must_be_numeric_message": "",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_be_numeric_message": "הסנן {filter} חייב להיות מספרי.",
+                "must_not_be_array_message": "הסנן {filter} צריך להיות לא מערכי(array).",
+                "must_not_be_multidimensional_array_message": "הסנן {filter} חייב להיות לא תלת-מערכי (multidimensional array)."
             }
         },
         "email": {
@@ -705,7 +705,7 @@
             "edit_user": "עריכת משתמש",
             "email": "דואר אלקטרוני",
             "extensions": "הרחבות",
-            "generic_confirmation_message": "",
+            "generic_confirmation_message": "האם ברצונך להמשיך? הפעולה הזו לא ניתנת לשיחזור.",
             "icon": "אייקון",
             "icon_text": "כתבו כל שם של אייקון <a>FontAwesome</a> , <em>כולל</em> ההקדמה <code>fas fa-</code> .",
             "load_more": "טען עוד",
@@ -713,7 +713,7 @@
             "log_in": "התחברות",
             "log_out": "התנתקות",
             "mark_all_as_read": "סמן הכל כנקרא",
-            "never": "",
+            "never": "אף פעם",
             "new_token": "Token חדש",
             "next_page": "דף הבא",
             "notifications": "התראות",
