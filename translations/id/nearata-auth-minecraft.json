@@ -3,27 +3,27 @@
         "admin": {
             "settings": {
                 "minecraft_server": {
-                    "label": "",
-                    "help": ""
+                    "label": "IP Server Minecraft",
+                    "help": "Contoh: mydomain.tld"
                 },
                 "api_url": {
-                    "label": "",
-                    "help": ""
+                    "label": "URL API",
+                    "help": "Contoh: http://localhost:4567/verify"
                 },
                 "api_secret": {
-                    "label": "",
-                    "help": ""
+                    "label": "API Secret",
+                    "help": "Dapat ditemukan di <strong>Plugins/OAuth/config.json</strong>"
                 }
             }
         },
         "forum": {
-            "login_error": "",
+            "login_error": "Sesi belum dimulai atau kedaluwarsa.",
             "log_in_modal": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "Memvalidasi",
+                "title": "Login dengan Minecraft"
             },
-            "log_in_button_title": "",
-            "modal_help": ""
+            "log_in_button_title": "Login dengan Minecraft",
+            "modal_help": "Bergabunglah dengan server <strong>{server}</strong> lalu klik tombol di bawah ini."
         }
     }
 }
