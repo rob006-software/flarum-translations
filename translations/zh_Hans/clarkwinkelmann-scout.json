@@ -4,12 +4,12 @@
             "setting": {
                 "driver": "驱动",
                 "driverOption": {
-                    "null": "",
-                    "algolia": "",
-                    "meilisearch": "",
-                    "tntsearch": ""
+                    "null": "Null",
+                    "algolia": "Algolia",
+                    "meilisearch": "Meilisearch",
+                    "tntsearch": "TNTSearch"
                 },
-                "prefix": "",
+                "prefix": "索引名前缀（可选）",
                 "queue": "",
                 "queueHelp": "",
                 "limit": "",
