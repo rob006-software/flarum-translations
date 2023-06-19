@@ -33,7 +33,7 @@
                     "help": "Jika Anda baru saja memperbarui ekstensi Anda, reaksi Anda harus dikonversi. Jika Anda baru saja menginstal ekstensi ini, Anda bisa mengabaikan pesan ini.",
                     "button": "Ubah reaction yang lama",
                     "converting": "Reaksi Anda sekarang akan berubah. Refresh situs Anda setelah beberapa menit untuk melihat prosesnya selesai. (Waktu konversi mungkin memerlukan waktu beberapa saat tergantung pada jumlah total reaksi Anda)",
-                    "converted": "Berhasil mengkonversi {number} like"
+                    "converted": "Berhasil mengkonversi {number} Suka"
                 },
                 "settings": {
                     "react_own_posts_help": "Ketika diaktifkan, tergantung pada perizinan, pengguna dapat memberikan reaksi terhadap postingan mereka sendiri di forum. Untuk mencegah pengguna memberikan reaksi terhadap postingan mereka sendiri, nonaktifkan pengaturan ini.",
@@ -41,7 +41,7 @@
                     "save_settings": "Simpan Pengaturan",
                     "integrations": {
                         "legend": "Integrasi",
-                        "warning": "Reaksi yang sama <strong>tidak dapat</strong> dikonversi menjadi Like <strong>dan</strong> Upvote",
+                        "warning": "Reaksi yang sama <strong>tidak dapat</strong> dikonversi menjadi Suka <strong>dan</strong> Upvote",
                         "gamification": {
                             "legend": "Gamification",
                             "upvoteLabel": "Ubah reaksi menjadi Upvote",
@@ -50,9 +50,9 @@
                             "downvoteHelptext": "Masukkan pengidentifikasi reaksi yang ingin Anda ubah secara otomatis menjadi Downvote"
                         },
                         "likes": {
-                            "legend": "Like",
-                            "Label": "Ubah reaction menjadi like",
-                            "Helptext": "Masukkan pengenal reaksi yang ingin Anda ubah secara otomatis menjadi Like"
+                            "legend": "Suka",
+                            "Label": "Ubah reaction menjadi Suka",
+                            "Helptext": "Masukkan pengenal reaksi yang ingin Anda ubah secara otomatis menjadi \"Suka\""
                         }
                     }
                 }
