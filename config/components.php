@@ -386,7 +386,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-offline-indicator/v0.1.0/locale/en.yml',
 	],
 	'datlechin-posted-on' => [
-		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-posted-on/v0.2.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-posted-on/v0.2.1/locale/en.yml',
 	],
 	'datlechin-pronouns' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-pronouns/v0.1.0/locale/en.yml',
