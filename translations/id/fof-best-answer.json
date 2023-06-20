@@ -2,22 +2,22 @@
     "fof-best-answer": {
         "admin": {
             "permissions": {
-                "best_answer": "Memilih Best Answer (Diskusi sendiri)",
-                "best_answer_not_own_discussion": "Memilih Best Answer (bukan Diskusi sendiri)"
+                "best_answer": "Memilih Jawaban Terbaik (Diskusi sendiri)",
+                "best_answer_not_own_discussion": "Memilih Jawaban Terbaik (bukan Diskusi sendiri)"
             },
             "settings": {
                 "label": {
-                    "general": "General",
+                    "general": "Umum",
                     "reminders": "Pengingat",
                     "advanced": "Lanjutan",
                     "reminders_notice": "Agar pengingat dapat berfungsi, Anda harus mengatur Flarum scheduler dengan benar."
                 },
                 "allow_select_own_post": "Pilih postingan sendiri",
-                "allow_select_own_post_help": "Izinkan Postingan Sendiri untuk dapat dipilih sebagai best answer",
-                "enable_all_tags_button": "Aktifkan semua tag untuk Best Answer",
-                "enable_all_tags_reminder_button": "Aktifkan semua tag untuk pengingat Best Answer",
+                "allow_select_own_post_help": "Izinkan Postingan Sendiri untuk dapat dipilih sebagai jawaban terbaik",
+                "enable_all_tags_button": "Aktifkan semua tag untuk Jawaban Terbaik",
+                "enable_all_tags_reminder_button": "Aktifkan semua tag untuk pengingat Jawaban Terbaik",
                 "select_best_answer_reminder_days": "Frekuensi pengingat",
-                "select_best_answer_reminder_days_help": "Kirim pengingat setelah jumlah hari yang dapat dikonfigurasi ke Postingan Sendiri untuk memilih Best Answer, 0 = menonaktifkan pengingat.",
+                "select_best_answer_reminder_days_help": "Kirim pengingat setelah jumlah hari yang dapat dikonfigurasi ke Postingan Sendiri untuk memilih Jawaban Terbaik, 0 = menonaktifkan pengingat.",
                 "schedule_on_one_server": "Gunakan 'onOneServer()' directive untuk task scheduler",
                 "schedule_on_one_server_help": "Membutuhkan Redis/Memcache",
                 "schedule_stop_overnight": "Cegah pengiriman notifikasi pengingat di luar jam kerja",
@@ -32,26 +32,26 @@
             },
             "edit_tag": {
                 "qna_label": "Aktifkan Best Answers untuk diatur dalam tag ini",
-                "reminders": "Kirim pengingat untuk mengatur Best Answer untuk diskusi di tag ini"
+                "reminders": "Kirim pengingat untuk menetapkan Jawaban Terbaik untuk diskusi di tag ini"
             }
         },
         "forum": {
             "answered_badge": "Terjawab",
-            "this_best_answer": "Pilih Best Answer",
-            "remove_best_answer": "Batalkan pilihan Best Answer",
-            "best_answer_button": "Best Answer",
-            "best_answer_label": "",
+            "this_best_answer": "Pilih Jawaban Terbaik",
+            "remove_best_answer": "Batalkan Pilihan Jawaban Terbaik",
+            "best_answer_button": "Jawaban Terbaik",
+            "best_answer_label": "ditetapkan oleh <a>{username}</a> {time_set}",
             "errors": {
                 "mismatch": "Postingan yang dipilih tidak ada dalam diskusi ini."
             },
             "notification": {
-                "best_answer_in_discussion": "{username} memberikan best answer dalam diskusi ini",
-                "content": "Pilih Best Answer jika pertanyaan Anda telah terjawab",
-                "awarded": "Post Anda telah dipilih sebagai best answer oleh {username}",
+                "best_answer_in_discussion": "{username} menetapkan jawaban terbaik dalam diskusi ini",
+                "content": "Pilihlah Jawaban Terbaik jika pertanyaan Anda telah terjawab",
+                "awarded": "Postingan Anda telah ditetapkan sebagai jawaban terbaik oleh {username}",
                 "preferences": {
-                    "awarded_best_answer": "Seseorang menetapkan postingan saya sebagai best answer",
-                    "best_answer_in_discussion": "Best answer ada di dalam sebuah diskusi yang Saya ikuti",
-                    "select_best_answer": "Pengingat otomatis untuk memilih best answer dalam diskusi yang Saya mulai"
+                    "awarded_best_answer": "Seseorang menetapkan postingan Saya sebagai jawaban terbaik",
+                    "best_answer_in_discussion": "Jawaban terbaik ditetapkan dalam diskusi yang Saya ikuti",
+                    "select_best_answer": "Pengingat otomatis untuk memilih jawaban terbaik dalam diskusi yang Saya mulai"
                 }
             },
             "index": {
@@ -70,7 +70,7 @@
                 "titlePlaceholder": "Judul pertanyaan"
             },
             "user": {
-                "best-answer-count": "{count, plural, one { {count} best answer} other {{count} best answer}}"
+                "best-answer-count": "{count, plural, one { {count} jawaban terbaik} other {{count} jawaban terbaik}}"
             }
         },
         "email": {
@@ -80,9 +80,9 @@
                 "select": "Apakah pertanyaan Anda sudah terjawab?"
             },
             "body": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "Hai {recipient_display_name},\n\nKerja bagus, {actor_display_name} baru saja menetapkan postingan Anda sebagai jawaban terbaik dalam diskusi: {discussion_title}. Terima kasih telah membantu.\n\nLihat di sini: {discussion_url}\n",
+                "ba-set": "Hai {recipient_display_name},\n\n{actor_display_name} baru saja menetapkan jawaban terbaik dalam diskusi: {discussion_title}, yang Anda ikuti.\n\nLihatlah: {discussion_url}\n",
+                "select": "Hai {recipient_display_name},\n\nHanya ingin memastikan; saat ini Anda seharusnya sudah mendapatkan banyak balasan atas pertanyaan Anda: {discussion_title}. Semoga salah satu dari mereka telah membantu Anda memecahkan masalah Anda.\n\nJika demikian, akan sangat membantu bagi anggota lain di masa mendatang jika Anda dapat menetapkan jawaban terbaik untuk pertanyaan Anda. Ini akan membantu orang-orang dengan masalah yang sama untuk menemukan jawaban yang mereka butuhkan, dan juga sebagai ucapan terima kasih yang sebesar-besarnya kepada anggota yang telah membantu Anda. Mereka memberikan waktu mereka secara sukarela, jadi sangat menyenangkan untuk memberi tahu mereka bahwa mereka melakukannya dengan baik.\n\nKunjungi diskusi di sini: {discussion_url}, dan pilih postingan yang paling tepat sebagai jawaban terbaik.\n\nTerima kasih!\n"
             }
         }
     }
