@@ -16,7 +16,7 @@
         "forum": {
             "days_remaining": "Polling berakhir {time}.",
             "no_permission": "Anda tidak memiliki izin untuk melakukan voting",
-            "poll_ended": "Polling ini sudah berakhir",
+            "poll_ended": "Polling ini sudah berakhir.",
             "public_poll": "Lihat voter",
             "max_votes_allowed": "Polling memungkinkan melakukan voting untuk {max, plural, one {# pilihan} other {# pilihan}}.",
             "composer_discussion": {
@@ -29,7 +29,7 @@
                 "date_placeholder": "Waktu berakhirnya polling (Opsional)",
                 "edit_title": "Edit polling",
                 "include_question": "Anda harus memasukkan pertanyaan",
-                "max": "Anda dapat memiliki maksimal 10 jawaban",
+                "max": "Anda dapat memiliki maksimum 10 jawaban",
                 "min": "Memasukkan minimal 2 jawaban",
                 "no_voters": "Belum Ada Suara",
                 "option_placeholder": "Jawaban",
@@ -37,7 +37,7 @@
                 "options_label": "Jawaban",
                 "public_poll_label": "Izinkan orang-orang untuk melihat siapa saja yang melakukan voting",
                 "allow_multiple_votes_label": "Izinkan orang untuk memilih beberapa pilihan",
-                "max_votes_label": "",
+                "max_votes_label": "Jumlah maksimum vote per pengguna",
                 "max_votes_help": "Atur ke 0 untuk memungkinkan pengguna memilih semua opsi.",
                 "question_placeholder": "Pertanyaan",
                 "submit": "Masukkan"
@@ -49,7 +49,7 @@
             },
             "tooltip": {
                 "badge": "Polling",
-                "votes": "{count, plural, one {# vote} other {# votes}}"
+                "votes": "{count, plural, one {# vote} other {# vote}}"
             },
             "votes_modal": {
                 "title": "Para voter"
