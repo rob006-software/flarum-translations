@@ -2,16 +2,16 @@
     "flarum-ext-auth-keycloak": {
         "admin": {
             "keycloak_settings": {
-                "title": "",
-                "server_url_label": "",
-                "realm_label": "",
-                "client_id_label": "",
-                "client_secret_label": "",
-                "encryption_algorithm_label": "",
-                "encryption_key_label": "",
-                "role_mapping_label": "",
-                "attribute_mapping_label": "",
-                "delegate_avatars_label": ""
+                "title": "Pengaturan Keycloak",
+                "server_url_label": "URL server",
+                "realm_label": "Realm",
+                "client_id_label": "Client ID",
+                "client_secret_label": "Client Secret",
+                "encryption_algorithm_label": "Algoritma enkripsi",
+                "encryption_key_label": "Kunci enkripsi (atau sertifikat)",
+                "role_mapping_label": "Pemetaan role-ke-grup",
+                "attribute_mapping_label": "Pemetaan atribut khusus",
+                "delegate_avatars_label": "Mendelegasikan avatar"
             }
         }
     }
