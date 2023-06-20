@@ -6,7 +6,7 @@
                 "description": "Siapkan layanan dan preferensi upload."
             },
             "help_texts": {
-                "disable-download-logging": "Nonaktifkan pencatatan setiap download yang dilakukan oleh pengguna forum Anda. Dengan mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya.\n",
+                "disable-download-logging": "Menonaktifkan pencatatan setiap download yang dilakukan oleh pengguna forum Anda. Dengan mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya.\n",
                 "disable-hotlink-protection": "Hotlink protection berfungsi untuk mencegah download yang dilakukan dari situs lain. Metode saat ini memerlukan token csrf dan post id.\n",
                 "download_templates": "Template download adalah bagaimana upload ditampilkan di forum Anda, misalnya pratinjau, tombol. Saat ini tersedia:\n",
                 "mime_types": "Silakan konfigurasikan mapping Anda di sini. Setiap regular expression bertipe mime akan ditangani oleh adaptor upload dan template download tertentu.\n",
@@ -44,7 +44,7 @@
                     "tos": "Merupakan tanggung jawab Anda untuk memastikan user forum Anda mematuhi <a>Terms of service</a>"
                 },
                 "local": {
-                    "cdn_url": "",
+                    "cdn_url": "URL Pengiriman Konten (file prefiks)",
                     "title": "Pengaturan local storage"
                 },
                 "qiniu": {
@@ -57,7 +57,7 @@
                     "max_file_size": "Ukuran file maksimum (dalam kilobyte)",
                     "mime_types": "Konfigurasikan mime type Anda, upload adapter mapping",
                     "title": "Preferensi umum",
-                    "php_ini_values": "Value <code>php.ini</code> Anda adalah <code>post_max_size={post}</code> dan <code>upload_max_filesize={upload}</code>. Pastikan value yang ditetapkan di sini berada di bawah ambang batas ini, atau sesuaikan dengan kebutuhan Anda. Jika menggunakan  <code>Nginx</code>, pastikan juga bahwa <code>client_max_body_size</code> memiliki ukuran yang cukup untuk batas maksimal yang Anda pilih."
+                    "php_ini_values": "Value <code>php.ini</code> Anda adalah <code>post_max_size={post}</code> dan <code>upload_max_filesize={upload}</code>. Pastikan value yang ditetapkan di sini berada di bawah ambang batas ini, atau sesuaikan dengan kebutuhan Anda. Jika menggunakan <code>Nginx</code>, pastikan juga bahwa <code>client_max_body_size</code> memiliki ukuran yang cukup untuk batas maksimal yang Anda pilih."
                 },
                 "resize": {
                     "max_width": "Lebar/tinggi gambar maksimum",
@@ -81,7 +81,7 @@
                         "media-btn": "Hanya media manager button"
                     }
                 },
-                "inspect-mime": "Test file MIME type"
+                "inspect-mime": "Uji jenis MIME file"
             },
             "permissions": {
                 "download_label": "Men-download file",
@@ -118,7 +118,7 @@
                 "select": "Pilih file di bawah ini untuk memeriksa nilai yang akan digunakan. File tidak akan disimpan.",
                 "laravel-validation": "Validasi File Laravel",
                 "no-file-selected": "Tidak ada file",
-                "validation-passed": "Passed",
+                "validation-passed": "Lulus",
                 "validation-failed": "Gagal: {error}",
                 "mime-detector": "Pendeteksi Mime (primer)",
                 "mime-fileinfo": "Informasi File PHP (fallback)",
@@ -129,9 +129,9 @@
         "forum": {
             "media_manager": "Media manager",
             "buttons": {
-                "attach": "Attach",
+                "attach": "Lampirkan",
                 "upload": "Upload",
-                "user_uploads": "User uploads",
+                "user_uploads": "Unggahan pengguna",
                 "cancel": "Batal",
                 "media": "Media Saya"
             },
@@ -161,8 +161,8 @@
                 "max_size": "File yang memiliki ukuran lebih dari {max} kb tidak diizinkan."
             },
             "text_preview": {
-                "expand": "Expand preview",
-                "collapse": "Collapse preview",
+                "expand": "Perluas pratinjau",
+                "collapse": "Perkecil pratinjau",
                 "error": "Terjadi kesalahan saat mempratinjau file. File mungkin telah dihapus, atau ID file yang diberikan tidak valid.\n",
                 "no_snippet_preview": "<pratinjau akan muncul di sini setelah posting>",
                 "no_snippet": "<tidak ada cuplikan pratinjau yang tersedia>"
