@@ -16,8 +16,8 @@
                 "create": "",
                 "moderate": "",
                 "export": "",
-                "exportUserDetails": "",
-                "listForms": "",
+                "exportUserDetails": "Mengakses data pribadi pengguna dalam ekspor",
+                "listForms": "Melihat daftar form yang tidak dihapus",
                 "listSubmissions": ""
             },
             "settings": {
@@ -33,14 +33,14 @@
                     "far-circle": "Ikon FontAwesome Regular Circle",
                     "fas-circle": "Ikon FontAwesome Solid Circle",
                     "switch": "",
-                    "native": ""
+                    "native": "Kontrol browser bawaan"
                 },
-                "horizontal-layout": "",
+                "horizontal-layout": "Gunakan tata letak form horizontal",
                 "horizontal-layout-locations": {
                     "standaloneEdit": "",
-                    "standaloneView": "",
-                    "profileEdit": "",
-                    "profileView": "",
+                    "standaloneView": "Halaman Tampilan Mandiri",
+                    "profileEdit": "Halaman Edit Profil",
+                    "profileView": "Halaman Tampilan Profil",
                     "signUp": "",
                     "discussionEdit": "",
                     "discussionView": "",
@@ -65,8 +65,8 @@
                     "discussion": "=> kilowhat-formulaire.ref.type.discussion",
                     "user": "=> kilowhat-formulaire.ref.type.user"
                 },
-                "empty": "",
-                "load-more": "",
+                "empty": "Tidak ada form",
+                "load-more": "Muat lebih banyak",
                 "search": "",
                 "new": "",
                 "edit": "Edit",
@@ -75,8 +75,8 @@
                 "columns": {
                     "title": "Judul",
                     "accept-submissions": "",
-                    "allow-modification": "",
-                    "enabled": "",
+                    "allow-modification": "Modifikasi",
+                    "enabled": "Diaktifkan",
                     "submissions": "",
                     "actions": "Tindakan"
                 }
@@ -97,12 +97,12 @@
                 }
             },
             "form-create": {
-                "title": "",
+                "title": "Form baru",
                 "field": {
                     "title": "Judul"
                 },
                 "button": {
-                    "create": ""
+                    "create": "Buat form"
                 }
             },
             "form-edit-header": {
@@ -113,9 +113,9 @@
                     "user": "=> kilowhat-formulaire.ref.type.user"
                 },
                 "tabs": {
-                    "template": "",
+                    "template": "Template",
                     "placement": "",
-                    "access": "",
+                    "access": "Akses",
                     "notifications": "Notifikasi",
                     "submissions": ""
                 },
@@ -164,7 +164,7 @@
                     "automatic-discussion-help": "Ketika diaktifkan, formulir akan terus dapat diakses seperti formulir mandiri. Kiriman akan secara otomatis dibuat dan terhubung dengan diskusi baru.\n",
                     "accept-submissions": "",
                     "allow-modification": "",
-                    "enable": "",
+                    "enable": "Aktifkan",
                     "max-submissions": "",
                     "send-confirmation-to-participants": "",
                     "notify-emails": "",
@@ -176,21 +176,21 @@
                 },
                 "link-options": {
                     "standalone": "",
-                    "groups": "",
-                    "all-groups": "",
+                    "groups": "Profil pengguna",
+                    "all-groups": "Untuk semua grup",
                     "tags": "",
-                    "all-tags": ""
+                    "all-tags": "Untuk semua tag"
                 },
                 "auto-discussion-options": "Opsi untuk diskusi baru",
                 "email-confirmation-options": "Template email konfirmasi",
                 "email-notification-options": "Template email pemberitahuan",
                 "exiting-with-unsaved-data": "Anda memiliki perubahan yang belum disimpan. Apakah Anda benar-benar ingin keluar dari halaman?",
                 "preview": "Pratinjau di tab baru",
-                "save-for-preview": ""
+                "save-for-preview": "Simpan untuk pratinjau"
             },
             "auto-discussion-options-modal": {
-                "title": "",
-                "introduction": "",
+                "title": "Opsi diskusi otomatis",
+                "introduction": "Pengaturan ini akan berlaku untuk diskusi baru yang telah dibuat secara otomatis dengan mengirimkan form yang terhubung dengan tag. Anda dapat menggunakan nilai dari pengiriman form menggunakan sintaksis kurung kurawal dengan field slug. Secara default, { title } dan { content } akan digunakan secara berurutan.\n",
                 "submit": "Validasi perubahan",
                 "field": {
                     "title": "Judul diskusi",
@@ -210,16 +210,16 @@
             "save-controls": {
                 "validation-errors": "",
                 "unsaved-changes": "Anda memiliki perubahan yang belum disimpan",
-                "saved-at": "",
+                "saved-at": "Disimpan {ago}",
                 "undo": "",
                 "redo": "",
                 "save": "Simpan"
             },
             "permission-controls": {
-                "inherit": "",
+                "inherit": "Gunakan default",
                 "everyone_button": "=> core.admin.permissions_controls.everyone_button",
-                "disabled_members_button": "",
-                "members_button": ""
+                "disabled_members_button": "Anggota yang tidak diaktifkan dan ditangguhkan",
+                "members_button": "Anggota yang diaktifkan"
             },
             "template-editor": {
                 "add-field": "",
@@ -262,22 +262,22 @@
                 "new-placeholder": "Opsi baru..."
             },
             "items-editor": {
-                "add": "",
-                "remove": ""
+                "add": "Tambahkan row",
+                "remove": "Hapus row"
             },
             "upload-editor": {
-                "uploading": "",
-                "remove": ""
+                "uploading": "Mengunggah...",
+                "remove": "Hapus file"
             },
             "rich-text": {
-                "preview-placeholder": ""
+                "preview-placeholder": "Mulai mengetik untuk pratinjau"
             },
             "select": {
-                "choose": ""
+                "choose": "Pilih sebuah opsi"
             },
             "choice": {
-                "other-label": "",
-                "other-placeholder": ""
+                "other-label": "Lainnya:",
+                "other-placeholder": "Ketik..."
             },
             "submission": {
                 "form-closed": "",
@@ -298,7 +298,7 @@
                 "form-show": "",
                 "show": "",
                 "guest": "",
-                "load-more": "",
+                "load-more": "Muat lebih banyak",
                 "empty": "",
                 "search": "",
                 "export": "Ekspor",
@@ -438,7 +438,7 @@
                 "user_username": "Username",
                 "user_displayname": "Nama Tampilan Pengguna",
                 "user_email": "Email Pengguna",
-                "user_activated": "",
+                "user_activated": "Akun Aktif",
                 "link_id": "",
                 "locked_at": "",
                 "created_at": "Tanggal Pembuatan",
