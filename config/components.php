@@ -157,6 +157,9 @@ return [
 	'blomstra-welcome-login' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-welcome-login/0.1.0/locale/en.yml',
 	],
+	'c4x3gpj5-oauth-identityserver4' => [
+		'tag' => 'https://raw.githubusercontent.com/c4x3gpj5/flarum-ext-oauth-identityserver4/v0.0.4/locale/en.yml',
+	],
 	'cadiducho-bbcode' => [
 		'tag' => 'https://raw.githubusercontent.com/EdorasMinecraft/BBcode/1.1/resources/locale/en.yml',
 	],
