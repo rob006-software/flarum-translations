@@ -7,8 +7,8 @@
                 "theme": "Tema CodeMirror (harus di-refresh agar dapat diterapkan)",
                 "theme-auto": "Otomatis (default untuk tema terang, dracula untuk tema gelap)",
                 "indent": "Jumlah spasi untuk indentasi",
-                "npm-install-command": "",
-                "webpack-command": "",
+                "npm-install-command": "Perintah penginstalan NPM",
+                "webpack-command": "Perintah Webpack",
                 "empty-for-default": "Biarkan kosong untuk command default",
                 "validate-live": "Lakukan request ke homepage untuk memvalidasi Less dan PHP sebelum menyimpan",
                 "compile-automatically": "Compile JS secara otomatis saat menyimpan"
@@ -45,8 +45,8 @@
             },
             "compilation-modal": {
                 "title": "Hasil kompilasi",
-                "webpack": "",
-                "npm": "",
+                "webpack": "Output Webpack",
+                "npm": "Output NPM",
                 "npm-not-run": "NPM tidak dijalankan"
             }
         }
