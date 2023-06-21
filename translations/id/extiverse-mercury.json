@@ -19,7 +19,7 @@
         "email": {
             "new-extension-update": {
                 "subject": "{count, plural, one {Satu pembaruan tersedia untuk komunitas Anda} other {Tersedia # pembaruan untuk komunitas Anda}}",
-                "body": ""
+                "body": "Hai {recipient_display_name}!\n\n{count} pembaruan telah ditemukan di komunitas Flarum Anda. Sangat disarankan untuk \nmemperbarui sesegera mungkin.\n\nPembaruan mencakup ekstensi berikut {extensions}.\n\nSilakan kunjungi komunitas Anda untuk informasi lebih lanjut: {url}.\n"
             }
         }
     }
