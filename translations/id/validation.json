@@ -14,7 +14,7 @@
             "numeric": ":attribute harus antara :min dan :max.",
             "file": ":attribute harus berukuran antara :min dan :max kilobyte.",
             "string": ":attribute harus antara :min dan :max karakter.",
-            "array": ":attribute harus antara :min dan :max item."
+            "array": ":attribute harus memiliki antara :min dan :max item."
         },
         "boolean": ":attribute harus berupa true atau false.",
         "confirmed": "Konfirmasi :attribute tidak cocok.",
@@ -31,7 +31,7 @@
         "exists": ":attribute yang dipilih tidak valid.",
         "file": ":attribute harus berupa berkas.",
         "file_too_large": "Ukuran :attribute terlalu besar.",
-        "file_upload_failed": "File :attribute gagal diupload.",
+        "file_upload_failed": "File :attribute gagal diunggah.",
         "filled": ":attribute harus memiliki nilai.",
         "gt": {
             "numeric": ":attribute harus lebih besar dari :value.",
@@ -95,7 +95,7 @@
         "required_without_all": "Bidang :attribute harus diisi bila tidak terdapat ada :values.",
         "prohibited": "Bidang :attribute tidak diperbolehkan.",
         "prohibited_if": "Bidang :attribute dilarang ketika :other adalah :value.",
-        "prohibited_unless": "Bidang :attribute dilarang kecuali :other ada di :values.",
+        "prohibited_unless": "Bidang :attribute dilarang kecuali :other ada di dalam :values.",
         "same": ":attribute dan :other harus sama.",
         "size": {
             "numeric": ":attribute harus berukuran :size.",
