@@ -8,11 +8,11 @@
                 "wordpress_username": "",
                 "section_sso_intro": "Fitur ini akan menghubungkan pengguna WordPress dengan Flarum secara mulus. Sebuah akun akan secara otomatis dibuat untuk mereka dan disinkronkan dengan WordPress. Jika Anda memiliki akun yang sudah ada di Flarum, akun tersebut akan secara otomatis dicocokkan dengan email mereka. Jika Anda menghapus pengguna di Flarum, pengguna tersebut akan dibuat lagi saat akun WordPress melakukan login. Untuk memblokir pengguna Flarum, tangguhkan akun di Flarum.\n",
                 "enable_sso": "Aktifkan integrasi SSO",
-                "cookie_domain": "",
+                "cookie_domain": "Domain Cookie",
                 "cookie_domain_help": "Hanya diperlukan jika berbeda dari domain Flarum",
                 "wordpress_login_path": "",
                 "wordpress_login_path_help": "Hanya diperlukan jika Anda mengganti nama login endpoint secara manual atau melalui plugin",
-                "username_strategy": "",
+                "username_strategy": "Username untuk pengguna baru",
                 "username_strategy_options": {
                     "user_login": "",
                     "first_name": "",
