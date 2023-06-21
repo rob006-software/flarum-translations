@@ -680,6 +680,9 @@ return [
 	'gbcl-userip' => [
 		'tag' => 'https://raw.githubusercontent.com/GBCLStudio/userip/1.0.3/resources/locale/en.yml',
 	],
+	'gitzaai-mobile-ui-tab-2' => [
+		'tag' => 'https://raw.githubusercontent.com/gitzaai/mobile-ui-tab-2/0.1/resources/locale/en.yml',
+	],
 	'glowingblue-localizd' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/glowingblue-localizd.yml',
 	],
