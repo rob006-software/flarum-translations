@@ -8,82 +8,82 @@
             },
             "album-list": {
                 "title": "=> kilowhat-cimaise.ref.albums",
-                "new": "",
-                "empty": "",
+                "new": "Buat album baru",
+                "empty": "Tidak ada album",
                 "loading": "=> kilowhat-cimaise.ref.loading",
                 "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "picture-list": {
-                "title": "",
-                "empty": "",
+                "title": "Semua gambar",
+                "empty": "Tidak ada gambar",
                 "loading": "=> kilowhat-cimaise.ref.loading",
                 "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "album-show": {
-                "upload": "",
-                "empty": "",
+                "upload": "Unggah gambar",
+                "empty": "Tidak ada gambar",
                 "loading": "=> kilowhat-cimaise.ref.loading",
-                "personal": "",
-                "community": "",
-                "discussion": ""
+                "personal": "Album pribadi oleh <a>{username}</a>",
+                "community": "Album komunitas",
+                "discussion": "Pergi ke diskusi"
             },
             "picture-show": {
                 "loading": "=> kilowhat-cimaise.ref.loading",
-                "back-album": "",
-                "download": "",
-                "previous": "",
-                "next": "",
+                "back-album": "Kembali ke Album",
+                "download": "Download",
+                "previous": "Gambar sebelumnya",
+                "next": "Gambar selanjutnya",
                 "download-cropped": "",
                 "download-original": "",
                 "show-exif": "",
-                "taken-at": "",
-                "published-at": ""
+                "taken-at": "Diambil {ago}",
+                "published-at": "Dipublikasikan {ago}"
             },
             "upload-modal": {
-                "title": "",
-                "titleInComposer": "",
-                "uploading": "",
-                "processing": "",
-                "select-file": "",
-                "drop-file": "",
-                "publishSilently": "",
-                "submit": "",
-                "submitInComposer": ""
+                "title": "Unggah gambar dalam album \"{title}\"",
+                "titleInComposer": "Edit gambar",
+                "uploading": "Mengunggah",
+                "processing": "Memproses",
+                "select-file": "Pilih file",
+                "drop-file": "atau seret dan letakkan di sini",
+                "publishSilently": "Publikasikan secara diam-diam",
+                "submit": "Submit",
+                "submitInComposer": "Lanjutkan"
             },
             "new-album-modal": {
-                "title": ""
+                "title": "Album Baru"
             },
             "edit-album-modal": {
-                "title": ""
+                "title": "Edit Album \"{title}\""
             },
             "attach-album-modal": {
-                "title": "",
+                "title": "Lampirkan album ke \"{title}\"",
                 "selected": "",
                 "none-selected": "",
-                "search": "",
-                "no-results": "",
-                "select": "",
-                "unselect": "",
-                "submit": ""
+                "search": "Pencarian",
+                "no-results": "Tidak ada hasil",
+                "select": "Pilih",
+                "unselect": "Batalkan pilihan",
+                "submit": "Submit"
             },
             "edit-album": {
-                "title": "",
-                "description": "",
-                "isCommunity": "",
-                "create": "",
-                "save": ""
+                "title": "Judul",
+                "description": "Deskripsi",
+                "isCommunity": "Album komunitas (semua orang dapat berkontribusi)",
+                "create": "Buat Album",
+                "save": "Simpan Album"
             },
             "edit-picture": {
-                "title": "",
-                "description": ""
+                "title": "Judul",
+                "description": "Deskripsi"
             },
             "album-thumbnail": {
                 "controls": "=> kilowhat-cimaise.ref.controls",
-                "edit": "",
+                "edit": "Edit",
                 "restore": "=> kilowhat-cimaise.ref.restore",
                 "hide": "=> kilowhat-cimaise.ref.hide",
                 "delete": "=> kilowhat-cimaise.ref.delete",
-                "delete-confirmation": "",
+                "delete-confirmation": "Menghapus Album \"{title}\"?",
                 "by-user": "=> kilowhat-cimaise.ref.by-user"
             },
             "picture-thumbnail": {
@@ -94,26 +94,26 @@
                 "controls": "=> kilowhat-cimaise.ref.controls",
                 "editor": "",
                 "approve": "",
-                "remove-favorite": "",
-                "set-favorite": "",
+                "remove-favorite": "Hapus Favorit",
+                "set-favorite": "Tambahkan sebagai Favorit",
                 "restore": "=> kilowhat-cimaise.ref.restore",
                 "hide": "=> kilowhat-cimaise.ref.hide",
                 "delete": "=> kilowhat-cimaise.ref.delete",
-                "delete-confirmation": ""
+                "delete-confirmation": "Menghapus Gambar \"{title}\"?"
             },
             "editable-attribute": {
-                "title": "",
-                "description": "",
-                "author": ""
+                "title": "Klik untuk menambahkan judul",
+                "description": "Klik untuk menambahkan deskripsi",
+                "author": "Klik untuk menambahkan pembuat"
             },
             "badge": {
                 "hidden": "",
-                "awaiting-approval": "",
-                "favorite": ""
+                "awaiting-approval": "Menunggu Persetujuan",
+                "favorite": "Favorit"
             },
             "picture-sort": {
-                "latest": "",
-                "oldest": "",
+                "latest": "Unggahan terbaru",
+                "oldest": "Unggahan terlama",
                 "latestTake": "",
                 "oldestTake": ""
             },
@@ -124,42 +124,42 @@
                 "uploaded": ""
             },
             "discussion-controls": {
-                "attach-album": ""
+                "attach-album": "Lampirkan atau lepaskan album"
             },
             "license-label": {
-                "not-specified": "",
+                "not-specified": "Tidak ditentukan",
                 "not-specified-help": ""
             }
         },
         "admin": {
             "permissions": {
                 "view": "Tampilkan",
-                "viewExif": "",
+                "viewExif": "Lihat data Exif (termasuk geolokasi)",
                 "createPersonalAlbums": "Membuat album pribadi",
                 "createCommunityAlbums": "Membuat album komunitas",
-                "editOwnAlbum": "",
-                "hideOwnAlbum": "",
-                "uploadPictures": "Upload Gambar",
-                "uploadPersonalPicturesWithoutApproval": "Upload gambar tanpa persetujuan di album pribadi",
-                "uploadCommunityPicturesWithoutApproval": "Upload gambar tanpa persetujuan di album komunitas",
+                "editOwnAlbum": "Mengubah judul dan deskripsi album sendiri",
+                "hideOwnAlbum": "Menyembunyikan album sendiri",
+                "uploadPictures": "Mengunggah Gambar",
+                "uploadPersonalPicturesWithoutApproval": "Mengunggah gambar tanpa persetujuan di album pribadi",
+                "uploadCommunityPicturesWithoutApproval": "Mengunggah gambar tanpa persetujuan di album komunitas",
                 "editOwnImage": "Gunakan editor gambar pada gambar Anda sendiri (crop, mask, dan stiker)",
                 "editOwnPublishedImage": "Gunakan editor gambar pada gambar Anda sendiri setelah dipublikasikan",
-                "licenseOwnPublishedPicture": "",
-                "renameOwnPublishedPicture": "",
-                "hideOwnPicture": "",
-                "publishSilently": "",
-                "attachCimaiseAlbum": "",
+                "licenseOwnPublishedPicture": "Mengubah lisensi gambar sendiri setelah dipublikasikan",
+                "renameOwnPublishedPicture": "Mengubah judul dan deskripsi gambar sendiri setelah dipublikasikan",
+                "hideOwnPicture": "Menyembunyikan gambar sendiri",
+                "publishSilently": "Mempublikasikan gambar secara diam-diam (tanpa event post)",
+                "attachCimaiseAlbum": "Melampirkan album secara manual ke diskusi",
                 "moderate": ""
             },
             "settings": {
                 "watermarkFile": "",
-                "watermarkFileHelp": "Gambar yang disediakan akan diterapkan 1:1 di setiap upload, kecuali pratinjau terkecil.",
+                "watermarkFileHelp": "Gambar yang disediakan akan diterapkan 1:1 pada setiap unggahan, kecuali pratinjau terkecil.",
                 "watermarkPlacement": "",
                 "watermarkPlacementOptions": {
-                    "topLeft": "",
-                    "bottomLeft": "",
-                    "topRight": "",
-                    "bottomRight": ""
+                    "topLeft": "Kiri atas",
+                    "bottomLeft": "Kiri bawah",
+                    "topRight": "Kanan atas",
+                    "bottomRight": "Kanan bawah"
                 },
                 "autoCreateDiscussionAlbum": "Secara otomatis membuat album untuk setiap diskusi baru",
                 "autoCreateDiscussionAlbumHelp": "Secara otomatis membuat album baru dengan judul yang sama dengan diskusi dan penulis sebagai pemilik. Fitur ini melewati izin pembuatan album dan berlaku di semua tag.\n",
@@ -167,37 +167,37 @@
                 "neverSyncDiscussionAlbumTitlesHelp": "Secara default, album yang dihubungkan yang memiliki judul yang sama persis dengan diskusi akan diganti namanya ketika judul diskusi berubah. Jika album diganti namanya secara manual, album tersebut tidak akan disinkronkan kembali ke diskusi.\n",
                 "columnTheme": "",
                 "columnThemeHelp": "",
-                "mapboxToken": "",
+                "mapboxToken": "Token Mapbox",
                 "mapboxTokenHelp": "Isi token yang valid untuk menampilkan peta geolokasi di dalam meta gambar.",
                 "requireLicense": "",
                 "requireLicenseHelp": "Secara default, pengguna dapat melewatkan pengaturan lisensi. Pastikan persyaratan penggunaan situs web Anda mencakup apa yang dapat dilakukan dengan media yang lisensinya tidak ditentukan.\n",
                 "licenses": "Lisensi",
-                "license-key": "",
-                "license-label": "",
+                "license-key": "Key",
+                "license-label": "Label",
                 "license-description": "Deskripsi",
                 "license-add": "Tambahkan lisensi",
                 "stickers": "",
-                "sticker-key": "",
-                "sticker-label": "",
-                "sticker-url": "",
+                "sticker-key": "Key",
+                "sticker-label": "Label",
+                "sticker-url": "URL",
                 "sticker-add": ""
             }
         },
         "api": {
             "post-edit": {
-                "cannotAttachToNonComment": "",
-                "cannotFindPicturesFromRelation": "",
-                "cannotAttachHasNoAlbum": "",
-                "cannotAttachAlreadySubmitted": "",
-                "cannotAttachFromExternalAlbum": "",
-                "cannotAttachUnauthorized": ""
+                "cannotAttachToNonComment": "Gambar tidak dapat dilampirkan secara manual ke postingan non-komentar",
+                "cannotFindPicturesFromRelation": "Tidak dapat menemukan semua gambar yang diminta dalam database",
+                "cannotAttachHasNoAlbum": "Diskusi tidak memiliki album yang dilampirkan",
+                "cannotAttachAlreadySubmitted": "Tidak dapat melampirkan gambar {id} karena sudah dikirimkan",
+                "cannotAttachFromExternalAlbum": "Tidak dapat melampirkan gambar {id} karena gambar tersebut termasuk dalam album eksternal",
+                "cannotAttachUnauthorized": "Tidak dapat melampirkan gambar {id} karena bukan milik Anda"
             }
         },
         "ref": {
-            "albums": "",
-            "pictures": "",
-            "loading": "",
-            "load-more": "",
+            "albums": "Album",
+            "pictures": "Gambar",
+            "loading": "Memuat...",
+            "load-more": "Muat Lebih Banyak",
             "controls": "",
             "restore": "",
             "hide": "",
