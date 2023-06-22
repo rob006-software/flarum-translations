@@ -210,7 +210,7 @@
                 "read_heading": "קריאה",
                 "rename_discussions_label": "שינוי כותרת דיון",
                 "reply_to_discussions_label": "פרסום תגובה בדיון",
-                "search_users_label": "חיפוש משתמשים",
+                "search_users_label": "=> core.ref.search_users",
                 "sign_up_label": "הרשמה",
                 "start_discussions_label": "יצירת דיונים",
                 "title": "הרשאות",
@@ -351,7 +351,7 @@
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "מייל עם קישור לאיפוס הסיסמא נשלח. אם המייל לא הגיע בדקות הקרובות, בדקו את תיקיית הספאם.",
+                "email_sent_message": "אם המייל שרשום באתר, אנו נשלח מייל עם קישור לאיפוס הסיסמא. אם המייל לא יגיע בדקות הקרובות, בדקו את תיקיית הספאם.",
                 "not_found_message": "אין משתמש תחת כתובת המייל הזו.",
                 "submit_button": "שחזור סיסמא",
                 "text": "הכנס את המייל שלך ונשלח לך קישור לאיפוס הסיסמא.",
@@ -432,7 +432,7 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "הכותרת הקודמת הייתה \"{old}\"",
-                "discussion_renamed_text": "{username} שינה את הכותרת ל{new}.",
+                "discussion_renamed_text": "{username} שינה את הכותרת ל{new} {time}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "אחרי {period}"
@@ -460,7 +460,7 @@
                 },
                 "hide_access_token": "הסתרת token",
                 "last_activity": "פעילות אחרונה",
-                "never": "מעולם לא",
+                "never": "=> core.ref.never",
                 "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
                     "submit_button": "יצירת Token",
