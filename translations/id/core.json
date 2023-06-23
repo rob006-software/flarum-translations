@@ -7,9 +7,9 @@
                 "colors_primary_label": "Warna Primer",
                 "colors_secondary_label": "Warna Sekunder",
                 "colors_text": "Pilih dua warna untuk tema forum Anda. Yang pertama akan digunakan sebagai warna untuk highlight, sedangkan yang kedua akan digunakan untuk menata elemen latar belakang.",
-                "custom_footer_heading": "Custom Footer",
+                "custom_footer_heading": "Footer Khusus",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
-                "custom_header_heading": "Custom Header",
+                "custom_header_heading": "Header Khusus",
                 "custom_header_text": "=> core.ref.custom_header_text",
                 "custom_styles_cannot_use_less_features": "Fitur @import dan data-uri tidak diperbolehkan dalam custom LESS.",
                 "custom_styles_heading": "Custom Styles",
@@ -338,7 +338,7 @@
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Menampilkan menu dropdown tindakan diskusi"
             },
             "discussion_list": {
                 "empty_text": "Sepertinya tidak ada diskusi di sini.",
@@ -367,7 +367,7 @@
                 "search_clear_button_accessible_label": "Hapus kueri penelusuran",
                 "search_placeholder": "Cari",
                 "search_role_label": "Cari",
-                "session_dropdown_accessible_label": "",
+                "session_dropdown_accessible_label": "Menampilkan menu dropdown pilihan sesi",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -379,7 +379,7 @@
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Segarkan",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
-                "toggle_sidenav_dropdown_accessible_label": ""
+                "toggle_sidenav_dropdown_accessible_label": "Menampilkan menu dropdown navigasi"
             },
             "index_sort": {
                 "latest_button": "Terkini",
@@ -422,7 +422,7 @@
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "Anda yakin ingin menghapus post ini?",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Menampilkan menu dropdown kontrol publikasi"
             },
             "post_scrubber": {
                 "now_link": "Saat ini",
@@ -525,7 +525,7 @@
                 "delete_error_message": "Penghapusan user <i>{username} ({email})</i> gagal",
                 "delete_success_message": "User <i>{username} ({email})</i> telah dihapus",
                 "edit_button": "=> core.ref.edit",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Menampilkan menu dropdown kontrol pengguna"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -545,7 +545,7 @@
                 "hidden_tooltip": "Disembunyikan"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Menampilkan menu dropdown"
             },
             "data_segment": {
                 "label": "{label}:"
@@ -695,9 +695,9 @@
             "confirm_email": "Konfirmasi Email",
             "confirmation_email_sent": "Kami telah mengirimkan email konfirmasi ke {email}. Jika email tidak segera masuk, periksa folder spam Anda.",
             "custom_footer_text": "Tambahkan HTML untuk ditampilkan di bagian paling bawah halaman.",
-            "custom_footer_title": "",
+            "custom_footer_title": "Memodifikasi Footer Khusus",
             "custom_header_text": "Tambahkan HTML untuk ditampilkan di bagian paling atas halaman, di atas header Flarum.",
-            "custom_header_title": "",
+            "custom_header_title": "Memodifikasi Header Khusus",
             "delete": "Hapus",
             "delete_forever": "Hapus Permanen",
             "discussions": "Diskusi",
@@ -735,7 +735,7 @@
             "start_a_discussion": "Memulai Diskusi",
             "username": "Username",
             "users": "User",
-            "view": "",
+            "view": "Lihat",
             "write_a_reply": "Tulis Balasan...",
             "you": "Anda"
         },
