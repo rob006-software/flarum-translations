@@ -4,12 +4,12 @@
             "ban_ip_button": "=> fof-ban-ips.ref.ban_ip_button",
             "unban_ip_button": "=> fof-ban-ips.ref.unban_ip_button",
             "modal": {
-                "ban_options_only_ip": "Hanya mencekal IP saat ini (<code>{ip}</code>)",
-                "ban_options_all_ip": "Cekal semua IP yang digunakan oleh <i>{username}</i>",
-                "ban_ip_no_users": "Tidak ada orang lain yang akan terkena pencekalan"
+                "ban_options_only_ip": "Hanya melarang IP saat ini (<code>{ip}</code>)",
+                "ban_options_all_ip": "Larang semua IP yang digunakan oleh <i>{username}</i>",
+                "ban_ip_no_users": "Tidak ada orang lain yang akan dilarangan"
             },
             "user_badge": {
-                "banned_tooltip": "Dicekal"
+                "banned_tooltip": "Dilarang"
             },
             "user_controls": {
                 "ban_button": "=> fof-ban-ips.ref.ban_label",
@@ -19,7 +19,7 @@
         "admin": {
             "permissions": {
                 "ban_ip_label": "=> fof-ban-ips.ref.ban_ip_addresses",
-                "view_banned_ip_list_label": "Lihat daftar alamat IP yang dicekal"
+                "view_banned_ip_list_label": "Melihat daftar alamat IP yang dilarang"
             },
             "page": {
                 "create_button": "=> fof-ban-ips.ref.ban_ip_button",
@@ -30,10 +30,10 @@
                 "date_label": "Tanggal"
             },
             "modal": {
-                "update_title": "Perbarui IP yang Dicekal",
-                "ban_ip_no_users": "Tidak ada yang akan dicekal"
+                "update_title": "Perbarui IP yang Dilarang",
+                "ban_ip_no_users": "Tidak ada yang akan dilarang"
             },
-            "empty_text": "Tidak ditemukan IP yang dicekal."
+            "empty_text": "Tidak ditemukan IP yang dilarang."
         },
         "error": {
             "banned_ip_message": "Otorisasi gagal.",
@@ -47,25 +47,25 @@
                 "reason_label": "=> fof-ban-ips.ref.reason_label",
                 "check_button": "Periksa",
                 "save_button": "Simpan",
-                "ban_ip_confirmation": "Apakah Anda yakin ingin mencekal alamat IP ini agar tidak digunakan di forum? Hal ini akan ikut mencekal pengguna dengan alamat IP ini agar tidak dapat login dan melakukan pendaftaran.",
-                "ban_ip_users": "{count, plural, one {Pengguna {users} akan dicekal} other {Pengguna {users} akan dicekal}}",
-                "unban_ip_confirmation": "Apakah Anda yakin ingin membuka pencekalan untuk pengguna ini dan semua pengguna lain yang tidak dicekal oleh IP lainnya?",
-                "unban_options_only_ip": "Hanya buka pencekalan IP saat ini (<code>{ip}</code>)",
-                "unban_options_all_ip": "Buka pencekalan untuk semua IP yang digunakan oleh <i>{username}</i>",
-                "unban_ip_no_users": "Tidak ada satupun yang akan dibuka pencekalannya",
-                "unban_ip_users": "{count, plural, one {Pengguna {users} dicabut pencekalannya} other {Pengguna {users} dicabut pencekalannya}}",
-                "unbanned_ips": "",
+                "ban_ip_confirmation": "Apakah Anda yakin ingin memblokir alamat IP ini agar tidak digunakan di forum? Ini akan memblokir pengguna dengan alamat IP ini agar tidak dapat login dan mendaftar.",
+                "ban_ip_users": "{count, plural, one {Pengguna {users} akan dilarang} other {Pengguna {users} akan dilarang}}",
+                "unban_ip_confirmation": "Apakah Anda yakin ingin mencabut larangan pengguna ini dan semua pengguna lainnya yang tidak dilarang oleh IP lain?",
+                "unban_options_only_ip": "Hanya mencabut larangan IP saat ini (<code>{ip}</code>)",
+                "unban_options_all_ip": "Cabut larangan untuk semua IP yang digunakan oleh <i>{username}</i>",
+                "unban_ip_no_users": "Tidak ada orang lain yang akan dicabut larangannya",
+                "unban_ip_users": "{count, plural, one {Pengguna {users} akan dicabut larangannya} other {Pengguna {users} akan dicabut larangannya}}",
+                "unbanned_ips": "<code>{ips}</code> tidak dilarang.",
                 "ban_button": "=> fof-ban-ips.ref.ban_label",
                 "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
         },
         "ref": {
-            "ban_label": "Cekal",
-            "ban_ip_addresses": "Cekal Alamat IP",
-            "ban_ip_button": "Cekal Alamat IP",
-            "unban_label": "Buka Pencekalan",
-            "unban_ip_addresses": "Buka Pencekalan IP",
-            "unban_ip_button": "Buka Pencekalan IP",
+            "ban_label": "Larang",
+            "ban_ip_addresses": "Melarang IP",
+            "ban_ip_button": "Melarang IP",
+            "unban_label": "Lepaskan",
+            "unban_ip_addresses": "Lepaskan IP",
+            "unban_ip_button": "Lepaskan IP",
             "address_label": "Alamat IP",
             "reason_label": "Alasan"
         }
