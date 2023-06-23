@@ -47,7 +47,7 @@
                     "discussionComposer": "Area Pengeditan Diskusi"
                 },
                 "uniformComposerLayout": "Tata letak area pengeditan diskusi yang seragam",
-                "uniformComposerLayoutHelp": ""
+                "uniformComposerLayoutHelp": "Mengubah gaya tag, judul, dan bidang konten agar sesuai dengan Formulaire. Tata letak ini akan membutuhkan lebih banyak ruang, jadi Anda disarankan untuk menginstal dan mengaktifkan ekstensi <a>Composer Page</a>.\n"
             }
         },
         "forum": {
@@ -166,9 +166,9 @@
                     "allow-modification": "",
                     "enable": "Aktifkan",
                     "max-submissions": "",
-                    "send-confirmation-to-participants": "",
-                    "notify-emails": "",
-                    "web-confirmation-message": "",
+                    "send-confirmation-to-participants": "Mengirimkan email konfirmasi kepada peserta",
+                    "notify-emails": "Kirimkan salinan data ke email yang dipisahkan dengan koma tersebut",
+                    "web-confirmation-message": "Pesan konfirmasi di web (pemformatan diaktifkan)",
                     "permission-see-own": "",
                     "permission-see-any": "",
                     "permission-edit-own": "",
