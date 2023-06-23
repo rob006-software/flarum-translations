@@ -77,7 +77,7 @@
                 "votes": {
                     "points_title": "",
                     "points_placeholder": "Poin: ",
-                    "color_holder": "",
+                    "color_holder": "#ffffff",
                     "auto_upvote": "Berikan Upvote secara otomatis pada postingan saat diposting",
                     "rate_limit": "Terapkan batas kecepatan dalam memberikan vote (10 detik)",
                     "discussion_page": "Tampilkan total vote dari postingan awal pada daftar diskusi",
@@ -124,7 +124,7 @@
         },
         "email": {
             "body": {
-                "postVoted": ""
+                "postVoted": "Hai {recipient_display_name},\n\n{actor_display_name} baru saja memberikan vote pada postingan Anda di {discussion_title}.\n\nLihat di sini: {discussion_url}\n"
             },
             "subject": {
                 "postVoted": "Post Anda telah mendapatkan vote dari {display_name}"
