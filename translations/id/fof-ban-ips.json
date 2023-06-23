@@ -4,12 +4,12 @@
             "ban_ip_button": "=> fof-ban-ips.ref.ban_ip_button",
             "unban_ip_button": "=> fof-ban-ips.ref.unban_ip_button",
             "modal": {
-                "ban_options_only_ip": "Hanya melarang IP saat ini (<code>{ip}</code>)",
-                "ban_options_all_ip": "Larang semua IP yang digunakan oleh <i>{username}</i>",
-                "ban_ip_no_users": "Tidak ada orang lain yang akan dilarangan"
+                "ban_options_only_ip": "Hanya memblokir IP saat ini (<code>{ip}</code>)",
+                "ban_options_all_ip": "Memblokir semua IP yang digunakan oleh <i>{username}</i>",
+                "ban_ip_no_users": "Tidak ada orang lain yang akan diblokir"
             },
             "user_badge": {
-                "banned_tooltip": "Dilarang"
+                "banned_tooltip": "Diblokir"
             },
             "user_controls": {
                 "ban_button": "=> fof-ban-ips.ref.ban_label",
@@ -19,7 +19,7 @@
         "admin": {
             "permissions": {
                 "ban_ip_label": "=> fof-ban-ips.ref.ban_ip_addresses",
-                "view_banned_ip_list_label": "Melihat daftar alamat IP yang dilarang"
+                "view_banned_ip_list_label": "Melihat daftar alamat IP yang diblokir"
             },
             "page": {
                 "create_button": "=> fof-ban-ips.ref.ban_ip_button",
@@ -30,10 +30,10 @@
                 "date_label": "Tanggal"
             },
             "modal": {
-                "update_title": "Perbarui IP yang Dilarang",
-                "ban_ip_no_users": "Tidak ada yang akan dilarang"
+                "update_title": "Perbarui IP Yang Diblokir",
+                "ban_ip_no_users": "Tidak ada satupun yang akan diblokir"
             },
-            "empty_text": "Tidak ditemukan IP yang dilarang."
+            "empty_text": "Tidak ditemukan adanya IP yang diblokir."
         },
         "error": {
             "banned_ip_message": "Otorisasi gagal.",
@@ -48,24 +48,24 @@
                 "check_button": "Periksa",
                 "save_button": "Simpan",
                 "ban_ip_confirmation": "Apakah Anda yakin ingin memblokir alamat IP ini agar tidak digunakan di forum? Ini akan memblokir pengguna dengan alamat IP ini agar tidak dapat login dan mendaftar.",
-                "ban_ip_users": "{count, plural, one {Pengguna {users} akan dilarang} other {Pengguna {users} akan dilarang}}",
-                "unban_ip_confirmation": "Apakah Anda yakin ingin mencabut larangan pengguna ini dan semua pengguna lainnya yang tidak dilarang oleh IP lain?",
-                "unban_options_only_ip": "Hanya mencabut larangan IP saat ini (<code>{ip}</code>)",
-                "unban_options_all_ip": "Cabut larangan untuk semua IP yang digunakan oleh <i>{username}</i>",
-                "unban_ip_no_users": "Tidak ada orang lain yang akan dicabut larangannya",
-                "unban_ip_users": "{count, plural, one {Pengguna {users} akan dicabut larangannya} other {Pengguna {users} akan dicabut larangannya}}",
+                "ban_ip_users": "{count, plural, one {Pengguna {users} akan diblokir} other {Pengguna {users} akan diblokir}}",
+                "unban_ip_confirmation": "Apakah Anda yakin ingin membuka blokir pengguna ini dan semua pengguna lain yang tidak diblokir oleh IP lain?",
+                "unban_options_only_ip": "Hanya membuka blokir IP saat ini (<code>{ip}</code>)",
+                "unban_options_all_ip": "Membuka blokir semua IP yang digunakan oleh <i>{username}</i>",
+                "unban_ip_no_users": "Tidak ada orang lain yang akan dibuka blokirnya",
+                "unban_ip_users": "{count, plural, one {Pengguna {users} akan dibuka blokirnya} other {Pengguna {users} akan dibuka blokirnya}}",
                 "unbanned_ips": "<code>{ips}</code> tidak dilarang.",
                 "ban_button": "=> fof-ban-ips.ref.ban_label",
                 "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
         },
         "ref": {
-            "ban_label": "Larang",
-            "ban_ip_addresses": "Melarang IP",
-            "ban_ip_button": "Melarang IP",
-            "unban_label": "Lepaskan",
-            "unban_ip_addresses": "Lepaskan IP",
-            "unban_ip_button": "Lepaskan IP",
+            "ban_label": "Blokir",
+            "ban_ip_addresses": "Blokir IP",
+            "ban_ip_button": "Blokir IP",
+            "unban_label": "Buka blokir",
+            "unban_ip_addresses": "Buka blokir IP",
+            "unban_ip_button": "Buka blokir IP",
             "address_label": "Alamat IP",
             "reason_label": "Alasan"
         }
