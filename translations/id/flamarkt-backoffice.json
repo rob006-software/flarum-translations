@@ -6,12 +6,12 @@
         "backoffice": {
             "settingsNotAvailableForNonAdmin": "Ekstensi ini memiliki pengaturan, tetapi hanya akun admin yang dapat melihat dan mengeditnya.",
             "nav": {
-                "dashboard": "Dashboard",
-                "users": "User",
+                "dashboard": "=> core.admin.dashboard.title",
+                "users": "=> core.ref.users",
                 "searchPlaceholder": "=> core.admin.nav.search_placeholder"
             },
             "users": {
-                "title": "User",
+                "title": "=> core.ref.users",
                 "new": "Membuat user",
                 "searchPlaceholder": "Cari seseorang...",
                 "head": {
