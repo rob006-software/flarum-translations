@@ -2,60 +2,60 @@
     "clarkwinkelmann-anonymous-posting": {
         "admin": {
             "settings": {
-                "defaultAnonymity": "",
-                "defaultAnonymityWhenAbleToSwitch": "",
-                "alwaysAnonymiseEdits": "",
-                "alwaysAnonymiseEditsHelp": "",
-                "composerHelpTextPosition": "",
-                "composerHelpTextPositionVisible": "",
-                "composerHelpTextPositionTooltip": "",
-                "composerHelpTextPositionHidden": "",
-                "composerHelpTextPositionHelp": "",
-                "avatars": "",
-                "avatarsHelp": "",
-                "avatarFormId": "",
-                "avatarFieldKey": "",
-                "avatarFieldValue": "",
-                "avatarAvatarUrl": "",
-                "avatarAdd": ""
+                "defaultAnonymity": "Новий вміст за налаштуванням анонімний",
+                "defaultAnonymityWhenAbleToSwitch": "Новий вміст за налаштуванням анонімний для користувачів з правами перемикача",
+                "alwaysAnonymiseEdits": "Завжди анонімізуйте зміни",
+                "alwaysAnonymiseEditsHelp": "За налаштуванням редагування/приховування автором анонімного повідомлення анонімізуються, але будь-який модератор, який редагує повідомлення або дискусію, все одно буде показаний як автор редагування/приховування. Якщо цю опцію увімкнено, користувач, який редагує/приховує, ніколи не буде входити до анонімного контенту, незалежно від того, ким він є.\n",
+                "composerHelpTextPosition": "Позиція довідкового тексту композитора",
+                "composerHelpTextPositionVisible": "Видимий (під міткою)",
+                "composerHelpTextPositionTooltip": "Підказка (після мітки)",
+                "composerHelpTextPositionHidden": "Прихований",
+                "composerHelpTextPositionHelp": "Чекбокс і цей текст відображаються лише для користувачів з правами перемикача.",
+                "avatars": "Анонімні аватарки",
+                "avatarsHelp": "Ця функція вимагає преміум-розширення <a>Formulaire</a>. Використання цієї функції спричиняє невеликий вплив на продуктивність, оскільки для отримання обговорень і дописів потрібні додаткові запити до бази даних. Дивіться README для більш детальної інформації про формат для кожного типу даних.\n",
+                "avatarFormId": "ID форми",
+                "avatarFieldKey": "Поле ключа",
+                "avatarFieldValue": "Поле значення",
+                "avatarAvatarUrl": "URL-адреса аватара",
+                "avatarAdd": "Додати правило для аватара"
             },
             "permissions": {
-                "use": "",
-                "reveal": "",
-                "moderate": ""
+                "use": "Увімкніть опцію анонімності вмісту під час створення",
+                "reveal": "Побачити реальних авторів анонімних дискусій та дописів",
+                "moderate": "Анонімізувати або деанонімізувати будь-яке обговорення або допис"
             }
         },
         "forum": {
             "composerControls": {
-                "anonymize": "",
-                "anonymizeHelp": ""
+                "anonymize": "Написати анонімно",
+                "anonymizeHelp": "Модератори все одно знатимуть, що ви створили цей вміст"
             },
             "discussionControls": {
-                "anonymize": "",
-                "anonymizeConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "anonymize": "Анонімізувати",
+                "anonymizeConfirmation": "Це зробить автора обговорення анонімним. Перше повідомлення має бути анонімізоване окремо. Продовжити?",
+                "deanonymize": "Деанонімізувати",
+                "deanonymizeConfirmation": "Це знову зробить автора дискусії публічним. Продовжити?"
             },
             "postControls": {
-                "anonymize": "",
-                "firstPostConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "anonymize": "Анонімізувати",
+                "firstPostConfirmation": "Це зробить автора першого повідомлення анонімним. Дискусія повинна бути анонімізована окремо. Продовжувати?",
+                "deanonymize": "Деанонімізувати",
+                "deanonymizeConfirmation": "Це знову зробить автора допису публічним. Продовжити?"
             },
             "discussionList": {
-                "genericReplyText": ""
+                "genericReplyText": "Останній раз відповідав {ago}"
             },
             "postPrivacy": {
-                "mine": "",
-                "mineHelp": "",
-                "profile": "",
-                "profileHelp": ""
+                "mine": "Я",
+                "mineHelp": "Тільки ви можете бачити цю інформацію",
+                "profile": "Видимий тільки вам",
+                "profileHelp": "Тільки ви можете бачити свої анонімні повідомлення у вашому профілі"
             }
         },
         "lib": {
             "userMeta": {
-                "initials": "",
-                "username": ""
+                "initials": "?",
+                "username": "Анонім"
             }
         }
     }
