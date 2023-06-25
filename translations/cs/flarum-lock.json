@@ -2,7 +2,7 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": "Uzamykání témat"
+                "lock_discussions_label": "Zamknout diskuzi"
             }
         },
         "forum": {
@@ -17,11 +17,11 @@
                 "discussion_locked_text": "Uživatel {username} uzamknul"
             },
             "post_stream": {
-                "discussion_locked_text": "Uživatel {username} uzamknul toto téma.",
-                "discussion_unlocked_text": "Uživatel {username} odemknul toto téma."
+                "discussion_locked_text": "Uživatel {username} zamknul toto téma {time}.",
+                "discussion_unlocked_text": "Uživatel {username} odemknul toto téma {time}."
             },
             "settings": {
-                "notify_discussion_locked_label": "Někdo uzamkne téma, které jsem založil"
+                "notify_discussion_locked_label": "Někdo zamkne diskuzi, kterou jsem založil"
             }
         }
     }
