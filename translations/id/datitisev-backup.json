@@ -148,11 +148,11 @@
                         "description": "Nama host yang akan disambungkan dengan FTP, misalnya: <em>ftp.yourdomain.local</em>."
                     },
                     "username": {
-                        "label": "Username",
+                        "label": "=> core.ref.username",
                         "description": "Username untuk mengautentikasi pada server FTP."
                     },
                     "password": {
-                        "label": "Password",
+                        "label": "=> core.ref.password",
                         "description": "Password pengguna untuk mengautentikasi pada server FTP."
                     },
                     "private-key": {
