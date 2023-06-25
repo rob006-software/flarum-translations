@@ -30,13 +30,13 @@
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Bahasa Default",
                 "description": "Tetapkan judul forum, bahasa, dan pengaturan dasar lainnya.",
-                "display_name_heading": "Nama Tampilan User",
-                "display_name_text": "Pilih driver yang akan digunakan sebagai nama tampilan User. Secara default, username akan ditampilkan.",
+                "display_name_heading": "Nama Tampilan Pengguna",
+                "display_name_text": "Pilih driver yang akan digunakan untuk nama tampilan pengguna. Secara default, username akan ditampilkan.",
                 "forum_description_heading": "Deskripsi Forum",
                 "forum_description_text": "Masukkan satu atau dua kalimat pendek yang menggambarkan komunitas Anda. Ini akan muncul di tag meta dan muncul di mesin pencari.",
                 "forum_title_heading": "Judul Forum",
                 "home_page_heading": "Beranda",
-                "home_page_text": "Pilih halaman yang akan pertama kali dilihat oleh User ketika mereka mengunjungi forum Anda.",
+                "home_page_text": "Pilih halaman yang pertama kali akan dilihat pengguna ketika mereka mengunjungi forum Anda.",
                 "show_language_selector_label": "Tampilkan pilihan bahasa",
                 "slug_driver_heading": "Slug Driver: {model}",
                 "slug_driver_text": "Pilih driver yang akan digunakan untuk slugging model ini.",
@@ -46,11 +46,11 @@
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
-                "email_confirmed_label": "User harus mengonfirmasi email ini",
+                "email_confirmed_label": "Mengharuskan pengguna untuk mengonfirmasi email ini",
                 "password_placeholder": "=> core.ref.password",
                 "submit_and_create_another_button": "Buat dan tambahkan yang lain",
-                "submit_button": "Membuat user",
-                "title": "Membuat user baru",
+                "submit_button": "Membuat pengguna",
+                "title": "Membuat pengguna baru",
                 "use_random_password": "Hasilkan password acak",
                 "username_placeholder": "=> core.ref.username"
             },
@@ -198,9 +198,9 @@
                 "delete_posts_label": "Menghapus postingan",
                 "description": "Mengonfigurasi siapa saja yang dapat melihat dan apa saja yang dapat dilakukan.",
                 "edit_posts_label": "Mengedit postingan",
-                "edit_users_label": "Mengedit atribut user",
-                "edit_users_credentials_label": "Mengedit kredensial user",
-                "edit_users_groups_label": "Mengedit grup user",
+                "edit_users_label": "Mengedit atribut pengguna",
+                "edit_users_credentials_label": "Mengedit kredensial pengguna",
+                "edit_users_groups_label": "Mengedit grup pengguna",
                 "global_heading": "Global",
                 "moderate_heading": "Moderasi",
                 "moderate_access_tokens_label": "Memoderasi Akses Token",
@@ -214,9 +214,9 @@
                 "sign_up_label": "Mendaftar",
                 "start_discussions_label": "Memulai diskusi",
                 "title": "Perizinan",
-                "view_forum_label": "Melihat forum (diskusi dan user)",
+                "view_forum_label": "Melihat forum (diskusi dan pengguna)",
                 "view_hidden_groups_label": "Melihat badge grup yang disembunyikan",
-                "view_last_seen_at_label": "Selalu melihat waktu terakhir dilihat oleh user",
+                "view_last_seen_at_label": "Selalu melihat waktu terakhir dilihat pengguna",
                 "view_post_ips_label": "Melihat alamat IP post"
             },
             "permissions_controls": {
@@ -352,7 +352,7 @@
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
                 "email_sent_message": "Jika email yang Anda masukkan terdaftar di situs ini, Kami akan mengirimkan email yang berisi link untuk mereset password Anda. Periksa folder spam Anda jika Anda tidak menerimanya dalam satu atau dua menit ke depan.",
-                "not_found_message": "Tidak ada user yang terdaftar dengan alamat email tersebut.",
+                "not_found_message": "Tidak ada pengguna yang terdaftar dengan alamat email tersebut.",
                 "submit_button": "Pulihkan Password",
                 "text": "Masukkan alamat email Anda dan Kami akan mengirimkan link untuk mereset password Anda.",
                 "title": "Lupa Password"
@@ -521,9 +521,9 @@
             "user_controls": {
                 "button": "Kontrol",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Apakah Anda yakin ingin menghapus User ini? Post yang telah dibuat oleh User tersebut TIDAK akan ikut terhapus.",
-                "delete_error_message": "Penghapusan user <i>{username} ({email})</i> gagal",
-                "delete_success_message": "User <i>{username} ({email})</i> telah dihapus",
+                "delete_confirmation": "Apakah Anda yakin ingin menghapus pengguna ini? Postingan pengguna TIDAK akan dihapus.",
+                "delete_error_message": "Penghapusan pengguna <i>{username} ({email})</i> gagal",
+                "delete_success_message": "Pengguna <i>{username} ({email})</i> telah dihapus",
                 "edit_button": "=> core.ref.edit",
                 "toggle_dropdown_accessible_label": "Menampilkan menu dropdown kontrol pengguna"
             },
@@ -551,7 +551,7 @@
                 "label": "{label}:"
             },
             "edit_user": {
-                "activate_button": "Aktifkan User",
+                "activate_button": "Aktifkan Pengguna",
                 "email_heading": "=> core.ref.email",
                 "email_label": "=> core.ref.email",
                 "groups_heading": "Grup",
@@ -562,7 +562,7 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": "Anda tidak diizinkan untuk mengedit User ini."
+                "nothing_available": "Anda tidak diizinkan untuk mengedit pengguna ini."
             },
             "error": {
                 "circular_dependencies_message": "Circular dependencies terdeteksi: {extensions}. Membatalkan. Nonaktifkan salah satu ekstensi dan coba lagi.",
@@ -575,7 +575,7 @@
                 "payload_too_large_message": "Request payload terlalu besar.",
                 "permission_denied_message": "Anda tidak memiliki izin untuk melakukan itu.",
                 "rate_limit_exceeded_message": "Anda terlihat terlalu cepat. Silakan coba lagi dalam beberapa detik.",
-                "render_failed_message": "Maaf, kami mengalami error saat menampilkan konten ini. Jika Anda adalah User, silakan coba lagi nanti. Jika Anda seorang Administrator, lihat file log Flarum Anda untuk informasi lebih lanjut."
+                "render_failed_message": "Maaf, kami mengalami error saat menampilkan konten ini. Jika Anda seorang pengguna, silakan coba lagi nanti. Jika Anda seorang administrator, lihatlah file log Flarum Anda untuk informasi lebih lanjut."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -702,7 +702,7 @@
             "delete_forever": "Hapus Permanen",
             "discussions": "Diskusi",
             "edit": "Edit",
-            "edit_user": "Edit User",
+            "edit_user": "Edit Pengguna",
             "email": "Email",
             "extensions": "Ekstensi",
             "generic_confirmation_message": "Apakah Anda yakin ingin melanjutkan? Tindakan ini tidak dapat dibatalkan.",
@@ -727,7 +727,7 @@
             "reset_your_password": "Reset Password Anda",
             "restore": "Memulihkan",
             "save_changes": "Simpan Perubahan",
-            "search_users": "Mencari user",
+            "search_users": "Cari pengguna",
             "security": "Keamanan",
             "settings": "Pengaturan",
             "sign_up": "Daftar",
