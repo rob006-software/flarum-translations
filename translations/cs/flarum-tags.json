@@ -25,7 +25,7 @@
             "permissions": {
                 "allow_edit_tags_label": "Povolit úpravu štítků",
                 "bypass_tag_counts_label": "Obcházení požadavků na označení",
-                "restrict_by_tag_heading": "Omezit Tagem",
+                "restrict_by_tag_heading": "Omezit štítkem",
                 "tag_discussions_label": "Otagovat diskuze"
             },
             "settings": {
@@ -88,7 +88,7 @@
             "deleted_tag_text": "Smazaný štítek",
             "tag_selection_modal": {
                 "bypass_requirements": "Obejít požadavky na štítky",
-                "choose_primary_placeholder": "",
+                "choose_primary_placeholder": "{count, plural, one {Vyberte hlavní štítek} other {Vyberte # hlavních štítků}}",
                 "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "submit_button": "=> core.ref.okay",
@@ -97,7 +97,7 @@
         },
         "ref": {
             "choose_tags": "Vybrat štítky",
-            "choose_tags_placeholder": "",
+            "choose_tags_placeholder": "{count, plural, one {Vyberte ještě 1 štítek} other {Vyberte ještě # štítků}}",
             "name": "Název",
             "tags": "Štítky"
         }
