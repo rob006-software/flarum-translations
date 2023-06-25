@@ -20,7 +20,7 @@
             "overview": {
                 "knowledge_base_overview": "Gambaran umum basis pengetahuan",
                 "back_to": "Kembali ke {category}",
-                "back_to_overview": "",
+                "back_to_overview": "Kembali ke gambaran umum basis pengetahuan",
                 "back_to_main_categories": "Kembali ke kategori utama",
                 "loading_articles": "Memuat artikel",
                 "no_categories_found": "Maaf, tidak ada kategori yang ditemukan di sini...",
@@ -42,7 +42,7 @@
             "search": {
                 "title": "Cari",
                 "back_to_search_results": "Kembali ke hasil pencarian",
-                "search_knowledge_base": "",
+                "search_knowledge_base": "Telusuri basis pengetahuan kami",
                 "searching": "Mencari",
                 "searching_for": "Mencari {searchterm}",
                 "searched_for": "",
@@ -58,7 +58,7 @@
                 "article": "Artikel",
                 "articles": "Artikel",
                 "hidden": "",
-                "created_at": "",
+                "created_at": "Dibuat pada {date}",
                 "author": "Penulis",
                 "authors": "Penulis",
                 "last_modified": "Terakhir diubah pada {date}",
@@ -92,7 +92,7 @@
                     "invalid_points": "Rating tidak valid. Silakan coba lagi.",
                     "cannot_rate_article": "Anda tidak dapat memberikan rating pada artikel ini.",
                     "neutral_emoji_disabled": "",
-                    "missing_article_id": ""
+                    "missing_article_id": "ID artikel hilang atau tidak valid"
                 },
                 "switch_sort_score": {
                     "label": "",
@@ -126,13 +126,13 @@
             },
             "composer": {
                 "compose_article": "",
-                "compose_ticket": "",
+                "compose_ticket": "Tulis tiket",
                 "new_article_title": "Judul artikel baru",
                 "enter_message_here": "Masukkan pesan Anda di sini",
                 "publish_article": "Terbitkan artikel",
                 "publish_article_hint": "Terbitkan artikel setelah diposting.",
                 "manage_tags": "",
-                "write": "",
+                "write": "Tulis",
                 "view": "Lihat",
                 "nothing_to_preview": "",
                 "warning_save_changes": "",
@@ -142,10 +142,10 @@
                 "ticket": "Tiket",
                 "subject": "",
                 "ticket_does_not_exist": "Tiket dukungan yang diminta tidak ada.",
-                "return_to_overview": "",
-                "ticket_overview": "",
+                "return_to_overview": "Kembali ke gambaran umum tiket",
+                "ticket_overview": "Gambaran umum tiket",
                 "opened_on": "",
-                "ticket_activity": "",
+                "ticket_activity": "Oleh {username}, aktivitas terakhir {date}",
                 "reminders_sent": "",
                 "convert_to_ticket": {
                     "button": "Ubah menjadi tiket",
@@ -195,8 +195,8 @@
                 "tools": {
                     "view_ticket": "Lihat tiket",
                     "update_subject": "",
-                    "assign_me": "",
-                    "remove_me": "",
+                    "assign_me": "Tugaskan pada Saya",
+                    "remove_me": "Hapus Saya",
                     "update_status": "Perbarui status tiket",
                     "close_ticket": "Tutup tiket",
                     "update_note": "Perbarui catatan pribadi"
@@ -255,9 +255,9 @@
                 "overview": {
                     "title": "Gambaran umum tiket",
                     "description": "Tersenyumlah, Anda adalah pahlawan yang menyelamatkan hari orang lain.",
-                    "no_tickets": "",
+                    "no_tickets": "Tidak ada tiket yang sesuai dengan kriteria Anda, mungkin Anda melakukan pekerjaan dengan baik!",
                     "all_tickets": "Semua tiket",
-                    "selection_unfiltered": "",
+                    "selection_unfiltered": "Tidak difilter",
                     "selection_open": "Tiket terbuka",
                     "selection_closed": "Tiket tertutup",
                     "refresh": "",
@@ -270,9 +270,9 @@
                             "any": "Semua bahasa"
                         },
                         "assignees": {
-                            "title": "",
-                            "search": "",
-                            "unassigned": ""
+                            "title": "Filter pada penerima tugas",
+                            "search": "Cari penerima tugas",
+                            "unassigned": "Tidak ditugaskan"
                         }
                     },
                     "sort": {
