@@ -2,7 +2,7 @@
     "fof-drafts": {
         "admin": {
             "permissions": {
-                "start": "",
+                "start": "Vytvářet koncepty",
                 "schedule": ""
             },
             "settings": {
@@ -20,26 +20,26 @@
         },
         "forum": {
             "composer": {
-                "title": "",
-                "saving": "",
-                "saved": "",
-                "exit_alert": "",
-                "discard_empty_draft_alert": ""
+                "title": "Uložit koncept",
+                "saving": "Ukládání…",
+                "saved": "Uloženo!",
+                "exit_alert": "Zahodit změny v konceptu?",
+                "discard_empty_draft_alert": "Zahodit prázdný koncept?"
             },
             "dropdown": {
-                "empty_text": "",
-                "title": "",
-                "delete_all_button": "",
-                "delete_button": "",
-                "schedule_button": "",
+                "empty_text": "Neuložili jste žádné koncepty",
+                "title": "Koncepty",
+                "delete_all_button": "Smazat všechny koncepty",
+                "delete_button": "Smazat koncept",
+                "schedule_button": "=> fof-drafts.ref.schedule_draft",
                 "scheduled_icon_tooltip": "",
                 "scheduled_icon_tooltip_formatter": "",
-                "tooltip": "",
-                "alert": "",
-                "delete_all_alert": ""
+                "tooltip": "=> fof-drafts.forum.dropdown.title",
+                "alert": "Opravdu chcete svůj koncept smazat?",
+                "delete_all_alert": "Opravdu chcete smazat všechny koncepty?"
             },
             "schedule_draft_modal": {
-                "title": "",
+                "title": "=> fof-drafts.ref.schedule_draft",
                 "text": "",
                 "scheduled_text": "",
                 "scheduled_error": "",
@@ -47,17 +47,17 @@
                 "unschedule_warning": "",
                 "reschedule_button": "",
                 "schedule_button": "",
-                "schedule_time_preview": "",
-                "schedule_time_preview_formatter": "",
-                "schedule_time_preview_invalid": ""
+                "schedule_time_preview": "Tento koncept bude automaticky zveřejněn <b>{datetime}</b>.",
+                "schedule_time_preview_formatter": "LLLL",
+                "schedule_time_preview_invalid": "Neplatné datum a/nebo čas"
             },
             "user": {
                 "settings": {
-                    "drafts_heading": "",
-                    "draft_autosave_enable": "",
-                    "draft_autosave_interval_label": "",
-                    "draft_autosave_interval_button": "",
-                    "draft_autosave_interval_invalid": ""
+                    "drafts_heading": "Koncepty",
+                    "draft_autosave_enable": "Povolit automatické ukládání konceptů?",
+                    "draft_autosave_interval_label": "Interval automatického ukládání (v sekundách)",
+                    "draft_autosave_interval_button": "Interval aktualizace",
+                    "draft_autosave_interval_invalid": "Interval musí být celé číslo větší než 4."
                 }
             }
         }
