@@ -30,8 +30,8 @@
         "ends_with": "Pole :attribute musí končit jedním z následujících: :values.",
         "exists": "Zvolené :attribute není platné.",
         "file": "Pole :attribute musí být soubor.",
-        "file_too_large": "",
-        "file_upload_failed": "",
+        "file_too_large": "Pole :attribute je příliš velké.",
+        "file_upload_failed": "Pole :attribute se nepodařilo nahrát.",
         "filled": "Pole :attribute musí mít hodnotu.",
         "gt": {
             "numeric": "Pole :attribute musí být větší než :value.",
@@ -79,9 +79,9 @@
             "string": "Pole :attribute musí být nejméně :min znaků.",
             "array": "Pole :attribute musí mít nejméně :min položek."
         },
-        "multiple_of": ":attribute musí být násobkem :value.",
+        "multiple_of": "Pole :attribute musí být násobkem :value.",
         "not_in": "Vybraný prvek :attribute není platný.",
-        "not_regex": "Formát prvku :attribute není platný.",
+        "not_regex": "Formát pole :attribute není platný.",
         "numeric": "Pole :attribute musí být číslo.",
         "password": "Heslo je nesprávné.",
         "present": "Pole :attribute musí být přítomno.",
