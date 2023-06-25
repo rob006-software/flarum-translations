@@ -29,7 +29,7 @@
                 "tag_discussions_label": "Otagovat diskuze"
             },
             "settings": {
-                "button_text": ""
+                "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
                 "range_separator_text": " do ",
@@ -61,7 +61,7 @@
                 "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
-                "choose_tags_link": "Zvol štítky"
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
                 "edit_tags_button": "Upravit štítky"
@@ -75,9 +75,9 @@
                 "untagged_link": "Beze štítku"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} přidal {tagsAdded} a odebral {tagsRemoved}.",
-                "added_tags_text": "{username} přidal {tagsAdded}.",
-                "removed_tags_text": "{username} odebral {tagsRemoved}.",
+                "added_and_removed_tags_text": "{username} přidal {tagsAdded} a odebral {tagsRemoved} {time}.",
+                "added_tags_text": "{username} přidal {tagsAdded} {time}.",
+                "removed_tags_text": "{username} odebral {tagsRemoved} {time}.",
                 "tags_text": "{count, plural, one {{tags} štítek} other {{tags} štítků}}"
             },
             "tag": {
@@ -87,16 +87,16 @@
         "lib": {
             "deleted_tag_text": "Smazaný štítek",
             "tag_selection_modal": {
-                "bypass_requirements": "",
+                "bypass_requirements": "Obejít požadavky na štítky",
                 "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
             }
         },
         "ref": {
-            "choose_tags": "",
+            "choose_tags": "Vybrat štítky",
             "choose_tags_placeholder": "",
             "name": "Název",
             "tags": "Štítky"
