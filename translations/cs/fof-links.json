@@ -3,7 +3,7 @@
         "admin": {
             "edit_link": {
                 "delete_link_button": "Smazat odkaz",
-                "delete_link_confirmation": "Opravdu chcete tento odkaz odstranit?",
+                "delete_link_confirmation": "Opravdu chcete tento odkaz smazat?",
                 "everyone-label": "Všichni",
                 "guests-label": "Hosté",
                 "internal_link": "Jedná se o interní odkaz?",
@@ -15,7 +15,7 @@
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
-                "url_description": "",
+                "url_description": "Pro zobrazení jako popisek ponechte prázdné.",
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "visibility": "Viditelnost odkazů"
@@ -32,7 +32,7 @@
             "create_link": "Vytvořit odkaz",
             "links": "Odkazy",
             "title": "Název",
-            "url": "URL"
+            "url": "Adresa URL"
         }
     }
 }
