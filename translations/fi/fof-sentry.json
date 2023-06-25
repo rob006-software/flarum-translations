@@ -3,13 +3,23 @@
         "admin": {
             "settings": {
                 "dsn_label": "Sentry DSN",
+                "dsn_help": "",
+                "dsn_backend_label": "",
+                "dsn_backend_help": "",
                 "environment_label": "Sentry ympäristö (enviroment)",
                 "user_feedback_label": "Käyttäjän palaute",
+                "send_user_emails_label": "Lähetä käyttäjän sähköpostiosoitteet Sentry raporttien mukana?",
+                "monitor_performance_label": "Taustajärjestelmän suorituskyvyn tarkkailuaste (0-100)",
+                "profile_rate_label": "",
+                "profile_rate_help": "",
                 "javascript_label": "Raportoi JavaScript virheet",
                 "javascript_console_label": "Tallenna JavaScript konsoli",
                 "javascript_trace_sample_rate": "Käyttöliittymän suorituskyvyn tarkkailuaste (0-100)",
-                "monitor_performance_label": "Taustajärjestelmän suorituskyvyn tarkkailuaste (0-100)",
-                "send_user_emails_label": "Lähetä käyttäjän sähköpostiosoitteet Sentry raporttien mukana?"
+                "javascript_trace_sample_rate_help": "",
+                "javascript_replays_session_sample_rate": "",
+                "javascript_replays_session_sample_rate_help": "",
+                "javascript_replays_error_sample_rate": "",
+                "javascript_replays_error_sample_rate_help": ""
             }
         }
     }

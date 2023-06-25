@@ -3,13 +3,23 @@
         "admin": {
             "settings": {
                 "dsn_label": "Sentry DSN",
+                "dsn_help": "",
+                "dsn_backend_label": "",
+                "dsn_backend_help": "",
                 "environment_label": "Sentry 監控環境",
                 "user_feedback_label": "使用者反饋",
+                "send_user_emails_label": "發送 Sentry 報告時包含用戶郵箱？",
+                "monitor_performance_label": "後端性能監測率 (0 - 100)",
+                "profile_rate_label": "",
+                "profile_rate_help": "",
                 "javascript_label": "回報 JavaScript 錯誤",
                 "javascript_console_label": "捕獲 JavaScript 控制台",
                 "javascript_trace_sample_rate": "前端性能監測率 (0 - 100)",
-                "monitor_performance_label": "後端性能監測率 (0 - 100)",
-                "send_user_emails_label": "發送 Sentry 報告時包含用戶郵箱？"
+                "javascript_trace_sample_rate_help": "",
+                "javascript_replays_session_sample_rate": "",
+                "javascript_replays_session_sample_rate_help": "",
+                "javascript_replays_error_sample_rate": "",
+                "javascript_replays_error_sample_rate_help": ""
             }
         }
     }

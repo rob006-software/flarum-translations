@@ -3,13 +3,23 @@
         "admin": {
             "settings": {
                 "dsn_label": "Sentry DSN",
+                "dsn_help": "If you use a Relay DSN as the primary one, do not check \"User Feedback\" as it will not work.",
+                "dsn_backend_label": "Sentry DSN (Backend Only)",
+                "dsn_backend_help": "This DSN will only be used for backend errors. This is useful if you want to use a different project for backend errors or want to use a Relay to send backend errors to Sentry (eg. to improve performance).",
                 "environment_label": "Sentry Environment",
                 "user_feedback_label": "User Feedback",
+                "send_user_emails_label": "Send user email addresses with Sentry reports?",
+                "monitor_performance_label": "Back-end Performance Monitoring Rate (0 - 100)",
+                "profile_rate_label": "Back-end Profiling Rate (0 - 100)",
+                "profile_rate_help": "This is relative to the performance monitoring rate. Performance monitoring must be enabled for this to work.\n\n{br}✱ Enabling this feature affects response time due to the overhead of profiling and requests being sent to Sentry. Learn how to offset this @ <a>https://docs.sentry.io/platforms/php/profiling/#improve-response-time</a>.\n{br}{icon} <bold>This feature requires Wikipedia's sampling profiler Excimer, which is only available for Linux.</bold>\n",
                 "javascript_label": "Report JavaScript Errors",
                 "javascript_console_label": "Capture JavaScript Console",
                 "javascript_trace_sample_rate": "Front-end Performance Monitoring Rate (0 - 100)",
-                "monitor_performance_label": "Back-end Performance Monitoring Rate (0 - 100)",
-                "send_user_emails_label": "Send user email addresses with Sentry reports?"
+                "javascript_trace_sample_rate_help": "The sample rate for all transactions. {br}✱ Enabling this feature increases bundle size by ~30 KB.",
+                "javascript_replays_session_sample_rate": "Front-end Session Replays Rate (0 - 100)",
+                "javascript_replays_session_sample_rate_help": "The sample rate for replays that begin recording immediately and last the entirety of the user's session. {br}✱ Having any replay option enabled increases bundle size by ~150 KB.",
+                "javascript_replays_error_sample_rate": "Front-end Error Replays Rate (0 - 100)",
+                "javascript_replays_error_sample_rate_help": "The sample rate for replays that are recorded when an error happens. Up to 1 minute before the error will be recorded and continue until the session ends. {br}✱ Having any replay option enabled increases bundle size by ~150 KB."
             }
         }
     }

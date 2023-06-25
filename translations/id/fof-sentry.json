@@ -3,13 +3,23 @@
         "admin": {
             "settings": {
                 "dsn_label": "Sentry DSN",
+                "dsn_help": "",
+                "dsn_backend_label": "",
+                "dsn_backend_help": "",
                 "environment_label": "Sentry Environment",
                 "user_feedback_label": "Umpan Balik",
+                "send_user_emails_label": "Kirim alamat email pengguna dengan Sentry report?",
+                "monitor_performance_label": "Tingkat Pemantauan Kinerja Back-end (0 - 100)",
+                "profile_rate_label": "",
+                "profile_rate_help": "",
                 "javascript_label": "Laporkan Kesalahan JavaScript",
                 "javascript_console_label": "",
                 "javascript_trace_sample_rate": "Tingkat Pemantauan Kinerja Front-end (0 - 100)",
-                "monitor_performance_label": "Tingkat Pemantauan Kinerja Back-end (0 - 100)",
-                "send_user_emails_label": "Kirim alamat email pengguna dengan Sentry report?"
+                "javascript_trace_sample_rate_help": "",
+                "javascript_replays_session_sample_rate": "",
+                "javascript_replays_session_sample_rate_help": "",
+                "javascript_replays_error_sample_rate": "",
+                "javascript_replays_error_sample_rate_help": ""
             }
         }
     }

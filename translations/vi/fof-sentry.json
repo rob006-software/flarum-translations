@@ -3,13 +3,23 @@
         "admin": {
             "settings": {
                 "dsn_label": "Sentry DSN",
+                "dsn_help": "",
+                "dsn_backend_label": "",
+                "dsn_backend_help": "",
                 "environment_label": "Môi trường Sentry",
                 "user_feedback_label": "Phản hồi của người dùng",
+                "send_user_emails_label": "Gửi địa chỉ email của người dùng với báo cáo Sentry?",
+                "monitor_performance_label": "Tỷ lệ giám sát hiệu suất back-end (0 - 100)",
+                "profile_rate_label": "",
+                "profile_rate_help": "",
                 "javascript_label": "Báo lỗi JavaScript",
                 "javascript_console_label": "Ảnh chụp Console JavaScript",
                 "javascript_trace_sample_rate": "Tỷ lệ giám sát hiệu suất Front-end (0 - 100)",
-                "monitor_performance_label": "Tỷ lệ giám sát hiệu suất back-end (0 - 100)",
-                "send_user_emails_label": "Gửi địa chỉ email của người dùng với báo cáo Sentry?"
+                "javascript_trace_sample_rate_help": "",
+                "javascript_replays_session_sample_rate": "",
+                "javascript_replays_session_sample_rate_help": "",
+                "javascript_replays_error_sample_rate": "",
+                "javascript_replays_error_sample_rate_help": ""
             }
         }
     }

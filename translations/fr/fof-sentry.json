@@ -3,13 +3,23 @@
         "admin": {
             "settings": {
                 "dsn_label": "Nom de la source de données (DSN) de Sentry",
+                "dsn_help": "",
+                "dsn_backend_label": "",
+                "dsn_backend_help": "",
                 "environment_label": "Environnement de Sentry",
                 "user_feedback_label": "Retour d'expérience de l'utilisateur",
+                "send_user_emails_label": "Envoyer les adresses de courriel des utilisateurs avec les rapports de Sentry ?",
+                "monitor_performance_label": "Taux de surveillance des performances de l'application dorsale (0 - 100)",
+                "profile_rate_label": "",
+                "profile_rate_help": "",
                 "javascript_label": "Signaler des erreurs JavaScript",
                 "javascript_console_label": "Capturer la console JavaScript",
                 "javascript_trace_sample_rate": "Taux de surveillance des performances de l'application frontale (0 - 100)",
-                "monitor_performance_label": "Taux de surveillance des performances de l'application dorsale (0 - 100)",
-                "send_user_emails_label": "Envoyer les adresses de courriel des utilisateurs avec les rapports de Sentry ?"
+                "javascript_trace_sample_rate_help": "",
+                "javascript_replays_session_sample_rate": "",
+                "javascript_replays_session_sample_rate_help": "",
+                "javascript_replays_error_sample_rate": "",
+                "javascript_replays_error_sample_rate_help": ""
             }
         }
     }
