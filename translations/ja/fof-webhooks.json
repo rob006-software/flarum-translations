@@ -42,7 +42,8 @@
             "errors": {
                 "service_not_found": "サービス '{service}' が見つかりませんでした。",
                 "url_invalid": "選択したサービスの URL が無効です。",
-                "tag_invalid": ""
+                "tag_invalid": "",
+                "tag_disabled": ""
             },
             "nav": {
                 "desc": "フォーラムにカスタム webhook を設定します。"
@@ -56,6 +57,7 @@
                 "help": {
                     "disabled": "イベントが有効になっていないため、この webhook は無効になっています。",
                     "general": "ここで、webhook を追加、編集、削除できます。",
+                    "tags": "",
                     "url": "Webhook はエンドポイントを実行します。"
                 },
                 "modal": {

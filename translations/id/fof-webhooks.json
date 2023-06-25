@@ -42,7 +42,8 @@
             "errors": {
                 "service_not_found": "Layanan \"{service}\" tidak dapat ditemukan.",
                 "url_invalid": "URL tidak valid untuk layanan yang dipilih.",
-                "tag_invalid": "Webhook ini dibatasi untuk tag yang tidak valid. Pembatasan tidak akan berlaku. Pastikan hal ini dimaksudkan."
+                "tag_invalid": "Webhook ini dibatasi untuk tag yang tidak valid. Pembatasan tidak akan berlaku. Pastikan hal ini dimaksudkan.",
+                "tag_disabled": ""
             },
             "nav": {
                 "desc": "Outgoing webhook yang dapat disesuaikan untuk forum Anda."
@@ -56,6 +57,7 @@
                 "help": {
                     "disabled": "Webhook ini dinonaktifkan karena tidak memiliki event yang diaktifkan.",
                     "general": "Di sini Anda dapat menambahkan, mengedit, dan menghapus webhook dari forum Anda.",
+                    "tags": "",
                     "url": "Webhook's endpoint yang akan dieksekusi"
                 },
                 "modal": {

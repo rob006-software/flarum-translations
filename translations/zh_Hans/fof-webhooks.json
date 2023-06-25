@@ -42,7 +42,8 @@
             "errors": {
                 "service_not_found": "\"{service}\" 服务未找到或不存在。",
                 "url_invalid": "所选服务的 URL 无效。",
-                "tag_invalid": "此 Webhook 被限制于无效的标签上。该限制将不可用。请确保这是您有意所为。"
+                "tag_invalid": "此 Webhook 被限制于无效的标签上。该限制将不可用。请确保这是您有意所为。",
+                "tag_disabled": ""
             },
             "nav": {
                 "desc": "为您的论坛设置自定义 Outgoing Webhooks。"
@@ -56,6 +57,7 @@
                 "help": {
                     "disabled": "此 Webhook 已被禁用，因为它没有启用事件。",
                     "general": "您可以在这里添加、编辑、删除论坛中的 webhooks。",
+                    "tags": "",
                     "url": "要运行的 Webhook 终端"
                 },
                 "modal": {

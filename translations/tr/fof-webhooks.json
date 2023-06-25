@@ -42,7 +42,8 @@
             "errors": {
                 "service_not_found": "\"{service}\" hizmeti bulunamadı.",
                 "url_invalid": "Bağlantı, seçilen servis için geçerli değil.",
-                "tag_invalid": "Bu web kancası geçersiz bir etiketle sınırlandırılmıştır. Kısıtlama uygulanmayacaktır. Bunun amaçlandığından emin olun."
+                "tag_invalid": "Bu web kancası geçersiz bir etiketle sınırlandırılmıştır. Kısıtlama uygulanmayacaktır. Bunun amaçlandığından emin olun.",
+                "tag_disabled": ""
             },
             "nav": {
                 "desc": "Forumunuz için özelleştirilebilir web kancaları."
@@ -56,6 +57,7 @@
                 "help": {
                     "disabled": "Bu web kancası, etkin bir etkinliğe sahip olmadığı için etkisizleştirildi.",
                     "general": "Burada forumunuza webhooklar ekleyebilir, düzenleyebilir ve kaldırabilirsiniz.",
+                    "tags": "",
                     "url": "Webhook'un yürütülecek uç noktası"
                 },
                 "modal": {

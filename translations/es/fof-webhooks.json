@@ -42,7 +42,8 @@
             "errors": {
                 "service_not_found": "El servicio '{service}' no puede ser encontrado.",
                 "url_invalid": "URL no válida para el servicio seleccionado.",
-                "tag_invalid": ""
+                "tag_invalid": "",
+                "tag_disabled": ""
             },
             "nav": {
                 "desc": ""
@@ -56,6 +57,7 @@
                 "help": {
                     "disabled": "El webhook está deshabilitado porque no tiene ningún evento activo.",
                     "general": "Aquí puedes agregar, editar y eliminar webhooks de tu foro.",
+                    "tags": "",
                     "url": "El endpoint del webhook que se ejecutará"
                 },
                 "modal": {

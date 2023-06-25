@@ -42,7 +42,8 @@
             "errors": {
                 "service_not_found": "Der Dienst '{service}' konnte nicht gefunden werden.",
                 "url_invalid": "URL ist für den gewählten Dienst nicht gültig.",
-                "tag_invalid": "Dieser WebHook ist auf ein ungültiges Tag beschränkt. Die Einschränkung gilt nicht. Stelle sicher, dass dies bestimmt ist."
+                "tag_invalid": "Dieser WebHook ist auf ein ungültiges Tag beschränkt. Die Einschränkung gilt nicht. Stelle sicher, dass dies bestimmt ist.",
+                "tag_disabled": ""
             },
             "nav": {
                 "desc": "Anpassbare ausgehende Webhooks für dein Forum."
@@ -56,6 +57,7 @@
                 "help": {
                     "disabled": "Dieser Webhook ist deaktiviert, weil keine Ereignisse für ihn aktiviert sind.",
                     "general": "Hier kannst du Webhooks in deinem Forum hinzufügen, bearbeiten und entfernen.",
+                    "tags": "",
                     "url": "Der Endpunkt des Webhooks, der ausgeführt werden soll"
                 },
                 "modal": {

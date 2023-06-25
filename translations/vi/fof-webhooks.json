@@ -42,7 +42,8 @@
             "errors": {
                 "service_not_found": "Không thể tìm thấy dịch vụ \"{service}\".",
                 "url_invalid": "URL không hợp lệ cho dịch vụ đã chọn.",
-                "tag_invalid": "Webhook này bị hạn chế đối với thẻ không hợp lệ. Hạn chế sẽ không áp dụng. Hãy chắc chắn rằng điều này được dự định."
+                "tag_invalid": "Webhook này bị hạn chế đối với thẻ không hợp lệ. Hạn chế sẽ không áp dụng. Hãy chắc chắn rằng điều này được dự định.",
+                "tag_disabled": ""
             },
             "nav": {
                 "desc": "Webhook gửi đi có thể tùy chỉnh cho diễn đàn của bạn."
@@ -56,6 +57,7 @@
                 "help": {
                     "disabled": "Webhook này bị vô hiệu hóa vì nó không có bất kỳ sự kiện nào được bật.",
                     "general": "Tại đây, bạn có thể thêm, chỉnh sửa và xóa webhook khỏi diễn đàn.",
+                    "tags": "",
                     "url": "Điểm cuối của webhook sẽ được thực thi"
                 },
                 "modal": {

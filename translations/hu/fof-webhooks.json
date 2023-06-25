@@ -42,7 +42,8 @@
             "errors": {
                 "service_not_found": "A(z) „{service}” szolgáltatás nem található.",
                 "url_invalid": "A webcím nem érvényes a kiválasztott szolgáltatáshoz.",
-                "tag_invalid": "Ez a webhook egy érvénytelen címkére van korlátozva. A korlátozás nem lesz alkalmazva. Győződjön meg róla, hogy ez a szándékolt működés."
+                "tag_invalid": "Ez a webhook egy érvénytelen címkére van korlátozva. A korlátozás nem lesz alkalmazva. Győződjön meg róla, hogy ez a szándékolt működés.",
+                "tag_disabled": ""
             },
             "nav": {
                 "desc": "A kimenő webhookok fórumhoz szabása."
@@ -56,6 +57,7 @@
                 "help": {
                     "disabled": "Ez a webhook le van tiltva, mert egyetlen eseménye sincs engedélyezve.",
                     "general": "Itt adhatja hozzá, szerkesztheti és távolíthatja el a fórumja webhookjait.",
+                    "tags": "",
                     "url": "A webhook végrehajtandó végpontja"
                 },
                 "modal": {
