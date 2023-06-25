@@ -39,7 +39,7 @@
                 "excerpt_length": "",
                 "post_thumbnail_summary": "Tampilkan thumbnail postingan WordPress di atas kutipan",
                 "post_thumbnail_list": "Tampilkan thumbnail postingan WordPress di daftar diskusi Flarum",
-                "comment_author_sync": "",
+                "comment_author_sync": "Menetapkan penulis diskusi dari SSO",
                 "comment_author_sync_help": "Jika penulis Wordpress telah membuat akun Flarum melalui SSO, akun Flarum tersebut akan ditetapkan sebagai pemilik diskusi komentar.",
                 "comment_tag": "",
                 "comment_tag_none": "",
@@ -159,7 +159,7 @@
                 "debug-mode": "",
                 "config-url-trailing-slash": "",
                 "config-url-https": "",
-                "wordpress-username-missing": "",
+                "wordpress-username-missing": "Pengaturan \"Username admin WordPress\" harus diisi",
                 "api-key-missing": "",
                 "wordpress-url-missing": "",
                 "wordpress-url-invalid": "",
@@ -177,7 +177,7 @@
                 "comments-mismatch-flarum": "Integrasi Komentar diaktifkan di Flarum, tetapi tidak di WordPress",
                 "comments-mismatch-wordpress": "Integrasi Komentar diaktifkan di WordPress, tetapi tidak di Flarum",
                 "api-error-json": "",
-                "api-error-401": "",
+                "api-error-401": "Mencoba mengakses API WordPress menghasilkan kesalahan 401. Periksa kembali \"username admin WordPress\" di Flarum dan \"Flarum API Key\" di WordPress",
                 "api-error-other": ""
             },
             "wizard": {
