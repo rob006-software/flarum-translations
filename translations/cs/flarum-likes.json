@@ -5,8 +5,8 @@
                 "like_posts_label": "Lajkování příspěvků"
             },
             "settings": {
-                "like_own_posts_help": "",
-                "like_own_posts_label": ""
+                "like_own_posts_help": "Pokud je tato možnost povolena, mohou uživatelé na fóru \"lajkovat\" své vlastní příspěvky, pokud k tomu mají oprávnění. Chcete-li uživatelům zabránit v \"lajkování\" vlastních příspěvků, zakažte toto nastavení.",
+                "like_own_posts_label": "Uživatelé mohou lajkovat své vlastní příspěvky"
             }
         },
         "forum": {
@@ -17,7 +17,7 @@
             "post": {
                 "like_link": "To se mi líbí",
                 "liked_by_self_text": "Lajkuje {users}.|Lajkují {users}.",
-                "liked_by_text": "Lajkuje {users}.|Lajkují {users}.",
+                "liked_by_text": "{count, plural, one {Uživateli {users} se to líbí} other {Uživatelům {users} se to líbí}}.",
                 "others_link": "=> core.ref.some_others",
                 "unlike_link": "Už se mi to nelíbí",
                 "you_text": "=> core.ref.you"
