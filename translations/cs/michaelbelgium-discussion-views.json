@@ -2,53 +2,53 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "",
-                "unpopular_button": ""
+                "popular_button": "Oblíbené",
+                "unpopular_button": "Neoblíbené"
             }
         }
     },
     "michaelbelgium-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
-                "submit_button": "",
-                "label": ""
+                "title": "Resetovat počet zobrazení diskuze",
+                "submit_button": "Ano, odstranit vše",
+                "label": "{count, plural, one {Tím se odstraní {count} zobrazení této diskuze. Pokračovat?} other {Tím se odstraní {count} zobrazení této diskuze. Pokračovat?}}"
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "Resetovat zobrazení"
             },
             "viewlist": {
-                "title": "",
-                "guest": ""
+                "title": "Poslední prohlížející",
+                "guest": "Host"
             },
             "post": {
                 "viewed_by": "",
-                "you": "",
-                "others_link": "",
-                "modal_title_text": ""
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "Uživatelé, kteří si naposledy prohlíželi tuto diskuzi"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": "",
-                "view_number_label": ""
+                "reset_views_label": "Resetovat zobrazení diskuze",
+                "view_number_label": "Zobrazit počet zobrazení diskuze"
             },
             "settings": {
-                "title": "",
-                "track_unique_label": "",
-                "track_unique_text": "",
-                "track_guests_label": "",
-                "abbr_numbers_label": "",
-                "abbr_numbers_text": "",
-                "show_filter_label": "",
-                "max_viewcount_label": "",
-                "max_viewcount_text": "",
-                "show_viewlist_label": "",
-                "show_viewlist_text": "",
-                "show_footer_viewlist_label": "",
-                "show_footer_viewlist_text": "",
-                "ignore_crawlers_label": "",
-                "ignore_crawlers_text": ""
+                "title": "Nastavení zobrazení diskuze",
+                "track_unique_label": "Sledovat jedinečná zobrazení",
+                "track_unique_text": "Zvýšit počet zobrazení na základě ip adresy",
+                "track_guests_label": "Sledovat hosty",
+                "abbr_numbers_label": "Zkrátit počet zobrazení",
+                "abbr_numbers_text": "Pokud je tato možnost povolena, budou vysoká čísla zhlédnutí zkrácena (např. 1000 = 1K)",
+                "show_filter_label": "Povolit (ne)oblíbené pole řazení",
+                "max_viewcount_label": "Maximální počet položek seznamu zobrazení",
+                "max_viewcount_text": "Nastavení maximálního počtu uživatelů v seznamu zobrazení (platí pro seznam zobrazení v zápatí a postranním panelu)",
+                "show_viewlist_label": "Povolit seznam zobrazení",
+                "show_viewlist_text": "Povolit zobrazení seznamu posledních prohlížejících v postranním panelu diskuze",
+                "show_footer_viewlist_label": "Povolit seznam zobrazení v zápatí",
+                "show_footer_viewlist_text": "Povolit zobrazení seznamu prohlížejících v zápatí úvodního příspěvku diskuze",
+                "ignore_crawlers_label": "Ignorovat roboty/prohledávače",
+                "ignore_crawlers_text": "Zabránit botům a crawlerům zvýšit počet zobrazení"
             }
         }
     }
