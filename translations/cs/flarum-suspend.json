@@ -2,49 +2,49 @@
     "flarum-suspend": {
         "admin": {
             "permissions": {
-                "suspend_users_label": "Zabokovat uživatele"
+                "suspend_users_label": "Pozastavit uživatele"
             }
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "{username} tě zablokoval za {timeReadable}",
-                "user_suspended_indefinite_text": "",
-                "user_unsuspended_text": "{username} tě odblokoval"
+                "user_suspended_text": "Byli jste pozastaveni na dobu {timeReadable}",
+                "user_suspended_indefinite_text": "Byli jste pozastaveni na dobu neurčitou",
+                "user_unsuspended_text": "Byla vám zrušena pozastavená činnost"
             },
             "suspension_info": {
-                "dismiss_button": "",
-                "indefinite": "",
-                "limited": "",
-                "title": ""
+                "dismiss_button": "Zrušit",
+                "indefinite": "Jedná se o pozastavení na dobu neurčitou",
+                "limited": "Toto pozastavení bude platit do {date}",
+                "title": "Tento účet je pozastaven"
             },
             "suspend_user": {
-                "display_message": "",
-                "indefinitely_label": "Zablokován navždy",
+                "display_message": "Zpráva pro uživatele",
+                "indefinitely_label": "Pozastaven na dobu neurčitou",
                 "limited_time_days_text": " dnů",
-                "limited_time_label": "Zablokován na určitý čas...",
+                "limited_time_label": "Pozastaven na určitý čas...",
                 "not_suspended_label": "Nezablokován",
-                "placeholder_optional": "",
-                "reason": "",
-                "status_heading": "Status Zablokování",
+                "placeholder_optional": "Volitelné",
+                "reason": "Důvod pozastavení",
+                "status_heading": "Stav pozastavení",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Zablokovat {username}"
+                "title": "Pozastavit uživatele {username}"
             },
             "user_badge": {
-                "suspended_tooltip": "Zablokován"
+                "suspended_tooltip": "Pozastaven"
             },
             "user_controls": {
-                "suspend_button": "Zablokovat"
+                "suspend_button": "Pozastavit"
             }
         },
         "email": {
-            "no_reason_given": "",
+            "no_reason_given": "Důvod pozastavení nebyl uveden.",
             "suspended": {
-                "subject": "",
-                "body": ""
+                "subject": "Váš účet byl pozastaven",
+                "body": "Ahoj {recipient_display_name},\n\nByl/a jste pozastaven/a z následujícího důvodu:\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
-                "subject": "",
-                "body": ""
+                "subject": "Pozastavení vašeho účtu bylo zrušeno",
+                "body": "Ahoj {recipient_display_name},\n\nBylo vám zrušeno pozastavení činnosti. Na fórum se můžete vrátit kliknutím na následující odkaz:\n\n{forum_url}\n"
             }
         }
     }
