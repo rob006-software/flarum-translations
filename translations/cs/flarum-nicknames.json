@@ -7,11 +7,11 @@
             "settings": {
                 "max_label": "Maximální délka přezdívky",
                 "min_label": "Minimální délka přezdívky",
-                "random_username_label": "",
+                "random_username_label": "Náhodný výběr uživatelských jmen",
                 "random_username_help": "",
                 "regex_label": "Regulární výraz pro validaci",
-                "set_on_registration_label": "",
-                "unique_label": "Požadovat unikátní přezdívky?"
+                "set_on_registration_label": "Povolit nastavení přezdívky při registraci",
+                "unique_label": "Vyžadovat jedinečné přezdívky"
             },
             "wrong_driver": "Aby toto rozšíření fungovalo, musíš na stránce <a><strong>Základní nastavení</strong></a> vybrat jako ovladač, který se má použít pro zobrazení uživatelských jmen, možnost \"nickname\"."
         },
@@ -25,18 +25,18 @@
             },
             "edit_user": {
                 "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
-                "nicknames_text": "Přezdívka"
+                "nicknames_text": "=> flarum-nicknames.ref.nickname"
             },
             "settings": {
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
             },
             "sign_up": {
-                "nickname_placeholder": ""
+                "nickname_placeholder": "=> flarum-nicknames.ref.nickname"
             }
         },
         "ref": {
             "change_nickname": "Změnit přezdívku",
-            "nickname": ""
+            "nickname": "Přezdívka"
         }
     }
 }
