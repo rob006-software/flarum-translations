@@ -4,71 +4,71 @@
             "admin": {
                 "settings_page": {
                     "display_options": {
-                        "heading": "",
+                        "heading": "Nastavení zobrazení",
                         "options": {
                             "position": {
-                                "above-tags-link": "",
-                                "below-tags-link": ""
+                                "above-tags-link": "Nad tlačítkem \"Štítky\"",
+                                "below-tags-link": "Pod tlačítkem \"Štítky\""
                             }
                         },
                         "labels": {
-                            "position": "",
-                            "top_spacer": "",
-                            "bottom_spacer": ""
+                            "position": "Umístění odkazu",
+                            "top_spacer": "Zobrazit horní mezeru",
+                            "bottom_spacer": "Zobrazit spodní mezeru"
                         }
                     },
                     "link_table": {
-                        "heading": "",
-                        "add_link_btn": "",
-                        "confirm_delete": "",
+                        "heading": "Přizpůsobení odkazů",
+                        "add_link_btn": "Přidat nový odkaz",
+                        "confirm_delete": "Potvrďte smazání odkazu \"{link}\"",
                         "alert": {
-                            "fix_errors": ""
+                            "fix_errors": "Před uložením změn je třeba opravit výše uvedené problémy."
                         },
                         "table": {
                             "header": {
-                                "position": "",
-                                "icon": "",
-                                "text": "",
-                                "url": "",
-                                "internal": "",
-                                "delete": ""
+                                "position": "Umístění",
+                                "icon": "Ikona odkazu",
+                                "text": "Text odkazu",
+                                "url": "Adresa URL odkazu",
+                                "internal": "Je URL Flarum?",
+                                "delete": "Smazat"
                             },
                             "placeholders": {
-                                "icon": "",
-                                "text": "",
-                                "url": ""
+                                "icon": "fas fa-link",
+                                "text": "Moje skvělé stránky",
+                                "url": "https://flarum.org"
                             },
                             "tooltips": {
-                                "move_up": "",
-                                "move_down": "",
-                                "icon_preview": ""
+                                "move_up": "Posunout nahoru",
+                                "move_down": "Posunout dolů",
+                                "icon_preview": "Náhled ikony"
                             }
                         },
                         "save_btn": {
-                            "dirty": "",
-                            "saving": "",
-                            "saved": "",
-                            "fix_errors": ""
+                            "dirty": "Uložit nastavení",
+                            "saving": "Ukládání změn...",
+                            "saved": "Žádné změny k uložení",
+                            "fix_errors": "Opravit chyby před uložením"
                         }
                     },
                     "new_link_modal": {
-                        "title": "",
+                        "title": "Přidat nový odkaz",
                         "submit_btn": {
-                            "add": "",
-                            "loading": "",
-                            "fix_url": "",
-                            "invalid_form": ""
+                            "add": "Přidat odkaz",
+                            "loading": "Přidání odkazu",
+                            "fix_url": "Neplatná adresa URL",
+                            "invalid_form": "Vyplňte všechna pole"
                         },
                         "labels": {
-                            "icon": "",
-                            "text": "",
-                            "url": "",
-                            "internal": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url",
+                            "internal": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.internal"
                         },
                         "placeholders": {
-                            "icon": "",
-                            "text": "",
-                            "url": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url"
                         }
                     }
                 }
