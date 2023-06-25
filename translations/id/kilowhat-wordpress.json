@@ -119,7 +119,7 @@
                 "warning": "Pengguna ini akan tetap tersinkronisasi dengan WordPress. Anda harus mengedit email dan password dari WordPress.\n",
                 "edit_in_wordpress": "",
                 "should_not_edit_email": "",
-                "unlink": "",
+                "unlink": "Putuskan pengguna ini dari pengguna wordpress",
                 "unlink_help": "Jika email tersebut cocok dengan pengguna WordPress, maka email tersebut akan dihubungkan lagi pada saat pengguna tersebut terhubung di WordPress."
             },
             "settings": {
@@ -191,7 +191,7 @@
         },
         "views": {
             "error": {
-                "missing_wordpress_embed": ""
+                "missing_wordpress_embed": "Postingan ini belum memiliki thread komentar. Jika Anda adalah administrator blog, terbitkan postingan, atau nonaktifkan dan aktifkan kembali komentar untuk memulai sebuah thread.\n"
             }
         }
     }
