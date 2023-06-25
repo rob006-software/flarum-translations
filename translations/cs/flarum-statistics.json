@@ -2,35 +2,35 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "Vyberte si vlastní datový rozsah, pro který chcete zobrazit statistiky.\nU diskuzních fór s velkou aktivitou může načítání trvat několik minut.\n",
+                "end_date": "Datum ukončení (inklusivní)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "Datum ukončení musí být po datu zahájení."
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "Datum zahájení (inklusivní)",
+                "submit_button": "Potvrďte rozsah dat",
+                "title": "Vyberte vlastní rozsah dat"
             },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
-                "export_chart_button": "",
+                "export_chart_button": "Exportovat graf do formátu SVG",
                 "last_12_months_label": "Posl. 12 měsíců",
                 "last_28_days_label": "Posl. 28 dní",
                 "last_7_days_label": "Posl. 7 dní",
-                "mini_heading": "",
+                "mini_heading": "Statistiky fóra",
                 "previous_28_days_label": "",
                 "previous_7_days_label": "",
-                "custom_label": "",
-                "custom_label_specified": "",
-                "loading": "",
+                "custom_label": "Vyberte si vlastní rozsah...",
+                "custom_label_specified": "{fromDate} do {toDate}",
+                "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "Dnes",
                 "total_label": "Celkem",
                 "users_heading": "=> core.ref.users",
-                "view_full": "",
-                "no_data": "",
-                "current_period": "",
-                "previous_period": ""
+                "view_full": "Zobrazit více statistik",
+                "no_data": "Pro tento rozsah dat nejsou k dispozici žádné údaje.",
+                "current_period": "Aktuální období",
+                "previous_period": "Předchozí období"
             }
         }
     }
