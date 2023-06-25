@@ -2,27 +2,27 @@
     "fof-socialprofile": {
         "admin": {
             "permissions": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "Zobrazit sociální profil",
+                "editOwn": "Upravit vlastní sociální profil",
+                "editAny": "Upravit jakýkoli sociální profil"
             },
             "settings": {
-                "allow_external_favicons_label": ""
+                "allow_external_favicons_label": "Povolit externí ikony webových stránek (používá rozhraní API favicon aplikace DuckDuckGo)"
             }
         },
         "forum": {
             "edit": {
-                "edit": "",
-                "add": "",
-                "headtitle": "",
-                "title": "",
-                "url": "",
-                "submit": "",
-                "delete": "",
-                "deletetitle": "",
-                "save_disabled_fetching_favicons": "",
-                "favicon": "",
-                "grey_favicon": ""
+                "edit": "Upravit tlačítka sociálních médií",
+                "add": "Přidat tlačítka do sociálních médií",
+                "headtitle": "Upravit tlačítka",
+                "title": "Titulek",
+                "url": "Adresa URL",
+                "submit": "Uložit",
+                "delete": "Smazat",
+                "deletetitle": "Tlačítko smazat",
+                "save_disabled_fetching_favicons": "Probíhá načítání jedné nebo více ikon. Počkejte prosím.",
+                "favicon": "Ikona Favicon",
+                "grey_favicon": "Šedá ikona Favicon"
             }
         }
     }
