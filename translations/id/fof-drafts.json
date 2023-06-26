@@ -2,59 +2,59 @@
     "fof-drafts": {
         "admin": {
             "permissions": {
-                "start": "Membuat draft",
-                "schedule": "Penjadwalan draft"
+                "start": "Membuat konsep",
+                "schedule": "Menjadwalkan konsep"
             },
             "settings": {
                 "title": "FoF Drafts",
-                "enable_scheduled_drafts": "Aktifkan Draft Terjadwal",
+                "enable_scheduled_drafts": "Aktifkan Konsep Terjadwal",
                 "schedule_on_one_server": "Gunakan 'onOneServer()' untuk penjadwalan tugas (membutuhkan Redis / Memcache)",
                 "schedule_log_output": "Tambahkan output penjadwalan ke penyimpanan log"
             }
         },
         "console": {
-            "scheduled_drafts_disabled": "Draft terjadwal saat ini dinonaktifkan dalam pengaturan."
+            "scheduled_drafts_disabled": "Konsep terjadwal saat ini dinonaktifkan di pengaturan."
         },
         "ref": {
-            "schedule_draft": "Jadwal draft"
+            "schedule_draft": "Jadwalkan konsep"
         },
         "forum": {
             "composer": {
-                "title": "Simpan Draft",
+                "title": "Simpan Konsep",
                 "saving": "Menyimpan...",
                 "saved": "Berhasil Disimpan!",
-                "exit_alert": "Buang perubahan?",
-                "discard_empty_draft_alert": "Buang draft kosong?"
+                "exit_alert": "Membuang perubahan pada konsep?",
+                "discard_empty_draft_alert": "Buang konsep kosong?"
             },
             "dropdown": {
-                "empty_text": "Anda tidak memiliki draft",
-                "title": "Draft",
+                "empty_text": "Anda tidak memiliki konsep",
+                "title": "Konsep",
                 "delete_all_button": "Hapus semua draf",
-                "delete_button": "Hapus draf",
+                "delete_button": "Hapus konsep",
                 "schedule_button": "=> fof-drafts.ref.schedule_draft",
                 "scheduled_icon_tooltip": "Dijadwalkan untuk {datetime}",
                 "scheduled_icon_tooltip_formatter": "L [at] LT",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
-                "alert": "Anda yakin ingin menghapus draft Anda?",
+                "alert": "Anda yakin ingin menghapus konsep Anda?",
                 "delete_all_alert": "Apakah Anda yakin ingin menghapus semua draf Anda?"
             },
             "schedule_draft_modal": {
                 "title": "=> fof-drafts.ref.schedule_draft",
-                "text": "Jadwalkan draft Anda untuk diposting secara otomatis di lain waktu!",
+                "text": "Jadwalkan konsep Anda untuk diposting secara otomatis di lain waktu!",
                 "scheduled_text": "Saat ini dijadwalkan untuk memposting pada {datetime}.",
-                "scheduled_error": "Tidak dapat menjadwalkan draf: {error}.",
+                "scheduled_error": "Tidak dapat menjadwalkan konsep: {error}.",
                 "unschedule_button": "Tidak dijadwalkan",
-                "unschedule_warning": "Apakah Anda yakin ingin membatalkan jadwal draft ini?",
+                "unschedule_warning": "Apakah Anda yakin ingin membatalkan jadwal konsep ini?",
                 "reschedule_button": "Menjadwal ulang",
                 "schedule_button": "Jadwalkan",
-                "schedule_time_preview": "Draf ini akan diterbitkan secara otomatis pada <b>{datetime}</b>.",
+                "schedule_time_preview": "Konsep ini akan diterbitkan secara otomatis pada <b>{datetime}</b>.",
                 "schedule_time_preview_formatter": "LLLL",
                 "schedule_time_preview_invalid": "Tanggal dan / atau waktu tidak valid"
             },
             "user": {
                 "settings": {
-                    "drafts_heading": "Draft",
-                    "draft_autosave_enable": "Aktifkan Penyimpanan Otomatis?",
+                    "drafts_heading": "Konsep",
+                    "draft_autosave_enable": "Mengaktifkan Penyimpanan Otomatis Konsep?",
                     "draft_autosave_interval_label": "Interval Penyimpanan Otomatis (detik)",
                     "draft_autosave_interval_button": "Update Interval",
                     "draft_autosave_interval_invalid": "Interval harus bilangan bulat lebih besar dari 4."
