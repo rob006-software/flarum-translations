@@ -663,7 +663,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/1.3.0-beta.1/resources/locale/en.yml',
 	],
 	'fof-user-bio' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-bio/1.1.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-bio/1.2.0/resources/locale/en.yml',
 	],
 	'fof-user-directory' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-directory/1.2.3/resources/locale/en.yml',
