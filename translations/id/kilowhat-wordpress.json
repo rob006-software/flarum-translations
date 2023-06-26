@@ -36,7 +36,7 @@
                 "enable_comments": "Aktifkan integrasi komentar",
                 "excerpt_html_whitelist": "",
                 "excerpt_html_nodes": "",
-                "excerpt_length": "",
+                "excerpt_length": "Panjang kutipan konten (dalam karakter)",
                 "post_thumbnail_summary": "Tampilkan thumbnail postingan WordPress di atas kutipan",
                 "post_thumbnail_list": "Tampilkan thumbnail postingan WordPress di daftar diskusi Flarum",
                 "comment_author_sync": "Menetapkan penulis diskusi dari SSO",
@@ -117,9 +117,9 @@
             },
             "edit-user-modal": {
                 "warning": "Pengguna ini akan tetap tersinkronisasi dengan WordPress. Anda harus mengedit email dan password dari WordPress.\n",
-                "edit_in_wordpress": "",
-                "should_not_edit_email": "",
-                "unlink": "Putuskan pengguna ini dari pengguna wordpress",
+                "edit_in_wordpress": "Edit di WordPress",
+                "should_not_edit_email": "Anda harus mengedit email di WordPress. <a>Edit</a>",
+                "unlink": "Putuskan pengguna ini dari pengguna WordPress",
                 "unlink_help": "Jika email tersebut cocok dengan pengguna WordPress, maka email tersebut akan dihubungkan lagi pada saat pengguna tersebut terhubung di WordPress."
             },
             "settings": {
