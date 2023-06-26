@@ -22,8 +22,8 @@
                 },
                 "section": {
                     "info": "Informasi",
-                    "filling": "",
-                    "browsing": "",
+                    "filling": "Mengisi",
+                    "browsing": "Menelusuri",
                     "scope": "Ruang Lingkup"
                 },
                 "field": {
@@ -36,7 +36,7 @@
                     "icon": "=> flamarkt-taxonomies.ref.field.icon",
                     "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription",
                     "showLabel": "Tampilkan label taksonomi bersama dengan istilah",
-                    "showLabelDescription": "Style tampilan untuk daftar diskusi dan hero. Saat ini tidak digunakan untuk jenis resource lainnya.\n",
+                    "showLabelDescription": "Gaya tampilan untuk daftar diskusi dan hero. Saat ini tidak digunakan untuk jenis resource lainnya.\n",
                     "enableFilter": "Aktifkan filter query-string/API",
                     "enableFilterDescription": "Memungkinkan filter taksonomi yang terhubung ke dalam ke diskusi, pengguna, dan produk untuk pengguna yang memiliki izin untuk \"melihat semua\" jenis taksonomi. Hal ini juga memungkinkan pengguna yang sama untuk menggunakan filter pencarian dengan REST API. Tanpa pengaturan \"Tampilkan filter\", pengguna tidak memiliki cara yang jelas untuk mendapatkan link-link untuk pengguna dan produk. Untuk diskusi, deep link dapat ditemukan di hero meskipun \"Tampilkan filter\" dinonaktifkan.\n",
                     "showFilter": "Tampilkan filter pada halaman list/direktori",
@@ -49,7 +49,7 @@
                     "customValueSlugger": "Slugger untuk nilai khusus",
                     "customValueSluggerDescription": "Pilih bagaimana Anda ingin slug dihasilkan. Jika slug sudah ada, prefiks numerik akan secara otomatis ditambahkan. Untuk opsi Transliterator, Anda perlu menginstal dan mengonfigurasi ekstensi lain terlebih dahulu.\n",
                     "countRequired": "Jumlah istilah yang diperlukan",
-                    "countRequiredDescription": "\n",
+                    "countRequiredDescription": "Masukkan jumlah minimum dan maksimum istilah dari taksonomi ini yang dapat diterapkan ke sumber daya.\n",
                     "rangeSeparatorText": "hingga",
                     "tagScope": "Hanya dalam tag tertentu",
                     "tagScopeDescription": "Taksonomi hanya akan tersedia dalam tag yang dipilih. Jika Anda memilih satu tag, filter beranda hanya akan terlihat pada tag tertentu.\n",
