@@ -3,23 +3,23 @@
         "admin": {
             "settings": {
                 "step": {
-                    "how_to": "Cara mengaktifkan canonical redirect",
+                    "how_to": "Cara mengaktifkan pengalihan kanonik",
                     "check_config_url": "Pastikan bahwa url yang ditetapkan di config.php adalah canonical URL pilihan Anda (saat ini: {url})",
                     "admin_on_canonical": "Akses panel admin melalui canonical URL",
-                    "enable_temporary": "Aktifkan temporary redirect dan periksa apakah semuanya berfungsi",
-                    "enable_permanent": "Aktifkan permanent redirect",
+                    "enable_temporary": "Aktifkan pengalihan sementara dan periksa semuanya berfungsi",
+                    "enable_permanent": "Aktifkan pengalihan permanen",
                     "suggestions": "Saran lain yang tidak diterapkan atau dicakup oleh ekstensi ini",
                     "use_https": "Gunakan HTTPS canonical URL",
                     "use_hsts": "Gunakan HSTS untuk mencegah downgrade attack"
                 },
                 "field": {
-                    "status": "Tipe redirect",
+                    "status": "Jenis pengalihan",
                     "wrong_url": "Pengaturan ekstensi akan muncul setelah Anda mengakses forum Anda melalui canonical URL"
                 },
                 "option": {
                     "disabled": "Dinonaktifkan (ekstensi tidak akan melakukan apa pun)",
-                    "302": "302 (Temporary redirect, untuk pengujian)",
-                    "301": "301 (Permanent redirect, untuk produksi)"
+                    "302": "302 (Pengalihan sementara, untuk pengujian)",
+                    "301": "301 (Pengalihan permanen, untuk produksi)"
                 }
             }
         }
