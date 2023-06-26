@@ -154,7 +154,7 @@
             },
             "states": {
                 "error": "Error",
-                "loading": "Mengunggah",
+                "loading": "Meng-upload",
                 "unauthorized": "Anda tidak diizinkan untuk men-download file"
             },
             "validation": {
@@ -170,7 +170,7 @@
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "Mengunggah file jenis ini tidak diperbolehkan.",
+                "forbidden_type": "Meng-upload file jenis ini tidak diperbolehkan.",
                 "unsupported_type": "Adaptor upload tidak mendukung mime type yang disediakan: {mime}.",
                 "could_not_detect_mime": "Tidak dapat mendeteksi MIME type file ini, harap coba lagi."
             }
