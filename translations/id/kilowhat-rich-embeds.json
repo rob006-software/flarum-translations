@@ -31,7 +31,7 @@
                 "whitelistHelp": "Periksa dokumentasi untuk format. Jika nilai diatur, semua URL lain akan dianggap masuk dalam kategori blacklist",
                 "imageEmbeds": "",
                 "imageEmbedsHelp": "Fitur ini mengambil dan menampilkan informasi tambahan pada gambar eksternal yang disisipkan dalam post dengan bbcode atau markdown. Pada saat ini, fitur ini menggunakan kembali blacklist/whitelist dan izin yang sama seperti rich link. Gambar-gambar ini tidak di-proxy melalui proxy gambar OpenGraph. Anda harus membersihkan cache Flarum setelah mengubah pengaturan ini.\n",
-                "flarumApiPreviews": "",
+                "flarumApiPreviews": "Aktifkan pratinjau Flarum tingkat lanjut",
                 "flarumApiPreviewsHelp": "Fitur ini mem-parsing data JSON tambahan yang sudah disertakan dalam HTML oleh semua forum yang didukung oleh Flarum. Fitur ini akan bekerja dengan semua forum yang menjalankan Flarum 1.4+ dan mengiklankan header <code>X-Powered-By</code>.\n",
                 "githubApiKey": "",
                 "githubApiKeyHelp": "",
@@ -45,9 +45,9 @@
                 "youtubePlayerHelp": "Iframe player akan dimuat sesuai permintaan saat pengguna mengeklik tombol play di pratinjau. Anda harus mengonfigurasi CSP dan frame header untuk mengizinkan frame dari nama domain YouTube. Fitur ini dapat digunakan tanpa akses API.\n",
                 "youtubeNoCookie": "",
                 "youtubeNoCookieHelp": "Beralih ke domain tanpa cookie alternatif yang ditawarkan oleh YouTube. Beberapa video mungkin tidak dapat diputar di iframe dengan opsi ini diaktifkan. Fitur ini dapat digunakan tanpa akses API.\n",
-                "youtubeApiPreviews": "",
+                "youtubeApiPreviews": "Aktifkan pratinjau YouTube yang didukung API tingkat lanjut",
                 "youtubeApiPreviewsHelp": "Google API SDK harus dikonfigurasi di atas. Fitur ini akan menampilkan lebih banyak statistik tentang video dan dapat menampilkan video pribadi yang dapat diakses oleh SDK user.\n",
-                "googledriveApiPreviews": "",
+                "googledriveApiPreviews": "Aktifkan pratinjau Google Drive yang didukung API tingkat lanjut",
                 "googledriveApiPreviewsHelp": "Google API SDK harus dikonfigurasi di atas. Fitur ini akan menampilkan judul dan pratinjau file Google Drive. Gunakan akun layanan dengan akses ke Drive pribadi untuk mengaktifkan pratinjau file pribadi.\n"
             },
             "section": {
