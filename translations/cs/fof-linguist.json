@@ -16,9 +16,9 @@
                 "copy-original": "Kopírovat původní text",
                 "load-more": "Načíst další",
                 "delete-redundant": "Smazat nadbytečné překlady",
-                "delete-redundant-confirm": "",
+                "delete-redundant-confirm": "Tím se odstraní překlady {count}, které mají stejné původní a vlastní hodnoty. To může být užitečné při čištění po aktualizaci jazykového balíčku.\n",
                 "delete-all": "Smazat všechny překlady",
-                "delete-all-confirm": ""
+                "delete-all-confirm": "Tím odstraníte VŠECHNY vlastní překlady {count}. Ujistěte se, že jste vyexportovali nebo zálohovali vše, co jste si chtěli ponechat.\n"
             },
             "locales": {
                 "all": "Vše"
@@ -72,8 +72,8 @@
                     "all-frontends": "Zobrazit všechny FrontEndy"
                 },
                 "count": {
-                    "percent": "",
-                    "total": "",
+                    "percent": "{percent} %",
+                    "total": "{translated} / {total}",
                     "details": "Celkem {total} / Původní {original} / Vlastní {custom}"
                 },
                 "all-namespaces": "Vše",
@@ -81,39 +81,39 @@
             },
             "export": {
                 "title": "Exportovat",
-                "warning": "",
-                "locale": "",
+                "warning": "Formát exportu používá překladové soubory Flarum založené na jazyce Yaml a je určen ke sdílení překladů mezi fóry a správci jazykových balíčků. Formát není určen k přesunu všech překladů do nového fóra. V závislosti na vašem případu použití může být lepším nápadem přímé kopírování databáze.\n",
+                "locale": "Lokalizace",
                 "locale-all": "",
-                "namespace": "",
-                "namespace-all": "",
-                "include-originals": "",
-                "include-all": "",
-                "output": "",
-                "output-loading": "",
-                "output-empty": "",
-                "download": ""
+                "namespace": "Obor názvů",
+                "namespace-all": "Vše",
+                "include-originals": "Zahrnout původní překlady",
+                "include-all": "Zahrnout překlady definované pro \"Všechny\" jazyky",
+                "output": "Výstup",
+                "output-loading": "Načítání výstupu…",
+                "output-empty": "Prázdný výstup",
+                "download": "Stáhnout"
             },
             "import": {
-                "title": "",
-                "input": "",
-                "input-placeholder": "",
-                "locale": "",
+                "title": "Importovat",
+                "input": "Vstup",
+                "input-placeholder": "Sem přetáhněte nebo vložte soubor Yaml",
+                "locale": "Lokalizace",
                 "locale-all": "",
-                "override-existing": "",
-                "submit": "",
-                "results": "",
-                "results-with-ignore": ""
+                "override-existing": "Přepsat mé stávající vlastní překlady",
+                "submit": "Importovat",
+                "results": "Import je dokončen. {imported} řetězce byly importovány a {identical} shodné řetězce byly přeskočeny. Stránka se nyní obnoví a zobrazí nové překlady.\n",
+                "results-with-ignore": "Import je dokončen. {imported} řetězce byly importovány, {ignored} existující řetězce byly ignorovány a {identical} identické řetězce byly přeskočeny. Stránka se nyní obnoví a zobrazí nové překlady.\n"
             },
             "known-namespace": {
-                "core": "",
-                "validation": ""
+                "core": "Flarum Core",
+                "validation": "Chyby validace"
             },
             "known-frontend": {
-                "forum": "",
-                "admin": "",
-                "lib": "",
-                "ref": "",
-                "api": ""
+                "forum": "Fórum",
+                "admin": "Admin",
+                "lib": "Lib (používá se na fóru i v administraci)",
+                "ref": "Ref (opakované použití v jiných klíčích)",
+                "api": "API"
             }
         }
     }
