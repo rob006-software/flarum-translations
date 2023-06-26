@@ -2,7 +2,7 @@
     "clarkwinkelmann-discussion-lists": {
         "admin": {
             "settings": {
-                "collapseSeries": ""
+                "collapseSeries": "Perkecil indeks serial secara default"
             },
             "permissions": {
                 "viewPublic": "Melihat daftar diskusi publik",
@@ -45,11 +45,11 @@
             },
             "badge": {
                 "private": "List pribadi",
-                "series": ""
+                "series": "Serial publik"
             },
             "series": {
-                "kind": "",
-                "expand": "",
+                "kind": "Serial",
+                "expand": "Perluas",
                 "visit": "Tampilkan semuanya"
             }
         },
