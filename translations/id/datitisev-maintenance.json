@@ -17,8 +17,8 @@
                 "disable_api_label": "Nonaktifkan semua akses API",
                 "title_label": "Judul Halaman Error",
                 "message_label": "Pesan Halaman Error",
-                "error_page_file_label": "",
-                "error_page_file_hint": "",
+                "error_page_file_label": "Lokasi File Halaman Error",
+                "error_page_file_hint": "Lokasi dari Flarum root - tempat <code>vendor</code> dan <code>penyimpanan</code> berada.",
                 "error_page_label": "Halaman Error HTML/Blade",
                 "error_page_hint": "Anda dapat menggunakan $app, $translator, $settings, $title, dan $message dengan blade."
             },
