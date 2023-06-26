@@ -2,7 +2,7 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": "Lihat log audit"
+                "view": "Melihat catatan audit"
             },
             "header": {
                 "title": "Audit",
@@ -13,7 +13,7 @@
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "Filter log",
+                "filterPlaceholder": "Filter catatan",
                 "filterApply": "Terapkan",
                 "empty": "Tidak ada hasil",
                 "loadMore": "Muat lebih banyak",
@@ -45,14 +45,14 @@
                 "controls": {
                     "hideRaw": "Sembunyikan raw log",
                     "showRaw": "Tampilkan raw log",
-                    "filterActor": "Tampilkan log berdasarkan aktor ini",
-                    "filterIp": "Tampilkan log berdasarkan IP ini",
-                    "filterClient": "Tampilkan log berdasarkan client type ini",
-                    "filterAction": "Tampilkan log dari tindakan yang sama",
-                    "filterUser": "Tampilkan log yang mempengaruhi user yang sama",
-                    "filterDiscussion": "Tampilkan log yang mempengaruhi diskusi yang sama"
+                    "filterActor": "Tampilkan catatan berdasarkan aktor ini",
+                    "filterIp": "Tampilkan catatan berdasarkan IP ini",
+                    "filterClient": "Tampilkan catatan berdasarkan client type ini",
+                    "filterAction": "Tampilkan catatan dari tindakan yang sama",
+                    "filterUser": "Tampilkan catatan yang mempengaruhi user yang sama",
+                    "filterDiscussion": "Tampilkan catatan yang mempengaruhi diskusi yang sama"
                 },
-                "audit_log_cleared": "Menghapus {deleted_count} entri dari log audit",
+                "audit_log_cleared": "Menghapus {deleted_count} entri dari catatan audit",
                 "cache_cleared": "Bersihkan cache secara manual",
                 "discussion": {
                     "created": "Memulai diskusi {discussion}",
