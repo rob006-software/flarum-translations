@@ -3,23 +3,23 @@
         "admin": {
             "settings": {
                 "dsn_label": "Sentry DSN",
-                "dsn_help": "",
-                "dsn_backend_label": "",
-                "dsn_backend_help": "",
+                "dsn_help": "Якщо ви використовуєте Relay DSN як основним, то не ставте галочку біля пункту «Відгуки користувачів», оскільки він не працюватиме.",
+                "dsn_backend_label": "Sentry DSN (тільки бекенд)",
+                "dsn_backend_help": "Цей DSN буде використовуватися тільки для помилок бекенда. Це корисно, якщо ви хочете використовувати інший проект для помилок бекенда або хочете використовувати Relay для надсилання помилок бекенда до Sentry (наприклад, для покращення продуктивності).",
                 "environment_label": "Sentry Environment",
                 "user_feedback_label": "Відгуки користувачів",
                 "send_user_emails_label": "Надсилати електронні адреси користувачів зі звітами Sentry?",
                 "monitor_performance_label": "Показник моніторингу внутрішньої ефективності (0 - 100)",
-                "profile_rate_label": "",
-                "profile_rate_help": "",
+                "profile_rate_label": "Рівень внутрішнього профілювання (0 - 100)",
+                "profile_rate_help": "Це пов'язано зі швидкістю моніторингу продуктивності. Для того, щоб це спрацювало, моніторинг продуктивності має бути увімкнений.\n\n{br}✱ Увімкнення цієї функції впливає на час відгуку через накладні витрати на профілювання та надсилання запитів до Sentry. Дізнайтеся, як це виправити за адресою <a>https://docs.sentry.io/platforms/php/profiling/#improve-response-time</a>.\n{br}{icon} <bold>Для використання цієї функції потрібен профілювальник вибірки Вікіпедії Excimer, який доступний лише для Linux.</bold>.\n",
                 "javascript_label": "Повідомити про помилки JavaScript",
                 "javascript_console_label": "Захопити консоль JavaScript",
                 "javascript_trace_sample_rate": "Показник моніторингу ефективності фронт-енду (0 - 100)",
-                "javascript_trace_sample_rate_help": "",
-                "javascript_replays_session_sample_rate": "",
-                "javascript_replays_session_sample_rate_help": "",
-                "javascript_replays_error_sample_rate": "",
-                "javascript_replays_error_sample_rate_help": ""
+                "javascript_trace_sample_rate_help": "Частота дискретизації для всіх транзакцій. {br}✱ Увімкнення цієї функції збільшує розмір пакета на ~30 КБ.",
+                "javascript_replays_session_sample_rate": "Частота відтворення сеансів у зовнішньому інтерфейсі (0 - 100)",
+                "javascript_replays_session_sample_rate_help": "Частота дискретизації для повторів, які починаються негайно і тривають протягом усього сеансу користувача. {br}✱ Увімкнення будь-якої опції повтору збільшує розмір пакета на ~150 КБ.",
+                "javascript_replays_error_sample_rate": "Частота повторення помилок у інтерфейсі (0 - 100)",
+                "javascript_replays_error_sample_rate_help": "Частота дискретизації для повторів, які записуються при виникненні помилки. До 1 хвилини перед помилкою буде записано і продовжуватиметься до завершення сеансу. {br}✱ Увімкнення будь-якої опції повтору збільшує розмір пакета на ~150 КБ."
             }
         }
     }
