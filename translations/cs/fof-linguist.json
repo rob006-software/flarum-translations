@@ -2,85 +2,85 @@
     "fof-linguist": {
         "admin": {
             "permissions": {
-                "view_string_keys": ""
+                "view_string_keys": "Zobrazit klíče překladového řetězce"
             },
             "tabs": {
-                "strings": "",
-                "coverage": "",
-                "export": "",
-                "import": ""
+                "strings": "Překlady",
+                "coverage": "Pokrytí",
+                "export": "Exportovat",
+                "import": "Importovat"
             },
             "buttons": {
-                "apply": "",
-                "reset": "",
-                "copy-original": "",
-                "load-more": "",
-                "delete-redundant": "",
+                "apply": "Použít",
+                "reset": "Obnovit původní",
+                "copy-original": "Kopírovat původní text",
+                "load-more": "Načíst další",
+                "delete-redundant": "Smazat nadbytečné překlady",
                 "delete-redundant-confirm": "",
-                "delete-all": "",
+                "delete-all": "Smazat všechny překlady",
                 "delete-all-confirm": ""
             },
             "locales": {
-                "all": ""
+                "all": "Vše"
             },
             "placeholder": {
-                "not-translated": "",
-                "all-locales": "",
-                "hint": ""
+                "not-translated": "Nepřeloženo",
+                "all-locales": "Zde definovaný text se zobrazí ve všech jazycích",
+                "hint": "Původní hodnota:"
             },
             "filters": {
-                "search": "",
-                "with-own-translations": "",
-                "missing": "",
-                "missing-middle-label": "",
+                "search": "Hledat překladové řetězce…",
+                "with-own-translations": "Mé překlady",
+                "missing": "Vyhledat chybějící překlady",
+                "missing-middle-label": "překlady v",
                 "negation-options": {
                     "with": "",
-                    "without": ""
+                    "without": "Bez"
                 },
                 "type-options": {
-                    "any": "",
-                    "original": "",
-                    "own": ""
+                    "any": "Původní nebo vlastní",
+                    "original": "Původní",
+                    "own": "Vlastní"
                 },
                 "operation-options": {
                     "or": "",
                     "and": ""
                 },
-                "for-extension": "",
-                "frontend": "",
-                "frontend-all-except-admin": "",
-                "mass-edit": "",
-                "results": ""
+                "for-extension": "Pro rozšíření",
+                "frontend": "Pro FrontEnd",
+                "frontend-all-except-admin": "Všichni kromě správce",
+                "mass-edit": "Hromadná úprava",
+                "results": "Zobrazeno {shown} z {total} odpovídajících překladů"
             },
             "clear-cache": {
-                "text": "",
-                "button": ""
+                "text": "Nové překlady zatím nebyly použity. Poznámka: vymazání mezipaměti může na chvíli zpomalit fórum.\n",
+                "button": "Vymazat mezipaměť nyní"
             },
             "coverage": {
                 "column-options": {
-                    "locale": "",
-                    "namespace": ""
+                    "locale": "Podle jazyka",
+                    "namespace": "Podle FrontEndu"
                 },
                 "total-options": {
-                    "percent": "",
-                    "count": ""
+                    "percent": "Procenta",
+                    "count": "Počet"
                 },
                 "columns": {
-                    "namespace": "",
-                    "total": "",
-                    "all-except-admin": "",
-                    "all-frontends": ""
+                    "namespace": "Obor názvů",
+                    "total": "Celkem",
+                    "all-except-admin": "Fórum a další FrontEndy",
+                    "all-frontends": "Zobrazit všechny FrontEndy"
                 },
                 "count": {
                     "percent": "",
                     "total": "",
-                    "details": ""
+                    "details": "Celkem {total} / Původní {original} / Vlastní {custom}"
                 },
-                "all-namespaces": "",
-                "apply-missing-filter": ""
+                "all-namespaces": "Vše",
+                "apply-missing-filter": "Zobrazit odpovídající chybějící překlady"
             },
             "export": {
-                "title": "",
+                "title": "Exportovat",
                 "warning": "",
                 "locale": "",
                 "locale-all": "",
