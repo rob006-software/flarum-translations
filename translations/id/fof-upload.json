@@ -78,7 +78,7 @@
                     "options": {
                         "both": "Keduanya",
                         "upload-btn": "Hanya upload button",
-                        "media-btn": "Hanya media manager button"
+                        "media-btn": "Hanya tombol pengelola media"
                     }
                 },
                 "inspect-mime": "Uji jenis MIME file"
@@ -127,7 +127,7 @@
             }
         },
         "forum": {
-            "media_manager": "Media manager",
+            "media_manager": "Pengelola media",
             "buttons": {
                 "attach": "Lampirkan",
                 "upload": "Upload",
@@ -145,8 +145,8 @@
                 "confirm_selection_btn": "{fileCount, plural, =0 {Tidak ada yang dipilih} one {Pilih file} other {Pilih file}}",
                 "load_more_files_btn": "Muat lebih banyak file",
                 "hide_file": {
-                    "btn_a11y_label": "Sembunyikan \"{fileName}\" dari media manager",
-                    "hide_confirmation": "Apakah Anda yakin ingin menyembunyikan \"{fileName}\"? Menyembunyikan file hanya akan menghapus file tersebut dari media manager Anda dan tidak akan memengaruhi postingan yang ada.",
+                    "btn_a11y_label": "Sembunyikan \"{fileName}\" dari pengelola media",
+                    "hide_confirmation": "Apakah Anda yakin ingin menyembunyikan \"{fileName}\"? Menyembunyikan file hanya akan menghapus file tersebut dari pengelola media Anda dan tidak akan memengaruhi postingan yang ada.",
                     "hide_success": "File disembunyikan",
                     "hide_fail": "Tidak dapat menyembunyikan file \"{fileName}\"",
                     "loading": "Menyembunyikan file..."
