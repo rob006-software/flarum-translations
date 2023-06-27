@@ -8,8 +8,8 @@
                 "viewing_title": ""
             },
             "widget": {
-                "title": "User Online",
-                "empty": "Tidak Ada User Yang Sedang Online.",
+                "title": "Pengguna Online",
+                "empty": "Tidak Ada Pengguna Yang Sedang Online.",
                 "guests": "{count, plural, one {1 Tamu} other {{count} Tamu}}"
             }
         },
@@ -32,7 +32,7 @@
                 "secure": "Paksakan wss/https untuk Websocket",
                 "title": "Pengaturan Websocket/Pusher",
                 "reverse_proxy": "Dukungan Reverse Proxy",
-                "auth_only": "Websocket Hanya untuk User yang Sudah Login"
+                "auth_only": "Websocket Hanya untuk Pengguna yang Sudah Login"
             },
             "help": {
                 "stats": "Waktu di antara penyimpanan statistik - dalam hitungan detik. Direkomendasikan antara 3600 (1 jam) dan 21600 (6 jam) Default: 7200.",
@@ -48,7 +48,7 @@
                 "pk_path": "Hanya diperlukan jika menggunakan ssl dan BUKAN reverse proxy. Path ke private key SSL (https) Anda ADA DI SERVER tempat server websocket Anda berada - biasanya berupa file .key atau .pem.",
                 "passphrase": "Hanya diperlukan jika menggunakan ssl dan BUKAN reverse proxy. Password yang digunakan untuk menyandikan sertifikat Anda - biasanya tidak diperlukan.",
                 "self_signed": "Hanya diperlukan jika menggunakan ssl dan BUKAN reverse proxy. Aktifkan ini jika sertifikat SSL (https) Anda ditandatangani sendiri.",
-                "auth_only": "Hanya izinkan user yang diautentikasi untuk terhubung ke server websocket, dapat mengurangi beban CPU."
+                "auth_only": "Hanya mengizinkan pengguna yang diautentikasi untuk terhubung ke server websocket, dapat mengurangi beban CPU."
             }
         }
     }
