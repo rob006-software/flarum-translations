@@ -3,31 +3,31 @@
         "admin": {
             "settings": {
                 "defaultAnonymity": "Konten baru bersifat anonim secara default",
-                "defaultAnonymityWhenAbleToSwitch": "Konten baru bersifat anonim secara default bagi para user yang memiliki izin pengalihan",
+                "defaultAnonymityWhenAbleToSwitch": "Konten baru bersifat anonim secara default bagi pengguna yang memiliki izin beralih",
                 "alwaysAnonymiseEdits": "Selalu menganonimkan pengeditan",
                 "alwaysAnonymiseEditsHelp": "Secara default, pengedit/penyembunyi konten oleh penulis post yang bersifat anonim akan dianonimkan, tetapi setiap moderator yang mengedit post atau diskusi akan tetap ditampilkan sebagai penulis dari konten yang di-edit/disembunyikan. Ketika opsi ini diaktifkan, aktor untuk pengedit/penyembunyi konten tidak akan pernah tercatat di konten anonim, siapa pun mereka.\n",
                 "composerHelpTextPosition": "Posisi teks bantuan",
                 "composerHelpTextPositionVisible": "Terlihat (di bawah label)",
                 "composerHelpTextPositionTooltip": "Tooltip (setelah label)",
                 "composerHelpTextPositionHidden": "Tersembunyi",
-                "composerHelpTextPositionHelp": "Kotak centang dan teks ini hanya muncul bagi para user yang memiliki izin pengalihan.",
+                "composerHelpTextPositionHelp": "Kotak centang dan teks ini hanya muncul untuk pengguna dengan izin beralih.",
                 "avatars": "Avatar anonim",
                 "avatarsHelp": "Fitur ini membutuhkan ekstensi <a>Formulaire</a> premium. Menggunakan fitur ini akan berdampak pada performa karena memerlukan permintaan database tambahan untuk mengambil diskusi dan postingan. Lihat file README untuk rincian lebih lanjut tentang format untuk setiap input.\n",
-                "avatarFormId": "",
-                "avatarFieldKey": "",
-                "avatarFieldValue": "",
+                "avatarFormId": "ID Form",
+                "avatarFieldKey": "Kunci kolom",
+                "avatarFieldValue": "Nilai kolom",
                 "avatarAvatarUrl": "URL Avatar",
                 "avatarAdd": "Tambahkan aturan avatar"
             },
             "permissions": {
-                "use": "Opsi anonimitas konten saat membuat konten",
+                "use": "Opsi anonim konten selama penulisan",
                 "reveal": "Melihat penulis asli dari diskusi dan postingan anonim",
                 "moderate": "Anonimkan atau tidak menganonimkan pada diskusi atau postingan apa pun"
             }
         },
         "forum": {
             "composerControls": {
-                "anonymize": "Post secara anonim",
+                "anonymize": "Posting secara anonim",
                 "anonymizeHelp": "Moderator akan tetap mengetahui bahwa Anda yang telah membuat konten ini"
             },
             "discussionControls": {
