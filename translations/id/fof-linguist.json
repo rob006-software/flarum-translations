@@ -12,7 +12,7 @@
             },
             "buttons": {
                 "apply": "Terapkan",
-                "reset": "Kembalikan ke aslinya",
+                "reset": "Kembali ke asli",
                 "copy-original": "Salin teks asli",
                 "load-more": "Muat lebih banyak",
                 "delete-redundant": "Hapus terjemahan yang tidak perlu",
@@ -26,7 +26,7 @@
             "placeholder": {
                 "not-translated": "Tidak diterjemahkan",
                 "all-locales": "Teks yang didefinisikan di sini akan ditampilkan dalam semua bahasa",
-                "hint": ""
+                "hint": "Nilai asli:"
             },
             "filters": {
                 "search": "Cari string terjemahan...",
@@ -38,9 +38,9 @@
                     "without": "Tanpa"
                 },
                 "type-options": {
-                    "any": "Original atau Custom",
-                    "original": "Original",
-                    "own": "Custom"
+                    "any": "Asli atau Khusus",
+                    "original": "Asli",
+                    "own": "Khusus"
                 },
                 "operation-options": {
                     "or": "Salah satu dari",
@@ -49,7 +49,7 @@
                 "for-extension": "Untuk ekstensi",
                 "frontend": "Untuk frontend",
                 "frontend-all-except-admin": "Semua, kecuali Admin",
-                "mass-edit": "Edit massal",
+                "mass-edit": "Pengeditan massal",
                 "results": "Menampilkan {shown} dari {total} terjemahan yang cocok"
             },
             "clear-cache": {
@@ -74,7 +74,7 @@
                 "count": {
                     "percent": "{percent} %",
                     "total": "{translated} / {total}",
-                    "details": "{total} total / {original} original / {custom} custom"
+                    "details": "total {total} / {original} asli / {custom} khusus"
                 },
                 "all-namespaces": "Semua",
                 "apply-missing-filter": "Tampilkan terjemahan yang belum diterjemahkan yang cocok"
