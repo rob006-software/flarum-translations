@@ -31,7 +31,7 @@
             "filters": {
                 "search": "Cari string terjemahan...",
                 "with-own-translations": "Terjemahan saya",
-                "missing": "Temukan terjemahan yang belum diterjemahkan",
+                "missing": "Temukan terjemahan yang hilang",
                 "missing-middle-label": "terjemahan dalam",
                 "negation-options": {
                     "with": "Dengan",
@@ -82,7 +82,7 @@
             "export": {
                 "title": "Ekspor",
                 "warning": "Format ekspor menggunakan file terjemahan berbasis Yaml milik Flarum dan dirancang untuk dapat saling berbagi terjemahan antar forum dan dengan pengelola paket bahasa. Format ini tidak dirancang untuk memindahkan semua terjemahan ke forum baru. Tergantung pada kasus penggunaan Anda, menyalin database secara langsung mungkin merupakan ide yang lebih baik.\n",
-                "locale": "Lokal",
+                "locale": "Bahasa lokal",
                 "locale-all": "Pseudo-locale \"Semua\"",
                 "namespace": "Namespace",
                 "namespace-all": "Semua",
@@ -97,12 +97,12 @@
                 "title": "Impor",
                 "input": "Input",
                 "input-placeholder": "Tarik dan lepas atau paste file Yaml di sini",
-                "locale": "Lokal",
+                "locale": "Bahasa lokal",
                 "locale-all": "Pseudo-locale \"Semua\"",
                 "override-existing": "Mengesampingkan terjemahan khusus Saya yang sudah ada",
                 "submit": "Impor",
-                "results": "Impor telah selesai. {imported}string telah diimpor dan {identical}string yang identik diabaikan. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n",
-                "results-with-ignore": "Impor telah selesai. {imported} telah diimpor, {ignored} string yang sudah ada telah diabaikan dan {identical}string yang identik telah dilewati. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n"
+                "results": "Impor selesai. String {imported} telah diimpor dan string {identical} yang identik dilewati. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n",
+                "results-with-ignore": "Impor telah selesai. String {imported} telah diimpor, string {ignored} yang sudah ada telah diabaikan dan string {identical} yang identik telah dilewati. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n"
             },
             "known-namespace": {
                 "core": "Flarum Core",
