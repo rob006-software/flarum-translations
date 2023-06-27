@@ -2,7 +2,7 @@
     "fof-linguist": {
         "admin": {
             "permissions": {
-                "view_string_keys": "Melihat string key terjemahan"
+                "view_string_keys": "Melihat kunci string terjemahan"
             },
             "tabs": {
                 "strings": "Terjemahan",
@@ -12,11 +12,11 @@
             },
             "buttons": {
                 "apply": "Terapkan",
-                "reset": "Teks asli",
-                "copy-original": "Copy teks asli",
-                "load-more": "Muat lainnya",
+                "reset": "Kembalikan ke aslinya",
+                "copy-original": "Salin teks asli",
+                "load-more": "Muat lebih banyak",
                 "delete-redundant": "Hapus terjemahan yang tidak perlu",
-                "delete-redundant-confirm": "Ini akan menghapus {count} terjemahan yang memiliki nilai asli dan nilai kustom yang sama. Hal ini berguna untuk membersihkan setelah update paket bahasa.\n",
+                "delete-redundant-confirm": "Ini akan menghapus {count} terjemahan yang memiliki nilai asli dan nilai khusus yang sama. Ini dapat berguna untuk membersihkan setelah pembaruan paket bahasa.\n",
                 "delete-all": "Hapus semua terjemahan",
                 "delete-all-confirm": "Ini akan menghapus SEMUA terjemahan khusus {count} Anda. Pastikan Anda telah mengekspor atau mem-backup semua yang mungkin ingin Anda simpan.\n"
             },
@@ -63,7 +63,7 @@
                 },
                 "total-options": {
                     "percent": "Persen",
-                    "count": "Hitungan"
+                    "count": "Perhitungan"
                 },
                 "columns": {
                     "namespace": "Namespace",
