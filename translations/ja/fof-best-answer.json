@@ -16,8 +16,12 @@
                 "allow_select_own_post_help": "OPが自分の投稿をベストアンサーとして選択できるようにする",
                 "enable_all_tags_button": "ベストアンサーを全てのタグで有効にする",
                 "enable_all_tags_reminder_button": "ベストアンサーリマインダーを全てのタグで有効にする",
+                "show_max_lines_label": "",
+                "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "ベストアンサーを選ぶように、X日後に通知する",
                 "select_best_answer_reminder_days_help": "",
+                "select_best_answer_tags_label": "",
+                "select_best_answer_tags_help": "",
                 "schedule_on_one_server": "タスクスケジューラに 'onOneServer()' ディレクティブを使用する (Redis/Memcache が必要です)",
                 "schedule_on_one_server_help": "",
                 "schedule_stop_overnight": "深夜帯はリマインダースケジューラを停止する (サーバー時間で午後9時 ~ 午前8時)",
@@ -83,6 +87,14 @@
                 "awarded": "{recipient_display_name}さん、こんにちは。\n{actor_display_name}さんが、'{discussion_title}'のスレッドにおいて、あなたの投稿をベストアンサーに選びました。ご協力ありがとうございます。\n内容はこちらから確認できます: {discussion_url}\n",
                 "ba-set": "{recipient_display_name}さん、こんにちは。\n{actor_display_name}さんが、あなたの参加しているスレッド'{discussion_title}'において、ベストアンサーを選択しました。\n内容はこちらから確認できます: {discussion_url}\n",
                 "select": "{recipient_display_name}さん、こんにちは。\nあなたの質問'{discussion_title}'に対し、いくつかの回答が届いているようです。得られた回答から問題を解決できましたか？\nもし解決された場合は、ベストアンサーを選択していただけると幸いです。これによって、あなたと同じ問題を持った他のユーザーが、解決方法を知ることができます。\n以下のURLからスレッドを開き、最も参考になった投稿をベストアンサーに選んでください。\n{discussion_url}\nご協力をお願いします。\n"
+            }
+        }
+    },
+    "fof-user-directory": {
+        "lib": {
+            "sort": {
+                "most_best_answers": "",
+                "least_best_answers": ""
             }
         }
     }

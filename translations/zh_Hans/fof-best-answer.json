@@ -16,8 +16,12 @@
                 "allow_select_own_post_help": "允许提问者将自己的帖子设为最佳回复",
                 "enable_all_tags_button": "为所有标签启用最佳回复",
                 "enable_all_tags_reminder_button": "为所有标签启用提醒功能",
+                "show_max_lines_label": "",
+                "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "提醒计时",
                 "select_best_answer_reminder_days_help": "于 n 天后提问者选择最佳回复。",
+                "select_best_answer_tags_label": "",
+                "select_best_answer_tags_help": "",
                 "schedule_on_one_server": "使用 onOneServer() 方法建立计划任务",
                 "schedule_on_one_server_help": "需要 Redis/Memcache",
                 "schedule_stop_overnight": "非工作时间禁用提醒",
@@ -84,6 +88,14 @@
                 "awarded": "{recipient_display_name}，你好！\n\n干得漂亮，您在【{discussion_title}】发表的回复刚刚被 {actor_display_name} 选为最佳回复。感谢你的耐心帮助。\n\n点击此处查看回复：{discussion_url}\n",
                 "ba-set": "{recipient_display_name}，你好！\n\n{actor_display_name} 刚刚为你参与讨论的主题【{discussion_title}】选择了最佳回复。\n\n去看看吧：{discussion_url}\n",
                 "select": "{recipient_display_name}，你好！\n\n你的主题「{discussion_title}」已经有了很多回复。\n\n如果其中有可以帮助你解决问题的，你可以把他选为最佳回复，这样不仅能让后来者快速找到解决问题的办法，也可以激励帮助你的人。\n\n点击此处查看主题：{discussion_url}，并选择最佳回复。\n\n此致\n"
+            }
+        }
+    },
+    "fof-user-directory": {
+        "lib": {
+            "sort": {
+                "most_best_answers": "",
+                "least_best_answers": ""
             }
         }
     }

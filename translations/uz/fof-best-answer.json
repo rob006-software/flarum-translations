@@ -16,8 +16,12 @@
                 "allow_select_own_post_help": "OPga muhokamadagi o'z postlaridan birini eng yaxshi javob sifatida tanlashga ruxsat bering",
                 "enable_all_tags_button": "Eng yaxshi javoblar uchun barcha teglarni yoqing",
                 "enable_all_tags_reminder_button": "Eng yaxshi javob eslatmalari uchun barcha teglarni yoqing",
+                "show_max_lines_label": "",
+                "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "Eslatma tezligi",
                 "select_best_answer_reminder_days_help": "Eng yaxshi javobni tanlash uchun OPga sozlanishi mumkin bo'lgan kunlar miqdoridan keyin eslatma yuboring, 0 = eslatmalarni o'chirib qo'ying.",
+                "select_best_answer_tags_label": "",
+                "select_best_answer_tags_help": "",
                 "schedule_on_one_server": "Vazifa rejalashtiruvchisi uchun \"onOneServer()\" direktivasidan foydalaning",
                 "schedule_on_one_server_help": "Redis/Memcache talab qiladi",
                 "schedule_stop_overnight": "Ijtimoiy bo'lmagan soatlarda eslatma bildirishnomalarining yuborilishini oldini oling",
@@ -83,6 +87,14 @@
                 "awarded": "Salom {recipient_display_name},\n\nAjoyib, {actor_display_name} postingizni muhokamadagi eng yaxshi javob sifatida belgilang: {discussion_title}. Yordam berganingiz uchun tashakkur.\n\nBu yerda koʻring: {discussion_url}\n",
                 "ba-set": "Salom {recipient_display_name},\n\n{actor_display_name} muhokamada eng yaxshi javobni belgiladi: siz ishtirok etgan {discussion_title}.\n\nBuni tekshiring: {discussion_url}\n",
                 "select": "Salom {recipient_display_name},\n\nFaqat ro'yxatdan o'tish; Hozircha savolingizga juda koʻp javob olishingiz kerak: {discussion_title}. Umid qilamanki, ulardan biri muammoingizni hal qilishga yordam berdi.\n\nAgar shunday bo'lsa, savolingizga eng yaxshi javobni belgilasangiz, kelajakdagi a'zolar uchun juda foydali bo'lar edi. Bu xuddi shu muammoga duch kelgan odamlarga kerakli javobni topishga yordam beradi va bu sizga yordam bergan aʼzolarga ham katta rahmat. Ular o'z vaqtlarini ixtiyoriy ravishda berishadi, shuning uchun ularga yaxshi ishlayotganliklarini bildirish juda yoqimli.\n\nBu yerda muhokamaga tashrif buyuring: {discussion_url} va eng yaxshi javob sifatida eng mos postni tanlang.\n\nRahmat!\n"
+            }
+        }
+    },
+    "fof-user-directory": {
+        "lib": {
+            "sort": {
+                "most_best_answers": "",
+                "least_best_answers": ""
             }
         }
     }

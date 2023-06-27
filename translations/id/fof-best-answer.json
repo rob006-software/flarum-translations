@@ -16,8 +16,12 @@
                 "allow_select_own_post_help": "Izinkan Postingan Sendiri untuk dapat dipilih sebagai jawaban terbaik",
                 "enable_all_tags_button": "Aktifkan semua tag untuk Jawaban Terbaik",
                 "enable_all_tags_reminder_button": "Aktifkan semua tag untuk pengingat Jawaban Terbaik",
+                "show_max_lines_label": "",
+                "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "Frekuensi pengingat",
                 "select_best_answer_reminder_days_help": "Kirim pengingat setelah jumlah hari yang dapat dikonfigurasi ke Postingan Sendiri untuk memilih Jawaban Terbaik, 0 = menonaktifkan pengingat.",
+                "select_best_answer_tags_label": "",
+                "select_best_answer_tags_help": "",
                 "schedule_on_one_server": "Gunakan 'onOneServer()' directive untuk task scheduler",
                 "schedule_on_one_server_help": "Membutuhkan Redis/Memcache",
                 "schedule_stop_overnight": "Cegah pengiriman notifikasi pengingat di luar jam kerja",
@@ -83,6 +87,14 @@
                 "awarded": "Hai {recipient_display_name},\n\nKerja bagus, {actor_display_name} baru saja menetapkan postingan Anda sebagai jawaban terbaik dalam diskusi: {discussion_title}. Terima kasih telah membantu.\n\nLihat di sini: {discussion_url}\n",
                 "ba-set": "Hai {recipient_display_name},\n\n{actor_display_name} baru saja menetapkan jawaban terbaik dalam diskusi: {discussion_title}, yang Anda ikuti.\n\nLihatlah: {discussion_url}\n",
                 "select": "Hai {recipient_display_name},\n\nHanya ingin memastikan; saat ini Anda seharusnya sudah mendapatkan banyak balasan atas pertanyaan Anda: {discussion_title}. Semoga salah satu dari mereka telah membantu Anda memecahkan masalah Anda.\n\nJika demikian, akan sangat membantu bagi anggota lain di masa mendatang jika Anda dapat menetapkan jawaban terbaik untuk pertanyaan Anda. Ini akan membantu orang-orang dengan masalah yang sama untuk menemukan jawaban yang mereka butuhkan, dan juga sebagai ucapan terima kasih yang sebesar-besarnya kepada anggota yang telah membantu Anda. Mereka memberikan waktu mereka secara sukarela, jadi sangat menyenangkan untuk memberi tahu mereka bahwa mereka melakukannya dengan baik.\n\nKunjungi diskusi di sini: {discussion_url}, dan pilih postingan yang paling tepat sebagai jawaban terbaik.\n\nTerima kasih!\n"
+            }
+        }
+    },
+    "fof-user-directory": {
+        "lib": {
+            "sort": {
+                "most_best_answers": "",
+                "least_best_answers": ""
             }
         }
     }

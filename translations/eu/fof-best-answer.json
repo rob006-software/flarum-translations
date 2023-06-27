@@ -16,8 +16,12 @@
                 "allow_select_own_post_help": "",
                 "enable_all_tags_button": "",
                 "enable_all_tags_reminder_button": "",
+                "show_max_lines_label": "",
+                "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "Gogoratu erabiltzaileak X egun ondoren erantzun hoberena markatzeko",
                 "select_best_answer_reminder_days_help": "",
+                "select_best_answer_tags_label": "",
+                "select_best_answer_tags_help": "",
                 "schedule_on_one_server": "Erabili 'onOneServer()' direktiba lanaren plangintzarako (beharrezkoa da Redis/Memcache)",
                 "schedule_on_one_server_help": "",
                 "schedule_stop_overnight": "Ez gogoratu erabiltzaileak email bidez ordu desegokietan (9pm - 8am zerbitzari denboran)",
@@ -83,6 +87,14 @@
                 "awarded": "Aupa {recipient_display_name},\n\nZorionak, {actor_display_name}(e)k aukeratu du zure erantzuna \"{discussion_title}\" eztabaidan hoberena bezala. \nEskerrik asko zure laguntza ematea gatik.\n\nIkus ezazu hemen: {discussion_url}\n",
                 "ba-set": "Aupa {recipient_display_name},\n\n{actor_display_name} aukeratu du erantzun hoberen bat \"{discussion_title}\", non zuk parte hartu duzun.\n\nIkus ezazu hemen: {discussion_url}\n",
                 "select": "Aupa {recipient_display_name},\n\nBakarrik gogoratzeko; jada zure galderari erantzun asko izango dituzu.\n\nHorrela bada, eta erantzun zuzen bat aurkitu baduzu, mesedez markatu zuzena gisa besteei laguntzeko\n\nIkusi eztabaida hemen: {discussion_url}, eta aukeratu erantzun hoberena.\n\nEskerrik asko!\n"
+            }
+        }
+    },
+    "fof-user-directory": {
+        "lib": {
+            "sort": {
+                "most_best_answers": "",
+                "least_best_answers": ""
             }
         }
     }

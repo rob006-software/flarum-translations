@@ -16,8 +16,12 @@
                 "allow_select_own_post_help": "Tartışma sahibinin tartışmadaki kendi gönderilerinden birini en iyi cevap olarak seçmesine izin verin",
                 "enable_all_tags_button": "Tüm etiketlerde En İyi Yanıtı etkinleştir",
                 "enable_all_tags_reminder_button": "En İyi Yanıt hatırlatıcısını için tüm etiketleri etkinleştir",
+                "show_max_lines_label": "",
+                "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "Hatırlatma sıklığı",
                 "select_best_answer_reminder_days_help": "Yapılandırılabilir gün sayısından sonra tartışma sahibine En İyi Yanıtı seçmesi için bir hatırlatıcı gönderin, 0 = hatırlatıcıları devre dışı bırakın.",
+                "select_best_answer_tags_label": "",
+                "select_best_answer_tags_help": "",
                 "schedule_on_one_server": "Zamanlayıcı için 'onOneServer()' kullanın",
                 "schedule_on_one_server_help": "Redis/Memcache gerektirir",
                 "schedule_stop_overnight": "Aktif olmayan saatlerde hatırlatma bildirimlerinin gönderilmesini önleyin",
@@ -84,6 +88,14 @@
                 "awarded": "Hey {recipient_display_name},\n\nHarika, {actor_display_name} senin {discussion_title} başlıklı tartışmadaki yanıtını en iyi yanıt olarak seçti. Yardımcı olduğun için teşekkürler.\n\nBuradan görüntüle: {discussion_url}\n",
                 "ba-set": "Hey {recipient_display_name},\n\n{actor_display_name} senin de yanıtladığın {discussion_title} tartışması için en iyi yanıtı belirledi.\n\nBuradan görüntüle: {discussion_url}\n",
                 "select": "Hey {recipient_display_name},\n\nSadece kontrol ediyorduk ve {discussion_title} başlıklı tartışmanızın çok sayıda yanıt aldığını gördük. Umarız bu yanıtlardan birisi sorunu çözmene yardımcı olmuştur.\n\nEğer öyleyse sorunuz için en iyi yanıtı belirlemeniz mevcut ve yeni ziyaretçiler için yol gösterici olacaktır. Aynı sorunu yaşayan kullanıcılar için yardımcı olun ve size en iyi yanıtı verene bir teşekkürü çok görmeyin. Kullanıcılarımız zamanlarını gönüllü olarak ayırıyorlar, bu yüzden takdir edildiklerini bilmelerini sağlamak iyi olurdu.\n\nTartışmayı buradan görüntüle: {discussion_url}, ve bir en iyi yanıt belirle.\n\nTeşekkürler!\n"
+            }
+        }
+    },
+    "fof-user-directory": {
+        "lib": {
+            "sort": {
+                "most_best_answers": "",
+                "least_best_answers": ""
             }
         }
     }

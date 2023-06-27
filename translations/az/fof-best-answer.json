@@ -16,8 +16,12 @@
                 "allow_select_own_post_help": "OP -nin müzakirədə öz yazılarından birini ən yaxşı cavab olaraq seçməsinə icazə verin",
                 "enable_all_tags_button": "",
                 "enable_all_tags_reminder_button": "",
+                "show_max_lines_label": "",
+                "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "Xatırlatma tezliyi",
                 "select_best_answer_reminder_days_help": "Ən yaxşı cavabı seçmək üçün OP -yə konfiqurasiya edilə bilən günlərdən sonra bir xatırlatma göndərin, 0 = xatırlatmaları deaktiv edin.",
+                "select_best_answer_tags_label": "",
+                "select_best_answer_tags_help": "",
                 "schedule_on_one_server": "Tapşırıq planlayıcısı üçün 'onOneServer ()' direktivindən istifadə edin",
                 "schedule_on_one_server_help": "Redis/Memcache tələb edir",
                 "schedule_stop_overnight": "Sosial olmayan saatlarda xatırlatma bildirişlərinin göndərilməsinin qarşısını alın",
@@ -83,6 +87,14 @@
                 "awarded": "",
                 "ba-set": "",
                 "select": ""
+            }
+        }
+    },
+    "fof-user-directory": {
+        "lib": {
+            "sort": {
+                "most_best_answers": "",
+                "least_best_answers": ""
             }
         }
     }

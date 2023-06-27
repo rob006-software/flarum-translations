@@ -16,8 +16,12 @@
                 "allow_select_own_post_help": "Permetti di selezionere il proprio post come risposta migliore",
                 "enable_all_tags_button": "Abilita tutti i tag per Risposta Migliore",
                 "enable_all_tags_reminder_button": "Abilita tutti i tag per i promemoria di Risposta Migliore",
+                "show_max_lines_label": "",
+                "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "Frequenza promemoria",
                 "select_best_answer_reminder_days_help": "Invia un promemoria dopo un numero di giorni configurabile per invitare a scegliere la risposta migliore, 0 = disabilita promemoria.",
+                "select_best_answer_tags_label": "",
+                "select_best_answer_tags_help": "",
                 "schedule_on_one_server": "Usa la direttiva 'onOneServer()' per le pianificazioni",
                 "schedule_on_one_server_help": "Richiede Redis/Memcache",
                 "schedule_stop_overnight": "Impedisci l'invio di notifiche promemoria  durante determinate ore",
@@ -84,6 +88,14 @@
                 "awarded": "Hei {recipient_display_name},\nOttimo lavoro, {actor_display_name} ha scelto il tuo post come risposta migliore nella discussione {discussion_title}. Grazie di aver contribuito.\nGuardala qui: {discussion_url}\n",
                 "ba-set": "Hei {recipient_display_name},\n{actor_display_name} ha scelto la risposta migliore nella discussione {discussion_title} a cui hai partecipato.\nGuardala ora: {discussion_url}\n",
                 "select": "Hei {recipient_display_name},\nSto controllando alcune cose; a questo punto dovresti avere molte risposte alla tua domanda in - {discussion_title}. Spero che uno di loro ti abbia aiutato a risolvere il tuo problema.\n\nIn tal caso, sarebbe davvero utile per i futuri membri se potessi impostare una risposta migliore alla tua domanda. Aiuterà le persone con lo stesso problema a trovare la risposta di cui hanno bisogno, ed è anche un grande ringraziamento ai membri che ti hanno aiutato. Donano il loro tempo volontariamente, quindi è bello far loro sapere che hanno contribuito a risolvere il problema.\n\nVisita la discussione qui: {discussion_url}, e seleziona il post più appropriato come risposta migliore.\nGrazie!\n"
+            }
+        }
+    },
+    "fof-user-directory": {
+        "lib": {
+            "sort": {
+                "most_best_answers": "",
+                "least_best_answers": ""
             }
         }
     }

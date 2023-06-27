@@ -16,8 +16,12 @@
                 "allow_select_own_post_help": "Разрешить автору дискуссии выбирать своё сообщение в качестве лучшего ответа.",
                 "enable_all_tags_button": "Включить все теги для лучшего ответа",
                 "enable_all_tags_reminder_button": "Включить все теги для напоминаний о лучших ответах",
+                "show_max_lines_label": "",
+                "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "Частота напоминаний",
                 "select_best_answer_reminder_days_help": "Напомнить автору дискуссии о необходимости выбрать лучший ответ через X дней. 0 - отключить напоминания.",
+                "select_best_answer_tags_label": "",
+                "select_best_answer_tags_help": "",
                 "schedule_on_one_server": "Использовать директиву 'onOneServer()' для планировщика задач",
                 "schedule_on_one_server_help": "Требуется Redis / Memcache.",
                 "schedule_stop_overnight": "Запретить отправку уведомлений с напоминанием в нерабочие часы",
@@ -83,6 +87,14 @@
                 "awarded": "Здравствуйте, {recipient_display_name}!\n\nОтличная работа, {actor_display_name} выбрал Ваше сообщение в качестве лучшего ответа в дискуссии '{discussion_title}'. Благодарим за помощь!\n\nПосмотреть: {discussion_url}\n",
                 "ba-set": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} выбрал лучший ответ в дискуссии '{discussion_title}', в которой Вы участвовали.\n\nПроверить: {discussion_url}\n",
                 "select": "Здравствуйте, {recipient_display_name}!\n\nПросто напоминаем; на текущий момент в Вашей дискуссии уже достаточно ответов на Ваш вопрос - '{discussion_title}'. Надеемся, один из них помог Вам в решении Вашего вопроса.\n\nЕсли это так, то было бы полезно Вам выбрать сообщение с решением Вашего вопроса. Это поможет людям с таким же вопросом найти ответ, а также это благодарность участникам дискуссии. Участники отдают своё время добровольно и им было бы приятно узнать, что они помогли Вам в решении Вашего вопроса.\n\nПосмотрите дискуссию: {discussion_url}, и выберите подходящее сообщение в качестве лучшего ответа.\n\nСпасибо!\n"
+            }
+        }
+    },
+    "fof-user-directory": {
+        "lib": {
+            "sort": {
+                "most_best_answers": "",
+                "least_best_answers": ""
             }
         }
     }

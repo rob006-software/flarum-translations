@@ -16,8 +16,12 @@
                 "allow_select_own_post_help": "允許提問者將自己的貼子設為最佳回覆",
                 "enable_all_tags_button": "為所有標籤啟用最佳回覆",
                 "enable_all_tags_reminder_button": "為所有標籤啟用提醒功能",
+                "show_max_lines_label": "",
+                "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "於 n 天後提醒用戶選取最佳回覆",
                 "select_best_answer_reminder_days_help": "於N天後提問者選擇最佳回覆。",
+                "select_best_answer_tags_label": "",
+                "select_best_answer_tags_help": "",
                 "schedule_on_one_server": "透過 'onOneServer()' 指令作為任務排程器（需要 Redis/Memcache）",
                 "schedule_on_one_server_help": "需要 Redis/Memcache",
                 "schedule_stop_overnight": "提醒排程於非社交時間停止執行（伺服器時間 9pm - 8am）",
@@ -83,6 +87,14 @@
                 "awarded": "{recipient_display_name}，你好！\n\n幹得好，您在【{discussion_title}】發表的回覆剛剛被 {actor_display_name} 選為最佳回覆。感謝你的耐心幫助。\n\n點擊此處查看回覆：{discussion_url}\n",
                 "ba-set": "{recipient_display_name}，你好！\n\n{actor_display_name} 剛剛為你參與討論的主題【{discussion_title}】選擇了最佳回覆。\n\n去看看吧：{discussion_url}\n",
                 "select": "{recipient_display_name}，你好！\n\n你的主題「{discussion_title}」已經有了很多回覆。\n\n如果其中有可以幫助你解決問題的，你可以把他選為最佳回覆，這樣不僅能讓後來者快速找到解決問題的辦法，也可以激勵幫助你的人。\n\n點擊此處查看主題：{discussion_url}，並選擇最佳回覆。\n\n此致\n"
+            }
+        }
+    },
+    "fof-user-directory": {
+        "lib": {
+            "sort": {
+                "most_best_answers": "",
+                "least_best_answers": ""
             }
         }
     }

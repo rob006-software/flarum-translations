@@ -16,8 +16,12 @@
                 "allow_select_own_post_help": "",
                 "enable_all_tags_button": "",
                 "enable_all_tags_reminder_button": "",
+                "show_max_lines_label": "",
+                "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "Υπενθυμίστε στους χρήστες να επιλέξουν την καλύτερη απάντηση μετά από X ημέρες",
                 "select_best_answer_reminder_days_help": "",
+                "select_best_answer_tags_label": "",
+                "select_best_answer_tags_help": "",
                 "schedule_on_one_server": "Χρησιμοποιήστε την οδηγία 'onOneServer()' για το χρονοδιάγραμμα εργασιών (απαιτείται Redis/Memcache)",
                 "schedule_on_one_server_help": "",
                 "schedule_stop_overnight": "Αποτρέψτε την εκτέλεση του χρονοδιαγράμματος υπενθυμίσεων κατά τη διάρκεια κοινωνικών ωρών (9pm - 8am server time)",
@@ -83,6 +87,14 @@
                 "awarded": "Γειά σου {recipient_display_name},\n\nΕξαιρετική δουλειά, ο χρήστης {actor_display_name} μόλις επέλεξε την απάντηση σου ως την καλύτερη στη συζήτηση '{discussion_title}'. Ευχαριστούμε για τη βοήθεια!\n\nΔές την συζήτηση εδώ: {discussion_url}\n",
                 "ba-set": "Γειά σου {recipient_display_name},\n\nο χρήστης {actor_display_name} μόλις επέλεξε την απάντηση σου ως την καλύτερη απάντηση στη συζήτηση '{discussion_title}', στην οποία συμμετείχες.\n\nΔές την συζήτηση εδώ: {discussion_url}\n",
                 "select": "Γειά σου {recipient_display_name},\n\nΣίγουρα πλέον έχεις πάρει αρκετές απαντήσεις στην ερώτησή σου - '{discussion_title}'. Ελπίζουμε ότι μια από αυτές να σε βοήθησε να λυθεί το πρόβλημά σου.\n\nΘα βοηθούσε πολύ τα μελλοντικά μέλη του forum που θα έχουν την ίδια ερώτηση με σένα να βρούν την απάντηση πιο γρήγορα και εύκολα έαν μπορούσες να επιλέξεις την καλύτερη απάντηση. Θα ήταν και ένα μεγάλο ευχαριστώ για τα μέλη που βοήθησαν. \n\nΔές τη συζήτηση εδώ: {discussion_url}, και επιλέξτε την καταλληλότερη απάντηση ως την καλύτερη.\n\nΕυχαριστούμε πολύ!\n"
+            }
+        }
+    },
+    "fof-user-directory": {
+        "lib": {
+            "sort": {
+                "most_best_answers": "",
+                "least_best_answers": ""
             }
         }
     }

@@ -16,8 +16,12 @@
                 "allow_select_own_post_help": "Allow the OP to select one of their own posts in the discussion as best answer",
                 "enable_all_tags_button": "Enable all tags for Best Answers",
                 "enable_all_tags_reminder_button": "Enable all tags for Best Answer reminders",
+                "show_max_lines_label": "Max lines to show in post preview",
+                "show_max_lines_help": "Set to 0 to disable. If a post is longer than the configured amount of lines, it will be truncated in the post preview with a fade out effect.",
                 "select_best_answer_reminder_days": "Reminder frequency",
                 "select_best_answer_reminder_days_help": "Send a reminder after the configurable amount of days to the OP to select a Best Answer, 0 = disable reminders.",
+                "select_best_answer_tags_label": "Tags for discussions with Best Answers",
+                "select_best_answer_tags_help": "Select which tags, if any, to add to discussions when a Best Answer is set. Only secondary tags are allowed. These tags will be removed if the Best Answer is removed.",
                 "schedule_on_one_server": "Use 'onOneServer()' directive for the task scheduler",
                 "schedule_on_one_server_help": "Requires Redis/Memcache",
                 "schedule_stop_overnight": "Prevent reminder notifications being sent during unsocial hours",
@@ -83,6 +87,14 @@
                 "awarded": "Hey {recipient_display_name},\n\nGreat job, {actor_display_name} just set your post as the best answer in the discussion: {discussion_title}. Thanks for helping out.\n\nView it here: {discussion_url}\n",
                 "ba-set": "Hey {recipient_display_name},\n\n{actor_display_name} just set a best answer in the discussion: {discussion_title}, which you participated in.\n\nCheck it out: {discussion_url}\n",
                 "select": "Hey {recipient_display_name},\n\nJust checking in; by now you should have plenty of replies to your question: {discussion_title}. Hopefully one of them has helped you solve your problem.\n\nIf so, it would be really helpful for future members if you could set a best answer to your question. It'll help people with the same problem find the answer they need, and it's also a big thank you to the members who helped you out. They give their time voluntarily, so it's nice to let them know that they're doing well.\n\nVisit the discussion here: {discussion_url}, and select the most appropriate post as the best answer.\n\nThanks!\n"
+            }
+        }
+    },
+    "fof-user-directory": {
+        "lib": {
+            "sort": {
+                "most_best_answers": "Most best answers",
+                "least_best_answers": "Least best answers"
             }
         }
     }

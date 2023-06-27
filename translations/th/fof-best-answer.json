@@ -16,8 +16,12 @@
                 "allow_select_own_post_help": "อนุญาติให้เลือกโพสต์ของตนเองในการสนทนาเป็นคำตอบที่ดีที่สุด",
                 "enable_all_tags_button": "",
                 "enable_all_tags_reminder_button": "",
+                "show_max_lines_label": "",
+                "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "ความถี่ในการเตือน",
                 "select_best_answer_reminder_days_help": "ส่งการเตือนความจำตามวันที่กำหนดไว้ เเละ ตั้งเป็น 0 เพื่อปิดการใช้งาน",
+                "select_best_answer_tags_label": "",
+                "select_best_answer_tags_help": "",
                 "schedule_on_one_server": "ใช้  'onOneServer()' สำหรับตรางการทำงาน",
                 "schedule_on_one_server_help": "ต้องการ Redis/Memcache",
                 "schedule_stop_overnight": "ไม่ส่งการเเจ้งเตือนในเวลานอน",
@@ -83,6 +87,14 @@
                 "awarded": "",
                 "ba-set": "",
                 "select": ""
+            }
+        }
+    },
+    "fof-user-directory": {
+        "lib": {
+            "sort": {
+                "most_best_answers": "",
+                "least_best_answers": ""
             }
         }
     }

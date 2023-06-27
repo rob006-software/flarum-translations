@@ -16,8 +16,12 @@
                 "allow_select_own_post_help": "Permita que o autor selecione uma de suas próprias postagens na discussão como a melhor resposta",
                 "enable_all_tags_button": "Ativar todas as tags para Melhores Respostas",
                 "enable_all_tags_reminder_button": "Habilitar todas as tags para lembretes de Melhor Resposta",
+                "show_max_lines_label": "",
+                "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "Frequência do lembrete",
                 "select_best_answer_reminder_days_help": "Envie um lembrete após a quantidade configurável de dias para o autor para selecionar uma melhor resposta, 0 = desativar lembretes.",
+                "select_best_answer_tags_label": "",
+                "select_best_answer_tags_help": "",
                 "schedule_on_one_server": "Use a diretiva 'onOneServer()' para o agendador de tarefas",
                 "schedule_on_one_server_help": "Requer Redis/Memcache",
                 "schedule_stop_overnight": "Impedir que notificações de lembrete sejam enviadas durante horários não sociais",
@@ -83,6 +87,14 @@
                 "awarded": "Olá, {recipient_display_name},\n\nÓtimo trabalho, {actor_display_name} acabou de definir sua postagem como a melhor resposta na discussão: {discussion_title}. Obrigado por contribuir.\n\nVeja aqui: {discussion_url}\n",
                 "ba-set": "Olá, {recipient_display_name},\n\n{actor_display_name} acabou de definir a melhor resposta na discussão: {discussion_title}, da qual você participou.\n\nConfira: {discussion_url}\n",
                 "select": "Olá, {recipient_display_name},\n\nApenas checando; você deve ter respostas para sua pergunta: {discussion_title}.\nEspero que uma deles tenha ajudado você a resolver seu problema.\n\nNesse caso, seria muito útil para os futuros membros se você pudesse definir a melhor resposta para sua pergunta. Isso ajudará as pessoas com o mesmo problema a encontrar a resposta de que precisam e também é um grande obrigado aos membros que o ajudaram. Eles doam seu tempo voluntariamente, então é bom que saibam que estão indo bem.\n\nVisite a discussão aqui: {discussion_url} e selecione a postagem mais apropriada como a melhor resposta.\n\nObrigado!\n"
+            }
+        }
+    },
+    "fof-user-directory": {
+        "lib": {
+            "sort": {
+                "most_best_answers": "",
+                "least_best_answers": ""
             }
         }
     }

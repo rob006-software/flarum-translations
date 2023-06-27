@@ -16,8 +16,12 @@
                 "allow_select_own_post_help": "Cho phép OP chọn một trong các bài viết của riêng mình trong cuộc thảo luận làm câu trả lời hay nhất",
                 "enable_all_tags_button": "Bật Câu trả lời hay nhất cho tất cả thẻ",
                 "enable_all_tags_reminder_button": "Bật lời nhắc Câu trả lời hay nhất cho tất cả thẻ",
+                "show_max_lines_label": "",
+                "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "Tần suất nhắc nhở",
                 "select_best_answer_reminder_days_help": "Gửi lời nhắc sau khoảng thời gian có thể cấu hình đến OP để chọn Câu trả lời hay nhất, 0 = tắt lời nhắc.",
+                "select_best_answer_tags_label": "",
+                "select_best_answer_tags_help": "",
                 "schedule_on_one_server": "Sử dụng 'onOneServer()' cho trình lập lịch tác vụ",
                 "schedule_on_one_server_help": "Yêu cầu Redis/Memcache",
                 "schedule_stop_overnight": "Ngăn thông báo nhắc nhở được gửi trong những giờ không liên lạc",
@@ -83,6 +87,14 @@
                 "awarded": "Chào {recipient_display_name},\n\nRất tốt! {actor_display_name} vừa chọn bài viết của bạn làm câu trả lời hay nhất trong cuộc thảo luận: {discussion_title}. Cảm ơn vì đã giúp đỡ.\n\nXem nó tại đây: {discussion_url}\n",
                 "ba-set": "Chào {recipient_display_name},\n\n{actor_display_name} vừa chọn câu trả lời hay nhất trong cuộc thảo luận: {discussion_title}, bạn đã đăng bài viết\n\nKiểm tra nó: {discussion_url}\n",
                 "select": "Chào {recipient_display_name},\n\nChỉ cần đăng ký; bây giờ bạn sẽ có nhiều câu trả lời cho câu hỏi của mình: {discussion_title}. Hy vọng rằng một trong số họ đã giúp bạn giải quyết vấn đề của bạn.\n\nNếu vậy, sẽ thực sự hữu ích cho các thành viên tương lai nếu bạn có thể đưa ra câu trả lời tốt nhất cho câu hỏi của mình. Nó sẽ giúp những người có cùng vấn đề tìm thấy câu trả lời mà họ cần, đồng thời cũng là lời cảm ơn sâu sắc đến các thành viên đã giúp đỡ bạn. Họ dành thời gian một cách tự nguyện, vì vậy, thật tuyệt khi cho họ biết rằng họ đang làm tốt.\n\nTruy cập cuộc thảo luận tại đây: {discussion_url} và chọn bài đăng thích hợp nhất làm câu trả lời hay nhất.\n\nCảm ơn!\n"
+            }
+        }
+    },
+    "fof-user-directory": {
+        "lib": {
+            "sort": {
+                "most_best_answers": "",
+                "least_best_answers": ""
             }
         }
     }
