@@ -19,31 +19,31 @@
                     "vertical": "Vertikal",
                     "horizontal": "Horizontal"
                 },
-                "imageProxy": "",
-                "imageProxyHelp": "Semua gambar OpenGraph dan favicon akan di-proxy oleh Flarum, alih-alih diambil oleh browser pengunjung",
-                "cacheProxy": "",
+                "imageProxy": "Proksi Gambar OpenGraph",
+                "imageProxyHelp": "Semua gambar OpenGraph dan favicon akan diproksi melalui Flarum dan bukannya diambil oleh browser pengunjung",
+                "cacheProxy": "Cache gambar yang diproksi",
                 "cacheProxyHelp": "Gambar akan di-cache ke disk sesuai dengan header HTTP-nya",
-                "withoutOpengraph": "",
+                "withoutOpengraph": "Hasilkan rich embeds untuk halaman tanpa data OpenGraph",
                 "withoutOpengraphHelp": "Judul, deskripsi, dan gambar akan dipangkas dari halaman HTML",
-                "blacklist": "",
-                "blacklistHelp": "Lihat dokumentasi untuk formatnya. URL ini tidak akan pernah memiliki rich embed, dan tidak dapat di-proxy melalui proxy gambar",
-                "whitelist": "",
-                "whitelistHelp": "Periksa dokumentasi untuk format. Jika nilai diatur, semua URL lain akan dianggap masuk dalam kategori blacklist",
-                "imageEmbeds": "",
-                "imageEmbedsHelp": "Fitur ini mengambil dan menampilkan informasi tambahan pada gambar eksternal yang disisipkan dalam post dengan bbcode atau markdown. Pada saat ini, fitur ini menggunakan kembali blacklist/whitelist dan izin yang sama seperti rich link. Gambar-gambar ini tidak di-proxy melalui proxy gambar OpenGraph. Anda harus membersihkan cache Flarum setelah mengubah pengaturan ini.\n",
+                "blacklist": "Daftar Hitam URL",
+                "blacklistHelp": "Periksa dokumentasi untuk format. URL ini tidak akan pernah memiliki rich embeds, dan tidak dapat diproksi melalui proksi gambar",
+                "whitelist": "Daftar Putih URL",
+                "whitelistHelp": "Periksa dokumentasi untuk format. Jika sebuah nilai ditetapkan, semua URL lain akan dianggap sebagai daftar hitam",
+                "imageEmbeds": "Rich Embeds untuk Gambar",
+                "imageEmbedsHelp": "Fitur ini mengambil dan menampilkan informasi tambahan pada gambar eksternal yang disisipkan dalam postingan dengan bbcode atau markdown. Saat ini fitur ini menggunakan kembali daftar hitam/daftar putih dan izin yang sama dengan rich link. Gambar-gambar ini tidak diproksi melalui proksi gambar OpenGraph. Anda harus menghapus cache Flarum setelah mengubah pengaturan ini.\n",
                 "flarumApiPreviews": "Aktifkan pratinjau Flarum tingkat lanjut",
                 "flarumApiPreviewsHelp": "Fitur ini mem-parsing data JSON tambahan yang sudah disertakan dalam HTML oleh semua forum yang didukung oleh Flarum. Fitur ini akan bekerja dengan semua forum yang menjalankan Flarum 1.4+ dan mengiklankan header <code>X-Powered-By</code>.\n",
                 "githubApiKey": "",
-                "githubApiKeyHelp": "",
-                "githubOrgWhitelist": "",
-                "githubOrgWhitelistHelp": "Daftar organisasi GitHub yang dipisahkan dengan koma yang akan menggunakan pratinjau yang didukung API. Gunakan kolom ini untuk mencegah setiap private repo yang dapat diakses oleh API key terekspos, untuk mengurangi penggunaan API atau hanya mengubah gaya sematan organisasi Anda. Jika dibiarkan kosong, repo apa pun yang dapat diakses oleh API key dapat dipratinjau.\n",
+                "githubApiKeyHelp": "Isi untuk mengaktifkan pratinjau GitHub yang didukung API untuk repositori, issue, dan PR, termasuk repositori pribadi.",
+                "githubOrgWhitelist": "Daftar putih organisasi",
+                "githubOrgWhitelistHelp": "Daftar organisasi GitHub yang dipisahkan dengan koma yang akan menggunakan pratinjau yang didukung API. Gunakan kolom ini untuk mencegah setiap repo pribadi yang dapat diakses oleh API key terekspos, untuk mengurangi penggunaan API atau hanya mengubah gaya sematan organisasi Anda. Jika dibiarkan kosong, repo apa pun yang dapat diakses oleh API key dapat dipratinjau.\n",
                 "googleApiAuthConfig": "Google SDK Auth Config Path atau JSON",
                 "googleApiAuthConfigHelp": "Pengaturan ini digunakan bersama dengan pengaturan YouTube dan Google Drive di bawah ini. Pengaturan ini harus berisi absolute path ke file autentikasi JSON di sistem file lokal, atau konten file tersebut. Jika dibiarkan kosong, API key atau akun layanan akan secara otomatis ditemukan melalui environment variable oleh Google API SDK.\n",
                 "googleApiKey": "Google SDK API key",
                 "googleApiKeyHelp": "Pengaturan ini digunakan bersamaan dengan pengaturan YouTube dan Google Drive di bawah ini. Jika dibiarkan kosong, kunci API atau akun layanan akan secara otomatis ditemukan melalui environment variable oleh Google API SDK.\n",
                 "youtubePlayer": "Izinkan memutar video YouTube dari pratinjau",
                 "youtubePlayerHelp": "Iframe player akan dimuat sesuai permintaan saat pengguna mengeklik tombol play di pratinjau. Anda harus mengonfigurasi CSP dan frame header untuk mengizinkan frame dari nama domain YouTube. Fitur ini dapat digunakan tanpa akses API.\n",
-                "youtubeNoCookie": "",
+                "youtubeNoCookie": "Gunakan domain iframe tanpa cookie YouTube",
                 "youtubeNoCookieHelp": "Beralih ke domain tanpa cookie alternatif yang ditawarkan oleh YouTube. Beberapa video mungkin tidak dapat diputar di iframe dengan opsi ini diaktifkan. Fitur ini dapat digunakan tanpa akses API.\n",
                 "youtubeApiPreviews": "Aktifkan pratinjau YouTube yang didukung API tingkat lanjut",
                 "youtubeApiPreviewsHelp": "Google API SDK harus dikonfigurasi di atas. Fitur ini akan menampilkan lebih banyak statistik tentang video dan dapat menampilkan video pribadi yang dapat diakses oleh SDK user.\n",
@@ -74,8 +74,8 @@
         },
         "lib": {
             "embed": {
-                "altFavicon": "",
-                "altImageFallback": "",
+                "altFavicon": "Ikon {website}",
+                "altImageFallback": "Gambar Opengraph {website}",
                 "altAvatar": "Gambar avatar penulis",
                 "missing": {
                     "retrieving": "Mengambil...",
@@ -90,7 +90,7 @@
                 "imgCopied": "Disalin!",
                 "imgOpen": "Buka gambar di tab baru",
                 "play": "",
-                "expandDescription": ""
+                "expandDescription": "Perluas deskripsi"
             }
         },
         "api": {
@@ -120,7 +120,7 @@
                 },
                 "github": {
                     "siteName": "GitHub",
-                    "privateRepoSuffix": "",
+                    "privateRepoSuffix": "[pribadi]",
                     "issue": {
                         "type": "",
                         "stats": {
@@ -145,7 +145,7 @@
                         "stats": {
                             "openIssueCount": "",
                             "subscriberCount": "",
-                            "stargazerCount": "",
+                            "stargazerCount": "Bintang",
                             "forkCount": ""
                         }
                     }
