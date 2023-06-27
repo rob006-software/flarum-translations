@@ -15,10 +15,10 @@
                 }
             },
             "page": {
-                "nav": "Direktori User",
+                "nav": "Direktori Pengguna",
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
-                "empty_text": "Kami tidak dapat menemukan user yang cocok dengan pencarian Anda.",
+                "empty_text": "Kami tidak dapat menemukan pengguna yang cocok dengan pencarian Anda.",
                 "filter_button": "",
                 "usercard": {
                     "discussion-count": "{count, plural, one { {count} diskusi} other {{count} diskusi}}",
@@ -28,18 +28,18 @@
         },
         "admin": {
             "permissions": {
-                "view_user_directory": "Melihat direktori user"
+                "view_user_directory": "Melihat direktori pengguna"
             },
             "settings": {
-                "link": "Tambahkan link di beranda agar pengguna dapat melihat direktori",
+                "link": "Tambahkan link di beranda agar para pengguna dapat melihat direktori",
                 "default-sort": "Pengurutan default",
                 "use-small-cards": "Gunakan user card berukuran kecil",
-                "disable-global-search-source": "Jangan menambahkan Direktori User ke kolom pencarian global Flarum"
+                "disable-global-search-source": "Jangan menambahkan Direktori Pengguna ke kolom pencarian global Flarum"
             }
         },
         "lib": {
             "sort": {
-                "not_specified": "Gunakan Flarum standar",
+                "not_specified": "Gunakan standar Flarum",
                 "default": "Default",
                 "username_az": "Username (a-z)",
                 "username_za": "Username (z-a)",
