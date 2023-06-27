@@ -44,10 +44,10 @@
                 "host": "Host server websocket Anda - biarkan apa adanya jika server adalah host yang sama dengan admin Anda.",
                 "reverse_proxy": "Websocket akan terhubung melalui port 443 ketika ini diaktifkan - Gunakan ini jika Anda menggunakan reverse proxy dari port 443 ke server websocket Anda.",
                 "port": "Port server websocket Anda - biarkan apa adanya jika Anda tidak mengubah port server bawaan.",
-                "cert_path": "Hanya diperlukan jika menggunakan ssl dan BUKAN proxy terbalik. Jalur ke sertifikat SSL (https) Anda ADA DI SERVER tempat server websocket Anda berada - biasanya berupa file .crt atau .pem.",
-                "pk_path": "Hanya diperlukan jika menggunakan ssl dan BUKAN proxy terbalik. Jalur ke kunci pribadi SSL (https) Anda ADA DI SERVER tempat server websocket Anda berada - biasanya berupa file .key atau .pem.",
-                "passphrase": "Hanya diperlukan jika menggunakan ssl dan BUKAN proxy terbalik. Password yang digunakan untuk menyandikan sertifikat Anda - biasanya tidak diperlukan.",
-                "self_signed": "Hanya diperlukan jika menggunakan ssl dan BUKAN proxy terbalik. Aktifkan ini jika sertifikat SSL (https) Anda ditandatangani sendiri.",
+                "cert_path": "Hanya diperlukan jika menggunakan ssl dan BUKAN reverse proxy. Path ke sertifikat SSL (https) Anda ADA DI SERVER tempat server websocket Anda berada - biasanya berupa file .crt atau .pem.",
+                "pk_path": "Hanya diperlukan jika menggunakan ssl dan BUKAN reverse proxy. Path ke private key SSL (https) Anda ADA DI SERVER tempat server websocket Anda berada - biasanya berupa file .key atau .pem.",
+                "passphrase": "Hanya diperlukan jika menggunakan ssl dan BUKAN reverse proxy. Password yang digunakan untuk menyandikan sertifikat Anda - biasanya tidak diperlukan.",
+                "self_signed": "Hanya diperlukan jika menggunakan ssl dan BUKAN reverse proxy. Aktifkan ini jika sertifikat SSL (https) Anda ditandatangani sendiri.",
                 "auth_only": "Hanya izinkan user yang diautentikasi untuk terhubung ke server websocket, dapat mengurangi beban CPU."
             }
         }
