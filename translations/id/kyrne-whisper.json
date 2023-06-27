@@ -2,9 +2,9 @@
     "kyrne-whisper": {
         "admin": {
             "settings": {
-                "return_key": "",
+                "return_key": "Tombol return (kembali) mengirim pesan",
                 "title": "Pengaturan Whisper",
-                "set_own_password": "Biarkan user membuat password mereka sendiri - SSO Compatibility"
+                "set_own_password": "Biarkan pengguna membuat password mereka sendiri - Kompatibilitas SSO"
             },
             "permissions": {
                 "start_label": "Memulai percakapan pribadi"
@@ -15,7 +15,7 @@
                 "tooltip": "Percakapan"
             },
             "setup": {
-                "title": "Mengatur Pesan Pribadi",
+                "title": "Menyiapkan Pesan Pribadi",
                 "header_setup": "Masukkan password login akun Anda untuk mengatur pesan pribadi.",
                 "header_import": "Masukkan password login akun untuk mengimpor pesan pribadi.",
                 "header_set_own": "Masukkan password untuk mengatur pesan pribadi.",
@@ -23,18 +23,18 @@
                 "passwords_mismatch": "Password tidak cocok",
                 "invalid_password": "Password Anda salah.",
                 "button_import": "Impor",
-                "button_setup": "",
+                "button_setup": "Pengaturan",
                 "confirm_password": "Konfirmasi Password",
                 "success": "Pesan pribadi sekarang sudah siap, halaman Anda akan dimuat ulang..."
             },
             "modal": {
                 "title": "Mulai Percakapan",
                 "help": "Ketik username untuk memulai obrolan.",
-                "help_start": "Ketik pesan pertama Anda. Ini akan menjadi satu-satunya pesan yang dapat Anda kirim hingga {username} merespons. Klik user untuk memilih penerima lainnya.",
+                "help_start": "Ketik pesan pertama Anda. Ini akan menjadi satu-satunya pesan yang dapat Anda kirim hingga {username} merespons. Klik pengguna untuk memilih penerima lainnya.",
                 "search_recipients": "Masukkan username...",
                 "submit": "Kirim & Mulai Percakapan",
                 "copied": "Pesan Anda telah disalin ke clipboard.",
-                "more_users": "Jika Anda tidak melihat user yang Anda cari, berarti mereka tidak memiliki pengaturan pesan pribadi.",
+                "more_users": "Jika Anda tidak melihat pengguna yang Anda cari, berarti mereka tidak memiliki pengaturan pesan pribadi.",
                 "already": "Anda sudah memiliki percakapan dengan {username}."
             },
             "user_modal_alert": "{username} memiliki pengaturan pesan pribadi, password mereka tidak dapat diubah dengan aman.",
