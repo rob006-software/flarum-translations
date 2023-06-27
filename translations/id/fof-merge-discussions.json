@@ -26,7 +26,7 @@
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": "{count, plural, one {Merged <b>#</b> post from {titles}.} other {Merged <b>#</b> posts from {titles}.}}"
+                "merged": "{count, plural, one {Menggabungkan <b>#</b> postingan dari {titles}.} other {Menggabungkan <b>#</b> postingan dari {titles}.}}"
             }
         },
         "admin": {
@@ -34,7 +34,7 @@
                 "merge_discussions_label": "Menggabungkan diskusi"
             },
             "settings": {
-                "search_result_help": "Berapa banyak diskusi yang harus ditampilkan saat mencari dalam popup `Merge Discussions`. Standarnya adalah 4",
+                "search_result_help": "Berapa banyak diskusi yang harus dikembalikan ketika mencari di dalam modal `Gabungkan Diskusi`.",
                 "search_result_label": "Limit Pencarian Merge Discussion"
             }
         },
