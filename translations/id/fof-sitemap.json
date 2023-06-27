@@ -2,16 +2,16 @@
     "fof-sitemap": {
         "admin": {
             "settings": {
-                "exclude_users": "Mengecualikan semua profil user dari sitemap",
-                "exclude_users_help": "Secara default, setiap user yang terlihat oleh tamu akan diindeks",
+                "exclude_users": "Mengecualikan semua profil pengguna dari sitemap",
+                "exclude_users_help": "Secara default, setiap pengguna yang terlihat oleh tamu akan diindeks",
                 "mode_label": "Mode operasi",
                 "mode_help": "Memilih mode yang tepat untuk ukuran forum Anda, sangatlah penting.",
                 "mode_help_runtime_label": "Mode Runtime (Waktu Proses)",
-                "mode_help_runtime": "Untuk forum kecil, kemungkinan besar pada lingkungan shared hosting, dengan diskusi, user, tag, dan halaman yang dijumlahkan kurang dari 10.000 item. Sitemap dibuat dengan cepat pada setiap permintaan.",
+                "mode_help_runtime": "Untuk forum kecil, kemungkinan besar pada lingkungan shared hosting, dengan diskusi, pengguna, tag, dan halaman yang dijumlahkan kurang dari 10.000 item. Sitemap dibuat dengan cepat pada setiap permintaan.",
                 "mode_help_schedule": "Mode berikut ini menambahkan tugasnya ke Flarum schedule.",
                 "mode_help_schedule_setup": "Tanpa Flarum scheduler yang diatur dengan benar, mode berikut ini tidak akan berjalan. Lihat di sini <a>untuk informasi lebih lanjut</a>.",
                 "mode_help_large": "50.000 adalah batas teknis untuk file sitemap. Jika Anda memiliki lebih banyak entri untuk disimpan, gunakan opsi berikut ini!",
-                "mode_help_multi_label": "Mode Multi-file",
+                "mode_help_multi_label": "Mode Banyak file",
                 "mode_help_multi": "Paling cocok untuk forum yang lebih besar, mulai dari 10.000 item. File sitemap terkompresi yang terdiri dari beberapa bagian akan dibuat dan disimpan dalam folder /public",
                 "advanced_options_label": "Opsi lanjutan",
                 "frequency_label": "Seberapa sering scheduler harus membangun ulang sitemap yang tersimpan dalam cache?",
@@ -19,7 +19,7 @@
                 "risky_performance_improvements_help": "Peningkatan ini membuat pekerjaan CRON berjalan lebih cepat pada dataset jutaan baris, tetapi mungkin merusak kompatibilitas dengan beberapa ekstensi.",
                 "modes": {
                     "runtime": "Runtime",
-                    "multi_file": "Multi file"
+                    "multi_file": "Banyak file"
                 },
                 "frequency": {
                     "hourly": "Per jam",
@@ -31,7 +31,7 @@
                     "help": "Jika model tidak memiliki atau hanya memiliki sedikit konten yang relevan, Google dan crawler lainnya dapat menandainya sebagai halaman \"soft 404\". Untuk menghilangkan hal ini, tetapkan jumlah minimum item yang diperlukan untuk setiap item yang memenuhi syarat di sini.",
                     "user": {
                         "comments": {
-                            "minimum_item_threshold_label": "User: Jumlah minimum komentar/postingan",
+                            "minimum_item_threshold_label": "Pengguna: Jumlah minimum komentar/postingan",
                             "minimum_item_threshold_help": "Jumlah minimum komentar/postingan yang harus dimiliki seorang pengguna agar profil mereka dapat dimasukkan ke dalam sitemap."
                         }
                     },
