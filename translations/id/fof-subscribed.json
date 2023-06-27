@@ -29,18 +29,18 @@
         },
         "email": {
             "subject": {
-                "newDiscussion": "[Subscribed | New Discussion] {title}",
-                "newUser": "[Subscribed | New User] {username}",
+                "newDiscussion": "[Berlangganan | Diskusi Baru] {title}",
+                "newUser": "[Berlangganan | Pengguna Baru] {username}",
                 "postUnapproved": "[Subscribed | Unapproved] {username} diposting di {title}",
                 "postCreated": "[Subscribed | New Post] {username} menulis post baru di {title}",
                 "postFlagged": "[Subscribed | New Flag] {username} telah menandai post dengan {title}"
             },
             "body": {
-                "newDiscussion": "Hey {recipient_display_name},\n\n{actor_display_name} started a new discussion: {discussion_title}\n\nTo view this new discussion, check out the following link:\n{discussion_url}\n\n---\n\n{post_content}\n",
-                "newUser": "Hey {recipient_display_name},\n\n{actor_display_name} just joined {forum_url}.\n\nTo view this new user's profile, check out the following link:\n{user_url}\n",
-                "postUnapproved": "Hey {recipient_display_name},\n\n{actor_display_name} created a post that wasn't automatically approved in {discussion_title}\n\nTo view this new post, check out the following link:\n{post_url}\n\n---\n\n{post_content}\n",
-                "postCreated": "Hey {recipient_display_name},\n\n{actor_display_name} just created a new post in {discussion_title}\n\nTo view this new post, check out the following link:\n{post_url}\n\n---\n\n{post_content}\n",
-                "postFlagged": "Hey {recipient_display_name},\n\n{actor_display_name} just flagged a post in {discussion_title}\n\nTo view this post, check out the following link:\n{post_url}\n"
+                "newDiscussion": "Hai {recipient_display_name},\n\n{actor_display_name} memulai diskusi baru: {discussion_title}\n\nUntuk melihat diskusi baru ini, lihat link berikut:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "Hai {recipient_display_name},\n\n{actor_display_name} baru saja bergabung dengan {forum_url}.\n\nUntuk melihat profil pengguna baru ini, lihat link berikut:\n{user_url}\n",
+                "postUnapproved": "Hai {recipient_display_name},\n\n{actor_display_name} membuat postingan yang tidak disetujui secara otomatis di {discussion_title}\n\nUntuk melihat postingan baru ini, lihat link berikut:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postCreated": "Hai {recipient_display_name},\n\n{actor_display_name} baru saja membuat postingan baru di {discussion_title}\n\nUntuk melihat postingan baru ini, lihat link berikut:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postFlagged": "Hai {recipient_display_name},\n\n{actor_display_name} baru saja menandai postingan di {discussion_title}\n\nUntuk melihat postingan ini, lihat link berikut:\n{post_url}\n"
             }
         }
     }
