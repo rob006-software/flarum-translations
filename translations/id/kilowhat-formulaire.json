@@ -47,7 +47,7 @@
                     "discussionComposer": "Area Pengeditan Diskusi"
                 },
                 "uniformComposerLayout": "Tata letak penulisan diskusi yang seragam",
-                "uniformComposerLayoutHelp": "Mengubah gaya tag, judul, dan bidang konten agar sesuai dengan Formulaire. Tata letak ini akan membutuhkan lebih banyak ruang, jadi Anda disarankan untuk menginstal dan mengaktifkan ekstensi <a>Halaman Penulisan</a>.\n"
+                "uniformComposerLayoutHelp": "Mengubah gaya tag, judul, dan bidang konten agar sesuai dengan Formulaire. Tata letak ini akan membutuhkan lebih banyak ruang, jadi Anda disarankan untuk menginstal dan mengaktifkan ekstensi <a>Composer Page</a>.\n"
             }
         },
         "forum": {
@@ -143,7 +143,7 @@
             "form-edit": {
                 "warnings": {
                     "show-on-signup-invalid-permissions": "",
-                    "show-on-composer-invalid-permissions": "",
+                    "show-on-composer-invalid-permissions": "Pastikan izin \"lihat sendiri\" dan \"edit sendiri\" sesuai dengan siapa yang dapat memulai diskusi dengan tag yang dipilih untuk menggunakan \"tampilkan di area penulisan\". Atur ke \"anggota\" jika tidak yakin. Pesan ini dapat muncul meskipun pengaturan Anda sudah benar.\n",
                     "linked-form-is-draft": "",
                     "auto-link-permission-warning": ""
                 },
@@ -156,8 +156,8 @@
                     "link": "",
                     "title": "",
                     "show-on-creation": {
-                        "discussion": "",
-                        "discussionHelp": "",
+                        "discussion": "Tampilkan dalam area penulisan diskusi",
+                        "discussionHelp": "Area penulisan diskusi Flarum tidak cocok untuk memuat banyak kolom. Anda harus menginstal dan mengaktifkan ekstensi <a>Composer Page</a> untuk memastikan semua kolom tetap dapat diakses di semua perangkat.\n",
                         "user": ""
                     },
                     "automatic-discussion": "",
