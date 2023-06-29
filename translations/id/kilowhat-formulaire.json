@@ -15,16 +15,16 @@
                 "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion",
                 "create": "",
                 "moderate": "",
-                "export": "",
+                "export": "Mengekspor data pengajuan",
                 "exportUserDetails": "Mengakses data pribadi pengguna dalam ekspor",
                 "listForms": "Melihat daftar form yang tidak dihapus",
                 "listSubmissions": ""
             },
             "settings": {
                 "title": "",
-                "max-file-size": "Ukuran file maksimum (kB)",
-                "history-controls": "",
-                "side-nav-on-submission": "",
+                "max-file-size": "Ukuran file maks (kB)",
+                "history-controls": "Tampilkan kontrol undo/redo pada halaman pengajuan",
+                "side-nav-on-submission": "Tampilkan navigasi samping pada halaman pengajuan",
                 "checkbox-style": "Gaya kotak centang",
                 "radio-style": "Gaya radio",
                 "style-options": {
@@ -160,7 +160,7 @@
                         "discussionHelp": "Area penulisan diskusi Flarum tidak cocok untuk memuat banyak kolom. Anda harus menginstal dan mengaktifkan ekstensi <a>Composer Page</a> untuk memastikan semua kolom tetap dapat diakses di semua perangkat.\n",
                         "user": ""
                     },
-                    "automatic-discussion": "",
+                    "automatic-discussion": "Secara otomatis membuat diskusi dari form pengajuan",
                     "automatic-discussion-help": "Ketika diaktifkan, formulir akan terus dapat diakses seperti formulir mandiri. Kiriman akan secara otomatis dibuat dan terhubung dengan diskusi baru.\n",
                     "accept-submissions": "",
                     "allow-modification": "",
@@ -169,10 +169,10 @@
                     "send-confirmation-to-participants": "Mengirimkan email konfirmasi kepada peserta",
                     "notify-emails": "Kirimkan salinan data ke email yang dipisahkan dengan koma tersebut",
                     "web-confirmation-message": "Pesan konfirmasi di web (pemformatan diaktifkan)",
-                    "permission-see-own": "",
-                    "permission-see-any": "",
-                    "permission-edit-own": "",
-                    "permission-edit-any": ""
+                    "permission-see-own": "Melihat pengajuan sendiri",
+                    "permission-see-any": "Melihat pengajuan apa pun",
+                    "permission-edit-own": "Mengedit pengajuan sendiri",
+                    "permission-edit-any": "Mengedit pengajuan apa pun"
                 },
                 "link-options": {
                     "standalone": "",
@@ -208,7 +208,7 @@
                 }
             },
             "save-controls": {
-                "validation-errors": "",
+                "validation-errors": "Kami menemukan beberapa kesalahan dalam pengajuan Anda",
                 "unsaved-changes": "Anda memiliki perubahan yang belum disimpan",
                 "saved-at": "Disimpan {ago}",
                 "undo": "",
@@ -225,7 +225,7 @@
                 "add-field": "",
                 "title": "Judul",
                 "description": "Deskripsi",
-                "key": "",
+                "key": "(Expert) Kunci JSON dalam payload pengajuan",
                 "fill-permission": "",
                 "required": "",
                 "rich": "",
@@ -256,7 +256,7 @@
             "options-editor": {
                 "columns": {
                     "title": "Judul",
-                    "key": ""
+                    "key": "(Expert) Kunci unik"
                 },
                 "remove": "Hapus opsi",
                 "new-placeholder": "Opsi baru..."
@@ -283,11 +283,11 @@
                 "form-closed": "",
                 "form-full": "",
                 "edit-forbidden": "",
-                "submitted-successfully": "",
-                "edit-submission": "",
+                "submitted-successfully": "Pengajuan Anda telah berhasil dikirim.",
+                "edit-submission": "Edit pengajuan",
                 "submit-other": "Submit yang lain",
-                "unlock": "",
-                "lock": "",
+                "unlock": "Buka Kunci",
+                "lock": "Kunci",
                 "restore": "Pulihkan",
                 "hide": "Hapus",
                 "delete": "Hapus permanen",
@@ -295,12 +295,12 @@
             },
             "submission-index": {
                 "form-edit": "",
-                "form-show": "",
+                "form-show": "Pengajuan baru",
                 "show": "Tampilkan",
                 "guest": "",
                 "load-more": "Muat lebih banyak",
-                "empty": "",
-                "search": "",
+                "empty": "Belum ada pengajuan",
+                "search": "Cari pengajuan...",
                 "export": "Ekspor",
                 "columns": {
                     "date": "",
@@ -319,8 +319,8 @@
                 "notfound-description": "Konten ini bisa jadi tidak ada, atau mungkin Anda tidak memiliki akses ke sana."
             },
             "submission-sort": {
-                "latest": "",
-                "oldest": ""
+                "latest": "Pengajuan terbaru",
+                "oldest": "Pengajuan terlama"
             },
             "form-sort": {
                 "latest": "",
@@ -383,7 +383,7 @@
         "api": {
             "formatter-parsing-error": "Tidak dapat mem-parse konten: {message}",
             "not-allowed-to-fill-field": "",
-            "duplicate-field-key": "",
+            "duplicate-field-key": "Kunci harus unik",
             "cannot-change-form-type": "",
             "unknown-form": "",
             "unauthorized-form": "",
