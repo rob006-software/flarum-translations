@@ -679,7 +679,7 @@
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Hai {username}!\n\nSeseorang (mudah-mudahan Anda!) telah mengirimkan permintaan lupa password untuk akun Anda di {forum}.\n\nJika ini adalah Anda, klik link berikut untuk mereset password Anda:\n{url}\n\nJika Anda tidak ingin mengganti password Anda, abaikan saja email ini dan tidak akan terjadi apa-apa.\n"
+                "body": "Hai {username}!\n\nSeseorang (mudah-mudahan Anda!) telah mengajukan permintaan lupa password untuk akun Anda di {forum}.\n\nJika ini adalah Anda, klik link berikut untuk mereset password Anda:\n{url}\n\nJika Anda tidak ingin mengganti password Anda, abaikan saja email ini dan tidak akan terjadi apa-apa.\n"
             },
             "send_test": {
                 "subject": "Tes Email Flarum",
