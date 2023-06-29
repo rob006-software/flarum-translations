@@ -13,15 +13,15 @@
                 "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
                 "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
                 "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion",
-                "create": "",
-                "moderate": "",
+                "create": "Membuat formulir (beta)",
+                "moderate": "Memoderasi semua formulir",
                 "export": "Mengekspor data pengajuan",
                 "exportUserDetails": "Mengakses data pribadi pengguna dalam ekspor",
                 "listForms": "Melihat daftar formulir yang tidak dihapus",
                 "listSubmissions": "Melihat daftar pengajuan"
             },
             "settings": {
-                "title": "",
+                "title": "Pengaturan global formulir",
                 "max-file-size": "Ukuran file maks (kB)",
                 "history-controls": "Tampilkan kontrol undo/redo pada halaman pengajuan",
                 "side-nav-on-submission": "Tampilkan navigasi samping pada halaman pengajuan",
@@ -65,12 +65,12 @@
                     "discussion": "=> kilowhat-formulaire.ref.type.discussion",
                     "user": "=> kilowhat-formulaire.ref.type.user"
                 },
-                "empty": "Tidak ada form",
+                "empty": "Tidak ada formulir",
                 "load-more": "Muat lebih banyak",
-                "search": "",
-                "new": "",
+                "search": "Cari formulir...",
+                "new": "Formulir baru",
                 "edit": "Edit",
-                "show": "",
+                "show": "Tampilkan",
                 "submissions": "Pengajuan",
                 "columns": {
                     "title": "Judul",
@@ -97,16 +97,16 @@
                 }
             },
             "form-create": {
-                "title": "Form baru",
+                "title": "Formulir baru",
                 "field": {
                     "title": "Judul"
                 },
                 "button": {
-                    "create": "Buat form"
+                    "create": "Buat formulir"
                 }
             },
             "form-edit-header": {
-                "back": "",
+                "back": "Kembali",
                 "category": {
                     "standalone": "=> kilowhat-formulaire.ref.type.standalone",
                     "discussion": "=> kilowhat-formulaire.ref.type.discussion",
@@ -134,7 +134,7 @@
                 "restore": "Pulihkan",
                 "hide": "Hapus",
                 "delete": "Hapus permanen",
-                "delete-confirmation": "",
+                "delete-confirmation": "Formulir \"{title}\" akan dihapus secara permanen",
                 "fields": {
                     "private-title": "",
                     "slug": ""
@@ -144,8 +144,8 @@
                 "warnings": {
                     "show-on-signup-invalid-permissions": "",
                     "show-on-composer-invalid-permissions": "Pastikan izin \"lihat sendiri\" dan \"edit sendiri\" sesuai dengan siapa yang dapat memulai diskusi dengan tag yang dipilih untuk menggunakan \"tampilkan di area penulisan\". Atur ke \"anggota\" jika tidak yakin. Pesan ini dapat muncul meskipun pengaturan Anda sudah benar.\n",
-                    "linked-form-is-draft": "",
-                    "auto-link-permission-warning": ""
+                    "linked-form-is-draft": "Formulir ini saat ini dalam mode konsep. Aktifkan di bawah \"Akses\" agar kolom dapat muncul di forum.\n",
+                    "auto-link-permission-warning": "Formulir dengan opsi \"secara otomatis membuat diskusi\" menggunakan izin pengisian global ketika diakses secara mandiri.\n"
                 },
                 "expert-mode-warning": "Mode expert diaktifkan. Hal ini memungkinkan Anda untuk menyesuaikan pengenal kolom dan izin per kolom. Pastikan Anda membaca dokumentasi tentang fitur-fitur tersebut, karena Anda mungkin akan merusaknya!\n",
                 "section": {
@@ -153,15 +153,15 @@
                     "permissions": "Perizinan"
                 },
                 "field": {
-                    "link": "",
+                    "link": "Jenis formulir khusus",
                     "title": "",
                     "show-on-creation": {
                         "discussion": "Tampilkan dalam area penulisan diskusi",
                         "discussionHelp": "Area penulisan diskusi Flarum tidak cocok untuk memuat banyak kolom. Anda harus menginstal dan mengaktifkan ekstensi <a>Composer Page</a> untuk memastikan semua kolom tetap dapat diakses di semua perangkat.\n",
                         "user": ""
                     },
-                    "automatic-discussion": "Secara otomatis membuat diskusi dari form pengajuan",
-                    "automatic-discussion-help": "Ketika diaktifkan, form akan terus dapat diakses seperti form mandiri. Pengajuan akan secara otomatis dibuat dan terhubung dengan diskusi baru.\n",
+                    "automatic-discussion": "Secara otomatis membuat diskusi dari formulir pengajuan",
+                    "automatic-discussion-help": "Ketika diaktifkan, formulir akan terus dapat diakses seperti formulir mandiri. Pengajuan akan secara otomatis dibuat dan terhubung dengan diskusi baru.\n",
                     "accept-submissions": "Terima pengajuan baru",
                     "allow-modification": "Izinkan pengguna untuk mengedit pengajuan mereka yang sudah ada",
                     "enable": "Aktifkan",
@@ -190,12 +190,12 @@
             },
             "auto-discussion-options-modal": {
                 "title": "Opsi diskusi otomatis",
-                "introduction": "Pengaturan ini akan berlaku untuk diskusi baru yang telah dibuat secara otomatis dengan mengirimkan form yang terhubung dengan tag. Anda dapat menggunakan nilai dari pengiriman form menggunakan sintaksis kurung kurawal dengan field slug. Secara default, { title } dan { content } akan digunakan secara berurutan.\n",
+                "introduction": "Pengaturan ini akan berlaku untuk diskusi baru yang telah dibuat secara otomatis dengan mengirimkan formulir yang terhubung dengan tag. Anda dapat menggunakan nilai dari formulir pengajuan menggunakan sintaksis kurung kurawal dengan slug kolom. Secara default, { title } dan { content } akan digunakan secara berurutan.\n",
                 "submit": "Validasi perubahan",
                 "field": {
                     "title": "Judul diskusi",
                     "tags": "Tag diskusi",
-                    "tags-help": "",
+                    "tags-help": "Daftar slug tag yang dipisahkan dengan koma. Tag yang dipilih akan ditambahkan sebagai tambahan pada tag yang terhubung dengan formulir ini.\n",
                     "content": ""
                 }
             },
@@ -282,7 +282,7 @@
             "submission": {
                 "form-closed": "",
                 "form-full": "Formulir ini telah mencapai jumlah maksimum pengumpulan.",
-                "edit-forbidden": "",
+                "edit-forbidden": "Anda tidak dapat lagi mengedit pengajuan ini.",
                 "submitted-successfully": "Pengajuan Anda telah berhasil dikirim.",
                 "edit-submission": "Edit pengajuan",
                 "submit-other": "Ajukan yang lain",
@@ -294,7 +294,7 @@
                 "delete-confirmation": "Pengajuan dari {date} akan dihapus secara permanen"
             },
             "submission-index": {
-                "form-edit": "",
+                "form-edit": "Edit formulir",
                 "form-show": "Pengajuan baru",
                 "show": "Tampilkan",
                 "guest": "Tamu",
@@ -323,11 +323,11 @@
                 "oldest": "Pengajuan terlama"
             },
             "form-sort": {
-                "latest": "",
-                "oldest": ""
+                "latest": "Formulir baru",
+                "oldest": "Formulir paling lama"
             },
             "export": {
-                "title": "Ekspor pengajuan",
+                "title": "",
                 "format": "Format",
                 "heading": "",
                 "fields": "",
@@ -362,7 +362,7 @@
                     "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
                 },
                 "preview-primitives": {
-                    "excel-date": "",
+                    "excel-date": "(EXCEL DATE)",
                     "boolean-true": "True",
                     "boolean-false": "False"
                 }
@@ -417,12 +417,12 @@
         "ref": {
             "manager": "",
             "type": {
-                "standalone": "",
+                "standalone": "Formulir mandiri",
                 "discussion": "",
                 "user": "Profil pengguna"
             },
             "permissions": {
-                "fill": "",
+                "fill": "Isi formulir mandiri",
                 "seeOwnUser": "Melihat kolom profil sendiri",
                 "seeAnyUser": "Melihat kolom profil siapa pun",
                 "editOwnUser": "Mengedit kolom profil sendiri",
