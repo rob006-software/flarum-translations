@@ -6,6 +6,13 @@
         "admin": {
             "permissions": {
                 "view_ip_info_label": "Display IP Info"
+            },
+            "service": {
+                "label": "Service",
+                "ipsb": {
+                    "label": "IP.SB",
+                    "description": "Use <b>https://ip.sb</b> to get free IP location information (please note the rate limit)"
+                }
             }
         }
     }
