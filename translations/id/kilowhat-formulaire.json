@@ -17,8 +17,8 @@
                 "moderate": "",
                 "export": "Mengekspor data pengajuan",
                 "exportUserDetails": "Mengakses data pribadi pengguna dalam ekspor",
-                "listForms": "Melihat daftar form yang tidak dihapus",
-                "listSubmissions": ""
+                "listForms": "Melihat daftar formulir yang tidak dihapus",
+                "listSubmissions": "Melihat daftar pengajuan"
             },
             "settings": {
                 "title": "",
@@ -35,7 +35,7 @@
                     "switch": "",
                     "native": "Kontrol browser bawaan"
                 },
-                "horizontal-layout": "Gunakan tata letak form horizontal",
+                "horizontal-layout": "Gunakan tata letak formulir horizontal",
                 "horizontal-layout-locations": {
                     "standaloneEdit": "",
                     "standaloneView": "Halaman Tampilan Mandiri",
@@ -71,13 +71,13 @@
                 "new": "",
                 "edit": "Edit",
                 "show": "",
-                "submissions": "",
+                "submissions": "Pengajuan",
                 "columns": {
                     "title": "Judul",
                     "accept-submissions": "",
                     "allow-modification": "Modifikasi",
                     "enabled": "Diaktifkan",
-                    "submissions": "",
+                    "submissions": "Pengajuan",
                     "actions": "Tindakan"
                 }
             },
@@ -117,7 +117,7 @@
                     "placement": "",
                     "access": "Akses",
                     "notifications": "Notifikasi",
-                    "submissions": ""
+                    "submissions": "Pengajuan"
                 },
                 "access-status": {
                     "closed": "",
@@ -161,11 +161,11 @@
                         "user": ""
                     },
                     "automatic-discussion": "Secara otomatis membuat diskusi dari form pengajuan",
-                    "automatic-discussion-help": "Ketika diaktifkan, formulir akan terus dapat diakses seperti formulir mandiri. Kiriman akan secara otomatis dibuat dan terhubung dengan diskusi baru.\n",
-                    "accept-submissions": "",
-                    "allow-modification": "",
+                    "automatic-discussion-help": "Ketika diaktifkan, form akan terus dapat diakses seperti form mandiri. Pengajuan akan secara otomatis dibuat dan terhubung dengan diskusi baru.\n",
+                    "accept-submissions": "Terima pengajuan baru",
+                    "allow-modification": "Izinkan pengguna untuk mengedit pengajuan mereka yang sudah ada",
                     "enable": "Aktifkan",
-                    "max-submissions": "",
+                    "max-submissions": "Maks pengajuan (biarkan kosong untuk tidak terbatas)",
                     "send-confirmation-to-participants": "Mengirimkan email konfirmasi kepada peserta",
                     "notify-emails": "Kirimkan salinan data ke email yang dipisahkan dengan koma tersebut",
                     "web-confirmation-message": "Pesan konfirmasi di web (pemformatan diaktifkan)",
@@ -227,8 +227,8 @@
                 "description": "Deskripsi",
                 "key": "(Expert) Kunci JSON dalam payload pengajuan",
                 "fill-permission": "",
-                "required": "",
-                "rich": "",
+                "required": "Dibutuhkan",
+                "rich": "Rich text (TextFormatter)",
                 "min": "Minimum",
                 "max": "Maksimum",
                 "integer": "Bilangan bulat",
@@ -281,29 +281,29 @@
             },
             "submission": {
                 "form-closed": "",
-                "form-full": "",
+                "form-full": "Formulir ini telah mencapai jumlah maksimum pengumpulan.",
                 "edit-forbidden": "",
                 "submitted-successfully": "Pengajuan Anda telah berhasil dikirim.",
                 "edit-submission": "Edit pengajuan",
-                "submit-other": "Submit yang lain",
+                "submit-other": "Ajukan yang lain",
                 "unlock": "Buka Kunci",
                 "lock": "Kunci",
                 "restore": "Pulihkan",
                 "hide": "Hapus",
                 "delete": "Hapus permanen",
-                "delete-confirmation": ""
+                "delete-confirmation": "Pengajuan dari {date} akan dihapus secara permanen"
             },
             "submission-index": {
                 "form-edit": "",
                 "form-show": "Pengajuan baru",
                 "show": "Tampilkan",
-                "guest": "",
+                "guest": "Tamu",
                 "load-more": "Muat lebih banyak",
                 "empty": "Belum ada pengajuan",
                 "search": "Cari pengajuan...",
                 "export": "Ekspor",
                 "columns": {
-                    "date": "",
+                    "date": "Tanggal",
                     "user": "Pengguna",
                     "actions": "Tindakan"
                 }
@@ -327,7 +327,7 @@
                 "oldest": ""
             },
             "export": {
-                "title": "",
+                "title": "Ekspor pengajuan",
                 "format": "Format",
                 "heading": "",
                 "fields": "",
@@ -384,12 +384,12 @@
             "formatter-parsing-error": "Tidak dapat mem-parse konten: {message}",
             "not-allowed-to-fill-field": "",
             "duplicate-field-key": "Kunci harus unik",
-            "cannot-change-form-type": "",
+            "cannot-change-form-type": "Anda tidak dapat mengubah jenis formulir yang sudah ada pengajuannya",
             "unknown-form": "",
             "unauthorized-form": "",
             "unauthorized-scoped-form": "",
             "file-already-belongs-form": "",
-            "file-already-belongs-submission": "",
+            "file-already-belongs-submission": "File {id} milik pengajuan lain",
             "export": {
                 "meta": {
                     "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
@@ -407,11 +407,11 @@
             }
         },
         "mail": {
-            "title-your-submission": "",
-            "title-new-submission": "",
+            "title-your-submission": "Pengajuan Anda untuk {title}",
+            "title-new-submission": "Pengajuan baru untuk {title}",
             "edit": "Edit",
-            "footer": "",
-            "sub-entries": "",
+            "footer": "Dikirim dari {title}",
+            "sub-entries": "{count} entri",
             "no-answer": "Tidak ada jawaban"
         },
         "ref": {
@@ -433,13 +433,13 @@
                 "editAnyDiscussion": "Mengedit semua kolom diskusi"
             },
             "submission-meta": {
-                "uid": "",
-                "user_id": "",
+                "uid": "ID Pengajuan",
+                "user_id": "ID Pengguna",
                 "user_username": "=> core.ref.username",
                 "user_displayname": "Nama Tampilan Pengguna",
                 "user_email": "Email Pengguna",
                 "user_activated": "Akun Aktif",
-                "link_id": "",
+                "link_id": "ID sumber daya yang ditautkan",
                 "locked_at": "",
                 "created_at": "Tanggal Pembuatan",
                 "updated_at": "Tanggal Pembaruan",
