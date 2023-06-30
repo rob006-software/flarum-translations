@@ -15,72 +15,72 @@
                 "custom_styles_heading": "Fərdi Stillər",
                 "custom_styles_text": "Flarum-un standart üslublarının üstünə tətbiq olunacaq öz Less/CSS kodunuzu əlavə etməklə forumunuzun görünüşünü fərdiləşdirin.",
                 "dark_mode_label": "Qaranlıq rejim",
-                "description": "Forumunuzun rənglərini, loqotiplərini və digər dəyişənlərini fərdiləşdirin.",
-                "edit_css_button": "Özəl görünüşü redaktə et (CSS)",
+                "description": "Forumunuzun rənglərini, loqolarını və digər dəyişənlərini fərdiləşdirin.",
+                "edit_css_button": "Fərdi CSS-i redaktə et",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
-                "enter_hex_message": "Zəhmət olmasa rəng kodu daxil edin.",
+                "enter_hex_message": "Zəhmət olmasa onaltılıq (hexadecimal) rəng kodu daxil edin.",
                 "favicon_heading": "Favicon",
-                "favicon_text": "Favicon yüklə",
+                "favicon_text": "Forumun qısayol simvolu kimi göstəriləcək bir şəkil yükləyin (favikon).",
                 "logo_heading": "Loqo",
-                "logo_text": "Loqo yüklə",
+                "logo_text": "Forumun başlığının yerinə göstəriləcək bir şəkil yükləyin (Loqo).",
                 "title": "Görünüş"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
-                "default_language_heading": "Varsayılan Dil",
-                "description": "Forum adınızı, dilinizi və digər əsas parametrlərinizi təyin edin.",
-                "display_name_heading": "İstifadəçinin Göstərilən Adı",
-                "display_name_text": "İstifadəçilərin görünən adları üçün istifadə edilməli olan sürücünü seçin. Varsayılan olaraq, istifadəçi adı göstərilir.",
-                "forum_description_heading": "Forum Təsviri",
-                "forum_description_text": "Cəmiyyətinizi təsvir edən qısa bir və ya iki cümlə daxil edin. Bu meta etiketdə görünəcək və axtarış motorlarında görünəcək.",
+                "default_language_heading": "Hazırki Dil",
+                "description": "Forumun başlığını, dilini və digər əsas parametrlərinizi təyin edin.",
+                "display_name_heading": "İstifadəçinin Görünən Adı",
+                "display_name_text": "İstifadəçilərin ekran adları üçün istifadə edilməli olan sürücünü seçin. Standart olaraq istifadəçi adı göstərilir.",
+                "forum_description_heading": "Forum Açıqlaması",
+                "forum_description_text": "İcmanızı (forum istifadəçilərini) təsvir edən qısa bir və ya iki cümlə daxil edin. Bu meta etiketdə görünəcək və axtarış motorlarında çıxacaq.",
                 "forum_title_heading": "Forum Başlığı",
                 "home_page_heading": "Ana Səhifə",
-                "home_page_text": "İstifadəçilər forumunuzu ziyarət etdikdə ilk olaraq görəcəkləri səhifəni seçin.",
-                "show_language_selector_label": "Dil seçimini göstərin",
-                "slug_driver_heading": "Sürücü",
-                "slug_driver_text": "Bu modeli bağlamaq üçün istifadə ediləcək bir sürücü seçin.",
+                "home_page_text": "İstifadəçilərin forumunuzu ziyarət etdikdə ilk görəcəyi səhifəni seçin.",
+                "show_language_selector_label": "Dil seçicisini göstər",
+                "slug_driver_heading": "Slug Sürücü (Slug Driver): {model}",
+                "slug_driver_text": "Bu modeldə \"Slugging\" üçün istifadə ediləcək bir sürücü seçin.",
                 "title": "Əsaslar",
-                "welcome_banner_heading": "Salamlama banneri",
-                "welcome_banner_text": "Bütün Müzakirələr səhifəsindəki bannerdə görünən mətni konfiqurasiya edin. Qonaqlarınızı forumunuza salamlamaq üçün bundan istifadə edin."
+                "welcome_banner_heading": "Xoş gəlmisiniz Banneri",
+                "welcome_banner_text": "\"Bütün Müzakirələr\" səhifəsindəki bannerdə göstərilən mətni redaktə edin. Forumunuza yeni gələnləri qarşılamaq üçün bundan istifadə edin."
             },
             "create_user": {
-                "email_placeholder": "",
-                "email_confirmed_label": "",
-                "password_placeholder": "",
-                "submit_and_create_another_button": "",
-                "submit_button": "",
-                "title": "",
-                "use_random_password": "",
-                "username_placeholder": ""
+                "email_placeholder": "=> core.ref.email",
+                "email_confirmed_label": "İstifadəçidən bu e-poçtu təsdiqləməsini tələb et",
+                "password_placeholder": "=> core.ref.password",
+                "submit_and_create_another_button": "Yarat və başqasını əlavə et",
+                "submit_button": "İstifadəçi yarat",
+                "title": "Yeni istifadəçi yarat",
+                "use_random_password": "Təsadüfi şifrə yarat",
+                "username_placeholder": "=> core.ref.username"
             },
             "dashboard": {
-                "clear_cache_button": "Keşi təmizlə",
-                "description": "Forumunuz bir baxışda.",
-                "io_error_message": "Fayl sistemdə yaddaş yazıla bilmədi. Zəhmət olmasa fayl sistem icazələrini yoxlayıb yenidən cəhd edin. Yaxud komanda sətrindən icra etməyi yoxlayın.",
+                "clear_cache_button": "Keşi Təmizlə",
+                "description": "Bir baxışda forumunuz.",
+                "io_error_message": "Fayl sisteminə yazmaq mümkün olmadı. Fayl sistemi icazələrinizi yoxlayın və yenidən cəhd edin. Və ya komanda sətrindən icra etməyi yoxlayın.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "scheduler-status": "Planlayıcı",
+                        "queue-driver": "Növbə Sürücüsü",
+                        "session-driver": "Sessiya Sürücüsü"
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "Aktiv",
+                        "inactive": "Qeyri-aktiv",
+                        "never-run": "Heç vaxt çalışdırma"
                     }
                 },
                 "title": "Panel",
                 "tools_button": "Alətlər"
             },
             "debug-warning": {
-                "detail": "",
-                "label": "Sazlama rejimi aktivdir"
+                "detail": "<code>debug</code> rejimi aktiv olduqda, Flarum hər sorğuda öz <code>JavaScript</code> və <code>CSS</code> varlıqlarını bərpa edəcək və həmçinin potensial olaraq verilənlər bazası sirləri, mühit dəyişənləri və s. kimi məlumatları sızdıra bilər.\n\nİstehsalda olan <code>config.php</code> faylınızda <code>debug</code>-u deaktiv etmək böyük ölçüdə tövsiyə olunur. Ətraflı məlumat üçün <link>Flarum docs</link>-ə baxın.\n",
+                "label": "Sazlama (Debug) rejimi aktivdir"
             },
             "edit_css": {
-                "customize_text": "Flarum -un üstünə tətbiq olunacaq öz CSS kodunuzu əlavə edərək forumunuzun görünüşünü fərdiləşdirin <a>Standart stil</a>.",
+                "customize_text": "Flarumun <a>defolt üslubları</a> üzərinə tətbiq olunacaq Less/CSS kodunuzu əlavə etməklə forumunuzun görünüşünü fərdiləşdirin.",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Xüsusi CSS -ni redaktə edin"
+                "title": "Fərdi CSS-i redaktə edin"
             },
             "edit_footer": {
                 "customize_text": "=> core.ref.custom_footer_text",
@@ -89,16 +89,16 @@
             },
             "edit_group": {
                 "color_label": "=> core.ref.color",
-                "delete_button": "Qrupu silin",
+                "delete_button": "Qrupu Sil",
                 "delete_confirmation": "Bu qrupu silmək istədiyinizə əminsiniz? Qrup üzvləri silinməyəcək.",
-                "hide_label": "Forumda gizlədin",
+                "hide_label": "Forumda gizlət",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "Ad",
-                "plural_placeholder": "Çoxluq",
-                "singular_placeholder": "Tək",
+                "plural_placeholder": "Cəm (məs. Modlar)",
+                "singular_placeholder": "Tək (məs. Mod)",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Qrup yarat"
+                "title": "Qrup Yarat"
             },
             "edit_header": {
                 "customize_text": "=> core.ref.custom_header_text",
@@ -107,7 +107,7 @@
             },
             "email": {
                 "addresses_heading": "Ünvanlar",
-                "description": "Sürücünü, parametrlərinizi və forumunuzun e -poçt göndərmək üçün istifadə edəcəyi ünvanları konfiqurasiya edin.",
+                "description": "Forumunuzun e-poçt göndərmək üçün istifadə edəcəyi sürücünü, parametrləri və ünvanları konfiqurasiya edin.",
                 "driver_heading": "Sürücü seçin",
                 "driver_label": "Sürücü",
                 "from_label": "Göndərən",
@@ -119,23 +119,23 @@
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Port",
                 "mail_username_label": "=> core.ref.username",
-                "mailgun_heading": "Mailgun Ayarları",
-                "not_sending_message": "Flarum hazırda e -poçt göndərmir. Bunun səbəbi seçilmiş sürücü və ya konfiqurasiyadakı səhvlər ola bilər.",
+                "mailgun_heading": "Mailgun Parametrləri",
+                "not_sending_message": "Flarum hazırda e-poçt göndərmir. Bunun səbəbi seçilmiş sürücü və ya onun konfiqurasiyasındakı səhvlər ola bilər.",
                 "send_test_mail_button": "Göndər",
-                "send_test_mail_heading": "Test poçtu göndərin",
+                "send_test_mail_heading": "Test poçtu göndər",
                 "send_test_mail_success": "Test poçtu uğurla göndərildi!",
-                "send_test_mail_text": "Bu, yuxarıdakı konfiqurasiyanı istifadə edərək, e -poçtunuza {email} göndərəcək.",
-                "smtp_heading": "SMTP ayarları",
+                "send_test_mail_text": "Bu, yuxarıdakı konfiqurasiyadan istifadə edərək {email} e-poçtunuza e-poçt göndərəcək.",
+                "smtp_heading": "SMTP Parametrləri",
                 "title": "=> core.ref.email"
             },
             "extension": {
                 "configure_scopes": "Əhatə dairələrini konfiqurasiya edin",
-                "confirm_purge": "",
-                "disabled": "Deaktiv edildi",
+                "confirm_purge": "Təmizləmə bütün verilənlər bazası qeydlərini və uzantı ilə əlaqəli varlıqları siləcək. O, uzantını silməyəcək; Bu Composer vasitəsilə edilməlidir. Davam etmək istədiyinizə əminsiniz?",
+                "disabled": "Qeyri-aktiv",
                 "enable_to_see": "Parametrləri görmək və dəyişdirmək üçün uzantını aktiv edin.",
-                "enabled": "Aktiv edildi",
+                "enabled": "Aktivdir",
                 "info_links": {
-                    "discuss": "Müzakirə",
+                    "discuss": "Müzakirə et",
                     "documentation": "Sənədlər",
                     "donate": "Bizə dəstək ol",
                     "source": "Mənbə",
@@ -143,20 +143,20 @@
                     "website": "Veb sayt"
                 },
                 "no_permissions": "Bu uzantının heç bir icazəsi yoxdur.",
-                "no_settings": "Bu uzantının heç bir ayarı yoxdur.",
-                "open_modal": "Ayarları açın",
+                "no_settings": "Bu uzantıda heç bir parametr yoxdur.",
+                "open_modal": "Parametrləri açın",
                 "permissions_title": "İcazələr",
                 "purge_button": "Təmizlə",
                 "readme": {
                     "button_label": "OXUYUN",
-                    "no_readme": "Bu genişlənmədə \"OXUYUN ( README) \" faylı yoxdur",
+                    "no_readme": "Bu uzantıda \"OXUYUN (README)\" faylı yoxdur",
                     "title": "{extName} sənədləri"
                 },
                 "confirm_uninstall": "Silinmə, uzantı ilə əlaqəli bütün verilənlər bazası girişlərini və aktivlərini siləcək. Davam etmək istədiyinizə əminsiniz?",
                 "uninstall_button": "Silin"
             },
             "header": {
-                "get_help": "Kömək",
+                "get_help": "Kömək al",
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
@@ -168,14 +168,14 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
-                    "authentication": "İdentifikasiyası",
+                    "authentication": "İdentifikasiya",
                     "core": "Əsas Konfiqurasiya",
                     "discussion": "Müzakirə",
                     "feature": "Xüsusiyyətlər",
                     "formatting": "Formatlama",
                     "language": "Dillər",
                     "moderation": "Moderasiya",
-                    "other": "Digər uzantılar",
+                    "other": "Digər Uzantılar",
                     "theme": "Mövzular"
                 },
                 "dashboard_button": "=> core.admin.dashboard.title",
@@ -189,42 +189,42 @@
                 "search_placeholder": "Uzantıları Axtar"
             },
             "permissions": {
-                "allow_hide_own_posts_label": "",
-                "allow_post_editing_label": "Yazı redaktəsinə icazə verin",
-                "allow_renaming_label": "Adının dəyişdirilməsinə icazə verin",
-                "create_access_token_label": "",
+                "allow_hide_own_posts_label": "Öz postlarını silməyə icazə ver",
+                "allow_post_editing_label": "Postun redaktəsinə icazə ver",
+                "allow_renaming_label": "Adının dəyişdirilməsinə icazə ver",
+                "create_access_token_label": "Giriş nişanı (access token) yaradın",
                 "create_heading": "Yarat",
-                "delete_discussions_forever_label": "Müzakirələri əbədi olaraq silin",
-                "delete_discussions_label": "Müzakirələri silin",
-                "delete_posts_forever_label": "Yazıları həmişəlik silin",
-                "delete_posts_label": "Yazıları silin",
-                "description": "Kimin görə biləcəyini və nə edəcəyini təyin edin.",
-                "edit_posts_label": "Yazıları redaktə edin",
-                "edit_users_label": "İstifadəçi xüsusiyyətlərini redaktə edin",
-                "edit_users_credentials_label": "İstifadəçi məlumatlarını redaktə edin",
-                "edit_users_groups_label": "İstifadəçi qruplarını redaktə edin",
+                "delete_discussions_forever_label": "Müzakirələri həmişəlik sil",
+                "delete_discussions_label": "Müzakirələri sil",
+                "delete_posts_forever_label": "Postları həmişəlik sil",
+                "delete_posts_label": "Postları sil",
+                "description": "Kimin görə biləcəyini və nə edə biləcəyini təyin edin.",
+                "edit_posts_label": "Postları redaktə et",
+                "edit_users_label": "İstifadəçi atributlarını redaktə et",
+                "edit_users_credentials_label": "İstifadəçi məlumatlarını (credentials) redaktə et",
+                "edit_users_groups_label": "İstifadəçi qruplarını redaktə et",
                 "global_heading": "Qlobal",
                 "moderate_heading": "Orta",
-                "moderate_access_tokens_label": "",
+                "moderate_access_tokens_label": "Orta Giriş Nişanları (Access Tokens)",
                 "new_group_button": "Yeni Qrup",
                 "participate_heading": "İştirak et",
                 "post_without_throttle_label": "Gözləmədən dəfələrlə cavab verin",
-                "read_heading": "Oxuyun",
-                "rename_discussions_label": "Mövzuların adını dəyişin",
-                "reply_to_discussions_label": "Müzakirələrə cavab verin",
-                "search_users_label": "İstifadəçiləri axtarın",
-                "sign_up_label": "Qeydiyyatdan",
-                "start_discussions_label": "Mövzu aç",
+                "read_heading": "Oxu",
+                "rename_discussions_label": "Müzakirələrin adını dəyişdir",
+                "reply_to_discussions_label": "Müzakirələrə cavab ver",
+                "search_users_label": "=> core.ref.search_users",
+                "sign_up_label": "Qeydiyyatdan keç",
+                "start_discussions_label": "Müzakirələrə başla",
                 "title": "İcazələr",
-                "view_forum_label": "Foruma baxın (müzakirələr və istifadəçilər)",
-                "view_hidden_groups_label": "Gizli qrup nişanlarına baxın",
-                "view_last_seen_at_label": "İstifadəçinin son gördüyü vaxta həmişə baxın",
-                "view_post_ips_label": "Post IP ünvanlarına baxın"
+                "view_forum_label": "Forumu görüntülə (müzakirələr və istifadəçilər)",
+                "view_hidden_groups_label": "Gizli qrup nişanlarına bax",
+                "view_last_seen_at_label": "İstifadəçinin son görülmə vaxtına həmişə bax",
+                "view_post_ips_label": "Postun IP ünvanlarına bax"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Sonsuza qədər",
-                "allow_never_button": "",
-                "allow_some_minutes_button": "{count, plural, one {For # minute} basqa {For # minutes}}",
+                "allow_never_button": "=> core.ref.never",
+                "allow_some_minutes_button": "{count, plural, one {# dəqiqə ərzində} other {# dəqiqə ərzində}}",
                 "allow_ten_minutes_button": "10 dəqiqə ərzində",
                 "allow_until_reply_button": "Növbəti cavaba qədər",
                 "everyone_button": "Hər kəs",
@@ -233,7 +233,7 @@
                 "signup_open_button": "Aç"
             },
             "settings": {
-                "saved_message": "Dəyişiklikləriniz saxlanıldı.",
+                "saved_message": "Dəyişiklikləriniz yadda saxlanıldı.",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -241,12 +241,12 @@
                 "upload_button": "Şəkil seçin ..."
             },
             "users": {
-                "create_user_button": "",
+                "create_user_button": "Yeni istifadəçi",
                 "description": "Forumunuzdakı bütün istifadəçilərin səhifələnmiş siyahısı.",
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": ""
+                            "title": "Göstərilən ad"
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
@@ -255,8 +255,8 @@
                         },
                         "email": {
                             "title": "=> core.ref.email",
-                            "visibility_hide": "E -poçt ünvanını gizlət",
-                            "visibility_show": "E -poçt ünvanını göstərin"
+                            "visibility_hide": "E-poçt ünvanını gizlət",
+                            "visibility_show": "E-poçt ünvanını göstər"
                         },
                         "group_badges": {
                             "no_badges": "Heç biri",
@@ -266,7 +266,7 @@
                             "title": "Qoşuldu"
                         },
                         "user_id": {
-                            "title": "İD"
+                            "title": "ID"
                         },
                         "username": {
                             "profile_link_tooltip": "{username} profilini ziyaret edin",
