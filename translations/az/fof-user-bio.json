@@ -3,13 +3,13 @@
         "admin": {
             "permission": {
                 "view": "Bioya bax",
-                "editOwn": "Öz bioqramını redaktə et",
-                "editAny": "İstənilən bioqramı redaktə et"
+                "editOwn": "Öz bio-nu redaktə et",
+                "editAny": "İstənilən bio-nu redaktə et"
             },
             "setting": {
                 "bioLimit": "Bio xarakter limiti",
-                "allowFormatting": "",
-                "allowFormatting_help": ""
+                "allowFormatting": "Bio-da formatlamağa icazə verin",
+                "allowFormatting_help": "Dizaynına görə, bu formatlama yazı formatından ayrıdır. BBCode və/və ya Markdown genişləndirmələri aktivləşdirilərsə, onlar bionu formatlaşdırmaq üçün əlçatan olacaqlar. Heç bir şəkil və ya yerləşdirməyə icazə verilmir. Flarum formatlayıcısına əlavə edilən genişləndirmələr *açıqcasına* bio formatlayıcıya dəstək əlavə etməlidir."
             }
         },
         "forum": {
