@@ -2,65 +2,65 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "",
-                "profile-completed": ""
+                "profile-completion-required": "Zəhmət olmasa aşağıdakı profil sahələrini doldurun.\n",
+                "profile-completed": "Profil tamamlandı! <a>Əsas səhifəyə keçin</a>"
             },
             "buttons": {
-                "view-profile": "",
-                "edit-profile": "",
-                "save-profile": ""
+                "view-profile": "Profili görüntülə",
+                "edit-profile": "Profilə düzəliş et",
+                "save-profile": "Yadda saxla"
             },
             "fields": {
                 "select": {
-                    "none-optional": "",
-                    "none-required": ""
+                    "none-optional": "Heç bir seçim edilmədi (məcburi deyil)",
+                    "none-required": "Zəhmət olmasa, bir seçim edin (məcburi)"
                 },
                 "boolean": {
-                    "yes": "",
-                    "no": ""
+                    "yes": "Bəli",
+                    "no": "Xeyr"
                 }
             }
         },
         "admin": {
-            "general-options": "",
+            "general-options": "Ümumi seçimlər",
             "buttons": {
-                "add-field": "",
-                "edit-field": "",
-                "delete-field": ""
+                "add-field": "Sahə yaradın",
+                "edit-field": "Dəyişiklikləri yadda saxla",
+                "delete-field": "Sahəni silin"
             },
             "permissions": {
-                "edit-others-profile": "",
-                "have-profile": "",
-                "view-profile": ""
+                "edit-others-profile": "Digər istifadəçilərin profilini redaktə edin",
+                "have-profile": "Masquerade profilə sahib olun",
+                "view-profile": "Masquerade profilini görüntüləyin"
             },
             "fields": {
-                "title": "",
-                "add": "",
-                "edit": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "required": "",
-                "on_bio": "",
-                "type": "",
-                "validation": "",
-                "validation-help": "",
-                "prefix": "",
-                "prefix-help": "",
-                "icon": "",
-                "icon-help": "",
-                "force-user-to-completion": "",
-                "options": "",
-                "option-new": "",
-                "option-comma-warning": ""
+                "title": "Sahələr",
+                "add": "{field} sahəsi əlavə et",
+                "edit": "{field} sahəsini redaktə et",
+                "name": "Sahənin adı",
+                "name-help": "İctimai görünən (tərcümə olunmayan) sahə etiketi.\n",
+                "description": "Sahənin açıqlaması",
+                "description-help": "Bu sahənin istifadəsini/ehtiyacını izah etmək üçün əlavə təsvir.\n",
+                "required": "Sahəni \"məcburi\" olaraq işarələ",
+                "on_bio": "İstifadəçi biosunda bu sahənin cavabını göstərin",
+                "type": "Növ",
+                "validation": "Doğrulama",
+                "validation-help": "Dəstəklənən <a>Laravel doğrulama qaydalarını</a> yoxlayın. Məsələn: \"string|min:5\" və ya \"url\".\n",
+                "prefix": "Sahə prefiksi",
+                "prefix-help": "Bu sahə üçün istifadəçi tərəfindən daxil edilmiş məlumatların qarşısında prefiksinizi göstərir.\n",
+                "icon": "İkon",
+                "icon-help": "İstifadəçi tərəfindən daxil edilmiş dəyərlərin qarşısında işarəni göstərir. Mövcud ikonalara istinad üçün <a>FontAwesome veb saytına</a> baxın. \"fas fa-info\" kimi \"fa-\" prefiksi olan ikon adlarından istifadə edin.\n",
+                "force-user-to-completion": "İstifadəçini profili tamamlamağa məcbur edin",
+                "options": "Seçimlər",
+                "option-new": "Yeni seçim",
+                "option-comma-warning": "Seçim etiketində vergül (\",\") ola bilməz."
             },
             "types": {
-                "advanced": "",
-                "boolean": "",
-                "email": "",
-                "select": "",
-                "url": ""
+                "advanced": "Qabaqcıl",
+                "boolean": "Qeyd xanası",
+                "email": "E-poçt",
+                "select": "Açılan siyahı",
+                "url": "URL"
             }
         }
     }
