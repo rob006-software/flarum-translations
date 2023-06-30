@@ -2,27 +2,27 @@
     "fof-socialprofile": {
         "admin": {
             "permissions": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "Sosial profili görüntülə",
+                "editOwn": "Öz sosial profilini redaktə et",
+                "editAny": "İstənilən sosial profilini redaktə et"
             },
             "settings": {
-                "allow_external_favicons_label": ""
+                "allow_external_favicons_label": "Xarici veb-sayt ikonlarına icazə ver (DuckDuckGo-nun favicon API-sindən istifadə edir)"
             }
         },
         "forum": {
             "edit": {
-                "edit": "",
-                "add": "",
-                "headtitle": "",
-                "title": "",
-                "url": "",
-                "submit": "",
-                "delete": "",
-                "deletetitle": "",
-                "save_disabled_fetching_favicons": "",
-                "favicon": "",
-                "grey_favicon": ""
+                "edit": "Sosial media düymələrinizi redaktə et",
+                "add": "Sosial şəbəkə keçidləri əlavə et",
+                "headtitle": "Düymələri redaktə et",
+                "title": "Başlıq",
+                "url": "URL",
+                "submit": "Yadda saxla",
+                "delete": "Sil",
+                "deletetitle": "Silmə düyməsi",
+                "save_disabled_fetching_favicons": "Bir və ya daha çox ikon yüklənir. Zəhmət olmasa, gözləyin.",
+                "favicon": "Favikon",
+                "grey_favicon": "Boz Favikon"
             }
         }
     }
