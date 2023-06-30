@@ -20,11 +20,11 @@
         "forum": {
             "notifications": {
                 "warning_text": "{strikes, plural, one {Anda diperingatkan dengan # teguran oleh {mod_username}} other {Anda diperingatkan dengan # teguran oleh {mod_username}}}",
-                "warning_no_strikes_text": "Anda diperingatkan oleh {mod_username} (tidak ada teguran)"
+                "warning_no_strikes_text": "Anda diperingatkan oleh {mod_username} (tanpa teguran)"
             },
             "post": {
                 "warning": "{strikes, plural, one {Diperingatkan dengan # teguran oleh {mod_username}} other {Diperingatkan dengan # teguran oleh {mod_username}}}",
-                "warning_no_strikes": "Memperingatkan tanpa ada teguran oleh {mod_username}"
+                "warning_no_strikes": "Diperingatkan tanpa teguran oleh {mod_username}"
             },
             "post_controls": {
                 "warning_button": "Peringatkan Pengguna"
