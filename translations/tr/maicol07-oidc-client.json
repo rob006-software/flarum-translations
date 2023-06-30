@@ -2,14 +2,58 @@
     "maicol07-oidc-client": {
         "admin": {
             "settings": {
+                "client": {
+                    "title": "",
+                    "subtitle": "",
+                    "id": "",
+                    "secret": "",
+                    "enable_pkce": "",
+                    "enable_nonce": "",
+                    "http_proxy": "",
+                    "cert_path": "",
+                    "verify_ssl": "",
+                    "timeout": "",
+                    "allow_implicit_flow": "",
+                    "skip_email_verified_check": ""
+                },
+                "callback_title": "Geri arama URI'leri (Callback URIs)",
+                "callback_subtitle": "Bunlar, müşteri yetkilendirme kodunu almak ve ilgili seçenek etkinleştirilmişse sağlayıcıdan çıkış yapmak için sağlayıcınıza kaydetmeniz gereken geri arama URI'larıdır.",
+                "callback_logout_note": "Yalnızca sağlayıcıdan çıkış seçeneği etkinleştirildiğinde gereklidir (sayfanın en altına bakın)",
+                "provider": {
+                    "title": "",
+                    "subtitle": "",
+                    "url": "",
+                    "endpoints": {
+                        "authorize": "",
+                        "token": "",
+                        "userinfo": "",
+                        "logout": "",
+                        "jwks": ""
+                    },
+                    "issuer": "",
+                    "code_challenge_method": "",
+                    "response_type": "",
+                    "id_token_signing_alg": "",
+                    "authorization_response_iss_parameter_supported": "",
+                    "token_endpoint_auth_method": ""
+                },
+                "other": {
+                    "title": "",
+                    "provider_name": "",
+                    "linker_claim": "",
+                    "manage_account_url": "",
+                    "manage_account_btn_open_in_new_tab": "",
+                    "sso_mode": "",
+                    "logout_from_provider": "",
+                    "remove_signup_btn": "",
+                    "sync_avatars": "",
+                    "time_drift": ""
+                },
                 "provider_name": "OpenID Connect sağlayıcı adı",
                 "client_settings_title": "İstemci ayarları",
                 "client_settings_subtitle": "OpenID Connect sağlayıcınız tarafından verilen müşteri bilgilerinizi buraya ekleyin. Daha fazla yardım için dokümanları kontrol edin.",
                 "client_id": "Client ID",
                 "client_secret": "Client secret",
-                "callback_title": "Geri arama URI'leri (Callback URIs)",
-                "callback_subtitle": "Bunlar, müşteri yetkilendirme kodunu almak ve ilgili seçenek etkinleştirilmişse sağlayıcıdan çıkış yapmak için sağlayıcınıza kaydetmeniz gereken geri arama URI'larıdır.",
-                "callback_logout_note": "Yalnızca sağlayıcıdan çıkış seçeneği etkinleştirildiğinde gereklidir (sayfanın en altına bakın)",
                 "provider_settings_title": "Sağlayıcı ayarları",
                 "provider_url": "Sağlayıcı URL'si",
                 "endpoints_title": "Sağlayıcı uç noktaları",
