@@ -12,8 +12,8 @@
             },
             "fields": {
                 "select": {
-                    "none-optional": "Heç bir seçim edilmədi (məcburi deyil)",
-                    "none-required": "Zəhmət olmasa, bir seçim edin (məcburi)"
+                    "none-optional": "Seçim edilmədi",
+                    "none-required": "Zəhmət olmasa, seçim edin"
                 },
                 "boolean": {
                     "yes": "Bəli",
@@ -24,40 +24,40 @@
         "admin": {
             "general-options": "Ümumi seçimlər",
             "buttons": {
-                "add-field": "Sahə yaradın",
+                "add-field": "Sahəni yarat",
                 "edit-field": "Dəyişiklikləri yadda saxla",
-                "delete-field": "Sahəni silin"
+                "delete-field": "Sahəni sil"
             },
             "permissions": {
-                "edit-others-profile": "Digər istifadəçilərin profilini redaktə edin",
-                "have-profile": "Masquerade profilə sahib olun",
-                "view-profile": "Masquerade profilini görüntüləyin"
+                "edit-others-profile": "Digər istifadəçilərin profilini redaktə et",
+                "have-profile": "Masquerade profilə sahib ol",
+                "view-profile": "Masquerade profilini görüntülə"
             },
             "fields": {
                 "title": "Sahələr",
-                "add": "{field} sahəsi əlavə et",
+                "add": "Sahə əlavə et {field}",
                 "edit": "{field} sahəsini redaktə et",
                 "name": "Sahənin adı",
-                "name-help": "İctimai görünən (tərcümə olunmayan) sahə etiketi.\n",
+                "name-help": "İctimai görünən (tərcümə olunmayan) sahə başlığı.\n",
                 "description": "Sahənin açıqlaması",
                 "description-help": "Bu sahənin istifadəsini/ehtiyacını izah etmək üçün əlavə təsvir.\n",
-                "required": "Sahəni \"məcburi\" olaraq işarələ",
-                "on_bio": "İstifadəçi biosunda bu sahənin cavabını göstərin",
+                "required": "Sahəni \"Məcburi\" olaraq işarələ",
+                "on_bio": "İstifadəçinin biosunda bu sahənin cavabını göstər",
                 "type": "Növ",
                 "validation": "Doğrulama",
-                "validation-help": "Dəstəklənən <a>Laravel doğrulama qaydalarını</a> yoxlayın. Məsələn: \"string|min:5\" və ya \"url\".\n",
+                "validation-help": "Dəstəklənən <a>Laravel doğrulama qaydalarına</a> baxın. Məsələn: \"string|min:5\" və ya \"url\".\n",
                 "prefix": "Sahə prefiksi",
                 "prefix-help": "Bu sahə üçün istifadəçi tərəfindən daxil edilmiş məlumatların qarşısında prefiksinizi göstərir.\n",
                 "icon": "İkon",
-                "icon-help": "İstifadəçi tərəfindən daxil edilmiş dəyərlərin qarşısında işarəni göstərir. Mövcud ikonalara istinad üçün <a>FontAwesome veb saytına</a> baxın. \"fas fa-info\" kimi \"fa-\" prefiksi olan ikon adlarından istifadə edin.\n",
-                "force-user-to-completion": "İstifadəçini profili tamamlamağa məcbur edin",
+                "icon-help": "İstifadəçi tərəfindən daxil edilmiş dəyərlərin qarşısında göstərilən işarə. Əlçatan ikonalara istinad üçün <a>FontAwesome veb saytına</a> baxın. \"fas fa-info\" kimi \"fa-\" prefiksi olan ikon adlarından istifadə edin.\n",
+                "force-user-to-completion": "İstifadəçini profili tamamlamağa məcbur et",
                 "options": "Seçimlər",
                 "option-new": "Yeni seçim",
-                "option-comma-warning": "Seçim etiketində vergül (\",\") ola bilməz."
+                "option-comma-warning": "Seçim başlığında vergül (\",\") ola bilməz."
             },
             "types": {
-                "advanced": "Qabaqcıl",
-                "boolean": "Qeyd xanası",
+                "advanced": "İnkişaf etmiş",
+                "boolean": "Qeyd xanası (Checkbox)",
                 "email": "E-poçt",
                 "select": "Açılan siyahı",
                 "url": "URL"
