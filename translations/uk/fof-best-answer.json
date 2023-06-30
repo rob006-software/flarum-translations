@@ -16,12 +16,12 @@
                 "allow_select_own_post_help": "Дозволити ОП обирати один з власних дописів у дискусії як найкращу відповідь",
                 "enable_all_tags_button": "Включити всі теги для найкращих відповідей",
                 "enable_all_tags_reminder_button": "Увімкнути всі теги для нагадувань про найкращу відповідь",
-                "show_max_lines_label": "",
-                "show_max_lines_help": "",
+                "show_max_lines_label": "Максимальна кількість рядків для показу в попередньому перегляді публікації",
+                "show_max_lines_help": "Встановіть 0, щоб вимкнути. Якщо допис довший за налаштовану кількість рядків, він буде обрізаний у попередньому перегляді допису з ефектом згасання.",
                 "select_best_answer_reminder_days": "Періодичність нагадувань",
                 "select_best_answer_reminder_days_help": "Надсилати нагадування через налаштовану кількість днів ОП для вибору найкращої відповіді, 0 = відключити нагадування.",
-                "select_best_answer_tags_label": "",
-                "select_best_answer_tags_help": "",
+                "select_best_answer_tags_label": "Теги для обговорення з Best Answers",
+                "select_best_answer_tags_help": "Оберіть, які теги, якщо такі є, додавати до обговорень, коли буде обрано найкращу відповідь. Дозволено використовувати лише другорядні теги. Ці теги будуть видалені, якщо буде видалена найкраща відповідь.",
                 "schedule_on_one_server": "Використання директиви 'onOneServer()' для планувальника завдань",
                 "schedule_on_one_server_help": "Потрібен Redis/Memcache",
                 "schedule_stop_overnight": "Унеможливити надсилання нагадувань у неробочий час",
@@ -93,8 +93,8 @@
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "most_best_answers": "",
-                "least_best_answers": ""
+                "most_best_answers": "Найбільше найкращих відповідей",
+                "least_best_answers": "Найменше найкращих відповідей"
             }
         }
     }
