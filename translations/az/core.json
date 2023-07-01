@@ -348,7 +348,7 @@
                 "replied_text": "{username} {ago} cavab verdi",
                 "started_text": "{username} {ago} başlatdı",
                 "total_replies_a11y_label": "{count, plural, one {# cavab} other {# cavab}}",
-                "unread_replies_a11y_label": "{# oxunmamış cavab}. Oxunmamış {count, plural, one {cavabı} other {cavabları}} oxunmuş kimi qeyd et.",
+                "unread_replies_a11y_label": "{count, plural, one {# oxunmamış cavab} other {# oxunmamış cavab}}. Oxunmamış {count, plural, one {cavabı} other {cavabları}} oxunmuş kimi qeyd et.",
                 "mark_as_read_tooltip": "Oxudum"
             },
             "forgot_password": {
@@ -403,104 +403,104 @@
                 "username_or_email_placeholder": "İstifadəçi adı və ya E-poçt"
             },
             "notifications": {
-                "delete_all_confirm": "",
-                "delete_all_tooltip": "",
-                "discussion_renamed_text": "{username} başlığını dəyişdi",
+                "delete_all_confirm": "Bütün bildirişləri silmək istədiyinizə əminsiniz? Bu əməliyyatı geri qaytarmaq olmaz",
+                "delete_all_tooltip": "Bütün bildirişləri sil",
+                "discussion_renamed_text": "{username} başlığı dəyişdi",
                 "empty_text": "Bildiriş yoxdur",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
-                "mark_as_read_tooltip": "Oxunmuş kimi işarələyin",
+                "mark_as_read_tooltip": "Oxunmuş kimi işarələ",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Bildirişlərə bax",
                 "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "Redaktə edildi",
-                "edited_tooltip": "redaktə etdi {username} {ago}",
+                "edited_tooltip": "{username} {ago} redaktə etdi",
                 "number_tooltip": "Post #{number}"
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Bu yazını həmişəlik silmək istədiyinizə əminsiniz? Bu əməliyyatı geri qaytarmaq olmaz.",
+                "delete_confirmation": "Bu postu həmişəlik silmək istədiyinizə əminsiniz? Bu əməliyyatı geri qaytarmaq olmaz.",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
-                "hide_confirmation": "Bu yazını silmək istədiyinizə əminsiniz?",
+                "hide_confirmation": "Bu postu silmək istədiyinizə əminsiniz?",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": "Yazı idarəetmə açılır menyusunu dəyişin"
+                "toggle_dropdown_accessible_label": "Post nəzarətləri menyusunu dəyişdir"
             },
             "post_scrubber": {
                 "now_link": "İndi",
-                "original_post_link": "Orijinal Yazı",
+                "original_post_link": "Orijinal Post",
                 "unread_text": "{count} oxunmamış",
-                "viewing_text": "{count, plural, one {{index} of {formattedCount} post} other {{index} of {formattedCount} posts}}"
+                "viewing_text": "{count, plural, one {{formattedCount} post içində, post {index}} other {{formattedCount} post içində, post {index}}"
             },
             "post_stream": {
-                "discussion_renamed_old_tooltip": "Köhnə titul \"{old}\"",
-                "discussion_renamed_text": "{username} başlığını dəyişdi {new}.",
+                "discussion_renamed_old_tooltip": "Köhnə başlıq: \"{old}\"",
+                "discussion_renamed_text": "{username} başlığı {new} olaraq dəyişdi {time}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} sonra"
             },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
-                "title": "Mövzunun adını dəyiş"
+                "title": "Müzakirənin adını dəyiş"
             },
             "search": {
-                "all_discussions_button": "Bütün mövzuları axtar \"{query}\"",
+                "all_discussions_button": "\"{query}\" üçün bütün müzakirələri axtar",
                 "discussions_heading": "=> core.ref.discussions",
-                "users_heading": "=> core.ref.discussions"
+                "users_heading": "=> core.ref.users"
             },
             "security": {
-                "browser_on_operating_system": "",
-                "cannot_terminate_current_session": "",
-                "created": "",
-                "current_active_session": "",
-                "developer_tokens_heading": "",
-                "empty_text": "",
+                "browser_on_operating_system": "{os} üzərində {browser}",
+                "cannot_terminate_current_session": "Cari aktiv sessiyanı dayandırmaq mümkün deyil. Bunun əvəzinə çıxış edin.",
+                "created": "Yaradılıb",
+                "current_active_session": "Cari Aktiv Sessiya",
+                "developer_tokens_heading": "Tərtibatçı Tokenləri (Developer Tokens)",
+                "empty_text": "Deyəsən burada görüləcək heç nə yoxdur.",
                 "global_logout": {
-                    "heading": "",
-                    "help_text": "",
-                    "log_out_button": ""
+                    "heading": "Qlobal Çıxış",
+                    "help_text": "Cari kuki sessiyasını təmizləyir, bütün sessiyaları dayandırır, tərtibatçı nişanlarını ləğv edir və istənilən e-poçt təsdiqini və ya parol sıfırlama e-poçtlarını etibarsız edir.",
+                    "log_out_button": "=> core.ref.log_out"
                 },
-                "hide_access_token": "",
-                "last_activity": "",
-                "never": "",
-                "new_access_token_button": "",
+                "hide_access_token": "Tokeni gizlət",
+                "last_activity": "Son fəaliyyət",
+                "never": "=> core.ref.never",
+                "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
-                    "submit_button": "",
-                    "title": "",
-                    "title_placeholder": ""
+                    "submit_button": "Token yarat",
+                    "title": "=> core.ref.new_token",
+                    "title_placeholder": "Başlıq"
                 },
-                "revoke_access_token": "",
-                "revoke_access_token_confirmation": "",
-                "sessions_heading": "",
-                "session_terminated": "",
-                "session_termination_failed": "",
-                "show_access_token": "",
-                "terminate_all_other_sessions": "",
-                "terminate_all_other_sessions_confirmation": "",
-                "terminate_session": "",
-                "title": "",
-                "token_revoked": "",
-                "token_item_title": "",
-                "token_title_placeholder": ""
+                "revoke_access_token": "Ləğv et",
+                "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
+                "sessions_heading": "Aktiv Sessiyalar",
+                "session_terminated": "{count, plural, one {Sessiya dayandırıldı} other {# sessiya dayandırıldı}}.",
+                "session_termination_failed": "Sessiyalarınızı dayandırarkən xəta baş verdi.",
+                "show_access_token": "Tokenə bax",
+                "terminate_all_other_sessions": "Bütün digər seansları dayandır",
+                "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
+                "terminate_session": "Bitir",
+                "title": "=> core.ref.security",
+                "token_revoked": "Token ləğv edildi.",
+                "token_item_title": "{title} - {token}",
+                "token_title_placeholder": "/"
             },
             "settings": {
                 "account_heading": "Hesab",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
-                "notification_checkbox_a11y_label_template": "",
+                "notification_checkbox_a11y_label_template": "{method} vasitəsilə \"{description}\" bildirişləri alın",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
-                "notify_by_web_heading": "Web",
-                "notify_discussion_renamed_label": "Biri yeni açdığım mövzunun adını dəyişir",
-                "privacy_disclose_online_label": "Görünməzlik (Açıq olduqda online gorünürsünüz)",
+                "notify_by_web_heading": "Veb",
+                "notify_discussion_renamed_label": "Kimsə mənim başladığım müzakirənin adını dəyişir",
+                "privacy_disclose_online_label": "Başqalarının onlayn olduğumu görməsinə icazə ver",
                 "privacy_heading": "Məxfilik",
                 "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "log_in_text": "Hesabınız var <a>Giriş et</a>",
+                "log_in_text": "Hesabınız var? <a>Giriş et</a>",
                 "password_placeholder": "=> core.ref.password",
                 "submit_button": "=> core.ref.sign_up",
                 "title": "=> core.ref.sign_up",
@@ -510,51 +510,51 @@
             "user": {
                 "avatar_remove_button": "=> core.ref.remove",
                 "avatar_upload_button": "Yüklə",
-                "avatar_upload_tooltip": "Avatar yüklə",
+                "avatar_upload_tooltip": "Yeni avatar yüklə",
                 "discussions_link": "=> core.ref.discussions",
                 "in_discussion_text": "Bu {discussion}",
-                "joined_date_text": "Qoşuldu {ago}",
-                "online_text": "Xətdə",
-                "posts_empty_text": "Deyəsən burada heç bir yazı yoxdur.",
+                "joined_date_text": "{ago} qoşuldu",
+                "online_text": "Onlayn",
+                "posts_empty_text": "Deyəsən burada heç bir post yoxdur.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
-                "security_link": "",
+                "security_link": "=> core.ref.security",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
-                "button": "Nəzarət",
+                "button": "Nəzarətlər",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Bu istifadəçini silmək istədiyinizə əminsiniz? İstifadəçinin yazıları silinməyəcək.",
-                "delete_error_message": "Bu <i>{username} ({email})</i> istifadəçisi silinmədi",
-                "delete_success_message": "Bu <i>{username} ({email})</i> istifadəçi silindi",
+                "delete_confirmation": "Bu istifadəçini silmək istədiyinizə əminsiniz? İstifadəçinin postları silinməyəcək.",
+                "delete_error_message": "<i>{username} ({email})</i> istifadəçisinin silinməsi uğursuz oldu",
+                "delete_success_message": "<i>{username} ({email})</i> istifadəçisi silindi",
                 "edit_button": "=> core.ref.edit",
-                "toggle_dropdown_accessible_label": "İstifadəçi idarəetmə açılır menyusunu dəyişdirin"
+                "toggle_dropdown_accessible_label": "İstifadəçi nəzarətləri menyusunu dəyişdir"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
-                "resend_button": "Təsdiq məktubunu yenidən Göndər",
-                "sent_message": "Göndər"
+                "resend_button": "Təsdiq məktubunu yenidən göndər",
+                "sent_message": "Göndərildi"
             },
             "welcome_hero": {
-                "hide": ""
+                "hide": "Xoş gəlmisiniz mesajını gizlət"
             }
         },
         "lib": {
-            "debug_button": "",
+            "debug_button": "Sazlama (Debug)",
             "alert": {
-                "dismiss_a11y_label": ""
+                "dismiss_a11y_label": "Xəbərdarlığı rədd et"
             },
             "badge": {
                 "hidden_tooltip": "Gizli"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": "Açılan menyunu dəyişin"
+                "toggle_dropdown_accessible_label": "Açılan menyunu dəyiş"
             },
             "data_segment": {
-                "label": ""
+                "label": "{label}:"
             },
             "edit_user": {
-                "activate_button": "İstifadəçini aktivləşdirin",
+                "activate_button": "İstifadəçini aktivləşdir",
                 "email_heading": "=> core.ref.email",
                 "email_label": "=> core.ref.email",
                 "groups_heading": "Qruplar",
@@ -565,40 +565,40 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": ""
+                "nothing_available": "Bu istifadəçini redaktə etmək icazəniz yoxdur."
             },
             "error": {
-                "circular_dependencies_message": "",
-                "dependent_extensions_message": "Aşağıdakı asılı uzantılar deaktiv olunana qədər {extension} ləğv edilə bilməz: {extensions}",
-                "extension_initialiation_failed_message": "",
-                "generic_message": "Vay! Nəsə səhv oldu. Zəhmət olmasa səhifəni yenidən yükləyin və yenidən cəhd edin.",
-                "generic_cross_origin_message": "",
+                "circular_dependencies_message": "Dairəvi asılılıqlar aşkar edildi: {extensions}. Abort edilir. Zəhmət olmasa, uzatmaların birini deaktiv edin və yenidən cəhd edin.",
+                "dependent_extensions_message": "Aşağıdakı asılı uzatmalar deaktiv edilənə qədər {extension} deaktiv edilə bilməz: {extensions}",
+                "extension_initialiation_failed_message": "{extension} işə salına bilmədi, əlavə məlumat üçün brauzer konsolunu yoxlayın.",
+                "generic_message": "Xəta baş verdi. Səhifəni yenidən yükləyin və yenidən cəhd edin.",
+                "generic_cross_origin_message": "Çarpaz mənbə (cross-origin) sorğusu zamanı xəta baş verdi. Səhifəni yenidən yükləyin və yenidən cəhd edin.",
                 "missing_dependencies_message": "Aşağıdakı asılılıqlar aktiv olana qədər {extension} aktiv edilə bilməz: {extension}",
                 "not_found_message": "Tələb olunan resurs tapılmadı.",
-                "payload_too_large_message": "İstək yükü çox böyük idi.",
-                "permission_denied_message": "Bunu etməyə icazəniz yoxdur.",
-                "rate_limit_exceeded_message": "Bir az tez gedirsən. Zəhmət olmasa bir neçə saniyə sonra yenidən cəhd edin.",
-                "render_failed_message": ""
+                "payload_too_large_message": "Sorğu yükü çox böyük idi.",
+                "permission_denied_message": "Bunu etmək üçün icazəniz yoxdur.",
+                "rate_limit_exceeded_message": "Bir neçə saniyədən sonra yenidən cəhd edin.",
+                "render_failed_message": "Üzr istəyirik, bu məzmunu göstərərkən xəta ilə qarşılaşdıq. İstifadəçisinizsə, daha sonra yenidən cəhd edin. Əgər siz inzibatçısınızsa, əlavə məlumat üçün Flarum log fayllarınıza nəzər salın."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Səhifə # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Səhifə # - {forumName}}}"
             },
             "modal": {
-                "close": ""
+                "close": "Bağla"
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "Naviqasiya qutusunu aç"
             },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
             "series": {
-                "glue_text": ",: ",
+                "glue_text": ", ",
                 "three_text": "{first}, {second}, və {third}",
                 "two_text": "{first} və {second}"
             },
@@ -611,7 +611,7 @@
                 "extensions": {
                     "caption": "=> core.ref.extensions",
                     "disable": "Deaktiv et",
-                    "empty": "Quraşdırılmış uzantılar yoxdur",
+                    "empty": "Quraşdırılmış uzantı yoxdur",
                     "enable": "Aktiv et",
                     "name": "Uzantı Adı",
                     "package_name": "Paket Adı",
