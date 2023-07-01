@@ -2,62 +2,62 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": ""
+                "view": "Переглянути журнал аудиту"
             },
             "header": {
-                "title": "",
-                "free": "",
-                "pro": "",
-                "upgrade": ""
+                "title": "Аудит",
+                "free": "Безкоштовно",
+                "pro": "Pro",
+                "upgrade": "Оновити до Pro"
             }
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "",
-                "filterApply": "",
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "filterPlaceholder": "Журнали фільтрів",
+                "filterApply": "Застосувати",
+                "empty": "Результати відсуні",
+                "loadMore": "Завантажити більше",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "discussion": "Дискусія #{id}",
+                    "group": "Група #{id}",
+                    "post": "Допис #{id}",
+                    "tag": "Тег #{id}",
+                    "user": "Користувач #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "Коментар",
+                    "post": "Допис"
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "(не має значення)",
+                "noReason": "(без причин)",
                 "client": {
-                    "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "session": "Веб сесія",
+                    "api_key": "API key",
+                    "access_token": "Access token",
+                    "cli": "Командний рядок",
+                    "unknown": "Невідомий клієнт"
                 },
                 "controls": {
-                    "hideRaw": "",
-                    "showRaw": "",
-                    "filterActor": "",
-                    "filterIp": "",
-                    "filterClient": "",
-                    "filterAction": "",
-                    "filterUser": "",
-                    "filterDiscussion": ""
+                    "hideRaw": "Приховати необроблений журнал",
+                    "showRaw": "Показати необроблений журнал",
+                    "filterActor": "Показати журнали цього виконавця",
+                    "filterIp": "Показати журнали за цим IP",
+                    "filterClient": "Показати журнали за цим типом клієнта",
+                    "filterAction": "Показати журнали тієї самої дії",
+                    "filterUser": "Показати журнали, що стосуються одного користувача",
+                    "filterDiscussion": "Показати журнали, що стосуються того самого обговорення"
                 },
-                "audit_log_cleared": "",
-                "cache_cleared": "",
+                "audit_log_cleared": "Видалено записи {deleted_count} з журналів аудиту",
+                "cache_cleared": "Вручну очищено кеш",
                 "discussion": {
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
+                    "created": "Розпочато обговорення{discussion}",
+                    "create_date_changed": "Змінено дату початку {discussion} з {old_date} на {new_date}",
+                    "deleted": "Видалена дискусія {discussion}",
                     "hidden": "",
                     "locked": "",
                     "renamed": "",
