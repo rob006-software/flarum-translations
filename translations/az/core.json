@@ -620,16 +620,16 @@
                 "info": {
                     "caption": "Tətbiq Məlumatı"
                 },
-                "title": "Administrator"
+                "title": "Administrasiya"
             },
             "confirm_email": {
                 "submit_button": "=> core.ref.confirm_email",
-                "text": "Hesabınızın e -poçtunu təsdiqləmək üçün aşağıdakı düyməni basın.",
+                "text": "Hesabınızın e-poçtunu təsdiqləmək üçün aşağıdakı düyməyə klikləyin.",
                 "title": "=> core.ref.confirm_email"
             },
             "content": {
-                "javascript_disabled_message": "Bu sayt ən yaxşı şəkildə JavaScript aktiv olan müasir bir brauzerdə baxılır.",
-                "load_error_message": "Tam versiyasını yükləmək istəyərkən bir səhv oldu. Səhifəni yeniləyin.",
+                "javascript_disabled_message": "Bu sayt ən yaxşı şəkildə JavaScript-in aktiv olduğu müasir brauzerdə çalışır.",
+                "load_error_message": "Tam versiyasını yükləməyə çalışarkən xəta baş verdi. Səhifəni yeniləyin.",
                 "loading_text": "=> core.ref.loading"
             },
             "discussion": {
@@ -637,14 +637,14 @@
                 "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
-                "csrf_token_mismatch": "Çox uzun müddət fəaliyyətsizsiniz.",
-                "csrf_token_mismatch_return_link": "Geri qayıdın və yenidən cəhd edin",
+                "csrf_token_mismatch": "Çox uzun müddətdir ki, fəaliyyətsizsiniz.",
+                "csrf_token_mismatch_return_link": "Yenidən cəhd etmək üçün geri qayıdın",
                 "invalid_confirmation_token": "Bu təsdiq linki artıq istifadə edilmişdir və ya etibarsızdır.",
                 "not_authenticated": "Bu səhifəyə daxil olmaq üçün icazəniz yoxdur. Daxil olduqdan sonra yenidən cəhd edin.",
-                "not_found": "İstədiyiniz səhifə tapılmadı.",
-                "not_found_return_link": "{forum} a Qayıt",
+                "not_found": "İstədiyiniz səhifəni tapmaq mümkün olmadı.",
+                "not_found_return_link": "{forum} səhifəsinə qayıt",
                 "permission_denied": "Bu səhifəyə daxil olmaq üçün icazəniz yoxdur.",
-                "unknown": "Bu səhifəni yükləmək istəyərkən xəta baş verdi."
+                "unknown": "Bu səhifəni yükləməyə çalışarkən xəta baş verdi."
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -653,7 +653,7 @@
             },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
-                "log_out_confirmation": "{Forum} -dan çıxmaq istədiyinizə əminsiniz?",
+                "log_out_confirmation": "{forum}-dan çıxmaq istədiyinizə əminsiniz?",
                 "title": "=> core.ref.log_out"
             },
             "reset_password": {
@@ -664,65 +664,65 @@
             }
         },
         "api": {
-            "invalid_username_message": "İstifadəçi adı yalnız hərf və rəqəmdən ibarət olmalıdır.",
+            "invalid_username_message": "İstifadəçi adı yalnız hərflər, rəqəmlər və tirelərdən ibarət ola bilər.",
             "invalid_filter_type": {
-                "must_be_numeric_message": "",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_be_numeric_message": "{filter} filtri rəqəmli olmalıdır.",
+                "must_not_be_array_message": "{filter} filtri massiv olmamalıdır.",
+                "must_not_be_multidimensional_array_message": "{filter} filtri çoxölçülü massiv olmamalıdır."
             }
         },
         "email": {
             "activate_account": {
-                "subject": "Hesabınızı Aktivləşdirin",
-                "body": "Salam {username}!\n\nBiri Bu e -poçt ünvanı ilə {forum} saytına üzv oldu.\n\nBunu siz etmisinizssə, aşağıdakı linkə daxil olaraq heabınızı aktiv edin:\n{url}\n\nQeydiyyatdan keçməmisinizsə, bu e -poçtu gözardı edin.\n"
+                "subject": "Yeni Hesabınızı Aktivləşdirin",
+                "body": "Salam {username}!\n\nKimsə bu e -poçt ünvanı ilə {forum} saytına üzv oldu.\n\nBunu siz etmisinizssə, aşağıdakı linkə daxil olaraq heabınızı aktiv edin:\n{url}\n\nQeydiyyatdan keçməmisinizsə, bu e -poçtu gözardı edin.\n"
             },
             "confirm_email": {
-                "subject": "E -poçt ünvanınızı təsdiq edin",
-                "body": "Salam {username}!\n\nBiri {Forum} üzərindəki e -poçt ünvanını bu ünvana dəyişdi.\n\nBunu edən sizsinizssə aşağıdakı linkı daxil olaraq təstiqləyin:\n{url}\n\nBu sən etməmisənsə, bu e -poçtu gözardı et.\n"
+                "subject": "Yeni E-poçt Ünvanınızı Təsdiqləyin",
+                "body": "Salam {username}!\n\nKimsə {forum} üzərindəki e -poçt ünvanını bu ünvana dəyişdi.\n\nƏgər bu siz idinizsə, aşağıdakı linkə daxil olaraq e-poçtunuzu təsdiqləyin:\n{url}\n\nƏgər bu siz deyilsinizsə, bu e-poçtu gözardı edin.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Salam {username}!\n\nKimsə {forum} saytında hesabınız üçün unudulmuş parol sorğusu göndərdi..\n\nBu siz idinizsə, parolunuzu sıfırlamaq üçün aşağıdakı linkə daxil olun:\n{url}\n\nŞifrənizi dəyişdirmək istəmirsinizsə, bu e -poçtu gözardı edin və heç nə olmayacaq.\n"
+                "body": "Salam {username}!\n\nKimsə {forum} üzərində hesabınız üçün unudulmuş parol sorğusu göndərdi.\n\nBu siz idinizsə, parolunuzu sıfırlamaq üçün aşağıdakı linkə daxil olun:\n{url}\n\nŞifrənizi dəyişdirmək istəmirsinizsə, bu e -poçtu gözardı edin.\n"
             },
             "send_test": {
-                "subject": "Flarum E -poçt Testi",
-                "body": "Hey {username}!\n\nBu, Flarum e -poçt konfiqurasiyanızın düzgün işlədiyini təsdiq edən bir test e -poçtudur.\n\nBu sizsinizssə, bu e -poçt konfiqurasiyanızın işlədiyi deməkdir!\n\nsiz deyilsinizsə, bu e -poçtu gözardı et.\n"
+                "subject": "Flarum E-poçt Testi",
+                "body": "Salam {username}!\n\nBu, Flarum e-poçt konfiqurasiyanızın düzgün işlədiyini təsdiqləyən sınaq e-poçtudur.\n\nƏgər bu siz idinizsə, bu e-poçt o deməkdir ki, konfiqurasiyanız işləyir!\n\nƏgər bu siz deyilsinizsə, bu e-poçtu gözardı edin.\n"
             }
         },
         "ref": {
-            "all_discussions": "Bütün Mövzular",
-            "change_email": "E-maili dəyiş",
+            "all_discussions": "Bütün Müzakirələr",
+            "change_email": "E-poçtu dəyiş",
             "change_password": "Şifrəni dəyiş",
             "color": "Rəng",
             "confirm_password": "Şifrəni təsdiq et",
-            "confirm_email": "E -poçtu təsdiq et",
-            "confirmation_email_sent": "{email} ünvanına bir təsdiq e -poçtu göndərdik. Tezliklə gəlməzsə, spam qovluğunu yoxlayın.",
+            "confirm_email": "E-poçtu təsdiq et",
+            "confirmation_email_sent": "{email} ünvanına bir təsdiq e-poçtu göndərdik. Tezliklə gəlməzsə, spam qovluğunu yoxlayın.",
             "custom_footer_text": "Səhifənin ən aşağı hissəsində göstəriləcək HTML əlavə edin.",
-            "custom_footer_title": "Xüsusi Footerdə düzəliş et",
+            "custom_footer_title": "Fərdi Footerdə düzəliş et",
             "custom_header_text": "Səhifənin ən yuxarı hissəsində, Flarumun öz başlığının üstündə göstəriləcək HTML əlavə edin.",
-            "custom_header_title": "Xüsusi Başlığı redaktə et",
+            "custom_header_title": "Fərdi Başlığı redaktə et",
             "delete": "Sil",
-            "delete_forever": "Birdəfəlik sil",
-            "discussions": "Mövzular",
+            "delete_forever": "Həmişəlik sil",
+            "discussions": "Müzakirələr",
             "edit": "Düzəliş et",
-            "edit_user": "İstifadəçini redaktə edin",
-            "email": "Email",
+            "edit_user": "İstifadəçini redaktə et",
+            "email": "E-poçt",
             "extensions": "Uzantılar",
-            "generic_confirmation_message": "",
-            "icon": "İcon",
-            "icon_text": "Hər hansı bir <a> FontAwesome </a> simge sinfinin adını daxil edin, <code> fas fa- </code> öneki <em>daxil olmaqla</em>.",
-            "load_more": "Daha çox",
-            "loading": "Yüklənir ...",
+            "generic_confirmation_message": "Davam etmək istədiyinizə əminsiniz? Bu əməliyyat geri qaytarıla bilməz.",
+            "icon": "İkon",
+            "icon_text": "Hansısa bir <a> FontAwesome </a> ikon sinfinin adını daxil edin. <code> fas fa-</code> prefiksi <em>daxil olmaqla</em>.",
+            "load_more": "Daha çox yüklə",
+            "loading": "Yüklənir...",
             "log_in": "Giriş",
             "log_out": "Çıxış",
             "mark_all_as_read": "Hamısını oxunmuş olaraq işarələ",
-            "never": "",
-            "new_token": "",
+            "never": "Heç vaxt",
+            "new_token": "Yeni Token",
             "next_page": "Növbəti səhifə",
             "notifications": "Bildirişlər",
             "okay": "OK",
             "password": "Şifrə",
-            "posts": "Yazılar",
+            "posts": "Postlar",
             "previous_page": "Əvvəlki səhifə",
             "remove": "Sil",
             "rename": "Yenidən adlandır",
@@ -730,17 +730,17 @@
             "reset_your_password": "Şifrəni sıfırla",
             "restore": "Bərpa et",
             "save_changes": "Dəyişiklikləri yadda saxla",
-            "search_users": "",
-            "security": "",
-            "settings": "Ayarlar",
+            "search_users": "İstifadəçiləri axtar",
+            "security": "Təhlükəsizlik",
+            "settings": "Parametrlər",
             "sign_up": "Qeydiyyat",
-            "some_others": "{count, plural, one {# other} other {# others}}",
-            "start_a_discussion": "Mövzu aç",
+            "some_others": "{count, plural, one {# digər} other {# digər}}",
+            "start_a_discussion": "Müzakirə başlat",
             "username": "İstifadəçi adı",
             "users": "İstifadəçilər",
             "view": "Bax",
-            "write_a_reply": "Cavab yaz ...",
-            "you": "Sən"
+            "write_a_reply": "Cavab yaz...",
+            "you": "Siz"
         },
         "group": {
             "admin": "Admin",
