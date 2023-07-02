@@ -30,7 +30,7 @@
                     "new_article": "Artikel baru",
                     "rename_category": "Ganti nama kategori",
                     "edit_description": "Edit deskripsi",
-                    "change_icon": "",
+                    "change_icon": "Ganti ikon",
                     "recount_articles": ""
                 }
             },
@@ -45,7 +45,7 @@
                 "search_knowledge_base": "Telusuri basis pengetahuan kami",
                 "searching": "Mencari",
                 "searching_for": "Mencari {searchterm}",
-                "searched_for": "",
+                "searched_for": "Anda telah mencari {searchterm}, hasilnya {results}.",
                 "use_searchbox_below": "Gunakan kotak pencarian di bawah ini untuk mencari di basis pengetahuan kami.",
                 "no_results": "Kami tidak dapat menemukan apa pun untuk {searchterm}."
             },
@@ -91,12 +91,12 @@
                     "guest": "Silakan login sebelum Anda memberikan rating pada artikel ini.",
                     "invalid_points": "Rating tidak valid. Silakan coba lagi.",
                     "cannot_rate_article": "Anda tidak dapat memberikan rating pada artikel ini.",
-                    "neutral_emoji_disabled": "",
+                    "neutral_emoji_disabled": "Emoji netral telah dinonaktifkan.",
                     "missing_article_id": "ID artikel hilang atau tidak valid"
                 },
                 "switch_sort_score": {
-                    "label": "",
-                    "description": "Hanya tampilkan artikel yang telah mendapatkan umpan balik, dengan mengurutkan berdasarkan artikel dengan skor terendah."
+                    "label": "Tampilkan artikel dengan penilaian rendah hingga tinggi",
+                    "description": "Hanya tampilkan artikel yang telah mendapatkan umpan balik, dengan mengurutkan berdasarkan artikel dengan penilaian terendah."
                 }
             },
             "modals": {
@@ -107,13 +107,13 @@
                     "loading_auditlog": "Memuat log audit"
                 },
                 "article_ratings": {
-                    "title": "",
-                    "loading_ratings": "",
-                    "no_ratings_found": "",
+                    "title": "Rating artikel",
+                    "loading_ratings": "Memuat rating",
+                    "no_ratings_found": "Tidak ditemukan rating yang sesuai dengan kriteria pencarian Anda",
                     "article_not_rated": "",
-                    "confirm_delete_rating": "",
+                    "confirm_delete_rating": "Apakah Anda yakin ingin menghapus rating ini?",
                     "feedback": "Umpan balik",
-                    "rating": "",
+                    "rating": "Rating",
                     "username": "=> core.ref.username",
                     "rated_on": ""
                 }
@@ -131,7 +131,7 @@
                 "enter_message_here": "Masukkan pesan Anda di sini",
                 "publish_article": "Terbitkan artikel",
                 "publish_article_hint": "Terbitkan artikel setelah diposting.",
-                "manage_tags": "",
+                "manage_tags": "Mengelola tag",
                 "write": "Tulis",
                 "view": "Lihat",
                 "nothing_to_preview": "Tidak ada yang bisa dipratinjau",
@@ -285,7 +285,7 @@
             },
             "notifications": {
                 "replied_to_ticket": {
-                    "name": "Seseorang membalas tiket saya",
+                    "name": "Seseorang membalas tiket Saya",
                     "content": "=> v17development-flarum-support.emails.replied_to_ticket.subject"
                 },
                 "ticket_resolved": {
@@ -297,23 +297,23 @@
         "emails": {
             "replied_to_ticket": {
                 "subject": "{replier_display_name} membalas tiket Anda #{ticket_id}",
-                "body": ""
+                "body": "Kepada {recipient_display_name} yang terhormat,\n\n{replier_display_name} telah membalas tiket Anda #{ticket_id} (subjek \"{subject}\").\n\nSilakan gunakan link di bawah ini untuk melihat balasannya:\n{url}\n\nKami menunggu balasan dari Anda atau hingga Anda menandai tiket ini telah terselesaikan.\n"
             },
             "ticket_status_update": {
                 "subject": "Tiket #{ticket_id} ditandai sebagai {new_status}",
-                "body": ""
+                "body": "Kepada {recipient_display_name} yang terhormat,\n\nStatus tiket #{ticket_id} Anda telah berubah menjadi {new_status}.\n\nURL tiket Anda adalah:\n{url}\n"
             },
             "ticket_resolved": {
-                "subject": "",
-                "body": ""
+                "subject": "Tiket #{ticket_id} ditandai sebagai terselesaikan",
+                "body": "Kepada {recipient_display_name} yang terhormat,\n\nTiket Anda #{ticket_id} telah ditandai sebagai terselesaikan. Ini berarti tiket Anda telah ditutup.\n\nURL tiket Anda adalah:\n{url}\n\nJika Anda tidak setuju dengan penandaan tiket Anda sebagai terselesaikan, silakan balas tiket Anda untuk membukanya kembali.\n"
             },
             "ticket_pending_reply": {
                 "subject": "Tiket #{ticket_id} sedang menunggu balasan dari Anda",
-                "body": ""
+                "body": "Kepada {recipient_display_name} yang terhormat,\n\nBaru-baru ini {replier_display_name} membalas tiket Anda #{ticket_id} pada tanggal {replied_date} dan Kami menunggu balasan Anda.\n\nURL tiket Anda adalah:\n{url}\n\nJika masalah telah terselesaikan, silakan tandai tiket sebagai terselesaikan.\n"
             },
             "ticket_pending_reply_closed": {
                 "subject": "Tiket #{ticket_id} telah ditutup karena tidak aktif",
-                "body": ""
+                "body": "Kepada {recipient_display_name} yang terhormat,\n\nBaru-baru ini {replier_display_name} membalas tiket Anda #{ticket_id}. Sayangnya Kami tidak mendapatkan balasan dari Anda. Tiket Anda telah ditutup secara otomatis karena tidak ada aktivitas.\n\nJika Anda masih ingin membalas, URL tiket Anda adalah:\n{url}\n"
             }
         }
     }
