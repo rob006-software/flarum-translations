@@ -43,7 +43,7 @@
                 "service_not_found": "Layanan \"{service}\" tidak dapat ditemukan.",
                 "url_invalid": "URL tidak valid untuk layanan yang dipilih.",
                 "tag_invalid": "Webhook ini dibatasi untuk tag yang tidak valid. Pembatasan tidak akan berlaku. Pastikan hal ini dimaksudkan.",
-                "tag_disabled": ""
+                "tag_disabled": "Webhook ini memiliki pembatasan tag yang telah dikonfigurasi. Ekstensi Tag dinonaktifkan. Pembatasan tidak akan berlaku. Pastikan hal ini dimaksudkan."
             },
             "nav": {
                 "desc": "Outgoing webhook yang dapat disesuaikan untuk forum Anda."
@@ -52,7 +52,7 @@
                 "debug_label": "Debug",
                 "debug_help": "Tambahkan log tambahan ke file log Flarum untuk men-debug masalah dengan webhook dan/atau event yang tidak bekerja dengan benar.",
                 "item": {
-                    "tag_any_label": ""
+                    "tag_any_label": "Apapun"
                 },
                 "help": {
                     "disabled": "Webhook ini dinonaktifkan karena tidak memiliki event yang diaktifkan.",
@@ -94,7 +94,7 @@
                             "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "post": {
-                            "title": "",
+                            "title": "Flarum - Post",
                             "posted": "Diposting",
                             "revised": "Diedit",
                             "hidden": "=> fof-webhooks.ref.hidden",
@@ -108,7 +108,7 @@
                             "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "approval": {
-                            "title": "",
+                            "title": "Flarum - Persetujuan",
                             "postwasapproved": "Post Disetujui"
                         }
                     }
