@@ -2,7 +2,7 @@
     "acpl-lscache": {
         "admin": {
             "cache_enabled_label": "开启 LSCache",
-            "cache_enabled_help": "",
+            "cache_enabled_help": "请查看<a>信息页面</a>，了解如何测试缓存。注意：禁用缓存时，该网站的所有缓存条目将被清除。",
             "public_cache_ttl_label": "默认公共缓存生存时间",
             "public_cache_ttl_help": "设置公共页面的缓存时间，单位秒。默认 300 秒。",
             "clearing_cache_listener_label": "清除 Flarum 缓存时同步清除 LSCache",
