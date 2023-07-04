@@ -41,7 +41,7 @@
                 "imgur": {
                     "client_id": "ID клиента Imgur",
                     "title": "Настройки хранилища Imgur",
-                    "tos": ""
+                    "tos": "Вы несете ответственность за то, чтобы пользователи вашего форума соблюдали <a>Условия использования</a> Imgur"
                 },
                 "local": {
                     "cdn_url": "URL сети доставки контента (CDN / префиксы файлов)",
@@ -81,7 +81,7 @@
                         "media-btn": "Менеджер файлов"
                     }
                 },
-                "inspect-mime": ""
+                "inspect-mime": "Тестирование MIME типа файла"
             },
             "permissions": {
                 "download_label": "Скачивать файлы",
@@ -113,17 +113,17 @@
                 "qiniu": "QiNiu"
             },
             "inspect-mime": {
-                "title": "",
+                "title": "Проверить MIME",
                 "description": "",
-                "select": "",
+                "select": "Выберите файл ниже, чтобы проверить значения, которые будут использоваться. Файл не будет сохранен.",
                 "laravel-validation": "",
-                "no-file-selected": "",
-                "validation-passed": "",
-                "validation-failed": "",
-                "mime-detector": "",
+                "no-file-selected": "Нет файла",
+                "validation-passed": "Пройден",
+                "validation-failed": "Неудачный: {error}",
+                "mime-detector": "Детектор Mime (основной)",
                 "mime-fileinfo": "",
-                "guessed-extension": "",
-                "not-available": ""
+                "guessed-extension": "Расширение файла по умолчанию (если оригинал не занесен в белый список)",
+                "not-available": "Нет результата"
             }
         },
         "forum": {
