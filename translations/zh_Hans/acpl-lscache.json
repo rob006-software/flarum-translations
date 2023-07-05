@@ -4,7 +4,7 @@
             "cache_enabled_label": "开启 LSCache",
             "cache_enabled_help": "请查看<a>信息页面</a>，了解如何测试缓存。注意：禁用缓存时，该网站的所有缓存条目将被清除。",
             "public_cache_ttl_label": "默认的公共缓存TTL",
-            "public_cache_ttl_help": "设置公共页面的缓存时间，单位秒。默认 300 秒。",
+            "public_cache_ttl_help": "设置公共网页应该被缓存多长时间，以秒为单位。默认值是604800秒（一个星期）。",
             "clearing_cache_listener_label": "清除 Flarum 缓存时同步清除 LSCache",
             "serve_stale_label": "Serve Stale 缓服务",
             "serve_stale_help": "启用后，在新缓存副本可用前，系统将使用旧缓存页面响应给用户，以减小后续访问产生的服务器负载。如果关闭此项，页面将在访客等待期间动态生成。根据 Serve Stale 的设计，此功能可能会响应陈旧的内容给用户，你可以选择关闭它。",
