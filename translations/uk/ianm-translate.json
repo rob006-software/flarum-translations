@@ -2,15 +2,15 @@
     "ianm-translate": {
         "admin": {
             "permission": {
-                "refresh-translation": "",
-                "translate-to-locale": "",
-                "translate-to-all-locales": ""
+                "refresh-translation": "Примусовий повторний переклад кешованого перекладу",
+                "translate-to-locale": "Переглянути переклад у поточній локалі",
+                "translate-to-all-locales": "Перегляд перекладу в будь-якій локалізації форуму"
             },
             "settings": {
                 "deepl": {
                     "api_key": {
-                        "help": "",
-                        "label": ""
+                        "help": "Зареєструйтеся за посиланням {link}. Драйвер автоматично визначить тип ключа free/pro.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     },
                     "en_choice": {
                         "help": "",
@@ -24,7 +24,7 @@
                         "help": "",
                         "label": "",
                         "options": {
-                            "default": "",
+                            "default": "За налаштуванням",
                             "prefer_less": "",
                             "prefer_more": ""
                         }
@@ -33,7 +33,7 @@
                 "google-cloud": {
                     "api_key": {
                         "help": "",
-                        "label": ""
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
                 "provider": "",
