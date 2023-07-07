@@ -18,7 +18,7 @@
             "no_permission": "Oy vermek için yetkiniz bulunmamaktadır",
             "poll_ended": "Bu anket sona ermiştir.",
             "public_poll": "Oy verenler",
-            "max_votes_allowed": "",
+            "max_votes_allowed": "Anket {max, plural, one {# şık} other {# şık}} seçmeye izin veriyor.",
             "composer_discussion": {
                 "add_poll": "Anket Oluştur",
                 "edit_poll": "=> fof-polls.forum.moderation.edit"
@@ -36,9 +36,9 @@
                 "image_option_placeholder": "Resim URL'si (isteğe bağlı)",
                 "options_label": "Yanıtlar",
                 "public_poll_label": "Kullanıcıların yanıt verenleri görmesine izin ver",
-                "allow_multiple_votes_label": "",
-                "max_votes_label": "",
-                "max_votes_help": "",
+                "allow_multiple_votes_label": "Kullanıcıların birden fazla seçeneği oylamasına izin ver",
+                "max_votes_label": "Kullanıcı başına azami oylar",
+                "max_votes_help": "Kullanıcıların tüm seçeneklere oy verebilmesini istiyorsanız 0 olarak belirleyin.",
                 "question_placeholder": "Soru",
                 "submit": "Gönder"
             },
