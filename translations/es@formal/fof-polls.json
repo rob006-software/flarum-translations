@@ -1,0 +1,51 @@
+{
+    "fof-polls": {
+        "admin": {
+            "permissions": {
+                "change_vote": "Cambiar el voto",
+                "moderate": "Editar y eliminar encuestas",
+                "self_edit": "Permitir a los usuarios editar sus propias encuestas",
+                "start": "Iniciar una encuesta",
+                "view_results_without_voting": "Ver los resultados sin votar",
+                "vote": "Votar en las encuestas"
+            }
+        },
+        "forum": {
+            "composer_discussion": {
+                "add_poll": "Añadir encuesta",
+                "edit_poll": "=> fof-polls.forum.moderation.edit"
+            },
+            "days_remaining": "La encuesta termina en {hora}.",
+            "modal": {
+                "add_option_label": "Añadir una opción",
+                "add_title": "Añadir una encuesta",
+                "date_placeholder": "Fecha de finalización de la encuesta (opcional)",
+                "edit_title": "Editar la encuesta",
+                "include_question": "Debe incluir una pregunta",
+                "max": "Puede tener un máximo de 10 respuestas",
+                "min": "Debe incluir un mínimo de 2 respuestas",
+                "no_voters": "Sin votos",
+                "option_placeholder": "Respuesta",
+                "options_label": "Respuestas",
+                "public_poll_label": "Permitir que la gente vea quién ha votado",
+                "question_placeholder": "Pregunta",
+                "submit": "Enviar"
+            },
+            "moderation": {
+                "delete": "Eliminar la encuesta",
+                "delete_confirm": "¿Estás seguro de que quieres eliminar esta encuesta?",
+                "edit": "Editar la encuesta"
+            },
+            "no_permission": "No tienes permiso para votar",
+            "poll_ended": "Esta encuesta ha terminado.",
+            "public_poll": "Ver los votantes",
+            "tooltip": {
+                "badge": "Encuesta",
+                "votes": "{count, plural, one {# voto} other {# votos}}"
+            },
+            "votes_modal": {
+                "title": "Votantes"
+            }
+        }
+    }
+}
