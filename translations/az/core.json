@@ -190,7 +190,7 @@
             },
             "permissions": {
                 "allow_hide_own_posts_label": "Öz postlarını silməyə icazə ver",
-                "allow_post_editing_label": "Postun redaktəsinə icazə ver",
+                "allow_post_editing_label": "Paylaşımın redaktəsinə icazə ver",
                 "allow_renaming_label": "Adının dəyişdirilməsinə icazə ver",
                 "create_access_token_label": "Giriş nişanı (access token) yaradın",
                 "create_heading": "Yarat",
@@ -219,7 +219,7 @@
                 "view_forum_label": "Forumu görüntülə (müzakirələr və istifadəçilər)",
                 "view_hidden_groups_label": "Gizli qrup nişanlarına bax",
                 "view_last_seen_at_label": "İstifadəçinin son görülmə vaxtına həmişə bax",
-                "view_post_ips_label": "Postun IP ünvanlarına bax"
+                "view_post_ips_label": "Paylaşımın IP ünvanlarına bax"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Sonsuza qədər",
@@ -310,7 +310,7 @@
                 "preview_tooltip": "Önizləmə"
             },
             "composer_discussion": {
-                "body_placeholder": "Yazı Yazın...",
+                "body_placeholder": "Yazı yazın...",
                 "discard_confirmation": "Müzakirənizi dərc etməmisiniz. Silinsin?",
                 "submit_button": "Müzakirəni paylaş",
                 "title": "=> core.ref.start_a_discussion",
@@ -319,7 +319,7 @@
             "composer_edit": {
                 "discard_confirmation": "Dəyişikliklərinizi yadda saxlamamısınız. Silinsin?",
                 "edited_message": "Redaktə edildi.",
-                "post_link": "{discussion}-də {number} nömrəli post",
+                "post_link": "{discussion}-də {number} nömrəli paylaşım",
                 "submit_button": "=> core.ref.save_changes",
                 "view_button": "=> core.ref.view"
             },
@@ -390,7 +390,7 @@
                 "oldest_button": "Ən köhnə",
                 "relevance_button": "Uyğunluq",
                 "toggle_dropdown_accessible_label": "Müzakirə siyahısının sıralamasını dəyiş",
-                "top_button": "Yuxarı"
+                "top_button": "Ən məhşur"
             },
             "log_in": {
                 "forgot_password_link": "Şifrəni unutmusunuz?",
@@ -416,20 +416,20 @@
             "post": {
                 "edited_text": "Redaktə edildi",
                 "edited_tooltip": "{username} {ago} redaktə etdi",
-                "number_tooltip": "Post #{number}"
+                "number_tooltip": "Paylaşım #{number}"
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Bu postu həmişəlik silmək istədiyinizə əminsiniz? Bu əməliyyatı geri qaytarmaq olmaz.",
+                "delete_confirmation": "Bu paylaşımı həmişəlik silmək istədiyinizə əminsiniz? Bu əməliyyatı geri qaytarmaq olmaz.",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
-                "hide_confirmation": "Bu postu silmək istədiyinizə əminsiniz?",
+                "hide_confirmation": "Bu paylaşımı silmək istədiyinizə əminsiniz?",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": "Post nəzarətləri menyusunu dəyişdir"
+                "toggle_dropdown_accessible_label": "Paylaşım nəzarətləri menyusunu dəyişdir"
             },
             "post_scrubber": {
                 "now_link": "İndi",
-                "original_post_link": "Orijinal Post",
+                "original_post_link": "Orijinal Paylaşım",
                 "unread_text": "{count} oxunmamış",
                 "viewing_text": "{index} / {formattedCount}"
             },
@@ -512,10 +512,10 @@
                 "avatar_upload_button": "Yüklə",
                 "avatar_upload_tooltip": "Yeni avatar yüklə",
                 "discussions_link": "=> core.ref.discussions",
-                "in_discussion_text": "Bu {discussion}",
+                "in_discussion_text": "{discussion} daxilində",
                 "joined_date_text": "{ago} qoşuldu",
                 "online_text": "Onlayn",
-                "posts_empty_text": "Deyəsən burada heç bir post yoxdur.",
+                "posts_empty_text": "Burada heç bir paylaşım yoxdur.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
                 "security_link": "=> core.ref.security",
