@@ -1,0 +1,63 @@
+{
+    "maicol07-oidc-client": {
+        "admin": {
+            "settings": {
+                "client": {
+                    "title": "",
+                    "subtitle": "",
+                    "id": "",
+                    "secret": "",
+                    "enable_pkce": "",
+                    "enable_nonce": "",
+                    "http_proxy": "",
+                    "cert_path": "",
+                    "verify_ssl": "",
+                    "timeout": "",
+                    "allow_implicit_flow": "",
+                    "skip_email_verified_check": ""
+                },
+                "callback_title": "",
+                "callback_subtitle": "",
+                "callback_logout_note": "",
+                "provider": {
+                    "title": "",
+                    "subtitle": "",
+                    "url": "",
+                    "endpoints": {
+                        "authorize": "",
+                        "token": "",
+                        "userinfo": "",
+                        "logout": "",
+                        "jwks": ""
+                    },
+                    "issuer": "",
+                    "code_challenge_method": "",
+                    "response_type": "",
+                    "id_token_signing_alg": "",
+                    "authorization_response_iss_parameter_supported": "",
+                    "token_endpoint_auth_method": ""
+                },
+                "other": {
+                    "title": "",
+                    "provider_name": "",
+                    "linker_claim": "",
+                    "manage_account_url": "",
+                    "manage_account_btn_open_in_new_tab": "",
+                    "sso_mode": "",
+                    "logout_from_provider": "",
+                    "remove_signup_btn": "",
+                    "sync_avatars": "",
+                    "time_drift": ""
+                }
+            }
+        },
+        "forum": {
+            "buttons": {
+                "manage_account": "",
+                "login": "",
+                "connect_account": "",
+                "disconnect_account": ""
+            }
+        }
+    }
+}

@@ -3,8 +3,10 @@
         "admin": {
             "settings": {
                 "enable_cache": "Activar la Redis cache",
+                "enable_redis_sessions": "Habilitar las Redis sessions (todos los usuarios se desconectarán después de cambiar esta configuración)",
                 "enable_queue": "Activar la Redis queue",
-                "enable_redis_sessions": "Habilitar las Redis sessions (todos los usuarios se desconectarán después de cambiar esta configuración)"
+                "horizon_config": "",
+                "horizon_help_text": ""
             }
         }
     }

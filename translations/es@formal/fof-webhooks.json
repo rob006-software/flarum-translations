@@ -2,74 +2,124 @@
     "fof-webhooks": {
         "actions": {
             "discussion": {
-                "started": "Nuevo tema `{1}`"
+                "started": "Nuevo tema `{1}`",
+                "renamed": {
+                    "title": "",
+                    "description": ""
+                },
+                "hidden": "",
+                "restored": "",
+                "deleted": ""
             },
             "group": {
+                "created": "",
+                "renamed": "",
                 "deleted": "Grupo `{1}` borrado"
             },
             "post": {
-                "deleted": "Mensaje borrado en `{1}`",
                 "posted": "Nuevo mensaje en `{1}`",
-                "revised": "Mensaje editado en `{1}`"
+                "revised": "Mensaje editado en `{1}`",
+                "hidden": "",
+                "restored": "",
+                "deleted": "Mensaje borrado en `{1}`",
+                "approved": ""
             },
             "user": {
-                "registered": "Nuevo usuario registrado"
+                "registered": "Nuevo usuario registrado",
+                "renamed": {
+                    "title": "",
+                    "description": ""
+                },
+                "deleted": ""
+            }
+        },
+        "adapters": {
+            "errors": {
+                "404": ""
             }
         },
         "admin": {
             "errors": {
                 "service_not_found": "El servicio '{service}' no puede ser encontrado.",
-                "url_invalid": "URL no válida para el servicio seleccionado."
+                "url_invalid": "URL no válida para el servicio seleccionado.",
+                "tag_invalid": "",
+                "tag_disabled": ""
+            },
+            "nav": {
+                "desc": ""
             },
             "settings": {
-                "actions": {
-                    "flarum": {
-                        "discussion": {
-                            "deleted": "=> fof-webhooks.ref.deleted",
-                            "hidden": "=> fof-webhooks.ref.hidden",
-                            "renamed": "=> fof-webhooks.ref.renamed",
-                            "restored": "=> fof-webhooks.ref.restored"
-                        },
-                        "group": {
-                            "deleted": "=> fof-webhooks.ref.deleted",
-                            "renamed": "=> fof-webhooks.ref.renamed"
-                        },
-                        "post": {
-                            "deleted": "=> fof-webhooks.ref.deleted",
-                            "hidden": "=> fof-webhooks.ref.hidden",
-                            "restored": "=> fof-webhooks.ref.restored"
-                        },
-                        "user": {
-                            "deleted": "=> fof-webhooks.ref.deleted",
-                            "renamed": "=> fof-webhooks.ref.renamed"
-                        }
-                    }
+                "debug_label": "",
+                "debug_help": "",
+                "item": {
+                    "tag_any_label": "Cualquiera"
                 },
                 "help": {
                     "disabled": "El webhook está deshabilitado porque no tiene ningún evento activo.",
                     "general": "Aquí puedes agregar, editar y eliminar webhooks de tu foro.",
+                    "tags": "",
                     "url": "El endpoint del webhook que se ejecutará"
                 },
-                "item": {
-                    "tag_any_label": "Cualquiera"
-                },
                 "modal": {
+                    "title": "Configuración de webhook",
                     "description": "Aquí se modifican los eventos en los que se activa el webhook.",
-                    "events_label": "Eventos",
-                    "extra_text_help": "Texto adicional para incluir en el webhook enviado.",
-                    "extra_text_label": "Texto adicional",
-                    "group_help": "Enviar recursos que este grupo pueda ver",
-                    "group_label": "Grupo",
-                    "max_post_content_length_help": "Establece un número para limitar el contenido de la publicación en todos los eventos relacionados con la publicación. Cambia a 0 o nada para eliminar el límite.",
+                    "use_plain_text_label": "",
                     "max_post_content_length_label": "Longitud máxima del contenido de la publicación",
-                    "title": "Configuración de webhook"
+                    "max_post_content_length_help": "Establece un número para limitar el contenido de la publicación en todos los eventos relacionados con la publicación. Cambia a 0 o nada para eliminar el límite.",
+                    "extra_text_label": "Texto adicional",
+                    "extra_text_help": "Texto adicional para incluir en el webhook enviado.",
+                    "group_label": "Grupo",
+                    "group_help": "Enviar recursos que este grupo pueda ver",
+                    "events_label": "Eventos"
                 },
                 "services": {
                     "discord": "Discord",
-                    "microsoft-teams": "Microsoft Teams",
-                    "slack": "Slack"
+                    "slack": "Slack",
+                    "microsoft-teams": "Microsoft Teams"
+                },
+                "actions": {
+                    "flarum": {
+                        "discussion": {
+                            "title": "",
+                            "started": "",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
+                        },
+                        "group": {
+                            "title": "",
+                            "created": "",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
+                        },
+                        "post": {
+                            "title": "",
+                            "posted": "",
+                            "revised": "",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
+                        },
+                        "user": {
+                            "title": "",
+                            "registered": "",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
+                        },
+                        "approval": {
+                            "title": "",
+                            "postwasapproved": ""
+                        }
+                    }
                 }
             }
+        },
+        "ref": {
+            "deleted": "",
+            "hidden": "",
+            "renamed": "",
+            "restored": ""
         }
     }
 }

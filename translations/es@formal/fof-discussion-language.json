@@ -1,25 +1,10 @@
 {
     "fof-discussion-language": {
-        "admin": {
-            "permissions": {
-                "allow_change_language_label": "Permitir la edición de idioma"
-            },
-            "settings": {
-                "composer_default_label": "Preseleccionar la configuración regional actual en el redactor de debates",
-                "native_label": "Utilice nombres de lengua materna",
-                "show_flag_label": "Mostrar banderas de países con nombres de idiomas"
-            }
-        },
-        "api": {
-            "discussion": {
-                "validation_error": "Debes seleccionar el idioma de tu discusión."
-            }
-        },
         "forum": {
             "change_language": {
                 "edit_title": "Edición de idioma para {title}",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Edición de idioma"
+                "title": "Edición de idioma",
+                "submit_button": "=> core.ref.save_changes"
             },
             "composer_discussion": {
                 "choose_language_link": "Idioma"
@@ -29,6 +14,31 @@
             },
             "index_language": {
                 "any": "Cualquier Idioma"
+            }
+        },
+        "admin": {
+            "settings": {
+                "native_label": "Utilice nombres de lengua materna",
+                "show_flag_label": "Mostrar banderas de países con nombres de idiomas",
+                "composer_default_label": "Preseleccionar la configuración regional actual en el redactor de debates",
+                "locale_sort_label": "",
+                "show_any_lang_opt_label": "",
+                "tags_page_discussion_locale_label": "",
+                "errors": {
+                    "missing_assets": ""
+                },
+                "config": {
+                    "language_label": "",
+                    "country_label": ""
+                }
+            },
+            "permissions": {
+                "allow_change_language_label": "Permitir la edición de idioma"
+            }
+        },
+        "api": {
+            "discussion": {
+                "validation_error": "Debes seleccionar el idioma de tu discusión."
             }
         }
     }

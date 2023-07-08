@@ -3,6 +3,10 @@
         "admin": {
             "permissions": {
                 "like_posts_label": "Gustar publicaciones"
+            },
+            "settings": {
+                "like_own_posts_help": "",
+                "like_own_posts_label": ""
             }
         },
         "forum": {
@@ -19,10 +23,14 @@
                 "you_text": "=> core.ref.you"
             },
             "post_likes": {
-                "title": "Usuarios a quienes les gusta esto"
+                "title": "Usuarios a quienes les gusta esto",
+                "load_more_button": ""
             },
             "settings": {
                 "notify_post_liked_label": "A alguien le gusta su publicación"
+            },
+            "user": {
+                "likes_link": ""
             }
         }
     }

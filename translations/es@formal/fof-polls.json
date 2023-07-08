@@ -1,24 +1,31 @@
 {
     "fof-polls": {
         "admin": {
+            "settings": {
+                "allow_option_image": ""
+            },
             "permissions": {
-                "change_vote": "Cambiar el voto",
-                "moderate": "Editar y eliminar encuestas",
-                "self_edit": "Permitir a los usuarios editar sus propias encuestas",
-                "start": "Iniciar una encuesta",
                 "view_results_without_voting": "Ver los resultados sin votar",
-                "vote": "Votar en las encuestas"
+                "start": "Iniciar una encuesta",
+                "self_edit": "Permitir a los usuarios editar sus propias encuestas",
+                "vote": "Votar en las encuestas",
+                "change_vote": "Cambiar el voto",
+                "moderate": "Editar y eliminar encuestas"
             }
         },
         "forum": {
+            "days_remaining": "La encuesta termina en {hora}.",
+            "no_permission": "No tienes permiso para votar",
+            "poll_ended": "Esta encuesta ha terminado.",
+            "public_poll": "Ver los votantes",
+            "max_votes_allowed": "",
             "composer_discussion": {
                 "add_poll": "Añadir encuesta",
                 "edit_poll": "=> fof-polls.forum.moderation.edit"
             },
-            "days_remaining": "La encuesta termina en {hora}.",
             "modal": {
-                "add_option_label": "Añadir una opción",
                 "add_title": "Añadir una encuesta",
+                "add_option_label": "Añadir una opción",
                 "date_placeholder": "Fecha de finalización de la encuesta (opcional)",
                 "edit_title": "Editar la encuesta",
                 "include_question": "Debe incluir una pregunta",
@@ -26,8 +33,12 @@
                 "min": "Debe incluir un mínimo de 2 respuestas",
                 "no_voters": "Sin votos",
                 "option_placeholder": "Respuesta",
+                "image_option_placeholder": "",
                 "options_label": "Respuestas",
                 "public_poll_label": "Permitir que la gente vea quién ha votado",
+                "allow_multiple_votes_label": "",
+                "max_votes_label": "",
+                "max_votes_help": "",
                 "question_placeholder": "Pregunta",
                 "submit": "Enviar"
             },
@@ -36,9 +47,6 @@
                 "delete_confirm": "¿Estás seguro de que quieres eliminar esta encuesta?",
                 "edit": "Editar la encuesta"
             },
-            "no_permission": "No tienes permiso para votar",
-            "poll_ended": "Esta encuesta ha terminado.",
-            "public_poll": "Ver los votantes",
             "tooltip": {
                 "badge": "Encuesta",
                 "votes": "{count, plural, one {# voto} other {# votos}}"

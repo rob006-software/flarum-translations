@@ -2,7 +2,8 @@
     "fof-share-social": {
         "admin": {
             "settings": {
-                "canonical-urls": "Usar URLs canónicas para compartir"
+                "canonical-urls": "Usar URLs canónicas para compartir",
+                "plain-copy": ""
             }
         },
         "forum": {
@@ -10,22 +11,24 @@
                 "share_button": "Compartir"
             },
             "modal": {
-                "title": "Compartir"
+                "title": "Compartir",
+                "copy_button": ""
             }
         },
         "lib": {
             "networks": {
                 "facebook": "Facebook",
+                "twitter": "Twitter",
                 "linkedin": "LinkedIn",
-                "my_mail": "My World",
+                "reddit": "Reddit",
+                "whatsapp": "WhatsApp",
+                "telegram": "Telegram",
+                "vkontakte": "VKontakte",
                 "odnoklassniki": "Odnoklassniki",
+                "my_mail": "My World",
                 "qq": "QQ",
                 "qzone": "QZone",
-                "reddit": "Reddit",
-                "telegram": "Telegram",
-                "twitter": "Twitter",
-                "vkontakte": "VKontakte",
-                "whatsapp": "WhatsApp"
+                "native": ""
             }
         }
     }

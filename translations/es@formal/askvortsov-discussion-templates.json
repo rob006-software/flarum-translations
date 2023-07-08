@@ -2,7 +2,23 @@
     "askvortsov-discussion-templates": {
         "admin": {
             "permissions": {
-                "manage_own_discussion_reply_templates": "Gestionar plantillas de respuesta para sus discusiones"
+                "manage_own_discussion_reply_templates": "Gestionar plantillas de respuesta para sus discusiones",
+                "manage_all_reply_templates": ""
+            },
+            "settings": {
+                "no_tag_template": "",
+                "append_template_on_tag_change": "",
+                "append_template_on_tag_change_help": ""
+            },
+            "tags": {
+                "tag_template_heading": "",
+                "tag_template_text": "",
+                "tag_template_button": ""
+            },
+            "tag_template_modal": {
+                "title": "",
+                "customize_text": "",
+                "submit_button": ""
             }
         },
         "forum": {
@@ -10,8 +26,8 @@
                 "reply_template_button": "Editar Plantilla de Respuesta"
             },
             "reply_template": {
-                "submit_button": "Guardar Plantilla",
-                "title": "Editar Plantilla de Respuesta"
+                "title": "Editar Plantilla de Respuesta",
+                "submit_button": "Guardar Plantilla"
             }
         }
     }

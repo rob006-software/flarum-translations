@@ -28,6 +28,9 @@
                 "restrict_by_tag_heading": "Restringir por etiqueta",
                 "tag_discussions_label": "Etiquetar discusiones"
             },
+            "settings": {
+                "button_text": ""
+            },
             "tag_settings": {
                 "range_separator_text": " a ",
                 "required_primary_heading": "Número de etiquetas principales requeridas",
@@ -51,11 +54,11 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
+                "edit_title": "Editar las etiquetas para '{title}'",
+                "title": "Elija las etiquetas para su discusión",
                 "choose_primary_placeholder": "{count, plural, one {Elija una etiqueta principal} other {Elija # etiquetas primarias}}",
                 "choose_secondary_placeholder": "{count, plural, one {Elija 1 etiqueta más} other {Elija # más etiquetas}}",
-                "edit_title": "Editar las etiquetas para '{title}'",
-                "submit_button": "=> core.ref.okay",
-                "title": "Elija las etiquetas para su discusión"
+                "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
                 "choose_tags_link": "Elegir etiquetas"
@@ -82,9 +85,19 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "Borrada"
+            "deleted_tag_text": "Borrada",
+            "tag_selection_modal": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "",
+                "choose_secondary_placeholder": "",
+                "choose_tags_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            }
         },
         "ref": {
+            "choose_tags": "",
+            "choose_tags_placeholder": "",
             "name": "Nombre",
             "tags": "Etiquetas"
         }

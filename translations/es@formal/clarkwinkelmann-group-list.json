@@ -1,16 +1,16 @@
 {
     "clarkwinkelmann-group-list": {
         "admin": {
-            "items": {
-                "add": "Agregar un grupo"
-            },
             "permissions": {
                 "see": "Ver grupos de usuarios"
             },
             "settings": {
+                "showSideNavLink": "Mostrar enlace en la barra de lateral",
                 "showAvatarBadges": "Mostrar otras insignias al costado de la foto de perfil",
-                "showOnlineStatus": "Mostrar estado",
-                "showSideNavLink": "Mostrar enlace en la barra de lateral"
+                "showOnlineStatus": "Mostrar estado"
+            },
+            "items": {
+                "add": "Agregar un grupo"
             }
         },
         "forum": {

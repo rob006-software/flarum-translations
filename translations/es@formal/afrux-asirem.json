@@ -1,33 +1,18 @@
 {
     "afrux-theme-base": {
         "admin": {
+            "extensions": {
+                "title": "Extensiones",
+                "description": "Lista de todas las extensiones instaladas."
+            },
             "extension": {
                 "sections": {
                     "content": "Ajustes principales",
                     "permissions": "Permisos"
                 }
             },
-            "extensions": {
-                "description": "Lista de todas las extensiones instaladas.",
-                "title": "Extensiones"
-            },
             "header": {
                 "go_back": "Volver al foro"
-            },
-            "settings": {
-                "edit_footer_links": "Editar los enlaces del pie de página",
-                "footer_bottom_line": "Línea de pie de página",
-                "footer_description": "Descripción del pie de página",
-                "hero_banner": "Imagen del hero de bienvenida",
-                "hero_banner_position": "Posición CSS de la Imagen Hero (ejemplo: 'center top' o 'center 20%')",
-                "links_modal": {
-                    "add_group": "Nuevo grupo de enlaces",
-                    "add_link": "Añadir un enlace",
-                    "group_name": "Nombre del grupo {número}",
-                    "group_title": "Enlace Título del grupo",
-                    "link_label": "Etiqueta de enlace",
-                    "link_url": "Enlace URL"
-                }
             },
             "users": {
                 "grid": {
@@ -36,6 +21,21 @@
                             "title": "Avatar"
                         }
                     }
+                }
+            },
+            "settings": {
+                "edit_footer_links": "Editar los enlaces del pie de página",
+                "footer_description": "Descripción del pie de página",
+                "footer_bottom_line": "Línea de pie de página",
+                "hero_banner": "Imagen del hero de bienvenida",
+                "hero_banner_position": "Posición CSS de la Imagen Hero (ejemplo: 'center top' o 'center 20%')",
+                "links_modal": {
+                    "add_group": "Nuevo grupo de enlaces",
+                    "group_name": "Nombre del grupo {número}",
+                    "group_title": "Enlace Título del grupo",
+                    "add_link": "Añadir un enlace",
+                    "link_url": "Enlace URL",
+                    "link_label": "Etiqueta de enlace"
                 }
             }
         }

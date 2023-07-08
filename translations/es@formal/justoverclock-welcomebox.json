@@ -1,23 +1,23 @@
 {
     "flarum-ext-welcomebox": {
+        "forum": {
+            "wback": "Bienvenido de nuevo,",
+            "npost": "=> core.ref.posts",
+            "discussion": "=> core.ref.discussions",
+            "welcomeguest": "Bienvenido Invitado",
+            "notregistered": "Actualmente no estás registrado en este foro.",
+            "goToProfile": "Perfil",
+            "SettingsLink": "Configuración",
+            "tooltipProfile": "Perfil",
+            "tooltipMentions": "Menciones",
+            "tooltipDisclist": "Mis discusiones",
+            "lastSeen": "Última Visita"
+        },
         "admin": {
-            "UseWidget": "Usar la versión Widget",
             "enablepostbox": "Habilitar el cuadro de bienvenida para invitados",
             "img": "URL de imagen (invitados)",
-            "img-help": "pon aquí la URL de la imagen para el cuadro de invitados"
-        },
-        "forum": {
-            "SettingsLink": "Configuración",
-            "discussion": "=> core.ref.discussions",
-            "goToProfile": "Perfil",
-            "lastSeen": "Última Visita",
-            "notregistered": "Actualmente no estás registrado en este foro.",
-            "npost": "=> core.ref.posts",
-            "tooltipDisclist": "Mis discusiones",
-            "tooltipMentions": "Menciones",
-            "tooltipProfile": "Perfil",
-            "wback": "Bienvenido de nuevo,",
-            "welcomeguest": "Bienvenido Invitado"
+            "img-help": "pon aquí la URL de la imagen para el cuadro de invitados",
+            "UseWidget": "Usar la versión Widget"
         }
     }
 }

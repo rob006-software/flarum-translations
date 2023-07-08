@@ -9,21 +9,46 @@
     },
     "michaelbelgium-discussion-views": {
         "forum": {
+            "modal_resetviews": {
+                "title": "Restablecer el recuento de visitas de discusión",
+                "submit_button": "Sí, eliminar todo",
+                "label": ""
+            },
             "discussion_controls": {
                 "resetviews_button": "Restablecer vistas"
             },
-            "modal_resetviews": {
-                "submit_button": "Sí, eliminar todo",
-                "title": "Restablecer el recuento de visitas de discusión"
+            "viewlist": {
+                "title": "Últimos visitantes",
+                "guest": "Invitado"
             },
             "post": {
-                "others_link": "=> core.ref.some_others",
                 "viewed_by": "{users} vieron esto.",
-                "you": "=> core.ref.you"
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": ""
+            }
+        },
+        "admin": {
+            "permissions": {
+                "reset_views_label": "",
+                "view_number_label": ""
             },
-            "viewlist": {
-                "guest": "Invitado",
-                "title": "Últimos visitantes"
+            "settings": {
+                "title": "",
+                "track_unique_label": "",
+                "track_unique_text": "",
+                "track_guests_label": "",
+                "abbr_numbers_label": "",
+                "abbr_numbers_text": "",
+                "show_filter_label": "",
+                "max_viewcount_label": "",
+                "max_viewcount_text": "",
+                "show_viewlist_label": "",
+                "show_viewlist_text": "",
+                "show_footer_viewlist_label": "",
+                "show_footer_viewlist_text": "",
+                "ignore_crawlers_label": "",
+                "ignore_crawlers_text": ""
             }
         }
     }

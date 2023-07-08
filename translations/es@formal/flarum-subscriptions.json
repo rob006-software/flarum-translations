@@ -1,11 +1,5 @@
 {
     "flarum-subscriptions": {
-        "email": {
-            "new_post": {
-                "body": "Hey {recipient_display_name}!\n\n{poster_display_name} hizo una publicación en una discusión que usted está siguiendo: {title}.\n\nPara ver la nueva actividad, consulte el siguiente enlace:\n{url}\n\n---\n\n{content}\n\n---\n\nNo recibirá más notificaciones sobre esta discusión hasta que haya más actualizaciones.\n",
-                "subject": "[Nueva publicación] {title}"
-            }
-        },
         "forum": {
             "badge": {
                 "following_tooltip": "=> flarum-subscriptions.ref.following",
@@ -27,6 +21,7 @@
             },
             "settings": {
                 "follow_after_reply_label": "Seguir automáticamente las discusiones en las que usted participe",
+                "notify_for_all_posts_label": "",
                 "notify_new_post_label": "Alguién publicó en una discusión que usted sigue"
             },
             "sub_controls": {
@@ -39,6 +34,12 @@
                 "not_following_text": "Ser notificado sólo cuando te @mencionen.",
                 "notify_alert_tooltip": "Recibir una notificación del foro cuando haya nuevas publicaciones",
                 "notify_email_tooltip": "Recibir un e-mail cuando haya nuevas publicaciones"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "[Nueva publicación] {title}",
+                "body": "Hey {recipient_display_name}!\n\n{poster_display_name} hizo una publicación en una discusión que usted está siguiendo: {title}.\n\nPara ver la nueva actividad, consulte el siguiente enlace:\n{url}\n\n---\n\n{content}\n\n---\n\nNo recibirá más notificaciones sobre esta discusión hasta que haya más actualizaciones.\n"
             }
         },
         "ref": {

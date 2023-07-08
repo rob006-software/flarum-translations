@@ -1,60 +1,62 @@
 {
     "fof-reactions": {
+        "forum": {
+            "disabled-reaction": "No es posible ocupar esta reacción ahora, por favor refresca la página",
+            "warning": "La reacción fue convertida",
+            "notification": "{username} reaccionó a tu mensaje con {reaction}",
+            "settings": {
+                "notify_post_reacted_label": "Cuando alguien reaccione a uno de mis mensajes"
+            },
+            "reacting-own-post": "No puedes reaccionar a tu propio mensaje",
+            "modal": {
+                "title": "Reacciones"
+            },
+            "mod_item": "Ver Reacciones",
+            "react_button_label": "Reaccionar"
+        },
         "admin": {
+            "permissions": {
+                "react_posts_label": "Reaccionar a mensajes",
+                "see_reactions_label": "Ver quién ha reaccionado a los mensajes"
+            },
             "page": {
-                "convert": {
-                    "button": "Convertir reacciones antiguas",
-                    "converted": "Se han convertido {number} me gusta de manera exitosa",
-                    "converting": "Tus reacciones se están convirtiendo. Refresca la página tras unos minutos para revisar el proceso. (El tiempo estimado de conversión puede variar dependiendo de la cantidad de reacciones)",
-                    "help": "Si actualizaste la extensión, tus reacciones deberán ser convertidas. Si instalaste esta extensión por primera vez, puedes ignorar este mensaje."
-                },
                 "reactions": {
+                    "title": "Reacciones Personalizadas",
+                    "reactions": "Reacciones Actuales",
                     "Helptext": "Escribe el nombre (identificador) del emoji o ícono de font-awesome y selecciona uno de los dos tipos.",
                     "help": {
                         "display": "Texto a mostrar",
                         "identifier": "Identificador"
-                    },
-                    "reactions": "Reacciones Actuales",
-                    "title": "Reacciones Personalizadas"
+                    }
+                },
+                "convert": {
+                    "help": "Si actualizaste la extensión, tus reacciones deberán ser convertidas. Si instalaste esta extensión por primera vez, puedes ignorar este mensaje.",
+                    "button": "Convertir reacciones antiguas",
+                    "converting": "Tus reacciones se están convirtiendo. Refresca la página tras unos minutos para revisar el proceso. (El tiempo estimado de conversión puede variar dependiendo de la cantidad de reacciones)",
+                    "converted": "Se han convertido {number} me gusta de manera exitosa"
                 },
                 "settings": {
+                    "react_own_posts_help": "",
+                    "react_own_posts_label": "",
+                    "save_settings": "Guardar cambios",
                     "integrations": {
-                        "gamification": {
-                            "downvoteHelptext": "Escribe el identificador de la reacción que te gustaría convertir automáticamente en un voto en contra",
-                            "downvoteLabel": "Convertir reacciones a votos en contra",
-                            "legend": "Gamificación",
-                            "upvoteHelptext": "Escribe el identificador de la reacción que quieres convertir de manera automática en un voto a favor",
-                            "upvoteLabel": "Convertir reacciones en votos a favor"
-                        },
                         "legend": "Integraciones",
-                        "likes": {
-                            "Helptext": "Escribe el identificador de la reacción que te gustaría convertir automáticamente en un Me gusta",
-                            "Label": "Convertir reacciones a Me gusta",
-                            "legend": "Me gusta"
+                        "warning": "La misma reacción <strong>no puede</strong> ser convertida a un Me gusta <strong>y a un</strong> voto a favor",
+                        "gamification": {
+                            "legend": "Gamificación",
+                            "upvoteLabel": "Convertir reacciones en votos a favor",
+                            "upvoteHelptext": "Escribe el identificador de la reacción que quieres convertir de manera automática en un voto a favor",
+                            "downvoteLabel": "Convertir reacciones a votos en contra",
+                            "downvoteHelptext": "Escribe el identificador de la reacción que te gustaría convertir automáticamente en un voto en contra"
                         },
-                        "warning": "La misma reacción <strong>no puede</strong> ser convertida a un Me gusta <strong>y a un</strong> voto a favor"
-                    },
-                    "save_settings": "Guardar cambios"
+                        "likes": {
+                            "legend": "Me gusta",
+                            "Label": "Convertir reacciones a Me gusta",
+                            "Helptext": "Escribe el identificador de la reacción que te gustaría convertir automáticamente en un Me gusta"
+                        }
+                    }
                 }
-            },
-            "permissions": {
-                "react_posts_label": "Reaccionar a mensajes",
-                "see_reactions_label": "Ver quién ha reaccionado a los mensajes"
             }
-        },
-        "forum": {
-            "disabled-reaction": "No es posible ocupar esta reacción ahora, por favor refresca la página",
-            "mod_item": "Ver Reacciones",
-            "modal": {
-                "title": "Reacciones"
-            },
-            "notification": "{username} reaccionó a tu mensaje con {reaction}",
-            "react_button_label": "Reaccionar",
-            "reacting-own-post": "No puedes reaccionar a tu propio mensaje",
-            "settings": {
-                "notify_post_reacted_label": "Cuando alguien reaccione a uno de mis mensajes"
-            },
-            "warning": "La reacción fue convertida"
         }
     }
 }

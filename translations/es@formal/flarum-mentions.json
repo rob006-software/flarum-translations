@@ -1,13 +1,12 @@
 {
     "flarum-mentions": {
-        "email": {
-            "post_mentioned": {
-                "body": "Hey {recipient_display_name}!\n\n{replier_display_name} respondió a su publicación (#{post_number}) en {title}.\n\n{url}\n\n---\n\n{content}\n",
-                "subject": "{replier_display_name} respondió a su publicación en {title}"
+        "admin": {
+            "permissions": {
+                "mention_groups_label": ""
             },
-            "user_mentioned": {
-                "body": "Hey {recipient_display_name}!\n\n{mencioner_display_name} le mencionó en una publicación en {title}.\n\n{url}\n\n---\n\n{content}\n",
-                "subject": "{mencioner_display_name} le mencionó en {title}"
+            "settings": {
+                "allow_username_format_label": "",
+                "allow_username_format_text": ""
             }
         },
         "forum": {
@@ -15,12 +14,18 @@
                 "mention_tooltip": "Mencionar a un usuario o publicación",
                 "reply_to_post_text": "Respuesta a #{number}"
             },
+            "mentioned_by": {
+                "title": "",
+                "load_more_button": ""
+            },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{count, plural, one {{username} respondió a su publicación.} other {{username} respondieron a su publicación.}}",
-                "user_mentioned_text": "{username} le mencionó"
+                "user_mentioned_text": "{username} le mencionó",
+                "group_mentioned_text": ""
             },
             "post": {
+                "mentioned_by_more_text": "",
                 "mentioned_by_self_text": "{count, plural, one {{users} respondiste a esto} other {{users} respondísteis a esto}}",
                 "mentioned_by_text": "{count, plural, one {{users} respondió a esto} other {{users} respondieron a esto}}",
                 "others_text": "=> core.ref.some_others",
@@ -30,10 +35,31 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "Alguien respondió a su publicación",
-                "notify_user_mentioned_label": "Alguien le mencionó en una publicación"
+                "notify_user_mentioned_label": "Alguien le mencionó en una publicación",
+                "notify_group_mentioned_label": ""
             },
             "user": {
                 "mentions_link": "Menciones"
+            },
+            "post_mention": {
+                "deleted_text": ""
+            },
+            "group_mention": {
+                "deleted_text": ""
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "{replier_display_name} respondió a su publicación en {title}",
+                "body": "Hey {recipient_display_name}!\n\n{replier_display_name} respondió a su publicación (#{post_number}) en {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "user_mentioned": {
+                "subject": "{mencioner_display_name} le mencionó en {title}",
+                "body": "Hey {recipient_display_name}!\n\n{mencioner_display_name} le mencionó en una publicación en {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "group_mentioned": {
+                "subject": "",
+                "body": ""
             }
         }
     }

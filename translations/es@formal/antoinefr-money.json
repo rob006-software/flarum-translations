@@ -1,26 +1,38 @@
 {
     "antoinefr-money": {
         "admin": {
+            "settings": {
+                "title": "Ajustes",
+                "moneyforpost": "Dinero entregado por un nuevo post",
+                "moneyfordiscussion": "Dinero entregado por una nueva discusión",
+                "moneyname": "Nombre del dinero (por ejemplo: [money] puntos)",
+                "postminimumlength": "Longitud mínima del post para obtener el dinero (0 para desactivar)",
+                "noshowzero": "No mostrar si el valor es cero",
+                "autoremove": "",
+                "moneyforlike": "",
+                "helpextensionlikes": ""
+            },
             "permissions": {
                 "edit_money_label": "Editar dinero"
             },
-            "settings": {
-                "moneyfordiscussion": "Dinero entregado por una nueva discusión",
-                "moneyforpost": "Dinero entregado por un nuevo post",
-                "moneyname": "Nombre del dinero (por ejemplo: [money] puntos)",
-                "noshowzero": "No mostrar si el valor es cero",
-                "postminimumlength": "Longitud mínima del post para obtener el dinero (0 para desactivar)",
-                "title": "Ajustes"
+            "autoremove": [
+                "",
+                "",
+                ""
+            ],
+            "automoderator": {
+                "metric_name": "",
+                "action_name": ""
             }
         },
         "forum": {
-            "modal": {
-                "current": "Actual:",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Dinero de {username}"
-            },
             "user_controls": {
                 "money_button": "Editar dinero"
+            },
+            "modal": {
+                "title": "Dinero de {username}",
+                "current": "Actual:",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }

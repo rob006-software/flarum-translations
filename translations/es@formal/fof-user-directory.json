@@ -1,50 +1,54 @@
 {
     "fof-user-directory": {
-        "admin": {
-            "permissions": {
-                "view_user_directory": "Ver directorio de usuarios"
-            },
-            "settings": {
-                "default-sort": "Ordenar por defecto",
-                "disable-global-search-source": "No añadir el Directorio de Usuarios al campo de búsqueda global de Flarum",
-                "link": "Añadir enlace en la página de inicio para que los usuarios puedan ver el directorio",
-                "use-small-cards": "Utilizar tarjetas de usuario pequeñas"
-            }
-        },
         "forum": {
             "header": {
                 "back_to_user_directory_tooltip": "Volver al directorio de usuarios"
             },
-            "page": {
-                "empty_text": "No hemos podido encontrar ningún usuario que coincida con su búsqueda.",
-                "filter_button": "Filtrar grupos",
-                "load_more_button": "=> core.ref.load_more",
-                "nav": "Directorio de usuarios",
-                "refresh_tooltip": "=> core.forum.index.refresh_tooltip"
-            },
             "search": {
+                "users_heading": "Buscar usuarios por \"{query}\"",
                 "field": {
                     "placeholder": "Buscar todos los usuarios"
                 },
                 "kinds": {
                     "group": "Grupo",
                     "text": "Texto libre"
-                },
-                "users_heading": "Buscar usuarios por \"{query}\""
+                }
+            },
+            "page": {
+                "nav": "Directorio de usuarios",
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "No hemos podido encontrar ningún usuario que coincida con su búsqueda.",
+                "filter_button": "Filtrar grupos",
+                "usercard": {
+                    "discussion-count": "",
+                    "post-count": ""
+                }
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view_user_directory": "Ver directorio de usuarios"
+            },
+            "settings": {
+                "link": "Añadir enlace en la página de inicio para que los usuarios puedan ver el directorio",
+                "default-sort": "Ordenar por defecto",
+                "use-small-cards": "Utilizar tarjetas de usuario pequeñas",
+                "disable-global-search-source": "No añadir el Directorio de Usuarios al campo de búsqueda global de Flarum"
             }
         },
         "lib": {
             "sort": {
+                "not_specified": "Utilizar Flarum por defecto",
                 "default": "Predeterminado",
-                "least_discussions": "Menos discusiones",
+                "username_az": "Nombre de usuario (a-z)",
+                "username_za": "Nombre de usuario (z-a)",
+                "newest": "Más reciente",
+                "oldest": "Más antiguo",
+                "most_posts": "Más publicaciones",
                 "least_posts": "Menos publicaciones",
                 "most_discussions": "Más discusiones",
-                "most_posts": "Más publicaciones",
-                "newest": "Más reciente",
-                "not_specified": "Utilizar Flarum por defecto",
-                "oldest": "Más antiguo",
-                "username_az": "Nombre de usuario (a-z)",
-                "username_za": "Nombre de usuario (z-a)"
+                "least_discussions": "Menos discusiones"
             }
         }
     }

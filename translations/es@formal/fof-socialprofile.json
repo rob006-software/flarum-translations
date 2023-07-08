@@ -2,9 +2,9 @@
     "fof-socialprofile": {
         "admin": {
             "permissions": {
-                "editAny": "Editar cualquier perfil social",
+                "view": "Ver perfil social",
                 "editOwn": "Editar su propio perfil social",
-                "view": "Ver perfil social"
+                "editAny": "Editar cualquier perfil social"
             },
             "settings": {
                 "allow_external_favicons_label": "Permitir iconos de sitios externos"
@@ -12,17 +12,17 @@
         },
         "forum": {
             "edit": {
+                "edit": "Editar tus redes sociales",
                 "add": "Agregar botones a redes sociales",
+                "headtitle": "Editar botones",
+                "title": "Título",
+                "url": "Dirección web",
+                "submit": "Guardar",
                 "delete": "Borrar",
                 "deletetitle": "Borrar botón",
-                "edit": "Editar tus redes sociales",
-                "favicon": "Favicon",
-                "grey_favicon": "Favicon gris",
-                "headtitle": "Editar botones",
                 "save_disabled_fetching_favicons": "Uno o más iconos están siendo procesados. Por favor, espera.",
-                "submit": "Guardar",
-                "title": "Título",
-                "url": "Dirección web"
+                "favicon": "Favicon",
+                "grey_favicon": "Favicon gris"
             }
         }
     }

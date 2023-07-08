@@ -1,23 +1,23 @@
 {
     "sycho-profile-cover": {
         "admin": {
+            "thumbnails": "Crear miniaturas",
             "max_size": "Tamaño máximo de la foto de portada (en KB)",
             "permission": {
                 "set_cover": "Añadir foto de portada"
-            },
-            "thumbnails": "Crear miniaturas"
+            }
         },
         "forum": {
-            "added": {
-                "error": "No fue posible subir la imagen.",
-                "success": "Foto de perfil actualizada."
-            },
             "cover": "Foto de portada",
             "edit_cover": "Editar foto de portada",
             "notice": "Tamaño máximo: {size}",
+            "added": {
+                "success": "Foto de perfil actualizada.",
+                "error": "No fue posible subir la imagen."
+            },
             "removed": {
-                "error": "No ha sido posible eliminar la foto de portada, por favor intenta nuevamente.",
-                "success": "Foto de portada eliminada."
+                "success": "Foto de portada eliminada.",
+                "error": "No ha sido posible eliminar la foto de portada, por favor intenta nuevamente."
             }
         }
     }
