@@ -2,49 +2,49 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "Yazıları bildir",
-                "view_flags_label": "Bildirilmiş yazılar"
+                "flag_posts_label": "Paylaşımları bildir",
+                "view_flags_label": "Bildirilmiş paylaşımlar"
             },
             "settings": {
-                "flag_own_posts_label": "İstifadəçilərə öz yazılarını qeyd etməyə icazə verin",
-                "guidelines_url_label": "İcma Təlimatları URL",
-                "title": "Bildiriş ayarları"
+                "flag_own_posts_label": "İstifadəçilərə öz paylaşımlarını bildirməyə etməyə icazə ver",
+                "guidelines_url_label": "İcma Qaydaları URL",
+                "title": "Bildiriş Parametrləri"
             }
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "Bu yazını bizə bildirdiyiniz üçün təşəkkür edirik. Moderatorlarımız bunu araşdıracaq.",
+                "confirmation_message": "Bu paylaşımı bizə bildirdiyiniz üçün təşəkkür edirik. Moderatorlarımız bunu araşdıracaq.",
                 "dismiss_button": "=> core.ref.okay",
                 "reason_details_placeholder": "Əlavə məlumat (istəyə bağlı)",
                 "reason_inappropriate_label": "Uyğun deyil",
-                "reason_inappropriate_text": "Bu yazı təhqiramiz, təhqiramiz və ya <a> icma qaydalarımızı </a> pozur.",
+                "reason_inappropriate_text": "Bu paylaşım təhqiramizdir və ya <a>icma qaydalarımızı</a> pozur.",
                 "reason_missing_message": "Zəhmət olmasa moderatorlarımız üçün bəzi detallar verin.",
                 "reason_off_topic_label": "Mövzudan kənar",
-                "reason_off_topic_text": "Bu yazı hazırkı müzakirə ilə əlaqəli deyil və başqa yerə köçürülməlidir.",
+                "reason_off_topic_text": "Bu paylaşım hazırkı müzakirə ilə əlaqəli deyil və başqa yerə köçürülməlidir.",
                 "reason_other_label": "Digər (qeyd edin)",
                 "reason_spam_label": "Spam",
-                "reason_spam_text": "Bu yazı bir reklamdır.",
+                "reason_spam_text": "Bu paylaşım bir reklamdır.",
                 "submit_button": "=> flarum-flags.ref.flag_post",
                 "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
-                "empty_text": "Bildirilmiş mövzu yoxdur",
-                "item_text": "{username} in <em>{discussion}</em>",
+                "empty_text": "Bildirilmiş paylaşım yoxdur",
+                "item_text": "{username} <em>{discussion}</em> daxilində",
                 "title": "=> flarum-flags.ref.flagged_posts",
                 "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
                 "dismiss_flag_button": "Bildirişi rədd et",
-                "flagged_by_text": "Bildirən {username}",
-                "flagged_by_with_reason_text": "Bildirən {username} as {reason}"
+                "flagged_by_text": "Bildirən: {username}",
+                "flagged_by_with_reason_text": "Bildirən: {username}. Səbəb: {reason}"
             },
             "post_controls": {
                 "flag_button": "Bildir"
             }
         },
         "ref": {
-            "flag_post": "Bildirilmiş yazı",
-            "flagged_posts": "Bildirilmiş yazılar"
+            "flag_post": "Bildirilmiş paylaşım",
+            "flagged_posts": "Bildirilmiş paylaşımlar"
         }
     }
 }
