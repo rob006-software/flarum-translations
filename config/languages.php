@@ -55,6 +55,15 @@ return [
 		'!malago-ads',
 		// '!v17development-seo', https://github.com/v17development/flarum-seo/issues/61#issuecomment-855474306
 	]),
+	'es@formal' => getComponents([
+		// translations included in extension
+		// '!clarkwinkelmann-emojionearea', https://github.com/clarkwinkelmann/flarum-ext-emojionearea/issues/28#issuecomment-855995493
+		'!cadiducho-bbcode',
+		'!jslirola-login2seeplus',
+		'!malago-achievements',
+		'!malago-ads',
+		// '!v17development-seo', https://github.com/v17development/flarum-seo/issues/61#issuecomment-855474306
+	]),
 	'es_AR' => getComponents(),
 	'et' => getComponents(),
 	'eu' => getComponents(),
