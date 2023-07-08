@@ -58,30 +58,30 @@
                     "created": "Розпочато обговорення{discussion}",
                     "create_date_changed": "Змінено дату початку {discussion} з {old_date} на {new_date}",
                     "deleted": "Видалена дискусія {discussion}",
-                    "hidden": "",
-                    "locked": "",
-                    "renamed": "",
-                    "restored": "",
-                    "split_away": "",
-                    "split_into": "",
-                    "stickied": "",
-                    "tagged": "",
-                    "unlocked": "",
-                    "unstickied": "",
-                    "user_changed": ""
+                    "hidden": "Прихована дискусія {discussion}",
+                    "locked": "Закрита дискусія {discussion}",
+                    "renamed": "Перейменовано обговорення з {old_title} на {new_title}",
+                    "restored": "Відновлено дискусію {discussion}",
+                    "split_away": "Відокремити {post_count} повідомлень від дискусії {discussion}",
+                    "split_into": "Об'єднати {post_count} дописи в нову дискусію {discussion}",
+                    "stickied": "Прикріплена дискусія {discussion}",
+                    "tagged": "Оновлені теги {discussion} з {old_tags} на {new_tags}.",
+                    "unlocked": "Розблокована дискусія {discussion}",
+                    "unstickied": "Відкріплена дискусія {discussion}",
+                    "user_changed": "Змінено автора {discussion} з {old_user} на {new_user}"
                 },
                 "extension": {
-                    "disabled": "",
-                    "enabled": ""
+                    "disabled": "Вимкнене розширення {package}",
+                    "enabled": "Увімкнене розширення {package}"
                 },
                 "fof_ban_ips": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "Забанений ip {ip}",
+                    "unbanned": "Розбанений ip {ip}"
                 },
-                "permission_changed": "",
+                "permission_changed": "Відредаговано дозвіл {permission} з {old_groups} на {new_groups}",
                 "post": {
-                    "approved": "",
-                    "created": "",
+                    "approved": "Затверджено {postuser} користувача {postuser} у {discussion}",
+                    "created": "Створено {post} в {discussion}",
                     "create_date_changed": "",
                     "deleted": "",
                     "dismissed_flags": "",
