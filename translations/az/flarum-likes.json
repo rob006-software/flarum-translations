@@ -2,35 +2,35 @@
     "flarum-likes": {
         "admin": {
             "permissions": {
-                "like_posts_label": "Yazıları bəyənin"
+                "like_posts_label": "Paylaşımları bəyənin"
             },
             "settings": {
-                "like_own_posts_help": "",
-                "like_own_posts_label": ""
+                "like_own_posts_help": "Aktiv olduqda, istifadəçilər forumda öz paylaşımlarını \"bəyənə\" bilər. İstifadəçilərin öz paylaşımlarına \"bəyənmə\" qoymasının qarşısını almaq üçün bu parametri deaktiv edin.",
+                "like_own_posts_label": "İstifadəçilər öz paylaşımlarını bəyənə bilərlər"
             }
         },
         "forum": {
             "notifications": {
                 "others_text": "=> core.ref.some_others",
-                "post_liked_text": "{username} yazınızı bəyəndi"
+                "post_liked_text": "{username} paylaşımınızı bəyəndi"
             },
             "post": {
                 "like_link": "Bəyən",
-                "liked_by_self_text": "{users} bunun kimi.",
-                "liked_by_text": "{count, plural, one {{users} likes this} başqa {{users} like this}}",
+                "liked_by_self_text": "{users} bəyəndi.",
+                "liked_by_text": "{count, plural, one {{users} bəyəndi} other {{users} bəyəndi}}.",
                 "others_link": "=> core.ref.some_others",
-                "unlike_link": "Dislike",
+                "unlike_link": "Bəyənmə",
                 "you_text": "=> core.ref.you"
             },
             "post_likes": {
                 "title": "Bunu Bəyənən İstifadəçilər",
-                "load_more_button": ""
+                "load_more_button": "=> core.ref.load_more"
             },
             "settings": {
-                "notify_post_liked_label": "Kimsə mənim yazılarımdan birini bəyənir"
+                "notify_post_liked_label": "Kimsə paylaşımlarımdan birini bəyənir"
             },
             "user": {
-                "likes_link": ""
+                "likes_link": "Bəyənmələr"
             }
         }
     }
