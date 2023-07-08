@@ -6,9 +6,9 @@
                 "secret_key_label": "Clé secrète",
                 "site_key_label": "Clé du site",
                 "type_label": "Type de reCAPTCHA",
-                "signup": "",
-                "signin": "",
-                "forgot": ""
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
             },
             "permissions": {
                 "post_without_captcha": "Créez des messages et des discussions sans CAPTCHA"
