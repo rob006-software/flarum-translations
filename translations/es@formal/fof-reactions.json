@@ -1,0 +1,60 @@
+{
+    "fof-reactions": {
+        "admin": {
+            "page": {
+                "convert": {
+                    "button": "Convertir reacciones antiguas",
+                    "converted": "Se han convertido {number} me gusta de manera exitosa",
+                    "converting": "Tus reacciones se están convirtiendo. Refresca la página tras unos minutos para revisar el proceso. (El tiempo estimado de conversión puede variar dependiendo de la cantidad de reacciones)",
+                    "help": "Si actualizaste la extensión, tus reacciones deberán ser convertidas. Si instalaste esta extensión por primera vez, puedes ignorar este mensaje."
+                },
+                "reactions": {
+                    "Helptext": "Escribe el nombre (identificador) del emoji o ícono de font-awesome y selecciona uno de los dos tipos.",
+                    "help": {
+                        "display": "Texto a mostrar",
+                        "identifier": "Identificador"
+                    },
+                    "reactions": "Reacciones Actuales",
+                    "title": "Reacciones Personalizadas"
+                },
+                "settings": {
+                    "integrations": {
+                        "gamification": {
+                            "downvoteHelptext": "Escribe el identificador de la reacción que te gustaría convertir automáticamente en un voto en contra",
+                            "downvoteLabel": "Convertir reacciones a votos en contra",
+                            "legend": "Gamificación",
+                            "upvoteHelptext": "Escribe el identificador de la reacción que quieres convertir de manera automática en un voto a favor",
+                            "upvoteLabel": "Convertir reacciones en votos a favor"
+                        },
+                        "legend": "Integraciones",
+                        "likes": {
+                            "Helptext": "Escribe el identificador de la reacción que te gustaría convertir automáticamente en un Me gusta",
+                            "Label": "Convertir reacciones a Me gusta",
+                            "legend": "Me gusta"
+                        },
+                        "warning": "La misma reacción <strong>no puede</strong> ser convertida a un Me gusta <strong>y a un</strong> voto a favor"
+                    },
+                    "save_settings": "Guardar cambios"
+                }
+            },
+            "permissions": {
+                "react_posts_label": "Reaccionar a mensajes",
+                "see_reactions_label": "Ver quién ha reaccionado a los mensajes"
+            }
+        },
+        "forum": {
+            "disabled-reaction": "No es posible ocupar esta reacción ahora, por favor refresca la página",
+            "mod_item": "Ver Reacciones",
+            "modal": {
+                "title": "Reacciones"
+            },
+            "notification": "{username} reaccionó a tu mensaje con {reaction}",
+            "react_button_label": "Reaccionar",
+            "reacting-own-post": "No puedes reaccionar a tu propio mensaje",
+            "settings": {
+                "notify_post_reacted_label": "Cuando alguien reaccione a uno de mis mensajes"
+            },
+            "warning": "La reacción fue convertida"
+        }
+    }
+}

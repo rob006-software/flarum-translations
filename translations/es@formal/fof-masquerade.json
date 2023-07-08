@@ -1,0 +1,68 @@
+{
+    "fof-masquerade": {
+        "admin": {
+            "title": "Masquerade",
+            "general-options": "Configuración",
+            "buttons": {
+                "add-field": "Crear campo",
+                "delete-field": "Eliminar campo",
+                "edit-field": "Guardar cambios"
+            },
+            "fields": {
+                "add": "Añadir campo {field}",
+                "description": "Descripción",
+                "description-help": "Descripción opcional para explicar el uso del campo.\n",
+                "edit": "Editar campo {field}",
+                "force-user-to-completion": "Obligar al usuario a completar el perfil",
+                "icon": "Icono",
+                "icon-help": "Introduzca el nombre de alguna clase de <a>FontAwesome</a>, <em>incluyendo</em> el prefijo <code>fas fa-</code>.\n",
+                "name": "Nombre",
+                "name-help": "Nombre visible del campo.\n",
+                "on_bio": "Mostrar campo en la descripción de usuario",
+                "option-comma-warning": "La etiqueta de cualquier opción no puede contener comas (\",\").",
+                "option-new": "Nueva opción",
+                "options": "Opciones",
+                "prefix": "Field prefix",
+                "prefix-help": "Shows your prefix in front of values entered by the user for this field.\n",
+                "required": "Marcar como requerido",
+                "title": "Campos",
+                "type": "Tipo",
+                "validation": "Validación",
+                "validation-help": "Consulte las <a>reglas de validación de Laravel</a>. Ej: \"string|min:5\" o \"url\".\n"
+            },
+            "menu": {
+                "description": "Configurar campos de perfil de usuario.\n"
+            },
+            "permissions": {
+                "have-profile": "Tener perfil masquerade",
+                "view-profile": "Ver perfil masquerade"
+            },
+            "types": {
+                "advanced": "Avanzado",
+                "boolean": "Checkbox",
+                "email": "Email",
+                "select": "Desplegable",
+                "url": "URL"
+            }
+        },
+        "forum": {
+            "alerts": {
+                "profile-completion-required": "Por favor complete los campos del perfil de usuario.\n"
+            },
+            "buttons": {
+                "save-profile": "Guardar",
+                "view-profile": "Ver perfil"
+            },
+            "fields": {
+                "boolean": {
+                    "no": "No",
+                    "yes": "Si"
+                },
+                "select": {
+                    "none-optional": "Ninguna (opcional)",
+                    "none-required": "Elija una opción (requerido)"
+                }
+            }
+        }
+    }
+}

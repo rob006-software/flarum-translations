@@ -1,0 +1,34 @@
+{
+    "clarkwinkelmann-predefined-avatars": {
+        "admin": {
+            "permissions": {
+                "setCustomAvatarAlways": "Establecer un avatar personalizado en cualquier momento",
+                "setPredefinedAvatar": "Elige un avatar de la lista predefinida"
+            },
+            "settings": {
+                "defaultOptions": {
+                    "first": "Primer avatar de la lista",
+                    "none": "Sin avatar",
+                    "random": "Avatar aleatorio de la lista"
+                },
+                "predefinedAvatars": "Avatares disponibles",
+                "predefinedAvatarsDefault": "Avatar predeterminado",
+                "predefinedAvatarsDefaultHelp": "Se aplica a los nuevos usuarios al registrarse.",
+                "predefinedAvatarsHelp": "Los archivos no se redimensionan ni se convierten. Asegúrate de redimensionarlos, comprimirlos y exportarlos en el formato que prefieras antes de subirlos. Flarum funciona mejor con imágenes cuadradas 100x100 png o jpg, pero puedes aprovechar otras resoluciones con CSS personalizado.\n",
+                "predefinedAvatarsNoRemove": "Evitar la configuración sin avatar",
+                "predefinedAvatarsNoRemoveHelp": "Los usuarios que ya tienen un avatar personalizado o predefinido no podrán volver al avatar \"inicial\" por defecto a menos que tengan el permiso que se indica a continuación.",
+                "predefinedAvatarsOnly": "Solo permitir avatares predefinidos",
+                "predefinedAvatarsOnlyHelp": "Elimina la posibilidad de subir imágenes de avatar personalizadas a menos que tengas el permiso que se indica a continuación."
+            }
+        },
+        "forum": {
+            "editor": {
+                "setPredefinedAvatar": "Elige un avatar predefinido"
+            },
+            "modal": {
+                "imageAlt": "Avatar",
+                "title": "Elige un avatar"
+            }
+        }
+    }
+}

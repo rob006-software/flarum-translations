@@ -1,0 +1,179 @@
+{
+    "fof-upload": {
+        "admin": {
+            "help_texts": {
+                "client_extension": "Por defecto, Upload elegirá una extensión de archivo segura basada en el tipo MIME.\nPara algunos tipos de archivos basados en ZIP o datos binarios, esto puede resultar en el uso de extensiones genéricas en lugar de la esperada. \nAquí puede ingresar una lista separada por comas de extensiones de archivo que se mantendrán palabra por palabra.\n",
+                "composer_buttons": "De forma predeterminada, tanto el botón del gestor de medios como el botón de subida están visibles. También puede optar por mostrar sólo un botón.\n",
+                "disable-download-logging": "Deshabilite el registro de cada descarga realizada por los usuarios de su foro. Mantenerlo habilitado le permite ver la cantidad de descargas y otras métricas en un futuro próximo.\n",
+                "disable-hotlink-protection": "La protección Hotlink evita que se abran descargas de otros sitios. El método actual requiere un token csrf y un ID de publicación.\n",
+                "download_templates": "Las plantillas de descarga son la forma en que se muestran las subidas en su foro, por ejemplo: Vistas previas, botones. Actualmente disponible:\n",
+                "mime_types": "Por favor configure su mapeo aquí. Cada expresión regular de tipo MIME será manejada por un adaptador de subida específico y una plantilla de descarga.\n",
+                "resize": "Elija si desea cambiar el tamaño de sus imágenes antes de que se carguen. Puede elegir un ancho y alto máximo, en píxeles. El proceso de cambio de tamaño mantiene la relación de aspecto de las imágenes.\n",
+                "s3_acl": "La ACL que debe aplicarse al objeto subido (predeterminado: privado). Para conocer los valores posibles, consulte https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_compatible_storage": "Los siguientes ajustes solo son necesarios cuando se utiliza almacenamiento compatible con S3. Si usa AWS, puede dejarlos en blanco.\n",
+                "s3_instance_profile": "Deje el campo Key y Secret vacíos para usar las credenciales en el perfil de la instancia.\n",
+                "watermark": "Elija si las imágenes tendrán una marca de agua añadida durante la subida. Las marcas de agua se agregan a los no gifs según sus preferencias a continuación.\n"
+            },
+            "inspect-mime": {
+                "description": "FoF Upload utiliza la biblioteca <a>PHP Mime Detector</a> para tipos MIME comunes y PHP Fileinfo como respaldo.\n¡El valor MIME devuelto por Fileinfo puede ser diferente de un servidor a otro!\n",
+                "guessed-extension": "Extensión de archivo predeterminada (si el original no está en la lista blanca)",
+                "laravel-validation": "Validación de archivos Laravel",
+                "mime-detector": "Detector de Mime (primario)",
+                "mime-fileinfo": "PHP Fileinfo (fallback)",
+                "no-file-selected": "Ningún archivo",
+                "not-available": "Sin resultados",
+                "select": "Seleccione un archivo a continuación para inspeccionar los valores que se utilizarán. El archivo no se guardará.",
+                "title": "Inspeccionar MIME",
+                "validation-failed": "Error: {error}",
+                "validation-passed": "Aprobado"
+            },
+            "labels": {
+                "aws-s3": {
+                    "acl": "Lista de control de acceso (ACL)",
+                    "advanced_title": "Configuración avanzada de almacenamiento S3",
+                    "bucket": "Bucket",
+                    "endpoint": "Endpoint",
+                    "key": "Key",
+                    "region": "Región",
+                    "secret": "Secret",
+                    "title": "Configuración de almacenamiento AWS S3",
+                    "use_path_style_endpoint": "Utilizar endpoint de estilo de ruta"
+                },
+                "client_extension": {
+                    "title": "Extensiones de archivo proporcionadas por el usuario"
+                },
+                "composer_buttons": {
+                    "options": {
+                        "both": "Ambos",
+                        "media-btn": "Sólo el botón del gestor de medios",
+                        "upload-btn": "Solo botón Subir"
+                    },
+                    "title": "Botones del compositor"
+                },
+                "disable-download-logging": {
+                    "title": "Deshabilitar registro de descargas",
+                    "toggle": "Deshabilitar"
+                },
+                "disable-hotlink-protection": {
+                    "title": "Deshabilitar la protección de enlaces directos (hotlink)",
+                    "toggle": "Deshabilitar"
+                },
+                "imgur": {
+                    "client_id": "ID de cliente Imgur",
+                    "title": "Configuración de almacenamiento de imágenes Imgur",
+                    "tos": "Es su responsabilidad asegurarse de que los usuarios de su foro cumplan con los <a>Términos de servicio</a> de Imgur"
+                },
+                "inspect-mime": "Archivo de prueba tipo MIME",
+                "local": {
+                    "cdn_url": "URL de entrega de contenido (archivos de prefijos)",
+                    "title": "Configuración de almacenamiento local"
+                },
+                "preferences": {
+                    "max_file_size": "Tamaño máximo de archivo (en kilobytes)",
+                    "mime_types": "Configure su tipo mime, mapeo del adaptador de subida",
+                    "php_ini_values": "Los valores de <code>php.ini</code> son <code>post_max_size={post}</code> y <code>upload_max_filesize={upload}</code>. Asegúrese de que el valor establecido aquí esté por debajo de estos umbrales o ajústelos en consecuencia. Si usa <code>Nginx</code>, también asegúrese de que <code>client_max_body_size</code> tenga el tamaño suficiente para el límite máximo elegido.",
+                    "title": "Preferencias generales"
+                },
+                "qiniu": {
+                    "bucket": "Bucket",
+                    "key": "Key",
+                    "secret": "Secret",
+                    "title": "Configuración de almacenamiento Qiniu"
+                },
+                "resize": {
+                    "max_width": "Ancho/alto máximo de la imagen",
+                    "title": "Cambiar el tamaño de la imagen",
+                    "toggle": "Cambiar el tamaño de las imágenes"
+                },
+                "watermark": {
+                    "file": "Sube tu imagen de marca de agua",
+                    "position": "Posición de marca de agua",
+                    "title": "Imágenes de marca de agua",
+                    "toggle": "Imágenes de marca de agua"
+                }
+            },
+            "pane": {
+                "description": "Configure los servicios y preferencias de carga.",
+                "title": "Subir"
+            },
+            "permissions": {
+                "delete_uploads_of_others_label": "Eliminar las subidas de los usuarios",
+                "download_label": "Descargar archivos",
+                "upload_label": "Subir archivos",
+                "view_user_uploads_label": "Ver las subidas de los usuarios"
+            },
+            "templates": {
+                "bbcode-image": "Plantilla de imagen BBCode",
+                "bbcode-image_description": "Muestra la imagen completa in-line usando BBCode. <strong>Debe tener Flarum/bbcode instalado y habilitado para que esto funcione.</strong> No hay funcionalidad de descarga, no se recopilan estadísticas y se ignora la protección de enlaces directos.\n",
+                "file": "Plantilla de descarga de archivos predeterminada",
+                "file_description": "Muestra el nombre del archivo y alguna información general. Proxies descarga a través de php, lo que permite la recopilación de estadísticas y la protección de enlaces directos (hotlink).\n",
+                "image": "Plantilla de descarga de imagen predeterminada",
+                "image-preview": "Plantilla de vista previa de imagen completa",
+                "image-preview_description": "Muestra la imagen completa in-line. No hay funcionalidad de descarga, no se recogen estadísticas y se ignora la protección de hotlinks.\n",
+                "image_description": "Muestra una miniatura de la descarga de imagen y proxies a través de php. Permitir la recopilación de estadísticas y la protección de enlaces directos.\n",
+                "just-url": "Solo URL",
+                "just-url_description": "Inserta solo la URL. La representación puede ser manejada por otras extensiones con capacidad de enlace automático. No hay funcionalidad de descarga, no se recopilan estadísticas y se ignora la protección de enlace directo.\n",
+                "markdown-image": "Plantilla de imagen de Markdown",
+                "markdown-image_description": "Muestra la imagen completa in-line usando Markdown. <strong>Debe tener flarum/markdown instalado y habilitado para que esto funcione.</strong> No hay funcionalidad de descarga, no se recopilan estadísticas y se ignora la protección de enlaces directos.\n",
+                "text-preview": "Vista previa de texto",
+                "text-preview_description": "Inserta una vista previa (primeras 5 líneas) del archivo de texto, con una opción para expandir para revelar el contenido completo del archivo.\n"
+            },
+            "upload_methods": {
+                "aws-s3": "S3/Compatible",
+                "imgur": "Imgur",
+                "local": "Local",
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": "QiNiu"
+            }
+        },
+        "api": {
+            "upload_errors": {
+                "could_not_detect_mime": "No se pudo detectar el tipo MIME de este archivo, intente nuevamente.",
+                "forbidden_type": "No se permite subir archivos de este tipo.",
+                "unsupported_type": "El adaptador de carga no admite el tipo mime proporcionado: {mime}."
+            }
+        },
+        "forum": {
+            "buttons": {
+                "attach": "Adjuntar",
+                "cancel": "Cancelar",
+                "media": "Mis medios",
+                "upload": "Subir",
+                "user_uploads": "Subidas de usuarios"
+            },
+            "file_list": {
+                "confirm_selection_btn": "{fileCount, plural, =0 {Ninguno seleccionado} one {Seleccione el archivo} other {Seleccione los archivos}}",
+                "empty": "No hay archivos para mostrar.",
+                "hide_file": {
+                    "btn_a11y_label": "Ocultar \"{fileName}\" del gestor de medios",
+                    "hide_confirmation": "¿Estás seguro de que quieres ocultar \"{fileName}\"? Ocultar un archivo sólo lo eliminará del gestor de medios y no afectará a las publicaciones existentes.",
+                    "hide_fail": "No se pudo ocultar el archivo \"{fileName}\"",
+                    "hide_success": "Archivo oculto",
+                    "loading": "Ocultando el archivo..."
+                },
+                "load_more_files_btn": "Cargar más archivos",
+                "loading": "Cargando archivos...",
+                "modal_empty_desktop": "Su lista de archivos está vacía. Haga clic en el botón o arrastre un archivo aquí para subirlo.",
+                "modal_empty_phone": "Su lista de archivos está vacía. Pulse el botón de arriba para subir un archivo.",
+                "release_to_upload": "Liberar para subir",
+                "select_file_a11y_label": "Seleccione el archivo \"{fileName}\""
+            },
+            "media_manager": "Gestor de medios",
+            "states": {
+                "error": "Error",
+                "loading": "Subiendo",
+                "unauthorized": "No está autorizado a descargar archivos"
+            },
+            "text_preview": {
+                "collapse": "Ocultar vista previa",
+                "error": "Error al previsualizar el archivo. Es posible que se haya eliminado o que el ID de archivo proporcionado no sea válido.\n",
+                "expand": "Ampliar vista previa",
+                "no_snippet": "<no hay fragmento de vista previa disponible>",
+                "no_snippet_preview": "<la vista previa aparecerá aquí después de la publicación>"
+            },
+            "validation": {
+                "max_size": "No se aceptan subidas de más de {max} kb."
+            }
+        }
+    }
+}

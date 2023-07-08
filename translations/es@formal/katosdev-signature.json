@@ -1,0 +1,47 @@
+{
+    "signature": {
+        "admin": {
+            "settings": {
+                "maximum_char_limit": {
+                    "description": "Cantidad máxima de caracteres de la firma (solo caracteres, sin considerar etiquetas HTML)",
+                    "placeholder": "1000 (por defecto)"
+                },
+                "maximum_image_count": {
+                    "description": "Cantidad máxima de imágenes.",
+                    "placeholder": "5 (por defecto)"
+                },
+                "maximum_image_height": {
+                    "description": "Alto total máximo de imágenes insertadas en el editor.",
+                    "placeholder": "500 (por defecto)"
+                },
+                "maximum_image_width": {
+                    "description": "Ancho máximo de imágenes en el editor.",
+                    "placeholder": "350 (por defecto)"
+                }
+            },
+            "title": "Firma"
+        },
+        "forum": {
+            "buttons": {
+                "save": "Guardar firma",
+                "signature": "Firma"
+            },
+            "errors": {
+                "max_char_limit_exceed": "Excediste el número de caracteres.",
+                "max_image_count_exceed": "Excediste la cantidad máxima de imágenes.",
+                "max_image_height_exceed": "Excediste el tamaño de alto máximo de la imagen.",
+                "max_image_width_exceed": "Excediste el tamaño de ancho máximo de la imagen."
+            },
+            "modal": {
+                "error": {
+                    "content": "Listado de errores:",
+                    "title": "Oops! Ocurrió un error al guardar…"
+                },
+                "loading": {
+                    "content": "Por favor espera…",
+                    "title": "Guardando"
+                }
+            }
+        }
+    }
+}
