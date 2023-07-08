@@ -221,16 +221,28 @@ return [
 		'maintainers' => [],
 	],
 	'es' => [
-		'type' => 'language',
+		'type' => 'multi-language',
 		'language' => 'es',
 		'repository' => 'git@github.com:flarum-lang/spanish.git',
 		'branch' => 'main',
-		'path' => '/locale/es-ES-informal',
+		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
 		'maintainers' => ['iamdarkle', 'jslirola'],
+		'variants' => [
+			'informal' => [
+				'name' => 'Informal',
+				'language' => 'es',
+				'path' => '/locale/informal',
+			],
+			'formal' => [
+				'name' => 'Formal',
+				'language' => 'es@formal',
+				'path' => '/locale/formal',
+			],
+		],
 	],
 	'es_AR' => [
 		'type' => 'language',
