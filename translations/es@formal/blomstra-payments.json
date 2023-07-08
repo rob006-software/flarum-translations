@@ -1,0 +1,51 @@
+{
+    "blomstra-payments": {
+        "admin": {
+            "edit-group": {
+                "select-pta-product": "(PPA) Producto requerido",
+                "select-pta-product-description": "La selección de un producto permitirá el acceso al grupo tras el pago. En el caso de una suscripción, el acceso se revocará automáticamente tras la cancelación de la misma. Cree un producto en su panel de control de Stripe y copie el ID que comienza con <code>prod_</code> en este campo.\n"
+            },
+            "edit-tag": {
+                "select-ptp-product": "(PPP) Producto requerido",
+                "select-ptp-product-description": "La selección de un producto requerirá el pago de ese producto por cada discusión en esa etiqueta. El pago por publicación, por ejemplo, es ideal para los publirreportajes. Cree un producto con un precio único en su panel de control de Stripe y copie el ID que comienza con <code>prod_</code> en este campo.\n",
+                "select-ptv-product": "(PPV) Producto requerido",
+                "select-ptv-product-description": "La selección de un producto requerirá el pago de ese producto para obtener permanentemente el acceso a todos los puestos más allá del umbral... Cree un producto en su panel de control de Stripe y copie el ID que comienza con <code>prod_</code> en este campo.\n",
+                "visible-from": "Ocultar los posts en este punto",
+                "visible-from-description": "El número que especifique aquí define en qué momento se ocultarán los mensajes a los usuarios que no hayan pagado para acceder al contenido. Utiliza 0 para ocultar todos, 1 para el que está después del OP.\n"
+            },
+            "settings": {
+                "link-access-portal": "Enlace del portal de acceso en el menú desplegable de la sesión de usuario",
+                "pk": "Clave publicable (api)",
+                "sk": "Clave secreta (api)",
+                "webhook-secret": "Secreto de firma del webhook"
+            }
+        },
+        "forum": {
+            "access-portal": {
+                "options": "Opciones",
+                "purchase": "Comprar"
+            },
+            "nav": {
+                "access_portal": "Portal de acceso"
+            },
+            "pay-to-post": {
+                "purchase": "Comprar para publicar",
+                "purchase-control": "Pagar para publicar",
+                "purchase_required": "Esta discusión se publicará una vez completado el pago a través de nuestro proveedor de pago Stripe. Haga clic en comprar para ver el coste y las opciones de pago.\n"
+            },
+            "pay-to-view": {
+                "description": "Las publicaciones más allá de este punto están bloqueadas detrás de una pasarela de pago, puedes desbloquearlas completando el pago a través de nuestro proveedor de pagos Stripe.\n",
+                "purchase-completed": "Desbloqueado",
+                "purchase-control": "Pagar para ver",
+                "purchase-log-in": "Iniciar Sesión y Pagar para Ver"
+            },
+            "payment-options-modal": {
+                "description": "Elija cualquiera de las siguientes opciones para iniciar su acceso al grupo. Serás redirigido a nuestro proveedor de pagos Stripe para procesar el pago.\n",
+                "title": "Opciones de pago para acceder al {group}"
+            },
+            "tag": {
+                "require-payment-label": "Pago requerido"
+            }
+        }
+    }
+}
