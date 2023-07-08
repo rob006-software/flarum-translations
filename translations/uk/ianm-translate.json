@@ -13,62 +13,62 @@
                         "label": "=> ianm-translate.lib.settings.api-key"
                     },
                     "en_choice": {
-                        "help": "",
-                        "label": "",
+                        "help": "При перекладі на англійську мову оберіть, який варіант слід використовувати.",
+                        "label": "Англійська версія",
                         "options": {
-                            "en-US": "",
-                            "en-GB": ""
+                            "en-US": "English (US) en-US",
+                            "en-GB": "English (UK) en-GB"
                         }
                     },
                     "formality": {
-                        "help": "",
-                        "label": "",
+                        "help": "Там, де це можливо, переклади можуть використовувати різні рівні формальності. Оберіть свій рівень тут.",
+                        "label": "Формальний",
                         "options": {
                             "default": "За налаштуванням",
-                            "prefer_less": "",
-                            "prefer_more": ""
+                            "prefer_less": "Менш формальний",
+                            "prefer_more": "Більш формальний"
                         }
                     }
                 },
                 "google-cloud": {
                     "api_key": {
-                        "help": "",
+                        "help": "Зареєструйтеся для отримання ключа API за посиланням {link}. Цей драйвер використовує V2 API - Basic.",
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
-                "provider": "",
-                "readme-info": ""
+                "provider": "Постачальник послуг перекладу",
+                "readme-info": "Більш детальну інформацію можна знайти в документації README."
             }
         },
         "forum": {
-            "unknown-language": "",
-            "detected-language": "",
-            "translate-button-label": "",
+            "unknown-language": "[не виявлено]",
+            "detected-language": "Ця публікація знаходиться на {postLang}",
+            "translate-button-label": "Переклад",
             "discussion": {
                 "post": {
-                    "close-translation": "",
-                    "translated-header": "",
-                    "translated-updated": ""
+                    "close-translation": "Закрити переклад",
+                    "translated-header": "Переклад ШІ з {from} на {to}",
+                    "translated-updated": "Переклад востаннє оновлено {time} за допомогою {provider}"
                 }
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Переклад",
                     "source-language": {
-                        "help": "",
-                        "label": ""
+                        "help": "Якщо цей параметр вимкнено, позначатимуться лише повідомлення, написані мовою, відмінною від поточної мови форуму. Щоб позначати всі повідомлення визначеною мовою, увімкніть цей параметр.",
+                        "label": "Завжди показуйте мову допису"
                     }
                 }
             }
         },
         "lib": {
             "providers": {
-                "deepl": "",
-                "google-free": "",
-                "google-cloud": ""
+                "deepl": "DeepL",
+                "google-free": "Google Translate",
+                "google-cloud": "Google Cloud Translate"
             },
             "settings": {
-                "api-key": ""
+                "api-key": "Ключ API"
             }
         }
     }
