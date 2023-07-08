@@ -1,0 +1,75 @@
+{
+    "fof-webhooks": {
+        "actions": {
+            "discussion": {
+                "started": "Nuevo tema `{1}`"
+            },
+            "group": {
+                "deleted": "Grupo `{1}` borrado"
+            },
+            "post": {
+                "deleted": "Mensaje borrado en `{1}`",
+                "posted": "Nuevo mensaje en `{1}`",
+                "revised": "Mensaje editado en `{1}`"
+            },
+            "user": {
+                "registered": "Nuevo usuario registrado"
+            }
+        },
+        "admin": {
+            "errors": {
+                "service_not_found": "El servicio '{service}' no puede ser encontrado.",
+                "url_invalid": "URL no válida para el servicio seleccionado."
+            },
+            "settings": {
+                "actions": {
+                    "flarum": {
+                        "discussion": {
+                            "deleted": "=> fof-webhooks.ref.deleted",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "restored": "=> fof-webhooks.ref.restored"
+                        },
+                        "group": {
+                            "deleted": "=> fof-webhooks.ref.deleted",
+                            "renamed": "=> fof-webhooks.ref.renamed"
+                        },
+                        "post": {
+                            "deleted": "=> fof-webhooks.ref.deleted",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored"
+                        },
+                        "user": {
+                            "deleted": "=> fof-webhooks.ref.deleted",
+                            "renamed": "=> fof-webhooks.ref.renamed"
+                        }
+                    }
+                },
+                "help": {
+                    "disabled": "El webhook está deshabilitado porque no tiene ningún evento activo.",
+                    "general": "Aquí puedes agregar, editar y eliminar webhooks de tu foro.",
+                    "url": "El endpoint del webhook que se ejecutará"
+                },
+                "item": {
+                    "tag_any_label": "Cualquiera"
+                },
+                "modal": {
+                    "description": "Aquí se modifican los eventos en los que se activa el webhook.",
+                    "events_label": "Eventos",
+                    "extra_text_help": "Texto adicional para incluir en el webhook enviado.",
+                    "extra_text_label": "Texto adicional",
+                    "group_help": "Enviar recursos que este grupo pueda ver",
+                    "group_label": "Grupo",
+                    "max_post_content_length_help": "Establece un número para limitar el contenido de la publicación en todos los eventos relacionados con la publicación. Cambia a 0 o nada para eliminar el límite.",
+                    "max_post_content_length_label": "Longitud máxima del contenido de la publicación",
+                    "title": "Configuración de webhook"
+                },
+                "services": {
+                    "discord": "Discord",
+                    "microsoft-teams": "Microsoft Teams",
+                    "slack": "Slack"
+                }
+            }
+        }
+    }
+}
