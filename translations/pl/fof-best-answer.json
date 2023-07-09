@@ -16,12 +16,12 @@
                 "allow_select_own_post_help": "Pozwól autorowi dyskusji wybrać jeden z jego własnych postów jako najlepszą odpowiedź",
                 "enable_all_tags_button": "Włącz obsługę najlepszych odpowiedzi we wszystkich tagach",
                 "enable_all_tags_reminder_button": "Włącz przypomnienia o wybraniu najlepszej odpowiedzi we wszystkich tagach",
-                "show_max_lines_label": "",
-                "show_max_lines_help": "",
+                "show_max_lines_label": "Maksymalna liczba wierszy do wyświetlania w podglądzie posta",
+                "show_max_lines_help": "Ustaw 0, aby wyłączyć limit. Jeśli post jest dłuższy niż podana liczba wierszy, podgląd posta zostanie przycięty za pomocą efektu zanikania.",
                 "select_best_answer_reminder_days": "Częstotliwość przypominania",
                 "select_best_answer_reminder_days_help": "Po podanej liczbie dni wyślij przypomnienie do autora dyskusji, aby wybrał najlepszą odpowiedź. Ustaw 0, aby wyłączyć przypomnienia.",
-                "select_best_answer_tags_label": "",
-                "select_best_answer_tags_help": "",
+                "select_best_answer_tags_label": "Tagi dla dyskusji z najlepszą odpowiedzią",
+                "select_best_answer_tags_help": "Wybierz które tagi mają zostać dodane do dyskusji, gdy zostanie dla niej ustawiona najlepsza odpowiedź. Tylko tagi podrzędne są dozwolone. Te tagi zostaną usunięte z dyskusji, jeśli najlepsza odpowiedź zostanie usunięta dla danej dyskusji.",
                 "schedule_on_one_server": "Użyj dyrektywy \"onOneServer()\" dla harmonogramu zadań (task scheduler)",
                 "schedule_on_one_server_help": "Wymaga Redis/Memcache",
                 "schedule_stop_overnight": "Wyłącz przypomnienia w godzinach nocnych",
@@ -93,8 +93,8 @@
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "most_best_answers": "",
-                "least_best_answers": ""
+                "most_best_answers": "Najwięcej najlepszych odpowiedzi",
+                "least_best_answers": "Najmniej najlepszych odpowiedzi"
             }
         }
     }
