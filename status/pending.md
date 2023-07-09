@@ -90,5 +90,4 @@
 
 | Extension | Pull request |
 | --- | --- |
-| `c4x3gpj5-oauth-identityserver4` | [![#1090 (closed)](https://img.shields.io/badge/PR-%231090-red)](https://github.com/rob006-software/flarum-translations/pull/1090) |
-| `kater-community-board` | [![#1094 (open)](https://img.shields.io/badge/PR-%231094-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1094) |
+| `kater-community-board` | [![#1094 (closed)](https://img.shields.io/badge/PR-%231094-red)](https://github.com/rob006-software/flarum-translations/pull/1094) |
