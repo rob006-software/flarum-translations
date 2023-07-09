@@ -27,18 +27,18 @@
                     "daily": "Codziennie"
                 },
                 "soft_404": {
-                    "heading": "",
-                    "help": "",
+                    "heading": "Zapobieganie pozornym błędom 404",
+                    "help": "Kiedy dany zasób ma mało (lub nie ma jej wcale) istotnej treści, Google może oznaczyć stronę jako \"Pozorny błąd 404\". Aby tego uniknąć, ustaw minimalną liczbę elementów, aby zasób kwalifikował się do mapy witryny.",
                     "user": {
                         "comments": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "Użytkownik: Minimalna liczba postów",
+                            "minimum_item_threshold_help": "Minimalna liczba postów, które musi dodać użytkownik, aby jego profil kwalifikował się do zawarcia w mapie witryny."
                         }
                     },
                     "tags": {
                         "discussion": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "Tag: Minimalna liczba dyskusji",
+                            "minimum_item_threshold_help": "Minimalna liczba dyskusji, które musi mieć tag, aby kwalifikował się do zawarcia w mapie witryny."
                         }
                     }
                 }
