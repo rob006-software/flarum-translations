@@ -114,8 +114,8 @@
             "picture-sort": {
                 "latest": "Unggahan terbaru",
                 "oldest": "Unggahan terlama",
-                "latestTake": "",
-                "oldestTake": ""
+                "latestTake": "Pengambilan terbaru",
+                "oldestTake": "Pengambilan terlama"
             },
             "album-search": {
                 "title": "=> kilowhat-cimaise.ref.albums"
@@ -165,7 +165,7 @@
                 "autoCreateDiscussionAlbumHelp": "Secara otomatis membuat album baru dengan judul yang sama dengan diskusi dan penulis sebagai pemilik. Fitur ini melewati izin pembuatan album dan berlaku di semua tag.\n",
                 "neverSyncDiscussionAlbumTitles": "Jangan pernah menyinkronkan diskusi dan judul album",
                 "neverSyncDiscussionAlbumTitlesHelp": "Secara default, album yang dihubungkan yang memiliki judul yang sama persis dengan diskusi akan diganti namanya ketika judul diskusi berubah. Jika album diganti namanya secara manual, album tersebut tidak akan disinkronkan kembali ke diskusi.\n",
-                "columnTheme": "",
+                "columnTheme": "Tema Kolom",
                 "columnThemeHelp": "Gunakan gaya panel samping saat menampilkan gambar, bukan panel bawah.",
                 "mapboxToken": "Token Mapbox",
                 "mapboxTokenHelp": "Isi token yang valid untuk menampilkan peta geolokasi di dalam meta gambar.",
@@ -184,16 +184,16 @@
             },
             "status": {
                 "pictures": {
-                    "section": "",
-                    "drafts": ""
+                    "section": "Gambar",
+                    "drafts": "({count} konsep)"
                 },
                 "storage": {
-                    "section": "",
-                    "originals": "",
-                    "conversions": ""
+                    "section": "Penyimpanan (perkiraan)",
+                    "originals": "Asli: {size}",
+                    "conversions": "Konversi: {size}"
                 },
-                "refresh": "",
-                "loading": ""
+                "refresh": "Segarkan",
+                "loading": "Memuat..."
             }
         },
         "api": {
@@ -211,11 +211,11 @@
             "pictures": "Gambar",
             "loading": "Memuat...",
             "load-more": "Muat Lebih Banyak",
-            "controls": "",
+            "controls": "Kontrol",
             "restore": "Pulihkan",
             "hide": "",
             "delete": "Hapus",
-            "by-user": ""
+            "by-user": "Oleh"
         }
     }
 }
