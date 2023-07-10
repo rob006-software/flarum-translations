@@ -43,7 +43,7 @@
                 "service_not_found": "\"{service}\"服務未找到或不存在。",
                 "url_invalid": "所選服務的 URL 無效。",
                 "tag_invalid": "此 Webhook 被限制於無效的標簽上。該限制將不可用。請確保這是您有意所為。",
-                "tag_disabled": ""
+                "tag_disabled": "此 Webhook 配置了標籤限制。 標籤擴展被禁用。 該限制將不適用。 確保這是有意的。"
             },
             "nav": {
                 "desc": "為您的論壇設置自定義 Outgoing Webhooks。"
@@ -57,7 +57,7 @@
                 "help": {
                     "disabled": "此 Webhook 已被禁用，因為它沒有啟用事件。",
                     "general": "您可以在這裡添加、編輯、刪除論壇中的webhooks。",
-                    "tags": "",
+                    "tags": "您可以將 Webhook 限制為特定標籤。 如果您選擇任何標籤，則僅當在具有任何選定標籤的資源上觸發事件時才會觸發 Webhook。",
                     "url": "要運行的 Webhook 終端"
                 },
                 "modal": {
