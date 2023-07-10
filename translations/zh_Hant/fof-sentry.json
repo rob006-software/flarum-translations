@@ -3,23 +3,23 @@
         "admin": {
             "settings": {
                 "dsn_label": "Sentry DSN",
-                "dsn_help": "",
-                "dsn_backend_label": "",
-                "dsn_backend_help": "",
+                "dsn_help": "如果你使用一個中繼DSN作為主要的DSN，不要勾選 \"用戶反饋\"，因為它將不會起作用。",
+                "dsn_backend_label": "Sentry DSN (僅後端)",
+                "dsn_backend_help": "這個DSN將只用於處理後端錯誤。如果你想用一個不同的項目來處理後端錯誤，或者想用一個Relay來發送後端錯誤到Sentry（例如，為了提高性能），這很有用。",
                 "environment_label": "Sentry 監控環境",
                 "user_feedback_label": "使用者反饋",
                 "send_user_emails_label": "發送 Sentry 報告時包含用戶郵箱？",
                 "monitor_performance_label": "後端性能監測率 (0 - 100)",
-                "profile_rate_label": "",
-                "profile_rate_help": "",
+                "profile_rate_label": "後端分析率 (0 - 100)",
+                "profile_rate_help": "這是相對於性能監控速率而言的。 必須啟用性能監控才能使其發揮作用。\n\n{br}✱ 由於分析和發送到 Sentry 的請求的開銷，啟用此功能會影響響應時間。 了解如何抵消這個@<a>https://docs.sentry.io/platforms/php/profiling/#improve-response-time</a>。\n{br}{icon} <bold>此功能需要 Wikipedia 的採樣分析器 Excimer，該工具僅適用於 Linux。</bold>\n",
                 "javascript_label": "回報 JavaScript 錯誤",
                 "javascript_console_label": "捕獲 JavaScript 控制台",
                 "javascript_trace_sample_rate": "前端性能監測率 (0 - 100)",
-                "javascript_trace_sample_rate_help": "",
-                "javascript_replays_session_sample_rate": "",
-                "javascript_replays_session_sample_rate_help": "",
-                "javascript_replays_error_sample_rate": "",
-                "javascript_replays_error_sample_rate_help": ""
+                "javascript_trace_sample_rate_help": "所有交易的採樣率。 {br}✱ 啟用此功能會使捆綁包大小增加約 30 KB。",
+                "javascript_replays_session_sample_rate": "前端會話重播率 (0 - 100)",
+                "javascript_replays_session_sample_rate_help": "立即開始錄製並持續整個用戶會話的重播的採樣率。 {br}✱ 啟用任何重播選項都會使包大小增加約 150 KB。",
+                "javascript_replays_error_sample_rate": "前端錯誤重播率 (0 - 100)",
+                "javascript_replays_error_sample_rate_help": "發生錯誤時記錄的重放的採樣率。 錯誤發生前最多 1 分鐘將被記錄並持續到會話結束。 {br}✱ 啟用任何重播選項都會使包大小增加約 150 KB。"
             }
         }
     }
