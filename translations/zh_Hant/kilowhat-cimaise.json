@@ -184,16 +184,16 @@
             },
             "status": {
                 "pictures": {
-                    "section": "",
-                    "drafts": ""
+                    "section": "圖片",
+                    "drafts": "（{count} 份草稿）"
                 },
                 "storage": {
-                    "section": "",
-                    "originals": "",
-                    "conversions": ""
+                    "section": "存儲（估計）",
+                    "originals": "原件: {size}",
+                    "conversions": "轉化次數：{size}"
                 },
-                "refresh": "",
-                "loading": ""
+                "refresh": "刷新",
+                "loading": "加載中…"
             }
         },
         "api": {
