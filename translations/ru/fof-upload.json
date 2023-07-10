@@ -114,7 +114,7 @@
             },
             "inspect-mime": {
                 "title": "Проверить MIME",
-                "description": "",
+                "description": "FoF Upload использует библиотеку <a>PHP Mime Detector</a> для распространенных типов MIME и PHP Fileinfo в качестве запасного варианта. \nЗначение MIME, возвращаемое Fileinfo, может отличаться от сервера к серверу!\n",
                 "select": "Выберите файл ниже, чтобы проверить значения, которые будут использоваться. Файл не будет сохранен.",
                 "laravel-validation": "",
                 "no-file-selected": "Нет файла",
