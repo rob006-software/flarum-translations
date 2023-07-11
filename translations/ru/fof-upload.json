@@ -116,7 +116,7 @@
                 "title": "Проверить MIME",
                 "description": "FoF Upload использует библиотеку <a>PHP Mime Detector</a> для распространенных типов MIME и PHP Fileinfo в качестве запасного варианта. \nЗначение MIME, возвращаемое Fileinfo, может отличаться от сервера к серверу!\n",
                 "select": "Выберите файл ниже, чтобы проверить значения, которые будут использоваться. Файл не будет сохранен.",
-                "laravel-validation": "",
+                "laravel-validation": "Одобрение файла через Laravel",
                 "no-file-selected": "Нет файла",
                 "validation-passed": "Пройден",
                 "validation-failed": "Неудачный: {error}",
