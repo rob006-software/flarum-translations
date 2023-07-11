@@ -365,8 +365,8 @@
                 "log_out_button": "",
                 "profile_button": "",
                 "search_clear_button_accessible_label": "",
-                "search_placeholder": "",
-                "search_role_label": "",
+                "search_placeholder": "Kërko Forum",
+                "search_role_label": "Kërko Forum",
                 "session_dropdown_accessible_label": "",
                 "settings_button": "",
                 "sign_up_link": ""
@@ -442,7 +442,7 @@
                 "title": ""
             },
             "search": {
-                "all_discussions_button": "",
+                "all_discussions_button": "Kërko të gjitha diskutimet për \"{query}\"",
                 "discussions_heading": "",
                 "users_heading": ""
             },
@@ -671,7 +671,7 @@
         "email": {
             "activate_account": {
                 "subject": "",
-                "body": ""
+                "body": "Përshëndetje {username}\n\nSapo jeni regjistruar me sukses në {forum} me këtë adresë emaili.\n\nNëse ishit ju, klikoni linkun e mëposhtëm dhe llogaria juaj do të aktivizohet:\n{url}\n\nNëse nuk jeni regjistruar, ju lutem injorojeni këtë email.\n"
             },
             "confirm_email": {
                 "subject": "",
@@ -687,7 +687,7 @@
             }
         },
         "ref": {
-            "all_discussions": "",
+            "all_discussions": "Të gjitha diskutimet",
             "change_email": "",
             "change_password": "",
             "color": "",
