@@ -2,10 +2,10 @@
     "fof-oauth": {
         "admin": {
             "configure_button_label": "Настроить при помощи FoF OAuth",
-            "settings_accessibility_label": "",
+            "settings_accessibility_label": "{name} настройки",
             "settings": {
                 "only_icons_label": "Отображать только иконки на кнопках входа (альтернативный макет)",
-                "update_email_from_provider_label": "",
+                "update_email_from_provider_label": "Обновить адрес эл.почты через провайдера",
                 "update_email_from_provider_help": "",
                 "providers": {
                     "callback_url_text": "При необходимости, укажите callback URL в {url}.",
@@ -62,12 +62,12 @@
             "user": {
                 "settings": {
                     "linked-account": {
-                        "label": "",
-                        "last-used-label": "",
-                        "link-created-label": "",
-                        "orphaned-account": "",
+                        "label": "Связанные аккаунты",
+                        "last-used-label": "Последний использовавшийся",
+                        "link-created-label": "Ссылка создана",
+                        "orphaned-account": "Вы ранее регистрировались через эту учетную запись, но с тех пор этот форум запретил вход этим способом.",
                         "help": "",
-                        "identifier-label": "",
+                        "identifier-label": "{provider} аккаунт",
                         "unlink-confirm": ""
                     }
                 }
@@ -84,7 +84,7 @@
             "signup": {
                 "username_help": "Пожалуйста, выберите имя пользователя для регистрации"
             },
-            "unlink": "",
+            "unlink": "Удалить ссылку",
             "error": {
                 "bad_verification_code": "Некорректный или истёкший токен верификации. Пожалуйста, попробуйте ещё раз.",
                 "invalid_state": "Некорректное состояние. Пожалуйста, попробуйте ещё раз."
