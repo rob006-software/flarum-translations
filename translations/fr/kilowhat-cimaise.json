@@ -184,16 +184,16 @@
             },
             "status": {
                 "pictures": {
-                    "section": "",
-                    "drafts": ""
+                    "section": "Photos",
+                    "drafts": "({count} brouillons)"
                 },
                 "storage": {
-                    "section": "",
-                    "originals": "",
-                    "conversions": ""
+                    "section": "Stockage (estimation)",
+                    "originals": "Originaux : {size}",
+                    "conversions": "Conversions : {size}"
                 },
-                "refresh": "",
-                "loading": ""
+                "refresh": "Actualiser",
+                "loading": "Chargement…"
             }
         },
         "api": {
