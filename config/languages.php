@@ -146,6 +146,7 @@ return [
 	'ta' => getComponents(),
 	'te' => getComponents(),
 	'th' => getComponents(),
+	'tk' => getComponents(),
 	'tl' => getComponents(),
 	'tr' => getComponents([
 		// translations included in extension
