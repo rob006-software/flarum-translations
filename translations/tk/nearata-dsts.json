@@ -1,0 +1,45 @@
+{
+    "nearata-dsts": {
+        "admin": {
+            "permissions": {
+                "can_bypass_like": "",
+                "can_bypass_reply": "",
+                "can_bypass_login": "",
+                "can_use_bbcode": ""
+            },
+            "settings": {
+                "enabled": "",
+                "hide_only_first_post": "",
+                "require_like": "",
+                "require_reply": "",
+                "fof_upload": {
+                    "enabled": "",
+                    "section_title": "",
+                    "require_reply": "",
+                    "require_like": ""
+                }
+            }
+        },
+        "forum": {
+            "post": {
+                "login_tooltip": "",
+                "reply_tooltip": "",
+                "like_tooltip": "",
+                "fof_upload": {
+                    "login_text": "",
+                    "reply_text": "",
+                    "like_text": ""
+                },
+                "bbcode": {
+                    "hidden_content": "",
+                    "login_text": "",
+                    "reply_text": "",
+                    "like_text": ""
+                }
+            },
+            "composer": {
+                "dsts_tooltip": ""
+            }
+        }
+    }
+}
