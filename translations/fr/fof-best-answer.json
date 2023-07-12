@@ -16,12 +16,12 @@
                 "allow_select_own_post_help": "Autoriser l'auteur original à sélectionner l'un de ses propres messages de la discussion comme meilleure réponse",
                 "enable_all_tags_button": "Activer toutes les étiquettes pour les meilleures réponses",
                 "enable_all_tags_reminder_button": "Activer toutes les étiquettes pour les rappels d'une meilleure réponse",
-                "show_max_lines_label": "",
-                "show_max_lines_help": "",
+                "show_max_lines_label": "Nombre maximal de lignes à afficher dans la prévisualisation du message",
+                "show_max_lines_help": "Réglez cette valeur à 0 pour désactiver cette option. Si un message est plus long que le nombre de lignes configuré, il sera tronqué dans la prévisualisation du message avec un effet de fondu.",
                 "select_best_answer_reminder_days": "Fréquence des rappels",
                 "select_best_answer_reminder_days_help": "Envoyer un rappel à l'auteur original après le nombre de jours configurable pour sélectionner une meilleure réponse, 0 = désactive les rappels.",
-                "select_best_answer_tags_label": "",
-                "select_best_answer_tags_help": "",
+                "select_best_answer_tags_label": "Étiquettes pour les discussions avec meilleures réponses",
+                "select_best_answer_tags_help": "Sélectionnez, le cas échéant, les étiquettes à ajouter aux discussions lorsqu'une meilleure réponse est définie. Seules les étiquettes secondaires sont autorisées. Ces étiquettes seront supprimées si la meilleure réponse est supprimée.",
                 "schedule_on_one_server": "Utilisez la directive 'onOneServer ()' pour le planificateur de tâches",
                 "schedule_on_one_server_help": "Nécessite Redis/Memcache",
                 "schedule_stop_overnight": "Empêcher l'envoi de notifications de rappel pendant les heures creuses",
@@ -93,8 +93,8 @@
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "most_best_answers": "",
-                "least_best_answers": ""
+                "most_best_answers": "Principales meilleures réponses",
+                "least_best_answers": "Moins bonnes réponses"
             }
         }
     }
