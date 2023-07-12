@@ -880,6 +880,18 @@ return [
 		],
 		'maintainers' => [], // ['kon3ko'], see https://github.com/flarum-lang/thai/pull/2#issuecomment-1311857526
 	],
+	'tk' => [
+		'type' => 'language',
+		'language' => 'tk',
+		'repository' => 'git@github.com:flarum-lang/turkmen.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'tl' => [
 		'type' => 'language',
 		'language' => 'tl',
