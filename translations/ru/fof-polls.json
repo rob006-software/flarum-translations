@@ -8,6 +8,7 @@
                 "view_results_without_voting": "Смотреть результаты без голосования",
                 "start": "Создавать опросы",
                 "self_edit": "Редактировать свои опросы",
+                "self_post_edit": "",
                 "vote": "Голосовать в опросах",
                 "change_vote": "Изменять голос",
                 "moderate": "Редактировать / удалять опросы"
@@ -21,7 +22,8 @@
             "max_votes_allowed": "",
             "composer_discussion": {
                 "add_poll": "Добавить опрос",
-                "edit_poll": "=> fof-polls.forum.moderation.edit"
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": ""
             },
             "modal": {
                 "add_title": "Добавить опрос",
@@ -43,6 +45,7 @@
                 "submit": "Сохранить"
             },
             "moderation": {
+                "add": "",
                 "delete": "Удалить опрос",
                 "delete_confirm": "Вы уверены, что хотите удалить этот опрос?",
                 "edit": "Изменить опрос"

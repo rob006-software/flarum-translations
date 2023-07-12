@@ -8,6 +8,7 @@
                 "view_results_without_voting": "",
                 "start": "Ξεκινήστε μια δημοσκόπηση",
                 "self_edit": "Επιτρέψτε στους χρήστες να επεξεργάζονται τις δικές τους δημοσκοπήσεις",
+                "self_post_edit": "",
                 "vote": "Ψηφίστε στις δημοσκοπήσεις",
                 "change_vote": "",
                 "moderate": "Επεξεργασία και κατάργηση δημοσκοπήσεων"
@@ -21,7 +22,8 @@
             "max_votes_allowed": "",
             "composer_discussion": {
                 "add_poll": "Προσθήκη δημοσκόπησης",
-                "edit_poll": "=> fof-polls.forum.moderation.edit"
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": ""
             },
             "modal": {
                 "add_title": "Προσθήκη δημοσκόπησης",
@@ -43,6 +45,7 @@
                 "submit": "Υποβολή"
             },
             "moderation": {
+                "add": "",
                 "delete": "Κατάργηση δημοσκόπησης",
                 "delete_confirm": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν τη δημοσκόπηση;",
                 "edit": "Επεξεργασία δημοσκόπησης"

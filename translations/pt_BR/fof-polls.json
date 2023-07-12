@@ -8,6 +8,7 @@
                 "view_results_without_voting": "Ver resultados sem votar",
                 "start": "Iniciar uma enquete",
                 "self_edit": "Permitir que os usuários editem suas próprias enquetes",
+                "self_post_edit": "",
                 "vote": "Vote nas enquetes",
                 "change_vote": "Mudar voto",
                 "moderate": "Editar e remover enquetes"
@@ -21,7 +22,8 @@
             "max_votes_allowed": "",
             "composer_discussion": {
                 "add_poll": "Adicionar enquete",
-                "edit_poll": "=> fof-polls.forum.moderation.edit"
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": ""
             },
             "modal": {
                 "add_title": "Adicionar enquete",
@@ -43,6 +45,7 @@
                 "submit": "Enviar"
             },
             "moderation": {
+                "add": "",
                 "delete": "Remover enquete",
                 "delete_confirm": "Tem certeza de que deseja excluir esta enquete?",
                 "edit": "Editar enquete"

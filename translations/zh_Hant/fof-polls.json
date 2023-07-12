@@ -8,6 +8,7 @@
                 "view_results_without_voting": "無需參與投票直接查看結果",
                 "start": "發起投票",
                 "self_edit": "允許用戶編輯自己的投票",
+                "self_post_edit": "",
                 "vote": "參與投票",
                 "change_vote": "修改投票",
                 "moderate": "編輯及移除投票"
@@ -21,7 +22,8 @@
             "max_votes_allowed": "允許投票給 {max, plural, one {# option} other {# options}}。",
             "composer_discussion": {
                 "add_poll": "新增投票",
-                "edit_poll": "編輯投票"
+                "edit_poll": "編輯投票",
+                "no_permission_alert": ""
             },
             "modal": {
                 "add_title": "新增投票",
@@ -43,6 +45,7 @@
                 "submit": "提交"
             },
             "moderation": {
+                "add": "",
                 "delete": "移除投票",
                 "delete_confirm": "你確定要移除這個投票嗎？",
                 "edit": "編輯投票"

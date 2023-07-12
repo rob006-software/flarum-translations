@@ -8,6 +8,7 @@
                 "view_results_without_voting": "无需参与投票即可查看结果",
                 "start": "发起投票",
                 "self_edit": "允许用户编辑自己发起的投票",
+                "self_post_edit": "",
                 "vote": "参与投票",
                 "change_vote": "修改投票",
                 "moderate": "编辑或删除投票"
@@ -21,7 +22,8 @@
             "max_votes_allowed": "",
             "composer_discussion": {
                 "add_poll": "发起投票",
-                "edit_poll": "=> fof-polls.forum.moderation.edit"
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": ""
             },
             "modal": {
                 "add_title": "发起投票",
@@ -43,6 +45,7 @@
                 "submit": "提交"
             },
             "moderation": {
+                "add": "",
                 "delete": "删除投票",
                 "delete_confirm": "确定要删除这个投票吗？",
                 "edit": "编辑投票"

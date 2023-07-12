@@ -8,6 +8,7 @@
                 "view_results_without_voting": "Melihat hasil tanpa melakukan voting",
                 "start": "Memulai polling",
                 "self_edit": "Izinkan user untuk merubah pollingnya",
+                "self_post_edit": "",
                 "vote": "Memberikan vote pada polling",
                 "change_vote": "Mengganti vote",
                 "moderate": "Mengedit & menghapus polling"
@@ -21,7 +22,8 @@
             "max_votes_allowed": "Polling memungkinkan melakukan voting untuk {max, plural, one {# pilihan} other {# pilihan}}.",
             "composer_discussion": {
                 "add_poll": "Membuat Polling",
-                "edit_poll": "=> fof-polls.forum.moderation.edit"
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": ""
             },
             "modal": {
                 "add_title": "Membuat Polling",
@@ -43,6 +45,7 @@
                 "submit": "Submit"
             },
             "moderation": {
+                "add": "",
                 "delete": "Hapus Polling",
                 "delete_confirm": "Apakah anda yakin ingin menghapus polling ini?",
                 "edit": "Edit polling"

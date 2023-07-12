@@ -8,6 +8,7 @@
                 "view_results_without_voting": "Ver resultados sem votar",
                 "start": "Iniciar uma votação",
                 "self_edit": "Permitir aos utilizadores para alterar as suas votações",
+                "self_post_edit": "",
                 "vote": "Votar",
                 "change_vote": "Alterar voto",
                 "moderate": "Editar e remover votações"
@@ -21,7 +22,8 @@
             "max_votes_allowed": "",
             "composer_discussion": {
                 "add_poll": "Adicionar Votação",
-                "edit_poll": "=> fof-polls.forum.moderation.edit"
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": ""
             },
             "modal": {
                 "add_title": "Adicionar Votação",
@@ -43,6 +45,7 @@
                 "submit": "Submeter"
             },
             "moderation": {
+                "add": "",
                 "delete": "Remover votação",
                 "delete_confirm": "Tem a certeza que pretende apagar esta votação?",
                 "edit": "Editar votação"

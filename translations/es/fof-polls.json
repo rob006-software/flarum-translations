@@ -8,6 +8,7 @@
                 "view_results_without_voting": "Ver los resultados sin votar",
                 "start": "Iniciar una encuesta",
                 "self_edit": "Permitir a los usuarios editar sus propias encuestas",
+                "self_post_edit": "",
                 "vote": "Votar en las encuestas",
                 "change_vote": "Cambiar el voto",
                 "moderate": "Editar y eliminar encuestas"
@@ -21,7 +22,8 @@
             "max_votes_allowed": "",
             "composer_discussion": {
                 "add_poll": "Añadir encuesta",
-                "edit_poll": "=> fof-polls.forum.moderation.edit"
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": ""
             },
             "modal": {
                 "add_title": "Añadir una encuesta",
@@ -43,6 +45,7 @@
                 "submit": "Enviar"
             },
             "moderation": {
+                "add": "",
                 "delete": "Eliminar la encuesta",
                 "delete_confirm": "¿Estás seguro de que quieres eliminar esta encuesta?",
                 "edit": "Editar la encuesta"

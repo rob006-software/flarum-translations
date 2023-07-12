@@ -8,6 +8,7 @@
                 "view_results_without_voting": "Näytä tulokset ilman vastaamista",
                 "start": "Aloita kysely",
                 "self_edit": "Salli käyttäjien muokata omia kyselyitä",
+                "self_post_edit": "",
                 "vote": "Vastata kyselyissä",
                 "change_vote": "Vaihtaa vastausta",
                 "moderate": "Muokata & poistaa kyselyitä"
@@ -21,7 +22,8 @@
             "max_votes_allowed": "Kyselyt sallivat äänestyksen {max, plural, one {# vaihtoehdon} other {# vaihtoehtoon}}.",
             "composer_discussion": {
                 "add_poll": "Lisää kysely",
-                "edit_poll": "=> fof-polls.forum.moderation.edit"
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": ""
             },
             "modal": {
                 "add_title": "Lisää kysely",
@@ -43,6 +45,7 @@
                 "submit": "Lähetä"
             },
             "moderation": {
+                "add": "",
                 "delete": "Poista kysely",
                 "delete_confirm": "Haluatko varmasti poistaa tämän kyselyn?",
                 "edit": "Muokkaa kyselyä"

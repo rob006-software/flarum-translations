@@ -8,6 +8,7 @@
                 "view_results_without_voting": "回答せずに結果を見る",
                 "start": "アンケートの実施",
                 "self_edit": "ユーザーに回答内容の編集を許可する",
+                "self_post_edit": "",
                 "vote": "アンケートへの回答",
                 "change_vote": "回答の編集",
                 "moderate": "アンケートの編集 / 削除"
@@ -21,7 +22,8 @@
             "max_votes_allowed": "",
             "composer_discussion": {
                 "add_poll": "アンケートの追加",
-                "edit_poll": "=> fof-polls.forum.moderation.edit"
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": ""
             },
             "modal": {
                 "add_title": "アンケートの追加",
@@ -43,6 +45,7 @@
                 "submit": "送信"
             },
             "moderation": {
+                "add": "",
                 "delete": "アンケートの削除",
                 "delete_confirm": "このアンケートを削除してもよろしいですか？",
                 "edit": "アンケートの編集"

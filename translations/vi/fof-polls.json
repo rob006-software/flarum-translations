@@ -8,6 +8,7 @@
                 "view_results_without_voting": "Xem kết quả mà không cần bỏ phiếu",
                 "start": "Tạo cuộc thăm dò",
                 "self_edit": "Cho phép chỉnh sửa cuộc thăm dò của họ",
+                "self_post_edit": "",
                 "vote": "Bình chọn cuộc thăm dò",
                 "change_vote": "Thay đổi bình chọn",
                 "moderate": "Chỉnh sửa và xóa cuộc thăm dò"
@@ -21,7 +22,8 @@
             "max_votes_allowed": "",
             "composer_discussion": {
                 "add_poll": "Thêm cuộc thăm dò",
-                "edit_poll": "=> fof-polls.forum.moderation.edit"
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": ""
             },
             "modal": {
                 "add_title": "Thêm cuộc thăm dò",
@@ -43,6 +45,7 @@
                 "submit": "Đồng ý"
             },
             "moderation": {
+                "add": "",
                 "delete": "Xóa cuộc thăm dò",
                 "delete_confirm": "Bạn có chắc chắn muốn xoá cuộc thăm dò ý kiến này?",
                 "edit": "Chỉnh sửa cuộc thăm dò"

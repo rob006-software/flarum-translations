@@ -8,6 +8,7 @@
                 "view_results_without_voting": "Ergebnisse anzeigen ohne abzustimmen",
                 "start": "Umfragen starten",
                 "self_edit": "Eigene Umfragen bearbeiten",
+                "self_post_edit": "",
                 "vote": "In Umfragen abstimmen",
                 "change_vote": "Stimme ändern",
                 "moderate": "Umfragen bearbeiten & entfernen"
@@ -21,7 +22,8 @@
             "max_votes_allowed": "",
             "composer_discussion": {
                 "add_poll": "Umfrage hinzufügen",
-                "edit_poll": "=> fof-polls.forum.moderation.edit"
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": ""
             },
             "modal": {
                 "add_title": "Umfrage hinzufügen",
@@ -43,6 +45,7 @@
                 "submit": "Speichern"
             },
             "moderation": {
+                "add": "",
                 "delete": "Umfrage entfernen",
                 "delete_confirm": "Bist du sicher, dass du die Umfrage entfernen willst?",
                 "edit": "Umfrage bearbeiten"

@@ -8,6 +8,7 @@
                 "view_results_without_voting": "Sonuçları oy vermeden göster",
                 "start": "Anket oluştur",
                 "self_edit": "Kullanıcıların anketlerini düzenlemesine izin ver",
+                "self_post_edit": "",
                 "vote": "Ankete oy ver",
                 "change_vote": "Oyu değiştir",
                 "moderate": "Anketi düzenle veya sil"
@@ -21,7 +22,8 @@
             "max_votes_allowed": "Anket {max, plural, one {# şık} other {# şık}} seçmeye izin veriyor.",
             "composer_discussion": {
                 "add_poll": "Anket Oluştur",
-                "edit_poll": "=> fof-polls.forum.moderation.edit"
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": ""
             },
             "modal": {
                 "add_title": "Anket Oluştur",
@@ -43,6 +45,7 @@
                 "submit": "Gönder"
             },
             "moderation": {
+                "add": "",
                 "delete": "Anketi Sil",
                 "delete_confirm": "Anketi silmek istediğinize emin misiniz?",
                 "edit": "Anketi Düzenle"

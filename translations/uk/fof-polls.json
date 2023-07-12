@@ -8,6 +8,7 @@
                 "view_results_without_voting": "Перегляд результатів без голосування",
                 "start": "Почніть опитування",
                 "self_edit": "Дозволити користувачам редагувати власні опитування",
+                "self_post_edit": "",
                 "vote": "Голосування в опитуваннях",
                 "change_vote": "Змінити голос",
                 "moderate": "Редагувати та видаляти опитування"
@@ -21,7 +22,8 @@
             "max_votes_allowed": "В опитуванні можна проголосувати за {max, plural, one {# варіант} other {# варіанти}}.",
             "composer_discussion": {
                 "add_poll": "Додати опитування",
-                "edit_poll": "=> fof-polls.forum.moderation.edit"
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": ""
             },
             "modal": {
                 "add_title": "Додати опитування",
@@ -43,6 +45,7 @@
                 "submit": "Відправити"
             },
             "moderation": {
+                "add": "",
                 "delete": "Видалити опитування",
                 "delete_confirm": "Ви дійсно бажаєте видалити це опитування?",
                 "edit": "Редагувати опитування"

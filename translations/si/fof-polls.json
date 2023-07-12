@@ -8,6 +8,7 @@
                 "view_results_without_voting": "",
                 "start": "",
                 "self_edit": "",
+                "self_post_edit": "",
                 "vote": "",
                 "change_vote": "",
                 "moderate": ""
@@ -21,7 +22,8 @@
             "max_votes_allowed": "",
             "composer_discussion": {
                 "add_poll": "",
-                "edit_poll": "=> fof-polls.forum.moderation.edit"
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": ""
             },
             "modal": {
                 "add_title": "",
@@ -43,6 +45,7 @@
                 "submit": ""
             },
             "moderation": {
+                "add": "",
                 "delete": "",
                 "delete_confirm": "",
                 "edit": ""

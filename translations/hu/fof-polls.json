@@ -8,6 +8,7 @@
                 "view_results_without_voting": "Eredmény megtekintése szavazás nélkül",
                 "start": "Szavazás indítása",
                 "self_edit": "A felhasználók módosíthatják a saját szavazásukat",
+                "self_post_edit": "",
                 "vote": "Részvétel a szavazásokban",
                 "change_vote": "Szavazat módosítása",
                 "moderate": "Szavazások szerkesztése és törlése"
@@ -21,7 +22,8 @@
             "max_votes_allowed": "",
             "composer_discussion": {
                 "add_poll": "Szavazás hozzáadása",
-                "edit_poll": "=> fof-polls.forum.moderation.edit"
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": ""
             },
             "modal": {
                 "add_title": "Szavazás hozzáadása",
@@ -43,6 +45,7 @@
                 "submit": "Beküldés"
             },
             "moderation": {
+                "add": "",
                 "delete": "Szavazás eltávolítása",
                 "delete_confirm": "Valóban törli a szavazást?",
                 "edit": "Szavazás szerkesztése"
