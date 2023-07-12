@@ -29,18 +29,18 @@
                     "daily": "每天一次"
                 },
                 "soft_404": {
-                    "heading": "",
-                    "help": "",
+                    "heading": "软性 404 预防",
+                    "help": "当一个模型没有相关内容或相关内容很少时，Google和其他爬虫可能会将其标记为 \"软404 \"页面。为了消除这种情况，请在此处为每个合格项目设置所需的最低项目数。",
                     "user": {
                         "comments": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "用户：最低评论/帖子数量",
+                            "minimum_item_threshold_help": "在 Sitemap 中包含用户个人资料所需的最少评论/帖子数量。"
                         }
                     },
                     "tags": {
                         "discussion": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "标签: 最少主题数量",
+                            "minimum_item_threshold_help": "标签在 Sitemap 中包含的最少主题次数。"
                         }
                     }
                 },
