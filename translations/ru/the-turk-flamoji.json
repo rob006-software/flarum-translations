@@ -2,29 +2,29 @@
     "the-turk-flamoji": {
         "admin": {
             "settings": {
-                "emoji_settings_heading": "",
-                "category_settings_heading": "",
-                "general_ui_settings_heading": "",
-                "show_variants_label": "",
-                "show_variants_text": "",
-                "auto_hide_label": "",
-                "auto_hide_text": "",
-                "show_preview_label": "",
-                "show_category_buttons_label": "",
-                "show_search_label": "",
-                "show_recents_label": "",
-                "recents_count_label": "",
-                "recents_count_text": "",
-                "emoji_style_label": "",
-                "emoji_version_label": "",
-                "emoji_version_text": "",
-                "initial_category_label": "",
-                "initial_category_text": "",
-                "specify_categories_label": "",
-                "specify_categories_text": "",
-                "emoji_data_label": "",
-                "emoji_data_text": "",
-                "emoji_style_native_option": "",
+                "emoji_settings_heading": "Emoji настройки",
+                "category_settings_heading": "Настройки категорий",
+                "general_ui_settings_heading": "Основные UI настройки",
+                "show_variants_label": "Показывать варианты",
+                "show_variants_text": "Некоторые эмодзи имеют различные оттенки кожи. Когда эмодзи выбран в окне выбора, имеющем варианты, появится всплывающее окно с вариантами, чтобы пользователь мог выбрать желаемый вариант.",
+                "auto_hide_label": "Автоматически скрыть",
+                "auto_hide_text": "Скрыть окно выбора при выборе эмодзи.",
+                "show_preview_label": "Предварительный просмотр",
+                "show_category_buttons_label": "Показывать кнопки категорий",
+                "show_search_label": "Показывать строку поиска",
+                "show_recents_label": "Показывать (и сохранять) последние использованные эмодзи",
+                "recents_count_label": "Количество недавно использованных эмодзи",
+                "recents_count_text": "Количество последних эмодзи, которые нужно сохранить.",
+                "emoji_style_label": "Стиль Emoji",
+                "emoji_version_label": "Версия Emoji",
+                "emoji_version_text": "Версия спецификации эмодзи для использования.",
+                "initial_category_label": "Начальная категория",
+                "initial_category_text": "По умолчанию в окне выбора сначала отображается категория - Смайлики и эмоции.",
+                "specify_categories_label": "Укажите категории",
+                "specify_categories_text": "Здесь вы можете указать список категорий, которые будут отображены.",
+                "emoji_data_label": "Данные Emoji",
+                "emoji_data_text": "Обычно это используется для предоставления переведенных названий эмодзи.",
+                "emoji_style_native_option": "Родной",
                 "emoji_categories": {
                     "smileys": "",
                     "people": "",
@@ -38,18 +38,18 @@
                 }
             },
             "custom_emojis_section": {
-                "heading_title": "",
-                "import_json_button": "",
-                "export_json_button": "",
-                "import_emojis_message": "",
+                "heading_title": "Пользовательские эмодзи",
+                "import_json_button": "Импорт JSON",
+                "export_json_button": "Экспорт JSON",
+                "import_emojis_message": "При этом будут импортированы только конфигурации эмодзи. Вам нужно загрузить изображения с эмодзи вручную.",
                 "edit_emoji": {
-                    "modal_title": "",
-                    "emoji_title_label": "",
-                    "delete_emoji_confirmation": "",
-                    "text_to_replace_label": "",
-                    "path_or_url_label": "",
+                    "modal_title": "Добавить эмодзи",
+                    "emoji_title_label": "Заголовок эмодзи",
+                    "delete_emoji_confirmation": "Вы уверены, что хотите удалить этот эмодзи?",
+                    "text_to_replace_label": "Текст для замены",
+                    "path_or_url_label": "Путь или URL-адрес",
                     "submit_button": "",
-                    "delete_emoji_button": "",
+                    "delete_emoji_button": "Удалить эмодзи",
                     "saved_message": ""
                 },
                 "emoji_list": {
@@ -59,11 +59,11 @@
         },
         "forum": {
             "composer": {
-                "emoji_tooltip": ""
+                "emoji_tooltip": "Вставить эмодзи"
             },
             "emoji-button": {
-                "search_placeholder": "",
-                "no_emojis_found_message": "",
+                "search_placeholder": "Поиск эмодзи",
+                "no_emojis_found_message": "Эмодзи не найдено",
                 "categories": {
                     "recents": "",
                     "smileys": "",
@@ -81,17 +81,17 @@
         },
         "ref": {
             "emoji_categories": {
-                "recents": "",
-                "smileys": "",
-                "people": "",
-                "animals": "",
-                "food": "",
-                "travel": "",
-                "activities": "",
-                "objects": "",
-                "symbols": "",
-                "flags": "",
-                "custom": ""
+                "recents": "Последние эмодзи",
+                "smileys": "Смайлики и эмоции",
+                "people": "Люди и тело",
+                "animals": "Животные и природа",
+                "food": "Еда и напитки",
+                "travel": "Путешествия и места",
+                "activities": "Активность",
+                "objects": "Объекты",
+                "symbols": "Символы",
+                "flags": "Флаги",
+                "custom": "Пользовательские"
             }
         }
     }
