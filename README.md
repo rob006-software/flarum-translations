@@ -966,7 +966,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`datlechin-posted-on`](https://weblate.rob006.net/projects/flarum/datlechin-posted-on) | [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on) |
 | [`datlechin-pronouns`](https://weblate.rob006.net/projects/flarum/datlechin-pronouns) | [`datlechin/flarum-pronouns`](https://github.com/datlechin/flarum-pronouns) |
 | [`datlechin-remove-sidenav`](https://weblate.rob006.net/projects/flarum/datlechin-remove-sidenav) | [`datlechin/flarum-remove-sidenav`](https://github.com/datlechin/flarum-remove-sidenav) |
-| [`datlechin-scroll-buttons`](https://weblate.rob006.net/projects/flarum/datlechin-scroll-buttons) | [`datlechin/flarum-scroll-buttons`](https://github.com/flatension/scroll-buttons) |
+| [`datlechin-scroll-buttons`](https://weblate.rob006.net/projects/flarum/datlechin-scroll-buttons) | [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons) |
 | [`datlechin-signup-button`](https://weblate.rob006.net/projects/flarum/datlechin-signup-button) | [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button) |
 | [`datlechin-silent-edit`](https://weblate.rob006.net/projects/flarum/datlechin-silent-edit) | [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit) |
 | [`datlechin-tag-passwords`](https://weblate.rob006.net/projects/flarum/datlechin-tag-passwords) | [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords) |
