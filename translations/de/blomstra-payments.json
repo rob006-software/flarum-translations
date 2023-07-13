@@ -2,16 +2,16 @@
     "core": {
         "forum": {
             "index_sort": {
-                "mostBacked_button": ""
+                "mostBacked_button": "Meist unterstützt"
             }
         }
     },
     "blomstra-payments": {
         "forum": {
             "accept-terms-modal": {
-                "accept_label": "",
-                "continue_button": "",
-                "title": ""
+                "accept_label": "Ich habe die <link>Zahlungsbedingungen</link> gelesen und akzeptiere sie.",
+                "continue_button": "Zahlung fortsetzen",
+                "title": "Bedingungen akzeptieren"
             },
             "stripe": {
                 "interval_once": ""
@@ -19,8 +19,8 @@
             "subscription-card": {
                 "bounty": "",
                 "ptv": "",
-                "pta": "",
-                "ptb": "",
+                "pta": "Bezahlt für den Zugang",
+                "ptb": "Bezahlt, um zu bumpen",
                 "ptp": "",
                 "cancel-control": "",
                 "none": ""
@@ -45,8 +45,8 @@
                 "purchase-log-in": "Anmelden und bezahlen um zu bumpen"
             },
             "bounties": {
-                "purchase-control": "",
-                "enable-control": ""
+                "purchase-control": "Belohnung hinzufügen",
+                "enable-control": "Belohnungen aktivieren"
             },
             "choose-bounty-amount-modal": {
                 "title": "",
@@ -54,7 +54,7 @@
                 "description": ""
             },
             "backers-widget": {
-                "backers": "",
+                "backers": "Unterstützer",
                 "label": "",
                 "none": "",
                 "pledged": ""
@@ -95,7 +95,7 @@
                 "bump-others": "(PTB) Anderen erlauen, Diskussionen zu bumpen",
                 "bump-others-description": "Wenn aktiviert, kann nicht nur der Diskussionsautor Diskussionen mit einer Zahlung bumpen.\n",
                 "select-bounty-product": "",
-                "select-bounty-product-description": ""
+                "select-bounty-product-description": "Wähle ein Produkt aus, um es für Belohnungen festzulegen. Das Produkt kann nur einen Preis mit Modell haben: \"Benutzerdefiniert wählt Preis\". Kopiere die ID des Produkts, die mit <code>prod_</code> beginnt, in dieses Feld.\n"
             },
             "edit-group": {
                 "select-pta-product": "(PTA) Erforderliches Produkt",
@@ -108,10 +108,10 @@
                 "webhook-secret": "Webhook-Signaturgeheimnis",
                 "link-access-portal": "Zugangsportal unter Benutzersitzungs-Dropdown verknüpfen",
                 "link-to-terms": "",
-                "recount-total-discussion-bounties": ""
+                "recount-total-discussion-bounties": "Zähle die gesamten Belohnungen für Diskussionen nach"
             },
             "permission": {
-                "enable-bounties": ""
+                "enable-bounties": "Belohnungen aktivieren"
             }
         }
     }
