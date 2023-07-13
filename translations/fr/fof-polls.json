@@ -7,8 +7,8 @@
             "permissions": {
                 "view_results_without_voting": "Afficher les résultats sans voter",
                 "start": "Démarrer un sondage",
-                "self_edit": "Autoriser les utilisateurs à modifier leurs propres sondages",
-                "self_post_edit": "",
+                "self_edit": "Modifier les sondages créés (nécessite l'autorisation de modifier les messages)",
+                "self_post_edit": "Modifier *tous* les sondages sur ses propres messages (nécessite l'autorisation de modifier les messages)",
                 "vote": "Voter sur les sondages",
                 "change_vote": "Modifier le vote",
                 "moderate": "Modifier et supprimer les sondages"
@@ -16,14 +16,14 @@
         },
         "forum": {
             "days_remaining": "Le sondage se termine dans {time}.",
-            "no_permission": "Vous n'avez pas la permission de voter",
+            "no_permission": "Vous n'avez pas l'autorisation de voter",
             "poll_ended": "Ce sondage est terminé.",
             "public_poll": "Voir les votants",
             "max_votes_allowed": "Le sondage permet de voter pour {max, plural, one {# option} other {# options}}.",
             "composer_discussion": {
-                "add_poll": "Ajouter un sondage",
+                "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
-                "no_permission_alert": ""
+                "no_permission_alert": "Vous n'avez pas l'autorisation de démarrer un sondage."
             },
             "modal": {
                 "add_title": "Ajouter un sondage",
@@ -45,7 +45,7 @@
                 "submit": "Envoyer"
             },
             "moderation": {
-                "add": "",
+                "add": "Ajouter un sondage",
                 "delete": "Supprimer le sondage",
                 "delete_confirm": "Êtes-vous sûr de vouloir supprimer ce sondage ?",
                 "edit": "Modifier le sondage"
