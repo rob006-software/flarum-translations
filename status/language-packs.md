@@ -2058,7 +2058,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/turkmen">Turkmen</a></td>
+		<td><a href="https://github.com/flarum-lang/turkmen">Turkmen</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/turkmen/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/turkmen" alt="last release" style="max-width: 160px;" />
