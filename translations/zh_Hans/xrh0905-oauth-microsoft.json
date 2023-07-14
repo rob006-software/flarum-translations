@@ -5,15 +5,15 @@
                 "providers": {
                     "microsoft": {
                         "description": "在微软注册你的论坛{链接}",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_microsoft_button": ""
+                "with_microsoft_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
                 "microsoft": ""
