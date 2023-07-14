@@ -2,26 +2,26 @@
     "core": {
         "admin": {
             "appearance": {
-                "colored_header_label": "",
-                "colors_heading": "",
-                "colors_primary_label": "",
-                "colors_secondary_label": "",
-                "colors_text": "",
-                "custom_footer_heading": "",
-                "custom_footer_text": "",
-                "custom_header_heading": "",
-                "custom_header_text": "",
-                "custom_styles_cannot_use_less_features": "",
-                "custom_styles_heading": "",
-                "custom_styles_text": "",
-                "dark_mode_label": "",
-                "description": "",
-                "edit_css_button": "",
-                "edit_footer_button": "",
-                "edit_header_button": "",
-                "enter_hex_message": "",
-                "favicon_heading": "",
-                "favicon_text": "",
+                "colored_header_label": "Reňkli Header",
+                "colors_heading": "Reňkler",
+                "colors_primary_label": "Esasy Reňk",
+                "colors_secondary_label": "Ikilenji Reňk",
+                "colors_text": "Forum temasy üçin iki reňk saýlaň. Birinji reňk bellik reňk hökmünde, ikinji reňk bolsa yzky fon stilleri üçin ulanylar.",
+                "custom_footer_heading": "Ýörite Aşaky sözbaşy",
+                "custom_footer_text": "=> core.ref.custom_footer_text",
+                "custom_header_heading": "Ýörite Sözbaşy",
+                "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "Ýörite LESS kodda @import we data-uri aýratynlyklar rugsat berilenok.",
+                "custom_styles_heading": "Ýörite Stiller",
+                "custom_styles_text": "Flarumyň adaty stilleriniň üstüne öz LESS/CSS koduňyzy goşup forumyňyzyň keşbini üýtgediň.",
+                "dark_mode_label": "Garaňky tema",
+                "description": "Forumyňyzyň reňkelerini, logosyny, we beýleki üýtgemelirini düzüň.",
+                "edit_css_button": "Öz СSS-ňizi düzüň",
+                "edit_footer_button": "=> core.ref.custom_footer_title",
+                "edit_header_button": "=> core.ref.custom_header_title",
+                "enter_hex_message": "Haýyş, HEX reňk kodyňy giriziň.",
+                "favicon_heading": "Fawikon",
+                "favicon_text": "Forumyň kiçi nyşany hökmünde görkeziljek suraty ýüklaň.",
                 "logo_heading": "",
                 "logo_text": "",
                 "title": ""
@@ -36,77 +36,77 @@
                 "forum_description_text": "",
                 "forum_title_heading": "",
                 "home_page_heading": "",
-                "home_page_text": "",
-                "show_language_selector_label": "",
-                "slug_driver_heading": "",
-                "slug_driver_text": "",
-                "title": "",
-                "welcome_banner_heading": "",
-                "welcome_banner_text": ""
+                "home_page_text": "Ulanyjy foruma ilkinji gezek gireninde görkezilmeli sahypany saýlaň.",
+                "show_language_selector_label": "Dil saýlawy görkez",
+                "slug_driver_heading": "Slug draýwer: {model}",
+                "slug_driver_text": "Şu modeli slug etmek üçin draýweri saýlaň.",
+                "title": "Esaslar",
+                "welcome_banner_heading": "\"Hoş geldiňiz\" Banneri",
+                "welcome_banner_text": "\"Ähli diskussiýalar\" sahypada görkezilýän banneri düzüň. Şuny myhman ulanyjylary garşylamak üçin ulanyň."
             },
             "create_user": {
-                "email_placeholder": "",
-                "email_confirmed_label": "",
-                "password_placeholder": "",
-                "submit_and_create_another_button": "",
-                "submit_button": "",
-                "title": "",
-                "use_random_password": "",
-                "username_placeholder": ""
+                "email_placeholder": "=> core.ref.email",
+                "email_confirmed_label": "Ulanyjydan poçtasyny tassyklamagy talap et",
+                "password_placeholder": "=> core.ref.password",
+                "submit_and_create_another_button": "Döret we ýene goş",
+                "submit_button": "Ulanyjy döret",
+                "title": "Täze ulanyjy döret",
+                "use_random_password": "Tötänleýin parol öndür",
+                "username_placeholder": "=> core.ref.username"
             },
             "dashboard": {
-                "clear_cache_button": "",
-                "description": "",
-                "io_error_message": "",
+                "clear_cache_button": "Keş arassala",
+                "description": "Forumyň admin paneli.",
+                "io_error_message": "Faýl systemasyna ýazylmady. Faýl systemanyň rugsatlaryny barlaň we gaýtadan synanyň. Ýa-da command line-den girizip barlaň.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "scheduler-status": "Meýilleşdiriji (planlaşdyryjy)",
+                        "queue-driver": "Nobat Draýweri",
+                        "session-driver": "Sessiýa Draýweri"
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "Aktiw",
+                        "inactive": "Aktiw däl",
+                        "never-run": "Hiç haçan işletme"
                     }
                 },
-                "title": "",
-                "tools_button": ""
+                "title": "Dolandyryş paneli",
+                "tools_button": "Gurallar"
             },
             "debug-warning": {
                 "detail": "",
-                "label": ""
+                "label": "Debug tertibi işjeň"
             },
             "edit_css": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "Flarumyň <a>adaty stilleriniň</a> üstüne öz LESS/CSS koduňyzy goşup forumyňyzyň keşbini üýtgediň.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Öz CSS-ňy üýtget"
             },
             "edit_footer": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "=> core.ref.custom_footer_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
             },
             "edit_group": {
-                "color_label": "",
-                "delete_button": "",
-                "delete_confirmation": "",
-                "hide_label": "",
-                "icon_label": "",
-                "icon_text": "",
-                "name_label": "",
-                "plural_placeholder": "",
-                "singular_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "color_label": "=> core.ref.color",
+                "delete_button": "Gruppany boz",
+                "delete_confirmation": "Gruppany bozmak ynamyňyz barmy? Gruppa agzalary BOZULMAÝAR.",
+                "hide_label": "Forumda gizle",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "Ady",
+                "plural_placeholder": "Köplük görnüş (mysal üçin, Moderatorlar)",
+                "singular_placeholder": "Ýeke görnüş (mysal üçin, Moderator)",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Topar döret"
             },
             "edit_header": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
             },
             "email": {
-                "addresses_heading": "",
+                "addresses_heading": "Salgylar",
                 "description": "",
                 "driver_heading": "",
                 "driver_label": "",
