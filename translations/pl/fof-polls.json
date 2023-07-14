@@ -8,7 +8,7 @@
                 "view_results_without_voting": "Podglądanie wyników bez zagłosowania",
                 "start": "Tworzenie ankiet",
                 "self_edit": "Edytowanie utworzonych ankiet (wymaga uprawnień edycji posta)",
-                "self_post_edit": "",
+                "self_post_edit": "Edytowanie *wszystkich* ankiet we własnych postach (wymaga uprawnień do edycji posta)",
                 "vote": "Głosowanie w ankietach",
                 "change_vote": "Zmiana głosu",
                 "moderate": "Edytowanie i usuwanie ankiet"
@@ -21,9 +21,9 @@
             "public_poll": "Zobacz głosujących",
             "max_votes_allowed": "Ankieta umożliwia głosowanie na {max, plural, one {# opcję} few {# opcje} other {# opcji}}.",
             "composer_discussion": {
-                "add_poll": "Dodaj ankietę",
+                "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
-                "no_permission_alert": ""
+                "no_permission_alert": "Nie masz uprawnień do utworzenia ankiety."
             },
             "modal": {
                 "add_title": "Dodaj ankietę",
@@ -45,7 +45,7 @@
                 "submit": "Zatwierdź"
             },
             "moderation": {
-                "add": "",
+                "add": "Dodaj ankietę",
                 "delete": "Usuń ankietę",
                 "delete_confirm": "Czy jesteś pewien, że chcesz usunąć tę ankietę?",
                 "edit": "Edytuj ankietę"
