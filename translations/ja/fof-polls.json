@@ -2,7 +2,8 @@
     "fof-polls": {
         "admin": {
             "settings": {
-                "allow_option_image": ""
+                "allow_option_image": "",
+                "max_options": ""
             },
             "permissions": {
                 "view_results_without_voting": "回答せずに結果を見る",
@@ -41,6 +42,7 @@
                 "allow_multiple_votes_label": "",
                 "max_votes_label": "",
                 "max_votes_help": "",
+                "hide_votes_label": "",
                 "question_placeholder": "質問",
                 "submit": "送信"
             },

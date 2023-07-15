@@ -2,7 +2,8 @@
     "fof-polls": {
         "admin": {
             "settings": {
-                "allow_option_image": "Pozwól na podanie URL obrazka dla każdej opcji wyboru w ankiecie"
+                "allow_option_image": "Pozwól na podanie URL obrazka dla każdej opcji wyboru w ankiecie",
+                "max_options": ""
             },
             "permissions": {
                 "view_results_without_voting": "Podglądanie wyników bez zagłosowania",
@@ -41,6 +42,7 @@
                 "allow_multiple_votes_label": "Pozwól użytkownikom głosować na wiele opcji",
                 "max_votes_label": "Maksymalna liczba głosów na użytkownika",
                 "max_votes_help": "Ustaw na 0, aby pozwolić użytkownikom głosować na wszystkie opcje.",
+                "hide_votes_label": "",
                 "question_placeholder": "Pytanie",
                 "submit": "Zatwierdź"
             },

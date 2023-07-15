@@ -2,7 +2,8 @@
     "fof-polls": {
         "admin": {
             "settings": {
-                "allow_option_image": "Izinkan URL gambar disediakan untuk setiap opsi polling"
+                "allow_option_image": "Izinkan URL gambar disediakan untuk setiap opsi polling",
+                "max_options": ""
             },
             "permissions": {
                 "view_results_without_voting": "Melihat hasil tanpa melakukan voting",
@@ -41,6 +42,7 @@
                 "allow_multiple_votes_label": "Izinkan orang untuk memilih beberapa pilihan",
                 "max_votes_label": "Maks vote per pengguna",
                 "max_votes_help": "Atur ke 0 untuk memungkinkan pengguna memilih semua opsi.",
+                "hide_votes_label": "",
                 "question_placeholder": "Pertanyaan",
                 "submit": "Submit"
             },

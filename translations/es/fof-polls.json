@@ -2,7 +2,8 @@
     "fof-polls": {
         "admin": {
             "settings": {
-                "allow_option_image": "Permitir una URL de imagen para cada opción de encuesta"
+                "allow_option_image": "Permitir una URL de imagen para cada opción de encuesta",
+                "max_options": ""
             },
             "permissions": {
                 "view_results_without_voting": "Ver los resultados sin votar",
@@ -41,6 +42,7 @@
                 "allow_multiple_votes_label": "",
                 "max_votes_label": "",
                 "max_votes_help": "",
+                "hide_votes_label": "",
                 "question_placeholder": "Pregunta",
                 "submit": "Enviar"
             },

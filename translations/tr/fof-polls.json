@@ -2,7 +2,8 @@
     "fof-polls": {
         "admin": {
             "settings": {
-                "allow_option_image": "Her anket seçeneği için bir resim URL'sinin sağlanmasına izin ver"
+                "allow_option_image": "Her anket seçeneği için bir resim URL'sinin sağlanmasına izin ver",
+                "max_options": ""
             },
             "permissions": {
                 "view_results_without_voting": "Sonuçları oy vermeden göster",
@@ -41,6 +42,7 @@
                 "allow_multiple_votes_label": "Kullanıcıların birden fazla seçeneği oylamasına izin ver",
                 "max_votes_label": "Kullanıcı başına azami oylar",
                 "max_votes_help": "Kullanıcıların tüm seçeneklere oy verebilmesini istiyorsanız 0 olarak belirleyin.",
+                "hide_votes_label": "",
                 "question_placeholder": "Soru",
                 "submit": "Gönder"
             },

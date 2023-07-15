@@ -2,7 +2,8 @@
     "fof-polls": {
         "admin": {
             "settings": {
-                "allow_option_image": "允許圖片選項"
+                "allow_option_image": "允許圖片選項",
+                "max_options": ""
             },
             "permissions": {
                 "view_results_without_voting": "無需參與投票直接查看結果",
@@ -41,6 +42,7 @@
                 "allow_multiple_votes_label": "允許選擇多個選項",
                 "max_votes_label": "每個用戶的最大投票數",
                 "max_votes_help": "設置為 0 以允許用戶對所有選項進行投票。",
+                "hide_votes_label": "",
                 "question_placeholder": "問題",
                 "submit": "提交"
             },
