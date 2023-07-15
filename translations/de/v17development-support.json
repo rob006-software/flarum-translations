@@ -31,7 +31,7 @@
                     "rename_category": "Kategorie umbenennen",
                     "edit_description": "Beschreibung bearbeiten",
                     "change_icon": "Icon ändern",
-                    "recount_articles": ""
+                    "recount_articles": "Artikel nachzählen"
                 }
             },
             "article_events": {
@@ -145,17 +145,17 @@
                 "return_to_overview": "Zurück zur Ticketübersicht",
                 "ticket_overview": "Ticketübersicht",
                 "opened_on": "Geöffnet am",
-                "ticket_activity": "{count, plural, one {Eine Erinnerung gesendet} other {# Erinnerungen gesendet}}",
-                "reminders_sent": "Von {username}, letzte Aktivität {date}",
+                "ticket_activity": "Von {username}, letzte Aktivität {date}",
+                "reminders_sent": "{count, plural, one {Eine Mahnung gesendet} other {# Mahnungen gesendet}}",
                 "convert_to_ticket": {
                     "button": "Zu einem Ticket machen",
                     "confirm": "Bist du dir sicher, dass du diese Diskussion zu einem Ticket machen möchtest?",
                     "event": "Diskussion {ticket_title} wurde zu einem Ticket gemacht"
                 },
                 "convert_to_discussion": {
-                    "button": "",
-                    "confirm": "",
-                    "event": ""
+                    "button": "Zur Diskussion konvertieren",
+                    "confirm": "Bist du sicher, dass du dieses Ticket in eine öffentliche Diskussion umwandeln willst? Wenn jemand private Informationen geteilt hat, werden diese auch öffentlich.",
+                    "event": "Ticket {ticket_title} wurde in eine Diskussion umgewandelt\n\nMöchtest du jetzt zu dieser Diskussion gehen?\n"
                 },
                 "status": {
                     "new": {
@@ -199,7 +199,7 @@
                     "remove_me": "Entferne mich",
                     "update_status": "Ticketstatus aktualisieren",
                     "close_ticket": "Ticket schließen",
-                    "update_note": ""
+                    "update_note": "Private Notiz aktualisieren"
                 },
                 "new_tickets_dropdown": {
                     "title": "Ticketbenachrichtigungen",
@@ -232,11 +232,11 @@
                         "placeholder": "Der Status des Tickets"
                     },
                     "private_note": {
-                        "title": "",
-                        "info": "",
-                        "tip": "",
-                        "placeholder": "",
-                        "edit_button": ""
+                        "title": "Private Notizen",
+                        "info": "Private Notizen sind nur für andere Supportmitarbeiter sichtbar. Sie sind für den Kunden nicht sichtbar.",
+                        "tip": "TIPP: Wenn du mit mehreren Agenten an einem Ticket arbeitest, schreibe deinen Namen und das Datum in eine Notiz.",
+                        "placeholder": "Beispiel: 1. Januar 2022 - Agentenname: Gelöschter Kunde aus der Datenbank",
+                        "edit_button": "Anmerkung bearbeiten"
                     }
                 },
                 "compose_ticket": {
@@ -264,7 +264,7 @@
                     "filter": {
                         "status": {
                             "title": "Ticketstatus",
-                            "filter_count": "# Filter"
+                            "filter_count": "{count, plural, one {# Filter} other {# Filter}}"
                         },
                         "language": {
                             "any": "Alle Sprachen"
@@ -285,12 +285,12 @@
             },
             "notifications": {
                 "replied_to_ticket": {
-                    "name": "",
-                    "content": ""
+                    "name": "Jemand hat auf mein Ticket geantwortet",
+                    "content": "=> v17development-flarum-support.emails.replied_to_ticket.subject"
                 },
                 "ticket_resolved": {
-                    "name": "",
-                    "content": ""
+                    "name": "Mein Ticket wurde gelöst",
+                    "content": "=> v17development-flarum-support.emails.ticket_resolved.subject"
                 }
             }
         },
