@@ -5,8 +5,8 @@
             "settings_accessibility_label": "{name}-Einstellungen",
             "settings": {
                 "only_icons_label": "Zeige nur die Symbole ohne Text auf den Einloggen-Buttons (alternatives Layout)",
-                "update_email_from_provider_label": "",
-                "update_email_from_provider_help": "",
+                "update_email_from_provider_label": "E-Mail Adresse vom Anbieter aktualisieren",
+                "update_email_from_provider_help": "Wenn diese Option aktiviert ist, wird die E-Mail-Adresse des Nutzers bei jeder Anmeldung im Forum aktualisiert, damit sie mit der vom OAuth-Anbieter angegebenen Adresse übereinstimmt. Nicht alle Anbieter stellen die aktualisierte E-Mail-Adresse zur Verfügung. In diesem Fall hat diese Einstellung bei diesen Anbietern keine Auswirkungen.",
                 "providers": {
                     "callback_url_text": "Wenn nötig, setze die Rückruf-URL (callback) zu {url}.",
                     "discord": {
@@ -62,13 +62,13 @@
             "user": {
                 "settings": {
                     "linked-account": {
-                        "label": "",
-                        "last-used-label": "",
-                        "link-created-label": "",
-                        "orphaned-account": "",
-                        "help": "",
-                        "identifier-label": "",
-                        "unlink-confirm": ""
+                        "label": "Verknüpfte Konten",
+                        "last-used-label": "Zuletzt verwendet",
+                        "link-created-label": "Link erstellt",
+                        "orphaned-account": "Du hast dich zuvor über diesen Anbieter angemeldet, jedoch hat das Forum die Anmeldung mit dieser Methode seitdem deaktiviert.",
+                        "help": "Diese verknüpften Konten ermöglichen es dir, dich mit anderen Anbietern im Forum anzumelden.",
+                        "identifier-label": "{provider} ID",
+                        "unlink-confirm": "Bist du sicher, dass du den Link mit {provider} entfernen willst? Du wirst dich nicht mehr in diesem Forum anmelden können, wenn du dich nicht in Zukunft neu authentifizierst."
                     }
                 }
             },
@@ -84,7 +84,7 @@
             "signup": {
                 "username_help": "Bitte wähle hier einen Benutzernamen, der bekannt sein soll"
             },
-            "unlink": "",
+            "unlink": "Link entfernen",
             "error": {
                 "bad_verification_code": "Ungültiges oder abgelaufenes Verifizierungs-Token. Bitte versuche es erneut.",
                 "invalid_state": "Ungültiger Zustand. Bitte versuche es erneut."
