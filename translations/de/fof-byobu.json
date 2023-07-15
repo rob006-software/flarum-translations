@@ -85,7 +85,7 @@
         "admin": {
             "permission": {
                 "create_private_discussions_with_users": "Private Diskussionen mit Nutzern erstellen",
-                "add_more_than_two_user_recipients": "",
+                "add_more_than_two_user_recipients": "Mehr als 2 Benutzer-Empfänger zu einer privaten Diskussion hinzufügen",
                 "create_private_discussions_with_groups": "Private Diskussionen mit Gruppen erstellen",
                 "create_private_discussions_with_blocking_users": "Erstelle private Diskussionen mit Nutzern, die du blockierst",
                 "edit_user_recipients": "Nutzer bearbeiten, die an privaten Diskussionen teilnehmen",
@@ -98,10 +98,10 @@
                 "enable-make-public-option": "\"Öffentlich machen\" Funktion aktivieren",
                 "enable-make-public-option-help": "Fügt die Möglichkeit für diejenigen hinzu, die die Berechtigung haben, alle Empfänger zu entfernen, ein neues Thema zuzuweisen und die Diskussion öffentlich sichtbar zu machen (gemäß den Sichtbarkeitseinstellungen des ausgewählten Themas).",
                 "post-event-icon": "Byobu Post Ereignisse",
-                "delete_on_last_recipient_left": "",
-                "delete_on_last_recipient_left_help": "",
-                "hide_from_all_discussions_page": "",
-                "hide_from_all_discussions_page_help": ""
+                "delete_on_last_recipient_left": "PDs löschen, wenn der letzte Nutzer geht",
+                "delete_on_last_recipient_left_help": "Wenn diese Option aktiviert ist, werden die PDs dauerhaft aus der Datenbank gelöscht, wenn der letzte Nutzer sie verlässt. Andernfalls wird die PD sanft gelöscht/versteckt.",
+                "hide_from_all_discussions_page": "PDs von der Seite \"Alle Diskussionen\" ausblenden",
+                "hide_from_all_discussions_page_help": "Private Diskussionen sind nur über die Seite \"Private Diskussionen\" oder das Benutzerprofil zugänglich"
             }
         },
         "email": {
