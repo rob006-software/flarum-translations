@@ -16,12 +16,12 @@
                 "allow_select_own_post_help": "Erlaube dem OP, einen seiner eigenen Beiträge in der Diskussion als beste Antwort auszuwählen",
                 "enable_all_tags_button": "Alle Tags für beste Antworten aktivieren",
                 "enable_all_tags_reminder_button": "Alle Tags für Erinnerungen für die beste Antwort aktivieren",
-                "show_max_lines_label": "",
-                "show_max_lines_help": "",
+                "show_max_lines_label": "Maximal anzuzeigende Zeilen in der Postvorschau",
+                "show_max_lines_help": "Zum Deaktivieren auf 0 festlegen. Wenn ein Beitrag länger als die konfigurierte Anzahl von Zeilen ist, wird er in der Beitragsvorschau mit einem Ausblendeffekt abgeschnitten.",
                 "select_best_answer_reminder_days": "Erinnerungshäufigkeit",
                 "select_best_answer_reminder_days_help": "Sende nach der konfigurierbaren Anzahl von Tagen eine Erinnerung an das OP, um eine beste Antwort auszuwählen, 0 = Erinnerungen deaktivieren.",
-                "select_best_answer_tags_label": "",
-                "select_best_answer_tags_help": "",
+                "select_best_answer_tags_label": "Tags für Diskussionen mit Besten Antworten",
+                "select_best_answer_tags_help": "Wähle aus, ob und welche Tags zu Diskussionen hinzugefügt werden sollen, wenn eine Beste Antwort festgelegt wird. Es sind nur sekundäre Tags erlaubt. Diese Tags werden entfernt, wenn die Beste Antwort entfernt wird.",
                 "schedule_on_one_server": "Verwende die Direktive 'onOneServer()' für den Taskplaner",
                 "schedule_on_one_server_help": "Erfordert Redis/Memcache",
                 "schedule_stop_overnight": "Verhindern, dass Erinnerungsbenachrichtigungen während unsozialer Zeiten gesendet werden",
@@ -94,8 +94,8 @@
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "most_best_answers": "",
-                "least_best_answers": ""
+                "most_best_answers": "Die besten Antworten",
+                "least_best_answers": "Am wenigsten beste Antworten"
             }
         }
     }
