@@ -31,7 +31,7 @@
                     "points": "{count, plural, one { {count} Punkt} other {{count} Punkte}}"
                 },
                 "rank": "{rank}",
-                "votes_link": "",
+                "votes_link": "Abstimmungen",
                 "points": "Punkte: {points}"
             },
             "modal": {
@@ -62,7 +62,7 @@
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "CDK2020, Ralkage, AngelAvila, Kakifrucht",
+                        "placeholder": "admin, user1, user2",
                         "title": "Ignorierte Nutzer",
                         "help": "Diese Nutzer werden nicht auf der Rangliste angezeigt. Nutzernamen sollten durch ein Komma, gefolgt von einem Leerzeichen, voneinander getrennt werden."
                     },
@@ -90,7 +90,7 @@
                     "icon_help": "Gebe ein beliebiges Font-Awesome-Icon mit den Endungen -up und -down ein. Beispiele: arrow, thumbs, chevron",
                     "upvotes_only": "Nur Upvoting zulassen",
                     "first_post_only": "Stimmen nach oben/unten nur im ersten Beitrag einer Diskussion zulassen",
-                    "allow_self_votes": ""
+                    "allow_self_votes": "Nutzer können über ihre eigenen Beiträge abstimmen"
                 },
                 "save_settings": "Einstellungen speichern",
                 "convert": {
@@ -111,15 +111,15 @@
                     }
                 },
                 "groups": {
-                    "title": "",
-                    "help": "",
+                    "title": "Automatisch zugewiesene Gruppen",
+                    "help": "Die ausgewählten Gruppen werden bei Bedarf automatisch hinzugefügt oder entfernt, wenn sich die Anzahl der Punkte eines Nutzers ändert. Wenn du Änderungen an der Konfiguration erstellt hast, solltest du den Befehl <code>php flarum fof:gamification:assign-groups</code> ausführen, um existierende Nutzer zu aktualisieren. Wenn du eine Regel löschen und alle Nutzer/innen aus der Gruppe entfernen möchtest, legst du sowohl den Mindest- als auch den Höchstwert auf eine leere Zeichenfolge fest, speicherst die Einstellungen und führst den Befehl in der Befehlszeile aus. Schließlich kannst du die Regel in den Einstellungen komplett löschen.\n",
                     "column": {
-                        "group": "",
-                        "minPoints": "",
-                        "maxPoints": ""
+                        "group": "Gruppe",
+                        "minPoints": "Mindestpunkte (inklusive)",
+                        "maxPoints": "Maximale Punkte (inklsuive)"
                     },
-                    "add": "",
-                    "delete": ""
+                    "add": "Neue Regel hinzufügen",
+                    "delete": "Regel löschen"
                 }
             }
         },
