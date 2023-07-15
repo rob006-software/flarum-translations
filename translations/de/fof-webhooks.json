@@ -22,7 +22,7 @@
                 "hidden": "Beitrag in `{1}` versteckt",
                 "restored": "Beitrag in `{1}` wiederhergestellt",
                 "deleted": "Beitrag in `{1}` gelöscht",
-                "approved": ""
+                "approved": "Genehmigter Beitrag in `{1}`"
             },
             "user": {
                 "registered": "Neuer Nutzer registriert",
@@ -40,10 +40,10 @@
         },
         "admin": {
             "errors": {
-                "service_not_found": "Der Dienst '{service}' konnte nicht gefunden werden.",
+                "service_not_found": "Der Dienst \"{service}\" kann nicht gefunden werden.",
                 "url_invalid": "URL ist für den gewählten Dienst nicht gültig.",
                 "tag_invalid": "Dieser WebHook ist auf ein ungültiges Tag beschränkt. Die Einschränkung gilt nicht. Stelle sicher, dass dies bestimmt ist.",
-                "tag_disabled": ""
+                "tag_disabled": "Dieser Webhook hatte eine Tag-Beschränkung konfiguriert. Die Erweiterung Tags ist deaktiviert. Die Beschränkung wird nicht angewendet. Stelle sicher, dass dies beabsichtigt ist."
             },
             "nav": {
                 "desc": "Anpassbare ausgehende Webhooks für dein Forum."
@@ -52,12 +52,12 @@
                 "debug_label": "Debuggen",
                 "debug_help": "Fügt der Flarum-Protokolldatei zusätzliche Protokolle hinzu, um Probleme mit Webhooks und/oder Ereignissen zu beheben, die nicht richtig funktionieren.",
                 "item": {
-                    "tag_any_label": "Beliebig"
+                    "tag_any_label": "Beliebiger Tag"
                 },
                 "help": {
                     "disabled": "Dieser Webhook ist deaktiviert, weil keine Ereignisse für ihn aktiviert sind.",
                     "general": "Hier kannst du Webhooks in deinem Forum hinzufügen, bearbeiten und entfernen.",
-                    "tags": "",
+                    "tags": "Du kannst Webhooks auf bestimmte Tags beschränken. Wenn du bestimmte Tags auswählst, wird der Webhook nur ausgelöst, wenn die Veranstaltung auf einer Ressource ausgelöst wird, die eines der ausgewählten Tags hat.",
                     "url": "Der Endpunkt des Webhooks, der ausgeführt werden soll"
                 },
                 "modal": {
@@ -108,8 +108,8 @@
                             "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "approval": {
-                            "title": "",
-                            "postwasapproved": ""
+                            "title": "Flarum-Zulassung",
+                            "postwasapproved": "Post Genehmigt"
                         }
                     }
                 }
