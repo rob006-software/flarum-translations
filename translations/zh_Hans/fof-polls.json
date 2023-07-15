@@ -8,7 +8,7 @@
                 "view_results_without_voting": "无需参与投票即可查看结果",
                 "start": "发起投票",
                 "self_edit": "编辑已创建的投票（需要帖子编辑权限）",
-                "self_post_edit": "",
+                "self_post_edit": "编辑*所有*自己帖子上的投票（需要帖子编辑权限）",
                 "vote": "参与投票",
                 "change_vote": "修改投票",
                 "moderate": "编辑或删除投票"
@@ -19,11 +19,11 @@
             "no_permission": "您没有投票权限",
             "poll_ended": "投票已结束。",
             "public_poll": "查看投票详情",
-            "max_votes_allowed": "",
+            "max_votes_allowed": "允许投票给 {max, plural, one {# option} other {# options}}.",
             "composer_discussion": {
-                "add_poll": "发起投票",
+                "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
-                "no_permission_alert": ""
+                "no_permission_alert": "你没有权限添加投票。"
             },
             "modal": {
                 "add_title": "发起投票",
@@ -38,14 +38,14 @@
                 "image_option_placeholder": "图片链接（可选）",
                 "options_label": "选项",
                 "public_poll_label": "允许查看投票人",
-                "allow_multiple_votes_label": "",
-                "max_votes_label": "",
-                "max_votes_help": "",
+                "allow_multiple_votes_label": "允许用户对多个选项进行投票",
+                "max_votes_label": "每个用户的最大投票数",
+                "max_votes_help": "设置为0，允许用户对所有选项投票。",
                 "question_placeholder": "问题",
                 "submit": "提交"
             },
             "moderation": {
-                "add": "",
+                "add": "添加投票",
                 "delete": "删除投票",
                 "delete_confirm": "确定要删除这个投票吗？",
                 "edit": "编辑投票"
