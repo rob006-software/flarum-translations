@@ -2,57 +2,57 @@
     "kyrne-whisper": {
         "admin": {
             "settings": {
-                "return_key": "",
-                "title": "",
-                "set_own_password": ""
+                "return_key": "Клавіша повернення надсилає повідомлення",
+                "title": "Налаштування Whisper",
+                "set_own_password": "Дозвольте користувачам створювати власні паролі – Сумісність з SSO"
             },
             "permissions": {
-                "start_label": ""
+                "start_label": "Почніть приватні розмови"
             }
         },
         "forum": {
             "dropdown": {
-                "tooltip": ""
+                "tooltip": "Розмови"
             },
             "setup": {
-                "title": "",
-                "header_setup": "",
-                "header_import": "",
-                "header_set_own": "",
-                "header_set_own_import": "",
-                "passwords_mismatch": "",
-                "invalid_password": "",
-                "button_import": "",
-                "button_setup": "",
-                "confirm_password": "",
-                "success": ""
+                "title": "Налаштування приватних повідомлень",
+                "header_setup": "Введіть свій логін та пароль для входу в обліковий запис, щоб налаштувати приватні повідомлення.",
+                "header_import": "Введіть логін та пароль вашого облікового запису, щоб імпортувати приватні повідомлення.",
+                "header_set_own": "Введіть пароль для налаштування приватних повідомлень.",
+                "header_set_own_import": "Щоб імпортувати приватні повідомлення, введіть пароль до них.",
+                "passwords_mismatch": "Паролі не збіглися",
+                "invalid_password": "Ваш пароль був неправильним.",
+                "button_import": "Імпорт",
+                "button_setup": "Налаштування",
+                "confirm_password": "Підтвердити пароль",
+                "success": "Обмін особистими повідомленнями готовий, ваша сторінка перезавантажиться..."
             },
             "modal": {
-                "title": "",
-                "help": "",
-                "help_start": "",
-                "search_recipients": "",
-                "submit": "",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "title": "Почати розмову",
+                "help": "Почніть вводити ім'я користувача, щоб розпочати чат.",
+                "help_start": "Введіть своє перше повідомлення. Це буде єдине повідомлення, яке ви зможете надіслати, доки {username} не відповість. Натисніть на користувача, щоб вибрати іншого одержувача.",
+                "search_recipients": "Введіть ім'я користувача...",
+                "submit": "Надіслати та почати розмову",
+                "copied": "Ваше повідомлення скопійовано до буфера обміну.",
+                "more_users": "Якщо ви не бачите користувача, якого шукаєте, це означає, що у нього не налаштовані приватні повідомлення.",
+                "already": "Ви вже маєте розмову з {username}."
             },
-            "user_modal_alert": "",
+            "user_modal_alert": "Користувач {username} розпочав приватний обмін повідомленнями, його пароль не можна безпечно змінити.",
             "chat": {
-                "chat_with": "",
-                "messages_multiple": "",
-                "messages_single": "",
-                "start": "",
-                "read": "",
-                "cant_start": "",
-                "text_placeholder": "",
-                "send": "",
-                "recovery_message": "",
-                "failed_message": "",
-                "cant_send": "",
-                "cant_send_toomany": "",
-                "failed_to_decrypt": "",
-                "start_of_conversation": ""
+                "chat_with": "Чат з {username}",
+                "messages_multiple": "Всього повідомлень: {count}",
+                "messages_single": "Нова розмова",
+                "start": "Почати розмову",
+                "read": "Читати",
+                "cant_start": "Не вдається розпочати розмову",
+                "text_placeholder": "Введіть своє повідомлення",
+                "send": "Надіслати повідомлення",
+                "recovery_message": "Системне повідомлення: синхронізацію шифрування втрачено та відновлено",
+                "failed_message": "Не вдалося розшифрувати повідомлення, спроба відновлення методом #{method}",
+                "cant_send": "Ви не можете надіслати повідомлення, поки {username} не відповість (тільки перше повідомлення)",
+                "cant_send_toomany": "Будь ласка, дочекайтеся відповіді від {username}, перш ніж надсилати наступні повідомлення",
+                "failed_to_decrypt": "[Не вдалося розшифрувати]",
+                "start_of_conversation": "Початок розмови"
             }
         }
     }
