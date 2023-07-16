@@ -48,14 +48,14 @@
                 "submit_button": "=> core.ref.save_changes"
             },
             "create_user": {
-                "email_placeholder": "",
-                "email_confirmed_label": "",
-                "password_placeholder": "",
-                "submit_and_create_another_button": "",
-                "submit_button": "",
-                "title": "",
-                "use_random_password": "",
-                "username_placeholder": ""
+                "email_placeholder": "=> core.ref.email",
+                "email_confirmed_label": "Cím megerősítésének megkövetelése",
+                "password_placeholder": "=> core.ref.password",
+                "submit_and_create_another_button": "Létrehozás és újabb hozzáadása",
+                "submit_button": "Felhasználó létrehozása",
+                "title": "Új felhasználó létrehozása",
+                "use_random_password": "Véletlenszerű jelszó előállítása",
+                "username_placeholder": "=> core.ref.username"
             },
             "dashboard": {
                 "clear_cache_button": "Gyorsítótár törlése",
@@ -208,7 +208,7 @@
                 "permissions_text": "Állítsd be, hogy ki milyen jogokkal rendelkezzen és ezekkel a jogokkal mit tehessen."
             },
             "permissions": {
-                "allow_hide_own_posts_label": "",
+                "allow_hide_own_posts_label": "Saját bejegyzések törlésének engedélyezése",
                 "allow_post_editing_label": "Bejegyzések szerkesztésének engedélyezése",
                 "allow_renaming_label": "Átnevezés engedélyezése",
                 "create_access_token_label": "Hozzáférési token létrehozása",
@@ -244,7 +244,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Korlátlan ideig",
-                "allow_never_button": "",
+                "allow_never_button": "=> core.ref.never",
                 "allow_some_minutes_button": "{count} percig",
                 "allow_ten_minutes_button": "10 percig",
                 "allow_until_reply_button": "A következő válaszig",
@@ -262,7 +262,7 @@
                 "upload_button": "Válasszon egy képet…"
             },
             "users": {
-                "create_user_button": "",
+                "create_user_button": "Új felhasználó",
                 "description": "Az összes felhasználót tartalmazó lapozható lista.",
                 "grid": {
                     "columns": {
@@ -495,7 +495,7 @@
                 },
                 "hide_access_token": "Token elrejtése",
                 "last_activity": "Legutóbbi tevékenység",
-                "never": "Soha",
+                "never": "=> core.ref.never",
                 "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
                     "submit_button": "Token létrehozása",
@@ -613,7 +613,7 @@
                 "nothing_available": "Nem szerkesztheti ezt a felhasználót."
             },
             "error": {
-                "circular_dependencies_message": "",
+                "circular_dependencies_message": "Körkörös függőségek észlelve. {extensions}. Megszakítás. Tiltsa le az egyik bővítményt, és próbálja újra.",
                 "dependent_extensions_message": "Nem tilthatja le a(z) {extension} bővítményt, amíg a következő bővítmények engedélyezettek: {extensions}",
                 "extension_initialiation_failed_message": "A(z) {extension} előkészítése sikertelen, további információkért nézze meg a böngészőkonzolt.",
                 "generic_message": "Hoppá! Valami hiba történt. Frissítse az oldalt és próbálja meg újra.",
@@ -716,9 +716,9 @@
         "api": {
             "invalid_username_message": "A felhasználónév csak betűket, számokat és kötőjeleket tartalmazhat.",
             "invalid_filter_type": {
-                "must_be_numeric_message": "",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_be_numeric_message": "A(z) {filter} szűrőnek numerikusnak kell lennie.",
+                "must_not_be_array_message": "A(z) {filter} szűrőnek tömbnek kell lennie.",
+                "must_not_be_multidimensional_array_message": "A(z) {filter} szűrőnek többdimenziós tömbnek kell lennie."
             }
         },
         "email": {
@@ -766,7 +766,7 @@
             "log_in": "Bejelentkezés",
             "log_out": "Kijelentkezés",
             "mark_all_as_read": "Összes megjelölése olvasottként",
-            "never": "",
+            "never": "Soha",
             "new_token": "Új token",
             "next_page": "Következő oldal",
             "notifications": "Értesítések",
