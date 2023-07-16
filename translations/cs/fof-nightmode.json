@@ -1,45 +1,45 @@
 {
     "fof-nightmode": {
         "ref": {
-            "auto": "",
-            "light": "",
-            "dark": ""
+            "auto": "Automaticky (podle možností prohlížeče nebo zařízení)",
+            "light": "Denní režim",
+            "dark": "Noční režim"
         },
         "admin": {
             "settings": {
                 "modal": {
-                    "always_show_theme_toggle_on_header": "",
-                    "default_theme": "",
-                    "default_theme_helper": "",
-                    "theme_auto": "",
-                    "theme_light": "",
-                    "theme_dark": ""
+                    "always_show_theme_toggle_on_header": "Vždy zobrazit tlačítko pro přepnutí motivu v záhlaví fóra",
+                    "default_theme": "Výchozí motiv fóra",
+                    "default_theme_helper": "Výchozí motiv je automaticky nastaven pro nové uživatele, hosty a ty, kteří nemají nastavené žádné preference.",
+                    "theme_auto": "=> fof-nightmode.ref.auto",
+                    "theme_light": "=> fof-nightmode.ref.light",
+                    "theme_dark": "=> fof-nightmode.ref.dark"
                 }
             }
         },
         "forum": {
-            "day": "",
-            "night": "",
+            "day": "=> fof-nightmode.ref.light",
+            "night": "=> fof-nightmode.ref.dark",
             "header": {
-                "nightmode_button": ""
+                "nightmode_button": "Přepnout motiv fóra"
             },
             "user": {
                 "settings": {
-                    "heading": "",
-                    "description": "",
-                    "description2": "",
-                    "device_specific_setting_checkbox": "",
-                    "device_specific_setting_checkbox_tooltip": "",
-                    "auto_unsupported": "",
+                    "heading": "Motiv",
+                    "description": "Vyberte barevný motiv, který chcete na fóru používat.",
+                    "description2": "Tento motiv bude propojen s vaším účtem a bude platit pro všechna vaše zařízení, pokud nepřepnete přepínač níže pro nastavení jednotlivých zařízení.",
+                    "device_specific_setting_checkbox": "Použít nastavení pro jednotlivá zařízení",
+                    "device_specific_setting_checkbox_tooltip": "Výběr motivu se uloží pro každé vaše zařízení zvlášť.",
+                    "auto_unsupported": "Váš prohlížeč nepodporuje automatický tmavý režim.",
                     "options": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "=> fof-nightmode.ref.auto",
+                        "day": "=> fof-nightmode.ref.light",
+                        "night": "=> fof-nightmode.ref.dark"
                     },
                     "option_descriptions": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "Motiv bude automaticky vybrán na základě nastavení prohlížeče nebo zařízení. Pokud máte například v systému iOS povolen tmavý režim, bude tmavé i fórum.",
+                        "day": "Klasický zážitek, na který jste zvyklí. Oblíbený a vyzkoušený.",
+                        "night": "Jsi tak trochu noční sova. V noci hlídáš fórum, zatímco ptáci spí a lišky loví. Nebo jen dáváš přednost tmavším barvám!"
                     }
                 }
             }
@@ -48,10 +48,10 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "fofNightMode": "",
-                "fofNightMode-help": "",
-                "fofNightMode_perDevice": "",
-                "fofNightMode_perDevice-help": ""
+                "fofNightMode": "Noční režim FoF: Barevný motiv, který se použije ve výchozím nastavení",
+                "fofNightMode-help": "0 - automatický režim, 1 - světlý režim, 2 - tmavý režim",
+                "fofNightMode_perDevice": "Noční režim FoF: Použít podle nastavení zařízení",
+                "fofNightMode_perDevice-help": "Použít nastavení nočního režimu v předvolbách zařízení"
             }
         }
     }
