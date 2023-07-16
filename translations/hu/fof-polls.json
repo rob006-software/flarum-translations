@@ -3,13 +3,13 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Képre hivatkozó webcím engedélyezése minden egyes szavazási lehetőségnél",
-                "max_options": ""
+                "max_options": "A lehetőségek legnagyobb száma szavazásonként"
             },
             "permissions": {
                 "view_results_without_voting": "Eredmény megtekintése szavazás nélkül",
                 "start": "Szavazás indítása",
-                "self_edit": "A felhasználók módosíthatják a saját szavazásukat",
-                "self_post_edit": "",
+                "self_edit": "Létrehozott szavazások szerkesztése (bejegyzésszerkesztési engedély szükséges)",
+                "self_post_edit": "Az *összes* saját bejegyzésben lévő szavazás szerkesztése (bejegyzésszerkesztési engedély szükséges)",
                 "vote": "Részvétel a szavazásokban",
                 "change_vote": "Szavazat módosítása",
                 "moderate": "Szavazások szerkesztése és törlése"
@@ -20,11 +20,11 @@
             "no_permission": "Nincs joga szavazni",
             "poll_ended": "A szavazás véget ért.",
             "public_poll": "Szavazók megtekintése",
-            "max_votes_allowed": "",
+            "max_votes_allowed": "A szavazásban legfeljebb {max} lehetőség választható.",
             "composer_discussion": {
-                "add_poll": "Szavazás hozzáadása",
+                "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
-                "no_permission_alert": ""
+                "no_permission_alert": "Nem indíthat szavazást."
             },
             "modal": {
                 "add_title": "Szavazás hozzáadása",
@@ -32,22 +32,22 @@
                 "date_placeholder": "Szavazás vége (nem kötelező)",
                 "edit_title": "Szavazás szerkesztése",
                 "include_question": "Lennie kell egy kérdésnek",
-                "max": "Legfeljebb 10 válasz lehet",
+                "max": "Legfeljebb {max} válasz lehet",
                 "min": "Legalább 2 választ meg kell adni",
                 "no_voters": "Nincs szavazat",
                 "option_placeholder": "Válasz",
                 "image_option_placeholder": "Kép webcíme (nem kötelező)",
                 "options_label": "Válaszok",
                 "public_poll_label": "A felhasználók megnézhetik ki szavazott",
-                "allow_multiple_votes_label": "",
-                "max_votes_label": "",
-                "max_votes_help": "",
-                "hide_votes_label": "",
+                "allow_multiple_votes_label": "Az emberek több lehetőségre is szavazhatnak",
+                "max_votes_label": "Szavazatok maximális száma felhasználónként",
+                "max_votes_help": "Állítsa 0-ra, hogy az összes lehetőségre szavazhassanak.",
+                "hide_votes_label": "Szavazatok elrejtése a szavazás végéig",
                 "question_placeholder": "Kérdés",
                 "submit": "Beküldés"
             },
             "moderation": {
-                "add": "",
+                "add": "Szavazás hozzáadása",
                 "delete": "Szavazás eltávolítása",
                 "delete_confirm": "Valóban törli a szavazást?",
                 "edit": "Szavazás szerkesztése"
