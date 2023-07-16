@@ -16,12 +16,12 @@
                 "allow_select_own_post_help": "Engedélyezés, hogy az eredeti szerző a saját bejegyzését válassza legjobb válaszként",
                 "enable_all_tags_button": "A legjobb válasz bekapcsolása az összes címkénél",
                 "enable_all_tags_reminder_button": "A legjobb válasz emlékeztető bekapcsolása az összes címkénél",
-                "show_max_lines_label": "",
-                "show_max_lines_help": "",
+                "show_max_lines_label": "Bejegyzés-előnézetekben megjelenítendő sorok legnagyobb száma",
+                "show_max_lines_help": "Állítsa 0-ra a kikapcsoláshoz. Ha egy bejegyzés hosszabb mint a beállított sorok száma, akkor a bejegyzés előnézete le lesz rövidítve egy elhalványítási hatással.",
                 "select_best_answer_reminder_days": "Emlékeztető gyakorisága",
                 "select_best_answer_reminder_days_help": "Emlékeztető küldése a megadott számú nap után, hogy az eredeti szerző válassza ki a legjobb választ, 0 = emlékeztetők letiltása.",
-                "select_best_answer_tags_label": "",
-                "select_best_answer_tags_help": "",
+                "select_best_answer_tags_label": "Címkék a legjobb válasszal rendelkező témákhoz",
+                "select_best_answer_tags_help": "Válassza ki, hogy mely címkék legyenek hozzáadva a legjobb válasszal rendelkező témákhoz (ha van ilyen). Csak a másodlagos címkék engedélyezettek. Ezek a címkék el lesznek távolítva, ha eltávolításra kerül a legjobb válasz.",
                 "schedule_on_one_server": "Az „onOneServer()” direktíva használata a feladatütemezőhöz",
                 "schedule_on_one_server_help": "Redis/Memcache szükséges",
                 "schedule_stop_overnight": "Megakadályozza az emlékeztető értesítések küldését az éjszakai órákban",
@@ -94,8 +94,8 @@
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "most_best_answers": "",
-                "least_best_answers": ""
+                "most_best_answers": "Legtöbb legjobb válasz",
+                "least_best_answers": "Legkevesebb legjobb válasz"
             }
         }
     }
