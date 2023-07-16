@@ -7,27 +7,27 @@
                 "login": "Saját esemény hozzáadása "
             },
             "modal": {
-                "title_create": "",
-                "title_edit": "",
-                "title_label": "",
-                "dates_label": "",
-                "description_label": "",
-                "description_placeholder": "",
-                "requirement_message": "",
+                "title_create": "Új naptáresemény létrehozása",
+                "title_edit": "Eseményrészletek szerkesztése",
+                "title_label": "Mi",
+                "dates_label": "Mikor",
+                "description_label": "Részletek",
+                "description_placeholder": "Eseményrészletek",
+                "requirement_message": "Az eseményhez név és leírás szükséges",
                 "submit": "Elküldés"
             },
             "event": {
                 "details": "További részletek erről az eseményről",
-                "hosted_by": "",
-                "starts": "",
-                "ends": "",
-                "confirm_delete": "",
-                "deleted": ""
+                "hosted_by": "Házigazda:",
+                "starts": "Kezdés ideje:",
+                "ends": "Befejezés ideje:",
+                "confirm_delete": "Biztos, hogy törli ezt az eseményt?",
+                "deleted": "Ez az esemény törölve lett"
             }
         },
         "admin": {
             "settings": {
-                "hide_host": ""
+                "hide_host": "Házigazda elrejtése"
             },
             "permissions": {
                 "add": "Új naptáresemények létrehozása",
