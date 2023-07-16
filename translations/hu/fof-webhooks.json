@@ -22,7 +22,7 @@
                 "hidden": "Bejegyzés elrejtve itt: „{1}”",
                 "restored": "Bejegyzés helyreállítva itt: „{1}”",
                 "deleted": "Bejegyzés törölve itt: „{1}”",
-                "approved": ""
+                "approved": "Bejegyzés engedélyezve itt: „{1}”"
             },
             "user": {
                 "registered": "Új felhasználó regisztrált",
@@ -43,7 +43,7 @@
                 "service_not_found": "A(z) „{service}” szolgáltatás nem található.",
                 "url_invalid": "A webcím nem érvényes a kiválasztott szolgáltatáshoz.",
                 "tag_invalid": "Ez a webhook egy érvénytelen címkére van korlátozva. A korlátozás nem lesz alkalmazva. Győződjön meg róla, hogy ez a szándékolt működés.",
-                "tag_disabled": ""
+                "tag_disabled": "Ehhez a webhookhoz címkekorlátozás van beállítva. A Címkék bővítmény ki van kapcsolva. A korlátozás nem lesz alkalmazva. Győződjön meg róla, hogy ez így helyes."
             },
             "nav": {
                 "desc": "A kimenő webhookok fórumhoz szabása."
@@ -52,7 +52,7 @@
                 "debug_label": "Hibakeresés",
                 "debug_help": "További naplók hozzáadása a Flarum naplófájljához a webhookok és az események helytelen működésének hibakeresése érdekében.",
                 "item": {
-                    "tag_any_label": "Bármely"
+                    "tag_any_label": "Bármely címke"
                 },
                 "help": {
                     "disabled": "Ez a webhook le van tiltva, mert egyetlen eseménye sincs engedélyezve.",
