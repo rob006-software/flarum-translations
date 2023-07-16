@@ -57,7 +57,7 @@
                 "help": {
                     "disabled": "Ez a webhook le van tiltva, mert egyetlen eseménye sincs engedélyezve.",
                     "general": "Itt adhatja hozzá, szerkesztheti és távolíthatja el a fórumja webhookjait.",
-                    "tags": "",
+                    "tags": "A webhookokat adott címkékre lehet korlátozni. Ha kiválaszt címkéket, akkor a webhook csak akkor fog aktiválódni, ha az esemény egy olyan erőforráson történt, amelyre a kiválasztott címkék vonatkoznak.",
                     "url": "A webhook végrehajtandó végpontja"
                 },
                 "modal": {
@@ -108,8 +108,8 @@
                             "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "approval": {
-                            "title": "",
-                            "postwasapproved": ""
+                            "title": "Flarum jóváhagyás",
+                            "postwasapproved": "Bejegyzés jóváhagyva"
                         }
                     }
                 }
