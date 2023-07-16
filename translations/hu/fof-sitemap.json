@@ -29,18 +29,18 @@
                     "daily": "Naponta"
                 },
                 "soft_404": {
-                    "heading": "",
-                    "help": "",
+                    "heading": "Hamis 404-es oldal megakadályozása",
+                    "help": "Ha egy modellnek nincs, vagy kevés releváns tartalma van, akkor a Google és egyéb keresőrobotok „hamis 404-es” oldalnak jelölhetik ezeket. Hogy ezt elkerülje, állítson be egy minimálisan szükséges elemszámot az összes megfelelő elemhez.",
                     "user": {
                         "comments": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "Felhasználó: hozzászólások/bejegyzések legkisebb száma",
+                            "minimum_item_threshold_help": "A hozzászólások/bejegyzések legkisebb száma, amellyel egy felhasználónak rendelkeznie kell, hogy bekerüljön az oldaltérképbe."
                         }
                     },
                     "tags": {
                         "discussion": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "Címke: témák legkisebb száma",
+                            "minimum_item_threshold_help": "A témák legkisebb száma, amellyel egy címkének rendelkeznie kell, hogy bekerüljön az oldaltérképbe."
                         }
                     }
                 },
