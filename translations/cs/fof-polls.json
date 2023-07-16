@@ -6,32 +6,32 @@
                 "max_options": ""
             },
             "permissions": {
-                "view_results_without_voting": "",
-                "start": "",
-                "self_edit": "",
-                "self_post_edit": "",
-                "vote": "",
-                "change_vote": "",
-                "moderate": ""
+                "view_results_without_voting": "Zobrazit výsledky bez hlasování",
+                "start": "Přidat anketu",
+                "self_edit": "Upravit vytvořené ankety (vyžaduje oprávnění k úpravám příspěvků)",
+                "self_post_edit": "Upravit *všechny* ankety ve vlastních příspěvcích (vyžaduje oprávnění k úpravám příspěvků)",
+                "vote": "Hlasování v anketách",
+                "change_vote": "Změnit hlasování",
+                "moderate": "Upravit a mazat ankety"
             }
         },
         "forum": {
-            "days_remaining": "",
-            "no_permission": "",
-            "poll_ended": "",
-            "public_poll": "",
+            "days_remaining": "Anketa končí {time}.",
+            "no_permission": "Nemáte oprávnění hlasovat",
+            "poll_ended": "Tato anketa byla ukončena.",
+            "public_poll": "Zobrazit hlasující",
             "max_votes_allowed": "",
             "composer_discussion": {
-                "add_poll": "",
-                "edit_poll": "",
-                "no_permission_alert": ""
+                "add_poll": "=> fof-polls.forum.moderation.add",
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": "Nemáte oprávnění ke spuštění ankety."
             },
             "modal": {
-                "add_title": "",
-                "add_option_label": "",
-                "date_placeholder": "",
-                "edit_title": "",
-                "include_question": "",
+                "add_title": "Přidat anketu",
+                "add_option_label": "Přidat možnost",
+                "date_placeholder": "Datum ukončení ankety (volitelné)",
+                "edit_title": "Upravit anketu",
+                "include_question": "Musíte uvést otázku",
                 "max": "",
                 "min": "",
                 "no_voters": "",
