@@ -9,18 +9,18 @@
                 "authorQuickFilter": "速筛发帖用户",
                 "authorQuickFilterHelp": "每个帖子的下拉菜单中都会添加一个快捷键，以便按该用户过滤。",
                 "originalPosterBadge": "显示交互式 OP 徽章",
-                "originalPosterBadgeHelp": ""
+                "originalPosterBadgeHelp": "在 OP 发表的帖子旁边会添加一个徽章。点击徽章将自动过滤该用户。"
             }
         },
         "forum": {
             "stream": {
-                "noResults": "",
-                "unmatchedGap": "",
+                "noResults": "本讨论中没有符合搜索条件的帖子",
+                "unmatchedGap": "{count, plural, one {已隐藏一个不相关的帖子} other {已隐藏 {count} 个不相关的帖子}}",
                 "otherAuthorsGap": ""
             },
             "toolbar": {
-                "searchPlaceholder": "",
-                "authorPlaceholder": "",
+                "searchPlaceholder": "在讨论中查找...",
+                "authorPlaceholder": "筛选作者...",
                 "summary": "",
                 "pin": "",
                 "close": "",
