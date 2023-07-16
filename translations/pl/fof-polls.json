@@ -3,12 +3,12 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Pozwól na podanie URL obrazka dla każdej opcji wyboru w ankiecie",
-                "max_options": ""
+                "max_options": "Maksymalna liczba opcji w ankiecie"
             },
             "permissions": {
                 "view_results_without_voting": "Podglądanie wyników bez zagłosowania",
                 "start": "Tworzenie ankiet",
-                "self_edit": "Edytowanie utworzonych ankiet (wymaga uprawnień edycji posta)",
+                "self_edit": "Edytowanie utworzonych ankiet (wymaga uprawnień do edycji posta)",
                 "self_post_edit": "Edytowanie *wszystkich* ankiet we własnych postach (wymaga uprawnień do edycji posta)",
                 "vote": "Głosowanie w ankietach",
                 "change_vote": "Zmiana głosu",
@@ -17,14 +17,14 @@
         },
         "forum": {
             "days_remaining": "Ankieta zakończy się {time}.",
-            "no_permission": "Nie masz uprawnień do głosowania",
+            "no_permission": "Nie masz uprawnień, aby głosować w tej ankiecie",
             "poll_ended": "Ta ankieta zakończyła się.",
             "public_poll": "Zobacz głosujących",
             "max_votes_allowed": "Ankieta umożliwia głosowanie na {max, plural, one {# opcję} few {# opcje} other {# opcji}}.",
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
-                "no_permission_alert": "Nie masz uprawnień do utworzenia ankiety."
+                "no_permission_alert": "Nie masz uprawnień, aby utworzyć ankietę."
             },
             "modal": {
                 "add_title": "Dodaj ankietę",
@@ -32,7 +32,7 @@
                 "date_placeholder": "Data zakończenia ankiety (opcjonalne)",
                 "edit_title": "Edytuj ankietę",
                 "include_question": "Ankieta musi zawierać pytanie",
-                "max": "Możesz mieć maksymalnie 10 opcji",
+                "max": "Możesz mieć maksymalnie {max, plural, one {# opcję} few {# opcje} other {# opcji}}",
                 "min": "Musisz uwzględnić co najmniej 2 opcje",
                 "no_voters": "Brak głosów",
                 "option_placeholder": "Odpowiedź",
@@ -42,7 +42,7 @@
                 "allow_multiple_votes_label": "Pozwól użytkownikom głosować na wiele opcji",
                 "max_votes_label": "Maksymalna liczba głosów na użytkownika",
                 "max_votes_help": "Ustaw na 0, aby pozwolić użytkownikom głosować na wszystkie opcje.",
-                "hide_votes_label": "",
+                "hide_votes_label": "Ukryj głosy do czasu zakończenia ankiety",
                 "question_placeholder": "Pytanie",
                 "submit": "Zatwierdź"
             },
