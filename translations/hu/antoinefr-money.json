@@ -8,7 +8,7 @@
                 "moneyname": "A pénz neve (például [pénz] pontok)",
                 "postminimumlength": "A bejegyzés legrövidebb hossza, amely pénzt ér (0 a letiltáshoz)",
                 "noshowzero": "Ne jelenítse meg, ha az érték nulla",
-                "autoremove": "",
+                "autoremove": "Pénz automatikus frissítése",
                 "moneyforlike": "Az adott pénz, ha egy bejegyzést kedvelik",
                 "helpextensionlikes": "A <code>flarum/likes</code> bővítmény szükséges hozzá"
             },
@@ -16,9 +16,9 @@
                 "edit_money_label": "Pénz szerkesztése"
             },
             "autoremove": [
-                "",
-                "",
-                ""
+                "Sose távolítsa el a pénzt",
+                "Ha egy téma/bejegyzés elrejtésre vagy helyreállításra kerül (alapértelmezett)",
+                "Ha egy téma/bejegyzés törlésre kerül"
             ],
             "automoderator": {
                 "metric_name": "Pénz",
