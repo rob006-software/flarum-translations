@@ -9,7 +9,8 @@
             },
             "reacting-own-post": "Du kannst nicht auf deinen eigenen Beitrag reagieren",
             "modal": {
-                "title": "Reaktionen"
+                "title": "Reaktionen",
+                "anonymous_count": ""
             },
             "mod_item": "Reaktionen ansehen",
             "react_button_label": "Reagieren"
@@ -54,7 +55,9 @@
                             "Label": "Reaktionen zu Gefällt-mirs konvertieren",
                             "Helptext": "Gebe den Bezeichner der Reaktion ein, die du automatisch in ein Gefällt mir umwandeln möchtest"
                         }
-                    }
+                    },
+                    "allow-anonymous": "",
+                    "allow-anonymous-help": ""
                 }
             }
         }

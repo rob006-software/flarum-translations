@@ -9,7 +9,8 @@
             },
             "reacting-own-post": "Você não pode reagir ao seu próprio post",
             "modal": {
-                "title": "Reações"
+                "title": "Reações",
+                "anonymous_count": ""
             },
             "mod_item": "Ver Reações",
             "react_button_label": "Reagir"
@@ -54,7 +55,9 @@
                             "Label": "Converter reações em curtidas",
                             "Helptext": "Entre o identificador da reação que você gostaria de converter automaticamente em uma curtida"
                         }
-                    }
+                    },
+                    "allow-anonymous": "",
+                    "allow-anonymous-help": ""
                 }
             }
         }

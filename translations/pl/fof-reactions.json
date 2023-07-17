@@ -9,7 +9,8 @@
             },
             "reacting-own-post": "Nie możesz zareagować na swój własny post",
             "modal": {
-                "title": "Reakcje"
+                "title": "Reakcje",
+                "anonymous_count": ""
             },
             "mod_item": "Zobacz reakcje",
             "react_button_label": "Zareaguj"
@@ -54,7 +55,9 @@
                             "Label": "Konwertuj reakcje na polubienia",
                             "Helptext": "Podaj identyfikator reakcji, którą chciałbyś automatycznie przekonwertować na polubienie"
                         }
-                    }
+                    },
+                    "allow-anonymous": "",
+                    "allow-anonymous-help": ""
                 }
             }
         }

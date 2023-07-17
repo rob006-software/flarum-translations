@@ -9,7 +9,8 @@
             },
             "reacting-own-post": "Et voi reagoida omaan viestiin",
             "modal": {
-                "title": "Reaktiot"
+                "title": "Reaktiot",
+                "anonymous_count": ""
             },
             "mod_item": "Näytä reaktiot",
             "react_button_label": "Reagoi"
@@ -54,7 +55,9 @@
                             "Label": "Muunna reaktiot tykkäyksiksi",
                             "Helptext": "Syötä reaktion tunniste minkä haluat muuntaa automaattisesti tykkäykseksi"
                         }
-                    }
+                    },
+                    "allow-anonymous": "",
+                    "allow-anonymous-help": ""
                 }
             }
         }

@@ -9,7 +9,8 @@
             },
             "reacting-own-post": "您不能对自己的帖子戳表情",
             "modal": {
-                "title": "表情"
+                "title": "表情",
+                "anonymous_count": ""
             },
             "mod_item": "查看表情",
             "react_button_label": "戳表情"
@@ -54,7 +55,9 @@
                             "Label": "转换表情为「赞」",
                             "Helptext": "要将某个表情自动转换为「赞」？请在下方输入该表情的标识名"
                         }
-                    }
+                    },
+                    "allow-anonymous": "",
+                    "allow-anonymous-help": ""
                 }
             }
         }

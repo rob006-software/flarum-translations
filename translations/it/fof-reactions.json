@@ -9,7 +9,8 @@
             },
             "reacting-own-post": "Non puoi mettere una reazione ad un tuo post",
             "modal": {
-                "title": "Reazioni"
+                "title": "Reazioni",
+                "anonymous_count": ""
             },
             "mod_item": "Mostra Reazioni",
             "react_button_label": "Reazione"
@@ -54,7 +55,9 @@
                             "Label": "Converti reazioni in like",
                             "Helptext": "Inserisci l'identificatore della reazione che vuoi automaticamente convertire in like"
                         }
-                    }
+                    },
+                    "allow-anonymous": "",
+                    "allow-anonymous-help": ""
                 }
             }
         }

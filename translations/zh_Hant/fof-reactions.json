@@ -9,7 +9,8 @@
             },
             "reacting-own-post": "你不能回應自己的貼文",
             "modal": {
-                "title": "心情"
+                "title": "心情",
+                "anonymous_count": ""
             },
             "mod_item": "查看心情",
             "react_button_label": "表達心情"
@@ -54,7 +55,9 @@
                             "Label": "轉換回應為「喜歡」",
                             "Helptext": "鍵入你想要自動轉換為「喜歡」的回應的標識"
                         }
-                    }
+                    },
+                    "allow-anonymous": "",
+                    "allow-anonymous-help": ""
                 }
             }
         }

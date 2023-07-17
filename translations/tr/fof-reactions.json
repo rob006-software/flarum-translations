@@ -9,7 +9,8 @@
             },
             "reacting-own-post": "Kendi gönderine ifade bırakamazsın",
             "modal": {
-                "title": "İfadeler"
+                "title": "İfadeler",
+                "anonymous_count": ""
             },
             "mod_item": "İfadeleri Göster",
             "react_button_label": "Tepki"
@@ -54,7 +55,9 @@
                             "Label": "İfadeleri beğenilere dönüştür",
                             "Helptext": "Otomatik olarak beğeniye dönüştürülmesini istediğiniz ifadeyi girin"
                         }
-                    }
+                    },
+                    "allow-anonymous": "",
+                    "allow-anonymous-help": ""
                 }
             }
         }

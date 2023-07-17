@@ -9,7 +9,8 @@
             },
             "reacting-own-post": "You cannot react to your own post",
             "modal": {
-                "title": "Reactions"
+                "title": "Reactions",
+                "anonymous_count": "{count, plural, one {# anonymous user} other {# anonymous users}}"
             },
             "mod_item": "View Reactions",
             "react_button_label": "React"
@@ -54,7 +55,9 @@
                             "Label": "Convert reactions to likes",
                             "Helptext": "Enter the identifier of the reaction you would like to automatically convert into a like"
                         }
-                    }
+                    },
+                    "allow-anonymous": "Allow anonymous(guest) reactions",
+                    "allow-anonymous-help": "If enabled, guests and anonymous users will be able to react to posts. Note that anonymous reactions will not be linked to a user profile and will be aggregated in the reactions list."
                 }
             }
         }

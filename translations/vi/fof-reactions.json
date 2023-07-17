@@ -9,7 +9,8 @@
             },
             "reacting-own-post": "Bạn không thể bày tỏ cảm xúc bài viết của chính mình",
             "modal": {
-                "title": "Bày tỏ cảm xúc"
+                "title": "Bày tỏ cảm xúc",
+                "anonymous_count": ""
             },
             "mod_item": "Xem bày tỏ cảm xúc",
             "react_button_label": "Cảm xúc"
@@ -54,7 +55,9 @@
                             "Label": "Chuyển biểu cảm sang lượt thích",
                             "Helptext": "Nhập mã nhận dạng của biểu cảm bạn muốn tự động chuyển đổi thành biểu cảm tương tự"
                         }
-                    }
+                    },
+                    "allow-anonymous": "",
+                    "allow-anonymous-help": ""
                 }
             }
         }
