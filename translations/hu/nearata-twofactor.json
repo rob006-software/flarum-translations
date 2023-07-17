@@ -2,7 +2,7 @@
     "nearata-twofactor": {
         "admin": {
             "settings": {
-                "generate_app_backups": "",
+                "generate_app_backups": "Alkalmazás biztonsági mentési kódjainak előállítása",
                 "generate_backups": "Biztonsági tartalékkódok előállítása."
             },
             "permissions": {
@@ -11,48 +11,48 @@
         },
         "forum": {
             "settings": {
-                "section_title": "",
-                "configured": "",
-                "not_configured": "",
+                "section_title": "Kétlépcsős hitelesítés",
+                "configured": "Beállítva",
+                "not_configured": "Nincs beállítva",
                 "app": {
-                    "button_label": "",
-                    "button_help": "",
+                    "button_label": "Hitelesítő alkalmazás",
+                    "button_help": "A hozzáférési kódokat a hitelesítő alkalmazáson keresztül fogadja.",
                     "setup": {
-                        "title": "",
-                        "password_placeholder": "",
-                        "passcode_placeholder": "",
-                        "close_button_label": "",
-                        "invalid_passcode": "",
+                        "title": "Hitelesítő alkalmazás beállítása",
+                        "password_placeholder": "Jelszó",
+                        "passcode_placeholder": "6 számjegyű jelkód",
+                        "close_button_label": "Bezárás",
+                        "invalid_passcode": "A jelszó vagy jelkód érvénytelen.",
                         "disable": {
-                            "enter_code_disable": "",
-                            "button_label": "",
-                            "success": ""
+                            "enter_code_disable": "Adja meg a kódot a kétlépcsős hitelesítő alkalmazás letiltásához.",
+                            "button_label": "Letiltás",
+                            "success": "A hitelesítő alkalmazás letiltva."
                         },
                         "enable": {
-                            "button_label": "",
-                            "success": "",
-                            "scan_qr": "",
-                            "enter_code_manually": "",
+                            "button_label": "Engedélyezés",
+                            "success": "A hitelesítő alkalmazás engedélyezve.",
+                            "scan_qr": "Olvassa le ezt a QR-kódot a kétlépcsős hitelesítő eszközével a fiókja beállításához.",
+                            "enter_code_manually": "Jelszó megadása kézzel",
                             "backups": {
-                                "message": "",
-                                "download_button_label": "",
-                                "download_file_format": "",
-                                "copy_button_label": ""
+                                "message": "Tartsa ezeket a helyreállítási kódokat biztonságos helyen. Ha elveszíti az engedélyezett eszközét, akkor ezekkel az egyszer használatos kódokkal léphet be a fiókjába (ebben a sorrendben).\n",
+                                "download_button_label": "Letöltés",
+                                "download_file_format": "{website_title} | {website_url}\n\nTartsa ezeket a biztonsági mentési kódokat biztonságos, de elérhető helyen.\n\nA KÓDOK LISTÁJA\n\n{codes}\n\n* Minden biztonsági kódot csak egyszer használhat.\n* Ezeket a kódokat a megadott sorrendben KELL használni.\n* A kódok ekkor lettek előállítva: {date}.\n",
+                                "copy_button_label": "Másolás"
                             }
                         }
                     }
                 }
             },
             "login": {
-                "title": "",
-                "placeholder_label": "",
-                "submit_button_label": "",
+                "title": "Kétlépcsős hitelesítés",
+                "placeholder_label": "Válasszon kétlépcsős hitelesítési módot…",
+                "submit_button_label": "Bejelentkezés",
                 "auth_buttons": {
-                    "app": ""
+                    "app": "Hitelesítő alkalmazás"
                 },
                 "app": {
-                    "invalid_passcode": "",
-                    "passcode_placeholder": ""
+                    "invalid_passcode": "Érvénytelen jelkód.",
+                    "passcode_placeholder": "6 számjegyű jelkód"
                 }
             },
             "invalid_twofa_code": "Érvénytelen kétlépcsős kód.",
@@ -87,11 +87,11 @@
         },
         "lib": {
             "edit_user": {
-                "section_title": "",
-                "disable_confirmation": "",
-                "placeholder_text": "",
+                "section_title": "Kétlépcsős hitelesítés",
+                "disable_confirmation": "Biztos benne? Arra készül, hogy letiltsa a felhasználó ezen hitelesítési módját.",
+                "placeholder_text": "Nincs mit letiltani",
                 "app": {
-                    "label": ""
+                    "label": "Hitelesítő alkalmazás"
                 }
             }
         }
