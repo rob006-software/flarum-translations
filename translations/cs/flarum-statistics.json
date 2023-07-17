@@ -2,7 +2,7 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "Vyberte si vlastní datový rozsah, pro který chcete zobrazit statistiky.\nU diskuzních fór s velkou aktivitou může načítání trvat několik minut.\n",
+                "description": "Vyberte si vlastní rozsah dat, pro který chcete zobrazit statistiky.\nU diskuzních fór s velkou aktivitou může načítání trvat několik minut.\n",
                 "end_date": "Datum ukončení (inklusivní)",
                 "errors": {
                     "end_before_start": "Datum ukončení musí být po datu zahájení."
@@ -20,7 +20,7 @@
                 "mini_heading": "Statistiky fóra",
                 "previous_28_days_label": "Předchozích 28 dní",
                 "previous_7_days_label": "Předchozích 7 dní",
-                "custom_label": "Vyberte si vlastní rozsah...",
+                "custom_label": "Vybrat vlastní rozsah...",
                 "custom_label_specified": "{fromDate} do {toDate}",
                 "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
