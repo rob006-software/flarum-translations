@@ -9,17 +9,17 @@
                 "environment_label": "Sentry környezet",
                 "user_feedback_label": "Felhasználói visszajelzés",
                 "send_user_emails_label": "Elküldi a felhasználók e-mail-címét a Sentry-jelentésekkel?",
-                "monitor_performance_label": "Háttérszolgáltatás teljesítményfigyelési aránya (0 – 100)",
+                "monitor_performance_label": "Háttérszolgáltatás teljesítményfigyelési aránya (0–100)",
                 "profile_rate_label": "Háttérszolgáltatás profilozási aránya (0–100)",
                 "profile_rate_help": "Ez a teljesítményfigyelési arányhoz van viszonyítva. Ahhoz hogy működjön, engedélyezni kell a teljesítményfigyelést.\n\n{br}✱ A funkció engedélyezése a profilozás és a Sentry felé küldött kérések többletköltsége miatt hatással van a válaszidőre. Tudja meg itt, hogy ez hogyan ellensúlyozhatja: <a>https://docs.sentry.io/platforms/php/profiling/#improve-response-time</a>.\n{br}{icon} <bold>Ehhez a funkcióhoz a Wikipédia mintavételező profilozója, az Excimer szükséges, amely csak Linuxra érhető el.</bold>\n",
                 "javascript_label": "JavaScript-hibák jelentése",
                 "javascript_console_label": "JavaScript-konzol rögzítése",
-                "javascript_trace_sample_rate": "Előtétprogram teljesítményfigyelési aránya (0 – 100)",
-                "javascript_trace_sample_rate_help": "",
-                "javascript_replays_session_sample_rate": "",
-                "javascript_replays_session_sample_rate_help": "",
-                "javascript_replays_error_sample_rate": "",
-                "javascript_replays_error_sample_rate_help": ""
+                "javascript_trace_sample_rate": "Előtétprogram teljesítményfigyelési aránya (0–100)",
+                "javascript_trace_sample_rate_help": "Az összes tranzakció mintavételi aránya. {br}✱ A funkció engedélyezése ~30 kB-tal növeli a csomagméretet.",
+                "javascript_replays_session_sample_rate": "Előtétprogram munkamenet-visszajátszási aránya (0–100)",
+                "javascript_replays_session_sample_rate_help": "Az azonnal elinduló, és a felhasználó munkamenetének végéig tartó visszajátszások mintavételi aránya. {br}✱ A funkció engedélyezése ~150 kB-tal növeli a csomagméretet.",
+                "javascript_replays_error_sample_rate": "Előtétprogram hibavisszajátszási aránya (0–100)",
+                "javascript_replays_error_sample_rate_help": "A hiba esetén rögzített visszajátszások mintavételi aránya. A hiba rögzítése előtt legfeljebb 1 perccel indul el, és a munkamenet végéig tart. {br}✱ A funkció engedélyezése ~150 kB-tal növeli a csomagméretet."
             }
         }
     }
