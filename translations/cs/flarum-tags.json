@@ -7,9 +7,9 @@
             "edit_tag": {
                 "color_label": "core.ref.color",
                 "delete_tag_button": "Smazat štítek",
-                "delete_tag_confirmation": "Opravdu chceš smazat tento štítek? Témata jím označená smazána NEBUDOU.",
+                "delete_tag_confirmation": "Opravdu chcete smazat tento štítek? Diskuze s tímto štítkem smazány NEBUDOU.",
                 "description_label": "Popis",
-                "hide_label": "Skrýt z přehledu témat",
+                "hide_label": "Skrýt z přehledu diskuzí",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "=> flarum-tags.ref.name",
@@ -24,16 +24,16 @@
             },
             "permissions": {
                 "allow_edit_tags_label": "Povolit úpravu štítků",
-                "bypass_tag_counts_label": "Obcházení požadavků na označení",
+                "bypass_tag_counts_label": "Obcházel požadavky na štítky",
                 "restrict_by_tag_heading": "Omezit štítkem",
-                "tag_discussions_label": "Otagovat diskuze"
+                "tag_discussions_label": "Označit diskuze štítkem"
             },
             "settings": {
                 "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
                 "range_separator_text": " do ",
-                "required_primary_heading": "Požadovaný Počet Hlavních Tagů",
+                "required_primary_heading": "Požadovaný počet hlavních štítků",
                 "required_primary_text": "Zvol minimální a maximální počet hlavních tagů, které mohou být přiděleny k diskuzi.",
                 "required_secondary_heading": "Požadovaný Počet Vedlejších Tagů",
                 "required_secondary_text": "Zvol minimální a maximální počet vedlejších tagů, které mohou být přiděleny k diskuzi.",
