@@ -20,9 +20,9 @@
                 "new_post_text": "Uživatel {username} přispěl"
             },
             "settings": {
-                "follow_after_reply_label": "Automaticky začít sledovat témata, na která odpovím",
+                "follow_after_reply_label": "Automaticky sledovat diskuze, na které odpovím",
                 "notify_for_all_posts_label": "Upozornit na každý nový příspěvek místo posledního v diskuzi",
-                "notify_new_post_label": "Někdo přispěje do tématu, které sleduji"
+                "notify_new_post_label": "Někdo přispěje do diskuze, kterou sleduji"
             },
             "sub_controls": {
                 "follow_button": "=> flarum-subscriptions.ref.follow",
@@ -39,7 +39,7 @@
         "email": {
             "new_post": {
                 "subject": "[Nový příspěvek] {title}",
-                "body": "Ahoj {recipient_display_name}!\n\n{poster_display_name} vytvořil příspěvek v diskuzi, kterou sleduješ: {title}.\n\nPro zobrazení nové aktivity se podívej na následující odkaz:\n{url}\n\n---\n\n{content}\n\n---\n\nNebudeš dostávat žádné další notifikace k této diskuzi, dokud nebudeš v obraze.\n"
+                "body": "Ahoj {recipient_display_name}!\n\n{poster_display_name} přidal příspěvek do diskuze, kterou sledujete: {title}.\n\nPro zobrazení nové aktivity se podívejte na následující odkaz:\n{url}\n\n---\n\n{content}\n\n---\n\nNebudete dostávat žádné další notifikace k této diskuzi, dokud nebudete mít aktuální informace.\n"
             }
         },
         "ref": {
