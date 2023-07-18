@@ -10,7 +10,7 @@
             "reacting-own-post": "Vous ne pouvez pas réagir à votre propre message",
             "modal": {
                 "title": "Réactions",
-                "anonymous_count": ""
+                "anonymous_count": "{count, plural, one {# utilisateur anonyme} other {# utilisateurs anonymes}}"
             },
             "mod_item": "Voir les réactions",
             "react_button_label": "Réagir"
@@ -56,8 +56,8 @@
                             "Helptext": "Saisissez l'identifiant de la réaction que vous souhaitez convertir automatiquement en mentions « j'aime »"
                         }
                     },
-                    "allow-anonymous": "",
-                    "allow-anonymous-help": ""
+                    "allow-anonymous": "Autoriser les réactions anonymes (invités)",
+                    "allow-anonymous-help": "Si cette option est activée, les invités et les utilisateurs anonymes pourront réagir aux messages. Les réactions anonymes ne seront pas liées à un profil d'utilisateur et seront regroupées dans la liste des réactions."
                 }
             }
         }
