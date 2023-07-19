@@ -2,31 +2,31 @@
     "michaelbelgium-mybb-to-flarum": {
         "admin": {
             "content": {
-                "description_text": "",
-                "convert_button": "",
+                "description_text": "Migriere ein MyBB-Forum in diese Flarum-Instanz. Fülle die erforderlichen Daten aus und klicke anschließend auf \"Migrieren\".",
+                "convert_button": "Migrieren",
                 "form": {
                     "options": {
-                        "title": "",
-                        "migrate_avatars_label": "",
-                        "migrate_soft_threads_label": "",
-                        "migrate_soft_posts_label": "",
-                        "migrate_attachments_label": ""
+                        "title": "Andere Optionen",
+                        "migrate_avatars_label": "Avatare migrieren",
+                        "migrate_soft_threads_label": "Leicht gelöschte Threads migrieren",
+                        "migrate_soft_posts_label": "Leicht gelöschte Beiträge migrieren",
+                        "migrate_attachments_label": "Anhänge migrieren"
                     },
                     "mybb": {
-                        "title": "",
-                        "host_label": "",
-                        "user_label": "",
-                        "password_label": "",
-                        "db_label": "",
-                        "prefix_label": "",
-                        "path_label": ""
+                        "title": "MyBB-Einstellungen",
+                        "host_label": "Datenbank-Host",
+                        "user_label": "Datenbank Benutzer",
+                        "password_label": "Datenbank-Passwort",
+                        "db_label": "Name der Datenbank",
+                        "prefix_label": "Tabellen Präfix",
+                        "path_label": "Absoluter MyBB-Pfad"
                     },
                     "general": {
-                        "title": "",
-                        "migrate_users_label": "",
-                        "migrate_threadsPosts_label": "",
-                        "migrate_userGroups_label": "",
-                        "migrate_categories_label": ""
+                        "title": "Allgemeine Optionen",
+                        "migrate_users_label": "Benutzer migrieren",
+                        "migrate_threadsPosts_label": "Themen und Beiträge migrieren",
+                        "migrate_userGroups_label": "Benutzergruppen migrieren",
+                        "migrate_categories_label": "Kategorien migrieren"
                     }
                 }
             }
