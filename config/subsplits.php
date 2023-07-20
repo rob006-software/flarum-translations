@@ -914,7 +914,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => ['tolgaaaltas'],
+		'maintainers' => ['tolgaaaltas', 'selmanozturk'], // todo: temporary maintainer? https://discuss.flarum.org/d/27519-the-flarum-language-project/235
 	],
 	'ug' => [
 		'type' => 'language',
