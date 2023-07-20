@@ -2,11 +2,11 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "Zmiňované skupiny"
             },
             "settings": {
                 "allow_username_format_label": "Povolit formát zmínky o uživatelském jménu (@Username)",
-                "allow_username_format_text": "Aktuální formát pro zmínky o uživatelích je @\"Display Name\"#ID.\nToto nastavení umožňuje použití starého formátu @Username, nicméně při uložení bude stále převeden na nový formát.\n"
+                "allow_username_format_text": "Aktuální formát pro zmínky uživatelů je @\"ZobrazovanéJméno\"#ID.\nToto nastavení umožňuje použití starého formátu @UživatelskéJméno, nicméně při uložení bude převeden na nový formát.\n"
             }
         },
         "forum": {
@@ -15,7 +15,7 @@
                 "reply_to_post_text": "Odpovědět na příspěvek č. {number}"
             },
             "mentioned_by": {
-                "title": "",
+                "title": "Odpovědi na tento příspěvek",
                 "load_more_button": "=> core.ref.load_more"
             },
             "notifications": {
@@ -25,7 +25,7 @@
                 "group_mentioned_text": "{username} zmínil skupinu, jejímž jste členem"
             },
             "post": {
-                "mentioned_by_more_text": "",
+                "mentioned_by_more_text": "{count, plural, one {# další odpověď} few {# další odpovědi} other {# dalších odpovědí}}.",
                 "mentioned_by_self_text": "{users} na toto odpověděli.",
                 "mentioned_by_text": "{users} na toto odpověděli.",
                 "others_text": "=> core.ref.some_others",
@@ -42,7 +42,7 @@
                 "mentions_link": "Zmínky"
             },
             "post_mention": {
-                "deleted_text": "[unknown]"
+                "deleted_text": "[neznámý]"
             },
             "group_mention": {
                 "deleted_text": "[neznámá skupina]"
