@@ -20,8 +20,8 @@
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
-                "post_mentioned_text": "Uživatel {username} odpověděl na tvůj příspěvek|Uživatelé {username} odpověděli na tvůj příspěvek",
-                "user_mentioned_text": "Uživatel {username} tě zmínil|Uživatelé {username} tě zmínili",
+                "post_mentioned_text": "Uživatel {username} odpověděl na váš příspěvek",
+                "user_mentioned_text": "Uživatel {username} se o vás zmínil",
                 "group_mentioned_text": "{username} zmínil skupinu, jejímž jste členem"
             },
             "post": {
@@ -50,12 +50,12 @@
         },
         "email": {
             "post_mentioned": {
-                "subject": "{replier_display_name} odpověděl na tvůj příspěvek v {title}",
-                "body": "Ahoj {recipient_display_name}!\n\n{replier_display_name} odpověděl na tvůj příspěvek (#{post_number}) v {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "subject": "{replier_display_name} odpověděl na váš příspěvek v diskuzi {title}",
+                "body": "Ahoj {recipient_display_name}!\n\n{replier_display_name} odpověděl na váš příspěvek (#{post_number}) v {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "{mentioner_display_name} tě zmínil v {title}",
-                "body": "Ahoj {recipient_display_name}!\n\n{mentioner_display_name} tě zmínil v příspěvku v {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "subject": "{mentioner_display_name} se o vás zmínil v {title}",
+                "body": "Ahoj {recipient_display_name}!\n\n{mentioner_display_name} se o vás zmínil v příspěvku v {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
                 "subject": "{mentioner_display_name} zmínil skupinu, jejímž jste členem, v {title}",
