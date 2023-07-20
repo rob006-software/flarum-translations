@@ -20,7 +20,7 @@
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Zadejte hexadecimální kód barvy.",
-                "favicon_heading": "Favicon",
+                "favicon_heading": "Favikona",
                 "favicon_text": "Nahrajte obrázek, který se zobrazí jako favicon (náhledová ikonka v prohlížeči) fóra.",
                 "logo_heading": "Logo",
                 "logo_text": "Nahrajte obrázek, který se zobrazí na místě názvu fóra.",
@@ -131,8 +131,8 @@
             "extension": {
                 "configure_scopes": "Konfigurace rozsahu",
                 "confirm_purge": "Vyčištění odstraní všechny záznamy z databáze a prostředky související s rozšířením. Rozšíření se neodinstaluje, to je nutné provést prostřednictvím nástroje Composer. Opravdu chcete pokračovat?",
-                "disabled": "Deaktivováno",
-                "enable_to_see": "Povolit tomuto rozšíření zobrazovat a měnit nastavení.",
+                "disabled": "Zakázáno",
+                "enable_to_see": "Povolte rozšíření pro zobrazení a změnu jeho nastavení.",
                 "enabled": "Povoleno",
                 "info_links": {
                     "discuss": "Diskutovat o",
@@ -203,13 +203,13 @@
                 "edit_users_groups_label": "Upravit uživatelské skupiny",
                 "global_heading": "Globální",
                 "moderate_heading": "Moderovat",
-                "moderate_access_tokens_label": "",
+                "moderate_access_tokens_label": "Správa přístupových tokenů",
                 "new_group_button": "Nová skupina",
                 "participate_heading": "Zúčastnit se",
                 "post_without_throttle_label": "Odpovědět vícekrát bez čekání",
                 "read_heading": "Číst",
                 "rename_discussions_label": "Přejmenovat diskuze",
-                "reply_to_discussions_label": "Odpovědět do diskuzí",
+                "reply_to_discussions_label": "Odpovídat v diskuzích",
                 "search_users_label": "=> core.ref.search_users",
                 "sign_up_label": "Registrace",
                 "start_discussions_label": "Začít diskuze",
@@ -249,7 +249,7 @@
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
-                            "tooltip": "Upravit {uživatelské jméno}"
+                            "tooltip": "Upravit {username}"
                         },
                         "email": {
                             "title": "=> core.ref.email",
@@ -397,7 +397,7 @@
                 "sign_up_text": "Nemáte účet? <a>Zaregistrujte se</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": "Přezdívka nebo e-mail"
+                "username_or_email_placeholder": "Uživatelské jméno nebo e-mail"
             },
             "notifications": {
                 "delete_all_confirm": "Opravdu chcete smazat všechna oznámení? Tuto akci nelze vrátit zpět",
@@ -736,7 +736,7 @@
             "username": "Uživatelské jméno",
             "users": "Uživatelé",
             "view": "Zobrazit",
-            "write_a_reply": "Odpovědět…",
+            "write_a_reply": "Napište odpověď…",
             "you": "Vy"
         },
         "group": {
