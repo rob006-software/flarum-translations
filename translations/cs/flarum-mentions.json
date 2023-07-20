@@ -45,7 +45,7 @@
                 "deleted_text": "[unknown]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[neznámá skupina]"
             }
         },
         "email": {
@@ -59,7 +59,7 @@
             },
             "group_mentioned": {
                 "subject": "",
-                "body": ""
+                "body": "Ahoj {recipient_display_name}!\n\n{mentioner_display_name} se zmínil o skupině, jejímž jste členem v {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
