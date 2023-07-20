@@ -10,7 +10,7 @@
             "reacting-own-post": "Du kannst nicht auf deinen eigenen Beitrag reagieren",
             "modal": {
                 "title": "Reaktionen",
-                "anonymous_count": ""
+                "anonymous_count": "{count, plural, one {# anonymer Benutzer} other {# anonyme Benutzer}}"
             },
             "mod_item": "Reaktionen ansehen",
             "react_button_label": "Reagieren"
@@ -56,8 +56,8 @@
                             "Helptext": "Gebe den Bezeichner der Reaktion ein, die du automatisch in ein Gefällt mir umwandeln möchtest"
                         }
                     },
-                    "allow-anonymous": "",
-                    "allow-anonymous-help": ""
+                    "allow-anonymous": "Anonyme (Gast-)Reaktionen zulassen",
+                    "allow-anonymous-help": "Wenn diese Option aktiviert ist, können Gäste und anonyme Nutzer auf Beiträge reagieren. Beachte, dass anonyme Reaktionen nicht mit einem Nutzerprofil verknüpft werden und in der Liste der Reaktionen zusammengefasst werden."
                 }
             }
         }
