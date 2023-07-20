@@ -447,11 +447,11 @@
                 "users_heading": "=> core.ref.users"
             },
             "security": {
-                "browser_on_operating_system": "",
+                "browser_on_operating_system": "{browser} na platformě {os}",
                 "cannot_terminate_current_session": "Nelze ukončit aktuální aktivní relaci. Místo toho se odhlaste.",
                 "created": "Vytvořeno",
                 "current_active_session": "Aktuálně aktivní relace",
-                "developer_tokens_heading": "",
+                "developer_tokens_heading": "Tokeny vývojáře",
                 "empty_text": "Vypadá to, že zde není nic k vidění.",
                 "global_logout": {
                     "heading": "Globální odhlášení",
@@ -465,7 +465,7 @@
                 "new_access_token_modal": {
                     "submit_button": "Vytvořit token",
                     "title": "=> core.ref.new_token",
-                    "title_placeholder": ""
+                    "title_placeholder": "Název"
                 },
                 "revoke_access_token": "Odvolat",
                 "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
