@@ -520,15 +520,15 @@
             },
             "user_controls": {
                 "button": "",
-                "delete_button": "",
+                "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "",
                 "delete_error_message": "",
                 "delete_success_message": "",
-                "edit_button": "",
+                "edit_button": "=> core.ref.edit",
                 "toggle_dropdown_accessible_label": ""
             },
             "user_email_confirmation": {
-                "alert_message": "",
+                "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "",
                 "sent_message": ""
             },
@@ -552,16 +552,16 @@
             },
             "edit_user": {
                 "activate_button": "",
-                "email_heading": "",
-                "email_label": "",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
                 "groups_heading": "",
-                "password_heading": "",
-                "password_label": "",
-                "set_password_label": "",
-                "submit_button": "",
-                "title": "",
-                "username_heading": "",
-                "username_label": "",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Täze parol düzüň",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username",
                 "nothing_available": ""
             },
             "error": {
@@ -578,60 +578,60 @@
                 "render_failed_message": ""
             },
             "loading_indicator": {
-                "accessible_label": ""
+                "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
                 "with_page_title": "",
-                "without_page_title": ""
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
             },
             "modal": {
-                "close": ""
+                "close": "Ýapmak"
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "Nawigasiýa çekmesi açmak"
             },
             "number_suffix": {
-                "kilo_text": "",
-                "mega_text": ""
+                "kilo_text": "K",
+                "mega_text": "M"
             },
             "series": {
-                "glue_text": "",
-                "three_text": "",
-                "two_text": ""
+                "glue_text": ", ",
+                "three_text": "{first}, {second}, we {third}",
+                "two_text": "{first} we {second}"
             },
             "username": {
-                "deleted_text": ""
+                "deleted_text": "[öçürildi]"
             }
         },
         "views": {
             "admin": {
                 "extensions": {
-                    "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "caption": "=> core.ref.extensions",
+                    "disable": "Öçürmek",
+                    "empty": "Gurlan giňeltmeler ýok",
+                    "enable": "Işletmek",
+                    "name": "Giňeldirijiniň ady",
+                    "package_name": "Paketyň ady",
+                    "version": "Wersiýa"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "Programma maglumatlary"
                 },
-                "title": ""
+                "title": "Administrasiýa"
             },
             "confirm_email": {
-                "submit_button": "",
-                "text": "",
-                "title": ""
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "Hasabyňyzyň e-poçtaňyzy tassyklamak üçin aşakdaky düwmä basyň.",
+                "title": "=> core.ref.confirm_email"
             },
             "content": {
                 "javascript_disabled_message": "",
                 "load_error_message": "",
-                "loading_text": ""
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
-                "next_page_button": "",
-                "previous_page_button": ""
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
                 "csrf_token_mismatch": "",
@@ -644,20 +644,20 @@
                 "unknown": ""
             },
             "index": {
-                "all_discussions_heading": "",
-                "next_page_button": "",
-                "previous_page_button": ""
+                "all_discussions_heading": "=> core.ref.all_discussions",
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "log_out": {
-                "log_out_button": "",
+                "log_out_button": "=> core.ref.log_out",
                 "log_out_confirmation": "",
-                "title": ""
+                "title": "=> core.ref.log_out"
             },
             "reset_password": {
                 "confirm_password_label": "",
                 "new_password_label": "",
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.reset_your_password"
             }
         },
         "api": {
@@ -678,23 +678,23 @@
                 "body": ""
             },
             "reset_password": {
-                "subject": "",
-                "body": ""
+                "subject": "=> core.ref.reset_your_password",
+                "body": "Hormatly ulanyjy {username}!\n\nKimdir biri (siz diýip umyt edýäris!) {forum} hasabyňyz üçin \"ýatdan çykarylan parol\" haýyşyny iberdi.\n\nBu siz bolsaňyz, parolyňyzy täzeden düzmek üçin aşakdaky ssylka basyň:\n{url}\n\nParolyňyzy üýtgetmek islemeýän bolsaňyz, şu e-poçta üns bermäň we hiç zat bolmaz.\n"
             },
             "send_test": {
-                "subject": "",
-                "body": ""
+                "subject": "Flarum Email Test",
+                "body": "Hormatly ulanyjy {username}!\n\nBu, Flarum e-poçta konfigurasiýaňyzyň dogry işleýändigini tassyklamak üçin synag e-poçta.\n\nBu siz bolsaňyz, bu e-poçta konfigurasiýaňyzyň işleýändigini aňladýar!\n\nBu siz däl bolsaňyz, bu e-poçta üns bermäň.\n"
             }
         },
         "ref": {
-            "all_discussions": "",
-            "change_email": "",
-            "change_password": "",
-            "color": "",
-            "confirm_password": "",
-            "confirm_email": "",
-            "confirmation_email_sent": "",
-            "custom_footer_text": "",
+            "all_discussions": "Hemme gürrüňler",
+            "change_email": "E-poçtany üýtgetmek",
+            "change_password": "Paroly üýtgetmek",
+            "color": "Reňki",
+            "confirm_password": "Paroly tassyklamak",
+            "confirm_email": "E-poçtany tassyklamak",
+            "confirmation_email_sent": "Tassyklama e-poçtany {email} iberdik. Ýakynda gelmese, spam bukjany barlaň.",
+            "custom_footer_text": "Sahypanyň iň aşagynda görkeziljek HTML goşuň.",
             "custom_footer_title": "Ýörite aşaky sahypany redaktirläň",
             "custom_header_text": "Sahypanyň iň ýokarsynda, Flarumyň öz sözbaşysynyň üstünde görkeziljek HTML goşuň.",
             "custom_header_title": "Ýörite sözbaşy redaktirläň",
@@ -707,7 +707,7 @@
             "extensions": "Giňeldijiler",
             "generic_confirmation_message": "Dowam etmek isleýändigiňize ynanýarsyňyzmy? Bu hereketi yzyna gaýtaryp bolmaz.",
             "icon": "Nyşan",
-            "icon_text": "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix.",
+            "icon_text": "Ähli bir <a>FontAwesome</a> nyşan klass, <em>içine girýan</em> <code>fas fa-</code> prefix.",
             "load_more": "Has köp ýüklemek",
             "loading": "Ýüklenilýär...",
             "log_in": "Giriş",
