@@ -2,49 +2,49 @@
     "askvortsov-rich-text": {
         "admin": {
             "settings": {
-                "toggle_on_editor": ""
+                "toggle_on_editor": "Zobrazit v editoru přepínač režimu formátovaného textu?"
             }
         },
         "lib": {
             "composer": {
-                "toggle_button": "",
-                "insert_button": "",
+                "toggle_button": "Přepnout režim formátovaného textu",
+                "insert_button": "Vložit",
                 "insert_image": {
                     "src_placeholder": "Odkaz",
-                    "title_placeholder": ""
+                    "title_placeholder": "Titulek"
                 },
                 "insert_link": {
-                    "text_placeholder": "",
-                    "href_placeholder": "",
+                    "text_placeholder": "Text",
+                    "href_placeholder": "Adresa URL",
                     "title_placeholder": "Titulek (zobrazí se při najetí myší)",
-                    "remove_button": ""
+                    "remove_button": "Smazat"
                 },
                 "additional_items_tooltip": "Další ovládací prvky",
                 "bold_tooltip": "Tučný text <{modifierKey}-b>",
-                "code_tooltip": "",
-                "code_block_tooltip": "",
-                "header_tooltip": "",
+                "code_tooltip": "Řádek kódu <{modifierKey}-`>",
+                "code_block_tooltip": "Vložit blok kódu",
+                "header_tooltip": "Změnit na nadpis {level} <shift-{modifierKey}-{level}>",
                 "horizontal_rule_tooltip": "Vložit vodorovnou čáru",
                 "image_tooltip": "Přidat obrázek",
                 "italic_tooltip": "Kurzíva <{modifierKey}-i>",
                 "link_tooltip": "Přidat odkaz",
                 "ordered_list_tooltip": "Číslovaný seznam <shift-{modifierKey}-9>",
-                "paragraph_tooltip": "",
-                "quote_tooltip": "",
-                "spoiler_block_tooltip": "",
-                "spoiler_inline_tooltip": "",
-                "strike_tooltip": "",
-                "sub_tooltip": "",
-                "sup_tooltip": "",
-                "text_type_tooltip": "",
-                "unordered_list_tooltip": ""
+                "paragraph_tooltip": "Změnit na odstavec <shift-{modifierKey}-0>",
+                "quote_tooltip": "Vložit citaci <{modifierKey}-q>",
+                "spoiler_block_tooltip": "Rozbalovací blok se spojlerem",
+                "spoiler_inline_tooltip": "Spojler <{modifierKey}-;>",
+                "strike_tooltip": "Přeškrtnuté <alt-shift-5>",
+                "sub_tooltip": "Dolní index <{modifierKey}-,>",
+                "sup_tooltip": "Horní index <{modifierKey}-.>",
+                "text_type_tooltip": "Vybrat typ textu",
+                "unordered_list_tooltip": "Nečíslovaný seznam <shift-{modifierKey}-8>"
             }
         },
         "forum": {
             "settings": {
-                "composer_heading": "",
-                "use_rich_text_editor_label": "",
-                "rich_text_compact_paragraphs_label": ""
+                "composer_heading": "Skladatel",
+                "use_rich_text_editor_label": "Použít editor formátovaného textu?",
+                "rich_text_compact_paragraphs_label": "Neoddělujte odstavce novým řádkem."
             }
         }
     }
