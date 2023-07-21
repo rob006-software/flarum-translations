@@ -2,36 +2,36 @@
     "fof-follow-tags": {
         "forum": {
             "settings": {
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": "",
-                "notify_new_discussion_tag_label": ""
+                "notify_new_discussion_label": "Někdo vytvoří diskuzi v štítku, který sleduji",
+                "notify_new_post_label": "Někdo přispěje do štítku, který sleduji",
+                "notify_new_discussion_tag_label": "Někdo znovu označí diskuzi štítkem, který sleduji"
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": "",
+                "follow_tag_button": "Sledovat",
+                "unfollow_tag_button": "Přestat sledovat",
                 "following": {
-                    "following_none_label": "",
-                    "following_tags_label": ""
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
                 }
             },
             "badge": {
-                "following_tag_tooltip": "",
+                "following_tag_tooltip": "Sledování",
                 "lurking_tag_tooltip": ""
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "hiding_button": "",
-                "hiding_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "lurking_button": "",
-                "lurking_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": ""
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
+                "following_text": "Být upozorněn na všechny nové diskuze.",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
+                "hiding_text": "Skrýt diskuse ze stránky Všechny diskuse.",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
+                "ignoring_text": "Nikdy nebýt upozorňován.",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
+                "lurking_text": "Být upozorněn na všechny nové diskuze a odpovědi.",
+                "not_following_button": "Nesledovat",
+                "not_following_text": "Být upozorněn jen když jsem @zmíněn.",
+                "notify_alert_tooltip": "Dostávat upozornění na nové diskuze nebo příspěvky ve fóru",
+                "notify_email_tooltip": "Obdržet e-mail, když přibydou nové diskuze nebo příspěvky"
             },
             "notifications": {
                 "new_discussion_text": "",
@@ -40,23 +40,23 @@
             },
             "user": {
                 "settings": {
-                    "heading": "",
-                    "filter_label": ""
+                    "heading": "Sledovat štítky",
+                    "filter_label": "Co se má ve výchozím nastavení zobrazovat na stránce Sledované"
                 }
             }
         },
         "admin": {
             "settings": {
                 "following_page_default_label": "",
-                "following_none_label": "",
-                "following_tags_label": ""
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
             }
         },
         "email": {
             "subject": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "[Štítek | Nová diskuze] {title}",
+                "newPostInTag": "[Štítek | Nový příspěvek] {title}",
+                "newDiscussionTag": "[Štítek | Změněný štítek] {title}"
             },
             "body": {
                 "newDiscussionInTag": "",
@@ -65,14 +65,14 @@
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "hiding": "",
-            "ignoring": "",
+            "follow": "Sledovat",
+            "following": "Sledování",
+            "hiding": "Skrývání",
+            "ignoring": "Ignorování",
             "lurking": "",
             "filtering_options": {
-                "none": "",
-                "tags": ""
+                "none": "Sledované diskuze",
+                "tags": "Sledované štítky"
             }
         }
     }
