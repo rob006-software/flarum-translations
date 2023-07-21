@@ -8,7 +8,7 @@
                 "notify_post_created_label": "Někdo vytvoří nový příspěvek nebo odpověď",
                 "notify_post_unapproved_label": "Vytvořený příspěvek vyžaduje schválení",
                 "notify_user_created_label": "Když se někdo zaregistruje",
-                "notify_post_flagged_label": ""
+                "notify_post_flagged_label": "Někdo vytvoří nové nahlášení příspěvku"
             },
             "notifications": {
                 "discussion_created_text": "Uživatel {username} vytvořil novou diskuzi",
@@ -36,7 +36,7 @@
                 "postFlagged": "[Odběr | Nové nahlášení] Uživatel {username} nahlásil příspěvek v {title}"
             },
             "body": {
-                "newDiscussion": "",
+                "newDiscussion": "Ahoj {recipient_display_name},\n\n{actor_display_name} začal novou diskuzi: {discussion_title}\n\nChcete-li si zobrazit tuto novou diskuzi, navštivte následující odkaz:\n{discussion_url}\n\n---\n\n{post_content}\n",
                 "newUser": "",
                 "postUnapproved": "",
                 "postCreated": "",
