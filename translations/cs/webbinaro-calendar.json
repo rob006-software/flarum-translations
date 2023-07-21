@@ -2,40 +2,40 @@
     "flarum-calendar": {
         "forum": {
             "button": {
-                "landing": "",
-                "create": "",
-                "login": ""
+                "landing": "Kalendář událostí",
+                "create": "Nová událost",
+                "login": "Přidat událost "
             },
             "modal": {
-                "title_create": "",
-                "title_edit": "",
-                "title_label": "",
-                "dates_label": "",
-                "description_label": "",
-                "description_placeholder": "",
-                "requirement_message": "",
-                "submit": ""
+                "title_create": "Vytvořit novou událost v kalendáři",
+                "title_edit": "Upravit podrobnosti události",
+                "title_label": "Název události",
+                "dates_label": "Kdy",
+                "description_label": "Podrobnosti",
+                "description_placeholder": "Podrobnosti o události",
+                "requirement_message": "Události vyžadují název a popis",
+                "submit": "Odeslat"
             },
             "event": {
-                "details": "",
-                "hosted_by": "",
-                "starts": "",
-                "ends": "",
-                "confirm_delete": "",
-                "deleted": ""
+                "details": "Více podrobností k této události",
+                "hosted_by": "Hostitel:",
+                "starts": "Začíná:",
+                "ends": "Končí:",
+                "confirm_delete": "Opravdu chcete tuto událost smazat?",
+                "deleted": "Tato událost byla smazána"
             }
         },
         "admin": {
             "settings": {
-                "hide_host": ""
+                "hide_host": "Skrýt hostitele (Hostitel: …)"
             },
             "permissions": {
-                "add": "",
-                "moderate": "",
-                "view": ""
+                "add": "Vytvořit nové události v kalendáři",
+                "moderate": "Smazat nebo upravit události kalendáře (všichni uživatelé mohou upravovat své vlastní události)",
+                "view": "Zobrazit události"
             },
             "basics": {
-                "homepage": ""
+                "homepage": "Aktuální kalendářní měsíc"
             }
         }
     }
