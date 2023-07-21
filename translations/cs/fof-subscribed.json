@@ -4,36 +4,36 @@
             "settings": {
                 "defaults_label": "",
                 "forced_label": "",
-                "notify_discussion_created_label": "",
-                "notify_post_created_label": "",
-                "notify_post_unapproved_label": "",
-                "notify_user_created_label": "",
+                "notify_discussion_created_label": "Někdo vytvoří diskuzi",
+                "notify_post_created_label": "Někdo vytvoří nový příspěvek nebo odpověď",
+                "notify_post_unapproved_label": "Vytvořený příspěvek vyžaduje schválení",
+                "notify_user_created_label": "Když se někdo zaregistruje",
                 "notify_post_flagged_label": ""
             },
             "notifications": {
-                "discussion_created_text": "",
-                "post_created_text": "",
-                "post_unapproved_text": "",
-                "user_created_text": "",
-                "post_flagged_text": ""
+                "discussion_created_text": "Uživatel {username} vytvořil novou diskuzi",
+                "post_created_text": "Uživatel {username} napsal nový příspěvek",
+                "post_unapproved_text": "Uživatel {username} vytvořil příspěvek, který vyžaduje schválení",
+                "user_created_text": "Uživatel {username} se právě zaregistroval",
+                "post_flagged_text": "Uživatel {username} nahlásil příspěvek"
             }
         },
         "admin": {
             "permission": {
-                "subscribe_to_discussion_created": "",
-                "subscribe_to_post_created": "",
-                "subscribe_to_post_unapproved": "",
-                "subscribe_to_user_created": "",
-                "subscribe_to_post_flagged": ""
+                "subscribe_to_discussion_created": "Povoleno přijímat oznámení o nové diskuzi",
+                "subscribe_to_post_created": "Povoleno přijímat oznámení o novém příspěvku nebo odpovědi",
+                "subscribe_to_post_unapproved": "Povoleno přijímat oznámení o novém neschváleném příspěvku",
+                "subscribe_to_user_created": "Povoleno přijímat oznámení o novém uživateli",
+                "subscribe_to_post_flagged": "Povoleno přijímat oznámení o novém nahlášení"
             }
         },
         "email": {
             "subject": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": "",
-                "postCreated": "",
-                "postFlagged": ""
+                "newDiscussion": "[Odběr | Nová diskuze] {title}",
+                "newUser": "[Odběr | Nový uživatel] {username}",
+                "postUnapproved": "[Odběr | Neschválený příspěvek] Uživatel {username} zveřejnil v {title}",
+                "postCreated": "[Odběr | Nový příspěvek] Uživatel {username} napsal nový příspěvek v {title}",
+                "postFlagged": "[Odběr | Nové nahlášení] Uživatel {username} nahlásil příspěvek v {title}"
             },
             "body": {
                 "newDiscussion": "",
