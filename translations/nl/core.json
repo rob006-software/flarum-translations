@@ -47,12 +47,12 @@
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
                 "email_confirmed_label": "Vereisen dat de gebruiker deze e-mail bevestigt",
-                "password_placeholder": "",
-                "submit_and_create_another_button": "",
-                "submit_button": "",
-                "title": "",
-                "use_random_password": "",
-                "username_placeholder": ""
+                "password_placeholder": "=> core.ref.password",
+                "submit_and_create_another_button": "Creëer en voeg een andere toe.",
+                "submit_button": "Maak gebruiker aan",
+                "title": "Maak nieuwe gebruiker aan",
+                "use_random_password": "Genereer willekeurig wachtwoord",
+                "username_placeholder": "=> core.ref.username"
             },
             "dashboard": {
                 "clear_cache_button": "Cache wissen",
@@ -60,14 +60,14 @@
                 "io_error_message": "Kan niet naar het bestandssysteem schrijven. Controleer de machtigingen van uw bestandssysteem en probeer het opnieuw. Of probeer uit te voeren vanuit de CLI.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "scheduler-status": "Inplanner",
+                        "queue-driver": "Wachtrij Driver",
+                        "session-driver": "Sessie Driver"
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "Actief",
+                        "inactive": "Inactief",
+                        "never-run": "Nooit uitvoeren"
                     }
                 },
                 "title": "Dashboard",
@@ -189,10 +189,10 @@
                 "search_placeholder": "Extensies zoeken"
             },
             "permissions": {
-                "allow_hide_own_posts_label": "",
+                "allow_hide_own_posts_label": "Sta toe om eigen posts te verwijderen",
                 "allow_post_editing_label": "Sta bericht bewerking toe",
                 "allow_renaming_label": "Sta hernoemen toe",
-                "create_access_token_label": "",
+                "create_access_token_label": "Creëer toegangscode",
                 "create_heading": "Maak",
                 "delete_discussions_forever_label": "Verwijder discussies permanent",
                 "delete_discussions_label": "Verwijder discussies",
@@ -205,7 +205,7 @@
                 "edit_users_groups_label": "Bewerk gebruikersgroepen",
                 "global_heading": "Globaal",
                 "moderate_heading": "Moderatie",
-                "moderate_access_tokens_label": "",
+                "moderate_access_tokens_label": "Modereer toegangscodes",
                 "new_group_button": "Nieuwe groep",
                 "participate_heading": "Meedoen",
                 "post_without_throttle_label": "Reageer meerdere keren zonder te wachten",
