@@ -343,8 +343,8 @@
             "discussion_list": {
                 "empty_text": "Vypadá to tak, že se zde nediskutuje.",
                 "load_more_button": "=> core.ref.load_more",
-                "replied_text": "Uživatel {username} odpověděl {ago}",
-                "started_text": "Uživatel {username} začal {ago}",
+                "replied_text": "{username} odpověděl {ago}",
+                "started_text": "{username} začal {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# odpověď} few {# odpovědi} other {# odpovědí}}",
                 "unread_replies_a11y_label": "{count, plural, one {# nepřečtená odpověď} few {# nepřečtené odpovědi} other {# nepřečtených odpovědí}}. Označit {count, plural, one {nepřečtenou odpověď jako přečtenou} few {nepřečtené odpovědi jako přečtené} other {nepřečtených odpovědí jako přečtené}}."
             },
@@ -522,7 +522,7 @@
                 "button": "Nastavení",
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "Opravdu chcete uživatele smazat? Příspěvky tohoto uživatele NEBUDOU smazány.",
-                "delete_error_message": "<i>{username} ({email})</i> se nepodařilo smazat",
+                "delete_error_message": "Smazání uživatele <i>{username} ({email})</i> se nezdařilo",
                 "delete_success_message": "Uživatel <i>{username} ({email})</i> byl smazán",
                 "edit_button": "=> core.ref.edit",
                 "toggle_dropdown_accessible_label": "Přepnutí rozbalovací nabídky ovladání uživatele"
