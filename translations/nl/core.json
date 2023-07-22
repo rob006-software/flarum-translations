@@ -11,7 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Eigen header",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_cannot_use_less_features": "",
+                "custom_styles_cannot_use_less_features": "De @import en data-uri opties zijn niet toegestaan in aangepaste LESS.",
                 "custom_styles_heading": "Eigen stijl",
                 "custom_styles_text": "Pas je forum's uiterlijk aan doormiddel van eigen LESS/CSS code bovenop Flarum's standaard stijl.",
                 "dark_mode_label": "Donkere stijl",
@@ -45,8 +45,8 @@
                 "welcome_banner_text": "Configureer de tekst die wordt weergegeven in de banner op de 'Alle discussies' pagina. Gebruik dit om je gasten welkom te heten."
             },
             "create_user": {
-                "email_placeholder": "",
-                "email_confirmed_label": "",
+                "email_placeholder": "=> core.ref.email",
+                "email_confirmed_label": "Vereisen dat de gebruiker deze e-mail bevestigt",
                 "password_placeholder": "",
                 "submit_and_create_another_button": "",
                 "submit_button": "",
