@@ -2,7 +2,7 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": "Discussie sluiten"
+                "lock_discussions_label": "Discussies sluiten"
             }
         },
         "forum": {
@@ -17,8 +17,8 @@
                 "discussion_locked_text": "{username} heeft gesloten"
             },
             "post_stream": {
-                "discussion_locked_text": "{username} heeft de discussie gesloten.",
-                "discussion_unlocked_text": "{username} heeft de discussie geopent."
+                "discussion_locked_text": "{username} heeft de discussie gesloten {time}.",
+                "discussion_unlocked_text": "{username} heeft de discussie geopent {time}."
             },
             "settings": {
                 "notify_discussion_locked_label": "Iemand sluit de discussie die ik heb gestart"
