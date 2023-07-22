@@ -21,6 +21,10 @@
             "poll_ended": "This poll has ended.",
             "public_poll": "View voters",
             "max_votes_allowed": "Poll allows voting for {max, plural, one {# option} other {# options}}.",
+            "poll": {
+                "cannot_change_vote": "You cannot change your vote after voting.",
+                "submit_button": "Vote"
+            },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
@@ -43,6 +47,7 @@
                 "max_votes_label": "Max votes per user",
                 "max_votes_help": "Set to 0 to allow users to vote for all options.",
                 "hide_votes_label": "Hide votes until poll ends",
+                "allow_change_vote_label": "Allow users to change their vote",
                 "question_placeholder": "Question",
                 "submit": "Submit"
             },

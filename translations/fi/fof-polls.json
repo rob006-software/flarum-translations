@@ -21,6 +21,10 @@
             "poll_ended": "Kysely on loppunut.",
             "public_poll": "Näytä vastaajat",
             "max_votes_allowed": "Kyselyt sallivat äänestyksen {max, plural, one {# vaihtoehdon} other {# vaihtoehtoon}}.",
+            "poll": {
+                "cannot_change_vote": "",
+                "submit_button": ""
+            },
             "composer_discussion": {
                 "add_poll": "Lisää kysely",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
@@ -43,6 +47,7 @@
                 "max_votes_label": "Enimmäismäärä ääniä per käyttäjä",
                 "max_votes_help": "Aseta arvoksi 0, jotta voi vastata kaikkiin vaihtoehtoihin.",
                 "hide_votes_label": "",
+                "allow_change_vote_label": "",
                 "question_placeholder": "Kysymys",
                 "submit": "Lähetä"
             },

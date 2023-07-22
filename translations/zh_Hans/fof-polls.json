@@ -21,6 +21,10 @@
             "poll_ended": "投票已结束。",
             "public_poll": "查看投票详情",
             "max_votes_allowed": "允许投票给 {max, plural, one {# option} other {# options}}.",
+            "poll": {
+                "cannot_change_vote": "",
+                "submit_button": ""
+            },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
@@ -43,6 +47,7 @@
                 "max_votes_label": "每个用户的最大投票数",
                 "max_votes_help": "设置为0，允许用户对所有选项投票。",
                 "hide_votes_label": "隐藏投票直到投票结束",
+                "allow_change_vote_label": "",
                 "question_placeholder": "问题",
                 "submit": "提交"
             },

@@ -21,6 +21,10 @@
             "poll_ended": "Polling ini sudah berakhir.",
             "public_poll": "Lihat voter",
             "max_votes_allowed": "Polling memungkinkan melakukan voting untuk {max, plural, one {# pilihan} other {# pilihan}}.",
+            "poll": {
+                "cannot_change_vote": "",
+                "submit_button": ""
+            },
             "composer_discussion": {
                 "add_poll": "Membuat Polling",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
@@ -43,6 +47,7 @@
                 "max_votes_label": "Maks vote per pengguna",
                 "max_votes_help": "Atur ke 0 untuk memungkinkan pengguna memilih semua opsi.",
                 "hide_votes_label": "",
+                "allow_change_vote_label": "",
                 "question_placeholder": "Pertanyaan",
                 "submit": "Submit"
             },

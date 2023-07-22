@@ -21,6 +21,10 @@
             "poll_ended": "該投票已結束。",
             "public_poll": "查看投票人",
             "max_votes_allowed": "允許投票給 {max, plural, one {# option} other {# options}}。",
+            "poll": {
+                "cannot_change_vote": "",
+                "submit_button": ""
+            },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "編輯投票",
@@ -43,6 +47,7 @@
                 "max_votes_label": "每個用戶的最大投票數",
                 "max_votes_help": "設置為 0 以允許用戶對所有選項進行投票。",
                 "hide_votes_label": "隱藏投票直到投票結束",
+                "allow_change_vote_label": "",
                 "question_placeholder": "問題",
                 "submit": "提交"
             },

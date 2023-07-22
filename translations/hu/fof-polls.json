@@ -21,6 +21,10 @@
             "poll_ended": "A szavazás véget ért.",
             "public_poll": "Szavazók megtekintése",
             "max_votes_allowed": "A szavazásban legfeljebb {max} lehetőség választható.",
+            "poll": {
+                "cannot_change_vote": "",
+                "submit_button": ""
+            },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
@@ -43,6 +47,7 @@
                 "max_votes_label": "Szavazatok maximális száma felhasználónként",
                 "max_votes_help": "Állítsa 0-ra, hogy az összes lehetőségre szavazhassanak.",
                 "hide_votes_label": "Szavazatok elrejtése a szavazás végéig",
+                "allow_change_vote_label": "",
                 "question_placeholder": "Kérdés",
                 "submit": "Beküldés"
             },

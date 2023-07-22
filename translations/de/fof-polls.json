@@ -21,6 +21,10 @@
             "poll_ended": "Diese Umfrage ist bereits beendet.",
             "public_poll": "Abstimmungsergebnis",
             "max_votes_allowed": "In der Umfrage kann für {max, plural, one {# Option} other {# Optionen}} abgestimmt werden.",
+            "poll": {
+                "cannot_change_vote": "",
+                "submit_button": ""
+            },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
@@ -43,6 +47,7 @@
                 "max_votes_label": "Maximale Stimmen pro Benutzer",
                 "max_votes_help": "Auf 0 festlegen, damit die Nutzer für alle Optionen stimmen können.",
                 "hide_votes_label": "Stimmen ausblenden, bis die Umfrage endet",
+                "allow_change_vote_label": "",
                 "question_placeholder": "Frage",
                 "submit": "Speichern"
             },
