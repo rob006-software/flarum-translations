@@ -83,7 +83,7 @@
         "admin": {
             "permission": {
                 "create_private_discussions_with_users": "Maak privédiscussies met gebruikers",
-                "add_more_than_two_user_recipients": "",
+                "add_more_than_two_user_recipients": "Voeg meer dan 2 ontvangers toe aan privédiscussies",
                 "create_private_discussions_with_groups": "Maak privédiscussies met groepen",
                 "create_private_discussions_with_blocking_users": "Maak privédiscussies met gebruikers die het blokkeren",
                 "edit_user_recipients": "Gebruikers bewerken die deelnemen aan privédiscussies",
@@ -96,10 +96,10 @@
                 "enable-make-public-option": "Schakel de mogelijkheid \"openbaar maken\" in",
                 "enable-make-public-option-help": "Voegt de mogelijkheid toe voor degenen met toestemming om alle ontvangers te verwijderen, een nieuwe tag toe te wijzen en de discussie openbaar zichtbaar te maken (volgens de zichtbaarheidsinstellingen van de gekozen tag).",
                 "post-event-icon": "Byobu bericht evenementen",
-                "delete_on_last_recipient_left": "",
-                "delete_on_last_recipient_left_help": "",
-                "hide_from_all_discussions_page": "",
-                "hide_from_all_discussions_page_help": ""
+                "delete_on_last_recipient_left": "Verwijder PDs wanneer de laatste gebruiker vertrekt",
+                "delete_on_last_recipient_left_help": "Indien ingeschakeld worden PDs permanent uit de database verwijderd wanneer de laatste gebruiker vertrekt. Anders wordt de PD tijdelijk verwijderd/verborgen.",
+                "hide_from_all_discussions_page": "Verberg PDs van de pagina \"Alle discussies\"",
+                "hide_from_all_discussions_page_help": "Privédiscussies zijn alleen toegankelijk via de pagina \"Privédiscussies\" of het gebruikersprofiel"
             }
         },
         "email": {
