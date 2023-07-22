@@ -29,7 +29,7 @@
                 "tag_discussions_label": "Discussies categoriseren"
             },
             "settings": {
-                "button_text": ""
+                "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
                 "range_separator_text": " tot ",
@@ -62,7 +62,7 @@
                 "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
-                "choose_tags_link": "Kies categorieën"
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
                 "edit_tags_button": "Categorieën bijwerken"
@@ -76,9 +76,9 @@
                 "untagged_link": "Ongecategorieseerd"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} heeft de {tagsAdded} toegevoegd en de {tagsRemoved} verwijderd.",
-                "added_tags_text": "{username} heeft de {tagsAdded} toegevoegd.",
-                "removed_tags_text": "{username} heeft de {tagsRemoved} verwijderd.",
+                "added_and_removed_tags_text": "{username} heeft de {tagsAdded} toegevoegd en de {tagsRemoved} verwijderd {time}.",
+                "added_tags_text": "{username} heeft {tagsAdded} toegevoegd {time}.",
+                "removed_tags_text": "{username} heeft de {tagsRemoved} verwijderd {time}.",
                 "tags_text": "{count, plural, one {{tags} categorie} other {{tags} categorieën}}"
             },
             "tag": {
@@ -88,17 +88,17 @@
         "lib": {
             "deleted_tag_text": "Verwijderd",
             "tag_selection_modal": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "bypass_requirements": "Tagvereisten omzeilen",
+                "choose_primary_placeholder": "{count, plural, one {Kies een primaire tag} other {Kies # primaire tags}}",
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
             }
         },
         "ref": {
-            "choose_tags": "",
-            "choose_tags_placeholder": "",
+            "choose_tags": "Kies Tags",
+            "choose_tags_placeholder": "{count, plural, one {Kies nog 1 tag} other {Kies nog # tags}}",
             "name": "Naam",
             "tags": "Categorieën"
         }
