@@ -2,7 +2,7 @@
     "fof-follow-tags": {
         "forum": {
             "settings": {
-                "notify_new_discussion_label": "Někdo vytvoří diskuzi v štítku, který sleduji",
+                "notify_new_discussion_label": "Někdo vytvoří diskuzi se štítkem, který sleduji",
                 "notify_new_post_label": "Někdo přispěje do štítku, který sleduji",
                 "notify_new_discussion_tag_label": "Někdo znovu označí diskuzi štítkem, který sleduji"
             },
@@ -16,7 +16,7 @@
             },
             "badge": {
                 "following_tag_tooltip": "Sledování",
-                "lurking_tag_tooltip": ""
+                "lurking_tag_tooltip": "Číhající"
             },
             "sub_controls": {
                 "follow_button": "=> fof-follow-tags.ref.follow",
@@ -34,9 +34,9 @@
                 "notify_email_tooltip": "Obdržet e-mail, když přibydou nové diskuze nebo příspěvky"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": "",
-                "new_discussion_tag_text": ""
+                "new_discussion_text": "{username} začal",
+                "new_post_text": "{username} přispěl",
+                "new_discussion_tag_text": "{username} změnil štítek"
             },
             "user": {
                 "settings": {
@@ -47,7 +47,7 @@
         },
         "admin": {
             "settings": {
-                "following_page_default_label": "",
+                "following_page_default_label": "Výchozí filtrování sledovaných stránek",
                 "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
                 "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
             }
@@ -59,9 +59,9 @@
                 "newDiscussionTag": "[Štítek | Změněný štítek] {title}"
             },
             "body": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "Ahoj {recipient_display_name},\n\n{actor_display_name} zahájil diskuzi ve štítku, který sledujete: {discussion_title}\n\nPro zobrazení nové diskuze, navštivte následující odkaz:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newPostInTag": "Ahoj {recipient_display_name},\n\n{actor_display_name} přidal příspěvek do diskuze ke štítku, který sledujete: {discussion_title}\n\nPro zobrazení nové aktivity, navštivte následující odkaz:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNebudete dostávat žádné další notifikace k této diskuzi, dokud nebudete mít aktuální informace.\n",
+                "newDiscussionTag": "Ahoj {recipient_display_name},\n\n{actor_display_name} právě změnil štítek v diskuzi od {author_display_name} na štítek, který sledujete {discussion_title}\n\nPro zobrazení nové diskuze, navštivte následující odkaz:\n{discussion_url}\n"
             }
         },
         "ref": {
@@ -69,7 +69,7 @@
             "following": "Sledování",
             "hiding": "Skrývání",
             "ignoring": "Ignorování",
-            "lurking": "",
+            "lurking": "Číhající",
             "filtering_options": {
                 "none": "Sledované diskuze",
                 "tags": "Sledované štítky"
