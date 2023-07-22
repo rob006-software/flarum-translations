@@ -22,8 +22,8 @@
             "public_poll": "Zobrazit hlasující",
             "max_votes_allowed": "V anketě můžete hlasovat pro {max, plural, one {# možnost} few {# možnosti} other {# možností}}.",
             "poll": {
-                "cannot_change_vote": "",
-                "submit_button": ""
+                "cannot_change_vote": "Po hlasování nemůžete svůj hlas změnit.",
+                "submit_button": "Hlasovat"
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
@@ -47,7 +47,7 @@
                 "max_votes_label": "Max. počet hlasů na jednoho uživatele",
                 "max_votes_help": "Nastavte na 0, aby uživatelé mohli hlasovat pro všechny možnosti.",
                 "hide_votes_label": "Skrýt hlasy, dokud anketa neskončí",
-                "allow_change_vote_label": "",
+                "allow_change_vote_label": "Umožnit uživatelům změnit svůj hlas",
                 "question_placeholder": "Otázka",
                 "submit": "Odeslat"
             },
