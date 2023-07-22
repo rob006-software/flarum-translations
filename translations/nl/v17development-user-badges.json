@@ -97,7 +97,7 @@
                 "category": "Badgecategorie",
                 "received_on": "",
                 "badge_details": "",
-                "earned_count": "<b>{count} gebruiker</b> heeft deze badge ontvangen|<b>{count} gebruikers</b> hebben deze badge ontvangen",
+                "earned_count": "{count, plural, one {<b># user</b> heeft deze badge ontvangen} other {<b># users</b> hebben deze badge ontvangen}}",
                 "earned_by_count": "",
                 "others_link": ""
             },
