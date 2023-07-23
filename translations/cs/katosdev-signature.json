@@ -2,44 +2,44 @@
     "signature": {
         "forum": {
             "buttons": {
-                "signature": "",
-                "save": ""
+                "signature": "Podpis",
+                "save": "Uložit podpis"
             },
             "modal": {
                 "loading": {
-                    "title": "",
-                    "content": ""
+                    "title": "Ukládání",
+                    "content": "Čekejte prosím..."
                 },
                 "error": {
-                    "title": "",
-                    "content": ""
+                    "title": "Jejda! Při ukládání došlo k chybám...",
+                    "content": "Seznam chyb:"
                 }
             },
             "errors": {
-                "max_char_limit_exceed": "",
-                "max_image_width_exceed": "",
-                "max_image_height_exceed": "",
-                "max_image_count_exceed": ""
+                "max_char_limit_exceed": "Překročen maximální počet znaků.",
+                "max_image_width_exceed": "Překročen limit maximální šířky obrázku.",
+                "max_image_height_exceed": "Překročen limit maximální výšky obrázku.",
+                "max_image_count_exceed": "Překročen maximální počet obrázků."
             }
         },
         "admin": {
-            "title": "",
+            "title": "Podpis",
             "settings": {
                 "maximum_image_width": {
-                    "description": "",
-                    "placeholder": ""
+                    "description": "Maximální šířka obrázků v editoru.",
+                    "placeholder": "350 (výchozí)"
                 },
                 "maximum_image_height": {
-                    "description": "",
-                    "placeholder": ""
+                    "description": "Maximální výška (nebo součet výšek) vložených obrázků do editoru.",
+                    "placeholder": "500 (výchozí)"
                 },
                 "maximum_image_count": {
-                    "description": "",
-                    "placeholder": ""
+                    "description": "Maximální počet vložených obrázků.",
+                    "placeholder": "5 (výchozí)"
                 },
                 "maximum_char_limit": {
-                    "description": "",
-                    "placeholder": ""
+                    "description": "Maximální počet znaků podpisu (počítejte znaky, nepočítejte HTML značky)",
+                    "placeholder": "1000 (výchozí)"
                 }
             }
         }
