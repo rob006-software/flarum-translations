@@ -2,14 +2,14 @@
     "fof-upload": {
         "admin": {
             "pane": {
-                "title": "",
+                "title": "Nahrát",
                 "description": ""
             },
             "help_texts": {
-                "disable-download-logging": "",
+                "disable-download-logging": "Zakažte protokolování každého stahování provedeného uživateli fóra. Povolení umožní v blízké budoucnosti zobrazit počet stažení a další metriky.\n",
                 "disable-hotlink-protection": "",
-                "download_templates": "",
-                "mime_types": "",
+                "download_templates": "Šablony pro stažení představují způsob zobrazení nahraných souborů na vašem fóru, např. náhledy, tlačítka. Aktuálně k dispozici:\n",
+                "mime_types": "Zde nakonfigurujte mapování. Každý regulární výraz typu mime bude zpracován konkrétním adaptérem pro nahrávání a šablonou pro stahování.\n",
                 "resize": "",
                 "client_extension": "",
                 "watermark": "",
@@ -31,12 +31,12 @@
                     "acl": ""
                 },
                 "disable-download-logging": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Zakázat protokolování stahování",
+                    "toggle": "Zakázat"
                 },
                 "disable-hotlink-protection": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Zakázat ochranu hotlink",
+                    "toggle": "Zakázat"
                 },
                 "imgur": {
                     "client_id": "",
@@ -48,30 +48,30 @@
                     "title": ""
                 },
                 "qiniu": {
-                    "title": "",
+                    "title": "Nastavení úložiště Qiniu",
                     "key": "",
                     "secret": "",
                     "bucket": ""
                 },
                 "preferences": {
-                    "max_file_size": "",
+                    "max_file_size": "Maximální velikost souboru (v kilobajtech)",
                     "mime_types": "",
-                    "title": "",
+                    "title": "Obecné předvolby",
                     "php_ini_values": ""
                 },
                 "resize": {
-                    "max_width": "",
-                    "title": "",
-                    "toggle": ""
+                    "max_width": "Maximální šířka/výška obrázku",
+                    "title": "Změna velikosti obrázku",
+                    "toggle": "Změnit velikost obrázků"
                 },
                 "client_extension": {
                     "title": ""
                 },
                 "watermark": {
                     "file": "",
-                    "position": "",
-                    "title": "",
-                    "toggle": ""
+                    "position": "Umístění vodoznaku",
+                    "title": "Obrázky s vodoznakem",
+                    "toggle": "Obrázky s vodoznakem"
                 },
                 "composer_buttons": {
                     "title": "",
@@ -84,7 +84,7 @@
                 "inspect-mime": ""
             },
             "permissions": {
-                "download_label": "",
+                "download_label": "Stáhnout soubory",
                 "upload_label": "",
                 "view_user_uploads_label": "",
                 "delete_uploads_of_others_label": ""
@@ -109,43 +109,43 @@
                 "aws-s3": "",
                 "imgur": "",
                 "local": "",
-                "ovh-svfs": "",
-                "qiniu": ""
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": "QiNiu"
             },
             "inspect-mime": {
                 "title": "",
                 "description": "",
                 "select": "",
                 "laravel-validation": "",
-                "no-file-selected": "",
+                "no-file-selected": "Žádný soubor",
                 "validation-passed": "",
                 "validation-failed": "",
                 "mime-detector": "",
-                "mime-fileinfo": "",
+                "mime-fileinfo": "PHP Fileinfo (záložní)",
                 "guessed-extension": "",
-                "not-available": ""
+                "not-available": "Žádný výsledek"
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "Správce médií",
             "buttons": {
                 "attach": "",
-                "upload": "",
+                "upload": "Nahrát",
                 "user_uploads": "",
-                "cancel": "",
-                "media": ""
+                "cancel": "Zrušit",
+                "media": "Média"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
+                "loading": "Načítání souborů...",
+                "empty": "Nejsou zde žádné soubory k zobrazení.",
                 "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
+                "modal_empty_desktop": "Seznam souborů je prázdný. Klikněte na tlačítko nebo sem přetáhněte soubor, který chcete nahrát.",
+                "modal_empty_phone": "Seznam souborů je prázdný. Pro nahrání souboru stiskněte výše uvedené tlačítko.",
+                "select_file_a11y_label": "Vyberte soubor \"{fileName}\"",
                 "confirm_selection_btn": "",
-                "load_more_files_btn": "",
+                "load_more_files_btn": "Načíst další soubory",
                 "hide_file": {
-                    "btn_a11y_label": "",
+                    "btn_a11y_label": "Skrýt \"{fileName}\" ze správce médií",
                     "hide_confirmation": "",
                     "hide_success": "",
                     "hide_fail": "",
@@ -153,9 +153,9 @@
                 }
             },
             "states": {
-                "error": "",
+                "error": "Chyba",
                 "loading": "",
-                "unauthorized": ""
+                "unauthorized": "Nejste oprávněni stahovat soubory"
             },
             "validation": {
                 "max_size": ""
@@ -163,7 +163,7 @@
             "text_preview": {
                 "expand": "",
                 "collapse": "",
-                "error": "",
+                "error": "Chyba při náhledu souboru. Možná byl smazán nebo je zadané ID souboru neplatné.\n",
                 "no_snippet_preview": "",
                 "no_snippet": ""
             }
@@ -171,7 +171,7 @@
         "api": {
             "upload_errors": {
                 "forbidden_type": "",
-                "unsupported_type": "",
+                "unsupported_type": "Adaptér pro odesílání nepodporuje zadaný typ MIME: {mime}.",
                 "could_not_detect_mime": ""
             }
         }
