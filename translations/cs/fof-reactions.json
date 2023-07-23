@@ -42,22 +42,22 @@
                     "save_settings": "Uložit nastavení",
                     "integrations": {
                         "legend": "Integrace",
-                        "warning": "",
+                        "warning": "Stejnou reakci <strong>nelze</strong> převést na lajk <strong>a</strong> souhlas",
                         "gamification": {
-                            "legend": "",
-                            "upvoteLabel": "",
-                            "upvoteHelptext": "",
-                            "downvoteLabel": "",
-                            "downvoteHelptext": ""
+                            "legend": "Gamifikace",
+                            "upvoteLabel": "Převést reakce na souhlas",
+                            "upvoteHelptext": "Zadejte identifikátor reakce, kterou chcete automaticky převést na souhlas",
+                            "downvoteLabel": "Převést reakce na nesouhlas",
+                            "downvoteHelptext": "Zadejte identifikátor reakce, kterou chcete automaticky převést na nesouhlas"
                         },
                         "likes": {
-                            "legend": "",
-                            "Label": "",
-                            "Helptext": ""
+                            "legend": "Lajky",
+                            "Label": "Převést reakce na lajky",
+                            "Helptext": "Zadejte identifikátor reakce, kterou chcete automaticky převést na lajk"
                         }
                     },
-                    "allow-anonymous": "",
-                    "allow-anonymous-help": ""
+                    "allow-anonymous": "Povolit anonymní (host) reakce",
+                    "allow-anonymous-help": "Pokud je tato možnost povolena, hosté a anonymní uživatelé budou moci reagovat na příspěvky. Všimněte si, že anonymní reakce nebudou spojeny s profilem uživatele a budou agregovány v seznamu reakcí."
                 }
             }
         }
