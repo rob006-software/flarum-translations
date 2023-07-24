@@ -2,99 +2,99 @@
     "fof-best-answer": {
         "admin": {
             "permissions": {
-                "best_answer": "",
-                "best_answer_not_own_discussion": ""
+                "best_answer": "Vybrat nejlepší odpověď (vlastní diskuze)",
+                "best_answer_not_own_discussion": "Vybrat nejlepší odpověď (cizí diskuze)"
             },
             "settings": {
                 "label": {
-                    "general": "",
-                    "reminders": "",
-                    "advanced": "",
-                    "reminders_notice": ""
+                    "general": "Obecné",
+                    "reminders": "Připomínky",
+                    "advanced": "Pokročilé",
+                    "reminders_notice": "Aby připomínky fungovaly, je třeba správně nastavit plánovač (scheduler) Flarum."
                 },
-                "allow_select_own_post": "",
-                "allow_select_own_post_help": "",
-                "enable_all_tags_button": "",
-                "enable_all_tags_reminder_button": "",
-                "show_max_lines_label": "",
-                "show_max_lines_help": "",
-                "select_best_answer_reminder_days": "",
-                "select_best_answer_reminder_days_help": "",
-                "select_best_answer_tags_label": "",
-                "select_best_answer_tags_help": "",
-                "schedule_on_one_server": "",
-                "schedule_on_one_server_help": "",
-                "schedule_stop_overnight": "",
-                "schedule_stop_overnight_help": "",
-                "schedule_log_output": "",
-                "show_filter_label": "",
-                "show_filter_help": "",
-                "use_alt_ui": "",
-                "use_alt_ui_help": "",
-                "documentation": "",
-                "introduction": ""
+                "allow_select_own_post": "Vybrat vlastní příspěvek",
+                "allow_select_own_post_help": "Povolit uživateli, aby vybral jeden ze svých příspěvků v diskusi jako nejlepší odpověď",
+                "enable_all_tags_button": "Povolit všechny štítky pro Nejlepší odpovědi",
+                "enable_all_tags_reminder_button": "Povolit všechny štítky pro připomenutí Nejlepší odpovědi",
+                "show_max_lines_label": "Maximální počet řádků, který se zobrazí v náhledu příspěvku",
+                "show_max_lines_help": "Nastavením na 0 vypnete. Pokud je příspěvek delší než nastavený počet řádků, bude v náhledu příspěvku zkrácen s efektem vyblednutí.",
+                "select_best_answer_reminder_days": "Frekvence připomenutí",
+                "select_best_answer_reminder_days_help": "Po uplynutí stanoveného počtu dní zaslat autorovi diskuze připomínku, aby vybral nejlepší odpověď. Nastavením hodnoty na 0 připomenutí zakážete.",
+                "select_best_answer_tags_label": "Štítky pro diskuzi s nejlepší odpovědí",
+                "select_best_answer_tags_help": "Vyberte, které štítky mají být přidány do diskuze, když je u ní nastavena Nejlepší odpověď. Povoleny jsou pouze vedlejší štítky. Tyto štítky budou z diskuze odstraněny, pokud je u diskuze Nejlepší odpověď odstraněna.",
+                "schedule_on_one_server": "Používat direktivu \"onOneServer()\" pro plánovač úloh",
+                "schedule_on_one_server_help": "Vyžaduje Redis/Memcache",
+                "schedule_stop_overnight": "Zabránit zasílání oznámení s připomínkami v mimopracovní době",
+                "schedule_stop_overnight_help": "21:00 - 8:00 hodin času serveru",
+                "schedule_log_output": "Připojit výstup plánovače (scheduler) do úložiště protokolu (logu)",
+                "show_filter_label": "Zobrazit rozbalovací filtr s/bez Nejlepší odpovědí",
+                "show_filter_help": "U štítků, kde je povolena možnost Nejlepší odpovědi, zvolte v seznamu diskuzí zobrazení filtru vyřešené/nevyřešené",
+                "use_alt_ui": "Alternativní uspořádání",
+                "use_alt_ui_help": "Ovládací prvky pro Nejlepší odpověď v zápatí příspěvku",
+                "documentation": "Dokumentace",
+                "introduction": "V nastavení <code><a>flarum/tags</a></code> vyberte, které štítky mají podporovat Nejlepší odpovědi, a případně, které štítky mají podporovat připomínky. Pokud je u štítku povolena funkce Nejlepší odpověď, přiřaďte oprávnění každé skupině uživatelů, která může nastavovat odpovědi (vlastní diskuze, libovolná diskuze). Oprávnění lze přidělit globálně (pro každý štítek s povolenou Nejlepší odpovědí) nebo pro každý štítek zvlášť.\n"
             },
             "edit_tag": {
-                "qna_label": "",
-                "reminders": ""
+                "qna_label": "Povolit nastavení Nejlepší odpovědi v tomto štítku",
+                "reminders": "Odesílání připomínek k nastavení Nejlepší odpovědi pro diskuze v tomto štítku"
             }
         },
         "forum": {
-            "answered_badge": "",
-            "this_best_answer": "",
-            "remove_best_answer": "",
-            "best_answer_button": "",
-            "best_answer_label": "",
+            "answered_badge": "Odpovězeno",
+            "this_best_answer": "Označit jako Nejlepší odpověď",
+            "remove_best_answer": "Zrušit označení Nejlepší odpověď",
+            "best_answer_button": "Nejlepší odpověď",
+            "best_answer_label": "nastavil <a>{username}</a> {time_set}",
             "errors": {
-                "mismatch": ""
+                "mismatch": "Vybraný příspěvek v této diskuzi neexistuje."
             },
             "notification": {
-                "best_answer_in_discussion": "",
-                "content": "",
-                "awarded": "",
+                "best_answer_in_discussion": "{username} nastavil nejlepší odpověď v této diskuzi",
+                "content": "Pokud byla vaše otázka zodpovězena, vyberte Nejlepší odpověď",
+                "awarded": "Váš příspěvek byl nastaven jako Nejlepší odpověď uživatelem {username}",
                 "preferences": {
-                    "awarded_best_answer": "",
-                    "best_answer_in_discussion": "",
-                    "select_best_answer": ""
+                    "awarded_best_answer": "Někdo označí můj příspěvek jako Nejlepší odpověď",
+                    "best_answer_in_discussion": "Někdo vybral Nejlepší odpověď v diskuzi, které jsem se zúčastnil",
+                    "select_best_answer": "Automatická připomínka k výběru nejlepší odpovědi v diskuzi, kterou jsem začal"
                 }
             },
             "index": {
-                "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "ask_question": "Položit otázku",
+                "cannot_ask_question": "Nelze položit otázku",
+                "solved_link": "Vyřešené diskuze",
+                "unsolved_link": "Nevyřešené diskuze"
             },
             "filter": {
-                "all_label": "",
-                "solved_label": "",
-                "unsolved_label": "",
-                "accessible_label": ""
+                "all_label": "Všechny otázky",
+                "solved_label": "Vyřešené otázky",
+                "unsolved_label": "Nevyřešené otázky",
+                "accessible_label": "Výběr vyřešeno/nevyřešeno"
             },
             "composer": {
-                "titlePlaceholder": ""
+                "titlePlaceholder": "Název otázky"
             },
             "user": {
-                "best-answer-count": ""
+                "best-answer-count": "{count, plural, one {{count} nejlepší odpověď} few {{count} nejlepší odpovědi} other {{count} nejlepších odpovědí}}"
             }
         },
         "email": {
             "subject": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "Váš příspěvek byl nastaven jako Nejlepší odpověď uživatelem {display_name}",
+                "ba-set": "Nejlepší odpověď nastavil {display_name}",
+                "select": "Dostali jste odpověď na svou otázku?"
             },
             "body": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "Ahoj {recipient_display_name},\n\nskvělá práce, {actor_display_name} právě vybral váš příspěvek jako nejlepší odpověď v diskuzi: {discussion_title}. Děkujeme za pomoc.\n\nPro přístup do diskuze navštivte odkaz: {discussion_url}\n",
+                "ba-set": "Ahoj {recipient_display_name},\n\n{actor_display_name} právě vybral nejlepší odpověď v diskuzi \"{discussion_title}\", které jste se zúčastnil.\n\nPro přístup do diskuze navštivte odkaz: {discussion_url}\n",
+                "select": "Ahoj, {recipient_display_name}\n\nJen pro kontrolu. Na vaši otázku \"{discussion_title}\" byste již měl mít dostatek odpovědí. Doufáme, že vám některá z nich pomohla vyřešit váš problém.\n\nPokud ano, výběr nejlepší odpovědi by byl velmi užitečný pro ostatní uživatele s podobným problémem - usnadnil by jim nalezení hledané odpovědi. Je to také forma poděkování uživatelům, kteří vám pomohli - dobrovolně věnovali svůj čas. Bylo by dobré jim dát najevo, že si vedou dobře.\n\nZapojte se do diskuze a vyberte nejvhodnější příspěvek jako Nejlepší odpověď, kliknutím na následující odkaz: {discussion_url}\n\nDěkujeme!\n"
             }
         }
     },
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "most_best_answers": "",
-                "least_best_answers": ""
+                "most_best_answers": "Nejvíce nejlepších odpovědí",
+                "least_best_answers": "Nejméně nejlepších odpovědí"
             }
         }
     }
