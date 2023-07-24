@@ -36,11 +36,11 @@
                 "postFlagged": "[Odběr | Nové nahlášení] Uživatel {username} nahlásil příspěvek v {title}"
             },
             "body": {
-                "newDiscussion": "Ahoj {recipient_display_name},\n\n{actor_display_name} začal novou diskuzi: {discussion_title}\n\nPro zobrazení nové diskuze, navštivte následující odkaz:\n{discussion_url}\n\n---\n\n{post_content}\n",
-                "newUser": "",
-                "postUnapproved": "",
-                "postCreated": "",
-                "postFlagged": ""
+                "newDiscussion": "Ahoj {recipient_display_name},\n\nuživatel {actor_display_name} začal novou diskuzi: {discussion_title}\n\nPro zobrazení nové diskuze, navštivte následující odkaz:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "Ahoj {recipient_display_name},\n\nuživatel {actor_display_name} se právě zaregistroval na {forum_url}.\n\nPro zobrazení profilu nového uživatele, navštivte následující odkaz:\n{user_url}\n",
+                "postUnapproved": "Ahoj {recipient_display_name},\n\nuživatel {actor_display_name} vytvořil příspěvek, který nebyl automaticky schválen v diskuzi {discussion_title}\n\nPro zobrazení nového příspěvku navštivte následující odkaz:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postCreated": "Ahoj {recipient_display_name},\n\nuživatel {actor_display_name} právě vytvořil nový příspěvek v diskuzi {discussion_title}\n\nPro zobrazení nového příspěvku navštivte následující odkaz:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postFlagged": "Ahoj {recipient_display_name},\n\nuživatel {actor_display_name} právě nahlásil příspěvek v diskuzi {discussion_title}\n\nPro zobrazení příspěvku navštivte následující odkaz:\n{post_url}\n"
             }
         }
     }
