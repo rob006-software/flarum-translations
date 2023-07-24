@@ -3,31 +3,31 @@
         "admin": {
             "pane": {
                 "title": "Nahrát",
-                "description": ""
+                "description": "Nastavení služeb a předvoleb nahrávání."
             },
             "help_texts": {
                 "disable-download-logging": "Zakažte protokolování každého stahování provedeného uživateli fóra. Povolení umožní v blízké budoucnosti zobrazit počet stažení a další metriky.\n",
-                "disable-hotlink-protection": "",
+                "disable-hotlink-protection": "Ochrana hotlink zabraňuje otevírání stahování z jiných webů. Aktuální metoda vyžaduje token csrf a ID příspěvku.\n",
                 "download_templates": "Šablony pro stažení představují způsob zobrazení nahraných souborů na vašem fóru, např. náhledy, tlačítka. Aktuálně k dispozici:\n",
                 "mime_types": "Zde nakonfigurujte mapování. Každý regulární výraz typu mime bude zpracován konkrétním adaptérem pro nahrávání a šablonou pro stahování.\n",
-                "resize": "",
-                "client_extension": "",
-                "watermark": "",
-                "s3_compatible_storage": "",
-                "s3_acl": "",
-                "s3_instance_profile": "",
-                "composer_buttons": ""
+                "resize": "Zvolte, zda chcete změnit velikost obrázků před jejich odesláním. Můžete zvolit maximální šířku a výšku v pixelech. Při změně velikosti se zachová poměr stran obrázků.\n",
+                "client_extension": "Ve výchozím nastavení vybere Upload bezpečnou příponu souboru na základě typu MIME.\nU některých typů souborů založených na ZIP nebo binárních datech to může vést k použití obecných přípon místo očekávaných.\nZde můžete zadat čárkou oddělený seznam přípon souborů, které budou zachovány doslovně.\n",
+                "watermark": "Zvolte, zda se má při nahrávání obrázků přidat vodoznak. Vodoznaky se přidávají k obrázkům, které nejsou soubory GIF, na základě vašich preferencí uvedených níže.\n",
+                "s3_compatible_storage": "Následující nastavení jsou vyžadována pouze při použití úložiště kompatibilního se standardem S3. Pokud používáte AWS, můžete je nechat prázdné.\n",
+                "s3_acl": "ACL, které by se mělo použít na nahraný objekt (výchozí: soukromý). Možné hodnoty naleznete na adrese https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_instance_profile": "Chcete-li použít pověření v profilu instance, ponechte klíč a tajný klíč prázdný.\n",
+                "composer_buttons": "Ve výchozím nastavení je viditelné tlačítko správce médií i tlačítko pro nahrávání. Můžete také zvolit zobrazení pouze jednoho tlačítka.\n"
             },
             "labels": {
                 "aws-s3": {
-                    "bucket": "",
+                    "bucket": "Bucket",
                     "key": "Klíč",
-                    "region": "",
-                    "secret": "",
+                    "region": "Region",
+                    "secret": "Secret",
                     "title": "Nastavení úložiště AWS S3",
                     "advanced_title": "Pokročilá nastavení úložiště S3",
-                    "endpoint": "",
-                    "use_path_style_endpoint": "",
+                    "endpoint": "Endpoint",
+                    "use_path_style_endpoint": "Použít path style endpoint",
                     "acl": "Seznam řízení přístupu (ACL)"
                 },
                 "disable-download-logging": {
@@ -44,7 +44,7 @@
                     "tos": "Je vaší odpovědností zajistit, aby uživatelé vašeho fóra dodržovali <a>smluvní podmínky</a> společnosti Imgur"
                 },
                 "local": {
-                    "cdn_url": "",
+                    "cdn_url": "Adresa URL CDN (předpony souborů)",
                     "title": "Nastavení místního úložiště"
                 },
                 "qiniu": {
@@ -57,7 +57,7 @@
                     "max_file_size": "Maximální velikost souboru (v kilobajtech)",
                     "mime_types": "Konfigurace typu mime, mapování adaptéru pro nahrávání",
                     "title": "Obecné předvolby",
-                    "php_ini_values": ""
+                    "php_ini_values": "Vaše hodnoty <code>php.ini</code> jsou <code>post_max_size={post}</code> a <code>upload_max_filesize={upload}</code>. Ujistěte se, že zde nastavené hodnoty jsou pod těmito prahovými hodnotami, nebo je odpovídajícím způsobem upravte. Pokud používáte <code>Nginx</code>, ujistěte se, že <code>client_max_body_size</code> má dostatečnou velikost pro vámi zvolený maximální limit."
                 },
                 "resize": {
                     "max_width": "Maximální šířka/výška obrázku",
@@ -91,45 +91,45 @@
             },
             "templates": {
                 "file": "Výchozí šablona pro stažení souboru",
-                "file_description": "",
+                "file_description": "Zobrazí název souboru a některé obecné informace. Zprostředkovává stahování prostřednictvím php, což umožňuje shromažďování statistik a ochranu hotlink.\n",
                 "image": "Výchozí šablona pro stažení obrázku",
-                "image_description": "",
+                "image_description": "Zobrazí miniaturu obrázku a zprostředkuje jeho stažení pomocí php. Umožňuje shromažďovat statistiky a ochranu hotlink.\n",
                 "image-preview": "Šablona kompletního náhledu obrázku",
                 "image-preview_description": "Zobrazuje kompletní obrázek in-line. Nemá funkci stahování, neshromažďují se žádné statistiky a ochrana hotlink je ignorována.\n",
                 "markdown-image": "Šablona obrázku Markdown",
-                "markdown-image_description": "",
-                "bbcode-image": "",
-                "bbcode-image_description": "",
+                "markdown-image_description": "Zobrazí celý obrázek in-line pomocí Markdown. <strong>Aby to fungovalo, musíte mít nainstalovaný a povolený flarum/markdown.</strong> Nefunguje funkce stahování, neshromažďují se žádné statistiky a ignoruje se ochrana hotlink.\n",
+                "bbcode-image": "Šablona obrázku BBCode",
+                "bbcode-image_description": "Zobrazí celý obrázek in-line pomocí BBCode. <strong>Aby to fungovalo, musíte mít nainstalovaný a povolený flarum/bbcode.</strong> Nefunguje funkce stahování, neshromažďují se žádné statistiky a ignoruje se ochrana hotlink.\n",
                 "just-url": "Jen adresa URL",
-                "just-url_description": "",
-                "text-preview": "",
+                "just-url_description": "Vloží pouze adresu URL. Vykreslování může být řešeno jinými rozšířeními s možností automatického odkazování. Nefunguje funkce stahování, neshromažďují se žádné statistiky a ignoruje se ochrana hotlink.\n",
+                "text-preview": "Náhled textu",
                 "text-preview_description": "Vloží náhled (prvních 5 řádků) textového souboru s možností rozbalení a zobrazení celého obsahu souboru.\n"
             },
             "upload_methods": {
-                "aws-s3": "",
+                "aws-s3": "S3/Kompatibilní",
                 "imgur": "Imgur",
-                "local": "",
+                "local": "Místní",
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "QiNiu"
             },
             "inspect-mime": {
-                "title": "",
-                "description": "",
-                "select": "",
+                "title": "Kontrola MIME",
+                "description": "FoF Upload používá knihovnu <a>PHP Mime Detector</a> pro běžné typy MIME a PHP Fileinfo jako záložní řešení.\nHodnota MIME vrácená Fileinfo se může na různých serverech lišit!\n",
+                "select": "Vyberte soubor níže a zkontrolujte hodnoty, které budou použity. Soubor nebude uložen.",
                 "laravel-validation": "Validace souborů Laravel",
                 "no-file-selected": "Žádný soubor",
                 "validation-passed": "",
-                "validation-failed": "",
-                "mime-detector": "",
+                "validation-failed": "Selhání: {error}",
+                "mime-detector": "Detektor MIME (primární)",
                 "mime-fileinfo": "PHP Fileinfo (záložní)",
-                "guessed-extension": "",
+                "guessed-extension": "Výchozí přípona souboru (pokud originál není na seznamu povolených)",
                 "not-available": "Žádný výsledek"
             }
         },
         "forum": {
             "media_manager": "Správce médií",
             "buttons": {
-                "attach": "",
+                "attach": "Připojit",
                 "upload": "Nahrát",
                 "user_uploads": "",
                 "cancel": "Zrušit",
@@ -142,13 +142,13 @@
                 "modal_empty_desktop": "Seznam souborů je prázdný. Klikněte na tlačítko nebo sem přetáhněte soubor, který chcete nahrát.",
                 "modal_empty_phone": "Seznam souborů je prázdný. Pro nahrání souboru stiskněte výše uvedené tlačítko.",
                 "select_file_a11y_label": "Vyberte soubor \"{fileName}\"",
-                "confirm_selection_btn": "",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Nic nevybráno} one {Vybraný soubor} few {Vybrané soubory} other {Vybraných souborů}}",
                 "load_more_files_btn": "Načíst další soubory",
                 "hide_file": {
                     "btn_a11y_label": "Skrýt \"{fileName}\" ze správce médií",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "hide_fail": "",
+                    "hide_confirmation": "Opravdu chcete skrýt \"{fileName}\"? Skrytí souboru jej pouze odebere ze správce médií a skrytí neovlivní stávající příspěvky.",
+                    "hide_success": "Soubor je skrytý",
+                    "hide_fail": "Nepodařilo se skrýt soubor \"{fileName}\"",
                     "loading": "Skrytí souboru..."
                 }
             },
