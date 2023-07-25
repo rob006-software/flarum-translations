@@ -100,42 +100,42 @@
                         },
                         "search": {
                             "placeholder": "Пошук користувачів",
-                            "failed": "",
-                            "invited": "",
-                            "more_results": ""
+                            "failed": "Не знайдено відповідних користувачів",
+                            "invited": "Запрошені",
+                            "more_results": "І {more_results} більше..."
                         }
                     }
                 },
-                "placeholder": "",
+                "placeholder": "Напишіть своє повідомлення...",
                 "message": {
                     "actions": {
-                        "hide": "",
-                        "resend": ""
+                        "hide": "Сховати",
+                        "resend": "Повторно надіслати"
                     },
-                    "censored": "",
-                    "deleted": "",
-                    "deleted_forever": "",
+                    "censored": "Увійдіть, щоб побачити це повідомлення!",
+                    "deleted": "видалено",
+                    "deleted_forever": "видалено назавжди",
                     "you": "Ви",
                     "type": {
-                        "url": "",
-                        "event": "",
+                        "url": "URL-адоеса",
+                        "event": "Подія",
                         "code": "<Code />"
                     },
                     "events": {
                         "chat": {
-                            "created": ""
+                            "created": "Користувач {creatorname} створив {chatname} і запросив {usernames}"
                         },
                         "pm": {
-                            "created": ""
+                            "created": "Користувач {creatorname} створив чат з {username}"
                         },
                         "channel": {
-                            "created": ""
+                            "created": "Користувач {creatorname} створив канал {chatname}"
                         },
                         "title": {
-                            "edited": ""
+                            "edited": "Користувач {editorname} змінив назву чату з {old} на {new}"
                         },
                         "icon": {
-                            "edited": ""
+                            "edited": "Користувач {editorname} змінив іконку чату з {old} на {new}"
                         },
                         "color": {
                             "edited": ""
@@ -153,36 +153,36 @@
                 }
             },
             "errors": {
-                "unauthenticated": "",
-                "chatdenied": "",
-                "removed": ""
+                "unauthenticated": "Тільки зареєстровані користувачі можуть користуватися чатом",
+                "chatdenied": "Вашій групі користувачів заборонено писати повідомлення",
+                "removed": "Вас було видалено з чату"
             }
         },
         "admin": {
             "permissions": {
-                "post": "",
-                "edit": "",
-                "delete": "",
-                "enabled": "",
+                "post": "Розміщувати повідомлення в чаті",
+                "edit": "Редагування повідомлень чату",
+                "delete": "Видалення повідомлень у чаті",
+                "enabled": "Увімкнути чат",
                 "create": {
-                    "chat": "",
-                    "channel": ""
+                    "chat": "Розпочати чати",
+                    "channel": "Запустити канали"
                 },
                 "moderate": {
-                    "delete": "",
-                    "vision": ""
+                    "delete": "Видалення повідомлень чату",
+                    "vision": "Переглянути видалені повідомлення"
                 }
             },
             "settings": {
                 "title": "Налаштування чату",
-                "charlimit": "",
+                "charlimit": "Максимальна кількість символів у повідомленні",
                 "floodgate": {
                     "title": "Антифлуд",
-                    "number": "",
-                    "time": ""
+                    "number": "Кількість повідомлень підряд",
+                    "time": "Протягом певного періоду"
                 },
                 "display": {
-                    "title": "",
+                    "title": "Показати",
                     "minimize": "",
                     "censor": ""
                 }
