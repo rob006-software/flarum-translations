@@ -2,7 +2,7 @@
     "flarum-sticky": {
         "admin": {
             "permissions": {
-                "sticky_discussions_label": "Sabit Mövzular"
+                "sticky_discussions_label": "Sabitlənmiş müzakirələr"
             }
         },
         "forum": {
@@ -11,15 +11,15 @@
             },
             "discussion_controls": {
                 "sticky_button": "=> flarum-sticky.ref.sticky",
-                "unsticky_button": "Sabitlənməmiş"
+                "unsticky_button": "Sabitləmə"
             },
             "post_stream": {
-                "discussion_stickied_text": "{username} mövzunu sabitlədi.",
-                "discussion_unstickied_text": "{username} sabitlənmiş mövzulardan çıxardı."
+                "discussion_stickied_text": "{username} müzakirəni sabitlədi {time}.",
+                "discussion_unstickied_text": "{username} sabitlənmiş müzakirələrdən çıxardı {time}."
             }
         },
         "ref": {
-            "sticky": "Sabit"
+            "sticky": "Sabitlə"
         }
     }
 }
