@@ -3,23 +3,23 @@
         "admin": {
             "settings": {
                 "dsn_label": "Sentry DSN",
-                "dsn_help": "",
-                "dsn_backend_label": "",
-                "dsn_backend_help": "",
+                "dsn_help": "Birincil DSN olarak Relay DSN'i kullanıyorsanız, çalışmayacağı için \"Kullanıcı Geri Bildirimi\"ni işaretlemeyin.",
+                "dsn_backend_label": "Sentry DSN (Sadece arka uç)",
+                "dsn_backend_help": "Bu DSN yalnızca arka uç hataları için kullanılacaktır. Arka uç hataları için farklı bir proje kullanmak istiyorsanız veya arka uç hatalarını Sentry'ye göndermek için (örn. performansı artırmak için) bir Relay kullanmak istiyorsanız bu kullanışlıdır.",
                 "environment_label": "Sentry Çevresi",
                 "user_feedback_label": "Kullanıcı Geri bildirimi",
                 "send_user_emails_label": "Sentry raporlarıyla kullanıcı e-posta adresleri gönderilsin mi?",
                 "monitor_performance_label": "Arka Yüz Performans İzleme Derecesi (0 - 100)",
-                "profile_rate_label": "",
-                "profile_rate_help": "",
+                "profile_rate_label": "Arka Uç Profil Oluşturma Oranı (0 - 100)",
+                "profile_rate_help": "Bu, performans izleme oranına bağlıdır. Bunun çalışması için performans izleme etkinleştirilmelidir.\n\n{br}✱ Bu özelliğin etkinleştirilmesi, profil oluşturma ek yükü ve Sentry'ye gönderilen istekler nedeniyle yanıt süresini etkiler. Bunu nasıl telafi edeceğinizi öğrenin @ <a>https://docs.sentry.io/platforms/php/profiling/#improve-response-time</a>.\n{br}{icon} <bold>Bu özellik, Vikipedi'nin yalnızca Linux için kullanılabilen örnekleme profili oluşturucusu Excimer'ı gerektirir.</bold>\n",
                 "javascript_label": "JavaScript Hatalarını Bildirin",
                 "javascript_console_label": "JavaScript Konsolunu Takip Et",
                 "javascript_trace_sample_rate": "Ön Yüz Performans İzleme Derecesi (0 - 100)",
-                "javascript_trace_sample_rate_help": "",
-                "javascript_replays_session_sample_rate": "",
-                "javascript_replays_session_sample_rate_help": "",
-                "javascript_replays_error_sample_rate": "",
-                "javascript_replays_error_sample_rate_help": ""
+                "javascript_trace_sample_rate_help": "Tüm işlemler için örnekleme oranı. {br}✱ Bu özelliğin etkinleştirilmesi paket boyutunu ~30 KB artırır.",
+                "javascript_replays_session_sample_rate": "Ön Uç Oturum Tekrar Oynatma Oranı (0 - 100)",
+                "javascript_replays_session_sample_rate_help": "Kayda hemen başlayan ve kullanıcı oturumunun tamamı boyunca devam eden tekrar oynatmalar için örnekleme hızı. {br}✱ Herhangi bir yeniden oynatma seçeneğinin etkinleştirilmesi, paket boyutunu ~150 KB artırır.",
+                "javascript_replays_error_sample_rate": "Ön Uç Hata Tekrar Oynatma Oranı (0 - 100)",
+                "javascript_replays_error_sample_rate_help": "Bir hata oluştuğunda kaydedilen tekrarlar için örnek oranı. Hatadan 1 dakika öncesine kadar kaydedilir ve oturum bitene kadar devam eder. {br}✱ Herhangi bir yeniden oynatma seçeneğinin etkinleştirilmesi, paket boyutunu ~150 KB artırır."
             }
         }
     }
