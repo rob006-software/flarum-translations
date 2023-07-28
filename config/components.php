@@ -619,6 +619,9 @@ return [
 	'fof-prevent-necrobumping' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/prevent-necrobumping/1.1.1/resources/locale/en.yml',
 	],
+	'fof-profile-image-crop' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/profile-image-crop/1.1.2/resources/locale/en.yml',
+	],
 	'fof-pwned-passwords' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwned-passwords/1.0.2/locale/en.yml',
 	],
