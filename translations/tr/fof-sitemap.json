@@ -29,18 +29,18 @@
                     "daily": "Günlük"
                 },
                 "soft_404": {
-                    "heading": "",
-                    "help": "",
+                    "heading": "Yumuşak 404 önleme",
+                    "help": "Bir tartışma sayfasında alakalı içerik yoksa veya çok az varsa, Google ve diğer tarayıcılar bunları \"soft 404\" sayfaları olarak işaretleyebilir. Bunu ortadan kaldırmak için, burada her nitelikli öğe için gereken minimum öğe sayısını belirleyin.",
                     "user": {
                         "comments": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "Kullanıcı: Minimum yorum/gönderi sayısı",
+                            "minimum_item_threshold_help": "Bir kullanıcının profilinin site haritasına dahil edilmesi için sahip olması gereken minimum yorum/gönderi sayısı."
                         }
                     },
                     "tags": {
                         "discussion": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "Etiket: Minimum tartışma sayısı",
+                            "minimum_item_threshold_help": "Bir etiketin site haritasına dahil edilmesi için sahip olması gereken minimum tartışma sayısı."
                         }
                     }
                 },
