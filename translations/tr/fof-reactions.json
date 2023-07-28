@@ -10,7 +10,7 @@
             "reacting-own-post": "Kendi gönderine ifade bırakamazsın",
             "modal": {
                 "title": "İfadeler",
-                "anonymous_count": ""
+                "anonymous_count": "{count, plural, one {# bilinmeyen kullanıcı} other {# bilinmeyen kullanıcılar}}"
             },
             "mod_item": "İfadeleri Göster",
             "react_button_label": "Tepki"
@@ -56,8 +56,8 @@
                             "Helptext": "Otomatik olarak beğeniye dönüştürülmesini istediğiniz ifadeyi girin"
                         }
                     },
-                    "allow-anonymous": "",
-                    "allow-anonymous-help": ""
+                    "allow-anonymous": "Anonim (misafir) tepkilere izin ver",
+                    "allow-anonymous-help": "Etkinleştirilirse konuklar ve anonim kullanıcılar gönderilere yanıt verebilir. Anonim tepkilerin bir kullanıcı profiline bağlı olmayacağını ve tepkiler listesinde toplanacağını unutmayın."
                 }
             }
         }
