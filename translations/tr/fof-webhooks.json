@@ -22,7 +22,7 @@
                 "hidden": "Gönderi gizlendi `{1}`",
                 "restored": "Gönderi geri yüklendi `{1}`",
                 "deleted": "Gönderi silindi `{1}`",
-                "approved": ""
+                "approved": "`{1}` için onaylanan gönderi"
             },
             "user": {
                 "registered": "Kayıtlı yeni kullanıcı",
@@ -43,7 +43,7 @@
                 "service_not_found": "\"{service}\" hizmeti bulunamadı.",
                 "url_invalid": "Bağlantı, seçilen servis için geçerli değil.",
                 "tag_invalid": "Bu web kancası geçersiz bir etiketle sınırlandırılmıştır. Kısıtlama uygulanmayacaktır. Bunun amaçlandığından emin olun.",
-                "tag_disabled": ""
+                "tag_disabled": "Bu web kancasında yapılandırılmış bir etiket kısıtlaması vardı. Etiketler uzantısı devre dışı bırakıldı. Kısıtlama uygulanmayacaktır. Bunun amaçlandığından emin olun."
             },
             "nav": {
                 "desc": "Forumunuz için özelleştirilebilir web kancaları."
@@ -52,12 +52,12 @@
                 "debug_label": "Hata Gider",
                 "debug_help": "Web kancaları ve/veya düzgün çalışmayan olaylarla ilgili sorunları ayıklamak için Flarum günlük dosyasına fazladan günlükler ekleyin.",
                 "item": {
-                    "tag_any_label": "Hiç"
+                    "tag_any_label": "Herhangi Bir Etiket"
                 },
                 "help": {
                     "disabled": "Bu web kancası, etkin bir etkinliğe sahip olmadığı için etkisizleştirildi.",
                     "general": "Burada forumunuza webhooklar ekleyebilir, düzenleyebilir ve kaldırabilirsiniz.",
-                    "tags": "",
+                    "tags": "Web kancalarını belirli etiketlerle sınırlayabilirsiniz. Herhangi bir etiket seçerseniz, webhook yalnızca etkinlik seçilen etiketlerden herhangi birine sahip bir kaynakta tetiklenirse tetiklenir.",
                     "url": "Webhook'un yürütülecek uç noktası"
                 },
                 "modal": {
@@ -108,8 +108,8 @@
                             "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "approval": {
-                            "title": "",
-                            "postwasapproved": ""
+                            "title": "Flarum Onayı",
+                            "postwasapproved": "Gönderi Onaylandı"
                         }
                     }
                 }
