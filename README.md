@@ -823,6 +823,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-polls`](https://weblate.rob006.net/projects/flarum/fof-polls) | [`fof/polls`](https://github.com/FriendsOfFlarum/polls) |
 | [`fof-pretty-mail`](https://weblate.rob006.net/projects/flarum/fof-pretty-mail) | [`fof/pretty-mail`](https://github.com/FriendsOfFlarum/pretty-mail) |
 | [`fof-prevent-necrobumping`](https://weblate.rob006.net/projects/flarum/fof-prevent-necrobumping) | [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping) |
+| [`fof-profile-image-crop`](https://weblate.rob006.net/projects/flarum/fof-profile-image-crop) | [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop) |
 | [`fof-pwned-passwords`](https://weblate.rob006.net/projects/flarum/fof-pwned-passwords) | [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords) |
 | [`fof-reactions`](https://weblate.rob006.net/projects/flarum/fof-reactions) | [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) |
 | [`fof-recaptcha`](https://weblate.rob006.net/projects/flarum/fof-recaptcha) | [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha) |
