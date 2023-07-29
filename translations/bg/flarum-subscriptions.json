@@ -2,50 +2,50 @@
     "flarum-subscriptions": {
         "forum": {
             "badge": {
-                "following_tooltip": "",
-                "ignoring_tooltip": ""
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
             },
             "discussion_controls": {
-                "follow_button": "",
-                "unfollow_button": "",
-                "unignore_button": ""
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Отмени следването",
+                "unignore_button": "Отмени игнорирането"
             },
             "following": {
-                "meta_title_text": ""
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
             },
             "index": {
-                "following_link": ""
+                "following_link": "=> flarum-subscriptions.ref.following"
             },
             "notifications": {
-                "new_post_text": ""
+                "new_post_text": "{username} публикува"
             },
             "settings": {
-                "follow_after_reply_label": "",
-                "notify_for_all_posts_label": "",
-                "notify_new_post_label": ""
+                "follow_after_reply_label": "Автоматично следване на дискусии, на които отговарям",
+                "notify_for_all_posts_label": "Уведомявайте за всяка нова публикация, вместо само за последната в дискусия",
+                "notify_new_post_label": "Някой публикува в дискусия, която следя"
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": ""
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Бъдете уведомени за всички отговори.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "Никога не получавайте известия. Скриване от списъка за дискусии.",
+                "not_following_button": "Не следвам",
+                "not_following_text": "Получавайте известия само при @споменаване.",
+                "notify_alert_tooltip": "Получавайте известие във форума, когато има нови публикации",
+                "notify_email_tooltip": "Получаване на имейл, когато има нови публикации"
             }
         },
         "email": {
             "new_post": {
-                "subject": "",
-                "body": ""
+                "subject": "[Нова публикация] {title}",
+                "body": "Здравей, {recipient_display_name}!\n\n{poster_display_name} направи публикация в дискусия, която следвате: {title}.\n\nЗа да видите новата дейност, вижте следната връзка:\n{url}\n\n---\n\n{content}\n\n---\n\nНяма да получавате повече известия за тази дискусия, докато не сте в течение.\n"
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "ignoring": ""
+            "follow": "Следвай",
+            "following": "Следване",
+            "ignoring": "Игнориране"
         }
     }
 }
