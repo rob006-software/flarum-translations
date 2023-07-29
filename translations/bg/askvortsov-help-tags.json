@@ -2,16 +2,16 @@
     "askvortsov-help-tags": {
         "admin": {
             "permissions": {
-                "view_tag_label": ""
+                "view_tag_label": "Преглед на етикета"
             }
         },
         "forum": {
             "discussion_controls": {
-                "show_to_all_button": "",
-                "unshow_to_all_button": ""
+                "show_to_all_button": "Показване на всички, които могат да публикуват тук.",
+                "unshow_to_all_button": "Показване само на тези, които имат viewForum"
             },
             "badge": {
-                "show_to_all_tooltip": ""
+                "show_to_all_tooltip": "Тази дискусия е видима за всички потребители, които могат да публикуват в нейните етикети."
             }
         }
     }
