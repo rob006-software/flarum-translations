@@ -2,25 +2,25 @@
     "askvortsov-article-series": {
         "admin": {
             "edit_tags": {
-                "is_article_series": ""
+                "is_article_series": "Това е серия от статии?"
             }
         },
         "forum": {
             "article_item": {
-                "next_article": "",
-                "prev_article": ""
+                "next_article": "Следваща статия",
+                "prev_article": "Предишна статия"
             },
             "article_list": {
-                "title": ""
+                "title": "{series} Серия от статии"
             },
             "article_series_modal": {
-                "title": "",
-                "tag_id_label": "",
-                "order_label": "",
-                "submit_button": ""
+                "title": "Настройки на серията от статии",
+                "tag_id_label": "Етикет на серията от статии",
+                "order_label": "Индекс за наредба (подредени възходящо)",
+                "submit_button": "Изпрати"
             },
             "discussion_controls": {
-                "article_series_button": ""
+                "article_series_button": "Настройки на серията от статии"
             }
         }
     }
