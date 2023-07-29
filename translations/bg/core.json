@@ -567,187 +567,187 @@
             "error": {
                 "circular_dependencies_message": "Засечени са циклични зависимости: {extensions}. Прекратяване. Моля, деактивирайте едно от разширенията и опитайте отново.",
                 "dependent_extensions_message": "Не може да се деактивира {extension} докато следните зависими разширения са деактивирани: {extensions}",
-                "extension_initialiation_failed_message": "",
-                "generic_message": "",
-                "generic_cross_origin_message": "",
-                "missing_dependencies_message": "",
-                "not_found_message": "",
-                "payload_too_large_message": "",
-                "permission_denied_message": "",
-                "rate_limit_exceeded_message": "",
-                "render_failed_message": ""
+                "extension_initialiation_failed_message": "{extension} не успя да се инициализира, проверете конзолата на браузъра за допълнителна информация.",
+                "generic_message": "Опа! Нещо се обърка. Моля, презаредете страницата и опитайте отново.",
+                "generic_cross_origin_message": "Опа! Нещо се обърка по време на заявка между различни произходи. Моля, презаредете страницата и опитайте отново.",
+                "missing_dependencies_message": "{extension} не може да бъде активирано, докато следните зависимости са активирани: {extensions}",
+                "not_found_message": "Исканият ресурс не е намерен.",
+                "payload_too_large_message": "Обемът на заявката е твърде голям.",
+                "permission_denied_message": "Нямате права да направите това.",
+                "rate_limit_exceeded_message": "Вие се движите твърде бързо. Моля, опитайте отново след няколко секунди.",
+                "render_failed_message": "Съжаляваме, но срещнахме грешка при показването на това съдържание. Ако сте потребител, моля, опитайте отново по-късно. Ако сте администратор, проверете вашите Flarum лог файлове за повече информация."
             },
             "loading_indicator": {
-                "accessible_label": ""
+                "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Страница # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Страница # - {forumName}}}"
             },
             "modal": {
-                "close": ""
+                "close": "Затвори"
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "Отвори плъзгача за навигация"
             },
             "number_suffix": {
-                "kilo_text": "",
-                "mega_text": ""
+                "kilo_text": "К",
+                "mega_text": "М"
             },
             "series": {
-                "glue_text": "",
-                "three_text": "",
-                "two_text": ""
+                "glue_text": ", ",
+                "three_text": "{first}, {second}, и {third}",
+                "two_text": "{first} и {second}"
             },
             "username": {
-                "deleted_text": ""
+                "deleted_text": "[изтрито]"
             }
         },
         "views": {
             "admin": {
                 "extensions": {
-                    "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "caption": "=> core.ref.extensions",
+                    "disable": "Изключи",
+                    "empty": "Няма инсталирани разширения",
+                    "enable": "Активиране",
+                    "name": "Име на разширението",
+                    "package_name": "Име на пакета",
+                    "version": "Версия"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "Информация за приложението"
                 },
-                "title": ""
+                "title": "Администрация"
             },
             "confirm_email": {
-                "submit_button": "",
-                "text": "",
-                "title": ""
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "Кликнете на бутона по-долу, за да потвърдите имейла на вашия профил.",
+                "title": "=> core.ref.confirm_email"
             },
             "content": {
-                "javascript_disabled_message": "",
-                "load_error_message": "",
-                "loading_text": ""
+                "javascript_disabled_message": "Този сайт се вижда най-добре в модерен браузър с активиран JavaScript.",
+                "load_error_message": "Нещо се обърка при опита да зареди пълната версия на този сайт. Опитайте да презаредите страницата, за да оправите грешката.",
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
-                "next_page_button": "",
-                "previous_page_button": ""
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
-                "csrf_token_mismatch": "",
-                "csrf_token_mismatch_return_link": "",
-                "invalid_confirmation_token": "",
-                "not_authenticated": "",
-                "not_found": "",
-                "not_found_return_link": "",
-                "permission_denied": "",
-                "unknown": ""
+                "csrf_token_mismatch": "Изглежда бяхте неактивни твърде дълго време.",
+                "csrf_token_mismatch_return_link": "Моля, върнете се назад, за да опитате отново",
+                "invalid_confirmation_token": "Този линк за потвърждение вече е използван или е невалиден.",
+                "not_authenticated": "Нямате права да достъпите тази страница. Опитайте отново след като влезете в профила си.",
+                "not_found": "Страницата, която търсите, не може да бъде намерена.",
+                "not_found_return_link": "Върнете се към {forum}",
+                "permission_denied": "Нямате право да достъпите тази страница.",
+                "unknown": "Възникна грешка при опита за зареждане на тази страница."
             },
             "index": {
-                "all_discussions_heading": "",
-                "next_page_button": "",
-                "previous_page_button": ""
+                "all_discussions_heading": "=> core.ref.all_discussions",
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "log_out": {
-                "log_out_button": "",
-                "log_out_confirmation": "",
-                "title": ""
+                "log_out_button": "=> core.ref.log_out",
+                "log_out_confirmation": "Сигурни ли сте, че искате да излезете от {forum}?",
+                "title": "=> core.ref.log_out"
             },
             "reset_password": {
-                "confirm_password_label": "",
-                "new_password_label": "",
-                "submit_button": "",
-                "title": ""
+                "confirm_password_label": "Потвърдете новата парола",
+                "new_password_label": "Нова парола",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.reset_your_password"
             }
         },
         "api": {
-            "invalid_username_message": "",
+            "invalid_username_message": "Потребителското име може да съдържа само букви, цифри и тирета.",
             "invalid_filter_type": {
-                "must_be_numeric_message": "",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_be_numeric_message": "Филтърът {filter} трябва да бъде само числа.",
+                "must_not_be_array_message": "Филтърът {filter} не трябва да бъде масив.",
+                "must_not_be_multidimensional_array_message": "Филтърът {filter} не трябва да бъде многомерен масив."
             }
         },
         "email": {
             "activate_account": {
-                "subject": "",
-                "body": ""
+                "subject": "Активирайте новия си акаунт",
+                "body": "Здравейте {username}!\n\nНякой (надявам се, че сте вие!) се е регистрирал в {forum} с този имейл адрес.\n\nАко това сте вие, просто кликнете на следния линк и вашият акаунт ще бъде активиран:\n{url}\n\nАко не сте се регистрирали, моля, игнорирайте този имейл.\n"
             },
             "confirm_email": {
-                "subject": "",
-                "body": ""
+                "subject": "Потвърдете своя нов имейл адрес",
+                "body": "Здравей {username}!\n\nНякой (надявам се, че това си ти!) е променил своя имейл адрес в {forum} на този.\n\nАко това сте вие, просто кликнете на следния линк и вашият имейл адрес ще бъде потвърден:\n{url}\n\nАко това не сте вие, моля, игнорирайте този имейл.\n"
             },
             "reset_password": {
-                "subject": "",
-                "body": ""
+                "subject": "=> core.ref.reset_your_password",
+                "body": "Здравей {username}!\n\nНякой (надявам се, че това си ти!) е изпратил заявка за забравена парола за вашия акаунт в {forum}.\n\nАко това сте вие, кликнете на следния линк, за да възстановите вашата парола:\n{url}\n\nАко не желаете да променяте вашата парола, просто игнорирайте този имейл и нищо няма да се случи.\n"
             },
             "send_test": {
-                "subject": "",
-                "body": ""
+                "subject": "Flarum имейл тест",
+                "body": "Здравейте {username}!\n\nТова е тестово писмо, за да потвърдим, че конфигурацията на вашия Flarum имейл работи правилно.\n\nАко това сте вие, това писмо означава, че вашата конфигурация работи!\n\nАко това не сте вие, моля, игнорирайте това писмо.\n"
             }
         },
         "ref": {
-            "all_discussions": "",
-            "change_email": "",
-            "change_password": "",
-            "color": "",
-            "confirm_password": "",
-            "confirm_email": "",
-            "confirmation_email_sent": "",
-            "custom_footer_text": "",
-            "custom_footer_title": "",
-            "custom_header_text": "",
-            "custom_header_title": "",
-            "delete": "",
-            "delete_forever": "",
-            "discussions": "",
-            "edit": "",
-            "edit_user": "",
-            "email": "",
-            "extensions": "",
-            "generic_confirmation_message": "",
-            "icon": "",
-            "icon_text": "",
-            "load_more": "",
-            "loading": "",
-            "log_in": "",
-            "log_out": "",
-            "mark_all_as_read": "",
-            "never": "",
-            "new_token": "",
-            "next_page": "",
-            "notifications": "",
-            "okay": "",
-            "password": "",
-            "posts": "",
-            "previous_page": "",
-            "remove": "",
-            "rename": "",
-            "reply": "",
-            "reset_your_password": "",
-            "restore": "",
-            "save_changes": "",
-            "search_users": "",
-            "security": "",
-            "settings": "",
-            "sign_up": "",
-            "some_others": "",
-            "start_a_discussion": "",
-            "username": "",
-            "users": "",
-            "view": "",
-            "write_a_reply": "",
-            "you": ""
+            "all_discussions": "Всички дискусии",
+            "change_email": "Промяна на имейл",
+            "change_password": "Промяна на парола",
+            "color": "Цвят",
+            "confirm_password": "Потвърдете паролата",
+            "confirm_email": "Потвърдете имейла",
+            "confirmation_email_sent": "Изпратихме потвърждаващ имейл до {email}. Ако не го получите скоро, проверете папката с нежелани съобщения (спам).",
+            "custom_footer_text": "Добавете HTML, който да се показва в самото дъно на страницата.",
+            "custom_footer_title": "Редактирайте персонализираният футър",
+            "custom_header_text": "Добавете HTML код, който да се показва в горната част на страницата, над собствения хедър на Flarum.",
+            "custom_header_title": "Редактиране на персонализирания хедър",
+            "delete": "Изтриване",
+            "delete_forever": "Изтриване завинаги",
+            "discussions": "Дискусии",
+            "edit": "Редактиране",
+            "edit_user": "Редактиране на потребител",
+            "email": "Имейл",
+            "extensions": "Разширения",
+            "generic_confirmation_message": "Сигурни ли сте, че искате да продължите? Това действие не може да бъде отменено.",
+            "icon": "Иконка",
+            "icon_text": "Въведете името на който и да е <a>FontAwesome</a>, <em>включително</em> префикса <code>fas fa-</code>.",
+            "load_more": "Зареждане на още",
+            "loading": "Зареждане...",
+            "log_in": "Вход",
+            "log_out": "Изход",
+            "mark_all_as_read": "Макрирай всички като прочетени",
+            "never": "Никога",
+            "new_token": "Нов токен",
+            "next_page": "Следваща страница",
+            "notifications": "Известия",
+            "okay": "ОК",
+            "password": "Парола",
+            "posts": "Публикации",
+            "previous_page": "Предишна страница",
+            "remove": "Премахни",
+            "rename": "Преименуване",
+            "reply": "Отговор",
+            "reset_your_password": "Нулирай своята парола",
+            "restore": "Възстанови",
+            "save_changes": "Запази промените",
+            "search_users": "Търси потребители",
+            "security": "Сигурност",
+            "settings": "Настройки",
+            "sign_up": "Регистрация",
+            "some_others": "{count, plural, one {# друг} other {# други}}",
+            "start_a_discussion": "Започни дискусия",
+            "username": "Потребителско име",
+            "users": "Потребители",
+            "view": "Преглед",
+            "write_a_reply": "Напиши отговор...",
+            "you": "Вие"
         },
         "group": {
-            "admin": "",
-            "admins": "",
-            "guest": "",
-            "guests": "",
-            "member": "",
-            "members": "",
-            "mod": "",
-            "mods": ""
+            "admin": "Администратор",
+            "admins": "Администратори",
+            "guest": "Гост",
+            "guests": "Гости",
+            "member": "Член",
+            "members": "Членове",
+            "mod": "Модератор",
+            "mods": "Модератори"
         }
     }
 }
