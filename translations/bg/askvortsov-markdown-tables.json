@@ -3,19 +3,19 @@
         "lib": {
             "composer": {
                 "table_menu": {
-                    "num_cols": "",
-                    "num_rows": "",
-                    "label_cells": "",
-                    "column": "",
-                    "remove_column": "",
-                    "insert_column_before": "",
-                    "insert_column_after": "",
-                    "row": "",
-                    "remove_row": "",
-                    "insert_row_before": "",
-                    "insert_row_after": ""
+                    "num_cols": "# Колони",
+                    "num_rows": "# Редове (заглавния включително)",
+                    "label_cells": "# Клетка на заглавието?",
+                    "column": "Колона",
+                    "remove_column": "Изтрий колона",
+                    "insert_column_before": "Добави колона преди",
+                    "insert_column_after": "Добави колона след",
+                    "row": "Ред",
+                    "remove_row": "Изтрий ред",
+                    "insert_row_before": "Добави ред преди",
+                    "insert_row_after": "Добави ред след"
                 },
-                "table_tooltip": ""
+                "table_tooltip": "Таблица"
             }
         }
     }
