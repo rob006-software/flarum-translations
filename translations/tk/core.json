@@ -542,19 +542,19 @@
                 "dismiss_a11y_label": ""
             },
             "badge": {
-                "hidden_tooltip": ""
+                "hidden_tooltip": "Gizlenen"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Açylýan menýuny üýtgediň"
             },
             "data_segment": {
-                "label": ""
+                "label": "{label}:"
             },
             "edit_user": {
-                "activate_button": "",
+                "activate_button": "Ulanyjyny işjeňleşdiriň",
                 "email_heading": "=> core.ref.email",
                 "email_label": "=> core.ref.email",
-                "groups_heading": "",
+                "groups_heading": "Toparlar",
                 "password_heading": "=> core.ref.password",
                 "password_label": "=> core.ref.password",
                 "set_password_label": "Täze parol düzüň",
@@ -562,27 +562,27 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": ""
+                "nothing_available": "Bu ulanyjyny redaktirlemäge rugsat berilmeýär."
             },
             "error": {
-                "circular_dependencies_message": "",
-                "dependent_extensions_message": "",
-                "extension_initialiation_failed_message": "",
-                "generic_message": "",
-                "generic_cross_origin_message": "",
-                "missing_dependencies_message": "",
-                "not_found_message": "",
-                "payload_too_large_message": "",
-                "permission_denied_message": "",
-                "rate_limit_exceeded_message": "",
-                "render_failed_message": ""
+                "circular_dependencies_message": "Tegelek baglylyklar ýüze çykaryldy: {extensions}. Abort. Giňeldişleriň birini öçüriň we gaýtadan synanyşyň.",
+                "dependent_extensions_message": "Aşakdaky garaşly giňeltmeler öçürilýänçä {extension} öçürip bolmaýar: {extensions}",
+                "extension_initialiation_failed_message": "{extension} başlap bilmedi, has giňişleýin maglumat üçin brauzer konsolyny barlaň.",
+                "generic_message": "Ups! Bir zat nädogry boldy. Sahypany täzeden açyň we gaýtadan synanyşyň.",
+                "generic_cross_origin_message": "Ups! Haçdan gelip çykmak haýyşy ugradylanda bir zat ýalňyş gitdi. Sahypany täzeläň we gaýtadan synanyşyň.",
+                "missing_dependencies_message": "Aşakdaky garaşlylyklar işjeň bolýança {extension} işledip bolmaýar: {extensions}",
+                "not_found_message": "Talap edilýän çeşme tapylmady.",
+                "payload_too_large_message": "Islegiňiziň ýüki gaty ulydy.",
+                "permission_denied_message": "Muny etmäge rugsadyňyz ýok.",
+                "rate_limit_exceeded_message": "Biraz çalt gidýärsiňiz. Birnäçe sekuntdan soň gaýtadan synanyşmagyňyzy haýyş edýäris.",
+                "render_failed_message": "Bagyşlaň, bu mazmuny görkezenimizde ýalňyşlyk bilen ýüzbe-ýüz bolduk. Ulanyjy bolsaňyz, soňrak synanyşyň. Dolandyryjy bolsaňyz, has giňişleýin maglumat üçin gündelik faýllaryna göz aýlaň."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Sahypa # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Sahypa # - {forumName}}}"
             },
             "modal": {
                 "close": "Ýapmak"
@@ -625,8 +625,8 @@
                 "title": "=> core.ref.confirm_email"
             },
             "content": {
-                "javascript_disabled_message": "",
-                "load_error_message": "",
+                "javascript_disabled_message": "Bu sahypa, JavaScript açyk, häzirki zaman brauzerinde dogry görünýär.",
+                "load_error_message": "Bu sahypanyň doly wersiýasyny ýüklemekçi bolanda bir zat ýalňyş gitdi. Ýalňyşlygy düzetmek üçin bu sahypany täzeläp görüň.",
                 "loading_text": "=> core.ref.loading"
             },
             "discussion": {
@@ -634,14 +634,14 @@
                 "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
-                "csrf_token_mismatch": "",
-                "csrf_token_mismatch_return_link": "",
-                "invalid_confirmation_token": "",
-                "not_authenticated": "",
-                "not_found": "",
-                "not_found_return_link": "",
-                "permission_denied": "",
-                "unknown": ""
+                "csrf_token_mismatch": "Uzak wagtlap hereketsiz bolduňyz.",
+                "csrf_token_mismatch_return_link": "Gaýtadan synanyşmak üçin yza dolanmak",
+                "invalid_confirmation_token": "Bu tassyklama ssylkasy eýýäm ulanyldy ýa-da nädogry.",
+                "not_authenticated": "Bu sahypa girmäge rugsadyňyz ýok. Gireniňizden soň gaýtadan synanyşyň.",
+                "not_found": "Soraýan sahypaňyz tapylmady.",
+                "not_found_return_link": "{forum} - a dolanmak",
+                "permission_denied": "Bu sahypa girmäge rugsadyňyz ýok.",
+                "unknown": "Bu sahypany ýüklenilende ýalňyşlyk ýüze çykdy."
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -650,32 +650,32 @@
             },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
-                "log_out_confirmation": "",
+                "log_out_confirmation": "{forum} - dan çykmak isleýändigiňize ynanýarsyňyzmy?",
                 "title": "=> core.ref.log_out"
             },
             "reset_password": {
-                "confirm_password_label": "",
-                "new_password_label": "",
+                "confirm_password_label": "Täze paroly tassyklamak",
+                "new_password_label": "Täze parol",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
             }
         },
         "api": {
-            "invalid_username_message": "",
+            "invalid_username_message": "Ulanyjy adynda diňe harplar, sanlar we çyzgylar bolup biler.",
             "invalid_filter_type": {
-                "must_be_numeric_message": "",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_be_numeric_message": "{filter} süzgüç sanly bolmaly.",
+                "must_not_be_array_message": "{filter} süzgüji massiw bolmaly däldir.",
+                "must_not_be_multidimensional_array_message": "{filter} süzgüji köp ölçegli massiw bolmaly däldir."
             }
         },
         "email": {
             "activate_account": {
-                "subject": "",
-                "body": ""
+                "subject": "Täze hasabyňyzy işjeňleşdiriň",
+                "body": "Hormatly ulanyjy {username}!\n\nKimdir biri (siz diýip umyt edýäris!) {forum} -da e-poçta salgysy üsti bilen hasaba girdi .\n\nBu siz bolsaňyz, aşakdaky ssylka basyň we e-poçtaňyz tassyklanar:\n{url}\n\nBu siz däl bolsaňyz, bu e-poçta üns bermäň.\n"
             },
             "confirm_email": {
-                "subject": "",
-                "body": ""
+                "subject": "Täze e-poçta salgyňyzy tassyklaň",
+                "body": "Hormatly ulanyjy {username}!\n\nKimdir biri (siz diýip umyt edýäris!) {forum} -da e-poçta salgysyny şu ada üýtgetdi.\n\nBu siz bolsaňyz, aşakdaky salga basyň we e-poçtaňyz tassyklanar:\n{url}\n\nBu siz däl bolsaňyz, bu e-poçta üns bermäň.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
