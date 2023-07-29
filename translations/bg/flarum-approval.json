@@ -2,24 +2,24 @@
     "flarum-approval": {
         "admin": {
             "permissions": {
-                "approve_posts_label": "",
-                "reply_without_approval_label": "",
-                "start_discussions_without_approval_label": ""
+                "approve_posts_label": "Одобряване на публикации",
+                "reply_without_approval_label": "Отговаряне на дискусии без одобрение",
+                "start_discussions_without_approval_label": "Започване на дискусии без одобрение"
             }
         },
         "forum": {
             "badge": {
-                "awaiting_approval_tooltip": ""
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.изчакващо_одобрение"
             },
             "post": {
-                "awaiting_approval_text": ""
+                "awaiting_approval_text": "=> flarum-approval.ref.изчакващо_одобрение"
             },
             "post_controls": {
-                "approve_button": ""
+                "approve_button": "Одобри"
             }
         },
         "ref": {
-            "awaiting_approval": ""
+            "awaiting_approval": "Очаква одобрение"
         }
     }
 }
