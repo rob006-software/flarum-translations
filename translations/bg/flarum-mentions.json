@@ -2,64 +2,64 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "Споменаване на групи"
             },
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "Разрешаване на формат за споменаване на потребителско име (@Username)",
+                "allow_username_format_text": "Текущият формат за потребителски споменавания е @\"Показвано име\"#ID.\nТази настройка позволява използването на стария формат на @Username, но той все пак ще бъде преобразуван в новия формат при запазване.\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "",
-                "reply_to_post_text": ""
+                "mention_tooltip": "Споменете потребител, група или публикация",
+                "reply_to_post_text": "Отговори на #{number}"
             },
             "mentioned_by": {
-                "title": "",
-                "load_more_button": ""
+                "title": "Отговори на тази публикация",
+                "load_more_button": "=> core.ref.load_more"
             },
             "notifications": {
-                "others_text": "",
-                "post_mentioned_text": "",
-                "user_mentioned_text": "",
-                "group_mentioned_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} отговори на вашата публикация",
+                "user_mentioned_text": "{username} ви спомена",
+                "group_mentioned_text": "{username} спомена група, в която членувате"
             },
             "post": {
-                "mentioned_by_more_text": "",
-                "mentioned_by_self_text": "",
-                "mentioned_by_text": "",
-                "others_text": "",
-                "quote_button": "",
-                "reply_link": "",
-                "you_text": ""
+                "mentioned_by_more_text": "Още {count} отговора.",
+                "mentioned_by_self_text": "{users} отговориха на това.",
+                "mentioned_by_text": "{users} отговориха на това.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Цитат",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
             },
             "settings": {
-                "notify_post_mentioned_label": "",
-                "notify_user_mentioned_label": "",
-                "notify_group_mentioned_label": ""
+                "notify_post_mentioned_label": "Някой отговаря на един от постовете ми",
+                "notify_user_mentioned_label": "Някой ме споменава в публикация",
+                "notify_group_mentioned_label": "Някой споменава в публикация група, в която членувам"
             },
             "user": {
-                "mentions_link": ""
+                "mentions_link": "Споменавания"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[неизвестен]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[неизвестна група]"
             }
         },
         "email": {
             "post_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name} отговори на публикацията ви в {title}",
+                "body": "Здравей, {recipient_display_name}!\n\n{replier_display_name} отговори на вашата публикация (#{post_number}) в {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} ви спомена в {title}",
+                "body": "Здравей, {recipient_display_name}!\n\n{mentioner_display_name} ви спомена в публикация в {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} спомена група, в която членувате в {title}",
+                "body": "Здравей, {recipient_display_name}!\n\n{mentioner_display_name} спомена група, в която членувате в {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
