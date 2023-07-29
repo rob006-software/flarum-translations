@@ -2,16 +2,16 @@
     "blomstra-conversations": {
         "admin": {
             "permissions": {
-                "view-conversation-source": "",
-                "view-raw-source": ""
+                "view-conversation-source": "Преглед на източника на разговора",
+                "view-raw-source": "Преглед на оригиналния HTML или изходен код на входящите публикации"
             }
         },
         "forum": {
             "post": {
-                "source-raw-heading": "",
+                "source-raw-heading": "Преглед на HTML",
                 "controls": {
-                    "view": "",
-                    "view-code": ""
+                    "view": "Преглед на версията на HTML",
+                    "view-code": "Преглед на изходния код на HTML"
                 }
             }
         }
