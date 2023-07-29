@@ -109,7 +109,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/bulgarian">Bulgarian</a></td>
-		<td> - </td>
+		<td><a href="https://github.com/nsokoloff">nsokoloff</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/bg.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/bg/svg-badge.svg" alt="detailed translation status" />
