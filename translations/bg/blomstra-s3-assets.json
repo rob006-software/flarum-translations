@@ -2,13 +2,13 @@
     "blomstra-s3-assets": {
         "admin": {
             "settings": {
-                "configured_by_environment": "",
-                "aws-section": "",
-                "s3-compatible-section": "",
-                "s3-compatible-section-help": "",
+                "configured_by_environment": "Настройките на вашия контейнер (bucket) са предварително конфигурирани, няма какво да се видите тук.",
+                "aws-section": "Тези настройки са задължителни както за AWS S3, така и за S3-съвместими контейнери (buckets)",
+                "s3-compatible-section": "Тези настройки са необходими само за S3-съвместими контейнери",
+                "s3-compatible-section-help": "Оставете тези настройки празни, ако използвате AWS S3",
                 "s3key": {
-                    "label": "",
-                    "help": ""
+                    "label": "Ключ",
+                    "help": "помощ"
                 }
             }
         }
