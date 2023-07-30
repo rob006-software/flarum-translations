@@ -59,11 +59,11 @@
             },
             "warning_modal": {
                 "confirmation_message": "Вашето предупреждение е запазено. Може да е необходимо да опресните страницата, за да го видите.",
-                "heading": "",
-                "strikes_heading": "",
-                "public_comment_heading": "",
-                "private_comment_heading": "",
-                "submit_button": ""
+                "heading": "Предупреди <strong>{username}</strong>",
+                "strikes_heading": "Колко предупреждения трябва да се приложат?",
+                "public_comment_heading": "Защо <strong>{username}</strong> получава тези предупреждения? Тези коментари ще бъдат видими за потребителя и другите модератори.",
+                "private_comment_heading": "Защо <strong>{username}</strong> получава тези предупреждения? Тези коментари ще бъдат видими САМО за други модератори.",
+                "submit_button": "Запазете предупреждение"
             }
         }
     }
