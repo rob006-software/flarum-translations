@@ -2,49 +2,49 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "",
-                "view_flags_label": ""
+                "flag_posts_label": "Сигнализиране на публикации",
+                "view_flags_label": "Преглед на сигнализираните публикации"
             },
             "settings": {
-                "flag_own_posts_label": "",
-                "guidelines_url_label": "",
-                "title": ""
+                "flag_own_posts_label": "Разрешете на потребителите да сигнализират своите собствени публикации",
+                "guidelines_url_label": "URL за Правила на Общността",
+                "title": "Настройки за Сигнализации"
             }
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "",
-                "dismiss_button": "",
-                "reason_details_placeholder": "",
-                "reason_inappropriate_label": "",
-                "reason_inappropriate_text": "",
-                "reason_missing_message": "",
-                "reason_off_topic_label": "",
-                "reason_off_topic_text": "",
-                "reason_other_label": "",
-                "reason_spam_label": "",
-                "reason_spam_text": "",
-                "submit_button": "",
-                "title": ""
+                "confirmation_message": "Благодарим ви, че сигнализирахте тази публикация. Нашите модератори ще я разгледат.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Допълнителни детайли (по избор)",
+                "reason_inappropriate_label": "Неподходящо",
+                "reason_inappropriate_text": "Тази публикация е обидна, злоупотребяваща или нарушава нашите <a>правила за общността</a>.",
+                "reason_missing_message": "Моля, предоставете някакви детайли за нашите модератори.",
+                "reason_off_topic_label": "Извън темата",
+                "reason_off_topic_text": "Тази публикация не е свързана с текущата дискусия и трябва да бъде преместена на друго място.",
+                "reason_other_label": "Друго (моля, уточнете)",
+                "reason_spam_label": "Спам",
+                "reason_spam_text": "Тази публикация е реклама.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
-                "empty_text": "",
-                "item_text": "",
-                "title": "",
-                "tooltip": ""
+                "empty_text": "Няма сигнализации",
+                "item_text": "{username} в <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
-                "dismiss_flag_button": "",
-                "flagged_by_text": "",
-                "flagged_by_with_reason_text": ""
+                "dismiss_flag_button": "Отхвърли сигнализацията",
+                "flagged_by_text": "Сигнализирано от {username}",
+                "flagged_by_with_reason_text": "Сигнализирано от {username} като {reason}"
             },
             "post_controls": {
-                "flag_button": ""
+                "flag_button": "Сигнализиране"
             }
         },
         "ref": {
-            "flag_post": "",
-            "flagged_posts": ""
+            "flag_post": "Сигнализиране на публикация",
+            "flagged_posts": "Сигнализирани публикации"
         }
     }
 }
