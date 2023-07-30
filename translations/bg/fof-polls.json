@@ -2,69 +2,69 @@
     "fof-polls": {
         "admin": {
             "settings": {
-                "allow_option_image": "",
-                "max_options": "",
-                "options_color_blend": "",
-                "options_color_blend_help": ""
+                "allow_option_image": "Разрешете на URL изображението да се предоставя за всяка анкетна опция",
+                "max_options": "Максимален брой опции за анкета",
+                "options_color_blend": "Текст за преливане на цветове в опциите за анкета",
+                "options_color_blend_help": "Използвайте това, за да използвате смесване на цветове, за да направите опциите за анкета по-четими. Деактивирайте, ако тази функция създава проблеми с външния вид на вашия форум, намалявайки четливостта."
             },
             "permissions": {
-                "view_results_without_voting": "",
-                "start": "",
-                "self_edit": "",
-                "self_post_edit": "",
-                "vote": "",
-                "change_vote": "",
-                "moderate": ""
+                "view_results_without_voting": "Вижте резултатите без гласуване",
+                "start": "Стартирайте анкета",
+                "self_edit": "Редактиране на създадени анкети (изисква разрешение за редактиране на публикации)",
+                "self_post_edit": "Редактиране на *всички* анкети на собствени публикации (изисква разрешение за редактиране на публикации)",
+                "vote": "Гласувайте в анкети",
+                "change_vote": "Промяна на вота",
+                "moderate": "Редактиране и премахване на анкети"
             }
         },
         "forum": {
-            "days_remaining": "",
-            "no_permission": "",
-            "poll_ended": "",
-            "public_poll": "",
-            "max_votes_allowed": "",
+            "days_remaining": "Анкетата приключва {time}.",
+            "no_permission": "Нямате разрешение да гласувате",
+            "poll_ended": "Тази анкета приключи.",
+            "public_poll": "Вижте гласувалите",
+            "max_votes_allowed": "Анкетата позволява гласуване за {max, plural, one {# опция} other {# опции}}.",
             "poll": {
-                "cannot_change_vote": "",
-                "submit_button": ""
+                "cannot_change_vote": "Не можете да промените гласа си след гласуване.",
+                "submit_button": "Гласувай"
             },
             "composer_discussion": {
-                "add_poll": "",
-                "edit_poll": "",
-                "no_permission_alert": ""
+                "add_poll": "=> fof-polls.forum.moderation.add",
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": "Нямате разрешение да започнете анкета."
             },
             "modal": {
-                "add_title": "",
-                "add_option_label": "",
-                "date_placeholder": "",
-                "edit_title": "",
-                "include_question": "",
-                "max": "",
-                "min": "",
-                "no_voters": "",
-                "option_placeholder": "",
-                "image_option_placeholder": "",
-                "options_label": "",
-                "public_poll_label": "",
-                "allow_multiple_votes_label": "",
-                "max_votes_label": "",
-                "max_votes_help": "",
-                "hide_votes_label": "",
-                "allow_change_vote_label": "",
-                "question_placeholder": "",
-                "submit": ""
+                "add_title": "Добавяне на анкета",
+                "add_option_label": "Добавяне на опция",
+                "date_placeholder": "Крайна дата на анкетата (по избор)",
+                "edit_title": "Редактиране на анкета",
+                "include_question": "Трябва да включите въпрос",
+                "max": "Можете да имате максимум {max} отговора",
+                "min": "Трябва да включите минимум 2 отговора",
+                "no_voters": "Няма гласове",
+                "option_placeholder": "Отговор",
+                "image_option_placeholder": "URL на изображение (по избор)",
+                "options_label": "Отговори",
+                "public_poll_label": "Позволете на хората да видят кой е гласувал",
+                "allow_multiple_votes_label": "Позволете на хората да гласуват за множество опции",
+                "max_votes_label": "Максимум гласове на потребител",
+                "max_votes_help": "Задайте 0, за да позволите на потребителите да гласуват за всички опции.",
+                "hide_votes_label": "Скриване на гласовете до края на анкетата",
+                "allow_change_vote_label": "Позволете на потребителите да променят вота си",
+                "question_placeholder": "Въпрос",
+                "submit": "Изпращане"
             },
             "moderation": {
-                "add": "",
-                "delete": "",
-                "delete_confirm": "",
-                "edit": ""
+                "add": "Добавяне на анкета",
+                "delete": "Премахване на анкетата",
+                "delete_confirm": "Сигурни ли сте, че искате да изтриете тази анкета?",
+                "edit": "Редактиране на анкетата"
             },
             "tooltip": {
-                "badge": "",
-                "votes": ""
+                "badge": "Анкета",
+                "votes": "{count, plural, one {# глас} other {# гласа}}"
             },
             "votes_modal": {
-                "title": ""
+                "title": "Гласуващи"
             }
         }
     }
