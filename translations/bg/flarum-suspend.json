@@ -2,49 +2,49 @@
     "flarum-suspend": {
         "admin": {
             "permissions": {
-                "suspend_users_label": ""
+                "suspend_users_label": "Забрана на потребители"
             }
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "",
-                "user_suspended_indefinite_text": "",
-                "user_unsuspended_text": ""
+                "user_suspended_text": "Вие сте блокирани за {timeReadable}",
+                "user_suspended_indefinite_text": "Вие сте блокирани безсрочно",
+                "user_unsuspended_text": "Вие сте разблокирани"
             },
             "suspension_info": {
-                "dismiss_button": "",
-                "indefinite": "",
-                "limited": "",
-                "title": ""
+                "dismiss_button": "Отхвърли",
+                "indefinite": "Това е безсрочно блокиране",
+                "limited": "Тази блокировка ще бъде в сила до {date}",
+                "title": "Този профил е блокиран"
             },
             "suspend_user": {
-                "display_message": "",
-                "indefinitely_label": "",
-                "limited_time_days_text": "",
-                "limited_time_label": "",
-                "not_suspended_label": "",
-                "placeholder_optional": "",
-                "reason": "",
-                "status_heading": "",
-                "submit_button": "",
-                "title": ""
+                "display_message": "Покажете съобщение на потребителя",
+                "indefinitely_label": "Безсрочно блокиране",
+                "limited_time_days_text": " дни",
+                "limited_time_label": "Блокиран за ограничен период от време...",
+                "not_suspended_label": "Не е блокиран",
+                "placeholder_optional": "Не задължително",
+                "reason": "Причина за блокиране",
+                "status_heading": "Статус на блокирането",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Блокирай {username}"
             },
             "user_badge": {
-                "suspended_tooltip": ""
+                "suspended_tooltip": "Блокиран"
             },
             "user_controls": {
-                "suspend_button": ""
+                "suspend_button": "Блокирай"
             }
         },
         "email": {
-            "no_reason_given": "",
+            "no_reason_given": "Не е посочена причина за блокирането.",
             "suspended": {
-                "subject": "",
-                "body": ""
+                "subject": "Вашият акаунт е блокиран",
+                "body": "Здравейте {recipient_display_name},\n\nВие сте блокиран за следната причина:\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
-                "subject": "",
-                "body": ""
+                "subject": "Вашият акаунт е разблокиран",
+                "body": "Здравейте {recipient_display_name},\n\nВие сте разблокиран. Можете да се върнете към форума, като кликнете върху следния линк:\n\n{forum_url}\n"
             }
         }
     }
