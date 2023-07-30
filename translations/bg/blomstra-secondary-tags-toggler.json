@@ -2,11 +2,11 @@
     "blomstra-secondary-tags-toggler": {
         "admin": {
             "settings": {
-                "only_one_secondary_tag": "",
-                "only_one_secondary_tag_help": ""
+                "only_one_secondary_tag": "Максимум един вторичен етикет може да бъде избран по едно и също време",
+                "only_one_secondary_tag_help": "Това не засяга съществуващите дискусии. Добавянето на нов вторичен етикет към дискусия ще премахне всички други вторични етикети."
             },
             "permissions": {
-                "view_toggler": ""
+                "view_toggler": "Използвайте превключвателя за вторични етикети върху дискусиите"
             }
         }
     }
