@@ -2,13 +2,13 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "{count, plural, one {Show # updated discussion} other {Show # updated discussions}}",
+                "discussion-list-new-activity": "{count, plural, one {Покажи # актуализирана дискусия} other {Покажи # актуализирани дискусии}}",
                 "discussion-list-new-activity-with-auto-release": "{count, plural, one {# discussion has} other {# discussions have}} актуализирана дейност и ще бъде пусната в {releaseTimeout} секунди. Кликнете, за да покажете сега."
             },
             "typing-indicator": {
                 "anonymous-user": "[Анонимен]",
-                "people-are-typing": "{number, plural, one {# person is typing} other {# people are typing}}",
-                "users-are-typing": "{count, plural, one {{users} is typing} other {{users}{others, plural, =1 { & # other} =0 {} other { & # others}} are typing}}",
+                "people-are-typing": "{number, plural, one {# човек пише} other {# човека пишат}}",
+                "users-are-typing": "{count, plural, one {{users} пише} other {{users}{others, plural, =1 { & # other} =0 {} other { & # others}} пишат}}",
                 "no-activity": "Никой не пише"
             },
             "user": {
