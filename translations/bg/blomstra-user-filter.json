@@ -2,22 +2,22 @@
     "blomstra-user-filter": {
         "admin": {
             "settings": {
-                "intro": "",
-                "min_length": "",
-                "result_count": ""
+                "intro": "Потребителите без разрешение <code>Търсене на потребители</code> няма да виждат полето за търсене. Задайте <code>Всички</code> за всички потребители или каквото и да е нивото на вашите предпочитания.",
+                "min_length": "Минимум символи за започване на търсене",
+                "result_count": "Максимален брой резултати в автоматично допълване на падащо меню"
             }
         },
         "forum": {
             "index_page": {
                 "filter_user": {
-                    "accessible_label": "",
-                    "all": "",
-                    "label": "",
-                    "search_label": "",
-                    "no_results": "",
-                    "start_typing": "",
-                    "keep_typing": "",
-                    "remove_filter": ""
+                    "accessible_label": "Филтриране по автор",
+                    "all": "Всички",
+                    "label": "Филтриране по автор: {text}",
+                    "search_label": "Търсене на потребители...",
+                    "no_results": "Няма резултати",
+                    "start_typing": "Започнете да пишете...",
+                    "keep_typing": "Продължете да пишете...",
+                    "remove_filter": "Премахване на филтъра за автор"
                 }
             }
         }
