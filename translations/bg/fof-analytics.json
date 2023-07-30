@@ -3,17 +3,17 @@
         "admin": {
             "popup": {
                 "section": {
-                    "googleAnalytics": "",
-                    "piwik": ""
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "Matomo"
                 },
                 "field": {
-                    "statusGoogle": "",
-                    "optTrackingCode": "",
-                    "googleTrackingCode": "",
-                    "googleGTMCode": "",
-                    "statusPiwik": "",
-                    "piwikUrl": "",
-                    "piwikSiteId": "",
+                    "statusGoogle": "Активирай Google Analytics (UA/GA4)",
+                    "optTrackingCode": "Оптимизирай Код за Проследяване (опционален)",
+                    "googleTrackingCode": "Код за Проследяване ID",
+                    "googleGTMCode": "GTM код ID (опционален)",
+                    "statusPiwik": "Активирай Matomo",
+                    "piwikUrl": "Matomo домейн или URL",
+                    "piwikSiteId": "Сайт ID",
                     "piwikTrackSubdomain": "",
                     "piwikPrependDomain": "",
                     "piwikHideAliasUrl": "",
