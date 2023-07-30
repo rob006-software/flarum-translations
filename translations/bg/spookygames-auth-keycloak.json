@@ -2,17 +2,17 @@
     "flarum-ext-auth-keycloak": {
         "admin": {
             "keycloak_settings": {
-                "title": "",
-                "keycloak_version_label": "",
-                "server_url_label": "",
-                "realm_label": "",
-                "client_id_label": "",
-                "client_secret_label": "",
-                "encryption_algorithm_label": "",
-                "encryption_key_label": "",
-                "role_mapping_label": "",
-                "attribute_mapping_label": "",
-                "delegate_avatars_label": ""
+                "title": "Настройки на Keycloak",
+                "keycloak_version_label": "Версия на Keycloak",
+                "server_url_label": "URL на сървъра",
+                "realm_label": "Област",
+                "client_id_label": "ID на клиента",
+                "client_secret_label": "Таен клиентски ключ",
+                "encryption_algorithm_label": "Алгоритъм за криптиране",
+                "encryption_key_label": "Ключ за шифроване (или сертификат)",
+                "role_mapping_label": "Съпоставяне между роли и групи",
+                "attribute_mapping_label": "Персонализирано съпоставяне на атрибути",
+                "delegate_avatars_label": "Делегирани аватари"
             }
         }
     }
