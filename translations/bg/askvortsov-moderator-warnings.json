@@ -47,12 +47,12 @@
             "warning_list": {
                 "add_button": "Ново предупреждение",
                 "no_warnings": "Изглежда, че тук няма предупреждения.",
-                "warnings": "{strikes, plural, one {Moderator Warnings: # Strike Received} other {Moderator Warnings: # Strikes Received}}",
+                "warnings": "{strikes, plural, one {Moderator Warnings: # получено предупреждение} other {Moderator Warnings: # получени предупреждения}}",
                 "warnings_no_strikes": "Предупреждения на модератора: Няма получени предупреждения"
             },
             "warning_list_item": {
-                "list_item_heading": "{strikes, plural, one {<strong>#</strong> strike, {time}} other {<strong>#</strong> strikes, {time}}}",
-                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> strike, {time} <strong>(removed)</strong>} other {<strong>#</strong> strikes, {time} <strong>(removed)</strong>}}",
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> предупреждение, {time}} other {<strong>#</strong> предупреждения, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> предупреждение, {time} <strong>(премахнато)</strong>} other {<strong>#</strong> предупреждения, {time} <strong>(премахнати)</strong>}}",
                 "public_comment": "Внимание",
                 "private_comment": "Модератор - Видими коментари",
                 "linked_post": "Свързана публикация"
