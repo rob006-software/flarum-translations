@@ -2,53 +2,53 @@
     "fof-user-directory": {
         "forum": {
             "header": {
-                "back_to_user_directory_tooltip": ""
+                "back_to_user_directory_tooltip": "Назад към потребителската директория"
             },
             "search": {
-                "users_heading": "",
+                "users_heading": "Търсене във всички потребители за \"{query}\"",
                 "field": {
-                    "placeholder": ""
+                    "placeholder": "Търсене във всички потребители"
                 },
                 "kinds": {
-                    "group": "",
-                    "text": ""
+                    "group": "Група",
+                    "text": "Свободен текст"
                 }
             },
             "page": {
-                "nav": "",
-                "refresh_tooltip": "",
-                "load_more_button": "",
-                "empty_text": "",
-                "filter_button": "",
+                "nav": "Потребителска директория",
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "Не можахме да намерим нито един потребител, отговарящ на вашето търсене.",
+                "filter_button": "Филтриране на групи",
                 "usercard": {
-                    "discussion-count": "",
-                    "post-count": ""
+                    "discussion-count": "{count, plural, one { {count} дискусия} other {{count} дискусии}}",
+                    "post-count": "{count, plural, one { {count} публикация} other {{count} публикации}}"
                 }
             }
         },
         "admin": {
             "permissions": {
-                "view_user_directory": ""
+                "view_user_directory": "Вижте потребителската директория"
             },
             "settings": {
-                "link": "",
-                "default-sort": "",
-                "use-small-cards": "",
-                "disable-global-search-source": ""
+                "link": "Добавете връзка към началната страница за потребителите, които могат да видят директорията",
+                "default-sort": "Сортиране по подразбиране",
+                "use-small-cards": "Използвайте малки потребителски карти",
+                "disable-global-search-source": "Не добавяйте потребителска директория към глобалното поле за търсене на Flarum"
             }
         },
         "lib": {
             "sort": {
-                "not_specified": "",
-                "default": "",
-                "username_az": "",
-                "username_za": "",
-                "newest": "",
-                "oldest": "",
-                "most_posts": "",
-                "least_posts": "",
-                "most_discussions": "",
-                "least_discussions": ""
+                "not_specified": "Използвайте Flarum по подразбиране",
+                "default": "По подразбиране",
+                "username_az": "Потребителско име (a-z/а-я)",
+                "username_za": "Потребителско име (z-а/я-а)",
+                "newest": "Най-нови",
+                "oldest": "Най-стари",
+                "most_posts": "Най-много публикации",
+                "least_posts": "Най-малко публикации",
+                "most_discussions": "Най-много дискусии",
+                "least_discussions": "Най-малко дискусии"
             }
         }
     }
