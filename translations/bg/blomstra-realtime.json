@@ -2,36 +2,36 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "",
-                "discussion-list-new-activity-with-auto-release": ""
+                "discussion-list-new-activity": "{count, plural, one {Show # updated discussion} other {Show # updated discussions}}",
+                "discussion-list-new-activity-with-auto-release": "{count, plural, one {# discussion has} other {# discussions have}} актуализирана дейност и ще бъде пусната в {releaseTimeout} секунди. Кликнете, за да покажете сега."
             },
             "typing-indicator": {
-                "anonymous-user": "",
-                "people-are-typing": "",
-                "users-are-typing": "",
-                "no-activity": ""
+                "anonymous-user": "[Анонимен]",
+                "people-are-typing": "{number, plural, one {# person is typing} other {# people are typing}}",
+                "users-are-typing": "{count, plural, one {{users} is typing} other {{users}{others, plural, =1 { & # other} =0 {} other { & # others}} are typing}}",
+                "no-activity": "Никой не пише"
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Реално време",
                     "typing-indicator-type": {
-                        "help": "",
-                        "label": ""
+                        "help": "Когато е активиран, индикаторът за писане ще показва потребителите, които пишат в момента. Деактивирайте това, за да се покаже само броят потребители, които пишат в момента.",
+                        "label": "Покажете кой пише"
                     }
                 }
             }
         },
         "admin": {
             "permission": {
-                "view-who-types": ""
+                "view-who-types": "Вижте кой пише"
             },
             "settings": {
-                "release-discussion-updates": "",
-                "release-discussion-updates-help": "",
-                "release-discussion-updates-interval": "",
-                "release-discussion-updates-interval-help": "",
-                "typing-indicator": "",
-                "typing-indicator-help": ""
+                "release-discussion-updates": "Актуализации на дискусионния списък",
+                "release-discussion-updates-help": "Когато е разрешено, новите дискусии ще бъдат изпращани в <code>DiscussionList</code> на определения по-долу интервал.",
+                "release-discussion-updates-interval": "Интервал за автоматично насочване на нова дискусионна дейност",
+                "release-discussion-updates-interval-help": "За секунди. 0 означава, че няма автоматично натискане.",
+                "typing-indicator": "Индикатор на писане",
+                "typing-indicator-help": "Когато е активирано и съгласно разрешение, потребителите могат да виждат броя на други потребители, които в момента пишат в дадена дискусия. Когато е деактивирано, информацията за писане ще бъде премахната както от потребителския интерфейс, така и от данните, пращани чрез websocket."
             }
         }
     }
