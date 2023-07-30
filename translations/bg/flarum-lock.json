@@ -2,26 +2,26 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": ""
+                "lock_discussions_label": "Заключване на дискусии"
             }
         },
         "forum": {
             "badge": {
-                "locked_tooltip": ""
+                "locked_tooltip": "Заключено"
             },
             "discussion_controls": {
-                "lock_button": "",
-                "unlock_button": ""
+                "lock_button": "Заключване",
+                "unlock_button": "Отключване"
             },
             "notifications": {
-                "discussion_locked_text": ""
+                "discussion_locked_text": "{username} е заключен/а"
             },
             "post_stream": {
-                "discussion_locked_text": "",
-                "discussion_unlocked_text": ""
+                "discussion_locked_text": "{username} заключи дискусията {time}.",
+                "discussion_unlocked_text": "{username} отключи дискусията {time}."
             },
             "settings": {
-                "notify_discussion_locked_label": ""
+                "notify_discussion_locked_label": "Някой заключи дискусия, която започнах"
             }
         }
     }
