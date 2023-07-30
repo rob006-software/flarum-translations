@@ -6,8 +6,8 @@
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
-                "delete_tag_button": "Изтриване на етикет",
-                "delete_tag_confirmation": "Сигурни ли сте, че искате да изтриете този етикет? Дискусиите на етикета НЯМА да бъдат изтрити.",
+                "delete_tag_button": "Изтриване на таг",
+                "delete_tag_confirmation": "Сигурни ли сте, че искате да изтриете този таг? Дискусиите на тага НЯМА да бъдат изтрити.",
                 "description_label": "Описание",
                 "hide_label": "Скриване от всички дискусии",
                 "icon_label": "=> core.ref.icon",
@@ -16,76 +16,76 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Slug",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Създай етикет"
+                "title": "Създаване на таг"
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
-                "tags_text": "Управлявайте списъка с етикети, налични за организиране на дискусии."
+                "tags_text": "Управлявайте списъка с тагове, налични за организиране на дискусии."
             },
             "permissions": {
-                "allow_edit_tags_label": "Разрешаване на редактиране на етикети",
-                "bypass_tag_counts_label": "Прескачане на изискванията за етикети",
-                "restrict_by_tag_heading": "Ограничаване по етикет",
-                "tag_discussions_label": "Дискусии с етикети"
+                "allow_edit_tags_label": "Разрешаване на редактиране на тагове",
+                "bypass_tag_counts_label": "Прескачане на изискванията за тагове",
+                "restrict_by_tag_heading": "Ограничаване по таг",
+                "tag_discussions_label": "Тагни дискусии"
             },
             "settings": {
                 "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
                 "range_separator_text": " до ",
-                "required_primary_heading": "Необходим брой основни етикети",
+                "required_primary_heading": "Необходим брой основни тагове",
                 "required_primary_text": "Въведете минималния и максималния брой основни тагове, които могат да бъдат приложени към дискусия.",
-                "required_secondary_heading": "Необходим брой допълнителни етикети",
-                "required_secondary_text": "Въведете минималния и максималния брой допълнителни етикети, които могат да бъдат приложени към дискусия.",
-                "title": "Настройки на етикет"
+                "required_secondary_heading": "Необходим брой допълнителни тагове",
+                "required_secondary_text": "Въведете минималния и максималния брой допълнителни тагове, които могат да бъдат приложени към дискусия.",
+                "title": "Настройки на таг"
             },
             "tags": {
-                "about_tags_text": "Етикетите се използват за категоризиране на дискусии. Основните тагове са като традиционните форумни категории: те могат да бъдат подредени в йерархия на две нива. Допълнителните тагове нямат йерархия или ред и са полезни за микрокатегоризация.",
-                "create_primary_tag_button": "Създай основени тагове",
-                "create_secondary_tag_button": "Създай допълнителни тагове",
-                "primary_heading": "Основни етикети",
-                "secondary_heading": "Допълнителни етикети",
+                "about_tags_text": "Таговете се използват за категоризиране на дискусии. Основните тагове са като традиционните форумни категории: те могат да бъдат подредени в йерархия на две нива. Допълнителните тагове нямат йерархия или ред и са полезни за микрокатегоризация.",
+                "create_primary_tag_button": "Създай основни тагове",
+                "create_secondary_tag_button": "Създай допълн. тагове",
+                "primary_heading": "Основни тагове",
+                "secondary_heading": "Допълнителни тагове",
                 "settings_heading": "Настройки"
             }
         },
         "forum": {
             "all_tags": {
-                "meta_description_text": "Всички етикети",
+                "meta_description_text": "Всички тагове",
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "edit_title": "Редактиране на етикети за {title}",
-                "title": "Изберете етикети за вашата дискусия"
+                "edit_title": "Редактиране на тагове за {title}",
+                "title": "Изберете тагове за вашата дискусия"
             },
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
-                "edit_tags_button": "Редактиране на етикети"
+                "edit_tags_button": "Редактиране на тагове"
             },
             "header": {
-                "back_to_tags_tooltip": "Назад към списъка с етикети"
+                "back_to_tags_tooltip": "Назад към списъка с тагове"
             },
             "index": {
                 "more_link": "Още...",
                 "tags_link": "=> flarum-tags.ref.tags",
-                "untagged_link": "Без етикети"
+                "untagged_link": "Без тагове"
             },
             "post_stream": {
                 "added_and_removed_tags_text": "{username} добави {tagsAdded} и премахна {tagsRemoved} {time}.",
                 "added_tags_text": "{username} добави {tagsAdded} {time}.",
                 "removed_tags_text": "{username} премахна {tagsRemoved} {time}.",
-                "tags_text": "{count, plural, one {{tags} етикет} other {{tags} етикети}}"
+                "tags_text": "{count, plural, one {{tags} таг} other {{tags} тагове}}"
             },
             "tag": {
-                "meta_description_text": "Всички дискусии с етикета {tag}"
+                "meta_description_text": "Всички дискусии с тага {tag}"
             }
         },
         "lib": {
             "deleted_tag_text": "Изтрито",
             "tag_selection_modal": {
-                "bypass_requirements": "Изисквания за прескачане етикет",
-                "choose_primary_placeholder": "{count, plural, one {Избери основен етикет} other {Избери # основни етикети}}",
+                "bypass_requirements": "Изисквания за прескачане таг",
+                "choose_primary_placeholder": "{count, plural, one {Избери основен таг} other {Избери # основни тагове}}",
                 "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "submit_button": "=> core.ref.okay",
@@ -93,10 +93,10 @@
             }
         },
         "ref": {
-            "choose_tags": "Изберете етикети",
-            "choose_tags_placeholder": "{count, plural, one {Изберете още 1 етикет} other {Изберете още # етикета}}",
+            "choose_tags": "Изберете тагове",
+            "choose_tags_placeholder": "{count, plural, one {Изберете още 1 таг} other {Изберете още # тага}}",
             "name": "Име",
-            "tags": "Етикети"
+            "tags": "Тагове"
         }
     }
 }
