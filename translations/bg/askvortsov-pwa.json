@@ -76,21 +76,21 @@
                 "share_button": "Споделяне"
             },
             "settings": {
-                "push_header": "",
+                "push_header": "Натисни",
                 "pwa_notifications": {
-                    "access_default": "",
-                    "access_default_button": "",
-                    "access_denied": "",
-                    "access_denied_button": "",
-                    "no_browser_support": "",
-                    "no_browser_support_button": ""
+                    "access_default": "Поради ограничения на браузъра, трябва да дадете съгласие, за да получавате уведомления на това устройство.",
+                    "access_default_button": "Избирам",
+                    "access_denied": "Трябва да настроите браузъра си, за да получавате уведомления на това устройство.",
+                    "access_denied_button": "Научете как",
+                    "no_browser_support": "Този браузър не поддържа насочени известия за прогресивни уеб приложения.",
+                    "no_browser_support_button": "Научете повече"
                 }
             }
         },
         "views": {
             "offline": {
-                "header": "",
-                "text": ""
+                "header": "Грешка при свързване с мрежата",
+                "text": "Това приложение изисква мрежова връзка; не може да се използва в офлайн режим. Моля, проверете вашата връзка."
             }
         }
     }
