@@ -2,35 +2,35 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "Изберете персонализиран период от време, за който да показвате статистики. Зареждането на данни може да отнеме\nняколко минути във форуми с много активност.\n",
+                "end_date": "Крайна дата (включително)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "Крайната дата трябва да е след началната."
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "Начална дата (включително)",
+                "submit_button": "Потвърдете периода от време",
+                "title": "Изберете персонализиран период от време"
             },
             "statistics": {
-                "discussions_heading": "",
-                "export_chart_button": "",
-                "last_12_months_label": "",
-                "last_28_days_label": "",
-                "last_7_days_label": "",
-                "mini_heading": "",
-                "previous_28_days_label": "",
-                "previous_7_days_label": "",
-                "custom_label": "",
-                "custom_label_specified": "",
-                "loading": "",
-                "posts_heading": "",
-                "today_label": "",
-                "total_label": "",
-                "users_heading": "",
-                "view_full": "",
-                "no_data": "",
-                "current_period": "",
-                "previous_period": ""
+                "discussions_heading": "=> core.ref.discussions",
+                "export_chart_button": "Експортиране на диаграма в SVG",
+                "last_12_months_label": "Последните 12 месеца",
+                "last_28_days_label": "Последните 28 дни",
+                "last_7_days_label": "Последните 7 дни",
+                "mini_heading": "Форумна статистика",
+                "previous_28_days_label": "Предишните 28 дни",
+                "previous_7_days_label": "Предишните 7 дни",
+                "custom_label": "Изберете персонализиран диапазон...",
+                "custom_label_specified": "{fromDate} до {toDate}",
+                "loading": "=> core.ref.loading",
+                "posts_heading": "=> core.ref.posts",
+                "today_label": "Днес",
+                "total_label": "Всичко",
+                "users_heading": "=> core.ref.users",
+                "view_full": "Вижте още статистики",
+                "no_data": "Няма налични данни за този период от време.",
+                "current_period": "Текущ период",
+                "previous_period": "Предишен период"
             }
         }
     }
