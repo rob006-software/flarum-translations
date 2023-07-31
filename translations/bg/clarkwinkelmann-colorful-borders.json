@@ -1,34 +1,34 @@
 {
     "clarkwinkelmann-colorful-borders": {
         "forum": {
-            "edit": "",
-            "default": "",
-            "apply": "",
-            "reset": "",
-            "borderColor": "",
-            "backgroundColor": "",
-            "textColor": "",
-            "borderWidth": "",
-            "borderRadius": ""
+            "edit": "Редактиране на стила",
+            "default": "По подразбиране",
+            "apply": "Приложи",
+            "reset": "Премахнете персонализирания стил",
+            "borderColor": "Цвят на границата",
+            "backgroundColor": "Цвят на фона",
+            "textColor": "Цвят на текста",
+            "borderWidth": "Ширина на границата",
+            "borderRadius": "Радиус на границата"
         },
         "admin": {
             "permissions": {
-                "editOwnPost": "",
-                "editAnyPost": ""
+                "editOwnPost": "Редактирайте собствен стил на публикация",
+                "editAnyPost": "Редактирайте всеки стил на публикация"
             },
             "settings": {
-                "enableBorderColor": "",
-                "enableBackgroundColor": "",
-                "enableTextColor": "",
-                "enableBorderWidth": "",
-                "enableBorderRadius": "",
-                "min": "",
-                "max": "",
+                "enableBorderColor": "Персонализиран цвят на рамката",
+                "enableBackgroundColor": "Персонализиран цвят на фона",
+                "enableTextColor": "Персонализиран цвят на текста",
+                "enableBorderWidth": "Персонализирана ширина на границата",
+                "enableBorderRadius": "Персонализиран радиус на границата",
+                "min": "Минимум",
+                "max": "Максимум",
                 "colors": {
-                    "simple": "",
-                    "all": "",
-                    "custom": "",
-                    "custom-help": ""
+                    "simple": "Семпъл цветен комплект",
+                    "all": "Всеки цвят",
+                    "custom": "Персонализиран списък с цветове",
+                    "custom-help": "Разделен със запетаи списък с #hex или rgb() стойности"
                 }
             }
         }
