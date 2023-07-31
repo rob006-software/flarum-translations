@@ -2,22 +2,22 @@
     "fof-doorman": {
         "forum": {
             "email": {
-                "subject": "",
-                "body": ""
+                "subject": "Покани да се включи",
+                "body": "Здравей,\n\nБяхте поканени да се регистрирате в {forum}.\n\nКогато сте готови да създадете вашия профил, натиснете на следния линк и въведете кода когато се регистрирате:\n\nUrl: {url}\nКод покана: {code}\n\nАко сте получили това по погрешка, моля игнорирайте този имейл.\n"
             },
             "sign_up": {
-                "invalid_doorkey": "",
-                "doorkey_required": "",
-                "doorman_placeholder": "",
-                "doorman_placeholder_optional": ""
+                "invalid_doorkey": "Кодът от поканата, който въведохте, е невалиден.",
+                "doorkey_required": "Моля въведете код от покана.",
+                "doorman_placeholder": "Код покана",
+                "doorman_placeholder_optional": "Код покана (опционален)"
             }
         },
         "admin": {
             "modal": {
-                "title": "",
-                "group": "",
+                "title": "Изпрати кодове за покана",
+                "group": "Изпращат се покани за {group} група",
                 "help": "",
-                "placeholder": "",
+                "placeholder": "Въведи имейли тук",
                 "invalid_emails": "",
                 "max_use_conflict": "",
                 "send": "",
