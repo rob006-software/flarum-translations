@@ -31,8 +31,8 @@
             "page": {
                 "title": "Портиер",
                 "doorkey": {
-                    "used_times": "{remaining, plural, =0 {Unlimited uses} one {{remaining} use left} other {{remaining} uses left}}",
-                    "total_uses": "{totalUses, plural, one {Used {totalUses} time} other {Used {totalUses} times}}",
+                    "used_times": "{remaining, plural, =0 {Unlimited uses} one { остава {remaining} използване} other {остават {remaining} използвания}}",
+                    "total_uses": "{totalUses, plural, one {Използвано {totalUses} път} other {Използвано {totalUses} пъти}}",
                     "title": "Кодове за Покана",
                     "help": {
                         "key": "Ключ: Код, който потребителят ще въведе когато се регистрира.",
