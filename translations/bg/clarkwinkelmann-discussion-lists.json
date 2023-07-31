@@ -2,67 +2,67 @@
     "clarkwinkelmann-discussion-lists": {
         "admin": {
             "settings": {
-                "collapseSeries": ""
+                "collapseSeries": "Свиване на серийния индекс по подразбиране"
             },
             "permissions": {
-                "viewPublic": "",
-                "createPrivate": "",
-                "createPublic": "",
-                "createSeriesFromOwn": "",
-                "createSeriesFromAny": "",
-                "moderate": "",
-                "viewPrivate": ""
+                "viewPublic": "Преглед на публични списъци с дискусии",
+                "createPrivate": "Създаване на частни списъци с дискусии",
+                "createPublic": "Създаване на публични списъци с дискусии",
+                "createSeriesFromOwn": "Създаване на поредица от дискусии със собствено съдържание",
+                "createSeriesFromAny": "Създаване на поредица от дискусии със съдържание от всеки потребител",
+                "moderate": "Променете и изтрийте всеки списък с дискусии",
+                "viewPrivate": "Преглед на всички частни списъци с дискусии"
             }
         },
         "forum": {
             "edit": {
-                "title": "",
-                "name": "",
-                "visibility": "",
+                "title": "Редактиране на списък",
+                "name": "Име",
+                "visibility": "Видимост",
                 "visibilityOptions": {
-                    "private": "",
-                    "public": "",
-                    "series": ""
+                    "private": "Частен списък",
+                    "public": "Публичен списък",
+                    "series": "Публични поредици"
                 },
-                "ordering": "",
+                "ordering": "Поръчване",
                 "orderingOptions": {
-                    "manual": "",
-                    "createdAsc": "",
-                    "createdDesc": "",
-                    "addedAsc": "",
-                    "addedDesc": ""
+                    "manual": "Ръчно",
+                    "createdAsc": "Създаване на дискусия (от най-старата до най-новата)",
+                    "createdDesc": "Създаване на дискусия (от най-новите до най-старите)",
+                    "addedAsc": "Допълнение към списъка (от най-старо към най-ново)",
+                    "addedDesc": "Допълнение към списъка (от най-ново към най-старо)"
                 },
-                "save": "",
-                "delete": "",
-                "deleteConfirmation": ""
+                "save": "Запазване",
+                "delete": "Изтрий",
+                "deleteConfirmation": "Наистина ли искате да изтриете този списък за постоянно?"
             },
             "discussion": {
-                "add": "",
-                "new": ""
+                "add": "Добави към списъка",
+                "new": "Нов списък"
             },
             "profile": {
-                "link": ""
+                "link": "Списъци"
             },
             "badge": {
-                "private": "",
-                "series": ""
+                "private": "Частен списък",
+                "series": "Публични поредици"
             },
             "series": {
-                "kind": "",
-                "expand": "",
-                "visit": ""
+                "kind": "Поредици",
+                "expand": "Разширяване",
+                "visit": "Покажи всичко"
             }
         },
         "api": {
-            "manualLimit": "",
-            "seriesAnyAddNotAllowed": "",
-            "seriesAnyConversionNotAllowed": ""
+            "manualLimit": "Ръчно сортираните списъци не могат да съдържат повече от 50 дискусии",
+            "seriesAnyAddNotAllowed": "Можете да добавяте само свои собствени дискусии към списък с поредица",
+            "seriesAnyConversionNotAllowed": "Списъкът не може да се преобразува в поредица, защото съдържа дискусии, които не са ваши"
         }
     },
     "core": {
         "forum": {
             "index_sort": {
-                "discussionListDefault_button": ""
+                "discussionListDefault_button": "Подреждане в списък"
             }
         }
     }
