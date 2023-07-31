@@ -2,30 +2,30 @@
     "clarkwinkelmann-follow-tags-prompt": {
         "forum": {
             "controls": {
-                "choose": ""
+                "choose": "Изберете тагове, които да следвате"
             },
             "modal": {
-                "title": "",
-                "later": "",
-                "continue": ""
+                "title": "Изберете тагове, които да следвате",
+                "later": "Напомни ми по-късно",
+                "continue": "Продължете към форума"
             }
         },
         "admin": {
             "settings": {
-                "buttonOnFollowingPage": "",
-                "allDiscussionsOnFollowingPageForGuests": "",
-                "availableTagStrategy": "",
+                "buttonOnFollowingPage": "Показване на бутона на следващата страница",
+                "allDiscussionsOnFollowingPageForGuests": "Показване на всички дискусии на страницата \"Следвани\" за гостите",
+                "availableTagStrategy": "Тагове за предлагане в модален режим",
                 "tagStrategy": {
-                    "primary": "",
-                    "primaryAndChildren": "",
-                    "primaryAndSecondary": "",
-                    "secondary": "",
-                    "all": "",
-                    "list": ""
+                    "primary": "Основни тагове от първо ниво",
+                    "primaryAndChildren": "Всички първични тагове от всяко ниво",
+                    "primaryAndSecondary": "Първични тагове от първо ниво и вторични тагове",
+                    "secondary": "Само вторични тагове",
+                    "all": "Всички тагове",
+                    "list": "Тагове, избрани по-долу"
                 }
             },
             "homepage": {
-                "following": ""
+                "following": "Следване"
             }
         }
     }
