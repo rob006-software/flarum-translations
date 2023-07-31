@@ -2,12 +2,12 @@
     "clarkwinkelmann-jwt-cookie-login": {
         "admin": {
             "settings": {
-                "cookieName": "",
-                "actorId": "",
-                "actorIdHelp": "",
-                "audience": "",
-                "audienceHelp": "",
-                "publicKey": "",
+                "cookieName": "Име на бисквитката",
+                "actorId": "Flarum идентификационен номер на потребителя за административни действия",
+                "actorIdHelp": "Този потребител на Flarum ще бъде използван като изпълнител на вътрешната заявка към REST API, която създава нови потребители. Трябва да бъде администраторски потребител.\n",
+                "audience": "JWT Аудитория / Firebase Project ID",
+                "audienceHelp": "Проверява атрибута <code>aud</code> на токена. Не е задължително, когато не се използва Firebase",
+                "publicKey": "Публичен ключ",
                 "publicKeyHelp": "",
                 "publicKeyAlgorithm": "",
                 "publicKeyAlgorithmHelp": "",
