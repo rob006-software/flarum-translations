@@ -2,7 +2,7 @@
     "fof-reactions": {
         "forum": {
             "disabled-reaction": "Anda tidak dapat memberikan reaksi saat ini, silakan refresh halaman",
-            "warning": "Reaction Anda telah dikonversi",
+            "warning": "Reaksi Anda telah dikonversi",
             "notification": "{username} bereaksi dengan {reaction} ke post Anda",
             "settings": {
                 "notify_post_reacted_label": "Seseorang memberikan reaksi terhadap salah satu postingan saya"
@@ -10,7 +10,7 @@
             "reacting-own-post": "Anda tidak dapat memberikan reaksi terhadap post Anda sendiri",
             "modal": {
                 "title": "Bereaksi",
-                "anonymous_count": ""
+                "anonymous_count": "{count, plural, one {# pengguna anonim} other {# pengguna anonim}}"
             },
             "mod_item": "Lihat Reaksi",
             "react_button_label": "Bereaksi"
@@ -56,8 +56,8 @@
                             "Helptext": "Masukkan pengenal reaksi yang ingin Anda ubah secara otomatis menjadi \"Suka\""
                         }
                     },
-                    "allow-anonymous": "",
-                    "allow-anonymous-help": ""
+                    "allow-anonymous": "Izinkan reaksi anonim (tamu)",
+                    "allow-anonymous-help": "Jika diaktifkan, tamu dan pengguna anonim akan dapat bereaksi terhadap postingan. Perhatikan bahwa reaksi anonim tidak akan dihubungkan ke profil pengguna dan akan dikumpulkan dalam daftar reaksi."
                 }
             }
         }
