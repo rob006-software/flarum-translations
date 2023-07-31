@@ -32,7 +32,7 @@
                 "title": "Porteiro",
                 "doorkey": {
                     "used_times": "{remaining, plural, one {{remaining} utilização em falta} other {{remaining} utilizações em falta}}",
-                    "total_uses": "",
+                    "total_uses": "{totalUses, plural, one {Usado {totalUses} vez} other {Usado {totalUses} vezes}}",
                     "title": "Códigos de Convite",
                     "help": {
                         "key": "Chave: Código que o utilizador irá utilizar quando se registar.",
