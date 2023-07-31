@@ -7,55 +7,55 @@
                 "alwaysAnonymiseEdits": "Винаги анонимизирайте редакциите",
                 "alwaysAnonymiseEditsHelp": "По подразбиране редакциите/скриванията от анонимния автор на публикация са анонимни, но всеки модератор, който редактира публикация или дискусия, все още ще бъде показан като автор на редактиране/скриване. Когато тази опция е активирана, актьорът за редактиране/скриване никога няма да влезе в анонимно съдържание, независимо кой е той.\n",
                 "composerHelpTextPosition": "Позиция на помощния текст в редактора",
-                "composerHelpTextPositionVisible": "",
-                "composerHelpTextPositionTooltip": "",
-                "composerHelpTextPositionHidden": "",
-                "composerHelpTextPositionHelp": "",
-                "avatars": "",
-                "avatarsHelp": "",
-                "avatarFormId": "",
-                "avatarFieldKey": "",
-                "avatarFieldValue": "",
-                "avatarAvatarUrl": "",
-                "avatarAdd": ""
+                "composerHelpTextPositionVisible": "Видим (под етикета)",
+                "composerHelpTextPositionTooltip": "Подсказка (след етикет)",
+                "composerHelpTextPositionHidden": "Скрити",
+                "composerHelpTextPositionHelp": "Квадратчето и този текст се показват само на потребители с разрешение за превключване.",
+                "avatars": "Анонимни аватари",
+                "avatarsHelp": "Тази функция изисква премиум разширение <a>Formulaire extension</a>. Използването на тази функция допринася за незначителен отрицателен ефект върху производителността, тъй като са необходими допълнителни заявки към базата данни за извличане на дискусии и публикации. За повече подробности относно формата на всеки вход, вижте README.\n",
+                "avatarFormId": "ID на формуляра",
+                "avatarFieldKey": "Ключ на полето",
+                "avatarFieldValue": "Стойност на полето",
+                "avatarAvatarUrl": "URL адрес на аватар",
+                "avatarAdd": "Добавете правило за аватар"
             },
             "permissions": {
-                "use": "",
-                "reveal": "",
-                "moderate": ""
+                "use": "Превключване на анонимна опция за съдържание по време на писане",
+                "reveal": "Вижте истински автори на анонимни дискусии и публикации",
+                "moderate": "Направете анонимна или премахнете анонимността на всяка дискусия или публикация"
             }
         },
         "forum": {
             "composerControls": {
-                "anonymize": "",
-                "anonymizeHelp": ""
+                "anonymize": "Публикувайте анонимно",
+                "anonymizeHelp": "Модераторите ще знаят, че сте създали това съдържание"
             },
             "discussionControls": {
-                "anonymize": "",
-                "anonymizeConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "anonymize": "Анонимност",
+                "anonymizeConfirmation": "Това ще направи автора на дискусията анонимен. Първата публикация трябва да бъде анонимизирана отделно. Продължавате ли?",
+                "deanonymize": "Деанонимизиране",
+                "deanonymizeConfirmation": "Това ще направи оригиналния автор на дискусията отново публичен. Продължи?"
             },
             "postControls": {
-                "anonymize": "",
-                "firstPostConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "anonymize": "Анонимизиране",
+                "firstPostConfirmation": "Това ще направи първия автор на публикация анонимен. Дискусията трябва да бъде анонимизирана отделно. Продължи?",
+                "deanonymize": "Деанонимизиране",
+                "deanonymizeConfirmation": "Това ще направи оригиналния автор на публикацията отново публичен. Продължи?"
             },
             "discussionList": {
-                "genericReplyText": ""
+                "genericReplyText": "Последен отговор {ago}"
             },
             "postPrivacy": {
-                "mine": "",
-                "mineHelp": "",
-                "profile": "",
-                "profileHelp": ""
+                "mine": "Аз",
+                "mineHelp": "Само вие можете да видите тази информация",
+                "profile": "Видим само за вас",
+                "profileHelp": "Само вие можете да виждате вашите анонимни публикации във вашия профил"
             }
         },
         "lib": {
             "userMeta": {
-                "initials": "",
-                "username": ""
+                "initials": "?",
+                "username": "Анонимен"
             }
         }
     }
