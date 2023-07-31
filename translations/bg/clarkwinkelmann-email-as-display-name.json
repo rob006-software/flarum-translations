@@ -2,16 +2,16 @@
     "clarkwinkelmann-email-as-display-name": {
         "admin": {
             "permissions": {
-                "view-own": "",
-                "view-all": ""
+                "view-own": "Вижте имейл в собствения си профил",
+                "view-all": "Вижте имейлите във всички профили"
             },
             "settings": {
-                "remove-username-registration": ""
+                "remove-username-registration": "Премахнете потребителското име от регистрационния формуляр"
             }
         },
         "forum": {
             "log_in": {
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "=> core.ref.email"
             }
         }
     }
