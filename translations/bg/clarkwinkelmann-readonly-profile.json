@@ -2,20 +2,20 @@
     "clarkwinkelmann-readonly-profile": {
         "admin": {
             "settings": {
-                "disableLogin": "",
-                "disableAccessTokens": "",
-                "disableEmailChange": "",
-                "disablePasswordChange": "",
-                "disableAvatarEdit": ""
+                "disableLogin": "Деактивиране на влизането",
+                "disableAccessTokens": "Деактивирайте създаването на маркер за достъп",
+                "disableEmailChange": "Деактивирайте промяната на имейл",
+                "disablePasswordChange": "Деактивирайте промяната и нулирането на парола",
+                "disableAvatarEdit": "Деактивирайте редактирането на аватар"
             }
         },
         "api": {
             "blocked_actions": {
-                "login": "",
-                "accessToken": "",
-                "email": "",
-                "password": "",
-                "avatar": ""
+                "login": "Крайната точка за влизане е деактивирана",
+                "accessToken": "Създаването на маркер за достъп е деактивирано",
+                "email": "Имейлът не може да се променя от тази страница",
+                "password": "Паролата не може да се промени от тази страница",
+                "avatar": "Редактирането на аватар е деактивирано от тази страница"
             }
         }
     }
