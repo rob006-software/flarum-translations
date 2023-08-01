@@ -18,16 +18,16 @@
                 "noNotes": "Изглежда, че няма повече бележки тук.",
                 "submit_button": "Запази бележка",
                 "delete": "Изтрий",
-                "confirm": ""
+                "confirm": "Сигурни ли сте, че искате да изтриете тази бележка?"
             },
             "user": {
-                "notes": ""
+                "notes": "Бележки на модератора"
             }
         },
         "api": {
-            "auto_note": "",
-            "auto_note_actor": "",
-            "no_reason_provided": ""
+            "auto_note": "_Превключих към този потребител:_ {reason}",
+            "auto_note_actor": "_Превключих към_ @{username}: {reason}",
+            "no_reason_provided": "Не е предоставена причина"
         }
     }
 }
