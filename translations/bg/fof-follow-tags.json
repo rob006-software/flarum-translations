@@ -2,77 +2,77 @@
     "fof-follow-tags": {
         "forum": {
             "settings": {
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": "",
-                "notify_new_discussion_tag_label": ""
+                "notify_new_discussion_label": "Някой създава дискусия с таг, който следвам",
+                "notify_new_post_label": "Някой публикува с таг, който следвам",
+                "notify_new_discussion_tag_label": "Някой отново тагва дискусия с таг, който следвам"
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": "",
+                "follow_tag_button": "Последвай",
+                "unfollow_tag_button": "Спри да следваш",
                 "following": {
-                    "following_none_label": "",
-                    "following_tags_label": ""
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
                 }
             },
             "badge": {
-                "following_tag_tooltip": "",
-                "lurking_tag_tooltip": ""
+                "following_tag_tooltip": "Следвам",
+                "lurking_tag_tooltip": "Lurking"
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "hiding_button": "",
-                "hiding_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "lurking_button": "",
-                "lurking_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": ""
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
+                "following_text": "Уведоми ме за всички нови дискусии.",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
+                "hiding_text": "Скрий дискусии от страницата Всички Дискусии.",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
+                "ignoring_text": "Не ме уведомявай.",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
+                "lurking_text": "Уведоми ме за нови дискусии и отговори.",
+                "not_following_button": "Не следвам",
+                "not_following_text": "Уведоми ме само когато @mentioned.",
+                "notify_alert_tooltip": "Получи известие от форума когато има нови дискусии или постове",
+                "notify_email_tooltip": "Получи имейл когато има нови дискусии или публикации"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": "",
-                "new_discussion_tag_text": ""
+                "new_discussion_text": "{username} започна",
+                "new_post_text": "{username} публикува",
+                "new_discussion_tag_text": "{username} промени таг"
             },
             "user": {
                 "settings": {
-                    "heading": "",
-                    "filter_label": ""
+                    "heading": "Следвай Тагове",
+                    "filter_label": "Какво да се показва по подразбиране в страницата Следвам (Following)"
                 }
             }
         },
         "admin": {
             "settings": {
-                "following_page_default_label": "",
-                "following_none_label": "",
-                "following_tags_label": ""
+                "following_page_default_label": "Филтри по подразбиране на страницата Следвам (Following)",
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
             }
         },
         "email": {
             "subject": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "[Таг | Нова Дискусия] {title}",
+                "newPostInTag": "[Таг | Нова публикация] {title}",
+                "newDiscussionTag": "[Таг| Променен Таг] {title}"
             },
             "body": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "Здравей {recipient_display_name},\n\n{actor_display_name} започна дискусия с таг, който следваш: {discussion_title}\n\nЗа да видиш новата дискусия, провери следния линк:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newPostInTag": "Здравей {recipient_display_name},\n\n{actor_display_name} публикува в дискусия с так, който следваш: {discussion_title}\n\nЗа да видиш новата активност, провери следния линк:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nНяма да получаваш повече известия за тази дискусия докато не си запознат с промените.\n",
+                "newDiscussionTag": "Здравей {recipient_display_name},\n\n{actor_display_name} току-що промени тага на дискусия от {author_display_name} на таг, който следваш {discussion_title}\n\nЗа да видиш новата дискусия, провери следния линк:\n{discussion_url}\n"
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "hiding": "",
-            "ignoring": "",
-            "lurking": "",
+            "follow": "Последвай",
+            "following": "Следвам",
+            "hiding": "Скрит",
+            "ignoring": "Игнорирай",
+            "lurking": "Lurking",
             "filtering_options": {
-                "none": "",
-                "tags": ""
+                "none": "Последвани Дискусии",
+                "tags": "Последвани Тагове"
             }
         }
     }
