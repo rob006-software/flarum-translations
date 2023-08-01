@@ -32,7 +32,7 @@
                 "title": "看門人",
                 "doorkey": {
                     "used_times": "{remaining, plural, one {剩餘{remaining} 次} other {剩餘 {remaining} 次}}",
-                    "total_uses": "",
+                    "total_uses": "{totalUses, plural, one {Used {totalUses} time} other {Used {totalUses} times}}",
                     "title": "邀請碼",
                     "help": {
                         "key": "邀請碼：用戶在注冊時輸入的邀請碼。",
