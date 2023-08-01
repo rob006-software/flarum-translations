@@ -2,22 +2,22 @@
     "fof-moderator-notes": {
         "admin": {
             "permissions": {
-                "createnotes": "",
-                "viewnotes": "",
-                "deletenotes": ""
+                "createnotes": "Създай бележки на модератора",
+                "viewnotes": "Виж бележки на модератора",
+                "deletenotes": "Изтрий бележки на модератора"
             }
         },
         "forum": {
-            "no_content_given": "",
+            "no_content_given": "Не е позволена празна бележка.",
             "moderatorNotes": {
-                "created_text": "",
-                "add_button": "",
-                "create-heading": "",
-                "dismiss_button": "",
-                "input_heading": "",
-                "noNotes": "",
-                "submit_button": "",
-                "delete": "",
+                "created_text": "{username} създаде тази бележка на {date}",
+                "add_button": "Нова бележка",
+                "create-heading": "Създай нова бележка на модератор",
+                "dismiss_button": "Готово",
+                "input_heading": "Въведи твоите бележки за <strong>{username}</strong>, (markdown се поддържа)",
+                "noNotes": "Изглежда, че няма повече бележки тук.",
+                "submit_button": "Запази бележка",
+                "delete": "Изтрий",
                 "confirm": ""
             },
             "user": {
