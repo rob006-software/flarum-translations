@@ -16,22 +16,22 @@
                     "piwikSiteId": "Сайт ID",
                     "piwikTrackSubdomain": "Проследи посетителите на всички домейни на Flarum",
                     "piwikPrependDomain": "При проследяване добави домейна на сайта към началото на заглавието на страницата",
-                    "piwikHideAliasUrl": "",
-                    "piwikAliasUrl": "",
-                    "piwikTrackAccounts": "",
-                    "piwikAuthToken": ""
+                    "piwikHideAliasUrl": "В отчета \"Изходящи връзки\", скрийте кликовете към познати алтернативни URL",
+                    "piwikAliasUrl": "Алтернативен URL",
+                    "piwikTrackAccounts": "Следете отделни потребителски акаунти",
+                    "piwikAuthToken": "Токен за удостоверяване"
                 },
                 "placeholder": {
-                    "piwikAuthToken": ""
+                    "piwikAuthToken": "Попълнете това означение, за да активирате приспособление за статистика на Matomo в административния панел.\nМожете да го намерите в Settings > Personal > API Authentication Token.\n"
                 },
                 "trackAccounts": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "Не проследявай",
+                    "username": "Проследяване по потребителско име",
+                    "email": "Проследяване по имейл"
                 }
             },
             "matomo-widget": {
-                "title": ""
+                "title": "Матомо"
             }
         }
     }
