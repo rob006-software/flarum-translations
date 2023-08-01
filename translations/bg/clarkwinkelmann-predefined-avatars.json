@@ -2,14 +2,14 @@
     "clarkwinkelmann-predefined-avatars": {
         "admin": {
             "settings": {
-                "predefinedAvatarsOnly": "",
-                "predefinedAvatarsOnlyHelp": "",
-                "predefinedAvatarsNoRemove": "",
-                "predefinedAvatarsNoRemoveHelp": "",
-                "predefinedAvatarsDefault": "",
-                "predefinedAvatarsDefaultHelp": "",
-                "predefinedAvatars": "",
-                "predefinedAvatarsHelp": "",
+                "predefinedAvatarsOnly": "Разрешаване само на предварително зададени аватари",
+                "predefinedAvatarsOnlyHelp": "Премахва възможността за качване на персонализирани изображения на аватар, освен ако нямате разрешението по-долу.",
+                "predefinedAvatarsNoRemove": "Предотвратете настройката без аватар",
+                "predefinedAvatarsNoRemoveHelp": "Потребителите, които вече имат персонализиран или предварително дефиниран аватар, няма да могат да се върнат към аватара с „инициали“ по подразбиране, освен ако нямат разрешението по-долу.",
+                "predefinedAvatarsDefault": "Аватар по подразбиране",
+                "predefinedAvatarsDefaultHelp": "Важи за нови потребители при регистрация.",
+                "predefinedAvatars": "Налични аватари",
+                "predefinedAvatarsHelp": "Файловете не се преоразмеряват или конвертират. Не забравяйте да ги преоразмерите, компресирате и експортирате във формат по ваш избор, преди да ги качите. Flarum работи най-добре с квадратни 100x100 png или jpg изображения, но можете да се възползвате от други разделителни способности с персонализиран CSS.\n",
                 "defaultOptions": {
                     "none": "",
                     "first": "",
