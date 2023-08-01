@@ -172,7 +172,15 @@
             "upload_errors": {
                 "forbidden_type": "Uploading files of this type is not allowed.",
                 "unsupported_type": "Upload adapter does not support the provided mime type: {mime}.",
-                "could_not_detect_mime": "Could not detect the MIME type of this file, please try again."
+                "could_not_detect_mime": "Could not detect the MIME type of this file, please try again.",
+                "max_upload_file_size_ini": "",
+                "max_upload_file_size_form": "",
+                "partial_upload": "",
+                "no_file_uploaded": "",
+                "no_upload_tmp_folder": "",
+                "cannot_write_to_disk": "",
+                "upload_blocked_by_php_extension": "",
+                "no_files_made_it_to_upload": ""
             }
         }
     }

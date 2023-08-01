@@ -172,7 +172,15 @@
             "upload_errors": {
                 "forbidden_type": "",
                 "unsupported_type": "",
-                "could_not_detect_mime": ""
+                "could_not_detect_mime": "",
+                "max_upload_file_size_ini": "",
+                "max_upload_file_size_form": "",
+                "partial_upload": "",
+                "no_file_uploaded": "",
+                "no_upload_tmp_folder": "",
+                "cannot_write_to_disk": "",
+                "upload_blocked_by_php_extension": "",
+                "no_files_made_it_to_upload": ""
             }
         }
     }

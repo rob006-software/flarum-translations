@@ -172,7 +172,15 @@
             "upload_errors": {
                 "forbidden_type": "Завантаження файлів такого типу не допускається.",
                 "unsupported_type": "Адаптер завантаження не підтримує наданий тип mime: {mime}.",
-                "could_not_detect_mime": "Не вдалося визначити тип MIME цього файлу, спробуйте ще раз."
+                "could_not_detect_mime": "Не вдалося визначити тип MIME цього файлу, спробуйте ще раз.",
+                "max_upload_file_size_ini": "",
+                "max_upload_file_size_form": "",
+                "partial_upload": "",
+                "no_file_uploaded": "",
+                "no_upload_tmp_folder": "",
+                "cannot_write_to_disk": "",
+                "upload_blocked_by_php_extension": "",
+                "no_files_made_it_to_upload": ""
             }
         }
     }
