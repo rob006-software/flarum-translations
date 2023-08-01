@@ -44,7 +44,7 @@
                     "tos": "Твоя отговорност е да осигуриш, че потребителите на твоя форум спазват Imgur's 1<a>Условия за ползване</a>"
                 },
                 "local": {
-                    "cdn_url": "Content Delivery URL (prefixes files)",
+                    "cdn_url": "URL за доставка на съдържание (префиксира файловете)",
                     "title": "Локални настройки на хранилище"
                 },
                 "qiniu": {
@@ -107,10 +107,10 @@
             },
             "upload_methods": {
                 "aws-s3": "S3/Съвместим",
-                "imgur": "Imgur",
+                "imgur": "*Imgur*",
                 "local": "Локален",
                 "ovh-svfs": "OVH SVFS",
-                "qiniu": "QiNiu"
+                "qiniu": "*QiNiu*"
             },
             "inspect-mime": {
                 "title": "Инспектирай MIME",
@@ -142,7 +142,7 @@
                 "modal_empty_desktop": "Твоят списък с файлове е празен. Натистни на бутони или провлачи файл тук за качване.",
                 "modal_empty_phone": "Твоят списък с файлове е празен. Натисни бутона горе за да качиш файл.",
                 "select_file_a11y_label": "Избери файл \"{fileName}\"",
-                "confirm_selection_btn": "{fileCount, plural, =0 {None selected} one {Select file} other {Select files}}",
+                "confirm_selection_btn": "{fileCount, plural, =0 {няма избран} one {избран файл} other {избрани файлове}}",
                 "load_more_files_btn": "Зареди повече файлове",
                 "hide_file": {
                     "btn_a11y_label": "Скрий \"{fileName}\" от управление на медия",
