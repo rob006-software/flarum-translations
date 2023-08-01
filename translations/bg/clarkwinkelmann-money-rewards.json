@@ -2,53 +2,53 @@
     "clarkwinkelmann-money-rewards": {
         "admin": {
             "settings": {
-                "preselection": "",
-                "min": "",
-                "max": "",
-                "decimals": ""
+                "preselection": "Предварително избрани суми (разделени със запетая, по избор)",
+                "min": "Минимална стойност за персонализирани суми",
+                "max": "Максимална стойност за персонализирани суми",
+                "decimals": "Максимален брой десетични знаци за персонализирани суми"
             },
             "permissions": {
-                "seeMoneyRewardHistory": "",
-                "rewardWithMoney": "",
-                "customAmounts": "",
-                "createMoney": ""
+                "seeMoneyRewardHistory": "Вижте историята на наградите на друг потребител",
+                "rewardWithMoney": "Наградете други потребители с пари",
+                "customAmounts": "Изберете персонализирани суми за награди",
+                "createMoney": "Създавайте нови пари в награди"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "target": "",
-                "optionCustom": "",
-                "balance": "",
+                "title": "Наградна публикация",
+                "target": "Публикация с награда #{number} от {username}",
+                "optionCustom": "Персонализиран",
+                "balance": "Вашето салдо: {amount}",
                 "label": {
-                    "custom": "",
-                    "create": "",
-                    "comment": ""
+                    "custom": "Персонализирана сума",
+                    "create": "Създавайте пари, вместо да изваждате баланса ми",
+                    "comment": "Коментар (публичен)"
                 },
-                "submit": "",
-                "success": ""
+                "submit": "Изпращане",
+                "success": "Наградата е изпратена до автора на публикацията!"
             },
             "profile": {
-                "nav": "",
-                "title": ""
+                "nav": "Награди",
+                "title": "Награди"
             },
             "post": {
-                "action": "",
-                "disallowedOwn": "",
-                "disallowedOther": "",
-                "section": ""
+                "action": "Награда",
+                "disallowedOwn": "Не можете да награждавате собствените си публикации.",
+                "disallowedOther": "Не можете да наградите тази публикация. Най-вероятните причини са, че авторът е анонимен или е изтрил акаунта си.",
+                "section": "Награди"
             },
             "record": {
-                "from": "",
-                "to": "",
-                "post": "",
-                "comment": ""
+                "from": "от",
+                "to": "до",
+                "post": "за <a>публикация #{number}</a> в дискусия „{title}“",
+                "comment": "Коментар:"
             }
         },
         "api": {
             "error": {
-                "decimals": "",
-                "notEnoughFunds": ""
+                "decimals": "Сумата е ограничена до {decimals} десетични знаци.",
+                "notEnoughFunds": "Няма достатъчно средства."
             }
         }
     }
