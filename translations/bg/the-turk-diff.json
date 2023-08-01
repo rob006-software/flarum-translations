@@ -58,27 +58,27 @@
                 "charLevel": "Ниво знак",
                 "neighborLines": "Съседни Редове",
                 "neighborLinesHelp": "Посочи бройката съседни редове, която искаш да видиш.",
-                "mergeThreshold": "",
-                "mergeThresholdHelp": "",
+                "mergeThreshold": "Праг за обединяване на комбинирания рендерер",
+                "mergeThresholdHelp": "Това определя дали блок от тип \"замяна\" трябва да бъде обединен в зависимост от съотношението на промененото съдържание, като стойностите са между 0 и 1.",
                 "dbOptimisation": "Оптимизация на Базата Данни",
                 "archiveOlds": "Архивирай стари версии",
                 "archiveOldsInfo": "Ако <strong>x ≥ A</strong>, първи <strong>y=mx+b</strong> промени за публикацията ще бъдат запазени като обединени и компресирани. <strong>x</strong> се отнася към броя промени на публикацията. Десетичните стойности <strong>y</strong> ще бъдат закръглени до най-близкото по-малко цяло число.",
                 "useCrons": "Използвай crons, за да запазиш страри версии",
-                "useCronsHelp": "",
-                "archiveInfo": ""
+                "useCronsHelp": "Трябва да добавите Cron запис във вашия сървър, за да работи тази опция. Тя ще се изпълнява седмично в неделя в 02:00 ч. ам. Ако изключите тази опция и активирате горната, всички редакции на публикациите ще бъдат сканирани за архивиране, когато съответната публикация бъде редактирана.",
+                "archiveInfo": "Запомнете, че можете да изключите и двете опции и да изпълните командата <code>php flarum diff:archive</code> за ръчно архивиране на стари редакции."
             },
             "permissions": {
-                "viewEditHistory": "",
-                "deleteEditHistory": "",
-                "selfDeleteEditHistory": "",
-                "rollbackEditHistory": "",
-                "selfRollbackEditHistory": ""
+                "viewEditHistory": "Преглед на историята на редакциите",
+                "deleteEditHistory": "Изтрийте историята на редакции, направени от другите",
+                "selfDeleteEditHistory": "Изтрийте историята на собствените редакции",
+                "rollbackEditHistory": "Възстановете историята на редакции, направени от другите",
+                "selfRollbackEditHistory": "Възстановете собствената история на редакции"
             }
         },
         "ref": {
-            "originalContent": "",
-            "currentContent": "",
-            "revisionWithNumber": ""
+            "originalContent": "оригинално съдържание",
+            "currentContent": "teкущо съдържание",
+            "revisionWithNumber": "редакция {number}"
         }
     }
 }
