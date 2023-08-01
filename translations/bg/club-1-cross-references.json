@@ -2,12 +2,12 @@
     "club-1-cross-references": {
         "admin": {
             "show_discussion_id": {
-                "label": "",
-                "help": ""
+                "label": "Покажи Дискусия ID",
+                "help": "Добави ID номера на дискусията навсякъде където се показва."
             },
             "enable_short_references": {
-                "label": "",
-                "help": ""
+                "label": "Активирай кратки референции",
+                "help": "Конвертирай #<ID> текст в съобщения (e.g. #42) в линкове към съответната дискусия."
             },
             "retrofit_links_in_frontend": {
                 "label": "",
@@ -16,11 +16,11 @@
         },
         "forum": {
             "post_stream": {
-                "discussion_referenced_text": "",
-                "discussion_referenced_multiple_text": ""
+                "discussion_referenced_text": "{username} е рефериран в тази дискусия {source}",
+                "discussion_referenced_multiple_text": "{username} референсира тази дискусия от няколко източника: {sources}"
             },
-            "unknown_discussion": "",
-            "comment": ""
+            "unknown_discussion": "[unknown discussion]",
+            "comment": "коментар"
         }
     }
 }
