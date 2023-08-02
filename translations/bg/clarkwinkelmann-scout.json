@@ -23,13 +23,13 @@
                 "algoliaConnectTimeout": "Таймаут за свързване с Algolia (по избор)",
                 "algoliaReadTimeout": "Таймаут за четене при свързване с Algolia (по избор)",
                 "algoliaWriteTimeout": "Изчакване за запис на Algolia (по избор)",
-                "meilisearchHost": "",
-                "meilisearchKey": "",
-                "tntsearchMaxDocs": "",
-                "tntsearchFuzziness": "",
-                "tntsearchFuzzyDistance": "",
-                "tntsearchFuzzyPrefixLength": "",
-                "tntsearchFuzzyMaxExpansions": ""
+                "meilisearchHost": "Хост на Meilisearch",
+                "meilisearchKey": "Ключ за Meilisearch",
+                "tntsearchMaxDocs": "TNT Search Max Docs (по избор, максимален брой резултати)",
+                "tntsearchFuzziness": "Неясно търсене на TNT (съвпадение на печатни грешки/вариации)",
+                "tntsearchFuzzyDistance": "TNT Search Fuzziness Levenshtein Distance (optional)",
+                "tntsearchFuzzyPrefixLength": "TNT Search Fuzziness Prefix Length (optional)",
+                "tntsearchFuzzyMaxExpansions": "TNT Search Fuzziness Max Expansions (optional)"
             }
         }
     }
