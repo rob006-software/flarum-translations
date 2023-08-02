@@ -2,35 +2,35 @@
     "clarkwinkelmann-vote-with-money": {
         "admin": {
             "settings": {
-                "preselection": "",
-                "min": "",
-                "max": ""
+                "preselection": "Предварително избрани размери (разделени със запетая, опционални)",
+                "min": "Минимална стойност",
+                "max": "Максимална стойност"
             }
         },
         "forum": {
             "vote": {
-                "title": "",
+                "title": "Потвърди глас",
                 "target": "",
-                "optionCustom": "",
-                "balance": "",
+                "optionCustom": "Персонализиран",
+                "balance": "Твоят баланс: {amount}",
                 "label": {
-                    "custom": ""
+                    "custom": "Персонализиран размер"
                 },
-                "submit": "",
-                "success": ""
+                "submit": "Подай",
+                "success": "Гласът беше подаден!"
             },
             "poll": {
-                "voteWithMoney": "",
+                "voteWithMoney": "Гласувай с пари",
                 "min": "",
                 "max": ""
             }
         },
         "api": {
             "error": {
-                "cannotCancel": "",
-                "cannotChange": "",
-                "notEnoughFunds": "",
-                "cannotChangePollType": ""
+                "cannotCancel": "Не може да се отмени глас.",
+                "cannotChange": "Не може да се промени глас.",
+                "notEnoughFunds": "Няма достатъчно средства.",
+                "cannotChangePollType": "Не може да се промени видът гласуване след като вече са получени гласове."
             }
         }
     }
