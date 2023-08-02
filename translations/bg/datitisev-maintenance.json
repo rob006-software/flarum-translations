@@ -2,46 +2,46 @@
     "datitisev-maintenance": {
         "admin": {
             "dashboard": {
-                "enable_maintenance_mode_button": "",
-                "disable_maintenance_mode_button": ""
+                "enable_maintenance_mode_button": "Активиране на режим на поддръжка",
+                "disable_maintenance_mode_button": "Деактивирайте режима на поддръжка"
             },
             "settings": {
-                "title": "",
-                "settings_notice": "",
-                "allow_bypass_label": "",
-                "allow_bypass_hint": "",
-                "prefer_db_label": "",
-                "prefer_db_hint": "",
-                "active_label": "",
-                "disable_admin_label": "",
-                "disable_api_label": "",
-                "title_label": "",
-                "message_label": "",
-                "error_page_file_label": "",
-                "error_page_file_hint": "",
-                "error_page_label": "",
-                "error_page_hint": ""
+                "title": "Режим на поддръжка",
+                "settings_notice": "Тези настройки може да не са текущите. Уверете се, че те не се презаписват от <code>config.php</code>.",
+                "allow_bypass_label": "Разрешаване на заобикаляне на поддръжката на форум и API с помощта на разрешение",
+                "allow_bypass_hint": "Няма да заобиколи, ако DB не е достъпен. Отнася се за форум и API (освен ако API е напълно деактивиран чрез <code>config.php</code>). Ако е деактивирано, администраторите все още ще имат достъп до API (освен ако API е напълно деактивиран), за да предотвратят заключване.",
+                "prefer_db_label": "Предпочитайте настройките на DB пред настройките на <code>config.php</code>",
+                "prefer_db_hint": "Обикновено стойностите в <code>config.php</code> заместват тези, които се виждат тук. Активирайте тази опция, за да накарате тези опции да заменят намерените в конфигурационния файл - така че те да се използват само в случай, че базата данни не е достъпна.",
+                "active_label": "Състояние на режим на поддръжка",
+                "disable_admin_label": "Деактивирайте администраторския достъп",
+                "disable_api_label": "Деактивирайте целия достъп до API",
+                "title_label": "Заглавие на страница с грешка",
+                "message_label": "Съобщение за страница с грешка",
+                "error_page_file_label": "Път на файла на страницата с грешка",
+                "error_page_file_hint": "Път от корена на Flarum - където се намират <code>доставчик</code> и <code>хранение</code>.",
+                "error_page_label": "HTML/Blade на страницата с грешка",
+                "error_page_hint": "Можете да използвате $app, $translator, $settings, $title и $message с blade."
             },
             "permissions": {
-                "allow_bypass_maintenance_label": ""
+                "allow_bypass_maintenance_label": "Режим на поддръжка на байпас (настройката трябва да е активирана)"
             }
         },
         "lib": {
-            "maintenance_active_message": "",
-            "maintenance_active_not_db_message": "",
-            "maintenance_active_disabled_api_message": ""
+            "maintenance_active_message": "Този форум в момента е в процес на поддръжка.",
+            "maintenance_active_not_db_message": "Режимът на поддръжка е активиран чрез <code>config.php</code>.",
+            "maintenance_active_disabled_api_message": "В момента API е деактивиран за всички."
         },
         "views": {
             "error": {
-                "title": "",
-                "message": ""
+                "title": "Поддръжка",
+                "message": "В момента извършваме известна поддръжка. Ще бъдем отново онлайн скоро!"
             }
         }
     },
     "core": {
         "lib": {
             "error": {
-                "maintenance_message": ""
+                "maintenance_message": "В момента форумът е в режим на поддръжка."
             }
         }
     }
