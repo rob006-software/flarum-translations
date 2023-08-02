@@ -2,63 +2,63 @@
     "fof-webhooks": {
         "actions": {
             "poll": {
-                "voted": "",
-                "created": ""
+                "voted": "Гласувал в анкета `{1}`",
+                "created": "Създадена анкета `{1}`"
             },
             "post": {
-                "reacted": "",
-                "unreacted": "",
-                "upvoted": "",
-                "downvoted": ""
+                "reacted": "Реагира на публикация с `{1}`",
+                "unreacted": "Премахна реакцията им от публикация",
+                "upvoted": "Гласува за публикация",
+                "downvoted": "Гласува против публикация"
             },
             "user": {
-                "enabled2fa": ""
+                "enabled2fa": "Активиран 2FA"
             },
             "extension": {
-                "installed": "",
-                "updated": ""
+                "installed": "Инсталирано разширение `{1}`",
+                "updated": "Актуализирано разширение `{1}`"
             },
             "ip": {
-                "banned": "",
-                "unbanned": ""
+                "banned": "IP забранен `{1}`",
+                "unbanned": "Отменена IP забрана `{1}`"
             }
         },
         "admin": {
             "settings": {
                 "services": {
-                    "custom": ""
+                    "custom": "Персонализиран"
                 },
                 "actions": {
                     "extiverse": {
                         "bazaar": {
-                            "title": "",
-                            "extensionwasinstalled": "",
-                            "extensionwasupdated": ""
+                            "title": "Extiverse Bazaar",
+                            "extensionwasinstalled": "Разширението е инсталирано",
+                            "extensionwasupdated": "Разширението е актуализирано"
                         }
                     },
                     "fof": {
                         "banips": {
-                            "title": "",
-                            "ipwasbanned": "",
-                            "ipwasunbanned": ""
+                            "title": "FriendsOfFlarum Забрани на IP адреси",
+                            "ipwasbanned": "Забранен",
+                            "ipwasunbanned": "Без забрана"
                         },
                         "byobu": {
-                            "title": "",
-                            "discussionmadepublic": ""
+                            "title": "FriendsOfFlarum Byobu",
+                            "discussionmadepublic": "Дискусията стана публична"
                         },
                         "gamification": {
-                            "title": "",
-                            "postwasvoted": ""
+                            "title": "FriendsOfFlarum Игрови елементи",
+                            "postwasvoted": "Публикацията е харесана/не харесана"
                         },
                         "polls": {
-                            "title": "",
-                            "pollwasvoted": "",
-                            "pollwascreated": ""
+                            "title": "FriendsOfFlarum Анкети",
+                            "pollwasvoted": "Гласуван",
+                            "pollwascreated": "Създаден"
                         },
                         "reactions": {
-                            "title": "",
-                            "postwasreacted": "",
-                            "postwasunreacted": ""
+                            "title": "Реакции на FriendsOfFlarum",
+                            "postwasreacted": "Реакция на публикация",
+                            "postwasunreacted": "Публикация без реакция"
                         },
                         "twofactor": {
                             "title": "",
