@@ -2,21 +2,21 @@
     "datlechin-chatgpt": {
         "admin": {
             "settings": {
-                "api_key_label": "",
-                "api_key_help": "",
-                "model_label": "",
-                "model_help": "",
-                "max_tokens_label": "",
-                "max_tokens_help": "",
-                "user_prompt_label": "",
-                "user_prompt_help": "",
-                "user_prompt_badge_label": "",
-                "user_prompt_badge_help": "",
-                "enable_on_discussion_started_label": "",
-                "enable_on_discussion_started_help": ""
+                "api_key_label": "API ключ",
+                "api_key_help": "Вземете OpenAI API ключа от <a>openai.com</a>.",
+                "model_label": "Модел",
+                "model_help": "Научете повече за <a>модели</a> (по подразбиране: <code>text-davinci-003</code>).",
+                "max_tokens_label": "Максимален брой токени",
+                "max_tokens_help": "<a>Какво представляват токените и как да ги броим?</a>",
+                "user_prompt_label": "Потребителска подкана",
+                "user_prompt_help": "Подканата, която ще се използва за генериране на отговора. По подразбиране е кой е започнал дискусията.",
+                "user_prompt_badge_label": "Значка за подкана на потребителя",
+                "user_prompt_badge_help": "Текст, който ще се покаже до потребителската подкана.",
+                "enable_on_discussion_started_label": "Активиране при започване на дискусията",
+                "enable_on_discussion_started_help": "Дискусията ще получи отговор въз основа на съдържанието на първата публикация, когато дискусията започне."
             },
             "permissions": {
-                "use_chatgpt_assistant_label": ""
+                "use_chatgpt_assistant_label": "Използвайте ChatGPT помощник"
             }
         }
     }
