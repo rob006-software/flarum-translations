@@ -2,54 +2,54 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": "",
-                "view_birthday_label": ""
+                "edit_own_birthday_label": "Редактирайте собствения си рожден ден",
+                "view_birthday_label": "Вижте рожден ден"
             },
             "settings": {
-                "set_on_registration_label": "",
-                "required_label": "",
-                "required_help": "",
-                "min_age_label": "",
-                "min_age_help": "",
-                "date_format_label": "",
-                "date_format_help": "",
-                "date_none_year_label": ""
+                "set_on_registration_label": "Разрешете задаване на рождени дни при регистрация",
+                "required_label": "Задължително въвеждане на рождени дни",
+                "required_help": "Трябва да активирате опцията Задаване при регистрация, за да работи тази опция",
+                "min_age_label": "Минимална възраст",
+                "min_age_help": "Минимална възраст за регистрация",
+                "date_format_label": "Формат на датата",
+                "date_format_help": "Използвайте формата за дата <a>dayjs</a>. Оставете празно, за да използвате формата по подразбиране.",
+                "date_none_year_label": "Формат на датата без година"
             }
         },
         "forum": {
             "user": {
-                "birthday_text": "",
-                "age_text": ""
+                "birthday_text": "Рожден ден: {date}",
+                "age_text": "Възраст: {age}"
             },
             "header": {
-                "edit_dob_button": ""
+                "edit_dob_button": "Редактиране на датата на раждане"
             },
             "change_dob": {
-                "title": "",
-                "date_of_birth_text": "",
-                "submit_button": ""
+                "title": "Редактиране на датата на раждане",
+                "date_of_birth_text": "Дата на раждане",
+                "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
-                "change_dob_label": "",
-                "dob_heading": "",
-                "show_dob_date_label": "",
-                "show_dob_year_label": "",
-                "show_dob_year_help": ""
+                "change_dob_label": "Промяна на датата на раждане",
+                "dob_heading": "Дата на раждане",
+                "show_dob_date_label": "Показване на ден и месец на раждане",
+                "show_dob_year_label": "Покажи годината на раждане",
+                "show_dob_year_help": "Това ще позволи на хората да видят вашата възраст."
             },
             "edit_user": {
-                "dob_heading": ""
+                "dob_heading": "Дата на раждане"
             },
             "nav": {
-                "nav_item": ""
+                "nav_item": "Днешните рождени дни"
             },
             "page": {
-                "discussion_count": "",
-                "post_count": ""
+                "discussion_count": "{count, plural, one {Discussion: #} other {Discussions: #}}",
+                "post_count": "{count, plural, one {Post: #} other {Posts: #}}"
             }
         },
         "api": {
-            "invalid_dob_message": "",
-            "invalid_age_message": ""
+            "invalid_dob_message": "Невалидна дата на раждане",
+            "invalid_age_message": "Вашата възраст трябва да е поне {minAge} години."
         }
     }
 }
