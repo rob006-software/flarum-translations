@@ -11,40 +11,40 @@
         "forum": {
             "modal_resetviews": {
                 "title": "Нулирай броя на прегледите за дискусията",
-                "submit_button": "",
-                "label": ""
+                "submit_button": "Да, премахни всички",
+                "label": "{count, plural, one {This will remove {count} view of this discussion. Continue?} other {This will remove {count} views of this discussion. Continue?}}"
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "Нулирай прегледите"
             },
             "viewlist": {
-                "title": "",
-                "guest": ""
+                "title": "Последни прегледи",
+                "guest": "Гост"
             },
             "post": {
-                "viewed_by": "",
-                "you": "",
-                "others_link": "",
-                "modal_title_text": ""
+                "viewed_by": "{users} видяха това.",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "Потребители, които прегледаха тази дискусия"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": "",
-                "view_number_label": ""
+                "reset_views_label": "Нулирай прегледите на дискусията",
+                "view_number_label": "Виж брой прегледи на дискусията"
             },
             "settings": {
-                "title": "",
-                "track_unique_label": "",
-                "track_unique_text": "",
-                "track_guests_label": "",
-                "abbr_numbers_label": "",
-                "abbr_numbers_text": "",
-                "show_filter_label": "",
-                "max_viewcount_label": "",
+                "title": "Настройки за прегледи на дискусия",
+                "track_unique_label": "Проследи уникални прегледи",
+                "track_unique_text": "Увеличи прегледи на база на ip-адрес",
+                "track_guests_label": "Проследи гости",
+                "abbr_numbers_label": "Съкрати брой на прегледи",
+                "abbr_numbers_text": "Ако е активирано, висок брой на прегледи ще бъде съкратен (например 1000=1к)",
+                "show_filter_label": "Активирай \"(не)популярен\" поле за сортиране",
+                "max_viewcount_label": "Максимум елементи на списъка с прегледи",
                 "max_viewcount_text": "",
-                "show_viewlist_label": "",
-                "show_viewlist_text": "",
+                "show_viewlist_label": "Активирай списък с прегледи",
+                "show_viewlist_text": "Активирай списък с последни посетители в страничната лента на дискусията",
                 "show_footer_viewlist_label": "",
                 "show_footer_viewlist_text": "",
                 "ignore_crawlers_label": "",
