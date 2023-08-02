@@ -2,45 +2,45 @@
     "fof-subscribed": {
         "forum": {
             "settings": {
-                "defaults_label": "",
-                "forced_label": "",
-                "notify_discussion_created_label": "",
-                "notify_post_created_label": "",
-                "notify_post_unapproved_label": "",
-                "notify_user_created_label": "",
-                "notify_post_flagged_label": ""
+                "defaults_label": "Настрой \"{setting}\" активиран по подразбиране",
+                "forced_label": "Принудително активирай \"{setting}\" за всички",
+                "notify_discussion_created_label": "Някой създаде дискусия",
+                "notify_post_created_label": "Някоя създаде нова публикация или отговор",
+                "notify_post_unapproved_label": "Създадена публикация има нужда от одобрение",
+                "notify_user_created_label": "Когато някой се регистрира",
+                "notify_post_flagged_label": "Някой създаде нов флаг за публикация"
             },
             "notifications": {
-                "discussion_created_text": "",
-                "post_created_text": "",
-                "post_unapproved_text": "",
-                "user_created_text": "",
-                "post_flagged_text": ""
+                "discussion_created_text": "{username} създаде нова дискусия",
+                "post_created_text": "{username} написа нова публикация",
+                "post_unapproved_text": "{username} създаде нова публикация, която изисква одобрение",
+                "user_created_text": "{username} току-що се вписа",
+                "post_flagged_text": "{username} маркира публикация"
             }
         },
         "admin": {
             "permission": {
-                "subscribe_to_discussion_created": "",
-                "subscribe_to_post_created": "",
-                "subscribe_to_post_unapproved": "",
-                "subscribe_to_user_created": "",
-                "subscribe_to_post_flagged": ""
+                "subscribe_to_discussion_created": "Позволи да получава известие за нова дискусия",
+                "subscribe_to_post_created": "Позволи да получава известие при нова публикация или отговор",
+                "subscribe_to_post_unapproved": "Позволи да получава известие при нова неодобрена публикация",
+                "subscribe_to_user_created": "Позволи да получава известие за нов потребител",
+                "subscribe_to_post_flagged": "Позволи да получава известие за нов флаг"
             }
         },
         "email": {
             "subject": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": "",
+                "newDiscussion": "[Subscribed | New Discussion] {title}",
+                "newUser": "[Subscribed | New User] {username}",
+                "postUnapproved": "[Subscribed | Unapproved] {username} posted in {title}",
                 "postCreated": "",
                 "postFlagged": ""
             },
             "body": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": "",
-                "postCreated": "",
-                "postFlagged": ""
+                "newDiscussion": "Здравей {recipient_display_name},\n\n{actor_display_name} започна нова дискусия: {discussion_title}\n\nЗа да видиш тази нова дискусия, натисни на следния линк:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "Здравей {recipient_display_name},\n\n{actor_display_name} току-що се включи в {forum_url}.\n\nЗа да видиш профила на новия потребител, виж следния линк:\n{user_url}\n",
+                "postUnapproved": "Здравей {recipient_display_name},\n\n{actor_display_name} създаде публикация, която не беше автоматично одобрена в {discussion_title}\n\nЗа да видиш тази нова публикация, виж следния линк\n{post_url}\n\n---\n\n{post_content}\n",
+                "postCreated": "Здравей {recipient_display_name},\n\n{actor_display_name} току-що създаде нова публикация в {discussion_title}\n\nЗа да видиш тази нова публикация, виж следния линк:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postFlagged": "Здравей {recipient_display_name},\n\n{actor_display_name} току-що маркира с флаг публикация в {discussion_title}\n\nЗа да видиш тази публикация, виж следния линк\n{post_url}\n"
             }
         }
     }
