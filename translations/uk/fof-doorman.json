@@ -31,7 +31,7 @@
             "page": {
                 "title": "Швейцар",
                 "doorkey": {
-                    "used_times": "{remaining, plural, one {{remaining} ліворуч} other {{remaining} ліворуч}}",
+                    "used_times": "{remaining, plural, =0 {Unlimited uses} one {{remaining} use left} other {{remaining} uses left}}",
                     "total_uses": "",
                     "title": "Коди запрошення",
                     "help": {
