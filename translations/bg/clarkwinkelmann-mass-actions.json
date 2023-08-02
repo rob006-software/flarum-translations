@@ -9,26 +9,26 @@
                 "visible": "Не е изтрито",
                 "hidden": "",
                 "locked": "Заключено",
-                "unlocked": ""
+                "unlocked": "Заключено"
             },
             "actions": {
-                "markAsRead": "",
-                "hide": "",
-                "restore": "",
-                "delete": "",
-                "deleteConfirmation": "",
-                "lock": "",
-                "unlock": "",
+                "markAsRead": "Отбележи избраното като прочетено",
+                "hide": "Изтрий избраното",
+                "restore": "Възстанови избраното",
+                "delete": "Изтрий завинаги избраното",
+                "deleteConfirmation": "{count, plural, one {Are you sure you want to permanently delete the selected discussion?} other {Are you sure you want to permanently delete # selected discussions?}}",
+                "lock": "Заключи избраното",
+                "unlock": "Отключи избраното",
                 "sticky": "",
                 "unsticky": "",
-                "tags": "",
-                "tags-edit": "",
-                "tags-add": ""
+                "tags": "Тагове",
+                "tags-edit": "Редактирай тагове",
+                "tags-add": "Добави <em>{tag}</em>"
             }
         },
         "admin": {
             "permissions": {
-                "controls": ""
+                "controls": "Виж контролите за групово избиране"
             }
         }
     }
