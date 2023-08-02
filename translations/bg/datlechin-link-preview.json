@@ -2,24 +2,24 @@
     "datlechin-link-preview": {
         "admin": {
             "settings": {
-                "blacklist_label": "",
-                "blacklist_help": "",
-                "blacklist_placeholder": "",
-                "whitelist_label": "",
-                "whitelist_help": "",
-                "whitelist_placeholder": "",
-                "convert_media_urls_label": "",
-                "convert_media_urls_help": "",
-                "use_google_favicons_label": "",
-                "use_google_favicons_help": "",
-                "cache_time_label": "",
-                "cache_time_help": "",
-                "open_links_in_new_tab_label": "",
-                "open_links_in_new_tab_help": ""
+                "blacklist_label": "Черен списък",
+                "blacklist_help": "Въведете разделен със запетаи списък с домейни или URL адреси, които да изключите от визуализацията на връзката.",
+                "blacklist_placeholder": "напр. facebook.com,https://domain.com/path",
+                "whitelist_label": "Бял списък",
+                "whitelist_help": "Въведете разделен със запетаи списък с домейни или URL адреси, за да разрешите преглед на връзката.",
+                "whitelist_placeholder": "напр. facebook.com,https://domain.com/path",
+                "convert_media_urls_label": "Конвертиране на медийни URL адреси",
+                "convert_media_urls_help": "Ако е активирано, това ще преобразува всички медийни URL адреси във визуализации на връзки.",
+                "use_google_favicons_label": "Използвайте API на Google Favicon",
+                "use_google_favicons_help": "Ако е активирано, ще използва услуга на Google в предния план за заявка на иконата на съответния сайт.",
+                "cache_time_label": "Кеш време",
+                "cache_time_help": "Броят минути обходени връзки ще бъдат кеширани, преди да бъдат достъпени отново. Задайте 0, за да деактивирате кеширането на връзки. По подразбиране са 60 минути, ако не е зададено.",
+                "open_links_in_new_tab_label": "Отваряне на връзки в нов раздел",
+                "open_links_in_new_tab_help": "Ако е активирано, връзките ще се отварят в нов раздел."
             }
         },
         "forum": {
-            "site_cannot_be_reached": ""
+            "site_cannot_be_reached": "Този сайт не може да бъде достигнат."
         }
     }
 }
