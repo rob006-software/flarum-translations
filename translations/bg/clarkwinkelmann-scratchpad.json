@@ -2,52 +2,52 @@
     "clarkwinkelmann-scratchpad": {
         "admin": {
             "settings": {
-                "title": "",
-                "single-column": "",
-                "theme": "",
-                "theme-auto": "",
-                "indent": "",
-                "npm-install-command": "",
-                "webpack-command": "",
-                "empty-for-default": "",
-                "validate-live": "",
-                "compile-automatically": ""
+                "title": "Настройки на бележник",
+                "single-column": "Групирайте редакторите в една колона вместо в 3",
+                "theme": "Тема на CodeMirror (необходимо е да опресните страницата, за да влезе в сила)",
+                "theme-auto": "Автоматично (по подразбиране е светла тема, darcula е тъмна тема)",
+                "indent": "Брой интервали за отстъп",
+                "npm-install-command": "Команда за инсталиране на NPM",
+                "webpack-command": "Команда Webpack",
+                "empty-for-default": "Оставете празно за командата по подразбиране",
+                "validate-live": "Извършете заявка към началната страница, за да потвърдите Less и PHP, преди да запазите",
+                "compile-automatically": "Компилирайте JS автоматично при записване"
             },
             "controls": {
-                "refresh": "",
-                "save": "",
-                "compile": "",
-                "settings": "",
-                "new": "",
-                "new-confirmation": "",
-                "delete": "",
-                "delete-confirmation": "",
-                "enable": "",
-                "disable": ""
+                "refresh": "Опресни",
+                "save": "Запази",
+                "compile": "Компилирайте JS",
+                "settings": "Настройки на редактора",
+                "new": "Нов",
+                "new-confirmation": "Текущият бележник не е запазен. Искате ли да го изтриете и да създадете нов?",
+                "delete": "Изтрий",
+                "delete-confirmation": "Изтриване на „{title}“?",
+                "enable": "Кликнете, за да активирате",
+                "disable": "Кликнете, за да деактивирате"
             },
             "fields": {
-                "title": "",
-                "admin_js": "",
-                "forum_js": "",
-                "admin_less": "",
-                "forum_less": "",
-                "php": ""
+                "title": "Име на бележника",
+                "admin_js": "Администратор JS",
+                "forum_js": "Форум JS",
+                "admin_less": "Администраторски CSS стилове",
+                "forum_less": "CSS стилове на форума",
+                "php": "PHP"
             },
             "placeholders": {
-                "untitled": "",
-                "php-comment": "",
-                "js-log": ""
+                "untitled": "Без заглавие",
+                "php-comment": "Регистрирайте разширители тук",
+                "js-log": "Здравей, {frontend}!"
             },
             "compilation-alert": {
-                "success": "",
-                "failure": "",
-                "view-output": ""
+                "success": "Компилиран!",
+                "failure": "Неуспешна компилация!",
+                "view-output": "Преглед на изхода"
             },
             "compilation-modal": {
-                "title": "",
-                "webpack": "",
-                "npm": "",
-                "npm-not-run": ""
+                "title": "Компилационен изход",
+                "webpack": "Изход на Webpack",
+                "npm": "NPM изход",
+                "npm-not-run": "НПМ не стартира"
             }
         }
     }
