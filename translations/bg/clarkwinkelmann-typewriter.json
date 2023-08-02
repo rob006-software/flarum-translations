@@ -2,21 +2,21 @@
     "clarkwinkelmann-typewriter": {
         "admin": {
             "settings": {
-                "muteByDefault": "",
-                "showIntroductionPopup": "",
-                "defaultFile": "",
-                "sounds": "",
+                "muteByDefault": "Заглушен по подразбиране",
+                "showIntroductionPopup": "Показване на въведението за първи път",
+                "defaultFile": "Звуков файл по подразбиране",
+                "sounds": "Допълнителни звуци",
                 "head": {
-                    "keys": "",
-                    "file": ""
+                    "keys": "Ключове",
+                    "file": "Файл"
                 },
-                "add": ""
+                "add": "Добави звук"
             }
         },
         "forum": {
-            "enable": "",
-            "mute": "",
-            "introductionMessage": ""
+            "enable": "Включи звуците при писане",
+            "mute": "Изключи звуците при писане",
+            "introductionMessage": "Щракнете, за да активирате или заглушите звуците при писане"
         }
     }
 }
