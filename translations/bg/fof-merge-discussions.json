@@ -31,29 +31,29 @@
         },
         "admin": {
             "permissions": {
-                "merge_discussions_label": ""
+                "merge_discussions_label": "Обедини дискусии"
             },
             "settings": {
-                "search_result_help": "",
+                "search_result_help": "Колко дискусии да се показват когато се търси в \"Обединени Дискусии\"модул.",
                 "search_result_label": ""
             }
         },
         "api": {
             "error": {
-                "merging_failed": "",
-                "updating_failed": "",
-                "deleting_failed": "",
+                "merging_failed": "Неуспешно обединяване на дискусии.",
+                "updating_failed": "Неуспешно обновяване на детайлите на дискусията.",
+                "deleting_failed": "Неуспешно изтриване на празни дискусии.",
                 "fixing_posts_number_failed": "",
                 "fixing_posts_number_meta_failed": ""
             }
         },
         "ref": {
-            "merge": ""
+            "merge": "Обедини"
         },
         "email": {
             "merged": {
-                "body": "",
-                "subject": ""
+                "body": "Здравей {recipient_display_name},\n\nТвоята дискусия, {merged_discussion_title}, беше обединена с {discussion_title} от {actor_display_name}.\n\nВиж я тук {discussion_url} .\n",
+                "subject": "Твоята дискусия\"{merged_discussion_title}\" беше обединена"
             }
         }
     }
