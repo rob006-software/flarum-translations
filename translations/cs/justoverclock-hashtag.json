@@ -2,14 +2,14 @@
     "justoverclock-hashtag": {
         "admin": {
             "settings": {
-                "regexlabel": "",
-                "regexdesc": "",
-                "oldregexdesc": ""
+                "regexlabel": "Regulární výraz pro hashtagy",
+                "regexdesc": "Níže je uveden příklad jako zástupný symbol. Upravujte pouze v případě, že rozumíte regulárním výrazům.",
+                "oldregexdesc": "Předchozí regulární výraz pro hashtagy: <code>{regex}</code>"
             }
         },
         "forum": {
             "post": {
-                "hashtag_link_tooltip": ""
+                "hashtag_link_tooltip": "Najít příspěvky související s tímto hashtagem"
             }
         }
     }
