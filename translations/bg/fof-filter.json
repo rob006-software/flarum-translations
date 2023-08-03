@@ -1,39 +1,39 @@
 {
     "fof-filter": {
         "forum": {
-            "flagger_name": "",
+            "flagger_name": "Автоматичен Модератор",
             "flag_message": ""
         },
         "admin": {
-            "title": "",
+            "title": "Филтър",
             "bad_words_help": "",
-            "help2": "",
+            "help2": "Интервал в минути , в който публикации от същие потребител в същата дискусия ще бъдат автоматично обединени.",
             "email_help": "",
             "filter_label": "",
-            "countLabel": "",
+            "countLabel": "Censor Tolorance",
             "cooldownLabel": "",
-            "auto_merge_title": "",
+            "auto_merge_title": "Автоматично сливане",
             "input": {
                 "placeholder": "",
                 "filter_title": "",
-                "email_label": "",
+                "email_label": "Настройки на имейл",
                 "switch": {
-                    "email": "",
-                    "merge": ""
+                    "email": "Изпрати имейл на потребителя след филтриране на публикацията",
+                    "merge": "Автоматично слей дублирани публикации"
                 },
-                "email_subject": "",
+                "email_subject": "Тема",
                 "email_body": ""
             },
             "nav": {
-                "text": "",
-                "desc": ""
+                "text": "Филтър",
+                "desc": "Филтрирай публикации по думи"
             },
             "permission": {
-                "bypass_filter_label": ""
+                "bypass_filter_label": "Заобиколи филтър по дума(и)"
             },
             "email": {
-                "default_subject": "",
-                "default_text": ""
+                "default_subject": "По отношение на Твоя Последен Пост",
+                "default_text": "Благодаря, че публикува! За съжаление твоя пост беше премахнат тъй като имаше съдържание, което не желаем да виждаме в нашия форум.\n\nАко смяташ, че това е била грешка, имаш късмет, всеки премахнат пост се преглежда от нашите модератори. Ако те открият, че публикацията е била грешно премахната, ще я възстановят.                \n\nБлагодаря за твоето разбиране."
             }
         }
     }
