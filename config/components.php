@@ -980,6 +980,9 @@ return [
 	'marchccc-mentions-group-users' => [
 		'tag' => 'https://raw.githubusercontent.com/Marchccc/flarum-ext-mentions-group-users/v0.1.0/locale/en.yml',
 	],
+	'matteociaroni-old-content' => [
+		'tag' => 'https://raw.githubusercontent.com/matteociaroni/flarum-old-content/v0.1.0/locale/en.yml',
+	],
 	'matteociaroni-public-suspensions' => [
 		'tag' => 'https://raw.githubusercontent.com/matteociaroni/flarum-public-suspensions/v1.0.0/locale/en.yml',
 	],
