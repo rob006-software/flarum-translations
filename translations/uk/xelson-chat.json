@@ -138,16 +138,16 @@
                             "edited": "Користувач {editorname} змінив іконку чату з {old} на {new}"
                         },
                         "color": {
-                            "edited": ""
+                            "edited": "Користувач {editorname} змінив колір чату з {old} на {new}"
                         },
                         "users": {
-                            "invited": "",
-                            "kicked": "",
-                            "invited_kicked": ""
+                            "invited": "Користувач {editorname} запросив {usernames}",
+                            "kicked": "Користувач {editorname} викинув {usernames}",
+                            "invited_kicked": "Користувач {editorname} запросив {invitednames} та викинув {kickednames}"
                         },
                         "self": {
-                            "leaved": "",
-                            "entered": ""
+                            "leaved": "Користувач {username} вийшов з чату",
+                            "entered": "Користувач {username} увійшов до чату"
                         }
                     }
                 }
@@ -183,8 +183,8 @@
                 },
                 "display": {
                     "title": "Показати",
-                    "minimize": "",
-                    "censor": ""
+                    "minimize": "Спочатку мінімізуйте",
+                    "censor": "Цензура повідомлень для неавторизованих користувачів"
                 }
             }
         }
