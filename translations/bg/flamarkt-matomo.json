@@ -2,13 +2,13 @@
     "flamarkt-matomo": {
         "admin": {
             "settings": {
-                "url": "",
-                "siteId": "",
-                "trackAccounts": "",
+                "url": "Matomo server domain или URL",
+                "siteId": "Сайт ID",
+                "trackAccounts": "Проследи индивидуални потребителски профили",
                 "trackAccountsOptions": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "Не следи",
+                    "username": "Следи по потребителско име",
+                    "email": "Следи по имейл"
                 }
             }
         }
