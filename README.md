@@ -1065,6 +1065,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`malago-ads`](https://weblate.rob006.net/projects/flarum/malago-ads) | [`malago/flarum-ads`](https://github.com/malago86/flarum-ads) |
 | [`malago-fancybox`](https://weblate.rob006.net/projects/flarum/malago-fancybox) | [`malago/flarum-ext-fancybox`](https://github.com/malago86/flarum-ext-fancybox) |
 | [`marchccc-mentions-group-users`](https://weblate.rob006.net/projects/flarum/marchccc-mentions-group-users) | [`marchccc/flarum-ext-mentions-group-users`](https://github.com/Marchccc/flarum-ext-mentions-group-users) |
+| [`matteociaroni-old-content`](https://weblate.rob006.net/projects/flarum/matteociaroni-old-content) | [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content) |
 | [`matteociaroni-public-suspensions`](https://weblate.rob006.net/projects/flarum/matteociaroni-public-suspensions) | [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions) |
 | [`matteocontrini-imgur-upload`](https://weblate.rob006.net/projects/flarum/matteocontrini-imgur-upload) | [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload) |
 | [`michaelbelgium-discussion-views`](https://weblate.rob006.net/projects/flarum/michaelbelgium-discussion-views) | [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) |
