@@ -1,16 +1,16 @@
 {
     "nyu8-email-filter": {
         "admin": {
-            "general": "",
-            "custom_failure_message_label": "",
-            "custom_failure_message_hint": "",
-            "rule_settings": "",
-            "name_placeholder": "",
+            "general": "Обща информация",
+            "custom_failure_message_label": "Персонализирано Съобщение за Грешка",
+            "custom_failure_message_hint": "Персонализирано съобщение за грешка, което показва, когато имейлът е невалиден. Ще покаже съобщения за грешка по подразбиране, ако това остане празно.",
+            "rule_settings": "Настройки на правила",
+            "name_placeholder": "Име на правило",
             "invalid_regular_expression": "",
             "whitelist_literal": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Whitelist",
+                "description": "Точни имейли в whitelist",
+                "placeholder": "Имейл в whitelist..."
             },
             "whitelist_regex": {
                 "label": "",
@@ -18,9 +18,9 @@
                 "placeholder": ""
             },
             "blacklist_literal": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Blacklist",
+                "description": "Точни имейли в blacklist-а",
+                "placeholder": "Имейли в blacklist..."
             },
             "blacklist_regex": {
                 "label": "",
@@ -29,9 +29,9 @@
             }
         },
         "forum": {
-            "generic_exception": "",
-            "blacklist_exception": "",
-            "whitelist_exception": ""
+            "generic_exception": "Нещо се обърка. Обърнете се към администратора на този форум.",
+            "blacklist_exception": "Този имейл или неговият домейн е в blacklist-а на този форум.",
+            "whitelist_exception": "Този имейл или неговият домейн не е в whitelist-а на този форум."
         }
     }
 }
