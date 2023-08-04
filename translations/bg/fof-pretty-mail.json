@@ -2,32 +2,32 @@
     "fof-pretty-mail": {
         "admin": {
             "nav": {
-                "desc": ""
+                "desc": "Персонализирай твоите HTML имейл образци."
             },
             "settings": {
                 "attributes": {
-                    "body": "",
-                    "forumStyle": "",
-                    "url": "",
-                    "settings": "",
-                    "link": ""
+                    "body": "Съдържа действителното съдържание на имейл",
+                    "forumStyle": "Съдържа <strong>целия форум CSS</strong>",
+                    "url": "Flarum's <code>UrlGenerator</code>",
+                    "settings": "Позволява ти да въздействаш с SettingsRepositoryInterface",
+                    "link": "Създава връзка в самия имейл"
                 },
-                "attributes_label": "",
-                "label": "",
-                "reset": "",
-                "confirm": "",
-                "default": "",
-                "newPost": "",
-                "userMentioned": "",
-                "postMentioned": "",
-                "notifications": "",
-                "notificationHelp": "",
-                "template_help": ""
+                "attributes_label": "Налични атрибути",
+                "label": "Имейл Образци",
+                "reset": "Връщане към по подразбиране",
+                "confirm": "Сигурен ли си, че искаш да се върнеш обратно към основния имейл шаблон за",
+                "default": "Образец по подразбиране",
+                "newPost": "Flarum/записване за Нова Публикация Имейл",
+                "userMentioned": "Flarum/споменавания Потребител споменат в Имейл",
+                "postMentioned": "Flarum/споменавания Публикация спомената в Имейл",
+                "notifications": "Образци за известия",
+                "notificationHelp": "Препоръчително е да се използва \"$forumStyle\" за тези имейли тъй като може да съдържат BBCODE. Тези имейли също имат наличен \"$user\" който съдържа целия потребителски модел на потребителят, на когото се изпраща имейлът.",
+                "template_help": "Провери всеки образец за това как се използва всеки атрибут."
             },
             "css_settings": {
-                "label": "",
-                "help": "",
-                "switch_label": ""
+                "label": "CSS настройки",
+                "help": "Може да избереш да включиш CSS на формула в HTML кода на имейла. Ако активираш това, може да имаш трудности с някои имейл провайдъри.",
+                "switch_label": "Включи пълния CSS на форума"
             }
         }
     }
