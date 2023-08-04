@@ -3,43 +3,43 @@
         "ads": {
             "admin": {
                 "permissions": {
-                    "bypassAds": ""
+                    "bypassAds": "Скрий рекламите от форума"
                 },
                 "settings": {
-                    "admin_bypass_warning": "",
+                    "admin_bypass_warning": "Поради естеството на системата за разрешения на Flarum, членовете на групата Admin няма да виждат никакви реклами във форума.\nАко искате да тествате вашите реклами, моля посетете форума в прозорец „Инкогнито“ или „Частен“.\n",
                     "enabled_locations": "",
                     "script_urls": "",
-                    "add_script": "",
-                    "script_deletion": "",
-                    "code_input": "",
+                    "add_script": "Нов",
+                    "script_deletion": "За да премахнете скрипт, оставете текстовото поле празно и натиснете „Запазване на промените“.",
+                    "code_input": "HTML код",
                     "code_input_disabled": "",
-                    "js_input": "",
+                    "js_input": "Javascript код",
                     "js_input_disabled": "",
-                    "use_adsense": "",
+                    "use_adsense": "Използвай AdSense",
                     "pub_id": "",
-                    "between_posts_gap": "",
+                    "between_posts_gap": "Между публикациите: интервал между рекламите",
                     "allow_after_placeholder": "",
                     "save_btn": {
-                        "dirty": "",
-                        "saving": "",
-                        "saved": "",
-                        "fix_errors": ""
+                        "dirty": "Запази промените",
+                        "saving": "Запазва се...",
+                        "saved": "Всички промени са запазени",
+                        "fix_errors": "Оправи грешките преди да запазиш"
                     },
                     "alert": {
-                        "fix_errors": "",
-                        "code_has_script": ""
+                        "fix_errors": "Моля, коригирай грешките по-горе, преди да запазиш промените",
+                        "code_has_script": "Един или повече от твоите рекламни елементи съдържат скрипт тагове, които не са разрешени. Премахни ги и опитай отново."
                     },
                     "warning": ""
                 }
             },
             "lib": {
                 "locations": {
-                    "discussion_header": "",
+                    "discussion_header": "Дискусионна страница (под заглавната лента)",
                     "discussion_sidebar": "",
-                    "header": "",
+                    "header": "Заглавна лента",
                     "sidebar": "",
                     "footer": "",
-                    "between_posts": ""
+                    "between_posts": "Между публикации"
                 }
             }
         }
