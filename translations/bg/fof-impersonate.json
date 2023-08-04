@@ -2,24 +2,24 @@
     "fof-impersonate": {
         "admin": {
             "permissions": {
-                "login": ""
+                "login": "Влез като други потребители"
             },
             "settings": {
-                "title": "",
-                "require_reason": "",
-                "no_settings_available": ""
+                "title": "Имитиране на FoF",
+                "require_reason": "Изискай за въвеждане на причина, преди да се представиш за друг потребител.",
+                "no_settings_available": "В момента няма налични настройки. Опитай да инсталираш fof/moderator-notes"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "title": "Влез като друг потребител",
+                "label": "С голямата власт идва и голямата отговорност. Продължавайки, ще станеш {username} докато не излезеш.",
+                "placeholder_optional": "(По избор) Посочи причината ти да преминеш към този потребител",
+                "placeholder_required": "Преди да продължиш трябва да предоставиш причината за превключването към този потребител",
+                "impersonate_username": "Влез като {username}"
             },
             "user_controls": {
-                "impersonate_button": ""
+                "impersonate_button": "Влез като потребител"
             }
         }
     }
