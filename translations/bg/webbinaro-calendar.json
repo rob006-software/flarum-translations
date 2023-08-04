@@ -2,35 +2,35 @@
     "flarum-calendar": {
         "forum": {
             "button": {
-                "landing": "",
-                "create": "",
-                "login": ""
+                "landing": "Календар на Събитията",
+                "create": "Ново Събитие",
+                "login": "Добави Твое Събитие "
             },
             "modal": {
-                "title_create": "",
-                "title_edit": "",
-                "title_label": "",
-                "dates_label": "",
-                "description_label": "",
-                "description_placeholder": "",
-                "requirement_message": "",
-                "submit": ""
+                "title_create": "Създай ново събитие в календара",
+                "title_edit": "Редактирай детайлите по събитие",
+                "title_label": "Какво",
+                "dates_label": "Кога",
+                "description_label": "Детайли",
+                "description_placeholder": "Детайли по Събитие",
+                "requirement_message": "Сибитията изискват име и описание",
+                "submit": "Изпрати"
             },
             "event": {
-                "details": "",
-                "hosted_by": "",
-                "starts": "",
-                "ends": "",
-                "confirm_delete": "",
-                "deleted": ""
+                "details": "Повече детайли за това събитие",
+                "hosted_by": "Хоствано от:",
+                "starts": "Начало:",
+                "ends": "Край:",
+                "confirm_delete": "Сигурен ли си, че искаш да изтриеш това събитие?",
+                "deleted": "Това събитие беше изтрито"
             }
         },
         "admin": {
             "settings": {
-                "hide_host": ""
+                "hide_host": "Скрий хоста ( хоствано от...)"
             },
             "permissions": {
-                "add": "",
+                "add": "Създай ново Събитие в Календара",
                 "moderate": "",
                 "view": ""
             },
