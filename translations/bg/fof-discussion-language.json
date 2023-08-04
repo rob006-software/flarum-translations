@@ -2,43 +2,43 @@
     "fof-discussion-language": {
         "forum": {
             "change_language": {
-                "edit_title": "",
-                "title": "",
-                "submit_button": ""
+                "edit_title": "Език за редактиране за {title}",
+                "title": "Език за редактиране",
+                "submit_button": "=> core.ref.save_changes"
             },
             "composer_discussion": {
-                "choose_language_link": ""
+                "choose_language_link": "Език"
             },
             "discussion_controls": {
-                "change_language_button": ""
+                "change_language_button": "Задай Език"
             },
             "index_language": {
-                "any": ""
+                "any": "Всеки език"
             }
         },
         "admin": {
             "settings": {
-                "native_label": "",
-                "show_flag_label": "",
+                "native_label": "Използвай имена на роден език",
+                "show_flag_label": "Покажи знамена на държави с имена на езици",
                 "composer_default_label": "",
-                "locale_sort_label": "",
-                "show_any_lang_opt_label": "",
+                "locale_sort_label": "Използвай открития език за филтър на дискусията по подразбиране",
+                "show_any_lang_opt_label": "Покажи опцията за избор на „Всеки език“",
                 "tags_page_discussion_locale_label": "",
                 "errors": {
                     "missing_assets": ""
                 },
                 "config": {
-                    "language_label": "",
-                    "country_label": ""
+                    "language_label": "Език",
+                    "country_label": "Държава (за показване на флаг)"
                 }
             },
             "permissions": {
-                "allow_change_language_label": ""
+                "allow_change_language_label": "Позволи редактиране на език"
             }
         },
         "api": {
             "discussion": {
-                "validation_error": ""
+                "validation_error": "Трябва да избереш език на дискусията."
             }
         }
     }
