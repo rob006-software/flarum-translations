@@ -2,34 +2,34 @@
     "fof-drafts": {
         "admin": {
             "permissions": {
-                "start": "",
-                "schedule": ""
+                "start": "Създай чернови",
+                "schedule": "Създай график за чернови"
             },
             "settings": {
-                "title": "",
-                "enable_scheduled_drafts": "",
-                "schedule_on_one_server": "",
+                "title": "FoF Чернови",
+                "enable_scheduled_drafts": "Активирай Планирани Чернови",
+                "schedule_on_one_server": "Use 'onOneServer()' directive for the task scheduler (requires Redis/Memcache)",
                 "schedule_log_output": ""
             }
         },
         "console": {
-            "scheduled_drafts_disabled": ""
+            "scheduled_drafts_disabled": "Планирани чернови в момента са деактивирани в настройките."
         },
         "ref": {
-            "schedule_draft": ""
+            "schedule_draft": "Планирай чернова"
         },
         "forum": {
             "composer": {
-                "title": "",
-                "saving": "",
-                "saved": "",
-                "exit_alert": "",
-                "discard_empty_draft_alert": ""
+                "title": "Запази Чернова",
+                "saving": "Запазва се...",
+                "saved": "Запазено!",
+                "exit_alert": "Да се отхвърлят ли промените в черновата?",
+                "discard_empty_draft_alert": "Да се отхвърли ли празна чернова?"
             },
             "dropdown": {
-                "empty_text": "",
-                "title": "",
-                "delete_all_button": "",
+                "empty_text": "Не сте запазили никакви чернови",
+                "title": "Чернови",
+                "delete_all_button": "Изтрий всички чернови",
                 "delete_button": "",
                 "schedule_button": "",
                 "scheduled_icon_tooltip": "",
