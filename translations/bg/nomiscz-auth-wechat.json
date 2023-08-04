@@ -2,37 +2,37 @@
     "nomiscz-auth-wechat": {
         "forum": {
             "buttons": {
-                "login": "",
-                "link": "",
-                "unlink": ""
+                "login": "Влез с WeChat",
+                "link": "Свържи WeChat профил",
+                "unlink": "Премахни WeChat профил"
             },
             "alerts": {
-                "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
-                "error": ""
+                "already_linked": "WeChat Профил е вече свързан!",
+                "already_used": "WeChat Профил е вече свързан към друг потребител!",
+                "link_success": "Връзката с WeChat Профил е успешна.",
+                "unlink_success": "Успешно премахване на връзката с WeChat Профила.",
+                "error": "Нещо се обърка, моля, опитайте отново по-късно!"
             },
             "modals": {
                 "link": {
-                    "title": ""
+                    "title": "Свържи WeChat Профила"
                 },
                 "unlink": {
-                    "title": "",
+                    "title": "Премахване на връзката с WeChat Профила",
                     "info": {
-                        "confirm": "",
+                        "confirm": "Сигурни ли сте, че искате да премахнете връзката с профила си в WeChat?",
                         "no_providers": ""
                     },
                     "buttons": {
-                        "confirm": "",
-                        "cancel": ""
+                        "confirm": "Да, премахвани връзката с акаунта",
+                        "cancel": "Не!"
                     }
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Настройки за удостоверяване на WeChat",
                 "api_app_id": "",
                 "api_app_secret": ""
             }
