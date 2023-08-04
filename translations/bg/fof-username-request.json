@@ -2,37 +2,37 @@
     "fof-username-request": {
         "admin": {
             "permissions": {
-                "moderate_requests": "",
-                "request_nickname": "",
-                "request_username": ""
+                "moderate_requests": "Одобри заявки за промяна на потребителски имена/псевдоним",
+                "request_nickname": "Заяви промяна на псевдоним",
+                "request_username": "Заяви промяна на потребителско име"
             }
         },
         "forum": {
             "nickname_modals": {
                 "action": {
-                    "title": "",
-                    "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "title": "=> fof-username-request.ref.nickname_change_request",
+                    "help_text": "Моля, уверете се, че исканата промяна на псевдоним следва указанията на форума.",
+                    "decision_title": "Решение",
+                    "approval_label": "Одобрявам",
+                    "rejected_label": "Отхвърлям",
+                    "submit_button": "Изпращам",
+                    "reason_title": "Причина за Отхвърляне",
+                    "success": "Изпратено Решение.",
+                    "name": "{name} поиска да промени прякора си на \"{requestedName}\""
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
-                    "dismiss_button": "",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
-                    "resubmit": ""
+                    "title": "Заявка за промяна на псевдоним",
+                    "approved": "Твоята заявка за промяна на псевдоним беше одобрена",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Твоят псевдоним беше успешно променен на: {name}",
+                    "rejected": "Твоята заявка за промяна на псевдоним беше отхвърлена",
+                    "reason": "Причина за отказ: <i>\"{reason}\"</i>.",
+                    "resubmit": "Понастоящем можете да изпратите отново нова заявка за промяна на псевдоним от настройките на вашия акаунт, ако решите."
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
-                    "submit_button": "",
+                    "title": "Заяви промяна на псевдоним",
+                    "current_request": "Вече сте поискали да промените псевдонима си на „{name}“. Можете или да актуализирате заявката си, или да я изтриете.",
+                    "submit_button": "Изпрати заявка",
                     "delete_button": "",
                     "confirmation_message": "",
                     "dismiss_button": "",
