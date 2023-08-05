@@ -2,24 +2,24 @@
     "fof-impersonate": {
         "admin": {
             "permissions": {
-                "login": ""
+                "login": "Přihlásit se jako jiný uživatel"
             },
             "settings": {
-                "title": "",
-                "require_reason": "",
-                "no_settings_available": ""
+                "title": "FoF Impersonate",
+                "require_reason": "Vyžadovat uvedení důvodu před vydáváním se za jiného uživatele.",
+                "no_settings_available": "V tuto chvíli nejsou k dispozici žádná nastavení. Zkuste nainstalovat fof/moderator-notes"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "title": "Přihlásit se jako jiný uživatel",
+                "label": "S velkou mocí přichází i velká odpovědnost. Budete-li pokračovat, stanete se uživatelem {username}, a to až do okamžiku, kdy se odhlásíte.",
+                "placeholder_optional": "(Nepovinné) Uveďte důvod, proč se chcete stát tímto uživatelem",
+                "placeholder_required": "Chcete-li pokračovat, musíte uvést důvod své změny na tohoto uživatele",
+                "impersonate_username": "Přihlásit se jako {username}"
             },
             "user_controls": {
-                "impersonate_button": ""
+                "impersonate_button": "Přihlásit se jako tento uživatel"
             }
         }
     }
