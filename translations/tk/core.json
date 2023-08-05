@@ -74,7 +74,7 @@
                 "tools_button": "Gurallar"
             },
             "debug-warning": {
-                "detail": "",
+                "detail": "Wheň <code>debug</code> mode is active, Flarum will rebuild its <code>JavaScript</code> and <code>CSS</code> assets on every request, and could also potentially leak other information, such as database secrets, environment variables, etc.\n\nIt is highly recommended to disable <code>debug</code> in your <code>config.php</code> file in production. See <link>Flarum docs</link> for more information.\n",
                 "label": "Debug tertibi işjeň"
             },
             "edit_css": {
@@ -172,96 +172,96 @@
                     "feature": "Aýratynlyklar",
                     "formatting": "Formatirleme",
                     "language": "Diller",
-                    "moderation": "",
-                    "other": "",
-                    "theme": ""
+                    "moderation": "Moderasiýa",
+                    "other": "Beýleki giňeltmeler",
+                    "theme": "Temalar"
                 },
-                "dashboard_button": "",
-                "dashboard_title": "",
-                "email_button": "",
-                "email_title": "",
-                "permissions_button": "",
-                "permissions_title": "",
-                "userlist_button": "",
-                "userlist_title": "",
-                "search_placeholder": ""
+                "dashboard_button": "=> core.admin.dashboard.title",
+                "dashboard_title": "=> core.admin.dashboard.description",
+                "email_button": "=> core.ref.email",
+                "email_title": "=> core.admin.email.description",
+                "permissions_button": "=> core.admin.permissions.title",
+                "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
+                "search_placeholder": "Giňeldişleri gözläň"
             },
             "permissions": {
-                "allow_hide_own_posts_label": "",
-                "allow_post_editing_label": "",
-                "allow_renaming_label": "",
-                "create_access_token_label": "",
-                "create_heading": "",
-                "delete_discussions_forever_label": "",
-                "delete_discussions_label": "",
-                "delete_posts_forever_label": "",
-                "delete_posts_label": "",
-                "description": "",
-                "edit_posts_label": "",
-                "edit_users_label": "",
-                "edit_users_credentials_label": "",
-                "edit_users_groups_label": "",
-                "global_heading": "",
-                "moderate_heading": "",
-                "moderate_access_tokens_label": "",
-                "new_group_button": "",
-                "participate_heading": "",
-                "post_without_throttle_label": "",
-                "read_heading": "",
-                "rename_discussions_label": "",
-                "reply_to_discussions_label": "",
-                "search_users_label": "",
-                "sign_up_label": "",
-                "start_discussions_label": "",
-                "title": "",
-                "view_forum_label": "",
-                "view_hidden_groups_label": "",
-                "view_last_seen_at_label": "",
-                "view_post_ips_label": ""
+                "allow_hide_own_posts_label": "Öz ýazgylaryňyzy pozmaga rugsat bermek",
+                "allow_post_editing_label": "Post redaktirlemegine rugsat bermek",
+                "allow_renaming_label": "Adyny üýtgetmäge rugsat bermek",
+                "create_access_token_label": "Giriş tokeny döretmek",
+                "create_heading": "Döretmek",
+                "delete_discussions_forever_label": "Gürrüňleri hemişeleýin pozmak",
+                "delete_discussions_label": "Gürrüňleri pozmak",
+                "delete_posts_forever_label": "Postlary hemişeleýin pozmak",
+                "delete_posts_label": "Postlary pozmak",
+                "description": "Kim görüp we näme edip biljekdigini sazlamak",
+                "edit_posts_label": "Postlary redaktirlemek",
+                "edit_users_label": "Ulanyjy atributlaryny redaktirlemek",
+                "edit_users_credentials_label": "Ulanyjy şahsyýet maglumatlaryny redaktirlemek",
+                "edit_users_groups_label": "Ulanyjy toparlaryny redaktirlemek",
+                "global_heading": "Global",
+                "moderate_heading": "moderirlemek",
+                "moderate_access_tokens_label": "Giriş tokenlary moderirlemek",
+                "new_group_button": "Täze topar",
+                "participate_heading": "Gatnaşmak",
+                "post_without_throttle_label": "Garaşman birnäçe gezek jogap bermek",
+                "read_heading": "Okamak",
+                "rename_discussions_label": "Gürrüňleriň adyny üýygetmek",
+                "reply_to_discussions_label": "Gürrüňlere jogap bermek",
+                "search_users_label": "=> core.ref.search_users",
+                "sign_up_label": "Hasaba gimek",
+                "start_discussions_label": "Gürrüňleri başlatmak",
+                "title": "Rugsatlar",
+                "view_forum_label": "Forumy görüň (gürrüňler we ulanyjylar)",
+                "view_hidden_groups_label": "Gizlin topar nyşanlaryny görüň",
+                "view_last_seen_at_label": "Ulanyjyny soňky gezek gören wagtyňyzy hemişe görüň",
+                "view_post_ips_label": "Postlaryň IP adreslerini görmek"
             },
             "permissions_controls": {
-                "allow_indefinitely_button": "",
-                "allow_never_button": "",
-                "allow_some_minutes_button": "",
-                "allow_ten_minutes_button": "",
-                "allow_until_reply_button": "",
-                "everyone_button": "",
-                "members_button": "",
-                "signup_closed_button": "",
-                "signup_open_button": ""
+                "allow_indefinitely_button": "Elbetde",
+                "allow_never_button": "=> core.ref.never",
+                "allow_some_minutes_button": "{count, plural, one {# minutlyk} other {# minutlyk}}",
+                "allow_ten_minutes_button": "10 minutlyk",
+                "allow_until_reply_button": "Indiki jogaba çenli",
+                "everyone_button": "Hemmeler",
+                "members_button": "=> core.group.members",
+                "signup_closed_button": "Ýapyk",
+                "signup_open_button": "Açyk"
             },
             "settings": {
-                "saved_message": "",
-                "submit_button": ""
+                "saved_message": "Üýtgeşmeleriňiz ýazdyryldy.",
+                "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "=> core.ref.remove",
+                "upload_button": "Surat saýlaň ..."
             },
             "users": {
-                "create_user_button": "",
-                "description": "",
+                "create_user_button": "Täze ulanyjy",
+                "description": "Forumyňyzdaky ähli ulanyjylaryň sahypasy.",
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": ""
+                            "title": "Ady görkezmek"
                         },
                         "edit_user": {
-                            "button": "",
-                            "title": "",
-                            "tooltip": ""
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
+                            "tooltip": "{username} redaktirlemek"
                         },
                         "email": {
-                            "title": "",
-                            "visibility_hide": "",
-                            "visibility_show": ""
+                            "title": "=> core.ref.email",
+                            "visibility_hide": "E-poçta salgysyny gizlemek",
+                            "visibility_show": "E-poçta salgysyny görkezmek"
                         },
                         "group_badges": {
-                            "no_badges": "",
-                            "title": ""
+                            "no_badges": "Hiç",
+                            "title": "Toparlar"
                         },
                         "join_time": {
-                            "title": ""
+                            "title": "Goşuldy"
                         },
                         "user_id": {
                             "title": ""
@@ -289,16 +289,16 @@
         "forum": {
             "change_email": {
                 "confirm_password_placeholder": "",
-                "confirmation_message": "",
-                "dismiss_button": "",
+                "confirmation_message": "=> core.ref.confirmation_email_sent",
+                "dismiss_button": "=> core.ref.okay",
                 "incorrect_password_message": "",
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.change_email"
             },
             "change_password": {
                 "send_button": "",
                 "text": "",
-                "title": ""
+                "title": "=> core.ref.change_password"
             },
             "composer": {
                 "close_tooltip": "",
@@ -311,19 +311,19 @@
                 "body_placeholder": "",
                 "discard_confirmation": "",
                 "submit_button": "",
-                "title": "",
+                "title": "=> core.ref.start_a_discussion",
                 "title_placeholder": ""
             },
             "composer_edit": {
                 "discard_confirmation": "",
-                "edited_message": "",
-                "post_link": "",
-                "submit_button": "",
-                "view_button": ""
+                "edited_message": "Redaktirlendi.",
+                "post_link": "Post #{number} {discussion} ýerleşýär",
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": "=> core.ref.view"
             },
             "composer_reply": {
-                "body_placeholder": "",
-                "discard_confirmation": "",
+                "body_placeholder": "=> core.ref.write_a_reply",
+                "discard_confirmation": "Jogabyňyzy ýazmadyňyz. Taşlamak isleýärsiňizmi?",
                 "posted_message": "Jogabyňyz iberildi",
                 "submit_button": "Jogap bermek",
                 "view_button": "=> core.ref.view"
