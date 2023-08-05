@@ -455,25 +455,25 @@
                 "empty_text": "Bu ýerde görjek zat ýok ýaly.",
                 "global_logout": {
                     "heading": "Global çykyş",
-                    "help_text": "Häzirki gutapjyk sessiýasyny arassalaýar, ähli sessiýalary ýatyrýar, dörediji belliklerini ýatyrýar we islendik e-poçta tassyklamasyny ýa-da paroly täzeden düzmek e-poçtalaryny ýatyrýar.",
+                    "help_text": "Häzirki cookie sessiýany arassalaýar, ähli sessiýalary ýatyrýar, dörediji tokenleri ýatyrýar we islendik e-poçta tassyklamasyny ýa-da paroly täzeden düzmek e-poçtalaryny ýatyrýar.",
                     "log_out_button": "=> core.ref.log_out"
                 },
-                "hide_access_token": "Token gizlemek",
+                "hide_access_token": "Tokeni gizle",
                 "last_activity": "Soňky işjeňlik",
                 "never": "=> core.ref.never",
                 "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
-                    "submit_button": "Token döretmek",
+                    "submit_button": "Token döret",
                     "title": "=> core.ref.new_token",
-                    "title_placeholder": "Ady"
+                    "title_placeholder": "Sözbaşy"
                 },
-                "revoke_access_token": "Yzyna gaýtarmak",
+                "revoke_access_token": "Yzyna gaýtar",
                 "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
                 "sessions_heading": "Işjeň sessiýalar",
-                "session_terminated": "{count, plural, one {Session terminated} other {# Sessiýalar terminated}}.",
-                "session_termination_failed": "Sessiýalaryňyzy bes edeniňizde säwlik ýüze çykdy.",
-                "show_access_token": "Token görmek",
-                "terminate_all_other_sessions": "Hemme beýleki sessiýalary ýatyrmak",
+                "session_terminated": "{count, plural, one {Sessiýa ýatyrylan} other {# Sessiýalar ýatyrylan}}.",
+                "session_termination_failed": "Sessiýalaryňyz ýatyrylanda näsazlyk ýüze çykdy.",
+                "show_access_token": "Tokeni gör",
+                "terminate_all_other_sessions": "Hemme beýleki sessiýalary ýatyr",
                 "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
                 "terminate_session": "Ýatyr",
                 "title": "=> core.ref.security",
@@ -485,12 +485,12 @@
                 "account_heading": "Hasap",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
-                "notification_checkbox_a11y_label_template": "{method} arkaly \"{description}\" habarnamalary alyň",
+                "notification_checkbox_a11y_label_template": "{method} arkaly \"{description}\" bildirişleri alyň",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
-                "notify_discussion_renamed_label": "Kimdir biri meniň başlan diskussiýamyň adyny üýtgedýär",
-                "privacy_disclose_online_label": "Onlaýn bolanymda başgalaryň görmegine rugsat bermek",
+                "notify_discussion_renamed_label": "Kimdir biri meniň başlan gürrümimiň adyny üýtgetdi",
+                "privacy_disclose_online_label": "Onlaýn bolanymda başgalara görmäge rugsat ber",
                 "privacy_heading": "Gizlinlik",
                 "title": "=> core.ref.settings"
             },
@@ -506,11 +506,11 @@
             },
             "user": {
                 "avatar_remove_button": "=> core.ref.remove",
-                "avatar_upload_button": "Ýüklemek",
-                "avatar_upload_tooltip": "Täze awatar ýüklemek",
+                "avatar_upload_button": "Ýükle",
+                "avatar_upload_tooltip": "Täze awatar ýükle",
                 "discussions_link": "=> core.ref.discussions",
-                "in_discussion_text": "{discussion} - da",
-                "joined_date_text": "{ago} goşuldy",
+                "in_discussion_text": "{discussion}de",
+                "joined_date_text": "{ago} öň goşuldy",
                 "online_text": "Onlaýn",
                 "posts_empty_text": "Bu ýerde ýazgy ýok ýaly.",
                 "posts_link": "=> core.ref.posts",
@@ -521,61 +521,61 @@
             "user_controls": {
                 "button": "Dolandyryşlar",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Bu ulanyjyny pozmak isleýändigiňize ynanýarsyňyzmy? Ulanyjynyň ýazgylary pozulmaz.",
-                "delete_error_message": "<i>{username} ({email})</i> ulanyjynyň öçürilmegi bolmady",
-                "delete_success_message": "Ulanyjy <i>{username} ({email})</i> öçürildi",
+                "delete_confirmation": "Bu ulanyjyny bozmak isleýändigiňize ynamlymysyňyz? Ulanyjynyň ýazgylary bozulmaz.",
+                "delete_error_message": "<i>{username} ({email})</i> ulanyjynyň bozulmagy şowsuz boldy",
+                "delete_success_message": "Ulanyjy <i>{username} ({email})</i> bozuldy",
                 "edit_button": "=> core.ref.edit",
-                "toggle_dropdown_accessible_label": "Ulanyjy açylýan menýuny dolandyrmak"
+                "toggle_dropdown_accessible_label": "Ulanyjy dolandyryş menýuny aç/ýap"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
-                "resend_button": "Tassyklama e-poçta ibermek",
-                "sent_message": "Ugratmak"
+                "resend_button": "Tassyklama e-poçta täzeden iber",
+                "sent_message": "Ugradyldy"
             },
             "welcome_hero": {
-                "hide": "Hoş geldiňiz habaryny gizläň"
+                "hide": "Hoş geldiňiz habaryny gizle"
             }
         },
         "lib": {
             "debug_button": "Debug",
             "alert": {
-                "dismiss_a11y_label": "Duýduryşy ýatyrmak"
+                "dismiss_a11y_label": "Duýduryşy ýatyr"
             },
             "badge": {
-                "hidden_tooltip": "Gizlenen"
+                "hidden_tooltip": "Gizlin"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": "Açylýan menýuny üýtgediň"
+                "toggle_dropdown_accessible_label": "Menýuny aç/ýap"
             },
             "data_segment": {
                 "label": "{label}:"
             },
             "edit_user": {
-                "activate_button": "Ulanyjyny işjeňleşdiriň",
+                "activate_button": "Ulanyjyny işjeňleşdir",
                 "email_heading": "=> core.ref.email",
                 "email_label": "=> core.ref.email",
                 "groups_heading": "Toparlar",
                 "password_heading": "=> core.ref.password",
                 "password_label": "=> core.ref.password",
-                "set_password_label": "Täze parol düzüň",
+                "set_password_label": "Täze parol düz",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": "Bu ulanyjyny redaktirlemäge rugsat berilmeýär."
+                "nothing_available": "Bu ulanyjyny üýtgetmäge rugsadyňyz ýok."
             },
             "error": {
-                "circular_dependencies_message": "Tegelek baglylyklar ýüze çykaryldy: {extensions}. Abort. Giňeldişleriň birini öçüriň we gaýtadan synanyşyň.",
+                "circular_dependencies_message": "Tegelek baglylyklar ýüze çykaryldy: {extensions}. Ýatyrylýar. Giňeltmeleriň birini öçüriň we gaýtadan synanyşyň.",
                 "dependent_extensions_message": "Aşakdaky garaşly giňeltmeler öçürilýänçä {extension} öçürip bolmaýar: {extensions}",
                 "extension_initialiation_failed_message": "{extension} başlap bilmedi, has giňişleýin maglumat üçin brauzer konsolyny barlaň.",
                 "generic_message": "Ups! Bir zat nädogry boldy. Sahypany täzeden açyň we gaýtadan synanyşyň.",
-                "generic_cross_origin_message": "Ups! Haçdan gelip çykmak haýyşy ugradylanda bir zat ýalňyş gitdi. Sahypany täzeläň we gaýtadan synanyşyň.",
+                "generic_cross_origin_message": "Ups! Cross-origin haýyşy ugradylanda bir zat ýalňyş gitdi. Sahypany täzeläň we gaýtadan synanyşyň.",
                 "missing_dependencies_message": "Aşakdaky garaşlylyklar işjeň bolýança {extension} işledip bolmaýar: {extensions}",
                 "not_found_message": "Talap edilýän çeşme tapylmady.",
                 "payload_too_large_message": "Islegiňiziň ýüki gaty ulydy.",
                 "permission_denied_message": "Muny etmäge rugsadyňyz ýok.",
                 "rate_limit_exceeded_message": "Biraz çalt gidýärsiňiz. Birnäçe sekuntdan soň gaýtadan synanyşmagyňyzy haýyş edýäris.",
-                "render_failed_message": "Bagyşlaň, bu mazmuny görkezenimizde ýalňyşlyk bilen ýüzbe-ýüz bolduk. Ulanyjy bolsaňyz, soňrak synanyşyň. Dolandyryjy bolsaňyz, has giňişleýin maglumat üçin gündelik faýllaryna göz aýlaň."
+                "render_failed_message": "Bagyşlaň, bu mazmuny görkezenimizde ýalňyşlyk bilen ýüzbe-ýüz bolduk. Ulanyjy bolsaňyz, soňrak synanyşyň. Dolandyryjy bolsaňyz, has giňişleýin maglumat üçin gündelik faýllara göz aýlaň."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -585,10 +585,10 @@
                 "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Sahypa # - {forumName}}}"
             },
             "modal": {
-                "close": "Ýapmak"
+                "close": "Ýap"
             },
             "nav": {
-                "drawer_button": "Nawigasiýa çekmesi açmak"
+                "drawer_button": "Nawigasiýa çekmesi aç"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -600,18 +600,18 @@
                 "two_text": "{first} we {second}"
             },
             "username": {
-                "deleted_text": "[öçürildi]"
+                "deleted_text": "[bozuldy]"
             }
         },
         "views": {
             "admin": {
                 "extensions": {
                     "caption": "=> core.ref.extensions",
-                    "disable": "Öçürmek",
-                    "empty": "Gurlan giňeltmeler ýok",
-                    "enable": "Işletmek",
-                    "name": "Giňeldirijiniň ady",
-                    "package_name": "Paketyň ady",
+                    "disable": "Öçür",
+                    "empty": "Gurnalan giňeltme ýok",
+                    "enable": "Çat",
+                    "name": "Giňeltme Ady",
+                    "package_name": "Paketyň Ady",
                     "version": "Wersiýa"
                 },
                 "info": {
@@ -625,7 +625,7 @@
                 "title": "=> core.ref.confirm_email"
             },
             "content": {
-                "javascript_disabled_message": "Bu sahypa, JavaScript açyk, häzirki zaman brauzerinde dogry görünýär.",
+                "javascript_disabled_message": "Bu sahypa, JavaScript çatylan häzirki zaman brauzerinde has dogry görünýär.",
                 "load_error_message": "Bu sahypanyň doly wersiýasyny ýüklemekçi bolanda bir zat ýalňyş gitdi. Ýalňyşlygy düzetmek üçin bu sahypany täzeläp görüň.",
                 "loading_text": "=> core.ref.loading"
             },
@@ -637,11 +637,11 @@
                 "csrf_token_mismatch": "Uzak wagtlap hereketsiz bolduňyz.",
                 "csrf_token_mismatch_return_link": "Gaýtadan synanyşmak üçin yza dolanmak",
                 "invalid_confirmation_token": "Bu tassyklama ssylkasy eýýäm ulanyldy ýa-da nädogry.",
-                "not_authenticated": "Bu sahypa girmäge rugsadyňyz ýok. Gireniňizden soň gaýtadan synanyşyň.",
+                "not_authenticated": "Bu sahypa girmäge rugsadyňyz ýok. Hasaba gireniňizden soň gaýtadan synanyşyň.",
                 "not_found": "Soraýan sahypaňyz tapylmady.",
-                "not_found_return_link": "{forum} - a dolanmak",
+                "not_found_return_link": "{forum} a dolanmak",
                 "permission_denied": "Bu sahypa girmäge rugsadyňyz ýok.",
-                "unknown": "Bu sahypany ýüklenilende ýalňyşlyk ýüze çykdy."
+                "unknown": "Bu sahypa ýüklenilende ýalňyşlyk ýüze çykdy."
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -650,22 +650,22 @@
             },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
-                "log_out_confirmation": "{forum} - dan çykmak isleýändigiňize ynanýarsyňyzmy?",
+                "log_out_confirmation": "{forum}dan çykmak isleýändigiňize ynamlymysyňyz?",
                 "title": "=> core.ref.log_out"
             },
             "reset_password": {
-                "confirm_password_label": "Täze paroly tassyklamak",
+                "confirm_password_label": "Täze paroly tassykla",
                 "new_password_label": "Täze parol",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
             }
         },
         "api": {
-            "invalid_username_message": "Ulanyjy adynda diňe harplar, sanlar we çyzgylar bolup biler.",
+            "invalid_username_message": "Ulanyjy adynda diňe harplar, sanlar we kese çyzyklar bolup biler.",
             "invalid_filter_type": {
-                "must_be_numeric_message": "{filter} süzgüç sanly bolmaly.",
-                "must_not_be_array_message": "{filter} süzgüji massiw bolmaly däldir.",
-                "must_not_be_multidimensional_array_message": "{filter} süzgüji köp ölçegli massiw bolmaly däldir."
+                "must_be_numeric_message": "{filter} filter sanly bolmaly.",
+                "must_not_be_array_message": "{filter} filter massiw bolmaly däldir.",
+                "must_not_be_multidimensional_array_message": "{filter} filter köp ölçegli massiw bolmaly däldir."
             }
         },
         "email": {
