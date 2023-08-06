@@ -11,7 +11,7 @@
                 "download_templates": "Šablony pro stažení představují způsob zobrazení nahraných souborů na vašem fóru, např. náhledy, tlačítka. Aktuálně k dispozici:\n",
                 "mime_types": "Zde nakonfigurujte mapování. Každý regulární výraz typu mime bude zpracován konkrétním adaptérem pro nahrávání a šablonou pro stahování.\n",
                 "resize": "Zvolte, zda chcete změnit velikost obrázků před jejich odesláním. Můžete zvolit maximální šířku a výšku v pixelech. Při změně velikosti se zachová poměr stran obrázků.\n",
-                "client_extension": "Ve výchozím nastavení vybere Upload bezpečnou příponu souboru na základě typu MIME.\nU některých typů souborů založených na ZIP nebo binárních datech to může vést k použití obecných přípon místo očekávaných.\nZde můžete zadat čárkou oddělený seznam přípon souborů, které budou zachovány doslovně.\n",
+                "client_extension": "Ve výchozím nastavení vybere rozšíření Upload bezpečnou příponu souboru na základě typu MIME.\nU některých typů souborů založených na ZIP nebo binárních datech to může vést k tomu, že se místo očekávané přípony použije obecná přípona.\nZde můžete zadat čárkou oddělený seznam přípon souborů, které budou zachovány doslovně.\n",
                 "watermark": "Zvolte, zda se má při nahrávání obrázků přidat vodoznak. Vodoznaky se přidávají k obrázkům, které nejsou soubory GIF, na základě vašich preferencí uvedených níže.\n",
                 "s3_compatible_storage": "Následující nastavení jsou vyžadována pouze při použití úložiště kompatibilního se standardem S3. Pokud používáte AWS, můžete je nechat prázdné.\n",
                 "s3_acl": "ACL, které by se mělo použít na nahraný objekt (výchozí: soukromý). Možné hodnoty naleznete na adrese https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -131,14 +131,14 @@
             "buttons": {
                 "attach": "Připojit",
                 "upload": "Nahrát",
-                "user_uploads": "",
+                "user_uploads": "Nahrané soubory",
                 "cancel": "Zrušit",
                 "media": "Média"
             },
             "file_list": {
                 "loading": "Načítání souborů...",
                 "empty": "Nejsou zde žádné soubory k zobrazení.",
-                "release_to_upload": "",
+                "release_to_upload": "Uvolněním nahrajete",
                 "modal_empty_desktop": "Seznam souborů je prázdný. Klikněte na tlačítko nebo sem přetáhněte soubor, který chcete nahrát.",
                 "modal_empty_phone": "Seznam souborů je prázdný. Pro nahrání souboru stiskněte výše uvedené tlačítko.",
                 "select_file_a11y_label": "Vyberte soubor \"{fileName}\"",
@@ -146,7 +146,7 @@
                 "load_more_files_btn": "Načíst další soubory",
                 "hide_file": {
                     "btn_a11y_label": "Skrýt \"{fileName}\" ze správce médií",
-                    "hide_confirmation": "Opravdu chcete skrýt \"{fileName}\"? Skrytí souboru jej pouze odebere ze správce médií a skrytí neovlivní stávající příspěvky.",
+                    "hide_confirmation": "Opravdu chcete skrýt \"{fileName}\"? Skrytí pouze odebere soubor ze správce médií, ale nijak neovlivní existující příspěvky.",
                     "hide_success": "Soubor je skrytý",
                     "hide_fail": "Nepodařilo se skrýt soubor \"{fileName}\"",
                     "loading": "Skrytí souboru..."
@@ -171,9 +171,9 @@
         "api": {
             "upload_errors": {
                 "forbidden_type": "Nahrávání souborů tohoto typu není povoleno.",
-                "unsupported_type": "Adaptér pro odesílání nepodporuje zadaný typ MIME: {mime}.",
+                "unsupported_type": "Adaptér pro nahrávání nepodporuje zadaný typ MIME: {mime}.",
                 "could_not_detect_mime": "Nelze zjistit typ MIME tohoto souboru, zkuste to prosím znovu.",
-                "max_upload_file_size_ini": "Dosažen limit maximální velikosti souboru z php.ini.",
+                "max_upload_file_size_ini": "Dosažen limit maximální velikosti souboru z php.ini (upload_max_filesize).",
                 "max_upload_file_size_form": "Dosažen limit maximální velikosti souborů z formuláře.",
                 "partial_upload": "Částečné nahrání.",
                 "no_file_uploaded": "Nebyl nahrán žádný soubor.",
