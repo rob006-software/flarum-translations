@@ -3,96 +3,96 @@
         "forum": {
             "badges": {
                 "is_private": {
-                    "tooltip": ""
+                    "tooltip": "Soukromá diskuze"
                 }
             },
             "buttons": {
-                "add_recipients": "",
-                "submit": "",
-                "edit_recipients": "",
-                "send_pd": "",
-                "cancel": "",
-                "make_public": "",
-                "remove_from_discussion": ""
+                "add_recipients": "Příjemci",
+                "submit": "OK",
+                "edit_recipients": "Upravit příjemce",
+                "send_pd": "Poslat uživateli {username} zprávu",
+                "cancel": "Zrušit",
+                "make_public": "Zveřejnit tuto diskuzi",
+                "remove_from_discussion": "Opustit tuto soukromou diskuzi"
             },
             "composer_private_discussion": {
                 "submit_button": "",
-                "title_placeholder": ""
+                "title_placeholder": "Název soukromé diskuze"
             },
             "confirm": {
-                "make_public": ""
+                "make_public": "Opravdu chcete odstranit příjemce a zviditelnit tuto diskuzi pro všechny, kteří si mohou zobrazit přiřazený štítek?"
             },
             "labels": {
-                "recipients": ""
+                "recipients": "{count, plural, one {{count} příjemce} few {{count} příjemci} other {{count} příjemců}}"
             },
             "nav": {
-                "start_button": "",
-                "nav_item": ""
+                "start_button": "Soukromá diskuze",
+                "nav_item": "Soukromé diskuze"
             },
             "input": {
-                "search_recipients": ""
+                "search_recipients": "Vyhledejte příjemce zadáním prvních tří znaků..."
             },
             "search": {
                 "headings": {
-                    "groups": ""
+                    "groups": "Skupiny oprávnění"
                 }
             },
             "modal": {
                 "titles": {
-                    "update_recipients": "",
-                    "add_recipients": ""
+                    "update_recipients": "Aktualizovat příjemce pro {title}",
+                    "add_recipients": "Přidání příjemců do diskuze"
                 },
                 "labels": {
-                    "selected_users": "",
-                    "search_field": ""
+                    "selected_users": "Vybraní uživatelé",
+                    "search_field": "Hledat uživatele"
                 },
                 "help": {
-                    "add_recipients": "",
-                    "update_recipients": "",
-                    "selected_users": "",
-                    "click_user_to_remove_tooltip": ""
+                    "add_recipients": "Tato diskuze bude viditelná pouze pro uživatele, které zde vyberete. Je vyžadován alespoň 1 příjemce (kromě vás).",
+                    "update_recipients": "Tato diskuze bude viditelná pouze pro uživatele, které zde vyberete.",
+                    "selected_users": "Kliknutím na jméno uživatele ho odeberete.",
+                    "click_user_to_remove_tooltip": "Klikněte pro odstranění"
                 }
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "",
-                    "added": "",
-                    "made_public": "",
-                    "removed": "",
-                    "removed_self": ""
+                    "added_and_removed": "{username} přidal příjemce {added} a odstranil {removed}.",
+                    "added": "{username} přidal příjemce {added}.",
+                    "made_public": "{username} odebral všechny příjemce a zveřejnil diskuzi",
+                    "removed": "{username} odebral příjemce {removed}.",
+                    "removed_self": "{username} opustil soukromou diskuzi."
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": ""
+                    "block_pd": "Blokovat soukromé diskuze"
                 },
-                "byobu_link": "",
-                "dropdown_label": ""
+                "byobu_link": "Soukromé diskuze",
+                "dropdown_label": "Soukromé diskuze"
             },
             "notifications": {
-                "pd_label": "",
-                "pd_reply_label": "",
-                "pd_reply_text": "",
-                "pd_text": "",
-                "pd_user_left_label": "",
-                "pd_user_left_text": "",
-                "pd_added_text": "",
-                "pd_added_label": ""
+                "pd_label": "Někdo mě přidá do nové soukromé diskuze",
+                "pd_reply_label": "Někdo zveřejní příspěvek v soukromé diskuzi, které se účastním",
+                "pd_reply_text": "{username} zveřejnil příspěvek v soukromé diskuzi, které se účastníte",
+                "pd_text": "{username} s vámi začal novou soukromou diskuzi",
+                "pd_user_left_label": "Jeden z příjemců opustil soukromou diskuzi, které se účastním",
+                "pd_user_left_text": "{username} opustil soukromou diskuzi",
+                "pd_added_text": "{username} vás přidal do soukromé diskuze",
+                "pd_added_label": "Někdo mě přidá do existující soukromé diskuze"
             }
         },
         "admin": {
             "permission": {
-                "create_private_discussions_with_users": "",
-                "add_more_than_two_user_recipients": "",
-                "create_private_discussions_with_groups": "",
-                "create_private_discussions_with_blocking_users": "",
-                "edit_user_recipients": "",
-                "edit_group_recipients": "",
-                "make_private_into_public": "",
-                "view_private_discussions-when-flagged": ""
+                "create_private_discussions_with_users": "Vytvářet soukromé diskuze s uživateli",
+                "add_more_than_two_user_recipients": "Přidání více než 2 uživatelů do soukromé diskuze",
+                "create_private_discussions_with_groups": "Vytvářet soukromé diskuze se skupinami",
+                "create_private_discussions_with_blocking_users": "Vytvářet soukromé diskuze s uživateli, kteří ji blokují",
+                "edit_user_recipients": "Upravovat uživatele účastnící se soukromých diskuzí",
+                "edit_group_recipients": "Upravit skupiny účastnící se soukromých diskuzí",
+                "make_private_into_public": "Přeměnit soukromou diskuzi na veřejnou",
+                "view_private_discussions-when-flagged": "Zobrazit soukromé diskuze ostatních uživatelů, pokud jsou nahlášené"
             },
             "settings": {
-                "badge-icon": "",
+                "badge-icon": "Diskuzní odznak Byobu",
                 "enable-make-public-option": "",
                 "enable-make-public-option-help": "",
                 "post-event-icon": "",
