@@ -20,13 +20,13 @@
                 "title_placeholder": "Název soukromé diskuze"
             },
             "confirm": {
-                "make_public": "Opravdu chcete odstranit příjemce a zviditelnit tuto diskuzi pro všechny, kteří si mohou zobrazit přiřazený štítek?"
+                "make_public": "Opravdu chcete odebrat příjemce a zviditelnit tuto diskuzi pro všechny, kteří si mohou zobrazit přiřazený štítek?"
             },
             "labels": {
                 "recipients": "{count, plural, one {{count} příjemce} few {{count} příjemci} other {{count} příjemců}}"
             },
             "nav": {
-                "start_button": "Soukromá diskuze",
+                "start_button": "Diskutovat soukromě",
                 "nav_item": "Soukromé diskuze"
             },
             "input": {
@@ -111,7 +111,7 @@
             },
             "body": {
                 "private_discussion_created": "Ahoj {recipient_display_name},\n\n{actor_display_name} s vámi jako příjemcem začal novou soukromou diskuzi: {discussion_title}.\n\nPro přístup do diskuze klikněte na následující odkaz:\n{discussion_url}\n\nPro zobrazení této diskuze musíte být přihlášeni.\n",
-                "private_discussion_replied": "Ahoj {recipient_display_name},\n\n{actor_display_name} odpověděl v soukromé diskuzi, které jste příjemcem: {discussion_title}.\n\nChcete-li zobrazit nový obsah, klikněte na následující odkaz:\n{post_url}\n\nPro zobrazení této diskuze musíte být přihlášeni.\n",
+                "private_discussion_replied": "Ahoj {recipient_display_name},\n\n{actor_display_name} odpověděl v soukromé diskuzi, které jste příjemcem: {discussion_title}.\n\nPro přístup do diskuze klikněte na následující odkaz:\n{post_url}\n\nPro zobrazení této diskuze musíte být přihlášeni.\n",
                 "recipient_removed": "Ahoj {recipient_display_name},\n\n{actor_display_name} opustil diskuzi \"{discussion_title}\" a nemá již přístup k jejímu obsahu.\n\nPro přístup do diskuze klikněte na následující odkaz:\n{discussion_url}\n\nPro zobrazení této diskuze musíte být přihlášeni.\n",
                 "private_discussion_added": "Ahoj {recipient_display_name},\n\n{actor_display_name} vás přidal do existující soukromé diskuze: {discussion_title}.\n\nPro přístup do diskuze klikněte na následující odkaz:\n{discussion_url}\n\nPro zobrazení této diskuze musíte být přihlášeni.\n"
             }
