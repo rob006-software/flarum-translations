@@ -47,15 +47,15 @@
                     "search_field": "Hledat uživatele"
                 },
                 "help": {
-                    "add_recipients": "Tato diskuze bude viditelná pouze pro uživatele, které zde vyberete. Je vyžadován alespoň 1 příjemce (kromě vás).",
+                    "add_recipients": "Tato diskuze bude viditelná pouze pro uživatele, které zde vyberete. Kromě vás je vyžadován alespoň 1 příjemce.",
                     "update_recipients": "Tato diskuze bude viditelná pouze pro uživatele, které zde vyberete.",
-                    "selected_users": "Kliknutím na jméno uživatele ho odeberete.",
+                    "selected_users": "Uživatele odeberete kliknutím na jeho jméno.",
                     "click_user_to_remove_tooltip": "Kliknutím odeberete"
                 }
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "{username} přidal příjemce {added} a odstranil {removed}.",
+                    "added_and_removed": "{username} přidal příjemce {added} a odebral {removed}.",
                     "added": "{username} přidal příjemce {added}.",
                     "made_public": "{username} odebral všechny příjemce a zveřejnil diskuzi",
                     "removed": "{username} odebral příjemce {removed}.",
@@ -83,10 +83,10 @@
         "admin": {
             "permission": {
                 "create_private_discussions_with_users": "Vytvářet soukromé diskuze s uživateli",
-                "add_more_than_two_user_recipients": "Přidání více než 2 uživatelů do soukromé diskuze",
+                "add_more_than_two_user_recipients": "Přidat více než 2 uživatele do soukromé diskuze",
                 "create_private_discussions_with_groups": "Vytvářet soukromé diskuze se skupinami",
                 "create_private_discussions_with_blocking_users": "Vytvářet soukromé diskuze s uživateli, kteří ji blokují",
-                "edit_user_recipients": "Upravovat uživatele účastnící se soukromých diskuzí",
+                "edit_user_recipients": "Upravit uživatele účastnící se soukromých diskuzí",
                 "edit_group_recipients": "Upravit skupiny účastnící se soukromých diskuzí",
                 "make_private_into_public": "Přeměnit soukromou diskuzi na veřejnou",
                 "view_private_discussions-when-flagged": "Zobrazit soukromé diskuze ostatních uživatelů, pokud jsou nahlášené"
