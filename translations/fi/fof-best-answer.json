@@ -16,12 +16,12 @@
                 "allow_select_own_post_help": "Salli aloittajan valita oma viesti keskustelusta parhaaksi vastaukseksi",
                 "enable_all_tags_button": "Ota käyttöön Parhaat vastaukset kaikille avainsanoille",
                 "enable_all_tags_reminder_button": "Ota käyttöön Parhaiden vastausten muistutukset kaikille avainsanoille",
-                "show_max_lines_label": "",
-                "show_max_lines_help": "",
+                "show_max_lines_label": "Viestin esikatselussa näytettävien rivien määrä (max)",
+                "show_max_lines_help": "Aseta arvoon 0 ottaaksesi pois käytöstä. Jos viesti on pidempi kuin asetettu rivimäärä, viestiä lyhennetään esikatselussa.",
                 "select_best_answer_reminder_days": "Muistutuksien väli",
                 "select_best_answer_reminder_days_help": "Lähetä muistutus määritettyjen päivien jälkeen aloitus viestin kirjoittajalle, jotta hän voi valita parhaan vastauksen, 0 = ota muistutus pois käytöstä.",
-                "select_best_answer_tags_label": "",
-                "select_best_answer_tags_help": "",
+                "select_best_answer_tags_label": "Avainsanat joissa on Best Answers lisäosa",
+                "select_best_answer_tags_help": "Valitse mitkä avainsanat, jos mitkään haluat lisätä keskusteluun kun Best Answer lisäosa on käytössä. Vain toissijaiset avainsanat ovat sallittuja. Nämä avainsanat poistetaan Best Answer lisäosasta mikäli poistettuja.",
                 "schedule_on_one_server": "Käytä 'onOneServer()' määritelmää ajastuksia varten",
                 "schedule_on_one_server_help": "Vaatii Redis/Memcache",
                 "schedule_stop_overnight": "Estä muistutuksien lähettämisen haluttuna aikana esim. yöllä",
@@ -93,8 +93,8 @@
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "most_best_answers": "",
-                "least_best_answers": ""
+                "most_best_answers": "Eniten määrä parhaita vastauksia",
+                "least_best_answers": "Vähiten parhaita vastauksia"
             }
         }
     }
