@@ -184,16 +184,16 @@
             },
             "status": {
                 "pictures": {
-                    "section": "",
-                    "drafts": ""
+                    "section": "Kuvat",
+                    "drafts": "({count} luonnosta)"
                 },
                 "storage": {
-                    "section": "",
-                    "originals": "",
-                    "conversions": ""
+                    "section": "Tallennustila (arvioitu)",
+                    "originals": "Alkuperäiset: {size}",
+                    "conversions": "Muunnokset: {size}"
                 },
-                "refresh": "",
-                "loading": ""
+                "refresh": "Päivitä",
+                "loading": "Ladataan..."
             }
         },
         "api": {
