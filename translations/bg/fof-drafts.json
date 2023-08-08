@@ -9,7 +9,7 @@
                 "title": "FoF Чернови",
                 "enable_scheduled_drafts": "Активирай Планирани Чернови",
                 "schedule_on_one_server": "Използване на 'onOneServer()' директива за планиране на задачи (изисква Redis/Memcache)",
-                "schedule_log_output": ""
+                "schedule_log_output": "Добавете scheduler към хранилището на логовете"
             }
         },
         "console": {
@@ -33,7 +33,7 @@
                 "delete_button": "Изтрий чернова",
                 "schedule_button": "=> fof-drafts.ref.schedule_draft",
                 "scheduled_icon_tooltip": "Планиран за {datetime}",
-                "scheduled_icon_tooltip_formatter": "L [at] LT",
+                "scheduled_icon_tooltip_formatter": "*L [at] LT*",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "Сигурен ли си, че искаш да изтриеш тази чернова?",
                 "delete_all_alert": "Сигурен ли си, че искаш да изтриеш всички твои чернови?"
@@ -48,7 +48,7 @@
                 "reschedule_button": "Планирай отново",
                 "schedule_button": "Планирай",
                 "schedule_time_preview": "Тази чернова ще бъде автоматично публикувана на <b>{datetime}</b>.",
-                "schedule_time_preview_formatter": "LLLL",
+                "schedule_time_preview_formatter": "*LLLL*",
                 "schedule_time_preview_invalid": "Невалидна дата и/или час"
             },
             "user": {

@@ -25,48 +25,48 @@
                 "schedule_on_one_server": "Използвай 'onOneServer()' директива за графика за задачи",
                 "schedule_on_one_server_help": "Изисква Redis/Memcache",
                 "schedule_stop_overnight": "Спира изпращането на съобщения по време на неподходящи часове",
-                "schedule_stop_overnight_help": "9- 20ч време на сървъра",
+                "schedule_stop_overnight_help": "21- 08ч време на сървъра",
                 "schedule_log_output": "Добавете резултата от графика към съхранението на записите",
                 "show_filter_label": "Покажи падащото меню на филтъра за Най-Добър Отговор",
                 "show_filter_help": "За тагове, които имат активиен Най-Добър Отгвор, избери да покажеш решен/нерешен филтър в списъка на дискусията",
                 "use_alt_ui": "Алтернативен формат",
-                "use_alt_ui_help": "",
+                "use_alt_ui_help": "Контроли за най-добър отговор във футъра на публикацията",
                 "documentation": "Документация",
-                "introduction": ""
+                "introduction": "Активирайте кои тагове да поддържат Най-добри отговори в <code><a>flarum/tags</a></code> и по избор кой(и) етикет(а) трябва да поддържа напомняния. Когато даден етикет е активиран за най-добър отговор, задайте разрешения на всяка потребителска група, която може да задава отговори (собствена дискусия, всяка дискусия). Разрешенията могат да се зачисляват глобално (за всеки таг с активиран Най-добър отговор) или на базата на етикет.\n"
             },
             "edit_tag": {
-                "qna_label": "",
-                "reminders": ""
+                "qna_label": "Разрешете най-добрите отговори да бъдат настроени в този етикет",
+                "reminders": "Изпращайте напомняния за настройване на най-добър отговор за дискусии в този етикет"
             }
         },
         "forum": {
-            "answered_badge": "",
-            "this_best_answer": "",
-            "remove_best_answer": "",
-            "best_answer_button": "",
-            "best_answer_label": "",
+            "answered_badge": "Отговорено",
+            "this_best_answer": "Изберете Най-добият отговор",
+            "remove_best_answer": "Премахнете отметката от най-добрия отговор",
+            "best_answer_button": "Най-добрият отговор",
+            "best_answer_label": "зададено от <a>{username}</a> {time_set}",
             "errors": {
-                "mismatch": ""
+                "mismatch": "Избраната публикация не съществува в тази дискусия."
             },
             "notification": {
-                "best_answer_in_discussion": "",
-                "content": "",
-                "awarded": "",
+                "best_answer_in_discussion": "{username} даде най-добрия отговор в тази дискусия",
+                "content": "Моля, изберете най-добият отговор, ако въпроса ви е бил вече отговорен",
+                "awarded": "Вашата публикация беше зададена като най-добър отговор от {username}",
                 "preferences": {
-                    "awarded_best_answer": "",
-                    "best_answer_in_discussion": "",
-                    "select_best_answer": ""
+                    "awarded_best_answer": "Някой определя публикацията ми като най-добър отговор",
+                    "best_answer_in_discussion": "Най-добрият отговор е даден в дискусия, в която участвах",
+                    "select_best_answer": "Автоматично напомняне за избор на най-добър отговор в дискусия, която започнах"
                 }
             },
             "index": {
-                "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "ask_question": "Задай въпрос",
+                "cannot_ask_question": "Не мога да задам въпрос",
+                "solved_link": "Решени дискусии",
+                "unsolved_link": "Нерешени дискусии"
             },
             "filter": {
-                "all_label": "",
-                "solved_label": "",
+                "all_label": "Всички въпроси",
+                "solved_label": "Решени въпроси",
                 "unsolved_label": "",
                 "accessible_label": ""
             },
