@@ -296,19 +296,19 @@
                 "title": "=> core.ref.change_email"
             },
             "change_password": {
-                "send_button": "Paroly Täzeden Düzmek haty iber",
-                "text": "Aşaky düwmä basyň we e-poçtaňyzy paroly çalyşmak üçin salgyny barlaň.",
+                "send_button": "Paroly Täzelemek Haty iber",
+                "text": "Aşaky düwmä basyň we paroly çalyşýan salgy üçin e-poçtaňyzy barlaň.",
                 "title": "=> core.ref.change_password"
             },
             "composer": {
                 "close_tooltip": "Ýap",
-                "exit_full_screen_tooltip": "Doly Ekrandan Cyk",
+                "exit_full_screen_tooltip": "Doly Ekrandan Çyk",
                 "full_screen_tooltip": "Doly Ekran",
                 "minimize_tooltip": "Kiçelt",
                 "preview_tooltip": "Deslapky syn"
             },
             "composer_discussion": {
-                "body_placeholder": "Post Ýaz...",
+                "body_placeholder": "Tekst Giriziň...",
                 "discard_confirmation": "Siz gürrüňiňizi ibermediňiz. Ony ýatyrmak isleýärsiňizmi?",
                 "submit_button": "Gürrüňi Iber",
                 "title": "=> core.ref.start_a_discussion",
@@ -317,13 +317,13 @@
             "composer_edit": {
                 "discard_confirmation": "Siz üýtgetmeleriňizi ýatda saklatmadyňyz. Olary ýatyrmak isleýärsiňizmi?",
                 "edited_message": "Redaktirlendi.",
-                "post_link": "{discussion}däki #{number} posty",
+                "post_link": "{discussion}-däki #{number} posty",
                 "submit_button": "=> core.ref.save_changes",
                 "view_button": "=> core.ref.view"
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
-                "discard_confirmation": "Jogabyňyzy ibermediňiz. Ony taşlamak isleýärsiňizmi?",
+                "discard_confirmation": "Jogabyňyzy ibermediňiz. Ony ýatyrmak isleýärsiňizmi?",
                 "posted_message": "Jogabyňyz iberildi.",
                 "submit_button": "Jogap ber",
                 "view_button": "=> core.ref.view"
@@ -332,7 +332,7 @@
                 "cannot_reply_button": "Jogap berip bolanok",
                 "cannot_reply_text": "Bu gürrüňde jogap bermäge rugsadyňyz ýok.",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Bu gürrüňi pozmak isleýändigiňize ynamlymysyňyz?",
+                "delete_confirmation": "Bu gürrüňi bozmak isleýändigiňize ynamlymysyňyz?",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "log_in_to_reply_button": "Jogap bermek üçin hasabagyňyza giriň",
                 "rename_button": "=> core.ref.rename",
@@ -345,16 +345,16 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} {ago} jogap berdi",
                 "started_text": "{username} {ago} başlady",
-                "total_replies_a11y_label": "{count,plural, one {#jogap} other {jogaplar}}",
-                "unread_replies_a11y_label": "{count, plural, one {# okalmadyk jogap} other {# okalmadyk jogaplar}}. Mark unread {count, plural, one {jogap} other {jogaplar}} as read."
+                "total_replies_a11y_label": "{count,plural, one {# jogap} other {# jogaplar}}",
+                "unread_replies_a11y_label": "{count, plural, one {# okalmadyk jogap} other {# okalmadyk jogaplar}}. Okalmadyk {count, plural, one {jogaby} other {jogaplary}} okalan hökmünde belle."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "Girizen e-poçtaňyz saýtda hasaba alnan bolsa, parolyňyzy täzeden düzmek üçin salgyly haty ibereris. Indiki birki minutda haty almasaňyz spam bukjaňyzy barlaň.",
+                "email_sent_message": "Girizen e-poçtaňyz saýtda hasaba alnan bolsa, parolyňyzy täzelemek üçin salgyly haty ibereris. Indiki birki minutda haty almasaňyz spam bukjaňyzy barlaň.",
                 "not_found_message": "Şol e-poçta salgysynda hasaba alnan ulanyjy ýok.",
                 "submit_button": "Paroly dikeltmek",
-                "text": "E-poçta salgyňyzy giriziň we parolyňyzy täzeden düzmek üçin salgyly haty ibereris.",
+                "text": "E-poçta salgyňyzy giriziň we parolyňyzy täzelemek üçin salgyly haty ibereris.",
                 "title": "Paroly ýatdan çykardym"
             },
             "header": {
@@ -364,7 +364,7 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
-                "search_clear_button_accessible_label": "Gözleg talaplaryny arassala",
+                "search_clear_button_accessible_label": "Gözleg ýazgyny arassala",
                 "search_placeholder": "Gözleg",
                 "search_role_label": "Gözleg",
                 "session_dropdown_accessible_label": "Sessiýa opsiýalarynyň menýysuny aç/ýap",
@@ -373,8 +373,8 @@
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
-                "cannot_start_discussion_button": "Gürrüňi döredip bolmady",
-                "mark_all_as_read_confirmation": "Ähli gürrüňleri okalan diýip bellemek isleýändigiňize ynamlymy?",
+                "cannot_start_discussion_button": "Gürrüňi döredip bolanok",
+                "mark_all_as_read_confirmation": "Ähli gürrüňleri okalan hökmünde bellemek isleýändigiňize ynamlymysyňyz?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Täzele",
@@ -394,18 +394,18 @@
                 "invalid_login_message": "Giriş maglumatlaryňyz nädogry.",
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "Meni ýatla",
-                "sign_up_text": "Hasabyňyz ýokmy? <a> Hasaby açmak</a>",
+                "sign_up_text": "Hasabyňyz ýokmy? <a> Hasaby aç</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
                 "username_or_email_placeholder": "Ulanyjy ady ýa-da e-poçta"
             },
             "notifications": {
-                "delete_all_confirm": "Ähli bildirişleri pozmak isleýändigiňize ynamlymysyňyz? Bu hereketi yzyna gaýtaryp bolmaz",
+                "delete_all_confirm": "Ähli bildirişleri bozmak isleýändigiňize ynamlymysyňyz? Bu hereketi yzyna gaýtaryp bolmaz",
                 "delete_all_tooltip": "Ähli bildirişleri boz",
                 "discussion_renamed_text": "{username} sözbaşyny üýtgetdi",
                 "empty_text": "Bildiriş ýok",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
-                "mark_as_read_tooltip": "Okalan diýip belle",
+                "mark_as_read_tooltip": "Okalan hökmünde belle",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Bildirişleri gör",
                 "tooltip": "=> core.ref.notifications"
@@ -417,10 +417,10 @@
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Bu ýazgyny hemişelik ýok etmek isleýändigiňize ynamlymysyňyz? Bu hereketi yzyna gaýtaryp bolmaz.",
+                "delete_confirmation": "Bu posty hemişelik bozmak isleýändigiňize ynamlymysyňyz? Bu hereketi yzyna gaýtaryp bolmaz.",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
-                "hide_confirmation": "Bu ýazgyny pozmak isleýändigiňize ynamlymysyňyz?",
+                "hide_confirmation": "Bu posty bozmak isleýändigiňize ynamlymysyňyz?",
                 "restore_button": "=> core.ref.restore",
                 "toggle_dropdown_accessible_label": "Post üýtgetmeleri menýuny aç/ýap"
             },
@@ -431,7 +431,7 @@
                 "viewing_text": "{count, plural, one {{index}/{formattedCount} posty} other {{index}/{formattedCount} postlary}}"
             },
             "post_stream": {
-                "discussion_renamed_old_tooltip": "Köne ady: \"{old}\"",
+                "discussion_renamed_old_tooltip": "Öňki sözbaşy: \"{old}\"",
                 "discussion_renamed_text": "{username} adyny {new} diýip {time} üýtgetdi.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
@@ -448,14 +448,14 @@
             },
             "security": {
                 "browser_on_operating_system": "{os} -da {browser}",
-                "cannot_terminate_current_session": "Häzirki işjeň sessiýany ýatyryp bolmaýar. Munuň üçin hasapdan çykyň.",
+                "cannot_terminate_current_session": "Häzirki işjeň sessiýany ýatyryp bolanok. Munuň üçin hasapdan çykyň.",
                 "created": "Döredilen",
                 "current_active_session": "Häzirki işjeň sessiýa",
                 "developer_tokens_heading": "Öndürijiler üçin Tokenlar",
                 "empty_text": "Bu ýerde görjek zat ýok ýaly.",
                 "global_logout": {
                     "heading": "Global çykyş",
-                    "help_text": "Häzirki cookie sessiýany arassalaýar, ähli sessiýalary ýatyrýar, dörediji tokenleri ýatyrýar we islendik e-poçta tassyklamasyny ýa-da paroly täzeden düzmek e-poçtalaryny ýatyrýar.",
+                    "help_text": "Häzirki cookie sessiýany arassalaýar, ähli sessiýalary ýatyrýar, dörediji tokenleri ýatyrýar we islendik e-poçta tassyklamasyny ýa-da paroly täzelemek e-poçtalaryny ýatyrýar.",
                     "log_out_button": "=> core.ref.log_out"
                 },
                 "hide_access_token": "Tokeni gizle",
@@ -489,7 +489,7 @@
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
-                "notify_discussion_renamed_label": "Kimdir biri meniň başlan gürrümimiň adyny üýtgetdi",
+                "notify_discussion_renamed_label": "Kimdir biri meniň başlan gürrüňimiň adyny üýtgetdi",
                 "privacy_disclose_online_label": "Onlaýn bolanymda başgalara görmäge rugsat ber",
                 "privacy_heading": "Gizlinlik",
                 "title": "=> core.ref.settings"
@@ -497,7 +497,7 @@
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "log_in_text": "Eýýäm hasabyňyz barmy? <a> Giriş </a>",
+                "log_in_text": "Eýýäm hasabyňyz barmy? <a>Gir</a>",
                 "password_placeholder": "=> core.ref.password",
                 "submit_button": "=> core.ref.sign_up",
                 "title": "=> core.ref.sign_up",
@@ -507,12 +507,12 @@
             "user": {
                 "avatar_remove_button": "=> core.ref.remove",
                 "avatar_upload_button": "Ýükle",
-                "avatar_upload_tooltip": "Täze awatar ýükle",
+                "avatar_upload_tooltip": "Täze surat ýükle",
                 "discussions_link": "=> core.ref.discussions",
-                "in_discussion_text": "{discussion}de",
+                "in_discussion_text": "{discussion}-da/de",
                 "joined_date_text": "{ago} öň goşuldy",
                 "online_text": "Onlaýn",
-                "posts_empty_text": "Bu ýerde ýazgy ýok ýaly.",
+                "posts_empty_text": "Bu ýerde post ýok ýaly.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
                 "security_link": "=> core.ref.security",
@@ -530,10 +530,10 @@
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Tassyklama e-poçta täzeden iber",
-                "sent_message": "Ugradyldy"
+                "sent_message": "Iberildi"
             },
             "welcome_hero": {
-                "hide": "Hoş geldiňiz habaryny gizle"
+                "hide": "\"Hoş geldiňiz\" habaryny gizle"
             }
         },
         "lib": {
@@ -600,7 +600,7 @@
                 "two_text": "{first} we {second}"
             },
             "username": {
-                "deleted_text": "[pozuldy]"
+                "deleted_text": "[bozuldy]"
             }
         },
         "views": {
@@ -634,12 +634,12 @@
                 "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
-                "csrf_token_mismatch": "Uzak wagtlap hereketsiz bolduňyz.",
-                "csrf_token_mismatch_return_link": "Gaýtadan synanyşmak üçin yza dolanmak",
-                "invalid_confirmation_token": "Bu tassyklama ssylkasy eýýäm ulanyldy ýa-da nädogry.",
+                "csrf_token_mismatch": "Uzak wagtlap işjeň bolmadyňyz.",
+                "csrf_token_mismatch_return_link": "Gaýtadan synanyşmak üçin yza dolan",
+                "invalid_confirmation_token": "Bu tassyklama salgysy eýýäm ulanyldy ýa-da nädogry.",
                 "not_authenticated": "Bu sahypa girmäge rugsadyňyz ýok. Hasaba gireniňizden soň gaýtadan synanyşyň.",
                 "not_found": "Soraýan sahypaňyz tapylmady.",
-                "not_found_return_link": "{forum} a dolanmak",
+                "not_found_return_link": "{forum}a dolanmak",
                 "permission_denied": "Bu sahypa girmäge rugsadyňyz ýok.",
                 "unknown": "Bu sahypa ýüklenilende ýalňyşlyk ýüze çykdy."
             },
@@ -654,7 +654,7 @@
                 "title": "=> core.ref.log_out"
             },
             "reset_password": {
-                "confirm_password_label": "Täze paroly tassykla",
+                "confirm_password_label": "Täze Paroly Tassykla",
                 "new_password_label": "Täze parol",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
@@ -671,72 +671,72 @@
         "email": {
             "activate_account": {
                 "subject": "Täze hasabyňyzy işjeňleşdiriň",
-                "body": "Hormatly ulanyjy {username}!\n\nKimdir biri (siz diýip umyt edýäris!) {forum} -da e-poçta salgysy üsti bilen hasaba girdi .\n\nBu siz bolsaňyz, aşakdaky ssylka basyň we e-poçtaňyz tassyklanar:\n{url}\n\nBu siz däl bolsaňyz, bu e-poçta üns bermäň.\n"
+                "body": "Hormatly ulanyjy {username}!\n\nKimdir biri (siz diýip umyt edýäris!) {forum}da e-poçta salgysy üsti bilen hasaba girdi .\n\nBu siz bolsaňyz, aşakdaky salga basyň we e-poçtaňyz tassyklanar:\n{url}\n\nBu siz däl bolsaňyz, bu hata üns bermäň.\n"
             },
             "confirm_email": {
-                "subject": "Täze e-poçta salgyňyzy tassyklaň",
-                "body": "Hormatly ulanyjy {username}!\n\nKimdir biri (siz diýip umyt edýäris!) {forum} -da e-poçta salgysyny şu ada üýtgetdi.\n\nBu siz bolsaňyz, aşakdaky salga basyň we e-poçtaňyz tassyklanar:\n{url}\n\nBu siz däl bolsaňyz, bu e-poçta üns bermäň.\n"
+                "subject": "Täze e-poçtaňyzy tassyklaň",
+                "body": "Hormatly ulanyjy {username}!\n\nKimdir biri (siz diýip umyt edýäris!) {forum}da e-poçtasyny şu e-poçta üýtgetdi.\n\nBu siz bolsaňyz, aşakdaky salga basyň we e-poçtaňyz tassyklanar:\n{url}\n\nBu siz däl bolsaňyz, bu hata üns bermäň.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Hormatly ulanyjy {username}!\n\nKimdir biri (siz diýip umyt edýäris!) {forum} hasabyňyz üçin \"ýatdan çykarylan parol\" haýyşyny iberdi.\n\nBu siz bolsaňyz, parolyňyzy täzeden düzmek üçin aşakdaky ssylka basyň:\n{url}\n\nParolyňyzy üýtgetmek islemeýän bolsaňyz, şu e-poçta üns bermäň we hiç zat bolmaz.\n"
+                "body": "Hormatly ulanyjy {username}!\n\nKimdir biri (siz diýip umyt edýäris!) {forum} hasabyňyz üçin \"parol ýatdan çykdy\" haýyşyny iberdi.\n\nBu siz bolsaňyz, parolyňyzy täzelemek üçin aşakdaky salga basyň:\n{url}\n\nParolyňyzy üýtgetmek islemeýän bolsaňyz, şu hata üns bermäň we hiç zat bolmaz.\n"
             },
             "send_test": {
-                "subject": "Flarum Email Test",
-                "body": "Hormatly ulanyjy {username}!\n\nBu, Flarum e-poçta konfigurasiýaňyzyň dogry işleýändigini tassyklamak üçin synag e-poçta.\n\nBu siz bolsaňyz, bu e-poçta konfigurasiýaňyzyň işleýändigini aňladýar!\n\nBu siz däl bolsaňyz, bu e-poçta üns bermäň.\n"
+                "subject": "Forum Email Test",
+                "body": "Hormatly ulanyjy {username}!\n\nBu, Forum e-poçta konfigurasiýaňyzyň dogry işleýändigini tassyklamak üçin synag hat.\n\nBu siz bolsaňyz, bu e-poçta konfigurasiýaňyzyň işleýändigini aňladýar!\n\nBu siz däl bolsaňyz, bu e-poçta üns bermäň.\n"
             }
         },
         "ref": {
-            "all_discussions": "Hemme gürrüňler",
-            "change_email": "E-poçtany üýtgetmek",
-            "change_password": "Paroly üýtgetmek",
-            "color": "Reňki",
-            "confirm_password": "Paroly tassyklamak",
-            "confirm_email": "E-poçtany tassyklamak",
-            "confirmation_email_sent": "Tassyklama e-poçtany {email} iberdik. Ýakynda gelmese, spam bukjany barlaň.",
+            "all_discussions": "Ähli gürrüňler",
+            "change_email": "E-poçtany üýtget",
+            "change_password": "Paroly üýtget",
+            "color": "Reňk",
+            "confirm_password": "Paroly tassykla",
+            "confirm_email": "E-poçtany tassykla",
+            "confirmation_email_sent": "Tassyklama haty {email} iberdik. Ýakynda gelmese, spam bukjany barlaň.",
             "custom_footer_text": "Sahypanyň iň aşagynda görkeziljek HTML goşuň.",
             "custom_footer_title": "Ýörite aşaky sahypany redaktirläň",
             "custom_header_text": "Sahypanyň iň ýokarsynda, Flarumyň öz sözbaşysynyň üstünde görkeziljek HTML goşuň.",
             "custom_header_title": "Ýörite sözbaşy redaktirläň",
-            "delete": "Öçürmek",
-            "delete_forever": "Hemişeleýin öçürmek",
+            "delete": "Boz",
+            "delete_forever": "Hemişelik boz",
             "discussions": "Gürrüňler",
-            "edit": "Redaktirlemek",
-            "edit_user": "Ulanyjyny redaktirlemek",
-            "email": "Email",
-            "extensions": "Giňeldijiler",
-            "generic_confirmation_message": "Dowam etmek isleýändigiňize ynanýarsyňyzmy? Bu hereketi yzyna gaýtaryp bolmaz.",
+            "edit": "Üýtget",
+            "edit_user": "Ulanyjyny üýtget",
+            "email": "E-poçta",
+            "extensions": "Giňeltmeler",
+            "generic_confirmation_message": "Dowam etmek isleýändigiňize ynamlymysyňyz? Bu hereketi yzyna gaýtaryp bolmaz.",
             "icon": "Nyşan",
             "icon_text": "Ähli bir <a>FontAwesome</a> nyşan klass, <em>içine girýan</em> <code>fas fa-</code> prefix.",
-            "load_more": "Has köp ýüklemek",
+            "load_more": "Köpräk ýükle",
             "loading": "Ýüklenilýär...",
-            "log_in": "Giriş",
-            "log_out": "Hasapdan çykmak",
-            "mark_all_as_read": "Hemmesi okalan diýip bellemek",
+            "log_in": "Hasaba gir",
+            "log_out": "Hasapdan çyk",
+            "mark_all_as_read": "Hemmesini okalan hökmünde belle",
             "never": "Hiç haçan",
             "new_token": "Täze Token",
             "next_page": "Indiki sahypa",
-            "notifications": "Duýduryşlar",
+            "notifications": "Bildirişler",
             "okay": "OK",
             "password": "Parol",
             "posts": "Postlar",
             "previous_page": "Öňki sahypa",
-            "remove": "Aýyrmak",
-            "rename": "Adyny üýtgetmek",
-            "reply": "Jogap bermek",
-            "reset_your_password": "Parolyňyzy täzeden düzmek",
-            "restore": "Dikeltmek",
-            "save_changes": "Üýtgetmeleri ýatda saklamak",
-            "search_users": "Ulanyjylary gözlemek",
+            "remove": "Aýyr",
+            "rename": "Adyny üýtget",
+            "reply": "Jogap ber",
+            "reset_your_password": "Paroly täzeden düz",
+            "restore": "Dikelt",
+            "save_changes": "Üýtgetmeleri ýatda sakla",
+            "search_users": "Ulanyjylary gözle",
             "security": "Howpsuzlyk",
             "settings": "Sazlamalar",
-            "sign_up": "Hasaba girmek",
+            "sign_up": "Hasap aç",
             "some_others": "{count, plural, one {# beýleki} other {# beýlekiler}}",
-            "start_a_discussion": "Gürrüň başlatmak",
+            "start_a_discussion": "Gürrüňi başla",
             "username": "Ulanyjy ady",
             "users": "Ulanyjylar",
-            "view": "Görmek",
-            "write_a_reply": "Jogap ýaz ...",
+            "view": "Gör",
+            "write_a_reply": "Jogap ýaz...",
             "you": "Siz"
         },
         "group": {
@@ -746,8 +746,8 @@
             "guests": "Myhmanlar",
             "member": "Agza",
             "members": "Agzalar",
-            "mod": "Tertip",
-            "mods": "Tertipler"
+            "mod": "Moderator",
+            "mods": "Moderatorlar"
         }
     }
 }
