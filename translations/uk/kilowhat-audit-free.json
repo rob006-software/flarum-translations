@@ -122,12 +122,12 @@
                     "nickname_request_rejected": "Відхилено зміну псевдо {username}",
                     "password_changed": "Змінено пароль {username}",
                     "password_change_requested": "Запит на зміну пароля {username}",
-                    "provider_connected": "",
-                    "suspended": "",
-                    "unsuspended": "",
-                    "username_changed": "",
-                    "username_requested": "",
-                    "username_request_approved": "",
+                    "provider_connected": "Підключено провайдер {provider} до облікового запису {username}",
+                    "suspended": "Призупинено {username} до {until}",
+                    "unsuspended": "Відсторонено {username}",
+                    "username_changed": "Змінено ім'я користувача {username} з {old_username} на {new_username}",
+                    "username_requested": "Запитано нове ім'я користувача {new_username} для користувача {username}",
+                    "username_request_approved": "Затверджено зміну імені користувача {username} з {old_username} на {new_username}",
                     "username_request_rejected": "Відхилено зміну імені користувача {username}"
                 }
             }
