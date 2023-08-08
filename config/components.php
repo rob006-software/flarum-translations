@@ -346,6 +346,9 @@ return [
 	'datitisev-maintenance' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/datitisev-maintenance.yml',
 	],
+	'datitisev-post-galleries' => [
+		'tag' => 'https://raw.githubusercontent.com/dsevillamartin/flarum-post-galleries/1.1.0/resources/locale/en.yml',
+	],
 	'datitisev-webhooks-pro' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/datitisev-webhooks-pro.yml',
 	],
