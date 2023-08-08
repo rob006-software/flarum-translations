@@ -3,7 +3,7 @@
         "admin": {
             "elastic-endpoint": "",
             "elastic-username": "=> core.ref.username",
-            "elastic-password": "",
+            "elastic-password": "=> core.ref.password",
             "elastic-index": "Индекс",
             "analyzer": {
                 "label": "Език на Анализатора",
