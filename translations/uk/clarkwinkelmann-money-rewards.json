@@ -2,53 +2,53 @@
     "clarkwinkelmann-money-rewards": {
         "admin": {
             "settings": {
-                "preselection": "",
-                "min": "",
-                "max": "",
-                "decimals": ""
+                "preselection": "Попередньо обрані суми (через кому, необов'язково)",
+                "min": "Мінімальне значення для користувацьких сум",
+                "max": "Максимальне значення для користувацьких сум",
+                "decimals": "Максимальна кількість знаків після коми для користувацьких сум"
             },
             "permissions": {
-                "seeMoneyRewardHistory": "",
-                "rewardWithMoney": "",
-                "customAmounts": "",
-                "createMoney": ""
+                "seeMoneyRewardHistory": "Переглянути історію нагород інших користувачів",
+                "rewardWithMoney": "Винагороджуйте інших користувачів грошима",
+                "customAmounts": "Обирайте індивідуальні суми для винагород",
+                "createMoney": "Створюйте нові гроші у вигляді винагород"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "target": "",
-                "optionCustom": "",
-                "balance": "",
+                "title": "Винагородити допис",
+                "target": "Винагородити допис #{number} від {username}",
+                "optionCustom": "Нестандартний",
+                "balance": "Ваш баланс: {amount}",
                 "label": {
-                    "custom": "",
-                    "create": "",
-                    "comment": ""
+                    "custom": "Нестандартна сума",
+                    "create": "Створюйте гроші, а не віднімайте мій баланс",
+                    "comment": "Коментар (публічний)"
                 },
-                "submit": "",
-                "success": ""
+                "submit": "Надіслати",
+                "success": "Винагороду надіслано автору допису!"
             },
             "profile": {
-                "nav": "",
-                "title": ""
+                "nav": "Винагороди",
+                "title": "Винагороди"
             },
             "post": {
-                "action": "",
-                "disallowedOwn": "",
-                "disallowedOther": "",
-                "section": ""
+                "action": "Винагорода",
+                "disallowedOwn": "Ви не можете нагороджувати власні публікації.",
+                "disallowedOther": "Ви не можете нагородити цю публікацію. Найімовірніші причини – автор анонімний або видалив свій обліковий запис.",
+                "section": "Винагороди"
             },
             "record": {
-                "from": "",
-                "to": "",
-                "post": "",
-                "comment": ""
+                "from": "від",
+                "to": "до",
+                "post": "для <a>допису #{number}</a> в дискусії «{title}»",
+                "comment": "Коментар:"
             }
         },
         "api": {
             "error": {
-                "decimals": "",
-                "notEnoughFunds": ""
+                "decimals": "Сума обмежена {decimals} десятковими знаками.",
+                "notEnoughFunds": "Недостатньо коштів."
             }
         }
     }
