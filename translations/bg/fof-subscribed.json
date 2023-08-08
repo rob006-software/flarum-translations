@@ -32,8 +32,8 @@
                 "newDiscussion": "[Абониран | Нова дискусия] {title}",
                 "newUser": "[Абониран | Нов потребител] {username}",
                 "postUnapproved": "[Абониран | Неодобрен] {username} публикувано в {title}",
-                "postCreated": "",
-                "postFlagged": ""
+                "postCreated": "[Абониран | Нова публикация] {username} написа нова публикация в {title}",
+                "postFlagged": "[Абониран | Нов флаг] {username} маркира публикация в {title}"
             },
             "body": {
                 "newDiscussion": "Здравей {recipient_display_name},\n\n{actor_display_name} започна нова дискусия: {discussion_title}\n\nЗа да видиш тази нова дискусия, натисни на следния линк:\n{discussion_url}\n\n---\n\n{post_content}\n",
