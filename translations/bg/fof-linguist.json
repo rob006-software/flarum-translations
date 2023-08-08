@@ -81,39 +81,39 @@
             },
             "export": {
                 "title": "Експорт",
-                "warning": "",
-                "locale": "",
-                "locale-all": "",
-                "namespace": "",
-                "namespace-all": "",
-                "include-originals": "",
-                "include-all": "",
-                "output": "",
-                "output-loading": "",
-                "output-empty": "",
-                "download": ""
+                "warning": "Форматът за експортиране използва базирани на Yaml файлове за превод на Flarum и е предназначен за споделяне на преводи между форуми и с хора поддържащи езикови пакети. Форматът не е предназначен да премести всички преводи в нов форум. В зависимост от вашия случай на употреба, директното копиране на базата данни може да е по-добра идея.\n",
+                "locale": "Locale",
+                "locale-all": "Pseudo-locale \"All\"",
+                "namespace": "Namespace",
+                "namespace-all": "Всички",
+                "include-originals": "Включете и оригиналния превод",
+                "include-all": "Включете и преводите, които са дефинирани за всички езици",
+                "output": "Резултат",
+                "output-loading": "Зарежда резултата...",
+                "output-empty": "Празен резултат",
+                "download": "Свали"
             },
             "import": {
-                "title": "",
-                "input": "",
-                "input-placeholder": "",
-                "locale": "",
-                "locale-all": "",
-                "override-existing": "",
-                "submit": "",
-                "results": "",
-                "results-with-ignore": ""
+                "title": "Импортни",
+                "input": "Принос",
+                "input-placeholder": "Drag and drop or paste a Yaml file here",
+                "locale": "Locale",
+                "locale-all": "Pseudo-locale \"All\"",
+                "override-existing": "Override всичките ми персонализирание преводи",
+                "submit": "Import",
+                "results": "The import is finished. {imported} strings have been imported and {identical} identical strings were skipped. The page will now refresh to show the new translations.\n",
+                "results-with-ignore": "The import is finished. {imported} strings have been imported, {ignored} existing strings have been ignored and {identical} identical strings were skipped. The page will now refresh to show the new translations.\n"
             },
             "known-namespace": {
-                "core": "",
-                "validation": ""
+                "core": "Flarum Core",
+                "validation": "Грешки при валидация"
             },
             "known-frontend": {
-                "forum": "",
-                "admin": "",
-                "lib": "",
-                "ref": "",
-                "api": ""
+                "forum": "Форум",
+                "admin": "Админ",
+                "lib": "Lib (used on both Forum and Admin)",
+                "ref": "Ref (преизползва се от останлите ключове)",
+                "api": "API"
             }
         }
     }
