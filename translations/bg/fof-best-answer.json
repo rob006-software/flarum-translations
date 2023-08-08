@@ -67,34 +67,34 @@
             "filter": {
                 "all_label": "Всички въпроси",
                 "solved_label": "Решени въпроси",
-                "unsolved_label": "",
-                "accessible_label": ""
+                "unsolved_label": "Нерешени въпроси",
+                "accessible_label": "Решен/Нерешен избор"
             },
             "composer": {
-                "titlePlaceholder": ""
+                "titlePlaceholder": "Заглавие на въпроса"
             },
             "user": {
-                "best-answer-count": ""
+                "best-answer-count": "{count, plural, one { {count} best answer} other {{count} best answers}}"
             }
         },
         "email": {
             "subject": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "Вашата публикация беше зададена като най-добър отговор от 1{display_name}",
+                "ba-set": "Най-добрият отговор е зададен от {display_name}",
+                "select": "Успяхте ли да получите отговор на въпроса си?"
             },
             "body": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "Здравей {recipient_display_name},\n\nСтрахотна работа, {actor_display_name} току-що определи твоята публикацията като най-добрия отговор в дискусията: {discussion_title}. Благодаря за помощта.\n\nВиж го тук: {discussion_url}\n",
+                "ba-set": "Здравей {recipient_display_name},\n\n{actor_display_name} даде най-добрият отговор в дискусията: {discussion_title}, в която участвахте.\n\nВижте го: {discussion_url}\n",
+                "select": "Здравей, {recipient_display_name},\n\nСамо отбелязвам; вече трябва да имате много отговори на въпроса си: {discussion_title}. Надяваме се, че някой от тях ви е помогнал да решите проблема си.\n\nАко е така, би било наистина полезно за бъдещите членове, ако можете да отбележите най-добрия отговор на вашия въпрос. Това ще помогне на хората със същия проблем да намерят отговора, от който се нуждаят, и също така е голяма признателност към членовете, които са ви помогнали. Те отделят времето си доброволно, така че е хубаво да знаят, че се справят добре.\n\nПосетете дискусията тук: {discussion_url} и изберете най-подходящата публикация като най-добър отговор.\n\nБлагодаря!\n"
             }
         }
     },
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "most_best_answers": "",
-                "least_best_answers": ""
+                "most_best_answers": "Повечето най-добри отговори",
+                "least_best_answers": "Най-малко от най-добрите отговори"
             }
         }
     }
