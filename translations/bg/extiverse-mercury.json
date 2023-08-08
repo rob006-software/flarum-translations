@@ -13,12 +13,12 @@
             },
             "header-secondary": {
                 "no-token": "Изисква се токен",
-                "updates": "{count, plural, =0 {No updates} one {One update} other {# updates}}"
+                "updates": "{count, plural, =0 {Няма актуализации} one {Една актуализация} other {# актуализации}}"
             }
         },
         "email": {
             "new-extension-update": {
-                "subject": "{count, plural, one {One update available for your community} other {# updates available for your community}}",
+                "subject": "{count, plural, one {Една налична актуализация за вашето комюнити} other {# налични актуализации за вашето комюнити}}",
                 "body": "Здравей, {recipient_display_name}!\n\n{count} актуализации бяха намерени във вашата общност на Flarum. Силно се препоръчва да\nактуализирайте възможно най-скоро.\n\nАктуализациите включват следните разширения {extensions}.\n\nМоля, посетете вашата общност за повече информация: {url}.\n"
             }
         }
