@@ -42,31 +42,31 @@
         "forum": {
             "answered_badge": "Отговорено",
             "this_best_answer": "Изберете Най-добият отговор",
-            "remove_best_answer": "",
-            "best_answer_button": "",
-            "best_answer_label": "",
+            "remove_best_answer": "Премахнете отметката от най-добрия отговор",
+            "best_answer_button": "Най-добрият отговор",
+            "best_answer_label": "зададено от <a>{username}</a> {time_set}",
             "errors": {
-                "mismatch": ""
+                "mismatch": "Избраната публикация не съществува в тази дискусия."
             },
             "notification": {
-                "best_answer_in_discussion": "",
-                "content": "",
-                "awarded": "",
+                "best_answer_in_discussion": "{username} даде най-добрия отговор в тази дискусия",
+                "content": "Моля, изберете най-добият отговор, ако въпроса ви е бил вече отговорен",
+                "awarded": "Вашата публикация беше зададена като най-добър отговор от {username}",
                 "preferences": {
-                    "awarded_best_answer": "",
-                    "best_answer_in_discussion": "",
-                    "select_best_answer": ""
+                    "awarded_best_answer": "Някой определя публикацията ми като най-добър отговор",
+                    "best_answer_in_discussion": "Най-добрият отговор е даден в дискусия, в която участвах",
+                    "select_best_answer": "Автоматично напомняне за избор на най-добър отговор в дискусия, която започнах"
                 }
             },
             "index": {
-                "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "ask_question": "Задай въпрос",
+                "cannot_ask_question": "Не мога да задам въпрос",
+                "solved_link": "Решени дискусии",
+                "unsolved_link": "Нерешени дискусии"
             },
             "filter": {
-                "all_label": "",
-                "solved_label": "",
+                "all_label": "Всички въпроси",
+                "solved_label": "Решени въпроси",
                 "unsolved_label": "",
                 "accessible_label": ""
             },
