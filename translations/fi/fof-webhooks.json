@@ -43,7 +43,7 @@
                 "service_not_found": "Palvelua \"{service}\" ei löytynyt.",
                 "url_invalid": "URL ei ole oikea valitulle palvelulle.",
                 "tag_invalid": "Tämä webhook on rajoitettu virheelliselle avainsanalla. Rajoitukset eivät koske tätä. Pidä huolta, että tämä on tarkoituksellista.",
-                "tag_disabled": ""
+                "tag_disabled": "Tällä webhookilla oli avainsana rajoitus määritettynä. Avainsana lisäosa ei ole käytössä. Rajoitukset eivät toimi. Tarkista onko tämä oikein."
             },
             "nav": {
                 "desc": "Muokatta ulospäin menevä foorumisi webhook."
@@ -52,12 +52,12 @@
                 "debug_label": "Debuggaa",
                 "debug_help": "Lisää ylimääräinen loki Flarumin omaan lokitiedostoon debugataksesi ongelmia webhookkien ja/tai tapahtumien toiminnassa.",
                 "item": {
-                    "tag_any_label": "Mikä tahansa"
+                    "tag_any_label": "Mikä tahansa avainsana"
                 },
                 "help": {
                     "disabled": "Tämä webhook on poistettu käytöstä, koska siinä ei ole tapahtumia käytössä.",
                     "general": "Täällä voit lisätä, muokata ja poistaa foorumisi webhookkeja.",
-                    "tags": "",
+                    "tags": "Voit rajoittaa webhookin tiettyyn avainsanaan. Jos valitset minkä tahansa avainsanan, webhook ajetaan vain kun tapahtuma kyseisessä avainsanassa laukeaa.",
                     "url": "Webhookin suoritettava päätepiste"
                 },
                 "modal": {
