@@ -2,85 +2,85 @@
     "fof-linguist": {
         "admin": {
             "permissions": {
-                "view_string_keys": ""
+                "view_string_keys": "Вижте ключовете за низове за превод"
             },
             "tabs": {
-                "strings": "",
-                "coverage": "",
-                "export": "",
-                "import": ""
+                "strings": "Преводи",
+                "coverage": "Покритие",
+                "export": "Експорт",
+                "import": "Импортиране"
             },
             "buttons": {
-                "apply": "",
-                "reset": "",
-                "copy-original": "",
-                "load-more": "",
-                "delete-redundant": "",
-                "delete-redundant-confirm": "",
-                "delete-all": "",
-                "delete-all-confirm": ""
+                "apply": "Приложи",
+                "reset": "Възстановете оригинала",
+                "copy-original": "Копирайте оригиналния текст",
+                "load-more": "Заредете още",
+                "delete-redundant": "Изтрий излишните преводи",
+                "delete-redundant-confirm": "Ще изтриете {count} превода, които имат същите оригинали и частни стойности. Това е полезно за почистване след инсталация на езиков пакет.\n",
+                "delete-all": "Изтрий всички преводи",
+                "delete-all-confirm": "Ще изтриете всичките {count} персонализирани превода. Убeдте се, че сте архивирали всичко, което бихте икали да запазите.\n"
             },
             "locales": {
-                "all": ""
+                "all": "Всички"
             },
             "placeholder": {
-                "not-translated": "",
-                "all-locales": "",
-                "hint": ""
+                "not-translated": "Без превод",
+                "all-locales": "Тескст дефиниран тук, ще бъде показан и на всички останали езици",
+                "hint": "Оригинална стойност:"
             },
             "filters": {
-                "search": "",
-                "with-own-translations": "",
-                "missing": "",
-                "missing-middle-label": "",
+                "search": "Търсете преводни низове...",
+                "with-own-translations": "Моите преводи",
+                "missing": "Намерете липсващи преводи",
+                "missing-middle-label": "преводи на",
                 "negation-options": {
-                    "with": "",
-                    "without": ""
+                    "with": "С",
+                    "without": "Без"
                 },
                 "type-options": {
-                    "any": "",
-                    "original": "",
-                    "own": ""
+                    "any": "Оригинален или Персонализиран",
+                    "original": "Оригинален",
+                    "own": "Персонализиран"
                 },
                 "operation-options": {
-                    "or": "",
-                    "and": ""
+                    "or": "Който и да е от",
+                    "and": "Всички от"
                 },
-                "for-extension": "",
-                "frontend": "",
-                "frontend-all-except-admin": "",
-                "mass-edit": "",
-                "results": ""
+                "for-extension": "За удължаване",
+                "frontend": "За front-end",
+                "frontend-all-except-admin": "Всички без Админа",
+                "mass-edit": "Масова редакция",
+                "results": "Показване на {shown} от {total} съвпадащи превода"
             },
             "clear-cache": {
-                "text": "",
-                "button": ""
+                "text": "Няма нови преводи. Бележка: изчиствнето на кеша, може да забави за момент функционирането на форума.\n",
+                "button": "Изчистете кеша сега"
             },
             "coverage": {
                 "column-options": {
-                    "locale": "",
-                    "namespace": ""
+                    "locale": "По език",
+                    "namespace": "По интерфейс"
                 },
                 "total-options": {
-                    "percent": "",
-                    "count": ""
+                    "percent": "Процент",
+                    "count": "Брой"
                 },
                 "columns": {
-                    "namespace": "",
-                    "total": "",
-                    "all-except-admin": "",
-                    "all-frontends": ""
+                    "namespace": "Namespace",
+                    "total": "Всичко",
+                    "all-except-admin": "Форум и други интерфейси",
+                    "all-frontends": "Покажи всички интерфейси"
                 },
                 "count": {
-                    "percent": "",
-                    "total": "",
-                    "details": ""
+                    "percent": "{percent} %",
+                    "total": "{translated} / {total}",
+                    "details": "{total} всички/ {original} оригинали/ {custom} персонализирани"
                 },
-                "all-namespaces": "",
-                "apply-missing-filter": ""
+                "all-namespaces": "Всички",
+                "apply-missing-filter": "Покажи липсващите съвпадащи преводи"
             },
             "export": {
-                "title": "",
+                "title": "Експорт",
                 "warning": "",
                 "locale": "",
                 "locale-all": "",
