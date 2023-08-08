@@ -29,18 +29,18 @@
                     "daily": "Päivittäin"
                 },
                 "soft_404": {
-                    "heading": "",
-                    "help": "",
+                    "heading": "Kevyt 404 esto",
+                    "help": "Kun mallilla ei ole tai on vähän relevanttia tietoa Google ja muut seuraimet voivat merkitä nämä \"kevyeksi 404\" sivuiksi. Estääksesi tämän aseta minimimäärä sivuja/asioita jokaiselle.",
                     "user": {
                         "comments": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "Käyttäjä: Vähimmäismäärä kommentteja/viestejä",
+                            "minimum_item_threshold_help": "Minimimäärä kommentteja/viestejä, joita käyttäjällä pitää olla, että tulee mukaan sivukarttaan."
                         }
                     },
                     "tags": {
                         "discussion": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "Avainsana: Minimäärä keskusteluita",
+                            "minimum_item_threshold_help": "Minimimäärä käyttäjiä keskusteluita jotta se näytetään sivukartasta."
                         }
                     }
                 },
