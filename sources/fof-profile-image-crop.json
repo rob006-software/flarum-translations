@@ -4,7 +4,7 @@
             "modal": {
                 "error": {
                     "failed_to_load_cropper": "Failed to load the image cropper.",
-                    "generic": "Something went wrong while cropping the image.",
+                    "generic_resize": "Something went wrong while cropping & resizing the image.",
                     "get_image_data": "Failed to crop. Make sure your browser's fingerprinting protection is disabled."
                 },
                 "help_text": "The image upload may fail if your browser's privacy settings are very strict. If you're having trouble, try disabling fingerprinting protection. Otherwise, you can either <disableResize>disable compressing the cropped image</disableResize> or <disableCrop>disable cropping altogether</disableCrop>.\n",

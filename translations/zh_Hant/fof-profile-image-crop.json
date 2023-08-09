@@ -4,8 +4,9 @@
             "modal": {
                 "error": {
                     "failed_to_load_cropper": "無法加載圖像裁剪器。",
-                    "generic": "裁剪圖像時出現問題。",
-                    "get_image_data": "裁剪失敗。請確保瀏覽器的指紋識別保護已禁用。"
+                    "generic_resize": "",
+                    "get_image_data": "裁剪失敗。請確保瀏覽器的指紋識別保護已禁用。",
+                    "generic": "裁剪圖像時出現問題。"
                 },
                 "help_text": "如果您的瀏覽器隱私設置非常嚴格，圖片上傳可能會失敗。如果您遇到問題，請嘗試禁用指紋保護。否則，您可以<disableResize>禁用壓縮裁剪圖片</disableResize>或<disableCrop>完全禁用裁剪</disableCrop>。\n",
                 "submit_button": "上傳",
