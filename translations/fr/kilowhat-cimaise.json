@@ -48,7 +48,8 @@
                 "drop-file": "ou glisser-déposer ici",
                 "publishSilently": "Publier discrètement",
                 "submit": "Envoyer",
-                "submitInComposer": "Continuer"
+                "submitInComposer": "Continuer",
+                "reload": ""
             },
             "new-album-modal": {
                 "title": "Nouvel album"
@@ -204,6 +205,24 @@
                 "cannotAttachAlreadySubmitted": "Impossible de joindre la photo {id} car elle a déjà été envoyée",
                 "cannotAttachFromExternalAlbum": "Impossible de joindre l'image {id} car elle appartient à un album externe",
                 "cannotAttachUnauthorized": "Impossible de joindre l'image {id} car elle ne vous appartient pas"
+            },
+            "picture-edit": {
+                "unauthorized": {
+                    "title": "",
+                    "description": "",
+                    "license": "",
+                    "author": "",
+                    "takenAt": "",
+                    "isDraftUnSubmit": "",
+                    "isDraftSubmit": "",
+                    "isApprovedUnApprove": "",
+                    "isApprovedApprove": "",
+                    "isHiddenRestore": "",
+                    "isHiddenHide": "",
+                    "isFavorite": "",
+                    "stickers": "",
+                    "crop": ""
+                }
             }
         },
         "ref": {

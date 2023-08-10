@@ -47,7 +47,9 @@
                     "discussionComposer": "Trình soạn thảo cuộc thảo luận"
                 },
                 "uniformComposerLayout": "Bố cục trình soạn thảo thảo luận thống nhất",
-                "uniformComposerLayoutHelp": "Thay đổi kiểu dáng của các thẻ, trường tiêu đề và nội dung để phù hợp với Formulaire. Bố cục này sẽ chiếm nhiều dung lượng hơn, vì vậy bạn nên cài đặt và bật tiện ích mở rộng <a>Trang trình soạn thảo/a>.\n"
+                "uniformComposerLayoutHelp": "Thay đổi kiểu dáng của các thẻ, trường tiêu đề và nội dung để phù hợp với Formulaire. Bố cục này sẽ chiếm nhiều dung lượng hơn, vì vậy bạn nên cài đặt và bật tiện ích mở rộng <a>Trang trình soạn thảo/a>.\n",
+                "noByobuFields": "",
+                "noByobuFieldsHelp": ""
             }
         },
         "forum": {
@@ -388,6 +390,7 @@
             "unknown-form": "ID biểu mẫu không được công nhận {id}",
             "unauthorized-form": "Bạn không có quyền cần thiết để điền ID biểu mẫu {id}",
             "unauthorized-scoped-form": "Bạn không thể điền ID biểu mẫu {id} bằng tổ hợp thẻ hiện",
+            "unsupported-discussion-form": "",
             "file-already-belongs-form": "Tệp {id} thuộc biểu mẫu khác",
             "file-already-belongs-submission": "Tệp {id} thuộc về một bài gửi khác",
             "export": {

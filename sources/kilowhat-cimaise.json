@@ -48,7 +48,8 @@
                 "drop-file": "or drag and drop here",
                 "publishSilently": "Publish silently",
                 "submit": "Submit",
-                "submitInComposer": "Continue"
+                "submitInComposer": "Continue",
+                "reload": "Reload list of drafts"
             },
             "new-album-modal": {
                 "title": "New Album"
@@ -204,6 +205,24 @@
                 "cannotAttachAlreadySubmitted": "Cannot attach picture {id} because it has already been submitted",
                 "cannotAttachFromExternalAlbum": "Cannot attach picture {id} becuase it belongs to an external album",
                 "cannotAttachUnauthorized": "Cannot attach picture {id} because it doesn't belong to you"
+            },
+            "picture-edit": {
+                "unauthorized": {
+                    "title": "Invalid title, edit not authorized",
+                    "description": "Invalid description, edit not authorized",
+                    "license": "Invalid license, edit not authorized",
+                    "author": "Invalid author, edit not authorized",
+                    "takenAt": "Invalid take date, edit not authorized",
+                    "isDraftUnSubmit": "Invalid draft state, not allowed to un-submit",
+                    "isDraftSubmit": "Invalid draft state, not allowed to submit",
+                    "isApprovedUnApprove": "Invalid approval state, not allowed to un-approve",
+                    "isApprovedApprove": "Invalid approval state, not allowed to approve",
+                    "isHiddenRestore": "Invalid hide state, not allowed to restore",
+                    "isHiddenHide": "Invalid hide state, not allowed to hide",
+                    "isFavorite": "Invalid favorite state, edit not authorized",
+                    "stickers": "Invalid stickers, edit not authorized",
+                    "crop": "Invalid crop, edit not authorized"
+                }
             }
         },
         "ref": {

@@ -48,7 +48,8 @@
                 "drop-file": "或拖放至此處",
                 "publishSilently": "安靜的發佈",
                 "submit": "提交",
-                "submitInComposer": "繼續"
+                "submitInComposer": "繼續",
+                "reload": ""
             },
             "new-album-modal": {
                 "title": "新相冊"
@@ -204,6 +205,24 @@
                 "cannotAttachAlreadySubmitted": "無法附加圖片 {id}，因為它已經提交",
                 "cannotAttachFromExternalAlbum": "無法附加圖片 {id}，因為它屬於外部相冊",
                 "cannotAttachUnauthorized": "無法附加圖片 {id}，因為它不屬於您"
+            },
+            "picture-edit": {
+                "unauthorized": {
+                    "title": "",
+                    "description": "",
+                    "license": "",
+                    "author": "",
+                    "takenAt": "",
+                    "isDraftUnSubmit": "",
+                    "isDraftSubmit": "",
+                    "isApprovedUnApprove": "",
+                    "isApprovedApprove": "",
+                    "isHiddenRestore": "",
+                    "isHiddenHide": "",
+                    "isFavorite": "",
+                    "stickers": "",
+                    "crop": ""
+                }
             }
         },
         "ref": {

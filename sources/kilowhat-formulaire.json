@@ -47,7 +47,9 @@
                     "discussionComposer": "Discussion Composer"
                 },
                 "uniformComposerLayout": "Uniform discussion composer layout",
-                "uniformComposerLayoutHelp": "Changes the styling of the tags, title and content fields to match with Formulaire. This layout will take even more space so it's recommended you install and enable the <a>Composer Page</a> extension.\n"
+                "uniformComposerLayoutHelp": "Changes the styling of the tags, title and content fields to match with Formulaire. This layout will take even more space so it's recommended you install and enable the <a>Composer Page</a> extension.\n",
+                "noByobuFields": "Do not integrate discussion fields with private discussions from Byobu extension",
+                "noByobuFieldsHelp": "By default, discussion fields that are not tag-scoped will apply to all discussions including private ones."
             }
         },
         "forum": {
@@ -388,6 +390,7 @@
             "unknown-form": "Unrecognized form ID {id}",
             "unauthorized-form": "You don't have the necessary permissions to fill form ID {id}",
             "unauthorized-scoped-form": "You cannot fill form ID {id} with current tag combination",
+            "unsupported-discussion-form": "You cannot fill form ID {id} on this type of discussion",
             "file-already-belongs-form": "File {id} belongs to another form",
             "file-already-belongs-submission": "File {id} belongs to another submission",
             "export": {
