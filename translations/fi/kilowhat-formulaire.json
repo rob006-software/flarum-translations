@@ -48,8 +48,8 @@
                 },
                 "uniformComposerLayout": "Yhtenäinen ulkoasu keskustelun luonnin kanssa",
                 "uniformComposerLayoutHelp": "Vaihtaa avainsanan, otsikon ja sisällön tyylittelyä vastaamaan Formulairen tyylittelyä. Tämä ulkoasu ottaa enemmän tilaa joten suosittelemme, että asennat <a>Composer Page</a> lisäosan.\n",
-                "noByobuFields": "",
-                "noByobuFieldsHelp": ""
+                "noByobuFields": "Älä integroi keskustelun kenttiä yksityisen keskustelun kenttien kanssa Byobu lisäosassa",
+                "noByobuFieldsHelp": "Oletuksena keskustelun kentät jotka ei ole avainsanassa on käytössä kaikissa viesteissä, myös yksityisissä."
             }
         },
         "forum": {
@@ -390,7 +390,7 @@
             "unknown-form": "Tuntematon lomakkeen ID {id}",
             "unauthorized-form": "Sinulla ei ole tarvittavia oikeuksia lomakkeen ID {id} täyttämiseen",
             "unauthorized-scoped-form": "Et voi täyttää lomaketta ID {id} nykyisillä avainsanoilla",
-            "unsupported-discussion-form": "",
+            "unsupported-discussion-form": "Et voi täyttää lomake ID:tä {id} tämän tyyppisessä keskustelussa",
             "file-already-belongs-form": "Tiedosto {id} kuuluu toiselle lomakkeelle",
             "file-already-belongs-submission": "Tiedosto {id} kuuluu toiselle merkinnälle",
             "export": {
