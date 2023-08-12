@@ -48,8 +48,8 @@
                 },
                 "uniformComposerLayout": "Єдиний макет композитора дискусії",
                 "uniformComposerLayoutHelp": "Змінює стиль тегів, заголовка та полів вмісту відповідно до Formulaire. Цей макет займатиме ще більше місця, тому рекомендується встановити та увімкнути розширення <a>Composer Page</a>.\n",
-                "noByobuFields": "",
-                "noByobuFieldsHelp": ""
+                "noByobuFields": "Не інтегруйте поля обговорення з приватними обговореннями із розширення Byobu",
+                "noByobuFieldsHelp": "За налаштуванням, поля обговорення, не обмежені тегами, застосовуються до всіх обговорень, включаючи приватні."
             }
         },
         "forum": {
@@ -390,7 +390,7 @@
             "unknown-form": "Нерозпізнаний ідентифікатор форми {id}",
             "unauthorized-form": "Ви не маєте необхідних прав для заповнення форми ID {id}",
             "unauthorized-scoped-form": "Ви не можете заповнити ідентифікатор форми {id} з поточною комбінацією тегів",
-            "unsupported-discussion-form": "",
+            "unsupported-discussion-form": "Ви не можете заповнити форму з ID {id} в цьому типі дискусії",
             "file-already-belongs-form": "Файл {id} належить до іншої форми",
             "file-already-belongs-submission": "Файл {id} належить до іншої заявки",
             "export": {
