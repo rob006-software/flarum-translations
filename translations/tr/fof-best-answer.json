@@ -16,12 +16,12 @@
                 "allow_select_own_post_help": "Tartışma sahibinin tartışmadaki kendi gönderilerinden birini en iyi cevap olarak seçmesine izin verin",
                 "enable_all_tags_button": "Tüm etiketlerde En İyi Yanıtı etkinleştir",
                 "enable_all_tags_reminder_button": "En İyi Yanıt hatırlatıcısını için tüm etiketleri etkinleştir",
-                "show_max_lines_label": "",
-                "show_max_lines_help": "",
+                "show_max_lines_label": "Post önizlemede gösterilecek maks. satırlar",
+                "show_max_lines_help": "Devre dışı bırakmak için 0 olarak ayarlayın. Bir gönderi, yapılandırılan satır miktarından daha uzunsa, gönderi önizlemesinde bir solma efektiyle kesilecektir.",
                 "select_best_answer_reminder_days": "Hatırlatma sıklığı",
                 "select_best_answer_reminder_days_help": "Yapılandırılabilir gün sayısından sonra tartışma sahibine En İyi Yanıtı seçmesi için bir hatırlatıcı gönderin, 0 = hatırlatıcıları devre dışı bırakın.",
-                "select_best_answer_tags_label": "",
-                "select_best_answer_tags_help": "",
+                "select_best_answer_tags_label": "En iyi cevapların olduğu tartışmalar için etiketler",
+                "select_best_answer_tags_help": "Bir En İyi Cevap ayarlandığında, varsa hangi etiketlerin tartışmalara ekleneceğini seçin. Yalnızca ikincil etiketlere izin verilir. En İyi Cevap kaldırılırsa bu etiketler kaldırılacaktır.",
                 "schedule_on_one_server": "Zamanlayıcı için 'onOneServer()' kullanın",
                 "schedule_on_one_server_help": "Redis/Memcache gerektirir",
                 "schedule_stop_overnight": "Aktif olmayan saatlerde hatırlatma bildirimlerinin gönderilmesini önleyin",
@@ -94,8 +94,8 @@
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "most_best_answers": "",
-                "least_best_answers": ""
+                "most_best_answers": "En iyi cevaplar",
+                "least_best_answers": "En az en iyi cevaplar"
             }
         }
     }

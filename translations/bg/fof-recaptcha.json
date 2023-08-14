@@ -2,23 +2,23 @@
     "fof-recaptcha": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "secret_key_label": "",
-                "site_key_label": "",
-                "type_label": "",
-                "signup": "",
-                "signin": "",
-                "forgot": ""
+                "help_text": "Получете идентификационните си данни за Google reCAPTCHA <a>тук</a>.",
+                "secret_key_label": "Таен ключ",
+                "site_key_label": "Ключ на сайта",
+                "type_label": "Тип reCAPTCHA",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
             },
             "permissions": {
-                "post_without_captcha": ""
+                "post_without_captcha": "Създаване на публикации и дискусии без captcha"
             }
         },
         "forum": {
-            "error": ""
+            "error": "Възникна грешка при изпращането на reCAPTCHA. Опитай пак."
         }
     },
     "validation": {
-        "recaptcha": ""
+        "recaptcha": "Проверката на reCAPTCHA не бе успешна."
     }
 }

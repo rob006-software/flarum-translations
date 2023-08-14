@@ -2,54 +2,54 @@
     "askvortsov-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "Категории"
             },
             "labels": {
-                "keep_tags_nav": "",
-                "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "keep_tags_nav": "Да се запази връзката към страницата с етикети в страничната лента за навигация?",
+                "child_bare_icon": "Обезпокоителни детски икони?",
+                "compact_mobile_mode": "Компактен мобилен режим",
+                "full_page_desktop": "Работен плот на цяла страница?",
+                "parent_remove_icon": "Да се скрият ли иконите за тагове от най-високо ниво?",
+                "parent_remove_description": "Да се скрият ли описанията за тагове от най-високо ниво?",
+                "parent_remove_stats": "Да се скрие статистиката за тагове от най-високо ниво?",
+                "parent_remove_last_discussion": "Да се скрият ли най-новите дискусии за тагове от най-високо ниво?",
+                "small_forum_optimized": "Оптимизиране за малки форуми?"
             },
             "help": {
-                "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "child_bare_icon": "Трябва ли иконите на дъщерните категории да се показват без кръгъл фон?",
+                "full_page_desktop": "Трябва ли навигационното меню на страничната лента да бъде свито до ред (като на страницата с традиционни етикети)? Това също така ще скрие изпълнимите модули (като статистиката на форума на Friends of Flarum) от навигационната лента на страницата с категории.",
+                "small_forum_optimized": "Това ще даде по-точен брой дискусии/постове, но ще забави драматично средни и големи форуми."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "Навигация",
+                "layout": "Оформление",
+                "parent_display": "Показване на родителска категория",
+                "child_display": "Показване на детска категория",
+                "performance": "Изпълнение"
             },
-            "title": ""
+            "title": "Настройки на категориите"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Всички категории",
+                "meta_title_text": "=> askvortsov-categories.ref.categories"
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Обратно към Категории"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> askvortsov-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Дискусии",
+                "post_label": "Публикации"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "Няма дискусии (все още!)"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Категории"
         }
     }
 }

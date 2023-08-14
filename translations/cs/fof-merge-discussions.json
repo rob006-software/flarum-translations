@@ -2,28 +2,28 @@
     "fof-merge-discussions": {
         "forum": {
             "modal": {
-                "title": "",
-                "ordering_heading": "",
-                "ordering_date_label": "",
-                "ordering_date_help": "",
+                "title": "Sloučit diskuze",
+                "ordering_heading": "Pořadí sloučení",
+                "ordering_date_label": "Sloučit příspěvky podle data vytvoření",
+                "ordering_date_help": "Příspěvky ve výsledné diskuzi jsou seřazeny podle data vytvoření",
                 "ordering_suffix_label": "",
-                "ordering_suffix_help": "",
-                "type_heading": "",
+                "ordering_suffix_help": "Příspěvky zařazené do cílové diskuze budou přidány na konec diskuze",
+                "type_heading": "Typ sloučení",
                 "type_target_label": "",
                 "type_target_help_text": "",
                 "type_from_label": "",
                 "type_from_help_text": "",
-                "load_preview_button": "",
-                "submit_button": ""
+                "load_preview_button": "Náhled",
+                "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "",
+                "discussion_merged": "Vaše diskuze <b>{oldTitle}</b> byla sloučena s touto diskuzí uživatelem {username}.",
                 "preferences": {
-                    "discussion_merged": ""
+                    "discussion_merged": "Někdo sloučí jednu z mých diskuzí s jinou"
                 }
             },
             "discussion": {
-                "merge": ""
+                "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
                 "merged": ""
@@ -31,29 +31,29 @@
         },
         "admin": {
             "permissions": {
-                "merge_discussions_label": ""
+                "merge_discussions_label": "Sloučit diskuze"
             },
             "settings": {
-                "search_result_help": "",
+                "search_result_help": "Kolik diskuzí se má vrátit při vyhledávání v modálním okně \"Sloučit diskuze\".",
                 "search_result_label": ""
             }
         },
         "api": {
             "error": {
-                "merging_failed": "",
-                "updating_failed": "",
-                "deleting_failed": "",
-                "fixing_posts_number_failed": "",
-                "fixing_posts_number_meta_failed": ""
+                "merging_failed": "Nepodařilo se sloučit diskuze.",
+                "updating_failed": "Nepodařilo se aktualizovat podrobnosti diskuze.",
+                "deleting_failed": "Nepodařilo se odstranit prázdné diskuze.",
+                "fixing_posts_number_failed": "Nepodařilo se opravit číslování příspěvků.",
+                "fixing_posts_number_meta_failed": "Nepodařilo se opravit číslování příspěvků."
             }
         },
         "ref": {
-            "merge": ""
+            "merge": "Sloučit"
         },
         "email": {
             "merged": {
-                "body": "",
-                "subject": ""
+                "body": "Ahoj {recipient_display_name},\n\nVaše diskuze \"{merged_discussion_title}\" byla sloučena do diskuze \"{discussion_title}\" od uživatele {actor_display_name}.\n\nPro přístup k diskuzi klikněte na následující odkaz:\n{discussion_url}\n",
+                "subject": "Vaše diskuze \"{merged_discussion_title}\" byla sloučena"
             }
         }
     }

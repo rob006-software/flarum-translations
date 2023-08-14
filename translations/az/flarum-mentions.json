@@ -11,21 +11,21 @@
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "Bir istifadəçini və ya yazını qeyd edin",
-                "reply_to_post_text": "#{number} nömrəsinə cavab verin"
+                "mention_tooltip": "Bəhs et",
+                "reply_to_post_text": "Cavab ver #{number}"
             },
             "mentioned_by": {
-                "title": "",
-                "load_more_button": ""
+                "title": "Bu paylaşıma cavablar",
+                "load_more_button": "=> core.ref.load_more"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
-                "post_mentioned_text": "{username} yazınıza cavab verdi",
-                "user_mentioned_text": "{username} səni qeyd etdi",
-                "group_mentioned_text": ""
+                "post_mentioned_text": "{username} paylaşımınıza cavab verdi",
+                "user_mentioned_text": "{username} sizdən bəhs etdi",
+                "group_mentioned_text": "{username} üzv olduğunuz qrupdan bəhs etdi"
             },
             "post": {
-                "mentioned_by_more_text": "",
+                "mentioned_by_more_text": "Daha {count} cavab.",
                 "mentioned_by_self_text": "{users} buna cavab verdi.",
                 "mentioned_by_text": "{users} buna cavab verdi.",
                 "others_text": "=> core.ref.some_others",
@@ -34,32 +34,32 @@
                 "you_text": "=> core.ref.you"
             },
             "settings": {
-                "notify_post_mentioned_label": "Yazılarımdan birinə cavab yazan var",
-                "notify_user_mentioned_label": "Kimsə bir yazıda məndən bəhs edir",
-                "notify_group_mentioned_label": ""
+                "notify_post_mentioned_label": "Kimsə paylaşımlarımdan birinə cavab verir",
+                "notify_user_mentioned_label": "Kimsə bir paylaşımda məndən bəhs edir",
+                "notify_group_mentioned_label": "Kimsə paylaşımda üzvü olduğum qrupdan bəhs edir"
             },
             "user": {
-                "mentions_link": "Qeydlər"
+                "mentions_link": "Bəhslər"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[naməlum]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[naməlum qrup]"
             }
         },
         "email": {
             "post_mentioned": {
-                "subject": "{replier_display_name} daxil etdiyiniz yazıya cavab verdi {title}",
-                "body": "Salam {recipient_display_name}!\n\n{replier_display_name} yazınıza cavab verdi (#{post_number}) in {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "subject": "{replier_display_name} {title} ünvanındakı paylaşımınıza cavab verdi",
+                "body": "Salam {recipient_display_name}!\n\n{replier_display_name} {title} ünvanındakı paylaşımınıza (#{post_number}) cavab verdi.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "{mentioner_display_name} səni qeyd etdi {title}",
-                "body": "Salam {recipient_display_name}!\n\n{mentioner_display_name} adlı bir yazıda səni qeyd etdi {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "subject": "{mentioner_display_name} {title} ünvanında sizdən bəhs etdi",
+                "body": "Salam {recipient_display_name}!\n\n{mentioner_display_name} {title} adlı paylaşımda sizdən bəhs etdi.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} {title} qrupunda üzv olduğunuz qrupdan bəhs etdi",
+                "body": "Salam {recipient_display_name}!\n\n{mentioner_display_name} {title} ünvanında üzv olduğunuz qrupdan bəhs etdi.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }

@@ -2,98 +2,98 @@
     "fof-username-request": {
         "admin": {
             "permissions": {
-                "moderate_requests": "",
-                "request_nickname": "",
-                "request_username": ""
+                "moderate_requests": "İstifadəçi adı/ləqəb dəyişikliyi tələblərini təsdiq et",
+                "request_nickname": "Ləqəbin dəyişdirilməsini tələb et",
+                "request_username": "İstifadəçi adının dəyişdirilməsini tələb et"
             }
         },
         "forum": {
             "nickname_modals": {
                 "action": {
-                    "title": "",
-                    "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "title": "=> fof-username-request.ref.nickname_change_request",
+                    "help_text": "Zəhmət olmasa əmin olun ki, bu tələb olunan ləqəb dəyişikliyi forum qaydalarına uyğundur.",
+                    "decision_title": "Qərar",
+                    "approval_label": "Təsdiqlə",
+                    "rejected_label": "Rədd et",
+                    "submit_button": "Göndər",
+                    "reason_title": "Rədd etmə səbəbi",
+                    "success": "Qərar göndərildi.",
+                    "name": "{name} ləqəbini \"{requestedName}\" olaraq dəyişməyi tələb etdi"
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
-                    "dismiss_button": "",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
-                    "resubmit": ""
+                    "title": "Ləqəb Dəyişmə Tələbi",
+                    "approved": "Ləqəb dəyişikliyi tələbiniz təsdiqləndi",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Ləqəbiniz uğurla dəyişdirildi: {name}",
+                    "rejected": "Ləqəb dəyişikliyi tələbiniz rədd edildi",
+                    "reason": "Rədd edilmə səbəbi: <i>\"{reason}\"</i>.",
+                    "resubmit": "Bu zaman siz hesab parametrlərinizdən yeni ləqəb dəyişikliyi tələbini təkrar göndərə bilərsiniz."
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
-                    "submit_button": "",
-                    "delete_button": "",
-                    "confirmation_message": "",
-                    "dismiss_button": "",
-                    "deleted": ""
+                    "title": "Ləqəbin dəyişməsini tələb et",
+                    "current_request": "Siz artıq ləqəbinizi \"{name}\" olaraq dəyişməyi tələb etmisiniz. Tələbi yeniləyə və ya silə bilərsiniz.",
+                    "submit_button": "Tələbi göndər",
+                    "delete_button": "Tələbi sil",
+                    "confirmation_message": "Ləqəb dəyişikliyi tələbiniz göndərilib və təsdiqini gözləyir.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Ləqəb tələbi silindi."
                 }
             },
             "username_modals": {
                 "action": {
-                    "title": "",
-                    "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "title": "=> fof-username-request.ref.username_change_request",
+                    "help_text": "Zəhmət olmasa əmin olun ki, bu tələb olunan istifadəçi adı dəyişikliyi forum qaydalarına uyğundur.",
+                    "decision_title": "Qərar",
+                    "approval_label": "Təsdiqlə",
+                    "rejected_label": "Rədd et",
+                    "submit_button": "Göndər",
+                    "reason_title": "Rədd etmə səbəbi",
+                    "success": "Qərar göndərildi.",
+                    "name": "{name} istifadəçi adını \"{requestedName}\" olaraq dəyişmək üçün tələb göndərdi"
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
-                    "dismiss_button": "",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
-                    "resubmit": ""
+                    "title": "İstifadəçi adının dəyişdirilməsi tələbi",
+                    "approved": "İstifadəçi adı dəyişikliyi tələbiniz təsdiqləndi",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "İstifadəçi adınız uğurla dəyişdirildi: {name}",
+                    "rejected": "İstifadəçi adının dəyişdirilməsi tələbiniz rədd edildi",
+                    "reason": "Rədd edilmə səbəbi: <i>\"{reason}\"</i>.",
+                    "resubmit": "Bu zaman siz hesab ayarlarınızdan yeni istifadəçi adı dəyişikliyi tələbini təkrar göndərə bilərsiniz."
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
-                    "submit_button": "",
-                    "delete_button": "",
-                    "confirmation_message": "",
-                    "dismiss_button": "",
-                    "deleted": ""
+                    "title": "İstifadəçi adının dəyişdirilməsini tələb et",
+                    "current_request": "Siz artıq istifadəçi adınızı \"{name}\" olaraq dəyişməyi tələb etmisiniz. Tələbi yeniləyə və ya silə bilərsiniz.",
+                    "submit_button": "Tələbi göndər",
+                    "delete_button": "Tələbi sil",
+                    "confirmation_message": "İstifadəçi adının dəyişdirilməsi tələbiniz göndərilib və təsdiqini gözləyir.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "İstifadəçi adı tələbi silindi."
                 }
             },
             "pending_requests": {
-                "empty_text": "",
-                "nickname_item_text": "",
-                "nickname_exerpt": "",
-                "tooltip": "",
-                "title": "",
-                "username_item_text": "",
-                "username_exerpt": ""
+                "empty_text": "Ad dəyişikliyi tələbi tapılmadı.",
+                "nickname_item_text": "{name} ləqəb dəyişikliyi tələb etdi",
+                "nickname_exerpt": "Tələb olunan ləqəb: {requestedName}",
+                "tooltip": "=> fof-username-request.ref.name_change_requests",
+                "title": "=> fof-username-request.ref.name_change_requests",
+                "username_item_text": "{name} istifadəçi adının dəyişdirilməsini tələb etdi",
+                "username_exerpt": "Tələb olunan istifadəçi adı: {requestedName}"
             },
             "settings": {
-                "nickname_request_button": "",
-                "username_request_button": ""
+                "nickname_request_button": "Ləqəbi dəyiş",
+                "username_request_button": "İstifadəçi adını dəyiş"
             },
             "user": {
-                "name_history_link": ""
+                "name_history_link": "Ad Tarixçəsi"
             }
         },
         "ref": {
-            "name_change_request": "",
-            "name_change_requests": "",
-            "nickname_change_request": "",
-            "nickname_change_requests": "",
-            "username_change_request": "",
-            "username_change_requests": ""
+            "name_change_request": "Ad Dəyişikliyi Tələbi",
+            "name_change_requests": "Ad Dəyişikliyi Tələbləri",
+            "nickname_change_request": "Ləqəb Dəyişmə Tələbi",
+            "nickname_change_requests": "Ləqəb Dəyişikliyi Tələbləri",
+            "username_change_request": "İstifadəçi adının dəyişdirilməsi tələbi",
+            "username_change_requests": "İstifadəçi Adı Dəyişikliyi Tələbləri"
         }
     }
 }

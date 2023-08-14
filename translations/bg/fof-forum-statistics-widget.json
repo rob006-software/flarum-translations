@@ -2,17 +2,17 @@
     "fof-forum-statistics-widget": {
         "forum": {
             "navbar": {
-                "widget_title": "",
-                "discussions_count": "",
-                "posts_count": "",
-                "users_count": "",
-                "latest_member": ""
+                "widget_title": "Статистика на форума",
+                "discussions_count": "Дискусии: {discussionsCount}",
+                "posts_count": "Публикации: {postsCount}",
+                "users_count": "Членове: {usersCount}",
+                "latest_member": "Последен член: "
             }
         },
         "admin": {
             "settings": {
-                "widget_ignore_private_discussions_label": "",
-                "widget_order_label": "",
+                "widget_ignore_private_discussions_label": "Игнорирайте частните дискусии",
+                "widget_order_label": "Поръчка на джаджи",
                 "widget_helper_text": ""
             },
             "permissions": {

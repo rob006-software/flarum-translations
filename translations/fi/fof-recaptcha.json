@@ -6,9 +6,9 @@
                 "secret_key_label": "Salainen avain (secret key)",
                 "site_key_label": "Sivuston avain (site key)",
                 "type_label": "reCAPTCHAn tyyppi",
-                "signup": "",
-                "signin": "",
-                "forgot": ""
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
             },
             "permissions": {
                 "post_without_captcha": "Luo viestejä ja keskusteluita ilman captchaa"

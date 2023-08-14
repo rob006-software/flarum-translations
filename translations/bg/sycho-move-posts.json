@@ -2,34 +2,34 @@
     "sycho-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content": "Преместено Съдържание на Дискусия (Първа Публикация)",
+                "moved_first_post_content_help": "Когато имаш дискусия само с една публикация, преместването на публикацията ще доведед то редактирането на първата публикация на първоначалната дискусия да отвежда до новата дискусия. Може да редактираш съдържанието на тази публикация тук.\n",
+                "group_sequential_posts": "Групирай последователна публикации, преместени публикации за събития в една."
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Преместено"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": ""
+                "move_old_post_to_newer_discussion": "=> sycho-move-posts.ref.status.old_to_new_move"
             },
             "modal": {
-                "check": "",
-                "destination": "",
-                "discussion_help": "",
-                "discussion_name": "",
-                "new_discussion": "",
-                "selected_posts": "",
+                "check": "Провери Вид Операция",
+                "destination": "Дискусия за Дестинация",
+                "discussion_help": "Таговете на началната дискусия ще бъдат използвани и могат да бъдат променяни след създаване.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Нова Дискусия",
+                "selected_posts": "{count, plural, one {Избрана е една публикация} other {Избрани са {count} публикации}}",
                 "status": {
-                    "complex_move": "",
-                    "old_to_new_move": "",
+                    "complex_move": "Ще бъде сложен ход, публикуации ще бъдат избутвани между публикации, което ще доведе до старите URL препратйи на публикациите на целевата дискусиа ад се променят също.",
+                    "old_to_new_move": "=> sycho-move-posts.ref.status.old_to_new_move",
                     "simple_move": ""
                 },
                 "submit": "",

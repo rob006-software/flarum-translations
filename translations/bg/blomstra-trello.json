@@ -3,82 +3,82 @@
         "admin": {
             "modals": {
                 "fields": {
-                    "board": "",
-                    "trello_label": "",
-                    "forum_tags": ""
+                    "board": "Изберете Trello дъска",
+                    "trello_label": "Изберете Trello етикет",
+                    "forum_tags": "Изберете форумен етикет за картографиране"
                 },
-                "no_available_labels_label": "",
-                "no_available_tags_label": ""
+                "no_available_labels_label": "Няма налични етикети",
+                "no_available_tags_label": "Няма налични форумни тагове"
             },
             "permissions": {
-                "add_to_trello": ""
+                "add_to_trello": "Може да свърже дискусия с Trello"
             },
             "settings": {
-                "api_key_help": "",
-                "api_key_label": "",
-                "api_token_help": "",
-                "api_token_label": "",
-                "available_boards_label": "",
+                "api_key_help": "Въведете API ключа от {link}, за да може това разширение да се свърже с Trello.",
+                "api_key_label": "API ключ",
+                "api_token_help": "Въведете API токена, за да може това разширение да се свърже с Trello. Посетете {link} и щракнете върху <code>Генериране на токен</code>",
+                "api_token_label": "API токен",
+                "available_boards_label": "Налични табли",
                 "button": {
-                    "add": "",
-                    "remove": ""
+                    "add": "Добавете",
+                    "remove": "Премахване"
                 },
-                "default_board_help": "",
-                "default_board_label": "",
-                "guest_workspace": "",
-                "in_trello": "",
-                "include_secondary_tags_help": "",
-                "include_secondary_tags_label": "",
+                "default_board_help": "Избраната основна дъска ще бъде предварително избраната в модалния прозорец \"Изпращане към Trello\" във форума.",
+                "default_board_label": "Табло по подразбиране",
+                "guest_workspace": "Работно пространство за гости",
+                "in_trello": "в Trello",
+                "include_secondary_tags_help": "Когато е деактивирано, само основните етикети на дискусиите ще бъдат изпратени към Trello. Когато е активирано, всички етикети ще бъдат изпратени към Trello.",
+                "include_secondary_tags_label": "Включете вторични тагове",
                 "label": {
-                    "general": "",
-                    "boards": "",
-                    "labels": ""
+                    "general": "Общ",
+                    "boards": "Настройки на таблица",
+                    "labels": "Настройки на етикети"
                 },
                 "mapping": {
-                    "add_new": "",
-                    "mapping_description": "",
-                    "modal_title": "",
-                    "no_mappings_for_board": ""
+                    "add_new": "Добавете картографиране",
+                    "mapping_description": "ще стане",
+                    "modal_title": "Ново съответствие на етикети",
+                    "no_mappings_for_board": "Няма активни съпоставяния на тагове, зададени за тази дъска"
                 },
-                "mappings_label": "",
-                "member_id_help": "",
-                "member_id_label": "",
-                "no_available_boards_label": "",
-                "no_label_name": "",
-                "no_selected_boards_label": "",
-                "selected_boards_label": "",
-                "save": "",
-                "tag": "",
-                "unmapped_warning_label": "",
-                "unmapped_warning_help": ""
+                "mappings_label": "Съответствия на тагове от форума към етикети в Trello",
+                "member_id_help": "Въведете ID на член на Trello, който да се използва за извличане на организационни табла с Trello. (https://trello.com/your-trello-handle)",
+                "member_id_label": "ID на член",
+                "no_available_boards_label": "Няма налични табла",
+                "no_label_name": "Няма име на етикет",
+                "no_selected_boards_label": "Няма избрани табла",
+                "selected_boards_label": "Избрани табла",
+                "save": "Запазите промените",
+                "tag": "Таг",
+                "unmapped_warning_label": "Предупреждавайте за ненанесени тагове",
+                "unmapped_warning_help": "Показване на предупреждение при изпращане на дискусия към Trello, ако таговете на форума не са съпоставени с маркери на Trello"
             }
         },
         "forum": {
             "badges": {
                 "trello": {
-                    "tooltip": ""
+                    "tooltip": "Съществува в Trello"
                 }
             },
             "controls": {
-                "send_to_trello_button": "",
-                "view_on_trello_button": ""
+                "send_to_trello_button": "Изпрати до Trello",
+                "view_on_trello_button": "Вижте картата на Trello"
             },
             "modals": {
                 "fields": {
-                    "board": "",
-                    "lane": "",
-                    "member": "",
-                    "member_selected": ""
+                    "board": "Изберете дъска Trello",
+                    "lane": "Изберете лента на Trello",
+                    "member": "Изберете член на Trello",
+                    "member_selected": "{count, plural, one {# член} other {# членове}} selected"
                 },
-                "no_available_board_lanes": "",
-                "no_available_board_members": "",
-                "no_available_boards_label": "",
-                "no_mappings_for_board": "",
-                "title": ""
+                "no_available_board_lanes": "Няма налични бордови ленти",
+                "no_available_board_members": "Няма налични членове на борда",
+                "no_available_boards_label": "Няма налични табла",
+                "no_mappings_for_board": "Текущо избраната дъска няма зададени съпоставяния на етикети на Trello за тагове на форум",
+                "title": "Изпратете до Trello"
             }
         },
         "lib": {
-            "original_post": ""
+            "original_post": "Оригинален пост"
         }
     }
 }

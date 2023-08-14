@@ -3,11 +3,11 @@
         "admin": {
             "permissions": {
                 "view": "",
-                "viewLimited": ""
+                "viewLimited": "Преглед на ограничен одит лог"
             },
             "header": {
                 "title": "",
-                "free": "",
+                "free": "Свободен",
                 "pro": "",
                 "upgrade": ""
             },
@@ -84,6 +84,8 @@
                     "deleted": "",
                     "hidden": "",
                     "locked": "",
+                    "merged_away": "",
+                    "merged_into": "",
                     "renamed": "",
                     "restored": "",
                     "split_away": "",

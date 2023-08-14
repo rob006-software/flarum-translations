@@ -3,35 +3,35 @@
         "admin": {
             "popup": {
                 "section": {
-                    "googleAnalytics": "",
-                    "piwik": ""
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "Matomo"
                 },
                 "field": {
-                    "statusGoogle": "",
+                    "statusGoogle": "Povolit Google Analytics (UA/GA4)",
                     "optTrackingCode": "",
                     "googleTrackingCode": "",
                     "googleGTMCode": "",
-                    "statusPiwik": "",
-                    "piwikUrl": "",
-                    "piwikSiteId": "",
-                    "piwikTrackSubdomain": "",
-                    "piwikPrependDomain": "",
-                    "piwikHideAliasUrl": "",
-                    "piwikAliasUrl": "",
-                    "piwikTrackAccounts": "",
-                    "piwikAuthToken": ""
+                    "statusPiwik": "Povolit Matomo",
+                    "piwikUrl": "Doména nebo adresa URL Matomo",
+                    "piwikSiteId": "ID webu",
+                    "piwikTrackSubdomain": "Sledovat návštěvníky na všech subdoménách fóra",
+                    "piwikPrependDomain": "Přidat doménu do názvu stránky při sledování",
+                    "piwikHideAliasUrl": "V sestavě \"Outlinks\" skrýt kliknutí na známé aliasy URL",
+                    "piwikAliasUrl": "URL aliasu",
+                    "piwikTrackAccounts": "Sledovat jednotlivé uživatelské účty",
+                    "piwikAuthToken": "Ověřovací token"
                 },
                 "placeholder": {
-                    "piwikAuthToken": ""
+                    "piwikAuthToken": "Vyplněním tohoto tokenu povolíte widget statistik Matomo v panelu správce.\nNajdete ho v Nastavení > Osobní > Token pro ověření API.\n"
                 },
                 "trackAccounts": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "Nesledovat",
+                    "username": "Sledovat na základě uživatelského jména",
+                    "email": "Sledovat na základě e-mailové adresy"
                 }
             },
             "matomo-widget": {
-                "title": ""
+                "title": "Matomo"
             }
         }
     }

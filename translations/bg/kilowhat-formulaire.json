@@ -4,8 +4,8 @@
             "permissions": {
                 "heading": "",
                 "heading-advanced": "",
-                "fill": "",
-                "seeOwnUser": "",
+                "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
                 "seeAnyUser": "",
                 "editOwnUser": "",
                 "editAnyUser": "",
@@ -47,7 +47,9 @@
                     "discussionComposer": ""
                 },
                 "uniformComposerLayout": "",
-                "uniformComposerLayoutHelp": ""
+                "uniformComposerLayoutHelp": "",
+                "noByobuFields": "",
+                "noByobuFieldsHelp": ""
             }
         },
         "forum": {
@@ -388,6 +390,7 @@
             "unknown-form": "",
             "unauthorized-form": "",
             "unauthorized-scoped-form": "",
+            "unsupported-discussion-form": "",
             "file-already-belongs-form": "",
             "file-already-belongs-submission": "",
             "export": {
@@ -435,14 +438,14 @@
             "submission-meta": {
                 "uid": "",
                 "user_id": "",
-                "user_username": "",
+                "user_username": "Потребителско име",
                 "user_displayname": "",
-                "user_email": "",
+                "user_email": "Потребителски имейл",
                 "user_activated": "",
                 "link_id": "",
                 "locked_at": "",
-                "created_at": "",
-                "updated_at": "",
+                "created_at": "Дата на създаване",
+                "updated_at": "Дата на актуализиране",
                 "hidden_at": ""
             }
         }

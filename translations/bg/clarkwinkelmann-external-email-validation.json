@@ -2,25 +2,25 @@
     "clarkwinkelmann-external-email-validation": {
         "admin": {
             "settings": {
-                "method": "",
-                "uri": "",
-                "uri-help": "",
-                "body": "",
-                "body-help": "",
-                "headers": "",
-                "headers-help": "",
-                "use-response-status": "",
-                "use-response-status-help": "",
-                "response-success-key": "",
-                "response-success-key-help": "",
-                "default-error-message": "",
-                "default-error-message-help": "",
-                "response-error-key": "",
-                "response-error-key-help": ""
+                "method": "Метод на заявка",
+                "uri": "URI на заявка",
+                "uri-help": "Можете да вмъкнете кратки кодове, които да бъдат заменени с имейл стойността, вижте README.",
+                "body": "Тяло на заявката",
+                "body-help": "Можете да вмъкнете кратки кодове, които да бъдат заменени с имейл стойността, вижте README.",
+                "headers": "Заглавия на заявката",
+                "headers-help": "Едно заглавие на ред",
+                "use-response-status": "Използвайте HTTP статус на отговора за статус на валидност",
+                "use-response-status-help": "2xx отговора ще се считат за валидни. 4xx отговора ще се считат за невалидни.",
+                "response-success-key": "Път до JSON атрибут с валиден статус",
+                "response-success-key-help": "Път във формат <code>key1.key2.key3</code>. Ще бъде извлечен с помощта на помощникът <code>Arr::get</code> в Laravel. Стойността ще бъде преобразувана до булева стойност. Има ефект само ако HTTP статусът не се използва. Ще бъде хвърлено изключение, ако отговорът не е валиден JSON.\n",
+                "default-error-message": "Съобщение за грешка по подразбиране",
+                "default-error-message-help": "Това съобщение ще бъде показано на потребителя, когато проверката на имейл адреса не успее и няма друго съобщение, което да бъде намерено. Ако се нуждаете от превод на това съобщение, оставете полето празно и персонализирайте вграденото съобщение за грешка с помощта на Linguist.\n",
+                "response-error-key": "Път до атрибута в JSON със съобщението за грешка",
+                "response-error-key-help": "Път във формат <code>key1.key2.key3</code>. Ще бъде извлечен с помощта на помощникът <code>Arr::get</code> в Laravel. Ако този ключ не бъде намерен, ще се покаже вграденото съобщение за грешка по подразбиране.\n"
             }
         },
         "api": {
-            "email-validation-error": ""
+            "email-validation-error": "Имейлът не премина външна проверка."
         }
     }
 }

@@ -1,73 +1,73 @@
 {
     "fof-ban-ips": {
         "forum": {
-            "ban_ip_button": "",
-            "unban_ip_button": "",
+            "ban_ip_button": "=> fof-ban-ips.ref.ban_ip_button",
+            "unban_ip_button": "=> fof-ban-ips.ref.unban_ip_button",
             "modal": {
-                "ban_options_only_ip": "",
-                "ban_options_all_ip": "",
-                "ban_ip_no_users": ""
+                "ban_options_only_ip": "Забранете само текущия IP (<code>{ip}</code>)",
+                "ban_options_all_ip": "Забранете всички IP адреси, използвани от <i>{username}</i>",
+                "ban_ip_no_users": "Няма да бъде забранен достъпа на никой друг"
             },
             "user_badge": {
-                "banned_tooltip": ""
+                "banned_tooltip": "Забранен"
             },
             "user_controls": {
-                "ban_button": "",
-                "unban_button": ""
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
         },
         "admin": {
             "permissions": {
-                "ban_ip_label": "",
-                "view_banned_ip_list_label": ""
+                "ban_ip_label": "=> fof-ban-ips.ref.ban_ip_addresses",
+                "view_banned_ip_list_label": "Вижте списъка със забранени IP адреси"
             },
             "page": {
-                "create_button": "",
-                "creator_label": "",
-                "user_label": "",
-                "address_label": "",
-                "reason_label": "",
-                "date_label": ""
+                "create_button": "=> fof-ban-ips.ref.ban_ip_button",
+                "creator_label": "Създател",
+                "user_label": "Потребител",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
+                "date_label": "Дата"
             },
             "modal": {
-                "update_title": "",
-                "ban_ip_no_users": ""
+                "update_title": "Актуализиране на забранен IP",
+                "ban_ip_no_users": "Никой няма да бъде забранен"
             },
-            "empty_text": ""
+            "empty_text": "Няма намерени забранени IP адреси."
         },
         "error": {
-            "banned_ip_message": "",
-            "no_ips_found_message": ""
+            "banned_ip_message": "Достъпът отказан.",
+            "no_ips_found_message": "Няма намерени IP адреси за потребителя."
         },
         "lib": {
             "modal": {
-                "title": "",
-                "unban_title": "",
-                "address_label": "",
-                "reason_label": "",
-                "check_button": "",
-                "save_button": "",
-                "ban_ip_confirmation": "",
-                "ban_ip_users": "",
-                "unban_ip_confirmation": "",
-                "unban_options_only_ip": "",
-                "unban_options_all_ip": "",
-                "unban_ip_no_users": "",
-                "unban_ip_users": "",
-                "unbanned_ips": "",
-                "ban_button": "",
-                "unban_button": ""
+                "title": "=> fof-ban-ips.ref.ban_ip_addresses",
+                "unban_title": "=> fof-ban-ips.ref.unban_ip_addresses",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
+                "check_button": "Проверете",
+                "save_button": "Запазете",
+                "ban_ip_confirmation": "Сигурни ли сте, че искате да блокирате използването на този IP адрес във форума? Това ще блокира потребителите с този IP адрес(и) от влизане във форума и регистрация.",
+                "ban_ip_users": "{count, plural, one {Потребител {users} ще бъде забранен} other {Потребителите {users} ще бъдат забранени}}",
+                "unban_ip_confirmation": "Сигурни ли сте, че искате да премахнете забраната на този потребител, както и на всички други потребители, които не са забранени от други IP адреси?",
+                "unban_options_only_ip": "Отменете забраната само на текущия IP (<code>{ip}</code>)",
+                "unban_options_all_ip": "Отменете забраната на всички IP адреси, използвани от <i>{username}</i>",
+                "unban_ip_no_users": "На никой друг няма да бъде отменена забраната",
+                "unban_ip_users": "{count, plural, one {Потребител {users} ще бъде отблокиран} other {Потребителите {users} ще бъдат отблокирани}}",
+                "unbanned_ips": "Премахната забрана <code>{ips}</code>.",
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
         },
         "ref": {
-            "ban_label": "",
-            "ban_ip_addresses": "",
-            "ban_ip_button": "",
-            "unban_label": "",
-            "unban_ip_addresses": "",
-            "unban_ip_button": "",
-            "address_label": "",
-            "reason_label": ""
+            "ban_label": "Забрана",
+            "ban_ip_addresses": "Забранен IP(s)",
+            "ban_ip_button": "Забранен IP",
+            "unban_label": "Махни забраната",
+            "unban_ip_addresses": "Махни забраната от IP(s)",
+            "unban_ip_button": "Махни забраната на IP",
+            "address_label": "IP Адрес",
+            "reason_label": "Причина"
         }
     }
 }

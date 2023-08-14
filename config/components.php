@@ -337,6 +337,9 @@ return [
 	'convo-extensions-quick-reply' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/convo-extensions-quick-reply.yml',
 	],
+	'dalez-msemoji' => [
+		'tag' => 'https://raw.githubusercontent.com/DellZHackintosh/flarum-msemoji/v1.0.0/locale/en.yml',
+	],
 	'dalez-twemoji' => [
 		'tag' => 'https://raw.githubusercontent.com/DellZHackintosh/flarum-twemoji/v1.0.0/locale/en.yml',
 	],
@@ -348,6 +351,9 @@ return [
 	],
 	'datitisev-maintenance' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/datitisev-maintenance.yml',
+	],
+	'datitisev-post-galleries' => [
+		'tag' => 'https://raw.githubusercontent.com/dsevillamartin/flarum-post-galleries/1.1.1/resources/locale/en.yml',
 	],
 	'datitisev-webhooks-pro' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/datitisev-webhooks-pro.yml',
@@ -542,7 +548,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/disposable-emails/1.0.0/locale/en.yml',
 	],
 	'fof-doorman' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/doorman/1.1.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/doorman/1.1.3/resources/locale/en.yml',
 	],
 	'fof-drafts' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/drafts/1.2.2/resources/locale/en.yml',
@@ -593,7 +599,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/masquerade/2.1.3/resources/locale/en.yml',
 	],
 	'fof-merge-discussions' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/merge-discussions/1.4.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/merge-discussions/1.4.1/resources/locale/en.yml',
 	],
 	'fof-moderator-notes' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/moderator-notes/1.2.0/resources/locale/en.yml',
@@ -614,13 +620,16 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/passport/1.1.0/locale/en.yml',
 	],
 	'fof-polls' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/polls/2.1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/polls/2.1.1/resources/locale/en.yml',
 	],
 	'fof-pretty-mail' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pretty-mail/1.1.1/resources/locale/en.yml',
 	],
 	'fof-prevent-necrobumping' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/prevent-necrobumping/1.1.1/resources/locale/en.yml',
+	],
+	'fof-profile-image-crop' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/profile-image-crop/1.1.5/resources/locale/en.yml',
 	],
 	'fof-pwned-passwords' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwned-passwords/1.0.2/locale/en.yml',
@@ -663,8 +672,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/terms/1.2.1/resources/locale/en.yml',
 	],
 	'fof-upload' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/1.2.3/resources/locale/en.yml',
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/1.3.0-beta.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/1.3.2/resources/locale/en.yml',
 	],
 	'fof-user-bio' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-bio/1.2.0/resources/locale/en.yml',
@@ -691,7 +699,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/3.1.0/locale/en.yml',
 	],
 	'glowingblue-redis-setup' => [
-		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-redis-setup/1.2.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-redis-setup/1.2.1/resources/locale/en.yml',
 	],
 	'hehongyuanlove-auth-qq' => [
 		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/2.5.1/resources/locale/en.yml',
@@ -931,7 +939,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/katosdev/signature/1.2/locale/en.yml',
 	],
 	'kilowhat-audit-free' => [
-		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-audit-free/1.6.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-audit-free/1.7.0/resources/locale/en.yml',
 	],
 	'kilowhat-audit-pro' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kilowhat-audit-pro.yml',
@@ -980,6 +988,9 @@ return [
 	],
 	'marchccc-mentions-group-users' => [
 		'tag' => 'https://raw.githubusercontent.com/Marchccc/flarum-ext-mentions-group-users/v0.1.0/locale/en.yml',
+	],
+	'matteociaroni-old-content' => [
+		'tag' => 'https://raw.githubusercontent.com/matteociaroni/flarum-old-content/v0.1.0/locale/en.yml',
 	],
 	'matteociaroni-public-suspensions' => [
 		'tag' => 'https://raw.githubusercontent.com/matteociaroni/flarum-public-suspensions/v1.0.0/locale/en.yml',
@@ -1159,7 +1170,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-user-badges/v1.1.0/locale/en.yaml',
 	],
 	'vlssu-cravatar' => [
-		'tag' => 'https://raw.githubusercontent.com/vlssu/flarum-cravatar/v0.1.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/vlssu/flarum-cravatar/v0.1.3/resources/locale/en.yml',
 	],
 	'webbinaro-affiliator' => [
 		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-affiliator/0.0.5/locale/en.yml',
@@ -1183,7 +1194,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.1.5/resources/locale/en.yaml',
 	],
 	'xrh0905-oauth-microsoft' => [
-		'tag' => 'https://raw.githubusercontent.com/xrh0905/flarum-ext-oauth-microsoft/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/xrh0905/flarum-ext-oauth-microsoft/v1.0.1/locale/en.yml',
 	],
 	'xsoft-ict-mason-tag' => [
 		'tag' => 'https://raw.githubusercontent.com/xsoft-ict/fof-mason-tag/v1.0.2/resources/locale/en.yml',

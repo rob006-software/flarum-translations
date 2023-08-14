@@ -2,34 +2,34 @@
     "clarkwinkelmann-scout": {
         "admin": {
             "setting": {
-                "driver": "",
+                "driver": "Драйвер",
                 "driverOption": {
-                    "null": "",
-                    "algolia": "",
-                    "meilisearch": "",
-                    "tntsearch": ""
+                    "null": "Празна стойност",
+                    "algolia": "Алголия",
+                    "meilisearch": "*Meilisearch*",
+                    "tntsearch": "*TNTSearch*"
                 },
-                "prefix": "",
-                "queue": "",
-                "queueHelp": "",
-                "limit": "",
-                "limitPlaceholder": "",
-                "limitHelp": "",
-                "queryMinLength": "",
-                "queryMinLengthPlaceholder": "",
-                "queryMinLengthHelp": "",
-                "algoliaId": "",
-                "algoliaSecret": "",
-                "algoliaConnectTimeout": "",
-                "algoliaReadTimeout": "",
-                "algoliaWriteTimeout": "",
-                "meilisearchHost": "",
-                "meilisearchKey": "",
-                "tntsearchMaxDocs": "",
-                "tntsearchFuzziness": "",
-                "tntsearchFuzzyDistance": "",
-                "tntsearchFuzzyPrefixLength": "",
-                "tntsearchFuzzyMaxExpansions": ""
+                "prefix": "Префикс на име на индекс (по избор)",
+                "queue": "Обработване на актуализации на индекса в линия",
+                "queueHelp": "Тази настройка има ефект само ако във Flarum е конфигуриран драйвер за асинхронна опашка.",
+                "limit": "Лимит на резултатите по подразбиране",
+                "limitPlaceholder": "Автоматичен",
+                "limitHelp": "Това ще отмени броя на резултатите, поискани от търсачката, и ще повлияе на броя страници с резултати, които могат да бъдат генерирани (ограничението включва и съдържание, което потребителят няма да може да види). Някои двигатели може да изискват допълнителна конфигурация, за да променят максимално позволеното.\n",
+                "queryMinLength": "Минимална дължина на заявката за предложения",
+                "queryMinLengthPlaceholder": "Автоматичен",
+                "queryMinLengthHelp": "Тази настройка засяга само падащото меню с предложения на въведеното търсене в заглавката. Flarum има дължина на заявката по подразбиране от 3 знака преди извличане на предложения, която можете да замените с тази настройка. Цялата страница с резултати от търсенето никога няма минимална дължина на заявката. Трябва да изчистите кеша, след като промените тази стойност.\n",
+                "algoliaId": "ID на Алголия",
+                "algoliaSecret": "Таен ключ на Algolia",
+                "algoliaConnectTimeout": "Таймаут за свързване с Algolia (по избор)",
+                "algoliaReadTimeout": "Таймаут за четене при свързване с Algolia (по избор)",
+                "algoliaWriteTimeout": "Изчакване за запис на Algolia (по избор)",
+                "meilisearchHost": "Хост на Meilisearch",
+                "meilisearchKey": "Ключ за Meilisearch",
+                "tntsearchMaxDocs": "TNT Search Max Docs (по избор, максимален брой резултати)",
+                "tntsearchFuzziness": "Неясно търсене на TNT (съвпадение на печатни грешки/вариации)",
+                "tntsearchFuzzyDistance": "*TNT Search Fuzziness Levenshtein* Разстояние (опционално)",
+                "tntsearchFuzzyPrefixLength": "TNT Search Fuzziness Prefix Дължина (опционално)",
+                "tntsearchFuzzyMaxExpansions": "TNT Search Fuzziness Максимално разширение (опционално)"
             }
         }
     }

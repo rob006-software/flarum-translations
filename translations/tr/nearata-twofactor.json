@@ -2,7 +2,7 @@
     "nearata-twofactor": {
         "admin": {
             "settings": {
-                "generate_app_backups": "",
+                "generate_app_backups": "Uygulama yedek kodları oluşturun",
                 "generate_backups": "Yedekleme kodlarını oluştur."
             },
             "permissions": {
@@ -11,48 +11,48 @@
         },
         "forum": {
             "settings": {
-                "section_title": "",
-                "configured": "",
-                "not_configured": "",
+                "section_title": "İki Faktörlü Kimlik Doğrulama",
+                "configured": "Yapılandırıldı",
+                "not_configured": "Yapılandırılmadı",
                 "app": {
-                    "button_label": "",
-                    "button_help": "",
+                    "button_label": "Kimlik doğrulama uygulaması",
+                    "button_help": "Kimlik doğrulama uygulamanız aracılığıyla bir erişim kodu alacaksınız.",
                     "setup": {
-                        "title": "",
-                        "password_placeholder": "",
-                        "passcode_placeholder": "",
-                        "close_button_label": "",
-                        "invalid_passcode": "",
+                        "title": "Kimlik Doğrulama Uygulamasını Kur",
+                        "password_placeholder": "Şifre",
+                        "passcode_placeholder": "6 haneli şifre",
+                        "close_button_label": "Kapat",
+                        "invalid_passcode": "Parola veya 6 haneli kod geçersiz.",
                         "disable": {
-                            "enter_code_disable": "",
-                            "button_label": "",
-                            "success": ""
+                            "enter_code_disable": "İki Faktörlü Kimlik Doğrulama Uygulamasını devre dışı bırakmak için kodu girin.",
+                            "button_label": "Devre dışı",
+                            "success": "Kimlik Doğrulama Uygulaması devre dışı."
                         },
                         "enable": {
-                            "button_label": "",
-                            "success": "",
-                            "scan_qr": "",
-                            "enter_code_manually": "",
+                            "button_label": "Aktif Edin",
+                            "success": "Kimlik doğrulama uygulaması aktifleştirildi.",
+                            "scan_qr": "Hesabınızı kurmak için bu QR kodunu iki faktörlü kimlik doğrulama cihazınızla tarayın.",
+                            "enter_code_manually": "Bunun yerine anahtarı manuel olarak girin",
                             "backups": {
-                                "message": "",
-                                "download_button_label": "",
-                                "download_file_format": "",
-                                "copy_button_label": ""
+                                "message": "Bu kurtarma kodlarını güvenli bir yerde saklayın. İki faktörlü cihazınızı kaybederseniz, bu tek seferlik kullanım kodları, hesabınızda oturum açmak için listelenen sırada kullanılabilir.\n",
+                                "download_button_label": "İndir",
+                                "download_file_format": "{website_title} | {website_url}\n\nBu yedek kodları güvenli ancak erişilebilir bir yerde saklayın.\n\nKOD LİSTESİ\n\n{codes}\n\n* Her bir yedek kodu yalnızca bir kez kullanabilirsiniz.\n* Bu kodlar belirtilen sırada KULLANILMALIDIR.\n* Bu kodlar şu tarihte oluşturulmuştur: {date}.\n",
+                                "copy_button_label": "Kopyala"
                             }
                         }
                     }
                 }
             },
             "login": {
-                "title": "",
-                "placeholder_label": "",
-                "submit_button_label": "",
+                "title": "İki Faktörlü Kimlik Doğrulama",
+                "placeholder_label": "Bir kimlik doğrulama yöntemi seçin...",
+                "submit_button_label": "Giriş Yap",
                 "auth_buttons": {
-                    "app": ""
+                    "app": "Kimlik Doğrulama Uygulaması"
                 },
                 "app": {
-                    "invalid_passcode": "",
-                    "passcode_placeholder": ""
+                    "invalid_passcode": "Geçersiz şifre.",
+                    "passcode_placeholder": "6 haneli şifre"
                 }
             },
             "invalid_twofa_code": "Geçersiz iki adımlı doğrulama kodu.",
@@ -87,11 +87,11 @@
         },
         "lib": {
             "edit_user": {
-                "section_title": "",
-                "disable_confirmation": "",
-                "placeholder_text": "",
+                "section_title": "İki Faktörlü Kimlik Doğrulaması",
+                "disable_confirmation": "Emin misin? Kullanıcı için bu kimlik doğrulama yöntemini devre dışı bırakmak üzeresiniz.",
+                "placeholder_text": "Devre dışı bırakılacak bir şey yok",
                 "app": {
-                    "label": ""
+                    "label": "Kimlik Doğrulama Uygulaması"
                 }
             }
         }

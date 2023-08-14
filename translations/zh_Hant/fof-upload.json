@@ -172,7 +172,15 @@
             "upload_errors": {
                 "forbidden_type": "不允許上載這個類型的檔案。",
                 "unsupported_type": "上載適配器不支援這個 MIME 類型： {mime}。",
-                "could_not_detect_mime": "無法偵測這個檔案的 MIME 類型，請重新嘗試。"
+                "could_not_detect_mime": "無法偵測這個檔案的 MIME 類型，請重新嘗試。",
+                "max_upload_file_size_ini": "已達到 php.ini 上傳最大文件大小限制。",
+                "max_upload_file_size_form": "上傳表單已達到最大文件大小限制。",
+                "partial_upload": "部分上傳。",
+                "no_file_uploaded": "沒有上傳文件。",
+                "no_upload_tmp_folder": "沒有用於上傳文件的 tmp 文件夾。",
+                "cannot_write_to_disk": "無法寫入磁盤。",
+                "upload_blocked_by_php_extension": "php 擴展阻止了上傳。",
+                "no_files_made_it_to_upload": "請上傳不超過 {max} kb 的文件。"
             }
         }
     }

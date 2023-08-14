@@ -109,7 +109,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/bulgarian">Bulgarian</a></td>
-		<td> - </td>
+		<td><a href="https://github.com/nsokoloff">nsokoloff</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/bg.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/bg/svg-badge.svg" alt="detailed translation status" />
@@ -823,6 +823,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-polls`](https://weblate.rob006.net/projects/flarum/fof-polls) | [`fof/polls`](https://github.com/FriendsOfFlarum/polls) |
 | [`fof-pretty-mail`](https://weblate.rob006.net/projects/flarum/fof-pretty-mail) | [`fof/pretty-mail`](https://github.com/FriendsOfFlarum/pretty-mail) |
 | [`fof-prevent-necrobumping`](https://weblate.rob006.net/projects/flarum/fof-prevent-necrobumping) | [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping) |
+| [`fof-profile-image-crop`](https://weblate.rob006.net/projects/flarum/fof-profile-image-crop) | [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop) |
 | [`fof-pwned-passwords`](https://weblate.rob006.net/projects/flarum/fof-pwned-passwords) | [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords) |
 | [`fof-reactions`](https://weblate.rob006.net/projects/flarum/fof-reactions) | [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) |
 | [`fof-recaptcha`](https://weblate.rob006.net/projects/flarum/fof-recaptcha) | [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha) |
@@ -951,6 +952,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`club-1-cross-references`](https://weblate.rob006.net/projects/flarum/club-1-cross-references) | [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references) |
 | [`club-1-server-side-highlight`](https://weblate.rob006.net/projects/flarum/club-1-server-side-highlight) | [`club-1/flarum-ext-server-side-highlight`](https://github.com/club-1/flarum-ext-server-side-highlight) |
 | [`datitisev-discussion-agree-message`](https://weblate.rob006.net/projects/flarum/datitisev-discussion-agree-message) | [`datitisev/flarum-discussion-agree-message`](https://github.com/datitisev/flarum-discussion-agree-message) |
+| [`datitisev-post-galleries`](https://weblate.rob006.net/projects/flarum/datitisev-post-galleries) | [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries) |
 | [`datlechin-add-like-controls`](https://weblate.rob006.net/projects/flarum/datlechin-add-like-controls) | [`datlechin/flarum-add-like-controls`](https://github.com/datlechin/flarum-add-like-controls) |
 | [`datlechin-bbcode-hide-content`](https://weblate.rob006.net/projects/flarum/datlechin-bbcode-hide-content) | [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content) |
 | [`datlechin-birthdays`](https://weblate.rob006.net/projects/flarum/datlechin-birthdays) | [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) |
@@ -1064,6 +1066,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`malago-ads`](https://weblate.rob006.net/projects/flarum/malago-ads) | [`malago/flarum-ads`](https://github.com/malago86/flarum-ads) |
 | [`malago-fancybox`](https://weblate.rob006.net/projects/flarum/malago-fancybox) | [`malago/flarum-ext-fancybox`](https://github.com/malago86/flarum-ext-fancybox) |
 | [`marchccc-mentions-group-users`](https://weblate.rob006.net/projects/flarum/marchccc-mentions-group-users) | [`marchccc/flarum-ext-mentions-group-users`](https://github.com/Marchccc/flarum-ext-mentions-group-users) |
+| [`matteociaroni-old-content`](https://weblate.rob006.net/projects/flarum/matteociaroni-old-content) | [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content) |
 | [`matteociaroni-public-suspensions`](https://weblate.rob006.net/projects/flarum/matteociaroni-public-suspensions) | [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions) |
 | [`matteocontrini-imgur-upload`](https://weblate.rob006.net/projects/flarum/matteocontrini-imgur-upload) | [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload) |
 | [`michaelbelgium-discussion-views`](https://weblate.rob006.net/projects/flarum/michaelbelgium-discussion-views) | [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) |

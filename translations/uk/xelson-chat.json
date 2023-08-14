@@ -1,190 +1,190 @@
 {
     "xelson-chat": {
         "forum": {
-            "pusher_not_found": "",
+            "pusher_not_found": "Щоб чат оновлювався в режимі реального часу, потрібен Pusher або Websockets.",
             "index": {
-                "chat_link": ""
+                "chat_link": "Чат"
             },
             "toolbar": {
-                "title": "",
-                "enable_sounds": "",
-                "disable_sounds": "",
-                "enable_notifications": "",
-                "disable_notifications": "",
-                "minimize": "",
-                "maximize": "",
+                "title": "Чат",
+                "enable_sounds": "Увімкнути звуки",
+                "disable_sounds": "Вимкнути звуки",
+                "enable_notifications": "Увімкнути сповіщення",
+                "disable_notifications": "Вимкнути сповіщення",
+                "minimize": "Зменшити",
+                "maximize": "Збільшити",
                 "chat": {
-                    "settings": ""
+                    "settings": "Налаштування чату"
                 }
             },
             "chat": {
                 "welcome": {
-                    "header": "",
-                    "subheader": ""
+                    "header": "Ласкаво просимо до Неонового чату!",
+                    "subheader": "Будь ласка, оберіть чат зліва для розмови"
                 },
-                "moder": "",
-                "kick": "",
-                "leave": "",
-                "rejoin": "",
+                "moder": "Модератор",
+                "kick": "Видалити",
+                "leave": "Вивести",
+                "rejoin": "Приєднати",
                 "edit_modal": {
-                    "title": "",
+                    "title": "Налаштування чату",
                     "moderator": {
-                        "got": "",
-                        "lost": ""
+                        "got": "Ви щойно отримали права модератора в чаті {chatname}!",
+                        "lost": "Ви щойно втратили права модератора у чаті {chatname}."
                     },
                     "form": {
                         "title": {
-                            "label": "",
-                            "validator": ""
+                            "label": "Назва чату",
+                            "validator": "Мінімум 1 символ"
                         },
                         "color": {
-                            "label": "",
-                            "validator": ""
+                            "label": "Колір",
+                            "validator": "У hex форматі"
                         },
                         "icon": {
-                            "label": "",
-                            "validator": ""
+                            "label": "=> core.ref.icon",
+                            "validator": "=> core.ref.icon_text"
                         },
                         "users": {
-                            "edit": ""
+                            "edit": "Обрати та редагувати користувача"
                         },
-                        "leave": "",
-                        "return": "",
+                        "leave": "Вийти з чату",
+                        "return": "Увійти в чат",
                         "delete": {
-                            "title": "",
-                            "desc": "",
-                            "placeholder": "",
-                            "button": ""
+                            "title": "Ви впевнені, що хочете видалити цей чат?",
+                            "desc": "Скопіюйте та вставте назву чату, щоб продовжити",
+                            "placeholder": "Назва чату",
+                            "button": "Видалити чат"
                         }
                     },
                     "search": {
-                        "placeholder": "",
-                        "failed": "",
-                        "invited": ""
+                        "placeholder": "Пошук користувачів",
+                        "failed": "Не знайдено відповідних користувачів",
+                        "invited": "Запрошені"
                     },
-                    "save_button": ""
+                    "save_button": "=> core.ref.save_changes"
                 },
                 "list": {
-                    "pin": "",
-                    "unpin": "",
-                    "placeholder": "",
+                    "pin": "Закріпити панель",
+                    "unpin": "Відкріпити панель",
+                    "placeholder": "Фільтр чатів",
                     "preview": {
-                        "empty": ""
+                        "empty": "Немає повідомлень"
                     },
                     "add_modal": {
-                        "title": "",
-                        "chat": "",
-                        "channel": "",
+                        "title": "Обрати користувачів",
+                        "chat": "Чат",
+                        "channel": "Канал",
                         "create": {
-                            "chat": "",
-                            "channel": ""
+                            "chat": "Створити новий чат",
+                            "channel": "Створити новий канал"
                         },
                         "alerts": {
-                            "exists": ""
+                            "exists": "Ви не можете створити інший PM з цим користувачем!"
                         },
                         "form": {
                             "title": {
-                                "chat": "",
-                                "channel": "",
-                                "validator": ""
+                                "chat": "Назва чату",
+                                "channel": "Назва каналу",
+                                "validator": "Щонайменше 1 символ"
                             },
                             "icon": {
-                                "label": "",
-                                "validator": ""
+                                "label": "=> core.ref.icon",
+                                "validator": "=> core.ref.icon_text"
                             },
                             "color": {
-                                "label": "",
-                                "validator": ""
+                                "label": "=> xelson-chat.forum.chat.edit_modal.form.color.label",
+                                "validator": "=> xelson-chat.forum.chat.edit_modal.form.color.validator"
                             },
-                            "users": ""
+                            "users": "Обрані користувачі"
                         },
                         "search": {
-                            "placeholder": "",
-                            "failed": "",
-                            "invited": "",
-                            "more_results": ""
+                            "placeholder": "Пошук користувачів",
+                            "failed": "Не знайдено відповідних користувачів",
+                            "invited": "Запрошені",
+                            "more_results": "І {more_results} більше..."
                         }
                     }
                 },
-                "placeholder": "",
+                "placeholder": "Напишіть своє повідомлення...",
                 "message": {
                     "actions": {
-                        "hide": "",
-                        "resend": ""
+                        "hide": "Сховати",
+                        "resend": "Повторно надіслати"
                     },
-                    "censored": "",
-                    "deleted": "",
-                    "deleted_forever": "",
-                    "you": "",
+                    "censored": "Увійдіть, щоб побачити це повідомлення!",
+                    "deleted": "видалено",
+                    "deleted_forever": "видалено назавжди",
+                    "you": "Ви",
                     "type": {
-                        "url": "",
-                        "event": "",
-                        "code": ""
+                        "url": "URL-адоеса",
+                        "event": "Подія",
+                        "code": "<Code />"
                     },
                     "events": {
                         "chat": {
-                            "created": ""
+                            "created": "Користувач {creatorname} створив {chatname} і запросив {usernames}"
                         },
                         "pm": {
-                            "created": ""
+                            "created": "Користувач {creatorname} створив чат з {username}"
                         },
                         "channel": {
-                            "created": ""
+                            "created": "Користувач {creatorname} створив канал {chatname}"
                         },
                         "title": {
-                            "edited": ""
+                            "edited": "Користувач {editorname} змінив назву чату з {old} на {new}"
                         },
                         "icon": {
-                            "edited": ""
+                            "edited": "Користувач {editorname} змінив іконку чату з {old} на {new}"
                         },
                         "color": {
-                            "edited": ""
+                            "edited": "Користувач {editorname} змінив колір чату з {old} на {new}"
                         },
                         "users": {
-                            "invited": "",
-                            "kicked": "",
-                            "invited_kicked": ""
+                            "invited": "Користувач {editorname} запросив {usernames}",
+                            "kicked": "Користувач {editorname} викинув {usernames}",
+                            "invited_kicked": "Користувач {editorname} запросив {invitednames} та викинув {kickednames}"
                         },
                         "self": {
-                            "leaved": "",
-                            "entered": ""
+                            "leaved": "Користувач {username} вийшов з чату",
+                            "entered": "Користувач {username} увійшов до чату"
                         }
                     }
                 }
             },
             "errors": {
-                "unauthenticated": "",
-                "chatdenied": "",
-                "removed": ""
+                "unauthenticated": "Тільки зареєстровані користувачі можуть користуватися чатом",
+                "chatdenied": "Вашій групі користувачів заборонено писати повідомлення",
+                "removed": "Вас було видалено з чату"
             }
         },
         "admin": {
             "permissions": {
-                "post": "",
-                "edit": "",
-                "delete": "",
-                "enabled": "",
+                "post": "Розміщувати повідомлення в чаті",
+                "edit": "Редагування повідомлень чату",
+                "delete": "Видалення повідомлень у чаті",
+                "enabled": "Увімкнути чат",
                 "create": {
-                    "chat": "",
-                    "channel": ""
+                    "chat": "Розпочати чати",
+                    "channel": "Запустити канали"
                 },
                 "moderate": {
-                    "delete": "",
-                    "vision": ""
+                    "delete": "Видалення повідомлень чату",
+                    "vision": "Переглянути видалені повідомлення"
                 }
             },
             "settings": {
-                "title": "",
-                "charlimit": "",
+                "title": "Налаштування чату",
+                "charlimit": "Максимальна кількість символів у повідомленні",
                 "floodgate": {
-                    "title": "",
-                    "number": "",
-                    "time": ""
+                    "title": "Антифлуд",
+                    "number": "Кількість повідомлень підряд",
+                    "time": "Протягом певного періоду"
                 },
                 "display": {
-                    "title": "",
-                    "minimize": "",
-                    "censor": ""
+                    "title": "Показати",
+                    "minimize": "Спочатку мінімізуйте",
+                    "censor": "Цензура повідомлень для неавторизованих користувачів"
                 }
             }
         }

@@ -2,14 +2,14 @@
     "kyrne-websocket": {
         "forum": {
             "discussion_list": {
-                "show_updates_text": ""
+                "show_updates_text": "{count, plural, one {Покажи # актуализирана дискусия} other {Покажи # актуализирани дискусии}}"
             },
             "discussion_page": {
-                "viewing_title": ""
+                "viewing_title": "Тук сега:"
             },
             "widget": {
-                "title": "",
-                "empty": "",
+                "title": "Потребители на линия",
+                "empty": "В момента няма потребители онлайн.",
                 "guests": ""
             }
         },

@@ -2,53 +2,53 @@
     "clarkwinkelmann-featured-discussions": {
         "admin": {
             "settings": {
-                "schedule": "",
-                "duration": "",
-                "eventPost": ""
+                "schedule": "График (синтаксис CRON)",
+                "duration": "Продължителност по подразбиране (секунди)",
+                "eventPost": "Генериране на публикация за събитие, когато графикът е променен"
             },
             "permissions": {
-                "feature": ""
+                "feature": "Управлявайте избрани дискусии"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
+                "title": "Дискусия за функционалност",
                 "fields": {
-                    "from": "",
-                    "until": ""
+                    "from": "От",
+                    "until": "До"
                 },
                 "from": {
-                    "not": "",
-                    "next": "",
-                    "manual": ""
+                    "not": "Не е включен",
+                    "next": "Следващ слот",
+                    "manual": "Избери дата"
                 },
                 "until": {
-                    "auto": "",
-                    "manual": ""
+                    "auto": "Автоматичен",
+                    "manual": "Избери дата"
                 },
                 "action": {
-                    "cancel": "",
-                    "submit": ""
+                    "cancel": "Отказ",
+                    "submit": "Изпращане"
                 }
             },
             "controls": {
-                "feature": ""
+                "feature": "Дискусия за функционалност"
             },
-            "badge": "",
+            "badge": "Представено",
             "nav": {
-                "schedule": ""
+                "schedule": "График на функциите"
             },
             "schedule": {
-                "help": "",
-                "drop-here": "",
-                "drop-error": "",
-                "empty": "",
-                "custom": ""
+                "help": "Плъзнете и пуснете дискусии в страницата или от друг прозорец, за да промените техния график. За да премахнете графика, използвайте менюто с 3 точки.\n",
+                "drop-here": "Пуснете тук, за да планирате",
+                "drop-error": "Невалидна връзка за дискусия",
+                "empty": "Няма дискусии",
+                "custom": "Персонализиран"
             },
             "post": {
-                "scheduled": "",
-                "unscheduled": "",
-                "auto": ""
+                "scheduled": "Насрочено за представяне от {from} до {until}",
+                "unscheduled": "Вече не е планирано да бъде представено",
+                "auto": "(Автоматичен)"
             }
         }
     }

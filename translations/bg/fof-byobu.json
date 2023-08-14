@@ -3,117 +3,117 @@
         "forum": {
             "badges": {
                 "is_private": {
-                    "tooltip": ""
+                    "tooltip": "Лична дискусия"
                 }
             },
             "buttons": {
-                "add_recipients": "",
-                "submit": "",
-                "edit_recipients": "",
-                "send_pd": "",
-                "cancel": "",
-                "make_public": "",
-                "remove_from_discussion": ""
+                "add_recipients": "Получатели",
+                "submit": "ОК",
+                "edit_recipients": "Редактирай Получателите",
+                "send_pd": "Изпрати съобщение на {username}",
+                "cancel": "Откажи",
+                "make_public": "Направи дискусията публична",
+                "remove_from_discussion": "Напусни тази лична дискусия"
             },
             "composer_private_discussion": {
-                "submit_button": "",
-                "title_placeholder": ""
+                "submit_button": "Публикувай Лична Дискусия",
+                "title_placeholder": "Заглавие на Лична Дискусия"
             },
             "confirm": {
-                "make_public": ""
+                "make_public": "Сигурен ли сте, че искате да премахнете получателите и да направите тази дискусия видима за всеки, който може да види посоченият таг?"
             },
             "labels": {
-                "recipients": ""
+                "recipients": "{count, plural, one {{count} Получател} other {{count} Получатели}}"
             },
             "nav": {
-                "start_button": "",
-                "nav_item": ""
+                "start_button": "Дискутирай поверително",
+                "nav_item": "Лични дискусии"
             },
             "input": {
-                "search_recipients": ""
+                "search_recipients": "Търси получател чрез въвеждане на първите три символа..."
             },
             "search": {
                 "headings": {
-                    "groups": ""
+                    "groups": "Разрешени групи"
                 }
             },
             "modal": {
                 "titles": {
-                    "update_recipients": "",
-                    "add_recipients": ""
+                    "update_recipients": "Актуализирай получателите на {title}",
+                    "add_recipients": "Добави получатели към твоята дискусия"
                 },
                 "labels": {
-                    "selected_users": "",
-                    "search_field": ""
+                    "selected_users": "Избрани потребители",
+                    "search_field": "Търси потребител"
                 },
                 "help": {
-                    "add_recipients": "",
-                    "update_recipients": "",
-                    "selected_users": "",
-                    "click_user_to_remove_tooltip": ""
+                    "add_recipients": "Тази дискусия ще бъде видима само за потребители, които изберете тук. Поне 1 получател (освен вас) е необходим.",
+                    "update_recipients": "Тази дискусия ще бъде видима до потребители, които избереш тук.",
+                    "selected_users": "Кликни върху име на потребил за да го премахнеш.",
+                    "click_user_to_remove_tooltip": "Кликни да премахнеш"
                 }
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "",
-                    "added": "",
-                    "made_public": "",
-                    "removed": "",
-                    "removed_self": ""
+                    "added_and_removed": "{username} добави получатели {added} и премахна {removed}.",
+                    "added": "{username} добави получатели {added}.",
+                    "made_public": "{username} премахна всички получатели и направи дискусията публична",
+                    "removed": "{username} премахна получателите {removed}.",
+                    "removed_self": "{username} напусна личната дискусия."
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": ""
+                    "block_pd": "Блокирай лични дискусии"
                 },
-                "byobu_link": "",
-                "dropdown_label": ""
+                "byobu_link": "Лични дискусии",
+                "dropdown_label": "Лични Дискусии"
             },
             "notifications": {
-                "pd_label": "",
-                "pd_reply_label": "",
-                "pd_reply_text": "",
-                "pd_text": "",
-                "pd_user_left_label": "",
-                "pd_user_left_text": "",
-                "pd_added_text": "",
-                "pd_added_label": ""
+                "pd_label": "Някой ме добави в нова лична дискусия",
+                "pd_reply_label": "Някой публикува в лична дискусия, на която съм получател",
+                "pd_reply_text": "{username} публикува в лична дискусия, в която участваш",
+                "pd_text": "{username} започна нова лична дискусия с вас",
+                "pd_user_left_label": "Получател напусна лична дискусия, в която участвам",
+                "pd_user_left_text": "{username} напусна личната дискусия",
+                "pd_added_text": "{username} те добави към лична дискусия",
+                "pd_added_label": "Някой ме добави в съществуваща лична дискусия"
             }
         },
         "admin": {
             "permission": {
-                "create_private_discussions_with_users": "",
-                "add_more_than_two_user_recipients": "",
-                "create_private_discussions_with_groups": "",
-                "create_private_discussions_with_blocking_users": "",
-                "edit_user_recipients": "",
-                "edit_group_recipients": "",
-                "make_private_into_public": "",
-                "view_private_discussions-when-flagged": ""
+                "create_private_discussions_with_users": "Създай лична дискусия с потребители",
+                "add_more_than_two_user_recipients": "Добави повече от 2 получателя към лична дискусия",
+                "create_private_discussions_with_groups": "Създай лична дискусия с групи",
+                "create_private_discussions_with_blocking_users": "Създай лични дискусии с потребители, които го блокират",
+                "edit_user_recipients": "Редактирай потребители участващи в лични дискусии",
+                "edit_group_recipients": "Редактирай групи участващи в лични дискусии",
+                "make_private_into_public": "Трансформирай лична дискусия в публична",
+                "view_private_discussions-when-flagged": "Виж лични дискусии на други потребители ако са сигнализирани"
             },
             "settings": {
-                "badge-icon": "",
-                "enable-make-public-option": "",
-                "enable-make-public-option-help": "",
-                "post-event-icon": "",
-                "delete_on_last_recipient_left": "",
-                "delete_on_last_recipient_left_help": "",
-                "hide_from_all_discussions_page": "",
-                "hide_from_all_discussions_page_help": ""
+                "badge-icon": "Byobu Значка за Дискусия",
+                "enable-make-public-option": "Активирай опция \"направи публичен\"",
+                "enable-make-public-option-help": "Добавя възможност на тези с разрешение да премахнат получатели, да посочат нов таг и да направят дискусията публично видиама (според настройките за видимост на избрания таг).",
+                "post-event-icon": "Byobu Публикувай Събития",
+                "delete_on_last_recipient_left": "Изтрий личните данни (PDs) след като последният потребител напусне",
+                "delete_on_last_recipient_left_help": "Ако е активирано, личните данни (PDs) ще бъдат перманентно изтрити от базата данни след като последният потребител напусне. В противен случай, личните данни ще бъдат изтрити/скрити.",
+                "hide_from_all_discussions_page": "Скрий личните данни (PDs) от страницата \"Всички Дискусии\"",
+                "hide_from_all_discussions_page_help": "Личните дискусии ще бъдат достъпни само от страницата \"Лични Дискусии\" или от профила на потребителя"
             }
         },
         "email": {
             "subject": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "[Лична Дискусия] {display_name} започна нова лична дискусия с теб",
+                "private_discussion_replied": "[Лична Дискусия] {display_name} публикува в лична дискусия",
+                "recipient_removed": "[Лична дискусия] {display_name} напусна дискусията",
+                "private_discussion_added": "[Лична Дискусия] {display_name} те добави към лична дискусия"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "Здравей {recipient_display_name},\n\n{actor_display_name} започна нова лична дискусия с теб като получател: {discussion_title}.\n\nВиж я тук:\n{discussion_url}\n\nМоже да е необходимо да се впишеш първо преди да имаш достъп до този линк.\n",
+                "private_discussion_replied": "Здравей {recipient_display_name},\n\n{actor_display_name} публикува в лична дискусия с теб като получател: {discussion_title}.\n\nВиж я тук:\n{post_url}\n\nМоже да е необходимо да се впишеш преди да имаш достъп до този линк.\n",
+                "recipient_removed": "Здравей {recipient_display_name},\n\n{actor_display_name} напусна личната дискусия: {discussion_title}. Повече няма да имат възможност да видят съдържанието на дискусията..\n\nВиж тук:\n{discussion_url}\n\nМоже да се налоши да се впишеш преди да имаш достъп до този линк.\n",
+                "private_discussion_added": "Здравей {recipient_display_name},\n\n{actor_display_name} те добави към съществуваща лична дискусия: {discussion_title}.\n\nВиж я тук:\n{discussion_url}\n\nМоже да е необходимо да се впишеш преди да имаш достъп до този линк.\n"
             }
         }
     }

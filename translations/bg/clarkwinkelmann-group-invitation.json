@@ -1,46 +1,46 @@
 {
     "clarkwinkelmann-group-invitation": {
         "forum": {
-            "title": "",
-            "generic-title": "",
+            "title": "Поканени сте да се присъедините към групата {group}!",
+            "generic-title": "Покана за група",
             "user": {
-                "already-connected": "",
-                "not-connected": "",
-                "not-authorized": "",
-                "already-member": ""
+                "already-connected": "Ще добавим групата {group} към {username}. Не е правилният потребител? <a>Влезте в друг акаунт</a>.\n",
+                "not-connected": "<a>Влезте</a>, за да приемете поканата.",
+                "not-authorized": "Вашият текущ потребител {username} няма право да се присъедини към групи. <a>Влезте в друг акаунт</a>.",
+                "already-member": "Страхотни новини, вашият потребител {username} вече е член на групата {group}! Искате ли да се присъедините към групата с друг потребител? <a>Влезте в друг акаунт</a>.\n"
             },
             "invitation": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "Съжалявам, тази покана за група не беше намерена.",
+                "no-usages-left": "Тази покана за група вече не може да бъде използвана."
             },
-            "apply": "",
-            "success-alert": ""
+            "apply": "Влезе в групата",
+            "success-alert": "Успешно се присъединихте към групата!"
         },
         "admin": {
             "permissions": {
-                "use": ""
+                "use": "Използвайте линкове за покани за групи"
             },
             "settings": {
                 "head": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "Код",
+                    "group": "Група",
+                    "usage": "Използване"
                 },
                 "placeholder": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "Автоматично генерирано",
+                    "group": "Изберете...",
+                    "usage": "Празно за неограничен брой"
                 },
-                "empty": "",
-                "unlimited": "",
-                "create": "",
-                "delete": ""
+                "empty": "Досега няма създадени покани.",
+                "unlimited": "неограничен",
+                "create": "Създай",
+                "delete": "Изтрий"
             }
         },
         "api": {
             "error": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "Кодът на поканата не е намерен",
+                "no-usages-left": "Поканата вече не може да се използва"
             }
         }
     }

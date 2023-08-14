@@ -10,7 +10,7 @@
             "reacting-own-post": "Et voi reagoida omaan viestiin",
             "modal": {
                 "title": "Reaktiot",
-                "anonymous_count": ""
+                "anonymous_count": "{count, plural, one {# tuntematon käyttäjä} other {# tuntematonta käyttäjää}}"
             },
             "mod_item": "Näytä reaktiot",
             "react_button_label": "Reagoi"
@@ -56,8 +56,8 @@
                             "Helptext": "Syötä reaktion tunniste minkä haluat muuntaa automaattisesti tykkäykseksi"
                         }
                     },
-                    "allow-anonymous": "",
-                    "allow-anonymous-help": ""
+                    "allow-anonymous": "Salli tuntemattomien (vieraiden) reaktiot",
+                    "allow-anonymous-help": "Jos käytössä vieraat ja tuntemattomat käyttäjät voivat reagoida viesteihin. Huomioi, että tuntemattomat reaktiot eivät linkity käyttäjän profiiliin ja ne listataan reaktio listaan."
                 }
             }
         }

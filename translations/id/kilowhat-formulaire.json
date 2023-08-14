@@ -47,7 +47,9 @@
                     "discussionComposer": "Area Pengeditan Diskusi"
                 },
                 "uniformComposerLayout": "Tata letak penulisan diskusi yang seragam",
-                "uniformComposerLayoutHelp": "Mengubah gaya tag, judul, dan bidang konten agar sesuai dengan Formulaire. Tata letak ini akan membutuhkan lebih banyak ruang, jadi Anda disarankan untuk menginstal dan mengaktifkan ekstensi <a>Composer Page</a>.\n"
+                "uniformComposerLayoutHelp": "Mengubah gaya tag, judul, dan bidang konten agar sesuai dengan Formulaire. Tata letak ini akan membutuhkan lebih banyak ruang, jadi Anda disarankan untuk menginstal dan mengaktifkan ekstensi <a>Composer Page</a>.\n",
+                "noByobuFields": "",
+                "noByobuFieldsHelp": ""
             }
         },
         "forum": {
@@ -388,6 +390,7 @@
             "unknown-form": "",
             "unauthorized-form": "",
             "unauthorized-scoped-form": "",
+            "unsupported-discussion-form": "",
             "file-already-belongs-form": "",
             "file-already-belongs-submission": "File {id} milik pengajuan lain",
             "export": {

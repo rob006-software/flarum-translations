@@ -2,14 +2,14 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "followAfterReply": "",
-                "followAfterReply-help": "",
-                "postMentioned": "",
-                "postMentioned-help": "",
-                "userMentioned": "",
-                "userMentioned-help": "",
-                "groupMentioned": "",
-                "groupMentioned-help": ""
+                "followAfterReply": "Последвай след отговор",
+                "followAfterReply-help": "Когато е активирано, нови потребители ще могат автоматично да последват дискусии, на които отговарят или коментират.",
+                "postMentioned": "Публикация спомената в имейл",
+                "postMentioned-help": "Когато е активирано, нови потребители ще могат автоматично даи изберат получаване на имейл известие, когто една от техните публикации е спомената.",
+                "userMentioned": "Потребител споменат в имейл",
+                "userMentioned-help": "Когато е активирано, нови потребители автоматично ще могат да изберат да получават имейл известие когато са @mentioned.",
+                "groupMentioned": "Група спомената в имейл",
+                "groupMentioned-help": "Когато е активирано, нови потребители ще могат автоматично да изберат да получават имейл известие когато група, на която принадлежат, е спомената."
             }
         }
     }

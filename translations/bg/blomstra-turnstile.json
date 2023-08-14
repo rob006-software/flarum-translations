@@ -2,19 +2,19 @@
     "blomstra-turnstile": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "site_key": "",
-                "secret_key": "",
-                "signup": "",
-                "signin": "",
-                "forgot": ""
+                "help_text": "Генерирайте Turnstile ключове във вашия акаунт в Cloudflare <a>here</a>.",
+                "site_key": "Ключ на сайта",
+                "secret_key": "Таен ключ",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
             }
         },
         "forum": {
-            "not_loaded_error": ""
+            "not_loaded_error": "Неуспешно зареждане на Cloudflare Turnstile. Моля, опреснете страницата и проверете вашия рекламен блокер."
         }
     },
     "validation": {
-        "turnstile": ""
+        "turnstile": "Не можем да потвърдим дали сте робот или не. Моля, опитайте отново след като опресните страницата."
     }
 }

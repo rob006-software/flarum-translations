@@ -2,58 +2,58 @@
     "fof-merge-discussions": {
         "forum": {
             "modal": {
-                "title": "",
-                "ordering_heading": "",
-                "ordering_date_label": "",
-                "ordering_date_help": "",
-                "ordering_suffix_label": "",
+                "title": "Слей Дискусии",
+                "ordering_heading": "Слей подреждането",
+                "ordering_date_label": "Слей публикиции по дата на създаване",
+                "ordering_date_help": "Публикациите в получената дискусия се пренареждат според индивидуалната им дата на създаване",
+                "ordering_suffix_label": "Добави обединени публикации на края на дискусията",
                 "ordering_suffix_help": "",
-                "type_heading": "",
+                "type_heading": "Обедини вид",
                 "type_target_label": "",
-                "type_target_help_text": "",
-                "type_from_label": "",
+                "type_target_help_text": "Избери дискусия(и) да се обединят в <b>{title}</b>.",
+                "type_from_label": "Обедини тази дискусия с друга",
                 "type_from_help_text": "",
-                "load_preview_button": "",
-                "submit_button": ""
+                "load_preview_button": "Преглед",
+                "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "",
+                "discussion_merged": "Твоята дискусия <b>{oldTitle}</b> беше обединена с дискусията на {username}.",
                 "preferences": {
-                    "discussion_merged": ""
+                    "discussion_merged": "Някой обедини една от моите дискусии с друга"
                 }
             },
             "discussion": {
-                "merge": ""
+                "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": ""
+                "merged": "{count, plural, one {Обединена <b>#</b> публикация от {titles}.} other {Обединени <b>#</b> публикации от {titles}.}}"
             }
         },
         "admin": {
             "permissions": {
-                "merge_discussions_label": ""
+                "merge_discussions_label": "Обедини дискусии"
             },
             "settings": {
-                "search_result_help": "",
+                "search_result_help": "Колко дискусии да се показват когато се търси в \"Обединени Дискусии\"модул.",
                 "search_result_label": ""
             }
         },
         "api": {
             "error": {
-                "merging_failed": "",
-                "updating_failed": "",
-                "deleting_failed": "",
+                "merging_failed": "Неуспешно обединяване на дискусии.",
+                "updating_failed": "Неуспешно обновяване на детайлите на дискусията.",
+                "deleting_failed": "Неуспешно изтриване на празни дискусии.",
                 "fixing_posts_number_failed": "",
                 "fixing_posts_number_meta_failed": ""
             }
         },
         "ref": {
-            "merge": ""
+            "merge": "Обедини"
         },
         "email": {
             "merged": {
-                "body": "",
-                "subject": ""
+                "body": "Здравей {recipient_display_name},\n\nТвоята дискусия, {merged_discussion_title}, беше обединена с {discussion_title} от {actor_display_name}.\n\nВиж я тук {discussion_url} .\n",
+                "subject": "Твоята дискусия\"{merged_discussion_title}\" беше обединена"
             }
         }
     }

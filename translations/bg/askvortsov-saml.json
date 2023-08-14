@@ -2,41 +2,41 @@
     "askvortsov-saml": {
         "admin": {
             "header": {
-                "text": ""
+                "text": "Уверете се, че е попълнен или URL адресът за метаданните, или самите метаданни."
             },
-            "title": "",
+            "title": "Конфигурация на SAML2 SSO",
             "labels": {
-                "idp_metadata_url": "",
-                "idp_metadata": "",
-                "only_option": "",
-                "nameid_format": "",
-                "slo": "",
-                "authn_requests_signed": "",
-                "logout_request_signed": "",
-                "logout_response_signed": "",
-                "sign_metadata": "",
-                "want_assertions_encrypted": "",
-                "want_assertions_signed": "",
-                "want_messages_signed": "",
-                "x509_cert": "",
-                "x509_key": ""
+                "idp_metadata_url": "URL адрес на метаданните за идентичност на доставчика (алтернатива на XML)",
+                "idp_metadata": "XML метаданни за идентичност на доставчика (алтернатива на URL)",
+                "only_option": "Използване на SAML2 SSO като единствена опция за вход?",
+                "nameid_format": "NameID Формат",
+                "slo": "Включване на SLO (еднопосочен отпис)? Ако вашият IDP не поддържа това, това няма да има ефект.",
+                "authn_requests_signed": "Подписване на заявките за удостоверяване (authn requests)?",
+                "logout_request_signed": "Подписване на заявките за отписване (logout requests)?",
+                "logout_response_signed": "Подписване на отговорите за отписване (logout responses)?",
+                "sign_metadata": "Подписване на метаданните?",
+                "want_assertions_encrypted": "Желаете ли да криптирате уверенията (Assertions)?",
+                "want_assertions_signed": "Желаете ли да подписвате уверенията (Assertions)?",
+                "want_messages_signed": "Желаете ли да подписвате съобщенията?",
+                "x509_cert": "x509 сертификат (необходим за подписване, ако е включено)",
+                "x509_key": "x509 частен ключ (необходим за подписване, ако е включено)"
             },
             "options": {
                 "nameid_format": {
-                    "persistent": "",
-                    "emailAddress": "",
-                    "unspecified": ""
+                    "persistent": "Постоянен (Препоръчително, ако е поддържано)",
+                    "emailAddress": "Имейл (По подразбиране. Използвайте, ако не се поддържа Постоянен)",
+                    "unspecified": "Неопределен"
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_saml_button": "",
-                "open_popup": "",
-                "enable_popups": ""
+                "with_saml_button": "SAML2 SSO",
+                "open_popup": "Натиснете тук, за да влезнете",
+                "enable_popups": "Разрешете изскачащи прозорци за вход / регистрация"
             },
             "sign_up": {
-                "post_saml_title": ""
+                "post_saml_title": "Една последна стъпка..."
             }
         }
     }

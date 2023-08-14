@@ -3,13 +3,15 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Izinkan URL gambar disediakan untuk setiap opsi polling",
-                "max_options": ""
+                "max_options": "Jumlah opsi maksimum per polling",
+                "options_color_blend": "Perpaduan warna teks dalam opsi polling",
+                "options_color_blend_help": "Gunakan ini untuk menggunakan pencampuran warna untuk membuat opsi polling lebih mudah dibaca. Nonaktifkan jika fitur ini menyebabkan masalah pada tampilan forum Anda, sehingga mengurangi keterbacaan."
             },
             "permissions": {
                 "view_results_without_voting": "Melihat hasil tanpa melakukan voting",
                 "start": "Memulai polling",
-                "self_edit": "Izinkan user untuk merubah pollingnya",
-                "self_post_edit": "",
+                "self_edit": "Mengedit polling yang telah dibuat (memerlukan izin pengeditan postingan)",
+                "self_post_edit": "Mengedit *semua* polling pada postingan Anda sendiri (memerlukan izin edit postingan)",
                 "vote": "Memberikan vote pada polling",
                 "change_vote": "Mengganti vote",
                 "moderate": "Mengedit & menghapus polling"
@@ -22,13 +24,13 @@
             "public_poll": "Lihat voter",
             "max_votes_allowed": "Polling memungkinkan melakukan voting untuk {max, plural, one {# pilihan} other {# pilihan}}.",
             "poll": {
-                "cannot_change_vote": "",
-                "submit_button": ""
+                "cannot_change_vote": "Anda tidak dapat mengubah vote Anda setelah melakukan voting.",
+                "submit_button": "Vote"
             },
             "composer_discussion": {
-                "add_poll": "Membuat Polling",
+                "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
-                "no_permission_alert": ""
+                "no_permission_alert": "Anda tidak memiliki izin untuk memulai polling."
             },
             "modal": {
                 "add_title": "Membuat Polling",
@@ -36,7 +38,7 @@
                 "date_placeholder": "Waktu berakhirnya polling (Opsional)",
                 "edit_title": "Edit polling",
                 "include_question": "Anda harus memasukkan pertanyaan",
-                "max": "Anda dapat memiliki maksimum 10 jawaban",
+                "max": "Anda dapat memiliki maksimum {max} jawaban",
                 "min": "Memasukkan minimal 2 jawaban",
                 "no_voters": "Belum Ada Suara",
                 "option_placeholder": "Jawaban",
@@ -46,13 +48,13 @@
                 "allow_multiple_votes_label": "Izinkan orang untuk memilih beberapa pilihan",
                 "max_votes_label": "Maks vote per pengguna",
                 "max_votes_help": "Atur ke 0 untuk memungkinkan pengguna memilih semua opsi.",
-                "hide_votes_label": "",
-                "allow_change_vote_label": "",
+                "hide_votes_label": "Sembunyikan vote hingga polling berakhir",
+                "allow_change_vote_label": "Izinkan pengguna untuk mengubah vote mereka",
                 "question_placeholder": "Pertanyaan",
                 "submit": "Submit"
             },
             "moderation": {
-                "add": "",
+                "add": "Tambah Polling",
                 "delete": "Hapus Polling",
                 "delete_confirm": "Apakah anda yakin ingin menghapus polling ini?",
                 "edit": "Edit polling"

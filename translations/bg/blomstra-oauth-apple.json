@@ -4,31 +4,31 @@
             "settings": {
                 "providers": {
                     "apple": {
-                        "description": "",
-                        "client_id_label": "",
-                        "key_file_id_label": "",
-                        "keyfile_upload_label": "",
-                        "keyfile_upload_help": "",
+                        "description": "Регистрирайте вашия форум с Apple {link}",
+                        "client_id_label": "Идентификатор на ID на услугата",
+                        "key_file_id_label": "Идентификатор на ключов файл",
+                        "keyfile_upload_label": "Ключов файл",
+                        "keyfile_upload_help": "Създайте <a>ключов файл</a> и го качете тук",
                         "keyfile_upload": {
-                            "upload_button": "",
-                            "remove_button": ""
+                            "upload_button": "Качване на ключов файл",
+                            "remove_button": "Премахване на ключовия файл"
                         },
-                        "team_id_label": ""
+                        "team_id_label": "Идентификационен номер на екип"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_apple_button": ""
+                "with_apple_button": "Влезте с {provider}"
             },
             "providers": {
-                "apple": ""
+                "apple": "=> fof-oauth.lib.providers.apple"
             }
         },
         "lib": {
             "providers": {
-                "apple": ""
+                "apple": "Апъл"
             }
         }
     }

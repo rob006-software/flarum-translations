@@ -3,16 +3,16 @@
         "forum": {
             "composer": {
                 "warning": {
-                    "title": "",
+                    "title": "Тази дискусия е по-стара от <b>{time}</b>.",
                     "description": "",
-                    "checkbox_label": "",
-                    "error": ""
+                    "checkbox_label": "Наясно съм, че тази дискусия е доста стара, но все пак бих искал да отговоря.",
+                    "error": "Тази дискусия е твърде стара за отговор."
                 }
             }
         },
         "admin": {
             "settings": {
-                "days_label": "",
+                "days_label": "Дни",
                 "days_help": "",
                 "message_title_label": "",
                 "message_title_help": "",

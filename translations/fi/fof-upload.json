@@ -172,7 +172,15 @@
             "upload_errors": {
                 "forbidden_type": "Tämän tyyppisten tiedostojen siirtäminen ei ole sallittua.",
                 "unsupported_type": "Siirtoadapteri ei tue tätä tiedostotyyppiä: {mime}.",
-                "could_not_detect_mime": "Tiedoston MIME tyyppia ei voitu tunnistaa. Yritä uudelleen."
+                "could_not_detect_mime": "Tiedoston MIME tyyppia ei voitu tunnistaa. Yritä uudelleen.",
+                "max_upload_file_size_ini": "Siirron maksimi tiedosto koko saavutettu php.inistä.",
+                "max_upload_file_size_form": "Siirron maksimi tiedostokoko saavutettu lomakkeelta.",
+                "partial_upload": "Osittainen siirto.",
+                "no_file_uploaded": "Ei siirrettyä tiedostoa.",
+                "no_upload_tmp_folder": "Ei tmp kansiota tiedostojen siirrolle.",
+                "cannot_write_to_disk": "Levylle ei voida kirjoittaa.",
+                "upload_blocked_by_php_extension": "PHP lisäosa on estetty siirrossa.",
+                "no_files_made_it_to_upload": "Ethän siirrä tiedostoja, jotka ovat isompia kuin {max} kb."
             }
         }
     }

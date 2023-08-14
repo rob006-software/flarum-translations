@@ -425,9 +425,9 @@
                 "toggle_dropdown_accessible_label": "Přepnutí rozbalovací nabídky ovládacích prvků příspěvku"
             },
             "post_scrubber": {
-                "now_link": "Současnost",
+                "now_link": "Současný",
                 "original_post_link": "Původní příspěvek",
-                "unread_text": "{count} nepřečtených",
+                "unread_text": "{count, plural, one {# nepřečtený} few {# nepřečtené} other {# nepřečtených}}",
                 "viewing_text": "{count, plural, one {{index} z {formattedCount} příspěvku} other {{index} z {formattedCount} příspěvků}}"
             },
             "post_stream": {
@@ -525,7 +525,7 @@
                 "delete_error_message": "Smazání uživatele <i>{username} ({email})</i> se nezdařilo",
                 "delete_success_message": "Uživatel <i>{username} ({email})</i> byl smazán",
                 "edit_button": "=> core.ref.edit",
-                "toggle_dropdown_accessible_label": "Přepnutí rozbalovací nabídky ovladání uživatele"
+                "toggle_dropdown_accessible_label": "Přepnutí rozbalovací nabídky ovládacích prvků uživatele"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",

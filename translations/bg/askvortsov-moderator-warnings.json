@@ -2,68 +2,68 @@
     "askvortsov-moderator-warnings": {
         "admin": {
             "permissions": {
-                "manage_warnings": "",
-                "view_warnings": "",
-                "delete_warnings": ""
+                "manage_warnings": "Създаване и премахване на предупреждения на модератора",
+                "view_warnings": "Вижте предупрежденията на модератора",
+                "delete_warnings": "Изтрийте завинаги предупрежденията на модератора"
             }
         },
         "emails": {
             "post_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} Ви предупреди с {strikes, plural, one {# strike} other {# strike}} в {discussion_title}",
+                "body": "Здравей, {warnee_display_name}!\n\n{warner_display_name} Ви предупреди с {strikes, plural, one {# strike} other {# strike}} в {discussion_title}\n\nПосочена е следната причина:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} Ви предупреди с {strikes, plural, one {# strike} other {# strike}}",
+                "body": "Здравей, {warnee_display_name}!\n\n{warner_display_name} Ви предупреди с {strikes, plural, one {# strike} other {# strike}}\n\nПосочена е следната причина:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "",
-                "warning_no_strikes_text": ""
+                "warning_text": "{strikes, plural, one {Бяхте предупредени с # предупреждение от {mod_username}} other {Бяхте предупредени с # предупреждения от {mod_username}}}",
+                "warning_no_strikes_text": "Бяхте предупреден от {mod_username} (без предупреждения)"
             },
             "post": {
-                "warning": "",
-                "warning_no_strikes": ""
+                "warning": "{strikes, plural, one {Предупреждение с # предупреждение от {mod_username}} other {Предупреждение с # предупреждения от {mod_username}}}",
+                "warning_no_strikes": "Предупреден без предупреждения от {mod_username}"
             },
             "post_controls": {
-                "warning_button": ""
+                "warning_button": "Предупреден потребител"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Предупреждения на модератора"
             },
             "settings": {
-                "warning_notification_label": ""
+                "warning_notification_label": "Един модератор ме предупреждава"
             },
             "validation": {
-                "public_comment_required": "",
-                "invalid_strike_count": ""
+                "public_comment_required": "Вие най-често предоставяте публичен коментар.",
+                "invalid_strike_count": "Броят на предупрежденията трябва да бъде цяло число между 0 и 5."
             },
             "warning_controls": {
-                "delete_button": "",
-                "restore_button": "",
-                "delete_forever_button": ""
+                "delete_button": "Премахване",
+                "restore_button": "Възстанови",
+                "delete_forever_button": "Изтриване безвъзвратно"
             },
             "warning_list": {
-                "add_button": "",
-                "no_warnings": "",
-                "warnings": "",
-                "warnings_no_strikes": ""
+                "add_button": "Ново предупреждение",
+                "no_warnings": "Изглежда, че тук няма предупреждения.",
+                "warnings": "{strikes, plural, one {Moderator Warnings: # получено предупреждение} other {Moderator Warnings: # получени предупреждения}}",
+                "warnings_no_strikes": "Предупреждения на модератора: Няма получени предупреждения"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
-                "public_comment": "",
-                "private_comment": "",
-                "linked_post": ""
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> предупреждение, {time}} other {<strong>#</strong> предупреждения, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> предупреждение, {time} <strong>(премахнато)</strong>} other {<strong>#</strong> предупреждения, {time} <strong>(премахнати)</strong>}}",
+                "public_comment": "Внимание",
+                "private_comment": "Модератор - Видими коментари",
+                "linked_post": "Свързана публикация"
             },
             "warning_modal": {
-                "confirmation_message": "",
-                "heading": "",
-                "strikes_heading": "",
-                "public_comment_heading": "",
-                "private_comment_heading": "",
-                "submit_button": ""
+                "confirmation_message": "Вашето предупреждение е запазено. Може да е необходимо да опресните страницата, за да го видите.",
+                "heading": "Предупреди <strong>{username}</strong>",
+                "strikes_heading": "Колко предупреждения трябва да се приложат?",
+                "public_comment_heading": "Защо <strong>{username}</strong> получава тези предупреждения? Тези коментари ще бъдат видими за потребителя и другите модератори.",
+                "private_comment_heading": "Защо <strong>{username}</strong> получава тези предупреждения? Тези коментари ще бъдат видими САМО за други модератори.",
+                "submit_button": "Запазете предупреждение"
             }
         }
     }

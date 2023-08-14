@@ -172,7 +172,15 @@
             "upload_errors": {
                 "forbidden_type": "Các loại tệp này không được phép tải lên.",
                 "unsupported_type": "Bộ điều hợp tải lên không hỗ trợ loại mime được cung cấp: {mime}.",
-                "could_not_detect_mime": "Không thể phát hiện loại MIME của tệp này, vui lòng thử lại."
+                "could_not_detect_mime": "Không thể phát hiện loại MIME của tệp này, vui lòng thử lại.",
+                "max_upload_file_size_ini": "",
+                "max_upload_file_size_form": "",
+                "partial_upload": "",
+                "no_file_uploaded": "",
+                "no_upload_tmp_folder": "",
+                "cannot_write_to_disk": "",
+                "upload_blocked_by_php_extension": "",
+                "no_files_made_it_to_upload": ""
             }
         }
     }

@@ -2,37 +2,37 @@
     "clarkwinkelmann-shadow-ban": {
         "admin": {
             "setting": {
-                "hideUsers": ""
+                "hideUsers": "Скрийте профилите на потребителите със скрит бан"
             },
             "permission": {
-                "ban": "",
-                "hide": ""
+                "ban": "Потребители със скрит бан",
+                "hide": "Скриване на дискусии и публикации"
             }
         },
         "forum": {
             "discussionControl": {
-                "hide": "",
-                "restore": ""
+                "hide": "Скрий в сянка",
+                "restore": "Възстановяване на сянка"
             },
             "postControl": {
-                "hide": "",
-                "restore": ""
+                "hide": "Скрий в сянка",
+                "restore": "Възстановяване на сянка"
             },
             "userControl": {
-                "ban": ""
+                "ban": "Скрит бан"
             },
             "banUser": {
-                "title": "",
-                "until": "",
-                "quick": "",
-                "quickChoiceReset": "",
-                "quickChoiceDays": "",
-                "submit": ""
+                "title": "Спиране на {username}",
+                "until": "До дата (UTC)",
+                "quick": "Бърз избор",
+                "quickChoiceReset": "Не е забранено",
+                "quickChoiceDays": "{count, plural, one {# ден} other {# дни}}",
+                "submit": "Запази"
             },
             "badge": {
-                "user": "",
-                "discussion": "",
-                "post": ""
+                "user": "Сянката е забранена",
+                "discussion": "Скрит в сянка",
+                "post": "Скрит в сянка"
             }
         }
     }

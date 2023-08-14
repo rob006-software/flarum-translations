@@ -2,43 +2,43 @@
     "clarkwinkelmann-post-stream-search": {
         "admin": {
             "settings": {
-                "dropdownAccess": "",
-                "dropdownAccessHelp": "",
-                "sideNavAccess": "",
-                "sideNavAccessHelp": "",
-                "authorQuickFilter": "",
-                "authorQuickFilterHelp": "",
-                "originalPosterBadge": "",
-                "originalPosterBadgeHelp": ""
+                "dropdownAccess": "Достъп чрез падащо меню за дискусия",
+                "dropdownAccessHelp": "Ако е деактивирана, лентата с инструменти ще бъде достъпна само чрез клавишната комбинация или някой от другите активирани клавишни комбинации по-долу.",
+                "sideNavAccess": "Достъп чрез навигация отстрани на дискусия",
+                "sideNavAccessHelp": "Същото като предишната настройка, но бутонът ще бъде добавен като отделен запис в страничната лента вместо падащото меню.",
+                "authorQuickFilter": "Бърз филтър за автор на публикация",
+                "authorQuickFilterHelp": "Към всяка публикация ще бъде добавен пряк път за филтриране на съответния потребител.",
+                "originalPosterBadge": "Покажи интерактивно значка за OP",
+                "originalPosterBadgeHelp": "Ще бъде добавена значка до публикациите от ОП. Щракването върху значката автоматично ще филтрира за този потребител."
             }
         },
         "forum": {
             "stream": {
-                "noResults": "",
-                "unmatchedGap": "",
-                "otherAuthorsGap": ""
+                "noResults": "Няма публикации, съответстващи на заявката за търсене в тази дискусия",
+                "unmatchedGap": "{count, plural, one {Една несъответстваща публикация е скрита} other {{count} несъответстващи публикация са скрити}}",
+                "otherAuthorsGap": "{count, plural, one {Една публикация от друг автор е скрита} other {{count} публикации от други автори са скрити}}"
             },
             "toolbar": {
-                "searchPlaceholder": "",
-                "authorPlaceholder": "",
-                "summary": "",
-                "pin": "",
-                "close": "",
-                "clear": ""
+                "searchPlaceholder": "Намерете в дискусията...",
+                "authorPlaceholder": "Филтриране по автор...",
+                "summary": "{matching} от {total} съответстващи",
+                "pin": "Винаги отваряйте лентата с инструменти за филтриране при дискусии",
+                "close": "Изчистете филтрите и затворете лентата с инструменти",
+                "clear": "Изчистване на филтрите"
             },
             "discussionControls": {
-                "searchInDiscussion": ""
+                "searchInDiscussion": "Търсете дискусия"
             },
             "postControls": {
-                "authorFilter": ""
+                "authorFilter": "Показване само на отговорите от този автор"
             },
             "post": {
-                "opBadge": "",
-                "opBadgeTooltip": ""
+                "opBadge": "Стартирал дискусията",
+                "opBadgeTooltip": "Кликнете, за да се покажат само отговорите от този потребител"
             },
             "cannotGoToPost": {
-                "message": "",
-                "action": ""
+                "message": "Не може да отиде на публикация",
+                "action": "Опитайте да изчистите филтрите"
             }
         }
     }

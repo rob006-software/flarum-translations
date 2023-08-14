@@ -3,20 +3,20 @@
         "admin": {
             "permissions": {
                 "start": "Vytvářet koncepty",
-                "schedule": ""
+                "schedule": "Plánovat zveřejnění konceptů"
             },
             "settings": {
-                "title": "",
-                "enable_scheduled_drafts": "",
-                "schedule_on_one_server": "",
-                "schedule_log_output": ""
+                "title": "FoF Drafts (koncepty)",
+                "enable_scheduled_drafts": "Povolit naplánování zveřejnění konceptů",
+                "schedule_on_one_server": "Používat direktivu 'onOneServer()' pro plánovač úloh (vyžaduje Redis/Memcache)",
+                "schedule_log_output": "Připojit výstup plánovače do úložiště protokolu událostí"
             }
         },
         "console": {
-            "scheduled_drafts_disabled": ""
+            "scheduled_drafts_disabled": "Plánování zveřejnění konceptů není aktuálně v nastavení povoleno."
         },
         "ref": {
-            "schedule_draft": ""
+            "schedule_draft": "Naplánovat zveřejnění"
         },
         "forum": {
             "composer": {
@@ -33,7 +33,7 @@
                 "delete_button": "Smazat koncept",
                 "schedule_button": "=> fof-drafts.ref.schedule_draft",
                 "scheduled_icon_tooltip": "Naplánováno na {datetime}",
-                "scheduled_icon_tooltip_formatter": "",
+                "scheduled_icon_tooltip_formatter": "L [at] LT",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "Opravdu chcete svůj koncept smazat?",
                 "delete_all_alert": "Opravdu chcete smazat všechny koncepty?"

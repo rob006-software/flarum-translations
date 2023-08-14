@@ -3,13 +3,15 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Her anket seçeneği için bir resim URL'sinin sağlanmasına izin ver",
-                "max_options": ""
+                "max_options": "Anket başına maksimum seçenek sayısı",
+                "options_color_blend": "Anket seçeneklerinde renk karışımı metni",
+                "options_color_blend_help": "Anket seçeneklerini daha okunabilir hale getirmek için renk karıştırmayı kullanmak için bunu kullanın. Bu özellik, forumunuzun görünümüyle ilgili sorunlara neden olarak okunabilirliği azaltıyorsa devre dışı bırakın."
             },
             "permissions": {
                 "view_results_without_voting": "Sonuçları oy vermeden göster",
                 "start": "Anket oluştur",
-                "self_edit": "Kullanıcıların anketlerini düzenlemesine izin ver",
-                "self_post_edit": "",
+                "self_edit": "Oluşturulan anketleri düzenleyin (düzenleme sonrası izin gerektirir)",
+                "self_post_edit": "Kendi gönderilerindeki *tüm* anketleri düzenleyin (düzenleme sonrası izin gerektirir)",
                 "vote": "Ankete oy ver",
                 "change_vote": "Oyu değiştir",
                 "moderate": "Anketi düzenle veya sil"
@@ -22,13 +24,13 @@
             "public_poll": "Oy verenler",
             "max_votes_allowed": "Anket {max, plural, one {# şık} other {# şık}} seçmeye izin veriyor.",
             "poll": {
-                "cannot_change_vote": "",
-                "submit_button": ""
+                "cannot_change_vote": "Oy kullandıktan sonra oyunuzu değiştiremezsiniz.",
+                "submit_button": "Oyla"
             },
             "composer_discussion": {
-                "add_poll": "Anket Oluştur",
+                "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
-                "no_permission_alert": ""
+                "no_permission_alert": "Anket başlatma izniniz yok."
             },
             "modal": {
                 "add_title": "Anket Oluştur",
@@ -36,7 +38,7 @@
                 "date_placeholder": "Anket sona erme süresi (İsteğe bağlı)",
                 "edit_title": "Anketi Düzenle",
                 "include_question": "Bir soru eklemelisiniz",
-                "max": "En fazla 10 yanıt ekleyebilirsiniz",
+                "max": "En fazla {max} yanıtınız olabilir",
                 "min": "En az 2 yanıt eklemeniz gerekmektedir",
                 "no_voters": "Oy Kullanılmamış",
                 "option_placeholder": "Yanıt",
@@ -46,13 +48,13 @@
                 "allow_multiple_votes_label": "Kullanıcıların birden fazla seçeneği oylamasına izin ver",
                 "max_votes_label": "Kullanıcı başına azami oylar",
                 "max_votes_help": "Kullanıcıların tüm seçeneklere oy verebilmesini istiyorsanız 0 olarak belirleyin.",
-                "hide_votes_label": "",
-                "allow_change_vote_label": "",
+                "hide_votes_label": "Anket bitene kadar oyları gizle",
+                "allow_change_vote_label": "Kullanıcıların oylarını değiştirmesine izin ver",
                 "question_placeholder": "Soru",
                 "submit": "Gönder"
             },
             "moderation": {
-                "add": "",
+                "add": "Anket Ekle",
                 "delete": "Anketi Sil",
                 "delete_confirm": "Anketi silmek istediğinize emin misiniz?",
                 "edit": "Anketi Düzenle"

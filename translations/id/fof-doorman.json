@@ -31,7 +31,8 @@
             "page": {
                 "title": "Doorman",
                 "doorkey": {
-                    "used_times": "{remaining, plural, one {{remaining} Pemakaian tersisa} other {{remaining} Pemakaian tersisa}}",
+                    "used_times": "{remaining, plural, =0 {Pemakaian tidak terbatas} one {{remaining} Pemakaian tersisa} other {{remaining} Pemakaian tersisa}}",
+                    "total_uses": "{totalUses, plural, one {Digunakan {totalUses} kali} other {Digunakan {totalUses} kali}}",
                     "title": "Kode Undangan",
                     "help": {
                         "key": "Kunci: Kode yang akan diketikkan pengguna saat mendaftar.",

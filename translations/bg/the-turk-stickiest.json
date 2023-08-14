@@ -2,47 +2,47 @@
     "the-turk-stickiest": {
         "admin": {
             "permissions": {
-                "super_sticky_discussions_label": "",
-                "tag_sticky_discussions_label": ""
+                "super_sticky_discussions_label": "Много важни дискусии",
+                "tag_sticky_discussions_label": "Отбележи важни дискусии"
             },
             "settings": {
                 "badge_icon_label": "",
-                "badge_icon_text": "",
+                "badge_icon_text": "=> core.ref.icon_text",
                 "display_tag_sticky_label": "",
-                "display_tag_sticky_text": ""
+                "display_tag_sticky_text": "Ще бъдат третирани, като обикновенни дискусии и няма да бъдат закачени най-отгоре."
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "",
-                "super_sticky_tooltip": "",
-                "tag_sticky_tooltip": "",
-                "super_tag_sticky_tooltip": ""
+                "sticky_tooltip": "=> the-turk-stickiest.ref.sticky",
+                "super_sticky_tooltip": "=> the-turk-stickiest.ref.super_sticky",
+                "tag_sticky_tooltip": "=> the-turk-stickiest.ref.tag_sticky",
+                "super_tag_sticky_tooltip": "=> the-turk-stickiest.ref.super_tag_sticky"
             },
             "stickiest_modal": {
-                "title": "",
-                "sticky_label": "",
-                "sticky_text": "",
-                "super_sticky_label": "",
-                "super_sticky_text": "",
-                "tag_sticky_label": "",
-                "tag_sticky_text": "",
-                "tags_label": "",
-                "submit_button": ""
+                "title": "Важна {title}",
+                "sticky_label": "=> flarum-sticky.ref.sticky",
+                "sticky_text": "Важните дискусии, ще бъдат винаги най-отгоре във \"Всички Дискусии\" ако не са прочетени. Когато виждате конкретен етикет, който принадлежи към дискусия, той ще винаги в горната част.",
+                "super_sticky_label": "=> the-turk-stickiest.ref.super_sticky",
+                "super_sticky_text": "Много важните дискусии ще се отиват най-горе, независимо от вичко.",
+                "tag_sticky_label": "=> the-turk-stickiest.ref.tag_sticky",
+                "tag_sticky_text": "Залепващите маркери са скрити във „Всички дискусии“ по подразбиране. Те ще бъдат показани и ще останат в горната част само когато разглеждате конкретен етикет, който е един от маркерите, които ще изберете тук. Тази опция може да се комбинира със \"Super Sticky\".",
+                "tags_label": "=> flarum-tags.ref.tags",
+                "submit_button": "=> core.ref.save_changes"
             },
             "discussion_controls": {
-                "sticky_button": ""
+                "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button"
             },
             "post_stream": {
-                "discussion_stickied_text": "",
-                "discussion_unstickied_text": "",
-                "discussion_super_stickied_text": "",
-                "discussion_common_stickied_text": ""
+                "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
+                "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
+                "discussion_super_stickied_text": "{username} направи темата \"Много Важна\".",
+                "discussion_common_stickied_text": "{username} премахна темата от Много Важни."
             }
         },
         "ref": {
-            "sticky": "",
-            "super_sticky": "",
+            "sticky": "=> flarum-sticky.ref.sticky",
+            "super_sticky": "Много Важна",
             "tag_sticky": "",
             "super_tag_sticky": ""
         }

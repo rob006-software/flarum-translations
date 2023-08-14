@@ -3,7 +3,9 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Pozwól na podanie URL obrazka dla każdej opcji wyboru w ankiecie",
-                "max_options": "Maksymalna liczba opcji w ankiecie"
+                "max_options": "Maksymalna liczba opcji w ankiecie",
+                "options_color_blend": "",
+                "options_color_blend_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "Podglądanie wyników bez zagłosowania",
@@ -22,8 +24,8 @@
             "public_poll": "Zobacz głosujących",
             "max_votes_allowed": "Ankieta umożliwia głosowanie na {max, plural, one {# opcję} few {# opcje} other {# opcji}}.",
             "poll": {
-                "cannot_change_vote": "",
-                "submit_button": ""
+                "cannot_change_vote": "Nie możesz zmienić swojego głosu po zagłosowaniu.",
+                "submit_button": "Głosuj"
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
@@ -47,7 +49,7 @@
                 "max_votes_label": "Maksymalna liczba głosów na użytkownika",
                 "max_votes_help": "Ustaw na 0, aby pozwolić użytkownikom głosować na wszystkie opcje.",
                 "hide_votes_label": "Ukryj głosy do czasu zakończenia ankiety",
-                "allow_change_vote_label": "",
+                "allow_change_vote_label": "Pozwól użytkownikom zmienić swój głos",
                 "question_placeholder": "Pytanie",
                 "submit": "Zatwierdź"
             },

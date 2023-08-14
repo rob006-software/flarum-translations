@@ -2,99 +2,99 @@
     "fof-best-answer": {
         "admin": {
             "permissions": {
-                "best_answer": "",
-                "best_answer_not_own_discussion": ""
+                "best_answer": "Избери Най-добрият Отговор (собствена Дискусия)",
+                "best_answer_not_own_discussion": "Избери Най-добрият Отговор (чужда Дискусия)"
             },
             "settings": {
                 "label": {
-                    "general": "",
-                    "reminders": "",
-                    "advanced": "",
-                    "reminders_notice": ""
+                    "general": "Общи условия",
+                    "reminders": "Напомняния",
+                    "advanced": "Разширени",
+                    "reminders_notice": "За да функционират напомнянията, е необходимо да се конфигурира правилно графика на Flarum."
                 },
-                "allow_select_own_post": "",
-                "allow_select_own_post_help": "",
-                "enable_all_tags_button": "",
-                "enable_all_tags_reminder_button": "",
-                "show_max_lines_label": "",
-                "show_max_lines_help": "",
-                "select_best_answer_reminder_days": "",
-                "select_best_answer_reminder_days_help": "",
-                "select_best_answer_tags_label": "",
-                "select_best_answer_tags_help": "",
-                "schedule_on_one_server": "",
-                "schedule_on_one_server_help": "",
-                "schedule_stop_overnight": "",
-                "schedule_stop_overnight_help": "",
-                "schedule_log_output": "",
-                "show_filter_label": "",
-                "show_filter_help": "",
-                "use_alt_ui": "",
-                "use_alt_ui_help": "",
-                "documentation": "",
-                "introduction": ""
+                "allow_select_own_post": "Избери собствен пост",
+                "allow_select_own_post_help": "Позволи на оригиналният публикувал да избере собствения си пост в дискусията като най-добър отговор",
+                "enable_all_tags_button": "Активирай всички тагове за Най-Добри Отговори",
+                "enable_all_tags_reminder_button": "Активирай всички тагове за напомняния за Най-Добър Отговор",
+                "show_max_lines_label": "Максимален брой редове, които да се показват в преглед на пост",
+                "show_max_lines_help": "Посочи като 0 за да деактивираш. Ако пост е по-дълъг от конфигурирания брой редове, ще бъде съкратен в прегледа на поста с избледняващ ефект.",
+                "select_best_answer_reminder_days": "Честота на напомнянията",
+                "select_best_answer_reminder_days_help": "Изпрати напомняне на автора на поста да избере Най-Добър Отговор след конфигурирания брой дни, 0 = деактивирай напомняния.",
+                "select_best_answer_tags_label": "Тагове за дискусии за Най-Добри Отговори",
+                "select_best_answer_tags_help": "Избери кои тагове, ако има такива, да се добавят в дискусиите когато се маркира Най-Добър Отговор. Само вторични тагове са позволени. Тези тагове ще бъдат премахнати ако и Най-Добрият Отговор е премахнат.",
+                "schedule_on_one_server": "Използвай 'onOneServer()' директива за графика за задачи",
+                "schedule_on_one_server_help": "Изисква Redis/Memcache",
+                "schedule_stop_overnight": "Спира изпращането на съобщения по време на неподходящи часове",
+                "schedule_stop_overnight_help": "21- 08ч време на сървъра",
+                "schedule_log_output": "Добавете резултата от графика към съхранението на записите",
+                "show_filter_label": "Покажи падащото меню на филтъра за Най-Добър Отговор",
+                "show_filter_help": "За тагове, които имат активиен Най-Добър Отгвор, избери да покажеш решен/нерешен филтър в списъка на дискусията",
+                "use_alt_ui": "Алтернативен формат",
+                "use_alt_ui_help": "Контроли за най-добър отговор във футъра на публикацията",
+                "documentation": "Документация",
+                "introduction": "Активирайте кои тагове да поддържат Най-добри отговори в <code><a>flarum/tags</a></code> и по избор кой(и) етикет(а) трябва да поддържа напомняния. Когато даден етикет е активиран за най-добър отговор, задайте разрешения на всяка потребителска група, която може да задава отговори (собствена дискусия, всяка дискусия). Разрешенията могат да се зачисляват глобално (за всеки таг с активиран Най-добър отговор) или на базата на етикет.\n"
             },
             "edit_tag": {
-                "qna_label": "",
-                "reminders": ""
+                "qna_label": "Разрешете най-добрите отговори да бъдат настроени в този етикет",
+                "reminders": "Изпращайте напомняния за настройване на най-добър отговор за дискусии в този етикет"
             }
         },
         "forum": {
-            "answered_badge": "",
-            "this_best_answer": "",
-            "remove_best_answer": "",
-            "best_answer_button": "",
-            "best_answer_label": "",
+            "answered_badge": "Отговорено",
+            "this_best_answer": "Изберете Най-добият отговор",
+            "remove_best_answer": "Премахнете отметката от най-добрия отговор",
+            "best_answer_button": "Най-добрият отговор",
+            "best_answer_label": "зададено от <a>{username}</a> {time_set}",
             "errors": {
-                "mismatch": ""
+                "mismatch": "Избраната публикация не съществува в тази дискусия."
             },
             "notification": {
-                "best_answer_in_discussion": "",
-                "content": "",
-                "awarded": "",
+                "best_answer_in_discussion": "{username} даде най-добрия отговор в тази дискусия",
+                "content": "Моля, изберете най-добият отговор, ако въпроса ви е бил вече отговорен",
+                "awarded": "Вашата публикация беше зададена като най-добър отговор от {username}",
                 "preferences": {
-                    "awarded_best_answer": "",
-                    "best_answer_in_discussion": "",
-                    "select_best_answer": ""
+                    "awarded_best_answer": "Някой определя публикацията ми като най-добър отговор",
+                    "best_answer_in_discussion": "Най-добрият отговор е даден в дискусия, в която участвах",
+                    "select_best_answer": "Автоматично напомняне за избор на най-добър отговор в дискусия, която започнах"
                 }
             },
             "index": {
-                "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "ask_question": "Задай въпрос",
+                "cannot_ask_question": "Не мога да задам въпрос",
+                "solved_link": "Решени дискусии",
+                "unsolved_link": "Нерешени дискусии"
             },
             "filter": {
-                "all_label": "",
-                "solved_label": "",
-                "unsolved_label": "",
-                "accessible_label": ""
+                "all_label": "Всички въпроси",
+                "solved_label": "Решени въпроси",
+                "unsolved_label": "Нерешени въпроси",
+                "accessible_label": "Решен/Нерешен избор"
             },
             "composer": {
-                "titlePlaceholder": ""
+                "titlePlaceholder": "Заглавие на въпроса"
             },
             "user": {
-                "best-answer-count": ""
+                "best-answer-count": "{count, plural, one { {count} best answer} other {{count} best answers}}"
             }
         },
         "email": {
             "subject": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "Вашата публикация беше зададена като най-добър отговор от 1{display_name}",
+                "ba-set": "Най-добрият отговор е зададен от {display_name}",
+                "select": "Успяхте ли да получите отговор на въпроса си?"
             },
             "body": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "Здравей {recipient_display_name},\n\nСтрахотна работа, {actor_display_name} току-що определи твоята публикацията като най-добрия отговор в дискусията: {discussion_title}. Благодаря за помощта.\n\nВиж го тук: {discussion_url}\n",
+                "ba-set": "Здравей {recipient_display_name},\n\n{actor_display_name} даде най-добрият отговор в дискусията: {discussion_title}, в която участвахте.\n\nВижте го: {discussion_url}\n",
+                "select": "Здравей, {recipient_display_name},\n\nСамо отбелязвам; вече трябва да имате много отговори на въпроса си: {discussion_title}. Надяваме се, че някой от тях ви е помогнал да решите проблема си.\n\nАко е така, би било наистина полезно за бъдещите членове, ако можете да отбележите най-добрия отговор на вашия въпрос. Това ще помогне на хората със същия проблем да намерят отговора, от който се нуждаят, и също така е голяма признателност към членовете, които са ви помогнали. Те отделят времето си доброволно, така че е хубаво да знаят, че се справят добре.\n\nПосетете дискусията тук: {discussion_url} и изберете най-подходящата публикация като най-добър отговор.\n\nБлагодаря!\n"
             }
         }
     },
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "most_best_answers": "",
-                "least_best_answers": ""
+                "most_best_answers": "Повечето най-добри отговори",
+                "least_best_answers": "Най-малко от най-добрите отговори"
             }
         }
     }

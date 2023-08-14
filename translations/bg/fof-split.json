@@ -2,21 +2,21 @@
     "fof-split": {
         "admin": {
             "permissions": {
-                "split_discussion_label": ""
+                "split_discussion_label": "Раздели публикации от дискусии"
             }
         },
         "forum": {
             "post": {
-                "was_split_to": "",
-                "was_split_from": ""
+                "was_split_to": "{count, plural, one {{count} публикацията беше разделена на {target}.} other {{count} публикациите бяха разделени на {target}.}}",
+                "was_split_from": "{count, plural, one {{count} публикацията беше разделена от {target}.} other {{count} публикации бяха разделени от {target}.}}"
             },
             "split": {
-                "from": "",
+                "from": "Раздели от тук",
                 "to": ""
             },
             "modal": {
                 "title": "",
-                "new_discussion_label": "",
+                "new_discussion_label": "Посочи заглавието на новата дискусия",
                 "submit_button": ""
             }
         }

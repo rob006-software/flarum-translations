@@ -3,16 +3,16 @@
         "admin": {
             "settings": {
                 "prefix_label": "",
-                "prefix_help": "",
+                "prefix_help": "Този текст ще се показва преди местоименията на потребителя. Оставеи празно, за да не се показва нищо.",
                 "icon_label": "",
-                "icon_help": ""
+                "icon_help": "Активирай тази опция, за да показваш икона вместо текст преди местоименията на потребителя."
             }
         },
         "forum": {
             "change_pronouns": {
                 "title": "",
                 "help": "",
-                "submit_button": ""
+                "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
                 "change_pronouns_button": ""

@@ -2,12 +2,12 @@
     "kilowhat-cimaise": {
         "forum": {
             "nav": {
-                "albums": "",
-                "pictures": "",
-                "user-pictures": ""
+                "albums": "=> kilowhat-cimaise.ref.albums",
+                "pictures": "=> kilowhat-cimaise.ref.pictures",
+                "user-pictures": "=> kilowhat-cimaise.ref.pictures"
             },
             "album-list": {
-                "title": "",
+                "title": "=> kilowhat-cimaise.ref.albums",
                 "new": "",
                 "empty": "",
                 "loading": "",
@@ -48,7 +48,8 @@
                 "drop-file": "",
                 "publishSilently": "",
                 "submit": "",
-                "submitInComposer": ""
+                "submitInComposer": "",
+                "reload": ""
             },
             "new-album-modal": {
                 "title": ""
@@ -204,6 +205,24 @@
                 "cannotAttachAlreadySubmitted": "",
                 "cannotAttachFromExternalAlbum": "",
                 "cannotAttachUnauthorized": ""
+            },
+            "picture-edit": {
+                "unauthorized": {
+                    "title": "",
+                    "description": "",
+                    "license": "",
+                    "author": "",
+                    "takenAt": "",
+                    "isDraftUnSubmit": "",
+                    "isDraftSubmit": "",
+                    "isApprovedUnApprove": "",
+                    "isApprovedApprove": "",
+                    "isHiddenRestore": "",
+                    "isHiddenHide": "",
+                    "isFavorite": "",
+                    "stickers": "",
+                    "crop": ""
+                }
             }
         },
         "ref": {

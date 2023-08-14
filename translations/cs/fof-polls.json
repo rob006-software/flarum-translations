@@ -3,7 +3,9 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Umožnit zadat adresu URL obrázku pro každou možnost ankety",
-                "max_options": "Maximální počet možností v jedné anketě"
+                "max_options": "Maximální počet možností v jedné anketě",
+                "options_color_blend": "Prolínání barev textu ve volbách hlasování",
+                "options_color_blend_help": "Tuto volbu použijte k míchání barev, zlepšíte tím čitelnost možností hlasování. Pokud tato volba způsobuje problémy se vzhledem fóra a snižuje jeho čitelnost, zakažte ji."
             },
             "permissions": {
                 "view_results_without_voting": "Zobrazit výsledky bez hlasování",

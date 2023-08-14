@@ -87,7 +87,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => [],
+		'maintainers' => ['nsokoloff'],
 	],
 	'bn' => [
 		'type' => 'language',

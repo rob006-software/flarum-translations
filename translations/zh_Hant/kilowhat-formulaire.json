@@ -47,7 +47,9 @@
                     "discussionComposer": "討論作曲家"
                 },
                 "uniformComposerLayout": "統一的討論作曲家佈局",
-                "uniformComposerLayoutHelp": "更改標籤、標題和內容字段的樣式以與 Formulaire 相匹配。 此佈局將佔用更多空間，因此建議您安裝並啟用 <a>Composer Page</a> 擴展。\n"
+                "uniformComposerLayoutHelp": "更改標籤、標題和內容字段的樣式以與 Formulaire 相匹配。 此佈局將佔用更多空間，因此建議您安裝並啟用 <a>Composer Page</a> 擴展。\n",
+                "noByobuFields": "不要將討論字段與 Byobu 擴展的私人討論相結合",
+                "noByobuFieldsHelp": "默認情況下，非標籤範圍的討論字段將應用於所有討論，包括私人討論。"
             }
         },
         "forum": {
@@ -388,6 +390,7 @@
             "unknown-form": "無法識別的表單 ID {id}",
             "unauthorized-form": "您沒有必要的權限來填寫表單 ID {id}",
             "unauthorized-scoped-form": "您不能使用當前標籤組合填寫表單 ID {id}",
+            "unsupported-discussion-form": "您無法在此類討論中填寫表單 ID {id}",
             "file-already-belongs-form": "文件 {id} 屬於另一個表單",
             "file-already-belongs-submission": "文件 {id} 屬於另一個提交",
             "export": {

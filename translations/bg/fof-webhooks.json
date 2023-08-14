@@ -2,17 +2,17 @@
     "fof-webhooks": {
         "actions": {
             "discussion": {
-                "started": "",
+                "started": "Започна дискусия `{1}`",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Преименувана Дискусия `{1}`",
+                    "description": "Ново заглавие: {1}"
                 },
                 "hidden": "",
                 "restored": "",
                 "deleted": ""
             },
             "group": {
-                "created": "",
+                "created": "Създадена `{1}` група",
                 "renamed": "",
                 "deleted": ""
             },

@@ -2,32 +2,32 @@
     "askvortsov-discussion-templates": {
         "admin": {
             "permissions": {
-                "manage_own_discussion_reply_templates": "",
-                "manage_all_reply_templates": ""
+                "manage_own_discussion_reply_templates": "Управлявай шаблоните за отговор на съответната дискусия",
+                "manage_all_reply_templates": "Управлявай шаблоните за отговор на всички дискусии"
             },
             "settings": {
-                "no_tag_template": "",
-                "append_template_on_tag_change": "",
-                "append_template_on_tag_change_help": ""
+                "no_tag_template": "Шаблон по подразбиране (използва се, когато се стартира тема без да е избран Таг):",
+                "append_template_on_tag_change": "Добави шаблон, ако се смени Таг?",
+                "append_template_on_tag_change_help": "Когато се смени Таг, трябва ли да се добави новия шаблон за Таг, дори ако потребителя е започнал да пише? Независимо от избора, ако има сменени тагове и потребителя не е направил промени, шаблона ще бъде сменен."
             },
             "tags": {
-                "tag_template_heading": "",
-                "tag_template_text": "",
-                "tag_template_button": ""
+                "tag_template_heading": "Шаблон за Тема",
+                "tag_template_text": "Управлявайте шаблон за нова тема с този таг.",
+                "tag_template_button": "Редактирайте шаблон"
             },
             "tag_template_modal": {
-                "title": "",
-                "customize_text": "",
-                "submit_button": ""
+                "title": "Шаблон за Тема",
+                "customize_text": "Управлявайте шаблон за нова тема с този Таг.",
+                "submit_button": "Запазете Шаблон"
             }
         },
         "forum": {
             "discussion_controls": {
-                "reply_template_button": ""
+                "reply_template_button": "Редактирайте Шаблон за Отговор"
             },
             "reply_template": {
-                "title": "",
-                "submit_button": ""
+                "title": "Редактирайте Шаблон за Отговор",
+                "submit_button": "Запазете Шаблон за Отговор"
             }
         }
     }

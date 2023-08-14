@@ -2,24 +2,24 @@
     "datlechin-more-discussions": {
         "admin": {
             "settings": {
-                "block_name_label": "",
-                "block_name_help": "",
-                "discussion_limit_label": "",
-                "discussion_limit_help": "",
-                "filter_by_label": "",
-                "filter_by_help": "",
+                "block_name_label": "Блокирай име",
+                "block_name_help": "Името на блока (по подразбиране <code>Последни дискусии</code>)",
+                "discussion_limit_label": "Лимит на Дискусията",
+                "discussion_limit_help": "Брй дискусии за показване (default <code>5</code>)",
+                "filter_by_label": "Филтрирай по",
+                "filter_by_help": "Филтрирай дискусии (по подразбиране: <code>най-новият</code>)",
                 "filter_dropdown": {
-                    "latest": "",
-                    "top": "",
-                    "newest": "",
-                    "oldest": "",
-                    "hot": "",
-                    "votes": ""
+                    "latest": "Най-новият",
+                    "top": "Най-популярен",
+                    "newest": "Най-нов",
+                    "oldest": "Най-стар",
+                    "hot": "Актуален (изисква fof/gamification)",
+                    "votes": "Гласове нагоре (изисква се за fof/gamification)"
                 }
             }
         },
         "forum": {
-            "block_default_name": ""
+            "block_default_name": "Последни Дискусии"
         }
     }
 }

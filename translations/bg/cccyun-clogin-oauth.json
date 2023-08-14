@@ -1,40 +1,40 @@
 {
     "cccyun-clogin-oauth": {
         "admin": {
-            "appurl_label": "",
-            "appurl_help": "",
-            "appid_label": "",
-            "appkey_label": "",
-            "openqq_label": "",
-            "openwx_label": "",
-            "opensina_label": ""
+            "appurl_label": "URL адрес на API",
+            "appurl_help": "Трябва да започва с http:// или https:// и да завършва с /",
+            "appid_label": "APPID",
+            "appkey_label": "APPKEY",
+            "openqq_label": "Отворете QQ Login",
+            "openwx_label": "Отваряне на вход чрез WeChat",
+            "opensina_label": "Отваряне на вход чрез Weibo"
         },
         "forum": {
-            "with_qq_button": "",
-            "with_wx_button": "",
-            "with_sina_button": "",
+            "with_qq_button": "QQ Вход",
+            "with_wx_button": "Вход чрез WeChat",
+            "with_sina_button": "Вход чрез Weibo",
             "alerts": {
-                "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
-                "error": "",
-                "unlinked": ""
+                "already_linked": "Трети акаунт вече е свързан!",
+                "already_used": "Трети акаунт вече е свързан с друг потребител!",
+                "link_success": "Свързването на трети акаунт бе успешно.",
+                "unlink_success": "Прекратяването на връзката с трети акаунт бе успешно.",
+                "error": "Нещо се обърка.Моля опитайте по-късно!",
+                "unlinked": "Третият акаунт не е обвързан с акаунта на този сайт, моля, първо се регистрирайте и след това се свържете."
             },
             "modals": {
-                "link_qq": "",
-                "unlink_qq": "",
-                "confirm_qq": "",
-                "link_wx": "",
-                "unlink_wx": "",
-                "confirm_wx": "",
-                "link_sina": "",
-                "unlink_sina": "",
-                "confirm_sina": "",
-                "no_providers": "",
+                "link_qq": "Свързване на QQ акаунт",
+                "unlink_qq": "Прекратете връзката с QQ акаунт",
+                "confirm_qq": "Сигурни ли сте, че искате да прекратите връзката на своя QQ акаунт?",
+                "link_wx": "Свързване на акаунт в WeChat",
+                "unlink_wx": "Прекратете връзката с акаунта в WeChat",
+                "confirm_wx": "Сигурни ли сте, че искате да прекратите връзката на акаунта си в WeChat?",
+                "link_sina": "Свързване на акаунт в Weibo",
+                "unlink_sina": "Прекратяване на връзката с акаунта в Weibo",
+                "confirm_sina": "Сигурни ли сте, че искате да прекратите връзката с акаунта си в Weibo?",
+                "no_providers": "Нямате други доставчици за вход! Вероятно ще трябва да нулирате паролата си.",
                 "buttons": {
-                    "confirm": "",
-                    "cancel": ""
+                    "confirm": "Да, прекратяване на връзката с акаунта",
+                    "cancel": "Не!"
                 }
             }
         }

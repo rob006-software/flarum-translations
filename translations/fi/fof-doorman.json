@@ -31,7 +31,8 @@
             "page": {
                 "title": "Doorman",
                 "doorkey": {
-                    "used_times": "{remaining, plural, one {{remaining} käyttö jäljellä} other {{remaining} käyttöä jäljellä}}",
+                    "used_times": "{remaining, plural, =0 {Loputtomasti käyttöjä} one {{remaining} käyttö jäljellä} other {{remaining} käyttöä jäljellä}}",
+                    "total_uses": "{totalUses, plural, one {Käytetty {totalUses} kerran} other {Käytetty {totalUses} kertaa}}",
                     "title": "Kutsukoodit",
                     "help": {
                         "key": "Avain: Koodi jonka käyttäjä syöttää rekisteröityessään.",

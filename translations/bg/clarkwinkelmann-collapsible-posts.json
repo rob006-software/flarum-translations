@@ -2,36 +2,36 @@
     "clarkwinkelmann-collapsible-posts": {
         "admin": {
             "settings": {
-                "reasons": "",
+                "reasons": "Причини",
                 "header": {
-                    "key": "",
-                    "label": "",
-                    "explanation": ""
+                    "key": "Уникален ключ на база данни",
+                    "label": "Етикет",
+                    "explanation": "Персонализирано съобщение за обяснение"
                 },
-                "add": "",
-                "explanationUrl": "",
-                "explanationUrlHelp": ""
+                "add": "Нова причина",
+                "explanationUrl": "URL за обяснение",
+                "explanationUrlHelp": "По избор. Показва се под сгънатите публикации"
             },
             "permission": {
-                "collapse": ""
+                "collapse": "Свиване на публикации"
             }
         },
         "forum": {
             "postControl": {
-                "collapse": "",
-                "uncollapse": ""
+                "collapse": "Свиване",
+                "uncollapse": "Разгръщане"
             },
             "modal": {
-                "title": "",
-                "uncollapse": ""
+                "title": "Свиване на публикацията",
+                "uncollapse": "Разгъни"
             },
             "badge": {
-                "post": ""
+                "post": "Сгънато"
             },
             "stream": {
-                "hidden": "",
-                "load": "",
-                "explanation": ""
+                "hidden": "{count, plural, one {# публикацията е скрита като {reason}} other {# публикациите са скрити като {reason}}}",
+                "load": "Зареди още",
+                "explanation": "Защо виждам това?"
             }
         }
     }

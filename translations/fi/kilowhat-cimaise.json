@@ -48,7 +48,8 @@
                 "drop-file": "tai raahaa ja tiputa tähän",
                 "publishSilently": "Julkaise hiljaisesti",
                 "submit": "Lähetä",
-                "submitInComposer": "Jatka"
+                "submitInComposer": "Jatka",
+                "reload": "Lataa luonnokset uudelleen"
             },
             "new-album-modal": {
                 "title": "Uusi albumi"
@@ -184,16 +185,16 @@
             },
             "status": {
                 "pictures": {
-                    "section": "",
-                    "drafts": ""
+                    "section": "Kuvat",
+                    "drafts": "({count} luonnosta)"
                 },
                 "storage": {
-                    "section": "",
-                    "originals": "",
-                    "conversions": ""
+                    "section": "Tallennustila (arvioitu)",
+                    "originals": "Alkuperäiset: {size}",
+                    "conversions": "Muunnokset: {size}"
                 },
-                "refresh": "",
-                "loading": ""
+                "refresh": "Päivitä",
+                "loading": "Ladataan..."
             }
         },
         "api": {
@@ -204,6 +205,24 @@
                 "cannotAttachAlreadySubmitted": "Kuvaa {id} ei voida liittää sillä se on jo lisätty",
                 "cannotAttachFromExternalAlbum": "Kuvaa {id} ei voida liittää sillä se kuuluu ulkopuoliseen albumiin",
                 "cannotAttachUnauthorized": "Kuvaa {id} ei voida liittää sillä se ei kuulu sinulle"
+            },
+            "picture-edit": {
+                "unauthorized": {
+                    "title": "Virhellinen otsikko, ei oikeuksia muokata",
+                    "description": "Virheellinen kuvaus, ei oikeuksia muokata",
+                    "license": "Virhellinen lisenssi, ei oikeuksia muokata",
+                    "author": "Virhellinen kirjoittaja, ei oikeuksia muokata",
+                    "takenAt": "Virhellinen päivämäärä, ei oikeuksia muokata",
+                    "isDraftUnSubmit": "Virheellinen luonnoksen tila, ei oikeuksia muuttaa luonnokseksi",
+                    "isDraftSubmit": "Virheellinen luonnoksen tila, ei oikeuksia julkaista",
+                    "isApprovedUnApprove": "Virheellinen hyväksynnän tila, ei oikeuksia poistaa hyväksyntää",
+                    "isApprovedApprove": "Virheellinen hyväksynnän tila, ei oikeuksia hyväksyä",
+                    "isHiddenRestore": "Virheellinen piilotuksen tila, ei oikeuksia palauttaa",
+                    "isHiddenHide": "Virheellinen piilotuksen tila, ei oikeuksia piilottaa",
+                    "isFavorite": "Virheellinen suosikin tila, ei oikeuksia muokata",
+                    "stickers": "Virheelliset tarrat, ei oikeuksia muokata",
+                    "crop": "Virheellinen rajaus, ei oikeuksia muokata"
+                }
             }
         },
         "ref": {

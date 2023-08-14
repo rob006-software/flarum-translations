@@ -2,187 +2,187 @@
     "clarkwinkelmann-catch-the-fish": {
         "forum": {
             "moderate": {
-                "add": "",
-                "edit": "",
-                "delete": "",
-                "fishes": "",
-                "rounds": ""
+                "add": "Добави",
+                "edit": "Редактирай",
+                "delete": "Изтрий",
+                "fishes": "Риби",
+                "rounds": "Кръгове"
             },
             "nav": {
-                "rankings": "",
-                "settings": ""
+                "rankings": "Класация на уловените риби",
+                "settings": "Настройки за \"Улови рибата\""
             },
             "new-round-modal": {
-                "title": ""
+                "title": "Нов кръг"
             },
             "new-fish-modal": {
-                "title": ""
+                "title": "Нова риба"
             },
             "edit-round-modal": {
-                "title": ""
+                "title": "Редактиране на кръг \"{name}\""
             },
             "edit-fish-modal": {
-                "title": ""
+                "title": "Редактиране на риба \"{name}\""
             },
             "caught-fish-modal": {
-                "title": "",
-                "named-by": "",
-                "placed-by": "",
-                "congratulation": "",
-                "name": "",
-                "name-help": "",
-                "placement-help": "",
-                "submit-name-place-later": "",
-                "submit-name": "",
-                "submit-place-later": "",
-                "submit-continue": "",
-                "submit-name-place-random": "",
-                "submit-place-random": ""
+                "title": "Хванахте риба!",
+                "named-by": "Кръстен от",
+                "placed-by": "Поставен он",
+                "congratulation": "Поздравления, хванахте риба! Хванахте {catch_count} риби.",
+                "name": "Име на риба",
+                "name-help": "Можете да преименувате рибата, ако искате. Името трябва да отговаря на указанията на форума.",
+                "placement-help": "Можете да скриете рибата, където искате във форума в последните дискусии и активни потребителски профили. Не можете да хванете риба, която сте поставили сами.",
+                "submit-name-place-later": "Запазете името и изберете скривалище",
+                "submit-name": "Запазете името",
+                "submit-place-later": "Да, ще избера скривалище",
+                "submit-continue": "Продължи",
+                "submit-name-place-random": "Запазете името и оставете рибата да се скрие",
+                "submit-place-random": "Оставете рибата да се скрие"
             },
             "edit-round": {
-                "name": "",
-                "name-help": "",
-                "starts-at": "",
-                "ends-at": "",
-                "starting-pack": "",
-                "starting-pack-help": "",
-                "create": "",
-                "save": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "name": "Име",
+                "name-help": "Публичното име за този рунд ще бъде показано в банера и в класацията",
+                "starts-at": "Време на започване",
+                "ends-at": "Време на приключване",
+                "starting-pack": "Стартов пакет",
+                "starting-pack-help": "Ще включи няколко риби, за да започнете бързо",
+                "create": "Създайте рунд",
+                "save": "Запазете рунд",
+                "delete": "Изтрийте рунд",
+                "delete-confirmation": "Изтриване на рунд \"{name}\"?"
             },
             "edit-fish": {
-                "name": "",
-                "name-help": "",
-                "create": "",
-                "save": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "name": "Име",
+                "name-help": "Настоящото име на рибата. Може да се редактира от играчите, ако имат разрешение да преименуват риби",
+                "create": "Създайте риба",
+                "save": "Запазете риба",
+                "delete": "Изтрийте риба",
+                "delete-confirmation": "Изтриване на риба \"{name}\"?"
             },
             "moving-fish": {
-                "login": ""
+                "login": "Влезте, за да ловите риби"
             },
             "fish-image": {
-                "alt": "",
-                "missing": ""
+                "alt": "Изображение на риба \"{name}\"",
+                "missing": "Липсващо изображение на риба"
             },
             "round-alert": {
-                "message": "",
-                "rankings": ""
+                "message": "Завъртете „{name}“, хванете колкото можете повече риби до {time}",
+                "rankings": "Вижте класациите"
             },
             "basket": {
-                "title": "",
-                "drag-help": "",
-                "time": ""
+                "title": "Кошница за риба",
+                "drag-help": "Плъзнете и пуснете рибата върху дискусия, публикация или потребителски профил",
+                "time": "Поставете до: {time}"
             },
             "table-round": {
-                "loading": "",
-                "title": "",
-                "new": "",
-                "name": "",
-                "start": "",
-                "end": "",
-                "actions": "",
-                "edit": "",
-                "fishes": ""
+                "loading": "Зареждане...",
+                "title": "Рундове",
+                "new": "Нов рунд",
+                "name": "Име",
+                "start": "От",
+                "end": "До",
+                "actions": "Действия",
+                "edit": "Редактиране",
+                "fishes": "Риби"
             },
             "table-fish": {
-                "loading": "",
-                "title": "",
-                "new": "",
-                "image": "",
-                "name": "",
-                "user-name": "",
-                "user-place": "",
-                "placement": "",
-                "actions": "",
-                "edit": "",
-                "no-user-name": "",
-                "no-user-place": "",
-                "upload": "",
-                "new-from-image": ""
+                "loading": "Зареждане...",
+                "title": "Риби за рунд {name}",
+                "new": "Нова риба",
+                "image": "Изображение",
+                "name": "Име",
+                "user-name": "Последно наименуван от",
+                "user-place": "Последно поставен от",
+                "placement": "Текущо местоположение",
+                "actions": "Действия",
+                "edit": "Редактиране",
+                "no-user-name": "Не е преименуван",
+                "no-user-place": "Случаен",
+                "upload": "Качете ново изображение",
+                "new-from-image": "Създавайте нови риби чрез групово импортиране на изображения"
             },
             "table-ranking": {
-                "loading": "",
-                "title": "",
-                "rank": "",
-                "count": "",
-                "user": ""
+                "loading": "Зареждане...",
+                "title": "Класиране на рунд {name}",
+                "rank": "Име",
+                "count": "Уловени риби",
+                "user": "Потребител"
             },
             "page-ranking": {
-                "title": "",
-                "permission": "",
-                "nothing": ""
+                "title": "Класации",
+                "permission": "Нямате разрешение да видите класирането",
+                "nothing": "Няма активни рундове"
             },
             "drop-area": {
-                "message": "",
-                "missing-from-store": ""
+                "message": "Можете да пуснете рибата тук",
+                "missing-from-store": "Не можах да намеря рибата в хранилището на данни"
             }
         },
         "admin": {
             "settings": {
-                "user": "",
-                "user-age": "",
-                "user-probability": "",
-                "discussion": "",
-                "discussion-age": "",
-                "discussion-tags": "",
-                "discussion-tags-unavailable": "",
-                "discussion-tags-help": "",
+                "user": "Потребители",
+                "user-age": "От колко време потребителят трябва да е бил активен, за да бъде поставена риба върху него (дни)",
+                "user-probability": "Вероятност да бъде поставен в потребителски профил (%)",
+                "discussion": "Дискусии",
+                "discussion-age": "Колко стари дискусии могат да бъдат, за да бъде поставена риба върху тях (дни)",
+                "discussion-tags": "Бял списък на тагове",
+                "discussion-tags-unavailable": "Настройката не е налична, защото разширението за тагове (Tags extension) е деактивирано.",
+                "discussion-tags-help": "Ако не изберете нито един таг, може да бъде избрана всяка дискусия, която съответства на настройките за време по-горе. Ако са избрани произволен брой тагове, дискусията трябва да има поне един от избраните тагове, за да бъде избран. Вероятността е шансът да бъдете избран, след като всички предишни избори са били изпробвани. Последният таг в списъка винаги ще действа като резервен, така че се уверете, че този таг има поне една валидна дискусия вътре.\n",
                 "tags-header": {
-                    "tag": "",
-                    "probability": ""
+                    "tag": "Таг",
+                    "probability": "Вероятност"
                 },
                 "tags-control": {
-                    "choose": "",
-                    "add": "",
-                    "down": "",
-                    "up": "",
-                    "delete": ""
+                    "choose": "Изберете таг",
+                    "add": "Добавяне към белия списък",
+                    "down": "Премести надолу",
+                    "up": "Премести нагоре",
+                    "delete": "Премахни от белия списък"
                 },
                 "tags-fallback": {
-                    "last-line": "",
-                    "single-line": ""
+                    "last-line": "Резервен вариант",
+                    "single-line": "Необходими са поне 2 тага за вероятност"
                 },
-                "post": "",
-                "post-age": "",
-                "post-probability": "",
-                "general": "",
-                "time-to-place": "",
-                "alert-round": "",
-                "animate-flip": ""
+                "post": "Публикации",
+                "post-age": "Колко стари могат да бъдат публикациите, за да бъде поставена риба (дни)",
+                "post-probability": "Вероятност да бъде поставен в публикация, а не в дискусията (%)",
+                "general": "Общ",
+                "time-to-place": "Разрешено време за поставяне на риба, преди да бъде поставена произволно (минути)",
+                "alert-round": "Показване на предупреждение с кръглото име и продължителност на началната страница",
+                "animate-flip": "Обърни изображенията на рибите в зависимост от посоката"
             },
             "permissions": {
-                "visible": "",
-                "list-rankings": "",
-                "participate": "",
-                "choose-place": "",
-                "choose-name": "",
-                "moderate": ""
+                "visible": "Вижте рибите",
+                "list-rankings": "Достъп до страницата за класиране",
+                "participate": "Участвайте в рундовете и ловете риби",
+                "choose-place": "Изберете разположение на рибата след улавяне",
+                "choose-name": "Изберете име на риба след улов",
+                "moderate": "Модерирайте рундовете и рибите"
             }
         },
         "api": {
-            "default-fish-name": "",
-            "wrong-catch-placement": "",
-            "too-many-placement-models": "",
-            "invalid-discussion-id": "",
-            "invalid-post-id": "",
-            "invalid-user-id": "",
-            "model-deleted": "",
-            "model-private": "",
-            "tag-not-allowed": "",
-            "inactive-discussion": "",
-            "inactive-post": "",
-            "inactive-user": "",
-            "non-comment-post": "",
-            "user-suspended": "",
-            "random-error": "",
-            "cannot-catch-own-fish": "",
-            "cannot-catch-hold-fish": "",
-            "fish-update-wrong-user": "",
-            "fish-update-expired": "",
-            "round-not-started": "",
-            "round-finished": ""
+            "default-fish-name": "Риба #{number}",
+            "wrong-catch-placement": "Тук няма риба. Може би не сте били достатъчно бързи и някой друг я хвана преди вас",
+            "too-many-placement-models": "Едновременно може да се постави само една риба",
+            "invalid-discussion-id": "Дискусията изглежда не съществува, може би наскоро е била изтрита",
+            "invalid-post-id": "Публикацията изглежда не съществува, може би е била изтрита наскоро",
+            "invalid-user-id": "Потребителят изглежда не съществува, може би е бил изтрит наскоро",
+            "model-deleted": "Не можете да поставите риба в изтрита дискусия или публикация",
+            "model-private": "Не можете да поставите риба в частна дискусия или публикация",
+            "tag-not-allowed": "Не можете да поставите риба под този етикет",
+            "inactive-discussion": "Не може да постави риба в дискусия, неактивна повече от {days} дни",
+            "inactive-post": "Не може да се постави риба в публикация, създадена преди повече от {days} дни",
+            "inactive-user": "Не може да се постави риба на потребител, неактивен повече от {days} дни",
+            "non-comment-post": "Може да поставя риби само в публикации за коментари",
+            "user-suspended": "Не може да постави риба на спрян потребител",
+            "random-error": "Не можах да генерирам случайно местоположение на риба",
+            "cannot-catch-own-fish": "Не можете да хванете риба, която сте поставили сами",
+            "cannot-catch-hold-fish": "Преди да може да я уловите, предишният ловец трябва да освободи рибата",
+            "fish-update-wrong-user": "Вече не можете да редактирате тази риба. Някой друг вероятно я е уловил",
+            "fish-update-expired": "Твърде късно, вече не можете да редактирате тази риба. Тя е автоматично поставена някъде през това време",
+            "round-not-started": "Този рунд не е започнал",
+            "round-finished": "Този рунд е приключил"
         }
     }
 }

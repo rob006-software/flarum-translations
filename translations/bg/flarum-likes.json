@@ -2,35 +2,35 @@
     "flarum-likes": {
         "admin": {
             "permissions": {
-                "like_posts_label": ""
+                "like_posts_label": "Харесайте публикации"
             },
             "settings": {
-                "like_own_posts_help": "",
-                "like_own_posts_label": ""
+                "like_own_posts_help": "Когато е активирано и при наличие на разрешение, потребителите могат да \"харесват\" своите собствени публикации във форума. За да се предотврати възможността потребителите да поставят \"харесване\" на своите собствени публикации, изключете тази настройка.",
+                "like_own_posts_label": "Потребителите могат да харесват собствените си публикации"
             }
         },
         "forum": {
             "notifications": {
-                "others_text": "",
-                "post_liked_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} хареса публикацията ви"
             },
             "post": {
-                "like_link": "",
-                "liked_by_self_text": "",
-                "liked_by_text": "",
-                "others_link": "",
-                "unlike_link": "",
-                "you_text": ""
+                "like_link": "Харесвам",
+                "liked_by_self_text": "{users} харесват това.",
+                "liked_by_text": "{count, plural, one {{users} харесват това} other {{users} харесва това}}.",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Не харесвам",
+                "you_text": "=> core.ref.you"
             },
             "post_likes": {
-                "title": "",
-                "load_more_button": ""
+                "title": "Потребители, които харесват това",
+                "load_more_button": "=> core.ref.load_more"
             },
             "settings": {
-                "notify_post_liked_label": ""
+                "notify_post_liked_label": "Някой харесва една от публикациите ми"
             },
             "user": {
-                "likes_link": ""
+                "likes_link": "Харесвания"
             }
         }
     }

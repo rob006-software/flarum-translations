@@ -2,32 +2,32 @@
     "fof-moderator-notes": {
         "admin": {
             "permissions": {
-                "createnotes": "",
-                "viewnotes": "",
-                "deletenotes": ""
+                "createnotes": "Създай бележки на модератора",
+                "viewnotes": "Виж бележки на модератора",
+                "deletenotes": "Изтрий бележки на модератора"
             }
         },
         "forum": {
-            "no_content_given": "",
+            "no_content_given": "Не е позволена празна бележка.",
             "moderatorNotes": {
-                "created_text": "",
-                "add_button": "",
-                "create-heading": "",
-                "dismiss_button": "",
-                "input_heading": "",
-                "noNotes": "",
-                "submit_button": "",
-                "delete": "",
-                "confirm": ""
+                "created_text": "{username} създаде тази бележка на {date}",
+                "add_button": "Нова бележка",
+                "create-heading": "Създай нова бележка на модератор",
+                "dismiss_button": "Готово",
+                "input_heading": "Въведи твоите бележки за <strong>{username}</strong>, (markdown се поддържа)",
+                "noNotes": "Изглежда, че няма повече бележки тук.",
+                "submit_button": "Запази бележка",
+                "delete": "Изтрий",
+                "confirm": "Сигурни ли сте, че искате да изтриете тази бележка?"
             },
             "user": {
-                "notes": ""
+                "notes": "Бележки на модератора"
             }
         },
         "api": {
-            "auto_note": "",
-            "auto_note_actor": "",
-            "no_reason_provided": ""
+            "auto_note": "_Превключих към този потребител:_ {reason}",
+            "auto_note_actor": "_Превключих към_ @{username}: {reason}",
+            "no_reason_provided": "Не е предоставена причина"
         }
     }
 }

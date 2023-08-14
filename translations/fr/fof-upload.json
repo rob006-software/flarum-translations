@@ -172,7 +172,15 @@
             "upload_errors": {
                 "forbidden_type": "Le transfert de fichiers de ce type n'est pas autorisé.",
                 "unsupported_type": "L'adaptateur de transfert ne prend pas en charge le type MIME fourni : {mime}.",
-                "could_not_detect_mime": "Impossible de détecter le type MIME de ce fichier, veuillez réessayer."
+                "could_not_detect_mime": "Impossible de détecter le type MIME de ce fichier, veuillez réessayer.",
+                "max_upload_file_size_ini": "La limite de taille maximale des fichiers transférés a été atteinte dans le fichier php.ini.",
+                "max_upload_file_size_form": "La limite maximale de la taille des fichiers transférés a été atteinte à partir du formulaire.",
+                "partial_upload": "Transfert partiel.",
+                "no_file_uploaded": "Aucun fichier n'a été transféré.",
+                "no_upload_tmp_folder": "Absence du dossier tmp pour le transfert des fichiers.",
+                "cannot_write_to_disk": "Impossible d'écrire sur le disque.",
+                "upload_blocked_by_php_extension": "Une extension PHP a bloqué le transfert.",
+                "no_files_made_it_to_upload": "Veillez à ne transférer que des fichiers ne dépassant pas {max} Ko."
             }
         }
     }

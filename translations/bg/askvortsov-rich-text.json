@@ -2,49 +2,49 @@
     "askvortsov-rich-text": {
         "admin": {
             "settings": {
-                "toggle_on_editor": ""
+                "toggle_on_editor": "Покажи режим на обогатен текст в редактора?"
             }
         },
         "lib": {
             "composer": {
-                "toggle_button": "",
-                "insert_button": "",
+                "toggle_button": "Превключване на режим обогатен текст",
+                "insert_button": "Постави",
                 "insert_image": {
-                    "src_placeholder": "",
-                    "title_placeholder": ""
+                    "src_placeholder": "Връзка",
+                    "title_placeholder": "Заглавие"
                 },
                 "insert_link": {
-                    "text_placeholder": "",
-                    "href_placeholder": "",
-                    "title_placeholder": "",
-                    "remove_button": ""
+                    "text_placeholder": "Текст",
+                    "href_placeholder": "URL адрес",
+                    "title_placeholder": "Заглавие (показва се при задържане на курсора на мишката)",
+                    "remove_button": "Премахване"
                 },
-                "additional_items_tooltip": "",
-                "bold_tooltip": "",
-                "code_tooltip": "",
-                "code_block_tooltip": "",
-                "header_tooltip": "",
-                "horizontal_rule_tooltip": "",
-                "image_tooltip": "",
-                "italic_tooltip": "",
-                "link_tooltip": "",
-                "ordered_list_tooltip": "",
-                "paragraph_tooltip": "",
-                "quote_tooltip": "",
-                "spoiler_block_tooltip": "",
-                "spoiler_inline_tooltip": "",
-                "strike_tooltip": "",
-                "sub_tooltip": "",
-                "sup_tooltip": "",
-                "text_type_tooltip": "",
-                "unordered_list_tooltip": ""
+                "additional_items_tooltip": "Допълнителни контроли",
+                "bold_tooltip": "Удебелен текст <{modifierKey}-b>",
+                "code_tooltip": "Вграден код <{modifierKey}-`>",
+                "code_block_tooltip": "Вмъкване на кодов блок",
+                "header_tooltip": "Промяна към заглавие {level} <shift-{modifierKey}-{level}>",
+                "horizontal_rule_tooltip": "Поставете хоризонтална линия",
+                "image_tooltip": "Добавете изображение",
+                "italic_tooltip": "Текст с наклонен шрифт <{modifierKey}-i>",
+                "link_tooltip": "Добавяне на връзка",
+                "ordered_list_tooltip": "Номериран списък <shift-{modifierKey}-9>",
+                "paragraph_tooltip": "Промяна към параграф <shift-{modifierKey}-0>",
+                "quote_tooltip": "Вмъкване на цитат <{modifierKey}-q>",
+                "spoiler_block_tooltip": "Блокиране на спойлер/падащо меню",
+                "spoiler_inline_tooltip": "Спойлер    <{modifierKey}-;>",
+                "strike_tooltip": "Пресечено текстово форматиране <alt-shift-5>",
+                "sub_tooltip": "Долен индекс <{modifierKey}-,>",
+                "sup_tooltip": "Горен индекс <{modifierKey}-.>",
+                "text_type_tooltip": "Избери тип текст",
+                "unordered_list_tooltip": "Списък с водещи символи <shift-{modifierKey}-8>"
             }
         },
         "forum": {
             "settings": {
-                "composer_heading": "",
-                "use_rich_text_editor_label": "",
-                "rich_text_compact_paragraphs_label": ""
+                "composer_heading": "Съчинител",
+                "use_rich_text_editor_label": "Използвайте редактор за форматиран текст?",
+                "rich_text_compact_paragraphs_label": "Не разделяйте абзаците с нов ред."
             }
         }
     }

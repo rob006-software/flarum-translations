@@ -31,7 +31,8 @@
             "page": {
                 "title": "Doorman",
                 "doorkey": {
-                    "used_times": "{remaining, plural, one {{remaining} Use left} other {{remaining} Uses left}}",
+                    "used_times": "{remaining, plural, =0 {Unlimited uses} one {{remaining} use left} other {{remaining} uses left}}",
+                    "total_uses": "{totalUses, plural, one {Used {totalUses} time} other {Used {totalUses} times}}",
                     "title": "Invite Codes",
                     "help": {
                         "key": "Key: Code the user will type in when registering.",

@@ -3,10 +3,10 @@
         "admin": {
             "popup": {
                 "field": {
-                    "app-auth-url": "",
-                    "app-token-url": "",
-                    "app-user-url": "",
-                    "app-id": "",
+                    "app-auth-url": "oauth URL за оторизация",
+                    "app-token-url": "OAuth token URL",
+                    "app-user-url": "Api URL , предоставящ подробности за потребителя след легитимиране",
+                    "app-id": "Идентификатор на OAuth приложението",
                     "app-secret": "",
                     "app-scopes": "",
                     "button-title": "",

@@ -2,72 +2,72 @@
     "fof-terms": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Şərt Parametrləri",
                 "field": {
-                    "signup-legal-text": "",
-                    "hide-updated-at": "",
-                    "date-format": "",
-                    "date-format-help": ""
+                    "signup-legal-text": "Qeydiyyat formunda əlavə mətn",
+                    "hide-updated-at": "Yeniləmə mövcud olduqda şərtlərin yenilənmə tarixini göstərmə",
+                    "date-format": "Tarix formatı",
+                    "date-format-help": "Siz istənilən etibarlı <a>Day.js</a> formatından istifadə edə bilərsiniz. Defolt üçün sahəni boş buraxın."
                 }
             },
             "titles": {
-                "policies": ""
+                "policies": "Siyasətlər"
             },
             "buttons": {
-                "new-policy": "",
-                "edit-policy": "",
-                "add-policy": "",
-                "save-policy": "",
-                "delete-policy": "",
-                "set-to-now": ""
+                "new-policy": "Yeni Siyasət",
+                "edit-policy": "Siyasəti redaktə et",
+                "add-policy": "Siyasəti əlavə et",
+                "save-policy": "Yadda Saxla",
+                "delete-policy": "Siyasəti sil",
+                "set-to-now": "İndini təyin et"
             },
             "messages": {
-                "delete-policy-confirmation": ""
+                "delete-policy-confirmation": "Bu, {name} siyasətini və əlaqəli qəbul tarixlərini verilənlər bazasından həmişəlik siləcək. Zəhmət olmasa, hüquqi səbəblərə görə ehtiyacınız olarsa, həmin tarixlərin ehtiyat nüsxəsini çıxardığınızdan əmin olun. Bu siyasəti silmək istədiyinizə əminsiniz?\n"
             },
             "policies": {
-                "name": "",
-                "name-help": "",
-                "url": "",
-                "url-help": "",
-                "update-message": "",
-                "update-message-help": "",
-                "terms-updated-at": "",
-                "terms-updated-at-placeholder": "",
-                "terms-updated-at-help": "",
-                "export-url": "",
-                "export-url-help": ""
+                "name": "Ad",
+                "name-help": "Bu ad qeyd xanasının yanında və yeniləmə modalının başlığı kimi göstəriləcək.",
+                "url": "URL",
+                "url-help": "Şərtləri oxuya biləcəyiniz səhifənin URL-i. Kliklədikdə yeni tabda açılacaq.",
+                "update-message": "Mesajı Yeniləyin",
+                "update-message-help": "Ən son şərtləri hələ qəbul etməyən mövcud istifadəçilərə göstərmək üçün mesaj.",
+                "terms-updated-at": "Yeniləndi",
+                "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
+                "terms-updated-at-help": "Son şərtlərin yenilənmə tarixi. Bu dəyərin təyin edilməsi həmin tarixdən əvvəl qəbul etmiş bütün istifadəçilərin yenidən qəbul etmələrini tələb edəcək. Keçmişdə olmalıdır (əks halda istifadəçilər tarixdən sonra heç vaxt qəbul edə və modalı keçə bilməyəcəklər).\n",
+                "export-url": "Eksport URL",
+                "export-url-help": "\"Bütün siyasət məlumatlarını ixrac et\" icazəsi olan istənilən istifadəçi bu siyasəti qəbul edən istifadəçilərin siyahısını endirmək üçün həmin URL-lərə daxil ola bilər. Mövcud seçimlər haqqında ətraflı məlumatı <a>uzatma vikisində</a> tapa bilərsiniz.\n"
             },
             "permissions": {
-                "see-user-policies-state": "",
-                "postpone-policies-accept": "",
-                "export-policies": ""
+                "see-user-policies-state": "İstifadəçi siyasətləri vəziyyətinə bax",
+                "postpone-policies-accept": "Yeni şərtləri qəbul etməyi təxirə sala bilər",
+                "export-policies": "Bütün istifadəçilər və siyasət məlumatlarını ixrac et"
             }
         },
         "forum": {
             "signup": {
-                "i-accept": "",
-                "must-accept": ""
+                "i-accept": "Mən <a>{policy}</a> ilə razıyam",
+                "must-accept": "{policy} qəbul edilməlidir."
             },
             "accept-modal": {
-                "title": "",
-                "updated-at": "",
-                "updated-recently": "",
-                "i-accept": "",
-                "accept": "",
-                "close": ""
+                "title": "Şərtlərin Yenilənməsi",
+                "updated-at": "Şərtlər {date} tarixində yeniləndi",
+                "updated-recently": "Şərtlər son səfərinizdən sonra yeniləndi",
+                "i-accept": "Yeni <a>{policy}</a> ilə razıyam",
+                "accept": "Təsdiq et",
+                "close": "Qəbul etdiyiniz üçün təşəkkür edirik, indi foruma qayıda bilərsiniz"
             },
             "state-modal": {
-                "title": "",
-                "accepted-at": "",
-                "not-accepted": ""
+                "title": "{username} istifadəçisi üçün şərtlərin qəbul vəziyyəti",
+                "accepted-at": "Qəbul edildi {date}",
+                "not-accepted": "Qəbul edilmədi"
             },
             "update-alert": {
-                "must-accept-message": "",
-                "can-accept-message": "",
-                "review": ""
+                "must-accept-message": "Siz yeni şərtlərlə tanış olana qədər hesabınıza girişi müvəqqəti olaraq məhdudlaşdırdıq.",
+                "can-accept-message": "Biz bu yaxınlarda şərtləri yenilədik. Bu vebsaytdan istifadə etməyə davam etmək üçün onları qəbul etməlisiniz.",
+                "review": "Yeni şərtləri nəzərdən keçirmək və qəbul etmək üçün bura klikləyin"
             },
             "user_controls": {
-                "state_button": ""
+                "state_button": "Şərtlərin qəbul vəziyyəti"
             }
         }
     }

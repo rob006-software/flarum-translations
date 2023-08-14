@@ -1,15 +1,15 @@
 {
     "v17development-flarum-blog": {
         "admin": {
-            "blog": "",
+            "blog": "Блог",
             "permissions": {
-                "write_articles": "",
+                "write_articles": "Пиши и редактирай статии за блога",
                 "auto_approve_posts": "",
-                "approve_posts": ""
+                "approve_posts": "Може да одобрява блог статии"
             },
             "settings": {
                 "no_categories_selected": "",
-                "selected_category_count": "",
+                "selected_category_count": "{count, plural, one {You have # category selected} other {You have # categories selected}}",
                 "select_categories_button": "",
                 "blog_heading": "",
                 "featured_count_label": "",

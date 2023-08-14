@@ -1,25 +1,25 @@
 {
     "davwheat-share": {
         "admin": {
-            "browser_support_notice": "",
+            "browser_support_notice": "Опцията „Споделяне“ ще се показва само на устройства, които поддържат API за уеб споделяне. <a>Проверете поддръжката за различни браузъри.</a>",
             "display_options": {
-                "icon": "",
-                "text": "",
-                "menu": ""
+                "icon": "Само икона",
+                "text": "Само текст",
+                "menu": "Вътрешно меню за действия"
             },
-            "display_options_label": "",
-            "button_preview_header": "",
+            "display_options_label": "Тип на показване на бутона за споделяне",
+            "button_preview_header": "Преглед",
             "preview": {
-                "reply": "",
+                "reply": "Отговор",
                 "dropdown": {
-                    "edit": "",
-                    "delete": ""
+                    "edit": "Редактиране",
+                    "delete": "Изтрий"
                 }
             }
         },
         "lib": {
-            "share": "",
-            "share_a11y_label": ""
+            "share": "Сподели",
+            "share_a11y_label": "Споделете публикацията"
         }
     }
 }

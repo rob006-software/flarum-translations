@@ -2,32 +2,32 @@
     "fof-moderator-notes": {
         "admin": {
             "permissions": {
-                "createnotes": "",
-                "viewnotes": "",
-                "deletenotes": ""
+                "createnotes": "Vytvořit poznámky moderátora",
+                "viewnotes": "Zobrazit poznámky moderátora",
+                "deletenotes": "Smazat poznámky moderátora"
             }
         },
         "forum": {
-            "no_content_given": "",
+            "no_content_given": "Prázdná poznámka není povolena.",
             "moderatorNotes": {
-                "created_text": "",
-                "add_button": "",
-                "create-heading": "",
-                "dismiss_button": "",
-                "input_heading": "",
-                "noNotes": "",
-                "submit_button": "",
-                "delete": "",
-                "confirm": ""
+                "created_text": "{username} vytvořil tuto poznámku {date}",
+                "add_button": "Nová poznámka",
+                "create-heading": "Vytvoření nové poznámky moderátora",
+                "dismiss_button": "Hotovo",
+                "input_heading": "Zadejte poznámku pro uživatele <strong>{username}</strong>, (markdown je podporován)",
+                "noNotes": "Zdá se, že zde nejsou žádné poznámky.",
+                "submit_button": "Uložit poznámku",
+                "delete": "Smazat",
+                "confirm": "Opravdu chcete tuto poznámku smazat?"
             },
             "user": {
-                "notes": ""
+                "notes": "Poznámky moderátora"
             }
         },
         "api": {
-            "auto_note": "",
-            "auto_note_actor": "",
-            "no_reason_provided": ""
+            "auto_note": "_Přepnul jsem na tohoto uživatele:_ {reason}",
+            "auto_note_actor": "_Přepnuto na_ @{username}: {reason}",
+            "no_reason_provided": "Bez udání důvodu"
         }
     }
 }

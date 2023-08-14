@@ -2,16 +2,16 @@
     "flarum-pusher": {
         "admin": {
             "pusher_settings": {
-                "app_cluster_label": "",
-                "app_id_label": "",
-                "app_key_label": "",
-                "app_secret_label": "",
-                "title": ""
+                "app_cluster_label": "Клъстер",
+                "app_id_label": "ID на приложението",
+                "app_key_label": "Ключ за приложението",
+                "app_secret_label": "Таен ключ на приложението",
+                "title": "Настройки на Pusher"
             }
         },
         "forum": {
             "discussion_list": {
-                "show_updates_text": ""
+                "show_updates_text": "{count, plural, one {Show # updated дискусия} other {Show # updated дискусии}}"
             }
         }
     }

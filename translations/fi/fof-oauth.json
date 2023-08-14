@@ -5,8 +5,8 @@
             "settings_accessibility_label": "{name} asetukset",
             "settings": {
                 "only_icons_label": "Näytä voin kirjaudu painikkeen ikonit (toissijainen ulkoasu)",
-                "update_email_from_provider_label": "",
-                "update_email_from_provider_help": "",
+                "update_email_from_provider_label": "Päivitä sähköpostiosoite toimittajalta",
+                "update_email_from_provider_help": "Jos käytössä, käyttäjän sähköpostiosoite vastaa OAuth toimittajan toimittamaa sähköpostia aina kirjautumisen yhteydessä. Kaikki toimittajat eivät toimita päivitettyä sähköpostia, jolloin niiden toimittajien kohdalla tällä asetuksella ei ole vaikutusta.",
                 "providers": {
                     "callback_url_text": "Jos tarpeen, aseta takaisinkutsu URL osoitteeksi {url}.",
                     "discord": {

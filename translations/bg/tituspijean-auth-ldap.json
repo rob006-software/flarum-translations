@@ -1,12 +1,12 @@
 {
     "tituspijean-auth-ldap": {
         "forum": {
-            "log_in_with": "",
-            "log_out": ""
+            "log_in_with": "Впиши се с {server}",
+            "log_out": "=> core.ref.log_out"
         },
         "admin": {
             "settings": {
-                "title": "",
+                "title": "LDAP настройки",
                 "method_name": "",
                 "hosts": "",
                 "base_dn": "",

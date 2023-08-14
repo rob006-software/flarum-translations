@@ -48,7 +48,8 @@
                 "drop-file": "ou glisser-déposer ici",
                 "publishSilently": "Publier discrètement",
                 "submit": "Envoyer",
-                "submitInComposer": "Continuer"
+                "submitInComposer": "Continuer",
+                "reload": "Recharger la liste des brouillons"
             },
             "new-album-modal": {
                 "title": "Nouvel album"
@@ -204,6 +205,24 @@
                 "cannotAttachAlreadySubmitted": "Impossible de joindre la photo {id} car elle a déjà été envoyée",
                 "cannotAttachFromExternalAlbum": "Impossible de joindre l'image {id} car elle appartient à un album externe",
                 "cannotAttachUnauthorized": "Impossible de joindre l'image {id} car elle ne vous appartient pas"
+            },
+            "picture-edit": {
+                "unauthorized": {
+                    "title": "Titre non valide, modification non autorisée",
+                    "description": "Description non valide, modification non autorisée",
+                    "license": "Licence non valide, modification non autorisée",
+                    "author": "Auteur non valide, modification non autorisée",
+                    "takenAt": "Date de prise non valide, modification non autorisée",
+                    "isDraftUnSubmit": "État de brouillon non valide, non autorisé à annuler la soumission",
+                    "isDraftSubmit": "État de brouillon non valide, non autorisé à soumettre",
+                    "isApprovedUnApprove": "État d'approbation non valide, non autorisé à annuler l'approbation",
+                    "isApprovedApprove": "État d'approbation non valide, non autorisé à approuver",
+                    "isHiddenRestore": "État de masquage non valide, non autorisé à restaurer",
+                    "isHiddenHide": "État de masquage non valide, non autorisé à masquer",
+                    "isFavorite": "État de favori non valide, modification non autorisée",
+                    "stickers": "Autocollants non valides, modification non autorisée",
+                    "crop": "Recadrage non valide, modification non autorisée"
+                }
             }
         },
         "ref": {

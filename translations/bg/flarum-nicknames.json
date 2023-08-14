@@ -2,41 +2,41 @@
     "flarum-nicknames": {
         "admin": {
             "permissions": {
-                "edit_own_nickname_label": ""
+                "edit_own_nickname_label": "Редактирайте собствен псевдоним"
             },
             "settings": {
-                "max_label": "",
-                "min_label": "",
-                "random_username_label": "",
-                "random_username_help": "",
-                "regex_label": "",
-                "set_on_registration_label": "",
-                "unique_label": ""
+                "max_label": "Максимална дължина на прякора",
+                "min_label": "Минимална дължина на прякора",
+                "random_username_label": "Рандомизиране на потребителски имена",
+                "random_username_help": "Това ще скрие въведеното \"потребителско име\" при регистрация и вместо това ще използва произволно число. Това също ще направи полето \"псевдоним\" задължително. Това ще влезе в сила само ако е активирано \"Разрешаване на задаване на псевдоними при регистрация\".",
+                "regex_label": "Регулярен израз за проверка",
+                "set_on_registration_label": "Разрешете задаване на псевдоними при регистрация",
+                "unique_label": "Изисквайте уникални псевдоними"
             },
-            "wrong_driver": ""
+            "wrong_driver": "Трябва да изберете \"псевдоним\" като драйвер за показвано име на <a><strong>основната страница</strong></a>, за да влезе в сила това разширение."
         },
         "api": {
-            "invalid_nickname_message": ""
+            "invalid_nickname_message": "Този псевдоним е невалиден. Моля, свържете се с вашия администратор на форума за повече информация относно правилата за псевдоними."
         },
         "forum": {
             "change_nickname": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
             },
             "edit_user": {
-                "nicknames_heading": "",
-                "nicknames_text": ""
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "=> flarum-nicknames.ref.nickname"
             },
             "settings": {
-                "change_nickname_button": ""
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
             },
             "sign_up": {
-                "nickname_placeholder": ""
+                "nickname_placeholder": "=> flarum-nicknames.ref.nickname"
             }
         },
         "ref": {
-            "change_nickname": "",
-            "nickname": ""
+            "change_nickname": "Промяна на псевдонима",
+            "nickname": "Псевдоним"
         }
     }
 }

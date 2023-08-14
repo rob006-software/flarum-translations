@@ -1,17 +1,17 @@
 {
     "fof-nightmode": {
         "ref": {
-            "auto": "",
-            "light": "",
-            "dark": ""
+            "auto": "Автоматичен (базиран на опции на браузър или устройство)",
+            "light": "Дневен Режим",
+            "dark": "Нощен Режим"
         },
         "admin": {
             "settings": {
                 "modal": {
-                    "always_show_theme_toggle_on_header": "",
-                    "default_theme": "",
+                    "always_show_theme_toggle_on_header": "Показвай бутона за превключване на тема в заглавната лента на форума",
+                    "default_theme": "Тема на форума по подразбиране",
                     "default_theme_helper": "",
-                    "theme_auto": "",
+                    "theme_auto": "=> fof-nightmode.ref.auto",
                     "theme_light": "",
                     "theme_dark": ""
                 }

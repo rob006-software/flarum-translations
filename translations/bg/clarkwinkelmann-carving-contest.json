@@ -2,61 +2,61 @@
     "clarkwinkelmann-carving-contest": {
         "forum": {
             "nav": {
-                "contest": ""
+                "contest": "Състезание по издълбаване"
             },
             "page": {
-                "title": "",
-                "loading": "",
-                "participate": "",
-                "already-participated": "",
-                "delete-confirmation": "",
-                "like": "",
-                "already-liked": "",
-                "unlike": "",
-                "refresh": "",
-                "load-more": "",
+                "title": "Състезание по резба на тиква",
+                "loading": "Записите се зареждат...",
+                "participate": "Участвайте",
+                "already-participated": "Вече участвах",
+                "delete-confirmation": "Наистина ли искате да изтриете „{name}“ от {username}?",
+                "like": "Харесвам",
+                "already-liked": "Харесва ми",
+                "unlike": "Не ми харесва",
+                "refresh": "Обнови",
+                "load-more": "Зареди още записи",
                 "sort": {
-                    "mostLikes": "",
-                    "fewerLikes": "",
-                    "mostRecent": "",
-                    "leastRecent": ""
+                    "mostLikes": "Най-много харесвания",
+                    "fewerLikes": "По-малко харесвания",
+                    "mostRecent": "Наскоро публикувано",
+                    "leastRecent": "Най-скорошен"
                 },
                 "likes": {
-                    "you_text": "",
-                    "others_link": "",
-                    "liked_by_self_text": "",
-                    "liked_by_text": ""
+                    "you_text": "=> core.ref.you",
+                    "others_link": "=> core.ref.some_others",
+                    "liked_by_self_text": "{users} харесват това.",
+                    "liked_by_text": "{count, plural, one {{users} като този.} other {{users} като тези.}}"
                 }
             },
             "modal": {
-                "title": "",
-                "name": "",
-                "submit": "",
+                "title": "Участвайте",
+                "name": "Назовете вашето творение",
+                "submit": "Изпращане",
                 "tools": {
-                    "circle": "",
-                    "square": ""
+                    "circle": "Кръг",
+                    "square": "Квадрат"
                 }
             },
             "likes_modal": {
-                "title": ""
+                "title": "Потребители, които харесаха този запис"
             }
         },
         "admin": {
             "permissions": {
-                "view": "",
-                "like": "",
-                "participate": "",
-                "moderate": ""
+                "view": "Преглед на записите",
+                "like": "Харесайте записи",
+                "participate": "Участвайте",
+                "moderate": "Модерирайте"
             },
             "settings": {
-                "maxEntriesPerUser": "",
-                "colorMode": ""
+                "maxEntriesPerUser": "Максимален брой подавания от потребител",
+                "colorMode": "Използвайте цветен режим вместо режим на изрязване"
             },
             "colors": {
-                "simple": "",
-                "all": "",
-                "custom": "",
-                "custom-help": ""
+                "simple": "Семпъл цветен комплект",
+                "all": "Всякакъв цвят",
+                "custom": "Персонализиран списък с цветове",
+                "custom-help": "Разделен със запетаи списък с #hex или rgb() стойности"
             }
         }
     }

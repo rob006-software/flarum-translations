@@ -294,7 +294,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/bulgarian">Bulgarian</a></td>
+		<td><a href="https://github.com/flarum-lang/bulgarian">Bulgarian</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/bulgarian/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/bulgarian" alt="last release" style="max-width: 160px;" />

@@ -2,98 +2,98 @@
     "fof-username-request": {
         "admin": {
             "permissions": {
-                "moderate_requests": "",
-                "request_nickname": "",
-                "request_username": ""
+                "moderate_requests": "Одобри заявки за промяна на потребителски имена/псевдоним",
+                "request_nickname": "Заяви промяна на псевдоним",
+                "request_username": "Заяви промяна на потребителско име"
             }
         },
         "forum": {
             "nickname_modals": {
                 "action": {
-                    "title": "",
-                    "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "title": "=> fof-username-request.ref.nickname_change_request",
+                    "help_text": "Моля, уверете се, че исканата промяна на псевдоним следва указанията на форума.",
+                    "decision_title": "Решение",
+                    "approval_label": "Одобрявам",
+                    "rejected_label": "Отхвърлям",
+                    "submit_button": "Изпращам",
+                    "reason_title": "Причина за Отхвърляне",
+                    "success": "Изпратено Решение.",
+                    "name": "{name} поиска да промени прякора си на \"{requestedName}\""
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
-                    "dismiss_button": "",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
-                    "resubmit": ""
+                    "title": "Заявка за промяна на псевдоним",
+                    "approved": "Твоята заявка за промяна на псевдоним беше одобрена",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Твоят псевдоним беше успешно променен на: {name}",
+                    "rejected": "Твоята заявка за промяна на псевдоним беше отхвърлена",
+                    "reason": "Причина за отказ: <i>\"{reason}\"</i>.",
+                    "resubmit": "Понастоящем можете да изпратите отново нова заявка за промяна на псевдоним от настройките на вашия акаунт, ако решите."
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
-                    "submit_button": "",
-                    "delete_button": "",
-                    "confirmation_message": "",
-                    "dismiss_button": "",
-                    "deleted": ""
+                    "title": "Заяви промяна на псевдоним",
+                    "current_request": "Вече сте поискали да промените псевдонима си на „{name}“. Можете или да актуализирате заявката си, или да я изтриете.",
+                    "submit_button": "Изпрати заявка",
+                    "delete_button": "Изтрий запитване",
+                    "confirmation_message": "Твоята заявка за промяна на псевдонима е изпратена и чака одобрение.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Заявката за псевдоним е изтрита."
                 }
             },
             "username_modals": {
                 "action": {
-                    "title": "",
-                    "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "title": "=> fof-username-request.ref.username_change_request",
+                    "help_text": "Моля, уверете се, че исканата промяна на потребителското име следва указанията на форума.",
+                    "decision_title": "Решение",
+                    "approval_label": "Одобрявам",
+                    "rejected_label": "Отхвърлям",
+                    "submit_button": "Изпращам",
+                    "reason_title": "Причина за отхвърляне",
+                    "success": "Изпратено решение.",
+                    "name": "{name} поиска да промени потребителското си име на \"{requestedName}\""
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
-                    "dismiss_button": "",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
-                    "resubmit": ""
+                    "title": "Заявка за промяна на потребителското име",
+                    "approved": "Твоята заявка за промяна на потребителското име е одобрена",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Твоето потребителско име е променено успешно на: {name}",
+                    "rejected": "Твоята заявка за промяна на потребителското име беше отхвърлена",
+                    "reason": "Причина за отказ: <i>\"{reason}\"</i>.",
+                    "resubmit": "Понастоящем можеш да изпратите отново нова заявка за промяна на потребителското име от настройките на твоя акаунт, ако решиш."
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
-                    "submit_button": "",
-                    "delete_button": "",
-                    "confirmation_message": "",
-                    "dismiss_button": "",
-                    "deleted": ""
+                    "title": "Поискай промяна на потребителското име",
+                    "current_request": "Вече поиска промяна на твоето потребителско име на \"{name}\". Можеш или да актуализираш заявката си или да я изтриеш.",
+                    "submit_button": "Изпрати заявка",
+                    "delete_button": "Изтрий Заявка",
+                    "confirmation_message": "Твоята заявка за промяна на потребителското име е изпратена и чака одобрение.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Заявката за потребителско име е изтрита."
                 }
             },
             "pending_requests": {
-                "empty_text": "",
-                "nickname_item_text": "",
-                "nickname_exerpt": "",
-                "tooltip": "",
-                "title": "",
-                "username_item_text": "",
-                "username_exerpt": ""
+                "empty_text": "Няма намерени заявки за промяна на името.",
+                "nickname_item_text": "{name} поиска промяна на псевдонима",
+                "nickname_exerpt": "Заявен псевдоним: {requestedName}",
+                "tooltip": "=> fof-username-request.ref.name_change_requests",
+                "title": "=> fof-username-request.ref.name_change_requests",
+                "username_item_text": "{name} поиска промяна на потребителско име",
+                "username_exerpt": "Заявено потребителско име: {requestedName}"
             },
             "settings": {
-                "nickname_request_button": "",
-                "username_request_button": ""
+                "nickname_request_button": "Промени псевдоним",
+                "username_request_button": "Промени потребителско име"
             },
             "user": {
-                "name_history_link": ""
+                "name_history_link": "История на имената"
             }
         },
         "ref": {
-            "name_change_request": "",
-            "name_change_requests": "",
-            "nickname_change_request": "",
-            "nickname_change_requests": "",
-            "username_change_request": "",
-            "username_change_requests": ""
+            "name_change_request": "Искане за промяна на името",
+            "name_change_requests": "Искания за промяна на името",
+            "nickname_change_request": "Искане за промяна на псевдонима",
+            "nickname_change_requests": "Искания за промяна на псевдонима",
+            "username_change_request": "Искане за промяна на потребителско име",
+            "username_change_requests": "Искания за промяна на потребителско име"
         }
     }
 }
