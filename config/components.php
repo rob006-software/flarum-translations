@@ -340,6 +340,9 @@ return [
 	'dalez-msemoji' => [
 		'tag' => 'https://raw.githubusercontent.com/DellZHackintosh/flarum-msemoji/v1.0.0/locale/en.yml',
 	],
+	'dalez-twemoji' => [
+		'tag' => 'https://raw.githubusercontent.com/DellZHackintosh/flarum-twemoji/v1.0.0/locale/en.yml',
+	],
 	'datitisev-backup' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/datitisev-backup.yml',
 	],
