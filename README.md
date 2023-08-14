@@ -951,6 +951,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`clarkwinkelmann-who-read`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-who-read) | [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) |
 | [`club-1-cross-references`](https://weblate.rob006.net/projects/flarum/club-1-cross-references) | [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references) |
 | [`club-1-server-side-highlight`](https://weblate.rob006.net/projects/flarum/club-1-server-side-highlight) | [`club-1/flarum-ext-server-side-highlight`](https://github.com/club-1/flarum-ext-server-side-highlight) |
+| [`dalez-msemoji`](https://weblate.rob006.net/projects/flarum/dalez-msemoji) | [`dalez/flarum-msemoji`](https://github.com/DellZHackintosh/flarum-msemoji) |
 | [`datitisev-discussion-agree-message`](https://weblate.rob006.net/projects/flarum/datitisev-discussion-agree-message) | [`datitisev/flarum-discussion-agree-message`](https://github.com/datitisev/flarum-discussion-agree-message) |
 | [`datitisev-post-galleries`](https://weblate.rob006.net/projects/flarum/datitisev-post-galleries) | [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries) |
 | [`datlechin-add-like-controls`](https://weblate.rob006.net/projects/flarum/datlechin-add-like-controls) | [`datlechin/flarum-add-like-controls`](https://github.com/datlechin/flarum-add-like-controls) |
