@@ -639,7 +639,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/1.3.0-beta.1/resources/locale/en.yml',
 	],
 	'fof-recaptcha' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/recaptcha/1.2.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/recaptcha/1.3.0/resources/locale/en.yml',
 	],
 	'fof-secure-https' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/secure-https/1.1.2/resources/locale/en.yml',
