@@ -6,9 +6,18 @@
                 "secret_key_label": "シークレットキー",
                 "site_key_label": "サイトキー",
                 "type_label": "reCAPTCHA 種類",
+                "type_help": "",
                 "signup": "",
                 "signin": "",
                 "forgot": ""
+            },
+            "test": {
+                "title": "",
+                "help_text": "",
+                "success_message": "",
+                "load_test_button": "",
+                "submit_button": "",
+                "reload_button": ""
             },
             "permissions": {
                 "post_without_captcha": "Captcha無しで投稿やスレッドを作成"
@@ -19,6 +28,7 @@
         }
     },
     "validation": {
-        "recaptcha": "reCAPTCHA 検証に失敗しました。"
+        "recaptcha": "reCAPTCHA 検証に失敗しました。",
+        "recaptcha-unknown": ""
     }
 }

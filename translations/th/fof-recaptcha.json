@@ -6,9 +6,18 @@
                 "secret_key_label": "Secret Key",
                 "site_key_label": "Site Key",
                 "type_label": "ประเภทของ reCAPTCHA",
+                "type_help": "",
                 "signup": "",
                 "signin": "",
                 "forgot": ""
+            },
+            "test": {
+                "title": "",
+                "help_text": "",
+                "success_message": "",
+                "load_test_button": "",
+                "submit_button": "",
+                "reload_button": ""
             },
             "permissions": {
                 "post_without_captcha": "สร้างโพสต์หรือกระทู้โดยไม่ต้องเช็คโดย Captcha"
@@ -19,6 +28,7 @@
         }
     },
     "validation": {
-        "recaptcha": "การยืนยัน reCAPTCHA ล้มเหลว"
+        "recaptcha": "การยืนยัน reCAPTCHA ล้มเหลว",
+        "recaptcha-unknown": ""
     }
 }

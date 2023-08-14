@@ -6,9 +6,18 @@
                 "secret_key_label": "Tajný klíč (Secret Key)",
                 "site_key_label": "Klíč stránky (Site Key)",
                 "type_label": "Typ reCAPTCHA",
+                "type_help": "",
                 "signup": "=> core.forum.sign_up.title",
                 "signin": "=> core.forum.log_in.title",
                 "forgot": "=> core.forum.forgot_password.title"
+            },
+            "test": {
+                "title": "",
+                "help_text": "",
+                "success_message": "",
+                "load_test_button": "",
+                "submit_button": "",
+                "reload_button": ""
             },
             "permissions": {
                 "post_without_captcha": "Vytváření příspěvků a diskuzí bez captcha"
@@ -19,6 +28,7 @@
         }
     },
     "validation": {
-        "recaptcha": "Ověření reCAPTCHA selhalo."
+        "recaptcha": "Ověření reCAPTCHA selhalo.",
+        "recaptcha-unknown": ""
     }
 }

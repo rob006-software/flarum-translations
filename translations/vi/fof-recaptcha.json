@@ -6,9 +6,18 @@
                 "secret_key_label": "Mã khoá bí mật",
                 "site_key_label": "Mã khoá trang",
                 "type_label": "Loại reCAPTCHA",
+                "type_help": "",
                 "signup": "",
                 "signin": "",
                 "forgot": ""
+            },
+            "test": {
+                "title": "",
+                "help_text": "",
+                "success_message": "",
+                "load_test_button": "",
+                "submit_button": "",
+                "reload_button": ""
             },
             "permissions": {
                 "post_without_captcha": "Tạo bài viết và cuộc thảo luận không có captcha"
@@ -19,6 +28,7 @@
         }
     },
     "validation": {
-        "recaptcha": "Xác thực reCAPTCHA không thành công."
+        "recaptcha": "Xác thực reCAPTCHA không thành công.",
+        "recaptcha-unknown": ""
     }
 }

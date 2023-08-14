@@ -6,10 +6,19 @@
                 "secret_key_label": "Geheimer Schlüssel",
                 "site_key_label": "Seiten-Schlüssel (Site Key)",
                 "type_label": "reCAPTCHA Typ",
+                "type_help": "",
                 "signup": "=> core.forum.sign_up.title",
                 "signin": "=> core.forum.log_in.title",
                 "forgot": "=> core.forum.forgot_password.title",
                 "title": "FriendsOfFlarum reCAPTCHA"
+            },
+            "test": {
+                "title": "",
+                "help_text": "",
+                "success_message": "",
+                "load_test_button": "",
+                "submit_button": "",
+                "reload_button": ""
             },
             "permissions": {
                 "post_without_captcha": "Beiträge und Diskussionen ohne Captcha erstellen"
@@ -20,6 +29,7 @@
         }
     },
     "validation": {
-        "recaptcha": "reCAPTCHA Validierung fehlgeschlagen."
+        "recaptcha": "reCAPTCHA Validierung fehlgeschlagen.",
+        "recaptcha-unknown": ""
     }
 }

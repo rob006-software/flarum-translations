@@ -6,9 +6,18 @@
                 "secret_key_label": "Secret Key",
                 "site_key_label": "Site Key",
                 "type_label": "reCAPTCHA Type",
+                "type_help": "This extension only supports reCAPTCHA v2. The selected type must match the type of your reCAPTCHA credentials.",
                 "signup": "=> core.forum.sign_up.title",
                 "signin": "=> core.forum.log_in.title",
                 "forgot": "=> core.forum.forgot_password.title"
+            },
+            "test": {
+                "title": "Test reCAPTCHA",
+                "help_text": "This test will use the current values entered above. Make sure to reload the test after modifying settings, and don't forget to save once the test passes!\nBelow may not reflect the saved settings.\n",
+                "success_message": "Success! reCAPTCHA is configured correctly.",
+                "load_test_button": "Load",
+                "submit_button": "Submit",
+                "reload_button": "Reload"
             },
             "permissions": {
                 "post_without_captcha": "Create posts and discussions without captcha"
@@ -19,6 +28,7 @@
         }
     },
     "validation": {
-        "recaptcha": "reCAPTCHA validation failed."
+        "recaptcha": "reCAPTCHA validation failed.",
+        "recaptcha-unknown": "An unknown error occurred while validating reCAPTCHA ({errors})."
     }
 }

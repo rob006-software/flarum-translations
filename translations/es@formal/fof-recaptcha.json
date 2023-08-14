@@ -6,9 +6,18 @@
                 "secret_key_label": "Clave Secreta",
                 "site_key_label": "Clave de Sitio",
                 "type_label": "Tipo de reCAPTCHA",
+                "type_help": "",
                 "signup": "",
                 "signin": "",
                 "forgot": ""
+            },
+            "test": {
+                "title": "",
+                "help_text": "",
+                "success_message": "",
+                "load_test_button": "",
+                "submit_button": "",
+                "reload_button": ""
             },
             "permissions": {
                 "post_without_captcha": "Crear posts y discusiones sin captcha"
@@ -19,6 +28,7 @@
         }
     },
     "validation": {
-        "recaptcha": "La validación de reCAPTCHA falló."
+        "recaptcha": "La validación de reCAPTCHA falló.",
+        "recaptcha-unknown": ""
     }
 }

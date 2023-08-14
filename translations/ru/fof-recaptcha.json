@@ -6,9 +6,18 @@
                 "secret_key_label": "Секретный ключ",
                 "site_key_label": "Ключ сайта",
                 "type_label": "Тип reCAPTCHA",
+                "type_help": "",
                 "signup": "",
                 "signin": "",
                 "forgot": ""
+            },
+            "test": {
+                "title": "",
+                "help_text": "",
+                "success_message": "",
+                "load_test_button": "",
+                "submit_button": "",
+                "reload_button": ""
             },
             "permissions": {
                 "post_without_captcha": "Публиковать сообщения и дискуссии без reCAPTCHA"
@@ -19,6 +28,7 @@
         }
     },
     "validation": {
-        "recaptcha": "Проверка reCAPTCHA не пройдена."
+        "recaptcha": "Проверка reCAPTCHA не пройдена.",
+        "recaptcha-unknown": ""
     }
 }

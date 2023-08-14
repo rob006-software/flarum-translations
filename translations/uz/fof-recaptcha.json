@@ -6,9 +6,18 @@
                 "secret_key_label": "Yashirin kalit",
                 "site_key_label": "Sayt kaliti",
                 "type_label": "reCAPTCHA turi",
+                "type_help": "",
                 "signup": "",
                 "signin": "",
                 "forgot": ""
+            },
+            "test": {
+                "title": "",
+                "help_text": "",
+                "success_message": "",
+                "load_test_button": "",
+                "submit_button": "",
+                "reload_button": ""
             },
             "permissions": {
                 "post_without_captcha": "Captchasiz postlar va muhokamalar yarating"
@@ -19,6 +28,7 @@
         }
     },
     "validation": {
-        "recaptcha": "reCAPTCHA tekshiruvi amalga oshmadi."
+        "recaptcha": "reCAPTCHA tekshiruvi amalga oshmadi.",
+        "recaptcha-unknown": ""
     }
 }
