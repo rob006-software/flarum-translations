@@ -2,20 +2,20 @@
     "flarum-twemoji": {
         "forum": {
             "composer": {
-                "emoji_tooltip": "",
-                "type_to_search_text": ""
+                "emoji_tooltip": "插入表情符號",
+                "type_to_search_text": "輸入以搜索表情符號"
             }
         },
         "admin": {
             "settings": {
-                "base": "",
-                "folder": "",
-                "ext": "",
-                "basehelp": "",
-                "baseph": "",
-                "folderph": "",
-                "extph": "",
-                "disable_autocomplete": ""
+                "base": "根據",
+                "folder": "文件夾",
+                "ext": "擴大",
+                "basehelp": "提示：鍵入 $ 將替換為自動版本號。 區分大小寫。",
+                "baseph": "示例: https://www.example.com/",
+                "folderph": "示例：svg",
+                "extph": "示例：.gif",
+                "disable_autocomplete": "禁用自動完成"
             }
         }
     }
