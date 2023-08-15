@@ -6,18 +6,18 @@
                 "secret_key_label": "Salainen avain (secret key)",
                 "site_key_label": "Sivuston avain (site key)",
                 "type_label": "reCAPTCHAn tyyppi",
-                "type_help": "",
+                "type_help": "Tämä lisäosa tukee vain reCAPTCHA v2. Valitun tyypin tulee vastata sinun reCAPTCHA tunnuksiasi.",
                 "signup": "=> core.forum.sign_up.title",
                 "signin": "=> core.forum.log_in.title",
                 "forgot": "=> core.forum.forgot_password.title"
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "success_message": "",
-                "load_test_button": "",
-                "submit_button": "",
-                "reload_button": ""
+                "title": "Testaa reCAPTCHAa",
+                "help_text": "Tämä testi käyttää syötettyjä arvoja. Lataathan testin uudelleen, jos muokkaat asetuksia ja älä unohda tallentaa asetuksia, kunnes testi onnistuu.\nAlla olevat eivät välttämättä vaikuta tallennettuihin asetuksiin.\n",
+                "success_message": "Onnistui! reCAPTCHA on oikein määritetty.",
+                "load_test_button": "Lataa",
+                "submit_button": "Lähetä",
+                "reload_button": "Lataa uudelleen"
             },
             "permissions": {
                 "post_without_captcha": "Luo viestejä ja keskusteluita ilman captchaa"
@@ -29,6 +29,6 @@
     },
     "validation": {
         "recaptcha": "reCAPTCHA tarkastus epäonnistui.",
-        "recaptcha-unknown": ""
+        "recaptcha-unknown": "Tuntematon virhe tapahtui reCAPTCHA validoidessa ({errors})."
     }
 }
