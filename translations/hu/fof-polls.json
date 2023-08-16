@@ -4,8 +4,8 @@
             "settings": {
                 "allow_option_image": "Képre hivatkozó webcím engedélyezése minden egyes szavazási lehetőségnél",
                 "max_options": "A lehetőségek legnagyobb száma szavazásonként",
-                "options_color_blend": "",
-                "options_color_blend_help": ""
+                "options_color_blend": "Színkeverés használata a szavazási lehetőségek szövegénél",
+                "options_color_blend_help": "Használja ezt, hogy a színkeveréssel olvashatóbbá tegye a szavazási lehetőségeket. Tiltsa le ezt a funkciót, ha problémákat okoz a fórum megjelenésében, csökkentve az olvashatóságot."
             },
             "permissions": {
                 "view_results_without_voting": "Eredmény megtekintése szavazás nélkül",
@@ -24,8 +24,8 @@
             "public_poll": "Szavazók megtekintése",
             "max_votes_allowed": "A szavazásban legfeljebb {max} lehetőség választható.",
             "poll": {
-                "cannot_change_vote": "",
-                "submit_button": ""
+                "cannot_change_vote": "A szavazat leadása után nem módosíthatja a szavazatát.",
+                "submit_button": "Szavazás"
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
@@ -49,7 +49,7 @@
                 "max_votes_label": "Szavazatok maximális száma felhasználónként",
                 "max_votes_help": "Állítsa 0-ra, hogy az összes lehetőségre szavazhassanak.",
                 "hide_votes_label": "Szavazatok elrejtése a szavazás végéig",
-                "allow_change_vote_label": "",
+                "allow_change_vote_label": "Engedélyezés, hogy a felhasználók módosítsák a szavazatukat",
                 "question_placeholder": "Kérdés",
                 "submit": "Beküldés"
             },
