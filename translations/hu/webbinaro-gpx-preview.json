@@ -2,11 +2,11 @@
     "gpx-preview": {
         "admin": {
             "templates": {
-                "gpx": "",
-                "gpx.file_description": ""
+                "gpx": "GPX-útvonalelőnézet",
+                "gpx.file_description": "Beágyaz egy Google térképet, és fölé helyezi a feltöltött GPX-fájlt."
             },
             "settings": {
-                "gkey": ""
+                "gkey": "Google API-kulcs, amely eléri a Maps API-t"
             }
         }
     }
