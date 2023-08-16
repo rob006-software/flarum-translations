@@ -4,31 +4,31 @@
             "settings": {
                 "providers": {
                     "apple": {
-                        "description": "",
-                        "client_id_label": "",
-                        "key_file_id_label": "",
-                        "keyfile_upload_label": "",
-                        "keyfile_upload_help": "",
+                        "description": "Regisztráció a fórumra Apple-fiókkal {link}",
+                        "client_id_label": "Szolgáltatásazonosító",
+                        "key_file_id_label": "Kulcsfájl-azonosító",
+                        "keyfile_upload_label": "Kulcsfájl",
+                        "keyfile_upload_help": "Hozzon létre egy <a>kulcsfájlt</a>, és töltse fel ide",
                         "keyfile_upload": {
-                            "upload_button": "",
-                            "remove_button": ""
+                            "upload_button": "Kulcsfájl feltöltése",
+                            "remove_button": "Kulcsfájl eltávolítása"
                         },
-                        "team_id_label": ""
+                        "team_id_label": "Csapatazonosító"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_apple_button": ""
+                "with_apple_button": "Bejelentkezés a következővel: {provider}"
             },
             "providers": {
-                "apple": ""
+                "apple": "=> fof-oauth.lib.providers.apple"
             }
         },
         "lib": {
             "providers": {
-                "apple": ""
+                "apple": "Apple"
             }
         }
     }
