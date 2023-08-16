@@ -1205,6 +1205,9 @@ return [
 	'zerosonesfun-expired-posts' => [
 		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/expired-posts/0.4/resources/locale/en.yml',
 	],
+	'ziiven-custom-index-page' => [
+		'tag' => 'https://raw.githubusercontent.com/Ziiven/ziven-client2-custom_index-page/v1.0.4/locale/en.yml',
+	],
 	'ziiven-daily-check-in' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-daily-check-in/v0.3.7/locale/en.yml',
 	],
