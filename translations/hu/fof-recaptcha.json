@@ -5,19 +5,19 @@
                 "help_text": "Szerezze meg a Google reCAPTCHA hitelesítő adatait <a>itt</a>.",
                 "secret_key_label": "Titkos kulcs",
                 "site_key_label": "Oldal kulcsa",
-                "type_label": "reCAPTCHA típus",
-                "type_help": "",
+                "type_label": "A reCAPTCHA típusa",
+                "type_help": "Ez a kiterjesztés csak a reCAPTCHA v2-t támogatja. A kiválasztott típusnak meg kell felelnie a reCAPTCHA hitelesítő adatainak.",
                 "signup": "=> core.forum.sign_up.title",
                 "signin": "=> core.forum.log_in.title",
                 "forgot": "=> core.forum.forgot_password.title"
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "success_message": "",
-                "load_test_button": "",
-                "submit_button": "",
-                "reload_button": ""
+                "title": "A reCAPTCHA tesztelése",
+                "help_text": "Ez a teszt a fent megadott értékeket fogja használni. Győződjön meg róla, hogy újratöltötte az oldalt a beállítások módosítása után, és ne felejtse el menteni, ha átmegy a teszten.\nA lentiek nem biztos, hogy a mentett beállításokat tükrözik.\n",
+                "success_message": "Sikeres! A reCAPTCHA helyesen van beállítva.",
+                "load_test_button": "Betöltés",
+                "submit_button": "Elküldés",
+                "reload_button": "Újratöltés"
             },
             "permissions": {
                 "post_without_captcha": "Téma és hozzászólás létrehozása captcha nélkül"
@@ -29,6 +29,6 @@
     },
     "validation": {
         "recaptcha": "reCAPTCHA ellenőrzési hiba.",
-        "recaptcha-unknown": ""
+        "recaptcha-unknown": "Ismeretlen hiba történt a reCAPTCHA ellenőrzése során ({errors})."
     }
 }
