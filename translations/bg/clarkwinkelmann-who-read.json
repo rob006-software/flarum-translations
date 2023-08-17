@@ -11,7 +11,7 @@
                 "info": "И {count} повече"
             },
             "footer": {
-                "read-this-post": "",
+                "read-this-post": "{count, plural, =0 {Nobody read this post} one {One user read this post} other {# users read this post}}",
                 "read-no-further": "{count, plural, =0 {Everybody read further} one {One user did not read further} other {# did not read further}}",
                 "read-to-end": ""
             },
