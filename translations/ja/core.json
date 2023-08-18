@@ -45,14 +45,14 @@
                 "welcome_banner_text": "スレッド一覧ページの上部に表示されるテキストを設定します。これを使用してゲストを歓迎しましょう。"
             },
             "create_user": {
-                "email_placeholder": "",
-                "email_confirmed_label": "",
-                "password_placeholder": "",
-                "submit_and_create_another_button": "",
-                "submit_button": "",
-                "title": "",
-                "use_random_password": "",
-                "username_placeholder": ""
+                "email_placeholder": "=> core.ref.email",
+                "email_confirmed_label": "ユーザーにこのメールアドレスの検証を要求する",
+                "password_placeholder": "=> core.ref.password",
+                "submit_and_create_another_button": "作成して続けて追加",
+                "submit_button": "ユーザーを作成",
+                "title": "新しいユーザーを作成",
+                "use_random_password": "ランダムなパスワードを生成",
+                "username_placeholder": "=> core.ref.username"
             },
             "dashboard": {
                 "clear_cache_button": "キャッシュのクリア",
@@ -187,7 +187,7 @@
                 "search_placeholder": "拡張機能を検索"
             },
             "permissions": {
-                "allow_hide_own_posts_label": "",
+                "allow_hide_own_posts_label": "自身の投稿の削除を許可する",
                 "allow_post_editing_label": "投稿の編集",
                 "allow_renaming_label": "タイトルの変更",
                 "create_access_token_label": "アクセストークンの生成",
@@ -221,7 +221,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "無制限",
-                "allow_never_button": "",
+                "allow_never_button": "=> core.ref.never",
                 "allow_some_minutes_button": "{count, plural, one {# 分} other {# 分}}",
                 "allow_ten_minutes_button": "10分間",
                 "allow_until_reply_button": "次の返信まで",
@@ -239,7 +239,7 @@
                 "upload_button": "画像を選択..."
             },
             "users": {
-                "create_user_button": "",
+                "create_user_button": "新しいユーザー",
                 "description": "あなたのフォーラムに登録しているユーザーの一覧です。",
                 "grid": {
                     "columns": {
@@ -460,7 +460,7 @@
                 },
                 "hide_access_token": "トークンを隠す",
                 "last_activity": "最後のアクセス",
-                "never": "なし",
+                "never": "=> core.ref.never",
                 "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
                     "submit_button": "トークンを生成",
@@ -565,7 +565,7 @@
                 "nothing_available": "このユーザーを編集する権限がありません。"
             },
             "error": {
-                "circular_dependencies_message": "",
+                "circular_dependencies_message": "依存関係のループが検出されました: {extensions}. 中止しました。いずれかの拡張機能を無効化して再度お試しください。",
                 "dependent_extensions_message": "以下の依存関係にある拡張機能を無効化するまで、{extension}を無効化できません。: {extensions}",
                 "extension_initialiation_failed_message": "{extension} の初期化に失敗しました。詳細はブラウザのコンソールをご確認ください。",
                 "generic_message": "エラーが発生しました。ページを更新して再度お試しください。",
@@ -663,9 +663,9 @@
         "api": {
             "invalid_username_message": "ユーザー名には英数字とハイフンのみ利用可能です。",
             "invalid_filter_type": {
-                "must_be_numeric_message": "",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_be_numeric_message": "{filter} フィルターは数字である必要があります。",
+                "must_not_be_array_message": "{filter} フィルターを配列にすることは出来ません。",
+                "must_not_be_multidimensional_array_message": "{filter} フィルターを多次元配列にすることは出来ません。"
             }
         },
         "email": {
@@ -713,7 +713,7 @@
             "log_in": "ログイン",
             "log_out": "ログアウト",
             "mark_all_as_read": "すべて既読にする",
-            "never": "",
+            "never": "無効",
             "new_token": "新しいトークン",
             "next_page": "次のページ",
             "notifications": "通知",
