@@ -666,6 +666,15 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
+		<td><a href="https://github.com/flarum-lang/toki-pona">Toki Pona</a></td>
+		<td><a href="https://github.com/mazziechai">mazziechai</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/tok.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/tok/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td><a href="https://github.com/flarum-lang/turkish">Turkish</a></td>
 		<td><a href="https://github.com/tolgaaaltas">tolgaaaltas</a>, <a href="https://github.com/selmanozturk">selmanozturk</a></td>
 		<td align="right">
