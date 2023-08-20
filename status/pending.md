@@ -90,8 +90,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `kater-community-board` | [![#1094 (closed)](https://img.shields.io/badge/PR-%231094-red)](https://github.com/rob006-software/flarum-translations/pull/1094) |
-| `ziiven-custom-index-page` | [![#1102 (open)](https://img.shields.io/badge/PR-%231102-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1102) |
-| `ziiven-foldable-banner` | [![#1103 (open)](https://img.shields.io/badge/PR-%231103-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1103) |
+There are no dead branches.
