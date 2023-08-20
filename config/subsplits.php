@@ -904,6 +904,18 @@ return [
 		],
 		'maintainers' => [],
 	],
+	'tok' => [
+		'type' => 'language',
+		'language' => 'tok',
+		'repository' => 'git@github.com:flarum-lang/toki-pona.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => ['mazziechai'],
+	],
 	'tr' => [
 		'type' => 'language',
 		'language' => 'tr',
