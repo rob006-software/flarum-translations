@@ -1,0 +1,118 @@
+{
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": ""
+            }
+        }
+    },
+    "blomstra-payments": {
+        "forum": {
+            "accept-terms-modal": {
+                "accept_label": "",
+                "continue_button": "",
+                "title": ""
+            },
+            "stripe": {
+                "interval_once": ""
+            },
+            "subscription-card": {
+                "bounty": "",
+                "ptv": "",
+                "pta": "",
+                "ptb": "",
+                "ptp": "",
+                "cancel-control": "",
+                "none": ""
+            },
+            "post_stream": {
+                "bounty_added_text": ""
+            },
+            "pay-to-view": {
+                "purchase-control": "",
+                "purchase-log-in": "",
+                "purchase-completed": "",
+                "description": ""
+            },
+            "pay-to-post": {
+                "purchase-control": "",
+                "purchase": "",
+                "purchase_required": ""
+            },
+            "pay-to-bump": {
+                "description": "",
+                "purchase-control": "",
+                "purchase-log-in": ""
+            },
+            "bounties": {
+                "purchase-control": "",
+                "enable-control": ""
+            },
+            "choose-bounty-amount-modal": {
+                "title": "",
+                "checkout-control": "",
+                "description": ""
+            },
+            "backers-widget": {
+                "backers": "",
+                "label": "",
+                "none": "",
+                "pledged": ""
+            },
+            "tag": {
+                "require-payment-label": ""
+            },
+            "payment-options-modal": {
+                "title": "",
+                "description": ""
+            },
+            "access-portal": {
+                "options": "",
+                "purchase": "",
+                "subscribed": ""
+            },
+            "nav": {
+                "access_portal": "",
+                "user_subscriptions": ""
+            },
+            "exceptions": {
+                "out-of-bounds-amount": {
+                    "min": "",
+                    "max": ""
+                }
+            }
+        },
+        "admin": {
+            "edit-tag": {
+                "select-ptp-product": "",
+                "select-ptp-product-description": "",
+                "select-ptv-product": "",
+                "select-ptv-product-description": "",
+                "visible-from": "",
+                "visible-from-description": "",
+                "select-ptb-product": "",
+                "select-ptb-product-description": "",
+                "bump-others": "",
+                "bump-others-description": "",
+                "select-bounty-product": "",
+                "select-bounty-product-description": ""
+            },
+            "edit-group": {
+                "select-pta-product": "",
+                "select-pta-product-description": ""
+            },
+            "settings": {
+                "assign-bounty-tag-id": "",
+                "pk": "",
+                "sk": "",
+                "webhook-secret": "",
+                "link-access-portal": "",
+                "link-to-terms": "",
+                "recount-total-discussion-bounties": ""
+            },
+            "permission": {
+                "enable-bounties": ""
+            }
+        }
+    }
+}

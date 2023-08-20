@@ -1,0 +1,28 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "amazon": {
+                        "description": "",
+                        "client_id_label": "",
+                        "client_secret_label": ""
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_amazon_button": ""
+            },
+            "providers": {
+                "amazon": ""
+            }
+        },
+        "lib": {
+            "providers": {
+                "amazon": ""
+            }
+        }
+    }
+}

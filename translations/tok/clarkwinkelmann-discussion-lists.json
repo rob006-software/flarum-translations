@@ -1,0 +1,69 @@
+{
+    "clarkwinkelmann-discussion-lists": {
+        "admin": {
+            "settings": {
+                "collapseSeries": ""
+            },
+            "permissions": {
+                "viewPublic": "",
+                "createPrivate": "",
+                "createPublic": "",
+                "createSeriesFromOwn": "",
+                "createSeriesFromAny": "",
+                "moderate": "",
+                "viewPrivate": ""
+            }
+        },
+        "forum": {
+            "edit": {
+                "title": "",
+                "name": "",
+                "visibility": "",
+                "visibilityOptions": {
+                    "private": "",
+                    "public": "",
+                    "series": ""
+                },
+                "ordering": "",
+                "orderingOptions": {
+                    "manual": "",
+                    "createdAsc": "",
+                    "createdDesc": "",
+                    "addedAsc": "",
+                    "addedDesc": ""
+                },
+                "save": "",
+                "delete": "",
+                "deleteConfirmation": ""
+            },
+            "discussion": {
+                "add": "",
+                "new": ""
+            },
+            "profile": {
+                "link": ""
+            },
+            "badge": {
+                "private": "",
+                "series": ""
+            },
+            "series": {
+                "kind": "",
+                "expand": "",
+                "visit": ""
+            }
+        },
+        "api": {
+            "manualLimit": "",
+            "seriesAnyAddNotAllowed": "",
+            "seriesAnyConversionNotAllowed": ""
+        }
+    },
+    "core": {
+        "forum": {
+            "index_sort": {
+                "discussionListDefault_button": ""
+            }
+        }
+    }
+}

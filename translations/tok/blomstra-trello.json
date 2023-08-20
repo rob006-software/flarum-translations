@@ -1,0 +1,84 @@
+{
+    "blomstra-trello": {
+        "admin": {
+            "modals": {
+                "fields": {
+                    "board": "",
+                    "trello_label": "",
+                    "forum_tags": ""
+                },
+                "no_available_labels_label": "",
+                "no_available_tags_label": ""
+            },
+            "permissions": {
+                "add_to_trello": ""
+            },
+            "settings": {
+                "api_key_help": "",
+                "api_key_label": "",
+                "api_token_help": "",
+                "api_token_label": "",
+                "available_boards_label": "",
+                "button": {
+                    "add": "",
+                    "remove": ""
+                },
+                "default_board_help": "",
+                "default_board_label": "",
+                "guest_workspace": "",
+                "in_trello": "",
+                "include_secondary_tags_help": "",
+                "include_secondary_tags_label": "",
+                "label": {
+                    "general": "",
+                    "boards": "",
+                    "labels": ""
+                },
+                "mapping": {
+                    "add_new": "",
+                    "mapping_description": "",
+                    "modal_title": "",
+                    "no_mappings_for_board": ""
+                },
+                "mappings_label": "",
+                "member_id_help": "",
+                "member_id_label": "",
+                "no_available_boards_label": "",
+                "no_label_name": "",
+                "no_selected_boards_label": "",
+                "selected_boards_label": "",
+                "save": "",
+                "tag": "",
+                "unmapped_warning_label": "",
+                "unmapped_warning_help": ""
+            }
+        },
+        "forum": {
+            "badges": {
+                "trello": {
+                    "tooltip": ""
+                }
+            },
+            "controls": {
+                "send_to_trello_button": "",
+                "view_on_trello_button": ""
+            },
+            "modals": {
+                "fields": {
+                    "board": "",
+                    "lane": "",
+                    "member": "",
+                    "member_selected": ""
+                },
+                "no_available_board_lanes": "",
+                "no_available_board_members": "",
+                "no_available_boards_label": "",
+                "no_mappings_for_board": "",
+                "title": ""
+            }
+        },
+        "lib": {
+            "original_post": ""
+        }
+    }
+}

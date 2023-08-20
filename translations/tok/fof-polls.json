@@ -1,0 +1,71 @@
+{
+    "fof-polls": {
+        "admin": {
+            "settings": {
+                "allow_option_image": "",
+                "max_options": "",
+                "options_color_blend": "",
+                "options_color_blend_help": ""
+            },
+            "permissions": {
+                "view_results_without_voting": "",
+                "start": "",
+                "self_edit": "",
+                "self_post_edit": "",
+                "vote": "",
+                "change_vote": "",
+                "moderate": ""
+            }
+        },
+        "forum": {
+            "days_remaining": "",
+            "no_permission": "",
+            "poll_ended": "",
+            "public_poll": "",
+            "max_votes_allowed": "",
+            "poll": {
+                "cannot_change_vote": "",
+                "submit_button": ""
+            },
+            "composer_discussion": {
+                "add_poll": "",
+                "edit_poll": "",
+                "no_permission_alert": ""
+            },
+            "modal": {
+                "add_title": "",
+                "add_option_label": "",
+                "date_placeholder": "",
+                "edit_title": "",
+                "include_question": "",
+                "max": "",
+                "min": "",
+                "no_voters": "",
+                "option_placeholder": "",
+                "image_option_placeholder": "",
+                "options_label": "",
+                "public_poll_label": "",
+                "allow_multiple_votes_label": "",
+                "max_votes_label": "",
+                "max_votes_help": "",
+                "hide_votes_label": "",
+                "allow_change_vote_label": "",
+                "question_placeholder": "",
+                "submit": ""
+            },
+            "moderation": {
+                "add": "",
+                "delete": "",
+                "delete_confirm": "",
+                "edit": ""
+            },
+            "tooltip": {
+                "badge": "",
+                "votes": ""
+            },
+            "votes_modal": {
+                "title": ""
+            }
+        }
+    }
+}
