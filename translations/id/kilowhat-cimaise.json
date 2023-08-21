@@ -33,8 +33,8 @@
                 "download": "Download",
                 "previous": "Gambar sebelumnya",
                 "next": "Gambar selanjutnya",
-                "download-cropped": "",
-                "download-original": "",
+                "download-cropped": "Dipangkas {size}",
+                "download-original": "Download aslinya",
                 "show-exif": "Semua data EXIF",
                 "taken-at": "Diambil {ago}",
                 "published-at": "Diterbitkan {ago}"
@@ -49,7 +49,7 @@
                 "publishSilently": "Terbitkan secara diam-diam",
                 "submit": "Submit",
                 "submitInComposer": "Lanjutkan",
-                "reload": ""
+                "reload": "Muat ulang daftar konsep"
             },
             "new-album-modal": {
                 "title": "Album Baru"
@@ -93,7 +93,7 @@
             },
             "picture-controls": {
                 "controls": "=> kilowhat-cimaise.ref.controls",
-                "editor": "",
+                "editor": "Edit pangkas & mask",
                 "approve": "Setuju",
                 "remove-favorite": "Hapus Favorit",
                 "set-favorite": "Tambahkan sebagai Favorit",
@@ -108,7 +108,7 @@
                 "author": "Klik untuk menambahkan pembuat"
             },
             "badge": {
-                "hidden": "",
+                "hidden": "Tersembunyi",
                 "awaiting-approval": "Menunggu Persetujuan",
                 "favorite": "Favorit"
             },
@@ -208,20 +208,20 @@
             },
             "picture-edit": {
                 "unauthorized": {
-                    "title": "",
-                    "description": "",
-                    "license": "",
-                    "author": "",
-                    "takenAt": "",
-                    "isDraftUnSubmit": "",
-                    "isDraftSubmit": "",
-                    "isApprovedUnApprove": "",
-                    "isApprovedApprove": "",
-                    "isHiddenRestore": "",
-                    "isHiddenHide": "",
-                    "isFavorite": "",
+                    "title": "Judul tidak valid, edit tidak diizinkan",
+                    "description": "Deskripsi tidak valid, edit tidak diizinkan",
+                    "license": "Lisensi tidak valid, edit tidak diizinkan",
+                    "author": "Penulis tidak valid, edit tidak diizinkan",
+                    "takenAt": "Tanggal pengambilan tidak valid, edit tidak diizinkan",
+                    "isDraftUnSubmit": "Status konsep tidak valid, tidak diizinkan untuk membatalkan pengajuan",
+                    "isDraftSubmit": "Status konsep tidak valid, tidak diizinkan untuk diserahkan",
+                    "isApprovedUnApprove": "Status persetujuan tidak valid, tidak diizinkan untuk membatalkan persetujuan",
+                    "isApprovedApprove": "Status persetujuan tidak valid, tidak diizinkan untuk menyetujui",
+                    "isHiddenRestore": "Status sembunyikan tidak valid, tidak diizinkan untuk memulihkan",
+                    "isHiddenHide": "Status sembunyikan tidak valid, tidak diizinkan untuk menyembunyikan",
+                    "isFavorite": "Status favorit tidak valid, edit tidak diizinkan",
                     "stickers": "",
-                    "crop": ""
+                    "crop": "Pangkas tidak valid, edit tidak diizinkan"
                 }
             }
         },
