@@ -6,18 +6,18 @@
                 "secret_key_label": "Secret Key",
                 "site_key_label": "Site Key",
                 "type_label": "Tipe reCAPTCHA",
-                "type_help": "",
+                "type_help": "Ekstensi ini hanya mendukung reCAPTCHA v2. Tipe yang dipilih harus sesuai dengan tipe kredensial reCAPTCHA Anda.",
                 "signup": "=> core.forum.sign_up.title",
                 "signin": "=> core.forum.log_in.title",
                 "forgot": "=> core.forum.forgot_password.title"
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "success_message": "",
-                "load_test_button": "",
-                "submit_button": "",
-                "reload_button": ""
+                "title": "Uji reCAPTCHA",
+                "help_text": "Pengujian ini akan menggunakan nilai saat ini yang dimasukkan di atas. Pastikan untuk memuat ulang pengujian setelah memodifikasi pengaturan, dan jangan lupa untuk menyimpan setelah pengujian selesai!\nDi bawah ini mungkin tidak mencerminkan pengaturan yang disimpan.\n",
+                "success_message": "Berhasil! reCAPTCHA telah dikonfigurasi dengan benar.",
+                "load_test_button": "Memuat",
+                "submit_button": "Submit",
+                "reload_button": "Muat ulang"
             },
             "permissions": {
                 "post_without_captcha": "Membuat post dan diskusi tanpa captcha"
@@ -29,6 +29,6 @@
     },
     "validation": {
         "recaptcha": "Validasi reCAPTCHA gagal.",
-        "recaptcha-unknown": ""
+        "recaptcha-unknown": "Terjadi kesalahan yang tidak diketahui saat memvalidasi reCAPTCHA ({errors})."
     }
 }
