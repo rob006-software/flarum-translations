@@ -2,20 +2,20 @@
     "flarum-twemoji": {
         "forum": {
             "composer": {
-                "emoji_tooltip": "",
-                "type_to_search_text": ""
+                "emoji_tooltip": "Sisipkan emoji",
+                "type_to_search_text": "Ketik untuk mencari emoji"
             }
         },
         "admin": {
             "settings": {
-                "base": "",
-                "folder": "",
-                "ext": "",
-                "basehelp": "",
-                "baseph": "",
-                "folderph": "",
-                "extph": "",
-                "disable_autocomplete": ""
+                "base": "Basis",
+                "folder": "Folder",
+                "ext": "Ekstensi",
+                "basehelp": "Tips: Tanda $ akan diganti dengan nomor versi otomatis. Sensitif terhadap huruf besar/kecil.",
+                "baseph": "Contoh: https://www.example.com/",
+                "folderph": "Contoh: svg",
+                "extph": "Contoh: .gif",
+                "disable_autocomplete": "Nonaktifkan Auto Complete"
             }
         }
     }
