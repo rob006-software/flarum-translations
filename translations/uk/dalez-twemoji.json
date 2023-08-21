@@ -2,20 +2,20 @@
     "flarum-twemoji": {
         "forum": {
             "composer": {
-                "emoji_tooltip": "",
-                "type_to_search_text": ""
+                "emoji_tooltip": "Вставити емодзі",
+                "type_to_search_text": "Введіть, щоб знайти емодзі"
             }
         },
         "admin": {
             "settings": {
-                "base": "",
-                "folder": "",
-                "ext": "",
-                "basehelp": "",
-                "baseph": "",
-                "folderph": "",
-                "extph": "",
-                "disable_autocomplete": ""
+                "base": "База",
+                "folder": "Тека",
+                "ext": "Розширення",
+                "basehelp": "Підказки: Введіть $, щоб автоматично замінити номер версії. З урахуванням регістру.",
+                "baseph": "Приклад: https://www.example.com/",
+                "folderph": "Наприклад: svg",
+                "extph": "Наприклад: .gif",
+                "disable_autocomplete": "Вимкнути автозавершення"
             }
         }
     }
