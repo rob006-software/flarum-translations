@@ -9,86 +9,86 @@
                 "colors_text": "",
                 "custom_footer_heading": "",
                 "custom_footer_text": "",
-                "custom_header_heading": "",
-                "custom_header_text": "",
-                "custom_styles_cannot_use_less_features": "",
-                "custom_styles_heading": "",
-                "custom_styles_text": "",
-                "dark_mode_label": "",
-                "description": "",
-                "edit_css_button": "",
-                "edit_footer_button": "",
-                "edit_header_button": "",
-                "enter_hex_message": "",
-                "favicon_heading": "",
-                "favicon_text": "",
-                "logo_heading": "",
-                "logo_text": "",
-                "title": ""
+                "custom_header_heading": "sewi pi lipu ni taso",
+                "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "nasin @import en nasin data-uri li ken ala lon LESS sin pi wile sina.",
+                "custom_styles_heading": "lukin la nasin pi wile sina",
+                "custom_styles_text": "o ante lukin e lipu sina kepeken nasin ni. sina pana e nasin Less/CSS la ona li ante e nasin lon pi ilo Flarum.",
+                "dark_mode_label": "pimeja lukin",
+                "description": "o ante e kule pi lipu sina, e sitelen lili pi lipu sina, e ijo ante lon lipu sina.",
+                "edit_css_button": "o ante e CSS pi wile sina",
+                "edit_footer_button": "=> core.ref.custom_footer_title",
+                "edit_header_button": "=> core.ref.custom_header_title",
+                "enter_hex_message": "o pana e nanpa kule kepeken nasin kule Hexadecimal.",
+                "favicon_heading": "sitelen lili lon ilo pi jan lukin (sitelen Favicon)",
+                "favicon_text": "o pana e sitelen. jan li pali e nasin ilo tawa lipu sina la sitelen ni li lon poka pi nasin ni.",
+                "logo_heading": "sitelen lili pi lipu sina",
+                "logo_text": "o pana e sitelen. ona li weka e nimi pi lipu sina li kama lon weka ona.",
+                "title": "lukin"
             },
             "basics": {
-                "all_discussions_label": "",
-                "default_language_heading": "",
-                "description": "",
-                "display_name_heading": "",
-                "display_name_text": "",
-                "forum_description_heading": "",
-                "forum_description_text": "",
-                "forum_title_heading": "",
-                "home_page_heading": "",
-                "home_page_text": "",
-                "show_language_selector_label": "",
+                "all_discussions_label": "=> core.ref.all_discussions",
+                "default_language_heading": "jan li ante ala e nasin toki la, nasin toki nanpa wan",
+                "description": "o pana e nimi pi lipu sina, e nasin toki pi lipu sina, e wile lili ante pi lipu sina.",
+                "display_name_heading": "nimi lukin pi jan kepeken",
+                "display_name_text": "nimi lukin pi jan kepeken la, lipu li kepeken nasin (driver) seme? sina ante ala e ni la lipu li kepeken nimi open (username).",
+                "forum_description_heading": "sona lon lipu sina",
+                "forum_description_text": "seme li lon kulupu lipu sina? o pana e toki lili. toki sina li kama lon sona lili pi lipu sina (meta tag), lon ilo pi alasa sona (search engines).",
+                "forum_title_heading": "nimi pi lipu sina",
+                "home_page_heading": "lipu open lipu sina",
+                "home_page_text": "jan kepeken li kama lon lipu sina la ona li lukin e lipu lili seme? o pana e wile.",
+                "show_language_selector_label": "o lukin e ilo ni - ona li ante e nasin toki",
                 "slug_driver_heading": "",
                 "slug_driver_text": "",
-                "title": "",
-                "welcome_banner_heading": "",
-                "welcome_banner_text": ""
+                "title": "sona open lili",
+                "welcome_banner_heading": "toki open pi lipu sina",
+                "welcome_banner_text": "o ante e toki sewi lon lipu pi \"toki ale\". toki ni la, o toki e ni tawa jan kama lon lipu sina: \"kama sina o pona!”"
             },
             "create_user": {
-                "email_placeholder": "",
-                "email_confirmed_label": "",
-                "password_placeholder": "",
-                "submit_and_create_another_button": "",
-                "submit_button": "",
-                "title": "",
-                "use_random_password": "",
-                "username_placeholder": ""
+                "email_placeholder": "=> core.ref.email",
+                "email_confirmed_label": "jan li toki ala e lon pi nimi Email ona la ona li ken ala kepeken lipu ni",
+                "password_placeholder": "=> core.ref.password",
+                "submit_and_create_another_button": "o pali, o pana e wan namako",
+                "submit_button": "o pali e jan kepeken",
+                "title": "o pali e jan kepeken sin",
+                "use_random_password": "o pali e nimi len nasa, kepeken ala sona ante",
+                "username_placeholder": "=> core.ref.username"
             },
             "dashboard": {
-                "clear_cache_button": "",
-                "description": "",
-                "io_error_message": "",
+                "clear_cache_button": "o weka e sona awen (cache)",
+                "description": "lukin lili taso la, lipu sina li ni lukin.",
+                "io_error_message": "mi ken ala sitelen lon kulupu pi lipu sona (filesystem). o lukin – kulupu lipu sina li ken seme? o ante e ken, o alasa pali sin. anu, o pali kepeken nasin pi toki ilo.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
+                        "scheduler-status": "ilo tenpo",
                         "queue-driver": "",
                         "session-driver": ""
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "ni li pali",
+                        "inactive": "ni li lape",
+                        "never-run": "tenpo ale la o ni ala"
                     }
                 },
-                "title": "",
-                "tools_button": ""
+                "title": "lipu ni - ona li pana e sona wile pi jan kepeken",
+                "tools_button": "ilo"
             },
             "debug-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "nasin <code>debug</code> li lon la, ilo Flarum li pali sin e ijo <code>JavaScript</code> e ijo <code>CSS</code> tawa wile sin ale. kin la ona li ken pana ike e sona ante tan lipu sina. ni li ken sona len pi kulupu sona, li ken sona pi nasin pali, li ken ante.\n",
+                "label": "nasin ni li lon - sina ken weka e pakala nasin"
             },
             "edit_css": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "o ante lukin e lipu sina kepeken nasin ni. sina pana e nasin Less/CSS la ona li ante e <a>nasin lon</a> pi ilo Flarum.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "o ante e nasin CSS pi wile sina"
             },
             "edit_footer": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "=> core.ref.custom_footer_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
             },
             "edit_group": {
-                "color_label": "",
+                "color_label": "=> core.ref.color",
                 "delete_button": "",
                 "delete_confirmation": "",
                 "hide_label": "",
