@@ -8,7 +8,7 @@
                 "colors_secondary_label": "kule namako",
                 "colors_text": "o pana e kule tu. kule nanpa wan li suli e ijo wawa lon lipu. kule nanpa tu li namako e monsi lipu.",
                 "custom_footer_heading": "anpa lipu",
-                "custom_footer_text": "",
+                "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "sewi lipu",
                 "custom_header_text": "=> core.ref.custom_header_text",
                 "custom_styles_cannot_use_less_features": "nasin @import en nasin data-uri li ken ala lon toki sina pi nasin LESS.",
@@ -89,21 +89,21 @@
             },
             "edit_group": {
                 "color_label": "=> core.ref.color",
-                "delete_button": "",
+                "delete_button": "o weka e kulupu",
                 "delete_confirmation": "sina wile ala wile weka a e kulupu ni? ni li weka ALA e sijelo pi jan kulupu.",
                 "hide_label": "toki jan la o len e kulupu ni ona",
-                "icon_label": "",
-                "icon_text": "",
-                "name_label": "",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "nimi",
                 "plural_placeholder": "nimi kulupu (sama ni: kulupu lawa)",
                 "singular_placeholder": "nimi pi jan kulupu (sama ni: jan lawa)",
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.save_changes",
+                "title": "o pali e kulupu"
             },
             "edit_header": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
             },
             "email": {
                 "addresses_heading": "lipu toki li tan nimi ni",
@@ -116,9 +116,9 @@
                 "mail_mailgun_domain_label": "",
                 "mail_mailgun_region_label": "",
                 "mail_mailgun_secret_label": "",
-                "mail_password_label": "",
+                "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "",
-                "mail_username_label": "",
+                "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "",
                 "not_sending_message": "",
                 "send_test_mail_button": "",
@@ -126,11 +126,11 @@
                 "send_test_mail_success": "",
                 "send_test_mail_text": "",
                 "smtp_heading": "",
-                "title": ""
+                "title": "=> core.ref.email"
             },
             "extension": {
                 "configure_scopes": "",
-                "confirm_purge": "",
+                "confirm_purge": "sina weka e ale tan ilo namako ni la, ijo ale ona en sona ale ona li weka. (ilo namako li weka ala – pali ni li ken lon ilo Composer.) sina wile ala wile awen pali e ni?",
                 "disabled": "",
                 "enable_to_see": "",
                 "enabled": "",
