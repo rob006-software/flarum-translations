@@ -145,26 +145,26 @@
                 "no_permissions": "ken ala li lon ilo namako ni.",
                 "no_settings": "",
                 "open_modal": "",
-                "permissions_title": "",
+                "permissions_title": "ken",
                 "purge_button": "",
                 "readme": {
                     "button_label": "",
                     "no_readme": "",
-                    "title": ""
+                    "title": "lipu sona pi ilo {extName}"
                 }
             },
             "header": {
                 "get_help": "",
-                "log_out_button": ""
+                "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
                 "title": ""
             },
             "nav": {
-                "appearance_button": "",
-                "appearance_title": "",
-                "basics_button": "",
-                "basics_title": "",
+                "appearance_button": "=> core.admin.appearance.title",
+                "appearance_title": "=> core.admin.appearance.description",
+                "basics_button": "=> core.admin.basics.title",
+                "basics_title": "=> core.admin.basics.description",
                 "categories": {
                     "authentication": "",
                     "core": "",
