@@ -2,7 +2,7 @@
     "core": {
         "admin": {
             "appearance": {
-                "colored_header_label": "sewi lipu la kule",
+                "colored_header_label": "sewi lipu kule",
                 "colors_heading": "kule",
                 "colors_primary_label": "kule wawa",
                 "colors_secondary_label": "kule namako",
@@ -30,11 +30,11 @@
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "jan li ante ala e ni la lipu li kepeken toki seme",
                 "description": "lipu sina la o pana e nimi e nasin toki e ijo suli ante.",
-                "display_name_heading": "nimi jan la nasin lukin",
+                "display_name_heading": "lukin pi nimi jan",
                 "display_name_text": "lipu li pana e nimi jan la ona li kepeken nasin seme? sina ante ala e ni la lipu li kepeken nimi ilo.",
                 "forum_description_heading": "lipu sina la toki sona lili",
                 "forum_description_text": "seme li lon kulupu sina? o pana e toki lili. toki ni li kama lon poki lili lon lipu sina la ilo mute li ken lukin e ona. ilo alasa lipu en ilo toki li pana e lipu sina la ona li ken pana e toki ni lon poka.",
-                "forum_title_heading": "lipu sina la nimi",
+                "forum_title_heading": "nimi pi lipu sina",
                 "home_page_heading": "lipu open",
                 "home_page_text": "jan li kama lon lipu sina la ona li lukin e lipu lili seme? o pana e wile.",
                 "show_language_selector_label": "o lukin e ilo ni - ona li ante e nasin toki",
@@ -90,7 +90,7 @@
             "edit_group": {
                 "color_label": "=> core.ref.color",
                 "delete_button": "o weka e kulupu",
-                "delete_confirmation": "sina wile ala wile weka a e kulupu ni? ni li weka ALA e sijelo pi jan kulupu.",
+                "delete_confirmation": "sina wile ala wile weka e kulupu ni? jan kulupu li weka ALA kin.",
                 "hide_label": "toki jan la o len e kulupu ni ona",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
@@ -115,7 +115,7 @@
                 "mail_host_label": "",
                 "mail_mailgun_domain_label": "",
                 "mail_mailgun_region_label": "ma",
-                "mail_mailgun_secret_label": "nanpa wawa",
+                "mail_mailgun_secret_label": "nanpa len",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "nanpa pi toki ilo",
                 "mail_username_label": "=> core.ref.username",
@@ -146,9 +146,9 @@
                 "no_settings": "",
                 "open_modal": "",
                 "permissions_title": "ken",
-                "purge_button": "",
+                "purge_button": "o weka",
                 "readme": {
-                    "button_label": "",
+                    "button_label": "OLUKINEMI",
                     "no_readme": "",
                     "title": "lipu sona pi ilo {extName}"
                 }
@@ -158,7 +158,7 @@
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
-                "title": ""
+                "title": "o awen..."
             },
             "nav": {
                 "appearance_button": "=> core.admin.appearance.title",
@@ -168,46 +168,46 @@
                 "categories": {
                     "authentication": "",
                     "core": "",
-                    "discussion": "",
-                    "feature": "",
+                    "discussion": "toki suli",
+                    "feature": "ijo ken",
                     "formatting": "",
-                    "language": "",
+                    "language": "toki",
                     "moderation": "",
                     "other": "",
-                    "theme": ""
+                    "theme": "selo lukin"
                 },
-                "dashboard_button": "",
-                "dashboard_title": "",
-                "email_button": "",
-                "email_title": "",
+                "dashboard_button": "=> core.admin.dashboard.title",
+                "dashboard_title": "=> core.admin.dashboard.description",
+                "email_button": "=> core.ref.email",
+                "email_title": "=> core.ref.email.description",
                 "permissions_button": "",
-                "permissions_title": "",
+                "permissions_title": "=> core.admin.permissions.description",
                 "userlist_button": "",
-                "userlist_title": "",
+                "userlist_title": "=> core.admin.users.description",
                 "search_placeholder": ""
             },
             "permissions": {
-                "allow_hide_own_posts_label": "",
-                "allow_post_editing_label": "",
-                "allow_renaming_label": "",
-                "create_access_token_label": "",
-                "create_heading": "",
-                "delete_discussions_forever_label": "",
-                "delete_discussions_label": "",
-                "delete_posts_forever_label": "",
-                "delete_posts_label": "",
+                "allow_hide_own_posts_label": "o ken e ni: jan li ken weka e toki ona",
+                "allow_post_editing_label": "o ken e ni: jan li ken ante e toki ona",
+                "allow_renaming_label": "o ken e ni: jan li ken ante e nimi pi toki ona",
+                "create_access_token_label": "ona li ken pali e nanpa open",
+                "create_heading": "ona li ken pali",
+                "delete_discussions_forever_label": "ona li ken weka e kulupu toki lon tenpo ale",
+                "delete_discussions_label": "ona li ken weka e kulupu toki",
+                "delete_posts_forever_label": "ona li ken weka e toki lon tenpo ale",
+                "delete_posts_label": "ona li ken weka e toki",
                 "description": "",
-                "edit_posts_label": "",
-                "edit_users_label": "",
+                "edit_posts_label": "ona li ken ante e toki",
+                "edit_users_label": "ona li ken ante e jan",
                 "edit_users_credentials_label": "",
-                "edit_users_groups_label": "",
+                "edit_users_groups_label": "ona li ken ante e kulupu jan",
                 "global_heading": "",
                 "moderate_heading": "",
-                "moderate_access_tokens_label": "",
+                "moderate_access_tokens_label": "lawa e nimi open",
                 "new_group_button": "",
                 "participate_heading": "",
                 "post_without_throttle_label": "",
-                "read_heading": "",
+                "read_heading": "lukin",
                 "rename_discussions_label": "",
                 "reply_to_discussions_label": "",
                 "search_users_label": "",
@@ -225,21 +225,21 @@
                 "allow_some_minutes_button": "",
                 "allow_ten_minutes_button": "",
                 "allow_until_reply_button": "",
-                "everyone_button": "",
+                "everyone_button": "jan ale",
                 "members_button": "",
-                "signup_closed_button": "",
+                "signup_closed_button": "pini",
                 "signup_open_button": ""
             },
             "settings": {
                 "saved_message": "",
-                "submit_button": ""
+                "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
                 "remove_button": "",
                 "upload_button": ""
             },
             "users": {
-                "create_user_button": "",
+                "create_user_button": "o lon e jan",
                 "description": "",
                 "grid": {
                     "columns": {
@@ -249,7 +249,7 @@
                         "edit_user": {
                             "button": "",
                             "title": "",
-                            "tooltip": ""
+                            "tooltip": "o ante e {username}"
                         },
                         "email": {
                             "title": "",
@@ -258,7 +258,7 @@
                         },
                         "group_badges": {
                             "no_badges": "",
-                            "title": ""
+                            "title": "kulupu"
                         },
                         "join_time": {
                             "title": ""
@@ -277,11 +277,11 @@
                     "back_button": "",
                     "first_button": "",
                     "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
+                    "last_button": "o tawa e lipu pini",
                     "next_button": "",
                     "page_counter": ""
                 },
-                "search_placeholder": "",
+                "search_placeholder": "=> core.ref.search_users",
                 "title": "",
                 "total_users": ""
             }
@@ -289,10 +289,10 @@
         "forum": {
             "change_email": {
                 "confirm_password_placeholder": "",
-                "confirmation_message": "",
-                "dismiss_button": "",
-                "incorrect_password_message": "",
-                "submit_button": "",
+                "confirmation_message": "=> core.ref.confirmation_email_sent",
+                "dismiss_button": "=> core.ref.okay",
+                "incorrect_password_message": "nimi len sina li ike.",
+                "submit_button": "=> core.ref.save_changes",
                 "title": ""
             },
             "change_password": {
@@ -305,25 +305,25 @@
                 "exit_full_screen_tooltip": "",
                 "full_screen_tooltip": "",
                 "minimize_tooltip": "",
-                "preview_tooltip": ""
+                "preview_tooltip": "o lukin"
             },
             "composer_discussion": {
-                "body_placeholder": "",
+                "body_placeholder": "o sitelen e toki...",
                 "discard_confirmation": "",
                 "submit_button": "",
-                "title": "",
+                "title": "=> core.ref.start_a_discussion",
                 "title_placeholder": ""
             },
             "composer_edit": {
-                "discard_confirmation": "",
+                "discard_confirmation": "sina awen ala e ante. sina wile ala wile weka e ona?",
                 "edited_message": "",
-                "post_link": "",
+                "post_link": "toki nanpa {number} lon {discussion}",
                 "submit_button": "",
-                "view_button": ""
+                "view_button": "=> core.ref.view"
             },
             "composer_reply": {
                 "body_placeholder": "",
-                "discard_confirmation": "",
+                "discard_confirmation": "sina pana ala e toki sina. sina wile ala wile weka e ona?",
                 "posted_message": "",
                 "submit_button": "",
                 "view_button": ""
@@ -350,7 +350,7 @@
             },
             "forgot_password": {
                 "dismiss_button": "",
-                "email_placeholder": "",
+                "email_placeholder": "=> core.ref.email",
                 "email_sent_message": "",
                 "not_found_message": "",
                 "submit_button": "",
@@ -358,7 +358,7 @@
                 "title": ""
             },
             "header": {
-                "admin_button": "",
+                "admin_button": "lawa",
                 "back_to_index_tooltip": "",
                 "locale_dropdown_accessible_label": "",
                 "log_in_link": "",
@@ -368,8 +368,8 @@
                 "search_placeholder": "",
                 "search_role_label": "",
                 "session_dropdown_accessible_label": "",
-                "settings_button": "",
-                "sign_up_link": ""
+                "settings_button": "=> core.ref.settings",
+                "sign_up_link": "=> core.ref.sign_up"
             },
             "index": {
                 "all_discussions_link": "",
@@ -391,13 +391,13 @@
             },
             "log_in": {
                 "forgot_password_link": "",
-                "invalid_login_message": "",
+                "invalid_login_message": "nimi open sina li ike.",
                 "password_placeholder": "",
                 "remember_me_label": "",
                 "sign_up_text": "",
                 "submit_button": "",
                 "title": "",
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "nimi jan anu nimi email"
             },
             "notifications": {
                 "delete_all_confirm": "",
@@ -413,7 +413,7 @@
             "post": {
                 "edited_text": "",
                 "edited_tooltip": "",
-                "number_tooltip": ""
+                "number_tooltip": "toki nanpa {number}"
             },
             "post_controls": {
                 "delete_button": "",
@@ -439,12 +439,12 @@
             },
             "rename_discussion": {
                 "submit_button": "",
-                "title": ""
+                "title": "o ante e nimi pi toki suli ni"
             },
             "search": {
                 "all_discussions_button": "",
                 "discussions_heading": "",
-                "users_heading": ""
+                "users_heading": "=> core.ref.users"
             },
             "security": {
                 "browser_on_operating_system": "",
@@ -465,10 +465,10 @@
                 "new_access_token_modal": {
                     "submit_button": "",
                     "title": "",
-                    "title_placeholder": ""
+                    "title_placeholder": "nimi"
                 },
                 "revoke_access_token": "",
-                "revoke_access_token_confirmation": "",
+                "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
                 "sessions_heading": "",
                 "session_terminated": "",
                 "session_termination_failed": "",
@@ -476,27 +476,27 @@
                 "terminate_all_other_sessions": "",
                 "terminate_all_other_sessions_confirmation": "",
                 "terminate_session": "",
-                "title": "",
+                "title": "=> core.ref.security",
                 "token_revoked": "",
-                "token_item_title": "",
+                "token_item_title": "{title} - {token}",
                 "token_title_placeholder": ""
             },
             "settings": {
                 "account_heading": "",
                 "change_email_button": "",
-                "change_password_button": "",
+                "change_password_button": "=> core.ref.change_password",
                 "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "",
                 "notify_by_email_heading": "",
                 "notify_by_web_heading": "",
-                "notify_discussion_renamed_label": "",
-                "privacy_disclose_online_label": "",
+                "notify_discussion_renamed_label": "jan li ante e toki suli mi",
+                "privacy_disclose_online_label": "o ken e ni: jan ante li ken lukin e lon mi",
                 "privacy_heading": "",
-                "title": ""
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "",
-                "email_placeholder": "",
+                "email_placeholder": "=> core.ref.email",
                 "log_in_text": "",
                 "password_placeholder": "",
                 "submit_button": "",
@@ -506,12 +506,12 @@
             },
             "user": {
                 "avatar_remove_button": "",
-                "avatar_upload_button": "",
+                "avatar_upload_button": "o pana",
                 "avatar_upload_tooltip": "",
                 "discussions_link": "",
                 "in_discussion_text": "",
-                "joined_date_text": "",
-                "online_text": "",
+                "joined_date_text": "ona li kama lon {ago}",
+                "online_text": "lon",
                 "posts_empty_text": "",
                 "posts_link": "",
                 "posts_load_more_button": "",
@@ -521,8 +521,8 @@
             "user_controls": {
                 "button": "",
                 "delete_button": "",
-                "delete_confirmation": "",
-                "delete_error_message": "",
+                "delete_confirmation": "sina wile ala wile weka e jan ni? toki pi jan ni li weka ala.",
+                "delete_error_message": "weka pi jan <i>{username} ({email})</i> li pakala",
                 "delete_success_message": "",
                 "edit_button": "",
                 "toggle_dropdown_accessible_label": ""
@@ -539,7 +539,7 @@
         "lib": {
             "debug_button": "",
             "alert": {
-                "dismiss_a11y_label": ""
+                "dismiss_a11y_label": "o weka e sona suli"
             },
             "badge": {
                 "hidden_tooltip": ""
@@ -556,24 +556,24 @@
                 "email_label": "",
                 "groups_heading": "",
                 "password_heading": "",
-                "password_label": "",
+                "password_label": "=> core.ref.password",
                 "set_password_label": "",
                 "submit_button": "",
                 "title": "",
                 "username_heading": "",
-                "username_label": "",
+                "username_label": "=> core.ref.username",
                 "nothing_available": ""
             },
             "error": {
                 "circular_dependencies_message": "",
                 "dependent_extensions_message": "",
                 "extension_initialiation_failed_message": "",
-                "generic_message": "",
+                "generic_message": "pakala a! ijo li pakala. o lukin sin e lipu ni.",
                 "generic_cross_origin_message": "",
                 "missing_dependencies_message": "",
                 "not_found_message": "",
                 "payload_too_large_message": "",
-                "permission_denied_message": "",
+                "permission_denied_message": "sina ken ala pali e ni.",
                 "rate_limit_exceeded_message": "",
                 "render_failed_message": ""
             },
@@ -581,7 +581,7 @@
                 "accessible_label": ""
             },
             "meta_titles": {
-                "with_page_title": "",
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: lipu # - {forumName}}}",
                 "without_page_title": ""
             },
             "modal": {
@@ -595,7 +595,7 @@
                 "mega_text": ""
             },
             "series": {
-                "glue_text": "",
+                "glue_text": ", ",
                 "three_text": "",
                 "two_text": ""
             },
@@ -609,10 +609,10 @@
                     "caption": "",
                     "disable": "",
                     "empty": "",
-                    "enable": "",
-                    "name": "",
+                    "enable": "o lon",
+                    "name": "nimi ilo",
                     "package_name": "",
-                    "version": ""
+                    "version": "nanpa ante"
                 },
                 "info": {
                     "caption": ""
@@ -631,10 +631,10 @@
             },
             "discussion": {
                 "next_page_button": "",
-                "previous_page_button": ""
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
-                "csrf_token_mismatch": "",
+                "csrf_token_mismatch": "sina lape lon tenpo suli.",
                 "csrf_token_mismatch_return_link": "",
                 "invalid_confirmation_token": "",
                 "not_authenticated": "",
@@ -657,7 +657,7 @@
                 "confirm_password_label": "",
                 "new_password_label": "",
                 "submit_button": "",
-                "title": ""
+                "title": "=> core.ref.reset_your_password"
             }
         },
         "api": {
@@ -675,7 +675,7 @@
             },
             "confirm_email": {
                 "subject": "",
-                "body": ""
+                "body": "toki {username}!\n\njan (ken la pona la sina!) li ante e nimi email lon {forum} tawa nimi ni.\n\nona li sina la o luka e nasin nimi ni. nimi email sina li kama pona.\n{url}\n\nona li sina ala la o weka e lipu ni.\n"
             },
             "reset_password": {
                 "subject": "",
@@ -689,7 +689,7 @@
         "ref": {
             "all_discussions": "",
             "change_email": "",
-            "change_password": "",
+            "change_password": "o ante e nimi open len",
             "color": "",
             "confirm_password": "",
             "confirm_email": "",
@@ -714,7 +714,7 @@
             "log_out": "",
             "mark_all_as_read": "",
             "never": "",
-            "new_token": "",
+            "new_token": "nanpa open sin",
             "next_page": "",
             "notifications": "",
             "okay": "",
@@ -727,12 +727,12 @@
             "reset_your_password": "",
             "restore": "",
             "save_changes": "",
-            "search_users": "",
+            "search_users": "o alasa e jan",
             "security": "",
             "settings": "",
             "sign_up": "",
             "some_others": "",
-            "start_a_discussion": "",
+            "start_a_discussion": "o open e toki suli",
             "username": "",
             "users": "",
             "view": "",
@@ -740,12 +740,12 @@
             "you": ""
         },
         "group": {
-            "admin": "",
-            "admins": "",
+            "admin": "jan lawa",
+            "admins": "jan lawa",
             "guest": "",
             "guests": "",
             "member": "",
-            "members": "",
+            "members": "jan",
             "mod": "",
             "mods": ""
         }
