@@ -3,7 +3,9 @@
         "admin": {
             "settings": {
                 "onlyInTags": "僅在以下標簽中（可選）",
-                "onlyInTagsHelp": "輸入標籤slugs，多個標籤以英文逗號分隔。留空以全局應用本擴展頁面。\n"
+                "onlyInTagsHelp": "輸入標籤slugs，多個標籤以英文逗號分隔。留空以全局應用本擴展頁面。\n",
+                "forPrivateDiscussions": "",
+                "forPrivateDiscussionsHelp": ""
             }
         },
         "forum": {
@@ -14,6 +16,10 @@
             "page": {
                 "title": "創建主題貼文",
                 "heading": "創建主題"
+            },
+            "page-private": {
+                "title": "",
+                "heading": ""
             }
         }
     }

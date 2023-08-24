@@ -3,7 +3,9 @@
         "admin": {
             "settings": {
                 "onlyInTags": "Chỉ trong các thẻ sau (tùy chọn)",
-                "onlyInTagsHelp": "Danh sách slug thẻ được phân tách bằng dấu phẩy. Để trống để luôn sử dụng trang, ngay cả trước khi bất kỳ thẻ nào được chọn.\n"
+                "onlyInTagsHelp": "Danh sách slug thẻ được phân tách bằng dấu phẩy. Để trống để luôn sử dụng trang, ngay cả trước khi bất kỳ thẻ nào được chọn.\n",
+                "forPrivateDiscussions": "",
+                "forPrivateDiscussionsHelp": ""
             }
         },
         "forum": {
@@ -14,6 +16,10 @@
             "page": {
                 "title": "Tạo cuộc thảo luận",
                 "heading": "Tạo cuộc thảo luận"
+            },
+            "page-private": {
+                "title": "",
+                "heading": ""
             }
         }
     }

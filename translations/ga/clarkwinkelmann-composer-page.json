@@ -3,7 +3,9 @@
         "admin": {
             "settings": {
                 "onlyInTags": "",
-                "onlyInTagsHelp": ""
+                "onlyInTagsHelp": "",
+                "forPrivateDiscussions": "",
+                "forPrivateDiscussionsHelp": ""
             }
         },
         "forum": {
@@ -12,6 +14,10 @@
                 "continue": ""
             },
             "page": {
+                "title": "",
+                "heading": ""
+            },
+            "page-private": {
                 "title": "",
                 "heading": ""
             }

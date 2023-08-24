@@ -3,7 +3,9 @@
         "admin": {
             "settings": {
                 "onlyInTags": "Yalnızca aşağıdaki etiketlerde (isteğe bağlı)",
-                "onlyInTagsHelp": "Etiket yollarının (slug) virgülle ayrılmış listesi. Herhangi bir etiket seçilmeden önce bile sayfayı her zaman kullanmak için boş bırakın.\n"
+                "onlyInTagsHelp": "Etiket yollarının (slug) virgülle ayrılmış listesi. Herhangi bir etiket seçilmeden önce bile sayfayı her zaman kullanmak için boş bırakın.\n",
+                "forPrivateDiscussions": "",
+                "forPrivateDiscussionsHelp": ""
             }
         },
         "forum": {
@@ -14,6 +16,10 @@
             "page": {
                 "title": "Bir Tartışma Başlat",
                 "heading": "Bir Tartışma Başlat"
+            },
+            "page-private": {
+                "title": "",
+                "heading": ""
             }
         }
     }

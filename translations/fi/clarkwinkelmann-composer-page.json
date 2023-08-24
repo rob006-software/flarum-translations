@@ -3,7 +3,9 @@
         "admin": {
             "settings": {
                 "onlyInTags": "Vain seuraavilla avainsanoilla (valinnainen)",
-                "onlyInTagsHelp": "Pilkulla eroteltu lista avainsanojen polkutunnuksista. Jätä tyhjäksi jos haluat käyttää joka sivulla vaikka avainsanaa ei olisi valittuna.\n"
+                "onlyInTagsHelp": "Pilkulla eroteltu lista avainsanojen polkutunnuksista. Jätä tyhjäksi jos haluat käyttää joka sivulla vaikka avainsanaa ei olisi valittuna.\n",
+                "forPrivateDiscussions": "",
+                "forPrivateDiscussionsHelp": ""
             }
         },
         "forum": {
@@ -14,6 +16,10 @@
             "page": {
                 "title": "Aloita keskustelu",
                 "heading": "Aloita keskustelu"
+            },
+            "page-private": {
+                "title": "",
+                "heading": ""
             }
         }
     }

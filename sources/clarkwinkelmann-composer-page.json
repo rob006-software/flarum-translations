@@ -3,7 +3,9 @@
         "admin": {
             "settings": {
                 "onlyInTags": "Only in the following tags (optional)",
-                "onlyInTagsHelp": "Comma-separated list of tag slugs. Leave empty to always use the page, even before any tag is selected.\n"
+                "onlyInTagsHelp": "Comma-separated list of tag slugs. Leave empty to always use the page, even before any tag is selected.\n",
+                "forPrivateDiscussions": "Use for private discussions",
+                "forPrivateDiscussionsHelp": "Integrates the Byobu Discussion Composer into the page"
             }
         },
         "forum": {
@@ -14,6 +16,10 @@
             "page": {
                 "title": "Start a discussion",
                 "heading": "Start a discussion"
+            },
+            "page-private": {
+                "title": "Start a private discussion",
+                "heading": "Start a private discussion"
             }
         }
     }
