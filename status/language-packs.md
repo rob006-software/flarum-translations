@@ -1165,22 +1165,22 @@
 		<td>⚠️ <a href="https://github.com/flarum-lang/kurdish-central">Kurdish (Central)</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/kurdish-central/tags">
-				<img src="https://img.shields.io/github/release-date/flarum-lang/kurdish-central" alt="last release" style="max-width: 160px;" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/kurdish" alt="last release" style="max-width: 160px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/kurdish-central/commits">
-				<img src="https://img.shields.io/github/commits-since/flarum-lang/kurdish-central/latest" alt="commits since last release" style="max-width: 150px;" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/kurdish/latest" alt="commits since last release" style="max-width: 150px;" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/kurdish-central/pulls">
-				<img src="https://img.shields.io/github/issues-pr/flarum-lang/kurdish-central" alt="open pull requests" />
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/kurdish" alt="open pull requests" />
 			</a>
 		</td>
 		<td>
-			<a href="https://packagist.org/packages/flarum-lang/kurdish-central/stats">
-				<img src="https://img.shields.io/packagist/dm/flarum-lang/kurdish-central" alt="downloads (monthly)" />
+			<a href="https://packagist.org/packages/flarum-lang/kurdish/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/kurdish" alt="downloads (monthly)" />
 			</a>
 		</td>
 		<td align="right">
