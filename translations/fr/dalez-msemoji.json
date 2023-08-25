@@ -2,20 +2,20 @@
     "flarum-msemoji": {
         "forum": {
             "composer": {
-                "emoji_tooltip": "",
-                "type_to_search_text": ""
+                "emoji_tooltip": "Insérer un émoji",
+                "type_to_search_text": "Saisissez du texte pour rechercher un émoji"
             }
         },
         "admin": {
             "settings": {
-                "base": "",
-                "folder": "",
-                "ext": "",
-                "basehelp": "",
-                "baseph": "",
-                "folderph": "",
-                "extph": "",
-                "disable_autocomplete": ""
+                "base": "Base",
+                "folder": "Dossier",
+                "ext": "Extension",
+                "basehelp": "Astuce : saisissez $ pour remplacer le numéro de version automatique. Sensible à la casse.",
+                "baseph": "Exemple : https://www.exemple.com/",
+                "folderph": "Exemple : svg",
+                "extph": "Exemple : .gif",
+                "disable_autocomplete": "Désactiver l'auto-complétion"
             }
         }
     }
