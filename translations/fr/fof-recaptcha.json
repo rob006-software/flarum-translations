@@ -6,18 +6,18 @@
                 "secret_key_label": "Clé secrète",
                 "site_key_label": "Clé du site",
                 "type_label": "Type de reCAPTCHA",
-                "type_help": "",
+                "type_help": "Cette extension ne prend en charge que reCAPTCHA v2. Le type sélectionné doit correspondre au type de vos informations d'identification reCAPTCHA.",
                 "signup": "=> core.forum.sign_up.title",
                 "signin": "=> core.forum.log_in.title",
                 "forgot": "=> core.forum.forgot_password.title"
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "success_message": "",
-                "load_test_button": "",
-                "submit_button": "",
-                "reload_button": ""
+                "title": "Tester le reCAPTCHA",
+                "help_text": "Ce test utilisera les valeurs actuelles saisies ci-dessus. Veillez à recharger le test après avoir modifié les paramètres, et n'oubliez pas de sauvegarder une fois le test réussi !\nLes résultats ci-dessous peuvent ne pas refléter les paramètres enregistrés.\n",
+                "success_message": "Félicitations ! reCAPTCHA est configuré correctement.",
+                "load_test_button": "Charger",
+                "submit_button": "Envoyer",
+                "reload_button": "Actualiser"
             },
             "permissions": {
                 "post_without_captcha": "Créez des messages et des discussions sans CAPTCHA"
@@ -29,6 +29,6 @@
     },
     "validation": {
         "recaptcha": "La validation de reCAPTCHA a échoué.",
-        "recaptcha-unknown": ""
+        "recaptcha-unknown": "Une erreur inconnue s'est produite lors de la validation du reCAPTCHA ({errors})."
     }
 }
