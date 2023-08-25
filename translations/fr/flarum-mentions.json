@@ -22,7 +22,7 @@
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} a répondu à votre message",
                 "user_mentioned_text": "{username} vous a mentionné",
-                "group_mentioned_text": "{username} a mentionné un groupe dont vous êtes membre"
+                "group_mentioned_text": "{username} a mentionné un groupe auquel vous êtes membre"
             },
             "post": {
                 "mentioned_by_more_text": "{count} réponses supplémentaires.",
@@ -58,8 +58,8 @@
                 "body": "Bonjour {recipient_display_name} !\n\n{mentioner_display_name} vous a mentionné dans un message de {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "{mentioner_display_name} a mentionné un groupe dont vous êtes membre dans {title}",
-                "body": "Bonjour {recipient_display_name} !\n\n{mentioner_display_name} a mentionné un groupe dont vous êtes membre dans {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "subject": "{mentioner_display_name} a mentionné un groupe auquel vous êtes membre dans {title}",
+                "body": "Bonjour {recipient_display_name} !\n\n{mentioner_display_name} a mentionné un groupe auquel vous êtes membre dans {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
