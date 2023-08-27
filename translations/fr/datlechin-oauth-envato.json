@@ -4,24 +4,24 @@
             "settings": {
                 "providers": {
                     "envato": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Enregistrez votre forum avec Envato {link}.",
+                        "client_id_label": "Identifiant du client",
+                        "client_secret_label": "Clé secrète du client"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_envato_button": ""
+                "with_envato_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "envato": ""
+                "envato": "=> fof-oauth.lib.providers.envato"
             }
         },
         "lib": {
             "providers": {
-                "envato": ""
+                "envato": "Envato"
             }
         }
     }
