@@ -1,0 +1,28 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "envato": {
+                        "description": "Register your forum with Envato {link}.",
+                        "client_id_label": "Client ID",
+                        "client_secret_label": "Client Secret"
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_envato_button": "=> fof-oauth.forum.log_in.with_button"
+            },
+            "providers": {
+                "envato": "=> fof-oauth.lib.providers.envato"
+            }
+        },
+        "lib": {
+            "providers": {
+                "envato": "Envato"
+            }
+        }
+    }
+}
