@@ -4063,6 +4063,17 @@
 		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-default-image-alt/stats">0</a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-default-image-alt/nb/"><img src="https://weblate.rob006.net/widgets/flarum/nb/clarkwinkelmann-default-image-alt/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/datlechin/flarum-oauth-envato" title="datlechin/flarum-oauth-envato"><code>datlechin/flarum-oauth-envato</code></a>
+		</td>
+		<td align="center">368</td>
+		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-oauth-envato/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-oauth-envato/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-oauth-envato/stats">0</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/datlechin-oauth-envato/nb/"><img src="https://weblate.rob006.net/widgets/flarum/nb/datlechin-oauth-envato/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
 </tbody>
 </table>
 
