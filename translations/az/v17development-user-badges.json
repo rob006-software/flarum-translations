@@ -1,121 +1,121 @@
 {
     "v17development-flarum-badges": {
         "admin": {
-            "uncategorized": "",
-            "new_badge": "",
-            "create_category": "",
-            "update_badge": "",
-            "update_category": "",
-            "edit_category": "",
-            "nothing_here_yet": "",
-            "show_badges_on_user_card": "",
-            "number_of_badges_on_user_card": "",
-            "number_of_badges_on_user_card_help": "",
+            "uncategorized": "Kateqoriyasız",
+            "new_badge": "Yeni nişan",
+            "create_category": "Kateqoriya yarat",
+            "update_badge": "Nişanı yenilə",
+            "update_category": "Kateqoriyanı yenilə",
+            "edit_category": "Kateqoriyanı redaktə et",
+            "nothing_here_yet": "Siz hələ heç bir nişan və ya kateqoriya yaratmamısınız.",
+            "show_badges_on_user_card": "İstifadəçi kartında nişanları göstər",
+            "number_of_badges_on_user_card": "Nişanların sayı",
+            "number_of_badges_on_user_card_help": "İstifadəçi kartında göstəriləcək nişanların sayı",
             "permissions": {
-                "badge_detail_users": "",
-                "give_badge": "",
-                "take_badge": "",
-                "edit_own_card_badges": "",
-                "edit_card_badges": ""
+                "badge_detail_users": "Nişan detalları səhifəsində istifadəçiləri görə bilər",
+                "give_badge": "İstifadəçiyə nişan ver",
+                "take_badge": "İstifadəçidən nişan al",
+                "edit_own_card_badges": "Öz istifadəçi kartı nişanlarına düzəliş et",
+                "edit_card_badges": "İstifadəçi kartı nişanlarını redaktə et"
             },
             "confirm_dialog": {
-                "title": "",
-                "no": "",
-                "yes": ""
+                "title": "Təsdiq et",
+                "no": "Xeyr",
+                "yes": "Bəli"
             },
             "confirm_messages": {
-                "delete_badge": "",
-                "delete_category": ""
+                "delete_badge": "Bu nişanı silmək istədiyinizə əminsiniz? Bütün istifadəçilərdən silinir və geri döndərilə bilməz.",
+                "delete_category": "Bu kateqoriyanı silmək istədiyinizə əminsiniz? Bu kateqoriyada hər hansı bir nişan varsa, onlar \"kateqoriyasız\" kimi qeyd olunacaqlar."
             },
             "badge": {
-                "name": "",
-                "icon": "",
-                "description": "",
-                "visible": "",
-                "visible_description": "",
-                "is_image": "",
-                "is_image_description": "",
-                "image": "",
-                "image_placeholder": "",
-                "icon_color": "",
-                "background_color": "",
-                "label_color": ""
+                "name": "Nişan adı",
+                "icon": "Nişan ikonu",
+                "description": "Nişan açıqlaması",
+                "visible": "Görünən",
+                "visible_description": "Bu nişanı aktivləşdir. Deaktiv olduqda, nişan görünməyəcək.",
+                "is_image": "Nişan bir şəkildir",
+                "is_image_description": "Defolt nişan əvəzinə şəkil istifadə et",
+                "image": "Nişan şəklinin URL-i",
+                "image_placeholder": "Nişan şəklinə URL daxil edin",
+                "icon_color": "İkon rəngi",
+                "background_color": "Arxa fon rəngi",
+                "label_color": "Mətnin rəngi"
             },
             "badge_category": {
-                "name": "",
-                "description": "",
-                "blockview": "",
-                "blockview_description": "",
-                "enabled": "",
-                "enabled_description": ""
+                "name": "Kateqoriya adı",
+                "description": "Kateqoriya açıqlaması",
+                "blockview": "Blok görünüş",
+                "blockview_description": "Nişanların icmalında kateqoriya nişanlarını blok görünüşdə göstər. Deaktiv olduqda, bütün nişanlar cədvəldə göstəriləcək.",
+                "enabled": "Aktiv",
+                "enabled_description": "Bu kateqoriyanı aktivləşdir. Deaktiv edildikdə, bütün nişanlar deaktiv ediləcək və kateqoriya gizlənəcək."
             },
             "auto_moderator": {
                 "not_installed": {
-                    "title": "",
-                    "content": "",
-                    "install": "",
-                    "dismiss": ""
+                    "title": "İstifadəçiləri nişanlarla avtomatik mükafatlandır",
+                    "content": "Bu artırma <a>Avtomatik Moderator</a> quraşdırılıb aktivləşdirildikdə daha çox funksionallıq təklif edir. Bu uzantıyı quraşdırdığınız zaman istifadəçilər moderator müdaxiləsi olmadan avtomatik olaraq nişanlarla mükafatlandırıla bilərlər!",
+                    "install": "Quraşdır",
+                    "dismiss": "Yenidən göstərmə"
                 },
                 "action_drivers": {
-                    "badge_id": "",
-                    "give_badge": "",
-                    "remove_badge": ""
+                    "badge_id": "Nişan ID",
+                    "give_badge": "Nişan ver",
+                    "remove_badge": "Nişanı sil"
                 },
                 "requirement_drivers": {
-                    "has_badge": ""
+                    "has_badge": "Nişanı var"
                 },
                 "metric_drivers": {
-                    "badges_received": ""
+                    "badges_received": "Qəbul edilən nişanlar"
                 },
                 "badge_selector": {
-                    "placeholder": "",
-                    "loading_badges": ""
+                    "placeholder": "Nişan seçin",
+                    "loading_badges": "Nişanlar yüklənir"
                 }
             }
         },
         "forum": {
-            "badge_information": "",
-            "all_badges": "",
-            "all_users": "",
-            "give_badge": "",
-            "update_badge": "",
-            "select_badge": "",
-            "user_has_badge": "",
-            "user_no_badges": "",
-            "no_received": "",
-            "uncategorized": "",
-            "save_changes": "",
+            "badge_information": "Nişan məlumatı",
+            "all_badges": "Bütün nişanlara bax",
+            "all_users": "Bütün istifadəçilərə bax",
+            "give_badge": "Nişan ver",
+            "update_badge": "Nişanı yenilə",
+            "select_badge": "Nişan seç",
+            "user_has_badge": "İstifadəçi artıq bu nişana sahibdir.",
+            "user_no_badges": "Bu istifadəçinin hələ heç bir nişanı yoxdur.",
+            "no_received": "Heç bir istifadəçi bu nişanı qazanmayıb.",
+            "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "Yadda saxla",
             "badge": {
-                "badge": "",
-                "badges": "",
-                "name": "",
-                "description": "",
-                "earning_reason": "",
-                "update_earning_reason": "",
-                "no_earning_reason": "",
-                "earned_on": "",
-                "category": "",
-                "received_on": "",
-                "badge_details": "",
-                "earned_count": "",
-                "earned_by_count": "",
-                "others_link": ""
+                "badge": "Nişan",
+                "badges": "Nişanlar",
+                "name": "Nişan adı",
+                "description": "Nişan açıqlaması",
+                "earning_reason": "Nişanı qazanma səbəbi",
+                "update_earning_reason": "Qazanma səbəbini yenilə",
+                "no_earning_reason": "Qazanma səbəbi təyin edilməyib",
+                "earned_on": "Nişan qazanıldı",
+                "category": "Nişan kateqoriyası",
+                "received_on": "{date} tarixində alındı",
+                "badge_details": "Nişan detalları",
+                "earned_count": "{count, plural, one {<b># user</b> bu nişanı qazandı} other {<b># users</b> bu nişanı qazandı}}",
+                "earned_by_count": "{count, plural, one {<b># user</b> tərəfindən qazanıldı} other {<b># users</b> tərəfindən qazanıldı}}",
+                "others_link": "+ {count} Daha çox"
             },
             "badges_in_card": {
-                "title": "",
-                "manage_badges": "",
-                "description": "",
-                "select_limit": "",
-                "hit_limit": ""
+                "title": "İstifadəçi kartındakı nişanlar",
+                "manage_badges": "Nişanları idarə et",
+                "description": "İstifadəçi kartınızdakı görünən nişanları digər nişanlarınızdan biri ilə dəyişə bilərsiniz. Heç birini seçməsəniz, avtomatik seçiləcək.",
+                "select_limit": "Profilinizdə görünmək üçün {limit, plural, one {<b>bir nişan</b>} other {<b># nişan</b>}} seçə bilərsiz.",
+                "hit_limit": "Profilinizdə sadəcə <b> {limit, plural, one {<b>bir nişan</b>} other {<b># nişan</b>}}</b> üçün yer var. Bu nişana yer açmaq üçün hansısa bir nişanın seçimini ləğv edin."
             },
             "moderation": {
-                "remove_badge": "",
-                "remove_badge_confirm": "",
-                "give_badge": ""
+                "remove_badge": "Nişanı istifadəçidən sil",
+                "remove_badge_confirm": "Bu nişanı istifadəçidən silmək istədiyinizə əminsiniz?",
+                "give_badge": "Nişan ver"
             },
             "notification": {
-                "title": "",
-                "settings": ""
+                "title": "Yeni nişan aldınız",
+                "settings": "Nişan aldım"
             }
         }
     }
