@@ -4,14 +4,14 @@
             "appearance": {
                 "colored_header_label": "Farebná Hlavička",
                 "colors_heading": "Farby",
-                "colors_primary_label": "",
-                "colors_secondary_label": "",
+                "colors_primary_label": "Primárna farba",
+                "colors_secondary_label": "Sekundárna farba",
                 "colors_text": "Vyberte dve hlavné farby pre Vaše fórum. Prvá bude použitá ako zvýrazňovacia farba, a druhá bude naopak použitá pre zafarbenie prvkov v pozadí.",
                 "custom_footer_heading": "Vlastná Päta",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Vlastná Hlavička",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_cannot_use_less_features": "",
+                "custom_styles_cannot_use_less_features": "Funkcie @import a data-uri nie sú povolené vo vlastnom LESS.",
                 "custom_styles_heading": "Vlastné Štýly",
                 "custom_styles_text": "Prispôsobte si vzhľad Vášho fóra pridaním Vašich vlastných LESS/CSS kódov, ktoré budú aplikované spolu so základnými Flarum štýlmi.",
                 "dark_mode_label": "Tmavý Režim",
@@ -48,37 +48,37 @@
                 "submit_button": "=> core.ref.save_changes"
             },
             "create_user": {
-                "email_placeholder": "",
-                "email_confirmed_label": "",
-                "password_placeholder": "",
-                "submit_and_create_another_button": "",
-                "submit_button": "",
-                "title": "",
-                "use_random_password": "",
-                "username_placeholder": ""
+                "email_placeholder": "=> core.ref.email",
+                "email_confirmed_label": "Vyžadovať od používateľa potvrdenie tohto emailu",
+                "password_placeholder": "=> core.ref.password",
+                "submit_and_create_another_button": "Vytvoriť a pridať ďalšieho",
+                "submit_button": "Vytvoriť používateľa",
+                "title": "Vytvoriť nového používateľa",
+                "use_random_password": "Vygenerovať náhodné heslo",
+                "username_placeholder": "=> core.ref.username"
             },
             "dashboard": {
                 "clear_cache_button": "Vymazať Vyrovnávaciu Pamäť",
                 "description": "Vaše fórum na dlani.",
-                "io_error_message": "",
+                "io_error_message": "Nepodarilo sa zapísať do súborového systému. Skontrolujte oprávnenia súborového systému a skúste to znova. Alebo ho skúste spustiť z príkazového riadku.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "scheduler-status": "Plánovač",
+                        "queue-driver": "Ovládač fronty",
+                        "session-driver": "Ovládač relácie"
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "Aktívny",
+                        "inactive": "Neaktívny",
+                        "never-run": "Nikdy nespúšťať"
                     }
                 },
                 "title": "Hlavný Panel",
                 "tools_button": "Nástroje"
             },
             "debug-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "Keď je aktívny režim <code>debug</code>, Flarum pri každej požiadavke obnoví svoje prostriedky <code>JavaScript</code> a <code>CSS</code> a môže potenciálne vypustiť aj iné informácie, ako sú secrety databázy, premenné prostredia atď.\n\nDôrazne sa odporúča vypnúť <code>debug</code> v súbore <code>config.php</code> v produkčnom prostredí. Viac informácií nájdete v <link>Dokumentoch k programu Flarum</link>.\n",
+                "label": "Debug režim aktivovaný"
             },
             "edit_css": {
                 "customize_text": "Prispôsobte vzhľad Vášho fóra pridaním Vašich vlastných LESS/CSS kódov, ktoré budú aplikované spolu so <a>základnými Flarum štýlmi</a>.",
@@ -194,10 +194,10 @@
                 "search_placeholder": "Prehľadávať Doplnky"
             },
             "permissions": {
-                "allow_hide_own_posts_label": "",
+                "allow_hide_own_posts_label": "Povoliť mazanie vlastných príspevkov",
                 "allow_post_editing_label": "Umožniť upravovať príspevky",
                 "allow_renaming_label": "Umožniť premenovať",
-                "create_access_token_label": "",
+                "create_access_token_label": "Vytvoriť prístupový token",
                 "create_heading": "Vytvoriť",
                 "delete_discussions_forever_label": "Navždy odstrániť diskusie",
                 "delete_discussions_label": "Odstrániť diskusie",
@@ -210,14 +210,14 @@
                 "edit_users_groups_label": "Upraviť skupiny používateľa",
                 "global_heading": "Globálne",
                 "moderate_heading": "Moderovať",
-                "moderate_access_tokens_label": "",
+                "moderate_access_tokens_label": "Moderovať prístupové tokeny",
                 "new_group_button": "Nová Skupina",
                 "participate_heading": "Zúčastniť sa",
                 "post_without_throttle_label": "Odpovedať viackrát bez čakania",
                 "read_heading": "Čítať",
                 "rename_discussions_label": "Premenovať diskusie",
                 "reply_to_discussions_label": "Odpovedať na diskusie",
-                "search_users_label": "Prehľadávať používateľov",
+                "search_users_label": "=> core.ref.search_users",
                 "sign_up_label": "Registrovať sa",
                 "start_discussions_label": "Začať diskusie",
                 "title": "Oprávnenia",
@@ -230,7 +230,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Na neurčito",
-                "allow_never_button": "",
+                "allow_never_button": "=> core.ref.never",
                 "allow_some_minutes_button": "{count, plural, one {Na # minútu} few {Na # minúty} other {Na # minút}}",
                 "allow_ten_minutes_button": "Na 10 minút",
                 "allow_until_reply_button": "Do ďalšej odpovede",
@@ -248,12 +248,12 @@
                 "upload_button": "Vybrať Obrázok..."
             },
             "users": {
-                "create_user_button": "",
+                "create_user_button": "Nový používateľ",
                 "description": "Stránkovaný zoznam všetkých používateľov na Vašom fóre.",
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": ""
+                            "title": "Ukazované meno"
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
@@ -284,13 +284,13 @@
                 },
                 "pagination": {
                     "back_button": "Predchádzajúca strana",
-                    "first_button": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
+                    "first_button": "Ísť na prvú stránku",
+                    "go_to_page_textbox_a11y_label": "Ísť na určitú stránku",
+                    "last_button": "Ísť na poslednú stránku",
                     "next_button": "Nasledujúca strana",
                     "page_counter": "Strana {current} z {total}"
                 },
-                "search_placeholder": "",
+                "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
                 "total_users": "Celkový počet používateľov: {count}"
             }
@@ -361,7 +361,7 @@
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "Poslali sme Vám E-mail na obnovenie hesla. Skontrolujte si Váš spamový kôš, pokiaľ E-mail nedorazí za minútu alebo dve.",
+                "email_sent_message": "Ak je zadaný e-mail registrovaný na našej stránke, pošleme vám email s odkazom na obnovenie hesla. Ak ho nedostanete v najbližšej minúte alebo dvoch, skontrolujte priečinok so spamom.",
                 "not_found_message": "Nenašiel sa žiadny používateľ s takou E-mailovou adresou.",
                 "submit_button": "Obnoviť Heslo",
                 "text": "Vlož svoju E-mailovú adresu a my ti pošleme E-mail s odkazom na obnovenie hesla.",
@@ -410,8 +410,8 @@
                 "username_or_email_placeholder": "Používateľské meno alebo E-Mail"
             },
             "notifications": {
-                "delete_all_confirm": "",
-                "delete_all_tooltip": "",
+                "delete_all_confirm": "Vážne si prajete zmazať všetky notifikácie? Táto akcia je nevratná",
+                "delete_all_tooltip": "Zmazať všetky notifikácie",
                 "discussion_renamed_text": "Používateľ {username} zmenil názov",
                 "empty_text": "Žiadne Upozornenia",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
@@ -442,7 +442,7 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Starý názov bol: \"{old}\"",
-                "discussion_renamed_text": "Používateľ {username} zmenil názov na {new}.",
+                "discussion_renamed_text": "Používateľ {username} zmenil názov na {new} {time}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "O {period} neskôr"
@@ -457,45 +457,45 @@
                 "users_heading": "=> core.ref.users"
             },
             "security": {
-                "browser_on_operating_system": "",
-                "cannot_terminate_current_session": "",
-                "created": "",
-                "current_active_session": "",
-                "developer_tokens_heading": "",
-                "empty_text": "",
+                "browser_on_operating_system": "{browser} na {os}",
+                "cannot_terminate_current_session": "Nie je možné ukončiť aktuálnu aktívnu reláciu. Namiesto toho sa odhláste.",
+                "created": "Vytvorené",
+                "current_active_session": "Aktuálna aktívna relácia",
+                "developer_tokens_heading": "Tokeny pre vývojárov",
+                "empty_text": "Vyzerá to tak, že tu nie je nič vidieť.",
                 "global_logout": {
-                    "heading": "",
-                    "help_text": "",
-                    "log_out_button": ""
+                    "heading": "Globálne odhlásenie",
+                    "help_text": "Vymaže aktuálnu reláciu súborov cookie, ukončí všetky relácie, zruší vývojárske tokeny a zneplatní všetky e-maily s potvrdením alebo obnovením hesla.",
+                    "log_out_button": "=> core.ref.log_out"
                 },
-                "hide_access_token": "",
-                "last_activity": "",
-                "never": "",
-                "new_access_token_button": "",
+                "hide_access_token": "Schovať token",
+                "last_activity": "Posledná aktivita",
+                "never": "=> core.ref.never",
+                "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
-                    "submit_button": "",
-                    "title": "",
-                    "title_placeholder": ""
+                    "submit_button": "Vytvoriť token",
+                    "title": "=> core.ref.new_token",
+                    "title_placeholder": "Názov"
                 },
-                "revoke_access_token": "",
-                "revoke_access_token_confirmation": "",
-                "sessions_heading": "",
-                "session_terminated": "",
-                "session_termination_failed": "",
-                "show_access_token": "",
-                "terminate_all_other_sessions": "",
-                "terminate_all_other_sessions_confirmation": "",
-                "terminate_session": "",
-                "title": "",
-                "token_revoked": "",
-                "token_item_title": "",
-                "token_title_placeholder": ""
+                "revoke_access_token": "Deaktivovať",
+                "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
+                "sessions_heading": "Aktívne relácie",
+                "session_terminated": "{count, plural, one {Relácia vymazaná} other {# Relácií vymazaných}}.",
+                "session_termination_failed": "Vyskytla sa chyba pri mazaní tvojich relácií.",
+                "show_access_token": "Ukázať token",
+                "terminate_all_other_sessions": "Ukončiť všetky ostatné relácie",
+                "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
+                "terminate_session": "Odhlásiť",
+                "title": "=> core.ref.security",
+                "token_revoked": "Token zrušený.",
+                "token_item_title": "{title} - {token}",
+                "token_title_placeholder": "/"
             },
             "settings": {
                 "account_heading": "Účet",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
-                "notification_checkbox_a11y_label_template": "",
+                "notification_checkbox_a11y_label_template": "Dostať \"{description}\" notifikácií cez {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
@@ -525,7 +525,7 @@
                 "posts_empty_text": "Vyzerá to tak že tu nie sú žiadne príspevky.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
-                "security_link": "",
+                "security_link": "=> core.ref.security",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -571,7 +571,7 @@
                 "toggle_dropdown_accessible_label": "Prepnúť rozbaľovacie menu"
             },
             "data_segment": {
-                "label": ""
+                "label": "{label}:"
             },
             "edit_user": {
                 "activate_button": "Aktivovať používateľa",
@@ -588,11 +588,11 @@
                 "nothing_available": "Nemáte povolenia na úpravu tohto používateľa."
             },
             "error": {
-                "circular_dependencies_message": "",
+                "circular_dependencies_message": "Zistené okrúhle závislosti: {extensions}. Prerušené. Vypnite jedno z rozšírení a skúste to znova.",
                 "dependent_extensions_message": "Nemožno deaktivovať {extension} pokiaľ nie sú deaktivované aj nasledujúce doplnky: {extensions}",
                 "extension_initialiation_failed_message": "{extension} sa nepodarilo načítať, skontrolujte konzolu v prehliadači pre viac informácií.",
                 "generic_message": "Hups! Vyskytla sa chyba. Prosím, opätovne načítajte stránku a skúste to znovu.",
-                "generic_cross_origin_message": "",
+                "generic_cross_origin_message": "Ups! Počas cross-origin žiadosti sa niečo pokazilo. Znovu načítajte stránku a skúste to znova.",
                 "missing_dependencies_message": "Nemožno aktivovať {extension} pokiaľ nie sú aktivované aj nasledujúce doplnky: {extensions}",
                 "not_found_message": "Požadovaný obsah sa nenašiel.",
                 "payload_too_large_message": "Požiadavka bola príliš veľká.",
@@ -686,9 +686,9 @@
         "api": {
             "invalid_username_message": "Používateľské meno smie obsahovať iba písmená, číslice, podtržníky alebo pomlčky.",
             "invalid_filter_type": {
-                "must_be_numeric_message": "",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_be_numeric_message": "Filter {filter} musí byť číselný.",
+                "must_not_be_array_message": "Filter {filter} nemôže byť pole.",
+                "must_not_be_multidimensional_array_message": "Filter {filter} nesmie byť multidimenzionálne pole."
             }
         },
         "email": {
@@ -728,7 +728,7 @@
             "edit_user": "Upraviť používateľa",
             "email": "Email",
             "extensions": "Rozšírenia",
-            "generic_confirmation_message": "",
+            "generic_confirmation_message": "Vážne si praješ pokračovať? Táto akcia je nevratná.",
             "icon": "Ikona",
             "icon_text": "Uveď názov akejkoľvek <a>FontAwesome</a> ikonovej triedy, <em>zároveň s</em> predponou <code>fas fa-</code>.",
             "load_more": "Načítať Viac",
@@ -736,8 +736,8 @@
             "log_in": "Prihlásiť Sa",
             "log_out": "Odhlásiť Sa",
             "mark_all_as_read": "Označiť Všetky ako prečítané",
-            "never": "",
-            "new_token": "",
+            "never": "Nikdy",
+            "new_token": "Nový token",
             "next_page": "Nasledujúca Strana",
             "notifications": "Upozornenia",
             "okay": "OK",
@@ -750,8 +750,8 @@
             "reset_your_password": "Obnova Hesla",
             "restore": "Obnoviť",
             "save_changes": "Uložiť Zmeny",
-            "search_users": "",
-            "security": "",
+            "search_users": "Vyhľadávanie používateľov",
+            "security": "Zabezpečenie",
             "settings": "Nastavenia",
             "sign_up": "Registrovať Sa",
             "some_others": "{count, plural, one {# ďalší} few {# ďalší} other {# ďalších}}",
