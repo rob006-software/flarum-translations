@@ -10,8 +10,8 @@
                     "placeholder": "Vyhľadať všetkých používateľov"
                 },
                 "kinds": {
-                    "group": "",
-                    "text": ""
+                    "group": "Skupina",
+                    "text": "Voľný text"
                 }
             },
             "page": {
@@ -21,8 +21,8 @@
                 "empty_text": "Nedokázali sme nájsť žiadneho používateľa ktorý by spĺňal Vaše kritériá.",
                 "filter_button": "Filtrovať Skupiny",
                 "usercard": {
-                    "discussion-count": "",
-                    "post-count": ""
+                    "discussion-count": "{count, plural, one { {count} diskusia} few {{count} diskusie} other {{count} diskusií}}",
+                    "post-count": "{count, plural, one { {count} komentár} few {{count} komentáre} other {{count} komentárov}}"
                 }
             }
         },
@@ -34,7 +34,7 @@
                 "link": "Pridať odkaz na hlavnú stránku pre používateľov ktorí môžu vidieť zoznam",
                 "default-sort": "Predvolené triedenie",
                 "use-small-cards": "Použiť malé karty používateľov",
-                "disable-global-search-source": ""
+                "disable-global-search-source": "Nepridávať zoznam používateľov do globálneho vyhľadávania Flarum"
             }
         },
         "lib": {
