@@ -2,44 +2,44 @@
     "fof-nightmode": {
         "ref": {
             "auto": "Automaticky (záleží na prehliadači alebo nastavení zariadenia)",
-            "light": "",
-            "dark": ""
+            "light": "Svetlý režim",
+            "dark": "Tmavý režim"
         },
         "admin": {
             "settings": {
                 "modal": {
-                    "always_show_theme_toggle_on_header": "",
-                    "default_theme": "",
-                    "default_theme_helper": "",
-                    "theme_auto": "",
-                    "theme_light": "",
-                    "theme_dark": ""
+                    "always_show_theme_toggle_on_header": "Vždy ukazovať v hlavičke fóra tlačítko na prepnutie témy",
+                    "default_theme": "Základná téma fóra",
+                    "default_theme_helper": "Základná téma sa nastaví pre nových používateľov a tých čo ešte nemajú žiadnu nastavenú.",
+                    "theme_auto": "=> fof-nightmode.ref.auto",
+                    "theme_light": "=> fof-nightmode.ref.light",
+                    "theme_dark": "=> fof-nightmode.ref.dark"
                 }
             }
         },
         "forum": {
-            "day": "",
-            "night": "",
+            "day": "=> fof-nightmode.ref.light",
+            "night": "=> fof-nightmode.ref.dark",
             "header": {
-                "nightmode_button": ""
+                "nightmode_button": "Prepnúť tému fóra"
             },
             "user": {
                 "settings": {
-                    "heading": "",
-                    "description": "",
-                    "description2": "",
-                    "device_specific_setting_checkbox": "",
-                    "device_specific_setting_checkbox_tooltip": "",
-                    "auto_unsupported": "",
+                    "heading": "Téma",
+                    "description": "Vyberte si, ktorú farebnú tému chcete používať na fóru.",
+                    "description2": "Táto téma sa prepojí s vašim účtom a bude aplikované na všetky vaše zariadenia.",
+                    "device_specific_setting_checkbox": "Použiť nastavenia individuálne podľa zariadenia",
+                    "device_specific_setting_checkbox_tooltip": "Táto téma sa prepojí s vašim zariadením a bude aplikovaná iba na toto zariadenie.",
+                    "auto_unsupported": "Váš prehliadač nepodporuje automatický tmavý režim.",
                     "options": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "=> fof-nightmode.ref.auto",
+                        "day": "=> fof-nightmode.ref.light",
+                        "night": "=> fof-nightmode.ref.dark"
                     },
                     "option_descriptions": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "Vaša téma sa automaticky vyberie na základe nastavení prehliadača alebo zariadenia. Ak máte napríklad v systéme iOS zapnutý tmavý režim, fórum bude tiež tmavé.",
+                        "day": "Klasický zážitok, na ktorý ste zvyknutí. Obľúbené a otestované.",
+                        "night": "Si tak trochu nočná sova. V noci bdiete nad fórom, kým vtáky spia a líšky lovia. Alebo jednoducho uprednostňuješ tmavšie farby!"
                     }
                 }
             }
@@ -48,10 +48,10 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "fofNightMode": "",
-                "fofNightMode-help": "",
-                "fofNightMode_perDevice": "",
-                "fofNightMode_perDevice-help": ""
+                "fofNightMode": "FoF Nightmode: Základná téma ktorá sa má použiť",
+                "fofNightMode-help": "0 - automatický, 1 - svetlý režim, 2 - tmavý režim",
+                "fofNightMode_perDevice": "FoF Nightmode: Ukladať nastavenia na zariadenie namiesto účtu",
+                "fofNightMode_perDevice-help": "Nastavenia sa uložia do zariadenia (cookies), takže sa na inom zariadení neprejavia"
             }
         }
     }
