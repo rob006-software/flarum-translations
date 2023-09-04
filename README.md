@@ -586,7 +586,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/slovak">Slovak</a></td>
-		<td><a href="https://github.com/CWKevo">CWKevo</a></td>
+		<td><a href="https://github.com/SKevo18">SKevo18</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/sk.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/sk/svg-badge.svg" alt="detailed translation status" />
