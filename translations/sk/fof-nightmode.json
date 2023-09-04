@@ -8,9 +8,9 @@
         "admin": {
             "settings": {
                 "modal": {
-                    "always_show_theme_toggle_on_header": "Vždy ukazovať v hlavičke fóra tlačítko na prepnutie témy",
-                    "default_theme": "Základná téma fóra",
-                    "default_theme_helper": "Základná téma sa nastaví pre nových používateľov a tých čo ešte nemajú žiadnu nastavenú.",
+                    "always_show_theme_toggle_on_header": "Vždy ukazovať v hlavičke fóra tlačidlo na prepnutie témy",
+                    "default_theme": "Predvolená téma fóra",
+                    "default_theme_helper": "Predvolená téma sa nastaví pre nových používateľov a tých čo ešte nemajú žiadnu nastavenú.",
                     "theme_auto": "=> fof-nightmode.ref.auto",
                     "theme_light": "=> fof-nightmode.ref.light",
                     "theme_dark": "=> fof-nightmode.ref.dark"
@@ -26,7 +26,7 @@
             "user": {
                 "settings": {
                     "heading": "Téma",
-                    "description": "Vyberte si, ktorú farebnú tému chcete používať na fóru.",
+                    "description": "Vyberte si, ktorú farebnú tému chcete používať na fóre.",
                     "description2": "Táto téma sa prepojí s vašim účtom a bude aplikované na všetky vaše zariadenia.",
                     "device_specific_setting_checkbox": "Použiť nastavenia individuálne podľa zariadenia",
                     "device_specific_setting_checkbox_tooltip": "Táto téma sa prepojí s vašim zariadením a bude aplikovaná iba na toto zariadenie.",
@@ -39,7 +39,7 @@
                     "option_descriptions": {
                         "auto": "Vaša téma sa automaticky vyberie na základe nastavení prehliadača alebo zariadenia. Ak máte napríklad v systéme iOS zapnutý tmavý režim, fórum bude tiež tmavé.",
                         "day": "Klasický zážitok, na ktorý ste zvyknutí. Obľúbené a otestované.",
-                        "night": "Si tak trochu nočná sova. V noci bdiete nad fórom, kým vtáky spia a líšky lovia. Alebo jednoducho uprednostňuješ tmavšie farby!"
+                        "night": "Si tak trochu nočná sova. V noci bdieš nad fórom, kým vtáky spia a líšky lovia. Alebo jednoducho uprednostňuješ tmavšie farby!"
                     }
                 }
             }
@@ -51,7 +51,7 @@
                 "fofNightMode": "FoF Nightmode: Základná téma ktorá sa má použiť",
                 "fofNightMode-help": "0 - automatický, 1 - svetlý režim, 2 - tmavý režim",
                 "fofNightMode_perDevice": "FoF Nightmode: Ukladať nastavenia na zariadenie namiesto účtu",
-                "fofNightMode_perDevice-help": "Nastavenia sa uložia do zariadenia (cookies), takže sa na inom zariadení neprejavia"
+                "fofNightMode_perDevice-help": "Nastavenia sa uložia do zariadenia (cookies), takže na inom zariadení sa neprejavia"
             }
         }
     }
