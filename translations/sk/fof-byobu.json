@@ -83,7 +83,7 @@
         "admin": {
             "permission": {
                 "create_private_discussions_with_users": "Vytvárať súkromné diskusie s používateľmi",
-                "add_more_than_two_user_recipients": "",
+                "add_more_than_two_user_recipients": "Pridať viac ako 2 príjemcov do súkromnej diskusie",
                 "create_private_discussions_with_groups": "Vytvárať súkromné diskusie so skupinami",
                 "create_private_discussions_with_blocking_users": "Vytvárať súkromné diskusie s používateľmi, ktorí ich blokujú",
                 "edit_user_recipients": "Upravovať príjemcov súkromnej diskusie",
@@ -96,10 +96,10 @@
                 "enable-make-public-option": "Povoliť možnosť \"spraviť verejnou\"",
                 "enable-make-public-option-help": "Pridáva možnosť pre tých, ktorí majú povolenie, odstrániť všetkých príjemcov, priradiť nový štítok a verejne zviditeľniť diskusiu (podľa nastavení viditeľnosti vybranej značky).",
                 "post-event-icon": "Byobu Udalosti Príspevkov",
-                "delete_on_last_recipient_left": "",
-                "delete_on_last_recipient_left_help": "",
-                "hide_from_all_discussions_page": "",
-                "hide_from_all_discussions_page_help": ""
+                "delete_on_last_recipient_left": "Odstrániť súkromnú diskusiu, pokiaľ odíde posledný užívateľ",
+                "delete_on_last_recipient_left_help": "Ak je povolené, súkromná diskusia bude navždy zmazaná z databáze, ak posledný užívateľ odíde. V inom prípade, budú súkromné diskusie skryté.",
+                "hide_from_all_discussions_page": "Skryť súkromné diskusie zo stránky \"Všetky diskusie\"",
+                "hide_from_all_discussions_page_help": "Súkromné diskusie budú prístupné len na stránke \"Súkromné diskusie\" alebo v profile používateľa"
             }
         },
         "email": {
