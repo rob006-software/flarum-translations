@@ -4,12 +4,12 @@
             "settings": {
                 "error": {
                     "403": "403 Forbidden",
-                    "404": "",
-                    "500": "",
-                    "503": ""
+                    "404": "404 Nenájdené",
+                    "500": "500 Interná chyba servera",
+                    "503": "503 Služba nedostupná (vypnutá z dôvodu údržby)"
                 },
                 "placeholder": {
-                    "empty_for_default": ""
+                    "empty_for_default": "Nechajte prázdne pre predvolenú chybovú stránku Flarum"
                 }
             }
         }
