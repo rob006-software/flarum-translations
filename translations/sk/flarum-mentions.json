@@ -2,7 +2,7 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "Spomenúť skupiny"
             },
             "settings": {
                 "allow_username_format_label": "Povoliť formát spomenutia (@Pouzivatelske_meno)",
@@ -11,21 +11,21 @@
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "Spomenúť používateľa alebo príspevok",
+                "mention_tooltip": "Spomenúť používateľa, skupinu alebo komentár",
                 "reply_to_post_text": "Odpovedať na #{number}"
             },
             "mentioned_by": {
-                "title": "",
-                "load_more_button": ""
+                "title": "Odpovedí na komentár",
+                "load_more_button": "=> core.ref.load_more"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "Používateľ {username} odpovedal na Váš príspevok",
                 "user_mentioned_text": "Používateľ {username} Vás spomenul",
-                "group_mentioned_text": ""
+                "group_mentioned_text": "{username} spomenul skupinu v ktorej ste"
             },
             "post": {
-                "mentioned_by_more_text": "",
+                "mentioned_by_more_text": "{count} ďalších spomenutí.",
                 "mentioned_by_self_text": "Používateľ(ia) {users} na toto odpovedal(i).",
                 "mentioned_by_text": "Používateľ(ia) {users} na toto odpovedal(i).",
                 "others_text": "=> core.ref.some_others",
@@ -36,7 +36,7 @@
             "settings": {
                 "notify_post_mentioned_label": "Niekto odpovie na jeden z mojich príspevok",
                 "notify_user_mentioned_label": "Niekto ma spomenie v príspevku",
-                "notify_group_mentioned_label": ""
+                "notify_group_mentioned_label": "Niekto zmieni skupiny v ktorej som"
             },
             "user": {
                 "mentions_link": "Spomenutia"
@@ -45,7 +45,7 @@
                 "deleted_text": "[neznáme]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[neznáma skupina]"
             }
         },
         "email": {
@@ -58,8 +58,8 @@
                 "body": "Ahoj {recipient_display_name}!\n\n{mentioner_display_name} Vás spomenul v príspevku v diskusii {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} zmienil skupinu v ktorej ste, pod názvom {title}",
+                "body": "Ahoj {recipient_display_name}!\n\n{mentioner_display_name} Vás spomenul v skupine v ktorej ste, pod názvom {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
