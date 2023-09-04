@@ -2,35 +2,35 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "Vyberte si vlastný rozsah dátumov, pre ktorý chcete zobraziť štatistiky.\nNačítanie údajov môže trvaťniekoľko minút na fórach s veľkou aktivitou.\n",
+                "end_date": "Dátum ukončenia (vrátane)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "Dátum ukončenia musí byť po dátume začatia."
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "Dátum začiatku (vrátane)",
+                "submit_button": "Potvrdiť rozsah dátumov",
+                "title": "Výber vlastného rozsahu dátumov"
             },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
-                "export_chart_button": "",
+                "export_chart_button": "Exportovať graf do SVG",
                 "last_12_months_label": "Posl. 12 mesiacov",
                 "last_28_days_label": "Posl. 28 dní",
                 "last_7_days_label": "Posl. 7 dní",
                 "mini_heading": "Štatistiky fóra",
                 "previous_28_days_label": "Posl. 28 dní",
                 "previous_7_days_label": "Posl. 7 dní",
-                "custom_label": "",
-                "custom_label_specified": "",
+                "custom_label": "Vyberte si vlastný rozsah...",
+                "custom_label_specified": "{fromDate} do {toDate}",
                 "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "Dnes",
                 "total_label": "Celkom",
                 "users_heading": "=> core.ref.users",
                 "view_full": "Zobraziť viac údajov",
-                "no_data": "",
-                "current_period": "",
-                "previous_period": "",
+                "no_data": "Pre tento rozsah dátumov nie sú k dispozícii žiadne údaje.",
+                "current_period": "Aktuálne obdobie",
+                "previous_period": "Predchádzajúce obdobie",
                 "active_users_text": "{count} aktívnych používatelov"
             }
         }
