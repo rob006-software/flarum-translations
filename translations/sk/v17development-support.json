@@ -6,9 +6,9 @@
             "return_to_home": "",
             "ask_your_question_on_forum": "",
             "or": "",
-            "settings": "",
-            "send": "",
-            "create": "",
+            "settings": "=> core.ref.settings",
+            "send": "Odoslať",
+            "create": "Vytvoriť",
             "discard": "",
             "reopen": "",
             "support_tickets": "",
@@ -57,7 +57,7 @@
             "article": {
                 "article": "",
                 "articles": "",
-                "hidden": "",
+                "hidden": "Skrytý",
                 "created_at": "",
                 "author": "",
                 "authors": "",
@@ -74,7 +74,7 @@
                     "audit_log": "",
                     "hide_article": "",
                     "recover_article": "",
-                    "delete_forever": "",
+                    "delete_forever": "Vymazať navždy",
                     "view_ratings": ""
                 }
             },
@@ -111,10 +111,10 @@
                     "loading_ratings": "",
                     "no_ratings_found": "",
                     "article_not_rated": "",
-                    "confirm_delete_rating": "",
+                    "confirm_delete_rating": "Si si istý že chceš vymazať túto recenziu?",
                     "feedback": "",
                     "rating": "",
-                    "username": "",
+                    "username": "=> core.ref.username",
                     "rated_on": ""
                 }
             },
@@ -133,7 +133,7 @@
                 "publish_article_hint": "",
                 "manage_tags": "",
                 "write": "",
-                "view": "",
+                "view": "Zobraziť",
                 "nothing_to_preview": "",
                 "warning_save_changes": "",
                 "article_saved": ""
@@ -163,7 +163,7 @@
                         "description": ""
                     },
                     "open": {
-                        "title": "",
+                        "title": "Otvorené",
                         "description": ""
                     },
                     "pending": {
@@ -172,7 +172,7 @@
                         "description_user": ""
                     },
                     "closed": {
-                        "title": "",
+                        "title": "Uzavreté",
                         "description": "",
                         "is_closed": "",
                         "close_after_posting": "",
@@ -260,7 +260,7 @@
                     "selection_unfiltered": "",
                     "selection_open": "",
                     "selection_closed": "",
-                    "refresh": "",
+                    "refresh": "Obnoviť",
                     "filter": {
                         "status": {
                             "title": "",
