@@ -782,7 +782,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'vMajor.Minor.Patch',
 		],
-		'maintainers' => ['CWKevo'],
+		'maintainers' => ['SKevo18'],
 	],
 	'sl' => [
 		'type' => 'language',
