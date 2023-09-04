@@ -70,14 +70,14 @@
                     "scheduler": {
                         "active": "Aktívny",
                         "inactive": "Neaktívny",
-                        "never-run": "Nikdy nespúšťať"
+                        "never-run": "Nikdy nespustený"
                     }
                 },
                 "title": "Hlavný Panel",
                 "tools_button": "Nástroje"
             },
             "debug-warning": {
-                "detail": "Keď je aktívny režim <code>debug</code>, Flarum pri každej požiadavke obnoví svoje prostriedky <code>JavaScript</code> a <code>CSS</code> a môže potenciálne vypustiť aj iné informácie, ako sú secrety databázy, premenné prostredia atď.\n\nDôrazne sa odporúča vypnúť <code>debug</code> v súbore <code>config.php</code> v produkčnom prostredí. Viac informácií nájdete v <link>Dokumentoch k programu Flarum</link>.\n",
+                "detail": "Keď je aktívny režim <code>debug</code>, Flarum pri každej požiadavke obnoví svoje prostriedky <code>JavaScript</code> a <code>CSS</code> a môže potenciálne vypustiť aj iné informácie, ako sú secrety databázy, premenné prostredia atď.\n\nDôrazne sa odporúča vypnúť <code>debug</code> v súbore <code>config.php</code> v produkčnom prostredí. Viac informácií nájdete v <link>dokumentácií k programu Flarum</link>.\n",
                 "label": "Debug režim aktivovaný"
             },
             "edit_css": {
@@ -253,7 +253,7 @@
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": "Ukazované meno"
+                            "title": "Zobrazované meno"
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
@@ -462,7 +462,7 @@
                 "created": "Vytvorené",
                 "current_active_session": "Aktuálna aktívna relácia",
                 "developer_tokens_heading": "Tokeny pre vývojárov",
-                "empty_text": "Vyzerá to tak, že tu nie je nič vidieť.",
+                "empty_text": "Vyzerá to tak, že tu nič nie je.",
                 "global_logout": {
                     "heading": "Globálne odhlásenie",
                     "help_text": "Vymaže aktuálnu reláciu súborov cookie, ukončí všetky relácie, zruší vývojárske tokeny a zneplatní všetky e-maily s potvrdením alebo obnovením hesla.",
@@ -480,8 +480,8 @@
                 "revoke_access_token": "Deaktivovať",
                 "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
                 "sessions_heading": "Aktívne relácie",
-                "session_terminated": "{count, plural, one {Relácia vymazaná} other {# Relácií vymazaných}}.",
-                "session_termination_failed": "Vyskytla sa chyba pri mazaní tvojich relácií.",
+                "session_terminated": "{count, plural, one {Relácia bola ukončená} few {# relácie boli ukončené} other {# relácií bolo ukončených}}.",
+                "session_termination_failed": "Vyskytla sa chyba pri ukončovaní tvojich relácií.",
                 "show_access_token": "Ukázať token",
                 "terminate_all_other_sessions": "Ukončiť všetky ostatné relácie",
                 "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
@@ -495,7 +495,7 @@
                 "account_heading": "Účet",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
-                "notification_checkbox_a11y_label_template": "Dostať \"{description}\" notifikácií cez {method}",
+                "notification_checkbox_a11y_label_template": "Dostávať notifikácie pre \"{description}\" prostredníctvom {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
@@ -588,7 +588,7 @@
                 "nothing_available": "Nemáte povolenia na úpravu tohto používateľa."
             },
             "error": {
-                "circular_dependencies_message": "Zistené okrúhle závislosti: {extensions}. Prerušené. Vypnite jedno z rozšírení a skúste to znova.",
+                "circular_dependencies_message": "Boli zistené cyklické závislosti: {extensions}. Prerušujem. Vypnite jedno z rozšírení a skúste to znova.",
                 "dependent_extensions_message": "Nemožno deaktivovať {extension} pokiaľ nie sú deaktivované aj nasledujúce doplnky: {extensions}",
                 "extension_initialiation_failed_message": "{extension} sa nepodarilo načítať, skontrolujte konzolu v prehliadači pre viac informácií.",
                 "generic_message": "Hups! Vyskytla sa chyba. Prosím, opätovne načítajte stránku a skúste to znovu.",
@@ -728,7 +728,7 @@
             "edit_user": "Upraviť používateľa",
             "email": "Email",
             "extensions": "Rozšírenia",
-            "generic_confirmation_message": "Vážne si praješ pokračovať? Táto akcia je nevratná.",
+            "generic_confirmation_message": "Naozaj si praješ pokračovať? Táto akcia je nevratná.",
             "icon": "Ikona",
             "icon_text": "Uveď názov akejkoľvek <a>FontAwesome</a> ikonovej triedy, <em>zároveň s</em> predponou <code>fas fa-</code>.",
             "load_more": "Načítať Viac",
