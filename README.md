@@ -876,7 +876,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`antoinefr-online`](https://weblate.rob006.net/projects/flarum/antoinefr-online) | [`antoinefr/flarum-ext-online`](https://github.com/AntoineFr/flarum-ext-online) |
 | [`archlinux-de-click-image`](https://weblate.rob006.net/projects/flarum/archlinux-de-click-image) | [`archlinux-de/flarum-click-image`](https://github.com/archlinux-de/flarum-click-image) |
 | [`askvortsov-article-series`](https://weblate.rob006.net/projects/flarum/askvortsov-article-series) | [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series) |
-| [`askvortsov-auto-moderator`](https://weblate.rob006.net/projects/flarum/askvortsov-auto-moderator) | [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-auto-moderator) |
+| [`askvortsov-auto-moderator`](https://weblate.rob006.net/projects/flarum/askvortsov-auto-moderator) | [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-automod) |
 | [`askvortsov-categories`](https://weblate.rob006.net/projects/flarum/askvortsov-categories) | [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories) |
 | [`askvortsov-checklist`](https://weblate.rob006.net/projects/flarum/askvortsov-checklist) | [`askvortsov/flarum-checklist`](https://github.com/askvortsov1/flarum-checklist) |
 | [`askvortsov-discussion-templates`](https://weblate.rob006.net/projects/flarum/askvortsov-discussion-templates) | [`askvortsov/flarum-discussion-templates`](https://github.com/askvortsov1/flarum-discussion-templates) |
