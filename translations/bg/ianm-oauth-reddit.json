@@ -4,9 +4,7 @@
             "settings": {
                 "providers": {
                     "reddit": {
-                        "description": "Регистрирай твоя форум с Reddit {link}",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Регистрирай твоя форум с Reddit {link}"
                     }
                 }
             }
@@ -17,11 +15,6 @@
             },
             "providers": {
                 "reddit": "=> fof-oauth.lib.providers.reddit"
-            }
-        },
-        "lib": {
-            "providers": {
-                "reddit": ""
             }
         }
     }
