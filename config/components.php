@@ -68,7 +68,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-article-series/v0.2.0/locale/en.yml',
 	],
 	'askvortsov-auto-moderator' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-auto-moderator/v0.1.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-automod/v0.1.3/resources/locale/en.yml',
 	],
 	'askvortsov-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-categories/v3.0.9/resources/locale/en.yml',
