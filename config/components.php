@@ -104,7 +104,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-conversations/0.1.2/locale/en.yml',
 	],
 	'blomstra-flag-duplicates' => [
-		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-flag-duplicate/0.2.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-flag-duplicate/0.2.1/locale/en.yml',
 	],
 	'blomstra-fontawesome' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-fontawesome/0.1.5/locale/en.yml',
