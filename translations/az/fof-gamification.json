@@ -2,132 +2,132 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "",
-                "votes_button": ""
+                "hot_button": "Trenddə",
+                "votes_button": "Müsbət səslər"
             }
         }
     },
     "fof-gamification": {
         "forum": {
-            "votes": "",
-            "vote_title": "",
+            "votes": "Səslər",
+            "vote_title": "Səsverənləri göstər",
             "nav": {
-                "name": ""
+                "name": "Sıralamalar"
             },
             "ranking": {
-                "rank": "",
-                "name": "",
-                "amount": ""
+                "rank": "Yer",
+                "name": "İstifadəçi",
+                "amount": "Xal"
             },
             "notification": {
-                "upvote": "",
-                "downvote": "",
+                "upvote": "{username} paylaşımınıza müsbət səs verdi",
+                "downvote": "{username} paylaşımınıza mənfi səs verdi",
                 "prefrences": {
-                    "vote": ""
+                    "vote": "Paylaşımlarımdan birinə müsbət/mənfi səs verildikdə"
                 }
             },
             "user": {
                 "card": {
-                    "points": ""
+                    "points": "{count, plural, one { {count} xal} other {{count} xal}}"
                 },
-                "rank": "",
-                "votes_link": ""
+                "rank": "{rank}",
+                "votes_link": "Səslər"
             },
             "modal": {
-                "downvotes_label": "",
-                "title": "",
-                "upvotes_label": ""
+                "downvotes_label": "Mənfi səs verənlər:",
+                "title": "Səsverənlər",
+                "upvotes_label": "Müsbət səs verənlər:"
             },
-            "mod_item": "",
+            "mod_item": "Səsverənlərə bax",
             "voters": {
-                "none": "",
-                "label": "",
-                "label_none": ""
+                "none": "Hələ ki, səsverən yoxdur",
+                "label": "Səsverənlər",
+                "label_none": "Səsverən yoxdur"
             },
             "post": {
-                "upvote_button": "",
-                "downvote_button": ""
+                "upvote_button": "Müsbət səs ver",
+                "downvote_button": "Mənfi səs ver"
             }
         },
         "admin": {
             "permissions": {
-                "vote_label": "",
-                "see_votes_label": "",
-                "see_voters_label": "",
-                "see_ranking_page": "",
-                "upvote_notifications": "",
-                "downvote_notifications": ""
+                "vote_label": "Paylaşımlara müsbət/mənfi səs ver",
+                "see_votes_label": "Müsbət/mənfi səslərin sayına bax",
+                "see_voters_label": "Kimin səs verdiyinə bax",
+                "see_ranking_page": "Sıralama səhifəsinə bax",
+                "upvote_notifications": "Müsbət səslərlə bağlı bildirişlər al",
+                "downvote_notifications": "Mənfi səslərlə bağlı bildirişlər al"
             },
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "",
-                        "title": "",
-                        "help": ""
+                        "placeholder": "admin, istifadəçi1, istifadəçi2",
+                        "title": "Diqqətə alınmayan istifadəçilər",
+                        "help": "Bu istifadəçilər sıralamalar səhifəsində göstərilməyəcək. İstifadəçi adları vergüldən sonra boşluqla ayrılmalıdır."
                     },
-                    "title": "",
-                    "enable": "",
-                    "custom_image_1": "",
-                    "custom_image_2": "",
-                    "custom_image_3": ""
+                    "title": "Sıralamalar səhifəsi",
+                    "enable": "Fərdi şəkilləri aktivləşdir",
+                    "custom_image_1": "1-ci yerin şəkli",
+                    "custom_image_2": "2-ci yerin şəkli",
+                    "custom_image_3": "3-cü yerin şəkli"
                 },
                 "alt_votes": {
-                    "icon_name": ""
+                    "icon_name": "Alternativ layout ikon adı"
                 },
                 "votes": {
-                    "points_title": "",
-                    "points_placeholder": "",
-                    "color_holder": "",
-                    "auto_upvote": "",
-                    "rate_limit": "",
-                    "discussion_page": "",
-                    "alternate_layout": "",
-                    "alternate_post_layout": "",
-                    "title": "",
-                    "vote_color": "",
-                    "icon_name": "",
-                    "icon_help": "",
-                    "upvotes_only": "",
-                    "first_post_only": "",
-                    "allow_self_votes": ""
+                    "points_title": "Xal yeri",
+                    "points_placeholder": "Xal: ",
+                    "color_holder": "#ffffff",
+                    "auto_upvote": "Paylaşdıqda avtomatik müsbət səs ver",
+                    "rate_limit": "Səsvermə limitini tətbiq et (10 saniyə)",
+                    "discussion_page": "Müzakirələr siyahısında orijinal paylaşımın ümumi səslərini göstər",
+                    "alternate_layout": "Müzakirələr siyahısında alternativ səsvermə layoutundan istifadə et",
+                    "alternate_post_layout": "Müzakirələrdə alternativ səsvermə layoutundan istifadə et",
+                    "title": "Səslər",
+                    "vote_color": "Səs verilmiş rəng",
+                    "icon_name": "Müsbət/mənfi səsvermə ikonu",
+                    "icon_help": "-up və -down şəkilçisi olan istənilən Font-Awesome işarəsini daxil edin. Nümunələr: arrow, thumbs, chevron",
+                    "upvotes_only": "Yalnız müsbət səs verməyə icazə ver",
+                    "first_post_only": "Müzakirələrdə yalnız ilk paylaşımda müsbət/mənfi səslərə icazə ver",
+                    "allow_self_votes": "İstifadəçilər öz paylaşımlarına səs verə bilər"
                 },
-                "save_settings": "",
+                "save_settings": "Parametrləri yadda saxla",
                 "convert": {
-                    "button": "",
-                    "help": "",
-                    "converting": "",
-                    "converted": ""
+                    "button": "Bəyənmələri müsbət səslərə çevir",
+                    "help": "Əvvəlki bəyənmələrinizi flarum-ext-likes - dən müsbət səslərə çevirin, həmçinin bütün cari müzakirələr üçün trendliyi hesablayın.",
+                    "converting": "Bəyənmələriniz çevrilir. Prosesin bitdiyini görmək üçün bir neçə dəqiqədən sonra saytı yeniləyin. (Dönüşümün müddəti ümumi forum bəyənmələrinizdən asılı olaraq bir müddət çəkə bilər)",
+                    "converted": "Bütün {number} bəyənmə uğurla çevrildi"
                 },
                 "ranks": {
-                    "title": "",
-                    "ranks": "",
-                    "number_title": "",
+                    "title": "Sıralamalar",
+                    "ranks": "Fərdi sıralamalar",
+                    "number_title": "Neçə sıralama nişanı göstərilməlidir?",
                     "help": {
-                        "color": "",
-                        "help": "",
-                        "points": "",
-                        "name": ""
+                        "color": "#ffffff",
+                        "help": "Tələb olunan müsbət səslərin sayını, sıralamanın adını və dərəcənin hex rəngini daxil edin",
+                        "points": "Xal",
+                        "name": "Ad"
                     }
                 },
                 "groups": {
-                    "title": "",
-                    "help": "",
+                    "title": "Avtomatik olaraq təyin edilmiş qruplar",
+                    "help": "İstifadəçinin xallarının sayı dəyişdikdə seçilmiş qruplara avtomatik əlavə olunacaq və ya silinəcək. Konfiqurasiyada dəyişiklik etmisinizsə, mövcud istifadəçiləri yeniləmək üçün <code>php flarum fof:gamification:assign-groups</code> əmrini icra etməlisiniz. Bir qaydanı silmək və bütün istifadəçiləri qrupdan çıxarmaq istəyirsinizsə, həm minimum, həm də maksimum dəyərləri boş sətirə təyin edin, parametrləri yadda saxlayın və əmrini icra edin. Sonda, qaydanı parametrlərdən tamamilə silə bilərsiniz.\n",
                     "column": {
-                        "group": "",
-                        "minPoints": "",
-                        "maxPoints": ""
+                        "group": "Qrup",
+                        "minPoints": "Minimum xal (daxil olmaqla)",
+                        "maxPoints": "Maksimum xal (daxil olmaqla)"
                     },
-                    "add": "",
-                    "delete": ""
+                    "add": "Yeni qayda əlavə et",
+                    "delete": "Qaydanı sil"
                 }
             }
         },
         "email": {
             "body": {
-                "postVoted": ""
+                "postVoted": "Salam {recipient_display_name},\n\n{actor_display_name} indicə {discussion_title} bölməsindəki paylaşımınıza səs verdi.\n\nKeçid üçün: {discussion_url}\n"
             },
             "subject": {
-                "postVoted": ""
+                "postVoted": "{display_name} paylaşımınıza səs verdi"
             }
         }
     }
