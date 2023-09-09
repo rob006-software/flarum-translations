@@ -394,6 +394,9 @@ return [
 	'datlechin-oauth-envato' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-oauth-envato/0.1.0/locale/en.yml',
 	],
+	'datlechin-oauth-spotify' => [
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-oauth-spotify/v0.1.0/locale/en.yml',
+	],
 	'datlechin-offline-indicator' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-offline-indicator/v0.1.0/locale/en.yml',
 	],
