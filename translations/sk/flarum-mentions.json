@@ -22,7 +22,7 @@
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "Používateľ {username} odpovedal na Váš príspevok",
                 "user_mentioned_text": "Používateľ {username} Vás spomenul",
-                "group_mentioned_text": "{username} spomenul skupinu v ktorej ste"
+                "group_mentioned_text": "{username} spomenul skupinu ktorej ste členom"
             },
             "post": {
                 "mentioned_by_more_text": "{count} ďalších spomenutí.",
@@ -36,7 +36,7 @@
             "settings": {
                 "notify_post_mentioned_label": "Niekto odpovie na jeden z mojich príspevok",
                 "notify_user_mentioned_label": "Niekto ma spomenie v príspevku",
-                "notify_group_mentioned_label": "Niekto zmieni skupiny v ktorej som"
+                "notify_group_mentioned_label": "Niekto zmieni skupinu ktorej som členom"
             },
             "user": {
                 "mentions_link": "Spomenutia"
@@ -58,8 +58,8 @@
                 "body": "Ahoj {recipient_display_name}!\n\n{mentioner_display_name} Vás spomenul v príspevku v diskusii {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "{mentioner_display_name} zmienil skupinu v ktorej ste, pod názvom {title}",
-                "body": "Ahoj {recipient_display_name}!\n\n{mentioner_display_name} Vás spomenul v skupine v ktorej ste, pod názvom {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "subject": "{mentioner_display_name} spomenul skupinu ktorej ste členom v diskusii {title}",
+                "body": "Ahoj {recipient_display_name}!\n\n{mentioner_display_name} spomenul skupinu ktorej ste členom v diskusií {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
