@@ -1,23 +1,23 @@
 {
     "sycho-profile-cover": {
         "admin": {
-            "thumbnails": "",
-            "max_size": "",
+            "thumbnails": "Vytvoriť náhlady",
+            "max_size": "Maximálna veľkosť obrázka (v KB)",
             "permission": {
-                "set_cover": ""
+                "set_cover": "Nastaviť banner"
             }
         },
         "forum": {
-            "cover": "",
-            "edit_cover": "",
-            "notice": "",
+            "cover": "Banner",
+            "edit_cover": "Upraviť banner",
+            "notice": "Maximálna veľkosť: {size}",
             "added": {
-                "success": "",
-                "error": ""
+                "success": "Aktualizovaný banner.",
+                "error": "Nepodarilo sa nahrať obrázok."
             },
             "removed": {
-                "success": "",
-                "error": ""
+                "success": "Banner odobraný.",
+                "error": "Nepodarilo sa odobrať banner, skús to neskôr."
             }
         }
     }
