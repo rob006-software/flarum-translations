@@ -4074,6 +4074,17 @@
 		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-oauth-envato/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/datlechin-oauth-envato/fa/"><img src="https://weblate.rob006.net/widgets/flarum/fa/datlechin-oauth-envato/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/datlechin/flarum-oauth-spotify" title="datlechin/flarum-oauth-spotify"><code>datlechin/flarum-oauth-spotify</code></a>
+		</td>
+		<td align="center">369</td>
+		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-oauth-spotify/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-oauth-spotify/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-oauth-spotify/stats">0</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/datlechin-oauth-spotify/fa/"><img src="https://weblate.rob006.net/widgets/flarum/fa/datlechin-oauth-spotify/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
 </tbody>
 </table>
 
