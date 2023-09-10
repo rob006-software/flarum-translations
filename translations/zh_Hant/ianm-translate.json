@@ -37,7 +37,8 @@
                     }
                 },
                 "provider": "翻譯提供商",
-                "readme-info": "有關擴展信息，請參閱 README 文檔。"
+                "readme-info": "有關擴展信息，請參閱 README 文檔。",
+                "readme-none": ""
             }
         },
         "forum": {
@@ -49,6 +50,9 @@
                     "close-translation": "關閉翻譯",
                     "translated-header": "機器人將{from}翻譯為{to}",
                     "translated-updated": "使用 {provider} 最後更新 {time} 的翻譯"
+                },
+                "title": {
+                    "detected-language": ""
                 }
             },
             "user": {

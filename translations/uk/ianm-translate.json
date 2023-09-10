@@ -37,7 +37,8 @@
                     }
                 },
                 "provider": "Постачальник послуг перекладу",
-                "readme-info": "Більш детальну інформацію можна знайти в документації README."
+                "readme-info": "Більш детальну інформацію можна знайти в документації README.",
+                "readme-none": ""
             }
         },
         "forum": {
@@ -49,6 +50,9 @@
                     "close-translation": "Закрити переклад",
                     "translated-header": "Переклад ШІ з {from} на {to}",
                     "translated-updated": "Переклад востаннє оновлено {time} за допомогою {provider}"
+                },
+                "title": {
+                    "detected-language": ""
                 }
             },
             "user": {

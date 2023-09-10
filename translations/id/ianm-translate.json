@@ -37,7 +37,8 @@
                     }
                 },
                 "provider": "Penyedia terjemahan",
-                "readme-info": "Lihat dokumentasi README untuk informasi lebih lanjut."
+                "readme-info": "Lihat dokumentasi README untuk informasi lebih lanjut.",
+                "readme-none": ""
             }
         },
         "forum": {
@@ -49,6 +50,9 @@
                     "close-translation": "Tutup terjemahan",
                     "translated-header": "Terjemahan AI dari {from} ke {to}",
                     "translated-updated": "Terjemahan terakhir diperbarui {time} menggunakan {provider}"
+                },
+                "title": {
+                    "detected-language": ""
                 }
             },
             "user": {

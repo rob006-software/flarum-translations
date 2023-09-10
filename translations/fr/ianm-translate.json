@@ -39,6 +39,7 @@
                 },
                 "provider": "Fournisseur de services de traduction",
                 "readme-info": "Pour plus d'informations, veuillez consulter la documentation dans le fichier README.",
+                "readme-none": "",
                 "any-language": "Toutes les langues",
                 "any-language-help": "Lorsque cette option est activée, toutes les langues de traduction prises en charge par le fournisseur actuel seront disponibles. Pour limiter les langues de traduction à celles qui sont activées sur votre forum, veuillez laisser cette option désactivée."
             }
@@ -52,6 +53,9 @@
                     "close-translation": "Fermer la traduction",
                     "translated-header": "Traduction par intelligence artificielle de {from} en {to}",
                     "translated-updated": "Dernière mise à jour de la traduction le {time} en utilisant {provider}"
+                },
+                "title": {
+                    "detected-language": ""
                 }
             },
             "user": {
