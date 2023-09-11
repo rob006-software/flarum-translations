@@ -1,0 +1,79 @@
+{
+    "ianm-twofactor": {
+        "admin": {
+            "edit_group": {
+                "2fa_label": "2FA required",
+                "2fa_help": "Require members of this group to enable Two-Factor Authentication (2FA) for their account.",
+                "admin_2fa_help": "{adminName} members must always have 2FA enabled."
+            },
+            "permissions": {
+                "see_two_factor_status_label": "View 2FA status of other users",
+                "manage_others_label": "Manage 2FA for other users"
+            },
+            "settings": {
+                "groups": {
+                    "title": "2FA Required Groups",
+                    "help": "Require members of these groups to enable Two-Factor Authentication (2FA) for their account. A user in a required group cannot disable 2FA."
+                },
+                "forum_logo_qr": "Embed Forum Logo on QR Code",
+                "forum_logo_qr_help": "Embed the forum logo on the QR code displayed when enabling 2FA. This may help users identify the correct QR code to scan.",
+                "forum_logo_qr_width": "Forum Logo QR Code Width",
+                "forum_logo_qr_width_help": "The width of the forum logo embedded on the QR code displayed when enabling 2FA. Max 200."
+            }
+        },
+        "forum": {
+            "user_2fa": {
+                "alert_message": "You must enable 2FA to continue accessing your account."
+            },
+            "security": {
+                "two_factor_heading": "2FA",
+                "two_factor_help": "Two-Factor Authentication (2FA) provides an extra layer of security to your account. Once enabled, in addition to your password, you'll be required to enter a token from your authentication app when logging in or carrying out certain other actions. This ensures your account remains secure, even if your password is compromised, as attackers would also need a code (which changes every 30 seconds) to access your account.",
+                "two_factor_apps": "Apps such as {google}, {authy}, {microsoft}, and more are available for free.",
+                "two_factor_enabled": "2FA is enabled on this account.",
+                "two_factor_disabled": "2FA is disabled on this account.",
+                "two_factor_title": "Status:",
+                "enable_2fa_button": "Enable 2FA",
+                "disable_2fa_button": "Disable 2FA",
+                "enable_2fa_modal_text": "Scan the QR code below with your authentication app, then enter the provided token to enable Two-Factor Authentication.",
+                "qr_code_alt": "QR Code for Two-Factor Authentication",
+                "enter_token": "Enter Token",
+                "verify_button": "Verify",
+                "loading_qr": "Loading QR Code...",
+                "backup_codes": "Your Backup Codes",
+                "backup_codes_instruction": "Please save these codes in a secure place. They can be used to access your account if you lose your primary authentication method. They will not be displayed again.",
+                "saved_backup_codes_button": "I've saved these codes",
+                "two_factor_enabled_confirmation": "Two-Factor Authentication has been successfully enabled for your account.",
+                "ok_button": "Ok",
+                "confirm_disable_2fa_title": "Confirm Disabling Two-Factor Authentication",
+                "confirm_disable_2fa_text": "Are you sure you want to disable Two-Factor Authentication?",
+                "cannot_disable": "The current configuration dictates that you cannot disable Two-Factor Authentication.",
+                "cannot_disable_tooltip": "Cannot disable 2FA",
+                "cancel_button": "Cancel",
+                "qr_tab": "Scan QR Code",
+                "manual_tab": "Manual Setup",
+                "scan_qr_instruction": "Scan the QR code above with your authentication app, then enter the provided token to enable Two-Factor Authentication.",
+                "manual_entry_instruction": "Enter the provided code into your authentication app, then enter the generated token to enable Two-Factor Authentication."
+            },
+            "log_in": {
+                "two_factor_placeholder": "2FA Token, e.g., 123456",
+                "two_factor_required_message": "A valid 2FA token is required to continue."
+            }
+        },
+        "email": {
+            "subject": {
+                "status_changed": "Two-Factor Authentication {type} for your account"
+            },
+            "body": {
+                "status_changed": "Hello {recipient_display_name},\n\nTwo-Factor Authentication has been {type} for your account on {forum_url}. \n\nIf you initiated this action, no further steps are necessary. If you did not authorize this change, please contact the forum administrators immediately.\n"
+            }
+        },
+        "views": {
+            "reset_password": {
+                "two_factor_token_label": "2FA Token"
+            },
+            "two_factor_token": {
+                "submit_button": "Submit Token"
+            }
+        }
+    }
+}
