@@ -1017,6 +1017,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ianm-oauth-twitch`](https://weblate.rob006.net/projects/flarum/ianm-oauth-twitch) | [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch) |
 | [`ianm-syndication`](https://weblate.rob006.net/projects/flarum/ianm-syndication) | [`ianm/syndication`](https://github.com/imorland/syndication) |
 | [`ianm-synopsis`](https://weblate.rob006.net/projects/flarum/ianm-synopsis) | [`ianm/synopsis`](https://github.com/imorland/synopsis) |
+| [`ianm-twofactor`](https://weblate.rob006.net/projects/flarum/ianm-twofactor) | [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) |
 | [`jeromegillard-map`](https://weblate.rob006.net/projects/flarum/jeromegillard-map) | [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map) |
 | [`jslirola-login2seeplus`](https://weblate.rob006.net/projects/flarum/jslirola-login2seeplus) | [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus) |
 | [`justoverclock-auto-post-count-badge`](https://weblate.rob006.net/projects/flarum/justoverclock-auto-post-count-badge) | [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge) |
