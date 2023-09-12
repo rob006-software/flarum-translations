@@ -6,9 +6,15 @@
                 "forum_new_discussions": "Нові дискусії на форумі",
                 "tag_activity": "Активність по тегу «{tag}»",
                 "tag_new_discussions": "Дискусії в тегу «{tag}»",
-                "discussion_last_posts": "Ця дискусія"
+                "discussion_last_posts": "Ця дискусія",
+                "user_last_posts": ""
             },
             "feeds": {
+                "entries": {
+                    "user_posts": {
+                        "title_reply": ""
+                    }
+                },
                 "titles": {
                     "main_title": "{forum_name}",
                     "main_subtitle": "Останні дописи на форумі",
@@ -19,7 +25,9 @@
                     "tag_d_title": "Нові дискусії в тезі «{tag}»",
                     "tag_d_subtitle": "Найновіші дискусії в тезі «{tag}»",
                     "discussion_title": "{discussion_name}",
-                    "discussion_subtitle": "Останні повідомлення в цій дискусії"
+                    "discussion_subtitle": "Останні повідомлення в цій дискусії",
+                    "user_title": "",
+                    "user_subtitle": ""
                 }
             },
             "discussion": {

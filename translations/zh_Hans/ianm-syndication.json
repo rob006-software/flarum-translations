@@ -6,9 +6,15 @@
                 "forum_new_discussions": "论坛新帖",
                 "tag_activity": "{tag} 标签活动",
                 "tag_new_discussions": "{tag} 标签新帖",
-                "discussion_last_posts": "这篇主题"
+                "discussion_last_posts": "这篇主题",
+                "user_last_posts": ""
             },
             "feeds": {
+                "entries": {
+                    "user_posts": {
+                        "title_reply": ""
+                    }
+                },
                 "titles": {
                     "main_title": "{forum_name}",
                     "main_subtitle": "论坛最新回帖",
@@ -19,7 +25,9 @@
                     "tag_d_title": "{tag} 标签新帖",
                     "tag_d_subtitle": "{tag} 标签新帖",
                     "discussion_title": "{discussion_name}",
-                    "discussion_subtitle": "这篇帖子的最新回复"
+                    "discussion_subtitle": "这篇帖子的最新回复",
+                    "user_title": "",
+                    "user_subtitle": ""
                 }
             },
             "discussion": {

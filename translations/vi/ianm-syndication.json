@@ -6,9 +6,15 @@
                 "forum_new_discussions": "Các cuộc thảo luận mới của diễn đàn",
                 "tag_activity": "Nhật kí hoạt động của thẻ {tag}",
                 "tag_new_discussions": "Các cuộc thảo luận của thẻ {tag}",
-                "discussion_last_posts": "Cuộc thảo luận này"
+                "discussion_last_posts": "Cuộc thảo luận này",
+                "user_last_posts": ""
             },
             "feeds": {
+                "entries": {
+                    "user_posts": {
+                        "title_reply": ""
+                    }
+                },
                 "titles": {
                     "main_title": "{forum_name}",
                     "main_subtitle": "Bài viết mới nhất trên diễn đàn",
@@ -19,7 +25,9 @@
                     "tag_d_title": "Các cuộc thảo luận mới trong thẻ {tag}",
                     "tag_d_subtitle": "Các cuộc thảo luận mới nhất trong thẻ {tag}",
                     "discussion_title": "{discussion_name}",
-                    "discussion_subtitle": "Các bài viết mới nhất trong cuộc thảo luận này"
+                    "discussion_subtitle": "Các bài viết mới nhất trong cuộc thảo luận này",
+                    "user_title": "",
+                    "user_subtitle": ""
                 }
             },
             "discussion": {
