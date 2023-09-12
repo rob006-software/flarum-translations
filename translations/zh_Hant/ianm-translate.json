@@ -38,7 +38,7 @@
                 },
                 "provider": "翻譯提供商",
                 "readme-info": "有關擴展信息，請參閱 README 文檔。",
-                "readme-none": ""
+                "readme-none": "該驅動程序不需要額外的設置。"
             }
         },
         "forum": {
@@ -52,15 +52,15 @@
                     "translated-updated": "使用 {provider} 最後更新 {time} 的翻譯"
                 },
                 "title": {
-                    "detected-language": ""
+                    "detected-language": "{postLang}"
                 }
             },
             "user": {
                 "settings": {
                     "heading": "翻譯",
                     "source-language": {
-                        "help": "禁用時，只會標記使用當前論壇語言以外的語言編寫的帖子。要使用檢測到的語言標記所有帖子，請啟用此設置。",
-                        "label": "總是顯示文章使用語言"
+                        "help": "禁用後，只會標記以當前論壇語言以外的語言編寫的可翻譯內容。 要使用檢測到的語言標記所有內容，請啟用此設置。",
+                        "label": "總是顯示使用語言"
                     }
                 }
             }
