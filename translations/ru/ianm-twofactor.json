@@ -2,17 +2,17 @@
     "ianm-twofactor": {
         "admin": {
             "edit_group": {
-                "2fa_label": "",
-                "2fa_help": "",
-                "admin_2fa_help": ""
+                "2fa_label": "Требуется ДФА",
+                "2fa_help": "Требовать от членов этой группы включить двухфакторную авторизацию (ДФА) для их аккаунтов.",
+                "admin_2fa_help": "Члены группы {adminName} должны всегда оставлять ДФА включенной."
             },
             "permissions": {
-                "see_two_factor_status_label": "",
-                "manage_others_label": ""
+                "see_two_factor_status_label": "Посмотреть статус ДФА других пользователей",
+                "manage_others_label": "Управлять ДФА других пользователей"
             },
             "settings": {
                 "groups": {
-                    "title": "",
+                    "title": "Группы с требуемой ДФА",
                     "help": ""
                 },
                 "forum_logo_qr": "",
@@ -26,19 +26,19 @@
                 "alert_message": ""
             },
             "security": {
-                "two_factor_heading": "",
+                "two_factor_heading": "ДФА",
                 "two_factor_help": "",
                 "two_factor_apps": "",
-                "two_factor_enabled": "",
-                "two_factor_disabled": "",
-                "two_factor_title": "",
-                "enable_2fa_button": "",
-                "disable_2fa_button": "",
+                "two_factor_enabled": "ДФА для этого аккаунта включена.",
+                "two_factor_disabled": "ДФА для этого аккаунта отключена.",
+                "two_factor_title": "Статус:",
+                "enable_2fa_button": "Включить ДФА",
+                "disable_2fa_button": "Выключить ДФА",
                 "enable_2fa_modal_text": "",
                 "qr_code_alt": "",
-                "enter_token": "",
-                "verify_button": "",
-                "loading_qr": "",
+                "enter_token": "Введите ключ",
+                "verify_button": "Проверка",
+                "loading_qr": "Загрузка QR кода...",
                 "backup_codes": "",
                 "backup_codes_instruction": "",
                 "saved_backup_codes_button": "",
