@@ -204,61 +204,61 @@
                 "global_heading": "Global",
                 "moderate_heading": "Moderat",
                 "moderate_access_tokens_label": "Moderar identificadors d'accés",
-                "new_group_button": "",
-                "participate_heading": "",
-                "post_without_throttle_label": "",
-                "read_heading": "",
-                "rename_discussions_label": "",
-                "reply_to_discussions_label": "",
-                "search_users_label": "",
-                "sign_up_label": "",
-                "start_discussions_label": "",
-                "title": "",
-                "view_forum_label": "",
-                "view_hidden_groups_label": "",
-                "view_last_seen_at_label": "",
-                "view_post_ips_label": ""
+                "new_group_button": "Nou grup",
+                "participate_heading": "Participa",
+                "post_without_throttle_label": "Respon repetidament sense esperar",
+                "read_heading": "Llegir",
+                "rename_discussions_label": "Reanomenar debats",
+                "reply_to_discussions_label": "Respondre debats",
+                "search_users_label": "=> core.ref.search_users",
+                "sign_up_label": "Registrar-se",
+                "start_discussions_label": "Iniciar debat",
+                "title": "Permisos",
+                "view_forum_label": "Veure fòrum (debats i usuaris)",
+                "view_hidden_groups_label": "Veure distintius de grup ocults",
+                "view_last_seen_at_label": "Mostrar sempre quan s'ha vist l'usuari per darrer cop",
+                "view_post_ips_label": "Mostrar les adreces IP de les publicacions"
             },
             "permissions_controls": {
-                "allow_indefinitely_button": "",
-                "allow_never_button": "",
-                "allow_some_minutes_button": "",
-                "allow_ten_minutes_button": "",
-                "allow_until_reply_button": "",
-                "everyone_button": "",
-                "members_button": "",
-                "signup_closed_button": "",
-                "signup_open_button": ""
+                "allow_indefinitely_button": "Indefinidament",
+                "allow_never_button": "=> core.ref.never",
+                "allow_some_minutes_button": "{count, plural, one {Durant # minut} other {Durant # minuts}}",
+                "allow_ten_minutes_button": "Durant 10 minuts",
+                "allow_until_reply_button": "Fins a la propera resposta",
+                "everyone_button": "Tothom",
+                "members_button": "=> core.group.members",
+                "signup_closed_button": "Tancat",
+                "signup_open_button": "Obert"
             },
             "settings": {
-                "saved_message": "",
-                "submit_button": ""
+                "saved_message": "Canvis guardats.",
+                "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "=> core.ref.remove",
+                "upload_button": "Escull una imatge..."
             },
             "users": {
-                "create_user_button": "",
-                "description": "",
+                "create_user_button": "Nou usuari",
+                "description": "Una llista paginada de tots els usuaris del fòrum.",
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": ""
+                            "title": "Mostrar nom"
                         },
                         "edit_user": {
-                            "button": "",
-                            "title": "",
-                            "tooltip": ""
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
+                            "tooltip": "Editar {username}"
                         },
                         "email": {
-                            "title": "",
-                            "visibility_hide": "",
-                            "visibility_show": ""
+                            "title": "=> core.ref.email",
+                            "visibility_hide": "Amagar correu electrònic",
+                            "visibility_show": "Mostrar correu electrònic"
                         },
                         "group_badges": {
-                            "no_badges": "",
-                            "title": ""
+                            "no_badges": "Cap",
+                            "title": "Grups"
                         },
                         "join_time": {
                             "title": ""
