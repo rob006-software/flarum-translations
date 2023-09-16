@@ -11,7 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Capçalera personalitzada",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_cannot_use_less_features": "",
+                "custom_styles_cannot_use_less_features": "Les funcions @import i data-uri no es permeten a LESS personalitzat.",
                 "custom_styles_heading": "Estils personalitzats",
                 "custom_styles_text": "Personalitzeu l'aparença del vostre fòrum afegint el vostre propi codi Less/CSS que s'aplicarà a sobre dels estils predeterminats de Flarum.",
                 "dark_mode_label": "Mode fosc",
@@ -31,7 +31,7 @@
                 "default_language_heading": "Llengua per defecte",
                 "description": "Establiu el títol del fòrum, l'idioma i altres paràmetres bàsics.",
                 "display_name_heading": "Nom de visualització de l'usuari",
-                "display_name_text": " ",
+                "display_name_text": "Escollir el concepte que cal usar per identificar els usuaris. Per defecte, es mostra el nom d'usuari.",
                 "forum_description_heading": "Descripció del Fòrum",
                 "forum_description_text": "Introduïu una o dues frases breus que descriguin la vostra comunitat. Això apareixerà a la \"metaetiqueta\" i també als motors de cerca.",
                 "forum_title_heading": "Títol del Fòrum",
@@ -45,14 +45,14 @@
                 "welcome_banner_text": "Configura el text que es mostra al \"bàner\" de la pàgina de \"Totes les discussions\". Utilitzeu-ho per donar la benvinguda als convidats al vostre fòrum."
             },
             "create_user": {
-                "email_placeholder": "",
-                "email_confirmed_label": "",
-                "password_placeholder": "",
-                "submit_and_create_another_button": "",
-                "submit_button": "",
-                "title": "",
-                "use_random_password": "",
-                "username_placeholder": ""
+                "email_placeholder": "=> core.ref.email",
+                "email_confirmed_label": "Cal que l'usuari confirmi aquest correu electrònic",
+                "password_placeholder": "=> core.ref.password",
+                "submit_and_create_another_button": "Crear i afegir-ne un altre",
+                "submit_button": "Crear usuari",
+                "title": "Crear usuari nou",
+                "use_random_password": "Crear contrasenya aleatòria",
+                "username_placeholder": "=> core.ref.username"
             },
             "dashboard": {
                 "clear_cache_button": "Netejar la memòria cau",
@@ -60,14 +60,14 @@
                 "io_error_message": "No s'ha pogut escriure al sistema de fitxers. Comproveu els permisos del vostre sistema de fitxers i torneu-ho a provar. O proveu a executar des de la línia de comandaments.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "scheduler-status": "Scheduler",
+                        "queue-driver": "Gestor de cua",
+                        "session-driver": "Gestor de sessió"
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "Actiu",
+                        "inactive": "Inactiu",
+                        "never-run": "No s'executa mai"
                     }
                 },
                 "title": "Tauler",
@@ -187,23 +187,23 @@
                 "search_placeholder": "Buscar extensió"
             },
             "permissions": {
-                "allow_hide_own_posts_label": "",
+                "allow_hide_own_posts_label": "Permetre esborrar publiacions pròpies",
                 "allow_post_editing_label": "Permetre la modificació dels messages",
-                "allow_renaming_label": "",
-                "create_access_token_label": "",
-                "create_heading": "",
-                "delete_discussions_forever_label": "",
-                "delete_discussions_label": "",
-                "delete_posts_forever_label": "",
-                "delete_posts_label": "",
-                "description": "",
-                "edit_posts_label": "",
-                "edit_users_label": "",
-                "edit_users_credentials_label": "",
-                "edit_users_groups_label": "",
-                "global_heading": "",
-                "moderate_heading": "",
-                "moderate_access_tokens_label": "",
+                "allow_renaming_label": "Permetre canviar el nom",
+                "create_access_token_label": "Crear identificador d'accés",
+                "create_heading": "Crear",
+                "delete_discussions_forever_label": "Esborrar debats per sempre",
+                "delete_discussions_label": "Esborrar debats",
+                "delete_posts_forever_label": "Esborrar publicacions per sempre",
+                "delete_posts_label": "Esborrar publicacions",
+                "description": "Configurar qui pot veure i fer què.",
+                "edit_posts_label": "Editar publicacions",
+                "edit_users_label": "Editar atributs d'usuari",
+                "edit_users_credentials_label": "Editar credencials d'usuari",
+                "edit_users_groups_label": "Editar grups d'usuari",
+                "global_heading": "Global",
+                "moderate_heading": "Moderat",
+                "moderate_access_tokens_label": "Moderar identificadors d'accés",
                 "new_group_button": "",
                 "participate_heading": "",
                 "post_without_throttle_label": "",
