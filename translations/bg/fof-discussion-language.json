@@ -20,12 +20,12 @@
             "settings": {
                 "native_label": "Използвай имена на роден език",
                 "show_flag_label": "Покажи знамена на държави с имена на езици",
-                "composer_default_label": "",
+                "composer_default_label": "Предварително изберете текущия локален език в инструмента за създаване на дискусии",
                 "locale_sort_label": "Използвай открития език за филтър на дискусията по подразбиране",
                 "show_any_lang_opt_label": "Покажи опцията за избор на „Всеки език“",
-                "tags_page_discussion_locale_label": "",
+                "tags_page_discussion_locale_label": "Показвайте само дискусии от текущия локален език на потребителя на страницата с тагове",
                 "errors": {
-                    "missing_assets": ""
+                    "missing_assets": "Не можахме да заредим активите, необходими на това разширение. Опитайте да стартирате <code>php flarum assets:publish</code> и вижте дали това решава проблема."
                 },
                 "config": {
                     "language_label": "Език",
