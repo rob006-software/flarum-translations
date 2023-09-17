@@ -261,63 +261,63 @@
                             "title": "Grups"
                         },
                         "join_time": {
-                            "title": ""
+                            "title": "Data incorporació"
                         },
                         "user_id": {
-                            "title": ""
+                            "title": "ID"
                         },
                         "username": {
-                            "profile_link_tooltip": "",
-                            "title": ""
+                            "profile_link_tooltip": "Veure el perfil de {username}",
+                            "title": "=> core.ref.username"
                         }
                     },
-                    "invalid_column_content": ""
+                    "invalid_column_content": "Invàlid"
                 },
                 "pagination": {
-                    "back_button": "",
-                    "first_button": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
-                    "next_button": "",
-                    "page_counter": ""
+                    "back_button": "Pàgina anterior",
+                    "first_button": "Anar a primera pàgina",
+                    "go_to_page_textbox_a11y_label": "Anar directament a pàgina",
+                    "last_button": "Anar a darrera pàgina",
+                    "next_button": "Pàgina següent",
+                    "page_counter": "Pàgina {current} de {total}"
                 },
-                "search_placeholder": "",
-                "title": "",
-                "total_users": ""
+                "search_placeholder": "=> core.ref.search_users",
+                "title": "=> core.ref.users",
+                "total_users": "Usuaris totals: {count}"
             }
         },
         "forum": {
             "change_email": {
-                "confirm_password_placeholder": "",
-                "confirmation_message": "",
-                "dismiss_button": "",
-                "incorrect_password_message": "",
-                "submit_button": "",
-                "title": ""
+                "confirm_password_placeholder": "=> core.ref.confirm_password",
+                "confirmation_message": "=> core.ref.confirmation_email_sent",
+                "dismiss_button": "=> core.ref.okay",
+                "incorrect_password_message": "La contrasenya teclejada és incorrecta.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.change_email"
             },
             "change_password": {
-                "send_button": "",
-                "text": "",
-                "title": ""
+                "send_button": "Enviar correu per restablir la contrasenya",
+                "text": "Clica el botó inferior i rebràs un correu electrònic amb un enllaç per restablir la contrasenya.",
+                "title": "=> core.ref.change_password"
             },
             "composer": {
-                "close_tooltip": "",
-                "exit_full_screen_tooltip": "",
-                "full_screen_tooltip": "",
-                "minimize_tooltip": "",
-                "preview_tooltip": ""
+                "close_tooltip": "Tancar",
+                "exit_full_screen_tooltip": "Sortir de pantalla completa",
+                "full_screen_tooltip": "Pantalla completa",
+                "minimize_tooltip": "Minimitzar",
+                "preview_tooltip": "Vista prèvia"
             },
             "composer_discussion": {
-                "body_placeholder": "",
-                "discard_confirmation": "",
-                "submit_button": "",
-                "title": "",
-                "title_placeholder": ""
+                "body_placeholder": "Escriu una publicació...",
+                "discard_confirmation": "Encara no has publicat el teu tema de debat. Realment el vols descartar?",
+                "submit_button": "Publicar tema de debat",
+                "title": "=> core.ref.start_a_discussion",
+                "title_placeholder": "Títol del tema a debatre"
             },
             "composer_edit": {
-                "discard_confirmation": "",
-                "edited_message": "",
-                "post_link": "",
+                "discard_confirmation": "No has gravat els teus canvis. Realment els vols descartar?",
+                "edited_message": "S'ha publicat la teva edició.",
+                "post_link": "Publicació #{number} sobre {discussion}",
                 "submit_button": "",
                 "view_button": ""
             },
