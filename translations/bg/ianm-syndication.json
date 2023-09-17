@@ -5,53 +5,53 @@
                 "forum_activity": "Активност на форума",
                 "forum_new_discussions": "Нови дискусии във форума",
                 "tag_activity": "Активност за {tag} таг",
-                "tag_new_discussions": "Дискусии с  {tag} таг",
+                "tag_new_discussions": "Дискусии с {tag} таг",
                 "discussion_last_posts": "Тази дискусия",
-                "user_last_posts": ""
+                "user_last_posts": "Публикации и коментари от този потребител"
             },
             "feeds": {
                 "entries": {
                     "user_posts": {
-                        "title_reply": ""
+                        "title_reply": "Re: {discussion}"
                     }
                 },
                 "titles": {
-                    "main_title": "",
+                    "main_title": "{forum_name}",
                     "main_subtitle": "Последни публикации във форума",
-                    "main_d_title": "",
-                    "main_d_subtitle": "",
-                    "tag_title": "",
-                    "tag_subtitle": "",
-                    "tag_d_title": "",
-                    "tag_d_subtitle": "",
-                    "discussion_title": "",
-                    "discussion_subtitle": "",
-                    "user_title": "",
-                    "user_subtitle": ""
+                    "main_d_title": "Нови дискусии във {forum_name}",
+                    "main_d_subtitle": "Най-новите дискусии във форума",
+                    "tag_title": "Активност в тага{tag}",
+                    "tag_subtitle": "Последни публикации в тага {tag}",
+                    "tag_d_title": "Нови дискусии в тага {tag}",
+                    "tag_d_subtitle": "Най-новите дискусии в тага {tag}",
+                    "discussion_title": "{discussion_name}",
+                    "discussion_subtitle": "Последни съобщения в тази дискусия",
+                    "user_title": "{username}",
+                    "user_subtitle": "Последни публикации и коментари от този потребител."
                 }
             },
             "discussion": {
-                "feed_link": ""
+                "feed_link": "Емисия"
             }
         },
         "admin": {
             "settings": {
                 "full-text": {
-                    "label": "",
-                    "help": ""
+                    "label": "Емисии с пълен текст",
+                    "help": "Ако е деактивирано, емисиите ще съдържат само извадки от публикации и потребителите ще трябва да отидат във форума, за да прочетат всичко. Бих препоръчал да оставите тази опция активна, за да уважавате хората, които следят форума от RSS агрегатор, ако има такъв."
                 },
                 "html": {
-                    "label": "",
-                    "help": ""
+                    "label": "Форматирани канали",
+                    "help": "Отметнете това, за да запазите HTML в генерираните емисии. Ако е деактивирано, емисиите ще бъдат в обикновен текст."
                 },
-                "entries-count": "",
+                "entries-count": "Колко записа на емисия?",
                 "forum-icons": {
-                    "label": "",
-                    "help": ""
+                    "label": "Показване на Atom/RSS връзки във форума",
+                    "help": "Показва икони във Всички дискусии, Етикети и Дискусии, за да позволи лесен достъп до емисиите."
                 },
                 "forum-link-format": {
-                    "label": "",
-                    "help": ""
+                    "label": "Формат на емисията във форума",
+                    "help": "Изберете кой формат (Atom или RSS) да се използва, когато връзките се показват във форума."
                 }
             }
         }
