@@ -82,9 +82,9 @@
             "export": {
                 "title": "Експорт",
                 "warning": "Форматът за експортиране използва базирани на Yaml файлове за превод на Flarum и е предназначен за споделяне на преводи между форуми и с хора поддържащи езикови пакети. Форматът не е предназначен да премести всички преводи в нов форум. В зависимост от вашия случай на употреба, директното копиране на базата данни може да е по-добра идея.\n",
-                "locale": "Locale",
-                "locale-all": "Pseudo-locale \"All\"",
-                "namespace": "Namespace",
+                "locale": "Локален език",
+                "locale-all": "Псевдо-локал \"Всички\"",
+                "namespace": "\"Namespace\"",
                 "namespace-all": "Всички",
                 "include-originals": "Включете и оригиналния превод",
                 "include-all": "Включете и преводите, които са дефинирани за всички езици",
@@ -96,13 +96,13 @@
             "import": {
                 "title": "Импортни",
                 "input": "Принос",
-                "input-placeholder": "Drag and drop or paste a Yaml file here",
-                "locale": "Locale",
-                "locale-all": "Pseudo-locale \"All\"",
+                "input-placeholder": "Завлечете или поставете Yaml файл тук",
+                "locale": "Локален език",
+                "locale-all": "Псевдо-локал \"Всички\"",
                 "override-existing": "Override всичките ми персонализирание преводи",
-                "submit": "Import",
-                "results": "The import is finished. {imported} strings have been imported and {identical} identical strings were skipped. The page will now refresh to show the new translations.\n",
-                "results-with-ignore": "The import is finished. {imported} strings have been imported, {ignored} existing strings have been ignored and {identical} identical strings were skipped. The page will now refresh to show the new translations.\n"
+                "submit": "Импортиране",
+                "results": "Импортирането е завършено. {imported} низове бяха импортирани и {identical} идентични низове бяха пропуснати. Сега страницата ще се опресни, за да покаже новите преводи.\n",
+                "results-with-ignore": "Импортирането е завършено. {imported} низове бяха импортирани, {ignored} съществуващи низове бяха игнорирани и {identical} идентични низове бяха пропуснати. Сега страницата ще се опресни, за да покаже новите преводи.\n"
             },
             "known-namespace": {
                 "core": "Flarum Core",
