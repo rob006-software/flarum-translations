@@ -338,138 +338,138 @@
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Alterna visibilitat del menú desplegable d'accions de debat"
             },
             "discussion_list": {
-                "empty_text": "",
-                "load_more_button": "",
-                "replied_text": "",
-                "started_text": "",
-                "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": ""
+                "empty_text": "Sembla que no hi ha cap debat aquí.",
+                "load_more_button": "=> core.ref.load_more",
+                "replied_text": "{username} va respondre {ago}",
+                "started_text": "{username} va començar {ago}",
+                "total_replies_a11y_label": "{count, plural, one {# resposta} other {# respostes}}",
+                "unread_replies_a11y_label": "{count, plural, one {# resposta no llegida} other {# respostes no llegides}}. Marcar {count, plural, one {resposta com a llegida} other {respostes com a llegides}}."
             },
             "forgot_password": {
-                "dismiss_button": "",
-                "email_placeholder": "",
-                "email_sent_message": "",
-                "not_found_message": "",
-                "submit_button": "",
-                "text": "",
-                "title": ""
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "email_sent_message": "Si l'adreça de correu que has introduït està registrada en aquest lloc, t'enviarem un correu electrònic amb un enllaç per restablir la teva contrasenya. Si no el reps en un o dos minuts, comprova la teva carpeta de correu brossa.",
+                "not_found_message": "No hi ha cap usuari registrat amb aquesta adreça de correu electrònic.",
+                "submit_button": "Recuperar contrasenya",
+                "text": "Entra la teva adreça de correu i t'enviarem un enllaç per reiniciar la teva contrasenya.",
+                "title": "He oblidat la meva contrasenya"
             },
             "header": {
-                "admin_button": "",
-                "back_to_index_tooltip": "",
-                "locale_dropdown_accessible_label": "",
-                "log_in_link": "",
-                "log_out_button": "",
-                "profile_button": "",
-                "search_clear_button_accessible_label": "",
-                "search_placeholder": "",
-                "search_role_label": "",
-                "session_dropdown_accessible_label": "",
-                "settings_button": "",
-                "sign_up_link": ""
+                "admin_button": "Administració",
+                "back_to_index_tooltip": "Tornar a la llista de temes de debat",
+                "locale_dropdown_accessible_label": "Canviar la configuració idiomàtica del fòrum",
+                "log_in_link": "=> core.ref.log_in",
+                "log_out_button": "=> core.ref.log_out",
+                "profile_button": "Perfil",
+                "search_clear_button_accessible_label": "Esborrar la consulta de cerca",
+                "search_placeholder": "Cercar al fòrum",
+                "search_role_label": "Cercar al fòrum",
+                "session_dropdown_accessible_label": "Alterna visibilitat del menú desplegable d'opcions de sessió",
+                "settings_button": "=> core.ref.settings",
+                "sign_up_link": "=> core.ref.sign_up"
             },
             "index": {
-                "all_discussions_link": "",
-                "cannot_start_discussion_button": "",
-                "mark_all_as_read_confirmation": "",
-                "mark_all_as_read_tooltip": "",
-                "meta_title_text": "",
-                "refresh_tooltip": "",
-                "start_discussion_button": "",
-                "toggle_sidenav_dropdown_accessible_label": ""
+                "all_discussions_link": "=> core.ref.all_discussions",
+                "cannot_start_discussion_button": "No pots crear un debat",
+                "mark_all_as_read_confirmation": "Segur que vols marcar tots els debats com a llegits?",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "meta_title_text": "=> core.ref.all_discussions",
+                "refresh_tooltip": "Refrescar el contingut",
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": "Alternar visibilitat del menú de navegació"
             },
             "index_sort": {
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
-                "toggle_dropdown_accessible_label": "",
-                "top_button": ""
+                "latest_button": "Últim",
+                "newest_button": "Més nou",
+                "oldest_button": "Més antic",
+                "relevance_button": "Rellevància",
+                "toggle_dropdown_accessible_label": "Canviar l'ordre de la llista de debats",
+                "top_button": "Més destacat"
             },
             "log_in": {
-                "forgot_password_link": "",
-                "invalid_login_message": "",
-                "password_placeholder": "",
-                "remember_me_label": "",
-                "sign_up_text": "",
-                "submit_button": "",
-                "title": "",
-                "username_or_email_placeholder": ""
+                "forgot_password_link": "Has oblidat la contrasenya?",
+                "invalid_login_message": "Les teves dades d'inici de sessió són incorrectes.",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "Recorda'm",
+                "sign_up_text": "No tens cap compte? <a>Registra't</a>",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in",
+                "username_or_email_placeholder": "Nom d'usuari o correu electrònic"
             },
             "notifications": {
-                "delete_all_confirm": "",
-                "delete_all_tooltip": "",
-                "discussion_renamed_text": "",
-                "empty_text": "",
-                "mark_all_as_read_tooltip": "",
-                "mark_as_read_tooltip": "",
-                "title": "",
-                "toggle_dropdown_accessible_label": "",
-                "tooltip": ""
+                "delete_all_confirm": "Segur que vols esborrar totes les notificacions? Aquesta acció és irreversible",
+                "delete_all_tooltip": "Esborrar totes les notificacions",
+                "discussion_renamed_text": "{username} ha canviat el títol",
+                "empty_text": "No hi ha notificacions",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "mark_as_read_tooltip": "Marcar com a llegit",
+                "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "Veure notificacions",
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
-                "edited_text": "",
-                "edited_tooltip": "",
-                "number_tooltip": ""
+                "edited_text": "Editat",
+                "edited_tooltip": "{username} va editar {ago}",
+                "number_tooltip": "Publicació #{number}"
             },
             "post_controls": {
-                "delete_button": "",
-                "delete_confirmation": "",
-                "delete_forever_button": "",
-                "edit_button": "",
-                "hide_confirmation": "",
-                "restore_button": "",
-                "toggle_dropdown_accessible_label": ""
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Segur que vols esborrar aquesta publicació per sempre? Aquesta acció és irreversible.",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "edit_button": "=> core.ref.edit",
+                "hide_confirmation": "Segur que vols esborrar aquesta publicació?",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "Alternar visibilitat del menú desplegable de controls de publicació"
             },
             "post_scrubber": {
-                "now_link": "",
-                "original_post_link": "",
-                "unread_text": "",
-                "viewing_text": ""
+                "now_link": "Ara",
+                "original_post_link": "Publicació original",
+                "unread_text": "{count} sense llegir",
+                "viewing_text": "{count, plural, one {{index} de {formattedCount} publicació} other {{index} de {formattedCount} publicacions}}"
             },
             "post_stream": {
-                "discussion_renamed_old_tooltip": "",
-                "discussion_renamed_text": "",
-                "load_more_button": "",
-                "reply_placeholder": "",
-                "time_lapsed_text": ""
+                "discussion_renamed_old_tooltip": "El títol anterior era: \"{old}\"",
+                "discussion_renamed_text": "{username} ha canviat el títol a {new} {time}.",
+                "load_more_button": "=> core.ref.load_more",
+                "reply_placeholder": "=> core.ref.write_a_reply",
+                "time_lapsed_text": "{period} més tard"
             },
             "rename_discussion": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.rename",
+                "title": "Canviar el títol del tema de debat"
             },
             "search": {
-                "all_discussions_button": "",
-                "discussions_heading": "",
-                "users_heading": ""
+                "all_discussions_button": "Cercar \"{query}\" a tots els debats",
+                "discussions_heading": "=> core.ref.discussions",
+                "users_heading": "=> core.ref.users"
             },
             "security": {
-                "browser_on_operating_system": "",
-                "cannot_terminate_current_session": "",
-                "created": "",
-                "current_active_session": "",
-                "developer_tokens_heading": "",
-                "empty_text": "",
+                "browser_on_operating_system": "{browser} en {os}",
+                "cannot_terminate_current_session": "No es pot acabar la sessió activa actual. Tanqueu la sessió vosaltres.",
+                "created": "Creat",
+                "current_active_session": "Sessió activa actual",
+                "developer_tokens_heading": "Identificadors de desenvolupador",
+                "empty_text": "Sembla que no hi ha res a veure aquí.",
                 "global_logout": {
-                    "heading": "",
-                    "help_text": "",
-                    "log_out_button": ""
+                    "heading": "Tancament de sessió global",
+                    "help_text": "Esborra cookies, tanca totes les sessions, revoca els identifidors de desenvolupador i invalida qualsevol correu de validació d'adreça o de reinicialització de contrasenya.",
+                    "log_out_button": "=> core.ref.log_out"
                 },
-                "hide_access_token": "",
-                "last_activity": "",
-                "never": "",
-                "new_access_token_button": "",
+                "hide_access_token": "Amagar identificador",
+                "last_activity": "Darrera activitat",
+                "never": "=> core.ref.never",
+                "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
-                    "submit_button": "",
-                    "title": "",
-                    "title_placeholder": ""
+                    "submit_button": "Crear identificador",
+                    "title": "=> core.ref.new_token",
+                    "title_placeholder": "Títol"
                 },
-                "revoke_access_token": "",
-                "revoke_access_token_confirmation": "",
-                "sessions_heading": "",
+                "revoke_access_token": "Revocar",
+                "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
+                "sessions_heading": "Sessions actives",
                 "session_terminated": "",
                 "session_termination_failed": "",
                 "show_access_token": "",
