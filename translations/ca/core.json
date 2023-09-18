@@ -491,165 +491,165 @@
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Algú ha canviat el nom a un debat que vaig començar jo",
                 "privacy_disclose_online_label": "Permetre que altres vegin quan estic connectat",
-                "privacy_heading": "",
-                "title": ""
+                "privacy_heading": "Privacitat",
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
-                "dismiss_button": "",
-                "email_placeholder": "",
-                "log_in_text": "",
-                "password_placeholder": "",
-                "submit_button": "",
-                "title": "",
-                "username_placeholder": "",
-                "welcome_text": ""
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "log_in_text": "Ja tens compte? <a>Inicia sessió</a>",
+                "password_placeholder": "=> core.ref.password",
+                "submit_button": "=> core.ref.sign_up",
+                "title": "=> core.ref.sign_up",
+                "username_placeholder": "=> core.ref.username",
+                "welcome_text": "Salutacions, {username}!"
             },
             "user": {
-                "avatar_remove_button": "",
-                "avatar_upload_button": "",
-                "avatar_upload_tooltip": "",
-                "discussions_link": "",
-                "in_discussion_text": "",
-                "joined_date_text": "",
-                "online_text": "",
-                "posts_empty_text": "",
-                "posts_link": "",
-                "posts_load_more_button": "",
-                "security_link": "",
-                "settings_link": ""
+                "avatar_remove_button": "=> core.ref.remove",
+                "avatar_upload_button": "Pujar",
+                "avatar_upload_tooltip": "Pujar nova foto de perfil",
+                "discussions_link": "=> core.ref.discussions",
+                "in_discussion_text": "A {discussion}",
+                "joined_date_text": "Es va unir {ago}",
+                "online_text": "En línia",
+                "posts_empty_text": "Sembla que no hi ha cap publicació aquí.",
+                "posts_link": "=> core.ref.posts",
+                "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "=> core.ref.security",
+                "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
-                "button": "",
-                "delete_button": "",
-                "delete_confirmation": "",
-                "delete_error_message": "",
-                "delete_success_message": "",
-                "edit_button": "",
-                "toggle_dropdown_accessible_label": ""
+                "button": "Controls",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Segur que vols esborrar aquest usuari? Les seves publicacions NO s'esborraran.",
+                "delete_error_message": "Error a l'esborrar <i>{username} ({email})</i>",
+                "delete_success_message": "L'usuari <i>{username} ({email})</i> s'ha esborrat",
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": "Alterna visibilitat del menú desplegable de controls d'usuari"
             },
             "user_email_confirmation": {
-                "alert_message": "",
-                "resend_button": "",
-                "sent_message": ""
+                "alert_message": "=> core.ref.confirmation_email_sent",
+                "resend_button": "Reenviar correu electrònic de confirmació",
+                "sent_message": "Enviat"
             },
             "welcome_hero": {
-                "hide": ""
+                "hide": "Amagar el missatge de benvinguda"
             }
         },
         "lib": {
-            "debug_button": "",
+            "debug_button": "Depurar",
             "alert": {
-                "dismiss_a11y_label": ""
+                "dismiss_a11y_label": "Descartar l'alerta"
             },
             "badge": {
-                "hidden_tooltip": ""
+                "hidden_tooltip": "Amagat"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Alterna visibilitat del menú desplegable"
             },
             "data_segment": {
-                "label": ""
+                "label": "{label}:"
             },
             "edit_user": {
-                "activate_button": "",
-                "email_heading": "",
-                "email_label": "",
-                "groups_heading": "",
-                "password_heading": "",
-                "password_label": "",
-                "set_password_label": "",
-                "submit_button": "",
-                "title": "",
-                "username_heading": "",
-                "username_label": "",
-                "nothing_available": ""
+                "activate_button": "Activar usuari",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Grups",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Crear contrasenya nova",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username",
+                "nothing_available": "No tens permisos per editar aquest usuari."
             },
             "error": {
-                "circular_dependencies_message": "",
-                "dependent_extensions_message": "",
-                "extension_initialiation_failed_message": "",
-                "generic_message": "",
-                "generic_cross_origin_message": "",
-                "missing_dependencies_message": "",
-                "not_found_message": "",
-                "payload_too_large_message": "",
-                "permission_denied_message": "",
-                "rate_limit_exceeded_message": "",
-                "render_failed_message": ""
+                "circular_dependencies_message": "Dependències circulars detectades: {extensions}. Avortant. Si us plau, desactiva una de les extensions i torna a provar-ho.",
+                "dependent_extensions_message": "No es pot desactivar {extension} fins que les següents extensions dependents també s'hagin desactivat: {extensions}",
+                "extension_initialiation_failed_message": "{extension} no s'ha pogut inicialitzar. Consulta la consola del navegador per a més informació.",
+                "generic_message": "Vaja! Alguna cosa ha anat malament. Si us plau, torna a carregar la pàgina i prova-ho un altre cop.",
+                "generic_cross_origin_message": "Vaja! Alguna cosa ha anat malament durant una petició d'origen creuat. Si us plau, torna a carregar la pàgina i prova-ho un altre cop.",
+                "missing_dependencies_message": "No es pot activar {extension} fins que les següents dependències s'hagin activat també: {extensions}",
+                "not_found_message": "No s'ha trobat el recurs sol·licitat.",
+                "payload_too_large_message": "La informació a carregar era massa gran.",
+                "permission_denied_message": "No tens permisos per fer aquesta acció.",
+                "rate_limit_exceeded_message": "Vas massa ràpid. Si us plau, prova-ho novament d'aquí a uns segons.",
+                "render_failed_message": "Dissortadament, hem trobat un error mentre es mostrava aquest contingut. Si ets un usuari, prova-ho novament més tard. Si ets un administrador, revisa els fitxers de registre (log)."
             },
             "loading_indicator": {
-                "accessible_label": ""
+                "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Pàgina # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Pàgina # - {forumName}}}"
             },
             "modal": {
-                "close": ""
+                "close": "Tancar"
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "Obre el quadre de navegació"
             },
             "number_suffix": {
-                "kilo_text": "",
-                "mega_text": ""
+                "kilo_text": "K",
+                "mega_text": "M"
             },
             "series": {
-                "glue_text": "",
-                "three_text": "",
-                "two_text": ""
+                "glue_text": ", ",
+                "three_text": "{first}, {second} i {third}",
+                "two_text": "{first} i {second}"
             },
             "username": {
-                "deleted_text": ""
+                "deleted_text": "[esborrat]"
             }
         },
         "views": {
             "admin": {
                 "extensions": {
-                    "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "caption": "=> core.ref.extensions",
+                    "disable": "Desactivar",
+                    "empty": "No hi ha extensions instal·lades",
+                    "enable": "Activar",
+                    "name": "Nom de l'extensió",
+                    "package_name": "Nom del paquet",
+                    "version": "Versió"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "Informació de l'aplicació"
                 },
-                "title": ""
+                "title": "Administració"
             },
             "confirm_email": {
-                "submit_button": "",
-                "text": "",
-                "title": ""
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "Prem el botó inferior per confirmar el correu electrònic del teu compte.",
+                "title": "=> core.ref.confirm_email"
             },
             "content": {
-                "javascript_disabled_message": "",
-                "load_error_message": "",
-                "loading_text": ""
+                "javascript_disabled_message": "Aquest lloc web es veu millor amb un navegador modern amb JavaScript activat.",
+                "load_error_message": "Alguna cosa ha fallat al carregar la versió completa d'aquest lloc web. Prova a tornar a carregar la pàgina, preferentment esborrant la memòria cau.",
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
-                "next_page_button": "",
-                "previous_page_button": ""
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
-                "csrf_token_mismatch": "",
-                "csrf_token_mismatch_return_link": "",
-                "invalid_confirmation_token": "",
-                "not_authenticated": "",
-                "not_found": "",
-                "not_found_return_link": "",
-                "permission_denied": "",
-                "unknown": ""
+                "csrf_token_mismatch": "Sessió inactiva durant massa temps.",
+                "csrf_token_mismatch_return_link": "Torna enrere per provar-ho novament",
+                "invalid_confirmation_token": "Aquest enllaç de confirmació ja s'ha utilitzat o és invàlid.",
+                "not_authenticated": "No tens permisos per accedir a aquesta pàgina. Prova-ho novament després d'iniciar sessió.",
+                "not_found": "La pàgina sol·licitada no s'ha trobat.",
+                "not_found_return_link": "Tornar a {forum}",
+                "permission_denied": "No tens permisos per accedir a aquesta pàgina.",
+                "unknown": "S'ha produït un error a l'intentar carregar aquesta pàgina."
             },
             "index": {
-                "all_discussions_heading": "",
-                "next_page_button": "",
-                "previous_page_button": ""
+                "all_discussions_heading": "=> core.ref.all_discussions",
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "log_out": {
-                "log_out_button": "",
+                "log_out_button": "=> core.ref.log_out",
                 "log_out_confirmation": "",
                 "title": ""
             },
