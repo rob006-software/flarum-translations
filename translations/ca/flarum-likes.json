@@ -2,35 +2,35 @@
     "flarum-likes": {
         "admin": {
             "permissions": {
-                "like_posts_label": ""
+                "like_posts_label": "Agradar publicacions"
             },
             "settings": {
-                "like_own_posts_help": "",
-                "like_own_posts_label": ""
+                "like_own_posts_help": "Quan està activat, en funció dels permisos atorgats, els usuaris poden fer 'm'agrada' als seus propis missatges al fòrum. Per evitar que els usuaris posin un 'm'agrada' als seus propis missatges, desactiva aquesta opció.",
+                "like_own_posts_label": "Els usuaris poden fer m'agrada a les seves pròpies publicacions"
             }
         },
         "forum": {
             "notifications": {
-                "others_text": "",
-                "post_liked_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "a {username} li ha agradat la teva publicació"
             },
             "post": {
-                "like_link": "",
-                "liked_by_self_text": "",
-                "liked_by_text": "",
-                "others_link": "",
-                "unlike_link": "",
-                "you_text": ""
+                "like_link": "M'agrada",
+                "liked_by_self_text": "a {users} els agrada això.",
+                "liked_by_text": "{count, plural, one {a {users} li agrada això} other {a {users} els agrada això}}.",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Ja no m'agrada",
+                "you_text": "=> core.ref.you"
             },
             "post_likes": {
-                "title": "",
-                "load_more_button": ""
+                "title": "Usuaris als que els agrada això",
+                "load_more_button": "=> core.ref.load_more"
             },
             "settings": {
-                "notify_post_liked_label": ""
+                "notify_post_liked_label": "A algú li ha agrada alguna de les meves publicacions"
             },
             "user": {
-                "likes_link": ""
+                "likes_link": "M'agrada"
             }
         }
     }
