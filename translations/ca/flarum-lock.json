@@ -2,26 +2,26 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": ""
+                "lock_discussions_label": "Tancar discussions"
             }
         },
         "forum": {
             "badge": {
-                "locked_tooltip": ""
+                "locked_tooltip": "Tancat"
             },
             "discussion_controls": {
-                "lock_button": "",
-                "unlock_button": ""
+                "lock_button": "Tancar",
+                "unlock_button": "Obrir"
             },
             "notifications": {
-                "discussion_locked_text": ""
+                "discussion_locked_text": "{username} ha tancat la discussió"
             },
             "post_stream": {
-                "discussion_locked_text": "",
-                "discussion_unlocked_text": ""
+                "discussion_locked_text": "{username} ha tancat la discussió {time}.",
+                "discussion_unlocked_text": "{username} ha obert la discussió {time}."
             },
             "settings": {
-                "notify_discussion_locked_label": ""
+                "notify_discussion_locked_label": "Algú ha tancat una discussió que havies creat"
             }
         }
     }
