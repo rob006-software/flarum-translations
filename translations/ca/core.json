@@ -650,104 +650,104 @@
             },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
-                "log_out_confirmation": "",
-                "title": ""
+                "log_out_confirmation": "Segur que vols tancar la sessió a {forum}?",
+                "title": "=> core.ref.log_out"
             },
             "reset_password": {
-                "confirm_password_label": "",
-                "new_password_label": "",
-                "submit_button": "",
-                "title": ""
+                "confirm_password_label": "Confirmar nova contrasenya",
+                "new_password_label": "Nova contrasenya",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.reset_your_password"
             }
         },
         "api": {
-            "invalid_username_message": "",
+            "invalid_username_message": "El nom d'usuari només pot contenir lletres, números i guions.",
             "invalid_filter_type": {
-                "must_be_numeric_message": "",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_be_numeric_message": "El filtre {filter} ha de ser numèric.",
+                "must_not_be_array_message": "El filtre {filter} no pot ser una matriu.",
+                "must_not_be_multidimensional_array_message": "El filtre {filter} no pot ser una matriu multidimensional."
             }
         },
         "email": {
             "activate_account": {
-                "subject": "",
-                "body": ""
+                "subject": "Activa el teu nou compte",
+                "body": "Hola {username}!\n\nAlgú (esperem que tu!) s'ha donat d'alta a {forum} amb aquesta adreça de correu electrònic.\n\nSi has estat tu, senzillament clica el següent enllaç per activar el teu compte:\n{url}\n\nSi no has estat tu, senzillament ignora aquest correu.\n"
             },
             "confirm_email": {
-                "subject": "",
-                "body": ""
+                "subject": "Confirma la teva adreça de correu electrònic",
+                "body": "Hola {username}!\n\nAlgú (esperem que tu!) ha canviat l'adreça de correu electrònic a {forum} per aquesta.\n\nSi has estat tu, senzillament clica el següent enllaç per confirmar la nova adreça:\n{url}\n\nSi no has estat tu, senzillament ignora aquest correu.\n"
             },
             "reset_password": {
-                "subject": "",
-                "body": ""
+                "subject": "=> core.ref.reset_your_password",
+                "body": "Hola {username}!\n\nAlgú (esperem que tu!) ha enviat una petició per restablir una contrasenya oblidada a {forum}.\n\nSi has estat tu, clica el següent enllaç per triar una contrasenya nova:\n{url}\n\nSi no has estat tu o no vols canviar la contrasenya, senzillament ignora aquest correu i es mantindrà la contrasenya actual.\n"
             },
             "send_test": {
-                "subject": "",
-                "body": ""
+                "subject": "Prova de correu electrònic",
+                "body": "Hola {username}!\n\nAquesta és una prova d'enviament per confirmar que la teva configuració de correu electrònic funciona de forma correcta.\n\nSi l'has enviat tu, aquest correu confirma que la configuració funciona!\n\nSi no has estat tu, senzillament ignora aquest correu.\n"
             }
         },
         "ref": {
-            "all_discussions": "",
-            "change_email": "",
-            "change_password": "",
-            "color": "",
-            "confirm_password": "",
-            "confirm_email": "",
-            "confirmation_email_sent": "",
-            "custom_footer_text": "",
-            "custom_footer_title": "",
-            "custom_header_text": "",
-            "custom_header_title": "",
-            "delete": "",
-            "delete_forever": "",
-            "discussions": "",
-            "edit": "",
-            "edit_user": "",
-            "email": "",
-            "extensions": "",
-            "generic_confirmation_message": "",
-            "icon": "",
-            "icon_text": "",
-            "load_more": "",
-            "loading": "",
-            "log_in": "",
-            "log_out": "",
-            "mark_all_as_read": "",
-            "never": "",
-            "new_token": "",
-            "next_page": "",
-            "notifications": "",
-            "okay": "",
-            "password": "",
-            "posts": "",
-            "previous_page": "",
-            "remove": "",
-            "rename": "",
-            "reply": "",
-            "reset_your_password": "",
-            "restore": "",
-            "save_changes": "",
-            "search_users": "",
-            "security": "",
-            "settings": "",
-            "sign_up": "",
-            "some_others": "",
-            "start_a_discussion": "",
-            "username": "",
-            "users": "",
-            "view": "",
-            "write_a_reply": "",
-            "you": ""
+            "all_discussions": "Tots els debats",
+            "change_email": "Canviar correu electrònic",
+            "change_password": "Canviar contrasenya",
+            "color": "Color",
+            "confirm_password": "Confirmar contrasenya",
+            "confirm_email": "Confirmar adreça de correu",
+            "confirmation_email_sent": "T'hem enviat un correu de confirmació a {email}. Si no t'arriba aviat, comprova que no sigui a la teva carpeta de correu brossa.",
+            "custom_footer_text": "Afegir codi HTML per mostrar a baix de tot de la pàgina.",
+            "custom_footer_title": "Editar peu de pàgina personalitzat",
+            "custom_header_text": "Afegir codi HTML per mostrar a dalt de tot de la pàgina, inclús abans de la pròpia capçalera de Flarum.",
+            "custom_header_title": "Editar la capçalera personalitzada",
+            "delete": "Esborrar",
+            "delete_forever": "Esborrar per sempre",
+            "discussions": "Debats",
+            "edit": "Editar",
+            "edit_user": "Editar usuari",
+            "email": "Correu electrònic",
+            "extensions": "Extensions",
+            "generic_confirmation_message": "Segur que vols continuar? Aquest acció és irreversible.",
+            "icon": "Icona",
+            "icon_text": "Inclou el nom de qualsevol icona <a>FontAwesome</a>, <em>incloent</em> el prefix <code>fas fa-</code>.",
+            "load_more": "Carregar més",
+            "loading": "Carregant...",
+            "log_in": "Iniciar sessió",
+            "log_out": "Tancar sessió",
+            "mark_all_as_read": "Marcar tot com a llegit",
+            "never": "Mai",
+            "new_token": "Nou identificador",
+            "next_page": "Pàgina següent",
+            "notifications": "Notificacions",
+            "okay": "D'acord",
+            "password": "Contrasenya",
+            "posts": "Publicacions",
+            "previous_page": "Pàgina anterior",
+            "remove": "Esborrar",
+            "rename": "Reanomenar",
+            "reply": "Respondre",
+            "reset_your_password": "Restablir la teva contrasenya",
+            "restore": "Restablir",
+            "save_changes": "Gravar canvis",
+            "search_users": "Cercar usuaris",
+            "security": "Seguretat",
+            "settings": "Configuració",
+            "sign_up": "Registrar-se",
+            "some_others": "{count, plural, one {# més} other {# més}}",
+            "start_a_discussion": "Començar un debat",
+            "username": "Nom d'usuari",
+            "users": "Usuaris",
+            "view": "Veure",
+            "write_a_reply": "Escriure una resposta...",
+            "you": "Tu"
         },
         "group": {
-            "admin": "",
-            "admins": "",
-            "guest": "",
-            "guests": "",
-            "member": "",
-            "members": "",
-            "mod": "",
-            "mods": ""
+            "admin": "Administrador",
+            "admins": "Administradors",
+            "guest": "Convidat",
+            "guests": "Convidats",
+            "member": "Membre",
+            "members": "Membres",
+            "mod": "Moderador",
+            "mods": "Moderadors"
         }
     }
 }
