@@ -506,7 +506,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/subscriptions/v1.8.0/locale/en.yml',
 	],
 	'flarum-suspend' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/suspend/v1.8.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/suspend/v1.8.1/locale/en.yml',
 	],
 	'flarum-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/tags/v1.8.0/locale/en.yml',
