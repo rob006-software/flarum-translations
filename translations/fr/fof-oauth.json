@@ -7,12 +7,12 @@
                 "only_icons_label": "Afficher uniquement les icônes du bouton de connexion (disposition alternative)",
                 "update_email_from_provider_label": "Mettre à jour l'adresse de courriel du fournisseur",
                 "update_email_from_provider_help": "Si cette option est activée, l'adresse de courriel de l'utilisateur sera mise à jour pour correspondre à celle fournie par le fournisseur OAuth à chaque connexion au forum. Tous les fournisseurs ne fournissent pas l'adresse de courriel mise à jour, auquel cas ce paramètre n'aura aucun effet avec ces fournisseurs.",
-                "fullscreen_popup_label": "",
-                "fullscreen_popup_help": "",
-                "popup_width_label": "",
-                "popup_width_help": "",
-                "popup_height_label": "",
-                "popup_height_help": "",
+                "fullscreen_popup_label": "Utiliser une fenêtre contextuelle plein écran pour OAuth",
+                "fullscreen_popup_help": "Lorsque cette option est activée, la connexion OAuth s'ouvre dans une fenêtre contextuelle plein écran. Si cette option est activée, les paramètres de largeur et de hauteur seront ignorés.",
+                "popup_width_label": "Largeur de la fenêtre contextuelle d'OAuth",
+                "popup_width_help": "Définit la largeur de la fenêtre contextuelle d'OAuth. Ce paramètre sera ignoré si l'option « Utiliser une fenêtre contextuelle plein écran pour OAuth » est activée.",
+                "popup_height_label": "Hauteur de la fenêtre contextuelle d'OAuth",
+                "popup_height_help": "Définit la hauteur de la fenêtre contextuelle d'OAuth. Ce paramètre sera ignoré si l'option « Utiliser une fenêtre contextuelle plein écran pour OAuth » est activée.",
                 "providers": {
                     "callback_url_text": "Si nécessaire, définissez l'URL de rappel vers {url}.",
                     "discord": {
