@@ -1,26 +1,26 @@
 {
     "v17development-flarum-blog": {
         "admin": {
-            "blog": "",
+            "blog": "Blog",
             "permissions": {
-                "write_articles": "",
-                "auto_approve_posts": "",
-                "approve_posts": ""
+                "write_articles": "Escriure i editar articles del blog",
+                "auto_approve_posts": "Publicar articles sense necessitar aprovació",
+                "approve_posts": "Pot aprovar articles del blog"
             },
             "settings": {
-                "no_categories_selected": "",
-                "selected_category_count": "",
-                "select_categories_button": "",
-                "blog_heading": "",
-                "featured_count_label": "",
-                "featured_count_text": "",
-                "allow_comments_label": "",
-                "allow_comments_text": "",
-                "require_review_label": "",
-                "require_review_text": "",
-                "hide_on_discussion_list_label": "",
-                "hide_on_discussion_list_text": "",
-                "add_sidebar_nav_label": "",
+                "no_categories_selected": "No s'ha triat cap categoria",
+                "selected_category_count": "{count, plural, one {Has triat # categoria} other {Has triat # categories}}",
+                "select_categories_button": "Triar categories del blog",
+                "blog_heading": "Blog",
+                "featured_count_label": "Publicacions màximes destacades",
+                "featured_count_text": "Quantes publicacions s'han de mostrar en una graella gran a la pàgina superior de la pàgina del blog?",
+                "allow_comments_label": "Permetre comentaris",
+                "allow_comments_text": "Per defecte, permetre comentaris a les publicacions del blog. Quan es desactiva, es pot activar individualment a cada publicació. <b>Nota:</b> Canviar aquest paràmetre de configuració no afectarà els escrits ja publicats.",
+                "require_review_label": "Les publicacions requereixen revisió prèvia",
+                "require_review_text": "Quan s'escrigui un article, no serà visible directament i caldrà la revisió d'un moderador.",
+                "hide_on_discussion_list_label": "No mostrar a la llista de debats",
+                "hide_on_discussion_list_text": "Amagar publicacions de la llista de debats.",
+                "add_sidebar_nav_label": "Afegir a la barra lateral de navegació",
                 "add_sidebar_nav_text": "",
                 "categories_heading": "",
                 "hide_tags_in_taglist_label": "",
