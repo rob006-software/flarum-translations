@@ -85,32 +85,32 @@
                 "create_private_discussions_with_users": "Crear debats privats amb usuaris",
                 "add_more_than_two_user_recipients": "Afegir més de 2 destinataris a un debat privat",
                 "create_private_discussions_with_groups": "Crear debats privats amb grups",
-                "create_private_discussions_with_blocking_users": "",
-                "edit_user_recipients": "",
-                "edit_group_recipients": "",
-                "make_private_into_public": "",
-                "view_private_discussions-when-flagged": ""
+                "create_private_discussions_with_blocking_users": "Crear debats privats amb usuaris que els bloquegen",
+                "edit_user_recipients": "Editar els usuaris que participen en debats privats",
+                "edit_group_recipients": "Editar grups que participen en debats privats",
+                "make_private_into_public": "Convertir un debat privat en debat públic",
+                "view_private_discussions-when-flagged": "Veure debats privats d'altres usuaris si t'han esmentat"
             },
             "settings": {
-                "badge-icon": "",
-                "enable-make-public-option": "",
-                "enable-make-public-option-help": "",
-                "post-event-icon": "",
-                "delete_on_last_recipient_left": "",
-                "delete_on_last_recipient_left_help": "",
-                "hide_from_all_discussions_page": "",
-                "hide_from_all_discussions_page_help": ""
+                "badge-icon": "Distintiu de Byobu",
+                "enable-make-public-option": "Habilitar la possibilitat de \"Fer públic\"",
+                "enable-make-public-option-help": "Afegeix la possibilitat per a aquells usuaris amb permisos adequats per a esborrar tots els destinataris, assignar una nova etiqueta i fer el debat públicament visible (d'acord amb la configuració de visibilitat de l'etiqueta escollida).",
+                "post-event-icon": "Publicar events",
+                "delete_on_last_recipient_left": "Esborrar els debats privats quan marxi l'últim usuari",
+                "delete_on_last_recipient_left_help": "Si s'activa, els debats privats seran esborrats irreversiblement de la base de dades quan l'últim usuari marxi. En cas contrari, només quedaran ocults.",
+                "hide_from_all_discussions_page": "Amagar els debats privats de la pàgina de \"Tots els debats\"",
+                "hide_from_all_discussions_page_help": "Els debats privats només seran accessibles des de la pàgina \"Debats privats\" o des del perfil d'usuari"
             }
         },
         "email": {
             "subject": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "[Debat privat] {display_name} ha iniciat un nou debat privat amb tu",
+                "private_discussion_replied": "[Debat privat] {display_name} ha publicat en un debat privat",
+                "recipient_removed": "[Debat privat] {display_name} ha deixat el debat",
+                "private_discussion_added": "[Debat privat] {display_name} t'ha afegit a un debat privat"
             },
             "body": {
-                "private_discussion_created": "",
+                "private_discussion_created": "Hola {recipient_display_name}!\n\n{actor_display_name} ha començat un debat privat on t'ha inclòs com a destinatari: {discussion_title}.\n\nPots veure'l aquí:\n{discussion_url}\n\nPots haver d'iniciar sessió amb el teu usuari abans de poder accedir a aquest enllaç.\n",
                 "private_discussion_replied": "",
                 "recipient_removed": "",
                 "private_discussion_added": ""
