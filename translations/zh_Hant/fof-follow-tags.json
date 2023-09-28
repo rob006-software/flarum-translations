@@ -19,6 +19,8 @@
                 "lurking_tag_tooltip": "潜水"
             },
             "sub_controls": {
+                "header": "",
+                "subscription_label": "",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "有新貼文時提醒。",
@@ -31,7 +33,8 @@
                 "not_following_button": "不關注",
                 "not_following_text": "僅當提及我時提醒。",
                 "notify_alert_tooltip": "有新貼文或新回覆時推送論壇內提醒",
-                "notify_email_tooltip": "有新貼文或新回覆時發送郵件提醒"
+                "notify_email_tooltip": "有新貼文或新回覆時發送郵件提醒",
+                "submit_button": ""
             },
             "notifications": {
                 "new_discussion_text": "{username} 發佈了新貼文",

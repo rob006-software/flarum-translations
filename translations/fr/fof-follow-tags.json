@@ -19,6 +19,8 @@
                 "lurking_tag_tooltip": "Surveillé"
             },
             "sub_controls": {
+                "header": "",
+                "subscription_label": "",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "Être notifié de toutes les nouvelles discussions.",
@@ -31,7 +33,8 @@
                 "not_following_button": "Pas abonné",
                 "not_following_text": "N'être notifié que lorsque @mentionné.",
                 "notify_alert_tooltip": "Recevoir une notification du forum lors de la publication de nouvelles discussions ou de nouveaux messages",
-                "notify_email_tooltip": "Recevoir un courriel lors de la publication de nouvelles discussions ou de nouveaux messages"
+                "notify_email_tooltip": "Recevoir un courriel lors de la publication de nouvelles discussions ou de nouveaux messages",
+                "submit_button": ""
             },
             "notifications": {
                 "new_discussion_text": "{username} a démarré",

@@ -19,6 +19,8 @@
                 "lurking_tag_tooltip": "吃瓜中"
             },
             "sub_controls": {
+                "header": "",
+                "subscription_label": "",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "有新主题时提醒。",
@@ -31,7 +33,8 @@
                 "not_following_button": "不关注",
                 "not_following_text": "仅当有人提及我时提醒。",
                 "notify_alert_tooltip": "有新主题或新回复时推送论坛提醒",
-                "notify_email_tooltip": "有新主题或新回复时发送邮件提醒"
+                "notify_email_tooltip": "有新主题或新回复时发送邮件提醒",
+                "submit_button": ""
             },
             "notifications": {
                 "new_discussion_text": "{username} 发布了新主题",

@@ -19,6 +19,8 @@
                 "lurking_tag_tooltip": "Lurking"
             },
             "sub_controls": {
+                "header": "Subscription for {tagName}",
+                "subscription_label": "Select your subscription level for {tagName}",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "Be notified of all new discussions.",
@@ -31,7 +33,8 @@
                 "not_following_button": "Not Following",
                 "not_following_text": "Be notified only when @mentioned.",
                 "notify_alert_tooltip": "Get a forum notification when there are new discussions or posts",
-                "notify_email_tooltip": "Get an email when there are new discussions or posts"
+                "notify_email_tooltip": "Get an email when there are new discussions or posts",
+                "submit_button": "Confirm subscription"
             },
             "notifications": {
                 "new_discussion_text": "{username} started",
