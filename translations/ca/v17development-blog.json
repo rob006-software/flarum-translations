@@ -21,101 +21,101 @@
                 "hide_on_discussion_list_label": "No mostrar a la llista de debats",
                 "hide_on_discussion_list_text": "Amagar publicacions de la llista de debats.",
                 "add_sidebar_nav_label": "Afegir a la barra lateral de navegació",
-                "add_sidebar_nav_text": "",
-                "categories_heading": "",
-                "hide_tags_in_taglist_label": "",
-                "hide_tags_in_taglist_text": "",
-                "show_tag_hierarchy_label": "",
-                "show_tag_hierarchy_text": "",
-                "redirects_heading": "",
-                "redirect_articles_label": "",
-                "redirect_articles_text": "",
-                "redirect_tags_label": "",
-                "redirect_tags_text": "",
-                "default_article_image_label": "",
-                "default_article_image_text": "",
-                "add_hero_label": "",
-                "add_hero_text": ""
+                "add_sidebar_nav_text": "Incloure un enllaç al blog dins el menú de navegació de la barra lateral.",
+                "categories_heading": "Categories",
+                "hide_tags_in_taglist_label": "Amagar etiquetes a la llista d'etiquetes",
+                "hide_tags_in_taglist_text": "Quan s'activa, aquesta extensió amagarà les etiquetes del blog de la teva pàgina d'inici.",
+                "show_tag_hierarchy_label": "Mostrar la jerarquia d'etiquetes",
+                "show_tag_hierarchy_text": "Afegir espaiat a les categories filles, i donar a la llista de categories una jerarquia.",
+                "redirects_heading": "Redirigeix",
+                "redirect_articles_label": "Redirigeix els articles del blog",
+                "redirect_articles_text": "Quan s'activa, aquesta extensió redirigirà les adreces web originals dels debats a les del blog.",
+                "redirect_tags_label": "Redirigir les etiquetes del blog",
+                "redirect_tags_text": "Quan s'activa, aquesta extensió redirigirà les adreces web de les etiquetes del blog a les adreça de la categoria del blog.",
+                "default_article_image_label": "Imatge de l'article per defecte",
+                "default_article_image_text": "Tria una imatge d'article per defecte per mostrar quan no hi ha cap imatge configurada.",
+                "add_hero_label": "Mostrar banner de benvinguda",
+                "add_hero_text": "Mostrar banner de benvinguda a les pàgines del blog si no s'ha tancat encara."
             }
         },
         "forum": {
-            "blog": "",
-            "read_more": "",
-            "hidden": "",
-            "recent_posts": "",
-            "categories": "",
-            "forum_nav": "",
-            "return_to_overview": "",
-            "no_more_posts": "",
-            "category_empty": "",
+            "blog": "Blog",
+            "read_more": "Llegir més",
+            "hidden": "Amagat",
+            "recent_posts": "Publicacions recents",
+            "categories": "Categories",
+            "forum_nav": "Navegació del fòrum",
+            "return_to_overview": "Tornar a la vista general del blog ",
+            "no_more_posts": "No hi ha més publicacions al blog.",
+            "category_empty": "No hi ha publicacions al blog dins aquesta categoria.",
             "compose": {
-                "write_article": ""
+                "write_article": "Escriure article"
             },
             "validation": {
-                "missing_id": ""
+                "missing_id": "Falta ID"
             },
             "article": {
-                "title": "",
-                "slug": "",
-                "summary": ""
+                "title": "Títol",
+                "slug": "Slug",
+                "summary": "Resum"
             },
             "comment_section": {
-                "comments": "",
-                "locked": ""
+                "comments": "Comentaris",
+                "locked": "La secció de comentaris està desactivada en aquest article"
             },
             "review_article": {
-                "pending_review_title": "",
-                "pending_review": "",
-                "approve_article": "",
-                "approve_article_approved": ""
+                "pending_review_title": "Revisió pendent",
+                "pending_review": "Aquest article està pendent de revisió i no està publicat encara",
+                "approve_article": "Aprovar article",
+                "approve_article_approved": "L'article ha estat aprovat i publicat"
             },
             "tools": {
-                "rename_article": "",
-                "edit_article": "",
-                "update_category": "",
-                "article_settings": "",
-                "approve_article": "",
-                "hide_article": "",
-                "recover_article": "",
-                "delete_forever": "",
-                "enable_comments": "",
-                "disable_comments": ""
+                "rename_article": "Canviar el títol de l'article",
+                "edit_article": "Editar article",
+                "update_category": "Actualitzar categories",
+                "article_settings": "Configuració de l'article",
+                "approve_article": "Aprovar article",
+                "hide_article": "Amagar article",
+                "recover_article": "Recuperar article",
+                "delete_forever": "Esborrar definitivament",
+                "enable_comments": "Activar comentaris",
+                "disable_comments": "Desactivar comentaris"
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "Redirigint-te cap a l'article del blog...",
+                    "link": "<a>Clica aquí</a> si la pàgina no et redirigeix"
                 }
             },
             "composer": {
-                "no_title": "",
-                "enter_message_here": "",
-                "post_article": "",
-                "select_category": "",
-                "edit_categories": "",
-                "update_settings": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "comment_section": "",
-                "no_blog_tags_selected": "",
-                "post_without_blog_info": ""
+                "no_title": "Sense títol",
+                "enter_message_here": "Escriu el teu missatge aquí",
+                "post_article": "Publicar article",
+                "select_category": "Tria una categoria",
+                "edit_categories": "Editar categories",
+                "update_settings": "Actualitzar configuració del blog",
+                "write": "Escriure",
+                "view": "Veure",
+                "nothing_to_preview": "Res a previsualitzar",
+                "comment_section": "La secció de comentaris no està disponible mentre es redacta un article.",
+                "no_blog_tags_selected": "Cap de les etiquetes que has triat és una etiqueta de blog. Si us plau, tria'n almenys una.",
+                "post_without_blog_info": "Segur que vols publicar el que has escrit? No hi ha cap resum o imatge."
             },
             "article_settings": {
-                "title": "",
+                "title": "Configuració de la publicació",
                 "fields": {
                     "summary": {
-                        "title": "",
-                        "placeholder": "",
-                        "helper_text": ""
+                        "title": "Resum de l'article",
+                        "placeholder": "Si us plau, entra un breu resum",
+                        "helper_text": "El resum serà visible a la pàgina de vista general del blog i s'utilitzarà per a facilitar el posicionament web (SEO) de l'article."
                     },
                     "image": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "Imatge de l'article",
+                        "helper_text": "Millor resolució d'imatge per a xarxes socials: 1200x630"
                     },
                     "highlight": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "Publicació destacada",
+                        "helper_text": "Fes que aquesta publicació mostri una imatge gran a la pàgina de vista general del blog."
                     }
                 }
             }
