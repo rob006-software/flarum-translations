@@ -693,7 +693,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/1.2.1/resources/locale/en.yml',
 	],
 	'foskym-custom-levels' => [
-		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-custom-levels/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-custom-levels/v1.0.2/locale/en.yml',
 	],
 	'ganuonglachanh-sonic' => [
 		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.8/resources/locale/en.yml',
