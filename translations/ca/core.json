@@ -23,26 +23,26 @@
                 "favicon_heading": "Favicon",
                 "favicon_text": "Carregueu una imatge que es mostrarà com a icona de drecera del fòrum.",
                 "logo_heading": "Logotip",
-                "logo_text": "Carregueu una imatge que es mostrarà en lloc del títol del fòrum.",
+                "logo_text": "Carrega una imatge que es mostrarà en lloc del títol del fòrum.",
                 "title": "Aparença"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Llengua per defecte",
-                "description": "Establiu el títol del fòrum, l'idioma i altres paràmetres bàsics.",
+                "description": "Estableix el títol del fòrum, l'idioma i altres paràmetres bàsics.",
                 "display_name_heading": "Nom de visualització de l'usuari",
                 "display_name_text": "Tria el concepte que cal usar per identificar els usuaris. Per defecte, es mostra el nom d'usuari.",
                 "forum_description_heading": "Descripció del Fòrum",
-                "forum_description_text": "Introduïu una o dues frases breus que descriguin la vostra comunitat. Això apareixerà a la \"metaetiqueta\" i també als motors de cerca.",
+                "forum_description_text": "Escriu una o dues frases breus que descriguin la teva comunitat. Això apareixerà a l'etiqueta <meta> i també als motors de cerca.",
                 "forum_title_heading": "Títol del Fòrum",
                 "home_page_heading": "Pàgina d'inici",
-                "home_page_text": "Escolliu la pàgina que els usuaris visualitzaran en arribar al vostre fòrum.",
-                "show_language_selector_label": "Mostrar el selector d'idioma",
+                "home_page_text": "Tria la pàgina que els usuaris visualitzaran en arribar al vostre fòrum.",
+                "show_language_selector_label": "Mostra el selector d'idioma",
                 "slug_driver_heading": "Controlador de Slug: {model}",
-                "slug_driver_text": "Seleccioneu el controlador que s'utilitzarà par al slug d'aquest model.",
+                "slug_driver_text": "Tria el controlador que s'utilitzarà par al slug d'aquest model.",
                 "title": "Bàsics",
                 "welcome_banner_heading": "Missatge de benvinguda",
-                "welcome_banner_text": "Configura el text que es mostra al \"bàner\" de la pàgina de \"Totes les discussions\". Utilitzeu-ho per donar la benvinguda als convidats al vostre fòrum."
+                "welcome_banner_text": "Configura el text que es mostra al \"bàner\" de la pàgina de \"Totes les discussions\". Utilitzeu-lo per donar la benvinguda als convidats al vostre fòrum."
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -56,8 +56,8 @@
             },
             "dashboard": {
                 "clear_cache_button": "Netejar la memòria cau",
-                "description": "El vostre fòrum d'un cop d'ull.",
-                "io_error_message": "No s'ha pogut escriure al sistema de fitxers. Comproveu els permisos del vostre sistema de fitxers i torneu-ho a provar. O proveu a executar des de la línia de comandaments.",
+                "description": "El teu fòrum d'un cop d'ull.",
+                "io_error_message": "No s'ha pogut escriure al sistema de fitxers. Comprova els permisos del teu sistema de fitxers i torna-ho a provar. O prova a executar-ho des de la línia de comandaments.",
                 "status": {
                     "headers": {
                         "scheduler-status": "Scheduler",
@@ -74,11 +74,11 @@
                 "tools_button": "Eines"
             },
             "debug-warning": {
-                "detail": "Quan el mode <code>debug</code> estigui actiu, Flarum reconstruirà els seus arxius <code>JavaScript</code> i <code>CSS</code> a cada sol·licitud, i també podria filtrar altra informació, com ara la base de dades. secrets, variables d'entorn, etc.\n\nÉs molt recomanable desactivar <code>debug</code> al fitxer <code>config.php</code> en producció. Consulteu <link>Flarum docs</link> per obtenir més informació.\n",
+                "detail": "Quan el mode <code>debug</code> estigui actiu, Flarum reconstruirà els seus arxius <code>JavaScript</code> i <code>CSS</code> a cada sol·licitud, i també podria filtrar altra informació, com ara la base de dades. secrets, variables d'entorn, etc.\n\nÉs molt recomanable desactivar <code>debug</code> al fitxer <code>config.php</code> en producció. Consulta <link>Flarum docs</link> per obtenir més informació.\n",
                 "label": "Mode de depuració actiu"
             },
             "edit_css": {
-                "customize_text": "Personalitzeu l'aparença del vostre fòrum afegint el vostre propi codi Less/CSS que s'aplicarà a sobre dels <a>estils predeterminats</a> de Flarum.",
+                "customize_text": "Personalitza l'aparença del teu fòrum afegint el teu propi codi Less/CSS que s'aplicarà a sobre dels <a>estils predeterminats</a> de Flarum.",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Modificar CSS personalitzat"
             },
@@ -90,7 +90,7 @@
             "edit_group": {
                 "color_label": "=> core.ref.color",
                 "delete_button": "Esborrar Grup",
-                "delete_confirmation": "Esteu segur que voleu suprimir aquest grup? Els membres del grup NO s'eliminaran.",
+                "delete_confirmation": "Estàs segur que vols esborrar aquest grup? Els membres del grup NO s'eliminaran.",
                 "hide_label": "Ocultar en el fòrum",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
@@ -107,8 +107,8 @@
             },
             "email": {
                 "addresses_heading": "Adreces",
-                "description": "Configureu el controlador, la configuració i les adreces que utilitzarà el vostre fòrum per enviar correu electrònic.",
-                "driver_heading": "Escolliu un controlador",
+                "description": "Configura el controlador, la configuració i les adreces que utilitzarà el teu fòrum per enviar correu electrònic.",
+                "driver_heading": "Escull un controlador",
                 "driver_label": "Controlador",
                 "from_label": "Remitent",
                 "mail_encryption_label": "Xifrat",
@@ -124,16 +124,16 @@
                 "send_test_mail_button": "Enviar",
                 "send_test_mail_heading": "Enviar un correu de prova",
                 "send_test_mail_success": "Correu de prova enviat satisfactòriament!",
-                "send_test_mail_text": "Això enviarà un correu electrònic amb la configuració anterior al vostre correu electrònic {email}.",
+                "send_test_mail_text": "Això enviarà un correu electrònic amb la configuració anterior al teu correu electrònic {email}.",
                 "smtp_heading": "Paràmetres SMTP",
                 "title": "=> core.ref.email"
             },
             "extension": {
                 "configure_scopes": "Configurar àmbits",
-                "confirm_purge": "La purga suprimirà totes les entrades de la base de dades i els actius relacionats amb l'extensió. No desinstal·larà l'extensió; això s'ha de fer mitjançant Composer. Esteu segur que voleu continuar?",
+                "confirm_purge": "La purga suprimirà totes les entrades de la base de dades i els actius relacionats amb l'extensió. No desinstal·larà l'extensió; això s'ha de fer mitjançant Composer. Segur que vols continuar?",
                 "disabled": "Desactivada",
-                "enable_to_see": "Activeu l'extensió per veure i canviar la configuració.",
-                "enabled": "Habilitat",
+                "enable_to_see": "Activa l'extensió per veure i canviar la configuració.",
+                "enabled": "Habilitada",
                 "info_links": {
                     "discuss": "Debatre",
                     "documentation": "Documentació",
@@ -144,12 +144,12 @@
                 },
                 "no_permissions": "Aquesta extensió no té permisos.",
                 "no_settings": "Aquesta extensió no té cap configuració.",
-                "open_modal": "Obrir Configuració",
+                "open_modal": "Obrir configuració",
                 "permissions_title": "Permisos",
                 "purge_button": "Purgar",
                 "readme": {
                     "button_label": "Llegiu-me",
-                    "no_readme": "Sembla que aquesta extensió no té un fitxer LLEGEIX-ME",
+                    "no_readme": "Aquesta extensió no té fitxer LLEGEIX-ME",
                     "title": "Documentació de {extName}"
                 }
             },
@@ -158,7 +158,7 @@
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
-                "title": "Per favor, esperi..."
+                "title": "Si us plau, espera..."
             },
             "nav": {
                 "appearance_button": "=> core.admin.appearance.title",
@@ -173,7 +173,7 @@
                     "formatting": "Format",
                     "language": "Llengües",
                     "moderation": "Moderació",
-                    "other": "Altres Extensions",
+                    "other": "Altres extensions",
                     "theme": "Temes"
                 },
                 "dashboard_button": "=> core.admin.dashboard.title",
@@ -184,11 +184,11 @@
                 "permissions_title": "=> core.admin.permissions.description",
                 "userlist_button": "=> core.admin.users.title",
                 "userlist_title": "=> core.admin.users.description",
-                "search_placeholder": "Buscar extensió"
+                "search_placeholder": "Buscar extensions"
             },
             "permissions": {
                 "allow_hide_own_posts_label": "Permetre esborrar publiacions pròpies",
-                "allow_post_editing_label": "Permetre la modificació dels messages",
+                "allow_post_editing_label": "Permetre la modificació dels missatges",
                 "allow_renaming_label": "Permetre canviar el nom",
                 "create_access_token_label": "Crear identificador d'accés",
                 "create_heading": "Crear",
