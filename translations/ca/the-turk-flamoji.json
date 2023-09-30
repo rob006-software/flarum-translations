@@ -19,70 +19,70 @@
                 "emoji_version_label": "Versió d'emojis",
                 "emoji_version_text": "La versió de l'especificació d'emojis que cal utilitzar.",
                 "initial_category_label": "Categoria inicial",
-                "initial_category_text": "",
-                "specify_categories_label": "",
-                "specify_categories_text": "",
-                "emoji_data_label": "",
-                "emoji_data_text": "",
-                "emoji_style_native_option": "",
+                "initial_category_text": "Per defecte, el selector comença mostrant la categoria Emoticones & Emocions.",
+                "specify_categories_label": "Especificar categories",
+                "specify_categories_text": "Pots triar aquí una llista de categories, i el selector només mostrarà les que indiquis.",
+                "emoji_data_label": "Dades dels emojis",
+                "emoji_data_text": "S'utilitza habitualment per proveïr noms d'emoji traduïts.",
+                "emoji_style_native_option": "Original",
                 "emoji_categories": {
-                    "smileys": "",
-                    "people": "",
-                    "animals": "",
-                    "food": "",
-                    "travel": "",
-                    "activities": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": ""
+                    "smileys": "=> the-turk-flamoji.ref.emoji_categories.smileys",
+                    "people": "=> the-turk-flamoji.ref.emoji_categories.people",
+                    "animals": "=> the-turk-flamoji.ref.emoji_categories.animals",
+                    "food": "=> the-turk-flamoji.ref.emoji_categories.food",
+                    "travel": "=> the-turk-flamoji.ref.emoji_categories.travel",
+                    "activities": "=> the-turk-flamoji.ref.emoji_categories.activities",
+                    "objects": "=> the-turk-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> the-turk-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> the-turk-flamoji.ref.emoji_categories.flags"
                 }
             },
             "custom_emojis_section": {
-                "heading_title": "",
-                "import_json_button": "",
-                "export_json_button": "",
-                "import_emojis_message": "",
+                "heading_title": "Emojis personalitzats",
+                "import_json_button": "Importar JSON",
+                "export_json_button": "Exportar JSON",
+                "import_emojis_message": "Això importarà només les configuracions dels emojis. Cal que pugis les imatges dels emojis manualment.",
                 "edit_emoji": {
-                    "modal_title": "",
-                    "emoji_title_label": "",
-                    "delete_emoji_confirmation": "",
-                    "text_to_replace_label": "",
-                    "path_or_url_label": "",
-                    "submit_button": "",
-                    "delete_emoji_button": "",
-                    "saved_message": ""
+                    "modal_title": "Afegir emoji",
+                    "emoji_title_label": "Nom de l'emoji",
+                    "delete_emoji_confirmation": "Segur que vols esborrar aquest emoji?",
+                    "text_to_replace_label": "Text a substituir",
+                    "path_or_url_label": "Ruta del fitxer o adreça web",
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_emoji_button": "Esborrar emoji",
+                    "saved_message": "=> core.admin.settings.saved_message"
                 },
                 "emoji_list": {
-                    "load_more_button": ""
+                    "load_more_button": "=> core.forum.post_stream.load_more_button"
                 }
             }
         },
         "forum": {
             "composer": {
-                "emoji_tooltip": ""
+                "emoji_tooltip": "Inserir emoji"
             },
             "emoji-button": {
-                "search_placeholder": "",
-                "no_emojis_found_message": "",
+                "search_placeholder": "Cercar emojis",
+                "no_emojis_found_message": "No s'han trobat emojis",
                 "categories": {
-                    "recents": "",
-                    "smileys": "",
-                    "people": "",
-                    "animals": "",
-                    "food": "",
-                    "travel": "",
-                    "activities": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": "",
-                    "custom": ""
+                    "recents": "=> the-turk-flamoji.ref.emoji_categories.recents",
+                    "smileys": "=> the-turk-flamoji.ref.emoji_categories.smileys",
+                    "people": "=> the-turk-flamoji.ref.emoji_categories.people",
+                    "animals": "=> the-turk-flamoji.ref.emoji_categories.animals",
+                    "food": "=> the-turk-flamoji.ref.emoji_categories.food",
+                    "travel": "=> the-turk-flamoji.ref.emoji_categories.travel",
+                    "activities": "=> the-turk-flamoji.ref.emoji_categories.activities",
+                    "objects": "=> the-turk-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> the-turk-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> the-turk-flamoji.ref.emoji_categories.flags",
+                    "custom": "=> the-turk-flamoji.ref.emoji_categories.custom"
                 }
             }
         },
         "ref": {
             "emoji_categories": {
-                "recents": "",
-                "smileys": "",
+                "recents": "Emojis recents",
+                "smileys": "Emoticones & Emocions",
                 "people": "",
                 "animals": "",
                 "food": "",
