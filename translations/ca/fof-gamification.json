@@ -2,88 +2,88 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "",
-                "votes_button": ""
+                "hot_button": "Tendència",
+                "votes_button": "Vots positius"
             }
         }
     },
     "fof-gamification": {
         "forum": {
-            "votes": "",
-            "vote_title": "",
+            "votes": "Vots",
+            "vote_title": "Mostra qui ha votat",
             "nav": {
-                "name": ""
+                "name": "Classificacions"
             },
             "ranking": {
-                "rank": "",
-                "name": "",
-                "amount": ""
+                "rank": "Lloc",
+                "name": "Usuari/a",
+                "amount": "Punts"
             },
             "notification": {
-                "upvote": "",
-                "downvote": "",
+                "upvote": "{username} ha valorat positivament la teva publicació",
+                "downvote": "{username} ha valorat negativament la teva publicació",
                 "prefrences": {
-                    "vote": ""
+                    "vote": "Quan una de les meves publicacions és votada a favor/en contra"
                 }
             },
             "user": {
                 "card": {
-                    "points": ""
+                    "points": "{count, plural, one { {count} punt} other {{count} punts}}"
                 },
-                "rank": "",
-                "votes_link": ""
+                "rank": "{rank}",
+                "votes_link": "Vots"
             },
             "modal": {
-                "downvotes_label": "",
-                "title": "",
-                "upvotes_label": ""
+                "downvotes_label": "Votants en contra:",
+                "title": "Votants",
+                "upvotes_label": "Votants a favor:"
             },
-            "mod_item": "",
+            "mod_item": "Veure el votants",
             "voters": {
-                "none": "",
-                "label": "",
-                "label_none": ""
+                "none": "Encara no hi ha Votants",
+                "label": "Votants",
+                "label_none": "Sense votants"
             },
             "post": {
-                "upvote_button": "",
-                "downvote_button": ""
+                "upvote_button": "Vota positivament la publicació",
+                "downvote_button": "Vota negativament la publicació"
             }
         },
         "admin": {
             "permissions": {
-                "vote_label": "",
-                "see_votes_label": "",
-                "see_voters_label": "",
-                "see_ranking_page": "",
-                "upvote_notifications": "",
-                "downvote_notifications": ""
+                "vote_label": "Vota positivament/negativament les publicacions",
+                "see_votes_label": "Veure el recompte de vots a favor/en contra",
+                "see_voters_label": "Veure qui ha votat",
+                "see_ranking_page": "Veure la pàgina de classificació",
+                "upvote_notifications": "Rebre notificacions quan es voti a favor",
+                "downvote_notifications": "Rebre notificacions quan es voti en contra"
             },
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "",
-                        "title": "",
-                        "help": ""
+                        "placeholder": "admin, user1, user2",
+                        "title": "Usuaris ignorats",
+                        "help": "Aquests usuaris no es mostraran a la pàgina de classificació. Els noms d'usuari s'han de separar amb una coma seguida d'un espai."
                     },
-                    "title": "",
-                    "enable": "",
-                    "custom_image_1": "",
-                    "custom_image_2": "",
-                    "custom_image_3": ""
+                    "title": "Pàgina de Classificacions",
+                    "enable": "Habilita imatges personalitzades",
+                    "custom_image_1": "Imatge del 1r lloc",
+                    "custom_image_2": "Imatge del 2n lloc",
+                    "custom_image_3": "Imatge del 3r lloc"
                 },
                 "alt_votes": {
-                    "icon_name": ""
+                    "icon_name": "Nom de la icona de disseny alternatiu"
                 },
                 "votes": {
-                    "points_title": "",
-                    "points_placeholder": "",
-                    "color_holder": "",
-                    "auto_upvote": "",
-                    "rate_limit": "",
-                    "discussion_page": "",
-                    "alternate_layout": "",
-                    "alternate_post_layout": "",
-                    "title": "",
+                    "points_title": "Marcador de posició de punts",
+                    "points_placeholder": "Punts: ",
+                    "color_holder": "#ffffff",
+                    "auto_upvote": "Vota positivament les publicacions automàticament quan són publicades",
+                    "rate_limit": "Aplica un límit de ritme de votació (10 segons)",
+                    "discussion_page": "Mostra el total de vots de la publicació original a la llista de debats",
+                    "alternate_layout": "Utilitza un disseny de votació alternatiu a la llista de debats",
+                    "alternate_post_layout": "Utilitza un disseny de votació alternatiu a les publicacions",
+                    "title": "Vots",
                     "vote_color": "",
                     "icon_name": "",
                     "icon_help": "",
