@@ -13,25 +13,25 @@
                 "mode_help_large": "50.000 és el límit tècnic per als fitxers sitemap. Si tens més entrades a guardar, utilitza l'opció següent!",
                 "mode_help_multi_label": "Mode de múltiples fitxers",
                 "mode_help_multi": "Millor opció per a fòrums grans, a partir de 10.000 elements. Es generaran múltiples fitxers sitemap comprimits, els quals s'emmagatzemaran a la carpeta /public",
-                "advanced_options_label": "",
-                "frequency_label": "",
-                "risky_performance_improvements": "",
-                "risky_performance_improvements_help": "",
+                "advanced_options_label": "Opcions avançades",
+                "frequency_label": "Amb quina freqüència cal que el scheduler reconstrueixi el sitemap?",
+                "risky_performance_improvements": "Activa millores de rendiment arriscades",
+                "risky_performance_improvements_help": "Aquestes millores fan que la tasca CRON corri més ràpid en conjunts de dades amb milions de fileres, però poden trencar la compatibilitat amb algunes extensions.",
                 "modes": {
-                    "runtime": "",
-                    "multi_file": ""
+                    "runtime": "En temps d'execució",
+                    "multi_file": "En múltiples fitxers"
                 },
                 "frequency": {
-                    "hourly": "",
-                    "twice_daily": "",
-                    "daily": ""
+                    "hourly": "Cada hora",
+                    "twice_daily": "Dos cops al dia",
+                    "daily": "Cada dia"
                 },
                 "soft_404": {
-                    "heading": "",
-                    "help": "",
+                    "heading": "Prevenció d'errors Soft 404",
+                    "help": "Quan un model té poc o cap contingut rellevant, el rastrejador de Google i altres, poden marcar-los com a pàgines \"soft 404\" (és a dir, pàgines que retornen un codi 200 de pàgina correcta existent, però sense dades d'interès). Per evitar-ho, marca aquí un nombre mínim d'elements necessaris per a cada element rellevant.",
                     "user": {
                         "comments": {
-                            "minimum_item_threshold_label": "",
+                            "minimum_item_threshold_label": "Usuari: Nombre mínim de comentaris/publicacions",
                             "minimum_item_threshold_help": ""
                         }
                     },
