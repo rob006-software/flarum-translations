@@ -36,13 +36,13 @@
                 "forum_description_text": "Escriu una o dues frases breus que descriguin la teva comunitat. Això apareixerà a l'etiqueta <meta> i també als motors de cerca.",
                 "forum_title_heading": "Títol del Fòrum",
                 "home_page_heading": "Pàgina d'inici",
-                "home_page_text": "Tria la pàgina que els usuaris visualitzaran en arribar al vostre fòrum.",
+                "home_page_text": "Tria la pàgina que els usuaris visualitzaran en arribar al fòrum.",
                 "show_language_selector_label": "Mostra el selector d'idioma",
                 "slug_driver_heading": "Controlador de Slug: {model}",
-                "slug_driver_text": "Tria el controlador que s'utilitzarà par al slug d'aquest model.",
+                "slug_driver_text": "Tria el controlador que s'utilitzarà per al slug d'aquest model.",
                 "title": "Bàsics",
                 "welcome_banner_heading": "Missatge de benvinguda",
-                "welcome_banner_text": "Configura el text que es mostra al \"bàner\" de la pàgina de \"Totes les discussions\". Utilitzeu-lo per donar la benvinguda als convidats al vostre fòrum."
+                "welcome_banner_text": "Configura el text que es mostra al \"banner\" de la pàgina \"Tots els debats\". Utilitza'l per donar la benvinguda als convidats al fòrum."
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -74,7 +74,7 @@
                 "tools_button": "Eines"
             },
             "debug-warning": {
-                "detail": "Quan el mode <code>debug</code> estigui actiu, Flarum reconstruirà els seus arxius <code>JavaScript</code> i <code>CSS</code> a cada sol·licitud, i també podria filtrar altra informació, com ara la base de dades. secrets, variables d'entorn, etc.\n\nÉs molt recomanable desactivar <code>debug</code> al fitxer <code>config.php</code> en producció. Consulta <link>Flarum docs</link> per obtenir més informació.\n",
+                "detail": "Quan el mode <code>debug</code> estigui actiu, el fòrum reconstruirà els seus arxius <code>JavaScript</code> i <code>CSS</code> a cada sol·licitud, i també podria filtrar altra informació, com ara la base de dades. secrets, variables d'entorn, etc.\n\nÉs molt recomanable desactivar <code>debug</code> al fitxer <code>config.php</code> en producció. Consulta <link>Flarum docs</link> per obtenir més informació.\n",
                 "label": "Mode de depuració actiu"
             },
             "edit_css": {
