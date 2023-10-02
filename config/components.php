@@ -692,6 +692,9 @@ return [
 	'fof-webhooks' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/1.2.1/resources/locale/en.yml',
 	],
+	'foskym-oauth-center' => [
+		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-oauth-center/v1.0.1/locale/en.yml',
+	],
 	'ganuonglachanh-sonic' => [
 		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.8/resources/locale/en.yml',
 	],
