@@ -34,12 +34,12 @@
                     "options": {
                         "auto": "=> fof-nightmode.ref.auto",
                         "day": "=> fof-nightmode.ref.light",
-                        "night": ""
+                        "night": "=> fof-nightmode.ref.dark"
                     },
                     "option_descriptions": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "El teu tema es triarà automàticament en funció de la configuració del teu navegador o dispositiu. Per exemple, si tens el mode fosc activat a iOS, els fòrums s'hi veuran en mode fosc.",
+                        "day": "L'experiència clàssica de sempre. Provada i ben valorada.",
+                        "night": "Ets una mica mussol nocturn. Acostumes a mirar el fòrum de nit, quan els ocells dormen i les guineus cacen. O senzillament t'agraden més els colors foscos!"
                     }
                 }
             }
@@ -48,10 +48,10 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "fofNightMode": "",
-                "fofNightMode-help": "",
-                "fofNightMode_perDevice": "",
-                "fofNightMode_perDevice-help": ""
+                "fofNightMode": "Tema de color per defecte",
+                "fofNightMode-help": "0 - automàtic, 1 - mode clar, 2 - mode fosc",
+                "fofNightMode_perDevice": "Tria segons la configuració del dispositiu",
+                "fofNightMode_perDevice-help": "Utilitza el mode nocturn segons les preferències de configuració de cada dispositiu"
             }
         }
     }
