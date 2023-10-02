@@ -9,46 +9,46 @@
         },
         "emails": {
             "post_warned": {
-                "subject": "{warner_display_name} t'ha advertit amb {strikes, plural, one {# avís} other {# avisos}} a {discussion_title}",
-                "body": "Hola {warnee_display_name}!\n\n{warner_display_name} t'ha advertit amb {strikes, plural, one {# avís} other {# avisos}} a {discussion_title}\n\nAquest és l'argument donat:\n\n---\n\n{public_comment}\n"
+                "subject": "{warner_display_name} t'ha advertit amb {strikes, plural, one {# toc d'atenció} other {# tocs d'atenció}} a {discussion_title}",
+                "body": "Hola {warnee_display_name}!\n\n{warner_display_name} t'ha advertit amb {strikes, plural, one {# toc d'atenció} other {# tocs d'atenció}} a {discussion_title}\n\nAquest és l'argument donat:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "{warner_display_name} t'ha advertit amb {strikes, plural, one {# avís} other {# avisos}}",
-                "body": "Hola {warnee_display_name}!\n\n{warner_display_name} t'ha advertit amb {strikes, plural, one {# avís} other {# avisos}}\n\nAquest és l'argument donat:\n\n---\n\n{public_comment}\n"
+                "subject": "{warner_display_name} t'ha advertit amb {strikes, plural, one {# toc d'atenció} other {# tocs d'atenció}}",
+                "body": "Hola {warnee_display_name}!\n\n{warner_display_name} t'ha advertit amb {strikes, plural, one {# toc d'atenció} other {# tocs d'atenció}}\n\nAquest és l'argument donat:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "{strikes, plural, one {Has estat advertit amb # avís per {mod_username}} other {Has estat advertit amb # avisos per {mod_username}}}",
-                "warning_no_strikes_text": "Has estat advertit per {mod_username} (cap avís)"
+                "warning_text": "{strikes, plural, one {Has estat advertit amb # toc d'atenció per {mod_username}} other {Has estat advertit amb # tocs d'atenció per {mod_username}}}",
+                "warning_no_strikes_text": "Has estat advertit per {mod_username} (sense cap toc d'atenció)"
             },
             "post": {
-                "warning": "{strikes, plural, one {Advertit amb # avís per {mod_username}} other {Advertit amb # avisos per {mod_username}}}",
+                "warning": "{strikes, plural, one {Advertit amb # toc d'atenció per {mod_username}} other {Advertit amb # tocs d'atenció per {mod_username}}}",
                 "warning_no_strikes": "Advertit sense cap toc d'atenció per {mod_username}"
             },
             "post_controls": {
-                "warning_button": ""
+                "warning_button": "Advertir usuari"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Advertències del moderador"
             },
             "settings": {
-                "warning_notification_label": ""
+                "warning_notification_label": "Un moderador m'adverteix"
             },
             "validation": {
-                "public_comment_required": "",
-                "invalid_strike_count": ""
+                "public_comment_required": "Cal que facis un comentari públic.",
+                "invalid_strike_count": "El nombre de tocs d'atenció ha de ser un valor enter entre 0 i 5."
             },
             "warning_controls": {
-                "delete_button": "",
-                "restore_button": "",
-                "delete_forever_button": ""
+                "delete_button": "Esborrar",
+                "restore_button": "Restaurar",
+                "delete_forever_button": "Esborrar permanentment"
             },
             "warning_list": {
-                "add_button": "",
-                "no_warnings": "",
-                "warnings": "",
-                "warnings_no_strikes": ""
+                "add_button": "Nova advertència",
+                "no_warnings": "Sembla que no hi ha cap advertència aquí.",
+                "warnings": "{strikes, plural, one {Advertències del moderador: # toc d'atenció rebuts} other {Advertències del moderador: # tocs d'atenció rebuts}}",
+                "warnings_no_strikes": "Advertències del moderador: cap toc d'atenció rebut"
             },
             "warning_list_item": {
                 "list_item_heading": "",
