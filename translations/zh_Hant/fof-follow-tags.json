@@ -19,8 +19,8 @@
                 "lurking_tag_tooltip": "潜水"
             },
             "sub_controls": {
-                "header": "",
-                "subscription_label": "",
+                "header": "訂閱 {tagName}",
+                "subscription_label": "選擇您的 {tagName} 訂閱級別",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "有新貼文時提醒。",
@@ -34,7 +34,7 @@
                 "not_following_text": "僅當提及我時提醒。",
                 "notify_alert_tooltip": "有新貼文或新回覆時推送論壇內提醒",
                 "notify_email_tooltip": "有新貼文或新回覆時發送郵件提醒",
-                "submit_button": ""
+                "submit_button": "確認訂閱"
             },
             "notifications": {
                 "new_discussion_text": "{username} 發佈了新貼文",
