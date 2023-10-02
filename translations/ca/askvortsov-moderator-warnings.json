@@ -2,29 +2,29 @@
     "askvortsov-moderator-warnings": {
         "admin": {
             "permissions": {
-                "manage_warnings": "",
-                "view_warnings": "",
-                "delete_warnings": ""
+                "manage_warnings": "Crear i esborrar advertències del moderador",
+                "view_warnings": "Veure advertències del moderador",
+                "delete_warnings": "Esborrar permanentment les advertències del moderador"
             }
         },
         "emails": {
             "post_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} t'ha advertit amb {strikes, plural, one {# avís} other {# avisos}} a {discussion_title}",
+                "body": "Hola {warnee_display_name}!\n\n{warner_display_name} t'ha advertit amb {strikes, plural, one {# avís} other {# avisos}} a {discussion_title}\n\nAquest és l'argument donat:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} t'ha advertit amb {strikes, plural, one {# avís} other {# avisos}}",
+                "body": "Hola {warnee_display_name}!\n\n{warner_display_name} t'ha advertit amb {strikes, plural, one {# avís} other {# avisos}}\n\nAquest és l'argument donat:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "",
-                "warning_no_strikes_text": ""
+                "warning_text": "{strikes, plural, one {Has estat advertit amb # avís per {mod_username}} other {Has estat advertit amb # avisos per {mod_username}}}",
+                "warning_no_strikes_text": "Has estat advertit per {mod_username} (cap avís)"
             },
             "post": {
-                "warning": "",
-                "warning_no_strikes": ""
+                "warning": "{strikes, plural, one {Advertit amb # avís per {mod_username}} other {Advertit amb # avisos per {mod_username}}}",
+                "warning_no_strikes": "Advertit sense cap toc d'atenció per {mod_username}"
             },
             "post_controls": {
                 "warning_button": ""
