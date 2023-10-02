@@ -2,24 +2,24 @@
     "fof-impersonate": {
         "admin": {
             "permissions": {
-                "login": ""
+                "login": "Iniciar sessió com altres usuaris"
             },
             "settings": {
-                "title": "",
-                "require_reason": "",
-                "no_settings_available": ""
+                "title": "FoF Impersonate",
+                "require_reason": "Cal escriure una justificació per utilitzar la identitat d'un altre usuari.",
+                "no_settings_available": "No hi ha cap configuració actualment disponible. Prova instal·lant fof/moderator-notes"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "title": "Iniciar sessió com un altre usuari",
+                "label": "Dels grans poders se'n deriven grans responsabilitats. Si continues, esdevindràs {username} fins que tanquis la sessió.",
+                "placeholder_optional": "(Opcional) Descriu el motiu pel qual estàs canviant-te a aquest usuari",
+                "placeholder_required": "Has d'explicar el teu motiu per commutar a aquest usuari abans de poder-ho fer",
+                "impersonate_username": "Iniciar sessió com a {username}"
             },
             "user_controls": {
-                "impersonate_button": ""
+                "impersonate_button": "Iniciar sessió com a usuari"
             }
         }
     }
