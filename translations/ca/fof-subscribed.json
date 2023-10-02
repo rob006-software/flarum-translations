@@ -2,45 +2,45 @@
     "fof-subscribed": {
         "forum": {
             "settings": {
-                "defaults_label": "",
-                "forced_label": "",
-                "notify_discussion_created_label": "",
-                "notify_post_created_label": "",
-                "notify_post_unapproved_label": "",
-                "notify_user_created_label": "",
-                "notify_post_flagged_label": ""
+                "defaults_label": "Activar \"{setting}\" per defecte",
+                "forced_label": "Forçar l'activació de \"{setting}\" per a tothom",
+                "notify_discussion_created_label": "Algú crea un debat",
+                "notify_post_created_label": "Algú crea una nova publicació o resposta",
+                "notify_post_unapproved_label": "S'ha creat una publicació que requereix ser aprovada",
+                "notify_user_created_label": "Quan algú es registra",
+                "notify_post_flagged_label": "Quan algú reporta una publicació"
             },
             "notifications": {
-                "discussion_created_text": "",
-                "post_created_text": "",
-                "post_unapproved_text": "",
-                "user_created_text": "",
-                "post_flagged_text": ""
+                "discussion_created_text": "{username} ha creat un nou debat",
+                "post_created_text": "{username} ha escrit una nova publicació",
+                "post_unapproved_text": "{username} ha creat una publicació que requereix ser aprovada",
+                "user_created_text": "{username} s'acaba d'inscriure",
+                "post_flagged_text": "{username} ha reportat una publicació"
             }
         },
         "admin": {
             "permission": {
-                "subscribe_to_discussion_created": "",
-                "subscribe_to_post_created": "",
-                "subscribe_to_post_unapproved": "",
-                "subscribe_to_user_created": "",
-                "subscribe_to_post_flagged": ""
+                "subscribe_to_discussion_created": "Es permet la recepció de notificacions quan es produeixin nous debats",
+                "subscribe_to_post_created": "Es permet la recepció de notificacions quan hi hagi noves publicacions o respostes",
+                "subscribe_to_post_unapproved": "Es permet la recepció de notificacions quan es produeixin noves publicacions pendents d'aprovació",
+                "subscribe_to_user_created": "Es permet la recepció de notificacions quan es registrin nous usuaris",
+                "subscribe_to_post_flagged": "Es permet la recepció de notificacions quan es reportin nous missatges"
             }
         },
         "email": {
             "subject": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": "",
-                "postCreated": "",
-                "postFlagged": ""
+                "newDiscussion": "[Subscrit | Nou debat] {title}",
+                "newUser": "[Subscrit | Nou usuari] {username}",
+                "postUnapproved": "[Subscrit | Pendent d'aprovació] {username} ha publicat a {title}",
+                "postCreated": "[Subscrit | Nova publicació] {username} ha escrit una nova publicació a {title}",
+                "postFlagged": "[Subscrit | Nou missatge reportat] {username} ha reportat una publicació a {title} per ser revisada"
             },
             "body": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": "",
-                "postCreated": "",
-                "postFlagged": ""
+                "newDiscussion": "Hola {recipient_display_name}!\n\n{actor_display_name} ha començat un nou debat: {discussion_title}\n\nPer veure aquest debat, clica el següent enllaç:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "Hola {recipient_display_name}!\n\n{actor_display_name} tot just s'ha registrat a {forum_url}.\n\nPer veure el perfil d'aquest nou usuari, clica el següent enllaç:\n{user_url}\n",
+                "postUnapproved": "Hola {recipient_display_name}!\n\n{actor_display_name} ha creat una publicació que requereix d'aprovació manual a {discussion_title}\n\nPer veure aquest nova publicació, clica el següent enllaç:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postCreated": "Hola {recipient_display_name}!\n\n{actor_display_name} acaba de crear una publicació a {discussion_title}\n\nPer veure aquesta nova publicació, clica el següent enllaç:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postFlagged": "Hola {recipient_display_name}!\n\n{actor_display_name} acaba de reportar una publicació a {discussion_title}\n\nPer veure aquesta publicació, clica el següent enllaç:\n{post_url}\n"
             }
         }
     }

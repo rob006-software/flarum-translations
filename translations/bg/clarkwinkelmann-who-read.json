@@ -11,43 +11,43 @@
                 "info": "И {count} повече"
             },
             "footer": {
-                "read-this-post": "{count, plural, =0 {Nobody read this post} one {One user read this post} other {# users read this post}}",
-                "read-no-further": "{count, plural, =0 {Everybody read further} one {One user did not read further} other {# did not read further}}",
-                "read-to-end": ""
+                "read-this-post": "{count, plural, =0 {Никой не чете тоази публикация} one {Един потребител прочете тази публикация} other {# потребителите четат тази публикация}}",
+                "read-no-further": "{count, plural, =0 {Всеки чете повече} one {Един потребител не прочете повече} other {# не прочетоха повече}}",
+                "read-to-end": "{count, plural, =0 {Никой не прочете до края} one {Един потребител прочете до края} other {# прочетоха до края}}"
             },
             "controls": {
-                "set-unread": "",
-                "remove-unread": ""
+                "set-unread": "Маркирай като непрочетено",
+                "remove-unread": "Премахване на непрочетено"
             },
             "badges": {
-                "following": "",
-                "ignoring": "",
-                "unread": ""
+                "following": "=> flarum-subscriptions.forum.badge.following_tooltip",
+                "ignoring": "=> flarum-subscriptions.forum.badge.ignoring_tooltip",
+                "unread": "Маркирано като непрочетено"
             },
             "modal": {
-                "title": "",
-                "up-to-this-post": "",
-                "past-this-post": "",
-                "to-the-end": "",
-                "behind": ""
+                "title": "Читатели",
+                "up-to-this-post": "Потребители, които са прочели до тази публикация",
+                "past-this-post": "Потребители, които са прочели тази публикация",
+                "to-the-end": "Потребители, които четат до края",
+                "behind": "Потребители, които не са прочели до края"
             }
         },
         "admin": {
             "permissions": {
-                "see-read": "",
-                "see-subscription": "",
-                "see-unread": "",
-                "mark-unread": ""
+                "see-read": "Вижте статуса на четене",
+                "see-subscription": "Вижте статуса на абонамента",
+                "see-unread": "Вижте непрочетения статус на други потребители",
+                "mark-unread": "Маркирайте дискусиите като непрочетени за собствените потребители"
             },
             "settings": {
-                "show-in-discussion-list": "",
-                "show-in-hero": "",
-                "show-between-posts": "",
-                "show-count-of-readers-who-stopped": "",
-                "hide-when-behind": "",
-                "max-visible": "",
-                "unread-icon": "",
-                "only-groups": ""
+                "show-in-discussion-list": "Показване на читателите в списъка с дискусии",
+                "show-in-hero": "Показване на героя на читателите в дискусията",
+                "show-between-posts": "Показване на статуса на четене между публикациите",
+                "show-count-of-readers-who-stopped": "Показване на броя на потребителите, които са спрели да четат, вместо общия брой прочетени между публикациите",
+                "hide-when-behind": "Скрийте напълно даден потребител, ако той стои зад толкова много публикации",
+                "max-visible": "Максимален брой потребители за показване преди \"прочетете повече\"",
+                "unread-icon": "Икона за значката за непрочетени",
+                "only-groups": "Показване само на статуса на прочитане на потребители, принадлежащи към тези групи"
             }
         }
     }

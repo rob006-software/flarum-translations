@@ -6,9 +6,15 @@
                 "forum_new_discussions": "Forumdaki yeni tartışmalar",
                 "tag_activity": "{tag} etiketi için etkinlikler",
                 "tag_new_discussions": "{tag} etiketindeki tartışmalar",
-                "discussion_last_posts": "Bu tartışma"
+                "discussion_last_posts": "Bu tartışma",
+                "user_last_posts": ""
             },
             "feeds": {
+                "entries": {
+                    "user_posts": {
+                        "title_reply": ""
+                    }
+                },
                 "titles": {
                     "main_title": "{forum_name}",
                     "main_subtitle": "Forumdaki son gönderiler",
@@ -19,7 +25,9 @@
                     "tag_d_title": "{tag} etiketindeki son tartışmalar",
                     "tag_d_subtitle": "{tag} etkiketindeki en yeni tartışma",
                     "discussion_title": "{discussion_name}",
-                    "discussion_subtitle": "Bu tartışmadaki son yazılar"
+                    "discussion_subtitle": "Bu tartışmadaki son yazılar",
+                    "user_title": "",
+                    "user_subtitle": ""
                 }
             },
             "discussion": {

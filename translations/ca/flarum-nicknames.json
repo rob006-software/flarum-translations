@@ -2,41 +2,41 @@
     "flarum-nicknames": {
         "admin": {
             "permissions": {
-                "edit_own_nickname_label": ""
+                "edit_own_nickname_label": "Editar el propi pseudònim"
             },
             "settings": {
-                "max_label": "",
-                "min_label": "",
-                "random_username_label": "",
-                "random_username_help": "",
-                "regex_label": "",
-                "set_on_registration_label": "",
-                "unique_label": ""
+                "max_label": "Longitud màxima del pseudònim",
+                "min_label": "Longitud mínima del pseudònim",
+                "random_username_label": "Pseudònims aleatoris",
+                "random_username_help": "Això amagarà l'entrada de `username` en el registre, i utilitzarà un número aleatori en el seu lloc. També farà obligatori el camp de `nickname`. Això només tindrà efecte si el paràmetre \"Permetre establir pseudònims en el registre de l'usuari\" està activat.",
+                "regex_label": "Expressió regular per a la validació",
+                "set_on_registration_label": "Permetre establir pseudònims en el registre de l'usuari",
+                "unique_label": "Requerir pseudònims únics"
             },
-            "wrong_driver": ""
+            "wrong_driver": "Has de seleccionar \"nickname\" com a nom de visualització en la <a><strong>Pàgina Bàsica</strong></a> perquè aquesta extensió tingui efecte."
         },
         "api": {
-            "invalid_nickname_message": ""
+            "invalid_nickname_message": "Aquest pseudònim no és vàlid. Per favor contacta amb l'administrador del fòrum per a més informació sobre les normes dels pseudònims."
         },
         "forum": {
             "change_nickname": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
             },
             "edit_user": {
-                "nicknames_heading": "",
-                "nicknames_text": ""
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "=> flarum-nicknames.ref.nickname"
             },
             "settings": {
-                "change_nickname_button": ""
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
             },
             "sign_up": {
-                "nickname_placeholder": ""
+                "nickname_placeholder": "=> flarum-nicknames.ref.nickname"
             }
         },
         "ref": {
-            "change_nickname": "",
-            "nickname": ""
+            "change_nickname": "Canviar el pseudònim",
+            "nickname": "Pseudònim"
         }
     }
 }

@@ -6,16 +6,16 @@
             "custom_failure_message_hint": "Персонализирано съобщение за грешка, което показва, когато имейлът е невалиден. Ще покаже съобщения за грешка по подразбиране, ако това остане празно.",
             "rule_settings": "Настройки на правила",
             "name_placeholder": "Име на правило",
-            "invalid_regular_expression": "",
+            "invalid_regular_expression": "Невалиден регулярен израз",
             "whitelist_literal": {
                 "label": "*Whitelist*",
                 "description": "Точни имейли в whitelist",
                 "placeholder": "Имейл в whitelist..."
             },
             "whitelist_regex": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Регулярен израз в позволения списък",
+                "description": "Имейл регулярни изрази в разрешения списък",
+                "placeholder": "Регулярен израз в разрешения списък..."
             },
             "blacklist_literal": {
                 "label": "*Blacklist*",
@@ -23,9 +23,9 @@
                 "placeholder": "Имейли в blacklist..."
             },
             "blacklist_regex": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Регулярен израз за забранения списък",
+                "description": "Регулярни изрази за забранен списък на имейли",
+                "placeholder": "Регулярен израз за забранен списък на..."
             }
         },
         "forum": {

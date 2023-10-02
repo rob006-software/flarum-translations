@@ -19,6 +19,8 @@
                 "lurking_tag_tooltip": "Наблюдение"
             },
             "sub_controls": {
+                "header": "",
+                "subscription_label": "",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "Получать уведомления обо всех новых дискуссиях.",
@@ -31,7 +33,8 @@
                 "not_following_button": "Не подписан",
                 "not_following_text": "Уведомить при @упоминании.",
                 "notify_alert_tooltip": "Получать уведомления на форуме, когда появляются новые дискуссии или сообщения",
-                "notify_email_tooltip": "Получать e-mail, когда появляются новые дискуссии или сообщения"
+                "notify_email_tooltip": "Получать e-mail, когда появляются новые дискуссии или сообщения",
+                "submit_button": ""
             },
             "notifications": {
                 "new_discussion_text": "{username} создал(а)",

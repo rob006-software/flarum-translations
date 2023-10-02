@@ -3,35 +3,35 @@
         "admin": {
             "popup": {
                 "section": {
-                    "googleAnalytics": "",
-                    "piwik": ""
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "Matomo"
                 },
                 "field": {
-                    "statusGoogle": "",
-                    "optTrackingCode": "",
-                    "googleTrackingCode": "",
-                    "googleGTMCode": "",
-                    "statusPiwik": "",
-                    "piwikUrl": "",
-                    "piwikSiteId": "",
-                    "piwikTrackSubdomain": "",
-                    "piwikPrependDomain": "",
-                    "piwikHideAliasUrl": "",
-                    "piwikAliasUrl": "",
-                    "piwikTrackAccounts": "",
-                    "piwikAuthToken": ""
+                    "statusGoogle": "Habilita Google Analytics (UA/GA4)",
+                    "optTrackingCode": "Optimitza el Codi de Seguiment (opcional)",
+                    "googleTrackingCode": "ID del Codi de Seguiment",
+                    "googleGTMCode": "ID del codi GTM (opcional)",
+                    "statusPiwik": "Habilita Matomo",
+                    "piwikUrl": "Domini o URL de Matomo",
+                    "piwikSiteId": "ID del lloc web",
+                    "piwikTrackSubdomain": "Segueix els visitants a través de tots els subdominis de Flarum",
+                    "piwikPrependDomain": "Afegeix el domini del lloc al títol de la pàgina quan facis seguiment",
+                    "piwikHideAliasUrl": "Al informe \"Enllaços sortints\", amaga els clics cap a URLs àlies conegudes",
+                    "piwikAliasUrl": "Alias d'URL",
+                    "piwikTrackAccounts": "Segueix comptes d'usuari individuals",
+                    "piwikAuthToken": "Identificador (token) de l'autenticació"
                 },
                 "placeholder": {
-                    "piwikAuthToken": ""
+                    "piwikAuthToken": "Omple aquest token per habilitar un giny d'estadístiques de Matomo al panell d'administració.\nPots trobar-lo a Configuració > Personal > Token d'Autenticació API.\n"
                 },
                 "trackAccounts": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "No facis seguiment",
+                    "username": "Segueix per nom d'usuari",
+                    "email": "Segueix per correu electrònic"
                 }
             },
             "matomo-widget": {
-                "title": ""
+                "title": "Matomo"
             }
         }
     }

@@ -6,9 +6,15 @@
                 "forum_new_discussions": "フォーラムの新しいスレッド",
                 "tag_activity": "{tag} タグの活動",
                 "tag_new_discussions": "{tag} タグの新しいスレッド",
-                "discussion_last_posts": "ディスカッションの最後の返信"
+                "discussion_last_posts": "ディスカッションの最後の返信",
+                "user_last_posts": ""
             },
             "feeds": {
+                "entries": {
+                    "user_posts": {
+                        "title_reply": ""
+                    }
+                },
                 "titles": {
                     "main_title": "{forum_name}",
                     "main_subtitle": "フォーラムの最新の投稿",
@@ -19,7 +25,9 @@
                     "tag_d_title": "{tag} タグの新しいスレッド",
                     "tag_d_subtitle": "{tag} タグの新しいスレッド",
                     "discussion_title": "{discussion_name}",
-                    "discussion_subtitle": "このスレッドの最新の返信"
+                    "discussion_subtitle": "このスレッドの最新の返信",
+                    "user_title": "",
+                    "user_subtitle": ""
                 }
             },
             "discussion": {

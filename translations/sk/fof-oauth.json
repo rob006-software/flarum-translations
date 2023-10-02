@@ -2,111 +2,117 @@
     "fof-oauth": {
         "admin": {
             "configure_button_label": "Konfigurovať pomocou FoF OAuth",
-            "settings_accessibility_label": "",
+            "settings_accessibility_label": "{name} nastavenia",
             "settings": {
-                "only_icons_label": "",
-                "update_email_from_provider_label": "",
-                "update_email_from_provider_help": "",
+                "only_icons_label": "Ukazovať iba ikony (iné rozloženie)",
+                "update_email_from_provider_label": "Aktualizovať emailovú adresu z poskytovateľa",
+                "update_email_from_provider_help": "Ak je táto možnosť povolená, e-mailová adresa používateľa sa pri každom prihlásení do fóra aktualizuje tak, aby zodpovedala adrese poskytnutej poskytovateľom OAuth. Nie všetci poskytovatelia poskytujú aktualizovaný e-mail, v takom prípade toto nastavenie nebude mať u týchto poskytovateľov žiadny účinok.",
+                "fullscreen_popup_label": "",
+                "fullscreen_popup_help": "",
+                "popup_width_label": "",
+                "popup_width_help": "",
+                "popup_height_label": "",
+                "popup_height_help": "",
                 "providers": {
-                    "callback_url_text": "",
+                    "callback_url_text": "V prípade potreby nastavte URL presmerovania na {url}.",
                     "discord": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Vytvorte si aplikáciu na adrese {link}. Na kartu OAuth2 pridajte adresu URL presmerovania.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "facebook": {
-                        "description": "",
-                        "app_id_label": "",
-                        "app_secret_label": ""
+                        "description": "Vytvorte si aplikáciu na adrese {link}.",
+                        "app_id_label": "=> fof-oauth.ref.settings.app_id",
+                        "app_secret_label": "=> fof-oauth.ref.settings.app_secret"
                     },
                     "github": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Vytvorte aplikáciu OAuth na adrese {link}.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "gitlab": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": "",
-                        "domain_label": ""
+                        "description": "Vytvorte aplikáciu na adrese {link}. Pridajte aplikácii rozsah <code>read_user</code>.",
+                        "client_id_label": "=> fof-oauth.ref.settings.app_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
+                        "domain_label": "GitLab doména"
                     },
                     "twitter": {
-                        "description": "",
-                        "api_key_label": "",
-                        "api_secret_label": ""
+                        "description": "Vytvorte si aplikáciu na adrese {link}. Budete musieť nastaviť URL adresu Podmienok služby a URL adresu Zásad ochrany osobných údajov. Nezabudnite potom pridať povolenie na vyžiadanie e-mailu.",
+                        "api_key_label": "API Kľúč",
+                        "api_secret_label": "API Tajný kľúč (Secret)"
                     },
                     "google": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Vytvorte aplikáciu na adrese {link}.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "linkedin": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Vytvorte aplikáciu na adrese {link}.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_button": "",
-                "with_discord_button": "",
-                "with_facebook_button": "",
-                "with_github_button": "",
-                "with_gitlab_button": "",
-                "with_google_button": "",
-                "with_linkedin_button": "",
-                "with_twitter_button": ""
+                "with_button": "Prihlásenie pomocou {provider}",
+                "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_github_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_gitlab_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_google_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_linkedin_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_twitter_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "user": {
                 "settings": {
                     "linked-account": {
-                        "label": "",
-                        "last-used-label": "",
-                        "link-created-label": "",
-                        "orphaned-account": "",
-                        "help": "",
-                        "identifier-label": "",
-                        "unlink-confirm": ""
+                        "label": "Prepojené účty",
+                        "last-used-label": "Naposledy použité",
+                        "link-created-label": "Prepojenie vytvorené",
+                        "orphaned-account": "Predtým ste sa prihlásili prostredníctvom tohto poskytovateľa, ale odvtedy je na tomto fóre prihlasovanie touto metódou zakázané.",
+                        "help": "Tieto prepojené účty vám umožňujú prihlásiť sa do fóra pomocou iných poskytovateľov.",
+                        "identifier-label": "{provider} ID",
+                        "unlink-confirm": "Ste si istí, že chcete odstrániť prepojenie s {provider}? Na fórum sa už nebudete môcť prihlásiť, pokiaľ sa v budúcnosti opätovne neautentifikujete."
                     }
                 }
             },
             "providers": {
-                "discord": "",
-                "facebook": "",
-                "github": "",
-                "gitlab": "",
-                "google": "",
-                "linkedin": "",
-                "twitter": ""
+                "discord": "=> fof-oauth.lib.providers.discord",
+                "facebook": "=> fof-oauth.lib.providers.facebook",
+                "github": "=> fof-oauth.lib.providers.github",
+                "gitlab": "=> fof-oauth.lib.providers.gitlab",
+                "google": "=> fof-oauth.lib.providers.google",
+                "linkedin": "=> fof-oauth.lib.providers.linkedin",
+                "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "signup": {
-                "username_help": ""
+                "username_help": "Vyber si prezývku ktorou tu chceš byť volaný"
             },
-            "unlink": "",
+            "unlink": "Odpojiť",
             "error": {
-                "bad_verification_code": "",
-                "invalid_state": ""
+                "bad_verification_code": "Neplatný alebo vypršaný overovací token. Skúste to prosím znova.",
+                "invalid_state": "Neplatný stav. Skúste to prosím znova."
             }
         },
         "lib": {
             "providers": {
-                "discord": "",
-                "facebook": "",
-                "github": "",
-                "gitlab": "",
-                "twitter": "",
-                "google": "",
-                "linkedin": ""
+                "discord": "Discord",
+                "facebook": "Facebook",
+                "github": "GitHub",
+                "gitlab": "GitLab",
+                "twitter": "Twitter",
+                "google": "Google",
+                "linkedin": "LinkedIn"
             }
         },
         "ref": {
             "settings": {
-                "app_id": "",
-                "app_secret": "",
-                "client_id": "",
-                "client_secret": ""
+                "app_id": "Aplikačné ID",
+                "app_secret": "Tajný kľúč aplikácie (Secret)",
+                "client_id": "Klient ID",
+                "client_secret": "Tajný kľúč klienta (Secret)"
             }
         }
     }

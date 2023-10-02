@@ -6,9 +6,15 @@
                 "forum_new_discussions": "論壇的新討論",
                 "tag_activity": "{tag} 標簽活動",
                 "tag_new_discussions": "在{tag} 標籤中進行討論",
-                "discussion_last_posts": "這個主題"
+                "discussion_last_posts": "這個主題",
+                "user_last_posts": "該用戶的貼文和評論"
             },
             "feeds": {
+                "entries": {
+                    "user_posts": {
+                        "title_reply": "回覆: {discussion}"
+                    }
+                },
                 "titles": {
                     "main_title": "{forum_name}",
                     "main_subtitle": "論壇最新回文",
@@ -19,7 +25,9 @@
                     "tag_d_title": "{tag} 標籤中的新討論",
                     "tag_d_subtitle": "{tag} 中的最新討論",
                     "discussion_title": "{discussion_name}",
-                    "discussion_subtitle": "這篇帖子的最新回覆"
+                    "discussion_subtitle": "這篇帖子的最新回覆",
+                    "user_title": "{username}",
+                    "user_subtitle": "該用戶的最新貼文和評論。"
                 }
             },
             "discussion": {

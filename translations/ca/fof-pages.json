@@ -2,46 +2,46 @@
     "fof-pages": {
         "admin": {
             "edit_page": {
-                "content_label": "",
-                "content_placeholder": "",
-                "delete_page_button": "",
-                "delete_page_confirmation": "",
-                "hidden_label": "",
-                "restricted_label": "",
-                "html_label": "",
-                "set_as_home_page_confirmation": "",
-                "set_as_home_page_done": "",
-                "slug_label": "",
-                "slug_placeholder": "",
-                "submit_button": "",
-                "title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "url_label": "",
-                "url_placeholder": ""
+                "content_label": "=> fof-pages.ref.content",
+                "content_placeholder": "=> fof-pages.ref.content",
+                "delete_page_button": "Esborrar pàgina",
+                "delete_page_confirmation": "Segur que vols esborrar aquesta pàgina?",
+                "hidden_label": "Guarda com a esborrany",
+                "restricted_label": "Restringeix l'accés (configura qui pot accedir-hi a la pestanya de permisos)",
+                "html_label": "Activa HTML",
+                "set_as_home_page_confirmation": "Segur que vols configurar aquesta pàgina com a pàgina d'inici?",
+                "set_as_home_page_done": "Pàgina d'inici actualitzada",
+                "slug_label": "=> fof-pages.ref.slug",
+                "slug_placeholder": "=> fof-pages.ref.slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-pages.ref.create_page",
+                "title_label": "=> fof-pages.ref.title",
+                "title_placeholder": "=> fof-pages.ref.title",
+                "url_label": "=> fof-pages.ref.url",
+                "url_placeholder": "=> fof-pages.ref.url"
             },
             "pages": {
-                "create_button": ""
+                "create_button": "=> fof-pages.ref.create_page"
             },
             "pages_list": {
-                "empty_text": "",
-                "title": ""
+                "empty_text": "Sembla que no hi ha cap pàgina aquí.",
+                "title": "=> fof-pages.ref.title"
             },
             "permissions": {
-                "restricted": ""
+                "restricted": "Veure pàgines d'accés restringit"
             },
             "badges": {
-                "hidden": "",
-                "restricted": ""
+                "hidden": "Esborrany",
+                "restricted": "Restringit"
             }
         },
         "ref": {
-            "content": "",
-            "create_page": "",
-            "pages": "",
-            "slug": "",
-            "title": "",
-            "url": ""
+            "content": "Contingut",
+            "create_page": "Crear pàgina",
+            "pages": "Pàgines",
+            "slug": "Slug",
+            "title": "Títol",
+            "url": "Adreça web"
         }
     }
 }

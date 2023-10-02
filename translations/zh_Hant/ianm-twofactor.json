@@ -1,0 +1,81 @@
+{
+    "ianm-twofactor": {
+        "admin": {
+            "edit_group": {
+                "2fa_label": "需要兩步驟驗證",
+                "2fa_help": "要求該組的成員為其帳戶啟用雙因素身份驗證 (2FA)。",
+                "admin_2fa_help": "{adminName} 成員必須始終啟用 2FA。"
+            },
+            "permissions": {
+                "see_two_factor_status_label": "查看其他用戶的 2FA 狀態",
+                "manage_others_label": "為其他用戶管理 2FA"
+            },
+            "settings": {
+                "groups": {
+                    "title": "2FA 所需組",
+                    "help": "要求這些組的成員為其帳戶啟用雙因素身份驗證 (2FA)。 所需組中的用戶無法禁用 2FA。"
+                },
+                "forum_logo_qr": "在二維碼上嵌入論壇徽標",
+                "forum_logo_qr_help": "在啟用 2FA 時顯示的二維碼上嵌入論壇徽標。 這可以幫助用戶識別要掃描的正確二維碼。",
+                "forum_logo_qr_width": "論壇徽標二維碼寬度",
+                "forum_logo_qr_width_help": "啟用 2FA 時顯示的嵌入在二維碼上的論壇徽標的寬度。 最多 200 個。",
+                "logo_qr": "QR Code上的圖示",
+                "logo_qr_help": "如果圖示已上傳，則該圖示將嵌入到二維碼中。 留空以使用論壇圖示。"
+            }
+        },
+        "forum": {
+            "user_2fa": {
+                "alert_message": "您必須啟用 2FA 才能繼續訪問您的帳戶。"
+            },
+            "security": {
+                "two_factor_heading": "兩步驟驗證",
+                "two_factor_help": "雙因素身份驗證 (2FA) 為您的帳戶提供額外的安全保障。 啟用後，除了密碼之外，您在登錄或執行某些其他操作時還需要輸入身份驗證應用程序中的令牌。 即使您的密碼被洩露，這也可以確保您的帳戶保持安全，因為攻擊者還需要一個代碼（每 30 秒更改一次）才能訪問您的帳戶。",
+                "two_factor_apps": "{google}、{authy}、{microsoft} 等應用程序均可免費使用。",
+                "two_factor_enabled": "此帳戶啟用了 2FA。",
+                "two_factor_disabled": "此帳戶已禁用 2FA。",
+                "two_factor_title": "狀態:",
+                "enable_2fa_button": "啟用兩步驟驗證",
+                "disable_2fa_button": "禁用兩步驟驗證",
+                "enable_2fa_modal_text": "使用身份驗證應用程序掃描下面的二維碼，然後輸入提供的令牌以啟用雙因素身份驗證。",
+                "qr_code_alt": "二維碼兩步驟驗證",
+                "enter_token": "輸入令牌",
+                "verify_button": "核實",
+                "loading_qr": "正在載入 QR Code...",
+                "backup_codes": "您的備份代碼",
+                "backup_codes_instruction": "請將這些代碼保存在安全的地方。 如果您丟失主要身份驗證方法，它們可用於訪問您的帳戶。 它們將不會再次顯示。",
+                "saved_backup_codes_button": "我已經保存了這些代碼",
+                "two_factor_enabled_confirmation": "您的帳戶已成功啟用兩步驟驗證 。",
+                "ok_button": "Ok",
+                "confirm_disable_2fa_title": "確認禁用兩步驟驗證",
+                "confirm_disable_2fa_text": "您確定要停用兩步驟驗證?",
+                "cannot_disable": "當前配置指示您無法禁用兩步驟驗證 。",
+                "cannot_disable_tooltip": "無法停用兩步驟驗證",
+                "cancel_button": "取消",
+                "qr_tab": "掃描 QR Code",
+                "manual_tab": "手動設置",
+                "scan_qr_instruction": "使用身份驗證應用程序掃描上面的二維碼，然後輸入提供的令牌以啟用雙因素身份驗證。",
+                "manual_entry_instruction": "將提供的代碼輸入您的身份驗證應用程序，然後輸入生成的令牌以啟用雙因素身份驗證。"
+            },
+            "log_in": {
+                "two_factor_placeholder": "2FA 令牌，例如 123456",
+                "two_factor_required_message": "需要有效的 2FA 令牌才能繼續。"
+            }
+        },
+        "email": {
+            "subject": {
+                "status_changed": "您帳戶的雙因素身份驗證{type}"
+            },
+            "body": {
+                "status_changed": "您好{recipient_display_name}，\n\n您在 {forum_url} 上的帳戶已採用{type}雙因素身份驗證。\n\n如果您發起了此操作，則無需採取進一步的步驟。 如果您未授權此更改，請立即聯繫論壇管理員。\n"
+            }
+        },
+        "views": {
+            "reset_password": {
+                "two_factor_token_label": "2FA 令牌"
+            },
+            "two_factor_token": {
+                "submit_button": "提交令牌"
+            }
+        }
+    }
+}

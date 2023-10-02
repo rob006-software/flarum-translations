@@ -4,118 +4,118 @@
             "blog": "Блог",
             "permissions": {
                 "write_articles": "Пиши и редактирай статии за блога",
-                "auto_approve_posts": "",
+                "auto_approve_posts": "Публикувайте статии без одобрение",
                 "approve_posts": "Може да одобрява блог статии"
             },
             "settings": {
                 "no_categories_selected": "Няма избрани категории",
-                "selected_category_count": "{count, plural, one {You have # category selected} other {You have # categories selected}}",
-                "select_categories_button": "",
-                "blog_heading": "",
-                "featured_count_label": "",
-                "featured_count_text": "",
-                "allow_comments_label": "",
-                "allow_comments_text": "",
-                "require_review_label": "",
-                "require_review_text": "",
-                "hide_on_discussion_list_label": "",
-                "hide_on_discussion_list_text": "",
-                "add_sidebar_nav_label": "",
-                "add_sidebar_nav_text": "",
-                "categories_heading": "",
-                "hide_tags_in_taglist_label": "",
-                "hide_tags_in_taglist_text": "",
-                "show_tag_hierarchy_label": "",
-                "show_tag_hierarchy_text": "",
-                "redirects_heading": "",
-                "redirect_articles_label": "",
-                "redirect_articles_text": "",
-                "redirect_tags_label": "",
-                "redirect_tags_text": "",
-                "default_article_image_label": "",
-                "default_article_image_text": "",
-                "add_hero_label": "",
-                "add_hero_text": ""
+                "selected_category_count": "{count, plural, one {Избрали сте # категория} other {Избрали сте # категории}}",
+                "select_categories_button": "Изберете категории блогове",
+                "blog_heading": "Блог",
+                "featured_count_label": "Макс. представени публикации",
+                "featured_count_text": "Колко публикации трябва да се показват в голяма мрежа в горната част на страницата на блога?",
+                "allow_comments_label": "Разрешаване на коментари",
+                "allow_comments_text": "По подразбиране се разрешават коментари за публикации в блогове. Когато е деактивирано, може да се активира индивидуално за публикация в блог. <b>Забележка:</b> Промяната на тази настройка няма да засегне вече съществуващи публикации в блогове.",
+                "require_review_label": "Публикациите в блога изискват преглед",
+                "require_review_text": "Когато публикувате статия, тя няма да се вижда директно и трябва да бъде прегледана от модератор.",
+                "hide_on_discussion_list_label": "Да не се показва в списъка за дискусии",
+                "hide_on_discussion_list_text": "Скриване на публикации в блогове от списъка с дискусии.",
+                "add_sidebar_nav_label": "Добавяне към навигацията в страничната лента",
+                "add_sidebar_nav_text": "Включете връзка към блога в навигационното меню на страничната лента.",
+                "categories_heading": "Категории",
+                "hide_tags_in_taglist_label": "Скриване на тагове в списъка с тагове",
+                "hide_tags_in_taglist_text": "Когато е активирано, това разширение ще скрие маркерите на блога от началната ви страница.",
+                "show_tag_hierarchy_label": "Показване на йерархията на таговете",
+                "show_tag_hierarchy_text": "Добавете интервал към дъщерните категории и дайте на списъка с категории йерархия.",
+                "redirects_heading": "Пренасочвания",
+                "redirect_articles_label": "Пренасочване на статии от блога",
+                "redirect_articles_text": "Когато е активирано, това разширение ще пренасочва URL адресите на оригиналните дискусии към техния URL адрес на блога.",
+                "redirect_tags_label": "Пренасочване на блог тагове",
+                "redirect_tags_text": "Когато е активирано, това разширение пренасочва URL адресите на етикетите на блога към URL адреса на категорията на блога.",
+                "default_article_image_label": "Изображение на статията по подразбиране",
+                "default_article_image_text": "Изберете изображение на статия по подразбиране, което да се показва, когато не е зададено изображение.",
+                "add_hero_label": "Покажете банер за добре дошли",
+                "add_hero_text": "Показвайте банер за добре дошли на страниците на блога, ако още не е затворен."
             }
         },
         "forum": {
-            "blog": "",
-            "read_more": "",
-            "hidden": "",
-            "recent_posts": "",
-            "categories": "",
-            "forum_nav": "",
-            "return_to_overview": "",
-            "no_more_posts": "",
-            "category_empty": "",
+            "blog": "Блог",
+            "read_more": "Прочетете още",
+            "hidden": "Скрити",
+            "recent_posts": "Скорошни публикации в блогове",
+            "categories": "Категории",
+            "forum_nav": "Форум Nav",
+            "return_to_overview": "Върнете се към прегледа на блога ",
+            "no_more_posts": "Няма повече публикации в блога.",
+            "category_empty": "Няма публикации в блога в тази категория.",
             "compose": {
-                "write_article": ""
+                "write_article": "Напиши статия"
             },
             "validation": {
-                "missing_id": ""
+                "missing_id": "Липсващо ID"
             },
             "article": {
-                "title": "",
-                "slug": "",
-                "summary": ""
+                "title": "Заглавие",
+                "slug": "Slug",
+                "summary": "Резюме"
             },
             "comment_section": {
-                "comments": "",
-                "locked": ""
+                "comments": "Коментари",
+                "locked": "Разделът за коментари е деактивиран за тази статия"
             },
             "review_article": {
-                "pending_review_title": "",
-                "pending_review": "",
-                "approve_article": "",
-                "approve_article_approved": ""
+                "pending_review_title": "Изчаква преглед",
+                "pending_review": "Тази статия чака преглед и все още не е публикувана",
+                "approve_article": "Одобряване на статията",
+                "approve_article_approved": "Статията е одобрена и публикувана"
             },
             "tools": {
-                "rename_article": "",
-                "edit_article": "",
-                "update_category": "",
-                "article_settings": "",
-                "approve_article": "",
-                "hide_article": "",
-                "recover_article": "",
-                "delete_forever": "",
-                "enable_comments": "",
-                "disable_comments": ""
+                "rename_article": "Преименуване на статията",
+                "edit_article": "Редактиране на статията",
+                "update_category": "Актуализиране на категории",
+                "article_settings": "Настройки на статията",
+                "approve_article": "Одобряване на статията",
+                "hide_article": "Скриване на статията",
+                "recover_article": "Възстановяване на статията",
+                "delete_forever": "Изтрий завинаги",
+                "enable_comments": "Разрешете коментарите",
+                "disable_comments": "Деактивиране на коментарите"
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "Пренасочваме ви към нашата статия в блога...",
+                    "link": "<a>Щракнете тук</a>, ако страницата не ви пренасочва"
                 }
             },
             "composer": {
-                "no_title": "",
-                "enter_message_here": "",
-                "post_article": "",
-                "select_category": "",
-                "edit_categories": "",
-                "update_settings": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "comment_section": "",
-                "no_blog_tags_selected": "",
-                "post_without_blog_info": ""
+                "no_title": "Без заглавие",
+                "enter_message_here": "Въведете вашето съобщение тук",
+                "post_article": "Публикувайте статия",
+                "select_category": "Избери категория",
+                "edit_categories": "Редактиране на категории",
+                "update_settings": "Актуализирайте настройките на блога",
+                "write": "Пишете",
+                "view": "Преглед",
+                "nothing_to_preview": "Няма нищо за преглед",
+                "comment_section": "Разделът за коментари не е наличен, когато пишете статия.",
+                "no_blog_tags_selected": "Нито един от таговете, които сте избрали, не е таг за блога. Моля, изберете поне един.",
+                "post_without_blog_info": "Сигурни ли сте, че искате да публикувате тази публикация в блога? Все още не сте въвели резюме или изображение на блога."
             },
             "article_settings": {
-                "title": "",
+                "title": "Настройки за публикация в блог",
                 "fields": {
                     "summary": {
-                        "title": "",
-                        "placeholder": "",
-                        "helper_text": ""
+                        "title": "Резюме на статията",
+                        "placeholder": "Моля, въведете резюме",
+                        "helper_text": "Това резюме ще бъде видимо на страницата с преглед на блога и ще се използва за SEO цели."
                     },
                     "image": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "Изображение на статията",
+                        "helper_text": "Най-добра резолюция на изображението за социални медии: 1200x630"
                     },
                     "highlight": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "Маркирана публикация",
+                        "helper_text": "Придайте на тази публикация голямо изображение на страницата за преглед на блога."
                     }
                 }
             }

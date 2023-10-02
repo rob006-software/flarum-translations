@@ -19,6 +19,8 @@
                 "lurking_tag_tooltip": "Наблюдение"
             },
             "sub_controls": {
+                "header": "",
+                "subscription_label": "",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "Уведоми ме за всички нови дискусии.",
@@ -31,7 +33,8 @@
                 "not_following_button": "Не следвам",
                 "not_following_text": "Уведоми ме само когато @mentioned.",
                 "notify_alert_tooltip": "Получи известие от форума когато има нови дискусии или постове",
-                "notify_email_tooltip": "Получи имейл когато има нови дискусии или публикации"
+                "notify_email_tooltip": "Получи имейл когато има нови дискусии или публикации",
+                "submit_button": ""
             },
             "notifications": {
                 "new_discussion_text": "{username} започна",

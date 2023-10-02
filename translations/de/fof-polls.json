@@ -4,13 +4,13 @@
             "settings": {
                 "allow_option_image": "Erlaube die Angabe einer Bild-URL für jede Umfrageoption",
                 "max_options": "Maximale Anzahl von Optionen pro Umfrage",
-                "options_color_blend": "",
-                "options_color_blend_help": ""
+                "options_color_blend": "Textfarbe in Umfrageoptionen für bessere Lesbarkeit anpassen",
+                "options_color_blend_help": "Mit dieser Funktion kannst du durch Farbmischen die Umfrageoptionen besser lesbar machen. Deaktiviere diese Funktion wenn sie dein Forum seltsam aussehen lässt und die Lesbarkeit verringert."
             },
             "permissions": {
                 "view_results_without_voting": "Ergebnisse anzeigen ohne abzustimmen",
                 "start": "Umfragen starten",
-                "self_edit": "Erstellte Umfragen bearbeiten (erfordert die Berechtigung zum Bearbeiten von Posts)",
+                "self_edit": "Erstellte Umfragen bearbeiten (erfordert die Berechtigung zum Bearbeiten von Beiträgen)",
                 "self_post_edit": "Bearbeiten *aller* Umfragen in eigenen Beiträgen (erfordert die Berechtigung zum Bearbeiten von Beiträgen)",
                 "vote": "In Umfragen abstimmen",
                 "change_vote": "Stimme ändern",
@@ -24,8 +24,8 @@
             "public_poll": "Abstimmungsergebnis",
             "max_votes_allowed": "In der Umfrage kann für {max, plural, one {# Option} other {# Optionen}} abgestimmt werden.",
             "poll": {
-                "cannot_change_vote": "",
-                "submit_button": ""
+                "cannot_change_vote": "Du kannst deine Stimme nach dem Abstimmen nicht mehr ändern.",
+                "submit_button": "Abstimmen"
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
@@ -45,11 +45,11 @@
                 "image_option_placeholder": "Bild-URL (optional)",
                 "options_label": "Antworten",
                 "public_poll_label": "Alle dürfen sehen, wer abgestimmt hat",
-                "allow_multiple_votes_label": "Erlaube den Leuten, für mehrere Optionen zu stimmen",
+                "allow_multiple_votes_label": "Benutzern erlauben, für mehrere Optionen abzustimmen",
                 "max_votes_label": "Maximale Stimmen pro Benutzer",
                 "max_votes_help": "Auf 0 festlegen, damit die Nutzer für alle Optionen stimmen können.",
                 "hide_votes_label": "Stimmen ausblenden, bis die Umfrage endet",
-                "allow_change_vote_label": "",
+                "allow_change_vote_label": "Benutzern erlauben, ihre Stimme zu ändern",
                 "question_placeholder": "Frage",
                 "submit": "Speichern"
             },

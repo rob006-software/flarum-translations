@@ -976,6 +976,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`datlechin-link-preview`](https://weblate.rob006.net/projects/flarum/datlechin-link-preview) | [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) |
 | [`datlechin-more-discussions`](https://weblate.rob006.net/projects/flarum/datlechin-more-discussions) | [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions) |
 | [`datlechin-oauth-envato`](https://weblate.rob006.net/projects/flarum/datlechin-oauth-envato) | [`datlechin/flarum-oauth-envato`](https://github.com/datlechin/flarum-oauth-envato) |
+| [`datlechin-oauth-spotify`](https://weblate.rob006.net/projects/flarum/datlechin-oauth-spotify) | [`datlechin/flarum-oauth-spotify`](https://github.com/datlechin/flarum-oauth-spotify) |
 | [`datlechin-offline-indicator`](https://weblate.rob006.net/projects/flarum/datlechin-offline-indicator) | [`datlechin/flarum-offline-indicator`](https://github.com/datlechin/flarum-offline-indicator) |
 | [`datlechin-posted-on`](https://weblate.rob006.net/projects/flarum/datlechin-posted-on) | [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on) |
 | [`datlechin-pronouns`](https://weblate.rob006.net/projects/flarum/datlechin-pronouns) | [`datlechin/flarum-pronouns`](https://github.com/datlechin/flarum-pronouns) |
@@ -1016,6 +1017,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ianm-oauth-twitch`](https://weblate.rob006.net/projects/flarum/ianm-oauth-twitch) | [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch) |
 | [`ianm-syndication`](https://weblate.rob006.net/projects/flarum/ianm-syndication) | [`ianm/syndication`](https://github.com/imorland/syndication) |
 | [`ianm-synopsis`](https://weblate.rob006.net/projects/flarum/ianm-synopsis) | [`ianm/synopsis`](https://github.com/imorland/synopsis) |
+| [`ianm-twofactor`](https://weblate.rob006.net/projects/flarum/ianm-twofactor) | [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) |
 | [`jeromegillard-map`](https://weblate.rob006.net/projects/flarum/jeromegillard-map) | [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map) |
 | [`jslirola-login2seeplus`](https://weblate.rob006.net/projects/flarum/jslirola-login2seeplus) | [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus) |
 | [`justoverclock-auto-post-count-badge`](https://weblate.rob006.net/projects/flarum/justoverclock-auto-post-count-badge) | [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge) |

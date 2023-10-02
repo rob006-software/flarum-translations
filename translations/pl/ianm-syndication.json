@@ -6,9 +6,15 @@
                 "forum_new_discussions": "Nowe dyskusje na forum",
                 "tag_activity": "Aktywność dla tagu {tag}",
                 "tag_new_discussions": "Dyskusje oznaczone tagiem {tag}",
-                "discussion_last_posts": "Ta dyskusja"
+                "discussion_last_posts": "Ta dyskusja",
+                "user_last_posts": ""
             },
             "feeds": {
+                "entries": {
+                    "user_posts": {
+                        "title_reply": ""
+                    }
+                },
                 "titles": {
                     "main_title": "{forum_name}",
                     "main_subtitle": "Ostatnie posty na forum",
@@ -19,7 +25,9 @@
                     "tag_d_title": "Nowe dyskusje oznaczone tagiem {tag}",
                     "tag_d_subtitle": "Najnowsze dyskusje oznaczone tagiem {tag}",
                     "discussion_title": "{discussion_name}",
-                    "discussion_subtitle": "Najnowsze posty w tej dyskusji"
+                    "discussion_subtitle": "Najnowsze posty w tej dyskusji",
+                    "user_title": "",
+                    "user_subtitle": ""
                 }
             },
             "discussion": {

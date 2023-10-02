@@ -2,49 +2,49 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "",
-                "view_flags_label": ""
+                "flag_posts_label": "Reportar publicacions",
+                "view_flags_label": "Veure publicacions reportades"
             },
             "settings": {
-                "flag_own_posts_label": "",
-                "guidelines_url_label": "",
-                "title": ""
+                "flag_own_posts_label": "Permetre que els usuaris reportin els seus propis missatges",
+                "guidelines_url_label": "Adreça web de les normes de la comunitat",
+                "title": "Paràmetres de configuració"
             }
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "",
-                "dismiss_button": "",
-                "reason_details_placeholder": "",
-                "reason_inappropriate_label": "",
-                "reason_inappropriate_text": "",
-                "reason_missing_message": "",
-                "reason_off_topic_label": "",
-                "reason_off_topic_text": "",
-                "reason_other_label": "",
-                "reason_spam_label": "",
-                "reason_spam_text": "",
-                "submit_button": "",
-                "title": ""
+                "confirmation_message": "Gràcies per reportar aquesta publicació. Els nostres moderadors la revisaran.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Detalls addicionals (opcional)",
+                "reason_inappropriate_label": "Inapropiat",
+                "reason_inappropriate_text": "Aquesta publicació és ofensiva, abusiva o viola les nostres <a>normes de la comunitat</a>.",
+                "reason_missing_message": "Si us plau, facilita alguns detalls als nostres moderadors.",
+                "reason_off_topic_label": "Fora de tema",
+                "reason_off_topic_text": "Aquesta publiació no és rellevant per al debat en curs i hauria de tractar-se en alguna altra banda.",
+                "reason_other_label": "Altres (si us plau, expliqueu-ho)",
+                "reason_spam_label": "Contingut brossa",
+                "reason_spam_text": "Aquesta publicació és un anunci o un possible engany.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
-                "empty_text": "",
-                "item_text": "",
-                "title": "",
-                "tooltip": ""
+                "empty_text": "Cap missatge reportat",
+                "item_text": "{username} a <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
-                "dismiss_flag_button": "",
-                "flagged_by_text": "",
-                "flagged_by_with_reason_text": ""
+                "dismiss_flag_button": "Eliminar marca de missatge reportat",
+                "flagged_by_text": "Reportat per {username}",
+                "flagged_by_with_reason_text": "Reportat per {username} com a {reason}"
             },
             "post_controls": {
-                "flag_button": ""
+                "flag_button": "Reportar"
             }
         },
         "ref": {
-            "flag_post": "",
-            "flagged_posts": ""
+            "flag_post": "Reportar publicació",
+            "flagged_posts": "Publicacions reportades"
         }
     }
 }

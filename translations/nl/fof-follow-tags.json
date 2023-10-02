@@ -19,6 +19,8 @@
                 "lurking_tag_tooltip": "Lurken"
             },
             "sub_controls": {
+                "header": "",
+                "subscription_label": "",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "Geattendeerd worden op alle nieuwe discussies.",
@@ -31,7 +33,8 @@
                 "not_following_button": "Niet volgen",
                 "not_following_text": "Notificaties alleen wanneer @mentioned.",
                 "notify_alert_tooltip": "Ontvang een forum notificatie wanneer er nieuwe discussies of reacties zijn",
-                "notify_email_tooltip": "Ontvang een email wanneer en nieuwe discussies of reacties zijn"
+                "notify_email_tooltip": "Ontvang een email wanneer en nieuwe discussies of reacties zijn",
+                "submit_button": ""
             },
             "notifications": {
                 "new_discussion_text": "{username} start",

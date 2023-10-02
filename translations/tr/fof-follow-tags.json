@@ -19,6 +19,8 @@
                 "lurking_tag_tooltip": "Gizlenmiş"
             },
             "sub_controls": {
+                "header": "",
+                "subscription_label": "",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "Tüm yeni tartışmalarda bildir.",
@@ -31,7 +33,8 @@
                 "not_following_button": "Takip Edilmiyor",
                 "not_following_text": "Yalnızca birisi @bahsettiğinde bildir.",
                 "notify_alert_tooltip": "Yeni bir tartışma veya gönderi olduğunda forumdan bildir",
-                "notify_email_tooltip": "Yeni bir tartışma veya gönderi olduğunda e-posta ile bildir"
+                "notify_email_tooltip": "Yeni bir tartışma veya gönderi olduğunda e-posta ile bildir",
+                "submit_button": ""
             },
             "notifications": {
                 "new_discussion_text": "{username} başlattı",

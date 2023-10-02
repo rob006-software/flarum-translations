@@ -3,97 +3,108 @@
         "admin": {
             "permissions": {
                 "moderate_requests": "Schvaľovať žiadosti o zmenu používateľského mena/prezývky",
-                "request_nickname": "",
-                "request_username": ""
+                "request_nickname": "Požiadať o zmenu prezývky",
+                "request_username": "Požiadať o zmenu mena"
             }
         },
         "forum": {
             "nickname_modals": {
                 "action": {
-                    "title": "",
-                    "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "title": "=> fof-username-request.ref.nickname_change_request",
+                    "help_text": "Uisti sa prosím, že táto žiadosť dodržuje pravidlá komunity.",
+                    "decision_title": "Rozhodnutie",
+                    "approval_label": "Akceptovať",
+                    "rejected_label": "Odmietnuť",
+                    "submit_button": "Potvrdiť",
+                    "reason_title": "Dôvod pre zamietnutie",
+                    "success": "Rozhodnutie poslané.",
+                    "name": "{name} si požiadal o zmenu prezývky na \"{requestedName}\""
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
-                    "dismiss_button": "",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
-                    "resubmit": ""
+                    "title": "Požiadavka o zmenu prezývky",
+                    "approved": "Vaša žiadosť o zmenu prezývky bola akceptovaná",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Vaša prezývka bola úspešne zmenená na novú: {name}",
+                    "rejected": "Vaša žiadosť o zmenu prezývky bola odmietnutá",
+                    "reason": "Dôvod pre zamietnutie: <i>\"{reason}\"</i>.",
+                    "resubmit": "V tomto okamihu môžete v nastaveniach svojho konta opätovne odoslať novú žiadosť o zmenu prezývky, ak sa tak rozhodnete."
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
-                    "submit_button": "",
-                    "delete_button": "",
-                    "confirmation_message": "",
-                    "dismiss_button": "",
-                    "deleted": ""
+                    "title": "Požiadať o zmenu prezývky",
+                    "current_request": "Už ste požiadali o zmenu svojej prezývky na \"{name}\". Svoju žiadosť môžete aktualizovať alebo vymazať.",
+                    "submit_button": "Poslať požiadavku",
+                    "delete_button": "Vymazať požiadavku",
+                    "confirmation_message": "Vaša žiadosť o zmenu prezývky bola odoslaná a čaká na akceptovanie.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Požiadavka o zmenu prezývky odstránená."
                 }
             },
             "username_modals": {
                 "action": {
-                    "title": "",
-                    "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "title": "=> fof-username-request.ref.username_change_request",
+                    "help_text": "Uisti sa prosím, že táto žiadosť dodržuje pravidlá komunity.",
+                    "decision_title": "Rozhodnutie",
+                    "approval_label": "Akceptovať",
+                    "rejected_label": "Odmietnuť",
+                    "submit_button": "Potvrdiť",
+                    "reason_title": "Dôvod pre zamietnutie",
+                    "success": "Rozhodnutie odoslané.",
+                    "name": "{name} si požiadal o zmenu mena na \"{requestedName}\""
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
-                    "dismiss_button": "",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
-                    "resubmit": ""
+                    "title": "Požiadavka o zmenu mena",
+                    "approved": "Tvoja požiadavka o zmenu mena bola akceptovaná",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Vaše meno bola úspešne zmenené na nové: {name}",
+                    "rejected": "Vaša žiadosť o zmenu mena bola odmietnutá",
+                    "reason": "Dôvod pre zamietnutie: <i>\"{reason}\"</i>.",
+                    "resubmit": "V tomto okamihu môžete v nastaveniach svojho konta opätovne odoslať žiadosť o zmenu na nové meno, ak sa tak rozhodnete."
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
-                    "submit_button": "",
-                    "delete_button": "",
-                    "confirmation_message": "",
-                    "dismiss_button": "",
-                    "deleted": ""
+                    "title": "Požiadať o zmenu mena",
+                    "current_request": "Už ste požiadali o zmenu svojho mena na \"{name}\". Svoju žiadosť môžete aktualizovať alebo vymazať.",
+                    "submit_button": "Podať požiadavku",
+                    "delete_button": "Odstrániť požiadavku",
+                    "confirmation_message": "Vaša žiadosť o zmenu mena bola odoslaná a čaká na schválenie.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Žiadosť o zmenu mena odstránená."
                 }
             },
             "pending_requests": {
-                "empty_text": "",
-                "nickname_item_text": "",
-                "nickname_exerpt": "",
-                "tooltip": "",
-                "title": "",
-                "username_item_text": "",
-                "username_exerpt": ""
+                "empty_text": "Žiadne žiadosti o zmenu mena nenájdené.",
+                "nickname_item_text": "{name} si žiada o zmenu prezývky",
+                "nickname_exerpt": "Požadovaná prezývka: {requestedName}",
+                "tooltip": "=> fof-username-request.ref.name_change_requests",
+                "title": "=> fof-username-request.ref.name_change_requests",
+                "username_item_text": "{name} si žiada o zmenu mena",
+                "username_exerpt": "Požadované meno: {requestedName}"
             },
             "settings": {
-                "nickname_request_button": "",
-                "username_request_button": ""
+                "nickname_request_button": "Zmeniť prezývku",
+                "username_request_button": "Zmeniť meno"
             },
             "user": {
-                "name_history_link": ""
+                "name_history_link": "História mien"
             }
         },
         "ref": {
-            "name_change_request": "",
-            "name_change_requests": "",
-            "nickname_change_request": "",
-            "nickname_change_requests": "",
-            "username_change_request": "",
-            "username_change_requests": ""
+            "name_change_request": "Žiadosť o zmenu mena",
+            "name_change_requests": "Žiadosti o zmenu mena",
+            "nickname_change_request": "Žiadosť o zmenu prezývky",
+            "nickname_change_requests": "Žiadosti o zmenu prezývky",
+            "username_change_request": "Požiadavka o zmenu mena",
+            "username_change_requests": "Požiadavky o zmenu mena"
+        },
+        "email": {
+            "body": {
+                "noReasonProvided": "",
+                "approved": "",
+                "rejected": ""
+            },
+            "subject": {
+                "approved": "",
+                "rejected": ""
+            }
         }
     }
 }

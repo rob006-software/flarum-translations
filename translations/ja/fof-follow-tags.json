@@ -19,6 +19,8 @@
                 "lurking_tag_tooltip": "フォロー中(返信を含む)"
             },
             "sub_controls": {
+                "header": "",
+                "subscription_label": "",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "新しいスレッドの作成を通知する",
@@ -31,7 +33,8 @@
                 "not_following_button": "フォローしない",
                 "not_following_text": "@メンション された時のみ通知する",
                 "notify_alert_tooltip": "新しいスレッドの作成や投稿があった場合にフォーラム内で通知する",
-                "notify_email_tooltip": "新しいスレッドの作成や投稿があった場合にメールで通知する"
+                "notify_email_tooltip": "新しいスレッドの作成や投稿があった場合にメールで通知する",
+                "submit_button": ""
             },
             "notifications": {
                 "new_discussion_text": "{username}さんがスレッドを作成しました",

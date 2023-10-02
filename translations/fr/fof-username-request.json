@@ -94,6 +94,17 @@
             "nickname_change_requests": "Demandes de modification de pseudonyme",
             "username_change_request": "Demande de modification de nom d'utilisateur",
             "username_change_requests": "Demandes de modification de nom d'utilisateur"
+        },
+        "email": {
+            "body": {
+                "noReasonProvided": "Aucun motif n'a été fourni.",
+                "approved": "Bonjour {recipient_display_name},\n\nVotre demande de modification du nom d'utilisateur en « {new_username} » a été approuvée par {actor_display_name}.\n\nVous pouvez dès à présent vous connecter avec votre nouveau nom d'utilisateur : {login_url}\n",
+                "rejected": "Bonjour {recipient_display_name},\n\nVotre demande de modification du nom d'utilisateur de « {old_username} » à « {requested_username} » a été rejetée par {actor_display_name}.\n\nMotif : {reason}\n"
+            },
+            "subject": {
+                "approved": "{display_name} a approuvé la modification de votre nom d'utilisateur en {requested_username}",
+                "rejected": "{display_name} a rejeté la modification de votre nom d'utilisateur en {requested_username}"
+            }
         }
     }
 }

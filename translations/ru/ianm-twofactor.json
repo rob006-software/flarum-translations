@@ -1,0 +1,81 @@
+{
+    "ianm-twofactor": {
+        "admin": {
+            "edit_group": {
+                "2fa_label": "Требуется ДФА",
+                "2fa_help": "Требовать от членов этой группы включить двухфакторную авторизацию (ДФА) для их аккаунтов.",
+                "admin_2fa_help": "Члены группы {adminName} должны всегда оставлять ДФА включенной."
+            },
+            "permissions": {
+                "see_two_factor_status_label": "Посмотреть статус ДФА других пользователей",
+                "manage_others_label": "Управлять ДФА других пользователей"
+            },
+            "settings": {
+                "groups": {
+                    "title": "Группы с требуемой ДФА",
+                    "help": ""
+                },
+                "forum_logo_qr": "",
+                "forum_logo_qr_help": "",
+                "forum_logo_qr_width": "",
+                "forum_logo_qr_width_help": "",
+                "logo_qr": "",
+                "logo_qr_help": ""
+            }
+        },
+        "forum": {
+            "user_2fa": {
+                "alert_message": ""
+            },
+            "security": {
+                "two_factor_heading": "ДФА",
+                "two_factor_help": "",
+                "two_factor_apps": "",
+                "two_factor_enabled": "ДФА для этого аккаунта включена.",
+                "two_factor_disabled": "ДФА для этого аккаунта отключена.",
+                "two_factor_title": "Статус:",
+                "enable_2fa_button": "Включить ДФА",
+                "disable_2fa_button": "Выключить ДФА",
+                "enable_2fa_modal_text": "",
+                "qr_code_alt": "",
+                "enter_token": "Введите ключ",
+                "verify_button": "Проверка",
+                "loading_qr": "Загрузка QR кода...",
+                "backup_codes": "",
+                "backup_codes_instruction": "",
+                "saved_backup_codes_button": "",
+                "two_factor_enabled_confirmation": "",
+                "ok_button": "",
+                "confirm_disable_2fa_title": "",
+                "confirm_disable_2fa_text": "",
+                "cannot_disable": "",
+                "cannot_disable_tooltip": "",
+                "cancel_button": "",
+                "qr_tab": "",
+                "manual_tab": "",
+                "scan_qr_instruction": "",
+                "manual_entry_instruction": ""
+            },
+            "log_in": {
+                "two_factor_placeholder": "",
+                "two_factor_required_message": ""
+            }
+        },
+        "email": {
+            "subject": {
+                "status_changed": ""
+            },
+            "body": {
+                "status_changed": ""
+            }
+        },
+        "views": {
+            "reset_password": {
+                "two_factor_token_label": ""
+            },
+            "two_factor_token": {
+                "submit_button": ""
+            }
+        }
+    }
+}

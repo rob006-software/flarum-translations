@@ -37,7 +37,8 @@
                     }
                 },
                 "provider": "Провайдер перевода",
-                "readme-info": "Посмотреть README документацию для более подробной информации."
+                "readme-info": "Посмотреть README документацию для более подробной информации.",
+                "readme-none": ""
             }
         },
         "forum": {
@@ -49,6 +50,9 @@
                     "close-translation": "Закрыть перевод",
                     "translated-header": "Машинный перевод с {from} на {to}",
                     "translated-updated": "Перевод обновлен {time} при помощи {provider}"
+                },
+                "title": {
+                    "detected-language": ""
                 }
             },
             "user": {

@@ -1,0 +1,28 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "spotify": {
+                        "description": "Forumunuzu Spotify'a kaydedin {link}.",
+                        "client_id_label": "Client ID",
+                        "client_secret_label": "Client Secret"
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_spotify_button": "=> fof-oauth.forum.log_in.with_button"
+            },
+            "providers": {
+                "spotify": "Spotify ile giriş yapın"
+            }
+        },
+        "lib": {
+            "providers": {
+                "spotify": "Spotify"
+            }
+        }
+    }
+}

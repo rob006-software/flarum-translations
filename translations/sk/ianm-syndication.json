@@ -6,9 +6,15 @@
                 "forum_new_discussions": "",
                 "tag_activity": "",
                 "tag_new_discussions": "",
-                "discussion_last_posts": ""
+                "discussion_last_posts": "",
+                "user_last_posts": ""
             },
             "feeds": {
+                "entries": {
+                    "user_posts": {
+                        "title_reply": ""
+                    }
+                },
                 "titles": {
                     "main_title": "",
                     "main_subtitle": "",
@@ -19,7 +25,9 @@
                     "tag_d_title": "",
                     "tag_d_subtitle": "",
                     "discussion_title": "",
-                    "discussion_subtitle": ""
+                    "discussion_subtitle": "",
+                    "user_title": "",
+                    "user_subtitle": ""
                 }
             },
             "discussion": {
