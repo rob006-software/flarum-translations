@@ -4,71 +4,71 @@
             "admin": {
                 "settings_page": {
                     "display_options": {
-                        "heading": "",
+                        "heading": "Mostrar configuració",
                         "options": {
                             "position": {
-                                "above-tags-link": "",
-                                "below-tags-link": ""
+                                "above-tags-link": "Sobre el botó \"Etiquetes\"",
+                                "below-tags-link": "Sota el botó \"Etiquetes\""
                             }
                         },
                         "labels": {
-                            "position": "",
-                            "top_spacer": "",
-                            "bottom_spacer": ""
+                            "position": "Ubicació de l'enllaç",
+                            "top_spacer": "Mostrar espaiador superior",
+                            "bottom_spacer": "Mostrar espaiador inferior"
                         }
                     },
                     "link_table": {
-                        "heading": "",
-                        "add_link_btn": "",
-                        "confirm_delete": "",
+                        "heading": "Personalitzar enllaços",
+                        "add_link_btn": "Afegir nou enllaç",
+                        "confirm_delete": "Confirmar esborrat de l'enllaç \"{link}\"",
                         "alert": {
-                            "fix_errors": ""
+                            "fix_errors": "Has de resoldre els errors anteriors abans de desar els canvis."
                         },
                         "table": {
                             "header": {
-                                "position": "",
-                                "icon": "",
-                                "text": "",
-                                "url": "",
-                                "internal": "",
-                                "delete": ""
+                                "position": "Posició",
+                                "icon": "Icona de l'enllaç",
+                                "text": "Text de l'enllaç",
+                                "url": "Adreça web de l'enllaç",
+                                "internal": "És l'adreça de Flarum?",
+                                "delete": "Esborrar"
                             },
                             "placeholders": {
-                                "icon": "",
-                                "text": "",
-                                "url": ""
+                                "icon": "fas fa-link",
+                                "text": "El meu lloc web",
+                                "url": "https://flarum.org"
                             },
                             "tooltips": {
-                                "move_up": "",
-                                "move_down": "",
-                                "icon_preview": ""
+                                "move_up": "Moure amunt",
+                                "move_down": "Moure avall",
+                                "icon_preview": "Previsualitzar la icona"
                             }
                         },
                         "save_btn": {
-                            "dirty": "",
-                            "saving": "",
-                            "saved": "",
-                            "fix_errors": ""
+                            "dirty": "Gravar configuració",
+                            "saving": "Gravant els canvis...",
+                            "saved": "No hi ha canvis per gravar",
+                            "fix_errors": "Corregeix els errors abans de gravar"
                         }
                     },
                     "new_link_modal": {
-                        "title": "",
+                        "title": "Afegir nou enllaç",
                         "submit_btn": {
-                            "add": "",
-                            "loading": "",
-                            "fix_url": "",
-                            "invalid_form": ""
+                            "add": "Afegir enllaç",
+                            "loading": "Afegint enllaç",
+                            "fix_url": "Adreça web invàlida",
+                            "invalid_form": "Omple tots els camps"
                         },
                         "labels": {
-                            "icon": "",
-                            "text": "",
-                            "url": "",
-                            "internal": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url",
+                            "internal": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.internal"
                         },
                         "placeholders": {
-                            "icon": "",
-                            "text": "",
-                            "url": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url"
                         }
                     }
                 }
