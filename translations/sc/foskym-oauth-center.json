@@ -1,0 +1,54 @@
+{
+    "foskym-oauth-center": {
+        "admin": {
+            "page": {
+                "index": "",
+                "clients": "",
+                "scopes": ""
+            },
+            "settings": {
+                "access_lifetime": "",
+                "allow_implicit": "",
+                "enforce_state": "",
+                "require_exact_redirect_uri": ""
+            },
+            "clients": {
+                "client_id": "",
+                "client_secret": "",
+                "redirect_uri": "",
+                "grant_types": "",
+                "scope": "",
+                "client_name": "",
+                "client_desc": "",
+                "client_icon": "",
+                "client_home": "",
+                "add_button": ""
+            },
+            "scopes": {
+                "scope": "",
+                "resource_path": "",
+                "method": "",
+                "is_default": "",
+                "scope_name": "",
+                "scope_icon": "",
+                "scope_desc": "",
+                "add_button": ""
+            }
+        },
+        "forum": {
+            "page": {
+                "title": {
+                    "authorize": ""
+                },
+                "label": {
+                    "authorized": ""
+                }
+            },
+            "authorize": {
+                "access": "",
+                "agree": "",
+                "deny": ""
+            }
+        }
+    }
+}
