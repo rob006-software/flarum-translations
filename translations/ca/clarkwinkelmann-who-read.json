@@ -2,18 +2,18 @@
     "clarkwinkelmann-who-read": {
         "forum": {
             "tooltip": {
-                "last-read-at": "",
-                "last-read-at-behind": "",
-                "last-read-at-up-to-date": ""
+                "last-read-at": "{username} ha llegit {ago}",
+                "last-read-at-behind": "{username} ha llegit {ago} i no ha acabat el tema",
+                "last-read-at-up-to-date": "{username} ha llegit la darrera publicació {ago}"
             },
             "more": {
-                "show": "",
-                "info": ""
+                "show": "Mostrar {count} més",
+                "info": "Afegir {count} més"
             },
             "footer": {
-                "read-this-post": "",
-                "read-no-further": "",
-                "read-to-end": ""
+                "read-this-post": "{count, plural, =0 {Ningú no ha llegit aquesta publicació} one {Un usuari ha llegit aquesta publicació} other {# usuaris han llegit aquesta publicació}}",
+                "read-no-further": "{count, plural, =0 {Tothom ha llegit més enllà} one {Un usuari no ha llegit més enllà} other {# usuaris no han llegit més enllà}}",
+                "read-to-end": "{count, plural, =0 {Ningú no ha llegit fins al final} one {Un usuari ha llegit fins al final} other {# usuaris han llegit fins al final}}"
             },
             "controls": {
                 "set-unread": "",
