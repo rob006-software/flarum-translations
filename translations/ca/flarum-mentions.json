@@ -5,61 +5,61 @@
                 "mention_groups_label": "Mencionar grups"
             },
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "Permetre el format d'esment de nom d'usuari (@nomusuari)",
+                "allow_username_format_text": "El format actual per esmentar usuaris és @\"Nom visualitzat\"#ID.\nAquest paràmetre de configuració permet utilitzar l'antic format de @nomusuari. De tota manera, es convertirà al nou format un cop guardat.\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "",
-                "reply_to_post_text": ""
+                "mention_tooltip": "Esmentar un usuari, grup o publicació",
+                "reply_to_post_text": "Respondre a #{number}"
             },
             "mentioned_by": {
-                "title": "",
-                "load_more_button": ""
+                "title": "Respostes a aquesta publicació",
+                "load_more_button": "=> core.ref.load_more"
             },
             "notifications": {
-                "others_text": "",
-                "post_mentioned_text": "",
-                "user_mentioned_text": "",
-                "group_mentioned_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} ha respost a la teva publicació",
+                "user_mentioned_text": "{username} t'ha esmentat",
+                "group_mentioned_text": "{username} ha esmentat un grup del qual formes part"
             },
             "post": {
-                "mentioned_by_more_text": "",
-                "mentioned_by_self_text": "",
-                "mentioned_by_text": "",
-                "others_text": "",
-                "quote_button": "",
-                "reply_link": "",
-                "you_text": ""
+                "mentioned_by_more_text": "{count} respostes més.",
+                "mentioned_by_self_text": "{users} han respost.",
+                "mentioned_by_text": "{users} han respost.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Cita literal",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
             },
             "settings": {
-                "notify_post_mentioned_label": "",
-                "notify_user_mentioned_label": "",
-                "notify_group_mentioned_label": ""
+                "notify_post_mentioned_label": "Algú respon a una de les meves publicacions",
+                "notify_user_mentioned_label": "Algú m'esmenta en una publicació",
+                "notify_group_mentioned_label": "Algú esmenta en una publicació a un grup del qual formo part"
             },
             "user": {
-                "mentions_link": ""
+                "mentions_link": "Esments"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[desconegut]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[grup desconegut]"
             }
         },
         "email": {
             "post_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name} t'ha respost a {title}",
+                "body": "Hola {recipient_display_name}!\n\n{replier_display_name} ha respost a la teva publicació (#{post_number}) a {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} t'ha esmentat a {title}",
+                "body": "Hola {recipient_display_name}!\n\n{mentioner_display_name} t'ha esmentat en una publicació a {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} ha esmentat un grup del qual formes part a {title}",
+                "body": "Hola {recipient_display_name}!\n\n{mentioner_display_name} ha esmentat un grup del qual formes part a {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
