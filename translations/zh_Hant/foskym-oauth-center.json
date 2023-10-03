@@ -2,52 +2,52 @@
     "foskym-oauth-center": {
         "admin": {
             "page": {
-                "index": "",
-                "clients": "",
-                "scopes": ""
+                "index": "家園",
+                "clients": "管理客戶",
+                "scopes": "管理範圍"
             },
             "settings": {
-                "access_lifetime": "",
-                "allow_implicit": "",
-                "enforce_state": "",
-                "require_exact_redirect_uri": ""
+                "access_lifetime": "訪問令牌生命週期（秒）",
+                "allow_implicit": "允許隱式授予（response_type=token）",
+                "enforce_state": "強制狀態驗證（狀態參數）",
+                "require_exact_redirect_uri": "需要精確的重定向 URI"
             },
             "clients": {
-                "client_id": "",
-                "client_secret": "",
-                "redirect_uri": "",
-                "grant_types": "",
-                "scope": "",
-                "client_name": "",
-                "client_desc": "",
-                "client_icon": "",
-                "client_home": "",
-                "add_button": ""
+                "client_id": "客戶ID",
+                "client_secret": "客戶密鑰",
+                "redirect_uri": "重定向URI",
+                "grant_types": "補助類型",
+                "scope": "範圍",
+                "client_name": "名稱",
+                "client_desc": "描述",
+                "client_icon": "圖示",
+                "client_home": "主頁",
+                "add_button": "新增客戶端"
             },
             "scopes": {
-                "scope": "",
-                "resource_path": "",
-                "method": "",
-                "is_default": "",
-                "scope_name": "",
-                "scope_icon": "",
-                "scope_desc": "",
-                "add_button": ""
+                "scope": "範圍",
+                "resource_path": "資源路徑",
+                "method": "方法",
+                "is_default": "預設",
+                "scope_name": "名稱",
+                "scope_icon": "圖示",
+                "scope_desc": "描述",
+                "add_button": "添加範圍"
             }
         },
         "forum": {
             "page": {
                 "title": {
-                    "authorize": ""
+                    "authorize": "授權"
                 },
                 "label": {
-                    "authorized": ""
+                    "authorized": "授權日誌"
                 }
             },
             "authorize": {
-                "access": "",
-                "agree": "",
-                "deny": ""
+                "access": "進入",
+                "agree": "同意",
+                "deny": "否定"
             }
         }
     }
