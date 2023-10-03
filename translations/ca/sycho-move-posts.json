@@ -39,24 +39,24 @@
                 "post_moved_text": "Una o més publicacions s'han mogut a {targetDiscussionTitle}."
             },
             "post": {
-                "unmove": "",
-                "move": "",
-                "moving": ""
+                "unmove": "Desseleccionar per moure",
+                "move": "Seleccionar per moure",
+                "moving": "Movent publicació"
             },
             "post_stream": {
-                "post_moved": ""
+                "post_moved": "{count, plural, one {{username} ha mogut una publicació a {target_discussion}.} other {{username} ha mogut {count} publicacions a {target_discussion}.}}"
             }
         },
         "ref": {
-            "move_posts": "",
+            "move_posts": "Moure publicacions",
             "status": {
-                "old_to_new_move": ""
+                "old_to_new_move": "No es pot moure una publicació antiga a un nou debat."
             }
         },
         "lib": {
             "discussion": {
                 "first_post": {
-                    "default_content": ""
+                    "default_content": "*Aquesta publicació s'ha mogut a **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
                 }
             }
         }
