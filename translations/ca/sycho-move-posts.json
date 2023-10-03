@@ -2,41 +2,41 @@
     "sycho-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content": "Mogut el contingut del debat (primera publicació)",
+                "moved_first_post_content_help": "Quan es mou un debat amb una única publicació, moure-la farà que s'editi per apuntar al debat nou. Pots editar el contingut de la publicació aquí.\n",
+                "group_sequential_posts": "La publicació seqüencial del grup ha mogut les publicacions de l'esdeveniment en una sola."
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Mogut"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": ""
+                "move_old_post_to_newer_discussion": "=> sycho-move-posts.ref.status.old_to_new_move"
             },
             "modal": {
-                "check": "",
-                "destination": "",
-                "discussion_help": "",
-                "discussion_name": "",
-                "new_discussion": "",
-                "selected_posts": "",
+                "check": "Comprovar el tipus d'operació",
+                "destination": "Debat de destí",
+                "discussion_help": "S'utilitzaran les etiquetes del debat d'origen, i poden canviar-se després de la creació.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Nou debat",
+                "selected_posts": "{count, plural, one {Una publicació seleccionada} other {{count} publicacions seleccionades}}",
                 "status": {
-                    "complex_move": "",
-                    "old_to_new_move": "",
-                    "simple_move": ""
+                    "complex_move": "Aquest serà un moviment complex. Les publicacions seran empeses al nou debat, fent que també canviïn les refererències de les adreces web antigues al debat de destí.",
+                    "old_to_new_move": "=> sycho-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Aquest serà un moviment senzill. Les publicacions s'afegiran al final del debat."
                 },
-                "submit": "",
-                "title": ""
+                "submit": "Procedir",
+                "title": "=> sycho-move-posts.ref.move_posts"
             },
             "notifications": {
-                "post_moved_text": ""
+                "post_moved_text": "Una o més publicacions s'han mogut a {targetDiscussionTitle}."
             },
             "post": {
                 "unmove": "",
