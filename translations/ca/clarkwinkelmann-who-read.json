@@ -16,38 +16,38 @@
                 "read-to-end": "{count, plural, =0 {Ningú no ha llegit fins al final} one {Un usuari ha llegit fins al final} other {# usuaris han llegit fins al final}}"
             },
             "controls": {
-                "set-unread": "",
-                "remove-unread": ""
+                "set-unread": "Marcar els no llegits",
+                "remove-unread": "Esborrar els no llegits"
             },
             "badges": {
-                "following": "",
-                "ignoring": "",
-                "unread": ""
+                "following": "=> flarum-subscriptions.forum.badge.following_tooltip",
+                "ignoring": "=> flarum-subscriptions.forum.badge.ignoring_tooltip",
+                "unread": "Marcar com a no llegit"
             },
             "modal": {
-                "title": "",
-                "up-to-this-post": "",
-                "past-this-post": "",
-                "to-the-end": "",
-                "behind": ""
+                "title": "Lectors",
+                "up-to-this-post": "Usuaris que han llegit fins a aquest publicació",
+                "past-this-post": "Usuaris que han llegit passada aquesta publicació",
+                "to-the-end": "Usuaris que han llegit fins al final",
+                "behind": "Usuari que no han llegit fins al final"
             }
         },
         "admin": {
             "permissions": {
-                "see-read": "",
-                "see-subscription": "",
-                "see-unread": "",
-                "mark-unread": ""
+                "see-read": "Veure l'estat de lectura",
+                "see-subscription": "Veure l'estat de subscripció",
+                "see-unread": "Veure l'estat de no llegit d'altres usuaris",
+                "mark-unread": "Marcar debats com a no llegits per al propi usuari"
             },
             "settings": {
-                "show-in-discussion-list": "",
-                "show-in-hero": "",
-                "show-between-posts": "",
-                "show-count-of-readers-who-stopped": "",
-                "hide-when-behind": "",
-                "max-visible": "",
-                "unread-icon": "",
-                "only-groups": ""
+                "show-in-discussion-list": "Mostrar lectors a la llista de debats",
+                "show-in-hero": "Mostrar lectors a la capçalera del debat",
+                "show-between-posts": "Mostrar l'estat de lectura entre publicacions",
+                "show-count-of-readers-who-stopped": "Mostrar el nombre d'usuaris que han deixat de llegir en lloc del total de lectures entre publicacions",
+                "hide-when-behind": "Amaga un usuari completament si va endarrerit en almenys aquest nombre de publicacions",
+                "max-visible": "Màxim nombre d'usuaris a mostrar abans del \"llegeix més\"",
+                "unread-icon": "Icona per al distintiu de No llegit",
+                "only-groups": "Mostra només l'estat de lectura per als usuaris que pertanyin a aquests grups"
             }
         }
     }
