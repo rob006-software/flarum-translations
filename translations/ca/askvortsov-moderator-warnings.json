@@ -51,19 +51,19 @@
                 "warnings_no_strikes": "Advertències del moderador: cap toc d'atenció rebut"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
-                "public_comment": "",
-                "private_comment": "",
-                "linked_post": ""
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> toc d'atenció, {time}} other {<strong>#</strong> tocs d'atenció, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> toc d'atenció, {time} <strong>(esborrat)</strong>} other {<strong>#</strong> tocs d'atenció, {time} <strong>(esborrats)</strong>}}",
+                "public_comment": "Advertència",
+                "private_comment": "Moderador-Comentaris visibles",
+                "linked_post": "Publicació enllaçada"
             },
             "warning_modal": {
-                "confirmation_message": "",
-                "heading": "",
-                "strikes_heading": "",
-                "public_comment_heading": "",
-                "private_comment_heading": "",
-                "submit_button": ""
+                "confirmation_message": "La teva advertència ha estat guardada. Pots haver de refrescar la pàgina per veure-la.",
+                "heading": "Advertir <strong>{username}</strong>",
+                "strikes_heading": "Quants tocs d'atenció caldria aplicar?",
+                "public_comment_heading": "Per quin motiu <strong>{username}</strong> està rebent aquestes advertències? Aquests comentaris seran visibles per a l'usuari i als altres moderadors.",
+                "private_comment_heading": "Per quin motiu <strong>{username}</strong> està rebent aquestes advertències? Aquests comentaris NOMÉS seran visibles per als altres moderadors (no per a l'usuari).",
+                "submit_button": "Guardar advertència"
             }
         }
     }
