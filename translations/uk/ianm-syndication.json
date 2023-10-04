@@ -7,12 +7,12 @@
                 "tag_activity": "Активність по тегу «{tag}»",
                 "tag_new_discussions": "Дискусії в тегу «{tag}»",
                 "discussion_last_posts": "Ця дискусія",
-                "user_last_posts": ""
+                "user_last_posts": "Дописи та коментарі цього користувача"
             },
             "feeds": {
                 "entries": {
                     "user_posts": {
-                        "title_reply": ""
+                        "title_reply": "Re: {discussion}"
                     }
                 },
                 "titles": {
@@ -26,8 +26,8 @@
                     "tag_d_subtitle": "Найновіші дискусії в тезі «{tag}»",
                     "discussion_title": "{discussion_name}",
                     "discussion_subtitle": "Останні повідомлення в цій дискусії",
-                    "user_title": "",
-                    "user_subtitle": ""
+                    "user_title": "{username}",
+                    "user_subtitle": "Останні повідомлення та коментарі цього користувача."
                 }
             },
             "discussion": {
