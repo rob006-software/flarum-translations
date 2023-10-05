@@ -2,49 +2,49 @@
     "flarum-suspend": {
         "admin": {
             "permissions": {
-                "suspend_users_label": ""
+                "suspend_users_label": "Suspendre usuaris"
             }
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "",
-                "user_suspended_indefinite_text": "",
-                "user_unsuspended_text": ""
+                "user_suspended_text": "Has estat suspès per {timeReadable}",
+                "user_suspended_indefinite_text": "El teu compte ha estat suspès indefinidament",
+                "user_unsuspended_text": "El teu compte ha estat suspès"
             },
             "suspension_info": {
-                "dismiss_button": "",
-                "indefinite": "",
-                "limited": "",
-                "title": ""
+                "dismiss_button": "Descartar",
+                "indefinite": "Aquesta és una suspensió indefinida",
+                "limited": "Aquesta suspensió estarà vigent fins {date}",
+                "title": "Aquest compte està suspès"
             },
             "suspend_user": {
-                "display_message": "",
-                "indefinitely_label": "",
-                "limited_time_days_text": "",
-                "limited_time_label": "",
-                "not_suspended_label": "",
-                "placeholder_optional": "",
-                "reason": "",
-                "status_heading": "",
-                "submit_button": "",
-                "title": ""
+                "display_message": "Mostrar missatge per a l'usuari",
+                "indefinitely_label": "Suspès indefinidament",
+                "limited_time_days_text": " dies",
+                "limited_time_label": "Suspès per temps limitat...",
+                "not_suspended_label": "No suspès",
+                "placeholder_optional": "Opcional",
+                "reason": "Motiu de suspensió",
+                "status_heading": "Estat de suspensió",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Suspendre {username}"
             },
             "user_badge": {
-                "suspended_tooltip": ""
+                "suspended_tooltip": "Suspès"
             },
             "user_controls": {
-                "suspend_button": ""
+                "suspend_button": "Suspendre"
             }
         },
         "email": {
-            "no_reason_given": "",
+            "no_reason_given": "No s'ha indicat cap motiu per a aquesta suspensió.",
             "suspended": {
-                "subject": "",
-                "body": ""
+                "subject": "El teu compte ha estat suspès",
+                "body": "Hola {recipient_display_name}!\n\nEl teu compte ha estat suspès per aquest motiu:\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
-                "subject": "",
-                "body": ""
+                "subject": "S'ha anul·lat la suspensió del teu compte",
+                "body": "Hola {recipient_display_name}!\n\nS'ha anul·lat la teva suspensió. Pots tornar al fòrum clicant el següent enllaç:\n\n{forum_url}\n"
             }
         }
     }
