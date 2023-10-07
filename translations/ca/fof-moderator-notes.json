@@ -2,32 +2,32 @@
     "fof-moderator-notes": {
         "admin": {
             "permissions": {
-                "createnotes": "",
-                "viewnotes": "",
-                "deletenotes": ""
+                "createnotes": "Crear notes de moderador",
+                "viewnotes": "Veure notes de moderador",
+                "deletenotes": "Esborrar notes de moderador"
             }
         },
         "forum": {
-            "no_content_given": "",
+            "no_content_given": "Les notes no poden estar buides.",
             "moderatorNotes": {
-                "created_text": "",
-                "add_button": "",
-                "create-heading": "",
-                "dismiss_button": "",
-                "input_heading": "",
-                "noNotes": "",
-                "submit_button": "",
-                "delete": "",
-                "confirm": ""
+                "created_text": "{username} ha creat una nota el dia {date}",
+                "add_button": "Nova nota",
+                "create-heading": "Crear una nova nota de moderador",
+                "dismiss_button": "Fet",
+                "input_heading": "Redacta la teva nota per a <strong>{username}</strong> (la nota pot incloure elements d'estil en format Markdown)",
+                "noNotes": "No hi ha cap nota.",
+                "submit_button": "Guardar nota",
+                "delete": "Esborrar",
+                "confirm": "Segur que vols esborrar aquesta nota?"
             },
             "user": {
-                "notes": ""
+                "notes": "Notes de moderador"
             }
         },
         "api": {
-            "auto_note": "",
-            "auto_note_actor": "",
-            "no_reason_provided": ""
+            "auto_note": "_He entrat com aquest usuari:_ {reason}",
+            "auto_note_actor": "_Identificat com a_ @{username}: {reason}",
+            "no_reason_provided": "No s'ha indicat cap motiu"
         }
     }
 }
