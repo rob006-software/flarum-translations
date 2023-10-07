@@ -2,20 +2,20 @@
     "flarum-msemoji": {
         "forum": {
             "composer": {
-                "emoji_tooltip": "",
-                "type_to_search_text": ""
+                "emoji_tooltip": "插入Emoji表情",
+                "type_to_search_text": "输入字符以查询emoji表情"
             }
         },
         "admin": {
             "settings": {
-                "base": "",
-                "folder": "",
-                "ext": "",
-                "basehelp": "",
-                "baseph": "",
-                "folderph": "",
-                "extph": "",
-                "disable_autocomplete": ""
+                "base": "基础",
+                "folder": "文件夹",
+                "ext": "扩展",
+                "basehelp": "提示：输入$会被自动替换为版本号。区分大小写。",
+                "baseph": "示例：https://www.example.com/",
+                "folderph": "示例：svg",
+                "extph": "示例：.gif",
+                "disable_autocomplete": "禁用自动完成"
             }
         }
     }
