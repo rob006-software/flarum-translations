@@ -2,43 +2,43 @@
     "clarkwinkelmann-mailing": {
         "admin": {
             "permissions": {
-                "mail_individual": "",
-                "mail_all": ""
+                "mail_individual": "Enviar correus electrònics a usuaris individuals",
+                "mail_all": "Enviar correus electrònics a tots els usuaris"
             }
         },
         "forum": {
             "links": {
-                "mail_individual": "",
-                "mail_all": ""
+                "mail_individual": "Enviar correu a aquest usuari",
+                "mail_all": "Enviar correu"
             },
             "modal_mail": {
-                "title_text": "",
-                "recipients_label": "",
-                "recipients_placeholder": "",
-                "subject_label": "",
-                "default_subject": "",
-                "message_label": "",
-                "as_html_label": "",
-                "submit_button": ""
+                "title_text": "Redactar correu",
+                "recipients_label": "Destinataris",
+                "recipients_placeholder": "Afegir més destinataris...",
+                "subject_label": "Tema",
+                "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject",
+                "message_label": "Missatge",
+                "as_html_label": "Enviar com a HTML",
+                "submit_button": "Enviar"
             },
             "modal_sent": {
-                "title_text": "",
-                "on_its_way": ""
+                "title_text": "Correu enviat!",
+                "on_its_way": "Fet! El teu correu s'està enviant a {recipientsCount} destinataris!"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": "",
-                "email": ""
+                "user": "Usuari",
+                "group": "Grup",
+                "email": "Correu electrònic"
             }
         },
         "api": {
-            "no_recipients": ""
+            "no_recipients": "No s'ha trobat cap destinatari"
         },
         "email": {
-            "default_subject": ""
+            "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject"
         },
         "ref": {
-            "default_subject": ""
+            "default_subject": "Missatge dels administradors del fòrum"
         }
     }
 }
