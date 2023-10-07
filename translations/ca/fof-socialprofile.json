@@ -2,27 +2,27 @@
     "fof-socialprofile": {
         "admin": {
             "permissions": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "Veure perfil social",
+                "editOwn": "Editar perfil social propi",
+                "editAny": "Editar qualsevol perfil social"
             },
             "settings": {
-                "allow_external_favicons_label": ""
+                "allow_external_favicons_label": "Permetre icones de llocs web externs (utilitza la Favicon API de DuckDuckGo)"
             }
         },
         "forum": {
             "edit": {
-                "edit": "",
-                "add": "",
-                "headtitle": "",
-                "title": "",
-                "url": "",
-                "submit": "",
-                "delete": "",
-                "deletetitle": "",
-                "save_disabled_fetching_favicons": "",
-                "favicon": "",
-                "grey_favicon": ""
+                "edit": "Edita els butons de les teves xarxes socials",
+                "add": "Afegeix butons a les teves xarxes socials",
+                "headtitle": "Edita butons",
+                "title": "Títol",
+                "url": "Adreça web",
+                "submit": "Guardar",
+                "delete": "Esborrar",
+                "deletetitle": "Botó Esborrar",
+                "save_disabled_fetching_favicons": "S'estan cercant icones. Si us plau, espera.",
+                "favicon": "Favicon",
+                "grey_favicon": "Favicon gris"
             }
         }
     }
