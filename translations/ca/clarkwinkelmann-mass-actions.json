@@ -2,33 +2,33 @@
     "clarkwinkelmann-mass-actions": {
         "forum": {
             "select": {
-                "all": "",
-                "none": "",
-                "read": "",
-                "unread": "",
-                "visible": "",
-                "hidden": "",
-                "locked": "",
-                "unlocked": ""
+                "all": "Tots",
+                "none": "Cap",
+                "read": "Llegits",
+                "unread": "No llegits",
+                "visible": "No esborrats",
+                "hidden": "Esborrats reversiblement (ocults)",
+                "locked": "Bloquejat",
+                "unlocked": "Desbloquejat"
             },
             "actions": {
-                "markAsRead": "",
-                "hide": "",
-                "restore": "",
-                "delete": "",
-                "deleteConfirmation": "",
-                "lock": "",
-                "unlock": "",
-                "sticky": "",
-                "unsticky": "",
-                "tags": "",
-                "tags-edit": "",
-                "tags-add": ""
+                "markAsRead": "Marcar els seleccionats com a llegits",
+                "hide": "Esborrar els seleccionats",
+                "restore": "Restaurar els seleccionats",
+                "delete": "Esborrar irreversiblement seleccionat",
+                "deleteConfirmation": "{count, plural, one {Segur que vols esborrar irreversiblement el debat seleccionat?} other {Segur que vols esborrar irreversiblement els debats seleccionats?}}",
+                "lock": "Bloquejar els seleccionats",
+                "unlock": "Desbloquejar els seleccionats",
+                "sticky": "Destacar els seleccionats",
+                "unsticky": "Deixar de destacar els seleccionats",
+                "tags": "Etiquetes",
+                "tags-edit": "Editar etiquetes",
+                "tags-add": "Afegir <em>{tag}</em>"
             }
         },
         "admin": {
             "permissions": {
-                "controls": ""
+                "controls": "Veure controls de selecció massiva"
             }
         }
     }
