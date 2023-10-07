@@ -2,11 +2,11 @@
     "fof-stopforumspam": {
         "admin": {
             "settings": {
-                "introduction": "",
-                "username_label": "",
-                "ip_label": "",
-                "email_label": "",
-                "frequency_label": "",
+                "introduction": "Comprova els registres d'usuaris nous a la base de dades <a>StopForumSpam</a>. Si els llindars <code>confiança</code> o <code>freqüència</code> són ultrapassats, l'usuari no podrà registrar-se al fòrum.\n\nTambé es suporten els registres mitjançant les extensions de SSO <code>fof/oauth</code> i <code>fof/passport</code>. Altres proveïdors d'inici de sessió mitjançant SSO (Single Sign On = Inici de sessió únic), també haurien de funcionar, però no s'han provat.\n",
+                "username_label": "Comprovació de spam del nom d'usuari",
+                "ip_label": "Comprovació de spam de l'adreça IP",
+                "email_label": "Comprovació de spam del correu",
+                "frequency_label": "Llindar",
                 "frequency_help": "",
                 "api_key_label": "",
                 "api_key_text": "",
