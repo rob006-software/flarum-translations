@@ -2,24 +2,24 @@
     "flarum-approval": {
         "admin": {
             "permissions": {
-                "approve_posts_label": "",
-                "reply_without_approval_label": "",
-                "start_discussions_without_approval_label": ""
+                "approve_posts_label": "Aprovar publicacions",
+                "reply_without_approval_label": "Respondre als debats sense aprovació",
+                "start_discussions_without_approval_label": "Començar debats sense aprovació"
             }
         },
         "forum": {
             "badge": {
-                "awaiting_approval_tooltip": ""
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval"
             },
             "post": {
-                "awaiting_approval_text": ""
+                "awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval"
             },
             "post_controls": {
-                "approve_button": ""
+                "approve_button": "Aprovar"
             }
         },
         "ref": {
-            "awaiting_approval": ""
+            "awaiting_approval": "Esperant aprovació"
         }
     }
 }
