@@ -2,52 +2,52 @@
     "foskym-oauth-center": {
         "admin": {
             "page": {
-                "index": "",
-                "clients": "",
-                "scopes": ""
+                "index": "accueil",
+                "clients": "Gérer les clients",
+                "scopes": "Gérer les champs d'application"
             },
             "settings": {
-                "access_lifetime": "",
-                "allow_implicit": "",
-                "enforce_state": "",
-                "require_exact_redirect_uri": ""
+                "access_lifetime": "Durée de vie du jeton d'accès (en secondes)",
+                "allow_implicit": "Autoriser l'octroi implicite (response_type=token)",
+                "enforce_state": "Renforcer la validation de l'état (paramètre d'état)",
+                "require_exact_redirect_uri": "Exiger un URI de redirection exact"
             },
             "clients": {
-                "client_id": "",
-                "client_secret": "",
-                "redirect_uri": "",
-                "grant_types": "",
-                "scope": "",
-                "client_name": "",
-                "client_desc": "",
-                "client_icon": "",
-                "client_home": "",
-                "add_button": ""
+                "client_id": "Identifiant du client",
+                "client_secret": "Clé secrète du client",
+                "redirect_uri": "Redirection de l'URI",
+                "grant_types": "Types de demandes",
+                "scope": "Champ d'application",
+                "client_name": "Nom",
+                "client_desc": "Description",
+                "client_icon": "Icône",
+                "client_home": "Page d'accueil",
+                "add_button": "Ajouter un client"
             },
             "scopes": {
-                "scope": "",
-                "resource_path": "",
-                "method": "",
-                "is_default": "",
-                "scope_name": "",
-                "scope_icon": "",
-                "scope_desc": "",
-                "add_button": ""
+                "scope": "Champ d'application",
+                "resource_path": "Chemin d'accès aux ressources",
+                "method": "Méthode",
+                "is_default": "Par défaut",
+                "scope_name": "Nom",
+                "scope_icon": "Icône",
+                "scope_desc": "Description",
+                "add_button": "Ajouter un champ d'application"
             }
         },
         "forum": {
             "page": {
                 "title": {
-                    "authorize": ""
+                    "authorize": "Autoriser"
                 },
                 "label": {
-                    "authorized": ""
+                    "authorized": "Journaux autorisés"
                 }
             },
             "authorize": {
-                "access": "",
-                "agree": "",
-                "deny": ""
+                "access": "Accès à",
+                "agree": "Accorder",
+                "deny": "Refuser"
             }
         }
     }
