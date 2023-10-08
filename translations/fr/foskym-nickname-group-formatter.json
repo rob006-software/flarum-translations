@@ -1,12 +1,12 @@
 {
     "foskym-nickname-group-formatter": {
         "admin": {
-            "display": "",
-            "optional": "",
+            "display": "Comment le pseudonyme des utilisateurs du groupe sera-t-il affiché ?",
+            "optional": "Facultatif",
             "setting": {
-                "showInUserPost": "",
-                "showInUserCard": "",
-                "showInUserCardPopover": ""
+                "showInUserPost": "apparaître dans les messages de l'utilisateur",
+                "showInUserCard": "apparaître dans la carte d'utilisateur (comme la page de profil de l'utilisateur)",
+                "showInUserCardPopover": "apparaître dans la carte d'utilisateur (fenêtre contextuelle)"
             }
         }
     }
