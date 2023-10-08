@@ -337,6 +337,9 @@ return [
 	'convo-extensions-quick-reply' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/convo-extensions-quick-reply.yml',
 	],
+	'cpluscc-oauth-osu' => [
+		'tag' => 'https://raw.githubusercontent.com/cpluscc/flarum-ext-oauth-osu/2.1/locale/en.yml',
+	],
 	'dalez-msemoji' => [
 		'tag' => 'https://raw.githubusercontent.com/DellZHackintosh/flarum-msemoji/v1.0.0/locale/en.yml',
 	],
