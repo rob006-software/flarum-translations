@@ -7,19 +7,19 @@
             },
             "enable_short_references": {
                 "label": "启用简短引用",
-                "help": ""
+                "help": "将消息中的#<ID>文本(例如#42)转换为相应讨论的链接。"
             },
             "retrofit_links_in_frontend": {
-                "label": "",
+                "label": "改装前端的链接",
                 "help": ""
             }
         },
         "forum": {
             "post_stream": {
                 "discussion_referenced_text": "「{username}」于「{source}」引用此帖",
-                "discussion_referenced_multiple_text": ""
+                "discussion_referenced_multiple_text": "{username} 从多个来源引用此讨论: {sources}"
             },
-            "unknown_discussion": "",
+            "unknown_discussion": "[未知讨论]",
             "comment": "回复"
         }
     }
