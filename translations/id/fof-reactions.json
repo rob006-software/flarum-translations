@@ -39,6 +39,8 @@
                 "settings": {
                     "react_own_posts_help": "Ketika diaktifkan, tergantung pada perizinan, pengguna dapat memberikan reaksi terhadap postingan mereka sendiri di forum. Untuk mencegah pengguna memberikan reaksi terhadap postingan mereka sendiri, nonaktifkan pengaturan ini.",
                     "react_own_posts_label": "Pengguna dapat memberikan reaksi terhadap postingan mereka sendiri",
+                    "allow-anonymous": "Izinkan reaksi anonim (tamu)",
+                    "allow-anonymous-help": "Jika diaktifkan, tamu dan pengguna anonim akan dapat bereaksi terhadap postingan. Perhatikan bahwa reaksi anonim tidak akan dihubungkan ke profil pengguna dan akan dikumpulkan dalam daftar reaksi.",
                     "save_settings": "Simpan Pengaturan",
                     "integrations": {
                         "legend": "Integrasi",
@@ -55,9 +57,7 @@
                             "Label": "Ubah reaction menjadi Suka",
                             "Helptext": "Masukkan pengenal reaksi yang ingin Anda ubah secara otomatis menjadi \"Suka\""
                         }
-                    },
-                    "allow-anonymous": "Izinkan reaksi anonim (tamu)",
-                    "allow-anonymous-help": "Jika diaktifkan, tamu dan pengguna anonim akan dapat bereaksi terhadap postingan. Perhatikan bahwa reaksi anonim tidak akan dihubungkan ke profil pengguna dan akan dikumpulkan dalam daftar reaksi."
+                    }
                 }
             }
         }

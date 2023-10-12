@@ -39,6 +39,8 @@
                 "settings": {
                     "react_own_posts_help": "Ha be van kapcsolva, akkor jogosultság alapján, a felhasználók reagálhatnak a saját bejegyzéseikre a fórumban. Ha ezt meg akarja akadályozni, akkor kapcsolja ki ezt a beállítást.",
                     "react_own_posts_label": "A felhasználók reagálhatnak a saját bejegyzésükre",
+                    "allow-anonymous": "Névtelen (vendég) reakciók engedélyezése",
+                    "allow-anonymous-help": "Ha engedélyezve van, akkor a vendég- és névtelen felhasználók reagálhatnak a bejegyzésekre. Vegye figyelembe, hogy a névtelen reakciók nem lesznek felhasználói profilhoz rendelve, és csoportosítva lesznek a reakciólistában.",
                     "save_settings": "Beállítások mentése",
                     "integrations": {
                         "legend": "Integrációk",
@@ -55,9 +57,7 @@
                             "Label": "Reakciók átalakítása kedveléssé",
                             "Helptext": "Adja meg annak a reakciónak az azonosítóját, melyet kedveléssé akar átalakítani"
                         }
-                    },
-                    "allow-anonymous": "Névtelen (vendég) reakciók engedélyezése",
-                    "allow-anonymous-help": "Ha engedélyezve van, akkor a vendég- és névtelen felhasználók reagálhatnak a bejegyzésekre. Vegye figyelembe, hogy a névtelen reakciók nem lesznek felhasználói profilhoz rendelve, és csoportosítva lesznek a reakciólistában."
+                    }
                 }
             }
         }

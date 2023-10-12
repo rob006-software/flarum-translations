@@ -39,6 +39,8 @@
                 "settings": {
                     "react_own_posts_help": "启用此项，添加一个权限，允许用户戳自己的帖子。如需禁止，请禁用此项。",
                     "react_own_posts_label": "允许用户戳自己",
+                    "allow-anonymous": "",
+                    "allow-anonymous-help": "",
                     "save_settings": "保存设置",
                     "integrations": {
                         "legend": "整合",
@@ -55,9 +57,7 @@
                             "Label": "转换表情为「赞」",
                             "Helptext": "要将某个表情自动转换为「赞」？请在下方输入该表情的标识名"
                         }
-                    },
-                    "allow-anonymous": "",
-                    "allow-anonymous-help": ""
+                    }
                 }
             }
         }

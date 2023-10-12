@@ -39,6 +39,8 @@
                 "settings": {
                     "react_own_posts_help": "Wenn diese Option aktiviert ist, können Benutzer auf ihre eigenen Beiträge im Forum reagieren, sofern sie dazu berechtigt sind. Um zu verhindern, dass Benutzer auf ihre eigenen Beiträge reagieren, deaktiviere diese Einstellung.",
                     "react_own_posts_label": "Benutzer können auf eigene Beiträge reagieren",
+                    "allow-anonymous": "Anonyme (Gast-)Reaktionen zulassen",
+                    "allow-anonymous-help": "Wenn diese Option aktiviert ist, können Gäste und anonyme Nutzer auf Beiträge reagieren. Beachte, dass anonyme Reaktionen nicht mit einem Nutzerprofil verknüpft werden und in der Liste der Reaktionen zusammengefasst werden.",
                     "save_settings": "Einstellungen speichern",
                     "integrations": {
                         "legend": "Integrationen",
@@ -55,9 +57,7 @@
                             "Label": "Reaktionen zu Gefällt-mirs konvertieren",
                             "Helptext": "Gebe den Bezeichner der Reaktion ein, die du automatisch in ein Gefällt mir umwandeln möchtest"
                         }
-                    },
-                    "allow-anonymous": "Anonyme (Gast-)Reaktionen zulassen",
-                    "allow-anonymous-help": "Wenn diese Option aktiviert ist, können Gäste und anonyme Nutzer auf Beiträge reagieren. Beachte, dass anonyme Reaktionen nicht mit einem Nutzerprofil verknüpft werden und in der Liste der Reaktionen zusammengefasst werden."
+                    }
                 }
             }
         }

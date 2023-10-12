@@ -39,6 +39,8 @@
                 "settings": {
                     "react_own_posts_help": "Lorsque cette option est activée, les utilisateurs peuvent, sous réserve de disposer de l'autorisation, réagir à leurs propres messages sur le forum. Pour empêcher les utilisateurs de réagir à leurs propres messages, désactivez cette option.",
                     "react_own_posts_label": "Les utilisateurs peuvent réagir à leurs propres messages",
+                    "allow-anonymous": "Autoriser les réactions anonymes (invités)",
+                    "allow-anonymous-help": "Si cette option est activée, les invités et les utilisateurs anonymes pourront réagir aux messages. Les réactions anonymes ne seront pas liées à un profil d'utilisateur et seront regroupées dans la liste des réactions.",
                     "save_settings": "Enregistrer les paramètres",
                     "integrations": {
                         "legend": "Intégrations",
@@ -55,9 +57,7 @@
                             "Label": "Convertir les réactions en mentions « j'aime »",
                             "Helptext": "Saisissez l'identifiant de la réaction que vous souhaitez convertir automatiquement en mentions « j'aime »"
                         }
-                    },
-                    "allow-anonymous": "Autoriser les réactions anonymes (invités)",
-                    "allow-anonymous-help": "Si cette option est activée, les invités et les utilisateurs anonymes pourront réagir aux messages. Les réactions anonymes ne seront pas liées à un profil d'utilisateur et seront regroupées dans la liste des réactions."
+                    }
                 }
             }
         }

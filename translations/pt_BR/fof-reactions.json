@@ -39,6 +39,8 @@
                 "settings": {
                     "react_own_posts_help": "Quando ativado, sujeito à permissão, os usuários podem reagir às suas próprias postagens no fórum. Para evitar que os usuários reajam em suas próprias postagens, desative essa configuração.",
                     "react_own_posts_label": "Usuários podem reagir às suas próprias postagens",
+                    "allow-anonymous": "",
+                    "allow-anonymous-help": "",
                     "save_settings": "Salvar Alterações",
                     "integrations": {
                         "legend": "Integrações",
@@ -55,9 +57,7 @@
                             "Label": "Converter reações em curtidas",
                             "Helptext": "Entre o identificador da reação que você gostaria de converter automaticamente em uma curtida"
                         }
-                    },
-                    "allow-anonymous": "",
-                    "allow-anonymous-help": ""
+                    }
                 }
             }
         }

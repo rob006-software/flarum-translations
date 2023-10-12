@@ -39,6 +39,8 @@
                 "settings": {
                     "react_own_posts_help": "啟用此項，添加一個權限，允許用戶對自己的帖子表達心情。如需禁止，請禁用此項。",
                     "react_own_posts_label": "允許用戶對自已的貼子表達心情",
+                    "allow-anonymous": "允許匿名（來賓）反應",
+                    "allow-anonymous-help": "如果啟用，訪客和匿名用戶將能夠對帖子做出反應。 請注意，匿名反應不會鏈接到用戶個人資料，而是會聚合在反應列表中。",
                     "save_settings": "儲存設定",
                     "integrations": {
                         "legend": "融合",
@@ -55,9 +57,7 @@
                             "Label": "轉換回應為「喜歡」",
                             "Helptext": "鍵入你想要自動轉換為「喜歡」的回應的標識"
                         }
-                    },
-                    "allow-anonymous": "允許匿名（來賓）反應",
-                    "allow-anonymous-help": "如果啟用，訪客和匿名用戶將能夠對帖子做出反應。 請注意，匿名反應不會鏈接到用戶個人資料，而是會聚合在反應列表中。"
+                    }
                 }
             }
         }

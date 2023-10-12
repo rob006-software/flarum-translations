@@ -39,6 +39,8 @@
                 "settings": {
                     "react_own_posts_help": "Pokud je povoleno, mohou uživatelé na základě oprávnění reagovat na své vlastní příspěvky ve fóru. Chcete-li uživatelům zabránit reagovat na jejich vlastní příspěvky, zakažte toto nastavení.",
                     "react_own_posts_label": "Uživatelé mohou reagovat na své vlastní příspěvky",
+                    "allow-anonymous": "Povolit anonymní (host) reakce",
+                    "allow-anonymous-help": "Pokud je tato možnost povolena, hosté a anonymní uživatelé budou moci reagovat na příspěvky. Všimněte si, že anonymní reakce nebudou spojeny s profilem uživatele a budou agregovány v seznamu reakcí.",
                     "save_settings": "Uložit nastavení",
                     "integrations": {
                         "legend": "Integrace",
@@ -55,9 +57,7 @@
                             "Label": "Převést reakce na lajky",
                             "Helptext": "Zadejte identifikátor reakce, kterou chcete automaticky převést na lajk"
                         }
-                    },
-                    "allow-anonymous": "Povolit anonymní (host) reakce",
-                    "allow-anonymous-help": "Pokud je tato možnost povolena, hosté a anonymní uživatelé budou moci reagovat na příspěvky. Všimněte si, že anonymní reakce nebudou spojeny s profilem uživatele a budou agregovány v seznamu reakcí."
+                    }
                 }
             }
         }
