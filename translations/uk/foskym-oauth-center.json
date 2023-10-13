@@ -2,52 +2,52 @@
     "foskym-oauth-center": {
         "admin": {
             "page": {
-                "index": "",
-                "clients": "",
-                "scopes": ""
+                "index": "головна",
+                "clients": "Менеджер клієнтів",
+                "scopes": "Керування діапазонами"
             },
             "settings": {
-                "access_lifetime": "",
-                "allow_implicit": "",
-                "enforce_state": "",
-                "require_exact_redirect_uri": ""
+                "access_lifetime": "Час життя токену доступу (секунди)",
+                "allow_implicit": "Дозволити неявний грант (response_type=token)",
+                "enforce_state": "Увімкнути перевірку стану (параметр стану)",
+                "require_exact_redirect_uri": "Вимагати точний URI перенаправлення"
             },
             "clients": {
-                "client_id": "",
-                "client_secret": "",
-                "redirect_uri": "",
-                "grant_types": "",
-                "scope": "",
-                "client_name": "",
-                "client_desc": "",
-                "client_icon": "",
-                "client_home": "",
-                "add_button": ""
+                "client_id": "Client ID",
+                "client_secret": "Client Secret",
+                "redirect_uri": "Перенаправлення URI",
+                "grant_types": "Типи гранту",
+                "scope": "Область застосування",
+                "client_name": "Назва",
+                "client_desc": "Опис",
+                "client_icon": "Значок",
+                "client_home": "Головна",
+                "add_button": "Додати клієнт"
             },
             "scopes": {
-                "scope": "",
-                "resource_path": "",
-                "method": "",
-                "is_default": "",
-                "scope_name": "",
-                "scope_icon": "",
-                "scope_desc": "",
-                "add_button": ""
+                "scope": "Область застосування",
+                "resource_path": "Шлях до ресурсу",
+                "method": "Метод",
+                "is_default": "За налаштуванням",
+                "scope_name": "Назва",
+                "scope_icon": "Значок",
+                "scope_desc": "Опис",
+                "add_button": "Додати область застосування"
             }
         },
         "forum": {
             "page": {
                 "title": {
-                    "authorize": ""
+                    "authorize": "Авторизовано"
                 },
                 "label": {
-                    "authorized": ""
+                    "authorized": "Журнал автентифікації"
                 }
             },
             "authorize": {
-                "access": "",
-                "agree": "",
-                "deny": ""
+                "access": "Доступ до",
+                "agree": "Дозволено",
+                "deny": "Заборонено"
             }
         }
     }
