@@ -32,7 +32,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/android-com-pl/my-tags/1.2.1/locale/en.yml',
 	],
 	'africoders-laravel-sso' => [
-		'tag' => 'https://raw.githubusercontent.com/dhtml/africoders-laravel-sso/1.1.7/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/dhtml/africoders-laravel-sso/1.2.3/locale/en.yml',
 	],
 	'afrux-asirem' => [
 		'afrux-theme-base:tag' => 'https://raw.githubusercontent.com/afrux/flarum-theme-base/v0.1.8/locale/en.yml',
