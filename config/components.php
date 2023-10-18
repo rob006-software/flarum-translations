@@ -343,6 +343,9 @@ return [
 	'dalez-twemoji' => [
 		'tag' => 'https://raw.githubusercontent.com/DellZHackintosh/flarum-twemoji/v1.0.0/locale/en.yml',
 	],
+	'danirod-plausible' => [
+		'tag' => 'https://raw.githubusercontent.com/danirod/flarum-plausible/v1.0.0/locale/en.yml',
+	],
 	'datitisev-backup' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/datitisev-backup.yml',
 	],
