@@ -3,12 +3,12 @@
         "admin": {
             "permissions": {
                 "super_sticky_discussions_label": "Berkidilen gürrüňler",
-                "tag_sticky_discussions_label": "Berkidilen gürrüňleri bellemek"
+                "tag_sticky_discussions_label": "Kategoriýanyň berkidilen gürrüňleri"
             },
             "settings": {
                 "badge_icon_label": "Berkidilmegiň nyşany",
                 "badge_icon_text": "=> core.ref.icon_text",
-                "display_tag_sticky_label": "Bellenilen we berkidilen gürrüňleri \"Hemme Gürrüüňler\" listda görkezmek",
+                "display_tag_sticky_label": "Kategoriýanyň berkidilen gürrüňlerini \"Hemme Gürrüüňler\" listda görkezmek",
                 "display_tag_sticky_text": "Olara ýönekeý gürrüňler hökmünde serediler we ýokarsyna berkidilmez."
             }
         },
@@ -24,27 +24,27 @@
                 "sticky_label": "=> flarum-sticky.ref.sticky",
                 "sticky_text": "Berkidilen gürrüňler, okalmadyk bolsa \"Hemme gürrüňler\" sanawynyň ýokarsynda durar.Gürrüňlere degişli belli bir belligi görenlerinde, elmydama ýokarsyna berkidiler.",
                 "super_sticky_label": "=> the-turk-stickiest.ref.super_sticky",
-                "super_sticky_text": "",
-                "tag_sticky_label": "",
-                "tag_sticky_text": "",
-                "tags_label": "",
-                "submit_button": ""
+                "super_sticky_text": "Has Berkidilen gürrüňler, näme bolsa-da iň ýokarky tarapa berkidiler.",
+                "tag_sticky_label": "=> the-turk-stickiest.ref.tag_sticky",
+                "tag_sticky_text": "Kategoriýa berkitmeleri, \"Hemme gürrüňler\" sanawynda gizleniler. Diňe belli bir kategoriýany göreniňizde görkeziler we ýokarsyna berkidiler, bu şu ýerde saýlajak kategoriýanyň biridir. Bu warianty \"Has Berkitmek\" bilen birleşdirip bolýar.",
+                "tags_label": "=> flarum-tags.ref.tags",
+                "submit_button": "=> core.ref.save_changes"
             },
             "discussion_controls": {
-                "sticky_button": ""
+                "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button"
             },
             "post_stream": {
-                "discussion_stickied_text": "",
-                "discussion_unstickied_text": "",
-                "discussion_super_stickied_text": "",
-                "discussion_common_stickied_text": ""
+                "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
+                "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
+                "discussion_super_stickied_text": "{username} gürrüňi berkidilen diýip belledi.",
+                "discussion_common_stickied_text": "{username} gürrüňi berkidilen diýip belligi aýyrdy."
             }
         },
         "ref": {
-            "sticky": "",
-            "super_sticky": "",
-            "tag_sticky": "",
-            "super_tag_sticky": ""
+            "sticky": "=> flarum-sticky.ref.sticky",
+            "super_sticky": "Has berkidilen",
+            "tag_sticky": "Berkidilen",
+            "super_tag_sticky": "Has kategoriýa berkitmesi"
         }
     }
 }
