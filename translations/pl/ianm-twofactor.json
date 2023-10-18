@@ -2,79 +2,79 @@
     "ianm-twofactor": {
         "admin": {
             "edit_group": {
-                "2fa_label": "",
-                "2fa_help": "",
-                "admin_2fa_help": ""
+                "2fa_label": "Uwierzytelnianie dwuskładnikowe wymagane",
+                "2fa_help": "Wymagaj od członków tej grupy włączenia uwierzytelniania dwuskładnikowego (2FA) dla ich konta.",
+                "admin_2fa_help": "Członkowie {adminName} muszą zawsze mieć włączone uwierzytelnianie dwuskładnikowe."
             },
             "permissions": {
-                "see_two_factor_status_label": "",
-                "manage_others_label": ""
+                "see_two_factor_status_label": "Wyświetlanie statusu uwierzytelniania dwuskładnikowego innych użytkowników",
+                "manage_others_label": "Zarządzanie uwierzytelnianiem dwuskładnikowym innych użytkowników"
             },
             "settings": {
                 "groups": {
-                    "title": "",
-                    "help": ""
+                    "title": "Grupy wymagające uwierzytelniania dwuskładnikowego",
+                    "help": "Wymagaj od członków tych grup włączenia uwierzytelniania dwuskładnikowego (2FA) dla ich konta. Użytkownik w wymaganej grupie nie może wyłączyć 2FA."
                 },
-                "forum_logo_qr": "",
-                "forum_logo_qr_help": "",
-                "forum_logo_qr_width": "",
-                "forum_logo_qr_width_help": "",
-                "logo_qr": "",
-                "logo_qr_help": ""
+                "forum_logo_qr": "Osadzanie logo forum na kodzie QR",
+                "forum_logo_qr_help": "Umieść logo forum na kodzie QR wyświetlanym po włączeniu 2FA. Może to pomóc użytkownikom zidentyfikować prawidłowy kod QR do zeskanowania.",
+                "forum_logo_qr_width": "Szerokość logo forum na kodzie QR",
+                "forum_logo_qr_width_help": "Szerokość logo forum osadzonego na kodzie QR wyświetlanym po włączeniu uwierzytelniania dwuskładnikowego. Maksymalnie 200.",
+                "logo_qr": "Logo na kodzie QR",
+                "logo_qr_help": "Jeśli logo zostało przesłane, zostanie ono osadzone na kodzie QR. Pozostaw puste, aby użyć logo forum."
             }
         },
         "forum": {
             "user_2fa": {
-                "alert_message": ""
+                "alert_message": "Musisz włączyć uwierzytelnianie dwuskładnikowe, aby uzyskać dostęp do swojego konta."
             },
             "security": {
-                "two_factor_heading": "",
-                "two_factor_help": "",
-                "two_factor_apps": "",
-                "two_factor_enabled": "",
-                "two_factor_disabled": "",
-                "two_factor_title": "",
-                "enable_2fa_button": "",
-                "disable_2fa_button": "",
-                "enable_2fa_modal_text": "",
-                "qr_code_alt": "",
-                "enter_token": "",
-                "verify_button": "",
-                "loading_qr": "",
-                "backup_codes": "",
-                "backup_codes_instruction": "",
-                "saved_backup_codes_button": "",
-                "two_factor_enabled_confirmation": "",
-                "ok_button": "",
-                "confirm_disable_2fa_title": "",
-                "confirm_disable_2fa_text": "",
-                "cannot_disable": "",
-                "cannot_disable_tooltip": "",
-                "cancel_button": "",
-                "qr_tab": "",
-                "manual_tab": "",
-                "scan_qr_instruction": "",
-                "manual_entry_instruction": ""
+                "two_factor_heading": "Uwierzytelnianie dwuskładnikowe",
+                "two_factor_help": "Uwierzytelnianie dwuskładnikowe (2FA) zapewnia dodatkową warstwę zabezpieczeń konta. Po jego włączeniu, oprócz hasła, wymagane będzie wprowadzenie tokena z aplikacji uwierzytelniającej podczas logowania lub wykonywania niektórych innych czynności. Zapewnia to bezpieczeństwo konta, nawet jeśli hasło zostanie złamane, ponieważ atakujący będą również potrzebować kodu (który zmienia się co 30 sekund), aby uzyskać dostęp do konta.",
+                "two_factor_apps": "Aplikacje takie jak {google}, {authy}, {microsoft} i inne są dostępne za darmo.",
+                "two_factor_enabled": "Uwierzytelnianie dwuskładnikowe jest włączone na tym koncie.",
+                "two_factor_disabled": "Uwierzytelnianie dwuskładnikowe jest wyłączone na tym koncie.",
+                "two_factor_title": "Status:",
+                "enable_2fa_button": "Włącz uwierzytelnianie dwuskładnikowe",
+                "disable_2fa_button": "Wyłącz uwierzytelnianie dwuskładnikowe",
+                "enable_2fa_modal_text": "Zeskanuj poniższy kod QR za pomocą aplikacji uwierzytelniającej, a następnie wprowadź dostarczony token, aby włączyć uwierzytelnianie dwuskładnikowe.",
+                "qr_code_alt": "Kod QR uwierzytelniania dwuskładnikowego",
+                "enter_token": "Wpisz token",
+                "verify_button": "Zweryfikuj",
+                "loading_qr": "Wczytywaniu kodu QR...",
+                "backup_codes": "Twoje kody zapasowe",
+                "backup_codes_instruction": "Prosimy o zapisanie tych kodów w bezpiecznym miejscu. Mogą one zostać użyte do uzyskania dostępu do konta w przypadku utraty podstawowej metody uwierzytelniania. Nie będą one wyświetlane ponownie.",
+                "saved_backup_codes_button": "Zapisałem te kody",
+                "two_factor_enabled_confirmation": "Uwierzytelnianie dwuskładnikowe zostało pomyślnie włączone dla Twojego konta.",
+                "ok_button": "Ok",
+                "confirm_disable_2fa_title": "Potwierdzenie wyłączenia uwierzytelniania dwuskładnikowego",
+                "confirm_disable_2fa_text": "Czy na pewno chcesz wyłączyć uwierzytelnianie dwuskładnikowe?",
+                "cannot_disable": "Bieżąca konfiguracja uniemożliwia wyłączenie uwierzytelniania dwuskładnikowego.",
+                "cannot_disable_tooltip": "Nie można wyłączyć uwierzytelniania dwuskładnikowego",
+                "cancel_button": "Anuluj",
+                "qr_tab": "Zeskanuj kod QR",
+                "manual_tab": "Ręczna konfiguracja",
+                "scan_qr_instruction": "Zeskanuj powyższy kod QR za pomocą aplikacji uwierzytelniającej, a następnie wprowadź dostarczony token, aby włączyć uwierzytelnianie dwuskładnikowe.",
+                "manual_entry_instruction": "Wprowadź podany kod do aplikacji uwierzytelniającej, a następnie wprowadź wygenerowany token, aby włączyć uwierzytelnianie dwuskładnikowe."
             },
             "log_in": {
-                "two_factor_placeholder": "",
-                "two_factor_required_message": ""
+                "two_factor_placeholder": "Token 2FA, np. 123456",
+                "two_factor_required_message": "Aby kontynuować, wymagany jest ważny token uwierzytelniania dwuskładnikowego."
             }
         },
         "email": {
             "subject": {
-                "status_changed": ""
+                "status_changed": "Uwierzytelnianie dwuskładnikowe {type} dla twojego konta"
             },
             "body": {
-                "status_changed": ""
+                "status_changed": "Witaj {recipient_display_name},\n\nUwierzytelnianie dwuskładnikowe zostało {type} dla Twojego konta na {forum_url}.\n\nJeśli zainicjowałeś tę akcję, dalsze kroki nie są konieczne. Jeśli nie autoryzowałeś tej zmiany, skontaktuj się natychmiast z administratorami forum.\n"
             }
         },
         "views": {
             "reset_password": {
-                "two_factor_token_label": ""
+                "two_factor_token_label": "Token uwierzytelniania dwuskładnikowego"
             },
             "two_factor_token": {
-                "submit_button": ""
+                "submit_button": "Prześlij token"
             }
         }
     }
