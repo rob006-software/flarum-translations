@@ -2,28 +2,28 @@
     "the-turk-stickiest": {
         "admin": {
             "permissions": {
-                "super_sticky_discussions_label": "",
-                "tag_sticky_discussions_label": ""
+                "super_sticky_discussions_label": "Berkidilen gürrüňler",
+                "tag_sticky_discussions_label": "Berkidilen gürrüňleri bellemek"
             },
             "settings": {
-                "badge_icon_label": "",
-                "badge_icon_text": "",
-                "display_tag_sticky_label": "",
-                "display_tag_sticky_text": ""
+                "badge_icon_label": "Berkidilmegiň nyşany",
+                "badge_icon_text": "=> core.ref.icon_text",
+                "display_tag_sticky_label": "Bellenilen we berkidilen gürrüňleri \"Hemme Gürrüüňler\" listda görkezmek",
+                "display_tag_sticky_text": "Olara ýönekeý gürrüňler hökmünde serediler we ýokarsyna berkidilmez."
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "",
-                "super_sticky_tooltip": "",
-                "tag_sticky_tooltip": "",
-                "super_tag_sticky_tooltip": ""
+                "sticky_tooltip": "=> the-turk-stickiest.ref.sticky",
+                "super_sticky_tooltip": "=> the-turk-stickiest.ref.super_sticky",
+                "tag_sticky_tooltip": "=> the-turk-stickiest.ref.tag_sticky",
+                "super_tag_sticky_tooltip": "=> the-turk-stickiest.ref.super_tag_sticky"
             },
             "stickiest_modal": {
-                "title": "",
-                "sticky_label": "",
-                "sticky_text": "",
-                "super_sticky_label": "",
+                "title": "Berkidilen {title}",
+                "sticky_label": "=> flarum-sticky.ref.sticky",
+                "sticky_text": "Berkidilen gürrüňler, okalmadyk bolsa \"Hemme gürrüňler\" sanawynyň ýokarsynda durar.Gürrüňlere degişli belli bir belligi görenlerinde, elmydama ýokarsyna berkidiler.",
+                "super_sticky_label": "=> the-turk-stickiest.ref.super_sticky",
                 "super_sticky_text": "",
                 "tag_sticky_label": "",
                 "tag_sticky_text": "",
