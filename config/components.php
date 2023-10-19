@@ -759,7 +759,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-twofactor/1.0.3/locale/en.yml',
 	],
 	'imdong-visible-to-op-only' => [
-		'tag' => 'https://raw.githubusercontent.com/imdong/flarum-ext-visible-to-op-only/v1.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/imdong/flarum-ext-visible-to-op-only/v1.0.2/locale/en.yml',
 	],
 	'jeromegillard-map' => [
 		'tag' => 'https://raw.githubusercontent.com/JeromeGillard/flarum-map/v0.1.6/locale/en.yml',
