@@ -44,6 +44,7 @@
                 "backup_codes": "Your Backup Codes",
                 "backup_codes_instruction": "Please save these codes in a secure place. They can be used to access your account if you lose your primary authentication method. They will not be displayed again.",
                 "saved_backup_codes_button": "I've saved these codes",
+                "backup_codes_remaining": "Backup Codes Remaining:",
                 "two_factor_enabled_confirmation": "Two-Factor Authentication has been successfully enabled for your account.",
                 "ok_button": "Ok",
                 "confirm_disable_2fa_title": "Confirm Disabling Two-Factor Authentication",
@@ -67,6 +68,10 @@
             },
             "body": {
                 "status_changed": "Hello {recipient_display_name},\n\nTwo-Factor Authentication has been {type} for your account on {forum_url}.\n\nIf you initiated this action, no further steps are necessary. If you did not authorize this change, please contact the forum administrators immediately.\n"
+            },
+            "status_type": {
+                "enabled": "enabled",
+                "disabled": "disabled"
             }
         },
         "views": {

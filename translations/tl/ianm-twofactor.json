@@ -44,6 +44,7 @@
                 "backup_codes": "",
                 "backup_codes_instruction": "",
                 "saved_backup_codes_button": "",
+                "backup_codes_remaining": "",
                 "two_factor_enabled_confirmation": "",
                 "ok_button": "",
                 "confirm_disable_2fa_title": "",
@@ -67,6 +68,10 @@
             },
             "body": {
                 "status_changed": ""
+            },
+            "status_type": {
+                "enabled": "",
+                "disabled": ""
             }
         },
         "views": {

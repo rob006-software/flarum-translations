@@ -44,6 +44,7 @@
                 "backup_codes": "Twoje kody zapasowe",
                 "backup_codes_instruction": "Prosimy o zapisanie tych kodów w bezpiecznym miejscu. Mogą one zostać użyte do uzyskania dostępu do konta w przypadku utraty podstawowej metody uwierzytelniania. Nie będą one wyświetlane ponownie.",
                 "saved_backup_codes_button": "Zapisałem te kody",
+                "backup_codes_remaining": "",
                 "two_factor_enabled_confirmation": "Uwierzytelnianie dwuskładnikowe zostało pomyślnie włączone dla Twojego konta.",
                 "ok_button": "Ok",
                 "confirm_disable_2fa_title": "Potwierdzenie wyłączenia uwierzytelniania dwuskładnikowego",
@@ -67,6 +68,10 @@
             },
             "body": {
                 "status_changed": "Witaj {recipient_display_name},\n\nUwierzytelnianie dwuskładnikowe zostało {type} dla Twojego konta na {forum_url}.\n\nJeśli zainicjowałeś tę akcję, dalsze kroki nie są konieczne. Jeśli nie autoryzowałeś tej zmiany, skontaktuj się natychmiast z administratorami forum.\n"
+            },
+            "status_type": {
+                "enabled": "",
+                "disabled": ""
             }
         },
         "views": {
