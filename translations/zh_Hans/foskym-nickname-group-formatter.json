@@ -1,12 +1,12 @@
 {
     "foskym-nickname-group-formatter": {
         "admin": {
-            "display": "",
-            "optional": "",
+            "display": "如何展示此用户组的昵称?",
+            "optional": "配置",
             "setting": {
-                "showInUserPost": "",
-                "showInUserCard": "",
-                "showInUserCardPopover": ""
+                "showInUserPost": "在用户回复贴中显示",
+                "showInUserCard": "在用户卡片中显示（用户主页等）",
+                "showInUserCardPopover": "在用户卡片中显示（弹出框）"
             }
         }
     }
