@@ -962,6 +962,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`club-1-server-side-highlight`](https://weblate.rob006.net/projects/flarum/club-1-server-side-highlight) | [`club-1/flarum-ext-server-side-highlight`](https://github.com/club-1/flarum-ext-server-side-highlight) |
 | [`dalez-msemoji`](https://weblate.rob006.net/projects/flarum/dalez-msemoji) | [`dalez/flarum-msemoji`](https://github.com/DellZHackintosh/flarum-msemoji) |
 | [`dalez-twemoji`](https://weblate.rob006.net/projects/flarum/dalez-twemoji) | [`dalez/flarum-twemoji`](https://github.com/DellZHackintosh/flarum-twemoji) |
+| [`danirod-plausible`](https://weblate.rob006.net/projects/flarum/danirod-plausible) | [`danirod/flarum-plausible`](https://github.com/danirod/flarum-plausible) |
 | [`datitisev-discussion-agree-message`](https://weblate.rob006.net/projects/flarum/datitisev-discussion-agree-message) | [`datitisev/flarum-discussion-agree-message`](https://github.com/datitisev/flarum-discussion-agree-message) |
 | [`datitisev-post-galleries`](https://weblate.rob006.net/projects/flarum/datitisev-post-galleries) | [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries) |
 | [`datlechin-add-like-controls`](https://weblate.rob006.net/projects/flarum/datlechin-add-like-controls) | [`datlechin/flarum-add-like-controls`](https://github.com/datlechin/flarum-add-like-controls) |
