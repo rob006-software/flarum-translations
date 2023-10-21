@@ -760,6 +760,9 @@ return [
 	'ianm-twofactor' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-twofactor/1.0.7/locale/en.yml',
 	],
+	'imdong-spam-alert' => [
+		'tag' => 'https://raw.githubusercontent.com/imdong/flarum-ext-spam-alert/v0.0.1/locale/en.yml',
+	],
 	'jeromegillard-map' => [
 		'tag' => 'https://raw.githubusercontent.com/JeromeGillard/flarum-map/v0.1.6/locale/en.yml',
 	],
