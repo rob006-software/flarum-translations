@@ -1015,6 +1015,9 @@ return [
 	'matteocontrini-imgur-upload' => [
 		'tag' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/v3.9.1/locale/en.yml',
 	],
+	'mattoid-daily-check-in-history' => [
+		'tag' => 'https://raw.githubusercontent.com/Mattoids/flarum-daily-check-in-history/v1.0.0/locale/en.yml',
+	],
 	'michaelbelgium-discussion-views' => [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/v7.2.1/locale/en.yml',
 	],
