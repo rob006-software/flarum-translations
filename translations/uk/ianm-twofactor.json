@@ -2,21 +2,21 @@
     "ianm-twofactor": {
         "admin": {
             "edit_group": {
-                "2fa_label": "",
-                "2fa_help": "",
-                "admin_2fa_help": ""
+                "2fa_label": "Потрібен 2FA",
+                "2fa_help": "Вимагайте від учасників цієї групи увімкнути двофакторну автентифікацію (2FA) для свого облікового запису.",
+                "admin_2fa_help": "У користувачів {adminName} завжди має бути ввімкнено 2FA."
             },
             "permissions": {
-                "see_two_factor_status_label": "",
-                "manage_others_label": ""
+                "see_two_factor_status_label": "Перегляд статусу 2FA інших користувачів",
+                "manage_others_label": "Керування 2FA для інших користувачів"
             },
             "settings": {
                 "groups": {
-                    "title": "",
-                    "help": ""
+                    "title": "Необхідні групи для 2FA",
+                    "help": "Вимагайте від членів цих груп увімкнути двофакторну автентифікацію (2FA) для свого облікового запису. Користувач у потрібній групі не може вимкнути 2FA."
                 },
-                "forum_logo_qr": "",
-                "forum_logo_qr_help": "",
+                "forum_logo_qr": "Вставити логотип форуму на QR-код",
+                "forum_logo_qr_help": "Вбудуйте логотип форуму в QR-код, що відображається при включенні 2FA. Це може допомогти користувачам визначити правильний QR-код для сканування.",
                 "forum_logo_qr_width": "",
                 "forum_logo_qr_width_help": "",
                 "logo_qr": "",
@@ -28,12 +28,12 @@
                 "alert_message": ""
             },
             "security": {
-                "two_factor_heading": "",
+                "two_factor_heading": "2FA",
                 "two_factor_help": "",
                 "two_factor_apps": "",
                 "two_factor_enabled": "",
                 "two_factor_disabled": "",
-                "two_factor_title": "",
+                "two_factor_title": "Статус:",
                 "enable_2fa_button": "",
                 "disable_2fa_button": "",
                 "enable_2fa_modal_text": "",
