@@ -3,29 +3,29 @@
         "admin": {
             "validation": {
                 "domain": {
-                    "required": "",
-                    "regex": ""
+                    "required": "請指定一個域名",
+                    "regex": "指定的域名無效"
                 },
                 "proxy_domain": {
-                    "regex": ""
+                    "regex": "指定的域名代理無效"
                 }
             },
             "settings": {
                 "enable": {
-                    "label": "",
-                    "help": ""
+                    "label": "啟用",
+                    "help": "啟用此選項將實際包含追蹤代碼。"
                 },
                 "domain": {
-                    "label": "",
-                    "help": ""
+                    "label": "Domain",
+                    "help": "發送分析時使用的網域。"
                 },
                 "proxy_domain": {
-                    "label": "",
-                    "help": ""
+                    "label": "代理域名",
+                    "help": "從哪裡提供 JS 代碼。 將其留空以使用 plausible.io。 這可以防止廣告攔截器刪除追蹤代碼。 檢查合理的文件。"
                 },
                 "exclude_admin": {
-                    "label": "",
-                    "help": ""
+                    "label": "排除管理員",
+                    "help": "如果登錄，將阻止管理員的視圖計入追蹤。"
                 }
             }
         }
