@@ -2,39 +2,39 @@
     "fof-terms": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Configuració dels termes",
                 "field": {
-                    "signup-legal-text": "",
-                    "hide-updated-at": "",
-                    "date-format": "",
-                    "date-format-help": ""
+                    "signup-legal-text": "Text addicional al formulari d'inscripció",
+                    "hide-updated-at": "No mostris la data d'actualització de les condicions quan hi hagi una actualització disponible",
+                    "date-format": "Format de data",
+                    "date-format-help": "Pots utilitzar qualsevol format vàlid de <a>Day.js</a>. Deixa el camp buit per defecte."
                 }
             },
             "titles": {
-                "policies": ""
+                "policies": "Polítiques"
             },
             "buttons": {
-                "new-policy": "",
-                "edit-policy": "",
-                "add-policy": "",
-                "save-policy": "",
-                "delete-policy": "",
-                "set-to-now": ""
+                "new-policy": "Nova política",
+                "edit-policy": "Editar política",
+                "add-policy": "Afegir política",
+                "save-policy": "Desar política",
+                "delete-policy": "Esborrar política",
+                "set-to-now": "Fixar al moment actual"
             },
             "messages": {
-                "delete-policy-confirmation": ""
+                "delete-policy-confirmation": "Aquest acció suprimirà permanentment la política {name} i les dates d'acceptació associades de la base de dades. Assegur't d'haver fet una còpia de seguretat d'aquestes dates si les necessiteu per motius legals. Estàs segur de que vols suprimir aquesta política?\n"
             },
             "policies": {
-                "name": "",
-                "name-help": "",
-                "url": "",
-                "url-help": "",
-                "update-message": "",
-                "update-message-help": "",
-                "terms-updated-at": "",
-                "terms-updated-at-placeholder": "",
-                "terms-updated-at-help": "",
-                "export-url": "",
+                "name": "Nom",
+                "name-help": "Aquest nom es mostrarà al costat de la casella de selecció i com a títol de la finestra modal d'actualització.",
+                "url": "Adreça web",
+                "url-help": "L'adreça web de la pàgina on pots llegir els termes. S'obrirà en una nova pestanya quan hi facis clic.",
+                "update-message": "Missatge d'actualització",
+                "update-message-help": "Missatge a mostrar als usuaris actuals que no hagin acceptat encara els darrers termes.",
+                "terms-updated-at": "Actualitzat el",
+                "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
+                "terms-updated-at-help": "La data de l'última actualització de termes. Per establir aquest valor, caldrà que tots els usuaris que hagin acceptat abans d'aquesta data, els tornin a acceptar. Ha de ser en el passat (en cas contrari, els usuaris mai podrien acceptar després de la data i superar amb èxit la finestra modal).\n",
+                "export-url": "Exportar adreça web",
                 "export-url-help": ""
             },
             "permissions": {
