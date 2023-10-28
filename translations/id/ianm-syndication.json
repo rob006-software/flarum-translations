@@ -7,12 +7,12 @@
                 "tag_activity": "Aktivitas untuk tag {tag}",
                 "tag_new_discussions": "Diskusi dalam tag {tag}",
                 "discussion_last_posts": "Diskusi ini",
-                "user_last_posts": ""
+                "user_last_posts": "Post & komentar oleh pengguna ini"
             },
             "feeds": {
                 "entries": {
                     "user_posts": {
-                        "title_reply": ""
+                        "title_reply": "Re: {discussion}"
                     }
                 },
                 "titles": {
@@ -24,10 +24,10 @@
                     "tag_subtitle": "Tulisan terakhir dalam tag {tag}",
                     "tag_d_title": "Diskusi baru dalam tag {tag}",
                     "tag_d_subtitle": "Diskusi terbaru dalam tag {tag}",
-                    "discussion_title": "",
+                    "discussion_title": "{discussion_name}",
                     "discussion_subtitle": "Beberapa pesan terakhir dalam diskusi ini",
-                    "user_title": "",
-                    "user_subtitle": ""
+                    "user_title": "{username}",
+                    "user_subtitle": "Post & komentar terbaru oleh pengguna ini."
                 }
             },
             "discussion": {
