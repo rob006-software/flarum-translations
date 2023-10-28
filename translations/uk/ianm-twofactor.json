@@ -18,68 +18,68 @@
                 "forum_logo_qr": "Вставити логотип форуму на QR-код",
                 "forum_logo_qr_help": "Вбудуйте логотип форуму в QR-код, що відображається при включенні 2FA. Це може допомогти користувачам визначити правильний QR-код для сканування.",
                 "forum_logo_qr_width": "Ширина QR-коду з логотипом форуму",
-                "forum_logo_qr_width_help": "",
-                "logo_qr": "",
-                "logo_qr_help": ""
+                "forum_logo_qr_width_help": "Ширина логотипу форуму, вбудованого в QR-код, що відображається при включенні 2FA. Максимум 200.",
+                "logo_qr": "Логотип на QR-коді",
+                "logo_qr_help": "Якщо логотип був завантажений, він буде вбудований в QR-код. Залиште поле порожнім, щоб використовувати логотип форуму."
             }
         },
         "forum": {
             "user_2fa": {
-                "alert_message": ""
+                "alert_message": "Ви повинні увімкнути 2FA, щоб продовжити доступ до свого облікового запису."
             },
             "security": {
                 "two_factor_heading": "2FA",
-                "two_factor_help": "",
-                "two_factor_apps": "",
-                "two_factor_enabled": "",
-                "two_factor_disabled": "",
+                "two_factor_help": "Двофакторна автентифікація (2FA) забезпечує додатковий рівень безпеки вашого облікового запису. Після ввімкнення цієї функції, окрім пароля, вам потрібно буде вводити токен з вашого додатку для автентифікації при вході в систему або виконанні деяких інших дій. Це гарантує, що ваш акаунт залишиться захищеним, навіть якщо ваш пароль буде скомпрометований, оскільки зловмисникам також знадобиться код (який змінюється кожні 30 секунд) для доступу до вашого акаунта.",
+                "two_factor_apps": "Такі програми, як {google}, {authy}, {microsoft} та інші доступні безкоштовно.",
+                "two_factor_enabled": "На цьому акаунті увімкнено 2FA.",
+                "two_factor_disabled": "2FA на цьому акаунті вимкнено.",
                 "two_factor_title": "Статус:",
-                "enable_2fa_button": "",
-                "disable_2fa_button": "",
-                "enable_2fa_modal_text": "",
-                "qr_code_alt": "",
-                "enter_token": "",
-                "verify_button": "",
-                "loading_qr": "",
-                "backup_codes": "",
-                "backup_codes_instruction": "",
-                "saved_backup_codes_button": "",
-                "backup_codes_remaining": "",
-                "two_factor_enabled_confirmation": "",
-                "ok_button": "",
-                "confirm_disable_2fa_title": "",
-                "confirm_disable_2fa_text": "",
-                "cannot_disable": "",
-                "cannot_disable_tooltip": "",
-                "cancel_button": "",
-                "qr_tab": "",
-                "manual_tab": "",
-                "scan_qr_instruction": "",
-                "manual_entry_instruction": ""
+                "enable_2fa_button": "Увімкнути 2FA",
+                "disable_2fa_button": "Вимкнути 2FA",
+                "enable_2fa_modal_text": "Відскануйте QR-код нижче за допомогою вашого додатку для автентифікації, а потім введіть наданий токен, щоб увімкнути двофакторну автентифікацію.",
+                "qr_code_alt": "QR-код для двофакторної автентифікації",
+                "enter_token": "Введіть Token",
+                "verify_button": "Підтвердити",
+                "loading_qr": "Завантаження QR-коду...",
+                "backup_codes": "Ваші резервні коди",
+                "backup_codes_instruction": "Будь ласка, збережіть ці коди в надійному місці. Вони можуть бути використані для доступу до вашого облікового запису, якщо ви втратите свій основний метод автентифікації. Вони більше не будуть відображатися.",
+                "saved_backup_codes_button": "Я зберіг ці коди",
+                "backup_codes_remaining": "Залишилися резервні коди:",
+                "two_factor_enabled_confirmation": "Двофакторна автентифікація успішно ввімкнена для вашого облікового запису.",
+                "ok_button": "Гаразд",
+                "confirm_disable_2fa_title": "Підтвердити вимкнення двофакторної автентифікації",
+                "confirm_disable_2fa_text": "Ви впевнені, що хочете вимкнути двофакторну автентифікацію?",
+                "cannot_disable": "Поточна конфігурація диктує, що ви не можете вимкнути двофакторну автентифікацію.",
+                "cannot_disable_tooltip": "Не вдається вимкнути 2FA",
+                "cancel_button": "Скасувати",
+                "qr_tab": "Відскануйте QR-код",
+                "manual_tab": "Ручне налаштування",
+                "scan_qr_instruction": "Відскануйте QR-код вище за допомогою вашого додатку для автентифікації, а потім введіть наданий токен, щоб увімкнути двофакторну автентифікацію.",
+                "manual_entry_instruction": "Введіть наданий код у вашому додатку для автентифікації, а потім введіть згенерований токен, щоб увімкнути двофакторну автентифікацію."
             },
             "log_in": {
-                "two_factor_placeholder": "",
-                "two_factor_required_message": ""
+                "two_factor_placeholder": "2FA Token, наприклад, 123456",
+                "two_factor_required_message": "Для продовження потрібен дійсний токен 2FA."
             }
         },
         "email": {
             "subject": {
-                "status_changed": ""
+                "status_changed": "Двофакторна автентифікація {type} для вашого облікового запису"
             },
             "body": {
-                "status_changed": ""
+                "status_changed": "Доброго дня {recipient_display_name}!\n\nДля вашого облікового запису на {forum_url} було встановлено двофакторну автентифікацію {type}.\n\nЯкщо ви ініціювали цю дію, подальші кроки не потрібні. Якщо ви не санкціонували цю зміну, будь ласка, негайно зверніться до адміністраторів форуму.\n"
             },
             "status_type": {
-                "enabled": "",
-                "disabled": ""
+                "enabled": "увімкнено",
+                "disabled": "вимкнено"
             }
         },
         "views": {
             "reset_password": {
-                "two_factor_token_label": ""
+                "two_factor_token_label": "2FA Token"
             },
             "two_factor_token": {
-                "submit_button": ""
+                "submit_button": "Надіслати токен"
             }
         }
     }
