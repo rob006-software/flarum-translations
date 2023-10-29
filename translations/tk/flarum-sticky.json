@@ -2,24 +2,24 @@
     "flarum-sticky": {
         "admin": {
             "permissions": {
-                "sticky_discussions_label": ""
+                "sticky_discussions_label": "Berkidilen gürrüňler"
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": ""
+                "sticky_tooltip": "=> flarum-sticky.ref.sticky"
             },
             "discussion_controls": {
-                "sticky_button": "",
-                "unsticky_button": ""
+                "sticky_button": "=> flarum-sticky.ref.sticky",
+                "unsticky_button": "Berkitmeden aýyr"
             },
             "post_stream": {
-                "discussion_stickied_text": "",
-                "discussion_unstickied_text": ""
+                "discussion_stickied_text": "{username} {time} sagatda gürrüňi berkitdi.",
+                "discussion_unstickied_text": "{username} {time} sagatda gürrüňi berkitmeden aýyrdy."
             }
         },
         "ref": {
-            "sticky": ""
+            "sticky": "Berkidilen"
         }
     }
 }
