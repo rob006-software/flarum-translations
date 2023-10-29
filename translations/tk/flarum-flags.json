@@ -19,32 +19,32 @@
                 "reason_inappropriate_label": "Ýerlikli däl",
                 "reason_inappropriate_text": "Bu post agressiw, kemsidiji, ýa-da biziň <a>jemgyýetçilik görkezmelerimizi</a> bozýar.",
                 "reason_missing_message": "Moderatorlarymyz üçin käbir maglumatlary bermegiňizi haýyş edýäris.",
-                "reason_off_topic_label": "",
-                "reason_off_topic_text": "",
-                "reason_other_label": "",
-                "reason_spam_label": "",
-                "reason_spam_text": "",
-                "submit_button": "",
-                "title": ""
+                "reason_off_topic_label": "Baglanyşyksyz",
+                "reason_off_topic_text": "Bu post häzirki gürrüňe degişli däl we başga ýere geçirilmeli.",
+                "reason_other_label": "Başga (düşündirmegiňizi haýyş edýäris)",
+                "reason_spam_label": "Spam",
+                "reason_spam_text": "Bu post mahabat.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
-                "empty_text": "",
-                "item_text": "",
-                "title": "",
-                "tooltip": ""
+                "empty_text": "Arza Ýok",
+                "item_text": "{username} <em>{discussion}</em> gürrüňde",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
-                "dismiss_flag_button": "",
-                "flagged_by_text": "",
-                "flagged_by_with_reason_text": ""
+                "dismiss_flag_button": "Arzany ýatyr",
+                "flagged_by_text": "{username} arz eden",
+                "flagged_by_with_reason_text": "{username} {reason} diýip arz eden"
             },
             "post_controls": {
-                "flag_button": ""
+                "flag_button": "Arz et"
             }
         },
         "ref": {
-            "flag_post": "",
-            "flagged_posts": ""
+            "flag_post": "Posty Arz et",
+            "flagged_posts": "Arz edilen postlar"
         }
     }
 }
