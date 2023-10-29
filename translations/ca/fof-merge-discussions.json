@@ -2,28 +2,28 @@
     "fof-merge-discussions": {
         "forum": {
             "modal": {
-                "title": "",
-                "ordering_heading": "",
-                "ordering_date_label": "",
-                "ordering_date_help": "",
-                "ordering_suffix_label": "",
-                "ordering_suffix_help": "",
-                "type_heading": "",
-                "type_target_label": "",
-                "type_target_help_text": "",
-                "type_from_label": "",
-                "type_from_help_text": "",
-                "load_preview_button": "",
-                "submit_button": ""
+                "title": "Combina els debats",
+                "ordering_heading": "Criteris d'ordenació",
+                "ordering_date_label": "Combinar publicacions per data de creació",
+                "ordering_date_help": "Les publicacions del debat resultant s'ordenaran segons la data de creació de cada element individual",
+                "ordering_suffix_label": "Afegir les publicacions combinades al final del debat",
+                "ordering_suffix_help": "Les publicacions que s'integrin al debat supervivent s'afegiran al final de tot",
+                "type_heading": "Criteris de fusió",
+                "type_target_label": "Afegir en aquest debat",
+                "type_target_help_text": "Triar el(s) debat(s) a integrar en <b>{title}</b>.",
+                "type_from_label": "Integrar aquest debat en un altre",
+                "type_from_help_text": "Triar el debat de destí on integrar <b>{title}</b>.",
+                "load_preview_button": "Previsualitzar",
+                "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "",
+                "discussion_merged": "El teu debat <b>{oldTitle}</b> ha esta integrat en aquest per {username}.",
                 "preferences": {
-                    "discussion_merged": ""
+                    "discussion_merged": "Algú combina un dels meus debats amb un altre"
                 }
             },
             "discussion": {
-                "merge": ""
+                "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
                 "merged": ""
