@@ -719,7 +719,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/2.5.1/resources/locale/en.yml',
 	],
 	'ianm-follow-users' => [
-		'tag' => 'https://raw.githubusercontent.com/imorland/follow-users/1.3.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/imorland/follow-users/1.4.1/resources/locale/en.yml',
 	],
 	'ianm-gravatar' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/gravatar/0.2.0/resources/locale/en.yml',
