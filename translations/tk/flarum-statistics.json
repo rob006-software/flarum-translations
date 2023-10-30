@@ -2,35 +2,35 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "Statistikany görkezmek üçin seneler aralygyny saýlaň.\nIşjeň forumlarda maglumatlaruň ýüklenişi birnäçe minut alyp biler.\n",
+                "end_date": "Ahyrky senesi (şol sanda)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "Ahyrky sene başlangyç seneden soň bolmaly."
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "Başlangyç senesi (şol sanda)",
+                "submit_button": "Sene aralygyny tassykla",
+                "title": "Ýörite sene aralygyny saýla"
             },
             "statistics": {
-                "discussions_heading": "",
-                "export_chart_button": "",
-                "last_12_months_label": "",
-                "last_28_days_label": "",
-                "last_7_days_label": "",
-                "mini_heading": "",
-                "previous_28_days_label": "",
-                "previous_7_days_label": "",
-                "custom_label": "",
-                "custom_label_specified": "",
-                "loading": "",
-                "posts_heading": "",
-                "today_label": "",
-                "total_label": "",
-                "users_heading": "",
-                "view_full": "",
-                "no_data": "",
-                "current_period": "",
-                "previous_period": ""
+                "discussions_heading": "=> core.ref.discussions",
+                "export_chart_button": "Diagrammany SVG formatda eksport et",
+                "last_12_months_label": "Soňky 12 aý",
+                "last_28_days_label": "Soňky 28 gün",
+                "last_7_days_label": "Soňky 7 gün",
+                "mini_heading": "Forum statistikasy",
+                "previous_28_days_label": "Öňki 28 gün",
+                "previous_7_days_label": "Öňki 7 gün",
+                "custom_label": "Ýörite aralygy saýla...",
+                "custom_label_specified": "{fromDate} {toDate} çenli",
+                "loading": "=> core.ref.loading",
+                "posts_heading": "=> core.ref.posts",
+                "today_label": "Şu gün",
+                "total_label": "Jemi",
+                "users_heading": "=> core.ref.users",
+                "view_full": "Has köp statistika gör",
+                "no_data": "Bu sene aralygy üçin maglumat ýok.",
+                "current_period": "Häzirki döwür",
+                "previous_period": "Öňki döwür"
             }
         }
     }
