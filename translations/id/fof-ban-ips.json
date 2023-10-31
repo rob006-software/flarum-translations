@@ -74,8 +74,8 @@
         "lib": {
             "data": {
                 "bannedipdata": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Jika catatan larangan IP dikaitkan dengan pengguna (misalnya, pengguna diblokir berdasarkan IP), alamat IP pengguna akan disertakan dalam ekspor, bersama dengan alasan pemblokiran dan tanggal pembuatannya.",
+                    "anonymize_description": "Alamat IP apa pun yang ditautkan ke pengguna akan dipisahkan, namun IP itu sendiri akan tetap diblokir, beserta alasannya. Pastikan tidak ada data PII yang disimpan di kolom 'alasan'."
                 }
             }
         }
