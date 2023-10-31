@@ -8,43 +8,43 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "Siz {timeReadable} wagtlyk blok edildiňiz",
-                "user_suspended_indefinite_text": "Siz näbelli wagtlyk blok edildiňiz",
+                "user_suspended_indefinite_text": "Siz hemişelik blok edildiňiz",
                 "user_unsuspended_text": "Sizi blokdan aýyrdylar"
             },
             "suspension_info": {
                 "dismiss_button": "Ýap",
-                "indefinite": "Bu näbelli wagtlyk blok",
+                "indefinite": "Bu hemişelik blok",
                 "limited": "Bu blok {date} wagta çenli işjeň bolar",
                 "title": "Bu hasap blok edilen"
             },
             "suspend_user": {
                 "display_message": "Ulanyjy üçin habar görkeziň",
-                "indefinitely_label": "Näbelli wagtlyk blok edilen",
-                "limited_time_days_text": "",
-                "limited_time_label": "",
-                "not_suspended_label": "",
-                "placeholder_optional": "",
-                "reason": "",
-                "status_heading": "",
-                "submit_button": "",
-                "title": ""
+                "indefinitely_label": "Hemişelik blok edilen",
+                "limited_time_days_text": " gün",
+                "limited_time_label": "Wagtlaýyn blok edilen...",
+                "not_suspended_label": "Blok edilmedik",
+                "placeholder_optional": "Hökmäny däl",
+                "reason": "Blogyň sebäbi",
+                "status_heading": "Blok ýagdaýy",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "{username} blok et"
             },
             "user_badge": {
-                "suspended_tooltip": ""
+                "suspended_tooltip": "Blok edilen"
             },
             "user_controls": {
-                "suspend_button": ""
+                "suspend_button": "Blok et"
             }
         },
         "email": {
-            "no_reason_given": "",
+            "no_reason_given": "Bu blogyň sebäbi görkezilmedik.",
             "suspended": {
-                "subject": "",
-                "body": ""
+                "subject": "Siziň hasabyňyz blok edilen",
+                "body": "Salam {recipient_display_name},\n\nSiz indiki sebäp üçin blok edildiňiz:\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
-                "subject": "",
-                "body": ""
+                "subject": "Siziň hasabyňyz blokdan açyldy",
+                "body": "Salam {recipient_display_name},\n\nSiz blokdan açyldyňyz. Siz foruma aşaky salgy boýunça geçip bilersiňiz:\n\n{forum_url}\n"
             }
         }
     }
