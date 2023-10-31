@@ -74,8 +74,8 @@
         "lib": {
             "data": {
                 "bannedipdata": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Si un enregistrement de bannissement par IP est associé à un utilisateur (c'est-à-dire que l'utilisateur a été banni par IP), l'adresse IP de l'utilisateur sera incluse dans l'exportation, ainsi que la raison du bannissement et la date de création.",
+                    "anonymize_description": "Toutes les adresses IP liées à l'utilisateur sont découplées, mais l'adresse IP elle-même reste interdite, de même que le motif. Veillez à ce qu'aucune donnée confidentielle ne soit stockée dans le champ « motif »."
                 }
             }
         }
