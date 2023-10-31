@@ -2,19 +2,19 @@
     "flarum-subscriptions": {
         "forum": {
             "badge": {
-                "following_tooltip": "",
-                "ignoring_tooltip": ""
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
             },
             "discussion_controls": {
-                "follow_button": "",
-                "unfollow_button": "",
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Yzarlama",
                 "unignore_button": ""
             },
             "following": {
-                "meta_title_text": ""
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
             },
             "index": {
-                "following_link": ""
+                "following_link": "=> flarum-subscriptions.ref.following"
             },
             "notifications": {
                 "new_post_text": ""
