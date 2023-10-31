@@ -3,32 +3,32 @@
         "admin": {
             "settings": {
                 "disable-when-searching": {
-                    "label": "",
-                    "help": ""
+                    "label": "Desactiva la sinopsi al cercar",
+                    "help": "Quan està actiu, el fragment més rellevant de la publicació s'utilitzarà en lloc de la sinopsi"
                 },
                 "excerpt-length": {
-                    "label": "",
-                    "help": ""
+                    "label": "Longitud del fragment de resum, en caràcters",
+                    "help": "Quants caràcters de la publicació cal mostrar."
                 },
                 "rich-excerpts": {
-                    "label": "",
-                    "help": ""
+                    "label": "Mostrar fragments utilitzant contigut ric",
+                    "help": "Quan està actiu, la sinopsi pot incloure imatges, contingut incrustat d'origen extern i altres elements no textuals"
                 },
                 "excerpt-type": {
-                    "label": "",
-                    "help": ""
+                    "label": "Quina publicació s'ha de mostrar com a fragment?",
+                    "help": "Triar si cal utilitzar la primera o l'última publicació per al contingut de la sinopsi"
                 },
-                "first-label": "",
-                "last-label": "",
-                "tags-enabled": ""
+                "first-label": "Primera publicació",
+                "last-label": "Última publicació",
+                "tags-enabled": "Tens <code>flarum/tags</code> activat. Aquests valors esdevindran els de defecte, tret que les etiquetes individuals tinguin la seva pròpia configuració."
             }
         },
         "forum": {
             "user": {
                 "settings": {
-                    "summaries-heading": "",
-                    "show-summaries": "",
-                    "show-summaries-mobile": ""
+                    "summaries-heading": "Sinopsi",
+                    "show-summaries": "Mostra un fragment de cada debat a la llista de debats (Ordinador/Tauleta)",
+                    "show-summaries-mobile": "Mostra un fragment de cada debat a la llista de debats (Mòbil)"
                 }
             }
         }
