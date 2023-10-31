@@ -2,24 +2,24 @@
     "flarum-suspend": {
         "admin": {
             "permissions": {
-                "suspend_users_label": ""
+                "suspend_users_label": "Ulanyjylary blokirlemek"
             }
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "",
-                "user_suspended_indefinite_text": "",
-                "user_unsuspended_text": ""
+                "user_suspended_text": "Siz {timeReadable} wagtlyk blok edildiňiz",
+                "user_suspended_indefinite_text": "Siz näbelli wagtlyk blok edildiňiz",
+                "user_unsuspended_text": "Sizi blokdan aýyrdylar"
             },
             "suspension_info": {
-                "dismiss_button": "",
-                "indefinite": "",
-                "limited": "",
-                "title": ""
+                "dismiss_button": "Ýap",
+                "indefinite": "Bu näbelli wagtlyk blok",
+                "limited": "Bu blok {date} wagta çenli işjeň bolar",
+                "title": "Bu hasap blok edilen"
             },
             "suspend_user": {
-                "display_message": "",
-                "indefinitely_label": "",
+                "display_message": "Ulanyjy üçin habar görkeziň",
+                "indefinitely_label": "Näbelli wagtlyk blok edilen",
                 "limited_time_days_text": "",
                 "limited_time_label": "",
                 "not_suspended_label": "",
