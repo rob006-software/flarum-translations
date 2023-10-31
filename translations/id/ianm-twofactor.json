@@ -3,63 +3,63 @@
         "admin": {
             "edit_group": {
                 "2fa_label": "",
-                "2fa_help": "",
-                "admin_2fa_help": ""
+                "2fa_help": "Mengharuskan anggota grup ini untuk mengaktifkan Autentikasi Dua Faktor (2FA) untuk akun mereka.",
+                "admin_2fa_help": "Anggota {adminName} harus selalu mengaktifkan 2FA."
             },
             "permissions": {
-                "see_two_factor_status_label": "",
-                "manage_others_label": ""
+                "see_two_factor_status_label": "Melihat status 2FA pengguna lain",
+                "manage_others_label": "Kelola 2FA untuk pengguna lain"
             },
             "settings": {
                 "groups": {
                     "title": "",
-                    "help": ""
+                    "help": "Mengharuskan anggota grup ini untuk mengaktifkan Autentikasi Dua Faktor (2FA) untuk akun mereka. Pengguna dalam grup yang diharuskan tidak dapat menonaktifkan 2FA."
                 },
-                "forum_logo_qr": "",
-                "forum_logo_qr_help": "",
-                "forum_logo_qr_width": "",
-                "forum_logo_qr_width_help": "",
-                "logo_qr": "",
-                "logo_qr_help": ""
+                "forum_logo_qr": "Cantumkan Logo Forum pada Kode QR",
+                "forum_logo_qr_help": "Cantumkan logo forum pada kode QR yang ditampilkan saat mengaktifkan 2FA. Hal ini dapat membantu pengguna mengidentifikasi kode QR yang benar untuk dipindai.",
+                "forum_logo_qr_width": "Lebar Logo Forum Kode QR",
+                "forum_logo_qr_width_help": "Lebar logo forum yang ditempelkan pada kode QR yang ditampilkan saat mengaktifkan 2FA. Maksimal 200.",
+                "logo_qr": "Logo pada Kode QR",
+                "logo_qr_help": "Jika logo telah diupload, logo ini akan ditempelkan pada kode QR. Biarkan kosong untuk menggunakan logo forum."
             }
         },
         "forum": {
             "user_2fa": {
-                "alert_message": ""
+                "alert_message": "Anda harus mengaktifkan 2FA untuk terus mengakses akun Anda."
             },
             "security": {
-                "two_factor_heading": "",
-                "two_factor_help": "",
-                "two_factor_apps": "",
-                "two_factor_enabled": "",
-                "two_factor_disabled": "",
-                "two_factor_title": "",
-                "enable_2fa_button": "",
-                "disable_2fa_button": "",
-                "enable_2fa_modal_text": "",
-                "qr_code_alt": "",
-                "enter_token": "",
-                "verify_button": "",
-                "loading_qr": "",
-                "backup_codes": "",
-                "backup_codes_instruction": "",
-                "saved_backup_codes_button": "",
-                "backup_codes_remaining": "",
-                "two_factor_enabled_confirmation": "",
-                "ok_button": "",
-                "confirm_disable_2fa_title": "",
-                "confirm_disable_2fa_text": "",
-                "cannot_disable": "",
-                "cannot_disable_tooltip": "",
-                "cancel_button": "",
-                "qr_tab": "",
-                "manual_tab": "",
-                "scan_qr_instruction": "",
-                "manual_entry_instruction": ""
+                "two_factor_heading": "2FA",
+                "two_factor_help": "Autentikasi Dua Faktor (2FA) memberikan lapisan keamanan ekstra pada akun Anda. Setelah diaktifkan, selain kata sandi, Anda akan diminta untuk memasukkan token dari aplikasi autentikasi saat masuk atau melakukan tindakan tertentu lainnya. Hal ini memastikan akun Anda tetap aman, bahkan jika kata sandi Anda dibobol, karena penyerang juga memerlukan kode (yang berubah setiap 30 detik) untuk mengakses akun Anda.",
+                "two_factor_apps": "Aplikasi seperti {google}, {authy}, {microsoft}, dan masih banyak lagi yang tersedia secara gratis.",
+                "two_factor_enabled": "2FA diaktifkan pada akun ini.",
+                "two_factor_disabled": "2FA dinonaktifkan pada akun ini.",
+                "two_factor_title": "Status:",
+                "enable_2fa_button": "Aktifkan 2FA",
+                "disable_2fa_button": "Nonaktifkan 2FA",
+                "enable_2fa_modal_text": "Pindai kode QR di bawah ini dengan aplikasi autentikasi Anda, lalu masukkan token yang disediakan untuk mengaktifkan Autentikasi Dua Faktor.",
+                "qr_code_alt": "Kode QR untuk Otentikasi Dua Faktor",
+                "enter_token": "Masukkan Token",
+                "verify_button": "Verifikasi",
+                "loading_qr": "Memuat Kode QR...",
+                "backup_codes": "Kode Cadangan Anda",
+                "backup_codes_instruction": "Simpanlah kode-kode ini di tempat yang aman. Kode-kode ini dapat digunakan untuk mengakses akun Anda jika Anda kehilangan metode autentikasi utama. Kode-kode ini tidak akan ditampilkan lagi.",
+                "saved_backup_codes_button": "Saya telah menyimpan kode-kode ini",
+                "backup_codes_remaining": "Kode Cadangan Tersisa:",
+                "two_factor_enabled_confirmation": "Autentikasi Dua Faktor telah berhasil diaktifkan untuk akun Anda.",
+                "ok_button": "Ok",
+                "confirm_disable_2fa_title": "Konfirmasi Menonaktifkan Autentikasi Dua Faktor",
+                "confirm_disable_2fa_text": "Apakah Anda yakin ingin menonaktifkan Autentikasi Dua Faktor?",
+                "cannot_disable": "Konfigurasi saat ini menyatakan bahwa Anda tidak dapat menonaktifkan Autentikasi Dua Faktor.",
+                "cannot_disable_tooltip": "Tidak dapat menonaktifkan 2FA",
+                "cancel_button": "Batal",
+                "qr_tab": "Pindai Kode QR",
+                "manual_tab": "Pengaturan Manual",
+                "scan_qr_instruction": "Pindai kode QR di atas dengan aplikasi autentikasi Anda, lalu masukkan token yang disediakan untuk mengaktifkan Autentikasi Dua Faktor.",
+                "manual_entry_instruction": "Masukkan kode yang disediakan ke dalam aplikasi autentikasi Anda, lalu masukkan token yang dihasilkan untuk mengaktifkan Autentikasi Dua Faktor."
             },
             "log_in": {
-                "two_factor_placeholder": "",
-                "two_factor_required_message": ""
+                "two_factor_placeholder": "Token 2FA, misalnya, 123456",
+                "two_factor_required_message": "Token 2FA yang valid diperlukan untuk melanjutkan."
             }
         },
         "email": {
@@ -70,16 +70,16 @@
                 "status_changed": ""
             },
             "status_type": {
-                "enabled": "",
-                "disabled": ""
+                "enabled": "diaktifkan",
+                "disabled": "dinonaktifkan"
             }
         },
         "views": {
             "reset_password": {
-                "two_factor_token_label": ""
+                "two_factor_token_label": "Token 2FA"
             },
             "two_factor_token": {
-                "submit_button": ""
+                "submit_button": "Kirim Token"
             }
         }
     }
