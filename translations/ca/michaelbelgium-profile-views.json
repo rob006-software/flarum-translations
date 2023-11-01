@@ -3,16 +3,16 @@
         "forum": {
             "user": {
                 "viewlist": {
-                    "title": "",
-                    "guest": ""
+                    "title": "Últims visitants",
+                    "guest": "Convidat"
                 },
-                "view_count_text": ""
+                "view_count_text": "{viewcount, plural, one {Vist {viewcount} vegada} other {Vist {viewcount} vegades}}"
             }
         },
         "admin": {
             "settings": {
-                "track_guests_label": "",
-                "max_viewcount_label": ""
+                "track_guests_label": "Seguir usuaris convidats",
+                "max_viewcount_label": "Màxims elements a la llista de visitants"
             }
         }
     }
