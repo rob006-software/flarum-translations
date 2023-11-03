@@ -720,7 +720,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/ianm-translate.yml',
 	],
 	'imeepo-more-bbcode' => [
-		'tag' => 'https://raw.githubusercontent.com/imeepo/flarum-more-bbcode/v1.0.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/imeepo/flarum-more-bbcode/v1.0.3/resources/locale/en.yml',
 	],
 	'jeromegillard-map' => [
 		'tag' => 'https://raw.githubusercontent.com/JeromeGillard/flarum-map/v0.1.6/locale/en.yml',
