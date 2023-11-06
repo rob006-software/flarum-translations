@@ -1120,6 +1120,9 @@ return [
 	'sycho-advanced-extension-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-advanced-extension-categories/v0.1.3/locale/en.yml',
 	],
+	'sycho-force-password-reset' => [
+		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-force-password-reset/1.0/locale/en.yml',
+	],
 	'sycho-github-milestone' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-github-milestone/v0.1.2/locale/en.yml',
 	],
