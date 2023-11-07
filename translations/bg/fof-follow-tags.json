@@ -19,8 +19,8 @@
                 "lurking_tag_tooltip": "Наблюдение"
             },
             "sub_controls": {
-                "header": "",
-                "subscription_label": "",
+                "header": "Абонамент за {tagName}",
+                "subscription_label": "Изберете вашето ниво на абонамент за {tagName}",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "Уведоми ме за всички нови дискусии.",
@@ -34,7 +34,7 @@
                 "not_following_text": "Уведоми ме само когато @mentioned.",
                 "notify_alert_tooltip": "Получи известие от форума когато има нови дискусии или постове",
                 "notify_email_tooltip": "Получи имейл когато има нови дискусии или публикации",
-                "submit_button": ""
+                "submit_button": "Потвърдете абонамента"
             },
             "notifications": {
                 "new_discussion_text": "{username} започна",
@@ -83,8 +83,8 @@
         "lib": {
             "data": {
                 "tagsubscription": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Експортира подробности за нивото на таг, ако има такъв.",
+                    "anonymize_description": "Премахва абонамента на потребителя за тага."
                 }
             }
         }
