@@ -12,14 +12,14 @@
         "admin": {
             "settings": {
                 "widget_ignore_private_discussions_label": "Игнорирайте частните дискусии",
-                "widget_order_label": "Поръчка на джаджи",
-                "widget_helper_text": ""
+                "widget_order_label": "Подредба на джаджи",
+                "widget_helper_text": "Редактирайте тази настройка, за да коригирате позицията на тази джаджа в раздела за странична навигация във вашия форум на Flarum. Колкото по-голямо е числото, толкова по-високо ще бъде тази джаджа в списъка с елементи на страничната навигация (тази стойност може да бъде положителна или отрицателна)."
             },
             "permissions": {
-                "view_discussions_count_label": "",
-                "view_posts_count_label": "",
-                "view_users_count_label": "",
-                "view_lastest_member_label": ""
+                "view_discussions_count_label": "Преглед на статистика за брой на дискусиите",
+                "view_posts_count_label": "Преглед на статистика за брой на постовете",
+                "view_users_count_label": "Преглед на статистика за брой на потребителите",
+                "view_lastest_member_label": "Преглед на статистика за последни потребители"
             }
         }
     }
