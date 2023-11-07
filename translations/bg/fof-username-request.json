@@ -97,13 +97,13 @@
         },
         "email": {
             "body": {
-                "noReasonProvided": "",
-                "approved": "",
-                "rejected": ""
+                "noReasonProvided": "Не е посочена причина.",
+                "approved": "Здравейте, {recipient_display_name},\n\nМолбата ви за промяна на вашето потребителско име на \"{new_username}\" е одобрена от {actor_display_name}.\n\nВече можете да влезете с новото си потребителско име: {login_url}\n",
+                "rejected": "Здравейте, {recipient_display_name},\n\nВашата заявка за промяна на вашето потребителско име от \"{old_username}\" на \"{requested_username}\" е отхвърлена от {actor_display_name}.\n\nПричина: {reason}\n"
             },
             "subject": {
-                "approved": "",
-                "rejected": ""
+                "approved": "{display_name} одобри промяната на вашето потребителско име на {requested_username}",
+                "rejected": "{display_name} отхвърли промяната на вашето потребителско име на {requested_username}"
             }
         }
     }
