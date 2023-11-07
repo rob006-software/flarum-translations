@@ -1,45 +1,45 @@
 {
     "fof-nightmode": {
         "ref": {
-            "auto": "",
-            "light": "",
-            "dark": ""
+            "auto": "Awtomatiki (brauzer ýa-da enjam opsiýalaryna esaslanýar)",
+            "light": "Ýagty tema",
+            "dark": "Garaňky tema"
         },
         "admin": {
             "settings": {
                 "modal": {
-                    "always_show_theme_toggle_on_header": "",
-                    "default_theme": "",
-                    "default_theme_helper": "",
-                    "theme_auto": "",
-                    "theme_light": "",
-                    "theme_dark": ""
+                    "always_show_theme_toggle_on_header": "Mydama forumyň \"header\" - da tema üýtgeme düwmesini görkez",
+                    "default_theme": "Forumyň esasy temasy",
+                    "default_theme_helper": "Esasy tema täze ulanyjylar, myhmanlar we ileri tutma toplumy bolmadyklar üçin awtomatiki goýulýar.",
+                    "theme_auto": "=> fof-nightmode.ref.auto",
+                    "theme_light": "=> fof-nightmode.ref.light",
+                    "theme_dark": "=> fof-nightmode.ref.dark"
                 }
             }
         },
         "forum": {
-            "day": "",
-            "night": "",
+            "day": "=> fof-nightmode.ref.light",
+            "night": "=> fof-nightmode.ref.dark",
             "header": {
-                "nightmode_button": ""
+                "nightmode_button": "Forumyň temasyny üýtget"
             },
             "user": {
                 "settings": {
-                    "heading": "",
-                    "description": "",
-                    "description2": "",
-                    "device_specific_setting_checkbox": "",
-                    "device_specific_setting_checkbox_tooltip": "",
-                    "auto_unsupported": "",
+                    "heading": "Tema",
+                    "description": "Forumda haýsy reňk temasyny ulanjakdygyňyzy saýlaň.",
+                    "description2": "Bu tema hasabyňyz bilen baglanyşdyrylar we her enjam sazlamasy üçin aşakdaky düwme bilen açmasaňyz, ähli enjamlaryňyza degişlidir.",
+                    "device_specific_setting_checkbox": "Ähli enjam sazlamalaryna ulan",
+                    "device_specific_setting_checkbox_tooltip": "Tema saýlamagyňyz, enjamlaryňyzyň her biri üçin aýratynlykda saklanar.",
+                    "auto_unsupported": "Brauzeriňiz awtomatiki garaňky temany goldamaýar.",
                     "options": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "=> fof-nightmode.ref.auto",
+                        "day": "=> fof-nightmode.ref.light",
+                        "night": "=> fof-nightmode.ref.dark"
                     },
                     "option_descriptions": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "Temaňyz, brauzeriňiz ýa-da enjam sazlamalaryňyz esasynda awtomatiki usulda saýlanar. Mysal üçin, iOS-da garaňky tema açyk bolsa, forumam hem garaňky bolar.",
+                        "day": "Öwrenen nusgawy tejribäňiz. Halandy we synagdan geçirildi.",
+                        "night": "Siz çala Gijeki baýguş. Guşlar uklap, tilkiler awlaýarka, gije foruma gözegçilik edýärsiňiz. Ýa-da siz diňe goýy reňkleri has gowy görýärsiňiz!"
                     }
                 }
             }
@@ -48,10 +48,10 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "fofNightMode": "",
-                "fofNightMode-help": "",
-                "fofNightMode_perDevice": "",
-                "fofNightMode_perDevice-help": ""
+                "fofNightMode": "FoF Nightmode: Düzgüne görä ulanmaly reňk temasy",
+                "fofNightMode-help": "0 - awtomatiki, 1 - ýagty tema, 2 - garaňky tema",
+                "fofNightMode_perDevice": "FoF Nightmode: Enjam sazlamalaryna görä ulan",
+                "fofNightMode_perDevice-help": "Garaňky tema sazlamalary üçin enjam isleglerine görä ulan"
             }
         }
     }
