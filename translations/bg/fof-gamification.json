@@ -2,8 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "",
-                "votes_button": ""
+                "hot_button": "Тенденция",
+                "votes_button": "Одобрения"
             }
         }
     },
@@ -12,82 +12,82 @@
             "votes": "Гласове",
             "vote_title": "Покажи кой е гласувал",
             "nav": {
-                "name": ""
+                "name": "Класации"
             },
             "ranking": {
                 "rank": "Място",
                 "name": "Потребител",
-                "amount": ""
+                "amount": "Точки"
             },
             "notification": {
-                "upvote": "",
-                "downvote": "",
+                "upvote": "{username} одобри вашата публикация",
+                "downvote": "{username} гласува против публикацията ви",
                 "prefrences": {
-                    "vote": ""
+                    "vote": "Когато една от публикациите ми бъде гласувана за/против"
                 }
             },
             "user": {
                 "card": {
-                    "points": ""
+                    "points": "{count, plural, one { {count} точка} other {{count} точки}}"
                 },
-                "rank": "",
-                "votes_link": ""
+                "rank": "{rank}",
+                "votes_link": "Гласове"
             },
             "modal": {
-                "downvotes_label": "",
-                "title": "",
-                "upvotes_label": ""
+                "downvotes_label": "Гласували против:",
+                "title": "Гласуващи",
+                "upvotes_label": "Гласували за:"
             },
-            "mod_item": "",
+            "mod_item": "Прегледай гласуващите",
             "voters": {
-                "none": "",
-                "label": "",
-                "label_none": ""
+                "none": "Все още няма гласуващи",
+                "label": "Гласуващи",
+                "label_none": "Няма гласуващи"
             },
             "post": {
-                "upvote_button": "",
-                "downvote_button": ""
+                "upvote_button": "Одобряване на пост",
+                "downvote_button": "Неодобряване на пост"
             }
         },
         "admin": {
             "permissions": {
-                "vote_label": "",
-                "see_votes_label": "",
-                "see_voters_label": "",
-                "see_ranking_page": "",
-                "upvote_notifications": "",
-                "downvote_notifications": ""
+                "vote_label": "Одобряване/Неодобряване на публикация",
+                "see_votes_label": "Виж за/против брой на гласове",
+                "see_voters_label": "Преглеждане кой е гласувал",
+                "see_ranking_page": "Преглеждане на страницата за класиране",
+                "upvote_notifications": "Получаване на съобщение при одобрение",
+                "downvote_notifications": "Получаване на съобщение при неодобрение"
             },
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "",
-                        "title": "",
-                        "help": ""
+                        "placeholder": "админ, потребител1, потребител2",
+                        "title": "Игнорирани потребители",
+                        "help": "Тези потребители няма да бъдат показани на страницата за класиране. Потребителските имена трябва да бъдат разделени със запетая, последвана от интервал."
                     },
-                    "title": "",
-                    "enable": "",
-                    "custom_image_1": "",
-                    "custom_image_2": "",
-                    "custom_image_3": ""
+                    "title": "Страница с класации",
+                    "enable": "Активиране на персонализирани изображения",
+                    "custom_image_1": "Изображение на 1-во място",
+                    "custom_image_2": "Изображение на 2-ро място",
+                    "custom_image_3": "Изображение на 3-то място"
                 },
                 "alt_votes": {
-                    "icon_name": ""
+                    "icon_name": "Име на иконката за алтернативно оформление"
                 },
                 "votes": {
-                    "points_title": "",
-                    "points_placeholder": "",
-                    "color_holder": "",
-                    "auto_upvote": "",
-                    "rate_limit": "",
-                    "discussion_page": "",
-                    "alternate_layout": "",
-                    "alternate_post_layout": "",
-                    "title": "",
-                    "vote_color": "",
-                    "icon_name": "",
-                    "icon_help": "",
-                    "upvotes_only": "",
+                    "points_title": "Заместител за точки",
+                    "points_placeholder": "Точки: ",
+                    "color_holder": "#ffffff",
+                    "auto_upvote": "Автоматично одобряване на публикации, когато бъдат публикувани",
+                    "rate_limit": "Налагане на лимит за гласуване (10 секунди)",
+                    "discussion_page": "Показване на общия брой гласове на оригиналната публикация в списъка с дискусии",
+                    "alternate_layout": "Използвайте алтернативно оформление за гласуване в списъка с дискусии",
+                    "alternate_post_layout": "Използвайте алтернативно оформление за гласуване на публикации",
+                    "title": "Гласове",
+                    "vote_color": "Гласуван цвят",
+                    "icon_name": "Иконка за одобрение/неодобрение",
+                    "icon_help": "Въведете произволна икона на Font-Awesome със суфикс -up и -down. Примери: стрелка, палци, шеврон",
+                    "upvotes_only": "Разрешете само гласуване \"За\"",
                     "first_post_only": "",
                     "allow_self_votes": ""
                 },
