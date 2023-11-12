@@ -551,7 +551,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-language/1.3.2/resources/locale/en.yml',
 	],
 	'fof-discussion-thumbnail' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-thumbnail/1.1.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-thumbnail/1.1.3/resources/locale/en.yml',
 	],
 	'fof-disposable-emails' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/disposable-emails/1.0.0/locale/en.yml',
