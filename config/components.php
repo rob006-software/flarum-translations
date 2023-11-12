@@ -635,7 +635,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pretty-mail/1.1.1/resources/locale/en.yml',
 	],
 	'fof-prevent-necrobumping' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/prevent-necrobumping/1.1.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/prevent-necrobumping/1.1.2/resources/locale/en.yml',
 	],
 	'fof-profile-image-crop' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/profile-image-crop/1.1.6/resources/locale/en.yml',
