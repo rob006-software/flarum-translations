@@ -590,7 +590,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/html-errors/1.1.2/locale/en.yml',
 	],
 	'fof-ignore-users' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ignore-users/1.2.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ignore-users/1.2.1/resources/locale/en.yml',
 	],
 	'fof-impersonate' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/impersonate/1.1.1/resources/locale/en.yml',
