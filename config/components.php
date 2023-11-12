@@ -629,7 +629,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/passport/1.1.1/locale/en.yml',
 	],
 	'fof-polls' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/polls/2.1.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/polls/2.1.2/resources/locale/en.yml',
 	],
 	'fof-pretty-mail' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pretty-mail/1.1.1/resources/locale/en.yml',
