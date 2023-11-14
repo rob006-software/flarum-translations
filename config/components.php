@@ -728,7 +728,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/imorland/html-head/1.2.3/resources/locale/en.yml',
 	],
 	'ianm-level-ranks' => [
-		'tag' => 'https://raw.githubusercontent.com/imorland/level-ranks/1.1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/imorland/level-ranks/1.1.1/resources/locale/en.yml',
 	],
 	'ianm-log-viewer' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-log-viewer/0.1.1/locale/en.yml',
