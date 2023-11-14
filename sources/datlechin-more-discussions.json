@@ -6,6 +6,8 @@
                 "block_name_help": "The name of the block (default <code>Latest Discussions</code>)",
                 "discussion_limit_label": "Discussion limit",
                 "discussion_limit_help": "The number of discussions to display (default <code>5</code>)",
+                "discussion_related_label": "Related results",
+                "discussion_related_help": "Search for related results by discussion title. <b>Warning:</b> this can impact a lot your site performance, specially if it's a big site. To solve it use this option in combination with <b>clarkwinkelmann/flarum-ext-scout</b> extension.",
                 "filter_by_label": "Filter by",
                 "filter_by_help": "Filter discussions (default: <code>latest</code>)",
                 "filter_dropdown": {

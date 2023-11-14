@@ -2,7 +2,7 @@
     "blomstra-user-filter": {
         "admin": {
             "settings": {
-                "intro": "Els usuaris sense el permís <code>Cerca usuaris</code> no veuran el quadre de cerca. Estableix <code>Tothom</code> per activar-lo per a tots els usuaris, o al nivell que resulti més adequat.",
+                "intro": "Els usuaris sense el permís <code>Cerca usuaris</code> no veuran el quadre de cerca. Estableix <code>Tothom</code> per activar-lo per a tots els usuaris, o el nivell que resulti més adequat.",
                 "min_length": "Mínim nombre de caràcters per començar a cercar",
                 "result_count": "Màxim nombre de resultats al desplegable de suggeriments"
             }
@@ -11,7 +11,7 @@
             "index_page": {
                 "filter_user": {
                     "accessible_label": "Filtra per autor",
-                    "all": "Tot",
+                    "all": "Tothom",
                     "label": "Filtra per autor: {text}",
                     "search_label": "Cerca usuaris...",
                     "no_results": "No hi ha resultats",

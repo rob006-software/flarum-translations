@@ -1,4 +1,15 @@
 {
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Tous les fichiers transférés par l'utilisateur.",
+                    "anonymize_description": "Supprime la référence de l'utilisateur des fichiers transférés. Les fichiers eux-mêmes restent accessibles aux utilisateurs qui pouvaient les consulter avant l'anonymisation.",
+                    "delete_description": "Supprime tous les fichiers transférés par l'utilisateur."
+                }
+            }
+        }
+    },
     "fof-upload": {
         "admin": {
             "pane": {

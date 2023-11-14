@@ -2,22 +2,23 @@
     "fof-split": {
         "admin": {
             "permissions": {
-                "split_discussion_label": ""
+                "split_discussion_label": "Dividir les publicacions dels debats"
             }
         },
         "forum": {
             "post": {
-                "was_split_to": "",
-                "was_split_from": ""
+                "was_split_to": "{count, plural, one {{count} publicació s'ha dividit a {target}.} other {{count} publicacions s'han dividit a {target}.}}",
+                "was_split_from": "{count, plural, one {{count} publicació s'ha dividit des de {target}.} other {{count} publicacions s'han dividit des de {target}.}}"
             },
             "split": {
-                "from": "",
-                "to": ""
+                "from": "Dividir des d'aquí",
+                "to": "Dividir a aquí",
+                "cancel": ""
             },
             "modal": {
-                "title": "",
-                "new_discussion_label": "",
-                "submit_button": ""
+                "title": "Dividir debat",
+                "new_discussion_label": "Triar un títol per al nou debat",
+                "submit_button": "Dividir"
             }
         }
     }

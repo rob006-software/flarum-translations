@@ -36,11 +36,11 @@
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
-                "translate-all-enabled": "",
-                "translate-all-help": "",
+                "translate-all-enabled": "Aktifkan semua bahasa terjemahan",
+                "translate-all-help": "Jika diaktifkan, pengguna admin dan orang lain yang memiliki izin dapat menerjemahkan konten ke bahasa forum yang diinstal.",
                 "provider": "Penyedia terjemahan",
                 "readme-info": "Lihat dokumentasi README untuk informasi lebih lanjut.",
-                "readme-none": ""
+                "readme-none": "Tidak ada pengaturan tambahan yang diperlukan untuk driver ini."
             }
         },
         "forum": {
@@ -54,15 +54,15 @@
                     "translated-updated": "Terjemahan terakhir diperbarui {time} menggunakan {provider}"
                 },
                 "title": {
-                    "detected-language": ""
+                    "detected-language": "{postLang}"
                 }
             },
             "user": {
                 "settings": {
                     "heading": "Terjemahan",
                     "source-language": {
-                        "help": "Saat dinonaktifkan, hanya postingan yang ditulis dalam bahasa selain bahasa forum saat ini yang akan diberi label. Untuk melabeli semua postingan dengan bahasa yang terdeteksi, aktifkan pengaturan ini.",
-                        "label": "Selalu tampilkan bahasa dalam postingan"
+                        "help": "Ketika dinonaktifkan, hanya konten yang dapat diterjemahkan yang ditulis dalam bahasa selain bahasa forum saat ini yang akan diberi label. Untuk melabeli semua konten dengan bahasa yang terdeteksi, aktifkan pengaturan ini.",
+                        "label": "Selalu tampilkan bahasa"
                     }
                 }
             }

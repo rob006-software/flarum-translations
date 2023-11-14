@@ -97,13 +97,13 @@
         },
         "email": {
             "body": {
-                "noReasonProvided": "",
-                "approved": "",
-                "rejected": ""
+                "noReasonProvided": "Tidak ada alasan yang diberikan.",
+                "approved": "Halo {recipient_display_name},\n\nPermintaan Anda untuk mengubah username menjadi \"{new_username}\" telah disetujui oleh{actor_display_name}.\n\nAnda sekarang dapat masuk dengan username baru Anda: {login_url}\n",
+                "rejected": "Halo {recipient_display_name},\n\nPermintaan Anda untuk mengubah username dari \"{old_username}\" menjadi \"{requested_username}\" telah ditolak oleh {actor_display_name}.\n\nAlasan: {reason}\n"
             },
             "subject": {
-                "approved": "",
-                "rejected": ""
+                "approved": "{display_name} menyetujui perubahan username Anda menjadi {requested_username}",
+                "rejected": "{display_name} menolak perubahan username Anda menjadi {requested_username}"
             }
         }
     }

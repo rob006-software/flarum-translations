@@ -69,5 +69,15 @@
             "address_label": "IP 地址",
             "reason_label": "原因"
         }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "bannedipdata": {
+                    "export_description": "如果 IP 禁止記錄與使用者關聯（即該使用者被 IP 禁止），則該使用者的 IP 位址將包含在匯出中，以及禁止原因和建立日期。",
+                    "anonymize_description": "任何連結到該使用者的 IP 位址都會被解除，但 IP 本身仍將被禁止，並附有原因。 確保「原因」欄位中未儲存任何 PII 資料。"
+                }
+            }
+        }
     }
 }

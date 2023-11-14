@@ -2,19 +2,19 @@
     "flarum-akismet": {
         "admin": {
             "akismet_settings": {
-                "api_key_label": "",
-                "title": "",
-                "delete_blatant_spam_label": "",
-                "delete_blatant_spam_help": ""
+                "api_key_label": "API Açar",
+                "title": "Akismet Sazlamalary",
+                "delete_blatant_spam_label": "Aç-açan spamy awtomatiki poz",
+                "delete_blatant_spam_help": "Akismet teswiriň aç-açan spamdygyny kesgitlän bolsa, bellik etmegiň ýerine ýazgyny awtomatiki poz"
             },
             "permissions": {
-                "bypass_akismet": ""
+                "bypass_akismet": "Akismeti aýlanyp geç"
             }
         },
         "forum": {
             "post": {
-                "akismet_flagged_text": "",
-                "not_spam_button": ""
+                "akismet_flagged_text": "Akismet spam diýip belledi",
+                "not_spam_button": "Spam Däl"
             }
         }
     }

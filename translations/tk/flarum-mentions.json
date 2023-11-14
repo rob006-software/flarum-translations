@@ -2,64 +2,64 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "Toparlary agzamak"
             },
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "Ulanyjyny agzamak formatyny rugsat ber (@Ulanyjy_Ady)",
+                "allow_username_format_text": "Häzirki ulanyjyny agzamak formaty @\"Ulanyjy Görünýän Ady\"#ID.\nBu sazlama köne @Username formaty ulanmaga mümkinçilik berýär, ýöne ýatda saklananda täze formata geçiriler.\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "",
-                "reply_to_post_text": ""
+                "mention_tooltip": "Ulanyjyny, topary ýa-da posty agza",
+                "reply_to_post_text": "#{number} jogap ber"
             },
             "mentioned_by": {
-                "title": "",
-                "load_more_button": ""
+                "title": "Şu posta jogap berýär",
+                "load_more_button": "=> core.ref.load_more"
             },
             "notifications": {
-                "others_text": "",
-                "post_mentioned_text": "",
-                "user_mentioned_text": "",
-                "group_mentioned_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} postyňyza jogap berdi",
+                "user_mentioned_text": "{username} sizi agzady",
+                "group_mentioned_text": "{username} siziň agza bolan toparyňyzy agzady"
             },
             "post": {
-                "mentioned_by_more_text": "",
-                "mentioned_by_self_text": "",
-                "mentioned_by_text": "",
-                "others_text": "",
-                "quote_button": "",
-                "reply_link": "",
-                "you_text": ""
+                "mentioned_by_more_text": "Ýene {count} jogap.",
+                "mentioned_by_self_text": "{users} şuňa jogap berdiler.",
+                "mentioned_by_text": "{users} şuňa jogap berdiler.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Sitirlemek",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
             },
             "settings": {
-                "notify_post_mentioned_label": "",
-                "notify_user_mentioned_label": "",
-                "notify_group_mentioned_label": ""
+                "notify_post_mentioned_label": "Kimdir biri meniň postyma jogap berdi",
+                "notify_user_mentioned_label": "Kimdir biri meni postda agzady",
+                "notify_group_mentioned_label": "Kimdir biri meniň agza bolan toparymy postda agzady"
             },
             "user": {
-                "mentions_link": ""
+                "mentions_link": "Agzalmalar"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[näbelli]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[näbelli topar]"
             }
         },
         "email": {
             "post_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name} siziň {title} postyňyza jogap berdi",
+                "body": "Salam, {recipient_display_name}!\n\n{replier_display_name} siziň {title} atly postyňyza (#{post_number}) jogap berdi.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} sizi {title} postda agzady",
+                "body": "Salam, {recipient_display_name}!\n\n{mentioner_display_name} sizi {title} postda agzady.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} siziň agza bolan toparyňyzy {title} postda agzady",
+                "body": "Salam, {recipient_display_name}!\n\n{mentioner_display_name} siziň agza bolan toparyňyzy {title} postda agzady.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }

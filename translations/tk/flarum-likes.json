@@ -2,35 +2,35 @@
     "flarum-likes": {
         "admin": {
             "permissions": {
-                "like_posts_label": ""
+                "like_posts_label": "Postlary halamak"
             },
             "settings": {
-                "like_own_posts_help": "",
-                "like_own_posts_label": ""
+                "like_own_posts_help": "Işledilen mahaly, ulanyjylar forumdaky öz postlaryny 'halap' bilerler. Ulanyjylaryň öz postlaryna 'halanýan' goýmagynyň öňüni almak üçin bu sazlamany öçüriň.",
+                "like_own_posts_label": "Ulanyjylar öz postlaryny halap bilerler"
             }
         },
         "forum": {
             "notifications": {
-                "others_text": "",
-                "post_liked_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} postyňyzy halady"
             },
             "post": {
-                "like_link": "",
-                "liked_by_self_text": "",
-                "liked_by_text": "",
-                "others_link": "",
-                "unlike_link": "",
-                "you_text": ""
+                "like_link": "Halaýaryn",
+                "liked_by_self_text": "{users} şuny halaýarlar.",
+                "liked_by_text": "{count, plural, one {{users} şuny halaýar} other {{users} şuny halaýarlar}}.",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Halamaýaryn",
+                "you_text": "=> core.ref.you"
             },
             "post_likes": {
-                "title": "",
-                "load_more_button": ""
+                "title": "Şuny halaýan ulnajylar",
+                "load_more_button": "=> core.ref.load_more"
             },
             "settings": {
-                "notify_post_liked_label": ""
+                "notify_post_liked_label": "Kimdir biri meniň postymy halady"
             },
             "user": {
-                "likes_link": ""
+                "likes_link": "Halanýanlar"
             }
         }
     }

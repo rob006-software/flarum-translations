@@ -19,7 +19,8 @@
                 "email_label": "Email Settings",
                 "switch": {
                     "email": "Email user when post is filtered",
-                    "merge": "Auto merge double posts"
+                    "merge": "Auto merge double posts",
+                    "delete": "Auto delete filtered posts"
                 },
                 "email_subject": "Subject",
                 "email_body": "Body"
@@ -33,7 +34,7 @@
             },
             "email": {
                 "default_subject": "Regarding Your Recent Post",
-                "default_text": "Thank you for posting! Unfortunately, your post was removed because it contained something we don't want to see on our forums.\n\nIf you believe this was an error, you are in luck, each removed post is reviewed by our moderators. If they find that this was wrongfully removed, they will restore it.                \n\nThank you for your understanding."
+                "default_text": "Thank you for posting! Unfortunately, your post was removed because it contained something we don't want to see on our forums.\n\nIf you believe this was an error, you are in luck, each removed post is reviewed by our moderators. If they find that this was wrongfully removed, they will restore it.                \n\nThank you for your understanding.\n"
             }
         }
     }

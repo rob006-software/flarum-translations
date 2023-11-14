@@ -2,40 +2,40 @@
     "foskym-oauth-center": {
         "admin": {
             "permission": {
-                "use_oauth": ""
+                "use_oauth": "Gunakan OAuth"
             },
             "page": {
                 "index": "",
                 "clients": "",
-                "scopes": ""
+                "scopes": "Kelola Cakupan"
             },
             "settings": {
-                "access_lifetime": "",
+                "access_lifetime": "Masa Berlaku Token Akses (detik)",
                 "allow_implicit": "",
                 "enforce_state": "",
-                "require_exact_redirect_uri": ""
+                "require_exact_redirect_uri": "Memerlukan URI Pengalihan yang Tepat"
             },
             "clients": {
                 "client_id": "",
                 "client_secret": "",
-                "redirect_uri": "",
+                "redirect_uri": "URI Pengalihan",
                 "grant_types": "",
-                "scope": "",
-                "client_name": "",
-                "client_desc": "",
-                "client_icon": "",
+                "scope": "Cakupan",
+                "client_name": "Nama",
+                "client_desc": "Deskripsi",
+                "client_icon": "Ikon",
                 "client_home": "",
-                "add_button": ""
+                "add_button": "Tambah Klien"
             },
             "scopes": {
-                "scope": "",
+                "scope": "Cakupan",
                 "resource_path": "",
-                "method": "",
+                "method": "Metode",
                 "is_default": "",
-                "scope_name": "",
-                "scope_icon": "",
-                "scope_desc": "",
-                "add_button": ""
+                "scope_name": "Nama",
+                "scope_icon": "Ikon",
+                "scope_desc": "Deskripsi",
+                "add_button": "Tambah Cakupan"
             }
         },
         "forum": {
@@ -49,8 +49,8 @@
             },
             "authorize": {
                 "access": "",
-                "agree": "",
-                "deny": ""
+                "agree": "Setuju",
+                "deny": "Menolak"
             }
         }
     }

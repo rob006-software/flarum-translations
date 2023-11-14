@@ -34,8 +34,8 @@
                 "two_factor_enabled": "Uwierzytelnianie dwuskładnikowe jest włączone na tym koncie.",
                 "two_factor_disabled": "Uwierzytelnianie dwuskładnikowe jest wyłączone na tym koncie.",
                 "two_factor_title": "Status:",
-                "enable_2fa_button": "Włącz uwierzytelnianie dwuskładnikowe",
-                "disable_2fa_button": "Wyłącz uwierzytelnianie dwuskładnikowe",
+                "enable_2fa_button": "Włącz 2FA",
+                "disable_2fa_button": "Wyłącz 2FA",
                 "enable_2fa_modal_text": "Zeskanuj poniższy kod QR za pomocą aplikacji uwierzytelniającej, a następnie wprowadź dostarczony token, aby włączyć uwierzytelnianie dwuskładnikowe.",
                 "qr_code_alt": "Kod QR uwierzytelniania dwuskładnikowego",
                 "enter_token": "Wpisz token",
@@ -50,7 +50,7 @@
                 "confirm_disable_2fa_title": "Potwierdzenie wyłączenia uwierzytelniania dwuskładnikowego",
                 "confirm_disable_2fa_text": "Czy na pewno chcesz wyłączyć uwierzytelnianie dwuskładnikowe?",
                 "cannot_disable": "Bieżąca konfiguracja uniemożliwia wyłączenie uwierzytelniania dwuskładnikowego.",
-                "cannot_disable_tooltip": "Nie można wyłączyć uwierzytelniania dwuskładnikowego",
+                "cannot_disable_tooltip": "Nie można wyłączyć 2FA",
                 "cancel_button": "Anuluj",
                 "qr_tab": "Zeskanuj kod QR",
                 "manual_tab": "Ręczna konfiguracja",
@@ -80,6 +80,16 @@
             },
             "two_factor_token": {
                 "submit_button": "Prześlij token"
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "twofactordata": {
+                    "export_description": "",
+                    "delete_description": ""
+                }
             }
         }
     }

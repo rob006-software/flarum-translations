@@ -7,12 +7,12 @@
                 "only_icons_label": "Hanya menampilkan ikon (tata letak alternatif)",
                 "update_email_from_provider_label": "Memperbarui alamat email dari provider",
                 "update_email_from_provider_help": "Jika diaktifkan, alamat email pengguna akan diperbarui agar sesuai dengan yang disediakan oleh provider OAuth pada setiap login ke forum. Tidak semua penyedia menyediakan email yang diperbarui, dalam hal ini pengaturan ini tidak akan berpengaruh pada penyedia tersebut.",
-                "fullscreen_popup_label": "",
-                "fullscreen_popup_help": "",
-                "popup_width_label": "",
-                "popup_width_help": "",
-                "popup_height_label": "",
-                "popup_height_help": "",
+                "fullscreen_popup_label": "Gunakan Popup Layar Penuh untuk OAuth",
+                "fullscreen_popup_help": "Ketika diaktifkan, login OAuth akan terbuka dalam popup layar penuh. Jika ini diaktifkan, pengaturan lebar dan tinggi akan diabaikan.",
+                "popup_width_label": "Lebar Popup OAuth",
+                "popup_width_help": "Mengatur lebar jendela popup OAuth. Pengaturan ini akan diabaikan jika \"Gunakan Popup Layar Penuh untuk OAuth\" diaktifkan.",
+                "popup_height_label": "Tinggi Popup OAuth",
+                "popup_height_help": "Mengatur ketinggian jendela popup OAuth. Pengaturan ini akan diabaikan jika \"Gunakan Popup Layar Penuh untuk OAuth\" diaktifkan.",
                 "providers": {
                     "callback_url_text": "Jika memungkinkan, atur URL callback ke {url}.",
                     "discord": {

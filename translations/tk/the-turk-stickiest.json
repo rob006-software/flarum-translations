@@ -2,14 +2,14 @@
     "the-turk-stickiest": {
         "admin": {
             "permissions": {
-                "super_sticky_discussions_label": "Berkidilen gürrüňler",
-                "tag_sticky_discussions_label": "Kategoriýanyň berkidilen gürrüňleri"
+                "super_sticky_discussions_label": "Super berkidilen gürrüňler",
+                "tag_sticky_discussions_label": "Kategoriýalaýyn berkidilen gürrüňler"
             },
             "settings": {
-                "badge_icon_label": "Berkidilmegiň nyşany",
+                "badge_icon_label": "Super berkiditmäniň nyşany",
                 "badge_icon_text": "=> core.ref.icon_text",
-                "display_tag_sticky_label": "Kategoriýanyň berkidilen gürrüňlerini \"Hemme Gürrüüňler\" listda görkezmek",
-                "display_tag_sticky_text": "Olara ýönekeý gürrüňler hökmünde serediler we ýokarsyna berkidilmez."
+                "display_tag_sticky_label": "Kategoriýalaýyn berkidilen gürrüňleri \"Ähli Gürrüňler\" sanawda görkez",
+                "display_tag_sticky_text": "Olara ýönekeý gürrüňler hökmünde serediler we ýokarda berkidilmez."
             }
         },
         "forum": {
@@ -22,11 +22,11 @@
             "stickiest_modal": {
                 "title": "Berkidilen {title}",
                 "sticky_label": "=> flarum-sticky.ref.sticky",
-                "sticky_text": "Berkidilen gürrüňler, okalmadyk bolsa \"Hemme gürrüňler\" sanawynyň ýokarsynda durar.Gürrüňlere degişli belli bir belligi görenlerinde, elmydama ýokarsyna berkidiler.",
+                "sticky_text": "Berkidilen gürrüňler, okalmadyk bolsa \"Ähli gürrüňler\" sanawynyň ýokarsynda durar. Gürrüňlere degişli belli bir kategoriýa görenlerinde, elmydama ýokarsyna berkidiler.",
                 "super_sticky_label": "=> the-turk-stickiest.ref.super_sticky",
-                "super_sticky_text": "Has Berkidilen gürrüňler, näme bolsa-da iň ýokarky tarapa berkidiler.",
+                "super_sticky_text": "Super berkidilen gürrüňler näme bolsa-da iň ýokarkda berkidiler.",
                 "tag_sticky_label": "=> the-turk-stickiest.ref.tag_sticky",
-                "tag_sticky_text": "Kategoriýa berkitmeleri, \"Hemme gürrüňler\" sanawynda gizleniler. Diňe belli bir kategoriýany göreniňizde görkeziler we ýokarsyna berkidiler, bu şu ýerde saýlajak kategoriýanyň biridir. Bu warianty \"Has Berkitmek\" bilen birleşdirip bolýar.",
+                "tag_sticky_text": "Kategoriýalaýyn berkitmeler \"Ähli gürrüňler\" sanawynda gizlenilýär. Olar diňe, şu ýerde saýlan kategoriýaňyzyň sanawyna girýän, belli bir kategoriýalarda görkezilýär we ýokarda berkidilýär. Bu warianty \"Super berkitmek\" bilen birleşdirip bolýar.",
                 "tags_label": "=> flarum-tags.ref.tags",
                 "submit_button": "=> core.ref.save_changes"
             },
@@ -42,9 +42,9 @@
         },
         "ref": {
             "sticky": "=> flarum-sticky.ref.sticky",
-            "super_sticky": "Has berkidilen",
-            "tag_sticky": "Berkidilen",
-            "super_tag_sticky": "Has kategoriýa berkitmesi"
+            "super_sticky": "Super berkidilen",
+            "tag_sticky": "Kategoriýalaýyn berkidilen",
+            "super_tag_sticky": "Super kategoriýalaýyn berkidilen"
         }
     }
 }

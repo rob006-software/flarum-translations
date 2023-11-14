@@ -2,20 +2,20 @@
     "fof-user-bio": {
         "admin": {
             "permission": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "Veure biografia",
+                "editOwn": "Editar biografia pròpia",
+                "editAny": "Editar qualsevol biografia"
             },
             "setting": {
-                "bioLimit": "",
-                "maxLines": "",
-                "allowFormatting": "",
-                "allowFormatting_help": ""
+                "bioLimit": "Nombre màxim de caràcters de la biografia",
+                "maxLines": "Nombre màxim de línies per mostrar alhora",
+                "allowFormatting": "Permetre afegir format a la biografia",
+                "allowFormatting_help": "Per disseny, aquest format és independent del format de publicació. Si les extensions BBCode i/o Markdown estan habilitades, estaran disponibles per formatar la biografia. No es permeten imatges ni incrustacions. Les extensions que afegeixin formats al formatador del fòrum, han d'afegir *explícitament* suport per al formatador de biografies."
             }
         },
         "forum": {
-            "userbioPlaceholder": "",
-            "userbioPlaceholderOtherUser": ""
+            "userbioPlaceholder": "Parla'ns de qui ets, què fas i què et motiva",
+            "userbioPlaceholderOtherUser": "Escriu una biografia per a {username}"
         }
     }
 }

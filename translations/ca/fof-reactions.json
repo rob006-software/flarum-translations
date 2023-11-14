@@ -1,61 +1,61 @@
 {
     "fof-reactions": {
         "forum": {
-            "disabled-reaction": "",
-            "warning": "",
-            "notification": "",
+            "disabled-reaction": "No pots utilitzar aquesta reacció ara mateix. Actualitza la pàgina",
+            "warning": "La teva reacció ha estat convertida",
+            "notification": "{username} ha reaccionat amb {reaction} a la teva publicació",
             "settings": {
-                "notify_post_reacted_label": ""
+                "notify_post_reacted_label": "Algú ha reaccionat a una de les meves publicacions"
             },
-            "reacting-own-post": "",
+            "reacting-own-post": "No pots reaccionar a la teva pròpia publicació",
             "modal": {
-                "title": "",
-                "anonymous_count": ""
+                "title": "Reaccions",
+                "anonymous_count": "{count, plural, one {# usuari anònim} other {# usuaris anònims}}"
             },
-            "mod_item": "",
-            "react_button_label": ""
+            "mod_item": "Veure reaccions",
+            "react_button_label": "Reaccionar"
         },
         "admin": {
             "permissions": {
-                "react_posts_label": "",
-                "see_reactions_label": ""
+                "react_posts_label": "Reaccionar a publicacions",
+                "see_reactions_label": "Veure qui ha reaccionat a publicacions"
             },
             "page": {
                 "reactions": {
-                    "title": "",
-                    "reactions": "",
-                    "Helptext": "",
+                    "title": "Reaccions personalitzades",
+                    "reactions": "Reaccions actuals",
+                    "Helptext": "Tecleja el nom (identificador) de l'emoji o de la icona de font-awesome i tria quin tipus d'element vols utilitzar.",
                     "help": {
-                        "display": "",
-                        "identifier": ""
+                        "display": "Mostrar",
+                        "identifier": "Identificador"
                     }
                 },
                 "convert": {
-                    "help": "",
-                    "button": "",
-                    "converting": "",
-                    "converted": ""
+                    "help": "Si acabes d'actualitzar la teva extensió, caldrà convertir les teves reaccions. Si acabes d'instal·lar l'extensió, pots ignorar aquest missatge.",
+                    "button": "Convertir reaccions antigues",
+                    "converting": "Les teves reaccions s'estan convertint. Refresca la pàgina d'aquí a uns minuts per veure el procés acabat (el temps de conversió pot ser llarg en funció del nombre total de reaccions)",
+                    "converted": "Tots {number} \"M'agrada\" s'han convertit correctament"
                 },
                 "settings": {
-                    "react_own_posts_help": "",
-                    "react_own_posts_label": "",
-                    "allow-anonymous": "",
-                    "allow-anonymous-help": "",
-                    "save_settings": "",
+                    "react_own_posts_help": "Quan està activat, els usuaris poden reaccionar als seus propis missatges al fòrum. Per evitar que els usuaris reaccionin a les seves pròpies publicacions, desactiva aquesta opció.",
+                    "react_own_posts_label": "Els usuaris poden reaccionar a les seves pròpies publicacions",
+                    "allow-anonymous": "Permetre reaccions anònimes (usuaris convidats)",
+                    "allow-anonymous-help": "Si està activat, els usuaris convidats i anònomis podran reaccionar a les publicacions. Cal tenir en compte que les reaccions anònimes no estan enllaçades a cap perfil d'usuari i que s'afegiran a la llista de reaccions.",
+                    "save_settings": "Desar configuració",
                     "integrations": {
-                        "legend": "",
-                        "warning": "",
+                        "legend": "Integracions",
+                        "warning": "La mateixa reacció <strong>no es pot</strong> convertir alhora en un \"M'agrada\" <strong>i</strong> en un vot favorable",
                         "gamification": {
-                            "legend": "",
-                            "upvoteLabel": "",
-                            "upvoteHelptext": "",
-                            "downvoteLabel": "",
-                            "downvoteHelptext": ""
+                            "legend": "Gamificació",
+                            "upvoteLabel": "Convertir reaccions en vots favorables",
+                            "upvoteHelptext": "Entrar l'identificador de la reacció que vols convertir automàticament en un vot favorable",
+                            "downvoteLabel": "Convertir reaccions en vots desfavorables",
+                            "downvoteHelptext": "Entrar l'identificador de la reacció que vols convertir automàticament en un vot desfavorable"
                         },
                         "likes": {
-                            "legend": "",
-                            "Label": "",
-                            "Helptext": ""
+                            "legend": "M'agrada",
+                            "Label": "Convertir reaccions a \"M'agrada\"",
+                            "Helptext": "Entrar l'identificador de la reacció que vols convertir automàticament en un \"M'agrada\""
                         }
                     }
                 }

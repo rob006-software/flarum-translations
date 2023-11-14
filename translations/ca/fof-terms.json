@@ -2,72 +2,82 @@
     "fof-terms": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Configuració de les condicions d'ús",
                 "field": {
-                    "signup-legal-text": "",
-                    "hide-updated-at": "",
-                    "date-format": "",
-                    "date-format-help": ""
+                    "signup-legal-text": "Text addicional al formulari d'inscripció",
+                    "hide-updated-at": "No mostris la data d'actualització de les condicions d'ús quan hi hagi una actualització disponible",
+                    "date-format": "Format de data",
+                    "date-format-help": "Pots utilitzar qualsevol format vàlid de <a>Day.js</a>. Deixa el camp buit per defecte."
                 }
             },
             "titles": {
-                "policies": ""
+                "policies": "Polítiques"
             },
             "buttons": {
-                "new-policy": "",
-                "edit-policy": "",
-                "add-policy": "",
-                "save-policy": "",
-                "delete-policy": "",
-                "set-to-now": ""
+                "new-policy": "Nova política",
+                "edit-policy": "Editar política",
+                "add-policy": "Afegir política",
+                "save-policy": "Desar política",
+                "delete-policy": "Esborrar política",
+                "set-to-now": "Fixar al moment actual"
             },
             "messages": {
-                "delete-policy-confirmation": ""
+                "delete-policy-confirmation": "Aquest acció suprimirà permanentment la política {name} i les dates d'acceptació associades de la base de dades. Assegura't d'haver fet una còpia de seguretat d'aquestes dates si les necessiteu per motius legals. Estàs segur de que vols suprimir aquesta política?\n"
             },
             "policies": {
-                "name": "",
-                "name-help": "",
-                "url": "",
-                "url-help": "",
-                "update-message": "",
-                "update-message-help": "",
-                "terms-updated-at": "",
-                "terms-updated-at-placeholder": "",
-                "terms-updated-at-help": "",
-                "export-url": "",
-                "export-url-help": ""
+                "name": "Nom",
+                "name-help": "Aquest nom es mostrarà al costat de la casella de selecció i com a títol de la finestra modal d'actualització.",
+                "url": "Adreça web",
+                "url-help": "L'adreça web de la pàgina on pots llegir les condicions d'ús. S'obrirà en una nova pestanya quan hi facis clic.",
+                "update-message": "Missatge d'actualització",
+                "update-message-help": "Missatge a mostrar als usuaris actuals que no hagin acceptat encara les darreres condicions d'ús.",
+                "terms-updated-at": "Actualitzades el",
+                "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
+                "terms-updated-at-help": "La data de l'última actualització de condicions d'ús. Per establir aquest valor, caldrà que tots els usuaris que hagin acceptat abans d'aquesta data, les tornin a acceptar. Ha de ser en el passat (en cas contrari, els usuaris mai podrien acceptar després de la data i, per tant, no podran superar amb èxit la finestra modal).\n",
+                "export-url": "Exportar adreça web",
+                "export-url-help": "Qualsevol usuari amb permís \"Exporta totes les dades de les polítiques\" pot accedir a aquestes adreces web per baixar la llista d'usuaris que han acceptat aquesta política. Pots trobar més detalls sobre les opcions disponibles al <a>wiki de l'extensió</a>.\n"
             },
             "permissions": {
-                "see-user-policies-state": "",
-                "postpone-policies-accept": "",
-                "export-policies": ""
+                "see-user-policies-state": "Veure l'estat de les polítiques d'usuari",
+                "postpone-policies-accept": "Pot posposar l'acceptació de les noves condicions d'ús",
+                "export-policies": "Exportar totes les dades d'usuaris i polítiques"
             }
         },
         "forum": {
             "signup": {
-                "i-accept": "",
-                "must-accept": ""
+                "i-accept": "Accepto la <a>{policy}</a>",
+                "must-accept": "La {policy} ha de ser acceptada."
             },
             "accept-modal": {
-                "title": "",
-                "updated-at": "",
-                "updated-recently": "",
-                "i-accept": "",
-                "accept": "",
-                "close": ""
+                "title": "Actualització de les condicions d'ús",
+                "updated-at": "Les condicions d'ús han estat actualitzades amb data {date}",
+                "updated-recently": "Les condicions d'ús han estat actualitzades des de la teva darrera visita",
+                "i-accept": "Accepto la nova <a>{policy}</a>",
+                "accept": "Confirmar",
+                "close": "Gràcies per acceptar. Ara pots tornar al fòrum"
             },
             "state-modal": {
-                "title": "",
-                "accepted-at": "",
-                "not-accepted": ""
+                "title": "Estat d'acceptació de les condicions d'ús per part de l'usuari {username}",
+                "accepted-at": "Acceptades amb data {date}",
+                "not-accepted": "No acceptades"
             },
             "update-alert": {
-                "must-accept-message": "",
-                "can-accept-message": "",
-                "review": ""
+                "must-accept-message": "Hem restringit temporalment l'accés al teu compte mentre consultes les noves condicions d'ús.",
+                "can-accept-message": "Hem actualitzat recentment les condicions d'ús. Cal que les acceptis altre cop per poder seguir utilitzant el fòrum.",
+                "review": "Fes clic aquí per revisar i acceptar les noves condicions d'ús"
             },
             "user_controls": {
-                "state_button": ""
+                "state_button": "Estat d'acceptació de les condicions d'ús"
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "userpolicydata": {
+                    "export_description": "",
+                    "delete_description": ""
+                }
             }
         }
     }

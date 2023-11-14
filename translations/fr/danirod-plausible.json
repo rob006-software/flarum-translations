@@ -3,29 +3,29 @@
         "admin": {
             "validation": {
                 "domain": {
-                    "required": "",
-                    "regex": ""
+                    "required": "Un domaine doit être attribué",
+                    "regex": "Le domaine indiqué n'est pas valide"
                 },
                 "proxy_domain": {
-                    "regex": ""
+                    "regex": "Le domaine du proxy indiqué n'est pas valide"
                 }
             },
             "settings": {
                 "enable": {
-                    "label": "",
-                    "help": ""
+                    "label": "Activé",
+                    "help": "Activez cette option pour inclure le code de suivi."
                 },
                 "domain": {
-                    "label": "",
-                    "help": ""
+                    "label": "Domaine",
+                    "help": "Le domaine à utiliser lors de l'envoi des statistiques."
                 },
                 "proxy_domain": {
-                    "label": "",
-                    "help": ""
+                    "label": "Domaine du proxy",
+                    "help": "Où servir le code JS. Laissez ce champ vide pour utiliser plausible.io. Cela permet d'empêcher les bloqueurs de publicité de supprimer le code de suivi. Consultez la documentation de Plausible pour plus d'informations."
                 },
                 "exclude_admin": {
-                    "label": "",
-                    "help": ""
+                    "label": "Exclure les administrateurs",
+                    "help": "Empêche les vues des administrateurs de compter dans le suivi s'ils sont connectés."
                 }
             }
         }

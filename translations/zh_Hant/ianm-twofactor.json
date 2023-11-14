@@ -44,7 +44,7 @@
                 "backup_codes": "您的備份代碼",
                 "backup_codes_instruction": "請將這些代碼保存在安全的地方。 如果您丟失主要身份驗證方法，它們可用於訪問您的帳戶。 它們將不會再次顯示。",
                 "saved_backup_codes_button": "我已經保存了這些代碼",
-                "backup_codes_remaining": "",
+                "backup_codes_remaining": "剩餘備份代碼：",
                 "two_factor_enabled_confirmation": "您的帳戶已成功啟用兩步驟驗證 。",
                 "ok_button": "Ok",
                 "confirm_disable_2fa_title": "確認禁用兩步驟驗證",
@@ -70,8 +70,8 @@
                 "status_changed": "您好{recipient_display_name}，\n\n您在 {forum_url} 上的帳戶已採用{type}雙因素身份驗證。\n\n如果您發起了此操作，則無需採取進一步的步驟。 如果您未授權此更改，請立即聯繫論壇管理員。\n"
             },
             "status_type": {
-                "enabled": "",
-                "disabled": ""
+                "enabled": "啟用",
+                "disabled": "禁用"
             }
         },
         "views": {
@@ -80,6 +80,16 @@
             },
             "two_factor_token": {
                 "submit_button": "提交令牌"
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "twofactordata": {
+                    "export_description": "",
+                    "delete_description": ""
+                }
             }
         }
     }

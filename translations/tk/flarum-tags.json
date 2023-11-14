@@ -2,101 +2,101 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": ""
+                "tags_label": "=> flarum-tags.ref.tags"
             },
             "edit_tag": {
-                "color_label": "",
-                "delete_tag_button": "",
-                "delete_tag_confirmation": "",
-                "description_label": "",
-                "hide_label": "",
-                "icon_label": "",
-                "icon_text": "",
-                "name_label": "",
-                "name_placeholder": "",
-                "slug_label": "",
-                "submit_button": "",
-                "title": ""
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Kategoriýany Poz",
+                "delete_tag_confirmation": "Şu kategoriýany pozmaga ynamlymysyňyz? Kategoriýanyň gürrüňleri POZULMAZ.",
+                "description_label": "Mazmuny",
+                "hide_label": "Ähli Gürrüň sahypalardan gizle",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Gysga salgy",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Kategoriýa döret"
             },
             "nav": {
-                "tags_button": "",
-                "tags_text": ""
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Gürrüňleri tertiplemek üçin bar bolan kategoriýalaryň sanawyny dolandyr."
             },
             "permissions": {
-                "allow_edit_tags_label": "",
-                "bypass_tag_counts_label": "",
-                "restrict_by_tag_heading": "",
-                "tag_discussions_label": ""
+                "allow_edit_tags_label": "Kategoriýany üýtgetmäge rugsat ber",
+                "bypass_tag_counts_label": "Kategoriýa talabyny ignor etmek",
+                "restrict_by_tag_heading": "Kategoriýa boýunça çäklendir",
+                "tag_discussions_label": "Gürrüňiň kategoriýasyny üýtget"
             },
             "settings": {
-                "button_text": ""
+                "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
-                "range_separator_text": "",
-                "required_primary_heading": "",
-                "required_primary_text": "",
-                "required_secondary_heading": "",
-                "required_secondary_text": "",
-                "title": ""
+                "range_separator_text": " - ",
+                "required_primary_heading": "Esasy Kategoriýalaryň Sany",
+                "required_primary_text": "Gürrüňe baglap boljak esasy kategoriýalaryň minimum we maksimum mukdaryny giriz.",
+                "required_secondary_heading": "Ikilenji Kategoriýalaryň hökmany Sany",
+                "required_secondary_text": "Gürrüňe baglap boljak ikilenji kategoriýalaryň minimum we maksimum mukdaryny giriz.",
+                "title": "Kategoriýa Sazlamalary"
             },
             "tags": {
-                "about_tags_text": "",
-                "create_primary_tag_button": "",
-                "create_secondary_tag_button": "",
-                "primary_heading": "",
-                "secondary_heading": "",
-                "settings_heading": ""
+                "about_tags_text": "Kategoriýalar gürrüňleri toparlamak üçin ulanylýar. Esasy kategoriýalar adaty forum kategoriýalary ýaly: olar iki-derejeli iýerarhiýa düzülip bilerler. Ikilenji kategoriýalaryň tertibi ýa-da iýerarhiýasy ýok, we olar mikro-kategoriýalaşdyrmak üçin amatly.",
+                "create_primary_tag_button": "Esasy Kategoriýa Döret",
+                "create_secondary_tag_button": "Ikilenji Kategoriýa Döret",
+                "primary_heading": "Esasy Kategoriýalar",
+                "secondary_heading": "Ikilenji Kategoriýalar",
+                "settings_heading": "Sazlamalar"
             }
         },
         "forum": {
             "all_tags": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Ähli Kategoriýalar",
+                "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "edit_title": "",
-                "title": ""
+                "edit_title": "{title} üçin Kategoriýany Üýtget",
+                "title": "Gürrüňiňiz üçin Kategoriýa Saýlaň"
             },
             "composer_discussion": {
-                "choose_tags_link": ""
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
-                "edit_tags_button": ""
+                "edit_tags_button": "Kategoriýa Üýtget"
             },
             "header": {
-                "back_to_tags_tooltip": ""
+                "back_to_tags_tooltip": "Kategoriýa Sanawyna Dolan"
             },
             "index": {
-                "more_link": "",
-                "tags_link": "",
-                "untagged_link": ""
+                "more_link": "Has köp...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Kategoriýasyz"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "",
-                "added_tags_text": "",
-                "removed_tags_text": "",
-                "tags_text": ""
+                "added_and_removed_tags_text": "{username} {time} wagtda {tagsAdded} goşdy we {tagsRemoved} aýyrdy.",
+                "added_tags_text": "{username} {time} wagtda {tagsAdded} goşdy.",
+                "removed_tags_text": "{username} {time} wagtda {tagsRemoved} aýyrdy.",
+                "tags_text": "{count, plural, one {{tags} kategoriýa} other {{tags} kategoriýalar}}"
             },
             "tag": {
-                "meta_description_text": ""
+                "meta_description_text": "{tag} kategoriýaly ähli gürrüňler"
             }
         },
         "lib": {
-            "deleted_tag_text": "",
+            "deleted_tag_text": "Pozulan",
             "tag_selection_modal": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "bypass_requirements": "Kategoriýa talabyny ignor etmek",
+                "choose_primary_placeholder": "{count, plural, one {Esasy kategoriýa saýla} other {# esasy kategoriýalary saýla}}",
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
             }
         },
         "ref": {
-            "choose_tags": "",
-            "choose_tags_placeholder": "",
-            "name": "",
-            "tags": ""
+            "choose_tags": "Kategoriýalary Saýla",
+            "choose_tags_placeholder": "{count, plural, one {Ýene 1 kategoriýa saýla} other {Ýene # kategoriýa saýla}}",
+            "name": "Ady",
+            "tags": "Kategoriýalar"
         }
     }
 }

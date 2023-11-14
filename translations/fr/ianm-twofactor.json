@@ -44,7 +44,7 @@
                 "backup_codes": "Vos codes de sauvegarde",
                 "backup_codes_instruction": "Veuillez conserver ces codes dans un endroit sûr. Ils peuvent être utilisés pour accéder à votre compte si vous perdez votre méthode d'authentification principale. Ils ne seront plus affichés.",
                 "saved_backup_codes_button": "J'ai sauvegardé ces codes",
-                "backup_codes_remaining": "",
+                "backup_codes_remaining": "Codes de sauvegarde restants :",
                 "two_factor_enabled_confirmation": "L'authentification à deux facteurs a été activée avec succès pour votre compte.",
                 "ok_button": "Valider",
                 "confirm_disable_2fa_title": "Confirmer la désactivation de l'authentification à deux facteurs",
@@ -70,8 +70,8 @@
                 "status_changed": "Bonjour {recipient_display_name},\n\nL'authentification à deux facteurs a été {type} pour votre compte sur {forum_url}.\n\nSi vous êtes à l'origine de cette action, aucune autre démarche n'est nécessaire. Si vous n'avez pas autorisé cette modification, veuillez contacter immédiatement les administrateurs du forum.\n"
             },
             "status_type": {
-                "enabled": "",
-                "disabled": ""
+                "enabled": "activé",
+                "disabled": "désactivé"
             }
         },
         "views": {
@@ -80,6 +80,16 @@
             },
             "two_factor_token": {
                 "submit_button": "Envoyer le jeton"
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "twofactordata": {
+                    "export_description": "",
+                    "delete_description": ""
+                }
             }
         }
     }
