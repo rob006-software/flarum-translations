@@ -171,6 +171,7 @@ return [
 	'zh_Hans' => getComponents([
 		// translations included in extension
 		'!gbcl-userip',
+		'!imdong-spam-alert',
 		'!vlssu-cravatar',
 		'!widayn-avatar-cropper',
 		'!ziiven-fireworks',
