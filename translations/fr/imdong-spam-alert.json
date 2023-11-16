@@ -2,28 +2,28 @@
     "imdong-spam-alert": {
         "admin": {
             "permissions": {
-                "set-spam": "",
-                "see-spam-info": ""
+                "set-spam": "Définir comme indésirable",
+                "see-spam-info": "Voir les informations sur le message indésirable"
             },
             "settings": {
-                "btn-name": "",
-                "btn-name-help": "",
-                "to-folding-number": "",
-                "to-folding-number-help": ""
+                "btn-name": "Indésirable",
+                "btn-name-help": "Le nom de ce bouton affiché à l'utilisateur est « Indésirable » par défaut.",
+                "to-folding-number": "Seuil de détection automatique",
+                "to-folding-number-help": "Masque automatiquement le contenu lorsqu'il est marqué par un certain nombre d'utilisateurs. Réglez cette option sur 0 pour ne pas masquer automatiquement le contenu"
             }
         },
         "forum": {
             "post": {
-                "btn-set-spam": "",
-                "btn-unset-spam": "",
-                "spam-hide-tips": ""
+                "btn-set-spam": "Définir comme indésirable",
+                "btn-unset-spam": "Ne plus définir comme indésirable",
+                "spam-hide-tips": "Le message indésirable est caché"
             },
             "notification": {
-                "content": "",
-                "excerpt": ""
+                "content": "Réponse masquée pour avoir été signalée comme indésirable à plusieurs reprises",
+                "excerpt": "Veuillez respecter les conditions d'utilisation car les messages marqués comme indésirables à plusieurs reprises peuvent faire l'objet d'une sanction."
             },
             "settings": {
-                "notify_post_spam_hide_label": ""
+                "notify_post_spam_hide_label": "La corbeille est cachée en raison de l'étiquette"
             }
         }
     }
