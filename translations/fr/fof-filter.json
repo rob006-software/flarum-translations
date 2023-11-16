@@ -20,7 +20,7 @@
                 "switch": {
                     "email": "Envoyer un courriel à l'utilisateur lorsque le message est filtré",
                     "merge": "Fusionner automatiquement les messages en double",
-                    "delete": ""
+                    "delete": "Suppression automatique des messages filtrés"
                 },
                 "email_subject": "Sujet",
                 "email_body": "Corps"
@@ -34,7 +34,7 @@
             },
             "email": {
                 "default_subject": "Concernant votre message récent",
-                "default_text": "Merci pour votre publication ! Malheureusement, votre message a été supprimé car il contenait quelque chose que nous ne voulons pas voir sur nos forums.\n\nSi vous pensez qu'il s'agit d'une erreur, vous avez de la chance, chaque message supprimé est examiné par nos modérateurs. S'ils constatent que ce message a été supprimé à tort, ils le rétabliront.                \n\nMerci de votre compréhension."
+                "default_text": "Merci pour votre publication ! Malheureusement, votre message a été supprimé car il contenait quelque chose que nous ne voulons pas voir sur nos forums.\n\nSi vous pensez qu'il s'agit d'une erreur, vous avez de la chance, chaque message supprimé est examiné par nos modérateurs. S'ils constatent que ce message a été supprimé à tort, ils le rétabliront.\n\nMerci de votre compréhension.\n"
             }
         }
     }
