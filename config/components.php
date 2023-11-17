@@ -758,7 +758,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/ianm-translate.yml',
 	],
 	'ianm-twofactor' => [
-		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-twofactor/1.0.10/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-twofactor/1.0.11/locale/en.yml',
 	],
 	'imdong-spam-alert' => [
 		'tag' => 'https://raw.githubusercontent.com/imdong/flarum-ext-spam-alert/v0.0.1/locale/en.yml',
