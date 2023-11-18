@@ -2,28 +2,28 @@
     "imdong-spam-alert": {
         "admin": {
             "permissions": {
-                "set-spam": "",
-                "see-spam-info": ""
+                "set-spam": "встановити Спам",
+                "see-spam-info": "Інформація про спам"
             },
             "settings": {
-                "btn-name": "",
-                "btn-name-help": "",
-                "to-folding-number": "",
-                "to-folding-number-help": ""
+                "btn-name": "Спам",
+                "btn-name-help": "За налаштуванням ця кнопка називається «Спам».",
+                "to-folding-number": "Автоматичний поріг складання",
+                "to-folding-number-help": "Автоматично згортати прихований вміст, коли його позначено кількістю людей, встановіть 0, щоб не згортати автоматично"
             }
         },
         "forum": {
             "post": {
-                "btn-set-spam": "",
-                "btn-unset-spam": "",
-                "spam-hide-tips": ""
+                "btn-set-spam": "Встановити спам",
+                "btn-unset-spam": "Вимкнути спам",
+                "spam-hide-tips": "Спам приховано"
             },
             "notification": {
-                "content": "",
-                "excerpt": ""
+                "content": "Відповідь згорнуто через те, що її було позначено як сміття декілька разів",
+                "excerpt": "Будь ласка, дотримуйтесь правил, наприклад, повторне маркування сміття може призвести до систематичних покарань."
             },
             "settings": {
-                "notify_post_spam_hide_label": ""
+                "notify_post_spam_hide_label": "Сміття приховано завдяки мітці"
             }
         }
     }
