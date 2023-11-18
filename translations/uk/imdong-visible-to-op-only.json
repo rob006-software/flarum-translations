@@ -2,19 +2,19 @@
     "imdong-visible-to-op-only": {
         "admin": {
             "permissions": {
-                "view-post": "",
-                "view-hide-post": ""
+                "view-post": "Переглянути допис",
+                "view-hide-post": "Переглянути прихований вміст"
             },
             "settings": {
-                "allow-view-sticky": "",
-                "allow-view-sticky-text": ""
+                "allow-view-sticky": "Дозволити перегляд прикоіпленого",
+                "allow-view-sticky-text": "Під міткою, яка забороняє перегляд відповіді, ви також можете переглянути вміст відповіді, розміщеної зверху, для цього потрібно використовувати плагін Stickiest & Sticky (незначний)"
             }
         },
         "forum": {
-            "button_tooltip_only_op_see": "",
-            "hidden_content_only_op_see": "",
-            "only_op_see": "",
-            "editor_empty_tips": ""
+            "button_tooltip_only_op_see": "Тільки оператор бачить",
+            "hidden_content_only_op_see": "Цей вміст бачить лише оператор",
+            "only_op_see": "Тільки оператор бачить",
+            "editor_empty_tips": "Код [OP][/OP] порожній посередині"
         }
     }
 }
