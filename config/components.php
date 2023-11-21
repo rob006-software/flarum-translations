@@ -535,6 +535,9 @@ return [
 	'fof-byobu' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/1.3.4/resources/locale/en.yml',
 	],
+	'fof-clockwork' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/clockwork/1.0.4/resources/locale/en.yml',
+	],
 	'fof-cookie-consent' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/cookie-consent/1.1.2/resources/locale/en.yml',
 	],
