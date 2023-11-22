@@ -7,12 +7,12 @@
                 "only_icons_label": "Yalnızca Oturum Aç Düğmesi simgelerini göster (alternatif düzen)",
                 "update_email_from_provider_label": "Sağlayıcıdan gelen e-posta adresini güncelle",
                 "update_email_from_provider_help": "Etkinleştirilirse, kullanıcının e-posta adresi, foruma her girişte OAuth sağlayıcısı tarafından sağlanan adresle eşleşecek şekilde güncellenecektir. Tüm sağlayıcılar güncel e-postayı sağlamaz; bu durumda bu ayarın bu sağlayıcılar üzerinde herhangi bir etkisi olmaz.",
-                "fullscreen_popup_label": "",
-                "fullscreen_popup_help": "",
-                "popup_width_label": "",
-                "popup_width_help": "",
-                "popup_height_label": "",
-                "popup_height_help": "",
+                "fullscreen_popup_label": "OAuth için Tam Ekran Açılır Penceresini Kullan",
+                "fullscreen_popup_help": "Etkinleştirildiğinde, OAuth girişi tam ekran bir açılır pencerede açılacaktır. Bu etkinleştirilirse genişlik ve yükseklik ayarları dikkate alınmaz.",
+                "popup_width_label": "OAuth Açılır Pencere Genişliği",
+                "popup_width_help": "OAuth açılır penceresinin genişliğini ayarlayın. \"OAuth için Tam Ekran Açılır Penceresini Kullan\" seçeneği etkinleştirilirse bu ayar göz ardı edilecektir.",
+                "popup_height_label": "OAuth Açılır Pencere Yüksekliği",
+                "popup_height_help": "OAuth açılır penceresinin yüksekliğini ayarlayın. \"OAuth için Tam Ekran Açılır Penceresini Kullan\" seçeneği etkinleştirilirse bu ayar göz ardı edilecektir.",
                 "providers": {
                     "callback_url_text": "Gerekirse, geri arama bağlantısını {url} olarak ayarlayın.",
                     "discord": {
