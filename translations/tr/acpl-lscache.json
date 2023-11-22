@@ -13,7 +13,7 @@
             "cache_exclude_label": "Dizinleri Önbelleğe Almadan Hariç Tut",
             "cache_exclude_help": "Bu dizeleri içeren yollar önbelleğe alınmaz. <code>/mypath/mypage?aa=bb</code> için <code>mypage?aa=</code> kullanabilirsiniz. Başlangıcı eşleştirmek için başlangıca <code>^</code> ekleyin. Tam eşleşme için URL'nin sonuna <code>$</code> ekleyin. Her satıra bir tane.",
             "drop_qs_label": "Sorgu Dizelerini Bırak",
-            "drop_qs_help": "Önbelleğe alırken <code>fbclid</code> veya <code>utm*</code> gibi belirli sorgu dizelerini bırakmak için bu özelliği kullanın. Bu, izleme için kullanılan ancak sayfa içeriğini etkilemeyen UTM kodları gibi \"önemsiz\" sorgu dizelerine sahip sayfaların gereksiz önbelleğe alınmasını önler. Bu, LSWS v5.2.3 veya daha yenisini gerektirir. Her satıra bir tane düşecek sorgu dizelerini listeleyin. <a>Sorgu dizelerini bırakma hakkında daha fazla bilgi edinin</a>.<br></br> ⚠️ Bu ayar, .htaccess dosyasını değiştirir.\n",
+            "drop_qs_help": "Önbelleğe alırken <code>fbclid</code> veya <code>utm*</code> gibi belirli sorgu dizelerini bırakmak için bu özelliği kullanın. Bu, izleme için kullanılan ancak sayfa içeriğini etkilemeyen UTM kodları gibi \"önemsiz\" sorgu dizelerine sahip sayfaların gereksiz önbelleğe alınmasını önler. Bu, LSWS v5.2.3 veya daha yenisini gerektirir. Her satıra bir tane düşecek sorgu dizelerini listeleyin. <a>Sorgu dizelerini bırakma hakkında daha fazla bilgi edinin</a>.<br></br> \n⚠️ Bu ayar, .htaccess dosyasını değiştirir.\n",
             "purge_all": "Tüm LSCache'i Temizle",
             "purge_all_success": "LiteSpeed Web Sunucusuna tüm LSCache girişlerini temizlemesi bildirildi"
         }
