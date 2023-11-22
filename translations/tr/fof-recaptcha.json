@@ -16,8 +16,8 @@
                 "help_text": "Bu test yukarıda girilen mevcut değerleri kullanacaktır. Ayarları değiştirdikten sonra testi yeniden yüklediğinizden emin olun ve test geçtikten sonra kaydetmeyi unutmayın!\nAşağıdakiler kaydedilen ayarları yansıtmayabilir.\n",
                 "success_message": "Başarılı! reCAPTCHA doğru şekilde yapılandırıldı.",
                 "load_test_button": "Yükle",
-                "submit_button": "",
-                "reload_button": ""
+                "submit_button": "Gönder",
+                "reload_button": "Yeniden Yükle"
             },
             "permissions": {
                 "post_without_captcha": "Captcha olmadan gönderi ve tartışmalar oluşturun"
@@ -29,6 +29,6 @@
     },
     "validation": {
         "recaptcha": "reCAPTCHA doğrulaması başarısız.",
-        "recaptcha-unknown": ""
+        "recaptcha-unknown": "reCAPTCHA doğrulanırken bilinmeyen bir hata oluştu ({errors})."
     }
 }
