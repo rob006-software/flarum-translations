@@ -1010,6 +1010,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`glowingblue-password-strength`](https://weblate.rob006.net/projects/flarum/glowingblue-password-strength) | [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) |
 | [`glowingblue-redis-setup`](https://weblate.rob006.net/projects/flarum/glowingblue-redis-setup) | [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup) |
 | [`hehongyuanlove-auth-qq`](https://weblate.rob006.net/projects/flarum/hehongyuanlove-auth-qq) | [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq) |
+| [`hikarilan-passkey-login`](https://weblate.rob006.net/projects/flarum/hikarilan-passkey-login) | [`hikarilan/flarum-passkey-login`](https://github.com/shaokeyibb/flarum-passkey-login) |
 | [`ianm-follow-users`](https://weblate.rob006.net/projects/flarum/ianm-follow-users) | [`ianm/follow-users`](https://github.com/imorland/follow-users) |
 | [`ianm-gravatar`](https://weblate.rob006.net/projects/flarum/ianm-gravatar) | [`ianm/gravatar`](https://github.com/imorland/gravatar) |
 | [`ianm-html-head`](https://weblate.rob006.net/projects/flarum/ianm-html-head) | [`ianm/html-head`](https://github.com/imorland/html-head) |
