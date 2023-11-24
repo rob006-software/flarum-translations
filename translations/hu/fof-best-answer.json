@@ -7,6 +7,7 @@
             },
             "settings": {
                 "label": {
+                    "tags": "",
                     "general": "Általános",
                     "reminders": "Emlékeztetők",
                     "advanced": "Speciális",
@@ -14,8 +15,6 @@
                 },
                 "allow_select_own_post": "Saját bejegyzés kiválasztása",
                 "allow_select_own_post_help": "Engedélyezés, hogy az eredeti szerző a saját bejegyzését válassza legjobb válaszként",
-                "enable_all_tags_button": "A legjobb válasz bekapcsolása az összes címkénél",
-                "enable_all_tags_reminder_button": "A legjobb válasz emlékeztető bekapcsolása az összes címkénél",
                 "show_max_lines_label": "Bejegyzés-előnézetekben megjelenítendő sorok legnagyobb száma",
                 "show_max_lines_help": "Állítsa 0-ra a kikapcsoláshoz. Ha egy bejegyzés hosszabb mint a beállított sorok száma, akkor a bejegyzés előnézete le lesz rövidítve egy elhalványítási hatással.",
                 "select_best_answer_reminder_days": "Emlékeztető gyakorisága",
@@ -32,6 +31,13 @@
                 "use_alt_ui": "Alternatív elrendezés",
                 "use_alt_ui_help": "A legjobb válasz gombok a bejegyzés láblécében",
                 "documentation": "Dokumentáció",
+                "enabled_tags_label": "",
+                "enabled_tags_help": "",
+                "remind_tags_label": "",
+                "remind_tags_help": "",
+                "tags_info": "",
+                "enable_all_tags_button": "A legjobb válasz bekapcsolása az összes címkénél",
+                "enable_all_tags_reminder_button": "A legjobb válasz emlékeztető bekapcsolása az összes címkénél",
                 "introduction": "Állítsa be a <code><a>flarum/tags</a></code> lapon, hogy mely címkék támogassák a legjobb válaszokat, és mely címkék támogassák az emlékeztetőket. Ha egy címkénél engedélyezettek a legjobb válaszok, akkor állítson be engedélyeket, hogy mely felhasználói csoportok állíthassák be a válaszokat (saját téma, bármely téma). A jogosultságok megadhatók globálisan (bármely olyan címkénél, amely engedélyezi a legjobb választ), vagy címkénként.\n",
                 "remind_tag_ids": "Ha bizonyos címkékre szeretnéd korlátozni az emlékeztetőket, írd be a címkéket (vesszővel elválasztva)"
             },

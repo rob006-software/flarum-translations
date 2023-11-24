@@ -7,6 +7,7 @@
             },
             "settings": {
                 "label": {
+                    "tags": "",
                     "general": "Allgemein",
                     "reminders": "Erinnerungen",
                     "advanced": "Erweitert",
@@ -14,8 +15,6 @@
                 },
                 "allow_select_own_post": "Eigenen Beitrag auswählen",
                 "allow_select_own_post_help": "Erlaube dem OP, einen seiner eigenen Beiträge in der Diskussion als beste Antwort auszuwählen",
-                "enable_all_tags_button": "Alle Tags für beste Antworten aktivieren",
-                "enable_all_tags_reminder_button": "Alle Tags für Erinnerungen für die beste Antwort aktivieren",
                 "show_max_lines_label": "Maximal anzuzeigende Zeilen in der Postvorschau",
                 "show_max_lines_help": "Zum Deaktivieren auf 0 festlegen. Wenn ein Beitrag länger als die konfigurierte Anzahl von Zeilen ist, wird er in der Beitragsvorschau mit einem Ausblendeffekt abgeschnitten.",
                 "select_best_answer_reminder_days": "Erinnerungshäufigkeit",
@@ -32,6 +31,13 @@
                 "use_alt_ui": "Alternatives Layout",
                 "use_alt_ui_help": "Beste Antwortsteuerelemente in der Fußzeile des Beitrags",
                 "documentation": "Dokumentation",
+                "enabled_tags_label": "",
+                "enabled_tags_help": "",
+                "remind_tags_label": "",
+                "remind_tags_help": "",
+                "tags_info": "",
+                "enable_all_tags_button": "Alle Tags für beste Antworten aktivieren",
+                "enable_all_tags_reminder_button": "Alle Tags für Erinnerungen für die beste Antwort aktivieren",
                 "introduction": "Aktiviere in <code><a>flarum/tags</a></code>, welche Tags Beste Antworten unterstützen sollen, und optional welche Tags Erinnerungen unterstützen sollen. Wenn für ein Tag Beste Antwort aktiviert ist, weise jeder Benutzergruppe, die Antworten festlegen kann (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für alle Best-Antwort-anabled-Tags) oder pro Tag zugewiesen werden.\n",
                 "remind_tag_ids": "Um Erinnerungen auf bestimmte Themen zu beschränken, gebe die ID's der Themen hier ein (kommagetrennt)"
             },

@@ -7,6 +7,7 @@
             },
             "settings": {
                 "label": {
+                    "tags": "",
                     "general": "Γενικά",
                     "reminders": "Υπενθυμίσεις",
                     "advanced": "Προχωρημένο",
@@ -14,8 +15,6 @@
                 },
                 "allow_select_own_post": "Επιτρέψτε στους χρήστες να επιλέγουν τις δικές τους δημοσιεύσεις",
                 "allow_select_own_post_help": "",
-                "enable_all_tags_button": "",
-                "enable_all_tags_reminder_button": "",
                 "show_max_lines_label": "",
                 "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "Υπενθυμίστε στους χρήστες να επιλέξουν την καλύτερη απάντηση μετά από X ημέρες",
@@ -32,7 +31,11 @@
                 "use_alt_ui": "Χρησιμοποιήστε εναλλακτική διάταξη (κουμπιά καλύτερων απαντήσεων στο υποσέλιδο)",
                 "use_alt_ui_help": "",
                 "documentation": "",
-                "introduction": ""
+                "enabled_tags_label": "",
+                "enabled_tags_help": "",
+                "remind_tags_label": "",
+                "remind_tags_help": "",
+                "tags_info": ""
             },
             "edit_tag": {
                 "qna_label": "",

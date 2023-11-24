@@ -7,6 +7,7 @@
             },
             "settings": {
                 "label": {
+                    "tags": "",
                     "general": "基本設定",
                     "reminders": "リマインダー",
                     "advanced": "詳細設定",
@@ -14,8 +15,6 @@
                 },
                 "allow_select_own_post": "ユーザーが自分自身の投稿を選ぶことを許可する",
                 "allow_select_own_post_help": "OPが自分の投稿をベストアンサーとして選択できるようにする",
-                "enable_all_tags_button": "ベストアンサーを全てのタグで有効にする",
-                "enable_all_tags_reminder_button": "ベストアンサーリマインダーを全てのタグで有効にする",
                 "show_max_lines_label": "",
                 "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "ベストアンサーを選ぶように、X日後に通知する",
@@ -32,7 +31,13 @@
                 "use_alt_ui": "代替レイアウトを使用する (投稿画面のフッターにボタンを置く)",
                 "use_alt_ui_help": "投稿フッターでベストアンサーのコントロール",
                 "documentation": "ドキュメント",
-                "introduction": ""
+                "enabled_tags_label": "",
+                "enabled_tags_help": "",
+                "remind_tags_label": "",
+                "remind_tags_help": "",
+                "tags_info": "",
+                "enable_all_tags_button": "ベストアンサーを全てのタグで有効にする",
+                "enable_all_tags_reminder_button": "ベストアンサーリマインダーを全てのタグで有効にする"
             },
             "edit_tag": {
                 "qna_label": "このタグでベストアンサーを有効にする",

@@ -7,6 +7,7 @@
             },
             "settings": {
                 "label": {
+                    "tags": "",
                     "general": "Algemeen",
                     "reminders": "Herinneringen",
                     "advanced": "Geavanceerd",
@@ -14,8 +15,6 @@
                 },
                 "allow_select_own_post": "Selecteer je eigen bericht",
                 "allow_select_own_post_help": "Sta toe dat de OP uit zijn eigen berichten het beste antwoord kan kiezen",
-                "enable_all_tags_button": "Beste antwoorden op alle tags inschakelen",
-                "enable_all_tags_reminder_button": "Herinneringen voor beste antwoorden op alle tags inschakelen",
                 "show_max_lines_label": "",
                 "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "Herinneringsfrequentie",
@@ -32,6 +31,13 @@
                 "use_alt_ui": "Alternatieve weergave",
                 "use_alt_ui_help": "Beste Antwoord knoppen toevoegen onderaan de post",
                 "documentation": "Documentatie",
+                "enabled_tags_label": "",
+                "enabled_tags_help": "",
+                "remind_tags_label": "",
+                "remind_tags_help": "",
+                "tags_info": "",
+                "enable_all_tags_button": "Beste antwoorden op alle tags inschakelen",
+                "enable_all_tags_reminder_button": "Herinneringen voor beste antwoorden op alle tags inschakelen",
                 "introduction": "Schakel in welke tags de beste antwoorden in <code><a>flarum/tags</a></code> moeten ondersteunen, en optioneel welke tag(s) herinneringen moeten ondersteunen. Wanneer een tag is ingeschakeld voor Beste antwoord, wijst u machtigingen toe aan elke gebruikersgroep die antwoorden mag instellen (eigen discussie, elke discussie). Machtigingen kunnen globaal worden toegewezen (voor elke tag die voor het beste antwoord is ingeschakeld), of per tag.\n"
             },
             "edit_tag": {

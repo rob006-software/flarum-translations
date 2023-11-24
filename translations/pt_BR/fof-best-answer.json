@@ -7,6 +7,7 @@
             },
             "settings": {
                 "label": {
+                    "tags": "",
                     "general": "Geral",
                     "reminders": "Lembretes",
                     "advanced": "Avançado",
@@ -14,8 +15,6 @@
                 },
                 "allow_select_own_post": "Selecione a própria postagem",
                 "allow_select_own_post_help": "Permita que o autor selecione uma de suas próprias postagens na discussão como a melhor resposta",
-                "enable_all_tags_button": "Ativar todas as tags para Melhores Respostas",
-                "enable_all_tags_reminder_button": "Habilitar todas as tags para lembretes de Melhor Resposta",
                 "show_max_lines_label": "",
                 "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "Frequência do lembrete",
@@ -32,6 +31,13 @@
                 "use_alt_ui": "Layout alternativo",
                 "use_alt_ui_help": "Controle de Melhor Resposta no rodapé da postagem",
                 "documentation": "Documentação",
+                "enabled_tags_label": "",
+                "enabled_tags_help": "",
+                "remind_tags_label": "",
+                "remind_tags_help": "",
+                "tags_info": "",
+                "enable_all_tags_button": "Ativar todas as tags para Melhores Respostas",
+                "enable_all_tags_reminder_button": "Habilitar todas as tags para lembretes de Melhor Resposta",
                 "introduction": "Habilite quais tags devem suportar as Melhores Respostas em <code><a>flarum/tags</a></code> e, opcionalmente, quais tags devem suportar lembretes. Quando uma tag estiver habilitada como Melhor Resposta, atribua permissões a cada grupo de usuários que pode definir respostas (própria discussão, qualquer discussão). As permissões podem ser atribuídas globalmente (para qualquer tag habilitada como Melhor Resposta) ou por tag.\n"
             },
             "edit_tag": {

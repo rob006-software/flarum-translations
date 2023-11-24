@@ -7,6 +7,7 @@
             },
             "settings": {
                 "label": {
+                    "tags": "Best Answer Tags",
                     "general": "General",
                     "reminders": "Reminders",
                     "advanced": "Advanced",
@@ -14,8 +15,6 @@
                 },
                 "allow_select_own_post": "Select own post",
                 "allow_select_own_post_help": "Allow a user to select their own post as a best answer to a discussion",
-                "enable_all_tags_button": "Enable all tags for Best Answers",
-                "enable_all_tags_reminder_button": "Enable all tags for Best Answer reminders",
                 "show_max_lines_label": "Max lines to show in post preview",
                 "show_max_lines_help": "Set to 0 to disable. If a post is longer than the configured amount of lines, it will be truncated in the post preview with a fade out effect.",
                 "select_best_answer_reminder_days": "Reminder frequency",
@@ -32,7 +31,11 @@
                 "use_alt_ui": "Alternative layout",
                 "use_alt_ui_help": "Best answer controls in post footer",
                 "documentation": "Documentation",
-                "introduction": "Enable which tags are to support Best Answers in <code><a>flarum/tags</a></code>, and optionally which tag(s) should support reminders. When a tag is Best Answer enabled, assign permissions to each user group that may set answers (own discussion, any discussion). Permissions may be assigned globally (for any Best Answer anabled tag), or on a per tag basis.\n"
+                "enabled_tags_label": "Enabled Tags",
+                "enabled_tags_help": "Select which tags, if any, to enable Best Answers for. These tags will become \"Q&A\" formatted tags, and will have the ability to set Best Answers.",
+                "remind_tags_label": "Reminder Tags",
+                "remind_tags_help": "Select which tags, if any, to send reminders for. Reminders will only be sent for discussions with these tags.",
+                "tags_info": "When a tag is Best Answer enabled, assign permissions to each user group that may set answers (own discussion, any discussion). Permissions may be assigned globally (for any Best Answer anabled tag), or on a per tag basis.\n"
             },
             "edit_tag": {
                 "qna_label": "Enable Best Answers to be set in this tag",
@@ -81,7 +84,7 @@
             "subject": {
                 "awarded": "Your post was set as the best answer by {display_name}",
                 "ba-set": "A best answer was set by {display_name}",
-                "select": "Did you manage get your question answered?"
+                "select": "Did you manage to get your question answered?"
             },
             "body": {
                 "awarded": "Hey {recipient_display_name},\n\nGreat job, {actor_display_name} just set your post as the best answer in the discussion: {discussion_title}. Thanks for helping out.\n\nView it here: {discussion_url}\n",

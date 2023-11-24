@@ -7,6 +7,7 @@
             },
             "settings": {
                 "label": {
+                    "tags": "",
                     "general": "Général",
                     "reminders": "Rappels",
                     "advanced": "Avancé",
@@ -14,8 +15,6 @@
                 },
                 "allow_select_own_post": "Sélectionner ses propres publications",
                 "allow_select_own_post_help": "Autoriser un utilisateur de sélectionner son propre message comme meilleure réponse à une discussion",
-                "enable_all_tags_button": "Activer toutes les étiquettes pour les meilleures réponses",
-                "enable_all_tags_reminder_button": "Activer toutes les étiquettes pour les rappels d'une meilleure réponse",
                 "show_max_lines_label": "Nombre maximal de lignes à afficher dans la prévisualisation du message",
                 "show_max_lines_help": "Réglez cette valeur à 0 pour désactiver cette option. Si un message est plus long que le nombre de lignes configuré, il sera tronqué dans la prévisualisation du message avec un effet de fondu.",
                 "select_best_answer_reminder_days": "Fréquence des rappels",
@@ -32,6 +31,13 @@
                 "use_alt_ui": "Mise en page alternative",
                 "use_alt_ui_help": "Contrôles de la meilleure réponse dans le pied de page du message",
                 "documentation": "Documentation",
+                "enabled_tags_label": "",
+                "enabled_tags_help": "",
+                "remind_tags_label": "",
+                "remind_tags_help": "",
+                "tags_info": "",
+                "enable_all_tags_button": "Activer toutes les étiquettes pour les meilleures réponses",
+                "enable_all_tags_reminder_button": "Activer toutes les étiquettes pour les rappels d'une meilleure réponse",
                 "introduction": "Active quelles étiquettes doivent supporter les meilleures réponses dans l'extension <code><a>flarum/tags</a></code>, et, optionnellement, la ou les étiquettes qui doivent prendre en charge les rappels. Lorsqu'une étiquette est activée avec l'extension « Best Answer », cela attribue des autorisations à chaque groupe d'utilisateurs qui peut définir des réponses (dans sa propre discussion ou dans toute discussion). Les autorisations peuvent être attribuées globalement (pour toute étiquette activée avec l'extension « Best Answer »), ou sur une base par étiquette.\n"
             },
             "edit_tag": {
