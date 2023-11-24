@@ -2,49 +2,49 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "",
-                "view_flags_label": ""
+                "flag_posts_label": "Peyamên hatina ragihandin",
+                "view_flags_label": "Peyamên hatina ragihandin bibîne"
             },
             "settings": {
-                "flag_own_posts_label": "",
-                "guidelines_url_label": "",
-                "title": ""
+                "flag_own_posts_label": "Destûrê bide bikarhêneran ku postên xwe ala bikin",
+                "guidelines_url_label": "Girêdana Rêbernameyên Civakê",
+                "title": "Mîhengên alakirin"
             }
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "",
-                "dismiss_button": "",
-                "reason_details_placeholder": "",
-                "reason_inappropriate_label": "",
-                "reason_inappropriate_text": "",
-                "reason_missing_message": "",
-                "reason_off_topic_label": "",
-                "reason_off_topic_text": "",
-                "reason_other_label": "",
-                "reason_spam_label": "",
-                "reason_spam_text": "",
-                "submit_button": "",
-                "title": ""
+                "confirmation_message": "Spas dikim ji bo nîşankirina vê postê. Moderatorên me dê pirsgirêkê çareser bikin.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Agahiyên zêde (vebijarkî)",
+                "reason_inappropriate_label": "Lênayê",
+                "reason_inappropriate_text": "Ev post acizker e, xerabkar e, an <a>rêberên civata me</a> binpê dike.",
+                "reason_missing_message": "Ji kerema xwe hin hûrguliyan ji bo moderatorên me bidin.",
+                "reason_off_topic_label": "Derve yên mijaran",
+                "reason_off_topic_text": "Ev post ne girêdayî nîqaşa heyî ye û divê li cîhek din were veguheztin.",
+                "reason_other_label": "Yên din (ji kerema xwe diyar bikin)",
+                "reason_spam_label": "Nexwestî",
+                "reason_spam_text": "Ev post reklamek e.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
-                "empty_text": "",
-                "item_text": "",
-                "title": "",
-                "tooltip": ""
+                "empty_text": "Mesajên raporkirî tune",
+                "item_text": "{username} di <em>{discussion}</em> de",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
-                "dismiss_flag_button": "",
-                "flagged_by_text": "",
-                "flagged_by_with_reason_text": ""
+                "dismiss_flag_button": "Ragihandinekî bişînin",
+                "flagged_by_text": "Ragihandina ji aliye {username}",
+                "flagged_by_with_reason_text": "Ji hêla {username} ve wekî {reason} hate alakirin"
             },
             "post_controls": {
-                "flag_button": ""
+                "flag_button": "Ragihandin"
             }
         },
         "ref": {
-            "flag_post": "",
-            "flagged_posts": ""
+            "flag_post": "Postê rapor bike",
+            "flagged_posts": "Peyamên hatine ragihandin"
         }
     }
 }
