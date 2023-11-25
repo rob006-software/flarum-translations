@@ -12,7 +12,7 @@
             "purge_on_discussion_update_help": "Dema ku nîqaşek an postek nûve dibe, URL an Etîketên ku hûn dixwazin paqij bikin, her rêzek yek binivîsin. URL divê bi <code>/</code> dest pê bike, mînak. <code>/ranking</code>, û Etîketa cache divê bi <code>tag=</code> dest pê bike, wek mînak. <code>tag=ranking</code>. Ji bo rêgezên pirjimar, lêzêdekirina qaîdeyek di .htaccess de bi biwêjek birêkûpêk ku riyan etîket dike û ketina tenê vê tagê li vir bileztir e. <a>Zêdetir fêr bibin</a>. Ji hêla xwerû, cache ji bo rûpelê malê û nîqaşên nûvekirî têne paqij kirin.",
             "cache_exclude_label": "Rêyên ji Cachingê derxin",
             "cache_exclude_help": "Rêyên ku van rêzan dihewîne dê neyên girtin. Ji bo <code>/mypath/mypage?aa=bb</code>, hûn dikarin <code>mypage?aa=</code> bikar bînin. Ji bo ku destpêkê li hev bikin, di destpêkê de <code>^</code> lê zêde bikin. Ji bo berhevdana tam, <code>$</code> li dawiya URL-ê zêde bikin. Her rêzek yek.",
-            "drop_qs_label": "",
+            "drop_qs_label": "Rêzên pirsyarî berdin",
             "drop_qs_help": "Vê taybetmendiyê bikar bînin da ku rêzikên lêgerînê yên taybetî, wekî <code>fbclid</code> an <code>utm*</code>, dema ku kaş dikin, bavêjin. Ev rê li ber cachkirina zêde ya rûpelên bi rêzikên lêpirsînê yên \"jonk\" digire, mîna kodên UTM, ku ji bo şopandinê têne bikar anîn lê bandorê li naveroka rûpelê nakin. Vê yekê LSWS v5.2.3 an nûtir hewce dike. Lîsteya rêzikên lêpirsînê yên ku werin avêtin, her rêzek yek. <a>Li ser daxistina rêzikên pirsnameyê bêtir fêr bibin</a>.<br></br>\n⚠️ Ev mîheng dê pelê .htaccess biguherîne.\n",
             "purge_all": "Hemû LSCache paqij bikin",
             "purge_all_success": "Pêşkêşkara Web LiteSpeed hate agahdar kirin ku hemî navnîşên LSCache paqij bike"
