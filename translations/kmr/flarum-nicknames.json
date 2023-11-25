@@ -2,41 +2,41 @@
     "flarum-nicknames": {
         "admin": {
             "permissions": {
-                "edit_own_nickname_label": ""
+                "edit_own_nickname_label": "Nasnavê xwe biguherîne"
             },
             "settings": {
-                "max_label": "",
-                "min_label": "",
-                "random_username_label": "",
-                "random_username_help": "",
-                "regex_label": "",
-                "set_on_registration_label": "",
-                "unique_label": ""
+                "max_label": "Dirêjahiya navê bikarhêner ya herî zêde",
+                "min_label": "Dirêjahiya navê bikarhêner ya herî kêm",
+                "random_username_label": "Navên Bikarhêner ê çawalêhato",
+                "random_username_help": "Ev di dema qeydkirinê de têketina \"navê bikarhêner\" vedişêre û li şûna wê jimareyek rasthatî bikar tîne. Her wiha dê qada 'nasnav' mecbûrî bike. Ev dê derbasdar be tenê eger \"Bihêle ku di dema qeydkirinê de paşnav werin danîn\" were çalak kirin.",
+                "regex_label": "Ji bo pejirandinê îfadeya birêkûpêk",
+                "set_on_registration_label": "Destûrê bide danîna paşnavan li ser qeydkirinê",
+                "unique_label": "Bila bikarhêner navên ên yekta hewce bikin"
             },
-            "wrong_driver": ""
+            "wrong_driver": "Ji bo ku ev pêvek bikeve bandorê divê hûn \"navdêr\" wekî ajokara navê nîşankirî li ser <a><strong>Rûpela Bingehîn</strong></a> hilbijêrin."
         },
         "api": {
-            "invalid_nickname_message": ""
+            "invalid_nickname_message": "Ev paşnav nederbasdar e. Ji kerema xwe ji bo bêtir agahdarî li ser qaîdeyên nickname bi rêvebirê forumê xwe re têkilî daynin."
         },
         "forum": {
             "change_nickname": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
             },
             "edit_user": {
-                "nicknames_heading": "",
-                "nicknames_text": ""
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "=> flarum-nicknames.ref.nickname"
             },
             "settings": {
-                "change_nickname_button": ""
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
             },
             "sign_up": {
-                "nickname_placeholder": ""
+                "nickname_placeholder": "=> flarum-nicknames.ref.nickname"
             }
         },
         "ref": {
-            "change_nickname": "",
-            "nickname": ""
+            "change_nickname": "Nasnav biguherînin",
+            "nickname": "Nasnav"
         }
     }
 }
