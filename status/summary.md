@@ -43,6 +43,7 @@
 | --- | --- |
 | [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/fof-amazon-affiliation/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/fof-amazon-affiliation/) |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/fof-analytics/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/fof-analytics/) |
+| [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/fof-anti-spam/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/fof-anti-spam/) |
 | [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/fof-ban-ips/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/fof-ban-ips/) |
 | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/fof-best-answer/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/fof-best-answer/) |
 | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/fof-byobu/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/fof-byobu/) |
