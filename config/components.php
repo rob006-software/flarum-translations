@@ -725,7 +725,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/2.5.1/resources/locale/en.yml',
 	],
 	'hikarilan-passkey-login' => [
-		'tag' => 'https://raw.githubusercontent.com/shaokeyibb/flarum-passkey-login/0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/shaokeyibb/flarum-passkey-login/0.2/locale/en.yml',
 	],
 	'ianm-follow-users' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/follow-users/1.4.2/resources/locale/en.yml',
