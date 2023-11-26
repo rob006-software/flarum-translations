@@ -1,0 +1,69 @@
+{
+    "fof-anti-spam": {
+        "admin": {
+            "permissions": {
+                "spamblock_users_label": ""
+            },
+            "settings": {
+                "default-actions": {
+                    "delete_user_label": "",
+                    "delete_user_help": "",
+                    "delete_discussions_label": "",
+                    "delete_discussions_help": "",
+                    "delete_posts_label": "",
+                    "delete_posts_help": "",
+                    "heading": "",
+                    "introduction": "",
+                    "move_discussions_to_tags_label": "",
+                    "move_discussions_to_tags_help": ""
+                },
+                "stopforumspam": {
+                    "heading": "",
+                    "introduction": "",
+                    "username_label": "",
+                    "ip_label": "",
+                    "email_label": "",
+                    "frequency_label": "",
+                    "frequency_help": "",
+                    "api_key_label": "",
+                    "api_key_text": "",
+                    "api_key_instructions_text": "",
+                    "regional_endpoint_label": "",
+                    "regional_endpoint_help": "",
+                    "region_closest_label": "",
+                    "region_europe_label": "",
+                    "region_us_label": "",
+                    "confidence_label": "",
+                    "confidence_help": "",
+                    "email_hash_label": "",
+                    "email_hash_help": "",
+                    "sfs_lookup_label": "",
+                    "sfs_lookup_help": ""
+                }
+            }
+        },
+        "forum": {
+            "message": {
+                "spam": ""
+            },
+            "spammer_modal": {
+                "hard_delete_discussions_label": "",
+                "hard_delete_discussions_help": "",
+                "hard_delete_posts_label": "",
+                "hard_delete_posts_help": "",
+                "hard_delete_user_label": "",
+                "hard_delete_user_help": "",
+                "intro": "",
+                "move_discussions_tag_label": "",
+                "move_discussions_tag_help": "",
+                "process_button": "",
+                "title": "",
+                "report_to_sfs_label": "",
+                "report_to_sfs_help": ""
+            },
+            "user_controls": {
+                "spammer_button": ""
+            }
+        }
+    }
+}

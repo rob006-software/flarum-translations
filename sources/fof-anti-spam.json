@@ -1,0 +1,69 @@
+{
+    "fof-anti-spam": {
+        "admin": {
+            "permissions": {
+                "spamblock_users_label": "Mark user as spammer"
+            },
+            "settings": {
+                "default-actions": {
+                    "delete_user_label": "Delete user",
+                    "delete_user_help": "This will permanently delete the user. When disabled, the user will be suspended instead.",
+                    "delete_discussions_label": "Delete discussions",
+                    "delete_discussions_help": "This will permanently delete all discussions started by this user. When disabled, discussions will be soft deleted instead.",
+                    "delete_posts_label": "Delete posts",
+                    "delete_posts_help": "This will permanently delete all posts made by this user. When disabled, posts will be soft deleted instead.",
+                    "heading": "Default moderation actions",
+                    "introduction": "When a user is marked as a spammer, moderators are able to choose from various actions on how to deal with the particular use case. These settings allow you to pre-set the actions you'll normally take, to speed up the process, but also allowing for variations as needed.\n",
+                    "move_discussions_to_tags_label": "Move discussions to tag(s)",
+                    "move_discussions_to_tags_help": "This will move all discussions started by this user to the tag(s) you specified. Clear the tag selection to leave discussions in their original tag(s). Has no effect if the 'Delete discussions' option is enabled."
+                },
+                "stopforumspam": {
+                    "heading": "StopForumSpam",
+                    "introduction": "Checks new user registrations against the <a>StopForumSpam</a> database. If either the <code>confidence</code> or <code>frequency</code> thresholds are reached, the user is prevented from completing their registration on your forum.\n\nSSO register via <code>fof/oauth</code> and <code>fof/passport</code> is also supported. Other SSO providers should work, but are untested.\n",
+                    "username_label": "Username Spam Check",
+                    "ip_label": "IP Address Spam Check",
+                    "email_label": "Email Spam Check",
+                    "frequency_label": "Threshold",
+                    "frequency_help": "The number of spam reports between all enabled checks that will trip the spam filter.\nEx: If the email has 1 hit, and the ip has 2 hits, there will be 3 hits in total. If the threshold is set to 3 or less we will prevent the registration.\n",
+                    "api_key_label": "API Key",
+                    "api_key_text": "You have the option to report spammers to StopForumSpam in order to keep the greater forum community spam free.",
+                    "api_key_instructions_text": "<register>Sign up for StopForumSpam</register>. Then you will need to <key>obtain an API key</key>.",
+                    "regional_endpoint_label": "Geographic Access",
+                    "regional_endpoint_help": "By default we will direct the lookup to the closest regional server in order to provide the fastest response. Should you wish to restrict traffic to a specific region, such as for compliance with company or country privacy regulations, then you can force a connection to a specific region.",
+                    "region_closest_label": "Closest",
+                    "region_europe_label": "Europe",
+                    "region_us_label": "United States",
+                    "confidence_label": "Confidence",
+                    "confidence_help": "The confidence score is a reasonably good indicator that the field under test would result in unwanted activity. Set your confidence level as a percentage. If the field is equal or above this figure, the registration will be blocked, regardless on the 'frequency' test above.",
+                    "email_hash_label": "Use hashed email address",
+                    "email_hash_help": "Pass a MD5 hash of the email address should you wish to not pass the email address itself. This method bypasses all blacklists, normalisation and obfuscation bypass checks.",
+                    "sfs_lookup_label": "Lookup registrations",
+                    "sfs_lookup_help": "If enabled, we will check the StopForumSpam database when a new user registers on your forum. If the user is found (username, IP address, email) and that data point is enabled along with the SFS confidence level reaching your defined level, they will be prevented from completing their registration."
+                }
+            }
+        },
+        "forum": {
+            "message": {
+                "spam": "Your info has been marked as spam."
+            },
+            "spammer_modal": {
+                "hard_delete_discussions_label": "Delete discussions",
+                "hard_delete_discussions_help": "This will permanently delete all discussions started by this user. When disabled, discussions will be hidden instead.",
+                "hard_delete_posts_label": "Delete posts",
+                "hard_delete_posts_help": "This will permanently delete all posts (comments, replies, etc) made by this user. When disabled, posts will be hidden instead.",
+                "hard_delete_user_label": "Delete user",
+                "hard_delete_user_help": "This will permanently delete the user. When disabled, the user will be suspended instead.",
+                "intro": "When marking a user as a spammer, several actions will be taken, which depends on the extensions available on your forum.",
+                "move_discussions_tag_label": "Move discussions to quarantined tag",
+                "move_discussions_tag_help": "This will move all discussions started by this user to the tag you specified in the forum settings. When disabled, discussions will be left in their current tags.",
+                "process_button": "Process",
+                "title": "Mark {username} as a spammer",
+                "report_to_sfs_label": "Report to StopForumSpam",
+                "report_to_sfs_help": "This will report the user's basic details (username, email, IP address) to StopForumSpam. This will help prevent the user from registering on other forums that use the StopForumSpam service."
+            },
+            "user_controls": {
+                "spammer_button": "Spammer"
+            }
+        }
+    }
+}
