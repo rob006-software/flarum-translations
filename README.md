@@ -891,6 +891,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`blomstra-conversations`](https://weblate.rob006.net/projects/flarum/blomstra-conversations) | [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations) |
 | [`blomstra-flag-duplicates`](https://weblate.rob006.net/projects/flarum/blomstra-flag-duplicates) | [`blomstra/flag-duplicates`](https://github.com/blomstra/flarum-ext-flag-duplicate) |
 | [`blomstra-fontawesome`](https://weblate.rob006.net/projects/flarum/blomstra-fontawesome) | [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome) |
+| [`blomstra-horizon`](https://weblate.rob006.net/projects/flarum/blomstra-horizon) | [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon) |
 | [`blomstra-mark-unread`](https://weblate.rob006.net/projects/flarum/blomstra-mark-unread) | [`blomstra/mark-unread`](https://github.com/blomstra/flarum-ext-mark-unread) |
 | [`blomstra-oauth-apple`](https://weblate.rob006.net/projects/flarum/blomstra-oauth-apple) | [`blomstra/oauth-apple`](https://github.com/blomstra/flarum-ext-oauth-apple) |
 | [`blomstra-oauth-slack`](https://weblate.rob006.net/projects/flarum/blomstra-oauth-slack) | [`blomstra/oauth-slack`](https://github.com/blomstra/flarum-ext-oauth-slack) |
