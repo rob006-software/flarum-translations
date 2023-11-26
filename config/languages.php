@@ -166,6 +166,7 @@ return [
 	'uz' => getComponents(),
 	'vi' => getComponents([
 		// translations included in extension
+		'!litalino/flarum-more-bbcode',
 		'!xelson-chat',
 	]),
 	'zh_Hans' => getComponents([
