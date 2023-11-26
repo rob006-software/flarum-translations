@@ -7,6 +7,7 @@
             },
             "settings": {
                 "label": {
+                    "tags": "",
                     "general": "Umumiy",
                     "reminders": "Eslatmalar",
                     "advanced": "Murakkab",
@@ -14,8 +15,6 @@
                 },
                 "allow_select_own_post": "O'z postingizni tanlang",
                 "allow_select_own_post_help": "OPga muhokamadagi o'z postlaridan birini eng yaxshi javob sifatida tanlashga ruxsat bering",
-                "enable_all_tags_button": "Eng yaxshi javoblar uchun barcha teglarni yoqing",
-                "enable_all_tags_reminder_button": "Eng yaxshi javob eslatmalari uchun barcha teglarni yoqing",
                 "show_max_lines_label": "",
                 "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "Eslatma tezligi",
@@ -32,6 +31,13 @@
                 "use_alt_ui": "Muqobil tartib",
                 "use_alt_ui_help": "Post futeridagi eng yaxshi javob boshqaruvlari",
                 "documentation": "Hujjatlar",
+                "enabled_tags_label": "",
+                "enabled_tags_help": "",
+                "remind_tags_label": "",
+                "remind_tags_help": "",
+                "tags_info": "",
+                "enable_all_tags_button": "Eng yaxshi javoblar uchun barcha teglarni yoqing",
+                "enable_all_tags_reminder_button": "Eng yaxshi javob eslatmalari uchun barcha teglarni yoqing",
                 "introduction": "Qaysi teglar <code><a>flarum/tags</a></code> ichida eng yaxshi javoblarni qo‘llab-quvvatlashi va ixtiyoriy ravishda qaysi teg(lar) eslatmalarni qo‘llab-quvvatlashi kerakligini yoqing. Teg \"Eng yaxshi javob\" yoqilgan bo'lsa, har bir foydalanuvchi guruhiga javoblarni belgilashi mumkin bo'lgan ruxsatlarni tayinlang (o'z muhokamasi, har qanday muhokama). Ruxsatlar global miqyosda (har qanday eng yaxshi javob qo'shilgan teg uchun) yoki har bir teg asosida tayinlanishi mumkin.\n"
             },
             "edit_tag": {

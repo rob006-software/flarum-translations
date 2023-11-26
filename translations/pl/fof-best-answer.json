@@ -7,6 +7,7 @@
             },
             "settings": {
                 "label": {
+                    "tags": "",
                     "general": "Ogólne",
                     "reminders": "Przypomnienia",
                     "advanced": "Zaawansowane",
@@ -14,8 +15,6 @@
                 },
                 "allow_select_own_post": "Wybieranie własnego posta",
                 "allow_select_own_post_help": "Pozwól autorowi dyskusji wybrać jeden z jego własnych postów jako najlepszą odpowiedź",
-                "enable_all_tags_button": "Włącz obsługę najlepszych odpowiedzi we wszystkich tagach",
-                "enable_all_tags_reminder_button": "Włącz przypomnienia o wybraniu najlepszej odpowiedzi we wszystkich tagach",
                 "show_max_lines_label": "Maksymalna liczba wierszy do wyświetlenia w podglądzie posta",
                 "show_max_lines_help": "Ustaw 0, aby wyłączyć limit. Jeśli post jest dłuższy niż podana liczba wierszy, podgląd posta zostanie przycięty za pomocą efektu zanikania.",
                 "select_best_answer_reminder_days": "Częstotliwość przypominania",
@@ -32,6 +31,13 @@
                 "use_alt_ui": "Alternatywny układ",
                 "use_alt_ui_help": "Wyświetl opcje do ustawiania najlepszej odpowiedzi w stopce posta",
                 "documentation": "Dokumentacja",
+                "enabled_tags_label": "",
+                "enabled_tags_help": "",
+                "remind_tags_label": "",
+                "remind_tags_help": "",
+                "tags_info": "",
+                "enable_all_tags_button": "Włącz obsługę najlepszych odpowiedzi we wszystkich tagach",
+                "enable_all_tags_reminder_button": "Włącz przypomnienia o wybraniu najlepszej odpowiedzi we wszystkich tagach",
                 "introduction": "W ustawieniach <code><a>flarum/tags</a></code> wybierz, które tagi mają obsługiwać najlepsze odpowiedzi i, opcjonalnie, które tagi powinny obsługiwać przypomnienia. Gdy tag ma włączoną funkcję najlepszych odpowiedzi, przydziel uprawnienia dla każdej grupy użytkowników, którzy mogą wybierać odpowiedzi (własne dyskusje, cudze dyskusje). Uprawnienia mogą być przypisane globalnie (dla każdego tagu z włączoną opcją najlepszej odpowiedzi), lub dla każdego tagu osobno.\n"
             },
             "edit_tag": {

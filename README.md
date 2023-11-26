@@ -798,6 +798,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-ban-ips`](https://weblate.rob006.net/projects/flarum/fof-ban-ips) | [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) |
 | [`fof-best-answer`](https://weblate.rob006.net/projects/flarum/fof-best-answer) | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) |
 | [`fof-byobu`](https://weblate.rob006.net/projects/flarum/fof-byobu) | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) |
+| [`fof-clockwork`](https://weblate.rob006.net/projects/flarum/fof-clockwork) | [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork) |
 | [`fof-cookie-consent`](https://weblate.rob006.net/projects/flarum/fof-cookie-consent) | [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent) |
 | [`fof-custom-footer`](https://weblate.rob006.net/projects/flarum/fof-custom-footer) | [`fof/custom-footer`](https://github.com/FriendsOfFlarum/custom-footer) |
 | [`fof-default-group`](https://weblate.rob006.net/projects/flarum/fof-default-group) | [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group) |
@@ -985,6 +986,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`datlechin-scroll-buttons`](https://weblate.rob006.net/projects/flarum/datlechin-scroll-buttons) | [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons) |
 | [`datlechin-signup-button`](https://weblate.rob006.net/projects/flarum/datlechin-signup-button) | [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button) |
 | [`datlechin-silent-edit`](https://weblate.rob006.net/projects/flarum/datlechin-silent-edit) | [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit) |
+| [`datlechin-simple-tour-guide`](https://weblate.rob006.net/projects/flarum/datlechin-simple-tour-guide) | [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide) |
 | [`datlechin-tag-passwords`](https://weblate.rob006.net/projects/flarum/datlechin-tag-passwords) | [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords) |
 | [`datlechin-title-length`](https://weblate.rob006.net/projects/flarum/datlechin-title-length) | [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length) |
 | [`datlechin-usercard-uid`](https://weblate.rob006.net/projects/flarum/datlechin-usercard-uid) | [`datlechin/flarum-usercard-uid`](https://github.com/datlechin/flarum-usercard-uid) |
@@ -1008,6 +1010,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`glowingblue-password-strength`](https://weblate.rob006.net/projects/flarum/glowingblue-password-strength) | [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) |
 | [`glowingblue-redis-setup`](https://weblate.rob006.net/projects/flarum/glowingblue-redis-setup) | [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup) |
 | [`hehongyuanlove-auth-qq`](https://weblate.rob006.net/projects/flarum/hehongyuanlove-auth-qq) | [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq) |
+| [`hikarilan-passkey-login`](https://weblate.rob006.net/projects/flarum/hikarilan-passkey-login) | [`hikarilan/flarum-passkey-login`](https://github.com/shaokeyibb/flarum-passkey-login) |
 | [`ianm-follow-users`](https://weblate.rob006.net/projects/flarum/ianm-follow-users) | [`ianm/follow-users`](https://github.com/imorland/follow-users) |
 | [`ianm-gravatar`](https://weblate.rob006.net/projects/flarum/ianm-gravatar) | [`ianm/gravatar`](https://github.com/imorland/gravatar) |
 | [`ianm-html-head`](https://weblate.rob006.net/projects/flarum/ianm-html-head) | [`ianm/html-head`](https://github.com/imorland/html-head) |

@@ -7,6 +7,7 @@
             },
             "settings": {
                 "label": {
+                    "tags": "",
                     "general": "ทั่วไป",
                     "reminders": "เตือนความจำ",
                     "advanced": "ขั้นสูง",
@@ -14,8 +15,6 @@
                 },
                 "allow_select_own_post": "เลือกโพสต์ของตนเอง",
                 "allow_select_own_post_help": "อนุญาติให้เลือกโพสต์ของตนเองในการสนทนาเป็นคำตอบที่ดีที่สุด",
-                "enable_all_tags_button": "",
-                "enable_all_tags_reminder_button": "",
                 "show_max_lines_label": "",
                 "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "ความถี่ในการเตือน",
@@ -32,6 +31,11 @@
                 "use_alt_ui": "ใช้ปุ่มทางเลือก",
                 "use_alt_ui_help": "ปุ่มเลือกคำตอบที่ดีที่อย่างส่วนล่างของโพสต์",
                 "documentation": "เอกสารประกอบการใช้งาน",
+                "enabled_tags_label": "",
+                "enabled_tags_help": "",
+                "remind_tags_label": "",
+                "remind_tags_help": "",
+                "tags_info": "",
                 "introduction": "เปิดใช้แท็กที่อนุญาติให้ใช้คำตอบที่ดีที่สุดใน <code>flarum/tags</code> และเลือกว่าแท็กใดอนุญาติการเตือนความจำ เมื่อแท็กเปิดใช้งานคำตอบที่ดีที่สุด ให้กำหนดสิทธิ์ให้กับแต่ละกลุ่มผู้ใช้ที่อาจกำหนดคำตอบ (การสนทนาของตัวเอง การสนทนาใดๆ) สิทธิ์อาจกำหนดได้ทุกคน (สำหรับแท็กที่มีคำตอบที่ดีที่สุด) หรือตามแต่ละแท็ก\n"
             },
             "edit_tag": {

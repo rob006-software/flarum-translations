@@ -1,0 +1,30 @@
+{
+    "datlechin-simple-tour-guide": {
+        "admin": {
+            "settings": {
+                "show_progress_label": "Show progress",
+                "show_progress_help": "This will show the current step and total steps at the top of the popover.",
+                "allow_close_label": "Allow close",
+                "allow_close_help": "Allow users closing the popover by click on the backdrop."
+            },
+            "edit_modal": {
+                "edit_step": "Edit {title}",
+                "create_step": "Create new step",
+                "delete_step": "Delete step",
+                "delete_step_confirmation": "Are you sure you want to delete this step?"
+            },
+            "title": "Title",
+            "title_placeholder": "The title of the step.",
+            "description": "Description",
+            "description_placeholder": "The description of the step.",
+            "target": "Target",
+            "target_placeholder": "The target element of the step (e.g. #element-id)."
+        },
+        "forum": {
+            "progress_text": "{current} of {total}",
+            "next_btn_text": "Next",
+            "prev_btn_text": "Prev",
+            "done_btn_text": "Done"
+        }
+    }
+}

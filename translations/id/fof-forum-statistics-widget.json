@@ -11,8 +11,10 @@
         },
         "admin": {
             "settings": {
-                "cache_duration_label": "",
-                "cache_duration_help": "",
+                "cache_duration_label": "Durasi Cache",
+                "cache_duration_help": "Tentukan berapa lama statistik untuk widget harus disimpan dalam cache (dalam detik). <code>0</code> untuk menonaktifkan cache (tidak disarankan).",
+                "flush_cache_on_new_registration_label": "Bersihkan Cache Statistik pada Pendaftaran Baru",
+                "flush_cache_on_new_registration_help": "Jika diaktifkan, cache statistik akan dibersihkan ketika pengguna baru mendaftar di forum.",
                 "widget_ignore_private_discussions_label": "Abaikan Diskusi Pribadi",
                 "widget_order_label": "Urutan Widget",
                 "widget_helper_text": "Edit pengaturan ini untuk menyesuaikan posisi widget di bagian sidenav dari forum Flarum Anda. Semakin tinggi angkanya, semakin tinggi widget ini akan ada di daftar item sidenav (nilai ini bisa positif atau negatif)."

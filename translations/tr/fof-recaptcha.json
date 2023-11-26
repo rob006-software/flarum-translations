@@ -6,18 +6,18 @@
                 "secret_key_label": "Secret Key",
                 "site_key_label": "Site Key",
                 "type_label": "reCAPTCHA Tipi",
-                "type_help": "",
+                "type_help": "Bu uzantı yalnızca reCAPTCHA v2'yi destekler. Seçilen tür, reCAPTCHA kimlik bilgilerinizin türüyle eşleşmelidir.",
                 "signup": "=> core.forum.sign_up.title",
                 "signin": "=> core.forum.log_in.title",
                 "forgot": "=> core.forum.forgot_password.title"
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "success_message": "",
-                "load_test_button": "",
-                "submit_button": "",
-                "reload_button": ""
+                "title": "reCAPTCHA'yı Test Et",
+                "help_text": "Bu test yukarıda girilen mevcut değerleri kullanacaktır. Ayarları değiştirdikten sonra testi yeniden yüklediğinizden emin olun ve test geçtikten sonra kaydetmeyi unutmayın!\nAşağıdakiler kaydedilen ayarları yansıtmayabilir.\n",
+                "success_message": "Başarılı! reCAPTCHA doğru şekilde yapılandırıldı.",
+                "load_test_button": "Yükle",
+                "submit_button": "Gönder",
+                "reload_button": "Yeniden Yükle"
             },
             "permissions": {
                 "post_without_captcha": "Captcha olmadan gönderi ve tartışmalar oluşturun"
@@ -29,6 +29,6 @@
     },
     "validation": {
         "recaptcha": "reCAPTCHA doğrulaması başarısız.",
-        "recaptcha-unknown": ""
+        "recaptcha-unknown": "reCAPTCHA doğrulanırken bilinmeyen bir hata oluştu ({errors})."
     }
 }

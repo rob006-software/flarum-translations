@@ -109,6 +109,9 @@ return [
 	'blomstra-fontawesome' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-fontawesome/0.1.5/locale/en.yml',
 	],
+	'blomstra-horizon' => [
+		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-horizon/0.4.1/resources/locale/en.yml',
+	],
 	'blomstra-mark-unread' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-mark-unread/0.2.0/locale/en.yml',
 	],
@@ -421,6 +424,9 @@ return [
 	'datlechin-silent-edit' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-silent-edit/v0.1.0/locale/en.yml',
 	],
+	'datlechin-simple-tour-guide' => [
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-simple-tour-guide/v0.0.1/locale/en.yml',
+	],
 	'datlechin-tag-passwords' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-tag-passwords/v0.1.0/locale/en.yml',
 	],
@@ -530,10 +536,13 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ban-ips/1.1.0/resources/locale/en.yml',
 	],
 	'fof-best-answer' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/1.3.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/1.4.1/resources/locale/en.yml',
 	],
 	'fof-byobu' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/1.3.4/resources/locale/en.yml',
+	],
+	'fof-clockwork' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/clockwork/1.0.4/resources/locale/en.yml',
 	],
 	'fof-cookie-consent' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/cookie-consent/1.1.2/resources/locale/en.yml',
@@ -572,7 +581,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/formatting/1.0.3/resources/locale/en.yml',
 	],
 	'fof-forum-statistics-widget' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/forum-statistics-widget/1.2.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/forum-statistics-widget/1.2.1/resources/locale/en.yml',
 	],
 	'fof-frontpage' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/frontpage/1.2.0/resources/locale/en.yml',
@@ -581,7 +590,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/gamification/1.6.4/resources/locale/en.yml',
 	],
 	'fof-geoip' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/geoip/1.3.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/geoip/1.4.0/resources/locale/en.yml',
 	],
 	'fof-github-sponsors' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/github-sponsors/1.1.1/resources/locale/en.yml',
@@ -617,7 +626,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/nightmode/1.5.3/resources/locale/en.yml',
 	],
 	'fof-oauth' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/oauth/1.6.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/oauth/1.6.2/resources/locale/en.yml',
 	],
 	'fof-open-collective' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/open-collective/1.1.1/resources/locale/en.yml',
@@ -689,7 +698,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-directory/1.3.3/resources/locale/en.yml',
 	],
 	'fof-username-request' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/username-request/1.2.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/username-request/1.2.3/resources/locale/en.yml',
 	],
 	'fof-webhooks' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/1.2.3/resources/locale/en.yml',
@@ -717,6 +726,9 @@ return [
 	],
 	'hehongyuanlove-auth-qq' => [
 		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/2.5.1/resources/locale/en.yml',
+	],
+	'hikarilan-passkey-login' => [
+		'tag' => 'https://raw.githubusercontent.com/shaokeyibb/flarum-passkey-login/0.2/locale/en.yml',
 	],
 	'ianm-follow-users' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/follow-users/1.4.2/resources/locale/en.yml',
@@ -993,6 +1005,9 @@ return [
 	],
 	'litalino-geo-weather-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-geo-weather-widget/1.1.0/resources/locale/en.yml',
+	],
+	'litalino-more-bbcode' => [
+		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-more-bbcode/1.3.0/resources/locale/en.yml',
 	],
 	'littlecxm-reply-to-see' => [
 		'tag' => 'https://raw.githubusercontent.com/littlecxm/flarum-reply-to-see/1.0.2/resources/locale/en.yml',

@@ -11,8 +11,10 @@
         },
         "admin": {
             "settings": {
-                "cache_duration_label": "",
-                "cache_duration_help": "",
+                "cache_duration_label": "Önbellek Süresi",
+                "cache_duration_help": "Araca ilişkin istatistiklerin ne kadar süreyle (saniye cinsinden) önbelleğe alınması gerektiğini belirtin. Önbelleğe almayı devre dışı bırakmak için <code>0</code> (önerilmez).",
+                "flush_cache_on_new_registration_label": "Yeni Kayıtta İstatistik Önbelleğini Temizle",
+                "flush_cache_on_new_registration_help": "Etkinleştirilirse, foruma yeni bir kullanıcı kaydolduğunda istatistik önbelleği temizlenir.",
                 "widget_ignore_private_discussions_label": "Özel Tartışmaları Yoksay",
                 "widget_order_label": "Araç Yerleşimi",
                 "widget_helper_text": "Aracın, Flarum'un sol menü altında yer alması için bu ayarı düzenleyin. Sayı ne kadar yüksek olursa, sol menüdeki yerleşimi da o kadar artar (Bu pozitif veya negatif olabilir)."

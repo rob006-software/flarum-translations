@@ -1,21 +1,21 @@
 {
     "acpl-lscache": {
         "admin": {
-            "cache_enabled_label": "",
-            "cache_enabled_help": "",
-            "public_cache_ttl_label": "",
-            "public_cache_ttl_help": "",
-            "clearing_cache_listener_label": "",
-            "serve_stale_label": "",
-            "serve_stale_help": "",
-            "purge_on_discussion_update_label": "",
-            "purge_on_discussion_update_help": "",
-            "cache_exclude_label": "",
-            "cache_exclude_help": "",
-            "drop_qs_label": "",
-            "drop_qs_help": "",
-            "purge_all": "",
-            "purge_all_success": ""
+            "cache_enabled_label": "LSCache-ê çalak bike",
+            "cache_enabled_help": "Li <a>Rûpela Agahdariyê</a> binihêrin ka meriv çawa cache-ê biceribîne. BİXWÎNE: Dema ku cache-ê neçalak bike, hemî navnîşên cache yên vê malperê dê bêne paqij kirin.",
+            "public_cache_ttl_label": "TTL Cacheya Giştî ya Bingehîn",
+            "public_cache_ttl_help": "Diyar bikin ka divê di çirkeyan de, rûpelên giştî çiqas werin cache kirin. Nirxa xwerû 604800 çirke (hefteyek) e.",
+            "clearing_cache_listener_label": "Dema ku Flarum Cache tê Paqijkirin LSCache paqij bike",
+            "serve_stale_label": "Pêşkêşkirina Naveroka Kevin",
+            "serve_stale_help": "Ger çalak be, guhertoyek kevnar a rûpelek cache dê ji mêvanan re were pêşkêş kirin heya ku kopiyek cache ya nû were çêkirin. Ev barkirina serverê kêm dike. Ger neçalak be, rûpel dê di dema nûvekirina cache-ê de bi dînamîk were hilberandin, ku dibe ku demên bendê zêde bike. Ji hêla sêwiranê ve, ev vebijark dikare naverokek kevnar pêşkêşî bike. Ji kerema xwe vê yekê çalak nekin ger hûn vê yekê qebûl nakin.",
+            "purge_on_discussion_update_label": "Li ser Nîqaş an Nûvekirina Postê URL-an an Etîketan paqij bikin",
+            "purge_on_discussion_update_help": "Dema ku nîqaşek an postek nûve dibe, URL an Etîketên ku hûn dixwazin paqij bikin, her rêzek yek binivîsin. URL divê bi <code>/</code> dest pê bike, mînak. <code>/ranking</code>, û Etîketa cache divê bi <code>tag=</code> dest pê bike, wek mînak. <code>tag=ranking</code>. Ji bo rêgezên pirjimar, lêzêdekirina qaîdeyek di .htaccess de bi biwêjek birêkûpêk ku riyan etîket dike û ketina tenê vê tagê li vir bileztir e. <a>Zêdetir fêr bibin</a>. Ji hêla xwerû, cache ji bo rûpelê malê û nîqaşên nûvekirî têne paqij kirin.",
+            "cache_exclude_label": "Rêyên ji Cachingê derxin",
+            "cache_exclude_help": "Rêyên ku van rêzan dihewîne dê neyên girtin. Ji bo <code>/mypath/mypage?aa=bb</code>, hûn dikarin <code>mypage?aa=</code> bikar bînin. Ji bo ku destpêkê li hev bikin, di destpêkê de <code>^</code> lê zêde bikin. Ji bo berhevdana tam, <code>$</code> li dawiya URL-ê zêde bikin. Her rêzek yek.",
+            "drop_qs_label": "Rêzên pirsyarî berdin",
+            "drop_qs_help": "Vê taybetmendiyê bikar bînin da ku rêzikên lêgerînê yên taybetî, wekî <code>fbclid</code> an <code>utm*</code>, dema ku kaş dikin, bavêjin. Ev rê li ber cachkirina zêde ya rûpelên bi rêzikên lêpirsînê yên \"jonk\" digire, mîna kodên UTM, ku ji bo şopandinê têne bikar anîn lê bandorê li naveroka rûpelê nakin. Vê yekê LSWS v5.2.3 an nûtir hewce dike. Lîsteya rêzikên lêpirsînê yên ku werin avêtin, her rêzek yek. <a>Li ser daxistina rêzikên pirsnameyê bêtir fêr bibin</a>.<br></br>\n⚠️ Ev mîheng dê pelê .htaccess biguherîne.\n",
+            "purge_all": "Hemû LSCache paqij bikin",
+            "purge_all_success": "Pêşkêşkara Web LiteSpeed hate agahdar kirin ku hemî navnîşên LSCache paqij bike"
         }
     }
 }

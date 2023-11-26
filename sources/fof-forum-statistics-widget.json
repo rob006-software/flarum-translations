@@ -13,6 +13,8 @@
             "settings": {
                 "cache_duration_label": "Cache Duration",
                 "cache_duration_help": "Specify how long the stats for the widget should be cached for (in seconds). <code>0</code> to disable caching (not recommended).",
+                "flush_cache_on_new_registration_label": "Flush Stats Cache on New Registration",
+                "flush_cache_on_new_registration_help": "If enabled, the stats cache will be flushed when a new user registers on the forum.",
                 "widget_ignore_private_discussions_label": "Ignore Private Discussions",
                 "widget_order_label": "Widget Order",
                 "widget_helper_text": "Edit this setting to adjust this widget's position on the sidenav section of your Flarum forum. The higher the number, the higher this widget will be on the sidenav items list (this value can be either positive or negative)."

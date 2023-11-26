@@ -7,6 +7,7 @@
             },
             "settings": {
                 "label": {
+                    "tags": "",
                     "general": "Obecné",
                     "reminders": "Připomínky",
                     "advanced": "Pokročilé",
@@ -14,8 +15,6 @@
                 },
                 "allow_select_own_post": "Vybrat vlastní příspěvek",
                 "allow_select_own_post_help": "Povolit uživateli, aby vybral jeden ze svých příspěvků v diskusi jako nejlepší odpověď",
-                "enable_all_tags_button": "Povolit všechny štítky pro Nejlepší odpovědi",
-                "enable_all_tags_reminder_button": "Povolit všechny štítky pro připomenutí Nejlepší odpovědi",
                 "show_max_lines_label": "Maximální počet řádků, který se zobrazí v náhledu příspěvku",
                 "show_max_lines_help": "Nastavením na 0 vypnete. Pokud je příspěvek delší než nastavený počet řádků, bude v náhledu příspěvku zkrácen s efektem vyblednutí.",
                 "select_best_answer_reminder_days": "Frekvence připomenutí",
@@ -32,6 +31,13 @@
                 "use_alt_ui": "Alternativní uspořádání",
                 "use_alt_ui_help": "Ovládací prvky pro Nejlepší odpověď v zápatí příspěvku",
                 "documentation": "Dokumentace",
+                "enabled_tags_label": "",
+                "enabled_tags_help": "",
+                "remind_tags_label": "",
+                "remind_tags_help": "",
+                "tags_info": "",
+                "enable_all_tags_button": "Povolit všechny štítky pro Nejlepší odpovědi",
+                "enable_all_tags_reminder_button": "Povolit všechny štítky pro připomenutí Nejlepší odpovědi",
                 "introduction": "V nastavení <code><a>flarum/tags</a></code> vyberte, které štítky mají podporovat Nejlepší odpovědi, a případně, které štítky mají podporovat připomínky. Pokud je u štítku povolena funkce Nejlepší odpověď, přiřaďte oprávnění každé skupině uživatelů, která může nastavovat odpovědi (vlastní diskuze, libovolná diskuze). Oprávnění lze přidělit globálně (pro každý štítek s povolenou Nejlepší odpovědí) nebo pro každý štítek zvlášť.\n"
             },
             "edit_tag": {

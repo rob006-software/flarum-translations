@@ -74,8 +74,8 @@
         "lib": {
             "data": {
                 "bannedipdata": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Bir IP yasağı kaydı, bir kullanıcıyla ilişkilendirilmişse (yani kullanıcı IP tarafından yasaklanmışsa), yasağın nedeni ve oluşturulma tarihiyle birlikte kullanıcının IP adresi de dışa aktarmaya dahil edilecektir.",
+                    "anonymize_description": "Kullanıcıya bağlı tüm IP adresleri ayrıştırılır ancak IP'nin kendisi, nedeni ile birlikte yasaklı olarak kalacaktır. 'Neden' alanında hiçbir PII verisinin saklanmadığından emin olun."
                 }
             }
         }

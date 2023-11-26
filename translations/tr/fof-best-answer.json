@@ -7,15 +7,14 @@
             },
             "settings": {
                 "label": {
+                    "tags": "",
                     "general": "Genel",
                     "reminders": "Hatırlatıcılar",
                     "advanced": "Gelişmiş",
                     "reminders_notice": "Hatırlatıcıların çalışması için Flarum planlayıcısını doğru şekilde ayarlamış olmanız gerekir."
                 },
                 "allow_select_own_post": "Kendi gönderini seç",
-                "allow_select_own_post_help": "Tartışma sahibinin tartışmadaki kendi gönderilerinden birini en iyi cevap olarak seçmesine izin verin",
-                "enable_all_tags_button": "Tüm etiketlerde En İyi Yanıtı etkinleştir",
-                "enable_all_tags_reminder_button": "En İyi Yanıt hatırlatıcısını için tüm etiketleri etkinleştir",
+                "allow_select_own_post_help": "Kullanıcının bir tartışmaya en iyi yanıt olarak kendi gönderisini seçmesine izin ver",
                 "show_max_lines_label": "Post önizlemede gösterilecek maks. satırlar",
                 "show_max_lines_help": "Devre dışı bırakmak için 0 olarak ayarlayın. Bir gönderi, yapılandırılan satır miktarından daha uzunsa, gönderi önizlemesinde bir solma efektiyle kesilecektir.",
                 "select_best_answer_reminder_days": "Hatırlatma sıklığı",
@@ -32,6 +31,13 @@
                 "use_alt_ui": "Alternatif dizilim",
                 "use_alt_ui_help": "Altbilgideki en iyi yanıt kontrolleri",
                 "documentation": "Belgeler",
+                "enabled_tags_label": "",
+                "enabled_tags_help": "",
+                "remind_tags_label": "",
+                "remind_tags_help": "",
+                "tags_info": "",
+                "enable_all_tags_button": "Tüm etiketlerde En İyi Yanıtı etkinleştir",
+                "enable_all_tags_reminder_button": "En İyi Yanıt hatırlatıcısını için tüm etiketleri etkinleştir",
                 "introduction": "<code><a>flarum/tags</a></code> içinde hangi etiketlerin En İyi Yanıtları destekleyeceğini ve isteğe bağlı olarak hangi etiketlerin hatırlatıcıları desteklemesi gerektiğini etkinleştirin. Bir etiket için En İyi Yanıt etkinleştirildiğinde, yanıtları ayarlayabilen her kullanıcı grubuna (kendi tartışması, herhangi bir tartışma) izinler atayın. İzinler genel olarak (En İyi Yanıtın etkinleştirildiği herhangi bir etiket için) veya etiket bazında atanabilir.\n",
                 "remind_tag_ids": "Hatırlatıcıyı belirli etiketlerde etkinleştirmek için etiketleri belirleyin (virgülle ayırarak)"
             },

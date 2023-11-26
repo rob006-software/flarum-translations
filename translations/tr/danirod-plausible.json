@@ -3,29 +3,29 @@
         "admin": {
             "validation": {
                 "domain": {
-                    "required": "",
-                    "regex": ""
+                    "required": "Bir alan adı verilmesi gerekiyor",
+                    "regex": "Verilen alan adı geçerli değil"
                 },
                 "proxy_domain": {
-                    "regex": ""
+                    "regex": "Belirtilen proxy alanı geçerli değil"
                 }
             },
             "settings": {
                 "enable": {
-                    "label": "",
-                    "help": ""
+                    "label": "Etkinleştirildi",
+                    "help": "İzleme kodunu gerçekten eklemek için bu seçeneği etkinleştirin."
                 },
                 "domain": {
-                    "label": "",
-                    "help": ""
+                    "label": "Alan Adı",
+                    "help": "Analizleri gönderirken kullanılacak alan adı."
                 },
                 "proxy_domain": {
-                    "label": "",
-                    "help": ""
+                    "label": "Proxy alanı",
+                    "help": "JS kodunun nereden sunulacağı. Plausible.io'yu kullanmak için boş bırakın. Bu, reklam engelleyicilerin izleme kodunu kaldırmasını engellemeye olanak tanır. Makul belgeleri kontrol edin."
                 },
                 "exclude_admin": {
-                    "label": "",
-                    "help": ""
+                    "label": "Admini sayma",
+                    "help": "Oturum açtığınızda yöneticilerin görüntülemelerinin izlemeye dahil edilmesini önleyecektir."
                 }
             }
         }

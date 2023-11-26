@@ -7,6 +7,7 @@
             },
             "settings": {
                 "label": {
+                    "tags": "",
                     "general": "Ümumi",
                     "reminders": "Xatırlatmalar",
                     "advanced": "Qabaqcıl",
@@ -14,8 +15,6 @@
                 },
                 "allow_select_own_post": "Öz yazını seç",
                 "allow_select_own_post_help": "OP -nin müzakirədə öz yazılarından birini ən yaxşı cavab olaraq seçməsinə icazə verin",
-                "enable_all_tags_button": "",
-                "enable_all_tags_reminder_button": "",
                 "show_max_lines_label": "",
                 "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "Xatırlatma tezliyi",
@@ -32,6 +31,11 @@
                 "use_alt_ui": "Alternativ layout",
                 "use_alt_ui_help": "Yazı altbilgisindəki ən yaxşı cavab nəzarətləri",
                 "documentation": "Sənədlər",
+                "enabled_tags_label": "",
+                "enabled_tags_help": "",
+                "remind_tags_label": "",
+                "remind_tags_help": "",
+                "tags_info": "",
                 "introduction": "<code> flarum/tags </code> -də Ən Yaxşı Cavabları dəstəkləmək üçün hansı etiketləri aktivləşdirin və isteğe bağlı olaraq hansı etiketlərin xatırlatıcıları dəstəkləməsi lazımdır. Bir etiket Ən Yaxşı Cavab aktiv olduqda, cavabları təyin edə biləcək hər bir istifadəçi qrupuna icazə verin (öz müzakirəsi, hər hansı bir müzakirə). İcazələr qlobal olaraq təyin edilə bilər (hər hansı bir Ən Yaxşı Cavab verilə bilən etiket üçün) və ya hər etiketə görə.\n"
             },
             "edit_tag": {

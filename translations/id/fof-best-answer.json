@@ -7,6 +7,7 @@
             },
             "settings": {
                 "label": {
+                    "tags": "",
                     "general": "Umum",
                     "reminders": "Pengingat",
                     "advanced": "Tingkat lanjut",
@@ -14,8 +15,6 @@
                 },
                 "allow_select_own_post": "Pilih postingan sendiri",
                 "allow_select_own_post_help": "Izinkan pengguna untuk memilih postingan mereka sendiri sebagai jawaban terbaik untuk sebuah diskusi",
-                "enable_all_tags_button": "Aktifkan semua tag untuk Jawaban Terbaik",
-                "enable_all_tags_reminder_button": "Aktifkan semua tag untuk pengingat Jawaban Terbaik",
                 "show_max_lines_label": "Garis maksimum untuk ditampilkan dalam pratinjau post",
                 "show_max_lines_help": "Atur ke 0 untuk menonaktifkan. Jika postingan lebih panjang daripada jumlah baris yang dikonfigurasi, postingan akan terpotong dalam pratinjau postingan dengan efek memudar.",
                 "select_best_answer_reminder_days": "Frekuensi pengingat",
@@ -32,6 +31,13 @@
                 "use_alt_ui": "Tata letak alternatif",
                 "use_alt_ui_help": "Pengaturan Best Answer ada di footer postingan",
                 "documentation": "Dokumentasi",
+                "enabled_tags_label": "",
+                "enabled_tags_help": "",
+                "remind_tags_label": "",
+                "remind_tags_help": "",
+                "tags_info": "",
+                "enable_all_tags_button": "Aktifkan semua tag untuk Jawaban Terbaik",
+                "enable_all_tags_reminder_button": "Aktifkan semua tag untuk pengingat Jawaban Terbaik",
                 "introduction": "Aktifkan tag mana yang akan mendukung Best Answers di <code><a>flarum/tags</a></code>, dan secara opsional tag mana yang akan mendukung pengingat. Ketika sebuah tag diaktifkan oleh Best Answer, aturlah perizinan untuk setiap grup pengguna yang dapat mengatur jawaban (diskusi sendiri, diskusi apa pun). Perizinan dapat diatur secara global (untuk setiap tag Best Answer yang diaktifkan), atau per tag.\n"
             },
             "edit_tag": {

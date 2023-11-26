@@ -1,0 +1,45 @@
+{
+    "hikarilan-passkey-login": {
+        "admin": {
+            "settings": {
+                "relying_party": {
+                    "name": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "id": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
+                "timeout": {
+                    "label": "",
+                    "help": ""
+                }
+            }
+        },
+        "forum": {
+            "login": {
+                "with-passkey": ""
+            },
+            "user": {
+                "settings": {
+                    "passkeys": {
+                        "title": "",
+                        "label": "",
+                        "add-new-passkey": "",
+                        "error": ""
+                    },
+                    "alias-modal": {
+                        "title": "",
+                        "label": ""
+                    },
+                    "item": {
+                        "revoke": "",
+                        "revoke_success": ""
+                    }
+                }
+            }
+        }
+    }
+}

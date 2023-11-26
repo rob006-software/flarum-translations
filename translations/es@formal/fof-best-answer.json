@@ -7,6 +7,7 @@
             },
             "settings": {
                 "label": {
+                    "tags": "",
                     "general": "General",
                     "reminders": "Recordatorios",
                     "advanced": "Avanzado",
@@ -14,8 +15,6 @@
                 },
                 "allow_select_own_post": "Seleccionar mensaje propio",
                 "allow_select_own_post_help": "Permitir al usuario seleccionar uno de sus propios mensajes como la mejor respuesta",
-                "enable_all_tags_button": "Activar mejor respuesta para todas las etiquetas",
-                "enable_all_tags_reminder_button": "Activar recordatorios en todas las etiquetas",
                 "show_max_lines_label": "",
                 "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "Frecuencia de recordatorios",
@@ -32,6 +31,13 @@
                 "use_alt_ui": "Diseño alternativo",
                 "use_alt_ui_help": "Controles de Mejor Respuesta en el pie del mensaje",
                 "documentation": "Documentación",
+                "enabled_tags_label": "",
+                "enabled_tags_help": "",
+                "remind_tags_label": "",
+                "remind_tags_help": "",
+                "tags_info": "",
+                "enable_all_tags_button": "Activar mejor respuesta para todas las etiquetas",
+                "enable_all_tags_reminder_button": "Activar recordatorios en todas las etiquetas",
                 "introduction": "Puedes activar cuáles etiquetas permiten Mejor Respuesta en <code><a>flarum/tags</a></code> y así también las que aceptan recordatorios opcionales cuando se encuentren sin resolver. Cuando una etiqueta admite Mejor Respuesta, se deben asignar permisos a cada grupo de usuarios quienes podrán establecer una respuesta (tanto para discusiones propias o cualquier otra discusión). \n\nPuedes asignar los permisos de manera global (para cualquier etiqueta que admita Mejor Respuesta), o de manera individual.\n"
             },
             "edit_tag": {

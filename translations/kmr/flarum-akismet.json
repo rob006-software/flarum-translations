@@ -2,19 +2,19 @@
     "flarum-akismet": {
         "admin": {
             "akismet_settings": {
-                "api_key_label": "",
-                "title": "",
-                "delete_blatant_spam_label": "",
-                "delete_blatant_spam_help": ""
+                "api_key_label": "Mifta API-yê",
+                "title": "Mîhengên Akismetê",
+                "delete_blatant_spam_label": "nexwestiyê eşkere bi xweserî jêbibin",
+                "delete_blatant_spam_help": "Ger Akismet diyar dike ku şîrove nexwestî eşkere ye, li şûna ku hûn ala xwe bidin postê bixweber jêbibin"
             },
             "permissions": {
-                "bypass_akismet": ""
+                "bypass_akismet": "Akismetê derbas bibe"
             }
         },
         "forum": {
             "post": {
-                "akismet_flagged_text": "",
-                "not_spam_button": ""
+                "akismet_flagged_text": "Akismet wekî nexwestî hat nîşankirin",
+                "not_spam_button": "Na nexwestî ye"
             }
         }
     }
