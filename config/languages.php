@@ -166,6 +166,7 @@ return [
 	'uz' => getComponents(),
 	'vi' => getComponents([
 		// translations included in extension
+		'!litalino/flarum-geo-weather-widget',
 		'!litalino/flarum-more-bbcode',
 		'!xelson-chat',
 	]),
