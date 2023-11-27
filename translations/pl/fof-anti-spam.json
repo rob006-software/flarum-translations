@@ -2,67 +2,67 @@
     "fof-anti-spam": {
         "admin": {
             "permissions": {
-                "spamblock_users_label": ""
+                "spamblock_users_label": "Oznacz użytkownika jako spamera"
             },
             "settings": {
                 "default-actions": {
-                    "delete_user_label": "",
-                    "delete_user_help": "",
-                    "delete_discussions_label": "",
-                    "delete_discussions_help": "",
-                    "delete_posts_label": "",
-                    "delete_posts_help": "",
-                    "heading": "",
-                    "introduction": "",
-                    "move_discussions_to_tags_label": "",
-                    "move_discussions_to_tags_help": ""
+                    "delete_user_label": "Usuń użytkownika",
+                    "delete_user_help": "Spowoduje to nieodwracalne usunięcie użytkownika. Po wyłączeniu tej opcji, użytkownik zostanie zbanowany.",
+                    "delete_discussions_label": "Usuń dyskusje",
+                    "delete_discussions_help": "Spowoduje to nieodwracalne usunięcie wszystkich dyskusji rozpoczętych przez tego użytkownika. Po wyłączeniu tej opcji dyskusje zostaną ukryte.",
+                    "delete_posts_label": "Usuń posty",
+                    "delete_posts_help": "Spowoduje to nieodwracalne usunięcie wszystkich postów napisanych przez tego użytkownika. Po wyłączeniu tej opcji posty zostaną ukryte.",
+                    "heading": "Domyślne akcje moderacyjne",
+                    "introduction": "Gdy użytkownik zostanie oznaczony jako spamer, moderatorzy mogą wybierać spośród różnych działań, jak poradzić sobie z konkretnym przypadkiem. Ustawienia te pozwalają na wstępne ustawienie działań, które zwykle podejmujesz, aby przyspieszyć proces, ale także pozwalają na zmiany w razie potrzeby.\n",
+                    "move_discussions_to_tags_label": "Przenieś dyskusje do tagu/tagów",
+                    "move_discussions_to_tags_help": "Spowoduje to przeniesienie wszystkich dyskusji rozpoczętych przez tego użytkownika do określonych tagów. Wyczyść wybór tagów, aby pozostawić dyskusje w ich oryginalnych tagach. To nie ma wpływu, jeśli opcja \"Usuń dyskusje\" jest włączona."
                 },
                 "stopforumspam": {
-                    "heading": "",
-                    "introduction": "",
-                    "username_label": "",
-                    "ip_label": "",
-                    "email_label": "",
-                    "frequency_label": "",
-                    "frequency_help": "",
-                    "api_key_label": "",
-                    "api_key_text": "",
-                    "api_key_instructions_text": "",
-                    "regional_endpoint_label": "",
-                    "regional_endpoint_help": "",
-                    "region_closest_label": "",
-                    "region_europe_label": "",
-                    "region_us_label": "",
-                    "confidence_label": "",
-                    "confidence_help": "",
-                    "email_hash_label": "",
-                    "email_hash_help": "",
-                    "sfs_lookup_label": "",
-                    "sfs_lookup_help": ""
+                    "heading": "StopForumSpam",
+                    "introduction": "Sprawdza nowe rejestracje użytkowników w bazie danych <a>StopForumSpam</a>. Jeśli osiągnięte zostaną progi <code>confidence</code> (pewności) lub <code>frequency</code> (częstotliwości), użytkownikowi uniemożliwione zostanie dokończenie rejestracji na twoim forum.\n\nObsługiwane jest także SSO przez <code>fof/oauth</code> i <code>fof/passport</code>. Inni dostawcy SSO powinni działać, ale nie są przetestowani.\n",
+                    "username_label": "Kontrola spamu nazwy użytkownika",
+                    "ip_label": "Kontrola spamu adresu IP",
+                    "email_label": "Kontrola spamu adresu e-mail",
+                    "frequency_label": "Próg",
+                    "frequency_help": "Liczba zgłoszeń spamu między wszystkimi włączonymi opcjami, które spowodują wyzwolenie filtra antyspamowego.\nNa przykład: Jeśli e-mail ma 1 trafienie, a adres IP ma 2 trafienia, w sumie będą 3 trafienia. Jeśli próg jest ustawiony na 3 lub mniej, uniemożliwimy rejestrację.\n",
+                    "api_key_label": "Klucz AIP",
+                    "api_key_text": "Masz możliwość zgłaszania spamerów do StopForumSpam, aby utrzymać większą społeczność forum wolną od spamu.",
+                    "api_key_instructions_text": "<register>Zarejestruj się w StopForumSpam</register>. Następnie należy tam <key>uzyskać klucz API</key>.",
+                    "regional_endpoint_label": "Dostęp geograficzny",
+                    "regional_endpoint_help": "Domyślnie skierujemy wyszukiwanie do najbliższego serwera regionalnego, aby zapewnić najszybszą odpowiedź. Jeśli chcesz ograniczyć ruch do określonego regionu, na przykład w celu zapewnienia zgodności z przepisami dotyczącymi prywatności firmy lub kraju, możesz wymusić połączenie z określonym regionem.",
+                    "region_closest_label": "Najbliższy",
+                    "region_europe_label": "Europa",
+                    "region_us_label": "Stany Zjednoczone",
+                    "confidence_label": "Pewność",
+                    "confidence_help": "Wynik pewności jest dość dobrym wskaźnikiem, że badane pole może skutkować niechcianą aktywnością. Ustaw swój poziom pewności jako procent. Jeśli pole jest równe lub przekracza tę wartość, rejestracja zostanie zablokowana, niezależnie od testu \"częstotliwości\" opisanego wyżej.",
+                    "email_hash_label": "Użyj zahashowanego adresu e-mail",
+                    "email_hash_help": "Przekaż skrót MD5 adresu e-mail, jeśli nie chcesz przekazywać samego adresu e-mail. Ta metoda omija wszystkie czarne listy, normalizację i kontrole omijające zaciemnianie.",
+                    "sfs_lookup_label": "Weryfikuj rejestracje",
+                    "sfs_lookup_help": "Jeśli ta opcja jest włączona, będziemy sprawdzać bazę danych StopForumSpam, gdy nowy użytkownik zarejestruje się na Twoim forum. Jeśli użytkownik zostanie znaleziony (nazwa użytkownika, adres IP, e-mail) i ten punkt danych jest włączony wraz z poziomem zaufania SFS osiągającym zdefiniowany poziom, uniemożliwimy mu dokończenie rejestracji."
                 }
             }
         },
         "forum": {
             "message": {
-                "spam": ""
+                "spam": "Twoje informacje zostały oznaczone jako spam."
             },
             "spammer_modal": {
-                "hard_delete_discussions_label": "",
-                "hard_delete_discussions_help": "",
-                "hard_delete_posts_label": "",
-                "hard_delete_posts_help": "",
-                "hard_delete_user_label": "",
-                "hard_delete_user_help": "",
-                "intro": "",
-                "move_discussions_tag_label": "",
-                "move_discussions_tag_help": "",
+                "hard_delete_discussions_label": "Usuń dyskusje",
+                "hard_delete_discussions_help": "Spowoduje to nieodwracalne usunięcie wszystkich dyskusji rozpoczętych przez tego użytkownika. Po wyłączeniu tej opcji dyskusje zostaną ukryte.",
+                "hard_delete_posts_label": "Usuń posty",
+                "hard_delete_posts_help": "Spowoduje to trwałe usunięcie wszystkich postów (komentarzy, odpowiedzi itp.) utworzonych przez tego użytkownika. Po wyłączeniu tej opcji, posty zostaną ukryte.",
+                "hard_delete_user_label": "Usuń użytkownika",
+                "hard_delete_user_help": "Spowoduje to nieodwracalne usunięcie użytkownika. Po wyłączeniu tej opcji, użytkownik zostanie zbanowany.",
+                "intro": "Oznaczając użytkownika jako spamera, zostanie podjętych kilka działań, które zależą od rozszerzeń dostępnych na Twoim forum.",
+                "move_discussions_tag_label": "Przenieś dyskusje do tagu kwarantanny",
+                "move_discussions_tag_help": "Spowoduje to przeniesienie wszystkich dyskusji rozpoczętych przez tego użytkownika do tagu określonego w ustawieniach forum. Gdy opcja ta jest wyłączona, dyskusje pozostaną w swoich aktualnych tagach.",
                 "process_button": "",
-                "title": "",
-                "report_to_sfs_label": "",
-                "report_to_sfs_help": ""
+                "title": "Oznacz {username} jako spamera",
+                "report_to_sfs_label": "Zgłoś do StopForumSpam",
+                "report_to_sfs_help": "Spowoduje to zgłoszenie podstawowych danych użytkownika (nazwa użytkownika, adres e-mail, adres IP) do StopForumSpam. Pomoże to zapobiec rejestracji użytkownika na innych forach korzystających z usługi StopForumSpam."
             },
             "user_controls": {
-                "spammer_button": ""
+                "spammer_button": "Spamer"
             }
         }
     }
