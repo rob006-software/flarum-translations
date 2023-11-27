@@ -2,29 +2,29 @@
     "datlechin-simple-tour-guide": {
         "admin": {
             "settings": {
-                "show_progress_label": "",
-                "show_progress_help": "",
-                "allow_close_label": "",
-                "allow_close_help": ""
+                "show_progress_label": "Показать прогресс",
+                "show_progress_help": "Установите, чтобы наверху всплывающего окна отображался текущий шаг и общее число шагов.",
+                "allow_close_label": "Разрешить закрытие",
+                "allow_close_help": "Разрешить пользователям закрывать всплывающее окно щелчком в области фона."
             },
             "edit_modal": {
-                "edit_step": "",
-                "create_step": "",
-                "delete_step": "",
-                "delete_step_confirmation": ""
+                "edit_step": "Править {title}",
+                "create_step": "Создать новый шаг",
+                "delete_step": "Удалить шаг",
+                "delete_step_confirmation": "Вы уверены, что хотите удалить этот шаг?"
             },
-            "title": "",
-            "title_placeholder": "",
-            "description": "",
-            "description_placeholder": "",
-            "target": "",
-            "target_placeholder": ""
+            "title": "Заголовок",
+            "title_placeholder": "Заголовок окна шага.",
+            "description": "Описание",
+            "description_placeholder": "Описание шага.",
+            "target": "Точка назначения",
+            "target_placeholder": "Точка назначения шага (т.е. #element-id)."
         },
         "forum": {
-            "progress_text": "",
-            "next_btn_text": "",
-            "prev_btn_text": "",
-            "done_btn_text": ""
+            "progress_text": "{current} из {total}",
+            "next_btn_text": "Следующий",
+            "prev_btn_text": "Предыдущий",
+            "done_btn_text": "Завершить"
         }
     }
 }
