@@ -4,6 +4,11 @@
             "configure_button_label": "Конфигурирай с FoF OAuth",
             "settings_accessibility_label": "{name} настройки",
             "settings": {
+                "advanced": {
+                    "heading": "",
+                    "log-oauth-errors-label": "",
+                    "log-oauth-errors-help": ""
+                },
                 "only_icons_label": "",
                 "update_email_from_provider_label": "Актуализирай имейл адреса от доставчика",
                 "update_email_from_provider_help": "Ако е активирано, имейл адресът на потребителя ще се актуализира, за да съответства на предоставения от доставчика на OAuth при всяко влизане във форума. Не всички доставчици предоставят актуализирания имейл, в който случай тази настройка няма да има ефект при тези доставчици.",

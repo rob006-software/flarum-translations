@@ -4,6 +4,11 @@
             "configure_button_label": "配置 FoF OAuth",
             "settings_accessibility_label": "{name} 設置",
             "settings": {
+                "advanced": {
+                    "heading": "",
+                    "log-oauth-errors-label": "",
+                    "log-oauth-errors-help": ""
+                },
                 "only_icons_label": "僅顯示登錄按鈕圖標（可選佈置）",
                 "update_email_from_provider_label": "更新提供商的電子郵件地址",
                 "update_email_from_provider_help": "如果啟用，用戶的電子郵件地址將更新以匹配 OAuth 提供商在每次登錄論壇時提供的地址。 並非所有提供商都提供更新的電子郵件，在這種情況下，此設置不會對這些提供商產生任何影響。",

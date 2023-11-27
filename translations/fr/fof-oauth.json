@@ -4,6 +4,11 @@
             "configure_button_label": "Configurer avec FoF OAuth",
             "settings_accessibility_label": "Paramètres de {name}",
             "settings": {
+                "advanced": {
+                    "heading": "",
+                    "log-oauth-errors-label": "",
+                    "log-oauth-errors-help": ""
+                },
                 "only_icons_label": "Afficher uniquement les icônes du bouton de connexion (disposition alternative)",
                 "update_email_from_provider_label": "Mettre à jour l'adresse de courriel du fournisseur",
                 "update_email_from_provider_help": "Si cette option est activée, l'adresse de courriel de l'utilisateur sera mise à jour pour correspondre à celle fournie par le fournisseur OAuth à chaque connexion au forum. Tous les fournisseurs ne fournissent pas l'adresse de courriel mise à jour, auquel cas ce paramètre n'aura aucun effet avec ces fournisseurs.",

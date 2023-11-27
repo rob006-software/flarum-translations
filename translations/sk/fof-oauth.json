@@ -4,6 +4,11 @@
             "configure_button_label": "Konfigurovať pomocou FoF OAuth",
             "settings_accessibility_label": "{name} nastavenia",
             "settings": {
+                "advanced": {
+                    "heading": "",
+                    "log-oauth-errors-label": "",
+                    "log-oauth-errors-help": ""
+                },
                 "only_icons_label": "Ukazovať iba ikony (iné rozloženie)",
                 "update_email_from_provider_label": "Aktualizovať emailovú adresu z poskytovateľa",
                 "update_email_from_provider_help": "Ak je táto možnosť povolená, e-mailová adresa používateľa sa pri každom prihlásení do fóra aktualizuje tak, aby zodpovedala adrese poskytnutej poskytovateľom OAuth. Nie všetci poskytovatelia poskytujú aktualizovaný e-mail, v takom prípade toto nastavenie nebude mať u týchto poskytovateľov žiadny účinok.",

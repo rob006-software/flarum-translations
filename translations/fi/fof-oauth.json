@@ -4,6 +4,11 @@
             "configure_button_label": "Määritä FoF OAuth",
             "settings_accessibility_label": "{name} asetukset",
             "settings": {
+                "advanced": {
+                    "heading": "",
+                    "log-oauth-errors-label": "",
+                    "log-oauth-errors-help": ""
+                },
                 "only_icons_label": "Näytä voin kirjaudu painikkeen ikonit (toissijainen ulkoasu)",
                 "update_email_from_provider_label": "Päivitä sähköpostiosoite toimittajalta",
                 "update_email_from_provider_help": "Jos käytössä, käyttäjän sähköpostiosoite vastaa OAuth toimittajan toimittamaa sähköpostia aina kirjautumisen yhteydessä. Kaikki toimittajat eivät toimita päivitettyä sähköpostia, jolloin niiden toimittajien kohdalla tällä asetuksella ei ole vaikutusta.",

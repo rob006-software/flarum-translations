@@ -4,6 +4,11 @@
             "configure_button_label": "Mit FoF OAuth konfigurieren",
             "settings_accessibility_label": "{name}-Einstellungen",
             "settings": {
+                "advanced": {
+                    "heading": "",
+                    "log-oauth-errors-label": "",
+                    "log-oauth-errors-help": ""
+                },
                 "only_icons_label": "Zeige nur die Symbole ohne Text auf den Einloggen-Buttons (alternatives Layout)",
                 "update_email_from_provider_label": "E-Mail Adresse vom Anbieter aktualisieren",
                 "update_email_from_provider_help": "Wenn diese Option aktiviert ist, wird die E-Mail-Adresse des Nutzers bei jeder Anmeldung im Forum aktualisiert, damit sie mit der vom OAuth-Anbieter angegebenen Adresse übereinstimmt. Nicht alle Anbieter stellen die aktualisierte E-Mail-Adresse zur Verfügung. In diesem Fall hat diese Einstellung bei diesen Anbietern keine Auswirkungen.",

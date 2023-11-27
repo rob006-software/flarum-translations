@@ -4,6 +4,11 @@
             "configure_button_label": "Mengkonfigurasi dengan FoF OAuth",
             "settings_accessibility_label": "Pengaturan {name}",
             "settings": {
+                "advanced": {
+                    "heading": "",
+                    "log-oauth-errors-label": "",
+                    "log-oauth-errors-help": ""
+                },
                 "only_icons_label": "Hanya menampilkan ikon (tata letak alternatif)",
                 "update_email_from_provider_label": "Memperbarui alamat email dari provider",
                 "update_email_from_provider_help": "Jika diaktifkan, alamat email pengguna akan diperbarui agar sesuai dengan yang disediakan oleh provider OAuth pada setiap login ke forum. Tidak semua penyedia menyediakan email yang diperbarui, dalam hal ini pengaturan ini tidak akan berpengaruh pada penyedia tersebut.",
