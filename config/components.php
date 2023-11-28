@@ -1210,6 +1210,9 @@ return [
 	'tpokorra-post-notification' => [
 		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.4.8/resources/locale/en.yml',
 	],
+	'umhelper-oauth-clerk' => [
+		'tag' => 'https://raw.githubusercontent.com/UMHelper/flarum-ext-oauth-clerk/1.0.1/locale/en.yml',
+	],
 	'v17development-blog' => [
 		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-blog/v0.7.7/locale/en.yaml',
 	],
