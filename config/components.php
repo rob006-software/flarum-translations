@@ -380,7 +380,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-birthdays-widget/v0.1.0/locale/en.yml',
 	],
 	'datlechin-chatgpt' => [
-		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-chatgpt/v0.3.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-chatgpt/v0.4.0/locale/en.yml',
 	],
 	'datlechin-copy-links' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-copy-links/v0.1.1/locale/en.yml',
