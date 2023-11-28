@@ -1,0 +1,29 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "clerk": {
+                        "description": "",
+                        "client_id_label": "",
+                        "client_secret_label": "",
+                        "oauth_domain_label": ""
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_clerk_button": ""
+            },
+            "providers": {
+                "clerk": ""
+            }
+        },
+        "lib": {
+            "providers": {
+                "clerk": ""
+            }
+        }
+    }
+}
