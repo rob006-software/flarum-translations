@@ -1150,6 +1150,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`tohsakarat-tags-filter`](https://weblate.rob006.net/projects/flarum/tohsakarat-tags-filter) | [`tohsakarat/tags-filter`](https://github.com/tohsakrat/flarum-tags-filter) |
 | [`tokenjenny-web3`](https://weblate.rob006.net/projects/flarum/tokenjenny-web3) | [`tokenjenny/flarum-ext-web3`](https://github.com/tokenjenny/flarum-ext-web3) |
 | [`tpokorra-post-notification`](https://weblate.rob006.net/projects/flarum/tpokorra-post-notification) | [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) |
+| [`umhelper-oauth-clerk`](https://weblate.rob006.net/projects/flarum/umhelper-oauth-clerk) | [`umhelper/oauth-clerk`](https://github.com/UMHelper/flarum-ext-oauth-clerk) |
 | [`v17development-blog`](https://weblate.rob006.net/projects/flarum/v17development-blog) | [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) |
 | [`v17development-seo`](https://weblate.rob006.net/projects/flarum/v17development-seo) | [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo) |
 | [`v17development-user-badges`](https://weblate.rob006.net/projects/flarum/v17development-user-badges) | [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges) |
