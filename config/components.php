@@ -103,6 +103,9 @@ return [
 	'blomstra-conversations' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-conversations/0.1.2/locale/en.yml',
 	],
+	'blomstra-database-queue' => [
+		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-database-queue/1.0.0/resources/locale/en.yml',
+	],
 	'blomstra-flag-duplicates' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-flag-duplicate/0.2.1/locale/en.yml',
 	],
