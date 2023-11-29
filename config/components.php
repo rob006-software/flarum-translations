@@ -1105,6 +1105,9 @@ return [
 	'nearata-twofactor' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-twofactor/v2.2.1/locale/en.yml',
 	],
+	'nikochian-auth-keycloak' => [
+		'tag' => 'https://raw.githubusercontent.com/nikochian/flarum-ext-auth-keycloak/1.0.0/locale/en.yml',
+	],
 	'nomiscz-auth-steam' => [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-steam/v1.0.2/resources/locale/en.yml',
 	],
