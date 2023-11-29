@@ -3,22 +3,22 @@
         "admin": {
             "stats": {
                 "auto_refresh": "自動重新整理",
-                "heading": "",
-                "full_dashboard": "",
-                "refresh": "",
+                "heading": "隊列概覽",
+                "full_dashboard": "Horizon 儀表板",
+                "refresh": "刷新",
                 "data": {
-                    "jobs-per-minute": "",
-                    "jobs-past-hour": "",
-                    "failed-last-seconds": "",
+                    "jobs-per-minute": "每分鐘作業數",
+                    "jobs-past-hour": "過去一小時的工作",
+                    "failed-last-seconds": "過去幾秒鐘失敗的作業",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "狀態",
+                        "running": "執行中",
+                        "inactive": "不活躍"
                     },
-                    "total-processes": "",
-                    "max-wait-time": "",
-                    "max-runtime": "",
-                    "max-throughput": ""
+                    "total-processes": "所有進程",
+                    "max-wait-time": "最大等待時間",
+                    "max-runtime": "最大執行時間",
+                    "max-throughput": "最大吞吐量"
                 }
             }
         }
