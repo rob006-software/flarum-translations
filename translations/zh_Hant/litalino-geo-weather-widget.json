@@ -2,21 +2,21 @@
     "geo-weather": {
         "forum": {
             "widget": {
-                "title": ""
+                "title": "地理天氣"
             },
-            "unknown": "",
-            "temp": "",
-            "not-supported": "",
-            "wind": "",
-            "rain": "",
-            "clouds": "",
-            "humidity": ""
+            "unknown": "不明",
+            "temp": "0°",
+            "not-supported": "該瀏覽器不支援地理位置。",
+            "wind": "速度",
+            "rain": "雨",
+            "clouds": "雲",
+            "humidity": "濕度"
         },
         "admin": {
-            "apiKey": "",
-            "apiKey-help": "",
-            "lang": "",
-            "lang-help": ""
+            "apiKey": "Api Key",
+            "apiKey-help": "將在 https://openweathermap.org/api 產生的免費 api 密鑰貼到此處",
+            "lang": "選擇輸出語言（僅限 1 個前綴）",
+            "lang-help": "在此欄位中輸入您的語言前綴（例如 it、fr、en），請在 <strong>https://openweathermap.org/api/one-call-api#multi</strong> 檢查您的語言前綴"
         }
     }
 }
