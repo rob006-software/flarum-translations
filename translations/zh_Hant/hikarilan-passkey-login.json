@@ -4,39 +4,39 @@
             "settings": {
                 "relying_party": {
                     "name": {
-                        "label": "",
-                        "help": ""
+                        "label": "依賴方名稱",
+                        "help": "依賴方名稱是您的網站的可讀名稱。 如果保留為空，則將使用論壇標題。"
                     },
                     "id": {
-                        "label": "",
-                        "help": ""
+                        "label": "依賴方 ID",
+                        "help": "依賴方 ID 是您網站的唯一識別碼。 應該是沒有方案的網站網域。 例如，如果您的網站是 https://example.com，則 rp ID 將為 example.com。 如果保留為空，則將使用目前網域。"
                     }
                 },
                 "timeout": {
-                    "label": "",
-                    "help": ""
+                    "label": "超時",
+                    "help": "金鑰驗證的超時時間（以秒為單位）。 預設值為 60 秒。"
                 }
             }
         },
         "forum": {
             "login": {
-                "with-passkey": ""
+                "with-passkey": "使用密碼登入"
             },
             "user": {
                 "settings": {
                     "passkeys": {
-                        "title": "",
-                        "label": "",
-                        "add-new-passkey": "",
-                        "error": ""
+                        "title": "密碼",
+                        "label": "Passkey 是一種密碼替代品，可使用觸控、臉部辨識、裝置密碼或 PIN 來驗證您的身分。",
+                        "add-new-passkey": "新增 passkey",
+                        "error": "發生了內部錯誤。 請稍後再試。"
                     },
                     "alias-modal": {
-                        "title": "",
-                        "label": ""
+                        "title": "Passkey 已註冊！",
+                        "label": "現在，讓我們為您的 passkey 指定一個別名。"
                     },
                     "item": {
-                        "revoke": "",
-                        "revoke_success": ""
+                        "revoke": "=> core.forum.security.revoke_access_token",
+                        "revoke_success": "Passkey 已成功撤銷。"
                     }
                 }
             }
