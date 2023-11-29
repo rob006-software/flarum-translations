@@ -5,9 +5,9 @@
             "settings_accessibility_label": "{name} 設置",
             "settings": {
                 "advanced": {
-                    "heading": "",
-                    "log-oauth-errors-label": "",
-                    "log-oauth-errors-help": ""
+                    "heading": "進階",
+                    "log-oauth-errors-label": "記錄 OAuth 錯誤",
+                    "log-oauth-errors-help": "如果啟用，OAuth 錯誤將記錄到 Flarum 日誌中。 這可能有助於調試 OAuth 問題，但也可能包含敏感資訊。"
                 },
                 "only_icons_label": "僅顯示登錄按鈕圖標（可選佈置）",
                 "update_email_from_provider_label": "更新提供商的電子郵件地址",
