@@ -4,25 +4,25 @@
             "settings": {
                 "providers": {
                     "clerk": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": "",
-                        "oauth_domain_label": ""
+                        "description": "使用 Clerk SSO {link} 註冊您的論壇",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "oauth_domain_label": "您的 Clerk 應用程式的網域（clerk.xxx.com 或 xxx.clerk.accounts.dev）"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_clerk_button": ""
+                "with_clerk_button": "使用Clerk登入"
             },
             "providers": {
-                "clerk": ""
+                "clerk": "=> fof-oauth.lib.providers.clerk"
             }
         },
         "lib": {
             "providers": {
-                "clerk": ""
+                "clerk": "Clerk"
             }
         }
     }
