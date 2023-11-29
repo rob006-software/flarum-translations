@@ -4,8 +4,8 @@
             "data": {
                 "uploads": {
                     "export_description": "Все файлы, загруженные этим пользователем.",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "anonymize_description": "Удаляет ссылку на пользователя из загруженных файлов. Файлы остаются доступными пользователям, имевшим права доступа до их анонимизации.",
+                    "delete_description": "Удалить все файлы, загруженные пользователем."
                 }
             }
         }
@@ -26,7 +26,7 @@
                 "watermark": "Водяной знак будет добавляться к загружаемым изображениям (кроме GIF).\n",
                 "s3_compatible_storage": "Следующие настройки требуются только при использовании хранилища, совместимого с S3. Если Вы используете AWS, оставьте поля пустыми.\n",
                 "s3_acl": "Список контроля доступа (ACL), который будет применяться к загружаемому файлу (по умолчанию: private). Возможные значения смотрите на странице https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
-                "s3_instance_profile": "",
+                "s3_instance_profile": "Оставить ключ/секретный ключ пустыми для использования логина/пароля из соответствующего профиля.\n",
                 "composer_buttons": "По умолчанию отображаются кнопки менеджера файлов и загрузки. Вы можете выбрать отображение одной из кнопок.\n"
             },
             "labels": {
@@ -132,7 +132,7 @@
                 "validation-passed": "Пройден",
                 "validation-failed": "Неудачный: {error}",
                 "mime-detector": "Детектор Mime (основной)",
-                "mime-fileinfo": "",
+                "mime-fileinfo": "Данные файла PHP (резервные)",
                 "guessed-extension": "Расширение файла по умолчанию (если оригинал не занесен в белый список)",
                 "not-available": "Нет результата"
             }
@@ -184,14 +184,14 @@
                 "forbidden_type": "Загрузка файлов этого типа запрещена.",
                 "unsupported_type": "Адаптер загрузки не поддерживает такой тип MIME: {mime}.",
                 "could_not_detect_mime": "Не удалось определить тип MIME этого файла. Пожалуйста, попробуйте ещё раз.",
-                "max_upload_file_size_ini": "",
-                "max_upload_file_size_form": "",
-                "partial_upload": "",
-                "no_file_uploaded": "",
-                "no_upload_tmp_folder": "",
-                "cannot_write_to_disk": "",
-                "upload_blocked_by_php_extension": "",
-                "no_files_made_it_to_upload": ""
+                "max_upload_file_size_ini": "Достигнут максимальный предел размера загружаемого файла из php.ini.",
+                "max_upload_file_size_form": "Достигнут максимальный предел размера загружаемого файла из формы.",
+                "partial_upload": "Частичная загрузка.",
+                "no_file_uploaded": "Нет загруженных файлов.",
+                "no_upload_tmp_folder": "Не установлена временная папка для загружаемых файлов.",
+                "cannot_write_to_disk": "Запись на диск невозможна.",
+                "upload_blocked_by_php_extension": "Расширение PHP блокирует загрузку.",
+                "no_files_made_it_to_upload": "Пожалуйста, не загружайте файлы размером свыше {max} кБ."
             }
         }
     }
