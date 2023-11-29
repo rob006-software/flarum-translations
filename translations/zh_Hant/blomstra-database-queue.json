@@ -3,16 +3,16 @@
         "admin": {
             "stats": {
                 "auto_refresh": "自動重新整理",
-                "heading": "",
-                "refresh": "",
+                "heading": "隊列概覽",
+                "refresh": "刷新",
                 "data": {
-                    "queue-name": "",
-                    "pending-jobs": "",
-                    "failed-jobs": "",
+                    "queue-name": "佇列",
+                    "pending-jobs": "待處理的工作",
+                    "failed-jobs": "失敗的工作",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "地位",
+                        "running": "執行中",
+                        "inactive": "不活躍"
                     }
                 }
             }
