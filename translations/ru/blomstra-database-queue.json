@@ -2,17 +2,17 @@
     "blomstra-database-queue": {
         "admin": {
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
-                "refresh": "",
+                "auto_refresh": "Обновить автоматически",
+                "heading": "Обзор очереди",
+                "refresh": "Обновить",
                 "data": {
-                    "queue-name": "",
-                    "pending-jobs": "",
-                    "failed-jobs": "",
+                    "queue-name": "Очередь",
+                    "pending-jobs": "Ожидающие задачи",
+                    "failed-jobs": "Неудавшиеся задачи",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "Статус",
+                        "running": "Выполняется",
+                        "inactive": "Неактивная"
                     }
                 }
             }
