@@ -2,19 +2,19 @@
     "imdong-visible-to-op-only": {
         "admin": {
             "permissions": {
-                "view-post": "",
-                "view-hide-post": ""
+                "view-post": "查看文章",
+                "view-hide-post": "看隱藏內容"
             },
             "settings": {
-                "allow-view-sticky": "",
-                "allow-view-sticky-text": ""
+                "allow-view-sticky": "允許查看 置頂",
+                "allow-view-sticky-text": "在禁止查看回覆的標籤下，也可以查看置頂貼出的回覆內容，需要搭配外掛程式Sticiest & & Sticky（可忽略）"
             }
         },
         "forum": {
-            "button_tooltip_only_op_see": "",
-            "hidden_content_only_op_see": "",
-            "only_op_see": "",
-            "editor_empty_tips": ""
+            "button_tooltip_only_op_see": "只有OP看到",
+            "hidden_content_only_op_see": "此內容僅對 OP 可見",
+            "only_op_see": "只有OP可見",
+            "editor_empty_tips": "代碼[OP][/OP]中間為空"
         }
     }
 }
