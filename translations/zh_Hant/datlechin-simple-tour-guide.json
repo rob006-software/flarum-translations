@@ -3,28 +3,28 @@
         "admin": {
             "settings": {
                 "show_progress_label": "顯示流程",
-                "show_progress_help": "",
-                "allow_close_label": "",
-                "allow_close_help": ""
+                "show_progress_help": "這將在彈出視窗頂部顯示當前步驟和總步驟。",
+                "allow_close_label": "允許關閉",
+                "allow_close_help": "允許使用者透過點擊背景來關閉彈出視窗。"
             },
             "edit_modal": {
-                "edit_step": "",
-                "create_step": "",
-                "delete_step": "",
-                "delete_step_confirmation": ""
+                "edit_step": "編輯 {title}",
+                "create_step": "建立新步驟",
+                "delete_step": "刪除步驟",
+                "delete_step_confirmation": "您確定要刪除此步驟嗎？"
             },
-            "title": "",
-            "title_placeholder": "",
-            "description": "",
-            "description_placeholder": "",
-            "target": "",
-            "target_placeholder": ""
+            "title": "標題",
+            "title_placeholder": "步驟的標題。",
+            "description": "描述",
+            "description_placeholder": "步驟的描述。",
+            "target": "目標",
+            "target_placeholder": "步驟的目標元素（例如#element-id）。"
         },
         "forum": {
-            "progress_text": "",
-            "next_btn_text": "",
-            "prev_btn_text": "",
-            "done_btn_text": ""
+            "progress_text": "{current} of {total}",
+            "next_btn_text": "下一個",
+            "prev_btn_text": "上一頁",
+            "done_btn_text": "完成"
         }
     }
 }
