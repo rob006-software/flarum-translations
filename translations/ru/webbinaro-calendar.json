@@ -13,21 +13,21 @@
                 "dates_label": "Когда",
                 "description_label": "Детали",
                 "description_placeholder": "Детали события",
-                "requirement_message": "",
+                "requirement_message": "События должны иметь название и описание",
                 "submit": "Отправить"
             },
             "event": {
                 "details": "Больше сведений об этом событии",
-                "hosted_by": "",
-                "starts": "",
-                "ends": "",
-                "confirm_delete": "",
-                "deleted": ""
+                "hosted_by": "Кто проводит:",
+                "starts": "Начало:",
+                "ends": "Завершение:",
+                "confirm_delete": "Вы уверены, что хотите удалить событие?",
+                "deleted": "Событие удалено"
             }
         },
         "admin": {
             "settings": {
-                "hide_host": ""
+                "hide_host": "Не отображать \"кто проводит\""
             },
             "permissions": {
                 "add": "Создать новые события Календаря",
