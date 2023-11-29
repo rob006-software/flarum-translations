@@ -2,28 +2,28 @@
     "imdong-spam-alert": {
         "admin": {
             "permissions": {
-                "set-spam": "",
-                "see-spam-info": ""
+                "set-spam": "設定垃圾郵件",
+                "see-spam-info": "查看垃圾郵件訊息"
             },
             "settings": {
-                "btn-name": "",
-                "btn-name-help": "",
-                "to-folding-number": "",
-                "to-folding-number-help": ""
+                "btn-name": "垃圾郵件",
+                "btn-name-help": "預設情況下，向使用者顯示的該按鈕的名稱是「垃圾郵件」。",
+                "to-folding-number": "自動折疊",
+                "to-folding-number-help": "標記多少人時自動折疊隱藏內容，設定為0不自動折疊"
             }
         },
         "forum": {
             "post": {
-                "btn-set-spam": "",
-                "btn-unset-spam": "",
-                "spam-hide-tips": ""
+                "btn-set-spam": "設定垃圾郵件",
+                "btn-unset-spam": "取消設定垃圾郵件",
+                "spam-hide-tips": "垃圾郵件被隱藏"
             },
             "notification": {
-                "content": "",
-                "excerpt": ""
+                "content": "回復因多次被標記為垃圾而被收疊",
+                "excerpt": "請遵守規定，如重複標記垃圾可能會受到系統處罰。"
             },
             "settings": {
-                "notify_post_spam_hide_label": ""
+                "notify_post_spam_hide_label": "垃圾箱因標籤而隱藏"
             }
         }
     }
