@@ -5,6 +5,7 @@
                 "spamblock_users_label": "Oznacz użytkownika jako spamera"
             },
             "settings": {
+                "button": "",
                 "default-actions": {
                     "delete_user_label": "Usuń użytkownika",
                     "delete_user_help": "Spowoduje to nieodwracalne usunięcie użytkownika. Po wyłączeniu tej opcji, użytkownik zostanie zbanowany.",
@@ -40,10 +41,27 @@
                     "sfs_lookup_label": "Weryfikuj rejestracje",
                     "sfs_lookup_help": "Jeśli ta opcja jest włączona, będziemy sprawdzać bazę danych StopForumSpam, gdy nowy użytkownik zarejestruje się na Twoim forum. Jeśli użytkownik zostanie znaleziony (nazwa użytkownika, adres IP, e-mail) i ten punkt danych jest włączony wraz z poziomem zaufania SFS osiągającym zdefiniowany poziom, uniemożliwimy mu dokończenie rejestracji."
                 }
+            },
+            "blocked_registrations": {
+                "button": "",
+                "title": "",
+                "no-records": "",
+                "help": "",
+                "attempted-at": "",
+                "ip": "",
+                "email": "",
+                "username": "",
+                "login-provider": "",
+                "login-provider-data": "",
+                "sfs-data": "",
+                "delete_entry": ""
             }
         },
         "forum": {
             "message": {
+                "stopforumspam": {
+                    "blocked": ""
+                },
                 "spam": "Twoje informacje zostały oznaczone jako spam."
             },
             "spammer_modal": {

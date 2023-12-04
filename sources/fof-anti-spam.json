@@ -5,6 +5,7 @@
                 "spamblock_users_label": "Mark user as spammer"
             },
             "settings": {
+                "button": "Settings",
                 "default-actions": {
                     "delete_user_label": "Delete user",
                     "delete_user_help": "This will permanently delete the user. When disabled, the user will be suspended instead.",
@@ -40,11 +41,27 @@
                     "sfs_lookup_label": "Lookup registrations",
                     "sfs_lookup_help": "If enabled, we will check the StopForumSpam database when a new user registers on your forum. If the user is found (username, IP address, email) and that data point is enabled along with the SFS confidence level reaching your defined level, they will be prevented from completing their registration."
                 }
+            },
+            "blocked_registrations": {
+                "button": "Blocked Registrations",
+                "title": "Blocked Registrations",
+                "no-records": "No blocked registrations found.",
+                "help": "This page shows all registrations that have been blocked by the StopForumSpam service. You can view the details of each registration, and if you wish, you can delete the record from the database.\n",
+                "attempted-at": "Attempted at",
+                "ip": "IP Address",
+                "email": "Email Address",
+                "username": "Username",
+                "login-provider": "Login Provider",
+                "login-provider-data": "Login Provider Data",
+                "sfs-data": "StopForumSpam Data",
+                "delete_entry": "Delete entry"
             }
         },
         "forum": {
             "message": {
-                "spam": "Your info has been marked as spam."
+                "stopforumspam": {
+                    "blocked": "Details of your registration have been found in a spam prevention database, therefore your registration has been blocked."
+                }
             },
             "spammer_modal": {
                 "hard_delete_discussions_label": "Delete discussions",

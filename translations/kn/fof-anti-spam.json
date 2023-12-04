@@ -5,6 +5,7 @@
                 "spamblock_users_label": ""
             },
             "settings": {
+                "button": "",
                 "default-actions": {
                     "delete_user_label": "",
                     "delete_user_help": "",
@@ -40,11 +41,27 @@
                     "sfs_lookup_label": "",
                     "sfs_lookup_help": ""
                 }
+            },
+            "blocked_registrations": {
+                "button": "",
+                "title": "",
+                "no-records": "",
+                "help": "",
+                "attempted-at": "",
+                "ip": "",
+                "email": "",
+                "username": "",
+                "login-provider": "",
+                "login-provider-data": "",
+                "sfs-data": "",
+                "delete_entry": ""
             }
         },
         "forum": {
             "message": {
-                "spam": ""
+                "stopforumspam": {
+                    "blocked": ""
+                }
             },
             "spammer_modal": {
                 "hard_delete_discussions_label": "",

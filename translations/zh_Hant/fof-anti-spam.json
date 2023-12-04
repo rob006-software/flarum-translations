@@ -5,6 +5,7 @@
                 "spamblock_users_label": "標示用戶為垃圾郵件發送者"
             },
             "settings": {
+                "button": "",
                 "default-actions": {
                     "delete_user_label": "刪除用戶",
                     "delete_user_help": "這將永久刪除該用戶。 停用後，用戶將被暫停。",
@@ -40,11 +41,27 @@
                     "sfs_lookup_label": "",
                     "sfs_lookup_help": ""
                 }
+            },
+            "blocked_registrations": {
+                "button": "",
+                "title": "",
+                "no-records": "",
+                "help": "",
+                "attempted-at": "",
+                "ip": "",
+                "email": "",
+                "username": "",
+                "login-provider": "",
+                "login-provider-data": "",
+                "sfs-data": "",
+                "delete_entry": ""
             }
         },
         "forum": {
             "message": {
-                "spam": ""
+                "stopforumspam": {
+                    "blocked": ""
+                }
             },
             "spammer_modal": {
                 "hard_delete_discussions_label": "",
