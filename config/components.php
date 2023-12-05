@@ -1112,7 +1112,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-wechat/v1.0.1/resources/locale/en.yml',
 	],
 	'nospi-oauth-microsoft' => [
-		'tag' => 'https://raw.githubusercontent.com/nospi/flarum-ext-oauth-microsoft/0.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/nospi/flarum-ext-oauth-microsoft/0.1.3/locale/en.yml',
 	],
 	'nosun-reply-to-see' => [
 		'tag' => 'https://raw.githubusercontent.com/nosun/flarum-ext-reply2see/v1.03/resources/locale/en.yml',
