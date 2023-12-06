@@ -22,10 +22,10 @@
             },
             "page": {
                 "cdn": {
-                    "title": "",
-                    "help": "",
-                    "label": "",
-                    "default-url": ""
+                    "title": "CDN",
+                    "help": "Secara default, kami menyajikan reaction assets dari CDN Cloudflare. Anda juga memiliki opsi untuk menentukan alamat CDN lain \nsesuai kebutuhan. <code>[codepoint]</code> akan diganti dengan codepoint emoji.\n\nSebagai contoh, untuk beralih ke Noto Emoji melalui jsdelivr, Anda akan memasukkan <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Kolom ini TIDAK BOLEH dikosongkan.\n",
+                    "label": "URL",
+                    "default-url": "Default: {url}"
                 },
                 "reactions": {
                     "title": "Reaksi Khusus",
