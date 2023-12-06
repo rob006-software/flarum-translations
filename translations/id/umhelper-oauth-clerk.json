@@ -4,25 +4,25 @@
             "settings": {
                 "providers": {
                     "clerk": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": "",
-                        "oauth_domain_label": ""
+                        "description": "Daftarkan forum Anda dengan Clerk SSO {link}",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "oauth_domain_label": "Domain aplikasi Clerk Anda (clerk.xxx.com atau xxx.clerk.accounts.dev)"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_clerk_button": ""
+                "with_clerk_button": "Masuk dengan Clerk"
             },
             "providers": {
-                "clerk": ""
+                "clerk": "=> fof-oauth.lib.providers.clerk"
             }
         },
         "lib": {
             "providers": {
-                "clerk": ""
+                "clerk": "Clerk"
             }
         }
     }
