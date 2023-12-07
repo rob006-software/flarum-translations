@@ -4,39 +4,39 @@
             "settings": {
                 "relying_party": {
                     "name": {
-                        "label": "",
-                        "help": ""
+                        "label": "Nom du bénéficiaire",
+                        "help": "Le nom du bénéficiaire est un nom lisible par l'œil humain pour votre site. S'il reste vide, le titre du forum sera utilisé."
                     },
                     "id": {
-                        "label": "",
-                        "help": ""
+                        "label": "Identifiant du bénéficiaire",
+                        "help": "L'identifiant du bénéficiaire est un identifiant unique pour votre site. Il s'agit du domaine du site web sans le schéma. Par exemple, si votre site web est https://example.com, l'identifiant du bénéficiaire sera example.com. S'il reste vide, le domaine actuel sera utilisé."
                     }
                 },
                 "timeout": {
-                    "label": "",
-                    "help": ""
+                    "label": "Délai d'attente",
+                    "help": "Le délai d'attente pour la vérification du mot de passe, en secondes. La valeur par défaut est de 60 secondes."
                 }
             }
         },
         "forum": {
             "login": {
-                "with-passkey": ""
+                "with-passkey": "Se connecter avec une clé d'accès"
             },
             "user": {
                 "settings": {
                     "passkeys": {
-                        "title": "",
-                        "label": "",
-                        "add-new-passkey": "",
-                        "error": ""
+                        "title": "Clé d'accès",
+                        "label": "Une clé d'accès est un substitut du mot de passe qui valide votre identité en utilisant le toucher, la reconnaissance faciale, le mot de passe d'un appareil ou un code PIN.",
+                        "add-new-passkey": "Ajouter une clé d'accès",
+                        "error": "Une erreur interne s'est produite. Veuillez réessayer plus tard."
                     },
                     "alias-modal": {
-                        "title": "",
-                        "label": ""
+                        "title": "Clé d'accès enregistrée !",
+                        "label": "Et maintenant, donnons un alias à votre mot de passe."
                     },
                     "item": {
-                        "revoke": "",
-                        "revoke_success": ""
+                        "revoke": "=> core.forum.security.revoke_access_token",
+                        "revoke_success": "La clé d'accès a été révoquée avec succès."
                     }
                 }
             }
