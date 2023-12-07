@@ -2,29 +2,29 @@
     "datlechin-simple-tour-guide": {
         "admin": {
             "settings": {
-                "show_progress_label": "",
-                "show_progress_help": "",
-                "allow_close_label": "",
-                "allow_close_help": ""
+                "show_progress_label": "Afficher l'état d'avancement",
+                "show_progress_help": "L'étape actuelle et le nombre total d'étapes s'afficheront en haut de la fenêtre contextuelle.",
+                "allow_close_label": "Autoriser la fermeture",
+                "allow_close_help": "Permettre aux utilisateurs de fermer la fenêtre contextuelle en cliquant sur l'arrière-plan."
             },
             "edit_modal": {
-                "edit_step": "",
-                "create_step": "",
-                "delete_step": "",
-                "delete_step_confirmation": ""
+                "edit_step": "Modifier {title}",
+                "create_step": "Créer une nouvelle étape",
+                "delete_step": "Supprimer une étape",
+                "delete_step_confirmation": "Êtes-vous sûr de vouloir supprimer cette étape ?"
             },
-            "title": "",
-            "title_placeholder": "",
-            "description": "",
-            "description_placeholder": "",
-            "target": "",
-            "target_placeholder": ""
+            "title": "Titre",
+            "title_placeholder": "Le titre de l'étape.",
+            "description": "Description",
+            "description_placeholder": "La description de l'étape.",
+            "target": "Cible",
+            "target_placeholder": "L'élément cible de l'étape (par exemple #element-id)."
         },
         "forum": {
-            "progress_text": "",
-            "next_btn_text": "",
-            "prev_btn_text": "",
-            "done_btn_text": ""
+            "progress_text": "{current} de {total}",
+            "next_btn_text": "Suivant",
+            "prev_btn_text": "Précédent",
+            "done_btn_text": "Effectué"
         }
     }
 }
