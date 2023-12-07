@@ -2,17 +2,17 @@
     "blomstra-database-queue": {
         "admin": {
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
-                "refresh": "",
+                "auto_refresh": "Actualisation automatique",
+                "heading": "Vue d'ensemble de la file d'attente",
+                "refresh": "Actualiser",
                 "data": {
-                    "queue-name": "",
-                    "pending-jobs": "",
-                    "failed-jobs": "",
+                    "queue-name": "File d'attente",
+                    "pending-jobs": "Travaux en attente",
+                    "failed-jobs": "Travaux échoués",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "Statut",
+                        "running": "En cours d'exécution",
+                        "inactive": "Inactif"
                     }
                 }
             }
