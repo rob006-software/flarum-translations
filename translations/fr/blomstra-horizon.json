@@ -2,23 +2,23 @@
     "blomstra-horizon": {
         "admin": {
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
-                "full_dashboard": "",
-                "refresh": "",
+                "auto_refresh": "Actualisation automatique",
+                "heading": "Vue d'ensemble de la file d'attente",
+                "full_dashboard": "Tableau de bord de Horizon",
+                "refresh": "Actualiser",
                 "data": {
-                    "jobs-per-minute": "",
-                    "jobs-past-hour": "",
-                    "failed-last-seconds": "",
+                    "jobs-per-minute": "Emplois par minute",
+                    "jobs-past-hour": "Travaux de l'heure écoulée",
+                    "failed-last-seconds": "Travaux échoués au cours des dernières secondes",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "Statut",
+                        "running": "En cours d'exécution",
+                        "inactive": "Inactif"
                     },
-                    "total-processes": "",
-                    "max-wait-time": "",
-                    "max-runtime": "",
-                    "max-throughput": ""
+                    "total-processes": "Processus totaux",
+                    "max-wait-time": "Temps d'attente maximal",
+                    "max-runtime": "Durée d'exécution maximale",
+                    "max-throughput": "Débit maximal"
                 }
             }
         }
