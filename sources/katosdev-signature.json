@@ -3,43 +3,30 @@
         "forum": {
             "buttons": {
                 "signature": "Signature",
-                "save": "Save Signature"
-            },
-            "modal": {
-                "loading": {
-                    "title": "Saving",
-                    "content": "Please wait..."
-                },
-                "error": {
-                    "title": "Whoops! Encountered some errors while saving...",
-                    "content": "List of errors:"
-                }
+                "save": "Save Signature",
+                "edit": "Edit Signature"
             },
             "errors": {
                 "max_char_limit_exceed": "Maximum character limit exceeded.",
-                "max_image_width_exceed": "Maximum image width limit exceeded.",
-                "max_image_height_exceed": "Maximum image height limit exceeded.",
                 "max_image_count_exceed": "Maximum image count exceeded."
+            },
+            "profile": {
+                "click": "Click to write your signature"
             }
         },
         "admin": {
-            "title": "Signature",
+            "permissions": {
+                "edit_signature_others": "Edit other users' signatures",
+                "allow_signature": "Allow users to use signatures"
+            },
             "settings": {
-                "maximum_image_width": {
-                    "description": "Maximum width of images on editor.",
-                    "placeholder": "350 (default)"
-                },
-                "maximum_image_height": {
-                    "description": "Maximum height of sum height of total inserted images on editor.",
-                    "placeholder": "500 (default)"
-                },
                 "maximum_image_count": {
                     "description": "Maximum inserted images.",
-                    "placeholder": "5 (default)"
+                    "help": "When the user exceeds the maximum image count in their signature, they will be prevented from saving until the image count is accordingly."
                 },
                 "maximum_char_limit": {
-                    "description": "Maximum character limit of signature (characters only, HTML tags are not counted).",
-                    "placeholder": "1000 (default)"
+                    "description": "Maximum character limit of signature.",
+                    "help": "When the user exceeds the maximum character limit in their signature, they will be prevented from saving until the character count is accordingly."
                 }
             }
         }

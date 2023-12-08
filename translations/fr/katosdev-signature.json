@@ -3,7 +3,17 @@
         "forum": {
             "buttons": {
                 "signature": "Signature",
-                "save": "Enregistrer la signature"
+                "save": "Enregistrer la signature",
+                "edit": ""
+            },
+            "errors": {
+                "max_char_limit_exceed": "La limite maximale de caractères a été dépassée.",
+                "max_image_count_exceed": "Le nombre maximum d'images a été dépassé.",
+                "max_image_width_exceed": "La limite de largeur maximale de l'image a été dépassée.",
+                "max_image_height_exceed": "La limite de hauteur maximale de l'image a été dépassée."
+            },
+            "profile": {
+                "click": ""
             },
             "modal": {
                 "loading": {
@@ -14,17 +24,24 @@
                     "title": "Oups ! Des erreurs sont survenues lors de l'enregistrement…",
                     "content": "Liste des erreurs :"
                 }
-            },
-            "errors": {
-                "max_char_limit_exceed": "La limite maximale de caractères a été dépassée.",
-                "max_image_width_exceed": "La limite de largeur maximale de l'image a été dépassée.",
-                "max_image_height_exceed": "La limite de hauteur maximale de l'image a été dépassée.",
-                "max_image_count_exceed": "Le nombre maximum d'images a été dépassé."
             }
         },
         "admin": {
-            "title": "Signature",
+            "permissions": {
+                "edit_signature_others": "",
+                "allow_signature": ""
+            },
             "settings": {
+                "maximum_image_count": {
+                    "description": "Maximum d'images insérées.",
+                    "help": "",
+                    "placeholder": "5 (par défaut)"
+                },
+                "maximum_char_limit": {
+                    "description": "Limite maximale de caractères de la signature (caractères uniquement, les balises HTML ne sont pas prises en compte).",
+                    "help": "",
+                    "placeholder": "1000 (par défaut)"
+                },
                 "maximum_image_width": {
                     "description": "Largeur maximale des images sur l'éditeur.",
                     "placeholder": "350 (par défaut)"
@@ -32,16 +49,9 @@
                 "maximum_image_height": {
                     "description": "Hauteur maximale de la somme des hauteurs des images insérées dans l'éditeur.",
                     "placeholder": "500 (par défaut)"
-                },
-                "maximum_image_count": {
-                    "description": "Maximum d'images insérées.",
-                    "placeholder": "5 (par défaut)"
-                },
-                "maximum_char_limit": {
-                    "description": "Limite maximale de caractères de la signature (caractères uniquement, les balises HTML ne sont pas prises en compte).",
-                    "placeholder": "1000 (par défaut)"
                 }
-            }
+            },
+            "title": "Signature"
         }
     }
 }

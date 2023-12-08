@@ -3,7 +3,17 @@
         "forum": {
             "buttons": {
                 "signature": "Підпис",
-                "save": "Зберегти підпис"
+                "save": "Зберегти підпис",
+                "edit": ""
+            },
+            "errors": {
+                "max_char_limit_exceed": "Перевищено максимальний ліміт символів.",
+                "max_image_count_exceed": "Перевищено максимальну кількість зображень.",
+                "max_image_width_exceed": "Перевищено ліміт максимальної ширини зображення.",
+                "max_image_height_exceed": "Перевищено максимальну висоту зображення."
+            },
+            "profile": {
+                "click": ""
             },
             "modal": {
                 "loading": {
@@ -14,17 +24,24 @@
                     "title": "Упс! Виникли помилки при збереженні...",
                     "content": "Список помилок:"
                 }
-            },
-            "errors": {
-                "max_char_limit_exceed": "Перевищено максимальний ліміт символів.",
-                "max_image_width_exceed": "Перевищено ліміт максимальної ширини зображення.",
-                "max_image_height_exceed": "Перевищено максимальну висоту зображення.",
-                "max_image_count_exceed": "Перевищено максимальну кількість зображень."
             }
         },
         "admin": {
-            "title": "Підпис",
+            "permissions": {
+                "edit_signature_others": "",
+                "allow_signature": ""
+            },
             "settings": {
+                "maximum_image_count": {
+                    "description": "Максимум вставлених зображень.",
+                    "help": "",
+                    "placeholder": "5 (за налаштуванням)"
+                },
+                "maximum_char_limit": {
+                    "description": "Максимальний ліміт підпису (символів, без урахування HTML-тегів)",
+                    "help": "",
+                    "placeholder": "1000 (за налаштуванням)"
+                },
                 "maximum_image_width": {
                     "description": "Максимальна ширина зображень у редакторі.",
                     "placeholder": "350 (за налаштуванням)"
@@ -32,16 +49,9 @@
                 "maximum_image_height": {
                     "description": "Максимальна висота суми висоти всіх вставлених зображень у редакторі.",
                     "placeholder": "500 (за налаштуванням)"
-                },
-                "maximum_image_count": {
-                    "description": "Максимум вставлених зображень.",
-                    "placeholder": "5 (за налаштуванням)"
-                },
-                "maximum_char_limit": {
-                    "description": "Максимальний ліміт підпису (символів, без урахування HTML-тегів)",
-                    "placeholder": "1000 (за налаштуванням)"
                 }
-            }
+            },
+            "title": "Підпис"
         }
     }
 }

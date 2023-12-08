@@ -3,7 +3,17 @@
         "forum": {
             "buttons": {
                 "signature": "Aláírás",
-                "save": "Aláírás mentése"
+                "save": "Aláírás mentése",
+                "edit": ""
+            },
+            "errors": {
+                "max_char_limit_exceed": "Maximális karakterkorlát túllépve.",
+                "max_image_count_exceed": "Maximális képszám túllépve.",
+                "max_image_width_exceed": "Maximális képszélességi korlát túllépve.",
+                "max_image_height_exceed": "Maximális képmagassági korlát túllépve."
+            },
+            "profile": {
+                "click": ""
             },
             "modal": {
                 "loading": {
@@ -14,17 +24,24 @@
                     "title": "Hoppá! Hiba történt a mentés során…",
                     "content": "Hibák listája:"
                 }
-            },
-            "errors": {
-                "max_char_limit_exceed": "Maximális karakterkorlát túllépve.",
-                "max_image_width_exceed": "Maximális képszélességi korlát túllépve.",
-                "max_image_height_exceed": "Maximális képmagassági korlát túllépve.",
-                "max_image_count_exceed": "Maximális képszám túllépve."
             }
         },
         "admin": {
-            "title": "Aláírás",
+            "permissions": {
+                "edit_signature_others": "",
+                "allow_signature": ""
+            },
             "settings": {
+                "maximum_image_count": {
+                    "description": "A beillesztett képek legnagyobb száma.",
+                    "help": "",
+                    "placeholder": "5 (alapértelmezett)"
+                },
+                "maximum_char_limit": {
+                    "description": "Az aláírás legnagyobb karakterkorlátja (karakterek száma, nem veszi figyelembe a HTML-címkéket)",
+                    "help": "",
+                    "placeholder": "1000 (alapértelmezett)"
+                },
                 "maximum_image_width": {
                     "description": "A képek legnagyobb szélessége a szerkesztőben.",
                     "placeholder": "350 (alapértelmezett)"
@@ -32,16 +49,9 @@
                 "maximum_image_height": {
                     "description": "A beillesztett képek legnagyobb összmagassága a szerkesztőben.",
                     "placeholder": "500 (alapértelmezett)"
-                },
-                "maximum_image_count": {
-                    "description": "A beillesztett képek legnagyobb száma.",
-                    "placeholder": "5 (alapértelmezett)"
-                },
-                "maximum_char_limit": {
-                    "description": "Az aláírás legnagyobb karakterkorlátja (karakterek száma, nem veszi figyelembe a HTML-címkéket)",
-                    "placeholder": "1000 (alapértelmezett)"
                 }
-            }
+            },
+            "title": "Aláírás"
         }
     }
 }

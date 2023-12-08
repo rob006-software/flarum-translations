@@ -3,7 +3,17 @@
         "forum": {
             "buttons": {
                 "signature": "Signature",
-                "save": "Simpan Signature"
+                "save": "Simpan Signature",
+                "edit": ""
+            },
+            "errors": {
+                "max_char_limit_exceed": "Batas karakter maksimum terlampaui.",
+                "max_image_count_exceed": "Jumlah gambar maksimum terlampaui.",
+                "max_image_width_exceed": "Batas lebar gambar maksimum terlampaui.",
+                "max_image_height_exceed": "Batas tinggi gambar maksimum terlampaui."
+            },
+            "profile": {
+                "click": ""
             },
             "modal": {
                 "loading": {
@@ -14,17 +24,24 @@
                     "title": "Ups! Mengalami beberapa masalah saat menyimpan...",
                     "content": "Daftar error:"
                 }
-            },
-            "errors": {
-                "max_char_limit_exceed": "Batas karakter maksimum terlampaui.",
-                "max_image_width_exceed": "Batas lebar gambar maksimum terlampaui.",
-                "max_image_height_exceed": "Batas tinggi gambar maksimum terlampaui.",
-                "max_image_count_exceed": "Jumlah gambar maksimum terlampaui."
             }
         },
         "admin": {
-            "title": "Signature",
+            "permissions": {
+                "edit_signature_others": "",
+                "allow_signature": ""
+            },
             "settings": {
+                "maximum_image_count": {
+                    "description": "Jumlah maksimum gambar yang disisipkan.",
+                    "help": "",
+                    "placeholder": "5 (default)"
+                },
+                "maximum_char_limit": {
+                    "description": "Batas karakter maksimum dari signature (hanya karakter, tag HTML tidak dihitung)",
+                    "help": "",
+                    "placeholder": "1000 (default)"
+                },
                 "maximum_image_width": {
                     "description": "Lebar maksimum gambar pada editor.",
                     "placeholder": "350 (default)"
@@ -32,16 +49,9 @@
                 "maximum_image_height": {
                     "description": "Tinggi maksimum dari jumlah tinggi total gambar yang disisipkan pada editor.",
                     "placeholder": "500 (default)"
-                },
-                "maximum_image_count": {
-                    "description": "Jumlah maksimum gambar yang disisipkan.",
-                    "placeholder": "5 (default)"
-                },
-                "maximum_char_limit": {
-                    "description": "Batas karakter maksimum dari signature (hanya karakter, tag HTML tidak dihitung)",
-                    "placeholder": "1000 (default)"
                 }
-            }
+            },
+            "title": "Signature"
         }
     }
 }

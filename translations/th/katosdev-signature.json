@@ -3,7 +3,17 @@
         "forum": {
             "buttons": {
                 "signature": "เอกลักษณ์",
-                "save": "บันทึกสัญลักษณ์"
+                "save": "บันทึกสัญลักษณ์",
+                "edit": ""
+            },
+            "errors": {
+                "max_char_limit_exceed": "เกินขีดจำกัดของตัวอักษรที่กำหนดไว้",
+                "max_image_count_exceed": "เกินขีดจำกัดของจำนวนภาพที่กำหนดไว้",
+                "max_image_width_exceed": "เกินขีดจำกัดของขนาดรูปที่กำหนดไว้",
+                "max_image_height_exceed": "เกินขีดจำกัดของขนาดความสูงของรูปที่กำหนดไว้"
+            },
+            "profile": {
+                "click": ""
             },
             "modal": {
                 "loading": {
@@ -14,17 +24,24 @@
                     "title": "อุ๊บ! เหมือนมีบางอย่างผิดพลาดระหว่างที่กำลังบันทึก",
                     "content": "รายการที่เกิดข้อผิดพลาด:"
                 }
-            },
-            "errors": {
-                "max_char_limit_exceed": "เกินขีดจำกัดของตัวอักษรที่กำหนดไว้",
-                "max_image_width_exceed": "เกินขีดจำกัดของขนาดรูปที่กำหนดไว้",
-                "max_image_height_exceed": "เกินขีดจำกัดของขนาดความสูงของรูปที่กำหนดไว้",
-                "max_image_count_exceed": "เกินขีดจำกัดของจำนวนภาพที่กำหนดไว้"
             }
         },
         "admin": {
-            "title": "เอกลักษณ์",
+            "permissions": {
+                "edit_signature_others": "",
+                "allow_signature": ""
+            },
             "settings": {
+                "maximum_image_count": {
+                    "description": "จำนวนสูงสุดของภาพที่ใส่ได้",
+                    "help": "",
+                    "placeholder": "5 (ค่าเริ่มต้น)"
+                },
+                "maximum_char_limit": {
+                    "description": "จำนวนสูงสุดของตัวอักษรของเอกลักษณ์ (นับตัวอักษรเเต่จะไม่นับส่วนของโค้ด HTML)",
+                    "help": "",
+                    "placeholder": "1000 (ค่าเริ่มต้น)"
+                },
                 "maximum_image_width": {
                     "description": "ขนาดความกว้างสูงสุดของภาพในตัวเเก้ไข",
                     "placeholder": "350 (ค่าเริ่มต้น)"
@@ -32,16 +49,9 @@
                 "maximum_image_height": {
                     "description": "ขนาดความสูง สูงสุดของภาพในจำนวนที่บวกกันเเล้วในตัวเเก้ไข",
                     "placeholder": "500 (ค่าเริ่มต้น)"
-                },
-                "maximum_image_count": {
-                    "description": "จำนวนสูงสุดของภาพที่ใส่ได้",
-                    "placeholder": "5 (ค่าเริ่มต้น)"
-                },
-                "maximum_char_limit": {
-                    "description": "จำนวนสูงสุดของตัวอักษรของเอกลักษณ์ (นับตัวอักษรเเต่จะไม่นับส่วนของโค้ด HTML)",
-                    "placeholder": "1000 (ค่าเริ่มต้น)"
                 }
-            }
+            },
+            "title": "เอกลักษณ์"
         }
     }
 }

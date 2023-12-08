@@ -3,7 +3,15 @@
         "forum": {
             "buttons": {
                 "signature": "Подпис",
-                "save": "Запази подпис"
+                "save": "Запази подпис",
+                "edit": ""
+            },
+            "errors": {
+                "max_char_limit_exceed": "",
+                "max_image_count_exceed": ""
+            },
+            "profile": {
+                "click": ""
             },
             "modal": {
                 "loading": {
@@ -11,35 +19,23 @@
                     "content": "Моля изчакай..."
                 },
                 "error": {
-                    "title": "",
                     "content": "Списък с грешки:"
                 }
-            },
-            "errors": {
-                "max_char_limit_exceed": "",
-                "max_image_width_exceed": "",
-                "max_image_height_exceed": "",
-                "max_image_count_exceed": ""
             }
         },
         "admin": {
-            "title": "",
+            "permissions": {
+                "edit_signature_others": "",
+                "allow_signature": ""
+            },
             "settings": {
-                "maximum_image_width": {
-                    "description": "",
-                    "placeholder": ""
-                },
-                "maximum_image_height": {
-                    "description": "",
-                    "placeholder": ""
-                },
                 "maximum_image_count": {
                     "description": "",
-                    "placeholder": ""
+                    "help": ""
                 },
                 "maximum_char_limit": {
                     "description": "",
-                    "placeholder": ""
+                    "help": ""
                 }
             }
         }

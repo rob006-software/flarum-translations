@@ -3,7 +3,17 @@
         "forum": {
             "buttons": {
                 "signature": "Sygnaturka",
-                "save": "Zapisz sygnaturkę"
+                "save": "Zapisz sygnaturkę",
+                "edit": ""
+            },
+            "errors": {
+                "max_char_limit_exceed": "Przekroczono limit znaków.",
+                "max_image_count_exceed": "Przekroczono maksymalną liczbę obrazków.",
+                "max_image_width_exceed": "Przekroczono maksymalną szerokość obrazka.",
+                "max_image_height_exceed": "Przekroczono maksymalną wysokość obrazka."
+            },
+            "profile": {
+                "click": ""
             },
             "modal": {
                 "loading": {
@@ -14,17 +24,24 @@
                     "title": "Ups, napotkano jakiś problem podczas zapisywania...",
                     "content": "Lista problemów:"
                 }
-            },
-            "errors": {
-                "max_char_limit_exceed": "Przekroczono limit znaków.",
-                "max_image_width_exceed": "Przekroczono maksymalną szerokość obrazka.",
-                "max_image_height_exceed": "Przekroczono maksymalną wysokość obrazka.",
-                "max_image_count_exceed": "Przekroczono maksymalną liczbę obrazków."
             }
         },
         "admin": {
-            "title": "Sygnaturka",
+            "permissions": {
+                "edit_signature_others": "",
+                "allow_signature": ""
+            },
             "settings": {
+                "maximum_image_count": {
+                    "description": "Maksymalna liczba obrazków.",
+                    "help": "",
+                    "placeholder": "5 (domyślne)"
+                },
+                "maximum_char_limit": {
+                    "description": "Maksymalna liczba znaków w sygnaturce (zliczane są znaki, nie brane są pod uwagę tagi HTML)",
+                    "help": "",
+                    "placeholder": "1000 (domyślne)"
+                },
                 "maximum_image_width": {
                     "description": "Maksymalna szerokość obrazków w edytorze.",
                     "placeholder": "350 (domyślne)"
@@ -32,16 +49,9 @@
                 "maximum_image_height": {
                     "description": "Maksymalna łączna wysokość wszystkich obrazków w edytorze.",
                     "placeholder": "500 (domyślne)"
-                },
-                "maximum_image_count": {
-                    "description": "Maksymalna liczba obrazków.",
-                    "placeholder": "5 (domyślne)"
-                },
-                "maximum_char_limit": {
-                    "description": "Maksymalna liczba znaków w sygnaturce (zliczane są znaki, nie brane są pod uwagę tagi HTML)",
-                    "placeholder": "1000 (domyślne)"
                 }
-            }
+            },
+            "title": "Sygnaturka"
         }
     }
 }

@@ -3,7 +3,17 @@
         "forum": {
             "buttons": {
                 "signature": "Подпись",
-                "save": "Сохранить подпись"
+                "save": "Сохранить подпись",
+                "edit": ""
+            },
+            "errors": {
+                "max_char_limit_exceed": "Превышено максимальное число символов.",
+                "max_image_count_exceed": "Превышено максимальное число изображений.",
+                "max_image_width_exceed": "Превышена максимальная ширина изображения.",
+                "max_image_height_exceed": "Превышена максимальная высота изображения."
+            },
+            "profile": {
+                "click": ""
             },
             "modal": {
                 "loading": {
@@ -14,17 +24,24 @@
                     "title": "Упс! При сохранении обнаружены ошибки...",
                     "content": "Список ошибок:"
                 }
-            },
-            "errors": {
-                "max_char_limit_exceed": "Превышено максимальное число символов.",
-                "max_image_width_exceed": "Превышена максимальная ширина изображения.",
-                "max_image_height_exceed": "Превышена максимальная высота изображения.",
-                "max_image_count_exceed": "Превышено максимальное число изображений."
             }
         },
         "admin": {
-            "title": "Подпись",
+            "permissions": {
+                "edit_signature_others": "",
+                "allow_signature": ""
+            },
             "settings": {
+                "maximum_image_count": {
+                    "description": "Максимальное количество вставляемых изображений.",
+                    "help": "",
+                    "placeholder": "5 (default)"
+                },
+                "maximum_char_limit": {
+                    "description": "Максимальное число символов в подписи (без учета HTML тегов)",
+                    "help": "",
+                    "placeholder": "1000 (default)"
+                },
                 "maximum_image_width": {
                     "description": "Максимальная ширина изображения в редакторе.",
                     "placeholder": "350 (по умолчанию)"
@@ -32,16 +49,9 @@
                 "maximum_image_height": {
                     "description": "Максимальная высота (или сумма высот) изображений, загруженных в редактор.",
                     "placeholder": "500 (default)"
-                },
-                "maximum_image_count": {
-                    "description": "Максимальное количество вставляемых изображений.",
-                    "placeholder": "5 (default)"
-                },
-                "maximum_char_limit": {
-                    "description": "Максимальное число символов в подписи (без учета HTML тегов)",
-                    "placeholder": "1000 (default)"
                 }
-            }
+            },
+            "title": "Подпись"
         }
     }
 }

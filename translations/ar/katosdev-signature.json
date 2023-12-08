@@ -3,7 +3,17 @@
         "forum": {
             "buttons": {
                 "signature": "التّوقيع",
-                "save": "حفظ التّوقيع"
+                "save": "حفظ التّوقيع",
+                "edit": ""
+            },
+            "errors": {
+                "max_char_limit_exceed": "تمّ تجاوز العدد الأقصى لعدد الأحرف المسموح بها.",
+                "max_image_count_exceed": "تم تجاوز العدد الأقصى لعدد الصّور.",
+                "max_image_width_exceed": "تم تجاوز الحدّ الأقصى لعرض الصّورة.",
+                "max_image_height_exceed": "تم تجاوز الحدّ الأقصى لارتفاع الصّورة."
+            },
+            "profile": {
+                "click": ""
             },
             "modal": {
                 "loading": {
@@ -14,17 +24,24 @@
                     "title": "عذرًا! حدثت بعض الأخطاء أثناء الحفظ ...",
                     "content": "قائمة الأخطاء:"
                 }
-            },
-            "errors": {
-                "max_char_limit_exceed": "تمّ تجاوز العدد الأقصى لعدد الأحرف المسموح بها.",
-                "max_image_width_exceed": "تم تجاوز الحدّ الأقصى لعرض الصّورة.",
-                "max_image_height_exceed": "تم تجاوز الحدّ الأقصى لارتفاع الصّورة.",
-                "max_image_count_exceed": "تم تجاوز العدد الأقصى لعدد الصّور."
             }
         },
         "admin": {
-            "title": "التّوقِيع",
+            "permissions": {
+                "edit_signature_others": "",
+                "allow_signature": ""
+            },
             "settings": {
+                "maximum_image_count": {
+                    "description": "العدد الأقصى للصّور المدرجة.",
+                    "help": "",
+                    "placeholder": "5 (افتراضي)"
+                },
+                "maximum_char_limit": {
+                    "description": "الحدّ الأقصى لعدد الأحرف المسموح به للتّوقيع (لا تدخل علامات HTML ضمن عدد الأحرف)",
+                    "help": "",
+                    "placeholder": "1000 (افتراضي)"
+                },
                 "maximum_image_width": {
                     "description": "أقصى عرض للصّور في المحرّر.",
                     "placeholder": "350 (افتراضي)"
@@ -32,16 +49,9 @@
                 "maximum_image_height": {
                     "description": "أقصى ارتفاع لمجموع ارتفاع إجمالي الصّور المدرجة في المحرّر.",
                     "placeholder": "500 (افتراضي)"
-                },
-                "maximum_image_count": {
-                    "description": "العدد الأقصى للصّور المدرجة.",
-                    "placeholder": "5 (افتراضي)"
-                },
-                "maximum_char_limit": {
-                    "description": "الحدّ الأقصى لعدد الأحرف المسموح به للتّوقيع (لا تدخل علامات HTML ضمن عدد الأحرف)",
-                    "placeholder": "1000 (افتراضي)"
                 }
-            }
+            },
+            "title": "التّوقِيع"
         }
     }
 }

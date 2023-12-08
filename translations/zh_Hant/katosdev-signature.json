@@ -3,7 +3,17 @@
         "forum": {
             "buttons": {
                 "signature": "簽名",
-                "save": "保存"
+                "save": "保存",
+                "edit": ""
+            },
+            "errors": {
+                "max_char_limit_exceed": "字元數量超過上限.",
+                "max_image_count_exceed": "圖片寬度超過上限.",
+                "max_image_width_exceed": "圖片數量超過上限。",
+                "max_image_height_exceed": "圖片高度超過上限。"
+            },
+            "profile": {
+                "click": ""
             },
             "modal": {
                 "loading": {
@@ -14,17 +24,24 @@
                     "title": "哎呀！保存時遇到一些錯誤...",
                     "content": "錯誤列表："
                 }
-            },
-            "errors": {
-                "max_char_limit_exceed": "字元數量超過上限.",
-                "max_image_width_exceed": "圖片數量超過上限。",
-                "max_image_height_exceed": "圖片高度超過上限。",
-                "max_image_count_exceed": "圖片寬度超過上限."
             }
         },
         "admin": {
-            "title": "簽名",
+            "permissions": {
+                "edit_signature_others": "",
+                "allow_signature": ""
+            },
             "settings": {
+                "maximum_image_count": {
+                    "description": "最大圖片數量.",
+                    "help": "",
+                    "placeholder": "5 (默認)"
+                },
+                "maximum_char_limit": {
+                    "description": "最大簽名字符數量（僅字元數，HTML 標籤不計算在內）。",
+                    "help": "",
+                    "placeholder": "1000 (默認)"
+                },
                 "maximum_image_width": {
                     "description": "圖片最大寬度。",
                     "placeholder": "350 (默認)"
@@ -32,16 +49,9 @@
                 "maximum_image_height": {
                     "description": "多張圖片高度總和的最大值。",
                     "placeholder": "500 (默認)"
-                },
-                "maximum_image_count": {
-                    "description": "最大圖片數量.",
-                    "placeholder": "5 (默認)"
-                },
-                "maximum_char_limit": {
-                    "description": "最大簽名字符數量（僅字元數，HTML 標籤不計算在內）。",
-                    "placeholder": "1000 (默認)"
                 }
-            }
+            },
+            "title": "簽名"
         }
     }
 }
