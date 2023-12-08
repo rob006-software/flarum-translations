@@ -39,7 +39,9 @@
                     "email_hash_label": "Use hashed email address",
                     "email_hash_help": "Pass a MD5 hash of the email address should you wish to not pass the email address itself. This method bypasses all blacklists, normalisation and obfuscation bypass checks.",
                     "sfs_lookup_label": "Lookup registrations",
-                    "sfs_lookup_help": "If enabled, we will check the StopForumSpam database when a new user registers on your forum. If the user is found (username, IP address, email) and that data point is enabled along with the SFS confidence level reaching your defined level, they will be prevented from completing their registration."
+                    "sfs_lookup_help": "If enabled, we will check the StopForumSpam database when a new user registers on your forum. If the user is found (username, IP address, email) and that data point is enabled along with the SFS confidence level reaching your defined level, they will be prevented from completing their registration.",
+                    "report_blocked_registrations_label": "Report blocked registrations",
+                    "report_blocked_registrations_help": "When a registration is blocked by the Lookup Registrations feature, we will report the attempt back to StopForumSpam, so that the spammers activity can be better confirmed. Requires a StopForumSpam API key to be set (see below)."
                 }
             },
             "blocked_registrations": {

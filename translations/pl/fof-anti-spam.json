@@ -39,7 +39,9 @@
                     "email_hash_label": "Użyj zahashowanego adresu e-mail",
                     "email_hash_help": "Przekaż skrót MD5 adresu e-mail, jeśli nie chcesz przekazywać samego adresu e-mail. Ta metoda omija wszystkie czarne listy, normalizację i kontrole omijające zaciemnianie.",
                     "sfs_lookup_label": "Weryfikuj rejestracje",
-                    "sfs_lookup_help": "Jeśli ta opcja jest włączona, będziemy sprawdzać bazę danych StopForumSpam, gdy nowy użytkownik zarejestruje się na Twoim forum. Jeśli użytkownik zostanie znaleziony (nazwa użytkownika, adres IP, e-mail) i ten punkt danych jest włączony wraz z poziomem zaufania SFS osiągającym zdefiniowany poziom, uniemożliwimy mu dokończenie rejestracji."
+                    "sfs_lookup_help": "Jeśli ta opcja jest włączona, będziemy sprawdzać bazę danych StopForumSpam, gdy nowy użytkownik zarejestruje się na Twoim forum. Jeśli użytkownik zostanie znaleziony (nazwa użytkownika, adres IP, e-mail) i ten punkt danych jest włączony wraz z poziomem zaufania SFS osiągającym zdefiniowany poziom, uniemożliwimy mu dokończenie rejestracji.",
+                    "report_blocked_registrations_label": "",
+                    "report_blocked_registrations_help": ""
                 }
             },
             "blocked_registrations": {
