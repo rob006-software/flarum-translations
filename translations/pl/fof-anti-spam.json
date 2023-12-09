@@ -5,7 +5,7 @@
                 "spamblock_users_label": "Oznacz użytkownika jako spamera"
             },
             "settings": {
-                "button": "",
+                "button": "Ustawienia",
                 "default-actions": {
                     "delete_user_label": "Usuń użytkownika",
                     "delete_user_help": "Spowoduje to nieodwracalne usunięcie użytkownika. Po wyłączeniu tej opcji, użytkownik zostanie zbanowany.",
@@ -40,29 +40,29 @@
                     "email_hash_help": "Przekaż skrót MD5 adresu e-mail, jeśli nie chcesz przekazywać samego adresu e-mail. Ta metoda omija wszystkie czarne listy, normalizację i kontrole omijające zaciemnianie.",
                     "sfs_lookup_label": "Weryfikuj rejestracje",
                     "sfs_lookup_help": "Jeśli ta opcja jest włączona, będziemy sprawdzać bazę danych StopForumSpam, gdy nowy użytkownik zarejestruje się na Twoim forum. Jeśli użytkownik zostanie znaleziony (nazwa użytkownika, adres IP, e-mail) i ten punkt danych jest włączony wraz z poziomem zaufania SFS osiągającym zdefiniowany poziom, uniemożliwimy mu dokończenie rejestracji.",
-                    "report_blocked_registrations_label": "",
-                    "report_blocked_registrations_help": ""
+                    "report_blocked_registrations_label": "Zgłoś blokowane rejestracje",
+                    "report_blocked_registrations_help": "Gdy rejestracja zostanie zablokowana przez funkcję \"Weryfikuj rejestracje\", zgłosimy próbę z powrotem do StopForumSpam, aby aktywność spamerów mogła zostać lepiej potwierdzona. Wymaga ustawienia klucza API StopForumSpam (zobacz poniżej)."
                 }
             },
             "blocked_registrations": {
-                "button": "",
-                "title": "",
-                "no-records": "",
-                "help": "",
-                "attempted-at": "",
-                "ip": "",
-                "email": "",
-                "username": "",
-                "login-provider": "",
-                "login-provider-data": "",
-                "sfs-data": "",
-                "delete_entry": ""
+                "button": "Zablokowane rejestracje",
+                "title": "Zablokowane rejestracje",
+                "no-records": "Nie znaleziono zablokowanych rejestracji.",
+                "help": "Ta strona pokazuje wszystkie rejestracje, które zostały zablokowane przez usługę StopForumSpam. Możesz wyświetlić szczegóły każdej rejestracji, a jeśli chcesz, możesz usunąć rekord z bazy danych.\n",
+                "attempted-at": "Próba",
+                "ip": "Adres IP",
+                "email": "Adres email",
+                "username": "Nazwa użytkownika",
+                "login-provider": "Dostawca logowania",
+                "login-provider-data": "Dane dostawcy logowania",
+                "sfs-data": "Dane StopForumSpam",
+                "delete_entry": "Usuń rekord"
             }
         },
         "forum": {
             "message": {
                 "stopforumspam": {
-                    "blocked": ""
+                    "blocked": "Szczegóły Twojej rejestracji zostały znalezione w bazie danych zapobiegania spamowi, dlatego Twoja rejestracja została zablokowana."
                 },
                 "spam": "Twoje informacje zostały oznaczone jako spam."
             },
