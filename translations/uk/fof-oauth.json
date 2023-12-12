@@ -5,9 +5,9 @@
             "settings_accessibility_label": "{name} налаштування",
             "settings": {
                 "advanced": {
-                    "heading": "",
-                    "log-oauth-errors-label": "",
-                    "log-oauth-errors-help": ""
+                    "heading": "Просунутий",
+                    "log-oauth-errors-label": "Журнал помилок OAuth",
+                    "log-oauth-errors-help": "Якщо увімкнено, помилки OAuth будуть записуватися до журналу Flarum. Це може допомогти у налагодженні проблем з OAuth, але може також містити конфіденційну інформацію."
                 },
                 "only_icons_label": "Показувати лише значки на кнопках входу (альтернативний макет)",
                 "update_email_from_provider_label": "Оновлення адреси електронної пошти від провайдера",
@@ -50,7 +50,7 @@
                         "description": "Створити додаток на сторінці {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
-                        "hosted_domain_label": ""
+                        "hosted_domain_label": "Домен на хостингу (G Suite/Google Apps for Business, за бажанням)"
                     },
                     "linkedin": {
                         "description": "Створити додаток {link}.",
