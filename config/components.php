@@ -696,6 +696,7 @@ return [
 	],
 	'fof-upload' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/1.4.7/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/1.5.0-beta.1/resources/locale/en.yml',
 	],
 	'fof-user-bio' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-bio/1.3.1/resources/locale/en.yml',
