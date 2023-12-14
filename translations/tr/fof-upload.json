@@ -98,7 +98,9 @@
                 "download_label": "Dosya indirme",
                 "upload_label": "Dosya yükleme",
                 "view_user_uploads_label": "Kullanıcı yüklemelerini göster",
-                "delete_uploads_of_others_label": "Kullanıcı yüklemelerini silin"
+                "delete_uploads_of_others_label": "Kullanıcı yüklemelerini silin",
+                "upload_shared_label": "",
+                "access_shared_label": ""
             },
             "templates": {
                 "file": "Varsayılan dosya indirme şablonu",
@@ -136,6 +138,16 @@
                 "guessed-extension": "Varsayılan dosya uzantısı (orijinal beyaz listede değilse)",
                 "not-available": "Sonuç yok"
             },
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "buttons": {
                 "save": "Ayarları kaydet"
             }
@@ -147,7 +159,9 @@
                 "upload": "Yükle",
                 "user_uploads": "Kullanıcı yüklemeleri",
                 "cancel": "İptal",
-                "media": "Medyalarım"
+                "media": "Medyalarım",
+                "upload_shared": "",
+                "shared_media": ""
             },
             "file_list": {
                 "loading": "Dosyalar yükleniyor...",
@@ -195,6 +209,47 @@
                 "cannot_write_to_disk": "Diske yazılamıyor.",
                 "upload_blocked_by_php_extension": "Bir php uzantısı yüklemeyi engelledi.",
                 "no_files_made_it_to_upload": "Lütfen {max} kb'den büyük olmayan dosyalar yükleyin."
+            }
+        },
+        "lib": {
+            "upload-shared-file-modal": {
+                "title": "",
+                "dropzone": "",
+                "hide-from-media-gallery": "",
+                "upload": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "delete_file_a11y_label": "",
+                "hide_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                },
+                "hide_shared_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                }
             }
         }
     }

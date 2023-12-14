@@ -98,7 +98,9 @@
                 "download_label": "Baixar arquivos",
                 "upload_label": "Fazer upload de arquivos",
                 "view_user_uploads_label": "Ver uploads de usuários",
-                "delete_uploads_of_others_label": "Excluir uploads de usuários"
+                "delete_uploads_of_others_label": "Excluir uploads de usuários",
+                "upload_shared_label": "",
+                "access_shared_label": ""
             },
             "templates": {
                 "file": "Modelo de download de arquivo padrão",
@@ -135,6 +137,16 @@
                 "mime-fileinfo": "PHP Fileinfo (retorno)",
                 "guessed-extension": "Extensão de arquivo padrão (se o original não estiver na lista de permissões)",
                 "not-available": "Sem resultado"
+            },
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
             }
         },
         "forum": {
@@ -144,7 +156,9 @@
                 "upload": "Upload",
                 "user_uploads": "Upload do usuário",
                 "cancel": "Cancelar",
-                "media": "Minha mídia"
+                "media": "Minha mídia",
+                "upload_shared": "",
+                "shared_media": ""
             },
             "file_list": {
                 "loading": "Carregando arquivos...",
@@ -192,6 +206,47 @@
                 "cannot_write_to_disk": "",
                 "upload_blocked_by_php_extension": "",
                 "no_files_made_it_to_upload": ""
+            }
+        },
+        "lib": {
+            "upload-shared-file-modal": {
+                "title": "",
+                "dropzone": "",
+                "hide-from-media-gallery": "",
+                "upload": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "delete_file_a11y_label": "",
+                "hide_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                },
+                "hide_shared_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                }
             }
         }
     }

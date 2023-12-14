@@ -98,7 +98,9 @@
                 "download_label": "下載檔案",
                 "upload_label": "上載檔案",
                 "view_user_uploads_label": "查看用戶上傳的文件",
-                "delete_uploads_of_others_label": "刪除用戶上傳的文件"
+                "delete_uploads_of_others_label": "刪除用戶上傳的文件",
+                "upload_shared_label": "",
+                "access_shared_label": ""
             },
             "templates": {
                 "file": "預設檔案下載模板",
@@ -135,6 +137,16 @@
                 "mime-fileinfo": "PHP Fileinfo（備）",
                 "guessed-extension": "默認文件擴展名",
                 "not-available": "暫無結果"
+            },
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
             }
         },
         "forum": {
@@ -144,7 +156,9 @@
                 "upload": "上傳",
                 "user_uploads": "用戶上傳",
                 "cancel": "取消",
-                "media": "我的文件"
+                "media": "我的文件",
+                "upload_shared": "",
+                "shared_media": ""
             },
             "file_list": {
                 "loading": "加載文件中……",
@@ -192,6 +206,47 @@
                 "cannot_write_to_disk": "無法寫入磁盤。",
                 "upload_blocked_by_php_extension": "php 擴展阻止了上傳。",
                 "no_files_made_it_to_upload": "請上傳不超過 {max} kb 的文件。"
+            }
+        },
+        "lib": {
+            "upload-shared-file-modal": {
+                "title": "",
+                "dropzone": "",
+                "hide-from-media-gallery": "",
+                "upload": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "delete_file_a11y_label": "",
+                "hide_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                },
+                "hide_shared_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                }
             }
         }
     }

@@ -98,7 +98,9 @@
                 "download_label": "Télécharger les fichiers",
                 "upload_label": "Transférer les fichiers",
                 "view_user_uploads_label": "Afficher les transferts des utilisateurs",
-                "delete_uploads_of_others_label": "Supprimer les transferts des utilisateurs"
+                "delete_uploads_of_others_label": "Supprimer les transferts des utilisateurs",
+                "upload_shared_label": "",
+                "access_shared_label": ""
             },
             "templates": {
                 "file": "Modèle de téléchargement de fichiers par défaut",
@@ -135,6 +137,16 @@
                 "mime-fileinfo": "PHP Fileinfo (solution de repli)",
                 "guessed-extension": "Extension de fichier par défaut (si l'original ne figure pas sur la liste blanche)",
                 "not-available": "Aucun résultat"
+            },
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
             }
         },
         "forum": {
@@ -144,7 +156,9 @@
                 "upload": "Transférer",
                 "user_uploads": "Transferts de l'utilisateur",
                 "cancel": "Annuler",
-                "media": "Mes médias"
+                "media": "Mes médias",
+                "upload_shared": "",
+                "shared_media": ""
             },
             "file_list": {
                 "loading": "Chargement des fichiers...",
@@ -192,6 +206,47 @@
                 "cannot_write_to_disk": "Impossible d'écrire sur le disque.",
                 "upload_blocked_by_php_extension": "Une extension PHP a bloqué le transfert.",
                 "no_files_made_it_to_upload": "Veillez à ne transférer que des fichiers ne dépassant pas {max} Ko."
+            }
+        },
+        "lib": {
+            "upload-shared-file-modal": {
+                "title": "",
+                "dropzone": "",
+                "hide-from-media-gallery": "",
+                "upload": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "delete_file_a11y_label": "",
+                "hide_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                },
+                "hide_shared_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                }
             }
         }
     }

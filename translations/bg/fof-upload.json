@@ -98,7 +98,9 @@
                 "download_label": "Изтегли файлове",
                 "upload_label": "Качи файлове (upload)",
                 "view_user_uploads_label": "Виж качвания на потребител (user)",
-                "delete_uploads_of_others_label": "Изтрий качвания на потребител (uploads)"
+                "delete_uploads_of_others_label": "Изтрий качвания на потребител (uploads)",
+                "upload_shared_label": "",
+                "access_shared_label": ""
             },
             "templates": {
                 "file": "Образе за сваляне на файл по подразбиране",
@@ -135,6 +137,16 @@
                 "mime-fileinfo": "PHP Fileinfo (резервен вариант)",
                 "guessed-extension": "Разширение на файл по подразбиране (ако оригиналният не е в списъка)",
                 "not-available": "Няма резултат"
+            },
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
             }
         },
         "forum": {
@@ -144,7 +156,9 @@
                 "upload": "Качи (upload)",
                 "user_uploads": "Качвания на потребител (uploads)",
                 "cancel": "Откажи",
-                "media": "Моята медия"
+                "media": "Моята медия",
+                "upload_shared": "",
+                "shared_media": ""
             },
             "file_list": {
                 "loading": "Зареждане на файлове...",
@@ -192,6 +206,47 @@
                 "cannot_write_to_disk": "Не може да се записва на диска.",
                 "upload_blocked_by_php_extension": "Разширение за php блокира качването.",
                 "no_files_made_it_to_upload": "Моля, качвайте файлове, не по-големи от {max} kb."
+            }
+        },
+        "lib": {
+            "upload-shared-file-modal": {
+                "title": "",
+                "dropzone": "",
+                "hide-from-media-gallery": "",
+                "upload": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "delete_file_a11y_label": "",
+                "hide_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                },
+                "hide_shared_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                }
             }
         }
     }

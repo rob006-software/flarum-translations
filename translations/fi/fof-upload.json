@@ -98,7 +98,9 @@
                 "download_label": "Lataa tiedostot",
                 "upload_label": "Siirrä tiedostoja",
                 "view_user_uploads_label": "Nähdä käyttäjän siirrot",
-                "delete_uploads_of_others_label": "Poistaa käyttäjän siirtoja"
+                "delete_uploads_of_others_label": "Poistaa käyttäjän siirtoja",
+                "upload_shared_label": "",
+                "access_shared_label": ""
             },
             "templates": {
                 "file": "Oletus tiedoston latauspohja",
@@ -135,6 +137,16 @@
                 "mime-fileinfo": "PHP Fileinfo (varalla)",
                 "guessed-extension": "Oletus tiedostopääte (jos alkuperäistä ei ole hyväksytty)",
                 "not-available": "Ei tuloksia"
+            },
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
             }
         },
         "forum": {
@@ -144,7 +156,9 @@
                 "upload": "Siirrä",
                 "user_uploads": "Käyttäjän siirrot",
                 "cancel": "Peruuta",
-                "media": "Oma Media"
+                "media": "Oma Media",
+                "upload_shared": "",
+                "shared_media": ""
             },
             "file_list": {
                 "loading": "Ladataan tiedostoja...",
@@ -192,6 +206,47 @@
                 "cannot_write_to_disk": "Levylle ei voida kirjoittaa.",
                 "upload_blocked_by_php_extension": "PHP lisäosa on estetty siirrossa.",
                 "no_files_made_it_to_upload": "Ethän siirrä tiedostoja, jotka ovat isompia kuin {max} kb."
+            }
+        },
+        "lib": {
+            "upload-shared-file-modal": {
+                "title": "",
+                "dropzone": "",
+                "hide-from-media-gallery": "",
+                "upload": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "delete_file_a11y_label": "",
+                "hide_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                },
+                "hide_shared_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                }
             }
         }
     }

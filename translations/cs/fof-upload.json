@@ -98,7 +98,9 @@
                 "download_label": "Stáhnout soubory",
                 "upload_label": "Nahrát soubory",
                 "view_user_uploads_label": "Zobrazit nahrané soubory uživatelů",
-                "delete_uploads_of_others_label": "Smazat nahrané soubory uživatelů"
+                "delete_uploads_of_others_label": "Smazat nahrané soubory uživatelů",
+                "upload_shared_label": "",
+                "access_shared_label": ""
             },
             "templates": {
                 "file": "Výchozí šablona pro stažení souboru",
@@ -135,6 +137,16 @@
                 "mime-fileinfo": "PHP Fileinfo (záložní)",
                 "guessed-extension": "Výchozí přípona souboru (pokud originál není na seznamu povolených)",
                 "not-available": "Žádný výsledek"
+            },
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
             }
         },
         "forum": {
@@ -144,7 +156,9 @@
                 "upload": "Nahrát",
                 "user_uploads": "Nahrané soubory",
                 "cancel": "Zrušit",
-                "media": "Média"
+                "media": "Média",
+                "upload_shared": "",
+                "shared_media": ""
             },
             "file_list": {
                 "loading": "Načítání souborů...",
@@ -192,6 +206,47 @@
                 "cannot_write_to_disk": "Nelze zapisovat na disk.",
                 "upload_blocked_by_php_extension": "Rozšíření php zablokovalo nahrávání.",
                 "no_files_made_it_to_upload": "Nahrávejte soubory, které nejsou větší než {max} kb."
+            }
+        },
+        "lib": {
+            "upload-shared-file-modal": {
+                "title": "",
+                "dropzone": "",
+                "hide-from-media-gallery": "",
+                "upload": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "delete_file_a11y_label": "",
+                "hide_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                },
+                "hide_shared_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                }
             }
         }
     }
