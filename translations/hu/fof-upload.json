@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Feltöltés",
                 "description": "A feltöltési szolgáltatásokat és azok beállításainak megadása."
@@ -137,16 +147,6 @@
                 "mime-fileinfo": "PHP Fileinfo (tartalék)",
                 "guessed-extension": "Alapértelmezett fájlkiterjesztés (ha az eredeti nem szerepel a fehérlistán)",
                 "not-available": "Nincs találat"
-            },
-            "nav": {
-                "shared-uploads-button": ""
-            },
-            "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
             }
         },
         "forum": {
@@ -154,11 +154,26 @@
             "buttons": {
                 "attach": "Csatolás",
                 "upload": "Feltöltés",
+                "upload_shared": "",
                 "user_uploads": "Felhasználó feltöltései",
                 "cancel": "Mégse",
                 "media": "Saját média",
-                "upload_shared": "",
                 "shared_media": ""
+            },
+            "states": {
+                "error": "Hiba",
+                "loading": "Feltöltés",
+                "unauthorized": "Nem tölthet le fájlokat"
+            },
+            "validation": {
+                "max_size": "A(z) {max} kB-nál nagyobb fájlok nem engedélyezettek."
+            },
+            "text_preview": {
+                "expand": "Előnézet kibontása",
+                "collapse": "Előnézet összecsukása",
+                "error": "Hiba a fájl előnézetekor. Lehet hogy törölték, vagy a megadott fájlazonosító érvénytelen.\n",
+                "no_snippet_preview": "<az előnézet itt fog megjelenni a közzététel után>",
+                "no_snippet": "<nem érhető el előnézeti kódrészlet>"
             },
             "file_list": {
                 "loading": "Fájlok betöltése…",
@@ -176,21 +191,6 @@
                     "hide_fail": "Nem lehet elrejteni ezt a fájlt: „{fileName}”",
                     "loading": "Fájl elrejtése…"
                 }
-            },
-            "states": {
-                "error": "Hiba",
-                "loading": "Feltöltés",
-                "unauthorized": "Nem tölthet le fájlokat"
-            },
-            "validation": {
-                "max_size": "A(z) {max} kB-nál nagyobb fájlok nem engedélyezettek."
-            },
-            "text_preview": {
-                "expand": "Előnézet kibontása",
-                "collapse": "Előnézet összecsukása",
-                "error": "Hiba a fájl előnézetekor. Lehet hogy törölték, vagy a megadott fájlazonosító érvénytelen.\n",
-                "no_snippet_preview": "<az előnézet itt fog megjelenni a közzététel után>",
-                "no_snippet": "<nem érhető el előnézeti kódrészlet>"
             }
         },
         "api": {

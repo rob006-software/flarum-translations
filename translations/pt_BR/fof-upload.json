@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Upload",
                 "description": "Configure serviços e preferências de upload."
@@ -137,16 +147,6 @@
                 "mime-fileinfo": "PHP Fileinfo (retorno)",
                 "guessed-extension": "Extensão de arquivo padrão (se o original não estiver na lista de permissões)",
                 "not-available": "Sem resultado"
-            },
-            "nav": {
-                "shared-uploads-button": ""
-            },
-            "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
             }
         },
         "forum": {
@@ -154,11 +154,26 @@
             "buttons": {
                 "attach": "Anexar",
                 "upload": "Upload",
+                "upload_shared": "",
                 "user_uploads": "Upload do usuário",
                 "cancel": "Cancelar",
                 "media": "Minha mídia",
-                "upload_shared": "",
                 "shared_media": ""
+            },
+            "states": {
+                "error": "Erro",
+                "loading": "Realizando Upload",
+                "unauthorized": "Você não tem permissão para baixar arquivos"
+            },
+            "validation": {
+                "max_size": "Carregamentos acima de {max} kb não são aceitos."
+            },
+            "text_preview": {
+                "expand": "Expandir visualização",
+                "collapse": "Recolher visualização",
+                "error": "Erro ao visualizar o arquivo. Ele pode ter sido excluído ou o ID do arquivo fornecido é inválido.\n",
+                "no_snippet_preview": "<visualização aparecerá aqui após a postagem>",
+                "no_snippet": "<nenhum snippet de visualização disponível>"
             },
             "file_list": {
                 "loading": "Carregando arquivos...",
@@ -176,21 +191,6 @@
                     "hide_fail": "Não foi possível ocultar o arquivo \"{fileName}\"",
                     "loading": "Escondendo arquivo..."
                 }
-            },
-            "states": {
-                "error": "Erro",
-                "loading": "Realizando Upload",
-                "unauthorized": "Você não tem permissão para baixar arquivos"
-            },
-            "validation": {
-                "max_size": "Carregamentos acima de {max} kb não são aceitos."
-            },
-            "text_preview": {
-                "expand": "Expandir visualização",
-                "collapse": "Recolher visualização",
-                "error": "Erro ao visualizar o arquivo. Ele pode ter sido excluído ou o ID do arquivo fornecido é inválido.\n",
-                "no_snippet_preview": "<visualização aparecerá aqui após a postagem>",
-                "no_snippet": "<nenhum snippet de visualização disponível>"
             }
         },
         "api": {

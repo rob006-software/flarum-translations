@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Загрузка",
                 "description": "Параметры службы загрузки файлов."
@@ -137,16 +147,6 @@
                 "mime-fileinfo": "Данные файла PHP (резервные)",
                 "guessed-extension": "Расширение файла по умолчанию (если оригинал не занесен в белый список)",
                 "not-available": "Нет результата"
-            },
-            "nav": {
-                "shared-uploads-button": ""
-            },
-            "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
             }
         },
         "forum": {
@@ -154,11 +154,26 @@
             "buttons": {
                 "attach": "Файл",
                 "upload": "Загрузить",
+                "upload_shared": "",
                 "user_uploads": "Загрузки пользователя",
                 "cancel": "Отмена",
                 "media": "Мои загрузки",
-                "upload_shared": "",
                 "shared_media": ""
+            },
+            "states": {
+                "error": "Ошибка",
+                "loading": "Загрузка",
+                "unauthorized": "Вам запрещено скачивать файлы"
+            },
+            "validation": {
+                "max_size": "Файлы, размером более {max} КБ, запрещены."
+            },
+            "text_preview": {
+                "expand": "Расширить предпросмотр",
+                "collapse": "Схлопнуть предпросмотр",
+                "error": "Ошибка предпросмотра файла. Файл мог быть удалён или его идентификатор недействителен.\n",
+                "no_snippet_preview": "<после отправки сообщения здесь появится предпросмотр содержания>",
+                "no_snippet": "<Предпросмотр фрагмента недоступен>"
             },
             "file_list": {
                 "loading": "Загрузка файлов...",
@@ -176,21 +191,6 @@
                     "hide_fail": "Не удалось скрыть файл \"{fileName}\"",
                     "loading": "Скрытие файла..."
                 }
-            },
-            "states": {
-                "error": "Ошибка",
-                "loading": "Загрузка",
-                "unauthorized": "Вам запрещено скачивать файлы"
-            },
-            "validation": {
-                "max_size": "Файлы, размером более {max} КБ, запрещены."
-            },
-            "text_preview": {
-                "expand": "Расширить предпросмотр",
-                "collapse": "Схлопнуть предпросмотр",
-                "error": "Ошибка предпросмотра файла. Файл мог быть удалён или его идентификатор недействителен.\n",
-                "no_snippet_preview": "<после отправки сообщения здесь появится предпросмотр содержания>",
-                "no_snippet": "<Предпросмотр фрагмента недоступен>"
             }
         },
         "api": {

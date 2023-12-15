@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Завантажити",
                 "description": "Налаштувати сервіси та налаштування завантаження."
@@ -137,16 +147,6 @@
                 "mime-fileinfo": "PHP Fileinfo (резервний варіант)",
                 "guessed-extension": "Розширення файлу за налаштуванням (якщо оригінал не внесено до білого списку)",
                 "not-available": "Безрезультатно"
-            },
-            "nav": {
-                "shared-uploads-button": ""
-            },
-            "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
             }
         },
         "forum": {
@@ -154,11 +154,26 @@
             "buttons": {
                 "attach": "Прикріпити",
                 "upload": "Завантажити",
+                "upload_shared": "",
                 "user_uploads": "Завантаження користувачів",
                 "cancel": "Скасувати",
                 "media": "Мої медіа",
-                "upload_shared": "",
                 "shared_media": ""
+            },
+            "states": {
+                "error": "Помилка",
+                "loading": "Завантаження",
+                "unauthorized": "Ви не маєте права завантажувати файли"
+            },
+            "validation": {
+                "max_size": "Завантаження понад {max} kb не приймаються."
+            },
+            "text_preview": {
+                "expand": "Розгорнути попередній перегляд",
+                "collapse": "Згорнути попередній перегляд",
+                "error": "Помилка попереднього перегляду файлу. Можливо, він був видалений, або вказаний ідентифікатор файлу невірний.\n",
+                "no_snippet_preview": "<preview will appear here after posting>",
+                "no_snippet": "<no preview snippet available>"
             },
             "file_list": {
                 "loading": "Завантаження файлів...",
@@ -176,21 +191,6 @@
                     "hide_fail": "Не вдалося приховати файл \"{fileName}\"",
                     "loading": "Прихований файл..."
                 }
-            },
-            "states": {
-                "error": "Помилка",
-                "loading": "Завантаження",
-                "unauthorized": "Ви не маєте права завантажувати файли"
-            },
-            "validation": {
-                "max_size": "Завантаження понад {max} kb не приймаються."
-            },
-            "text_preview": {
-                "expand": "Розгорнути попередній перегляд",
-                "collapse": "Згорнути попередній перегляд",
-                "error": "Помилка попереднього перегляду файлу. Можливо, він був видалений, або вказаний ідентифікатор файлу невірний.\n",
-                "no_snippet_preview": "<preview will appear here after posting>",
-                "no_snippet": "<no preview snippet available>"
             }
         },
         "api": {

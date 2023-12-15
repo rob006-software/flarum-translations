@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Yükle",
                 "description": "Yükleme hizmetlerini ve tercihlerini ayarlayın."
@@ -138,16 +148,6 @@
                 "guessed-extension": "Varsayılan dosya uzantısı (orijinal beyaz listede değilse)",
                 "not-available": "Sonuç yok"
             },
-            "nav": {
-                "shared-uploads-button": ""
-            },
-            "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
-            },
             "buttons": {
                 "save": "Ayarları kaydet"
             }
@@ -157,11 +157,26 @@
             "buttons": {
                 "attach": "Dosya Ekle",
                 "upload": "Yükle",
+                "upload_shared": "",
                 "user_uploads": "Kullanıcı yüklemeleri",
                 "cancel": "İptal",
                 "media": "Medyalarım",
-                "upload_shared": "",
                 "shared_media": ""
+            },
+            "states": {
+                "error": "Hata",
+                "loading": "Yükleniyor",
+                "unauthorized": "Dosyaları indirmenize izin verilmiyor"
+            },
+            "validation": {
+                "max_size": "{max} kb üzerindeki yüklemeler kabul edilmez."
+            },
+            "text_preview": {
+                "expand": "Önizlemeyi genişlet",
+                "collapse": "Önizlemeyi daralt",
+                "error": "Dosya önizlenirken hata oluştu. Silinmiş olabilir veya sağlanan dosya kimliği geçersiz.\n",
+                "no_snippet_preview": "<Önizleme yayınlandıktan sonra burada görünecek>",
+                "no_snippet": "<önizleme snippet'i yok>"
             },
             "file_list": {
                 "loading": "Dosyalar yükleniyor...",
@@ -179,21 +194,6 @@
                     "hide_fail": "\"{fileName}\" dosyası gizlenemedi",
                     "loading": "Dosya gizleniyor..."
                 }
-            },
-            "states": {
-                "error": "Hata",
-                "loading": "Yükleniyor",
-                "unauthorized": "Dosyaları indirmenize izin verilmiyor"
-            },
-            "validation": {
-                "max_size": "{max} kb üzerindeki yüklemeler kabul edilmez."
-            },
-            "text_preview": {
-                "expand": "Önizlemeyi genişlet",
-                "collapse": "Önizlemeyi daralt",
-                "error": "Dosya önizlenirken hata oluştu. Silinmiş olabilir veya sağlanan dosya kimliği geçersiz.\n",
-                "no_snippet_preview": "<Önizleme yayınlandıktan sonra burada görünecek>",
-                "no_snippet": "<önizleme snippet'i yok>"
             }
         },
         "api": {

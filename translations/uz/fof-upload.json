@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Yuklash",
                 "description": "Yuklash xizmatlari va afzalliklarini sozlang."
@@ -137,16 +147,6 @@
                 "mime-fileinfo": "",
                 "guessed-extension": "",
                 "not-available": ""
-            },
-            "nav": {
-                "shared-uploads-button": ""
-            },
-            "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
             }
         },
         "forum": {
@@ -154,11 +154,26 @@
             "buttons": {
                 "attach": "Biriktiring",
                 "upload": "Yuklash",
+                "upload_shared": "",
                 "user_uploads": "Foydalanuvchi yuklashlari",
                 "cancel": "Bekor qilish",
                 "media": "Mening ommaviy axborot vositalarim",
-                "upload_shared": "",
                 "shared_media": ""
+            },
+            "states": {
+                "error": "Xatolik",
+                "loading": "Yuklanmoqda",
+                "unauthorized": "Fayllarni yuklab olishingizga ruxsat berilmagan"
+            },
+            "validation": {
+                "max_size": "{maksimal} kb dan ortiq yuklamalar qabul qilinmaydi."
+            },
+            "text_preview": {
+                "expand": "",
+                "collapse": "",
+                "error": "",
+                "no_snippet_preview": "",
+                "no_snippet": ""
             },
             "file_list": {
                 "loading": "Fayllar yuklanmoqda...",
@@ -176,21 +191,6 @@
                     "hide_fail": "“{fayl nomi}” faylini yashirib bo‘lmadi",
                     "loading": "Fayl berkitilmoqda..."
                 }
-            },
-            "states": {
-                "error": "Xatolik",
-                "loading": "Yuklanmoqda",
-                "unauthorized": "Fayllarni yuklab olishingizga ruxsat berilmagan"
-            },
-            "validation": {
-                "max_size": "{maksimal} kb dan ortiq yuklamalar qabul qilinmaydi."
-            },
-            "text_preview": {
-                "expand": "",
-                "collapse": "",
-                "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
             }
         },
         "api": {

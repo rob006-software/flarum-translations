@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Przesyłanie plików",
                 "description": "Skonfiguruj ustawienia przesyłania plików."
@@ -137,16 +147,6 @@
                 "mime-fileinfo": "",
                 "guessed-extension": "",
                 "not-available": ""
-            },
-            "nav": {
-                "shared-uploads-button": ""
-            },
-            "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
             }
         },
         "forum": {
@@ -154,11 +154,26 @@
             "buttons": {
                 "attach": "Załącz",
                 "upload": "Wyślij",
+                "upload_shared": "",
                 "user_uploads": "Pliki użytkownika",
                 "cancel": "Anuluj",
                 "media": "Moje pliki",
-                "upload_shared": "",
                 "shared_media": ""
+            },
+            "states": {
+                "error": "Błąd",
+                "loading": "Wysyłanie",
+                "unauthorized": "Nie masz uprawnień, aby pobierać pliki"
+            },
+            "validation": {
+                "max_size": "Wysyłanie plików większych niż {max} kb nie jest obsługiwane."
+            },
+            "text_preview": {
+                "expand": "Rozwiń podgląd",
+                "collapse": "Zwiń podgląd",
+                "error": "Wystąpił błąd podczas generowania podglądu pliku. Plik mógł zostać usunięty lub podane ID pliku jest nieprawidłowe.\n",
+                "no_snippet_preview": "<podgląd pojawi się tutaj po opublikowaniu posta>",
+                "no_snippet": "<podgląd nie jest dostępny>"
             },
             "file_list": {
                 "loading": "Ładowanie plików...",
@@ -176,21 +191,6 @@
                     "hide_fail": "Nie udało się ukryć pliku \"{fileName}\"",
                     "loading": "Ukrywanie pliku..."
                 }
-            },
-            "states": {
-                "error": "Błąd",
-                "loading": "Wysyłanie",
-                "unauthorized": "Nie masz uprawnień, aby pobierać pliki"
-            },
-            "validation": {
-                "max_size": "Wysyłanie plików większych niż {max} kb nie jest obsługiwane."
-            },
-            "text_preview": {
-                "expand": "Rozwiń podgląd",
-                "collapse": "Zwiń podgląd",
-                "error": "Wystąpił błąd podczas generowania podglądu pliku. Plik mógł zostać usunięty lub podane ID pliku jest nieprawidłowe.\n",
-                "no_snippet_preview": "<podgląd pojawi się tutaj po opublikowaniu posta>",
-                "no_snippet": "<podgląd nie jest dostępny>"
             }
         },
         "api": {

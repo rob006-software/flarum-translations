@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Siirrä",
                 "description": "Määritä siirtopalvelut ja asetukset."
@@ -137,16 +147,6 @@
                 "mime-fileinfo": "PHP Fileinfo (varalla)",
                 "guessed-extension": "Oletus tiedostopääte (jos alkuperäistä ei ole hyväksytty)",
                 "not-available": "Ei tuloksia"
-            },
-            "nav": {
-                "shared-uploads-button": ""
-            },
-            "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
             }
         },
         "forum": {
@@ -154,11 +154,26 @@
             "buttons": {
                 "attach": "Liitä",
                 "upload": "Siirrä",
+                "upload_shared": "",
                 "user_uploads": "Käyttäjän siirrot",
                 "cancel": "Peruuta",
                 "media": "Oma Media",
-                "upload_shared": "",
                 "shared_media": ""
+            },
+            "states": {
+                "error": "Virhe",
+                "loading": "Siirretään",
+                "unauthorized": "Sinulla ei ole oikeutta ladata tiedostoja"
+            },
+            "validation": {
+                "max_size": "Yli {max} kb siirrot eivät ole sallittuja."
+            },
+            "text_preview": {
+                "expand": "Laajenna esikatselu",
+                "collapse": "Pienennä esikatselu",
+                "error": "Virhe tiedoston esikatselussa. Se voi olla poistettu tai annettu tiedoston ID on virheellinen.\n",
+                "no_snippet_preview": "<esikatselu tulee tähän>",
+                "no_snippet": "<ei esikatselua saatavilla>"
             },
             "file_list": {
                 "loading": "Ladataan tiedostoja...",
@@ -176,21 +191,6 @@
                     "hide_fail": "Ei voitu piilottaa tiedostoa \"{fileName}\"",
                     "loading": "Piilotetaan tiedostoa..."
                 }
-            },
-            "states": {
-                "error": "Virhe",
-                "loading": "Siirretään",
-                "unauthorized": "Sinulla ei ole oikeutta ladata tiedostoja"
-            },
-            "validation": {
-                "max_size": "Yli {max} kb siirrot eivät ole sallittuja."
-            },
-            "text_preview": {
-                "expand": "Laajenna esikatselu",
-                "collapse": "Pienennä esikatselu",
-                "error": "Virhe tiedoston esikatselussa. Se voi olla poistettu tai annettu tiedoston ID on virheellinen.\n",
-                "no_snippet_preview": "<esikatselu tulee tähän>",
-                "no_snippet": "<ei esikatselua saatavilla>"
             }
         },
         "api": {

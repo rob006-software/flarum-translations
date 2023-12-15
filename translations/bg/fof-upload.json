@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Качване",
                 "description": "Настрой услугите за качване и преференции."
@@ -137,16 +147,6 @@
                 "mime-fileinfo": "PHP Fileinfo (резервен вариант)",
                 "guessed-extension": "Разширение на файл по подразбиране (ако оригиналният не е в списъка)",
                 "not-available": "Няма резултат"
-            },
-            "nav": {
-                "shared-uploads-button": ""
-            },
-            "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
             }
         },
         "forum": {
@@ -154,11 +154,26 @@
             "buttons": {
                 "attach": "Прикачи",
                 "upload": "Качи (upload)",
+                "upload_shared": "",
                 "user_uploads": "Качвания на потребител (uploads)",
                 "cancel": "Откажи",
                 "media": "Моята медия",
-                "upload_shared": "",
                 "shared_media": ""
+            },
+            "states": {
+                "error": "Грешка",
+                "loading": "Качва се",
+                "unauthorized": "Не си оторизиран да свалиш файловете"
+            },
+            "validation": {
+                "max_size": "Качвания над {max} kb не са приети."
+            },
+            "text_preview": {
+                "expand": "Разшири прегледа",
+                "collapse": "Скрий прегледа",
+                "error": "Грешка при преглед на файл. Може да е бил изтрит, или предоставеното ID на файла е невалидно.\n",
+                "no_snippet_preview": "<визуализацията ще се появи тук след публикуване>",
+                "no_snippet": "<няма наличен фрагмент за визуализация>"
             },
             "file_list": {
                 "loading": "Зареждане на файлове...",
@@ -176,21 +191,6 @@
                     "hide_fail": "Неуспешно скриване на файл \"{fileName}\"",
                     "loading": "Файлът се скрива..."
                 }
-            },
-            "states": {
-                "error": "Грешка",
-                "loading": "Качва се",
-                "unauthorized": "Не си оторизиран да свалиш файловете"
-            },
-            "validation": {
-                "max_size": "Качвания над {max} kb не са приети."
-            },
-            "text_preview": {
-                "expand": "Разшири прегледа",
-                "collapse": "Скрий прегледа",
-                "error": "Грешка при преглед на файл. Може да е бил изтрит, или предоставеното ID на файла е невалидно.\n",
-                "no_snippet_preview": "<визуализацията ще се появи тук след публикуване>",
-                "no_snippet": "<няма наличен фрагмент за визуализация>"
             }
         },
         "api": {

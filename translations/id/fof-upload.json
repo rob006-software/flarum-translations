@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Upload",
                 "description": "Siapkan layanan dan preferensi upload."
@@ -137,16 +147,6 @@
                 "mime-fileinfo": "Informasi File PHP (fallback)",
                 "guessed-extension": "Ekstensi file default (jika original tidak masuk ke dalam whitelist)",
                 "not-available": "Tidak ada hasil"
-            },
-            "nav": {
-                "shared-uploads-button": ""
-            },
-            "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
             }
         },
         "forum": {
@@ -154,11 +154,26 @@
             "buttons": {
                 "attach": "Lampirkan",
                 "upload": "Upload",
+                "upload_shared": "",
                 "user_uploads": "Unggahan pengguna",
                 "cancel": "Batal",
                 "media": "Media Saya",
-                "upload_shared": "",
                 "shared_media": ""
+            },
+            "states": {
+                "error": "Error",
+                "loading": "Meng-upload",
+                "unauthorized": "Anda tidak diizinkan untuk men-download file"
+            },
+            "validation": {
+                "max_size": "File yang memiliki ukuran lebih dari {max} kb tidak diizinkan."
+            },
+            "text_preview": {
+                "expand": "Perluas pratinjau",
+                "collapse": "Perkecil pratinjau",
+                "error": "Terjadi kesalahan saat mempratinjau file. File mungkin telah dihapus, atau ID file yang diberikan tidak valid.\n",
+                "no_snippet_preview": "<pratinjau akan muncul di sini setelah posting>",
+                "no_snippet": "<tidak ada cuplikan pratinjau yang tersedia>"
             },
             "file_list": {
                 "loading": "Memuat file...",
@@ -176,21 +191,6 @@
                     "hide_fail": "Tidak dapat menyembunyikan file \"{fileName}\"",
                     "loading": "Menyembunyikan file..."
                 }
-            },
-            "states": {
-                "error": "Error",
-                "loading": "Meng-upload",
-                "unauthorized": "Anda tidak diizinkan untuk men-download file"
-            },
-            "validation": {
-                "max_size": "File yang memiliki ukuran lebih dari {max} kb tidak diizinkan."
-            },
-            "text_preview": {
-                "expand": "Perluas pratinjau",
-                "collapse": "Perkecil pratinjau",
-                "error": "Terjadi kesalahan saat mempratinjau file. File mungkin telah dihapus, atau ID file yang diberikan tidak valid.\n",
-                "no_snippet_preview": "<pratinjau akan muncul di sini setelah posting>",
-                "no_snippet": "<tidak ada cuplikan pratinjau yang tersedia>"
             }
         },
         "api": {

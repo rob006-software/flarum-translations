@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Yüklə",
                 "description": "Yükləmə xidmətləri və üstünlükləri qurun."
@@ -137,16 +147,6 @@
                 "mime-fileinfo": "",
                 "guessed-extension": "",
                 "not-available": ""
-            },
-            "nav": {
-                "shared-uploads-button": ""
-            },
-            "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
             }
         },
         "forum": {
@@ -154,28 +154,11 @@
             "buttons": {
                 "attach": "Əlavə edin",
                 "upload": "Yüklə",
+                "upload_shared": "",
                 "user_uploads": "İstifadəçi yükləmələri",
                 "cancel": "Ləğv et",
                 "media": "Mediam",
-                "upload_shared": "",
                 "shared_media": ""
-            },
-            "file_list": {
-                "loading": "Fayllar yüklənir ...",
-                "empty": "Göstəriləcək fayl yoxdur.",
-                "release_to_upload": "Yükləmək üçün buraxın",
-                "modal_empty_desktop": "Fayl siyahınız boşdur. Yükləmək üçün düyməni basın və ya bir faylı bura sürükləyin.",
-                "modal_empty_phone": "Fayl siyahınız boşdur. Bir fayl yükləmək üçün yuxarıdakı düyməni vurun.",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "hide_file": {
-                    "btn_a11y_label": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "hide_fail": "",
-                    "loading": ""
-                }
             },
             "states": {
                 "error": "Xəta",
@@ -191,6 +174,13 @@
                 "error": "",
                 "no_snippet_preview": "",
                 "no_snippet": ""
+            },
+            "file_list": {
+                "loading": "Fayllar yüklənir ...",
+                "empty": "Göstəriləcək fayl yoxdur.",
+                "release_to_upload": "Yükləmək üçün buraxın",
+                "modal_empty_desktop": "Fayl siyahınız boşdur. Yükləmək üçün düyməni basın və ya bir faylı bura sürükləyin.",
+                "modal_empty_phone": "Fayl siyahınız boşdur. Bir fayl yükləmək üçün yuxarıdakı düyməni vurun."
             }
         },
         "api": {

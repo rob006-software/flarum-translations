@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Nahrát",
                 "description": "Nastavení služeb a předvoleb nahrávání."
@@ -137,16 +147,6 @@
                 "mime-fileinfo": "PHP Fileinfo (záložní)",
                 "guessed-extension": "Výchozí přípona souboru (pokud originál není na seznamu povolených)",
                 "not-available": "Žádný výsledek"
-            },
-            "nav": {
-                "shared-uploads-button": ""
-            },
-            "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
             }
         },
         "forum": {
@@ -154,11 +154,26 @@
             "buttons": {
                 "attach": "Připojit",
                 "upload": "Nahrát",
+                "upload_shared": "",
                 "user_uploads": "Nahrané soubory",
                 "cancel": "Zrušit",
                 "media": "Média",
-                "upload_shared": "",
                 "shared_media": ""
+            },
+            "states": {
+                "error": "Chyba",
+                "loading": "Nahrávání",
+                "unauthorized": "Nejste oprávněni stahovat soubory"
+            },
+            "validation": {
+                "max_size": "Nahrávání větší než {max} kb nejsou akceptována."
+            },
+            "text_preview": {
+                "expand": "Rozbalit náhled",
+                "collapse": "Sbalit náhled",
+                "error": "Chyba při náhledu souboru. Možná byl smazán nebo je zadané ID souboru neplatné.\n",
+                "no_snippet_preview": "<náhled se zde zobrazí po zveřejnění>",
+                "no_snippet": "<není k dispozici žádný fragment kódu (snippet) náhledu>"
             },
             "file_list": {
                 "loading": "Načítání souborů...",
@@ -176,21 +191,6 @@
                     "hide_fail": "Nepodařilo se skrýt soubor \"{fileName}\"",
                     "loading": "Skrytí souboru..."
                 }
-            },
-            "states": {
-                "error": "Chyba",
-                "loading": "Nahrávání",
-                "unauthorized": "Nejste oprávněni stahovat soubory"
-            },
-            "validation": {
-                "max_size": "Nahrávání větší než {max} kb nejsou akceptována."
-            },
-            "text_preview": {
-                "expand": "Rozbalit náhled",
-                "collapse": "Sbalit náhled",
-                "error": "Chyba při náhledu souboru. Možná byl smazán nebo je zadané ID souboru neplatné.\n",
-                "no_snippet_preview": "<náhled se zde zobrazí po zveřejnění>",
-                "no_snippet": "<není k dispozici žádný fragment kódu (snippet) náhledu>"
             }
         },
         "api": {

@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "",
                 "description": ""
@@ -137,16 +147,6 @@
                 "mime-fileinfo": "",
                 "guessed-extension": "",
                 "not-available": ""
-            },
-            "nav": {
-                "shared-uploads-button": ""
-            },
-            "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
             }
         },
         "forum": {
@@ -154,11 +154,26 @@
             "buttons": {
                 "attach": "Pievienot",
                 "upload": "Augšupielādēt",
+                "upload_shared": "",
                 "user_uploads": "Lietotāja augšupielādes",
                 "cancel": "Atcelt",
                 "media": "Mana multivide",
-                "upload_shared": "",
                 "shared_media": ""
+            },
+            "states": {
+                "error": "Kļūda",
+                "loading": "Augšupielādē",
+                "unauthorized": "Jums nav atļaujas lejupielādēt failus"
+            },
+            "validation": {
+                "max_size": ""
+            },
+            "text_preview": {
+                "expand": "",
+                "collapse": "",
+                "error": "",
+                "no_snippet_preview": "",
+                "no_snippet": ""
             },
             "file_list": {
                 "loading": "Notiek failu ielāde...",
@@ -176,21 +191,6 @@
                     "hide_fail": "Nevarēja noslēpt failu \"{fileName}\"",
                     "loading": "Slēpjam failu..."
                 }
-            },
-            "states": {
-                "error": "Kļūda",
-                "loading": "Augšupielādē",
-                "unauthorized": "Jums nav atļaujas lejupielādēt failus"
-            },
-            "validation": {
-                "max_size": ""
-            },
-            "text_preview": {
-                "expand": "",
-                "collapse": "",
-                "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
             }
         },
         "api": {
