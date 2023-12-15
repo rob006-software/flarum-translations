@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Wszystkie pliki przesłane przez użytkownika.",
+                    "anonymize_description": "Usuwa odniesienie do użytkownika z przesłanych plików. Same pliki pozostają dostępne dla użytkowników, którzy mogli je przeglądać przed anonimizacją.",
+                    "delete_description": "Usuwa wszystkie pliki przesłane przez użytkownika."
                 }
             }
         }
@@ -26,7 +26,7 @@
                 "watermark": "Wybierz, czy obrazki będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na Twoich preferencjach poniżej.\n",
                 "s3_compatible_storage": "Poniższe ustawienia są wymagane jedynie, gdy korzystasz z usługi kompatybilnej z S3. Jeśli korzystasz z AWS, możesz pozostawić je puste.\n",
                 "s3_acl": "ACL, które powinno być zastosowane do wysłanego obiektu (domyślnie: private). Obsługiwane wartości można znaleźć na https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
-                "s3_instance_profile": "",
+                "s3_instance_profile": "Pozostaw klucz i sekret puste, aby użyć poświadczeń w profilu instancji.\n",
                 "composer_buttons": "Domyślnie przycisk dla managera plików oraz przycisk do wysyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n"
             },
             "labels": {
@@ -52,7 +52,7 @@
                 "imgur": {
                     "client_id": "ID użytkownika Imgura",
                     "title": "Ustawienia Imgura",
-                    "tos": ""
+                    "tos": "To Twoim obowiązkiem jest dopilnowanie, by użytkownicy forum przestrzegali <a>warunków korzystania z usługi</a> Imgur"
                 },
                 "local": {
                     "cdn_url": "URL usługi CDN (poprzedza ścieżki plików)",
@@ -68,7 +68,7 @@
                     "max_file_size": "Maksymalna wielkość pliku (w kilobajtach)",
                     "mime_types": "Skonfiguruj mapowanie typu MIME i adaptera przesyłania",
                     "title": "Preferencje ogólne",
-                    "php_ini_values": ""
+                    "php_ini_values": "Twoje wartości <code>php.ini</code> to <code>post_max_size={post}</code> i <code>upload_max_filesize={upload}</code>. Upewnij się, że wartość ustawiona tutaj jest poniżej tych progów, lub dostosuj je odpowiednio. Jeśli korzystasz z <code>Nginx</code>, upewnij się również, że <code>client_max_body_size</code> jest odpowiedniej wielkości dla wybranego maksymalnego limitu."
                 },
                 "resize": {
                     "max_width": "Maksymalna wysokość/szerokość obrazka",
@@ -92,15 +92,15 @@
                         "media-btn": "Jedynie przycisk managera plików"
                     }
                 },
-                "inspect-mime": ""
+                "inspect-mime": "Przetestuj typ MIME pliku"
             },
             "permissions": {
                 "download_label": "Pobieranie plików",
                 "upload_label": "Przesyłanie plików",
                 "view_user_uploads_label": "Przeglądanie plików użytkowników",
                 "delete_uploads_of_others_label": "Usuwanie plików użytkowników",
-                "upload_shared_label": "",
-                "access_shared_label": ""
+                "upload_shared_label": "Prześlij współdzielone pliki",
+                "access_shared_label": "Dostęp do współdzielonych plik w menedżerze mediów"
             },
             "templates": {
                 "file": "Domyślny szablon pobierania pliku",
@@ -109,14 +109,14 @@
                 "image_description": "Wyświetla miniaturę obrazka i przekierowuje pobieranie przez PHP. Pozwala na zbieranie statystyk i ochronę przed hotlinkowaniem.\n",
                 "image-preview": "Szablon z podglądem kompletnego obrazka",
                 "image-preview_description": "Wyświetla cały obrazek in-line. Brak funkcji pobierania, statystyki nie są zbierane i hotlinkowanie nie będzie blokowane.\n",
-                "markdown-image": "",
-                "markdown-image_description": "",
-                "bbcode-image": "",
-                "bbcode-image_description": "",
+                "markdown-image": "Szablon obrazka Markdown",
+                "markdown-image_description": "Pokazuje kompletny obrazek liniowo za pomocą Markdown. <strong>Musisz mieć zainstalowane i aktywowane rozszerzenie flarum/markdown, aby to działało.</strong> Brak funkcji pobierania, statystyki nie są zbierane, a ochrona przed hotlinkowaniem jest ignorowana.\n",
+                "bbcode-image": "Szablon obrazka BBCode",
+                "bbcode-image_description": "Pokazuje kompletny obrazek liniowo za pomocą BBCode. <strong>Musisz mieć zainstalowane i aktywowane rozszerzenie flarum/bbcode, aby to działało.</strong> Brak funkcji pobierania, statystyki nie są zbierane, a ochrona przed hotlinkowaniem jest ignorowana.\n",
                 "just-url": "Jedynie URL",
                 "just-url_description": "Wstawia jedynie URL. Renderowanie może być obsłużone przez inne rozszerzenie umożliwiające automatycznie formatowanie. Brak obsługi pobierania, zliczania statystyk oraz ochrony przed hotlinkowaniem.\n",
-                "text-preview": "",
-                "text-preview_description": ""
+                "text-preview": "Podgląd tekstu",
+                "text-preview_description": "Wstawia podgląd (pierwsze 5 wierszy) pliku tekstowego z opcją rozwinięcia w celu wyświetlenia pełnej zawartości pliku.\n"
             },
             "upload_methods": {
                 "aws-s3": "Kompatybilne z S3",
@@ -126,27 +126,27 @@
                 "qiniu": "QiNiu"
             },
             "inspect-mime": {
-                "title": "",
-                "description": "",
-                "select": "",
-                "laravel-validation": "",
-                "no-file-selected": "",
-                "validation-passed": "",
-                "validation-failed": "",
-                "mime-detector": "",
-                "mime-fileinfo": "",
-                "guessed-extension": "",
-                "not-available": ""
+                "title": "Sprawdź MIME",
+                "description": "FoF Upload wykorzystuje bibliotekę <a>PHP Mime Detector</a> dla popularnych typów MIME i PHP Fileinfo jako rozwiązanie zastępcze.\nWartość MIME zwracana przez Fileinfo może się różnić w zależności od serwera!\n",
+                "select": "Wybierz plik poniżej, aby sprawdzić wartości, które zostaną użyte. Plik nie zostanie zapisany.",
+                "laravel-validation": "Walidacja plików Laravel",
+                "no-file-selected": "Brak pliku",
+                "validation-passed": "Zaliczono",
+                "validation-failed": "Nie powiodło się: {error}",
+                "mime-detector": "Mime Detector (podstawowy)",
+                "mime-fileinfo": "PHP Fileinfo (zastępcze)",
+                "guessed-extension": "Domyślne rozszerzenie pliku (jeśli oryginał nie znajduje się na białej liście)",
+                "not-available": "Brak wyników"
             },
             "nav": {
-                "shared-uploads-button": ""
+                "shared-uploads-button": "Współdzielone pliki"
             },
             "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
+                "description": "Prześlij pliki, które mogą być używane przez wszystkich użytkowników forum.",
+                "introduction": "Współdzielone pliki to pliki, których mogą używać wszyscy użytkownicy twojego forum. Nie są one dołączone do żadnego posta, ale mogą być wstawiane do postów za pomocą menedżera multimediów.\n\n<strong>Ostrzeżenie:</strong> Współdzielone pliki nie są chronione przez żadne uprawnienia. Każdy, kto posiada URL, może je wyświetlić.\n",
+                "no-files": "Nie przesłano jeszcze żadnych współdzielonych plików.",
+                "title": "Współdzielone pliki",
+                "upload-new-button": "Prześlij nowy plik"
             }
         },
         "forum": {
@@ -157,8 +157,8 @@
                 "user_uploads": "Pliki użytkownika",
                 "cancel": "Anuluj",
                 "media": "Moje pliki",
-                "upload_shared": "",
-                "shared_media": ""
+                "upload_shared": "Współdzielone",
+                "shared_media": "Współdzielone pliki"
             },
             "file_list": {
                 "loading": "Ładowanie plików...",
@@ -198,54 +198,54 @@
                 "forbidden_type": "Przesyłanie plików tego typu jest niedozwolone.",
                 "unsupported_type": "Adapter przesyłania nie obsługuje podanego typu MIME: {mime}.",
                 "could_not_detect_mime": "Nie można wykryć typu MIME tego pliku, spróbuj ponownie.",
-                "max_upload_file_size_ini": "",
-                "max_upload_file_size_form": "",
-                "partial_upload": "",
-                "no_file_uploaded": "",
-                "no_upload_tmp_folder": "",
-                "cannot_write_to_disk": "",
-                "upload_blocked_by_php_extension": "",
-                "no_files_made_it_to_upload": ""
+                "max_upload_file_size_ini": "Osiągnięto limit maksymalnego rozmiaru przesyłanych plików z php.ini.",
+                "max_upload_file_size_form": "Osiągnięto limit maksymalnego rozmiaru przesyłanych plików z formularza.",
+                "partial_upload": "Częściowe przesłanie.",
+                "no_file_uploaded": "Nie przesłano żadnego pliku.",
+                "no_upload_tmp_folder": "Brak folderu tmp do przesyłania plików.",
+                "cannot_write_to_disk": "Nie można zapisać na dysku.",
+                "upload_blocked_by_php_extension": "Rozszerzenie php zablokowało przesyłanie.",
+                "no_files_made_it_to_upload": "Prosimy o przesyłanie plików nie większych niż {max} kb."
             }
         },
         "lib": {
             "upload-shared-file-modal": {
-                "title": "",
-                "dropzone": "",
-                "hide-from-media-gallery": "",
-                "upload": ""
+                "title": "Nowy współdzielony plik",
+                "dropzone": "Przeciągnij i upuść pliki tutaj lub kliknij, aby je przeglądać",
+                "hide-from-media-gallery": "Ukryj w galerii multimediów użytkownika",
+                "upload": "Prześlij"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "delete_file_a11y_label": "",
+                "loading": "Wczytywanie plików...",
+                "empty": "Nie ma żadnych plików do wyświetlenia.",
+                "release_to_upload": "Upuść, aby przesłać",
+                "modal_empty_desktop": "Lista plików jest pusta. Kliknij przycisk lub przeciągnij plik tutaj, aby go przesłać.",
+                "modal_empty_phone": "Lista plików jest pusta. Dotknij powyższego przycisku, aby przesłać plik.",
+                "select_file_a11y_label": "Wybierz plik \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Nie wybrano} one {Wybierz plik} other {Select pliki}}",
+                "load_more_files_btn": "Wczytaj więcej plików",
+                "delete_file_a11y_label": "Usuń plik \"{fileName}\"",
                 "hide_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Ukryj \"{fileName}\" w menedżerze plików",
+                    "btn_a11y_label_show": "Pokaż \"{fileName}\" w menedżerze plików",
+                    "hide_confirmation": "Czy na pewno chcesz ukryć \"{fileName}\"? Ukrycie pliku spowoduje jedynie usunięcie go z menedżera multimediów i nie wpłynie na istniejące posty.",
+                    "hide_success": "Plik ukryty",
+                    "show_confirmation": "Czy na pewno chcesz wyświetlić \"{fileName}\"? Wyświetlenie pliku spowoduje, że będzie on widoczny w menedżerze multimediów.",
+                    "show_success": "Pokazany plik",
+                    "hide_fail": "Nie można ukryć pliku \"{fileName}\"",
+                    "show_fail": "Nie można wyświetlić pliku \"{fileName}\"",
+                    "loading": "Ukrywanie pliku..."
                 },
                 "hide_shared_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Ustaw \"{fileName}\" jako prywatny (bez publicznego adresu URL)",
+                    "btn_a11y_label_show": "Ustaw \"{fileName}\" jako publiczny (z publicznym adresem URL)",
+                    "hide_confirmation": "Czy na pewno chcesz ustawić \"{fileName}\" jako prywatny? Ustawienie pliku jako prywatny spowoduje usunięcie jego publicznego adresu URL, ale nie wpłynie na istniejące posty. Nie będzie on również widoczny w menedżerze multimediów dla nieautoryzowanych użytkowników.",
+                    "hide_success": "Plik stał się prywatny",
+                    "show_confirmation": "Czy na pewno chcesz upublicznić plik \"{fileName}\"? Upublicznienie pliku sprawi, że będzie on dostępny dla każdego, kto ma publiczny adres URL i każdy będzie mógł go udostępnić za pomocą menedżera plików.",
+                    "show_success": "Plik został upubliczniony",
+                    "hide_fail": "Nie można ustawić pliku \"{fileName}\" jako prywatnego",
+                    "show_fail": "Nie można upublicznić pliku \"{fileName}\"",
+                    "loading": "Udostępnianie pliku jako prywatnego..."
                 }
             }
         }
