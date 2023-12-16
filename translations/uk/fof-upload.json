@@ -13,14 +13,14 @@
     "fof-upload": {
         "admin": {
             "nav": {
-                "shared-uploads-button": ""
+                "shared-uploads-button": "Спільні завантаження"
             },
             "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
+                "description": "Завантажуйте файли, які можуть бути використані всіма користувачами вашого форуму.",
+                "introduction": "Спільні завантаження — це файли, які можуть використовувати всі користувачі вашого форуму. Вони не прикріплені до жодної публікації, але можуть бути вставлені в публікації за допомогою медіа-менеджера. \n\n<strong>Попередження:</strong> спільні завантаження не захищені жодними дозволами. Усі, хто має URL-адресу, можуть переглядати їх.\n",
+                "no-files": "Ще не було завантажено жодного спільного файлу.",
+                "title": "Спільні завантаження",
+                "upload-new-button": "Завантажити новий файл"
             },
             "pane": {
                 "title": "Завантажити",
@@ -109,8 +109,8 @@
                 "upload_label": "Завантажити файли",
                 "view_user_uploads_label": "Перегляд завантажень користувача",
                 "delete_uploads_of_others_label": "Видалити завантаження користувача",
-                "upload_shared_label": "",
-                "access_shared_label": ""
+                "upload_shared_label": "Завантажте спільні файли",
+                "access_shared_label": "Доступ до спільних файлів у менеджерів медіа"
             },
             "templates": {
                 "file": "Шаблон завантаження файлів",
@@ -154,11 +154,11 @@
             "buttons": {
                 "attach": "Прикріпити",
                 "upload": "Завантажити",
-                "upload_shared": "",
+                "upload_shared": "Спільне",
                 "user_uploads": "Завантаження користувачів",
                 "cancel": "Скасувати",
                 "media": "Мої медіа",
-                "shared_media": ""
+                "shared_media": "Спільні медіа"
             },
             "states": {
                 "error": "Помилка",
@@ -210,26 +210,26 @@
         },
         "lib": {
             "upload-shared-file-modal": {
-                "title": "",
-                "dropzone": "",
-                "hide-from-media-gallery": "",
-                "upload": ""
+                "title": "Новий спільний файл",
+                "dropzone": "Перетягніть файли сюди або натисніть, щоб переглянути",
+                "hide-from-media-gallery": "Приховати з медіагалереї користувача",
+                "upload": "Завантажити"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "delete_file_a11y_label": "",
+                "loading": "Завантаження файлів...",
+                "empty": "Немає файлів для показу.",
+                "release_to_upload": "Реліз для завантаження",
+                "modal_empty_desktop": "Ваш список файлів порожній. Натисніть кнопку або перетягніть файл сюди, щоб завантажити його.",
+                "modal_empty_phone": "Ваш список файлів порожній. Натисніть кнопку вище, щоб завантажити файл.",
+                "select_file_a11y_label": "Оберіть файл \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Не обрано} one {Обрано файл} other {Обрано файли}}",
+                "load_more_files_btn": "Завантажте більше файлів",
+                "delete_file_a11y_label": "Видалити файл \"{fileName}\"",
                 "hide_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
+                    "btn_a11y_label_hide": "Приховати \"{fileName}\" з медіа-менеджера",
+                    "btn_a11y_label_show": "Показувати \"{fileName}\" в медіа-менеджері",
+                    "hide_confirmation": "Ви впевнені, що хочете приховати \"{fileName}\"? Приховування файлу лише видалить його з медіа-менеджера і не вплине на існуючі публікації.",
+                    "hide_success": "Сховати файл",
                     "show_confirmation": "",
                     "show_success": "",
                     "hide_fail": "",
