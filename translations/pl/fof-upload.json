@@ -136,17 +136,17 @@
                 "qiniu": "QiNiu"
             },
             "inspect-mime": {
-                "title": "",
-                "description": "",
-                "select": "",
-                "laravel-validation": "",
-                "no-file-selected": "",
-                "validation-passed": "",
-                "validation-failed": "",
-                "mime-detector": "",
-                "mime-fileinfo": "",
-                "guessed-extension": "",
-                "not-available": ""
+                "title": "Sprawdź MIME",
+                "description": "FoF Upload wykorzystuje bibliotekę <a>PHP Mime Detector</a> dla popularnych typów MIME i PHP Fileinfo jako rozwiązanie zastępcze.\nWartość MIME zwracana przez Fileinfo może się różnić w zależności od serwera!\n",
+                "select": "Wybierz plik poniżej, aby sprawdzić wartości, które zostaną użyte. Plik nie zostanie zapisany.",
+                "laravel-validation": "Walidacja plików Laravel",
+                "no-file-selected": "Brak pliku",
+                "validation-passed": "Zaliczono",
+                "validation-failed": "Nie powiodło się: {error}",
+                "mime-detector": "Mime Detector (podstawowy)",
+                "mime-fileinfo": "PHP Fileinfo (zastępcze)",
+                "guessed-extension": "Domyślne rozszerzenie pliku (jeśli oryginał nie znajduje się na białej liście)",
+                "not-available": "Brak wyników"
             }
         },
         "forum": {
