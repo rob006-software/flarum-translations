@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+	        "nav": {
+		        "shared-uploads-button": "Współdzielone pliki"
+	        },
+	        "shared-uploads": {
+		        "description": "Prześlij pliki, które mogą być używane przez wszystkich użytkowników forum.",
+		        "introduction": "Współdzielone pliki to pliki, których mogą używać wszyscy użytkownicy twojego forum. Nie są one dołączone do żadnego posta, ale mogą być wstawiane do postów za pomocą menedżera multimediów.\n\n<strong>Ostrzeżenie:</strong> Współdzielone pliki nie są chronione przez żadne uprawnienia. Każdy, kto posiada URL, może je wyświetlić.\n",
+		        "no-files": "Nie przesłano jeszcze żadnych współdzielonych plików.",
+		        "title": "Współdzielone pliki",
+		        "upload-new-button": "Prześlij nowy plik"
+	        },
             "pane": {
                 "title": "Przesyłanie plików",
                 "description": "Skonfiguruj ustawienia przesyłania plików."
@@ -126,27 +136,17 @@
                 "qiniu": "QiNiu"
             },
             "inspect-mime": {
-                "title": "Sprawdź MIME",
-                "description": "FoF Upload wykorzystuje bibliotekę <a>PHP Mime Detector</a> dla popularnych typów MIME i PHP Fileinfo jako rozwiązanie zastępcze.\nWartość MIME zwracana przez Fileinfo może się różnić w zależności od serwera!\n",
-                "select": "Wybierz plik poniżej, aby sprawdzić wartości, które zostaną użyte. Plik nie zostanie zapisany.",
-                "laravel-validation": "Walidacja plików Laravel",
-                "no-file-selected": "Brak pliku",
-                "validation-passed": "Zaliczono",
-                "validation-failed": "Nie powiodło się: {error}",
-                "mime-detector": "Mime Detector (podstawowy)",
-                "mime-fileinfo": "PHP Fileinfo (zastępcze)",
-                "guessed-extension": "Domyślne rozszerzenie pliku (jeśli oryginał nie znajduje się na białej liście)",
-                "not-available": "Brak wyników"
-            },
-            "nav": {
-                "shared-uploads-button": "Współdzielone pliki"
-            },
-            "shared-uploads": {
-                "description": "Prześlij pliki, które mogą być używane przez wszystkich użytkowników forum.",
-                "introduction": "Współdzielone pliki to pliki, których mogą używać wszyscy użytkownicy twojego forum. Nie są one dołączone do żadnego posta, ale mogą być wstawiane do postów za pomocą menedżera multimediów.\n\n<strong>Ostrzeżenie:</strong> Współdzielone pliki nie są chronione przez żadne uprawnienia. Każdy, kto posiada URL, może je wyświetlić.\n",
-                "no-files": "Nie przesłano jeszcze żadnych współdzielonych plików.",
-                "title": "Współdzielone pliki",
-                "upload-new-button": "Prześlij nowy plik"
+                "title": "",
+                "description": "",
+                "select": "",
+                "laravel-validation": "",
+                "no-file-selected": "",
+                "validation-passed": "",
+                "validation-failed": "",
+                "mime-detector": "",
+                "mime-fileinfo": "",
+                "guessed-extension": "",
+                "not-available": ""
             }
         },
         "forum": {
@@ -154,11 +154,26 @@
             "buttons": {
                 "attach": "Załącz",
                 "upload": "Wyślij",
+	            "upload_shared": "Współdzielone",
                 "user_uploads": "Pliki użytkownika",
                 "cancel": "Anuluj",
                 "media": "Moje pliki",
-                "upload_shared": "Współdzielone",
-                "shared_media": "Współdzielone pliki"
+	            "shared_media": "Współdzielone pliki"
+            },
+            "states": {
+                "error": "Błąd",
+                "loading": "Wysyłanie",
+                "unauthorized": "Nie masz uprawnień, aby pobierać pliki"
+            },
+            "validation": {
+                "max_size": "Wysyłanie plików większych niż {max} kb nie jest obsługiwane."
+            },
+            "text_preview": {
+                "expand": "Rozwiń podgląd",
+                "collapse": "Zwiń podgląd",
+                "error": "Wystąpił błąd podczas generowania podglądu pliku. Plik mógł zostać usunięty lub podane ID pliku jest nieprawidłowe.\n",
+                "no_snippet_preview": "<podgląd pojawi się tutaj po opublikowaniu posta>",
+                "no_snippet": "<podgląd nie jest dostępny>"
             },
             "file_list": {
                 "loading": "Ładowanie plików...",
@@ -176,21 +191,6 @@
                     "hide_fail": "Nie udało się ukryć pliku \"{fileName}\"",
                     "loading": "Ukrywanie pliku..."
                 }
-            },
-            "states": {
-                "error": "Błąd",
-                "loading": "Wysyłanie",
-                "unauthorized": "Nie masz uprawnień, aby pobierać pliki"
-            },
-            "validation": {
-                "max_size": "Wysyłanie plików większych niż {max} kb nie jest obsługiwane."
-            },
-            "text_preview": {
-                "expand": "Rozwiń podgląd",
-                "collapse": "Zwiń podgląd",
-                "error": "Wystąpił błąd podczas generowania podglądu pliku. Plik mógł zostać usunięty lub podane ID pliku jest nieprawidłowe.\n",
-                "no_snippet_preview": "<podgląd pojawi się tutaj po opublikowaniu posta>",
-                "no_snippet": "<podgląd nie jest dostępny>"
             }
         },
         "api": {

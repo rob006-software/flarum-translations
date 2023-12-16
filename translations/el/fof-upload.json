@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Upload",
                 "description": "Set up uploading services and preferences."
@@ -137,16 +147,6 @@
                 "mime-fileinfo": "",
                 "guessed-extension": "",
                 "not-available": ""
-            },
-            "nav": {
-                "shared-uploads-button": ""
-            },
-            "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
             }
         },
         "forum": {
@@ -154,11 +154,26 @@
             "buttons": {
                 "attach": "Επισύναψη",
                 "upload": "Μεταφόρτωση",
+                "upload_shared": "",
                 "user_uploads": "Αρχεία",
                 "cancel": "Ακύρωση",
                 "media": "Οι εικόνες μου",
-                "upload_shared": "",
                 "shared_media": ""
+            },
+            "states": {
+                "error": "Σφάλμα",
+                "loading": "Μεταφόρτωση",
+                "unauthorized": "Δεν επιτρέπεται η λήψη αρχείων"
+            },
+            "validation": {
+                "max_size": ""
+            },
+            "text_preview": {
+                "expand": "",
+                "collapse": "",
+                "error": "",
+                "no_snippet_preview": "",
+                "no_snippet": ""
             },
             "file_list": {
                 "loading": "Φόρτωση αρχείων...",
@@ -176,21 +191,6 @@
                     "hide_fail": "Η απόκρυψη του αρχείου \"{fileName}\" δεν ήταν δυνατή",
                     "loading": "Απόκρυψη αρχείου..."
                 }
-            },
-            "states": {
-                "error": "Σφάλμα",
-                "loading": "Μεταφόρτωση",
-                "unauthorized": "Δεν επιτρέπεται η λήψη αρχείων"
-            },
-            "validation": {
-                "max_size": ""
-            },
-            "text_preview": {
-                "expand": "",
-                "collapse": "",
-                "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
             }
         },
         "api": {

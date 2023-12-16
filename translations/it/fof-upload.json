@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Carica",
                 "description": "Configura i servizi di caricamento e le preferenze."
@@ -138,16 +148,6 @@
                 "guessed-extension": "Estensione file predefinita (se l'originale non è nella whitelist)",
                 "not-available": "Nessun risultato"
             },
-            "nav": {
-                "shared-uploads-button": ""
-            },
-            "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
-            },
             "buttons": {
                 "save": "Salva impostazioni"
             }
@@ -157,11 +157,26 @@
             "buttons": {
                 "attach": "Allega",
                 "upload": "Carica",
+                "upload_shared": "",
                 "user_uploads": "Caricamenti Utente",
                 "cancel": "Cancella",
                 "media": "I miei media",
-                "upload_shared": "",
                 "shared_media": ""
+            },
+            "states": {
+                "error": "Errore",
+                "loading": "Caricamento...",
+                "unauthorized": "Non hai permessi per scaricare file"
+            },
+            "validation": {
+                "max_size": "I caricamenti superiori a {max} kb non sono accettati."
+            },
+            "text_preview": {
+                "expand": "Espandi anteprima",
+                "collapse": "Comprimi anteprima",
+                "error": "Errore durante l'anteprima del file. Potrebbe essere stato eliminato o l'ID file fornito non è valido.\n",
+                "no_snippet_preview": "<l'anteprima apparirà qui dopo la pubblicazione>",
+                "no_snippet": "<nessun anteprima disponibile>"
             },
             "file_list": {
                 "loading": "Caricamento file...",
@@ -179,21 +194,6 @@
                     "hide_fail": "Impossibile nascondere il file \"{fileName}\"",
                     "loading": "Nascondo file..."
                 }
-            },
-            "states": {
-                "error": "Errore",
-                "loading": "Caricamento...",
-                "unauthorized": "Non hai permessi per scaricare file"
-            },
-            "validation": {
-                "max_size": "I caricamenti superiori a {max} kb non sono accettati."
-            },
-            "text_preview": {
-                "expand": "Espandi anteprima",
-                "collapse": "Comprimi anteprima",
-                "error": "Errore durante l'anteprima del file. Potrebbe essere stato eliminato o l'ID file fornito non è valido.\n",
-                "no_snippet_preview": "<l'anteprima apparirà qui dopo la pubblicazione>",
-                "no_snippet": "<nessun anteprima disponibile>"
             }
         },
         "api": {

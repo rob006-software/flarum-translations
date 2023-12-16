@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Hochladen",
                 "description": "Konfiguriere Upload-Dienste und Präferenzen."
@@ -138,16 +148,6 @@
                 "guessed-extension": "Standard-Dateierweiterung (wenn das Original nicht auf der Whitelist steht)",
                 "not-available": "Kein Ergebnis"
             },
-            "nav": {
-                "shared-uploads-button": ""
-            },
-            "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
-            },
             "buttons": {
                 "save": "Einstellungen speichern"
             }
@@ -157,11 +157,26 @@
             "buttons": {
                 "attach": "Anhängen",
                 "upload": "Hochladen",
+                "upload_shared": "",
                 "user_uploads": "Benutzer-Uploads",
                 "cancel": "Abbruch",
                 "media": "Meine Medien",
-                "upload_shared": "",
                 "shared_media": ""
+            },
+            "states": {
+                "error": "Fehler",
+                "loading": "Lädt hoch",
+                "unauthorized": "Du darfst keine Dateien herunterladen"
+            },
+            "validation": {
+                "max_size": "Uploads über {max}KB werden nicht akzeptiert."
+            },
+            "text_preview": {
+                "expand": "Vorschau erweitern",
+                "collapse": "Vorschau minimieren",
+                "error": "Fehler bei der Vorschaudatei. Möglicherweise wurde sie gelöscht oder die angegebene Datei-ID ist ungültig.\n",
+                "no_snippet_preview": "<Vorschau wird hier nach dem Posten erscheinen>",
+                "no_snippet": "<kein Vorschau-Snippet verfügbar>"
             },
             "file_list": {
                 "loading": "Lade Dateien...",
@@ -179,21 +194,6 @@
                     "hide_fail": "Datei \"{fileName}\" konnte nicht ausgeblendet werden",
                     "loading": "Datei ausblenden..."
                 }
-            },
-            "states": {
-                "error": "Fehler",
-                "loading": "Lädt hoch",
-                "unauthorized": "Du darfst keine Dateien herunterladen"
-            },
-            "validation": {
-                "max_size": "Uploads über {max}KB werden nicht akzeptiert."
-            },
-            "text_preview": {
-                "expand": "Vorschau erweitern",
-                "collapse": "Vorschau minimieren",
-                "error": "Fehler bei der Vorschaudatei. Möglicherweise wurde sie gelöscht oder die angegebene Datei-ID ist ungültig.\n",
-                "no_snippet_preview": "<Vorschau wird hier nach dem Posten erscheinen>",
-                "no_snippet": "<kein Vorschau-Snippet verfügbar>"
             }
         },
         "api": {

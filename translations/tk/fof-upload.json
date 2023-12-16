@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Ýükle",
                 "description": "Ýükleme hyzmatlaryny we ileri tutmalary düz."
@@ -137,16 +147,6 @@
                 "mime-fileinfo": "",
                 "guessed-extension": "",
                 "not-available": ""
-            },
-            "nav": {
-                "shared-uploads-button": ""
-            },
-            "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
             }
         },
         "forum": {
@@ -154,11 +154,26 @@
             "buttons": {
                 "attach": "Berkit",
                 "upload": "Ýükle",
+                "upload_shared": "Paýlaşylan",
                 "user_uploads": "Ulanyjy ýüklemeleri",
                 "cancel": "Ýatyr",
                 "media": "Meniň mediýalarym",
-                "upload_shared": "Paýlaşylan",
                 "shared_media": "Paýlaşylan mediýa"
+            },
+            "states": {
+                "error": "Ýalňyşlyk",
+                "loading": "Ýüklenilýär",
+                "unauthorized": "Size faýllary göçürip almaga rugsat berilmeýär"
+            },
+            "validation": {
+                "max_size": "{max} kb-dan ýokary ýüklemeler kabul edilmeýär."
+            },
+            "text_preview": {
+                "expand": "Öňünden görüşi giňelt",
+                "collapse": "Öňünden görüşi kiçelt",
+                "error": "Faýly öňünden görmek bolmady. Faýl bozulan ýa-da berlen faýl ID-si nädogry bolup biler.\n",
+                "no_snippet_preview": "<deslapky syn goýlandan soň peýda bolar>",
+                "no_snippet": "<deslapky syn bölegi ýok>"
             },
             "file_list": {
                 "loading": "Faýllar ýüklenilýär ...",
@@ -176,21 +191,6 @@
                     "hide_fail": "\"{fileName}\" faýly gizläp bolmady",
                     "loading": "Faýl gizlenilýär..."
                 }
-            },
-            "states": {
-                "error": "Ýalňyşlyk",
-                "loading": "Ýüklenilýär",
-                "unauthorized": "Size faýllary göçürip almaga rugsat berilmeýär"
-            },
-            "validation": {
-                "max_size": "{max} kb-dan ýokary ýüklemeler kabul edilmeýär."
-            },
-            "text_preview": {
-                "expand": "Öňünden görüşi giňelt",
-                "collapse": "Öňünden görüşi kiçelt",
-                "error": "Faýly öňünden görmek bolmady. Faýl bozulan ýa-da berlen faýl ID-si nädogry bolup biler.\n",
-                "no_snippet_preview": "<deslapky syn goýlandan soň peýda bolar>",
-                "no_snippet": "<deslapky syn bölegi ýok>"
             }
         },
         "api": {

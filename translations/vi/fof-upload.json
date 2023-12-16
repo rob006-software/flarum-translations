@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Tải lên",
                 "description": "Thiết lập các dịch vụ và tùy chọn tải lên."
@@ -137,16 +147,6 @@
                 "mime-fileinfo": "PHP Fileinfo (dự phòng)",
                 "guessed-extension": "Phần mở rộng tệp mặc định (nếu tệp gốc không có trong danh sách cho phép)",
                 "not-available": "Không có kết quả"
-            },
-            "nav": {
-                "shared-uploads-button": ""
-            },
-            "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
             }
         },
         "forum": {
@@ -154,11 +154,26 @@
             "buttons": {
                 "attach": "Đính kèm",
                 "upload": "Tải lên",
+                "upload_shared": "",
                 "user_uploads": "Tệp của người dùng",
                 "cancel": "Hủy",
                 "media": "Tệp của tôi",
-                "upload_shared": "",
                 "shared_media": ""
+            },
+            "states": {
+                "error": "Lỗi",
+                "loading": "Đang tải lên",
+                "unauthorized": "Bạn không được phép tải tập tin"
+            },
+            "validation": {
+                "max_size": "Kích thước tệp trên {max} kb không được chấp nhận."
+            },
+            "text_preview": {
+                "expand": "Mở rộng bản xem trước",
+                "collapse": "Thu gọn bản xem trước",
+                "error": "Lỗi khi xem trước tệp. Nó có thể đã bị xóa hoặc ID tệp được cung cấp không hợp lệ.\n",
+                "no_snippet_preview": "<bản xem trước sẽ xuất hiện ở đây sau khi đăng>",
+                "no_snippet": "<không có sẵn đoạn mã xem trước>"
             },
             "file_list": {
                 "loading": "Đang tải tệp...",
@@ -176,21 +191,6 @@
                     "hide_fail": "Không thể xoá tệp \"{fileName}\"",
                     "loading": "Đang xoá tệp ..."
                 }
-            },
-            "states": {
-                "error": "Lỗi",
-                "loading": "Đang tải lên",
-                "unauthorized": "Bạn không được phép tải tập tin"
-            },
-            "validation": {
-                "max_size": "Kích thước tệp trên {max} kb không được chấp nhận."
-            },
-            "text_preview": {
-                "expand": "Mở rộng bản xem trước",
-                "collapse": "Thu gọn bản xem trước",
-                "error": "Lỗi khi xem trước tệp. Nó có thể đã bị xóa hoặc ID tệp được cung cấp không hợp lệ.\n",
-                "no_snippet_preview": "<bản xem trước sẽ xuất hiện ở đây sau khi đăng>",
-                "no_snippet": "<không có sẵn đoạn mã xem trước>"
             }
         },
         "api": {

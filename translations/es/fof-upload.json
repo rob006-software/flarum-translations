@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Subir",
                 "description": "Configure los servicios y preferencias de carga."
@@ -137,16 +147,6 @@
                 "mime-fileinfo": "PHP Fileinfo (fallback)",
                 "guessed-extension": "Extensión de archivo predeterminada (si el original no está en la lista blanca)",
                 "not-available": "Sin resultados"
-            },
-            "nav": {
-                "shared-uploads-button": ""
-            },
-            "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
             }
         },
         "forum": {
@@ -154,11 +154,26 @@
             "buttons": {
                 "attach": "Adjuntar",
                 "upload": "Subir",
+                "upload_shared": "",
                 "user_uploads": "Subidas de usuarios",
                 "cancel": "Cancelar",
                 "media": "Mis medios",
-                "upload_shared": "",
                 "shared_media": ""
+            },
+            "states": {
+                "error": "Error",
+                "loading": "Subiendo",
+                "unauthorized": "No está autorizado a descargar archivos"
+            },
+            "validation": {
+                "max_size": "No se aceptan subidas de más de {max} kb."
+            },
+            "text_preview": {
+                "expand": "Ampliar vista previa",
+                "collapse": "Ocultar vista previa",
+                "error": "Error al previsualizar el archivo. Es posible que se haya eliminado o que el ID de archivo proporcionado no sea válido.\n",
+                "no_snippet_preview": "<la vista previa aparecerá aquí después de la publicación>",
+                "no_snippet": "<no hay fragmento de vista previa disponible>"
             },
             "file_list": {
                 "loading": "Cargando archivos...",
@@ -176,21 +191,6 @@
                     "hide_fail": "No se pudo ocultar el archivo \"{fileName}\"",
                     "loading": "Ocultando el archivo..."
                 }
-            },
-            "states": {
-                "error": "Error",
-                "loading": "Subiendo",
-                "unauthorized": "No está autorizado a descargar archivos"
-            },
-            "validation": {
-                "max_size": "No se aceptan subidas de más de {max} kb."
-            },
-            "text_preview": {
-                "expand": "Ampliar vista previa",
-                "collapse": "Ocultar vista previa",
-                "error": "Error al previsualizar el archivo. Es posible que se haya eliminado o que el ID de archivo proporcionado no sea válido.\n",
-                "no_snippet_preview": "<la vista previa aparecerá aquí después de la publicación>",
-                "no_snippet": "<no hay fragmento de vista previa disponible>"
             }
         },
         "api": {

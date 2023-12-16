@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": "Shared uploads"
+            },
+            "shared-uploads": {
+                "description": "Upload files that can be used by all users of your forum.",
+                "introduction": "Shared uploads are files that can be used by all users of your forum. They are not attached to any post, but can be inserted into posts by using the media manager.\n\n<strong>Warning:</strong> Shared uploads are not protected by any permissions. Anyone with the URL can view them.\n",
+                "no-files": "No shared files have been uploaded yet.",
+                "title": "Shared uploads",
+                "upload-new-button": "Upload new file"
+            },
             "pane": {
                 "title": "Upload",
                 "description": "Set up uploading services and preferences."
@@ -137,16 +147,6 @@
                 "mime-fileinfo": "PHP Fileinfo (fallback)",
                 "guessed-extension": "Default file extension (if original is not whitelisted)",
                 "not-available": "No result"
-            },
-            "nav": {
-                "shared-uploads-button": "Shared uploads"
-            },
-            "shared-uploads": {
-                "description": "Upload files that can be used by all users of your forum.",
-                "introduction": "Shared uploads are files that can be used by all users of your forum. They are not attached to any post, but can be inserted into posts by using the media manager.\n\n<strong>Warning:</strong> Shared uploads are not protected by any permissions. Anyone with the URL can view them.\n",
-                "no-files": "No shared files have been uploaded yet.",
-                "title": "Shared uploads",
-                "upload-new-button": "Upload new file"
             }
         },
         "forum": {
@@ -154,28 +154,11 @@
             "buttons": {
                 "attach": "Attach",
                 "upload": "Upload",
+                "upload_shared": "Shared",
                 "user_uploads": "User uploads",
                 "cancel": "Cancel",
                 "media": "My media",
-                "upload_shared": "Shared",
                 "shared_media": "Shared media"
-            },
-            "file_list": {
-                "loading": "Loading files...",
-                "empty": "There are no files to show.",
-                "release_to_upload": "Release to upload",
-                "modal_empty_desktop": "Your file list is empty. Click the button or drag a file here to upload.",
-                "modal_empty_phone": "Your file list is empty. Tap the button above to upload a file.",
-                "select_file_a11y_label": "Select file \"{fileName}\"",
-                "confirm_selection_btn": "{fileCount, plural, =0 {None selected} one {Select file} other {Select files}}",
-                "load_more_files_btn": "Load more files",
-                "hide_file": {
-                    "btn_a11y_label": "Hide \"{fileName}\" from media manager",
-                    "hide_confirmation": "Are you sure you want to hide \"{fileName}\"? Hiding a file will only remove it from your media manager and will not affect existing posts.",
-                    "hide_success": "File hidden",
-                    "hide_fail": "Couldn't hide file \"{fileName}\"",
-                    "loading": "Hiding file..."
-                }
             },
             "states": {
                 "error": "Error",

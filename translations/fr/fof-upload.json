@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Transférer",
                 "description": "Configurez les services de transfert et les préférences."
@@ -137,16 +147,6 @@
                 "mime-fileinfo": "PHP Fileinfo (solution de repli)",
                 "guessed-extension": "Extension de fichier par défaut (si l'original ne figure pas sur la liste blanche)",
                 "not-available": "Aucun résultat"
-            },
-            "nav": {
-                "shared-uploads-button": ""
-            },
-            "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
             }
         },
         "forum": {
@@ -154,11 +154,26 @@
             "buttons": {
                 "attach": "Joindre",
                 "upload": "Transférer",
+                "upload_shared": "",
                 "user_uploads": "Transferts de l'utilisateur",
                 "cancel": "Annuler",
                 "media": "Mes médias",
-                "upload_shared": "",
                 "shared_media": ""
+            },
+            "states": {
+                "error": "Erreur",
+                "loading": "Transfert",
+                "unauthorized": "Vous n'êtes pas autorisé à télécharger des fichiers"
+            },
+            "validation": {
+                "max_size": "Les téléchargements de plus de {max} kb ne sont pas acceptés."
+            },
+            "text_preview": {
+                "expand": "Développer l'aperçu",
+                "collapse": "Réduire l'aperçu",
+                "error": "Erreur lors de la prévisualisation du fichier. Il a peut-être été supprimé ou l'ID de fichier fourni n'est pas valide.\n",
+                "no_snippet_preview": "<l'aperçu apparaîtra ici après la publication>",
+                "no_snippet": "<aucun extrait d'aperçu disponible>"
             },
             "file_list": {
                 "loading": "Chargement des fichiers...",
@@ -176,21 +191,6 @@
                     "hide_fail": "Impossible de masquer le fichier « {fileName} »",
                     "loading": "Masquage du fichier..."
                 }
-            },
-            "states": {
-                "error": "Erreur",
-                "loading": "Transfert",
-                "unauthorized": "Vous n'êtes pas autorisé à télécharger des fichiers"
-            },
-            "validation": {
-                "max_size": "Les téléchargements de plus de {max} kb ne sont pas acceptés."
-            },
-            "text_preview": {
-                "expand": "Développer l'aperçu",
-                "collapse": "Réduire l'aperçu",
-                "error": "Erreur lors de la prévisualisation du fichier. Il a peut-être été supprimé ou l'ID de fichier fourni n'est pas valide.\n",
-                "no_snippet_preview": "<l'aperçu apparaîtra ici après la publication>",
-                "no_snippet": "<aucun extrait d'aperçu disponible>"
             }
         },
         "api": {

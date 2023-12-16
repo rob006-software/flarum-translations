@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "上傳",
                 "description": "設置上傳服務和首選項。"
@@ -137,16 +147,6 @@
                 "mime-fileinfo": "PHP Fileinfo（備）",
                 "guessed-extension": "默認文件擴展名",
                 "not-available": "暫無結果"
-            },
-            "nav": {
-                "shared-uploads-button": ""
-            },
-            "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
             }
         },
         "forum": {
@@ -154,11 +154,26 @@
             "buttons": {
                 "attach": "上載",
                 "upload": "上傳",
+                "upload_shared": "",
                 "user_uploads": "用戶上傳",
                 "cancel": "取消",
                 "media": "我的文件",
-                "upload_shared": "",
                 "shared_media": ""
+            },
+            "states": {
+                "error": "錯誤",
+                "loading": "正在上載",
+                "unauthorized": "您未被允許下載檔案"
+            },
+            "validation": {
+                "max_size": "文件需小於 {max} KB。"
+            },
+            "text_preview": {
+                "expand": "展開全文",
+                "collapse": "收起全文",
+                "error": "文件預覽無法加載。此文件可能已被刪除，或文件 ID已失效。\n",
+                "no_snippet_preview": "<本文的預覽將會在此處展示>",
+                "no_snippet": "<暫無可用的預覽代碼片段>"
             },
             "file_list": {
                 "loading": "加載文件中……",
@@ -176,21 +191,6 @@
                     "hide_fail": "無法隱藏文件「{fileName}」",
                     "loading": "正在隱藏文件……"
                 }
-            },
-            "states": {
-                "error": "錯誤",
-                "loading": "正在上載",
-                "unauthorized": "您未被允許下載檔案"
-            },
-            "validation": {
-                "max_size": "文件需小於 {max} KB。"
-            },
-            "text_preview": {
-                "expand": "展開全文",
-                "collapse": "收起全文",
-                "error": "文件預覽無法加載。此文件可能已被刪除，或文件 ID已失效。\n",
-                "no_snippet_preview": "<本文的預覽將會在此處展示>",
-                "no_snippet": "<暫無可用的預覽代碼片段>"
             }
         },
         "api": {
