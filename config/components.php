@@ -200,7 +200,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-default-image-alt/1.0.1/locale/en.yml',
 	],
 	'clarkwinkelmann-discussion-bookmarks' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-discussion-bookmarks/2.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-discussion-bookmarks/2.0.1/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-discussion-lists' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-discussion-lists/1.0.0/resources/locale/en.yml',
