@@ -383,7 +383,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-chatgpt/v0.4.0/locale/en.yml',
 	],
 	'datlechin-copy-links' => [
-		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-copy-links/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-copy-links/v1.0.1/locale/en.yml',
 	],
 	'datlechin-discussion-overview' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-discussion-overview/v0.0.1/locale/en.yml',
