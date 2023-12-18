@@ -2,19 +2,19 @@
     "imgur-upload": {
         "admin": {
             "settings": {
-                "hide-markdown-image": "",
-                "allow-paste": "",
+                "hide-markdown-image": "Markdownエディタの画像ボタンを隠す",
+                "allow-paste": "画像の貼り付けによるアップロードを許可する",
                 "embed-type": {
-                    "title": "",
-                    "preview-with-link": "",
-                    "preview-without-link": "",
-                    "full-with-link": "",
-                    "full-without-link": ""
+                    "title": "埋め込みタイプ",
+                    "preview-with-link": "プレビュー(1024px)とフルサイズ画像のリンク",
+                    "preview-without-link": "プレビュー（リンクなし）",
+                    "full-with-link": "フルサイズ画像（リンク付き）",
+                    "full-without-link": "フルサイズ画像（リンク無し）"
                 }
             }
         },
         "forum": {
-            "upload": "僕を押すか画像を貼り付けてアップロード！",
+            "upload": "クリックか貼り付けて画像をアップロード",
             "loading": "アップロード中...",
             "done": "完了！",
             "error": "エラー"
