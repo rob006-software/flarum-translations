@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "ユーザーによってアップロードされたすべてのファイル。",
+                    "anonymize_description": "アップロードされたファイルからユーザー参照情報を削除します。ファイル閲覧可能なユーザーはアクセス可能なままとなります。",
+                    "delete_description": "ユーザーがアップロードしたすべてのファイルを削除します。"
                 }
             }
         }
@@ -13,7 +13,7 @@
     "fof-upload": {
         "admin": {
             "nav": {
-                "shared-uploads-button": ""
+                "shared-uploads-button": "共有アップロード"
             },
             "shared-uploads": {
                 "description": "",
