@@ -19,9 +19,9 @@
                     "vertical": "垂直",
                     "horizontal": "水平"
                 },
-                "maxImageCount": "",
-                "maxImageCountHelp": "",
-                "maxImageCountPlaceholder": "",
+                "maxImageCount": "預覽中的最大影像數",
+                "maxImageCountHelp": "將顯示多少張來自 Opengraph 或後備解析器的圖像。 所有圖像 URL 始終會儲存，以便您稍後變更此設定。\n",
+                "maxImageCountPlaceholder": "留空則無限制",
                 "imageProxy": "OpenGraph Image Proxy",
                 "imageProxyHelp": "所有 OpenGraph 和網站圖標圖像都將通過 Flarum 代理，而不是由訪問者瀏覽器檢索",
                 "cacheProxy": "緩存代理圖片",
