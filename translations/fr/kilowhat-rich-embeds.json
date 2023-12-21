@@ -19,9 +19,9 @@
                     "vertical": "Vertical",
                     "horizontal": "Horizontal"
                 },
-                "maxImageCount": "",
-                "maxImageCountHelp": "",
-                "maxImageCountPlaceholder": "",
+                "maxImageCount": "Nombre maximum d'images dans la prévisualisation",
+                "maxImageCountHelp": "Nombre d'images provenant d'Opengraph ou de l'analyseur de substitution qui seront affichées. Toutes les URL des images sont toujours enregistrées, ce qui vous permet de modifier ce paramètre ultérieurement.\n",
+                "maxImageCountPlaceholder": "Laissez vide pour un nombre illimité",
                 "imageProxy": "Proxy d'image OpenGraph",
                 "imageProxyHelp": "Toutes les images OpenGraph et les favicons seront transmises par Flarum au lieu d'être récupérées par le navigateur du visiteur",
                 "cacheProxy": "Mise en cache des images sous proxy",
