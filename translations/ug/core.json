@@ -38,8 +38,8 @@
                 "home_page_heading": "باش بەت",
                 "home_page_text": "قوللانچىلارغا بىرىنجى بولۇپ كۆرۈندىغان بەتنى تاللاڭ.",
                 "show_language_selector_label": "تىل تاللىغۇچنى كۆرسىتىش",
-                "slug_driver_heading": "",
-                "slug_driver_text": "",
+                "slug_driver_heading": "تور ئادرېسى ھاسىل قىلغۇچ:{model}",
+                "slug_driver_text": "بۇ مودېل ئۈچۈن ئىشىلتىلدىغان تور ئادرېسى ھاسىل قىلغۇچنى تاللاڭ.",
                 "title": "ئاساسلار",
                 "welcome_banner_heading": "قارشى ئېلىش لوزۇنكىسى",
                 "welcome_banner_text": "بارلىق تېمىلار بېتىدە كۆرۈندىغان لوزۇنكا مەزمۇنىنى كىرگۈزۈڭ. بۇنىڭ بىلەن زىيارەتچىلەرنى قارشى ئېلىڭ."
@@ -60,204 +60,204 @@
                 "io_error_message": "دېسكىغا يازغىلى بولمىدى. يېزىش ھوقۇقىڭىزنى تەكشۈرۈپ ئاندىن قايتا سىناڭ ياكى تېرمىنالدىن بۇيرۇق بېرىپ سىناپ بېقىڭ.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "scheduler-status": "جەدۋەل",
+                        "queue-driver": "ئۆچرەت باشقۇرۇش دېتالى",
+                        "session-driver": "ۋاقىت دېتالى"
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "ئاكىتىپ",
+                        "inactive": "جانسىز",
+                        "never-run": "قەتئىي قوزغالما"
                     }
                 },
-                "title": "",
-                "tools_button": ""
+                "title": "باشقۇرۇش تاختىسى",
+                "tools_button": "ئەسۋابلار"
             },
             "debug-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "<code>debug</code> ھالىتىدە، فلارۇم <code>JavaScript</code> ۋە <code>CSS</code> كودلىرىنى ھەر بىر بەت ئېچىلغاندا بىر قېتىم كومپايىللايدۇ ۋە بەزى ئۇچۇرلار ئاشكارلىنىپ كېتىشى مۇمكىن. مەسلەن ساندان مەخپىيەتلىكى، تەڭشەكلەر قاتارلىقلار.\n\n<code>debug</code> ھالىتىنى <code>config.php</code> ھۆججىتىدىن ئېتىۋېتىش تەۋسىيە قىلىندۇ. بۇ ئۇلىنىشتىن <link>Flarum docs</link> تەپسىلىي ئۇچۇرلارغا ئېرىشەلەيسىز.\n",
+                "label": "چاتاق ئىزدەش ھالىتى ئوچۇق"
             },
             "edit_css": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "مۇنبىرىڭىزنىڭ كۆرۈنۈشلىرىنى فىلارۇمنىڭ <a>ئەسلىدىكى ئۇسلۇبلىرى</a>نىڭ بېشىغا Less/CSS كودلارنى قوشۇش ئارقىلىق خاسلاشتۇرۇڭ.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "خاسلاشتۇرۇلغان CSS نى تەھرىرلەش"
             },
             "edit_footer": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "=> core.ref.custom_footer_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
             },
             "edit_group": {
-                "color_label": "",
-                "delete_button": "",
-                "delete_confirmation": "",
-                "hide_label": "",
-                "icon_label": "",
-                "icon_text": "",
-                "name_label": "",
-                "plural_placeholder": "",
-                "singular_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "color_label": "=> core.ref.color",
+                "delete_button": "گۇرۇپپىنى ئۆچۈرۈش",
+                "delete_confirmation": "بۇ گۇرۇپنى راستتىنلا ئۆچۈرەمسىز؟ گۇرۇپپىنىڭ ئەزالىرى ئۆچۈرۈلمەيدۇ.",
+                "hide_label": "مۇنبەرنى يوشۇرۇش",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "ئىسمى",
+                "plural_placeholder": "كۆپلۈك (مەسلەن، مودلار)",
+                "singular_placeholder": "بىرلىك (مەسلەن، مود)",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "گۇرۇپپا قۇرۇش"
             },
             "edit_header": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
             },
             "email": {
-                "addresses_heading": "",
-                "description": "",
-                "driver_heading": "",
-                "driver_label": "",
-                "from_label": "",
-                "mail_encryption_label": "",
-                "mail_host_label": "",
-                "mail_mailgun_domain_label": "",
-                "mail_mailgun_region_label": "",
-                "mail_mailgun_secret_label": "",
-                "mail_password_label": "",
-                "mail_port_label": "",
-                "mail_username_label": "",
-                "mailgun_heading": "",
-                "not_sending_message": "",
-                "send_test_mail_button": "",
-                "send_test_mail_heading": "",
-                "send_test_mail_success": "",
-                "send_test_mail_text": "",
-                "smtp_heading": "",
-                "title": ""
+                "addresses_heading": "ئادرېسلار",
+                "description": "مۇنبىرىڭىز ئېلىكترونلۇق يوللانما يوللاشقا ئىشىلتىدىغان قوزغاتقۇچى پروگرامما، تەڭشەك ۋە ئادرېسلارنى كىرگۈزۈڭ.",
+                "driver_heading": "قوزغاتقۇچى پروگراممىنى تاللاڭ",
+                "driver_label": "قوزغاتقۇچى پروگرامما",
+                "from_label": "يوللىغۇچى",
+                "mail_encryption_label": "سىفىرلاش",
+                "mail_host_label": "مۇلازىمىتىر",
+                "mail_mailgun_domain_label": "تور نامى",
+                "mail_mailgun_region_label": "رايون",
+                "mail_mailgun_secret_label": "مەخپىي نومۇر",
+                "mail_password_label": "=> core.ref.password",
+                "mail_port_label": "پورت",
+                "mail_username_label": "=> core.ref.username",
+                "mailgun_heading": "Mailgun تەڭشەكلىرى",
+                "not_sending_message": "فلارۇم ھازىر ئېلىكترونلۇق يوللانما يوللىمايدۇ. بۇنىڭ سەۋەبى تاللانغان قوزغاتقۇچى پروگرامما ياكى تەڭشەكلەردىكى خاتالىق بولۇشى مۇمكىن.",
+                "send_test_mail_button": "يوللاش",
+                "send_test_mail_heading": "سىناق يوللانما يوللاش",
+                "send_test_mail_success": "سىناق يوللانما مۇۋەپپىقىيەتلىك يوللاندى!",
+                "send_test_mail_text": "بۇ سىزنىڭ ئېلىكترونلۇق يوللانما {email} ئادرېسىڭىزغا يۇقىرقى تەڭشەكلەرنى ئىشىلتىپ بىر خەت يوللايدۇ.",
+                "smtp_heading": "SMTP تەڭشەكلەر",
+                "title": "=> core.ref.email"
             },
             "extension": {
-                "configure_scopes": "",
-                "confirm_purge": "",
-                "disabled": "",
-                "enable_to_see": "",
-                "enabled": "",
+                "configure_scopes": "ھوقۇقلارنى تەڭشەش",
+                "confirm_purge": "تازىلاش كېڭەيتمە بىلەن باغلىق بولغان بارلىق مەلۇماتلارنى ئۆچۈرۈپ تاشلايدۇ. ئۇ كېڭەيتمىنى ئېلىپ تاشلىمايدۇ؛ ئۇنىڭ ئۈچۈن كېڭەيتمە باشقۇرغۇچىسىنى ئىشىلتىش كېرەك. داۋاملاشتۇرامسىز؟",
+                "disabled": "توختىتىلغان",
+                "enable_to_see": "تەڭشەكلەرنى كۆرۈش ۋە ئۆزگەرتىش ئۈچۈن كېڭەيتمىنى ئېچىڭ.",
+                "enabled": "ئوچۇق",
                 "info_links": {
-                    "discuss": "",
-                    "documentation": "",
-                    "donate": "",
-                    "source": "",
-                    "support": "",
-                    "website": ""
+                    "discuss": "مۇھاكىمە قىلىڭ",
+                    "documentation": "ھۆججەتلەر",
+                    "donate": "ئىئانە قىلىڭ",
+                    "source": "مەنبە",
+                    "support": "قوللاپ-قۇۋۋەتلەش",
+                    "website": "تور بەت"
                 },
-                "no_permissions": "",
-                "no_settings": "",
-                "open_modal": "",
-                "permissions_title": "",
-                "purge_button": "",
+                "no_permissions": "بۇ كېڭەيتمىدە ھوقۇق يوق.",
+                "no_settings": "بۇ كېڭەيتمىدە تەڭشەك يوق.",
+                "open_modal": "تەڭشەكلەرنى ئېچىش",
+                "permissions_title": "ھوقۇقلار",
+                "purge_button": "تازىلاش",
                 "readme": {
-                    "button_label": "",
-                    "no_readme": "",
-                    "title": ""
+                    "button_label": "ئوقۇڭ",
+                    "no_readme": "بۇ كېڭەيتمىدە چۈشەندۈرۈش ھۆججىتى يوقكەن",
+                    "title": "{extName} ھۆججەتلىرى"
                 }
             },
             "header": {
-                "get_help": "",
-                "log_out_button": ""
+                "get_help": "ياردەم",
+                "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
-                "title": ""
+                "title": "سەل ساقلاڭ..."
             },
             "nav": {
-                "appearance_button": "",
-                "appearance_title": "",
-                "basics_button": "",
-                "basics_title": "",
+                "appearance_button": "=> core.admin.appearance.title",
+                "appearance_title": "=> core.admin.appearance.description",
+                "basics_button": "=> core.admin.basics.title",
+                "basics_title": "=> core.admin.basics.description",
                 "categories": {
-                    "authentication": "",
-                    "core": "",
-                    "discussion": "",
-                    "feature": "",
-                    "formatting": "",
-                    "language": "",
-                    "moderation": "",
-                    "other": "",
-                    "theme": ""
+                    "authentication": "تەستىقلاش",
+                    "core": "مۇنبەر تەڭشەكلىرى",
+                    "discussion": "مۇھاكىمە",
+                    "feature": "ئىقتىدارلار",
+                    "formatting": "فورماتلاش",
+                    "language": "تىللار",
+                    "moderation": "نازارەت قىلىش",
+                    "other": "باشقا كېڭەيتمىلەر",
+                    "theme": "تېمىلار"
                 },
-                "dashboard_button": "",
-                "dashboard_title": "",
-                "email_button": "",
-                "email_title": "",
-                "permissions_button": "",
-                "permissions_title": "",
-                "userlist_button": "",
-                "userlist_title": "",
-                "search_placeholder": ""
+                "dashboard_button": "=> core.admin.dashboard.title",
+                "dashboard_title": "=> core.admin.dashboard.description",
+                "email_button": "=> core.ref.email",
+                "email_title": "=> core.admin.email.description",
+                "permissions_button": "=> core.admin.permissions.title",
+                "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
+                "search_placeholder": "كېڭەيتمىلەرنى ئىزدەش"
             },
             "permissions": {
-                "allow_hide_own_posts_label": "",
-                "allow_post_editing_label": "",
-                "allow_renaming_label": "",
-                "create_access_token_label": "",
-                "create_heading": "",
-                "delete_discussions_forever_label": "",
-                "delete_discussions_label": "",
-                "delete_posts_forever_label": "",
-                "delete_posts_label": "",
-                "description": "",
-                "edit_posts_label": "",
-                "edit_users_label": "",
-                "edit_users_credentials_label": "",
-                "edit_users_groups_label": "",
-                "global_heading": "",
-                "moderate_heading": "",
-                "moderate_access_tokens_label": "",
-                "new_group_button": "",
-                "participate_heading": "",
-                "post_without_throttle_label": "",
-                "read_heading": "",
-                "rename_discussions_label": "",
-                "reply_to_discussions_label": "",
-                "search_users_label": "",
-                "sign_up_label": "",
-                "start_discussions_label": "",
-                "title": "",
-                "view_forum_label": "",
-                "view_hidden_groups_label": "",
-                "view_last_seen_at_label": "",
-                "view_post_ips_label": ""
+                "allow_hide_own_posts_label": "ئۆزىنىڭ يوللانمىسىنى ئۆچۈرۈشكە رۇخسەت بېرىش",
+                "allow_post_editing_label": "يوللانمىنى تەھرىرلەشكە رۇخسەت بېرىش",
+                "allow_renaming_label": "ئىسمىنى ئۆزگەرتىشگە رۇخسەت بېرىش",
+                "create_access_token_label": "كىرىش بېلىتى ياساش",
+                "create_heading": "قۇرۇش",
+                "delete_discussions_forever_label": "مۇھاكىمىلەرنى پۈتۈنلەي ئۆچۈرۈش",
+                "delete_discussions_label": "مۇھاكىمىلەرنى ئۆچۈرۈش",
+                "delete_posts_forever_label": "يوللانمىلارنى پۈتۈنلەي ئۆچۈرۈش",
+                "delete_posts_label": "يوللانمىلارنى ئۆچۈرۈش",
+                "description": "كىمنىڭ كۆرۈش ۋە قىلىش ھوقۇقلىرىنى تەڭشەش.",
+                "edit_posts_label": "يوللانمىلارنى تەھرىرلەش",
+                "edit_users_label": "قوللانچى خاسلىقلىرىنى تەھرىرلەش",
+                "edit_users_credentials_label": "قوللانچى مەخپىي نومۇرلىرىنى تەھرىرلەش",
+                "edit_users_groups_label": "قوللانچى گۇرۇپپىلىرىنى تەھرىرلەش",
+                "global_heading": "ئومۇمىي",
+                "moderate_heading": "نازارەت قىلىش",
+                "moderate_access_tokens_label": "باشقۇرۇش كىرىش بېلەتلىرى",
+                "new_group_button": "يېڭى گۇرۇپپا",
+                "participate_heading": "قاتنىشىش",
+                "post_without_throttle_label": "ساقلىماستىن كۆپ قېتىم جاۋاپ يېزىش",
+                "read_heading": "ئوقۇش",
+                "rename_discussions_label": "مۇھاكىمە ئىسمىنى ئۆزگەرتىش",
+                "reply_to_discussions_label": "مۇھاكىمىگە جاۋاب قايتۇرۇش",
+                "search_users_label": "=> core.ref.search_users",
+                "sign_up_label": "تىزىملىتىش",
+                "start_discussions_label": "مۇھاكىمىلەرنى باشلاش",
+                "title": "رۇخسەتلەر",
+                "view_forum_label": "مۇنبەرنى كۆرۈش (مۇھاكىمىلەر ۋە قوللانچىلار)",
+                "view_hidden_groups_label": "يوشۇرۇنغان گۇرۇپپىلارنى كۆرۈش",
+                "view_last_seen_at_label": "ھەر دائىم قوللانچىنىڭ ئاخىرقى توردىكى ۋاقتىنى كۆرسىتىش",
+                "view_post_ips_label": "يوللانمىنىڭ IP ئادرېسىنى كۆرسىتىش"
             },
             "permissions_controls": {
-                "allow_indefinitely_button": "",
-                "allow_never_button": "",
-                "allow_some_minutes_button": "",
-                "allow_ten_minutes_button": "",
-                "allow_until_reply_button": "",
-                "everyone_button": "",
-                "members_button": "",
-                "signup_closed_button": "",
-                "signup_open_button": ""
+                "allow_indefinitely_button": "چەكلەنمىگەن",
+                "allow_never_button": "=> core.ref.never",
+                "allow_some_minutes_button": "{count, plural, one {For # مىنۇت} other {For # مىنۇت}}",
+                "allow_ten_minutes_button": "10 مىنۇت",
+                "allow_until_reply_button": "جاۋاب كېلىشنى كۈتۈش",
+                "everyone_button": "ھەممەيلەن",
+                "members_button": "=> core.group.members",
+                "signup_closed_button": "يېپىق",
+                "signup_open_button": "ئوچۇق"
             },
             "settings": {
-                "saved_message": "",
-                "submit_button": ""
+                "saved_message": "ئۆزگەرتىشلەر ساقلاندى.",
+                "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "=> core.ref.remove",
+                "upload_button": "رەسىم تاللاڭ..."
             },
             "users": {
-                "create_user_button": "",
-                "description": "",
+                "create_user_button": "يېڭى قوللانچى",
+                "description": "مۇنبەردىكى بارلىق ئەزالارنىڭ تىزىملىكى.",
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": ""
+                            "title": "ئېكران ئىسمى"
                         },
                         "edit_user": {
-                            "button": "",
-                            "title": "",
-                            "tooltip": ""
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
+                            "tooltip": "{username} نى تەھرىرلەش"
                         },
                         "email": {
-                            "title": "",
-                            "visibility_hide": "",
-                            "visibility_show": ""
+                            "title": "=> core.ref.email",
+                            "visibility_hide": "ئېلىكترونلۇق خەت ئادرېسىنى يوشۇرۇش",
+                            "visibility_show": "ئېلىكترونلۇق خەت ئادرېسىنى كۆرسىتىش"
                         },
                         "group_badges": {
-                            "no_badges": "",
+                            "no_badges": "يوق",
                             "title": ""
                         },
                         "join_time": {
