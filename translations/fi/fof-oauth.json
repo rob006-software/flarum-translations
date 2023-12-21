@@ -5,9 +5,9 @@
             "settings_accessibility_label": "{name} asetukset",
             "settings": {
                 "advanced": {
-                    "heading": "",
-                    "log-oauth-errors-label": "",
-                    "log-oauth-errors-help": ""
+                    "heading": "Edistynyt",
+                    "log-oauth-errors-label": "Kirjaa OAuth virheet",
+                    "log-oauth-errors-help": "Jos käytössä OAuth virheet kirjataan Flarumin lokeihin. Tämä voi auttaa OAuth ongelmien tutkimisessa, mutta voi sisältää myös arkaluontoista tietoa."
                 },
                 "only_icons_label": "Näytä voin kirjaudu painikkeen ikonit (toissijainen ulkoasu)",
                 "update_email_from_provider_label": "Päivitä sähköpostiosoite toimittajalta",
@@ -50,7 +50,7 @@
                         "description": "Luo sovellus osoitteessa {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
-                        "hosted_domain_label": ""
+                        "hosted_domain_label": "Ylläpidetyt domainit (G suite/Google Apps for Business, valinnainen)"
                     },
                     "linkedin": {
                         "description": "Luo sovellus osoitteessa {link}.",
