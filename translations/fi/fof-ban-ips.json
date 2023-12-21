@@ -74,8 +74,8 @@
         "lib": {
             "data": {
                 "bannedipdata": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Jos IP esto liittyy käyttäjään (esim. käyttäjä on estetty IP:n perusteella), käyttäjän IP osoite sisällytetään vientiin, mukana on myös eston syy sekä päivämäärä.",
+                    "anonymize_description": "Käyttäjään liittyvät IP osoitteet erotetaan, mutta IP itsessään pysyy estettynä syyn lisäksi. Pidä huolta, että mitään henkilötietoja ei ole tallennettuna 'syy' kentässä."
                 }
             }
         }
