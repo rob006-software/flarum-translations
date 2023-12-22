@@ -977,7 +977,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/youtube-video-feed/0.1.2/locale/en.yml',
 	],
 	'katosdev-signature' => [
-		'tag' => 'https://raw.githubusercontent.com/katosdev/signature/1.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/katosdev/signature/1.6/locale/en.yml',
 	],
 	'kilowhat-audit-free' => [
 		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-audit-free/1.7.0/resources/locale/en.yml',
