@@ -258,139 +258,139 @@
                         },
                         "group_badges": {
                             "no_badges": "يوق",
-                            "title": ""
+                            "title": "گۇرۇپپىلار"
                         },
                         "join_time": {
-                            "title": ""
+                            "title": "قېتىلدى"
                         },
                         "user_id": {
-                            "title": ""
+                            "title": "ID"
                         },
                         "username": {
-                            "profile_link_tooltip": "",
-                            "title": ""
+                            "profile_link_tooltip": "{username}نىڭ ئۇچۇرلىرىنى كۆرۈش",
+                            "title": "=> core.ref.username"
                         }
                     },
-                    "invalid_column_content": ""
+                    "invalid_column_content": "ئىناۋەتسىز"
                 },
                 "pagination": {
-                    "back_button": "",
-                    "first_button": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
-                    "next_button": "",
-                    "page_counter": ""
+                    "back_button": "ئالدىنقى بەت",
+                    "first_button": "بىرىنجى بەت",
+                    "go_to_page_textbox_a11y_label": "بىۋاستە بەت نومۇرىغا ئۆتۈش",
+                    "last_button": "ئاخىرقى بەت",
+                    "next_button": "كېيىنكى بەت",
+                    "page_counter": "{current} ئىنجى بەت {total} بەتتىن"
                 },
-                "search_placeholder": "",
-                "title": "",
-                "total_users": ""
+                "search_placeholder": "=> core.ref.search_users",
+                "title": "=> core.ref.users",
+                "total_users": "جەمئىي قوللانچىلار: {count}"
             }
         },
         "forum": {
             "change_email": {
-                "confirm_password_placeholder": "",
-                "confirmation_message": "",
-                "dismiss_button": "",
-                "incorrect_password_message": "",
-                "submit_button": "",
-                "title": ""
+                "confirm_password_placeholder": "=> core.ref.confirm_password",
+                "confirmation_message": "=> core.ref.confirmation_email_sent",
+                "dismiss_button": "=> core.ref.okay",
+                "incorrect_password_message": "كىرگۈزگەن مەخپىي نومۇرىڭىز خاتا.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.change_email"
             },
             "change_password": {
-                "send_button": "",
-                "text": "",
-                "title": ""
+                "send_button": "مەخپىي نومۇر ئۆزگەرتىش ئېلخېتى يوللاش",
+                "text": "تۆۋەندىكى كونۇپكىنى بېسىپ مەخپىي نومۇر ئۆزگەرتىش ئۇلىنىشىنى ئېلىكترونلۇق يوللانمىدا تاپشۇرىۋېلىڭ.",
+                "title": "=> core.ref.change_password"
             },
             "composer": {
-                "close_tooltip": "",
-                "exit_full_screen_tooltip": "",
-                "full_screen_tooltip": "",
-                "minimize_tooltip": "",
-                "preview_tooltip": ""
+                "close_tooltip": "يېپىش",
+                "exit_full_screen_tooltip": "پۈتۈن ئېكراندىن چىقىش",
+                "full_screen_tooltip": "پۈتۈن ئېكران",
+                "minimize_tooltip": "كېچىكلىتىش",
+                "preview_tooltip": "ئالدىن كۆرۈش"
             },
             "composer_discussion": {
-                "body_placeholder": "",
-                "discard_confirmation": "",
-                "submit_button": "",
-                "title": "",
-                "title_placeholder": ""
+                "body_placeholder": "يوللانما يېزىش...",
+                "discard_confirmation": "يوللانمىڭىز تېخى يوللانمىدى. ئۇنى بىكار قىلامسىز؟",
+                "submit_button": "مۇھاكىمە يوللاش",
+                "title": "=> core.ref.start_a_discussion",
+                "title_placeholder": "مۇھاكىمە ماۋزۇسى"
             },
             "composer_edit": {
-                "discard_confirmation": "",
-                "edited_message": "",
-                "post_link": "",
-                "submit_button": "",
-                "view_button": ""
+                "discard_confirmation": "ئۆزگەرتىشلىرىڭىزنى ساقلىمىدىڭىز. ئۇلارنى بىكار قىلامسىز؟",
+                "edited_message": "تەھرىرلەش تاماملاندى.",
+                "post_link": "{discussion}دىكى #{number} يازما",
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": "=> core.ref.view"
             },
             "composer_reply": {
-                "body_placeholder": "",
-                "discard_confirmation": "",
-                "posted_message": "",
-                "submit_button": "",
-                "view_button": ""
+                "body_placeholder": "=> core.ref.write_a_reply",
+                "discard_confirmation": "جاۋابىڭىز تېخى يوللانمىدى.ئۇنى بىكار قىلامسىز؟",
+                "posted_message": "جاۋابىڭىز يوللاندى.",
+                "submit_button": "جاۋاب يوللاش",
+                "view_button": "=> core.ref.view"
             },
             "discussion_controls": {
-                "cannot_reply_button": "",
-                "cannot_reply_text": "",
-                "delete_button": "",
-                "delete_confirmation": "",
-                "delete_forever_button": "",
-                "log_in_to_reply_button": "",
-                "rename_button": "",
-                "reply_button": "",
-                "restore_button": "",
-                "toggle_dropdown_accessible_label": ""
+                "cannot_reply_button": "جاۋاب يېزىشقا بولمايدۇ",
+                "cannot_reply_text": "سىزنىڭ بۇ مۇھاكىمىگە جاۋاب يېزىش رۇخسىتىڭىز يوق.",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "بۇ مۇھاكىمىنى راستتىنلا ئۆچۈرەمسىز؟",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "log_in_to_reply_button": "جاۋاب يېزىش ئۈچۈن ئاۋال كىرىڭ",
+                "rename_button": "=> core.ref.rename",
+                "reply_button": "=> core.ref.reply",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "مۇھاكىمە باشقۇرۇش ئېچىلما تىزىملىكىنى ئۆزگەرتىش"
             },
             "discussion_list": {
-                "empty_text": "",
-                "load_more_button": "",
-                "replied_text": "",
-                "started_text": "",
-                "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": ""
+                "empty_text": "تېخى مۇھاكىمىلەر يوق.",
+                "load_more_button": "=> core.ref.load_more",
+                "replied_text": "{username} جاۋاب بەردى {ago}",
+                "started_text": "{username} باشلىدى {ago}",
+                "total_replies_a11y_label": "{count, plural, one {# جاۋاب} other {# جاۋابلار}}",
+                "unread_replies_a11y_label": "{count, plural, one {# ئوقۇلمىغان جاۋاب} other {# ئوقۇلمىغان جاۋابلار}}. ئوقۇلمىغان قىلىش {count, plural, one {جاۋاب} other {جاۋابلار}} ئوقۇلدى قىلىش."
             },
             "forgot_password": {
-                "dismiss_button": "",
-                "email_placeholder": "",
-                "email_sent_message": "",
-                "not_found_message": "",
-                "submit_button": "",
-                "text": "",
-                "title": ""
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "email_sent_message": "ئەگەر كىرگۈزگەن ئېلىكترونلۇق خەت ئادرېسىڭىز بۇ توربەتتە تىزىملانغان بولسا، بىز شۇ ئادرېسقا مەخپىي نومۇرنى قايتا بەلگىلەش ئۇلىنىشىنى ئەۋەتىمىز. ئەگەر بىر-ئىككى مىنۇتنىڭ ئىچىدە كەلمىسە، ئېلىكترونلۇق خەت ساندۇقىڭىزنىڭ زىيانلىق يوللانمىلار قىسقۇچىغا قاراپ بېقىڭ.",
+                "not_found_message": "بۇ ئېلىكتىرونلۇق خەت ئادرېسى تىزىملانمىغان.",
+                "submit_button": "مەخپىي نومۇرنى قايتۇرۋېلىش",
+                "text": "ئېلخەت ئادرېسىڭىزنى كىرگۈزسىڭىز مەخپىي نومۇرنى قايتا بەلگىلەش ئۇلىنىشىنى ئەۋەتىمىز.",
+                "title": "مەخپىي نومۇر ئۇنتۇلدى"
             },
             "header": {
-                "admin_button": "",
-                "back_to_index_tooltip": "",
-                "locale_dropdown_accessible_label": "",
-                "log_in_link": "",
-                "log_out_button": "",
-                "profile_button": "",
-                "search_clear_button_accessible_label": "",
-                "search_placeholder": "",
-                "search_role_label": "",
-                "session_dropdown_accessible_label": "",
-                "settings_button": "",
-                "sign_up_link": ""
+                "admin_button": "باشقۇرۇش",
+                "back_to_index_tooltip": "مۇھاكىمىلەر تىزىملىكىگە قايتىش",
+                "locale_dropdown_accessible_label": "مۇنبەر تىلىنى ئۆزگەرتىش",
+                "log_in_link": "=> core.ref.log_in",
+                "log_out_button": "=> core.ref.log_out",
+                "profile_button": "ئۇچۇرلار",
+                "search_clear_button_accessible_label": "ئىزدەش تارىخىنى ئۆچۈرۈش",
+                "search_placeholder": "مۇنبەردىن ئىزدەش",
+                "search_role_label": "مۇنبەردىن ئىزدەش",
+                "session_dropdown_accessible_label": "ۋاقىت تاللاشلىرىنى ئالماشتۇرۇش",
+                "settings_button": "=> core.ref.settings",
+                "sign_up_link": "=> core.ref.sign_up"
             },
             "index": {
-                "all_discussions_link": "",
-                "cannot_start_discussion_button": "",
-                "mark_all_as_read_confirmation": "",
-                "mark_all_as_read_tooltip": "",
-                "meta_title_text": "",
-                "refresh_tooltip": "",
-                "start_discussion_button": "",
-                "toggle_sidenav_dropdown_accessible_label": ""
+                "all_discussions_link": "=> core.ref.all_discussions",
+                "cannot_start_discussion_button": "مۇھاكىمىنى باشلىغىلى بولمايدۇ",
+                "mark_all_as_read_confirmation": "ھەممە مۇھاكىمىلەرنى ئوقۇلدى قىلامسىز؟",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "meta_title_text": "=> core.ref.all_discussions",
+                "refresh_tooltip": "يېڭىلاش",
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": "يول باشلاش تاللاشلىرىنى ئالماشتۇرۇش"
             },
             "index_sort": {
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
-                "toggle_dropdown_accessible_label": "",
-                "top_button": ""
+                "latest_button": "ئاخىرقى",
+                "newest_button": "يېڭىسى",
+                "oldest_button": "ئەڭ كونىسى",
+                "relevance_button": "مۇناسىۋەتلىكلىرى",
+                "toggle_dropdown_accessible_label": "مۇھاكىمە تىزىملىكىنى قانداق تىزىشنى بەلگىلەڭ",
+                "top_button": "باش"
             },
             "log_in": {
-                "forgot_password_link": "",
+                "forgot_password_link": "مەخپىي نومۇرنى ئۇنتۇپسىزمۇ؟",
                 "invalid_login_message": "",
                 "password_placeholder": "",
                 "remember_me_label": "",
