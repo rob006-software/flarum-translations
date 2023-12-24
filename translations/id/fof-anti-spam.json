@@ -19,7 +19,7 @@
                     "move_discussions_to_tags_help": "Ini akan memindahkan seluruh diskusi yang dimulai oleh pengguna ke penanda yang ditentukan. Bersihkan penanda terseleksi untuk meninggalkan diskusi dalam penanda aseli. Tidak memiliki akibat jika opsi 'Hapus diskusi' diaktifkan."
                 },
                 "stopforumspam": {
-                    "heading": "HentikanForumSpam",
+                    "heading": "StopForumSpam",
                     "introduction": "Periksa pendaftaran pengguna baru yang melawan database <a>HentikanForumSpam</a>. Jika salah satu dari <code>confidence</code> atau <code>frequency</code>melampaui ambang batas, pengguna dicegah untuk melengkapi pendaftarannya kedalam forum anda.\n\nPendaftaran SSO melalui <code>fof/oauth</code> dan <code>fof/passport</code> juga akan didukung. Penyedia SSO lain seharusnya berjalan, namun belum teruji.\n",
                     "username_label": "Periksa Pengguna Spam",
                     "ip_label": "Periksa Alamat IP Spam",
@@ -36,7 +36,7 @@
                     "region_us_label": "Amerika Serikat",
                     "confidence_label": "Keyakinan",
                     "confidence_help": "Nilai keyakinan adalah sebuah alasan pertanda baik bahwa bidang dalam pengujian akan menghasilkan aktifitas yang tidak diharapkan. Atur tingkat keyakinan sebagai prosentase. Bila bidang adalah sama atau di atas gambar ini, pendaftaran akan diblokir, mengabaikan 'kerutinan' pengujian di atas.",
-                    "email_hash_label": "Gunakan alamat email diacak",
+                    "email_hash_label": "Gunakan alamat email yang diacak",
                     "email_hash_help": "Lewati sebuah pengacakan MD5 terhadap alamat email seharusnya anda berharap tidak melewatkan alamat email itu sendiri. Metoda ini melewati semua daftar hitam, normalisasi dan pemeriksaan obfuskasi.",
                     "sfs_lookup_label": "Mencari pendaftaran",
                     "sfs_lookup_help": "Jika diaktifkan, kami akan memeriksa database HentikanForumSpam ketika pengguna baru mendaftar ke forum anda. Jika pengguna ditemukan (nama pengguna, alamat IP, email) dan data petunjuk tersebut diaktifkan bersama dengan tingkat keyakinan SFS mencapai tingkat yang anda tentukan, mereka akan dicegah untuk melengkapi pendaftarannya.",
