@@ -2,7 +2,7 @@
     "fof-anti-spam": {
         "admin": {
             "permissions": {
-                "spamblock_users_label": "Tandai pengguna sebagai spammer"
+                "spamblock_users_label": "Tandai pengguna sebagai pengirim spam"
             },
             "settings": {
                 "button": "Pengaturan",
@@ -14,13 +14,13 @@
                     "delete_posts_label": "Hapus suntingan",
                     "delete_posts_help": "Ini akan menghapus semua suntingan yang dibuat dipengguna. Meskipun dimatikan, suntingan secara halus terhapus.",
                     "heading": "Tindakan moderasi bawaan",
-                    "introduction": "Jika seorang pengguna di tandai sebagai spammer, moderator dapat memilih beberapa tindakan untuk  menghadapi kasus tertentu. Pengaturan ini membolehkan anda untuk mengatur kembali tindakan normal yang biasa diputuskan, untuk mempercepat proses, akan tetapi juga memperbolehkan sebagai variasi yang dibutuhkan.\n",
+                    "introduction": "Jika seorang pengguna ditandai sebagai pengirim spam, moderator dapat memilih beberapa tindakan untuk menghadapi kasus tertentu. Pengaturan ini membolehkan anda untuk mengatur kembali tindakan normal yang biasa diputuskan, untuk mempercepat proses, akan tetapi juga memperbolehkan sebagai variasi yang dibutuhkan.\n",
                     "move_discussions_to_tags_label": "Pindahkan diskusi ke penanda",
                     "move_discussions_to_tags_help": "Ini akan memindahkan seluruh diskusi yang dimulai oleh pengguna ke penanda yang ditentukan. Bersihkan penanda terseleksi untuk meninggalkan diskusi dalam penanda aseli. Tidak memiliki akibat jika opsi 'Hapus diskusi' diaktifkan."
                 },
                 "stopforumspam": {
                     "heading": "HentikanForumSpam",
-                    "introduction": "Periksa pendaftaran pengguna baru yang melawan database <a>HentikanForumSpam</a>. Jika salah satu dari <cose>keyakinan<code> atau <code>kerutinan</code>melampaui ambang batas, pengguna dicegah untuk melengkapi pendaftarannya kedalam forum anda.\n\nPendaftaran SSO melalui <code>fof/oauth</code> dan <code>fof/passport</code> juga akan didukung. provider SSO lain seharusnya berjalan, namun belum teruji.\n",
+                    "introduction": "Periksa pendaftaran pengguna baru yang melawan database <a>HentikanForumSpam</a>. Jika salah satu dari <code>confidence</code> atau <code>frequency</code>melampaui ambang batas, pengguna dicegah untuk melengkapi pendaftarannya kedalam forum anda.\n\nPendaftaran SSO melalui <code>fof/oauth</code> dan <code>fof/passport</code> juga akan didukung. Penyedia SSO lain seharusnya berjalan, namun belum teruji.\n",
                     "username_label": "Periksa Pengguna Spam",
                     "ip_label": "Periksa Alamat IP Spam",
                     "email_label": "Periksa Email Spam",
@@ -41,47 +41,47 @@
                     "sfs_lookup_label": "Mencari pendaftaran",
                     "sfs_lookup_help": "Jika diaktifkan, kami akan memeriksa database HentikanForumSpam ketika pengguna baru mendaftar ke forum anda. Jika pengguna ditemukan (nama pengguna, alamat IP, email) dan data petunjuk tersebut diaktifkan bersama dengan tingkat keyakinan SFS mencapai tingkat yang anda tentukan, mereka akan dicegah untuk melengkapi pendaftarannya.",
                     "report_blocked_registrations_label": "laporan pendaftaran diblokir",
-                    "report_blocked_registrations_help": ""
+                    "report_blocked_registrations_help": "Jika pendaftaran diblokir dengan melihat fitur pendaftaran, kami akan melaporkan percobaan kembali ke HentikanForumSpam, sehingga aktivitas spammer dapat lebih terkonfirmasi dengan lebih baik. Kebutuhan pengaturan sebuah kunci API HentikanForumSpam (lihat di bawah)."
                 }
             },
             "blocked_registrations": {
-                "button": "",
-                "title": "",
-                "no-records": "",
-                "help": "",
-                "attempted-at": "",
-                "ip": "",
-                "email": "",
-                "username": "",
-                "login-provider": "",
-                "login-provider-data": "",
-                "sfs-data": "",
-                "delete_entry": ""
+                "button": "Pendaftaran terblokir",
+                "title": "Pendaftaran terblokir",
+                "no-records": "Tidak ditemukan pendaftaran terblokir.",
+                "help": "Halaman ini memperlihatkan semua pendaftaran yang telah diblokir oleh layanan HentikanForumSpam. Anda akan melihat rincian dari setiap pendaftaran, dan jika anda ingin, anda dapat menghapus catatan dari database.\n",
+                "attempted-at": "Percobaan pada",
+                "ip": "Alamat IP",
+                "email": "Alamat Email",
+                "username": "Nama Pengguna",
+                "login-provider": "Penyedia Masuk",
+                "login-provider-data": "Penyedia Data Masuk",
+                "sfs-data": "Data HentikanForumSpam",
+                "delete_entry": "Hapus masukan"
             }
         },
         "forum": {
             "message": {
                 "stopforumspam": {
-                    "blocked": ""
+                    "blocked": "Rincian dari pendaftaran anda telah kami temukan dalam sebuah database pencegahan spam, sehingga pendaftaran anda telah diblokir."
                 }
             },
             "spammer_modal": {
-                "hard_delete_discussions_label": "",
-                "hard_delete_discussions_help": "",
-                "hard_delete_posts_label": "",
-                "hard_delete_posts_help": "",
-                "hard_delete_user_label": "",
-                "hard_delete_user_help": "",
-                "intro": "",
-                "move_discussions_tag_label": "",
-                "move_discussions_tag_help": "",
-                "process_button": "",
-                "title": "",
-                "report_to_sfs_label": "",
-                "report_to_sfs_help": ""
+                "hard_delete_discussions_label": "Hapus diskusi",
+                "hard_delete_discussions_help": "Ini akan secara permanen menghapus semua diskusi yang dimulai pengguna ini. Bila tidak aktif, diskusi tetap akan disembunyikan.",
+                "hard_delete_posts_label": "Hapus suntingan",
+                "hard_delete_posts_help": "Ini akan secara permanen menghapus seluruh suntingan (komentar, balasan, dan lainnya) yang dibuat oleh pengguna ini. Bila tidak diaktifkan, suntingan tetap akan disembunyikan.",
+                "hard_delete_user_label": "Hapus pengguna",
+                "hard_delete_user_help": "Ini akan secara permanen menghapus pengguna. Bila tidak diaktifkan, pengguna tetap akan dihukum.",
+                "intro": "Ketika menandai pengguna sebagai spammer, beberapa tindakan akan dilakukan, berpedoman pada ekstensi yang ada pada forum anda.",
+                "move_discussions_tag_label": "Pindahkan diskusi kedalam penanda karantina",
+                "move_discussions_tag_help": "Ini akan memindahkan seluruh diskusi yang dimulai oleh pengguna ini kedalam penanda yang ditentukan dalam pengaturan forum. Bila tidak diaktifkan, diskusi tetap pada penanda sekarang.",
+                "process_button": "Proses",
+                "title": "Tandai {username} sebagai spammer",
+                "report_to_sfs_label": "Lapor kepada HentikanForumSpam",
+                "report_to_sfs_help": "Ini akan melaporkan rincian dasar pengguna (nama pengguna, email, alamat IP) untuk HentikanForumSpam. Ini akan menolong pencegahan pengguna dalam pendaftaran di forum lainnya yang menggunakan layanan HentikanForumSpam."
             },
             "user_controls": {
-                "spammer_button": ""
+                "spammer_button": "Pengirim Spam"
             }
         }
     }
