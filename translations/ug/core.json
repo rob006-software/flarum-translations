@@ -338,7 +338,7 @@
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": "مۇھاكىمە باشقۇرۇش ئېچىلما تىزىملىكىنى ئۆزگەرتىش"
+                "toggle_dropdown_accessible_label": "مۇھاكىمە باشقۇرۇش تاللاشلىرىنى ئالماشتۇرۇش"
             },
             "discussion_list": {
                 "empty_text": "تېخى مۇھاكىمىلەر يوق.",
@@ -391,63 +391,63 @@
             },
             "log_in": {
                 "forgot_password_link": "مەخپىي نومۇرنى ئۇنتۇپسىزمۇ؟",
-                "invalid_login_message": "",
-                "password_placeholder": "",
-                "remember_me_label": "",
-                "sign_up_text": "",
-                "submit_button": "",
-                "title": "",
-                "username_or_email_placeholder": ""
+                "invalid_login_message": "كىرىش ئۇچۇرلىرىڭىز خاتا.",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "ئەستە ساقلا",
+                "sign_up_text": "ھېسابىڭىز يوقمۇ؟<a>تىزىملىتىڭ</a>",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in",
+                "username_or_email_placeholder": "قوللانچى ئىسمى ياكى ئېلىكتىرونلۇق خەت ئادرېسى"
             },
             "notifications": {
-                "delete_all_confirm": "",
-                "delete_all_tooltip": "",
-                "discussion_renamed_text": "",
-                "empty_text": "",
-                "mark_all_as_read_tooltip": "",
-                "mark_as_read_tooltip": "",
-                "title": "",
-                "toggle_dropdown_accessible_label": "",
-                "tooltip": ""
+                "delete_all_confirm": "راستىنلا بارلىق ئەسكەرتىشلەرنى ئۆچۈرەمسىز؟ بۇلارنى قايتۇرۋالغىلى بولمايدۇ",
+                "delete_all_tooltip": "بارلىق ئەسكەرتىشلەرنى ئۆچۈرۈش",
+                "discussion_renamed_text": "{username} ماۋزۇنى ئۆزگەرتتى",
+                "empty_text": "ئەسكەرتىش يوق",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "mark_as_read_tooltip": "ئوقۇلدى قىلىش",
+                "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "ئەسكەرتىشلەرنى كۆرۈش",
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
-                "edited_text": "",
-                "edited_tooltip": "",
-                "number_tooltip": ""
+                "edited_text": "تەھرىرلەندى",
+                "edited_tooltip": "{username} {ago} تەھرىرلىدى",
+                "number_tooltip": "يوللانما #{number}"
             },
             "post_controls": {
-                "delete_button": "",
-                "delete_confirmation": "",
-                "delete_forever_button": "",
-                "edit_button": "",
-                "hide_confirmation": "",
-                "restore_button": "",
-                "toggle_dropdown_accessible_label": ""
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "بۇ يوللانمىنى راستىنلا ئۆچۈرەمسىز؟ ئۇنى قايتۇرۋالغىلى بولمايدۇ.",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "edit_button": "=> core.ref.edit",
+                "hide_confirmation": "بۇ يوللانمىنى راستىنلا ئۆچۈرەمسىز؟",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "يوللانما باشقۇرۇش تاللاشلىرىنى ئالماشتۇرۇش"
             },
             "post_scrubber": {
-                "now_link": "",
-                "original_post_link": "",
-                "unread_text": "",
-                "viewing_text": ""
+                "now_link": "ھازىر",
+                "original_post_link": "ئەسلىدىكى يوللانما",
+                "unread_text": "{count} ئوقۇلمىدى",
+                "viewing_text": "{count, plural, one {{index} of {formattedCount} يوللانما} other {{index} of {formattedCount} يوللانمىلار}}"
             },
             "post_stream": {
-                "discussion_renamed_old_tooltip": "",
-                "discussion_renamed_text": "",
-                "load_more_button": "",
-                "reply_placeholder": "",
-                "time_lapsed_text": ""
+                "discussion_renamed_old_tooltip": "ئەسلىدىكى ماۋزۇسى :«{old}»",
+                "discussion_renamed_text": "{username} {time} دا ماۋزۇنى {new} گە ئۆزگەرتتى.",
+                "load_more_button": "=> core.ref.load_more",
+                "reply_placeholder": "=> core.ref.write_a_reply",
+                "time_lapsed_text": "{period} ئۆتكەندىن كېيىن"
             },
             "rename_discussion": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.rename",
+                "title": "مۇھاكىمىنى ئۆزگەرتىش"
             },
             "search": {
-                "all_discussions_button": "",
-                "discussions_heading": "",
-                "users_heading": ""
+                "all_discussions_button": "«{query}» نى بارلىق مۇھاكىمىلەردىن ئىزدەش",
+                "discussions_heading": "=> core.ref.discussions",
+                "users_heading": "=> core.ref.users"
             },
             "security": {
-                "browser_on_operating_system": "",
+                "browser_on_operating_system": "{browser} {os} دا",
                 "cannot_terminate_current_session": "",
                 "created": "",
                 "current_active_session": "",
@@ -525,7 +525,7 @@
                 "delete_error_message": "",
                 "delete_success_message": "",
                 "edit_button": "",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "قوللانچى باشقۇرۇش تاللاشلىرىنى ئالماشتۇرۇش"
             },
             "user_email_confirmation": {
                 "alert_message": "",
@@ -545,7 +545,7 @@
                 "hidden_tooltip": ""
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "ئېچىلدىغان تىزىملىكنى ئالماشتۇرۇش"
             },
             "data_segment": {
                 "label": ""
