@@ -2,8 +2,8 @@
     "datlechin-simple-tour-guide": {
         "admin": {
             "settings": {
-                "show_progress_label": "Tampilkan Kemajuan",
-                "show_progress_help": "Ini akan menyajikan tahapan saat ini dan total tahapan pada bagian atas Popover.",
+                "show_progress_label": "Tampilkan kemajuan",
+                "show_progress_help": "Ini akan menyajikan tahapan saat ini dan total tahapan pada bagian atas popover.",
                 "allow_close_label": "Perbolehkan tutup",
                 "allow_close_help": "Perbolehkan penggguna menutup Popover dengan klik pada latar belakang."
             },
@@ -18,7 +18,7 @@
             "description": "Deskripsi",
             "description_placeholder": "Deskripsi tahapan.",
             "target": "Sasaran",
-            "target_placeholder": "Sasaran Elemen dari tahapan (misal. #elemen-id)."
+            "target_placeholder": "Elemen target dari tahapan (misal. #elemen-id)."
         },
         "forum": {
             "progress_text": "{current} dari {total}",
