@@ -2,23 +2,23 @@
     "blomstra-horizon": {
         "admin": {
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
-                "full_dashboard": "",
-                "refresh": "",
+                "auto_refresh": "Segarkan Otomatis",
+                "heading": "Tinjauan Antrian",
+                "full_dashboard": "Dasbor Cakrawala",
+                "refresh": "Segarkan",
                 "data": {
-                    "jobs-per-minute": "",
-                    "jobs-past-hour": "",
-                    "failed-last-seconds": "",
+                    "jobs-per-minute": "Pekerjaan per menit",
+                    "jobs-past-hour": "Pekerjaan sejam terlewat",
+                    "failed-last-seconds": "Pekerjaan Gagal Beberapa Detik terlewat",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "Status",
+                        "running": "Berjalan",
+                        "inactive": "Tidak Aktif"
                     },
-                    "total-processes": "",
-                    "max-wait-time": "",
-                    "max-runtime": "",
-                    "max-throughput": ""
+                    "total-processes": "Total Proses",
+                    "max-wait-time": "Maksimum Waktu Tunggu",
+                    "max-runtime": "Maksimum Waktu Berjalan",
+                    "max-throughput": "Hasil Maksimum"
                 }
             }
         }
