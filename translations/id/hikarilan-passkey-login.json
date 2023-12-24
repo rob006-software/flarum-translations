@@ -14,29 +14,29 @@
                 },
                 "timeout": {
                     "label": "Waktu habis",
-                    "help": "Waktu habis adalah verifikasi kunci-lewat dalam detik. Nilai bawaan adalah 60 detik."
+                    "help": "Batas waktu verifikasi passkey dalam hitungan detik. Nilai default adalah 60 detik."
                 }
             }
         },
         "forum": {
             "login": {
-                "with-passkey": "Masuk dengan kunci-lewat"
+                "with-passkey": "Masuk dengan passkey"
             },
             "user": {
                 "settings": {
                     "passkeys": {
-                        "title": "Kunci-lewat",
-                        "label": "Kunci-lewat adalah kata kunci pengganti yang memvalidasi identitas anda dengan sentuhan, pengenalan wajah, sebuah kata kunci, atau PIN.",
-                        "add-new-passkey": "Tambah sebuah kunci-lewat",
+                        "title": "Passkey",
+                        "label": "Passkey adalah pengganti kata sandi yang memvalidasi identitas Anda menggunakan sentuhan, pengenalan wajah, kata sandi perangkat, atau PIN.",
+                        "add-new-passkey": "Tambah passkey",
                         "error": "Terjadi sebuah kesalahan internal. Silahkan coba kembali."
                     },
                     "alias-modal": {
-                        "title": "Kunci-lewat terdaftar!",
-                        "label": "Dan sekarang, mari berikan kunci-lewat anda sebuah alias."
+                        "title": "Passkey terdaftar!",
+                        "label": "Dan sekarang, mari kita beri nama alias pada passkey Anda."
                     },
                     "item": {
                         "revoke": "=> core.forum.security.revoke_access_token",
-                        "revoke_success": "Kunci-lewat berhasil dikembalikan."
+                        "revoke_success": "Passkey berhasil dicabut."
                     }
                 }
             }
