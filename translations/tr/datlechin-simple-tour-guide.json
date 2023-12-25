@@ -2,29 +2,29 @@
     "datlechin-simple-tour-guide": {
         "admin": {
             "settings": {
-                "show_progress_label": "",
-                "show_progress_help": "",
-                "allow_close_label": "",
-                "allow_close_help": ""
+                "show_progress_label": "Süreci göster",
+                "show_progress_help": "Bu, açılır pencerenin üst kısmında mevcut adımı ve toplam adımları gösterecektir.",
+                "allow_close_label": "Kapatmaya izin ver",
+                "allow_close_help": "Kullanıcıların boşluğa tıklayarak rehberi kapatmasına izin verin."
             },
             "edit_modal": {
-                "edit_step": "",
-                "create_step": "",
-                "delete_step": "",
-                "delete_step_confirmation": ""
+                "edit_step": "Düzenle {title}",
+                "create_step": "Yeni adım oluştur",
+                "delete_step": "Adımı sil",
+                "delete_step_confirmation": "Bu adımı silmek istediğinizden emin misiniz?"
             },
-            "title": "",
-            "title_placeholder": "",
-            "description": "",
-            "description_placeholder": "",
-            "target": "",
-            "target_placeholder": ""
+            "title": "Başlık",
+            "title_placeholder": "Adım başlığı.",
+            "description": "Açıklama",
+            "description_placeholder": "Adım açıklaması.",
+            "target": "Hedef",
+            "target_placeholder": "Adımdaki hedef öğe (örn. #oge-kimligi)."
         },
         "forum": {
-            "progress_text": "",
-            "next_btn_text": "",
-            "prev_btn_text": "",
-            "done_btn_text": ""
+            "progress_text": "{total} adımdan {current}",
+            "next_btn_text": "Sonraki",
+            "prev_btn_text": "Önceki",
+            "done_btn_text": "Tamamla"
         }
     }
 }
