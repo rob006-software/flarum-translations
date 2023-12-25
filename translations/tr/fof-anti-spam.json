@@ -2,17 +2,17 @@
     "fof-anti-spam": {
         "admin": {
             "permissions": {
-                "spamblock_users_label": ""
+                "spamblock_users_label": "Bu kullanıcıyı istenmeyen olarak işaretle"
             },
             "settings": {
-                "button": "",
+                "button": "Ayarlar",
                 "default-actions": {
-                    "delete_user_label": "",
-                    "delete_user_help": "",
-                    "delete_discussions_label": "",
-                    "delete_discussions_help": "",
-                    "delete_posts_label": "",
-                    "delete_posts_help": "",
+                    "delete_user_label": "Kullanıcıyı sil",
+                    "delete_user_help": "Bu, kullanıcıyı kalıcı olarak silecektir. Devre dışı bırakıldığında kullanıcı askıya alınır.",
+                    "delete_discussions_label": "Tartışmaları sil",
+                    "delete_discussions_help": "Bu, bu kullanıcı tarafından başlatılan tüm tartışmaları kalıcı olarak silecektir. Devre dışı bırakıldığında tartışmalar geçici olarak silinir.",
+                    "delete_posts_label": "Gönderileri sil",
+                    "delete_posts_help": "Bu işlem, bu kullanıcı tarafından gönderilen tüm gönderileri kalıcı olarak silecektir. Devre dışı bırakıldığında gönderiler geçici olarak silinir.",
                     "heading": "",
                     "introduction": "",
                     "move_discussions_to_tags_label": "",
