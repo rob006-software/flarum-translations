@@ -13,14 +13,14 @@
     "fof-upload": {
         "admin": {
             "nav": {
-                "shared-uploads-button": ""
+                "shared-uploads-button": "Paylaşılan yüklemeler"
             },
             "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
+                "description": "Forumunuzun tüm kullanıcılarının kullanabileceği dosyalar yükleyin.",
+                "introduction": "Paylaşılan yüklemeler, forumunuzun tüm kullanıcıları tarafından kullanılabilen dosyalardır. Herhangi bir gönderiye eklenmezler ancak medya yöneticisi kullanılarak gönderilere eklenebilirler.\n\n<strong>Uyarı:</strong> Paylaşılan yüklemeler hiçbir izinle korunmaz. URL'ye sahip olan herkes bunları görüntüleyebilir.\n",
+                "no-files": "Henüz paylaşılan dosya yüklenmedi.",
+                "title": "Paylaşılan yüklemeler",
+                "upload-new-button": "Yeni dosya yükle"
             },
             "pane": {
                 "title": "Yükle",
@@ -109,8 +109,8 @@
                 "upload_label": "Dosya yükleme",
                 "view_user_uploads_label": "Kullanıcı yüklemelerini göster",
                 "delete_uploads_of_others_label": "Kullanıcı yüklemelerini silin",
-                "upload_shared_label": "",
-                "access_shared_label": ""
+                "upload_shared_label": "Paylaşılan dosyaları yükle",
+                "access_shared_label": "Medya Yöneticisi'nde paylaşılan dosyalara erişim"
             },
             "templates": {
                 "file": "Varsayılan dosya indirme şablonu",
@@ -157,11 +157,11 @@
             "buttons": {
                 "attach": "Dosya Ekle",
                 "upload": "Yükle",
-                "upload_shared": "",
+                "upload_shared": "Paylaşılan",
                 "user_uploads": "Kullanıcı yüklemeleri",
                 "cancel": "İptal",
                 "media": "Medyalarım",
-                "shared_media": ""
+                "shared_media": "Paylaşılan medya"
             },
             "states": {
                 "error": "Hata",
@@ -213,25 +213,25 @@
         },
         "lib": {
             "upload-shared-file-modal": {
-                "title": "",
-                "dropzone": "",
-                "hide-from-media-gallery": "",
-                "upload": ""
+                "title": "Yeni paylaşılan dosya",
+                "dropzone": "Dosyaları buraya sürükleyip bırakın veya göz atmak için tıklayın",
+                "hide-from-media-gallery": "Kullanıcının medya galerisinden gizle",
+                "upload": "Yükle"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "delete_file_a11y_label": "",
-                "delete_confirmation": "",
+                "loading": "Dosyalar yükleniyor...",
+                "empty": "Gönderilecek dosya bulunmuyor.",
+                "release_to_upload": "Yüklemeye hazırla",
+                "modal_empty_desktop": "Dosya listeniz boş. Yüklemek için düğmeye tıklayın veya bir dosyayı buraya sürükleyin.",
+                "modal_empty_phone": "Dosya listeniz boş. Bir dosya yüklemek için yukarıdaki düğmeye dokunun.",
+                "select_file_a11y_label": "\"{fileName}\" dosyasını seçin",
+                "confirm_selection_btn": "{fileCount, plural, =0 {His seçilmedi} one {Dosya seç} other {Dosya seç}}",
+                "load_more_files_btn": "Daha fazla dosya",
+                "delete_file_a11y_label": "\"{fileName}\" dosyasını sil",
+                "delete_confirmation": "\"{fileName}\" dosyasını silmek istediğinizden emin misiniz?",
                 "hide_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
+                    "btn_a11y_label_hide": "\"{fileName}\" dosyasını medya yöneticisinden gizle",
+                    "btn_a11y_label_show": "\"{fileName}\" dosyasını medya yöneticisinde erişime aç",
                     "hide_confirmation": "",
                     "hide_success": "",
                     "show_confirmation": "",
