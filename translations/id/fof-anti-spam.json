@@ -8,11 +8,11 @@
                 "button": "Pengaturan",
                 "default-actions": {
                     "delete_user_label": "Hapus pengguna",
-                    "delete_user_help": "Ini akan menghapus pengguna secara permanen. Meskipun dimatikan, pengguna tetap akan dihukum.",
-                    "delete_discussions_label": "Hapus Diskusi",
-                    "delete_discussions_help": "Ini akan menghapus seluruh diskusi yang dimulai sipengguna. Meskipun dimatikan, diskusi tetap akan secara halus terhapus.",
-                    "delete_posts_label": "Hapus suntingan",
-                    "delete_posts_help": "Ini akan menghapus semua suntingan yang dibuat dipengguna. Meskipun dimatikan, suntingan secara halus terhapus.",
+                    "delete_user_help": "Ini akan menghapus pengguna secara permanen. Ketika dinonaktifkan, pengguna akan ditangguhkan.",
+                    "delete_discussions_label": "Hapus diskusi",
+                    "delete_discussions_help": "Ini akan menghapus secara permanen semua diskusi yang dimulai oleh pengguna ini. Jika dinonaktifkan, diskusi akan dihapus sementara.",
+                    "delete_posts_label": "Hapus post",
+                    "delete_posts_help": "Ini akan menghapus secara permanen semua postingan yang dibuat oleh pengguna ini. Ketika dinonaktifkan, postingan akan dihapus sementara.",
                     "heading": "Tindakan moderasi bawaan",
                     "introduction": "Jika seorang pengguna ditandai sebagai pengirim spam, moderator dapat memilih beberapa tindakan untuk menghadapi kasus tertentu. Pengaturan ini membolehkan anda untuk mengatur kembali tindakan normal yang biasa diputuskan, untuk mempercepat proses, akan tetapi juga memperbolehkan sebagai variasi yang dibutuhkan.\n",
                     "move_discussions_to_tags_label": "Pindahkan diskusi ke penanda",
@@ -25,23 +25,23 @@
                     "ip_label": "Periksa Alamat IP Spam",
                     "email_label": "Periksa Email Spam",
                     "frequency_label": "Batasan",
-                    "frequency_help": "Jumlah laporan spam diantara semua pemeriksaan aktif yang akan menggagalkan filter spam.\nMisal: Jika email mendapat 1 hit, dan ip mendapat 2 hit, total akan berjumlah 3. Pencegahan pendaftaran akan dilakukan jika batasan ditentukan 3 atau kurang.\n",
+                    "frequency_help": "Jumlah laporan spam diantara semua pemeriksaan aktif yang akan menggagalkan filter spam.\nMisal: Jika email mendapatkan 1 hit, dan ip mendapatkan 2 hit, maka akan ada total 3 hit. Jika ambang batas diatur ke 3 atau kurang, kami akan mencegah pendaftaran.\n",
                     "api_key_label": "Kunci API",
                     "api_key_text": "Anda memiliki opsi untuk melaporkan spammer ke StopForumSpam untuk mencapai terjaganya kebesaran komunitas forum bebas spam.",
-                    "api_key_instructions_text": "<register>Daftar untuk StopForumSpam</register>. Anda akan membutuhkan <key>peroleh sebuah Kunci API</key>.",
+                    "api_key_instructions_text": "<register>Daftar untuk StopForumSpam</register>. Maka Anda membutuhkannya untuk <key>memperoleh sebuah Kunci API</key>.",
                     "regional_endpoint_label": "Akses Geografis",
-                    "regional_endpoint_help": "Bawaan kami akan menunjukan server wilayah terdekat untuk mendapatkan hasil balasan tercepat. Seharusnya anda berharap membatasi lalu lintas ke sebuah wilayah, seperti sebuah kepatuhan terhadap peraturan perusahaan atau perundang-undangan negara berdaulat, kemudian anda dapat memaksa koneksi ke sebuah wilayah tertentu.",
+                    "regional_endpoint_help": "Secara default, kami akan mengarahkan pencarian ke server regional terdekat untuk memberikan respons tercepat. Jika Anda ingin membatasi lalu lintas ke wilayah tertentu, misalnya untuk mematuhi peraturan privasi perusahaan atau negara, Anda dapat memaksa koneksi ke wilayah tertentu.",
                     "region_closest_label": "Terdekat",
                     "region_europe_label": "Eropa",
                     "region_us_label": "Amerika Serikat",
                     "confidence_label": "Keyakinan",
-                    "confidence_help": "Nilai keyakinan adalah sebuah alasan pertanda baik bahwa bidang dalam pengujian akan menghasilkan aktifitas yang tidak diharapkan. Atur tingkat keyakinan sebagai prosentase. Bila bidang adalah sama atau di atas gambar ini, pendaftaran akan diblokir, mengabaikan 'kerutinan' pengujian di atas.",
-                    "email_hash_label": "Gunakan alamat email yang diacak",
-                    "email_hash_help": "Lewati sebuah pengacakan MD5 terhadap alamat email seharusnya anda berharap tidak melewatkan alamat email itu sendiri. Metoda ini melewati semua daftar hitam, normalisasi dan pemeriksaan obfuskasi.",
+                    "confidence_help": "Nilai keyakinan adalah indikator yang cukup baik bahwa bidang yang diuji akan menghasilkan aktivitas yang tidak diinginkan. Tetapkan tingkat kepercayaan Anda sebagai persentase. Jika bidang tersebut sama atau di atas angka ini, pendaftaran akan diblokir, terlepas dari tes 'frekuensi' di atas.",
+                    "email_hash_label": "Gunakan alamat email yang di-hash",
+                    "email_hash_help": "Masukkan hash MD5 dari alamat email jika Anda tidak ingin melewati alamat email itu sendiri. Metode ini melewati semua daftar hitam, normalisasi, dan obfuscation check.",
                     "sfs_lookup_label": "Mencari pendaftaran",
-                    "sfs_lookup_help": "Jika diaktifkan, kami akan memeriksa database StopForumSpam ketika pengguna baru mendaftar ke forum anda. Jika pengguna ditemukan (nama pengguna, alamat IP, email) dan data petunjuk tersebut diaktifkan bersama dengan tingkat keyakinan SFS mencapai tingkat yang anda tentukan, mereka akan dicegah untuk melengkapi pendaftarannya.",
+                    "sfs_lookup_help": "Jika diaktifkan, kami akan memeriksa database StopForumSpam ketika pengguna baru mendaftar di forum Anda. Jika pengguna ditemukan ( username, alamat IP, email) dan titik data tersebut diaktifkan bersama dengan tingkat kepercayaan SFS yang mencapai tingkat yang Anda tentukan, mereka akan dicegah untuk menyelesaikan pendaftaran mereka.",
                     "report_blocked_registrations_label": "laporan pendaftaran diblokir",
-                    "report_blocked_registrations_help": "Jika pendaftaran diblokir dengan melihat fitur pendaftaran, kami akan melaporkan percobaan kembali ke HentikanForumSpam, sehingga aktivitas spammer dapat lebih terkonfirmasi dengan lebih baik. Kebutuhan pengaturan sebuah kunci API StopForumSpam (lihat di bawah)."
+                    "report_blocked_registrations_help": "Ketika sebuah pendaftaran diblokir oleh fitur Pencarian Pendaftaran, kami akan melaporkan upaya tersebut kembali ke StopForumSpam, sehingga aktivitas spammer dapat dikonfirmasi dengan lebih baik. Membutuhkan kunci API StopForumSpam yang telah diatur (lihat di bawah)."
                 }
             },
             "blocked_registrations": {
@@ -52,33 +52,33 @@
                 "attempted-at": "Percobaan pada",
                 "ip": "Alamat IP",
                 "email": "Alamat Email",
-                "username": "Nama Pengguna",
+                "username": "Username",
                 "login-provider": "Penyedia Layanan Login",
                 "login-provider-data": "Data Penyedia Layanan Login",
                 "sfs-data": "Data StopForumSpam",
-                "delete_entry": "Hapus masukan"
+                "delete_entry": "Hapus entri"
             }
         },
         "forum": {
             "message": {
                 "stopforumspam": {
-                    "blocked": "Rincian dari pendaftaran anda telah kami temukan dalam sebuah database pencegahan spam, sehingga pendaftaran anda telah diblokir."
+                    "blocked": "Detail pendaftaran Anda telah ditemukan dalam database pencegahan spam, oleh karena itu pendaftaran Anda telah diblokir."
                 }
             },
             "spammer_modal": {
                 "hard_delete_discussions_label": "Hapus diskusi",
                 "hard_delete_discussions_help": "Ini akan secara permanen menghapus semua diskusi yang dimulai pengguna ini. Bila tidak aktif, diskusi tetap akan disembunyikan.",
-                "hard_delete_posts_label": "Hapus suntingan",
-                "hard_delete_posts_help": "Ini akan secara permanen menghapus seluruh suntingan (komentar, balasan, dan lainnya) yang dibuat oleh pengguna ini. Bila tidak diaktifkan, suntingan tetap akan disembunyikan.",
+                "hard_delete_posts_label": "Hapus post",
+                "hard_delete_posts_help": "Ini akan menghapus secara permanen semua postingan (komentar, balasan, dll) yang dibuat oleh pengguna ini. Ketika dinonaktifkan, postingan akan disembunyikan.",
                 "hard_delete_user_label": "Hapus pengguna",
-                "hard_delete_user_help": "Ini akan secara permanen menghapus pengguna. Bila tidak diaktifkan, pengguna tetap akan dihukum.",
+                "hard_delete_user_help": "Ini akan menghapus pengguna secara permanen. Ketika dinonaktifkan, pengguna akan ditangguhkan.",
                 "intro": "Ketika menandai pengguna sebagai spammer, beberapa tindakan akan dilakukan, berpedoman pada ekstensi yang ada pada forum anda.",
-                "move_discussions_tag_label": "Pindahkan diskusi kedalam penanda karantina",
-                "move_discussions_tag_help": "Ini akan memindahkan seluruh diskusi yang dimulai oleh pengguna ini kedalam penanda yang ditentukan dalam pengaturan forum. Bila tidak diaktifkan, diskusi tetap pada penanda sekarang.",
+                "move_discussions_tag_label": "Pindahkan diskusi ke dalam tag karantina",
+                "move_discussions_tag_help": "Ini akan memindahkan semua diskusi yang dimulai oleh pengguna ini ke tag yang Anda tentukan dalam pengaturan forum. Jika dinonaktifkan, diskusi akan tetap berada di tag mereka saat ini.",
                 "process_button": "Proses",
                 "title": "Tandai {username} sebagai spammer",
                 "report_to_sfs_label": "Laporkan ke StopForumSpam",
-                "report_to_sfs_help": "Ini akan melaporkan rincian dasar pengguna (nama pengguna, email, alamat IP) untuk StopForumSpam. Ini akan menolong pencegahan pengguna dalam pendaftaran di forum lainnya yang menggunakan layanan StopForumSpam."
+                "report_to_sfs_help": "Ini akan melaporkan rincian dasar pengguna (username, email, alamat IP) ke StopForumSpam. Hal ini akan membantu mencegah pengguna untuk mendaftar di forum lain yang menggunakan layanan StopForumSpam."
             },
             "user_controls": {
                 "spammer_button": "Pengirim Spam"
