@@ -1012,6 +1012,9 @@ return [
 	'litalino-adblock' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-adblock/1.2.1/locale/en.yml',
 	],
+	'litalino-country-flags' => [
+		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-country-flags/1.0.0/locale/en.yml',
+	],
 	'litalino-geo-weather-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-geo-weather-widget/1.1.0/resources/locale/en.yml',
 	],
