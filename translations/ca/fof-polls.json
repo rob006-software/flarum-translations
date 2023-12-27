@@ -2,69 +2,69 @@
     "fof-polls": {
         "admin": {
             "settings": {
-                "allow_option_image": "",
-                "max_options": "",
-                "options_color_blend": "",
-                "options_color_blend_help": ""
+                "allow_option_image": "Permet que es proporcioni l'adreça web d'una imatge per a cada opció de l'enquesta",
+                "max_options": "Màxim nombre d'opcions per enquesta",
+                "options_color_blend": "Combina colors a les opcions de l'enquesta",
+                "options_color_blend_help": "Activa aquesta funció per permetre la barreja de colors per fer que les opcions de l'enquesta siguin més llegibles. Desactiva-la si causa problemes amb l'aparença del teu fòrum, reduint-ne la llegibilitat."
             },
             "permissions": {
-                "view_results_without_voting": "",
-                "start": "",
-                "self_edit": "",
-                "self_post_edit": "",
-                "vote": "",
-                "change_vote": "",
-                "moderate": ""
+                "view_results_without_voting": "Veure resultats sense votar",
+                "start": "Començar una enquesta",
+                "self_edit": "Editar enquestes ja creades (requereix permís d'edició de publicacions)",
+                "self_post_edit": "Editar *totes* les enquestes a les publicacions pròpies (requereix permís d'edició de publicacions)",
+                "vote": "Votar a les enquestes",
+                "change_vote": "Canviar vot",
+                "moderate": "Editar i esborrar enquestes"
             }
         },
         "forum": {
-            "days_remaining": "",
-            "no_permission": "",
-            "poll_ended": "",
-            "public_poll": "",
-            "max_votes_allowed": "",
+            "days_remaining": "Finalització de l'enquesta: {time}.",
+            "no_permission": "No tens permisos per votar",
+            "poll_ended": "L'enquesta ha acabat.",
+            "public_poll": "Veure votants",
+            "max_votes_allowed": "L'enquesta permet votar {max, plural, one {# opció} other {# opcions}}.",
             "poll": {
-                "cannot_change_vote": "",
-                "submit_button": ""
+                "cannot_change_vote": "No pots canviar el teu vot un cop emès.",
+                "submit_button": "Votar"
             },
             "composer_discussion": {
-                "add_poll": "",
-                "edit_poll": "",
-                "no_permission_alert": ""
+                "add_poll": "=> fof-polls.forum.moderation.add",
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": "No tens permisos per començar una enquesta."
             },
             "modal": {
-                "add_title": "",
-                "add_option_label": "",
-                "date_placeholder": "",
-                "edit_title": "",
-                "include_question": "",
-                "max": "",
-                "min": "",
-                "no_voters": "",
-                "option_placeholder": "",
-                "image_option_placeholder": "",
-                "options_label": "",
-                "public_poll_label": "",
-                "allow_multiple_votes_label": "",
-                "max_votes_label": "",
-                "max_votes_help": "",
-                "hide_votes_label": "",
-                "allow_change_vote_label": "",
-                "question_placeholder": "",
-                "submit": ""
+                "add_title": "Afegir una enquesta",
+                "add_option_label": "Afegir una opció",
+                "date_placeholder": "Data de finalització de l'enquesta (opcional)",
+                "edit_title": "Editar enquesta",
+                "include_question": "Has d'incloure una pregunta",
+                "max": "La llista d'opcions pot tenir un màxim de {max} possibles respostes",
+                "min": "Has d'incloure un mínim de 2 possibles respostes",
+                "no_voters": "Cap vot",
+                "option_placeholder": "Resposta",
+                "image_option_placeholder": "Adreça web de la imatge (opcional)",
+                "options_label": "Respostes",
+                "public_poll_label": "Permetre veure qui ha votat",
+                "allow_multiple_votes_label": "Permetre votar múltiples opcions",
+                "max_votes_label": "Màxim de vots per usuari",
+                "max_votes_help": "Entrar 0 per permetre que els usuaris votin totes les opcions.",
+                "hide_votes_label": "Amagar els vots fins que acabi l'enquesta",
+                "allow_change_vote_label": "Permetre que els usuaris canviïn el seu vot",
+                "question_placeholder": "Pregunta",
+                "submit": "Enviar"
             },
             "moderation": {
-                "add": "",
-                "delete": "",
-                "delete_confirm": "",
-                "edit": ""
+                "add": "Afegir enquesta",
+                "delete": "Suprimir enquesta",
+                "delete_confirm": "Segur que vols esborrar aquesta enquesta?",
+                "edit": "Editar enquesta"
             },
             "tooltip": {
-                "badge": "",
-                "votes": ""
+                "badge": "Enquesta",
+                "votes": "{count, plural, one {# vot} other {# vots}}"
             },
             "votes_modal": {
-                "title": ""
+                "title": "Votants"
             }
         }
     }
