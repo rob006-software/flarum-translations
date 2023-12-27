@@ -467,6 +467,5 @@
 | [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/v17development-support/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/v17development-support/) |
 | [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/ziiven-decoration-store/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/ziiven-decoration-store/) |
 | [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/ziiven-pay-to-see/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/ziiven-pay-to-see/) |
-| [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/ziiven-raffle-ticket/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/ziiven-raffle-ticket/) |
 
 <!-- premium-extensions-list-stop -->
