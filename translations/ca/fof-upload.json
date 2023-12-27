@@ -18,36 +18,36 @@
             "shared-uploads": {
                 "description": "Fitxers pujats que poden ser usats per tots els usuaris del fòrum.",
                 "introduction": "Els fitxers pujats compartits són fitxers que poden ser utilitzats per tots els usuaris del fòrum. No s'adjunten a cap publicació, però es poden inserir en publicacions mitjançant el gestor de mitjans.\n\n<strong>Avís:</strong> els fitxers pujats compartits no estan per cap permís. Qualsevol persona amb l'URL pot veure'ls.\n",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
+                "no-files": "Encara no s'ha pujat cap fitxer compartit.",
+                "title": "Fitxers pujats compartits",
+                "upload-new-button": "Pujar nou fitxer"
             },
             "pane": {
-                "title": "",
-                "description": ""
+                "title": "Pujar",
+                "description": "Configurar els serveis i les preferències de pujada de fitxers."
             },
             "help_texts": {
-                "disable-download-logging": "",
-                "disable-hotlink-protection": "",
-                "download_templates": "",
-                "mime_types": "",
-                "resize": "",
-                "client_extension": "",
-                "watermark": "",
-                "s3_compatible_storage": "",
-                "s3_acl": "",
-                "s3_instance_profile": "",
-                "composer_buttons": ""
+                "disable-download-logging": "Desactiva el registre de cada descàrrega feta pels usuaris del vostre fòrum. Mantenir-lo activat permetrà veure el nombre de baixades i altres mètriques en un futur proper.\n",
+                "disable-hotlink-protection": "La protecció d'enllaços directes impedeix obrir baixades d'altres llocs. El mètode actual requereix un identificador csrf i un identificador de publicació.\n",
+                "download_templates": "Les plantilles de baixada són com es mostren les pujades al vostre fòrum, per exemple, com a visualitzacions prèvies, botons. Disponible actualment:\n",
+                "mime_types": "Configura el teu mapa aquí. Cada expressió regular de tipus MIME serà gestionada per un adaptador de càrrega i una plantilla de baixada específics.\n",
+                "resize": "Tria si vols canviar la mida de les teves imatges abans que es pengin. Pots triar una amplada i una alçada màximes, en píxels. El procés de redimensionament manté la relació d'aspecte de les imatges.\n",
+                "client_extension": "Per defecte, es triarà una extensió de fitxer segura en funció del tipus MIME.\nPer a alguns tipus de fitxer basats en format ZIP o dades binàries, això pot provocar que s'utilitzin extensions genèriques en lloc de l'esperada.\nAquí pots introduir una llista d'extensions de fitxer separades per comes que es mantindran literalment.\n",
+                "watermark": "Tria si s'ha d'afegir una marca d'aigua a les imatges durant la càrrega. Les marques d'aigua s'afegiran als fixers que no siguin de format GIF en funció de les teves preferències a sota.\n",
+                "s3_compatible_storage": "Els paràmetres següents només són necessaris quan s'utilitza algun emmagatzematge compatible amb S3. Si utilitzes AWS, pots deixar-los en blanc.\n",
+                "s3_acl": "L'ACL que s'ha d'aplicar a l'objecte pujat (per defecte: privat). Per obtenir els valors possibles, consulta https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_instance_profile": "Deixa la clau i el secret buits per utilitzar les credencials al perfil de la instància.\n",
+                "composer_buttons": "Per defecte, es mostraran els botons del gestor de mitjans i el de pujada de fitxers. També pots optar per mostrar només un botó.\n"
             },
             "labels": {
                 "aws-s3": {
-                    "bucket": "",
-                    "key": "",
-                    "region": "",
-                    "secret": "",
-                    "title": "",
-                    "advanced_title": "",
-                    "endpoint": "",
+                    "bucket": "Bucket S3",
+                    "key": "Clau",
+                    "region": "Regió",
+                    "secret": "Secret",
+                    "title": "Configuració d'emmagatzematge S3",
+                    "advanced_title": "Configuració avançada d'emmagatzematge S3",
+                    "endpoint": "Punt final",
                     "use_path_style_endpoint": "",
                     "acl": ""
                 },
