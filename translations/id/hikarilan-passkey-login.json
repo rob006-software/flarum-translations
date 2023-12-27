@@ -4,12 +4,12 @@
             "settings": {
                 "relying_party": {
                     "name": {
-                        "label": "Nama Pihak Pengandal",
-                        "help": "Nama Pihak Pengandal adalah nama sebutan-manusia untuk situs anda. Jika dikosongkan, judul forum akan digunakan."
+                        "label": "Nama Relying Party",
+                        "help": "Nama Relying Party adalah nama yang dapat dibaca oleh manusia untuk situs Anda. Jika dibiarkan kosong, judul forum akan digunakan."
                     },
                     "id": {
-                        "label": "ID Pihak Pengandal",
-                        "help": "ID Pihak Pengandal adalah sebuah identifikasi unik untuk situs anda. Ini akan menjadi domain dari situs web tanpa skema. Sebagai contoh, jika website anda adalah https://example.com, ID pp akan menjadi example.com. Jika dikosongkan, domain sekarang akan dipergunakan."
+                        "label": "ID Relying Party",
+                        "help": "ID Relying Party adalah pengenal unik untuk situs Anda. ID ini akan menjadi domain situs web tanpa skema. Misalnya, jika situs web Anda adalah https://example.com, ID rp adalah example.com. Jika dikosongkan, domain saat ini yang akan digunakan."
                     }
                 },
                 "timeout": {
