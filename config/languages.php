@@ -167,6 +167,7 @@ return [
 	'vi' => getComponents([
 		// translations included in extension
 		'!litalino-adblock',
+		'!litalino-blog-article-series',
 		'!litalino-country-flags',
 		'!litalino-geo-weather-widget',
 		'!litalino-more-bbcode',
