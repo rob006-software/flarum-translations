@@ -1086,6 +1086,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`kyrne-websocket`](https://weblate.rob006.net/projects/flarum/kyrne-websocket) | [`kyrne/websocket`](https://github.com/KyrneDev/websocket) |
 | [`kyrne-whisper`](https://weblate.rob006.net/projects/flarum/kyrne-whisper) | [`kyrne/whisper`](https://github.com/KyrneDev/whisper) |
 | [`litalino-adblock`](https://weblate.rob006.net/projects/flarum/litalino-adblock) | [`litalino/flarum-adblock`](https://github.com/Litalino/flarum-adblock) |
+| [`litalino-country-flags`](https://weblate.rob006.net/projects/flarum/litalino-country-flags) | [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags) |
 | [`litalino-geo-weather-widget`](https://weblate.rob006.net/projects/flarum/litalino-geo-weather-widget) | [`litalino/flarum-geo-weather-widget`](https://github.com/Litalino/flarum-geo-weather-widget) |
 | [`litalino-more-bbcode`](https://weblate.rob006.net/projects/flarum/litalino-more-bbcode) | [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode) |
 | [`littlecxm-reply-to-see`](https://weblate.rob006.net/projects/flarum/littlecxm-reply-to-see) | [`littlecxm/flarum-reply-to-see`](https://github.com/littlecxm/flarum-reply-to-see) |
