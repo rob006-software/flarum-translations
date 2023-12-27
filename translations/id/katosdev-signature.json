@@ -4,16 +4,16 @@
             "buttons": {
                 "signature": "Signature",
                 "save": "Simpan Signature",
-                "edit": ""
+                "edit": "Edit Signature"
             },
             "errors": {
-                "max_char_limit_exceed": "Batas karakter maksimum terlampaui.",
-                "max_image_count_exceed": "Jumlah gambar maksimum terlampaui.",
+                "max_char_limit_exceed": "Batas maksimum karakter terlampaui.",
+                "max_image_count_exceed": "Jumlah maksimum gambar terlampaui.",
                 "max_image_width_exceed": "Batas lebar gambar maksimum terlampaui.",
                 "max_image_height_exceed": "Batas tinggi gambar maksimum terlampaui."
             },
             "profile": {
-                "click": ""
+                "click": "Klik untuk menulis signature Anda"
             },
             "modal": {
                 "loading": {
@@ -28,23 +28,23 @@
         },
         "admin": {
             "permissions": {
-                "edit_signature_others": "",
-                "allow_signature": ""
+                "edit_signature_others": "Mengedit signature pengguna lain",
+                "allow_signature": "Dapat memiliki signature"
             },
             "settings": {
                 "maximum_image_count": {
                     "description": "Jumlah maksimum gambar yang disisipkan.",
-                    "help": "",
+                    "help": "Apabila pengguna melebihi jumlah maksimum gambar dalam signature mereka, maka pengguna akan dicegah untuk menyimpan sampai jumlah gambarnya sesuai.",
                     "placeholder": "5 (default)"
                 },
                 "maximum_char_limit": {
-                    "description": "Batas karakter maksimum dari signature (hanya karakter, tag HTML tidak dihitung)",
-                    "help": "",
+                    "description": "Batas maksimum karakter signature.",
+                    "help": "Ketika pengguna melebihi batas maksimum karakter dalam signature mereka, mereka akan dicegah untuk menyimpan sampai jumlah karakter sesuai.",
                     "placeholder": "1000 (default)"
                 },
                 "allow_inline_editing": {
-                    "description": "",
-                    "help": ""
+                    "description": "Pengeditan signature sebaris.",
+                    "help": "Ketika diaktifkan, pengguna dapat mengedit signature mereka ketika melihat post."
                 },
                 "maximum_image_width": {
                     "description": "Lebar maksimum gambar pada editor.",
