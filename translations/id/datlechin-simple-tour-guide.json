@@ -3,22 +3,22 @@
         "admin": {
             "settings": {
                 "show_progress_label": "Tampilkan kemajuan",
-                "show_progress_help": "Ini akan menyajikan tahapan saat ini dan total tahapan pada bagian atas popover.",
-                "allow_close_label": "Perbolehkan tutup",
+                "show_progress_help": "Ini akan menunjukkan step saat ini dan total step di bagian atas popover.",
+                "allow_close_label": "Mengizinkan penutupan",
                 "allow_close_help": "Perbolehkan penggguna menutup Popover dengan klik pada latar belakang."
             },
             "edit_modal": {
-                "edit_step": "Sunting {title}",
-                "create_step": "Buat tahapan baru",
-                "delete_step": "Hapus tahapan",
-                "delete_step_confirmation": "Anda yakin ingin menghapus tahapan ini?"
+                "edit_step": "Edit {title}",
+                "create_step": "Buat step baru",
+                "delete_step": "Hapus step",
+                "delete_step_confirmation": "Anda yakin ingin menghapus step ini?"
             },
             "title": "Judul",
-            "title_placeholder": "Judul Tahapan.",
+            "title_placeholder": "Judul step.",
             "description": "Deskripsi",
-            "description_placeholder": "Deskripsi tahapan.",
+            "description_placeholder": "Penjelasan mengenai step tersebut.",
             "target": "Sasaran",
-            "target_placeholder": "Elemen target dari tahapan (misal. #elemen-id)."
+            "target_placeholder": "Elemen target dari step tersebut (misal. #elemen-id)."
         },
         "forum": {
             "progress_text": "{current} dari {total}",
