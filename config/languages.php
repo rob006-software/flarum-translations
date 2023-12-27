@@ -167,6 +167,7 @@ return [
 	'vi' => getComponents([
 		// translations included in extension
 		'!litalino/flarum-adblock',
+		'!litalino-country-flags',
 		'!litalino/flarum-geo-weather-widget',
 		'!litalino/flarum-more-bbcode',
 		'!xelson-chat',
