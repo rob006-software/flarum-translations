@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Загрузка",
                 "description": "Параметры службы загрузки файлов."
@@ -98,7 +108,9 @@
                 "download_label": "Скачивать файлы",
                 "upload_label": "Загружать файлы",
                 "view_user_uploads_label": "Смотреть загрузки пользователя",
-                "delete_uploads_of_others_label": "Удалять загрузки пользователей"
+                "delete_uploads_of_others_label": "Удалять загрузки пользователей",
+                "upload_shared_label": "",
+                "access_shared_label": ""
             },
             "templates": {
                 "file": "Файл",
@@ -142,9 +154,26 @@
             "buttons": {
                 "attach": "Файл",
                 "upload": "Загрузить",
+                "upload_shared": "",
                 "user_uploads": "Загрузки пользователя",
                 "cancel": "Отмена",
-                "media": "Мои загрузки"
+                "media": "Мои загрузки",
+                "shared_media": ""
+            },
+            "states": {
+                "error": "Ошибка",
+                "loading": "Загрузка",
+                "unauthorized": "Вам запрещено скачивать файлы"
+            },
+            "validation": {
+                "max_size": "Файлы, размером более {max} КБ, запрещены."
+            },
+            "text_preview": {
+                "expand": "Расширить предпросмотр",
+                "collapse": "Схлопнуть предпросмотр",
+                "error": "Ошибка предпросмотра файла. Файл мог быть удалён или его идентификатор недействителен.\n",
+                "no_snippet_preview": "<после отправки сообщения здесь появится предпросмотр содержания>",
+                "no_snippet": "<Предпросмотр фрагмента недоступен>"
             },
             "file_list": {
                 "loading": "Загрузка файлов...",
@@ -162,21 +191,6 @@
                     "hide_fail": "Не удалось скрыть файл \"{fileName}\"",
                     "loading": "Скрытие файла..."
                 }
-            },
-            "states": {
-                "error": "Ошибка",
-                "loading": "Загрузка",
-                "unauthorized": "Вам запрещено скачивать файлы"
-            },
-            "validation": {
-                "max_size": "Файлы, размером более {max} КБ, запрещены."
-            },
-            "text_preview": {
-                "expand": "Расширить предпросмотр",
-                "collapse": "Схлопнуть предпросмотр",
-                "error": "Ошибка предпросмотра файла. Файл мог быть удалён или его идентификатор недействителен.\n",
-                "no_snippet_preview": "<после отправки сообщения здесь появится предпросмотр содержания>",
-                "no_snippet": "<Предпросмотр фрагмента недоступен>"
             }
         },
         "api": {
@@ -192,6 +206,48 @@
                 "cannot_write_to_disk": "Запись на диск невозможна.",
                 "upload_blocked_by_php_extension": "Расширение PHP блокирует загрузку.",
                 "no_files_made_it_to_upload": "Пожалуйста, не загружайте файлы размером свыше {max} кБ."
+            }
+        },
+        "lib": {
+            "upload-shared-file-modal": {
+                "title": "",
+                "dropzone": "",
+                "hide-from-media-gallery": "",
+                "upload": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "delete_file_a11y_label": "",
+                "delete_confirmation": "",
+                "hide_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                },
+                "hide_shared_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                }
             }
         }
     }

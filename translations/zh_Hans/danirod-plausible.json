@@ -3,7 +3,7 @@
         "admin": {
             "validation": {
                 "domain": {
-                    "required": "",
+                    "required": "必须指定一个域名",
                     "regex": ""
                 },
                 "proxy_domain": {

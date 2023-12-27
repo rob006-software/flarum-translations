@@ -4,39 +4,39 @@
             "settings": {
                 "relying_party": {
                     "name": {
-                        "label": "",
-                        "help": ""
+                        "label": "Nama Pihak Pengandal",
+                        "help": "Nama Pihak Pengandal adalah nama sebutan-manusia untuk situs anda. Jika dikosongkan, judul forum akan digunakan."
                     },
                     "id": {
-                        "label": "",
-                        "help": ""
+                        "label": "ID Pihak Pengandal",
+                        "help": "ID Pihak Pengandal adalah sebuah identifikasi unik untuk situs anda. Ini akan menjadi domain dari situs web tanpa skema. Sebagai contoh, jika website anda adalah https://example.com, ID pp akan menjadi example.com. Jika dikosongkan, domain sekarang akan dipergunakan."
                     }
                 },
                 "timeout": {
-                    "label": "",
-                    "help": ""
+                    "label": "Waktu habis",
+                    "help": "Batas waktu verifikasi passkey dalam hitungan detik. Nilai default adalah 60 detik."
                 }
             }
         },
         "forum": {
             "login": {
-                "with-passkey": ""
+                "with-passkey": "Masuk dengan passkey"
             },
             "user": {
                 "settings": {
                     "passkeys": {
-                        "title": "",
-                        "label": "",
-                        "add-new-passkey": "",
-                        "error": ""
+                        "title": "Passkey",
+                        "label": "Passkey adalah pengganti kata sandi yang memvalidasi identitas Anda menggunakan sentuhan, pengenalan wajah, kata sandi perangkat, atau PIN.",
+                        "add-new-passkey": "Tambah passkey",
+                        "error": "Terjadi sebuah kesalahan internal. Silahkan coba kembali."
                     },
                     "alias-modal": {
-                        "title": "",
-                        "label": ""
+                        "title": "Passkey terdaftar!",
+                        "label": "Dan sekarang, mari kita beri nama alias pada passkey Anda."
                     },
                     "item": {
-                        "revoke": "",
-                        "revoke_success": ""
+                        "revoke": "=> core.forum.security.revoke_access_token",
+                        "revoke_success": "Passkey berhasil dicabut."
                     }
                 }
             }

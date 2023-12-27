@@ -2,20 +2,20 @@
     "fof-anti-spam": {
         "admin": {
             "permissions": {
-                "spamblock_users_label": ""
+                "spamblock_users_label": "Merkitse käyttäjä roskapostittajaksi"
             },
             "settings": {
-                "button": "",
+                "button": "Asetukset",
                 "default-actions": {
-                    "delete_user_label": "",
-                    "delete_user_help": "",
-                    "delete_discussions_label": "",
-                    "delete_discussions_help": "",
-                    "delete_posts_label": "",
-                    "delete_posts_help": "",
-                    "heading": "",
-                    "introduction": "",
-                    "move_discussions_to_tags_label": "",
+                    "delete_user_label": "Poista käyttäjä",
+                    "delete_user_help": "Käyttäjä poistetaan lopullisesti. Kun pois käytöstä, käyttäjä estetään sen sijaan.",
+                    "delete_discussions_label": "Poista keskustelut",
+                    "delete_discussions_help": "Tämä poistaa pysyvästi kaikki keskustelut tältä käyttäjältä. Kun pois käytöstä, keskusteluja ei poisteta pysyvästi.",
+                    "delete_posts_label": "Poista viestit",
+                    "delete_posts_help": "Tämä poistaa tämän käyttäjän viestit pysyvästi. Kun pois käytöstä viestejä ei poisteta pysyvästi.",
+                    "heading": "Moderoinnin oletus toimet",
+                    "introduction": "Kun käyttäjä merkitään roskapostittajaksi, moderaattorit voivat valita käytössä olevista toimista miten toimia kyseisessä tilanteessa. Nämä asetukset asettavat oletukset tähän tilanteeseen, prosessin nopeuttamiseksi, mutta voidaan myös säätää tapauskohtaiseksi.\n",
+                    "move_discussions_to_tags_label": "Siirrä keskustelut avainsanaan",
                     "move_discussions_to_tags_help": ""
                 },
                 "stopforumspam": {

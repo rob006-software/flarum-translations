@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Hochladen",
                 "description": "Konfiguriere Upload-Dienste und Präferenzen."
@@ -98,7 +108,9 @@
                 "download_label": "Dateien herunterladen",
                 "upload_label": "Dateien hochladen",
                 "view_user_uploads_label": "Benutzer-Uploads anzeigen",
-                "delete_uploads_of_others_label": "Benutzer-Uploads löschen"
+                "delete_uploads_of_others_label": "Benutzer-Uploads löschen",
+                "upload_shared_label": "",
+                "access_shared_label": ""
             },
             "templates": {
                 "file": "Standard Datei-Downloadvorlage",
@@ -145,9 +157,26 @@
             "buttons": {
                 "attach": "Anhängen",
                 "upload": "Hochladen",
+                "upload_shared": "",
                 "user_uploads": "Benutzer-Uploads",
                 "cancel": "Abbruch",
-                "media": "Meine Medien"
+                "media": "Meine Medien",
+                "shared_media": ""
+            },
+            "states": {
+                "error": "Fehler",
+                "loading": "Lädt hoch",
+                "unauthorized": "Du darfst keine Dateien herunterladen"
+            },
+            "validation": {
+                "max_size": "Uploads über {max}KB werden nicht akzeptiert."
+            },
+            "text_preview": {
+                "expand": "Vorschau erweitern",
+                "collapse": "Vorschau minimieren",
+                "error": "Fehler bei der Vorschaudatei. Möglicherweise wurde sie gelöscht oder die angegebene Datei-ID ist ungültig.\n",
+                "no_snippet_preview": "<Vorschau wird hier nach dem Posten erscheinen>",
+                "no_snippet": "<kein Vorschau-Snippet verfügbar>"
             },
             "file_list": {
                 "loading": "Lade Dateien...",
@@ -165,21 +194,6 @@
                     "hide_fail": "Datei \"{fileName}\" konnte nicht ausgeblendet werden",
                     "loading": "Datei ausblenden..."
                 }
-            },
-            "states": {
-                "error": "Fehler",
-                "loading": "Lädt hoch",
-                "unauthorized": "Du darfst keine Dateien herunterladen"
-            },
-            "validation": {
-                "max_size": "Uploads über {max}KB werden nicht akzeptiert."
-            },
-            "text_preview": {
-                "expand": "Vorschau erweitern",
-                "collapse": "Vorschau minimieren",
-                "error": "Fehler bei der Vorschaudatei. Möglicherweise wurde sie gelöscht oder die angegebene Datei-ID ist ungültig.\n",
-                "no_snippet_preview": "<Vorschau wird hier nach dem Posten erscheinen>",
-                "no_snippet": "<kein Vorschau-Snippet verfügbar>"
             }
         },
         "api": {
@@ -195,6 +209,48 @@
                 "cannot_write_to_disk": "",
                 "upload_blocked_by_php_extension": "",
                 "no_files_made_it_to_upload": ""
+            }
+        },
+        "lib": {
+            "upload-shared-file-modal": {
+                "title": "",
+                "dropzone": "",
+                "hide-from-media-gallery": "",
+                "upload": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "delete_file_a11y_label": "",
+                "delete_confirmation": "",
+                "hide_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                },
+                "hide_shared_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                }
             }
         }
     }

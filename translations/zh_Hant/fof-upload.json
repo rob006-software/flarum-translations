@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": "共用的上傳"
+            },
+            "shared-uploads": {
+                "description": "上傳可供論壇所有使用者使用的檔。",
+                "introduction": "共用上傳是指可供論壇所有使用者使用的檔。它們不附加於任何帖子，但可以使用媒體管理器插入到帖子中。\n\n<strong>警告：</strong>共用上傳不受任何許可權保護。任何知道 URL 的人都可以查看它們。\n",
+                "no-files": "尚未上傳任何共享檔。",
+                "title": "共用的上傳",
+                "upload-new-button": "上傳新檔"
+            },
             "pane": {
                 "title": "上傳",
                 "description": "設置上傳服務和首選項。"
@@ -98,7 +108,9 @@
                 "download_label": "下載檔案",
                 "upload_label": "上載檔案",
                 "view_user_uploads_label": "查看用戶上傳的文件",
-                "delete_uploads_of_others_label": "刪除用戶上傳的文件"
+                "delete_uploads_of_others_label": "刪除用戶上傳的文件",
+                "upload_shared_label": "上傳共享文件",
+                "access_shared_label": "在媒體管理員中存取共用文件"
             },
             "templates": {
                 "file": "預設檔案下載模板",
@@ -142,9 +154,26 @@
             "buttons": {
                 "attach": "上載",
                 "upload": "上傳",
+                "upload_shared": "已分享",
                 "user_uploads": "用戶上傳",
                 "cancel": "取消",
-                "media": "我的文件"
+                "media": "我的文件",
+                "shared_media": "已分享的媒體"
+            },
+            "states": {
+                "error": "錯誤",
+                "loading": "正在上載",
+                "unauthorized": "您未被允許下載檔案"
+            },
+            "validation": {
+                "max_size": "文件需小於 {max} KB。"
+            },
+            "text_preview": {
+                "expand": "展開全文",
+                "collapse": "收起全文",
+                "error": "文件預覽無法加載。此文件可能已被刪除，或文件 ID已失效。\n",
+                "no_snippet_preview": "<本文的預覽將會在此處展示>",
+                "no_snippet": "<暫無可用的預覽代碼片段>"
             },
             "file_list": {
                 "loading": "加載文件中……",
@@ -162,21 +191,6 @@
                     "hide_fail": "無法隱藏文件「{fileName}」",
                     "loading": "正在隱藏文件……"
                 }
-            },
-            "states": {
-                "error": "錯誤",
-                "loading": "正在上載",
-                "unauthorized": "您未被允許下載檔案"
-            },
-            "validation": {
-                "max_size": "文件需小於 {max} KB。"
-            },
-            "text_preview": {
-                "expand": "展開全文",
-                "collapse": "收起全文",
-                "error": "文件預覽無法加載。此文件可能已被刪除，或文件 ID已失效。\n",
-                "no_snippet_preview": "<本文的預覽將會在此處展示>",
-                "no_snippet": "<暫無可用的預覽代碼片段>"
             }
         },
         "api": {
@@ -192,6 +206,48 @@
                 "cannot_write_to_disk": "無法寫入磁盤。",
                 "upload_blocked_by_php_extension": "php 擴展阻止了上傳。",
                 "no_files_made_it_to_upload": "請上傳不超過 {max} kb 的文件。"
+            }
+        },
+        "lib": {
+            "upload-shared-file-modal": {
+                "title": "新分享的檔案",
+                "dropzone": "將文件拖放到此處或點擊瀏覽",
+                "hide-from-media-gallery": "從使用者的媒體庫中隱藏",
+                "upload": "上傳"
+            },
+            "file_list": {
+                "loading": "載入檔案…",
+                "empty": "沒有檔案可顯示",
+                "release_to_upload": "發布上傳",
+                "modal_empty_desktop": "您的文件清單為空。 按一下按鈕或將檔案拖曳至此處進行上傳。",
+                "modal_empty_phone": "您的文件清單為空。 點擊上面的按鈕上傳檔案。",
+                "select_file_a11y_label": "選擇檔案“{fileName}”",
+                "confirm_selection_btn": "{fileCount, plural, =0 {未選擇} one {選擇檔案} other {選擇檔案}}",
+                "load_more_files_btn": "載入更多檔案",
+                "delete_file_a11y_label": "刪除 \"{fileName}\"",
+                "delete_confirmation": "您確定要刪除“{fileName}”嗎？",
+                "hide_file": {
+                    "btn_a11y_label_hide": "從媒體管理器中隱藏“{fileName}”",
+                    "btn_a11y_label_show": "在媒體管理器中顯示“{fileName}”",
+                    "hide_confirmation": "您確定要隱藏「{fileName}」嗎？ 隱藏檔案只會將其從媒體管理員中刪除，不會影響現有貼文。",
+                    "hide_success": "文件隱藏",
+                    "show_confirmation": "您確定要顯示“{fileName}”嗎？ 顯示檔案將使其在媒體管理員中可見。",
+                    "show_success": "顯示文件",
+                    "hide_fail": "無法隱藏檔案“{fileName}”",
+                    "show_fail": "無法顯示檔案“{fileName}”",
+                    "loading": "隱藏檔案..."
+                },
+                "hide_shared_file": {
+                    "btn_a11y_label_hide": "將「{fileName}」設為私有（無公用 URL）",
+                    "btn_a11y_label_show": "公開「{fileName}」（使用公用 URL）",
+                    "hide_confirmation": "您確定要將「{fileName}」設為私有嗎？ 將檔案設為私人將刪除其公用 URL，但不會影響現有貼文。 未經授權的用戶也將不再在媒體管理員中看到它。",
+                    "hide_success": "檔案設為私有",
+                    "show_confirmation": "您確定要公開「{fileName}」嗎？ 公開文件將使任何擁有公共 URL 的人都可以存取該文件，並且任何人都可以使用媒體管理員共用該文件。",
+                    "show_success": "文件公開",
+                    "hide_fail": "無法將檔案「{fileName}」設為私有",
+                    "show_fail": "無法公開檔案“{fileName}”",
+                    "loading": "將檔案設為私有..."
+                }
             }
         }
     }

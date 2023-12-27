@@ -3,85 +3,95 @@
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Ulanyjy tarapyndan ýüklenen ähli faýllar.",
+                    "anonymize_description": "Ýüklenen faýllardan ulanyjy salgylanmasyny aýyrýar. Faýllaryň özleri, anonimleşdirilmegini görüp bilýän ulanyjylar üçin elýeterli bolýarlar.",
+                    "delete_description": "Ulanyjy tarapyndan ýüklenen ähli faýllary bozýar."
                 }
             }
         }
     },
     "fof-upload": {
         "admin": {
-            "pane": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
                 "title": "",
-                "description": ""
+                "upload-new-button": ""
+            },
+            "pane": {
+                "title": "Ýükle",
+                "description": "Ýükleme hyzmatlaryny we ileri tutmalary düz."
             },
             "help_texts": {
-                "disable-download-logging": "",
-                "disable-hotlink-protection": "",
-                "download_templates": "",
-                "mime_types": "",
-                "resize": "",
-                "client_extension": "",
-                "watermark": "",
-                "s3_compatible_storage": "",
-                "s3_acl": "",
-                "s3_instance_profile": "",
-                "composer_buttons": ""
+                "disable-download-logging": "Forumyňyzyň ulanyjylary tarapyndan edilen her göçürip almany ýazmagy öçüriň. Ony işjeň ýagdaýda saklamak, ýakyn wagtda göçürip alýanlaryň sanyny we beýleki ölçegleri görmäge mümkinçilik berýär.\n",
+                "disable-hotlink-protection": "“Hotlink” goragy beýleki saýtlardan göçürip almalaryň öňüni alýar. Häzirki usul, csrf belligini we post idini talap edýär.\n",
+                "download_templates": "Göçürip alýan galyplar, ýüklemeleriň forumyňyzda görkezilişi, mysal üçin deslapky syn, düwmeler ýaly. Häzirki wagtda elýeterli:\n",
+                "mime_types": "Kartalaşdyryşyňyzy şu ýerde düzmegiňizi haýyş edýäris. Her mime görnüşli yzygiderli aňlatma belli bir ýükleýiş adapteri we göçürip almak şablony bilen dolandyrylar.\n",
+                "resize": "Suratlaryňyzy ýüklemezden ozal ölçegini üýtgetmek isleýändigiňizi saýlaň. Iň ýokary ini we beýikligi pikselde saýlap bilersiňiz. Ölçegiň ölçegi şekilleriň aspekt derejesini saklaýar.\n",
+                "client_extension": "Adaty tertipde Uploadüklemek, MIME görnüşine esaslanýan ygtybarly faýl giňeltmesini saýlar.\nZIP ýa-da ikilik maglumatlary töweregindäki käbir faýl görnüşleri üçin bu garaşylýan ýerine derek umumy giňeltmeleriň ulanylmagyna sebäp bolup biler.\nBu ýerde söz bilen saklanjak faýl giňeltmeleriniň vergul bilen bölünen sanawyny girizip bilersiňiz.\n",
+                "watermark": "Suratlaryň ýüklenende suw belliginiň goşuljakdygyny ýa-da ýokdugyny saýlaň. Suw bellikleri aşakdaky islegleriňize görä gif dällere goşulýar.\n",
+                "s3_compatible_storage": "Aşakdaky sazlamalar diňe S3 gabat gelýän ammar ulanylanda talap edilýär. AWS ulanýan bolsaňyz, olary boş goýup bilersiňiz.\n",
+                "s3_acl": "Uploadüklenen obýekte ulanylmaly ACL (default: hususy). Mümkin bolan gymmatlyklar üçin https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl serediň\n",
+                "s3_instance_profile": "Mysal profilinde şahsyýet maglumatlaryny ulanmak üçin açary we syry boş goýuň.\n",
+                "composer_buttons": "Adaty tertipde media dolandyryjy düwmesi we ýüklemek düwmesi görünýär. Şeýle hem diňe bir düwmäni görkezmegi saýlap bilersiňiz.\n"
             },
             "labels": {
                 "aws-s3": {
-                    "bucket": "",
-                    "key": "",
-                    "region": "",
-                    "secret": "",
-                    "title": "",
-                    "advanced_title": "",
-                    "endpoint": "",
-                    "use_path_style_endpoint": "",
-                    "acl": ""
+                    "bucket": "Çelek",
+                    "key": "Açar",
+                    "region": "Region",
+                    "secret": "Syr",
+                    "title": "AWS S3 ammar sazlamalary",
+                    "advanced_title": "Ösen S3 ammar sazlamalary",
+                    "endpoint": "Ahyrky nokat",
+                    "use_path_style_endpoint": "Styleol stiliniň ahyrky nokadyny ulanyň",
+                    "acl": "Giriş dolandyryş sanawy (ACL)"
                 },
                 "disable-download-logging": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Gingükleme ýüklemelerini öçüriň",
+                    "toggle": "Öçüriň"
                 },
                 "disable-hotlink-protection": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Gyzgyn baglanyşyk goragyny öçüriň",
+                    "toggle": "Öçüriň"
                 },
                 "imgur": {
-                    "client_id": "",
-                    "title": "",
-                    "tos": ""
+                    "client_id": "Imgur müşderi şahsyýeti",
+                    "title": "Imgur şekil saklaýyş sazlamalary",
+                    "tos": "Forum ulanyjylaryňyzyň Imguryň <a> Hyzmat şertlerine </a> boýun bolmagyny üpjün etmek siziň jogapkärçiligiňizdir"
                 },
                 "local": {
-                    "cdn_url": "",
-                    "title": ""
+                    "cdn_url": "Mazmuny gowşurmak URL (prefiks faýllary)",
+                    "title": "Ýerli ammar sazlamalary"
                 },
                 "qiniu": {
-                    "title": "",
-                    "key": "",
-                    "secret": "",
-                    "bucket": ""
+                    "title": "Qiniu ammar sazlamalary",
+                    "key": "Açar",
+                    "secret": "Syr",
+                    "bucket": "Çelek"
                 },
                 "preferences": {
-                    "max_file_size": "",
-                    "mime_types": "",
-                    "title": "",
-                    "php_ini_values": ""
+                    "max_file_size": "Iň köp faýl ölçegi (kilobaýtlarda)",
+                    "mime_types": "Mime görnüşiňizi düzüň, adapter kartasyny ýükläň",
+                    "title": "Umumy saýlawlar",
+                    "php_ini_values": "<code> php.ini </code> bahalaryňyz <code> post_max_size = {post} </code> we <code> upload_max_filesize = {upload} </code>. Bu ýerde goýlan bahanyň şu çäklerden aşakdadygyna göz ýetiriň ýa-da şoňa görä sazlaň. <code> Nginx </code> ulanýan bolsaňyz, <code> client_max_body_size </code> saýlan iň ýokary çägiňiz üçin ýeterlik ululykda bolmagyny üpjün ediň."
                 },
                 "resize": {
-                    "max_width": "",
-                    "title": "",
-                    "toggle": ""
+                    "max_width": "Suratyň iň giňligi / beýikligi",
+                    "title": "Suratyň ölçegi",
+                    "toggle": "Suratlaryň ölçegini üýtgediň"
                 },
                 "client_extension": {
-                    "title": ""
+                    "title": "Ulanyjy tarapyndan üpjün edilen faýl giňeltmeleri"
                 },
                 "watermark": {
-                    "file": "",
-                    "position": "",
-                    "title": "",
+                    "file": "Suw belligi suratyňyzy ýükläň",
+                    "position": "Suw belliginiň ýagdaýy",
+                    "title": "Suw belligi şekilleri",
                     "toggle": ""
                 },
                 "composer_buttons": {
@@ -98,7 +108,9 @@
                 "download_label": "",
                 "upload_label": "",
                 "view_user_uploads_label": "",
-                "delete_uploads_of_others_label": ""
+                "delete_uploads_of_others_label": "",
+                "upload_shared_label": "",
+                "access_shared_label": ""
             },
             "templates": {
                 "file": "",
@@ -111,15 +123,15 @@
                 "markdown-image_description": "",
                 "bbcode-image": "",
                 "bbcode-image_description": "",
-                "just-url": "",
+                "just-url": "Diňe URL",
                 "just-url_description": "",
-                "text-preview": "",
+                "text-preview": "Tekstiň deslapky syn",
                 "text-preview_description": ""
             },
             "upload_methods": {
-                "aws-s3": "",
-                "imgur": "",
-                "local": "",
+                "aws-s3": "S3 / Gabat gelýär",
+                "imgur": "Imgu",
+                "local": "Lokal",
                 "ovh-svfs": "",
                 "qiniu": ""
             },
@@ -138,51 +150,53 @@
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "Mediýa dolandyryjysy",
             "buttons": {
-                "attach": "",
-                "upload": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": ""
-            },
-            "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "hide_file": {
-                    "btn_a11y_label": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "hide_fail": "",
-                    "loading": ""
-                }
+                "attach": "Berkit",
+                "upload": "Ýükle",
+                "upload_shared": "Paýlaşylan",
+                "user_uploads": "Ulanyjy ýüklemeleri",
+                "cancel": "Ýatyr",
+                "media": "Meniň mediýalarym",
+                "shared_media": "Paýlaşylan mediýa"
             },
             "states": {
-                "error": "",
-                "loading": "",
-                "unauthorized": ""
+                "error": "Ýalňyşlyk",
+                "loading": "Ýüklenilýär",
+                "unauthorized": "Size faýllary göçürip almaga rugsat berilmeýär"
             },
             "validation": {
-                "max_size": ""
+                "max_size": "{max} kb-dan ýokary ýüklemeler kabul edilmeýär."
             },
             "text_preview": {
-                "expand": "",
-                "collapse": "",
-                "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
+                "expand": "Öňünden görüşi giňelt",
+                "collapse": "Öňünden görüşi kiçelt",
+                "error": "Faýly öňünden görmek bolmady. Faýl bozulan ýa-da berlen faýl ID-si nädogry bolup biler.\n",
+                "no_snippet_preview": "<deslapky syn goýlandan soň peýda bolar>",
+                "no_snippet": "<deslapky syn bölegi ýok>"
+            },
+            "file_list": {
+                "loading": "Faýllar ýüklenilýär ...",
+                "empty": "Görkeziljek faýllar ýok.",
+                "release_to_upload": "Ýüklemek üçin goýber",
+                "modal_empty_desktop": "Faýl sanawyňyz boş. Ýüklemek üçin düwmä basyň ýa-da şu ýere faýly süýre.",
+                "modal_empty_phone": "Faýl sanawyňyz boş. Faýl ýüklemek üçin ýokardaky düwmä basyň.",
+                "select_file_a11y_label": "Faýly saýla \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Hiç zat saýlanylmadyk} one {Faýly saýla} other {Faýllary saýla}}",
+                "load_more_files_btn": "Has köp faýl ýükle",
+                "hide_file": {
+                    "btn_a11y_label": "Mediýa dolandyryjysyndan \"{fileName}\" faýly gizle",
+                    "hide_confirmation": "\"{fileName}\" faýly gizlemek isleýändigiňize ynamlymysyňyz? Faýly gizlemek ony diňe media dolandyryjyňyzdan aýyrar we bar bolan ýazgylara täsir etmez.",
+                    "hide_success": "Faýl gizlenen",
+                    "hide_fail": "\"{fileName}\" faýly gizläp bolmady",
+                    "loading": "Faýl gizlenilýär..."
+                }
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
-                "unsupported_type": "",
+                "forbidden_type": "Bu görnüşdäki faýllary ýüklemäge gadagan.",
+                "unsupported_type": "Ýüklemek adapteri, berlen mime görnüşini goldamaýar: {mime}.",
                 "could_not_detect_mime": "",
                 "max_upload_file_size_ini": "",
                 "max_upload_file_size_form": "",
@@ -192,6 +206,48 @@
                 "cannot_write_to_disk": "",
                 "upload_blocked_by_php_extension": "",
                 "no_files_made_it_to_upload": ""
+            }
+        },
+        "lib": {
+            "upload-shared-file-modal": {
+                "title": "Täze paýlaşylan faýl",
+                "dropzone": "Faýllary şu ýere süýräň ýa-da göz aýlamak üçin basyň",
+                "hide-from-media-gallery": "Ulanyjynyň media galereýasyndan gizle",
+                "upload": "Ýükle"
+            },
+            "file_list": {
+                "loading": "Faýllar ýüklenilýär...",
+                "empty": "Görkeziljek faýllar ýok.",
+                "release_to_upload": "Ýüklemek üçin goýber",
+                "modal_empty_desktop": "Faýl sanawyňyz boş. Ýüklemek üçin düwmä basyň ýa-da şu ýere faýly süýre.",
+                "modal_empty_phone": "Faýl sanawyňyz boş. Faýl ýüklemek üçin ýokardaky düwmä basyň.",
+                "select_file_a11y_label": "Faýly saýla \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Hiç zat saýlanylmadyk} one {Faýly saýla} other {Faýllary saýla}}",
+                "load_more_files_btn": "Has köp faýl ýükle",
+                "delete_file_a11y_label": "\"{fileName}\" faýly boz",
+                "delete_confirmation": "",
+                "hide_file": {
+                    "btn_a11y_label_hide": "Mediýa dolandyryjysyndan \"{fileName}\" faýly gizle",
+                    "btn_a11y_label_show": "Media dolandyryjysynda \"{fileName}\" görkez",
+                    "hide_confirmation": "\"{fileName}\" gizlemek isleýändigiňize ynamlymysyňyz? Faýly gizlemek ony diňe media dolandyryjyňyzdan aýyrar we bar bolan ýazgylara täsir etmez.",
+                    "hide_success": "Faýl gizlenen",
+                    "show_confirmation": "\"{fileName}\" görkezmek isleýändigiňize ynamlymysyňyz? Faýl media dolandyryjyňyzda görüner.",
+                    "show_success": "Faýl görkezilen",
+                    "hide_fail": "\"{fileName}\" faýly gizläp bolmady",
+                    "show_fail": "\"{fileName}\" faýly görkezip bolmady",
+                    "loading": "Faýl gizlenilýär ..."
+                },
+                "hide_shared_file": {
+                    "btn_a11y_label_hide": "\"{fileName}\" şahsy ediň (açyk URL ýok)",
+                    "btn_a11y_label_show": "\"{fileName}\" köpçülige ýetiriň (açyk URL bar)",
+                    "hide_confirmation": "\"{fileName}\" şahsy etmek isleýändigiňize ynamlymysyňyz? Faýly şahsylaşdyrmak, açyk URL-ni aýyrar, ýöne bar bolan ýazgylara täsir etmez. Mundan başga-da, media dolandyryjysynda rugsatsyz ulanyjylara görünmez.",
+                    "hide_success": "Faýl şahsylaşdyryldy",
+                    "show_confirmation": "\"{fileName}\" köpçülige ýetirmek isleýändigiňize ynamlymysyňyz? Faýly köpçülige açmak, köpçülige açyk URL bolan islendik adam üçin elýeterli bolar we islendik adam media dolandyryjysy arkaly paýlaşyp biler.",
+                    "show_success": "Faýl köpçülige ýetirildi",
+                    "hide_fail": "\"{fileName}\" faýly şahsy edip bolmady",
+                    "show_fail": "\"{fileName}\" faýly köpçülige ýetirip bolmady",
+                    "loading": "Faýl şahsylaşdyrylýar..."
+                }
             }
         }
     }

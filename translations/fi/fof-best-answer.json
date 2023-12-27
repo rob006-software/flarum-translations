@@ -7,7 +7,7 @@
             },
             "settings": {
                 "label": {
-                    "tags": "",
+                    "tags": "Parhaan vastauksen avainsanat",
                     "general": "Yleinen",
                     "reminders": "Muistutukset",
                     "advanced": "Lisäasetukset",
@@ -31,11 +31,11 @@
                 "use_alt_ui": "Toissijainen ulkoasu",
                 "use_alt_ui_help": "Parhaan vastauksen työkalut viestin alaosassa",
                 "documentation": "Dokumentaatio",
-                "enabled_tags_label": "",
-                "enabled_tags_help": "",
-                "remind_tags_label": "",
-                "remind_tags_help": "",
-                "tags_info": "",
+                "enabled_tags_label": "Käytössä olevat avainsanat",
+                "enabled_tags_help": "Valitse mille avainsanoille, jos millekkään, otetaan Parhaat vastaukset käyttöön. Nämä avainsanat muuttuvat \"K&V\" muotoilluiksi avainsanoiksi ja niille on mahdollista asettaa paras vastaus.",
+                "remind_tags_label": "Muistutettavat avainsanat",
+                "remind_tags_help": "Valitse mistä avainsanoista, jos mistään, lähetetään muistutuksia. Muistutukset lähetetään vain näistä avainsanoista.",
+                "tags_info": "Kun avainsanalla on Parhaat vastaukset käytössä, aseta oikeudet joka ryhmälle, jotka voivat asettaa parhaita vastauksia (omat keskustelut, mitkä tahansa keskustelut). Oikeudet voidaan asettaa yleisesti (mille tahansa Parhaat vastaukset avainsanalle) tai avainsanakohtaisesti.\n",
                 "enable_all_tags_button": "Ota käyttöön Parhaat vastaukset kaikille avainsanoille",
                 "enable_all_tags_reminder_button": "Ota käyttöön Parhaiden vastausten muistutukset kaikille avainsanoille",
                 "introduction": "Valitse mitkä avainsanat tukee parhaita vastauksia <code><a>flarum/tags</a></code> osiossa, sekä vaihtoehtoisesti mitkä avainsanat tukeavat muistutuksia. Kun paras vastaus on käytössä, aseta oikeudet ryhmille kuka voi asettaa vastauksen parhaaksi (oma keskustelu, mikä tahansa keskustelu. Oikeudet voi määrittää globaalisti (mihin tahansa parhaan vastauksen hyväksyvään avainsanaan) tai avainsanakohtaisesti.\n"

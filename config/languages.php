@@ -166,9 +166,10 @@ return [
 	'uz' => getComponents(),
 	'vi' => getComponents([
 		// translations included in extension
-		'!litalino/flarum-adblock',
-		'!litalino/flarum-geo-weather-widget',
-		'!litalino/flarum-more-bbcode',
+		'!litalino-adblock',
+		'!litalino-country-flags',
+		'!litalino-geo-weather-widget',
+		'!litalino-more-bbcode',
 		'!xelson-chat',
 	]),
 	'zh_Hans' => getComponents([

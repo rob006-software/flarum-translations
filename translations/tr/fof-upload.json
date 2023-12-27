@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": "Paylaşılan yüklemeler"
+            },
+            "shared-uploads": {
+                "description": "Forumunuzun tüm kullanıcılarının kullanabileceği dosyalar yükleyin.",
+                "introduction": "Paylaşılan yüklemeler, forumunuzun tüm kullanıcıları tarafından kullanılabilen dosyalardır. Herhangi bir gönderiye eklenmezler ancak medya yöneticisi kullanılarak gönderilere eklenebilirler.\n\n<strong>Uyarı:</strong> Paylaşılan yüklemeler hiçbir izinle korunmaz. URL'ye sahip olan herkes bunları görüntüleyebilir.\n",
+                "no-files": "Henüz paylaşılan dosya yüklenmedi.",
+                "title": "Paylaşılan yüklemeler",
+                "upload-new-button": "Yeni dosya yükle"
+            },
             "pane": {
                 "title": "Yükle",
                 "description": "Yükleme hizmetlerini ve tercihlerini ayarlayın."
@@ -98,7 +108,9 @@
                 "download_label": "Dosya indirme",
                 "upload_label": "Dosya yükleme",
                 "view_user_uploads_label": "Kullanıcı yüklemelerini göster",
-                "delete_uploads_of_others_label": "Kullanıcı yüklemelerini silin"
+                "delete_uploads_of_others_label": "Kullanıcı yüklemelerini silin",
+                "upload_shared_label": "Paylaşılan dosyaları yükle",
+                "access_shared_label": "Medya Yöneticisi'nde paylaşılan dosyalara erişim"
             },
             "templates": {
                 "file": "Varsayılan dosya indirme şablonu",
@@ -145,9 +157,26 @@
             "buttons": {
                 "attach": "Dosya Ekle",
                 "upload": "Yükle",
+                "upload_shared": "Paylaşılan",
                 "user_uploads": "Kullanıcı yüklemeleri",
                 "cancel": "İptal",
-                "media": "Medyalarım"
+                "media": "Medyalarım",
+                "shared_media": "Paylaşılan medya"
+            },
+            "states": {
+                "error": "Hata",
+                "loading": "Yükleniyor",
+                "unauthorized": "Dosyaları indirmenize izin verilmiyor"
+            },
+            "validation": {
+                "max_size": "{max} kb üzerindeki yüklemeler kabul edilmez."
+            },
+            "text_preview": {
+                "expand": "Önizlemeyi genişlet",
+                "collapse": "Önizlemeyi daralt",
+                "error": "Dosya önizlenirken hata oluştu. Silinmiş olabilir veya sağlanan dosya kimliği geçersiz.\n",
+                "no_snippet_preview": "<Önizleme yayınlandıktan sonra burada görünecek>",
+                "no_snippet": "<önizleme snippet'i yok>"
             },
             "file_list": {
                 "loading": "Dosyalar yükleniyor...",
@@ -165,21 +194,6 @@
                     "hide_fail": "\"{fileName}\" dosyası gizlenemedi",
                     "loading": "Dosya gizleniyor..."
                 }
-            },
-            "states": {
-                "error": "Hata",
-                "loading": "Yükleniyor",
-                "unauthorized": "Dosyaları indirmenize izin verilmiyor"
-            },
-            "validation": {
-                "max_size": "{max} kb üzerindeki yüklemeler kabul edilmez."
-            },
-            "text_preview": {
-                "expand": "Önizlemeyi genişlet",
-                "collapse": "Önizlemeyi daralt",
-                "error": "Dosya önizlenirken hata oluştu. Silinmiş olabilir veya sağlanan dosya kimliği geçersiz.\n",
-                "no_snippet_preview": "<Önizleme yayınlandıktan sonra burada görünecek>",
-                "no_snippet": "<önizleme snippet'i yok>"
             }
         },
         "api": {
@@ -195,6 +209,48 @@
                 "cannot_write_to_disk": "Diske yazılamıyor.",
                 "upload_blocked_by_php_extension": "Bir php uzantısı yüklemeyi engelledi.",
                 "no_files_made_it_to_upload": "Lütfen {max} kb'den büyük olmayan dosyalar yükleyin."
+            }
+        },
+        "lib": {
+            "upload-shared-file-modal": {
+                "title": "Yeni paylaşılan dosya",
+                "dropzone": "Dosyaları buraya sürükleyip bırakın veya göz atmak için tıklayın",
+                "hide-from-media-gallery": "Kullanıcının medya galerisinden gizle",
+                "upload": "Yükle"
+            },
+            "file_list": {
+                "loading": "Dosyalar yükleniyor...",
+                "empty": "Gönderilecek dosya bulunmuyor.",
+                "release_to_upload": "Yüklemeye hazırla",
+                "modal_empty_desktop": "Dosya listeniz boş. Yüklemek için düğmeye tıklayın veya bir dosyayı buraya sürükleyin.",
+                "modal_empty_phone": "Dosya listeniz boş. Bir dosya yüklemek için yukarıdaki düğmeye dokunun.",
+                "select_file_a11y_label": "\"{fileName}\" dosyasını seçin",
+                "confirm_selection_btn": "{fileCount, plural, =0 {His seçilmedi} one {Dosya seç} other {Dosya seç}}",
+                "load_more_files_btn": "Daha fazla dosya",
+                "delete_file_a11y_label": "\"{fileName}\" dosyasını sil",
+                "delete_confirmation": "\"{fileName}\" dosyasını silmek istediğinizden emin misiniz?",
+                "hide_file": {
+                    "btn_a11y_label_hide": "\"{fileName}\" dosyasını medya yöneticisinden gizle",
+                    "btn_a11y_label_show": "\"{fileName}\" dosyasını medya yöneticisinde erişime aç",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                },
+                "hide_shared_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                }
             }
         }
     }

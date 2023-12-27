@@ -2,29 +2,29 @@
     "datlechin-simple-tour-guide": {
         "admin": {
             "settings": {
-                "show_progress_label": "",
-                "show_progress_help": "",
-                "allow_close_label": "",
-                "allow_close_help": ""
+                "show_progress_label": "Tampilkan kemajuan",
+                "show_progress_help": "Ini akan menyajikan tahapan saat ini dan total tahapan pada bagian atas popover.",
+                "allow_close_label": "Perbolehkan tutup",
+                "allow_close_help": "Perbolehkan penggguna menutup Popover dengan klik pada latar belakang."
             },
             "edit_modal": {
-                "edit_step": "",
-                "create_step": "",
-                "delete_step": "",
-                "delete_step_confirmation": ""
+                "edit_step": "Sunting {title}",
+                "create_step": "Buat tahapan baru",
+                "delete_step": "Hapus tahapan",
+                "delete_step_confirmation": "Anda yakin ingin menghapus tahapan ini?"
             },
-            "title": "",
-            "title_placeholder": "",
-            "description": "",
-            "description_placeholder": "",
-            "target": "",
-            "target_placeholder": ""
+            "title": "Judul",
+            "title_placeholder": "Judul Tahapan.",
+            "description": "Deskripsi",
+            "description_placeholder": "Deskripsi tahapan.",
+            "target": "Sasaran",
+            "target_placeholder": "Elemen target dari tahapan (misal. #elemen-id)."
         },
         "forum": {
-            "progress_text": "",
-            "next_btn_text": "",
-            "prev_btn_text": "",
-            "done_btn_text": ""
+            "progress_text": "{current} dari {total}",
+            "next_btn_text": "Lanjut",
+            "prev_btn_text": "Sebelumnya",
+            "done_btn_text": "Selesai"
         }
     }
 }

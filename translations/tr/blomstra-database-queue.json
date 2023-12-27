@@ -2,17 +2,17 @@
     "blomstra-database-queue": {
         "admin": {
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
-                "refresh": "",
+                "auto_refresh": "Otomatik Yenile",
+                "heading": "Kuyruğa Genel Bakış",
+                "refresh": "Yenile",
                 "data": {
-                    "queue-name": "",
-                    "pending-jobs": "",
-                    "failed-jobs": "",
+                    "queue-name": "Kuyruk",
+                    "pending-jobs": "Bekleyen İşlemler",
+                    "failed-jobs": "Gerçekleşemeyen İşlemler",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "Durum",
+                        "running": "Çalışıyor",
+                        "inactive": "Etkin değil"
                     }
                 }
             }

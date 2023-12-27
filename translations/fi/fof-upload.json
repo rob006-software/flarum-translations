@@ -3,15 +3,25 @@
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Kaikki käyttäjän siirtämät tiedostot.",
+                    "anonymize_description": "Poistaa käyttäjän tiedon siirretyistä tiedostoista. Tiedostot pysyvät saatavilla käyttäjille, jotka pystyivät katsomaan niitä ennen anonymisaatiota.",
+                    "delete_description": "Poistaa kaikki käyttäjän siirtämät tiedostot."
                 }
             }
         }
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": "Jaetut lataukset"
+            },
+            "shared-uploads": {
+                "description": "Ladatut tiedostot mitä foorumin kaikki käyttäjät voivat käyttää.",
+                "introduction": "Jaetut lataukset ovat tiedostoja joita jokainen käyttäjä voi käyttää. Niitä ei ole liitetty mihinkään viestiin, mutta niitä voi laittaa viesteihin käyttämällä median hallintaa.\n\n<strong>Varoitus:</strong> Jaettuja tiedostoja ei suojata millään oikeuksilla. Kuka vain osoitteen saanut voi niitä nähdä.\n",
+                "no-files": "Ei jaettuja tiedostoja siirrettynä.",
+                "title": "Jaetut lataukset",
+                "upload-new-button": "Siirrä uusi tiedosto"
+            },
             "pane": {
                 "title": "Siirrä",
                 "description": "Määritä siirtopalvelut ja asetukset."
@@ -98,7 +108,9 @@
                 "download_label": "Lataa tiedostot",
                 "upload_label": "Siirrä tiedostoja",
                 "view_user_uploads_label": "Nähdä käyttäjän siirrot",
-                "delete_uploads_of_others_label": "Poistaa käyttäjän siirtoja"
+                "delete_uploads_of_others_label": "Poistaa käyttäjän siirtoja",
+                "upload_shared_label": "Siirrä jaettuihin tiedostoihin",
+                "access_shared_label": "Pääsy jaettuihin tiedostoihin median hallinnassa"
             },
             "templates": {
                 "file": "Oletus tiedoston latauspohja",
@@ -142,9 +154,26 @@
             "buttons": {
                 "attach": "Liitä",
                 "upload": "Siirrä",
+                "upload_shared": "Jaettu",
                 "user_uploads": "Käyttäjän siirrot",
                 "cancel": "Peruuta",
-                "media": "Oma Media"
+                "media": "Oma Media",
+                "shared_media": "Jaettu media"
+            },
+            "states": {
+                "error": "Virhe",
+                "loading": "Siirretään",
+                "unauthorized": "Sinulla ei ole oikeutta ladata tiedostoja"
+            },
+            "validation": {
+                "max_size": "Yli {max} kb siirrot eivät ole sallittuja."
+            },
+            "text_preview": {
+                "expand": "Laajenna esikatselu",
+                "collapse": "Pienennä esikatselu",
+                "error": "Virhe tiedoston esikatselussa. Se voi olla poistettu tai annettu tiedoston ID on virheellinen.\n",
+                "no_snippet_preview": "<esikatselu tulee tähän>",
+                "no_snippet": "<ei esikatselua saatavilla>"
             },
             "file_list": {
                 "loading": "Ladataan tiedostoja...",
@@ -162,21 +191,6 @@
                     "hide_fail": "Ei voitu piilottaa tiedostoa \"{fileName}\"",
                     "loading": "Piilotetaan tiedostoa..."
                 }
-            },
-            "states": {
-                "error": "Virhe",
-                "loading": "Siirretään",
-                "unauthorized": "Sinulla ei ole oikeutta ladata tiedostoja"
-            },
-            "validation": {
-                "max_size": "Yli {max} kb siirrot eivät ole sallittuja."
-            },
-            "text_preview": {
-                "expand": "Laajenna esikatselu",
-                "collapse": "Pienennä esikatselu",
-                "error": "Virhe tiedoston esikatselussa. Se voi olla poistettu tai annettu tiedoston ID on virheellinen.\n",
-                "no_snippet_preview": "<esikatselu tulee tähän>",
-                "no_snippet": "<ei esikatselua saatavilla>"
             }
         },
         "api": {
@@ -192,6 +206,48 @@
                 "cannot_write_to_disk": "Levylle ei voida kirjoittaa.",
                 "upload_blocked_by_php_extension": "PHP lisäosa on estetty siirrossa.",
                 "no_files_made_it_to_upload": "Ethän siirrä tiedostoja, jotka ovat isompia kuin {max} kb."
+            }
+        },
+        "lib": {
+            "upload-shared-file-modal": {
+                "title": "Uusi jaettu tiedosto",
+                "dropzone": "Raahaa ja pudota tiedostoja tänne tai klikkaa selataksesi",
+                "hide-from-media-gallery": "Piilota käyttäjän media galleriasta",
+                "upload": "Siirrä"
+            },
+            "file_list": {
+                "loading": "Ladataan tiedostoja...",
+                "empty": "Ei näytettäviä tiedostoja.",
+                "release_to_upload": "Päästä irti siirtääksesi",
+                "modal_empty_desktop": "Tiedostolistasi on tyhjä. Klikkaa painiketta tai raahaa tiedosto tähän siirtääksesi.",
+                "modal_empty_phone": "Tiedostolista on tyhjä. Klikkaa ylläolevaa painiketta siirtääksesi tiedosto.",
+                "select_file_a11y_label": "Valitse tiedosto \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Ei valittuja} one {Valitse tiedosto} other {Valitse tiedostot}}",
+                "load_more_files_btn": "Lataa lisää tiedostoja",
+                "delete_file_a11y_label": "Poista tiedosto \"{fileName}\"",
+                "delete_confirmation": "Haluatko varmasti poistaa tiedoston \"{fileName}\"?",
+                "hide_file": {
+                    "btn_a11y_label_hide": "Piilota \"{fileName}\" median hallinnasta",
+                    "btn_a11y_label_show": "Näytä \"{fileName}\" median hallinnassa",
+                    "hide_confirmation": "Haluatko varmasti piilottaa tiedoston \"{fileName}\"? Piilottaminen vain piilottaa sen median hallinnasta, mutta ei vaikuta olemassaoleviin viesteihin.",
+                    "hide_success": "Piilotettu tiedosto",
+                    "show_confirmation": "Haluatko varmasti näyttää tiedoston \"{fileName}\"? Tiedoston näyttäminen asettaa tiedoston näkyviin median hallintaan.",
+                    "show_success": "Tiedosto näytetty",
+                    "hide_fail": "Ei voitu piilottaa tiedostoa \"{fileName}\"",
+                    "show_fail": "Ei voitu näyttää tiedostoa \"{fileName}\"",
+                    "loading": "Piilotetaan tiedostoa..."
+                },
+                "hide_shared_file": {
+                    "btn_a11y_label_hide": "Aseta \"{fileName}\" yksityiseksi (ei julkista osoitetta)",
+                    "btn_a11y_label_show": "Aseta \"{fileName}\" julkisesti (julkinen osoite)",
+                    "hide_confirmation": "Haluatko varmasti asettaa tiedoston \"{fileName}\" yksityiseksi. Tiedoston asettaminen yksityiseksi poistaa sen julkisen osoitteen, mutta ei vaikuta olemassaoleviin viesteihin. Se myös poistaa tiedoston median hallinnasta käyttäjiltä joilla ei ole pääsyä siihen.",
+                    "hide_success": "Tiedosto asetettu yksityiseksi",
+                    "show_confirmation": "Haluatko varmasti asettaa tiedoston \"{fileName}\" julkisesti? Tiedoston asettaminen julkiseksi sallii siihen pääsyn kaikilta julkisella osoitteella ja kuka vaan voi käyttää sit median hallinnassa.",
+                    "show_success": "Tiedosto asetettu julkiseksi",
+                    "hide_fail": "Ei voitu asettaa tiedostoa \"{fileName}\" yksityiseksi",
+                    "show_fail": "Ei voitu asettaa tiedostoa \"{fileName}\" julkiseksi",
+                    "loading": "Asetetaan tiedostoa yksityiseksi..."
+                }
             }
         }
     }

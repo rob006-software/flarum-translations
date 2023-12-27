@@ -1,121 +1,121 @@
 {
     "v17development-flarum-blog": {
         "admin": {
-            "blog": "",
+            "blog": "ブログ",
             "permissions": {
-                "write_articles": "",
-                "auto_approve_posts": "",
-                "approve_posts": ""
+                "write_articles": "ブログ記事の作成と編集",
+                "auto_approve_posts": "承認なしで記事を投稿する",
+                "approve_posts": "ブログ記事の承認が可能"
             },
             "settings": {
-                "no_categories_selected": "",
-                "selected_category_count": "",
-                "select_categories_button": "",
-                "blog_heading": "",
-                "featured_count_label": "",
-                "featured_count_text": "",
-                "allow_comments_label": "",
-                "allow_comments_text": "",
-                "require_review_label": "",
-                "require_review_text": "",
-                "hide_on_discussion_list_label": "",
-                "hide_on_discussion_list_text": "",
-                "add_sidebar_nav_label": "",
-                "add_sidebar_nav_text": "",
-                "categories_heading": "",
-                "hide_tags_in_taglist_label": "",
-                "hide_tags_in_taglist_text": "",
-                "show_tag_hierarchy_label": "",
-                "show_tag_hierarchy_text": "",
-                "redirects_heading": "",
-                "redirect_articles_label": "",
-                "redirect_articles_text": "",
-                "redirect_tags_label": "",
-                "redirect_tags_text": "",
-                "default_article_image_label": "",
-                "default_article_image_text": "",
-                "add_hero_label": "",
-                "add_hero_text": ""
+                "no_categories_selected": "カテゴリー選択なし",
+                "selected_category_count": "{count, plural, one {あなたは # のカテゴリーを選択しています} other {あなたは # のカテゴリーを選択しています}}",
+                "select_categories_button": "ブログのカテゴリーを選択",
+                "blog_heading": "ブログ",
+                "featured_count_label": "注目記事の最大数",
+                "featured_count_text": "ブログページ上部のグリッドにいくつの記事を表示させますか？",
+                "allow_comments_label": "コメントの許可",
+                "allow_comments_text": "デフォルトでは、ブログ記事へのコメントを許可します。 無効の場合は、ブログ記事ごとに個別に有効にできます。 <b>補足:</b> この設定を変更しても、既存のブログ記事には影響しません。",
+                "require_review_label": "ブログ記事は承認が必要",
+                "require_review_text": "記事を投稿する際、直接公開することはできず、モデレーターによる承認が必要です。",
+                "hide_on_discussion_list_label": "ディスカッションリストに表示しない",
+                "hide_on_discussion_list_text": "ディスカッションリストからブログ記事を隠す。",
+                "add_sidebar_nav_label": "サイドバーのナビゲーションに追加",
+                "add_sidebar_nav_text": "サイドバーのナビメニューにブログへのリンクを設置する。",
+                "categories_heading": "カテゴリー",
+                "hide_tags_in_taglist_label": "タグリストに表示しない",
+                "hide_tags_in_taglist_text": "この拡張機能を有効にすると、ホームページでブログタグが非表示になります。",
+                "show_tag_hierarchy_label": "タグ階層を表示する",
+                "show_tag_hierarchy_text": "子カテゴリーにスペースを追加すると、カテゴリーリストに階層を付与できます。",
+                "redirects_heading": "リダイレクト",
+                "redirect_articles_label": "ブログ記事のリダイレクト",
+                "redirect_articles_text": "この拡張機能を有効にすると、オリジナルのディスカッションのURLをブログのURLにリダイレクトします。",
+                "redirect_tags_label": "ブログタグをリダイレクト",
+                "redirect_tags_text": "この拡張機能を有効にすると、ブログタグのURLをブログカテゴリーのURLにリダイレクトします。",
+                "default_article_image_label": "記事のデフォルト背景画像",
+                "default_article_image_text": "画像が設定されていない場合に表示するデフォルトの記事背景を選択します。",
+                "add_hero_label": "ウェルカムバナーを表示",
+                "add_hero_text": "ブログページにウェルカムバナーを表示する。"
             }
         },
         "forum": {
-            "blog": "",
-            "read_more": "",
-            "hidden": "",
-            "recent_posts": "",
-            "categories": "",
-            "forum_nav": "",
-            "return_to_overview": "",
-            "no_more_posts": "",
-            "category_empty": "",
+            "blog": "ブログ",
+            "read_more": "さらに読む",
+            "hidden": "隠す",
+            "recent_posts": "最近のブログ記事",
+            "categories": "カテゴリー",
+            "forum_nav": "フォーラムナビ",
+            "return_to_overview": "ブログ概要へ戻る ",
+            "no_more_posts": "ブログ投稿は以上です。",
+            "category_empty": "このカテゴリーにはブログ記事がありません。",
             "compose": {
-                "write_article": ""
+                "write_article": "記事を書く"
             },
             "validation": {
-                "missing_id": ""
+                "missing_id": "不明なID"
             },
             "article": {
-                "title": "",
-                "slug": "",
-                "summary": ""
+                "title": "タイトル",
+                "slug": "スラッグ",
+                "summary": "要約"
             },
             "comment_section": {
-                "comments": "",
-                "locked": ""
+                "comments": "コメント",
+                "locked": "この記事のコメント欄は無効です"
             },
             "review_article": {
-                "pending_review_title": "",
-                "pending_review": "",
-                "approve_article": "",
-                "approve_article_approved": ""
+                "pending_review_title": "未承認",
+                "pending_review": "この記事は未承認でまだ公開されていません",
+                "approve_article": "記事を承認する",
+                "approve_article_approved": "記事が承認され公開されました"
             },
             "tools": {
-                "rename_article": "",
-                "edit_article": "",
-                "update_category": "",
-                "article_settings": "",
-                "approve_article": "",
-                "hide_article": "",
-                "recover_article": "",
-                "delete_forever": "",
-                "enable_comments": "",
-                "disable_comments": ""
+                "rename_article": "記事名を変更",
+                "edit_article": "記事を編集",
+                "update_category": "カテゴリーを更新",
+                "article_settings": "記事設定",
+                "approve_article": "記事を承認",
+                "hide_article": "記事を非表示",
+                "recover_article": "記事を復元する",
+                "delete_forever": "完全に削除",
+                "enable_comments": "コメントを許可",
+                "disable_comments": "コメントを無効化"
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "私たちのブログ記事へリダイレクト...",
+                    "link": "リダイレクトされない場合は<a>こちら</a>をクリックしてください"
                 }
             },
             "composer": {
-                "no_title": "",
-                "enter_message_here": "",
-                "post_article": "",
-                "select_category": "",
-                "edit_categories": "",
-                "update_settings": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "comment_section": "",
-                "no_blog_tags_selected": "",
-                "post_without_blog_info": ""
+                "no_title": "無題",
+                "enter_message_here": "ここにメッセージを入力してください",
+                "post_article": "記事を投稿する",
+                "select_category": "カテゴリーを選択",
+                "edit_categories": "カテゴリーを編集",
+                "update_settings": "ブログ設定を更新",
+                "write": "書く",
+                "view": "見る",
+                "nothing_to_preview": "プレビューはありません",
+                "comment_section": "コメント欄は記事作成時には利用できません。",
+                "no_blog_tags_selected": "選択されたタグはどれもブログタグではありません。少なくともブログタグを1つ選択してください。",
+                "post_without_blog_info": "このブログ記事を投稿してよろしいですか？まだブログの概要や画像を入力していません。"
             },
             "article_settings": {
-                "title": "",
+                "title": "ブログ投稿設定",
                 "fields": {
                     "summary": {
-                        "title": "",
-                        "placeholder": "",
-                        "helper_text": ""
+                        "title": "記事要約",
+                        "placeholder": "要約を入力してください",
+                        "helper_text": "この要約はブログの概要ページに表示され、SEOの目的で使用されます。"
                     },
                     "image": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "記事の画像",
+                        "helper_text": "メディアに最適な画像解像度: 1200x630"
                     },
                     "highlight": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "注目の投稿",
+                        "helper_text": "ブログの概要ページでこの記事を大きく表示する。"
                     }
                 }
             }

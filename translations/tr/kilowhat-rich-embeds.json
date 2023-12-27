@@ -19,6 +19,9 @@
                     "vertical": "Dikey",
                     "horizontal": "Yatay"
                 },
+                "maxImageCount": "Önizlemedeki maksimum resim sayısı",
+                "maxImageCountHelp": "Opengraph'tan veya geri dönüş ayrıştırıcısından kaç resim gösterilecek. Tüm resim URL'leri her zaman kaydedilir ve bu ayarı daha sonra değiştirmenize olanak tanır.\n",
+                "maxImageCountPlaceholder": "Sınırsız kullanım için boş bırakın",
                 "imageProxy": "OpenGraph Görüntü Proxy'si",
                 "imageProxyHelp": "Tüm OpenGraph ve favicon görüntüleri, ziyaretçi tarayıcısı tarafından alınmak yerine Flarum aracılığıyla proxy'ye alınacaktır",
                 "cacheProxy": "Proxy'li görüntüleri önbelleğe alın",
@@ -129,10 +132,10 @@
                         }
                     },
                     "pull": {
-                        "type": "",
+                        "type": "Çekme isteği",
                         "stats": {
-                            "commentCount": "",
-                            "reviewCount": "",
+                            "commentCount": "Yorumlar",
+                            "reviewCount": "İncelemeler",
                             "commitCount": "",
                             "createdAt": ""
                         }

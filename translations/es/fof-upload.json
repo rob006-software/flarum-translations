@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Subir",
                 "description": "Configure los servicios y preferencias de carga."
@@ -98,7 +108,9 @@
                 "download_label": "Descargar archivos",
                 "upload_label": "Subir archivos",
                 "view_user_uploads_label": "Ver las subidas de los usuarios",
-                "delete_uploads_of_others_label": "Eliminar las subidas de los usuarios"
+                "delete_uploads_of_others_label": "Eliminar las subidas de los usuarios",
+                "upload_shared_label": "",
+                "access_shared_label": ""
             },
             "templates": {
                 "file": "Plantilla de descarga de archivos predeterminada",
@@ -142,9 +154,26 @@
             "buttons": {
                 "attach": "Adjuntar",
                 "upload": "Subir",
+                "upload_shared": "",
                 "user_uploads": "Subidas de usuarios",
                 "cancel": "Cancelar",
-                "media": "Mis medios"
+                "media": "Mis medios",
+                "shared_media": ""
+            },
+            "states": {
+                "error": "Error",
+                "loading": "Subiendo",
+                "unauthorized": "No está autorizado a descargar archivos"
+            },
+            "validation": {
+                "max_size": "No se aceptan subidas de más de {max} kb."
+            },
+            "text_preview": {
+                "expand": "Ampliar vista previa",
+                "collapse": "Ocultar vista previa",
+                "error": "Error al previsualizar el archivo. Es posible que se haya eliminado o que el ID de archivo proporcionado no sea válido.\n",
+                "no_snippet_preview": "<la vista previa aparecerá aquí después de la publicación>",
+                "no_snippet": "<no hay fragmento de vista previa disponible>"
             },
             "file_list": {
                 "loading": "Cargando archivos...",
@@ -162,21 +191,6 @@
                     "hide_fail": "No se pudo ocultar el archivo \"{fileName}\"",
                     "loading": "Ocultando el archivo..."
                 }
-            },
-            "states": {
-                "error": "Error",
-                "loading": "Subiendo",
-                "unauthorized": "No está autorizado a descargar archivos"
-            },
-            "validation": {
-                "max_size": "No se aceptan subidas de más de {max} kb."
-            },
-            "text_preview": {
-                "expand": "Ampliar vista previa",
-                "collapse": "Ocultar vista previa",
-                "error": "Error al previsualizar el archivo. Es posible que se haya eliminado o que el ID de archivo proporcionado no sea válido.\n",
-                "no_snippet_preview": "<la vista previa aparecerá aquí después de la publicación>",
-                "no_snippet": "<no hay fragmento de vista previa disponible>"
             }
         },
         "api": {
@@ -192,6 +206,48 @@
                 "cannot_write_to_disk": "",
                 "upload_blocked_by_php_extension": "",
                 "no_files_made_it_to_upload": ""
+            }
+        },
+        "lib": {
+            "upload-shared-file-modal": {
+                "title": "",
+                "dropzone": "",
+                "hide-from-media-gallery": "",
+                "upload": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "delete_file_a11y_label": "",
+                "delete_confirmation": "",
+                "hide_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                },
+                "hide_shared_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                }
             }
         }
     }

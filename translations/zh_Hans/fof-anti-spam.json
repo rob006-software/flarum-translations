@@ -2,18 +2,18 @@
     "fof-anti-spam": {
         "admin": {
             "permissions": {
-                "spamblock_users_label": ""
+                "spamblock_users_label": "将用户标记为垃圾邮件发送者"
             },
             "settings": {
-                "button": "",
+                "button": "设置",
                 "default-actions": {
-                    "delete_user_label": "",
-                    "delete_user_help": "",
-                    "delete_discussions_label": "",
-                    "delete_discussions_help": "",
-                    "delete_posts_label": "",
-                    "delete_posts_help": "",
-                    "heading": "",
+                    "delete_user_label": "删除用户",
+                    "delete_user_help": "永久删除该账号，删除后，此帐号将停用。",
+                    "delete_discussions_label": "删除讨论",
+                    "delete_discussions_help": "这将永久删除此用户发起的所有讨论。禁用后，讨论将被软删除。",
+                    "delete_posts_label": "删除帖子",
+                    "delete_posts_help": "这将永久删除该用户发布的所有帖子。禁用后，帖子将被软删除。",
+                    "heading": "默认审核操作",
                     "introduction": "",
                     "move_discussions_to_tags_label": "",
                     "move_discussions_to_tags_help": ""

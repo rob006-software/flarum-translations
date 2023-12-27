@@ -4,25 +4,25 @@
             "settings": {
                 "providers": {
                     "clerk": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": "",
-                        "oauth_domain_label": ""
+                        "description": "Зареєструйте свій форум у Clerk SSO {link}",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "oauth_domain_label": "Домен вашого додатку Clerk (clerk.xxx.com або xxx.clerk.accounts.dev)"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_clerk_button": ""
+                "with_clerk_button": "Увійдіть в систему за допомогою Clerk"
             },
             "providers": {
-                "clerk": ""
+                "clerk": "=> fof-oauth.lib.providers.clerk"
             }
         },
         "lib": {
             "providers": {
-                "clerk": ""
+                "clerk": "Clerk"
             }
         }
     }

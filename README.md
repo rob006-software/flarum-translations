@@ -1086,6 +1086,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`kyrne-websocket`](https://weblate.rob006.net/projects/flarum/kyrne-websocket) | [`kyrne/websocket`](https://github.com/KyrneDev/websocket) |
 | [`kyrne-whisper`](https://weblate.rob006.net/projects/flarum/kyrne-whisper) | [`kyrne/whisper`](https://github.com/KyrneDev/whisper) |
 | [`litalino-adblock`](https://weblate.rob006.net/projects/flarum/litalino-adblock) | [`litalino/flarum-adblock`](https://github.com/Litalino/flarum-adblock) |
+| [`litalino-country-flags`](https://weblate.rob006.net/projects/flarum/litalino-country-flags) | [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags) |
 | [`litalino-geo-weather-widget`](https://weblate.rob006.net/projects/flarum/litalino-geo-weather-widget) | [`litalino/flarum-geo-weather-widget`](https://github.com/Litalino/flarum-geo-weather-widget) |
 | [`litalino-more-bbcode`](https://weblate.rob006.net/projects/flarum/litalino-more-bbcode) | [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode) |
 | [`littlecxm-reply-to-see`](https://weblate.rob006.net/projects/flarum/littlecxm-reply-to-see) | [`littlecxm/flarum-reply-to-see`](https://github.com/littlecxm/flarum-reply-to-see) |
@@ -1135,6 +1136,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`sycho-force-password-reset`](https://weblate.rob006.net/projects/flarum/sycho-force-password-reset) | [`sycho/flarum-force-password-reset`](https://github.com/SychO9/flarum-force-password-reset) |
 | [`sycho-github-milestone`](https://weblate.rob006.net/projects/flarum/sycho-github-milestone) | [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone) |
 | [`sycho-move-posts`](https://weblate.rob006.net/projects/flarum/sycho-move-posts) | [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts) |
+| [`sycho-private-facade`](https://weblate.rob006.net/projects/flarum/sycho-private-facade) | [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade) |
 | [`sycho-profile-cover`](https://weblate.rob006.net/projects/flarum/sycho-profile-cover) | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) |
 | [`the-turk-diff`](https://weblate.rob006.net/projects/flarum/the-turk-diff) | [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff) |
 | [`the-turk-flamoji`](https://weblate.rob006.net/projects/flarum/the-turk-flamoji) | [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji) |
@@ -1215,10 +1217,8 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`kilowhat-rich-embeds`](https://weblate.rob006.net/projects/flarum/kilowhat-rich-embeds) | [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds) |
 | [`kilowhat-wordpress`](https://weblate.rob006.net/projects/flarum/kilowhat-wordpress) | [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress) |
 | [`maicol07-oidc-client`](https://weblate.rob006.net/projects/flarum/maicol07-oidc-client) | [`maicol07/flarum-oidc-client`](https://extiverse.com/extension/maicol07/flarum-oidc-client) |
-| [`sycho-private-facade`](https://weblate.rob006.net/projects/flarum/sycho-private-facade) | [`sycho/flarum-private-facade`](https://extiverse.com/extension/sycho/flarum-private-facade) |
 | [`v17development-support`](https://weblate.rob006.net/projects/flarum/v17development-support) | [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support) |
 | [`ziiven-decoration-store`](https://weblate.rob006.net/projects/flarum/ziiven-decoration-store) | [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store) |
 | [`ziiven-pay-to-see`](https://weblate.rob006.net/projects/flarum/ziiven-pay-to-see) | [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see) |
-| [`ziiven-raffle-ticket`](https://weblate.rob006.net/projects/flarum/ziiven-raffle-ticket) | [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket) |
 
 <!-- premium-extensions-list-stop -->

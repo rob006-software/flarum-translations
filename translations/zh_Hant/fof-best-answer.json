@@ -34,8 +34,8 @@
                 "enabled_tags_label": "啟用標籤",
                 "enabled_tags_help": "選擇要為其啟用最佳答案的標籤（如果有）。 這些標籤將成為「問答」格式的標籤，並且能夠設定最佳答案。",
                 "remind_tags_label": "提醒標籤",
-                "remind_tags_help": "",
-                "tags_info": "",
+                "remind_tags_help": "選擇要為其發送提醒的標籤（如果有）。提醒只會發送用於與這些標籤的討論。",
+                "tags_info": "當標籤啟用最佳答案時，向可以設定答案的每個使用者群組分配權限（自己的討論、任何討論）。 權限可以全域分配（對於任何支援最佳答案的標籤），也可以基於每個標籤分配。\n",
                 "enable_all_tags_button": "為所有標籤啟用最佳回覆",
                 "enable_all_tags_reminder_button": "為所有標籤啟用提醒功能",
                 "introduction": "你需要前往 <code><a>flarum/tags</a></code> 為特定標簽開啟最佳回覆和提醒功能。你可以在「權限」頁面為全局或特定標簽設置最佳回覆的操作權限。\n"

@@ -22,10 +22,10 @@
             },
             "page": {
                 "cdn": {
-                    "title": "",
-                    "help": "",
-                    "label": "",
-                    "default-url": ""
+                    "title": "CDN",
+                    "help": "Oletuksena reaktioiden tiedostot jaetaan Cloudflaren CDN:n kautta. Voit myös asettaa minkä tahansa muun CDN:n osoitteen \nmikäli on tarve. <code>[codepoint]</code> korvataan emojin koodilla.\n\nEsimerkiksi jos käytetään Noto Emojia jsdelivr kautta, syötä <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Tätä kentää EI SAA koskaan jättää tyhjäksi.\n",
+                    "label": "URL",
+                    "default-url": "Oletus: {url}"
                 },
                 "reactions": {
                     "title": "Muokatut reaktiot",
@@ -44,7 +44,7 @@
                 },
                 "settings": {
                     "react_own_posts_help": "Kun käytössä, oikeuden kohde, käyttäjät voivat reagoida omiin viesteihin foorumilla. Ottaaksesi pois käytöstä käyttäjien omiin viesteihin reagoinnin ota tämä asetus pois päältä.",
-                    "react_own_posts_label": "Käyttäjät voivat reagoida omiin viesteihin",
+                    "react_own_posts_label": "Käyttäjät voivat reagoida omiin viesteihin,",
                     "allow-anonymous": "Salli tuntemattomien (vieraiden) reaktiot",
                     "allow-anonymous-help": "Jos käytössä vieraat ja tuntemattomat käyttäjät voivat reagoida viesteihin. Huomioi, että tuntemattomat reaktiot eivät linkity käyttäjän profiiliin ja ne listataan reaktio listaan.",
                     "save_settings": "Tallenna asetukset",

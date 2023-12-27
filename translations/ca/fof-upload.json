@@ -3,15 +3,25 @@
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Tots els fitxers pujats per l'usuari.",
+                    "anonymize_description": "Elimina la referència a l'usuari dels fitxers pujats. Els fitxers segueixen sent accessibles per als usuaris que podien veure'ls abans de fer-los anònims.",
+                    "delete_description": "Esborrar tots els fitxers pujats per l'usuari."
                 }
             }
         }
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": "Fitxers pujats compartits"
+            },
+            "shared-uploads": {
+                "description": "Fitxers pujats que poden ser usats per tots els usuaris del fòrum.",
+                "introduction": "Els fitxers pujats compartits són fitxers que poden ser utilitzats per tots els usuaris del fòrum. No s'adjunten a cap publicació, però es poden inserir en publicacions mitjançant el gestor de mitjans.\n\n<strong>Avís:</strong> els fitxers pujats compartits no estan per cap permís. Qualsevol persona amb l'URL pot veure'ls.\n",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "",
                 "description": ""
@@ -98,7 +108,9 @@
                 "download_label": "",
                 "upload_label": "",
                 "view_user_uploads_label": "",
-                "delete_uploads_of_others_label": ""
+                "delete_uploads_of_others_label": "",
+                "upload_shared_label": "",
+                "access_shared_label": ""
             },
             "templates": {
                 "file": "",
@@ -142,26 +154,11 @@
             "buttons": {
                 "attach": "",
                 "upload": "",
+                "upload_shared": "",
                 "user_uploads": "",
                 "cancel": "",
-                "media": ""
-            },
-            "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "hide_file": {
-                    "btn_a11y_label": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "hide_fail": "",
-                    "loading": ""
-                }
+                "media": "",
+                "shared_media": ""
             },
             "states": {
                 "error": "",
@@ -192,6 +189,48 @@
                 "cannot_write_to_disk": "",
                 "upload_blocked_by_php_extension": "",
                 "no_files_made_it_to_upload": ""
+            }
+        },
+        "lib": {
+            "upload-shared-file-modal": {
+                "title": "",
+                "dropzone": "",
+                "hide-from-media-gallery": "",
+                "upload": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "delete_file_a11y_label": "",
+                "delete_confirmation": "",
+                "hide_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                },
+                "hide_shared_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                }
             }
         }
     }

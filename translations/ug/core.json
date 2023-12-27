@@ -2,752 +2,752 @@
     "core": {
         "admin": {
             "appearance": {
-                "colored_header_label": "",
-                "colors_heading": "",
-                "colors_primary_label": "",
-                "colors_secondary_label": "",
-                "colors_text": "",
-                "custom_footer_heading": "",
-                "custom_footer_text": "",
-                "custom_header_heading": "",
-                "custom_header_text": "",
-                "custom_styles_cannot_use_less_features": "",
-                "custom_styles_heading": "",
-                "custom_styles_text": "",
-                "dark_mode_label": "",
-                "description": "",
-                "edit_css_button": "",
-                "edit_footer_button": "",
-                "edit_header_button": "",
-                "enter_hex_message": "",
-                "favicon_heading": "",
-                "favicon_text": "",
-                "logo_heading": "",
-                "logo_text": "",
-                "title": ""
+                "colored_header_label": "رەڭلىك ماۋزۇ",
+                "colors_heading": "رەڭلەر",
+                "colors_primary_label": "ئاساسىي رەڭ",
+                "colors_secondary_label": "ئىككىنجى رەڭ",
+                "colors_text": "مۇنبىرىڭىزنىڭ تېمىسىغا ئىككى رەڭ تاللاڭ. بىرىنجى رەڭ مەزمۇنلارنى يورۇتۇشقا، ئىككىنجى رەڭ ئارقا كۆرۆنۈشنى بېزەشكە ئىشىلتىلدۇ.",
+                "custom_footer_heading": "خاسلاشتۇرۇلغان بەت ئاستى",
+                "custom_footer_text": "=> core.ref.custom_footer_text",
+                "custom_header_heading": "خاسلاشتۇرۇلغان ماۋزۇ",
+                "custom_header_text": "=> core.ref.custom_footer_text",
+                "custom_styles_cannot_use_less_features": "ئېمپورتلاش ۋە ساندان ئادرېس ئىقتىدارلىرىنى خاسلاشتۇرۇشقا بولمايدۇ.",
+                "custom_styles_heading": "خاسلاشتۇرۇلغان ئۇسلۇب",
+                "custom_styles_text": "مۇنبىرىڭىزنىڭ كۆرۈنۈشىنى ئۆزىڭىزنىڭ LESS/CSS كودىنى فىلارۇمنىڭ ئەسلىدىكى ئۇسلۇبىنىڭ بېشىغا قوشۇش ئارقىلىق خاسلاشتۇرۇڭ.",
+                "dark_mode_label": "قاراڭغۇ شەكىل",
+                "description": "مۇنبىرىڭىزنىڭ رەڭلىرىنى، بەلگىسىنى ۋە باشقا يەرلىرىنى خاسلاشتۇرۇڭ.",
+                "edit_css_button": "شەخسىي CSS تەھرىرلەش",
+                "edit_footer_button": "=> core.ref.custom_footer_text",
+                "edit_header_button": "=> core.ref.custom_footer_text",
+                "enter_hex_message": "16لىق سېستىمىدا رەڭنىڭ كودىنى كىرگۈزۈڭ.",
+                "favicon_heading": "ياقتۇرغان سىنبەلگە",
+                "favicon_text": "مۇنبەرنىڭ تېزلەتمە كونۇپكىسىغا بىر سۈرەت يوللاڭ.",
+                "logo_heading": "بەلگە",
+                "logo_text": "مۇنبەر ئىسمىگە بىر سۈرەت يوللاڭ.",
+                "title": "كۆرۈنۈشى"
             },
             "basics": {
-                "all_discussions_label": "",
-                "default_language_heading": "",
-                "description": "",
-                "display_name_heading": "",
-                "display_name_text": "",
-                "forum_description_heading": "",
-                "forum_description_text": "",
-                "forum_title_heading": "",
-                "home_page_heading": "",
-                "home_page_text": "",
-                "show_language_selector_label": "",
-                "slug_driver_heading": "",
-                "slug_driver_text": "",
-                "title": "",
-                "welcome_banner_heading": "",
-                "welcome_banner_text": ""
+                "all_discussions_label": "=> core.ref.custom_footer_text",
+                "default_language_heading": "كۆڭۈلدىكى تىل",
+                "description": "مۇنبىرىڭىزنىڭ ئىسمى، تىلى ۋە باشقا ئاساسلىق تەڭشەكلىرىنى بەلگىلەڭ.",
+                "display_name_heading": "قوللانچى ئېكران نامى",
+                "display_name_text": "قوللانچىنىڭ ئېكران نامى ئۈچۈن ئىشىلتىلدىغان ئۇچۇرنى تاللاڭ. ئادەتتە قوللانچى ئىسمى كۆرسىتىلدۇ.",
+                "forum_description_heading": "مۇنبەر ھەققىدە",
+                "forum_description_text": "جەمئىيتىڭىز ھەققىدە قىسقا بىر-ئىككى جۈملە چۈشەنچە يېزىڭ. بۇ تور ئىزدەش ماتورىنىڭ نەتىجىسىدە كۆرۈنىدۇ.",
+                "forum_title_heading": "مۇنبەر نامى",
+                "home_page_heading": "باش بەت",
+                "home_page_text": "قوللانچىلارغا بىرىنجى بولۇپ كۆرۈندىغان بەتنى تاللاڭ.",
+                "show_language_selector_label": "تىل تاللىغۇچنى كۆرسىتىش",
+                "slug_driver_heading": "تور ئادرېسى ھاسىل قىلغۇچ:{model}",
+                "slug_driver_text": "بۇ مودېل ئۈچۈن ئىشىلتىلدىغان تور ئادرېسى ھاسىل قىلغۇچنى تاللاڭ.",
+                "title": "ئاساسلار",
+                "welcome_banner_heading": "قارشى ئېلىش لوزۇنكىسى",
+                "welcome_banner_text": "بارلىق تېمىلار بېتىدە كۆرۈندىغان لوزۇنكا مەزمۇنىنى كىرگۈزۈڭ. بۇنىڭ بىلەن زىيارەتچىلەرنى قارشى ئېلىڭ."
             },
             "create_user": {
-                "email_placeholder": "",
-                "email_confirmed_label": "",
-                "password_placeholder": "",
-                "submit_and_create_another_button": "",
-                "submit_button": "",
-                "title": "",
-                "use_random_password": "",
-                "username_placeholder": ""
+                "email_placeholder": "=> core.ref.email",
+                "email_confirmed_label": "قوللانچىدىن ئېلخەت ئادرېسىنى مۇقىملاش تەلەپ قىلىندۇ",
+                "password_placeholder": "=> core.ref.password",
+                "submit_and_create_another_button": "تۇرغۇزۇش ۋە يەنە بىرنى كىرگۈزۈش",
+                "submit_button": "قوللانچى تۇرغۇزۇش",
+                "title": "يېڭى قوللانچى تۇرغۇزۇش",
+                "use_random_password": "يېڭى مەخپىي نومۇر ھاسىل قىلىش",
+                "username_placeholder": "=> core.ref.username"
             },
             "dashboard": {
-                "clear_cache_button": "",
-                "description": "",
-                "io_error_message": "",
+                "clear_cache_button": "ۋاقىتلىق ھۆججەتلەرنى ئۆچۈرۈش",
+                "description": "مۇنبىرىڭىزنىڭ بىر قاراشتا.",
+                "io_error_message": "دېسكىغا يازغىلى بولمىدى. يېزىش ھوقۇقىڭىزنى تەكشۈرۈپ ئاندىن قايتا سىناڭ ياكى تېرمىنالدىن بۇيرۇق بېرىپ سىناپ بېقىڭ.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "scheduler-status": "جەدۋەل",
+                        "queue-driver": "ئۆچرەت باشقۇرۇش دېتالى",
+                        "session-driver": "ۋاقىت دېتالى"
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "ئاكىتىپ",
+                        "inactive": "جانسىز",
+                        "never-run": "قەتئىي قوزغالما"
                     }
                 },
-                "title": "",
-                "tools_button": ""
+                "title": "باشقۇرۇش تاختىسى",
+                "tools_button": "ئەسۋابلار"
             },
             "debug-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "<code>debug</code> ھالىتىدە، فلارۇم <code>JavaScript</code> ۋە <code>CSS</code> كودلىرىنى ھەر بىر بەت ئېچىلغاندا بىر قېتىم كومپايىللايدۇ ۋە بەزى ئۇچۇرلار ئاشكارلىنىپ كېتىشى مۇمكىن. مەسلەن ساندان مەخپىيەتلىكى، تەڭشەكلەر قاتارلىقلار.\n\n<code>debug</code> ھالىتىنى <code>config.php</code> ھۆججىتىدىن ئېتىۋېتىش تەۋسىيە قىلىندۇ. بۇ ئۇلىنىشتىن <link>Flarum docs</link> تەپسىلىي ئۇچۇرلارغا ئېرىشەلەيسىز.\n",
+                "label": "چاتاق ئىزدەش ھالىتى ئوچۇق"
             },
             "edit_css": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "مۇنبىرىڭىزنىڭ كۆرۈنۈشلىرىنى فىلارۇمنىڭ <a>ئەسلىدىكى ئۇسلۇبلىرى</a>نىڭ بېشىغا Less/CSS كودلارنى قوشۇش ئارقىلىق خاسلاشتۇرۇڭ.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "خاسلاشتۇرۇلغان CSS نى تەھرىرلەش"
             },
             "edit_footer": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "=> core.ref.custom_footer_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
             },
             "edit_group": {
-                "color_label": "",
-                "delete_button": "",
-                "delete_confirmation": "",
-                "hide_label": "",
-                "icon_label": "",
-                "icon_text": "",
-                "name_label": "",
-                "plural_placeholder": "",
-                "singular_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "color_label": "=> core.ref.color",
+                "delete_button": "گۇرۇپپىنى ئۆچۈرۈش",
+                "delete_confirmation": "بۇ گۇرۇپنى راستتىنلا ئۆچۈرەمسىز؟ گۇرۇپپىنىڭ ئەزالىرى ئۆچۈرۈلمەيدۇ.",
+                "hide_label": "مۇنبەرنى يوشۇرۇش",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "ئىسمى",
+                "plural_placeholder": "كۆپلۈك (مەسلەن، مودلار)",
+                "singular_placeholder": "بىرلىك (مەسلەن، مود)",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "گۇرۇپپا قۇرۇش"
             },
             "edit_header": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
             },
             "email": {
-                "addresses_heading": "",
-                "description": "",
-                "driver_heading": "",
-                "driver_label": "",
-                "from_label": "",
-                "mail_encryption_label": "",
-                "mail_host_label": "",
-                "mail_mailgun_domain_label": "",
-                "mail_mailgun_region_label": "",
-                "mail_mailgun_secret_label": "",
-                "mail_password_label": "",
-                "mail_port_label": "",
-                "mail_username_label": "",
-                "mailgun_heading": "",
-                "not_sending_message": "",
-                "send_test_mail_button": "",
-                "send_test_mail_heading": "",
-                "send_test_mail_success": "",
-                "send_test_mail_text": "",
-                "smtp_heading": "",
-                "title": ""
+                "addresses_heading": "ئادرېسلار",
+                "description": "مۇنبىرىڭىز ئېلىكترونلۇق يوللانما يوللاشقا ئىشىلتىدىغان قوزغاتقۇچى پروگرامما، تەڭشەك ۋە ئادرېسلارنى كىرگۈزۈڭ.",
+                "driver_heading": "قوزغاتقۇچى پروگراممىنى تاللاڭ",
+                "driver_label": "قوزغاتقۇچى پروگرامما",
+                "from_label": "يوللىغۇچى",
+                "mail_encryption_label": "سىفىرلاش",
+                "mail_host_label": "مۇلازىمىتىر",
+                "mail_mailgun_domain_label": "تور نامى",
+                "mail_mailgun_region_label": "رايون",
+                "mail_mailgun_secret_label": "مەخپىي نومۇر",
+                "mail_password_label": "=> core.ref.password",
+                "mail_port_label": "پورت",
+                "mail_username_label": "=> core.ref.username",
+                "mailgun_heading": "Mailgun تەڭشەكلىرى",
+                "not_sending_message": "فلارۇم ھازىر ئېلىكترونلۇق يوللانما يوللىمايدۇ. بۇنىڭ سەۋەبى تاللانغان قوزغاتقۇچى پروگرامما ياكى تەڭشەكلەردىكى خاتالىق بولۇشى مۇمكىن.",
+                "send_test_mail_button": "يوللاش",
+                "send_test_mail_heading": "سىناق يوللانما يوللاش",
+                "send_test_mail_success": "سىناق يوللانما مۇۋەپپىقىيەتلىك يوللاندى!",
+                "send_test_mail_text": "بۇ سىزنىڭ ئېلىكترونلۇق يوللانما {email} ئادرېسىڭىزغا يۇقىرقى تەڭشەكلەرنى ئىشىلتىپ بىر خەت يوللايدۇ.",
+                "smtp_heading": "SMTP تەڭشەكلەر",
+                "title": "=> core.ref.email"
             },
             "extension": {
-                "configure_scopes": "",
-                "confirm_purge": "",
-                "disabled": "",
-                "enable_to_see": "",
-                "enabled": "",
+                "configure_scopes": "ھوقۇقلارنى تەڭشەش",
+                "confirm_purge": "تازىلاش كېڭەيتمە بىلەن باغلىق بولغان بارلىق مەلۇماتلارنى ئۆچۈرۈپ تاشلايدۇ. ئۇ كېڭەيتمىنى ئېلىپ تاشلىمايدۇ؛ ئۇنىڭ ئۈچۈن كېڭەيتمە باشقۇرغۇچىسىنى ئىشىلتىش كېرەك. داۋاملاشتۇرامسىز؟",
+                "disabled": "توختىتىلغان",
+                "enable_to_see": "تەڭشەكلەرنى كۆرۈش ۋە ئۆزگەرتىش ئۈچۈن كېڭەيتمىنى ئېچىڭ.",
+                "enabled": "ئوچۇق",
                 "info_links": {
-                    "discuss": "",
-                    "documentation": "",
-                    "donate": "",
-                    "source": "",
-                    "support": "",
-                    "website": ""
+                    "discuss": "مۇھاكىمە قىلىڭ",
+                    "documentation": "ھۆججەتلەر",
+                    "donate": "ئىئانە قىلىڭ",
+                    "source": "مەنبە",
+                    "support": "قوللاپ-قۇۋۋەتلەش",
+                    "website": "تور بەت"
                 },
-                "no_permissions": "",
-                "no_settings": "",
-                "open_modal": "",
-                "permissions_title": "",
-                "purge_button": "",
+                "no_permissions": "بۇ كېڭەيتمىدە ھوقۇق يوق.",
+                "no_settings": "بۇ كېڭەيتمىدە تەڭشەك يوق.",
+                "open_modal": "تەڭشەكلەرنى ئېچىش",
+                "permissions_title": "ھوقۇقلار",
+                "purge_button": "تازىلاش",
                 "readme": {
-                    "button_label": "",
-                    "no_readme": "",
-                    "title": ""
+                    "button_label": "ئوقۇڭ",
+                    "no_readme": "بۇ كېڭەيتمىدە چۈشەندۈرۈش ھۆججىتى يوقكەن",
+                    "title": "{extName} ھۆججەتلىرى"
                 }
             },
             "header": {
-                "get_help": "",
-                "log_out_button": ""
+                "get_help": "ياردەم",
+                "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
-                "title": ""
+                "title": "سەل ساقلاڭ..."
             },
             "nav": {
-                "appearance_button": "",
-                "appearance_title": "",
-                "basics_button": "",
-                "basics_title": "",
+                "appearance_button": "=> core.admin.appearance.title",
+                "appearance_title": "=> core.admin.appearance.description",
+                "basics_button": "=> core.admin.basics.title",
+                "basics_title": "=> core.admin.basics.description",
                 "categories": {
-                    "authentication": "",
-                    "core": "",
-                    "discussion": "",
-                    "feature": "",
-                    "formatting": "",
-                    "language": "",
-                    "moderation": "",
-                    "other": "",
-                    "theme": ""
+                    "authentication": "تەستىقلاش",
+                    "core": "مۇنبەر تەڭشەكلىرى",
+                    "discussion": "مۇھاكىمە",
+                    "feature": "ئىقتىدارلار",
+                    "formatting": "فورماتلاش",
+                    "language": "تىللار",
+                    "moderation": "نازارەت قىلىش",
+                    "other": "باشقا كېڭەيتمىلەر",
+                    "theme": "تېمىلار"
                 },
-                "dashboard_button": "",
-                "dashboard_title": "",
-                "email_button": "",
-                "email_title": "",
-                "permissions_button": "",
-                "permissions_title": "",
-                "userlist_button": "",
-                "userlist_title": "",
-                "search_placeholder": ""
+                "dashboard_button": "=> core.admin.dashboard.title",
+                "dashboard_title": "=> core.admin.dashboard.description",
+                "email_button": "=> core.ref.email",
+                "email_title": "=> core.admin.email.description",
+                "permissions_button": "=> core.admin.permissions.title",
+                "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
+                "search_placeholder": "كېڭەيتمىلەرنى ئىزدەش"
             },
             "permissions": {
-                "allow_hide_own_posts_label": "",
-                "allow_post_editing_label": "",
-                "allow_renaming_label": "",
-                "create_access_token_label": "",
-                "create_heading": "",
-                "delete_discussions_forever_label": "",
-                "delete_discussions_label": "",
-                "delete_posts_forever_label": "",
-                "delete_posts_label": "",
-                "description": "",
-                "edit_posts_label": "",
-                "edit_users_label": "",
-                "edit_users_credentials_label": "",
-                "edit_users_groups_label": "",
-                "global_heading": "",
-                "moderate_heading": "",
-                "moderate_access_tokens_label": "",
-                "new_group_button": "",
-                "participate_heading": "",
-                "post_without_throttle_label": "",
-                "read_heading": "",
-                "rename_discussions_label": "",
-                "reply_to_discussions_label": "",
-                "search_users_label": "",
-                "sign_up_label": "",
-                "start_discussions_label": "",
-                "title": "",
-                "view_forum_label": "",
-                "view_hidden_groups_label": "",
-                "view_last_seen_at_label": "",
-                "view_post_ips_label": ""
+                "allow_hide_own_posts_label": "ئۆزىنىڭ يوللانمىسىنى ئۆچۈرۈشكە رۇخسەت بېرىش",
+                "allow_post_editing_label": "يوللانمىنى تەھرىرلەشكە رۇخسەت بېرىش",
+                "allow_renaming_label": "ئىسمىنى ئۆزگەرتىشگە رۇخسەت بېرىش",
+                "create_access_token_label": "كىرىش بېلىتى ياساش",
+                "create_heading": "قۇرۇش",
+                "delete_discussions_forever_label": "مۇھاكىمىلەرنى پۈتۈنلەي ئۆچۈرۈش",
+                "delete_discussions_label": "مۇھاكىمىلەرنى ئۆچۈرۈش",
+                "delete_posts_forever_label": "يوللانمىلارنى پۈتۈنلەي ئۆچۈرۈش",
+                "delete_posts_label": "يوللانمىلارنى ئۆچۈرۈش",
+                "description": "كىمنىڭ كۆرۈش ۋە قىلىش ھوقۇقلىرىنى تەڭشەش.",
+                "edit_posts_label": "يوللانمىلارنى تەھرىرلەش",
+                "edit_users_label": "قوللانچى خاسلىقلىرىنى تەھرىرلەش",
+                "edit_users_credentials_label": "قوللانچى مەخپىي نومۇرلىرىنى تەھرىرلەش",
+                "edit_users_groups_label": "قوللانچى گۇرۇپپىلىرىنى تەھرىرلەش",
+                "global_heading": "ئومۇمىي",
+                "moderate_heading": "نازارەت قىلىش",
+                "moderate_access_tokens_label": "باشقۇرۇش كىرىش بېلەتلىرى",
+                "new_group_button": "يېڭى گۇرۇپپا",
+                "participate_heading": "قاتنىشىش",
+                "post_without_throttle_label": "ساقلىماستىن كۆپ قېتىم جاۋاپ يېزىش",
+                "read_heading": "ئوقۇش",
+                "rename_discussions_label": "مۇھاكىمە ئىسمىنى ئۆزگەرتىش",
+                "reply_to_discussions_label": "مۇھاكىمىگە جاۋاب قايتۇرۇش",
+                "search_users_label": "=> core.ref.search_users",
+                "sign_up_label": "تىزىملىتىش",
+                "start_discussions_label": "مۇھاكىمىلەرنى باشلاش",
+                "title": "رۇخسەتلەر",
+                "view_forum_label": "مۇنبەرنى كۆرۈش (مۇھاكىمىلەر ۋە قوللانچىلار)",
+                "view_hidden_groups_label": "يوشۇرۇنغان گۇرۇپپىلارنى كۆرۈش",
+                "view_last_seen_at_label": "ھەر دائىم قوللانچىنىڭ ئاخىرقى توردىكى ۋاقتىنى كۆرسىتىش",
+                "view_post_ips_label": "يوللانمىنىڭ IP ئادرېسىنى كۆرسىتىش"
             },
             "permissions_controls": {
-                "allow_indefinitely_button": "",
-                "allow_never_button": "",
-                "allow_some_minutes_button": "",
-                "allow_ten_minutes_button": "",
-                "allow_until_reply_button": "",
-                "everyone_button": "",
-                "members_button": "",
-                "signup_closed_button": "",
-                "signup_open_button": ""
+                "allow_indefinitely_button": "چەكلەنمىگەن",
+                "allow_never_button": "=> core.ref.never",
+                "allow_some_minutes_button": "{count, plural, one {For # مىنۇت} other {For # مىنۇت}}",
+                "allow_ten_minutes_button": "10 مىنۇت",
+                "allow_until_reply_button": "جاۋاب كېلىشنى كۈتۈش",
+                "everyone_button": "ھەممەيلەن",
+                "members_button": "=> core.group.members",
+                "signup_closed_button": "يېپىق",
+                "signup_open_button": "ئوچۇق"
             },
             "settings": {
-                "saved_message": "",
-                "submit_button": ""
+                "saved_message": "ئۆزگەرتىشلەر ساقلاندى.",
+                "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "=> core.ref.remove",
+                "upload_button": "رەسىم تاللاڭ..."
             },
             "users": {
-                "create_user_button": "",
-                "description": "",
+                "create_user_button": "يېڭى قوللانچى",
+                "description": "مۇنبەردىكى بارلىق ئەزالارنىڭ تىزىملىكى.",
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": ""
+                            "title": "ئېكران ئىسمى"
                         },
                         "edit_user": {
-                            "button": "",
-                            "title": "",
-                            "tooltip": ""
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
+                            "tooltip": "{username} نى تەھرىرلەش"
                         },
                         "email": {
-                            "title": "",
-                            "visibility_hide": "",
-                            "visibility_show": ""
+                            "title": "=> core.ref.email",
+                            "visibility_hide": "ئېلىكترونلۇق خەت ئادرېسىنى يوشۇرۇش",
+                            "visibility_show": "ئېلىكترونلۇق خەت ئادرېسىنى كۆرسىتىش"
                         },
                         "group_badges": {
-                            "no_badges": "",
-                            "title": ""
+                            "no_badges": "يوق",
+                            "title": "گۇرۇپپىلار"
                         },
                         "join_time": {
-                            "title": ""
+                            "title": "قېتىلدى"
                         },
                         "user_id": {
-                            "title": ""
+                            "title": "ID"
                         },
                         "username": {
-                            "profile_link_tooltip": "",
-                            "title": ""
+                            "profile_link_tooltip": "{username}نىڭ ئۇچۇرلىرىنى كۆرۈش",
+                            "title": "=> core.ref.username"
                         }
                     },
-                    "invalid_column_content": ""
+                    "invalid_column_content": "ئىناۋەتسىز"
                 },
                 "pagination": {
-                    "back_button": "",
-                    "first_button": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
-                    "next_button": "",
-                    "page_counter": ""
+                    "back_button": "ئالدىنقى بەت",
+                    "first_button": "بىرىنجى بەت",
+                    "go_to_page_textbox_a11y_label": "بىۋاستە بەت نومۇرىغا ئۆتۈش",
+                    "last_button": "ئاخىرقى بەت",
+                    "next_button": "كېيىنكى بەت",
+                    "page_counter": "{current} ئىنجى بەت {total} بەتتىن"
                 },
-                "search_placeholder": "",
-                "title": "",
-                "total_users": ""
+                "search_placeholder": "=> core.ref.search_users",
+                "title": "=> core.ref.users",
+                "total_users": "جەمئىي قوللانچىلار: {count}"
             }
         },
         "forum": {
             "change_email": {
-                "confirm_password_placeholder": "",
-                "confirmation_message": "",
-                "dismiss_button": "",
-                "incorrect_password_message": "",
-                "submit_button": "",
-                "title": ""
+                "confirm_password_placeholder": "=> core.ref.confirm_password",
+                "confirmation_message": "=> core.ref.confirmation_email_sent",
+                "dismiss_button": "=> core.ref.okay",
+                "incorrect_password_message": "كىرگۈزگەن مەخپىي نومۇرىڭىز خاتا.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.change_email"
             },
             "change_password": {
-                "send_button": "",
-                "text": "",
-                "title": ""
+                "send_button": "مەخپىي نومۇر ئۆزگەرتىش ئېلخېتى يوللاش",
+                "text": "تۆۋەندىكى كونۇپكىنى بېسىپ مەخپىي نومۇر ئۆزگەرتىش ئۇلىنىشىنى ئېلىكترونلۇق يوللانمىدا تاپشۇرىۋېلىڭ.",
+                "title": "=> core.ref.change_password"
             },
             "composer": {
-                "close_tooltip": "",
-                "exit_full_screen_tooltip": "",
-                "full_screen_tooltip": "",
-                "minimize_tooltip": "",
-                "preview_tooltip": ""
+                "close_tooltip": "يېپىش",
+                "exit_full_screen_tooltip": "پۈتۈن ئېكراندىن چىقىش",
+                "full_screen_tooltip": "پۈتۈن ئېكران",
+                "minimize_tooltip": "كېچىكلىتىش",
+                "preview_tooltip": "ئالدىن كۆرۈش"
             },
             "composer_discussion": {
-                "body_placeholder": "",
-                "discard_confirmation": "",
-                "submit_button": "",
-                "title": "",
-                "title_placeholder": ""
+                "body_placeholder": "يوللانما يېزىش...",
+                "discard_confirmation": "يوللانمىڭىز تېخى يوللانمىدى. ئۇنى بىكار قىلامسىز؟",
+                "submit_button": "مۇھاكىمە يوللاش",
+                "title": "=> core.ref.start_a_discussion",
+                "title_placeholder": "مۇھاكىمە ماۋزۇسى"
             },
             "composer_edit": {
-                "discard_confirmation": "",
-                "edited_message": "",
-                "post_link": "",
-                "submit_button": "",
-                "view_button": ""
+                "discard_confirmation": "ئۆزگەرتىشلىرىڭىزنى ساقلىمىدىڭىز. ئۇلارنى بىكار قىلامسىز؟",
+                "edited_message": "تەھرىرلەش تاماملاندى.",
+                "post_link": "{discussion}دىكى #{number} يازما",
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": "=> core.ref.view"
             },
             "composer_reply": {
-                "body_placeholder": "",
-                "discard_confirmation": "",
-                "posted_message": "",
-                "submit_button": "",
-                "view_button": ""
+                "body_placeholder": "=> core.ref.write_a_reply",
+                "discard_confirmation": "جاۋابىڭىز تېخى يوللانمىدى.ئۇنى بىكار قىلامسىز؟",
+                "posted_message": "جاۋابىڭىز يوللاندى.",
+                "submit_button": "جاۋاب يوللاش",
+                "view_button": "=> core.ref.view"
             },
             "discussion_controls": {
-                "cannot_reply_button": "",
-                "cannot_reply_text": "",
-                "delete_button": "",
-                "delete_confirmation": "",
-                "delete_forever_button": "",
-                "log_in_to_reply_button": "",
-                "rename_button": "",
-                "reply_button": "",
-                "restore_button": "",
-                "toggle_dropdown_accessible_label": ""
+                "cannot_reply_button": "جاۋاب يېزىشقا بولمايدۇ",
+                "cannot_reply_text": "سىزنىڭ بۇ مۇھاكىمىگە جاۋاب يېزىش رۇخسىتىڭىز يوق.",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "بۇ مۇھاكىمىنى راستتىنلا ئۆچۈرەمسىز؟",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "log_in_to_reply_button": "جاۋاب يېزىش ئۈچۈن ئاۋال كىرىڭ",
+                "rename_button": "=> core.ref.rename",
+                "reply_button": "=> core.ref.reply",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "مۇھاكىمە باشقۇرۇش تاللاشلىرىنى ئالماشتۇرۇش"
             },
             "discussion_list": {
-                "empty_text": "",
-                "load_more_button": "",
-                "replied_text": "",
-                "started_text": "",
-                "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": ""
+                "empty_text": "تېخى مۇھاكىمىلەر يوق.",
+                "load_more_button": "=> core.ref.load_more",
+                "replied_text": "{username} جاۋاب بەردى {ago}",
+                "started_text": "{username} باشلىدى {ago}",
+                "total_replies_a11y_label": "{count, plural, one {# جاۋاب} other {# جاۋابلار}}",
+                "unread_replies_a11y_label": "{count, plural, one {# ئوقۇلمىغان جاۋاب} other {# ئوقۇلمىغان جاۋابلار}}. ئوقۇلمىغان قىلىش {count, plural, one {جاۋاب} other {جاۋابلار}} ئوقۇلدى قىلىش."
             },
             "forgot_password": {
-                "dismiss_button": "",
-                "email_placeholder": "",
-                "email_sent_message": "",
-                "not_found_message": "",
-                "submit_button": "",
-                "text": "",
-                "title": ""
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "email_sent_message": "ئەگەر كىرگۈزگەن ئېلىكترونلۇق خەت ئادرېسىڭىز بۇ توربەتتە تىزىملانغان بولسا، بىز شۇ ئادرېسقا مەخپىي نومۇرنى قايتا بەلگىلەش ئۇلىنىشىنى ئەۋەتىمىز. ئەگەر بىر-ئىككى مىنۇتنىڭ ئىچىدە كەلمىسە، ئېلىكترونلۇق خەت ساندۇقىڭىزنىڭ زىيانلىق يوللانمىلار قىسقۇچىغا قاراپ بېقىڭ.",
+                "not_found_message": "بۇ ئېلىكتىرونلۇق خەت ئادرېسى تىزىملانمىغان.",
+                "submit_button": "مەخپىي نومۇرنى قايتۇرۋېلىش",
+                "text": "ئېلخەت ئادرېسىڭىزنى كىرگۈزسىڭىز مەخپىي نومۇرنى قايتا بەلگىلەش ئۇلىنىشىنى ئەۋەتىمىز.",
+                "title": "مەخپىي نومۇر ئۇنتۇلدى"
             },
             "header": {
-                "admin_button": "",
-                "back_to_index_tooltip": "",
-                "locale_dropdown_accessible_label": "",
-                "log_in_link": "",
-                "log_out_button": "",
-                "profile_button": "",
-                "search_clear_button_accessible_label": "",
-                "search_placeholder": "",
-                "search_role_label": "",
-                "session_dropdown_accessible_label": "",
-                "settings_button": "",
-                "sign_up_link": ""
+                "admin_button": "باشقۇرۇش",
+                "back_to_index_tooltip": "مۇھاكىمىلەر تىزىملىكىگە قايتىش",
+                "locale_dropdown_accessible_label": "مۇنبەر تىلىنى ئۆزگەرتىش",
+                "log_in_link": "=> core.ref.log_in",
+                "log_out_button": "=> core.ref.log_out",
+                "profile_button": "ئۇچۇرلار",
+                "search_clear_button_accessible_label": "ئىزدەش تارىخىنى ئۆچۈرۈش",
+                "search_placeholder": "مۇنبەردىن ئىزدەش",
+                "search_role_label": "مۇنبەردىن ئىزدەش",
+                "session_dropdown_accessible_label": "ۋاقىت تاللاشلىرىنى ئالماشتۇرۇش",
+                "settings_button": "=> core.ref.settings",
+                "sign_up_link": "=> core.ref.sign_up"
             },
             "index": {
-                "all_discussions_link": "",
-                "cannot_start_discussion_button": "",
-                "mark_all_as_read_confirmation": "",
-                "mark_all_as_read_tooltip": "",
-                "meta_title_text": "",
-                "refresh_tooltip": "",
-                "start_discussion_button": "",
-                "toggle_sidenav_dropdown_accessible_label": ""
+                "all_discussions_link": "=> core.ref.all_discussions",
+                "cannot_start_discussion_button": "مۇھاكىمىنى باشلىغىلى بولمايدۇ",
+                "mark_all_as_read_confirmation": "ھەممە مۇھاكىمىلەرنى ئوقۇلدى قىلامسىز؟",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "meta_title_text": "=> core.ref.all_discussions",
+                "refresh_tooltip": "يېڭىلاش",
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": "يول باشلاش تاللاشلىرىنى ئالماشتۇرۇش"
             },
             "index_sort": {
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
-                "toggle_dropdown_accessible_label": "",
-                "top_button": ""
+                "latest_button": "ئاخىرقى",
+                "newest_button": "يېڭىسى",
+                "oldest_button": "ئەڭ كونىسى",
+                "relevance_button": "مۇناسىۋەتلىكلىرى",
+                "toggle_dropdown_accessible_label": "مۇھاكىمە تىزىملىكىنى قانداق تىزىشنى بەلگىلەڭ",
+                "top_button": "باش"
             },
             "log_in": {
-                "forgot_password_link": "",
-                "invalid_login_message": "",
-                "password_placeholder": "",
-                "remember_me_label": "",
-                "sign_up_text": "",
-                "submit_button": "",
-                "title": "",
-                "username_or_email_placeholder": ""
+                "forgot_password_link": "مەخپىي نومۇرنى ئۇنتۇپسىزمۇ؟",
+                "invalid_login_message": "كىرىش ئۇچۇرلىرىڭىز خاتا.",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "ئەستە ساقلا",
+                "sign_up_text": "ھېسابىڭىز يوقمۇ؟<a>تىزىملىتىڭ</a>",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in",
+                "username_or_email_placeholder": "قوللانچى ئىسمى ياكى ئېلىكتىرونلۇق خەت ئادرېسى"
             },
             "notifications": {
-                "delete_all_confirm": "",
-                "delete_all_tooltip": "",
-                "discussion_renamed_text": "",
-                "empty_text": "",
-                "mark_all_as_read_tooltip": "",
-                "mark_as_read_tooltip": "",
-                "title": "",
-                "toggle_dropdown_accessible_label": "",
-                "tooltip": ""
+                "delete_all_confirm": "راستىنلا بارلىق ئەسكەرتىشلەرنى ئۆچۈرەمسىز؟ بۇلارنى قايتۇرۋالغىلى بولمايدۇ",
+                "delete_all_tooltip": "بارلىق ئەسكەرتىشلەرنى ئۆچۈرۈش",
+                "discussion_renamed_text": "{username} ماۋزۇنى ئۆزگەرتتى",
+                "empty_text": "ئەسكەرتىش يوق",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "mark_as_read_tooltip": "ئوقۇلدى قىلىش",
+                "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "ئەسكەرتىشلەرنى كۆرۈش",
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
-                "edited_text": "",
-                "edited_tooltip": "",
-                "number_tooltip": ""
+                "edited_text": "تەھرىرلەندى",
+                "edited_tooltip": "{username} {ago} تەھرىرلىدى",
+                "number_tooltip": "يوللانما #{number}"
             },
             "post_controls": {
-                "delete_button": "",
-                "delete_confirmation": "",
-                "delete_forever_button": "",
-                "edit_button": "",
-                "hide_confirmation": "",
-                "restore_button": "",
-                "toggle_dropdown_accessible_label": ""
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "بۇ يوللانمىنى راستىنلا ئۆچۈرەمسىز؟ ئۇنى قايتۇرۋالغىلى بولمايدۇ.",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "edit_button": "=> core.ref.edit",
+                "hide_confirmation": "بۇ يوللانمىنى راستىنلا ئۆچۈرەمسىز؟",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "يوللانما باشقۇرۇش تاللاشلىرىنى ئالماشتۇرۇش"
             },
             "post_scrubber": {
-                "now_link": "",
-                "original_post_link": "",
-                "unread_text": "",
-                "viewing_text": ""
+                "now_link": "ھازىر",
+                "original_post_link": "ئەسلىدىكى يوللانما",
+                "unread_text": "{count} ئوقۇلمىدى",
+                "viewing_text": "{count, plural, one {{index} of {formattedCount} يوللانما} other {{index} of {formattedCount} يوللانمىلار}}"
             },
             "post_stream": {
-                "discussion_renamed_old_tooltip": "",
-                "discussion_renamed_text": "",
-                "load_more_button": "",
-                "reply_placeholder": "",
-                "time_lapsed_text": ""
+                "discussion_renamed_old_tooltip": "ئەسلىدىكى ماۋزۇسى :«{old}»",
+                "discussion_renamed_text": "{username} {time} دا ماۋزۇنى {new} گە ئۆزگەرتتى.",
+                "load_more_button": "=> core.ref.load_more",
+                "reply_placeholder": "=> core.ref.write_a_reply",
+                "time_lapsed_text": "{period} ئۆتكەندىن كېيىن"
             },
             "rename_discussion": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.rename",
+                "title": "مۇھاكىمىنى ئۆزگەرتىش"
             },
             "search": {
-                "all_discussions_button": "",
-                "discussions_heading": "",
-                "users_heading": ""
+                "all_discussions_button": "«{query}» نى بارلىق مۇھاكىمىلەردىن ئىزدەش",
+                "discussions_heading": "=> core.ref.discussions",
+                "users_heading": "=> core.ref.users"
             },
             "security": {
-                "browser_on_operating_system": "",
-                "cannot_terminate_current_session": "",
-                "created": "",
-                "current_active_session": "",
-                "developer_tokens_heading": "",
-                "empty_text": "",
+                "browser_on_operating_system": "{browser} {os} دا",
+                "cannot_terminate_current_session": "نۆۋەتتىكى ئېقىملىق ئىشلەتمىنى توختىتالمايدۇ. بۇنىڭ ئورنىغا چېكىنىشنى تاللاڭ.",
+                "created": "قۇرۇلدى",
+                "current_active_session": "نۆۋەتتىكى ئېقىملىق ئىشلەتمە",
+                "developer_tokens_heading": "يۇمشاق دېتال ئىشلىگۈچىنىڭ بېلەتلىرى",
+                "empty_text": "بۇ يەردە كۆرۈدىغان ھېچنېمە يوقتەك قىلىدۇ.",
                 "global_logout": {
-                    "heading": "",
-                    "help_text": "",
-                    "log_out_button": ""
+                    "heading": "ئومۇميۈزلۈك چېكىنىش",
+                    "help_text": "نۆۋەتتىكى تور كۆرگۈچ ئىشلەتمىنى تازىلايدۇ، ھەممە ئىشلەتمىلەرنى توختىتىدۇ، ئىشلىگۈچى بېلەتلىرىنى بىكار قىلىدۇ، شۇنداقلا ھەر قانداق ئېلېكترونلۇق خەت تەستىقلاش ياكى پارول يېڭىلاش ئېلېكترون خەتلىرىنىڭ كۈچىنى يوققا چىقىرىدۇ.",
+                    "log_out_button": "=> core.ref.log_out"
                 },
-                "hide_access_token": "",
-                "last_activity": "",
-                "never": "",
-                "new_access_token_button": "",
+                "hide_access_token": "بېلەتنى يوشۇرۇش",
+                "last_activity": "ئاخىرقى پائالىيەت",
+                "never": "=> core.ref.never",
+                "new_access_token_button": "يېڭى بېلەت",
                 "new_access_token_modal": {
-                    "submit_button": "",
-                    "title": "",
-                    "title_placeholder": ""
+                    "submit_button": "بېلەت ياساش",
+                    "title": "يېڭى بېلەت",
+                    "title_placeholder": "ماۋزۇ"
                 },
-                "revoke_access_token": "",
-                "revoke_access_token_confirmation": "",
-                "sessions_heading": "",
-                "session_terminated": "",
-                "session_termination_failed": "",
-                "show_access_token": "",
-                "terminate_all_other_sessions": "",
-                "terminate_all_other_sessions_confirmation": "",
-                "terminate_session": "",
-                "title": "",
-                "token_revoked": "",
-                "token_item_title": "",
-                "token_title_placeholder": ""
+                "revoke_access_token": "بىكار قىلىش",
+                "revoke_access_token_confirmation": "راستىنلا موشۇنداق قىلامسىز؟ بۇ مەشغۇلاتنى قايتۇرۋالغىلى بولمايدۇ",
+                "sessions_heading": "ئېقىملىق ئىشلەتمىلەر",
+                "session_terminated": "{count, plural, one {ئىشلەتمە ئاخىرلاشتۇرۇلدى} other {# ئىشلەتمىلەر ئاخىرلاشتۇرۇلدى}}.",
+                "session_termination_failed": "سىزنىڭ ئىشلەتمىلىرىڭىزنى توختىتىش ۋاقتىدا خاتالىق كۆرۈلدى.",
+                "show_access_token": "بېلەتنى كۆرۈش",
+                "terminate_all_other_sessions": "باشقا بارلىق ئىشلەتمىلەرنى توختىتىڭ",
+                "terminate_all_other_sessions_confirmation": "راستىنلا موشۇنداق قىلامسىز؟ بۇ مەشغۇلاتنى قايتۇرۋالغىلى بولمايدۇ",
+                "terminate_session": "توختىتىش",
+                "title": "بىخەتەرلىك",
+                "token_revoked": "بېلەت بىكار قىلىندى.",
+                "token_item_title": "{title} - {token}",
+                "token_title_placeholder": "/"
             },
             "settings": {
-                "account_heading": "",
-                "change_email_button": "",
-                "change_password_button": "",
-                "notification_checkbox_a11y_label_template": "",
-                "notifications_heading": "",
-                "notify_by_email_heading": "",
-                "notify_by_web_heading": "",
-                "notify_discussion_renamed_label": "",
-                "privacy_disclose_online_label": "",
-                "privacy_heading": "",
-                "title": ""
+                "account_heading": "ھېساب",
+                "change_email_button": "=> core.ref.change_email",
+                "change_password_button": "=> core.ref.change_password",
+                "notification_checkbox_a11y_label_template": "«{description}» ئەسكەرتىشلىرىنى {method} ئارقىلىق تاپشۇرىۋېلىش",
+                "notifications_heading": "=> core.ref.notifications",
+                "notify_by_email_heading": "=> core.ref.email",
+                "notify_by_web_heading": "تور",
+                "notify_discussion_renamed_label": "بىرسى مەن باشلىغان مۇھاكىمە نامىنى ئۆزگەرتتى",
+                "privacy_disclose_online_label": "باشقىلار توردا بارلىقىمنى بىلەلىسۇن",
+                "privacy_heading": "مەخپىيەتلىك",
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
-                "dismiss_button": "",
-                "email_placeholder": "",
-                "log_in_text": "",
-                "password_placeholder": "",
-                "submit_button": "",
-                "title": "",
-                "username_placeholder": "",
-                "welcome_text": ""
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "log_in_text": "ھېسابىڭىز بارمۇ؟ <a>كىرىڭ</a>",
+                "password_placeholder": "=> core.ref.password",
+                "submit_button": "=> core.ref.sign_up",
+                "title": "=> core.ref.sign_up",
+                "username_placeholder": "=> core.ref.username",
+                "welcome_text": "{username} خۇش كەلدىڭىز!"
             },
             "user": {
-                "avatar_remove_button": "",
-                "avatar_upload_button": "",
-                "avatar_upload_tooltip": "",
-                "discussions_link": "",
-                "in_discussion_text": "",
-                "joined_date_text": "",
-                "online_text": "",
-                "posts_empty_text": "",
-                "posts_link": "",
-                "posts_load_more_button": "",
-                "security_link": "",
-                "settings_link": ""
+                "avatar_remove_button": "=> core.ref.remove",
+                "avatar_upload_button": "يۈكلەش",
+                "avatar_upload_tooltip": "يېڭى باش سۈرەت يوللاش",
+                "discussions_link": "=> core.ref.discussions",
+                "in_discussion_text": "{discussion} دە",
+                "joined_date_text": "تىزىملاتتى {ago}",
+                "online_text": "توردا",
+                "posts_empty_text": "بۇ يەردە ھېچقانداق يوللانما يوقتەك قىلىدۇ.",
+                "posts_link": "=> core.ref.posts",
+                "posts_load_more_button": "=> core.ref.load_more",
+                "security_link": "بىخەتەرلىك",
+                "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
-                "button": "",
-                "delete_button": "",
-                "delete_confirmation": "",
-                "delete_error_message": "",
-                "delete_success_message": "",
-                "edit_button": "",
-                "toggle_dropdown_accessible_label": ""
+                "button": "تىزگىنەكلەر",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "بۇ قوللانچىنى راستىنلا ئۆچۈرەمسىز؟ ئۇنىڭ يوللانمىلىرى ئۆچۈرۈلمەيدۇ.",
+                "delete_error_message": "قوللانچى <i>{username} ({email})</i> ئۆچۈرۈلمىدى",
+                "delete_success_message": "قوللانچى <i>{username} ({email})</i> ئۆچۈرۈلدى",
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": "قوللانچى باشقۇرۇش تاللاشلىرىنى ئالماشتۇرۇش"
             },
             "user_email_confirmation": {
-                "alert_message": "",
-                "resend_button": "",
-                "sent_message": ""
+                "alert_message": "=> core.ref.confirmation_email_sent",
+                "resend_button": "تەستىقلاش ئېلىكترونلۇق خەتنى قايتا ئەۋەتىش",
+                "sent_message": "ئەۋەتىلدى"
             },
             "welcome_hero": {
-                "hide": ""
+                "hide": "سالامنى يوشۇرۇش"
             }
         },
         "lib": {
-            "debug_button": "",
+            "debug_button": "چاتاق ئىزدەش",
             "alert": {
-                "dismiss_a11y_label": ""
+                "dismiss_a11y_label": "ئاگاھلاندۇرۇشنى يېپىش"
             },
             "badge": {
-                "hidden_tooltip": ""
+                "hidden_tooltip": "يوشۇرۇن"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "ئېچىلدىغان تىزىملىكنى ئالماشتۇرۇش"
             },
             "data_segment": {
-                "label": ""
+                "label": "{label}:"
             },
             "edit_user": {
-                "activate_button": "",
-                "email_heading": "",
-                "email_label": "",
-                "groups_heading": "",
-                "password_heading": "",
-                "password_label": "",
-                "set_password_label": "",
-                "submit_button": "",
-                "title": "",
-                "username_heading": "",
-                "username_label": "",
-                "nothing_available": ""
+                "activate_button": "قوللانچىنى تەستىقلاش",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "گۇرۇپپىلار",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "يېڭى مەخپىي نومۇر بېكىتىش",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username",
+                "nothing_available": "بۇ قوللانچىنى تەھرىرلىيەلمەيسىز."
             },
             "error": {
-                "circular_dependencies_message": "",
-                "dependent_extensions_message": "",
-                "extension_initialiation_failed_message": "",
-                "generic_message": "",
-                "generic_cross_origin_message": "",
-                "missing_dependencies_message": "",
-                "not_found_message": "",
-                "payload_too_large_message": "",
-                "permission_denied_message": "",
-                "rate_limit_exceeded_message": "",
-                "render_failed_message": ""
+                "circular_dependencies_message": "ئايلانما تايىنىش بايقالدى: {extensions}. بىكار قىلىنۋاتىدۇ. يۈكلىمىدىن بىرنى ئېتىپ قايتا سىناڭ.",
+                "dependent_extensions_message": "{extensions} لارنى توختاتمىغۇچە {extension} نى توختاتقىلى بولمايدۇ",
+                "extension_initialiation_failed_message": "{extension} نى قوزغاتقىلى بولمىدى، تور كۆرگۈچنىڭ تېرمىنالىدىن تەپسىلىي ئۇچۇرلارنى تەكشۈرۈڭ.",
+                "generic_message": "ئاپلا! بىر خاتالىق يۈز بەردى. بەتنى يېڭىلاپ سىناپ كۆرۈڭ.",
+                "generic_cross_origin_message": "ئاپلا! بەتلەر ئارا مۇلازىمەتنى بىر تەرەپ قىلىشتا خاتالىق كۆرۈلدى، بەتنى يېڭىلاپ ئاندىن قايتا سىناڭ.",
+                "missing_dependencies_message": "{extensions} لار ئېچىلمىغىچە {extension}نى ئاچقىلى بولمايدۇ",
+                "not_found_message": "سورالغان ئەشيا تېپىلمىدى.",
+                "payload_too_large_message": "ئىلتىماسنىڭ يۈكلىمىسى بەك چوڭ.",
+                "permission_denied_message": "سىزنىڭ بۇنىڭغا رۇخسىتىڭىز يوق.",
+                "rate_limit_exceeded_message": "سىز بەك تېز مەشغۇلات قىلىۋاتىسىز. بىر نەچچە سىكۇنت ساقلاڭ.",
+                "render_failed_message": "كەچۈرۈڭ، بۇ مەزمۇننى كۆرسىتىش جەريانىدا خاتالىق يۈز بەردى. ئەگەر قوللانچى بولسىڭىز سەل تۇرۇپ سىناڭ. ئەگەر باشقۇرغۇچى بولسىڭىز، مۇنبەر مەشغۇلات خاتىرىسىنى تەكشۈرۈڭ."
             },
             "loading_indicator": {
-                "accessible_label": ""
+                "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: بەت# - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {بەت# - {forumName}}}"
             },
             "modal": {
-                "close": ""
+                "close": "يېپىش"
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "يولباشلاش تارتمىسىنى ئېچىش"
             },
             "number_suffix": {
-                "kilo_text": "",
-                "mega_text": ""
+                "kilo_text": "كىلو",
+                "mega_text": "مېگا"
             },
             "series": {
-                "glue_text": "",
-                "three_text": "",
-                "two_text": ""
+                "glue_text": "، ",
+                "three_text": "{first}، {second}، ۋە {third}",
+                "two_text": "{first} ۋە {second}"
             },
             "username": {
-                "deleted_text": ""
+                "deleted_text": "(ئۆچۈرۈلدى)"
             }
         },
         "views": {
             "admin": {
                 "extensions": {
-                    "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "caption": "=> core.ref.extensions",
+                    "disable": "ئېتىش",
+                    "empty": "يۈكلەنمىلەر ئورنىتىلمىغان",
+                    "enable": "ئېچىش",
+                    "name": "يۈكلەنمە ئىسمى",
+                    "package_name": "بولاق ئىسمى",
+                    "version": "نۇسخىسى"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "دېتال ھەققىدە"
                 },
-                "title": ""
+                "title": "باشقۇرغۇچى"
             },
             "confirm_email": {
-                "submit_button": "",
-                "text": "",
-                "title": ""
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "تۆۋەندىكى كونۇپكىنى بېسىپ ھېسابىڭىزنىڭ ئېلىكتىرونلۇق خەت ئادرېسىنى مۇقىملاڭ.",
+                "title": "=> core.ref.confirm_email"
             },
             "content": {
-                "javascript_disabled_message": "",
-                "load_error_message": "",
-                "loading_text": ""
+                "javascript_disabled_message": "بۇ بېكەتنى JavaScript ئىقتىدارى بار يېڭى تور كۆرگۈچلەردە ياخشىراق كۆرۈنىدۇ.",
+                "load_error_message": "بېكەتنىڭ تولۇق نۇسخىسىنى ئېچىشتا خاتالىق كۆرۈلدى. بەتنى يېڭىلاڭ.",
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
-                "next_page_button": "",
-                "previous_page_button": ""
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
-                "csrf_token_mismatch": "",
-                "csrf_token_mismatch_return_link": "",
-                "invalid_confirmation_token": "",
-                "not_authenticated": "",
-                "not_found": "",
-                "not_found_return_link": "",
-                "permission_denied": "",
-                "unknown": ""
+                "csrf_token_mismatch": "بەك ئۇزاق مەزگىل مەشغۇلات قىلماپسىز.",
+                "csrf_token_mismatch_return_link": "قايتىپ ئۇرىنىپ كۆرۈڭ",
+                "invalid_confirmation_token": "بۇ تەستىقلاش ئۇلىنىشى ئىشىلتىلگەن ياكى ۋاقتى ئۆتۈپ كەتكەن.",
+                "not_authenticated": "بۇ بەتنى كۆرۈش رۇخسىتىڭىز يوق. بېكەتكە كىرىپ سىناپ بېقىڭ.",
+                "not_found": "سىز سورىغان بەت تېپىلمىدى.",
+                "not_found_return_link": "{forum} گە قايتىش",
+                "permission_denied": "بۇ بەتنى كۆرۈش رۇخسىتىڭىز يوق.",
+                "unknown": "بۇ بەتنى ئېچىشتا خاتالىق كۆرۈلدى."
             },
             "index": {
-                "all_discussions_heading": "",
-                "next_page_button": "",
-                "previous_page_button": ""
+                "all_discussions_heading": "=> core.ref.all_discussions",
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "log_out": {
-                "log_out_button": "",
-                "log_out_confirmation": "",
-                "title": ""
+                "log_out_button": "=> core.ref.log_out",
+                "log_out_confirmation": "{forum} دىن چىقامسىز؟",
+                "title": "=> core.ref.log_out"
             },
             "reset_password": {
-                "confirm_password_label": "",
-                "new_password_label": "",
-                "submit_button": "",
-                "title": ""
+                "confirm_password_label": "يېڭى مەخپىي نومۇرىڭىزنى مۇقىملاڭ",
+                "new_password_label": "يېڭى مەخپىي نومۇر",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.reset_your_password"
             }
         },
         "api": {
-            "invalid_username_message": "",
+            "invalid_username_message": "قوللانچى ئىسمىغا پەقەت ھەرپ، نومۇر ۋە - بەلگىسىنى ئىشىلتىش مۇمكىن.",
             "invalid_filter_type": {
-                "must_be_numeric_message": "",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_be_numeric_message": "بۇ {filter} سۈزگۈچ چوقۇم سانلاردىن تۈزۈلىدۇ.",
+                "must_not_be_array_message": "بۇ {filter} سۈزگۈچ چوقۇم رەت بولماسلىقى كېرەك.",
+                "must_not_be_multidimensional_array_message": "بۇ {filter} سۈزگۈچ چوقۇم كۆپ تەرەپلىك رەت بولماسلىقى كېرەك."
             }
         },
         "email": {
             "activate_account": {
-                "subject": "",
-                "body": ""
+                "subject": "يېڭى ھېسابىڭىزنى قوزغىتىڭ",
+                "body": "سالام {username}!\n\nبىرسى (بەلكىم سىز) بۇ ئېلىكترونلۇق خەت ئادرېسى بىلەن {forum} مۇنبىرىگە تىزىملاتتى.\n\nئەگەر سىز بولسىڭىز، تۆۋەندىكى ئۇلىنىشنى بېسىپ ھېسابىڭىزنى قوزغىتىڭ:\n{url}\n\nئەگەر سىز بولمىسىڭىز، بۇ خەتكە پەرۋا قىلماڭ.\n"
             },
             "confirm_email": {
-                "subject": "",
-                "body": ""
+                "subject": "يېڭى ئېلىكترونلۇق خەت ئادرېسىڭىزنى مۇقىملاڭ",
+                "body": "سالام {username}!\n\nبىرسى (بەلكىم سىز) {forum} مۇنبىرىدىكى ئېلىكترونلۇق خەت ئادرېسىنى بۇ ئادرېسقا ئۆزگەرتتى.\n\nئەگەر سىز بولسىڭىز، تۆۋەندىكى ئۇلىنىشنى بېسىپ ئېلىكترونلۇق خەت ئادرېسىڭىزنى مۇقىملاڭ:\n{url}\n\nئەگەر سىز بولمىسىڭىز، بۇ خەتكە پەرۋا قىلماڭ.\n"
             },
             "reset_password": {
-                "subject": "",
-                "body": ""
+                "subject": "=> core.ref.reset_your_password",
+                "body": "سالام {username}!\n\nبىرسى (بەلكىم سىز) {forum} مۇنبىرىدە بۇ ئادرېس بىلەن تىزىملاتقان ھېسابنىڭ مەخپىي ئادرېسىنى قايتا بېكىتىشنى تەلەپ قىلىۋاتىدۇ.\n\nئەگەر سىز بولسىڭىز، تۆۋەندىكى ئۇلىنىشنى بېسىپ يېڭى مەخپىي نومۇر تۇرغۇزۇڭ:\n{url}\n\nئەگەر مەخپىي نومۇرىڭىزنى ئۆزگەرتىشنى خالىمىسىڭىز، بۇ خەتكە پەرۋا قىلمىسىڭىز ھېچنىمە ئۆزگەرمەيدۇ.\n"
             },
             "send_test": {
-                "subject": "",
-                "body": ""
+                "subject": "فىلارۇم ئېلىكترونلۇق خەت سىنىقى",
+                "body": "سالام {username}!\n\nبۇ ئېلىكترونلۇق خەت سىزنىڭ فىلارۇمدىن خەتلەرنى نورمال تاپشۈرۋېلىشىڭىزنى سىناش ئۈچۈن ئەۋەتىلدى.\n\nئەگەر بۇ ھېسابنى سىز ئاچقان بولسىڭىز، دېمەك ھېسابىڭىزنىڭ تەڭشەكلىرى توغرا.\n\nئەگەر سىز بولمىسىڭىز، بۇ خەتكە پەرۋا قىلماڭ.\n"
             }
         },
         "ref": {
-            "all_discussions": "",
-            "change_email": "",
-            "change_password": "",
-            "color": "",
-            "confirm_password": "",
-            "confirm_email": "",
-            "confirmation_email_sent": "",
-            "custom_footer_text": "",
-            "custom_footer_title": "",
-            "custom_header_text": "",
-            "custom_header_title": "",
-            "delete": "",
-            "delete_forever": "",
-            "discussions": "",
-            "edit": "",
-            "edit_user": "",
-            "email": "",
-            "extensions": "",
-            "generic_confirmation_message": "",
-            "icon": "",
-            "icon_text": "",
-            "load_more": "",
-            "loading": "",
-            "log_in": "",
-            "log_out": "",
-            "mark_all_as_read": "",
-            "never": "",
-            "new_token": "",
-            "next_page": "",
-            "notifications": "",
-            "okay": "",
-            "password": "",
-            "posts": "",
-            "previous_page": "",
-            "remove": "",
-            "rename": "",
-            "reply": "",
-            "reset_your_password": "",
-            "restore": "",
-            "save_changes": "",
-            "search_users": "",
-            "security": "",
-            "settings": "",
-            "sign_up": "",
-            "some_others": "",
-            "start_a_discussion": "",
-            "username": "",
-            "users": "",
-            "view": "",
-            "write_a_reply": "",
-            "you": ""
+            "all_discussions": "بارلىق مۇھاكىمىلەر",
+            "change_email": "ئېلىكترونلۇق خەت ئادرېسىنى تەھرىرلەش",
+            "change_password": "مەخپىي نومۇرنى ئۆزگەرتىش",
+            "color": "رەڭ",
+            "confirm_password": "مەخپىي نومۇرنى مۇقىملاش",
+            "confirm_email": "ئېلىكترونلۇق خەتنى مۇقىملاش",
+            "confirmation_email_sent": "ئېلىكترونلۇق خېتىڭىزنى مۇقىملاش ئۈچۈن {email} گە خەت يوللىدۇق. ئەگەر كەلمىگەن بولسا، زىيانلىق خەتلەر قىسقۇچىنى تەكشۈرۈڭ.",
+            "custom_footer_text": "بەتنىڭ ئاستىدا كۆرۈنىدىغان HTML نى قوشۇڭ.",
+            "custom_footer_title": "بەت ئاستىنى خاسلاشتۇرۇش",
+            "custom_header_text": "بەت ئۈستىدە كۆرۈنىدىغان HTML نى قوشۇڭ، فىلارۇمنىڭ سەرلەۋھەسىنىڭ ئۈستىدە.",
+            "custom_header_title": "بەت سەرلەۋھەسىنى خاسلاشتۇرۇش",
+            "delete": "ئۆچۈرۈش",
+            "delete_forever": "پۈتۈنلەي ئۆچۈرۈش",
+            "discussions": "مۇھاكىمىلەر",
+            "edit": "تەھرىرلەش",
+            "edit_user": "قوللانچىنى تەھرىرلەش",
+            "email": "ئېلىكترونلۇق خەت",
+            "extensions": "كېڭەيتمىلەر",
+            "generic_confirmation_message": "راستتىنلا داۋاملاشتۇرامسىز؟ بۇنى قايتۇرۋالغىلى بولمايدۇ.",
+            "icon": "بەلگە",
+            "icon_text": "ھەر قانداق <a>FontAwesome</a> تۈردىكى بەلگىلەرنىڭ ئىسمىنى كىرگۈزۈڭ، <code>fas fa-</code> ئالدى قوشۇمچىسىنى <em>ئۆز ئىچىگە ئالغان ھالدا</em>.",
+            "load_more": "داۋامىنى كۆرۈش",
+            "loading": "ئېچىلۋاتىدۇ...",
+            "log_in": "كىرىش",
+            "log_out": "چىقىش",
+            "mark_all_as_read": "ھەممىسىنى ئوقۇلدى قىلىش",
+            "never": "ھەرگىز",
+            "new_token": "يېڭى بېلەت",
+            "next_page": "كېيىنكى بەت",
+            "notifications": "ئەسكەرتمىلەر",
+            "okay": "ماقۇل",
+            "password": "مەخپىي نومۇر",
+            "posts": "يوللانمىلار",
+            "previous_page": "ئالدىنقى بەت",
+            "remove": "ئۆچۈرۈش",
+            "rename": "ئىسمىنى ئۆزگەرتىش",
+            "reply": "جاۋاب يېزىش",
+            "reset_your_password": "مەخپىي نومۇرنى قايتا بەلگىلەش",
+            "restore": "قايتۇرۇپ كېلىش",
+            "save_changes": "ئۆزگەرتىشلەرنى ساقلاش",
+            "search_users": "قوللانچىلارنى ئىزدەش",
+            "security": "بىخەتەرلىك",
+            "settings": "تەڭشەكلەر",
+            "sign_up": "تىزىملىتىش",
+            "some_others": "{count, plural, one {# باشقا} other {# باشقىلار}}",
+            "start_a_discussion": "مۇھاكىمە باشلاش",
+            "username": "قوللانچى ئىسمى",
+            "users": "قوللانچىلار",
+            "view": "كۆرۈش",
+            "write_a_reply": "جاۋاب يېزىش...",
+            "you": "سىز"
         },
         "group": {
-            "admin": "",
-            "admins": "",
-            "guest": "",
-            "guests": "",
-            "member": "",
-            "members": "",
-            "mod": "",
-            "mods": ""
+            "admin": "باشقۇرغۇچى",
+            "admins": "باشقۇرغۇچىلار",
+            "guest": "مېھمان",
+            "guests": "مېھمانلار",
+            "member": "ئەزا",
+            "members": "ئەزالار",
+            "mod": "نازارەتچى",
+            "mods": "نازارەتچىلەر"
         }
     }
 }

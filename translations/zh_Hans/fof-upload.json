@@ -12,6 +12,16 @@
     },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "上传",
                 "description": "设置上传服务和首选项。"
@@ -98,7 +108,9 @@
                 "download_label": "允许下载文件",
                 "upload_label": "允许上传文件",
                 "view_user_uploads_label": "查看用户上传的文件",
-                "delete_uploads_of_others_label": "删除用户上传的文件"
+                "delete_uploads_of_others_label": "删除用户上传的文件",
+                "upload_shared_label": "",
+                "access_shared_label": ""
             },
             "templates": {
                 "file": "默认文件下载模板",
@@ -145,9 +157,26 @@
             "buttons": {
                 "attach": "添加附件",
                 "upload": "上传",
+                "upload_shared": "",
                 "user_uploads": "用户上传",
                 "cancel": "取消",
-                "media": "我的文件"
+                "media": "我的文件",
+                "shared_media": ""
+            },
+            "states": {
+                "error": "错误",
+                "loading": "加载中",
+                "unauthorized": "您没有下载权限"
+            },
+            "validation": {
+                "max_size": "文件需小于 {max} KB。"
+            },
+            "text_preview": {
+                "expand": "展开全文",
+                "collapse": "收起全文",
+                "error": "文件预览无法加载。此文件或已被删除，文件 ID 或已失效。\n",
+                "no_snippet_preview": "<文本文档的预览将会在此处展示>",
+                "no_snippet": "<暂无可用的预览代码片段>"
             },
             "file_list": {
                 "loading": "加载文件中……",
@@ -165,21 +194,6 @@
                     "hide_fail": "无法隐藏文件「{fileName}」",
                     "loading": "正在隐藏文件……"
                 }
-            },
-            "states": {
-                "error": "错误",
-                "loading": "加载中",
-                "unauthorized": "您没有下载权限"
-            },
-            "validation": {
-                "max_size": "文件需小于 {max} KB。"
-            },
-            "text_preview": {
-                "expand": "展开全文",
-                "collapse": "收起全文",
-                "error": "文件预览无法加载。此文件或已被删除，文件 ID 或已失效。\n",
-                "no_snippet_preview": "<文本文档的预览将会在此处展示>",
-                "no_snippet": "<暂无可用的预览代码片段>"
             }
         },
         "api": {
@@ -195,6 +209,48 @@
                 "cannot_write_to_disk": "",
                 "upload_blocked_by_php_extension": "",
                 "no_files_made_it_to_upload": ""
+            }
+        },
+        "lib": {
+            "upload-shared-file-modal": {
+                "title": "",
+                "dropzone": "",
+                "hide-from-media-gallery": "",
+                "upload": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "delete_file_a11y_label": "",
+                "delete_confirmation": "",
+                "hide_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                },
+                "hide_shared_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                }
             }
         }
     }

@@ -2,28 +2,28 @@
     "imdong-spam-alert": {
         "admin": {
             "permissions": {
-                "set-spam": "",
-                "see-spam-info": ""
+                "set-spam": "İstenmeyen olarak işaretle",
+                "see-spam-info": "İstenmeyen Bilgisini Gör"
             },
             "settings": {
-                "btn-name": "",
-                "btn-name-help": "",
-                "to-folding-number": "",
-                "to-folding-number-help": ""
+                "btn-name": "İstenmeyen",
+                "btn-name-help": "Kullanıcıya gösterilen bu düğmenin adı varsayılan olarak \"İstenmeyen\"dir.",
+                "to-folding-number": "Otomatik Gizleme Eşiği",
+                "to-folding-number-help": "Kaç kişi tarafından işaretlendiğinde gizli içeriği otomatik olarak gizleyeceğini belirler, otomatik olarak gizlenmemesi için 0 olarak ayarla"
             }
         },
         "forum": {
             "post": {
-                "btn-set-spam": "",
-                "btn-unset-spam": "",
-                "spam-hide-tips": ""
+                "btn-set-spam": "İstenmeyen Olarak İşaretle",
+                "btn-unset-spam": "İstenmeyen Olarak İşaretleme",
+                "spam-hide-tips": "İstenmeyen gizlendi"
             },
             "notification": {
-                "content": "",
-                "excerpt": ""
+                "content": "Birden çok kez istenmeyen olarak işaretlendiği için yanıt gizlendi",
+                "excerpt": "Lütfen topluluk kurallarına uyunuz, defalarca istenmeyen olarak işaretlenen yanıtlar sistematik cezaya tabi tutulabilir."
             },
             "settings": {
-                "notify_post_spam_hide_label": ""
+                "notify_post_spam_hide_label": "İstenmeyen olarak işaretlendiği için gizlendi"
             }
         }
     }
