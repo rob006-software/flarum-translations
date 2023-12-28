@@ -35,7 +35,7 @@
                 "client_extension": "Per defecte, es triarà una extensió de fitxer segura en funció del tipus MIME.\nPer a alguns tipus de fitxer basats en format ZIP o dades binàries, això pot provocar que s'utilitzin extensions genèriques en lloc de l'esperada.\nAquí pots introduir una llista d'extensions de fitxer separades per comes que es mantindran literalment.\n",
                 "watermark": "Tria si s'ha d'afegir una marca d'aigua a les imatges durant la càrrega. Les marques d'aigua s'afegiran als fixers que no siguin de format GIF en funció de les teves preferències a sota.\n",
                 "s3_compatible_storage": "Els paràmetres següents només són necessaris quan s'utilitza algun emmagatzematge compatible amb S3. Si utilitzes AWS, pots deixar-los en blanc.\n",
-                "s3_acl": "L'ACL que s'ha d'aplicar a l'objecte pujat (per defecte: privat). Per obtenir els valors possibles, consulta https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl": "La llista de control d'accessos (ACL) que s'ha d'aplicar a l'objecte pujat (per defecte: privat). Per obtenir els valors possibles, consulta https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
                 "s3_instance_profile": "Deixa la clau i el secret buits per utilitzar les credencials al perfil de la instància.\n",
                 "composer_buttons": "Per defecte, es mostraran els botons del gestor de mitjans i el de pujada de fitxers. També pots optar per mostrar només un botó.\n"
             },
@@ -48,67 +48,67 @@
                     "title": "Configuració d'emmagatzematge S3",
                     "advanced_title": "Configuració avançada d'emmagatzematge S3",
                     "endpoint": "Punt final",
-                    "use_path_style_endpoint": "",
-                    "acl": ""
+                    "use_path_style_endpoint": "Utilitzar punt final de tipus ruta de fitxer completa",
+                    "acl": "Llista de control d'accessos (ACL)"
                 },
                 "disable-download-logging": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Desactiva el registre de baixades als fitxers log",
+                    "toggle": "Desactivar"
                 },
                 "disable-hotlink-protection": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Desactivar la protecció d'enllaços directes (hotlinks)",
+                    "toggle": "Desactivar"
                 },
                 "imgur": {
-                    "client_id": "",
-                    "title": "",
-                    "tos": ""
+                    "client_id": "Identificador de client Imgur",
+                    "title": "Configuració de l'emmagatzematge d'imatges a Imgur",
+                    "tos": "És la teva responsabilitat assegurar que els usuaris del teu fòrum compleixen els <a>Termes de servei</a> d'Imgur"
                 },
                 "local": {
-                    "cdn_url": "",
-                    "title": ""
+                    "cdn_url": "Adreça web del lliurament de contingut (prefixes)",
+                    "title": "Configuració de l'emmagatzematge local"
                 },
                 "qiniu": {
-                    "title": "",
-                    "key": "",
-                    "secret": "",
-                    "bucket": ""
+                    "title": "Configuració de l'emmagatzematge a Qiniu",
+                    "key": "Clau",
+                    "secret": "Secret",
+                    "bucket": "Bucket Qiniu"
                 },
                 "preferences": {
-                    "max_file_size": "",
-                    "mime_types": "",
-                    "title": "",
-                    "php_ini_values": ""
+                    "max_file_size": "Mida màxima de fitxer (en kilobytes)",
+                    "mime_types": "Configura el teu tipus MIME, mapeja l'adaptador de pujada de fitxers",
+                    "title": "Preferències generals",
+                    "php_ini_values": "Els valors al teu fitxer <code>php.ini</code> són <code>post_max_size={post}</code> i <code>upload_max_filesize={upload}</code>. Assegura't que el valor establert aquí estigui per sota d'aquests llindars o ajusta'ls en conseqüència. Si utilitzes <code>Nginx</code>, assegura't també que <code>client_max_body_size</code> tingui una mida suficient per al teu límit màxim escollit."
                 },
                 "resize": {
-                    "max_width": "",
-                    "title": "",
-                    "toggle": ""
+                    "max_width": "Amplada/alçada màxima de la imatge",
+                    "title": "Canviar la mida de la imatge",
+                    "toggle": "Canviar la mida de les imatges"
                 },
                 "client_extension": {
-                    "title": ""
+                    "title": "Extensions de fitxers proporcionades per l'usuari"
                 },
                 "watermark": {
-                    "file": "",
-                    "position": "",
-                    "title": "",
-                    "toggle": ""
+                    "file": "Puja la teva imatge de marca d'aigua",
+                    "position": "Posició de la marca d'aigua",
+                    "title": "Imatges de marca d'aigua",
+                    "toggle": "Imatges de marca d'aigua"
                 },
                 "composer_buttons": {
-                    "title": "",
+                    "title": "Botons a l'editor de publicacions",
                     "options": {
-                        "both": "",
-                        "upload-btn": "",
-                        "media-btn": ""
+                        "both": "Tots dos",
+                        "upload-btn": "Només el botó per pujar fitxers",
+                        "media-btn": "Només el botó del gestor de mitjans"
                     }
                 },
-                "inspect-mime": ""
+                "inspect-mime": "Provar el tipus MIME"
             },
             "permissions": {
-                "download_label": "",
-                "upload_label": "",
-                "view_user_uploads_label": "",
-                "delete_uploads_of_others_label": "",
+                "download_label": "Descarregar fitxers",
+                "upload_label": "Pujar fitxers",
+                "view_user_uploads_label": "Veure els fitxers pujats per l'usuari",
+                "delete_uploads_of_others_label": "Esborrar els fitxers pujats per l'usuari",
                 "upload_shared_label": "",
                 "access_shared_label": ""
             },
