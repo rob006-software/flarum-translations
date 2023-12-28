@@ -2,49 +2,49 @@
     "askvortsov-rich-text": {
         "admin": {
             "settings": {
-                "toggle_on_editor": ""
+                "toggle_on_editor": "エディタにリッチテキストモードのトグルを表示しますか？"
             }
         },
         "lib": {
             "composer": {
-                "toggle_button": "",
-                "insert_button": "",
+                "toggle_button": "リッチテキストモードのトグル",
+                "insert_button": "挿入",
                 "insert_image": {
-                    "src_placeholder": "",
-                    "title_placeholder": ""
+                    "src_placeholder": "リンク",
+                    "title_placeholder": "タイトル"
                 },
                 "insert_link": {
-                    "text_placeholder": "",
-                    "href_placeholder": "",
-                    "title_placeholder": "",
-                    "remove_button": ""
+                    "text_placeholder": "テキスト",
+                    "href_placeholder": "URL",
+                    "title_placeholder": "タイトル（ホバー表示）",
+                    "remove_button": "削除"
                 },
-                "additional_items_tooltip": "",
-                "bold_tooltip": "",
-                "code_tooltip": "",
-                "code_block_tooltip": "",
-                "header_tooltip": "",
-                "horizontal_rule_tooltip": "",
-                "image_tooltip": "",
-                "italic_tooltip": "",
-                "link_tooltip": "",
-                "ordered_list_tooltip": "",
-                "paragraph_tooltip": "",
-                "quote_tooltip": "",
-                "spoiler_block_tooltip": "",
-                "spoiler_inline_tooltip": "",
-                "strike_tooltip": "",
-                "sub_tooltip": "",
-                "sup_tooltip": "",
-                "text_type_tooltip": "",
-                "unordered_list_tooltip": ""
+                "additional_items_tooltip": "追加コントロール",
+                "bold_tooltip": "太字 <{modifierKey}-b>",
+                "code_tooltip": "コード <{modifierKey}-`>",
+                "code_block_tooltip": "コードブロックの挿入",
+                "header_tooltip": "ヘッダー変更 {level} <shift-{modifierKey}-{level}>",
+                "horizontal_rule_tooltip": "水平罫線の挿入",
+                "image_tooltip": "画像追加",
+                "italic_tooltip": "斜体 <{modifierKey}-i>",
+                "link_tooltip": "リンク追加",
+                "ordered_list_tooltip": "番号付きリスト <shift-{modifierKey}-9>",
+                "paragraph_tooltip": "改行 <shift-{modifierKey}-0>",
+                "quote_tooltip": "引用の挿入 <{modifierKey}-q>",
+                "spoiler_block_tooltip": "隠し要素/ドロップダウン",
+                "spoiler_inline_tooltip": "トグル  <{modifierKey}-;>",
+                "strike_tooltip": "取り消し線 <alt-shift-5>",
+                "sub_tooltip": "下付き文字 <{modifierKey}-,>",
+                "sup_tooltip": "上付き文字 <{modifierKey}-.>",
+                "text_type_tooltip": "文字種類選択",
+                "unordered_list_tooltip": "箇条書きリスト <shift-{modifierKey}-8>"
             }
         },
         "forum": {
             "settings": {
-                "composer_heading": "",
-                "use_rich_text_editor_label": "",
-                "rich_text_compact_paragraphs_label": ""
+                "composer_heading": "Composer",
+                "use_rich_text_editor_label": "リッチテキストエディタを使いますか？",
+                "rich_text_compact_paragraphs_label": "段落を改行で区切らない。"
             }
         }
     }
