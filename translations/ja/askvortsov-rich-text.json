@@ -2,12 +2,12 @@
     "askvortsov-rich-text": {
         "admin": {
             "settings": {
-                "toggle_on_editor": "エディタにリッチテキストモードのトグルを表示しますか？"
+                "toggle_on_editor": "エディタにリッチテキストモードの切り替えボタンを表示しますか？"
             }
         },
         "lib": {
             "composer": {
-                "toggle_button": "リッチテキストモードのトグル",
+                "toggle_button": "リッチテキストモードの切り替え",
                 "insert_button": "挿入",
                 "insert_image": {
                     "src_placeholder": "リンク",
@@ -19,7 +19,7 @@
                     "title_placeholder": "タイトル（ホバー表示）",
                     "remove_button": "削除"
                 },
-                "additional_items_tooltip": "追加コントロール",
+                "additional_items_tooltip": "その他の項目",
                 "bold_tooltip": "太字 <{modifierKey}-b>",
                 "code_tooltip": "コード <{modifierKey}-`>",
                 "code_block_tooltip": "コードブロックの挿入",
@@ -32,7 +32,7 @@
                 "paragraph_tooltip": "改行 <shift-{modifierKey}-0>",
                 "quote_tooltip": "引用の挿入 <{modifierKey}-q>",
                 "spoiler_block_tooltip": "隠し要素/ドロップダウン",
-                "spoiler_inline_tooltip": "トグル  <{modifierKey}-;>",
+                "spoiler_inline_tooltip": "スポイラー  <{modifierKey}-;>",
                 "strike_tooltip": "取り消し線 <alt-shift-5>",
                 "sub_tooltip": "下付き文字 <{modifierKey}-,>",
                 "sup_tooltip": "上付き文字 <{modifierKey}-.>",
