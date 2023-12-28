@@ -1090,6 +1090,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`litalino-country-flags`](https://weblate.rob006.net/projects/flarum/litalino-country-flags) | [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags) |
 | [`litalino-geo-weather-widget`](https://weblate.rob006.net/projects/flarum/litalino-geo-weather-widget) | [`litalino/flarum-geo-weather-widget`](https://github.com/Litalino/flarum-geo-weather-widget) |
 | [`litalino-more-bbcode`](https://weblate.rob006.net/projects/flarum/litalino-more-bbcode) | [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode) |
+| [`litalino-top-bar`](https://weblate.rob006.net/projects/flarum/litalino-top-bar) | [`litalino/flarum-top-bar`](https://github.com/Litalino/flarum-top-bar) |
 | [`littlecxm-reply-to-see`](https://weblate.rob006.net/projects/flarum/littlecxm-reply-to-see) | [`littlecxm/flarum-reply-to-see`](https://github.com/littlecxm/flarum-reply-to-see) |
 | [`maicol07-sso`](https://weblate.rob006.net/projects/flarum/maicol07-sso) | [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso) |
 | [`malago-achievements`](https://weblate.rob006.net/projects/flarum/malago-achievements) | [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements) |
