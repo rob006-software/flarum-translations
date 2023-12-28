@@ -109,91 +109,91 @@
                 "upload_label": "Pujar fitxers",
                 "view_user_uploads_label": "Veure els fitxers pujats per l'usuari",
                 "delete_uploads_of_others_label": "Esborrar els fitxers pujats per l'usuari",
-                "upload_shared_label": "",
-                "access_shared_label": ""
+                "upload_shared_label": "Pujar fitxers compartits",
+                "access_shared_label": "Accedir als fitxers compartits en el gestor de mitjans"
             },
             "templates": {
-                "file": "",
-                "file_description": "",
-                "image": "",
-                "image_description": "",
-                "image-preview": "",
-                "image-preview_description": "",
-                "markdown-image": "",
-                "markdown-image_description": "",
-                "bbcode-image": "",
-                "bbcode-image_description": "",
-                "just-url": "",
-                "just-url_description": "",
-                "text-preview": "",
-                "text-preview_description": ""
+                "file": "Plantilla de descàrrega de fitxers per defecte",
+                "file_description": "Mostra el nom de fitxer i alguna informació general. Gestiona la descàrrega mitjançant php, fet que permet la recollida d'estadístiques i la protecció contra enllaços directes.\n",
+                "image": "Plantilla de descàrrega d'imatges per defecte",
+                "image_description": "Mostra una miniatura de la imatge i gestiona la descàrrega via php, permetent la recollida d'estadístiques i la protecció contra enllaços directes.\n",
+                "image-preview": "Plantilla de previsualització de la imatge completa",
+                "image-preview_description": "Mostra la imatge completa en línia, sense permetre la funcionalitat de descàrrega ni generar estadístiques i ignorant la protecció contra enllaços directes.\n",
+                "markdown-image": "Plantilla d'imatge Markdown",
+                "markdown-image_description": "Mostra la imatge completa en línia utilitzant sintaxi Markdown. <strong>Has de tenir flarum/markdown instal·lat per fer funcionar aquest mode.</strong> No permet la funcionalitat de descàrrega ni generar estadístiques i ignora la protecció contra enllaços directes.\n",
+                "bbcode-image": "Plantilla d'imatge BBCode",
+                "bbcode-image_description": "Mostra la imatge completa en línia utilitzant BBCode. <strong>Has de tenir flarum/bbcode instal·lat per fer funcionar aquest mode.</strong> No permet la funcionalitat de descàrrega ni generar estadístiques i ignora la protecció contra enllaços directes.\n",
+                "just-url": "Només adreça web",
+                "just-url_description": "Només insereix l'adreça web. La visualització del contingut es pot gestionar amb altres extensions que disposin de capacitat d'enllaç automàtic. No permet la funcionalitat de descàrrega ni generar estadístiques i ignora la protecció contra enllaços directes.\n",
+                "text-preview": "Previsualització de text",
+                "text-preview_description": "Insereix una previsualització (les primeres 5 línies) d'un fitxer de text, amb l'opció d'expandir per mostrar els continguts complets del fitxer.\n"
             },
             "upload_methods": {
-                "aws-s3": "",
-                "imgur": "",
-                "local": "",
-                "ovh-svfs": "",
-                "qiniu": ""
+                "aws-s3": "Compatible amb S3",
+                "imgur": "Imgur",
+                "local": "Local",
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": "Qiniu"
             },
             "inspect-mime": {
-                "title": "",
-                "description": "",
-                "select": "",
-                "laravel-validation": "",
-                "no-file-selected": "",
-                "validation-passed": "",
-                "validation-failed": "",
-                "mime-detector": "",
-                "mime-fileinfo": "",
-                "guessed-extension": "",
-                "not-available": ""
+                "title": "Inspeccionar tipus MIME",
+                "description": "FoF Upload utilitza la llibreria <a>PHP Mime Detector</a> per als tipus MIME habituals i PHP Fileinfo com a alternativa.\nEl valor MIME retornat per Fileinfo pot ser diferent en diferents tipus de servidor!\n",
+                "select": "Tria un fitxer per inspeccionar els valors que s'utilitzaran. El fitxer no es desarà.",
+                "laravel-validation": "Validació de fitxer Laravel",
+                "no-file-selected": "Cap fitxer",
+                "validation-passed": "Correcte",
+                "validation-failed": "Incorrecte: {error}",
+                "mime-detector": "Detector de tipus MIME (primari)",
+                "mime-fileinfo": "PHP Fileinfo (mètode alternatiu)",
+                "guessed-extension": "Extensió de fitxer predeterminada (si l'original no està a la llista blanca)",
+                "not-available": "Cap resultat"
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "Gestor de mitjans",
             "buttons": {
-                "attach": "",
-                "upload": "",
-                "upload_shared": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": "",
-                "shared_media": ""
+                "attach": "Adjuntar",
+                "upload": "Pujar",
+                "upload_shared": "Compartit",
+                "user_uploads": "Pujades d'usuari",
+                "cancel": "Cancel·lar",
+                "media": "Els meus mitjans",
+                "shared_media": "Mitjans compartits"
             },
             "states": {
-                "error": "",
-                "loading": "",
-                "unauthorized": ""
+                "error": "Error",
+                "loading": "Pujant",
+                "unauthorized": "No tens permisos per descarregar fitxers"
             },
             "validation": {
-                "max_size": ""
+                "max_size": "No es permet la pujada de fitxers de més de {max} kb."
             },
             "text_preview": {
-                "expand": "",
-                "collapse": "",
-                "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
+                "expand": "Expandir la previsualització",
+                "collapse": "Replega la previsualització",
+                "error": "Error previsualitzant fitxer. Pot haver estat esborrat o l'identificador de fitxer facilitat és invàlid.\n",
+                "no_snippet_preview": "<la previsualització apareixerà aquí un cop s'hagi publicat>",
+                "no_snippet": "<no hi ha cap fragment de previsualització disponible>"
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
-                "unsupported_type": "",
-                "could_not_detect_mime": "",
-                "max_upload_file_size_ini": "",
-                "max_upload_file_size_form": "",
-                "partial_upload": "",
-                "no_file_uploaded": "",
-                "no_upload_tmp_folder": "",
-                "cannot_write_to_disk": "",
-                "upload_blocked_by_php_extension": "",
-                "no_files_made_it_to_upload": ""
+                "forbidden_type": "La pujada d'aquest tipus de fitxer no està permesa.",
+                "unsupported_type": "L'adaptador de pujada de fitxers no accepta aquest tipus MIME: {mime}.",
+                "could_not_detect_mime": "No s'ha pogut detectar el tipus MIME d'aquest fitxer. Si us plau, torna-ho a provar.",
+                "max_upload_file_size_ini": "S'ha excedit la mida màxima de fitxers que es poden pujar especificada a php.ini.",
+                "max_upload_file_size_form": "S'ha excedit la mida màxima de fitxers que es poden pujar especificada al formulari.",
+                "partial_upload": "Pujada parcial.",
+                "no_file_uploaded": "No s'ha pujat cap fitxer.",
+                "no_upload_tmp_folder": "No hi ha cap carpeta temporal per pujar fitxers.",
+                "cannot_write_to_disk": "No s'ha pogut escriure al disc.",
+                "upload_blocked_by_php_extension": "Una extensió php ha bloquejat la pujada.",
+                "no_files_made_it_to_upload": "Si us plau, puja fitxers que no excedeixin els {max} kb."
             }
         },
         "lib": {
             "upload-shared-file-modal": {
-                "title": "",
+                "title": "Nou fitxer compartit",
                 "dropzone": "",
                 "hide-from-media-gallery": "",
                 "upload": ""
