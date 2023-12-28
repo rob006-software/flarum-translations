@@ -2,62 +2,62 @@
     "fof-drafts": {
         "admin": {
             "permissions": {
-                "start": "新しいトピックの下書き",
-                "schedule": "定期的な下書き"
+                "start": "下書きの作成",
+                "schedule": "下書きの予約投稿"
             },
             "settings": {
                 "title": "FoF Drafts",
-                "enable_scheduled_drafts": "定期的な下書きを有効にする",
+                "enable_scheduled_drafts": "下書きの予約投稿を有効化する",
                 "schedule_on_one_server": "タスクスケジューラに 'onOneServer()' 命令を使う (Redis/Memcache が必要)",
                 "schedule_log_output": "スケジューラの出力をログストレージに追加する"
             }
         },
         "console": {
-            "scheduled_drafts_disabled": "定期的な下書きは現在無効になっています。"
+            "scheduled_drafts_disabled": "下書きの予約投稿は現在無効になっています。"
         },
         "ref": {
-            "schedule_draft": "定期的な下書き"
+            "schedule_draft": "下書きの予約投稿"
         },
         "forum": {
             "composer": {
                 "title": "下書きを保存",
                 "saving": "保存中...",
-                "saved": "保存済!",
+                "saved": "保存しました",
                 "exit_alert": "編集した下書きを破棄しますか？",
                 "discard_empty_draft_alert": "空の下書きを破棄しますか？"
             },
             "dropdown": {
-                "empty_text": "下書きがありません",
+                "empty_text": "保存した下書きがありません",
                 "title": "下書き",
                 "delete_all_button": "すべての下書きを削除",
                 "delete_button": "下書き削除",
                 "schedule_button": "=> fof-drafts.ref.schedule_draft",
-                "scheduled_icon_tooltip": "{datetime} にスケジュール",
-                "scheduled_icon_tooltip_formatter": "L [at] LT",
+                "scheduled_icon_tooltip": "{datetime} に予約",
+                "scheduled_icon_tooltip_formatter": "L LT",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "下書きを削除してもよろしいですか？",
                 "delete_all_alert": "すべての下書きを削除してもよろしいですか？"
             },
             "schedule_draft_modal": {
                 "title": "=> fof-drafts.ref.schedule_draft",
-                "text": "下書きを後で自動的に投稿するようスケジューリングする！",
+                "text": "下書きを後で自動的に投稿するよう予約する",
                 "scheduled_text": "現在予定されている投稿日 {datetime}.",
-                "scheduled_error": "下書きがスケジューリングできません: {error}.",
-                "unschedule_button": "",
-                "unschedule_warning": "",
-                "reschedule_button": "",
-                "schedule_button": "",
-                "schedule_time_preview": "",
-                "schedule_time_preview_formatter": "",
-                "schedule_time_preview_invalid": ""
+                "scheduled_error": "下書きを予約出来ませんでした: {error}.",
+                "unschedule_button": "予約取り消し",
+                "unschedule_warning": "この下書きの予約投稿を取り消しますか？",
+                "reschedule_button": "予約変更",
+                "schedule_button": "予約",
+                "schedule_time_preview": "この下書きは<b>{datetime}</b>に自動的に公開されます。",
+                "schedule_time_preview_formatter": "LLLL",
+                "schedule_time_preview_invalid": "無効な日時です"
             },
             "user": {
                 "settings": {
-                    "drafts_heading": "",
-                    "draft_autosave_enable": "",
-                    "draft_autosave_interval_label": "",
-                    "draft_autosave_interval_button": "",
-                    "draft_autosave_interval_invalid": ""
+                    "drafts_heading": "下書き",
+                    "draft_autosave_enable": "下書きの自動保存を有効化しますか？",
+                    "draft_autosave_interval_label": "自動保存間隔 (秒)",
+                    "draft_autosave_interval_button": "更新間隔",
+                    "draft_autosave_interval_invalid": "更新間隔は4以上の整数で指定してください。"
                 }
             }
         }
