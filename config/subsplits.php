@@ -123,7 +123,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'vMajor.Minor.Patch',
 		],
-		'maintainers' => ['pepoliveras'],
+		'maintainers' => ['pepoliveras', 'joanaranda'],
 	],
 	'ckb' => [
 		'type' => 'language',
