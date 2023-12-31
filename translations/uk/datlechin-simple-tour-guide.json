@@ -2,29 +2,29 @@
     "datlechin-simple-tour-guide": {
         "admin": {
             "settings": {
-                "show_progress_label": "",
-                "show_progress_help": "",
-                "allow_close_label": "",
-                "allow_close_help": ""
+                "show_progress_label": "Показати прогрес",
+                "show_progress_help": "У верхній частині спливаючого вікна буде показано поточний крок і загальну кількість кроків.",
+                "allow_close_label": "Дозволити закрити",
+                "allow_close_help": "Дозвольте користувачам закривати спливаюче вікно, натиснувши на фон."
             },
             "edit_modal": {
-                "edit_step": "",
-                "create_step": "",
-                "delete_step": "",
-                "delete_step_confirmation": ""
+                "edit_step": "Редагувати {title}",
+                "create_step": "Створити новий крок",
+                "delete_step": "Видалити крок",
+                "delete_step_confirmation": "Ви впевнені, що хочете видалити цей крок?"
             },
-            "title": "",
-            "title_placeholder": "",
-            "description": "",
-            "description_placeholder": "",
-            "target": "",
-            "target_placeholder": ""
+            "title": "Заголовок",
+            "title_placeholder": "Заголовок кроку.",
+            "description": "Опис",
+            "description_placeholder": "Опис кроку.",
+            "target": "Ціль",
+            "target_placeholder": "Цільовий елемент кроку (наприклад: #element-id)."
         },
         "forum": {
-            "progress_text": "",
-            "next_btn_text": "",
-            "prev_btn_text": "",
-            "done_btn_text": ""
+            "progress_text": "{current} із {total}",
+            "next_btn_text": "Наст",
+            "prev_btn_text": "Попер",
+            "done_btn_text": "Готово"
         }
     }
 }
