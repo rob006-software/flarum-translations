@@ -127,7 +127,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/catalan">Catalan</a></td>
-		<td><a href="https://github.com/pepoliveras">pepoliveras</a></td>
+		<td><a href="https://github.com/pepoliveras">pepoliveras</a>, <a href="https://github.com/joanaranda">joanaranda</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/ca.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/ca/svg-badge.svg" alt="detailed translation status" />
