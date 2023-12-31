@@ -118,4 +118,3 @@
 | `flarum-extensions-mason` | [![#596 (closed)](https://img.shields.io/badge/PR-%23596-red)](https://github.com/rob006-software/flarum-translations/pull/596) |
 | `flarum-extensions-taxonomies` | [![#595 (closed)](https://img.shields.io/badge/PR-%23595-red)](https://github.com/rob006-software/flarum-translations/pull/595) |
 | `flarum-extensions-transliterator` | [![#585 (closed)](https://img.shields.io/badge/PR-%23585-red)](https://github.com/rob006-software/flarum-translations/pull/585) |
-| `litalino-template` | [![#1160 (open)](https://img.shields.io/badge/PR-%231160-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1160) |
