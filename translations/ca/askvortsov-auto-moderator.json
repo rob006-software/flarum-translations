@@ -2,79 +2,79 @@
     "askvortsov-auto-moderator": {
         "admin": {
             "action_drivers": {
-                "activate_email": "",
-                "add_to_group": "",
-                "remove_from_group": "",
-                "suspend": "",
-                "unsuspend": ""
+                "activate_email": "Activar correu electrònic",
+                "add_to_group": "Afegir a grup",
+                "remove_from_group": "Eliminar de grup",
+                "suspend": "Suspendre",
+                "unsuspend": "Eliminar la suspensió"
             },
             "metric_drivers": {
-                "discussions_entered": "",
-                "discussions_participated": "",
-                "discussions_started": "",
-                "posts_made": "",
-                "likes_given": "",
-                "likes_received": "",
-                "best_answers": "",
-                "moderator_strikes": ""
+                "discussions_entered": "Debats llegits",
+                "discussions_participated": "Debats on s'ha participat",
+                "discussions_started": "Debats iniciats",
+                "posts_made": "Publicacions fetes",
+                "likes_given": "\"M'agrada\" donats",
+                "likes_received": "\"M'agrada\" rebuts",
+                "best_answers": "Millors respostes",
+                "moderator_strikes": "Tocs d'atenció del moderador"
             },
             "requirement_drivers": {
-                "email_confirmed": "",
-                "in_group": "",
-                "suspended": "",
-                "email_matches_regex": ""
+                "email_confirmed": "Correu electrònic confirmat",
+                "in_group": "En el grup",
+                "suspended": "Suspès",
+                "email_matches_regex": "El correu electrònic compleix l'expressió regular"
             },
             "in_group_settings": {
-                "regex": ""
+                "regex": "Expressió regular per a correus electrònics vàlids, sense barres diagonals (\"/\")"
             },
             "group_selector": {
-                "placeholder": ""
+                "placeholder": "Tria un grup"
             },
             "suspend_selector": {
-                "days": "",
-                "indefinitely": ""
+                "days": "Dies de suspensió",
+                "indefinitely": "Suspendre indefinidament?"
             },
             "criterion_status": {
-                "heading": "",
-                "invalid": "",
-                "no_actions": "",
-                "no_metrics_or_reqs": "",
-                "valid": "",
-                "action_validation_errors": "",
-                "requirement_validation_errors": ""
+                "heading": "Validació d'estat",
+                "invalid": "Actualment, el criteri és invàlid. Si us plau, comprova els controladors següents per si hi ha errors.",
+                "no_actions": "No s'ha definit cap acció per a aquest criteri. Per tant, no s'executarà res tant si el criteri es compleix com si no.",
+                "no_metrics_or_reqs": "No s'ha definit cap mètrica ni cap requisit per a aquest criteri. Això implica que TOTS ELS USUARIS el compliran.",
+                "valid": "Aquest criteri és vàlid!",
+                "action_validation_errors": "S'han trobat els següents errors de validació del controlador d'acció:",
+                "requirement_validation_errors": "S'han trobat els següents errors de validació del controlador de requisits:"
             },
             "criterion_page": {
-                "driver_missing_ext": "",
-                "back": "",
-                "name_label": "",
-                "icon_label": "",
-                "description_label": "",
-                "new_criterion": "",
-                "negated": "",
-                "loading": "",
-                "delete_button": "",
-                "metrics_and_requirements_label": "",
-                "metrics_and_requirements_help": "",
-                "metrics_heading": "",
-                "requirements_heading": "",
-                "add_metric": "",
-                "actions_label": "",
-                "actions_help": "",
-                "actions_on_gain_heading": "",
-                "actions_on_loss_heading": "",
-                "add_action": ""
+                "driver_missing_ext": "Aquest controlador depèn d'extensions que no estan activades.",
+                "back": "Tornar a la llista de criteris",
+                "name_label": "Nom",
+                "icon_label": "Icona",
+                "description_label": "Descripció",
+                "new_criterion": "Crear criteri",
+                "negated": "Negat?",
+                "loading": "=> core.ref.loading",
+                "delete_button": "=> core.ref.delete",
+                "metrics_and_requirements_label": "Mètriques i requisits",
+                "metrics_and_requirements_help": "Aquests paràmetres definiran si els usuaris compleixen aquest criteri. Les mètriques representen intervals de valors, i els requisits són condicions booleanes (que poden ser certes o falses).",
+                "metrics_heading": "Mètriques",
+                "requirements_heading": "Requisits",
+                "add_metric": "Afegir mètrica",
+                "actions_label": "Accions",
+                "actions_help": "Les accions en cas de guany s'executen quan un usuari compleix un nou criteri. Les accions en cas de pèrdua s'executen quan un usuari deixa de complir un criteri.",
+                "actions_on_gain_heading": "Accions en cas de guany",
+                "actions_on_loss_heading": "Accions en cas de pèrdua",
+                "add_action": "Afegir acció"
             },
             "undefined_driver_item": {
-                "text": ""
+                "text": "ERROR! El controlador <strong>{driverName}</strong> no està definit. Molt probablement, el va afegir una extensió que no està instal·lada actualment. Hauràs de tornar a habilitar l'extensió o eliminar aquest controlador perquè el criteri torni a ser vàlid."
             },
             "automoderator_page": {
-                "criterion_invalid": "",
-                "list_heading": "",
-                "create_criterion_button": ""
+                "criterion_invalid": "El criteri és actualment invàlid. Si us plau, valida la seva configuració per a més informació",
+                "list_heading": "Criteris",
+                "create_criterion_button": "Crear nou criteri"
             },
             "automoderator_instructions": {
-                "header": "",
-                "text": ""
+                "header": "Instruccions sobre aquesta extensió",
+                "text": "<li>Quan un usuari compleix els criteris X, executa Y. Quan un usuari ja no compleixi els criteris X, executa Z.</li>\n<li><strong>Criteris:</strong> els criteris són el nucli d'aquesta extensió. Són conjunts arbitraris de mètriques i requisits. Quan un usuari compleix un criteri, s'executarà qualsevol acció \"amb guany\" per al criteri. Quan un usuari perd un criteri, s'executarà qualsevol acció \"en pèrdua\" del criteri.</li>\n<ul>\n   <li><strong>Mètrica:</strong> una condició numèrica. Per exemple, el recompte de publicacions o el nombre de m'agrada rebuts. Un criteri podria requerir un rang/mínim/màxim de mètriques.</li>\n   <li><strong>Requisit:</strong> una condició booleana abstracta. Per exemple, no ser suspès o tenir un correu electrònic que coincideixi amb una expressió regular determinada.</li>\n</ul>\n<li><strong>Accions:</strong> quelcom que passa automàticament quan es compleix o es perd un criteri. Això pot incloure qualsevol cosa, des d'afegir/eliminar un grup fins a enviar un correu electrònic o suspendre un usuari.</li>\n<li><strong>Activador:</strong> un conjunt d'esdeveniments que farien que els grups de criteris d'un usuari es tornin a avaluar. Aquestes formen part de les definicions de mètriques i requisits. Tots els criteris s'avaluaran en iniciar sessió: aquest és el \"disparador universal\".</li>\n<li>Les accions \"En pèrdua\" sempre s'executaran abans que les accions \"En guany\". D'aquesta manera, es duran a terme accions sempre que un usuari compleixi almenys un dels criteris que facin aquesta acció amb benefici.</li>\n<li>Tingues en compte que les accions només s'executen \"amb pèrdua\" i \"amb guany\". Les edicions manuals mentre un usuari compleix els requisits per a un criteri no activaran les accions \"amb benefici\" del criteri per tornar a aplicar-se.</li>\n<li>Si suprimiu un criteri, NO s'executaran les accions \"en pèrdua\" per als usuaris que actualment compleixen els requisits per al criteri.</li>\n<li>Si utilitzeu criteris per gestionar grups, us recomanem que mantingueu un conjunt separat de grups per gestionar-los segons criteris. No podreu afegir/eliminar usuaris d'aquests grups manualment.</li>\n"
             }
         },
         "lib": {
