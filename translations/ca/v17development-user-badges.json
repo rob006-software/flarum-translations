@@ -1,121 +1,121 @@
 {
     "v17development-flarum-badges": {
         "admin": {
-            "uncategorized": "",
-            "new_badge": "",
-            "create_category": "",
-            "update_badge": "",
-            "update_category": "",
-            "edit_category": "",
-            "nothing_here_yet": "",
-            "show_badges_on_user_card": "",
-            "number_of_badges_on_user_card": "",
-            "number_of_badges_on_user_card_help": "",
+            "uncategorized": "Sense categoritzar",
+            "new_badge": "Nova insígnia",
+            "create_category": "Crear categoria",
+            "update_badge": "Actualitzar insígnia",
+            "update_category": "Actualitzar categoria",
+            "edit_category": "Editar categoria",
+            "nothing_here_yet": "Encara no has creat insígnies ni categories.",
+            "show_badges_on_user_card": "Mostrar insígnies a la targeta d'usuari",
+            "number_of_badges_on_user_card": "Nombre d'insígnies",
+            "number_of_badges_on_user_card_help": "Nombre d'insígnies a mostrar a la targeta d'usuari",
             "permissions": {
-                "badge_detail_users": "",
-                "give_badge": "",
-                "take_badge": "",
-                "edit_own_card_badges": "",
-                "edit_card_badges": ""
+                "badge_detail_users": "Pot mostrar els usuaris a la pàgina de detalls de les insígnies",
+                "give_badge": "Atorgar insígnia a usuari",
+                "take_badge": "Agafar insígnia de l'usuari",
+                "edit_own_card_badges": "Editar les insígnies de la targeta d'usuari pròpia",
+                "edit_card_badges": "Editar les insígnies de la targeta d'usuari"
             },
             "confirm_dialog": {
-                "title": "",
-                "no": "",
-                "yes": ""
+                "title": "Confirmar",
+                "no": "No",
+                "yes": "Sí"
             },
             "confirm_messages": {
-                "delete_badge": "",
-                "delete_category": ""
+                "delete_badge": "Segur que vols suprimir aquesta insígnia? S'eliminarà per a tots els usuaris i l'operació és irreversible.",
+                "delete_category": "Segur que vols suprimir aquesta categoria? Les insígnies que pugui contenir es marcaran com a no categoritzades."
             },
             "badge": {
-                "name": "",
-                "icon": "",
-                "description": "",
-                "visible": "",
-                "visible_description": "",
-                "is_image": "",
-                "is_image_description": "",
-                "image": "",
-                "image_placeholder": "",
-                "icon_color": "",
-                "background_color": "",
-                "label_color": ""
+                "name": "Nom de la insígnia",
+                "icon": "Icona de la insígnia",
+                "description": "Descripció de la insígnia",
+                "visible": "Visible",
+                "visible_description": "Activar aquesta insígnia. Si està inactiva, no es mostrarà.",
+                "is_image": "La insígnia és una imatge",
+                "is_image_description": "Utilitzar una imatge en lloc de la insígnia per defecte",
+                "image": "Adreça web de la imatge que conté la insígnia",
+                "image_placeholder": "Entrar l'adreça web de la imatge de la insígnia",
+                "icon_color": "Color de la icona",
+                "background_color": "Color de fons",
+                "label_color": "Color del text"
             },
             "badge_category": {
-                "name": "",
-                "description": "",
-                "blockview": "",
-                "blockview_description": "",
-                "enabled": "",
-                "enabled_description": ""
+                "name": "Nom de la categoria",
+                "description": "Descripció de la categoria",
+                "blockview": "Vista de bloc",
+                "blockview_description": "Mostra categories i insígnies en un bloc a la vista de resum. Quan està desactivat, totes les insígnies es mostren en una taula.",
+                "enabled": "Activat",
+                "enabled_description": "Activa aquesta categoria. Quan està desactivada, totes les insígnies seran desactivades i la categoria quedarà oculta."
             },
             "auto_moderator": {
                 "not_installed": {
-                    "title": "",
-                    "content": "",
-                    "install": "",
-                    "dismiss": ""
+                    "title": "Recomenpensa automàticament usuaris amb insígnies",
+                    "content": "Aquesta extensió ofereix més funcionalitat quan l'extensió <a>Auto Moderator</a> està instal·lada i activa. Quan s'instal·la aquesta altra extensió, els usuaris poden automàticament recompensar amb insígnies sense la intervenció de cap usuari administrador!",
+                    "install": "Instal·lar",
+                    "dismiss": "No tornar a mostrar"
                 },
                 "action_drivers": {
-                    "badge_id": "",
-                    "give_badge": "",
-                    "remove_badge": ""
+                    "badge_id": "Identificador de la insígnia",
+                    "give_badge": "Atorgar insígnia",
+                    "remove_badge": "Suprimir insígnia"
                 },
                 "requirement_drivers": {
-                    "has_badge": ""
+                    "has_badge": "Té insígnia"
                 },
                 "metric_drivers": {
-                    "badges_received": ""
+                    "badges_received": "Insígnies rebudes"
                 },
                 "badge_selector": {
-                    "placeholder": "",
-                    "loading_badges": ""
+                    "placeholder": "Triar una insígnia",
+                    "loading_badges": "Carregant insígnies"
                 }
             }
         },
         "forum": {
-            "badge_information": "",
-            "all_badges": "",
-            "all_users": "",
-            "give_badge": "",
-            "update_badge": "",
-            "select_badge": "",
-            "user_has_badge": "",
-            "user_no_badges": "",
-            "no_received": "",
-            "uncategorized": "",
-            "save_changes": "",
+            "badge_information": "Informació de la insígnia",
+            "all_badges": "Veure totes les insígnies",
+            "all_users": "Veure tots els usuaris",
+            "give_badge": "Atorgar insígnia",
+            "update_badge": "Actualitzar insígnia",
+            "select_badge": "Triar insígnia",
+            "user_has_badge": "L'usuari(a) ja té aquesta insígnia.",
+            "user_no_badges": "Aquest usuari encara no té cap insígnia.",
+            "no_received": "Cap usuari ha guanyat aquesta insígnia.",
+            "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "Desar canvis",
             "badge": {
-                "badge": "",
-                "badges": "",
-                "name": "",
-                "description": "",
-                "earning_reason": "",
-                "update_earning_reason": "",
-                "no_earning_reason": "",
-                "earned_on": "",
-                "category": "",
-                "received_on": "",
-                "badge_details": "",
-                "earned_count": "",
-                "earned_by_count": "",
-                "others_link": ""
+                "badge": "Insígnia",
+                "badges": "Insígnies",
+                "name": "Nom de la insígnia",
+                "description": "Descripció de la insígnia",
+                "earning_reason": "Motiu per guanyar la insígnia",
+                "update_earning_reason": "Actualitzar el motiu per guanyar la insígnia",
+                "no_earning_reason": "No s'ha indicat cap motiu per guanyar la insígnia",
+                "earned_on": "Data en la qual s'ha guanyat la insígnia -",
+                "category": "Categoria de la insígnia",
+                "received_on": "Rebuda el dia {date}",
+                "badge_details": "Detalls de la insígnia",
+                "earned_count": "{count, plural, one {<b># usuari(a)</b> ha guanyat aquesta insígnia} other {<b># usuari/usuàries</b> han guanyat aquesta insígnia}}",
+                "earned_by_count": "{count, plural, one {<b># usuari(a)</b> ha guanyat aquesta insígnia} other {<b># usuari/usuàries</b> han guanyat aquesta insígnia}}",
+                "others_link": "+ {count} més"
             },
             "badges_in_card": {
-                "title": "",
-                "manage_badges": "",
-                "description": "",
-                "select_limit": "",
-                "hit_limit": ""
+                "title": "Insígnies a la targeta d'usuari",
+                "manage_badges": "Gestionar insígnies",
+                "description": "Pots canviar les insígnies visibles a la teva targeta d'usuari amb alguna de les teves altres insígnies. Si no en tries cap, es seleccionaran automàticament.",
+                "select_limit": "Pots triar {limit, plural, one {<b>una insígnia</b>} other {<b># insígnies</b>}} per ser mostrades a la teva targeta d'usuari.",
+                "hit_limit": "Queda lloc per a <b> {limit, plural, one {<b>una insígnia</b>} other {<b># insígnies</b>}}</b> a la teva target. Deselecciona una insígnia per fer lloc per inserir aquesta."
             },
             "moderation": {
-                "remove_badge": "",
-                "remove_badge_confirm": "",
-                "give_badge": ""
+                "remove_badge": "Treure insígnia a l'usuari",
+                "remove_badge_confirm": "Segur que vols treure-li aquesta insígnia a aquest usuari?",
+                "give_badge": "Atorgar insígnia"
             },
             "notification": {
-                "title": "",
-                "settings": ""
+                "title": "Has rebut una nova insígnia",
+                "settings": "He rebut una insígnia"
             }
         }
     }
