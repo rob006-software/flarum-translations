@@ -1,32 +1,32 @@
 {
     "flarum-ext-contactme": {
         "settings": {
-            "emaillabel": ""
+            "emaillabel": "Correu electrònic on s'enviarà el formulari"
         },
         "admin": {
             "settings": {
-                "emaillabel": ""
+                "emaillabel": "Correu electrònic on s'enviarà el formulari"
             }
         },
         "forum": {
-            "title": "",
-            "messagesent": "",
-            "plsregister": "",
-            "tocontinue": "",
-            "backsoon": "",
-            "notloggedin": "",
-            "placeholderName": "",
-            "emailfield": "",
-            "pageTitle": "",
-            "subject": "",
-            "sendForm": "",
-            "textAreaField": "",
-            "pText": ""
+            "title": "Contacta'ns",
+            "messagesent": "Missatge enviat!",
+            "plsregister": "Si us plau, registra't o inicia sessió",
+            "tocontinue": "per continuar amb aquest formulari de contacte",
+            "backsoon": "et contactarem en breu",
+            "notloggedin": "Si us plau, inicia la sessió per utilitzar el formulari de contacte",
+            "placeholderName": "Escriu el teu nom aquí",
+            "emailfield": "Escriu la teva adreça de correu electrònic",
+            "pageTitle": ".Contacta'ns",
+            "subject": "Missatge del formulari de contacte",
+            "sendForm": "Enviar missatge",
+            "textAreaField": "Escriu el teu missatge aquí",
+            "pText": "<p>Utiliza aquest formulari de contacte per enviar-nos propostes, peticions o qualsevol tipus de pregunta.</p>\n<p><strong>TRACTAMENT DE LES DADES PERSONALS</strong></p>\n<p>(d'acord amb el Reglament General de Protecció de Dades europeu)</p>\n<p>T'informem que les dades que facilitaràs a l'operador d'aquest lloc a l'omplir el \"formulari de contacte\", seran tractades d'acord amb el que disposa el Reglament General de Protecció de Dades Europeu (RGPD/GDPR).\n   El formulari de contacte disponible al lloc té l'únic objectiu de permetre als visitants del lloc contactar, si així ho desitgen, amb el responsable del lloc,.\n   enviant un correu electrònic al gestor a través del formulari esmentat.</p>\n<p>Segueix aquestes regles:</p>\n<li>No abusis del formulari de contacte per peticions que es poden fer mitjançant el fòrum</li>\n<li>No enviïs el mateix correu electrònic diverses vegades</li>\n"
         },
         "email": {
             "contact": {
-                "subject": "",
-                "body": ""
+                "subject": "Nou contacte mitjançant formulari",
+                "body": "Hola!\n\nHas rebut una nova petició mitjançant el formulari de contacte, per part de {username} (correu electrònic: {email})\n\nEl seu missatge és:\n\n{message}"
             }
         }
     }
