@@ -13,13 +13,13 @@
                 "custom_header_text": "=> core.ref.custom_header_text",
                 "custom_styles_cannot_use_less_features": "Les funcions @import i data-uri no es permeten a LESS personalitzat.",
                 "custom_styles_heading": "Estils personalitzats",
-                "custom_styles_text": "Personalitza l'aparença del teu fòrum afegint el teu propi codi Less/CSS que s'aplicarà a sobre dels estils predeterminats de Flarum.",
+                "custom_styles_text": "Personalitza l'aparença del teu fòrum afegint el teu propi codi Less/CSS que s'aplicarà a sobre dels estils predeterminats.",
                 "dark_mode_label": "Mode fosc",
                 "description": "Personalitza els colors, els logotips i altres variables del teu fòrum.",
                 "edit_css_button": "Editar el CSS personalitzat",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
-                "enter_hex_message": "Per favor, introdueix un codi de color hexadecimal.",
+                "enter_hex_message": "Si us plau, introdueix un codi de color hexadecimal.",
                 "favicon_heading": "Favicon",
                 "favicon_text": "Carrega una imatge que es mostrarà com a icona de drecera del fòrum.",
                 "logo_heading": "Logotip",
@@ -78,7 +78,7 @@
                 "label": "Mode de depuració actiu"
             },
             "edit_css": {
-                "customize_text": "Personalitza l'aparença del teu fòrum afegint el teu propi codi Less/CSS que s'aplicarà a sobre dels <a>estils predeterminats</a> de Flarum.",
+                "customize_text": "Personalitza l'aparença del teu fòrum afegint el teu propi codi Less/CSS que s'aplicarà a sobre dels <a>estils predeterminats</a>.",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Modificar CSS personalitzat"
             },
@@ -120,7 +120,7 @@
                 "mail_port_label": "Port",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Paràmetres de Mailgun",
-                "not_sending_message": "Flarum actualment no està enviant correus electrònics. Això pot ser degut al controlador seleccionat o a errors en la seva configuració.",
+                "not_sending_message": "El fòrum actualment no està enviant correus electrònics. Això pot ser degut al controlador seleccionat o a errors en la seva configuració.",
                 "send_test_mail_button": "Enviar",
                 "send_test_mail_heading": "Enviar un correu de prova",
                 "send_test_mail_success": "Correu de prova enviat satisfactòriament!",
@@ -215,7 +215,7 @@
                 "start_discussions_label": "Iniciar debat",
                 "title": "Permisos",
                 "view_forum_label": "Veure fòrum (debats i usuaris)",
-                "view_hidden_groups_label": "Veure distintius de grup ocults",
+                "view_hidden_groups_label": "Veure insígnies de grups ocults",
                 "view_last_seen_at_label": "Mostrar sempre quan s'ha vist l'usuari per darrer cop",
                 "view_post_ips_label": "Mostrar les adreces IP de les publicacions"
             },
@@ -448,7 +448,7 @@
             },
             "security": {
                 "browser_on_operating_system": "{browser} en {os}",
-                "cannot_terminate_current_session": "No es pot acabar la sessió activa actual. Tanqueu la sessió vosaltres.",
+                "cannot_terminate_current_session": "No es pot acabar la sessió activa actual. Tanca la sessió des del teu menú d'usuari.",
                 "created": "Creat",
                 "current_active_session": "Sessió activa actual",
                 "developer_tokens_heading": "Identificadors de desenvolupador",
