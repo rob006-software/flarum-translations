@@ -746,7 +746,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => ['KitsuneSolar', 'uidhub'],
+		'maintainers' => ['z17cx', 'uidbox20'],
 	],
 	'sc' => [
 		'type' => 'language',
