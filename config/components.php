@@ -1013,7 +1013,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-geo-weather-widget/1.1.0/resources/locale/en.yml',
 	],
 	'litalino-guestengagement' => [
-		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-ext-guestengagement/1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-ext-guestengagement/1.1.0/resources/locale/en.yml',
 	],
 	'litalino-more-bbcode' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-more-bbcode/1.9.0/resources/locale/en.yml',
