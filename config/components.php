@@ -725,7 +725,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/glowingblue-localizd.yml',
 	],
 	'glowingblue-password-strength' => [
-		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/3.2.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/4.0.0/locale/en.yml',
 	],
 	'glowingblue-redis-setup' => [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-redis-setup/1.2.1/resources/locale/en.yml',
