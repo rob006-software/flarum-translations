@@ -12,25 +12,25 @@
         "forum": {
             "notifications": {
                 "others_text": "",
-                "post_liked_text": ""
+                "post_liked_text": "{username} je všečkal tvojo objavo"
             },
             "post": {
-                "like_link": "",
-                "liked_by_self_text": "",
+                "like_link": "Všeč",
+                "liked_by_self_text": "{users} je to všeč.",
                 "liked_by_text": "",
                 "others_link": "",
-                "unlike_link": "",
+                "unlike_link": "Ni všeč",
                 "you_text": ""
             },
             "post_likes": {
-                "title": "",
+                "title": "Uporabniki, ki so to všečkali",
                 "load_more_button": ""
             },
             "settings": {
                 "notify_post_liked_label": ""
             },
             "user": {
-                "likes_link": ""
+                "likes_link": "Všečki"
             }
         }
     }
