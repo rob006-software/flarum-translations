@@ -12,10 +12,10 @@
         "forum": {
             "composer": {
                 "mention_tooltip": "",
-                "reply_to_post_text": ""
+                "reply_to_post_text": "Odgovori na #{number}"
             },
             "mentioned_by": {
-                "title": "",
+                "title": "Odgovori na to objavo",
                 "load_more_button": ""
             },
             "notifications": {
@@ -25,11 +25,11 @@
                 "group_mentioned_text": ""
             },
             "post": {
-                "mentioned_by_more_text": "",
-                "mentioned_by_self_text": "",
+                "mentioned_by_more_text": "{count} dodatnih odgovorov.",
+                "mentioned_by_self_text": "{users} je odgovorilo na to.",
                 "mentioned_by_text": "",
                 "others_text": "",
-                "quote_button": "",
+                "quote_button": "Citiraj",
                 "reply_link": "",
                 "you_text": ""
             },
