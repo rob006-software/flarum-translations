@@ -231,7 +231,7 @@
                 "signup_open_button": ""
             },
             "settings": {
-                "saved_message": "Spremembe so bile shranjene",
+                "saved_message": "Spremembe so bile shranjene.",
                 "submit_button": ""
             },
             "upload_image": {
@@ -427,7 +427,7 @@
             "post_scrubber": {
                 "now_link": "Pravkar",
                 "original_post_link": "",
-                "unread_text": "",
+                "unread_text": "{count} neprebranih",
                 "viewing_text": ""
             },
             "post_stream": {
@@ -459,13 +459,13 @@
                     "log_out_button": ""
                 },
                 "hide_access_token": "",
-                "last_activity": "",
+                "last_activity": "Zadnja dejavnost",
                 "never": "",
                 "new_access_token_button": "",
                 "new_access_token_modal": {
                     "submit_button": "",
                     "title": "",
-                    "title_placeholder": ""
+                    "title_placeholder": "Naslov"
                 },
                 "revoke_access_token": "",
                 "revoke_access_token_confirmation": "",
@@ -497,12 +497,12 @@
             "sign_up": {
                 "dismiss_button": "",
                 "email_placeholder": "",
-                "log_in_text": "",
+                "log_in_text": "Že imate račun? <a>Prijavite se</a>",
                 "password_placeholder": "",
                 "submit_button": "",
                 "title": "",
                 "username_placeholder": "",
-                "welcome_text": ""
+                "welcome_text": "Dobrodošli, {username}!"
             },
             "user": {
                 "avatar_remove_button": "",
@@ -511,7 +511,7 @@
                 "discussions_link": "",
                 "in_discussion_text": "",
                 "joined_date_text": "",
-                "online_text": "",
+                "online_text": "Prisotni",
                 "posts_empty_text": "",
                 "posts_link": "",
                 "posts_load_more_button": "",
@@ -530,7 +530,7 @@
             "user_email_confirmation": {
                 "alert_message": "",
                 "resend_button": "",
-                "sent_message": ""
+                "sent_message": "Poslano"
             },
             "welcome_hero": {
                 "hide": ""
@@ -539,10 +539,10 @@
         "lib": {
             "debug_button": "",
             "alert": {
-                "dismiss_a11y_label": ""
+                "dismiss_a11y_label": "Opust opozorilo"
             },
             "badge": {
-                "hidden_tooltip": ""
+                "hidden_tooltip": "Skrit"
             },
             "dropdown": {
                 "toggle_dropdown_accessible_label": ""
@@ -557,7 +557,7 @@
                 "groups_heading": "",
                 "password_heading": "",
                 "password_label": "",
-                "set_password_label": "",
+                "set_password_label": "Nastavi novo geslo",
                 "submit_button": "",
                 "title": "",
                 "username_heading": "",
@@ -568,14 +568,14 @@
                 "circular_dependencies_message": "",
                 "dependent_extensions_message": "",
                 "extension_initialiation_failed_message": "",
-                "generic_message": "",
+                "generic_message": "Oops! Nekaj je šlo narobe. Prosim, osvežite stran in poizkusite ponovno.",
                 "generic_cross_origin_message": "",
                 "missing_dependencies_message": "",
                 "not_found_message": "",
                 "payload_too_large_message": "",
-                "permission_denied_message": "",
-                "rate_limit_exceeded_message": "",
-                "render_failed_message": ""
+                "permission_denied_message": "Nimate dovoljenja za to.",
+                "rate_limit_exceeded_message": "Malo prezgodaj. Poizkusite znova čez nekaj sekund.",
+                "render_failed_message": "Oprostite, med prikazovanjem te vsebine je prišlo do napake. Če ste uporabnik, poskusite znova pozneje. Če ste skrbnik, poglejte v dnevniške datoteke Flarum za več informacij."
             },
             "loading_indicator": {
                 "accessible_label": ""
@@ -585,7 +585,7 @@
                 "without_page_title": ""
             },
             "modal": {
-                "close": ""
+                "close": "Zapri"
             },
             "nav": {
                 "drawer_button": ""
@@ -596,8 +596,8 @@
             },
             "series": {
                 "glue_text": "",
-                "three_text": "",
-                "two_text": ""
+                "three_text": "{first}, {second}, in {third}",
+                "two_text": "{first} in {second}"
             },
             "username": {
                 "deleted_text": ""
@@ -621,7 +621,7 @@
             },
             "confirm_email": {
                 "submit_button": "",
-                "text": "",
+                "text": "Kliknite spodnji gumb, da potrdite e-poštni naslov vašega računa.",
                 "title": ""
             },
             "content": {
@@ -634,14 +634,14 @@
                 "previous_page_button": ""
             },
             "error": {
-                "csrf_token_mismatch": "",
-                "csrf_token_mismatch_return_link": "",
-                "invalid_confirmation_token": "",
-                "not_authenticated": "",
-                "not_found": "",
-                "not_found_return_link": "",
-                "permission_denied": "",
-                "unknown": ""
+                "csrf_token_mismatch": "Predolgo ste bili neaktivni.",
+                "csrf_token_mismatch_return_link": "Pojdite nazaj, da poskusite znova",
+                "invalid_confirmation_token": "Ta potrditvena povezava je bila že uporabljena ali pa je neveljavna.",
+                "not_authenticated": "Nimate dovoljenja za dostop do te strani. Po prijavi poskusite znova.",
+                "not_found": "Strani, ki ste jo zahtevali, ni bilo mogoče najti.",
+                "not_found_return_link": "Vrni se na {forum}",
+                "permission_denied": "Nimate dovoljenja za dostop do te strani.",
+                "unknown": "Med poskusom nalaganja te strani je prišlo do napake."
             },
             "index": {
                 "all_discussions_heading": "",
@@ -650,12 +650,12 @@
             },
             "log_out": {
                 "log_out_button": "",
-                "log_out_confirmation": "",
+                "log_out_confirmation": "Ali ste prepričani, da se želite odjaviti s {forum}?",
                 "title": ""
             },
             "reset_password": {
-                "confirm_password_label": "",
-                "new_password_label": "",
+                "confirm_password_label": "Potrditev novega gesla",
+                "new_password_label": "Novo geslo",
                 "submit_button": "",
                 "title": ""
             }
@@ -688,12 +688,12 @@
         },
         "ref": {
             "all_discussions": "Vsi pogovori",
-            "change_email": "",
-            "change_password": "",
+            "change_email": "Spremeni Epoštni naslov",
+            "change_password": "Spremeni geslo",
             "color": "",
-            "confirm_password": "",
-            "confirm_email": "",
-            "confirmation_email_sent": "",
+            "confirm_password": "Potrdi geslo",
+            "confirm_email": "Potrdi Epošto",
+            "confirmation_email_sent": "Poslali smo potrditveno e-poštno sporočilo na {email}. Če ne prispe kmalu, preverite mapo z vsiljeno pošto.",
             "custom_footer_text": "",
             "custom_footer_title": "",
             "custom_header_text": "",
@@ -701,9 +701,9 @@
             "delete": "",
             "delete_forever": "",
             "discussions": "Pogovori",
-            "edit": "",
+            "edit": "Urejanje",
             "edit_user": "",
-            "email": "",
+            "email": "Epošta",
             "extensions": "",
             "generic_confirmation_message": "",
             "icon": "",
@@ -712,8 +712,8 @@
             "loading": "",
             "log_in": "Prijavi se",
             "log_out": "Odjavi se",
-            "mark_all_as_read": "",
-            "never": "",
+            "mark_all_as_read": "Označi vse kot prebrano",
+            "never": "Nikoli",
             "new_token": "",
             "next_page": "Naslednja stran",
             "notifications": "Obvestila",
@@ -728,9 +728,9 @@
             "restore": "",
             "save_changes": "Shrani spremembe",
             "search_users": "Iskanje uporabnikov",
-            "security": "",
+            "security": "Varnost",
             "settings": "Nastavitve",
-            "sign_up": "",
+            "sign_up": "Prijavite se",
             "some_others": "",
             "start_a_discussion": "Začni pogovor",
             "username": "Uporabniško ime",
