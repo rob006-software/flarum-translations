@@ -34,8 +34,8 @@
                 "display_name_text": "",
                 "forum_description_heading": "Opis foruma",
                 "forum_description_text": "",
-                "forum_title_heading": "",
-                "home_page_heading": "",
+                "forum_title_heading": "Naslov foruma",
+                "home_page_heading": "Domača stran",
                 "home_page_text": "",
                 "show_language_selector_label": "",
                 "slug_driver_heading": "",
@@ -65,8 +65,8 @@
                         "session-driver": ""
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
+                        "active": "Aktiven",
+                        "inactive": "Neaktiven",
                         "never-run": ""
                     }
                 },
@@ -135,11 +135,11 @@
                 "enable_to_see": "",
                 "enabled": "",
                 "info_links": {
-                    "discuss": "",
+                    "discuss": "Pogovor",
                     "documentation": "",
                     "donate": "",
                     "source": "",
-                    "support": "",
+                    "support": "Podpora",
                     "website": ""
                 },
                 "no_permissions": "",
@@ -168,7 +168,7 @@
                 "categories": {
                     "authentication": "",
                     "core": "",
-                    "discussion": "",
+                    "discussion": "Pogovor",
                     "feature": "",
                     "formatting": "",
                     "language": "",
@@ -236,7 +236,7 @@
             },
             "upload_image": {
                 "remove_button": "",
-                "upload_button": ""
+                "upload_button": "Izberi datoteko..."
             },
             "users": {
                 "create_user_button": "",
@@ -276,7 +276,7 @@
                 "pagination": {
                     "back_button": "Prejšnja stran",
                     "first_button": "Na prvo stran",
-                    "go_to_page_textbox_a11y_label": "",
+                    "go_to_page_textbox_a11y_label": "Pojdite na številko strani",
                     "last_button": "Na zadnjo stran",
                     "next_button": "Naslednja stran",
                     "page_counter": "Stran {current} od {total}"
@@ -301,16 +301,16 @@
                 "title": ""
             },
             "composer": {
-                "close_tooltip": "",
+                "close_tooltip": "Zapri",
                 "exit_full_screen_tooltip": "",
                 "full_screen_tooltip": "",
                 "minimize_tooltip": "",
                 "preview_tooltip": "Predogled"
             },
             "composer_discussion": {
-                "body_placeholder": "",
-                "discard_confirmation": "",
-                "submit_button": "",
+                "body_placeholder": "Napiši objavo...",
+                "discard_confirmation": "Niste shranili svoje objave. Ali jo želite zavreči?",
+                "submit_button": "Objavi",
                 "title": "",
                 "title_placeholder": "Naslov teme"
             },
@@ -334,9 +334,9 @@
                 "delete_button": "",
                 "delete_confirmation": "",
                 "delete_forever_button": "",
-                "log_in_to_reply_button": "Prijavite se za odgovor",
+                "log_in_to_reply_button": "Vpišite se za odgovor",
                 "rename_button": "",
-                "reply_button": "",
+                "reply_button": "=> core.ref.reply",
                 "restore_button": "",
                 "toggle_dropdown_accessible_label": ""
             },
@@ -497,7 +497,7 @@
             "sign_up": {
                 "dismiss_button": "",
                 "email_placeholder": "",
-                "log_in_text": "Že imate račun? <a>Prijavite se</a>",
+                "log_in_text": "Že imate račun? <a>Vpišite se</a>",
                 "password_placeholder": "",
                 "submit_button": "",
                 "title": "",
@@ -506,7 +506,7 @@
             },
             "user": {
                 "avatar_remove_button": "",
-                "avatar_upload_button": "",
+                "avatar_upload_button": "Naloži",
                 "avatar_upload_tooltip": "",
                 "discussions_link": "",
                 "in_discussion_text": "",
@@ -575,7 +575,7 @@
                 "payload_too_large_message": "",
                 "permission_denied_message": "Nimate dovoljenja za to.",
                 "rate_limit_exceeded_message": "Malo prezgodaj. Poizkusite znova čez nekaj sekund.",
-                "render_failed_message": "Oprostite, med prikazovanjem te vsebine je prišlo do napake. Če ste uporabnik, poskusite znova pozneje. Če ste skrbnik, poglejte v dnevniške datoteke Flarum za več informacij."
+                "render_failed_message": "Oprostite, med prikazovanjem te vsebine je prišlo do napake. Če ste uporabnik, poskusite znova pozneje. Če ste skrbnik, poglejte v Flarum log datoteke za več informacij."
             },
             "loading_indicator": {
                 "accessible_label": ""
@@ -690,7 +690,7 @@
             "all_discussions": "Vsi pogovori",
             "change_email": "Spremeni Epoštni naslov",
             "change_password": "Spremeni geslo",
-            "color": "",
+            "color": "Barva",
             "confirm_password": "Potrdi geslo",
             "confirm_email": "Potrdi Epošto",
             "confirmation_email_sent": "Poslali smo potrditveno e-poštno sporočilo na {email}. Če ne prispe kmalu, preverite mapo z vsiljeno pošto.",
@@ -701,17 +701,17 @@
             "delete": "",
             "delete_forever": "",
             "discussions": "Pogovori",
-            "edit": "Urejanje",
-            "edit_user": "",
+            "edit": "Uredi",
+            "edit_user": "Uredi uporabnika",
             "email": "Epošta",
             "extensions": "",
             "generic_confirmation_message": "",
             "icon": "",
             "icon_text": "",
             "load_more": "Naloži več",
-            "loading": "",
-            "log_in": "Prijavi se",
-            "log_out": "Odjavi se",
+            "loading": "Nalagam...",
+            "log_in": "Vpiši se",
+            "log_out": "Odjava",
             "mark_all_as_read": "Označi vse kot prebrano",
             "never": "Nikoli",
             "new_token": "",
