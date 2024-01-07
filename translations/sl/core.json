@@ -14,7 +14,7 @@
                 "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "",
                 "custom_styles_text": "",
-                "dark_mode_label": "",
+                "dark_mode_label": "Temni način",
                 "description": "",
                 "edit_css_button": "",
                 "edit_footer_button": "",
@@ -197,7 +197,7 @@
                 "delete_posts_forever_label": "",
                 "delete_posts_label": "",
                 "description": "",
-                "edit_posts_label": "",
+                "edit_posts_label": "Urejanje objav",
                 "edit_users_label": "",
                 "edit_users_credentials_label": "",
                 "edit_users_groups_label": "",
@@ -211,7 +211,7 @@
                 "rename_discussions_label": "",
                 "reply_to_discussions_label": "",
                 "search_users_label": "",
-                "sign_up_label": "",
+                "sign_up_label": "Prijavi se",
                 "start_discussions_label": "",
                 "title": "",
                 "view_forum_label": "",
@@ -227,11 +227,11 @@
                 "allow_until_reply_button": "",
                 "everyone_button": "",
                 "members_button": "",
-                "signup_closed_button": "",
+                "signup_closed_button": "Zaprto",
                 "signup_open_button": ""
             },
             "settings": {
-                "saved_message": "",
+                "saved_message": "Spremembe so bile shranjene",
                 "submit_button": ""
             },
             "upload_image": {
@@ -267,23 +267,23 @@
                             "title": ""
                         },
                         "username": {
-                            "profile_link_tooltip": "",
+                            "profile_link_tooltip": "Ogled {username} profila",
                             "title": ""
                         }
                     },
                     "invalid_column_content": ""
                 },
                 "pagination": {
-                    "back_button": "",
-                    "first_button": "",
+                    "back_button": "Prejšnja stran",
+                    "first_button": "Na prvo stran",
                     "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
-                    "next_button": "",
-                    "page_counter": ""
+                    "last_button": "Na zadnjo stran",
+                    "next_button": "Naslednja stran",
+                    "page_counter": "Stran {current} od {total}"
                 },
                 "search_placeholder": "",
                 "title": "",
-                "total_users": ""
+                "total_users": "Vseh uporabnikov: {count}"
             }
         },
         "forum": {
@@ -291,7 +291,7 @@
                 "confirm_password_placeholder": "",
                 "confirmation_message": "",
                 "dismiss_button": "",
-                "incorrect_password_message": "",
+                "incorrect_password_message": "Vpisano geslo ni pravilno.",
                 "submit_button": "",
                 "title": ""
             },
@@ -305,19 +305,19 @@
                 "exit_full_screen_tooltip": "",
                 "full_screen_tooltip": "",
                 "minimize_tooltip": "",
-                "preview_tooltip": ""
+                "preview_tooltip": "Predogled"
             },
             "composer_discussion": {
                 "body_placeholder": "",
                 "discard_confirmation": "",
                 "submit_button": "",
                 "title": "",
-                "title_placeholder": ""
+                "title_placeholder": "Naslov teme"
             },
             "composer_edit": {
-                "discard_confirmation": "",
+                "discard_confirmation": "Spremembe niso shranjene. Jih želite zavreči?",
                 "edited_message": "",
-                "post_link": "",
+                "post_link": "Objava #{number} v {discussion}",
                 "submit_button": "",
                 "view_button": ""
             },
@@ -330,7 +330,7 @@
             },
             "discussion_controls": {
                 "cannot_reply_button": "",
-                "cannot_reply_text": "",
+                "cannot_reply_text": "Nimate pravic za sodelovanje v tej temi.",
                 "delete_button": "",
                 "delete_confirmation": "",
                 "delete_forever_button": "",
@@ -341,10 +341,10 @@
                 "toggle_dropdown_accessible_label": ""
             },
             "discussion_list": {
-                "empty_text": "",
+                "empty_text": "Zdi se, da tukaj ni nobene razprave.",
                 "load_more_button": "",
-                "replied_text": "",
-                "started_text": "",
+                "replied_text": "{username} odgovoril {ago}",
+                "started_text": "{username} začel {ago}",
                 "total_replies_a11y_label": "",
                 "unread_replies_a11y_label": ""
             },
@@ -352,10 +352,10 @@
                 "dismiss_button": "",
                 "email_placeholder": "",
                 "email_sent_message": "",
-                "not_found_message": "",
+                "not_found_message": "Ni uporabnika s tem epoštnim naslovom.",
                 "submit_button": "",
-                "text": "",
-                "title": ""
+                "text": "Vpišite svoj epoštni naslov na katerega vam bomo poslali povezavo za ponastavitev gesla.",
+                "title": "Pozabljeno geslo"
             },
             "header": {
                 "admin_button": "",
@@ -365,8 +365,8 @@
                 "log_out_button": "",
                 "profile_button": "",
                 "search_clear_button_accessible_label": "",
-                "search_placeholder": "",
-                "search_role_label": "",
+                "search_placeholder": "Iskanje po forumu",
+                "search_role_label": "Iskanje po forumu",
                 "session_dropdown_accessible_label": "",
                 "settings_button": "",
                 "sign_up_link": ""
@@ -377,7 +377,7 @@
                 "mark_all_as_read_confirmation": "",
                 "mark_all_as_read_tooltip": "",
                 "meta_title_text": "",
-                "refresh_tooltip": "",
+                "refresh_tooltip": "Osveži",
                 "start_discussion_button": "",
                 "toggle_sidenav_dropdown_accessible_label": ""
             },
@@ -390,14 +390,14 @@
                 "top_button": ""
             },
             "log_in": {
-                "forgot_password_link": "",
-                "invalid_login_message": "",
+                "forgot_password_link": "Ste pozabili geslo?",
+                "invalid_login_message": "Vaši podatki za prijavo so napačni.",
                 "password_placeholder": "",
-                "remember_me_label": "",
-                "sign_up_text": "",
+                "remember_me_label": "Zapomni se me",
+                "sign_up_text": "Še nimate računa? <a>Prijavite se</a>",
                 "submit_button": "",
                 "title": "",
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "Uporabniško ime ali epoštni naslov"
             },
             "notifications": {
                 "delete_all_confirm": "",
@@ -405,15 +405,15 @@
                 "discussion_renamed_text": "",
                 "empty_text": "",
                 "mark_all_as_read_tooltip": "",
-                "mark_as_read_tooltip": "",
+                "mark_as_read_tooltip": "Označi kot prebrano",
                 "title": "",
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Ogled obvestil",
                 "tooltip": ""
             },
             "post": {
                 "edited_text": "",
-                "edited_tooltip": "",
-                "number_tooltip": ""
+                "edited_tooltip": "{username} urejal {ago}",
+                "number_tooltip": "Objava #{number}"
             },
             "post_controls": {
                 "delete_button": "",
@@ -425,7 +425,7 @@
                 "toggle_dropdown_accessible_label": ""
             },
             "post_scrubber": {
-                "now_link": "",
+                "now_link": "Pravkar",
                 "original_post_link": "",
                 "unread_text": "",
                 "viewing_text": ""
@@ -661,7 +661,7 @@
             }
         },
         "api": {
-            "invalid_username_message": "",
+            "invalid_username_message": "Uporabniško ime lahko vsebuje samo črke, številke in pomišljaje.",
             "invalid_filter_type": {
                 "must_be_numeric_message": "",
                 "must_not_be_array_message": "",
@@ -687,7 +687,7 @@
             }
         },
         "ref": {
-            "all_discussions": "",
+            "all_discussions": "Vsi pogovori",
             "change_email": "",
             "change_password": "",
             "color": "",
@@ -700,7 +700,7 @@
             "custom_header_title": "",
             "delete": "",
             "delete_forever": "",
-            "discussions": "",
+            "discussions": "Pogovori",
             "edit": "",
             "edit_user": "",
             "email": "",
@@ -708,42 +708,42 @@
             "generic_confirmation_message": "",
             "icon": "",
             "icon_text": "",
-            "load_more": "",
+            "load_more": "Naloži več",
             "loading": "",
-            "log_in": "",
-            "log_out": "",
+            "log_in": "Prijavi se",
+            "log_out": "Odjavi se",
             "mark_all_as_read": "",
             "never": "",
             "new_token": "",
-            "next_page": "",
-            "notifications": "",
-            "okay": "",
-            "password": "",
-            "posts": "",
-            "previous_page": "",
-            "remove": "",
-            "rename": "",
-            "reply": "",
-            "reset_your_password": "",
+            "next_page": "Naslednja stran",
+            "notifications": "Obvestila",
+            "okay": "Vredu",
+            "password": "Geslo",
+            "posts": "Objave",
+            "previous_page": "Prejšnja stran",
+            "remove": "Odstrani",
+            "rename": "Preimenuj",
+            "reply": "Odgovori",
+            "reset_your_password": "Ponastavitev gesla",
             "restore": "",
-            "save_changes": "",
-            "search_users": "",
+            "save_changes": "Shrani spremembe",
+            "search_users": "Iskanje uporabnikov",
             "security": "",
-            "settings": "",
+            "settings": "Nastavitve",
             "sign_up": "",
             "some_others": "",
-            "start_a_discussion": "",
-            "username": "",
-            "users": "",
+            "start_a_discussion": "Začni pogovor",
+            "username": "Uporabniško ime",
+            "users": "Uporabniki",
             "view": "",
-            "write_a_reply": "",
-            "you": ""
+            "write_a_reply": "Napiši odgovor...",
+            "you": "Ti"
         },
         "group": {
             "admin": "",
             "admins": "",
-            "guest": "",
-            "guests": "",
+            "guest": "Gost",
+            "guests": "Gostje",
             "member": "",
             "members": "",
             "mod": "",
