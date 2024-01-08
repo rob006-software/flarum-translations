@@ -1,6 +1,18 @@
 {
     "blomstra-database-queue": {
         "admin": {
+            "settings": {
+                "backoff_label": "",
+                "backoff_help": "",
+                "memory_label": "",
+                "memory_help": "",
+                "rest_label": "",
+                "rest_help": "",
+                "retries_label": "",
+                "retries_help": "",
+                "timeout_label": "",
+                "timeout_help": ""
+            },
             "stats": {
                 "auto_refresh": "自動重新整理",
                 "heading": "隊列概覽",
