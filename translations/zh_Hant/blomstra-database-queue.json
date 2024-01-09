@@ -2,16 +2,16 @@
     "blomstra-database-queue": {
         "admin": {
             "settings": {
-                "backoff_label": "",
-                "backoff_help": "",
-                "memory_label": "",
-                "memory_help": "",
-                "rest_label": "",
-                "rest_help": "",
-                "retries_label": "",
-                "retries_help": "",
-                "timeout_label": "",
-                "timeout_help": ""
+                "backoff_label": "回退",
+                "backoff_help": "重試遇到未捕獲異常的作業之前等待的秒數。\n",
+                "memory_label": "記憶",
+                "memory_help": "記憶體限制（以兆位元組為單位）。\n",
+                "rest_label": "休息",
+                "rest_help": "作業之間休息的秒數。\n",
+                "retries_label": "重試",
+                "retries_help": "在記錄作業失敗之前嘗試作業的次數。\n",
+                "timeout_label": "暫停",
+                "timeout_help": "子進程可以運行的秒數。\n"
             },
             "stats": {
                 "auto_refresh": "自動重新整理",
