@@ -2,23 +2,23 @@
     "blomstra-horizon": {
         "admin": {
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
-                "full_dashboard": "",
-                "refresh": "",
+                "auto_refresh": "Otomatik Yenile",
+                "heading": "Kuyruğa Genel Bakış",
+                "full_dashboard": "Horizon Kontrol Paneli",
+                "refresh": "Yenile",
                 "data": {
-                    "jobs-per-minute": "",
-                    "jobs-past-hour": "",
-                    "failed-last-seconds": "",
+                    "jobs-per-minute": "Dakika Başına İş Sayısı",
+                    "jobs-past-hour": "Saat Başına İş Sayısı",
+                    "failed-last-seconds": "Birkaç Saniyeden Sonra Başarısız Olan İşler",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "Durum",
+                        "running": "Çalışanlar",
+                        "inactive": "Etkin Olmayanlar"
                     },
-                    "total-processes": "",
-                    "max-wait-time": "",
-                    "max-runtime": "",
-                    "max-throughput": ""
+                    "total-processes": "Toplam Süreç",
+                    "max-wait-time": "Maksimum Bekleme Süresi",
+                    "max-runtime": "Maksimum Çalışma Süresi",
+                    "max-throughput": "Maksimum Verim"
                 }
             }
         }
