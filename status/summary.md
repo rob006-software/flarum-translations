@@ -19,6 +19,7 @@
 | [`flarum/approval`](https://github.com/flarum/approval) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-approval/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-approval/) |
 | [`flarum/bbcode`](https://github.com/flarum/bbcode) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-bbcode/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-bbcode/) |
 | [`flarum/emoji`](https://github.com/flarum/emoji) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-emoji/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-emoji/) |
+| [`flarum/extension-manager`](https://github.com/flarum/extension-manager) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-extension-manager/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-extension-manager/) |
 | [`flarum/flags`](https://github.com/flarum/flags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-flags/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-flags/) |
 | [`flarum/likes`](https://github.com/flarum/likes) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-likes/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-likes/) |
 | [`flarum/lock`](https://github.com/flarum/lock) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-lock/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-lock/) |
