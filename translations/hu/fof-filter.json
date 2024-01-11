@@ -20,7 +20,7 @@
                 "switch": {
                     "email": "E-mail küldése a felhasználónak, ha a bejegyzése szűrésre kerül",
                     "merge": "Ismételt bejegyzések automatikus összevonása",
-                    "delete": ""
+                    "delete": "Kiszűrt bejegyzések automatikus törlése"
                 },
                 "email_subject": "Tárgy",
                 "email_body": "Törzs"
@@ -34,7 +34,7 @@
             },
             "email": {
                 "default_subject": "A friss bejegyzésével kapcsolatosan",
-                "default_text": "Köszönjük a bejegyzést! Sajnos a bejegyzése eltávolításra került, mert olyasmit tartalmaz, amit nem szeretnénk a fórumunkon látni.\n\nHa azt gondolja, hogy ez tévedés, akkor szerencséje van, a moderátorok az összes eltávolított bejegyzést átnézik. Ha úgy találják, hogy hibásan lett eltávolítva, akkor vissza fogják állítani.                \n\nKöszönjük a megértését."
+                "default_text": "Köszönjük a bejegyzést! Sajnos a bejegyzése eltávolításra került, mert olyasmit tartalmaz, amit nem szeretnénk a fórumunkon látni.\n\nHa azt gondolja, hogy ez tévedés, akkor szerencséje van, a moderátorok az összes eltávolított bejegyzést átnézik. Ha úgy találják, hogy hibásan lett eltávolítva, akkor vissza fogják állítani.                \n\nKöszönjük a megértését.\n"
             }
         }
     }
