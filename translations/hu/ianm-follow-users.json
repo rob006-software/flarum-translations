@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "followuser": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Exportálja a követett és a követő felhasználók részleteit.",
+                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "Törli a követő felhasználókkal kapcsolatos összes adatot."
                 }
             }
         }
@@ -21,7 +21,7 @@
             }
         },
         "forum": {
-            "followed": "Követett",
+            "followed": "Követve",
             "followers": "Követő",
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
