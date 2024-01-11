@@ -2,90 +2,90 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Новый метод авторизации",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "Хост",
+                    "host_placeholder": "например: extiverse.com",
+                    "submit_button": "Отправить",
+                    "token_label": "Ключ",
+                    "type_label": "Тип",
+                    "unchanged_token_placeholder": "(без изменений)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "Вы уверены, что хотите удалить этот метод авторизации?",
+                "delete_label": "Удалить метод авторизации",
+                "edit_label": "Править метод авторизации",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "Хост",
+                    "token": "Ключ"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "Методы авторизации не сконфигурированы. Это расширенная необязательная функция, позволяющая установку из частных репозиториев.",
+                "remove_button_label": "Удалить метод авторизации",
+                "title": "Методы авторизации",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "Вход через GitHub",
+                    "gitlab-oauth": "Вход через GitLab",
+                    "gitlab-token": "Ключ GitLab",
+                    "bearer": "HTTP Bearer"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "Добавить репозиторий",
+                "delete_repository_confirmation": "Вы уверены, что хотите удалить этот репозиторий? Все установленные из него расширения будут также удалены.",
+                "delete_repository_label": "Удалить репозиторий",
+                "edit_repository_label": "Править репозиторий",
+                "title": "Composer",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "Минимально стабильная",
+                    "help": "Тип пакетов, разрешенных для установки. Не изменяйте, если вы не уверены в том, что делаете.",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
+                        "stable": "Стабильная (рекомендовано)",
+                        "rc": "Релиз-кандидат",
+                        "beta": "Бета",
+                        "alpha": "Альфа",
                         "dev": ""
                     }
                 },
                 "repositories": {
-                    "label": "",
-                    "help": "",
+                    "label": "Репозитории",
+                    "help": "Добавить дополнительные репозитории для установки пакетов. Это расширенная опция - не добавляйте не доверенные репозитории - в их пакетах могут содержаться вирусы и вредоносный код\n",
                     "types": {
-                        "composer": "",
-                        "vcs": "",
-                        "path": ""
+                        "composer": "Composer",
+                        "vcs": "vcs",
+                        "path": "путь"
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
-                        "url": "",
-                        "submit_button": ""
+                        "name_label": "Имя",
+                        "type_label": "Тип",
+                        "url": "URL",
+                        "submit_button": "Отправить"
                     }
                 }
             },
             "exceptions": {
-                "composer_command_failure": "",
-                "extension_already_installed": "",
-                "extension_not_directly_dependency": "",
-                "extension_not_installed": "",
+                "composer_command_failure": "Не удалось запустить. Проверьте логи composer в папке storage/logs/composer.",
+                "extension_already_installed": "Расширение уже установлено.",
+                "extension_not_directly_dependency": "Расширение установлено как зависимость от другого расширения, оно не может быть удалено напрямую.",
+                "extension_not_installed": "Расширение не найдено.",
                 "guessed_cause": {
-                    "extension_incompatible_with_instance": "",
-                    "extension_not_found": "",
-                    "extensions_incompatible_with_new_major": ""
+                    "extension_incompatible_with_instance": "Это расширение, скорее всего, несовместимо с вашей версией Фларум.",
+                    "extension_not_found": "Расширение не найдено или не существует.",
+                    "extensions_incompatible_with_new_major": "Некоторые установленные расширения несовместимы с новым релизом. Пожалуйста, подождите пока автор(ы) расширения обновят его для обеспечения совместимости или удалите их перед продолжением.\n"
                 }
             },
             "extensions": {
-                "check_why_it_failed_updating": "",
-                "install": "",
+                "check_why_it_failed_updating": "Показать почему не обновилось до последней версии.",
+                "install": "Установить новое расширение",
                 "install_help": "",
-                "proceed": "",
-                "remove": "",
-                "successful_install": "",
-                "successful_remove": "",
-                "successful_update": "",
-                "update": "",
-                "update_soft_label": "",
-                "update_hard_label": ""
+                "proceed": "Продолжить",
+                "remove": "Деинсталлировать",
+                "successful_install": "{extension} установлено успешно, перенаправляю..",
+                "successful_remove": "Расширение успешно удалено.",
+                "successful_update": "{extension} обновлено успешно, перенаправляю..",
+                "update": "Обновить",
+                "update_soft_label": "Мягко обновить",
+                "update_hard_label": "Жестко обновить"
             },
-            "file_permissions": "",
+            "file_permissions": "Менеджер расширений требует разрешений на чтение и запись для следующих файлов и директорий: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
                 "description": "",
                 "dry_run": "",
