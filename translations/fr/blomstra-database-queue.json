@@ -2,16 +2,16 @@
     "blomstra-database-queue": {
         "admin": {
             "settings": {
-                "backoff_label": "",
-                "backoff_help": "",
-                "memory_label": "",
-                "memory_help": "",
-                "rest_label": "",
-                "rest_help": "",
-                "retries_label": "",
-                "retries_help": "",
-                "timeout_label": "",
-                "timeout_help": ""
+                "backoff_label": "Retour au début",
+                "backoff_help": "Le nombre de secondes à attendre avant de relancer une tâche qui a rencontré une exception non capturée.\n",
+                "memory_label": "Mémoire",
+                "memory_help": "La limite de mémoire en mégaoctets.\n",
+                "rest_label": "Repos",
+                "rest_help": "Le nombre de secondes de repos entre les tâches.\n",
+                "retries_label": "Tentatives",
+                "retries_help": "Le nombre de tentatives d'exécution d'une tâche avant d'enregistrer l'échec.\n",
+                "timeout_label": "Délai d'expiration",
+                "timeout_help": "Le nombre de secondes pendant lesquelles un processus enfant peut s'exécuter.\n"
             },
             "stats": {
                 "auto_refresh": "Actualisation automatique",
