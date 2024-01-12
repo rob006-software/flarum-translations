@@ -2,167 +2,167 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Nouvelle méthode d'authentification",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "Hôte",
+                    "host_placeholder": "exemple : extiverse.com",
+                    "submit_button": "Envoyer",
+                    "token_label": "Jeton",
+                    "type_label": "Type",
+                    "unchanged_token_placeholder": "(inchangé)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "Êtes-vous sûr de vouloir supprimer cette méthode d'authentification ?",
+                "delete_label": "Supprimer la méthode d'authentification",
+                "edit_label": "Modifier la méthode d'authentification",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "Hôte",
+                    "token": "Jeton"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "Aucune méthode d'authentification n'a été configurée. Il s'agit d'une fonctionnalité avancée facultative permettant l'installation à partir de dépôts privés.",
+                "remove_button_label": "Supprimer la méthode d'authentification",
+                "title": "Méthodes d'authentification",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "Jeton GitLab",
+                    "bearer": "Porteur HTTP"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "Ajouter un dépôt",
+                "delete_repository_confirmation": "Êtes-vous sûr de vouloir supprimer ce dépôt ? Toutes les extensions installées à partir de ce dépôt seront supprimées.",
+                "delete_repository_label": "Supprimer le dépôt",
+                "edit_repository_label": "Modifier le dépôt",
+                "title": "Composer",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "Stabilité minimale",
+                    "help": "Le type de paquets autorisés à être installés. Ne modifiez pas ce paramètre si vous ne savez pas ce que vous faites.",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "stable": "Stable (recommandé)",
+                        "rc": "Release Candidate",
+                        "beta": "Bêta",
+                        "alpha": "Alpha",
+                        "dev": "Développement"
                     }
                 },
                 "repositories": {
-                    "label": "",
-                    "help": "",
+                    "label": "Dépôts",
+                    "help": "Ajouter des dépôts supplémentaires à partir desquels installer des paquets. Il s'agit d'une fonctionnalité avancée, n'ajoutez pas de dépôts qui ne sont pas fiables car ils peuvent être utilisés pour exécuter du code malveillant sur votre serveur.\n",
                     "types": {
-                        "composer": "",
-                        "vcs": "",
-                        "path": ""
+                        "composer": "composer",
+                        "vcs": "vcs",
+                        "path": "chemin"
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
-                        "url": "",
-                        "submit_button": ""
+                        "name_label": "Nom",
+                        "type_label": "Type",
+                        "url": "URL",
+                        "submit_button": "Envoyer"
                     }
                 }
             },
             "exceptions": {
-                "composer_command_failure": "",
-                "extension_already_installed": "",
-                "extension_not_directly_dependency": "",
-                "extension_not_installed": "",
+                "composer_command_failure": "Échec de l'exécution. Vérifiez les journaux de Composer dans storage/logs/composer.",
+                "extension_already_installed": "L'extension est déjà installée.",
+                "extension_not_directly_dependency": "L'extension est installée en tant que dépendance d'une autre extension, elle ne peut pas être supprimée directement.",
+                "extension_not_installed": "L'extension est introuvable.",
                 "guessed_cause": {
-                    "extension_incompatible_with_instance": "",
-                    "extension_not_found": "",
-                    "extensions_incompatible_with_new_major": ""
+                    "extension_incompatible_with_instance": "L'extension est probablement incompatible avec votre instance Flarum actuelle.",
+                    "extension_not_found": "L'extension n'a pas été trouvée ou n'existe pas.",
+                    "extensions_incompatible_with_new_major": "Certaines extensions installées ne sont pas compatibles avec la dernière version majeure. Veuillez attendre que les extensions soient mises à jour par leurs auteurs ou supprimez-les avant de continuer.\n"
                 }
             },
             "extensions": {
-                "check_why_it_failed_updating": "",
-                "install": "",
-                "install_help": "",
-                "proceed": "",
-                "remove": "",
-                "successful_install": "",
-                "successful_remove": "",
-                "successful_update": "",
-                "update": "",
-                "update_soft_label": "",
-                "update_hard_label": ""
+                "check_why_it_failed_updating": "Montrer pourquoi elle n'a pas été mise à jour.",
+                "install": "Installer une nouvelle extension",
+                "install_help": "Indiquez le nom du paquet d'extension pour continuer. Vous pouvez spécifier une <semantic_link>version sémantique</semantic_link> en utilisant le format <code>vendor/package-name:version</code>. Veuillez visiter {extiverse} pour parcourir les extensions.\n",
+                "proceed": "Procéder",
+                "remove": "Désinstaller",
+                "successful_install": "L'extension {extension} a été installée, redirection en cours…",
+                "successful_remove": "L'extension a été supprimée avec succès.",
+                "successful_update": "L'extension {extension} a été mise à jour, redirection en cours…",
+                "update": "Mettre à jour",
+                "update_soft_label": "Mise à jour douce",
+                "update_hard_label": "Mise à jour rigoureuse"
             },
-            "file_permissions": "",
+            "file_permissions": "Le gestionnaire d'extension requiert des droits de lecture et d'écriture sur les fichiers et répertoires suivants : composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
-                "description": "",
-                "dry_run": "",
-                "dry_run_help": "",
+                "description": "Les mises à jour majeures de Flarum ne sont pas rétrocompatibles ce qui signifie que certaines de vos extensions actuellement installées et les modifications faites manuellement pourraient ne pas fonctionner avec cette nouvelle version. Veuillez vous assurer de faire une sauvegarde de votre base de données et de vos fichiers avant de procéder à la mise à jour.\n",
+                "dry_run": "Exécution à vide",
+                "dry_run_help": "Une exécution à vide émule la mise à jour pour voir si votre configuration actuelle peut être mise à jour en toute sécurité, ce qui ne signifie pas que vos modifications personnalisées faites manuellement fonctionneront dans la nouvelle version.",
                 "failure": {
-                    "desc": "",
-                    "why": ""
+                    "desc": "La dernière mise à jour majeure a échoué, certaines extensions installées ne sont pas compatibles avec la nouvelle version majeure.",
+                    "why": "En savoir plus"
                 },
-                "title": "",
-                "update": ""
+                "title": "Mise à jour majeure de Flarum {version} disponible",
+                "update": "Mettre à jour"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Cela mettra également à jour tous les autres extensions et paquets avec les mises à jour disponibles."
             },
             "sections": {
                 "control": {
-                    "title": ""
+                    "title": "Gestionnaire"
                 },
                 "queue": {
                     "columns": {
-                        "details": "",
-                        "elapsed_time": "",
-                        "peak_memory_used": "",
-                        "operation": "",
-                        "package": "",
-                        "status": ""
+                        "details": "Informations",
+                        "elapsed_time": "Terminé en",
+                        "peak_memory_used": "Utilisation maximale de la mémoire",
+                        "operation": "Fonctionnement",
+                        "package": "Paquet",
+                        "status": "Statut"
                     },
-                    "none": "",
+                    "none": "Il n'y a pas encore de tâches.",
                     "operations": {
-                        "extension_install": "",
-                        "extension_remove": "",
-                        "extension_update": "",
-                        "update_check": "",
-                        "update_global": "",
-                        "update_major": "",
-                        "update_minor": "",
-                        "why_not": ""
+                        "extension_install": "Installer l'extension",
+                        "extension_remove": "Supprimer l'extension",
+                        "extension_update": "Mettre à jour l'extension",
+                        "update_check": "Vérifier les mises à jour",
+                        "update_global": "Mettre à jour tous les paquets logiciels",
+                        "update_major": "Mise à jour majeure",
+                        "update_minor": "Mise à jour mineure",
+                        "why_not": "Analyser les raisons pour lesquelles un paquet ne peut pas être mis à jour"
                     },
                     "output_modal": {
-                        "cause_unknown": "",
-                        "command": "",
-                        "guessed_cause": "",
-                        "output": ""
+                        "cause_unknown": "Inconnu",
+                        "command": "Commande de Composer",
+                        "guessed_cause": "Cause",
+                        "output": "Sortie"
                     },
-                    "refresh": "",
+                    "refresh": "Actualiser la liste des tâches",
                     "statuses": {
-                        "success": "",
-                        "failure": "",
-                        "pending": "",
-                        "running": ""
+                        "success": "Succès",
+                        "failure": "Échec",
+                        "pending": "En attente",
+                        "running": "En cours d'exécution"
                     },
-                    "task_just_started": "",
-                    "title": ""
+                    "task_just_started": "La tâche vient de commencer",
+                    "title": "File d'attente"
                 }
             },
             "settings": {
-                "title": "",
-                "access_warning": "",
-                "debug_mode_warning": "",
-                "queue_jobs": "",
-                "queue_jobs_help": "",
-                "task_retention_days": "",
-                "task_retention_days_help": ""
+                "title": "=> core.ref.settings",
+                "access_warning": "Soyez prudent quant aux personnes à qui vous donnez accès à la zone d'administration car le gestionnaire d'extensions peut être utilisé par des acteurs malveillants pour installer des paquets qui peuvent entraîner des failles de sécurité.",
+                "debug_mode_warning": "Vous êtes en mode débogage, le gestionnaire d'extension ne peut pas installer et mettre à jour correctement les paquets de développement local. Veuillez utiliser l'interface de ligne de commande à cet effet.",
+                "queue_jobs": "Exécuter les opérations dans la file d'attente en arrière-plan",
+                "queue_jobs_help": "Vous pouvez vous renseigner sur une <a href='{basic_impl_link}'>file d'attente basique</a> ou une <a href='{adv_impl_link}'>file d'attente plus avancée</a>. Assurez-vous que la version de PHP utilisée pour la file d'attente est {php_version}. Vérifiez que <a href='{folder_perms_link}'>les permissions du dossier</a> sont correctement configurées.\n",
+                "task_retention_days": "Jours de rétention des tâches",
+                "task_retention_days_help": "Le nombre de jours pendant lesquels les tâches terminées doivent être conservées dans la base de données. Les tâches plus anciennes seront supprimées. La valeur 0 permet de conserver toutes les tâches.\n"
             },
             "updater": {
-                "up_to_date": "",
-                "check_for_updates": "",
-                "flarum": "",
-                "global_update_successful": "",
-                "last_update_checked_at": "",
-                "run_global_update": "",
-                "updater_title": "",
-                "updater_help": ""
+                "up_to_date": "Tout est à jour !",
+                "check_for_updates": "Vérifier les mises à jour",
+                "flarum": "Noyau de Flarum",
+                "global_update_successful": "Mise à jour de tous les paquets réussie.",
+                "last_update_checked_at": "Dernière vérification des mises à jour : ",
+                "run_global_update": "Exécuter la mise à jour globale",
+                "updater_title": "Mises à jour",
+                "updater_help": "Vérifie les nouvelles mises à jour des extensions et de Flarum."
             },
-            "update_successful": "",
+            "update_successful": "Flarum a été mis à jour.",
             "why_not_modal": {
-                "title": ""
+                "title": "Pourquoi la mise à jour ne se fait-elle pas ?"
             }
         }
     }
