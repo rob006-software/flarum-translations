@@ -20,7 +20,7 @@
             },
             "sub_controls": {
                 "header": "",
-                "subscription_label": "",
+                "subscription_label": "选择你对{tagName}的关注等级",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "有新主题时提醒。",
@@ -34,7 +34,7 @@
                 "not_following_text": "仅当有人提及我时提醒。",
                 "notify_alert_tooltip": "有新主题或新回复时推送论坛提醒",
                 "notify_email_tooltip": "有新主题或新回复时发送邮件提醒",
-                "submit_button": ""
+                "submit_button": "确认关注"
             },
             "notifications": {
                 "new_discussion_text": "{username} 发布了新主题",
@@ -84,7 +84,7 @@
             "data": {
                 "tagsubscription": {
                     "export_description": "",
-                    "anonymize_description": ""
+                    "anonymize_description": "移除用户对标签的关注"
                 }
             }
         }
