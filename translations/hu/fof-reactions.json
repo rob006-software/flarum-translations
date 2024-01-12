@@ -23,9 +23,9 @@
             "page": {
                 "cdn": {
                     "title": "CDN",
-                    "help": "",
-                    "label": "",
-                    "default-url": ""
+                    "help": "Alapértelmezés szerint a reakciók tartalmait a Cloudflare CDN-jének segítségével szolgáljuk ki. Igény szerint tetszőleges más \nCDN címét is megadhatja. A <code>[codepoint]</code> az emodzsi kódpontjára lesz cserélve.\n\nPéldául a Noto Emoji jsdelivr segítségével történő használatához ezt adná meg: <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Ez a mező SOSEM lehet üres.\n",
+                    "label": "Webcím",
+                    "default-url": "Alapértelmezett: {url}"
                 },
                 "reactions": {
                     "title": "Egyéni reakciók",
@@ -44,7 +44,7 @@
                 },
                 "settings": {
                     "react_own_posts_help": "Ha be van kapcsolva, akkor jogosultság alapján, a felhasználók reagálhatnak a saját bejegyzéseikre a fórumban. Ha ezt meg akarja akadályozni, akkor kapcsolja ki ezt a beállítást.",
-                    "react_own_posts_label": "A felhasználók reagálhatnak a saját bejegyzésükre",
+                    "react_own_posts_label": "A felhasználók reagálhatnak a saját bejegyzéseikre,",
                     "allow-anonymous": "Névtelen (vendég) reakciók engedélyezése",
                     "allow-anonymous-help": "Ha engedélyezve van, akkor a vendég- és névtelen felhasználók reagálhatnak a bejegyzésekre. Vegye figyelembe, hogy a névtelen reakciók nem lesznek felhasználói profilhoz rendelve, és csoportosítva lesznek a reakciólistában.",
                     "save_settings": "Beállítások mentése",
