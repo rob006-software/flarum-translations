@@ -16,11 +16,11 @@
             },
             "badge": {
                 "following_tag_tooltip": "Volgend",
-                "lurking_tag_tooltip": "Lurken"
+                "lurking_tag_tooltip": "In de gaten houden"
             },
             "sub_controls": {
-                "header": "",
-                "subscription_label": "",
+                "header": "Abonnement voor {tagName}",
+                "subscription_label": "Selecteer je abonnement voor {tagName}",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "Geattendeerd worden op alle nieuwe discussies.",
@@ -34,7 +34,7 @@
                 "not_following_text": "Notificaties alleen wanneer @mentioned.",
                 "notify_alert_tooltip": "Ontvang een forum notificatie wanneer er nieuwe discussies of reacties zijn",
                 "notify_email_tooltip": "Ontvang een email wanneer en nieuwe discussies of reacties zijn",
-                "submit_button": ""
+                "submit_button": "Bevestig abonnement"
             },
             "notifications": {
                 "new_discussion_text": "{username} start",
@@ -83,8 +83,8 @@
         "lib": {
             "data": {
                 "tagsubscription": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Exporteert details van het abonnementsniveau voor een tag, indien aanwezig.",
+                    "anonymize_description": "Verwijderd het abonnement van de gebruiker op de tag."
                 }
             }
         }
