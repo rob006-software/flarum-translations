@@ -119,50 +119,50 @@
                         "extension_remove": "Uzantıyı kaldır",
                         "extension_update": "Uzantı güncelle",
                         "update_check": "Güncellemeleri kontrol et",
-                        "update_global": "",
-                        "update_major": "",
-                        "update_minor": "",
-                        "why_not": ""
+                        "update_global": "Tüm yazılım paketlerini güncelle",
+                        "update_major": "Büyük güncelleme",
+                        "update_minor": "Küçük güncelleme",
+                        "why_not": "Bir paketin neden güncellenemediğini analiz edin"
                     },
                     "output_modal": {
-                        "cause_unknown": "",
-                        "command": "",
-                        "guessed_cause": "",
-                        "output": ""
+                        "cause_unknown": "Bilinmeyen",
+                        "command": "Düzenleyici Komutu",
+                        "guessed_cause": "Neden",
+                        "output": "Çıktı"
                     },
-                    "refresh": "",
+                    "refresh": "Görev listesini yenile",
                     "statuses": {
-                        "success": "",
-                        "failure": "",
-                        "pending": "",
-                        "running": ""
+                        "success": "Başarılı",
+                        "failure": "Başarısız",
+                        "pending": "Bekleniyor",
+                        "running": "Çalışıyor"
                     },
-                    "task_just_started": "",
-                    "title": ""
+                    "task_just_started": "Görev yeni başladı",
+                    "title": "Sıra"
                 }
             },
             "settings": {
-                "title": "",
-                "access_warning": "",
-                "debug_mode_warning": "",
-                "queue_jobs": "",
-                "queue_jobs_help": "",
-                "task_retention_days": "",
-                "task_retention_days_help": ""
+                "title": "=> core.ref.settings",
+                "access_warning": "Lütfen yönetici alanına erişim izni verdiğiniz kişilere dikkat edin; uzantı yöneticisi, kötü kişiler tarafından güvenlik ihlallerine yol açabilecek paketler yüklemek amacıyla kötüye kullanılabilir.",
+                "debug_mode_warning": "Hata ayıklama modunda çalışıyorsunuz, uzantı yöneticisi yerel geliştirme paketlerini düzgün şekilde kurup güncelleyemiyor. Lütfen bu tür amaçlar için komut satırı arayüzünü kullanın.",
+                "queue_jobs": "İşlemleri arka planda çalıştır",
+                "queue_jobs_help": "<a href='{basic_impl_link}'>Temel kuyruk</a> veya <a href='{adv_impl_link}'>daha gelişmiş</a> uygulaması hakkında bilgi edinebilirsiniz. Kuyruk için kullanılan PHP sürümünün {php_version} olduğundan emin olun. <a href='{folder_perms_link}'>klasör izinlerinin</a> doğru şekilde yapılandırıldığından emin olun.\n",
+                "task_retention_days": "Görev saklama günleri",
+                "task_retention_days_help": "Tamamlanan görevlerin veritabanında tutulacağı gün sayısı. Bundan daha eski olan görevler silinecektir. Tüm görevleri korumak için 0'a ayarlayın.\n"
             },
             "updater": {
-                "up_to_date": "",
-                "check_for_updates": "",
-                "flarum": "",
-                "global_update_successful": "",
-                "last_update_checked_at": "",
-                "run_global_update": "",
-                "updater_title": "",
-                "updater_help": ""
+                "up_to_date": "Her şey güncel!",
+                "check_for_updates": "Güncellemeleri kontrol et",
+                "flarum": "Flarum Çekirdeği",
+                "global_update_successful": "Tüm paketler başarıyla güncellendi.",
+                "last_update_checked_at": "Son Güncelleme Kontrolü: ",
+                "run_global_update": "Toplu Güncellemeyi Çalıştır",
+                "updater_title": "Güncellemeler",
+                "updater_help": "Yeni uzantı ve Flarum güncellemelerini kontrol eder."
             },
-            "update_successful": "",
+            "update_successful": "Flarum başarıyla güncellendi.",
             "why_not_modal": {
-                "title": ""
+                "title": "Neden Güncellenmiyor"
             }
         }
     }
