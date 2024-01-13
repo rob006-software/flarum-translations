@@ -232,24 +232,24 @@
                 "hide_file": {
                     "btn_a11y_label_hide": "\"{fileName}\" dosyasını medya yöneticisinden gizle",
                     "btn_a11y_label_show": "\"{fileName}\" dosyasını medya yöneticisinde erişime aç",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "hide_confirmation": "\"{fileName}\" dosyasını gizlemek istediğinizden emin misiniz? Bir dosyayı gizlemek onu yalnızca medya yöneticinizden kaldırır ve mevcut gönderileri etkilemez.",
+                    "hide_success": "Dosya gizlendi",
+                    "show_confirmation": "\"{fileName}\" dosyasını göstermek istediğinizden emin misiniz? Bir dosyanın gösterilmesi onu medya yöneticinizde görünür hale getirecektir.",
+                    "show_success": "Dosya gösteriliyor",
+                    "hide_fail": "\"{fileName}\" dosyası gizlenemedi",
+                    "show_fail": "\"{fileName}\" dosyası gösterilemedi",
+                    "loading": "Dosya gizleniyor..."
                 },
                 "hide_shared_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "\"{fileName}\" dosyasını özel yap (genel bağlantı yok)",
+                    "btn_a11y_label_show": "\"{fileName}\" dosyasını herkese açık hale getirin (genel bağlantı ile)",
+                    "hide_confirmation": "\"{fileName}\" dosyasını özel yapmak istediğinizden emin misiniz? Bir dosyayı özel yapmak, genel bağlantısını kaldıracaktır ancak mevcut yayınları etkilemeyecektir. Ayrıca artık medya yöneticisinde yetkisiz kullanıcılar tarafından görülmeyecek.",
+                    "hide_success": "Dosya gizli hale getirildi",
+                    "show_confirmation": "\"{fileName}\" dosyasını herkese açık hale getirmek istediğinizden emin misiniz? Bir dosyayı herkese açık hale getirmek, herkese açık bağlantısı olan herkesin bu dosyaya erişebilmesini sağlar ve herkes medya yöneticisini kullanarak dosyayı paylaşabilir.",
+                    "show_success": "Dosya herkese açık hale getirildi",
+                    "hide_fail": "\"{fileName}\" dosyası özel yapılamadı",
+                    "show_fail": "\"{fileName}\" dosyası herkese açık hale getirilemedi",
+                    "loading": "Dosya özel hale getiriliyor..."
                 }
             }
         }
