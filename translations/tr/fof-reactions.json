@@ -23,9 +23,9 @@
             "page": {
                 "cdn": {
                     "title": "CDN",
-                    "help": "",
-                    "label": "",
-                    "default-url": ""
+                    "help": "Varsayılan olarak reaksiyon varlıklarını Cloudflare'in CDN'sinden sunuyoruz. Ayrıca gerektiği gibi başka bir CDN adresi belirtme\nseçeneğiniz de vardır. <code>[codepoint]</code>, emojinin kod noktasıyla değiştirilecektir.\n\nÖrneğin, jsdelivr aracılığıyla Noto Emoji'ye geçmek için <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code> komutunu girmeniz gerekir. Bu alan ASLA boş bırakılmamalıdır.\n",
+                    "label": "Bağlantı",
+                    "default-url": "Varsayılan: {url}"
                 },
                 "reactions": {
                     "title": "Özel İfadeler",
