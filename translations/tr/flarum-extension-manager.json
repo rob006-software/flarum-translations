@@ -2,123 +2,123 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Yeni kimlik doğrulama yöntemi",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "Sunucu",
+                    "host_placeholder": "örnek: extiverse.com",
+                    "submit_button": "Gönder",
+                    "token_label": "Jeton",
+                    "type_label": "Tür",
+                    "unchanged_token_placeholder": "(değişmedi)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "Bu kimlik doğrulama yöntemini silmek istediğinizden emin misiniz?",
+                "delete_label": "Kimlik doğrulama yöntemini sil",
+                "edit_label": "Kimlik doğrulama yöntemini düzenle",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "Sunucu",
+                    "token": "Jeton"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "Hiçbir kimlik doğrulama yöntemi yapılandırılmadı. Bu, özel depolardan kuruluma izin veren isteğe bağlı gelişmiş bir özelliktir.",
+                "remove_button_label": "Kimlik doğrulama yöntemini kaldır",
+                "title": "Kimlik Doğrulama Yöntemleri",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab Jetonu",
+                    "bearer": "HTTP Taşıyıcı"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "Depo Ekle",
+                "delete_repository_confirmation": "Bu depoyu silmek istediğinizden emin misiniz? Bu depodan yüklenen tüm uzantılar kaldırılacak.",
+                "delete_repository_label": "Depoyu sil",
+                "edit_repository_label": "Depoyu düzenle",
+                "title": "Düzenleyici",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "Minimum Kararlılık",
+                    "help": "Kurulmasına izin verilen paketlerin türü. Ne yaptığınızı bilmiyorsanız bunu değiştirmeyin.",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "stable": "Kararlı (Önerilen)",
+                        "rc": "Sürüm Adayı",
+                        "beta": "Beta",
+                        "alpha": "Alfa",
+                        "dev": "Dev (Geliştirme)"
                     }
                 },
                 "repositories": {
-                    "label": "",
-                    "help": "",
+                    "label": "Depolar",
+                    "help": "Paketleri yüklemek için ek depolar ekleyin. Bu gelişmiş bir özelliktir; sunucunuzda kötü amaçlı kod yürütmek için kullanılabileceğinden güvenilmeyen depoları eklemeyin.\n",
                     "types": {
-                        "composer": "",
-                        "vcs": "",
-                        "path": ""
+                        "composer": "düzenleyici",
+                        "vcs": "vcs",
+                        "path": "yol"
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
-                        "url": "",
-                        "submit_button": ""
+                        "name_label": "Adı",
+                        "type_label": "Tür",
+                        "url": "Bağlantı",
+                        "submit_button": "Gönder"
                     }
                 }
             },
             "exceptions": {
-                "composer_command_failure": "",
-                "extension_already_installed": "",
-                "extension_not_directly_dependency": "",
-                "extension_not_installed": "",
+                "composer_command_failure": "Çalıştırılamadı. storage/logs/composer düzenleyici günlüklerini kontrol edin.",
+                "extension_already_installed": "Uzantı zaten yüklü.",
+                "extension_not_directly_dependency": "Uzantı başka bir uzantıya bağımlı olarak yüklenir, doğrudan kaldırılamaz.",
+                "extension_not_installed": "Uzantı bulunamadı.",
                 "guessed_cause": {
-                    "extension_incompatible_with_instance": "",
-                    "extension_not_found": "",
-                    "extensions_incompatible_with_new_major": ""
+                    "extension_incompatible_with_instance": "Uzantı büyük olasılıkla mevcut Flarum örneğinizle uyumsuzdur.",
+                    "extension_not_found": "Uzantı bulunamadı veya mevcut değil.",
+                    "extensions_incompatible_with_new_major": "Yüklü bazı uzantılar en yeni ana sürümle uyumlu değildir. Lütfen uzantıların geliştiriciler tarafından uyumlu olacak şekilde güncellenmesini bekleyin veya devam etmeden önce bunları kaldırın.\n"
                 }
             },
             "extensions": {
-                "check_why_it_failed_updating": "",
-                "install": "",
-                "install_help": "",
-                "proceed": "",
-                "remove": "",
-                "successful_install": "",
-                "successful_remove": "",
-                "successful_update": "",
-                "update": "",
-                "update_soft_label": "",
-                "update_hard_label": ""
+                "check_why_it_failed_updating": "Neden en son sürüme güncellenmediğini gösterin.",
+                "install": "Yeni bir uzantı yükleyin",
+                "install_help": "Devam etmek için uzantı paketi adını girin. <code>geliştirici/paket-adı:sürüm</code> biçimini kullanarak bir <semantic_link>belirli sürüm</semantic_link> yükleyebilirsiniz. Uzantılara göz atmak için {extiverse} adresini ziyaret edin.\n",
+                "proceed": "İlerle",
+                "remove": "Kaldır",
+                "successful_install": "{extension} başarıyla kuruldu, yönlendiriliyorsunuz...",
+                "successful_remove": "Uzantı başarıyla kaldırıldı.",
+                "successful_update": "{extension} başarıyla güncellendi, yönlendiriliyorsunuz...",
+                "update": "Güncelle",
+                "update_soft_label": "Yumuşak güncelleme",
+                "update_hard_label": "Zorla güncelleme"
             },
-            "file_permissions": "",
+            "file_permissions": "Uzantı yöneticisi şu dosya ve dizinlerde okuma ve yazma izinlerine ihtiyaç duyar: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
-                "description": "",
-                "dry_run": "",
-                "dry_run_help": "",
+                "description": "Büyük Flarum güncellemeleri geriye dönük olarak uyumlu değildir; bu, şu anda yüklü olan bazı uzantılarınızın ve elle yaptığınız değişikliklerin bu yeni sürümde çalışmayabileceği anlamına gelir. Lütfen devam etmeden önce veritabanınızın ve dosyalarınızın yedeğini aldığınızdan emin olun.\n",
+                "dry_run": "Güncelleme Taklidi",
+                "dry_run_help": "Güncelleme Taklidi, mevcut kurulumunuzun güvenli bir şekilde güncellenip güncellenemeyeceğini görmek için güncellemeyi taklit eder; bu, elle yaptığınız özel değişikliklerin daha yeni sürümde çalışacağı anlamına gelmez.",
                 "failure": {
-                    "desc": "",
-                    "why": ""
+                    "desc": "Son büyük güncelleme başarısız oldu; yüklü bazı uzantılar yeni ana sürümle uyumlu değil.",
+                    "why": "Daha fazlasını bul"
                 },
-                "title": "",
-                "update": ""
+                "title": "Flarum {version} Büyük Güncellemesi Mevcut",
+                "update": "Güncelle"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Bu aynı zamanda diğer uzantıları/paketleri de mevcut güncellemelerle güncelleyecektir."
             },
             "sections": {
                 "control": {
-                    "title": ""
+                    "title": "Yönetici"
                 },
                 "queue": {
                     "columns": {
-                        "details": "",
-                        "elapsed_time": "",
-                        "peak_memory_used": "",
-                        "operation": "",
-                        "package": "",
-                        "status": ""
+                        "details": "Detaylar",
+                        "elapsed_time": "Tamamlandı",
+                        "peak_memory_used": "En Yüksek Bellek Kullanımı",
+                        "operation": "Operasyon",
+                        "package": "Paket",
+                        "status": "Durum"
                     },
-                    "none": "",
+                    "none": "Henüz görev yok.",
                     "operations": {
-                        "extension_install": "",
-                        "extension_remove": "",
-                        "extension_update": "",
-                        "update_check": "",
+                        "extension_install": "Uzantı yükleyin",
+                        "extension_remove": "Uzantıyı kaldır",
+                        "extension_update": "Uzantı güncelle",
+                        "update_check": "Güncellemeleri kontrol et",
                         "update_global": "",
                         "update_major": "",
                         "update_minor": "",
