@@ -5,9 +5,9 @@
             "settings_accessibility_label": "{name} ayarları",
             "settings": {
                 "advanced": {
-                    "heading": "",
-                    "log-oauth-errors-label": "",
-                    "log-oauth-errors-help": ""
+                    "heading": "Gelişmiş",
+                    "log-oauth-errors-label": "OAuth hatalarını günlüğe kaydet",
+                    "log-oauth-errors-help": "Etkinleştirilirse OAuth hataları Flarum günlüğüne kaydedilecektir. Bu, OAuth sorunlarının ayıklanmasına yardımcı olabilir ancak aynı zamanda hassas bilgiler de içerebilir."
                 },
                 "only_icons_label": "Yalnızca Oturum Aç Düğmesi simgelerini göster (alternatif düzen)",
                 "update_email_from_provider_label": "Sağlayıcıdan gelen e-posta adresini güncelle",
@@ -50,7 +50,7 @@
                         "description": "{link} bağlantısında bir uygulama oluşturun.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
-                        "hosted_domain_label": ""
+                        "hosted_domain_label": "Barındırılan Alan Adı (G Suite/Google Apps İşletme Sürümü, isteğe bağlı)"
                     },
                     "linkedin": {
                         "description": "{link} adresinde bir uygulama oluştur.",
