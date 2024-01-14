@@ -62,107 +62,107 @@
                 }
             },
             "exceptions": {
-                "composer_command_failure": "",
-                "extension_already_installed": "",
-                "extension_not_directly_dependency": "",
-                "extension_not_installed": "",
+                "composer_command_failure": "Не вдалося виконати. Перевірте журнали композитора storage/logs/composer.",
+                "extension_already_installed": "Розширення вже встановлено.",
+                "extension_not_directly_dependency": "Розширення встановлюється як залежність від іншого розширення, його не можна видалити.",
+                "extension_not_installed": "Розширення не знайдено.",
                 "guessed_cause": {
-                    "extension_incompatible_with_instance": "",
-                    "extension_not_found": "",
-                    "extensions_incompatible_with_new_major": ""
+                    "extension_incompatible_with_instance": "Розширення, швидше за все, несумісне з вашим поточним екземпляром Flarum.",
+                    "extension_not_found": "Розширення не знайдено або не існує.",
+                    "extensions_incompatible_with_new_major": "Деякі встановлені розширення несумісні з останньою основною версією. Будь ласка, зачекайте, поки автори оновлять розширення до сумісності з форумом, або видаліть їх, перш ніж продовжувати.\n"
                 }
             },
             "extensions": {
-                "check_why_it_failed_updating": "",
-                "install": "",
-                "install_help": "",
-                "proceed": "",
-                "remove": "",
-                "successful_install": "",
-                "successful_remove": "",
-                "successful_update": "",
-                "update": "",
-                "update_soft_label": "",
-                "update_hard_label": ""
+                "check_why_it_failed_updating": "Покажіть, чому не оновлено до останньої версії.",
+                "install": "Встановити нове розширення",
+                "install_help": "Щоб продовжити, введіть назву пакета розширення. Ви можете вказати <semantic_link>семантичну версію</semantic_link> за допомогою формату <code>vendor/package-name:version</code>. Відвідайте {extiverse}, щоб переглянути розширення.\n",
+                "proceed": "Продовжуйте",
+                "remove": "Видалити",
+                "successful_install": "{extension} було успішно встановлено. Перенаправлення...",
+                "successful_remove": "Розширення успішно видалено.",
+                "successful_update": "{extension} було успішно оновлено. Перенаправлення...",
+                "update": "Оновлення",
+                "update_soft_label": "М'яке оновлення",
+                "update_hard_label": "Жорстке оновлення"
             },
-            "file_permissions": "",
+            "file_permissions": "Менеджер розширень вимагає дозволів на читання та запис для таких файлів і каталогів: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
-                "description": "",
-                "dry_run": "",
-                "dry_run_help": "",
+                "description": "Основні оновлення Flarum не є сумісними з попередніми версіями, а це означає, що деякі з встановлених вами розширень і модифікацій, зроблених вручну, можуть не працювати з цією новою версією. Будь ласка, переконайтеся, що ви зробили резервну копію вашої бази даних і файлів, перш ніж продовжувати.\n",
+                "dry_run": "Пробний запуск",
+                "dry_run_help": "Пробний запуск емулює оновлення, щоб перевірити, чи можна безпечно оновити ваші поточні налаштування, це не означає, що зроблені вручну користувацькі модифікації працюватимуть у новій версії.",
                 "failure": {
-                    "desc": "",
-                    "why": ""
+                    "desc": "Останнє велике оновлення виявилося невдалим, деякі встановлені розширення не сумісні з новим великим випуском.",
+                    "why": "Дізнайтеся більше"
                 },
-                "title": "",
-                "update": ""
+                "title": "Вийшло велике оновлення Flarum {version}",
+                "update": "Оновити"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Це також оновить будь-які інші розширення/пакети з наявними оновленнями."
             },
             "sections": {
                 "control": {
-                    "title": ""
+                    "title": "Менеджер"
                 },
                 "queue": {
                     "columns": {
-                        "details": "",
-                        "elapsed_time": "",
-                        "peak_memory_used": "",
-                        "operation": "",
-                        "package": "",
-                        "status": ""
+                        "details": "Деталі",
+                        "elapsed_time": "Завершено в",
+                        "peak_memory_used": "Пікове використання пам'яті",
+                        "operation": "Операція",
+                        "package": "Пакет",
+                        "status": "Статус"
                     },
-                    "none": "",
+                    "none": "Завдань поки немає.",
                     "operations": {
-                        "extension_install": "",
-                        "extension_remove": "",
-                        "extension_update": "",
-                        "update_check": "",
-                        "update_global": "",
-                        "update_major": "",
-                        "update_minor": "",
-                        "why_not": ""
+                        "extension_install": "Встановити розширення",
+                        "extension_remove": "Видалити розширення",
+                        "extension_update": "Оновити розширення",
+                        "update_check": "Перевірити оновлення",
+                        "update_global": "Оновлення всіх програмних пакетів",
+                        "update_major": "Велике оновлення",
+                        "update_minor": "Невелике оновлення",
+                        "why_not": "Проаналізувати, чому не вдається оновити пакунок"
                     },
                     "output_modal": {
-                        "cause_unknown": "",
-                        "command": "",
-                        "guessed_cause": "",
-                        "output": ""
+                        "cause_unknown": "Невідомо",
+                        "command": "Команда компосера",
+                        "guessed_cause": "Причина",
+                        "output": "Вихідні дані"
                     },
-                    "refresh": "",
+                    "refresh": "Оновити список завдань",
                     "statuses": {
-                        "success": "",
-                        "failure": "",
-                        "pending": "",
-                        "running": ""
+                        "success": "Успішно",
+                        "failure": "Не успішно",
+                        "pending": "В очікуванні",
+                        "running": "Запущено"
                     },
-                    "task_just_started": "",
-                    "title": ""
+                    "task_just_started": "Завдання щойно розпочато",
+                    "title": "Черга"
                 }
             },
             "settings": {
-                "title": "",
-                "access_warning": "",
-                "debug_mode_warning": "",
-                "queue_jobs": "",
-                "queue_jobs_help": "",
-                "task_retention_days": "",
-                "task_retention_days_help": ""
+                "title": "=> core.ref.settings",
+                "access_warning": "Будь ласка, будьте уважні до того, кому ви надаєте доступ до адміністративної частини, менеджер розширень може бути використаний зловмисниками для встановлення пакунків, які можуть призвести до порушень безпеки.",
+                "debug_mode_warning": "Ви працюєте у режимі налагодження, менеджер розширень не може належним чином встановити та оновити локальні пакунки розробки. Будь ласка, використовуйте для цих цілей інтерфейс командного рядка.",
+                "queue_jobs": "Запуск операцій у фоновій черзі",
+                "queue_jobs_help": "Ви можете прочитати про реалізацію <a href='{basic_impl_link}'>базової черги</a> або <a href='{adv_impl_link}'>розширенішої черги</a>. Переконайтеся, що для черги використовується версія PHP {php_version}. Переконайтеся, що <a href='{folder_perms_link}'>дозволи для папок</a> налаштовано правильно.\n",
+                "task_retention_days": "Дні утримання завдання",
+                "task_retention_days_help": "Кількість днів, протягом яких виконані завдання зберігатимуться в базі даних. Завдання, старші за цей термін, будуть видалені. Встановіть 0, щоб зберігати всі завдання.\n"
             },
             "updater": {
-                "up_to_date": "",
-                "check_for_updates": "",
-                "flarum": "",
-                "global_update_successful": "",
-                "last_update_checked_at": "",
-                "run_global_update": "",
-                "updater_title": "",
-                "updater_help": ""
+                "up_to_date": "Все в актуальному стані!",
+                "check_for_updates": "Перевірити оновлення",
+                "flarum": "Flarum Core",
+                "global_update_successful": "Успішно оновлено всі пакунки.",
+                "last_update_checked_at": "Перевірка останнього оновлення: ",
+                "run_global_update": "Запустити глобальне оновлення",
+                "updater_title": "Оновлення",
+                "updater_help": "Перевіряє наявність нових розширень та оновлень Flarum."
             },
-            "update_successful": "",
+            "update_successful": "Flarum успішно оновився.",
             "why_not_modal": {
-                "title": ""
+                "title": "Чому не оновлюється"
             }
         }
     }
