@@ -2,62 +2,62 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Новий метод автентифікації",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "Хост",
+                    "host_placeholder": "наприклад: joomla-ua.org",
+                    "submit_button": "Надіслати",
+                    "token_label": "Токен",
+                    "type_label": "Тип",
+                    "unchanged_token_placeholder": "(без змін)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "Ви впевнені, що хочете видалити цей метод автентифікації?",
+                "delete_label": "Видалити метод автентифікації",
+                "edit_label": "Редагувати метод автентифікації",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "Хост",
+                    "token": "Токен"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "Методи автентифікації не налаштовано. Це необов'язкова додаткова функція, яка дозволяє встановлювати з приватних сховищ.",
+                "remove_button_label": "Видалити метод автентифікації",
+                "title": "Методи автентифікації",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab Token",
+                    "bearer": "HTTP Bearer"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "Додати репозиторій",
+                "delete_repository_confirmation": "Ви впевнені, що хочете видалити цей репозиторій? Усі розширення, встановлені з цього сховища, буде видалено.",
+                "delete_repository_label": "Видалити репозиторій",
+                "edit_repository_label": "Редагувати репозиторій",
+                "title": "Composer",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "Мінімальна стабільність",
+                    "help": "Тип пакунків, які дозволено встановлювати. Не змінюйте цей параметр, якщо ви не знаєте, що робите.",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "stable": "Стабільний (рекомендовано)",
+                        "rc": "Реліз кандидат",
+                        "beta": "Бета",
+                        "alpha": "Альфа",
+                        "dev": "Dev"
                     }
                 },
                 "repositories": {
-                    "label": "",
-                    "help": "",
+                    "label": "Репозиторії",
+                    "help": "Додавання додаткових сховищ для встановлення пакунків. Це розширена функція, не додавайте сховища, яким ви не довіряєте, оскільки вони можуть бути використані для виконання шкідливого коду на вашому сервері.\n",
                     "types": {
-                        "composer": "",
-                        "vcs": "",
-                        "path": ""
+                        "composer": "composer",
+                        "vcs": "vcs",
+                        "path": "path"
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
-                        "url": "",
-                        "submit_button": ""
+                        "name_label": "Назва",
+                        "type_label": "Тип",
+                        "url": "URL-адреса",
+                        "submit_button": "Надіслати"
                     }
                 }
             },
