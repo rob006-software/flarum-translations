@@ -2,16 +2,16 @@
     "blomstra-database-queue": {
         "admin": {
             "settings": {
-                "backoff_label": "",
-                "backoff_help": "",
-                "memory_label": "",
-                "memory_help": "",
-                "rest_label": "",
-                "rest_help": "",
-                "retries_label": "",
-                "retries_help": "",
-                "timeout_label": "",
-                "timeout_help": ""
+                "backoff_label": "Назад",
+                "backoff_help": "Кількість секунд очікування перед повторною спробою виконання завдання, яке зіткнулося з неперехопленим винятком.\n",
+                "memory_label": "Пам'ять",
+                "memory_help": "Ліміт пам'яті в мегабайтах.\n",
+                "rest_label": "Відпочинок",
+                "rest_help": "Кількість секунд для відпочинку між завданнями.\n",
+                "retries_label": "Повторні спроби",
+                "retries_help": "Кількість спроб виконати завдання до того, як воно буде зареєстровано як невдале.\n",
+                "timeout_label": "Тайм-аут",
+                "timeout_help": "Кількість секунд, протягом яких може виконуватися дочірній процес.\n"
             },
             "stats": {
                 "auto_refresh": "Автоматичне оновлення",
