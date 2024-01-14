@@ -1,18 +1,18 @@
 {
     "acpl-lscache": {
         "admin": {
-            "cache_enabled_label": "",
-            "cache_enabled_help": "",
-            "public_cache_ttl_label": "",
-            "public_cache_ttl_help": "",
-            "clearing_cache_listener_label": "",
+            "cache_enabled_label": "एलएस कैश सक्षम करें",
+            "cache_enabled_help": "कैश का परीक्षण कैसे करें, इसके बारे में <a>सूचना पृष्ठ</a> देखें। ध्यान दें: कैश को अक्षम करते समय, इस साइट के लिए सभी कैश्ड प्रविष्टियाँ मिटा दी जाएंगी।",
+            "public_cache_ttl_label": "डिफ़ॉल्ट सार्वजनिक कैश टीटीएल",
+            "public_cache_ttl_help": "परिभाषित करें कि कितनी देर तक, सेकंडों में, सार्वजनिक पृष्ठों को कैश किया जाना चाहिए। डिफ़ॉल्ट मान 604800 सेकंड (एक सप्ताह) है।",
+            "clearing_cache_listener_label": "फ़्लैरम कैश साफ़ होने पर LSCache को पर्ज करें",
             "serve_stale_label": "",
             "serve_stale_help": "",
-            "purge_on_discussion_update_label": "",
+            "purge_on_discussion_update_label": "चर्चा या पोस्ट अपडेट पर यूआरएल या टैग मिटाएं",
             "purge_on_discussion_update_help": "",
-            "cache_exclude_label": "",
+            "cache_exclude_label": "कैशिंग से पथ बहिष्कृत करें",
             "cache_exclude_help": "",
-            "drop_qs_label": "",
+            "drop_qs_label": "क्वेरी स्ट्रिंग ड्रॉप करे",
             "drop_qs_help": "",
             "purge_all": "",
             "purge_all_success": ""
