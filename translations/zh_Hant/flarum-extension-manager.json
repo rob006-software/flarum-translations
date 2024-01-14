@@ -2,167 +2,167 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "新的認證方式",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "主機",
+                    "host_placeholder": "範例： extiverse.com",
+                    "submit_button": "提交",
+                    "token_label": "金鑰",
+                    "type_label": "類型",
+                    "unchanged_token_placeholder": "（沒有變動）"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "您確定要刪除此驗證方法嗎？",
+                "delete_label": "刪除認證方式",
+                "edit_label": "編輯身份驗證方法",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "主機",
+                    "token": "金鑰"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "未配置身份驗證方法。 這是一項可選的高級功能，允許從私人存儲庫進行安裝。",
+                "remove_button_label": "刪除身份驗證方法",
+                "title": "認證方式",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab 令牌",
+                    "bearer": "HTTP承載"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "新增儲存庫",
+                "delete_repository_confirmation": "您確定要刪除此儲存庫嗎？ 從該儲存庫安裝的所有擴充功能都將被刪除。",
+                "delete_repository_label": "刪除儲存庫",
+                "edit_repository_label": "編輯儲存庫",
+                "title": "Composer",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "Minimum Stability",
+                    "help": "允許安裝的軟體包類型。 除非您知道自己在做什麼，否則請勿更改此設定。",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "stable": "Stable (Recommended)",
+                        "rc": "Release Candidate",
+                        "beta": "Beta",
+                        "alpha": "Alpha",
+                        "dev": "Dev"
                     }
                 },
                 "repositories": {
-                    "label": "",
-                    "help": "",
+                    "label": "儲存庫",
+                    "help": "新增其他儲存庫以從中安裝軟體包。 這是一項進階功能，請勿新增不受信任的儲存庫，因為它們可用於在您的伺服器上執行惡意程式碼。\n",
                     "types": {
-                        "composer": "",
-                        "vcs": "",
-                        "path": ""
+                        "composer": "composer",
+                        "vcs": "vcs",
+                        "path": "路徑"
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
-                        "url": "",
-                        "submit_button": ""
+                        "name_label": "名稱",
+                        "type_label": "類型",
+                        "url": "URL",
+                        "submit_button": "提交"
                     }
                 }
             },
             "exceptions": {
-                "composer_command_failure": "",
-                "extension_already_installed": "",
-                "extension_not_directly_dependency": "",
-                "extension_not_installed": "",
+                "composer_command_failure": "執行失敗。 檢查 storage/logs/composer 中的 Composer 日誌。",
+                "extension_already_installed": "擴充已安裝。",
+                "extension_not_directly_dependency": "擴充功能作為另一個擴充功能的依賴項安裝，無法直接刪除。",
+                "extension_not_installed": "未找到擴展名。",
                 "guessed_cause": {
-                    "extension_incompatible_with_instance": "",
-                    "extension_not_found": "",
-                    "extensions_incompatible_with_new_major": ""
+                    "extension_incompatible_with_instance": "該擴充很可能與您目前的 Flarum 實例不相容。",
+                    "extension_not_found": "擴展名未找到或不存在。",
+                    "extensions_incompatible_with_new_major": "某些已安裝的擴充功能與最新的主要版本不相容。 請等待作者將擴充功能更新為相容，或在繼續之前將其刪除。\n"
                 }
             },
             "extensions": {
-                "check_why_it_failed_updating": "",
-                "install": "",
-                "install_help": "",
-                "proceed": "",
-                "remove": "",
-                "successful_install": "",
-                "successful_remove": "",
-                "successful_update": "",
-                "update": "",
-                "update_soft_label": "",
-                "update_hard_label": ""
+                "check_why_it_failed_updating": "說明為什麼沒有更新到最新版本。",
+                "install": "安裝新擴展",
+                "install_help": "填寫擴展名稱以繼續。你可以指定 <semantic_link>semantic version</semantic_link> 使用以下格式<ode>vendor/package-name:version</code>。造訪 {extiverse} 瀏覽擴充功能。\n",
+                "proceed": "繼續",
+                "remove": "解除安裝",
+                "successful_install": "{extension} 已成功安裝，正在重定向..",
+                "successful_remove": "擴充功能已成功刪除。",
+                "successful_update": "{extension} 已成功更新，正在重定向..",
+                "update": "更新",
+                "update_soft_label": "軟更新",
+                "update_hard_label": "硬更新"
             },
-            "file_permissions": "",
+            "file_permissions": "擴充管理員需要以下檔案和目錄的讀寫權限：composer.json、composer.lock、vendor、storage、storage/.composer\n",
             "major_updater": {
-                "description": "",
-                "dry_run": "",
-                "dry_run_help": "",
+                "description": "主要 Flarum 更新不向後相容，這意味著您目前安裝的一些擴充功能以及手動進行的修改可能不適用於此新版本。 請確保在繼續之前備份您的資料庫和檔案。\n",
+                "dry_run": "試運行",
+                "dry_run_help": "試運行會模擬更新，以查看您目前的設定是否可以安全更新，這並不意味著您手動進行的自訂修改將在較新的版本中運作。",
                 "failure": {
-                    "desc": "",
-                    "why": ""
+                    "desc": "上次主要更新失敗，某些已安裝的擴充功能與新的主要版本不相容。",
+                    "why": "查看更多"
                 },
-                "title": "",
-                "update": ""
+                "title": "Flarum {version}主要更新可用",
+                "update": "更新"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "這也將使用可用更新更新任何其他擴充功能/套件。"
             },
             "sections": {
                 "control": {
-                    "title": ""
+                    "title": "管理員"
                 },
                 "queue": {
                     "columns": {
-                        "details": "",
-                        "elapsed_time": "",
-                        "peak_memory_used": "",
-                        "operation": "",
-                        "package": "",
-                        "status": ""
+                        "details": "詳細資料",
+                        "elapsed_time": "完成於",
+                        "peak_memory_used": "記憶體使用峰值",
+                        "operation": "操作",
+                        "package": "擴展包",
+                        "status": "狀態"
                     },
-                    "none": "",
+                    "none": "還沒有任務。",
                     "operations": {
-                        "extension_install": "",
-                        "extension_remove": "",
-                        "extension_update": "",
-                        "update_check": "",
-                        "update_global": "",
-                        "update_major": "",
-                        "update_minor": "",
-                        "why_not": ""
+                        "extension_install": "安裝擴展",
+                        "extension_remove": "移除擴展",
+                        "extension_update": "更新擴展",
+                        "update_check": "檢查更新",
+                        "update_global": "更新所有擴展",
+                        "update_major": "主要更新",
+                        "update_minor": "小更新",
+                        "why_not": "分析軟體包無法更新的原因"
                     },
                     "output_modal": {
-                        "cause_unknown": "",
-                        "command": "",
-                        "guessed_cause": "",
-                        "output": ""
+                        "cause_unknown": "不明",
+                        "command": "Composer Command",
+                        "guessed_cause": "原因",
+                        "output": "輸出"
                     },
-                    "refresh": "",
+                    "refresh": "刷新任務列表",
                     "statuses": {
-                        "success": "",
-                        "failure": "",
-                        "pending": "",
-                        "running": ""
+                        "success": "成功",
+                        "failure": "失敗",
+                        "pending": "待辦",
+                        "running": "執行中"
                     },
-                    "task_just_started": "",
-                    "title": ""
+                    "task_just_started": "任務剛開始",
+                    "title": "佇列"
                 }
             },
             "settings": {
-                "title": "",
-                "access_warning": "",
-                "debug_mode_warning": "",
-                "queue_jobs": "",
-                "queue_jobs_help": "",
-                "task_retention_days": "",
-                "task_retention_days_help": ""
+                "title": "=> core.ref.settings",
+                "access_warning": "請小心您授予管理區域存取權限的人員，擴充管理員可能會被不良行為者濫用來安裝可能導致安全漏洞的軟體包。",
+                "debug_mode_warning": "您正在調試模式下運行，擴充功能管理器無法正確安裝和更新本機開發套件。 為此，請改用命令列介面。",
+                "queue_jobs": "在後台佇列中運行操作",
+                "queue_jobs_help": "您可以閱讀<a href='{basic_impl_link}'>基本佇列</a>實作或<a href='{adv_impl_link}'>高級設置</a>實作。 確保用於佇列的 PHP 版本是 {php_version}。 確保<a href='{folder_perms_link}'>資料夾權限</a>配置正確。\n",
+                "task_retention_days": "任務保留天數",
+                "task_retention_days_help": "在資料庫中保留已完成任務的天數。 早於此的任務將被刪除。 設定為 0 以保留所有任務。\n"
             },
             "updater": {
-                "up_to_date": "",
-                "check_for_updates": "",
-                "flarum": "",
-                "global_update_successful": "",
-                "last_update_checked_at": "",
-                "run_global_update": "",
-                "updater_title": "",
-                "updater_help": ""
+                "up_to_date": "所有版本都是最新的！",
+                "check_for_updates": "檢查更新",
+                "flarum": "Flarum Core",
+                "global_update_successful": "已成功更新所有套件。",
+                "last_update_checked_at": "最後更新檢查： ",
+                "run_global_update": "運行全域更新",
+                "updater_title": "更新",
+                "updater_help": "執行檢查新擴充功能和 Flarum 更新。"
             },
-            "update_successful": "",
+            "update_successful": "Flarum 已成功更新。",
             "why_not_modal": {
-                "title": ""
+                "title": "為何無法更新"
             }
         }
     }
