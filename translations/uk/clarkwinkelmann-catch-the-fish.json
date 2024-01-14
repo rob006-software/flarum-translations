@@ -3,64 +3,64 @@
         "forum": {
             "moderate": {
                 "add": "Додати",
-                "edit": "",
-                "delete": "",
-                "fishes": "",
-                "rounds": ""
+                "edit": "Редагувати",
+                "delete": "Видалити",
+                "fishes": "Рибки",
+                "rounds": "Раунди"
             },
             "nav": {
-                "rankings": "",
-                "settings": ""
+                "rankings": "Рейтинг Catch The Fish",
+                "settings": "Налаштування Catch The Fish"
             },
             "new-round-modal": {
-                "title": ""
+                "title": "Новий раунд"
             },
             "new-fish-modal": {
-                "title": ""
+                "title": "Нова риба"
             },
             "edit-round-modal": {
-                "title": ""
+                "title": "Редагувати раунд «{name}»"
             },
             "edit-fish-modal": {
-                "title": ""
+                "title": "Редагувати рибу «{name}»"
             },
             "caught-fish-modal": {
-                "title": "",
-                "named-by": "",
-                "placed-by": "",
-                "congratulation": "",
-                "name": "",
-                "name-help": "",
-                "placement-help": "",
-                "submit-name-place-later": "",
-                "submit-name": "",
-                "submit-place-later": "",
-                "submit-continue": "",
-                "submit-name-place-random": "",
-                "submit-place-random": ""
+                "title": "Ти спіймав рибу!",
+                "named-by": "Названо на честь",
+                "placed-by": "Розміщено",
+                "congratulation": "Вітаємо, ви зловили рибу! Ви зловили {catch_count} рибин.",
+                "name": "Назва риби",
+                "name-help": "Ви можете перейменувати рибку, якщо хочете. Назва повинна відповідати правилам форуму.",
+                "placement-help": "Ви можете сховати рибку де завгодно на форумі в останніх обговореннях і профілях активних користувачів. Ви не можете зловити рибу, яку ви самі розмістили.",
+                "submit-name-place-later": "Збережіть ім'я та оберіть місце для схованки",
+                "submit-name": "Зберегти ім'я",
+                "submit-place-later": "Так, я оберу місце для схованки.",
+                "submit-continue": "Продовжити",
+                "submit-name-place-random": "Збережіть ім'я і дозвольте рибі сховатися",
+                "submit-place-random": "Дозвольте рибі сховатися"
             },
             "edit-round": {
-                "name": "",
-                "name-help": "",
-                "starts-at": "",
-                "ends-at": "",
-                "starting-pack": "",
-                "starting-pack-help": "",
-                "create": "",
-                "save": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "name": "Назва",
+                "name-help": "Публічна назва цього раунду буде показана на банері та в рейтингу",
+                "starts-at": "Час початку",
+                "ends-at": "Час завершення",
+                "starting-pack": "Стартовий пакет",
+                "starting-pack-help": "Буде включати кілька риб, щоб ви могли швидко розпочати роботу",
+                "create": "Створити раунд",
+                "save": "Зберегти раунд",
+                "delete": "Видалити раунд",
+                "delete-confirmation": "Видали6раунд «{name}»?"
             },
             "edit-fish": {
-                "name": "",
-                "name-help": "",
-                "create": "",
-                "save": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "name": "Назва",
+                "name-help": "Поточна назва риби. Може редагуватися гравцями, якщо у них є дозвіл на перейменування риб",
+                "create": "Створити рибу",
+                "save": "Зберегти рибу",
+                "delete": "Видалити рибу",
+                "delete-confirmation": "Видалити рибу «{name}»?"
             },
             "moving-fish": {
-                "login": ""
+                "login": "Увійдіть, щоб ловити рибу"
             },
             "fish-image": {
                 "alt": "",
@@ -76,38 +76,38 @@
                 "time": ""
             },
             "table-round": {
-                "loading": "",
-                "title": "",
-                "new": "",
-                "name": "",
-                "start": "",
-                "end": "",
+                "loading": "Завантаження...",
+                "title": "Раунди",
+                "new": "Новий раунд",
+                "name": "Назва",
+                "start": "Від",
+                "end": "До",
                 "actions": "",
-                "edit": "",
-                "fishes": ""
+                "edit": "Редагувати",
+                "fishes": "Риби"
             },
             "table-fish": {
-                "loading": "",
+                "loading": "Завантаження...",
                 "title": "",
-                "new": "",
-                "image": "",
-                "name": "",
+                "new": "Нова риба",
+                "image": "Зображення",
+                "name": "Назва",
                 "user-name": "",
                 "user-place": "",
                 "placement": "",
                 "actions": "",
-                "edit": "",
+                "edit": "Редагувати",
                 "no-user-name": "",
                 "no-user-place": "",
                 "upload": "",
                 "new-from-image": ""
             },
             "table-ranking": {
-                "loading": "",
+                "loading": "Завантаження...",
                 "title": "",
-                "rank": "",
+                "rank": "Назва",
                 "count": "",
-                "user": ""
+                "user": "Користувач"
             },
             "page-ranking": {
                 "title": "",
@@ -121,10 +121,10 @@
         },
         "admin": {
             "settings": {
-                "user": "",
+                "user": "Користувачі",
                 "user-age": "",
                 "user-probability": "",
-                "discussion": "",
+                "discussion": "Дискусії",
                 "discussion-age": "",
                 "discussion-tags": "",
                 "discussion-tags-unavailable": "",
