@@ -1105,6 +1105,9 @@ return [
 	'nearata-embed-video' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-embed-video/3.3.2/locale/en.yml',
 	],
+	'nearata-maintenance-mode' => [
+		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-maintenance-mode/1.0.0/locale/en.yml',
+	],
 	'nearata-minecraft-avatars' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-minecraft-avatars/v2.1.1/locale/en.yml',
 	],
