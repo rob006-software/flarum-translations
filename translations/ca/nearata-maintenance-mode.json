@@ -3,28 +3,28 @@
         "admin": {
             "dashboard": {
                 "maintenance_widget": {
-                    "title": "",
-                    "detail": ""
+                    "title": "Mode manteniment actiu",
+                    "detail": "Durant el manteniment, només els usuaris autoritzats poden veure el fòrum."
                 }
             },
             "permissions": {
-                "bypass": ""
+                "bypass": "Pot saltar-se el mode de manteniment"
             },
             "settings": {
                 "maintenance_mode_enabled": {
-                    "label": ""
+                    "label": "Mode de manteniment"
                 }
             }
         },
         "views": {
             "default": {
-                "title": "",
-                "header": "",
-                "body": ""
+                "title": "Manteniment",
+                "header": "Actualment fora de servei per manteniment.",
+                "body": "<p>Actualment estem fent manteniment del sistema. Si us plau, torneu més tard.</p>\n"
             }
         },
         "api": {
-            "title": ""
+            "title": "Fora de servei per manteniment. Si us plau, torneu més tard."
         }
     }
 }
