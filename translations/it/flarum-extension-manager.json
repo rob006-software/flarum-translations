@@ -2,167 +2,167 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Nuovo metodo di autenticazione",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "Host",
+                    "host_placeholder": "esempio: extiverse.com",
+                    "submit_button": "Invia",
+                    "token_label": "Token",
+                    "type_label": "Tipo",
+                    "unchanged_token_placeholder": "(invariato)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "Sei sicuro di voler eliminare questo metodo di autenticazione?",
+                "delete_label": "Elimina il metodo di autenticazione",
+                "edit_label": "Modifica metodo di autenticazione",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "Host",
+                    "token": "Token"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "Nessun metodo di autenticazione configurato. Questa è una funzionalità avanzata opzionale per consentire l'installazione da repository privati.",
+                "remove_button_label": "Rimuovi il metodo di autenticazione",
+                "title": "Metodi di autenticazione",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab Token",
+                    "bearer": "HTTP Bearer"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "Aggiungi Repository",
+                "delete_repository_confirmation": "Sei sicuro di voler eliminare questo repository? Tutte le estensioni installate da questo repository verranno rimosse.",
+                "delete_repository_label": "Cancella repository",
+                "edit_repository_label": "Modifica repository",
+                "title": "Composer",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "Stabilità minima",
+                    "help": "Il tipo di pacchetti che è consentito installare. Non modificarlo se non sai cosa stai facendo.",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "stable": "Stabile (Raccomandato)",
+                        "rc": "Release Candidate",
+                        "beta": "Beta",
+                        "alpha": "Alpha",
+                        "dev": "Dev"
                     }
                 },
                 "repositories": {
-                    "label": "",
-                    "help": "",
+                    "label": "Repositories",
+                    "help": "Aggiungi ulteriori repository da cui installare i pacchetti. Questa è una funzionalità avanzata, non aggiungere repository non attendibili, poiché possono essere utilizzati per eseguire codice dannoso sul tuo server.\n",
                     "types": {
-                        "composer": "",
+                        "composer": "composer",
                         "vcs": "",
-                        "path": ""
+                        "path": "percorso"
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
-                        "url": "",
-                        "submit_button": ""
+                        "name_label": "Nome",
+                        "type_label": "Tipo",
+                        "url": "URL",
+                        "submit_button": "Invia"
                     }
                 }
             },
             "exceptions": {
-                "composer_command_failure": "",
-                "extension_already_installed": "",
-                "extension_not_directly_dependency": "",
-                "extension_not_installed": "",
+                "composer_command_failure": "Impossibile eseguire. Controlla i log di composer in storage/logs/composer.",
+                "extension_already_installed": "Estensione già installata.",
+                "extension_not_directly_dependency": "L'estensione è installata come dipendenza di un'altra estensione e non può essere rimossa direttamente.",
+                "extension_not_installed": "Estensione non trovata.",
                 "guessed_cause": {
-                    "extension_incompatible_with_instance": "",
-                    "extension_not_found": "",
-                    "extensions_incompatible_with_new_major": ""
+                    "extension_incompatible_with_instance": "Molto probabilmente l'estensione è incompatibile con la tua attuale istanza Flarum.",
+                    "extension_not_found": "L'estensione non è stata trovata o non esiste.",
+                    "extensions_incompatible_with_new_major": "Alcune estensioni installate non sono compatibili con la versione principale più recente. Attendi fino a quando le estensioni non verranno aggiornate per essere compatibili da parte degli autori, oppure rimuovile prima di procedere.\n"
                 }
             },
             "extensions": {
-                "check_why_it_failed_updating": "",
-                "install": "",
-                "install_help": "",
-                "proceed": "",
-                "remove": "",
-                "successful_install": "",
-                "successful_remove": "",
-                "successful_update": "",
-                "update": "",
-                "update_soft_label": "",
-                "update_hard_label": ""
+                "check_why_it_failed_updating": "Mostra perché non è stato aggiornato all'ultima versione.",
+                "install": "Installa nuova estensione",
+                "install_help": "Inserisci il nome del pacchetto di estensione per procedere. Puoi specificare una <semantic_link>versione semantica</semantic_link> utilizzando il formato <code>venditore/nome-pacchetto:versione</code>. Visita {extiverse} per sfogliare le estensioni.\n",
+                "proceed": "Procedi",
+                "remove": "Disinstalla",
+                "successful_install": "{extension} è stata installata correttamente, reindirizzamento..",
+                "successful_remove": "Estensione rimossa con successo.",
+                "successful_update": "{extension} aggiornata con successo, reindirizzamento..",
+                "update": "Aggiorna",
+                "update_soft_label": "Aggiornamento Soft",
+                "update_hard_label": "Aggiornamento Hard"
             },
-            "file_permissions": "",
+            "file_permissions": "Il gestore delle estensioni richiede autorizzazioni di lettura e scrittura sui seguenti file e directory: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
-                "description": "",
-                "dry_run": "",
-                "dry_run_help": "",
+                "description": "Gli aggiornamenti principali di Flarum non sono retrocompatibili, il che significa che alcune delle estensioni attualmente installate e le modifiche apportate manualmente potrebbero non funzionare con questa nuova versione. Assicurati di eseguire un backup del database e dei file prima di procedere.\n",
+                "dry_run": "Dry Run",
+                "dry_run_help": "Un'esecuzione di prova emula l'aggiornamento per verificare se la configurazione attuale può essere aggiornata in modo sicuro. Ciò non significa che le modifiche personalizzate apportate manualmente funzioneranno nella versione più recente.",
                 "failure": {
-                    "desc": "",
-                    "why": ""
+                    "desc": "L'ultimo aggiornamento principale non è riuscito, alcune estensioni installate non sono compatibili con la nuova versione principale.",
+                    "why": "Scopri di più"
                 },
-                "title": "",
-                "update": ""
+                "title": "Aggiornamento principale a Flarum {version} disponibile",
+                "update": "Aggiorna"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Ciò aggiornerà anche eventuali altre estensioni/pacchetti con aggiornamenti disponibili."
             },
             "sections": {
                 "control": {
-                    "title": ""
+                    "title": "Gestore"
                 },
                 "queue": {
                     "columns": {
-                        "details": "",
-                        "elapsed_time": "",
-                        "peak_memory_used": "",
-                        "operation": "",
-                        "package": "",
-                        "status": ""
+                        "details": "Dettagli",
+                        "elapsed_time": "Completato in",
+                        "peak_memory_used": "Memoria di picco utilizzata",
+                        "operation": "Operazione",
+                        "package": "Pacchetto",
+                        "status": "Stato"
                     },
-                    "none": "",
+                    "none": "Non ci sono attività.",
                     "operations": {
-                        "extension_install": "",
-                        "extension_remove": "",
-                        "extension_update": "",
-                        "update_check": "",
-                        "update_global": "",
-                        "update_major": "",
-                        "update_minor": "",
-                        "why_not": ""
+                        "extension_install": "Installa estensione",
+                        "extension_remove": "Rimuovi estensione",
+                        "extension_update": "Aggiorna estensione",
+                        "update_check": "Controlla aggiornamenti",
+                        "update_global": "Aggiorna tutti i pacchetti",
+                        "update_major": "Aggiornamento importante",
+                        "update_minor": "Aggiornamento minore",
+                        "why_not": "Analizzare il motivo per cui un pacchetto non può essere aggiornato"
                     },
                     "output_modal": {
-                        "cause_unknown": "",
-                        "command": "",
-                        "guessed_cause": "",
-                        "output": ""
+                        "cause_unknown": "Sconosciuto",
+                        "command": "Comando composer",
+                        "guessed_cause": "Causa",
+                        "output": "Output"
                     },
-                    "refresh": "",
+                    "refresh": "Aggiorna lista attività",
                     "statuses": {
-                        "success": "",
-                        "failure": "",
-                        "pending": "",
-                        "running": ""
+                        "success": "Successo",
+                        "failure": "Fallito",
+                        "pending": "In attesa",
+                        "running": "In corso"
                     },
-                    "task_just_started": "",
-                    "title": ""
+                    "task_just_started": "Attività appena iniziata",
+                    "title": "Coda"
                 }
             },
             "settings": {
                 "title": "",
-                "access_warning": "",
-                "debug_mode_warning": "",
-                "queue_jobs": "",
-                "queue_jobs_help": "",
-                "task_retention_days": "",
-                "task_retention_days_help": ""
+                "access_warning": "Fai attenzione a chi dai accesso all'area di amministrazione, il gestore delle estensioni potrebbe essere utilizzato in modo improprio da malintenzionati per installare pacchetti che possono portare a violazioni della sicurezza.",
+                "debug_mode_warning": "Stai eseguendo la modalità debug, il gestore estensioni non può installare e aggiornare correttamente i pacchetti di sviluppo locale. Per tali scopi utilizzare invece l'interfaccia della riga di comando.",
+                "queue_jobs": "Esegui operazioni nella coda in background",
+                "queue_jobs_help": "Puoi leggere informazioni sull'implementazione della <a href='{basic_impl_link}'>coda di base</a> o su una <a href='{adv_impl_link}'>più avanzata</a>. Assicurati che la versione PHP utilizzata per la coda sia {php_version}. Assicurati che le <a href='{folder_perms_link}'>autorizzazioni cartella</a> siano configurate correttamente.\n",
+                "task_retention_days": "Giorni di conservazione attività",
+                "task_retention_days_help": "Il numero di giorni per cui conservare le attività completate nel database. Le attività più vecchie di questa verranno eliminate. Impostato su 0 per mantenere tutte le attività.\n"
             },
             "updater": {
-                "up_to_date": "",
-                "check_for_updates": "",
+                "up_to_date": "Tutto è aggiornato!",
+                "check_for_updates": "Controlla aggiornamenti",
                 "flarum": "",
-                "global_update_successful": "",
-                "last_update_checked_at": "",
-                "run_global_update": "",
-                "updater_title": "",
-                "updater_help": ""
+                "global_update_successful": "Aggiornati con successo tutti i pacchetti.",
+                "last_update_checked_at": "Ultimo check aggiornamenti: ",
+                "run_global_update": "Lancia aggiornamento globale",
+                "updater_title": "Aggiornamenti",
+                "updater_help": "Esegue un controllo per la nuova estensione e gli aggiornamenti di Flarum."
             },
-            "update_successful": "",
+            "update_successful": "Flarum aggiornato con successo.",
             "why_not_modal": {
-                "title": ""
+                "title": "Perché non si aggiorna"
             }
         }
     }
