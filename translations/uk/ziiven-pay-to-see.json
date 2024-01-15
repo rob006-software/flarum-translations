@@ -1,59 +1,59 @@
 {
     "pay-to-see": {
         "lib": {
-            "ok": "",
-            "confirm": "",
-            "save": "",
-            "cancel": ""
+            "ok": "Гаразд",
+            "confirm": "Підтвердити",
+            "save": "Зберегти",
+            "cancel": "Скасувати"
         },
         "forum": {
-            "tag_no_permission_title": "",
-            "tag_no_permission": "",
-            "tag_has_permission": "",
-            "pay_to_see_content": "",
-            "pay_to_see_content_label": "",
-            "purchased_content": "",
-            "purchased_users": "",
-            "purchased_users_empty": "",
-            "pay_to_see_owner_bypass": "",
-            "pay_to_see_content_bypass": "",
-            "toolbar_tooltip": "",
-            "set_pay_to_see_price": "",
-            "set_pay_to_see_price_success": "",
-            "remove_pay_to_see_price_success": "",
-            "modify_pay_to_see_price": "",
-            "remove": "",
-            "need_pay2see_tag": "",
-            "not_support_anonymous": "",
-            "purchase_success": "",
-            "purchase_confirmation": "",
-            "purchase_confirmation_text": "",
-            "purchase_button": "",
-            "purchase_unlocked_button": "",
-            "purchase_error_not_found": "",
-            "purchase_error_insufficient_fund": "",
-            "purchase_error_no_permission": "",
-            "set_error_no_permission": "",
-            "purchase_count": "",
+            "tag_no_permission_title": "Плата за перегляд контенту",
+            "tag_no_permission": "Ви не можете використовувати функцію оплати за перегляд для обраних тегів",
+            "tag_has_permission": "Дозволити платний перегляд контенту",
+            "pay_to_see_content": "Плата за перегляд контенту",
+            "pay_to_see_content_label": "Плата за перегляд контенту",
+            "purchased_content": "Придбаний контент",
+            "purchased_users": "Оплачено користувачами",
+            "purchased_users_empty": "Ще ніхто не придбав",
+            "pay_to_see_owner_bypass": "Плата за перегляд контенту [Обхід власника]",
+            "pay_to_see_content_bypass": "Плата за перегляд контенту [Обхід дозволу]",
+            "toolbar_tooltip": "Вставте плату за перегляд контенту",
+            "set_pay_to_see_price": "Встановити ціну контенту",
+            "set_pay_to_see_price_success": "Комплект цін на контент",
+            "remove_pay_to_see_price_success": "Оплатіть, щоб побачити видалений вміст",
+            "modify_pay_to_see_price": "Змінити ціну на контент",
+            "remove": "Видалити",
+            "need_pay2see_tag": "Вам потрібно додати тег [pay][/pay] для оплати, щоб побачити вміст",
+            "not_support_anonymous": "Плата за перегляд контенту не підтримується в анонімних повідомленнях",
+            "purchase_success": "Успішна покупка",
+            "purchase_confirmation": "Придбання контенту",
+            "purchase_confirmation_text": "Ви впевнені, що сплатите {costText} ?",
+            "purchase_button": "Придбання контенту",
+            "purchase_unlocked_button": "Вміст розблоковано",
+            "purchase_error_not_found": "Неможливо придбати контент",
+            "purchase_error_insufficient_fund": "Недостатньо коштів",
+            "purchase_error_no_permission": "У дозволі відмовлено",
+            "set_error_no_permission": "У вас немає дозволу на використання платного контенту",
+            "purchase_count": "Підрахунок покупок: {count}",
             "notifications": {
-                "notification_setting_some_one_purchase_content": "",
-                "discussion_purchased": "",
-                "discussion_purchased_cost": ""
+                "notification_setting_some_one_purchase_content": "Хтось придбав мій контент",
+                "discussion_purchased": "Користувач {username} шукав ваш контент",
+                "discussion_purchased_cost": "Ви отримали {cost}"
             }
         },
         "admin": {
-            "set_permission_tag": "",
-            "set_permission_tag_help": "",
-            "error_need_one_tag": "",
+            "set_permission_tag": "Налаштування дозволів тегів",
+            "set_permission_tag_help": "Коли користувач починає обговорення, він може використовувати P2S, вибравши будь-який тег, який має дозвіл",
+            "error_need_one_tag": "Будь ласка, оберіть принаймні один тег",
             "settings": {
-                "badge_icon": "",
-                "badge_icon_desc": ""
+                "badge_icon": "Значок бейджа",
+                "badge_icon_desc": "Введіть назву будь-якого класу іконок FontAwesome, включаючи префікс <code>fas fa-</code>. Залиште поле порожнім, щоб прибрати значок."
             },
             "permission": {
-                "allow_use_pay2see": "",
-                "allow_purchase_pay2see": "",
-                "allow_bypass_pay2see": "",
-                "allow_set_pay2see": ""
+                "allow_use_pay2see": "Дозвольте платити за перегляд",
+                "allow_purchase_pay2see": "Дозволити оплату за перегляд контенту",
+                "allow_bypass_pay2see": "Дозволити обхід для перегляду платного контенту",
+                "allow_set_pay2see": "Дозволити встановлену плату за перегляд дискусій інших користувачів"
             }
         }
     }
