@@ -374,7 +374,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => '0.Major.Minor',
 		],
-		'maintainers' => [], // ['meetdilip'], see https://github.com/flarum-lang/hindi/pull/3#issuecomment-1311826819
+		'maintainers' => ['ItsNeil17'],
 	],
 	'hr' => [
 		'type' => 'language',
