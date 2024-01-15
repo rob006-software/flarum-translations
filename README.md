@@ -1116,6 +1116,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`nearata-dsts`](https://weblate.rob006.net/projects/flarum/nearata-dsts) | [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts) |
 | [`nearata-embed-twitch`](https://weblate.rob006.net/projects/flarum/nearata-embed-twitch) | [`nearata/flarum-ext-embed-twitch`](https://github.com/Nearata/flarum-ext-embed-twitch) |
 | [`nearata-embed-video`](https://weblate.rob006.net/projects/flarum/nearata-embed-video) | [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video) |
+| [`nearata-maintenance-mode`](https://weblate.rob006.net/projects/flarum/nearata-maintenance-mode) | [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode) |
 | [`nearata-minecraft-avatars`](https://weblate.rob006.net/projects/flarum/nearata-minecraft-avatars) | [`nearata/flarum-ext-minecraft-avatars`](https://github.com/Nearata/flarum-ext-minecraft-avatars) |
 | [`nearata-related-discussions`](https://weblate.rob006.net/projects/flarum/nearata-related-discussions) | [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions) |
 | [`nearata-signup-confirm-password`](https://weblate.rob006.net/projects/flarum/nearata-signup-confirm-password) | [`nearata/flarum-ext-signup-confirm-password`](https://github.com/Nearata/flarum-ext-signup-confirm-password) |
