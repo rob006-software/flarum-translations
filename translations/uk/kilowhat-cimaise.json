@@ -58,19 +58,19 @@
                 "title": "Редагувати альбом «{title}»"
             },
             "attach-album-modal": {
-                "title": "",
+                "title": "Прикріпити альбом до «{title}»",
                 "selected": "Обрано:",
                 "none-selected": "Жоден",
                 "search": "Пошук",
-                "no-results": "",
+                "no-results": "Результати відсутні",
                 "select": "Обрати",
-                "unselect": "",
+                "unselect": "Не обрано",
                 "submit": "Надіслати"
             },
             "edit-album": {
                 "title": "Заголовок",
                 "description": "Опис",
-                "isCommunity": "",
+                "isCommunity": "Альбом спільноти (кожен може зробити свій внесок)",
                 "create": "Створити альбом",
                 "save": "Зберегти альбом"
             },
@@ -84,45 +84,45 @@
                 "restore": "=> kilowhat-cimaise.ref.restore",
                 "hide": "=> kilowhat-cimaise.ref.hide",
                 "delete": "=> kilowhat-cimaise.ref.delete",
-                "delete-confirmation": "",
+                "delete-confirmation": "Видалити альбом «{title}»?",
                 "by-user": "=> kilowhat-cimaise.ref.by-user"
             },
             "picture-thumbnail": {
                 "by-user": "=> kilowhat-cimaise.ref.by-user",
-                "in-album": ""
+                "in-album": "В"
             },
             "picture-controls": {
                 "controls": "=> kilowhat-cimaise.ref.controls",
-                "editor": "",
-                "approve": "",
-                "remove-favorite": "",
-                "set-favorite": "",
+                "editor": "Редагувати обрізання та маску",
+                "approve": "Схвалити",
+                "remove-favorite": "Видалити обране",
+                "set-favorite": "Додати до обраного",
                 "restore": "=> kilowhat-cimaise.ref.restore",
                 "hide": "=> kilowhat-cimaise.ref.hide",
                 "delete": "=> kilowhat-cimaise.ref.delete",
-                "delete-confirmation": ""
+                "delete-confirmation": "Видалити зображення «{title}»?"
             },
             "editable-attribute": {
-                "title": "",
-                "description": "",
+                "title": "Натисніть, щоб додати назву",
+                "description": "Натисніть, щоб додати опис",
                 "author": "Натисніть, щоб додати автора"
             },
             "badge": {
                 "hidden": "Приховано",
-                "awaiting-approval": "",
-                "favorite": ""
+                "awaiting-approval": "Очікує схвалення",
+                "favorite": "Обоане"
             },
             "picture-sort": {
-                "latest": "",
-                "oldest": "",
-                "latestTake": "",
-                "oldestTake": ""
+                "latest": "Останнє завантаження",
+                "oldest": "Найстаріше завантаження",
+                "latestTake": "Остання спроба",
+                "oldestTake": "Стара спроба"
             },
             "album-search": {
                 "title": "=> kilowhat-cimaise.ref.albums"
             },
             "post-stream": {
-                "uploaded": ""
+                "uploaded": "Користувач {username} завантажив {count} зображень"
             },
             "discussion-controls": {
                 "attach-album": ""
