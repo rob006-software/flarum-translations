@@ -75,15 +75,15 @@
             "extensions": {
                 "check_why_it_failed_updating": "說明為什麼沒有更新到最新版本。",
                 "install": "安裝新擴展",
-                "install_help": "填寫擴展名稱以繼續。你可以指定 <semantic_link>semantic version</semantic_link> 使用以下格式<ode>vendor/package-name:version</code>。造訪 {extiverse} 瀏覽擴充功能。\n",
+                "install_help": "填寫擴展名稱以繼續。你可以指定 <semantic_link>semantic version</semantic_link> 使用以下格式<code>vendor/package-name:version</code>。造訪 {extiverse} 瀏覽擴充功能。\n",
                 "proceed": "繼續",
                 "remove": "解除安裝",
                 "successful_install": "{extension} 已成功安裝，正在重定向..",
                 "successful_remove": "擴充功能已成功刪除。",
                 "successful_update": "{extension} 已成功更新，正在重定向..",
                 "update": "更新",
-                "update_soft_label": "軟更新",
-                "update_hard_label": "硬更新"
+                "update_soft_label": "Soft update",
+                "update_hard_label": "Hard update"
             },
             "file_permissions": "擴充管理員需要以下檔案和目錄的讀寫權限：composer.json、composer.lock、vendor、storage、storage/.composer\n",
             "major_updater": {
