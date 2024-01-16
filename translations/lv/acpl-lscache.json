@@ -1,13 +1,13 @@
 {
     "acpl-lscache": {
         "admin": {
-            "cache_enabled_label": "",
-            "cache_enabled_help": "",
-            "public_cache_ttl_label": "",
-            "public_cache_ttl_help": "",
-            "clearing_cache_listener_label": "",
-            "serve_stale_label": "",
-            "serve_stale_help": "",
+            "cache_enabled_label": "Iespējot LSCache",
+            "cache_enabled_help": "Skatiet <a>informācijas lapu</a> par to, kā pārbaudīt kešatmiņu. PIEZĪME: Atspējojot kešatmiņu, visi šīs vietnes kešatmiņā saglabātie ieraksti tiks iztīrīti.",
+            "public_cache_ttl_label": "Noklusējuma publiskā kešatmiņa TTL",
+            "public_cache_ttl_help": "uzraksti, cik ilgi sekundēs publiskās lapas ir jāglabā kešatmiņā. Noklusējuma vērtība ir 604 800 sekundes (viena nedēļa).",
+            "clearing_cache_listener_label": "Iztīriet LSCache, kad Flarum kešatmiņa ir notīrīta",
+            "serve_stale_label": "Pasniedziet novecojušu saturu",
+            "serve_stale_help": "Ja tas ir iespējots, apmeklētājiem tiks rādīta novecojusi kešatmiņā saglabātās lapas versija, līdz tiks ģenerēta jauna kešatmiņas kopija. Tas samazina servera slodzi. Ja tas ir atspējots, lapa tiks dinamiski ģenerēta kešatmiņas atjaunināšanas laikā, kas var palielināt gaidīšanas laiku. Pēc konstrukcijas šī opcija var nodrošināt novecojušu saturu. Lūdzu, neiespējojiet to, ja uzskatāt, ka tas ir nepieņemami.",
             "purge_on_discussion_update_label": "",
             "purge_on_discussion_update_help": "",
             "cache_exclude_label": "",
