@@ -3,9 +3,9 @@
         "admin": {
             "settings": {
                 "backoff_label": "",
-                "backoff_help": "",
+                "backoff_help": "Jumlah detik untuk menunggu sebelum mencoba kembali job yang mengalami exception yang tidak tertangkap.\n",
                 "memory_label": "",
-                "memory_help": "",
+                "memory_help": "Batas memori dalam megabyte.\n",
                 "rest_label": "",
                 "rest_help": "",
                 "retries_label": "",
