@@ -3,28 +3,28 @@
         "admin": {
             "dashboard": {
                 "maintenance_widget": {
-                    "title": "",
-                    "detail": ""
+                    "title": "Mode pemeliharaan aktif",
+                    "detail": "Selama pemeliharaan, hanya pengguna yang berwenang yang dapat melihat forum."
                 }
             },
             "permissions": {
-                "bypass": ""
+                "bypass": "Dapat melewati Mode Pemeliharaan"
             },
             "settings": {
                 "maintenance_mode_enabled": {
-                    "label": ""
+                    "label": "Mode Pemeliharaan"
                 }
             }
         },
         "views": {
             "default": {
-                "title": "",
-                "header": "",
-                "body": ""
+                "title": "Pemeliharaan",
+                "header": "Saat ini sedang dalam pemeliharaan.",
+                "body": "<p>Kami sedang melakukan pemeliharaan saat ini. Silakan kembali lagi nanti.</p>\n"
             }
         },
         "api": {
-            "title": ""
+            "title": "Saat ini sedang dalam pemeliharaan. Silakan kembali lagi nanti."
         }
     }
 }
