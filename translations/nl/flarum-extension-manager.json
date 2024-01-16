@@ -2,167 +2,167 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Nieuwe authenticatiemethode",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "Host",
+                    "host_placeholder": "voorbeeld: extiverse.com",
+                    "submit_button": "Opslaan",
+                    "token_label": "Token",
+                    "type_label": "Type",
+                    "unchanged_token_placeholder": "(ongewijzigd)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "Weet u zeker dat u deze authenticatiemethode wilt verwijderen?",
+                "delete_label": "Authenticatiemethode verwijderen",
+                "edit_label": "Authenticatiemethode wijzigen",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "Host",
+                    "token": "Token"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "Geen authenticatiemethoden geconfigureerd. Dit is een optionele, geavanceerde functie waarmee installatie vanuit privéopslagplaatsen mogelijk is.",
+                "remove_button_label": "Authenticatiemethode verwijderen",
+                "title": "Authenticatiemethoden",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab Token",
+                    "bearer": "HTTP Bearer"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "Repository toevoegen",
+                "delete_repository_confirmation": "Weet u zeker dat u deze repository wilt verwijderen? Alle extensies die vanuit deze repository zijn geïnstalleerd, worden verwijderd.",
+                "delete_repository_label": "Repository verwijderen",
+                "edit_repository_label": "Repository wijzigen",
+                "title": "Composer",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "Minimale stabiliteit",
+                    "help": "Het type pakketten dat geïnstalleerd mag worden. Verander dit niet tenzij u weet wat u doet.",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "stable": "Stabiel (aanbevolen)",
+                        "rc": "Release Candidate",
+                        "beta": "Beta",
+                        "alpha": "Alpha",
+                        "dev": "Dev"
                     }
                 },
                 "repositories": {
-                    "label": "",
-                    "help": "",
+                    "label": "Repositories",
+                    "help": "Voeg extra repositories toe waaruit pakketten kunnen worden geïnstalleerd. Dit is een geavanceerde functie. Voeg geen repositories toe die niet worden vertrouwd, aangezien deze kunnen worden gebruikt om kwaadaardige code op uw server uit te voeren.\n",
                     "types": {
-                        "composer": "",
-                        "vcs": "",
-                        "path": ""
+                        "composer": "composer",
+                        "vcs": "vcs",
+                        "path": "Pad"
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
-                        "url": "",
-                        "submit_button": ""
+                        "name_label": "Naam",
+                        "type_label": "Type",
+                        "url": "URL",
+                        "submit_button": "Opslaan"
                     }
                 }
             },
             "exceptions": {
-                "composer_command_failure": "",
-                "extension_already_installed": "",
-                "extension_not_directly_dependency": "",
-                "extension_not_installed": "",
+                "composer_command_failure": "Kan niet worden uitgevoerd. Controleer de logbestanden van composer in opslag/logs/composer.",
+                "extension_already_installed": "Extensie is al geïnstalleerd.",
+                "extension_not_directly_dependency": "De extensie is geïnstalleerd als afhankelijkheid van een andere extensie en kan niet direct worden verwijderd.",
+                "extension_not_installed": "Extensie niet gevonden.",
                 "guessed_cause": {
-                    "extension_incompatible_with_instance": "",
-                    "extension_not_found": "",
-                    "extensions_incompatible_with_new_major": ""
+                    "extension_incompatible_with_instance": "De extensie is hoogstwaarschijnlijk niet compatibel met uw huidige Flarum-instantie.",
+                    "extension_not_found": "De extensie is niet gevonden of bestaat niet.",
+                    "extensions_incompatible_with_new_major": "Sommige geïnstalleerde extensies zijn niet compatibel met de nieuwste grote release. Wacht tot de extensies zijn bijgewerkt zodat ze compatibel zijn door de auteurs, of verwijder ze voordat u doorgaat.\n"
                 }
             },
             "extensions": {
-                "check_why_it_failed_updating": "",
-                "install": "",
-                "install_help": "",
-                "proceed": "",
-                "remove": "",
-                "successful_install": "",
-                "successful_remove": "",
-                "successful_update": "",
-                "update": "",
-                "update_soft_label": "",
-                "update_hard_label": ""
+                "check_why_it_failed_updating": "Laat zien waarom de update niet naar de nieuwste versie is uitgevoerd.",
+                "install": "Installeer een nieuwe extensie",
+                "install_help": "Vul de naam van het extensiepakket in om door te gaan. U kunt een <semantic_link>semantische versie</semantic_link> opgeven met de notatie <code>vendor/package-name:version</code>. Bezoek {extiverse} om door extensies te bladeren.\n",
+                "proceed": "Doorgaan",
+                "remove": "Deînstalleren",
+                "successful_install": "{extension} is succesvol geïnstalleerd, omleiden..",
+                "successful_remove": "Extensie succesvol verwijderd.",
+                "successful_update": "{extension} is succesvol bijgewerkt, omleiden..",
+                "update": "Update",
+                "update_soft_label": "Soft update",
+                "update_hard_label": "Hard update"
             },
-            "file_permissions": "",
+            "file_permissions": "De extensiemanager vereist lees- en schrijfrechten voor de volgende bestanden en mappen: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
-                "description": "",
-                "dry_run": "",
-                "dry_run_help": "",
+                "description": "Grote Flarum-updates zijn niet achterwaarts compatibel, wat betekent dat sommige van uw momenteel geïnstalleerde extensies en handmatig aangebrachte wijzigingen mogelijk niet werken met deze nieuwe versie. Zorg ervoor dat u een back-up maakt van uw database en bestanden voordat u doorgaat.\n",
+                "dry_run": "Dry Run",
+                "dry_run_help": "Een dry run emuleert de update om te zien of uw huidige installatie veilig kan worden bijgewerkt. Dit betekent niet dat de door u manueel gemaakte aanpassingen ook in de nieuwere versie zullen werken.",
                 "failure": {
-                    "desc": "",
-                    "why": ""
+                    "desc": "De laatste grote update is mislukt, sommige geïnstalleerde extensies zijn niet compatibel met de nieuwe grote release.",
+                    "why": "Meer te weten komen"
                 },
-                "title": "",
-                "update": ""
+                "title": "Flarum {version} Grote update beschikbaar",
+                "update": "Update"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Hierdoor worden ook alle andere extensies/pakketten bijgewerkt met beschikbare updates."
             },
             "sections": {
                 "control": {
-                    "title": ""
+                    "title": "Manager"
                 },
                 "queue": {
                     "columns": {
-                        "details": "",
-                        "elapsed_time": "",
-                        "peak_memory_used": "",
-                        "operation": "",
-                        "package": "",
-                        "status": ""
+                        "details": "Details",
+                        "elapsed_time": "Voltooid binnen",
+                        "peak_memory_used": "Piekgeheugengebruik",
+                        "operation": "Operatie",
+                        "package": "Pakket",
+                        "status": "Status"
                     },
-                    "none": "",
+                    "none": "Er zijn nog geen taken.",
                     "operations": {
-                        "extension_install": "",
-                        "extension_remove": "",
-                        "extension_update": "",
-                        "update_check": "",
-                        "update_global": "",
-                        "update_major": "",
-                        "update_minor": "",
-                        "why_not": ""
+                        "extension_install": "Extensie installeren",
+                        "extension_remove": "Extensie verwijderen",
+                        "extension_update": "Extensie bijwerken",
+                        "update_check": "Controleer op updates",
+                        "update_global": "Update alle softwarepakketten",
+                        "update_major": "Grote update",
+                        "update_minor": "Kleine update",
+                        "why_not": "Analyseer waarom een pakket niet kan worden bijgewerkt"
                     },
                     "output_modal": {
-                        "cause_unknown": "",
-                        "command": "",
-                        "guessed_cause": "",
-                        "output": ""
+                        "cause_unknown": "Onbekend",
+                        "command": "Composer Commando",
+                        "guessed_cause": "Oorzaak",
+                        "output": "Uitvoer"
                     },
-                    "refresh": "",
+                    "refresh": "Takenlijst vernieuwen",
                     "statuses": {
-                        "success": "",
-                        "failure": "",
-                        "pending": "",
-                        "running": ""
+                        "success": "Succes",
+                        "failure": "Mislukt",
+                        "pending": "In behandeling",
+                        "running": "Lopend"
                     },
-                    "task_just_started": "",
-                    "title": ""
+                    "task_just_started": "Taak is net begonnen",
+                    "title": "Wachtrij"
                 }
             },
             "settings": {
-                "title": "",
-                "access_warning": "",
-                "debug_mode_warning": "",
-                "queue_jobs": "",
-                "queue_jobs_help": "",
-                "task_retention_days": "",
-                "task_retention_days_help": ""
+                "title": "=> core.ref.settings",
+                "access_warning": "Wees voorzichtig met wie u toegang geeft tot het beheerdersgedeelte. De extensiebeheerder kan door slechte actoren worden misbruikt om pakketten te installeren die tot beveiligingsinbreuken kunnen leiden.",
+                "debug_mode_warning": "U werkt in de debugmodus, de extensiemanager kan lokale ontwikkelingspakketten niet correct installeren en bijwerken. Gebruik voor dergelijke doeleinden in plaats daarvan de opdrachtregelinterface.",
+                "queue_jobs": "Voer bewerkingen uit in de achtergrondwachtrij",
+                "queue_jobs_help": "U kunt lezen over een <a href='{basic_impl_link}'>basis wachtrij</a>-implementatie of een <a href='{adv_impl_link}'>meer geavanceerde</a>-implementatie. Zorg ervoor dat de PHP-versie die voor de wachtrij wordt gebruikt, {php_version} is. Zorg ervoor dat <a href='{folder_perms_link}'>maprechten</a> correct zijn geconfigureerd.\n",
+                "task_retention_days": "Dagen voor het bewaren van taken",
+                "task_retention_days_help": "Het aantal dagen dat voltooide taken in de database moeten worden bewaard. Taken ouder dan dit worden verwijderd. Stel deze in op 0 om alle taken te behouden.\n"
             },
             "updater": {
-                "up_to_date": "",
-                "check_for_updates": "",
-                "flarum": "",
-                "global_update_successful": "",
-                "last_update_checked_at": "",
-                "run_global_update": "",
-                "updater_title": "",
-                "updater_help": ""
+                "up_to_date": "Alles is actueel!",
+                "check_for_updates": "Controleer op updates",
+                "flarum": "Flarum Core",
+                "global_update_successful": "Alle pakketten zijn succesvol bijgewerkt.",
+                "last_update_checked_at": "Laatste updatecontrole: ",
+                "run_global_update": "Globale update uitvoeren",
+                "updater_title": "Updates",
+                "updater_help": "Voert een controle uit op nieuwe extensie- en Flarum-updates."
             },
-            "update_successful": "",
+            "update_successful": "Flarum is succesvol bijgewerkt.",
             "why_not_modal": {
-                "title": ""
+                "title": "Waarom wordt het niet bijgewerkt"
             }
         }
     }
