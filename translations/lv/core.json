@@ -468,27 +468,27 @@
                     "title_placeholder": "Nosaukums"
                 },
                 "revoke_access_token": "Atsaukt",
-                "revoke_access_token_confirmation": "",
-                "sessions_heading": "",
-                "session_terminated": "",
-                "session_termination_failed": "",
-                "show_access_token": "",
-                "terminate_all_other_sessions": "",
-                "terminate_all_other_sessions_confirmation": "",
-                "terminate_session": "",
-                "title": "",
-                "token_revoked": "",
-                "token_item_title": "",
-                "token_title_placeholder": ""
+                "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
+                "sessions_heading": "Aktīvās sesijas",
+                "session_terminated": "{count, plural, one {Session terminated} other {# Sessions terminated}}.",
+                "session_termination_failed": "Pārtraucot jūsu sesijas, radās kļūda.",
+                "show_access_token": "Skatīt Token",
+                "terminate_all_other_sessions": "Pārtrauciet visas pārējās sesijas",
+                "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
+                "terminate_session": "Pārtraukt",
+                "title": "=> core.ref.security",
+                "token_revoked": "Tokens atsaukts.",
+                "token_item_title": "{title} - {token}",
+                "token_title_placeholder": "/"
             },
             "settings": {
                 "account_heading": "Profils",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
-                "notification_checkbox_a11y_label_template": "",
+                "notification_checkbox_a11y_label_template": "Saņemiet paziņojumus par \"{description}\", izmantojot {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
-                "notify_by_web_heading": "",
+                "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Kāds pārdēvē manis iesākto diskusiju",
                 "privacy_disclose_online_label": "Atļaut citiem redzēt, kad esmu tiešsaistē",
                 "privacy_heading": "Privātums",
@@ -515,17 +515,17 @@
                 "posts_empty_text": "Izskatās, ka šeit nav neviena ziņojuma.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
-                "security_link": "",
+                "security_link": "=> core.ref.security",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
-                "button": "",
+                "button": "Vadības ierīces",
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "Vai tiešām vēlaties dzēst šo lietotāju? Lietotāja ziņas NETIKS dzēstas.",
                 "delete_error_message": "Lietotāja <i>{username} ({email})</i> dzēšana neizdevās",
                 "delete_success_message": "Lietotājs <i>{username} ({email})</i> izdzēsts",
                 "edit_button": "=> core.ref.edit",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Pārslēgt lietotāja vadīklu nolaižamo izvēlni"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -533,22 +533,22 @@
                 "sent_message": "Nosūtīts"
             },
             "welcome_hero": {
-                "hide": ""
+                "hide": "Slēpt sveiciena ziņojumu"
             }
         },
         "lib": {
-            "debug_button": "",
+            "debug_button": "Atkļūdošana",
             "alert": {
-                "dismiss_a11y_label": ""
+                "dismiss_a11y_label": "Noraidīt brīdinājumu"
             },
             "badge": {
                 "hidden_tooltip": "Noslēpts"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Pārslēgt nolaižamo izvēlni"
             },
             "data_segment": {
-                "label": ""
+                "label": "{label}:"
             },
             "edit_user": {
                 "activate_button": "Aktivizēt lietotāju",
@@ -562,33 +562,33 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": ""
+                "nothing_available": "Jums nav atļauts rediģēt šo lietotāju."
             },
             "error": {
-                "circular_dependencies_message": "",
+                "circular_dependencies_message": "Konstatētas cirkulāras atkarības: {extensions}. Pārtraukšana. Lūdzu, atspējojiet vienu no paplašinājumiem un mēģiniet vēlreiz.",
                 "dependent_extensions_message": "Nevar atspējot {extension} kamēr sekojošie paplašinājumi ir deaktivizēti: {extensions}",
-                "extension_initialiation_failed_message": "",
+                "extension_initialiation_failed_message": "{extension} neizdevās inicializēt. Plašāku informāciju skatiet pārlūkprogrammas konsolē.",
                 "generic_message": "Ups! Kaut kas nogāja greizi. Lūdzu, atkārtoti ielādējiet lapu un mēģiniet vēlreiz.",
-                "generic_cross_origin_message": "",
+                "generic_cross_origin_message": "Hmm! Vairākas izcelsmes pieprasījuma laikā radās problēma. Lūdzu, atkārtoti ielādējiet lapu un mēģiniet vēlreiz.",
                 "missing_dependencies_message": "Nevar iespējot {extension}, kamēr nav iespējoti šie paplašinājumi: {extensions}",
                 "not_found_message": "Pieprasītais resurss netika atrasts.",
-                "payload_too_large_message": "",
+                "payload_too_large_message": "Pieprasījuma slodze bija pārāk liela.",
                 "permission_denied_message": "Jums nav atļaujas to darīt.",
                 "rate_limit_exceeded_message": "Tu esi mazliet par ātri. Pēc dažām sekundēm mēģini vēlreiz.",
-                "render_failed_message": ""
+                "render_failed_message": "Diemžēl, parādot šo saturu, radās kļūda. Ja esat lietotājs, lūdzu, vēlāk mēģiniet vēlreiz. Ja esat administrators, skatiet savus Flarum žurnālfailus, lai iegūtu plašāku informāciju."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Page # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Lapa # - {forumName}}}"
             },
             "modal": {
-                "close": ""
+                "close": "Aizvērt"
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "Atveriet navigācijas atvilktni"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -606,23 +606,23 @@
         "views": {
             "admin": {
                 "extensions": {
-                    "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "caption": "=> core.ref.extensions",
+                    "disable": "Atspējot",
+                    "empty": "Nav instalētu paplašinājumu",
+                    "enable": "Iespējot",
+                    "name": "Paplašinājuma nosaukums",
+                    "package_name": "Pakas nosaukums",
+                    "version": "Versija"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "Informācija par pieteikumu"
                 },
-                "title": ""
+                "title": "Administrācija"
             },
             "confirm_email": {
-                "submit_button": "",
-                "text": "",
-                "title": ""
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "Noklikšķiniet uz tālāk esošās pogas, lai apstiprinātu sava konta e-pastu.",
+                "title": "=> core.ref.confirm_email"
             },
             "content": {
                 "javascript_disabled_message": "Šo vietni vislabāk var apskatīt modernā pārlūkprogrammā, kurā ir iespējots JavaScript.",
@@ -663,9 +663,9 @@
         "api": {
             "invalid_username_message": "Lietotājvārds drīkst saturēt tikai burtus, ciparus un domuzīmes.",
             "invalid_filter_type": {
-                "must_be_numeric_message": "",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_be_numeric_message": "Filtram {filter} ir jābūt cipariem.",
+                "must_not_be_array_message": "Filtrs {filter} nedrīkst būt masīvs.",
+                "must_not_be_multidimensional_array_message": "Filtrs {filter} nedrīkst būt daudzdimensiju masīvs."
             }
         },
         "email": {
@@ -683,7 +683,7 @@
             },
             "send_test": {
                 "subject": "Flarum E-pasta tests",
-                "body": ""
+                "body": "Sveiki, {username}!\n\nŠis ir testa e-pasts, lai apstiprinātu, ka jūsu Flarum e-pasta konfigurācija darbojas pareizi.\n\nJa tas bijāt jūs, šis e-pasts nozīmē, ka jūsu konfigurācija darbojas!\n\nJa tas nebijāt jūs, lūdzu, ignorējiet šo e-pasta ziņojumu.\n"
             }
         },
         "ref": {
@@ -692,29 +692,29 @@
             "change_password": "Mainīt paroli",
             "color": "Krāsa",
             "confirm_password": "Apstiprini paroli",
-            "confirm_email": "",
+            "confirm_email": "Apstiprini epastu",
             "confirmation_email_sent": "Mēs esam nosūtījuši apstiprinājuma e-pastu uz {email}. Ja tas drīz nepienāk, pārbaudiet savu surogātpasta mapi.",
-            "custom_footer_text": "",
-            "custom_footer_title": "",
-            "custom_header_text": "",
-            "custom_header_title": "",
-            "delete": "",
-            "delete_forever": "",
-            "discussions": "",
-            "edit": "",
-            "edit_user": "",
-            "email": "",
-            "extensions": "",
-            "generic_confirmation_message": "",
-            "icon": "",
-            "icon_text": "",
+            "custom_footer_text": "Pievienojiet HTML, kas tiks parādīts lapas pašā apakšā.",
+            "custom_footer_title": "Rediģēt pielāgoto kājeni",
+            "custom_header_text": "Pievienojiet HTML, lai tas tiktu parādīts pašā lapas augšdaļā virs paša Flarum galvenes.",
+            "custom_header_title": "Rediģēt pielāgoto galveni",
+            "delete": "Dzēst",
+            "delete_forever": "Dzēst uz visiem laikiem",
+            "discussions": "Diskusijas",
+            "edit": "Rediģēt",
+            "edit_user": "Rediģēt lietotāju",
+            "email": "E-pasts",
+            "extensions": "Paplašinājumi",
+            "generic_confirmation_message": "Vai tiešām vēlaties turpināt? Šo darbību nevar atsaukt.",
+            "icon": "Ikona",
+            "icon_text": "Ievadiet jebkuras <a>FontAwesome</a> ikonu klases nosaukumu, <em>ieskaitot</em> prefiksu <code>fas fa-</code>.",
             "load_more": "Ielādēt vairāk",
             "loading": "Ielādē...",
             "log_in": "Ielogoties",
             "log_out": "Izlogoties",
             "mark_all_as_read": "Atzīmēt kā izlasītu",
-            "never": "",
-            "new_token": "",
+            "never": "Nekad",
+            "new_token": "Jauns Tokens",
             "next_page": "Nākamā lapa",
             "notifications": "Paziņojumi",
             "okay": "OK",
@@ -727,8 +727,8 @@
             "reset_your_password": "Atjaunināt paroli",
             "restore": "Atjaunot",
             "save_changes": "Saglabāt izmaiņas",
-            "search_users": "",
-            "security": "",
+            "search_users": "Meklēt lietotājus",
+            "security": "Drošība",
             "settings": "Iestatījumi",
             "sign_up": "Reģistrēties",
             "some_others": "{count, plural, one {# other} citi {# others}}",
