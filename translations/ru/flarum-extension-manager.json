@@ -95,57 +95,57 @@
                     "why": ""
                 },
                 "title": "",
-                "update": ""
+                "update": "Обновление"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Это также обновит все прочие расширения/пакеты (при наличии обновлений)."
             },
             "sections": {
                 "control": {
-                    "title": ""
+                    "title": "Менеджер"
                 },
                 "queue": {
                     "columns": {
-                        "details": "",
-                        "elapsed_time": "",
-                        "peak_memory_used": "",
-                        "operation": "",
-                        "package": "",
-                        "status": ""
+                        "details": "Детали",
+                        "elapsed_time": "Завершено в",
+                        "peak_memory_used": "Пиковое использование памяти",
+                        "operation": "Действие",
+                        "package": "Пакет",
+                        "status": "Статус"
                     },
-                    "none": "",
+                    "none": "Задач пока нет.",
                     "operations": {
-                        "extension_install": "",
-                        "extension_remove": "",
-                        "extension_update": "",
-                        "update_check": "",
-                        "update_global": "",
-                        "update_major": "",
-                        "update_minor": "",
-                        "why_not": ""
+                        "extension_install": "Установить расширение",
+                        "extension_remove": "Удалить расширение",
+                        "extension_update": "Обновить расширение",
+                        "update_check": "Проверить обновления",
+                        "update_global": "Обновить все программные пакеты",
+                        "update_major": "Старшая версия обновления",
+                        "update_minor": "Младшая версия обновления",
+                        "why_not": "Определить, почему пакет не может быть обновлен"
                     },
                     "output_modal": {
-                        "cause_unknown": "",
-                        "command": "",
-                        "guessed_cause": "",
-                        "output": ""
+                        "cause_unknown": "Неизвестно",
+                        "command": "Команда Composer",
+                        "guessed_cause": "Причина",
+                        "output": "Вывод"
                     },
-                    "refresh": "",
+                    "refresh": "Обновить список задач",
                     "statuses": {
-                        "success": "",
-                        "failure": "",
-                        "pending": "",
-                        "running": ""
+                        "success": "Успех",
+                        "failure": "Неудачно",
+                        "pending": "Ожидает",
+                        "running": "Выполняется"
                     },
-                    "task_just_started": "",
-                    "title": ""
+                    "task_just_started": "Задача запущена",
+                    "title": "Очередь"
                 }
             },
             "settings": {
-                "title": "",
-                "access_warning": "",
-                "debug_mode_warning": "",
-                "queue_jobs": "",
+                "title": "=> core.ref.settings",
+                "access_warning": "Пожалуйста будьте внимательны в отношении лиц, имеющих доступ к администрированию. Менеджер расширений может быть использован во вред - установкой пакетов, которые нарушат безопасность.",
+                "debug_mode_warning": "Вы работаете в режиме отладки, поэтому Менеджер расширений не может корректно устанавливать и обновлять локальные пакеты. Для этой цели используйте интерфейс командной строки.",
+                "queue_jobs": "Запустить задания в фоновой очереди",
                 "queue_jobs_help": "",
                 "task_retention_days": "",
                 "task_retention_days_help": ""
