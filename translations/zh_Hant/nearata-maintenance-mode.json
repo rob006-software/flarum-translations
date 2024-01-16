@@ -3,28 +3,28 @@
         "admin": {
             "dashboard": {
                 "maintenance_widget": {
-                    "title": "",
-                    "detail": ""
+                    "title": "維護模式已啟用",
+                    "detail": "維護期間，只有授權使用者才能查看論壇。"
                 }
             },
             "permissions": {
-                "bypass": ""
+                "bypass": "可以繞過維護模式"
             },
             "settings": {
                 "maintenance_mode_enabled": {
-                    "label": ""
+                    "label": "維護模式"
                 }
             }
         },
         "views": {
             "default": {
-                "title": "",
-                "header": "",
-                "body": ""
+                "title": "維護",
+                "header": "目前停機維護。",
+                "body": "<p>我們目前正在進行一些維護。 請稍後再回來。</p>\n"
             }
         },
         "api": {
-            "title": ""
+            "title": "目前停機維護。 請待會再過來。"
         }
     }
 }
