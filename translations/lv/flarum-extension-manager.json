@@ -2,16 +2,16 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Jauna autentifikācijas metode",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "Uzņēmēja",
+                    "host_placeholder": "piemērs: extiverse.com",
+                    "submit_button": "Iesniegt",
+                    "token_label": "Tokens",
+                    "type_label": "Tips",
+                    "unchanged_token_placeholder": "(nemainīts)"
                 },
-                "delete_confirmation": "",
+                "delete_confirmation": "Vai tiešām vēlaties dzēst šo autentifikācijas metodi?",
                 "delete_label": "",
                 "edit_label": "",
                 "fields": {
