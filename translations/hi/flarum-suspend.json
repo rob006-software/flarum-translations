@@ -2,49 +2,49 @@
     "flarum-suspend": {
         "admin": {
             "permissions": {
-                "suspend_users_label": ""
+                "suspend_users_label": "उपयोगकर्ताओं को निलंबित करें"
             }
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "",
-                "user_suspended_indefinite_text": "",
-                "user_unsuspended_text": ""
+                "user_suspended_text": "आपको {timeReadable} के लिए निलंबित कर दिया गया है",
+                "user_suspended_indefinite_text": "आपको अनिश्चित काल के लिए निलंबित कर दिया गया है",
+                "user_unsuspended_text": "आपको निलंबित कर दिया गया है"
             },
             "suspension_info": {
-                "dismiss_button": "",
-                "indefinite": "",
-                "limited": "",
-                "title": ""
+                "dismiss_button": "नकार देना",
+                "indefinite": "यह अनिश्चितकालीन निलंबन है",
+                "limited": "यह निलंबन {date} तक लागू रहेगा",
+                "title": "यह खाता निलंबित कर दिया गया है"
             },
             "suspend_user": {
-                "display_message": "",
-                "indefinitely_label": "",
-                "limited_time_days_text": "",
-                "limited_time_label": "",
-                "not_suspended_label": "",
-                "placeholder_optional": "",
-                "reason": "",
-                "status_heading": "",
-                "submit_button": "",
-                "title": ""
+                "display_message": "उपयोगकर्ता के लिए संदेश प्रदर्शित करें",
+                "indefinitely_label": "अनिश्चित काल के लिए निलंबित कर दिया गया",
+                "limited_time_days_text": " दिन",
+                "limited_time_label": "सीमित समय के लिए निलंबित..।",
+                "not_suspended_label": "निलंबित नहीं किया गया",
+                "placeholder_optional": "वैकल्पिक",
+                "reason": "निलंबन का कारण",
+                "status_heading": "निलंबन स्थिति",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "{username} निलंबित करें"
             },
             "user_badge": {
-                "suspended_tooltip": ""
+                "suspended_tooltip": "निलंबित"
             },
             "user_controls": {
-                "suspend_button": ""
+                "suspend_button": "निलंबित करें"
             }
         },
         "email": {
-            "no_reason_given": "",
+            "no_reason_given": "इस निलंबन का कोई कारण नहीं बताया गया।",
             "suspended": {
-                "subject": "",
-                "body": ""
+                "subject": "आपके खाते को निलंबित कर दिया गया है",
+                "body": "अरे {recipient_display_name},\n\nआपको निम्नलिखित कारण से निलंबित कर दिया गया है:\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
-                "subject": "",
-                "body": ""
+                "subject": "आपका खाता निलंबित कर दिया गया है",
+                "body": "नमस्ते {recipient_display_name},\n\nआपको निलंबित कर दिया गया है. आप निम्नलिखित लिंक पर क्लिक करके फोरम पर वापस जा सकते हैं:\n\n{forum_url}\n"
             }
         }
     }
