@@ -154,67 +154,67 @@
             },
             "settings": {
                 "watermarkFile": "Водяний знак",
-                "watermarkFileHelp": "",
-                "watermarkPlacement": "",
+                "watermarkFileHelp": "Надане зображення буде накладено в масштабі 1:1 на кожне завантаження, окрім найменших превью.",
+                "watermarkPlacement": "Розташування водяного знаку",
                 "watermarkPlacementOptions": {
-                    "topLeft": "",
-                    "bottomLeft": "",
-                    "topRight": "",
-                    "bottomRight": ""
+                    "topLeft": "Вгорі ліворуч",
+                    "bottomLeft": "Внизу ліворуч",
+                    "topRight": "Вгорі праворуч",
+                    "bottomRight": "Внизу праворуч"
                 },
-                "autoCreateDiscussionAlbum": "",
-                "autoCreateDiscussionAlbumHelp": "",
-                "neverSyncDiscussionAlbumTitles": "",
-                "neverSyncDiscussionAlbumTitlesHelp": "",
-                "columnTheme": "",
-                "columnThemeHelp": "",
-                "mapboxToken": "",
-                "mapboxTokenHelp": "",
-                "requireLicense": "",
-                "requireLicenseHelp": "",
-                "licenses": "",
-                "license-key": "",
-                "license-label": "",
-                "license-description": "",
-                "license-add": "",
-                "stickers": "",
-                "sticker-key": "",
-                "sticker-label": "",
-                "sticker-url": "",
-                "sticker-add": ""
+                "autoCreateDiscussionAlbum": "Автоматично створювати альбом для кожної нової дискусії",
+                "autoCreateDiscussionAlbumHelp": "Автоматично створювати новий альбом з тією ж назвою, що і в обговоренні, і з тим же автором, що і у власника. Ця функція обходить дозвіл на створення альбому і застосовується до всіх тегів.\n",
+                "neverSyncDiscussionAlbumTitles": "Ніколи не синхронізуйте дискусії та назви альбомів",
+                "neverSyncDiscussionAlbumTitlesHelp": "За налаштуванням пов'язані альбоми, які мають таку саму назву, що й дискусії, будуть перейменовані при зміні назви дискусії. Якщо альбом перейменовано вручну, його ніколи не буде синхронізовано з дискусіями.\n",
+                "columnTheme": "Тема колонки",
+                "columnThemeHelp": "Використовуйте стиль бічної панелі для відображення зображень замість нижньої панелі.",
+                "mapboxToken": "Токен Mapbox",
+                "mapboxTokenHelp": "Заповніть дійсний токен, щоб показати карту геолокації під мета-мета зображення.",
+                "requireLicense": "Вимагається вибір ліцензії зі списку нижче",
+                "requireLicenseHelp": "За налаштуванням користувачі можуть пропустити встановлення ліцензії. Переконайтеся, що умови використання вашого веб-сайту охоплюють те, що можна робити з медіа, де ліцензія не вказана.\n",
+                "licenses": "Ліцензії",
+                "license-key": "Ключ",
+                "license-label": "Ярлик",
+                "license-description": "Опис",
+                "license-add": "Додати ліцензію",
+                "stickers": "Наклейки",
+                "sticker-key": "Ключ",
+                "sticker-label": "Ярлик",
+                "sticker-url": "URL-адреса",
+                "sticker-add": "Додати наклейку"
             },
             "status": {
                 "pictures": {
-                    "section": "",
-                    "drafts": ""
+                    "section": "Фотографії",
+                    "drafts": "(чернеток {count})"
                 },
                 "storage": {
-                    "section": "",
-                    "originals": "",
-                    "conversions": ""
+                    "section": "Зберігання (орієнтовно)",
+                    "originals": "Оригінали: {size}",
+                    "conversions": "Перетворені: {size}"
                 },
-                "refresh": "",
-                "loading": ""
+                "refresh": "Оновити",
+                "loading": "Завантаження..."
             }
         },
         "api": {
             "post-edit": {
-                "cannotAttachToNonComment": "",
-                "cannotFindPicturesFromRelation": "",
-                "cannotAttachHasNoAlbum": "",
-                "cannotAttachAlreadySubmitted": "",
-                "cannotAttachFromExternalAlbum": "",
-                "cannotAttachUnauthorized": ""
+                "cannotAttachToNonComment": "Зображення не можуть бути прикріплені вручну до постів без коментарів",
+                "cannotFindPicturesFromRelation": "Не вдалося знайти всі запитувані зображення в базі даних",
+                "cannotAttachHasNoAlbum": "Дискусія не має прикріпленого альбому",
+                "cannotAttachAlreadySubmitted": "Неможливо прикріпити зображення {id}, оскільки воно вже було надіслано",
+                "cannotAttachFromExternalAlbum": "Неможливо вкласти зображення {id}, оскільки воно належить до зовнішнього альбому",
+                "cannotAttachUnauthorized": "Неможливо прикріпити зображення {id}, оскільки воно вам не належить"
             },
             "picture-edit": {
                 "unauthorized": {
-                    "title": "",
-                    "description": "",
-                    "license": "",
-                    "author": "",
-                    "takenAt": "",
-                    "isDraftUnSubmit": "",
-                    "isDraftSubmit": "",
+                    "title": "Неправильна назва, редагування не дозволено",
+                    "description": "Неправильний опис, редагування не дозволено",
+                    "license": "Недійсна ліцензія, редагування не дозволено",
+                    "author": "Недійсний автор, редагування не дозволено",
+                    "takenAt": "Невірна дата зйомки, редагування не дозволено",
+                    "isDraftUnSubmit": "Неправильний стан чернетки, не дозволено відкликати",
+                    "isDraftSubmit": "Недійсний стан чернетки, не допускається до подачі",
                     "isApprovedUnApprove": "",
                     "isApprovedApprove": "",
                     "isHiddenRestore": "",
