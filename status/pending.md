@@ -113,6 +113,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `pplulee-chat` | [![#1166 (open)](https://img.shields.io/badge/PR-%231166-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1166) |
+There are no dead branches.
