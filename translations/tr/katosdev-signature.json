@@ -4,7 +4,7 @@
             "buttons": {
                 "signature": "İmza",
                 "save": "İmzayı Kaydet",
-                "edit": ""
+                "edit": "İmzayı Düzenle"
             },
             "errors": {
                 "max_char_limit_exceed": "Karakter sınırı aşıldı.",
@@ -13,7 +13,7 @@
                 "max_image_height_exceed": "Görsel yükseklik sınırı aşıldı."
             },
             "profile": {
-                "click": ""
+                "click": "İmzanı yazmak için tıkla"
             },
             "modal": {
                 "loading": {
@@ -28,23 +28,23 @@
         },
         "admin": {
             "permissions": {
-                "edit_signature_others": "",
-                "allow_signature": ""
+                "edit_signature_others": "Diğer kullanıcıların imzasını düzenle",
+                "allow_signature": "İmza sahibi olsun"
             },
             "settings": {
                 "maximum_image_count": {
                     "description": "Eklenecek maksimum görsel sayısı.",
-                    "help": "",
+                    "help": "Kullanıcı imzasındaki maksimum görsel sayısını aştığında, görsel sayısı buna uygun olana kadar kaydetmesi engellenecektir.",
                     "placeholder": "5 (varsayılan)"
                 },
                 "maximum_char_limit": {
-                    "description": "İmzadaki maksimum karakter limiti (karakterler sayılır, HTML etiketleri geçerli sayılmaz)",
-                    "help": "",
+                    "description": "İmzadaki maksimum karakter sınırı.",
+                    "help": "Kullanıcı imzasındaki maksimum karakter sınırını aştığında, karakter sayısı uygun olana kadar kaydetmesi engellenecektir.",
                     "placeholder": "1000 (varsayılan)"
                 },
                 "allow_inline_editing": {
-                    "description": "",
-                    "help": ""
+                    "description": "İmza satır içinde düzenlensin.",
+                    "help": "Etkinleştirildiğinde kullanıcılar bir gönderiyi görüntülerken imzalarını düzenleyebilir."
                 },
                 "maximum_image_width": {
                     "description": "Editöre eklenecek resmin maksimum genişliği.",
