@@ -51,118 +51,118 @@
                     "types": {
                         "composer": "composer",
                         "vcs": "vcs",
-                        "path": ""
+                        "path": "ceļš"
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
-                        "url": "",
-                        "submit_button": ""
+                        "name_label": "Vārds",
+                        "type_label": "Tips",
+                        "url": "URL",
+                        "submit_button": "Iesniegt"
                     }
                 }
             },
             "exceptions": {
-                "composer_command_failure": "",
-                "extension_already_installed": "",
-                "extension_not_directly_dependency": "",
-                "extension_not_installed": "",
+                "composer_command_failure": "Neizdevās izpildīt. Pārbaudiet komponista žurnālus krātuvē/logs/composer.",
+                "extension_already_installed": "Paplašinājums jau ir instalēts.",
+                "extension_not_directly_dependency": "Paplašinājums ir instalēts kā cita paplašinājuma atkarība, to nevar tieši noņemt.",
+                "extension_not_installed": "Paplašinājums nav atrasts.",
                 "guessed_cause": {
-                    "extension_incompatible_with_instance": "",
-                    "extension_not_found": "",
-                    "extensions_incompatible_with_new_major": ""
+                    "extension_incompatible_with_instance": "Paplašinājums, visticamāk, nav saderīgs ar jūsu pašreizējo Flarum instanci.",
+                    "extension_not_found": "Paplašinājums netika atrasts vai neeksistē.",
+                    "extensions_incompatible_with_new_major": "Daži instalētie paplašinājumi nav saderīgi ar jaunāko lielāko izdevumu. Lūdzu, uzgaidiet, līdz autori ir atjauninājuši paplašinājumus, lai tie būtu saderīgi, vai noņemiet tos pirms turpināt.\n"
                 }
             },
             "extensions": {
-                "check_why_it_failed_updating": "",
-                "install": "",
-                "install_help": "",
-                "proceed": "",
-                "remove": "",
-                "successful_install": "",
-                "successful_remove": "",
-                "successful_update": "",
-                "update": "",
-                "update_soft_label": "",
-                "update_hard_label": ""
+                "check_why_it_failed_updating": "Parādiet, kāpēc tas netika atjaunināts uz jaunāko.",
+                "install": "Instalējiet jaunu paplašinājumu",
+                "install_help": "Lai turpinātu, ievadiet paplašinājuma pakotnes nosaukumu. Varat norādīt <semantic_link>semantisko versiju</semantic_link>, izmantojot formātu <code>vendor/package-name:version</code>. Apmeklējiet vietni {extiverse}, lai pārlūkotu paplašinājumus.\n",
+                "proceed": "Turpināt",
+                "remove": "Atinstalēt",
+                "successful_install": "{extension} tika veiksmīgi instalēts. Notiek novirzīšana...",
+                "successful_remove": "Paplašinājums veiksmīgi noņemts.",
+                "successful_update": "{extension} tika veiksmīgi atjaunināts. Notiek novirzīšana...",
+                "update": "Atjaunināt",
+                "update_soft_label": "Mīksts atjauninājums",
+                "update_hard_label": "Grūts atjauninājums"
             },
-            "file_permissions": "",
+            "file_permissions": "Paplašinājumu pārvaldniekam ir nepieciešamas lasīšanas un rakstīšanas atļaujas šādiem failiem un direktorijiem: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
-                "description": "",
-                "dry_run": "",
-                "dry_run_help": "",
+                "description": "Galvenie Flarum atjauninājumi nav saderīgi ar atpakaļejošu datumu, kas nozīmē, ka daži no pašlaik instalētajiem paplašinājumiem un manuāli veiktās modifikācijas var nedarboties ar šo jauno versiju. Pirms turpināt, lūdzu, izveidojiet datu bāzes un failu dublējumu.\n",
+                "dry_run": "Dry Run",
+                "dry_run_help": "Sausā palaišana emulē atjauninājumu, lai noskaidrotu, vai pašreizējo iestatījumu var droši atjaunināt. Tas nenozīmē, ka manuāli veiktās pielāgotās modifikācijas darbosies jaunākajā versijā.",
                 "failure": {
-                    "desc": "",
-                    "why": ""
+                    "desc": "Pēdējais lielākais atjauninājums neizdevās, daži instalētie paplašinājumi nav saderīgi ar jauno galveno laidienu.",
+                    "why": "Uzzināt vairāk"
                 },
-                "title": "",
-                "update": ""
+                "title": "Flarum {version} ir pieejams galvenais atjauninājums",
+                "update": "Atjaunināt"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Tādējādi tiks atjaunināti arī visi citi paplašinājumi/paketes ar pieejamiem atjauninājumiem."
             },
             "sections": {
                 "control": {
-                    "title": ""
+                    "title": "Pārvaldnieks"
                 },
                 "queue": {
                     "columns": {
-                        "details": "",
-                        "elapsed_time": "",
-                        "peak_memory_used": "",
-                        "operation": "",
-                        "package": "",
-                        "status": ""
+                        "details": "Sīkāka informācija",
+                        "elapsed_time": "Pabeigts",
+                        "peak_memory_used": "Maksimālais atmiņas lietojums",
+                        "operation": "Darbība",
+                        "package": "Iepakojums",
+                        "status": "Statuss"
                     },
-                    "none": "",
+                    "none": "Uzdevumu vēl nav.",
                     "operations": {
-                        "extension_install": "",
-                        "extension_remove": "",
-                        "extension_update": "",
-                        "update_check": "",
-                        "update_global": "",
-                        "update_major": "",
-                        "update_minor": "",
-                        "why_not": ""
+                        "extension_install": "Instalējiet paplašinājumu",
+                        "extension_remove": "Noņemt paplašinājumu",
+                        "extension_update": "Atjaunināt paplašinājumu",
+                        "update_check": "Meklēt atjauninājumus",
+                        "update_global": "Atjauniniet visas programmatūras pakotnes",
+                        "update_major": "Būtisks atjauninājums",
+                        "update_minor": "Neliels atjauninājums",
+                        "why_not": "Analizējiet, kāpēc pakotni nevar atjaunināt"
                     },
                     "output_modal": {
-                        "cause_unknown": "",
-                        "command": "",
-                        "guessed_cause": "",
-                        "output": ""
+                        "cause_unknown": "Nezināms",
+                        "command": "Komponista komanda",
+                        "guessed_cause": "Cēlonis",
+                        "output": "Izvade"
                     },
-                    "refresh": "",
+                    "refresh": "Atsvaidziniet uzdevumu sarakstu",
                     "statuses": {
-                        "success": "",
-                        "failure": "",
-                        "pending": "",
-                        "running": ""
+                        "success": "Panākumi",
+                        "failure": "Neizdevās",
+                        "pending": "Gaida",
+                        "running": "strāda"
                     },
-                    "task_just_started": "",
-                    "title": ""
+                    "task_just_started": "Uzdevums tikko sācies",
+                    "title": "Rinda"
                 }
             },
             "settings": {
-                "title": "",
-                "access_warning": "",
-                "debug_mode_warning": "",
-                "queue_jobs": "",
-                "queue_jobs_help": "",
-                "task_retention_days": "",
-                "task_retention_days_help": ""
+                "title": "=> core.ref.settings",
+                "access_warning": "Lūdzu, uzmanieties, kam piešķirat piekļuvi administratora apgabalam, jo ļaundari var ļaunprātīgi izmantot paplašinājumu pārvaldnieku, lai instalētu pakotnes, kas var izraisīt drošības pārkāpumus.",
+                "debug_mode_warning": "Jūs strādājat atkļūdošanas režīmā, paplašinājumu pārvaldnieks nevar pareizi instalēt un atjaunināt vietējās izstrādes pakotnes. Lūdzu, izmantojiet komandrindas saskarni šādiem nolūkiem.",
+                "queue_jobs": "Palaidiet darbības fona rindā",
+                "queue_jobs_help": "Varat lasīt par <a href='{basic_impl_link}'>pamata rindas</a> vai <a href='{adv_impl_link}'>modernāku</a> ieviešanu. Pārliecinieties, vai rindā izmantotā PHP versija ir {php_version}. Pārliecinieties, vai <a href='{folder_perms_link}'>mapju atļaujas</a> ir pareizi konfigurētas.\n",
+                "task_retention_days": "Uzdevumu saglabāšanas dienas",
+                "task_retention_days_help": "Dienu skaits, kas jāpavada pabeigto uzdevumu glabāšanai datu bāzē. Uzdevumi, kas vecāki par šo, tiks dzēsti. Iestatiet uz 0, lai saglabātu visus uzdevumus.\n"
             },
             "updater": {
-                "up_to_date": "",
-                "check_for_updates": "",
-                "flarum": "",
-                "global_update_successful": "",
-                "last_update_checked_at": "",
-                "run_global_update": "",
-                "updater_title": "",
-                "updater_help": ""
+                "up_to_date": "Viss ir aktuāls!",
+                "check_for_updates": "Meklēt atjauninājumus",
+                "flarum": "Flarum Core",
+                "global_update_successful": "Visas pakotnes ir veiksmīgi atjauninātas.",
+                "last_update_checked_at": "Pēdējā atjauninājuma pārbaude: ",
+                "run_global_update": "Palaidiet globālo atjauninājumu",
+                "updater_title": "Atjauninājumi",
+                "updater_help": "Veic jaunu paplašinājumu un Flarum atjauninājumu pārbaudi."
             },
-            "update_successful": "",
+            "update_successful": "Flarum veiksmīgi atjaunināts.",
             "why_not_modal": {
-                "title": ""
+                "title": "Kāpēc tas netiks atjaunināts"
             }
         }
     }
