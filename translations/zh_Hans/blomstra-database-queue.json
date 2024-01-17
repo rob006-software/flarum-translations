@@ -2,29 +2,29 @@
     "blomstra-database-queue": {
         "admin": {
             "settings": {
-                "backoff_label": "",
-                "backoff_help": "",
-                "memory_label": "",
-                "memory_help": "",
-                "rest_label": "",
-                "rest_help": "",
-                "retries_label": "",
-                "retries_help": "",
-                "timeout_label": "",
-                "timeout_help": ""
+                "backoff_label": "退缩",
+                "backoff_help": "在重试遇到未捕获异常的作业之前等待的秒数。\n",
+                "memory_label": "内存",
+                "memory_help": "以兆字节为单位的内存限制。\n",
+                "rest_label": "休息",
+                "rest_help": "作业之间的休息秒数。\n",
+                "retries_label": "再试",
+                "retries_help": "在记录作业失败之前尝试该作业的次数。\n",
+                "timeout_label": "超时",
+                "timeout_help": "子进程可以运行的秒数。\n"
             },
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
-                "refresh": "",
+                "auto_refresh": "自动刷新",
+                "heading": "队列概述",
+                "refresh": "恢复精力",
                 "data": {
-                    "queue-name": "",
-                    "pending-jobs": "",
-                    "failed-jobs": "",
+                    "queue-name": "队列",
+                    "pending-jobs": "挂起的作业",
+                    "failed-jobs": "失败的作业",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "状态",
+                        "running": "跑",
+                        "inactive": "不活跃的"
                     }
                 }
             }
