@@ -2,25 +2,25 @@
     "askvortsov-article-series": {
         "admin": {
             "edit_tags": {
-                "is_article_series": ""
+                "is_article_series": "Bu bir makale serisi mi?"
             }
         },
         "forum": {
             "article_item": {
-                "next_article": "",
-                "prev_article": ""
+                "next_article": "Sonraki makale",
+                "prev_article": "Önceki makale"
             },
             "article_list": {
-                "title": ""
+                "title": "{series} <sup>Diğer makaleler</sup>"
             },
             "article_series_modal": {
-                "title": "",
-                "tag_id_label": "",
-                "order_label": "",
-                "submit_button": ""
+                "title": "Makale Serisi Ayarları",
+                "tag_id_label": "Makale Serisi Etiketi",
+                "order_label": "Dizin Sıralaması (artan şekilde sıralanmıştır)",
+                "submit_button": "Gönder"
             },
             "discussion_controls": {
-                "article_series_button": ""
+                "article_series_button": "Makale Serisi Ayarları"
             }
         }
     }
