@@ -12,45 +12,45 @@
                     "unchanged_token_placeholder": "(nemainīts)"
                 },
                 "delete_confirmation": "Vai tiešām vēlaties dzēst šo autentifikācijas metodi?",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_label": "Dzēst autentifikācijas metodi",
+                "edit_label": "Rediģēt autentifikācijas metodi",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "Uzņēmēja",
+                    "token": "Tokens"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "Nav konfigurēta neviena autentifikācijas metode. Šī ir papildu papildu funkcija, kas ļauj instalēt no privātām krātuvēm.",
+                "remove_button_label": "Noņemiet autentifikācijas metodi",
+                "title": "Autentifikācijas metodes",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab Token",
+                    "bearer": "HTTP nesējs"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "Pievienot repozitoriju",
+                "delete_repository_confirmation": "Vai tiešām vēlaties dzēst šo krātuvi? Visi no šī krātuves instalētie paplašinājumi tiks noņemti.",
+                "delete_repository_label": "Dzēst repozitoriju",
+                "edit_repository_label": "Rediģēt repozitoriju",
+                "title": "Composer",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "Minimālā stabilitāte",
+                    "help": "Instalējamo pakotņu veids. Nemainiet to, ja vien nezināt, ko darāt.",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "stable": "Stabils (ieteicams)",
+                        "rc": "Atbrīvošanas kandidāts",
+                        "beta": "Beta",
+                        "alpha": "Alfa",
+                        "dev": "Izstrādātājs"
                     }
                 },
                 "repositories": {
-                    "label": "",
-                    "help": "",
+                    "label": "Krātuves",
+                    "help": "Pievienojiet papildu krātuves, no kurām instalēt pakotnes. Šī ir uzlabota funkcija. Nepievienojiet neuzticamas krātuves, jo tās var izmantot, lai jūsu serverī izpildītu ļaunprātīgu kodu.\n",
                     "types": {
-                        "composer": "",
-                        "vcs": "",
+                        "composer": "composer",
+                        "vcs": "vcs",
                         "path": ""
                     },
                     "add_modal": {
