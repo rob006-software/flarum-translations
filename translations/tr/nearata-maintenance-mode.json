@@ -3,28 +3,28 @@
         "admin": {
             "dashboard": {
                 "maintenance_widget": {
-                    "title": "",
-                    "detail": ""
+                    "title": "Bakım modu etkin",
+                    "detail": "Bakım sırasında forumu yalnızca yetkili kullanıcılar görüntüleyebilir."
                 }
             },
             "permissions": {
-                "bypass": ""
+                "bypass": "Bakım Modunu atlayabilir"
             },
             "settings": {
                 "maintenance_mode_enabled": {
-                    "label": ""
+                    "label": "Bakım Modu"
                 }
             }
         },
         "views": {
             "default": {
-                "title": "",
-                "header": "",
-                "body": ""
+                "title": "Bakım",
+                "header": "Şu anda bakım nedeniyle kapalı.",
+                "body": "<p>Şu anda planlanmış bir bakım yapıyoruz. Lütfen daha sonra tekrar ziyaret edin.</p>\n"
             }
         },
         "api": {
-            "title": ""
+            "title": "Şu anda bakım nedeniyle kapalı. Lütfen daha sonra tekrar ziyaret edin."
         }
     }
 }
