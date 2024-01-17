@@ -7,7 +7,7 @@
             },
             "enable_short_references": {
                 "label": "启用简短引用",
-                "help": "将消息中的#<ID>文本（例如#42）转换为相应讨论的链接。"
+                "help": "识别并转换帖子中「#<ID>」格式的主题帖引用标记为超链接（如「#42」）。"
             },
             "retrofit_links_in_frontend": {
                 "label": "改装前端的链接",
