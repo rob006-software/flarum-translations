@@ -45,14 +45,14 @@
                 "welcome_banner_text": "सभी चर्चा पन्ने पर बैनर में प्रदर्शित होने वाले पाठ को कॉन्फ़िगर करें। अपने मंच पर मेहमानों का स्वागत करने के लिए इसका इस्तेमाल करें।"
             },
             "create_user": {
-                "email_placeholder": "",
-                "email_confirmed_label": "",
-                "password_placeholder": "",
-                "submit_and_create_another_button": "",
-                "submit_button": "",
-                "title": "",
-                "use_random_password": "",
-                "username_placeholder": ""
+                "email_placeholder": "=> core.ref.email",
+                "email_confirmed_label": "उपयोगकर्ता से इस ईमेल की पुष्टि करना आवश्यक है",
+                "password_placeholder": "=> core.ref.password",
+                "submit_and_create_another_button": "बनाएं और दूसरा जोड़ें",
+                "submit_button": "उपयोगकर्ता बनाइये",
+                "title": "नया उपयोगकर्ता बनाएं",
+                "use_random_password": "यादृच्छिक पासवर्ड जनरेट करें",
+                "username_placeholder": "=> core.ref.username"
             },
             "dashboard": {
                 "clear_cache_button": "कैश को साफ़ करें",
@@ -189,7 +189,7 @@
                 "search_placeholder": "एक्सटेंशन खोजे"
             },
             "permissions": {
-                "allow_hide_own_posts_label": "",
+                "allow_hide_own_posts_label": "स्वयं के पोस्ट हटाने की अनुमति दें",
                 "allow_post_editing_label": "पोस्ट संपादन की अनुमति दें",
                 "allow_renaming_label": "नाम बदलने की अनुमति दें",
                 "create_access_token_label": "एक्सेस टोकन बनाएं",
@@ -223,7 +223,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "अनिश्चित काल के लिए",
-                "allow_never_button": "",
+                "allow_never_button": "कभी नहीँ",
                 "allow_some_minutes_button": "{count, plural, one {# मिनट के लिए} other {# मिनट के लिए}}",
                 "allow_ten_minutes_button": "10 मिनट के लिए",
                 "allow_until_reply_button": "अगले उत्तर तक",
@@ -241,7 +241,7 @@
                 "upload_button": "एक छवि चुनें..।"
             },
             "users": {
-                "create_user_button": "",
+                "create_user_button": "नए उपयोगकर्ता",
                 "description": "आपके फ़ोरम के सभी उपयोगकर्ताओं की पृष्ठांकित सूची।",
                 "grid": {
                     "columns": {
@@ -348,7 +348,7 @@
                 "replied_text": "{username} ने उत्तर दिया {ago}",
                 "started_text": "{username} शुरू हुआ {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# उत्तर} other {# उत्तर}}",
-                "unread_replies_a11y_label": "{count, plural, one {# अपठित उत्तर} other {# unread replies}}. Mark unread {count, plural, one {reply} other {अपठित उत्तर}} as read.",
+                "unread_replies_a11y_label": "{count, plural, one {# अपठित उत्तर} other {# unread replies}}. Mark unread {count, plural, one {reply} other {अपठित उत्तर}} as read।",
                 "mark_as_read_tooltip": "पढ़े हुए का चिह्न"
             },
             "forgot_password": {
@@ -568,7 +568,7 @@
                 "nothing_available": "आपको इस उपयोगकर्ता को संपादित करने की अनुमति नहीं है।"
             },
             "error": {
-                "circular_dependencies_message": "",
+                "circular_dependencies_message": "परिपत्र निर्भरता का पता चला: {extensions}। गर्भपात. कृपया किसी एक एक्सटेंशन को अक्षम करें और पुनः प्रयास करें।",
                 "dependent_extensions_message": "निम्न आश्रित एक्सटेंशन अक्षम होने तक {extension} को अक्षम नहीं किया जा सकता: {extensions}",
                 "extension_initialiation_failed_message": "{extension} चलने में विफल रहा, अधिक जानकारी के लिए ब्राउज़र कंसोल की जाँच करें।",
                 "generic_message": "उफ़! कुछ गलत हो गया। कृपया पेज लोड करें और पुन: प्रयास करें।",
@@ -670,9 +670,9 @@
         "api": {
             "invalid_username_message": "उपयोगकर्ता नाम में केवल अक्षर, संख्याएं और डैश हो सकते हैं।",
             "invalid_filter_type": {
-                "must_be_numeric_message": "",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_be_numeric_message": "{filter} फ़िल्टर संख्यात्मक होना चाहिए।",
+                "must_not_be_array_message": "{filter} फ़िल्टर एक सरणी नहीं होना चाहिए।",
+                "must_not_be_multidimensional_array_message": "{filter} फ़िल्टर एक बहुआयामी सरणी नहीं होना चाहिए।"
             }
         },
         "email": {
@@ -720,7 +720,7 @@
             "log_in": "लॉग इन करें",
             "log_out": "बाहर जाये",
             "mark_all_as_read": "सभी को पढ़ा हुआ संकेत करें",
-            "never": "",
+            "never": "कभी नहीं",
             "new_token": "नया टोकन",
             "next_page": "अगला पन्ना",
             "notifications": "सूचनाएं",
