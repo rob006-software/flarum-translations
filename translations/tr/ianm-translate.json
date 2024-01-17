@@ -41,10 +41,10 @@
                 "bind-browser-language": "Tarayıcı dili ekle",
                 "bind-browser-language-help": "Etkinleştirildiğinde, kullanıcının tarayıcı dili/dilleri çeviri için mevcut diller listesine eklenecektir.",
                 "use-native-locale-names": "Yerel ayar adlarını kullanın",
-                "use-native-locale-names-help": "",
+                "use-native-locale-names-help": "Etkinleştirildiğinde, adın geçerli dil sürümü yerine varsayılan dil ayarı kullanılacaktır.",
                 "provider": "Çeviri sağlayıcı",
                 "readme-info": "Genişletilmiş bilgi için README belgelerine bakın.",
-                "readme-none": ""
+                "readme-none": "Bu sürücü için ek ayar gerekmez."
             }
         },
         "forum": {
@@ -58,15 +58,15 @@
                     "translated-updated": "Çeviri en son {time} {provider} kullanılarak güncellendi"
                 },
                 "title": {
-                    "detected-language": ""
+                    "detected-language": "{postLang}"
                 }
             },
             "user": {
                 "settings": {
                     "heading": "Tercüme",
                     "source-language": {
-                        "help": "Devre dışı bırakıldığında, yalnızca geçerli forum dili dışında bir dilde yazılan gönderiler etiketlenecektir. Tüm gönderileri algılanan dille etiketlemek için bu ayarı etkinleştirin.",
-                        "label": "Gönderi dilini her zaman göster"
+                        "help": "Devre dışı bırakıldığında, yalnızca mevcut forum dili dışında bir dilde yazılmış çevrilebilir içerik etiketlenecektir. Tüm içeriği algılanan dille etiketlemek için bu ayarı etkinleştirin.",
+                        "label": "Dili her zaman göster"
                     }
                 }
             }
