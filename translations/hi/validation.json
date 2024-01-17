@@ -34,13 +34,13 @@
         "file_upload_failed": ":attribute अपलोड करने में विफल रहा।",
         "filled": ":attribute फ़ील्ड का एक मान होना चाहिए।",
         "gt": {
-            "numeric": "",
-            "file": "",
-            "string": "",
-            "array": ""
+            "numeric": ":attribute :value से अधिक होनी चाहिए।",
+            "file": ":attribute :value किलोबाइट से अधिक होनी चाहिए।",
+            "string": ":attribute :value वर्णों से अधिक होनी चाहिए।",
+            "array": ":attribute में :value आइटम से अधिक होना चाहिए।"
         },
         "gte": {
-            "numeric": "",
+            "numeric": ":attribute :value से अधिक या उसके बराबर होनी चाहिए।",
             "file": "",
             "string": "",
             "array": ""
