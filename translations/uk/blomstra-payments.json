@@ -2,42 +2,42 @@
     "core": {
         "forum": {
             "index_sort": {
-                "mostBacked_button": ""
+                "mostBacked_button": "Більшість підтримала"
             }
         }
     },
     "blomstra-payments": {
         "forum": {
             "accept-terms-modal": {
-                "accept_label": "",
-                "continue_button": "",
-                "title": ""
+                "accept_label": "Я прочитав і приймаю <link>умови оплати</link>.",
+                "continue_button": "Продовжити оплату",
+                "title": "Прийняти умови"
             },
             "stripe": {
-                "interval_once": ""
+                "interval_once": "одноразово"
             },
             "subscription-card": {
-                "bounty": "",
-                "ptv": "",
-                "pta": "",
-                "ptb": "",
-                "ptp": "",
-                "cancel-control": "",
-                "none": ""
+                "bounty": "Дар",
+                "ptv": "Перегляд платний",
+                "pta": "Платний доступ",
+                "ptb": "Заплатили, щоб поштовхнути",
+                "ptp": "Плата за публікацію",
+                "cancel-control": "Скасувати",
+                "none": "Немає платежів або активних підписок"
             },
             "post_stream": {
-                "bounty_added_text": ""
+                "bounty_added_text": "Користувач {username} додав винагороду в розмірі {amount}."
             },
             "pay-to-view": {
-                "purchase-control": "",
-                "purchase-log-in": "",
-                "purchase-completed": "",
-                "description": ""
+                "purchase-control": "Плата за перегляд",
+                "purchase-log-in": "Увійдіть та заплатіть за перегляд",
+                "purchase-completed": "Розблоковано",
+                "description": "Дописи після цієї позначки будуть заблоковані за захисною стіною, ви можете розблокувати їх, здійснивши оплату через нашого платіжного провайдера Stripe.\n"
             },
             "pay-to-post": {
-                "purchase-control": "",
-                "purchase": "",
-                "purchase_required": ""
+                "purchase-control": "Оплата за публікацію",
+                "purchase": "Купуй, щоб опублікувати",
+                "purchase_required": "Ця дискусія буде опублікована після того, як ви завершите оплату через нашого платіжного провайдера Stripe. Натисніть кнопку «Купити», щоб переглянути вартість та варіанти оплати.\n"
             },
             "pay-to-bump": {
                 "description": "",
