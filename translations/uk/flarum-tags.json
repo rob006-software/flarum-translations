@@ -6,8 +6,8 @@
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
-                "delete_tag_button": "Видалити мітку",
-                "delete_tag_confirmation": "Ви впевнені , що хочете видалити розділ? Дискусії в цьому розділі видалені не будуть.",
+                "delete_tag_button": "Видалити тег",
+                "delete_tag_confirmation": "Ви впевнені , що хочете видалити тег? Дискусії в цьому тезі видалені не будуть.",
                 "description_label": "Опис",
                 "hide_label": "Приховати зі списку дискусій",
                 "icon_label": "=> core.ref.icon",
@@ -16,46 +16,46 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Шлях",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Створити мітку"
+                "title": "Створити тег"
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
-                "tags_text": "Керування списком міток, доступних для структурування дискусій."
+                "tags_text": "Керування списком тегів, доступних для структурування дискусій."
             },
             "permissions": {
-                "allow_edit_tags_label": "Дозволити редагування міток",
-                "bypass_tag_counts_label": "Ігнорувати вимоги до міток",
-                "restrict_by_tag_heading": "Згідно мітки",
-                "tag_discussions_label": "Мітка дискусій"
+                "allow_edit_tags_label": "Дозволити редагування тегу",
+                "bypass_tag_counts_label": "Ігнорувати вимоги до тегу",
+                "restrict_by_tag_heading": "Згідно тегу",
+                "tag_discussions_label": "Тег дискусій"
             },
             "settings": {
                 "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
                 "range_separator_text": " - ",
-                "required_primary_heading": "Кількість основних міток",
-                "required_primary_text": "Введіть мінімальне і максимальне число основних міток, в які буде додана дискусія.",
-                "required_secondary_heading": "Кількість додаткових міток",
-                "required_secondary_text": "Введіть мінімальне і максимальне число додаткових міток, в які буде додана дискусія.",
-                "title": "Налаштування міток"
+                "required_primary_heading": "Кількість основних тегів",
+                "required_primary_text": "Введіть мінімальне і максимальне число основних тегів, в які буде додана дискусія.",
+                "required_secondary_heading": "Кількість додаткових тегів",
+                "required_secondary_text": "Введіть мінімальне і максимальне число додаткових тегів, в які буде додана дискусія.",
+                "title": "Налаштування тегів"
             },
             "tags": {
-                "about_tags_text": "Мітки використовуються для структурування дискусій. Основні мітки можуть утворювати дворівневу ієрархію. Додаткові мітки не мають ієрархії та можуть бути корисні для мікро-структурування. Мітки з додаткових в основні можна конвертувати шляхом простого перетягування мишкою.",
-                "create_primary_tag_button": "Створити основну мітку",
-                "create_secondary_tag_button": "Створити додаткову мітку",
-                "primary_heading": "Основна мітка",
-                "secondary_heading": "Додаткова мітка",
+                "about_tags_text": "Теги використовуються для структурування дискусій. Основні теги можуть утворювати дворівневу ієрархію. Додаткові теги не мають ієрархії та можуть бути корисні для мікро-структурування. Теги з додаткових в основні можна конвертувати шляхом простого перетягування мишкою.",
+                "create_primary_tag_button": "Створити основний тег",
+                "create_secondary_tag_button": "Створити додатковий тег",
+                "primary_heading": "Основні теги",
+                "secondary_heading": "Додаткові теги",
                 "settings_heading": "Налаштування"
             }
         },
         "forum": {
             "all_tags": {
-                "meta_description_text": "Усі мітки",
+                "meta_description_text": "Усі теги",
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "edit_title": "Редагування мітки для {title}",
-                "title": "Оберіть мітки для вашої дискусії",
+                "edit_title": "Редагування тегів для {title}",
+                "title": "Оберіть теги для вашої дискусії",
                 "bypass_requirements": "Обійти вимоги до міток",
                 "choose_primary_placeholder": "{count, plural, one {Вкажіть основний тег} other {Вкажіть # основних тегів}}",
                 "choose_secondary_placeholder": "{count, plural, one {Вкажіть більше 1 тегу} other {Вкажіть більше # тегів}}",
@@ -65,31 +65,31 @@
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
-                "edit_tags_button": "Редагувати мітки"
+                "edit_tags_button": "Редагувати теги"
             },
             "header": {
-                "back_to_tags_tooltip": "Повернутися до списку міток"
+                "back_to_tags_tooltip": "Повернутися до списку тегів"
             },
             "index": {
                 "more_link": "Більше...",
                 "tags_link": "=> flarum-tags.ref.tags",
-                "untagged_link": "Без міток"
+                "untagged_link": "Без тегів"
             },
             "post_stream": {
                 "added_and_removed_tags_text": "{username} додали {tagsAdded} і видалили {tagsRemoved} {time}.",
                 "added_tags_text": "{username} додали {tagsAdded} {time}.",
                 "removed_tags_text": "{username} видалили {tagsRemoved} {time}.",
-                "tags_text": "{count, plural, one {{tags} мітка} other {{tags} мітки}}"
+                "tags_text": "{count, plural, one {{tags} тег} other {{tags} теги}}"
             },
             "tag": {
-                "meta_description_text": "Всі дискусії з міткою {tag}"
+                "meta_description_text": "Всі дискусії з тегом {tag}"
             }
         },
         "lib": {
             "deleted_tag_text": "Видалено",
             "tag_selection_modal": {
-                "bypass_requirements": "Вимоги до обхідних міток",
-                "choose_primary_placeholder": "{count, plural, one {Оберіть основну мітку} other {Оберіть # основні мітки}}",
+                "bypass_requirements": "Вимоги до обхідних тегів",
+                "choose_primary_placeholder": "{count, plural, one {Оберіть основний тег} other {Оберіть # основні теги}}",
                 "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "submit_button": "=> core.ref.okay",
@@ -97,10 +97,10 @@
             }
         },
         "ref": {
-            "choose_tags": "Оберіть мітки",
-            "choose_tags_placeholder": "{count, plural, one {Оберіть більше 1 мітки} other {Оберіть більше # міток}}",
+            "choose_tags": "Оберіть теги",
+            "choose_tags_placeholder": "{count, plural, one {Оберіть більше 1 тегу} other {Оберіть більше # тегів}}",
             "name": "Назва",
-            "tags": "Мітки"
+            "tags": "Теги"
         }
     }
 }
