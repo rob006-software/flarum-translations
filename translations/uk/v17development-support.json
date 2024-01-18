@@ -300,7 +300,7 @@
                 "body": "Шановний, {recipient_display_name}!\n\nКористувач {replier_display_name} відповів на ваш тікет #{ticket_id} (тема «{subject}»).\n\nБудь ласка, перейдіть за посиланням нижче, щоб переглянути відповідь:\n{url}\n\nМи чекаємо на вашу відповідь або поки ви не позначите цей тікет як вирішений.\n"
             },
             "ticket_status_update": {
-                "subject": "Тікет #{ticket_id} позначено як {new_status}.",
+                "subject": "Тікет #{ticket_id} позначено як {new_status}",
                 "body": "Шановний, {recipient_display_name}!\n\nСтатус вашого квитка #{ticket_id} змінено на {new_status}.\n\nURL-адреса вашого квитка\n{url}\n"
             },
             "ticket_resolved": {
