@@ -739,6 +739,9 @@ return [
 	'hikarilan-passkey-login' => [
 		'tag' => 'https://raw.githubusercontent.com/shaokeyibb/flarum-passkey-login/0.2/locale/en.yml',
 	],
+	'ianm-boring-avatars' => [
+		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-boring-avatars/1.0.0/locale/en.yml',
+	],
 	'ianm-follow-users' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/follow-users/1.4.4/resources/locale/en.yml',
 	],
