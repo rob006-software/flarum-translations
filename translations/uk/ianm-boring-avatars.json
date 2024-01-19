@@ -2,18 +2,18 @@
     "ianm-boring-avatars": {
         "admin": {
             "settings": {
-                "color1": "",
-                "color2": "",
-                "color3": "",
-                "color4": "",
-                "color5": "",
-                "identifier": "",
-                "identifier_help": "",
-                "identifier_id": "",
-                "identifier_display_name": "",
-                "identifier_email": "",
-                "theme": "",
-                "theme_help": ""
+                "color1": "Колір 1",
+                "color2": "Колір 2",
+                "color3": "Колір 3",
+                "color4": "Колір 4",
+                "color5": "Колір 5",
+                "identifier": "Ідентифікатор",
+                "identifier_help": "Використовується для створення унікального аватара для кожного користувача.\n",
+                "identifier_id": "ID користувача",
+                "identifier_display_name": "Ім'я для відображення",
+                "identifier_email": "Email",
+                "theme": "Тема",
+                "theme_help": "Тема для нудних аватарок.\n"
             }
         }
     },
@@ -21,9 +21,9 @@
         "lib": {
             "data": {
                 "boringavatar": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Додає нудну аватарку до експортного архіву.",
+                    "anonymize_description": "Видалення нудного аватару і генерація нового випадкового.",
+                    "delete_description": "Видалення нудного аватару."
                 }
             }
         }
