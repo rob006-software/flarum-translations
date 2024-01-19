@@ -1,0 +1,31 @@
+{
+    "ianm-boring-avatars": {
+        "admin": {
+            "settings": {
+                "color1": "Color 1",
+                "color2": "Color 2",
+                "color3": "Color 3",
+                "color4": "Color 4",
+                "color5": "Color 5",
+                "identifier": "Identifier",
+                "identifier_help": "Used to generate a unique avatar for each user.\n",
+                "identifier_id": "User ID",
+                "identifier_display_name": "Display name",
+                "identifier_email": "Email",
+                "theme": "Theme",
+                "theme_help": "The theme to use for the boring avatars.\n"
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "boringavatar": {
+                    "export_description": "Adds the boring avatar to the export zip.",
+                    "anonymize_description": "Deletes the boring avatar, and regenerates a new random one.",
+                    "delete_description": "Deletes the boring avatar."
+                }
+            }
+        }
+    }
+}
