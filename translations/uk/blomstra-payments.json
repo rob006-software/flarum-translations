@@ -40,17 +40,17 @@
                 "purchase_required": "Ця дискусія буде опублікована після того, як ви завершите оплату через нашого платіжного провайдера Stripe. Натисніть кнопку «Купити», щоб переглянути вартість та варіанти оплати.\n"
             },
             "pay-to-bump": {
-                "description": "",
-                "purchase-control": "",
-                "purchase-log-in": ""
+                "description": "{count, plural, one {Ця дискусія була відкладена} other {{count} людей відклали цю дискусію}}.",
+                "purchase-control": "Плата за відкладення",
+                "purchase-log-in": "Увійдіть та заплатіть за відкладення"
             },
             "bounties": {
-                "purchase-control": "",
-                "enable-control": ""
+                "purchase-control": "Додати винагороду",
+                "enable-control": "Увімкнути винагороди"
             },
             "choose-bounty-amount-modal": {
-                "title": "",
-                "checkout-control": "",
+                "title": "Оберіть суму винагороди",
+                "checkout-control": "Каса",
                 "description": ""
             },
             "backers-widget": {
