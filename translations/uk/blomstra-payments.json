@@ -51,67 +51,67 @@
             "choose-bounty-amount-modal": {
                 "title": "Оберіть суму винагороди",
                 "checkout-control": "Каса",
-                "description": ""
+                "description": "Оберіть суму для підтримки \"{subject}\" або оберіть іншу суму."
             },
             "backers-widget": {
-                "backers": "",
-                "label": "",
-                "none": "",
-                "pledged": ""
+                "backers": "Спонсори",
+                "label": "{currency} {sum} застави",
+                "none": "Поки що немає спонсорів.",
+                "pledged": "Обіцянка"
             },
             "tag": {
-                "require-payment-label": ""
+                "require-payment-label": "Оплата обов'язкова"
             },
             "payment-options-modal": {
-                "title": "",
-                "description": ""
+                "title": "Варіанти оплати для отримання доступу до {group}",
+                "description": "Оберіть один з наступних варіантів, щоб розпочати доступ до групи. Вас буде перенаправлено до нашого платіжного провайдера Stripe для обробки платежу.\n"
             },
             "access-portal": {
-                "options": "",
-                "purchase": "",
-                "subscribed": ""
+                "options": "опції",
+                "purchase": "покупка",
+                "subscribed": "підписано"
             },
             "nav": {
-                "access_portal": "",
-                "user_subscriptions": ""
+                "access_portal": "Портал доступу",
+                "user_subscriptions": "Підписки"
             },
             "exceptions": {
                 "out-of-bounds-amount": {
-                    "min": "",
-                    "max": ""
+                    "min": "Платіж у розмірі {amount} не допускається, {min} - мінімальна сума.",
+                    "max": "Платіж у розмірі {amount} не допускається, {max} - максимальна сума."
                 }
             }
         },
         "admin": {
             "edit-tag": {
-                "select-ptp-product": "",
-                "select-ptp-product-description": "",
-                "select-ptv-product": "",
-                "select-ptv-product-description": "",
-                "visible-from": "",
-                "visible-from-description": "",
-                "select-ptb-product": "",
-                "select-ptb-product-description": "",
-                "bump-others": "",
-                "bump-others-description": "",
-                "select-bounty-product": "",
-                "select-bounty-product-description": ""
+                "select-ptp-product": "(PTP) Необхідний продукт",
+                "select-ptp-product-description": "Вибір продукту вимагає оплати цього продукту за кожне обговорення в цьому тегу. Оплата за публікацію, наприклад, чудово підходить для рекламних роликів. Створіть продукт із одноразовою ціною на інформаційній панелі Stripe і скопіюйте ідентифікатор, який починається з <code>prod_</code>, у це поле.\n",
+                "select-ptv-product": "(PTV) Необхідний продукт",
+                "select-ptv-product-description": "Вибір продукту потребує оплати цього продукту, щоб назавжди отримати доступ до всіх публікацій, які перевищують порогову суму. Створіть продукт на інформаційній панелі Stripe і скопіюйте ідентифікатор, який починається з <code>prod_</code>, у це поле.\n",
+                "visible-from": "Приховати повідомлення при цьому порозі",
+                "visible-from-description": "Число, яке ви вкажете тут, визначає, в який момент повідомлення будуть приховані для користувачів, які не заплатили за доступ до контенту. Використовуйте 0, щоб приховати всі дописи, 1 - щоб приховати той, що після OP.\n",
+                "select-ptb-product": "(PTB) Необхідний продукт",
+                "select-ptb-product-description": "Вибір продукту вимагатиме оплати цього продукту, перш ніж ви зможете розпочати обговорення.\n",
+                "bump-others": "(PTB) Дозвольте іншим долучатися до обговорення",
+                "bump-others-description": "Якщо увімкнено, не лише автор дискусії може підштовхнути дискусію до оплати.\n",
+                "select-bounty-product": "(Винагорода) Необхідний продукт",
+                "select-bounty-product-description": "Виберіть продукт, щоб отримати винагороди. Товар може мати лише одну ціну з моделлю: «На замовлення вибирає ціну». Скопіюйте в це поле ідентифікатор продукту, який починається з <code>prod_</code>.\n"
             },
             "edit-group": {
-                "select-pta-product": "",
-                "select-pta-product-description": ""
+                "select-pta-product": "(PTA) Необхідний продукт",
+                "select-pta-product-description": "Вибір товару відкриває доступ до групи після оплати. У разі підписки доступ буде автоматично скасовано після скасування підписки. Створіть продукт на інформаційній панелі Stripe і скопіюйте ідентифікатор, що починається з <code>prod_</code>, у це поле.\n"
             },
             "settings": {
-                "assign-bounty-tag-id": "",
-                "pk": "",
-                "sk": "",
-                "webhook-secret": "",
-                "link-access-portal": "",
-                "link-to-terms": "",
-                "recount-total-discussion-bounties": ""
+                "assign-bounty-tag-id": "Тег, який буде призначено до обговорення після першої надісланої винагороди",
+                "pk": "Ключ для публікації (api)",
+                "sk": "Секретний (api) ключ",
+                "webhook-secret": "Секретний підписаний веб-хук",
+                "link-access-portal": "Посилання на портал доступу під випадаючим списком сеансів користувача",
+                "link-to-terms": "URL-адреса умов оплати",
+                "recount-total-discussion-bounties": "Перерахувати загальну кількість дискусійних вирагород"
             },
             "permission": {
-                "enable-bounties": ""
+                "enable-bounties": "Увімкнути винагороду"
             }
         }
     }
