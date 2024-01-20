@@ -21,9 +21,6 @@
                 "birthday_text": "Aniversari: {date}",
                 "age_text": "Edat: {age}"
             },
-            "header": {
-                "edit_dob_button": "Editar data de naixement"
-            },
             "change_dob": {
                 "title": "Editar data de naixement",
                 "date_of_birth_text": "Data de naixement",
@@ -44,12 +41,21 @@
             },
             "page": {
                 "discussion_count": "{count, plural, one {Debat: #} other {Debats: #}}",
-                "post_count": "{count, plural, one {Publicació: #} other {Publicacions: #}}"
+                "post_count": "{count, plural, one {Publicació: #} other {Publicacions: #}}",
+                "sign_up": {
+                    "dob_placeholder": ""
+                }
+            },
+            "header": {
+                "edit_dob_button": "Editar data de naixement"
             }
         },
         "api": {
             "invalid_dob_message": "Data de naixement incorrecta",
             "invalid_age_message": "Almenys has de tenir {minAge} anys per inscriure't."
+        },
+        "ref": {
+            "date_of_birth": ""
         }
     }
 }

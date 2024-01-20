@@ -21,9 +21,6 @@
                 "birthday_text": "生日：{date}",
                 "age_text": "年齡：{age}"
             },
-            "header": {
-                "edit_dob_button": "編輯生日"
-            },
             "change_dob": {
                 "title": "編輯生日",
                 "date_of_birth_text": "生日",
@@ -44,12 +41,21 @@
             },
             "page": {
                 "discussion_count": "{count, plural, one {主題：#} other {主題：#}}",
-                "post_count": "{count, plural, one {回帖：#} other {回帖：#}}"
+                "post_count": "{count, plural, one {回帖：#} other {回帖：#}}",
+                "sign_up": {
+                    "dob_placeholder": ""
+                }
+            },
+            "header": {
+                "edit_dob_button": "編輯生日"
             }
         },
         "api": {
             "invalid_dob_message": "無效的出生日期",
             "invalid_age_message": "很抱歉，您的年齡必須大於 {minAge} 歲。"
+        },
+        "ref": {
+            "date_of_birth": ""
         }
     }
 }

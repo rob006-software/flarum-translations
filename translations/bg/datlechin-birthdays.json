@@ -21,9 +21,6 @@
                 "birthday_text": "Рожден ден: {date}",
                 "age_text": "Възраст: {age}"
             },
-            "header": {
-                "edit_dob_button": "Редактиране на датата на раждане"
-            },
             "change_dob": {
                 "title": "Редактиране на датата на раждане",
                 "date_of_birth_text": "Дата на раждане",
@@ -44,12 +41,21 @@
             },
             "page": {
                 "discussion_count": "{count, plural, one {Дискусия: #} other {Дискусии: #}}",
-                "post_count": "{count, plural, one {Публикация: #} other {Публикации: #}}"
+                "post_count": "{count, plural, one {Публикация: #} other {Публикации: #}}",
+                "sign_up": {
+                    "dob_placeholder": ""
+                }
+            },
+            "header": {
+                "edit_dob_button": "Редактиране на датата на раждане"
             }
         },
         "api": {
             "invalid_dob_message": "Невалидна дата на раждане",
             "invalid_age_message": "Вашата възраст трябва да е поне {minAge} години."
+        },
+        "ref": {
+            "date_of_birth": ""
         }
     }
 }

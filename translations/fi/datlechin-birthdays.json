@@ -21,9 +21,6 @@
                 "birthday_text": "Syntymäpäivä: {date}",
                 "age_text": "Ikä: {age}"
             },
-            "header": {
-                "edit_dob_button": "Muokkaa syntymäpäivää"
-            },
             "change_dob": {
                 "title": "Muokkaa syntymäpäivää",
                 "date_of_birth_text": "Syntymäpäivä",
@@ -44,12 +41,21 @@
             },
             "page": {
                 "discussion_count": "{count, plural, one {Keskustelu: #} other {Keskustelua: #}}",
-                "post_count": "{count, plural, one {Viesti: #} other {Viestiä: #}}"
+                "post_count": "{count, plural, one {Viesti: #} other {Viestiä: #}}",
+                "sign_up": {
+                    "dob_placeholder": ""
+                }
+            },
+            "header": {
+                "edit_dob_button": "Muokkaa syntymäpäivää"
             }
         },
         "api": {
             "invalid_dob_message": "Virheellinen syntymäpäivä",
             "invalid_age_message": "Sinun täytyy olla vähintään {minAge} vuotta vanha."
+        },
+        "ref": {
+            "date_of_birth": ""
         }
     }
 }

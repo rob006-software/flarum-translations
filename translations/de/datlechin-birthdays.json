@@ -21,9 +21,6 @@
                 "birthday_text": "Geburtstag: {date}",
                 "age_text": "{age} Jahre alt"
             },
-            "header": {
-                "edit_dob_button": "Geburtsdatum ändern"
-            },
             "change_dob": {
                 "title": "Geburtsdatum ändern",
                 "date_of_birth_text": "Geburtsdatum",
@@ -44,12 +41,21 @@
             },
             "page": {
                 "discussion_count": "{count, plural, one {Diskussion: #} other {Diskussionen: #}}",
-                "post_count": "{count, plural, one {Beitrag: #} other {Beiträge: #}}"
+                "post_count": "{count, plural, one {Beitrag: #} other {Beiträge: #}}",
+                "sign_up": {
+                    "dob_placeholder": ""
+                }
+            },
+            "header": {
+                "edit_dob_button": "Geburtsdatum ändern"
             }
         },
         "api": {
             "invalid_dob_message": "Ungültiges Geburtsdatum",
             "invalid_age_message": "Dein Alter muss mindestens {minAge} Jahre betragen."
+        },
+        "ref": {
+            "date_of_birth": ""
         }
     }
 }

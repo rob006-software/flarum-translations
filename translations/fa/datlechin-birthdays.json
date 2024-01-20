@@ -21,9 +21,6 @@
                 "birthday_text": "تولد: {date}",
                 "age_text": "سن:‌ {age}"
             },
-            "header": {
-                "edit_dob_button": "ویرایش تاریخ تولد"
-            },
             "change_dob": {
                 "title": "ویرایش تاریخ تولد",
                 "date_of_birth_text": "تاریخ تولد",
@@ -44,12 +41,21 @@
             },
             "page": {
                 "discussion_count": "",
-                "post_count": ""
+                "post_count": "",
+                "sign_up": {
+                    "dob_placeholder": ""
+                }
+            },
+            "header": {
+                "edit_dob_button": "ویرایش تاریخ تولد"
             }
         },
         "api": {
             "invalid_dob_message": "تاریخ تولد نامعتبر است",
             "invalid_age_message": "سن شما باید حداقل {minAge} سال باشد."
+        },
+        "ref": {
+            "date_of_birth": ""
         }
     }
 }

@@ -21,9 +21,6 @@
                 "birthday_text": "Sinh nhật: {date}",
                 "age_text": "Tuổi: {age}"
             },
-            "header": {
-                "edit_dob_button": "Sửa ngày sinh"
-            },
             "change_dob": {
                 "title": "Chỉnh sửa ngày sinh",
                 "date_of_birth_text": "Ngày sinh",
@@ -49,12 +46,21 @@
             },
             "page": {
                 "discussion_count": "{count, plural, one {Cuộc thảo luận: #} other {Cuộc thảo luận: #}}",
-                "post_count": "{count, plural, one {Bài viết: #} other {Bài viết: #}}"
+                "post_count": "{count, plural, one {Bài viết: #} other {Bài viết: #}}",
+                "sign_up": {
+                    "dob_placeholder": ""
+                }
+            },
+            "header": {
+                "edit_dob_button": "Sửa ngày sinh"
             }
         },
         "api": {
             "invalid_dob_message": "Ngày sinh của bạn không hợp lệ",
             "invalid_age_message": "Tuổi của bạn phải từ {minAge} tuổi trở lên."
+        },
+        "ref": {
+            "date_of_birth": ""
         }
     }
 }
