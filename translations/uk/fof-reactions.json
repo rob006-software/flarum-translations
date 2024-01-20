@@ -23,7 +23,7 @@
             "page": {
                 "cdn": {
                     "title": "CDN",
-                    "help": "За налаштуванням ми обслуговуємо реакції з CDN Cloudflare. Ви також можете вказати будь-яку іншу адресу CDN в міру необхідності. <code>[codepoint]</code> буде замінено на кодову точку емодзі. Наприклад, щоб переключитися на Noto Emoji через jsdelivr, потрібно ввести <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code >. Це поле НІКОЛИ не можна залишати порожнім.\n",
+                    "help": "За налаштуванням ми обслуговуємо реакції з CDN Cloudflare. Ви також можете вказати будь-яку іншу адресу CDN в міру необхідності. <code>[codepoint]</code> буде замінено на кодову точку емодзі. \n\nНаприклад, щоб переключитися на Noto Emoji через jsdelivr, потрібно ввести <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code >. Це поле НІКОЛИ не можна залишати порожнім.\n",
                     "label": "URL-адреса",
                     "default-url": "За налаштуванням: {url}"
                 },
