@@ -2,18 +2,18 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Metode autentikasi baru",
                 "add_modal": {
                     "host_label": "",
-                    "host_placeholder": "",
+                    "host_placeholder": "contoh: extiverse.com",
                     "submit_button": "",
                     "token_label": "",
-                    "type_label": "",
+                    "type_label": "Tipe",
                     "unchanged_token_placeholder": ""
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "Apakah anda yakin ingin menghapus metode autentikasi ini?",
+                "delete_label": "Hapus metode autentikasi",
+                "edit_label": "Ubah metode autentikasi",
                 "fields": {
                     "host": "",
                     "token": ""
