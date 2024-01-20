@@ -2,18 +2,18 @@
     "ianm-boring-avatars": {
         "admin": {
             "settings": {
-                "color1": "",
-                "color2": "",
-                "color3": "",
-                "color4": "",
-                "color5": "",
-                "identifier": "",
-                "identifier_help": "",
-                "identifier_id": "",
-                "identifier_display_name": "",
-                "identifier_email": "",
-                "theme": "",
-                "theme_help": ""
+                "color1": "色調 1",
+                "color2": "色調 2",
+                "color3": "色調 3",
+                "color4": "色調 4",
+                "color5": "色調 5",
+                "identifier": "識別符",
+                "identifier_help": "用於為每個使用者產生唯一的頭像。\n",
+                "identifier_id": "用戶 ID",
+                "identifier_display_name": "顯示用戶名",
+                "identifier_email": "Email",
+                "theme": "主題",
+                "theme_help": "用於無聊頭像的主題。\n"
             }
         }
     },
@@ -21,9 +21,9 @@
         "lib": {
             "data": {
                 "boringavatar": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "將無聊的頭像加入匯出 zip 中。",
+                    "anonymize_description": "刪除無聊的頭像，並重新產生一個新的隨機頭像。",
+                    "delete_description": "刪除無聊的頭像。"
                 }
             }
         }
