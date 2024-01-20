@@ -2,118 +2,118 @@
     "fof-linguist": {
         "admin": {
             "permissions": {
-                "view_string_keys": ""
+                "view_string_keys": "Перегляд ключів рядка перекладу"
             },
             "tabs": {
-                "strings": "",
-                "coverage": "",
-                "export": "",
-                "import": ""
+                "strings": "Переклади",
+                "coverage": "Охоплення",
+                "export": "Експорт",
+                "import": "Імпорт"
             },
             "buttons": {
-                "apply": "",
-                "reset": "",
-                "copy-original": "",
-                "load-more": "",
-                "delete-redundant": "",
-                "delete-redundant-confirm": "",
-                "delete-all": "",
-                "delete-all-confirm": ""
+                "apply": "Застосувати",
+                "reset": "Відновити оригінальну версію",
+                "copy-original": "Скопіювати оригінальний текст",
+                "load-more": "Завантажити більше",
+                "delete-redundant": "Видалити зайві переклади",
+                "delete-redundant-confirm": "Це призведе до видалення {count} перекладів, які мають однакові значення оригіналу та користувацького перекладу. Це може бути корисно для очищення після оновлення мовного пакета.\n",
+                "delete-all": "Видалити всі переклади",
+                "delete-all-confirm": "Це призведе до видалення ВСІХ ваших {count} користувацьких перекладів. Переконайтеся, що ви експортували або створили резервну копію всього, що ви хотіли б зберегти.\n"
             },
             "locales": {
-                "all": ""
+                "all": "Усе"
             },
             "placeholder": {
-                "not-translated": "",
-                "all-locales": "",
-                "hint": ""
+                "not-translated": "Не перекладено",
+                "all-locales": "Визначений тут текст буде показано всіма мовами",
+                "hint": "Оригінальне значення:"
             },
             "filters": {
-                "search": "",
-                "with-own-translations": "",
-                "missing": "",
-                "missing-middle-label": "",
+                "search": "Пошук рядків перекладу...",
+                "with-own-translations": "Мої переклади",
+                "missing": "Знайти пропущені переклади",
+                "missing-middle-label": "переклади в",
                 "negation-options": {
-                    "with": "",
-                    "without": ""
+                    "with": "З",
+                    "without": "Без"
                 },
                 "type-options": {
-                    "any": "",
-                    "original": "",
-                    "own": ""
+                    "any": "Оригінальні або кастомні",
+                    "original": "Оригінальні",
+                    "own": "Кастомні"
                 },
                 "operation-options": {
-                    "or": "",
-                    "and": ""
+                    "or": "Будь-хто з",
+                    "and": "Усі з"
                 },
-                "for-extension": "",
-                "frontend": "",
-                "frontend-all-except-admin": "",
-                "mass-edit": "",
-                "results": ""
+                "for-extension": "Для розширення",
+                "frontend": "Для сайту",
+                "frontend-all-except-admin": "Всі, окрім адміністратора",
+                "mass-edit": "Масове редагування",
+                "results": "Показати {shown} з {total} відповідних перекладів"
             },
             "clear-cache": {
-                "text": "",
-                "button": ""
+                "text": "Нові переклади ще не були застосовані. Примітка: очищення кешу може тимчасово сповільнити роботу форуму.\n",
+                "button": "Очистити кеш негайно"
             },
             "coverage": {
                 "column-options": {
-                    "locale": "",
-                    "namespace": ""
+                    "locale": "За мовою",
+                    "namespace": "За сайтом"
                 },
                 "total-options": {
-                    "percent": "",
-                    "count": ""
+                    "percent": "Відсоток",
+                    "count": "Кількість"
                 },
                 "columns": {
-                    "namespace": "",
-                    "total": "",
-                    "all-except-admin": "",
-                    "all-frontends": ""
+                    "namespace": "Простір імен",
+                    "total": "Загалом",
+                    "all-except-admin": "Форум та інші інтерфейси",
+                    "all-frontends": "Показати усі інтерфейси"
                 },
                 "count": {
-                    "percent": "",
-                    "total": "",
-                    "details": ""
+                    "percent": "{percent} %",
+                    "total": "{translated} / {total}",
+                    "details": "{total} загальний / {original} оригінальний / {custom} користувацький"
                 },
-                "all-namespaces": "",
-                "apply-missing-filter": ""
+                "all-namespaces": "Усі",
+                "apply-missing-filter": "Показати відповідні пропущені переклади"
             },
             "export": {
-                "title": "",
-                "warning": "",
-                "locale": "",
-                "locale-all": "",
-                "namespace": "",
-                "namespace-all": "",
-                "include-originals": "",
-                "include-all": "",
-                "output": "",
-                "output-loading": "",
-                "output-empty": "",
-                "download": ""
+                "title": "Експорт",
+                "warning": "Формат експорту використовує перекладацькі файли Flarum у форматі Yaml і призначений для обміну перекладами між форумами та з супровідниками мовних пакетів. Формат не призначений для перенесення всіх перекладів на новий форум. Залежно від ваших потреб, кращим варіантом може бути безпосереднє копіювання бази даних.\n",
+                "locale": "Місцезнаходження",
+                "locale-all": "Псевдолокаль \"Всі\"",
+                "namespace": "Простір імен",
+                "namespace-all": "Усі",
+                "include-originals": "Включити оригінальні переклади",
+                "include-all": "Включити переклади, визначені для \"Усіх\" мов",
+                "output": "Вихідні дані",
+                "output-loading": "Завантаження вихідних даних...",
+                "output-empty": "Порожні вихідні дані",
+                "download": "Завантажити"
             },
             "import": {
-                "title": "",
-                "input": "",
-                "input-placeholder": "",
-                "locale": "",
-                "locale-all": "",
-                "override-existing": "",
-                "submit": "",
-                "results": "",
-                "results-with-ignore": ""
+                "title": "Імпорт",
+                "input": "Вхідні дані",
+                "input-placeholder": "Перетягніть або вставте файл Yaml тут",
+                "locale": "Місцезнаходження",
+                "locale-all": "Псевдолокаль \"Всі\"",
+                "override-existing": "Перевизначити мої існуючі користувацькі переклади",
+                "submit": "Імпорт",
+                "results": "Імпорт завершено. Було імпортовано {imported} рядки, а {identical} ідентичні рядки було пропущено. Сторінку буде оновлено, щоб показати нові переклади.\n",
+                "results-with-ignore": "Імпорт завершено. Було імпортовано {imported} рядки, {ignored} наявні рядки було проігноровано, а {identical} однакові рядки було пропущено. Сторінку буде оновлено, щоб показати нові переклади.\n"
             },
             "known-namespace": {
-                "core": "",
-                "validation": ""
+                "core": "Flarum Core",
+                "validation": "Помилки при валідації"
             },
             "known-frontend": {
-                "forum": "",
-                "admin": "",
-                "lib": "",
-                "ref": "",
-                "api": ""
+                "forum": "Форум",
+                "admin": "Адмін",
+                "lib": "Lib (використовується як на форумі, так і в адмінці)",
+                "ref": "Ref (повторно використовується в інших ключах)",
+                "api": "API"
             }
         }
     }
