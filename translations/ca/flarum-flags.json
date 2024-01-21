@@ -2,18 +2,18 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "Reportar publicacions",
-                "view_flags_label": "Veure publicacions reportades"
+                "flag_posts_label": "Denunciar publicacions",
+                "view_flags_label": "Veure publicacions denunciades"
             },
             "settings": {
-                "flag_own_posts_label": "Permetre que els usuaris reportin els seus propis missatges",
+                "flag_own_posts_label": "Permetre que els usuaris denunciïn els seus propis missatges",
                 "guidelines_url_label": "Adreça web de les normes de la comunitat",
                 "title": "Paràmetres de configuració"
             }
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "Gràcies per reportar aquesta publicació. Els nostres moderadors la revisaran.",
+                "confirmation_message": "Gràcies per denunciar aquesta publicació. Els nostres moderadors la revisaran.",
                 "dismiss_button": "=> core.ref.okay",
                 "reason_details_placeholder": "Detalls addicionals (opcional)",
                 "reason_inappropriate_label": "Inapropiat",
@@ -21,30 +21,30 @@
                 "reason_missing_message": "Si us plau, facilita alguns detalls als nostres moderadors.",
                 "reason_off_topic_label": "Fora de tema",
                 "reason_off_topic_text": "Aquesta publiació no és rellevant per al debat en curs i hauria de tractar-se en alguna altra banda.",
-                "reason_other_label": "Altres (si us plau, expliqueu-ho)",
+                "reason_other_label": "Altres (si us plau, raona els motius)",
                 "reason_spam_label": "Contingut brossa",
                 "reason_spam_text": "Aquesta publicació és un anunci o un possible engany.",
                 "submit_button": "=> flarum-flags.ref.flag_post",
                 "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
-                "empty_text": "Cap missatge reportat",
+                "empty_text": "Cap missatge denunciat",
                 "item_text": "{username} a <em>{discussion}</em>",
                 "title": "=> flarum-flags.ref.flagged_posts",
                 "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
-                "dismiss_flag_button": "Eliminar marca de missatge reportat",
-                "flagged_by_text": "Reportat per {username}",
-                "flagged_by_with_reason_text": "Reportat per {username} com a {reason}"
+                "dismiss_flag_button": "Eliminar marca de missatge denunciat",
+                "flagged_by_text": "Denunciat per {username}",
+                "flagged_by_with_reason_text": "Denunciat per {username} degut a {reason}"
             },
             "post_controls": {
-                "flag_button": "Reportar"
+                "flag_button": "Denunciar"
             }
         },
         "ref": {
-            "flag_post": "Reportar publicació",
-            "flagged_posts": "Publicacions reportades"
+            "flag_post": "Denunciar publicació",
+            "flagged_posts": "Publicacions denunciades"
         }
     }
 }
