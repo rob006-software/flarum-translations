@@ -21,9 +21,6 @@
                 "birthday_text": "День народження: {date}",
                 "age_text": "Вік: {age}"
             },
-            "header": {
-                "edit_dob_button": "Редагувати дату дня народження"
-            },
             "change_dob": {
                 "title": "Редагувати дату дня народження",
                 "date_of_birth_text": "Дата дня народження",
@@ -44,12 +41,21 @@
             },
             "page": {
                 "discussion_count": "{count, plural, one {Дискусія: #} other {Дискусії: #}}",
-                "post_count": "{count, plural, one {Допис: #} other {Дописи: #}}"
+                "post_count": "{count, plural, one {Допис: #} other {Дописи: #}}",
+                "sign_up": {
+                    "dob_placeholder": ""
+                }
+            },
+            "header": {
+                "edit_dob_button": "Редагувати дату дня народження"
             }
         },
         "api": {
             "invalid_dob_message": "Невірна дата народження",
             "invalid_age_message": "Ваш вік повинен бути не менше {minAge} років."
+        },
+        "ref": {
+            "date_of_birth": ""
         }
     }
 }

@@ -21,9 +21,6 @@
                 "birthday_text": "Doğum Günü: {date}",
                 "age_text": "Yaş: {age}"
             },
-            "header": {
-                "edit_dob_button": "Doğum Tarihini Düzenle"
-            },
             "change_dob": {
                 "title": "Doğum Tarihini Düzenle",
                 "date_of_birth_text": "Doğum tarihi",
@@ -49,12 +46,21 @@
             },
             "page": {
                 "discussion_count": "{count, plural, one {Tartışma: #} other {Tartışmalar: #}}",
-                "post_count": "{count, plural, one {İleti: #} other {İletiler: #}}"
+                "post_count": "{count, plural, one {İleti: #} other {İletiler: #}}",
+                "sign_up": {
+                    "dob_placeholder": ""
+                }
+            },
+            "header": {
+                "edit_dob_button": "Doğum Tarihini Düzenle"
             }
         },
         "api": {
             "invalid_dob_message": "Geçersiz doğum tarihi",
             "invalid_age_message": "Yaşınız en az {minAge} olmalıdır."
+        },
+        "ref": {
+            "date_of_birth": ""
         }
     }
 }

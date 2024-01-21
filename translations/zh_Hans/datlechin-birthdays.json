@@ -21,9 +21,6 @@
                 "birthday_text": "生日：{date}",
                 "age_text": "年龄：{age}"
             },
-            "header": {
-                "edit_dob_button": "编辑生日"
-            },
             "change_dob": {
                 "title": "编辑生日",
                 "date_of_birth_text": "生日",
@@ -44,12 +41,21 @@
             },
             "page": {
                 "discussion_count": "{count, plural, one {主题：#} other {主题：#}}",
-                "post_count": "{count, plural, one {回帖：#} other {回帖：#}}"
+                "post_count": "{count, plural, one {回帖：#} other {回帖：#}}",
+                "sign_up": {
+                    "dob_placeholder": ""
+                }
+            },
+            "header": {
+                "edit_dob_button": "编辑生日"
             }
         },
         "api": {
             "invalid_dob_message": "无效的出生日期",
             "invalid_age_message": "很抱歉，您的年龄必须大于 {minAge} 岁。"
+        },
+        "ref": {
+            "date_of_birth": ""
         }
     }
 }

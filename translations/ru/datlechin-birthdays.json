@@ -21,9 +21,6 @@
                 "birthday_text": "День рождения: {date}",
                 "age_text": "Возраст: {age}"
             },
-            "header": {
-                "edit_dob_button": "Править дату рождения"
-            },
             "change_dob": {
                 "title": "Править дату рождения",
                 "date_of_birth_text": "Дата рождения",
@@ -44,12 +41,21 @@
             },
             "page": {
                 "discussion_count": "",
-                "post_count": ""
+                "post_count": "",
+                "sign_up": {
+                    "dob_placeholder": ""
+                }
+            },
+            "header": {
+                "edit_dob_button": "Править дату рождения"
             }
         },
         "api": {
             "invalid_dob_message": "Ваша дата рождения должна быть менее чем 100 лет назад.",
             "invalid_age_message": ""
+        },
+        "ref": {
+            "date_of_birth": ""
         }
     }
 }

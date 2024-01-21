@@ -2,51 +2,51 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Metode autentikasi baru",
                 "add_modal": {
                     "host_label": "",
-                    "host_placeholder": "",
+                    "host_placeholder": "contoh: extiverse.com",
                     "submit_button": "",
                     "token_label": "",
-                    "type_label": "",
+                    "type_label": "Tipe",
                     "unchanged_token_placeholder": ""
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "Apakah anda yakin ingin menghapus metode autentikasi ini?",
+                "delete_label": "Hapus metode autentikasi",
+                "edit_label": "Ubah metode autentikasi",
                 "fields": {
                     "host": "",
                     "token": ""
                 },
                 "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "remove_button_label": "Hapus metode autentikasi",
+                "title": "Metode Autentikasi",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
                     "gitlab-token": "",
                     "bearer": ""
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
+                "add_repository_label": "Tambah Repositori",
+                "delete_repository_confirmation": "Apakah anda yakin ingin menghapus repositori ini? Semua ekstensi yang terpasang dari repositori ini akan dihapus.",
+                "delete_repository_label": "Hapus repositori",
+                "edit_repository_label": "Ubah repositori",
                 "title": "",
                 "minimum_stability": {
                     "label": "",
                     "help": "",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "stable": "Stabil (Direkomendasikan)",
+                        "rc": "Kandidat Rilis",
+                        "beta": "Beta",
+                        "alpha": "Alpha",
+                        "dev": "Dev"
                     }
                 },
                 "repositories": {
-                    "label": "",
+                    "label": "Repositori",
                     "help": "",
                     "types": {
                         "composer": "",
@@ -54,8 +54,8 @@
                         "path": ""
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
+                        "name_label": "Nama",
+                        "type_label": "Tipe",
                         "url": "",
                         "submit_button": ""
                     }
@@ -63,24 +63,24 @@
             },
             "exceptions": {
                 "composer_command_failure": "",
-                "extension_already_installed": "",
+                "extension_already_installed": "Ekstensi sudah terpasang.",
                 "extension_not_directly_dependency": "",
-                "extension_not_installed": "",
+                "extension_not_installed": "Ekstensi tidak ditemukan.",
                 "guessed_cause": {
                     "extension_incompatible_with_instance": "",
-                    "extension_not_found": "",
+                    "extension_not_found": "Ekstensi tidak ditemukan atau tidak ada.",
                     "extensions_incompatible_with_new_major": ""
                 }
             },
             "extensions": {
                 "check_why_it_failed_updating": "",
-                "install": "",
+                "install": "Pasang ekstensi baru",
                 "install_help": "",
-                "proceed": "",
-                "remove": "",
-                "successful_install": "",
-                "successful_remove": "",
-                "successful_update": "",
+                "proceed": "Lanjutkan",
+                "remove": "Copot pemasangan",
+                "successful_install": "{extension} berhasil dipasang, mengalihkan..",
+                "successful_remove": "Ekstensi berhasil dihapus.",
+                "successful_update": "{extension} berhasil diperbarui, mengalihkan..",
                 "update": "",
                 "update_soft_label": "",
                 "update_hard_label": ""
@@ -102,42 +102,42 @@
             },
             "sections": {
                 "control": {
-                    "title": ""
+                    "title": "Manajer"
                 },
                 "queue": {
                     "columns": {
-                        "details": "",
-                        "elapsed_time": "",
+                        "details": "Detail",
+                        "elapsed_time": "Selesai dalam",
                         "peak_memory_used": "",
                         "operation": "",
                         "package": "",
-                        "status": ""
+                        "status": "Status"
                     },
-                    "none": "",
+                    "none": "Belum ada tugas.",
                     "operations": {
-                        "extension_install": "",
-                        "extension_remove": "",
-                        "extension_update": "",
-                        "update_check": "",
+                        "extension_install": "Pasang ekstensi",
+                        "extension_remove": "Hapus ekstensi",
+                        "extension_update": "Perbarui ekstensi",
+                        "update_check": "Periksa pembaruan",
                         "update_global": "",
                         "update_major": "",
                         "update_minor": "",
                         "why_not": ""
                     },
                     "output_modal": {
-                        "cause_unknown": "",
+                        "cause_unknown": "Tidak diketahui",
                         "command": "",
                         "guessed_cause": "",
                         "output": ""
                     },
-                    "refresh": "",
+                    "refresh": "Segarkan daftar tugas",
                     "statuses": {
-                        "success": "",
-                        "failure": "",
-                        "pending": "",
+                        "success": "Berhasil",
+                        "failure": "Gagal",
+                        "pending": "Tertunda",
                         "running": ""
                     },
-                    "task_just_started": "",
+                    "task_just_started": "Tugas baru saja dimulai",
                     "title": ""
                 }
             },
@@ -152,7 +152,7 @@
             },
             "updater": {
                 "up_to_date": "",
-                "check_for_updates": "",
+                "check_for_updates": "Periksa pembaruan",
                 "flarum": "",
                 "global_update_successful": "",
                 "last_update_checked_at": "",
@@ -160,7 +160,7 @@
                 "updater_title": "",
                 "updater_help": ""
             },
-            "update_successful": "",
+            "update_successful": "Flarum berhasil diperbarui.",
             "why_not_modal": {
                 "title": ""
             }

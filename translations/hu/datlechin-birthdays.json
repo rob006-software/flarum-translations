@@ -21,9 +21,6 @@
                 "birthday_text": "Születésnap: {date}",
                 "age_text": "Életkor: {age}"
             },
-            "header": {
-                "edit_dob_button": "Születési dátum szerkesztése"
-            },
             "change_dob": {
                 "title": "Születési dátum szerkesztése",
                 "date_of_birth_text": "Születési dátum",
@@ -44,12 +41,21 @@
             },
             "page": {
                 "discussion_count": "{count, plural, one {Téma: #} other {Téma: #}}",
-                "post_count": "{count, plural, one {Bejegyzés: #} other {Bejegyzés: #}}"
+                "post_count": "{count, plural, one {Bejegyzés: #} other {Bejegyzés: #}}",
+                "sign_up": {
+                    "dob_placeholder": ""
+                }
+            },
+            "header": {
+                "edit_dob_button": "Születési dátum szerkesztése"
             }
         },
         "api": {
             "invalid_dob_message": "Érvénytelen születési dátum",
             "invalid_age_message": "Legalább {minAge} évesnek kell lennie."
+        },
+        "ref": {
+            "date_of_birth": ""
         }
     }
 }

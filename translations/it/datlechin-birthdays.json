@@ -21,9 +21,6 @@
                 "birthday_text": "Compleanno: {date}",
                 "age_text": "Età: {age}"
             },
-            "header": {
-                "edit_dob_button": "Modifica Data di Nascita"
-            },
             "change_dob": {
                 "title": "Modifica Data di Nascita",
                 "date_of_birth_text": "Data di Nascita",
@@ -44,12 +41,21 @@
             },
             "page": {
                 "discussion_count": "{count, plural, one {Discussione: #} other {Discussioni: #}}",
-                "post_count": "{count, plural, one {Post: #} other {Post: #}}"
+                "post_count": "{count, plural, one {Post: #} other {Post: #}}",
+                "sign_up": {
+                    "dob_placeholder": ""
+                }
+            },
+            "header": {
+                "edit_dob_button": "Modifica Data di Nascita"
             }
         },
         "api": {
             "invalid_dob_message": "La tua data di nascita deve essere inferiore a 100 anni fa.",
             "invalid_age_message": "La tua età deve essere minimo di: {minAge}."
+        },
+        "ref": {
+            "date_of_birth": ""
         }
     }
 }

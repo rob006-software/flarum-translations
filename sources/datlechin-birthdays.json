@@ -21,35 +21,38 @@
                 "birthday_text": "Birthday: {date}",
                 "age_text": "Age: {age}"
             },
-            "header": {
-                "edit_dob_button": "Edit Date of Birth"
-            },
             "change_dob": {
                 "title": "Edit Date of Birth",
-                "date_of_birth_text": "Date of Birth",
+                "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
                 "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
                 "change_dob_label": "Change Date of Birth",
-                "dob_heading": "Date of Birth",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
                 "show_dob_date_label": "Show day and month of birth",
                 "show_dob_year_label": "Show year of birth",
                 "show_dob_year_help": "This will allow people to see your age."
             },
             "edit_user": {
-                "dob_heading": "Date of Birth"
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
             },
             "nav": {
                 "nav_item": "Today's Birthdays"
             },
             "page": {
                 "discussion_count": "{count, plural, one {Discussion: #} other {Discussions: #}}",
-                "post_count": "{count, plural, one {Post: #} other {Posts: #}}"
+                "post_count": "{count, plural, one {Post: #} other {Posts: #}}",
+                "sign_up": {
+                    "dob_placeholder": "=> datlechin-birthdays.ref.date_of_birth"
+                }
             }
         },
         "api": {
             "invalid_dob_message": "Invalid date of birth",
             "invalid_age_message": "Your age must be at least {minAge} years old."
+        },
+        "ref": {
+            "date_of_birth": "Date of Birth"
         }
     }
 }

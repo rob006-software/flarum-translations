@@ -374,7 +374,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-bbcode-hide-content/v0.1.5/locale/en.yml',
 	],
 	'datlechin-birthdays' => [
-		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-birthdays/v2.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-birthdays/v2.1.0/locale/en.yml',
 	],
 	'datlechin-birthdays-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-birthdays-widget/v0.1.0/locale/en.yml',
@@ -557,7 +557,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/cookie-consent/1.1.2/resources/locale/en.yml',
 	],
 	'fof-custom-footer' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/custom-footer/1.1.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/custom-footer/1.1.2/resources/locale/en.yml',
 	],
 	'fof-default-group' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/default-group/1.1.2/resources/locale/en.yml',
@@ -1125,6 +1125,9 @@ return [
 	],
 	'nearata-twofactor' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-twofactor/v2.2.1/locale/en.yml',
+	],
+	'nodeloc-dislikes' => [
+		'tag' => 'https://raw.githubusercontent.com/nodeloc/Dislikes/1.0.1/locale/en.yml',
 	],
 	'nodeloc-ignore-hidden-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ignore-hidden-tags/1.0/locale/en.yml',

@@ -21,9 +21,6 @@
                 "birthday_text": "",
                 "age_text": ""
             },
-            "header": {
-                "edit_dob_button": ""
-            },
             "change_dob": {
                 "title": "",
                 "date_of_birth_text": "",
@@ -44,12 +41,18 @@
             },
             "page": {
                 "discussion_count": "",
-                "post_count": ""
+                "post_count": "",
+                "sign_up": {
+                    "dob_placeholder": ""
+                }
             }
         },
         "api": {
             "invalid_dob_message": "",
             "invalid_age_message": ""
+        },
+        "ref": {
+            "date_of_birth": ""
         }
     }
 }
