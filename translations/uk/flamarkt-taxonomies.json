@@ -2,45 +2,45 @@
     "flamarkt-taxonomies": {
         "admin": {
             "menu": {
-                "title": "",
-                "discussions": "",
-                "users": "",
-                "products": ""
+                "title": "Таксономії",
+                "discussions": "Таксономії дискусій",
+                "users": "Таксономії користувачів",
+                "products": "Таксономії продуктів"
             },
             "page": {
-                "title": "",
+                "title": "Таксономії",
                 "create": {
-                    "taxonomy": "",
-                    "term": ""
+                    "taxonomy": "Створити таксономію",
+                    "term": "Створити термін"
                 },
-                "reset-term-order": ""
+                "reset-term-order": "Відновити список термінів в алфавітному порядку"
             },
             "edit-taxonomy": {
                 "title": {
-                    "new": "",
-                    "edit": ""
+                    "new": "Створити таксономію",
+                    "edit": "Редагувати таксономію"
                 },
                 "section": {
-                    "info": "",
-                    "filling": "",
-                    "browsing": "",
-                    "scope": ""
+                    "info": "Інформація",
+                    "filling": "Заповнення",
+                    "browsing": "Перегляд",
+                    "scope": "Область застосування"
                 },
                 "field": {
-                    "type": "",
-                    "typeDescription": "",
-                    "name": "",
-                    "slug": "",
-                    "description": "",
-                    "color": "",
-                    "icon": "",
-                    "iconDescription": "",
-                    "showLabel": "",
-                    "showLabelDescription": "",
-                    "enableFilter": "",
-                    "enableFilterDescription": "",
-                    "showFilter": "",
-                    "showFilterDescription": "",
+                    "type": "Тип",
+                    "typeDescription": "Таксономії можна використовувати на декількох ресурсах Flarum. Тип не може бути змінений після створення. Ви можете використовувати однакові імена та адреси для таксономій різних типів.\n",
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription",
+                    "showLabel": "Показати мітку таксономії разом з терміном",
+                    "showLabelDescription": "Стиль відображення списку обговорень та героя. Наразі не використовується для інших типів ресурсів.\n",
+                    "enableFilter": "Увімкнення фільтрів рядка запиту/API",
+                    "enableFilterDescription": "Дозволяє глибоко пов'язувати фільтри таксономії з обговореннями, користувачами і продуктами для користувачів з дозволом \"бачити все\" для даного типу таксономії. Це також дозволяє тим самим користувачам використовувати фільтри пошуку за допомогою REST API. Без налаштування \"Показувати фільтри\" користувачі не мають очевидного способу отримати ці посилання для користувачів і продуктів. Для обговорень глибоке посилання можна знайти в герої, навіть якщо \"Показувати фільтри\" вимкнено.\n",
+                    "showFilter": "Показати фільтри на сторінках списку/каталогу",
+                    "showFilterDescription": "Показувати фільтри постійним відвідувачам у списку обговорень, каталозі користувачів або індексі магазину. Працює тільки якщо увімкнено \"Увімкнути фільтри\". Адміністратори магазину завжди можуть фільтрувати за будь-якою таксономією в бек-офісі.\n",
                     "enableFulltextSearch": "",
                     "enableFulltextSearchDescription": "",
                     "enableFulltextSearchWarning": "",
@@ -50,27 +50,27 @@
                     "customValueSluggerDescription": "",
                     "countRequired": "",
                     "countRequiredDescription": "",
-                    "rangeSeparatorText": "",
+                    "rangeSeparatorText": "до",
                     "tagScope": "",
                     "tagScopeDescription": "",
                     "tagScopePlaceholder": ""
                 },
-                "delete": "",
+                "delete": "=> flamarkt-taxonomies.ref.delete",
                 "deleteConfirmation": "",
                 "submit": {
-                    "new": "",
-                    "edit": ""
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
                 },
                 "type-options": {
-                    "products": "",
-                    "discussions": "",
-                    "users": ""
+                    "products": "Продукти",
+                    "discussions": "Дискусії",
+                    "users": "Користувачі"
                 },
                 "validation-options": {
-                    "default": "",
-                    "alpha_num": "",
-                    "alpha_dash": "",
-                    "regex": ""
+                    "default": "Будь-яке текстове значення",
+                    "alpha_num": "Алфавітно-цифрові значення",
+                    "alpha_dash": "Алфавітно-цифрові значення та тире/підкреслення",
+                    "regex": "Регулярний вираз"
                 },
                 "slugger-options": {
                     "random": "",
@@ -84,18 +84,18 @@
                     "edit": ""
                 },
                 "field": {
-                    "name": "",
-                    "slug": "",
-                    "description": "",
-                    "color": "",
-                    "icon": "",
-                    "iconDescription": ""
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription"
                 },
-                "delete": "",
+                "delete": "=> flamarkt-taxonomies.ref.delete",
                 "deleteConfirmation": "",
                 "submit": {
-                    "new": "",
-                    "edit": ""
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
                 }
             },
             "permissions": {
@@ -122,11 +122,11 @@
                 "choose": ""
             },
             "discussion": {
-                "edit": ""
+                "edit": "Редагувати {taxonomy}"
             },
             "user": {
                 "nav": "",
-                "edit": ""
+                "edit": "Редагувати {taxonomy}"
             },
             "blog": {
                 "widget": {
@@ -141,10 +141,10 @@
                     "edit": ""
                 },
                 "placeholder": "",
-                "placeholderOptional": "",
+                "placeholderOptional": "Обрати...",
                 "custom": "",
                 "bypassTermCounts": "",
-                "submit": ""
+                "submit": "Гаразд"
             }
         },
         "api": {
@@ -156,17 +156,17 @@
         },
         "ref": {
             "field": {
-                "name": "",
-                "slug": "",
-                "description": "",
-                "color": "",
-                "icon": "",
+                "name": "Назва",
+                "slug": "Псевдонім",
+                "description": "Опис",
+                "color": "Колір",
+                "icon": "Значок",
                 "iconDescription": ""
             },
-            "delete": "",
+            "delete": "Видалити",
             "submit": {
-                "new": "",
-                "edit": ""
+                "new": "Створити",
+                "edit": "Зберегти"
             }
         }
     }
