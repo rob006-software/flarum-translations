@@ -2,35 +2,35 @@
     "nodeloc-dislikes": {
         "admin": {
             "permissions": {
-                "dislike_posts_label": ""
+                "dislike_posts_label": "Неодобрить сообщения"
             },
             "settings": {
-                "dislike_own_posts_help": "",
-                "dislike_own_posts_label": ""
+                "dislike_own_posts_help": "Если разрешено (в зависимости от прав доступа), пользователи могут \"неодобрять\" свои собственные сообщения на форуме. Отключите эту опцию, чтобы запретить пользователям \"неодобрять\" собственные сообщения.",
+                "dislike_own_posts_label": "Пользователи могут неодобрять свои сообщения"
             }
         },
         "forum": {
             "notifications": {
-                "others_text": "",
-                "post_disliked_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_disliked_text": "{username} неодобрил ваше сообщение"
             },
             "post": {
-                "dislike_link": "",
-                "disliked_by_self_text": "",
-                "disliked_by_text": "",
-                "others_link": "",
-                "undislike_link": "",
-                "you_text": ""
+                "dislike_link": "Неодобрить",
+                "disliked_by_self_text": "{users} неодобрили это.",
+                "disliked_by_text": "{count, plural, one {{users} неодобрил это} other {{users} неодобрили это}}.",
+                "others_link": "=> core.ref.some_others",
+                "undislike_link": "Отменить неодобрение",
+                "you_text": "=> core.ref.you"
             },
             "post_dislikes": {
-                "title": "",
-                "load_more_button": ""
+                "title": "Пользователи, неодобрившие это",
+                "load_more_button": "=> core.ref.load_more"
             },
             "settings": {
-                "notify_post_disliked_label": ""
+                "notify_post_disliked_label": "Кто-то неодобрил одно их моих сообщений"
             },
             "user": {
-                "dislikes_link": ""
+                "dislikes_link": "Неодобрения"
             }
         }
     }
