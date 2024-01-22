@@ -2,19 +2,19 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": "",
-                "viewLimited": ""
+                "view": "Переглянути журнал аудиту",
+                "viewLimited": "Переглянути обмежений журнал аудиту"
             },
             "header": {
-                "title": "",
-                "free": "",
-                "pro": "",
-                "upgrade": ""
+                "title": "Аудит",
+                "free": "Безкоштовно",
+                "pro": "Pro",
+                "upgrade": "Оновити до Pro"
             },
             "limitedSettings": {
-                "configure": "",
-                "title": "",
-                "introduction": "",
+                "configure": "Налаштування",
+                "title": "Налаштування обмеженого доступу",
+                "introduction": "Налаштуйте, що можуть бачити користувачі з обмеженими правами доступу",
                 "requiresExtension": ""
             },
             "settings": {
@@ -23,13 +23,13 @@
         },
         "forum": {
             "link": {
-                "all-audit": "",
-                "discussion-audit": "",
+                "all-audit": "Журнал аудиту",
+                "discussion-audit": "Журнал аудиту",
                 "user-audit": "",
                 "actor-audit": ""
             },
             "modal": {
-                "all-title": "",
+                "all-title": "Журнал аудиту",
                 "discussion-title": "",
                 "user-title": "",
                 "actor-title": ""
@@ -37,16 +37,16 @@
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "",
-                "filterApply": "",
+                "filterPlaceholder": "Фільтр журналів",
+                "filterApply": "Застосувати",
                 "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "loadMore": "Завантажити більше",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
+                    "discussion": "Дискусія #{id}",
+                    "group": "Група #{id}",
+                    "post": "Допис #{id}",
+                    "tag": "Тег #{id}",
                     "user": ""
                 },
                 "genericResource": {
@@ -54,8 +54,8 @@
                     "post": ""
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
                 "noValue": "",
                 "noReason": "",
