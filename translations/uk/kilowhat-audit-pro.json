@@ -15,31 +15,31 @@
                 "configure": "Налаштування",
                 "title": "Налаштування обмеженого доступу",
                 "introduction": "Налаштуйте, що можуть бачити користувачі з обмеженими правами доступу",
-                "requiresExtension": ""
+                "requiresExtension": "Потребує розширення {extension}"
             },
             "settings": {
-                "limitedIpAddress": ""
+                "limitedIpAddress": "Переглянути IP-адресу"
             }
         },
         "forum": {
             "link": {
                 "all-audit": "Журнал аудиту",
                 "discussion-audit": "Журнал аудиту",
-                "user-audit": "",
-                "actor-audit": ""
+                "user-audit": "Журнал аудиту (редагування облікових записів)",
+                "actor-audit": "Журнал аудиту (користувач як актор)"
             },
             "modal": {
                 "all-title": "Журнал аудиту",
-                "discussion-title": "",
-                "user-title": "",
-                "actor-title": ""
+                "discussion-title": "Журнал аудиту дискусій",
+                "user-title": "Журнал аудиту користувачів",
+                "actor-title": "Журнал аудиту акторів"
             }
         },
         "lib": {
             "browser": {
                 "filterPlaceholder": "Фільтр журналів",
                 "filterApply": "Застосувати",
-                "empty": "",
+                "empty": "Результати відсутні",
                 "loadMore": "Завантажити більше",
                 "withoutActor": "=> core.group.guest",
                 "deletedResource": {
@@ -47,28 +47,28 @@
                     "group": "Група #{id}",
                     "post": "Допис #{id}",
                     "tag": "Тег #{id}",
-                    "user": ""
+                    "user": "Користувач #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "Коментар",
+                    "post": "Допис"
                 },
                 "permissionGroup": {
                     "everyone": "=> core.admin.permissions_controls.everyone_button",
                     "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "(без значення)",
+                "noReason": "(без причин)",
                 "client": {
-                    "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "session": "Веб-сесія",
+                    "api_key": "Ключ API",
+                    "access_token": "Токен доступу",
+                    "cli": "Командна стрічка",
+                    "unknown": "Невідомий клієнт"
                 },
                 "controls": {
-                    "hideRaw": "",
-                    "showRaw": "",
+                    "hideRaw": "Приховати необроблений журнал",
+                    "showRaw": "Показати необроблений журнал",
                     "filterActor": "",
                     "filterIp": "",
                     "filterClient": "",
