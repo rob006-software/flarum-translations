@@ -746,7 +746,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => ['z17cx', 'uidbox20'],
+		'maintainers' => ['KaiKimera'],
 	],
 	'sc' => [
 		'type' => 'language',
