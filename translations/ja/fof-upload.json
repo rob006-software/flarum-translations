@@ -16,11 +16,11 @@
                 "shared-uploads-button": "共有アップロード"
             },
             "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
+                "description": "フォーラムのすべてのユーザーが使用できるファイルをアップロードします。",
+                "introduction": "共有アップロードは、フォーラムのすべてのユーザーが使用できるファイルです。 これらはどの投稿にも添付されませんが、メディア マネージャーを使用して投稿に挿入できます。\n\n<strong>注意:</strong> 共有アップロードはいかなる権限によっても保護されません。 URL を知っている人は誰でも閲覧できます。\n",
+                "no-files": "共有ファイルはまだアップロードされていません。",
+                "title": "共有アップロード",
+                "upload-new-button": "新しいファイルをアップロード"
             },
             "pane": {
                 "title": "アップロード",
@@ -36,19 +36,19 @@
                 "watermark": "アップロード時に電子透かしを追加するかどうかを選択します。電子透かしは以下の設定に基づいてGIF以外に追加されます。\n",
                 "s3_compatible_storage": "S3互換ストレージを使用する場合は、以下の設定が必要です。AWSを使用する場合は、空欄にしてください。\n",
                 "s3_acl": "アップロードされたオブジェクトに適用するACLを選択します(標準：private)。利用可能な値は、以下のURLを確認してください。 https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
-                "s3_instance_profile": "",
-                "composer_buttons": ""
+                "s3_instance_profile": "インスタンス プロファイルの認証情報を使用するには、キーとシークレットを空のままにしておきます。\n",
+                "composer_buttons": "デフォルトでは、メディア 管理ボタンとアップロードボタンの両方が表示されます。ボタンを 1 つだけ表示することもできます。\n"
             },
             "labels": {
                 "aws-s3": {
                     "bucket": "Bucket",
-                    "key": "Key",
+                    "key": "キー",
                     "region": "Region",
-                    "secret": "Secret",
+                    "secret": "シークレット",
                     "title": "AWS S3 ストレージ設定",
                     "advanced_title": "S3 ストレージ詳細設定",
                     "endpoint": "エンドポイント",
-                    "use_path_style_endpoint": "Use path style endpoint",
+                    "use_path_style_endpoint": "path style endpointを使用",
                     "acl": "アクセスコントロールリスト (ACL)"
                 },
                 "disable-download-logging": {
@@ -62,7 +62,7 @@
                 "imgur": {
                     "client_id": "Imgur client ID",
                     "title": "Imgur 画像ストレージ設定",
-                    "tos": ""
+                    "tos": "フォーラム ユーザーが Imgurの<a>利用規約</a>を遵守するようにしてください"
                 },
                 "local": {
                     "cdn_url": "コンテンツ配信URL (ファイルの接頭辞)",
@@ -70,15 +70,15 @@
                 },
                 "qiniu": {
                     "title": "Qiniu ストレージ設定",
-                    "key": "Key",
-                    "secret": "Secret",
+                    "key": "キー",
+                    "secret": "シークレット",
                     "bucket": "Bucket"
                 },
                 "preferences": {
                     "max_file_size": "最大ファイルサイズ (キロバイト)",
                     "mime_types": "MIMEタイプの指定と、アップロード方法の振り分けを行います",
                     "title": "一般設定",
-                    "php_ini_values": ""
+                    "php_ini_values": "<code>php.ini</code> の値は <code>post_max_size={post}</code> と <code>upload_max_filesize={upload}</code> です。 ここで設定した値がこれらのしきい値を下回っていることを確認するか、それに応じて値を調整してください。 <code>Nginx</code> を使用する場合は、<code>client_max_body_size</code> が選択した最大制限に対して十分なサイズであることも確認してください。"
                 },
                 "resize": {
                     "max_width": "画像の最大幅/高さ",
@@ -95,22 +95,22 @@
                     "toggle": "電子透かしの有効化"
                 },
                 "composer_buttons": {
-                    "title": "",
+                    "title": "Composer ボタン",
                     "options": {
-                        "both": "",
-                        "upload-btn": "",
-                        "media-btn": ""
+                        "both": "両方",
+                        "upload-btn": "アップロードボタンのみ表示",
+                        "media-btn": "メディア管理ボタンのみ表示"
                     }
                 },
-                "inspect-mime": ""
+                "inspect-mime": "テストファイルのMIMEタイプ"
             },
             "permissions": {
                 "download_label": "ファイルのダウンロード",
                 "upload_label": "ファイルのアップロード",
-                "view_user_uploads_label": "",
-                "delete_uploads_of_others_label": "",
-                "upload_shared_label": "",
-                "access_shared_label": ""
+                "view_user_uploads_label": "ユーザーのアップロードを表示する",
+                "delete_uploads_of_others_label": "ユーザーのアップロードを削除する",
+                "upload_shared_label": "共有ファイルをアップロードする",
+                "access_shared_label": "メディア マネージャーで共有ファイルにアクセスする"
             },
             "templates": {
                 "file": "標準",
@@ -119,14 +119,14 @@
                 "image_description": "画像のサムネイルを表示し、PHPを介したプロキシでダウンロードを行います。統計データの収集と直リンク保護が可能です。\n",
                 "image-preview": "画像プレビュー",
                 "image-preview_description": "本文内に完全な画像を表示します。統計データは収集されず、直リンク保護は無視されます。\n",
-                "markdown-image": "",
-                "markdown-image_description": "",
-                "bbcode-image": "",
-                "bbcode-image_description": "",
+                "markdown-image": "Markdown画像テンプレート",
+                "markdown-image_description": "Markdown を使用して完全なイメージをインラインで表示します。 <strong>これを機能させるには、flarum/markdown がインストールされ、有効になっている必要があります。</strong> ダウンロード機能はなく、統計は収集されず、ホットリンク保護は無視されます。\n",
+                "bbcode-image": "BBCode画像テンプレート",
+                "bbcode-image_description": "BBCode を使用して完全なイメージをインラインで表示します。 <strong>これを機能させるには、flarum/bbcode がインストールされ、有効になっている必要があります。</strong> ダウンロード機能はなく、統計は収集されず、ホットリンク保護は無視されます。\n",
                 "just-url": "URL",
                 "just-url_description": "URLを表示します。他の拡張機能によってリンクを機能させることができます。ダウンロード機能、統計機能、直リンク防止機能は利用できません。\n",
-                "text-preview": "",
-                "text-preview_description": ""
+                "text-preview": "テキストプレビュー",
+                "text-preview_description": "テキスト ファイルのプレビュー (最初の 5 行) を挿入します。オプションを展開してファイルの完全な内容を表示することもできます。\n"
             },
             "upload_methods": {
                 "aws-s3": "S3互換",
@@ -136,29 +136,29 @@
                 "qiniu": "QiNiu"
             },
             "inspect-mime": {
-                "title": "",
-                "description": "",
-                "select": "",
-                "laravel-validation": "",
-                "no-file-selected": "",
-                "validation-passed": "",
-                "validation-failed": "",
-                "mime-detector": "",
-                "mime-fileinfo": "",
-                "guessed-extension": "",
-                "not-available": ""
+                "title": "MIMEを検証する",
+                "description": "FoF Upload は、一般的な MIME タイプの <a>PHP Mime Detector</a> ライブラリとフォールバックとして PHP Fileinfo を使用します。\nFileinfo から返される MIME 値はサーバーごとに異なる場合があります。\n",
+                "select": "以下のファイルを選択して、使用される値を検査します。 ファイルは保存されません。",
+                "laravel-validation": "Laravelファイルの検証",
+                "no-file-selected": "ファイルがありません",
+                "validation-passed": "成功",
+                "validation-failed": "失敗: {error}",
+                "mime-detector": "Mime Detector (プライマリ)",
+                "mime-fileinfo": "PHP Fileinfo (fallback)",
+                "guessed-extension": "デフォルトのファイル拡張子 (オリジナルがホワイトリストに登録されていない場合)",
+                "not-available": "検索結果はありません"
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "メディア管理",
             "buttons": {
                 "attach": "添付",
-                "upload": "",
-                "upload_shared": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": "",
-                "shared_media": ""
+                "upload": "アップロード",
+                "upload_shared": "共有",
+                "user_uploads": "ユーザーのアップロード",
+                "cancel": "キャンセル",
+                "media": "Myメディア",
+                "shared_media": "共有メディア"
             },
             "states": {
                 "error": "エラー",
@@ -166,70 +166,70 @@
                 "unauthorized": "ダウンロードする権限がありません"
             },
             "validation": {
-                "max_size": ""
+                "max_size": "{max} kb を超えるアップロードはできません。"
             },
             "text_preview": {
-                "expand": "",
-                "collapse": "",
-                "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
+                "expand": "プレビューを展開する",
+                "collapse": "プレビューを折りたたむ",
+                "error": "ファイルのプレビュー中にエラーが発生しました。 削除されたか、指定されたファイル ID が無効である可能性があります。\n",
+                "no_snippet_preview": "<投稿後、ここにプレビューが表示されます>",
+                "no_snippet": "<利用可能なプレビュー スニペットはありません>"
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "このタイプのファイルはアップロードできません",
+                "forbidden_type": "このタイプのファイルはアップロードできません。",
                 "unsupported_type": "アップロード先のサービスがこのファイルのMINEタイプをサポートしていません: {mime}.",
                 "could_not_detect_mime": "このファイルのMIMEタイプを検出できませんでした。再度お試しください。",
-                "max_upload_file_size_ini": "",
-                "max_upload_file_size_form": "",
-                "partial_upload": "",
-                "no_file_uploaded": "",
-                "no_upload_tmp_folder": "",
-                "cannot_write_to_disk": "",
-                "upload_blocked_by_php_extension": "",
-                "no_files_made_it_to_upload": ""
+                "max_upload_file_size_ini": "php.iniのアップロード最大サイズ制限を超えています。",
+                "max_upload_file_size_form": "アップロード最大サイズ制限を超えています。",
+                "partial_upload": "部分的なアップロード。",
+                "no_file_uploaded": "ファイルがアップロードされていません。",
+                "no_upload_tmp_folder": "ファイルをアップロードするための tmpフォルダーがありません。",
+                "cannot_write_to_disk": "ディスクに書き込めません。",
+                "upload_blocked_by_php_extension": "PHP拡張機能によりアップロードがブロックされました。",
+                "no_files_made_it_to_upload": "{max} kb以下のファイルをアップロードしてください。"
             }
         },
         "lib": {
             "upload-shared-file-modal": {
-                "title": "",
-                "dropzone": "",
-                "hide-from-media-gallery": "",
-                "upload": ""
+                "title": "新しい共有ファイル",
+                "dropzone": "ここにファイルをドラッグ アンド ドロップするか、クリックして参照します",
+                "hide-from-media-gallery": "ユーザーのメディアギャラリーから非表示にする",
+                "upload": "アップロード"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "delete_file_a11y_label": "",
-                "delete_confirmation": "",
+                "loading": "ロード中...",
+                "empty": "表示するファイルはありません。",
+                "release_to_upload": "リリースしてアップロードする",
+                "modal_empty_desktop": "ファイルリストが空です。ボタンをクリックするか、ここにファイルをドラッグしてアップロードします。",
+                "modal_empty_phone": "ファイルリストが空です。 上のボタンをタップしてファイルをアップロードします。",
+                "select_file_a11y_label": "\"{fileName}\" を選択してください",
+                "confirm_selection_btn": "{fileCount, plural, =0 {None selected} one {Select file} other {Select files}}",
+                "load_more_files_btn": "さらにファイルをロードする",
+                "delete_file_a11y_label": "\"{fileName}\" を削除します",
+                "delete_confirmation": "{fileName} を削除してもよろしいですか?",
                 "hide_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "メディアマネージャーから「{fileName}」を非表示にします",
+                    "btn_a11y_label_show": "メディアマネージャーで「{fileName}」を表示する",
+                    "hide_confirmation": "「{fileName}」を非表示にしてもよろしいですか? ファイルを非表示にしても、メディア マネージャーからファイルが削除されるだけで、既存の投稿には影響しません。",
+                    "hide_success": "隠しファイル",
+                    "show_confirmation": "「{fileName}」を表示してもよろしいですか? ファイルを表示すると、メディア マネージャーに表示されます。",
+                    "show_success": "表示されたファイル",
+                    "hide_fail": "ファイル「{fileName}」を非表示にできませんでした",
+                    "show_fail": "ファイル「{fileName}」を表示できませんでした",
+                    "loading": "ファイルを非表示にしています..."
                 },
                 "hide_shared_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "「{fileName}」を非公開にする (公開 URL なし)",
+                    "btn_a11y_label_show": "「{fileName}」を公開します (公開 URL を使用)",
+                    "hide_confirmation": "「{fileName}」を非公開にしてもよろしいですか? ファイルを非公開にすると、その公開 URL が削除されますが、既存の投稿には影響しません。 また、権限のないユーザーにはメディア マネージャーに表示されなくなります。",
+                    "hide_success": "ファイルを非公開にしました",
+                    "show_confirmation": "「{fileName}」を公開してもよろしいですか? ファイルをパブリックにすると、パブリック URL を持つ誰でもファイルにアクセスできるようになり、メディア マネージャーを使用して誰でもファイルを共有できるようになります。",
+                    "show_success": "ファイルが公開されました",
+                    "hide_fail": "ファイル「{fileName}」を非公開にできませんでした",
+                    "show_fail": "ファイル「{fileName}」を公開できませんでした",
+                    "loading": "ファイルを非公開にしています..."
                 }
             }
         }
