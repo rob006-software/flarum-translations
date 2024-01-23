@@ -1114,6 +1114,9 @@ return [
 	'nearata-minecraft-avatars' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-minecraft-avatars/v2.1.1/locale/en.yml',
 	],
+	'nearata-password-strength-enforcer' => [
+		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-password-strength-enforcer/1.0.0/locale/en.yml',
+	],
 	'nearata-related-discussions' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-related-discussions/1.4.0/locale/en.yml',
 	],
