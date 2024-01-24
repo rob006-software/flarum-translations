@@ -112,21 +112,21 @@
                     "deleted": "Видалено {post} користувача {postuser} в {discussion}",
                     "dismissed_flags": "Знято прапори з {post} користувача {postuser} в {discussion}",
                     "edit_date_changed": "Змінено дату редагування {post} користувача {postuser} з {old_date} на {new_date}",
-                    "flagged": "",
-                    "hidden": "",
-                    "restored": "",
-                    "revised": "",
-                    "user_changed": ""
+                    "flagged": "Позначено {post} користувача {postuser} як {reason} в {discussion}",
+                    "hidden": "Приховано {post} користувача {postuser} в {discussion}",
+                    "restored": "Відновлено {post} користувача {postuser} в {discussion}",
+                    "revised": "Переглянуто {post} користувача {postuser} у {discussion}",
+                    "user_changed": "Змінено автора {post} з {old_user} на {new_user}"
                 },
                 "setting_changed": "Відредаговано налаштування {key}",
-                "setting_changed_with_values": "",
+                "setting_changed_with_values": "Змінено значення параметра {key} з {old_value} на {new_value}",
                 "tag": {
                     "created": "Створено тег {tag}",
                     "deleted": "Видалено тег {tag}",
                     "updated": "Оновлено тег {tag}"
                 },
                 "user": {
-                    "activated": "",
+                    "activated": "Обліковий запис користувача {username} активовано вручну",
                     "activated_with_email": "",
                     "avatar_changed": "Змінено аватарку користувача {username}",
                     "avatar_removed": "Видалено аватарку користувача {username}",
@@ -147,7 +147,7 @@
                     "password_changed": "Змінено пароль користувача {username}",
                     "password_change_requested": "Запит на зміну пароля користувача {username}",
                     "provider_connected": "",
-                    "suspended": "",
+                    "suspended": "Призупинено {username} до {until}",
                     "unsuspended": "",
                     "username_changed": "",
                     "username_requested": "",
