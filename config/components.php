@@ -1133,7 +1133,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/Dislikes/1.0.1/locale/en.yml',
 	],
 	'nodeloc-friend-link' => [
-		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ext-friend-link/0.0.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ext-friend-link/0.1/locale/en.yml',
 	],
 	'nodeloc-ignore-hidden-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ignore-hidden-tags/1.0/locale/en.yml',
