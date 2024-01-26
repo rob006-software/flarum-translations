@@ -2,22 +2,22 @@
     "fof-oauth": {
         "admin": {
             "configure_button_label": "Настроить при помощи FoF OAuth",
-            "settings_accessibility_label": "{name} настройки",
+            "settings_accessibility_label": "Настройки {name}",
             "settings": {
                 "advanced": {
-                    "heading": "",
-                    "log-oauth-errors-label": "",
-                    "log-oauth-errors-help": ""
+                    "heading": "Расширенные",
+                    "log-oauth-errors-label": "Записывать ошибки OAuth",
+                    "log-oauth-errors-help": "Ошибки OAuth будут регистрироваться в журнале Flarum. Это может помочь в решении проблем OAuth, но также может содержать конфиденциальную информацию."
                 },
                 "only_icons_label": "Отображать только иконки на кнопках входа (альтернативный макет)",
-                "update_email_from_provider_label": "Обновить адрес эл.почты через провайдера",
-                "update_email_from_provider_help": "",
-                "fullscreen_popup_label": "",
-                "fullscreen_popup_help": "",
-                "popup_width_label": "",
-                "popup_width_help": "",
-                "popup_height_label": "",
-                "popup_height_help": "",
+                "update_email_from_provider_label": "Обновлять адрес email от провайдера",
+                "update_email_from_provider_help": "Адрес email пользователя будет обновляться в соответствии с адресом, предоставленным провайдером OAuth при каждом входе на форум. Не все провайдеры предоставляют обновлённый адрес email и, в этом случае, этот параметр не будет иметь никакого влияния на подобных провайдеров.",
+                "fullscreen_popup_label": "Полноэкранное окно для OAuth",
+                "fullscreen_popup_help": "Вход OAuth откроется в полноэкранном режиме. При включении этого параметра, настройки ширины и высоты будут игнорироваться.",
+                "popup_width_label": "Ширина окна OAuth",
+                "popup_width_help": "Укажите ширину всплывающего окна OAuth. Этот параметр будет игнорироваться, если включено \"Полноэкранное окно для OAuth\".",
+                "popup_height_label": "Высота окна OAuth",
+                "popup_height_help": "Укажите высоту всплывающего окна OAuth. Этот параметр будет игнорироваться, если включено \"Полноэкранное окно для OAuth\".",
                 "providers": {
                     "callback_url_text": "При необходимости, укажите callback URL в {url}.",
                     "discord": {
@@ -50,7 +50,7 @@
                         "description": "Создайте приложение по ссылке {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
-                        "hosted_domain_label": ""
+                        "hosted_domain_label": "Hosted Domain (G suite/Google Apps for Business, optional)"
                     },
                     "linkedin": {
                         "description": "Создайте приложение по ссылке {link}.",
@@ -75,12 +75,12 @@
                 "settings": {
                     "linked-account": {
                         "label": "Связанные аккаунты",
-                        "last-used-label": "Последний использовавшийся",
-                        "link-created-label": "Ссылка создана",
-                        "orphaned-account": "Вы ранее регистрировались через эту учетную запись, но с тех пор этот форум запретил вход этим способом.",
-                        "help": "",
-                        "identifier-label": "{provider} аккаунт",
-                        "unlink-confirm": ""
+                        "last-used-label": "Последний раз использовался",
+                        "link-created-label": "Соединение установлено",
+                        "orphaned-account": "Ранее Вы входили через этого провайдера, но форум отключил вход с помощью этого метода.",
+                        "help": "Связанные аккаунты позволяют Вам входить на форум при помощи других провайдеров.",
+                        "identifier-label": "{provider} ID",
+                        "unlink-confirm": "Вы уверены, что хотите отключить соединение с {provider}? Вы больше не сможете войти на форум, если в будущем не выполните повторную аутентификацию."
                     }
                 }
             },
@@ -96,7 +96,7 @@
             "signup": {
                 "username_help": "Пожалуйста, выберите имя пользователя для регистрации"
             },
-            "unlink": "Удалить ссылку",
+            "unlink": "Отключить",
             "error": {
                 "bad_verification_code": "Некорректный или истёкший токен верификации. Пожалуйста, попробуйте ещё раз.",
                 "invalid_state": "Некорректное состояние. Пожалуйста, попробуйте ещё раз."
