@@ -3,15 +3,15 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Добавить изображение (URL ссылки) для каждого пункта опроса",
-                "max_options": "",
-                "options_color_blend": "",
-                "options_color_blend_help": ""
+                "max_options": "Максимальное число вариантов в опросе",
+                "options_color_blend": "Цветовое сочетание для текста вариантов выбора опроса",
+                "options_color_blend_help": "Используйте это для выбора цветовых сочетаний, улучшающих читабельность опроса. Если эта настройка приводит к проблемам в отображении форума, ее можно отключить."
             },
             "permissions": {
                 "view_results_without_voting": "Смотреть результаты без голосования",
                 "start": "Создавать опросы",
-                "self_edit": "Редактировать свои опросы",
-                "self_post_edit": "",
+                "self_edit": "Редактировать существующие опросы (требуется разрешение на правку сообщений)",
+                "self_post_edit": "Править *все* опросы в своих сообщениях (требуется разрешение на правку сообщений)",
                 "vote": "Голосовать в опросах",
                 "change_vote": "Изменять голос",
                 "moderate": "Редактировать / удалять опросы"
@@ -22,15 +22,15 @@
             "no_permission": "У Вас нет прав доступа на голосование в опросе",
             "poll_ended": "Опрос завершён.",
             "public_poll": "Посмотреть голоса",
-            "max_votes_allowed": "",
+            "max_votes_allowed": "Опрос позволяет голосовать за {max, plural, one {# option} из {# options}}.",
             "poll": {
-                "cannot_change_vote": "",
-                "submit_button": ""
+                "cannot_change_vote": "После голосования вы не можете изменить свой голос.",
+                "submit_button": "Голос"
             },
             "composer_discussion": {
                 "add_poll": "Добавить опрос",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
-                "no_permission_alert": ""
+                "no_permission_alert": "У вас нет прав на создание опроса."
             },
             "modal": {
                 "add_title": "Добавить опрос",
@@ -45,16 +45,16 @@
                 "image_option_placeholder": "URL ссылка на изображение (опционально)",
                 "options_label": "Варианты ответа",
                 "public_poll_label": "Публичный опрос",
-                "allow_multiple_votes_label": "",
-                "max_votes_label": "",
-                "max_votes_help": "",
-                "hide_votes_label": "",
-                "allow_change_vote_label": "",
+                "allow_multiple_votes_label": "Разрешать пользователям голосовать за несколько вариантов",
+                "max_votes_label": "Максимальное число голосов на пользователя",
+                "max_votes_help": "Установите в 0 чтобы разрешить пользователям голосовать за все варианты.",
+                "hide_votes_label": "Скрыть голоса до завершения опроса",
+                "allow_change_vote_label": "Разрешить пользователям изменять свой голос",
                 "question_placeholder": "Вопрос",
                 "submit": "Сохранить"
             },
             "moderation": {
-                "add": "",
+                "add": "Добавить опрос",
                 "delete": "Удалить опрос",
                 "delete_confirm": "Вы уверены, что хотите удалить этот опрос?",
                 "edit": "Изменить опрос"
