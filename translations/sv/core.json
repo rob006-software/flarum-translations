@@ -11,7 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Anpassat Sidhuvud",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_cannot_use_less_features": "",
+                "custom_styles_cannot_use_less_features": "Funktionerna @import och data-uri är inte tillåtna i anpassad LESS.",
                 "custom_styles_heading": "Anpassad Sidstil",
                 "custom_styles_text": "Ändra ditt forums utseende genom att lägga till egen LESS/CSS-kod som skriver över Flarums standardutseende.",
                 "dark_mode_label": "Mörkt läge",
@@ -49,12 +49,12 @@
             },
             "create_user": {
                 "email_placeholder": "",
-                "email_confirmed_label": "",
+                "email_confirmed_label": "Kräv att användaren bekräftar denna e-post",
                 "password_placeholder": "",
-                "submit_and_create_another_button": "",
-                "submit_button": "",
-                "title": "",
-                "use_random_password": "",
+                "submit_and_create_another_button": "Skapa och lägg till en annan",
+                "submit_button": "Skapa användare",
+                "title": "Skapa ny användare",
+                "use_random_password": "Generera slumpat lösenord",
                 "username_placeholder": ""
             },
             "dashboard": {
@@ -63,14 +63,14 @@
                 "io_error_message": "Kan inte skriva till filsystemet. Kontrollera dina behörigheter till filsystemet och försök igen. Eller försök köra via kommandorad.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "scheduler-status": "Schemaläggare",
+                        "queue-driver": "Köhanteringsdrivrutin",
+                        "session-driver": "Sessionshanteringsdrivrutin"
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "Aktiv",
+                        "inactive": "Inaktiv",
+                        "never-run": "Aldrig körd"
                     }
                 },
                 "title": "Kontrollpanel",
@@ -194,10 +194,10 @@
                 "search_placeholder": "Search Extensions"
             },
             "permissions": {
-                "allow_hide_own_posts_label": "",
+                "allow_hide_own_posts_label": "Tillåt radering av egna inlägg",
                 "allow_post_editing_label": "Allow post editing",
                 "allow_renaming_label": "Allow renaming",
-                "create_access_token_label": "",
+                "create_access_token_label": "Skapa åtkomsttoken",
                 "create_heading": "Create",
                 "delete_discussions_forever_label": "Delete discussions forever",
                 "delete_discussions_label": "Radera diskussioner",
@@ -210,7 +210,7 @@
                 "edit_users_groups_label": "Redigera användargrupper",
                 "global_heading": "Global",
                 "moderate_heading": "Moderate",
-                "moderate_access_tokens_label": "",
+                "moderate_access_tokens_label": "Moderera åtkomsttokens",
                 "new_group_button": "Ny grupp",
                 "participate_heading": "Participate",
                 "post_without_throttle_label": "Reply multiple times without waiting",
