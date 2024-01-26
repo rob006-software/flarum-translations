@@ -171,7 +171,7 @@
                     "authentication": "Аутентификация",
                     "core": "Настройки форума",
                     "discussion": "Общение",
-                    "feature": "Возможности",
+                    "feature": "Особенности",
                     "formatting": "Форматирование",
                     "language": "Языки",
                     "moderation": "Модерация",
@@ -332,7 +332,7 @@
             },
             "discussion_controls": {
                 "cannot_reply_button": "Нельзя ответить",
-                "cannot_reply_text": "У Вас нет прав доступа для публикации ответа в этой дискуссии.",
+                "cannot_reply_text": "У Вас нет разрешения для публикации ответа в этой дискуссии.",
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "Вы уверены, что хотите удалить дискуссию?",
                 "delete_forever_button": "=> core.ref.delete_forever",
@@ -445,7 +445,7 @@
                 "title": "Изменение названия"
             },
             "search": {
-                "all_discussions_button": "Искать все дискуссии: \"{query}\"",
+                "all_discussions_button": "Поиск по запросу: \"{query}\"",
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
@@ -738,7 +738,7 @@
             "security": "Безопасность",
             "settings": "Настройки",
             "sign_up": "Регистрация",
-            "some_others": "{count, plural, one {# другому} other {# других}}",
+            "some_others": "{count, plural, one {# другому} other {# другим}}",
             "start_a_discussion": "Создать дискуссию",
             "username": "Имя пользователя",
             "users": "Пользователи",
