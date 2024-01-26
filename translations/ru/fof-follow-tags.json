@@ -19,8 +19,8 @@
                 "lurking_tag_tooltip": "Наблюдение"
             },
             "sub_controls": {
-                "header": "",
-                "subscription_label": "",
+                "header": "Подписка на {tagName}",
+                "subscription_label": "Выберите уровень подписки для {tagName}",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "Получать уведомления обо всех новых дискуссиях.",
@@ -34,7 +34,7 @@
                 "not_following_text": "Уведомить при @упоминании.",
                 "notify_alert_tooltip": "Получать уведомления на форуме, когда появляются новые дискуссии или сообщения",
                 "notify_email_tooltip": "Получать e-mail, когда появляются новые дискуссии или сообщения",
-                "submit_button": ""
+                "submit_button": "Подтвердить подписку"
             },
             "notifications": {
                 "new_discussion_text": "{username} создал(а)",
@@ -83,8 +83,8 @@
         "lib": {
             "data": {
                 "tagsubscription": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Экспортирование данных об уровне подписки для тега, если он существует.",
+                    "anonymize_description": "Удаление подписки пользователя на тег."
                 }
             }
         }
