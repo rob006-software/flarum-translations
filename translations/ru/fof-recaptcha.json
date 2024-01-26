@@ -6,18 +6,18 @@
                 "secret_key_label": "Секретный ключ",
                 "site_key_label": "Ключ сайта",
                 "type_label": "Тип reCAPTCHA",
-                "type_help": "",
-                "signup": "",
-                "signin": "",
-                "forgot": ""
+                "type_help": "Расширение поддерживает только reCAPTCHA v2. Выбранный тип должен соответствовать типу учётных данных reCAPTCHA.",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "success_message": "",
-                "load_test_button": "",
-                "submit_button": "",
-                "reload_button": ""
+                "title": "Тест reCAPTCHA",
+                "help_text": "В этом тесте используются значения параметров, указанные выше. Обязательно обновите тест после изменения настроек и не забудьте сохранить результат после успешного прохождения теста!\nНиже могут не отображаться сохранённые настройки.\n",
+                "success_message": "Успешно! reCAPTCHA настроена правильно.",
+                "load_test_button": "Загрузка",
+                "submit_button": "Отправить",
+                "reload_button": "Обновить"
             },
             "permissions": {
                 "post_without_captcha": "Публиковать сообщения и дискуссии без reCAPTCHA"
@@ -25,11 +25,11 @@
         },
         "forum": {
             "error": "При отправке reCAPTCHA произошла ошибка. Пожалуйста, попробуйте ещё раз.",
-            "unknown_error": ""
+            "unknown_error": "Произошла неизвестная ошибка. Проверьте reCAPTCHA и повторите попытку."
         }
     },
     "validation": {
         "recaptcha": "Проверка reCAPTCHA не пройдена.",
-        "recaptcha-unknown": ""
+        "recaptcha-unknown": "Произошла неизвестная ошибка при проверке reCAPTCHA ({errors})."
     }
 }
