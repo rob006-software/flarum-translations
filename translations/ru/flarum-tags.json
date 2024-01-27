@@ -79,7 +79,7 @@
                 "added_and_removed_tags_text": "{username} добавил(а) {tagsAdded} и удалил(а) {tagsRemoved} {time}.",
                 "added_tags_text": "{username} добавил(а) {tagsAdded} {time}.",
                 "removed_tags_text": "{username} удалил(а) {tagsRemoved} {time}.",
-                "tags_text": "{count, plural, one {{tags} тег} other {{tags} теги}}"
+                "tags_text": "{count, plural, one {{tags} тег} few {{tags} тега} other {{tags} тегов}}"
             },
             "tag": {
                 "meta_description_text": "Все дискуссии с тегом {tag}"
@@ -89,7 +89,7 @@
             "deleted_tag_text": "Удалено",
             "tag_selection_modal": {
                 "bypass_requirements": "Игнорировать требования для тега",
-                "choose_primary_placeholder": "{count, plural, one {Укажите основной тег} other {Укажите # основных тегов}}",
+                "choose_primary_placeholder": "{count, plural, one {Укажите основной тег} few {Укажите # основных тега} other {Укажите # основных тегов}}",
                 "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "submit_button": "=> core.ref.okay",
@@ -98,7 +98,7 @@
         },
         "ref": {
             "choose_tags": "Выбор тегов",
-            "choose_tags_placeholder": "{count, plural, one {Укажите ещё 1 тег} other {Укажите ещё # тегов}}",
+            "choose_tags_placeholder": "{count, plural, one {Укажите ещё 1 тег} few {Укажите ещё # тега} other {Укажите ещё # тегов}}",
             "name": "Название",
             "tags": "Теги"
         }
