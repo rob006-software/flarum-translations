@@ -1127,7 +1127,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-twofactor/v2.2.1/locale/en.yml',
 	],
 	'nodeloc-telegram' => [
-		'tag' => 'https://raw.githubusercontent.com/nodeloc/telegram/0.0.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/nodeloc/telegram/0.1/resources/locale/en.yml',
 	],
 	'nomiscz-auth-steam' => [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-steam/v1.0.2/resources/locale/en.yml',
