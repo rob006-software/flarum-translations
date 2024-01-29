@@ -1135,6 +1135,9 @@ return [
 	'nodeloc-ignore-hidden-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ignore-hidden-tags/1.0/locale/en.yml',
 	],
+	'nodeloc-pagination' => [
+		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-pagination/0.1/resources/locale/en.yml',
+	],
 	'nomiscz-auth-steam' => [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-steam/v1.0.2/resources/locale/en.yml',
 	],
