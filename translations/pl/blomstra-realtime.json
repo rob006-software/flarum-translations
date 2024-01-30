@@ -8,14 +8,14 @@
             "typing-indicator": {
                 "anonymous-user": "[Anonimowy]",
                 "people-are-typing": "{number, plural, one {# osoba pisze} few {# osoby piszą} other {# osób pisze}}",
-                "users-are-typing": "",
+                "users-are-typing": "{users} pisze",
                 "no-activity": "Nikt nie pisze"
             },
             "user": {
                 "settings": {
                     "heading": "Realtime",
                     "typing-indicator-type": {
-                        "help": "",
+                        "help": "Jeśli włączone, wskaźnik pisania będzie wyświetlał użytkowników, którzy aktualnie piszą. Wyłącz tę opcję, aby wyświetlać tylko liczbę użytkowników aktualnie piszących.",
                         "label": "Pokazuj kto pisze"
                     }
                 }
