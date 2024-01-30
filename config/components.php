@@ -1136,7 +1136,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ignore-hidden-tags/1.0/locale/en.yml',
 	],
 	'nodeloc-whisper' => [
-		'tag' => 'https://raw.githubusercontent.com/nodeloc/whisper/0.0.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/nodeloc/whisper/0.0.4/resources/locale/en.yml',
 	],
 	'nomiscz-auth-steam' => [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-steam/v1.0.2/resources/locale/en.yml',
