@@ -240,13 +240,13 @@
                 "hide_shared_file": {
                     "btn_a11y_label_hide": "A(z) „{fileName}” priváttá tétele (nem lesz nyilvános webcíme)",
                     "btn_a11y_label_show": "A(z) „{fileName}” nyilvánossá tétele (nyilvános webcíme lesz)",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "hide_confirmation": "Biztos, hogy priváttá teszi a(z) „{fileName}” fájlt? A fájl priváttá tétele eltávolítja a nyilvános webcímét, de nincs hatással a meglévő bejegyzésekre. Többé nem lesz látható a médiakezelőben az arra nem jogosult felhasználóknál.",
+                    "hide_success": "A fájl priváttá téve",
+                    "show_confirmation": "Biztos, hogy nyilvánossá teszi a(z) „{fileName}” fájlt? A fájl nyilvánossá tétele bárki számára elérhetővé teszi egy nyilvános webcímmel, és bárki megoszthatja a médiakezelő használatával.",
+                    "show_success": "A fájl nyilvánossá téve",
+                    "hide_fail": "A(z) „{fileName}” nem tehető priváttá",
+                    "show_fail": "A(z) „{fileName}” nem tehető nyilvánossá",
+                    "loading": "A fájl priváttá tétele…"
                 }
             }
         }
