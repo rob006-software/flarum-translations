@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "A felhasználó által feltöltött összes fájl.",
+                    "anonymize_description": "Eltávolítja a felhasználó hivatkozását az összes feltöltött fájlról. A fájlok maguk továbbra is elérhetők lesznek azon felhasználók számára, akik láthatták az anonimizálás előtt.",
+                    "delete_description": "Törli a felhasználó által feltöltött összes fájlt."
                 }
             }
         }
@@ -13,14 +13,14 @@
     "fof-upload": {
         "admin": {
             "nav": {
-                "shared-uploads-button": ""
+                "shared-uploads-button": "Megosztott feltöltések"
             },
             "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
+                "description": "Olyan fájlok feltöltése, melyeket a fórum összes felhasználója használhat.",
+                "introduction": "A megosztott feltöltések olyan fájlok, melyeket a fórum összes felhasználója használhat. Nem tartoznak egyetlen bejegyzéshez sem, de beilleszthetők azokba a médiakezelő segítségével.\n\n<strong>Figyelmeztetés:</strong> A megosztott feltöltéseket nem védik engedélyek. Bárki, aki ismeri a webcímüket, megtekintheti azokat.\n",
+                "no-files": "Még nem lettek feltöltve megosztott fájlok.",
+                "title": "Megosztott feltöltések",
+                "upload-new-button": "Új fájl feltöltése"
             },
             "pane": {
                 "title": "Feltöltés",
@@ -109,8 +109,8 @@
                 "upload_label": "Fájlok feltöltése",
                 "view_user_uploads_label": "Felhasználói feltöltések megtekintése",
                 "delete_uploads_of_others_label": "Felhasználói feltöltések törlése",
-                "upload_shared_label": "",
-                "access_shared_label": ""
+                "upload_shared_label": "Megosztott fájlok feltöltése",
+                "access_shared_label": "Megosztott fájlok elérése a médiakezelőben"
             },
             "templates": {
                 "file": "Alapértelmezett fájlletöltési sablon",
@@ -154,11 +154,11 @@
             "buttons": {
                 "attach": "Csatolás",
                 "upload": "Feltöltés",
-                "upload_shared": "",
+                "upload_shared": "Megosztva",
                 "user_uploads": "Felhasználó feltöltései",
                 "cancel": "Mégse",
                 "media": "Saját média",
-                "shared_media": ""
+                "shared_media": "Megosztott média"
             },
             "states": {
                 "error": "Hiba",
@@ -210,36 +210,36 @@
         },
         "lib": {
             "upload-shared-file-modal": {
-                "title": "",
-                "dropzone": "",
-                "hide-from-media-gallery": "",
-                "upload": ""
+                "title": "Új megosztott fájl",
+                "dropzone": "Húzzon és ejtsen ide fájlokat, vagy kattintson a tallózáshoz",
+                "hide-from-media-gallery": "Elrejtés a felhasználó médiagalériájából",
+                "upload": "Feltöltés"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "delete_file_a11y_label": "",
-                "delete_confirmation": "",
+                "loading": "Fájlok betöltése…",
+                "empty": "Nincsenek megjeleníthető fájlok.",
+                "release_to_upload": "Engedje el a feltöltéshez",
+                "modal_empty_desktop": "A fájllista üres. Kattintson a gombra, vagy húzza ide a fájlt a feltöltéshez.",
+                "modal_empty_phone": "A fájllista üres. Koppintson a fenti gomb egy fájl feltöltéséhez.",
+                "select_file_a11y_label": "A(z) „{fileName}” kiválasztása",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Egy sincs kiválasztva} one {Fájl kiválasztása} other {Fájlok kiválasztása}}",
+                "load_more_files_btn": "További fájlok betöltése",
+                "delete_file_a11y_label": "A(z) „{fileName}” fájl törlése",
+                "delete_confirmation": "Biztos, hogy törli a(z) „{fileName}” fájlt?",
                 "hide_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "A(z) „{fileName}” elrejtése a médiakezelőből",
+                    "btn_a11y_label_show": "A(z) „{fileName}” megjelenítése a médiakezelőben",
+                    "hide_confirmation": "Biztos, hogy elrejti a(z) „{fileName}” fájlt? A fájl elrejtése csak a médiakezelőjéből távolítja el, és nem lesz hatással a meglévő bejegyzésekre.",
+                    "hide_success": "A fájl elrejtve",
+                    "show_confirmation": "Biztos, hogy megjeleníti a(z) „{fileName}” fájlt? A fájl megjelenítése láthatóvá teszi a médiakezelőben.",
+                    "show_success": "A fájl megjelenítve",
+                    "hide_fail": "A(z) „{fileName}” nem rejthető el",
+                    "show_fail": "A(z) „{fileName}” nem jeleníthető meg",
+                    "loading": "A fájl elrejtése…"
                 },
                 "hide_shared_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
+                    "btn_a11y_label_hide": "A(z) „{fileName}” priváttá tétele (nem lesz nyilvános webcíme)",
+                    "btn_a11y_label_show": "A(z) „{fileName}” nyilvánossá tétele (nyilvános webcíme lesz)",
                     "hide_confirmation": "",
                     "hide_success": "",
                     "show_confirmation": "",
