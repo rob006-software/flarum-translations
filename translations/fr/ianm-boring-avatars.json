@@ -2,18 +2,18 @@
     "ianm-boring-avatars": {
         "admin": {
             "settings": {
-                "color1": "",
-                "color2": "",
-                "color3": "",
-                "color4": "",
-                "color5": "",
-                "identifier": "",
-                "identifier_help": "",
-                "identifier_id": "",
-                "identifier_display_name": "",
-                "identifier_email": "",
-                "theme": "",
-                "theme_help": ""
+                "color1": "Couleur 1",
+                "color2": "Couleur 2",
+                "color3": "Couleur 3",
+                "color4": "Couleur 4",
+                "color5": "Couleur 5",
+                "identifier": "Identifiant",
+                "identifier_help": "Utilisé pour générer un avatar unique pour chaque utilisateur.\n",
+                "identifier_id": "Identifiant de l'utilisateur",
+                "identifier_display_name": "Nom d'affichage",
+                "identifier_email": "Adresse de courriel",
+                "theme": "Thème",
+                "theme_help": "Le thème à utiliser pour les avatars ennuyeux.\n"
             }
         }
     },
@@ -21,9 +21,9 @@
         "lib": {
             "data": {
                 "boringavatar": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Ajoute l'avatar ennuyeux au fichier compressé d'exportation.",
+                    "anonymize_description": "Supprime l'avatar ennuyeux et en régénère un nouveau au hasard.",
+                    "delete_description": "Supprime l'avatar ennuyeux."
                 }
             }
         }
