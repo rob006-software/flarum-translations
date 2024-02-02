@@ -3,12 +3,15 @@
         "admin": {
             "settings": {
                 "canonical-urls": "Use canonical URLs for sharing",
-                "plain-copy": "Display plain URL copy"
+                "plain-copy": "Display plain URL copy",
+                "default-option": "Default share option",
+                "default-option-help": "Choosing a default option will convert the modal into a dropdown button.\nIf \"Native Share\" is selected, it will only be shown if the browser supports it, otherwise behavior reverts to original modal.\n"
             }
         },
         "forum": {
             "discussion": {
-                "share_button": "Share"
+                "share_button": "Share",
+                "share_dropdown_accessible_label": "Toggle discussion share dropdown menu"
             },
             "modal": {
                 "title": "Share",

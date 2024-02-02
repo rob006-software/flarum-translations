@@ -10,7 +10,8 @@
             "reacting-own-post": "Ви не можете реагувати на власний пост",
             "modal": {
                 "title": "Реакції",
-                "anonymous_count": "{count, plural, one {# анонімний користувач} other {# анонімні користувачі}}"
+                "anonymous_count": "{count, plural, one {# анонімний користувач} other {# анонімні користувачі}}",
+                "no_reactions": ""
             },
             "mod_item": "Перегляд реакцій",
             "react_button_label": "Реагувати"
@@ -18,7 +19,8 @@
         "admin": {
             "permissions": {
                 "react_posts_label": "Реагувати на дописи",
-                "see_reactions_label": "Подивіться, хто відреагував на дописи"
+                "see_reactions_label": "Подивіться, хто відреагував на дописи",
+                "delete_post_reactions_label": ""
             },
             "page": {
                 "cdn": {

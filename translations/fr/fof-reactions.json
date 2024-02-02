@@ -10,7 +10,8 @@
             "reacting-own-post": "Vous ne pouvez pas réagir à votre propre message",
             "modal": {
                 "title": "Réactions",
-                "anonymous_count": "{count, plural, one {# utilisateur anonyme} other {# utilisateurs anonymes}}"
+                "anonymous_count": "{count, plural, one {# utilisateur anonyme} other {# utilisateurs anonymes}}",
+                "no_reactions": ""
             },
             "mod_item": "Voir les réactions",
             "react_button_label": "Réagir"
@@ -18,7 +19,8 @@
         "admin": {
             "permissions": {
                 "react_posts_label": "Réagir aux messages",
-                "see_reactions_label": "Voir qui a réagi aux messages"
+                "see_reactions_label": "Voir qui a réagi aux messages",
+                "delete_post_reactions_label": ""
             },
             "page": {
                 "cdn": {

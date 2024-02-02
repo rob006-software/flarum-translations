@@ -3,12 +3,15 @@
         "admin": {
             "settings": {
                 "canonical-urls": "Utiliser des URL canoniques pour le partage",
-                "plain-copy": "Afficher la copie de l'URL en clair"
+                "plain-copy": "Afficher la copie de l'URL en clair",
+                "default-option": "",
+                "default-option-help": ""
             }
         },
         "forum": {
             "discussion": {
-                "share_button": "Partager"
+                "share_button": "Partager",
+                "share_dropdown_accessible_label": ""
             },
             "modal": {
                 "title": "Partager",
