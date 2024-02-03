@@ -11,7 +11,7 @@
             "modal": {
                 "title": "Реакції",
                 "anonymous_count": "{count, plural, one {# анонімний користувач} other {# анонімні користувачі}}",
-                "no_reactions": ""
+                "no_reactions": "Поки що немає реакцій"
             },
             "mod_item": "Перегляд реакцій",
             "react_button_label": "Реагувати"
@@ -20,12 +20,12 @@
             "permissions": {
                 "react_posts_label": "Реагувати на дописи",
                 "see_reactions_label": "Подивіться, хто відреагував на дописи",
-                "delete_post_reactions_label": ""
+                "delete_post_reactions_label": "Видалення реакцій для дописів"
             },
             "page": {
                 "cdn": {
                     "title": "CDN",
-                    "help": "За налаштуванням ми обслуговуємо реакції з CDN Cloudflare. Ви також можете вказати будь-яку іншу адресу CDN в міру необхідності. <code>[codepoint]</code> буде замінено на кодову точку емодзі. \n\nНаприклад, щоб переключитися на Noto Emoji через jsdelivr, потрібно ввести <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code >. Це поле НІКОЛИ не можна залишати порожнім.\n",
+                    "help": "За налаштуванням ми обслуговуємо реакції з CDN Cloudflare. Ви також можете вказати будь-яку іншу адресу CDN \nв міру необхідності. <code>[codepoint]</code> буде замінено на кодову точку емодзі. \n\nНаприклад, щоб переключитися на Noto Emoji через jsdelivr, потрібно ввести <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code >. Це поле НІКОЛИ не можна залишати порожнім.\n",
                     "label": "URL-адреса",
                     "default-url": "За налаштуванням: {url}"
                 },
