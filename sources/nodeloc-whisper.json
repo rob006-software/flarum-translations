@@ -1,0 +1,40 @@
+{
+    "nodeloc-whisper": {
+        "admin": {
+            "settings": {
+                "return_key": "Return key sends message",
+                "title": "Whisper Settings"
+            },
+            "permissions": {
+                "start_label": "Start private conversations"
+            }
+        },
+        "forum": {
+            "dropdown": {
+                "tooltip": "Conversations"
+            },
+            "modal": {
+                "title": "Send message",
+                "help": "Start typing a username to start a chat.",
+                "help_start": "Send message to {username}.",
+                "search_recipients": "Enter username...",
+                "submit": "Send",
+                "copied": "Your message has been copied to the clipboard.",
+                "more_users": "If you don't see the user you are looking for, they don't have private messaging setup.",
+                "already": "You already have a conversation with {username}."
+            },
+            "chat": {
+                "messages_single": "New conversation",
+                "messages_multiple": "{count} total messages",
+                "chat_with": "Send message",
+                "start": "Start Conversation",
+                "start_of_conversation": "Start of Conversation",
+                "read": "Read",
+                "cant_start": "Can't Start Conversation",
+                "text_placeholder": "Type your message",
+                "send": "Send Message",
+                "send_success": "Message sent success"
+            }
+        }
+    }
+}
